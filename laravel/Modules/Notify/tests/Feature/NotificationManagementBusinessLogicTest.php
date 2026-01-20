@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+uses(\Modules\Notify\Tests\TestCase::class);
+
 use Modules\Notify\Helpers\ConfigHelper;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\Notification;
@@ -296,7 +298,7 @@ describe('Notification Management Business Logic', function () {
             $notificationData = [
                 'type' => 'email',
                 'subject' => "Test Notification - {$priority} Priority",
-                'content' => 'This is a test notification with ' . $priority . ' priority',
+                'content' => 'This is a test notification with '.$priority.' priority',
                 'status' => 'pending',
                 'priority' => $priority,
             ];
@@ -510,7 +512,7 @@ describe('Notification Management Business Logic', function () {
                 'bounces' => true,
                 'complaints' => true,
             ],
-            'tracking_id' => 'track_' . uniqid(),
+            'tracking_id' => 'track_'.uniqid(),
         ];
 
         $notification = Notification::create($notificationData);

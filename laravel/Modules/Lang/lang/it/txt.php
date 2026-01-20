@@ -424,6 +424,8 @@ return [
             'helper_text' => 'test',
             'description' => 'test',
         ],
+<<<<<<< HEAD
+=======
         'view' => [
             'label' => 'view',
             'placeholder' => 'view',
@@ -436,6 +438,7 @@ return [
             'helper_text' => 'address',
             'description' => 'address',
         ],
+>>>>>>> laraxot/develop
     ],
     'actions' => [
         'authenticate' => [
@@ -483,6 +486,8 @@ return [
             'label' => 'showPassword',
             'tooltip' => 'showPassword',
         ],
+<<<<<<< HEAD
+=======
         'list_log_activities' => [
             'label' => 'list_log_activities',
             'icon' => 'list_log_activities',
@@ -504,5 +509,6 @@ return [
             'label' => 'address',
             'heading' => 'address',
         ],
+>>>>>>> laraxot/develop
     ],
 ];

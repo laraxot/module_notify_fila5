@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Modules\UI\Models\Asset;
 use Modules\UI\Models\Component;
 use Modules\UI\Models\Theme;
-use Modules\UI\Models\Asset;
 
 /*
  * |--------------------------------------------------------------------------
@@ -32,11 +32,11 @@ uses(TestCase::class)->uses(DatabaseTransactions::class)->in('Feature', 'Unit');
  * |
  */
 
-expect()->extend('toBeComponent', fn() => $this->toBeInstanceOf(Component::class));
+expect()->extend('toBeComponent', fn () => $this->toBeInstanceOf(Component::class));
 
-expect()->extend('toBeTheme', fn() => $this->toBeInstanceOf(Theme::class));
+expect()->extend('toBeTheme', fn () => $this->toBeInstanceOf(Theme::class));
 
-expect()->extend('toBeAsset', fn() => $this->toBeInstanceOf(Asset::class));
+expect()->extend('toBeAsset', fn () => $this->toBeInstanceOf(Asset::class));
 
 /*
  * |--------------------------------------------------------------------------

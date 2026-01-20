@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'navigation' => [
         'label' => 'Registrazione Studio',
@@ -186,6 +185,18 @@ return [
         ],
         'register' => [
             'label' => 'register',
+            'tooltip' => 'register',
+            'icon' => 'register',
+        ],
+        'logout' => [
+            'tooltip' => 'logout',
+            'icon' => 'logout',
+            'label' => 'logout',
+        ],
+        'profile' => [
+            'tooltip' => 'profile',
+            'icon' => 'profile',
+            'label' => 'profile',
         ],
     ],
     'steps' => [
@@ -240,4 +251,6 @@ return [
         'contact_info' => 'I dati di contatto inseriti verranno utilizzati per tutte le comunicazioni ufficiali',
         'data_protection' => 'Tutti i dati sono protetti secondo le normative europee GDPR',
     ],
+    'label' => '',
+    'plural_label' => '',
 ];

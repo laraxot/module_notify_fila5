@@ -5,41 +5,72 @@ declare(strict_types=1);
 namespace Modules\User\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
-use Laravel\Passport\PersonalAccessClient as PassportPersonalAccessClient;
+use Modules\Xot\Models\Traits\HasXotFactory;
 
 /**
- * Modules\User\Models\OauthPersonalAccessClient.
+ * OAuth Personal Access Client model.
  *
- * @property string $uuid
- * @property string $client_id
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
+ * <<<<<<< HEAD
+ * =======
+ *
+ * >>>>>>> 024bfed1 (.)
+ *
+ * @property string           $uuid
+ * @property string           $client_id
+ * @property Carbon|null      $created_at
+ * @property Carbon|null      $updated_at
+ * @property string|null      $updated_by
+ * @property string|null      $created_by
+ * @property int              $id
+ * @property string           $uuid
+ * @property string           $client_id
+ * @property Carbon|null      $created_at
+ * @property Carbon|null      $updated_at
+ * @property string|null      $updated_by
+ * @property string|null      $created_by
+ * @property int              $id
  * @property OauthClient|null $client
+ *                                        <<<<<<< HEAD
+ * @property string           $uuid
+ *                                        =======
+ * @property string           $uuid
+ *                                        >>>>>>> 024bfed1 (.)
+ * @property string           $client_id
+ * @property Carbon|null      $created_at
+ * @property Carbon|null      $updated_at
+ * @property string|null      $updated_by
+ * @property string|null      $created_by
+ * @property int              $id
+ * @property OauthClient|null $client
+ *
  * @method static Builder|OauthPersonalAccessClient newModelQuery()
  * @method static Builder|OauthPersonalAccessClient newQuery()
  * @method static Builder|OauthPersonalAccessClient query()
  * @method static Builder|OauthPersonalAccessClient whereClientId($value)
- * @method static Builder|OauthPersonalAccessClient whereCreatedAt($value)
  * @method static Builder|OauthPersonalAccessClient whereUpdatedAt($value)
  * @method static Builder|OauthPersonalAccessClient whereUuid($value)
- * @property int $id
  * @method static Builder|OauthPersonalAccessClient whereId($value)
- * @property string|null $updated_by
- * @property string|null $created_by
  * @method static Builder|OauthPersonalAccessClient whereCreatedBy($value)
  * @method static Builder|OauthPersonalAccessClient whereUpdatedBy($value)
- * @mixin IdeHelperOauthPersonalAccessClient
+ *
  * @mixin \Eloquent
  */
-class OauthPersonalAccessClient extends PassportPersonalAccessClient
+class OauthPersonalAccessClient extends BaseModel
 {
-    /** @var string */
-    protected $connection = 'user';
+    use HasXotFactory;
 
-    // protected $primaryKey = 'uuid';
     /** @var string */
-    protected $keyType = 'string';
+    protected $table = 'oauth_personal_access_clients';
 
-    // protected $fillable = ['id', 'client_id'];
+    /**
+     * Get the OAuth client that this personal access client belongs to.
+     *
+     * @return BelongsTo<OauthClient, $this>
+     */
+    public function client(): BelongsTo
+    {
+        return $this->belongsTo(OauthClient::class, 'client_id');
+    }
 }

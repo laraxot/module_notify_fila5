@@ -18,18 +18,29 @@ Il file `Modules/Lang/app/Filament/Resources/TranslationFileResource/Pages/EditT
         // Salva le traduzioni nel file
         try {
             $this->record->saveTranslations($data['content']);
+<<<<<<< HEAD
+            
+=======
 
+>>>>>>> laraxot/develop
             Notification::make()
                 ->title('Traduzioni salvate con successo')
                 ->success()
                 ->send();
+<<<<<<< HEAD
+                
+=======
 
+>>>>>>> laraxot/develop
         } catch (\Exception $e) {
             Notification::make()
                 ->title('Errore durante il salvataggio')
                 ->body($e->getMessage())
                 ->danger()
                 ->send();
+<<<<<<< HEAD
+                
+=======
 
             // Previeni il salvataggio se c'è un errore
             $this->halt();
@@ -123,6 +134,7 @@ Il file `Modules/Lang/app/Filament/Resources/TranslationFileResource/Pages/EditT
                 ->danger()
                 ->send();
 
+>>>>>>> laraxot/develop
             // Previeni il salvataggio se c'è un errore
             $this->halt();
         }

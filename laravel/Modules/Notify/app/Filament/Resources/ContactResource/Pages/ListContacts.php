@@ -4,15 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 
-use Override;
-use Filament\Tables;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Override;
 
 class ListContacts extends XotBaseListRecords
 {
@@ -37,9 +35,9 @@ class ListContacts extends XotBaseListRecords
     public function getTableFilters(): array
     {
         return [
-            'active' => Filter::make('active')->query(fn(Builder $query): Builder => $query->where('active', true)),
+            'active' => Filter::make('active')->query(fn (Builder $query): Builder => $query->where('active', true)),
             'inactive' => Filter::make('inactive')->query(
-                fn(Builder $query): Builder => $query->where('active', false),
+                fn (Builder $query): Builder => $query->where('active', false),
             ),
         ];
     }

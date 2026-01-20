@@ -35,13 +35,27 @@ L'analisi PHPStan di livello 1 non ha rilevato errori nel modulo Lang. Questo è
    - Testare i casi edge delle traduzioni
 ### Versione HEAD
 
+<<<<<<< HEAD
+   - Verificare il comportamento con lingue diverse 
+=======
    - Verificare il comportamento con lingue diverse
+>>>>>>> laraxot/develop
 ## Collegamenti tra versioni di phpstan_report.md
 * [phpstan_report.md](../../../Lang/project_docs/phpstan_report.md)
 * [phpstan_report.md](../../../Media/project_docs/phpstan_report.md)
 
+<<<<<<< HEAD
+
+### Versione Incoming
+
+   - Verificare il comportamento con lingue diverse 
+
+---
+
+=======
 ### Versione Incoming
 
    - Verificare il comportamento con lingue diverse
 
 ---
+>>>>>>> laraxot/develop

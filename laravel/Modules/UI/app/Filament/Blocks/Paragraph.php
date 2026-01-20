@@ -9,12 +9,11 @@ use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 // use Modules\Xot\Actions\View\GetViewsSiblingsAndSelfAction;
-use \Filament\Forms\Forms\Components\RadioImage;
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 
-class Paragraph
+final class Paragraph
 {
-    public static function make(string $name = 'paragraph', string $_context = 'form'): Block
+    public static function make(string $name = 'paragraph', string $context = 'form'): Block
     {
         // $view = 'ui::components.blocks.paragraph.v1';
         // $views = app(GetViewsSiblingsAndSelfAction::class)->execute($view);

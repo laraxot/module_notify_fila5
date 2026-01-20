@@ -10,7 +10,8 @@ use Modules\Notify\Actions\NotifyTheme\Get;
 use Modules\Notify\Datas\AttachmentData;
 use Spatie\LaravelData\DataCollection;
 use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
+
+use function Safe\mb_convert_encoding;
 
 class BuildMailMessageAction
 {
@@ -23,7 +24,7 @@ class BuildMailMessageAction
         string $name,
         Model $model,
         array $view_params = [],
-        null|DataCollection $dataCollection = null,
+        ?DataCollection $dataCollection = null,
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -37,23 +38,29 @@ class BuildMailMessageAction
         $subject = $view_params['subject'] ?? $theme->subject;
 
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
-        if (!is_string($fromAddress)) {
+        if (! is_string($fromAddress)) {
             $fromAddress = '';
         }
 
         // Il nome del mittente può essere null
-        if ($fromName !== null && !is_string($fromName)) {
+        if ($fromName !== null && ! is_string($fromName)) {
             $fromName = '';
         }
 
-        if (!is_string($subject)) {
+        if (! is_string($subject)) {
             $subject = 'Notifica';
         }
 
-        $email = new MailMessage()
+        $bodyHtml = $this->decodeRichText($theme->body_html);
+        $subject = $this->decodeRichText($subject);
+        $viewParams = $theme->view_params;
+        $viewParams['body_html'] = $bodyHtml;
+        $viewParams['subject'] = $subject;
+
+        $email = (new MailMessage)
             ->from($fromAddress, $fromName)
             ->subject($subject)
-            ->view($view_html, $theme->view_params);
+            ->view($view_html, $viewParams);
 
         if ($dataCollection instanceof DataCollection) {
             foreach ($dataCollection as $attachment) {
@@ -62,5 +69,21 @@ class BuildMailMessageAction
         }
 
         return $email;
+    }
+
+    private function decodeRichText(?string $content): string
+    {
+        if ($content === null) {
+            return '';
+        }
+
+        $decoded = (string) html_entity_decode($content, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+
+        if (! mb_check_encoding($decoded, 'UTF-8') || str_contains($decoded, 'Ã') || str_contains($decoded, 'Â')) {
+            $converted = mb_convert_encoding($decoded, 'UTF-8', 'ISO-8859-1');
+            $decoded = is_string($converted) ? $converted : '';
+        }
+
+        return $decoded;
     }
 }

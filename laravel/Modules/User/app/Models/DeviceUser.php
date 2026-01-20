@@ -4,34 +4,37 @@ declare(strict_types=1);
 
 namespace Modules\User\Models;
 
-use Override;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
+use Modules\User\Database\Factories\DeviceUserFactory;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
+use Modules\Xot\Models\Traits\HasXotFactory;
 
 /**
  * Modules\User\Models\DeviceUser.
  *
  * @property Device|null $device
+ *
  * @method static Builder|DeviceUser newModelQuery()
  * @method static Builder|DeviceUser newQuery()
  * @method static Builder|DeviceUser query()
- * @property string $id
- * @property string $device_id
- * @property string $user_id
+ *
+ * @property string      $id
+ * @property string      $device_id
+ * @property string      $user_id
  * @property Carbon|null $login_at
  * @property Carbon|null $logout_at
  * @property string|null $push_notifications_token
- * @property bool|null $push_notifications_enabled
+ * @property bool|null   $push_notifications_enabled
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_by
+ *
  * @method static Builder|DeviceUser whereCreatedAt($value)
  * @method static Builder|DeviceUser whereCreatedBy($value)
  * @method static Builder|DeviceUser whereDeviceId($value)
@@ -43,16 +46,23 @@ use Modules\Xot\Datas\XotData;
  * @method static Builder|DeviceUser whereUpdatedAt($value)
  * @method static Builder|DeviceUser whereUpdatedBy($value)
  * @method static Builder|DeviceUser whereUserId($value)
+ *
  * @property ProfileContract|null $profile
- * @property UserContract|null $user
+ * @property UserContract|null    $user
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ *
  * @mixin IdeHelperDeviceUser
+ *
+ * @property ProfileContract|null $deleter
+ *
+ * @method static DeviceUserFactory factory($count = null, $state = [])
+ *
  * @mixin \Eloquent
  */
 class DeviceUser extends BasePivot
 {
-    use HasFactory;
+    use HasXotFactory;
 
     /** @var list<string> */
     protected $fillable = [
@@ -89,14 +99,14 @@ class DeviceUser extends BasePivot
      */
     public function profile(): BelongsTo
     {
-        /* @var class-string<Model> */
+        /** @var class-string<Model> */
         $profileClass = XotData::make()->getProfileClass();
 
         return $this->belongsTo($profileClass, 'user_id', 'user_id');
     }
 
     /** @return array<string, string> */
-    #[Override]
+    #[\Override]
     protected function casts(): array
     {
         return [

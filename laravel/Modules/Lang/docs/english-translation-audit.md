@@ -146,8 +146,13 @@ I seguenti file sono stati identificati come contenenti testo in italiano e nece
 - `Modules/Geo/lang/en/setting.php`
 - `Modules/Cms/lang/en/calendar.php`
 - `Modules/Cms/lang/en/txt.php`
+<<<<<<< HEAD
+- `Modules/<nome modulo>/lang/en/patient.php`
+- `Modules/<nome modulo>/lang/en/doctor.php`
+=======
 - `Modules/<nome progetto>/lang/en/patient.php`
 - `Modules/<nome progetto>/lang/en/doctor.php`
+>>>>>>> laraxot/develop
 - `Modules/Xot/lang/en/panel.php`
 - `Modules/Xot/lang/en/artisan-commands-manager.php`
 - `Modules/Xot/lang/en/extra.php`
@@ -299,6 +304,9 @@ return array(
 ---
 
 **Ultimo aggiornamento**: 2025-01-06
+<<<<<<< HEAD
+**Status**: In corso 
+=======
 **Status**: In corso
 # Audit Traduzioni Inglesi - <nome progetto>
 
@@ -602,3 +610,4 @@ return array(
 
 **Ultimo aggiornamento**: 2025-01-06
 **Status**: In corso
+>>>>>>> laraxot/develop

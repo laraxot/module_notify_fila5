@@ -4,22 +4,30 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Enums;
 
-use Filament\Forms\Components\TextInput;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
-use Illuminate\Support\Arr;
-use Modules\Xot\Filament\Traits\TransTrait;
+use Illuminate\Database\Schema\Blueprint;
+use Modules\Xot\Traits\EnumTrait;
 
 /**
- * Enum per i driver SMS supportati
+ * Enum per i tipi di contatto
  *
- * Questo enum centralizza la gestione dei driver SMS disponibili
- * e fornisce metodi helper per ottenere le opzioni e le etichette.
+ * Questo enum centralizza la definizione di **tutti i possibili campi di contatto** nel sistema.
+ * Come AddressItemEnum per gli indirizzi, ContactTypeEnum è lo schema vivente per i contatti.
+ *
+ * Definisce:
+ * - **Label tradotti** in tutte le lingue supportate (en, it, de)
+ * - **Icone Heroicon** per ogni campo
+ * - **Colori** per categorizzazione visiva
+ * - **Descrizioni** contestuali
+ *
+ * Ogni valore rappresenta un **componente atomico** di contatto (phone, email, fax, ecc.)
+ * e fornisce metodi helper per migrazioni, form Filament, e gestione centralizzata.
  */
-enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
+enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
 {
-    use TransTrait;
+    use EnumTrait;
 
     case PHONE = 'phone';
     case MOBILE = 'mobile';
@@ -28,37 +36,44 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
     case WHATSAPP = 'whatsapp';
     case FAX = 'fax';
 
-    public function getLabel(): string
+    /**
+     * Internal map of standard contact column definitions.
+     *
+     * @return array<string, callable(Blueprint): void>
+     */
+    public static function getColumnDefinitions(): array
     {
-        return $this->transClass(self::class, $this->value . '.label');
-    }
-
-    public function getColor(): string
-    {
-        return $this->transClass(self::class, $this->value . '.color');
-    }
-
-    public function getIcon(): string
-    {
-        return $this->transClass(self::class, $this->value . '.icon');
-    }
-
-    public function getDescription(): string
-    {
-        return $this->transClass(self::class, $this->value . '.description');
-    }
-
-    public static function getSearchable(): array
-    {
-        return array_map(fn($item) => $item->value, ContactTypeEnum::cases());
-    }
-
-    public static function getFormSchema(): array
-    {
-        $res = Arr::map(
-            ContactTypeEnum::cases(),
-            fn($item) => TextInput::make($item->value)->prefixIcon($item->getIcon()),
-        );
-        return $res;
+        return [
+            self::PHONE->value => static function (Blueprint $table): void {
+                $table->string(self::PHONE->value)
+                    ->nullable()
+                    ->comment('Landline phone number');
+            },
+            self::MOBILE->value => static function (Blueprint $table): void {
+                $table->string(self::MOBILE->value)
+                    ->nullable()
+                    ->comment('Mobile phone number');
+            },
+            self::EMAIL->value => static function (Blueprint $table): void {
+                $table->string(self::EMAIL->value)
+                    ->nullable()
+                    ->comment('Email address');
+            },
+            self::PEC->value => static function (Blueprint $table): void {
+                $table->string(self::PEC->value)
+                    ->nullable()
+                    ->comment('Certified Electronic Mail (PEC)');
+            },
+            self::WHATSAPP->value => static function (Blueprint $table): void {
+                $table->string(self::WHATSAPP->value)
+                    ->nullable()
+                    ->comment('WhatsApp number');
+            },
+            self::FAX->value => static function (Blueprint $table): void {
+                $table->string(self::FAX->value)
+                    ->nullable()
+                    ->comment('Fax number');
+            },
+        ];
     }
 }

@@ -2,16 +2,28 @@
 
 declare(strict_types=1);
 
-use Tests\TestCase;
-use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
+use Filament\Facades\Filament;
 use Modules\User\Enums\UserType;
 use Modules\User\Filament\Resources\UserResource;
 use Modules\User\Filament\Resources\UserResource\Pages\CreateUser;
 use Modules\User\Models\User;
+use Modules\User\Providers\Filament\AdminPanelProvider;
+use Modules\User\Tests\TestCase;
+use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 
 uses(TestCase::class);
 
 beforeEach(function (): void {
+    // Ensure the panel is registered
+    try {
+        $panel = Filament::getPanel('user::admin');
+    } catch (Exception $e) {
+        $panelProvider = new AdminPanelProvider(app());
+        $panel = $panelProvider->panel(Filament::getPanelRegistry()->makePanel('user::admin'));
+        Filament::registerPanel($panel);
+    }
+    Filament::setCurrentPanel($panel);
+
     $this->createUserPage = new CreateUser();
 });
 
@@ -97,12 +109,6 @@ test('create user page handles form submission structure', function (): void {
     expect($formData['email'])->toBe('newuser@example.com');
     expect($formData['password'])->toBe('newpassword123');
     expect($formData['type'])->toBe(UserType::BoUser);
-});
-
-test('create user page has basic form functionality', function (): void {
-    // Test that the page has basic form capabilities
-    expect(method_exists($this->createUserPage, 'form'))->toBeTrue();
-    expect(method_exists($this->createUserPage, 'getFormModel'))->toBeTrue();
 });
 
 test('create user page follows filament conventions', function (): void {

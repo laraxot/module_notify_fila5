@@ -9,6 +9,9 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Webmozart\Assert\Assert;
 
 // use Squire\Models\Country;
@@ -24,7 +27,7 @@ class AddressField extends Field
     {
         parent::setUp();
 
-        $this->afterStateHydrated(function (AddressField $_component, ?Model $record) {
+        $this->afterStateHydrated(function (AddressField $_component, mixed $record) {
             $data = [
                 'country' => null,
                 'street' => null,
@@ -33,11 +36,14 @@ class AddressField extends Field
                 'zip' => null,
             ];
 
-            // if ($record && method_exists($record, 'getRelationValue')) {
+            if (! ($record instanceof Model)) {
+                return;
+            }
+
             $relationship = $this->getRelationship();
-            if ($relationship && $record?->relationLoaded($relationship)) {
+            if ($relationship && $record->relationLoaded($relationship)) {
                 $address = $record->getRelationValue($relationship);
-                if ($address !== null && is_object($address) && method_exists($address, 'toArray')) {
+                if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
                     $data = $address->toArray();
                 }
             }
@@ -57,22 +63,40 @@ class AddressField extends Field
 
     public function saveRelationships(): void
     {
-        $state = $this->getState();
-        $record = $this->getRecord();
-        $relationship = $record->{$this->getRelationship()}();
-
-        if ($relationship === null) {
+        $rawState = $this->getState();
+        if (! is_array($rawState)) {
             return;
         }
-        if ($address = $relationship->first()) {
-            $address->update($state);
-        } else {
-            $relationship->updateOrCreate($state);
+
+        /** @var array<string, mixed> $state */
+        $state = $rawState;
+
+        $record = $this->getRecord();
+        if (! $record instanceof Model) {
+            return;
         }
 
-        if ($record instanceof Model) {
-            $record->touch();
+        $relationshipMethod = $this->getRelationship();
+        if (! method_exists($record, $relationshipMethod)) {
+            return;
         }
+
+        $relationship = $record->{$relationshipMethod}();
+        if (! $relationship instanceof HasOne
+            && ! $relationship instanceof MorphOne
+            && ! $relationship instanceof HasMany) {
+            return;
+        }
+
+        /** @var Model|null $address */
+        $address = $relationship->first();
+        if ($address instanceof Model) {
+            $address->update($state);
+        } else {
+            $relationship->updateOrCreate([], $state);
+        }
+
+        $record->touch();
     }
 
     public function getDefaultChildComponents(?string $key = null): array

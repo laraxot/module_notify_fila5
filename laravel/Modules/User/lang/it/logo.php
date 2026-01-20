@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'logo' => [
@@ -27,6 +26,21 @@ return [
     'actions' => [
         'updateLogoAction' => [
             'label' => 'updateLogoAction',
+            'tooltip' => 'updateLogoAction',
+            'icon' => 'updateLogoAction',
         ],
     ],
+    'navigation' => [
+        'name' => 'Logo',
+        'plural' => 'Logo',
+        'group' => [
+            'name' => 'Aspetto',
+            'description' => 'Personalizzazione dell\'aspetto del sistema',
+        ],
+        'label' => 'Logo',
+        'sort' => 10,
+        'icon' => 'heroicon-o-photo',
+    ],
+    'label' => '',
+    'plural_label' => '',
 ];

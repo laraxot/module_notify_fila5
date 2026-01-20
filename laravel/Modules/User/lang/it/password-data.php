@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'password' => [
@@ -27,4 +26,8 @@ return [
             ],
         ],
     ],
+    'navigation' => [],
+    'label' => '',
+    'plural_label' => '',
+    'actions' => [],
 ];

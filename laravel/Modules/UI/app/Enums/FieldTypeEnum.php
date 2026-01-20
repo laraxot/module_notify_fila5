@@ -17,20 +17,20 @@ use Modules\Xot\Filament\Traits\TransTrait;
 /**
  * Defines the different types of appointments in the system.
  *
- * @method static self fromName(string $name)
- * @method static self fromValue(string $value)
- * @method static self tryFromName(string $name)
- * @method static self tryFromValue(string $value)
- * @method static self[] cases()
+ * @method static self        fromName(string $name)
+ * @method static self        fromValue(string $value)
+ * @method static self        tryFromName(string $name)
+ * @method static self        tryFromValue(string $value)
+ * @method static array<self> cases()
  */
-enum FieldTypeEnum: string implements HasLabel, HasIcon, HasColor
+enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
 
     case TEXT = 'text';
-    //case NUMBER   = 'number';
+    // case NUMBER   = 'number';
     case EMAIL = 'email';
-    //case PASSWORD = 'password';
+    // case PASSWORD = 'password';
     case TEXTAREA = 'textarea';
     case SELECT = 'select';
     case RADIO = 'radio';
@@ -41,21 +41,21 @@ enum FieldTypeEnum: string implements HasLabel, HasIcon, HasColor
 
     public function getLabel(): string
     {
-        return $this->transClass(self::class, $this->value . '.label');
+        return $this->transClass(self::class, $this->value.'.label');
     }
 
     public function getColor(): string
     {
-        return $this->transClass(self::class, $this->value . '.color');
+        return $this->transClass(self::class, $this->value.'.color');
     }
 
     public function getIcon(): string
     {
-        return $this->transClass(self::class, $this->value . '.icon');
+        return $this->transClass(self::class, $this->value.'.icon');
     }
 
     public function getDescription(): string
     {
-        return $this->transClass(self::class, $this->value . '.description');
+        return $this->transClass(self::class, $this->value.'.description');
     }
 }

@@ -4,35 +4,35 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Clusters\Appearance\Pages;
 
-use Filament\Schemas\Schema;
 use Filament\Actions\Action;
-use Filament\Forms;
 use Filament\Forms\Components\ColorPicker;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Pages\Page;
+use Filament\Schemas\Schema;
 use Filament\Support\Exceptions\Halt;
 use Illuminate\Database\Eloquent\Model;
 use Modules\User\Filament\Clusters\Appearance;
+use Modules\Xot\Filament\Pages\XotBasePage;
 
 /**
+ * Pagina Background nel Cluster Appearance.
+ *
+ * ⚠️ IMPORTANTE: Estende XotBasePage (Standalone), MAI Filament\Pages\Page!
+ *
  * @property Schema $form
+ *
+ * @see XotBasePage
+ * @see \Modules\User\docs\errori\class-page-not-found.md
  */
-class Background extends Page implements HasForms
+class Background extends XotBasePage
 {
-    use InteractsWithForms;
-
-    public null|array $data = [];
-
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+    // $data è già definita in XotBasePage, non ridichiarare!
 
     protected string $view = 'user::filament.clusters.appearance.pages.background';
 
-    protected static null|string $cluster = Appearance::class;
+    protected static ?string $cluster = Appearance::class;
 
-    protected static null|int $navigationSort = 2;
+    protected static ?int $navigationSort = 2;
 
     public function mount(): void
     {
@@ -46,7 +46,7 @@ class Background extends Page implements HasForms
     //    ];
     // }
 
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
         return $schema
             ->components([
@@ -97,7 +97,7 @@ class Background extends Page implements HasForms
     }
 
     /**
-     * @param  array<string, mixed>  $data
+     * @param array<string, mixed> $data
      */
     protected function handleRecordUpdate(Model $record, array $data): Model
     {

@@ -10,7 +10,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
  * Class CreateExtraTable.
  */
 return new class extends XotBaseMigration {
-    protected null|string $model_class = Extra::class;
+    protected ?string $model_class = Extra::class;
 
     /**
      * Run the migrations.
@@ -21,7 +21,7 @@ return new class extends XotBaseMigration {
         $this->tableCreate(static function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
-            $table->schemalessAttributes('extra_attributes');
+            $table->json('extra_attributes')->nullable();
         });
 
         // -- UPDATE --
@@ -34,7 +34,7 @@ return new class extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
 
-            if ($this->hasColumn('model_id') && $this->getColumnType('model_id') === 'bigint') {
+            if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
                 $table->string('model_id', 36)->index()->change();
             }
         });

@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'background_color' => [
@@ -35,4 +34,17 @@ return [
             'label' => 'updateAction',
         ],
     ],
+    'navigation' => [
+        'name' => 'Favicon',
+        'plural' => 'Favicon',
+        'group' => [
+            'name' => 'Aspetto',
+            'description' => 'Personalizzazione dell\'aspetto del sistema',
+        ],
+        'label' => 'Favicon',
+        'sort' => 12,
+        'icon' => 'heroicon-o-star',
+    ],
+    'label' => '',
+    'plural_label' => '',
 ];

@@ -7,12 +7,11 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\TenantResource\Pages;
 
-use Override;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Support\Str;
 use Modules\User\Filament\Resources\TenantResource;
+use Modules\User\Models\Tenant;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 class ListTenants extends XotBaseListRecords
 {
@@ -21,7 +20,7 @@ class ListTenants extends XotBaseListRecords
     /**
      * Definisce le colonne della tabella per la lista tenant.
      */
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
         return [
@@ -29,12 +28,16 @@ class ListTenants extends XotBaseListRecords
             'name' => TextColumn::make('name')->searchable(),
             'slug' => TextColumn::make('slug')
                 ->default(function ($record) {
-                    if ($record === null) {
+                    if (null === $record || ! $record instanceof Tenant) {
                         return '';
                     }
                     $record->generateSlug();
-                    $slug = Str::slug($record->name);
-                    $record->slug = $slug;
+                    $name = $record->getAttribute('name');
+                    if (! is_string($name)) {
+                        $name = '';
+                    }
+                    $slug = Str::slug($name);
+                    $record->setAttribute('slug', $slug);
                     $record->save();
 
                     return $slug;

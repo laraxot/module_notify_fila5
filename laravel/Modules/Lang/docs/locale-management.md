@@ -88,26 +88,42 @@ class SetLocale
         if (Session::has('locale')) {
             App::setLocale(Session::get('locale'));
         }
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         // 2. Verifica la lingua nell'URL (se usi mcamara/laravel-localization)
         $locale = $request->segment(1);
         if (in_array($locale, config('laravellocalization.supportedLocales'))) {
             App::setLocale($locale);
             Session::put('locale', $locale);
         }
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         // 3. Verifica l'header Accept-Language
         if (!$request->hasHeader('X-Language')) {
             $preferredLanguage = $request->getPreferredLanguage(
                 array_keys(config('laravellocalization.supportedLocales'))
             );
+<<<<<<< HEAD
+            
+=======
 
+>>>>>>> laraxot/develop
             if ($preferredLanguage) {
                 App::setLocale($preferredLanguage);
                 Session::put('locale', $preferredLanguage);
             }
         }
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         return $next($request);
     }
 }
@@ -153,7 +169,11 @@ try {
     if (App::isLocale('it')) {
         return response()->view('errors.custom', ['message' => 'Si è verificato un errore'], 500);
     }
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> laraxot/develop
     return response()->view('errors.custom', ['message' => 'An error occurred'], 500);
 }
 ```
@@ -167,10 +187,17 @@ try {
 public function boot()
 {
     parent::boot();
+<<<<<<< HEAD
+    
+    // Imposta la lingua all'avvio
+    $this->app->setLocale(config('app.locale'));
+    
+=======
 
     // Imposta la lingua all'avvio
     $this->app->setLocale(config('app.locale'));
 
+>>>>>>> laraxot/develop
     // Altri boot...
 }
 ```
@@ -210,6 +237,13 @@ if (! function_exists('get_locale_name')) {
 function translate_with_fallback($key, $replace = [], $locale = null)
 {
     $translation = __($key, $replace, $locale);
+<<<<<<< HEAD
+    
+    if ($translation === $key && App::getLocale() !== config('app.fallback_locale')) {
+        $translation = __($key, $replace, config('app.fallback_locale'));
+    }
+    
+=======
 
     if ($translation === $key && App::getLocale() !== config('app.fallback_locale')) {
         $translation = __($key, $replace, config('app.fallback_locale'));
@@ -478,6 +512,7 @@ function translate_with_fallback($key, $replace = [], $locale = null)
         $translation = __($key, $replace, config('app.fallback_locale'));
     }
 
+>>>>>>> laraxot/develop
     return $translation;
 }
 ```

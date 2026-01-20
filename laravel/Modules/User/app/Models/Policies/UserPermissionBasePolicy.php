@@ -9,7 +9,6 @@ declare(strict_types=1);
 
 namespace Modules\User\Models\Policies;
 
-use Exception;
 use Illuminate\Auth\Access\HandlesAuthorization;
 use Illuminate\Support\Str;
 use Modules\User\Models\Permission;
@@ -21,7 +20,7 @@ abstract class UserPermissionBasePolicy
 {
     use HandlesAuthorization;
 
-    public function before(UserContract $user, string $ability): null|bool
+    public function before(UserContract $user, string $ability): ?bool
     {
         if ($user->hasRole('super-admin')) {
             return true;
@@ -31,12 +30,12 @@ abstract class UserPermissionBasePolicy
         $permission_name = Str::of($class_name)
             ->before('Policy')
             ->lower()
-            ->append('.' . $ability)
+            ->append('.'.$ability)
             ->toString();
 
         try {
             Permission::firstOrCreate(['name' => $permission_name]);
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             // dddx($e);
         }
         if ($user->hasPermissionTo($permission_name)) {

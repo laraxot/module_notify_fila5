@@ -4,29 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\TenantResource\RelationManagers;
 
+use Filament\Forms\Components\DateTimePicker;
+use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Filament\Tables\Columns\Column;
-use Override;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\DateTimePicker;
-use Filament\Forms;
-use Filament\Schemas\Schema;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-use Modules\Xot\Filament\Traits\HasXotTable;
 
 class UsersRelationManager extends XotBaseRelationManager
 {
-    use HasXotTable;
-
     protected static string $relationship = 'users';
 
-    protected static null|string $recordTitleAttribute = 'name';
+    protected static ?string $recordTitleAttribute = 'name';
 
     /**
      * @return array<Component>
      */
-    #[Override]
+    #[\Override]
     public function getFormSchema(): array
     {
         return [
@@ -39,14 +33,14 @@ class UsersRelationManager extends XotBaseRelationManager
             DateTimePicker::make('email_verified_at')->nullable(),
             TextInput::make('password')
                 ->password()
-                ->required(fn($context) => $context === 'create')
+                ->required(fn ($context) => 'create' === $context)
                 ->minLength(8)
                 ->same('password_confirmation')
                 ->dehydrated(filled(...))
                 ->dehydrateStateUsing(bcrypt(...)),
             TextInput::make('password_confirmation')
                 ->password()
-                ->required(fn($context) => $context === 'create')
+                ->required(fn ($context) => 'create' === $context)
                 ->minLength(8),
         ];
     }
@@ -54,7 +48,7 @@ class UsersRelationManager extends XotBaseRelationManager
     /**
      * @return array<string, Column>
      */
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
         return [

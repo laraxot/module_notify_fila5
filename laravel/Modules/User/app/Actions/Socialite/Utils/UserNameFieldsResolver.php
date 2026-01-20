@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\User\Actions\Socialite\Utils;
 
-use InvalidArgumentException;
-use ReflectionClass;
-use ReflectionException;
 use Illuminate\Support\Str;
 use Illuminate\Support\Stringable;
 use Laravel\Socialite\Contracts\User;
@@ -20,11 +17,11 @@ final readonly class UserNameFieldsResolver
 
     private const SURNAME_SEARCH = 'after';
 
-    public  null|string $name;
+    public ?string $name;
 
-    public  null|string $first_name;
+    public ?string $first_name;
 
-    public  null|string $last_name;
+    public ?string $last_name;
 
     public function __construct(User $user)
     {
@@ -49,16 +46,16 @@ final readonly class UserNameFieldsResolver
     }
 
     /**
-     * @param  string $searchMethod  use self constants (NAME_SEARCH, SURNAME_SEARCH)
+     * @param string $searchMethod use self constants (NAME_SEARCH, SURNAME_SEARCH)
      */
     private function resolveNameFields(User $idpUser, string $searchMethod): string
     {
-        if (!in_array($searchMethod, [self::NAME_SEARCH, self::SURNAME_SEARCH], strict: true)) {
-            throw new InvalidArgumentException('Metodo di ricerca non valido');
+        if (! in_array($searchMethod, [self::NAME_SEARCH, self::SURNAME_SEARCH], strict: true)) {
+            throw new \InvalidArgumentException('Metodo di ricerca non valido');
         }
 
         $name = $idpUser->getName();
-        if (!is_string($name) || empty($name)) {
+        if (! is_string($name) || empty($name)) {
             return '';
         }
 
@@ -71,7 +68,7 @@ final readonly class UserNameFieldsResolver
         // Ottenere i dati raw in modo sicuro attraverso reflection
         $raw = [];
         try {
-            $reflection = new ReflectionClass($idpUser);
+            $reflection = new \ReflectionClass($idpUser);
             if ($reflection->hasMethod('getRaw')) {
                 $method = $reflection->getMethod('getRaw');
                 $method->setAccessible(true);
@@ -87,13 +84,13 @@ final readonly class UserNameFieldsResolver
                     $raw = $userData;
                 }
             }
-        } catch (ReflectionException $e) {
+        } catch (\ReflectionException $e) {
             // Fallback silenzioso
         }
 
         // Tenta di ottenere un nome dai dati raw
         $nameField = '';
-        if (isset($raw['name']) && is_string($raw['name']) && !empty($raw['name'])) {
+        if (isset($raw['name']) && is_string($raw['name']) && ! empty($raw['name'])) {
             $nameField = $raw['name'];
         }
 
@@ -102,11 +99,11 @@ final readonly class UserNameFieldsResolver
         }
 
         $nameSection = $this->resolveNameFieldByNameAttributeAnalysis($nameField, $searchMethod);
-        if (!$nameSection->isNotEmpty()) {
+        if (! $nameSection->isNotEmpty()) {
             // If both sections were empty, try the "hardest way"
             // by analyzing email address
             $email = $idpUser->getEmail();
-            if (!is_string($email) || empty($email)) {
+            if (! is_string($email) || empty($email)) {
                 return '';
             }
 
@@ -123,7 +120,7 @@ final readonly class UserNameFieldsResolver
             // If both sections were empty, try the "hardest way"
             // by analyzing email address
             $email = $idpUser->getEmail();
-            if (!is_string($email) || empty($email)) {
+            if (! is_string($email) || empty($email)) {
                 return '';
             }
 
@@ -145,8 +142,8 @@ final readonly class UserNameFieldsResolver
             return Str::of('');
         }
 
-        if (!in_array($searchMethod, [self::NAME_SEARCH, self::SURNAME_SEARCH], strict: true)) {
-            throw new InvalidArgumentException('Metodo di ricerca non valido');
+        if (! in_array($searchMethod, [self::NAME_SEARCH, self::SURNAME_SEARCH], strict: true)) {
+            throw new \InvalidArgumentException('Metodo di ricerca non valido');
         }
 
         return Str::of($nameField)

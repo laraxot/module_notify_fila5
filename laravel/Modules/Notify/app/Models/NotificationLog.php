@@ -4,12 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationLogFactory;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
  * Modello per il logging delle notifiche.
@@ -29,9 +33,44 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read NotificationTemplate|null $template
+ * @property string $notifiable_type
+ * @property int $notifiable_id
+ * @property string $title
+ * @property string|null $error
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $deleter
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read Model|\Eloquent $notifiable
+ * @property-read ProfileContract|null $updater
+ *
+ * @method static NotificationLogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationLog forNotifiable(Model $notifiable)
+ * @method static Builder<static>|NotificationLog forTemplate(int $templateId)
+ * @method static Builder<static>|NotificationLog newModelQuery()
+ * @method static Builder<static>|NotificationLog newQuery()
+ * @method static Builder<static>|NotificationLog query()
+ * @method static Builder<static>|NotificationLog whereChannels($value)
+ * @method static Builder<static>|NotificationLog whereContent($value)
+ * @method static Builder<static>|NotificationLog whereCreatedAt($value)
+ * @method static Builder<static>|NotificationLog whereData($value)
+ * @method static Builder<static>|NotificationLog whereError($value)
+ * @method static Builder<static>|NotificationLog whereId($value)
+ * @method static Builder<static>|NotificationLog whereNotifiableId($value)
+ * @method static Builder<static>|NotificationLog whereNotifiableType($value)
+ * @method static Builder<static>|NotificationLog whereSentAt($value)
+ * @method static Builder<static>|NotificationLog whereStatus($value)
+ * @method static Builder<static>|NotificationLog whereTitle($value)
+ * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
+ * @method static Builder<static>|NotificationLog withStatus(NotificationLogStatusEnum $status)
+ *
+ * @mixin \Eloquent
  */
 final class NotificationLog extends BaseModel
 {
+    /**
+     * @var list<string>
+     */
     protected $fillable = [
         'template_id',
         'recipient_id',
@@ -43,17 +82,6 @@ final class NotificationLog extends BaseModel
         'sent_at',
         'delivered_at',
         'opened_at',
-        'clicked_at',
-    ];
-
-    protected $casts = [
-        'data' => 'array',
-        'channels' => 'array',
-        'sent_at' => 'datetime',
-        'delivered_at' => 'datetime',
-        'opened_at' => 'datetime',
-        'clicked_at' => 'datetime',
-        'status' => NotificationLogStatusEnum::class,
     ];
 
     /**
@@ -106,24 +134,20 @@ final class NotificationLog extends BaseModel
     }
 
     /**
-     * Marca il log come aperto.
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
      */
-    public function markAsOpened(): void
+    protected function casts(): array
     {
-        $this->update([
-            'status' => NotificationLogStatusEnum::OPENED,
-            'opened_at' => now(),
-        ]);
-    }
-
-    /**
-     * Marca il log come cliccato.
-     */
-    public function markAsClicked(): void
-    {
-        $this->update([
-            'status' => NotificationLogStatusEnum::CLICKED,
-            'clicked_at' => now(),
-        ]);
+        return [
+            'data' => 'array',
+            'channels' => 'array',
+            'sent_at' => 'datetime',
+            'delivered_at' => 'datetime',
+            'opened_at' => 'datetime',
+            'clicked_at' => 'datetime',
+            'status' => NotificationLogStatusEnum::class,
+        ];
     }
 }

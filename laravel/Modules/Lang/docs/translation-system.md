@@ -44,7 +44,11 @@ return [
    ```php
    // ❌ Errato
    TextInput::make('first_name')->label('Nome')
+<<<<<<< HEAD
+   
+=======
 
+>>>>>>> laraxot/develop
    // ✅ Corretto
    TextInput::make('first_name') // Label da file traduzione
    ```
@@ -71,6 +75,9 @@ return [
 
 ## Vedi Anche
 - [Laravel Translations](https://laravel.com/project_docs/localization)
+<<<<<<< HEAD
+- [Filament i18n](https://filamentphp.com/project_docs/internationalization) 
+=======
 - [Filament i18n](https://filamentphp.com/project_docs/internationalization)
 # Sistema di Traduzione in il progetto
 
@@ -146,3 +153,4 @@ return [
 ## Vedi Anche
 - [Laravel Translations](https://laravel.com/docs/localization)
 - [Filament i18n](https://filamentphp.com/docs/internationalization)
+>>>>>>> laraxot/develop

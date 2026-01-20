@@ -36,6 +36,17 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
     protected string $module_ns = __NAMESPACE__;
 
     /**
+<<<<<<< HEAD
+     * Bootstrap the module services.
+     */
+
+    /**
+     * Register the module services.
+     */
+
+    /**
+=======
+>>>>>>> laraxot/develop
      * Registra le impostazioni di lingua basate sulla configurazione.
      */
     public function registerLang(): void
@@ -63,10 +74,19 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
             $n = 3;
         }
 
+<<<<<<< HEAD
+        if (\in_array(request()->segment($n), $langs, false)) {
+            /** @var string|null $lang */
+            $lang = request()->segment($n);
+            if (null !== $lang) {
+                app()->setLocale($lang);
+            }
+=======
         $segment = request()->segment($n);
 
         if (\is_string($segment) && \in_array($segment, $langs, true)) {
             app()->setLocale($segment);
+>>>>>>> laraxot/develop
         }
     }
 }

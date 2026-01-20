@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Pages\Tenancy;
 
-use Filament\Schemas\Schema;
-use Filament\Forms\Components\TextInput;
 use Filament\Pages\Tenancy\RegisterTenant as BaseRegisterTenant;
-use Filament\Support\Enums\MaxWidth;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Modules\User\Contracts\TenantContract;
+use Modules\User\Models\BaseTenant;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
@@ -19,7 +19,10 @@ class RegisterTenant extends BaseRegisterTenant
 {
     use TransTrait;
 
-    public string $resource;
+    /**
+     * @var class-string|null
+     */
+    private ?string $resourceClass = null;
 
     public static function getLabel(): string
     {
@@ -28,34 +31,40 @@ class RegisterTenant extends BaseRegisterTenant
         if (Str::startsWith($func, 'get_')) {
             $func = Str::of($func)->after('get_')->toString();
         }
-        $key = Str::of(class_basename(__CLASS__))
+        $key = Str::of(class_basename(self::class))
             ->snake()
             ->prepend('actions.')
-            ->append('.' . $func)
+            ->append('.'.$func)
             ->toString();
-        $str = static::transClass($tenantClass, $key);
 
-        return $str;
+        return static::transClass($tenantClass, $key);
     }
 
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
-        $tenantClass = XotData::make()->getTenantClass();
-        $resource = Str::of($tenantClass)
-            ->replace('\Models\\', '\Filament\Resources\\')
-            ->append('Resource')
-            ->toString();
-        $this->resource = $resource;
-        return $schema->components($this->getFormSchema());
-    }
+        /** @var array<Component> $components */
+        $components = $this->getFormSchema();
 
-    public function getFormSchema(): array
-    {
-        return $this->resource::getFormSchema();
+        return $schema->components($components);
     }
 
     /**
-     * @param  array<string, mixed>  $data
+     * @return array<Component>
+     */
+    public function getFormSchema(): array
+    {
+        $resourceClass = $this->resolveResourceClass();
+
+        $schemaRaw = $resourceClass::getFormSchema();
+
+        /** @var array<Component> $schema */
+        $schema = $schemaRaw;
+
+        return $schema;
+    }
+
+    /**
+     * @param array<string, string|int|bool|null> $data
      */
     protected function handleRegistration(array $data): Model
     {
@@ -63,9 +72,32 @@ class RegisterTenant extends BaseRegisterTenant
 
         $tenant = $tenantClass::create($data);
         Assert::implementsInterface($tenant, TenantContract::class);
-
-        $tenant->users()->attach(auth()->user());
+        Assert::isInstanceOf($tenant, BaseTenant::class);
 
         return $tenant;
+    }
+
+    /**
+     * @return class-string
+     */
+    private function resolveResourceClass(): string
+    {
+        if (null !== $this->resourceClass) {
+            return $this->resourceClass;
+        }
+
+        $tenantClass = XotData::make()->getTenantClass();
+        $resourceClass = Str::of($tenantClass)
+            ->replace('\\Models\\', '\\Filament\\Resources\\')
+            ->append('Resource')
+            ->toString();
+
+        Assert::classExists($resourceClass);
+
+        /** @var class-string $resolved */
+        $resolved = $resourceClass;
+        $this->resourceClass = $resolved;
+
+        return $resolved;
     }
 }

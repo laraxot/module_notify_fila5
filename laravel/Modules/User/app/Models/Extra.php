@@ -4,28 +4,31 @@ declare(strict_types=1);
 
 namespace Modules\User\Models;
 
-use Spatie\SchemalessAttributes\SchemalessAttributes;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
-use Modules\Xot\Contracts\ProfileContract;
 use Modules\User\Database\Factories\ExtraFactory;
-use Modules\Xot\Models\Extra as XotBaseExtra;
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Models\BaseExtra;
+use Spatie\SchemalessAttributes\SchemalessAttributes;
 
 /**
  * @property SchemalessAttributes $extra_attributes
+ *
  * @method static Builder|Extra newModelQuery()
  * @method static Builder|Extra newQuery()
  * @method static Builder|Extra query()
  * @method static Builder|Extra withExtraAttributes()
- * @property int $id
- * @property string $model_type
- * @property string $model_id
+ *
+ * @property int         $id
+ * @property string      $model_type
+ * @property string      $model_id
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+ *
  * @method static Builder|Extra whereCreatedAt($value)
  * @method static Builder|Extra whereCreatedBy($value)
  * @method static Builder|Extra whereDeletedAt($value)
@@ -36,14 +39,22 @@ use Modules\Xot\Models\Extra as XotBaseExtra;
  * @method static Builder|Extra whereModelType($value)
  * @method static Builder|Extra whereUpdatedAt($value)
  * @method static Builder|Extra whereUpdatedBy($value)
+ *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ *
  * @method static ExtraFactory factory($count = null, $state = [])
+ *
  * @mixin IdeHelperExtra
+ *
+ * @property ProfileContract|null $deleter
+ *
  * @mixin \Eloquent
  */
-class Extra extends XotBaseExtra
+final class Extra extends BaseExtra
 {
-    /** @var string */
-    protected $connection = 'user';
+    public function getConnectionName(): string
+    {
+        return 'user';
+    }
 }

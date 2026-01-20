@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\RoleResource\Pages;
 
-use Filament\Schemas\Components\Section;
-use Filament\Schemas\Components\Component;
-use Override;
 use Filament\Infolists\Components\TextEntry;
-use Filament\Pages\Actions\EditAction;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Section;
 use Modules\User\Filament\Resources\RoleResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 
@@ -17,20 +15,20 @@ class ViewRole extends XotBaseViewRecord
     protected static string $resource = RoleResource::class;
 
     /**
-     * @return array<Component>
+     * @return array<string, Component>
      */
-    #[Override]
+    #[\Override]
     protected function getInfolistSchema(): array
     {
         return [
-            Section::make()->schema([
-                TextEntry::make('id'),
-                TextEntry::make('name'),
-                TextEntry::make('guard_name'),
-                TextEntry::make('team_id'),
-                TextEntry::make('uuid'),
-                TextEntry::make('created_at'),
-                TextEntry::make('updated_at'),
+            'role_info' => Section::make()->schema([
+                'id' => TextEntry::make('id'),
+                'name' => TextEntry::make('name'),
+                'guard_name' => TextEntry::make('guard_name'),
+                'team_id' => TextEntry::make('team_id'),
+                'uuid' => TextEntry::make('uuid'),
+                'created_at' => TextEntry::make('created_at'),
+                'updated_at' => TextEntry::make('updated_at'),
             ]),
         ];
     }

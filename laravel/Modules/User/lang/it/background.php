@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'background_color' => [
@@ -35,4 +34,17 @@ return [
             'label' => 'updateAction',
         ],
     ],
+    'navigation' => [
+        'name' => 'Sfondo',
+        'plural' => 'Sfondi',
+        'group' => [
+            'name' => 'Aspetto',
+            'description' => 'Personalizzazione dell\'aspetto del sistema',
+        ],
+        'label' => 'Sfondo',
+        'sort' => 14,
+        'icon' => 'heroicon-o-rectangle-stack',
+    ],
+    'label' => '',
+    'plural_label' => '',
 ];

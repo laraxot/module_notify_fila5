@@ -45,4 +45,11 @@ return [
         'hex_color' => '#6b7280',
         'description' => 'Faxnummer',
     ],
+    'notes' => [
+        'label' => 'Notizen',
+        'icon' => 'heroicon-o-document-text',
+        'color' => 'text-gray-600',
+        'hex_color' => '#6b7280',
+        'description' => 'Kontaktnotizen',
+    ],
 ];

@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'phone' => [
@@ -40,6 +39,12 @@ return [
             'placeholder' => 'fax',
             'helper_text' => '',
             'description' => 'fax',
+        ],
+        'notes' => [
+            'description' => 'notes',
+            'helper_text' => 'notes',
+            'placeholder' => 'notes',
+            'label' => 'notes',
         ],
     ],
 ];

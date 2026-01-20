@@ -8,25 +8,21 @@ declare(strict_types=1);
 
 namespace Modules\User\Providers\Filament;
 
-use Override;
-use Filament\Navigation\MenuItem;
 use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
 use Illuminate\Support\Facades\Blade;
-use Illuminate\Support\Facades\View;
-use Modules\User\Filament\Pages\MyProfilePage;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'User';
 
-    #[Override]
+    #[\Override]
     public function panel(Panel $panel): Panel
     {
         $panel = parent::panel($panel);
 
-        FilamentView::registerRenderHook('panels::auth.login.form.after', static fn(): string => Blade::render(
+        FilamentView::registerRenderHook('panels::auth.login.form.after', static fn (): string => Blade::render(
             "@livewire('socialite.buttons')",
         ));
 
@@ -45,14 +41,14 @@ class AdminPanelProvider extends XotBasePanelProvider
          * );
          * //*/
 
-        FilamentView::registerRenderHook('panels::user-menu.before', static fn(): string => Blade::render(
+        FilamentView::registerRenderHook('panels::user-menu.before', static fn (): string => Blade::render(
             "@livewire('team.change')",
         ));
 
         FilamentView::registerRenderHook(
             'panels::user-menu.before',
             // static fn (): string => View::make('user::badges.super-admin')->render(),
-            static fn(): string => Blade::render("@livewire('profile.super-admin')"),
+            static fn (): string => Blade::render("@livewire('profile.super-admin')"),
         );
 
         /*
@@ -72,12 +68,11 @@ class AdminPanelProvider extends XotBasePanelProvider
         // $panel->userMenuItems([
         //     // 'account' => MenuItem::make()->url($profile_url),
         //     MenuItem::make()
-        
+
         //         ->url(fn (): string => '#')
         //         ->icon('heroicon-m-cog-8-tooth'),
         // ]);
 
         return $panel;
     }
-
 }

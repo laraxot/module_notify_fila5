@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'navigation' => [
         'label' => 'Invio Email',
@@ -242,6 +241,9 @@ return [
         ],
         'emailFormActions' => [
             'label' => 'emailFormActions',
+        ],
+        'logout' => [
+            'tooltip' => 'logout',
         ],
     ],
     'messages' => [

@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\WhatsApp;
 
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Str;
 use Modules\Notify\Datas\WhatsAppData;
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -19,11 +18,16 @@ final class Send360dialogWhatsAppAction
 {
     use QueueableAction;
 
-    private string $apiKey;
-    private string $baseUrl = 'https://waba.360dialog.io/v1';
-    private array $vars = [];
     protected bool $debug;
+
     protected int $timeout;
+
+    private string $apiKey;
+
+    private string $baseUrl = 'https://waba.360dialog.io/v1';
+
+    /** @var array<string, mixed> */
+    private array $vars = [];
 
     /**
      * Create a new action instance.
@@ -31,7 +35,7 @@ final class Send360dialogWhatsAppAction
     public function __construct()
     {
         $apiKey = config('services.360dialog.api_key');
-        if (!is_string($apiKey)) {
+        if (! is_string($apiKey)) {
             throw new Exception(
                 'put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]',
             );
@@ -47,8 +51,9 @@ final class Send360dialogWhatsAppAction
     /**
      * Execute the action.
      *
-     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
-     * @return array Risultato dell'operazione
+     * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
+     * @return array<string, mixed> Risultato dell'operazione
+     *
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
@@ -56,7 +61,7 @@ final class Send360dialogWhatsAppAction
         // Log di debug se abilitato
         if ($this->debug) {
             Log::debug('Invio WhatsApp 360dialog', [
-                'to' => $whatsAppData->to,
+                'to' => $whatsAppData->recipient,
                 'message_length' => strlen($whatsAppData->body),
                 'type' => $whatsAppData->type,
             ]);
@@ -70,10 +75,10 @@ final class Send360dialogWhatsAppAction
             ],
         ]);
 
-        $endpoint = $this->baseUrl . '/messages';
+        $endpoint = $this->baseUrl.'/messages';
 
         $payload = [
-            'to' => $whatsAppData->to,
+            'to' => $whatsAppData->recipient,
         ];
 
         // Gestione diversi tipi di messaggi
@@ -82,11 +87,12 @@ final class Send360dialogWhatsAppAction
             $payload['text'] = [
                 'body' => $whatsAppData->body,
             ];
-        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+        } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
-        } elseif ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
-            $mediaUrl = $whatsAppData->media[0];
+        } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
+            /** @var string $mediaUrl */
+            $mediaUrl = is_string($whatsAppData->media[0]) ? $whatsAppData->media[0] : (string) $whatsAppData->media[0];
             $mediaType = $this->determineMediaType($mediaUrl);
 
             $payload['type'] = $mediaType;
@@ -103,8 +109,8 @@ final class Send360dialogWhatsAppAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
-            /** @var array $responseData */
-            $responseData = json_decode($responseContent, true);
+            /** @var array<string, mixed> $responseData */
+            $responseData = json_decode($responseContent, true) ?: [];
 
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
@@ -112,21 +118,30 @@ final class Send360dialogWhatsAppAction
             $this->vars['response_data'] = $responseData;
 
             Log::info('WhatsApp 360dialog inviato con successo', [
-                'to' => $whatsAppData->to,
+                'to' => $whatsAppData->recipient,
                 'response_code' => $statusCode,
             ]);
 
+            /** @var array<string, mixed>|null $messages */
+            $messages = $responseData['messages'] ?? null;
+            /** @var array<string, mixed>|null $firstMessage */
+            $firstMessage = is_array($messages) && isset($messages[0]) && is_array($messages[0]) ? $messages[0] : null;
+            /** @var string|null $messageId */
+            $messageId = is_array($firstMessage) && isset($firstMessage['id']) && is_string($firstMessage['id'])
+                ? $firstMessage['id']
+                : null;
+
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
-                'message_id' => $responseData['messages'][0]['id'] ?? null,
+                'message_id' => $messageId,
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
-            /** @var array $responseBody */
-            $responseBody = json_decode($response->getBody()->getContents(), true);
+            /** @var array<string, mixed> $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
 
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
@@ -134,14 +149,23 @@ final class Send360dialogWhatsAppAction
             $this->vars['error_response'] = $responseBody;
 
             Log::warning('Errore invio WhatsApp 360dialog', [
-                'to' => $whatsAppData->to,
+                'to' => $whatsAppData->recipient,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);
 
+            /** @var array<int, array<string, mixed>>|null $errors */
+            $errors = $responseBody['errors'] ?? null;
+            /** @var array<string, mixed>|null $firstError */
+            $firstError = is_array($errors) && isset($errors[0]) && is_array($errors[0]) ? $errors[0] : null;
+            /** @var string $errorMessage */
+            $errorMessage = is_array($firstError) && isset($firstError['message']) && is_string($firstError['message'])
+                ? $firstError['message']
+                : 'Errore sconosciuto';
+
             return [
                 'success' => false,
-                'error' => $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto',
+                'error' => $errorMessage,
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];
@@ -151,7 +175,7 @@ final class Send360dialogWhatsAppAction
     /**
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
-     * @param string $url URL del media
+     * @param  string  $url  URL del media
      * @return string Tipo di media (image, video, audio, document)
      */
     private function determineMediaType(string $url): string

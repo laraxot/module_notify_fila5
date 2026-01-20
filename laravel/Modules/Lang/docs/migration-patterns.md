@@ -96,6 +96,8 @@ This migration pattern has been applied to:
 - See other module migrations for additional examples
 - Refer to XotBaseMigration class for available methods
 - Check module-specific model classes for proper references
+<<<<<<< HEAD
+=======
 # Migration Patterns for Lang Module
 
 ## Overview
@@ -194,3 +196,4 @@ This migration pattern has been applied to:
 - See other module migrations for additional examples
 - Refer to XotBaseMigration class for available methods
 - Check module-specific model classes for proper references
+>>>>>>> laraxot/develop

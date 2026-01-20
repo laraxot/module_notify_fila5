@@ -5,17 +5,17 @@ declare(strict_types=1);
 namespace Modules\User\Http\Livewire\Auth\Passwords;
 
 use Illuminate\Contracts\Auth\PasswordBroker;
-use Illuminate\Contracts\View\View;
 use Illuminate\Contracts\View\Factory;
-use Modules\Xot\Actions\File\ViewCopyAction;
+use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Password;
 use Livewire\Component;
+use Modules\Xot\Actions\File\ViewCopyAction;
 
 class Email extends Component
 {
     public string $email = '';
 
-    public null|string $emailSentMessage = null;
+    public ?string $emailSentMessage = null;
 
     /**
      * Invia il link per il reset della password.
@@ -29,12 +29,13 @@ class Email extends Component
         $broker = $this->broker();
         $response = $broker->sendResetLink(['email' => $this->email]);
 
-        if ($response === Password::RESET_LINK_SENT) {
-            $this->emailSentMessage = trans('user::' . $response);
+        if (Password::RESET_LINK_SENT === $response) {
+            $this->emailSentMessage = trans('user::'.$response);
+
             return;
         }
 
-        $this->addError('email', trans('user::' . $response));
+        $this->addError('email', trans('user::'.$response));
     }
 
     /**

@@ -21,6 +21,10 @@
 ## Collegamenti
 - [docs root](../../../../project_docs/actions.md)
 - [docs Xot](../../../Xot/project_docs/MODULE_NAMESPACE_RULES.md)
+<<<<<<< HEAD
+
+Ultimo aggiornamento: maggio 2025.
+=======
 # Gestione automatica delle label in Filament tramite LangServiceProvider
 
 ## Funzionamento
@@ -44,3 +48,4 @@
 ## Collegamenti
 - [docs root](../../../../docs/actions.md)
 - [docs Xot](../../../Xot/docs/MODULE_NAMESPACE_RULES.md)
+>>>>>>> laraxot/develop

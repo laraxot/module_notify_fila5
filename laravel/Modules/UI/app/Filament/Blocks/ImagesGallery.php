@@ -10,7 +10,7 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\TextInput;
 
-class ImagesGallery
+final class ImagesGallery
 {
     public static function make(string $name = 'images_gallery', string $context = 'form'): Block
     {

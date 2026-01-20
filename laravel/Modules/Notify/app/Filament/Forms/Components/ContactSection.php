@@ -4,31 +4,31 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
-use Filament\Schemas\Components\Section;
-use Filament\Forms;
-use Illuminate\Database\Eloquent\Model;
+use Filament\Forms\Components\TextInput;
 use Modules\Notify\Enums\ContactTypeEnum;
-use Webmozart\Assert\Assert;
+use Modules\Xot\Filament\Schemas\Components\XotBaseSection;
 
 // use Squire\Models\Country;
 
-class ContactSection extends Section
+class ContactSection extends XotBaseSection
 {
-    //protected string $view = 'filament-forms::components.group';
+    // protected string $view = 'filament-forms::components.group';
 
     protected bool $disableLiveUpdates = false;
 
     protected function setUp(): void
     {
         parent::setUp();
-        $this->schema($this->getFormSchema());
+        $this->schema(fn (): array => $this->getFormSchema());
         $this->columns(2);
     }
 
+    /**
+     * @return array<string, TextInput>
+     */
     protected function getFormSchema(): array
     {
-        $res = ContactTypeEnum::getFormSchema();
-        return $res;
+        return ContactTypeEnum::getFormSchema();
     }
 
     /*

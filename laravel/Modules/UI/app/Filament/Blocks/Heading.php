@@ -8,9 +8,9 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 
-class Heading
+final class Heading
 {
-    public static function make(string $name = 'heading', string $_context = 'form'): Block
+    public static function make(string $name = 'heading', string $context = 'form'): Block
     {
         return Block::make($name)
             ->schema([
