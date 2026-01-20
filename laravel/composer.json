@@ -7,9 +7,13 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "nwidart/laravel-modules": "*"
+        
+    },
+    "require_comment": {
         "bacon/bacon-qr-code": "^3.0",
         "dotswan/filament-map-picker": "^2.0",
-        "filament/filament": "^4.0",
+        "filament/filament": "^5.0",
         "laravel/framework": "^12.0",
         "nwidart/laravel-modules": "*",
         "thecodingmachine/safe": "^3.3"
@@ -108,7 +112,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "filament/upgrade": "^4.0",
+        "filament/upgrade": "^5.0",
         "friendsofphp/php-cs-fixer": "^3.88",
         "larastan/larastan": "^3.7",
         "laravel/boost": "^1.0",
