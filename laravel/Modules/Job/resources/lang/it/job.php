@@ -5,33 +5,52 @@ declare(strict_types=1);
 return [
     'actions' => [
         'create' => [
-            'label' => 'create',
+            'label' => 'Crea',
+        ],
+        'logout' => [
+            'tooltip' => 'Disconnetti',
+            'icon' => 'heroicon-o-arrow-left-on-rectangle',
+            'label' => 'Disconnetti',
+        ],
+        'cancel' => [
+            'tooltip' => 'Annulla',
+        ],
+        'reorderRecords' => [
+            'tooltip' => 'Riordina record',
         ],
     ],
     'fields' => [
         'edit' => [
-            'label' => 'edit',
+            'label' => 'Modifica',
         ],
         'payload' => [
-            'label' => 'payload',
+            'label' => 'Contenuto',
         ],
         'id' => [
-            'label' => 'id',
+            'label' => 'ID',
         ],
         'queue' => [
-            'label' => 'queue',
+            'label' => 'Coda',
         ],
         'attempts' => [
-            'label' => 'attempts',
+            'label' => 'Tentativi',
         ],
         'reserved_at' => [
-            'label' => 'reserved_at',
+            'label' => 'Riservato il',
         ],
         'available_at' => [
-            'label' => 'available_at',
+            'label' => 'Disponibile il',
         ],
         'created_at' => [
-            'label' => 'created_at',
+            'label' => 'Creato il',
         ],
     ],
+    'navigation' => [
+        'sort' => 58,
+        'icon' => 'heroicon-o-cog',
+        'group' => 'Lavori',
+        'label' => 'Lavoro',
+    ],
+    'label' => 'Lavoro',
+    'plural_label' => 'Lavori',
 ];

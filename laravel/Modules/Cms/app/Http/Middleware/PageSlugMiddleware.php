@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Cms\Http\Middleware;
 
-use Closure;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 use Modules\Cms\Models\Page;
@@ -20,8 +19,11 @@ class PageSlugMiddleware
 
         // Handle case where slug might be null or not a string
         if (! \is_string($slug)) {
-            /** @var Response */
             $response = $next($request);
+            if (! $response instanceof Response) {
+                // Middleware chain should always return Response, but if not, wrap it
+                return new Response('Internal Server Error', 500);
+            }
 
             return $response;
         }
@@ -30,8 +32,11 @@ class PageSlugMiddleware
         // Should return ["auth", "Modules\User\Http\Middleware\EnsureUserHasType:doctor"]
 
         if (empty($middlewares)) {
-            /** @var Response */
             $response = $next($request);
+            if (! $response instanceof Response) {
+                // Middleware chain should always return Response, but if not, wrap it
+                return new Response('Internal Server Error', 500);
+            }
 
             return $response;
         }
@@ -68,16 +73,20 @@ class PageSlugMiddleware
     protected function executeMiddlewareChain(Request $request, array $middlewares, \Closure $finalNext): Response
     {
         if (empty($middlewares)) {
-            /** @var Response */
             $response = $finalNext($request);
+            if (! $response instanceof Response) {
+                return new Response('Internal Server Error', 500);
+            }
 
             return $response;
         }
 
         $middleware = array_shift($middlewares);
         if (! \is_string($middleware)) {
-            /** @var Response */
             $response = $finalNext($request);
+            if (! $response instanceof Response) {
+                return new Response('Internal Server Error', 500);
+            }
 
             return $response;
         }
@@ -96,14 +105,18 @@ class PageSlugMiddleware
         // Execute current middleware
         if (\is_object($middlewareInstance) && method_exists($middlewareInstance, 'handle')) {
             if (empty($parameters)) {
-                /** @var Response */
                 $response = $middlewareInstance->handle($request, $next);
+                if (! $response instanceof Response) {
+                    return $next($request); // Use next if current middleware didn't return Response
+                }
 
                 return $response;
             }
 
-            /** @var Response */
             $response = $middlewareInstance->handle($request, $next, ...$parameters);
+            if (! $response instanceof Response) {
+                return $next($request); // Use next if current middleware didn't return Response
+            }
 
             return $response;
         }
@@ -121,13 +134,12 @@ class PageSlugMiddleware
         // $kernel = app(\Illuminate\Contracts\Http\Kernel::class);
 
         // Try to get from route middleware (custom middleware)
-
+        // method_exists will always be true for Http\Kernel, so we can remove the check
+        /** @var array<string, class-string> $routeMiddleware */
         $routeMiddleware = $this->kernel->getRouteMiddleware();
         if (isset($routeMiddleware[$middleware])) {
-            /** @var class-string */
-            $class = $routeMiddleware[$middleware];
-
-            return $class;
+            /* @var class-string */
+            return $routeMiddleware[$middleware];
         }
 
         // If not an alias, return as-is (assuming it's a full class name)

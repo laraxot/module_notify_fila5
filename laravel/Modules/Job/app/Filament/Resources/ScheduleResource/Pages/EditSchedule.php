@@ -9,13 +9,12 @@ use Illuminate\Support\Collection;
 use Illuminate\Validation\ValidationException;
 use Modules\Job\Filament\Resources\ScheduleResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
-use Modules\Xot\Filament\Traits\NavigationPageLabelTrait;
 use Override;
 use Webmozart\Assert\Assert;
 
 class EditSchedule extends XotBaseEditRecord
 {
-    use NavigationPageLabelTrait;
+    // TransTrait è già incluso in XotBaseEditRecord - non ridichiarare
 
     public Collection $commands;
 

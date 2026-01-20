@@ -8,11 +8,11 @@ declare(strict_types=1);
 
 namespace Modules\Job\Models;
 
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Job\Database\Factories\JobFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Support\Carbon;
+use Modules\Job\Database\Factories\JobFactory;
+use Modules\Xot\Contracts\ProfileContract;
 use Override;
 use Webmozart\Assert\Assert;
 
@@ -50,6 +50,8 @@ use function Safe\json_decode;
  * @method static Builder<static>|Job whereReservedAt($value)
  * @method static Builder<static>|Job whereUpdatedAt($value)
  * @method static Builder<static>|Job whereUpdatedBy($value)
+ *
+ * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

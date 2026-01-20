@@ -6,6 +6,7 @@ namespace Modules\Cms\Http\Volt;
 
 use Illuminate\Auth\Events\Login;
 use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Attributes\Validate;
@@ -30,35 +31,24 @@ class LoginComponent extends Component
 
     public function authenticate(): RedirectResponse
     {
-        /*
-         * $credentials = $this->validate([
-         * 'email' => ['required', 'email'],
-         * 'password' => ['required'],
-         * ]);
-         *
-         * if (auth()->attempt($credentials, $this->remember)) {
-         * session()->regenerate();
-         *
-         * $this->redirect(route('cms.dashboard'));
-         * }
-         *
-         * $this->addError('email', trans('auth.failed'));
-         */
         $this->validate();
 
         if (! Auth::attempt(['email' => $this->email, 'password' => $this->password], $this->remember)) {
             $this->addError('email', trans('auth.failed'));
 
-            // return;
-            return back(); // ->with('status', 'verification-link-sent');
+            return back();
         }
-        $guard = 'web'; // auth()->guard('web')
-        $user = User::where('email', $this->email)->first();
+
+        $guard = 'web';
+
+        /** @var Builder<User> $query */
+        $query = User::where('email', $this->email);
+        $user = $query->first();
+
         Assert::isInstanceOf($user, Authenticatable::class);
         $remember = $this->remember;
         event(new Login($guard, $user, $remember));
 
-        // ---
         return redirect()->intended('/');
     }
 }

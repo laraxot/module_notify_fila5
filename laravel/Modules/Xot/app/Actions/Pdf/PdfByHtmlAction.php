@@ -4,10 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Pdf;
 
-use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
-use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class PdfByHtmlAction
@@ -19,13 +17,12 @@ class PdfByHtmlAction
     /**
      * Genera un PDF dall'HTML fornito.
      *
-     * @param string $html Contenuto HTML da convertire
-     * @param string $filename Nome del file PDF
-     * @param string $disk Disco di storage
-     * @param string $out Tipo di output (download, path, etc.)
-     * @param string $orientation Orientamento (P=Portrait, L=Landscape)
-     * @param PdfEngineEnum $engine Engine da utilizzare
-     * @return string|BinaryFileResponse
+     * @param  string  $html  Contenuto HTML da convertire
+     * @param  string  $filename  Nome del file PDF
+     * @param  string  $disk  Disco di storage
+     * @param  string  $out  Tipo di output (download, path, etc.)
+     * @param  string  $orientation  Orientamento (P=Portrait, L=Landscape)
+     * @param  PdfEngineEnum  $engine  Engine da utilizzare
      */
     public function execute(
         string $html,

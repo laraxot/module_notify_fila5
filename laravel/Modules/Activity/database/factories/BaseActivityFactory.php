@@ -5,19 +5,19 @@ declare(strict_types=1);
 namespace Modules\Activity\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Modules\Activity\Models\BaseActivity;
+use Modules\Activity\Models\Activity;
 
 /**
- * @extends Factory<BaseActivity>
+ * @extends Factory<Activity>
  */
 class BaseActivityFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
-     * @var class-string<BaseActivity>
+     * @var class-string<Activity>
      */
-    protected $model = BaseActivity::class;
+    protected $model = Activity::class;
 
     /**
      * Define the model's default state.

@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+uses(Modules\Geo\Tests\TestCase::class);
+
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Geo\Contracts\HasGeolocation;
 use Modules\Geo\Enums\AddressTypeEnum;
@@ -20,7 +22,7 @@ describe('Address Model', function () {
     });
 
     it('has correct fillable attributes', function () {
-        $address = new Address;
+        $address = new Address();
 
         expect($address->getFillable())->toContain([
             'model_type',
@@ -46,7 +48,7 @@ describe('Address Model', function () {
     });
 
     it('implements HasGeolocation contract', function () {
-        $address = new Address;
+        $address = new Address();
 
         expect($address)->toBeInstanceOf(HasGeolocation::class);
     });

@@ -22,14 +22,14 @@ Vedi documentazione completa: [Xot/docs/file-naming-case-sensitivity.md](../../X
 
 ## ⚠️ Problema
 
-Su Linux (production): due file diversi  
+Su Linux (production): due file diversi
 Su Windows/macOS (dev): stesso file → **conflitti Git**
 
 ## 🔧 Comando Cleanup
 
 ### Manuale
 ```bash
-cd /var/www/_bases/base_ptvx_fila4_mono/laravel
+cd laravel
 rm Modules/Gdpr/tests/Feature/conflictresolutiontest.php
 git add -A
 git commit -m "fix: remove lowercase duplicate test file (PSR-4 compliance)"
@@ -38,12 +38,11 @@ git commit -m "fix: remove lowercase duplicate test file (PSR-4 compliance)"
 ### Automatico (Tutti i Moduli)
 ```bash
 # Script automatico (include anche altri moduli)
-/var/www/_bases/base_ptvx_fila4_mono/bashscripts/fix/cleanup-case-duplicates.sh
+bashscripts/fix/cleanup-case-duplicates.sh
 ```
 
 ---
 
-**Riferimenti**: 
+**Riferimenti**:
 - [Xot File Naming Rules](../../Xot/docs/file-naming-case-sensitivity.md)
 - [Bashscripts Location Policy](../../Xot/docs/bashscripts-location-policy.md)
-

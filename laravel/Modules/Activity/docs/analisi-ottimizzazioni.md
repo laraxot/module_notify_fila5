@@ -7,7 +7,7 @@ il modulo **activity** è un sistema avanzato di audit trail e event sourcing ch
 ## 📈 punti di forza identificati
 
 ### ✅ qualità del codice
-- **phpstan level 10** configurato correttamente
+- **phpstan level 9** configurato correttamente
 - configurazioni multiple per diversi scenari (`phpstan_activity.neon`, `phpstan_minimal.neon`)
 - suite di test pest completa
 - configurazioni advanced: `grumphp.yml`, `rector.php`, `pint.json`
@@ -245,6 +245,6 @@ php artisan test
 
 ---
 
-**ultimo aggiornamento**: 20 agosto 2025  
-**analista**: claude code  
+**ultimo aggiornamento**: 20 agosto 2025
+**analista**: claude code
 **stato**: pronto per implementazione

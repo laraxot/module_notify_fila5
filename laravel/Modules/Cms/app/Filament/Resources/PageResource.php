@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Cms\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
@@ -21,12 +22,12 @@ class PageResource extends LangBaseResource
     protected static ?string $model = Page::class;
 
     /**
-     * @return array<string, \Filament\Support\Components\Component>
+     * @return array<int|string, Component>
      */
     #[\Override]
     public static function getFormSchema(): array
     {
-        return array_values([
+        return [
             'title' => TextInput::make('title')
                 ->required()
                 ->lazy()
@@ -48,6 +49,6 @@ class PageResource extends LangBaseResource
             'footer' => Section::make('Footer')->schema([
                 PageContentBuilder::make('footer_blocks')->columnSpanFull(),
             ]),
-        ]);
+        ];
     }
 }

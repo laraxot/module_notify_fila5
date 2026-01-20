@@ -12,7 +12,6 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
-use Filament\Pages\Page;
 use Filament\Schemas\Schema;
 use Illuminate\Support\Arr;
 use Modules\Cms\Actions\SaveHeadernavConfigAction;
@@ -20,6 +19,7 @@ use Modules\Cms\Datas\HeadernavData;
 use Modules\Cms\Filament\Clusters\Appearance;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
+use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
 /**
@@ -27,7 +27,7 @@ use Webmozart\Assert\Assert;
  *
  * @property Schema $form
  */
-class Headernav extends Page implements HasForms
+class Headernav extends XotBasePage implements HasForms
 {
     use InteractsWithForms;
 
@@ -36,7 +36,7 @@ class Headernav extends Page implements HasForms
      */
     public ?HeadernavData $headernavData = null;
 
-    public ?array $data = [];
+    public array $data = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
 
@@ -57,23 +57,23 @@ class Headernav extends Page implements HasForms
     /**
      * Define the form schema.
      */
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
         $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('headernav', false);
 
         return $schema
             ->components([
-                ColorPicker::make('background_color')->label(__('Background Color')),
-                FileUpload::make('background')->label(__('Background Image')),
-                ColorPicker::make('overlay_color')->label(__('Overlay Color')),
+                ColorPicker::make('background_color')->label(trans_string('Background Color')),
+                FileUpload::make('background')->label(trans_string('Background Image')),
+                ColorPicker::make('overlay_color')->label(trans_string('Overlay Color')),
                 TextInput::make('overlay_opacity')
                     ->numeric()
                     ->minValue(0)
                     ->maxValue(100)
-                    ->label(__('Overlay Opacity')),
-                TextInput::make('class')->label(__('CSS Class')),
-                TextInput::make('style')->label(__('Inline Style')),
-                Select::make('view')->options($options)->label(__('View Template')),
+                    ->label(trans_string('Overlay Opacity')),
+                TextInput::make('class')->label(trans_string('CSS Class')),
+                TextInput::make('style')->label(trans_string('Inline Style')),
+                Select::make('view')->options($options)->label(trans_string('View Template')),
             ])
             ->columns(2)
             ->statePath('data');
@@ -90,12 +90,12 @@ class Headernav extends Page implements HasForms
             app(SaveHeadernavConfigAction::class)->execute($data);
 
             Notification::make()
-                ->title(__('Saved successfully'))
+                ->title(trans_string('Saved successfully'))
                 ->success()
                 ->send();
         } catch (\Exception $exception) {
             Notification::make()
-                ->title(__('Error!'))
+                ->title(trans_string('Error!'))
                 ->danger()
                 ->body($exception->getMessage())
                 ->persistent()
@@ -129,7 +129,7 @@ class Headernav extends Page implements HasForms
     protected function getUpdateFormActions(): array
     {
         return [
-            Action::make('updateAction')->label(__('Save Changes'))->submit('updateData'),
+            Action::make('updateAction')->label(trans_string('Save Changes'))->submit('updateData'),
         ];
     }
 }

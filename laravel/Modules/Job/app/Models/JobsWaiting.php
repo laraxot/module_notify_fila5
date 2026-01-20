@@ -8,10 +8,10 @@ declare(strict_types=1);
 
 namespace Modules\Job\Models;
 
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Job\Database\Factories\JobsWaitingFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
+use Modules\Job\Database\Factories\JobsWaitingFactory;
+use Modules\Xot\Contracts\ProfileContract;
 
 /**
  * Modules\Job\Models\JobsWaiting.
@@ -45,6 +45,10 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|JobsWaiting whereReservedAt($value)
  * @method static Builder<static>|JobsWaiting whereUpdatedAt($value)
  * @method static Builder<static>|JobsWaiting whereUpdatedBy($value)
+ *
+ * @mixin IdeHelperJobsWaiting
+ *
+ * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

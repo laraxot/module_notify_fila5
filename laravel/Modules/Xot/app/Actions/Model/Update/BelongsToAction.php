@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
-use Illuminate\Database\Eloquent\Collection;
 use Exception;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Arr;
@@ -33,9 +33,9 @@ class BelongsToAction
          * }
          */
 
-        if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+        if (! Arr::isAssoc($relationDTO->data) && \count($relationDTO->data) === 1) {
             $related_id = Arr::first($relationDTO->data);
-            if (null === $related_id) {
+            if ($related_id === null) {
                 return;
             }
 
@@ -45,7 +45,7 @@ class BelongsToAction
                 $related = $related->first(); // Prendi il primo modello della collezione
             }
 
-            if (!($related instanceof Model)) {
+            if (! ($related instanceof Model)) {
                 throw new Exception('Expected a single model, got null or invalid object.');
             }
             $res = $rows->associate($related);
@@ -57,8 +57,8 @@ class BelongsToAction
         if (Arr::isAssoc($relationDTO->data)) {
             $sub = $rows->firstOrCreate();
             // $sub = $rows->first() ?? $rows->getModel();
-            if (null === $sub) {
-                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+            if ($sub === null) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
             }
 
             app(RelationAction::class)->execute($sub, $relationDTO->data);
@@ -69,7 +69,14 @@ class BelongsToAction
 
         if ($rows->exists()) {
             // $rows->update($data); // non passa per il mutator
-            $model->{Str::camel($relationDTO->name)}->update($data);
+            $relationName = Str::camel($relationDTO->name);
+            $relation = $model->{$relationName};
+
+            if (! is_object($relation) || ! method_exists($relation, 'update')) {
+                return;
+            }
+
+            $relation->update($data);
 
             return;
         }

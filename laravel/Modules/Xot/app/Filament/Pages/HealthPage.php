@@ -8,53 +8,46 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Checks\OptimizedAppCheck;
-use Spatie\Health\Checks\Checks\DebugModeCheck;
-use Spatie\Health\Checks\Checks\EnvironmentCheck;
-use Spatie\Health\Checks\Checks\UsedDiskSpaceCheck;
-use Spatie\Health\Checks\Checks\DatabaseCheck;
-use Spatie\Health\Checks\Checks\DatabaseSizeCheck;
-use Spatie\Health\Checks\Checks\DatabaseTableSizeCheck;
-use Spatie\Health\Checks\Checks\CacheCheck;
-use Spatie\Health\Checks\Checks\DatabaseConnectionCountCheck;
-use Spatie\Health\Checks\Checks\FlareErrorOccurrenceCountCheck;
-use Spatie\Health\Checks\Checks\HorizonCheck;
-use Spatie\Health\Checks\Checks\QueueCheck;
-use Spatie\Health\Checks\Checks\RedisCheck;
-use Spatie\Health\Checks\Checks\ScheduleCheck;
-use Spatie\Health\Checks\Checks\RedisMemoryUsageCheck;
-use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
-use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
-use Laraxot\SmtpHealthCheck\SmtpCheck;
-use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
-use Filament\Pages\Page;
-use Illuminate\Support\Carbon;
+use Filament\Widgets\WidgetConfiguration;
 use Illuminate\Support\Facades\Artisan;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Modules\Xot\Filament\Widgets;
-use Spatie\Health\Checks\Checks;
+use Laraxot\SmtpHealthCheck\SmtpCheck;
+use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
+use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Checks\CacheCheck;
+use Spatie\Health\Checks\Checks\DatabaseCheck;
+use Spatie\Health\Checks\Checks\DatabaseConnectionCountCheck;
+use Spatie\Health\Checks\Checks\DatabaseSizeCheck;
+use Spatie\Health\Checks\Checks\DatabaseTableSizeCheck;
+use Spatie\Health\Checks\Checks\DebugModeCheck;
+use Spatie\Health\Checks\Checks\EnvironmentCheck;
+use Spatie\Health\Checks\Checks\FlareErrorOccurrenceCountCheck;
+use Spatie\Health\Checks\Checks\HorizonCheck;
+use Spatie\Health\Checks\Checks\OptimizedAppCheck;
+use Spatie\Health\Checks\Checks\QueueCheck;
+use Spatie\Health\Checks\Checks\RedisCheck;
+use Spatie\Health\Checks\Checks\RedisMemoryUsageCheck;
+use Spatie\Health\Checks\Checks\ScheduleCheck;
+use Spatie\Health\Checks\Checks\UsedDiskSpaceCheck;
 use Spatie\Health\Commands\RunHealthChecksCommand;
 use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
+use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
 
-class HealthPage extends Page
+class HealthPage extends XotBasePage
 {
-    use NavigationLabelTrait;
-
     /**
      * @var array<string, string>
      */
     protected $listeners = ['refresh-component' => '$refresh'];
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
-
     protected string $view = 'xot::filament.pages.health';
 
     public function refresh(): void
     {
+        /** @var array<int, Check> $checks */
         $checks = [
             OptimizedAppCheck::new(),
             DebugModeCheck::new(),
@@ -67,7 +60,7 @@ class HealthPage extends Page
             DatabaseConnectionCountCheck::new(),
             FlareErrorOccurrenceCountCheck::new(),
             HorizonCheck::new(),
-            //Checks\MeiliSearchCheck::new(),
+            // Checks\MeiliSearchCheck::new(),
             QueueCheck::new(),
             RedisCheck::new(),
             ScheduleCheck::new(),
@@ -75,21 +68,22 @@ class HealthPage extends Page
             // Checks\PingCheck::new()->url('https://google.com')->name('Google'),
         ];
         if (class_exists(CpuLoadCheck::class)) {
-            /** @var CpuLoadCheck $check */
-            $check = CpuLoadCheck::new();
-            $checks[] = $check;
+            $checks[] = CpuLoadCheck::new();
         }
         if (class_exists(SecurityAdvisoriesCheck::class)) {
-            /** @var \Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck $check */
-            $check = SecurityAdvisoriesCheck::new();
-            $checks[] = $check;
+            $checks[] = SecurityAdvisoriesCheck::new();
         }
         if (class_exists(SmtpCheck::class)) {
-            /** @var \Laraxot\SmtpHealthCheck\SmtpCheck $check */
-            $check = SmtpCheck::new();
-            $checks[] = $check;
+            $checks[] = SmtpCheck::new();
         }
-        /** @var array<Check> $checks */
+
+        /**
+         * PHPStan Level 10: CpuLoadCheck, SecurityAdvisoriesCheck, and SmtpCheck
+         * all extend Check, but their types are not recognized due to dynamic loading.
+         * We suppress this specific error as the runtime type is guaranteed to be correct.
+         *
+         * @phpstan-ignore-next-line argument.type
+         */
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -99,6 +93,9 @@ class HealthPage extends Page
             ->send();
     }
 
+    /**
+     * @return array<int, Action>
+     */
     protected function getHeaderActions(): array
     {
         return [
@@ -110,6 +107,9 @@ class HealthPage extends Page
         ];
     }
 
+    /**
+     * @return array<int, WidgetConfiguration>
+     */
     protected function getHeaderWidgets(): array
     {
         return [
@@ -117,6 +117,9 @@ class HealthPage extends Page
         ];
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     protected function getViewData(): array
     {
         $checkResults = app(ResultStore::class)->latestResults();

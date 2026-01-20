@@ -37,6 +37,9 @@ abstract class BaseModelLang extends BaseModel
         'updated_by' => 'string',
     ];
 
+    /**
+     * @return array<string, mixed>
+     */
     public function sluggable(): array
     {
         return [

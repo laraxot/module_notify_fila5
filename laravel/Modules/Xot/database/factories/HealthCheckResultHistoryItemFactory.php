@@ -40,7 +40,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function ok(): static
     {
-        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -48,7 +48,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function failed(): static
     {
-        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

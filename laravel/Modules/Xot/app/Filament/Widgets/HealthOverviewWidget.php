@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Spatie\Health\Enums\Status;
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
+use Spatie\Health\Enums\Status;
 use Spatie\Health\ResultStores\ResultStore;
 
 class HealthOverviewWidget extends BaseWidget
@@ -27,14 +27,14 @@ class HealthOverviewWidget extends BaseWidget
         $stats = [];
 
         $checkResults = app(ResultStore::class)->latestResults();
-        if (null === $checkResults) {
+        if ($checkResults === null) {
             return $stats;
         }
         foreach ($checkResults->storedCheckResults as $result) {
             $label = $result->label;
             $value = $result->shortSummary;
             $stats[] = Stat::make($label, $value)
-                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }

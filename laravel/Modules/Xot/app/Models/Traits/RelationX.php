@@ -90,7 +90,7 @@ trait RelationX
         ?string $relatedKey = null,
         ?string $relation = null,
         bool $inverse = false,
-    ) {
+    ): MorphToMany {
         $pivot = $this->guessMorphPivot($related);
         $table = $pivot->getTable();
         $pivotFields = $pivot->getFillable();
@@ -118,10 +118,7 @@ trait RelationX
             ->withTimestamps();
     }
 
-    /**
-     * @return MorphPivot
-     */
-    public function guessMorphPivot(string $related, ?string $_class = null)
+    public function guessMorphPivot(string $related, ?string $_class = null): MorphPivot
     {
         $class = $this::class;
         $pivot_name = class_basename($related).'Morph';
@@ -138,9 +135,8 @@ trait RelationX
      *
      * @param  string  $related  The related model class name
      * @param  string|class-string|null  $class  The class to use for parent class lookup (used internally)
-     * @return Pivot
      */
-    public function guessPivot(string $related, ?string $class = null)
+    public function guessPivot(string $related, ?string $class = null): Pivot
     {
         $class ??= $this::class;
         $model_names = [
@@ -148,7 +144,6 @@ trait RelationX
             class_basename($related),
         ];
         sort($model_names);
-        $msg = '';
         $pivot_name = implode('', $model_names);
 
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
@@ -162,31 +157,51 @@ trait RelationX
     public function guessPivotFullClass(string $pivot_name, string $related, ?string $class = null): string
     {
         $class ??= $this::class;
-        $pivot_class = Str::of($class)
+
+        // Try class-based pivot first
+        $pivot_class = $this->buildPivotClassName($class, $pivot_name);
+        if (class_exists($pivot_class)) {
+            return $pivot_class;
+        }
+
+        // Try related model-based pivot
+        $pivot_class = $this->buildPivotClassName($related, $pivot_name);
+        if (class_exists($pivot_class)) {
+            return $pivot_class;
+        }
+
+        // Try parent class if available
+        return $this->tryParentClassPivot($pivot_name, $related, $class);
+    }
+
+    private function buildPivotClassName(string $context, string $pivotName): string
+    {
+        return Str::of($context)
             ->beforeLast('\\')
-            ->append('\\'.$pivot_name)
+            ->append('\\'.$pivotName)
             ->toString();
-        if (! class_exists($pivot_class)) {
-            $pivot_class = Str::of($related)
-                ->beforeLast('\\')
-                ->append('\\'.$pivot_name)
-                ->toString();
-        }
-        if (! class_exists($pivot_class)) {
-            if (get_parent_class($class) !== false) {
-                if (! Str::endsWith(get_parent_class($class), 'Morph')) {
-                    $model_names = [
-                        class_basename(get_parent_class($class)),
-                        class_basename($related),
-                    ];
-                    sort($model_names);
-                    $pivot_name = implode('', $model_names);
-                }
+    }
 
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
+    private function tryParentClassPivot(string $pivot_name, string $related, string $class): string
+    {
+        $parent_class = get_parent_class($class);
+        if ($parent_class === false) {
+            return $this->buildPivotClassName($class, $pivot_name);
         }
 
-        return $pivot_class;
+        // If parent class ends with 'Morph', use it directly
+        if (Str::endsWith($parent_class, 'Morph')) {
+            return $this->buildPivotClassName($class, $pivot_name);
+        }
+
+        // Otherwise, use parent class to build new pivot name
+        $model_names = [
+            class_basename($parent_class),
+            class_basename($related),
+        ];
+        sort($model_names);
+        $new_pivot_name = implode('', $model_names);
+
+        return $this->guessPivotFullClass($new_pivot_name, $related, $parent_class);
     }
 }

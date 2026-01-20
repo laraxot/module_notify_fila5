@@ -4,11 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 
-use Override;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Override;
 
 class ListCacheLocks extends XotBaseListRecords
 {
