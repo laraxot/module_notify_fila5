@@ -5,13 +5,14 @@ declare(strict_types=1);
 namespace Modules\User\Console\Commands;
 
 use Illuminate\Console\Command;
+
+use function Laravel\Prompts\multiselect;
+use function Laravel\Prompts\text;
+
 use Modules\User\Models\Role;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 use Symfony\Component\Console\Input\InputOption;
-
-use function Laravel\Prompts\multiselect;
-use function Laravel\Prompts\text;
 
 class AssignRoleCommand extends Command
 {
@@ -31,10 +32,7 @@ class AssignRoleCommand extends Command
 
     /**
      * Create a new command instance.
-     *
-     * @return void
      */
-    
 
     /**
      * Execute the console command.
@@ -55,11 +53,11 @@ class AssignRoleCommand extends Command
             options: $opts,
             required: true,
             scroll: 10,
-        // validate: function (array $values) {
-        //  return ! \in_array(\count($values), [1, 2], false)
-        //    ? 'A maximum of two'
-        //  : null;
-        // }
+            // validate: function (array $values) {
+            //  return ! \in_array(\count($values), [1, 2], false)
+            //    ? 'A maximum of two'
+            //  : null;
+            // }
         );
 
         foreach ($rows as $row) {
@@ -67,7 +65,7 @@ class AssignRoleCommand extends Command
             $user->assignRole($role);
         }
 
-        $this->info(implode(', ', $rows) . ' assigned to ' . $email);
+        $this->info(implode(', ', $rows).' assigned to '.$email);
     }
 
     /**

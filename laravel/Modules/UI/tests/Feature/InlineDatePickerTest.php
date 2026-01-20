@@ -2,14 +2,13 @@
 
 declare(strict_types=1);
 
-use Tests\TestCase;
+use Carbon\Exceptions\InvalidFormatException;
+use Filament\Forms\Components\Field;
+use Filament\Forms\Forms\Components\InlineDatePicker;
 use Filament\Schemas\Schema;
 use Illuminate\Support\Collection;
-use Carbon\Exceptions\InvalidFormatException;
-use Carbon\Carbon;
-use Filament\Forms\Components\Field;
 use Illuminate\Support\Facades\App;
-use \Filament\Forms\Forms\Components\InlineDatePicker;
+use Tests\TestCase;
 
 uses(TestCase::class);
 
@@ -29,7 +28,7 @@ test('it can set and get enabled dates', function (): void {
 test('it accepts closure for enabled dates', function (): void {
     $dates = ['2025-06-01', '2025-06-15', '2025-06-30'];
 
-    $component = InlineDatePicker::make('test')->enabledDates(fn() => $dates);
+    $component = InlineDatePicker::make('test')->enabledDates(fn () => $dates);
     expect($component->getEnabledDates()->toArray())->toBe($dates);
 });
 
@@ -165,7 +164,7 @@ test('it is kiss simple and clear', function (): void {
 
     // Assert: Metodi pubblici minimi e chiari
     $reflection = new ReflectionClass($picker);
-    $publicMethods = array_filter($reflection->getMethods(), fn($m) => $m->isPublic() && !$m->isStatic());
+    $publicMethods = array_filter($reflection->getMethods(), fn ($m) => $m->isPublic() && ! $m->isStatic());
 
     // Dovrebbe esporre metodi essenziali utilizzabili
     foreach ([

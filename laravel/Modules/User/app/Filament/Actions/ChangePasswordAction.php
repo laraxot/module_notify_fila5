@@ -12,11 +12,10 @@ use Filament\Actions\Action;
 use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\Rules\Password;
 use Modules\User\Datas\PasswordData;
 use Modules\Xot\Contracts\UserContract;
 
-class ChangePasswordAction extends Action
+final class ChangePasswordAction extends Action
 {
     protected function setUp(): void
     {
@@ -24,25 +23,36 @@ class ChangePasswordAction extends Action
         $this->translateLabel()
             ->icon('heroicon-o-key')
             ->action(function (UserContract $record, array $data): void {
+                $newPassword = is_string($data['new_password'] ?? null) ? $data['new_password'] : '';
+
                 $record->update([
-                    'password' => Hash::make($data['new_password']),
+                    'password' => Hash::make($newPassword),
                 ]);
                 Notification::make()
                     ->success()
                     ->title(__('user::notifications.password_changed_successfully.title'))
-                    ->body(__('user::notifications.password_changed_successfully.message'));
+                    ->body(__('user::notifications.password_changed_successfully.message'))
+                    ->send();
             })
-            ->schema([
-                PasswordData::make()->getPasswordFormComponent('new_password'),
-                TextInput::make('new_password_confirmation')
-                    ->password()
-                    ->placeholder(__('user::fields.confirm_password.placeholder'))
-                    ->rule('required', static fn($get): bool => (bool) $get('new_password'))
-                    ->same('new_password'),
-            ]);
+            ->schema(function (): array {
+                return [
+                    PasswordData::make()->getPasswordFormComponent('new_password'),
+                    TextInput::make('new_password_confirmation')
+                        ->password()
+                        ->placeholder(__('user::fields.confirm_password.placeholder'))
+                        ->rule(
+                            'required',
+                            /**
+                             * @param callable(string): mixed $get
+                             */
+                            static fn (callable $get): bool => (bool) $get('new_password')
+                        )
+                        ->same('new_password'),
+                ];
+            });
     }
 
-    public static function getDefaultName(): null|string
+    public static function getDefaultName(): string
     {
         return 'changePassword';
     }

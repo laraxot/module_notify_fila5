@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\User\Http\Livewire\Auth;
 
-use Exception;
 use DanHarrin\LivewireRateLimiting\WithRateLimiting;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
@@ -28,9 +27,8 @@ class Logout extends Component
 
     /**
      * Esegui logout, invalidazione sessione e redirect.
-     * @return RedirectResponse|null
      */
-    public function mount()
+    public function mount(): ?RedirectResponse
     {
         try {
             // Rate limit
@@ -62,24 +60,26 @@ class Logout extends Component
 
             // Redirect alla pagina di login
             return redirect()->route('login');
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             Log::error('Logout failed', [
                 'error' => $e->getMessage(),
                 'user_id' => Auth::id(),
             ]);
 
             session()->flash('error', __('Si è verificato un errore durante il logout'));
+
             return redirect()->back();
         }
     }
 
     /**
      * Renderizza il componente.
-     *
-     * @return View
      */
     public function render(): View
     {
-        return view('user::livewire.auth.logout');
+        /** @var view-string $viewName */
+        $viewName = 'user::livewire.auth.logout';
+
+        return view($viewName);
     }
 }

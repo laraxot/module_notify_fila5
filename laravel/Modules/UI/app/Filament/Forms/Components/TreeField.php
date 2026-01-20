@@ -9,11 +9,14 @@ use Filament\Forms\Components\Field;
 class TreeField extends Field
 {
     /**
-     * Summary of view.
-     *
-     * @phpstan-var view-string
-     *
-     * @phpstan-ignore property.defaultValue
+     * Setup iniziale del componente.
      */
-    protected string $view = 'ui::filament.forms.components.tree';
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        /** @var view-string $viewString */
+        $viewString = 'ui::filament.forms.components.tree';
+        $this->view($viewString);
+    }
 }

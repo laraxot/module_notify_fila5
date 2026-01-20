@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'name' => [
@@ -39,4 +38,7 @@ return [
         'group' => 'Sicurezza',
         'icon' => 'heroicon-o-shield-check',
     ],
+    'label' => '',
+    'plural_label' => '',
+    'actions' => [],
 ];

@@ -66,7 +66,11 @@ __('patient.profile.title')
    ```php
    // Sbagliato
    echo __('Nome: ') . $user->name;
+<<<<<<< HEAD
+   
+=======
 
+>>>>>>> laraxot/develop
    // Corretto
    echo __('Nome: :name', ['name' => $user->name]);
    ```
@@ -75,6 +79,9 @@ __('patient.profile.title')
    ```php
    // Sconsigliato
    __('nome_campo_obbligatorio')
+<<<<<<< HEAD
+   
+=======
 
    // Consigliato
    __('validation.required')
@@ -338,6 +345,7 @@ __('patient.profile.title')
    // Sconsigliato
    __('nome_campo_obbligatorio')
 
+>>>>>>> laraxot/develop
    // Consigliato
    __('validation.required')
    ```

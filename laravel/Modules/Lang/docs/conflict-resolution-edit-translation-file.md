@@ -88,6 +88,9 @@ return [
 - **Modulo**: Lang
 - **File**: `lang/it/edit_translation_file.php`
 - **Tipo Conflitto**: Dichiarazione PHP
+<<<<<<< HEAD
+- **Scelta**: Versione HEAD (con declare strict_types) 
+=======
 - **Scelta**: Versione HEAD (con declare strict_types)
 # Risoluzione Conflitto edit_translation_file.php
 
@@ -180,3 +183,4 @@ return [
 - **File**: `lang/it/edit_translation_file.php`
 - **Tipo Conflitto**: Dichiarazione PHP
 - **Scelta**: Versione HEAD (con declare strict_types)
+>>>>>>> laraxot/develop

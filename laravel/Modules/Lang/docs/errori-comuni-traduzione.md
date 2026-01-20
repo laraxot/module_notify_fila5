@@ -8,7 +8,11 @@
 
 **Esempio di errore**:
 ```php
+<<<<<<< HEAD
+<?php 
+=======
 <?php
+>>>>>>> laraxot/develop
 return [
 
 declare(strict_types=1);  // ERRORE: dopo return
@@ -95,18 +99,44 @@ return [
 'navigation' => [
   'label' => 'permission.navigation',  // ERRORE: pattern non tradotto
   'group' => 'permission.navigation',  // ERRORE: pattern non tradotto
+<<<<<<< HEAD
+  'icon' => 'permission.navigation',   // ERRORE: icona non valida
+=======
+>>>>>>> laraxot/develop
 ],
 ```
 
 **Correzione**:
 ```php
 'navigation' => [
+<<<<<<< HEAD
+  'name' => 'Permesso',
+  'plural' => 'Permessi',
+  'label' => 'Permessi',
+  'group' => 'Gestione Utenti',
+  'icon' => 'heroicon-o-shield-check',
+  'sort' => 50,
+],
+```
+
+**File corretti nel 2025-01-22**:
+- `Modules/Ptv/lang/it/criteri_esclusione.php`
+- `Modules/Performance/lang/it/organizzativa.php`
+- `Modules/Pdnd/lang/it/pdnd.php`
+- `Modules/Ptv/lang/it/message.php`
+- `Modules/Ptv/lang/it/option.php`
+- `Modules/Incentivi/lang/it/department.php`
+
+Vedi [Correzioni Navigation Pattern 2025](correzioni-navigation-pattern-2025.md) per dettagli completi.
+
+=======
   'label' => 'Permessi',
   'group' => 'Gestione Utenti',
   'icon' => 'heroicon-o-shield-check',
 ],
 ```
 
+>>>>>>> laraxot/develop
 ## Best Practices per la Correzione
 
 ### Struttura Espansa Obbligatoria
@@ -137,6 +167,9 @@ Tutti i campi devono seguire la struttura espansa:
 - [Traduzioni Navigation Audit](traduzioni_navigation_2025.md)
 - [Best Practices Traduzioni](../../Xot/docs/TRANSLATION_RULES.md)
 
+<<<<<<< HEAD
+*Ultimo aggiornamento: 6 Gennaio 2025*
+=======
 *Ultimo aggiornamento: 6 Gennaio 2025*
 # Errori comuni nei file di traduzione
 
@@ -278,3 +311,4 @@ Tutti i campi devono seguire la struttura espansa:
 - [Best Practices Traduzioni](../../Xot/docs/TRANSLATION_RULES.md)
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
+>>>>>>> laraxot/develop

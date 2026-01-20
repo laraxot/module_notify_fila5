@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'new_password_confirmation' => [
@@ -13,6 +12,14 @@ return [
         ],
         'changePassword' => [
             'label' => 'Cambia password',
+        ],
+    ],
+    'navigation' => [],
+    'label' => '',
+    'plural_label' => '',
+    'actions' => [
+        'cancel' => [
+            'tooltip' => 'cancel',
         ],
     ],
 ];

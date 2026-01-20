@@ -8,7 +8,7 @@ use Filament\Forms\Components\ViewField;
 
 // use Filament\Support\Components\ViewComponent;
 
-class Children extends ViewField
+final class Children extends ViewField
 {
     protected string $view = 'ui::filament.forms.components.navigation-builder';
 

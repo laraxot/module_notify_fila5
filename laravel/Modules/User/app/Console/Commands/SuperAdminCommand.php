@@ -6,13 +6,14 @@ namespace Modules\User\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
+
+use function Laravel\Prompts\text;
+
 use Modules\User\Models\Role;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
 use Symfony\Component\Console\Input\InputOption;
-
-use function Laravel\Prompts\text;
 
 class SuperAdminCommand extends Command
 {
@@ -32,10 +33,7 @@ class SuperAdminCommand extends Command
 
     /**
      * Create a new command instance.
-     *
-     * @return void
      */
-    
 
     /**
      * Execute the console command.
@@ -54,12 +52,12 @@ class SuperAdminCommand extends Command
         // Create module admin roles
         $modules_opts = array_keys(Module::all());
         foreach ($modules_opts as $module) {
-            $role_name = Str::lower($module) . '::admin';
+            $role_name = Str::lower($module).'::admin';
             $role = Role::firstOrCreate(['name' => $role_name]);
             $user->assignRole($role);
         }
 
-        $this->info('super-admin assigned to ' . $email);
+        $this->info('super-admin assigned to '.$email);
     }
 
     /**

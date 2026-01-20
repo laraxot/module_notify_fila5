@@ -5,35 +5,33 @@ declare(strict_types=1);
 namespace Modules\User\Filament\Resources\UserResource\Widgets;
 
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\Widget;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
 /**
  * Simple widget used to verify page filters behaviour (shows start/end dates).
  */
-class UserWidget extends Widget
+class UserWidget extends XotBaseWidget
 {
     use InteractsWithPageFilters;
+
     protected static bool $isLazy = false;
 
     protected string $view = 'user::filament.resources.user.widgets.user-widget';
 
-    /*
-    public function getStartDateProperty(): ?string
+    public function getFormSchema(): array
     {
-        return \data_get($this->pageFilters, 'startDate');
+        return [];
     }
 
-    public function getEndDateProperty(): ?string
+    /**
+     * @return array<string, mixed>
+     */
+    public function getViewData(): array
     {
-        return \data_get($this->pageFilters, 'endDate');
-    }
-        */
+        /** @var array<string, mixed>|null $data */
+        $data = $this->pageFilters;
 
-        public function getViewData(): array
-        {
-            $data=$this->pageFilters;
-            return $data;
-        }
+        // PHPStan Level 10: Ensure we always return array
+        return $data ?? [];
+    }
 }
-
-

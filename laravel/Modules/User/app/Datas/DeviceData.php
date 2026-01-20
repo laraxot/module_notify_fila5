@@ -8,6 +8,7 @@ declare(strict_types=1);
 
 namespace Modules\User\Datas;
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 use Spatie\LaravelData\Data;
@@ -26,22 +27,22 @@ class DeviceData extends Data
      * case OperatingSystem = 'X-Operating-System';
      * case SynchronizationId = 'X-Synchronization-Identifier';
      */
-    public null|string $appVersion = null;
+    public ?string $appVersion = null;
 
     // = 'X-App-Version';
-    public null|string $application = null;
+    public ?string $application = null;
 
     // = 'X-Application';
-    public null|string $deviceId = null;
+    public ?string $deviceId = null;
 
     // = 'X-Device-Id';
-    public null|string $notificationCode = null;
+    public ?string $notificationCode = null;
 
     // = 'X-Notification-Code';
-    public null|string $operatingSystem = null;
+    public ?string $operatingSystem = null;
 
     // = 'X-Operating-System';
-    public null|string $synchronizationId = null; // = 'X-Synchronization-Identifier';
+    public ?string $synchronizationId = null; // = 'X-Synchronization-Identifier';
 
     public static function make(): self
     {
@@ -66,21 +67,20 @@ class DeviceData extends Data
 
     public function getSynchronizationId(string $apiName): string
     {
-        if ($this->synchronizationId !== null) {
+        if (null !== $this->synchronizationId) {
             return $this->synchronizationId;
         }
 
         $synchronizationClass = config('morph_map.synchronization');
-        if ($synchronizationClass === null) {
+        if (null === $synchronizationClass) {
             $synchronizationClass = '\Modules\Egea\Models\Synchronization';
         }
 
         // fare contract
         // Assert::isInstanceOf($synchronizationClass,Model::class,'['.__LINE__.']['.class_basename($this).']');
         // $synchronization = Synchronization::create([
-        /**
-         * @phpstan-ignore staticMethod.nonObject
-         */
+        /** @var class-string<Model> $synchronizationClass */
+        /** @var Model $synchronization */
         $synchronization = $synchronizationClass::create([
             // $synchronization = Synchronization::create([
             'user_id' => auth()->id(),
@@ -91,8 +91,11 @@ class DeviceData extends Data
             'called_at' => Carbon::now(),
             // fulfilled_at
         ]);
-        Assert::string($synchronizationId = $synchronization->id, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-        $this->synchronizationId = $synchronizationId;
+        Assert::object($synchronization);
+
+        $syncId = $synchronization->getAttribute('id');
+        Assert::string($syncId, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        $this->synchronizationId = $syncId;
 
         return $this->synchronizationId;
     }

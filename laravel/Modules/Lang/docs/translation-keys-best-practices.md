@@ -307,6 +307,8 @@ Seguire queste best practices per le chiavi di traduzione garantirà un'applicaz
 - Nei Blade, sostituisci tutte le stringhe hardcoded con chiavi strutturate.
 - Nei file PHP, uniforma la struttura e aggiungi commenti per i traduttori.
 - Versiona i file di traduzione separatamente.
+<<<<<<< HEAD
+=======
 # Best Practices per le Chiavi di Traduzione
 
 ## Collegamenti correlati
@@ -616,3 +618,4 @@ Seguire queste best practices per le chiavi di traduzione garantirà un'applicaz
 - Nei Blade, sostituisci tutte le stringhe hardcoded con chiavi strutturate.
 - Nei file PHP, uniforma la struttura e aggiungi commenti per i traduttori.
 - Versiona i file di traduzione separatamente.
+>>>>>>> laraxot/develop

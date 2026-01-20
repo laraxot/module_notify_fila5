@@ -4,38 +4,31 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\UserResource\Pages;
 
-use Filament\Actions\BulkAction;
-use Filament\Tables\Filters\BaseFilter;
-use Override;
 use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\ExportBulkAction;
-use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Filters\Filter;
-use Illuminate\Database\Query\Builder;
+use Filament\Tables\Filters\BaseFilter;
 use Modules\User\Filament\Actions\ChangePasswordAction;
 use Modules\User\Filament\Resources\UserResource;
-use Modules\User\Filament\Resources\UserResource\Pages\BaseListUsers;
 use Modules\User\Filament\Resources\UserResource\Widgets\UserOverview;
 use Modules\Xot\Contracts\UserContract;
-use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 class ListUsers extends BaseListUsers
 {
     protected static string $resource = UserResource::class;
 
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
         return [
-            //'id' => TextColumn::make('id'),
+            // 'id' => TextColumn::make('id'),
             'name' => TextColumn::make('name')->searchable(),
             'email' => TextColumn::make('email')->searchable(),
-            //'email_verified_at' => TextColumn::make('email_verified_at')
+            // 'email_verified_at' => TextColumn::make('email_verified_at')
             //    ->dateTime(),
-            //'created_at' => TextColumn::make('created_at')
+            // 'created_at' => TextColumn::make('created_at')
             //    ->dateTime(),
         ];
     }
@@ -43,7 +36,7 @@ class ListUsers extends BaseListUsers
     /**
      * @return array<BaseFilter>
      */
-    #[Override]
+    #[\Override]
     public function getTableFilters(): array
     {
         return [
@@ -59,10 +52,10 @@ class ListUsers extends BaseListUsers
     /**
      * @phpstan-ignore-next-line
      */
-    #[Override]
+    #[\Override]
     public function getTableActions(): array
     {
-        /** @phpstan-ignore-next-line */
+        /* @phpstan-ignore-next-line */
         return [
             'change_password' => ChangePasswordAction::make()->tooltip('Cambio Password')->iconButton(),
             ...parent::getTableActions(),
@@ -70,27 +63,27 @@ class ListUsers extends BaseListUsers
                 ->tooltip(__('filament-actions::delete.single.label'))
                 ->color('danger')
                 ->icon('heroicon-o-trash')
-                ->action(static fn(UserContract $user) => $user->delete()),
-        ];
-    }
-
-    #[Override]
-    protected function getHeaderWidgets(): array
-    {
-        return [
-            UserOverview::class,
+                ->action(static fn (UserContract $user) => $user->delete()),
         ];
     }
 
     /**
      * @return array<string, BulkAction>
      */
-    #[Override]
+    #[\Override]
     public function getTableBulkActions(): array
     {
         return [
             'delete' => DeleteBulkAction::make(),
             'export' => ExportBulkAction::make(),
+        ];
+    }
+
+    #[\Override]
+    protected function getHeaderWidgets(): array
+    {
+        return [
+            UserOverview::class,
         ];
     }
 }

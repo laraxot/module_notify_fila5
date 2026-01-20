@@ -4,39 +4,33 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-use Override;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Str;
-use Modules\Notify\Contracts\SmsActionContract;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+use Override;
 use Spatie\QueueableAction\QueueableAction;
 
-use function Safe\preg_replace;
+use function Safe\mb_convert_encoding;
 
 final class SendNetfunSMSAction implements SmsActionContract
 {
     use QueueableAction;
 
-    /** @var string */
+    protected bool $debug;
+
+    protected int $timeout;
+
+    protected ?string $defaultSender = null;
+
     private string $token;
 
-    /** @var string */
     private string $endpoint;
 
     /** @var array<string, mixed> */
     private array $vars = [];
-
-    /** @var bool */
-    protected bool $debug;
-
-    /** @var int */
-    protected int $timeout;
-
-    /** @var string|null */
-    protected null|string $defaultSender = null;
 
     /**
      * Create a new action instance.
@@ -47,7 +41,7 @@ final class SendNetfunSMSAction implements SmsActionContract
     {
         // Recupera la configurazione specifica per il provider Netfun dalla sezione drivers
         $token = config('sms.drivers.netfun.token');
-        if (!is_string($token)) {
+        if (! is_string($token)) {
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [sms.drivers.netfun.token]');
         }
         $this->token = $token;
@@ -57,14 +51,15 @@ final class SendNetfunSMSAction implements SmsActionContract
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
         $this->debug = (bool) config('sms.debug', false);
-        $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
     }
 
     /**
      * Execute the action.
      *
-     * @param SmsData $smsData I dati del messaggio SMS
+     * @param  SmsData  $smsData  I dati del messaggio SMS
      * @return array Risultato dell'operazione
+     *
      * @throws Exception In caso di errore durante l'invio
      */
     #[Override]
@@ -75,24 +70,21 @@ final class SendNetfunSMSAction implements SmsActionContract
             'Content-Type' => 'application/json',
         ];
 
-        // Normalizza il numero di telefono
-        $to = (string) $smsData->to;
-        if (Str::startsWith($to, '00')) {
-            $to = $to !== '' ? ('+' . mb_substr($to, 2)) : $to;
-        }
-        if (!Str::startsWith($to, '+')) {
-            $to = '+39' . $to;
-        }
+        // Normalizza il numero di telefono usando l'azione dedicata
+        $recipient = app(NormalizePhoneNumberAction::class)->execute($smsData->recipient);
+
+        $plainText = strip_tags($smsData->body);
+        $textTemplate = mb_convert_encoding($plainText, 'UTF-8', 'UTF-8');
 
         $body = [
             'api_token' => $this->token,
             'sender' => $smsData->from ?? $this->defaultSender,
-            'text_template' => $smsData->body,
+            'text_template' => $textTemplate,
             'async' => true,
             'utf8_enabled' => true,
             'destinations' => [
                 [
-                    'number' => $to,
+                    'number' => $recipient,
                 ],
             ],
         ];
@@ -102,7 +94,7 @@ final class SendNetfunSMSAction implements SmsActionContract
             $response = $client->post($this->endpoint, ['json' => $body]);
         } catch (ClientException $clientException) {
             throw new Exception(
-                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
                 $clientException->getCode(),
                 $clientException,
             );
@@ -111,36 +103,12 @@ final class SendNetfunSMSAction implements SmsActionContract
         $this->vars['status_code'] = $response->getStatusCode();
         $this->vars['status_txt'] = $response->getBody()->getContents();
 
+        Log::channel('daily')->error('Netfun SMS response', [
+            'request' => $body,
+            'status_code' => $this->vars['status_code'],
+            'status_txt' => $this->vars['status_txt'],
+        ]);
+
         return $this->vars;
-    }
-
-    /**
-     * Normalizza il numero di telefono nel formato E.164
-     *
-     * @param string $phoneNumber Numero di telefono da normalizzare
-     * @return string Numero di telefono normalizzato in formato E.164
-     */
-    /**
-     * Normalizza il numero di telefono nel formato E.164
-     *
-     * @param string $phoneNumber Numero di telefono da normalizzare
-     * @return string Numero di telefono normalizzato in formato E.164
-     */
-    protected function normalizePhoneNumber(string $phoneNumber): string
-    {
-        // Rimuovi tutti i caratteri non numerici tranne il +
-        $cleaned = preg_replace('/[^0-9+]/', '', $phoneNumber);
-
-        // Se preg_replace restituisce null (non dovrebbe succedere con input string)
-        if (!is_string($cleaned) || $cleaned === '') {
-            $cleaned = '';
-        }
-
-        // Se il numero non inizia con '+'
-        if (!Str::startsWith($cleaned, '+')) {
-            $cleaned = '+39' . ltrim($cleaned, '0');
-        }
-
-        return $cleaned;
     }
 }

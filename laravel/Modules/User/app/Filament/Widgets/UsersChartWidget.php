@@ -4,32 +4,36 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Widgets;
 
-use Filament\Actions\Contracts\HasActions;
-use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Widgets\ChartWidget;
-// use Filament\Widgets\Concerns\InteractsWithPageFilters; // Temporaneamente commentato per evitare conflitti trait in Filament 4.x
 use Flowframe\Trend\Trend;
-use Flowframe\Trend\TrendValue;
+// use Filament\Widgets\Concerns\InteractsWithPageFilters; // Temporaneamente commentato per evitare conflitti trait in Filament 4.x
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Log;
 use Modules\User\Models\AuthenticationLog;
 use Webmozart\Assert\Assert;
 
-class UsersChartWidget extends ChartWidget implements HasForms, HasActions
+class UsersChartWidget extends ChartWidget implements HasActions, HasForms
 {
     use InteractsWithActions;
     use InteractsWithForms;
     // use InteractsWithPageFilters; // Temporaneamente commentato per evitare conflitti trait in Filament 4.x
 
+    /**
+     * @var array<string, mixed>|null
+     */
+    public ?array $pageFilters = null;
+
     public string $chart_id = '';
 
-    protected null|string $pollingInterval = null;
+    protected ?string $pollingInterval = null;
 
-    protected static null|int $sort = 2;
+    protected static ?int $sort = 2;
 
     public function getHeading(): Htmlable|string|null
     {
@@ -43,8 +47,8 @@ class UsersChartWidget extends ChartWidget implements HasForms, HasActions
     {
         return Action::make('test')
             ->requiresConfirmation()
-            ->action(function (array $arguments) {
-                dd('Test action called', $arguments);
+            ->action(function (array $arguments): void {
+                Log::debug('Test action called', $arguments);
             });
     }
 
@@ -63,12 +67,18 @@ class UsersChartWidget extends ChartWidget implements HasForms, HasActions
         // $this->testAction();
 
         try {
-            Assert::nullOrString($startDate = $this->pageFilters['startDate'] ?? null);
-            Assert::nullOrString($endDate = $this->pageFilters['endDate'] ?? null);
-            if ($endDate === null) {
+            // Type narrowing for PHPStan Level 10
+            $pageFilters = isset($this->pageFilters) && is_array($this->pageFilters) ? $this->pageFilters : null;
+
+            $startDateValue = is_array($pageFilters) && isset($pageFilters['startDate']) ? $pageFilters['startDate'] : null;
+            $endDateValue = is_array($pageFilters) && isset($pageFilters['endDate']) ? $pageFilters['endDate'] : null;
+
+            Assert::nullOrString($startDate = $startDateValue);
+            Assert::nullOrString($endDate = $endDateValue);
+            if (null === $endDate) {
                 $endDate = Carbon::now()->format('Y-m-d H:i:s');
             }
-            if ($startDate === null) {
+            if (null === $startDate) {
                 $startDate = Carbon::now()->subMonth()->format('Y-m-d H:i:s');
             }
             Assert::notNull($startDate = Carbon::createFromFormat('Y-m-d H:i:s', $startDate));
@@ -78,7 +88,7 @@ class UsersChartWidget extends ChartWidget implements HasForms, HasActions
             if ($startDate->diffInDays($endDate, true) > 90) {
                 $startDate = $endDate->copy()->subDays(90);
             }
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             return [];
         }
 

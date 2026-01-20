@@ -41,4 +41,13 @@ return [
             'label' => 'toggleColumns',
         ],
     ],
+    'navigation' => [
+        'sort' => 89,
+        'icon' => 'heroicon-o-user',
+        'group' => 'Authentication',
+        'label' => 'Social Authentications',
+    ],
+    'label' => '',
+    'plural_label' => '',
+    'actions' => [],
 ];

@@ -8,12 +8,12 @@ declare(strict_types=1);
 
 namespace Modules\Tenant\Models\Traits;
 
-use Illuminate\Database\Eloquent\Model;
 use Exception;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
+use InvalidArgumentException;
 use Modules\Tenant\Services\TenantService;
 use Sushi\Sushi;
-use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
 use function Safe\unlink;
@@ -29,6 +29,7 @@ trait SushiToJsons
     {
         $tbl = $this->getTable();
         $path = TenantService::filePath('database/content/'.$tbl);
+
         $files = File::glob($path.'/*.json');
 
         /** @var array<int, array<string, mixed>> $rows */
@@ -75,6 +76,14 @@ trait SushiToJsons
     }
 
     /**
+     * @return ?string
+     */
+    public function getConnectionName()
+    {
+        return parent::getConnectionName();
+    }
+
+    /**
      * bootUpdater function.
      */
     protected static function bootSushiToJsons(): void
@@ -85,7 +94,9 @@ trait SushiToJsons
          */
         static::creating(function ($model): void {
             /** @var static $model */
-            Assert::isInstanceOf($model, Model::class);
+            if (! $model instanceof Model) {
+                throw new InvalidArgumentException('Model must be an instance of Illuminate\Database\Eloquent\Model');
+            }
 
             // PHPStan Level 10: Type-safe max() call
             $maxId = $model->max('id');
@@ -131,7 +142,9 @@ trait SushiToJsons
          */
         static::updating(function ($model): void {
             /** @var static $model */
-            Assert::isInstanceOf($model, Model::class);
+            if (! $model instanceof Model) {
+                throw new InvalidArgumentException('Model must be an instance of Illuminate\Database\Eloquent\Model');
+            }
 
             $file = $model->getJsonFile();
             if (is_string($file)) {
@@ -152,7 +165,9 @@ trait SushiToJsons
 
         static::deleting(function ($model): void {
             /** @var static $model */
-            Assert::isInstanceOf($model, Model::class);
+            if (! $model instanceof Model) {
+                throw new InvalidArgumentException('Model must be an instance of Illuminate\Database\Eloquent\Model');
+            }
 
             $file = $model->getJsonFile();
             if (is_string($file)) {

@@ -4,26 +4,28 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Blocks;
 
-use Override;
-use Filament\Forms\Components\Builder\Block;
-use Filament\Forms\Components\Forms;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Component;
 use Modules\Xot\Filament\Blocks\XotBaseBlock;
-use Modules\Xot\Filament\Traits\TransTrait;
 
-class Navigation extends XotBaseBlock
+final class Navigation extends XotBaseBlock
 {
-    #[Override]
+    /**
+     * @return array<int, Component>
+     */
+    #[\Override]
     public static function getBlockSchema(): array
     {
         return [
             Repeater::make('items')
-                ->label('Voci di navigazione')
+                ->label(__('ui::blocks.navigation.fields.items.label'))
                 ->schema([
-                    TextInput::make('label')->label('Testo link')->required(),
+                    TextInput::make('label')
+                        ->label(__('ui::blocks.navigation.fields.text.label'))
+                        ->required(),
                     TextInput::make('url')
-                        ->label('URL link')
+                        ->label(__('ui::blocks.navigation.fields.url.label'))
                         ->url()
                         ->required(),
                 ])
@@ -32,14 +34,19 @@ class Navigation extends XotBaseBlock
         ];
     }
 
+    /**
+     * @return array<string, Component>
+     */
     public function getFormSchema(): array
     {
         return [
-            Repeater::make('items')
-                ->label(static::trans('blocks.navigation.fields.items.label'))
+            'items' => Repeater::make('items')
+                ->label(self::trans('blocks.navigation.fields.items.label'))
                 ->schema([
-                    TextInput::make('text')->label(static::trans('blocks.navigation.fields.text.label')),
-                    TextInput::make('url')->label(static::trans('blocks.navigation.fields.url.label')),
+                    TextInput::make('text')
+                        ->label(self::trans('blocks.navigation.fields.text.label')),
+                    TextInput::make('url')
+                        ->label(self::trans('blocks.navigation.fields.url.label')),
                 ]),
         ];
     }

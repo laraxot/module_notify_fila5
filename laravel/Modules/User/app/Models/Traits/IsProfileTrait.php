@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Modulo User - Trait per il profilo utente
+ * Modulo User - Trait per il profilo utente.
  *
  * Questo trait implementa funzionalità comuni per i modelli di profilo utente nell'applicazione,
  * tra cui relazioni con utenti, dispositivi e team, gestione dei ruoli, e accessori per attributi
@@ -20,10 +20,9 @@ declare(strict_types=1);
 
 namespace Modules\User\Models\Traits;
 
-use Exception;
-use Illuminate\Database\Eloquent\Model;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Casts\Attribute;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -31,10 +30,12 @@ use Illuminate\Support\Collection;
 use Modules\User\Models\Device;
 use Modules\User\Models\DeviceUser;
 use Modules\User\Models\Role;
+use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\Permission\Exceptions\RoleDoesNotExist;
+use Webmozart\Assert\Assert;
 
 /**
  * Trait per aggiungere funzionalità di profilo ai modelli utente.
@@ -68,23 +69,26 @@ trait IsProfileTrait
      *
      * @return string|null Il nome completo dell'utente
      */
-    public function getFullNameAttribute(null|string $value): null|string
+    public function getFullNameAttribute(?string $value): ?string
     {
-        if ($value !== null) {
+        if (null !== $value) {
             return $value;
         }
 
         $user = $this->user;
-        if ($user === null) {
+        if (null === $user) {
             return null;
         }
+        Assert::isInstanceOf($user, User::class);
 
-        $res = $this->first_name . ' ' . $this->last_name;
-        if (mb_strlen($res) > 2) {
+        $res = trim(($this->first_name ?? '').' '.($this->last_name ?? ''));
+        if ('' !== $res) {
             return $res;
         }
 
-        return $user->name;
+        $userName = $user->getAttribute('name');
+
+        return \is_string($userName) && '' !== $userName ? $userName : null;
     }
 
     /**
@@ -95,24 +99,26 @@ trait IsProfileTrait
      *
      * @return string|null Il nome dell'utente
      */
-    public function getFirstNameAttribute(null|string $value): null|string
+    public function getFirstNameAttribute(?string $value): ?string
     {
-        if ($value !== null) {
+        if (null !== $value) {
             return $value;
         }
 
         $user = $this->user;
-        if ($user === null) {
+        if (null === $user) {
+            return null;
+        }
+        Assert::isInstanceOf($user, User::class);
+
+        $firstName = $user->getAttribute('first_name');
+        if (! \is_string($firstName) || '' === $firstName) {
             return null;
         }
 
-        $value = $user->first_name;
-        if ($value === null) {
-            return null;
-        }
-        $this->update(['first_name' => $value]);
+        $this->update(['first_name' => $firstName]);
 
-        return $value;
+        return $firstName;
     }
 
     /**
@@ -123,24 +129,26 @@ trait IsProfileTrait
      *
      * @return string|null Il cognome dell'utente
      */
-    public function getLastNameAttribute(null|string $value): null|string
+    public function getLastNameAttribute(?string $value): ?string
     {
-        if ($value !== null) {
+        if (null !== $value) {
             return $value;
         }
 
         $user = $this->user;
-        if ($user === null) {
+        if (null === $user) {
+            return null;
+        }
+        Assert::isInstanceOf($user, User::class);
+
+        $lastName = $user->getAttribute('last_name');
+        if (! \is_string($lastName) || '' === $lastName) {
             return null;
         }
 
-        $value = $user->last_name;
-        if ($value === null) {
-            return null;
-        }
-        $this->update(['last_name' => $value]);
+        $this->update(['last_name' => $lastName]);
 
-        return $value;
+        return $lastName;
     }
 
     /**
@@ -150,7 +158,7 @@ trait IsProfileTrait
      */
     public function isSuperAdmin(): bool
     {
-        if ($this->user === null) {
+        if (null === $this->user) {
             return false;
         }
 
@@ -164,7 +172,7 @@ trait IsProfileTrait
      */
     public function isNegateSuperAdmin(): bool
     {
-        if ($this->user === null) {
+        if (null === $this->user) {
             return false;
         }
 
@@ -176,16 +184,15 @@ trait IsProfileTrait
      * Se l'utente è super-admin, rimuove questo ruolo e assegna negate-super-admin.
      * Se l'utente non è super-admin, assegna super-admin e rimuove negate-super-admin.
      *
-     * @throws Exception Se l'utente non è disponibile
-     *
-     * @return void
+     * @throws \Exception Se l'utente non è disponibile
      */
     public function toggleSuperAdmin(): void
     {
         $user = $this->user;
-        if ($user === null) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (null === $user) {
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
         }
+        Assert::isInstanceOf($user, User::class);
         $to_assign = 'super-admin';
         $to_remove = 'negate-super-admin';
         if ($this->isSuperAdmin()) {
@@ -201,7 +208,7 @@ trait IsProfileTrait
             $role_remove = Role::updateOrCreate(['name' => $to_remove], ['team_id' => null]);
             $user->roles()->attach($role_assign);
             $user->roles()->detach($role_remove);
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             Notification::make()
                 ->title('Exception !')
                 ->danger()
@@ -219,9 +226,7 @@ trait IsProfileTrait
     public function mobileDevices(): BelongsToMany
     {
         // @phpstan-ignore return.type
-        return $this->belongsToMany(Device::class, 'mobile_device_users', 'profile_id', 'device_id')
-            ->withPivot('token')
-            ->withTimestamps();
+        return $this->belongsToManyX(Device::class);
     }
 
     /**
@@ -259,48 +264,48 @@ trait IsProfileTrait
     /**
      * Ottiene i token dei dispositivi mobili.
      *
-     * @return Collection<int|string, string>
+     * @return Collection<int|string, non-empty-string>
      */
     public function getMobileDeviceTokens(): Collection
     {
-        // PHPStan livello 9 richiede il controllo che il risultato sia del tipo corretto
         $tokens = $this->mobileDeviceUsers()
             ->pluck('token')
-            ->filter(fn($value) => $value !== null && is_string($value));
+            ->filter(static fn (mixed $value): bool => is_string($value) && '' !== $value)
+            ->map(static fn (mixed $value): string => (string) $value);
 
-        /** @var Collection<int|string, string> */
+        /* @var Collection<int|string, non-empty-string> $tokens */
         return $tokens;
     }
 
     /**
      * Get the user's user_name.
      * Ottiene il nome utente dal modello utente collegato.
-     *
-     * @return Attribute<string|null, never>
      */
     protected function userName(): Attribute
     {
-        return Attribute::make(get: function (): null|string {
-            $user = $this->user;
-            if ($user === null) {
-                return null;
+        return Attribute::make(
+            get: function (): ?string {
+                $user = $this->user;
+                if (null === $user) {
+                    return null;
+                }
+                Assert::isInstanceOf($user, User::class);
+
+                $name = $user->getAttribute('name');
+
+                return \is_string($name) && '' !== $name ? $name : null;
             }
-            return $user->name;
-        });
+        );
     }
 
     /**
      * Get the user's avatar URL.
      * Recupera l'URL dell'avatar dell'utente dalla MediaLibrary.
-     *
-     * @return Attribute<string, never>
      */
     protected function avatar(): Attribute
     {
         return Attribute::make(get: function (): string {
-            $value = $this->getFirstMediaUrl('avatar');
-
-            return $value;
+            return $this->getFirstMediaUrl('avatar');
         });
     }
 }

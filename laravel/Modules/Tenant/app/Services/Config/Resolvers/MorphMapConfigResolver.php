@@ -11,6 +11,8 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Str;
 use Modules\Tenant\Services\Config\Contracts\ConfigResolverInterface;
 use Modules\Tenant\Services\TenantService;
+use Modules\Xot\Actions\Model\GetAllModelsByModuleNameAction;
+use Modules\Xot\Services\RouteService;
 
 /**
  * Resolves morph_map configuration for admin panel.
@@ -19,7 +21,7 @@ class MorphMapConfigResolver implements ConfigResolverInterface
 {
     public function canResolve(string $key): bool
     {
-        return inAdmin()
+        return RouteService::inAdmin()
             && Str::startsWith($key, 'morph_map')
             && Request::segment(2) !== null;
     }
@@ -31,14 +33,17 @@ class MorphMapConfigResolver implements ConfigResolverInterface
             throw new Exception('Invalid module name from request segment');
         }
 
-        $models = getModuleModels($moduleName);
+        // Use action directly instead of helper function to avoid autoload issues during package:discover
+        /** @var GetAllModelsByModuleNameAction $action */
+        $action = app(GetAllModelsByModuleNameAction::class);
+        /** @var array<string, class-string> $models */
+        $models = $action->execute($moduleName);
         $originalConf = $this->getOriginalConfig();
         $tenantConf = $this->getTenantConfig();
 
-        $mergedConf = collect($models)
-            ->merge($originalConf)
-            ->merge($tenantConf)
-            ->all();
+        // Use array_merge to avoid PHPStan type issues with Collection::merge()
+        /** @var array<string, mixed> $mergedConf */
+        $mergedConf = array_merge($models, $originalConf, $tenantConf);
 
         Config::set('morph_map', $mergedConf);
 

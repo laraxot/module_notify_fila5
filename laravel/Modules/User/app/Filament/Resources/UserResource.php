@@ -9,26 +9,27 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources;
 
-use Filament\Schemas\Components\Section;
-use Override;
-use Modules\User\Filament\Resources\UserResource\Pages\CreateUser;
+use Carbon\Carbon;
+use Carbon\CarbonInterface;
 use Filament\Forms\Components\Placeholder;
 use Filament\Forms\Components\TextInput;
+use Filament\Resources\RelationManagers\RelationManager;
+use Filament\Schemas\Components\Section;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\HtmlString;
-use Modules\User\Filament\Resources\UserResource\Pages;
+use Modules\User\Filament\Resources\UserResource\Pages\CreateUser;
+use Modules\User\Filament\Resources\UserResource\RelationManagers\AuthenticationLogsRelationManager;
+use Modules\User\Filament\Resources\UserResource\RelationManagers\ClientsRelationManager;
+use Modules\User\Filament\Resources\UserResource\RelationManagers\OauthTokensRelationManager;
+use Modules\User\Filament\Resources\UserResource\RelationManagers\SocialiteUsersRelationManager;
+use Modules\User\Filament\Resources\UserResource\RelationManagers\TenantsRelationManager;
 use Modules\User\Filament\Resources\UserResource\Widgets\UserOverview;
+use Modules\Xot\Datas\XotData;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class UserResource extends XotBaseResource
 {
-    // protected static ?string $model = \Modules\Xot\Datas\XotData::make()->getUserClass();
-
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-users';
-
-    // Static property Modules\User\Filament\Resources\UserResource::$enablePasswordUpdates is never read, only written.
-    // private static bool|\Closure $enablePasswordUpdates = true;
-
     public static function getWidgets(): array
     {
         return [
@@ -41,7 +42,7 @@ class UserResource extends XotBaseResource
     //    static::$extendFormCallback = $callback;
     // }
 
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [
@@ -50,16 +51,42 @@ class UserResource extends XotBaseResource
                 'email' => TextInput::make('email')->required()->unique(ignoreRecord: true),
                 'password' => TextInput::make('password')
                     ->password()
-                    ->dehydrateStateUsing(fn($state) => !empty($state) ? Hash::make($state) : null)
-                    ->required(fn($livewire) => $livewire instanceof CreateUser),
+                    ->dehydrateStateUsing(function ($state): ?string {
+                        // Type narrowing for PHPStan Level 10
+                        if (! is_string($state) || empty($state)) {
+                            return null;
+                        }
+
+                        return Hash::make($state);
+                    })
+                    ->required(fn ($livewire) => $livewire instanceof CreateUser),
             ])->columnSpan(8),
             'section02' => Section::make([
                 'created_at' => Placeholder::make('created_at')->content(static function ($record) {
-                    if ($record === null || $record->created_at === null) {
+                    // Type narrowing for PHPStan Level 10
+                    if (! $record instanceof Model) {
                         return new HtmlString('&mdash;');
                     }
 
-                    return $record->created_at->diffForHumans();
+                    // PHPStan Level 10: hasAttribute() invece di property_exists() per Eloquent
+                    if (! $record->hasAttribute('created_at')) {
+                        return new HtmlString('&mdash;');
+                    }
+
+                    /** @var Carbon|null $createdAt */
+                    $createdAt = $record->getAttribute('created_at');
+
+                    if (null === $createdAt) {
+                        return new HtmlString('&mdash;');
+                    }
+                    if ($createdAt instanceof CarbonInterface) {
+                        return $createdAt->diffForHumans();
+                    }
+                    if ($createdAt instanceof \DateTimeInterface) {
+                        return $createdAt->format('Y-m-d H:i:s');
+                    }
+
+                    return new HtmlString('&mdash;');
                 }),
             ])->columnSpan(4),
         ];
@@ -77,9 +104,40 @@ class UserResource extends XotBaseResource
      * }
      */
 
-    #[Override]
+    #[\Override]
     public function hasCombinedRelationManagerTabsWithContent(): bool
     {
         return true;
+    }
+
+    /**
+     * Get the model class name for this resource.
+     *
+     * @return class-string<Model>
+     */
+    #[\Override]
+    public static function getModel(): string
+    {
+        $xot = XotData::make();
+
+        /* @var class-string<Model> */
+        return $xot->getUserClass();
+    }
+
+    /**
+     * Get the relations available for the resource.
+     *
+     * @return array<int, class-string<RelationManager>>
+     */
+    #[\Override]
+    public static function getRelations(): array
+    {
+        return [
+            AuthenticationLogsRelationManager::class,
+            OauthTokensRelationManager::class,
+            SocialiteUsersRelationManager::class,
+            ClientsRelationManager::class,
+            TenantsRelationManager::class,
+        ];
     }
 }
