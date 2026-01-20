@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'resources' => 'Risorse',
     'pages' => 'Pagine',
@@ -49,10 +48,15 @@ return [
         'create' => [
             'label' => 'create',
         ],
+        'openColumnManager' => [
+            'tooltip' => 'openColumnManager',
+        ],
     ],
     'plural' => [
         'model' => [
             'label' => 'social provider.plural.model',
         ],
     ],
+    'label' => '',
+    'plural_label' => '',
 ];

@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\User\Http\Livewire\Auth\Passwords;
 
-use Illuminate\Contracts\View\View;
 use Illuminate\Contracts\View\Factory;
-use Modules\Xot\Actions\File\ViewCopyAction;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
 use Livewire\Component;
+use Modules\Xot\Actions\File\ViewCopyAction;
 
 class Confirm extends Component
 {
@@ -37,6 +37,9 @@ class Confirm extends Component
          */
         $view = 'pub_theme::livewire.auth.passwords.confirm';
 
-        return view($view)->extends('pub_theme::layouts.auth');
+        /** @var View $result */
+        $result = view($view)->extends('pub_theme::layouts.auth');
+
+        return $result;
     }
 }

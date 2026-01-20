@@ -2,11 +2,9 @@
 
 declare(strict_types=1);
 
+    $fields = $getFields();
+    $record = $getRecord();
 ?>
-@php
-    $fields=$getFields();
-    $record=$getRecord();
-@endphp
 <div
     {{
         $attributes
@@ -23,22 +21,42 @@ declare(strict_types=1);
      
         @php
             $name = $field->getName();
-            $value = $record->getAttribute($name);
-            
+            $value = $record->{$name} ?? null;
             // Skip empty values to save space
             if (empty($value) && $value !== 0 && $value !== '0') {
                 continue;
             }
-            
+
             // Format the value for display
             $formattedValue = $value;
-            
-            // Add label if the field has one (for better readability)
-            $label = $field->getLabel() ?? $name;
-            $displayText = $label . ': ' . $formattedValue;
+
+            // Resolve the label leveraging LangServiceProvider auto translations
+            $rawLabel = $field->getLabel();
+
+            if ($rawLabel instanceof \Closure) {
+                $rawLabel = $rawLabel($record);
+            }
+
+            if ($rawLabel instanceof \Illuminate\Contracts\Support\Htmlable) {
+                $labelText = trim(strip_tags($rawLabel->toHtml()));
+            } elseif (is_string($rawLabel)) {
+                $labelText = trim($rawLabel);
+            } else {
+                $labelText = '';
+            }
+
+            if ($labelText === '') {
+                $translationKey = 'ui::table.columns.' . $name . '.label';
+                $translated = __($translationKey);
+                $labelText = $translated !== $translationKey
+                    ? $translated
+                    : \Illuminate\Support\Str::of((string) $name)->replace('_', ' ')->headline()->value();
+            }
+
+            $displayText = $labelText . ': ' . $formattedValue;
         @endphp
         
-            {!! $displayText !!}<br/>
+            {{ $displayText }}<br/>
         
         
     @endforeach

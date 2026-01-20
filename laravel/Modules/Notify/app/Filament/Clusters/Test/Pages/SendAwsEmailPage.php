@@ -13,6 +13,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Notifications\Notification as FilamentNotification;
 use Filament\Panel;
+use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -22,11 +23,14 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Override;
 
+/**
+ * @property \Filament\Schemas\Schema $emailForm
+ */
 class SendAwsEmailPage extends XotBasePage
 {
     public ?array $emailData = [];
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
 
     protected string $view = 'notify::filament.pages.send-email';
 
@@ -56,29 +60,36 @@ class SendAwsEmailPage extends XotBasePage
 
     protected function fillForms(): void
     {
-        // $this->emailForm->fill();
-        // Form data filled;
+        $this->emailForm->fill();
     }
 
+    public function emailForm(Schema $schema): Schema
+    {
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+    /**
+     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\RichEditor|\Filament\Forms\Components\Select|\Filament\Forms\Components\Toggle>
+     */
     public function getEmailFormSchema(): array
     {
         return [
-            TextInput::make('to')
+            'recipient' => TextInput::make('recipient')
                 ->label(__('notify::email.form.to.label'))
                 ->email()
                 ->required()
                 ->helperText(__('notify::email.form.to.helper')),
-            TextInput::make('subject')
+            'subject' => TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
-            RichEditor::make('body_html')
+            'body_html' => RichEditor::make('body_html')
                 ->label(__('notify::email.form.body_html.label'))
                 ->required()
                 ->fileAttachmentsDisk('public')
                 ->fileAttachmentsDirectory('uploads/mail-attachments')
                 ->helperText(__('notify::email.form.body_html.helper')),
-            Select::make('template')
+            'template' => Select::make('template')
                 ->label(__('notify::email.form.template.label'))
                 ->options([
                     'aws-default' => 'AWS Default',
@@ -89,7 +100,7 @@ class SendAwsEmailPage extends XotBasePage
                 ->default('aws-default')
                 ->required()
                 ->helperText(__('notify::email.form.template.helper')),
-            Toggle::make('add_attachments')
+            'add_attachments' => Toggle::make('add_attachments')
                 ->label(__('notify::email.form.add_attachments.label'))
                 ->default(false)
                 ->helperText(__('notify::email.form.add_attachments.helper')),
@@ -98,21 +109,20 @@ class SendAwsEmailPage extends XotBasePage
 
     public function sendEmail(): void
     {
-        // $data = $this->emailForm->getState();
-        $data = $this->data;
+        $data = $this->emailForm->getState();
 
         try {
-            $to = is_string($data['to']) ? $data['to'] : '';
+            $recipient = is_string($data['recipient']) ? $data['recipient'] : '';
             $subject = is_string($data['subject']) ? $data['subject'] : '';
             $bodyHtml = is_string($data['body_html']) ? $data['body_html'] : '';
 
-            $emailData = new EmailData($to, $subject, $bodyHtml);
+            $emailData = new EmailData($recipient, $subject, $bodyHtml);
 
             // Configurare lo specifico driver AWS SES per questo test
             config(['mail.default' => 'ses']);
 
             // Invia l'email utilizzando il servizio SES
-            Mail::to($to)->send(new EmailDataEmail($emailData));
+            Mail::to($recipient)->send(new EmailDataEmail($emailData));
 
             FilamentNotification::make()
                 ->success()

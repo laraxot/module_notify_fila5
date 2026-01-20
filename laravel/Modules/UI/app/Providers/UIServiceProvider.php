@@ -4,13 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\UI\Providers;
 
-use Illuminate\Foundation\AliasLoader;
-use Illuminate\Support\Facades\Blade;
-use Modules\UI\Services\UIService;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Modules\Xot\Providers\XotBaseServiceProvider;
-
-use function Safe\realpath;
 
 /**
  * Service Provider per il modulo UI.
@@ -24,15 +19,11 @@ class UIServiceProvider extends XotBaseServiceProvider
 {
     /**
      * Nome del modulo.
-     *
-     * @var string
      */
     public string $name = 'UI';
 
     /**
      * Directory del modulo.
-     *
-     * @var string
      */
     protected string $module_dir = __DIR__;
 
@@ -45,19 +36,15 @@ class UIServiceProvider extends XotBaseServiceProvider
      *
      * @return void
      */
-    
 
     /**
      * Registra i servizi del provider.
      *
      * @return void
      */
-    
 
     /**
      * Restituisce il percorso delle viste dei componenti UI.
-     *
-     * @return string
      */
     public function getComponentViewPath(): string
     {

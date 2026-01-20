@@ -4,14 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\User\Models\Traits;
 
-use Throwable;
 use Filament\Facades\Filament;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\User\Contracts\TeamContract;
 use Modules\User\Models\Scopes\TenantScope;
 use Modules\User\Models\Tenant;
-use Modules\Xot\Datas\XotData;
 
 /**
  * @property TeamContract $currentTeam
@@ -20,21 +18,20 @@ trait InteractsWithTenant
 {
     /**
      * Tenant corrente.
-     *
-     * @var Model|null
      */
-    protected null|Model $currentTenant = null;
+    protected ?Model $currentTenant = null;
 
     /**
      * Relazione con il tenant a cui appartiene il modello.
      *
      * @return BelongsTo<Model, self>
+     *
      * @phpstan-return BelongsTo<Model, $this>
      */
     public function tenant(): BelongsTo
     {
         $tenant = $this->getTenant();
-        if ($tenant === null) {
+        if (null === $tenant) {
             $this->loadTenantFromSession();
             $tenant = $this->getTenant();
         }
@@ -47,24 +44,20 @@ trait InteractsWithTenant
 
     /**
      * Ottiene il tenant corrente.
-     *
-     * @return Model|null
      */
-    protected function getTenant(): null|Model
+    protected function getTenant(): ?Model
     {
         return $this->currentTenant;
     }
 
     /**
      * Carica il tenant dalla sessione.
-     *
-     * @return void
      */
     protected function loadTenantFromSession(): void
     {
         try {
             $this->currentTenant = Filament::getTenant();
-        } catch (Throwable $e) {
+        } catch (\Throwable $e) {
             // Se Filament non è disponibile, lascia il tenant come null
             $this->currentTenant = null;
         }
@@ -78,10 +71,13 @@ trait InteractsWithTenant
         static::addGlobalScope(new TenantScope());
 
         static::creating(static function ($model): void {
-            if ($model !== null) {
+            // PHPStan Level 10: Verifica se il modello ha tenant_id
+            // Uso isFillable() invece di property_exists() per Eloquent magic properties
+            if (null !== $model && $model instanceof Model && $model->isFillable('tenant_id')) {
                 $tenant = Filament::getTenant();
-                if ($tenant !== null) {
-                    $model->tenant_id = $tenant->getKey();
+                if (null !== $tenant) {
+                    // Usa setAttribute() invece di assegnazione diretta per PHPStan
+                    $model->setAttribute('tenant_id', $tenant->getKey());
                 }
             }
         });
@@ -90,17 +86,17 @@ trait InteractsWithTenant
     /**
      * Interact with the user's first name.
      */
-    protected function setTenantIdAttribute(null|int $value): void
+    protected function setTenantIdAttribute(?int $value): void
     {
         $tenant = Filament::getTenant();
-        if ($value === null && $tenant !== null) {
+        if (null === $value && null !== $tenant) {
             $tenantId = $tenant->getKey();
             if (is_int($tenantId)) {
                 $value = $tenantId;
             }
         }
 
-        if ($value !== null) {
+        if (null !== $value) {
             $this->attributes['tenant_id'] = $value;
         }
     }
@@ -111,14 +107,14 @@ trait InteractsWithTenant
     protected function applyTenantScope(): void
     {
         $tenant = $this->getTenant();
-        if ($tenant === null) {
+        if (null === $tenant) {
             $this->loadTenantFromSession();
             $tenant = $this->getTenant();
         }
 
-        if ($tenant !== null) {
+        if (null !== $tenant) {
             $tenantId = $tenant->getKey();
-            if ($tenantId !== null) {
+            if (null !== $tenantId) {
                 static::addGlobalScope(new TenantScope());
             }
         }

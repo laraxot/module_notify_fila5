@@ -10,6 +10,7 @@ use Filament\Facades\Filament;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
+use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -23,7 +24,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Override;
 
 /**
- * @property Schema $emailForm
+ * @property \Filament\Schemas\Schema $emailForm
  */
 class SendEmailPage extends XotBasePage
 {
@@ -31,7 +32,7 @@ class SendEmailPage extends XotBasePage
 
     public ?array $emailData = [];
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
@@ -42,13 +43,24 @@ class SendEmailPage extends XotBasePage
         $this->fillForms();
     }
 
+    public function emailForm(Schema $schema): Schema
+    {
+        /** @var array<string, Component> $formSchema */
+        $formSchema = $this->getEmailFormSchema();
+
+        return $schema->components($formSchema)->model($this->getUser())->statePath('emailData');
+    }
+
+    /**
+     * @return array<string, Component>
+     */
     public function getEmailFormSchema(): array
     {
         return [
             'section' => Section::make()
                 // ->description('Update your account\'s profile information and email address.')
                 ->schema([
-                    'to' => TextInput::make('to')
+                    'recipient' => TextInput::make('recipient')
                         // ->unique(ignoreRecord: true)
                         ->email()
                         ->required(),
@@ -63,7 +75,7 @@ class SendEmailPage extends XotBasePage
         $data = $this->emailForm->getState();
         $email_data = EmailData::from($data);
 
-        Mail::to($data['to'])->send(new EmailDataEmail($email_data));
+        Mail::to($data['recipient'])->send(new EmailDataEmail($email_data));
 
         Notification::make()
             ->success()

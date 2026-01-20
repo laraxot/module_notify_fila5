@@ -4,37 +4,32 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\TeamResource\RelationManagers;
 
-use Filament\Actions\BulkAction;
-use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
-use Override;
 use Filament\Actions\AttachAction;
-use Filament\Actions\ViewAction;
-use Filament\Actions\EditAction;
-use Filament\Actions\DetachAction;
+use Filament\Actions\BulkAction;
 use Filament\Actions\DeleteAction;
-use Filament\Actions\DetachBulkAction;
 use Filament\Actions\DeleteBulkAction;
-use Filament\Schemas\Schema;
-use Filament\Tables;
+use Filament\Actions\DetachAction;
+use Filament\Actions\DetachBulkAction;
+use Filament\Actions\EditAction;
+use Filament\Actions\ViewAction;
+use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Table;
-use Modules\User\Filament\Resources\UserResource;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 class UsersRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'users';
 
-    protected static null|string $inverseRelationship = 'teams';
+    protected static ?string $inverseRelationship = 'teams';
 
-    protected static null|string $recordTitleAttribute = 'name';
+    protected static ?string $recordTitleAttribute = 'name';
 
     /**
      * @return array<string, Column>
      */
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
         return [
@@ -47,7 +42,7 @@ class UsersRelationManager extends XotBaseRelationManager
     /**
      * @return array<string, Action>
      */
-    #[Override]
+    #[\Override]
     public function getTableHeaderActions(): array
     {
         return [
@@ -58,7 +53,7 @@ class UsersRelationManager extends XotBaseRelationManager
     /**
      * @return array<string, Action|ActionGroup>
      */
-    #[Override]
+    #[\Override]
     public function getTableActions(): array
     {
         return [
@@ -72,7 +67,7 @@ class UsersRelationManager extends XotBaseRelationManager
     /**
      * @return array<string, BulkAction>
      */
-    #[Override]
+    #[\Override]
     public function getTableBulkActions(): array
     {
         return [

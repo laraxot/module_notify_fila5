@@ -15,7 +15,7 @@ abstract class BaseModel extends XotBaseModel
     protected $connection = 'rating';
 
     /** @return array<string, string> */
-    public function casts(): array
+    protected function casts(): array
     {
         return [
             'id' => 'string',

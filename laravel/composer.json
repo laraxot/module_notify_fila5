@@ -123,10 +123,11 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "allow-plugins": {
+            "codewithkyrian/transformers-libsloader": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "pestphp/pest-plugin": true,
             "php-http/discovery": true,
-            "wikimedia/composer-merge-plugin": true,
-            "codewithkyrian/transformers-libsloader": true
+            "wikimedia/composer-merge-plugin": true
         }
     },
     "minimum-stability": "dev",

@@ -12,9 +12,9 @@ use Filament\Actions\Action;
 class TableLayoutToggleHeaderAction extends Action
 {
     // use NavigationActionLabelTrait;
-    public string $list_icon = 'heroicon-o-list-bullet';
+    public string $listIcon = 'heroicon-o-list-bullet';
 
-    public string $grid_icon = 'heroicon-o-squares-2x2';
+    public string $gridIcon = 'heroicon-o-squares-2x2';
 
     protected function setUp(): void
     {
@@ -24,12 +24,42 @@ class TableLayoutToggleHeaderAction extends Action
             // ->label(trans('ui::'.static::getDefaultName().'.label'))
             // ->tooltip(trans('setting::database_connection.actions.database-backup.tooltip'))
             // ->icon(trans('setting::database_connection.actions.database-backup.icon'))
-            // ->icon($this->list_icon)
-            ->icon(fn($livewire) => 'list' === $livewire->layoutView ? $this->list_icon : $this->grid_icon)
-            ->action(function ($livewire) {
-                if ($livewire !== null) {
-                    $livewire->layoutView = 'grid' === $livewire->layoutView ? 'list' : 'grid';
+            // ->icon($this->listIcon)
+            /*
+             * /*
+             * /*
+             * /*
+             * /*
+             * @param object{layoutView?: string|null} $livewire
+             */
+            ->icon(function (object $livewire): string {
+                // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
+                if (isset($livewire->layoutView)) {
+                    $layoutViewRaw = $livewire->layoutView;
+                    $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
+
+                    return 'list' === $layoutView ? $this->listIcon : $this->gridIcon;
                 }
+
+                return $this->listIcon; // default icon
+            })
+            /*
+             * /*
+             * /*
+             * /*
+             * /*
+             * @param object{layoutView?: string|null} $livewire
+             */
+            ->action(function (object $livewire): void {
+                // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
+                if (! isset($livewire->layoutView)) {
+                    return;
+                }
+
+                $layoutViewRaw = $livewire->layoutView;
+                $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
+
+                $livewire->layoutView = 'grid' === $layoutView ? 'list' : 'grid';
             });
     }
 

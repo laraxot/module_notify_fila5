@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\User\Http\Livewire\Auth;
 
 use Illuminate\Contracts\View\View;
-use Exception;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 
@@ -19,11 +18,12 @@ class AuthLogout extends Component
     public function render(): View
     {
         $view = 'livewire.auth.logout';
-        //@phpstan-ignore-next-line
-        if (!view()->exists($view)) {
-            throw new Exception("View {$view} not found");
+        // @phpstan-ignore-next-line
+        if (! view()->exists($view)) {
+            throw new \Exception("View {$view} not found");
         }
         $view_params = [];
+
         return view($view, $view_params);
     }
 }

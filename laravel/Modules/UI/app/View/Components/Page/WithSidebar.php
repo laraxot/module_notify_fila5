@@ -8,13 +8,15 @@ use Illuminate\Contracts\Support\Renderable;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
 
-class WithSidebar extends Component
+final class WithSidebar extends Component
 {
+    /**
+     * Create a new component instance.
+     */
     public function __construct(
-        // public Post $article,
-        // public bool $showAuthor = false,
-        public string $tpl = 'v1',
-    ) {}
+        public string $tpl = '',
+    ) {
+    }
 
     public function render(): Renderable
     {

@@ -4,16 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\UserResource\RelationManagers;
 
-use Filament\Schemas\Components\Component;
-use Override;
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Component;
 use Filament\Tables\Columns\Column;
-use Filament\Forms;
-use Filament\Schemas\Schema;
-use Filament\Tables\Table;
 use Modules\User\Filament\Resources\TenantResource\Pages\ListTenants;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-use Modules\Xot\Filament\Traits\HasXotTable;
 
 /**
  * Manages the relationship between users and tenants.
@@ -25,14 +20,14 @@ class TenantsRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'tenants';
 
-    protected static null|string $recordTitleAttribute = 'name';
+    protected static ?string $recordTitleAttribute = 'name';
 
     /**
      * Set up the form schema for tenant relations.
      *
      * @return array<Component>
      */
-    #[Override]
+    #[\Override]
     public function getFormSchema(): array
     {
         return [
@@ -45,12 +40,27 @@ class TenantsRelationManager extends XotBaseRelationManager
      *
      * @return array<string, Column>
      */
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
-        $columns = app(ListTenants::class)->getTableColumns();
+        $listTenants = app(ListTenants::class);
 
-        // Ensure we only return Column instances, filter out any Layout\Component instances
-        return array_filter($columns, fn($column): bool => $column instanceof Column);
+        if (! method_exists($listTenants, 'getTableColumns')) {
+            return [];
+        }
+
+        $columns = $listTenants->getTableColumns();
+
+        /** @var array<string, Column> $columnMap */
+        $columnMap = [];
+        foreach ($columns as $column) {
+            if (! $column instanceof Column) {
+                continue;
+            }
+
+            $columnMap[(string) $column->getName()] = $column;
+        }
+
+        return $columnMap;
     }
 }

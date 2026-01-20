@@ -2,23 +2,30 @@
 
 declare(strict_types=1);
 
-
 namespace Modules\Notify\Notifications;
 
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Str;
 use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Emails\SpatieEmail;
-use Modules\Notify\Models\MailTemplate;
 
-class RecordNotification extends Notification
+class RecordNotification extends Notification implements ShouldQueue
 {
-    protected Model $record;
-    protected string $slug;
+    use Queueable;
+
+    /** @var array<string, mixed> */
     public array $data = [];
+
+    /** @var array<int, array<string, string>> */
     public array $attachments = [];
+
+    protected Model $record;
+
+    protected string $slug;
 
     public function __construct(Model $record, string $slug)
     {
@@ -27,13 +34,18 @@ class RecordNotification extends Notification
     }
 
     /**
-     * @param object $notifiable
+     * Get the notification's delivery channels.
+     *
+     * Determines channels based on the notifiable's routing capabilities.
+     * Uses `routeNotificationFor()` method to check if the notifiable supports each channel.
+     *
+     * @param  object  $notifiable  The entity to be notified
      * @return array<string|class-string>
      */
-    public function via($notifiable): array
+    public function via(object $notifiable): array
     {
         $channels = [];
-        if (!method_exists($notifiable, 'routeNotificationFor')) {
+        if (! method_exists($notifiable, 'routeNotificationFor')) {
             return $channels;
         }
         if ($notifiable->routeNotificationFor('mail')) {
@@ -47,22 +59,28 @@ class RecordNotification extends Notification
     }
 
     /**
-     * @param object $notifiable
-     * @return SpatieEmail
+     * Get the mail representation of the notification.
+     *
+     * Delegates completely to SpatieEmail for content generation.
+     * This follows the Zen Delegation pattern: RecordNotification is a bridge,
+     * SpatieEmail handles all template resolution, placeholder replacement, and layout logic.
+     *
+     * @param  object  $notifiable  The entity to be notified
+     * @return SpatieEmail Configured SpatieEmail instance ready to send
      */
-    public function toMail($notifiable): SpatieEmail
+    public function toMail(object $notifiable): SpatieEmail
     {
         $email = new SpatieEmail($this->record, $this->slug);
         $email = $email->mergeData($this->data);
 
         $email = $email->addAttachments($this->attachments);
 
-        // Importante: garantisci che ci sia sempre un destinatario
+        // Set recipient for envelope() method in SpatieEmail
+        // Note: Laravel's Notification system handles recipient routing via Notification::route(),
+        // but we set it here for SpatieEmail's envelope() method which uses $this->recipient
         if (method_exists($notifiable, 'routeNotificationFor')) {
-            // Ottieni l'email dal notifiable
             $to = $notifiable->routeNotificationFor('mail');
-            $email->to($to);
-            if ($to) {
+            if (is_string($to) && $to !== '') {
                 $email->setRecipient($to);
             }
         }
@@ -72,11 +90,8 @@ class RecordNotification extends Notification
 
     /**
      * Get the SMS representation of the notification.
-     *
-     * @param object $notifiable
-     * @return SmsData
      */
-    public function toSms(object $notifiable): null|SmsData
+    public function toSms(object $notifiable): ?SmsData
     {
         $email = new SpatieEmail($this->record, $this->slug);
 
@@ -84,7 +99,7 @@ class RecordNotification extends Notification
 
         // If the notifiable entity has a routeNotificationForSms method,
         // we'll use that to get the destination phone number
-        //dddx($notifiable);//Illuminate\Notifications\AnonymousNotifiable
+        // dddx($notifiable);//Illuminate\Notifications\AnonymousNotifiable
         $to = null;
         if (method_exists($notifiable, 'routeNotificationFor')) {
             $to = $notifiable->routeNotificationFor('sms');
@@ -97,24 +112,43 @@ class RecordNotification extends Notification
             return null;
         }
 
-        $smsData = SmsData::from([
-            'from' => 'Xot',
-            'to' => $to,
-            'body' => $email->buildSms(),
-        ]);
+        // Build SMS content using SpatieEmail (which handles template resolution and placeholder replacement)
+        $smsBody = $email->buildSms();
 
-        return $smsData;
+        // Wrap in SmsData for the SmsChannel (ensure all values are strings for type safety)
+        /** @var array<string, string> $smsDataArray */
+        $smsDataArray = [
+            'from' => 'Xot',
+            'recipient' => $to,
+            'body' => $smsBody,
+        ];
+
+        return SmsData::from($smsDataArray);
     }
 
+    /**
+     * Merge additional data with record attributes for placeholder replacement.
+     *
+     * @param  array<string, mixed>  $data  Additional data to merge
+     * @return $this
+     */
     public function mergeData(array $data): self
     {
         $this->data = array_merge($this->data, $data);
+
         return $this;
     }
 
+    /**
+     * Add attachments to the notification.
+     *
+     * @param  array<int, array<string, string>>  $attachments  Array of attachment data
+     * @return $this
+     */
     public function addAttachments(array $attachments): self
     {
         $this->attachments = array_merge($this->attachments, $attachments);
+
         return $this;
     }
 }

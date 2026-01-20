@@ -13,18 +13,19 @@
  * If the validation fails, an error response is returned with the validation errors.
  *
  * @param Request $request The incoming request
+ *
  * @return JsonResponse The JSON response
  */
 declare(strict_types=1);
 
 namespace Modules\User\Http\Controllers\Api;
 
-use Modules\Xot\Datas\XotData;
-use Modules\Xot\Contracts\UserContract;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rules\Password as PasswordRule;
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Datas\XotData;
 use Modules\Xot\Http\Controllers\XotBaseController;
 
 class RegisterController extends XotBaseController
@@ -58,7 +59,7 @@ class RegisterController extends XotBaseController
         /** @var UserContract */
         $user = $user_class::create($input);
         $success['token'] = $user->createToken('MyApp')->accessToken;
-        $success['name'] = $user->name;
+        $success['name'] = $user->name ?? '';
 
         return $this->sendResponse('User register successfully.', $success);
     }

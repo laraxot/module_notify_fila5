@@ -13,14 +13,12 @@ declare(strict_types=1);
             Utilizza questo form per testare l'invio di email tramite diversi provider e configurazioni.
         </x-slot>
 
-        
-        <x-filament-schemas::form wire:submit="sendEmail()">
+        <form wire:submit="sendEmail">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
             <x-filament::actions :actions="$this->getEmailFormActions()" />
-    
-            <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
-    
-        </x-filament-schemas::form>
+
+            <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail" />
+        </form>
     </x-filament::section>
 </x-filament-panels::page>

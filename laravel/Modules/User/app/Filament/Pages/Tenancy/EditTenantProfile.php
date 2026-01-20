@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Modules\User\Filament\Pages\Tenancy;
 
 use Filament\Pages\Tenancy\EditTenantProfile as BaseEditTenantProfile;
+use Filament\Schemas\Schema;
 use Modules\Xot\Datas\XotData;
 use Webmozart\Assert\Assert;
-use Filament\Schemas\Schema;
 
 class EditTenantProfile extends BaseEditTenantProfile
 {
@@ -16,11 +16,11 @@ class EditTenantProfile extends BaseEditTenantProfile
         return __('user::tenancy.navigation.edit');
     }
 
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
         $resource = XotData::make()->getTenantResourceClass();
 
-        Assert::isInstanceOf($res = $resource::form($schema), Schema::class);
+        Assert::isInstanceOf($res = $resource::schema($schema), Schema::class);
 
         return $res;
 

@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\User\Models;
 
-use DateTime;
-use Exception;
 use Filament\Models\Contracts\HasName;
 use Filament\Models\Contracts\HasTenants;
 use Filament\Panel;
@@ -13,8 +11,6 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -22,85 +18,84 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Database\Eloquent\Relations\Pivot;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\DatabaseNotification;
 use Illuminate\Notifications\DatabaseNotificationCollection;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
+use Laravel\Passport\Contracts\OAuthenticatable;
 use Laravel\Passport\HasApiTokens;
-use Modules\TechPlanner\Models\Profile;
 use Modules\User\Database\Factories\UserFactory;
 use Modules\User\Models\Traits\HasAuthenticationLogTrait;
+use Modules\User\Models\Traits\HasModules;
+use Modules\User\Models\Traits\HasSpatiePermission;
 use Modules\User\Models\Traits\HasTeams;
-use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
-use Modules\Xot\Models\Traits\RelationX;
-use Override;
+use Modules\Xot\Models\Traits as XotTraits;
+use Modules\Xot\Models\Traits\HasXotFactory;
 use Parental\HasChildren;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
-use Spatie\Permission\Traits\HasPermissions;
-use Spatie\Permission\Traits\HasRoles;
-use Throwable;
 
 /**
- * Base User Model
+ * Base User Model.
  *
  * This is the base user model that provides the core authentication and authorization
  * functionality for the application. It extends Laravel's Authenticatable class
  * and implements the required interfaces for Filament and multi-tenancy.
  *
- * @property Collection<int, OauthClient> $clients
- * @property int|null $clients_count
- * @property Team|null $currentTeam
- * @property Collection<int, Device> $devices
- * @property int|null $devices_count
- * @property string|null $full_name
+ * @property Collection<int, OauthClient>                              $clients
+ * @property int|null                                                  $clients_count
+ * @property Team|null                                                 $currentTeam
+ * @property Collection<int, Device>                                   $devices
+ * @property int|null                                                  $devices_count
+ * @property string|null                                               $full_name
  * @property DatabaseNotificationCollection<int, DatabaseNotification> $notifications
- * @property int|null $notifications_count
- * @property Collection<int, Team> $ownedTeams
- * @property int|null $owned_teams_count
- * @property Collection<int, Permission> $permissions
- * @property int|null $permissions_count
- * @property ProfileContract|null $profile
- * @property Collection<int, Role> $roles
- * @property int|null $roles_count
- * @property Collection<int, Team> $teams
- * @property int|null $teams_count
- * @property Collection<int, Tenant> $tenants
- * @property int|null $tenants_count
- * @property Collection<int, OauthAccessToken> $tokens
- * @property int|null $tokens_count
- * @property string $last_name
- * @property string|null $facebook_id
- * @property Collection<int, SocialiteUser> $socialiteUsers
- * @property int|null $socialite_users_count
- * @property string|null $name
- * @property string|null $first_name
- * @property string|null $last_name
- * @property string|null $email
- * @property string|null $password
- * @property string|null $lang
- * @property string|null $current_team_id
- * @property bool|null $is_active
- * @property bool|null $is_otp
- * @property string|null $type
- * @property DateTime|null $password_expires_at
- * @property DateTime|null $email_verified_at
- * @property string|null $remember_token
- * @property DateTime|null $created_at
- * @property DateTime|null $updated_at
- * @property DateTime|null $deleted_at
- * @property string|null $created_by
- * @property string|null $updated_by
- * @property string|null $deleted_by
- * @property string|null $profile_photo_path
- * @property Pivot|null $pivot
+ * @property int|null                                                  $notifications_count
+ * @property Collection<int, Team>                                     $ownedTeams
+ * @property int|null                                                  $owned_teams_count
+ * @property Collection<int, Permission>                               $permissions
+ * @property int|null                                                  $permissions_count
+ * @property ProfileContract|null                                      $profile
+ * @property Collection<int, Role>                                     $roles
+ * @property int|null                                                  $roles_count
+ * @property Collection<int, Team>                                     $teams
+ * @property int|null                                                  $teams_count
+ * @property Collection<int, Tenant>                                   $tenants
+ * @property int|null                                                  $tenants_count
+ * @property Collection<int, OauthAccessToken>                         $tokens
+ * @property int|null                                                  $tokens_count
+ * @property string                                                    $last_name
+ * @property string|null                                               $facebook_id
+ * @property Collection<int, SocialiteUser>                            $socialiteUsers
+ * @property int|null                                                  $socialite_users_count
+ * @property string|null                                               $name
+ * @property string|null                                               $first_name
+ * @property string|null                                               $last_name
+ * @property string|null                                               $email
+ * @property string|null                                               $password
+ * @property string|null                                               $lang
+ * @property string|null                                               $current_team_id
+ * @property bool|null                                                 $is_active
+ * @property bool|null                                                 $is_otp
+ * @property string|null                                               $type
+ * @property \DateTime|null                                            $password_expires_at
+ * @property \DateTime|null                                            $email_verified_at
+ * @property string|null                                               $remember_token
+ * @property \DateTime|null                                            $created_at
+ * @property \DateTime|null                                            $updated_at
+ * @property \DateTime|null                                            $deleted_at
+ * @property string|null                                               $created_by
+ * @property string|null                                               $updated_by
+ * @property string|null                                               $deleted_by
+ * @property string|null                                               $profile_photo_path
+ * @property Pivot|null                                                $pivot
  *
- * @method static UserFactory factory($count = null, $state = [])
+ * @method static UserFactory  factory($count = null, $state = [])
  * @method static Builder|User newModelQuery()
  * @method static Builder|User newQuery()
  * @method static Builder|User permission($permissions, $without = false)
@@ -133,22 +128,27 @@ use Throwable;
  *
  * @mixin \Eloquent
  */
-abstract class BaseUser extends Authenticatable implements HasMedia, HasName, HasTenants, MustVerifyEmail, UserContract
+abstract class BaseUser extends Authenticatable implements HasMedia, HasName, HasTenants, MustVerifyEmail, OAuthenticatable, UserContract
 {
     use HasApiTokens;
     use HasAuthenticationLogTrait;
     use HasChildren;
-    use HasFactory;
-    use HasPermissions;
-    use HasRoles;
+    use HasModules;
+    use HasSpatiePermission;
     use HasTeams;
     use HasUuids;
+    use HasXotFactory;
     use InteractsWithMedia;
     use Notifiable;
-    use RelationX;
+    use SoftDeletes;
     use Traits\HasTenants;
+    use XotTraits\RelationX;
 
+    /** @var bool */
     public $incrementing = false;
+
+    /** @var Pivot|null */
+    public $pivot;
 
     /** @var string */
     protected $connection = 'user';
@@ -201,9 +201,6 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
 
     /** @var array<string, mixed> */
     protected $attributes = [
-        // 'state' => Pending::class,
-        // 'state' => 'pending',
-        'is_otp' => false,
         'is_active' => true,
     ];
 
@@ -214,9 +211,6 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
      */
     protected $guard_name = 'web';
 
-    /** @var Pivot|null */
-    public $pivot;
-
     public function __construct(array $attributes = [])
     {
         // Concateno i fillable del parent con quelli della classe corrente
@@ -224,12 +218,17 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
         try {
             $this->fillable = array_values(array_merge(parent::getFillable(), $this->getFillable()));
             parent::__construct($attributes);
-        } catch (Throwable $e) {
+        } catch (\Throwable $e) {
             // Fallback in case database connection is not available (e.g., during testing)
             $this->fillable = array_values($this->getFillable());
             // Avoid calling parent constructor if database is not available
             $this->attributes = $attributes;
         }
+    }
+
+    public function getProviderName(): string
+    {
+        return (string) ($this->getAttribute('provider') ?? config('auth.guards.api.provider', 'users'));
     }
 
     public function canAccessFilament(?Panel $panel = null): bool
@@ -247,7 +246,7 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
         $firstName = (string) ($this->getAttribute('first_name') ?? '');
         $lastName = (string) ($this->getAttribute('last_name') ?? '');
 
-        $fullName = trim(sprintf('%s %s %s', $name, $firstName, $lastName));
+        $fullName = trim(\sprintf('%s %s %s', $name, $firstName, $lastName));
 
         // Ensure we always return a non-empty string
         if (empty($fullName)) {
@@ -259,32 +258,28 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
         return $fullName;
     }
 
-    #[Override]
+    #[\Override]
     public function profile(): HasOne
     {
-        try {
-            /** @var class-string<Model> */
-            $profileClass = XotData::make()->getProfileClass();
-            if (class_exists($profileClass)) {
-                return $this->hasOne($profileClass);
-            } else {
-                // Fallback: se non riesce a ottenere la classe Profile, usa una relazione generica
-                // Questo evita l'errore "Target [Illuminate\Database\Eloquent\Model] is not instantiable"
-                // Utilizziamo una classe che sicuramente esiste nel sistema
-                return $this->hasOne(Model::class);
-            }
-        } catch (Exception $e) {
-            // Fallback: se non riesce a ottenere la classe Profile, usa una relazione generica
-            // Questo evita l'errore "Target [Illuminate\Database\Eloquent\Model] is not instantiable"
-            // Utilizziamo una classe che sicuramente esiste nel sistema
-            return $this->hasOne(Model::class);
+        $profileClass = XotData::make()->getProfileClass();
+        if (class_exists($profileClass)) {
+            return $this->hasOne($profileClass);
         }
+
+        // Try direct module class if XotData failed
+        $directClass = 'Modules\User\Models\Profile';
+        if (class_exists($directClass)) {
+            return $this->hasOne($directClass);
+        }
+
+        // Fallback: stay on current model if nothing found
+        return $this->hasOne(static::class, 'id', 'id')->whereRaw('1=0');
     }
 
     /**
      * Verifica se l'utente ha il ruolo di super-admin.
      *
-     * @return bool True se l'utente è super-admin, altrimenti false
+     * @return bool True se l'utente Ã¨ super-admin, altrimenti false
      */
     public function isSuperAdmin(): bool
     {
@@ -301,7 +296,7 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
     public function canAccessPanel(Panel $panel): bool
     {
         // $panel->default('admin');
-        if ($panel->getId() !== 'admin') {
+        if ('admin' !== $panel->getId()) {
             $role = $panel->getId();
             /*
              * $xot = XotData::make();
@@ -342,12 +337,12 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
 
     public function treeLabel(): string
     {
-        return strval($this->name ?? $this->email);
+        return (string) ($this->name ?? $this->email);
     }
 
     public function treeSons(): Collection
     {
-        return $this->teams ?? new Collection;
+        return $this->teams ?? new Collection();
     }
 
     /**
@@ -373,8 +368,8 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
     public function getProviderField(string $provider, string $field): string
     {
         $socialiteUser = $this->socialiteUsers()->firstWhere(['provider' => $provider]);
-        if ($socialiteUser === null) {
-            throw new Exception('SocialiteUser not found');
+        if (null === $socialiteUser) {
+            throw new \Exception('SocialiteUser not found');
         }
 
         $res = $socialiteUser->{$field};
@@ -387,7 +382,7 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
      *
      * @return MorphMany<Notification, static|$this>
      */
-    public function notifications()
+    public function notifications(): MorphMany
     {
         // @phpstan-ignore return.type
         return $this->morphMany(Notification::class, 'notifiable');
@@ -406,22 +401,22 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
 
     public function getFullNameAttribute(?string $value): string
     {
-        if ($value !== null) {
+        if (null !== $value) {
             return $value;
         }
 
         $fullName = trim(($this->first_name ?? '').' '.($this->last_name ?? ''));
 
-        return $fullName !== '' ? $fullName : ($this->email ?? 'User');
+        return '' !== $fullName ? $fullName : ($this->email ?? 'User');
     }
 
     public function getNameAttribute(?string $value): string
     {
-        if ($value !== null) {
+        if (null !== $value) {
             return $value;
         }
 
-        if ($this->getKey() === null) {
+        if (null === $this->getKey()) {
             return $this->email ?? 'User';
         }
 
@@ -430,13 +425,13 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
         $candidate = $name.'-'.$i;
 
         // During unit tests, avoid any DB interaction.
-        $isTesting = (function (): bool {
+        $isTesting = (static function (): bool {
             $app = app();
             if (method_exists($app, 'environment') && $app->environment('testing')) {
                 return true;
             }
 
-            return PHP_SAPI === 'cli' && (getenv('APP_ENV') === 'testing' || getenv('ENV') === 'testing');
+            return \PHP_SAPI === 'cli' && ('testing' === getenv('APP_ENV') || 'testing' === getenv('ENV'));
         })();
         if ($isTesting) {
             // Do not call update() here to avoid hitting the database.
@@ -447,14 +442,14 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
 
         try {
             $value = $candidate;
-            while (self::firstWhere(['name' => $value]) !== null) {
-                $i++;
+            while (null !== self::firstWhere(['name' => $value])) {
+                ++$i;
                 $value = $name.'-'.$i;
             }
             $this->update(['name' => $value]);
 
             return $value;
-        } catch (Throwable $e) {
+        } catch (\Throwable $e) {
             // If any issue occurs (e.g., missing connection/table), fall back without DB.
             $this->attributes['name'] = $candidate;
 
@@ -462,14 +457,42 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
         }
     }
 
+    // public function authentications(): MorphMany
+    // {
+    //    return $this->morphMany(\Modules\User\Models\Authentication::class, 'authenticatable');
+    // }
+
     /**
-     * Create a new factory instance for the model.
+     * Check if the user has a specific role.
      *
-     * @return Factory
+     * NOTE: This method has been moved to trait HasSpatiePermission.
+     * If you need role checking functionality, use the trait method instead.
+     *
+     * @see \Modules\User\Models\Traits\HasSpatiePermission::hasRole()
      */
-    protected static function newFactory()
+    public function setPasswordAttribute(?string $value): void
     {
-        return app(GetFactoryAction::class)->execute(static::class);
+        if (empty($value)) {
+            unset($this->attributes['password']);
+
+            return;
+        }
+        if (\strlen($value) < 32) {
+            $this->attributes['password'] = Hash::make($value);
+
+            return;
+        }
+        $this->attributes['password'] = $value;
+    }
+
+    /**
+     * User possiede molti Clients OAuth (per autenticazione API).
+     *
+     * @return MorphMany<OauthClient, $this>
+     */
+    public function clients(): MorphMany
+    {
+        return $this->morphMany(OauthClient::class, 'owner');
     }
 
     /** @return array<string, string> */
@@ -495,58 +518,19 @@ abstract class BaseUser extends Authenticatable implements HasMedia, HasName, Ha
         ];
     }
 
-    // public function authentications(): MorphMany
-    // {
-    //    return $this->morphMany(\Modules\User\Models\Authentication::class, 'authenticatable');
-    // }
-
     /**
-     * Check if the user has a specific role.
-     *
-     * @param  array|\Illuminate\Support\Collection|int|\Spatie\Permission\Contracts\Role|string  $roles
+     * Find the user instance for the given username.
      */
-    #[Override]
-    public function hasRole($roles, ?string $guard = null): bool
+    public static function findForPassport(string $username): ?self
     {
-        // Se è una stringa semplice, utilizziamo il metodo interno tramite relazione roles
-        if (is_string($roles)) {
-            return once(fn (): bool => $this->roles()->where('name', $roles)->exists());
-        }
-
-        // Per gli altri tipi, implementiamo una logica di base
-        if (is_array($roles) || $roles instanceof \Illuminate\Support\Collection) {
-            foreach ($roles as $role) {
-                if ($this->hasRole($role, $guard)) {
-                    return true;
-                }
-            }
-
-            return false;
-        }
-
-        if ($roles instanceof \Spatie\Permission\Contracts\Role) {
-            return $this->roles()->where('id', $roles->id)->exists();
-        }
-
-        if (is_int($roles)) {
-            return $this->roles()->where('id', $roles)->exists();
-        }
-
-        return false;
+        return static::where('email', $username)->first();
     }
 
-    public function setPasswordAttribute(?string $value): void
+    /**
+     * Validate the password of the user for the given password.
+     */
+    public function validateForPassportPasswordGrant(string $password): bool
     {
-        if (empty($value)) {
-            unset($this->attributes['password']);
-
-            return;
-        }
-        if (strlen($value) < 32) {
-            $this->attributes['password'] = Hash::make($value);
-
-            return;
-        }
-        $this->attributes['password'] = $value;
+        return Hash::check($password, (string) $this->password);
     }
 }

@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
-use Filament\Schemas\Components\Section;
-use Filament\Schemas\Components\Component;
-use Override;
 use Filament\Infolists\Components\TextEntry;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Section;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
+use Override;
 
 class ViewNotification extends XotBaseViewRecord
 {

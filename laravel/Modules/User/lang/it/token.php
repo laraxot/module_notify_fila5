@@ -34,4 +34,12 @@ return [
             'label' => 'reorderRecords',
         ],
     ],
+    'actions' => [
+        'reorderRecords' => [
+            'tooltip' => 'reorderRecords',
+            'icon' => 'reorderRecords',
+        ],
+    ],
+    'label' => '',
+    'plural_label' => '',
 ];

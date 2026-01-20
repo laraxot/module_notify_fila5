@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+# Utilizzo di mcamara/laravel-localization 
+=======
 # Utilizzo di mcamara/laravel-localization
+>>>>>>> laraxot/develop
 
 ## Collegamenti correlati
 - [README modulo Lang](./README.md)
@@ -28,7 +32,11 @@ Questo documento descrive come utilizzare correttamente il pacchetto `mcamara/la
 ## Configurazione
 
 Il pacchetto `mcamara/laravel-localization` è già configurato . La configurazione si trova in:
+<<<<<<< HEAD
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/config/laravellocalization.php`
+=======
 - `config/laravellocalization.php`
+>>>>>>> laraxot/develop
 
 Le lingue supportate sono definite nella chiave `supportedLocales` di questo file.
 
@@ -76,6 +84,19 @@ $currentLocale = app()->getLocale();
 
 <div class="relative" x-data="{ open: false }">
     <button @click="open = !open" @click.away="open = false">
+<<<<<<< HEAD
+        <x-dynamic-component 
+            :component="'ui-flags.' . ($currentLocale === 'en' ? 'gb' : $currentLocale)" 
+        />
+        <span>{{ LaravelLocalization::getSupportedLocales()[$currentLocale]['native'] }}</span>
+    </button>
+    
+    <div x-show="open">
+        @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+            <a href="{{ LaravelLocalization::getLocalizedURL($localeCode) }}">
+                <x-dynamic-component 
+                    :component="'ui-flags.' . ($localeCode === 'en' ? 'gb' : $localeCode)" 
+=======
         <x-dynamic-component
             :component="'ui-flags.' . ($currentLocale === 'en' ? 'gb' : $currentLocale)"
         />
@@ -87,6 +108,7 @@ $currentLocale = app()->getLocale();
             <a href="{{ LaravelLocalization::getLocalizedURL($localeCode) }}">
                 <x-dynamic-component
                     :component="'ui-flags.' . ($localeCode === 'en' ? 'gb' : $localeCode)"
+>>>>>>> laraxot/develop
                 />
                 <span>{{ $properties['native'] }}</span>
             </a>
@@ -97,7 +119,11 @@ $currentLocale = app()->getLocale();
 
 ## Utilizzo delle Bandiere SVG
 
+<<<<<<< HEAD
+Le bandiere SVG sono disponibili in `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/UI/resources/svg/flags` e sono autoregistrate come componenti Blade con il prefisso `ui-flags`.
+=======
 Le bandiere SVG sono disponibili in `Modules/UI/resources/svg/flags` e sono autoregistrate come componenti Blade con il prefisso `ui-flags`.
+>>>>>>> laraxot/develop
 
 ### Utilizzo Corretto
 
@@ -131,7 +157,11 @@ Questi middleware sono già configurati  e non è necessario modificarli.
    ```php
    // ERRATO
    <a href="{{ LaravelLocalization::getLocalizedURL('it') }}">Italiano</a>
+<<<<<<< HEAD
+   
+=======
 
+>>>>>>> laraxot/develop
    // CORRETTO
    <a href="{{ LaravelLocalization::getLocalizedURL('it') }}">Italiano</a>
    ```
@@ -140,7 +170,11 @@ Questi middleware sono già configurati  e non è necessario modificarli.
    ```php
    // ERRATO
    <a href="{{ '/' . $locale . '/pages/about' }}">About</a>
+<<<<<<< HEAD
+   
+=======
 
+>>>>>>> laraxot/develop
    // CORRETTO
    <a href="{{ LaravelLocalization::getLocalizedURL($locale, route('pages.about')) }}">About</a>
    ```
@@ -149,7 +183,11 @@ Questi middleware sono già configurati  e non è necessario modificarli.
    ```php
    // ERRATO
    @php app()->setLocale('it') @endphp
+<<<<<<< HEAD
+   
+=======
 
+>>>>>>> laraxot/develop
    // CORRETTO - Lasciare che il middleware gestisca la locale
    // Non modificare manualmente la locale
    ```
@@ -170,6 +208,9 @@ Questi middleware sono già configurati  e non è necessario modificarli.
         <x-dynamic-component :component="'ui-flags.' . $flagCode" />
         <span>{{ LaravelLocalization::getSupportedLocales()[$currentLocale]['native'] }}</span>
     </button>
+<<<<<<< HEAD
+    
+=======
 
     <div x-show="open">
         @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
@@ -405,6 +446,7 @@ Questi middleware sono già configurati  e non è necessario modificarli.
         <span>{{ LaravelLocalization::getSupportedLocales()[$currentLocale]['native'] }}</span>
     </button>
 
+>>>>>>> laraxot/develop
     <div x-show="open">
         @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
             @php

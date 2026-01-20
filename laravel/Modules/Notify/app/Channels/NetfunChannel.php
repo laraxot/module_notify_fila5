@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 namespace Modules\Notify\Channels;
 
 use Exception;
@@ -22,24 +21,23 @@ class NetfunChannel
     /**
      * Invia la notifica tramite Netfun SMS
      *
-     * @param mixed $notifiable
-     * @param Notification $notification
+     * @param  mixed  $notifiable
      * @return array|null
      */
     public function send($notifiable, Notification $notification)
     {
         // Ottieni il numero di telefono dal Notifiable
-        if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForNetfun')) {
+        if (! is_object($notifiable) || ! method_exists($notifiable, 'routeNotificationForNetfun')) {
             return null;
         }
 
-        $to = $notifiable->routeNotificationForNetfun($notification);
-        if (!$to) {
+        $recipient = $notifiable->routeNotificationForNetfun($notification);
+        if (! $recipient) {
             return null;
         }
 
         // Ottieni il messaggio dalla notifica
-        if (!method_exists($notification, 'toNetfun')) {
+        if (! method_exists($notification, 'toNetfun')) {
             throw new Exception('Il metodo toNetfun() non è implementato nella notifica');
         }
 
@@ -47,11 +45,11 @@ class NetfunChannel
 
         // Crea i dati SMS
         $smsData = SmsData::from([
-            'to' => $to,
+            'recipient' => $recipient,
             'body' => is_string($message)
                 ? $message
                 : (is_object($message) && method_exists($message, 'getContent') ? $message->getContent() : ''),
-            'from' => null,
+            'from' => '',
         ]);
 
         // Esegui l'invio tramite la Queueable Action

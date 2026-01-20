@@ -122,7 +122,11 @@ return [
 ### File Non Modificabile
 
 **Problema**: Impossibile modificare un file
+<<<<<<< HEAD
+**Soluzione**: 
+=======
 **Soluzione**:
+>>>>>>> laraxot/develop
 1. Verificare i permessi del file
 2. Controllare che il file non sia in sola lettura
 3. Verificare lo spazio su disco
@@ -175,6 +179,9 @@ php artisan lang:sync
 1. **Performance**: I file vengono caricati on-demand
 2. **Scalabilità**: Supporto per grandi volumi di traduzioni
 3. **Manutenibilità**: Struttura modulare e estendibile
+<<<<<<< HEAD
+4. **Usabilità**: Interfaccia intuitiva per i traduttori 
+=======
 4. **Usabilità**: Interfaccia intuitiva per i traduttori
 # Editor File di Traduzione
 
@@ -354,3 +361,4 @@ php artisan lang:sync
 2. **Scalabilità**: Supporto per grandi volumi di traduzioni
 3. **Manutenibilità**: Struttura modulare e estendibile
 4. **Usabilità**: Interfaccia intuitiva per i traduttori
+>>>>>>> laraxot/develop

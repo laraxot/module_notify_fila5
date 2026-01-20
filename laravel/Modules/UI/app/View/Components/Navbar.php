@@ -13,13 +13,14 @@ use Modules\Xot\Actions\GetViewAction;
 /**
  * .
  */
-class Navbar extends Component
+final class Navbar extends Component
 {
-    public function __construct(
-        // public Post $article,
-        // public bool $showAuthor = false,
-        // public string $tpl = 'v1'
-    ) {}
+    /**
+     * Create a new component instance.
+     */
+    public function __construct()
+    {
+    }
 
     public function render(): Renderable
     {

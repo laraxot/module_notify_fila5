@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'navigation' => [
         'name' => 'Tenant',
@@ -85,6 +87,11 @@ return [
             'placeholder' => 'recordId',
             'label' => 'recordId',
         ],
+        'primary_color' => [
+            'description' => 'primary_color',
+            'helper_text' => 'primary_color',
+            'placeholder' => 'primary_color',
+        ],
     ],
     'actions' => [
         'import' => [
@@ -103,6 +110,7 @@ return [
         'openColumnManager' => [
             'icon' => 'openColumnManager',
             'label' => 'openColumnManager',
+            'tooltip' => 'openColumnManager',
         ],
         'reorderRecords' => [
             'icon' => 'reorderRecords',
@@ -115,50 +123,62 @@ return [
         'attachAnother' => [
             'icon' => 'attachAnother',
             'label' => 'attachAnother',
+            'tooltip' => 'attachAnother',
         ],
         'submit' => [
             'icon' => 'submit',
             'label' => 'submit',
+            'tooltip' => 'submit',
         ],
         'detach' => [
             'icon' => 'detach',
             'label' => 'detach',
+            'tooltip' => 'detach',
         ],
         'edit' => [
             'label' => 'edit',
             'icon' => 'edit',
+            'tooltip' => 'edit',
         ],
         'attach' => [
             'label' => 'attach',
             'icon' => 'attach',
+            'tooltip' => 'attach',
         ],
         'create' => [
             'label' => 'create',
             'icon' => 'ui-create',
+            'tooltip' => 'create',
         ],
         'applyFilters' => [
             'label' => 'applyFilters',
             'icon' => 'applyFilters',
+            'tooltip' => 'applyFilters',
         ],
         'openFilters' => [
             'label' => 'openFilters',
             'icon' => 'openFilters',
+            'tooltip' => 'openFilters',
         ],
         'resetFilters' => [
             'label' => 'resetFilters',
             'icon' => 'resetFilters',
+            'tooltip' => 'resetFilters',
         ],
         'applyTableColumnManager' => [
             'label' => 'applyTableColumnManager',
             'icon' => 'applyTableColumnManager',
+            'tooltip' => 'applyTableColumnManager',
         ],
         'layout' => [
             'icon' => 'layout',
             'label' => 'layout',
+            'tooltip' => 'layout',
         ],
         'delete' => [
             'icon' => 'delete',
             'label' => 'delete',
+            'tooltip' => 'delete',
         ],
         'logout' => [
             'icon' => 'logout',
@@ -167,10 +187,17 @@ return [
         'profile' => [
             'icon' => 'profile',
             'label' => 'profile',
+            'tooltip' => 'profile',
         ],
         'view' => [
             'icon' => 'view',
+            'tooltip' => 'view',
+            'label' => 'view',
+        ],
+        'save' => [
+            'tooltip' => 'save',
         ],
     ],
     'label' => 'tenant',
+    'plural_label' => '',
 ];

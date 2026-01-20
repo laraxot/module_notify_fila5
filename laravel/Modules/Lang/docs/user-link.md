@@ -34,6 +34,9 @@ Questo documento è collegato bidirezionalmente con [lang-link.md](../../User/pr
 ## Collegamenti tra versioni di user-link.md
 * [user-link.md](../../../Lang/project_docs/user-link.md)
 * [user-link.md](../../../Cms/project_docs/user-link.md)
+<<<<<<< HEAD
+
+=======
 # Collegamenti al Modulo User
 
 Questo documento fornisce collegamenti bidirezionali tra il modulo Lang e il modulo User.
@@ -70,3 +73,4 @@ Questo documento è collegato bidirezionalmente con [lang-link.md](../../User/do
 ## Collegamenti tra versioni di user-link.md
 * [user-link.md](../../../Lang/docs/user-link.md)
 * [user-link.md](../../../Cms/docs/user-link.md)
+>>>>>>> laraxot/develop

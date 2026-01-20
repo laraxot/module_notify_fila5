@@ -9,9 +9,7 @@ declare(strict_types=1);
 namespace Modules\Rating\Models\Traits;
 
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
-use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
 use Modules\Rating\Models\Rating;
 use Modules\Rating\Models\RatingMorph;
 
@@ -23,25 +21,7 @@ trait HasRating
     //  laravel/Modules/Xot/app/Models/Traits/RelationX.php  poi passare a morphToManyX per standardizzare
     public function ratings(): MorphToMany
     {
-        $class = static::class;
-        $alias = Str::of(class_basename($class))->snake()->toString();
-        Relation::morphMap([
-            $alias => $class,
-        ]);
-        $pivot_class = RatingMorph::class;
-        $pivot = app($pivot_class);
-        $pivot_table = $pivot->getTable();
-
-        $pivot_table_full = $pivot_table;
-
-        $pivot_fields = array_filter($pivot->getFillable(), function ($field) {
-            return ! in_array($field, ['sum_credit_yes', 'sum_credit_no', 'count_credit_yes', 'count_credit_no', 'percentage']);
-        });
-
-        return $this->morphToMany(Rating::class, 'model', $pivot_table_full)
-            ->using($pivot_class)
-            ->withPivot($pivot_fields)
-            ->withTimestamps();
+        return $this->morphToManyX(Rating::class, 'model');
     }
 
     public function getOptionRatingsIdTitle(): array
@@ -102,7 +82,7 @@ trait HasRating
             $b = RatingMorph::where('model_id', $this->id)
                 ->where('user_id', '!=', null)
                 ->count();
-            if ($b === 0) {
+            if (0 === $b) {
                 $b = 1;
             }
 
@@ -139,7 +119,7 @@ trait HasRating
         $query = RatingMorph::where('model_id', $this->id)
             ->where('user_id', '!=', null);
 
-        if ($rating_id !== null) {
+        if (null !== $rating_id) {
             $query->where('rating_id', $rating_id);
         }
 

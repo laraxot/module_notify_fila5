@@ -8,9 +8,10 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
-use Filament\Widgets\Widget;
+use Filament\Schemas\Components\Component;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
-class RowWidget extends Widget
+abstract class RowWidget extends XotBaseWidget
 {
     public array $grid = [];
 
@@ -19,6 +20,14 @@ class RowWidget extends Widget
     protected string $view = 'ui::filament.widgets.row';
 
     protected int|string|array $columnSpan = 'full';
+
+    /**
+     * @return array<int|string, Component>
+     */
+    public function getFormSchema(): array
+    {
+        return [];
+    }
 
     protected function getColumns(): int
     {

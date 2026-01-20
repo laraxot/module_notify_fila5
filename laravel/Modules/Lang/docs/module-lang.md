@@ -27,10 +27,18 @@
 
 ### Regole Generali
 - [Regole Traduzioni](../../Xot/docs/translations.md) - Documentazione base sulle traduzioni
+<<<<<<< HEAD
+
+
+### Versione Incoming
+
+
+=======
 - [Composer merge plugin](composer-merge-plugin.md) - Integrazione pacchetti locali
 
 ### Versione Incoming
 
+>>>>>>> laraxot/develop
 ---
 
 ## Service Providers
@@ -294,6 +302,16 @@ public function testTranslations()
 ```php
 // Accesso alle traduzioni
 $translation = Lang::get('patient.registration.label');
+<<<<<<< HEAD
+``` 
+
+### Versione Incoming
+
+Le modifiche vengono tracciate nel repository GitHub. 
+
+---
+
+=======
 ```
 
 ### Versione Incoming
@@ -301,3 +319,4 @@ $translation = Lang::get('patient.registration.label');
 Le modifiche vengono tracciate nel repository GitHub.
 
 ---
+>>>>>>> laraxot/develop

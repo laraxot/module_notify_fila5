@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+# Implementazione della Localizzazione 
+=======
 # Implementazione della Localizzazione
+>>>>>>> laraxot/develop
 
 ## Collegamenti correlati
 - [Documentazione centrale](/docs/README.md)
@@ -157,6 +161,8 @@ Il pacchetto `mcamara/laravel-localization` fornisce diversi middleware per gest
 ## Conclusione
 
 Seguendo queste linee guida, è possibile implementare correttamente la localizzazione  utilizzando il pacchetto `mcamara/laravel-localization` senza creare rotte o controller personalizzati. Questo approccio è coerente con la filosofia di  di utilizzare Filament e Folio per gestire la maggior parte delle funzionalità dell'applicazione.
+<<<<<<< HEAD
+=======
 # Implementazione della Localizzazione
 
 ## Collegamenti correlati
@@ -316,3 +322,4 @@ Il pacchetto `mcamara/laravel-localization` fornisce diversi middleware per gest
 ## Conclusione
 
 Seguendo queste linee guida, è possibile implementare correttamente la localizzazione  utilizzando il pacchetto `mcamara/laravel-localization` senza creare rotte o controller personalizzati. Questo approccio è coerente con la filosofia di <nome progetto> di utilizzare Filament e Folio per gestire la maggior parte delle funzionalità dell'applicazione.
+>>>>>>> laraxot/develop

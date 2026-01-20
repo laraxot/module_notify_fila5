@@ -31,6 +31,9 @@ I file di traduzione nel modulo Lang devono seguire una struttura precisa dei pe
    return [
        'key' => 'value',
    ];
+<<<<<<< HEAD
+   
+=======
 
    // File 2: Sintassi vecchia
    return array(
@@ -115,6 +118,7 @@ I file di traduzione nel modulo Lang devono seguire una struttura precisa dei pe
        'key' => 'value',
    ];
 
+>>>>>>> laraxot/develop
    // File 2: Sintassi vecchia
    return array(
        'key' => 'value',
@@ -165,4 +169,7 @@ I file di traduzione nel modulo Lang devono seguire una struttura precisa dei pe
 - [Errori comuni nei file di traduzione](/laravel/Modules/Lang/docs/errori_comuni_traduzione.md)
 - [Documentazione principale sulle traduzioni](/docs/translation_rules.md)
 
+<<<<<<< HEAD
+=======
 *Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> laraxot/develop

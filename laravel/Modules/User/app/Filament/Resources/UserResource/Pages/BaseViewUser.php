@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\UserResource\Pages;
 
-use Override;
 use Filament\Infolists\Components\TextEntry;
+use Filament\Schemas\Components\Component;
 use Modules\User\Filament\Resources\UserResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 
@@ -23,9 +23,9 @@ abstract class BaseViewUser extends XotBaseViewRecord
     /**
      * Define the infolist schema for the view.
      *
-     * @return array<string, mixed>
+     * @return array<string, Component>
      */
-    #[Override]
+    #[\Override]
     public function getInfolistSchema(): array
     {
         return [

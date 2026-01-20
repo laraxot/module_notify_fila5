@@ -7,7 +7,7 @@ namespace Modules\UI\Filament\Actions\Table;
 use Modules\UI\Enums\TableLayoutEnum;
 
 /**
- * Interface HasTableLayout
+ * Interface HasTableLayout.
  *
  * Definisce i metodi che devono essere implementati dalle classi
  * che gestiscono il layout delle tabelle.
@@ -39,4 +39,3 @@ interface HasTableLayout
      */
     public function setTableLayout(TableLayoutEnum $layout): void;
 }
-

@@ -2,13 +2,11 @@
 
 declare(strict_types=1);
 
-use Tests\TestCase;
 use Filament\Schemas\Schema;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\ValidationException;
 use Modules\User\Filament\Widgets\LoginWidget;
 use Modules\User\Models\User;
+use Modules\User\Tests\TestCase;
 
 use function Pest\Laravel\assertAuthenticatedAs;
 
@@ -36,7 +34,7 @@ test('it has correct form schema', function (): void {
     expect($form)->toHaveCount(3);
 
     // Check that the schema contains components with the expected names
-    $componentNames = array_map(fn($component) => $component->getName(), $form);
+    $componentNames = array_map(fn ($component) => $component->getName(), $form);
     expect($componentNames)->toContain('email');
     expect($componentNames)->toContain('password');
     expect($componentNames)->toContain('remember');
@@ -44,8 +42,9 @@ test('it has correct form schema', function (): void {
 
 test('it can authenticate user', function (): void {
     // Skip if we can't use the database
-    if (!class_exists('CreateUsersTable')) {
+    if (! class_exists('CreateUsersTable')) {
         $this->markTestSkipped('Database not available for testing');
+
         return;
     }
 
@@ -78,7 +77,7 @@ test('it validates credentials', function (): void {
     // Check that the widget has error messages for invalid credentials
     $errorBag = $this->widget->getErrorBag();
     expect($errorBag->isNotEmpty())->toBeTrue();
-    expect(implode(' ', $errorBag->all()))->toContain('errore');
+    expect(implode(' ', $errorBag->all()))->toContain('credenziali');
 });
 
 test('it requires email and password', function (): void {

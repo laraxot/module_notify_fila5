@@ -6,14 +6,15 @@ namespace Modules\User\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
+
+use function Laravel\Prompts\multiselect;
+use function Laravel\Prompts\text;
+
 use Modules\User\Models\Role;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
 use Symfony\Component\Console\Input\InputOption;
-
-use function Laravel\Prompts\multiselect;
-use function Laravel\Prompts\text;
 
 class AssignModuleCommand extends Command
 {
@@ -33,10 +34,7 @@ class AssignModuleCommand extends Command
 
     /**
      * Create a new command instance.
-     *
-     * @return void
      */
-    
 
     /**
      * Execute the console command.
@@ -50,8 +48,9 @@ class AssignModuleCommand extends Command
          */
         $user = XotData::make()->getUserByEmail($email);
 
-        if (!$user) {
+        if (! $user) {
             $this->error("User with email '{$email}' not found.");
+
             return;
         }
 
@@ -60,11 +59,12 @@ class AssignModuleCommand extends Command
         $modules_opts = array_combine($modules_opts, $modules_opts);
 
         // Get user's current module roles
-        $userModuleRoles = $this->getUserModuleRoles($user);
+        // $userModuleRoles = $this->getUserModuleRoles($user);
+        $userModuleRoles = $user->getModules();
         $currentModules = array_keys($userModuleRoles);
 
         // Show current modules as default selected
-        $this->info("Current modules for {$email}: " . implode(', ', $currentModules));
+        $this->info("Current modules for {$email}: ".implode(', ', $currentModules));
 
         $selectedModules = multiselect(
             label: 'Select modules (checked = assigned, unchecked = will be revoked)',
@@ -81,7 +81,7 @@ class AssignModuleCommand extends Command
         // Assign new modules
         foreach ($modulesToAssign as $module) {
             $module_low = Str::lower(is_string($module) ? $module : ((string) $module));
-            $role_name = $module_low . '::admin';
+            $role_name = $module_low.'::admin';
 
             // Create or get the role with the web guard
             $role = Role::firstOrCreate(['name' => $role_name], []);
@@ -95,7 +95,7 @@ class AssignModuleCommand extends Command
         // Revoke unchecked modules
         foreach ($modulesToRevoke as $module) {
             $module_low = Str::lower(is_string($module) ? $module : ((string) $module));
-            $role_name = $module_low . '::admin';
+            $role_name = $module_low.'::admin';
 
             // Revoke the role from the user
             $user->removeRole($role_name);
@@ -112,26 +112,6 @@ class AssignModuleCommand extends Command
     }
 
     /**
-     * Get user's current module roles.
-     *
-     * @param UserContract $user
-     * @return array<string, string>
-     */
-    private function getUserModuleRoles(UserContract $user): array
-    {
-        $moduleRoles = [];
-
-        foreach ($user->roles as $role) {
-            if (Str::endsWith($role->name, '::admin')) {
-                $moduleName = Str::before($role->name, '::admin');
-                $moduleRoles[$moduleName] = $role->name;
-            }
-        }
-
-        return $moduleRoles;
-    }
-
-    /**
      * Get the console command options.
      */
     protected function getOptions(): array
@@ -140,4 +120,26 @@ class AssignModuleCommand extends Command
             ['example', null, InputOption::VALUE_OPTIONAL, 'An example option.', null],
         ];
     }
+
+    /*
+     * Get user's current module roles.
+     *
+     * @return array<string, string>
+
+    private function getUserModuleRoles(UserContract $user): array
+    {
+        $moduleRoles = [];
+
+        //@var Collection<int, Role> $roles
+        $roles = $user->roles()->get();
+        foreach ($roles as $role) {
+            if (Str::endsWith($role->name, '::admin')) {
+                $moduleName = Str::before($role->name, '::admin');
+                $moduleRoles[$moduleName] = $role->name;
+            }
+        }
+
+        return $moduleRoles;
+    }
+        */
 }

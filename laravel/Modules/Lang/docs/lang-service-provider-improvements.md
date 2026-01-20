@@ -17,7 +17,11 @@ class LangServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadTranslationsFrom(__DIR__.'/../lang', 'lang');
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         // Cache delle traduzioni
         if ($this->app->runningInConsole()) {
             $this->commands([
@@ -37,13 +41,21 @@ class TranslationValidator
     {
         // Verifica che tutte le lingue supportate abbiano la traduzione
         $supportedLocales = config('app.supported_locales', ['it', 'en']);
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         foreach ($supportedLocales as $locale) {
             if (!isset($translations[$locale][$key])) {
                 return false;
             }
         }
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         return true;
     }
 }
@@ -57,6 +69,15 @@ class TranslationManager
     {
         $locale = $locale ?? app()->getLocale();
         $fallbackLocale = config('app.fallback_locale', 'en');
+<<<<<<< HEAD
+        
+        $translation = $this->getTranslation($key, $replace, $locale);
+        
+        if ($translation === $key && $locale !== $fallbackLocale) {
+            return $this->getTranslation($key, $replace, $fallbackLocale);
+        }
+        
+=======
 
         $translation = $this->getTranslation($key, $replace, $locale);
 
@@ -64,6 +85,7 @@ class TranslationManager
             return $this->getTranslation($key, $replace, $fallbackLocale);
         }
 
+>>>>>>> laraxot/develop
         return $translation;
     }
 }
@@ -76,7 +98,11 @@ class LangServiceProvider extends ServiceProvider
     protected function registerNamespaces(): void
     {
         $this->app['translator']->addNamespace('lang', __DIR__.'/../lang');
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         // Supporto per namespace personalizzati
         foreach (config('lang.namespaces', []) as $namespace => $path) {
             $this->app['translator']->addNamespace($namespace, $path);
@@ -96,7 +122,11 @@ class CacheTranslationsCommand extends Command
     {
         $translations = $this->getAllTranslations();
         Cache::put('translations', $translations, now()->addDay());
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         $this->info('Traduzioni cacheate con successo.');
     }
 }
@@ -128,11 +158,19 @@ class LocaleMiddleware
     public function handle($request, Closure $next)
     {
         $locale = $request->header('Accept-Language');
+<<<<<<< HEAD
+        
+        if ($locale && in_array($locale, config('lang.supported_locales'))) {
+            app()->setLocale($locale);
+        }
+        
+=======
 
         if ($locale && in_array($locale, config('lang.supported_locales'))) {
             app()->setLocale($locale);
         }
 
+>>>>>>> laraxot/develop
         return $next($request);
     }
 }
@@ -175,6 +213,9 @@ class TranslationMissing
 - Implementare validazione delle chiavi
 - Gestire fallback locale
 - Supportare namespace personalizzati
+<<<<<<< HEAD
+- Ottimizzare performance 
+=======
 - Ottimizzare performance
 # Miglioramenti LangServiceProvider
 
@@ -354,3 +395,4 @@ class TranslationMissing
 - Gestire fallback locale
 - Supportare namespace personalizzati
 - Ottimizzare performance
+>>>>>>> laraxot/develop

@@ -24,7 +24,7 @@ The FullCalendar component is implemented following these principles:
 2. **Component Placement**: All Blade UI components must be in `Modules/UI/resources/views/components/ui/`
 3. **Migrations**: Follow standard migration rules (extending `XotBaseMigration`, no `down()`, etc.)
 4. **Translations**: All labels and messages must come from translation files
-5. **PHPStan**: Code must pass PHPStan validation level 9+
+5. **PHPStan**: Code must pass PHPStan validation level 10+
 6. **Naming Convention**: All class names and attributes must be in English following Laravel conventions
 
 ## Technologies Used

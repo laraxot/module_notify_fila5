@@ -13,13 +13,15 @@ use Modules\Xot\Actions\GetViewAction;
 /**
  * .
  */
-class Std extends Component
+final class Std extends Component
 {
+    /**
+     * Create a new component instance.
+     */
     public function __construct(
-        // public Post $article,
-        // public bool $showAuthor = false,
-        public string $tpl = 'v1',
-    ) {}
+        public string $tpl = '',
+    ) {
+    }
 
     public function render(): Renderable
     {

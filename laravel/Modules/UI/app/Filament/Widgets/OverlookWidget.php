@@ -8,9 +8,9 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
-use Filament\Widgets\Widget;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
-class OverlookWidget extends Widget
+final class OverlookWidget extends XotBaseWidget
 {
     public string $icon = 'heroicon-o-envelope';
 
@@ -32,6 +32,11 @@ class OverlookWidget extends Widget
     protected string $view = 'ui::filament.widgets.overlook';
 
     protected int|string|array $columnSpan = 1;
+
+    public function getFormSchema(): array
+    {
+        return [];
+    }
 
     /*
      * public function mount(array $filter): void
