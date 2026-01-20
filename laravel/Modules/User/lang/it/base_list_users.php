@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'deactivate' => [
@@ -24,4 +23,8 @@ return [
             'label' => 'changePassword',
         ],
     ],
+    'navigation' => [],
+    'label' => '',
+    'plural_label' => '',
+    'actions' => [],
 ];

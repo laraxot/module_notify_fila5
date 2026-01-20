@@ -2,20 +2,18 @@
 
 declare(strict_types=1);
 
-use Filament\Schemas\Components\Section;
-use Tests\TestCase;
-use Modules\User\Filament\Resources\UserResource\Widgets\UserOverview;
-use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Placeholder;
-use Modules\Xot\Filament\Resources\XotBaseResource;
-use Illuminate\Support\HtmlString;
+use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Section;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\HtmlString;
 use Modules\User\Enums\UserType;
 use Modules\User\Filament\Resources\UserResource;
-use Modules\User\Filament\Resources\UserResource\Pages\CreateUser;
 use Modules\User\Filament\Resources\UserResource\Pages\EditUser;
-use Modules\User\Filament\Resources\UserResource\Pages\ListUsers;
+use Modules\User\Filament\Resources\UserResource\Widgets\UserOverview;
 use Modules\User\Models\User;
+use Modules\User\Tests\TestCase;
+use Modules\Xot\Filament\Resources\XotBaseResource;
 
 uses(TestCase::class);
 
@@ -28,7 +26,7 @@ beforeEach(function (): void {
 });
 
 test('user resource has correct navigation icon', function (): void {
-    expect(UserResource::getNavigationIcon())->toBe('heroicon-o-users');
+    expect(UserResource::getNavigationIcon())->toBe('ui-user-main');
 });
 
 test('user resource has correct widgets', function (): void {
@@ -52,17 +50,17 @@ test('user resource has correct form schema', function (): void {
     expect($section01Schema)->toHaveCount(3);
 
     // Check if name field exists
-    $nameField = collect($section01Schema)->firstWhere('name', 'name');
+    $nameField = collect($section01Schema)->first(fn ($c) => 'name' === $c->getName());
     expect($nameField)->not->toBeNull();
     expect($nameField)->toBeInstanceOf(TextInput::class);
 
     // Check if email field exists
-    $emailField = collect($section01Schema)->firstWhere('name', 'email');
+    $emailField = collect($section01Schema)->first(fn ($c) => 'email' === $c->getName());
     expect($emailField)->not->toBeNull();
     expect($emailField)->toBeInstanceOf(TextInput::class);
 
     // Check if password field exists
-    $passwordField = collect($section01Schema)->firstWhere('name', 'password');
+    $passwordField = collect($section01Schema)->first(fn ($c) => 'password' === $c->getName());
     expect($passwordField)->not->toBeNull();
     expect($passwordField)->toBeInstanceOf(TextInput::class);
 
@@ -74,7 +72,7 @@ test('user resource has correct form schema', function (): void {
     expect($section02Schema)->toHaveCount(1);
 
     // Check if created_at field exists
-    $createdAtField = collect($section02Schema)->firstWhere('name', 'created_at');
+    $createdAtField = collect($section02Schema)->first(fn ($c) => 'created_at' === $c->getName());
     expect($createdAtField)->not->toBeNull();
     expect($createdAtField)->toBeInstanceOf(Placeholder::class);
 });
@@ -97,8 +95,8 @@ test('user resource form schema has correct column spans', function (): void {
     $section01 = $form['section01'];
     $section02 = $form['section02'];
 
-    expect($section01->getColumnSpan())->toBe(8);
-    expect($section02->getColumnSpan())->toBe(4);
+    expect($section01->getColumnSpan())->toBe(['default' => 1, 'lg' => 8]);
+    expect($section02->getColumnSpan())->toBe(['default' => 1, 'lg' => 4]);
 });
 
 test('user resource name field is required', function (): void {
@@ -106,7 +104,7 @@ test('user resource name field is required', function (): void {
     $section01 = $form['section01'];
     $section01Schema = $section01->getDefaultChildComponents();
 
-    $nameField = collect($section01Schema)->firstWhere('name', 'name');
+    $nameField = collect($section01Schema)->first(fn ($c) => 'name' === $c->getName());
 
     expect($nameField->isRequired())->toBeTrue();
 });
@@ -116,7 +114,7 @@ test('user resource email field is required', function (): void {
     $section01 = $form['section01'];
     $section01Schema = $section01->getDefaultChildComponents();
 
-    $emailField = collect($section01Schema)->firstWhere('name', 'email');
+    $emailField = collect($section01Schema)->first(fn ($c) => 'email' === $c->getName());
 
     expect($emailField->isRequired())->toBeTrue();
 });
@@ -126,10 +124,8 @@ test('user resource password field is required only on create', function (): voi
     $section01 = $form['section01'];
     $section01Schema = $section01->getDefaultChildComponents();
 
-    $passwordField = collect($section01Schema)->firstWhere('name', 'password');
+    $passwordField = collect($section01Schema)->first(fn ($c) => 'password' === $c->getName());
 
-    // Test with CreateUser page
-    $createUserPage = new CreateUser();
     expect($passwordField->isRequired($createUserPage))->toBeTrue();
 
     // Test with EditUser page
@@ -142,7 +138,7 @@ test('user resource password field has correct type', function (): void {
     $section01 = $form['section01'];
     $section01Schema = $section01->getDefaultChildComponents();
 
-    $passwordField = collect($section01Schema)->firstWhere('name', 'password');
+    $passwordField = collect($section01Schema)->first(fn ($c) => 'password' === $c->getName());
 
     expect($passwordField->getType())->toBe('password');
 });
@@ -152,7 +148,7 @@ test('user resource email field has unique validation', function (): void {
     $section01 = $form['section01'];
     $section01Schema = $section01->getDefaultChildComponents();
 
-    $emailField = collect($section01Schema)->firstWhere('name', 'email');
+    $emailField = collect($section01Schema)->first(fn ($c) => 'email' === $c->getName());
 
     // Check if the field has unique validation
     $validationRules = $emailField->getValidationRules();
@@ -164,7 +160,7 @@ test('user resource created_at field shows diff for humans', function (): void {
     $section02 = $form['section02'];
     $section02Schema = $section02->getDefaultChildComponents();
 
-    $createdAtField = collect($section02Schema)->firstWhere('name', 'created_at');
+    $createdAtField = collect($section02Schema)->first(fn ($c) => 'created_at' === $c->getName());
 
     // Test with a record
     $content = $createdAtField->getContent($this->user);

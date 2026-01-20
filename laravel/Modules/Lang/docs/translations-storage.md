@@ -71,6 +71,9 @@ Uso:
 ## Processo Dev → Traduttore: Checklist e Istruzioni
 
 1. **Preparazione**
+<<<<<<< HEAD
+   - Esporta i file PHP/JSON di riferimento da `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/lang/en/` o `/lang/en.json`.
+=======
    - Esporta i file PHP/JSON di riferimento da `lang/en/` o `/lang/en.json`.
    - Elimina tutte le stringhe non usate prima di inviare ai traduttori.
 2. **Istruzioni per i Traduttori**
@@ -201,6 +204,7 @@ Uso:
 
 1. **Preparazione**
    - Esporta i file PHP/JSON di riferimento da `lang/en/` o `/lang/en.json`.
+>>>>>>> laraxot/develop
    - Elimina tutte le stringhe non usate prima di inviare ai traduttori.
 2. **Istruzioni per i Traduttori**
    - Nei file PHP: traduci solo il testo a destra di `=>`, non cambiare chiavi o struttura.

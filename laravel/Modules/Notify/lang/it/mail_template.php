@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'resource' => [
         'name' => 'Template Email',
@@ -142,6 +141,9 @@ return [
         ],
         'counter' => [
             'label' => 'counter',
+        ],
+        'html_layout_path' => [
+            'description' => 'html_layout_path',
         ],
     ],
     'actions' => [

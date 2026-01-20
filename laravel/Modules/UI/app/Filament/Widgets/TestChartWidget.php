@@ -7,7 +7,7 @@ namespace Modules\UI\Filament\Widgets;
 use Filament\Support\RawJs;
 use Filament\Widgets\ChartWidget;
 
-class TestChartWidget extends ChartWidget
+final class TestChartWidget extends ChartWidget
 {
     public int $qid = 0;
 
@@ -16,12 +16,12 @@ class TestChartWidget extends ChartWidget
     public string $type = 'line';
 
     // protected static ?string $heading = 'Blog Posts';
-    protected null|string $pollingInterval = null;
+    protected ?string $pollingInterval = null;
 
     // danger, gray, info, primary, success or warning
     protected string $color = 'info';
 
-    public function getDescription(): null|string
+    public function getDescription(): string
     {
         return 'The number of blog posts published per month.';
     }
@@ -35,7 +35,7 @@ class TestChartWidget extends ChartWidget
         return [
             'datasets' => [
                 [
-                    'label' => 'Blog posts created ' . $this->qid,
+                    'label' => 'Blog posts created '.$this->qid,
                     'data' => [0, 10, 5, 2, 21, 32, 45, 74, 65, 45, 77, 89],
                     'backgroundColor' => '#36A2EB',
                     'borderColor' => '#9BD0F5',

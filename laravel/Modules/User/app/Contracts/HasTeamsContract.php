@@ -19,13 +19,13 @@ use Modules\User\Models\Role;
 /**
  * Modules\User\Contracts\HasTeamsContract.
  *
- * @property int $id
- * @property string $name
- * @property string $two_factor_secret
+ * @property int               $id
+ * @property string            $name
+ * @property string            $two_factor_secret
  * @property TeamContract|null $currentTeam
- * @property Collection $tokens
- * @property Carbon|null $two_factor_confirmed_at
- * @property int $current_team_id
+ * @property Collection        $tokens
+ * @property Carbon|null       $two_factor_confirmed_at
+ * @property int               $current_team_id
  *
  * @phpstan-require-extends Model
  *
@@ -35,7 +35,6 @@ interface HasTeamsContract
 {
     // extends
     // HasApiTokens, //no sanctum ma passport
-    // PassportHasApiTokensContract,
     // HasProfilePhotoContract,
     // TwoFactorAuthenticatableContract,
     // MustVerifyEmail,
@@ -74,7 +73,7 @@ interface HasTeamsContract
     /**
      * Get the user's "personal" team.
      */
-    public function personalTeam(): null|TeamContract;
+    public function personalTeam(): ?TeamContract;
 
     /**
      * Determine if the user owns the given team.
@@ -89,7 +88,7 @@ interface HasTeamsContract
     /**
      * Get the role that the user has on the team.
      */
-    public function teamRole(TeamContract $teamContract): null|Role;
+    public function teamRole(TeamContract $teamContract): ?Role;
 
     /**
      * Determine if the user has the given role on the given team.

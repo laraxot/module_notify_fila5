@@ -8,33 +8,33 @@ declare(strict_types=1);
 
 namespace Modules\User\Models;
 
-use Override;
-use Illuminate\Support\Carbon;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\User\Database\Factories\AuthenticationLogFactory;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Support\Carbon;
+use Modules\User\Database\Factories\AuthenticationLogFactory;
+use Modules\Xot\Contracts\ProfileContract;
 
 /**
- * @property int $id
- * @property string $authenticatable_type
- * @property int $authenticatable_id
- * @property string|null $ip_address
- * @property string|null $user_agent
- * @property Carbon|null $login_at
- * @property bool $login_successful
- * @property Carbon|null $logout_at
- * @property bool $cleared_by_user
- * @property array|null $location
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property Model|\Eloquent $authenticatable
+ * @property int                  $id
+ * @property string               $authenticatable_type
+ * @property int                  $authenticatable_id
+ * @property string|null          $ip_address
+ * @property string|null          $user_agent
+ * @property Carbon|null          $login_at
+ * @property bool                 $login_successful
+ * @property Carbon|null          $logout_at
+ * @property bool                 $cleared_by_user
+ * @property array|null           $location
+ * @property Carbon|null          $created_at
+ * @property Carbon|null          $updated_at
+ * @property string|null          $updated_by
+ * @property string|null          $created_by
+ * @property Model|\Eloquent      $authenticatable
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
- * @method static AuthenticationLogFactory factory($count = null, $state = [])
+ *
+ * @method static AuthenticationLogFactory  factory($count = null, $state = [])
  * @method static Builder|AuthenticationLog newModelQuery()
  * @method static Builder|AuthenticationLog newQuery()
  * @method static Builder|AuthenticationLog query()
@@ -52,7 +52,11 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @method static Builder|AuthenticationLog whereUpdatedAt($value)
  * @method static Builder|AuthenticationLog whereUpdatedBy($value)
  * @method static Builder|AuthenticationLog whereUserAgent($value)
+ *
  * @mixin IdeHelperAuthenticationLog
+ *
+ * @property ProfileContract|null $deleter
+ *
  * @mixin \Eloquent
  */
 class AuthenticationLog extends BaseModel
@@ -71,19 +75,6 @@ class AuthenticationLog extends BaseModel
         'location',
     ];
 
-    /** @return array<string, string> */
-    #[Override]
-    protected function casts(): array
-    {
-        return [
-            'cleared_by_user' => 'boolean',
-            'location' => 'array',
-            'login_successful' => 'boolean',
-            'login_at' => 'datetime',
-            'logout_at' => 'datetime',
-        ];
-    }
-
     // public function __construct(array $attributes = [])
     // {
     // if (! isset($this->connection)) {
@@ -101,5 +92,18 @@ class AuthenticationLog extends BaseModel
     public function authenticatable(): MorphTo
     {
         return $this->morphTo();
+    }
+
+    /** @return array<string, string> */
+    #[\Override]
+    protected function casts(): array
+    {
+        return [
+            'cleared_by_user' => 'boolean',
+            'location' => 'array',
+            'login_successful' => 'boolean',
+            'login_at' => 'datetime',
+            'logout_at' => 'datetime',
+        ];
     }
 }

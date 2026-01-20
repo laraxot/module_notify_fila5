@@ -7,12 +7,14 @@ namespace Modules\UI\Datas;
 use Spatie\LaravelData\Data;
 use Spatie\LaravelData\DataCollection;
 
-class SliderDataCollection extends Data
+final class SliderDataCollection extends Data
 {
     /**
      * @var DataCollection<SliderData>
      */
     public DataCollection $slider_data;
 
-    public function __construct() {}
+    public function __construct()
+    {
+    }
 }

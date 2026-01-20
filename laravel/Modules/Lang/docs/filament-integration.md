@@ -95,7 +95,11 @@ class FilamentLocalization
     {
         // Imposta la lingua in base alla preferenza dell'utente o alla lingua predefinita
         $locale = auth()->user()->locale ?? config('app.locale');
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         if (in_array($locale, array_keys($this->localization->getSupportedLocales()))) {
             app()->setLocale($locale);
         }
@@ -144,19 +148,33 @@ class LanguageSwitcher extends \Filament\Support\Plugin
     use EvaluatesClosures;
 
     protected string $widget = \App\Filament\Widgets\LanguageSwitcherWidget::class;
+<<<<<<< HEAD
+    
+    protected string $view = 'filament.plugins.language-switcher';
+    
+=======
 
     protected string $view = 'filament.plugins.language-switcher';
 
+>>>>>>> laraxot/develop
     public static function make(): static
     {
         return app(static::class);
     }
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> laraxot/develop
     public function getSupportedLocales(): array
     {
         return LaravelLocalization::getSupportedLocales();
     }
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> laraxot/develop
     public function boot(Panel $panel): void
     {
         $panel->renderHook(
@@ -183,7 +201,11 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 class LanguageSwitcherWidget extends Widget
 {
     protected static string $view = 'filament.widgets.language-switcher';
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> laraxot/develop
     public function getSupportedLocales(): array
     {
         return LaravelLocalization::getSupportedLocales();
@@ -204,8 +226,13 @@ Crea la vista per il widget:
 @if(count($locales) > 1)
     <div class="flex items-center space-x-2">
         @foreach($locales as $localeCode => $properties)
+<<<<<<< HEAD
+            <a 
+                href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" 
+=======
             <a
                 href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"
+>>>>>>> laraxot/develop
                 class="px-2 py-1 text-sm font-medium rounded-md {{ $currentLocale === $localeCode ? 'bg-primary-500 text-white' : 'text-gray-600 hover:text-gray-900' }}"
             >
                 {{ strtoupper($localeCode) }}
@@ -250,13 +277,27 @@ use Tests\TestCase;
 class FilamentLocalizationTest extends TestCase
 {
     use RefreshDatabase;
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> laraxot/develop
     /** @test */
     public function it_sets_locale_based_on_user_preference()
     {
         $user = User::factory()->create([
             'locale' => 'it',
         ]);
+<<<<<<< HEAD
+        
+        $response = $this->actingAs($user)
+            ->get('/admin');
+            
+        $response->assertStatus(200);
+        $this->assertEquals('it', app()->getLocale());
+    }
+    
+=======
 
         $response = $this->actingAs($user)
             ->get('/admin');
@@ -265,12 +306,19 @@ class FilamentLocalizationTest extends TestCase
         $this->assertEquals('it', app()->getLocale());
     }
 
+>>>>>>> laraxot/develop
     /** @test */
     public function it_falls_back_to_default_locale()
     {
         $user = User::factory()->create([
             'locale' => 'xx', // Lingua non supportata
         ]);
+<<<<<<< HEAD
+        
+        $response = $this->actingAs($user)
+            ->get('/admin');
+            
+=======
 
         $response = $this->actingAs($user)
             ->get('/admin');
@@ -592,6 +640,7 @@ class FilamentLocalizationTest extends TestCase
         $response = $this->actingAs($user)
             ->get('/admin');
 
+>>>>>>> laraxot/develop
         $response->assertStatus(200);
         $this->assertEquals(config('app.locale'), app()->getLocale());
     }

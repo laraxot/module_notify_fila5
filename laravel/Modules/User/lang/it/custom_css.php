@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'background_color' => [
@@ -35,4 +34,17 @@ return [
             'label' => 'updateAction',
         ],
     ],
+    'navigation' => [
+        'name' => 'CSS Personalizzato',
+        'plural' => 'CSS Personalizzati',
+        'group' => [
+            'name' => 'Aspetto',
+            'description' => 'Personalizzazione CSS del tema',
+        ],
+        'label' => 'CSS Personalizzato',
+        'sort' => 15,
+        'icon' => 'heroicon-o-code-bracket',
+    ],
+    'label' => '',
+    'plural_label' => '',
 ];

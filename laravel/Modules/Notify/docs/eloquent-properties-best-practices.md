@@ -137,7 +137,7 @@ if ($notifiable->hasAttribute('email') && $notifiable->email) {
 Il file corretto passa la validazione PHPStan livello 9+:
 
 ```bash
-cd /var/www/html/ptvx/laravel
+cd laravel
 ./vendor/bin/phpstan analyze Modules/Notify/app/Notifications/GenericNotification.php --level=9
 ```
 

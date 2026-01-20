@@ -4,16 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Rating\Models\Traits;
 
-use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
-use Modules\Rating\Models\Rating;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Auth;
+use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
-use Illuminate\Contracts\Filesystem\FileNotFoundException;
-
+use Illuminate\Support\Arr;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
+use Modules\Rating\Models\Rating;
 
 /**
  * Trait HasRatingsTrait.
@@ -25,12 +24,13 @@ trait HasRatingsTrait
      */
     public function ratings()
     {
-        //return $this->morphRelated(Rating::class);
+        // return $this->morphRelated(Rating::class);
         $rating_class = Str::of(static::class)
-        ->before('\Models\\')
-        ->append('\Models\Rating')
-        ->toString();
-        return $this->morphToManyX($rating_class,'model');
+            ->before('\Models\\')
+            ->append('\Models\Rating')
+            ->toString();
+
+        return $this->morphToManyX($rating_class, 'model');
     }
 
     /**
@@ -136,6 +136,33 @@ trait HasRatingsTrait
         return $value;
     }
 
+    /**
+     * Get ratings filtered by extra_attributes.
+     *
+     * @param array<string, mixed> $filters
+     *
+     * @return Collection<int, Rating>
+     */
+    public function getRatingsWhere(array $filters): Collection
+    {
+        $rating_class = Str::of(static::class)
+            ->before('\Models\\')
+            ->append('\Models\Rating')
+            ->toString();
+
+        /** @var Builder $query */
+        $query = $this->ratings();
+
+        foreach ($filters as $key => $value) {
+            $query->where("extra_attributes->{$key}", $value);
+        }
+
+        /** @var Collection<int, Rating> $result */
+        $result = $query->get();
+
+        return $result;
+    }
+
     // */
     /*
         public function setMyRatingAttribute($value){
@@ -180,8 +207,6 @@ trait HasRatingsTrait
         return $msg.$btn.$btn_iframe;
     }
 
-
-
     /*
     public function getRatingsRules(string $prefix, string $postfix): array
     {
@@ -210,5 +235,5 @@ trait HasRatingsTrait
 
         return $res;
     }
-      */  
+      */
 }

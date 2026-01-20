@@ -4,21 +4,22 @@ declare(strict_types=1);
 
 namespace Modules\User\Http\Livewire\Auth;
 
-use Livewire\Component;
+use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Concerns\InteractsWithSchemas;
+use Filament\Schemas\Contracts\HasSchemas;
 use Filament\Schemas\Schema;
-use Webmozart\Assert\Assert;
-use Modules\Xot\Datas\XotData;
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Http\RedirectResponse;
-use Illuminate\Auth\Events\Registered;
-use Modules\Xot\Contracts\UserContract;
-use Filament\Forms\Components\TextInput;
-use Filament\Schemas\Contracts\HasSchemas;
-use Modules\Xot\Actions\File\ViewCopyAction;
-use Livewire\Features\SupportRedirects\Redirector;
-use Filament\Schemas\Concerns\InteractsWithSchemas;
 use Illuminate\Validation\Rules\Password as PasswordRule;
+use Livewire\Component;
+use Livewire\Features\SupportRedirects\Redirector;
+use Modules\Xot\Actions\File\ViewCopyAction;
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Datas\XotData;
+use Webmozart\Assert\Assert;
 
 /**
  * @property Schema $form
@@ -88,15 +89,15 @@ class Register extends Component implements HasSchemas
 
         Assert::string($data['password']);
 
-        /** @var UserContract */
+        /** @var UserContract $user */
         $user = $user_class::create([
             'email' => $data['email'],
             'name' => $data['name'],
             'password' => Hash::make($data['password']),
         ]);
 
+        Assert::isInstanceOf($user, Authenticatable::class);
         event(new Registered($user));
-
         Auth::login($user, true);
 
         return redirect()->intended(route('home'));

@@ -4,14 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources;
 
-use Override;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Modules\User\Filament\Resources\FeatureResource\Pages\CreateFeature;
 use Modules\User\Filament\Resources\FeatureResource\Pages\EditFeature;
 use Modules\User\Filament\Resources\FeatureResource\Pages\ListFeatures;
 use Modules\User\Models\Feature;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
 /**
@@ -19,9 +17,9 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
  */
 class FeatureResource extends XotBaseResource
 {
-    protected static null|string $model = Feature::class;
+    protected static ?string $model = Feature::class;
 
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [
@@ -31,13 +29,13 @@ class FeatureResource extends XotBaseResource
         ];
     }
 
-    #[Override]
+    #[\Override]
     public static function getRelations(): array
     {
         return [];
     }
 
-    #[Override]
+    #[\Override]
     public static function getPages(): array
     {
         return [

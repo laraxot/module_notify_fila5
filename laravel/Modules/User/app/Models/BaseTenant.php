@@ -4,15 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\User\Models;
 
-use Modules\User\Database\Factories\TenantFactory;
-use Illuminate\Database\Eloquent\Builder;
-use Modules\Xot\Contracts\ProfileContract;
 use Filament\Models\Contracts\HasAvatar;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Support\Str;
 use Modules\User\Contracts\TenantContract;
+use Modules\User\Database\Factories\TenantFactory;
+use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 use Spatie\MediaLibrary\HasMedia;
@@ -23,15 +22,15 @@ use Spatie\Sluggable\SlugOptions;
 /**
  * Modules\User\Models\Tenant.
  *
- * @method static TenantFactory factory($count = null, $state = [])
+ * @method static TenantFactory  factory($count = null, $state = [])
  * @method static Builder|Tenant newModelQuery()
  * @method static Builder|Tenant newQuery()
  * @method static Builder|Tenant query()
  *
  * @property EloquentCollection<int, Model&UserContract> $members
- * @property int|null $members_count
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
+ * @property int|null                                    $members_count
+ * @property ProfileContract|null                        $creator
+ * @property ProfileContract|null                        $updater
  *
  * @mixin \Eloquent
  */
@@ -39,6 +38,12 @@ abstract class BaseTenant extends BaseModel implements HasAvatar, HasMedia, Tena
 {
     use HasSlug;
     use InteractsWithMedia;
+
+    /** @var bool */
+    public $incrementing = false;
+
+    /** @var string */
+    protected $keyType = 'string';
 
     /** @var list<string> */
     protected $fillable = [
@@ -64,7 +69,7 @@ abstract class BaseTenant extends BaseModel implements HasAvatar, HasMedia, Tena
     /**
      * Ottiene tutti i membri associati al tenant.
      *
-     * @return BelongsToMany<Model, \Modules\User\Models\BaseTenant>
+     * @return BelongsToMany<Model, BaseTenant>
      */
     public function members(): BelongsToMany
     {
@@ -77,7 +82,7 @@ abstract class BaseTenant extends BaseModel implements HasAvatar, HasMedia, Tena
     /**
      * Ottiene tutti gli utenti associati al tenant.
      *
-     * @return BelongsToMany<Model, \Modules\User\Models\BaseTenant>
+     * @return BelongsToMany<Model, BaseTenant>
      */
     public function users(): BelongsToMany
     {
@@ -86,7 +91,7 @@ abstract class BaseTenant extends BaseModel implements HasAvatar, HasMedia, Tena
         $userClass = $xot->getUserClass();
 
         // $this->setConnection('mysql');
-        //return $this->belongsToManyX($userClass, null, 'tenant_id', 'user_id');
+        // return $this->belongsToManyX($userClass, null, 'tenant_id', 'user_id');
         return $this->belongsToManyX($userClass);
 
         // ->as('membership')
@@ -97,7 +102,7 @@ abstract class BaseTenant extends BaseModel implements HasAvatar, HasMedia, Tena
      *
      * @return string|null URL dell'avatar o null se non presente
      */
-    public function getFilamentAvatarUrl(): null|string
+    public function getFilamentAvatarUrl(): ?string
     {
         // return $this->avatar_url;
         return $this->getFirstMediaUrl('avatar');

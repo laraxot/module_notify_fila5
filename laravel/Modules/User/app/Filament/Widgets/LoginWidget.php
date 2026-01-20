@@ -4,16 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Widgets;
 
-use Filament\Schemas\Schema;
-
-use Filament\Schemas\Components\Component;
-use Override;
-use Illuminate\Database\Eloquent\Model;
-use Exception;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
-use Filament\Schemas\Schema as FilamentForm;
 use Filament\Notifications\Notification;
+use Filament\Schemas\Components\Component;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
@@ -24,7 +19,7 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
  * - Estende XotBaseWidget
  * - Usa solo componenti Filament importati
  * - Validazione e sicurezza integrate
- * - Facilmente estendibile (2FA, captcha, login social)
+ * - Facilmente estendibile (2FA, captcha, login social).
  *
  * @property array<string, mixed>|null $data
  */
@@ -36,6 +31,7 @@ class LoginWidget extends XotBaseWidget
      * il path deve essere senza il namespace del modulo (senza "user::").
      *
      * @see \Modules\User\docs\WIDGETS_STRUCTURE.md - Sezione B
+     *
      * @var view-string
      */
     /** @phpstan-ignore-next-line property.defaultValue */
@@ -43,8 +39,6 @@ class LoginWidget extends XotBaseWidget
 
     /**
      * Inizializza il widget quando viene montato.
-     *
-     * @return void
      */
     public function mount(): void
     {
@@ -56,7 +50,7 @@ class LoginWidget extends XotBaseWidget
      *
      * @return array<int, Component>
      */
-    #[Override]
+    #[\Override]
     public function getFormSchema(): array
     {
         return [
@@ -73,22 +67,11 @@ class LoginWidget extends XotBaseWidget
     }
 
     /**
-     * Get the form model.
-     *
-     * @return Model|null
-     */
-    #[Override]
-    protected function getFormModel(): null|Model
-    {
-        return null;
-    }
-
-    /**
      * Get the form fill data.
      *
      * @return array<string, mixed>
      */
-    #[Override]
+    #[\Override]
     public function getFormFill(): array
     {
         return [
@@ -99,10 +82,8 @@ class LoginWidget extends XotBaseWidget
 
     /**
      * Handle login form submission.
-     *
-     * @return void
      */
-    #[Override]
+    #[\Override]
     public function save(): void
     {
         try {
@@ -112,10 +93,8 @@ class LoginWidget extends XotBaseWidget
             $remember = (bool) ($data['remember'] ?? false);
             $attempt_data = Arr::only($data, ['email', 'password']);
 
-            if (!Auth::attempt($attempt_data, $remember)) {
-                throw ValidationException::withMessages([
-                    'email' => [__('user::messages.credentials_incorrect')],
-                ]);
+            if (! Auth::attempt($attempt_data, $remember)) {
+                throw ValidationException::withMessages(['email' => [__('user::messages.credentials_incorrect')]]);
             }
 
             session()->regenerate();
@@ -135,13 +114,18 @@ class LoginWidget extends XotBaseWidget
 
             $this->form->fill();
             $this->form->saveRelationships();
-            //$this->form->callAfter();
+            // $this->form->callAfter();
 
             foreach ($e->errors() as $field => $messages) {
-                // Semplificato: aggiungi sempre l'errore al campo specifico
+                // PHPStan Level 10: Ensure messages is array
+                if (! is_array($messages)) {
+                    $messages = [$messages];
+                }
+
+                /* @var array<int|string, mixed> $messages */
                 $this->addError($field, implode(' ', $messages));
             }
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             report($e);
 
             Notification::make()
@@ -152,9 +136,18 @@ class LoginWidget extends XotBaseWidget
 
             $this->form->fill();
             $this->form->saveRelationships();
-            //$this->form->callAfter();
+            // $this->form->callAfter();
 
             $this->addError('email', __('user::messages.login_error'));
         }
+    }
+
+    /**
+     * Get the form model.
+     */
+    #[\Override]
+    protected function getFormModel(): ?Model
+    {
+        return null;
     }
 }

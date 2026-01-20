@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+# Standard per le Traduzioni nel Progetto 
+=======
 # Standard per le Traduzioni nel Progetto
+>>>>>>> laraxot/develop
 
 ## Struttura delle Cartelle
 
@@ -173,6 +177,8 @@ return [
 - Aggiornare la documentazione ogni volta che si modifica una risorsa clinica
 - Non duplicare chiavi tra moduli
 - Seguire sempre la filosofia DRY, KISS, centralizzazione
+<<<<<<< HEAD
+=======
 # Standard per le Traduzioni nel Progetto <nome progetto>
 
 ## Struttura delle Cartelle
@@ -348,3 +354,4 @@ return [
 - Aggiornare la documentazione ogni volta che si modifica una risorsa clinica
 - Non duplicare chiavi tra moduli
 - Seguire sempre la filosofia DRY, KISS, centralizzazione
+>>>>>>> laraxot/develop

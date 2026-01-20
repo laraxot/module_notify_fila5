@@ -7,10 +7,10 @@ namespace Modules\Tenant\Models\Traits;
 use Exception;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
+use InvalidArgumentException;
 use Modules\Tenant\Services\TenantService;
 use Sushi\Sushi;
 use Throwable;
-use Webmozart\Assert\Assert;
 
 use function Safe\file_get_contents;
 use function Safe\json_decode;
@@ -38,7 +38,9 @@ trait SushiToJson
     public function getJsonFile(): string
     {
         $tbl = $this->getTable();
-        Assert::string($tbl, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        if (! is_string($tbl)) {
+            throw new InvalidArgumentException(__FILE__.':'.__LINE__.' - '.class_basename(self::class).': Table name must be string');
+        }
 
         return TenantService::filePath('database/content/'.$tbl.'.json');
     }
@@ -117,10 +119,7 @@ trait SushiToJson
             $normalizedData,
         );
 
-        /** @var array<int, array<string, mixed>> $rows */
-        $rows = array_values($completedData);
-
-        return $rows;
+        return array_values($completedData);
     }
 
     /**
@@ -145,12 +144,14 @@ trait SushiToJson
         }
 
         // Assicura che i dati abbiano la struttura corretta
-        /** @var array<int, array<string, mixed>> $result */
         $result = [];
         foreach ($data as $item) {
             if (is_array($item)) {
-                /** @var array<string, mixed> $safeItem */
-                $safeItem = $item;
+                $safeItem = [];
+                foreach ($item as $key => $value) {
+                    $safeItem[(string) $key] = $value;
+                }
+
                 $result[] = $safeItem;
             }
         }

@@ -58,7 +58,9 @@ return [
         'matr' => [
             'label' => 'Matricola',
         ],
-        // ... altri campi ...
+        'photo' => [
+            'label' => 'photo',
+        ],
     ],
     'actions' => [
         'edit' => [
@@ -70,10 +72,24 @@ return [
             'label' => 'Elimina',
             'success' => 'Profilo eliminato con successo!',
             'error' => 'Errore durante l\'eliminazione del profilo',
+            'tooltip' => 'delete',
+            'icon' => 'delete',
+        ],
+        'layout' => [
+            'tooltip' => 'layout',
+            'icon' => 'layout',
+            'label' => 'layout',
+        ],
+        'create' => [
+            'tooltip' => 'create',
+            'icon' => 'create',
+            'label' => 'create',
         ],
     ],
     'messages' => [
         'update_success' => 'Profilo aggiornato con successo!',
         'no_permission' => 'Non hai i permessi per modificare questo profilo.',
     ],
+    'label' => '',
+    'plural_label' => '',
 ];

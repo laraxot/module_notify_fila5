@@ -5,26 +5,19 @@ declare(strict_types=1);
 namespace Modules\User\Filament\Resources;
 
 // // use LaraZeus\SpatieTranslatable\Resources\Concerns\Translatable; // Temporaneamente commentato per compatibilità Filament 4.x
-use Override;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\TextInput;
 use Modules\User\Filament\Resources\BaseProfileResource\Pages\ListProfiles;
-use Filament\Forms;
-use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
-use Illuminate\Database\Eloquent\Collection;
-use Modules\User\Filament\Resources\BaseProfileResource\Pages;
 use Modules\User\Models\BaseProfile;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
 abstract class BaseProfileResource extends XotBaseResource
 {
     // // use Translatable; // Temporaneamente commentato per compatibilità Filament 4.x // Temporaneamente commentato per compatibilità Filament 4.x
 
-    protected static null|string $model = BaseProfile::class;
+    protected static ?string $model = BaseProfile::class;
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-users';
-
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [
@@ -50,13 +43,7 @@ abstract class BaseProfileResource extends XotBaseResource
         ];
     }
 
-    #[Override]
-    public static function getRelations(): array
-    {
-        return [];
-    }
-
-    #[Override]
+    #[\Override]
     public static function getPages(): array
     {
         return [

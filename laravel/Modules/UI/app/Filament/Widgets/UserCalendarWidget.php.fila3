@@ -68,7 +68,7 @@ class UserCalendarWidget extends FullCalendarWidget
     public function onDateSelect(string $start, ?string $end, bool $allDay, ?array $view, ?array $resource): void
     {
         // TODO: Implementare la logica per la selezione della data
-        // dd('test');
+        // dddx('test');
     }
 
     

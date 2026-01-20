@@ -22,8 +22,11 @@ class IconPicker extends TextInput
         $icons = app(GetAllIconsAction::class)->execute();
 
         $packs = array_keys($icons);
-        // $packs = $icons->toCollection()->keys()->toArray();
-        $packs = array_combine($packs, $packs);
+        /** @var list<int|string> $packsKeys */
+        $packsKeys = $packs;
+        $packsCombined = array_combine($packsKeys, $packsKeys);
+        /** @var array<string, string> $packs */
+        $packs = $packsCombined ? $packsCombined : [];
         // dddx($icons->toCollection()->get('heroicons')->toArray());
 
         $this->suffixAction(
@@ -32,7 +35,10 @@ class IconPicker extends TextInput
                 // ->modalContent(fn ($record) => view('ui::filament.forms.components.icon-picker', ['record' => $record]))
                 ->schema([
                     Select::make('pack')
-                        ->options($packs)
+                        ->options(function () use ($packs): array {
+                            /* @var array<string, string> $packsOptions */
+                            return $packs;
+                        })
                         ->reactive()
                         ->live(),
                     RadioIcon::make('newstate')
@@ -42,13 +48,30 @@ class IconPicker extends TextInput
                                 return [];
                             }
                             $key = $pack.'.icons';
+                            $optsRaw = Arr::get($icons, $key, []);
                             Assert::isArray(
-                                $opts = Arr::get($icons, $key, []),
+                                $optsRaw,
                                 '['.__LINE__.']['.class_basename($this).']',
                             );
-                            $opts = array_combine($opts, $opts);
+                            /** @var array<int|string, mixed> $optsRaw */
+                            $optsValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsCombined = array_combine($optsKeys, $optsValues);
 
-                            return $opts;
+                            return $optsCombined ? $optsCombined : [];
                         })
                         ->inline()
                         ->inlineLabel(false),

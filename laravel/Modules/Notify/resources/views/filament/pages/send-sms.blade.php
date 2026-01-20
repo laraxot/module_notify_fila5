@@ -16,15 +16,16 @@ declare(strict_types=1);
 
             {{ $this->smsForm }}
 
-
-                <div class="flex items-center justify-between gap-x-3">
-                    <div>
-                        <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendSMS"/>
-                    </div>
-                    <div>
-                        <x-filament::actions :actions="$this->getSmsFormActions()" />
-                    </div>
+            <div class="flex items-center justify-between gap-x-3">
+                <div>
+                    <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendSMS"/>
                 </div>
+                <div>
+                    @foreach ($this->getSmsFormActions() as $action)
+                        {{ $action }}
+                    @endforeach
+                </div>
+            </div>
 
         </x-filament::section>
     </form>

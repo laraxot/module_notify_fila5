@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-use Illuminate\Support\Facades\Http;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
-use Modules\Notify\Datas\SmsData;
-
 use function Safe\preg_split;
 
 /**
@@ -53,7 +49,7 @@ class FormatSmsMessageAction
         } else {
             // Per messaggi concatenati, ogni SMS è di 153 caratteri
             $smsCount = intval($characterCount / 153);
-            if (($characterCount % 153) > 0) {
+            if ($characterCount % 153 > 0) {
                 $smsCount++;
             }
         }
