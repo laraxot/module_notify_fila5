@@ -37,7 +37,6 @@ class LangServiceProvider extends XotBaseServiceProvider
      */
     protected string $module_ns = __NAMESPACE__;
 
-    #[\Override]
     public function boot(): void
     {
         parent::boot();
@@ -57,17 +56,22 @@ class LangServiceProvider extends XotBaseServiceProvider
         Field::configureUsing(function (Field $component) {
             $component = app(AutoLabelAction::class)->execute($component);
             Assert::isInstanceOf($component, Field::class);
+
             $validationMessages = __('user::validation');
-            if (is_array($validationMessages)) {
-                // Convertiamo l'array generico in un array<string, string> per soddisfare il tipo richiesto
+            if (is_array($validationMessages) && [] !== $validationMessages) {
+                /** @var array<string, string> $typedMessages */
                 $typedMessages = [];
                 foreach ($validationMessages as $key => $value) {
-                    if (is_string($key) && (is_string($value) || $value instanceof \Closure)) {
+                    if (is_string($key) && is_string($value)) {
                         $typedMessages[$key] = $value;
                     }
                 }
-                $component->validationMessages($typedMessages);
+
+                if ([] !== $typedMessages) {
+                    $component->validationMessages($typedMessages);
+                }
             }
+
             $component = app(AutoLabelAction::class)->execute($component, 'placeholder');
             $component = app(AutoLabelAction::class)->execute($component, 'helperText');
 

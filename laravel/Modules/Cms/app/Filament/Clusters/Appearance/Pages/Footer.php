@@ -8,10 +8,7 @@ use Filament\Actions\Action;
 use Filament\Forms\Components\ColorPicker;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
-use Filament\Pages\Page;
 use Filament\Schemas\Schema;
 use Filament\Support\Exceptions\Halt;
 use Illuminate\Support\Arr;
@@ -20,6 +17,7 @@ use Modules\Cms\Datas\FooterData;
 use Modules\Cms\Filament\Clusters\Appearance;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
+use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
 /**
@@ -27,18 +25,14 @@ use Webmozart\Assert\Assert;
  *
  * @property Schema $form
  */
-class Footer extends Page implements HasForms
+class Footer extends XotBasePage
 {
-    use InteractsWithForms;
-
     /**
      * @var FooterData|null the form data
      */
     public ?FooterData $footerData = null;
 
-    public ?array $data = [];
-
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+    public array $data = [];
 
     protected string $view = 'cms::filament.clusters.appearance.pages.headernav';
 
@@ -57,21 +51,21 @@ class Footer extends Page implements HasForms
     /**
      * Define the form schema.
      */
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
         $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('footer', false);
 
         return $schema
             ->components([
-                ColorPicker::make('background_color')->label(__('Background Color')),
-                FileUpload::make('background')->label(__('Background Image')),
-                ColorPicker::make('overlay_color')->label(__('Overlay Color')),
-                Select::make('view')->options($options)->label(__('View Template')),
+                ColorPicker::make('background_color')->label(trans_string('Background Color')),
+                FileUpload::make('background')->label(trans_string('Background Image')),
+                ColorPicker::make('overlay_color')->label(trans_string('Overlay Color')),
+                Select::make('view')->options($options)->label(trans_string('View Template')),
                 /*
                  * RadioImage::make('_tpl')
                  * ->options($options)
                  * ->columnSpanFull()
-                 * ->label(__('Template Selection')),
+                 * ->label(trans_string('Template Selection')),
                  */
             ])
             ->columns(2)
@@ -89,12 +83,12 @@ class Footer extends Page implements HasForms
             app(SaveFooterConfigAction::class)->execute($data);
 
             Notification::make()
-                ->title(__('Saved successfully'))
+                ->title(trans_string('Saved successfully'))
                 ->success()
                 ->send();
         } catch (Halt $exception) {
             Notification::make()
-                ->title(__('Error!'))
+                ->title(trans_string('Error!'))
                 ->danger()
                 ->body($exception->getMessage())
                 ->persistent()
@@ -127,7 +121,7 @@ class Footer extends Page implements HasForms
     protected function getUpdateFormActions(): array
     {
         return [
-            Action::make('updateAction')->label(__('Save Changes'))->submit('updateData'),
+            Action::make('updateAction')->label(trans_string('Save Changes'))->submit('updateData'),
         ];
     }
 }

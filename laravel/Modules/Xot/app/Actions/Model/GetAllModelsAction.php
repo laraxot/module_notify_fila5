@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model;
 
 use Nwidart\Modules\Facades\Module;
+use Nwidart\Modules\Laravel\Module as LaravelModule;
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllModelsAction
@@ -17,13 +18,27 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+     *
+     * @return array<int, class-string>
      */
     public function execute(): array
     {
+        /** @var array<int, class-string> $res */
         $res = [];
+
+        /** @var array<string, LaravelModule> $modules */
         $modules = Module::all();
+
         foreach ($modules as $module) {
-            $tmp = app(GetAllModelsByModuleNameAction::class)->execute($module->getName());
+            $moduleNameValue = $module->getName();
+
+            // Type narrowing per PHPStan Level 10
+            if (! is_string($moduleNameValue)) {
+                continue;
+            }
+
+            $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleNameValue);
+            /** @var array<int, class-string> $tmp */
             $res = array_merge($res, $tmp);
         }
 

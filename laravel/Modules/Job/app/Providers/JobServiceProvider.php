@@ -12,16 +12,6 @@ namespace Modules\Job\Providers;
 
 use Filament\Actions\Exports\Models\Export;
 use Filament\Actions\Imports\Models\Import;
-use Illuminate\Console\Scheduling\Schedule;
-use Illuminate\Queue\Events\JobExceptionOccurred;
-use Illuminate\Queue\Events\JobFailed;
-use Illuminate\Queue\Events\JobProcessed;
-use Illuminate\Queue\Events\JobProcessing;
-use Illuminate\Support\Facades\Queue;
-use Illuminate\Support\Facades\Schema;
-use Modules\Job\Events\Executed;
-use Modules\Job\Events\Executing;
-use Modules\Job\Models\Task;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 use Override;
 

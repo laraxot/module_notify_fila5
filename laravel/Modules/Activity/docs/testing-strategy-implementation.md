@@ -2,7 +2,7 @@
 
 ## Status
 
-✅ **SnapshotBusinessLogicTest**: Rimosso RefreshDatabase (COMPLETATO)  
+✅ **SnapshotBusinessLogicTest**: Rimosso RefreshDatabase (COMPLETATO)
 ⚠️  **Esecuzione Test**: Bloccata da conflitti Git in altri file
 
 ## Modifiche Applicate
@@ -51,17 +51,17 @@ Best practices per testare Snapshot:
 test('snapshot test', function (): void {
     // 1. UUID univoco per isolation
     $uuid = Str::uuid()->toString();
-    
+
     // 2. Crea snapshot
     $snapshot = Snapshot::create([
         'aggregate_uuid' => $uuid,
         'aggregate_version' => 1,
         'state' => json_encode(['data' => 'value']),
     ]);
-    
+
     // 3. Test logic
     expect($snapshot)->toBeInstanceOf(Snapshot::class);
-    
+
     // 4. ✅ Cleanup MANUALE
     $snapshot->delete();
 });
@@ -103,7 +103,7 @@ vs.
 
 RefreshDatabase + SQLite:
 - Comportamenti diversi
-- Vincoli diversi  
+- Vincoli diversi
 - Performance diverse
 - Falsi positivi/negativi
 ```
@@ -133,7 +133,6 @@ RefreshDatabase + SQLite:
 ```bash
 # Trova tutti i conflitti
 
-
 # Risolvi usando:
 git checkout --ours {file}   # Mantieni versione HEAD
 # oppure
@@ -145,7 +144,7 @@ git checkout --theirs {file}  # Usa versione incoming
 ### 1. Risoluzione Conflitti Git (URGENTE)
 
 ```bash
-cd /var/www/html/ptvx/laravel
+cd laravel
 
 # Risolvi tutti i conflitti
 
@@ -176,7 +175,7 @@ php artisan test Modules/Activity --coverage
 Applicare pattern NO RefreshDatabase a tutti i test Activity:
 
 - [ ] ActivityBusinessLogicTest.php
-- [ ] ActivityLogBusinessLogicTest.php  
+- [ ] ActivityLogBusinessLogicTest.php
 - [ ] Altri test del modulo
 
 ## Collegamenti
@@ -192,8 +191,7 @@ Applicare pattern NO RefreshDatabase a tutti i test Activity:
 
 ---
 
-**Status**: ⚠️  COMPLETATO ma esecuzione test bloccata da conflitti Git  
-**Pattern**: ✅ Manual Cleanup con UUID Isolation  
-**Documentazione**: ✅ COMPLETA  
+**Status**: ⚠️  COMPLETATO ma esecuzione test bloccata da conflitti Git
+**Pattern**: ✅ Manual Cleanup con UUID Isolation
+**Documentazione**: ✅ COMPLETA
 **Ultimo aggiornamento**: 27 Ottobre 2025
-

@@ -11,7 +11,6 @@ namespace Modules\Xot\Filament\Actions\Header;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
-use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Actions\Export\ExportXlsByLazyCollection;
 use Modules\Xot\Actions\Export\ExportXlsByQuery;
 use Modules\Xot\Actions\Export\ExportXlsStreamByLazyCollection;
@@ -24,20 +23,20 @@ class ExportXlsLazyAction extends Action
     {
         parent::setUp();
 
-        $this->label(__('xot::actions.export_xls.label'))
-            ->tooltip(__('xot::actions.export_xls.tooltip'))
-            ->icon(__('xot::actions.export_xls.icon'))
-            ->modalHeading(__('xot::actions.export_xls.modal.heading'))
-            ->modalDescription(__('xot::actions.export_xls.modal.description'))
-            ->modalSubmitActionLabel(__('xot::actions.export_xls.modal.confirm'))
-            ->modalCancelActionLabel(__('xot::actions.export_xls.modal.cancel'))
-            ->successNotificationTitle(__('xot::actions.export_xls.success'))
+        $this->label((string) __('xot::actions.export_xls.label'))
+            ->tooltip((string) __('xot::actions.export_xls.tooltip'))
+            ->icon((string) __('xot::actions.export_xls.icon'))
+            ->modalHeading((string) __('xot::actions.export_xls.modal.heading'))
+            ->modalDescription((string) __('xot::actions.export_xls.modal.description'))
+            ->modalSubmitActionLabel((string) __('xot::actions.export_xls.modal.confirm'))
+            ->modalCancelActionLabel((string) __('xot::actions.export_xls.modal.cancel'))
+            ->successNotificationTitle((string) __('xot::actions.export_xls.success'))
             ->requiresConfirmation()
             ->action(static function (ListRecords $livewire) {
                 $filename =
-                    class_basename($livewire) .
-                    '-' .
-                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    class_basename($livewire).
+                    '-'.
+                    collect($livewire->tableFilters)->flatten()->implode('-').
                     '.xlsx';
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
@@ -48,15 +47,28 @@ class ExportXlsLazyAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
                     if (is_array($rawFields)) {
-                        $fields = array_map(static function ($field): string {
-                            if (is_object($field) && method_exists($field, '__toString')) {
-                                return $field->__toString();
-                            }
-                            if (is_scalar($field)) {
-                                return (string) $field;
-                            }
-                            return '';
-                        }, $rawFields);
+                        $fields = array_map(
+                            /**
+                             * @param  mixed  $field
+                             */
+                            static function ($field): string {
+                                // Handle objects with __toString method
+                                if (is_object($field) && method_exists($field, '__toString')) {
+                                    $stringValue = $field->__toString();
+
+                                    // Type narrowing for PHPStan Level 10
+                                    return is_string($stringValue) ? $stringValue : '';
+                                }
+
+                                // Handle scalar values
+                                if (is_scalar($field)) {
+                                    return (string) $field;
+                                }
+
+                                return '';
+                            },
+                            $rawFields
+                        );
                     }
                     Assert::isArray($fields);
                 }
@@ -67,11 +79,10 @@ class ExportXlsLazyAction extends Action
                 }
 
                 if ($lazy->count() < 7) {
-                    Assert::isInstanceOf($lazy, Builder::class);
-
                     /** @var array<int, string> $stringFields */
                     $stringFields = array_values($fields);
 
+                    // PHPStan knows $lazy is Builder|Relation here, no need for Assert
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
                 }
 
@@ -86,7 +97,7 @@ class ExportXlsLazyAction extends Action
             });
     }
 
-    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
     {
         return 'export_xls';
     }

@@ -89,7 +89,7 @@ php docs/helper-text-audit-script.php
 ### Collegamenti Bidirezionali
 - [Documentazione Centrale Traduzioni](../../../docs/translation-field-structure-complete.md)
 - [Script Audit Helper Text](../../../docs/helper-text-audit-script.php)
-- [Memoria Regola Critica](../../../docs/translation-refactor-complete-summary.md)
+- [Memoria Regola Critica](../../../docs/translation-refactor-complete-summary-2025-08-08.md)
 
 ## Validazione
 
@@ -135,7 +135,7 @@ Assicurarsi che tutti i membri del team conoscano e applichino questa regola cri
 
 ---
 
-**Status**: ✅ COMPLETATO  
-**Validazione**: ✅ SUPERATA  
-**Conformità**: ✅ REGOLA APPLICATA  
+**Status**: ✅ COMPLETATO
+**Validazione**: ✅ SUPERATA
+**Conformità**: ✅ REGOLA APPLICATA
 **Documentazione**: ✅ AGGIORNATA

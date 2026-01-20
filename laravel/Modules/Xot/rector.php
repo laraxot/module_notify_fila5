@@ -3,49 +3,52 @@
 declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
-use Rector\PHPUnit\Set\PHPUnitLevelSetList;
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
-use RectorLaravel\Set\LaravelSetList;
+use Rector\ValueObject\PhpVersion;
 
+/**
+ * Standard Rector Configuration for Laravel Modules
+ *
+ * Minimal configuration compatible with base Rector installation
+ * Updated: 2025-11-24
+ */
 return static function (RectorConfig $rectorConfig): void {
+    // Paths to analyze
     $rectorConfig->paths([
-        __DIR__ . '/Modules',
-        __DIR__ . '/app',
-        __DIR__ . '/bootstrap',
-        __DIR__ . '/config',
-        __DIR__ . '/lang',
-        __DIR__ . '/resources',
-        __DIR__ . '/routes',
-        __DIR__ . '/tests',
+        __DIR__,
     ]);
 
+    // Paths to skip
     $rectorConfig->skip([
-        __DIR__ . '/Modules/*/docs',
-        __DIR__ . '/Modules/*/vendor',
-        '*/docs',
-        '*/vendor',
-        './vendor/',
+        __DIR__.'/vendor',
+        __DIR__.'/docs',
+        __DIR__.'/tests/coverage',
     ]);
 
-    // register a single rule
-    // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
-    // $rectorConfig->rule(RedirectRouteToToRouteHelperRector::class);
+    // PHP version target
+    $rectorConfig->phpVersion(PhpVersion::PHP_81);
 
-    // define sets of rules
+    // Rule sets
     $rectorConfig->sets([
-        PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
-        // SetList::DEAD_CODE,
-        // SetList::CODE_QUALITY,
+        // PHP 8.1 compatibility
         LevelSetList::UP_TO_PHP_81,
-        LaravelSetList::LARAVEL_100,
-        // SetList::NAMING, //problemi con injuction
-        SetList::TYPE_DECLARATION,
+
+        // Code quality improvements
+        SetList::CODE_QUALITY,
+        SetList::DEAD_CODE,
+        SetList::EARLY_RETURN,
+
+        // Type declarations (commented - enable carefully)
+        // SetList::TYPE_DECLARATION,
+
+        // Coding style
         // SetList::CODING_STYLE,
-        // SetList::PRIVATIZATION,//problemi con final
-        // SetList::EARLY_RETURN,
-        // SetList::INSTANCEOF,
     ]);
 
+    // Import names for cleaner code
     $rectorConfig->importNames();
+
+    // Import short classes
+    $rectorConfig->importShortClasses(false);
 };

@@ -2,18 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Modules\Gdpr\Tests\Unit\Models;
+uses(Modules\Gdpr\Tests\TestCase::class);
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Gdpr\Models\BaseModel;
-use Tests\TestCase;
-
-uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
-    $this->baseModel = new class extends BaseModel
-    {
+    $this->baseModel = new class extends BaseModel {
         protected $table = 'test_gdpr_table';
     };
 });

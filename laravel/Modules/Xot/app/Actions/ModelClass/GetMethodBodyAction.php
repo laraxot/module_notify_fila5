@@ -24,8 +24,7 @@ class GetMethodBodyAction
         $length = $end_line - $start_line;
         Assert::string($file_name = $table_method->getFileName());
         $source = file($file_name);
-        $body = implode('', \array_slice($source, $start_line, $length));
 
-        return $body;
+        return implode('', \array_slice($source, $start_line, $length));
     }
 }

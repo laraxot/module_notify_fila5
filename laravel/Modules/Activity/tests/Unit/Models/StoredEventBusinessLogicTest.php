@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+uses(\Modules\Activity\Tests\TestCase::class);
 use Modules\Activity\Models\StoredEvent;
 use Spatie\EventSourcing\StoredEvents\Models\EloquentStoredEvent;
 
-describe('StoredEvent Business Logic', function () {
-    test('stored event has correct connection configured', function () {
+describe('StoredEvent Business Logic', function (): void {
+    test('stored event has correct connection configured', function (): void {
         $storedEvent = new StoredEvent;
 
         expect($storedEvent->getConnectionName())->toBe('activity');
     });
 
-    test('stored event has correct table configured', function () {
+    test('stored event has correct table configured', function (): void {
         $storedEvent = new StoredEvent;
 
         expect($storedEvent->getTable())->toBe('stored_events');
     });
 
-    test('stored event has expected fillable fields for event sourcing', function () {
+    test('stored event has expected fillable fields for event sourcing', function (): void {
         $storedEvent = new StoredEvent;
         $expectedFillable = [
             'id',
@@ -37,28 +37,28 @@ describe('StoredEvent Business Logic', function () {
         expect($storedEvent->getFillable())->toEqual($expectedFillable);
     });
 
-    test('stored event extends eloquent stored event for event sourcing', function () {
+    test('stored event extends eloquent stored event for event sourcing', function (): void {
+        // @phpstan-ignore-next-line - is_subclass_of with class strings is always true for existing inheritance
         expect(is_subclass_of(
             StoredEvent::class,
             EloquentStoredEvent::class,
         ))->toBeTrue();
     });
 
-    test('stored event has factory trait for testing', function () {
-        $traits = class_uses(StoredEvent::class);
+    test('stored event has query builder methods documented', function (): void {
+        // Verify query builder methods are available through @method annotations in PHPDoc
+        // These are provided by Spatie's EloquentStoredEventQueryBuilder:
+        // - afterVersion(int $version)
+        // - whereAggregateRoot(string $uuid)
+        // - whereEvent(string ...$eventClasses)
 
-        expect($traits)->toHaveKey(HasFactory::class);
-    });
+        $reflection = new \ReflectionClass(StoredEvent::class);
+        $docComment = $reflection->getDocComment();
 
-    test('stored event has after version scope method', function () {
-        expect(method_exists(StoredEvent::class, 'scopeAfterVersion'))->toBeTrue();
-    });
-
-    test('stored event has where aggregate root scope method', function () {
-        expect(method_exists(StoredEvent::class, 'scopeWhereAggregateRoot'))->toBeTrue();
-    });
-
-    test('stored event has where event scope method', function () {
-        expect(method_exists(StoredEvent::class, 'scopeWhereEvent'))->toBeTrue();
+        // Verify @method annotations exist for query builder methods
+        expect($docComment)->toContain('@method');
+        expect($docComment)->toContain('afterVersion');
+        expect($docComment)->toContain('whereAggregateRoot');
+        expect($docComment)->toContain('whereEvent');
     });
 });

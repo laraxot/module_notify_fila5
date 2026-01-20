@@ -23,6 +23,6 @@ class PdfAction extends Action
             // ->icon('heroicon-o-cloud-arrow-down')
             // ->icon('fas-file-excel')
             ->icon('heroicon-o-document-arrow-down')
-            ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
+            ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
     }
 }

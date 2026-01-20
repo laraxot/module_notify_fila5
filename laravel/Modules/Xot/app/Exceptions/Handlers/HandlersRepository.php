@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exceptions\Handlers;
 
-use Throwable;
 use Closure;
-use ReflectionFunction;
 use ReflectionClass;
+use ReflectionFunction;
+use Throwable;
 
 /**
  * The handlers repository.
@@ -60,7 +60,7 @@ class HandlersRepository
     {
         return array_filter(
             $this->reporters,
-            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
     }
 
@@ -71,7 +71,7 @@ class HandlersRepository
     {
         return array_filter(
             $this->renderers,
-            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
     }
 
@@ -82,7 +82,7 @@ class HandlersRepository
     {
         return array_filter(
             $this->consoleRenderers,
-            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
     }
 
@@ -97,10 +97,10 @@ class HandlersRepository
             $reflection = new ReflectionFunction(Closure::fromCallable($handler));
         }
 
-        if (!($params = $reflection->getParameters())) {
+        if (! ($params = $reflection->getParameters())) {
             return false;
         }
 
-        return ($params[0]->getClass() instanceof ReflectionClass) ? $params[0]->getClass()->isInstance($e) : true;
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
     }
 }

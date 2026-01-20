@@ -9,7 +9,7 @@
 
 ## Compliance Summary
 
-The Lang module is fully compliant with PHPStan level 10 analysis, demonstrating:
+The Lang module is fully compliant with PHPStan level 9 analysis, demonstrating:
 
 - ✅ Rigorous type hints implementation
 - ✅ Proper null handling

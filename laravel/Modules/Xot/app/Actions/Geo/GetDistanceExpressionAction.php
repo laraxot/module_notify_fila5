@@ -21,15 +21,15 @@ class GetDistanceExpressionAction
     /**
      * Genera l'espressione SQL per calcolare la distanza tra due punti.
      *
-     * @param float $latitude Latitudine del punto di riferimento
-     * @param float $longitude Longitudine del punto di riferimento
-     * @param string|null $alias Alias per l'espressione (opzionale)
+     * @param  float  $latitude  Latitudine del punto di riferimento
+     * @param  float  $longitude  Longitudine del punto di riferimento
+     * @param  string|null  $alias  Alias per l'espressione (opzionale)
      * @return Expression Espressione SQL per il calcolo della distanza
      */
     public function execute(
         float $latitude,
         float $longitude,
-        null|string $alias = null,
+        ?string $alias = null,
     ): Expression {
         $sql = "
             (6371 * acos(
@@ -41,7 +41,7 @@ class GetDistanceExpressionAction
             ))
         ";
 
-        if (null !== $alias) {
+        if ($alias !== null) {
             $sql .= " AS {$alias}";
         }
 

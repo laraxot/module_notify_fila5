@@ -43,6 +43,9 @@ class ActivityServiceProvider extends XotBaseServiceProvider
 
         // Registro solo le configurazioni specifiche del modulo
         $this->registerConfig();
+
+        // Registra i componenti Blade personalizzati
+        $this->registerBladeComponents();
     }
 
     /**

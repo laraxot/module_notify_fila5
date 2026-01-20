@@ -6,9 +6,6 @@ namespace Modules\Geo\Tests\Unit\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Geo\Models\Traits\HasAddress;
-use Tests\TestCase;
-
-uses(TestCase::class);
 
 /**
  * Modello di test per il trait HasAddress.
@@ -26,7 +23,7 @@ class TestModel extends Model
     /**
      * Bootstrap this model.
      */
-    public static function boot()
+    protected static function boot(): void
     {
         parent::boot();
 

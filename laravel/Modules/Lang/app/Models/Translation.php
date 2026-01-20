@@ -50,6 +50,8 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static EloquentBuilder<static>|Translation whereUpdatedBy($value)
  * @method static EloquentBuilder<static>|Translation whereValue($value)
  *
+ * @property ProfileContract|null $deleter
+ *
  * @mixin \Eloquent
  */
 class Translation extends BaseModel

@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+uses(Modules\Geo\Tests\TestCase::class);
+
 use Modules\Geo\Enums\AddressTypeEnum;
 
 /**
@@ -12,7 +14,7 @@ use Modules\Geo\Enums\AddressTypeEnum;
 /**
  * Build an in-memory Address-like object with sane defaults.
  *
- * @param  array<string, mixed>  $overrides
+ * @param array<string, mixed> $overrides
  */
 function makeAddress(array $overrides = []): object
 {

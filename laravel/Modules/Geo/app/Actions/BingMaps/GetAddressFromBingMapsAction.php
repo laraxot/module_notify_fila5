@@ -11,8 +11,6 @@ use Modules\Geo\Datas\AddressData;
 
 use function Safe\json_decode;
 
-use Webmozart\Assert\Assert;
-
 /**
  * Action per ottenere l'indirizzo da coordinate tramite Bing Maps.
  *
@@ -59,9 +57,15 @@ readonly class GetAddressFromBingMapsAction
     private function validateInput(string $address): void
     {
         $apiKey = config('services.bing.maps_api_key');
-        Assert::notEmpty($apiKey, 'Bing Maps API key not configured');
-        Assert::notEmpty($address, 'Address cannot be empty');
-        Assert::maxLength($address, 1000, 'Address is too long');
+        if (empty($apiKey)) {
+            throw new \RuntimeException('Bing Maps API key not configured');
+        }
+        if (empty($address)) {
+            throw new \RuntimeException('Address cannot be empty');
+        }
+        if (strlen($address) > 1000) {
+            throw new \RuntimeException('Address is too long');
+        }
     }
 
     /**

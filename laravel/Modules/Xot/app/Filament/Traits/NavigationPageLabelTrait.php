@@ -15,7 +15,7 @@ trait NavigationPageLabelTrait
         return static::trans('navigation.name');
     }
 
-    public function getPluralModelLabel(): string
+    public static function getPluralModelLabel(): string
     {
         return static::trans('navigation.plural');
     }

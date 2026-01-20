@@ -4,34 +4,34 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Gdpr\Database\Factories\ConsentFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
+use Modules\Gdpr\Database\Factories\ConsentFactory;
+use Modules\Xot\Contracts\ProfileContract;
 
 /**
  * Modules\Gdpr\Models\Consent.
  *
- * @property string $id
- * @property string|null $treatment_id
- * @property string|null $subject_id
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @property string $user_type
- * @property string|null $user_id
- * @property string|null $type
- * @property string|null $accepted_at
- * @property-read ProfileContract|null $creator
- * @property-read Treatment|null $treatment
- * @property-read ProfileContract|null $updater
+ * @property string               $id
+ * @property string|null          $treatment_id
+ * @property string|null          $subject_id
+ * @property Carbon|null          $created_at
+ * @property Carbon|null          $updated_at
+ * @property string|null          $updated_by
+ * @property string|null          $created_by
+ * @property Carbon|null          $deleted_at
+ * @property string|null          $deleted_by
+ * @property string               $user_type
+ * @property string|null          $user_id
+ * @property string|null          $type
+ * @property string|null          $accepted_at
+ * @property ProfileContract|null $creator
+ * @property Treatment|null       $treatment
+ * @property ProfileContract|null $updater
  *
- * @method static ConsentFactory factory($count = null, $state = [])
+ * @method static ConsentFactory          factory($count = null, $state = [])
  * @method static Builder<static>|Consent newModelQuery()
  * @method static Builder<static>|Consent newQuery()
  * @method static Builder<static>|Consent query()
@@ -48,6 +48,8 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|Consent whereUpdatedBy($value)
  * @method static Builder<static>|Consent whereUserId($value)
  * @method static Builder<static>|Consent whereUserType($value)
+ *
+ * @property ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

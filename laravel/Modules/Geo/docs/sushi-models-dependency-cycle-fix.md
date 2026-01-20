@@ -66,9 +66,9 @@ public function getJsonFile(): string
 class SafeSushiModel extends BaseModel
 {
     use Sushi;
-    
+
     private const JSON_FILE_PATH = 'laravel/Modules/{ModuleName}/resources/json/data.json';
-    
+
     public function getJsonFile(): string
     {
         return base_path(self::JSON_FILE_PATH);
@@ -82,7 +82,7 @@ class SafeSushiModel extends BaseModel
 ```bash
 
 # Verifica esistenza file
-ls -la /var/www/html/base_<nome progetto>/laravel/Modules/Geo/resources/json/comuni.json
+ls -la /var/www/html/<directory progetto>/laravel/Modules/Geo/resources/json/comuni.json
 
 # Output atteso:
 
@@ -124,12 +124,12 @@ La trasparenza del path diretto è superiore all'astrazione del `module_path()` 
 
 ## 🔗 Collegamenti
 
-- [Modello Comune](/var/www/html/base_<nome progetto>/laravel/Modules/Geo/app/Models/Comune.php)
-- [File JSON](/var/www/html/base_<nome progetto>/laravel/Modules/Geo/resources/json/comuni.json)
+- [Modello Comune](/var/www/html/<directory progetto>/laravel/Modules/Geo/app/Models/Comune.php)
+- [File JSON](/var/www/html/<directory progetto>/laravel/Modules/Geo/resources/json/comuni.json)
 - [Sushi Documentation](https://github.com/calebporzio/sushi)
 
 ---
 
-**Risolto**: Dicembre 2024  
-**Priorità**: P0 (Critical) - Bloccava registrazioni  
-**Impatto**: Sistema completamente non funzionale  
+**Risolto**: Dicembre 2024
+**Priorità**: P0 (Critical) - Bloccava registrazioni
+**Impatto**: Sistema completamente non funzionale
