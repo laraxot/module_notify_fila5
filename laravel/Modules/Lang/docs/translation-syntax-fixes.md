@@ -68,7 +68,11 @@ return [
 ### 2. declare() Posizionato Erroneamente
 ```php
 // ❌ ERRATO
+<<<<<<< HEAD
+<?php 
+=======
 <?php
+>>>>>>> laraxot/develop
 return [
 declare(strict_types=1);
   'navigation' => [...],
@@ -160,6 +164,8 @@ return [
 
 ## Ultimo Aggiornamento
 2025-01-06 - Correzione completa errori sintassi file traduzione ✅ COMPLETATO
+<<<<<<< HEAD
+=======
 # Correzione Errori di Sintassi nei File di Traduzione
 
 ## Riepilogo Intervento
@@ -322,3 +328,4 @@ return [
 
 ## Ultimo Aggiornamento
 2025-01-06 - Correzione completa errori sintassi file traduzione ✅ COMPLETATO
+>>>>>>> laraxot/develop

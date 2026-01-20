@@ -2,10 +2,9 @@
 
 declare(strict_types=1);
 
-use Tests\TestCase;
-use Spatie\LaravelData\Data;
-use Illuminate\Validation\Rules\Password;
 use Modules\User\Datas\PasswordData;
+use Modules\User\Tests\TestCase;
+use Spatie\LaravelData\Data;
 
 uses(TestCase::class);
 
@@ -64,7 +63,7 @@ test('password data has correct properties', function (): void {
     $reflection = new ReflectionClass(PasswordData::class);
     $properties = $reflection->getProperties();
 
-    $propertyNames = array_map(fn($prop) => $prop->getName(), $properties);
+    $propertyNames = array_map(fn ($prop) => $prop->getName(), $properties);
 
     expect($propertyNames)->toContain('otp_expiration_minutes');
     expect($propertyNames)->toContain('otp_length');

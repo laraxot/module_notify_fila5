@@ -2,44 +2,49 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'provider' => [
-            'label' => 'provider',
+            'label' => 'Provider',
         ],
         'provider_id' => [
-            'label' => 'provider_id',
+            'label' => 'Provider ID',
         ],
         'name' => [
-            'label' => 'name',
+            'label' => 'Name',
         ],
         'email' => [
-            'label' => 'email',
+            'label' => 'Email',
         ],
         'avatar' => [
-            'label' => 'avatar',
+            'label' => 'Avatar',
         ],
         'create' => [
-            'label' => 'create',
+            'label' => 'Create',
         ],
         'attach' => [
-            'label' => 'attach',
+            'label' => 'Attach',
         ],
         'layout' => [
-            'label' => 'layout',
+            'label' => 'Layout',
         ],
         'view' => [
-            'label' => 'view',
+            'label' => 'View',
         ],
         'edit' => [
-            'label' => 'edit',
+            'label' => 'Edit',
         ],
         'detach' => [
-            'label' => 'detach',
+            'label' => 'Detach',
         ],
         'toggleColumns' => [
-            'label' => 'toggleColumns',
+            'label' => 'Toggle Columns',
         ],
+    ],
+    'navigation' => [
+        'sort' => 89,
+        'icon' => 'heroicon-o-user-circle',
+        'group' => 'Authentication',
+        'label' => 'Socialite Users',
     ],
 ];

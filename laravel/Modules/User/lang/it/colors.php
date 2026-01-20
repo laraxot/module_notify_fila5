@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'text_color' => [
@@ -41,4 +40,17 @@ return [
             'label' => 'updateAction',
         ],
     ],
+    'navigation' => [
+        'name' => 'Colori',
+        'plural' => 'Colori',
+        'group' => [
+            'name' => 'Aspetto',
+            'description' => 'Personalizzazione dell\'aspetto del sistema',
+        ],
+        'label' => 'Colori',
+        'sort' => 13,
+        'icon' => 'heroicon-o-swatch',
+    ],
+    'label' => '',
+    'plural_label' => '',
 ];

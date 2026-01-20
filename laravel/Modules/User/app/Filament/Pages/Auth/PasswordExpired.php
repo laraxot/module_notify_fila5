@@ -4,26 +4,21 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Pages\Auth;
 
-use Filament\Schemas\Components\Component;
-use Illuminate\Database\Eloquent\Model;
-use InvalidArgumentException;
-use Modules\Xot\Contracts\UserContract;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Schemas\Schema;
 use Filament\Notifications\Notification;
 use Filament\Pages\Concerns\InteractsWithFormActions;
-use Filament\Pages\Page;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Schema as DatabaseSchema;
-use Illuminate\Validation\Rules\Password as PasswordRule;
 use Modules\User\Datas\PasswordData;
 use Modules\User\Events\NewPasswordSet;
 use Modules\User\Http\Response\PasswordResetResponse;
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationPageLabelTrait;
 use Webmozart\Assert\Assert;
 
@@ -32,30 +27,24 @@ use Webmozart\Assert\Assert;
  * @property \Filament\Schemas\Schema $editProfileForm
  * @property \Filament\Schemas\Schema $editPasswordForm
  */
-class PasswordExpired extends Page implements HasForms
+class PasswordExpired extends XotBasePage
 {
     use InteractsWithFormActions;
     use NavigationPageLabelTrait;
 
-    public null|string $current_password = '';
-
-    public null|string $password = '';
-
-    public null|string $passwordConfirmation = '';
-
-    /**
-     * @var view-string
-     */
     protected string $view = 'user::filament.auth.pages.password-expired';
 
     protected static bool $shouldRegisterNavigation = false;
 
+    /**
+     * @return array<int, TextInput>
+     */
     public function getFormSchema(): array
     {
-        return [
+        return array_values(array_merge(
             $this->getCurrentPasswordFormComponent(),
-            ...PasswordData::make()->getPasswordFormComponents('password'),
-        ];
+            PasswordData::make()->getPasswordFormComponents('password'),
+        ));
     }
 
     public function getResetPasswordFormAction(): Action
@@ -68,19 +57,19 @@ class PasswordExpired extends Page implements HasForms
         return false;
     }
 
-    public function resetPassword(): null|PasswordResetResponse
+    public function resetPassword(): ?PasswordResetResponse
     {
         $pwd = PasswordData::make();
         $data = $this->form->getState();
-        Assert::string($current_password = Arr::get($data, 'current_password'));
+        Assert::string($currentPassword = Arr::get($data, 'current_password'));
         Assert::string($password = Arr::get($data, 'password'));
         $user = Auth::user();
-        if ($user === null) {
+        if (null === $user) {
             return null;
         }
 
         // check if current password is correct
-        if ($user->password === null || !Hash::check($current_password, $user->password)) {
+        if (null === $user->password || ! Hash::check($currentPassword, $user->password)) {
             Notification::make()
                 ->title(__('user::otp.notifications.wrong_password.title'))
                 ->body(__('user::otp.notifications.wrong_password.body'))
@@ -91,7 +80,7 @@ class PasswordExpired extends Page implements HasForms
         }
 
         // check if new password is different from the current password
-        if ($user->password !== null && Hash::check($password, $user->password)) {
+        if (Hash::check($password, $user->password)) {
             Notification::make()
                 ->title(__('user::otp.notifications.same_password.title'))
                 ->body(__('user::otp.notifications.same_password.body'))
@@ -102,7 +91,7 @@ class PasswordExpired extends Page implements HasForms
         }
 
         // check if both required columns exist in the database
-        if (!DatabaseSchema::hasColumn('users', 'password_expires_at')) {
+        if (! DatabaseSchema::hasColumn('users', 'password_expires_at')) {
             Notification::make()
                 ->title(__('user::otp.notifications.column_not_found.title'))
                 ->body(__('user::otp.notifications.column_not_found.body', [
@@ -120,8 +109,8 @@ class PasswordExpired extends Page implements HasForms
         $passwordExpiryDateTime = now()->addDays($pwd->expires_in);
 
         // Verificare che l'utente esistante e che sia un modello Eloquent
-        if (!($user instanceof Model)) {
-            throw new InvalidArgumentException('L\'utente deve essere un modello Eloquent con il metodo update');
+        if (! ($user instanceof Model)) {
+            throw new \InvalidArgumentException('L\'utente deve essere un modello Eloquent con il metodo update');
         }
 
         // set password expiry date and time
@@ -132,8 +121,8 @@ class PasswordExpired extends Page implements HasForms
         ]);
 
         // Verificare che l'utente implementi l'interfaccia UserContract prima di passarlo all'evento
-        if (!($user instanceof UserContract)) {
-            throw new InvalidArgumentException('L\'utente deve implementare l\'interfaccia UserContract');
+        if (! ($user instanceof UserContract)) {
+            throw new \InvalidArgumentException('L\'utente deve implementare l\'interfaccia UserContract');
         }
 
         event(new NewPasswordSet($user));
@@ -146,13 +135,18 @@ class PasswordExpired extends Page implements HasForms
         return new PasswordResetResponse();
     }
 
-    protected function getCurrentPasswordFormComponent(): Component
+    /**
+     * @return array<int, TextInput>
+     */
+    protected function getCurrentPasswordFormComponent(): array
     {
-        return TextInput::make('current_password')
-            ->password()
-            ->revealable()
-            ->required()
-            ->validationAttribute(static::trans('fields.current_password.validation_attribute'));
+        return [
+            TextInput::make('current_password')
+                ->password()
+                ->revealable()
+                ->required()
+                ->validationAttribute(static::trans('fields.current_password.validation_attribute')),
+        ];
     }
 
     /**

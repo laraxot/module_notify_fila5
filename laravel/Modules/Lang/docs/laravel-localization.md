@@ -32,6 +32,8 @@ Dopo aver analizzato il progetto, ho notato che la localizzazione degli URL è g
 ## Conclusione
 
 L'implementazione di `mcamara/laravel-localization` nel progetto `<nome progetto>` migliorerebbe la gestione della localizzazione, rendendo l'applicazione più accessibile e user-friendly per utenti di diverse lingue. Le modifiche suggerite non richiedono cambiamenti significativi al codice esistente, ma offrono un notevole miglioramento in termini di funzionalità e esperienza utente.
+<<<<<<< HEAD
+=======
 # Laravel Localization
 
 ## Introduzione
@@ -66,3 +68,4 @@ Dopo aver analizzato il progetto, ho notato che la localizzazione degli URL è g
 ## Conclusione
 
 L'implementazione di `mcamara/laravel-localization` nel progetto `<nome progetto>` migliorerebbe la gestione della localizzazione, rendendo l'applicazione più accessibile e user-friendly per utenti di diverse lingue. Le modifiche suggerite non richiedono cambiamenti significativi al codice esistente, ma offrono un notevole miglioramento in termini di funzionalità e esperienza utente.
+>>>>>>> laraxot/develop

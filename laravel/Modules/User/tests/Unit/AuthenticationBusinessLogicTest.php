@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Modules\User\Tests\Unit;
 
 use Carbon\Carbon;
-use Tests\TestCase;
+use Modules\User\Tests\TestCase;
 
 uses(TestCase::class);
 
@@ -17,7 +17,7 @@ describe('Authentication Business Logic', function () {
             'name' => 'Mario Rossi',
             'email' => 'mario.rossi@example.com',
             'email_verified_at' => Carbon::now()->subDays(5),
-            'password' => '$2y$10$encrypted_password_hash',
+            'password' => '$2y$10$abcdefghijklmnopqrstuvwxyz1234567890ABcdefghijKlmnopqrstu',
             'remember_token' => 'remember_token_123',
             'current_team_id' => 2001,
             'profile_photo_path' => 'avatars/mario-rossi.jpg',
@@ -142,14 +142,18 @@ describe('Authentication Business Logic', function () {
 
             // Optional profile fields
             $profileScore = 0;
-            if (!empty($user->name))
+            if (! empty($user->name)) {
                 $profileScore += 25;
-            if (!empty($user->email))
+            }
+            if (! empty($user->email)) {
                 $profileScore += 25;
-            if ($user->email_verified_at)
+            }
+            if ($user->email_verified_at) {
                 $profileScore += 25;
-            if (!empty($user->profile_photo_path))
+            }
+            if (! empty($user->profile_photo_path)) {
                 $profileScore += 25;
+            }
 
             expect($profileScore)->toBeGreaterThanOrEqual(75); // Good profile
         });
@@ -264,7 +268,7 @@ describe('Authentication Business Logic', function () {
             ];
 
             // Business Logic: Higher level roles have more permissions
-            usort($roles, fn($a, $b) => $a->level <=> $b->level);
+            usort($roles, fn ($a, $b) => $a->level <=> $b->level);
 
             expect($roles[0]->name)->toBe('admin'); // Highest level
             expect($roles[0]->permissions)->toContain('*'); // All permissions
@@ -366,7 +370,7 @@ describe('Authentication Business Logic', function () {
             $device = (object) $this->deviceData;
 
             // Business Logic: Mobile devices should have push tokens
-            if ($device->device_type === 'mobile') {
+            if ('mobile' === $device->device_type) {
                 expect($device->push_token)->toBeString();
                 expect(strlen($device->push_token))->toBeGreaterThan(20);
             }

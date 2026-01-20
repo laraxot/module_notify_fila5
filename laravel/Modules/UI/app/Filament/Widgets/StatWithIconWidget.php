@@ -4,20 +4,24 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
-use Closure;
-use Filament\Widgets\Widget as BaseWidget;
 use Illuminate\Contracts\Support\Htmlable;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
-class StatWithIconWidget extends BaseWidget
+final class StatWithIconWidget extends XotBaseWidget
 {
-    protected string $view = 'ui::filament.widgets.stat-with-icon';
+    protected ?string $heading = 'Stat With Icon';
 
     protected string|Htmlable $label;
 
     /**
-     * @var scalar|Htmlable|Closure
+     * @var scalar|Htmlable|\Closure
      */
     protected $value;
+
+    public function getFormSchema(): array
+    {
+        return [];
+    }
 
     protected function getData(): array
     {

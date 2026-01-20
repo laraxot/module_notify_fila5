@@ -50,10 +50,17 @@ graph TD
 ## Implementazione Attuale
 
 Il file principale del provider si trova in:
+<<<<<<< HEAD
+`/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Lang/app/Providers/LangServiceProvider.php`
+
+L'azione principale che gestisce l'etichettatura automatica è:
+`/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Lang/app/Actions/Filament/AutoLabelAction.php`
+=======
 `Modules/Lang/app/Providers/LangServiceProvider.php`
 
 L'azione principale che gestisce l'etichettatura automatica è:
 `Modules/Lang/app/Actions/Filament/AutoLabelAction.php`
+>>>>>>> laraxot/develop
 
 ### Esempio di Utilizzo Corretto
 
@@ -82,10 +89,17 @@ Attualmente il sistema supporta `Field`, `BaseFilter`, `Column`, `Step`, `Action
 protected function translatableComponents(): void
 {
     $components = [
+<<<<<<< HEAD
+        Field::class, 
+        BaseFilter::class, 
+        Placeholder::class, 
+        Column::class, 
+=======
         Field::class,
         BaseFilter::class,
         Placeholder::class,
         Column::class,
+>>>>>>> laraxot/develop
         Entry::class,
         // Nuovi componenti da supportare
         Section::class,                // Sezioni form
@@ -111,22 +125,38 @@ use Illuminate\Support\Facades\Cache;
 class AutoLabelAction
 {
     // Resto del codice invariato
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> laraxot/develop
     protected function getTranslation(string $key, string $default): string
     {
         // Chiave cache con namespacing appropriato
         $cacheKey = 'lang_service_provider:' . $key;
+<<<<<<< HEAD
+        
+        // Cache per 24 ore, oppure fino al prossimo deploy
+        return Cache::remember($cacheKey, now()->addHours(24), function () use ($key, $default) {
+            $translation = trans($key);
+            
+=======
 
         // Cache per 24 ore, oppure fino al prossimo deploy
         return Cache::remember($cacheKey, now()->addHours(24), function () use ($key, $default) {
             $translation = trans($key);
 
+>>>>>>> laraxot/develop
             // Se la traduzione non esiste, la salviamo e restituiamo il default
             if ($translation === $key) {
                 app(SaveTransAction::class)->execute($key, $default);
                 return $default;
             }
+<<<<<<< HEAD
+            
+=======
 
+>>>>>>> laraxot/develop
             return $translation;
         });
     }
@@ -146,20 +176,32 @@ protected function translateEnumOptions(Forms\Components\Select $component, stri
     $backtrace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 10);
     $modClass = $this->findModuleClass($backtrace);
     $baseKey = app(GetTransKeyAction::class)->execute($modClass);
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> laraxot/develop
     // Se è un enum PHP 8.1+
     if (enum_exists($enumClass)) {
         $options = [];
         foreach ($enumClass::cases() as $case) {
             $transKey = "{$baseKey}.enums." . class_basename($enumClass) . "." . $case->name;
             $options[$case->value] = trans($transKey, [], $case->name);
+<<<<<<< HEAD
+            
+=======
 
+>>>>>>> laraxot/develop
             // Salva la traduzione se non esiste
             if (trans($transKey) === $transKey) {
                 app(SaveTransAction::class)->execute($transKey, $case->name);
             }
         }
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         $component->options($options);
     }
 }
@@ -175,15 +217,30 @@ Sviluppare un pannello di amministrazione per gestire le traduzioni mancanti o e
 class TranslationResource extends XotBaseResource
 {
     protected static ?string $model = Translation::class;
+<<<<<<< HEAD
+    
+    protected static ?string $navigationIcon = 'heroicon-o-language';
+    
+=======
 
     protected static ?string $navigationIcon = 'heroicon-o-language';
 
+>>>>>>> laraxot/develop
     public static function getFormSchema(): array
     {
         return [
             'key' => TextInput::make('key')
                 ->disabled()
                 ->columnSpan(2),
+<<<<<<< HEAD
+                
+            'it' => TextInput::make('it')
+                ->label('Italiano'),
+                
+            'en' => TextInput::make('en')
+                ->label('English'),
+                
+=======
 
             'it' => TextInput::make('it')
                 ->label('Italiano'),
@@ -454,6 +511,7 @@ class TranslationResource extends XotBaseResource
             'en' => TextInput::make('en')
                 ->label('English'),
 
+>>>>>>> laraxot/develop
             'status' => Select::make('status')
                 ->options([
                     'auto' => 'Generata automaticamente',

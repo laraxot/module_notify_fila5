@@ -11,7 +11,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 return new class extends XotBaseMigration {
     /**
-     * Run the migrations.
+     * Esegue la migrazione.
      */
     public function up(): void
     {
@@ -38,12 +38,15 @@ return new class extends XotBaseMigration {
                 $table->boolean('personal_team')->default(false)->change();
             }
 
-            if (!$this->hasColumn('code')) {
+            if (! $this->hasColumn('code')) {
                 $table->string('code', 36)->nullable()->index();
             }
-            $this->updateTimestamps($table, true);
 
-            // $this->updateUser($table);
+            if (! $this->hasColumn('owner_id')) {
+                $table->uuid('owner_id')->nullable()->after('id');
+            }
+
+            $this->updateTimestamps($table, true);
         });
     }
 };

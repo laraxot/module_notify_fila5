@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\User\Http\Middleware;
 
-use Closure;
-use Filament\Facades\Filament;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -13,7 +11,10 @@ use Illuminate\Support\Facades\Auth;
 
 class PasswordExpiryMiddleware
 {
-    public function handle(Request $request, Closure $next): Response|RedirectResponse
+    /**
+     * @param \Closure(Request):((Response|RedirectResponse)) $next
+     */
+    public function handle(Request $request, \Closure $next): Response|RedirectResponse
     {
         if ($request->routeIs('password.change') || $request->routeIs('password.update')) {
             return $next($request);
@@ -50,7 +51,7 @@ class PasswordExpiryMiddleware
     protected function passwordHasExpired(): bool
     {
         $user = Auth::user();
-        if (!$user) {
+        if (! $user) {
             return false;
         }
 

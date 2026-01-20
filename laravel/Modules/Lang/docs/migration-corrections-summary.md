@@ -52,11 +52,19 @@ protected ?string $model_class = Translation::class;
 ```php
 /**
  * Migrazione per la creazione della tabella language_lines.
+<<<<<<< HEAD
+ * 
+ * Questa tabella gestisce le traduzioni del sistema multilanguage,
+ * memorizzando le chiavi di traduzione e i testi in formato JSON
+ * per supportare multiple lingue.
+ * 
+=======
  *
  * Questa tabella gestisce le traduzioni del sistema multilanguage,
  * memorizzando le chiavi di traduzione e i testi in formato JSON
  * per supportare multiple lingue.
  *
+>>>>>>> laraxot/develop
  * @see docs/migration_standards.md
  */
 ```
@@ -70,6 +78,21 @@ $this->tableUpdate(
         if (! $this->hasColumn('group')) {
             $table->string('group')->index()->comment('Translation group (e.g., validation, auth)');
         }
+<<<<<<< HEAD
+        
+        if (! $this->hasColumn('key')) {
+            $table->string('key')->comment('Translation key');
+        }
+        
+        if (! $this->hasColumn('text')) {
+            $table->json('text')->comment('Translation text in JSON format');
+        }
+        
+        if (! $this->hasColumn('locale')) {
+            $table->string('locale')->index()->comment('Language locale (e.g., en, it, de)');
+        }
+        
+=======
 
         if (! $this->hasColumn('key')) {
             $table->string('key')->comment('Translation key');
@@ -83,11 +106,16 @@ $this->tableUpdate(
             $table->string('locale')->index()->comment('Language locale (e.g., en, it, de)');
         }
 
+>>>>>>> laraxot/develop
         // Verifica se l'indice unique esiste
         if (! $this->hasIndex('language_lines_unique')) {
             $table->unique(['group', 'key', 'locale'], 'language_lines_unique');
         }
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> laraxot/develop
         $this->updateTimestamps($table, true);
     }
 );
@@ -154,6 +182,9 @@ La migrazione ora segue completamente gli standard del progetto:
 4. **Documentare completamente** lo scopo e la struttura
 5. **Seguire gli standard del progetto** per coerenza
 
+<<<<<<< HEAD
+La migrazione è ora corretta e pronta per l'uso! 🚀 
+=======
 La migrazione è ora corretta e pronta per l'uso! 🚀
 # Correzioni Migrazione - Modulo Lang
 
@@ -310,3 +341,4 @@ La migrazione ora segue completamente gli standard del progetto:
 3. **Implementare verifiche di esistenza** per evitare errori
 4. **Documentare completamente** lo scopo e la struttura
 5. **Seguire gli standard del progetto** per coerenza
+>>>>>>> laraxot/develop

@@ -11,7 +11,7 @@ namespace Modules\UI\Http\Livewire;
 use Illuminate\Contracts\View\View;
 use Livewire\Component;
 
-class Toast extends Component
+final class Toast extends Component
 {
     public function render(): View
     {

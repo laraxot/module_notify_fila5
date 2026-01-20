@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'actions' => [
         'view' => [
@@ -12,4 +11,8 @@ return [
             'label' => 'delete',
         ],
     ],
+    'navigation' => [],
+    'label' => '',
+    'plural_label' => '',
+    'fields' => [],
 ];

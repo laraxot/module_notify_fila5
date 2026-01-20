@@ -12,9 +12,10 @@ class UserData extends Data
         public int $id,
         public string $name,
         public string $email,
-        public null|string $avatar,
-        public null|string $role,
+        public ?string $avatar,
+        public ?string $role,
         public array $permissions,
         public array $settings,
-    ) {}
+    ) {
+    }
 }

@@ -32,6 +32,20 @@ class Change extends Component
         $langs = LaravelLocalization::getSupportedLocales();
         unset($langs[$this->lang]);
         $this->url = Request::getRequestUri();
+<<<<<<< HEAD
+        $langs = Arr::map($langs, function (array $item, string $key) {
+            // @phpstan-ignore staticMethod.notFound
+            $url = LaravelLocalization::getLocalizedURL($key, $this->url, [], true);
+            if (false !== $url) {
+                // Verifichiamo che $url sia una stringa o lo convertiamo in modo sicuro
+                if (! is_string($url)) {
+                    // Se non è una stringa, utilizziamo una URL di fallback
+                    $url = '/'.$key;
+                } else {
+                    $url = Str::of($url)->replace(url(''), '')->toString();
+                }
+            }
+=======
         $langs = Arr::map($langs, function (array $item, string $key): array {
             // Recupera la URL localizzata corrente
             $url = LaravelLocalization::getLocalizedURL($key, $this->url, [], true);
@@ -46,6 +60,7 @@ class Change extends Component
                     ->toString();
             }
 
+>>>>>>> laraxot/develop
             $item['url'] = $url;
 
             return $item;

@@ -108,16 +108,33 @@ Se usi Folio, assicurati che anche le pagine Volt siano registrate nel gruppo lo
 ---
 
 ## 5. FAQ e problemi comuni
+<<<<<<< HEAD
+- **Perché il componente Volt non si localizza?**  
+  Verifica che la rotta sia dentro il gruppo localizzato e che il middleware sia applicato.
+- **Come traduco i path delle rotte Volt?**  
+  Usa il mapping delle rotte in `lang/{locale}/routes.php` e registra le rotte Volt con le chiavi tradotte.
+- **Come gestisco la lingua nei redirect?**  
+=======
 - **Perché il componente Volt non si localizza?**
   Verifica che la rotta sia dentro il gruppo localizzato e che il middleware sia applicato.
 - **Come traduco i path delle rotte Volt?**
   Usa il mapping delle rotte in `lang/{locale}/routes.php` e registra le rotte Volt con le chiavi tradotte.
 - **Come gestisco la lingua nei redirect?**
+>>>>>>> laraxot/develop
   Usa sempre `LaravelLocalization::getCurrentLocale()` nei redirect e nei link.
 
 ---
 
 ## 6. Modifiche consigliate ai file del progetto
+<<<<<<< HEAD
+- **web.php**:  
+  Sposta tutte le rotte Volt dentro il gruppo localizzato.
+- **lang/{locale}/routes.php**:  
+  Aggiungi mapping per i path delle rotte Volt se vuoi path tradotti.
+- **Componenti Volt**:  
+  Verifica che tutti i testi siano tradotti e che i redirect usino le rotte localizzate.
+- **Documentazione**:  
+=======
 - **web.php**:
   Sposta tutte le rotte Volt dentro il gruppo localizzato.
 - **lang/{locale}/routes.php**:
@@ -125,12 +142,16 @@ Se usi Folio, assicurati che anche le pagine Volt siano registrate nel gruppo lo
 - **Componenti Volt**:
   Verifica che tutti i testi siano tradotti e che i redirect usino le rotte localizzate.
 - **Documentazione**:
+>>>>>>> laraxot/develop
   Aggiorna sempre `/Modules/Lang/project_docs/laravel-localization-livewire-volt.md` ogni volta che cambi la struttura delle rotte o dei componenti Volt.
 
 ---
 
 ## 7. Best Practices operative (.mdc)
 
+<<<<<<< HEAD
+Vedi file `.cursor/rules/laravel-localization-livewire-volt.mdc` e `.windsurf/rules/laravel-localization-livewire-volt.mdc` per checklist e regole operative. 
+=======
 Vedi file `.cursor/rules/laravel-localization-livewire-volt.mdc` e `.windsurf/rules/laravel-localization-livewire-volt.mdc` per checklist e regole operative.
 # Integrazione di mcamara/laravel-localization con Livewire Volt
 
@@ -266,3 +287,4 @@ Se usi Folio, assicurati che anche le pagine Volt siano registrate nel gruppo lo
 ## 7. Best Practices operative (.mdc)
 
 Vedi file `.cursor/rules/laravel-localization-livewire-volt.mdc` e `.windsurf/rules/laravel-localization-livewire-volt.mdc` per checklist e regole operative.
+>>>>>>> laraxot/develop
