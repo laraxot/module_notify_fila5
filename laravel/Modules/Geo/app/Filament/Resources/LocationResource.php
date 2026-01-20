@@ -33,22 +33,12 @@ class LocationResource extends XotBaseResource
     protected static ?int $navigationSort = 2;
 
     /**
-     * @return array<string, \Filament\Support\Components\Component>
+     * @return array<int, \Filament\Forms\Components\Component>
      */
     #[\Override]
     public static function getFormSchema(): array
     {
         return [
-<<<<<<< HEAD
-            'name' => TextInput::make('name')->required()->maxLength(255),
-            'latitude' => TextInput::make('latitude')->required()->numeric(),
-            'longitude' => TextInput::make('longitude')->required()->numeric(),
-            'street' => TextInput::make('street')->maxLength(255),
-            'city' => TextInput::make('city')->maxLength(255),
-            'state' => TextInput::make('state')->maxLength(255),
-            'zip' => TextInput::make('zip')->maxLength(255),
-            'formatted_address' => TextInput::make('formatted_address')->maxLength(1024),
-=======
             TextInput::make('name')->required()->maxLength(255),
             TextInput::make('latitude')->required()->numeric(),
             TextInput::make('longitude')->required()->numeric(),
@@ -57,7 +47,6 @@ class LocationResource extends XotBaseResource
             TextInput::make('state')->maxLength(255),
             TextInput::make('zip')->maxLength(255),
             TextInput::make('formatted_address')->maxLength(1024),
->>>>>>> 535c490 (.)
             // Temporaneamente commentato per compatibilità Filament 4.x
             // Map::make('location')
             //     ->reactive()
