@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
-use Exception;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\Textarea;
 use Filament\Tables\Columns\SelectColumn;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -19,31 +16,104 @@ class SelectStateColumn extends SelectColumn
     {
         parent::setUp();
         //  $this->selectablePlaceholder(false);
-        $this->options(function (Model&HasStatesContract $record, $state): array {
+        $this->options(function (Model&HasStatesContract $record, mixed $state): array {
             $name = $this->getName();
-            if ($state === null) {
-                $states = Arr::wrap($record->getDefaultStateFor($name));
-                return array_combine($states, $states);
+            if (null === $state) {
+                // Record implements HasStatesContract which provides getDefaultStateFor()
+                $defaultStates = $record->getDefaultStateFor($name);
+                $states = Arr::wrap($defaultStates);
+                /** @var array<int|string, mixed> $states */
+                $states = is_array($states) ? $states : [];
+                $statesValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($states));
+                $statesKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($states));
+                $combined = array_combine($statesKeys, $statesValues);
+
+                /* @var array<int|string, int|string> $result */
+                return $combined ? $combined : [];
             }
+
+            $states = [];
             try {
-                //$states=$record->getAttribute($name)->transitionableStates();
-                $states = $state->transitionableStates();
-            } catch (Exception $e) {
-                $states = $record->getStatesFor($name)->toArray();
-
-
+                if (is_object($state) && method_exists($state, 'transitionableStates')) {
+                    $transitionableStates = $state->transitionableStates();
+                    if (is_iterable($transitionableStates)) {
+                        $states = is_array($transitionableStates) ? $transitionableStates : iterator_to_array($transitionableStates);
+                    }
+                }
+            } catch (\Exception $e) {
+                // Record implements HasStatesContract which provides getStatesFor()
+                $fetchedStates = $record->getStatesFor($name);
+                $statesArray = $fetchedStates->toArray();
+                $states = $statesArray;
             }
-            $states = [$state::$name, ...$states];
-            $states = array_combine($states, $states);
-            //dddx(['state'=>$state, 'state1'=>$record->getAttribute($name),'record'=>$record]);
 
-            return $states;
+            /** @var array<int|string, mixed> $states */
+            if (is_object($state)) {
+                $stateClass = $state::class;
+                if (class_exists($stateClass)) {
+                    $stateNameProperty = null;
+                    // ✅ Usa Reflection invece di property_exists per maggiore affidabilità
+                    try {
+                        $reflection = new \ReflectionClass($stateClass);
+                        if ($reflection->hasProperty('name')) {
+                            $nameProperty = $reflection->getStaticPropertyValue('name');
+                            $stateNameProperty = is_string($nameProperty) ? $nameProperty : null;
+                        }
+                    } catch (\ReflectionException) {
+                        // Property non esiste, $stateNameProperty rimane null
+                    }
+                    if (null !== $stateNameProperty) {
+                        $statesValues = array_values($states);
+                        /** @var list<int|string> $statesValuesTyped */
+                        $statesValuesTyped = $statesValues;
+                        $states = [$stateNameProperty, ...$statesValuesTyped];
+                    }
+                }
+            }
+
+            /** @var array<int|string, mixed> $states */
+            $statesFiltered = array_filter($states, function (mixed $item): bool {
+                return is_string($item) || is_int($item);
+            });
+
+            /** @var array<int|string> $statesKeys */
+            $statesKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($statesFiltered));
+            /** @var array<int|string> $statesValues */
+            $statesValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($statesFiltered));
+            $combined = array_combine($statesKeys, $statesValues);
+            /** @var array<int|string, int|string> $combinedTyped */
+            $combinedTyped = $combined ? $combined : [];
+
+            /** @var array<int|string> $statesKeys */
+            $statesKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($statesFiltered));
+            /** @var array<int|string> $statesValues */
+            $statesValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($statesFiltered));
+            $combined = array_combine($statesKeys, $statesValues);
+
+            /* @var array<int|string, int|string> $combinedTyped */
+            return $combined ? $combined : [];
         });
 
-        $this->beforeStateUpdated(function (Model&HasStatesContract $record, $state) {
+        $this->beforeStateUpdated(function (Model&HasStatesContract $record, mixed $stateRaw): void {
+            // Type narrowing per $state: deve essere State|string
+            if (! is_string($stateRaw) && ! ($stateRaw instanceof State)) {
+                return;
+            }
+
+            $state = is_string($stateRaw) ? $stateRaw : $stateRaw;
             $message = '';
-            /** @phpstan-ignore property.notFound */
-            $record->state->transitionTo($state, $message);
+
+            if (! isset($record->state) || ! is_object($record->state)) {
+                return;
+            }
+
+            if (! ($record->state instanceof State)) {
+                return;
+            }
+
+            /** @var State $stateObj */
+            $stateObj = $record->state;
+            $stateObj->transitionTo($state, $message);
         });
     }
 }

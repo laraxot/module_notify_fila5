@@ -9,40 +9,29 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Pages;
 
-use Filament\Schemas\Schema;
-use Filament\Schemas\Components\Section;
-use Filament\Forms\Components\TextInput;
-use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
-use Filament\Forms;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
+use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
-use Filament\Pages\Auth\EditProfile;
-use Filament\Pages\Page;
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Schema;
 use Filament\Support\Exceptions\Halt;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\Rules\Password;
 use Modules\User\Datas\PasswordData;
+use Modules\Xot\Filament\Pages\XotBasePage;
 
 /**
- * @property \Filament\Schemas\Schema $form
- * @property \Filament\Schemas\Schema $editProfileForm
- * @property \Filament\Schemas\Schema $editPasswordForm
+ * @property Schema $form
+ * @property Schema $editProfileForm
+ * @property Schema $editPasswordForm
  */
-class MyProfilePage extends Page implements HasForms
+class MyProfilePage extends XotBasePage
 {
-    // class MyProfilePage extends EditProfile
-    use InteractsWithForms;
+    public ?array $profileData = [];
 
-    public null|array $profileData = [];
-
-    public null|array $passwordData = [];
-
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+    public ?array $passwordData = [];
 
     protected string $view = 'user::filament.pages.my-profile';
 
@@ -52,11 +41,6 @@ class MyProfilePage extends Page implements HasForms
     // {
     //     return filament('filament-breezy')->slug();
     // }
-
-    public static function getNavigationLabel(): string
-    {
-        return __('user::profile.profile');
-    }
 
     public function mount(): void
     {
@@ -96,7 +80,7 @@ class MyProfilePage extends Page implements HasForms
                             ->currentPassword(),
                         PasswordData::make()
                             ->getPasswordFormComponent('new_password')
-                            ->dehydrateStateUsing(fn (string $value): string => Hash::make($value))
+                            ->dehydrateStateUsing(fn (string $state): string => Hash::make($state))
                             ->live(debounce: 500),
                         // ->same('passwordConfirmation')
                         /*
@@ -124,10 +108,8 @@ class MyProfilePage extends Page implements HasForms
     {
         $user = Filament::auth()->user();
 
-        if (!($user instanceof Model)) {
-            throw new Exception(
-                'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
-            );
+        if (! ($user instanceof Model)) {
+            throw new \Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
         }
 
         return $user;
@@ -143,7 +125,7 @@ class MyProfilePage extends Page implements HasForms
         return __('user::profile.my_profile');
     }
 
-    public function getSubheading(): null|string
+    public function getSubheading(): ?string
     {
         return __('user::profile.subheading') ?? null;
     }
@@ -192,6 +174,15 @@ class MyProfilePage extends Page implements HasForms
         try {
             $data = $this->editPasswordForm->getState();
 
+            if (isset($data['new_password'])) {
+                $data['password'] = $data['new_password'];
+                unset($data['new_password']);
+            }
+
+            if (isset($data['passwordConfirmation'])) {
+                unset($data['passwordConfirmation']);
+            }
+
             $this->handleRecordUpdate($this->getUser(), $data);
         } catch (Halt $exception) {
             return;
@@ -201,7 +192,7 @@ class MyProfilePage extends Page implements HasForms
             request()
                 ->session()
                 ->put([
-                    'password_hash_' . Filament::getAuthGuard() => $data['password'],
+                    'password_hash_'.Filament::getAuthGuard() => $data['password'],
                 ]);
         }
 
@@ -263,6 +254,9 @@ class MyProfilePage extends Page implements HasForms
 
     // ...
 
+    /**
+     * @param array<string, mixed> $data
+     */
     protected function handleRecordUpdate(Model $record, array $data): Model
     {
         $record->update($data);

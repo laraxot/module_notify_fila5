@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'background_color' => [
@@ -35,4 +34,17 @@ return [
             'label' => 'updateAction',
         ],
     ],
+    'navigation' => [
+        'name' => 'Allineamento',
+        'plural' => 'Allineamenti',
+        'group' => [
+            'name' => 'Aspetto',
+            'description' => 'Personalizzazione dell\'aspetto del sistema',
+        ],
+        'label' => 'Allineamento',
+        'sort' => 16,
+        'icon' => 'heroicon-o-adjustments-horizontal',
+    ],
+    'label' => '',
+    'plural_label' => '',
 ];

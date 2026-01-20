@@ -1,8 +1,11 @@
 # Convenzioni per i Link nella Documentazione
 
+<<<<<<< HEAD
+=======
 ## Collegamenti correlati
 - [Composer merge plugin](composer-merge-plugin.md)
 
+>>>>>>> laraxot/develop
 ## Regole Fondamentali per i Link Markdown
 
 ### 1. Utilizzare Sempre Percorsi Relativi
@@ -17,8 +20,13 @@ I collegamenti nei file di documentazione devono **sempre** utilizzare percorsi 
 
 ❌ **ERRATO**:
 ```markdown
+<<<<<<< HEAD
+[Regole Generali](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/translations.md)
+[Best Practices](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Lang/project_docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
 [Regole Generali](Modules/Xot/project_docs/translations.md)
 [Best Practices](Modules/Lang/project_docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+>>>>>>> laraxot/develop
 ```
 
 ### 2. Navigazione Tra Cartelle
@@ -90,6 +98,9 @@ Prima di fare commit dei documenti:
 1. **Portabilità**: La documentazione funziona in qualsiasi ambiente
 2. **Manutenibilità**: Se la struttura cambia, sono necessarie meno modifiche
 3. **Collaborazione**: Facilita il lavoro di più sviluppatori
+<<<<<<< HEAD
+4. **Coerenza**: Rispetta gli standard del progetto 
+=======
 4. **Coerenza**: Rispetta gli standard del progetto
 # Convenzioni per i Link nella Documentazione
 
@@ -181,3 +192,4 @@ Prima di fare commit dei documenti:
 2. **Manutenibilità**: Se la struttura cambia, sono necessarie meno modifiche
 3. **Collaborazione**: Facilita il lavoro di più sviluppatori
 4. **Coerenza**: Rispetta gli standard del progetto <nome progetto>
+>>>>>>> laraxot/develop

@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+uses(Modules\UI\Tests\TestCase::class);
+
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\View;
 use Modules\UI\Models\Asset;
@@ -512,7 +514,7 @@ describe('UI Business Logic Integration', function () {
             expect($component->cache_duration)->toBeLessThan(86400); // 24 ore
 
             // Verifica che le strategie aggressive abbiano durate più lunghe
-            if ($component->cache_strategy === 'aggressive') {
+            if ('aggressive' === $component->cache_strategy) {
                 expect($component->cache_duration)->toBeGreaterThan(3600); // 1 ora
             }
         });

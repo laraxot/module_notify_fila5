@@ -163,7 +163,7 @@ MenuItem::make()
 class StatsWidget extends Widget
 {
     protected static string $view = 'ui::widgets.stats';
-    
+
     public function getViewData(): array
     {
         return [
@@ -336,3 +336,11 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 - **🔧 Registrazione Automatica**: Icone registrate automaticamente
 - **📚 Documentazione**: Documentazione completa del sistema
 - **🎯 Integrazione Filament**: Compatibilità completa con Filament 4.x
+
+## ♻️ Manutenzione 2025-11
+
+- Refactor `Modules\UI\app\Actions\Icon\GetAllIconsAction` per garantire array `array<string, array<string, mixed>>` in tutta la catena.
+- Validazione sicura dei percorsi: uso di `Symfony\Component\Finder\SplFileInfo` prima di costruire i nomi delle icone.
+- Prefisso garantito stringa: cast esplicito e fallback `''` per i set personalizzati.
+- Verifiche qualità: PHPStan L10 ✅, PHPMD ✅, PHPInsights ✅ (nota: soglia complessità legacy ancora 20).
+- Documentare nuove icone o prefissi aggiuntivi in questa sezione prima del rilascio.

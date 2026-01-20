@@ -4,18 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Tenant\Providers;
 
-use Override;
-use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\DB;
-use Nwidart\Modules\Facades\Module;
-use Illuminate\Support\Facades\Config;
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Relation;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Request;
+use Illuminate\Support\Facades\Schema;
+use Modules\Tenant\Actions\Config\GetTenantConfigNamesAction;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Providers\XotBaseServiceProvider;
-use Illuminate\Database\Eloquent\Relations\Relation;
-use Modules\Tenant\Providers\Filament\AdminPanelProvider;
+use Nwidart\Modules\Facades\Module;
+use Nwidart\Modules\Laravel\Module as LaravelModule;
+use Override;
 
 class TenantServiceProvider extends XotBaseServiceProvider
 {
@@ -68,76 +69,73 @@ class TenantServiceProvider extends XotBaseServiceProvider
 
     public function registerDB(): void
     {
-        Schema::defaultStringLength(191);
         // Skip database purge/reconnect during testing to preserve test DB mappings
         if ($this->app->environment('testing')) {
-
             return;
         }
+
+        Schema::defaultStringLength(191);
 
         if (Request::has('act') && Request::input('act') === 'migrate') {
             DB::purge('mysql'); // Call to a member function prepare() on null
             DB::reconnect('mysql');
         }
-        $data=TenantService::config('database');
-        
-        
-        
-        $default = Arr::get($data, 'default', 'mysql');
-        $connections = Arr::get($data, 'connections', []);
 
-        
-        
+        $raw = TenantService::config('database');
+
+        /** @var array<string, array|float|int|string|null> $data */
+        $data = is_array($raw) ? $raw : [];
+
+        /** @var array<string, array|float|int|string|null> $connections */
+        $connections = [];
+
+        $defaultRaw = Arr::get($data, 'default', 'mysql');
+        /** @var string $default */
+        $default = is_string($defaultRaw) ? $defaultRaw : 'mysql';
+
+        if (Arr::get($data, 'connections.user', null) === null) {
+            Arr::set($data, 'connections.user', Arr::get($data, 'connections.user_'.$default));
+        }
+
+        /** @var array|float|int|string|null $connectionsRaw */
+        $connectionsRaw = Arr::get($data, 'connections', []);
+        $connections = is_array($connectionsRaw) ? $connectionsRaw : [];
+
         $modules = Module::getOrdered();
         foreach ($modules as $module) {
-            $name = $module->getSnakeName();
-            if (!isset($connections[$name])) {
-                $connections[$name] = $connections[$default];
+            if (! $module instanceof LaravelModule) {
+                continue;
             }
+
+            $name = $module->getSnakeName();
+            // *
+            if (isset($connections[$default]) && ! isset($connections[$name])) {
+                // @var array|float|int|string|null $defaultConnection
+                $defaultConnection = $connections[$default];
+                $connections[$name] = $defaultConnection;
+            }
+            // */
         }
-        $data=Arr::set($data, 'connections', $connections);
+
+        $data = Arr::set($data, 'connections', $connections);
         Config::set('database', $data);
-        
-        
-         
-        // DB::purge(); //Call to a member function prepare() on null
+
+        // Call to a member function prepare() on null
         // Database connection [mysql] not configured.
+        DB::purge('mysql');
         DB::reconnect();
-        
     }
 
     #[Override]
     public function register(): void
     {
         parent::register();
-        $this->app->register(AdminPanelProvider::class);
+        // $this->app->register(AdminPanelProvider::class);
     }
 
     public function mergeConfigs(): void
     {
-        /*
-         * dddx([
-         * 'base_path' => base_path(),
-         * 'path1' => realpath(__DIR__ . '/../../../'),
-         * 'run' => $this->app->runningUnitTests(),
-         * 'run1' => $this->app->runningInConsole(),
-         * ]);
-         */
-        // if ($this->app->runningUnitTests()) {
-        // if (base_path() !== realpath(__DIR__ . '/../../../')) {
-        //     // $this->publishes([
-        //     //    __DIR__ . '/../config/xra.php' => config_path('xra.php'),
-        //     // ], 'config');
-
-        //     $name = TenantService::getName();
-        //     File::makeDirectory(config_path($name), 0755, true, true);
-
-        //     $this->mergeConfigFrom(__DIR__ . '/../config/xra.php', 'xra');
-
-        //     return;
-        // }
-
-        $configs = TenantService::getConfigNames();
+        $configs = app(GetTenantConfigNamesAction::class)->execute();
 
         foreach ($configs as $config) {
             if (! is_array($config) || ! isset($config['name'])) {

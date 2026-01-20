@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'name' => [
@@ -39,6 +38,17 @@ return [
             'help' => 'Informative message',
             'description' => 'Message text',
             'helper_text' => '',
+        ],
+    ],
+    'messages' => [
+        'invalid_state_instance' => 'Invalid state instance',
+        'record_not_found' => 'Record not found',
+        'transition_completed' => [
+            'title' => 'Transition completed',
+            'body' => 'State transition has been completed successfully',
+        ],
+        'transition_error' => [
+            'title' => 'Transition error',
         ],
     ],
 ];

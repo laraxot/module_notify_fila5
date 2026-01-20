@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Widgets\Auth;
 
-use Filament\Schemas\Schema;
-use Override;
-use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Placeholder;
-use Filament\Forms;
+use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
+use Filament\Schemas\Schema;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\HtmlString;
@@ -25,7 +23,8 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
  */
 class PasswordResetWidget extends XotBaseWidget
 {
-    public null|array $data = [];
+    public ?array $data = [];
+
     public bool $emailSent = false;
 
     /**
@@ -36,7 +35,7 @@ class PasswordResetWidget extends XotBaseWidget
     /**
      * Get the form schema for password reset.
      */
-    #[Override]
+    #[\Override]
     public function getFormSchema(): array
     {
         return [
@@ -53,14 +52,12 @@ class PasswordResetWidget extends XotBaseWidget
 
                     if ($error && is_string($error)) {
                         $str =
-                            '<div class="text-red-600 font-medium bg-red-50 p-3 rounded-md border border-red-200">' .
-                            $error .
+                            '<div class="text-red-600 font-medium bg-red-50 p-3 rounded-md border border-red-200">'.
+                            $error.
                             '</div>';
 
                         return new HtmlString($str);
                     }
-
-                    return null;
                 })
                 ->reactive(),
         ];
@@ -92,7 +89,7 @@ class PasswordResetWidget extends XotBaseWidget
             // Clear the form
             $this->form->fill();
         } else {
-            Session::flash('error', trans('user::errors.' . $response . '.label'));
+            Session::flash('error', trans('user::errors.'.$response.'.label'));
             Notification::make()
                 ->title(__('user::auth.password_reset.email_failed.title'))
                 ->body(trans($response))

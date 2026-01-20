@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'fields' => [
         'email' => [
@@ -44,4 +43,7 @@ return [
         'forgot_password' => 'Password dimenticata?',
         'errors_title' => 'Si sono verificati degli errori',
     ],
+    'navigation' => [],
+    'label' => '',
+    'plural_label' => '',
 ];

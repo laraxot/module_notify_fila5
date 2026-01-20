@@ -7,7 +7,7 @@ namespace Modules\Ui\Http\Livewire;
 use Illuminate\Contracts\View\View;
 use Livewire\Component;
 
-class DarkModeSwitcher extends Component
+final class DarkModeSwitcher extends Component
 {
     public bool $darkMode = false;
 
@@ -19,7 +19,7 @@ class DarkModeSwitcher extends Component
 
     public function toggleDarkMode(): void
     {
-        $this->darkMode = !$this->darkMode;
+        $this->darkMode = ! $this->darkMode;
         // Use localStorage for dark mode persistence on the client side
         $this->dispatch('darkModeUpdated', ['darkMode' => $this->darkMode]);
     }

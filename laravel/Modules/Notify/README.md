@@ -3,7 +3,7 @@
 <!-- Dynamic validation badges -->
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
-[![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
+[![PHPStan level 10](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN%20%7C%20DE-green.svg)](https://laravel.com/docs/localization)
 [![Email Templates](https://img.shields.io/badge/Email-Templates%20Ready-blue.svg)](https://spatie.be/docs/laravel-mail-templates)
 [![SMS Ready](https://img.shields.io/badge/SMS-Multi%20Provider-green.svg)](docs/sms.md)
@@ -122,7 +122,7 @@ class EmailTemplate
                 'variables' => ['user_name', 'activation_link'],
             ],
         ];
-        
+
         return $templates[$type] ?? [];
     }
 }
@@ -144,14 +144,14 @@ class RealTimeNotificationService
             'data' => $data['data'] ?? [],
             'channels' => $data['channels'] ?? ['in_app'],
         ]);
-        
+
         // Broadcast via WebSocket
         broadcast(new NotificationSent($notification));
-        
+
         // Invia ai canali configurati
         $this->sendToChannels($notification);
     }
-    
+
     public function sendToChannels(Notification $notification): void
     {
         foreach ($notification->channels as $channel) {
@@ -269,13 +269,13 @@ class ChannelManager
         'voice' => VoiceChannel::class,
         'in_app' => InAppChannel::class,
     ];
-    
+
     public function getChannel(string $type): ChannelInterface
     {
         $channelClass = $this->channels[$type] ?? InAppChannel::class;
         return app($channelClass);
     }
-    
+
     public function sendToAllChannels(Notification $notification): void
     {
         foreach ($notification->channels as $channelType) {
@@ -302,12 +302,12 @@ class NotificationAnalyticsService
             'recent_activity' => $this->getRecentActivity(),
         ];
     }
-    
+
     public function getChannelStats(): array
     {
         $stats = [];
         $channels = ['email', 'sms', 'push', 'slack', 'whatsapp'];
-        
+
         foreach ($channels as $channel) {
             $stats[$channel] = [
                 'sent' => Notification::whereJsonContains('channels', $channel)
@@ -316,7 +316,7 @@ class NotificationAnalyticsService
                     ->where('failed_at', '!=', null)->count(),
             ];
         }
-        
+
         return $stats;
     }
 }
@@ -330,29 +330,29 @@ class TemplateManager
     public function renderTemplate(string $templateName, array $variables): string
     {
         $template = $this->getTemplate($templateName);
-        
+
         // Sostituisci variabili
         $html = $template['html'];
         foreach ($variables as $key => $value) {
             $html = str_replace("{{" . $key . "}}", $value, $html);
         }
-        
+
         return $html;
     }
-    
+
     public function validateTemplate(string $templateName): array
     {
         $template = $this->getTemplate($templateName);
         $errors = [];
-        
+
         // Verifica variabili richieste
         $requiredVariables = $template['variables'] ?? [];
         $missingVariables = $this->findMissingVariables($template['html'], $requiredVariables);
-        
+
         if (!empty($missingVariables)) {
             $errors[] = "Variabili mancanti: " . implode(', ', $missingVariables);
         }
-        
+
         return $errors;
     }
 }

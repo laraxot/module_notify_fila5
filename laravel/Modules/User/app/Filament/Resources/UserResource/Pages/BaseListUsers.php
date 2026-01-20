@@ -4,22 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\UserResource\Pages;
 
-use Filament\Tables\Columns\Column;
-use Filament\Tables\Filters\BaseFilter;
-use Override;
-use Filament\Tables;
 use Filament\Actions\Action;
-use Filament\Tables\Actions\ExportBulkAction;
+use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Filters\Filter;
-use Illuminate\Database\Query\Builder;
+use Filament\Tables\Filters\BaseFilter;
 use Modules\User\Filament\Actions\ChangePasswordAction;
 use Modules\User\Filament\Resources\UserResource;
-use Modules\User\Filament\Resources\UserResource\Widgets\UserOverview;
-use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 abstract class BaseListUsers extends XotBaseListRecords
 {
@@ -30,7 +22,7 @@ abstract class BaseListUsers extends XotBaseListRecords
      *
      * @return array<string, Column>
      */
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
         return [
@@ -40,24 +32,11 @@ abstract class BaseListUsers extends XotBaseListRecords
     }
 
     /**
-     * Get the header actions.
-     *
-     * @return array<string, Action>
-     */
-    #[Override]
-    protected function getHeaderActions(): array
-    {
-        return [
-            'export_xls' => ExportXlsAction::make('export_xls'),
-        ];
-    }
-
-    /**
      * Get table filters for user records.
      *
      * @return array<BaseFilter>
      */
-    #[Override]
+    #[\Override]
     public function getTableFilters(): array
     {
         return [
@@ -74,11 +53,12 @@ abstract class BaseListUsers extends XotBaseListRecords
     /**
      * Get table actions for user records.
      *
-     * @return array<string, \Filament\Tables\Actions\Action|\Filament\Tables\Actions\ActionGroup>
+     * @return array<string, Action|\Filament\Actions\ActionGroup>
+     *
      * @phpstan-ignore-next-line
      */
     /** @phpstan-ignore-next-line */
-    #[Override]
+    #[\Override]
     public function getTableActions(): array
     {
         $actions = [
@@ -87,7 +67,8 @@ abstract class BaseListUsers extends XotBaseListRecords
 
         // Add parent actions - merge arrays
         $parentActions = parent::getTableActions();
-        $actions = array_merge($actions, $parentActions);
+
+        return array_merge($actions, $parentActions);
 
         /*
          * // Add deactivate action
@@ -97,8 +78,20 @@ abstract class BaseListUsers extends XotBaseListRecords
          * ->icon('heroicon-o-trash')
          * ->action(static fn (UserContract $user) => $user->delete());
          */
-        /** @phpstan-ignore-next-line */
-        return $actions;
+        /* @phpstan-ignore-next-line */
+    }
+
+    /**
+     * Get the header actions.
+     *
+     * @return array<string, Action>
+     */
+    #[\Override]
+    protected function getHeaderActions(): array
+    {
+        return [
+            'export_xls' => ExportXlsAction::make('export_xls'),
+        ];
     }
 
     /**
@@ -109,7 +102,7 @@ abstract class BaseListUsers extends XotBaseListRecords
     protected function getHeaderWidgets(): array
     {
         return [
-            //UserOverview::class
+            // UserOverview::class
         ];
     }
 }

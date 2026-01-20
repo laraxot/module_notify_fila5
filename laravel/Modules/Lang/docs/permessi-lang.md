@@ -5,7 +5,11 @@
 Durante la scrittura di file di lingua tramite PHP (es. `file_put_contents(...)`), può comparire l’errore:
 
 ```
+<<<<<<< HEAD
+file_put_contents(/var/www/html/ptvx/laravel/Modules/Lang/lang/it/lang_service.php): Failed to open stream: Permission denied
+=======
 file_put_contents(Modules/Lang/lang/it/lang_service.php): Failed to open stream: Permission denied
+>>>>>>> laraxot/develop
 ```
 
 ## Causa
@@ -16,11 +20,22 @@ Il file o la cartella di destinazione non è scrivibile dall’utente che esegue
 
 1. **Uniformare la proprietà** di tutti i file e cartelle di `Modules/Lang/lang/it/` a `www-data:www-data`:
    ```bash
+<<<<<<< HEAD
+   sudo chown -R www-data:www-data /var/www/html/ptvx/laravel/Modules/Lang/lang/it/
+=======
    sudo chown -R www-data:www-data Modules/Lang/lang/it/
+>>>>>>> laraxot/develop
    ```
 2. **Impostare i permessi corretti**:
    - File: scrivibili da owner e gruppo
      ```bash
+<<<<<<< HEAD
+     sudo find /var/www/html/ptvx/laravel/Modules/Lang/lang/it/ -type f -exec chmod 664 {} +
+     ```
+   - Cartelle: navigabili e scrivibili da owner e gruppo
+     ```bash
+     sudo find /var/www/html/ptvx/laravel/Modules/Lang/lang/it/ -type d -exec chmod 775 {} +
+=======
      sudo find Modules/Lang/lang/it/ -type f -exec chmod 664 {} +
      ```
    - Cartelle: navigabili e scrivibili da owner e gruppo
@@ -72,6 +87,7 @@ Il file o la cartella di destinazione non è scrivibile dall’utente che esegue
    - Cartelle: navigabili e scrivibili da owner e gruppo
      ```bash
      sudo find Modules/Lang/lang/it/ -type d -exec chmod 775 {} +
+>>>>>>> laraxot/develop
      ```
 
 ## Best Practice

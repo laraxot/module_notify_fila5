@@ -10,7 +10,6 @@ namespace Modules\User\Filament\Resources;
 
 use Filament\Forms\Components\ColorPicker;
 use Filament\Forms\Components\TextInput;
-use Filament\Resources\Resource;
 use Filament\Schemas\Components\Section;
 use Filament\Support\Components\Component;
 use Illuminate\Database\Eloquent\Model;
@@ -19,34 +18,29 @@ use Modules\User\Filament\Resources\TenantResource\Pages\CreateTenant;
 use Modules\User\Filament\Resources\TenantResource\Pages\EditTenant;
 use Modules\User\Filament\Resources\TenantResource\Pages\ListTenants;
 use Modules\User\Filament\Resources\TenantResource\Pages\ViewTenant;
-use Modules\User\Filament\Resources\TenantResource\RelationManagers;
 use Modules\User\Filament\Resources\TenantResource\RelationManagers\UsersRelationManager;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Override;
 
 class TenantResource extends XotBaseResource
 {
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
-
     /**
      * Get the model class name for this resource.
      *
      * @return class-string<Model>
      */
-    #[Override]
+    #[\Override]
     public static function getModel(): string
     {
         $xot = XotData::make();
-        $model = $xot->getTenantClass();
 
-        return $model;
+        return $xot->getTenantClass();
     }
 
     /**
      * @return array<string, Component>
      */
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [
@@ -59,16 +53,18 @@ class TenantResource extends XotBaseResource
                             ignoreRecord: true,
                         )
                         ->live(onBlur: true)
-                        ->afterStateUpdated(function (callable $set, $state) {
-                            $set('slug', Str::slug($state));
-                            $set('domain', Str::slug($state));
+                        ->afterStateUpdated(function (callable $set, $state): void {
+                            if (is_string($state)) {
+                                $set('slug', Str::slug($state));
+                                $set('domain', Str::slug($state));
+                            }
                         })
                         ->columnSpanFull()
                         ->placeholder('Nome del tenant')
                         ->helperText('Inserisci il nome del tenant'),
                     TextInput::make('slug')
                         ->required()
-                        ->disabled(fn ($context) => $context !== 'create')
+                        ->disabled(fn ($context) => 'create' !== $context)
                         ->unique(
                             table: 'tenants',
                             ignoreRecord: true,
@@ -76,7 +72,7 @@ class TenantResource extends XotBaseResource
                         ->helperText('Lo slug verrà generato automaticamente dal nome'),
                     TextInput::make('domain')
                         ->required()
-                        ->visible(fn ($context) => $context === 'create')
+                        ->visible(fn ($context) => 'create' === $context)
                         ->unique(
                             table: 'domains',
                             ignoreRecord: true,
@@ -105,7 +101,7 @@ class TenantResource extends XotBaseResource
         ];
     }
 
-    #[Override]
+    #[\Override]
     public static function getRelations(): array
     {
         return [
@@ -114,7 +110,7 @@ class TenantResource extends XotBaseResource
         ];
     }
 
-    #[Override]
+    #[\Override]
     public static function getPages(): array
     {
         return [

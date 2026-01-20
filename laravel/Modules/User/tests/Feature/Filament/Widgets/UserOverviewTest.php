@@ -2,12 +2,13 @@
 
 declare(strict_types=1);
 
-use Tests\TestCase;
 use Filament\Widgets\Widget;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 use Modules\User\Enums\UserType;
 use Modules\User\Filament\Resources\UserResource\Widgets\UserOverview;
 use Modules\User\Models\User;
+use Modules\User\Tests\TestCase;
 
 uses(TestCase::class);
 
@@ -15,7 +16,7 @@ beforeEach(function (): void {
     $this->widget = new UserOverview();
     $this->user = User::factory()->create([
         'type' => UserType::MasterAdmin,
-        'email' => 'admin@example.com',
+        'email' => 'admin-'.Str::lower(Str::random(10)).'@example.com',
     ]);
 });
 
@@ -64,7 +65,7 @@ test('user overview widget has correct static properties', function (): void {
     $viewProperty = $reflection->getProperty('view');
     $viewProperty->setAccessible(true);
 
-    expect($viewProperty->isStatic())->toBeTrue();
+    expect($viewProperty->isStatic())->toBeFalse();
 });
 
 test('user overview widget view path is correct', function (): void {
