@@ -26,9 +26,15 @@ trait HasRatingsTrait
     {
         // return $this->morphRelated(Rating::class);
         $rating_class = Str::of(static::class)
+<<<<<<< HEAD
             ->before('\Models\\')
             ->append('\Models\Rating')
             ->toString();
+=======
+        ->before('\Models\\')
+        ->append('\Models\Rating')
+        ->toString();
+>>>>>>> 65bf1208 (.)
 
         return $this->morphToManyX($rating_class, 'model');
     }
