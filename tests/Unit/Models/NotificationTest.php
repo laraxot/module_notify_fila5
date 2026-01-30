@@ -56,7 +56,7 @@ class NotificationTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
-        $notification = new Notification();
+        $notification = new Notification;
 
         $expectedFillable = [
             'message',
@@ -78,7 +78,7 @@ class NotificationTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
-        $notification = new Notification();
+        $notification = new Notification;
 
         $expectedCasts = [
             'read_at' => 'datetime',
