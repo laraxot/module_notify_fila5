@@ -1,5 +1,4 @@
 # Strategia Inbound Marketing - TechPlanner
-**Data**: 7 Febbraio 2026
 **Module**: Notify
 **Scope**: Strategia inbound marketing per lead generation
 
@@ -466,6 +465,5 @@ Behavioral triggers:
 ---
 
 **Report Versione**: 1.0  
-**Data**: 7 Febbraio 2026  
 **Autore**: iFlow CLI  
 **Status**: ✅ Analisi Completa

@@ -1,6 +1,5 @@
 # Notify Module - Improvements Roadmap
 
-**Data**: 2026-01-09  
 **Modulo**: Notify  
 **Status**: 📝 **ROADMAP CREATA**
 

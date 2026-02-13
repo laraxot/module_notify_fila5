@@ -1,6 +1,5 @@
 # SendNotificationBulkAction - Implementazione Completa
 
-**Data**: 2025-01-18  
 **Status**: ✅ Implementazione completata e PHPStan Level 10 compliant  
 **Module**: Notify
 

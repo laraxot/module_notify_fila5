@@ -1,7 +1,6 @@
 # Seasonal Email Templates - Guida Completa
 
 **Status**: ✅ Implementato
-**Data**: 2025-12-19
 **Moduli**: Notify, Themes/Sixteen
 
 ## 📋 Indice
