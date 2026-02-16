@@ -176,4 +176,6 @@ return [
             'message' => 'Impossibile inviare il messaggio di test: :error',
         ],
     ],
+    'label' => 'Channel',
+    'plural_label' => 'Channel (Plurale)',
 ];

@@ -43,4 +43,6 @@ return [
         'error' => 'Si è verificato un errore durante l\'invio del messaggio WhatsApp',
         'confirmation' => 'Sei sicuro di voler inviare questo messaggio WhatsApp?',
     ],
+    'label' => 'Send Whatsapp',
+    'plural_label' => 'Send Whatsapp (Plurale)',
 ];

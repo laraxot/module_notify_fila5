@@ -50,4 +50,6 @@ return [
             'label' => 'Anteprima',
         ],
     ],
+    'label' => 'Send Push Notification',
+    'plural_label' => 'Send Push Notification (Plurale)',
 ];

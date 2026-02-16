@@ -22,7 +22,7 @@ return [
         'to' => [
             'label' => 'Numero di telefono',
             'placeholder' => 'Inserisci il numero di telefono',
-            'helper_text' => 'Inserisci il numero di telefono con prefisso internazionale (es. +39)',
+            'helper_text' => 'Inserisci il numero di telefono con prefisso internazionale (es. +39]',
         ],
         'message' => [
             'label' => 'Messaggio',
@@ -52,4 +52,6 @@ return [
         'success' => 'SMS inviato con successo',
         'error' => 'Si è verificato un errore durante l\'invio dell\'SMS',
     ],
+    'label' => 'Sms',
+    'plural_label' => 'Sms (Plurale)',
 ];

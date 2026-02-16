@@ -201,4 +201,6 @@ return [
     'model' => [
         'label' => 'mail template.model',
     ],
+    'label' => 'Mail Template',
+    'plural_label' => 'Mail Template (Plurale)',
 ];

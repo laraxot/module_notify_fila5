@@ -187,4 +187,6 @@ return [
             'message' => 'Impossibile verificare il contatto: :error',
         ],
     ],
+    'label' => 'Contact',
+    'plural_label' => 'Contact (Plurale)',
 ];

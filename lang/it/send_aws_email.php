@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 return [
     'navigation' => [
-        'label' => 'Invio Email (AWS)',
+        'label' => 'Invio Email (AWS]',
         'group' => 'Notifiche',
         'icon' => 'heroicon-o-envelope',
         'color' => 'primary',
@@ -65,4 +65,6 @@ return [
         'queue' => 'Email aggiunta alla coda di invio',
         'failed' => 'Invio email fallito',
     ],
+    'label' => 'Send Aws Email',
+    'plural_label' => 'Send Aws Email (Plurale)',
 ];

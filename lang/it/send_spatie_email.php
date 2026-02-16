@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 return [
     'navigation' => [
-        'label' => 'Invio Email (Spatie)',
+        'label' => 'Invio Email (Spatie]',
         'group' => 'Notifiche',
     ],
     'actions' => [
@@ -59,4 +59,6 @@ return [
             'label' => 'recipient',
         ],
     ],
+    'label' => 'Send Spatie Email',
+    'plural_label' => 'Send Spatie Email (Plurale)',
 ];

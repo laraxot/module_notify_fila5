@@ -75,4 +75,6 @@ return [
         'error' => 'Si è verificato un errore durante l\'invio dell\'SMS',
         'confirmation' => 'Sei sicuro di voler inviare questo SMS?',
     ],
+    'label' => 'Send Sms',
+    'plural_label' => 'Send Sms (Plurale)',
 ];

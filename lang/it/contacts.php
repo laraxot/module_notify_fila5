@@ -194,4 +194,6 @@ return [
             'tooltip' => 'Filtra per data ultima notifica',
         ],
     ],
+    'label' => 'Contacts',
+    'plural_label' => 'Contacts (Plurale)',
 ];

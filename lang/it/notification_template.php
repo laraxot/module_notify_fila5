@@ -58,4 +58,6 @@ return [
             'push' => 'Notifica Push',
         ],
     ],
+    'label' => 'Notification Template',
+    'plural_label' => 'Notification Template (Plurale)',
 ];

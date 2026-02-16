@@ -58,4 +58,6 @@ return [
         'success' => 'Messaggio Telegram inviato con successo',
         'error' => 'Si è verificato un errore durante l\'invio del messaggio Telegram',
     ],
+    'label' => 'Telegram',
+    'plural_label' => 'Telegram (Plurale)',
 ];

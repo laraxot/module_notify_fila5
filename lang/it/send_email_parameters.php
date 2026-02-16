@@ -36,4 +36,6 @@ return [
             ],
         ],
     ],
+    'label' => 'Send Email Parameters',
+    'plural_label' => 'Send Email Parameters (Plurale)',
 ];

@@ -64,4 +64,6 @@ return [
         'error' => 'Si è verificato un errore durante l\'invio del messaggio Telegram',
         'confirmation' => 'Sei sicuro di voler inviare questo messaggio Telegram?',
     ],
+    'label' => 'Send Telegram',
+    'plural_label' => 'Send Telegram (Plurale)',
 ];

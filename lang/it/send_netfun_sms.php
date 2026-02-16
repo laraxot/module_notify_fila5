@@ -8,13 +8,13 @@ return [
         'plural' => 'Invio SMS Netfun',
     ],
     'navigation' => [
-        'name' => 'Invio SMS (Netfun)',
-        'plural' => 'Invio SMS (Netfun)',
+        'name' => 'Invio SMS (Netfun]',
+        'plural' => 'Invio SMS (Netfun]',
         'group' => [
             'name' => 'Notifiche',
             'description' => 'Gestione dell\'invio di notifiche SMS tramite Netfun',
         ],
-        'label' => 'Invio SMS (Netfun)',
+        'label' => 'Invio SMS (Netfun]',
         'icon' => 'heroicon-o-chat-bubble-left-right',
         'sort' => 15,
     ],
@@ -43,4 +43,6 @@ return [
         'error' => 'Si è verificato un errore durante l\'invio del messaggio SMS',
         'confirmation' => 'Sei sicuro di voler inviare questo messaggio SMS?',
     ],
+    'label' => 'Send Netfun Sms',
+    'plural_label' => 'Send Netfun Sms (Plurale)',
 ];

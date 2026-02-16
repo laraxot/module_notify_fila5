@@ -16,4 +16,40 @@ return [
             'email_sent' => 'Email inviate',
         ],
     ],
+    'label' => 'Columns',
+    'plural_label' => 'Columns (Plurale)',
+    'navigation' => [
+        'name' => 'Columns',
+        'plural' => 'Columns',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Columns',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'fields' => [
+        'id' => [
+            'label' => 'Identificativo',
+            'tooltip' => 'Identificativo univoco del record',
+        ],
+        'created_at' => [
+            'label' => 'Data Creazione',
+        ],
+        'updated_at' => [
+            'label' => 'Ultima Modifica',
+        ],
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Columns',
+        ],
+        'edit' => [
+            'label' => 'Modifica Columns',
+        ],
+        'delete' => [
+            'label' => 'Elimina Columns',
+        ],
+    ],
 ];

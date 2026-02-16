@@ -34,4 +34,6 @@ return [
             'error' => 'Errore nell\'invio del messaggio WhatsApp',
         ],
     ],
+    'label' => 'Send Whats App',
+    'plural_label' => 'Send Whats App (Plurale)',
 ];

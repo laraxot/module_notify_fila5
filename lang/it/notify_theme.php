@@ -167,4 +167,6 @@ return [
     'model' => [
         'label' => 'Tema Notifica',
     ],
+    'label' => 'Notify Theme',
+    'plural_label' => 'Notify Theme (Plurale)',
 ];

@@ -32,4 +32,28 @@ return [
             'label' => 'resetFilters',
         ],
     ],
+    'label' => 'Log',
+    'plural_label' => 'Log (Plurale)',
+    'navigation' => [
+        'name' => 'Log',
+        'plural' => 'Log',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Log',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Log',
+        ],
+        'edit' => [
+            'label' => 'Modifica Log',
+        ],
+        'delete' => [
+            'label' => 'Elimina Log',
+        ],
+    ],
 ];

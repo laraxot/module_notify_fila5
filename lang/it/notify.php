@@ -7,8 +7,8 @@ return [
         'name' => 'Notifica',
     ],
     'navigation' => [
-        'name' => 'Notifica', // Nome singolare
-        'plural' => 'Notifiche', // Nome plurale
+        'name' => 'Notifica',
+        'plural' => 'Notifiche',
         'group' => 'Sistema',
         'label' => 'Notifiche',
         'icon' => 'notify-bell-animated',
@@ -250,7 +250,7 @@ return [
             ],
             'attachments' => [
                 'label' => 'Allegati',
-                'helper' => 'Allegati alla notifica (max 5 file, 5MB ciascuno)',
+                'helper' => 'Allegati alla notifica (max 5 file, 5MB ciascuno]',
             ],
         ],
         'preview' => [
@@ -267,4 +267,6 @@ return [
             'push' => 'Notifica Push',
         ],
     ],
+    'label' => 'Notify',
+    'plural_label' => 'Notify (Plurale)',
 ];

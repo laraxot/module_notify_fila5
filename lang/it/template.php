@@ -49,7 +49,7 @@ return [
             'label' => 'Oggetto',
             'tooltip' => 'Oggetto della notifica',
             'placeholder' => 'es: Promemoria appuntamento',
-            'helper_text' => 'Oggetto visualizzato nella notifica (es. oggetto email)',
+            'helper_text' => 'Oggetto visualizzato nella notifica (es. oggetto email]',
         ],
         'content' => [
             'label' => 'Contenuto',
@@ -108,4 +108,6 @@ return [
         'template_updated' => 'Il template è stato aggiornato con successo',
         'template_deleted' => 'Il template è stato eliminato con successo',
     ],
+    'label' => 'Template',
+    'plural_label' => 'Template (Plurale)',
 ];

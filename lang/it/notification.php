@@ -202,4 +202,6 @@ return [
         'success' => 'Operazione completata con successo',
         'error' => 'Si è verificato un errore durante l\'operazione',
     ],
+    'label' => 'Notification',
+    'plural_label' => 'Notification (Plurale)',
 ];

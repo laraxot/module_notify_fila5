@@ -22,7 +22,7 @@ return [
         'to' => [
             'label' => 'Numero di telefono',
             'placeholder' => 'Inserisci il numero di telefono',
-            'helper_text' => 'Inserisci il numero di telefono con prefisso internazionale (es. +39)',
+            'helper_text' => 'Inserisci il numero di telefono con prefisso internazionale (es. +39]',
         ],
         'message' => [
             'label' => 'Messaggio',
@@ -37,17 +37,17 @@ return [
         'template' => [
             'label' => 'Template',
             'placeholder' => 'Inserisci il nome del template',
-            'helper_text' => 'Nome del template (opzionale)',
+            'helper_text' => 'Nome del template (opzionale]',
         ],
         'parameters' => [
             'label' => 'Parametri',
             'placeholder' => 'Inserisci i parametri',
-            'helper_text' => 'Parametri per il template (opzionale)',
+            'helper_text' => 'Parametri per il template (opzionale]',
         ],
         'media_url' => [
             'label' => 'URL Media',
             'placeholder' => 'Inserisci l\'URL del media',
-            'helper_text' => 'URL del media (opzionale)',
+            'helper_text' => 'URL del media (opzionale]',
         ],
         'media_type' => [
             'label' => 'Tipo Media',
@@ -75,4 +75,6 @@ return [
         'success' => 'WhatsApp inviato con successo',
         'error' => 'Si è verificato un errore durante l\'invio del WhatsApp',
     ],
+    'label' => 'Whatsapp',
+    'plural_label' => 'Whatsapp (Plurale)',
 ];
