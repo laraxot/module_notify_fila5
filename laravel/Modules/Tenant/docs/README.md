@@ -1,51 +1,23 @@
-# Modulo Tenant - Multi-Tenancy Support
+# Module Documentation
 
-## 📋 Panoramica
+This directory contains the documentation for the Tenant module.
 
-Il modulo **Tenant** fornisce supporto completo per **multi-tenancy** nel framework Laraxot, permettendo l'isolamento completo dei dati tra diverse organizzazioni/tenant.
+## Purpose
 
-## 🎯 Funzionalità Principali
+The purpose of this documentation is to provide comprehensive information about the Tenant's functionality, architecture, and usage. It aims to:
+- Explain key features and their implementation details.
+- Guide developers on how to use, extend, and maintain the module.
+- Ensure consistency with Laraxot architectural principles and coding standards.
 
-### 1. Isolamento Dati
-- Separazione completa dati tra tenant
-- Database scoping automatico
-- Context switching tra tenant
+## Structure
 
-### 2. Domain Management
-- Gestione domini per tenant
-- Routing multi-tenant
-- Subdomain support
+- `README.md`: This overview file.
+- Other Markdown files will detail specific aspects of the module, such as:
+    - `installation.md`
+    - `usage.md`
+    - `architecture.md`
+    - `troubleshooting.md`
 
-### 3. Tenant-Aware Policies
-- Authorization basata su tenant
-- Permission scoping
-- Role isolation per tenant
+## Contribution
 
-## 🏗️ Architettura
-
-### Modelli Principali
-- **Tenant**: Rappresenta un'organizzazione/cliente
-- **Domain**: Domini associati ai tenant
-- **TenantUser**: Relazione utenti-tenant
-
-### Service Provider
-- **TenantServiceProvider**: Registrazione automatica tenant features
-- **TenantService**: Logica business per gestione tenant
-
-## 📊 Stato Qualità
-
-- **PHPStan Level**: 10 ✅
-- **Errori PHPStan**: 0 ✅ (da 17 → 0, -100%)
-- **Type Safety**: Completa ✅
-- **Data Correzione**: 5 Novembre 2025
-
-## 🔗 Collegamenti
-
-- [User Module](../../User/docs/README.md) - Integrazione autenticazione
-- [Xot Module](../../Xot/docs/README.md) - Framework base
-- [Multi-Tenancy Docs](https://tenancyforlaravel.com/)
-
----
-
-**Ultimo Aggiornamento**: 5 Novembre 2025
-**Status**: PHPStan Fixes In Progress
+Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.

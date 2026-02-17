@@ -34,9 +34,6 @@ Quando aggiungi nuovi componenti Filament nel modulo Cms, ricorda di:
 * [cms-link.md](../../../User/project_docs/cms-link.md)
 * [cms-link.md](../../../UI/project_docs/cms-link.md)
 * [cms-link.md](../../../Lang/project_docs/cms-link.md)
-<<<<<<< HEAD
-
-=======
 # Collegamento al Modulo Cms
 
 Questo documento descrive le relazioni e i collegamenti tra il modulo Lang e il modulo Cms per quanto riguarda le traduzioni e l'internazionalizzazione.
@@ -73,4 +70,3 @@ Quando aggiungi nuovi componenti Filament nel modulo Cms, ricorda di:
 * [cms-link.md](../../../User/docs/cms-link.md)
 * [cms-link.md](../../../UI/docs/cms-link.md)
 * [cms-link.md](../../../Lang/docs/cms-link.md)
->>>>>>> laraxot/develop

@@ -29,40 +29,24 @@ class TranslationService
     public function getTranslation(string $key, string $locale = null): string
     {
         $locale = $locale ?? app()->getLocale();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/develop
         return Cache::remember(
             "translation_{$locale}_{$key}",
             3600,
             fn() => __($key, [], $locale)
         );
     }
-<<<<<<< HEAD
-    
-    public function validateTranslationStructure(array $translations): array
-    {
-        $errors = [];
-        
-=======
 
     public function validateTranslationStructure(array $translations): array
     {
         $errors = [];
 
->>>>>>> laraxot/develop
         foreach ($translations as $key => $value) {
             if (is_string($value) && !$this->isExpandedStructure($value)) {
                 $errors[] = "Key '{$key}' should use expanded structure";
             }
         }
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/develop
         return $errors;
     }
 }
@@ -76,7 +60,3 @@ class TranslationService
 
 ---
 *Stato: 🟡 Funzionale ma Necessita Standardizzazione*
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/develop

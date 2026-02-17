@@ -16,11 +16,7 @@ File: `app/Actions/Filament/AutoLabelAction.php`
 public function execute($object_class) {
     $cacheKey = "translation_key_".md5($object_class);
     return Cache::tags(['translations'])
-<<<<<<< HEAD
-        ->remember($cacheKey, now()->addDay(), 
-=======
         ->remember($cacheKey, now()->addDay(),
->>>>>>> laraxot/develop
             fn() => $this->generateTransKey($object_class)
         );
 }
@@ -29,11 +25,7 @@ public function execute($object_class) {
 protected function findTranslation($key) {
     return LazyCollection::make(function() {
         yield from $this->getTranslationFiles();
-<<<<<<< HEAD
-    })->first(fn($file) => 
-=======
     })->first(fn($file) =>
->>>>>>> laraxot/develop
         isset($file[$key])
     );
 }
@@ -59,11 +51,7 @@ public function loadTranslations($locale) {
 // 2. Cache file traduzioni
 protected function getTranslationFile($locale, $group) {
     $cacheKey = "trans_{$locale}_{$group}";
-<<<<<<< HEAD
-    return Cache::remember($cacheKey, now()->addHour(), 
-=======
     return Cache::remember($cacheKey, now()->addHour(),
->>>>>>> laraxot/develop
         fn() => $this->loadTranslationFile($locale, $group)
     );
 }
@@ -85,11 +73,7 @@ File: `app/Services/FilamentLabelService.php`
 public function generateLabel($field, $resource) {
     $cacheKey = "label_{$resource}_{$field}";
     return Cache::tags(['filament_labels'])
-<<<<<<< HEAD
-        ->remember($cacheKey, now()->addHour(), 
-=======
         ->remember($cacheKey, now()->addHour(),
->>>>>>> laraxot/develop
             fn() => $this->buildLabel($field, $resource)
         );
 }
@@ -151,11 +135,7 @@ File: `app/Services/TranslationRegistryService.php`
 public function registerTranslations() {
     return LazyCollection::make(function() {
         yield from $this->getTranslationPaths();
-<<<<<<< HEAD
-    })->each(fn($path) => 
-=======
     })->each(fn($path) =>
->>>>>>> laraxot/develop
         $this->registerPath($path)
     );
 }
@@ -202,11 +182,7 @@ Implementare:
    // Cache strategico
    public function getTranslation($key, $locale) {
        return Cache::tags(['translations'])
-<<<<<<< HEAD
-           ->remember("{$locale}.{$key}", 
-=======
            ->remember("{$locale}.{$key}",
->>>>>>> laraxot/develop
                now()->addDay(),
                fn() => $this->lookupTranslation($key, $locale)
            );
@@ -219,11 +195,7 @@ Implementare:
    public function updateTranslations($translations) {
        return collect($translations)
            ->chunk(100)
-<<<<<<< HEAD
-           ->each(fn($chunk) => 
-=======
            ->each(fn($chunk) =>
->>>>>>> laraxot/develop
                $this->writeTranslationChunk($chunk)
            );
    }
@@ -241,10 +213,6 @@ Implementare:
    ```
 ### Versione HEAD
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/develop
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](../../../Gdpr/docs/performance/bottlenecks.md)
 * [bottlenecks.md](../../../Xot/docs/bottlenecks.md)
@@ -257,15 +225,6 @@ Implementare:
 * [bottlenecks.md](../../../Media/docs/performance/bottlenecks.md)
 * [bottlenecks.md](../../../Patient/docs/roadmap/bottlenecks.md)
 
-<<<<<<< HEAD
-
-### Versione Incoming
-
-
----
-
-=======
 ### Versione Incoming
 
 ---
->>>>>>> laraxot/develop

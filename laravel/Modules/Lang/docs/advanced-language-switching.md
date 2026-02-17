@@ -97,8 +97,6 @@ Integrate a language selector in the navigation bar for easy access:
 ```
 
 This approach ensures that users can manually select their preferred language while maintaining SEO-friendly URLs with language prefixes.
-<<<<<<< HEAD
-=======
 # Advanced Language Switching Strategies
 
 ## Overview
@@ -198,4 +196,3 @@ Integrate a language selector in the navigation bar for easy access:
 ```
 
 This approach ensures that users can manually select their preferred language while maintaining SEO-friendly URLs with language prefixes.
->>>>>>> laraxot/develop

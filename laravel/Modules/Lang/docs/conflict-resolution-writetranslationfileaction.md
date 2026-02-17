@@ -104,9 +104,6 @@ Il file `Modules/Lang/app/Actions/WriteTranslationFileAction.php` presenta confl
 - **Modulo**: Lang
 - **File**: `app/Actions/WriteTranslationFileAction.php`
 - **Tipo Conflitto**: Commenti e sintassi PHPStan
-<<<<<<< HEAD
-- **Scelta**: Versione Branch 7f8122e (imperativo + sintassi moderna) 
-=======
 - **Scelta**: Versione Branch 7f8122e (imperativo + sintassi moderna)
 # Risoluzione Conflitto WriteTranslationFileAction
 
@@ -215,4 +212,3 @@ Il file `Modules/Lang/app/Actions/WriteTranslationFileAction.php` presenta confl
 - **File**: `app/Actions/WriteTranslationFileAction.php`
 - **Tipo Conflitto**: Commenti e sintassi PHPStan
 - **Scelta**: Versione Branch 7f8122e (imperativo + sintassi moderna)
->>>>>>> laraxot/develop

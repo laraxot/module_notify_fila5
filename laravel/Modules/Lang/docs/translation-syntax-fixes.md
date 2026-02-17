@@ -68,11 +68,7 @@ return [
 ### 2. declare() Posizionato Erroneamente
 ```php
 // ❌ ERRATO
-<<<<<<< HEAD
-<?php 
-=======
 <?php
->>>>>>> laraxot/develop
 return [
 declare(strict_types=1);
   'navigation' => [...],
@@ -163,9 +159,7 @@ return [
 - [UI Module Documentation](../../laravel/Modules/UI/project_docs/)
 
 ## Ultimo Aggiornamento
-2025-01-06 - Correzione completa errori sintassi file traduzione ✅ COMPLETATO
-<<<<<<< HEAD
-=======
+[DATE] - Correzione completa errori sintassi file traduzione ✅ COMPLETATO
 # Correzione Errori di Sintassi nei File di Traduzione
 
 ## Riepilogo Intervento
@@ -327,5 +321,4 @@ return [
 - [UI Module Documentation](../../laravel/Modules/UI/docs/)
 
 ## Ultimo Aggiornamento
-2025-01-06 - Correzione completa errori sintassi file traduzione ✅ COMPLETATO
->>>>>>> laraxot/develop
+[DATE] - Correzione completa errori sintassi file traduzione ✅ COMPLETATO

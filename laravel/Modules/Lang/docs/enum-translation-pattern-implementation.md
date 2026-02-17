@@ -19,11 +19,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
 
@@ -168,11 +164,7 @@ Prima di ogni commit, verificare:
 enum StatusEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     case ACTIVE = 'active';
     case INACTIVE = 'inactive';
     case PENDING = 'pending';
@@ -223,8 +215,4 @@ return [
 - [Translation Management](translation-management.md)
 
 ## Ultimo Aggiornamento
-<<<<<<< HEAD
-2025-01-27 - Implementazione completa regola critica enum translation pattern 
-=======
-2025-01-27 - Implementazione completa regola critica enum translation pattern
->>>>>>> laraxot/develop
+[DATE] - Implementazione completa regola critica enum translation pattern

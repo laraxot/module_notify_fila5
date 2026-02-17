@@ -7,11 +7,7 @@ section: content
 
 # Installazione {#installazione}
 
-<<<<<<< HEAD
-Un'applicazione Laravel fresca è il modo ideale per iniziare con questo pacchetto. 
-=======
 Un'applicazione Laravel fresca è il modo ideale per iniziare con questo pacchetto.
->>>>>>> laraxot/develop
 
 Per installare il bacchetto basta mettere il seguente comando nella linea di comando:
 
@@ -31,20 +27,11 @@ php artisan module_lang:install
 * [installation.md](../../../Cms/docs/installation.md)
 * [installation.md](../../../../Themes/One/docs/installation.md)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/develop
 ### Versione Incoming
 
 ```
 
-<<<<<<< HEAD
----
-
-=======
 ## Documentazione collegata
 - [Composer merge plugin](composer-merge-plugin.md)
 
 ---
->>>>>>> laraxot/develop

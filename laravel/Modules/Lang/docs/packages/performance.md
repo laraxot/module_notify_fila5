@@ -85,16 +85,9 @@ Route::middleware([
 
 - [Torna a packages.md](../packages.md)
 - [Localizzazione](localization.md)
-<<<<<<< HEAD
-- [Traduzioni](translations.md) 
-### Versione HEAD
-
-
-=======
 - [Traduzioni](translations.md)
 ### Versione HEAD
 
->>>>>>> laraxot/develop
 ## Collegamenti tra versioni di performance.md
 * [performance.md](laravel/vendor/spatie/laravel-data/docs/advanced-usage/performance.md)
 * [performance.md](../../../Xot/docs/features/performance.md)
@@ -105,15 +98,6 @@ Route::middleware([
 * [performance.md](../../../Job/docs/packages/performance.md)
 * [performance.md](../../../Cms/docs/frontoffice/performance.md)
 
-<<<<<<< HEAD
-
-### Versione Incoming
-
-
----
-
-=======
 ### Versione Incoming
 
 ---
->>>>>>> laraxot/develop

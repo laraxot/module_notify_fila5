@@ -11,13 +11,8 @@ Fornire una guida completa per:
 
 ## 1. Messaggi di Validazione Standard
 
-<<<<<<< HEAD
-Laravel fornisce messaggi di default in `resources/lang/{lang}/validation.php`.  
-**Consiglio:**  
-=======
 Laravel fornisce messaggi di default in `resources/lang/{lang}/validation.php`.
 **Consiglio:**
->>>>>>> laraxot/develop
 - Usa il pacchetto [Laravel-Lang/lang](https://github.com/Laravel-Lang/lang) per avere traduzioni aggiornate e complete.
 - Aggiorna i file con `composer require laravel-lang/common --dev` e `php artisan lang:add it`.
 
@@ -35,15 +30,9 @@ public function attributes(): array
     ];
 }
 ```
-<<<<<<< HEAD
-**Best practice:**  
-- Usa sempre la funzione `__()` per permettere la localizzazione.
-- Per array di campi:  
-=======
 **Best practice:**
 - Usa sempre la funzione `__()` per permettere la localizzazione.
 - Per array di campi:
->>>>>>> laraxot/develop
   ```php
   public function attributes(): array
   {
@@ -71,11 +60,7 @@ public function messages(): array
     ];
 }
 ```
-<<<<<<< HEAD
-**Nota:**  
-=======
 **Nota:**
->>>>>>> laraxot/develop
 - La chiave è `campo.regola` (es. `products.*.name.required`)
 - Il valore è il messaggio localizzato, puoi usare placeholder come `:attribute`, `:position`, `:index`, ecc.
 
@@ -142,17 +127,10 @@ class StoreOrderRequest extends FormRequest
 
 ## 7. Modifiche consigliate ai file del progetto
 
-<<<<<<< HEAD
-- **resources/lang/it/validation.php** e **resources/lang/en/validation.php**  
-  - Aggiorna/integra i messaggi standard con quelli del pacchetto Laravel-Lang.
-  - Aggiungi eventuali override per messaggi custom usati spesso.
-- **Form Request**  
-=======
 - **resources/lang/it/validation.php** e **resources/lang/en/validation.php**
   - Aggiorna/integra i messaggi standard con quelli del pacchetto Laravel-Lang.
   - Aggiungi eventuali override per messaggi custom usati spesso.
 - **Form Request**
->>>>>>> laraxot/develop
   - Usa sempre `attributes()` e `messages()` per ogni form complesso.
   - Documenta la logica custom direttamente nella classe e nella doc del modulo.
 
@@ -160,19 +138,11 @@ class StoreOrderRequest extends FormRequest
 
 ## 8. FAQ e Problemi Comuni
 
-<<<<<<< HEAD
-- **Come tradurre i messaggi di validazione?**  
-  Usa i file `validation.php` e i metodi `attributes()`/`messages()` nelle Form Request.
-- **Come gestire array di campi?**  
-  Usa la notazione `campo.*.sotto_campo` e placeholder `:position`.
-- **Come evitare messaggi poco user-friendly?**  
-=======
 - **Come tradurre i messaggi di validazione?**
   Usa i file `validation.php` e i metodi `attributes()`/`messages()` nelle Form Request.
 - **Come gestire array di campi?**
   Usa la notazione `campo.*.sotto_campo` e placeholder `:position`.
 - **Come evitare messaggi poco user-friendly?**
->>>>>>> laraxot/develop
   Personalizza sempre i nomi dei campi e i messaggi per i casi complessi.
 
 ---
@@ -183,9 +153,6 @@ class StoreOrderRequest extends FormRequest
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](./TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [translations-storage.md](./translations-storage.md)
 - [translation-process.md](./translation-process.md)
-<<<<<<< HEAD
-- [README.md](./README.md) 
-=======
 - [README.md](./README.md)
 # Gestione delle Traduzioni dei Messaggi di Validazione
 
@@ -343,4 +310,3 @@ class StoreOrderRequest extends FormRequest
 - [translations-storage.md](./translations-storage.md)
 - [translation-process.md](./translation-process.md)
 - [README.md](./README.md)
->>>>>>> laraxot/develop

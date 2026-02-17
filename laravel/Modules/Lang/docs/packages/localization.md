@@ -74,8 +74,4 @@ Route::group([
 
 - [Torna a packages.md](../packages.md)
 - [Traduzioni](translations.md)
-<<<<<<< HEAD
-- [SEO](seo.md) 
-=======
 - [SEO](seo.md)
->>>>>>> laraxot/develop
