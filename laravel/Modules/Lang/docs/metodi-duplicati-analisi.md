@@ -1,14 +1,7 @@
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 
-<<<<<<< HEAD
-**Powered by**: Super Mucca AI 🐄✨  
-**Data**: 15 Ottobre 2025  
-**Versione**: 2.0 ULTIMATE  
-=======
 **Powered by**: Super Mucca AI 🐄✨
-**Data**: 15 Ottobre 2025
 **Versione**: 2.0 ULTIMATE
->>>>>>> laraxot/develop
 **Confidenza**: 99.9% (Dati Reali dal Codice)
 
 ---
@@ -48,25 +41,15 @@ abstract class BaseModel extends XotBaseModel
 
 #### Blog BaseModel (BEN FATTO)
 ```php
-<<<<<<< HEAD
-// File: Modules/Blog/app/Models/BaseModel.php  
-=======
 // File: Modules/Blog/app/Models/BaseModel.php
->>>>>>> laraxot/develop
 // Linee: 46
 abstract class BaseModel extends XotBaseModel implements HasMedia
 {
     use InteractsWithMedia;  // ✅ Specifico
     use SoftDeletes;         // ✅ Specifico
-<<<<<<< HEAD
-    
-    protected $connection = 'blog';
-    
-=======
 
     protected $connection = 'blog';
 
->>>>>>> laraxot/develop
     protected function casts(): array
     {
         return array_merge(parent::casts(), [  // ✅ CORRETTO
@@ -84,15 +67,9 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use RelationX;  // ✅ Specifico
-<<<<<<< HEAD
-    
-    protected $connection = 'user';
-    
-=======
 
     protected $connection = 'user';
 
->>>>>>> laraxot/develop
     protected function casts(): array
     {
         return array_merge(parent::casts(), [  // ✅ CORRETTO
@@ -119,13 +96,8 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 | Gdpr | ~38 | gdpr | 0 | 2 | ⭐⭐⭐⭐ BUONO |
 | Comment | ~30 | comment | 0 | 1 | ⭐⭐⭐⭐ BUONO |
 
-<<<<<<< HEAD
-**Media Linee**: 57.8 linee  
-**Target Ottimale**: 25-50 linee  
-=======
 **Media Linee**: 57.8 linee
 **Target Ottimale**: 25-50 linee
->>>>>>> laraxot/develop
 **Conformità**: 80% dei moduli sono OTTIMALI ✅
 
 ---
@@ -225,11 +197,7 @@ class ColumnBuilder
             ->searchable()
             ->label('ID');
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     /**
      * Standard name column
      */
@@ -239,11 +207,7 @@ class ColumnBuilder
             ->searchable($searchable)
             ->sortable();
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     /**
      * Status badge column with standard colors
      */
@@ -255,20 +219,12 @@ class ColumnBuilder
             'success' => 'resolved',
             'secondary' => 'closed',
         ];
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/develop
         return TextColumn::make('status')
             ->badge()
             ->colors(array_merge($defaultColors, $customColors));
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     /**
      * Priority badge column
      */
@@ -283,11 +239,7 @@ class ColumnBuilder
                 'danger' => 'critical',
             ]);
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     /**
      * Standard timestamps (created_at, updated_at)
      */
@@ -303,11 +255,7 @@ class ColumnBuilder
                 ->toggleable(isToggledHiddenByDefault: $hideUpdated),
         ];
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     /**
      * Email column with searchable
      */
@@ -384,11 +332,7 @@ class FilterBuilder
             ->trueLabel('Active')
             ->falseLabel('Inactive');
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     /**
      * Date range filter
      */
@@ -411,11 +355,7 @@ class FilterBuilder
                     );
             });
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     /**
      * Select filter from model
      */
@@ -478,13 +418,8 @@ public function getTableFilters(): array
 - Feature development: 40h × €50 = €2,000
 - **TOTALE**: €7,250
 
-<<<<<<< HEAD
-**ROI Anno 1**: +159% (€4,450 netto)  
-**Break-Even**: 4.6 mesi  
-=======
 **ROI Anno 1**: +159% (€4,450 netto)
 **Break-Even**: 4.6 mesi
->>>>>>> laraxot/develop
 **ROI 3 Anni**: +675% (€18,950 netto)
 
 ### Scenario Ottimistico
@@ -498,13 +433,8 @@ public function getTableFilters(): array
 - Development: 70h × €50 = €3,500
 - **TOTALE**: €12,250
 
-<<<<<<< HEAD
-**ROI Anno 1**: +338% (€9,450 netto)  
-**Break-Even**: 2.7 mesi  
-=======
 **ROI Anno 1**: +338% (€9,450 netto)
 **Break-Even**: 2.7 mesi
->>>>>>> laraxot/develop
 **ROI 3 Anni**: +1,210% (€33,950 netto)
 
 ---

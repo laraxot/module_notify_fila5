@@ -1,285 +1,424 @@
-# User Module - Complete Roadmap
-
-## Module Overview
-**Purpose**: Multi-type authentication, authorization, and teams management.
-**Zen**: Three Pillars: Identity Trust (Who are you?), Permission Clarity (What can you do?), and Organizational Context (Where do you work?).
-**Status**: Core module - Advanced authentication and authorization system.
-
-### Quality & Compliance
-- **PHPStan**: Level 10 ✅
-- **Laraxot Rules**: Strictly followed (BaseUser implements UserContract, once() memoization, no property_exists).
-- **Security**: OAuth2 Personal access, socialite, device tracking.
-
-## 📊 Stato Attuale
-
-### Metriche
-- **File PHP**: 1046
-- **Test**: 46 (copertura buona)
-- **Documentazione**: 696 file
-- **PHPStan Level 10**: ✅ 0 errori
-- **Models**: 95
-- **Filament Resources**: 112
-- **Actions**: 28
-
-### Componenti Principali
-- **Models**: BaseUser, User, Profile, Role, Permission, Team, TeamUser
-- **Filament Resources**: UserResource, TeamResource, RoleResource
-- **Actions**: Authentication, Authorization, Team management
-- **Widgets**: LoginWidget, RegisterWidget, LogoutWidget
-
-## 🚨 TODO e Miglioramenti Identificati
-
-### 1. Violazione Architetturale (CRITICA)
-**Problema**: Widget che viola regola "User non può dipendere da moduli specifici"
-**File**: `UserTypeRegistrationsChartWidget` (da spostare)
-**Priorità**: 🔴 CRITICA
-**Stima**: 2-3 ore
-
-### 2. Test Coverage
-**Problema**: Alcune aree non coperte da test
-**Priorità**: 🟡 Media
-**Stima**: 10-15 ore
-
-### 3. Performance Optimization
-**Problema**: Query optimization per large datasets
-**Priorità**: 🟡 Media
-**Stima**: 8-12 ore
-
-## 📋 Roadmap Dettagliata
-
-### Fase 1: Correzione Violazioni Architetturali (Settimana 1)
-
-#### 1.1 Spostamento Widget Violante
-**Obiettivo**: Spostare widget da User a modulo specifico
-
-**Task**:
-- [ ] Identificare widget `UserTypeRegistrationsChartWidget`
-- [ ] Analizzare dipendenze
-- [ ] Spostare widget in modulo appropriato (Quaeris?)
-- [ ] Aggiornare namespace
-- [ ] Rimuovere file originale
-- [ ] Verificare pulizia con script controllo
-- [ ] Test regressione
-- [ ] Documentazione
-
-**Dipendenze**: Nessuna
-**Stima**: 2-3 ore
-
-#### 1.2 Audit Completo Dipendenze
-**Obiettivo**: Verificare che User non dipenda da moduli specifici
-
-**Task**:
-- [ ] Analizzare tutti gli import in User
-- [ ] Identificare dipendenze circolari
-- [ ] Verificare che User sia riutilizzabile al 100%
-- [ ] Correggere violazioni
-- [ ] Documentazione
-
-**Dipendenze**: 1.1 completato
-**Stima**: 4-6 ore
-
-### Fase 2: Testing e Qualità (Settimana 2-3)
-
-#### 2.1 Aumentare Copertura Test
-**Obiettivo**: Portare copertura test da ~85% a > 95%
-
-**Task**:
-- [ ] Test unitari per tutti i Models
-- [ ] Test feature per Actions
-- [ ] Test integration per Resources
-- [ ] Test widget authentication
-- [ ] Test team management
-- [ ] Test permission system
-
-**Dipendenze**: Fase 1 completata
-**Stima**: 10-15 ore
-
-#### 2.2 Test Business Logic
-**Obiettivo**: Testare workflow business completo
-
-**Task**:
-- [ ] Test User → Profile workflow
-- [ ] Test User → Team workflow
-- [ ] Test User → Role → Permission workflow
-- [ ] Test Authentication flow
-- [ ] Test Authorization flow
-- [ ] Test Multi-tenant isolation
-
-**Dipendenze**: Fase 1 completata
-**Stima**: 8-12 ore
-
-### Fase 3: Performance e Ottimizzazioni (Settimana 4)
-
-#### 3.1 Query Optimization
-**Obiettivo**: Eliminare N+1 queries e ottimizzare performance
-
-**Task**:
-- [ ] Analizzare query con Laravel Debugbar
-- [ ] Aggiungere eager loading dove necessario
-- [ ] Ottimizzare relazioni User → Profile → Roles
-- [ ] Ottimizzare Team queries
-- [ ] Benchmark performance
-
-**Dipendenze**: Fase 2 completata
-**Stima**: 8-12 ore
-
-#### 3.2 Cache Strategy
-**Obiettivo**: Implementare cache per operazioni costose
-
-**Task**:
-- [ ] Cache per roles e permissions
-- [ ] Cache per team membership
-- [ ] Cache per user profile
-- [ ] Cache invalidation strategy
-- [ ] Cache warming
-
-**Dipendenze**: Fase 2 completata
-**Stima**: 6-10 ore
-
-### Fase 4: Features Avanzate (Settimana 5-6)
-
-#### 4.1 2FA Enhancement
-**Obiettivo**: Migliorare sistema 2FA
-
-**Task**:
-- [ ] Backup codes management
-- [ ] Recovery process migliorato
-- [ ] QR code generation
-- [ ] Test 2FA
-
-**Dipendenze**: Fase 3 completata
-**Stima**: 8-12 ore
-
-#### 4.2 Session Management Avanzato
-**Obiettivo**: Implementare gestione sessioni avanzata
-
-**Task**:
-- [ ] Multi-device session management
-- [ ] Session timeout configurabile
-- [ ] Session activity tracking
-- [ ] Force logout functionality
-- [ ] Test session management
-
-**Dipendenze**: Fase 3 completata
-**Stima**: 10-15 ore
-
-#### 4.3 Audit Trail Completo
-**Obiettivo**: Implementare audit trail completo
-
-**Task**:
-- [ ] Log tutte le azioni utente
-- [ ] Log modifiche profilo
-- [ ] Log cambiamenti permessi
-- [ ] Log accessi
-- [ ] Dashboard audit
-- [ ] Test audit trail
-
-**Dipendenze**: Fase 3 completata
-**Stima**: 12-18 ore
-
-## 🎯 Priorità
-
-### Priorità 1 (Urgente - 1 settimana)
-1. ✅ Spostamento widget violante
-2. ✅ Audit dipendenze
-3. ✅ Verifica riusabilità 100%
-
-### Priorità 2 (Importante - 2-3 settimane)
-1. Testing e qualità
-2. Query optimization
-3. Cache strategy
-
-### Priorità 3 (Miglioramenti - 4-6 settimane)
-1. 2FA enhancement
-2. Session management avanzato
-3. Audit trail completo
-
-## 📈 Metriche Target
-
-### Qualità Codice
-- **PHPStan Level 10**: ✅ 0 errori (già raggiunto)
-- **PHPMD Complexity**: < 10 per metodo
-- **Test Coverage**: > 95% (attuale ~85%)
-- **Riusabilità**: 100% (modulo BASE)
-
-### Performance
-- **Query Count**: < 5 per pagina
-- **Memory Usage**: < 64MB per operazione
-- **Response Time**: < 200ms per pagina
-- **Cache Hit Rate**: > 80%
-
-### Architettura
-- **Violazioni Dipendenze**: 0 (zero assoluto)
-- **Moduli Base Riutilizzabili**: 100%
-- **Accoppiamento Cross-Module**: Minimo
-- **Time to Fix Violations**: < 24h
-
-## 🔗 Dipendenze Inter-Modulo
-
-### Dipendenze da Altri Moduli
-- **Xot**: Framework base (dipendenza core)
-- **Tenant**: Multi-tenancy support (opzionale)
-
-### Dipendenze da User
-- **Quaeris**: Estende User per business logic
-- **Altri moduli business**: Estendono User
-
-**REGOLA ASSOLUTA**: User NON può dipendere da moduli business specifici!
-
-## 📚 Documentazione da Aggiornare
-
-1. `docs/philosophy.md` - Aggiornare con nuove decisioni
-2. `docs/README.md` - Aggiornare con nuove funzionalità
-3. `docs/authentication.md` - Aggiornare con 2FA
-4. `docs/authorization.md` - Aggiornare con audit trail
-5. Creare `docs/testing-guide.md` - Guida testing
-6. Creare `docs/performance-guide.md` - Guida performance
-
-## 🧪 Testing Strategy
-
-### Unit Tests
-- Test per ogni Model
-- Test per ogni Action
-- Test per ogni Widget
-- Test per ogni Policy
-
-### Feature Tests
-- Test workflow User → Profile
-- Test workflow User → Team
-- Test workflow User → Role → Permission
-- Test Authentication flow
-- Test Authorization flow
-
-### Integration Tests
-- Test Resources Filament
-- Test Pages Filament
-- Test Widget rendering
-- Test multi-tenant isolation
-
-## 🚀 Quick Wins (Prima Settimana)
-
-1. ✅ Spostare widget violante (2-3 ore)
-2. ✅ Audit dipendenze (4-6 ore)
-3. ✅ Verificare riusabilità 100% (2-3 ore)
-4. ✅ Aggiungere test mancanti (5-8 ore)
-
-**Totale Quick Wins**: 13-20 ore (2-3 giorni)
-
-## 📝 Note
-
-- User è modulo BASE - deve essere riutilizzabile al 100%
-- Nessuna dipendenza da moduli business specifici
-- Tutte le modifiche devono rispettare filosofia DRY + KISS
-- Ogni feature deve essere testata
-- Documentazione sempre aggiornata
-- PHPStan Level 10 sempre mantenuto
-
-## 🔗 Collegamenti
-
-- [Filosofia User](./philosophy.md)
-- [Modular Architecture Rules](../Cms/docs/modular-architecture-dependency-rules.md)
-- [Architectural Violation Fix Plan](../Cms/docs/ARCHITECTURAL_VIOLATION_FIX_PLAN.md)
+# 🗺️ ROADMAP COMPLETA - Modulo User
+
+## 📊 Business Logic
+
+### Scopo Principale
+Il modulo **User** è il cuore dell'autenticazione, autorizzazione e gestione utenti della piattaforma FixCity. Gestisce cittadini, operatori, amministratori con permessi granulari e profili personalizzabili.
+
+### Responsabilità
+- ✅ Autenticazione (Laravel Auth + Socialite)
+- ✅ Autorizzazione (Spatie Permissions)
+- ✅ Gestione profili utente e ruoli
+- ✅ Multi-tenancy (HasTeams)
+- ✅ Tracciamento attività utente
+- 🚧 2FA / Two-Factor Authentication
+- 🚧 Password policies avanzate
+- 🚧 Session management e security
 
 ---
 
-**Filosofia**: User è il modulo BASE più importante - deve essere perfetto, riutilizzabile, e senza dipendenze da moduli business specifici.
+## 🎯 Funzionalità Implementate
+
+### ✅ Core Authentication
+- [x] Login/Logout completo
+- [x] Register con validazione
+- [x] Password reset flow
+- [x] Email verification
+- [x] Remember me
+- [x] Social login (Socialite)
+  - Facebook, Google, GitHub, Twitter
+
+### ✅ Authorization System
+- [x] Spatie Permission integration
+- [x] Roles and Permissions
+- [x] Policies per modelli
+- [x] Gates personalizzate
+- [x] Panel access control (Filament)
+
+### ✅ User Models
+- [x] BaseUser abstract model
+- [x] User concrete model
+- [x] Profile system
+- [x] Parental inheritance pattern
+- [x] UUID primary keys
+- [x] Soft deletes
+- [x] Audit trail (created_by/updated_by)
+
+### ✅ Multi-Tenancy
+- [x] HasTeams trait
+- [x] Team management
+- [x] Current team switching
+- [x] Team-scoped data
+
+### ✅ Filament Integration
+- [x] User Resource (CRUD)
+- [x] Profile Resource
+- [x] Role Resource
+- [x] Permission Resource
+- [x] Auth Widgets (Login, Register, Logout)
+- [x] My Profile page
+
+---
+
+## 🚧 Funzionalità In Sviluppo
+
+### 1. Security Enhancements (Priorità: Alta)
+- [ ] **2FA / Two-Factor Authentication**
+  - TOTP (Time-based One-Time Password)
+  - SMS codes
+  - Backup codes
+  - Device management
+
+- [ ] **Password Policies**
+  - Complessità minima
+  - Scadenza password (password_expires_at)
+  - History password (prevent reuse)
+  - Strength meter UI
+
+- [ ] **Session Management**
+  - Active sessions list
+  - Revoke sessions
+  - Device tracking
+  - Login notifications
+
+- [ ] **Account Security**
+  - Account lockout after failed attempts
+  - CAPTCHA integration
+  - Security questions
+  - Anomaly detection
+
+### 2. User Experience (Priorità: Alta)
+- [ ] **Enhanced Profile**
+  - Avatar upload e crop
+  - Rich profile editor
+  - Privacy settings
+  - Notification preferences
+
+- [ ] **Account Settings**
+  - Change password
+  - Change email (with verification)
+  - Change phone
+  - Linked social accounts management
+
+- [ ] **Activity Log**
+  - Login history
+  - IP tracking
+  - Browser/device info
+  - Action audit trail
+
+### 3. Social Features (Priorità: Media)
+- [ ] **Social Login**
+  - Complete Apple login
+  - LinkedIn
+  - Microsoft
+  - Auto-create profiles
+
+- [ ] **User Connections**
+  - Follow/Unfollow users
+  - Friends system
+  - Block users
+  - User mentions (@username)
+
+### 4. Admin Features (Priorità: Alta)
+- [ ] **User Management**
+  - Bulk operations
+  - User import/export
+  - Advanced filters
+  - User impersonation (admin)
+
+- [ ] **Role Management**
+  - Dynamic role creation
+  - Permission inheritance
+  - Role templates
+  - Role assignment rules
+
+- [ ] **Analytics**
+  - User growth metrics
+  - Active users tracking
+  - Login/logout stats
+  - Geographic distribution
+
+---
+
+## 📅 Funzionalità Pianificate
+
+### Q2 2025: Advanced Features
+- [ ] **SSO (Single Sign-On)**
+  - SAML 2.0
+  - OAuth 2.0 provider
+  - LDAP/Active Directory
+  - Multi-domain support
+
+- [ ] **User Verification**
+  - Document upload e verifica
+  - Phone verification
+  - Address verification
+  - Identity verification (KYC)
+
+- [ ] **Gamification**
+  - User levels/ranks
+  - Badges and achievements
+  - Points system
+  - Leaderboards
+
+### Q3 2025: Enterprise Features
+- [ ] **Advanced Permissions**
+  - Resource-level permissions
+  - Time-based permissions
+  - Conditional permissions
+  - Permission requests workflow
+
+- [ ] **Compliance**
+  - GDPR compliance tools
+  - Data export
+  - Data deletion
+  - Consent management
+  - Audit reports
+
+- [ ] **Multi-Language Profiles**
+  - Preferred language
+  - Timezone management
+  - Date/time format preferences
+  - Currency preferences
+
+---
+
+## 🔧 Problemi Tecnici da Risolvere
+
+### Critici (Fix ASAP)
+- [ ] **BaseUser.php**: Rimozione duplicazioni documentazione (COMPLETATO!)
+- [ ] **Trait HasTeams**: Rimozione metodi duplicati
+- [ ] **Namespace consistency**: Pulizia namespace Modules\User\App vs Modules\User
+- [ ] **Migration conflicts**: Risoluzione conflitti git nelle migrations
+
+### Importanti
+- [ ] **Factory coverage**: Factories per tutti i models
+- [ ] **Test coverage**: Raggiungere >80%
+- [ ] **PHPStan level**: Da level 3 a level 5+
+- [ ] **Memory optimization**: Rimozione eager loading non necessario
+- [ ] **Translation keys**: Completamento traduzioni IT/EN/ES
+
+### Miglioramenti
+- [ ] **Documentation cleanup**: Rimozione file duplicati docs/
+- [ ] **Code refactoring**: Applicazione SOLID principles
+- [ ] **Query optimization**: N+1 queries prevention
+- [ ] **API Resources**: DTO pattern per API responses
+- [ ] **Event/Listener**: Completamento event system
+
+---
+
+## 📐 Architettura
+
+### Modelli Principali
+```
+BaseUser (abstract)
+├── User (concrete)
+│   ├── profile() → Profile
+│   ├── teams() → Team[]
+│   ├── roles() → Role[]
+│   ├── permissions() → Permission[]
+│   ├── devices() → Device[]
+│   ├── socialiteUsers() → SocialiteUser[]
+│   └── authentications() → AuthenticationLog[]
+├── Profile (concrete)
+│   ├── user() → User
+│   └── media() → Media[]
+└── Team
+    ├── owner() → User
+    └── users() → User[]
+```
+
+### Service Layer
+```
+AuthService
+├── register()
+├── login()
+├── logout()
+├── verifyEmail()
+└── resetPassword()
+
+UserService
+├── createUser()
+├── updateUser()
+├── deleteUser()
+├── assignRole()
+└── syncPermissions()
+
+ProfileService
+├── updateProfile()
+├── uploadAvatar()
+├── updatePreferences()
+└── exportData()
+
+TeamService
+├── createTeam()
+├── addMember()
+├── removeMember()
+└── switchCurrentTeam()
+```
+
+### Policies
+```
+UserPolicy
+├── viewAny()
+├── view()
+├── create()
+├── update()
+├── delete()
+├── restore()
+├── forceDelete()
+└── impersonate()
+
+ProfilePolicy
+├── view()
+├── update()
+└── delete()
+```
+
+---
+
+## 🧪 Testing Strategy
+
+### Unit Tests (Target: 90%)
+- [ ] Model factories e relationships
+- [ ] Service methods
+- [ ] Policy authorization
+- [ ] Traits (HasTeams, etc.)
+- [ ] Accessors/Mutators
+
+### Feature Tests (Target: 85%)
+- [ ] Registration flow
+- [ ] Login/Logout flow
+- [ ] Password reset flow
+- [ ] Email verification
+- [ ] Social login
+- [ ] Profile update
+- [ ] Role/Permission assignment
+
+### Integration Tests
+- [ ] Filament Resources
+- [ ] API endpoints
+- [ ] Event listeners
+- [ ] Notification sending
+
+---
+
+## 📚 Documentazione da Completare
+
+### Pulizia Necessaria
+La cartella `docs/` contiene ~300+ file con molti duplicati:
+- File con underscore `_` vs trattino `-`
+- File con versioni multiple
+- File obsoleti da rimuovere
+
+**Action Plan**:
+1. Consolidare file duplicati
+2. Rimuovere file obsoleti
+3. Organizzare per categoria
+4. Creare indice navigabile
+5. Link bidirezionali tra documenti
+
+### Documenti Prioritari
+- [ ] User Authentication Guide
+- [ ] Authorization Best Practices
+- [ ] Multi-Tenancy Guide
+- [ ] Profile Management Guide
+- [ ] Social Login Setup
+- [ ] Security Hardening Guide
+
+---
+
+## 🔐 Security Checklist
+
+### Authentication
+- [x] Password hashing (bcrypt)
+- [ ] Password complexity requirements
+- [ ] Password expiration
+- [ ] Failed login attempts tracking
+- [ ] Account lockout
+- [ ] CAPTCHA on login
+- [ ] 2FA implementation
+
+### Session Management
+- [x] Session regeneration on login
+- [x] CSRF protection
+- [ ] Session timeout
+- [ ] Concurrent session control
+- [ ] Secure cookie settings
+- [ ] HTTPOnly cookies
+
+### Data Protection
+- [x] Input validation
+- [x] XSS prevention
+- [x] SQL injection prevention (Eloquent)
+- [ ] File upload validation
+- [ ] Personal data encryption
+- [ ] GDPR compliance
+- [ ] Data retention policies
+
+---
+
+## 📈 Metriche di Successo
+
+### KPI Tecnici
+| Metrica | Baseline | Target Q2 | Target Q3 |
+|---------|----------|-----------|-----------|
+| Test coverage | ~40% | > 80% | > 90% |
+| PHPStan level | 3 | 5 | 8 |
+| Response time | ~300ms | < 150ms | < 100ms |
+| Memory usage | ~80MB | < 60MB | < 50MB |
+
+### KPI Funzionali
+| Metrica | Target |
+|---------|--------|
+| Registration success rate | > 95% |
+| Login success rate | > 98% |
+| Password reset completion | > 85% |
+| Social login adoption | > 30% |
+| 2FA adoption | > 50% (admin) |
+
+---
+
+## 🚀 Quick Wins (Immediate Actions)
+
+### Week 1-2: Cleanup
+1. ✅ Fix BaseUser.php syntax errors
+2. [ ] Remove duplicate docs files
+3. [ ] Consolidate namespace (remove App)
+4. [ ] Update all factories
+
+### Week 3-4: Security
+1. [ ] Implement 2FA
+2. [ ] Add password policies
+3. [ ] Session management page
+4. [ ] Security audit
+
+### Week 5-6: UX
+1. [ ] Enhanced profile page
+2. [ ] Avatar upload/crop
+3. [ ] Activity log
+4. [ ] Notification preferences
+
+---
+
+## 🔗 Collegamenti Utili
+
+### Documentazione Correlata
+- [Roadmap Progetto](../../../docs/roadmap_project.md)
+- [Modulo Fixcity](../../Fixcity/docs/ROADMAP.md)
+- [Modulo Tenant](../../Tenant/docs/README.md)
+- [Spatie Permissions](https://spatie.be/docs/laravel-permission)
+
+### Best Practices
+- [Laravel Authentication](https://laravel.com/docs/authentication)
+- [OWASP Authentication Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+- [GDPR Compliance](https://gdpr.eu/)
+
+---
+
+**Versione**: 1.0.0  
+**Maintainer**: User Module Team  
+**Status**: 🚧 In Development (70% completo)  
+**Prossima Revisione**: [DATE]
+
+

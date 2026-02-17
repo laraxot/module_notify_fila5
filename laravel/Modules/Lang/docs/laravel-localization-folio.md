@@ -40,11 +40,7 @@ Route::group(
     }
 );
 ```
-<<<<<<< HEAD
-**Risultato:**  
-=======
 **Risultato:**
->>>>>>> laraxot/develop
 Tutte le pagine Folio saranno accessibili con il prefisso lingua (`/it/about`, `/en/about`, ecc).
 
 ---
@@ -68,11 +64,7 @@ Tutte le pagine Folio saranno accessibili con il prefisso lingua (`/it/about`, `
     ```
 3. Se vuoi che anche Folio generi le rotte con path tradotti, valuta di creare symlink o duplicati dei file Blade con nomi localizzati, oppure implementa una logica custom (ad oggi Folio non supporta nativamente il mapping automatico dei path tramite array di traduzioni).
 
-<<<<<<< HEAD
-**Nota:**  
-=======
 **Nota:**
->>>>>>> laraxot/develop
 Se la localizzazione dei path è fondamentale, valuta se usare ancora le rotte classiche per le pagine che richiedono path tradotti, oppure contribuisci/estendi Folio per supportare questa feature.
 
 ---
@@ -108,15 +100,6 @@ Se la localizzazione dei path è fondamentale, valuta se usare ancora le rotte c
 ---
 
 ## 4. FAQ e problemi comuni
-<<<<<<< HEAD
-- **Perché una pagina Folio non viene localizzata?**  
-  Verifica che la registrazione di Folio sia dentro il gruppo di localizzazione e che il middleware sia applicato.
-- **Come traduco i path delle pagine Folio?**  
-  Ad oggi serve una soluzione custom (symlink, duplicati, override di Folio) oppure accetta che i path siano in inglese ma i contenuti localizzati.
-- **Come gestisco redirect e link?**  
-  Usa sempre `route(LaravelLocalization::transRoute('routes.nome'))` per generare URL localizzati.
-- **Come gestisco i form POST?**  
-=======
 - **Perché una pagina Folio non viene localizzata?**
   Verifica che la registrazione di Folio sia dentro il gruppo di localizzazione e che il middleware sia applicato.
 - **Come traduco i path delle pagine Folio?**
@@ -124,7 +107,6 @@ Se la localizzazione dei path è fondamentale, valuta se usare ancora le rotte c
 - **Come gestisco redirect e link?**
   Usa sempre `route(LaravelLocalization::transRoute('routes.nome'))` per generare URL localizzati.
 - **Come gestisco i form POST?**
->>>>>>> laraxot/develop
   Usa sempre l'helper `localizeURL` per l'action dei form:
   ```blade
   <form action="{{ LaravelLocalization::localizeURL('/contatti') }}" method="POST">
@@ -142,15 +124,6 @@ Se la localizzazione dei path è fondamentale, valuta se usare ancora le rotte c
 ---
 
 ## 6. Modifiche consigliate ai file del progetto
-<<<<<<< HEAD
-- **routes/web.php**:  
-  Sposta la registrazione di Folio dentro il gruppo localizzato.
-- **lang/{locale}/routes.php**:  
-  Aggiungi mapping per i path delle pagine Folio se vuoi path tradotti.
-- **layouts Blade**:  
-  Inserisci il language switcher in tutti i layout usati da Folio.
-- **Documentazione**:  
-=======
 - **routes/web.php**:
   Sposta la registrazione di Folio dentro il gruppo localizzato.
 - **lang/{locale}/routes.php**:
@@ -158,7 +131,6 @@ Se la localizzazione dei path è fondamentale, valuta se usare ancora le rotte c
 - **layouts Blade**:
   Inserisci il language switcher in tutti i layout usati da Folio.
 - **Documentazione**:
->>>>>>> laraxot/develop
   Aggiorna sempre questa guida ogni volta che cambi la struttura delle pagine o la strategia di localizzazione.
 
 ---
@@ -167,14 +139,6 @@ Se la localizzazione dei path è fondamentale, valuta se usare ancora le rotte c
 - [Documentazione ufficiale mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
 - [Documentazione Laravel Folio](https://laravel.com/project_docs/12.x/folio)
 - [Esempio di mapping rotte](https://github.com/mcamara/laravel-localization#translated-routes)
-<<<<<<< HEAD
-- [FAQ e problemi comuni](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Lang/project_docs/translations-faq.md)
-- [Guida language switcher](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Lang/project_docs/README.md)
-
----
-
-**Se vuoi che aggiorni direttamente la documentazione o vuoi esempi pratici di override/mapping path Folio, chiedi pure!** 
-=======
 - [FAQ e problemi comuni](Modules/Lang/project_docs/translations-faq.md)
 - [Guida language switcher](Modules/Lang/project_docs/README.md)
 
@@ -328,4 +292,3 @@ Se la localizzazione dei path è fondamentale, valuta se usare ancora le rotte c
 ---
 
 **Se vuoi che aggiorni direttamente la documentazione o vuoi esempi pratici di override/mapping path Folio, chiedi pure!**
->>>>>>> laraxot/develop
