@@ -5,19 +5,11 @@ declare(strict_types=1);
 namespace Modules\Lang\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\Lang\Models\BaseModel;
-use Tests\TestCase;
-
-uses(TestCase::class, RefreshDatabase::class);
-=======
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Modules\Lang\Models\BaseModel;
 use Tests\TestCase;
 
 uses(TestCase::class, DatabaseTransactions::class);
->>>>>>> laraxot/develop
 
 beforeEach(function () {
     $this->baseModel = new class extends BaseModel {
@@ -43,9 +35,5 @@ test('base model has proper inheritance chain', function () {
 });
 
 test('base model has timestamps enabled', function () {
-<<<<<<< HEAD
-    expect($this->baseModel)->usesTimestamps()->toBeTrue();
-=======
     expect($this->baseModel->usesTimestamps())->toBeTrue();
->>>>>>> laraxot/develop
 });

@@ -14,11 +14,7 @@ return [
     'fields' => [
         'field_name' => [
             'label' => 'Campo Label',                    // OBBLIGATORIO
-<<<<<<< HEAD
-            'placeholder' => 'Inserisci valore',        // OBBLIGATORIO  
-=======
             'placeholder' => 'Inserisci valore',        // OBBLIGATORIO
->>>>>>> laraxot/develop
             'tooltip' => 'Suggerimento breve',          // OBBLIGATORIO
             'helper_text' => 'Testo di aiuto dettagliato', // OBBLIGATORIO
             'description' => 'Descrizione completa del campo', // OBBLIGATORIO
@@ -332,4 +328,4 @@ grep -r "label.*Città" laravel/Modules/*/lang/de/ laravel/Modules/*/lang/en/
 cd laravel && ./vendor/bin/phpstan analyze Modules/*/lang/ --level=9
 ```
 
-*Ultimo aggiornamento: 2025-08-08 - Struttura completa standardizzata*
+*Ultimo aggiornamento: [DATE] - Struttura completa standardizzata*

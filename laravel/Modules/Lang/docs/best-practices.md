@@ -311,11 +311,7 @@ $text = $allTranslations[$locale]['key'] ?? 'key';
 public function test_translation_structure(): void
 {
     $translations = require lang_path('it/fields.php');
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     $this->assertIsArray($translations);
     $this->assertArrayHasKey('name', $translations);
     $this->assertArrayHasKey('label', $translations['name']);
@@ -339,7 +335,7 @@ php artisan lang:benchmark         # Test performance
 ```php
 // Metadati versione
 'version' => '2.0.0',
-'last_updated' => '2025-01-27',
+'last_updated' => '[DATE]',
 'compatibility' => [
     'laravel' => '^12.0',
     'filament' => '^3.0',
@@ -427,13 +423,7 @@ return [
 
 ---
 
-<<<<<<< HEAD
-**Ultimo aggiornamento**: Gennaio 2025  
-**Versione**: 2.0.0  
-**Autore**: Team Laraxot  
-=======
 **Ultimo aggiornamento**: Gennaio 2025
 **Versione**: 2.0.0
 **Autore**: Team Laraxot
->>>>>>> laraxot/develop
 **Mantenuto da**: Community Laraxot

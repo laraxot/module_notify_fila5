@@ -203,8 +203,6 @@ Create forms that allow input for each language:
 - **Fallback**: For complex models requiring detailed translation tracking or separate table structures (e.g., for audit purposes), consider the manual approach or **Astrotomic Laravel Translatable**.
 
 This strategy ensures flexibility to adapt based on model complexity while maintaining ease of use for developers and translators in a healthcare setting.
-<<<<<<< HEAD
-=======
 # Model Translations in `<nome progetto>`
 
 ## Overview
@@ -410,4 +408,3 @@ Create forms that allow input for each language:
 - **Fallback**: For complex models requiring detailed translation tracking or separate table structures (e.g., for audit purposes), consider the manual approach or **Astrotomic Laravel Translatable**.
 
 This strategy ensures flexibility to adapt based on model complexity while maintaining ease of use for developers and translators in a healthcare setting.
->>>>>>> laraxot/develop

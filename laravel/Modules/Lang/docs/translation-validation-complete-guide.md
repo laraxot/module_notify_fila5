@@ -129,11 +129,7 @@ Ogni campo di traduzione DEVE includere:
 
 ### 1. Helper Text Audit
 ```bash
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-=======
 cd laravel
->>>>>>> laraxot/develop
 php docs/helper-text-audit-script.php
 ```
 
@@ -189,7 +185,7 @@ php docs/obbligatorio-audit-script.php
 
 ## Status Progetto <nome progetto>
 
-### ✅ Validazioni Completate (2025-08-08)
+### ✅ Validazioni Completate ([DATE])
 
 1. **Helper Text Normalizzazione**: ✅ CONFORME
    - Nessun helper_text uguale alla chiave padre
@@ -207,11 +203,7 @@ php docs/obbligatorio-audit-script.php
 
 ### File Corretti Durante il Progetto
 1. `/Modules/User/lang/de/registration.php` - Campi city e state
-<<<<<<< HEAD
-2. `/Modules/User/lang/en/registration.php` - Campi city e province  
-=======
 2. `/Modules/User/lang/en/registration.php` - Campi city e province
->>>>>>> laraxot/develop
 3. `/Modules/User/lang/de/register_tenant.php` - Campo address
 4. `/Themes/One/lang/de/auth.php` - Sezione login completa
 5. `/Modules/Geo/lang/en/address.php` - Campi province e region
@@ -240,8 +232,8 @@ php docs/obbligatorio-audit-script.php
 - [Riepilogo Finale Refactor](translation-refactor-complete-summary.md)
 
 ### Documentazione Moduli
-- [User Module - City Field Refactor](../Modules/User/docs/translation-city-field-refactor-2025-08-08.md)
-- [<nome progetto> Module - Refactor Summary](../Modules/<nome progetto>/docs/translation-refactor-summary-2025-08-08.md)
+- [User Module - City Field Refactor](../Modules/User/docs/translation-city-field-refactor-[DATE].md)
+- [<nome progetto> Module - Refactor Summary](../Modules/<nome progetto>/docs/translation-refactor-summary-[DATE].md)
 - [Geo Module - Helper Text Fix](../Modules/Geo/docs/helper-text-normalization-fix.md)
 
 ### Script e Tool
@@ -251,13 +243,7 @@ php docs/obbligatorio-audit-script.php
 
 ---
 
-<<<<<<< HEAD
-**Data Creazione**: 8 Agosto 2025  
-**Ultima Validazione**: 8 Agosto 2025  
-**Status**: ✅ TUTTI I CONTROLLI SUPERATI  
-=======
 **Data Creazione**: 8 Agosto 2025
 **Ultima Validazione**: 8 Agosto 2025
 **Status**: ✅ TUTTI I CONTROLLI SUPERATI
->>>>>>> laraxot/develop
 **Conformità**: ✅ PROGETTO COMPLETAMENTE CONFORME

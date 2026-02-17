@@ -12,11 +12,7 @@ Il file `Modules/Lang/app/Providers/LangServiceProvider.php` presenta conflitti 
 ### Conflitto 1 (Linea 44)
 ```php
         $this->registerFilamentLabel();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/develop
         $this->registerFilamentLabel();
 ```
 
@@ -26,11 +22,7 @@ Il file `Modules/Lang/app/Providers/LangServiceProvider.php` presenta conflitti 
 ```php
         Step::configureUsing(function (Step $component) {
             $component = app(AutoLabelAction::class)->execute($component);
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/develop
         Step::configureUsing(function (Step $component) {
             $component = app(AutoLabelAction::class)->execute($component);
 
@@ -53,11 +45,7 @@ Il file `Modules/Lang/app/Providers/LangServiceProvider.php` presenta conflitti 
 ```php
 // PRIMA (conflitto)
         $this->registerFilamentLabel();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/develop
         $this->registerFilamentLabel();
 
 // DOPO (risolto)
@@ -69,18 +57,10 @@ Il file `Modules/Lang/app/Providers/LangServiceProvider.php` presenta conflitti 
 // PRIMA (conflitto)
         Step::configureUsing(function (Step $component) {
             $component = app(AutoLabelAction::class)->execute($component);
-<<<<<<< HEAD
-            
-        Step::configureUsing(function (Step $component) {
-            $component = app(AutoLabelAction::class)->execute($component);
-
-
-=======
 
         Step::configureUsing(function (Step $component) {
             $component = app(AutoLabelAction::class)->execute($component);
 
->>>>>>> laraxot/develop
 // DOPO (risolto)
         Step::configureUsing(function (Step $component) {
             $component = app(AutoLabelAction::class)->execute($component);
@@ -125,9 +105,6 @@ Il file `Modules/Lang/app/Providers/LangServiceProvider.php` presenta conflitti 
 - **Data**: Gennaio 2025
 - **Modulo**: Lang
 - **File**: `app/Providers/LangServiceProvider.php`
-<<<<<<< HEAD
-- **Tipo Conflitto**: Formattazione codice 
-=======
 - **Tipo Conflitto**: Formattazione codice
 # Risoluzione Conflitto LangServiceProvider
 
@@ -237,4 +214,3 @@ Il file `Modules/Lang/app/Providers/LangServiceProvider.php` presenta conflitti 
 - **Modulo**: Lang
 - **File**: `app/Providers/LangServiceProvider.php`
 - **Tipo Conflitto**: Formattazione codice
->>>>>>> laraxot/develop

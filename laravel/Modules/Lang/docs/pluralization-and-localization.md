@@ -32,21 +32,13 @@
 - **File JSON**: Evitare l'uso per le stringhe plurali, salvo casi di necessità per traduttori non-dev.
 
 ### 1.5 Esempio Completo
-<<<<<<< HEAD
-- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/lang/en/messages.php`:
-=======
 - `lang/en/messages.php`:
->>>>>>> laraxot/develop
   ```php
   return [
       'newMessageIndicator' => '{0} You have no new messages|{1} You have 1 new message|[2,*] You have :count new messages',
   ];
   ```
-<<<<<<< HEAD
-- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/lang/it/messages.php`:
-=======
 - `lang/it/messages.php`:
->>>>>>> laraxot/develop
   ```php
   return [
       'newMessageIndicator' => '{0} Non hai nuovi messaggi|{1} Hai 1 nuovo messaggio|[2,*] Hai :count nuovi messaggi',
@@ -177,15 +169,9 @@
 
 ## 3. FAQ e Problemi Comuni
 
-<<<<<<< HEAD
-- **Come gestire plurale/singolare in più lingue?**  
-  Usa sempre file PHP e chiavi strutturate, sfrutta `trans_choice()` e `@choice()`.
-- **Come localizzare date e valute?**  
-=======
 - **Come gestire plurale/singolare in più lingue?**
   Usa sempre file PHP e chiavi strutturate, sfrutta `trans_choice()` e `@choice()`.
 - **Come localizzare date e valute?**
->>>>>>> laraxot/develop
   Usa Carbon per le date e NumberFormatter per le valute, impostando la locale corretta.
 
 ---
@@ -196,9 +182,6 @@
 - [TRANSLATION_KEYS_BEST_PRACTICES.md](./TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [translations-storage.md](./translations-storage.md)
 - [translation-process.md](./translation-process.md)
-<<<<<<< HEAD
-- [README.md](./README.md) 
-=======
 - [README.md](./README.md)
 # Plurale/Singolare e Localizzazione Date/Valute
 
@@ -385,4 +368,3 @@
 - [translations-storage.md](./translations-storage.md)
 - [translation-process.md](./translation-process.md)
 - [README.md](./README.md)
->>>>>>> laraxot/develop

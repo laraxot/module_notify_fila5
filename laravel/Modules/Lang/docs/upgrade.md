@@ -34,16 +34,8 @@ php artisan module_lang:show-versions
 * [upgrade.md](../../../Lang/docs/upgrade.md)
 * [upgrade.md](../../../Cms/docs/upgrade.md)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/develop
 ### Versione Incoming
 
 ```
 
 ---
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/develop

@@ -92,8 +92,4 @@ foreach (config('app.supported_locales') as $locale) {
 
 - [Torna a packages.md](../packages.md)
 - [Localizzazione](localization.md)
-<<<<<<< HEAD
-- [Performance](performance.md) 
-=======
 - [Performance](performance.md)
->>>>>>> laraxot/develop

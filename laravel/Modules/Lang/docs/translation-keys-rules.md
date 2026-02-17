@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Regole per le Chiavi di Traduzione 
-=======
 # Regole per le Chiavi di Traduzione
->>>>>>> laraxot/develop
 
 ## Collegamenti correlati
 - [Documentazione centrale](./README.md)
@@ -138,17 +134,10 @@ return [
 <form>
     <label>{{ __('auth.login.fields.email.label') }}</label>
     <input type="email" placeholder="{{ __('auth.login.fields.email.placeholder') }}">
-<<<<<<< HEAD
-    
-    <label>{{ __('auth.login.fields.password.label') }}</label>
-    <input type="password" placeholder="{{ __('auth.login.fields.password.placeholder') }}">
-    
-=======
 
     <label>{{ __('auth.login.fields.password.label') }}</label>
     <input type="password" placeholder="{{ __('auth.login.fields.password.placeholder') }}">
 
->>>>>>> laraxot/develop
     <button type="submit">{{ __('auth.login.button.label') }}</button>
 </form>
 ```
@@ -221,13 +210,11 @@ php artisan lang:sync
 
 Seguire queste regole per le chiavi di traduzione è fondamentale per garantire la coerenza, la manutenibilità e l'internazionalizzazione dell'applicazione . L'utilizzo di chiavi standardizzate e strutturate gerarchicamente facilita la gestione delle traduzioni e migliora la qualità complessiva del codice.
 
-## [2024-07-07] Nota storica: correzione massiva Notify
+## [[DATE]] Nota storica: correzione massiva Notify
 
 - Sono state applicate correzioni strutturali alle traduzioni del modulo Notify per allineamento a queste regole.
 - Vedi anche: [TRANSLATION_KEYS_RULES.md](../../../Notify/docs/TRANSLATION_KEYS_RULES.md) per dettagli, esempi e best practice specifiche.
 - Ogni nuova regola o convenzione va riportata sia qui che nella documentazione del modulo coinvolto.
-<<<<<<< HEAD
-=======
 # Regole per le Chiavi di Traduzione
 
 ## Collegamenti correlati
@@ -440,9 +427,8 @@ php artisan lang:sync
 
 Seguire queste regole per le chiavi di traduzione è fondamentale per garantire la coerenza, la manutenibilità e l'internazionalizzazione dell'applicazione <nome progetto>. L'utilizzo di chiavi standardizzate e strutturate gerarchicamente facilita la gestione delle traduzioni e migliora la qualità complessiva del codice.
 
-## [2024-07-07] Nota storica: correzione massiva Notify
+## [[DATE]] Nota storica: correzione massiva Notify
 
 - Sono state applicate correzioni strutturali alle traduzioni del modulo Notify per allineamento a queste regole.
 - Vedi anche: [TRANSLATION_KEYS_RULES.md](../../../Notify/docs/TRANSLATION_KEYS_RULES.md) per dettagli, esempi e best practice specifiche.
 - Ogni nuova regola o convenzione va riportata sia qui che nella documentazione del modulo coinvolto.
->>>>>>> laraxot/develop

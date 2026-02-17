@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\SocialProviderResource\Pages;
 
-use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
-use Filament\Actions\ViewAction;
 use Filament\Actions\DeleteAction;
-use Filament\Actions;
+use Filament\Actions\ViewAction;
 use Modules\User\Filament\Resources\SocialProviderResource;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 
 class EditSocialProvider extends XotBaseEditRecord
 {
@@ -18,8 +16,8 @@ class EditSocialProvider extends XotBaseEditRecord
     protected function getHeaderActions(): array
     {
         return [
-            ViewAction::make(),
-            DeleteAction::make(),
+            'view' => ViewAction::make(),
+            'delete' => DeleteAction::make(),
         ];
     }
 }

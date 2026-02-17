@@ -64,8 +64,6 @@ function makeLanguage(array $attributes = []): Language
 {
     return Language::factory()->make($attributes);
 }
-<<<<<<< HEAD
-=======
 
 function createTranslationFile(string $filePath, array $translations): void
 {
@@ -79,4 +77,3 @@ function cleanupTranslationFile(string $filePath): void
         unlink($filePath);
     }
 }
->>>>>>> laraxot/develop

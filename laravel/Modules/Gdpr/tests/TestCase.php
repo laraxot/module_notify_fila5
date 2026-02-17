@@ -14,33 +14,44 @@ use Modules\Xot\Tests\CreatesApplication;
 /**
  * Base test case for Gdpr module.
  *
- * Uses MySQL from .env.testing (NOT SQLite).
+ * Uses MySQL from .env.testing.
+ * All module connections are mapped by TenantServiceProvider.
  */
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
     use DatabaseTransactions;
 
+    protected $connectionsToTransact = [
+        'mysql',
+        'user',
+    ];
+
     protected function setUp(): void
     {
         parent::setUp();
 
-        $this->artisan('migrate', ['--database' => 'gdpr']);
-        $this->artisan('migrate', ['--database' => 'user']);
-        $this->artisan('migrate', ['--database' => 'xot']);
+        config(['xra.pub_theme' => 'Meetup']);
+        config(['xra.main_module' => 'User']);
+        config(['xra.register_pub_theme' => true]);
+
+        \Modules\Xot\Datas\XotData::make()->update([
+            'pub_theme' => 'Meetup',
+            'main_module' => 'User',
+            'register_pub_theme' => true,
+        ]);
+
+        // NOTE: Migrations are NOT run in setUp()
+        // They must be run ONCE externally: php artisan migrate --env=testing
+        // DatabaseTransactions trait handles rollback automatically between tests
     }
 
-    /**
-     * @param \Illuminate\Foundation\Application $app
-     *
-     * @return array<int, class-string>
-     */
     protected function getPackageProviders($app): array
     {
         return [
-            GdprServiceProvider::class,
-            UserServiceProvider::class,
             XotServiceProvider::class,
+            UserServiceProvider::class,
+            GdprServiceProvider::class,
         ];
     }
 }

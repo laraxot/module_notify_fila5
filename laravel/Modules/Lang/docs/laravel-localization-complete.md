@@ -196,8 +196,6 @@ Il pacchetto `mcamara/laravel-localization` offre un controllo versatile sulla l
 
 - Repository GitHub: [LaravelDaily/laravel11-localization-course](https://github.com/LaravelDaily/laravel11-localization-course/tree/lesson/packages/mcamara-laravel-localization)
 - Documentazione Ufficiale: [mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
-<<<<<<< HEAD
-=======
 # Guida Completa a Laravel Localization
 
 ## Introduzione
@@ -396,4 +394,3 @@ Il pacchetto `mcamara/laravel-localization` offre un controllo versatile sulla l
 
 - Repository GitHub: [LaravelDaily/laravel11-localization-course](https://github.com/LaravelDaily/laravel11-localization-course/tree/lesson/packages/mcamara-laravel-localization)
 - Documentazione Ufficiale: [mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
->>>>>>> laraxot/develop

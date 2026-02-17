@@ -17,11 +17,7 @@ TextInput::make('nome')
 TextInput::make('nome')  // Le traduzioni vengono gestite automaticamente dal LangServiceProvider
 ```
 
-<<<<<<< HEAD
-**Motivazione**: 
-=======
 **Motivazione**:
->>>>>>> laraxot/develop
 Il metodo `->label()` e simili non devono mai essere utilizzati direttamente nei componenti Filament. Le etichette vengono gestite automaticamente dal `LangServiceProvider` che intercetta la creazione dei componenti e applica le traduzioni dai file di lingua.
 
 ## Struttura delle Traduzioni
@@ -126,8 +122,4 @@ Prima di committare:
 
 - [Filament Translations](/.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
-<<<<<<< HEAD
 - [Best Practices](/.cursor/rules/translations.rule)
-=======
-- [Best Practices](/.cursor/rules/translations.rule)
->>>>>>> laraxot/develop

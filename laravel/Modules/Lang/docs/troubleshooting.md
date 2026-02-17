@@ -416,13 +416,7 @@ php artisan config:show lang
 
 ---
 
-<<<<<<< HEAD
-**Ultimo aggiornamento**: Gennaio 2025  
-**Versione**: 2.0.0  
-**Autore**: Team Laraxot  
-=======
 **Ultimo aggiornamento**: Gennaio 2025
 **Versione**: 2.0.0
 **Autore**: Team Laraxot
->>>>>>> laraxot/develop
 **Mantenuto da**: Community Laraxot
