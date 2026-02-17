@@ -112,8 +112,4 @@ Questa regola si applica a:
 - [Standard Helper Text](translation-helper-text-standards.md)
 - [Convenzioni Filament](filament-best-practices.md)
 
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06* 
-=======
-*Ultimo aggiornamento: 2025-01-06*
->>>>>>> laraxot/develop
+*Ultimo aggiornamento: [DATE]*

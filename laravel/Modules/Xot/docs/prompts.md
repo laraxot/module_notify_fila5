@@ -61,7 +61,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ## Collegamenti tra versioni di prompts.md
 * [prompts.md](docs/prompts.md)
-* [prompts.md](../../../Xot/docs/prompts.md)
+* [prompts.md](../../../Xot/project_docs/prompts.md)
 
 ## Modifiche al Prompt docs.txt
 
@@ -86,7 +86,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ### Percorsi Assoluti
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
-❌ Esempio errato: `../Xot/docs/file.md`
+❌ Esempio errato: `Modules/Xot/project_docs/file.md`
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore

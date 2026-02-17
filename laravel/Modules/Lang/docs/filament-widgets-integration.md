@@ -20,11 +20,7 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
 class LanguageSwitcherWidget extends XotBaseWidget
 {
     protected static string $view = 'lang::filament.widgets.language-switcher';
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     public function getViewData(): array
     {
         return [
@@ -32,20 +28,12 @@ class LanguageSwitcherWidget extends XotBaseWidget
             'available_locales' => $this->getAvailableLocales(),
         ];
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     protected function getAvailableLocales(): Collection
     {
         // Implementation for retrieving available languages
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     public function changeLanguage(string $locale): void
     {
         // Language switching logic
@@ -63,11 +51,7 @@ class LanguageSwitcherWidget extends XotBaseWidget
         <ul class="dropdown-content">
             @foreach($available_locales as $locale)
                 <li>
-<<<<<<< HEAD
-                    <a 
-=======
                     <a
->>>>>>> laraxot/develop
                         href="{{ $this->getLanguageUrl($locale['code']) }}"
                         wire:click="changeLanguage('{{ $locale['code'] }}')"
                     >
@@ -113,13 +97,8 @@ Replace Livewire component with Filament widget:
 <livewire:lang.switcher />
 
 {{-- NEW --}}
-<<<<<<< HEAD
-<x-filament-widgets::widget 
-    :widget="\Modules\Lang\Filament\Widgets\LanguageSwitcherWidget::class" 
-=======
 <x-filament-widgets::widget
     :widget="\Modules\Lang\Filament\Widgets\LanguageSwitcherWidget::class"
->>>>>>> laraxot/develop
 />
 ```
 
@@ -165,11 +144,7 @@ Ensure proper Laravel localization setup:
 - Test URL generation
 - Test language switching functionality
 
-<<<<<<< HEAD
-### Integration Tests  
-=======
 ### Integration Tests
->>>>>>> laraxot/develop
 - Test widget rendering in different contexts
 - Test with different language configurations
 - Test error handling scenarios
@@ -223,8 +198,4 @@ Ensure proper Laravel localization setup:
 - Offline language support
 - Progressive Web App capabilities
 - Enhanced caching strategies
-<<<<<<< HEAD
 - Better error handling and fallbacks
-=======
-- Better error handling and fallbacks
->>>>>>> laraxot/develop

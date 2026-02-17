@@ -7,14 +7,9 @@ namespace Modules\User\Models;
 use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
-<<<<<<< HEAD
-=======
-use Illuminate\Database\Eloquent\Relations\MorphTo;
->>>>>>> 024bfed1 (.)
 use Illuminate\Foundation\Auth\Access\Authorizable;
 use Illuminate\Support\Carbon;
 use Laravel\Passport\Client as PassportClient;
-use Laravel\Passport\Database\Factories\ClientFactory;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 use Spatie\Permission\Traits\HasRoles;
@@ -42,8 +37,9 @@ use Spatie\Permission\Traits\HasRoles;
  * @property int|null                                 $tokens_count
  * @property UserContract|null                        $user
  * @property \Illuminate\Database\Eloquent\Model|null $owner
+ * @property string|null                              $updated_by
+ * @property string|null                              $created_by
  *
- * @method static ClientFactory       factory($count = null, $state = [])
  * @method static Builder|OauthClient newModelQuery()
  * @method static Builder|OauthClient newQuery()
  * @method static Builder|OauthClient query()
@@ -58,14 +54,9 @@ use Spatie\Permission\Traits\HasRoles;
  * @method static Builder|OauthClient whereSecret($value)
  * @method static Builder|OauthClient whereUpdatedAt($value)
  * @method static Builder|OauthClient whereUserId($value)
- *
- * @property string|null $updated_by
- * @property string|null $created_by
- *
  * @method static Builder|OauthClient whereCreatedBy($value)
  * @method static Builder|OauthClient whereUpdatedBy($value)
  *
- * @mixin IdeHelperOauthClient
  * @mixin \Eloquent
  */
 class OauthClient extends PassportClient implements AuthorizableContract
@@ -80,6 +71,7 @@ class OauthClient extends PassportClient implements AuthorizableContract
      * @var string
      */
     public $guard_name = 'api';
+
     /** @var string */
     protected $connection = 'user';
 
@@ -140,11 +132,6 @@ class OauthClient extends PassportClient implements AuthorizableContract
         return false;
     }
 
-    /**
-     * Check if client has any of the given permissions.
-     *
-     * @param iterable<string> $permissions
-     */
     /**
      * Check if client has any of the given permissions.
      *

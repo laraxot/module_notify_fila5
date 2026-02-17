@@ -1,3 +1,174 @@
+# Lang Module
+
+[![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
+[![Filament 5.x](https://img.shields.io/badge/Filament-5.x-blue.svg)](https://filamentphp.com/)
+[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
+[![PHP 8.3+](https://img.shields.io/badge/PHP-8.3+-blue.svg)](https://php.net)
+[![Languages 3](https://img.shields.io/badge/Languages-IT%20%7C%20EN%20%7C%20DE-green.svg)](#lingue)
+[![Actions 10](https://img.shields.io/badge/Actions-10-purple.svg)](#azioni)
+
+> **Gestione avanzata traduzioni**: sincronizzazione file di traduzione, integrazione Spatie/Astrotomic Translatable, validazione Artisan, editor traduzioni da Filament. 3 lingue supportate: IT, EN, DE.
+
+---
+
+## Cosa fa
+
+Il modulo Lang gestisce il sistema di localizzazione dell'intera applicazione: sincronizza i file di traduzione tra moduli, fornisce un editor visuale in Filament per modificare le traduzioni senza toccare i file, valida la completezza delle traduzioni tramite comandi Artisan, e integra Spatie/Astrotomic Translatable per modelli multilingua.
+
+```php
+// Tutte le traduzioni sono auto-risolte dal LangServiceProvider
+// Non serve specificare label nei componenti Filament
+TextInput::make('name');
+// -> Risolve automaticamente da: {locale}/{module}::field.name.label
+
+// Sincronizzazione traduzioni
+app(SyncTranslationsAction::class)->execute('Quaeris', ['it', 'en', 'de']);
+
+// Modelli traducibili
+$survey->setTranslation('title', 'it', 'Questionario Soddisfazione');
+$survey->setTranslation('title', 'en', 'Satisfaction Survey');
+$survey->getTranslation('title', 'de'); // 'Zufriedenheitsumfrage'
+```
+
+---
+
+## Modelli (3)
+
+| Modello | Funzione |
+|---------|----------|
+| **Translation** | Record traduzione (chiave, valore, lingua) |
+| **TranslationFile** | File di traduzione con stato sync |
+| **Post** | Contenuto traducibile generico |
+
+---
+
+## Azioni (10)
+
+| Action | Funzione |
+|--------|----------|
+| **SyncTranslationsAction** | Sincronizza file traduzione tra moduli |
+| **PublishTranslationAction** | Pubblica traduzioni aggiornate |
+| **SaveTransAction** | Salva traduzione singola |
+| **ReadFileAction** | Legge file traduzione PHP/JSON |
+| **WriteFileAction** | Scrive file traduzione |
+| **ValidateTranslationsAction** | Verifica completezza traduzioni |
+| **ImportTranslationsAction** | Importa traduzioni da file |
+| **ExportTranslationsAction** | Esporta traduzioni |
+
+---
+
+## Filament Integration
+
+| Resource | Funzione |
+|----------|----------|
+| **TranslationFileResource** | Editor file traduzioni |
+| **LangBaseResource** | Gestione traduzioni base |
+
+| Widget | Funzione |
+|--------|----------|
+| **LanguageSwitcherWidget** | Switch lingua nell'admin |
+
+---
+
+## Lingue supportate
+
+| Lingua | Codice | Stato |
+|--------|--------|-------|
+| **Italiano** | `it` | Completo |
+| **English** | `en` | Completo |
+| **Deutsch** | `de` | Completo |
+
+---
+
+## Auto-risoluzione traduzioni
+
+```php
+// Il LangServiceProvider risolve automaticamente le label
+// Pattern: {locale}/{module}::field.{field_name}.label
+
+// Esempio per il campo 'email' nel modulo User:
+// it/user::field.email.label -> "Email"
+// en/user::field.email.label -> "Email"
+// de/user::field.email.label -> "E-Mail"
+
+// Non serve hardcodare nessuna label nei componenti Filament
+TextInput::make('email'); // La label si risolve automaticamente
+```
+
+---
+
+## Integrazione Spatie Translatable
+
+```php
+// I modelli usano il trait HasTranslations
+use Spatie\Translatable\HasTranslations;
+
+class Survey extends BaseModel
+{
+    use HasTranslations;
+
+    public array $translatable = ['title', 'description'];
+}
+
+// Accesso alle traduzioni
+$survey->title; // Restituisce nella lingua attiva
+$survey->getTranslation('title', 'de'); // Traduzione specifica
+```
+
+---
+
+## Package locale: lara-zeus/spatie-translatable
+
+Il modulo include un package locale (`Modules/Lang/packages/lara-zeus/spatie-translatable`) per l'integrazione Filament-Translatable. Questo package e configurato come repository path nel `composer.json` root.
+
+---
+
+## Integrazione con altri moduli
+
+```
+Lang ──> Tutti i moduli (auto-risoluzione traduzioni)
+Lang ──> Quaeris    (titoli survey, etichette chart)
+Lang ──> Limesurvey (traduzioni domande/risposte)
+Lang ──> Cms        (contenuto pagine multilingua)
+Lang ──> Meetup     (eventi multilingua)
+Lang ──> UI         (componenti con label tradotte)
+```
+
+---
+
+## Quick Start
+
+```bash
+php artisan module:enable Lang
+php artisan migrate
+
+# Verifica traduzioni
+php artisan lang:validate
+
+# Pubblica traduzioni aggiornate
+php artisan lang:publish
+```
+
+---
+
+## Metriche
+
+| Metrica | Valore |
+|---------|--------|
+| **Modelli** | 3 |
+| **Azioni** | 10 |
+| **Resource Filament** | 2 |
+| **Widget** | 1 |
+| **Lingue** | 3 (IT/EN/DE) |
+| **PHPStan Level** | 10 |
+
+---
+
+**Module Type**: Localization & Translation
+**Architecture**: Auto-resolution, Spatie Translatable, file sync
+**Quality**: PHPStan Level 10
+
+*Traduzioni automatiche per tutto l'ecosistema: 3 lingue, auto-risoluzione, editor visuale in Filament.*
 # 🌍 Lang - Il SISTEMA di TRADUZIONI più POTENTE! 🗣️
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
@@ -100,29 +271,11 @@ class AutoTranslationService
             'target' => $to,
             'key' => config('lang.google_translate_api_key')
         ]);
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/develop
         if ($response->successful()) {
             $data = $response->json();
             return $data['data']['translations'][0]['translatedText'] ?? null;
         }
-<<<<<<< HEAD
-        
-        return null;
-    }
-    
-    public function translateBatch(array $texts, string $from, string $to): array
-    {
-        $translations = [];
-        
-        foreach ($texts as $key => $text) {
-            $translations[$key] = $this->translate($text, $from, $to);
-        }
-        
-=======
 
         return null;
     }
@@ -135,7 +288,6 @@ class AutoTranslationService
             $translations[$key] = $this->translate($text, $from, $to);
         }
 
->>>>>>> laraxot/develop
         return $translations;
     }
 }
@@ -156,30 +308,18 @@ class TranslationAnalyticsService
             'recent_activity' => $this->getRecentActivity(),
         ];
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     public function getMissingTranslations(): array
     {
         $languages = Language::enabled()->pluck('code');
         $missing = [];
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/develop
         foreach ($languages as $lang) {
             $missing[$lang] = TranslationKey::whereDoesntHave('translations', function ($query) use ($lang) {
                 $query->where('language_code', $lang);
             })->count();
         }
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/develop
         return $missing;
     }
 }
@@ -249,11 +389,7 @@ $translated = $autoTranslate->translate('Hello world', 'en', 'it');
 class TranslationResource extends Resource
 {
     protected static ?string $model = TranslationKey::class;
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form
@@ -289,15 +425,6 @@ class TranslationSyncListener
     public function handle(TranslationUpdated $event): void
     {
         $translation = $event->translation;
-<<<<<<< HEAD
-        
-        // Sincronizza con altri moduli
-        $this->syncWithModules($translation);
-        
-        // Aggiorna cache
-        Cache::forget("translation_{$translation->language_code}");
-        
-=======
 
         // Sincronizza con altri moduli
         $this->syncWithModules($translation);
@@ -305,7 +432,6 @@ class TranslationSyncListener
         // Aggiorna cache
         Cache::forget("translation_{$translation->language_code}");
 
->>>>>>> laraxot/develop
         // Invia notifica se necessario
         if ($translation->is_missing) {
             $this->notifyMissingTranslation($translation);
@@ -322,45 +448,25 @@ class TranslationSyncListener
 class TranslationManager
 {
     private array $modules = ['<nome progetto>', 'user', 'geo', 'chart'];
-<<<<<<< HEAD
-    
-    public function syncTranslations(string $module): void
-    {
-        $keys = $this->getTranslationKeys($module);
-        
-=======
 
     public function syncTranslations(string $module): void
     {
         $keys = $this->getTranslationKeys($module);
 
->>>>>>> laraxot/develop
         foreach ($keys as $key) {
             $this->ensureTranslationsExist($key);
         }
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     public function getTranslationKeys(string $module): Collection
     {
         return TranslationKey::where('module', $module)->get();
     }
-<<<<<<< HEAD
-    
-    public function ensureTranslationsExist(TranslationKey $key): void
-    {
-        $languages = Language::enabled()->pluck('code');
-        
-=======
 
     public function ensureTranslationsExist(TranslationKey $key): void
     {
         $languages = Language::enabled()->pluck('code');
 
->>>>>>> laraxot/develop
         foreach ($languages as $lang) {
             if (!$key->translations()->where('language_code', $lang)->exists()) {
                 // Crea traduzione vuota per completamento
@@ -387,17 +493,10 @@ class TranslationMemory
             ->where('value', 'LIKE', "%{$text}%")
             ->orWhere('value', 'LIKE', "%" . substr($text, 0, 10) . "%")
             ->first();
-<<<<<<< HEAD
-        
-        return $similar?->value;
-    }
-    
-=======
 
         return $similar?->value;
     }
 
->>>>>>> laraxot/develop
     public function store(string $original, string $translated, string $language): void
     {
         TranslationMemory::create([
@@ -418,19 +517,6 @@ class MissingKeysDetector
     public function detectMissingKeys(): array
     {
         $missing = [];
-<<<<<<< HEAD
-        
-        foreach ($this->getModules() as $module) {
-            $moduleKeys = $this->getModuleKeys($module);
-            $translatedKeys = $this->getTranslatedKeys($module);
-            
-            $missing[$module] = array_diff($moduleKeys, $translatedKeys);
-        }
-        
-        return $missing;
-    }
-    
-=======
 
         foreach ($this->getModules() as $module) {
             $moduleKeys = $this->getModuleKeys($module);
@@ -442,7 +528,6 @@ class MissingKeysDetector
         return $missing;
     }
 
->>>>>>> laraxot/develop
     public function generateReport(): array
     {
         return [
@@ -633,7 +718,3 @@ Questo progetto è distribuito sotto la licenza MIT. Vedi il file [LICENSE](LICE
   <br>
   <em>Costruito con ❤️ per la comunità Laravel</em>
 </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/develop
