@@ -40,6 +40,11 @@ trait CreatesApplication
         $app->make(Kernel::class)->bootstrap();
         $app->boot(); // Ensure all service providers are booted
 
+        // CRITICAL: DO NOT force database connections!
+        // TenantServiceProvider automatically configures module connections
+        // by reading DB_DATABASE from .env.testing
+        // Forcing connections here destroys the dynamic configuration system
+
         return $app;
     }
 }

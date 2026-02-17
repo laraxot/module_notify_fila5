@@ -43,7 +43,7 @@ class FolioVoltServiceProvider extends ServiceProvider
         try {
             // Verifica se siamo in ambiente console e se il problema "env" è presente
             // In questo caso, usa array vuoto per permettere al server di partire
-            if (app()->runningInConsole()) {
+            if (app()->runningInConsole() && ! app()->environment('testing')) {
                 // Durante il bootstrap dei comandi artisan, potrebbe esserci un problema
                 // con la risoluzione di "env" come classe. Usiamo array vuoto come fallback.
                 $base_middleware = [];
@@ -55,6 +55,11 @@ class FolioVoltServiceProvider extends ServiceProvider
                         $base_middleware = [];
                     }
                 }
+            }
+
+            // Assicuriamoci che 'web' sia presente se non siamo in console (o siamo in testing)
+            if (! \in_array('web', $base_middleware, true)) {
+                array_unshift($base_middleware, 'web');
             }
         } catch (\Exception $e) {
             // Se c'è un errore nel caricamento della configurazione middleware, usa array vuoto
@@ -83,20 +88,17 @@ class FolioVoltServiceProvider extends ServiceProvider
         $modules = Module::all();
         $paths = [];
 
+        // Register Folio paths WITHOUT locale-setting middleware to avoid serialization issues
+        // The locale will be set in the page templates themselves
+
         // Verifica che il percorso tema esista e sia una directory prima di passarlo a Folio
         if (File::exists($theme_path) && File::isDirectory($theme_path)) {
-            // Registra Folio per ogni lingua supportata
+            // Registra Folio per ogni lingua supportata - WITHOUT locale middleware
             foreach ($supportedLocales as $locale) {
                 Folio::path($theme_path)
                     ->uri($locale)
                     ->middleware([
-                        '*' => array_merge($base_middleware, [
-                            function ($request, callable $next) use ($locale) {
-                                app()->setLocale($locale);
-
-                                return $next($request);
-                            },
-                        ]),
+                        '*' => $base_middleware, // No locale-setting middleware here
                     ]);
             }
             $paths[] = $theme_path;
@@ -108,18 +110,12 @@ class FolioVoltServiceProvider extends ServiceProvider
                 continue;
             }
             $paths[] = $path;
-            // Registra Folio per ogni lingua supportata
+            // Registra Folio per ogni lingua supportata - WITHOUT locale middleware
             foreach ($supportedLocales as $locale) {
                 Folio::path($path)
                     ->uri($locale)
                     ->middleware([
-                        '*' => array_merge($base_middleware, [
-                            function ($request, callable $next) use ($locale) {
-                                app()->setLocale($locale);
-
-                                return $next($request);
-                            },
-                        ]),
+                        '*' => $base_middleware, // No locale-setting middleware here
                     ]);
             }
         }

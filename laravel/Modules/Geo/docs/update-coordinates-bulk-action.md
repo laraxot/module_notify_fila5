@@ -1,6 +1,5 @@
 # UpdateCoordinatesBulkAction - Azione Riutilizzabile per Aggiornamento Coordinate
 
-**Data**: 2025-01-27
 **Modulo**: Geo
 **Status**: ✅ **IMPLEMENTATO**
 
@@ -160,4 +159,4 @@ public function getTableBulkActions(): array
 
 ---
 
-*Ultimo aggiornamento: 2025-01-27*
+*Ultimo aggiornamento: [DATE]*

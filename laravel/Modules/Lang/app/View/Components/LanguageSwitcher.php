@@ -26,10 +26,6 @@ class LanguageSwitcher extends Component
     public function __construct()
     {
         $this->widget = new LanguageSwitcherWidget();
-<<<<<<< HEAD
-        $this->widget = new LanguageSwitcherWidget();
-=======
->>>>>>> laraxot/develop
     }
 
     /**

@@ -6,12 +6,8 @@ namespace Modules\Lang\Actions;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-<<<<<<< HEAD
 
 use function Safe\glob;
-=======
-// use function Safe\glob;
->>>>>>> laraxot/develop
 
 use Spatie\QueueableAction\QueueableAction;
 

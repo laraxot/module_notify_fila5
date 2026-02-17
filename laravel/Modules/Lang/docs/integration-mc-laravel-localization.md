@@ -64,18 +64,11 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 public function boot()
 {
     // ...
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     // Aggiungere middleware per la gestione delle lingue
     $this->app->singleton('localization.redirect', function ($app) {
         return new \Mcamara\LaravelLocalization\Middleware\LaravelLocalizationRedirectFilter($app['router']);
     });
-<<<<<<< HEAD
-    
-=======
 
     $this->app->singleton('localization.view-path', function ($app) {
         return new \Mcamara\LaravelLocalization\Middleware\LaravelLocalizationViewPath($app['router']);
@@ -236,7 +229,6 @@ public function boot()
         return new \Mcamara\LaravelLocalization\Middleware\LaravelLocalizationRedirectFilter($app['router']);
     });
 
->>>>>>> laraxot/develop
     $this->app->singleton('localization.view-path', function ($app) {
         return new \Mcamara\LaravelLocalization\Middleware\LaravelLocalizationViewPath($app['router']);
     });

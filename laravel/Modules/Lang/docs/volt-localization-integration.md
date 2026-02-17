@@ -173,9 +173,6 @@ $current = app()->getLocale();
 - [ ] I componenti Volt accedono e gestiscono la lingua corrente correttamente
 - [ ] La documentazione è aggiornata e linkata nei README
 
-<<<<<<< HEAD
-</rewritten_file> 
-=======
 </rewritten_file>
 # Integrazione Livewire Volt + mcamara/laravel-localization
 
@@ -353,4 +350,3 @@ $current = app()->getLocale();
 - [ ] La documentazione è aggiornata e linkata nei README
 
 </rewritten_file>
->>>>>>> laraxot/develop
