@@ -17,11 +17,7 @@ class TranslationFile extends BaseModel
 
     protected $fillable = [
         'id',
-<<<<<<< HEAD
-        'name', 
-=======
         'name',
->>>>>>> laraxot/develop
         'path',
     ];
 
@@ -50,11 +46,7 @@ public function execute(): array
     $lang = app()->getLocale();
     $path = base_path('Modules/*/lang/'.$lang.'/*.php');
     $files = glob($path);
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     $files = Arr::map($files, function($file) {
         $module_low = Str::of($file)->between('Modules/','/lang/')->lower()->toString();
         return [
@@ -62,11 +54,7 @@ public function execute(): array
             'path' => $file,
         ];
     });
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     return $files;
 }
 ```
@@ -261,9 +249,6 @@ php artisan lang:export
 1. **Performance**: Utilizzare cache per i file di traduzione
 2. **Scalabilità**: Gestire grandi volumi di traduzioni
 3. **Manutenibilità**: Struttura modulare e estendibile
-<<<<<<< HEAD
-4. **Usabilità**: Interfaccia intuitiva per i traduttori 
-=======
 # Gestione File di Traduzione
 
 ## Panoramica
@@ -515,4 +500,3 @@ php artisan lang:export
 1. **Performance**: Utilizzare cache per i file di traduzione
 2. **Scalabilità**: Gestire grandi volumi di traduzioni
 3. **Manutenibilità**: Struttura modulare e estendibile
->>>>>>> laraxot/develop

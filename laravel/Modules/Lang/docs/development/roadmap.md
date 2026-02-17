@@ -131,11 +131,7 @@
 ### A Lungo Termine
 1. [ ] Auto-detection
 2. [ ] Bulk Operations
-<<<<<<< HEAD
-3. [ ] Training System 
-=======
 3. [ ] Training System
->>>>>>> laraxot/develop
 
 ## Analisi Statica del Codice (PHPStan)
 
@@ -337,10 +333,6 @@ Secondo le "Regole Windsurf per base_predict_fila3_mono", gli obiettivi per l'an
 
 ### Versione HEAD
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/develop
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
@@ -361,10 +353,4 @@ Secondo le "Regole Windsurf per base_predict_fila3_mono", gli obiettivi per l'an
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 
-<<<<<<< HEAD
-
 ---
-
-=======
----
->>>>>>> laraxot/develop

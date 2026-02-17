@@ -40,11 +40,7 @@ The widget requires no configuration and can be used directly in themes:
 The widget supports the following languages by default:
 
 - **Italian** (it) 🇮🇹
-<<<<<<< HEAD
-- **English** (en) 🇬🇧  
-=======
 - **English** (en) 🇬🇧
->>>>>>> laraxot/develop
 - **German** (de) 🇩🇪
 
 Additional languages can be added through the Language model or by extending the `getDefaultLanguages()` method.
@@ -201,4 +197,4 @@ The widget includes robust error handling:
 - [Internationalization Best Practices](./i18n-best-practices.md)
 - [Widget vs Livewire Components](../../../project_docs/widget_vs_livewire_components.md)
 
-*Last updated: January 2025*
+*

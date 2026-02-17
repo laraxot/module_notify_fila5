@@ -47,8 +47,6 @@ Questo errore indica generalmente che il parser PHP si aspettava di chiudere una
 -   Implementare hook pre-commit che eseguano automaticamente `php -l` sui file PHP modificati.
 -   Effettuare code review attente per le modifiche ai file di configurazione critici.
 -   In caso di errori di parsing difficili da diagnosticare, provare a commentare sezioni dell'array per isolare la parte problematica.
-<<<<<<< HEAD
-=======
 # Gestione Errori di Sintassi nei File di Traduzione PHP
 
 ## Problema Comuni
@@ -98,4 +96,3 @@ Questo errore indica generalmente che il parser PHP si aspettava di chiudere una
 -   Implementare hook pre-commit che eseguano automaticamente `php -l` sui file PHP modificati.
 -   Effettuare code review attente per le modifiche ai file di configurazione critici.
 -   In caso di errori di parsing difficili da diagnosticare, provare a commentare sezioni dell'array per isolare la parte problematica.
->>>>>>> laraxot/develop

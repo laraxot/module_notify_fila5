@@ -157,28 +157,17 @@ abstract class BaseFormRequest extends FormRequest
     public function attributes()
     {
         $attributes = [];
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/develop
         // Aggiungi qui gli attributi comuni a tutte le richieste
         $commonAttributes = [
             'email' => __('auth.fields.email'),
             'password' => __('auth.fields.password'),
             'name' => __('auth.fields.name'),
         ];
-<<<<<<< HEAD
-        
-        return array_merge($attributes, $commonAttributes);
-    }
-    
-=======
 
         return array_merge($attributes, $commonAttributes);
     }
 
->>>>>>> laraxot/develop
     /**
      * Get the error messages for the defined validation rules.
      *
@@ -233,11 +222,7 @@ class StoreUserRequest extends BaseFormRequest
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ];
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     /**
      * Get custom attributes for validator errors.
      *
@@ -253,9 +238,6 @@ class StoreUserRequest extends BaseFormRequest
             'password_confirmation' => __('user.fields.password_confirmation'),
         ]);
     }
-<<<<<<< HEAD
-    
-=======
 
     /**
      * Get the error messages for the defined validation rules.
@@ -603,7 +585,6 @@ class StoreUserRequest extends BaseFormRequest
         ]);
     }
 
->>>>>>> laraxot/develop
     /**
      * Get the error messages for the defined validation rules.
      *

@@ -91,15 +91,9 @@ use Spatie\Translatable\HasTranslations;
 class Post extends Model
 {
     use HasTranslations;
-<<<<<<< HEAD
-    
-    public $translatable = ['title', 'content'];
-    
-=======
 
     public $translatable = ['title', 'content'];
 
->>>>>>> laraxot/develop
     // Resto dell'implementazione...
 }
 ```
@@ -117,11 +111,7 @@ use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
 class CreatePost extends LangBaseCreateRecord
 {
     protected static string $resource = PostResource::class;
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/develop
     // Eventuali personalizzazioni...
 }
 ```
@@ -147,8 +137,4 @@ Se si verificano errori di validazione durante il salvataggio, verificare:
 
 - [Spatie Laravel Translatable](https://github.com/spatie/laravel-translatable)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Modulo Lang - Documentazione](../model-translations.md)
-=======
-- [Modulo Lang - Documentazione](../model-translations.md)
->>>>>>> laraxot/develop
