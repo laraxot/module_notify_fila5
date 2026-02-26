@@ -13,9 +13,8 @@
 
 ## Problema Identificato
 
-### Falsi Syntax Errors
-L'analisi PHPStan riportava 147 "syntax errors", ma in realt� **NON erano errori di sintassi PHP**. Erano **conflitti git non risolti** lasciati nel codice sorgente dopo merge multipli.
 
+Questi marker provenivano da merge di branch diversi mai completati correttamente.
 
 ## File Corretti
 
