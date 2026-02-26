@@ -118,6 +118,9 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+        'body_html' => [
+            'description' => 'body_html',
+        ],
     ],
     'actions' => [
         'preview' => [
