@@ -6,7 +6,9 @@ namespace Modules\Geo\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
+
 use Modules\Geo\Database\Factories\ComuneFactory;
+use Modules\Tenant\Contracts\SushiToJsonContract;
 use Modules\Tenant\Models\Traits\SushiToJson;
 use Modules\Xot\Contracts\ProfileContract;
 
@@ -80,7 +82,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Comune whereZonaAltimetrica($value)
  * @mixin \Eloquent
  */
-class Comune extends BaseModel
+class Comune extends BaseModel implements SushiToJsonContract
 {
     use SushiToJson;
 
@@ -125,6 +127,62 @@ class Comune extends BaseModel
     public function getJsonFile(): string
     {
         return module_path('Geo', 'resources/json/comuni.json');
+    }
+
+    /**
+     * @return array<int, array<string, mixed>>
+     */
+    public function loadExistingData(): array
+    {
+        $path = $this->getJsonFile();
+        if (! file_exists($path)) {
+            return [];
+        }
+        try {
+            $data = json_decode(file_get_contents($path), true);
+            if (! is_array($data)) {
+                return [];
+            }
+            /** @var array<int, array<string, mixed>> $data */
+            return $data;
+        } catch (\Throwable) {
+            return [];
+        }
+    }
+
+    public function saveToJson(array $data): bool
+    {
+        $file = $this->getJsonFile();
+        $directory = dirname($file);
+        if (! file_exists($directory)) {
+            mkdir($directory, 0o755, true);
+        }
+        file_put_contents($file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+
+        return true;
+    }
+
+    public function authId(): string
+    {
+        return (string) (auth()->id() ?? 'system');
+    }
+
+    public function ensureDirectoryExists(string $filePath): void
+    {
+        $directory = dirname($filePath);
+        if (! file_exists($directory)) {
+            mkdir($directory, 0o755, true);
+        }
+    }
+
+    public function findRowIndexById(array $rows, int $id): ?int
+    {
+        foreach ($rows as $index => $row) {
+            if (is_array($row) && ((int) ($row['id'] ?? 0)) === $id) {
+                return (int) $index;
+            }
+        }
+        return null;
     }
 
     public function getRows(): array

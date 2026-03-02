@@ -28,7 +28,7 @@ class TransactionFactory extends Factory
     {
         return [
             'model_type' => fake()->randomElement(['Modules\Blog\Models\Article', 'Modules\Blog\Models\Profile']),
-            'model_id' => fake()->randomNumber(1, 100),
+            'model_id' => fake()->numberBetween(1, 100),
             'user_id' => fake()->uuid(),
             'credits' => fake()->numberBetween(1, 1000),
             'note' => fake()->text(),
