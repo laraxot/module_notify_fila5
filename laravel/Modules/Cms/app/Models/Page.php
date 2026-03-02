@@ -15,6 +15,10 @@ use Modules\Xot\Contracts\ProfileContract;
 /**
  * Modules\Cms\Models\Page.
  *
+ * @method static array<int, array<string, mixed>> getMiddlewareBySlug(string $slug)
+ * @method static array<string, BlockData> getBlocksBySlug(string $slug, ?string $side = null)
+ * @method string getJsonFile()
+ *
  * @property string                       $id
  * @property array<array-key, mixed>|null $title
  * @property string|null                  $slug
