@@ -69,7 +69,7 @@ Moduli Supporto:
 ### Architettura Modulare
 
 ```
-/var/www/_bases/base_fixcity_fila4_mono/
+/var/www/_bases/base_fixcity_fila5_mono/
 ├── laravel/                    # Root Laravel
 │   ├── Modules/               # Moduli business
 │   │   ├── Fixcity/          # Core segnalazioni

@@ -8,7 +8,7 @@ Data: 2025-04-23 19:09:55
 Modules\\Comment\\Database\\Factories
 Modules\\Comment\\Database\\Seeders
 Modules\\Comment\\Tests
-- **Pacchetto Composer**: laraxot/module_comment_fila3
+- **Pacchetto Composer**: laraxot/module_comment_fila5
 Marco Sottana
 - **Dipendenze**: spatiex/laravel-comments * spatiex/laravel-comments-livewire * extra laravel providers Modules\\Comment\\Providers\\CommentServiceProvider Modules\\Comment\\Providers\\Filament\\AdminPanelProvider aliases autoload psr-4 Modules\\Comment\\ app/ Modules\\Comment\\Database\\Factories\\ database/factories/ Modules\\Comment\\Database\\Seeders\\ database/seeders/ 
 - **Totale file PHP**: 124

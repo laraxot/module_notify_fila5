@@ -15,6 +15,9 @@ use Mcamara\LaravelLocalization\Middleware\LocaleSessionRedirect;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
+
+use function Safe\realpath;
+
 use Webmozart\Assert\Assert;
 
 class FolioVoltServiceProvider extends ServiceProvider
@@ -102,6 +105,17 @@ class FolioVoltServiceProvider extends ServiceProvider
                     ]);
             }
             $paths[] = $theme_path;
+        }
+
+        // Theme Livewire block components: livewire/ → blocks.events.detail, components/blocks → events.detail
+        $theme_views = \dirname($theme_path);
+        $theme_livewire = $theme_views.\DIRECTORY_SEPARATOR.'livewire';
+        if (File::exists($theme_livewire) && File::isDirectory($theme_livewire)) {
+            $paths[] = realpath($theme_livewire);
+        }
+        $theme_components_blocks = $theme_views.\DIRECTORY_SEPARATOR.'components'.\DIRECTORY_SEPARATOR.'blocks';
+        if (File::exists($theme_components_blocks) && File::isDirectory($theme_components_blocks)) {
+            $paths[] = realpath($theme_components_blocks);
         }
 
         foreach ($modules as $module) {

@@ -1,25 +1,38 @@
-# 🎯 SEO Module - Search Engine Optimization
+# Seo Module
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN-green.svg)](https://laravel.com/docs/localization)
 
-> **🚀 Modulo SEO**: Sistema completo per ottimizzazione motori di ricerca, gestione meta tags, sitemap e structured data.
+The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
 
-## 📋 **Panoramica**
+## 🚀 Features
 
-Il modulo **SEO** fornisce strumenti avanzati per l'ottimizzazione SEO:
+### ✅ Completed
+- **Meta Tag Management**: Dynamic control over title, description, keywords, canonical URLs, and robots tags.
+- **Sitemap Generation**: Automatic XML sitemap creation with multi-sitemap support and search engine pinging.
+- **OpenGraph & Twitter Cards**: dedicated support for social media previews and image optimization.
+- **Schema.org Integration**: JSON-LD structured data for Local Business, Articles, Products, and more.
+- **SEO Analytics**: Real-time content analysis and performance tracking.
+- **Filament Integration**: Seamless management via the Filament admin panel.
 
-- 🎯 **Meta Tags** - Gestione meta tags dinamici
-- 🗺️ **Sitemap** - Generazione sitemap automatica
-- 📊 **Structured Data** - Schema.org markup
-- 🔍 **Robots.txt** - Configurazione robots.txt
-- 🎨 **Open Graph** - Meta tags social media
-- 🌐 **Multi-lingua** - SEO multilingua
+### 🔄 In Progress / Planned
+- **AI-Powered Optimization**: Content quality scoring and readability suggestions (via OpenAI).
+- **Keyword Tracking**: Rank tracking, history, and competition analysis.
+- **Competitor Analysis**: Gap identification and market comparison.
+- **Reporting**: Automated PDF SEO reports.
 
-## ⚡ **Funzionalità Core**
+## 📦 Installation
 
+```bash
+composer require laraxot/module-seo
+php artisan module:enable Seo
+php artisan migrate
+```
+
+<<<<<<< HEAD
+<<<<<<< HEAD
 ### 🎯 **Meta Tags Management**
 ```php
 // Impostazione meta tags
@@ -267,3 +280,40 @@ php artisan seo:validate-schema
 
 
 
+=======
+Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
+>>>>>>> 013c0d2 (.)
+=======
+## ⚙️ Configuration
+
+Publish the configuration file to set up API keys (e.g., OpenAI) and defaults:
+
+```bash
+php artisan vendor:publish --provider="Modules\Seo\Providers\SeoServiceProvider" --tag="config"
+```
+
+## 📖 Documentation
+
+- [Roadmap](roadmap.md): Detailed development status and future plans.
+- [Rules Index](rules-index.md): Coding standards and architectural rules.
+- [PHPStan Guide](phpstan.md): Static analysis configuration (Level 10).
+
+## 🛠 Usage
+
+The module automatically injects SEO tags into your layout if configured. You can also manually manage tags via the facade or helper functions:
+
+```php
+use Modules\Seo\Facades\Seo;
+
+Seo::setTitle('My Amazing Page');
+Seo::setDescription('The best page on the internet.');
+```
+
+For Filament resources, use the provided SEO trait to add configuration fields to your forms.
+
+## 🤝 Contribution
+
+Please verify all changes with:
+- `phpstan analyse Modules/Seo` (Level 10)
+- `pest` (Test Suite)
+>>>>>>> b33919b (.)

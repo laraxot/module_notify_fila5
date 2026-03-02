@@ -146,11 +146,10 @@
 
 ## Collegamenti
 
-- [README Modulo Geo](./README.md)
+- [README Modulo Geo](./readme.md)
 - [Factory Audit Root](../../../docs/factory-audit-2025.md)
 - [Address Implementation](./address-implementation.md)
 - [Sushi Implementation](./sushi-implementation.md)
 
 ---
 **Errore gravissimo da non ripetere mai più**
-*Ultimo aggiornamento: [DATE]*
