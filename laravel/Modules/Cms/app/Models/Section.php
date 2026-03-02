@@ -14,6 +14,9 @@ use Modules\Xot\Contracts\ProfileContract;
 /**
  * Modules\Cms\Models\Section.
  *
+ * @method static array<string, BlockData> getBlocksBySlug(string $slug, ?string $side = null)
+ * @method string getJsonFile()
+ *
  * @property string                       $id
  * @property array<array-key, mixed>|null $name
  * @property string|null                  $slug

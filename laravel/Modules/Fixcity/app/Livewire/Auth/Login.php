@@ -40,7 +40,7 @@ class Login extends Component
     {
         $validated = $this->data;
 
-        if (Auth::attempt($validated)) {
+        if (is_array($validated) && Auth::attempt($validated)) {
             session()->regenerate();
 
             Notification::make()
