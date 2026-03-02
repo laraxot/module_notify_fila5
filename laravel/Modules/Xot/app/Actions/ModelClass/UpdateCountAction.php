@@ -22,6 +22,6 @@ class UpdateCountAction
      */
     public function execute(string $modelClass, int $total): void
     {
-        InformationSchemaTable::updateModelCount($modelClass, $total); // Method not implemented
+        \Modules\Xot\Models\InformationSchemaTable::updateModelCount($modelClass, $total);
     }
 }
