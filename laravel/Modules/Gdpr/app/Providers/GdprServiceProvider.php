@@ -8,9 +8,6 @@ use Illuminate\Routing\Router;
 use Modules\Gdpr\Datas\GdprData;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 
-use function Safe\realpath;
-use function Safe\realpath;
-
 use Statikbe\CookieConsent\CookieConsentMiddleware;
 
 class GdprServiceProvider extends XotBaseServiceProvider

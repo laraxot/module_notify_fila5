@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\AI\App\Services;
+namespace Modules\AI\Services;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;

@@ -33,8 +33,8 @@
     "laravel/pennant": "^1.11",
     "laravel/pulse": "^1.2",
     "laravel/tinker": "^2.10.1",
-    "livewire/livewire": "*",
     "livewire/flux": "^2.1.1",
+    "livewire/livewire": "*",
     "livewire/volt": "^1.0",
     "maatwebsite/excel": "^3.1",
     "nwidart/laravel-modules": "*",
@@ -53,9 +53,9 @@
     "spatie/laravel-tags": "*",
     "spipu/html2pdf": "^5.2",
     "staudenmeir/eloquent-has-many-deep": "*",
-    "staudenmeir/laravel-adjacency-list": "^1.22",
+    "staudenmeir/laravel-adjacency-list": "*",
     "symfony/dom-crawler": "*",
-    "thecodingmachine/safe": "^3.0",
+    "thecodingmachine/safe": "^3.4",
     "tightenco/parental": "*"
   },
   "require_comment": {
@@ -66,16 +66,16 @@
     "barryvdh/laravel-ide-helper": "^3.2",
     "fakerphp/faker": "^1.24",
     "larastan/larastan": "*",
-    "laravel/boost": "^2.0",
+    "laravel/boost": "^2.2",
     "laravel/pint": "^1.18",
     "laravel/sail": "^1.41",
     "mockery/mockery": "^1.6",
     "nunomaduro/collision": "^8.6",
+    "nunomaduro/phpinsights": "*",
     "orchestra/testbench": "*",
     "pestphp/pest": "*",
     "pestphp/pest-plugin-type-coverage": "*",
-    "thecodingmachine/phpstan-safe-rule": "*",
-    "nunomaduro/phpinsights": "*"
+    "thecodingmachine/phpstan-safe-rule": "^1.4"
   },
   "require-dev_comment": {
     "pestphp/pest-plugin-laravel": "*",
