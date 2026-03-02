@@ -14,6 +14,8 @@ use Spatie\Translatable\HasTranslations;
 /**
  * Modules\Cms\Models\PageContent.
  *
+ * @method string getJsonFile()
+ *
  * @property string                       $id
  * @property array<array-key, mixed>|null $name
  * @property string|null                  $slug
