@@ -1,5 +1,9 @@
 # PHPStan Level 10 Rules & Best Practices
 
+## Regola immutabile: phpstan.neon
+
+**NON modificare mai** `laravel/phpstan.neon`. Le correzioni vanno fatte solo nel codice sorgente (type hints, PHPDoc, @phpstan-ignore). Non aggiungere excludePaths o ignoreErrors globali.
+
 ## Critical Rules Identified from Analysis (2026-03-02)
 
 ### 1. Trait Method Declarations
