@@ -17,6 +17,13 @@ use Modules\Xot\Contracts\ProfileContract;
  * regioni, province, città, CAP, codici ISTAT, ecc.
  * Tutti i dati sono estratti da file JSON e gestiti tramite Sushi.
  *
+ * @method string getJsonFile()
+ * @method array loadExistingData()
+ * @method string authId()
+ * @method void ensureDirectoryExists()
+ * @method void saveToJson()
+ * @method int findRowIndexById(int $id)
+ *
  * @property string|null                  $nome
  * @property float|null                   $codice
  * @property array<array-key, mixed>|null $zona

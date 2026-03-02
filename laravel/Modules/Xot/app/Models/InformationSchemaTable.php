@@ -13,6 +13,27 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
 
 /**
+ * @method static int getModelCount(string $modelClass)
+ * @method static void updateModelCount(string $modelClass, int $total)
+ * @method static Builder<static>|InformationSchemaTable newModelQuery()
+ * @method static Builder<static>|InformationSchemaTable newQuery()
+ * @method static Builder<static>|InformationSchemaTable query()
+ * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
+ * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
+ * @method static Builder<static>|InformationSchemaTable whereId($value)
+ * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
+ * @method static Builder<static>|InformationSchemaTable whereTableName($value)
+ * @method static Builder<static>|InformationSchemaTable whereTableRows($value)
+ * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
+ * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
+ * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
+ * @method string getJsonFile()
+ * @method array loadExistingData()
+ * @method string authId()
+ * @method void ensureDirectoryExists()
+ * @method void saveToJson()
+ * @method int findRowIndexById(int $id)
+ *
  * @property int|null $table_rows
  * @property string $table_schema
  * @property string $table_name
@@ -26,8 +47,6 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
  * @method static InformationSchemaTableFactory factory($count = null, $state = [])
- * @method static Builder<static>|InformationSchemaTable newModelQuery()
- * @method static Builder<static>|InformationSchemaTable newQuery()
  * @method static Builder<static>|InformationSchemaTable query()
  * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
