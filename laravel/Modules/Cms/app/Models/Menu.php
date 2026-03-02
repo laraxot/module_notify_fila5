@@ -7,7 +7,6 @@ namespace Modules\Cms\Models;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Cms\Database\Factories\MenuFactory;
 use Modules\Tenant\Models\Traits\SushiToJsons;
-use Modules\Tenant\Models\Traits\SushiToJsonsHelper;
 use Modules\Xot\Actions\Tree\GetTreeOptionsByModelClassAction;
 use Modules\Xot\Contracts\HasRecursiveRelationshipsContract;
 use Modules\Xot\Contracts\ProfileContract;
