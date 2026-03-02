@@ -29,7 +29,6 @@ use Sushi\Sushi;
  * @method static Builder<static>|Province whereId($value)
  * @method static Builder<static>|Province whereName($value)
  * @method static Builder<static>|Province whereRegionId($value)
- * @method static array<string, string> getOptions(Get $get)
  * @property ProfileContract|null $deleter
  * @method static ProvinceFactory factory($count = null, $state = [])
  * @mixin \Eloquent

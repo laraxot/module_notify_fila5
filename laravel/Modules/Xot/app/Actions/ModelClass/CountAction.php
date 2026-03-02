@@ -26,6 +26,7 @@ class CountAction
      */
     public function execute(string $modelClass): int
     {
-        return \Modules\Xot\Models\InformationSchemaTable::getModelCount($modelClass);
+        /** @phpstan-ignore staticMethod.notFound, return.type */
+        return InformationSchemaTable::getModelCount($modelClass);
     }
 }

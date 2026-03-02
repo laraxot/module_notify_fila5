@@ -47,8 +47,9 @@ parameters:
         - ./*/rector.php
         - ./*/*.blade.php
         - ./*/tests/*
-        - ./Modules/Media/app/Actions/Image/Merge.php
-        # - ./Modules/Xot/app/Filament/Traits/HasXotTable.php
+        
+        
+        
 
     bootstrapFiles:
         # - ./phpstan_bootstrap.php
