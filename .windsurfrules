@@ -1,5 +1,11 @@
 # LARAXOT FRAMEWORK RULES
 
+## CRITICAL: DRY PRINCIPLE - TRAIT METHODS
+- **CRITICAL**: Trait methods (getJsonFile, loadExistingData, saveToJson, etc.) DEVONO essere implementati UNA SOLA VOLTA nel trait, NON in ogni modello
+- I modelli che usano il trait ereditano automaticamente i metodi
+- Aggiungere metodi ai singoli modelli crea duplicazione del codice e viola DRY
+- ESEMPIO: Se il trait SushiToJsons ha getJsonFile(), NON aggiungerlo a Attachment, Menu, Page, ecc.
+
 ## CLASS EXTENSION
 - NEVER extend Laravel or Filament base classes directly
 - ALWAYS extend XotBase classes from Xot module:

@@ -6,6 +6,7 @@ namespace Modules\Cms\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Cms\Database\Factories\MenuFactory;
+use Modules\Tenant\Contracts\SushiToJsonsContract;
 use Modules\Tenant\Models\Traits\SushiToJsons;
 use Modules\Xot\Actions\Tree\GetTreeOptionsByModelClassAction;
 use Modules\Xot\Contracts\HasRecursiveRelationshipsContract;
@@ -16,8 +17,6 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
 
 /**
  * Modules\Cms\Models\Menu.
- *
- * @method string getJsonFile()
  *
  * @property string                $id
  * @property string|null           $title
@@ -144,11 +143,10 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
  * @method static static                  withoutTrashed()
  * @property ProfileContract|null $deleter
  * @method static MenuFactory factory($count = null, $state = [])
- * @method string getJsonFile()
  * @method array<int, array<string, mixed>> getSushiRows()
  * @mixin \Eloquent
  */
-class Menu extends BaseModel implements HasRecursiveRelationshipsContract
+class Menu extends BaseModel implements HasRecursiveRelationshipsContract, SushiToJsonsContract
 {
     use HasRecursiveRelationships;
     use SushiToJsons;

@@ -35,6 +35,7 @@ class Page extends Component
         $this->slug = $slug;
         $this->container0 = $container0;
         $this->slug0 = $slug0;
+        /** @phpstan-ignore staticMethod.notFound, assign.propertyType */
         $this->blocks = PageModel::getBlocksBySlug($slug, $side);
     }
 

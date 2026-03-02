@@ -27,7 +27,7 @@ use Sushi\Sushi;
  * @method static Builder<static>|Region query()
  * @method static Builder<static>|Region whereId($value)
  * @method static Builder<static>|Region whereName($value)
- * @method static public array<string, string> getOptions(Get $get)
+ * @method static array<string, string> getOptions(Get $get)
  * @property ProfileContract|null $deleter
  * @mixin \Eloquent
  */

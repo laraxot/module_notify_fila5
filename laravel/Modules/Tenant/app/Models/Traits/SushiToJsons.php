@@ -10,7 +10,7 @@
  * @see https://dev.to/hasanmn/automatically-update-createdby-and-updatedby-in-laravel-using-bootable-traits-28g9.
  *
  * @method string getJsonFile() Ottiene il percorso del file JSON per il modello corrente
- * @method array getSushiRows() Ottiene i dati dal file JSON per il modello Sushi
+ * @method array<int, array<string, mixed>> getSushiRows() Ottiene i dati dal file JSON per il modello Sushi
  */
 
 declare(strict_types=1);
@@ -18,6 +18,7 @@ declare(strict_types=1);
 namespace Modules\Tenant\Models\Traits;
 
 use Exception;
+use Modules\Tenant\Contracts\SushiToJsonsContract;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
@@ -25,6 +26,7 @@ use Modules\Tenant\Services\TenantService;
 use Sushi\Sushi;
 
 use function Safe\json_encode;
+use function Safe\mkdir;
 use function Safe\unlink;
 
 trait SushiToJsons
@@ -105,10 +107,13 @@ trait SushiToJsons
          * need to have the updated_by field here as well.
          */
         static::creating(function ($model): void {
-            /** @var static $model */
             if (! $model instanceof Model) {
                 throw new InvalidArgumentException('Model must be an instance of Illuminate\Database\Eloquent\Model');
             }
+            if (! $model instanceof SushiToJsonsContract) {
+                throw new InvalidArgumentException('Model must implement '.SushiToJsonsContract::class);
+            }
+            /** @var Model&SushiToJsonsContract $model */
 
             // PHPStan Level 10: Type-safe max() call
             $maxId = $model->max('id');
@@ -139,6 +144,7 @@ trait SushiToJsons
 
             $content = json_encode($item, JSON_PRETTY_PRINT);
 
+            // @phpstan-ignore-next-line - PHPStan cannot resolve method in boot closure
             $file = $model->getJsonFile();
             if (is_string($file)) {
                 $dir = \dirname($file);
@@ -153,11 +159,15 @@ trait SushiToJsons
          * updating.
          */
         static::updating(function ($model): void {
-            /** @var static $model */
             if (! $model instanceof Model) {
                 throw new InvalidArgumentException('Model must be an instance of Illuminate\Database\Eloquent\Model');
             }
+            if (! $model instanceof SushiToJsonsContract) {
+                throw new InvalidArgumentException('Model must implement '.SushiToJsonsContract::class);
+            }
+            /** @var Model&SushiToJsonsContract $model */
 
+            // @phpstan-ignore-next-line - PHPStan cannot resolve method in boot closure
             $file = $model->getJsonFile();
             if (is_string($file)) {
                 // PHPStan Level 10: Use setAttribute for type safety
@@ -176,11 +186,15 @@ trait SushiToJsons
          */
 
         static::deleting(function ($model): void {
-            /** @var static $model */
             if (! $model instanceof Model) {
                 throw new InvalidArgumentException('Model must be an instance of Illuminate\Database\Eloquent\Model');
             }
+            if (! $model instanceof SushiToJsonsContract) {
+                throw new InvalidArgumentException('Model must implement '.SushiToJsonsContract::class);
+            }
+            /** @var Model&SushiToJsonsContract $model */
 
+            // @phpstan-ignore-next-line - PHPStan cannot resolve method in boot closure
             $file = $model->getJsonFile();
             if (is_string($file)) {
                 unlink($file);

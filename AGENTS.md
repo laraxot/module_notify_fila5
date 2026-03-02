@@ -2,12 +2,31 @@
 
 This file contains comprehensive guidelines and commands for AI agents working on the FixCity Laravel application.
 
-## 🏗️ PROJECT OVERVIEW
+## 🚨 CRITICAL ARCHITECTURAL RULES
 
-**Architecture**: Modular Laravel application using `nwidart/laravel-modules`  
-**Framework**: Laravel 12.x with Filament 4.x (migrating to 5.x)  
-**PHP Version**: 8.2+ (strict typing required)  
-**Module Structure**: 20+ modules in `/laravel/Modules/` directory  
+### NO SERVICES - USE SPATIE QUEUEABLE ACTIONS
+- **NEVER** create Service classes
+- **ALWAYS** use Spatie\QueueableAction pattern
+- Create Actions using `create-action` skill
+
+### NO ROUTES/CONTROLLERS - USE VOLT + FOLIO + FILAMENT
+- **NEVER** create route files for module functionality
+- **NEVER** create Controllers
+- **ALWAYS** use: Volt, Folio, Filament, Laraxot
+
+### LOGGING BEST PRACTICES - CRITICAL FOR PERFORMANCE
+- **NEVER** use Log::info() for routine operations
+- **ALWAYS** use Log::error() only for actual errors
+- **PERFORMANCE IMPACT**: 30-50% slowdown
+
+### FILAMENT ACTIONS - STRING KEYS REQUIRED
+- getHeaderActions() MUST return array<string, Action|ActionGroup>
+- NEVER use indexed arrays
+
+### DRY PRINCIPLE - TRAIT METHODS
+- **CRITICAL**: Trait methods (getJsonFile, loadExistingData, etc.) DEVONO essere implementati UNA SOLA VOLTA nel trait, NON in ogni modello
+- I modelli che usano il trait ereditano automaticamente i metodi
+- Aggiungere metodi ai singoli modelli crea duplicazione del codice e viola DRY  
 
 ## 🚀 BUILD/LINT/TEST COMMANDS
 
@@ -234,6 +253,205 @@ Modules/ModuleName/
 - **USE** `getFormSchema()` instead of `form()`
 - **DO NOT** define `table()` method in Resource classes
 
+#### CRITICAL: Trait Method Implementation Pattern
+
+**NEVER** duplicate trait methods in multiple classes!** This violates DRY (Don't Repeat Yourself).
+
+**RULE**: If a trait calls a method that doesn't exist in models, implement that method **ONCE in the trait itself**, NOT in every model using the trait.
+
+**WRONG Pattern** (What was done 2026-03-02):
+```php
+// ❌ WRONG - Duplicating getJsonFile() in 4 models (Attachment, Menu, PageContent, Section)
+class Attachment extends BaseModel
+{
+    use SushiToJsons;
+
+    public function getJsonFile(): string
+    {
+        $tbl = $this->getTable();
+        $id = $this->getKey();
+        return base_path('database/content/'.$tbl.'/'.$id.'.json');
+    }
+}
+
+class Menu extends BaseModel
+{
+    use SushiToJsons;
+
+    public function getJsonFile(): string  // DUPLICATE!
+    {
+        $tbl = $this->getTable();
+        $id = $this->getKey();
+        return base_path('database/content/'.$tbl.'/'.$id.'.json');
+    }
+}
+```
+
+**CORRECT Pattern**:
+```php
+// ✅ CORRECT - Implement method ONCE in the trait
+trait SushiToJsons
+{
+    /**
+     * Get the JSON file path for this model instance.
+     *
+     * @return string
+     */
+    protected function getJsonFile(): string
+    {
+        $tbl = $this->getTable();
+        $id = $this->getKey();
+
+        $stringId = is_string($id) || is_numeric($id) ? (string) $id : 'unknown';
+        $stringTbl = is_string($tbl) ? $tbl : 'unknown';
+
+        return base_path('database/content/'.$stringTbl.'/'.$stringId.'.json');
+    }
+}
+
+// Models simply use the trait without duplicating methods
+class Attachment extends BaseModel
+{
+    use SushiToJsons;
+}
+
+class Menu extends BaseModel
+{
+    use SushiToJsons;
+}
+```
+
+**Why This Matters**:
+1. **DRY Compliance**: Single source of truth
+2. **Maintainability**: Bug fix in one place, not 4
+3. **Type Safety**: Consistent implementation
+4. **PHPStan Compliance**: Trait methods are properly discoverable
+5. **Testing**: Test once, not per model
+
+**When to Add Methods to Models vs Traits**:
+- **Add to trait**: If the method is called by the trait and needed by all models using it
+- **Add to model**: If the method is model-specific or needs different implementation per model
+- **Add to interface**: If the method should be available via type hints and contracts
+
+#### CRITICAL: Static Methods in Traits (SRP Principle)
+
+**STATIC METHODS that operate on trait-managed properties MUST be in the trait itself!**
+
+**RULE**: If a trait defines/manages a property (e.g., `$blocks`), any static method that processes/extracts data from that property belongs in the trait, NOT in individual models.
+
+**WRONG Pattern** (2026-03-02 - getBlocksBySlug in Section model):
+```php
+// ❌ WRONG - getBlocksBySlug() operates on $blocks property managed by HasBlocks trait
+// but is defined in Section model instead of the trait
+trait HasBlocks
+{
+    public array $translatable = ['blocks'];
+    protected $fillable = ['blocks'];
+}
+
+class Section extends BaseModel
+{
+    use HasBlocks;
+
+    public static function getBlocksBySlug(string $slug, ?string $side = null): array
+    {
+        // Logic that processes $blocks property - SHOULD BE IN TRAIT!
+        $section = self::where('slug', $slug)->first();
+        $blocks = $section->blocks;
+        // ... processing blocks
+    }
+}
+```
+
+**CORRECT Pattern**:
+```php
+// ✅ CORRECT - Static method in trait that manages $blocks property
+trait HasBlocks
+{
+    public array $translatable = ['blocks'];
+    protected $fillable = ['blocks'];
+
+    /**
+     * Get blocks by slug for a specific side.
+     *
+     * @param string $slug The model slug
+     * @param string|null $side The side to filter blocks (null for all)
+     * @return array<string, \Modules\Cms\Datas\BlockData>
+     */
+    public static function getBlocksBySlug(string $slug, ?string $side = null): array
+    {
+        $model = self::where('slug', $slug)->first();
+
+        if (! $model instanceof self) {
+            return [];
+        }
+
+        $blocks = $model->blocks;
+
+        if (! is_array($blocks)) {
+            return [];
+        }
+
+        $result = [];
+
+        foreach ($blocks as $block) {
+            if (! is_array($block)) {
+                continue;
+            }
+
+            $blockType = $block['type'] ?? 'text';
+            $blockData = $block['data'] ?? [];
+            $blockSlug = $block['slug'] ?? null;
+
+            try {
+                $blockDataObj = new \Modules\Cms\Datas\BlockData($blockType, $blockData, $blockSlug);
+
+                if ($side === null) {
+                    $result[$blockSlug ?? $blockType] = $blockDataObj;
+                } elseif (isset($block['side']) && $block['side'] === $side) {
+                    $result[$blockSlug ?? $blockType] = $blockDataObj;
+                }
+            } catch (\Exception $e) {
+                continue;
+            }
+        }
+
+        return $result;
+    }
+}
+
+// Models simply use the trait and can call the static method
+class Section extends BaseModel
+{
+    use HasBlocks;
+}
+
+class Page extends BaseModel
+{
+    use HasBlocks;
+}
+
+// Both models can now use: Section::getBlocksBySlug('header', 'left') or Page::getBlocksBySlug('home')
+```
+
+**Why This Matters**:
+1. **SRP Compliance**: Single Responsibility - trait owns its properties and the logic to process them
+2. **DRY Compliance**: Logic defined once, reused by all models using the trait
+3. **Maintainability**: Bug fix in one place affects all models
+4. **Type Safety**: Consistent return types across all models
+5. **Discoverability**: Related functionality stays together
+6. **PHPStan Compliance**: Methods are properly discoverable in their context
+
+**When Static Methods Belong in Models**:
+- Model-specific queries that use model-specific columns
+- Methods that require model-specific relationships
+- Methods that have different implementations per model
+
+**When Static Methods Belong in Traits**:
+- Methods that operate on trait-managed properties
+- Methods that use trait-specific logic
+- Methods needed by ALL models using the trait
+
 #### List Pages
 - **ALWAYS** extend `XotBaseListRecords`
 - **USE** specific methods:
@@ -393,6 +611,44 @@ php artisan test --coverage
 - Action definitions
 - Panel provider configurations
 - Asset compilation
+
+## 🎯 DRY PRINCIPLES (CRITICAL)
+
+### Trait Usage Rules
+- **MAI duplicare metodi nei modelli quando possono essere definiti nei trait**
+- Se un trait (es. `SushiToJsons`) può fornire un metodo (es. `getJsonFile()`), aggiungerlo **SOLO nel trait**
+- I trait devono essere **self-contained** secondo base_techplanner pattern
+- Quando PHPStan non trova un metodo chiamato da un modello usando un trait, PRIMA verifica se può essere aggiunto al trait
+- Non aggiungere lo stesso metodo a modelli diversi - viola DRY e crea manutenzione difficoltosa
+
+**Example WRONG** (duplicating in models):
+```php
+// Attachment.php
+public function getJsonFile(): string { /* ... */ }
+
+// Menu.php  
+public function getJsonFile(): string { /* ... */ }
+
+// ❌ WRONG - Duplicate code!
+```
+
+**Example CORRECT** (in trait):
+```php
+// SushiToJsons.php (trait)
+public function getJsonFile(): string { /* ... */ }
+
+// Attachment.php
+class Attachment extends BaseModel
+{
+    use SushiToJsons; // ✅ Method comes from trait
+}
+
+// Menu.php
+class Menu extends BaseModel
+{
+    use SushiToJsons; // ✅ Method comes from trait
+}
+```
 
 ## 📦 COMPOSER MODULE MANAGEMENT
 
@@ -793,7 +1049,71 @@ class Example extends XotBaseModel
 }
 ```
 
-#### 5. Static Methods vs Instance Methods
+### 5. DRY Principle - Trait Methods (CRITICAL)
+
+**Problem**: Duplicating trait methods in individual models
+
+**Rule**: **NEVER** duplicate trait methods in individual models
+
+**CRITICAL ERROR EXAMPLE**:
+```php
+// ❌ WRONG - Violates DRY
+class Attachment extends BaseModel
+{
+    use SushiToJsons;
+    
+    public function getJsonFile(): string // DUPLICATE!
+    {
+        // implementation
+    }
+}
+
+class Menu extends BaseModel
+{
+    use SushiToJsons;
+    
+    public function getJsonFile(): string // DUPLICATE!
+    {
+        // implementation
+    }
+}
+```
+
+**CORRECT PATTERN**:
+```php
+// ✅ CORRECT - Method in trait, inherited by all models
+trait SushiToJsons
+{
+    public function getJsonFile(): string
+    {
+        $tbl = $this->getTable();
+        $id = $this->getKey();
+        $filename = 'database/content/'.$tbl.'/'.$id.'.json';
+        return TenantService::filePath($filename);
+    }
+}
+
+// Models automatically inherit the method
+class Attachment extends BaseModel
+{
+    use SushiToJsons;
+    // getJsonFile() inherited from trait - NO duplication
+}
+
+class Menu extends BaseModel
+{
+    use SushiToJsons;
+    // getJsonFile() inherited from trait - NO duplication
+}
+```
+
+**WHY THIS IS CRITICAL**:
+1. **DRY Violation**: Same code in multiple files
+2. **Maintenance Hell**: Bug fix requires updating all models
+3. **Type Inconsistency**: Different implementations cause PHPStan errors
+4. **Architectural Violation**: Traits are meant for code reuse
+
+#### 6. Static Methods vs Instance Methods
 
 **Problem**: Missing static methods causing errors
 
