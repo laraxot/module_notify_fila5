@@ -17,6 +17,8 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
 /**
  * Modules\Cms\Models\Menu.
  *
+ * @method string getJsonFile()
+ *
  * @property string                $id
  * @property string|null           $title
  * @property int|null              $parent_id
