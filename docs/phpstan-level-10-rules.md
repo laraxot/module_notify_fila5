@@ -4,6 +4,10 @@
 
 **NON modificare mai** `laravel/phpstan.neon`. PHPStan deve usare esclusivamente quel file. Le correzioni vanno fatte solo nel codice sorgente (type hints, PHPDoc, @phpstan-ignore). Non aggiungere excludePaths o ignoreErrors globali in phpstan.neon.
 
+## Regola critica: mixed - Solo come Ultima Spiaggia
+
+Il tipo **mixed** deve essere usato **SOLO come ultima spiaggia**. Preferire union types, generics, interfacce. Vedi [mixed-type-ultima-spiaggia.md](mixed-type-ultima-spiaggia.md).
+
 ## Critical Rules Identified from Analysis (2026-03-02)
 
 ### 1. Trait Method Declarations

@@ -138,6 +138,9 @@ middleware(['auth', 'verified']);
 
 ### Quality Assurance
 - [PHPStan Analysis](phpstan.md) 📊
+- [Mixed Type — Solo come Ultima Spiaggia](mixed-type-ultima-spiaggia.md) 🔒
+- [PHPMD e PHPInsights — SOLO .phar](quality-tools-setup.md) 📦
+- [View Pattern — view-string + viewParams](view-pattern.md) 📐
 - [Testing Best Practices](testing-best-practices.md) ✅
 - [Code Review Guidelines](CODE_QUALITY.md#code-review-checklist) 🔍
 

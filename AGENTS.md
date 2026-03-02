@@ -14,6 +14,21 @@ This file contains comprehensive guidelines and commands for AI agents working o
 - **NEVER** create Controllers
 - **ALWAYS** use: Volt, Folio, Filament, Laraxot
 
+### VIEW PATTERN — view-string + viewParams
+- Per view(): variabile con @phpstan-var view-string, $viewParams = [] esplicito
+- return view($viewName, $viewParams)
+- Logica: type safety, estensibilità, consistenza. Vedi docs/view-pattern.md
+
+### PHPMD e PHPInsights — SOLO .phar
+- **NON** installare con Composer
+- Usare .phar: `php phpmd.phar`, `php phpinsights.phar`
+- Logica: indipendenza, portabilità, leggerezza. Vedi docs/quality-tools-setup.md
+
+### MIXED (tipo di dato) - SOLO COME ULTIMA SPIAGGIA
+- Il tipo **mixed** deve essere usato **SOLO come ultima spiaggia**
+- Preferire sempre: union types (`string|int|null`), generics (`Collection<int, User>`), interfacce
+- Usare mixed solo quando non esiste alternativa (es. API esterne senza tipo garantito)
+
 ### LOGGING BEST PRACTICES - CRITICAL FOR PERFORMANCE
 - **NEVER** use Log::info() for routine operations
 - **ALWAYS** use Log::error() only for actual errors
