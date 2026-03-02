@@ -137,6 +137,7 @@ cache/*
 *.jar
 laravel/Themes/One
 
+.agents
 .ai
 .ai-context
 .claude
