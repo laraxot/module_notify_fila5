@@ -1,7 +1,16 @@
 <?php
 
 /**
+ * Trait SushiToJsons.
+ *
+ * Questo trait permette ai modelli di utilizzare il pacchetto Sushi per leggere
+ * dati da file JSON con isolamento per tenant. Ogni tenant ha i propri file JSON
+ * nella directory config/{tenant_name}/database/content/.
+ *
  * @see https://dev.to/hasanmn/automatically-update-createdby-and-updatedby-in-laravel-using-bootable-traits-28g9.
+ *
+ * @method string getJsonFile() Ottiene il percorso del file JSON per il modello corrente
+ * @method array getSushiRows() Ottiene i dati dal file JSON per il modello Sushi
  */
 
 declare(strict_types=1);
@@ -21,6 +30,22 @@ use function Safe\unlink;
 trait SushiToJsons
 {
     use Sushi;
+
+    /**
+     * @return string
+     */
+    public function getJsonFile(): string
+    {
+        $tbl = $this->getTable();
+        $id = $this->getKey();
+
+        $stringId = is_string($id) || is_numeric($id) ? (string) $id : 'unknown';
+        $stringTbl = is_string($tbl) ? $tbl : 'unknown';
+
+        $filename = 'database/content/'.$stringTbl.'/'.$stringId.'.json';
+
+        return TenantService::filePath($filename);
+    }
 
     /**
      * @return array<int, array<string, mixed>>
@@ -60,19 +85,6 @@ trait SushiToJsons
         }
 
         return $rows;
-    }
-
-    public function getJsonFile(): string
-    {
-        $tbl = $this->getTable();
-        $id = $this->getKey();
-
-        $stringId = is_string($id) || is_numeric($id) ? (string) $id : 'unknown';
-        $stringTbl = is_string($tbl) ? $tbl : 'unknown';
-
-        $filename = 'database/content/'.$stringTbl.'/'.$stringId.'.json';
-
-        return TenantService::filePath($filename);
     }
 
     /**

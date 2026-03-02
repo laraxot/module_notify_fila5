@@ -5,18 +5,17 @@ declare(strict_types=1);
 namespace Modules\Cms\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Carbon;
 use Modules\Cms\Database\Factories\PageFactory;
 use Modules\Cms\Models\Traits\HasBlocks;
-use Modules\Tenant\Models\Traits\SushiToJsons;
+use Modules\Tenant\Models\Traits\SushiToJson;
 use Modules\Xot\Contracts\ProfileContract;
 
 /**
  * Modules\Cms\Models\Page.
  *
  * @method static array<int, array<string, mixed>> getMiddlewareBySlug(string $slug)
- * @method static array<string, BlockData> getBlocksBySlug(string $slug, ?string $side = null)
+ * @method static array<string, Modules\Cms\Datas\BlockData> getBlocksBySlug(string $slug, ?string $side = null)
  * @method string getJsonFile()
  *
  * @property string                       $id
@@ -186,12 +185,14 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static PageFactory factory($count = null, $state = [])
  * @property array<array-key, mixed>|null $blocks
  * @method static Builder<static>|Page whereBlocks($value)
+ * @method string getJsonFile()
+ * @method array<int, array<string, mixed>> getSushiRows()
  * @mixin \Eloquent
  */
 class Page extends BaseModelLang
 {
     use HasBlocks;
-    use SushiToJsons;
+    use SushiToJson;
 
     /** @var array<int, string> */
     public $translatable = [

@@ -9,6 +9,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Storage;
 use Modules\Cms\Database\Factories\AttachmentFactory;
 use Modules\Tenant\Models\Traits\SushiToJsons;
+use Modules\Tenant\Models\Traits\SushiToJsonsHelper;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -55,12 +56,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @method static static|null                firstWhere(string $column, mixed $operator = null, mixed $value = null)
  * @property ProfileContract|null $deleter
  * @method static AttachmentFactory factory($count = null, $state = [])
+ * @method array<int, array<string, mixed>> getSushiRows()
  * @mixin \Eloquent
  */
 class Attachment extends BaseModelLang implements HasMedia
 {
     use InteractsWithMedia;
     use SushiToJsons;
+    use SushiToJsonsHelper;
 
     /** @var array<int, string> */
     public $translatable = [
