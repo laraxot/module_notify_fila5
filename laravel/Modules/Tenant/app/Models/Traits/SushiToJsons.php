@@ -144,16 +144,13 @@ trait SushiToJsons
 
             $content = json_encode($item, JSON_PRETTY_PRINT);
 
-            // @phpstan-ignore-next-line - PHPStan cannot resolve method in boot closure
             $file = $model->getJsonFile();
-            if (is_string($file)) {
-                $dir = \dirname($file);
+            $dir = \dirname($file);
 
-                if (! File::exists($dir)) {
-                    File::makeDirectory($dir, 0o755, true, true);
-                }
-                File::put($file, $content);
+            if (! File::exists($dir)) {
+                File::makeDirectory($dir, 0o755, true, true);
             }
+            File::put($file, $content);
         });
         /*
          * updating.
@@ -167,17 +164,13 @@ trait SushiToJsons
             }
             /** @var Model&SushiToJsonsContract $model */
 
-            // @phpstan-ignore-next-line - PHPStan cannot resolve method in boot closure
             $file = $model->getJsonFile();
-            if (is_string($file)) {
-                // PHPStan Level 10: Use setAttribute for type safety
-                $model->setAttribute('updated_at', now());
-                $model->setAttribute('updated_by', authId());
+            $model->setAttribute('updated_at', now());
+            $model->setAttribute('updated_by', authId());
 
-                $content = $model->toJson(JSON_PRETTY_PRINT);
+            $content = $model->toJson(JSON_PRETTY_PRINT);
 
-                File::put($file, $content);
-            }
+            File::put($file, $content);
         });
         // -------------------------------------------------------------------------------------
         /*
@@ -194,11 +187,8 @@ trait SushiToJsons
             }
             /** @var Model&SushiToJsonsContract $model */
 
-            // @phpstan-ignore-next-line - PHPStan cannot resolve method in boot closure
             $file = $model->getJsonFile();
-            if (is_string($file)) {
-                unlink($file);
-            }
+            unlink($file);
         });
 
         // ----------------------
