@@ -36,7 +36,8 @@
 - Multi-tenant aware models
 - Social authentication integration
 
-#### 3. **Quaeris Module - Business Core**
+<<<<<<< .merge_file_dqYiFM
+#### 3. **healthcare_app Module - Business Core**
 **Role**: Survey management, reporting, analytics
 **Priority**: 0 (Standard priority)
 **Dependencies**: Xot, User, Geo, Media
@@ -228,7 +229,7 @@
 #### 15. **Limesurvey Module - External Integration**
 **Role**: Limesurvey integration, survey synchronization
 **Priority**: 0 (Standard priority)
-**Dependencies**: Xot, Quaeris
+**Dependencies**: Xot, healthcare_app
 
 **Key Components**:
 - `LimeSurvey`, `LimeQuestion` models
@@ -276,7 +277,7 @@
 Xot (Foundation)
 ├── User (Security)
 │   └── Tenant (Multi-tenancy)
-├── Quaeris (Business Core)
+├── healthcare_app (Business Core)
 │   ├── Geo (Locations)
 │   ├── Media (Files)
 │   └── Limesurvey (External Integration)
@@ -385,7 +386,11 @@ public function register(): void
 #### ⚠️ Needs Attention
 - **Cms**: Mixed file structure issues
 - **UI**: Mixed test structure issues
-- **Quaeris**: Missing module.json description
+<<<<<<< .merge_file_dqYiFM
+- **healthcare_app**: Missing module.json description
+=======
+- **ModuloEsempio**: Missing module.json description
+>>>>>>> .merge_file_67LCr0
 
 #### 🔧 Technical Debt
 - **Translation consistency**: Some .navigation placeholders
@@ -396,7 +401,11 @@ public function register(): void
 
 #### High-Usage Modules
 - **User**: Authentication checks on every request
-- **Quaeris**: Survey processing and reporting
+<<<<<<< .merge_file_dqYiFM
+- **healthcare_app**: Survey processing and reporting
+=======
+- **ModuloEsempio**: Survey processing and reporting
+>>>>>>> .merge_file_67LCr0
 - **Media**: File uploads and conversions
 - **Job**: Background processing
 
@@ -427,6 +436,5 @@ public function register(): void
 
 ---
 
-**Analysis Date**: [DATE]
-**Architecture Health**: Good with some technical debt
+**Architecture Health**: Good with some technical debt  
 **Recommendations**: Address file structure inconsistencies, complete documentation, optimize performance-critical modules

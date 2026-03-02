@@ -1,8 +1,8 @@
 {
-    "name": "laraxot/module_comment_fila3",
+    "name": "laraxot/module_comment_fila5",
     "description": "Modulo per la gestione dei commenti e delle interazioni utente",
     "type": "laravel-module",
-    "homepage": "https://github.com/laraxot/module_comment_fila3",
+    "homepage": "https://github.com/laraxot/module_comment_fila5",
     "license": "MIT",
     "authors": [{
         "name": "Marco Sottana",

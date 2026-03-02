@@ -32,6 +32,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 class MyProfilePage extends XotBasePage implements HasSchemas
 {
     use InteractsWithSchemas;
+
     public ?array $profileData = [];
 
     public ?array $passwordData = [];

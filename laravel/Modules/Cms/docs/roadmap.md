@@ -1,4 +1,4 @@
-# Roadmap Modulo Cms - [DATE]
+# Roadmap Modulo Cms - Febbraio 2026
 
 **Modulo**: Cms (Content Management System)
 **Scopo**: Gestione contenuti dinamici con sistema blocks, pagine multi-lingua, menu gerarchici e integrazione Folio/Volt.
@@ -40,3 +40,35 @@ Il modulo Cms fornisce:
 - Buona copertura test (91 file)
 - 10 suppressioni PHPStan da risolvere
 - Sistema blocks funzionante ma estensibile
+
+## Visione
+
+Fornire un CMS completo con pagine dinamiche, sistema blocks modulare, menu gerarchici e integrazione Folio/Volt.
+
+## Fasi di sviluppo
+
+### Fase 1: Core (Completed)
+- [x] PHPStan Level 10 Compliance
+- [x] Pagine dinamiche, Blocks, Menu gerarchici
+- [x] FolioVoltServiceProvider
+- [x] Integrazione Filament admin
+
+### Fase 2: Quality (In Progress)
+- [ ] Ridurre 10 suppressioni PHPStan
+- [ ] Completare sistema blocks
+- [ ] Migliorare test Folio/Volt
+- [ ] Consolidare documentazione
+
+### Fase 3: Advanced (Planned)
+- [ ] Versioning pagine
+- [ ] Filament v5 Clusters
+
+## Collegamenti
+
+- [README](README.md)
+- [00-index](00-index.md)
+- [tasks-index](tasks/tasks-index.md)
+
+---
+
+**Ultimo aggiornamento**: 2026-02-24

@@ -28,13 +28,13 @@ laravel/Themes/One/
 
 ### Installazione Corretta
 ```bash
-git subtree add --prefix laravel/Themes/One git@github.com:laraxot/theme_one_fila3.git dev --squash
+git subtree add --prefix laravel/Themes/One git@github.com:laraxot/theme_one_fila5.git dev --squash
 ```
 
 ### Errore da Evitare
 ❌ **NON** utilizzare:
 ```bash
-git subtree add --prefix laravel/Modules/ThemeOne git@github.com:laraxot/theme_one_fila3.git dev --squash
+git subtree add --prefix laravel/Modules/ThemeOne git@github.com:laraxot/theme_one_fila5.git dev --squash
 ```
 
 ## Struttura del Tema
@@ -101,4 +101,4 @@ class AdminPanelProvider extends PanelProvider
 
 ## Collegamenti tra versioni di temi.md
 * [temi.md](docs/regole/temi.md)
-* [temi.md](laravel/Modules/Cms/docs/temi.md)
+* [temi.md](laravel/modules/cms/docs/temi.md)

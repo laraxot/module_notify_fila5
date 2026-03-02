@@ -1,10 +1,10 @@
 # Modulo Geo
 
 ## Informazioni Generali
-- **Nome**: `laraxot/module_geo_fila3`
+- **Nome**: `laraxot/module_geo_fila5`
 - **Descrizione**: Modulo per la gestione delle funzionalità geografiche
 - **Namespace**: `Modules\Geo`
-- **Repository**: https://github.com/laraxot/module_geo_fila3.git
+- **Repository**: https://github.com/laraxot/module_geo_fila5.git
 
 ## Service Providers
 1. `Livewire\LivewireServiceProvider`
@@ -49,7 +49,7 @@ Per tutti i dati statici (regioni, province, comuni, cap) di dimensioni ridotte,
 - Nessuna duplicazione, dati facilmente versionabili.
 - Performance ottimale tramite cache Laravel.
 - Per dettagli implementativi e best practice vedi: [geo-json-model.md](geo-json-model.md)
-- Regola architetturale documentata anche in: [Xot/project_docs/module-structure.md](../../Xot/project_docs/module-structure.md) e [<main module>/project_docs/geo-integration.md](../../<main module>/project_docs/geo-integration.md)
+- Regola architetturale documentata anche in: [Xot/project_docs/module-structure.md](../../xot/project_docs/module-structure.md) e [<main module>/project_docs/geo-integration.md](../../<main module>/project_docs/geo-integration.md)
 
 ---
 
