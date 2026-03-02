@@ -7,7 +7,7 @@ Modulo dedicato alla gestione dei commenti
 Dentro la cartella laravel/Modules
 
 ```bash
-git submodule add https://github.com/laraxot/module_comment_fila3.git Comment
+git submodule add https://github.com/laraxot/module_comment_fila5.git Comment
 ```
 Verrà creata la cartella Comment con dentro tutto il contenuto del modulo.
 
@@ -33,9 +33,9 @@ php artisan module:migrate Comment
 
 Per installare correttamente il modulo Comment è necessario installare le dipendenze dei 3 seguenti moduli:
 
-- [UI](https://github.com/laraxot/module_ui_fila3/blob/dev/README.md)
-- [Xot](https://github.com/laraxot/module_xot_fila3/blob/dev/README.md)
-- [Tenant](https://github.com/laraxot/module_tenant_fila3/blob/dev/README.md)
+- [UI](https://github.com/laraxot/module_ui_fila5/blob/dev/README.md)
+- [Xot](https://github.com/laraxot/module_xot_fila5/blob/dev/README.md)
+- [Tenant](https://github.com/laraxot/module_tenant_fila5/blob/dev/README.md)
 - 
 
 Leggere ed eseguire correttamente le istruzioni all'interno dei file README.md di ciascuno di questi moduli

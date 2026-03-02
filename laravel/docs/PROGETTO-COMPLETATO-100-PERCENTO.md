@@ -31,7 +31,7 @@
 ### ✅ 100% PHPSTAN COMPLIANCE - VERIFICATO!
 
 ```bash
-cd /var/www/_bases/base_fixcity_fila4_mono/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
 Result: {"totals":{"errors":0,"file_errors":0}}

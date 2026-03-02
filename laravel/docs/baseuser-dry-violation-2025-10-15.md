@@ -143,7 +143,7 @@ abstract class BaseUser extends Authenticatable implements ...
 
 ### Step 1: Backup
 ```bash
-cd /var/www/_bases/base_fixcity_fila4_mono/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 # Backup file
 cp Modules/User/app/Models/BaseUser.php \

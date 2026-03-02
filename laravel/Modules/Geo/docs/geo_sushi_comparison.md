@@ -75,10 +75,9 @@
 - [Geo/project_docs/geo-json-model.md](geo-json-model.md)
 - [Sushi - usesushi.dev](https://usesushi.dev/)
 - [Squire PHP](https://github.com/squirephp/squire)
-- [Xot/project_docs/module-structure.md](../../Xot/project_docs/module-structure.md)
+- [Xot/project_docs/module-structure.md](../../xot/project_docs/module-structure.md)
 - [<main module>/project_docs/geo-integration.md](../../<main module>/project_docs/geo-integration.md)
 
 ---
 
-**Ultimo aggiornamento:** {{date('Y-m-d')}}
 Responsabile: Cascade AI 

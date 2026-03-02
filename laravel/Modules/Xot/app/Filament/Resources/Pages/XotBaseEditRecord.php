@@ -10,13 +10,14 @@ use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Filament\Schemas\Schema; // Keep if still used elsewhere
 use Filament\Support\Components\Component;
 use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Filament\Traits\HasXotForm;
 use Modules\Xot\Filament\Traits\TransTrait;
 
 abstract class XotBaseEditRecord extends FilamentEditRecord
 {
     use TransTrait;
+    //use HasXotForm;//non posso usarlo perche' collide con $data
 
-   
     public static function getNavigationLabel(): string
     {
         return static::transFunc(__FUNCTION__);
@@ -57,7 +58,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     /**
      * Get the form schema.
      *
-     * @return array<int, Component>
+     * @return array<int|string, Component>
      */
     protected function getFormSchema(): array
     {
@@ -85,5 +86,14 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
             // ...
             */
         ];
+    }
+
+    public function form(Schema $schema): Schema
+    {
+        $schema = parent::form($schema);
+        return $schema
+            ->components($this->getFormSchema())
+            ->columns(2)
+            ;
     }
 }

@@ -2,21 +2,19 @@
 
 declare(strict_types=1);
 
-uses(Modules\User\Tests\TestCase::class);
+namespace Modules\User\Tests\Unit\Traits;
 
+use Modules\User\Tests\TestCase;
 use Modules\User\Traits\PasswordValidationRules;
+
+uses(TestCase::class);
 
 test('PasswordValidationRules trait can be used', function () {
     $testClass = new class {
         use PasswordValidationRules;
-
-        public function getPasswordRules()
-        {
-            return $this->passwordRules();
-        }
     };
 
-    expect($testClass)->toBeObject();
+    expect($testClass)->not()->toBeNull();
 });
 
 test('PasswordValidationRules trait provides passwordRules method', function () {

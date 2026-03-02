@@ -198,7 +198,7 @@ class UserServiceProvider extends XotBaseServiceProvider
 
 ```json
 {
-    "name": "laraxot/module_user_fila3",
+    "name": "laraxot/module_user_fila5",
     "extra": {
         "laravel": {
             "providers": [
@@ -366,9 +366,9 @@ test('user service provider only configures, not registers dependencies', functi
 ## 📚 Collegamenti
 
 ### Documentazione Correlata
-- [PASSPORT_INTEGRATION.md](./PASSPORT_INTEGRATION.md) - Passport integration completa
-- [FILOSOFIA_MODULO_USER.md](./FILOSOFIA_MODULO_USER.md) - Filosofia generale modulo
-- [README.md](./README.md) - Overview modulo
+- [PASSPORT_INTEGRATION.md](./passport_integration.md) - Passport integration completa
+- [FILOSOFIA_MODULO_USER.md](./filosofia_modulo_user.md) - Filosofia generale modulo
+- [README.md](./readme.md) - Overview modulo
 
 ### Documentazione Esterna
 - [Laravel Modules Documentation](https://nwidart.com/laravel-modules)

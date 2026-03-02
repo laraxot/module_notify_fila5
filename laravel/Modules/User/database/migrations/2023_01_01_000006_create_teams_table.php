@@ -11,7 +11,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 return new class extends XotBaseMigration {
     /**
-     * Esegue la migrazione.
+     * Run the migrations.
      */
     public function up(): void
     {
@@ -41,12 +41,9 @@ return new class extends XotBaseMigration {
             if (! $this->hasColumn('code')) {
                 $table->string('code', 36)->nullable()->index();
             }
-
-            if (! $this->hasColumn('owner_id')) {
-                $table->uuid('owner_id')->nullable()->after('id');
-            }
-
             $this->updateTimestamps($table, true);
+
+            // $this->updateUser($table);
         });
     }
 };

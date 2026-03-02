@@ -1,15 +1,17 @@
 {
-  "name": "laraxot/module_tenant_fila3",
-  "description": "tenant module for software architecture that allows a single instance of a software application to serve multiple tenants",
+  "name": "laraxot/module_tenant_fila5",
+  "description": "Multi-tenancy module for the Laraxot ecosystem: single application instance serving multiple tenants with data isolation.",
   "keywords": [
     "laraxot",
     "laravel",
     "filament",
     "module_tenant",
-    "Laravel",
-    "Tenant module"
+    "tenant",
+    "multi-tenancy",
+    "saas",
+    "data-isolation"
   ],
-  "homepage": "https://github.com/laraxot/module_tenant_fila3",
+  "homepage": "https://github.com/laraxot/module_tenant_fila5",
   "license": "MIT",
   "authors": [
     {
