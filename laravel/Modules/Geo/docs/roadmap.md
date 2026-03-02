@@ -1,32 +1,24 @@
 # Roadmap Modulo Geo
 
-## 🎯 Visione
-Gestire tutta la geolocalizzazione del sistema, inclusi indirizzi, coordinate, mappe interattive e servizi di geocoding, fornendo un'interfaccia agnostica verso diversi provider cartografici.
+Questo documento fornisce una panoramica ad alto livello sull’evoluzione del modulo `Geo`.  
+I dettagli sono organizzati in sotto-documenti dedicati nella cartella `docs/roadmap/`.
 
-## 🏗️ Fasi di Sviluppo
+## Mappa dei documenti di roadmap
 
-### Fase 1: Core Geo Services (Completata)
-- [x] Modelli base (Location, Address) e gestione coordinate.
-- [x] Servizio di geocoding e integrazione mappe di base.
-- [x] Correzioni PHPStan Level 10.
+- **Visione e obiettivi**  
+  Vedi `docs/roadmap/vision.md` per:
+  - obiettivi di business del modulo (geolocalizzazione centralizzata, geocoding, routing);
+  - obiettivi tecnici (provider agnostico, caching, PHPStan).
 
-### Fase 2: Advanced Features (Completata)
-- [x] Sistema di Geofencing e integrazione routing.
-- [x] Supporto a più provider cartografici (Google, OpenStreetMap, ecc.).
-- [x] Sistema di caching per le richieste geografiche.
+- **Fasi di sviluppo**  
+  Vedi `docs/roadmap/phases.md` per:
+  - riepilogo delle fasi già completate (Core Services, Advanced Features);
+  - attività in corso su analytics e ottimizzazione;
+  - idee future su AI e scenari enterprise.
 
-### Fase 3: Analytics e Ottimizzazione (In Corso)
-- [ ] Implementazione di analytics geografiche per reporting.
-- [ ] Ottimizzazione delle performance delle query GIS.
-- [ ] Supporto real-time per aggiornamenti di posizione.
+- **Checklist qualità**  
+  Vedi `docs/roadmap/quality.md` per:
+  - criteri tecnici (PHPStan, architettura, provider);
+  - obiettivi di performance;
+  - requisiti di testing e sicurezza.
 
-### Fase 4: AI e Enterprise (Pianificato)
-- [ ] **AI-Powered Routing**: Suggerimenti predittivi basati sui dati storici.
-- [ ] Stili di mappa customizzabili per Tenant.
-- [ ] Supporto multitenant avanzato per isolamento dati geografici.
-
-## ✅ Checklist Qualità
-- [x] PHPStan Level 10.
-- [ ] Performance di risposta per geocoding < 200ms (con cache).
-- [ ] Supporto GIS completo nel database.
-- [ ] Traduzioni delle entità geografiche.
