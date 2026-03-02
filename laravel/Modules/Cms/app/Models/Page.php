@@ -184,6 +184,10 @@ use Modules\Xot\Contracts\ProfileContract;
  *
  * @method static PageFactory factory($count = null, $state = [])
  *
+ * @property array<array-key, mixed>|null $blocks
+ *
+ * @method static Builder<static>|Page whereBlocks($value)
+ *
  * @mixin \Eloquent
  */
 class Page extends BaseModelLang
