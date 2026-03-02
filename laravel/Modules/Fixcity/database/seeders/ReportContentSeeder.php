@@ -63,6 +63,7 @@ class ReportContentSeeder extends Seeder
     public function run(): void
     {
         foreach ($this->realReports as $report) {
+            /** @var array<string, mixed> $report */
             DB::table('reports')->insert([
                 'title' => $report['title'],
                 'description' => $report['description'],
