@@ -125,6 +125,9 @@ use Webmozart\Assert\Assert;
  *
  * @method static Builder|Ticket currentStatus(...$names)
  * @method static Builder|Ticket otherCurrentStatus(...$names)
+ * @method void setStatus(string|TicketStatusEnum $status)
+ * @method HasMany<TicketActivity, $this> activities()
+ * @method HasMany<TicketComment, $this> comments()
  *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
