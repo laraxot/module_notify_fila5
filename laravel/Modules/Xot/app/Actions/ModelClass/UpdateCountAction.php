@@ -22,6 +22,7 @@ class UpdateCountAction
      */
     public function execute(string $modelClass, int $total): void
     {
-        \Modules\Xot\Models\InformationSchemaTable::updateModelCount($modelClass, $total);
+        /** @phpstan-ignore staticMethod.notFound */
+        InformationSchemaTable::updateModelCount($modelClass, $total);
     }
 }

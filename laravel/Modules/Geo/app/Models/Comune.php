@@ -6,8 +6,13 @@ namespace Modules\Geo\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
-
 use Modules\Geo\Database\Factories\ComuneFactory;
+
+use function Safe\file_get_contents;
+use function Safe\file_put_contents;
+use function Safe\json_decode;
+use function Safe\json_encode;
+use function Safe\mkdir;
 use Modules\Tenant\Contracts\SushiToJsonContract;
 use Modules\Tenant\Models\Traits\SushiToJson;
 use Modules\Xot\Contracts\ProfileContract;

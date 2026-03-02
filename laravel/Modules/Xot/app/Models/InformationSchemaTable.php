@@ -4,12 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use function Safe\file_get_contents;
-use function Safe\file_put_contents;
-use function Safe\json_decode;
-use function Safe\json_encode;
-use function Safe\mkdir;
-
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
@@ -20,27 +14,6 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
 
 /**
- * @method static int getModelCount(string $modelClass)
- * @method static void updateModelCount(string $modelClass, int $total)
- * @method static Builder<static>|InformationSchemaTable newModelQuery()
- * @method static Builder<static>|InformationSchemaTable newQuery()
- * @method static Builder<static>|InformationSchemaTable query()
- * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
- * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
- * @method static Builder<static>|InformationSchemaTable whereId($value)
- * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
- * @method static Builder<static>|InformationSchemaTable whereTableName($value)
- * @method static Builder<static>|InformationSchemaTable whereTableRows($value)
- * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
- * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
- * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
- * @method string getJsonFile()
- * @method array loadExistingData()
- * @method string authId()
- * @method void ensureDirectoryExists()
- * @method void saveToJson()
- * @method int findRowIndexById(int $id)
- *
  * @property int|null $table_rows
  * @property string $table_schema
  * @property string $table_name
@@ -54,6 +27,8 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
  * @method static InformationSchemaTableFactory factory($count = null, $state = [])
+ * @method static Builder<static>|InformationSchemaTable newModelQuery()
+ * @method static Builder<static>|InformationSchemaTable newQuery()
  * @method static Builder<static>|InformationSchemaTable query()
  * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
@@ -64,6 +39,8 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
+ * @method static int getModelCount(class-string<Model> $modelClass)
+ * @method static void updateModelCount(class-string<Model> $modelClass, int $total)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends BaseModel implements SushiToJsonContract
@@ -119,75 +96,6 @@ class InformationSchemaTable extends BaseModel implements SushiToJsonContract
     public function getRows(): array
     {
         return $this->getSushiRows();
-    }
-
-    /**
-     * Get the JSON file path for this model.
-     * Overrides the SushiToJson trait default to use database_path.
-     *
-     * @return string
-     */
-    public function getJsonFile(): string
-    {
-        $tbl = $this->getTable();
-
-        return database_path('data/'.$tbl.'.json');
-    }
-
-    /**
-     * @return array<int, array<string, mixed>>
-     */
-    public function loadExistingData(): array
-    {
-        $path = $this->getJsonFile();
-        if (! file_exists($path)) {
-            return [];
-        }
-        try {
-            $data = json_decode(file_get_contents($path), true);
-            if (! is_array($data)) {
-                return [];
-            }
-            /** @var array<int, array<string, mixed>> $data */
-            return $data;
-        } catch (\Throwable) {
-            return [];
-        }
-    }
-
-    public function saveToJson(array $data): bool
-    {
-        $file = $this->getJsonFile();
-        $directory = dirname($file);
-        if (! file_exists($directory)) {
-            mkdir($directory, 0o755, true);
-        }
-        file_put_contents($file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-
-        return true;
-    }
-
-    public function authId(): string
-    {
-        return (string) (auth()->id() ?? 'system');
-    }
-
-    public function ensureDirectoryExists(string $filePath): void
-    {
-        $directory = dirname($filePath);
-        if (! file_exists($directory)) {
-            mkdir($directory, 0o755, true);
-        }
-    }
-
-    public function findRowIndexById(array $rows, int $id): ?int
-    {
-        foreach ($rows as $index => $row) {
-            if (is_array($row) && ((int) ($row['id'] ?? 0)) === $id) {
-                return (int) $index;
-            }
-        }
-        return null;
     }
 
     /**
