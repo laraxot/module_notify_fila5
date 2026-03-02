@@ -10,7 +10,7 @@ class TicketList extends Component
     public array $categories;
 
     /** @var \Illuminate\Contracts\Pagination\LengthAwarePaginator<int, Ticket> */
-    public $tickets;
+    public \Illuminate\Contracts\Pagination\LengthAwarePaginator $tickets;
 
     public function __construct()
     {
@@ -35,7 +35,7 @@ class TicketList extends Component
             ->paginate(10);
     }
 
-    public function render()
+    public function render(): \Illuminate\Contracts\View\View
     {
         return view('fixcity::components.blocks.ticket_list.agid');
     }
