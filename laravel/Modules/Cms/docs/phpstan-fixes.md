@@ -53,11 +53,13 @@ Se il metodo esiste gia' nel trait, NON ridefinirlo.
 ### 4. Session 2026-03-02 - Blocks, SushiToJson, Safe
 - **UI Blocks**: Aggiunto supporto `tpl` come alias di `view` per retrocompatibilità
 - **Cms/Blog ThemeComposer**: Sostituito `tpl:` con `view:` nelle chiamate Blocks
-- **Tenant SushiToJson**: Aggiunto `@phpstan-require-implements SushiToJsonContract`
-- **Geo/Tenant**: Rimosso Safe\file_exists (uso file_exists nativo)
+- **Tenant SushiToJson**: Aggiunto `@phpstan-require-implements` e assert `instanceof SushiToJsonContract` nelle closure
+- **Tenant SushiToJsons**: Rimossi check `is_string($file)` ridondanti (getJsonFile restituisce string)
+- **Geo Comune**: Aggiunto thecodingmachine/safe, use Safe\file_get_contents, json_decode, mkdir, file_put_contents, json_encode
 - **TestSushiModel**: Corretto return type saveToJson a bool
 - **Cms Page/Section**: phpstan-ignore per getBlocksBySlug (metodo da trait)
-- **Geo Comune**: loadExistingData return type array<int, array<string, mixed>>
+- **Cms PageSlugMiddleware**: phpstan-ignore e cast array per getMiddlewareBySlug
+- **Cms GuestLayout**: @phpstan-var view-string per parametro view
 
 ## Risultati
 - ✅ **Fatal SushiToJsonsHelper** risolto

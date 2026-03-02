@@ -54,9 +54,12 @@ class Agid extends Component
                 'icon',
             ])
             ->get()
-            ->mapWithKeys(function ($category) {
+            ->mapWithKeys(function (object $category) {
+                /** @var int|string $key */
+                $key = is_int($category->id) || is_string($category->id) ? $category->id : (int) $category->id;
+
                 return [
-                    $category->id => [
+                    $key => [
                         'name' => $category->name,
                         'description' => $category->description,
                         'icon' => $category->icon,
