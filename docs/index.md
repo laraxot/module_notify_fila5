@@ -140,6 +140,7 @@ middleware(['auth', 'verified']);
 - [PHPStan Analysis](phpstan.md) 📊
 - [Mixed Type — Solo come Ultima Spiaggia](mixed-type-ultima-spiaggia.md) 🔒
 - [PHPMD e PHPInsights — SOLO .phar](quality-tools-setup.md) 📦
+- [Build PHPInsights .phar](phpinsights-phar-build.md) 🔧
 - [View Pattern — view-string + viewParams](view-pattern.md) 📐
 - [Testing Best Practices](testing-best-practices.md) ✅
 - [Code Review Guidelines](CODE_QUALITY.md#code-review-checklist) 🔍
