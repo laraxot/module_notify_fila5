@@ -55,7 +55,6 @@ class Section extends BaseModelLang
 {
     use HasBlocks;
     use SushiToJsons;
-    use SushiToJsonsHelper;
 
     /** @var array<int, string> */
     public $translatable = [

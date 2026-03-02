@@ -9,7 +9,6 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Storage;
 use Modules\Cms\Database\Factories\AttachmentFactory;
 use Modules\Tenant\Models\Traits\SushiToJsons;
-use Modules\Tenant\Models\Traits\SushiToJsonsHelper;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -63,7 +62,6 @@ class Attachment extends BaseModelLang implements HasMedia
 {
     use InteractsWithMedia;
     use SushiToJsons;
-    use SushiToJsonsHelper;
 
     /** @var array<int, string> */
     public $translatable = [
