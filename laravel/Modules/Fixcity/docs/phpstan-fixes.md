@@ -1,6 +1,17 @@
 ## PHPStan Fixes - Modulo Fixcity
 
+**Regola**: NON modificare `laravel/phpstan.neon`. Le correzioni vanno fatte nel codice sorgente.
+
 Questo documento raccoglie le segnalazioni PHPStan attuali sul modulo `Fixcity` e il piano di correzione, **prima** di toccare il codice.
+
+### Comandi verifica qualità
+
+```bash
+cd laravel
+./vendor/bin/phpstan analyse Modules
+php tools/phpmd.phar Modules/Fixcity text cleancode,codesize,design,naming,unusedcode
+./vendor/bin/phpinsights analyse Modules/Fixcity --no-interaction
+```
 
 ### 1. Azioni dominio Ticket (ChangeStatus, GenerateTicketsAction)
 

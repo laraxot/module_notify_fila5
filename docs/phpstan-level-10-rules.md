@@ -2,7 +2,7 @@
 
 ## Regola immutabile: phpstan.neon
 
-**NON modificare mai** `laravel/phpstan.neon`. Le correzioni vanno fatte solo nel codice sorgente (type hints, PHPDoc, @phpstan-ignore). Non aggiungere excludePaths o ignoreErrors globali.
+**NON modificare mai** `laravel/phpstan.neon`. PHPStan deve usare esclusivamente quel file. Le correzioni vanno fatte solo nel codice sorgente (type hints, PHPDoc, @phpstan-ignore). Non aggiungere excludePaths o ignoreErrors globali in phpstan.neon.
 
 ## Critical Rules Identified from Analysis (2026-03-02)
 
