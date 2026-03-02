@@ -155,3 +155,5 @@ laravel/Themes/One
 .windsurf.*
 .ai-context
 .clauderules
+
+docs/archive/

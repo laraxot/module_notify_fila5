@@ -51,3 +51,8 @@
 - Aggiungere esempi di componenti Filament (widget/list) puramente dimostrativi per mostrare l’uso del modulo.
 - Allineare file di traduzione `lang/it` e `lang/en` con struttura espansa (navigation, fields, actions, messages).
 
+---
+
+Per i **criteri di accettazione** dettagliati e verificabili di ogni fase si veda [acceptance-criteria.md](acceptance-criteria.md).  
+Per le **metriche** di qualità e test si veda [metrics.md](metrics.md).
+

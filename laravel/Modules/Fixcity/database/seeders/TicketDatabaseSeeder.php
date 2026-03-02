@@ -53,7 +53,7 @@ class TicketDatabaseSeeder extends Seeder
                 'status' => $ticket['status'],
                 'priority' => $ticket['priority'],
                 'owner_id' => User::first()->id ?? 1,
-                'slug' => Str::slug($ticket['name']),
+                'slug' => Str::slug((string) $ticket['name']),
                 'created_at' => now(),
                 'updated_at' => now(),
             ]);

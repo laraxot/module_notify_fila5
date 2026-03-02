@@ -30,3 +30,9 @@ Il modulo `Rating` ha l'obiettivo di fornire un'infrastruttura **agnostica e riu
   - Collegare le proprie entità alla infrastruttura di rating
   - Definire le esperienze utente (UI/UX, workflow)
 
+## Non-goals (fuori ambito)
+
+- **Logica di business specifica per dominio**: es. “rating dentisti” o “rating articoli” resta nei moduli applicativi; Rating fornisce solo strumenti generici (trait, criteri, aggregazione).
+- **UI pubblica di voto**: eventuali form/widget per votare sono costruiti dai moduli consumer; Rating può fornire solo widget/admin generici.
+- **Gamification o livelli utente**: badge, livelli, punti esperienza non fanno parte del modulo Rating (possono usare i dati di rating come input).
+

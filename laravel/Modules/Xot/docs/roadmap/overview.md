@@ -10,7 +10,6 @@
 ## Module Identity
 
 **Name**: Xot (Core Foundation Module)  
-**Version**: 12.x  
 **Status**: Core / Foundation  
 **Stability**: Stable  
 **Maintainer**: Laraxot Team
@@ -163,5 +162,3 @@ This roadmap is organized into the following sections:
 
 ---
 
-**Last Updated**: 2026-03-02  
-**Next Review**: 2026-03-16

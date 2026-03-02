@@ -75,7 +75,7 @@ class ThemeComposer
             $blocks = [];
         }
         $blocksComponent = new Blocks(
-            view: 'ui::components.render.blocks.v1',
+            tpl: 'ui::components.render.blocks.v1',
             blocks: $blocks,
             model: $page,
         );
@@ -97,7 +97,7 @@ class ThemeComposer
         }
 
         $blocksComponent = new Blocks(
-            view: 'ui::components.render.blocks.v1',
+            tpl: 'ui::components.render.blocks.v1',
             blocks: $blocks,
             model: $page,
         );
@@ -119,7 +119,7 @@ class ThemeComposer
         }
 
         $blocksComponent = new Blocks(
-            view: 'ui::components.render.blocks.v1',
+            tpl: 'ui::components.render.blocks.v1',
             blocks: $blocks,
             model: $page,
         );

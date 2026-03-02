@@ -124,7 +124,6 @@ Creata documentazione completa strategica e roadmap per tutti i moduli:
 
 **Versione**: 1.0.0-alpha  
 **Maintainer**: FixCity Development Team  
-**Last Updated**: 2025-01-01
 
 
 
