@@ -26,6 +26,6 @@ class CountAction
      */
     public function execute(string $modelClass): int
     {
-        return InformationSchemaTable::getModelCount($modelClass);
+        return \Modules\Xot\Models\InformationSchemaTable::getModelCount($modelClass);
     }
 }
