@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Cms\Database\Factories\PageContentFactory;
 use Modules\Tenant\Models\Traits\SushiToJsons;
+use Modules\Tenant\Models\Traits\SushiToJsonsHelper;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\Translatable\HasTranslations;
 
@@ -45,12 +46,15 @@ use Spatie\Translatable\HasTranslations;
  * @method static int                         count()
  * @property ProfileContract|null $deleter
  * @method static PageContentFactory factory($count = null, $state = [])
+ * @method string getJsonFile()
+ * @method array<int, array<string, mixed>> getSushiRows()
  * @mixin \Eloquent
  */
 class PageContent extends BaseModel
 {
     use HasTranslations;
     use SushiToJsons;
+    use SushiToJsonsHelper;
 
     /** @var array<int, string> */
     public $translatable = [

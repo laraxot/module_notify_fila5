@@ -24,6 +24,13 @@ use function Safe\json_encode;
  * nella directory config/{tenant_name}/database/content/.
  *
  * @see https://github.com/calebporzio/sushi
+ *
+ * @method string getJsonFile() Ottiene il percorso del file JSON per il modello corrente
+ * @method array loadExistingData() Carica i dati esistenti dal file JSON
+ * @method string authId() Ottiene l'ID dell'utente autenticato
+ * @method void ensureDirectoryExists() Assicura che la directory esista
+ * @method void saveToJson() Salva i dati nel file JSON
+ * @method int findRowIndexById(int $id) Trova l'indice di una riga per ID
  */
 trait SushiToJson
 {
