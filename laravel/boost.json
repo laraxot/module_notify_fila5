@@ -1,0 +1,28 @@
+{
+    "agents": [
+        "junie",
+        "cursor",
+        "claude_code",
+        "copilot",
+        "opencode",
+        "gemini",
+        "codex",
+        "amp"
+    ],
+    "guidelines": true,
+    "herd_mcp": false,
+    "mcp": true,
+    "nightwatch_mcp": false,
+    "packages": [
+        "filament/filament"
+    ],
+    "sail": false,
+    "skills": [
+        "folio-routing",
+        "pennant-development",
+        "fluxui-development",
+        "volt-development",
+        "pest-testing",
+        "laravel-specialist"
+    ]
+}
