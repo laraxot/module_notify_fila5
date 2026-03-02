@@ -9,38 +9,27 @@ PHPStan analyzes static code patterns but cannot dynamically resolve trait metho
 2. In trait boot callbacks (creating, updating, deleting)
 3. In model methods that use trait methods
 
-## Solution: @method Annotations
+## Solution: Contratti (Interfacce)
 
-### For Models Using SushiToJsons Trait
-Add @method annotations to model PHPDoc:
+Per risolvere i `method.notFound` nelle closure di boot, i modelli implementano interfacce dedicate e i trait usano type narrowing con `Model&Contract`:
 
+### SushiToJsonContract
+Interfaccia in `Modules/Tenant/app/Contracts/SushiToJsonContract.php` con metodi: getJsonFile, loadExistingData, authId, ensureDirectoryExists, saveToJson, findRowIndexById.
+
+Modelli che implementano: Page, Comune, TestSushiModel, InformationSchemaTable.
+
+### SushiToJsonsContract
+Interfaccia in `Modules/Tenant/app/Contracts/SushiToJsonsContract.php` con metodo getJsonFile.
+
+Modelli che implementano: Attachment, Menu, PageContent, Section, BaseModelJsons.
+
+### Pattern nei trait
 ```php
-/**
- * @method string getJsonFile() Get JSON file path
- * @method array getSushiRows() Get rows from JSON
- */
-class Page extends BaseModel
-{
-    use SushiToJsons;
+if (! $model instanceof Model || ! $model instanceof SushiToJsonContract) {
+    throw new InvalidArgumentException('Model must implement '.SushiToJsonContract::class);
 }
-```
-
-### For Models Using SushiToJson Trait
-Add @method annotations for all trait methods:
-
-```php
-/**
- * @method string getJsonFile() Get JSON file path
- * @method array loadExistingData() Load existing data
- * @method string authId() Get authenticated user ID
- * @method void ensureDirectoryExists() Ensure directory exists
- * @method void saveToJson() Save data to JSON
- * @method int findRowIndexById(int $id) Find row index by ID
- */
-class InformationSchemaTable extends BaseModel
-{
-    use SushiToJson;
-}
+/** @var Model&SushiToJsonContract $modelWithTrait */
+$modelWithTrait = $model;
 ```
 
 ### For Static Methods from HasBlocks Trait
@@ -77,13 +66,14 @@ class Page extends BaseModel
 - ✅ Modules/Xot/app/Filament/Actions/Header/ExportPdfAction.php - Fixed parameter count
 
 ## Results
-- Before: 140 errors
-- After: 136 errors (-4 errors fixed)
-- Target: 0 errors
+- Before: ~154 errori (method.notFound sui trait Sushi)
+- Dopo interfacce: errori Sushi eliminati
+- saveToJson: return type bool (non void) per compatibilità contratto
 
 ## Best Practices
-1. Always add @method annotations when using traits with public methods
-2. Include complete method signatures with parameter types and return types
-3. Document what each method does in the annotation
-4. Use proper type hints for all parameters and return types
-5. Follow PHPStan Level 10 strict typing requirements
+1. **DRY — mai duplicare metodi del trait nei modelli**: `getJsonFile()` è definito in `SushiToJsons`; Attachment, Menu, PageContent, Section **non** lo ridefiniscono. Override solo se path diverso (es. InformationSchemaTable, Comune). Vedi `.cursor/rules/trait-methods-no-duplication.mdc`
+2. Always add @method annotations when using traits with public methods
+3. Include complete method signatures with parameter types and return types
+4. Document what each method does in the annotation
+5. Use proper type hints for all parameters and return types
+6. Follow PHPStan Level 10 strict typing requirements
