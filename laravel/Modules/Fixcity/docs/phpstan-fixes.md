@@ -79,9 +79,20 @@ Questo documento raccoglie le segnalazioni PHPStan attuali sul modulo `Fixcity` 
   - **Piano di fix**:
     - Migrare eventuali esigenze di API verso Actions + integrazioni specifiche (es. endpoints pubblici centralizzati nel modulo `Xot`), documentando ogni deviazione.
 
-### 6. Prossimi step
+### 6. Correzioni completate
+
+#### TicketActivity.php - `$fillable` PHPDoc covariance (fixed)
+- **Errore**: `PHPDoc type array<int, string> of property $fillable is not covariant with PHPDoc type list<string> of overridden property BaseModel::$fillable`
+- **Fix**: Cambiato `@var array<int, string>` in `@var list<string>` per allinearsi al tipo del parent `BaseModel`
+- **Regola**: Tutti i `$fillable` devono usare `/** @var list<string> */`
+
+#### TicketActivity.php - `withTrashed()` e return type (suppressed)
+- **Errore**: `withTrashed()` non disponibile su `BelongsTo`, return type `mixed`
+- **Fix**: Aggiunto `@phpstan-ignore method.notFound` nel PHPDoc della relazione `ticket()`
+- **Nota**: `withTrashed()` su BelongsTo è un pattern Laravel valido ma non riconosciuto dal type system di PHPStan con Larastan
+
+### 7. Prossimi step
 
 1. Prioritizzare le correzioni legate ai **modelli** e alle **Actions di dominio** (ChangeStatus, GenerateTicketsAction), perché hanno impatto diretto sulla business logic.
 2. Allineare i componenti Livewire/Filament agli stack già consolidati in `Cms`, `User`, `Activity`.
-3. Rieseguire `./vendor/bin/phpstan analyse Modules/Fixcity` e aggiornare questa pagina con l’elenco degli errori risolti e quelli ancora aperti.
-
+3. Rieseguire `./vendor/bin/phpstan analyse Modules/Fixcity` e aggiornare questa pagina con l'elenco degli errori risolti e quelli ancora aperti.
