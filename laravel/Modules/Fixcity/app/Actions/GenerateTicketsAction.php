@@ -27,12 +27,18 @@ class GenerateTicketsAction
                 ->map(fn (): callable => function () use ($states): Ticket {
                     $state = $this->faker->randomElement($states);
 
-                    return match ($state) {
-                        'open' => Ticket::factory()->open()->create(),
-                        'urgent' => Ticket::factory()->urgent()->create(),
-                        'resolved' => Ticket::factory()->resolved()->create(),
-                        default => Ticket::factory()->create(),
+                    /** @var \Modules\Fixcity\Database\Factories\TicketFactory $factory */
+                    $factory = Ticket::factory();
+
+                    /** @var Ticket $ticket */
+                    $ticket = match ($state) {
+                        'open' => $factory->open()->create(),  // @phpstan-ignore method.nonObject
+                        'urgent' => $factory->urgent()->create(),  // @phpstan-ignore method.nonObject
+                        'resolved' => $factory->resolved()->create(),  // @phpstan-ignore method.nonObject
+                        default => $factory->create(),  // @phpstan-ignore method.nonObject
                     };
+
+                    return $ticket;
                 })
         )->dispatch();
     }

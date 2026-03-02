@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 use Modules\Geo\Database\Factories\AddressFactory;
 use Modules\Geo\Enums\AddressTypeEnum;
+use Modules\Geo\Models\Comune;
 use Modules\Xot\Contracts\ProfileContract;
 
 /**
@@ -160,13 +161,12 @@ class Address extends BaseModel
      */
     public function getRegione(): ?array
     {
-        /** @phpstan-ignore method.unresolvableReturnType */
         $res = Comune::select('regione')
             ->distinct()
             ->orderBy('regione->nome')
             ->where('regione->codice', $this->administrative_area_level_1)
             ->get()
-            /* @phpstan-ignore argument.unresolvableType */
+            // @phpstan-ignore-next-line
             ->map(function ($item) {
                 $regione = $item->regione;
                 if (! is_array($regione) || ! isset($regione['codice'], $regione['nome'])) {
@@ -182,13 +182,12 @@ class Address extends BaseModel
 
     public function getProvincia(): ?array
     {
-        /** @phpstan-ignore method.unresolvableReturnType */
         $res = Comune::select('provincia')
             ->distinct()
             ->orderBy('provincia->nome')
             ->where('provincia->codice', $this->administrative_area_level_2)
             ->get()
-            /* @phpstan-ignore argument.unresolvableType */
+            // @phpstan-ignore-next-line
             ->map(fn ($item) => [
                 /* @phpstan-ignore offsetAccess.notFound */
                 'codice' => $item->provincia['codice'],

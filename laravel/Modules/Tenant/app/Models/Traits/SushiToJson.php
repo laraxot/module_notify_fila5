@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
+use Modules\Tenant\Contracts\SushiToJsonContract;
 use Modules\Tenant\Services\TenantService;
 use Sushi\Sushi;
 use Throwable;
@@ -245,6 +246,10 @@ trait SushiToJson
             if (! $model instanceof Model) {
                 throw new InvalidArgumentException('Model must be an instance of Illuminate\Database\Eloquent\Model');
             }
+            if (! $model instanceof SushiToJsonContract) {
+                throw new InvalidArgumentException('Model must implement '.SushiToJsonContract::class);
+            }
+            /** @var Model&SushiToJsonContract $model */
             $file = $model->getJsonFile();
 
             // Load existing data and compute next ID
@@ -296,6 +301,10 @@ trait SushiToJson
             if (! $model instanceof Model) {
                 throw new InvalidArgumentException('Model must be an instance of Illuminate\Database\Eloquent\Model');
             }
+            if (! $model instanceof SushiToJsonContract) {
+                throw new InvalidArgumentException('Model must implement '.SushiToJsonContract::class);
+            }
+            /** @var Model&SushiToJsonContract $model */
             $model->setAttribute('updated_at', now());
 
             // Set audit fields if available via helper
@@ -325,6 +334,10 @@ trait SushiToJson
             if (! $model instanceof Model) {
                 throw new InvalidArgumentException('Model must be an instance of Illuminate\Database\Eloquent\Model');
             }
+            if (! $model instanceof SushiToJsonContract) {
+                throw new InvalidArgumentException('Model must implement '.SushiToJsonContract::class);
+            }
+            /** @var Model&SushiToJsonContract $model */
             $id = (int) ($model->getAttribute('id') ?? 0);
 
             if ($id > 0) {
