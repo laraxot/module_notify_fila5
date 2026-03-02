@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Storage;
 use Modules\Cms\Database\Factories\AttachmentFactory;
+use Modules\Tenant\Contracts\SushiToJsonsContract;
 use Modules\Tenant\Models\Traits\SushiToJsons;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\HasMedia;
@@ -17,8 +18,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 /**
  * ---.
- *
- * @method string getJsonFile()
  *
  * @property string                       $id
  * @property array<array-key, mixed>|null $title
@@ -58,7 +57,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @method array<int, array<string, mixed>> getSushiRows()
  * @mixin \Eloquent
  */
-class Attachment extends BaseModelLang implements HasMedia
+class Attachment extends BaseModelLang implements HasMedia, SushiToJsonsContract
 {
     use InteractsWithMedia;
     use SushiToJsons;

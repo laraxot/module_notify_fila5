@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+use function Safe\file_get_contents;
+use function Safe\file_put_contents;
+use function Safe\json_decode;
+use function Safe\json_encode;
+use function Safe\mkdir;
+
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use InvalidArgumentException;
+use Modules\Tenant\Contracts\SushiToJsonContract;
 use Modules\Tenant\Models\Traits\SushiToJson;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
@@ -59,7 +66,7 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
  * @mixin \Eloquent
  */
-class InformationSchemaTable extends BaseModel
+class InformationSchemaTable extends BaseModel implements SushiToJsonContract
 {
     use SushiToJson;
 
@@ -125,6 +132,62 @@ class InformationSchemaTable extends BaseModel
         $tbl = $this->getTable();
 
         return database_path('data/'.$tbl.'.json');
+    }
+
+    /**
+     * @return array<int, array<string, mixed>>
+     */
+    public function loadExistingData(): array
+    {
+        $path = $this->getJsonFile();
+        if (! file_exists($path)) {
+            return [];
+        }
+        try {
+            $data = json_decode(file_get_contents($path), true);
+            if (! is_array($data)) {
+                return [];
+            }
+            /** @var array<int, array<string, mixed>> $data */
+            return $data;
+        } catch (\Throwable) {
+            return [];
+        }
+    }
+
+    public function saveToJson(array $data): bool
+    {
+        $file = $this->getJsonFile();
+        $directory = dirname($file);
+        if (! file_exists($directory)) {
+            mkdir($directory, 0o755, true);
+        }
+        file_put_contents($file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+
+        return true;
+    }
+
+    public function authId(): string
+    {
+        return (string) (auth()->id() ?? 'system');
+    }
+
+    public function ensureDirectoryExists(string $filePath): void
+    {
+        $directory = dirname($filePath);
+        if (! file_exists($directory)) {
+            mkdir($directory, 0o755, true);
+        }
+    }
+
+    public function findRowIndexById(array $rows, int $id): ?int
+    {
+        foreach ($rows as $index => $row) {
+            if (is_array($row) && ((int) ($row['id'] ?? 0)) === $id) {
+                return (int) $index;
+            }
+        }
+        return null;
     }
 
     /**

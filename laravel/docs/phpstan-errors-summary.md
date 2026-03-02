@@ -1,7 +1,10 @@
 ## PHPStan Errors Summary - Modules (Level 10, JSON Report)
 
 Fonte: `./vendor/bin/phpstan analyse Modules --level=10 --memory-limit=2G --error-format=json > /tmp/phpstan-errors.json`  
-Totale file con errori: **135** (vedi JSON per dettaglio completo).
+Ultimo run: 2026-03-02. Totale errori: **154**.
+
+### Fix applicati 2026-03-02
+- **SushiToJsonsHelper rimosso**: Allineamento a `base_techplanner_fila5`. Il trait `SushiToJsonsHelper` non esiste in techplanner; `SushiToJsons` è self-contained. Rimossi da: `Section`, `PageContent`, `BaseModelJsons`. Risolto Fatal "Trait not found".
 
 ### Blog
 - `Blog/app/Models/Transaction.php`
@@ -36,14 +39,13 @@ Totale file con errori: **135** (vedi JSON per dettaglio completo).
 - `Models/Address.php`
   - Uso di `Collection<Comune>::map()` con callback/return type non risolvibili.
 
-### Tenant / Cms / Xot – Sushi Traits
+### Tenant / Cms / Xot – Sushi Traits (metodi mancanti – PHPStan trait resolution)
 - `Tenant/app/Models/Traits/SushiToJson.php`
-  - Per `Comune`, `TestSushiModel`, `InformationSchemaTable`: metodi `getJsonFile()/loadExistingData()/saveToJson()/authId()/findRowIndexById()` mancanti quando il trait è usato fuori dal modello che li implementa.
-  - Problemi ricorrenti su `foreach nonIterable`, accesso a offset su `mixed`, `array_values()` su `mixed`.
+  - PHPStan non risolve i metodi del trait quando analizza le closure in `bootSushiToJson`. I metodi (`getJsonFile`, `loadExistingData`, `authId`, `ensureDirectoryExists`, `saveToJson`, `findRowIndexById`) sono definiti nel trait; i modelli (`Page`, `Comune`, `TestSushiModel`, `InformationSchemaTable`) hanno `@method` in PHPDoc. Pattern da `base_techplanner_fila5`: trait completo con metodi instance.
 - `Tenant/app/Models/Traits/SushiToJsons.php`
-  - Per modelli Cms (`Attachment`, `Menu`, `Page`, `PageContent`, `Section`): `getJsonFile()` non presente sul modello.
+  - Stesso pattern: `getJsonFile()` è nel trait ma PHPStan lo segnala come mancante sui modelli (`Attachment`, `Menu`, `PageContent`, `Section`) nelle closure di boot.
 - `Xot/Models/InformationSchemaTable.php` + `ModelClass\CountAction/UpdateCountAction`
-  - `InformationSchemaTable::getModelCount()/updateModelCount()` mancanti nella nostra codebase (presenti in `base_laravelpizza`).
+  - `getModelCount()` e `updateModelCount()` sono implementati in `InformationSchemaTable`; PHPStan li segnala come mancanti (possibile cache o analisi statica).
 
 ### Notify
 - `FirebaseAndroidNotification.php`
