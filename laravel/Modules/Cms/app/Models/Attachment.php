@@ -18,6 +18,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 /**
  * ---.
  *
+ * @method string getJsonFile()
+ *
  * @property string                       $id
  * @property array<array-key, mixed>|null $title
  * @property array<array-key, mixed>|null $description

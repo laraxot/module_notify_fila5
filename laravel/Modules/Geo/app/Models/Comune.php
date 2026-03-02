@@ -12,7 +12,7 @@ use Modules\Xot\Contracts\ProfileContract;
 
 /**
  * Modello per i comuni italiani con Sushi.
- *
+ * 
  * Implementa il pattern Facade per fornire un'interfaccia unificata a tutti i dati geografici:
  * regioni, province, città, CAP, codici ISTAT, ecc.
  * Tutti i dati sono estratti da file JSON e gestiti tramite Sushi.
@@ -36,7 +36,6 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string|null                  $updated_by
  * @property ProfileContract|null         $creator
  * @property ProfileContract|null         $updater
- *
  * @method static Builder<static>|Comune newModelQuery()
  * @method static Builder<static>|Comune newQuery()
  * @method static Builder<static>|Comune query()
@@ -57,26 +56,21 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Comune whereUpdatedAt($value)
  * @method static Builder<static>|Comune whereUpdatedBy($value)
  * @method static Builder<static>|Comune whereZona($value)
- *
  * @property ProfileContract|null $deleter
- *
  * @method static ComuneFactory factory($count = null, $state = [])
- *
- * @property int|null    $altitudine
+ * @property int|null $altitudine
  * @property string|null $codice_catastale
- * @property float|null  $lat
- * @property float|null  $lng
+ * @property float|null $lat
+ * @property float|null $lng
  * @property string|null $sigla_provincia
- * @property float|null  $superficie
+ * @property float|null $superficie
  * @property string|null $zona_altimetrica
- *
  * @method static Builder<static>|Comune whereAltitudine($value)
  * @method static Builder<static>|Comune whereLat($value)
  * @method static Builder<static>|Comune whereLng($value)
  * @method static Builder<static>|Comune whereSiglaProvincia($value)
  * @method static Builder<static>|Comune whereSuperficie($value)
  * @method static Builder<static>|Comune whereZonaAltimetrica($value)
- *
  * @mixin \Eloquent
  */
 class Comune extends BaseModel
@@ -129,93 +123,6 @@ class Comune extends BaseModel
     public function getRows(): array
     {
         return $this->getSushiRows();
-    }
-
-    /**
-     * Get the JSON file path for this model.
-     *
-     * @return string
-     */
-    protected function getJsonFile(): string
-    {
-        return module_path('Geo', 'resources/json/comuni.json');
-    }
-
-    /**
-     * Load existing data from JSON file.
-     *
-     * @return array<int, array<string, mixed>>
-     */
-    protected function loadExistingData(): array
-    {
-        $path = $this->getJsonFile();
-        if (! File::exists($path)) {
-            return [];
-        }
-        $data = json_decode(File::get($path), true);
-        return is_array($data) ? $data : [];
-    }
-
-    /**
-     * Save data to JSON file.
-     *
-     * @param  array<int, array<string, mixed>>  $data
-     * @return bool
-     */
-    protected function saveToJson(array $data): bool
-    {
-        $file = $this->getJsonFile();
-        $directory = dirname($file);
-        if (! File::exists($directory)) {
-            File::makeDirectory($directory, 0o755, true, true);
-        }
-        $content = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-        File::put($file, $content);
-        return true;
-    }
-
-    /**
-     * Get authenticated user ID.
-     *
-     * @return int|string|null
-     */
-    protected function authId(): int|string|null
-    {
-        if (\function_exists('authId')) {
-            return authId();
-        }
-        return auth()->id() ?? null;
-    }
-
-    /**
-     * Ensure directory exists for JSON file.
-     *
-     * @param  string  $filePath
-     * @return void
-     */
-    protected function ensureDirectoryExists(string $filePath): void
-    {
-        $directory = dirname($filePath);
-        if (! File::exists($directory)) {
-            File::makeDirectory($directory, 0o755, true, true);
-        }
-    }
-
-    /**
-     * Find row index by ID in data array.
-     *
-     * @param  array<int, array<string, mixed>>  $rows
-     * @param  int  $id
-     * @return int|null
-     */
-    protected function findRowIndexById(array $rows, int $id): ?int
-    {
-        foreach ($rows as $index => $row) {
-            if (is_array($row) && ((int) ($row['id'] ?? 0)) === $id) {
-                return (int) $index;
-            }
-        }
-        return null;
     }
 
     /**

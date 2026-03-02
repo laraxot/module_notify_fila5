@@ -181,16 +181,66 @@ protected function getHeaderActions(): array
 - Study base_laravelpizza Cms module for reference implementation
 
 ### LOGGING BEST PRACTICES - CRITICAL FOR PERFORMANCE
+- **NEVER USE Log::info()** - it only logs and slows down the project significantly
 - **NEVER** use `Log::info()` for routine operations or successful completions
 - **ALWAYS** use `Log::error()` only for actual errors and exceptions
 - **ALWAYS** use `Log::warning()` only for conditions that require attention
 - **ALWAYS** use `Log::debug()` only for development debugging (never in production)
 - **PERFORMANCE IMPACT**: Excessive logging can slow down requests by 30-50%
+- **STORAGE IMPACT**: Log files grow uncontrollably and waste disk space
+- **I/O IMPACT**: Every Log::info() is a disk write operation that blocks execution
 - **BEST PRACTICE**: Log only when something goes wrong or requires attention
 - **WRONG**: `Log::info('User logged in', ['user_id' => $id])`
 - **WRONG**: `Log::info('Ticket created', ['ticket_id' => $id])`
 - **WRONG**: `Log::info('Notification sent', ['recipient' => $email])`
+- **WRONG**: `Log::info('Registration attempt', [...])`
+- **WRONG**: `Log::info('Request received', [...])`
 - **CORRECT**: `Log::error('Login failed', ['user_id' => $id, 'reason' => $error])`
 - **CORRECT**: `Log::warning('Rate limit exceeded', ['user_id' => $id])`
+- **CORRECT**: `Log::error('Database connection failed', [...])`
 - **MONITORING**: Use Laravel Telescope, Pulse, or dedicated monitoring tools instead of logs
 - **AUDIT TRAIL**: Use database tables (activities, audit_logs) not log files
+- **TRACKING**: Use Laravel Telescope or Pulse for request tracking, not logs
+
+### PHPSTAN LEVEL 10 - TYPE SAFETY REQUIREMENTS
+- **ALWAYS** declare types for ALL class properties (no missingType.property errors)
+- **ALWAYS** add return type declarations to ALL methods
+- **ALWAYS** use proper type hints for parameters
+- **ALWAYS** add PHPDoc for traits with public methods to help PHPStan discover them
+- **ALWAYS** add @method annotations when using traits with public methods
+- **ALWAYS** avoid mixed types - use specific types or union types
+- **ALWAYS** use Safe library functions (json_decode, json_encode, realpath) instead of native
+- **ALWAYS** add @var annotations for mixed types in foreach loops
+- **ALWAYS** use class-string<Model> for model class parameters
+- **NEVER** use undefined methods or properties
+- **NEVER** call methods on mixed types without type assertions
+- **NEVER** access array offsets on mixed types without type checks
+- **TRAITS**: Public methods in traits need @method annotations in using classes
+- **TRAITS**: Complex traits need comprehensive PHPDoc with all method signatures
+- **MODELS**: Eloquent properties ($exists, $timestamps) are properties, NOT methods
+- **MODELS**: Never define them as abstract methods in contracts
+
+### TRAITS WITH PUBLIC METHODS - PHPSTAN LEVEL 10 REQUIREMENTS
+- **ALWAYS** add comprehensive PHPDoc to trait with all public method signatures
+- **ALWAYS** add @method annotations to classes using the trait
+- **ALWAYS** use @phpstan-require-extends for trait constraints
+- **EXAMPLE**: 
+  ```php
+  /**
+   * @method string getJsonFile() Get JSON file path
+   * @method array loadExistingData() Load data from file
+   */
+  trait SushiToJsons {
+      use Sushi;
+      
+      public function getJsonFile(): string { /* ... */ }
+  }
+  
+  /**
+   * @method string getJsonFile()
+   * @method array loadExistingData()
+   */
+  class Page extends BaseModel {
+      use SushiToJsons;
+  }
+  ```

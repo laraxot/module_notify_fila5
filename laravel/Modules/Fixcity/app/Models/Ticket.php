@@ -171,11 +171,7 @@ class Ticket extends XotBaseModel implements HasMedia
         // 'estimationProgress',
     ];
 
-    protected $casts = [
-        'status' => TicketStatusEnum::class,
-        'priority' => TicketPriorityEnum::class,
-        'type' => TicketTypeEnum::class,
-    ];
+
 
     public function casts(): array
     {
@@ -488,29 +484,27 @@ public function assignee(): BelongsTo
 }
 
     /**
- * @return HasMany<Modules\Fixcity\Models\TicketComment, $this>
- */
-public function comments(): HasMany
-{
-    return $this->hasMany(TicketComment::class);
-}
-
-/**
- * Set the status of the ticket.
- *
- * @param  string|TicketStatusEnum  $status
- * @return void
- */
-public function setStatus(string|TicketStatusEnum $status): void
-{
-    if (is_string($status)) {
-        $status = TicketStatusEnum::tryFrom($status);
+     * @return HasMany<TicketComment, $this>
+     */
+    public function comments(): HasMany
+    {
+        return $this->hasMany(TicketComment::class);
     }
 
-    if ($status instanceof TicketStatusEnum) {
-        $this->setStatus($status->value);
+    /**
+     * Set the status of the ticket.
+     */
+    public function setStatus(string|TicketStatusEnum $status): void
+    {
+        if (is_string($status)) {
+            $status = TicketStatusEnum::tryFrom($status);
+        }
+
+        if ($status instanceof TicketStatusEnum) {
+            $this->status = $status;
+            $this->save();
+        }
     }
-}
 
 /**
  * @return BelongsToMany<User, $this>
