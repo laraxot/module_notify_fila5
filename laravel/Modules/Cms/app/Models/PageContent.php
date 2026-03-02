@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Cms\Database\Factories\PageContentFactory;
 use Modules\Tenant\Models\Traits\SushiToJsons;
-use Modules\Tenant\Models\Traits\SushiToJsonsHelper;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\Translatable\HasTranslations;
 
@@ -54,7 +53,6 @@ class PageContent extends BaseModel
 {
     use HasTranslations;
     use SushiToJsons;
-    use SushiToJsonsHelper;
 
     /** @var array<int, string> */
     public $translatable = [
