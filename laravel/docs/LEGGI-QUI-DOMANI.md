@@ -43,7 +43,7 @@ Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 
 **Comando verifica**:
 ```bash
-cd /var/www/_bases/base_fixcity_fila4_mono/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 ./vendor/bin/phpstan analyse Modules/Xot --memory-limit=-1
 ```
 
@@ -111,7 +111,7 @@ cd /var/www/_bases/base_fixcity_fila4_mono/laravel
 
 **Verifica Completa**:
 ```bash
-cd /var/www/_bases/base_fixcity_fila4_mono/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 ```
 
@@ -185,7 +185,7 @@ php artisan test --filter=BaseUserTest
 - ❌ Non usare `->label()`, `->placeholder()`, `->tooltip()`
 
 ### ✅ Sempre Fare
-- ✅ Eseguire da `/var/www/_bases/base_fixcity_fila4_mono/laravel/`
+- ✅ Eseguire da `/var/www/_bases/base_fixcity_fila5_mono/laravel/`
 - ✅ Verificare ogni fix con PHPStan
 - ✅ Usare sempre classi XotBase
 - ✅ Aggiornare docs dopo ogni correzione

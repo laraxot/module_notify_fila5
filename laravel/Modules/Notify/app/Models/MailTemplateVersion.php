@@ -4,17 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
 use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
-use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
-use Override;
-use RuntimeException;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
  * @property int $id
@@ -31,13 +30,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Carbon|null $deleted_at
  * @property string|null $updated_by
  * @property string|null $deleted_by
- * @property-read ProfileContract|null $creator
+ * @property-read Profile|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
- * @property-read ProfileContract|null $updater
- *
- * @method static MailTemplateVersionFactory factory($count = null, $state = [])
+ * @property-read Profile|null $updater
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
  * @method static Builder<static>|MailTemplateVersion onlyTrashed()
@@ -58,11 +55,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
  * @method static Builder<static>|MailTemplateVersion withTrashed()
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
- *
  * @mixin IdeHelperMailTemplateVersion
- *
- * @property-read ProfileContract|null $deleter
- *
  * @mixin \Eloquent
  */
 class MailTemplateVersion extends BaseModel
@@ -84,6 +77,22 @@ class MailTemplateVersion extends BaseModel
         'change_notes',
     ];
 
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    #[Override]
+    protected function casts(): array
+    {
+        return [
+            'metadata' => 'array',
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+        ];
+    }
+
     public function template(): BelongsTo
     {
         return $this->belongsTo(MailTemplate::class, 'template_id');
@@ -104,21 +113,5 @@ class MailTemplateVersion extends BaseModel
         ]);
 
         return $template;
-    }
-
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
-    #[Override]
-    protected function casts(): array
-    {
-        return [
-            'metadata' => 'array',
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
-        ];
     }
 }

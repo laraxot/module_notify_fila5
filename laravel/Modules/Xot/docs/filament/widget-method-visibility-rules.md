@@ -1,6 +1,7 @@
 # Regole Visibilità Metodi Widget - HasXotTable
 
 **Data Creazione**: 2025-01-27  
+**Ultimo Aggiornamento**: 2026-01-27  
 **Status**: ✅ Critico
 
 ## Regola Fondamentale
@@ -35,7 +36,11 @@ Tutti i metodi `getTable*()` in `HasXotTable` sono dichiarati come `public` perc
 
 declare(strict_types=1);
 
-namespace Modules\Quaeris\Filament\Widgets;
+<<<<<<< .merge_file_M7BN8u
+namespace Modules\healthcare_app\Filament\Widgets;
+=======
+namespace Modules\Chart\Filament\Widgets;
+>>>>>>> .merge_file_NpfTIy
 
 use Modules\Xot\Filament\Widgets\XotBaseTableWidget;
 
@@ -91,7 +96,5 @@ must be public (as in class HasXotTable)
 ## Riferimenti
 
 - [HasXotTable Trait Source](../../../Modules/Xot/app/Filament/Traits/HasXotTable.php)
-- [Widget Table Configuration](../../../Modules/Xot/docs/filament/widget-table-configuration.md)
+- [Widget Table Configuration](../../../modules/xot/docs/filament/widget-table-configuration.md)
 
-*Ultimo aggiornamento: 2026-01-27*
-*Ultimo aggiornamento: 2025-01-27*

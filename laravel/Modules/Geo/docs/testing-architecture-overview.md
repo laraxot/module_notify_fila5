@@ -179,16 +179,15 @@ php artisan test --filter="validates user types"
 
 ## Collegamenti
 
-- [Modulo Geo Testing](../../laravel/Modules/Geo/docs/testing.md)
-- [Modulo <nome modulo> Testing](../../laravel/Modules/<nome modulo>/docs/testing.md)
-- [Best Practices Testing](../../laravel/Modules/<nome modulo>/docs/testing-best-practices.md)
-- [Common Testing Errors](../../laravel/Modules/<nome modulo>/docs/common-testing-errors.md)
-- [Modulo <nome progetto> Testing](../../laravel/Modules/<nome progetto>/docs/testing.md)
-- [Best Practices Testing](../../laravel/Modules/<nome progetto>/docs/testing-best-practices.md)
-- [Common Testing Errors](../../laravel/Modules/<nome progetto>/docs/common-testing-errors.md)
+- [Modulo Geo Testing](../../laravel/modules/geo/docs/testing.md)
+- [Modulo <nome modulo> Testing](../../laravel/modules/<nome modulo>/docs/testing.md)
+- [Best Practices Testing](../../laravel/modules/<nome modulo>/docs/testing-best-practices.md)
+- [Common Testing Errors](../../laravel/modules/<nome modulo>/docs/common-testing-errors.md)
+- [Modulo <nome progetto> Testing](../../laravel/modules/<nome progetto>/docs/testing.md)
+- [Best Practices Testing](../../laravel/modules/<nome progetto>/docs/testing-best-practices.md)
+- [Common Testing Errors](../../laravel/modules/<nome progetto>/docs/common-testing-errors.md)
 
 ---
 
-**Ultimo aggiornamento**: Gennaio 2025
 **Versione**: 1.0
 **Compatibilità**: Pest 3.x, Laravel 12.x, PHP 8.3+
