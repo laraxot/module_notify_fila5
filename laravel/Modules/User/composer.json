@@ -1,18 +1,19 @@
 {
-  "name": "laraxot/module_user_fila3",
-  "description": "user module for user management",
+  "name": "laraxot/module_user_fila5",
+  "description": "User management module for the Laraxot ecosystem: authentication, roles, teams, tenants, and OAuth.",
   "keywords": [
     "laraxot",
     "laravel",
     "filament",
     "module_user",
-    "Laravel",
-    "User module",
-    "Users",
-    "Users management",
-    "Xot"
+    "user",
+    "authentication",
+    "roles",
+    "teams",
+    "passport",
+    "oauth"
   ],
-  "homepage": "https://github.com/laraxot/module_user_fila3",
+  "homepage": "https://github.com/laraxot/module_user_fila5",
   "license": "MIT",
   "authors": [
     {
@@ -49,7 +50,8 @@
     "jenssegers/agent": "*",
     "laravel/passport": "*",
     "socialiteproviders/auth0": "*",
-    "spatie/laravel-personal-data-export": "*"
+    "spatie/laravel-personal-data-export": "*",
+    "socialiteproviders/microsoft": "^4.8"
   },
   "require-dev": {},
   "repositories": [

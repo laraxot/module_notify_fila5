@@ -15,16 +15,14 @@ use Kreait\Firebase\Messaging\AndroidConfig;
 use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Message;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
-use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\FirebaseNotificationData;
 use NotificationChannels\Fcm\FcmChannel;
-use Override;
 
 /**
  * Class for sending notifications via Firebase Cloud Messaging to Android devices.
  * Classe per inviare notifiche tramite Firebase Cloud Messaging ad Android.
  */
-class FirebaseAndroidNotification extends Notification implements MobilePushNotification
+class FirebaseAndroidNotification extends Notification
 {
     use Queueable;
 
@@ -97,7 +95,6 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * @param  object|null  $notifiable  The entity to be notified
      * @return array<string, mixed>
      */
-    #[Override]
     public function toArray(?object $notifiable): array
     {
         // return $this->data->toArray();
@@ -107,23 +104,25 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     /**
      * Convert to a Firebase Cloud message (Converti in un messaggio Cloud Firebase).
      */
-    #[Override]
     public function toCloudMessage(): Message
     {
         $notificationData = $this->data->data;
 
         /**
-         * @var array<non-empty-string, string|Stringable>
+         * @var array<non-empty-string, string> $data
          */
         $data = [];
 
         // Ensure each key is a non-empty string and each value is string or Stringable (Assicuriamoci che ogni chiave sia una stringa non vuota e ogni valore sia string o Stringable)
         foreach ($notificationData as $key => $value) {
             if (is_string($key) && $key !== '' && (is_string($value) || $value instanceof Stringable)) {
-                $data[$key] = $value;
+                $data[$key] = $value instanceof Stringable ? $value->toString() : $value;
             }
         }
 
-        return CloudMessage::new()->withHighestPossiblePriority()->withData($data);
+        /** @var CloudMessage $message */
+        $message = CloudMessage::new()->withHighestPossiblePriority()->withData($data);
+
+        return $message;
     }
 }

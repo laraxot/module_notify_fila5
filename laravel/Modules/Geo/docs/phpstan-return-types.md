@@ -248,7 +248,7 @@ grep -n "Attribute.*string" Modules/*/Models/*.php | grep -v "SafeStringCastActi
 
 - [Laravel Accessors & Mutators](https://laravel.com/project_docs/eloquent-mutators)
 - [PHPStan Return Types](https://phpstan.org/writing-php-code/phpdoc-types#return-types)
-- [Safe Casting Actions](../../Xot/project_docs/safe-casting-actions.md)
+- [Safe Casting Actions](../../xot/project_docs/safe-casting-actions.md)
 
 ## Backlink
 
@@ -256,4 +256,3 @@ grep -n "Attribute.*string" Modules/*/Models/*.php | grep -v "SafeStringCastActi
 - [Geo Module Structure](./structure.md)
 - [Class Not Found Errors](./class_not_found_errors.md)
 
-*Ultimo aggiornamento: [DATE]*

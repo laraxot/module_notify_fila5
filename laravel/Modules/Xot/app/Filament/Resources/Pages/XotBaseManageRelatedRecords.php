@@ -6,11 +6,123 @@ namespace Modules\Xot\Filament\Resources\Pages;
 
 use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
 use Modules\Xot\Filament\Traits\HasXotTable;
+use Filament\Actions\Action;
+use Filament\Actions\AssociateAction;
+use Filament\Actions\CreateAction;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Filament\Tables\Columns\TextColumn;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Override;
 
 /**
  * ---
  */
 abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 {
-    // use HasXotTable;
+    use HasXotTable;
+    use InteractsWithForms;
+    use NavigationLabelTrait;
+
+    // protected static string $resource;
+    protected static string $recordTitleAttribute = 'name';
+
+    /**
+     * Restituisce il gruppo di navigazione (override opzionale).
+     */
+    public static function getNavigationGroup(): string
+    {
+        return '';
+    }
+
+    /**
+     * Restituisce il titolo della pagina.
+     */
+    public function getTitle(): string
+    {
+        return static::transFunc(__FUNCTION__).' - '.$this->getRecordTitle();
+    }
+
+    public function getRecordTitle(): string
+    {
+        $value = $this->record->{static::$recordTitleAttribute};
+
+        return (string) $value;
+    }
+
+    /**
+     * Restituisce lo schema del form per i record correlati.
+     *
+     * @return array<\Filament\Schemas\Components\Component>
+     */
+    // abstract public static function getFormSchema(): array;
+
+    /**
+     * Configura lo schema per i record correlati.
+     */
+    public function schema(Schema $schema): Schema
+    {
+        // getFormSchema() sempre ritorna array per definizione
+        $formSchema = $this->getFormSchema();
+
+        return $schema->components($formSchema);
+    }
+
+    /**
+     * Restituisce lo schema del form per i record correlati.
+     *
+     * @return array<Component>
+     */
+    protected function getFormSchema(): array
+    {
+        return [];
+    }
+
+    /**
+     * Definisce le colonne della tabella per la visualizzazione dei record correlati.
+     * Questo metodo può essere sovrascritto nelle classi figlie.
+     *
+     * @return array<string, TextColumn>
+     */
+    #[Override]
+    public function getTableColumns(): array
+    {
+        return [
+            'id' => TextColumn::make('id')->label('ID')->sortable(),
+            'name' => TextColumn::make('name')
+                ->label('Nome')
+                ->searchable()
+                ->sortable(),
+            'created_at' => TextColumn::make('created_at')
+                ->label('Data Creazione')
+                ->dateTime('d/m/Y H:i')
+                ->sortable(),
+        ];
+    }
+
+    /**
+     * Definisce le azioni dell'intestazione della tabella.
+     * Override shouldShowAssociateAction() in subclasses to add the associate action.
+     *
+     * @return array<string, Action>
+     */
+    public function getTableHeaderActions(): array
+    {
+        $actions = [
+            'create' => CreateAction::make()->label('Crea Nuovo')->disableCreateAnother(),
+        ];
+
+        if ($this->shouldShowAssociateAction()) {
+            $actions['associate'] = AssociateAction::make();
+        }
+
+        return $actions;
+    }
+
+    public static function getNavigationLabel(): string
+    {
+        return static::transFunc(__FUNCTION__);
+    }
 }

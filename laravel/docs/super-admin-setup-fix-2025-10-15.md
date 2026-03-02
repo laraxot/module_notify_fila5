@@ -39,7 +39,7 @@ Il comando `user:super-admin` tenta di creare/assegnare ruoli **prima** che le m
 
 ```bash
 # 1. Esegui le migrazioni
-cd /var/www/_bases/base_fixcity_fila4_mono/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 php artisan migrate --force
 
 # 2. Verifica che la tabella roles esista
@@ -168,7 +168,7 @@ php artisan tinker
 
 ```bash
 # 1. Naviga nella directory Laravel
-cd /var/www/_bases/base_fixcity_fila4_mono/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 # 2. Configura .env (se non già fatto)
 cp .env.example .env

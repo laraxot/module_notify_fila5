@@ -35,7 +35,7 @@ ThemeName/
 
 ### 1. Verifica Preliminare
 ```bash
-cd /var/www/html/_bases/base_predict_fila3_mono/laravel/Themes/[NomeTema]
+cd /var/www/html/_bases/base_predict_fila5_mono/laravel/Themes/[NomeTema]
 ```
 
 ### 2. Processo di Compilazione
@@ -69,9 +69,9 @@ ls -la dist/
 - Verifica dell'integrità dei file compilati
 
 ## Collegamenti Correlati
-- [Documentazione Generale Errori](/docs/errors/README.md)
-- [Gestione Temi CMS](../themes/README.md)
-- [Processo di Deploy](../../docs/deployment/THEMES.md)
+- [Documentazione Generale Errori](/docs/errors/readme.md)
+- [Gestione Temi CMS](../themes/readme.md)
+- [Processo di Deploy](../../docs/deployment/themes.md)
 
 ## Note Tecniche
 - La compilazione deve essere eseguita per ogni tema individualmente

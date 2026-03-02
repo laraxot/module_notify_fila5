@@ -1,7 +1,17 @@
 {
-  "name": "laraxot/module_ui_fila3",
-  "description": "UI Module for Laraxot applications with Filament integration",
-  "homepage": "https://github.com/laraxot/module_ui_fila3.git",
+  "name": "laraxot/module_ui_fila5",
+  "description": "UI components, layouts, and shared interface elements for Laraxot applications with Filament integration.",
+  "keywords": [
+    "laraxot",
+    "laravel",
+    "filament",
+    "module_ui",
+    "ui",
+    "components",
+    "layouts",
+    "blade"
+  ],
+  "homepage": "https://github.com/laraxot/module_ui_fila5.git",
   "license": "MIT",
   "authors": [
     {

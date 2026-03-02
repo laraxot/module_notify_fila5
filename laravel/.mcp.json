@@ -19,7 +19,7 @@
             "args": [
                 "-y",
                 "@modelcontextprotocol/server-filesystem",
-                "/var/www/html/_bases/base_fixcity_fila3_mono/laravel"
+                "/var/www/html/_bases/base_fixcity_fila5_mono/laravel"
             ]
         },
         "sqlite": {
@@ -27,7 +27,7 @@
             "args": [
                 "-y",
                 "@modelcontextprotocol/server-sqlite",
-                "/var/www/html/_bases/base_fixcity_fila3_mono/laravel/database/database.sqlite"
+                "/var/www/html/_bases/base_fixcity_fila5_mono/laravel/database/database.sqlite"
             ]
         },
         "sequential-thinking": {
