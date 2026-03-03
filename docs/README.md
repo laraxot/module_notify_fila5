@@ -1,4 +1,4 @@
-# Documentazione Progetto base_fixcity_fila4_mono
+# Documentazione Progetto base_fixcity_fila5_mono
 
 **Progetto:** FixCity - Sistema Gestionale Multi-Modulo  
 **Versione:** 4.0  
@@ -69,7 +69,7 @@
 
 ### Verifica PHPStan
 ```bash
-cd /var/www/_bases/base_fixcity_fila4_mono/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 # Singolo modulo
 ./vendor/bin/phpstan analyse Modules/ModuleName
@@ -123,7 +123,7 @@ return [
 ## 🔧 Configurazione PHPStan
 
 ### File Principale
-`/var/www/_bases/base_fixcity_fila4_mono/laravel/phpstan.neon`
+`/var/www/_bases/base_fixcity_fila5_mono/laravel/phpstan.neon`
 
 ```neon
 parameters:
@@ -222,6 +222,6 @@ Ogni modulo può avere `phpstan.neon.dist` con baseline.
 
 ---
 
-**Documentazione Progetto base_fixcity_fila4_mono**  
+**Documentazione Progetto base_fixcity_fila5_mono**  
 **Qualità Codice - Zero Compromessi** 🏆  
 **Aggiornato:** 10 Ottobre 2025

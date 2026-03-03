@@ -1,7 +1,7 @@
 # PHPStan Cleanup Report
 
 **Data**: 2025-10-04  
-**Progetto**: base_fixcity_fila4_mono  
+**Progetto**: base_fixcity_fila5_mono  
 **Stato Finale**: ✅ **0 ERRORI** (100% Clean)
 
 ---

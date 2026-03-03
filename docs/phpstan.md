@@ -55,7 +55,7 @@ Questo documento funge da indice centrale e roadmap per l'analisi PHPStan di tut
 
 ### Problema bloccante globale
 
-- **Errore:** Vite manifest not found at: /var/www/html/_bases/base_fixcity_fila3_mono/public_html/assets/chart/manifest.json
+- **Errore:** Vite manifest not found at: /var/www/html/_bases/base_fixcity_fila5_mono/public_html/assets/chart/manifest.json
 - **Effetto:** PHPStan non può analizzare nessun modulo finché non viene generato il manifest degli asset frontend.
 - **Soluzione consigliata:**
   - Prima eseguire `npm install` (o `yarn install`) nella root frontend per installare tutte le dipendenze.
