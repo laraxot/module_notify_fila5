@@ -31,7 +31,7 @@ class SvgExistsAction
         $iconsFactory = App::make(IconFactory::class);
         try {
             $iconsFactory->svg($svgName);
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             return false;
         }
 
