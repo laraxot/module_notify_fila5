@@ -10,8 +10,9 @@ use Throwable;
 class WebhookErrorFormatter
 {
     public function __construct(
-        private Throwable $exception,
-    ) {}
+        private \Throwable $exception,
+    ) {
+    }
 
     /**
      * @return array<string, mixed>

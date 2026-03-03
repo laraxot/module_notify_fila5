@@ -21,7 +21,7 @@ class HasManyAction
     /**
      * Execute the HasMany relation update.
      *
-     * @throws InvalidArgumentException
+     * @throws \InvalidArgumentException
      */
     public function execute(Model $model, RelationData $relationDTO): void
     {
