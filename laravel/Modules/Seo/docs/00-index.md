@@ -23,6 +23,9 @@
 - ⚠️ Test suite da implementare (Pest)
 - ⚠️ PHPStan Level 10 da completare
 
+## 📦 Pacchetti Composer
+- [Riferimento](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md) - Nessuna dipendenza diretta; usa Xot
+
 ## 🔗 Moduli Correlati
 - [Xot](../../xot/docs/readme.md) - Core framework e base classes.
 - [Meetup](../../meetup/docs/readme.md) - Schema.org Event integration.
@@ -30,3 +33,7 @@
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
+
+## Dependency Intelligence
+
+- [Dependency intelligence](dependency-intelligence.md)

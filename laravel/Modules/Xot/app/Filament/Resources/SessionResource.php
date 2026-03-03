@@ -17,7 +17,7 @@ class SessionResource extends XotBaseResource
     /**
      * @return array<int, Component>
      */
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [

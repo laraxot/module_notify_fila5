@@ -17,7 +17,7 @@ class ListSessions extends XotBaseListRecords
 {
     protected static string $resource = SessionResource::class;
 
-    #[Override]
+    #[\Override]
     public function getGridTableColumns(): array
     {
         return [
@@ -25,7 +25,7 @@ class ListSessions extends XotBaseListRecords
         ];
     }
 
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
         return [
