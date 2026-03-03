@@ -29,8 +29,8 @@ class HasOneAction
      * @param  Model  $model  The parent model instance
      * @param  RelationDTO  $relationDTO  Data transfer object containing relationship information
      *
-     * @throws InvalidArgumentException When relationship type is invalid
-     * @throws RuntimeException When relationship data is invalid
+     * @throws \InvalidArgumentException When relationship type is invalid
+     * @throws \RuntimeException         When relationship data is invalid
      */
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
@@ -46,7 +46,7 @@ class HasOneAction
 
         // Validate that the relationship data is not empty
         if (empty($relationDTO->data)) {
-            throw new RuntimeException('Relationship data cannot be empty');
+            throw new \RuntimeException('Relationship data cannot be empty');
         }
 
         // Check if the related model exists
