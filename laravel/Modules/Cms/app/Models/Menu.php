@@ -142,7 +142,7 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
  * @method static static                  withTrashed()
  * @method static static                  withoutTrashed()
  * @property ProfileContract|null $deleter
- * @method static MenuFactory factory($count = null, $state = [])
+ * @method static MenuFactory                      factory($count = null, $state = [])
  * @method array<int, array<string, mixed>> getSushiRows()
  * @mixin \Eloquent
  */

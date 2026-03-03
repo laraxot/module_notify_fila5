@@ -185,3 +185,6 @@ laravel/.continue
 laravel/.cursorrules
 laravel/.opencode
 laravel/.zai
+
+.cursor.*/
+.windsurf.*/
