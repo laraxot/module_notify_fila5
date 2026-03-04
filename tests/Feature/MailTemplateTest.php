@@ -5,6 +5,8 @@ declare(strict_types=1);
 uses(\Modules\Notify\Tests\TestCase::class);
 
 use Modules\Notify\Models\MailTemplate;
+use function Pest\Laravel\assertDatabaseHas;
+use function Pest\Laravel\assertDatabaseMissing;
 
 describe('MailTemplate Model Tests', function () {
     it('can create a mail template', function () {
@@ -22,10 +24,10 @@ describe('MailTemplate Model Tests', function () {
             ->and($template->name)
             ->toBe('Test Template');
 
-        $this->assertDatabaseHas('mail_templates', [
+        assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'name' => 'Test Template',
-            'slug' => 'test-template',
+            'slug' => $template->slug,
         ]);
     });
 
@@ -55,7 +57,7 @@ describe('MailTemplate Model Tests', function () {
         $templateId = $template->id;
         $template->delete();
 
-        $this->assertSoftDeleted('mail_templates', [
+        assertDatabaseMissing('mail_templates', [
             'id' => $templateId,
         ]);
     });

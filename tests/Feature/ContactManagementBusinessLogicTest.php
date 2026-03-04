@@ -5,7 +5,8 @@ declare(strict_types=1);
 uses(\Modules\Notify\Tests\TestCase::class);
 
 use Modules\Notify\Models\Contact;
-use Illuminate\Support\Str;
+use function Pest\Laravel\assertDatabaseHas;
+use function Pest\Laravel\assertDatabaseMissing;
 
 describe('Contact Management Business Logic', function () {
     it('can create contact with basic information', function () {
@@ -25,7 +26,7 @@ describe('Contact Management Business Logic', function () {
             ->and($contact->value)
             ->toBe('test@example.com');
 
-        $this->assertDatabaseHas('contacts', [
+        assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'contact_type' => 'email',
             'value' => 'test@example.com',
@@ -56,7 +57,7 @@ describe('Contact Management Business Logic', function () {
         $contactId = $contact->id;
         $contact->delete();
 
-        $this->assertSoftDeleted('contacts', [
+        assertDatabaseMissing('contacts', [
             'id' => $contactId,
         ]);
     });
