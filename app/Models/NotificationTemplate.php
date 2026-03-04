@@ -6,6 +6,7 @@ namespace Modules\Notify\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
@@ -15,8 +16,6 @@ use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Spatie\Translatable\HasTranslations;
-
 /**
  * Class NotificationTemplate.
  *
@@ -49,6 +48,7 @@ use Spatie\Translatable\HasTranslations;
  * @property-read mixed $translations
  * @property-read ProfileContract|null $updater
  * @property-read int|null $versions_count
+ *
  * @method static Builder<static>|NotificationTemplate active()
  * @method static NotificationTemplateFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplate forCategory(string $category)
@@ -60,11 +60,14 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+ *
  * @mixin IdeHelperNotificationTemplate
+ *
  * @property-read ProfileContract|null $deleter
+ *
  * @mixin \Eloquent
  */
-use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Spatie\Translatable\HasTranslations;
 
 class NotificationTemplate extends BaseModel implements HasMedia
 {
@@ -148,9 +151,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function compile(array $data = []): array
     {
-        $subject = $this->compileString($this->subject, $data);
-        $bodyHtml = $this->compileString($this->body_html, $data);
-        $bodyText = $this->compileString($this->body_text, $data);
+        $subject = $this->compileString($this->getPreviewSubject() ?: null, $data);
+        $bodyHtml = $this->compileString($this->getPreviewBodyHtml() ?: null, $data);
+        $bodyText = $this->compileString($this->getPreviewBodyText() ?: null, $data);
 
         return [
             'subject' => $subject ?? '',
@@ -166,12 +169,14 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function shouldSend(array $data = []): bool
     {
-        if (! $this->conditions) {
+        /** @var array<string, mixed>|null $conditions */
+        $conditions = $this->conditions;
+        if (! $conditions) {
             return true;
         }
 
-        foreach ($this->conditions as $path => $value) {
-            $actual = data_get($data, $path);
+        foreach ($conditions as $path => $value) {
+            $actual = data_get($data, (string) $path);
             if ($actual !== $value) {
                 return false;
             }
@@ -249,10 +254,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getGrapesJSData(): array
     {
-        $data = $this->grapesjs_data ?? [];
-        if (! \is_array($data)) {
-            $data = [];
-        }
+        /** @var array<string, mixed>|null $grapesData */
+        $grapesData = $this->grapesjs_data;
+        $data = is_array($grapesData) ? $grapesData : [];
 
         $result = [];
         foreach ($data as $key => $value) {
@@ -277,7 +281,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
     public function getPreviewData(): array
     {
-        return $this->preview_data ?? [];
+        /** @var array<string, mixed>|null $previewData */
+        $previewData = $this->preview_data;
+
+        return $previewData ?? [];
     }
 
     public function getPreviewSubject(): string
