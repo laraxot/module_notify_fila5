@@ -70,7 +70,7 @@ class MailTemplateLogTest extends TestCase
             'clicked_at',
         ];
 
-        $this->assertEquals($expectedFillable, $log->getFillable();
+        $this->assertEquals($expectedFillable, $log->getFillable());
     }
 
     /** @test */
@@ -96,7 +96,7 @@ class MailTemplateLogTest extends TestCase
             'clicked_at' => 'datetime',
         ];
 
-        $this->assertEquals($expectedCasts, $log->casts();
+        $this->assertEquals($expectedCasts, $log->casts());
     }
 
     /** @test */
@@ -129,9 +129,9 @@ class MailTemplateLogTest extends TestCase
             'data' => json_encode($data),
         ]);
 
-        // @var mixed assertIsArray($log->data;
+        $this->assertIsArray($log->data);
         $this->assertEquals('user@example.com', $log->data['to']);
-        // @var mixed assertEquals(['cc1@example.com', 'cc2@example.com'], $log->data['cc'];
+        $this->assertEquals(['cc1@example.com', 'cc2@example.com'], $log->data['cc']);
         $this->assertEquals('John Doe', $log->data['variables']['name']);
         $this->assertEquals('Example Corp', $log->data['variables']['company']);
     }
@@ -170,7 +170,7 @@ class MailTemplateLogTest extends TestCase
             'metadata' => json_encode($metadata),
         ]);
 
-        // @var mixed assertIsArray($log->metadata;
+        $this->assertIsArray($log->metadata);
         $this->assertEquals('smtp', $log->metadata['provider']);
         $this->assertEquals('queue_123', $log->metadata['queue_id']);
         $this->assertEquals(3, $log->metadata['attempts']);
@@ -200,9 +200,9 @@ class MailTemplateLogTest extends TestCase
             'status_message' => 'Email sent successfully',
         ]);
 
-        $this->assertEquals('sent', $log->fresh();
-        // @var mixed assertNotNull($log->fresh(;
-        $this->assertEquals('Email sent successfully', $log->fresh();
+        $this->assertEquals('sent', $log->fresh());
+        $this->assertNotNull($log->fresh());
+        $this->assertEquals('Email sent successfully', $log->fresh());
     }
 
     /** @test */
@@ -226,8 +226,8 @@ class MailTemplateLogTest extends TestCase
             'status' => 'delivered',
         ]);
 
-        $this->assertEquals('delivered', $log->fresh();
-        // @var mixed assertNotNull($log->fresh(;
+        $this->assertEquals('delivered', $log->fresh());
+        $this->assertNotNull($log->fresh());
     }
 
     /** @test */
@@ -252,9 +252,9 @@ class MailTemplateLogTest extends TestCase
             'status_message' => 'SMTP connection failed',
         ]);
 
-        $this->assertEquals('failed', $log->fresh();
-        // @var mixed assertNotNull($log->fresh(;
-        $this->assertEquals('SMTP connection failed', $log->fresh();
+        $this->assertEquals('failed', $log->fresh());
+        $this->assertNotNull($log->fresh());
+        $this->assertEquals('SMTP connection failed', $log->fresh());
     }
 
     /** @test */
@@ -277,7 +277,7 @@ class MailTemplateLogTest extends TestCase
             'opened_at' => $log->fresh()->opened_at,
         ]);
 
-        // @var mixed assertNotNull($log->fresh(;
+        $this->assertNotNull($log->fresh());
     }
 
     /** @test */
@@ -301,7 +301,7 @@ class MailTemplateLogTest extends TestCase
             'clicked_at' => $log->fresh()->clicked_at,
         ]);
 
-        // @var mixed assertNotNull($log->fresh(;
+        $this->assertNotNull($log->fresh());
     }
 
     /** @test */
@@ -331,8 +331,8 @@ class MailTemplateLogTest extends TestCase
         $template123Logs = MailTemplateLog::where('template_id', 123)->get();
         $template456Logs = MailTemplateLog::where('template_id', 456)->get();
 
-        // @var mixed assertCount(2, $template123Logs;
-        // @var mixed assertCount(1, $template456Logs;
+        $this->assertCount(2, $template123Logs);
+        $this->assertCount(1, $template456Logs);
         $this->assertEquals(123, $template123Logs[0]->template_id);
         $this->assertEquals(123, $template123Logs[1]->template_id);
         $this->assertEquals(456, $template456Logs[0]->template_id);
@@ -366,9 +366,9 @@ class MailTemplateLogTest extends TestCase
         $failedLogs = MailTemplateLog::where('status', 'failed')->get();
         $deliveredLogs = MailTemplateLog::where('status', 'delivered')->get();
 
-        // @var mixed assertCount(1, $sentLogs;
-        // @var mixed assertCount(1, $failedLogs;
-        // @var mixed assertCount(1, $deliveredLogs;
+        $this->assertCount(1, $sentLogs);
+        $this->assertCount(1, $failedLogs);
+        $this->assertCount(1, $deliveredLogs);
         $this->assertEquals('sent', $sentLogs[0]->status);
         $this->assertEquals('failed', $failedLogs[0]->status);
         $this->assertEquals('delivered', $deliveredLogs[0]->status);
@@ -401,8 +401,8 @@ class MailTemplateLogTest extends TestCase
         $testMailLogs = MailTemplateLog::where('mailable_type', 'App\Mail\TestMail')->get();
         $welcomeMailLogs = MailTemplateLog::where('mailable_type', 'App\Mail\WelcomeMail')->get();
 
-        // @var mixed assertCount(2, $testMailLogs;
-        // @var mixed assertCount(1, $welcomeMailLogs;
+        $this->assertCount(2, $testMailLogs);
+        $this->assertCount(1, $welcomeMailLogs);
         $this->assertEquals('App\Mail\TestMail', $testMailLogs[0]->mailable_type);
         $this->assertEquals('App\Mail\TestMail', $testMailLogs[1]->mailable_type);
         $this->assertEquals('App\Mail\WelcomeMail', $welcomeMailLogs[0]->mailable_type);
@@ -442,8 +442,8 @@ class MailTemplateLogTest extends TestCase
         $todayLogs = MailTemplateLog::whereDate('sent_at', $today->toDateString())->get();
         $recentLogs = MailTemplateLog::where('sent_at', '>=', $yesterday)->get();
 
-        // @var mixed assertCount(1, $todayLogs;
-        // @var mixed assertCount(2, $recentLogs; // yesterday and today
+        $this->assertCount(1, $todayLogs);
+        $this->assertCount(2, $recentLogs); // yesterday and today
         $this->assertEquals('App\Mail\WelcomeMail', $todayLogs[0]->mailable_type);
     }
 
@@ -477,8 +477,8 @@ class MailTemplateLogTest extends TestCase
         $welcomeSubjectLogs = MailTemplateLog::whereJsonPath('data.subject', 'like', '%Welcome%')->get();
         $welcomeTemplateLogs = MailTemplateLog::whereJsonPath('data.template', 'like', '%welcome%')->get();
 
-        // @var mixed assertCount(1, $welcomeSubjectLogs;
-        // @var mixed assertCount(1, $welcomeTemplateLogs;
+        $this->assertCount(1, $welcomeSubjectLogs);
+        $this->assertCount(1, $welcomeTemplateLogs);
         $this->assertEquals('Welcome to our platform', $welcomeSubjectLogs[0]->data['subject']);
         $this->assertEquals('welcome_template', $welcomeTemplateLogs[0]->data['template']);
     }
@@ -513,8 +513,8 @@ class MailTemplateLogTest extends TestCase
         $smtpLogs = MailTemplateLog::whereJsonPath('metadata.provider', 'smtp')->get();
         $sesLogs = MailTemplateLog::whereJsonPath('metadata.provider', 'ses')->get();
 
-        // @var mixed assertCount(1, $smtpLogs;
-        // @var mixed assertCount(1, $sesLogs;
+        $this->assertCount(1, $smtpLogs);
+        $this->assertCount(1, $sesLogs);
         $this->assertEquals('smtp', $smtpLogs[0]->metadata['provider']);
         $this->assertEquals('ses', $sesLogs[0]->metadata['provider']);
     }
@@ -557,7 +557,7 @@ class MailTemplateLogTest extends TestCase
             ->whereJsonPath('data.subject', 'like', '%Welcome%')
             ->get();
 
-        // @var mixed assertCount(1, $smtpWelcomeLogs;
+        $this->assertCount(1, $smtpWelcomeLogs);
         $this->assertEquals('sent', $smtpWelcomeLogs[0]->status);
         $this->assertEquals('smtp', $smtpWelcomeLogs[0]->metadata['provider']);
         $this->assertEquals('Welcome email', $smtpWelcomeLogs[0]->data['subject']);
@@ -581,18 +581,18 @@ class MailTemplateLogTest extends TestCase
             'clicked_at' => null,
         ]);
 
-        // @var mixed assertNull($log->template_id;
-        // @var mixed assertNull($log->mailable_type;
-        // @var mixed assertNull($log->mailable_id;
-        // @var mixed assertNull($log->status;
-        // @var mixed assertNull($log->status_message;
-        // @var mixed assertNull($log->data;
-        // @var mixed assertNull($log->metadata;
-        // @var mixed assertNull($log->sent_at;
-        // @var mixed assertNull($log->delivered_at;
-        // @var mixed assertNull($log->failed_at;
-        // @var mixed assertNull($log->opened_at;
-        // @var mixed assertNull($log->clicked_at;
+        $this->assertNull($log->template_id);
+        $this->assertNull($log->mailable_type);
+        $this->assertNull($log->mailable_id);
+        $this->assertNull($log->status);
+        $this->assertNull($log->status_message);
+        $this->assertNull($log->data);
+        $this->assertNull($log->metadata);
+        $this->assertNull($log->sent_at);
+        $this->assertNull($log->delivered_at);
+        $this->assertNull($log->failed_at);
+        $this->assertNull($log->opened_at);
+        $this->assertNull($log->clicked_at);
     }
 
     /** @test */
@@ -613,9 +613,9 @@ class MailTemplateLogTest extends TestCase
             'metadata' => json_encode([]),
         ]);
 
-        // @var mixed assertIsArray($log->data;
-        // @var mixed assertIsArray($log->metadata;
-        // @var mixed assertEmpty($log->data;
-        // @var mixed assertEmpty($log->metadata;
+        $this->assertIsArray($log->data);
+        $this->assertIsArray($log->metadata);
+        $this->assertEmpty($log->data);
+        $this->assertEmpty($log->metadata);
     }
 }

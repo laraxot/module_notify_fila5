@@ -70,9 +70,9 @@ class NotificationTypeTest extends TestCase
             'template' => 'updated_template',
         ]);
 
-        $this->assertEquals('Updated Name', $notificationType->fresh();
-        $this->assertEquals('Updated description', $notificationType->fresh();
-        $this->assertEquals('updated_template', $notificationType->fresh();
+        $this->assertEquals('Updated Name', $notificationType->fresh());
+        $this->assertEquals('Updated description', $notificationType->fresh());
+        $this->assertEquals('updated_template', $notificationType->fresh());
     }
 
     /** @test */
@@ -86,7 +86,7 @@ class NotificationTypeTest extends TestCase
 
         $found = NotificationType::where('name', 'SMS Notification')->first();
 
-        // @var mixed assertNotNull($found;
+        $this->assertNotNull($found);
         $this->assertEquals($notificationType->id, $found->id);
         $this->assertEquals('SMS Notification', $found->name);
         $this->assertEquals('SMS notification type', $found->description);
@@ -111,8 +111,8 @@ class NotificationTypeTest extends TestCase
         $template1Types = NotificationType::where('template', 'email_template_1')->get();
         $template2Types = NotificationType::where('template', 'email_template_2')->get();
 
-        // @var mixed assertCount(1, $template1Types;
-        // @var mixed assertCount(1, $template2Types;
+        $this->assertCount(1, $template1Types);
+        $this->assertCount(1, $template2Types);
         $this->assertEquals('email_template_1', $template1Types[0]->template);
         $this->assertEquals('email_template_2', $template2Types[0]->template);
     }
@@ -141,11 +141,11 @@ class NotificationTypeTest extends TestCase
         $userTypes = NotificationType::where('description', 'like', '%for users%')->get();
         $mobileTypes = NotificationType::where('description', 'like', '%mobile%')->get();
 
-        // @var mixed assertCount(2, $userTypes;
-        // @var mixed assertCount(1, $mobileTypes;
-        // @var mixed assertStringContainsString('for users', $userTypes[0]->description;
-        // @var mixed assertStringContainsString('for users', $userTypes[1]->description;
-        // @var mixed assertStringContainsString('mobile', $mobileTypes[0]->description;
+        $this->assertCount(2, $userTypes);
+        $this->assertCount(1, $mobileTypes);
+        $this->assertStringContainsString('for users', $userTypes[0]->description);
+        $this->assertStringContainsString('for users', $userTypes[1]->description);
+        $this->assertStringContainsString('mobile', $mobileTypes[0]->description);
     }
 
     /** @test */
@@ -157,8 +157,8 @@ class NotificationTypeTest extends TestCase
             'template' => null,
         ]);
 
-        // @var mixed assertNull($notificationType->description;
-        // @var mixed assertNull($notificationType->template;
+        $this->assertNull($notificationType->description);
+        $this->assertNull($notificationType->template);
         $this->assertDatabaseHas('notification_types', [
             'id' => $notificationType->id,
             'description' => null,
@@ -181,7 +181,7 @@ class NotificationTypeTest extends TestCase
             NotificationType::create($typeData);
         }
 
-        // @var mixed assertDatabaseCount('notification_types', 5;
+        $this->assertDatabaseCount('notification_types', 5);
 
         $emailType = NotificationType::where('name', 'Email')->first();
         $smsType = NotificationType::where('name', 'SMS')->first();
@@ -220,7 +220,7 @@ class NotificationTypeTest extends TestCase
             ->where('description', 'like', '%email%')
             ->get();
 
-        // @var mixed assertCount(1, $highPriorityEmailTypes;
+        $this->assertCount(1, $highPriorityEmailTypes);
         $this->assertEquals('High Priority Email', $highPriorityEmailTypes[0]->name);
         $this->assertEquals('High priority email notifications', $highPriorityEmailTypes[0]->description);
         $this->assertEquals('high_priority_email', $highPriorityEmailTypes[0]->template);

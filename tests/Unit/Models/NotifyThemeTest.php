@@ -87,7 +87,7 @@ class NotifyThemeTest extends TestCase
             'view_params',
         ];
 
-        $this->assertEquals($expectedFillable, $theme->getFillable();
+        $this->assertEquals($expectedFillable, $theme->getFillable());
     }
 
     /** @test */
@@ -107,7 +107,7 @@ class NotifyThemeTest extends TestCase
             'view_params' => 'array',
         ];
 
-        $this->assertEquals($expectedCasts, $theme->casts();
+        $this->assertEquals($expectedCasts, $theme->casts());
     }
 
     /** @test */
@@ -117,7 +117,7 @@ class NotifyThemeTest extends TestCase
 
         $expectedAppends = ['logo'];
 
-        $this->assertEquals($expectedAppends, $theme->getAppends();
+        $this->assertEquals($expectedAppends, $theme->getAppends());
     }
 
     /** @test */
@@ -150,7 +150,7 @@ class NotifyThemeTest extends TestCase
             'view_params' => json_encode($viewParams),
         ]);
 
-        // @var mixed assertIsArray($theme->view_params;
+        $this->assertIsArray($theme->view_params);
         $this->assertEquals('Test Company', $theme->view_params['company_name']);
         $this->assertEquals('#ef4444', $theme->view_params['primary_color']);
         $this->assertEquals('Inter', $theme->view_params['fonts']['primary']);
@@ -170,10 +170,10 @@ class NotifyThemeTest extends TestCase
 
         $logo = $theme->logo;
 
-        // @var mixed assertIsArray($logo;
-        // @var mixed assertArrayHasKey('path', $logo;
-        // @var mixed assertArrayHasKey('width', $logo;
-        // @var mixed assertArrayHasKey('height', $logo;
+        $this->assertIsArray($logo);
+        $this->assertArrayHasKey('path', $logo);
+        $this->assertArrayHasKey('width', $logo);
+        $this->assertArrayHasKey('height', $logo);
         $this->assertEquals(300, $logo['width']);
         $this->assertEquals(120, $logo['height']);
     }
@@ -219,10 +219,10 @@ class NotifyThemeTest extends TestCase
             'view_params' => json_encode(['updated' => true, 'version' => '2.0']),
         ]);
 
-        $this->assertEquals('Updated Subject', $theme->fresh();
-        $this->assertEquals('Updated body text', $theme->fresh();
-        $this->assertEquals('updated', $theme->fresh();
-        // @var mixed assertEquals(['updated' => true, 'version' => '2.0'], $theme->fresh(;
+        $this->assertEquals('Updated Subject', $theme->fresh());
+        $this->assertEquals('Updated body text', $theme->fresh());
+        $this->assertEquals('updated', $theme->fresh());
+        $this->assertEquals(['updated' => true, 'version' => '2.0'], $theme->fresh());
     }
 
     /** @test */
@@ -250,9 +250,9 @@ class NotifyThemeTest extends TestCase
         $englishThemes = NotifyTheme::where('lang', 'en')->get();
         $germanThemes = NotifyTheme::where('lang', 'de')->get();
 
-        // @var mixed assertCount(1, $italianThemes;
-        // @var mixed assertCount(1, $englishThemes;
-        // @var mixed assertCount(1, $germanThemes;
+        $this->assertCount(1, $italianThemes);
+        $this->assertCount(1, $englishThemes);
+        $this->assertCount(1, $germanThemes);
         $this->assertEquals('it', $italianThemes[0]->lang);
         $this->assertEquals('en', $englishThemes[0]->lang);
         $this->assertEquals('de', $germanThemes[0]->lang);
@@ -283,9 +283,9 @@ class NotifyThemeTest extends TestCase
         $smsThemes = NotifyTheme::where('type', 'sms')->get();
         $pushThemes = NotifyTheme::where('type', 'push')->get();
 
-        // @var mixed assertCount(1, $emailThemes;
-        // @var mixed assertCount(1, $smsThemes;
-        // @var mixed assertCount(1, $pushThemes;
+        $this->assertCount(1, $emailThemes);
+        $this->assertCount(1, $smsThemes);
+        $this->assertCount(1, $pushThemes);
         $this->assertEquals('email', $emailThemes[0]->type);
         $this->assertEquals('sms', $smsThemes[0]->type);
         $this->assertEquals('push', $pushThemes[0]->type);
@@ -316,9 +316,9 @@ class NotifyThemeTest extends TestCase
         $darkThemes = NotifyTheme::where('theme', 'dark')->get();
         $customThemes = NotifyTheme::where('theme', 'custom')->get();
 
-        // @var mixed assertCount(1, $defaultThemes;
-        // @var mixed assertCount(1, $darkThemes;
-        // @var mixed assertCount(1, $customThemes;
+        $this->assertCount(1, $defaultThemes);
+        $this->assertCount(1, $darkThemes);
+        $this->assertCount(1, $customThemes);
         $this->assertEquals('default', $defaultThemes[0]->theme);
         $this->assertEquals('dark', $darkThemes[0]->theme);
         $this->assertEquals('custom', $customThemes[0]->theme);
@@ -352,9 +352,9 @@ class NotifyThemeTest extends TestCase
         $companyThemes = NotifyTheme::where('post_type', 'App\Models\Company')->get();
         $orderThemes = NotifyTheme::where('post_type', 'App\Models\Order')->get();
 
-        // @var mixed assertCount(1, $userThemes;
-        // @var mixed assertCount(1, $companyThemes;
-        // @var mixed assertCount(1, $orderThemes;
+        $this->assertCount(1, $userThemes);
+        $this->assertCount(1, $companyThemes);
+        $this->assertCount(1, $orderThemes);
         $this->assertEquals('App\Models\User', $userThemes[0]->post_type);
         $this->assertEquals('App\Models\Company', $companyThemes[0]->post_type);
         $this->assertEquals('App\Models\Order', $orderThemes[0]->post_type);
@@ -384,11 +384,11 @@ class NotifyThemeTest extends TestCase
         $welcomeThemes = NotifyTheme::where('subject', 'like', '%Welcome%')->get();
         $orderThemes = NotifyTheme::where('subject', 'like', '%Order%')->get();
 
-        // @var mixed assertCount(2, $welcomeThemes;
-        // @var mixed assertCount(1, $orderThemes;
-        // @var mixed assertStringContainsString('Welcome', $welcomeThemes[0]->subject;
-        // @var mixed assertStringContainsString('Welcome', $welcomeThemes[1]->subject;
-        // @var mixed assertStringContainsString('Order', $orderThemes[0]->subject;
+        $this->assertCount(2, $welcomeThemes);
+        $this->assertCount(1, $orderThemes);
+        $this->assertStringContainsString('Welcome', $welcomeThemes[0]->subject);
+        $this->assertStringContainsString('Welcome', $welcomeThemes[1]->subject);
+        $this->assertStringContainsString('Order', $orderThemes[0]->subject);
     }
 
     /** @test */
@@ -419,9 +419,9 @@ class NotifyThemeTest extends TestCase
         $marketingThemes = NotifyTheme::where('from_email', 'marketing@example.com')->get();
         $supportThemes = NotifyTheme::where('from_email', 'support@example.com')->get();
 
-        // @var mixed assertCount(1, $systemThemes;
-        // @var mixed assertCount(1, $marketingThemes;
-        // @var mixed assertCount(1, $supportThemes;
+        $this->assertCount(1, $systemThemes);
+        $this->assertCount(1, $marketingThemes);
+        $this->assertCount(1, $supportThemes);
         $this->assertEquals('system@example.com', $systemThemes[0]->from_email);
         $this->assertEquals('marketing@example.com', $marketingThemes[0]->from_email);
         $this->assertEquals('support@example.com', $supportThemes[0]->from_email);
@@ -460,8 +460,8 @@ class NotifyThemeTest extends TestCase
         $highPriorityThemes = NotifyTheme::whereJsonPath('view_params.priority', 'high')->get();
         $securityThemes = NotifyTheme::whereJsonPath('view_params.category', 'security')->get();
 
-        // @var mixed assertCount(1, $highPriorityThemes;
-        // @var mixed assertCount(1, $securityThemes;
+        $this->assertCount(1, $highPriorityThemes);
+        $this->assertCount(1, $securityThemes);
         $this->assertEquals('high', $highPriorityThemes[0]->view_params['priority']);
         $this->assertEquals('security', $securityThemes[0]->view_params['category']);
     }
@@ -507,7 +507,7 @@ class NotifyThemeTest extends TestCase
             ->whereJsonPath('view_params.priority', 'high')
             ->get();
 
-        // @var mixed assertCount(1, $italianEmailHighPriority;
+        $this->assertCount(1, $italianEmailHighPriority);
         $this->assertEquals('it', $italianEmailHighPriority[0]->lang);
         $this->assertEquals('email', $italianEmailHighPriority[0]->type);
         $this->assertEquals('high', $italianEmailHighPriority[0]->view_params['priority']);
@@ -534,18 +534,18 @@ class NotifyThemeTest extends TestCase
             'view_params' => null,
         ]);
 
-        // @var mixed assertNull($theme->lang;
-        // @var mixed assertNull($theme->body;
-        // @var mixed assertNull($theme->body_html;
-        // @var mixed assertNull($theme->from;
-        // @var mixed assertNull($theme->from_email;
-        // @var mixed assertNull($theme->post_type;
-        // @var mixed assertNull($theme->post_id;
-        // @var mixed assertNull($theme->theme;
-        // @var mixed assertNull($theme->logo_src;
-        // @var mixed assertNull($theme->logo_width;
-        // @var mixed assertNull($theme->logo_height;
-        // @var mixed assertNull($theme->view_params;
+        $this->assertNull($theme->lang);
+        $this->assertNull($theme->body);
+        $this->assertNull($theme->body_html);
+        $this->assertNull($theme->from);
+        $this->assertNull($theme->from_email);
+        $this->assertNull($theme->post_type);
+        $this->assertNull($theme->post_id);
+        $this->assertNull($theme->theme);
+        $this->assertNull($theme->logo_src);
+        $this->assertNull($theme->logo_width);
+        $this->assertNull($theme->logo_height);
+        $this->assertNull($theme->view_params);
     }
 
     /** @test */
@@ -562,8 +562,8 @@ class NotifyThemeTest extends TestCase
             'view_params' => json_encode([]),
         ]);
 
-        // @var mixed assertIsArray($theme->view_params;
-        // @var mixed assertEmpty($theme->view_params;
+        $this->assertIsArray($theme->view_params);
+        $this->assertEmpty($theme->view_params);
     }
 
     /** @test */
@@ -634,7 +634,7 @@ class NotifyThemeTest extends TestCase
         $this->assertEquals('#3b82f6', $theme->view_params['branding']['colors']['primary']);
         $this->assertEquals('Inter', $theme->view_params['branding']['fonts']['heading']);
         $this->assertEquals('1200px', $theme->view_params['layout']['container']['max_width']);
-        // @var mixed assertTrue($theme->view_params['features']['dark_mode'];
-        // @var mixed assertFalse($theme->view_params['features']['animations'];
+        $this->assertTrue($theme->view_params['features']['dark_mode']);
+        $this->assertFalse($theme->view_params['features']['animations']);
     }
 }
