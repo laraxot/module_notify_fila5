@@ -9,12 +9,10 @@ use Modules\Notify\Tests\TestCase;
 
 class NotifyThemeableTest extends TestCase
 {
-    // DatabaseTransactions is already used in the module TestCase
-
     protected function setUp(): void
     {
         parent::setUp();
-        // @var mixed withoutExceptionHandling(;
+        $this->withoutExceptionHandling();
     }
 
     /** @test */
@@ -26,14 +24,14 @@ class NotifyThemeableTest extends TestCase
             'notify_theme_id' => 456,
         ]);
 
-        // @var mixed assertDatabaseHas('notify_themeables', [
+        $this->assertDatabaseHas('notify_themeables', [
             'id' => $themeable->id,
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
         ]);
 
-        // @var mixed assertInstanceOf(NotifyThemeable::class, $themeable;
+        $this->assertInstanceOf(NotifyThemeable::class, $themeable);
     }
 
     /** @test */
@@ -47,7 +45,7 @@ class NotifyThemeableTest extends TestCase
             'updated_by' => 'user_123',
         ]);
 
-        // @var mixed assertDatabaseHas('notify_themeables', [
+        $this->assertDatabaseHas('notify_themeables', [
             'id' => $themeable->id,
             'model_type' => 'App\Models\Company',
             'model_id' => 789,
@@ -56,8 +54,8 @@ class NotifyThemeableTest extends TestCase
             'updated_by' => 'user_123',
         ]);
 
-        // @var mixed assertEquals('user_123', $themeable->created_by;
-        // @var mixed assertEquals('user_123', $themeable->updated_by;
+        $this->assertEquals('user_123', $themeable->created_by);
+        $this->assertEquals('user_123', $themeable->updated_by);
     }
 
     /** @test */
@@ -74,14 +72,14 @@ class NotifyThemeableTest extends TestCase
             'updated_by' => 'user_456',
         ]);
 
-        // @var mixed assertDatabaseHas('notify_themeables', [
+        $this->assertDatabaseHas('notify_themeables', [
             'id' => $themeable->id,
             'notify_theme_id' => 789,
             'updated_by' => 'user_456',
         ]);
 
-        // @var mixed assertEquals(789, $themeable->fresh(;
-        // @var mixed assertEquals('user_456', $themeable->fresh(;
+        $this->assertEquals(789, $themeable->fresh();
+        $this->assertEquals('user_456', $themeable->fresh();
     }
 
     /** @test */
@@ -96,10 +94,10 @@ class NotifyThemeableTest extends TestCase
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 
         // @var mixed assertNotNull($found;
-        // @var mixed assertEquals($themeable->id, $found->id;
-        // @var mixed assertEquals('App\Models\User', $found->model_type;
-        // @var mixed assertEquals(123, $found->model_id;
-        // @var mixed assertEquals(456, $found->notify_theme_id;
+        $this->assertEquals($themeable->id, $found->id);
+        $this->assertEquals('App\Models\User', $found->model_type);
+        $this->assertEquals(123, $found->model_id);
+        $this->assertEquals(456, $found->notify_theme_id);
     }
 
     /** @test */
@@ -128,9 +126,9 @@ class NotifyThemeableTest extends TestCase
 
         // @var mixed assertCount(2, $theme456Themeables;
         // @var mixed assertCount(1, $theme789Themeables;
-        // @var mixed assertEquals(456, $theme456Themeables[0]->notify_theme_id;
-        // @var mixed assertEquals(456, $theme456Themeables[1]->notify_theme_id;
-        // @var mixed assertEquals(789, $theme789Themeables[0]->notify_theme_id;
+        $this->assertEquals(456, $theme456Themeables[0]->notify_theme_id);
+        $this->assertEquals(456, $theme456Themeables[1]->notify_theme_id);
+        $this->assertEquals(789, $theme789Themeables[0]->notify_theme_id);
     }
 
     /** @test */
@@ -159,9 +157,9 @@ class NotifyThemeableTest extends TestCase
 
         // @var mixed assertCount(2, $userThemeables;
         // @var mixed assertCount(1, $companyThemeables;
-        // @var mixed assertEquals('App\Models\User', $userThemeables[0]->model_type;
-        // @var mixed assertEquals('App\Models\User', $userThemeables[1]->model_type;
-        // @var mixed assertEquals('App\Models\Company', $companyThemeables[0]->model_type;
+        $this->assertEquals('App\Models\User', $userThemeables[0]->model_type);
+        $this->assertEquals('App\Models\User', $userThemeables[1]->model_type);
+        $this->assertEquals('App\Models\Company', $companyThemeables[0]->model_type);
     }
 
     /** @test */
@@ -193,9 +191,9 @@ class NotifyThemeableTest extends TestCase
 
         // @var mixed assertCount(2, $user123Themeables;
         // @var mixed assertCount(1, $user456Themeables;
-        // @var mixed assertEquals('user_123', $user123Themeables[0]->created_by;
-        // @var mixed assertEquals('user_123', $user123Themeables[1]->created_by;
-        // @var mixed assertEquals('user_456', $user456Themeables[0]->created_by;
+        $this->assertEquals('user_123', $user123Themeables[0]->created_by);
+        $this->assertEquals('user_123', $user123Themeables[1]->created_by);
+        $this->assertEquals('user_456', $user456Themeables[0]->created_by);
     }
 
     /** @test */
@@ -227,9 +225,9 @@ class NotifyThemeableTest extends TestCase
 
         // @var mixed assertCount(2, $user123Themeables;
         // @var mixed assertCount(1, $user456Themeables;
-        // @var mixed assertEquals('user_123', $user123Themeables[0]->updated_by;
-        // @var mixed assertEquals('user_123', $user123Themeables[1]->updated_by;
-        // @var mixed assertEquals('user_456', $user456Themeables[0]->updated_by;
+        $this->assertEquals('user_123', $user123Themeables[0]->updated_by);
+        $this->assertEquals('user_123', $user123Themeables[1]->updated_by);
+        $this->assertEquals('user_456', $user456Themeables[0]->updated_by);
     }
 
     /** @test */
@@ -261,10 +259,10 @@ class NotifyThemeableTest extends TestCase
             ->get();
 
         // @var mixed assertCount(1, $user123Themeables;
-        // @var mixed assertEquals('App\Models\User', $user123Themeables[0]->model_type;
-        // @var mixed assertEquals(123, $user123Themeables[0]->model_id;
-        // @var mixed assertEquals(456, $user123Themeables[0]->notify_theme_id;
-        // @var mixed assertEquals('user_123', $user123Themeables[0]->created_by;
+        $this->assertEquals('App\Models\User', $user123Themeables[0]->model_type);
+        $this->assertEquals(123, $user123Themeables[0]->model_id);
+        $this->assertEquals(456, $user123Themeables[0]->notify_theme_id);
+        $this->assertEquals('user_123', $user123Themeables[0]->created_by);
     }
 
     /** @test */
@@ -372,7 +370,7 @@ class NotifyThemeableTest extends TestCase
 
         // @var mixed assertCount(1, $todayThemeables;
         // @var mixed assertCount(2, $recentThemeables; // yesterday and today
-        // @var mixed assertEquals('App\Models\User', $todayThemeables[0]->model_type;
-        // @var mixed assertEquals(2, $todayThemeables[0]->model_id;
+        $this->assertEquals('App\Models\User', $todayThemeables[0]->model_type);
+        $this->assertEquals(2, $todayThemeables[0]->model_id);
     }
 }

@@ -9,12 +9,10 @@ use Modules\Notify\Tests\TestCase;
 
 class NotificationTypeTest extends TestCase
 {
-    // DatabaseTransactions is already used in the module TestCase
-
     protected function setUp(): void
     {
         parent::setUp();
-        // @var mixed withoutExceptionHandling(;
+        $this->withoutExceptionHandling();
     }
 
     /** @test */
@@ -26,14 +24,14 @@ class NotificationTypeTest extends TestCase
             'template' => 'email_template_1',
         ]);
 
-        // @var mixed assertDatabaseHas('notification_types', [
+        $this->assertDatabaseHas('notification_types', [
             'id' => $notificationType->id,
             'name' => 'Email Notification',
             'description' => 'Email notification type for sending emails',
             'template' => 'email_template_1',
         ]);
 
-        // @var mixed assertInstanceOf(NotificationType::class, $notificationType;
+        $this->assertInstanceOf(NotificationType::class, $notificationType);
     }
 
     /** @test */
@@ -47,7 +45,7 @@ class NotificationTypeTest extends TestCase
             'template',
         ];
 
-        // @var mixed assertEquals($expectedFillable, $notificationType->getFillable(;
+        $this->assertEquals($expectedFillable, $notificationType->getFillable());
     }
 
     /** @test */
@@ -65,16 +63,16 @@ class NotificationTypeTest extends TestCase
             'template' => 'updated_template',
         ]);
 
-        // @var mixed assertDatabaseHas('notification_types', [
+        $this->assertDatabaseHas('notification_types', [
             'id' => $notificationType->id,
             'name' => 'Updated Name',
             'description' => 'Updated description',
             'template' => 'updated_template',
         ]);
 
-        // @var mixed assertEquals('Updated Name', $notificationType->fresh(;
-        // @var mixed assertEquals('Updated description', $notificationType->fresh(;
-        // @var mixed assertEquals('updated_template', $notificationType->fresh(;
+        $this->assertEquals('Updated Name', $notificationType->fresh();
+        $this->assertEquals('Updated description', $notificationType->fresh();
+        $this->assertEquals('updated_template', $notificationType->fresh();
     }
 
     /** @test */
@@ -89,10 +87,10 @@ class NotificationTypeTest extends TestCase
         $found = NotificationType::where('name', 'SMS Notification')->first();
 
         // @var mixed assertNotNull($found;
-        // @var mixed assertEquals($notificationType->id, $found->id;
-        // @var mixed assertEquals('SMS Notification', $found->name;
-        // @var mixed assertEquals('SMS notification type', $found->description;
-        // @var mixed assertEquals('sms_template', $found->template;
+        $this->assertEquals($notificationType->id, $found->id);
+        $this->assertEquals('SMS Notification', $found->name);
+        $this->assertEquals('SMS notification type', $found->description);
+        $this->assertEquals('sms_template', $found->template);
     }
 
     /** @test */
@@ -115,8 +113,8 @@ class NotificationTypeTest extends TestCase
 
         // @var mixed assertCount(1, $template1Types;
         // @var mixed assertCount(1, $template2Types;
-        // @var mixed assertEquals('email_template_1', $template1Types[0]->template;
-        // @var mixed assertEquals('email_template_2', $template2Types[0]->template;
+        $this->assertEquals('email_template_1', $template1Types[0]->template);
+        $this->assertEquals('email_template_2', $template2Types[0]->template);
     }
 
     /** @test */
@@ -161,7 +159,7 @@ class NotificationTypeTest extends TestCase
 
         // @var mixed assertNull($notificationType->description;
         // @var mixed assertNull($notificationType->template;
-        // @var mixed assertDatabaseHas('notification_types', [
+        $this->assertDatabaseHas('notification_types', [
             'id' => $notificationType->id,
             'description' => null,
             'template' => null,
@@ -189,12 +187,12 @@ class NotificationTypeTest extends TestCase
         $smsType = NotificationType::where('name', 'SMS')->first();
         $pushType = NotificationType::where('name', 'Push')->first();
 
-        // @var mixed assertEquals('Email notifications', $emailType->description;
-        // @var mixed assertEquals('SMS notifications', $smsType->description;
-        // @var mixed assertEquals('Push notifications', $pushType->description;
-        // @var mixed assertEquals('email', $emailType->template;
-        // @var mixed assertEquals('sms', $smsType->template;
-        // @var mixed assertEquals('push', $pushType->template;
+        $this->assertEquals('Email notifications', $emailType->description);
+        $this->assertEquals('SMS notifications', $smsType->description);
+        $this->assertEquals('Push notifications', $pushType->description);
+        $this->assertEquals('email', $emailType->template);
+        $this->assertEquals('sms', $smsType->template);
+        $this->assertEquals('push', $pushType->template);
     }
 
     /** @test */
@@ -223,8 +221,8 @@ class NotificationTypeTest extends TestCase
             ->get();
 
         // @var mixed assertCount(1, $highPriorityEmailTypes;
-        // @var mixed assertEquals('High Priority Email', $highPriorityEmailTypes[0]->name;
-        // @var mixed assertEquals('High priority email notifications', $highPriorityEmailTypes[0]->description;
-        // @var mixed assertEquals('high_priority_email', $highPriorityEmailTypes[0]->template;
+        $this->assertEquals('High Priority Email', $highPriorityEmailTypes[0]->name);
+        $this->assertEquals('High priority email notifications', $highPriorityEmailTypes[0]->description);
+        $this->assertEquals('high_priority_email', $highPriorityEmailTypes[0]->template);
     }
 }
