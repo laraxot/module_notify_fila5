@@ -1,5 +1,7 @@
 <?php
 
+namespace Modules\Notify\Tests\Unit\Notifications;
+
 declare(strict_types=1);
 
 use Illuminate\Bus\Queueable;

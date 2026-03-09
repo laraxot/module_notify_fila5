@@ -1,5 +1,9 @@
 <?php
 
+namespace Modules\Notify\Tests\Unit\Notifications\Channels;
+
+namespace Modules\Notify\Tests\Unit\Notifications\Channels;
+
 declare(strict_types=1);
 
 use Illuminate\Database\Eloquent\Model;

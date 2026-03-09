@@ -1,5 +1,9 @@
 <?php
 
+namespace Modules\Notify\Tests\Unit\Models\Traits;
+
+namespace Modules\Notify\Tests\Unit\Models\Traits;
+
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models\Traits;

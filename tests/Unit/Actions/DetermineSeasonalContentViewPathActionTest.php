@@ -1,5 +1,7 @@
 <?php
 
+namespace Modules\Notify\Tests\Unit\Actions;
+
 declare(strict_types=1);
 
 use Carbon\Carbon;
