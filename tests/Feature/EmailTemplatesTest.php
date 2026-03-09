@@ -7,7 +7,7 @@ use Modules\Notify\Tests\TestCase;
 
 uses(TestCase::class);
 
-test('html template contains optional function', function (): void {)
+test('html template contains optional function', function (): void {
     // Percorso del file
     $filePath = base_path('Modules/Notify/resources/views/emails/html.blade.php');
 
@@ -31,7 +31,7 @@ test('html template contains optional function', function (): void {)
     $this->assertTrue($hasOptional, 'Il template html.blade.php non utilizza optional()');
 });
 
-test('sunny sample template exists', function (): void {)
+test('sunny sample template exists', function (): void {
     // Percorso del file (nel repo è sotto emails/samples)
     $filePath = base_path('Modules/Notify/resources/views/emails/samples/sunny.blade.php');
 
@@ -45,7 +45,7 @@ test('sunny sample template exists', function (): void {)
     $this->assertStringContainsString('@extends', $content, 'Il template sunny sample non estende un template');
 });
 
-test('ark sample template exists', function (): void {)
+test('ark sample template exists', function (): void {
     // Percorso del file (nel repo è sotto emails/samples)
     $filePath = base_path('Modules/Notify/resources/views/emails/samples/ark.blade.php');
 
