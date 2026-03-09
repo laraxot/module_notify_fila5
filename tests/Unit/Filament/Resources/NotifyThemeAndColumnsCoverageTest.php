@@ -1,7 +1,5 @@
 <?php
 
-namespace Modules\Notify\Tests\Unit\Filament\Resources;
-
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Filament\Resources;

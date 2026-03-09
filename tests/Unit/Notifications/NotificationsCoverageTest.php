@@ -1,8 +1,8 @@
 <?php
 
-namespace Modules\Notify\Tests\Unit\Notifications;
-
 declare(strict_types=1);
+
+namespace Modules\Notify\Tests\Unit\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Database\Eloquent\Model;

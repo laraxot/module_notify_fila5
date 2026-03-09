@@ -1,9 +1,5 @@
 <?php
 
-namespace Modules\Notify\Tests\Unit\Actions;
-
-namespace Modules\Notify\Tests\Unit\Actions;
-
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Actions;
