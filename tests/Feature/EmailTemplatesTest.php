@@ -24,11 +24,11 @@ test('html template contains optional function', function (): void {)
     // Preferito: optional($email_data)->subject / body_html
     // Accettiamo anche fallback su $subject se presente.
     $hasEmailData = str_contains($content, 'email_data');
-    $hasOptional = str_contains($content, 'optional('));
+    $hasOptional = str_contains($content, 'optional(');
     $hasSubjectVar = str_contains($content, '$subject');
 
     $this->assertTrue($hasEmailData || $hasSubjectVar, 'Il template html.blade.php non gestisce subject via $email_data o $subject');
-    $this->assertTrue($hasOptional, 'Il template html.blade.php non utilizza optional());
+    $this->assertTrue($hasOptional, 'Il template html.blade.php non utilizza optional()');
 });
 
 test('sunny sample template exists', function (): void {)
