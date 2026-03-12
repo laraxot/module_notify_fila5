@@ -25,3 +25,8 @@ Decisione applicativa:
 
 - `NotificationLog` va ripristinato come file canonico `app/Models/NotificationLog.php`.
 - `NotificationChannel` va reintrodotto come modello minimale e factory-backed, perche' test e factory del modulo lo usano gia' come contratto pubblico.
+
+## Aggiornamento 2026-03-12
+
+- Il contratto `SendNotificationAction` -> `SendNotificationJob` -> `NotificationManager` va riallineato sul model reale `Modules\Notify\Models\Notification` per il canale `database`.
+- `FirebaseCloudMessagingChannel` deve restringere il payload passato a `Messaging::sendMulticast()` a `Kreait\Firebase\Messaging\Message|array`, senza propagare `object` generico dal contract.
