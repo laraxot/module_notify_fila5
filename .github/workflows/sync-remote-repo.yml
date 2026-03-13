@@ -1,19 +1,21 @@
-name: Sync Remote Repo
+name: Sync Remote Repo - Subtrees
 
 on:
   push:
     branches:
       - dev
+  workflow_dispatch:  # Allow manual trigger
 
 permissions:
   contents: write
 
 jobs:
   sync:
-    if: github.ref == 'refs/heads/dev'
+    if: github.ref == 'refs/heads/dev' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     env:
       CI: true
+      BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
 
     steps:
       - name: Checkout main repository
@@ -22,12 +24,14 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.BASHSCRIPTS_TOKEN }}
           submodules: false
+          path: main-repo
 
       - name: Configure Git authentication
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE/main-repo"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE/bashscripts"
           git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "git@github.com:"
           git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "https://github.com/"
 
@@ -42,11 +46,28 @@ jobs:
 
       - name: Verify sync prerequisites
         run: |
-          test -f gitmodules.ini
-          test -f bashscripts/git/subtrees/sync_remote_repo.sh
-          bash -n bashscripts/git/subtrees/sync_remote_repo.sh
+          cd main-repo
+          echo "🔍 Checking prerequisites..."
+          test -f gitmodules.ini || (echo "❌ gitmodules.ini not found" && exit 1)
+          test -f ../bashscripts/git/subtrees/sync_remote_repo.sh || (echo "❌ sync script not found" && exit 1)
+          bash -n ../bashscripts/git/subtrees/sync_remote_repo.sh || (echo "❌ Script syntax error" && exit 1)
+          echo "✅ All prerequisites verified"
+
+      - name: Copy gitmodules.ini to bashscripts
+        run: |
+          cp main-repo/gitmodules.ini bashscripts/gitmodules.ini
+          echo "📋 Copied gitmodules.ini to bashscripts"
 
       - name: Run remote sync
         run: |
-          chmod +x bashscripts/git/subtrees/sync_remote_repo.sh
-          bashscripts/git/subtrees/sync_remote_repo.sh
+          cd bashscripts
+          chmod +x git/subtrees/sync_remote_repo.sh
+          echo "🚀 Starting sync..."
+          ./git/subtrees/sync_remote_repo.sh
+          echo "✅ Sync completed"
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f bashscripts/gitmodules.ini
+          echo "🧹 Cleanup completed"
