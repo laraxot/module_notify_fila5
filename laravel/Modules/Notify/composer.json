@@ -36,7 +36,8 @@
     "psr-4": {
       "Modules\\Notify\\": "app/",
       "Modules\\Notify\\Database\\Factories\\": "database/factories/",
-      "Modules\\Notify\\Database\\Seeders\\": "database/seeders/"
+      "Modules\\Notify\\Database\\Seeders\\": "database/seeders/",
+      "Modules\\Notify\\Factories\\": "app/factories/"
     }
   },
   "autoload-dev": {
