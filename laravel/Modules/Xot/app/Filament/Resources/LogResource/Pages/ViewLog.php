@@ -22,22 +22,26 @@ class ViewLog extends XotBaseViewRecord
         $log = $this->getRecord()->getModel();
 
         return [
-            'log_info' => Section::make('Informazioni Log')->schema([
-                'log_grid' => Grid::make(['default' => 3])->schema([
-                    'id' => TextEntry::make('id'),
-                    'message' => TextEntry::make('message'),
-                    'level' => TextEntry::make('level'),
-                    'level_name' => TextEntry::make('level_name'),
-                    'channel' => TextEntry::make('channel'),
-                    'datetime' => TextEntry::make('datetime')->dateTime(),
-                    'context' => TextEntry::make('context')->formatStateUsing(
-                        fn ($state) => json_encode($state, JSON_PRETTY_PRINT),
-                    ),
-                    'extra' => TextEntry::make('extra')->formatStateUsing(
-                        fn ($state) => json_encode($state, JSON_PRETTY_PRINT),
-                    ),
+            'log_info' => Section::make('Informazioni Log')
+                ->columnSpanFull()
+                ->schema([
+                    'log_grid' => Grid::make(['default' => 3])
+                        ->columnSpanFull()
+                        ->schema([
+                            'id' => TextEntry::make('id'),
+                            'message' => TextEntry::make('message'),
+                            'level' => TextEntry::make('level'),
+                            'level_name' => TextEntry::make('level_name'),
+                            'channel' => TextEntry::make('channel'),
+                            'datetime' => TextEntry::make('datetime')->dateTime(),
+                            'context' => TextEntry::make('context')->formatStateUsing(
+                                fn ($state) => json_encode($state, JSON_PRETTY_PRINT),
+                            ),
+                            'extra' => TextEntry::make('extra')->formatStateUsing(
+                                fn ($state) => json_encode($state, JSON_PRETTY_PRINT),
+                            ),
+                        ]),
                 ]),
-            ]),
         ];
     }
 }

@@ -6,7 +6,9 @@ namespace Modules\Xot\Filament\Resources\Pages;
 
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords as FilamentListRecords;
+use Filament\Tables;
 use Illuminate\Contracts\Pagination\Paginator;
+use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
 use Modules\UI\Enums\TableLayoutEnum;
@@ -17,9 +19,9 @@ use Webmozart\Assert\Assert;
 /**
  * Base class for list records pages.
  *
- * @property ?string         $model
- * @property ?string         $resource
- * @property ?string         $slug
+ * @property ?string $model
+ * @property ?string $resource
+ * @property ?string $slug
  * @property TableLayoutEnum $layoutView
  */
 abstract class XotBaseListRecords extends FilamentListRecords
@@ -41,13 +43,36 @@ abstract class XotBaseListRecords extends FilamentListRecords
         return $resource;
     }
 
-    /*
+    /**
      * Get the table columns.
      *
      * @return array<string, Tables\Columns\Column>
-     *
-     * abstract public function getTableColumns(): array;
      */
+    abstract public function getTableColumns(): array;
+
+    /**
+     * Get the default table actions.
+     *
+     * @return array<int, Tables\Actions\Action|Tables\Actions\ActionGroup>
+     */
+    protected function getDefaultTableActions(): array
+    {
+        return [
+            Tables\Actions\EditAction::make(),
+            Tables\Actions\DeleteAction::make(),
+        ];
+    }
+
+    /**
+     * Layout con columnSpanFull() automatico.
+     */
+    protected function getTableContent(): ?View
+    {
+        // @phpstan-ignore return.type
+        return view('filament.tables.table', [
+            'table' => $this->getTable(),
+        ])->with('columnSpanFull', true);
+    }
 
     /**
      * Get the default sort column and direction.
@@ -58,7 +83,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
     {
         return ['id' => 'desc'];
     }
-    
+
     /**
      * Get the header actions.
      *
