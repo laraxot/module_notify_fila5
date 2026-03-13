@@ -56,12 +56,20 @@ jobs:
           sparse-checkout-cone-mode: false
 
       - name: Verify sync prerequisites
+        shell: bash
         run: |
+          bash --version
           test -f gitmodules.ini
           test -f bashscripts/git/subtrees/sync_remote_repo.sh
           bash -n bashscripts/git/subtrees/sync_remote_repo.sh
+          if sh bashscripts/git/subtrees/sync_remote_repo.sh >/tmp/sync-remote-repo-sh.err 2>&1; then
+            echo "sync_remote_repo.sh unexpectedly succeeded under sh"
+            exit 1
+          fi
+          grep -q "requires bash" /tmp/sync-remote-repo-sh.err
 
       - name: Run remote sync
+        shell: bash
         run: |
           chmod +x bashscripts/git/subtrees/sync_remote_repo.sh
           bash bashscripts/git/subtrees/sync_remote_repo.sh laraxot
