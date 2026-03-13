@@ -48,41 +48,6 @@ class XotServiceProvider extends XotBaseServiceProvider
         $this->registerFilamentMacros();
         $this->registerXotLivewireComponents();
         $this->registerProviders();
-        $this->registerFilamentv4Config();
-    }
-
-    protected function registerFilamentv4Config(): void
-    {
-        // Mantenere comportamento layout v3
-        \Filament\Schemas\Components\Fieldset::configureUsing(
-            fn (\Filament\Schemas\Components\Fieldset $fieldset) => $fieldset->columnSpanFull(),
-        );
-        \Filament\Schemas\Components\Grid::configureUsing(
-            fn (\Filament\Schemas\Components\Grid $grid) => $grid->columnSpanFull(),
-        );
-        \Filament\Schemas\Components\Section::configureUsing(
-            fn (\Filament\Schemas\Components\Section $section) => $section->columnSpanFull(),
-        );
-
-        // Mantenere comportamento filtri v3
-        \Filament\Tables\Table::configureUsing(
-            fn (\Filament\Tables\Table $table) => $table->deferFilters(false),
-        );
-
-        // Mantenere comportamento validazione v3
-        \Filament\Forms\Components\Field::configureUsing(
-            fn (\Filament\Forms\Components\Field $field) => $field->uniqueValidationIgnoresRecordByDefault(false),
-        );
-
-        // Mantenere comportamento radio v3
-        \Filament\Forms\Components\Radio::configureUsing(
-            fn (\Filament\Forms\Components\Radio $radio) => $radio->inlineLabel(fn (): bool => $radio->isInline()),
-        );
-
-        // Mantenere paginazione con opzione 'all'
-        \Filament\Tables\Table::configureUsing(
-            fn (\Filament\Tables\Table $table) => $table->paginationPageOptions([5, 10, 25, 50, 'all']),
-        );
     }
 
     #[\Override]
@@ -178,12 +143,12 @@ class XotServiceProvider extends XotBaseServiceProvider
     {
         $files = File::files($path);
         foreach ($files as $file) {
-            if ($file->getExtension() !== 'php') {
+            if ('php' !== $file->getExtension()) {
                 continue;
             }
 
             $realPath = $file->getRealPath();
-            if ($realPath === false) {
+            if (false === $realPath) {
                 continue;
             }
 
@@ -291,7 +256,7 @@ class XotServiceProvider extends XotBaseServiceProvider
         //             'modules.xot.filament.widgets.modules-overview-widget',
         //             \Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class
         //         );
-        //         \Log::info('ModulesOverviewWidget registrato correttamente');
+        //         \Log::debug('ModulesOverviewWidget registrato correttamente');
         //     } catch (\Exception $e) {
         //         \Log::error('Errore nella registrazione ModulesOverviewWidget: ' . $e->getMessage());
         //     }

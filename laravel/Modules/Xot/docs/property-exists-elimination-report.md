@@ -508,6 +508,7 @@ if (isset($record->state)) {  // ← CORRETTO!
 
 ### File Documentazione Modificati/Creati
 
+1. **Xot/docs/eloquent-models-critical-rules.md** - Aggiornato ✅
 2. **Xot/docs/eloquent-properties-best-practices.md** - Già esistente ✅
 3. **Xot/docs/property-exists-elimination-report.md** - Creato ✅
 4. **Notify/docs/eloquent-properties-best-practices.md** - Già esistente ✅
@@ -623,8 +624,8 @@ Implementare:
 ## 🔗 Collegamenti
 
 **Documentazione Root**:
-- [../../../docs/code-quality/eloquent-magic-properties.md](../../../docs/code-quality/eloquent-magic-properties.md)
-- [../../../docs/phpstan/level-10-guide.md](../../../docs/phpstan/level-10-guide.md)
+- [../../../../docs/code-quality/eloquent-magic-properties.md](../../../../docs/code-quality/eloquent-magic-properties.md)
+- [../../../../docs/phpstan/level-10-guide.md](../../../../docs/phpstan/level-10-guide.md)
 
 **Documentazione Moduli**:
 - [User/docs/phpstan-level10-fixes.md](../../user/docs/phpstan-level10-fixes.md)

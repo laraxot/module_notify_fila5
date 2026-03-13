@@ -29,6 +29,7 @@
 
 2. **File Corretti**
    - Creato `Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
+   - Aggiornato `Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
    - Rimosso il file con naming errato `send_whats_app.php`
 
 ### Prossime Correzioni da Implementare

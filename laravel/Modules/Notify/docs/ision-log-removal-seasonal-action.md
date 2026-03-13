@@ -84,7 +84,9 @@ public function getHtmlLayout(): string
 Tutti i file di documentazione sono stati aggiornati per riflettere questa decisione:
 - `seasonal-email-templates.md` - Rimossa referenza all'azione
 - `seasonal-email-system-implementation-report.md` - Completamente riscritto
+- `seasonal-email-system-recommendations.md` - Aggiornato con nuove best practices
 - `get-seasonal-email-layout-action.md` - RIMOSSO
+- `dry-violation-analysis-[DATE].md` - Aggiornato con nuovo approccio
 
 ## Impatto
 

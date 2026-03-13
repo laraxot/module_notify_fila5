@@ -91,6 +91,7 @@ class LoginWidget extends XotBaseWidget
 - [ ] Aggiornare documentazione
 - [ ] Validare con PHPStan
 ## Implementazione Corretta
+### Login-Card Aggiornato
     'title' => 'Accedi ai servizi',
     'subtitle' => 'Utilizza le tue credenziali per accedere all\'area riservata',
 <div class="max-w-md mx-auto">

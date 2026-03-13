@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\RelationManagers;
 
+use Filament\Actions\Action;
 use Filament\Actions\AttachAction;
+use Filament\Actions\BulkAction;
 use Filament\Actions\CreateAction;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\DetachAction;
@@ -162,7 +164,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
      * CRITICO: Deve essere PUBLIC perché Filament\Tables\Concerns\InteractsWithTable
      * richiede che questo metodo sia pubblico.
      *
-     * @return array<string, \Filament\Actions\Action>
+     * @return array<string, Action>
      */
     public function getTableActions(): array
     {
@@ -196,7 +198,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
      *
      * CRITICO: Deve essere PUBLIC per Filament InteractsWithTable.
      *
-     * @return array<string, \Filament\Actions\BulkAction>
+     * @return array<string, BulkAction>
      */
     public function getTableBulkActions(): array
     {
@@ -218,7 +220,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
      *
      * CRITICO: Deve essere PUBLIC per Filament InteractsWithTable.
      *
-     * @return array<string, \Filament\Actions\Action>
+     * @return array<string, Action>
      */
     public function getTableHeaderActions(): array
     {

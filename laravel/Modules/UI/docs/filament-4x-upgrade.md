@@ -131,6 +131,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 - [x] Commentati import da `saade/filament-fullcalendar`
 - [x] Cambiato extends da `FullCalendarWidget` a `Widget`
 - [x] Commentato trait `InteractsWithEvents`
+- [x] Aggiornato proprietà `$view` (rimosso `static`)
 - [x] Mantenute funzionalità per riattivazione futura
 - [x] Documentazione creata
 - [ ] View template aggiornato con messaggio temporaneo
@@ -278,6 +279,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 - [x] Commentati import da `saade/filament-fullcalendar`
 - [x] Cambiato extends da `FullCalendarWidget` a `Widget`
 - [x] Commentato trait `InteractsWithEvents`
+- [x] Aggiornato proprietà `$view` (rimosso `static`)
 - [x] Mantenute funzionalità per riattivazione futura
 - [x] Documentazione creata
 - [ ] View template aggiornato con messaggio temporaneo

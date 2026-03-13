@@ -177,6 +177,7 @@ public function clients();
    - Aggiunto `@phpstan-ignore-next-line` per method_exists check
 
 6. **HasTeams.php**:
+   - Aggiornato PHPDoc return type per `teams()` con generics completi
 
 ### Errori Rimanenti (0) - ✅ TUTTI RISOLTI
 

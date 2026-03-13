@@ -42,6 +42,7 @@ $prices = $lmsr->getPrices($quantities);
 // $prices['A'], $prices['B'], $prices['C']
 ```
 
+## Glossario Aggiornato
 - **LMSR**: Algoritmo per market making che garantisce liquidità automatica e prezzi dinamici.
 - **Parametro b**: Controlla la liquidità e la sensibilità dei prezzi.
 - **Funzione di costo**: Formula matematica che determina il costo totale delle scommesse nel mercato.

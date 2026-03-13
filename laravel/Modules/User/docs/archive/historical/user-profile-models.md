@@ -399,6 +399,7 @@ class UserRepository
    {
        protected $dispatchesEvents = [
            'created' => UserCreated::class,
+           'updated' => UserUpdated::class,
            'deleted' => UserDeleted::class,
        ];
 
@@ -422,6 +423,7 @@ class UserRepository
    class Profile extends Model
    {
        protected $dispatchesEvents = [
+           'updated' => ProfileUpdated::class,
        ];
 
        protected static function booted()
@@ -836,6 +838,7 @@ class UserRepository
        public function toMail($notifiable)
        {
            return (new MailMessage)
+               ->subject('Profilo Aggiornato')
                ->line('Il tuo profilo è stato aggiornato con successo.')
                ->action('Visualizza Profilo', route('profile.show', $this->profile));
        }

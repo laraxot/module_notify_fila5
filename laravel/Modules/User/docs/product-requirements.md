@@ -6,6 +6,7 @@
 |-------|--------|
 | **Version** | 1.0.0 |
 | **Status** | Approved |
+| **
 | **Owner** | Core Team |
 | **Module** | User |
 | **Repository** | laraxot/module_user_fila5 |
