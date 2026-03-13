@@ -56,7 +56,7 @@ jobs:
       - name: Run remote sync
         run: |
           chmod +x bashscripts/git/subtrees/sync_remote_repo.sh
-          bashscripts/git/subtrees/sync_remote_repo.sh
+          bashscripts/git/subtrees/sync_remote_repo.sh laraxot
         env:
           BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
