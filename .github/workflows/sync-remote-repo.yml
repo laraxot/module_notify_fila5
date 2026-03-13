@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout main repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ github.token }}
@@ -34,7 +34,7 @@ jobs:
           git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "git@github.com:"
 
       - name: Checkout bashscripts repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           repository: laraxot/bashscripts_fila5
           ref: dev
@@ -61,3 +61,18 @@ jobs:
           BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
           CI: true
+
+      - name: Commit synced files to main repository
+        run: |
+          git status --short
+
+          if [ -z "$(git status --porcelain -- . ':(exclude)bashscripts')" ]; then
+            echo "No tracked changes produced by sync_remote_repo.sh"
+            exit 0
+          fi
+
+          git add -A .
+          git reset bashscripts || true
+          git commit -m "chore: persist synced remote repo changes [skip ci]"
+          git pull --rebase origin dev
+          git push origin HEAD:dev
