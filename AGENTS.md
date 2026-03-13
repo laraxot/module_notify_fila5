@@ -98,6 +98,30 @@ This file contains comprehensive guidelines and commands for AI agents working o
 - **Hardware Target**: Intel i5-8400 (4C/4T), 32GB RAM, No GPU
 - **Expected Performance**: 8-15 tokens/sec (7B models), 15-25 tokens/sec (3B models)
 
+### GITHUB ACTIONS - SUBTREE SYNC
+
+- **Workflow**: `.github/workflows/sync-subtrees.yml`
+- **Trigger**: Push su branch `dev` (o manuale)
+- **Purpose**: Sincronizzare git subtrees automaticamente
+- **Script**: `bashscripts/git/subtrees/sync_remote_repo.sh`
+- **Why GitHub Action**: 
+  - `bashscripts/` è nel `.gitignore`
+  - Serve clonare repo nella action per eseguire script
+  - Automazione sync dopo push su `dev`
+- **Required Secrets**:
+  - `SUBTREE_SSH_KEY`: SSH key per git push
+  - `SUBTREE_SYNC_TOKEN`: GitHub PAT (opzionale)
+- **Subtrees Synced**: 18+ (bashscripts, modules, etc.)
+- **Docs**: `bashscripts/docs/github/actions/sync-subtrees.md`
+- **Setup**:
+  ```bash
+  # Generate SSH key
+  ssh-keygen -t ed25519 -C "actions@github.com"
+  
+  # Add public key to GitHub
+  # Add private key to repo secrets
+  ```
+
 ## 🚀 BUILD/LINT/TEST COMMANDS
 
 ### Frontend Quality Commands
