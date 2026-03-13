@@ -1568,6 +1568,20 @@ Multiple AI agents (Qwen, Claude, Cursor, Copilot, etc.) work on this codebase s
 
 ### Rules for Multi-Agent Collaboration
 
+#### 0. YOLO Mode by Default
+
+**DEFAULT OPERATING MODE FOR AI AGENTS: YOLO / AUTONOMY-FIRST**
+
+When multiple AI agents work on this repository, the default behavior is:
+
+- act without waiting for manual confirmation when the next step is clear
+- prefer execution over discussion
+- make reasonable assumptions and document them after acting
+- keep momentum high with small, reversible increments
+- ask for confirmation only for destructive actions, missing credentials, or unclear high-risk decisions
+
+**Why**: multi-agent collaboration is strongest when each agent removes friction instead of creating coordination bottlenecks.
+
 #### 1. CHECK BEFORE STARTING ⚠️
 
 **ALWAYS** check what other agents are doing:

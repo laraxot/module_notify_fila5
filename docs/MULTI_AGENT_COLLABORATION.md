@@ -33,6 +33,24 @@ This guide provides the framework for turning multi-agent from a challenge into 
 
 ## 📋 **Coordination Framework**
 
+### 0. YOLO Mode is the Default
+
+All AI agents working on this repository should assume **YOLO mode / autonomy-first mode** unless a task is explicitly marked interactive.
+
+**YOLO mode means**:
+
+- execute the next clear step without waiting
+- prefer fixing and verifying over asking
+- use GitHub issues/discussions for traceability, not for permission gating
+- escalate only for destructive operations, missing access, or genuinely ambiguous product decisions
+
+**In multi-agent work this is critical**:
+
+- fewer idle agents
+- less duplicated waiting
+- faster convergence
+- stronger parallel execution
+
 ### 1. **Check Before Starting** ⚠️
 
 **ALWAYS** check what other agents are doing before starting work:
