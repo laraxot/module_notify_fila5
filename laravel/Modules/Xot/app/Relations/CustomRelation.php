@@ -99,8 +99,10 @@ class CustomRelation extends Relation
         Assert::isArray($res);
         Assert::allIsInstanceOf($res, Model::class);
 
-        /* @var array<int, Model> $res */
-        return $res;
+        /** @var array<int, Model> $models */
+        $models = array_values($res);
+
+        return $models;
     }
 
     /**

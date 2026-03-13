@@ -2,6 +2,7 @@
 
 **Module:** Notify  
 **Version:** 1.0.0  
+**Last Updated:** March 12, 2026  
 **Owner:** Product Team
 
 ---
@@ -84,3 +85,4 @@ Irrelevant notifications lead to opt-out.
 
 ---
 
+*Last Updated: March 12, 2026*

@@ -94,6 +94,7 @@ docs/
 **File creati**:
 - `cursor-mcp-config.json` - Config pronta per Cursor
 - `windsurf-mcp-config.json` - Config pronta per Windsurf
+- Aggiornato `mcp-editors-configuration.md` con link ai file
 
 **Beneficio**: Copy-paste diretto senza dover scrivere config manualmente
 
@@ -106,7 +107,7 @@ docs/
 **Esempi trovati**:
 ```markdown
 [regole php](docs/standards/php-inheritance-rules.md)
-public static string $projectBasePath = '../../docs/standards/php-inheritance-rules.md)
+public static string $projectBasePath = '../../../docs/standards/php-inheritance-rules.md)
 // Path configurabili tramite env, non hardcoded
 ```
 
@@ -149,7 +150,7 @@ docs/
 
 ### Da Modules/Xot/docs/ a root docs/
 ```markdown
-[guida principale](../../../docs/guide.md)
+[guida principale](../../../../docs/guide.md)
 ```
 
 ### Tra moduli (Xot → User)
@@ -355,6 +356,7 @@ docs/
 **File creati**:
 - `cursor-mcp-config.json` - Config pronta per Cursor
 - `windsurf-mcp-config.json` - Config pronta per Windsurf
+- Aggiornato `mcp-editors-configuration.md` con link ai file
 
 **Beneficio**: Copy-paste diretto senza dover scrivere config manualmente
 
@@ -367,7 +369,7 @@ docs/
 **Esempi trovati**:
 ```markdown
 [regole php](docs/standards/php-inheritance-rules.md)
-public static string $projectBasePath = '../../docs/standards/php-inheritance-rules.md)
+public static string $projectBasePath = '../../../docs/standards/php-inheritance-rules.md)
 // Path configurabili tramite env, non hardcoded
 ```
 
@@ -410,7 +412,7 @@ docs/
 
 ### Da Modules/Xot/docs/ a root docs/
 ```markdown
-[guida principale](../../../docs/guide.md)
+[guida principale](../../../../docs/guide.md)
 ```
 
 ### Tra moduli (Xot → User)

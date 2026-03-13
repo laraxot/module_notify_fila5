@@ -134,6 +134,7 @@ test('LogModelDeletedAction can be instantiated', function () {
 
 ### Step 3: Aggiornamento Documentazione
 
+Aggiornato `laravel/Modules/Activity/docs/testing.md`:
 
 **Prima**:
 ```markdown

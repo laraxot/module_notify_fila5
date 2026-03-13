@@ -430,6 +430,7 @@ Modules/UI/resources/views/components/
 
 ```blade
 @props([
+    'title' => 'Rimani Aggiornato',
     'description' => 'Iscriviti alla nostra newsletter per ricevere aggiornamenti normativi e consigli pratici.',
     'ctaLabel' => 'Iscriviti',
     'showStudioName' => false,

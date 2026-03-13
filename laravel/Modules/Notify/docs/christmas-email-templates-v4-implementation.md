@@ -290,6 +290,7 @@ $email->mergeData([
      - Liste complete animazioni CSS
      - Esempi codice passaggio dati
      - Note branding per elephant-mascot
+   - Aggiornato Changelog con v4.0
 
 2. **Modules/Notify/docs/christmas-email-templates-v4-implementation.md** (questo file)
    - Report completo implementazione

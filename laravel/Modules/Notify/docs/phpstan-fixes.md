@@ -10,10 +10,12 @@ Il modulo Notify è stato completamente risolto per PHPStan Level 10 con 0 error
 - **SendNotificationJob.php**: 
   - Corretto chiamata da `execute()` a `handle()` per QueueableAction
   - Allineato con pattern Spatie QueueableAction
+  - Aggiornato PHPDoc per tipi di ritorno
 
 - **NotificationManager.php**:
   - Corretto chiamata da `execute()` a `handle()` per QueueableAction
   - Allineato con pattern Spatie QueueableAction
+  - Aggiornato PHPDoc per tipi di ritorno
 
 ## 📋 **Pattern Implementati**
 

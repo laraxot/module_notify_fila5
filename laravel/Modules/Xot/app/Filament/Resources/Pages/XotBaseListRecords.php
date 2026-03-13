@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\Pages;
 
 use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords as FilamentListRecords;
-use Filament\Tables;
 use Illuminate\Contracts\Pagination\Paginator;
-use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
 use Modules\UI\Enums\TableLayoutEnum;
@@ -19,9 +19,9 @@ use Webmozart\Assert\Assert;
 /**
  * Base class for list records pages.
  *
- * @property ?string $model
- * @property ?string $resource
- * @property ?string $slug
+ * @property ?string         $model
+ * @property ?string         $resource
+ * @property ?string         $slug
  * @property TableLayoutEnum $layoutView
  */
 abstract class XotBaseListRecords extends FilamentListRecords
@@ -43,36 +43,13 @@ abstract class XotBaseListRecords extends FilamentListRecords
         return $resource;
     }
 
-    /**
+    /*
      * Get the table columns.
      *
      * @return array<string, Tables\Columns\Column>
-     */
-    abstract public function getTableColumns(): array;
-
-    /**
-     * Get the default table actions.
      *
-     * @return array<int, Tables\Actions\Action|Tables\Actions\ActionGroup>
+     * abstract public function getTableColumns(): array;
      */
-    protected function getDefaultTableActions(): array
-    {
-        return [
-            Tables\Actions\EditAction::make(),
-            Tables\Actions\DeleteAction::make(),
-        ];
-    }
-
-    /**
-     * Layout con columnSpanFull() automatico.
-     */
-    protected function getTableContent(): ?View
-    {
-        // @phpstan-ignore return.type
-        return view('filament.tables.table', [
-            'table' => $this->getTable(),
-        ])->with('columnSpanFull', true);
-    }
 
     /**
      * Get the default sort column and direction.
@@ -87,14 +64,14 @@ abstract class XotBaseListRecords extends FilamentListRecords
     /**
      * Get the header actions.
      *
-     * @return array<string, Action|\Filament\Actions\ActionGroup>
+     * @return array<string, Action|ActionGroup>
      *
      * @phpstan-ignore method.childReturnType
      */
     protected function getHeaderActions(): array
     {
         return [
-            'create' => \Filament\Actions\CreateAction::make()->icon('heroicon-o-plus'),
+            'create' => CreateAction::make()->icon('heroicon-o-plus'),
         ];
     }
 
@@ -104,7 +81,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
     protected function paginateTableQuery(Builder $query): Paginator
     {
         $paginator = $query->fastPaginate(
-            $this->getTableRecordsPerPage() === 'all' ? $query->count() : $this->getTableRecordsPerPage(),
+            'all' === $this->getTableRecordsPerPage() ? $query->count() : $this->getTableRecordsPerPage(),
         );
 
         Assert::isInstanceOf($paginator, Paginator::class);
