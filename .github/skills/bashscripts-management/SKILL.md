@@ -201,6 +201,14 @@ Common issues and solutions.
    trap 'echo "Error on line $LINENO"' ERR
    ```
 
+5. **If a script is used by GitHub Actions, keep it dual-context safe**
+   ```bash
+   CI=true SKIP_SUBTREE_BACKUP=1 bash bashscripts/git/subtrees/sync_remote_repo.sh
+   ```
+   - No mandatory interactive prompts in automation
+   - No required writes to `~/.gitconfig`
+   - Mirror workflow changes under `bashscripts/ai/.github/workflows/`
+
 ### Organization
 
 1. **One script, one purpose**
