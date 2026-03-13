@@ -40,6 +40,11 @@ jobs:
           token: ${{ secrets.BASHSCRIPTS_TOKEN }}
           path: bashscripts
           fetch-depth: 0
+          sparse-checkout: |
+            git/
+            lib/
+            gitmodules.ini
+          sparse-checkout-cone-mode: false
 
       - name: Verify sync prerequisites
         run: |
