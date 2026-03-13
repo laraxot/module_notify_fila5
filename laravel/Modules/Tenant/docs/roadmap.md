@@ -14,7 +14,6 @@ Provide absolute data isolation and specialized configuration for multiple organ
 | :--- | :--- | :--- | :--- |
 | Core Multi-tenancy | ✅ Stable | @CoreTeam | Jan 2026 |
 | Custom Domain Support | 🏗️ In Dev | @CoreTeam | Mar 2026 |
-| Semantic Versioning | ✅ Stable | @CoreTeam | Mar 2026 |
 
 ## 📂 Backlog / Future Ideas
 - Cross-tenant data sharing (opt-in).
