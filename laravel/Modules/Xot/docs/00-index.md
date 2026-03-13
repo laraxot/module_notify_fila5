@@ -23,7 +23,6 @@
 - [Code Quality Workflow](./code-quality-tools-guide.md)
 - [TDD Laravel Pest Complete Guide](./tdd-laravel-pestd-complete-guide.md) ⭐ NEW
 - [Testing Best Practices](./testing-best-practices.md)
-- [Semantic Versioning & Release Process](./release.md) 🚀 NEW
 
 ### Memory & Performance
 - [Filament Memory Optimization](./memory-optimization.md)
