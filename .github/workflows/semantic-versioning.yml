@@ -24,7 +24,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Build root artifact
-        run: tar --exclude='.git' -czf project-artifact.tgz .
+        run: tar --exclude='.git' --exclude='./project-artifact.tgz' -czf project-artifact.tgz .
       - name: Attest build provenance
         uses: actions/attest-build-provenance@v3
         with:
