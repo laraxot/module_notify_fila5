@@ -144,6 +144,7 @@ public static function table(Table $table): Table
                 ->sortable(),
 
             Tables\Columns\TextColumn::make('updated_at')
+                ->label('Aggiornato il')
                 ->dateTime()
                 ->sortable()
         ])

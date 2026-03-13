@@ -46,6 +46,7 @@ Corretti i seguenti file per utilizzare il prefisso "ui-" corretto:
 
 ### 3. Aggiornamento Documentazione
 
+- Aggiornato `Modules/UI/docs/icon-system.md` con le nuove icone
 - Aggiunto changelog v1.1.0
 - Documentate le nuove icone nella struttura file
 

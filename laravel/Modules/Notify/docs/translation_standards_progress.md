@@ -38,12 +38,14 @@
 
 2. **File Corretti**
    - Creato `/var/www/html/ptvx/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
+   - Aggiornato `/var/www/html/ptvx/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
 =======
    - Creato `/var/www/html/healthcare_app/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/healthcare_app/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
 2. **File Corretti**
    - Creato `/var/www/html/healthcare_app/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
+   - Aggiornato `/var/www/html/healthcare_app/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
 >>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
    - Rimosso il file con naming errato `send_whats_app.php`
 

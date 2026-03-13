@@ -1,6 +1,7 @@
-# Product Strategy Doc - Rating Module
+# Product Strategy: Rating Module
 
-## Strategic Pillars
-- **Modularità**: Indipendenza totale dalle logiche esterne.
-- **Affidabilità**: TDD come base dello sviluppo.
-- **Scalabilità**: Design atomico delle azioni.
+## 🌍 Market Context
+Specialized requirement for Rating within the Public Administration sector.
+
+## 💎 Unique Value Proposition
+Agnostic, modular, and type-safe implementation of Rating logic.

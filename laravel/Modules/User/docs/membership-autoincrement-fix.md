@@ -81,6 +81,7 @@ public function up(): void
 
 ### 2. Correzione del Modello Membership
 
+Aggiornato il modello per usare autoincrement invece di UUID:
 
 ```php
 // ✅ CORRETTO - Dopo la correzione

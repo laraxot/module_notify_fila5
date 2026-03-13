@@ -26,6 +26,7 @@ Il problema si verifica quando:
 
 ### Fix in `XotBaseWidget::initXotBaseWidget()`
 
+Aggiornato il metodo per inizializzare `$this->data` con le chiavi dello schema quando il widget non ha modello:
 
 ```php
 protected function initXotBaseWidget(): void

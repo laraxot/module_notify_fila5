@@ -16,6 +16,7 @@ describe('HasExtraTrait', function () {
             use HasExtraTrait;
 
             protected $table = 'test_models';
+
             protected $fillable = ['name'];
 
             // Mock the getExtraClass method
@@ -28,6 +29,7 @@ describe('HasExtraTrait', function () {
         // Create a mock Extra class
         $this->extraClass = new class extends Model implements ExtraContract {
             protected $table = 'test_extras';
+
             protected $fillable = ['model_id', 'model_type', 'extra_attributes'];
 
             protected function casts(): array

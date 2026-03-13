@@ -24,6 +24,17 @@ class RouteDynService
 
     /**
      * @param array<string, mixed> $v
+     */
+    private static function requireStringValue(array $v, string $key): string
+    {
+        Assert::keyExists($v, $key);
+        Assert::string($value = $v[$key], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+
+        return $value;
+    }
+
+    /**
+     * @param array<string, mixed> $v
      *
      * @return array<string, mixed>
      */
@@ -42,12 +53,10 @@ class RouteDynService
     public static function getPrefix(array $v, ?string $namespace): string
     {
         if (isset($v['prefix'])) {
-            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-
-            return $prefix;
+            return self::requireStringValue($v, 'prefix');
         }
 
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        $name = self::requireStringValue($v, 'name');
         $prefix = mb_strtolower($name);
         $param_name = self::getParamName($v, $namespace);
         if ('' !== $param_name) {
@@ -63,12 +72,10 @@ class RouteDynService
     public static function getAs(array $v, ?string $_namespace): string
     {
         if (isset($v['as'])) {
-            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-
-            return $as;
+            return self::requireStringValue($v, 'as');
         }
 
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        $name = self::requireStringValue($v, 'name');
         $as = mb_strtolower($name);
         $as = str_replace('/', '.', $as);
 
@@ -90,12 +97,10 @@ class RouteDynService
     public static function getNamespace(array $v, ?string $namespace): ?string
     {
         if (isset($v['namespace'])) {
-            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-
-            return $namespace;
+            return self::requireStringValue($v, 'namespace');
         }
 
-        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        $namespace = self::requireStringValue($v, 'name');
         $namespace = str_replace(['{', '}'], '', $namespace);
         if ('' === $namespace) {
             return null;
@@ -139,12 +144,10 @@ class RouteDynService
     public static function getParamName(array $v, ?string $_namespace): string
     {
         if (isset($v['param_name'])) {
-            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-
-            return $param_name;
+            return self::requireStringValue($v, 'param_name');
         }
 
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        $name = self::requireStringValue($v, 'name');
         $param_name = 'id_'.$name;
         $param_name = str_replace(['{', '}'], '', $param_name);
 
@@ -172,9 +175,10 @@ class RouteDynService
     {
         $param_name = self::getParamName($v, $namespace);
         $params_name = self::getParamsName($v, $namespace);
+        $resourceName = mb_strtolower(self::requireStringValue($v, 'name'));
 
         $opts = [
-            'parameters' => [mb_strtolower((string) $v['name']) => implode('}/{', $params_name)],
+            'parameters' => [$resourceName => implode('}/{', $params_name)],
             'names' => self::prefixedResourceNames(self::getAs($v, $namespace)),
         ];
 
@@ -197,12 +201,10 @@ class RouteDynService
     public static function getController(array $v, ?string $_namespace): string
     {
         if (isset($v['controller'])) {
-            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-
-            return $controller;
+            return self::requireStringValue($v, 'controller');
         }
 
-        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        $v['controller'] = self::requireStringValue($v, 'name');
         $v['controller'] = str_replace(['/', '{', '}'], ['_', '', ''], $v['controller']);
         $v['controller'] = Str::studly($v['controller']);
         $v['controller'] .= 'Controller';
@@ -215,7 +217,7 @@ class RouteDynService
      */
     public static function getUri(array $v, ?string $_namespace): string
     {
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        $name = self::requireStringValue($v, 'name');
 
         // return mb_strtolower(is_string($v) ? $v : (string) $v['name);
         return $name;
@@ -229,8 +231,13 @@ class RouteDynService
     public static function getMethod(array $v, ?string $_namespace): array
     {
         if (isset($v['method'])) {
-            /* @var array<int, string> */
-            return Arr::wrap($v['method']);
+            $methods = array_values(array_filter(
+                Arr::wrap($v['method']),
+                static fn (mixed $method): bool => is_string($method),
+            ));
+
+            /* @var array<int, string> $methods */
+            return $methods;
         }
 
         return ['get', 'post'];
@@ -254,7 +261,7 @@ class RouteDynService
      */
     public static function getCallback(array $v, ?string $namespace, ?string $curr): array
     {
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        $name = self::requireStringValue($v, 'name');
         $as = Str::slug($name);
         $uses = self::getUses($v, $namespace);
         if (null !== $curr) {
@@ -300,10 +307,10 @@ class RouteDynService
      */
     public static function createRouteResource(array $v, ?string $namespace): void
     {
-        if (null === $v['name']) {
+        if (! array_key_exists('name', $v) || null === $v['name']) {
             return;
         }
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        $name = self::requireStringValue($v, 'name');
         $opts = self::getResourceOpts($v, $namespace);
         $controller = self::getController($v, $namespace);
 
@@ -338,12 +345,13 @@ class RouteDynService
         $controller = self::getController($v, $namespace);
         foreach ($v['acts'] as $v1) {
             Assert::isArray($v1);
-            /* @var array<string, mixed> $v1 */
-            $v1['controller'] = $controller;
+            /** @var array<string, mixed> $act */
+            $act = $v1;
+            $act['controller'] = $controller;
 
-            $method = self::getMethod($v1, $namespace);
-            $uri = self::getUri($v1, $namespace);
-            $callback = self::getCallback($v1, $namespace, $curr);
+            $method = self::getMethod($act, $namespace);
+            $uri = self::getUri($act, $namespace);
+            $callback = self::getCallback($act, $namespace, $curr);
             Route::match($method, $uri, $callback);
         }
     }

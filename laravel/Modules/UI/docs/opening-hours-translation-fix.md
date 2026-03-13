@@ -50,6 +50,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 ### 2. Modernizzazione Sintassi
 - Sostituito `array()` con `[]`
 - Aggiunto `declare(strict_types=1);`
+- Aggiornato `help` a `helper_text` per coerenza
 
 ### 3. Struttura Espansa Completa
 Tutti i campi ora seguono la struttura espansa con:
@@ -185,6 +186,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 ### 2. Modernizzazione Sintassi
 - Sostituito `array()` con `[]`
 - Aggiunto `declare(strict_types=1);`
+- Aggiornato `help` a `helper_text` per coerenza
 
 ### 3. Struttura Espansa Completa
 Tutti i campi ora seguono la struttura espansa con:
