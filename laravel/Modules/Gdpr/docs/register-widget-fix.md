@@ -214,7 +214,6 @@ Container: max-w-7xl (1280px wide)
    - Rimosso `getFormSchema()`
    - Aggiunte proprietà pubbliche per campi form
    - Aggiunto metodo `getView()`
-   - Aggiornato metodo `submit()`
 
 2. `/laravel/Themes/Meetup/resources/views/filament/widgets/auth/register.blade.php`
    - Corretta struttura HTML

@@ -1,150 +1,207 @@
-# 📋 FixCity - Documentazione Principale
+# 📚 FixCity Platform - Documentation Index
 
-> **Principi DRY + KISS + SOLID + Laraxot**: Documentazione come memoria del progetto, collegamenti bidirezionali, conoscenza condivisa.
-
-## 🏗️ Architettura del Sistema
-
-FixCity è una **piattaforma di segnalazione cittadina** basata su **architettura modulare monolitica** (Nwidart + Laraxot):
-
-- **Backend**: Laravel 12.24.0 + PHP 8.3.20 + SQLite
-- **Frontend**: Folio + Volt + Livewire 3.x (cittadini)
-- **Backoffice**: Filament 3.x + Laraxot (amministratori)
-- **Routing**: File-based (NO web.php/api.php)
-- **Tema**: Sixteen (Tailwind + Alpine)
-
-## 📦 Moduli Attivi
-
-| Modulo | Descrizione | Docs |
-|--------|-------------|------|
-| **Xot** | Framework base (XotBaseModel, providers) | [→](modules/xot.md) |
-| **Fixcity** | Core business logic (tickets, segnalazioni) | [→](modules/fixcity.md) |
-| **User** | Autenticazione, profili, permessi | [→](modules/user.md) |
-| **Cms** | Gestione contenuti, pagine JSON | [→](modules/cms.md) |
-| **UI** | Componenti condivisi interfaccia | [→](modules/ui.md) |
-| **Geo** | Dati geografici, coordinate | [→](modules/geo.md) |
-| **Notify** | Sistema notifiche multi-canale | [→](modules/notify.md) |
-| **Activity** | Log attività, audit trail | [→](modules/activity.md) |
-| **AI** | Integrazione intelligenza artificiale | [→](modules/ai.md) |
-| **Chart** | Visualizzazione dati, grafici | [→](modules/chart.md) |
-
-## 🎯 Quick Start
-
-### Development
-```bash
-# Frontend changes (SEMPRE richiesto)
-cd Themes/Sixteen/
-npm run build && npm run copy
-
-# Backend
-php artisan test --filter=SpecificTest
-vendor/bin/pint --dirty
-```
-
-### Routing Patterns
-```php
-// Frontend (cittadini)
-/tickets/create → Themes/Sixteen/resources/views/pages/tickets/create.blade.php
-/tickets/{slug} → Modules/Fixcity/resources/views/pages/tickets/[slug].blade.php
-
-// Admin (staff)
-/fixcity/admin/tickets → Auto-generato da TicketResource
-/user/admin/users → Auto-generato da UserResource
-```
-
-## 📊 PHPStan Analysis
-
-### Stato Compliance
-- **Level 9**: Target di qualità del codice
-- **Baseline**: Errori esistenti documentati
-- **Continuous**: Analisi ad ogni commit
-
-### Correzioni Principali
-- [Xot MetatagData getColors fix](phpstan-fixes-summary.md#xot-metatagdata)
-- [UI Components type safety](phpstan-fixes-summary.md#ui-components)
-- [CMS Vite manifest resolution](phpstan-fixes-summary.md#cms-vite)
-
-## 🔧 Convenzioni Sviluppo
-
-### Modelli
-```php
-// SEMPRE estendere XotBaseModel
-class Ticket extends XotBaseModel
-{
-    use UpdaterTrait; // created_by/updated_by automatici
-}
-```
-
-### Filament Resources
-```php
-// Pattern standard
-class TicketResource extends XotBaseResource
-{
-    protected static ?string $model = Ticket::class;
-}
-```
-
-### Folio Pages
-```php
-<?php
-use function Laravel\Folio\{name, middleware};
-
-name('tickets.create');
-middleware(['auth', 'verified']);
-?>
-
-<x-layout>
-    @volt('ticket-form')
-    <!-- Contenuto -->
-    @endvolt
-</x-layout>
-```
-
-## 🚀 Roadmap
-
-### Q1 2025
-- [ ] PHPStan Level 9 compliance completa
-- [ ] Test coverage > 80%
-- [ ] Performance optimization
-- [ ] API REST standardization
-
-### Q2 2025
-- [ ] Mobile app integration
-- [ ] Advanced reporting dashboard
-- [ ] Multi-tenant architecture
-- [ ] Real-time notifications
-
-## 📖 Quick Links
-
-### Core Documentation
-- [System Architecture](ARCHITECTURE.md) 🏗️
-- [Modules Overview](MODULES.md) 📦
-- [Development Guide](DEVELOPMENT.md) 🛠️
-- [Code Quality Standards](CODE_QUALITY.md) 🔍
-- [Testing Strategy](testing-strategy.md) 🧪
-
-### Technical References
-- [Frontend Architecture](frontend-architecture.md) 🎨
-- [Console Commands](console/commands.md)
-- [Database Migrations](database/migrations.md)
-- [Contratti e Interfacce](contracts.md)
-- [Theme System](themes/index.md)
-- [Testing Strategy](testing-strategy.md) 🧪
-
-### Module Specific
-- [Xot Framework](modules/xot.md) ⚙️
-- [Fixcity Core](modules/fixcity.md) 🎯
-- [User Management](modules/user.md) 👥
-- [UI Components](modules/ui.md) 🎨
-
-### Quality Assurance
-- [PHPStan Analysis](phpstan.md) 📊
-- [Mixed Type — Solo come Ultima Spiaggia](mixed-type-ultima-spiaggia.md) 🔒
-- [PHPMD e PHPInsights — SOLO .phar](quality-tools-setup.md) 📦
-- [Build PHPInsights .phar](phpinsights-phar-build.md) 🔧
-- [View Pattern — view-string + viewParams](view-pattern.md) 📐
-- [Testing Best Practices](testing-best-practices.md) ✅
-- [Code Review Guidelines](CODE_QUALITY.md#code-review-checklist) 🔍
+> **Last Updated**: 2026-03-13  
+> **Status**: ✅ Active  
+> **Version**: 2.0
 
 ---
 
-*Memoria del progetto: DRY + KISS + SOLID + Collegamenti bidirezionali*
+## 🎯 Quick Navigation
+
+### For Developers
+- 🚀 [Getting Started](quick-start.md)
+- 📖 [AGENTS.md](../../AGENTS.md) - Main development guide
+- 🏗️ [Architecture](architecture/README.md)
+- 📝 [Conventions](conventions/README.md)
+- 🧪 [Testing](testing/README.md)
+
+### For Product Teams
+- 🗺️ [Product Roadmaps](roadmaps/README.md)
+- 📊 [Analytics](analytics/README.md)
+- 💡 [Feature Requests](feature-requests.md)
+
+### For Operations
+- 🔧 [Deployment](deployment/README.md)
+- 📈 [Monitoring](monitoring/README.md)
+- 🔒 [Security](security/README.md)
+
+---
+
+## 📁 Documentation Structure
+
+```
+docs/
+├── architecture/           # System architecture docs
+├── conventions/            # Coding standards & conventions
+├── deployment/             # Deployment guides
+├── fixes/                  # Bug fixes & solutions
+├── github/                 # GitHub workflows
+├── mcp/                    # MCP configuration
+├── monitoring/             # Monitoring & logging
+├── quality/                # Quality assurance
+├── roadmaps/               # Product roadmaps
+├── security/               # Security documentation
+├── testing/                # Testing guides
+└── index.md               # This file
+```
+
+---
+
+## 🔥 Recent Updates
+
+### 2026-03-13
+- ✅ Database naming convention standardized
+- ✅ .gitattributes files removed (now in .gitignore)
+- ✅ MCP GitHub configuration added
+- ✅ GitHub Issue #5 created
+- ✅ Ollama optimization guide
+
+### 2026-03-02
+- ✅ PHPStan Level 10 compliance
+- ✅ Logging best practices
+- ✅ DRY principle enforcement
+
+---
+
+## 📊 Documentation Status
+
+| Category | Files | Status | Last Updated |
+|----------|-------|--------|--------------|
+| Architecture | 15+ | ✅ Active | 2026-03 |
+| Conventions | 8+ | ✅ Active | 2026-03-13 |
+| Deployment | 5+ | ✅ Active | 2026-02 |
+| Fixes | 12+ | ✅ Active | 2026-03-13 |
+| Quality | 20+ | ✅ Active | 2026-03 |
+| Testing | 10+ | ✅ Active | 2026-02 |
+
+---
+
+## 🎓 Learning Paths
+
+### New Developer Onboarding
+1. [Quick Start](quick-start.md)
+2. [AGENTS.md](../../AGENTS.md)
+3. [Architecture Overview](architecture/overview.md)
+4. [Conventions](conventions/README.md)
+5. [First PR Guide](contributing/first-pr.md)
+
+### Module Developer
+1. [Module Structure](modules/structure.md)
+2. [Best Practices](modules/best-practices.md)
+3. [Testing Modules](modules/testing.md)
+4. [Documentation](modules/documentation.md)
+
+### DevOps Engineer
+1. [Deployment Guide](deployment/README.md)
+2. [Monitoring Setup](monitoring/setup.md)
+3. [Backup Strategy](operations/backup.md)
+4. [Disaster Recovery](operations/disaster-recovery.md)
+
+---
+
+## 🔍 Search Tips
+
+### By Topic
+```bash
+# Search all docs
+grep -r "your-topic" docs/
+
+# Search specific category
+grep -r "your-topic" docs/architecture/
+
+# Search module docs
+grep -r "your-topic" laravel/Modules/*/docs/
+```
+
+### By File Type
+```bash
+# Find all README files
+find docs/ -name "README.md"
+
+# Find all roadmap files
+find docs/ -name "*roadmap.md"
+
+# Find all convention files
+find docs/ -name "*convention*.md"
+```
+
+---
+
+## 📝 Contributing to Documentation
+
+### Writing Guidelines
+1. **Use clear headings** - H1 for title, H2 for sections
+2. **Include examples** - Code blocks with language tags
+3. **Add metadata** - Last updated, status, owner
+4. **Link related docs** - Use relative paths
+5. **Keep it current** - Update when code changes
+
+### Documentation Standards
+- **Markdown**: Use GitHub-flavored markdown
+- **Language**: English (technical), Italian (comments)
+- **Format**: .md files with .md extension
+- **Location**: docs/ for project, Module/docs/ for modules
+
+### Review Process
+1. Write draft
+2. Self-review
+3. Peer review
+4. Merge to main
+5. Announce in #docs channel
+
+---
+
+## 🛠️ Documentation Tools
+
+### Generation
+- **phpDocumentor**: PHP API docs
+- **Typedoc**: TypeScript docs
+- **Mermaid**: Diagrams
+
+### Validation
+- **markdownlint**: Markdown linting
+- **prettier**: Formatting
+- **alex**: Inclusive language
+
+### Publishing
+- **GitBook**: Internal wiki
+- **GitHub Pages**: Public docs
+- **Notion**: Team collaboration
+
+---
+
+## 📞 Support
+
+### Getting Help
+- **Slack**: #documentation
+- **Email**: docs @fixcity.example.com
+- **GitHub**: Create issue with label `documentation`
+
+### Documentation Team
+- **Lead**: @marco76tv
+- **Contributors**: [View contributors](https://github.com/laraxot/base_fixcity_fila5/graphs/contributors)
+
+---
+
+## 🔗 External Resources
+
+### Laravel
+- [Laravel Documentation](https://laravel.com/docs)
+- [Laracasts](https://laracasts.com)
+- [Laravel News](https://laravel-news.com)
+
+### PHP
+- [PHP Documentation](https://www.php.net/docs.php)
+- [PHP The Right Way](https://phptherightway.com)
+- [PSR Standards](https://www.php-fig.org/psr/)
+
+### Tools
+- [Git Documentation](https://git-scm.com/doc)
+- [GitHub Docs](https://docs.github.com)
+- [Markdown Guide](https://www.markdownguide.org)
+
+---
+
+**Maintainer**: @marco76tv  
+**Contact**: docs @fixcity.example.com  
+**Last Review**: 2026-03-13

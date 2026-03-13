@@ -50,4 +50,3 @@ Tutti i file risolti rispettano:
 - [Design System Guidelines](../../../../docs/design-system.md)
 
 ---
-*Aggiornato automaticamente dopo risoluzione conflitti Git*

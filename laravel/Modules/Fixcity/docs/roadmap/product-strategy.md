@@ -2,7 +2,6 @@
 
 > **Document ID**: FC-STRATEGY-001  
 > **Version**: 1.0  
-> **Last Updated**: 2026-03-13  
 > **Owner**: VP of Product  
 > **Timeframe**: 2026-2027 (3-Year Strategy)
 

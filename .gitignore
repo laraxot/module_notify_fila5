@@ -1,3 +1,7 @@
+# Git attributes (legacy files - now handled by .gitignore)
+.gitattributes
+**/.gitattributes
+
 # System files
 .DS_Store
 *.exe
@@ -188,3 +192,30 @@ laravel/.zai
 
 .cursor.*/
 .windsurf.*/laravel/Modules/Xot/lang/lang
+* copy*
+*copy
+*.copy
+* copy.*
+copy_*
+laravel/.cursor
+laravel/.ai
+laravel/.agents
+laravel/.windsurf
+laravel/.iflow
+.agent
+laravel/.agent
+laravel/.clauderules
+.zai
+.opencode
+laravel/.vscode
+.qwen
+laravel/.qwen
+laravel/.junie
+.grok
+laravel/.grok
+laravel/.claude
+laravel/.gemini
+laravel/.ai-context
+laravel/.phive
+.ralph
+laravel/.ralph

@@ -2,7 +2,6 @@
 
 **Module:** Comment  
 **Version:** 1.0.0  
-**Last Updated:** March 12, 2026  
 **Owner:** Product Team
 
 ---
@@ -88,4 +87,3 @@ Learn from community conversations.
 
 ---
 
-*Last Updated: March 12, 2026*

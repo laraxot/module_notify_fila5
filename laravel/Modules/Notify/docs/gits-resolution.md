@@ -69,4 +69,3 @@ Tutti i file risolti rispettano:
 - [Notification Channels](./notification_channels_implementation.md)
 
 ---
-*Aggiornato automaticamente dopo risoluzione conflitti Git*

@@ -144,10 +144,90 @@ protected function getHeaderActions(): array
 - One class per file
 
 ## DOCUMENTATION
-- Always consult docs folders before taking action
-- Never include specific absolute paths (e.g., base_*_fila5)
-- Document model relationships and field purposes
-- Add PHPDoc blocks to all classes and methods
+
+### CRITICAL: No Temporal Strings
+- **NEVER** include temporal strings in documentation:
+  - ❌ `**Last Updated**: 2026-03-02`
+  - ❌ `Updated: January 2025`
+  - ❌ `*Last Updated: March 12, 2026*`
+- **USE** git for temporal tracking: `git log --follow docs/file.md`
+- **WHY**: Timeless docs, no maintenance burden, git tracks changes
+
+### SCRIPT ORGANIZATION - CRITICAL
+- **ALL .sh FILES**: MUST be in `bashscripts/` subfolders
+- **NEVER** in project root or `laravel/` root
+- **Structure**: `bashscripts/<category>/<script-name>.sh`
+- **Examples**:
+  - ✅ `bashscripts/system/optimization/ollama-optimize-cpu.sh`
+  - ✅ `bashscripts/ai/ai_init.sh`
+  - ❌ `ollama-optimize-cpu.sh` (in project root - WRONG!)
+  - ❌ `laravel/cleanup.sh` (in laravel/ - WRONG!)
+- **Docs**: Always document in `bashscripts/docs/<category>/`
+- **Rationale**: Centralized, organized, discoverable, maintainable
+
+### Documentation Structure
+- **ALWAYS** follow standard module structure:
+  ```
+  Modules/ModuleName/docs/
+  ├── README.md              # Overview & quick reference
+  ├── architecture/          # Architecture decisions
+  ├── guides/                # How-to guides
+  ├── references/            # API references
+  ├── best-practices/        # Best practices
+  └── troubleshooting/       # Troubleshooting
+  ```
+- **ALWAYS** follow standard theme structure:
+  ```
+  Themes/ThemeName/docs/
+  ├── README.md              # Theme overview
+  ├── getting-started/       # Installation & setup
+  ├── components/            # Component docs
+  ├── customization/         # Customization guides
+  └── build-system/          # Build processes
+  ```
+- **ALWAYS** follow bashscripts structure:
+  ```
+  bashscripts/<category>/
+  ├── <script-name>.sh       # Script file
+  └── docs/
+      └── <category>/
+          ├── README.md      # Category index
+          └── <script>.md    # Script documentation
+  ```
+
+### File Naming
+- **ALWAYS** use lowercase kebab-case: `user-authentication.md`
+- **NEVER** use PascalCase: `UserAuthentication.md` ❌
+- **NEVER** use UPPERCASE: `USER_AUTHENTICATION.md` ❌
+- **NEVER** use non-descriptive names: `temp.md`, `test.md` ❌
+
+### Documentation Quality
+- **MUST** have clear purpose statement
+- **MUST** define target audience
+- **MUST** include practical examples
+- **MUST** link to related documents
+- **MUST** avoid duplicate content (each topic once)
+- **PREFER** English (Italian only for AGID compliance)
+- **USE** active voice: "Do this" not "This should be done"
+
+### Before Creating Documentation
+1. **SEARCH** if topic already documented
+2. **DEFINE** purpose: Why is this needed?
+3. **CHOOSE** correct directory structure
+4. **FOLLOW** standard templates
+5. **LINK** to module README
+
+### After Creating Documentation
+1. **UPDATE** module README
+2. **CROSS-REFERENCE** from related docs
+3. **REMOVE** duplicates
+4. **VERIFY** all internal links
+5. **COMMIT** with clear message
+
+### Documentation Resources
+- [Master Documentation Index](docs/MASTER_DOCUMENTATION_INDEX.md)
+- [Documentation Governance](docs/DOCUMENTATION_GOVERNANCE.md)
+- [AGENTS.md](AGENTS.md) - Full documentation standards
 
 ## VALIDATION
 - Run PHPStan level 7 before starting work
