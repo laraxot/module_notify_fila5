@@ -59,8 +59,8 @@ jobs:
         shell: bash
         run: |
           bash --version
-          test -f gitmodules.ini
-          test -f bashscripts/git/subtrees/sync_remote_repo.sh
+          test -f bashscripts/gitmodules.ini || { echo "gitmodules.ini not found"; exit 1; }
+          test -f bashscripts/git/subtrees/sync_remote_repo.sh || { echo "sync_remote_repo.sh not found"; exit 1; }
           bash -n bashscripts/git/subtrees/sync_remote_repo.sh
           if sh bashscripts/git/subtrees/sync_remote_repo.sh >/tmp/sync-remote-repo-sh.err 2>&1; then
             echo "sync_remote_repo.sh unexpectedly succeeded under sh"
