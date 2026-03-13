@@ -1,36 +1,9 @@
-# Notify Module Roadmap
+# Product Roadmap - Notify Module
 
-## Visione
+## 🎯 Vision & Strategy
+Develop the Notify Module as a high-performance, specialized component of the Laraxot ecosystem.
 
-Modulo per il sistema di notifiche: email, in-app, SMS, push, template, scheduling e integrazione con servizi esterni (SendAppointmentNotificationAction, MailTemplateVersion).
-
-## Fasi di Sviluppo
-
-### Fase 1: Stabilizzazione (In Progress)
-- [x] PHPStan Level 9+ Compliance
-- [ ] Upgrade PHPStan Level 10
-- [ ] Allineamento Filament v5
-- [ ] Test Coverage improvement
-
-### Fase 2: Canali Notifica (Planned)
-- [ ] Email notifications
-- [ ] In-app notifications
-- [ ] Template e MailLayout
-- [ ] Integrazione Pdnd/Servizi esterni
-
-### Fase 3: Integrazione (Future)
-- [ ] SMS/Push (se richiesto)
-- [ ] Analytics delivery
-- [ ] Traduzioni it/en complete
-- [ ] Documentazione completa
-
-## Checklist Qualità
-
-- [x] PHPStan Level 9
-- [ ] PHPStan Level 10
-- [ ] Test coverage
-- [ ] Documentazione in docs/
-
----
-
-**Ultimo aggiornamento**: Febbraio 2026
+## 🗓️ Timeline
+### Q1 2026: Foundation
+- Standardize Notify Module Documentation - *Status: Shipped*
+- PHPStan Level 10 Audit - *Status: In Progress*
