@@ -46,6 +46,10 @@ Questo documento quindi va interpretato come **pattern target** e non come fotog
 ### 1. Documentazione Aggiornata
 - ✅ Creato `passport-cluster-completion-status.md` - Status dettagliato
 - ✅ Creato `passport-cluster-summary.md` - Riepilogo completo
+- ✅ Aggiornato `passport-cluster-resources-pattern.md` - Aggiunte statistiche
+- ✅ Aggiornato `00-index.md` - Aggiunto link a Passport Cluster
+- ✅ Aggiornato `filament.md` - Aggiunta sezione Clusters
+- ✅ Aggiornato `filament-resources-organization.md` - Aggiunto esempio Cluster Resources
 
 ### 2. Verifiche Finali
 - ✅ PHPStan Level 10: No errors su tutto il cluster
@@ -95,6 +99,9 @@ E, coerentemente con la regola anti-duplicazione:
 3. ✅ `passport-cluster-completion-status.md` - Status completamento
 4. ✅ `passport-cluster-summary.md` - Riepilogo completo
 5. ✅ `passport-cluster-work-completion.md` - Questo documento
+6. ✅ `00-index.md` - Aggiornato con link Passport Cluster
+7. ✅ `filament.md` - Aggiornato con sezione Clusters
+8. ✅ `filament-resources-organization.md` - Aggiornato con esempio Cluster
 
 ---
 

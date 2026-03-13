@@ -178,6 +178,7 @@ public function clients();
    - Aggiunto `@phpstan-ignore-next-line` per method_exists check
 
 6. **HasTeams.php**:
+   - Aggiornato PHPDoc return type per `teams()` con generics completi
 
 ### Errori Rimanenti (0) - ✅ TUTTI RISOLTI
 
@@ -192,6 +193,7 @@ Tutti gli errori sono stati corretti:
 1. **PassportServiceProvider.php**:
     - Risolti errori di type mismatch per `useTokenModel`, `useRefreshTokenModel`, ecc. usando `Assert::subclassOf`.
 2. **OauthDeviceCode.php**:
+    - Aggiornato modello per estendere `Laravel\Passport\DeviceCode` invece di `BaseModel` per conformità rigorosa ai tipi.
 3. **PHPMD**:
     - Aggiunto `@SuppressWarnings` per `StaticAccess` e `CouplingBetweenObjects` in `PassportServiceProvider`.
 

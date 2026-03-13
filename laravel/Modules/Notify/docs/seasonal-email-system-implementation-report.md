@@ -30,7 +30,10 @@ Questo documento riassume la revisione del sistema di email stagionali con parti
 - **Risultato**: Selezione automatica e pulita del layout stagionale.
 
 #### 3. Aggiornamento Documentazione
+- **File**: `Modules/Notify/docs/seasonal-email-templates.md` - Aggiornato con nuovo approccio diretto
 - **File**: `Modules/Notify/docs/get-seasonal-email-layout-action.md` - RIMOSSO
+- **File**: `Themes/Sixteen/docs/christmas-email-layout.md` - Aggiornato
+- **File**: `Themes/Sixteen/docs/mail-layouts-natale.md` - Aggiornato
 
 ## Logica e Filosofia del Codice - Rivisitata
 

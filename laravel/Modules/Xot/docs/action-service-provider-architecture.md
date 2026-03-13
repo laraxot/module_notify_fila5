@@ -131,7 +131,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $this->registerTranslations();
         $this->registerConfig();
         $this->registerViews();
-        $this->loadMigrationsFrom($this->module_dir.'/../../database/migrations');
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
         $this->registerLivewireComponents();
         $this->registerBladeComponents();
         $this->registerCommands();
@@ -384,7 +384,7 @@ The Action and Service Provider patterns embody Laraxot's core principles:
 - Auto-discovery prevents repetitive code
 
 ### KISS (Keep It Simple, Stupid)
-- Clear, predictable patterns
+- Clear, <nome progetto>able patterns
 - Minimal configuration needed
 - Consistent API across all modules
 
@@ -397,7 +397,7 @@ The Action and Service Provider patterns embody Laraxot's core principles:
 ### Type Safety
 - Strict typing in actions
 - Interface contracts
-- Predictable method signatures
+- <nome progetto>able method signatures
 
 ### Modularity
 - Self-contained actions

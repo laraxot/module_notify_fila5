@@ -21,7 +21,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         $this->registerTranslations();
         $this->registerViews();
-        $this->loadMigrationsFrom($this->module_dir.'/../../database/migrations');
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
         $this->registerLivewireComponents();
         $this->registerBladeComponents();
         $this->registerCommands();
@@ -116,7 +116,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         $this->registerTranslations();
         $this->registerViews();
-        $this->loadMigrationsFrom($this->module_dir.'/../../database/migrations');
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
         $this->registerLivewireComponents();
         $this->registerBladeComponents();
         $this->registerCommands();
