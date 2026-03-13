@@ -62,11 +62,14 @@ jobs:
           test -f bashscripts/gitmodules.ini || { echo "gitmodules.ini not found"; exit 1; }
           test -f bashscripts/git/subtrees/sync_remote_repo.sh || { echo "sync_remote_repo.sh not found"; exit 1; }
           bash -n bashscripts/git/subtrees/sync_remote_repo.sh
-          if sh bashscripts/git/subtrees/sync_remote_repo.sh >/tmp/sync-remote-repo-sh.err 2>&1; then
+          sh_err_file="$GITHUB_WORKSPACE/.sync-sh-test.err"
+          if sh bashscripts/git/subtrees/sync_remote_repo.sh > "$sh_err_file" 2>&1; then
             echo "sync_remote_repo.sh unexpectedly succeeded under sh"
+            rm -f "$sh_err_file"
             exit 1
           fi
-          grep -q "requires bash" /tmp/sync-remote-repo-sh.err
+          grep -q "requires bash" "$sh_err_file"
+          rm -f "$sh_err_file"
 
       - name: Run remote sync
         shell: bash
