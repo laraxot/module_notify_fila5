@@ -55,11 +55,25 @@ jobs:
           fetch-depth: 0
 
       - name: Show gitmodules.ini
+        shell: bash
         run: |
           echo "Configuration:"
           cat bashscripts/gitmodules.ini | head -20 || cat gitmodules.ini | head -20 || echo "gitmodules.ini not found"
 
+      - name: Verify sync script shell contract
+        shell: bash
+        run: |
+          bash --version
+          test -f bashscripts/git/subtrees/sync_remote_repo.sh
+          bash -n bashscripts/git/subtrees/sync_remote_repo.sh
+          if sh bashscripts/git/subtrees/sync_remote_repo.sh >/tmp/sync-subtrees-sh.err 2>&1; then
+            echo "sync_remote_repo.sh unexpectedly succeeded under sh"
+            exit 1
+          fi
+          grep -q "requires bash" /tmp/sync-subtrees-sh.err
+
       - name: Sync Subtrees
+        shell: bash
         run: |
           echo "Starting subtree sync..."
           echo "Working directory: $(pwd)"
