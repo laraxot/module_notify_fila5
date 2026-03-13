@@ -153,6 +153,26 @@ protected function getHeaderActions(): array
 - **USE** git for temporal tracking: `git log --follow docs/file.md`
 - **WHY**: Timeless docs, no maintenance burden, git tracks changes
 
+### CRITICAL: COMMIT & PUSH RULE
+- **WHEN SURE IT WORKS** → `git commit && git push` IMMEDIATELY!
+- **GitHub Action success** → Commit & Push
+- **Script tested** → Commit & Push
+- **Docs created** → Commit & Push
+- **Config changed** → Commit & Push
+- **Bug fixed** → Commit & Push
+- **NEVER** leave work uncommitted after verification
+- **REMEMBER**: Unpushed changes = invisible to other AI agents
+
+**Example**:
+```bash
+# After Action success
+git add .github/workflows/workflow.yml
+git commit -m "ci: Add workflow"
+git push origin dev
+```
+
+**Reference**: docs/GIT_COMMIT_PUSH_RULE.md
+
 ### SCRIPT ORGANIZATION - CRITICAL
 - **ALL .sh FILES**: MUST be in `bashscripts/` subfolders
 - **NEVER** in project root or `laravel/` root
