@@ -57,3 +57,7 @@ jobs:
         run: |
           chmod +x bashscripts/git/subtrees/sync_remote_repo.sh
           bashscripts/git/subtrees/sync_remote_repo.sh
+        env:
+          BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          CI: true
