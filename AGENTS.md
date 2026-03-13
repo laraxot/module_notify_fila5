@@ -1548,6 +1548,147 @@ Themes/ThemeName/
 **Content Requirements**:
 - English primary (Italian only for AGID compliance)
 - Active voice ("Do this" not "This should be done")
+
+---
+
+## 🤖 MULTI-AGENT COLLABORATION
+
+### CRITICAL: Multiple AI Agents Working Simultaneously
+
+**THIS IS A STRENGTH, NOT A WEAKNESS!** 🚀
+
+Multiple AI agents (Qwen, Claude, Cursor, Copilot, etc.) work on this codebase simultaneously.
+
+**Advantages**:
+- ✅ Parallel work - multiple tasks completed simultaneously
+- ✅ Diverse perspectives - different agents bring different insights
+- ✅ Cross-verification - agents verify each other's work
+- ✅ Specialization - agents focus on their strengths
+- ✅ 24/7 progress - work continues even when one agent is offline
+
+### Rules for Multi-Agent Collaboration
+
+#### 1. CHECK BEFORE STARTING ⚠️
+
+**ALWAYS** check what other agents are doing:
+
+```bash
+# Check recent commits
+git log --oneline -20 --all
+
+# Check open issues
+gh issue list --state open
+
+# Check recent activity
+gh run list --limit 10
+```
+
+**Why**: Avoid duplicate work and conflicts.
+
+#### 2. DECLARE YOUR INTENTIONS 📢
+
+**BEFORE** starting work, declare on GitHub issue:
+
+```markdown
+🤖 **Agent**: [Your Name/Type]
+**Task**: [What you'll work on]
+**ETA**: [Estimated completion]
+**Branch**: [Branch you'll use]
+**Coordination**: [How you'll coordinate]
+```
+
+**Why**: Other agents can avoid conflicts and offer help.
+
+#### 3. WORK IN SMALL INCREMENTS 🔄
+
+**DO**:
+- ✅ Small, focused commits
+- ✅ Frequent pushes (every 5-10 minutes)
+- ✅ Clear commit messages
+- ✅ Test before each push
+
+**DON'T**:
+- ❌ Large, monolithic commits
+- ❌ Work for hours without pushing
+- ❌ Vague commit messages
+- ❌ Push untested code
+
+#### 4. COMMUNICATE PROGRESS 📡
+
+**Every 10-15 minutes**:
+```markdown
+**Progress Update**:
+- ✅ Completed: [what's done]
+- 🔄 In Progress: [what you're working on]
+- ⏳ Next: [what's next]
+- 🆘 Help Needed: [if you need help]
+```
+
+**When Blocked**:
+```markdown
+🛑 **BLOCKED**:
+- Issue: [what's blocking you]
+- Tried: [what you've tried]
+- Need: [what you need to unblock]
+```
+
+**When Complete**:
+```markdown
+✅ **COMPLETE**:
+- Task: [what was completed]
+- Files Changed: [list of files]
+- Testing: [how it was tested]
+- Next Steps: [what needs to be done next]
+```
+
+#### 5. DOCUMENT EVERYTHING 📚
+
+**ALWAYS** document your work:
+
+- **Scripts**: `bashscripts/docs/[category]/[script].md`
+- **Workflows**: `.github/` AND `bashscripts/ai/.github/`
+- **Rules**: `AGENTS.md`, `.windsurfrules`
+- **Memories**: Save for future reference
+
+**Why**: Other agents (and future you) need to understand your work.
+
+### Agent Teams
+
+| Team | Focus | Status |
+|------|-------|--------|
+| **Sync** | sync_remote_repo.sh | ✅ Stable |
+| **Actions** | GitHub Actions fixes | 🔄 In Progress |
+| **Docs** | Documentation | ✅ Active |
+| **SemVer** | Semantic versioning | ⏳ Planned |
+
+**Join a Team**: Comment on issue #12
+
+### Resources
+
+- **[docs/MULTI_AGENT_COLLABORATION.md](docs/MULTI_AGENT_COLLABORATION.md)** - Complete guide
+- **[Issue #12](https://github.com/laraxot/base_fixcity_fila5/issues/12)** - AI Agent Collaboration
+- **[docs/AI_AGENT_TEAMS.md](docs/AI_AGENT_TEAMS.md)** - Team organization
+
+### Success Story: 2026-03-13 Sync Fix
+
+**Challenge**: sync_remote_repo.sh had multiple errors
+
+**Multi-Agent Solution**:
+1. **Agent A** (Qwen): Fixed unbound variables
+2. **Agent B** (Claude): Fixed SSH authentication
+3. **Agent C** (Cursor): Created test plan
+4. **All Agents**: Cross-verified and tested
+
+**Result**: ✅ All errors fixed, bidirectional sync working!
+
+**Key Success Factors**:
+- Clear communication via issues
+- Small, focused commits
+- Frequent pushes
+- Cross-verification
+- Comprehensive documentation
+
+---
 - Simple sentences (one idea per sentence)
 - Consistent terminology (use glossary)
 

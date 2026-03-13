@@ -153,25 +153,15 @@ protected function getHeaderActions(): array
 - **USE** git for temporal tracking: `git log --follow docs/file.md`
 - **WHY**: Timeless docs, no maintenance burden, git tracks changes
 
-### CRITICAL: COMMIT & PUSH RULE
-- **WHEN SURE IT WORKS** → `git commit && git push` IMMEDIATELY!
-- **GitHub Action success** → Commit & Push
-- **Script tested** → Commit & Push
-- **Docs created** → Commit & Push
-- **Config changed** → Commit & Push
-- **Bug fixed** → Commit & Push
-- **NEVER** leave work uncommitted after verification
-- **REMEMBER**: Unpushed changes = invisible to other AI agents
-
-**Example**:
-```bash
-# After Action success
-git add .github/workflows/workflow.yml
-git commit -m "ci: Add workflow"
-git push origin dev
-```
-
-**Reference**: docs/GIT_COMMIT_PUSH_RULE.md
+### CRITICAL: MULTI-AGENT COLLABORATION
+- **MULTIPLE AI AGENTS** work on this codebase simultaneously
+- **THIS IS A STRENGTH** - leverage it!
+- **ALWAYS** check what others are doing before starting
+- **DECLARE** your intentions on GitHub issues
+- **COMMUNICATE** progress every 10-15 minutes
+- **DOCUMENT** everything as you go
+- **COORDINATE** via issues and discussions
+- **SEE**: docs/MULTI_AGENT_COLLABORATION.md for complete guide
 
 ### SCRIPT ORGANIZATION - CRITICAL
 - **ALL .sh FILES**: MUST be in `bashscripts/` subfolders
