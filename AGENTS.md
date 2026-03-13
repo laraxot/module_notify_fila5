@@ -1507,6 +1507,48 @@ Themes/ThemeName/
 3. **Remove Duplicates**: Check for overlapping content
 4. **Verify Links**: Test all internal links
 5. **Git Commit**: Commit with clear message
+6. **Git Push**: Push immediately after commit
+
+### CRITICAL: COMMIT & PUSH RULE
+
+**WHEN TO COMMIT & PUSH**:
+- ✅ GitHub Action tested & working → **COMMIT & PUSH IMMEDIATELY**
+- ✅ Script tested locally → **COMMIT & PUSH**
+- ✅ Documentation created → **COMMIT & PUSH**
+- ✅ Configuration changed → **COMMIT & PUSH**
+- ✅ Bug fixed & verified → **COMMIT & PUSH**
+
+**WHEN NOT TO COMMIT & PUSH**:
+- ❌ Work in progress (not complete)
+- ❌ Untested changes
+- ❌ Breaking changes (coordinate first)
+
+**COMMIT MESSAGE FORMAT**:
+```bash
+git commit -m "type: description"
+# Types: feat, fix, docs, ci, refactor, test, chore
+```
+
+**EXAMPLES**:
+```bash
+# After GitHub Action success
+git add .github/workflows/sync-remote-repo.yml
+git commit -m "ci: Add sync remote repo GitHub Action"
+git push origin dev
+
+# After documentation created
+git add docs/MY_DOC.md
+git commit -m "docs: Add my feature documentation"
+git push origin dev
+```
+
+**WHY THIS MATTERS**:
+- Changes not pushed = lost work
+- GitHub Actions need committed code
+- Other AI agents can't see unpushed changes
+- Working code ≠ saved code until pushed
+
+**REFERENCE**: [Git Commit & Push Rule](docs/GIT_COMMIT_PUSH_RULE.md)
 
 ### Documentation Resources
 
