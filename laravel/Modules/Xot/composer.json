@@ -105,7 +105,10 @@
     },
     "psr-4_comment": {
       "Modules\\Xot\\Tests\\": "tests/"
-    }
+    },
+    "files": [
+      "helpers/Helper.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {
