@@ -56,15 +56,25 @@ jobs:
           echo "🚀 Starting subtree sync..."
           echo "📂 Working directory: $(pwd)"
           echo "🌿 Current branch: $(git branch --show-current)"
+          echo "🔑 CI Environment: $CI"
           echo ""
           # Copy gitmodules.ini if needed
           if [ ! -f gitmodules.ini ] && [ -f bashscripts/gitmodules.ini ]; then
             cp bashscripts/gitmodules.ini gitmodules.ini
           fi
           chmod +x bashscripts/git/subtrees/sync_remote_repo.sh
+          # Export tokens explicitly for script
+          export BASHSCRIPTS_TOKEN="${{ secrets.BASHSCRIPTS_TOKEN }}"
+          export GITHUB_TOKEN="${{ secrets.BASHSCRIPTS_TOKEN }}"
+          export CI="true"
+          export GITHUB_ACTIONS="true"
+          echo "✅ Tokens exported, starting sync..."
           bash bashscripts/git/subtrees/sync_remote_repo.sh
         env:
+          BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
           CI: "true"
+          GITHUB_ACTIONS: "true"
 
       - name: ✅ Sync Complete
         run: |
