@@ -50,3 +50,4 @@ Tutti i file risolti rispettano:
 - [<nome progetto>ion Market Use Cases](./use_cases/<nome progetto>ion_market/index.md)
 
 ---
+*Aggiornato automaticamente dopo risoluzione conflitti Git*

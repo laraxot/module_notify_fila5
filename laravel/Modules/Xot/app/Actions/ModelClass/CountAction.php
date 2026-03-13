@@ -26,7 +26,6 @@ class CountAction
      */
     public function execute(string $modelClass): int
     {
-        /* @phpstan-ignore staticMethod.notFound, return.type */
         return InformationSchemaTable::getModelCount($modelClass);
     }
 }

@@ -34,16 +34,19 @@
 
 2. **File Corretti**
    - Creato `Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
+   - Aggiornato `Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
    - Creato `Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
 2. **File Corretti**
    - Creato `Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
+   - Aggiornato `Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
    - Creato `Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
 2. **File Corretti**
    - Creato `Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
+   - Aggiornato `Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
    - Rimosso il file con naming errato `send_whats_app.php`
 
 ### Prossime Correzioni da Implementare
@@ -155,6 +158,7 @@ Modules/Notify/lang/it/create_mail_template.php
 
 2. **File Corretti**
    - Creato `Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
+   - Aggiornato `Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
    - Rimosso il file con naming errato `send_whats_app.php`
 
 ### Prossime Correzioni da Implementare

@@ -90,6 +90,7 @@ class PasswordData extends Data
 **Modifiche ai Metodi**:
 - Rimosso il metodo `setFieldName()` (incompatibile con proprietà readonly)
 - Modificato `getPasswordConfirmationFormComponent()` per accettare `$field_name` come parametro
+- Aggiornato `getPasswordFormComponents()` per passare il parametro correttamente
 
 ### 3. Actions Socialite - Proprietà Readonly
 
@@ -152,7 +153,7 @@ Gli errori rimanenti (94) sono principalmente:
 
 - [Test di Validazione](../../tests/Unit/UserModulePhpstanFixesTest.php)
 - [Configurazione Password](../../config/password.php)
-- [Documentazione Root](../../../docs/user-module-phpstan-fixes.md)
+- [Documentazione Root](../../../../docs/user-module-phpstan-fixes.md)
 
 ## Note per il Futuro
 
