@@ -68,8 +68,9 @@ jobs:
           export GITHUB_TOKEN="${{ secrets.BASHSCRIPTS_TOKEN }}"
           export CI="true"
           export GITHUB_ACTIONS="true"
-          echo "✅ Tokens exported, starting sync..."
-          bash bashscripts/git/subtrees/sync_remote_repo.sh
+          echo "✅ Tokens exported, starting sync with laraxot org..."
+          # Pass laraxot to rewrite URLs from provtv to laraxot
+          bash bashscripts/git/subtrees/sync_remote_repo.sh laraxot
         env:
           BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
