@@ -16,8 +16,8 @@ jobs:
   sync-subtrees:
     name: Sync Git Subtrees
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/dev'
-    
+    if: github.ref == 'refs/heads/dev' || github.event_name == 'workflow_dispatch'
+
     steps:
       - name: ⬇️ Checkout repository
         uses: actions/checkout@v4
@@ -25,7 +25,7 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.BASHSCRIPTS_TOKEN }}
           submodules: false
-      
+
       - name: 🛡️ Configure Git
         run: |
           git config --global user.name "GitHub Actions"
@@ -35,7 +35,7 @@ jobs:
           git config --global --add safe.directory "$GITHUB_WORKSPACE/bashscripts"
           git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "git@github.com:"
           git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "https://github.com/"
-      
+
       - name: ⬇️ Checkout bashscripts repository
         uses: actions/checkout@v4
         with:
@@ -44,28 +44,27 @@ jobs:
           token: ${{ secrets.BASHSCRIPTS_TOKEN }}
           path: bashscripts
           fetch-depth: 0
-          sparse-checkout: |
-            git/
-            lib/
-            gitmodules.ini
-          sparse-checkout-cone-mode: false
-      
+
       - name: 📋 Show gitmodules.ini
         run: |
           echo "📋 Configuration:"
-          cat gitmodules.ini | head -20
-      
+          cat bashscripts/gitmodules.ini | head -20 || cat gitmodules.ini | head -20 || echo "⚠️ gitmodules.ini not found"
+
       - name: 🔄 Sync Subtrees
         run: |
           echo "🚀 Starting subtree sync..."
           echo "📂 Working directory: $(pwd)"
           echo "🌿 Current branch: $(git branch --show-current)"
           echo ""
+          # Copy gitmodules.ini if needed
+          if [ ! -f gitmodules.ini ] && [ -f bashscripts/gitmodules.ini ]; then
+            cp bashscripts/gitmodules.ini gitmodules.ini
+          fi
           chmod +x bashscripts/git/subtrees/sync_remote_repo.sh
           bash bashscripts/git/subtrees/sync_remote_repo.sh
         env:
           CI: "true"
-      
+
       - name: ✅ Sync Complete
         run: |
           echo "✅ Subtree synchronization completed successfully!"
