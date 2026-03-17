@@ -68,12 +68,9 @@ The Notify module provides a comprehensive notification system for the Laraxot s
 ### 7. Customer Communication History
 <<<<<<< .merge_file_D3JnwM
 **Parent Resource:** CustomerResource (from healthcare_app module)
-=======
-<<<<<<< HEAD
 **Parent Resource:** CustomerResource (from ExternalProject module)
-=======
 **Parent Resource:** CustomerResource (from ModuloEsempio module)
->>>>>>> f04e1ab44 (refactor: update project references from Quaeris to PTVX)
+>>>>>>> f04e1ab44 (refactor: update project references from <nome progetto> to PTVX)
 >>>>>>> .merge_file_y4v0o8
 **Child Resource:** NotificationLogResource
 **Relationship:** Customer-related notifications (via contacts/surveys)
@@ -82,12 +79,9 @@ The Notify module provides a comprehensive notification system for the Laraxot s
 ### 8. Survey Communication Logs
 <<<<<<< .merge_file_D3JnwM
 **Parent Resource:** SurveyPdfResource (from healthcare_app module)
-=======
-<<<<<<< HEAD
 **Parent Resource:** SurveyPdfResource (from ExternalProject module)
-=======
 **Parent Resource:** SurveyPdfResource (from ModuloEsempio module)
->>>>>>> f04e1ab44 (refactor: update project references from Quaeris to PTVX)
+>>>>>>> f04e1ab44 (refactor: update project references from <nome progetto> to PTVX)
 >>>>>>> .merge_file_y4v0o8
 **Child Resource:** NotificationLogResource
 **Relationship:** Survey-related notifications (via survey contacts)
@@ -197,12 +191,9 @@ Following the documented approach in `Modules/UI/docs/filament/nested-resource.m
 ### 4. Integration with Other Modules
 <<<<<<< .merge_file_D3JnwM
 - Handle relationships with healthcare_app module (surveys and contacts)
-=======
-<<<<<<< HEAD
 - Handle relationships with ExternalProject module (surveys and contacts)
-=======
 - Handle relationships with ModuloEsempio module (surveys and contacts)
->>>>>>> f04e1ab44 (refactor: update project references from Quaeris to PTVX)
+>>>>>>> f04e1ab44 (refactor: update project references from <nome progetto> to PTVX)
 >>>>>>> .merge_file_y4v0o8
 - Coordinate with User module for recipient management
 - Integrate with Tenant module for multi-tenant operations
@@ -228,13 +219,13 @@ Following the documented approach in `Modules/UI/docs/filament/nested-resource.m
 
 ### 1. Intelligent Notification Management
 - Automated personalization based on recipient history
-- Predictive analytics for engagement optimization
+- <nome progetto>ive analytics for engagement optimization
 - Machine learning-based content optimization
 
 ### 2. Advanced Communication Analytics
 - Cross-channel engagement tracking
 - Behavioral analytics for recipients
-- Predictive delivery timing optimization
+- <nome progetto>ive delivery timing optimization
 
 ### 3. Cross-module Communication Integration
 - Unified communication history across modules
