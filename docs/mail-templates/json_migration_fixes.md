@@ -119,9 +119,27 @@ if(!$this->hasColumn('subject')) {
 }
 ```
 
+<<<<<<< Updated upstream
 ## Applicazione a Quaeris
 
 Nel contesto di Quaeris, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+## Applicazione a Laraxot
+
+Nel contesto di Laraxot, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
+=======
+## Applicazione a healthcare_app
+
+Nel contesto di healthcare_app, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+## Applicazione a Quaeris
+
+Nel contesto di Quaeris, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 
 1. Le migrazioni per `mail_templates` e tabelle simili
 2. Campi multilingua che utilizzano il trait `HasTranslations`
@@ -132,7 +150,19 @@ Nel contesto di Quaeris, tutte le migrazioni che coinvolgono la conversione di c
 È necessario esaminare tutte le migrazioni esistenti per identificare pattern simili di conversione diretta a JSON:
 
 ```bash
+<<<<<<< Updated upstream
 grep -r "json.*change" /var/www/html/Quaeris/laravel/Modules/*/database/migrations/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+grep -r "json.*change" /var/www/html/ptvx/laravel/Modules/*/database/migrations/
+=======
+grep -r "json.*change" /var/www/html/healthcare_app/laravel/Modules/*/database/migrations/
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+grep -r "json.*change" /var/www/html/Quaeris/laravel/Modules/*/database/migrations/
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 ```
 
 I problemi più comuni si verificano in migrazioni che coinvolgono campi con traduzioni multilingua o configurazioni serializzate.

@@ -29,12 +29,36 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    ```php
    $attachments = [
        [
+<<<<<<< Updated upstream
 'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+           'path' => '/var/www/html/ptvx/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/healthcare_app/public_html/images/avatars/default-3.svg',
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
+<<<<<<< Updated upstream
 'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+           'path' => '/var/www/html/ptvx/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/healthcare_app/public_html/images/avatars/default-3.svg',
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]

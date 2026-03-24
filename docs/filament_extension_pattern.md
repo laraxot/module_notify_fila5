@@ -1,6 +1,18 @@
 # Pattern di Estensione per Componenti Filament 
 
+<<<<<<< Updated upstream
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema Quaeris, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema Laraxot, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+=======
+Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema healthcare_app, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema Quaeris, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 
 ## Regola Fondamentale
 
@@ -20,7 +32,19 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 
 ## Motivazione
 
+<<<<<<< Updated upstream
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per Quaeris, mantenendo la coerenza in tutta l'applicazione.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per Laraxot, mantenendo la coerenza in tutta l'applicazione.
+=======
+1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per healthcare_app, mantenendo la coerenza in tutta l'applicazione.
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per Quaeris, mantenendo la coerenza in tutta l'applicazione.
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 
 2. **Aggiornamenti Semplificati**: Quando Filament viene aggiornato, è possibile adattare solo le classi XotBase senza dover modificare tutte le implementazioni concrete.
 
@@ -90,7 +114,19 @@ class SendSmsPage extends Page implements HasForms // ❌ ERRORE
 
 ### 1. Personalizzazione Centralizzata
 
+<<<<<<< Updated upstream
 Le classi XotBase possono implementare comportamenti specifici per Quaeris, come:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Le classi XotBase possono implementare comportamenti specifici per Laraxot, come:
+=======
+Le classi XotBase possono implementare comportamenti specifici per healthcare_app, come:
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Le classi XotBase possono implementare comportamenti specifici per Quaeris, come:
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 - Gestione multilingua avanzata
 - Integrazione con il sistema di permessi personalizzato
 - Logging e auditing specifici

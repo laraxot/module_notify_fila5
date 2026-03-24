@@ -16,7 +16,19 @@ L'errore si manifesta in due forme principali:
 
 ### 1. Architettura a Strati
 
+<<<<<<< Updated upstream
 Il progetto Quaeris utilizza un'architettura a strati per i componenti Filament:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il progetto Laraxot utilizza un'architettura a strati per i componenti Filament:
+=======
+Il progetto healthcare_app utilizza un'architettura a strati per i componenti Filament:
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Il progetto Quaeris utilizza un'architettura a strati per i componenti Filament:
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 
 ```
 Filament Core Classes (vendor)
@@ -30,7 +42,19 @@ Saltare il livello intermedio (XotBase) rompe questa architettura e crea inconsi
 
 ### 2. Personalizzazioni Centralizzate
 
+<<<<<<< Updated upstream
 Le classi XotBase contengono personalizzazioni specifiche per il progetto Quaeris:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Le classi XotBase contengono personalizzazioni specifiche per il progetto Laraxot:
+=======
+Le classi XotBase contengono personalizzazioni specifiche per il progetto healthcare_app:
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Le classi XotBase contengono personalizzazioni specifiche per il progetto Quaeris:
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 - Gestione multilingua
 - Integrazione con il sistema di permessi
 - Logging e auditing
@@ -92,4 +116,16 @@ L'adozione coerente del pattern di estensione XotBase offre vantaggi significati
 
 ## Conclusione
 
+<<<<<<< Updated upstream
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di Quaeris. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di Laraxot. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di healthcare_app. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di Quaeris. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> origin/dev
+>>>>>>> Stashed changes

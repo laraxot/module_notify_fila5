@@ -17,7 +17,19 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 ### Corretta Organizzazione delle Interfacce
 
 ```
+<<<<<<< Updated upstream
 /var/www/html/Quaeris/laravel/Modules/Notify/app/Contracts/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/ptvx/laravel/Modules/Notify/app/Contracts/
+=======
+/var/www/html/healthcare_app/laravel/Modules/Notify/app/Contracts/
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+/var/www/html/Quaeris/laravel/Modules/Notify/app/Contracts/
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 ├── SmsProviderActionInterface.php   ✅ CORRETTO
 ├── NotificationChannelInterface.php ✅ CORRETTO
 └── ...
@@ -26,7 +38,19 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 ### Errori da Evitare
 
 ```
+<<<<<<< Updated upstream
 /var/www/html/Quaeris/laravel/Modules/Notify/app/Actions/SMS/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/ptvx/laravel/Modules/Notify/app/Actions/SMS/
+=======
+/var/www/html/healthcare_app/laravel/Modules/Notify/app/Actions/SMS/
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+/var/www/html/Quaeris/laravel/Modules/Notify/app/Actions/SMS/
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 ├── SmsActionInterface.php           ❌ ERRATO
 └── ...
 ```

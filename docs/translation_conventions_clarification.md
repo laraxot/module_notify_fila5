@@ -44,7 +44,19 @@ Dopo un'analisi approfondita, è stato determinato che:
    - L'uso della chiave `navigation` è intenzionale e necessario per il funzionamento del modulo Notify
 
 2. **Eccezioni alle convenzioni generali**
+<<<<<<< Updated upstream
 - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di Quaeris
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di Laraxot
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di healthcare_app
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+- Il modulo Notify rappresenta un'eccezione alle convenzioni generali di Quaeris
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
    - Questa eccezione è documentata e intenzionale
 
 ## Convenzioni Corrette per il Modulo Notify
@@ -81,7 +93,19 @@ return [
 
 ## Conclusione
 
+<<<<<<< Updated upstream
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di Quaeris, poiché rappresentano un'eccezione documentata.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di Laraxot, poiché rappresentano un'eccezione documentata.
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di healthcare_app, poiché rappresentano un'eccezione documentata.
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di Quaeris, poiché rappresentano un'eccezione documentata.
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 
 ## Riferimenti
 

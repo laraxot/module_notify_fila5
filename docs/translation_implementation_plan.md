@@ -1,7 +1,19 @@
 # Piano di Implementazione per la Standardizzazione delle Traduzioni
 
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+<<<<<<< Updated upstream
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di Quaeris.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di Laraxot.
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di healthcare_app.
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di Quaeris.
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 
 ## Analisi della Situazione Attuale
 
@@ -78,13 +90,42 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_s_m_s.ph
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< Updated upstream
 rm -f /var/www/html/Quaeris/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+rm -f /var/www/html/ptvx/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+rm -f /var/www/html/ptvx/laravel/Modules/Notify/lang/it/send_s_m_s.php
+rm -f /var/www/html/ptvx/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
+rm -f /var/www/html/ptvx/laravel/Modules/Notify/lang/it/send_whats_app.php
+rm -f /var/www/html/ptvx/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+=======
+rm -f /var/www/html/healthcare_app/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+rm -f /var/www/html/healthcare_app/laravel/Modules/Notify/lang/it/send_s_m_s.php
+rm -f /var/www/html/healthcare_app/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
+rm -f /var/www/html/healthcare_app/laravel/Modules/Notify/lang/it/send_whats_app.php
+rm -f /var/www/html/healthcare_app/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+rm -f /var/www/html/Quaeris/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> Stashed changes
 rm -f /var/www/html/Quaeris/laravel/Modules/Notify/lang/it/send_s_m_s.php
 rm -f /var/www/html/Quaeris/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/Quaeris/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/Quaeris/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 rm -f /var/www/html/_bases/base_techplanner_fila5_mono/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette

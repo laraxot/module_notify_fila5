@@ -1,6 +1,24 @@
+<<<<<<< Updated upstream
 # Architettura WhatsApp Provider per Quaeris
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di Quaeris, mantenendo coerenza con le architetture esistenti per SMS ed email.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Architettura WhatsApp Provider per Laraxot
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di Laraxot, mantenendo coerenza con le architetture esistenti per SMS ed email.
+=======
+# Architettura WhatsApp Provider per healthcare_app
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di healthcare_app, mantenendo coerenza con le architetture esistenti per SMS ed email.
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+# Architettura WhatsApp Provider per Quaeris
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di Quaeris, mantenendo coerenza con le architetture esistenti per SMS ed email.
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 
 ## Principi Architetturali Fondamentali
 
@@ -14,7 +32,19 @@ L'architettura dei provider WhatsApp segue gli stessi principi dei provider SMS 
 ## Struttura Directory e Namespace
 
 ```
+<<<<<<< Updated upstream
 /var/www/html/Quaeris/laravel/Modules/Notify/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/ptvx/laravel/Modules/Notify/
+=======
+/var/www/html/healthcare_app/laravel/Modules/Notify/
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+/var/www/html/Quaeris/laravel/Modules/Notify/
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 ├── app/
 │   ├── Actions/
 │   │   └── WhatsApp/

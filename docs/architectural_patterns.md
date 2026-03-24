@@ -1,6 +1,18 @@
 # Pattern Architetturali per le Notifiche
 
+<<<<<<< Updated upstream
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di Quaeris, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di Laraxot, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+=======
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di healthcare_app, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di Quaeris, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 
 ## Confronto tra Pattern Architetturali
 

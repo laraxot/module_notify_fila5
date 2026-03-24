@@ -2,7 +2,19 @@
 
 ## Regola Fondamentale
 
+<<<<<<< Updated upstream
 Nel sistema Quaeris, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Nel sistema Laraxot, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+=======
+Nel sistema healthcare_app, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Nel sistema Quaeris, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 
 1. **Suffisso `Contract` e non `Interface`**:
    - ✅ CORRETTO: `SmsProviderContract`

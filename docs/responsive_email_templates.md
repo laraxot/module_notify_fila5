@@ -2,7 +2,19 @@
 
 ## Introduzione
 
+<<<<<<< Updated upstream
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di Quaeris, con focus su compatibilità, engagement e best practices di settore.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di Laraxot, con focus su compatibilità, engagement e best practices di settore. 
+=======
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di healthcare_app, con focus su compatibilità, engagement e best practices di settore. 
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di Quaeris, con focus su compatibilità, engagement e best practices di settore.
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 
 ## Principi Fondamentali
 
@@ -74,7 +86,19 @@ Migliore esperienza su client moderni:
 </div>
 ```
 
+<<<<<<< Updated upstream
 Per Quaeris, si raccomanda un **approccio ibrido**:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Per Laraxot, si raccomanda un **approccio ibrido**:
+=======
+Per healthcare_app, si raccomanda un **approccio ibrido**:
+>>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+=======
+Per Quaeris, si raccomanda un **approccio ibrido**:
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 
