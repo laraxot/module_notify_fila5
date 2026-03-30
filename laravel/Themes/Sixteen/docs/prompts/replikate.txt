@@ -1,0 +1,38 @@
+studia a fondo 
+https://github.com/italia/design-comuni-pagine-statiche
+https://italia.github.io/design-comuni-pagine-statiche/
+e poi replichiamo le pagine 
+per esempio
+https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html
+dovra' vedersi in 
+http://fixcity.local/it/tests/argomenti
+
+la pagina 
+https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-06-conferma.html
+dovra' vedersi in 
+http://fixcity.local/it/tests/appuntamento-06-conferma
+
+dobbiamo replicare tutte le pagine statiche del progetto design-comuni-pagine-statiche
+e vederle perfettamente , 
+
+
+
+e aggiorna le cartelle docs dentro i moduli e dentro i temi e le tue rules, le tue memories e le tue skills, aggiorna tutto utilizzando gli indici, controllando la rindondanza e files doppi e tutto con ottica dry + kiss
+
+l'obiettivo di questo task e' anche creare componenti riutilizzabili e riconoscere i blocchi e documentarli 
+
+creare Themes/Sixteen/resources/views/pages/tests/argomenti.blade.php  e' sbagliato ! dovevi creare Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
+
+ <script src="{{ asset('design-comuni/assets/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js') }}"></script>  sbagliato ! perche' noi rifacciamo quella grafica utilizzando tailwind e vite , molto lavoro e' gia' stato fatto ! vai a
+  studiare anche la cartella Main_files del tema 
+
+creati un piano di lavoro, poi crea le github issue e le github discussions, per vedere in quale repo fa git remote -v 
+
+fare <x-sixteen::blocks.navigation.header-main> e' sbagliato non c'e' un namespace per il tema in utilizzo , registriamo come namespace pub_theme , percio' doveva essere
+<x-pub_theme::blocks.navigation.header-main> , e ti ricordo che l'header e il footer son "sezioni" percio' li richiamiamo con <x-section slug="header" />  e <x-section slug="footer" />
+
+ti ricordo che non utilizziamo bootstrap, ma utilizziamo tailwind
+
+e' sbaliato salvare HTML in "All 38 HTML files are in `resources/design-comuni/dist/sito/`" utilizza una sottocartella adeguata di laravel/Themes/Sixteen/Main_files 
+
+utilizza openviking installato globalmente, bmad, gsd , ralph loop e notebooklm
