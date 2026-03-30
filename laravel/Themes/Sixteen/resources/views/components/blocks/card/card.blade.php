@@ -46,7 +46,11 @@
         {{-- Icon (if provided and no image) --}}
         @if($icon && !$image)
         <div class="card-icon mb-4">
-            <x-icon :name="$icon" class="icon-lg icon-primary w-12 h-12" />
+            <x-filament::icon 
+                :icon="$icon" 
+                class="icon-lg icon-primary w-12 h-12" 
+                aria-hidden="true" 
+            />
         </div>
         @endif
         
@@ -81,7 +85,11 @@
         @if($url)
         <a href="{{ $url }}" class="card-link inline-flex items-center text-primary font-semibold hover:text-primary-dark transition-colors duration-200">
             <span class="text">{{ $url_text }}</span>
-            <x-icon name="arrow-right" class="icon-sm ml-1" />
+            <x-filament::icon 
+                icon="heroicon-o-arrow-right" 
+                class="icon-sm ml-1" 
+                aria-hidden="true" 
+            />
         </a>
         @endif
     </div>
