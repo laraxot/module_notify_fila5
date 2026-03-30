@@ -1,13 +1,93 @@
 {
     "id": "tests.pagamenti-imu-preferenze",
     "title": {
-        "it": "Pagamenti Imu Preferenze",
-        "en": "Pagamenti Imu Preferenze"
+        "it": "Pagamenti IMU Preferenze",
+        "en": "Pagamenti IMU Preferenze"
     },
     "slug": "tests.pagamenti-imu-preferenze",
     "content": null,
     "content_blocks": {
-        "it": [],
+        "it": [
+            {
+                "type": "navigation",
+                "data": {
+                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Test",
+                            "url": "/it/tests"
+                        }
+                    ],
+                    "currentPage": "Pagamenti IMU Preferenze",
+                    "background": "white"
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.hero",
+                    "subtitle": "Servizi",
+                    "title": "Pagamenti IMU Preferenze",
+                    "description": "Pagina del catalogo servizi convertita dal riferimento statico design-comuni.",
+                    "background": "white",
+                    "alignment": "left"
+                }
+            },
+            {
+                "type": "details",
+                "data": {
+                    "view": "pub_theme::components.blocks.details.details",
+                    "title": "Metadati pagina",
+                    "items": [
+                        {
+                            "label": "Slug CMS",
+                            "value": "tests.pagamenti-imu-preferenze"
+                        },
+                        {
+                            "label": "Sorgente",
+                            "value": "https://italia.github.io/design-comuni-pagine-statiche/servizi/pagamenti-imu-preferenze.html"
+                        },
+                        {
+                            "label": "Sezione",
+                            "value": "servizi"
+                        },
+                        {
+                            "label": "Stato",
+                            "value": "Generata per completare pagine vuote o invalide"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "list",
+                "data": {
+                    "view": "pub_theme::components.blocks.list.list",
+                    "title": "Link utili di navigazione",
+                    "style": "icon",
+                    "items": [
+                        {
+                            "text": "Homepage",
+                            "url": "/it/tests/homepage",
+                            "icon": "heroicon-o-home"
+                        },
+                        {
+                            "text": "Indice test",
+                            "url": "/it/tests",
+                            "icon": "heroicon-o-squares-2x2"
+                        },
+                        {
+                            "text": "Servizi",
+                            "url": "/it/tests/servizi",
+                            "icon": "heroicon-o-wrench-screwdriver"
+                        }
+                    ]
+                }
+            }
+        ],
         "en": []
     },
     "sidebar_blocks": {

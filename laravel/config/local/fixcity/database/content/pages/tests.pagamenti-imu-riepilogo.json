@@ -1,13 +1,93 @@
 {
     "id": "tests.pagamenti-imu-riepilogo",
     "title": {
-        "it": "Pagamenti Imu Riepilogo",
-        "en": "Pagamenti Imu Riepilogo"
+        "it": "Pagamenti IMU Riepilogo",
+        "en": "Pagamenti IMU Riepilogo"
     },
     "slug": "tests.pagamenti-imu-riepilogo",
     "content": null,
     "content_blocks": {
-        "it": [],
+        "it": [
+            {
+                "type": "navigation",
+                "data": {
+                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Test",
+                            "url": "/it/tests"
+                        }
+                    ],
+                    "currentPage": "Pagamenti IMU Riepilogo",
+                    "background": "white"
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.hero",
+                    "subtitle": "Servizi",
+                    "title": "Pagamenti IMU Riepilogo",
+                    "description": "Pagina di riepilogo del flusso digitale convertita in contenuto CMS strutturato.",
+                    "background": "white",
+                    "alignment": "left"
+                }
+            },
+            {
+                "type": "details",
+                "data": {
+                    "view": "pub_theme::components.blocks.details.details",
+                    "title": "Metadati pagina",
+                    "items": [
+                        {
+                            "label": "Slug CMS",
+                            "value": "tests.pagamenti-imu-riepilogo"
+                        },
+                        {
+                            "label": "Sorgente",
+                            "value": "https://italia.github.io/design-comuni-pagine-statiche/servizi/pagamenti-imu-riepilogo.html"
+                        },
+                        {
+                            "label": "Sezione",
+                            "value": "servizi"
+                        },
+                        {
+                            "label": "Stato",
+                            "value": "Generata per completare pagine vuote o invalide"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "list",
+                "data": {
+                    "view": "pub_theme::components.blocks.list.list",
+                    "title": "Link utili di navigazione",
+                    "style": "icon",
+                    "items": [
+                        {
+                            "text": "Homepage",
+                            "url": "/it/tests/homepage",
+                            "icon": "heroicon-o-home"
+                        },
+                        {
+                            "text": "Indice test",
+                            "url": "/it/tests",
+                            "icon": "heroicon-o-squares-2x2"
+                        },
+                        {
+                            "text": "Servizi",
+                            "url": "/it/tests/servizi",
+                            "icon": "heroicon-o-wrench-screwdriver"
+                        }
+                    ]
+                }
+            }
+        ],
         "en": []
     },
     "sidebar_blocks": {

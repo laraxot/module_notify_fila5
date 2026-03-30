@@ -1,147 +1,90 @@
 {
-    "id": "tests-mappa-sito",
+    "id": "tests.mappa-sito",
     "title": {
-        "it": "Mappa del sito",
-        "en": "Site map"
+        "it": "Mappa Sito",
+        "en": "Mappa Sito"
     },
     "slug": "tests.mappa-sito",
     "content": null,
     "content_blocks": {
         "it": [
             {
-<<<<<<< HEAD
-                "type": "breadcrumb",
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                "type": "page_block",
-=======
-                "type": "tests",
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
+                "type": "navigation",
                 "data": {
-<<<<<<< HEAD
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
                     "items": [
-                        {"label": "Home", "url": "/"},
-                        {"label": "Mappa del sito", "url": null}
-                    ]
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Test",
+                            "url": "/it/tests"
+                        }
+                    ],
+                    "currentPage": "Mappa Sito",
+                    "background": "white"
                 }
             },
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-=======
-                    "view": "pub_theme::components.blocks.tests.intro",
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "title": "Mappa del sito",
-<<<<<<< HEAD
-                    "subtitle": "Navigazione rapida",
-                    "content": "<p>Tutte le pagine del sito in un'unica vista</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
+                    "view": "pub_theme::components.blocks.hero.hero",
+                    "subtitle": "Sito istituzionale",
+                    "title": "Mappa Sito",
+                    "description": "Pagina istituzionale convertita dal riferimento statico design-comuni.",
+                    "background": "white",
+                    "alignment": "left"
                 }
             },
             {
-                "type": "feature_sections",
+                "type": "details",
                 "data": {
-                    "view": "pub_theme::components.blocks.feature_sections.default",
-                    "title": "Sezioni principali",
-                    "sections": [
+                    "view": "pub_theme::components.blocks.details.details",
+                    "title": "Metadati pagina",
+                    "items": [
                         {
-                            "title": "Generali",
-                            "description": "Homepage, argomenti, FAQ",
-                            "icon": "it-home"
+                            "label": "Slug CMS",
+                            "value": "tests.mappa-sito"
                         },
                         {
-                            "title": "Amministrazione",
-                            "description": "Giunta, consiglio, documenti",
-                            "icon": "it-pa"
+                            "label": "Sorgente",
+                            "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/mappa-sito.html"
                         },
                         {
-                            "title": "Servizi",
-                            "description": "Servizi digitali",
-                            "icon": "it-services"
+                            "label": "Sezione",
+                            "value": "sito"
                         },
                         {
-                            "title": "Novità",
-                            "description": "Comunicati e avvisi",
-                            "icon": "it-info-circle"
-                        },
-                        {
-                            "title": "Eventi",
-                            "description": "Eventi e manifestazioni",
-                            "icon": "it-calendar"
-                        },
-                        {
-                            "title": "Assistenza",
-                            "description": "Contatti e supporto",
-                            "icon": "it-help"
+                            "label": "Stato",
+                            "value": "Generata per completare pagine vuote o invalide"
                         }
                     ]
                 }
             },
             {
-                "type": "links",
+                "type": "list",
                 "data": {
-                    "view": "pub_theme::components.blocks.links.grid",
-                    "title": "Tutte le pagine",
-                    "links": [
-                        {"label": "Homepage", "url": "/it/tests/homepage"},
-                        {"label": "Argomenti", "url": "/it/tests/argomenti"},
-                        {"label": "Servizi", "url": "/it/tests/servizi"},
-                        {"label": "Novità", "url": "/it/tests/novita"},
-                        {"label": "Amministrazione", "url": "/it/tests/amministrazione"},
-                        {"label": "Documenti e dati", "url": "/it/tests/documenti-dati"},
-                        {"label": "Eventi", "url": "/it/tests/eventi"},
-                        {"label": "Domande frequenti", "url": "/it/tests/domande-frequenti"},
-                        {"label": "Risultati di ricerca", "url": "/it/tests/risultati-ricerca"},
-                        {"label": "Prenotazione appuntamento", "url": "/it/tests/appuntamento-01-ufficio"},
-                        {"label": "Richiesta assistenza", "url": "/it/tests/assistenza-01-dati"},
-                        {"label": "Segnalazioni", "url": "/it/tests/segnalazioni-elenco"}
+                    "view": "pub_theme::components.blocks.list.list",
+                    "title": "Link utili di navigazione",
+                    "style": "icon",
+                    "items": [
+                        {
+                            "text": "Homepage",
+                            "url": "/it/tests/homepage",
+                            "icon": "heroicon-o-home"
+                        },
+                        {
+                            "text": "Indice test",
+                            "url": "/it/tests",
+                            "icon": "heroicon-o-squares-2x2"
+                        },
+                        {
+                            "text": "Servizi",
+                            "url": "/it/tests/servizi",
+                            "icon": "heroicon-o-wrench-screwdriver"
+                        }
                     ]
-                }
-            },
-            {
-                "type": "cta",
-                "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Hai bisogno di aiuto?",
-                    "description": "Se non riesci a trovare quello che cerchi, contatta l'URP",
-                    "button_text": "Contattaci",
-                    "button_url": "/it/tests/assistenza",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "category": "Generali",
-                    "summary": "Il template della pagina mappa del sito.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/mappa-sito.html",
-                    "slug": "tests.mappa-sito"
-=======
-                    "category": "Generali",
-                    "summary": "Il template della pagina mappa del sito.",
-                    "slug": "tests.mappa-sito"
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "La mappa verra scomposta in sezioni navigabili e gruppi gerarchici gestibili da builder."
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/mappa-sito.html"
                 }
             }
         ],
