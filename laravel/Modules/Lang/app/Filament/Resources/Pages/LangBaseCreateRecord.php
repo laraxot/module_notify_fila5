@@ -16,7 +16,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
  */
 abstract class LangBaseCreateRecord extends XotBaseCreateRecord
 {
-    use Translatable;
+    
 
     protected function getHeaderActions(): array
     {

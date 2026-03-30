@@ -21,13 +21,12 @@
         }
     ],
     "require": {
+        "lara-zeus/spatie-translatable": "*",
         "mcamara/laravel-localization": "*",
-        "rinvex/countries": "^9.1",
+        "rinvex/countries": "*",
         "spatie/laravel-sluggable": "*"
     },
-    "require-comment": {
-        
-    },
+    "require-comment": {},
     "repositories": [
         {
             "type": "path",
@@ -41,7 +40,6 @@
             "type": "path",
             "url": "../UI"
         }
-        
     ],
     "repositories-comment": [
         {
@@ -90,6 +88,6 @@
             "aliases": {}
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "prefer-stable": true
 }

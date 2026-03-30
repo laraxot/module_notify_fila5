@@ -8,6 +8,7 @@
 ### Architettura
 | File | Scopo |
 |------|-------|
+| [theme-isolation-philosophy.md](./theme-isolation-philosophy.md) | **Filosofia isolamento tema vs moduli, merge-plugin, ciclo build** |
 | ARCHITECTURE_UX_IMPROVEMENTS.md | Architecture & UX |
 | HOMEPAGE_ARCHITECTURE.md | Homepage architecture |
 | HEADERNAV_CMS_ARCHITECTURE.md | Header/Nav CMS |
