@@ -70,17 +70,23 @@ npm run build
 ### In Blade Templates
 
 ```blade
-{{-- CORRECT: Use auto-registered icon --}}
+{{-- CORRECT: Use Filament icon component --}}
 <a href="#" aria-label="Facebook">
-    <svg class="w-6 h-6">
-        <use href="#it-facebook"></use>
-    </svg>
+    <x-filament::icon 
+        icon="heroicon-o-facebook" 
+        class="w-6 h-6"
+        aria-hidden="true" 
+    />
 </a>
 
-{{-- CORRECT: Use icon component --}}
-<x-ui.icon name="facebook" class="w-6 h-6" />
+{{-- CORRECT: With dynamic icon --}}
+<x-filament::icon 
+    :icon="$stat['icon']" 
+    class="icon-lg icon-primary w-10 h-10" 
+    aria-hidden="true" 
+/>
 
-{{-- CORRECT: Use Bootstrap Italia icon --}}
+{{-- CORRECT: Bootstrap Italia icon with SVG sprite --}}
 <svg class="icon icon-sm">
     <use href="#it-facebook"></use>
 </svg>
@@ -114,10 +120,13 @@ npm run build
 ## ❌ Wrong Usage (DON'T DO THIS)
 
 ```blade
+{{-- WRONG: Using <x-icon> (not Filament standard) --}}
+<x-icon name="facebook" class="w-6 h-6" />
+
 {{-- WRONG: Creating SVG inline --}}
 <a href="#">
     <svg viewBox="0 0 24 24">
-        <path d="M..." /> {{-- DON'T inline paths --}}
+        <path d="..." /> {{-- DON'T inline paths --}}
     </svg>
 </a>
 
@@ -125,7 +134,7 @@ npm run build
 touch resources/svg/brands/custom.svg {{-- DON'T create manually --}}
 
 {{-- WRONG: Hardcoded paths --}}
-<img src="/assets/svg/facebook.svg" /> {{-- Use sprite instead --}}
+<img src="/assets/svg/facebook.svg" /> {{-- Use sprite or Filament icon --}}
 ```
 
 ---

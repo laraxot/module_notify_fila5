@@ -215,6 +215,67 @@ components/blocks/
 
 ---
 
+## 🎨 Icon Convention
+
+**Use `<x-filament::icon>` for all icon rendering in Filament projects**
+
+### Syntax
+
+```blade
+<x-filament::icon icon="heroicon-o-check-circle" class="w-8 h-8 text-green-600" />
+```
+
+### Icon Sets
+
+**Heroicons (default in Filament)**:
+```blade
+{{-- Outline icons --}}
+<x-filament::icon icon="heroicon-o-check-circle" />
+<x-filament::icon icon="heroicon-o-information-circle" />
+<x-filament::icon icon="heroicon-o-exclamation-triangle" />
+<x-filament::icon icon="heroicon-o-x-circle" />
+
+{{-- Solid icons --}}
+<x-filament::icon icon="heroicon-s-check-circle" />
+<x-filament::icon icon="heroicon-s-information-circle" />
+```
+
+### Examples
+
+```blade
+{{-- Success Icon --}}
+<x-filament::icon 
+    icon="heroicon-o-check-circle" 
+    class="w-8 h-8 text-green-600" 
+    aria-hidden="true" 
+/>
+
+{{-- Info Icon --}}
+<x-filament::icon 
+    icon="heroicon-o-information-circle" 
+    class="w-8 h-8 text-blue-600" 
+/>
+
+{{-- Warning Icon --}}
+<x-filament::icon 
+    icon="heroicon-o-exclamation-triangle" 
+    class="w-8 h-8 text-yellow-600" 
+/>
+
+{{-- Error Icon --}}
+<x-filament::icon 
+    icon="heroicon-o-x-circle" 
+    class="w-8 h-8 text-red-600" 
+/>
+```
+
+### References
+
+- [Filament Icons Documentation](https://filamentphp.com/docs/3.x/forms/fields/icon-picker)
+- [Heroicons](https://heroicons.com/)
+
+---
+
 ## 🎨 Block Types Recommendations
 
 ### Per Appuntamento/Conferma

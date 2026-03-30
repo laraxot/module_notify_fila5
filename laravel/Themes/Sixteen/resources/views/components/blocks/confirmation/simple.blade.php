@@ -15,10 +15,15 @@
 |   - message: string - Messaggio di conferma
 |   - icon: string - Tipo icona (check, info, warning, error)
 |
+| Icon Convention:
+|   Use <x-filament::icon> for Filament icon rendering
+|   Format: <x-filament::icon icon="heroicon-o-check-circle" class="..." />
+|
 | References:
 |   - Flowbite: Alert components
 |   - DaisyUI: Alert
 |   - Bootstrap Italia: Alert
+|   - Filament Icons: https://filamentphp.com/docs/3.x/forms/fields/icon-picker
 |
 --}}
 
@@ -40,33 +45,23 @@
         
         {{-- Check Icon --}}
         @if($icon === 'check')
-            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-            </svg>
+            <x-filament::icon icon="heroicon-o-check-circle" class="w-8 h-8 text-green-600" />
         
         {{-- Info Icon --}}
         @elseif($icon === 'info')
-            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg>
+            <x-filament::icon icon="heroicon-o-information-circle" class="w-8 h-8 text-blue-600" />
         
         {{-- Warning Icon --}}
         @elseif($icon === 'warning')
-            <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
-            </svg>
+            <x-filament::icon icon="heroicon-o-exclamation-triangle" class="w-8 h-8 text-yellow-600" />
         
         {{-- Error Icon --}}
         @elseif($icon === 'error')
-            <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-            </svg>
+            <x-filament::icon icon="heroicon-o-x-circle" class="w-8 h-8 text-red-600" />
         
         {{-- Default Icon --}}
         @else
-            <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-            </svg>
+            <x-filament::icon icon="heroicon-o-check-circle" class="w-8 h-8 text-gray-600" />
         @endif
     </div>
     
