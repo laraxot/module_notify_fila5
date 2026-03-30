@@ -116,6 +116,7 @@ Questo indice organizza tutta la documentazione del tema Sixteen per facilitare 
 - **[route-patterns-correction.md](route-patterns-correction.md)** - Correzione pattern routing
 - **[route-correction-summary.md](route-correction-summary.md)** - Riassunto correzioni routing
 - **[route-structure-rules.md](route-structure-rules.md)** - Regole struttura routing
+- **[design-comuni/tests-folio-volt-pattern.md](design-comuni/tests-folio-volt-pattern.md)** - Contratto Folio + Volt per `/tests` e `/tests/{slug}`
 
 ## 🌍 Traduzioni e Localizzazione
 
