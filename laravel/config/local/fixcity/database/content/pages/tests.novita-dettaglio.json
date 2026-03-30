@@ -1,0 +1,33 @@
+{
+    "id": "tests.novita-dettaglio",
+    "title": {
+        "it": "Notizia, Comunicato, Avviso",
+        "en": "Notizia, Comunicato, Avviso"
+    },
+    "slug": "tests.novita-dettaglio",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Notizia, Comunicato, Avviso",
+                    "category": "Novità",
+                    "summary": "La pagina di dettaglio per notizia, comunicato stampa e avviso.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/novita-dettaglio.html",
+                    "slug": "tests.novita-dettaglio"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

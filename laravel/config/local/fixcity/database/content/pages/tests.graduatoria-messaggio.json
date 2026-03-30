@@ -1,0 +1,21 @@
+{
+    "id": "tests.graduatoria-messaggio",
+    "title": {
+        "it": "Graduatoria Messaggio",
+        "en": "Graduatoria Messaggio"
+    },
+    "slug": "tests.graduatoria-messaggio",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": "tests.assistenza-02-conferma",
+    "title": {
+        "it": "Step 2 - Conferma invio richiesta",
+        "en": "Step 2 - Request submission confirmation"
+    },
+    "slug": "tests.assistenza-02-conferma",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 2 - Conferma invio richiesta",
+                    "category": "Richiesta Assistenza",
+                    "summary": "La schermata con la conferma di avvenuta submission della richiesta di assistenza.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/assistenza-02-conferma.html",
+                    "slug": "tests.assistenza-02-conferma"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

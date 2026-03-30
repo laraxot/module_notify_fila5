@@ -1,0 +1,33 @@
+{
+    "id": "tests.lista-risorse-categorie",
+    "title": {
+        "it": "Lista risorse e categorie",
+        "en": "Lista risorse e categorie"
+    },
+    "slug": "tests.lista-risorse-categorie",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Lista risorse e categorie",
+                    "category": "Generali",
+                    "summary": "Il template per una pagina lista di secondo o terzo livello con risorse e categorie.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/lista-risorse-categorie.html",
+                    "slug": "tests.lista-risorse-categorie"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": "tests.assistenza-01-dati",
+    "title": {
+        "it": "Step 1 - Inserimento dei dati",
+        "en": "Step 1 - Data entry"
+    },
+    "slug": "tests.assistenza-01-dati",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 1 - Inserimento dei dati",
+                    "category": "Richiesta Assistenza",
+                    "summary": "La schermata per inserire i dati anagrafici del richiedente e i dettagli della richiesta.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/assistenza-01-dati.html",
+                    "slug": "tests.assistenza-01-dati"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

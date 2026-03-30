@@ -1,0 +1,21 @@
+{
+    "id": "tests.graduatoria-scheda-servizio",
+    "title": {
+        "it": "Graduatoria Scheda Servizio",
+        "en": "Graduatoria Scheda Servizio"
+    },
+    "slug": "tests.graduatoria-scheda-servizio",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

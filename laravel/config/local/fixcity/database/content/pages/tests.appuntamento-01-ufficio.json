@@ -1,0 +1,33 @@
+{
+    "id": "tests.appuntamento-01-ufficio",
+    "title": {
+        "it": "Step 1 - Selezione ufficio (1 di 2)",
+        "en": "Step 1 - Office selection (1 of 2)"
+    },
+    "slug": "tests.appuntamento-01-ufficio",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 1 - Selezione ufficio (1 di 2)",
+                    "category": "Prenotazione Appuntamento",
+                    "summary": "La schermata di selezione dell'ufficio.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-01-ufficio.html",
+                    "slug": "tests.appuntamento-01-ufficio"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

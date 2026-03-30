@@ -1,0 +1,33 @@
+{
+    "id": "tests.segnalazione-04-conferma",
+    "title": {
+        "it": "Step 4 - Conferma invio segnalazione",
+        "en": "Step 4 - Report submission confirmation"
+    },
+    "slug": "tests.segnalazione-04-conferma",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 4 - Conferma invio segnalazione",
+                    "category": "Segnalazione Disservizio",
+                    "summary": "La schermata di conferma dell'avvenuta submission della segnalazione.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-04-conferma.html",
+                    "slug": "tests.segnalazione-04-conferma"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

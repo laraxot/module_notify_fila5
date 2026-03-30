@@ -1,0 +1,21 @@
+{
+    "id": "tests.pagamenti-imu-area-personale",
+    "title": {
+        "it": "Pagamenti Imu Area Personale",
+        "en": "Pagamenti Imu Area Personale"
+    },
+    "slug": "tests.pagamenti-imu-area-personale",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

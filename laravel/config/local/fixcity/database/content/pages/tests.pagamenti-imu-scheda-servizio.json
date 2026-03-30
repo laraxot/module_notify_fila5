@@ -1,0 +1,21 @@
+{
+    "id": "tests.pagamenti-imu-scheda-servizio",
+    "title": {
+        "it": "Pagamenti Imu Scheda Servizio",
+        "en": "Pagamenti Imu Scheda Servizio"
+    },
+    "slug": "tests.pagamenti-imu-scheda-servizio",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "tests.accesso-servizio",
+    "title": {
+        "it": "Accesso Servizio",
+        "en": "Accesso Servizio"
+    },
+    "slug": "tests.accesso-servizio",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

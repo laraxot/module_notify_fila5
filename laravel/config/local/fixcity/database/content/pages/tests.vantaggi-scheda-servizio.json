@@ -1,0 +1,21 @@
+{
+    "id": "tests.vantaggi-scheda-servizio",
+    "title": {
+        "it": "Vantaggi Scheda Servizio",
+        "en": "Vantaggi Scheda Servizio"
+    },
+    "slug": "tests.vantaggi-scheda-servizio",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}
