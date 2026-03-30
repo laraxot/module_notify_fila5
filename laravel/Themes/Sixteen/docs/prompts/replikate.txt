@@ -94,6 +94,49 @@ new class extends Component {
 
 
 //-----------
+per uniformita' del progetto 
+laravel/Themes/Sixteen/resources/views/pages/tests/index.blade.php
+doveva tramite folio + volt fare
+<?php
+
+declare(strict_types=1);
+
+use function Laravel\Folio\middleware;
+use function Laravel\Folio\name;
+use Livewire\Volt\Component;
+use Modules\Cms\Http\Middleware\PageSlugMiddleware;
+
+name('tests.view');
+middleware(PageSlugMiddleware::class);
+
+new class extends Component {
+    public string $pageSlug = '';
+
+    /** @var array<string, mixed> */
+    public array $data = [];
+
+    public function mount(): void
+    {
+        $this->pageSlug = 'tests.index';
+        $this->data = [
+            
+        ];
+    }
+};
+?>
+<x-layouts.app >
+ @volt('tests.index')
+    <div>
+        <x-page side="content" :slug="$pageSlug" :data="$data" />
+    </div>
+    @endvolt
+</x-layouts.app >
+
+
+devi capire il perche' la logica, la visione, la religione, la politica, la filosofia, lo zen e documentare tutto dentro le cartelle docs dentro i moduli e dentro i temi, aggiornare studiare e migliorare anche le tue rules, le tue memories, e le tue skills, aggiorna tutto utilizzando indici un controllo avanzato per la rindondanza e per i files doppi e dry + kiss
+utilizza openviking installato globalmente, bmad, gsd , ralph loop e notebooklm, ricorda che ogni task viene dato a piu' agenti ai, percio' comportati di conseguenza e cerca di unire le forze con gli altri agenti ai
+
+//----------
 fare  @includeIf('pub_theme::design-comuni.pages.'.$slug) e' sbagliato noi con <x-page side="content" :slug="$pageSlug" :data="$data" />  andiamo a leggere e mostrare i blocchi salavti dentro files .json 
 percio' la pagina /it/tests/appuntamento-06-conferma  deve andare a leggere laravel/config/local/fixcity/database/content/pages/tests.appuntamento-06-conferma.json  e questo json deve avere il nodo  "slug": "tests.appuntamento-06-conferma"
 
