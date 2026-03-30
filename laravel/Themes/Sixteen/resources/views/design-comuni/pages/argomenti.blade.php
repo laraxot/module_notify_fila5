@@ -137,7 +137,7 @@ new class extends Component {
     </main>
     
     {{-- Footer --}}
-    <x-footer-comune />
+    <x-section slug="footer" tpl="default" />
     
     @endvolt
 </x-layouts.bootstrap-italia>
