@@ -39,9 +39,7 @@
                     {{-- Step Icon (if provided) --}}
                     @if(isset($step['icon']))
                     <div class="step-icon mb-3">
-                        <svg class="icon icon-lg icon-primary" aria-hidden="true">
-                            <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $step['icon']) }}"></use>
-                        </svg>
+                        <x-icon :name="$step['icon']" class="icon-lg icon-primary" />
                     </div>
                     @endif
                     
@@ -88,9 +86,7 @@
                     {{-- Step Icon (if provided) --}}
                     @if(isset($step['icon']))
                     <div class="step-icon mb-2">
-                        <svg class="icon icon-md icon-primary" aria-hidden="true">
-                            <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $step['icon']) }}"></use>
-                        </svg>
+                        <x-icon :name="$step['icon']" class="icon-md icon-primary" />
                     </div>
                     @endif
                     
