@@ -104,10 +104,11 @@
                 }
             },
             {
-                "type": "tests",
+                "type": "source_link",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html"
+                    "title": "Riferimento",
+                    "url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html",
+                    "text": "Design Comuni Pagine Statiche"
                 }
             }
         ],
