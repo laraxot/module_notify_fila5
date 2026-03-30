@@ -1,7 +1,5 @@
 <?php
 
-use Modules\Tenant\Services\TenantService;
-
 return [
 
     'default' => env('ORBIT_DEFAULT_DRIVER', 'md'),
@@ -14,8 +12,7 @@ return [
 
     'paths' => [
         'content' => base_path('database/content'),
-        //'cache' => storage_path('framework/cache/orbit'),
-        'cache' => TenantService::filePath(''),
+        'cache' => storage_path('framework/cache/orbit'),
     ],
 
 ];
