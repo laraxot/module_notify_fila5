@@ -45,9 +45,7 @@
         @foreach($items as $item)
         <li class="list-item {{ $style === 'bordered' ? 'py-2 border-b border-gray-200' : '' }}">
             @if($style === 'icon' && isset($item['icon']))
-            <svg class="icon icon-sm icon-primary inline mr-2" aria-hidden="true">
-                <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $item['icon']) }}"></use>
-            </svg>
+            <x-icon :name="$item['icon']" class="icon-sm icon-primary inline mr-2" />
             @elseif($style === 'plain')
             <span class="list-marker text-primary mr-2">•</span>
             @endif

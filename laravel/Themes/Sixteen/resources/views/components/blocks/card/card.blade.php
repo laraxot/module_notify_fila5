@@ -46,9 +46,7 @@
         {{-- Icon (if provided and no image) --}}
         @if($icon && !$image)
         <div class="card-icon mb-4">
-            <svg class="icon icon-lg icon-primary w-12 h-12" aria-hidden="true">
-                <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $icon) }}"></use>
-            </svg>
+            <x-icon :name="$icon" class="icon-lg icon-primary w-12 h-12" />
         </div>
         @endif
         
@@ -83,9 +81,7 @@
         @if($url)
         <a href="{{ $url }}" class="card-link inline-flex items-center text-primary font-semibold hover:text-primary-dark transition-colors duration-200">
             <span class="text">{{ $url_text }}</span>
-            <svg class="icon icon-sm ml-1" aria-hidden="true">
-                <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#icon-arrow-right') }}"></use>
-            </svg>
+            <x-icon name="arrow-right" class="icon-sm ml-1" />
         </a>
         @endif
     </div>
