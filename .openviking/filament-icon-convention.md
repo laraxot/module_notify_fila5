@@ -161,11 +161,11 @@
 ## 🔗 References
 
 ### Documentation
-- `viking://themes/sixteen/docs/filament-icon-guide` - Full icon guide
+- `viking://themes/sixteen/docs/filament-icon-guide` - Full icon guide (Filament 5)
 - `viking://themes/sixteen/docs/blocks-structure-convention` - Blocks convention
 
 ### External
-- [Filament Icons](https://filamentphp.com/docs/3.x/forms/fields/icon-picker)
+- [Filament 5 Icons](https://filamentphp.com/docs/5.x/forms/icon-picker)
 - [Heroicons](https://heroicons.com/)
 
 ---
