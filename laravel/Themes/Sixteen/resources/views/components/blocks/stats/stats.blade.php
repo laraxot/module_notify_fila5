@@ -31,9 +31,7 @@
             {{-- Icon --}}
             @if(isset($stat['icon']))
             <div class="stat-icon mb-4">
-                <svg class="icon icon-lg icon-primary w-10 h-10" aria-hidden="true">
-                    <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $stat['icon']) }}"></use>
-                </svg>
+                <x-icon :name="$stat['icon']" class="icon-lg icon-primary w-10 h-10" />
             </div>
             @endif
             
