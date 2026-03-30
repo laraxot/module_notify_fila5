@@ -1,88 +1,50 @@
 {
-  "id": "tests.appuntamento-06-conferma",
-  "title": {
-    "it": "Appuntamento confermato",
-    "en": "Appointment confirmed"
-  },
-  "slug": "tests.appuntamento-06-conferma",
-  "content": null,
-  "content_blocks": {
-    "it": [
-      {
-        "type": "navigation",
-        "data": {
-          "view": "pub_theme::components.blocks.navigation.breadcrumb",
-          "items": [
+    "id": "tests.appuntamento-06-conferma",
+    "slug": "tests.appuntamento-06-conferma",
+    "title": {
+        "it": "Conferma Appuntamento",
+        "en": "Appointment Confirmation"
+    },
+    "content_blocks": {
+        "it": [
             {
-              "label": "Prenotazioni",
-              "url": "/it/tests/appuntamento-01-ufficio-luogo"
+                "type": "confirmation",
+                "data": {
+                    "view": "pub_theme::components.blocks.confirmation.with-details",
+                    "title": "Appuntamento Confermato",
+                    "message": "Il tuo appuntamento è stato preso in carico.",
+                    "details": {
+                        "Numero prenotazione": "06",
+                        "Data": "15 Aprile 2026",
+                        "Ora": "10:30",
+                        "Ufficio": "Ufficio Anagrafe",
+                        "Indirizzo": "Via Roma 1, FixCity"
+                    }
+                }
+            },
+            {
+                "type": "next_steps",
+                "data": {
+                    "view": "pub_theme::components.blocks.steps.horizontal",
+                    "title": "Prossimi passi",
+                    "steps": [
+                        {"number": 1, "title": "Presentati in ufficio", "description": "Arriva 10 minuti prima"},
+                        {"number": 2, "title": "Porta i documenti", "description": "Documento di identità"},
+                        {"number": 3, "title": "Ritira il certificato", "description": "Tempi: 15 minuti"}
+                    ]
+                }
+            },
+            {
+                "type": "contact",
+                "data": {
+                    "view": "pub_theme::components.blocks.contact.info",
+                    "title": "Contatti",
+                    "phone": "06 1234567",
+                    "email": "anagrafe@fixcity.gov.it",
+                    "hours": "Lun-Ven 9:00-13:00"
+                }
             }
-          ],
-          "currentPage": "Conferma appuntamento",
-          "background": "white"
-        }
-      },
-      {
-        "type": "confirmation",
-        "data": {
-          "view": "pub_theme::components.blocks.confirmation.with-details",
-          "title": "Prenotazione inviata",
-          "message": "La prenotazione e stata registrata correttamente e riceverai un promemoria con i dettagli dell'appuntamento.",
-          "icon": "check",
-          "details": {
-            "Servizio": "Richiesta carta di identita elettronica",
-            "Sede": "Municipio, sportello servizi demografici",
-            "Data": "Mercoledi 17 aprile 2026",
-            "Ora": "10:30",
-            "Codice prenotazione": "FC-AP-2026-0417"
-          }
-        }
-      },
-      {
-        "type": "details",
-        "data": {
-          "view": "pub_theme::components.blocks.details.details",
-          "title": "Prossimi passaggi",
-          "items": [
-            { "label": "1", "value": "Conserva il codice prenotazione." },
-            { "label": "2", "value": "Presentati con i documenti richiesti all'orario indicato." },
-            { "label": "3", "value": "Se necessario, modifica o annulla l'appuntamento dai servizi online." }
-          ]
-        }
-      },
-      {
-        "type": "list",
-        "data": {
-          "view": "pub_theme::components.blocks.list.list",
-          "title": "Aggiungi al calendario",
-          "items": [
-            { "text": "Outlook", "url": "#" },
-            { "text": "Google Calendar", "url": "#" },
-            { "text": "iCloud Calendar", "url": "#" }
-          ]
-        }
-      },
-      {
-        "type": "details",
-        "data": {
-          "view": "pub_theme::components.blocks.details.details",
-          "title": "Riferimento e parita attesa",
-          "items": [
-            { "label": "Sorgente upstream", "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-06-conferma.html" },
-            { "label": "Slug CMS", "value": "tests.appuntamento-06-conferma" },
-            { "label": "Rendering", "value": "JSON content_blocks + blocchi universali" }
-          ]
-        }
-      }
-    ],
-    "en": []
-  },
-  "sidebar_blocks": {
-    "it": [],
-    "en": []
-  },
-  "footer_blocks": {
-    "it": "",
-    "en": ""
-  }
+        ],
+        "en": []
+    }
 }
