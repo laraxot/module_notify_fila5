@@ -48,6 +48,22 @@ $theme = $config['pub_theme'];
 - **DRY Rule**: No duplicates - use cross-references with links
 - **KISS Rule**: Essential only, max 3 levels of nesting
 
+### AI Tools Integration
+- **NotebookLM Skill**: `~/.claude/skills/notebooklm/` - Source-grounded research
+  - Use for: Technical documentation queries, architecture verification
+  - Command: `python scripts/run.py ask_question.py --question "..."`
+  - Always use `run.py` wrapper (handles venv automatically)
+  - Follow-up mechanism: Ask until complete, then synthesize
+- **OpenViking**: Global install (`openviking` command)
+  - Use for: Context preservation, knowledge base
+  - Command: `openviking add-memory --title="..." --content="..."`
+- **BMAD**: `_bmad/` directory
+  - Use for: Requirements (PRD), architecture, epics/stories
+- **GSD**: `.planning/` / `.gsd/` directories
+  - Use for: Phase planning, execution, verification
+- **Ralph Loop**: `.ralph/` directory
+  - Use for: Autonomous implementation iterations
+
 ## CRITICAL: DRY PRINCIPLE - TRAIT METHODS
 - **CRITICAL**: Trait methods (getJsonFile, loadExistingData, saveToJson, etc.) DEVONO essere implementati UNA SOLA VOLTA nel trait, NON in ogni modello
 - I modelli che usano il trait ereditano automaticamente i metodi
