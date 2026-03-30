@@ -7,6 +7,20 @@ Le pagine `tests.*` che replicano Design Comuni non devono essere modellate come
 Il frontoffice FixCity usa `Folio + Volt + x-page`, ma il contenuto viene governato dal CMS attraverso `content_blocks`, `sidebar_blocks` e `footer_blocks`.
 In amministrazione questi blocchi vengono editati con `PageContentBuilder::make('content_blocks')`, quindi la pagina deve essere pensata come sequenza ordinabile di blocchi e non come template monolitico.
 
+## Contratto type/view
+Il `type` del blocco deve essere coerente con il namespace della `data.view`.
+La regola pratica e:
+- prendere il primo segmento dopo `pub_theme::components.blocks.`
+- usare quel segmento come `type`
+
+Esempi corretti:
+- `data.view = pub_theme::components.blocks.tests.intro` -> `type = tests`
+- `data.view = pub_theme::components.blocks.tests.argomenti` -> `type = tests`
+- `data.view = pub_theme::components.blocks.hero.default` -> `type = hero`
+- `data.view = pub_theme::components.blocks.cta.default` -> `type = cta`
+
+Questo serve a mantenere riconoscibilita, riuso e coerenza per editor, sviluppatori e agenti AI che lavorano in parallelo.
+
 ## Implicazioni pratiche
 - uno slug CMS identifica la pagina
 - i JSON tenant contengono piu blocchi ordinati

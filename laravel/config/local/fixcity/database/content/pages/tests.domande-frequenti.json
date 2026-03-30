@@ -9,7 +9,13 @@
     "content_blocks": {
         "it": [
             {
+<<<<<<< HEAD
                 "type": "breadcrumb",
+||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
+                "type": "page_block",
+=======
+                "type": "tests",
+>>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
                 "data": {
 <<<<<<< HEAD
                     "view": "pub_theme::components.blocks.breadcrumb.default",
@@ -144,7 +150,7 @@
                 }
             },
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.body",
                     "body_title": "Scenario di conversione",
@@ -152,13 +158,13 @@
                 }
             },
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.governance-note"
                 }
             },
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.source-link",
                     "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/domande-frequenti.html"

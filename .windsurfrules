@@ -40,29 +40,95 @@ $theme = $config['pub_theme'];
 - **Themes**: `laravel/Themes/`
 - **Config**: `laravel/config/local/fixcity/xra.php`
 
-### Documentation Structure (DRY + KISS)
-- **Project Docs**: `docs/` (root level)
-- **Module Docs**: `laravel/Modules/*/docs/` (module-specific)
-- **Theme Docs**: `laravel/Themes/Sixteen/docs/` (theme-specific)
-- **Script Docs**: `bashscripts/docs/` (script-specific)
-- **DRY Rule**: No duplicates - use cross-references with links
-- **KISS Rule**: Essential only, max 3 levels of nesting
+### Documentation Structure (DRY + KISS + Zen)
 
-### AI Tools Integration
-- **NotebookLM Skill**: `~/.claude/skills/notebooklm/` - Source-grounded research
-  - Use for: Technical documentation queries, architecture verification
-  - Command: `python scripts/run.py ask_question.py --question "..."`
-  - Always use `run.py` wrapper (handles venv automatically)
-  - Follow-up mechanism: Ask until complete, then synthesize
-- **OpenViking**: Global install (`openviking` command)
-  - Use for: Context preservation, knowledge base
-  - Command: `openviking add-memory --title="..." --content="..."`
-- **BMAD**: `_bmad/` directory
-  - Use for: Requirements (PRD), architecture, epics/stories
-- **GSD**: `.planning/` / `.gsd/` directories
-  - Use for: Phase planning, execution, verification
-- **Ralph Loop**: `.ralph/` directory
-  - Use for: Autonomous implementation iterations
+**🧘 Zen of Documentation Philosophy**:
+- **Single Source of Truth (SSOT)**: Ogni concetto documentato UNA volta
+- **No Temporal Strings**: Mai date nei nomi file (usa git per storico)
+- **Bidirectional Indexing**: Ogni documento linkato e linkante
+- **Multi-Agent Friendly**: Progettato per AI agents multipli
+- **Living Documentation**: PHPDoc, tests, type hints > prose
+
+**Directory Structure**:
+```
+docs/                              # Root documentation (SSOT)
+├── MASTER_DOCUMENTATION_INDEX.md  # Root index
+├── ZEN_OF_DOCUMENTATION.md        # Philosophy
+├── architecture/                  # Architecture docs
+├── guides/                        # How-to guides
+└── reports/                       # Status reports
+
+laravel/Modules/*/docs/            # Module-specific (1 index only)
+├── 00-index.md                    # Unified index
+├── architecture/
+├── guides/
+├── reference/
+└── archive/                       # Historical only
+
+laravel/Themes/*/docs/             # Theme-specific (1 index only)
+bashscripts/docs/                  # Script documentation
+```
+
+**DRY Rule**: No duplicates - use cross-references with links
+**KISS Rule**: Essential only, max 3 levels of nesting
+**Quality Gates**: 
+- `./bashscripts/docs/check-duplicates.sh` (run weekly)
+- Duplicate content target: <1%
+- Orphaned files target: <5%
+
+### AI Tools Integration - Multi-Agent Coordination
+
+**🤖 Multi-Agent Collaboration**:
+- **Multiple AI agents** work on this codebase simultaneously - THIS IS A STRENGTH
+- **ALWAYS** check what others are doing before starting
+- **DECLARE** intentions on GitHub issues
+- **COMMUNICATE** progress every 10-15 minutes
+- **COORDINATE** via BMAD threads, GSD phases, OpenViking context
+
+**OpenViking** (Global Context):
+- **Install**: Global (`openviking` command)
+- **Use for**: Context preservation across sessions
+- **Commands**:
+  ```bash
+  openviking add-memory --title="Title" --content="Content"
+  openviking get-context --query="documentation"
+  openviking list-memories
+  ```
+- **Context File**: `.qwen/openviking-context.md`
+
+**BMAD** (Requirements & Architecture):
+- **Directory**: `_bmad/`
+- **Threads**: `_bmad/threads/zen-documentation.md` (main coordination)
+- **PRD**: `_bmad/prd/documentation-system.md`
+- **Architecture**: `_bmad/architecture/`
+- **Agents**: John (PM), Winston (Architect), Sally (UX), Paige (Tech Writer), Amelia (Dev)
+
+**GSD** (Phase Execution):
+- **Directory**: `.planning/phases/`
+- **Current Phases**:
+  - `01-doc-audit/` - Documentation audit
+  - `02-deduplication/` - Duplicate removal
+  - `03-indexing/` - Index unification
+  - `04-multi-block-json/` - Multi-block conversion
+- **Workflow**: `.discuss → .plan → .execute → .verify`
+
+**Ralph Loop** (Autonomous Execution):
+- **Directory**: `.ralph/`
+- **Use for**: Repetitive tasks (deduplication, link validation)
+- **Command**: `ralph-loop run --task="..." --until="..."`
+
+**NotebookLM** (Source-Grounded Research):
+- **Directory**: `~/.claude/skills/notebooklm/`
+- **Use for**: Technical queries, architecture verification
+- **Command**: `python scripts/run.py ask_question.py --question "..."`
+- **Always use**: `run.py` wrapper (handles venv)
+
+**Coordination Protocol**:
+1. Check `_bmad/threads/` for active work
+2. Add memory to OpenViking for important decisions
+3. Create GSD phase for execution tracking
+4. Update GitHub issues with progress
+5. Run quality gates before commit
 
 ## CRITICAL: DRY PRINCIPLE - TRAIT METHODS
 - **CRITICAL**: Trait methods (getJsonFile, loadExistingData, saveToJson, etc.) DEVONO essere implementati UNA SOLA VOLTA nel trait, NON in ogni modello

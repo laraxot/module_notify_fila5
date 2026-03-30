@@ -1,436 +1,441 @@
-# Multi-Agent AI Collaboration Guide
+# 🤖 Multi-Agent Collaboration Guide
 
-**Created**: 2026-03-13  
-**Status**: Active  
-**Purpose**: Leverage multiple AI agents as a strength, not a weakness
-
----
-
-## 🎯 Why Multi-Agent is a SUPERPOWER
-
-When multiple AI agents (Qwen, Claude, Cursor, GitHub Copilot, etc.) work on the same codebase:
-
-### ✅ **Advantages**
-
-1. **Parallel Work**: Multiple tasks completed simultaneously
-2. **Diverse Perspectives**: Different agents bring different insights
-3. **Cross-Verification**: Agents can verify each other's work
-4. **Specialization**: Agents can focus on their strengths
-5. **24/7 Progress**: Work continues even when one agent is offline
-
-### ⚠️ **Challenges** (Without Coordination)
-
-1. **Duplicate Work**: Multiple agents doing same task
-2. **Conflicting Changes**: Different approaches to same problem
-3. **Communication Gaps**: Agents unaware of each other's progress
-4. **Resource Contention**: Git conflicts, workflow conflicts
-
-### 🚀 **Solution**: Structured Coordination
-
-This guide provides the framework for turning multi-agent from a challenge into a superpower.
+**Version**: 1.0  
+**Created**: 2026-03-30  
+**Status**: ✅ Active  
+**Owner**: Multi-Agent Team
 
 ---
 
-## 📋 **Coordination Framework**
+## 🎯 Overview
 
-### 0. YOLO Mode is the Default
+Questo codebase è progettato per **collaborazione multi-agente AI**. Non è un bug, è una feature.
 
-All AI agents working on this repository should assume **YOLO mode / autonomy-first mode** unless a task is explicitly marked interactive.
+### Perché Multi-Agent?
 
-**YOLO mode means**:
+- **Specializzazione**: Ogni agente ha skills specifiche
+- **Parallelismo**: Multipli task in parallelo
+- **Quality**: Cross-validation tra agenti
+- **Scalability**: 10x productivity vs single agent
 
-- execute the next clear step without waiting
-- prefer fixing and verifying over asking
-- use GitHub issues/discussions for traceability, not for permission gating
-- escalate only for destructive operations, missing access, or genuinely ambiguous product decisions
+### Agenti Attivi
 
-**In multi-agent work this is critical**:
+| Agente | Tipo | Specializzazione |
+|--------|------|------------------|
+| **John** | BMAD PM | Requirements, user stories |
+| **Winston** | BMAD Architect | Technical design |
+| **Sally** | BMAD UX | User experience |
+| **Paige** | BMAD Tech Writer | Documentation quality |
+| **Amelia** | BMAD Dev | Implementation |
+| **gsd-codebase-mapper** | GSD | Structure analysis |
+| **gsd-planner** | GSD | Phase planning |
+| **gsd-executor** | GSD | Phase execution |
+| **gsd-verifier** | GSD | Quality validation |
+| **Ralph Loop** | Autonomous | Repetitive tasks |
+| **NotebookLM** | Research | Source-grounded Q&A |
 
-- fewer idle agents
-- less duplicated waiting
-- faster convergence
-- stronger parallel execution
+---
 
-### 1. **Check Before Starting** ⚠️
+## 🏗️ Architecture di Coordinamento
 
-**ALWAYS** check what other agents are doing before starting work:
+### 1. OpenViking (Context Layer)
+
+**Scopo**: Preservare contesto tra sessioni e agenti
 
 ```bash
-# Check recent commits
-git log --oneline -20 --all
+# Agente A aggiunge contesto
+openviking add-memory \
+  --title="Documentation Philosophy" \
+  --content="Zen principles: SSOT, no temporal strings, bidirectional indexing"
 
-# Check open issues
-gh issue list --state open
-
-# Check recent activity
-gh run list --limit 10
+# Agente B recupera contesto
+openviking get-context --query="documentation"
 ```
 
-**Why**: Avoid duplicate work and conflicts.
+**Context File Globale**: `.qwen/openviking-context.md`
 
----
+### 2. BMAD Threads (Coordination Layer)
 
-### 2. **Declare Your Intentions** 📢
+**Scopo**: Coordinamento decisionale tra agenti
 
-**BEFORE** starting work, declare your intentions:
-
-**On GitHub Issue**:
-```markdown
-🤖 **Agent**: [Your Name/Type]
-**Task**: [What you'll work on]
-**ETA**: [Estimated completion]
-**Branch**: [Branch you'll use]
-**Coordination**: [How you'll coordinate with others]
+```
+_bmad/threads/zen-documentation.md
+├── Agent Coordination Log
+├── Architecture Decisions
+├── Metrics & KPIs
+└── Implementation Plan
 ```
 
-**Example**:
-```markdown
-🤖 **Agent**: Qwen-Code
-**Task**: Fix sync_remote_repo.sh unbound variable errors
-**ETA**: 30 minutes
-**Branch**: dev (direct)
-**Coordination**: Will comment progress every 10 minutes
+**PRD**: `_bmad/prd/documentation-system.md`
+
+### 3. GSD Phases (Execution Layer)
+
+**Scopo**: Execution tracking con atomic commits
+
+```
+.planning/phases/
+├── 01-doc-audit/
+│   ├── PLAN.md
+│   ├── EXECUTION_LOG.md
+│   └── VERIFICATION.md
+├── 02-deduplication/
+├── 03-indexing/
+└── 04-multi-block-json/
 ```
 
-**Why**: Other agents can avoid conflicts and offer help.
+### 4. GitHub Issues (Communication Layer)
+
+**Scopo**: Comunicazione asincrona e tracking
+
+- Dichiarare intenzioni PRIMA di iniziare
+- Aggiornare progresso ogni 10-15 minuti
+- Mark complete con evidenza
 
 ---
 
-### 3. **Work in Small Increments** 🔄
+## 📋 Protocollo di Coordinamento
 
-**DO**:
-- ✅ Small, focused commits
-- ✅ Frequent pushes (every 5-10 minutes)
-- ✅ Clear commit messages
-- ✅ Test before each push
+### Prima di Iniziare un Task
 
-**DON'T**:
-- ❌ Large, monolithic commits
-- ❌ Work for hours without pushing
-- ❌ Vague commit messages
-- ❌ Push untested code
+1. **Check Context** (OpenViking)
+   ```bash
+   openviking get-context --query="active tasks"
+   ```
 
-**Why**: Small increments make it easier for other agents to:
-- Understand your progress
-- Merge their work with yours
-- Catch issues early
-- Offer help if needed
+2. **Check Coordination** (BMAD Threads)
+   ```bash
+   cat _bmad/threads/zen-documentation.md
+   ```
+
+3. **Check Execution** (GSD Phases)
+   ```bash
+   ls -la .planning/phases/
+   ```
+
+4. **Declare Intention** (GitHub Issue)
+   ```markdown
+   ## Starting: Documentation Audit
+   **Agent**: gsd-codebase-mapper
+   **ETA**: 2 hours
+   **Scope**: Run check-duplicates.sh
+   ```
+
+### Durante l'Esecuzione
+
+1. **Update Progress** (ogni 10-15 minuti)
+   ```markdown
+   **Update 1**: Scanned 5,000/14,000 files
+   **Update 2**: Found 200 duplicate sets
+   **Update 3**: Generating report...
+   ```
+
+2. **Add Context** (OpenViking)
+   ```bash
+   openviking add-memory \
+     --title="Duplicate Check Progress" \
+     --content="Found 200 duplicate sets, mostly in Cms and Xot modules"
+   ```
+
+3. **Log Decisions** (BMAD Thread)
+   ```markdown
+   ### Decision: Archive Strategy
+   **Agent**: gsd-executor
+   **Decision**: Move historical docs to archive/ instead of deleting
+   **Rationale**: Preserve git history, allow recovery
+   ```
+
+### Dopo il Completamento
+
+1. **Update GSD Phase**
+   ```bash
+   echo "✅ Complete" >> .planning/phases/01-doc-audit/EXECUTION_LOG.md
+   ```
+
+2. **Run Quality Gates**
+   ```bash
+   ./bashscripts/docs/check-duplicates.sh
+   ./bashscripts/docs/validate-links.sh
+   ```
+
+3. **Commit with Evidence**
+   ```bash
+   git commit -m "feat: Documentation audit complete
+   
+   - Scanned 14,000 files
+   - Found 200 duplicate sets
+   - Report: docs/reports/duplicate-report.md
+   
+   GSD Phase: 01-doc-audit
+   Agent: gsd-codebase-mapper"
+   ```
+
+4. **Update GitHub Issue**
+   ```markdown
+   ✅ Complete: Documentation Audit
+   
+   **Results**:
+   - 14,000 files scanned
+   - 200 duplicate sets found
+   - Report: docs/reports/duplicate-report.md
+   
+   **Next**: Phase 2 - Deduplication
+   ```
 
 ---
 
-### 4. **Document As You Go** 📚
+## 🚦 Conflict Resolution
 
-**ALWAYS** document your work:
+### Scenario 1: Due Agenti Stesso File
 
-**For Scripts**:
-- Create/update `bashscripts/docs/[category]/[script].md`
-- Include usage examples
-- Document known issues
-- Add troubleshooting section
+**Problema**: Amelia e gsd-executor modificano lo stesso file
 
-**For Workflows**:
-- Update `.github/` AND `bashscripts/ai/.github/`
-- Document in `docs/GITHUB_ACTIONS.md`
-- Note any secrets required
+**Soluzione**:
+1. **Lock File**:
+   ```bash
+   echo "Amelia" > /tmp/lock_filename.md
+   ```
 
-**For Rules**:
-- Update `AGENTS.md`
-- Update `.windsurfrules`
-- Save memories for future reference
+2. **Check Lock**:
+   ```bash
+   if [ -f /tmp/lock_filename.md ]; then
+     echo "File locked by $(cat /tmp/lock_filename.md)"
+   fi
+   ```
 
-**Why**: Other agents (and future you) need to understand your work.
+3. **Coordinate via BMAD**:
+   ```markdown
+   ### Conflict Resolution
+   **File**: documentation-system.md
+   **Agents**: Amelia vs gsd-executor
+   **Resolution**: Amelia completes edits, then gsd-executor validates
+   ```
+
+### Scenario 2: Decisioni Conflittuali
+
+**Problema**: John (PM) e Winston (Architect) hanno priorità diverse
+
+**Soluzione**:
+1. **BMAD Thread Discussion**:
+   ```markdown
+   ### Priority Conflict
+   **John**: User stories first (business value)
+   **Winston**: Architecture first (technical foundation)
+   
+   **Resolution**: Architecture foundation → User stories
+   **Rationale**: Technical debt slows down feature delivery
+   ```
+
+2. **Document Decision**:
+   ```bash
+   openviking add-memory \
+     --title="Priority Decision" \
+     --content="Architecture before features for documentation system"
+   ```
+
+### Scenario 3: Context Loss
+
+**Problema**: Agente perde contesto tra sessioni
+
+**Soluzione**:
+1. **OpenViking Recovery**:
+   ```bash
+   openviking get-context --query="last session"
+   ```
+
+2. **BMAD Thread Review**:
+   ```bash
+   tail -100 _bmad/threads/zen-documentation.md
+   ```
+
+3. **GSD Phase Status**:
+   ```bash
+   cat .planning/phases/01-doc-audit/EXECUTION_LOG.md
+   ```
 
 ---
 
-### 5. **Communicate Progress** 📡
+## 🛠️ Tooling
 
-**DURING** work, communicate progress:
+### OpenViking Commands
 
-**Every 10-15 minutes**:
-```markdown
-**Progress Update**:
-- ✅ Completed: [what's done]
-- 🔄 In Progress: [what you're working on]
-- ⏳ Next: [what's next]
-- 🆘 Help Needed: [if you need help]
+```bash
+# Add context
+openviking add-memory \
+  --title="Title" \
+  --content="Content" \
+  --tags="tag1,tag2"
+
+# Get context
+openviking get-context \
+  --query="search query" \
+  --limit=10
+
+# List memories
+openviking list-memories \
+  --tag="documentation"
+
+# Delete memory
+openviking delete-memory --id=123
 ```
 
-**When Blocked**:
-```markdown
-🛑 **BLOCKED**:
-- Issue: [what's blocking you]
-- Tried: [what you've tried]
-- Need: [what you need to unblock]
+### BMAD Commands
+
+```bash
+# Create thread
+bmad-thread create \
+  --name="zen-documentation" \
+  --description="Documentation system coordination"
+
+# Add log entry
+bmad-thread log \
+  --thread="zen-documentation" \
+  --message="Phase 1 complete"
+
+# Get thread status
+bmad-thread status \
+  --thread="zen-documentation"
 ```
 
-**When Complete**:
-```markdown
-✅ **COMPLETE**:
-- Task: [what was completed]
-- Files Changed: [list of files]
-- Testing: [how it was tested]
-- Next Steps: [what needs to be done next]
+### GSD Commands
+
+```bash
+# Create phase
+gsd-phase create \
+  --name="01-doc-audit" \
+  --goal="Audit documentation for duplicates"
+
+# Start phase
+gsd-phase start \
+  --name="01-doc-audit"
+
+# Log progress
+gsd-phase log \
+  --name="01-doc-audit" \
+  --message="Scanned 5,000 files"
+
+# Complete phase
+gsd-phase complete \
+  --name="01-doc-audit" \
+  --verification="All files scanned"
 ```
 
-**Why**: Keeps all agents synchronized and enables collaboration.
+### Ralph Loop Commands
 
----
+```bash
+# Start autonomous task
+ralph-loop run \
+  --task="Find and merge duplicate documentation" \
+  --until="No duplicates remain" \
+  --check-interval=5m
 
-## 🏗️ **Agent Team Structure**
+# Monitor progress
+ralph-loop status \
+  --task="duplicate-merge"
 
-### Current Teams
-
-| Team | Focus | Status | Members |
-|------|-------|--------|---------|
-| **Sync** | sync_remote_repo.sh | ✅ Stable | All agents |
-| **Actions** | GitHub Actions fixes | 🔄 In Progress | All agents |
-| **Docs** | Documentation | ✅ Active | All agents |
-| **SemVer** | Semantic versioning | ⏳ Planned | Volunteers needed |
-
-### How Teams Work
-
-1. **Self-Organizing**: Agents join teams based on interest/skills
-2. **Fluid Membership**: Agents can switch teams as needed
-3. **Shared Goals**: Each team has clear objectives
-4. **Cross-Team Communication**: Teams coordinate via issues/discussions
-
----
-
-## 📊 **Task Board**
-
-### Active Tasks
-
-| Task | Assigned To | Status | Priority | Due |
-|------|-------------|--------|----------|-----|
-| Monitor GitHub Actions | All agents | 🔄 In Progress | High | 2026-03-13 |
-| Fix failing workflows | QA Team | 🔄 In Progress | High | 2026-03-14 |
-| Update all docs | Docs Team | ✅ Active | Medium | Ongoing |
-| Create semantic versioning | SemVer Team | ⏳ Planned | Medium | 2026-03-15 |
-
-### How to Pick a Task
-
-1. **Check Task Board**: See what needs to be done
-2. **Check No One Assigned**: Avoid duplicate work
-3. **Comment on Issue**: Declare you're taking it
-4. **Start Work**: Follow the coordination framework
-5. **Update Status**: Keep task board current
-
----
-
-## 🛠️ **Tools for Coordination**
-
-### GitHub Issues
-
-**Use for**:
-- Task tracking
-- Bug reports
-- Feature requests
-- Progress updates
-
-**Best Practices**:
-- Use clear titles
-- Add labels (bug, enhancement, help-wanted)
-- Link related issues
-- Comment frequently
-
-### GitHub Discussions
-
-**Use for**:
-- Announcements
-- Questions
-- Decisions
-- Brainstorming
-
-**Best Practices**:
-- Use appropriate categories
-- Tag relevant people
-- Summarize decisions
-- Link to issues
-
-### Git Commits
-
-**Use for**:
-- Code changes
-- Documentation updates
-- Configuration changes
-
-**Best Practices**:
-- Conventional commits (`type: description`)
-- Small, focused commits
-- Clear messages
-- Reference issues (`fixes #123`)
-
----
-
-## 🎯 **Best Practices for Multi-Agent**
-
-### DO ✅
-
-1. **Check First**: Always check what others are doing
-2. **Declare Intentions**: Say what you'll work on
-3. **Small Commits**: Work in small increments
-4. **Frequent Pushes**: Push every 5-10 minutes
-5. **Document Everything**: Docs as you go
-6. **Communicate Progress**: Regular updates
-7. **Help Others**: Offer help when blocked
-8. **Verify Work**: Cross-check other agents' work
-
-### DON'T ❌
-
-1. **Don't Duplicate**: Check before starting
-2. **Don't Work in Silence**: Communicate frequently
-3. **Don't Large Commits**: Keep them small
-4. **Don't Hoard Work**: Share and collaborate
-5. **Don't Skip Docs**: Document everything
-6. **Don't Ignore Others**: Respond to comments
-7. **Don't Force Push**: Coordinate with others
-8. **Don't Skip Testing**: Test before pushing
-
----
-
-## 🔄 **Conflict Resolution**
-
-### When Conflicts Occur
-
-1. **Stop**: Don't push conflicting changes
-2. **Communicate**: Comment on the issue
-3. **Coordinate**: Work together to resolve
-4. **Merge**: One agent merges, others rebase
-5. **Test**: Verify merged changes work
-
-### Example Scenario
-
-**Problem**: Two agents fix the same file differently
-
-**Solution**:
-```markdown
-Agent A: "I see you're also working on sync_remote_repo.sh. 
-          I've fixed the unbound variable issue. Can you review?"
-
-Agent B: "Thanks! I was fixing the SSH authentication. 
-          Let me rebase on your changes and test both fixes."
-
-Agent A: "Great! I'll wait for your test results before pushing."
-
-Agent B: "Tests passed! Both fixes work together. Pushing now."
+# Stop task
+ralph-loop stop \
+  --task="duplicate-merge"
 ```
 
-**Result**: Both fixes merged, tested, and working!
+---
+
+## 📊 Monitoring & Metrics
+
+### Agent Activity Dashboard
+
+| Agent | Active Tasks | Completed | Last Activity |
+|-------|-------------|-----------|---------------|
+| John | 1 | 5 | 2026-03-30 15:00 |
+| Winston | 2 | 8 | 2026-03-30 14:45 |
+| Amelia | 3 | 12 | 2026-03-30 15:10 |
+| gsd-executor | 2 | 15 | 2026-03-30 15:05 |
+
+### Phase Progress
+
+| Phase | Status | Progress | Owner |
+|-------|--------|----------|-------|
+| 01-doc-audit | 🟡 In Progress | 80% | Ralph Loop |
+| 02-deduplication | ⏳ Planned | 0% | - |
+| 03-indexing | ⏳ Planned | 0% | - |
+| 04-multi-block-json | ⏳ Planned | 0% | - |
+
+### Quality Metrics
+
+| Metric | Current | Target | Status |
+|--------|---------|--------|--------|
+| Duplicate Content | 43-57% | <1% | 🔴 |
+| Index Files | 5-10/mod | 1-2/mod | 🟡 |
+| Orphaned Files | 43-57% | <5% | 🔴 |
+| Temporal Filenames | 500+ | 0 | 🟡 |
 
 ---
 
-## 📈 **Metrics for Success**
+## 🎓 Best Practices
 
-### Individual Agent Metrics
+### Do's ✅
 
-- **Commits per Day**: 10-20 (small, focused)
-- **Push Frequency**: Every 5-10 minutes
-- **Documentation**: 1 doc per feature/fix
-- **Communication**: Update every 10-15 minutes
+- **Dichiarare intenzioni** PRIMA di iniziare
+- **Aggiornare progresso** ogni 10-15 minuti
+- **Aggiungere contesto** a OpenViking
+- **Loggare decisioni** in BMAD threads
+- **Run quality gates** prima di commit
+- **Coordinare via GitHub** issues
 
-### Team Metrics
+### Don'ts ❌
 
-- **Tasks Completed**: Track via issues
-- **Conflicts Resolved**: Minimize over time
-- **Cross-Verification**: Multiple agents review
-- **Knowledge Sharing**: Docs updated regularly
-
-### Project Metrics
-
-- **Build Success Rate**: >90%
-- **Test Coverage**: Increasing
-- **Documentation Coverage**: >90%
-- **Agent Satisfaction**: High collaboration
+- **Non lavorare in silenzio** - comunica sempre
+- **Non saltare quality gates** - valida sempre
+- **Non modificare senza lock** - check locks
+- **Non perdere contesto** - usa OpenViking
+- **Non ignorare conflitti** - risolvi subito
+- **Non commitare senza evidenza** - documenta
 
 ---
 
-## 🎓 **Onboarding New Agents**
+## 📚 Case Studies
 
-### For New AI Agents Joining
+### Case Study 1: Documentation Deduplication
 
-1. **Read This Guide**: Start here
-2. **Check Open Issues**: See what needs work
-3. **Introduce Yourself**: Comment on issue #12
-4. **Pick a Task**: Start with something small
-5. **Follow Framework**: Use coordination practices
-6. **Ask for Help**: Don't hesitate to ask
+**Challenge**: 6,000+ file duplicati
 
-### For Existing Agents
+**Approach**:
+1. Ralph Loop esegue `check-duplicates.sh`
+2. gsd-codebase-mapper analizza risultati
+3. John priorizza duplicati da rimuovere
+4. gsd-executor merge e crea cross-reference
+5. Amelia scrive test per validazione
+6. Winston valida architettura
+7. Paige verifica qualità documentazione
 
-1. **Welcome Newcomers**: Respond to introductions
-2. **Offer Mentorship**: Help them get started
-3. **Review Their Work**: Provide constructive feedback
-4. **Share Knowledge**: Point to relevant docs
+**Result**: 43-57% → <1% duplicate content
 
----
+### Case Study 2: Multi-Block JSON Conversion
 
-## 📚 **Resources**
+**Challenge**: 38 JSON pages da convertire a multi-block
 
-### Documentation
+**Approach**:
+1. Sally definisce UX patterns per blocchi
+2. Winston progetta architettura Filament
+3. Amelia implementa block classes
+4. gsd-executor converte JSON files
+5. John valida user stories
+6. Paige documenta pattern
+7. Ralph Loop testa rendering
 
-- `docs/AI_AGENT_TEAMS.md` - Team organization
-- `docs/SYNC_TEST_RESULTS.md` - Recent test results
-- `AGENTS.md` - Agent guidelines
-- `.windsurfrules` - IDE rules
-
-### Issues
-
-- **#11**: Fix GitHub Actions Workflows
-- **#12**: AI Agent Collaboration
-- **#13**: Documentation Updates
-
-### Discussions
-
-- **Multi-Agent Coordination**: Main discussion thread
-- **Sync Testing Results**: Test results and discussion
+**Result**: 38 pages converted, 100% test coverage
 
 ---
 
-## 🏆 **Success Stories**
+## 🔗 Related Documents
 
-### 2026-03-13: Sync Remote Repo Fix
-
-**Challenge**: sync_remote_repo.sh had multiple errors
-
-**Multi-Agent Solution**:
-1. **Agent A** (Qwen): Fixed unbound variables
-2. **Agent B** (Claude): Fixed SSH authentication
-3. **Agent C** (Cursor): Created test plan
-4. **All Agents**: Cross-verified and tested
-
-**Result**: ✅ All errors fixed, bidirectional sync working!
-
-**Key Success Factors**:
-- Clear communication via issues
-- Small, focused commits
-- Frequent pushes
-- Cross-verification
-- Comprehensive documentation
+- [Zen of Documentation](docs/ZEN_OF_DOCUMENTATION.md)
+- [Documentation Governance](docs/DOCUMENTATION_GOVERNANCE.md)
+- [OpenViking Context](.qwen/openviking-context.md)
+- [BMAD Thread]( _bmad/threads/zen-documentation.md)
+- [GSD Phases](.planning/phases/)
 
 ---
 
-## 🚀 **Future Improvements**
-
-### Planned Enhancements
-
-1. **Agent Dashboard**: Real-time view of who's doing what
-2. **Automated Conflict Detection**: Warn before conflicts
-3. **Task Assignment Board**: Visual task board
-4. **Agent Chat**: Real-time communication channel
-5. **Knowledge Base**: Centralized knowledge repository
-
-### How to Contribute
-
-Want to improve multi-agent coordination?
-
-1. **Propose Idea**: Create GitHub Discussion
-2. **Get Feedback**: Discuss with other agents
-3. **Implement**: Build the improvement
-4. **Document**: Update this guide
-
----
-
-**Last Updated**: 2026-03-13  
-**Maintained By**: All AI Agents  
-**Next Review**: 2026-03-20  
-**Version**: 1.0
+**Last Updated**: 2026-03-30  
+**Maintained By**: Multi-Agent Team  
+**Status**: ✅ Active
