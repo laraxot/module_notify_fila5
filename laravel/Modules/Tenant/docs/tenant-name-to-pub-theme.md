@@ -1,26 +1,62 @@
-# Dal nome tenant al tema pubblico (pub_theme)
+# Dal tenant al `pub_theme`
 
-La **risoluzione del tema** dipende dal modulo Tenant: il nome tenant determina la cartella di config da cui si legge `xra.php` e quindi `pub_theme`.
+La risoluzione del tema pubblico e dinamica. Il tema non va registrato in `AppServiceProvider`: viene ricavato dal tenant e dalla sua configurazione `xra.php`.
 
-## Catena
+## Algoritmo reale
 
-1. **`APP_URL`** (`.env`) → es. `http://<nome progetto>.local`
-2. **`GetTenantNameAction::execute()`** → ricava l’host da `config('app.url')` (o `$_SERVER['SERVER_NAME']`), inverte le parti (es. `<nome progetto>.local` → `local/<nome progetto>`)
-3. **Cartella config** → `config_path($tenantName)` = `laravel/config/local/<nome progetto>/`
-4. **`TenantService::getConfig('xra')`** → carica `config/local/<nome progetto>/xra.php`
-5. **`pub_theme`** → in `xra.php` la chiave `pub_theme` (es. `'Meetup'`) identifica il tema pubblico
-6. **Percorso tema** → `laravel/Themes/{pub_theme}` (es. `laravel/Themes/Meetup`)
+1. Leggere `APP_URL` da `laravel/.env`.
+2. Estrarre solo l'host.
+3. Rimuovere `http://` o `https://`.
+4. Rimuovere l'eventuale prefisso `www.`.
+5. Fare `explode('.')` sull'host.
+6. Invertire l'array.
+7. Unire con `'/'`.
 
-## Ruolo del modulo Tenant
+Esempio:
 
-- **GetTenantNameAction**: nome tenant a partire da `APP_URL` (e verifica esistenza della cartella config).
-- **GetTenantFilePathAction**: path del file di config per un dato tenant (es. `xra.php`).
-- **GetTenantConfigArrayAction**: caricamento dell’array di config (usato da `TenantService::getConfig('xra')`).
+```text
+APP_URL=http://fixcity.local
+host -> fixcity.local
+parts -> ["fixcity", "local"]
+reverse -> ["local", "fixcity"]
+config name -> local/fixcity
+```
 
-`XotData::make()` usa `TenantService::getConfig('xra')` e quindi il valore di `pub_theme` proviene dalla config tenant caricata dal modulo Tenant.
+## Conseguenza
+
+Il file di configurazione tenant-aware diventa:
+
+```text
+laravel/config/local/fixcity/xra.php
+```
+
+Dentro quel file la chiave:
+
+```php
+'pub_theme' => 'Sixteen'
+```
+
+identifica il tema pubblico attivo, quindi il percorso del tema e:
+
+```text
+laravel/Themes/Sixteen
+```
+
+## Catena completa
+
+1. `APP_URL`
+2. nome tenant normalizzato
+3. `config/<tenant>/xra.php`
+4. `pub_theme`
+5. registrazione runtime del tema da parte dell'infrastruttura Xot
+
+## Regole
+
+- Non hardcodare `ThemeServiceProvider` in `laravel/app/Providers/AppServiceProvider.php`.
+- Il tema e un vestito configurabile, non una dipendenza fissa dell'applicazione.
+- La sorgente di verita del tema pubblico e `config/<tenant>/xra.php`.
 
 ## Riferimenti
 
-- [configuration](configuration.md) – risoluzione tenant-aware dei valori di config
-- Tema Meetup: `laravel/Themes/Meetup/docs/theme-resolution-and-workflow.md`
-- Regola agenti: `.cursor/rules/theme-resolution-critical.md`
+- [configuration](configuration.md)
+- [AGNOSTIC_DOCUMENTATION_RULE](../../docs/AGNOSTIC_DOCUMENTATION_RULE.md)
