@@ -84,13 +84,7 @@
         @if($disabled) aria-disabled="true" @endif
     >
         @if($loading)
-<<<<<<< HEAD
             <x-heroicon-o-arrow-path class="animate-spin h-4 w-4 mr-2" />
-||||||| parent of f2e0249c (.)
-            <x-filament::icon icon="heroicon-o-arrow-path class="animate-spin h-4 w-4 mr-2"" />
-=======
-            <x-filament::icon icon="heroicon-o-arrow-path" class="animate-spin h-4 w-4 mr-2" />
->>>>>>> f2e0249c (.)
         @elseif($icon && $icon-position === 'left')
             <x-dynamic-component :component="$icon" class="h-4 w-4 mr-2" />
         @endif
@@ -108,13 +102,7 @@
         @if($disabled) disabled @endif
     >
         @if($loading)
-<<<<<<< HEAD
             <x-heroicon-o-arrow-path class="animate-spin h-4 w-4 mr-2" />
-||||||| parent of f2e0249c (.)
-            <x-filament::icon icon="heroicon-o-arrow-path class="animate-spin h-4 w-4 mr-2"" />
-=======
-            <x-filament::icon icon="heroicon-o-arrow-path" class="animate-spin h-4 w-4 mr-2" />
->>>>>>> f2e0249c (.)
         @elseif($icon && $icon-position === 'left')
             <x-dynamic-component :component="$icon" class="h-4 w-4 mr-2" />
         @endif
