@@ -95,15 +95,15 @@ Blocco principale della pagina con titolo, sottotitolo, immagine e call-to-actio
 }
 ```
 
-### 2. Feature Sections Block
+### 2. Services Block
 
-Sezioni con caratteristiche o FAQ organizzate.
+Blocchi elenco o griglia per servizi, voci o card coerenti con il tipo `services`.
 
 ```json
 {
-    "type": "feature_sections",
+    "type": "services",
     "data": {
-        "view": "pub_theme::components.blocks.feature_sections.view_name",
+        "view": "pub_theme::components.blocks.services.grid",
         "title": "Titolo sezione",
         "sections": [
             {
@@ -223,7 +223,7 @@ Builder::make('content_blocks')
                 TextInput::make('cta_text'),
                 TextInput::make('cta_link'),
             ]),
-        Builder\Block::make('feature_sections')
+        Builder\Block::make('services')
             ->schema([
                 TextInput::make('title'),
                 Repeater::make('sections')
