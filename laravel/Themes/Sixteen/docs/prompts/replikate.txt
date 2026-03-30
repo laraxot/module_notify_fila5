@@ -241,3 +241,6 @@ https://flowbite.com/blocks/
 
 non ci deve stare anche "Themes/*/composer.json" i temi vivono di vita loro isolati 
 capisci da solo il perche' 
+
+
+in laravel/app/Providers/AppServiceProvider.php  non devi fare  $this->app->register(\Themes\Sixteen\Providers\ThemeServiceProvider::class);  il tema e' configurabile ed e' un vestito !  capisci da solo , e poi aggiorna le solite cose
