@@ -1,21 +1,9 @@
 <div>
 	<button data-dropdown-toggle="dropdown-language" class="grid py-3 text-sm font-semibold transition rounded-lg place-items-center">
 		<div class="flex items-center space-x-1">
-<<<<<<< HEAD
 			<x-heroicon-o-language class="size-5"/>
-||||||| parent of f2e0249c (.)
-			<x-filament::icon icon="heroicon-o-language class="size-5""/>
-=======
-			<x-filament::icon icon="heroicon-o-language" class="size-5"/>
->>>>>>> f2e0249c (.)
 			<span class="hidden sm:block">English</span>
-<<<<<<< HEAD
 			<x-heroicon-o-chevron-down class="hidden size-4 sm:block"/>
-||||||| parent of f2e0249c (.)
-			<x-filament::icon icon="heroicon-o-chevron-down class="hidden size-4 sm:block""/>
-=======
-			<x-filament::icon icon="heroicon-o-chevron-down" class="hidden size-4 sm:block"/>
->>>>>>> f2e0249c (.)
 		</div>
 	</button>
 	<div id="dropdown-language" class="absolute z-[45] hidden p-2 overflow-hidden text-sm border border-white rounded-lg bg-gray-50/85 backdrop-blur w-[240px] max-w-sm">

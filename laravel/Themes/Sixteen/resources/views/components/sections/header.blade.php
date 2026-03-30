@@ -11,13 +11,7 @@
 
                 @guest
                     <a class="flex items-center gap-2 text-xs sm:text-sm font-medium hover:text-opacity-90 agid-focus agid-transition" href="{{ route('login') }}" aria-label="Accedi all'area personale">
-<<<<<<< HEAD
                         <x-heroicon-o-user class="w-4 h-4" />
-||||||| parent of f2e0249c (.)
-                        <x-filament::icon icon="heroicon-o-user class="w-4 h-4"" />
-=======
-                        <x-filament::icon icon="heroicon-o-user" class="w-4 h-4" />
->>>>>>> f2e0249c (.)
                         <span class="hidden md:block">Accedi all'area personale</span>
                     </a>
                 @endguest
@@ -25,13 +19,7 @@
                 @auth
                     <div class="relative">
                         <button id="dropdownDefaultButton" class="flex items-center gap-2 text-xs sm:text-sm font-medium hover:text-opacity-90 agid-focus agid-transition" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Menu utente">
-<<<<<<< HEAD
                             <x-heroicon-o-user class="w-4 h-4" />
-||||||| parent of f2e0249c (.)
-                            <x-filament::icon icon="heroicon-o-user class="w-4 h-4"" />
-=======
-                            <x-filament::icon icon="heroicon-o-user" class="w-4 h-4" />
->>>>>>> f2e0249c (.)
                             <span class="hidden md:block">{{ Auth::user()->name }}</span>
                             <svg class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
                         </button>
@@ -82,13 +70,7 @@
                     </a>
                 @endforeach
                 <button class="bg-white bg-opacity-20 hover:bg-opacity-30 border-0 rounded-full p-2 agid-focus agid-transition" style="color: var(--agid-primary);" aria-label="Cerca nel sito">
-<<<<<<< HEAD
                     <x-heroicon-o-magnifying-glass class="w-5 h-5" />
-||||||| parent of f2e0249c (.)
-                    <x-filament::icon icon="heroicon-o-magnifying-glass class="w-5 h-5"" />
-=======
-                    <x-filament::icon icon="heroicon-o-magnifying-glass" class="w-5 h-5" />
->>>>>>> f2e0249c (.)
                 </button>
             </div>
         </div>
