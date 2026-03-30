@@ -1738,3 +1738,79 @@ hr {
 .it-header-slim-wrapper .dropdown-menu .dropdown-item:hover span {
   color: #007a52 !important;
 }
+/* Footer parity overrides for Design Comuni cmp-footer */
+.it-footer .footer-heading-title {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .it-footer .footer-heading-title {
+    margin-bottom: 0.875rem;
+    padding-bottom: 0.875rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .it-footer .footer-items-wrapper + .footer-items-wrapper .footer-heading-title {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+
+.it-footer .it-brand-wrapper {
+  padding: 0;
+}
+
+.footer-items-wrapper.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+@media (min-width: 640px) {
+  .footer-items-wrapper.logo-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.footer-items-wrapper.logo-wrapper .ue-logo {
+  max-width: 50%;
+}
+
+.it-footer a {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #dee2e6;
+  text-decoration: underline;
+}
+
+.it-footer a:hover {
+  color: #fff;
+}
+
+.it-footer .footer-list + .footer-heading-title {
+  margin-top: 2.5rem;
+}
+
+.it-footer .footer-info {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.it-footer .footer-bottom {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.it-footer .footer-bottom a + a {
+  margin-left: 2rem;
+}
