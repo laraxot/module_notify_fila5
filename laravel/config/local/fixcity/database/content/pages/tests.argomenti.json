@@ -1,5 +1,5 @@
 {
-    "id": "tests-argomenti",
+    "id": "tests.argomenti",
     "title": {
         "it": "Argomenti",
         "en": "Topics"
@@ -9,101 +9,105 @@
     "content_blocks": {
         "it": [
             {
-                "type": "breadcrumb",
+                "type": "navigation",
                 "data": {
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
-                    "items": [
-                        {"label": "Home", "url": "/"},
-                        {"label": "Argomenti", "url": null}
-                    ]
+                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
+                    "items": [],
+                    "currentPage": "Argomenti",
+                    "background": "white"
                 }
             },
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.hero",
+                    "view": "pub_theme::components.blocks.hero.page-intro",
+                    "eyebrow": "Amministrazione",
                     "title": "Argomenti",
-                    "subtitle": "Naviga per tematiche",
-                    "content": "<p>Gli argomenti rispondono a un'esigenza di organizzazione dei contenuti del sito istituzionale per tematiche e aiutano l'utente ad orientarsi nella ricerca di informazioni e servizi.</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
-                }
-            },
-            {
-                "type": "paragraph",
-                "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<p class=\"text-center text-lg\">Scegli un argomento per esplorare i servizi e le informazioni correlate</p>",
-                    "class": "py-4"
+                    "subtitle": "Gli argomenti rispondono a un'esigenza di organizzazione dei contenuti del sito istituzionale per tematiche.",
+                    "content": "<p>Esplora i contenuti del Comune per area tematica, con accesso più rapido a informazioni, servizi e documenti.</p>",
+                    "background": "white"
                 }
             },
             {
                 "type": "cards",
                 "data": {
-                    "view": "pub_theme::components.blocks.cards.grid",
-                    "title": "Tutti gli argomenti",
-                    "cards": [
-                        {
-                            "title": "Iscrizioni",
-                            "description": "Servizi per iscrizioni e registrazioni",
-                            "url": "/argomento/iscrizioni",
-                            "icon": "it-card"
-                        },
-                        {
-                            "title": "Estate in città",
-                            "description": "Eventi e iniziative estive",
-                            "url": "/argomento/estate",
-                            "icon": "it-calendar"
-                        },
-                        {
-                            "title": "Polizia locale",
-                            "description": "Informazioni e servizi di polizia municipale",
-                            "url": "/argomento/polizia",
-                            "icon": "it-shield"
-                        },
-                        {
-                            "title": "Tutti gli argomenti",
-                            "description": "Elenco completo di tutti gli argomenti",
-                            "url": "/argomenti",
-                            "icon": "it-list"
-                        }
-                    ],
-                    "columns": 4
-                }
-            },
-            {
-                "type": "info",
-                "data": {
-                    "view": "pub_theme::components.blocks.info.default",
-                    "title": "Come cercare",
+                    "view": "pub_theme::components.blocks.cards.featured-grid",
+                    "title": "In evidenza",
                     "items": [
                         {
-                            "icon": "search",
-                            "title": "Usa la ricerca",
-                            "description": "Cerca per parola chiave per trovare rapidamente ciò che ti serve"
+                            "title": "Cultura",
+                            "description": "Musei, eventi, biblioteche e iniziative culturali.",
+                            "href": "#",
+                            "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=1200&q=80"
                         },
                         {
-                            "icon": "filter",
-                            "title": "Filtra per categoria",
-                            "description": "Naviga le categorie per esplorare i servizi disponibili"
+                            "title": "Sport",
+                            "description": "Impianti, associazioni sportive e attività sul territorio.",
+                            "href": "#",
+                            "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80"
                         },
                         {
-                            "icon": "bookmark",
-                            "title": "Salva i preferiti",
-                            "description": "Aggiungi ai preferiti i servizi che usi più spesso"
+                            "title": "Famiglia",
+                            "description": "Servizi educativi, sostegni e strumenti per la vita quotidiana.",
+                            "href": "#",
+                            "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1200&q=80"
                         }
                     ]
                 }
             },
             {
-                "type": "cta",
+                "type": "topics",
                 "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Non trovi quello che cerchi?",
-                    "description": "Contatta l'ufficio relazioni con il pubblico per assistenza",
-                    "button_text": "Contattaci",
-                    "button_url": "/assistenza",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
+                    "view": "pub_theme::components.blocks.topics.grid",
+                    "title": "Esplora per argomento",
+                    "items": [
+                        {"title": "Agricoltura", "description": "Contributi, territorio rurale e attività agricole.", "href": "#"},
+                        {"title": "Animale domestico", "description": "Anagrafe animali, tutela e servizi dedicati.", "href": "#"},
+                        {"title": "Assistenza sociale", "description": "Sostegni, aiuti e servizi alla persona.", "href": "#"},
+                        {"title": "Associazioni", "description": "Vita associativa, patrocini e spazi civici.", "href": "#"},
+                        {"title": "Concorsi", "description": "Bandi, selezioni pubbliche e graduatorie.", "href": "#"},
+                        {"title": "Formazione professionale", "description": "Percorsi, opportunità e orientamento.", "href": "#"},
+                        {"title": "Imposte", "description": "Tributi, canoni e fiscalità locale.", "href": "#"},
+                        {"title": "Imprese", "description": "Sportelli, autorizzazioni e supporto attività economiche.", "href": "#"},
+                        {"title": "Inquinamento", "description": "Qualità ambientale, monitoraggi e segnalazioni.", "href": "#"},
+                        {"title": "Integrazione sociale", "description": "Iniziative per inclusione e cittadinanza attiva.", "href": "#"},
+                        {"title": "Istruzione", "description": "Scuola, mensa, trasporto e servizi educativi.", "href": "#"},
+                        {"title": "Lavoro", "description": "Orientamento, bandi e opportunità occupazionali.", "href": "#"},
+                        {"title": "Parcheggi", "description": "Sosta, permessi e regolazione urbana.", "href": "#"},
+                        {"title": "Patrimonio culturale", "description": "Luoghi, archivi e valorizzazione culturale.", "href": "#"},
+                        {"title": "Piano di sviluppo", "description": "Programmazione, piani e trasformazioni urbane.", "href": "#"},
+                        {"title": "Pista ciclabile", "description": "Percorsi, mobilità dolce e sicurezza.", "href": "#"},
+                        {"title": "Trasporto pubblico", "description": "Linee, orari e servizi di mobilità.", "href": "#"},
+                        {"title": "Zone pedonali", "description": "Aree pedonali, accessi e regolamenti.", "href": "#"}
+                    ]
+                }
+            },
+            {
+                "type": "feedback",
+                "data": {
+                    "view": "pub_theme::components.blocks.feedback.rating",
+                    "title": "Quanto sono chiare le informazioni su questa pagina?",
+                    "description": "Valuta l'utilità della pagina Argomenti e aiutaci a migliorarla."
+                }
+            },
+            {
+                "type": "contact",
+                "data": {
+                    "view": "pub_theme::components.blocks.contact.card",
+                    "title": "Contatta il Comune",
+                    "description": "Per informazioni aggiuntive puoi rivolgerti agli uffici competenti o all'URP.",
+                    "items": [
+                        {"label": "Telefono", "value": "+39 0123 456789"},
+                        {"label": "Email", "value": "urp@comune.example.it"},
+                        {"label": "Indirizzo", "value": "Piazza Municipio 1, Comune di esempio"}
+                    ]
+                }
+            },
+            {
+                "type": "tests",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html"
                 }
             }
         ],
