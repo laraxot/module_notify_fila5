@@ -1,22 +1,115 @@
 {
-    "id": "tests.novita-dettaglio",
+    "id": "tests-novita-dettaglio",
     "title": {
-        "it": "Notizia, Comunicato, Avviso",
-        "en": "Notizia, Comunicato, Avviso"
+        "it": "Dettaglio notizia",
+        "en": "News detail"
     },
     "slug": "tests.novita-dettaglio",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "page_block",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Notizia, Comunicato, Avviso",
-                    "category": "Novità",
-                    "summary": "La pagina di dettaglio per notizia, comunicato stampa e avviso.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/novita-dettaglio.html",
-                    "slug": "tests.novita-dettaglio"
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/"},
+                        {"label": "Novità", "url": "/it/tests/novita"},
+                        {"label": "Dettaglio notizia", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Parte l'estate con oltre 300 eventi",
+                    "subtitle": "Estate in città 2026",
+                    "content": "<p>Inaugurazione lunedì 2 luglio con il concerto gratuito in piazza XX Settembre degli Sweet Soul Music Revue. Sul palco 20 musicisti dal tutto il mondo.</p>",
+                    "background_color": "bg-white",
+                    "text_color": "text-gray-900",
+                    "image": "/images/estate-citta-2026.jpg"
+                }
+            },
+            {
+                "type": "info",
+                "data": {
+                    "view": "pub_theme::components.blocks.info.default",
+                    "title": "Dettagli",
+                    "items": [
+                        {
+                            "icon": "it-calendar",
+                            "title": "Data",
+                            "description": "18 maggio 2026"
+                        },
+                        {
+                            "icon": "it-category",
+                            "title": "Categoria",
+                            "description": "Estate in città"
+                        },
+                        {
+                            "icon": "it-user",
+                            "title": "Autore",
+                            "description": "Ufficio Stampa"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "paragraph",
+                "data": {
+                    "view": "pub_theme::components.blocks.paragraph.default",
+                    "content": "<p class=\"mb-4\">L'Amministrazione Comunale è lieta di presentare il programma di <strong>Estate in Città 2026</strong>, una rassegna di oltre 300 eventi che animeranno la città dal 2 luglio al 31 agosto.</p><h3 class=\"text-xl font-bold mt-6 mb-4\">Il programma</h3><p class=\"mb-4\">Concerti, spettacoli teatrali, proiezioni cinematografiche, mercatini e molto altro ancora. Tutti gli eventi sono gratuiti e aperti a tutti.</p><h3 class=\"text-xl font-bold mt-6 mb-4\">L'inaugurazione</h3><p class=\"mb-4\">Si parte lunedì 2 luglio con il grande concerto degli <strong>Sweet Soul Music Revue</strong>, 20 musicisti provenienti da tutto il mondo che omaggeranno i grandi classici del soul e del rhythm and blues.</p>",
+                    "class": "py-6"
+                }
+            },
+            {
+                "type": "links",
+                "data": {
+                    "view": "pub_theme::components.blocks.links.list",
+                    "title": "Documenti correlati",
+                    "links": [
+                        {
+                            "label": "Programma completo Estate in Città 2026",
+                            "url": "/download/programma-estate-2026.pdf",
+                            "description": "PDF - 2.5 MB"
+                        },
+                        {
+                            "label": "Mappa degli eventi",
+                            "url": "/download/mappa-eventi.pdf",
+                            "description": "PDF - 1.2 MB"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "links",
+                "data": {
+                    "view": "pub_theme::components.blocks.links.list",
+                    "title": "Notizie correlate",
+                    "links": [
+                        {
+                            "label": "Mercatini di Natale in centro",
+                            "url": "/it/tests/novita-dettaglio",
+                            "description": "5 mag 2026"
+                        },
+                        {
+                            "label": "Bonus trasporti per studenti",
+                            "url": "/it/tests/novita-dettaglio",
+                            "description": "10 mag 2026"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta",
+                "data": {
+                    "view": "pub_theme::components.blocks.cta.default",
+                    "title": "Condividi",
+                    "description": "Condividi questa notizia sui social network",
+                    "button_text": "Condividi su Facebook",
+                    "button_url": "https://facebook.com/sharer.php",
+                    "button_color": "bg-blue-600 hover:bg-blue-700"
                 }
             }
         ],

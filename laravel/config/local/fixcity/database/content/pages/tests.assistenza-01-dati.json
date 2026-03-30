@@ -1,8 +1,8 @@
 {
     "id": "tests.assistenza-01-dati",
     "title": {
-        "it": "Step 1 - Inserimento dei dati",
-        "en": "Step 1 - Data entry"
+        "it": "Assistenza - Step 1 dati",
+        "en": "Assistenza - Step 1 dati"
     },
     "slug": "tests.assistenza-01-dati",
     "content": null,
@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Step 1 - Inserimento dei dati",
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Assistenza - Step 1 dati",
                     "category": "Richiesta Assistenza",
-                    "summary": "La schermata per inserire i dati anagrafici del richiedente e i dettagli della richiesta.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/assistenza-01-dati.html",
+                    "summary": "La schermata per inserire le informazioni personali e i dettagli della richiesta.",
                     "slug": "tests.assistenza-01-dati"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La scomposizione corretta prevede stepper, campi richiesta, allegati e note informative."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/assistenza-01-dati.html"
                 }
             }
         ],
