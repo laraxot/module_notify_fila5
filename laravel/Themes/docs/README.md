@@ -237,9 +237,11 @@ Themes integrate with modules via:
 @extends('theme::layouts.app')
 
 @section('content')
-    @include('fixcity::tickets.index')
+    @include('[your_module]::tickets.index')
 @endsection
 ```
+
+> **Note**: Replace `[your_module]` with your actual module namespace (e.g., `fixcity`, `blog`, `user`, etc.)
 
 ## Related Documentation
 
@@ -250,12 +252,14 @@ Themes integrate with modules via:
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/laraxot/base_fixcity_fila5/issues)
+- **Issues**: [GitHub Issues](https://github.com/your-org/your-repo/issues)
 - **Documentation**: [Project Docs](../../../../docs/)
-- **Team**: Laraxot Development Team
+- **Team**: [Your Team Name]
 
 ---
 
 **Last Updated**: March 30, 2026
 **Version**: 1.0.0
 **Total Themes**: 2
+
+> **Note**: Replace `your-org`, `your-repo`, and `[Your Team Name]` with your actual project information.
