@@ -1,0 +1,33 @@
+{
+    "id": "tests.appuntamento-02-data-orario",
+    "title": {
+        "it": "Step 2 - Scelta appuntamento",
+        "en": "Step 2 - Appointment choice"
+    },
+    "slug": "tests.appuntamento-02-data-orario",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 2 - Scelta appuntamento",
+                    "category": "Prenotazione Appuntamento",
+                    "summary": "La schermata di selezione di data e ora.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-02-data-orario.html",
+                    "slug": "tests.appuntamento-02-data-orario"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

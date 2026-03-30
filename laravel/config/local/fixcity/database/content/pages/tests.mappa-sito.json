@@ -1,0 +1,33 @@
+{
+    "id": "tests.mappa-sito",
+    "title": {
+        "it": "Mappa del sito",
+        "en": "Mappa del sito"
+    },
+    "slug": "tests.mappa-sito",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Mappa del sito",
+                    "category": "Generali",
+                    "summary": "Il template della pagina mappa del sito.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/mappa-sito.html",
+                    "slug": "tests.mappa-sito"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

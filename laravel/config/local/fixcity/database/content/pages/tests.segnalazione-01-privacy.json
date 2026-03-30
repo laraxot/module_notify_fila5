@@ -1,0 +1,33 @@
+{
+    "id": "tests.segnalazione-01-privacy",
+    "title": {
+        "it": "Step 1 - Acconsentire al trattamento dei dati personali",
+        "en": "Step 1 - Consent to personal data processing"
+    },
+    "slug": "tests.segnalazione-01-privacy",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 1 - Acconsentire al trattamento dei dati personali",
+                    "category": "Segnalazione Disservizio",
+                    "summary": "La schermata con l'informativa privacy e la possibilità di acconsentire al trattamento dei dati personali.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-01-privacy.html",
+                    "slug": "tests.segnalazione-01-privacy"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

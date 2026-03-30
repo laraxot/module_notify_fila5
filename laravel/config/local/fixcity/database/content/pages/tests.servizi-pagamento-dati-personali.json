@@ -1,0 +1,21 @@
+{
+    "id": "tests.servizi-pagamento-dati-personali",
+    "title": {
+        "it": "Servizi Pagamento Dati Personali",
+        "en": "Servizi Pagamento Dati Personali"
+    },
+    "slug": "tests.servizi-pagamento-dati-personali",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

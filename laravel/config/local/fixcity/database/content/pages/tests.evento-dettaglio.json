@@ -1,0 +1,33 @@
+{
+    "id": "tests.evento-dettaglio",
+    "title": {
+        "it": "Evento",
+        "en": "Evento"
+    },
+    "slug": "tests.evento-dettaglio",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Evento",
+                    "category": "Vivere il Comune",
+                    "summary": "La pagina di dettaglio per un evento.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/evento-dettaglio.html",
+                    "slug": "tests.evento-dettaglio"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

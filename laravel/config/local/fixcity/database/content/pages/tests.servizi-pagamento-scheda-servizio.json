@@ -1,0 +1,21 @@
+{
+    "id": "tests.servizi-pagamento-scheda-servizio",
+    "title": {
+        "it": "Servizi Pagamento Scheda Servizio",
+        "en": "Servizi Pagamento Scheda Servizio"
+    },
+    "slug": "tests.servizi-pagamento-scheda-servizio",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

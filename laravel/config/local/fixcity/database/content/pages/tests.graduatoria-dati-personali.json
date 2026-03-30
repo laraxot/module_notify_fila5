@@ -1,0 +1,21 @@
+{
+    "id": "tests.graduatoria-dati-personali",
+    "title": {
+        "it": "Graduatoria Dati Personali",
+        "en": "Graduatoria Dati Personali"
+    },
+    "slug": "tests.graduatoria-dati-personali",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

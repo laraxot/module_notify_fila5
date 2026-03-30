@@ -1,0 +1,33 @@
+{
+    "id": "tests.appuntamento-04-richiedente-autenticato",
+    "title": {
+        "it": "Step 4 - Aggiunta delle informazioni personali (utente autenticato)",
+        "en": "Step 4 - Personal information (authenticated user)"
+    },
+    "slug": "tests.appuntamento-04-richiedente-autenticato",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 4 - Aggiunta delle informazioni personali (utente autenticato)",
+                    "category": "Prenotazione Appuntamento",
+                    "summary": "La schermata di verifica delle informazioni personali da identità digitale.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-04-richiedente-autenticato.html",
+                    "slug": "tests.appuntamento-04-richiedente-autenticato"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

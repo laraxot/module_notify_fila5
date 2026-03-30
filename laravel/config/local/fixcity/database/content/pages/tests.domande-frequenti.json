@@ -1,0 +1,33 @@
+{
+    "id": "tests.domande-frequenti",
+    "title": {
+        "it": "Domande frequenti (FAQ)",
+        "en": "Domande frequenti (FAQ)"
+    },
+    "slug": "tests.domande-frequenti",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Domande frequenti (FAQ)",
+                    "category": "Generali",
+                    "summary": "La pagina per la presentazione delle domande frequenti.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/domande-frequenti.html",
+                    "slug": "tests.domande-frequenti"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

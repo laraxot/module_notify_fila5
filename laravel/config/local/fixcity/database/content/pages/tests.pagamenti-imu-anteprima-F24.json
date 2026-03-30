@@ -1,0 +1,21 @@
+{
+    "id": "tests.pagamenti-imu-anteprima-F24",
+    "title": {
+        "it": "Pagamenti Imu Anteprima F24",
+        "en": "Pagamenti Imu Anteprima F24"
+    },
+    "slug": "tests.pagamenti-imu-anteprima-F24",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

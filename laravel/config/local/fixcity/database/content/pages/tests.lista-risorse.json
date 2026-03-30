@@ -1,0 +1,33 @@
+{
+    "id": "tests.lista-risorse",
+    "title": {
+        "it": "Lista contenuti/risorse",
+        "en": "Lista contenuti/risorse"
+    },
+    "slug": "tests.lista-risorse",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Lista contenuti/risorse",
+                    "category": "Generali",
+                    "summary": "Il template per una pagina lista di secondo o terzo livello.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/lista-risorse.html",
+                    "slug": "tests.lista-risorse"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

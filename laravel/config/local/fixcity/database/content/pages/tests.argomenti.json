@@ -1,0 +1,33 @@
+{
+    "id": "tests.argomenti",
+    "title": {
+        "it": "Argomenti",
+        "en": "Argomenti"
+    },
+    "slug": "tests.argomenti",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.argomenti",
+                    "title": "Argomenti",
+                    "category": "Generali",
+                    "summary": "La pagina con l'elenco di tutti gli argomenti associati ai contenuti del sito.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html",
+                    "slug": "tests.argomenti"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}
