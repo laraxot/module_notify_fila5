@@ -1,93 +1,157 @@
 {
-  "project": "FixCity Platform",
-  "goal": "Complete project implementation using OpenViking + BMAD + GSD + Ralph Loop",
+  "project": "FixCity Homepage Improvement",
+  "goal": "Implementare homepage cinematografica con hero section, trust bar, featured markets e animazioni GSAP",
   "version": "1.0.0",
+  "created_at": "2026-03-30",
   "context": {
-    "bmad_config": "_bmad/_config/",
-    "gsd_planning": ".planning/",
-    "openviking_docs": "docs/openviking-integration.md"
+    "bmad_prd": "_bmad/bmm/2-plan/fixcity-homepage-improvement-prd.json",
+    "architecture": "_bmad/bmm/3-solutioning/fixcity-homepage-architecture.md",
+    "theme": "TwentyOne",
+    "base_file": "laravel/Themes/TwentyOne/resources/views/home.blade.php"
   },
   "stories": [
     {
       "id": "story-1",
-      "title": "Initialize OpenViking Context",
-      "description": "As a developer, I want to initialize OpenViking context database so that AI agents have access to project knowledge",
+      "title": "Hero Section Cinematografica",
+      "description": "Implementare hero section con gradiente, particelle cinematiche, headline animata e stats counter",
       "acceptance_criteria": [
-        "OpenViking initialized in project root",
-        "Project documentation indexed",
-        "Context entries created for architecture decisions"
+        "Gradiente di sfondo: from-slate-950 via-slate-900 to-emerald-950/20",
+        "Particelle: <x-ui.cinematic-particles count=\"80\" />",
+        "Headline con gradiente animato: from-emerald-400 via-cyan-400 to-emerald-400",
+        "Badge promozionale con icona sparkles",
+        "Stats counter: 3 metriche (Utenti, Previsioni, Mercati)",
+        "Responsive: text-5xl mobile, md:text-7xl tablet, lg:text-8xl desktop",
+        "Animazioni: fade-in y:50 opacity:0 duration:1.5"
       ],
+      "priority": "high",
       "status": "pending",
-      "priority": "high"
+      "implementation_notes": [
+        "Usare home-improved.blade.php come riferimento",
+        "Mantenere pattern container0/slug0 per compatibilità CMS",
+        "Includere x-ui.cinematic-particles component",
+        "Aggiungere data-kinetic-counter per animazioni"
+      ]
     },
     {
       "id": "story-2",
-      "title": "Set Up Ralph Loop Infrastructure",
-      "description": "As a developer, I want Ralph Loop infrastructure so that autonomous implementation can run",
+      "title": "Trust Bar con Statistiche Animate",
+      "description": "Implementare trust bar con 3-5 metriche chiave e counter animation GSAP",
       "acceptance_criteria": [
-        ".ralph/ directory created",
-        "ralph-loop.sh script functional",
-        "PRD template created"
+        "Trust bar section separata dopo hero",
+        "3 metriche con icone (User, Predictions, Markets)",
+        "Counter animation: 0 → valore finale in 2s",
+        "Trigger: scroll (start: top 80%)",
+        "Design coerente: emerald-400 per numeri, slate-400 per label",
+        "Grid responsive: 3 cols mobile, 5 cols desktop"
       ],
+      "priority": "high",
       "status": "pending",
-      "priority": "high"
+      "implementation_notes": [
+        "Creare component: components/blocks/trust/bar.blade.php",
+        "Usare GSAP ScrollTrigger per animazione",
+        "Passare stats da widget o controller",
+        "Aggiungere aria-label per accessibility"
+      ]
     },
     {
       "id": "story-3",
-      "title": "Integrate BMAD with OpenViking",
-      "description": "As a developer, I want BMAD artifacts stored in OpenViking so that context is preserved across sessions",
+      "title": "Featured Markets Grid",
+      "description": "Implementare grid di mercati predittivi in evidenza con professional cards",
       "acceptance_criteria": [
-        "PRD stored in OpenViking",
-        "Architecture decisions stored",
-        "viking:// URIs used in documentation"
+        "Widget Filament: FeaturedPredictsWidget (estende XotBaseWidget)",
+        "Grid: 1 col mobile, 2 tablet, 3 desktop",
+        "Professional cards con outcome multipli",
+        "Progress bar per probabilità (0-100%)",
+        "Badge per categoria (Politica, Economia, Sport, etc.)",
+        "Hover effects: scale-105, shadow-lg",
+        "Dati: 6 mercati featured da Predict model"
       ],
+      "priority": "high",
       "status": "pending",
-      "priority": "medium"
+      "implementation_notes": [
+        "Aggiornare widget esistente: filament/widgets/featured-predicts.blade.php",
+        "Creare component: components/blocks/markets/featured-grid.blade.php",
+        "Usare professional-card component esistente",
+        "Cache: 5 minuti per dati markets"
+      ]
     },
     {
       "id": "story-4",
-      "title": "Integrate GSD with OpenViking",
-      "description": "As a developer, I want GSD phases tracked in OpenViking so that phase context is preserved",
+      "title": "Footer Cinematico Completo",
+      "description": "Implementare footer professionale con link organizzati e social media",
       "acceptance_criteria": [
-        "Phase plans stored",
-        "Phase outcomes documented",
-        "Verification results tracked"
+        "Gradiente scuro: from-slate-950 to-slate-900",
+        "4 colonne link (Prodotto, Azienda, Risorse, Legale)",
+        "Social media icons (Twitter, LinkedIn, GitHub)",
+        "Newsletter signup form",
+        "Trust indicators (SSL, Compliance)",
+        "Copyright + link privacy/terms"
       ],
+      "priority": "medium",
       "status": "pending",
-      "priority": "medium"
+      "implementation_notes": [
+        "Usare component: components/sections/footer.blade.php come base",
+        "Migliorare con design cinematico",
+        "Aggiungere gradient border in alto",
+        "Includere social share component"
+      ]
     },
     {
       "id": "story-5",
-      "title": "Create Unified Workflow Documentation",
-      "description": "As a developer, I want comprehensive workflow documentation so that I understand how to use all tools together",
+      "title": "Animazioni GSAP Scroll-Trigger",
+      "description": "Configurare GSAP ScrollTrigger per animazioni fluide allo scroll",
       "acceptance_criteria": [
-        "Workflow guide created",
-        "Examples provided",
-        "Best practices documented"
+        "GSAP ScrollTrigger registrato",
+        "Fade-in per tutte le sezioni (opacity:0, y:30, duration:1)",
+        "Counter animation per stats (duration:2s, snap:1)",
+        "Parallax leggero per particelle",
+        "Performance: 60fps costante, no jank",
+        "Reduced motion: disabilita animazioni se prefers-reduced-motion"
       ],
+      "priority": "high",
       "status": "pending",
-      "priority": "high"
+      "implementation_notes": [
+        "Creare file: resources/js/gsap-homepage.js",
+        "Importare da gsap-config.js esistente",
+        "Usare scrollTrigger.start: 'top 85%' per sezioni",
+        "Testare con Chrome DevTools Performance tab"
+      ]
     }
   ],
   "constraints": [
-    "Follow Laraxot patterns",
-    "Use Spatie QueueableAction",
-    "No Services, no Controllers",
+    "Pattern container0/slug0 per compatibilità CMS",
+    "Widget Filament estendono XotBaseWidget",
+    "Tailwind CSS v4 per styling",
+    "GSAP 3.x per animazioni",
     "PHPStan Level 10 compliance",
-    "English documentation (Italian only for AGID)",
-    "No temporal strings in docs",
-    "Commit and push after each success"
+    "Accessibility WCAG 2.1 AA",
+    "Performance: Lighthouse >90",
+    "No business logic nelle view"
   ],
   "quality_gates": [
     "vendor/bin/phpstan analyse --level=10",
-    "npm run quality",
-    "php artisan test --coverage"
+    "npm run quality (biome, eslint, htmlhint)",
+    "php artisan test (se applicabile)",
+    "Lighthouse score >90",
+    "No console errors"
+  ],
+  "files_to_create": [
+    "laravel/Themes/TwentyOne/resources/views/components/blocks/hero/cinematic-homepage.blade.php",
+    "laravel/Themes/TwentyOne/resources/views/components/blocks/trust/bar.blade.php",
+    "laravel/Themes/TwentyOne/resources/views/components/blocks/markets/featured-grid.blade.php",
+    "laravel/Themes/TwentyOne/resources/js/gsap-homepage.js"
+  ],
+  "files_to_update": [
+    "laravel/Themes/TwentyOne/resources/views/home.blade.php",
+    "laravel/Themes/TwentyOne/resources/views/filament/widgets/featured-predicts.blade.php",
+    "laravel/Themes/TwentyOne/resources/views/components/sections/footer.blade.php"
   ],
   "metadata": {
-    "created_at": "2026-03-30",
-    "created_by": "AI Agent",
-    "bmad_prd_ref": null,
-    "gsd_phase_ref": null,
-    "openviking_ref": "viking://context/openviking-integration"
+    "bmad_prd_ref": "_bmad/bmm/2-plan/fixcity-homepage-improvement-prd.json",
+    "architecture_ref": "_bmad/bmm/3-solutioning/fixcity-homepage-architecture.md",
+    "theme": "TwentyOne",
+    "module": "Predict",
+    "estimated_iterations": 15,
+    "openviking_context": "viking://memory/fixcity-homepage-improvement"
   }
 }
