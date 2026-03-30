@@ -29,7 +29,7 @@
 |   - Tailwind Plus: Confirmation pages
 |   - DaisyUI: Card
 |   - Bootstrap Italia: Card, Alert
-|   - Filament Icons: https://filamentphp.com/docs/3.x/forms/fields/icon-picker
+|   - Filament Icons: https://filamentphp.com/docs/5.x/components/icon-button
 |
 --}}
 
