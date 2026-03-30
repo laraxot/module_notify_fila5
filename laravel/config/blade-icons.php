@@ -15,10 +15,10 @@ return [
 
     'sets' => [
 
-        // 'heroicons' => [
-        //     'prefix' => 'heroicon',
-        // ],
-        // Removed - blade-heroicons not installed. Use ui-brands.* for custom icons.
+        'ui-brands' => [
+            'path' => base_path('Modules/UI/resources/svg/brands'),
+            'prefix' => 'ui-brands',
+        ],
 
     ],
 
