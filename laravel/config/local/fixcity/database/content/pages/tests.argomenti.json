@@ -1,77 +1,109 @@
 {
-    "id": "tests.argomenti",
+    "id": "tests-argomenti",
     "title": {
         "it": "Argomenti",
-        "en": "Argomenti"
+        "en": "Topics"
     },
     "slug": "tests.argomenti",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "page_block",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Argomenti",
-                    "category": "Generali",
-                    "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
-                    "slug": "tests.argomenti"
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/"},
+                        {"label": "Argomenti", "url": null}
+                    ]
                 }
             },
             {
-                "type": "page_block",
+                "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.argomenti",
+                    "view": "pub_theme::components.blocks.hero.hero",
                     "title": "Argomenti",
-                    "category": "Generali",
-                    "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html",
-                    "slug": "tests.argomenti",
+                    "subtitle": "Naviga per tematiche",
+                    "content": "<p>Gli argomenti rispondono a un'esigenza di organizzazione dei contenuti del sito istituzionale per tematiche e aiutano l'utente ad orientarsi nella ricerca di informazioni e servizi.</p>",
+                    "background_color": "bg-white",
+                    "text_color": "text-gray-900"
+                }
+            },
+            {
+                "type": "paragraph",
+                "data": {
+                    "view": "pub_theme::components.blocks.paragraph.default",
+                    "content": "<p class=\"text-center text-lg\">Scegli un argomento per esplorare i servizi e le informazioni correlate</p>",
+                    "class": "py-4"
+                }
+            },
+            {
+                "type": "cards",
+                "data": {
+                    "view": "pub_theme::components.blocks.cards.grid",
+                    "title": "Tutti gli argomenti",
+                    "cards": [
+                        {
+                            "title": "Iscrizioni",
+                            "description": "Servizi per iscrizioni e registrazioni",
+                            "url": "/argomento/iscrizioni",
+                            "icon": "it-card"
+                        },
+                        {
+                            "title": "Estate in città",
+                            "description": "Eventi e iniziative estive",
+                            "url": "/argomento/estate",
+                            "icon": "it-calendar"
+                        },
+                        {
+                            "title": "Polizia locale",
+                            "description": "Informazioni e servizi di polizia municipale",
+                            "url": "/argomento/polizia",
+                            "icon": "it-shield"
+                        },
+                        {
+                            "title": "Tutti gli argomenti",
+                            "description": "Elenco completo di tutti gli argomenti",
+                            "url": "/argomenti",
+                            "icon": "it-list"
+                        }
+                    ],
+                    "columns": 4
+                }
+            },
+            {
+                "type": "info",
+                "data": {
+                    "view": "pub_theme::components.blocks.info.default",
+                    "title": "Come cercare",
                     "items": [
                         {
-                            "title": "Anagrafe e stato civile",
-                            "description": "Carta d'identita, certificati, residenza e documenti personali.",
-                            "href": "#"
+                            "icon": "search",
+                            "title": "Usa la ricerca",
+                            "description": "Cerca per parola chiave per trovare rapidamente ciò che ti serve"
                         },
                         {
-                            "title": "Ambiente",
-                            "description": "Rifiuti, raccolta differenziata, verde pubblico e sostenibilita.",
-                            "href": "#"
+                            "icon": "filter",
+                            "title": "Filtra per categoria",
+                            "description": "Naviga le categorie per esplorare i servizi disponibili"
                         },
                         {
-                            "title": "Mobilita e trasporti",
-                            "description": "Parcheggi, viabilita, ZTL, trasporto pubblico e percorsi urbani.",
-                            "href": "#"
-                        },
-                        {
-                            "title": "Tributi",
-                            "description": "IMU, TARI, canoni e pagamenti verso il Comune.",
-                            "href": "#"
-                        },
-                        {
-                            "title": "Scuola e servizi educativi",
-                            "description": "Mensa, trasporto scolastico, nidi e sostegni per le famiglie.",
-                            "href": "#"
-                        },
-                        {
-                            "title": "Segnalazioni e cura del territorio",
-                            "description": "Problemi urbani, manutenzioni e monitoraggio degli interventi.",
-                            "href": "#"
+                            "icon": "bookmark",
+                            "title": "Salva i preferiti",
+                            "description": "Aggiungi ai preferiti i servizi che usi più spesso"
                         }
                     ]
                 }
             },
             {
-                "type": "page_block",
+                "type": "cta",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "page_block",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html"
+                    "view": "pub_theme::components.blocks.cta.default",
+                    "title": "Non trovi quello che cerchi?",
+                    "description": "Contatta l'ufficio relazioni con il pubblico per assistenza",
+                    "button_text": "Contattaci",
+                    "button_url": "/assistenza",
+                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
                 }
             }
         ],

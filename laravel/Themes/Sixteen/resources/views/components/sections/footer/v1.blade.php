@@ -27,7 +27,7 @@
                     @endif
                     @if($social['facebook'] ?? null)
                         <a href="{{ $social['facebook'] ?? '#' }}" class="p-2 bg-white/10 rounded-lg hover:bg-white/20 agid-transition agid-focus focus:outline-2 focus:outline-white focus:outline-offset-2" target="_blank" rel="noopener noreferrer" aria-label="Facebook - si apre in una nuova finestra">
-                            <x-heroicon-o-facebook class="w-5 h-5 text-current" aria-hidden="true" />
+                            <svg class="w-5 h-5 text-current" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.6 1.7-1.6H16.7V3.8c-.3 0-1.3-.1-2.5-.1-2.4 0-4.1 1.5-4.1 4.2V10H7.5v3H10V21h3.5Z"/></svg>
                         </a>
                     @endif
                     @if($social['instagram'] ?? null)
