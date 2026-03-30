@@ -22,12 +22,6 @@
 @import "./agid-override.css";
 
 /* ========================================
-   DESIGN COMUNI - Bootstrap Italia → Tailwind
-======================================== */
-/* CSS convertito da Bootstrap Italia a Tailwind CSS 4 */
-@import "./design-comuni.css";
-
-/* ========================================
    TAILWIND CSS 4.x BASE
 ======================================== */
 /* Sorgenti per lo scan delle classi (Tailwind v4) */
