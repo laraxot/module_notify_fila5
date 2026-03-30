@@ -17,19 +17,43 @@
                 {{-- Quick Navigation --}}
                 <div class="flex flex-wrap justify-center gap-4 mt-8">
                     <a href="#organizzazione" class="inline-flex items-center px-6 py-3 bg-white text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors">
+<<<<<<< HEAD
                         <x-heroicon-o-building-office class="w-5 h-5 mr-2" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-building-office class="w-5 h-5 mr-2"" />
+=======
+                        <x-filament::icon icon="heroicon-o-building-office" class="w-5 h-5 mr-2" />
+>>>>>>> f2e0249c (.)
                         Organizzazione
                     </a>
                     <a href="#documenti" class="inline-flex items-center px-6 py-3 bg-white text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors">
+<<<<<<< HEAD
                         <x-heroicon-o-document-text class="w-5 h-5 mr-2" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-document-text class="w-5 h-5 mr-2"" />
+=======
+                        <x-filament::icon icon="heroicon-o-document-text" class="w-5 h-5 mr-2" />
+>>>>>>> f2e0249c (.)
                         Documenti
                     </a>
                     <a href="#bandi" class="inline-flex items-center px-6 py-3 bg-white text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors">
+<<<<<<< HEAD
                         <x-heroicon-o-clipboard-document-list class="w-5 h-5 mr-2" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-clipboard-document-list class="w-5 h-5 mr-2"" />
+=======
+                        <x-filament::icon icon="heroicon-o-clipboard-document-list" class="w-5 h-5 mr-2" />
+>>>>>>> f2e0249c (.)
                         Bandi e Gare
                     </a>
                     <a href="#dati" class="inline-flex items-center px-6 py-3 bg-white text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors">
+<<<<<<< HEAD
                         <x-heroicon-o-chart-bar class="w-5 h-5 mr-2" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-chart-bar class="w-5 h-5 mr-2"" />
+=======
+                        <x-filament::icon icon="heroicon-o-chart-bar" class="w-5 h-5 mr-2" />
+>>>>>>> f2e0249c (.)
                         Dati e Statistiche
                     </a>
                 </div>
@@ -51,7 +75,13 @@
                 {{-- Uffici --}}
                 <div class="bg-gray-50 rounded-lg p-6">
                     <div class="flex items-center mb-4">
+<<<<<<< HEAD
                         <x-heroicon-o-building-office class="w-8 h-8 text-primary-600 mr-3" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-building-office class="w-8 h-8 text-primary-600 mr-3"" />
+=======
+                        <x-filament::icon icon="heroicon-o-building-office" class="w-8 h-8 text-primary-600 mr-3" />
+>>>>>>> f2e0249c (.)
                         <h3 class="text-xl font-semibold text-gray-900">Uffici Comunali</h3>
                     </div>
                     <p class="text-gray-600 mb-4">
@@ -59,14 +89,26 @@
                     </p>
                     <a href="{{ route('pages.view', ['slug' => 'uffici-comunali']) }}" class="inline-flex items-center text-primary-600 font-medium hover:text-primary-800">
                         Esplora gli uffici
+<<<<<<< HEAD
                         <x-heroicon-o-arrow-right class="w-4 h-4 ml-1" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-arrow-right class="w-4 h-4 ml-1"" />
+=======
+                        <x-filament::icon icon="heroicon-o-arrow-right" class="w-4 h-4 ml-1" />
+>>>>>>> f2e0249c (.)
                     </a>
                 </div>
 
                 {{-- Organigramma --}}
                 <div class="bg-gray-50 rounded-lg p-6">
                     <div class="flex items-center mb-4">
+<<<<<<< HEAD
                         <x-heroicon-o-user-group class="w-8 h-8 text-primary-600 mr-3" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-user-group class="w-8 h-8 text-primary-600 mr-3"" />
+=======
+                        <x-filament::icon icon="heroicon-o-user-group" class="w-8 h-8 text-primary-600 mr-3" />
+>>>>>>> f2e0249c (.)
                         <h3 class="text-xl font-semibold text-gray-900">Organigramma</h3>
                     </div>
                     <p class="text-gray-600 mb-4">
@@ -74,14 +116,26 @@
                     </p>
                     <a href="{{ route('pages.view', ['slug' => 'organigramma']) }}" class="inline-flex items-center text-primary-600 font-medium hover:text-primary-800">
                         Visualizza organigramma
+<<<<<<< HEAD
                         <x-heroicon-o-arrow-right class="w-4 h-4 ml-1" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-arrow-right class="w-4 h-4 ml-1"" />
+=======
+                        <x-filament::icon icon="heroicon-o-arrow-right" class="w-4 h-4 ml-1" />
+>>>>>>> f2e0249c (.)
                     </a>
                 </div>
 
                 {{-- Personale --}}
                 <div class="bg-gray-50 rounded-lg p-6">
                     <div class="flex items-center mb-4">
+<<<<<<< HEAD
                         <x-heroicon-o-users class="w-8 h-8 text-primary-600 mr-3" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-users class="w-8 h-8 text-primary-600 mr-3"" />
+=======
+                        <x-filament::icon icon="heroicon-o-users" class="w-8 h-8 text-primary-600 mr-3" />
+>>>>>>> f2e0249c (.)
                         <h3 class="text-xl font-semibold text-gray-900">Personale</h3>
                     </div>
                     <p class="text-gray-600 mb-4">
@@ -89,7 +143,13 @@
                     </p>
                     <a href="{{ route('pages.view', ['slug' => 'personale']) }}" class="inline-flex items-center text-primary-600 font-medium hover:text-primary-800">
                         Dettagli personale
+<<<<<<< HEAD
                         <x-heroicon-o-arrow-right class="w-4 h-4 ml-1" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-arrow-right class="w-4 h-4 ml-1"" />
+=======
+                        <x-filament::icon icon="heroicon-o-arrow-right" class="w-4 h-4 ml-1" />
+>>>>>>> f2e0249c (.)
                     </a>
                 </div>
             </div>
@@ -114,22 +174,46 @@
                     <div class="space-y-3">
                         <a href="{{ route('pages.view', ['slug' => 'regolamenti']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Regolamenti Comunali</span>
+<<<<<<< HEAD
                             <x-heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-document-arrow-down" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'delibere']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Delibere di Giunta e Consiglio</span>
+<<<<<<< HEAD
                             <x-heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-document-arrow-down" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'statuti']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Statuto Comunale</span>
+<<<<<<< HEAD
                             <x-heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-document-arrow-down" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'piani']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Piani e Programmi</span>
+<<<<<<< HEAD
                             <x-heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-document-arrow-down" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                     </div>
                 </div>
@@ -141,22 +225,46 @@
                     <div class="space-y-3">
                         <a href="{{ route('pages.view', ['slug' => 'bilanci']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Bilanci e Conti Consuntivi</span>
+<<<<<<< HEAD
                             <x-heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-document-arrow-down" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'contratti']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Contratti e Convenzioni</span>
+<<<<<<< HEAD
                             <x-heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-document-arrow-down" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'incarichi']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Incarichi e Nomine</span>
+<<<<<<< HEAD
                             <x-heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-document-arrow-down" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'beni-immobili']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Beni Immobili</span>
+<<<<<<< HEAD
                             <x-heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-document-arrow-down class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-document-arrow-down" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                     </div>
                 </div>
@@ -165,7 +273,13 @@
             {{-- Open Data Section --}}
             <div class="mt-12 bg-primary-50 rounded-lg p-8">
                 <div class="flex items-center mb-4">
+<<<<<<< HEAD
                     <x-heroicon-o-cloud-arrow-down class="w-8 h-8 text-primary-600 mr-3" />
+||||||| parent of f2e0249c (.)
+                    <x-filament::icon icon="heroicon-o-cloud-arrow-down class="w-8 h-8 text-primary-600 mr-3"" />
+=======
+                    <x-filament::icon icon="heroicon-o-cloud-arrow-down" class="w-8 h-8 text-primary-600 mr-3" />
+>>>>>>> f2e0249c (.)
                     <h3 class="text-xl font-semibold text-gray-900">Dati Aperti (Open Data)</h3>
                 </div>
                 <p class="text-gray-600 mb-6">
@@ -173,11 +287,23 @@
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="{{ route('pages.view', ['slug' => 'open-data']) }}" class="inline-flex items-center px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors">
+<<<<<<< HEAD
                         <x-heroicon-o-arrow-down-tray class="w-5 h-5 mr-2" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-arrow-down-tray class="w-5 h-5 mr-2"" />
+=======
+                        <x-filament::icon icon="heroicon-o-arrow-down-tray" class="w-5 h-5 mr-2" />
+>>>>>>> f2e0249c (.)
                         Scarica Open Data
                     </a>
                     <a href="{{ route('pages.view', ['slug' => 'api']) }}" class="inline-flex items-center px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-colors">
+<<<<<<< HEAD
                         <x-heroicon-o-cpu-chip class="w-5 h-5 mr-2" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-cpu-chip class="w-5 h-5 mr-2"" />
+=======
+                        <x-filament::icon icon="heroicon-o-cpu-chip" class="w-5 h-5 mr-2" />
+>>>>>>> f2e0249c (.)
                         API e Web Services
                     </a>
                 </div>
@@ -197,25 +323,49 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <a href="{{ route('pages.view', ['slug' => 'bandi-lavori']) }}" class="group text-center p-6 bg-gray-50 rounded-lg hover:bg-primary-50 transition-colors">
+<<<<<<< HEAD
                     <x-heroicon-o-wrench-screwdriver class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700" />
+||||||| parent of f2e0249c (.)
+                    <x-filament::icon icon="heroicon-o-wrench-screwdriver class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700"" />
+=======
+                    <x-filament::icon icon="heroicon-o-wrench-screwdriver" class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700" />
+>>>>>>> f2e0249c (.)
                     <h3 class="font-semibold text-gray-900 mb-2">Lavori Pubblici</h3>
                     <p class="text-sm text-gray-600">Bandi per appalti e lavori</p>
                 </a>
 
                 <a href="{{ route('pages.view', ['slug' => 'bandi-forniture']) }}" class="group text-center p-6 bg-gray-50 rounded-lg hover:bg-primary-50 transition-colors">
+<<<<<<< HEAD
                     <x-heroicon-o-truck class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700" />
+||||||| parent of f2e0249c (.)
+                    <x-filament::icon icon="heroicon-o-truck class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700"" />
+=======
+                    <x-filament::icon icon="heroicon-o-truck" class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700" />
+>>>>>>> f2e0249c (.)
                     <h3 class="font-semibold text-gray-900 mb-2">Forniture</h3>
                     <p class="text-sm text-gray-600">Acquisti di beni e servizi</p>
                 </a>
 
                 <a href="{{ route('pages.view', ['slug' => 'bandi-servizi']) }}" class="group text-center p-6 bg-gray-50 rounded-lg hover:bg-primary-50 transition-colors">
+<<<<<<< HEAD
                     <x-heroicon-o-briefcase class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700" />
+||||||| parent of f2e0249c (.)
+                    <x-filament::icon icon="heroicon-o-briefcase class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700"" />
+=======
+                    <x-filament::icon icon="heroicon-o-briefcase" class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700" />
+>>>>>>> f2e0249c (.)
                     <h3 class="font-semibold text-gray-900 mb-2">Servizi</h3>
                     <p class="text-sm text-gray-600">Servizi professionali</p>
                 </a>
 
                 <a href="{{ route('pages.view', ['slug' => 'avvisi-pubblici']) }}" class="group text-center p-6 bg-gray-50 rounded-lg hover:bg-primary-50 transition-colors">
+<<<<<<< HEAD
                     <x-heroicon-o-megaphone class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700" />
+||||||| parent of f2e0249c (.)
+                    <x-filament::icon icon="heroicon-o-megaphone class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700"" />
+=======
+                    <x-filament::icon icon="heroicon-o-megaphone" class="w-12 h-12 text-primary-600 mx-auto mb-4 group-hover:text-primary-700" />
+>>>>>>> f2e0249c (.)
                     <h3 class="font-semibold text-gray-900 mb-2">Avvisi Pubblici</h3>
                     <p class="text-sm text-gray-600">Comunicazioni e avvisi</p>
                 </a>
@@ -227,7 +377,13 @@
                 
                 <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
                     <div class="flex items-center mb-4">
+<<<<<<< HEAD
                         <x-heroicon-o-exclamation-triangle class="w-6 h-6 text-yellow-600 mr-2" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-exclamation-triangle class="w-6 h-6 text-yellow-600 mr-2"" />
+=======
+                        <x-filament::icon icon="heroicon-o-exclamation-triangle" class="w-6 h-6 text-yellow-600 mr-2" />
+>>>>>>> f2e0249c (.)
                         <span class="font-semibold text-yellow-800">Nessun bando in scadenza</span>
                     </div>
                     <p class="text-yellow-700">
@@ -256,22 +412,46 @@
                     <div class="space-y-3">
                         <a href="{{ route('pages.view', ['slug' => 'statistiche-demografiche']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Dati Demografici</span>
+<<<<<<< HEAD
                             <x-heroicon-o-user-group class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-user-group class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-user-group" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'statistiche-economiche']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Indicatori Economici</span>
+<<<<<<< HEAD
                             <x-heroicon-o-currency-euro class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-currency-euro class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-currency-euro" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'statistiche-territorio']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Dati Territoriali</span>
+<<<<<<< HEAD
                             <x-heroicon-o-map class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-map class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-map" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'report-annuali']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Report Annuali</span>
+<<<<<<< HEAD
                             <x-heroicon-o-document-chart-bar class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-document-chart-bar class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-document-chart-bar" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                     </div>
                 </div>
@@ -283,22 +463,46 @@
                     <div class="space-y-3">
                         <a href="{{ route('pages.view', ['slug' => 'performance-servizi']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Performance dei Servizi</span>
+<<<<<<< HEAD
                             <x-heroicon-o-chart-bar class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-chart-bar class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-chart-bar" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'soddisfazione-utenti']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Soddisfazione Utenti</span>
+<<<<<<< HEAD
                             <x-heroicon-o-face-smile class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-face-smile class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-face-smile" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'qualita-servizi']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Qualità dei Servizi</span>
+<<<<<<< HEAD
                             <x-heroicon-o-shield-check class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-shield-check class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-shield-check" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                         
                         <a href="{{ route('pages.view', ['slug' => 'indicatori-efficiency']) }}" class="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <span class="text-gray-700">Indicatori di Efficienza</span>
+<<<<<<< HEAD
                             <x-heroicon-o-cog-6-tooth class="w-5 h-5 text-gray-400" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-cog-6-tooth class="w-5 h-5 text-gray-400"" />
+=======
+                            <x-filament::icon icon="heroicon-o-cog-6-tooth" class="w-5 h-5 text-gray-400" />
+>>>>>>> f2e0249c (.)
                         </a>
                     </div>
                 </div>
@@ -317,12 +521,24 @@
                 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="{{ route('pages.view', ['slug' => 'urp']) }}" class="inline-flex items-center px-6 py-3 bg-white text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors">
+<<<<<<< HEAD
                         <x-heroicon-o-chat-bubble-left-right class="w-5 h-5 mr-2" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-chat-bubble-left-right class="w-5 h-5 mr-2"" />
+=======
+                        <x-filament::icon icon="heroicon-o-chat-bubble-left-right" class="w-5 h-5 mr-2" />
+>>>>>>> f2e0249c (.)
                         Contatta URP
                     </a>
                     
                     <a href="{{ route('pages.view', ['slug' => 'faq-amministrazione']) }}" class="inline-flex items-center px-6 py-3 border border-white text-white font-semibold rounded-lg hover:bg-white hover:text-primary-600 transition-colors">
+<<<<<<< HEAD
                         <x-heroicon-o-question-mark-circle class="w-5 h-5 mr-2" />
+||||||| parent of f2e0249c (.)
+                        <x-filament::icon icon="heroicon-o-question-mark-circle class="w-5 h-5 mr-2"" />
+=======
+                        <x-filament::icon icon="heroicon-o-question-mark-circle" class="w-5 h-5 mr-2" />
+>>>>>>> f2e0249c (.)
                         Consulta le FAQ
                     </a>
                 </div>

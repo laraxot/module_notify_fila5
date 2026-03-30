@@ -71,10 +71,10 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="{{ $sizeClasses[$size] }} {{ $platformConfig['bg'] }} {{ $platformConfig['color'] }} rounded-full flex items-center justify-center transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-current focus:ring-offset-2"
-                :aria-label="__('pub_theme::social.follow_on', ['platform' => $platformConfig['name']])"
+                aria-label="{{ __('pub_theme::social.follow_on', ['platform' => $platformConfig['name']]) }}"
             >
                 <x-filament::icon 
-                    :name="$platformConfig['icon']" 
+                    :icon="$platformConfig['icon']" 
                     class="w-5 h-5"
                 />
                 

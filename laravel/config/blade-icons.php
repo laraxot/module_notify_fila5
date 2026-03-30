@@ -15,9 +15,10 @@ return [
 
     'sets' => [
 
-        'heroicons' => [
-            'prefix' => 'heroicon',
-        ],
+        // 'heroicons' => [
+        //     'prefix' => 'heroicon',
+        // ],
+        // Removed - blade-heroicons not installed. Use ui-brands.* for custom icons.
 
     ],
 
