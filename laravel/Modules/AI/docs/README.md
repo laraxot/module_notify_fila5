@@ -25,6 +25,15 @@
 
 Il modulo AI fornisce funzionalità di integrazione con il Model Context Protocol (MCP) per consentire alle applicazioni Laravel di comunicare efficacemente con modelli di linguaggio (LLM) e implementare agenti AI avanzati.
 
+## Active Theme
+
+**Current Theme**: **Sixteen** (AGID/Bootstrap Italia compliant)  
+**Domain**: `fixcity.local`  
+**Config**: `laravel/config/localhost/xra.php` → `pub_theme`
+
+**Theme Documentation**: [Themes Index](../../Themes/docs/README.md)  
+**Theme Context**: [.planning/THEME_CONTEXT.md](../../../../.planning/THEME_CONTEXT.md)
+
 ## Documentazione
 
 Questa directory contiene la documentazione completa sull'integrazione MCP in Laravel, con particolare attenzione ai casi d'uso, all'implementazione e alle best practices.
