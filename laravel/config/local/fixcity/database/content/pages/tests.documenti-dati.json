@@ -11,6 +11,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
+<<<<<<< HEAD
                     "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/"},
@@ -23,7 +24,13 @@
                 "type": "hero",
                 "data": {
                     "view": "pub_theme::components.blocks.hero.default",
+||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+=======
+                    "view": "pub_theme::components.blocks.tests.intro",
+>>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
                     "title": "Documenti e dati",
+<<<<<<< HEAD
                     "subtitle": "Amministrazione trasparente",
                     "content": "<p>Consulta i documenti, i dati e gli atti amministrativi del Comune</p>",
                     "background_color": "bg-white",
@@ -109,6 +116,37 @@
                     "button_text": "Compila richiesta",
                     "button_url": "/it/tests/moduli/richiesta-documenti",
                     "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
+||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
+                    "category": "Amministrazione",
+                    "summary": "La pagina principale della sottosezione Documenti e dati.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/documenti-dati.html",
+                    "slug": "tests.documenti-dati"
+=======
+                    "category": "Amministrazione",
+                    "summary": "La pagina principale della sottosezione Documenti e dati.",
+                    "slug": "tests.documenti-dati"
+>>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La pagina va modellata in introduzione, categorie documentali, dataset e accessi rapidi."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/documenti-dati.html"
                 }
             }
         ],
