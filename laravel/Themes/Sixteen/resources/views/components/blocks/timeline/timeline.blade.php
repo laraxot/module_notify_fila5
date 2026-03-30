@@ -44,9 +44,7 @@
                 {{-- Icon (if provided) --}}
                 @if(isset($item['icon']))
                 <div class="timeline-icon mb-2">
-                    <svg class="icon icon-md icon-primary" aria-hidden="true">
-                        <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $item['icon']) }}"></use>
-                    </svg>
+                    <x-icon :name="$item['icon']" class="icon-md icon-primary" />
                 </div>
                 @endif
                 
@@ -92,9 +90,7 @@
                     {{-- Icon (if provided) --}}
                     @if(isset($item['icon']))
                     <div class="timeline-icon mb-2 {{ $loop->even ? 'md:flex md:justify-end' : '' }}">
-                        <svg class="icon icon-md icon-primary" aria-hidden="true">
-                            <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $item['icon']) }}"></use>
-                        </svg>
+                        <x-icon :name="$item['icon']" class="icon-md icon-primary" />
                     </div>
                     @endif
                     
