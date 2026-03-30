@@ -13,7 +13,7 @@ const API_CACHE = 'fixcity-api-v1.0.0';
 // Risorse statiche da cachare immediatamente
 const STATIC_ASSETS = [
   '/',
-  '/site.webmanifest',
+  '/manifest.json',
   '/css/app.css',
   '/js/app.js',
   '/icons/icon-192x192.png',
