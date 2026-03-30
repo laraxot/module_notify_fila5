@@ -1,22 +1,14 @@
 <div>
     {{--
-        FixCity Homepage - Cinematic Improvement
-        @see _bmad/bmm/2-plan/fixcity-homepage-improvement-prd.json
-        @see _bmad/bmm/3-solutioning/fixcity-homepage-architecture.md
+	@include('pub_theme::layouts.home.hero')
+
+	<div class="max-w-[calc(100%-30px)] sm:max-w-[calc(100%-80px)] lg:max-w-[996px] mx-auto pb-12">
+
+		@include('pub_theme::layouts.home.hot_topics')
+		@include('pub_theme::layouts.home.play_money_markets')
+		@include('pub_theme::layouts.home.faq')
+
+	</div>
     --}}
-    
-    {{-- Hero Section Cinematografica --}}
-    @include('pub_theme::components.blocks.hero.cinematic-homepage')
-    
-    {{-- Trust Bar con Statistiche --}}
-    @include('pub_theme::components.blocks.trust.bar')
-    
-    {{-- Featured Markets Grid --}}
-    @include('pub_theme::components.blocks.markets.featured-grid')
-    
-    {{-- CMS Content (container0/slug0 pattern) --}}
-    <x-page side="content" slug="home" />
-    
-    {{-- Footer Cinematico --}}
-    @include('pub_theme::components.sections.footer')
+     <x-page side="content" slug="home" />
 </div>
