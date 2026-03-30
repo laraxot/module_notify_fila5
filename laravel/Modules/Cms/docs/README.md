@@ -28,7 +28,6 @@ Modules/Cms/
 - [Processo Build Tema](./theme-build-process.md)
 - [Architettura Frontend](./frontend-architecture/struttura-homepage.md)
 - [Testing Guidelines](./tests/architecture-separation-rules.md)
-- [FixCity Pages Content Blocks](./fixcity-pages-content-blocks.md) ⭐ **CONVERSIONE PAGINE**
 
 ### Moduli Correlati
 - [Modulo UI - Blocchi](../../UI/docs/blocks-system.md)
