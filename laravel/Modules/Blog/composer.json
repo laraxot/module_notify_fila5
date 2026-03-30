@@ -46,8 +46,7 @@
         "staudenmeir/laravel-adjacency-list": "*",
         "spatie/laravel-feed": "*",
         "staudenmeir/eloquent-has-many-deep": "*",
-        "filament/spatie-laravel-tags-plugin": "*",
-        "codewithdennis/filament-select-tree": "*"
+        "filament/spatie-laravel-tags-plugin": "^5.0"
     },
     "config": {
         "allow-plugins": {

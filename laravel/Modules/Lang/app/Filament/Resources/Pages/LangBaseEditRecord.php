@@ -10,7 +10,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 
 abstract class LangBaseEditRecord extends XotBaseEditRecord
 {
-    use Translatable;
+    
 
     protected static string $resource; // = SectionResource::class;
 

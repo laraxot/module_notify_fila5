@@ -17,9 +17,9 @@
         "filament/forms": "^5.0",
         "filament/tables": "^5.0",
         "filament/actions": "^5.0",
-        "filament/widgets": "^3.2",
-        "filament/notifications": "^3.2",
-        "filament/infolists": "^3.2"
+        "filament/widgets": "^5.0",
+        "filament/notifications": "^5.0",
+        "filament/infolists": "^5.0"
     },
     "authors": [
         {
@@ -38,7 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Themes\\Sixteen\\": ""
+            "Themes\\Sixteen\\": "app/"
         }
     },
     "autoload-dev": {
@@ -53,9 +53,9 @@
             "wikimedia/composer-merge-plugin": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "prefer-stable": true,
     "require-dev": {
-        "orchestra/testbench": "^9.4"
+        "orchestra/testbench": "^10.0"
     }
 }
