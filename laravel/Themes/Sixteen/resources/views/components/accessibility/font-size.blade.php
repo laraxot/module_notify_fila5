@@ -62,13 +62,7 @@
             data-font-size-decrease
             title="Diminuisci la dimensione del testo"
         >
-<<<<<<< HEAD
             <x-heroicon-o-minus class="h-4 w-4" />
-||||||| parent of f2e0249c (.)
-            <x-filament::icon icon="heroicon-o-minus class="h-4 w-4"" />
-=======
-            <x-filament::icon icon="heroicon-o-minus" class="h-4 w-4" />
->>>>>>> f2e0249c (.)
         </button>
         
         <select 
@@ -95,13 +89,7 @@
             data-font-size-increase
             title="Aumenta la dimensione del testo"
         >
-<<<<<<< HEAD
             <x-heroicon-o-plus class="h-4 w-4" />
-||||||| parent of f2e0249c (.)
-            <x-filament::icon icon="heroicon-o-plus class="h-4 w-4"" />
-=======
-            <x-filament::icon icon="heroicon-o-plus" class="h-4 w-4" />
->>>>>>> f2e0249c (.)
         </button>
     </div>
     

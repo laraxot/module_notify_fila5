@@ -63,13 +63,7 @@
                                 class="inline-flex items-center text-{{ $feature['color'] ?? 'blue' }}-600 hover:text-{{ $feature['color'] ?? 'blue' }}-700 font-medium transition-colors duration-300"
                             >
                                 Scopri di più
-<<<<<<< HEAD
                                 <x-heroicon-o-arrow-right class="w-4 h-4 ml-2" />
-||||||| parent of f2e0249c (.)
-                                <x-filament::icon icon="heroicon-o-arrow-right class="w-4 h-4 ml-2"" />
-=======
-                                <x-filament::icon icon="heroicon-o-arrow-right" class="w-4 h-4 ml-2" />
->>>>>>> f2e0249c (.)
                             </a>
                         @endif
                     </div>

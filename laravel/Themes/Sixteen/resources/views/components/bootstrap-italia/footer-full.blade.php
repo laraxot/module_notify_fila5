@@ -190,7 +190,7 @@
                     </div>
                 </div>
 
-                {{-- Social - Using automatic SVG registration --}}
+                {{-- Social - Using Filament icon component --}}
                 <div class="col-md-3 mt-md-4 footer-items-wrapper">
                     <h4 class="footer-heading-title">Seguici su</h4>
                     <ul class="list-inline text-start social">
@@ -198,7 +198,7 @@
                         <li class="list-inline-item">
                             <a class="p-1 text-white" href="{{ $social['url'] }}" target="_blank">
                                 <x-filament::icon
-                                    :icon="'ui-brands.' . $social['icon']"
+                                    :icon="'brands.' . $social['icon']"
                                     class="icon icon-sm icon-white align-top"
                                 />
                                 <span class="visually-hidden">{{ ucfirst($social['platform']) }}</span>
