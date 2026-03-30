@@ -17,9 +17,9 @@
         "role": "Developer"
     }],
     "require": {
-        "filament/filament": "^3.4",
-        "filament/tables": "^3.4",
-        "filament/forms": "^3.4"
+        "filament/filament": "^5.0",
+        "filament/tables": "^5.0",
+        "filament/forms": "^5.0"
     },
     "extra": {
         "laravel": {
@@ -50,9 +50,9 @@
             "wikimedia/composer-merge-plugin": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "prefer-stable": true,
     "require-dev": {
-        "orchestra/testbench": "^9.4"
+        "orchestra/testbench": "^10.0"
     }
 }
