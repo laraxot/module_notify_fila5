@@ -2,20 +2,16 @@
 
 ## Overview
 
-Il modulo **Rating** fa parte dell'ecosistema Laraxot PTVX e gestisce i sistemi di valutazione e recensione per entità del dominio.
+Il modulo **Rating** fa parte dell'ecosistema Laraxot PTVX.
 
 ## Scopo
 
-Questo modulo gestisce:
-- Valutazioni (rating) a stelle o numeriche
-- Recensioni utente con moderazione
-- Calcolo medie e statistiche
-- Integrazione con entità valutabili (prodotti, servizi, etc.)
+Questo modulo gestisce [DESCRIZIONE SPECIFICA DA COMPLETARE].
 
 ## Struttura
 
 ```
-laravel/Modules/Rating/
+Rating/
 ├── app/
 │   ├── Models/
 │   ├── Filament/
@@ -28,41 +24,21 @@ laravel/Modules/Rating/
 ## Dipendenze
 
 - [Xot Base](../Xot/docs/)
-- [User Module](../User/docs/) - Autenticazione
-- [Tenant Module](../Tenant/docs/) - Multi-tenancy
+- [User Module](../User/docs/) (se usa autenticazione)
+- [Tenant Module](../Tenant/docs/) (se multi-tenant)
 
 ## Collegamenti
 
-- [Documentazione Root](../../../../docs/README.md)
+- [Documentazione Root](../../../docs/RATING_MODULE.md)
 - [Regole Architecture](../Xot/docs/architecture/)
-- [Master Module Index](../README.md)
 
 ## Backlinks
 
 - [Indice Moduli](../README.md)
 
-## Modelli Principali
+## TODO
 
-```php
-// Rating model
-Modules\Rating\Models\Rating
-
-// Review model
-Modules\Rating\Models\Review
-```
-
-## Utilizzo
-
-```php
-// Create rating
-$rating = Rating::create([
-    'rating' => 5,
-    'comment' => 'Excellent!',
-    'user_id' => $user->id,
-    'rateable_type' => Product::class,
-    'rateable_id' => $product->id,
-]);
-
-// Get average
-$average = Rating::getAverageFor($product);
-```
+- [ ] Completare descrizione funzionalità
+- [ ] Documentare modelli principali
+- [ ] Documentare risorse Filament
+- [ ] Aggiungere esempi codice
