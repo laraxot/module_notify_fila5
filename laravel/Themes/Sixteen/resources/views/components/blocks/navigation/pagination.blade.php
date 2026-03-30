@@ -50,7 +50,7 @@
                     class="{$sizeClasses} text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     aria-label="Prima pagina"
                 >
-                    <x-filament::icon icon="heroicon-o-chevron-double-left class="h-4 w-4"" />
+                    <x-heroicon-o-chevron-double-left class="h-4 w-4" />
                 </a>
             </li>
         @endif
@@ -62,7 +62,7 @@
                     class="{$sizeClasses} text-gray-500 bg-white border border-gray-300 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     aria-label="Pagina precedente"
                 >
-                    <x-filament::icon icon="heroicon-o-chevron-left class="h-4 w-4"" />
+                    <x-heroicon-o-chevron-left class="h-4 w-4" />
                 </a>
             </li>
         @endif
@@ -94,7 +94,7 @@
                     class="{$sizeClasses} text-gray-500 bg-white border border-gray-300 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     aria-label="Pagina successiva"
                 >
-                    <x-filament::icon icon="heroicon-o-chevron-right class="h-4 w-4"" />
+                    <x-heroicon-o-chevron-right class="h-4 w-4" />
                 </a>
             </li>
         @endif
@@ -106,7 +106,7 @@
                     class="{$sizeClasses} text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     aria-label="Ultima pagina"
                 >
-                    <x-filament::icon icon="heroicon-o-chevron-double-right class="h-4 w-4"" />
+                    <x-heroicon-o-chevron-double-right class="h-4 w-4" />
                 </a>
             </li>
         @endif

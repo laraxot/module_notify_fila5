@@ -70,10 +70,10 @@ npm run build
 ### In Blade Templates
 
 ```blade
-{{-- CORRECT: Filament icon component --}}
+{{-- CORRECT: Use Filament icon component --}}
 <a href="#" aria-label="Facebook">
     <x-filament::icon 
-        icon="ui-brands.facebook" 
+        icon="heroicon-o-facebook" 
         class="w-6 h-6"
         aria-hidden="true" 
     />
@@ -91,14 +91,6 @@ npm run build
     <use href="#it-facebook"></use>
 </svg>
 ```
-
-### Available Icon Sources
-
-| Source | Format | Example |
-|--------|--------|---------|
-| **UI Brands** | `ui-brands.{name}` | `ui-brands.facebook` |
-| **Heroicons** | `heroicon-o-{name}` | `heroicon-o-arrow-right` |
-| **Bootstrap Italia** | `#it-{name}` | `#it-facebook` |
 
 ### Available Icons
 

@@ -129,7 +129,7 @@
                                     <li>
                                         <a class="dropdown-item" href="{{ $dropdownItem['href'] ?? '#' }}">
                                             @if(!empty($dropdownItem['icon']))
-                                                <x-filament::icon icon="heroicon-o-{{ $dropdownItem['icon'] }} class="me-2"" />
+                                                <x-heroicon-o-{{ $dropdownItem['icon'] }} class="me-2" />
                                             @endif
                                             {{ $dropdownItem['text'] }}
                                         </a>
@@ -151,7 +151,7 @@
                                 @endif
                             >
                                 @if(!empty($item['icon']))
-                                    <x-filament::icon icon="heroicon-o-{{ $item['icon'] }} class="me-1"" />
+                                    <x-heroicon-o-{{ $item['icon'] }} class="me-1" />
                                 @endif
                                 {{ $item['text'] }}
                             </a>
@@ -181,7 +181,7 @@
                                     x-on:click="performSearch()"
                                     aria-label="Esegui ricerca"
                                 >
-                                    <x-filament::icon icon="heroicon-o-magnifying-glass class="w-4 h-4"" />
+                                    <x-heroicon-o-magnifying-glass class="w-4 h-4" />
                                 </button>
                             </div>
                         </form>
@@ -215,7 +215,7 @@
                                 <li>
                                     <a class="dropdown-item" href="{{ $userItem['href'] ?? '#' }}">
                                         @if(!empty($userItem['icon']))
-                                            <x-filament::icon icon="heroicon-o-{{ $userItem['icon'] }} class="me-2"" />
+                                            <x-heroicon-o-{{ $userItem['icon'] }} class="me-2" />
                                         @endif
                                         {{ $userItem['text'] }}
                                     </a>

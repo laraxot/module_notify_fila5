@@ -62,7 +62,7 @@
             data-font-size-decrease
             title="Diminuisci la dimensione del testo"
         >
-            <x-filament::icon icon="heroicon-o-minus class="h-4 w-4"" />
+            <x-heroicon-o-minus class="h-4 w-4" />
         </button>
         
         <select 
@@ -89,7 +89,7 @@
             data-font-size-increase
             title="Aumenta la dimensione del testo"
         >
-            <x-filament::icon icon="heroicon-o-plus class="h-4 w-4"" />
+            <x-heroicon-o-plus class="h-4 w-4" />
         </button>
     </div>
     
