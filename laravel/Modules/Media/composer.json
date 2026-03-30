@@ -73,7 +73,7 @@
     "test-coverage": "vendor/bin/pest --coverage",
     "format": "vendor/bin/pint"
   },
-  "minimum-stability": "beta",
+  "minimum-stability": "dev",
   "prefer-stable": true,
   "config": {
     "allow-plugins": {

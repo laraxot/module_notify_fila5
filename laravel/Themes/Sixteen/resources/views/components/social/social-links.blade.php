@@ -73,11 +73,11 @@
                 class="{{ $sizeClasses[$size] }} {{ $platformConfig['bg'] }} {{ $platformConfig['color'] }} rounded-full flex items-center justify-center transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-current focus:ring-offset-2"
                 :aria-label="__('pub_theme::social.follow_on', ['platform' => $platformConfig['name']])"
             >
-                <x-filament::icon
-                    :icon="$platformConfig['icon']"
+                <x-filament::icon 
+                    :name="$platformConfig['icon']" 
                     class="w-5 h-5"
                 />
-
+                
                 <span class="sr-only">
                     {{ __('pub_theme::social.follow_on', ['platform' => $platformConfig['name']]) }}
                 </span>

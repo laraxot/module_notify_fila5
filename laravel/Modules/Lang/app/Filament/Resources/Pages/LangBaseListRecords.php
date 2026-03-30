@@ -12,7 +12,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 abstract class LangBaseListRecords extends XotBaseListRecords
 {
-    
+    use Translatable;
 
     protected static string $resource; // = SectionResource::class;
 
