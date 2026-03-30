@@ -4,6 +4,15 @@
 
 Il modulo **Tenant** implementa l'architettura multi-tenant per isolamento completo dei dati tra diversi tenant/organizzazioni.
 
+## Active Theme
+
+**Current Theme**: **Sixteen** (AGID/Bootstrap Italia compliant)  
+**Domain**: `fixcity.local`  
+**Config**: `laravel/config/localhost/xra.php` → `pub_theme`
+
+**Theme Documentation**: [Themes Index](../../Themes/docs/README.md)  
+**Theme Context**: [.planning/THEME_CONTEXT.md](../../../../.planning/THEME_CONTEXT.md)
+
 ## Architettura Multi-Tenant
 
 ### Approccio: Database-per-Tenant

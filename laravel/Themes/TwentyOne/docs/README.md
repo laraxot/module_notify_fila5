@@ -1,5 +1,14 @@
 # TwentyOne Theme Documentation
 
+## 📦 STATO TEMA
+
+**Status**: 📦 **TEMA DISPONIBILE**  
+**Activation**: Update `pub_theme` in `laravel/config/localhost/xra.php`  
+**Document Root**: `public_html/`  
+**Asset Path**: `public_html/themes/TwentyOne/`
+
+**Active Theme**: See [Sixteen Theme](../Sixteen/docs/README.md) for current active theme.
+
 ## Introduzione
 TwentyOne è un tema moderno e performante per Laravel, basato su Tailwind CSS e Vite.
 Questo tema è progettato per offrire una soluzione robusta e facilmente personalizzabile
