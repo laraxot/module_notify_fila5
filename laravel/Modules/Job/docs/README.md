@@ -44,3 +44,6 @@ Job\Services\QueueManager
 
 - [Queue Config](./queue/)
 - [Failed Jobs](./failed/)
+
+## AI Workflows
+- [AI Methodologies](./ai-methodologies.md)
