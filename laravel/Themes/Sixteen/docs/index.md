@@ -29,6 +29,7 @@ Questo indice organizza tutta la documentazione del tema Sixteen per facilitare 
 ### Configurazione Build
 - **[vite-configuration-rules.md](vite-configuration-rules.md)** - Regole per configurazione Vite
 - **[vite-theme-integration.md](vite-theme-integration.md)** - Integrazione Vite con tema
+- **[active-theme-resolution-and-vite-manifest.md](active-theme-resolution-and-vite-manifest.md)** - Risoluzione del tema attivo da APP_URL e procedura corretta per rigenerare il manifest Vite
 - **[vite-asset-loading-correction.md](vite-asset-loading-correction.md)** - Correzione caricamento asset
 - **[vite-configuration-correction-complete.md](vite-configuration-correction-complete.md)** - Correzione completa configurazione
 - **[vite-correction-summary.md](vite-correction-summary.md)** - Riassunto correzioni Vite
