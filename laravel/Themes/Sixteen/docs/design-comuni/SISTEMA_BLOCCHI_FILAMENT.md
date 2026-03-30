@@ -87,17 +87,11 @@ Ogni pagina JSON deve essere pensata come composizione, non come dump:
                 }
             },
             {
-                "type": "feature_sections",
+                "type": "tests",
                 "data": {
-                    "view": "pub_theme::components.blocks.features.grid",
-                    "title": "Caratteristiche",
-                    "sections": [
-                        {
-                            "title": "Feature 1",
-                            "description": "Descrizione",
-                            "icon": "it-services"
-                        }
-                    ]
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Contenuto principale",
+                    "body_text": "Una pagina reale viene scomposta in blocchi coerenti con il proprio tipo e con la cartella della view."
                 }
             },
             {
@@ -123,6 +117,21 @@ Per il rollout delle pagine statiche Design Comuni e` legittimo creare prima il 
 - aggancio a `x-page`
 
 Pero` il lavoro non si considera concluso finche` la pagina non viene spezzata in blocchi logici.
+
+## Regola type -> view
+
+Se il blocco ha tipo `tests`, la view deve stare sotto `pub_theme::components.blocks.tests.*`.
+
+Esempi corretti:
+- `type: hero` -> `pub_theme::components.blocks.hero.main`
+- `type: services` -> `pub_theme::components.blocks.services.grid`
+- `type: tests` -> `pub_theme::components.blocks.tests.intro`
+
+Esempi sbagliati:
+- `type: page_block` con `view: pub_theme::components.blocks.tests.appuntamento-conferma`
+- `type: feature_sections` con `view: pub_theme::components.blocks.features.grid`
+
+Il `type` identifica la famiglia del blocco. La cartella della view deve riflettere la stessa famiglia.
 
 ## Processo corretto di conversione pagina
 

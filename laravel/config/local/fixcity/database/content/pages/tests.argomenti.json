@@ -2,7 +2,7 @@
     "id": "tests.argomenti",
     "title": {
         "it": "Argomenti",
-        "en": "Argomenti"
+        "en": "Topics"
     },
     "slug": "tests.argomenti",
     "content": null,
@@ -10,22 +10,48 @@
         "it": [
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "type": "navigation",
 ||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
                 "type": "breadcrumb",
 =======
                 "type": "page_block",
 >>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
+||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
+                "type": "page_block",
+=======
+                "type": "tests",
+>>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
                 "data": {
+<<<<<<< HEAD
 <<<<<<< HEAD
                     "view": "pub_theme::components.blocks.navigation.breadcrumb",
                     "items": [],
                     "currentPage": "Argomenti",
                     "background": "white"
+||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Argomenti",
+                    "category": "Generali",
+                    "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
+                    "slug": "tests.argomenti"
+=======
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Argomenti",
+                    "summary": "Esplora i contenuti del Comune per area tematica tramite una pagina CMS composta da blocchi riutilizzabili.",
+                    "category": "Design Comuni / Test",
+                    "slug": "tests.argomenti"
+>>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
                 }
             },
             {
+<<<<<<< HEAD
                 "type": "hero",
+||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
+                "type": "page_block",
+=======
+                "type": "tests",
+>>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
                 "data": {
                     "view": "pub_theme::components.blocks.hero.page-intro",
                     "eyebrow": "Amministrazione",
@@ -115,12 +141,21 @@
                     "title": "Come cercare",
 =======
                     "view": "pub_theme::components.blocks.tests.argomenti",
+<<<<<<< HEAD
                     "title": "Argomenti",
                     "category": "Generali",
                     "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
                     "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html",
                     "slug": "tests.argomenti",
 >>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
+||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
+                    "title": "Argomenti",
+                    "category": "Generali",
+                    "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html",
+                    "slug": "tests.argomenti",
+=======
+>>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
                     "items": [
                         {
 <<<<<<< HEAD
@@ -190,12 +225,18 @@
             },
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "type": "topics",
 ||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
                 "type": "cta",
 =======
                 "type": "page_block",
 >>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
+||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
+                "type": "page_block",
+=======
+                "type": "tests",
+>>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
                 "data": {
 <<<<<<< HEAD
                     "view": "pub_theme::components.blocks.topics.grid",
@@ -261,7 +302,7 @@
                 }
             },
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.source-link",
                     "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html"

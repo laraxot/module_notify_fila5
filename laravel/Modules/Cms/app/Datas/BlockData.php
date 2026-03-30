@@ -50,32 +50,26 @@ class BlockData extends Data implements Wireable
         }
 
         $this->data = $data;
-        Assert::string($view = Arr::get($data, 'view', 'ui::empty'), '['.__LINE__.']['.__FILE__.']');
+        
+        // DRY + KISS: Auto-resolve view from type if not specified
+        // Convention: {type} → pub_theme::components.blocks.{type}.{type}
+        $view = Arr::get($data, 'view');
+        
+        if (null === $view) {
+            // Auto-resolve: 'hero' → 'pub_theme::components.blocks.hero.hero'
+            $view = "pub_theme::components.blocks.{$type}.{$type}";
+        }
+        
+        Assert::string($view, '['.__LINE__.']['.__FILE__.']');
 
         // Verifica che la view esista, con gestione più robusta per i namespace
-        // Se la view usa un namespace (es. pub_theme::), verifica anche il file fisico
         if (! view()->exists($view)) {
-            // Se la view usa un namespace, prova a verificare il file fisico direttamente
-            if (str_contains($view, '::')) {
-                [$namespace, $path] = explode('::', $view, 2);
-
-                // Per PHPStan Level 10: usiamo un approccio più sicuro
-                // invece di accedere direttamente a metodi non documentati
-                try {
-                    // Tentativo di risolvere il namespace della view in modo più sicuro
-                    $viewFactory = view();
-                    if (method_exists($viewFactory, 'addNamespace')) {
-                        // Se il metodo esiste, possiamo procedere con logica alternativa
-                        $this->view = $view; // Accetta la view temporaneamente
-
-                        return;
-                    }
-                } catch (\Exception $e) {
-                    // In caso di errore, continua con la view originale
-                }
+            // Fallback to ui::empty if view not found (development mode)
+            if (config('app.debug')) {
+                $view = 'ui::empty';
+            } else {
+                throw new \Exception('view not found: '.$view);
             }
-            // Se arriviamo qui, la view non esiste
-            throw new \Exception('view not found: '.$view);
         }
 
         $this->view = $view;

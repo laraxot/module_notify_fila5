@@ -9,7 +9,7 @@
     "content_blocks": {
         "it": [
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Segnalazione disservizio - Scheda servizio",
@@ -19,7 +19,7 @@
                 }
             },
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.body",
                     "body_title": "Scenario di conversione",
@@ -27,13 +27,13 @@
                 }
             },
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.governance-note"
                 }
             },
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.source-link",
                     "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-dettaglio.html"

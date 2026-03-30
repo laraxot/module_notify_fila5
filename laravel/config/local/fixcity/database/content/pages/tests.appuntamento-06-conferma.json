@@ -2,31 +2,26 @@
     "id": "tests.appuntamento-06-conferma",
     "title": {
         "it": "Appuntamento confermato",
-        "en": "Appuntamento confermato"
+        "en": "Appointment confirmed"
     },
     "slug": "tests.appuntamento-06-conferma",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Appuntamento confermato",
-                    "category": "Prenotazione Appuntamento",
-                    "summary": "La schermata con la conferma della prenotazione appuntamento.",
+                    "summary": "La prenotazione e stata registrata. Questa pagina demo e composta da piu blocchi CMS ordinabili e riusabili.",
+                    "category": "Design Comuni / Test",
                     "slug": "tests.appuntamento-06-conferma"
                 }
             },
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.appuntamento-conferma",
-                    "title": "Appuntamento confermato",
-                    "category": "Prenotazione Appuntamento",
-                    "summary": "La schermata con la conferma della prenotazione appuntamento.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-06-conferma.html",
-                    "slug": "tests.appuntamento-06-conferma",
                     "steps": [
                         {
                             "title": "Dati del richiedente",
@@ -51,13 +46,13 @@
                 }
             },
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.governance-note"
                 }
             },
             {
-                "type": "page_block",
+                "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.source-link",
                     "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-06-conferma.html"

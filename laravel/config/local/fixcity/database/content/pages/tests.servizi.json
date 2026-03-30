@@ -1,42 +1,114 @@
 {
-    "id": "tests.servizi",
+    "id": "tests-servizi",
     "title": {
         "it": "Servizi",
-        "en": "Servizi"
+        "en": "Services"
     },
     "slug": "tests.servizi",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "page_block",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/"},
+                        {"label": "Servizi", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
                     "title": "Servizi",
-                    "category": "Servizi",
-                    "summary": "La pagina lista di primo livello per la sezione Servizi.",
-                    "slug": "tests.servizi"
+                    "subtitle": "Servizi digitali del Comune",
+                    "content": "<p>Accedi ai servizi online. Autenticati con SPID o CIE per usufruire dei servizi digitali.</p>",
+                    "background_color": "bg-white",
+                    "text_color": "text-gray-900"
                 }
             },
             {
-                "type": "page_block",
+                "type": "feature_sections",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "La pagina servizi richiede almeno intro, categorie, servizi in evidenza e ricerca contestuale."
+                    "view": "pub_theme::components.blocks.feature_sections.default",
+                    "title": "Tutti i servizi",
+                    "sections": [
+                        {
+                            "title": "Carta d'identità",
+                            "description": "Richiesta e rinnovo carta d'identità elettronica",
+                            "icon": "it-card"
+                        },
+                        {
+                            "title": "Residenza",
+                            "description": "Cambi di residenza e certificati",
+                            "icon": "it-home"
+                        },
+                        {
+                            "title": "Stato di famiglia",
+                            "description": "Certificati e visure",
+                            "icon": "it-users"
+                        },
+                        {
+                            "title": "TARI",
+                            "description": "Tassa sui rifiuti",
+                            "icon": "it-waste"
+                        },
+                        {
+                            "title": "Scuola",
+                            "description": "Iscrizioni scolastiche e servizi mensa",
+                            "icon": "it-school"
+                        },
+                        {
+                            "title": "Mobilità",
+                            "description": "Trasporti pubblici e parcheggi",
+                            "icon": "it-bus"
+                        }
+                    ]
                 }
             },
             {
-                "type": "page_block",
+                "type": "paragraph",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
+                    "view": "pub_theme::components.blocks.paragraph.default",
+                    "content": "<h3 class=\"text-xl font-bold mb-4\">Come accedere ai servizi</h3><p class=\"mb-4\">Per accedere ai servizi digitali è necessario autenticarsi con una delle identità digitali riconosciute:</p><ul class=\"list-disc list-inside space-y-2\"><li><strong>SPID</strong> - Sistema Pubblico di Identità Digitale</li><li><strong>CIE</strong> - Carta d'Identità Elettronica</li><li><strong>CNS</strong> - Carta Nazionale dei Servizi</li></ul>",
+                    "class": "py-6 bg-gray-50"
                 }
             },
             {
-                "type": "page_block",
+                "type": "info",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/servizi.html"
+                    "view": "pub_theme::components.blocks.info.default",
+                    "title": "Assistenza",
+                    "items": [
+                        {
+                            "icon": "phone",
+                            "title": "Telefono",
+                            "description": "Chiama il numero verde 800 123 456"
+                        },
+                        {
+                            "icon": "email",
+                            "title": "Email",
+                            "description": "Scrivi a servizi@comune.it"
+                        },
+                        {
+                            "icon": "location",
+                            "title": "Di persona",
+                            "description": "Vieni negli uffici comunali"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta",
+                "data": {
+                    "view": "pub_theme::components.blocks.cta.default",
+                    "title": "Accedi con SPID o CIE",
+                    "description": "Per usufruire dei servizi digitali è necessario autenticarsi",
+                    "button_text": "Accedi ora",
+                    "button_url": "/login",
+                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
                 }
             }
         ],
