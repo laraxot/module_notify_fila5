@@ -53,7 +53,6 @@
 - [Storage Contenuti](./content-storage.md) - Archiviazione dei contenuti
 - [Mappatura JSON Contenuti](./content_json_mapping.md) - Mappatura dei contenuti JSON
 - [CMS-Driven Pages](./cms-driven-pages-system.md) - Sistema pagine JSON con container0/slug0
-- [Sistema Content Blocks](./content-blocks-system.md) - Regola architetturale dei blocchi JSON, anti-monoblocco, Builder Filament 5.x
 
 ### Volt e Folio
 - [Introduzione Volt](./volt-introduction.md) - Introduzione a Laravel Volt
@@ -105,20 +104,3 @@
 
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice del modulo CMS, consultare la documentazione pertinente e aggiornare i documenti correlati.
-<<<<<<< HEAD
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-
-### Frontoffice Tests Pages
-- [Tests Pages: Folio + Volt + x-page](./frontoffice/tests-pages-folio-volt-x-page.md) - Regola architetturale per pagine test theme-driven
-=======
-
-### Frontoffice Tests Pages
-- [Tests Pages: Folio + Volt + x-page](./frontoffice/tests-pages-folio-volt-x-page.md) - Regola architetturale per pagine test theme-driven
-- [Tests Page Slug Pattern](./frontoffice/tests-page-slug-pattern.md) - Mapping `tests.{slug}` e policy per collisioni di slug
-<<<<<<< HEAD
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-=======
-
-- [Multi-Block Page Builder Governance](./frontoffice/multi-block-page-builder-governance.md) - Regola CMS per comporre pagine pubbliche come sequenze di blocchi editabili con builder Filament e contratto type/view coerente
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
