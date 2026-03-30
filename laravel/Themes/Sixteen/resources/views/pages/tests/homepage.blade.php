@@ -19,7 +19,9 @@ new class extends Component {
     public function mount(): void
     {
         $this->pageSlug = 'tests.homepage';
-        $this->data = [];
+        $this->data = [
+            'slug' => 'homepage',
+        ];
     }
 };
 ?>
