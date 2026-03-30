@@ -3,8 +3,10 @@
     Source: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
     Category: Generali
     
-    NOTE: Header e Footer sono sezioni richiamate con <x-section slug="header" />
-    Componenti si registrano con namespace pub_theme::
+    NOTE: 
+    - Header e Footer sono sezioni richiamate con <x-section slug="header" />
+    - Componenti si registrano con namespace pub_theme::
+    - CSS: Tailwind CSS 4 (design-comuni.css) - NO Bootstrap
 --}}
 
 @extends('pub_theme::layouts.app')
@@ -160,10 +162,7 @@
 
 @endsection
 
-@push('scripts')
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Inizializza componenti Bootstrap Italia
-    });
-</script>
-@endpush
+{{-- 
+NOTE: Il CSS Tailwind è già incluso in app.css
+Non serve aggiungere @vite per CSS separati
+--}}
