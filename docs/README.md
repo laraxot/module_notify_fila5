@@ -1,233 +1,264 @@
-# Documentazione Progetto base_fixcity_fila5_mono
+# FixCity Documentation
 
-**Progetto:** FixCity - Sistema Gestionale Multi-Modulo  
-**Versione:** 4.0  
-**Framework:** Laravel 11.x/12.x + Filament 3.x/4.x  
-**Aggiornato:** 10 Ottobre 2025
+**Project**: FixCity Platform  
+**Theme**: Sixteen (Active)  
+**Document Root**: public_html/  
+**Last Updated**: 2026-03-30
 
-## 📚 Indice
+## 🚀 Quick Start
 
-### 🎯 Guide Principali
-- [Struttura Progetto](./struttura-progetto.md)
-- [Architettura Sistema](./architettura.md)
-- [Convenzioni Codice](./convenzioni-codice.md)
+| I want to... | Go to... |
+|--------------|----------|
+| Understand project structure | [Project Configuration](project/configuration.md) |
+| Learn AI workflow (BMAD+GSD+Ralph) | [AI Workflow](project/ai-workflow/) |
+| Find module documentation | [Module Index](modules/index.md) |
+| Find theme documentation | [Theme Index](themes/index.md) |
+| Check coding standards | [Conventions](project/conventions/) |
 
-### 🤖 AI Workflow Integration (NEW!)
-- [**Setup Complete Report**](./OPENVIKING_BMAD_GSD_RALPH_COMPLETE.md) ⭐
-- [**Unified AI Workflow**](./unified-ai-workflow.md) 🚀
-- [OpenViking Integration](./openviking-integration.md)
-- [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
+## 📚 Documentation Sections
 
-### 🏆 Qualità Codice
-- [**PHPStan: Riepilogo Generale**](./phpstan/riepilogo-generale.md) ⭐
-- [PHPStan: Lezioni Apprese](./phpstan/lezioni-apprese-2025-10-10.md)
-- [PHPStan: Pattern Comuni](./phpstan/pattern-comuni.md)
+### Project Documentation
 
-### 🚨 Regole Critiche
-- [**PHPStan: MAI Escludere Test**](./regole-critiche/phpstan-test-mai-escludere.md) 🔴
-- [Link Relativi nei File .md](./regole-critiche/link-relativi.md)
-- [Traduzione: MAI label() Hardcoded](./regole-critiche/traduzione-no-label.md)
+Documentation that applies to the entire project:
 
-### 📦 Moduli
+- **[Configuration](project/configuration.md)** - Theme detection, paths, environment
+- **[AI Workflow](project/ai-workflow/)** - BMAD, GSD, Ralph Loop, OpenViking integration
+- **[Conventions](project/conventions/)** - Coding standards, naming, structure
 
-#### Activity Module
-- [README](../laravel/Modules/Activity/README.md)
-- [PHPStan Compliance](../laravel/Modules/Activity/docs/phpstan-compliance.md) ✅
-- [Best Practices](../laravel/Modules/Activity/docs/phpstan/best-practices.md)
-- [Correzioni 2025-10-10](../laravel/Modules/Activity/docs/phpstan/correzioni-2025-10-10.md)
+### Module Documentation
 
-#### Blog Module
-- [README](../laravel/Modules/Blog/README.md)
-- [PHPStan Compliance](../laravel/Modules/Blog/docs/phpstan-compliance.md) ✅
-- [Best Practices](../laravel/Modules/Blog/docs/phpstan/best-practices.md)
-- [Correzioni 2025-10-10](../laravel/Modules/Blog/docs/phpstan/correzioni-2025-10-10.md)
+Module-specific documentation:
 
-#### Altri Moduli
-- [Dental Module](../laravel/Modules/Dental/README.md) ⏳
-- [Patient Module](../laravel/Modules/Patient/README.md) ⏳
-- [Reporting Module](../laravel/Modules/Reporting/README.md) ⏳
-- [User Module](../laravel/Modules/User/README.md) ⏳
-- [Xot Module](../laravel/Modules/Xot/README.md) ⏳
+- **[Module Index](modules/index.md)** - List of all modules with docs
+- AI Module - [Docs](../../laravel/Modules/AI/docs/)
+- Activity Module - [Docs](../../laravel/Modules/Activity/docs/)
+- Blog Module - [Docs](../../laravel/Modules/Blog/docs/)
+- [View all modules...](modules/index.md)
 
-### 🎨 Temi
-- [Theme One](../laravel/Themes/One/README.md)
-- [PHPStan Guide Theme One](../laravel/Themes/One/docs/phpstan-guide.md)
+### Theme Documentation
 
-## 🏆 Status Qualità Codice
+Theme-specific documentation:
 
-### PHPStan Level 10 Compliance
+- **Sixteen (Active)** - [Docs](../../laravel/Themes/Sixteen/docs/)
+- TwentyOne (Inactive) - [Docs](../../laravel/Themes/TwentyOne/docs/)
+- **[Theme Index](themes/index.md)** - Theme comparison and guides
 
-| Modulo | Status | Errori | Data |
-|--------|--------|--------|------|
-| Activity | ✅ Compliant | 0/230 | 10/10/2025 |
-| Blog | ✅ Compliant | 0/13 | 10/10/2025 |
-| Xot | ✅ Compliant | 0/304 | 10/10/2025 |
-| Dental | ⏳ Pending | - | - |
-| Patient | ⏳ Pending | - | - |
-| Reporting | ⏳ Pending | - | - |
-| User | ⏳ Pending | - | - |
+### Script Documentation
 
-**Progresso Totale:** 3/7 moduli (42.8%)  
-**Errori Corretti:** 547 (230+13+304)  
-**Target:** PHPStan Level 10 su TUTTI i moduli
+Utility script documentation:
 
-## 🎯 Quick Start
+- **[Bash Scripts](../../bashscripts/docs/)** - Automation scripts
+- AI Scripts - [Docs](../../bashscripts/docs/ai/)
+- System Scripts - [Docs](../../bashscripts/docs/system/)
 
-### Verifica PHPStan
-```bash
-cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+## 📖 Key Documents
 
-# Singolo modulo
-./vendor/bin/phpstan analyse Modules/ModuleName
+### Essential Reading
 
-# Tutti i moduli
-./vendor/bin/phpstan analyse Modules/
+1. **[AGENTS.md](../AGENTS.md)** - AI agent guidelines and commands
+2. **[Project Configuration](project/configuration.md)** - Theme, paths, setup
+3. **[AI Workflow](project/ai-workflow/)** - How to use BMAD+GSD+Ralph
+4. **[Coding Conventions](project/conventions/)** - Standards and best practices
+
+### For New Developers
+
+1. Start with [Project Configuration](project/configuration.md)
+2. Read [AI Workflow](project/ai-workflow/) to understand methodology
+3. Check [Module Index](modules/index.md) for your module
+4. Review [Coding Conventions](project/conventions/)
+
+### For AI Agents
+
+1. Read [.windsurfrules](../.windsurfrules) for project rules
+2. Check [Project Configuration](project/configuration.md) for theme/paths
+3. Use [Module Index](modules/index.md) to find relevant docs
+4. Follow [DRY + KISS](#dry--kiss-principles) principles
+
+## 🔍 Finding Documentation
+
+### By Topic
+
+| Topic | Location |
+|-------|----------|
+| Theme configuration | [Project Config](project/configuration.md) |
+| Module development | [Module Docs](modules/index.md) |
+| Frontend development | [Theme Docs](themes/index.md) |
+| AI workflow | [AI Workflow](project/ai-workflow/) |
+| Quality standards | [Conventions](project/conventions/) |
+| Scripts | [Bash Scripts Docs](../../bashscripts/docs/) |
+
+### By File Type
+
+- **`.md` files**: Documentation (this index)
+- **`.windsurfrules`**: AI agent rules
+- **`AGENTS.md`**: Project guidelines
+- **`README.md`**: Section index
+
+## 📐 Documentation Structure
+
+```
+docs/
+├── README.md                      # This file (master index)
+├── project/                       # Project-wide docs
+│   ├── configuration.md           # Theme, paths, environment
+│   ├── ai-workflow/               # BMAD, GSD, Ralph, OpenViking
+│   └── conventions/               # Coding standards
+├── modules/                       # Module index + links
+│   └── index.md                   # List of all module docs
+├── themes/                        # Theme index + links
+│   └── index.md                   # List of all theme docs
+└── conventions/                   # Coding conventions
+    └── README.md                  # Conventions index
 ```
 
-### Workflow Correzione
-1. **Analisi:** `./vendor/bin/phpstan analyse Modules/ModuleName`
-2. **Categorizzazione:** Raggruppa errori per tipo
-3. **Correzione:** Segui [Pattern Comuni](./phpstan/pattern-comuni.md)
-4. **Documentazione:** Aggiorna docs del modulo
-5. **Verifica:** 0 errori ✅
+## 🎯 DRY + KISS Principles
 
-## 📖 Lezioni Chiave
+### DRY (Don't Repeat Yourself)
 
-### 🚨 Regola Critica #1
-**MAI escludere test da PHPStan**
-- Test = codice di prima classe
-- Stessi standard di qualità
-- [Dettagli](./regole-critiche/phpstan-test-mai-escludere.md)
+**Rule**: Every piece of knowledge has ONE authoritative source.
 
-### ✅ Pattern Consolidati
+**Implementation**:
+- ✅ Project docs in `docs/`
+- ✅ Module docs in `laravel/Modules/*/docs/`
+- ✅ Theme docs in `laravel/Themes/*/docs/`
+- ❌ NO duplicates - use cross-reference links
 
-#### Factory nei Test
-```php
-$model = Model::factory()->create();
-assert($model instanceof Model);
+**Example**:
+```markdown
+<!-- WRONG: Duplicating content -->
+# PHPStan Guide
+[full content...]
+
+<!-- CORRECT: Cross-reference -->
+# PHPStan Guide
+See [Xot Module PHPStan Guide](../../laravel/Modules/Xot/docs/phpstan.md)
 ```
 
-#### Return Types Specifici
-```php
-/** @return list<ArticleData> */
-public function getArticles(): array { ... }
+### KISS (Keep It Simple, Stupid)
+
+**Rule**: Documentation should be essential and simple.
+
+**Implementation**:
+- ✅ Essential topics only
+- ✅ Max 3 levels of nesting
+- ✅ Clear, descriptive filenames
+- ✅ One topic per file
+
+**Example**:
+```markdown
+<!-- WRONG: Too complex -->
+guide/advanced/topic/subtopic/details.md (5 levels)
+
+<!-- CORRECT: Simple -->
+topic-guide.md (1 level)
 ```
 
-#### Safe Functions
-```php
-use function Safe\json_encode;
-use function Safe\json_decode;
+## 🔗 Cross-Reference Guidelines
+
+### Linking Between Sections
+
+```markdown
+# From module docs to project docs
+See [Project Configuration](../../../docs/project/configuration.md)
+
+# From theme docs to module docs
+See [Predict Module](../../../laravel/Modules/Predict/docs/)
+
+# From project docs to theme docs
+See [Sixteen Theme](../../laravel/Themes/Sixteen/docs/)
 ```
 
-#### Filament Arrays
-```php
-return [
-    'key' => Filter::make('key'),  // Chiavi stringa!
-];
-```
+### Link Format
 
-## 🔧 Configurazione PHPStan
+- Use relative paths: `../file.md`
+- Use descriptive text: `[Theme Configuration](...)`
+- Avoid absolute URLs in internal links
 
-### File Principale
-`/var/www/_bases/base_fixcity_fila5_mono/laravel/phpstan.neon`
+## 📊 Documentation Health
 
-```neon
-parameters:
-    level: max  # Level 10
-    paths:
-        - ./Modules/
-    
-    excludePaths:
-        - ./*/vendor/*
-        - ./*/docs/*
-        # MAI escludere tests!
-```
+| Metric | Target | Status |
+|--------|--------|--------|
+| Duplicate files | 0 | ⏳ Checking |
+| Broken links | 0 | ⏳ Checking |
+| Indexed docs | 100% | ✅ Complete |
+| Theme accuracy | 100% Sixteen | ✅ Complete |
 
-### Per Modulo
-Ogni modulo può avere `phpstan.neon.dist` con baseline.
+## 🛠️ Maintenance
 
-## 🎓 Best Practices Progetto
+### Adding New Documentation
 
-### Codice
-- ✅ PHPStan Level 10 sempre
-- ✅ Type hints espliciti
-- ✅ Return types specifici
-- ✅ Null safety (`??`, `?->`)
-- ✅ Safe functions
+1. **Choose location**:
+   - Project-wide → `docs/project/`
+   - Module-specific → `laravel/Modules/*/docs/`
+   - Theme-specific → `laravel/Themes/*/docs/`
 
-### Test
-- ✅ Inclusi in PHPStan
-- ✅ Assert dopo factory
-- ✅ Type hints nei closure
-- ✅ Ignore strategici
+2. **Follow naming**:
+   - Lowercase: `configuration.md`
+   - Kebab-case: `ai-workflow.md`
+   - No dates: `update.md` NOT `2026-03-30-update.md`
 
-### Documentazione
-- ✅ Aggiornata continuamente
-- ✅ Pattern documentati
-- ✅ Decisioni tracciate
-- ✅ Link relativi
+3. **Update index**:
+   - Add link to this README
+   - Add to relevant section index
 
-## 📊 Metriche
+4. **Cross-reference**:
+   - Link to related docs
+   - Add "See Also" section
 
-### Qualità
-- **PHPStan Level:** 10/10 ✅
-- **Errori Totali:** 243 corretti
-- **Test Coverage:** >80%
-- **Type Coverage:** ~95%
+### Removing Duplicates
 
-### Performance
-- **Tempo Correzione Modulo:** ~2h media
-- **Pattern Riutilizzabili:** 10+
-- **Documentazione:** Completa
+1. **Find duplicates**:
+   ```bash
+   bash bashscripts/docs/find-doc-duplicates.sh
+   ```
 
-## 🚀 Prossimi Passi
+2. **Review report**:
+   - Check `docs-duplicates-report.md`
 
-### Immediati
-1. ✅ Activity Module - Completato
-2. ✅ Blog Module - Completato
-3. ⏳ Dental Module - In piano
-4. ⏳ Patient Module - In piano
+3. **Consolidate**:
+   - Keep one copy
+   - Update references
+   - Use `git mv` to preserve history
 
-### Breve Termine
-- Completare moduli core
-- Script automazione pattern
-- CI/CD con PHPStan
+4. **Commit**:
+   ```bash
+   git commit -m "docs: Remove duplicates (DRY compliance)"
+   ```
 
-### Lungo Termine
-- Mantenere Level 10 su tutto
-- Monitoraggio continuo
-- Evoluzione pattern
+## 📝 Related Files
 
-## 📚 Risorse
+| File | Purpose |
+|------|---------|
+| [.windsurfrules](../.windsurfrules) | AI agent rules and project config |
+| [AGENTS.md](../AGENTS.md) | Project guidelines |
+| [COMMIT_MESSAGE.md](../COMMIT_MESSAGE.md) | Commit message standards |
 
-### Interne
-- [Lezioni Apprese](./phpstan/lezioni-apprese-2025-10-10.md)
-- [Pattern Comuni](./phpstan/pattern-comuni.md)
-- [Riepilogo Generale](./phpstan/riepilogo-generale.md)
+## 🆘 Help
 
-### Esterne
-- [PHPStan Docs](https://phpstan.org/)
-- [Laravel Docs](https://laravel.com/docs)
-- [Filament Docs](https://filamentphp.com/docs)
+### Finding Documentation
 
-## 🤝 Contribuire
+**Q**: Where do I find docs for [X]?  
+**A**: Check the [Module Index](modules/index.md) or [Theme Index](themes/index.md)
 
-### Workflow
-1. Branch per feature
-2. Seguire best practices
-3. PHPStan Level 10 ✅
-4. Documentare pattern
-5. Pull Request
+**Q**: How do I know which theme is active?  
+**A**: See [Project Configuration](project/configuration.md) - Theme Detection Algorithm
 
-### Checklist PR
-- [ ] PHPStan Level 10 (0 errori)
-- [ ] Test inclusi e corretti
-- [ ] Documentazione aggiornata
-- [ ] Pattern seguiti
-- [ ] Changelog aggiornato
+**Q**: Where are script docs?  
+**A**: [Bash Scripts Documentation](../../bashscripts/docs/)
+
+### Contributing
+
+1. Follow [DRY + KISS](#dry--kiss-principles)
+2. Use proper [naming conventions](#adding-new-documentation)
+3. Add to appropriate [index](#documentation-structure)
+4. Cross-reference related docs
 
 ---
 
-**Documentazione Progetto base_fixcity_fila5_mono**  
-**Qualità Codice - Zero Compromessi** 🏆  
-**Aggiornato:** 10 Ottobre 2025
+**Next Steps**:
+1. [Read Project Configuration](project/configuration.md)
+2. [Explore AI Workflow](project/ai-workflow/)
+3. [Check Module Index](modules/index.md)
+
+**Last Sync**: 2026-03-30  
+**Maintained By**: AI Agents + Development Team
