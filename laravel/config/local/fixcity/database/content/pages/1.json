@@ -11,9 +11,9 @@
             {
                 "type": "ticket_list",
                 "data": {
-                    "title": "aaa",
-                    "sub_title": "aa",
-                    "method": "aaaa",
+                    "title": "Segnalazioni dal territorio",
+                    "sub_title": "Problemi aperti, aggiornamenti e interventi recenti",
+                    "method": "latest_public_tickets",
                     "limit": null,
                     "view": "fixcity::components.blocks.ticket_list.agid"
                 }

@@ -49,7 +49,7 @@ class PWAMiddleware
         $response->headers->set('Service-Worker-Allowed', '/');
 
         // Header per manifest
-        $response->headers->set('Link', '</manifest.json>; rel="manifest"');
+        $response->headers->set('Link', '</site.webmanifest>; rel="manifest"');
 
         // Header per viewport mobile
         if ($response->headers->has('Content-Type') &&

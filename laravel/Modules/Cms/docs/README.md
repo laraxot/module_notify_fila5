@@ -334,3 +334,6 @@ npm run dev
 * [README.md](laravel/Themes/Two/docs/README.md)
 * [README.md](laravel/Themes/One/docs/README.md)
 
+
+## Design Comuni In Theme Tests
+- [Tema Sixteen - replica pagine statiche Design Comuni](../../../Themes/Sixteen/docs/design-comuni/static-pages-replication.md)
