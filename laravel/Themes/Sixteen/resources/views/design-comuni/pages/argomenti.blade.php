@@ -1,120 +1,143 @@
-{{--
-    Design Comuni - Pagina Argomenti
-    Template: Bootstrap Italia HTML-identical
-    Source: https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html
---}}
+<?php
 
-@extends('pub_theme::layouts.app')
+declare(strict_types=1);
 
-@section('title', 'Argomenti - Il mio Comune')
+use function Laravel\Folio\name;
+use Livewire\Volt\Component;
 
-@section('body_class', 'cmp-argomenti-page')
+name('tests.argomenti');
 
-@section('content')
+new class extends Component {
+    public function mount(): void {}
+};
+?>
 
-{{-- Skip Links --}}
-<div class="skiplink">
-    <a class="visually-hidden-focusable" href="#main-container">Vai ai contenuti</a>
-    <a class="visually-hidden-focusable" href="#footer">Vai al footer</a>
-</div>
-
-{{-- Header Component --}}
-@include('pub_theme::bootstrap-italia.header')
-
-{{-- Main Content --}}
-<main>
-    {{-- Breadcrumb Section --}}
-    <div class="container" id="main-container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-10">
-                <div class="cmp-breadcrumbs" role="navigation">
-                    <nav class="breadcrumb-container" aria-label="breadcrumb">
-                        <ol class="breadcrumb p-0" data-element="breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="/it/tests/homepage">Home</a>
-                                <span class="separator">/</span>
-                            </li>
-                            <li class="breadcrumb-item active" aria-current="page">
-                                Lista Argomenti
-                            </li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
+<x-layouts.bootstrap-italia>
+    @volt('tests.argomenti')
+    
+    {{-- Skip Links (Accessibilità) --}}
+    <x-accessibility.skiplinks />
+    
+    {{-- Header Bootstrap Italia --}}
+    <x-bootstrap-italia.header 
+        :regionName="'Regione Lazio'"
+        :logoUrl="'/themes/sixteen/images/stemma-comune.svg'"
+        :title="'Comune di FixCity'"
+        :tagline="'Città Metropolitana'"
+        :navItems="[
+            ['label' => 'Amministrazione', 'url' => '/it/tests/amministrazione'],
+            ['label' => 'Novità', 'url' => '/it/tests/novita'],
+            ['label' => 'Servizi', 'url' => '/it/tests/servizi'],
+            ['label' => 'Vivere il Comune', 'url' => '/it/tests/vivere'],
+        ]"
+        :secondaryNavItems="[
+            ['label' => 'Tutti gli argomenti', 'url' => '/it/tests/argomenti'],
+            ['label' => 'In evidenza', 'url' => '/it/tests/evidenza'],
+        ]"
+    />
+    
+    {{-- Breadcrumb --}}
+    <x-agid.breadcrumb 
+        :items="[
+            ['label' => 'Home', 'url' => '/'],
+            ['label' => 'Lista Argomenti', 'url' => null],
+        ]" 
+    />
+    
+    {{-- Main Content --}}
+    <main id="main-content" class="container py-5">
+        
+        {{-- Page Title --}}
+        <div class="cmp-heading mb-5">
+            <h1 class="title-xxxlarge mb-2">ARGOMENTI</h1>
+            <p class="subtitle-small">Esplora i temi del sito</p>
         </div>
-    </div>
-
-    {{-- Hero Section --}}
-    <div class="container">
-        <div class="row justify-content-center row-shadow">
-            <div class="col-12 col-lg-10">
-                <div class="cmp-hero">
-                    <section class="it-hero-wrapper bg-white align-items-start">
-                        <div class="it-hero-text-wrapper pt-0 ps-0 pb-4 pb-lg-60">
-                            <h1 class="text-black" data-element="page-name">Argomenti</h1>
-                            <div class="hero-text">
-                                <p>Gli argomenti rispondono a un'esigenza di organizzazione dei contenuti del sito istituzionale per
-                                temi e rappresentano le principali categorie di contenuti, informazioni e documenti specifici.</p>
-                            </div>
+        
+        {{-- Featured Topics (IN EVIDENZA) --}}
+        <section class="mb-5" aria-labelledby="featured-heading">
+            <h2 id="featured-heading" class="h4 mb-3">IN EVIDENZA</h2>
+            <div class="row g-4">
+                {{-- Card 1 --}}
+                <div class="col-12 col-md-4">
+                    <div class="card card-topic shadow-sm h-100">
+                        <div class="card-body">
+                            <h3 class="card-title h5">
+                                <a href="/cultura" class="stretched-link">Cultura</a>
+                            </h3>
+                            <p class="card-text">Eventi e notizie culturali</p>
                         </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    {{-- Main Content Section --}}
-    <div class="container py-5">
-        <h2 class="title-xxlarge mb-4">In evidenza</h2>
-        <div class="row g-4">
-            @foreach($argomenti ?? [] as $argomento)
-            <div class="col-sm-6 col-lg-4">
-                <div class="it-grid-item-wrapper it-grid-item-overlay">
-                    <a href="{{ route('comune.argomento', $argomento['slug']) }}" class="text-decoration-none">
-                        <div class="card card-bg card-teaser shadow">
-                            <div class="card-body">
-                                <div class="category-top">
-                                    <span class="text">Argomento</span>
-                                </div>
-                                <h3 class="card-title h5">{{ $argomento['nome'] }}</h3>
-                                <p class="card-text">{{ $argomento['descrizione'] ?? '' }}</p>
-                            </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <span class="badge bg-primary">In evidenza</span>
                         </div>
-                    </a>
+                    </div>
                 </div>
-            </div>
-            @endforeach
-        </div>
-    </div>
-
-    {{-- All Topics Section --}}
-    <div class="container my-5">
-        <h2 class="title-xxlarge mb-4">Tutti gli argomenti</h2>
-        <div class="row g-4">
-            @foreach($argomenti ?? [] as $argomento)
-            <div class="col-12">
-                <div class="card card-teaser shadow-sm">
-                    <div class="card-body">
-                        <h3 class="card-title h5">
-                            <a href="{{ route('comune.argomento', $argomento['slug']) }}" class="text-decoration-none">
-                                {{ $argomento['nome'] }}
-                            </a>
-                        </h3>
-                        <p class="card-text">{{ $argomento['descrizione'] ?? '' }}</p>
+                
+                {{-- Card 2 --}}
+                <div class="col-12 col-md-4">
+                    <div class="card card-topic shadow-sm h-100">
+                        <div class="card-body">
+                            <h3 class="card-title h5">
+                                <a href="/sport" class="stretched-link">Sport</a>
+                            </h3>
+                            <p class="card-text">Attività sportive e impianti</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <span class="badge bg-primary">In evidenza</span>
+                        </div>
+                    </div>
+                </div>
+                
+                {{-- Card 3 --}}
+                <div class="col-12 col-md-4">
+                    <div class="card card-topic shadow-sm h-100">
+                        <div class="card-body">
+                            <h3 class="card-title h5">
+                                <a href="/famiglia" class="stretched-link">Famiglia</a>
+                            </h3>
+                            <p class="card-text">Servizi per la famiglia</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <span class="badge bg-primary">In evidenza</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            @endforeach
-        </div>
-    </div>
-</main>
-
-{{-- Footer Component --}}
-@include('pub_theme::footer-comune')
-
-@endsection
-
-@push('scripts')
-{{-- Bootstrap Italia JS --}}
-<script src="/themes/sixteen/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js"></script>
-@endpush
+        </section>
+        
+        {{-- All Topics (ESPLORA PER ARGOMENTO) --}}
+        <section aria-labelledby="all-topics-heading">
+            <h2 id="all-topics-heading" class="h4 mb-3">ESPLORA PER ARGOMENTO</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                {{-- Card Topic Component --}}
+                <x-blocks.topics.grid 
+                    :title="'Esplora per argomento'"
+                    :items="[
+                        ['title' => 'Agricoltura', 'href' => '/agricoltura'],
+                        ['title' => 'Animali', 'href' => '/animali'],
+                        ['title' => 'Casa', 'href' => '/casa'],
+                        ['title' => 'Cultura', 'href' => '/cultura'],
+                        ['title' => 'Famiglia', 'href' => '/famiglia'],
+                        ['title' => 'Lavoro', 'href' => '/lavoro'],
+                        ['title' => 'Scuola', 'href' => '/scuola'],
+                        ['title' => 'Sport', 'href' => '/sport'],
+                        ['title' => 'Turismo', 'href' => '/turismo'],
+                        ['title' => 'Urbanistica', 'href' => '/urbanistica'],
+                        ['title' => 'Trasporti', 'href' => '/trasporti'],
+                        ['title' => 'Salute', 'href' => '/salute'],
+                    ]"
+                />
+            </div>
+        </section>
+        
+        {{-- Feedback Section --}}
+        <section class="mt-5" aria-labelledby="feedback-heading">
+            <h2 id="feedback-heading" class="h5">Valuta la pagina</h2>
+            <x-blocks.feedback.rating />
+        </section>
+    </main>
+    
+    {{-- Footer --}}
+    <x-footer-comune />
+    
+    @endvolt
+</x-layouts.bootstrap-italia>
