@@ -176,3 +176,6 @@ flowbite, tailwindcss e daisyui sono anche i mattoni con cui facciamo i temi
 
 
  concentrati sull'header di http://fixcity.local/it/tests/argomenti deve essere uguale all'header di https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html , ti ricordo che l'header e' una section e va chiamata con <x-section slug="header" /> se serve puoi passare anche parametri , aiutati facendo screenshots e analizzandoli, sia gli screenshots che le analisi le metti dentro le cartelle docs dentro i moduli e dentro i temi, oltre che alla analisi devi dettagliare anche come correggere , ti ricordo che per vedere le modifiche ai css, o js , queste modifiche vanno fatte dentro la cartella del tema, poi devi compilare con npm run build, e per pubblicare le modifiche npm run copy , studia e capisci anche gli script, oltre a capirli documentali 
+
+
+ per facilitare il lavoro dentro il tag body ad esclusione degli script l' html di http://fixcity.local/it/tests/argomenti  deve esssere uguale a quello di  https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html e vale anche per tutte le altre pagine di  https://italia.github.io/design-comuni-pagine-statiche/
