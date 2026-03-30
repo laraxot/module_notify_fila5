@@ -2,18 +2,7 @@
 
 ## Panoramica
 
-Il sistema Content Blocks utilizza il Builder di Filament per creare pagine dinamiche composte da blocchi riutilizzabili. Ogni pagina e` definita tramite file JSON che contengono la configurazione dei `content_blocks`.
-
-## Principio fondamentale
-
-Una pagina CMS completa non coincide quasi mai con un singolo blocco.
-
-Regola pratica:
-- `0` blocchi = scaffold tecnico iniziale, non conversione completata
-- `1` blocco = caso raro e consapevole
-- `2+` blocchi = baseline normale per una pagina realmente convertita
-
-Questo deriva direttamente dalla semantica del `Builder` di Filament 5: il builder nasce per modellare una sequenza ordinabile di blocchi eterogenei, non per nascondere una pagina intera dentro un solo blob.
+Il sistema Content Blocks utilizza il Builder di Filament per creare pagine dinamiche composte da blocchi riutilizzabili. Ogni pagina è definita tramite file JSON che contengono la configurazione dei content_blocks.
 
 ## Struttura dei Content Blocks
 
@@ -39,38 +28,20 @@ Questo deriva direttamente dalla semantica del `Builder` di Filament 5: il build
                 }
             }
         ],
-        "en": []
+        "en": [
+            // Versione inglese dei blocchi
+        ]
     },
     "sidebar_blocks": {
-        "it": [],
-        "en": []
+        "it": []
     },
-    "footer_blocks": {
-        "it": "",
-        "en": ""
-    },
+    "footer_blocks": null,
     "created_at": "timestamp",
     "updated_at": "timestamp",
     "created_by": "user_id",
     "updated_by": "user_id"
 }
 ```
-
-## Scaffold vs conversione
-
-Per le pagine `tests.*` del catalogo Design Comuni il repository puo` contenere scaffold JSON vuoti o quasi vuoti per stabilizzare il routing CMS:
-- il file esiste
-- lo `slug` e` coerente
-- `x-page` puo` risolvere il contenuto
-
-Questo NON significa che la pagina sia stata convertita davvero.
-
-Una conversione reale richiede almeno:
-1. analisi della pagina sorgente
-2. scomposizione in blocchi logici
-3. riuso dei blocchi gia` esistenti dove possibile
-4. creazione di nuovi blocchi solo se il design non si lascia esprimere con quelli disponibili
-5. popolamento di `content_blocks`, `sidebar_blocks` e `footer_blocks` in modo coerente
 
 ## Tipi di Blocchi Disponibili
 
@@ -95,15 +66,15 @@ Blocco principale della pagina con titolo, sottotitolo, immagine e call-to-actio
 }
 ```
 
-### 2. Services Block
+### 2. Feature Sections Block
 
-Blocchi elenco o griglia per servizi, voci o card coerenti con il tipo `services`.
+Sezioni con caratteristiche o FAQ organizzate.
 
 ```json
 {
-    "type": "services",
+    "type": "feature_sections",
     "data": {
-        "view": "pub_theme::components.blocks.services.grid",
+        "view": "pub_theme::components.blocks.feature_sections.view_name",
         "title": "Titolo sezione",
         "sections": [
             {
@@ -125,7 +96,7 @@ Blocco per includere widget Filament dinamici.
     "type": "widget",
     "data": {
         "view": "pub_theme::components.blocks.widget.simple",
-        "widget": "Modules\ModuleName\Filament\Widgets\WidgetClass"
+        "widget": "Modules\\ModuleName\\Filament\\Widgets\\WidgetClass"
     }
 }
 ```
@@ -179,36 +150,34 @@ class BlockData extends Data implements Wireable
 1. Il JSON viene caricato dal modello `Page`
 2. I `content_blocks` vengono processati da `BlockData::collect()`
 3. Ogni blocco viene renderizzato tramite la sua view specificata
-4. Le view sono organizzate nel tema attivo e nei moduli riusabili
+4. Le view sono organizzate nel tema sotto `Themes/{pub_theme}/resources/views/components/blocks/`
 
 ## Convenzioni di Naming
 
 ### File JSON
 - Posizionati in: `config/local/<directory progetto>/database/content/pages/`
-- Naming pagina: `tests.<slug>.json` per le pagine demo CMS-driven
-- In caso di collisione di basename: prefisso folder nel solo slug appiattito, ad esempio `tests.sito-index.json`
+- Naming: `kebab-case.json`
 
 ### View Blade
-- Posizionate preferibilmente nel tema attivo: `Themes/{pub_theme}/resources/views/components/blocks/`
-- Possono essere riusate anche dal modulo UI se gia` adeguate
-- Namespace tema: `pub_theme::components.blocks.category.view_name`
+- Posizionate in: `Themes/{pub_theme}/resources/views/components/blocks/` (es. Meetup)
+- Struttura: `category/view_name.blade.php`
+- Namespace: `pub_theme::components.blocks.category.view_name`
 
 ### Proprietà Data
 - Utilizzare `snake_case` per le proprietà nei data
-- Mantenere coerenza con le convenzioni CSS e semantiche del blocco
+- Mantenere coerenza con le convenzioni CSS (es: `background_color`, `text_color`)
 
 ## Best Practices
 
-1. **Validazione View**: ogni blocco deve specificare una view esistente
-2. **Localizzazione**: supportare sempre almeno italiano e inglese
-3. **Riutilizzabilita`**: progettare blocchi per essere riutilizzabili tra pagine
-4. **No mega-block**: evitare di inglobare una pagina intera in un solo blocco generico
-5. **Performance**: evitare logica complessa nei template, delegare ai widget dove ha senso
-6. **DRY + KISS**: prima cercare un blocco esistente nel tema o in `Modules/UI`, poi eventualmente estendere
+1. **Validazione View**: Ogni blocco DEVE specificare una view esistente
+2. **Localizzazione**: Supportare sempre almeno italiano e inglese
+3. **Riutilizzabilità**: Progettare blocchi per essere riutilizzabili tra pagine
+4. **Fallback**: Prevedere sempre un fallback per view mancanti
+5. **Performance**: Evitare logica complessa nei template, delegare ai widget
 
 ## Integrazione con Filament Builder
 
-Il sistema utilizza il Builder di Filament 5 per la gestione dinamica dei blocchi nell'interfaccia admin.
+Il sistema utilizza il [Filament Builder](https://filamentphp.com/docs/3.x/forms/fields/builder) per la gestione dinamica dei blocchi nell'interfaccia admin.
 
 ### Configurazione Builder
 
@@ -223,7 +192,7 @@ Builder::make('content_blocks')
                 TextInput::make('cta_text'),
                 TextInput::make('cta_link'),
             ]),
-        Builder\Block::make('services')
+        Builder\Block::make('feature_sections')
             ->schema([
                 TextInput::make('title'),
                 Repeater::make('sections')
@@ -236,43 +205,23 @@ Builder::make('content_blocks')
     ])
 ```
 
-## Perche'
-
-### Logica
-Una pagina pubblica e` una composizione ordinata di unita` editoriali, non un frammento HTML monolitico.
-
-### Visione
-Il CMS deve permettere di spostare, riordinare, sostituire e riusare sezioni senza dover riscrivere la pagina da zero.
-
-### Filosofia
-Il blocco e` l'unita` minima significativa di authoring. La pagina e` l'orchestrazione dei blocchi.
-
-### Politica
-Il repository favorisce contenuti JSON + `x-page` + `pub_theme`, e scoraggia template statici special-case che bypassano il CMS.
-
-### Religione
-DRY + KISS: pochi blocchi ben progettati, riusati molte volte, invece di molte pagine speciali non componibili.
-
-### Zen
-Prima spezza, poi riusa, poi rifinisci. Non comprimere tutto in un solo blocco per fretta.
-
 ## Troubleshooting
 
 ### View Not Found
 Errore: `view not found: pub_theme::components.blocks.category.view_name`
-- verificare che il file blade esista nel percorso corretto
-- controllare la sintassi del namespace della view
+- Verificare che il file blade esista nel percorso corretto
+- Controllare la sintassi del namespace della view
 
 ### Missing Properties
-Errore: proprietà mancanti nel template
-- verificare che tutte le proprietà richieste siano presenti nel data del blocco
-- utilizzare `??` per valori opzionali
+Errore: Proprietà mancanti nel template
+- Verificare che tutte le proprietà richieste siano presenti nel data del blocco
+- Utilizzare il null coalescing operator `??` per valori opzionali
 
 ## Collegamenti
-- [Builder - Filament 5.x](https://filamentphp.com/docs/5.x/forms/builder)
+- [Filament Builder Documentation](https://filamentphp.com/docs/3.x/forms/fields/builder)
 - [Architettura Content Blocks](./content_blocks_architecture.md)
-- [CMS-Driven Pages](./cms-driven-pages-system.md)
+- [Implementazione Register Disabled](./register_disabled_implementation.md)
 - [BlockData Implementation](../app/Datas/BlockData.php)
 - [Page Model](../app/Models/Page.php)
-- [Theme Components](../../../Themes/Sixteen/resources/views/components/blocks/)
+- [Theme Components](../../../Themes/Meetup/resources/views/components/blocks/)
 
