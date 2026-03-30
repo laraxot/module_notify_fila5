@@ -2,30 +2,28 @@
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
-[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
+[![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN-green.svg)](https://laravel.com/docs/localization)
-
-## Overview
 
 The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
 
-## Features
+## 🚀 Features
 
-### Completed
+### ✅ Completed
 - **Meta Tag Management**: Dynamic control over title, description, keywords, canonical URLs, and robots tags.
 - **Sitemap Generation**: Automatic XML sitemap creation with multi-sitemap support and search engine pinging.
-- **OpenGraph & Twitter Cards**: Dedicated support for social media previews and image optimization.
+- **OpenGraph & Twitter Cards**: dedicated support for social media previews and image optimization.
 - **Schema.org Integration**: JSON-LD structured data for Local Business, Articles, Products, and more.
 - **SEO Analytics**: Real-time content analysis and performance tracking.
 - **Filament Integration**: Seamless management via the Filament admin panel.
 
-### In Progress / Planned
-- **AI-Powered Optimization**: Content quality scoring and readability suggestions.
+### 🔄 In Progress / Planned
+- **AI-Powered Optimization**: Content quality scoring and readability suggestions (via OpenAI).
 - **Keyword Tracking**: Rank tracking, history, and competition analysis.
 - **Competitor Analysis**: Gap identification and market comparison.
 - **Reporting**: Automated PDF SEO reports.
 
-## Installation
+## 📦 Installation
 
 ```bash
 composer require laraxot/module-seo
@@ -33,94 +31,93 @@ php artisan module:enable Seo
 php artisan migrate
 ```
 
-## Meta Tags Management
-
+<<<<<<< HEAD
+<<<<<<< HEAD
+### 🎯 **Meta Tags Management**
 ```php
-// Set meta tags
-SEO::setTitle('Page Title');
-SEO::setDescription('SEO optimized description');
+// Impostazione meta tags
+SEO::setTitle('Titolo Pagina');
+SEO::setDescription('Descrizione SEO ottimizzata');
 SEO::setKeywords(['keyword1', 'keyword2']);
 SEO::setCanonical(url()->current());
 
 // Open Graph
 SEO::setOpenGraph([
-    'title' => 'Social Title',
-    'description' => 'Social description',
+    'title' => 'Titolo Social',
+    'description' => 'Descrizione per social',
     'image' => asset('images/og-image.jpg'),
 ]);
 ```
 
-## Sitemap Generation
-
+### 🗺️ **Sitemap Generation**
 ```php
-// Generate sitemap
+// Generazione sitemap
 php artisan seo:sitemap:generate
 
-// Dynamic sitemap
-Sitemap::addUrl('/page', [
+// Sitemap dinamico
+Sitemap::addUrl('/pagina', [
     'lastmod' => now(),
     'changefreq' => 'weekly',
     'priority' => 0.8,
 ]);
 ```
 
-## Structured Data
-
+### 📊 **Structured Data**
 ```php
 // Schema.org markup
 SEO::addStructuredData([
     '@context' => 'https://schema.org',
     '@type' => 'Article',
-    'headline' => 'Article Title',
+    'headline' => 'Titolo Articolo',
     'datePublished' => '2025-01-01',
     'author' => [
         '@type' => 'Person',
-        'name' => 'Author Name',
+        'name' => 'Nome Autore',
     ],
 ]);
 ```
 
-## Quality Status
+## 🎯 **Stato Qualità**
 
-### Compliance
-- **PHPStan**: Level 10
-- **Filament**: Compatible 4.x
-- **Translations**: IT/EN complete
+### ✅ **Compliance**
+- **PHPStan**: Targeting Level 9
+- **Filament**: Compatibile 4.x
+- **Traduzioni**: IT/EN complete
 - **SEO Score**: 95/100
 
-## Documentation
+## 📚 **Documentazione Completa**
 
-### Architecture
-- [Module Structure](structure.md)
-- [Best Practices](best-practices.md)
+### 🏗️ **Architettura**
+- [Struttura Modulo](structure.md) - Architettura SEO
+- [Best Practices](best-practices.md) - Best practices SEO
 
-### Components
-- [Meta Tags](meta-tags.md)
-- [Sitemap](sitemap.md)
-- [Structured Data](structured-data.md)
+### 🎨 **Components**
+- [Meta Tags](meta-tags.md) - Gestione meta tags
+- [Sitemap](sitemap.md) - Configurazione sitemap
+- [Structured Data](structured-data.md) - Schema.org
 
-### Development
-- [Configuration](configuration.md)
-- [Testing](testing.md)
+### 🔧 **Development**
+- [Configuration](configuration.md) - Configurazione modulo
+- [Testing](testing.md) - Testing SEO
 
-## Quick Start
+## 🔧 **Quick Start**
 
-### Installation
+### 📦 **Installazione**
 ```bash
-# Enable module
+# Abilitare il modulo
 php artisan module:enable Seo
 
-# Run migrations
+# Eseguire le migrazioni
 php artisan migrate
 
-# Publish config
+# Pubblicare le configurazioni
 php artisan vendor:publish --tag=seo-config
 
-# Generate initial sitemap
+# Generare sitemap iniziale
 php artisan seo:sitemap:generate
 ```
 
-### Configuration
+### ⚙️ **Configurazione**
 ```php
 // config/seo.php
 return [
@@ -129,13 +126,13 @@ return [
         'title_separator' => ' | ',
         'default_description' => 'Default site description',
     ],
-
+    
     'sitemap' => [
         'enabled' => true,
         'cache_duration' => 3600,
         'path' => 'sitemap.xml',
     ],
-
+    
     'structured_data' => [
         'enabled' => true,
         'organization' => [
@@ -146,15 +143,27 @@ return [
 ];
 ```
 
-## Filament Components
+### 🧪 **Testing**
+```bash
+# Test del modulo
+php artisan test --testsuite=Seo
 
-### SEO Resource
+# Verifica sitemap
+curl https://yoursite.com/sitemap.xml
+
+# Test structured data
+php artisan seo:validate-schema
+```
+
+## 🎨 **Componenti Filament**
+
+### 🎯 **SEO Resource**
 ```php
-// Filament Resource for SEO management
+// Filament Resource per gestione SEO
 class SeoResource extends XotBaseResource
 {
     protected static ?string $model = SeoMeta::class;
-
+    
     public static function getFormSchema(): array
     {
         return [
@@ -173,27 +182,27 @@ class SeoResource extends XotBaseResource
 }
 ```
 
-## Best Practices
+## 🔧 **Best Practices**
 
-### Meta Tags Optimization
+### 1️⃣ **Meta Tags Optimization**
 ```php
-// CORRECT - Optimized meta tags
-SEO::setTitle('Descriptive Title < 60 chars');
-SEO::setDescription('Attractive, informative description between 120-160 chars');
-SEO::setKeywords(['relevant', 'keywords']);
+// ✅ CORRETTO - Meta tags ottimizzati
+SEO::setTitle('Titolo Descrittivo < 60 caratteri');
+SEO::setDescription('Descrizione attraente e informativa tra 120-160 caratteri che invoglia al click');
+SEO::setKeywords(['parola', 'chiave', 'pertinente']);
 ```
 
-### Sitemap Management
+### 2️⃣ **Sitemap Management**
 ```php
-// CORRECT - Auto-update sitemap
+// ✅ CORRETTO - Sitemap aggiornato automaticamente
 Event::listen(PageCreated::class, function ($event) {
     Artisan::call('seo:sitemap:generate');
 });
 ```
 
-### Structured Data
+### 3️⃣ **Structured Data**
 ```php
-// CORRECT - Complete, valid Schema.org
+// ✅ CORRETTO - Schema.org completo e valido
 SEO::addStructuredData([
     '@context' => 'https://schema.org',
     '@type' => 'LocalBusiness',
@@ -208,58 +217,103 @@ SEO::addStructuredData([
 ]);
 ```
 
-## Troubleshooting
+## 🐛 **Troubleshooting**
 
-### Sitemap Not Generating
+### **Problemi Comuni**
+
+#### 🔍 **Sitemap Non Generato**
 ```bash
-# Check permissions
-chmod 755 public_html/
-chmod 644 public_html/sitemap.xml
+# Verifica permessi
+chmod 755 public/
+chmod 644 public/sitemap.xml
 
-# Regenerate sitemap
+# Rigenera sitemap
 php artisan seo:sitemap:generate --force
 ```
 
-### Invalid Structured Data
+#### 📊 **Structured Data Non Valido**
 ```bash
-# Validate with Google
+# Valida con Google
 # https://search.google.com/test/rich-results
 
-# Local test
+# Test locale
 php artisan seo:validate-schema
 ```
 
-## Contributing
+## 🤝 **Contributing**
 
-### Contribution Checklist
-- [ ] Code passes PHPStan Level 10
-- [ ] SEO tests added
-- [ ] Documentation updated
-- [ ] Translations complete (IT/EN)
-- [ ] Schema.org validated
+### 📋 **Checklist Contribuzione**
+- [ ] Codice passa PHPStan Level 9
+- [ ] Test SEO aggiunti
+- [ ] Documentazione aggiornata
+- [ ] Traduzioni complete (IT/EN)
+- [ ] Schema.org validato
 
-## Roadmap
+## 📊 **Roadmap**
 
-### Q1 2025
-- [ ] **Advanced Analytics** - Google Analytics 4 integration
+### 🎯 **Q1 2025**
+- [ ] **Advanced Analytics** - Integrazione Google Analytics 4
 - [ ] **Performance Monitoring** - Core Web Vitals tracking
-- [ ] **AI Meta Generation** - Automatic meta tag generation
+- [ ] **AI Meta Generation** - Generazione automatica meta tags
 
-### Q2 2025
-- [ ] **Video SEO** - Video schema markup
-- [ ] **Local SEO** - Local search optimization
-- [ ] **International SEO** - Hreflang and geo-targeting
-
-## Support
-
-- **Email**: seo@laraxot.com
-- **Issues**: [GitHub Issues](https://github.com/laraxot/seo-module/issues)
-- **Docs**: [Complete Documentation](https://docs.laraxot.com/seo)
+### 🎯 **Q2 2025**
+- [ ] **Video SEO** - Schema markup per video
+- [ ] **Local SEO** - Ottimizzazione ricerche locali
+- [ ] **International SEO** - Hreflang e geo-targeting
 
 ---
 
-**Last Updated**: October 14, 2025
-**Version**: 1.0.0
-**PHPStan Level**: 10
-**Translation**: IT/EN ✅
-**SEO Score**: 95/100
+## 📞 **Support**
+
+- **📧 Email**: seo@laraxot.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/seo-module/issues)
+- **📚 Docs**: [Documentazione Completa](https://docs.laraxot.com/seo)
+
+---
+
+**🔄 Ultimo aggiornamento**: 14 Ottobre 2025  
+**📦 Versione**: 1.0.0  
+**🐛 PHPStan Level**: Target Level 9  
+**🌐 Translation**: IT/EN ✅  
+**🚀 SEO Score**: 95/100
+
+
+
+
+=======
+Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
+>>>>>>> 013c0d2 (.)
+=======
+## ⚙️ Configuration
+
+Publish the configuration file to set up API keys (e.g., OpenAI) and defaults:
+
+```bash
+php artisan vendor:publish --provider="Modules\Seo\Providers\SeoServiceProvider" --tag="config"
+```
+
+## 📖 Documentation
+
+- [Roadmap](roadmap.md): Detailed development status and future plans.
+- [Rules Index](rules-index.md): Coding standards and architectural rules.
+- [PHPStan Guide](phpstan.md): Static analysis configuration (Level 10).
+
+## 🛠 Usage
+
+The module automatically injects SEO tags into your layout if configured. You can also manually manage tags via the facade or helper functions:
+
+```php
+use Modules\Seo\Facades\Seo;
+
+Seo::setTitle('My Amazing Page');
+Seo::setDescription('The best page on the internet.');
+```
+
+For Filament resources, use the provided SEO trait to add configuration fields to your forms.
+
+## 🤝 Contribution
+
+Please verify all changes with:
+- `phpstan analyse Modules/Seo` (Level 10)
+- `pest` (Test Suite)
+>>>>>>> b33919b (.)

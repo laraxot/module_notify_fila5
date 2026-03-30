@@ -1,9 +1,8 @@
-# Blog Module - Content Management
+# 📝 Blog Module - Content Management
 
-## Quick Reference
-
+## 📋 Quick Reference
 | Categoria | Guida | File |
-|-----------|-------|------|
+|-----------|-------| ---- |
 | **Content** | Blocks System | [blocks.md](blocks.md) |
 | **Features** | Comments | [comment.md](comment.md) |
 | **UI** | Visual Editor | [visual_editor.md](visual_editor.md) |
@@ -14,8 +13,7 @@
 | **MCP** | Server Setup | [mcp_server_recommended.md](mcp_server_recommended.md) |
 | **Analysis** | PHPStan | [phpstan-fixes.md](phpstan-fixes.md) |
 
-## Core Features
-
+## 🎯 Core Features
 - **Content Blocks**: Modular content building system
 - **Visual Editor**: WYSIWYG editing experience
 - **Comment System**: User interaction and engagement
@@ -24,15 +22,13 @@
 - **Multi-language**: Full translation support
 
 ## Descrizione
-
 Il modulo Blog gestisce blog, articoli, categorie e contenuti editoriali all'interno dell'applicazione. Fornisce un sistema completo per la creazione, gestione e visualizzazione di contenuti editoriali strutturati.
 
 ## Struttura
-
 Il modulo segue la struttura modulare standard di Laravel:
 
 ```
-laravel/Modules/Blog/
+/laravel/Modules/Blog/
 ├── app/                      # Codice sorgente principale
 │   ├── Actions/              # Actions per la logica di business
 │   ├── Casts/                # Casts personalizzati
@@ -50,7 +46,6 @@ laravel/Modules/Blog/
 ```
 
 ## Funzionalità
-
 - Gestione di articoli e post
 - Categorizzazione dei contenuti
 - Tagging e metadati
@@ -61,7 +56,6 @@ laravel/Modules/Blog/
 - Integrazione con Filament per l'amministrazione
 
 ## Modelli Disabilitati
-
 Alcuni modelli sono stati disabilitati perché non necessari per questo progetto:
 
 ### Transaction (Disabilitato: 2025-10-15)
@@ -80,6 +74,14 @@ Sistema di gestione crediti/transazioni utente. File mantenuti per riferimento s
 **Soluzione:** Mantenuta la descrizione dettagliata della versione del branch: "Modulo per la gestione di blog, articoli, categorie e contenuti editoriali".
 
 **Motivazione:** Una descrizione chiara e completa nel file di configurazione del modulo migliora la documentazione e facilita la comprensione dello scopo e delle funzionalità del modulo.
+
+### BannerFactory.php e CategoryFactory.php
+
+**Problema:** Conflitti nelle factory per i modelli Banner e Category, con differenze nella definizione dei campi e dei valori predefiniti.
+
+**Soluzione:** Questi conflitti devono essere analizzati e risolti manualmente, considerando la struttura attuale dei modelli e le relazioni entre di essi.
+
+**Motivazione:** Le factory sono essenziali per i test e il seeding del database, quindi è importante che riflettano correttamente la struttura e le relazioni dei modelli.
 
 ## Best Practices
 
@@ -104,23 +106,19 @@ Sistema di gestione crediti/transazioni utente. File mantenuti per riferimento s
 - Utilizzare le factory per generare dati di test
 - Testare le interazioni tra i modelli
 
-## Documentation Structure
-
+## 📁 Documentation Structure
 - Core documentation files in root level
 - Links and resources in [links.md](links.md)
 - Study materials in [to_study.md](to_study.md)
 - Technical structure in [structure.md](structure.md)
 
 ## Collegamenti Bidirezionali
-
-- [Documentazione Principale](../../../../docs/README.md)
-- [Modulo UI](../../UI/docs/)
-- [Modulo Cms](../../Cms/docs/)
-- [Modulo Comment](../../Comment/docs/)
-- [Modulo Lang](../../Lang/docs/)
-- [Modulo Xot](../../Xot/docs/)
-- [Master Module Index](../README.md)
+- [Documentazione Principale](/laravel/docs/README.md)
+- [Modulo UI](/laravel/Modules/UI/docs/README.md)
+- [Modulo Cms](/laravel/Modules/Cms/docs/README.md)
+- [Modulo Comment](/laravel/Modules/Comment/docs/README.md)
+- [Modulo Lang](/laravel/Modules/Lang/docs/README.md)
+- [Modulo Xot](/laravel/Modules/Xot/docs/README.md)
 
 ---
-
-**Principle**: DRY - Una funzionalità = Una documentazione. Collegamenti logici e struttura pulita.
+*Principio DRY: Una funzionalità = Una documentazione. Collegamenti logici e struttura pulita.*

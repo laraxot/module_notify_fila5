@@ -1,9 +1,8 @@
-# AI Module - Integrazione MCP
+# 🤖 AI Module - Integrazione MCP
 
-## Quick Reference
-
+## 📋 Quick Reference
 | Categoria | Guida | File |
-|-----------|-------|------|
+|-----------|-------| ---- |
 | **Setup** | MCP Server Setup | [mcp/01_installazione.md](mcp/01_installazione.md) |
 | **Config** | Configurazione | [mcp/02_configurazione.md](mcp/02_configurazione.md) |
 | **Usage** | Utilizzo pratico | [mcp/03_utilizzo.md](mcp/03_utilizzo.md) |
@@ -12,11 +11,15 @@
 | **Tools** | Ollama, CLI Tools | [ollama.md](ollama.md), [tools.md](tools.md) |
 | **Troubleshooting** | Errori comuni | [mcp/06_troubleshooting.md](mcp/06_troubleshooting.md) |
 
-## Core Features
-
+## 🎯 Core Features
 - **MCP Protocol**: Database integration, external services, custom tools
 - **AI Chat**: Multi-user interface, context management, memory persistence
 - **Model Training**: Fine tuning, data preparation, deployment
+
+## 📁 Documentation Structure
+- `/mcp/` - Documentazione completa MCP (00-11)
+- `/tutorials/` - Tutorial pratici Laravel+MCP
+- `/phpstan/` - Configurazioni PHPStan
 
 ## Panoramica
 
@@ -46,7 +49,7 @@ Questa directory contiene la documentazione completa sull'integrazione MCP in La
    - Sviluppo di strumenti MCP
    - Integrazione con l'architettura esistente
    - Testing e debugging
-   - Conformità con PHPStan Level 10
+   - Conformità con PHPStan Livello 9
 
 ## Risorse Esterne
 
@@ -65,41 +68,21 @@ Queste implementazioni open source possono essere utilizzate come riferimento:
 - [InnoGE/laravel-mcp](../../../../docs/project/references/innoge_laravel_mcp.md)
 - [OPGG/laravel-mcp-server](../../../../docs/project/references/opgg_laravel_mcp_server.md)
 
-## Struttura Progetto
-
-```
-base_fixcity_fila5/
-├── public_html/              # DOCUMENT ROOT
-│   └── index.php            # Entry point
-├── laravel/Modules/AI/      # Questo modulo
-└── docs/                     # Documentazione progetto
-```
-
 ## Contribuire
 
-Se desideri contribuire a questa documentazione o all'implementazione del modulo AI, segui le linee guida del progetto e assicurati che il codice sia conforme agli standard di PHPStan Level 10.
-
-## Installazione MCP Servers
-
-🔗 **Guida installazione MCP servers:** [INSTALLAZIONE_MCP_SERVERS.md](./INSTALLAZIONE_MCP_SERVERS.md)
-
-## OpenViking Integration
-
-🔗 **OpenViking Integration Guide:** [../../../../docs/openviking-integration.md](../../../../docs/openviking-integration.md)
+Se desideri contribuire a questa documentazione o all'implementazione del modulo AI, segui le linee guida del progetto e assicurati che il codice sia conforme agli standard di PHPStan livello 9.
 
 ---
 
-<<<<<<< Updated upstream
+> ℹ️ **Per l'installazione e la gestione centralizzata degli MCP servers, consulta la guida [INSTALLAZIONE_MCP_SERVERS.md](./INSTALLAZIONE_MCP_SERVERS.md).**
+
+🔗 **Guida installazione MCP servers:** [INSTALLAZIONE_MCP_SERVERS.md](./INSTALLAZIONE_MCP_SERVERS.md)
+
+---
+
 *Ultimo aggiornamento: Maggio 2025*
 *Principio DRY: Una funzionalità = Una documentazione. Collegamenti logici e struttura pulita.*
 
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
 - [OpenViking Integration Guide](../../../../docs/openviking-integration.md)
-||||||| Stash base
-*Ultimo aggiornamento: Maggio 2025*
-*Principio DRY: Una funzionalità = Una documentazione. Collegamenti logici e struttura pulita.*
-=======
-**Last Updated**: May 2025
-**Principle**: DRY - Una funzionalità = Una documentazione. Collegamenti logici e struttura pulita.
->>>>>>> Stashed changes
