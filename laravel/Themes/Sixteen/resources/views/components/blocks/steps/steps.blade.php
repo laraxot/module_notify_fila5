@@ -39,7 +39,11 @@
                     {{-- Step Icon (if provided) --}}
                     @if(isset($step['icon']))
                     <div class="step-icon mb-3">
-                        <x-icon :name="$step['icon']" class="icon-lg icon-primary" />
+                        <x-filament::icon 
+                            :icon="$step['icon']" 
+                            class="icon-lg icon-primary" 
+                            aria-hidden="true" 
+                        />
                     </div>
                     @endif
                     
@@ -86,7 +90,11 @@
                     {{-- Step Icon (if provided) --}}
                     @if(isset($step['icon']))
                     <div class="step-icon mb-2">
-                        <x-icon :name="$step['icon']" class="icon-md icon-primary" />
+                        <x-filament::icon 
+                            :icon="$step['icon']" 
+                            class="icon-md icon-primary" 
+                            aria-hidden="true" 
+                        />
                     </div>
                     @endif
                     
