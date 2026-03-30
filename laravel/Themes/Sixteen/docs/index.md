@@ -242,3 +242,5 @@ npm run copy
 **Mantenuto da**: Team Sixteen
 
 
+
+- **[design-comuni/screenshots/footer-argomenti.md](design-comuni/screenshots/footer-argomenti.md)** - Analisi del footer Design Comuni per la pagina argomenti e stato della verifica visuale
