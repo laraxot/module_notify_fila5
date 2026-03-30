@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\User\Models\Passport;
 
-use Laravel\Passport\Client as BaseClient;
+use Laravel\Passport\Client as PassportClient;
 
 /**
  * Custom Passport Client model to fix compatibility issues with Laravel 12.
@@ -28,7 +28,7 @@ use Laravel\Passport\Client as BaseClient;
  *
  * @mixin \Eloquent
  */
-class Client extends BaseClient
+class Client extends PassportClient
 {
     /**
      * Initialize the trait.

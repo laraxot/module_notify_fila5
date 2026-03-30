@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\User\Models;
 
-use Laravel\Passport\Client;
+use Laravel\Passport\Client as PassportClient;
 
 /**
  * @property string      $id
@@ -18,7 +18,7 @@ use Laravel\Passport\Client;
  * @property string|null $user_id
  * @property User|null   $user
  */
-class OauthClient extends Client
+class OauthClient extends PassportClient
 {
     /** @var string */
     protected $connection = 'user';
