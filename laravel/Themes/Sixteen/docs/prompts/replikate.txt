@@ -179,3 +179,5 @@ flowbite, tailwindcss e daisyui sono anche i mattoni con cui facciamo i temi
 
 
  per facilitare il lavoro dentro il tag body ad esclusione degli script l' html di http://fixcity.local/it/tests/argomenti  deve esssere uguale a quello di  https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html e vale anche per tutte le altre pagine di  https://italia.github.io/design-comuni-pagine-statiche/
+
+ per fare un buon lavoro studia @/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/Main_files/five/src/style-apply.css e @laravel/Themes/Sixteen/Main_files/five/src/app1.js 
