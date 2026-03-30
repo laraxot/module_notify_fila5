@@ -9,6 +9,7 @@ Questa cartella contiene la documentazione relativa al frontoffice del sito.
 - `homepage-content.md` - Contenuti della homepage
 - `homepage-errors.md` - Errori comuni della homepage
 - `homepage-structure.md` - Struttura della homepage
+- `tests-folio-pages.md` - Regola CMS per `/tests` e `/tests/{slug}`
 
 ## Note
 
