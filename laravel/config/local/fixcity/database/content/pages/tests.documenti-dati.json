@@ -1,22 +1,114 @@
 {
-    "id": "tests.documenti-dati",
+    "id": "tests-documenti-dati",
     "title": {
         "it": "Documenti e dati",
-        "en": "Documenti e dati"
+        "en": "Documents and data"
     },
     "slug": "tests.documenti-dati",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "page_block",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/"},
+                        {"label": "Amministrazione", "url": "/it/tests/amministrazione"},
+                        {"label": "Documenti e dati", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
                     "title": "Documenti e dati",
-                    "category": "Amministrazione",
-                    "summary": "La pagina principale della sottosezione Documenti e dati.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/documenti-dati.html",
-                    "slug": "tests.documenti-dati"
+                    "subtitle": "Amministrazione trasparente",
+                    "content": "<p>Consulta i documenti, i dati e gli atti amministrativi del Comune</p>",
+                    "background_color": "bg-white",
+                    "text_color": "text-gray-900"
+                }
+            },
+            {
+                "type": "feature_sections",
+                "data": {
+                    "view": "pub_theme::components.blocks.feature_sections.default",
+                    "title": "Categorie di documenti",
+                    "sections": [
+                        {
+                            "title": "Statuto e regolamenti",
+                            "description": "Statuto comunale e regolamenti",
+                            "icon": "it-file-text"
+                        },
+                        {
+                            "title": "Bilanci",
+                            "description": "Bilancio di previsione e consuntivo",
+                            "icon": "it-money"
+                        },
+                        {
+                            "title": "Bandi e gare",
+                            "description": "Bandi di gara e avvisi pubblici",
+                            "icon": "it-clipboard"
+                        },
+                        {
+                            "title": "Delibere",
+                            "description": "Delibere di giunta e consiglio",
+                            "icon": "it-file"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "links",
+                "data": {
+                    "view": "pub_theme::components.blocks.links.list",
+                    "title": "Documenti principali",
+                    "links": [
+                        {
+                            "label": "Statuto comunale",
+                            "url": "/download/statuto.pdf",
+                            "description": "Ultimo aggiornamento: 1 gen 2026",
+                            "meta": "PDF - 2.5 MB"
+                        },
+                        {
+                            "label": "Regolamento comunale",
+                            "url": "/download/regolamento.pdf",
+                            "description": "Ultimo aggiornamento: 1 gen 2026",
+                            "meta": "PDF - 1.8 MB"
+                        },
+                        {
+                            "label": "Bilancio di previsione 2026",
+                            "url": "/download/bilancio-2026.pdf",
+                            "description": "Approvato con delibera n. 1 del 15/01/2026",
+                            "meta": "PDF - 5.2 MB"
+                        },
+                        {
+                            "label": "Bilancio consuntivo 2025",
+                            "url": "/download/consuntivo-2025.pdf",
+                            "description": "Approvato con delibera n. 50 del 30/03/2026",
+                            "meta": "PDF - 4.8 MB"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "paragraph",
+                "data": {
+                    "view": "pub_theme::components.blocks.paragraph.default",
+                    "content": "<h3 class=\"text-xl font-bold mb-4\">Amministrazione trasparente</h3><p class=\"mb-4\">In ottemperanza al D.Lgs. 33/2013, il Comune pubblica nella sezione Amministrazione Trasparente tutti i dati e i documenti obbligatori.</p><p>Per consultare la sezione completa, visita il <a href=\"#\" class=\"text-blue-600 underline\">portale dell'amministrazione trasparente</a>.</p>",
+                    "class": "py-6 bg-gray-50"
+                }
+            },
+            {
+                "type": "cta",
+                "data": {
+                    "view": "pub_theme::components.blocks.cta.default",
+                    "title": "Richiedi un documento",
+                    "description": "Per richiedere documenti non presenti nell'elenco, compila il modulo online",
+                    "button_text": "Compila richiesta",
+                    "button_url": "/it/tests/moduli/richiesta-documenti",
+                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
                 }
             }
         ],

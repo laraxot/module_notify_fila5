@@ -1,8 +1,8 @@
 {
     "id": "tests.appuntamento-04-richiedente-autenticato",
     "title": {
-        "it": "Step 4 - Aggiunta delle informazioni personali (utente autenticato)",
-        "en": "Step 4 - Personal information (authenticated user)"
+        "it": "Appuntamento - Step 4 richiedente autenticato",
+        "en": "Appuntamento - Step 4 richiedente autenticato"
     },
     "slug": "tests.appuntamento-04-richiedente-autenticato",
     "content": null,
@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Step 4 - Aggiunta delle informazioni personali (utente autenticato)",
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Appuntamento - Step 4 richiedente autenticato",
                     "category": "Prenotazione Appuntamento",
-                    "summary": "La schermata di verifica delle informazioni personali da identità digitale.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-04-richiedente-autenticato.html",
+                    "summary": "La schermata di verifica delle informazioni personali da identita digitale.",
                     "slug": "tests.appuntamento-04-richiedente-autenticato"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La versione autenticata va separata in identita utente, conferma dati e riepilogo step corrente."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-04-richiedente-autenticato.html"
                 }
             }
         ],

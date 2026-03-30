@@ -1,22 +1,123 @@
 {
-    "id": "tests.evento-dettaglio",
+    "id": "tests-evento-dettaglio",
     "title": {
         "it": "Evento",
-        "en": "Evento"
+        "en": "Event detail"
     },
     "slug": "tests.evento-dettaglio",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "page_block",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Evento",
-                    "category": "Vivere il Comune",
-                    "summary": "La pagina di dettaglio per un evento.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/evento-dettaglio.html",
-                    "slug": "tests.evento-dettaglio"
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/"},
+                        {"label": "Eventi", "url": "/it/tests/eventi"},
+                        {"label": "Dettaglio evento", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Estate in città - Concerto inaugurale",
+                    "subtitle": "Sweet Soul Music Revue",
+                    "content": "<p>Il grande concerto di inaugurazione di Estate in Città 2026 con 20 musicisti da tutto il mondo</p>",
+                    "background_color": "bg-white",
+                    "text_color": "text-gray-900",
+                    "image": "/images/concerto-inaugurale.jpg"
+                }
+            },
+            {
+                "type": "info",
+                "data": {
+                    "view": "pub_theme::components.blocks.info.default",
+                    "title": "Informazioni evento",
+                    "items": [
+                        {
+                            "icon": "it-calendar",
+                            "title": "Data",
+                            "description": "17 giugno 2026"
+                        },
+                        {
+                            "icon": "it-clock",
+                            "title": "Orario",
+                            "description": "21:00"
+                        },
+                        {
+                            "icon": "it-location",
+                            "title": "Luogo",
+                            "description": "Piazza XX Settembre"
+                        },
+                        {
+                            "icon": "it-category",
+                            "title": "Categoria",
+                            "description": "Musica"
+                        },
+                        {
+                            "icon": "it-ticket",
+                            "title": "Ingresso",
+                            "description": "Gratuito"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "paragraph",
+                "data": {
+                    "view": "pub_theme::components.blocks.paragraph.default",
+                    "content": "<p class=\"mb-4\">Gli <strong>Sweet Soul Music Revue</strong> portano in scena uno spettacolo unico che celebra i grandi classici del soul, del rhythm and blues e della musica nera americana degli anni '60 e '70.</p><h3 class=\"text-xl font-bold mt-6 mb-4\">Gli artisti</h3><p class=\"mb-4\">Sul palco 20 musicisti provenienti da Stati Uniti, Brasile, Sudafrica e Italia, diretti dal maestro Giovanni Tommaso. Un viaggio musicale attraverso i brani di Aretha Franklin, Otis Redding, Ray Charles e molti altri.</p>",
+                    "class": "py-6"
+                }
+            },
+            {
+                "type": "links",
+                "data": {
+                    "view": "pub_theme::components.blocks.links.list",
+                    "title": "Informazioni utili",
+                    "links": [
+                        {
+                            "label": "Come arrivare",
+                            "url": "#",
+                            "description": "Indicazioni per raggiungere Piazza XX Settembre"
+                        },
+                        {
+                            "label": "Parcheggi",
+                            "url": "#",
+                            "description": "Aree di parcheggio disponibili"
+                        },
+                        {
+                            "label": "Accessibilità",
+                            "url": "#",
+                            "description": "Informazioni sull'accessibilità del luogo"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "contact",
+                "data": {
+                    "view": "pub_theme::components.blocks.contact.default",
+                    "title": "Organizzatore",
+                    "office": "Assessorato alla Cultura",
+                    "address": "Via Roma 1 - Ufficio Cultura",
+                    "phone": "0123 456789",
+                    "email": "cultura@comune.it",
+                    "hours": "Lun-Ven 9:00-13:00"
+                }
+            },
+            {
+                "type": "cta",
+                "data": {
+                    "view": "pub_theme::components.blocks.cta.default",
+                    "title": "Aggiungi al calendario",
+                    "description": "Aggiungi questo evento al tuo calendario",
+                    "button_text": "Scarica .ics",
+                    "button_url": "/download/evento-concerto.ics",
+                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
                 }
             }
         ],

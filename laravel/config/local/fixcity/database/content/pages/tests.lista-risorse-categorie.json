@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Lista risorse e categorie",
                     "category": "Generali",
-                    "summary": "Il template per una pagina lista di secondo o terzo livello con risorse e categorie.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/lista-risorse-categorie.html",
+                    "summary": "Il template di una pagina lista di secondo o terzo livello che riunisce risorse e categorie.",
                     "slug": "tests.lista-risorse-categorie"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La conversione deve isolare il mix fra categorie evidenziate, lista contenuti e strumenti di filtro."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/lista-risorse-categorie.html"
                 }
             }
         ],

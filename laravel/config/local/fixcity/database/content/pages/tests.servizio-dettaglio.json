@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Scheda servizio",
                     "category": "Servizi",
-                    "summary": "La pagina di dettaglio per un servizio specifico.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/servizio-dettaglio.html",
+                    "summary": "La pagina di dettaglio di un servizio specifico.",
                     "slug": "tests.servizio-dettaglio"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La scheda servizio andra divisa in overview, requisiti, costi, tempi, documenti e azioni."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/servizio-dettaglio.html"
                 }
             }
         ],

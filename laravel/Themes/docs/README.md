@@ -2,12 +2,12 @@
 
 ## Overview
 
-This directory contains documentation for all Laravel themes in the FixCity PTVX ecosystem. Each theme is a self-contained styling and presentation layer that integrates with the modular backend.
+This directory contains documentation for all Laravel themes in the PTVX ecosystem. Each theme is a self-contained styling and presentation layer that integrates with the modular backend.
 
 ## Project Structure
 
 ```
-base_fixcity_fila5/
+<project_root>/
 ├── public_html/              # DOCUMENT ROOT (web accessible)
 │   ├── index.php            # Entry point
 │   ├── assets/              # Public assets
@@ -17,6 +17,8 @@ base_fixcity_fila5/
 ├── docs/                     # Project-wide documentation
 └── bashscripts/             # Shell scripts
 ```
+
+> **Note**: Replace `<project_root>` with your actual project path (e.g., `base_fixcity_fila5`, `my-project`, etc.)
 
 ## Theme List
 
@@ -28,12 +30,14 @@ base_fixcity_fila5/
 ## Active Theme
 
 **Current Active Theme**: **Sixteen**  
-**Domain**: `fixcity.local`  
-**Configuration**: `laravel/config/localhost/xra.php` → `pub_theme`  
+**Domain**: `[YOUR_DOMAIN]` (e.g., `your-project.local`)  
+**Configuration**: `laravel/config/[your_config]/xra.php` → `pub_theme`  
 **Document Root**: `public_html/`  
 **Theme Assets**: `public_html/themes/Sixteen/`
 
 **Theme Context**: [.planning/THEME_CONTEXT.md](../../../../.planning/THEME_CONTEXT.md)
+
+> **Note**: Replace `[YOUR_DOMAIN]` and `[your_config]` with your actual project configuration.
 
 ## Architectural Principles
 
