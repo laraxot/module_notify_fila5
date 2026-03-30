@@ -1,323 +1,94 @@
 {
-    "id": "tests.argomenti",
-    "title": {
-        "it": "Argomenti",
-        "en": "Topics"
-    },
-    "slug": "tests.argomenti",
-    "content": null,
-    "content_blocks": {
-        "it": [
-            {
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "type": "navigation",
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                "type": "breadcrumb",
-=======
-                "type": "page_block",
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                "type": "page_block",
-=======
-                "type": "tests",
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                "data": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
-                    "items": [],
-                    "currentPage": "Argomenti",
-                    "background": "white"
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Argomenti",
-                    "category": "Generali",
-                    "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
-                    "slug": "tests.argomenti"
-=======
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Argomenti",
-                    "summary": "Esplora i contenuti del Comune per area tematica tramite una pagina CMS composta da blocchi riutilizzabili.",
-                    "category": "Design Comuni / Test",
-                    "slug": "tests.argomenti"
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                }
-            },
-            {
-<<<<<<< HEAD
-                "type": "hero",
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                "type": "page_block",
-=======
-                "type": "tests",
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                "data": {
-                    "view": "pub_theme::components.blocks.hero.page-intro",
-                    "eyebrow": "Amministrazione",
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
-                    "items": [
-                        {"label": "Home", "url": "/"},
-                        {"label": "Argomenti", "url": null}
-                    ]
-                }
-            },
-            {
-                "type": "hero",
-                "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
-=======
-                    "view": "pub_theme::components.blocks.tests.intro",
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "title": "Argomenti",
-<<<<<<< HEAD
-                    "subtitle": "Gli argomenti rispondono a un'esigenza di organizzazione dei contenuti del sito istituzionale per tematiche.",
-                    "content": "<p>Esplora i contenuti del Comune per area tematica, con accesso più rapido a informazioni, servizi e documenti.</p>",
-                    "background": "white"
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "subtitle": "Naviga per tematiche",
-                    "content": "<p>Gli argomenti rispondono a un'esigenza di organizzazione dei contenuti del sito istituzionale per tematiche e aiutano l'utente ad orientarsi nella ricerca di informazioni e servizi.</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
-=======
-                    "category": "Generali",
-                    "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
-                    "slug": "tests.argomenti"
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                }
-            },
-            {
-<<<<<<< HEAD
-                "type": "cards",
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                "type": "paragraph",
-=======
-                "type": "page_block",
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                "data": {
-<<<<<<< HEAD
-                    "view": "pub_theme::components.blocks.cards.featured-grid",
-                    "title": "In evidenza",
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<p class=\"text-center text-lg\">Scegli un argomento per esplorare i servizi e le informazioni correlate</p>",
-                    "class": "py-4"
-                }
-            },
-            {
-                "type": "links",
-                "data": {
-                    "view": "pub_theme::components.blocks.links.grid",
-                    "title": "Tutti gli argomenti",
-                    "links": [
-                        {
-                            "label": "Iscrizioni",
-                            "url": "/it/tests/argomento/iscrizioni",
-                            "description": "Servizi per iscrizioni e registrazioni"
-                        },
-                        {
-                            "label": "Estate in città",
-                            "url": "/it/tests/argomento/estate",
-                            "description": "Eventi e iniziative estive"
-                        },
-                        {
-                            "label": "Polizia locale",
-                            "url": "/it/tests/argomento/polizia",
-                            "description": "Informazioni e servizi di polizia municipale"
-                        },
-                        {
-                            "label": "Tutti gli argomenti",
-                            "url": "/it/tests/argomenti",
-                            "description": "Elenco completo di tutti gli argomenti"
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "info",
-                "data": {
-                    "view": "pub_theme::components.blocks.info.default",
-                    "title": "Come cercare",
-=======
-                    "view": "pub_theme::components.blocks.tests.argomenti",
-<<<<<<< HEAD
-                    "title": "Argomenti",
-                    "category": "Generali",
-                    "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html",
-                    "slug": "tests.argomenti",
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                    "title": "Argomenti",
-                    "category": "Generali",
-                    "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html",
-                    "slug": "tests.argomenti",
-=======
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                    "items": [
-                        {
-<<<<<<< HEAD
-                            "title": "Cultura",
-                            "description": "Musei, eventi, biblioteche e iniziative culturali.",
-                            "href": "#",
-                            "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=1200&q=80"
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                            "icon": "search",
-                            "title": "Usa la ricerca",
-                            "description": "Cerca per parola chiave per trovare rapidamente ciò che ti serve"
-=======
-                            "title": "Anagrafe e stato civile",
-                            "description": "Carta d'identita, certificati, residenza e documenti personali.",
-                            "href": "#"
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                        },
-                        {
-<<<<<<< HEAD
-                            "title": "Sport",
-                            "description": "Impianti, associazioni sportive e attività sul territorio.",
-                            "href": "#",
-                            "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80"
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                            "icon": "filter",
-                            "title": "Filtra per categoria",
-                            "description": "Naviga le categorie per esplorare i servizi disponibili"
-=======
-                            "title": "Ambiente",
-                            "description": "Rifiuti, raccolta differenziata, verde pubblico e sostenibilita.",
-                            "href": "#"
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                        },
-                        {
-<<<<<<< HEAD
-                            "title": "Famiglia",
-                            "description": "Servizi educativi, sostegni e strumenti per la vita quotidiana.",
-                            "href": "#",
-                            "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1200&q=80"
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                            "icon": "bookmark",
-                            "title": "Salva i preferiti",
-                            "description": "Aggiungi ai preferiti i servizi che usi più spesso"
-=======
-                            "title": "Mobilita e trasporti",
-                            "description": "Parcheggi, viabilita, ZTL, trasporto pubblico e percorsi urbani.",
-                            "href": "#"
-                        },
-                        {
-                            "title": "Tributi",
-                            "description": "IMU, TARI, canoni e pagamenti verso il Comune.",
-                            "href": "#"
-                        },
-                        {
-                            "title": "Scuola e servizi educativi",
-                            "description": "Mensa, trasporto scolastico, nidi e sostegni per le famiglie.",
-                            "href": "#"
-                        },
-                        {
-                            "title": "Segnalazioni e cura del territorio",
-                            "description": "Problemi urbani, manutenzioni e monitoraggio degli interventi.",
-                            "href": "#"
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                        }
-                    ]
-                }
-            },
-            {
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "type": "topics",
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                "type": "cta",
-=======
-                "type": "page_block",
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                "type": "page_block",
-=======
-                "type": "tests",
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                "data": {
-<<<<<<< HEAD
-                    "view": "pub_theme::components.blocks.topics.grid",
-                    "title": "Esplora per argomento",
-                    "items": [
-                        {"title": "Agricoltura", "description": "Contributi, territorio rurale e attività agricole.", "href": "#"},
-                        {"title": "Animale domestico", "description": "Anagrafe animali, tutela e servizi dedicati.", "href": "#"},
-                        {"title": "Assistenza sociale", "description": "Sostegni, aiuti e servizi alla persona.", "href": "#"},
-                        {"title": "Associazioni", "description": "Vita associativa, patrocini e spazi civici.", "href": "#"},
-                        {"title": "Concorsi", "description": "Bandi, selezioni pubbliche e graduatorie.", "href": "#"},
-                        {"title": "Formazione professionale", "description": "Percorsi, opportunità e orientamento.", "href": "#"},
-                        {"title": "Imposte", "description": "Tributi, canoni e fiscalità locale.", "href": "#"},
-                        {"title": "Imprese", "description": "Sportelli, autorizzazioni e supporto attività economiche.", "href": "#"},
-                        {"title": "Inquinamento", "description": "Qualità ambientale, monitoraggi e segnalazioni.", "href": "#"},
-                        {"title": "Integrazione sociale", "description": "Iniziative per inclusione e cittadinanza attiva.", "href": "#"},
-                        {"title": "Istruzione", "description": "Scuola, mensa, trasporto e servizi educativi.", "href": "#"},
-                        {"title": "Lavoro", "description": "Orientamento, bandi e opportunità occupazionali.", "href": "#"},
-                        {"title": "Parcheggi", "description": "Sosta, permessi e regolazione urbana.", "href": "#"},
-                        {"title": "Patrimonio culturale", "description": "Luoghi, archivi e valorizzazione culturale.", "href": "#"},
-                        {"title": "Piano di sviluppo", "description": "Programmazione, piani e trasformazioni urbane.", "href": "#"},
-                        {"title": "Pista ciclabile", "description": "Percorsi, mobilità dolce e sicurezza.", "href": "#"},
-                        {"title": "Trasporto pubblico", "description": "Linee, orari e servizi di mobilità.", "href": "#"},
-                        {"title": "Zone pedonali", "description": "Aree pedonali, accessi e regolamenti.", "href": "#"}
-                    ]
-                }
-            },
-            {
-                "type": "feedback",
-                "data": {
-                    "view": "pub_theme::components.blocks.feedback.rating",
-                    "title": "Quanto sono chiare le informazioni su questa pagina?",
-                    "description": "Valuta l'utilità della pagina Argomenti e aiutaci a migliorarla."
-                }
-            },
-            {
-                "type": "contact",
-                "data": {
-                    "view": "pub_theme::components.blocks.contact.card",
-                    "title": "Contatta il Comune",
-                    "description": "Per informazioni aggiuntive puoi rivolgerti agli uffici competenti o all'URP.",
-                    "items": [
-                        {"label": "Telefono", "value": "+39 0123 456789"},
-                        {"label": "Email", "value": "urp@comune.example.it"},
-                        {"label": "Indirizzo", "value": "Piazza Municipio 1, Comune di esempio"}
-                    ]
-                }
-            },
-            {
-                "type": "source_link",
-                "data": {
-                    "title": "Riferimento",
-                    "url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html",
-                    "text": "Design Comuni Pagine Statiche"
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Non trovi quello che cerchi?",
-                    "description": "Contatta l'ufficio relazioni con il pubblico per assistenza",
-                    "button_text": "Contattaci",
-                    "button_url": "/it/tests/assistenza",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
-=======
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html"
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                }
-            }
-        ],
-        "en": []
-    },
-    "sidebar_blocks": {
-        "it": [],
-        "en": []
-    },
-    "footer_blocks": {
-        "it": "",
-        "en": ""
-    }
+  "id": "tests.argomenti",
+  "title": {
+    "it": "Argomenti",
+    "en": "Topics"
+  },
+  "slug": "tests.argomenti",
+  "content": null,
+  "content_blocks": {
+    "it": [
+      {
+        "type": "navigation",
+        "data": {
+          "view": "pub_theme::components.blocks.navigation.breadcrumb",
+          "items": [],
+          "currentPage": "Argomenti",
+          "background": "white"
+        }
+      },
+      {
+        "type": "hero",
+        "data": {
+          "view": "pub_theme::components.blocks.hero.hero",
+          "subtitle": "Amministrazione",
+          "title": "Argomenti",
+          "description": "Gli argomenti rispondono a un'esigenza di organizzazione dei contenuti del sito istituzionale per tematiche.",
+          "background": "white",
+          "alignment": "left"
+        }
+      },
+      {
+        "type": "topics",
+        "data": {
+          "view": "pub_theme::components.blocks.topics.grid",
+          "title": "Esplora per argomento",
+          "topics": [
+            { "title": "Agricoltura", "description": "Contributi, territorio rurale e attivita agricole.", "url": "#" },
+            { "title": "Animale domestico", "description": "Anagrafe animali, tutela e servizi dedicati.", "url": "#" },
+            { "title": "Assistenza sociale", "description": "Sostegni, aiuti e servizi alla persona.", "url": "#" },
+            { "title": "Associazioni", "description": "Vita associativa, patrocini e spazi civici.", "url": "#" },
+            { "title": "Concorsi", "description": "Bandi, selezioni pubbliche e graduatorie.", "url": "#" },
+            { "title": "Formazione professionale", "description": "Percorsi, opportunita e orientamento.", "url": "#" },
+            { "title": "Imposte", "description": "Tributi, canoni e fiscalita locale.", "url": "#" },
+            { "title": "Imprese", "description": "Sportelli, autorizzazioni e supporto alle attivita economiche.", "url": "#" },
+            { "title": "Inquinamento", "description": "Qualita ambientale, monitoraggi e segnalazioni.", "url": "#" },
+            { "title": "Integrazione sociale", "description": "Iniziative per inclusione e cittadinanza attiva.", "url": "#" },
+            { "title": "Istruzione", "description": "Scuola, mensa, trasporto e servizi educativi.", "url": "#" },
+            { "title": "Lavoro", "description": "Orientamento, bandi e opportunita occupazionali.", "url": "#" },
+            { "title": "Parcheggi", "description": "Sosta, permessi e regolazione urbana.", "url": "#" },
+            { "title": "Patrimonio culturale", "description": "Luoghi, archivi e valorizzazione culturale.", "url": "#" },
+            { "title": "Piano di sviluppo", "description": "Programmazione, piani e trasformazioni urbane.", "url": "#" },
+            { "title": "Pista ciclabile", "description": "Percorsi, mobilita dolce e sicurezza.", "url": "#" },
+            { "title": "Trasporto pubblico", "description": "Linee, orari e servizi di mobilita.", "url": "#" },
+            { "title": "Zone pedonali", "description": "Aree pedonali, accessi e regolamenti.", "url": "#" }
+          ]
+        }
+      },
+      {
+        "type": "details",
+        "data": {
+          "view": "pub_theme::components.blocks.details.details",
+          "title": "Riferimento e strategia di conversione",
+          "items": [
+            { "label": "Sorgente upstream", "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html" },
+            { "label": "Slug CMS", "value": "tests.argomenti" },
+            { "label": "Rendering", "value": "Folio + Volt + x-page + BlockData" }
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "view": "pub_theme::components.blocks.list.list",
+          "title": "Link di lavoro",
+          "style": "icon",
+          "items": [
+            { "text": "Homepage", "url": "/it/tests/homepage", "icon": "heroicon-o-home" },
+            { "text": "Servizi", "url": "/it/tests/servizi", "icon": "heroicon-o-wrench-screwdriver" },
+            { "text": "Amministrazione", "url": "/it/tests/amministrazione", "icon": "heroicon-o-building-office-2" }
+          ]
+        }
+      }
+    ],
+    "en": []
+  },
+  "sidebar_blocks": {
+    "it": [],
+    "en": []
+  },
+  "footer_blocks": {
+    "it": "",
+    "en": ""
+  }
 }
