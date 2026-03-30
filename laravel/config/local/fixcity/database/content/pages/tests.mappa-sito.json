@@ -11,6 +11,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
+<<<<<<< HEAD
                     "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/"},
@@ -22,7 +23,13 @@
                 "type": "hero",
                 "data": {
                     "view": "pub_theme::components.blocks.hero.default",
+||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+=======
+                    "view": "pub_theme::components.blocks.tests.intro",
+>>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
                     "title": "Mappa del sito",
+<<<<<<< HEAD
                     "subtitle": "Navigazione rapida",
                     "content": "<p>Tutte le pagine del sito in un'unica vista</p>",
                     "background_color": "bg-white",
@@ -98,6 +105,37 @@
                     "button_text": "Contattaci",
                     "button_url": "/it/tests/assistenza",
                     "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
+||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
+                    "category": "Generali",
+                    "summary": "Il template della pagina mappa del sito.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/mappa-sito.html",
+                    "slug": "tests.mappa-sito"
+=======
+                    "category": "Generali",
+                    "summary": "Il template della pagina mappa del sito.",
+                    "slug": "tests.mappa-sito"
+>>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La mappa verra scomposta in sezioni navigabili e gruppi gerarchici gestibili da builder."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/mappa-sito.html"
                 }
             }
         ],
