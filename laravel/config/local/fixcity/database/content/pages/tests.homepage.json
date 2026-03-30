@@ -1,22 +1,126 @@
 {
-    "id": "tests.homepage",
+    "id": "tests-homepage",
     "title": {
-        "it": "Homepage",
-        "en": "Homepage"
+        "it": "Homepage - Il mio Comune",
+        "en": "Homepage - My Municipality"
     },
     "slug": "tests.homepage",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "page_block",
+                "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Homepage",
-                    "category": "Generali",
-                    "summary": "La homepage del sito comunale.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html",
-                    "slug": "tests.homepage"
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Il mio Comune",
+                    "subtitle": "Un comune da vivere",
+                    "content": "<p>Benvenuto nel portale del tuo Comune. Scopri i servizi, le novità e gli eventi.</p>",
+                    "background_color": "bg-italia-blue-500",
+                    "text_color": "text-white",
+                    "cta_text": "Scopri i servizi",
+                    "cta_link": "/it/tests/servizi",
+                    "cta_color": "bg-white text-italia-blue-500 hover:bg-gray-100"
+                }
+            },
+            {
+                "type": "feature_sections",
+                "data": {
+                    "view": "pub_theme::components.blocks.feature_sections.default",
+                    "title": "Servizi in evidenza",
+                    "sections": [
+                        {
+                            "title": "Servizi Digitali",
+                            "description": "Accedi ai servizi online del Comune",
+                            "icon": "it-services"
+                        },
+                        {
+                            "title": "Amministrazione",
+                            "description": "Giunta, consiglio e organi di governo",
+                            "icon": "it-pa"
+                        },
+                        {
+                            "title": "Novità",
+                            "description": "Comunicati, avvisi e notizie",
+                            "icon": "it-info-circle"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "paragraph",
+                "data": {
+                    "view": "pub_theme::components.blocks.paragraph.default",
+                    "content": "<h2 class=\"text-2xl font-bold text-center mb-4\">Esplora per argomenti</h2><p class=\"text-center text-lg\">Naviga tra i contenuti del Comune organizzati per tematiche</p>",
+                    "class": "py-8 bg-gray-50"
+                }
+            },
+            {
+                "type": "links",
+                "data": {
+                    "view": "pub_theme::components.blocks.links.grid",
+                    "title": "Argomenti principali",
+                    "links": [
+                        {
+                            "label": "Iscrizioni",
+                            "url": "/it/tests/argomento/iscrizioni",
+                            "description": "Servizi per iscrizioni e registrazioni"
+                        },
+                        {
+                            "label": "Estate in città",
+                            "url": "/it/tests/argomento/estate",
+                            "description": "Eventi e iniziative estive"
+                        },
+                        {
+                            "label": "Polizia locale",
+                            "url": "/it/tests/argomento/polizia",
+                            "description": "Informazioni e servizi"
+                        },
+                        {
+                            "label": "Tutti gli argomenti",
+                            "url": "/it/tests/argomenti",
+                            "description": "Elenco completo"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "stats",
+                "data": {
+                    "view": "pub_theme::components.blocks.stats.default",
+                    "title": "Il Comune in numeri",
+                    "stats": [
+                        {
+                            "label": "Abitanti",
+                            "value": "50.000",
+                            "icon": "users"
+                        },
+                        {
+                            "label": "Servizi",
+                            "value": "120",
+                            "icon": "services"
+                        },
+                        {
+                            "label": "Eventi/anno",
+                            "value": "300",
+                            "icon": "events"
+                        },
+                        {
+                            "label": "Strutture",
+                            "value": "45",
+                            "icon": "buildings"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta",
+                "data": {
+                    "view": "pub_theme::components.blocks.cta.default",
+                    "title": "Hai bisogno di aiuto?",
+                    "description": "Contatta l'ufficio relazioni con il pubblico per informazioni e assistenza",
+                    "button_text": "Contattaci",
+                    "button_url": "/it/tests/assistenza",
+                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
                 }
             }
         ],

@@ -23,3 +23,9 @@ Transform FixCity from a functional MVP to a national-scale enterprise-ready pla
 - Project: base_fixcity_fila5
 - Language: PHP 8.3
 - Date: March 2026
+
+## Philosophy & Zen
+- [Filosofia del Progetto](./philosophy.md) - Logica, religione, politica, zen dello sviluppo
+
+## Content Blocks
+- [FixCity Pages Content Blocks](./fixcity-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli
