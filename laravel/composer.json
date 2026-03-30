@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "FixCity Platform - Laravel Skeleton Application",
     "keywords": [
         "laravel",
         "framework"
@@ -10,29 +10,13 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "filament/filament": "^5.0",
         "laravel/framework": "^12.0",
         "nwidart/laravel-modules": "^12.0"
     },
-    "require-comment": {
-        "bacon/bacon-qr-code": "^3.0",
-        "thecodingmachine/safe": "^3.3"
-    },
-    "require-dev-comment": {
-        "filament/upgrade": "^5.0",
-        "laravel/boost": "^2.0",
-        "larastan/larastan": "^3.7",
-        "laravel/pint": "^1.25",
-        "phpstan/phpstan": "^2.1",
-        "friendsofphp/php-cs-fixer": "^3.88",
-        "phploc/phploc": "^2.0",
-        "phpmd/phpmd": "*",
-        "phpmetrics/phpmetrics": "^2.9",
-        "squizlabs/php_codesniffer": "^4.0",
-        "vimeo/psalm": "^6.13"
-    },
     "require-dev": {
-        
+        "laravel/pint": "^1.25",
+        "larastan/larastan": "^3.7",
+        "phpstan/phpstan": "^2.1"
     },
     "autoload": {
         "psr-4": {
@@ -49,8 +33,7 @@
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi",
-            "@php artisan filament:upgrade"
+            "@php artisan package:discover --ansi"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
@@ -63,46 +46,16 @@
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --graceful --ansi"
         ],
-        "dev": [
-            "Composer\\Config::disableProcessTimeout",
-            "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite"
-        ],
         "go": [
-            "@php -d memory_limit=-1 composer.phar selfupdate",
-            "rm -rf ./app/View/Components/vendor/",
-            "rm -rf ./resources/views/vendor/",
-            "@php -d memory_limit=-1 composer.phar update -W",
+            "@php -d memory_limit=-1 composer update -W",
             "@php artisan vendor:publish --all",
             "rm -rf database/migrations/*",
-            "rm -rf ./app/View/Components/vendor/",
             "mkdir -p bootstrap/cache",
             "@php artisan migrate",
-            "@php artisan filament:upgrade",
-            "@php artisan filament:optimize",
+            "@php artisan optimize",
             "@php artisan config:cache",
             "@php artisan view:cache",
-            "@php artisan icons:cache",
-            "@php artisan route:clear",
-            "@php artisan ide-helper:models -W",
-            "sudo chown -R www-data:www-data ..",
-            "sudo chmod -R g+w ..",
-            "@php artisan serve"
-        ],
-        "go-mac": [
-            "@php -d memory_limit=-1 composer.phar selfupdate",
-            "rm -rf ./app/View/Components/vendor/",
-            "rm -rf ./resources/views/vendor/",
-            "@php -d memory_limit=-1 composer.phar update -W",
-            "@php artisan vendor:publish --all",
-            "rm -rf database/migrations/*",
-            "rm -rf ./app/View/Components/vendor/",
-            "mkdir -p bootstrap/cache",
-            "@php artisan migrate",
-            "@php artisan filament:upgrade",
-            "@php artisan filament:optimize",
-            "@php artisan optimize --quiet",
-            "@php artisan route:clear",
-            "@php artisan serve"
+            "@php artisan route:clear"
         ]
     },
     "extra": {
@@ -113,7 +66,14 @@
             "include": [
                 "Modules/*/composer.json",
                 "Themes/*/composer.json"
-            ]
+            ],
+            "recurse": true,
+            "replace": false,
+            "ignore-duplicates": false,
+            "merge-dev": true,
+            "merge-extra": false,
+            "merge-extra-deep": false,
+            "merge-scripts": false
         }
     },
     "config": {
@@ -121,13 +81,11 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "allow-plugins": {
-            "codewithkyrian/transformers-libsloader": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
             "pestphp/pest-plugin": true,
             "php-http/discovery": true,
             "wikimedia/composer-merge-plugin": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
