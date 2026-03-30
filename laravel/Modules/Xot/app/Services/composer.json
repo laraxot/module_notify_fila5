@@ -27,6 +27,6 @@
         "sort-packages": true,
         "optimize-autoloader": true
     },
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }

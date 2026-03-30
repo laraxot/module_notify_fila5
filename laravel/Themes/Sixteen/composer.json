@@ -38,7 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Themes\\Sixteen\\": "app/"
+            "Themes\\Sixteen\\": ""
         }
     },
     "autoload-dev": {
@@ -53,9 +53,9 @@
             "wikimedia/composer-merge-plugin": true
         }
     },
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "orchestra/testbench": "^10.0"
+        "orchestra/testbench": "^9.4"
     }
 }
