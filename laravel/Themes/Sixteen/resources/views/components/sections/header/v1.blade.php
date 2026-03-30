@@ -11,7 +11,7 @@
 
                 @guest
                     <a class="flex items-center gap-2 text-xs sm:text-sm font-medium hover:text-opacity-90 agid-focus agid-transition focus:outline-2 focus:outline-white focus:outline-offset-2" href="{{ route('login') }}" aria-label="Accedi all'area personale">
-                        <x-heroicon-o-user class="w-4 h-4" aria-hidden="true" />
+                        <x-filament::icon icon="heroicon-o-user" class="w-4 h-4" aria-hidden="true" />
                         <span class="hidden md:block">Accedi all'area personale</span>
                     </a>
                 @endguest
@@ -19,7 +19,7 @@
                 @auth
                     <div class="relative">
                         <button id="dropdownDefaultButton" class="flex items-center gap-2 text-xs sm:text-sm font-medium hover:text-opacity-90 agid-focus agid-transition focus:outline-2 focus:outline-white focus:outline-offset-2" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Menu utente - {{ Auth::user()->name }}">
-                            <x-heroicon-o-user class="w-4 h-4" aria-hidden="true" />
+                            <x-filament::icon icon="heroicon-o-user" class="w-4 h-4" aria-hidden="true" />
                             <span class="hidden md:block">{{ Auth::user()->name }}</span>
                             <svg class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
                         </button>
@@ -70,7 +70,7 @@
                     </a>
                 @endforeach
                 <button class="bg-white bg-opacity-20 hover:bg-opacity-30 border-0 rounded-full p-2 agid-focus agid-transition focus:outline-2 focus:outline-white focus:outline-offset-2" style="color: var(--agid-primary);" aria-label="Cerca nel sito" type="button">
-                    <x-heroicon-o-magnifying-glass class="w-5 h-5" aria-hidden="true" />
+                    <x-filament::icon icon="heroicon-o-magnifying-glass" class="w-5 h-5" aria-hidden="true" />
                 </button>
             </div>
         </div>
