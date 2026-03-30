@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Lista contenuti/risorse",
                     "category": "Generali",
-                    "summary": "Il template per una pagina lista di secondo o terzo livello.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/lista-risorse.html",
+                    "summary": "Il template di una pagina lista di secondo o terzo livello.",
                     "slug": "tests.lista-risorse"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La struttura finale richiede blocchi distinti per titolo, filtri, risultati, paginazione e sidebar."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/lista-risorse.html"
                 }
             }
         ],

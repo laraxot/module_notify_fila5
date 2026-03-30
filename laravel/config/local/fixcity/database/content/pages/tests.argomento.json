@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Argomento",
                     "category": "Generali",
                     "summary": "La pagina di presentazione dei contenuti di uno specifico argomento.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomento.html",
                     "slug": "tests.argomento"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "Il template verra separato in header argomento, descrizione, contenuti correlati e navigazione contestuale."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomento.html"
                 }
             }
         ],

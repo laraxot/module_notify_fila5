@@ -1,8 +1,8 @@
 {
     "id": "tests.segnalazione-02-dati",
     "title": {
-        "it": "Step 2 - Inserimento dei dati di segnalazione",
-        "en": "Step 2 - Report data entry"
+        "it": "Segnalazione - Step 2 dati",
+        "en": "Segnalazione - Step 2 dati"
     },
     "slug": "tests.segnalazione-02-dati",
     "content": null,
@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Step 2 - Inserimento dei dati di segnalazione",
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Segnalazione - Step 2 dati",
                     "category": "Segnalazione Disservizio",
-                    "summary": "La schermata per inserire ubicazione, dettagli del disservizio, allegati e dati anagrafici dell'autore.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati.html",
+                    "summary": "La schermata per l'inserimento di luogo, dettagli, allegati e dati autore.",
                     "slug": "tests.segnalazione-02-dati"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La forma corretta a blocchi separa stepper, mappa/luogo, campi segnalazione, allegati e dati autore."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati.html"
                 }
             }
         ],

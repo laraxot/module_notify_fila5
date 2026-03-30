@@ -1,22 +1,131 @@
 {
-    "id": "tests.domande-frequenti",
+    "id": "tests-domande-frequenti",
     "title": {
-        "it": "Domande frequenti (FAQ)",
-        "en": "Domande frequenti (FAQ)"
+        "it": "Domande frequenti",
+        "en": "FAQ"
     },
     "slug": "tests.domande-frequenti",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "page_block",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Domande frequenti (FAQ)",
-                    "category": "Generali",
-                    "summary": "La pagina per la presentazione delle domande frequenti.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/domande-frequenti.html",
-                    "slug": "tests.domande-frequenti"
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/"},
+                        {"label": "Domande frequenti", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Domande frequenti",
+                    "subtitle": "Risposte alle domande più comuni",
+                    "content": "<p>Trova le risposte alle domande più frequenti sui servizi comunali</p>",
+                    "background_color": "bg-white",
+                    "text_color": "text-gray-900"
+                }
+            },
+            {
+                "type": "feature_sections",
+                "data": {
+                    "view": "pub_theme::components.blocks.feature_sections.default",
+                    "title": "Categorie",
+                    "sections": [
+                        {
+                            "title": "Anagrafe",
+                            "description": "Documenti di identità, residenza, stato di famiglia",
+                            "icon": "it-user"
+                        },
+                        {
+                            "title": "Tributi",
+                            "description": "TARI, IMU, TOSAP e altre tasse",
+                            "icon": "it-money"
+                        },
+                        {
+                            "title": "Scuola",
+                            "description": "Iscrizioni, mense, trasporti scolastici",
+                            "icon": "it-school"
+                        },
+                        {
+                            "title": "Mobilità",
+                            "description": "Trasporti, parcheggi, traffico",
+                            "icon": "it-bus"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "paragraph",
+                "data": {
+                    "view": "pub_theme::components.blocks.paragraph.default",
+                    "content": "<h3 class=\"text-xl font-bold mb-4\">Domande frequenti - Anagrafe</h3>",
+                    "class": "py-4"
+                }
+            },
+            {
+                "type": "info",
+                "data": {
+                    "view": "pub_theme::components.blocks.info.default",
+                    "title": "",
+                    "items": [
+                        {
+                            "icon": "it-help",
+                            "title": "Come richiedo la carta d'identità?",
+                            "description": "Per richiedere la carta d'identità è necessario prenotare un appuntamento online o recarsi allo sportello. Porta con te un documento di identità valido, una fototessera e il codice fiscale."
+                        },
+                        {
+                            "icon": "it-help",
+                            "title": "Quali sono gli orari degli uffici?",
+                            "description": "Gli uffici anagrafe sono aperti dal lunedì al venerdì dalle 9:00 alle 13:00 e il martedì anche dalle 15:00 alle 17:00."
+                        },
+                        {
+                            "icon": "it-help",
+                            "title": "Quanto costa la carta d'identità?",
+                            "description": "Il costo della carta d'identità elettronica è di € 21,95 più i diritti di segreteria di € 16,79."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "paragraph",
+                "data": {
+                    "view": "pub_theme::components.blocks.paragraph.default",
+                    "content": "<h3 class=\"text-xl font-bold mb-4 mt-8\">Domande frequenti - Tributi</h3>",
+                    "class": "py-4"
+                }
+            },
+            {
+                "type": "info",
+                "data": {
+                    "view": "pub_theme::components.blocks.info.default",
+                    "title": "",
+                    "items": [
+                        {
+                            "icon": "it-help",
+                            "title": "Come pago la TARI?",
+                            "description": "Il pagamento della TARI può essere effettuato tramite bollettino postale, bonifico bancario o presso gli sportelli abilitati."
+                        },
+                        {
+                            "icon": "it-help",
+                            "title": "Quando scade la TARI?",
+                            "description": "La TARI si paga in un'unica soluzione entro il 30 giugno o in due rate: 30 giugno e 31 dicembre."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta",
+                "data": {
+                    "view": "pub_theme::components.blocks.cta.default",
+                    "title": "Non hai trovato la tua domanda?",
+                    "description": "Contatta l'ufficio relazioni con il pubblico per ulteriori informazioni",
+                    "button_text": "Contattaci",
+                    "button_url": "/it/tests/assistenza",
+                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
                 }
             }
         ],

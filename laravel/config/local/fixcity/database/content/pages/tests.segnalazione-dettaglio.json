@@ -1,8 +1,8 @@
 {
     "id": "tests.segnalazione-dettaglio",
     "title": {
-        "it": "Scheda del servizio di segnalazione",
-        "en": "Scheda del servizio di segnalazione"
+        "it": "Segnalazione disservizio - Scheda servizio",
+        "en": "Segnalazione disservizio - Scheda servizio"
     },
     "slug": "tests.segnalazione-dettaglio",
     "content": null,
@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Scheda del servizio di segnalazione",
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Segnalazione disservizio - Scheda servizio",
                     "category": "Segnalazione Disservizio",
-                    "summary": "La carta di presentazione del servizio di segnalazione con accesso alle funzionalità e elenco delle segnalazioni.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-dettaglio.html",
+                    "summary": "La scheda di presentazione del servizio di segnalazione.",
                     "slug": "tests.segnalazione-dettaglio"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La scheda richiede blocchi per overview, requisiti, processo e call to action."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-dettaglio.html"
                 }
             }
         ],

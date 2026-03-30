@@ -1,114 +1,42 @@
 {
-    "id": "tests-eventi",
+    "id": "tests.eventi",
     "title": {
         "it": "Eventi",
-        "en": "Events"
+        "en": "Eventi"
     },
     "slug": "tests.eventi",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "breadcrumb",
+                "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
-                    "items": [
-                        {"label": "Home", "url": "/"},
-                        {"label": "Eventi", "url": null}
-                    ]
-                }
-            },
-            {
-                "type": "hero",
-                "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
+                    "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Eventi",
-                    "subtitle": "Vivere il Comune",
-                    "content": "<p>Scopri tutti gli eventi in programma nel tuo Comune</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
+                    "category": "Vivere il Comune",
+                    "summary": "La pagina lista di primo livello per la sezione Vivere il Comune.",
+                    "slug": "tests.eventi"
                 }
             },
             {
-                "type": "links",
+                "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.links.list",
-                    "title": "Prossimi eventi",
-                    "links": [
-                        {
-                            "label": "Estate in città - Concerto inaugurale",
-                            "url": "/it/tests/evento-dettaglio",
-                            "description": "Piazza XX Settembre - 21:00",
-                            "meta": "17 giugno 2026 - Musica"
-                        },
-                        {
-                            "label": "Mercatino dell'artigianato",
-                            "url": "/it/tests/evento-dettaglio",
-                            "description": "Centro storico - 09:00 - 19:00",
-                            "meta": "20 giugno 2026 - Mercati"
-                        },
-                        {
-                            "label": "Visita guidata al museo",
-                            "url": "/it/tests/evento-dettaglio",
-                            "description": "Museo Civico - 15:00",
-                            "meta": "22 giugno 2026 - Cultura"
-                        },
-                        {
-                            "label": "Festa dello sport",
-                            "url": "/it/tests/evento-dettaglio",
-                            "description": "Parco comunale - 10:00 - 20:00",
-                            "meta": "25 giugno 2026 - Sport"
-                        },
-                        {
-                            "label": "Cinema sotto le stelle",
-                            "url": "/it/tests/evento-dettaglio",
-                            "description": "Giardini pubblici - 21:30",
-                            "meta": "28 giugno 2026 - Cinema"
-                        }
-                    ]
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "Serviranno blocchi per calendario, card evento, filtri tematici e mappa territoriale."
                 }
             },
             {
-                "type": "paragraph",
+                "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<h3 class=\"text-xl font-bold mb-4\">Categorie di eventi</h3><div class=\"flex flex-wrap gap-2\"><span class=\"px-4 py-2 bg-blue-100 text-blue-800 rounded-full\">Musica</span><span class=\"px-4 py-2 bg-green-100 text-green-800 rounded-full\">Cultura</span><span class=\"px-4 py-2 bg-purple-100 text-purple-800 rounded-full\">Sport</span><span class=\"px-4 py-2 bg-orange-100 text-orange-800 rounded-full\">Bambini</span><span class=\"px-4 py-2 bg-red-100 text-red-800 rounded-full\">Cinema</span></div>",
-                    "class": "py-6"
+                    "view": "pub_theme::components.blocks.tests.governance-note"
                 }
             },
             {
-                "type": "info",
+                "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.info.default",
-                    "title": "Proponi un evento",
-                    "items": [
-                        {
-                            "icon": "email",
-                            "title": "Invia una email",
-                            "description": "Scrivi a eventi@comune.it per proporre un evento"
-                        },
-                        {
-                            "icon": "phone",
-                            "title": "Chiama",
-                            "description": "Contatta l'ufficio cultura al numero 0123 456789"
-                        },
-                        {
-                            "icon": "location",
-                            "title": "Di persona",
-                            "description": "Vieni all'ufficio cultura in Municipio"
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "cta",
-                "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Calendario eventi",
-                    "description": "Consulta il calendario completo di tutti gli eventi",
-                    "button_text": "Vai al calendario",
-                    "button_url": "/it/tests/calendario",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/eventi.html"
                 }
             }
         ],
