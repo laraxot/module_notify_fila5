@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Lang\Http\Livewire\Lang;
 
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Str;
 use Illuminate\View\View;
 use Livewire\Component;
@@ -23,35 +24,39 @@ class Switcher extends Component
 
     public array $langs;
 
+    public string $url;
+
     public function mount(): void
     {
         $this->lang = app()->getLocale();
         $langs = LaravelLocalization::getSupportedLocales();
         unset($langs[$this->lang]);
-
-        $currentUrl = request()->getRequestUri();
-
-        $langs = Arr::map($langs, function (array $item, string $key) use ($currentUrl): array {
+        $this->url = Request::getRequestUri();
+        $langs = Arr::map($langs, function (array $item, string $key) {
             // @phpstan-ignore staticMethod.notFound
-            $url = LaravelLocalization::getLocalizedURL($key, $currentUrl, [], true);
-
+            $url = LaravelLocalization::getLocalizedURL($key, $this->url, [], true);
             if (false !== $url) {
+                // Verifichiamo che $url sia una stringa o lo convertiamo in modo sicuro
                 if (! is_string($url)) {
+                    // Se non è una stringa, utilizziamo una URL di fallback
                     $url = '/'.$key;
                 } else {
                     $url = Str::of($url)->replace(url(''), '')->toString();
                 }
-            } else {
-                $url = '/'.$key;
             }
-
             $item['url'] = $url;
 
             return $item;
         });
-
         $this->langs = $langs;
     }
+
+    // public function switchLang(string $lang): Application|RedirectResponse|Redirector
+    // {
+    //    $url = LaravelLocalization::getLocalizedURL($lang, $this->url);
+
+    //   return redirect($url, 303);
+    // }
 
     public function render(): View
     {
@@ -59,6 +64,9 @@ class Switcher extends Component
         $viewParams = [
             'view' => $view,
         ];
+        // if ([] === $this->teams) {
+        //    $view = 'ui::livewire.empty';
+        // }
 
         return view($view, $viewParams);
     }
