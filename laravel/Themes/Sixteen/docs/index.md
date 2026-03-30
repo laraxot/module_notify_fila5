@@ -239,16 +239,3 @@ npm run copy
 **Mantenuto da**: Team Sixteen
 
 
-<<<<<<< HEAD
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-
-### Design Comuni / Tests
-- **[docs/design-comuni/folio-volt-tests-pages.md](design-comuni/folio-volt-tests-pages.md)** - Pattern corretto per `pages/tests/[slug].blade.php` con Folio, Volt e x-page
-=======
-
-### Design Comuni / Tests
-- **[docs/design-comuni/folio-volt-tests-pages.md](design-comuni/folio-volt-tests-pages.md)** - Pattern corretto per `pages/tests/[slug].blade.php` con Folio, Volt e x-page
-
-### Design Comuni / JSON Multi-Block
-- **[docs/design-comuni/json-multi-block-governance.md](design-comuni/json-multi-block-governance.md)** - Regola per modellare le pagine tests.* come sequenze di blocchi riusabili e mantenere coerente il contratto type/view
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
