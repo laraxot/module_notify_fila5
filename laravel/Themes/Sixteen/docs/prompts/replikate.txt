@@ -104,5 +104,7 @@ percio' come minimo devi creare i files tipo laravel/config/local/fixcity/databa
 
 i json dentro laravel/config/local/fixcity/database/content/pages/ solo in casi rari possono contenere solo 1 blocco , ogni pagina per essere convertita di sicuro si puo' spezzare in piu' blocchi, ricorda che i blocchi in amministrazione vengono gestiti da  https://filamentphp.com/docs/5.x/forms/builder
 
+le cartelle docs dentro i moduli e dentro i temi devono essere agnostiche non puo' esserci ad esempio  [FixCity Pages Content Blocks](./fixcity-pages-content-blocks.md) 
+
 devi capire il perche' la logica, la visione, la religione, la politica, la filosofia, lo zen e documentare tutto dentro le cartelle docs dentro i moduli e dentro i temi, aggiornare studiare e migliorare anche le tue rules, le tue memories, e le tue skills, aggiorna tutto utilizzando indici un controllo avanzato per la rindondanza e per i files doppi e dry + kiss
 utilizza openviking installato globalmente, bmad, gsd , ralph loop e notebooklm, ricorda che ogni task viene dato a piu' agenti ai, percio' comportati di conseguenza e cerca di unire le forze con gli altri agenti ai
