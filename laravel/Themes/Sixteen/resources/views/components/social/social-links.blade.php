@@ -9,37 +9,37 @@
     $socialPlatforms = [
         'facebook' => [
             'name' => 'Facebook',
-            'icon' => 'heroicon-o-facebook',
+            'icon' => 'fab-facebook',
             'color' => 'text-blue-600 hover:text-blue-700',
             'bg' => 'hover:bg-blue-50',
         ],
         'twitter' => [
             'name' => 'X (Twitter)', 
-            'icon' => 'heroicon-o-chat-bubble-left-right',
+            'icon' => 'fab-x-twitter',
             'color' => 'text-gray-900 hover:text-gray-700',
             'bg' => 'hover:bg-gray-50',
         ],
         'instagram' => [
             'name' => 'Instagram',
-            'icon' => 'heroicon-o-camera',
+            'icon' => 'fab-instagram',
             'color' => 'text-pink-600 hover:text-pink-700',
             'bg' => 'hover:bg-pink-50',
         ],
         'linkedin' => [
             'name' => 'LinkedIn',
-            'icon' => 'heroicon-o-briefcase',
+            'icon' => 'fab-linkedin',
             'color' => 'text-blue-700 hover:text-blue-800',
             'bg' => 'hover:bg-blue-50',
         ],
         'youtube' => [
             'name' => 'YouTube',
-            'icon' => 'heroicon-o-play',
+            'icon' => 'fab-youtube',
             'color' => 'text-red-600 hover:text-red-700',
             'bg' => 'hover:bg-red-50',
         ],
         'telegram' => [
             'name' => 'Telegram',
-            'icon' => 'heroicon-o-paper-airplane',
+            'icon' => 'fab-telegram',
             'color' => 'text-blue-500 hover:text-blue-600',
             'bg' => 'hover:bg-blue-50',
         ],

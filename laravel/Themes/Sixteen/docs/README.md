@@ -331,3 +331,6 @@ npm run lighthouse
 **Ultimo aggiornamento**: Settembre 1, 2025  
 **Mantenuto da**: Team Bootstrap Italia Migration  
 **Licenza**: MIT
+
+## Design Comuni Static Pages
+- [Replica pagine statiche Design Comuni](design-comuni/static-pages-replication.md)
