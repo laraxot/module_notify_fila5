@@ -11,6 +11,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
+<<<<<<< HEAD
                     "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/"},
@@ -118,6 +119,41 @@
                     "button_text": "Scarica .ics",
                     "button_url": "/download/evento-concerto.ics",
                     "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
+||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Evento",
+                    "category": "Vivere il Comune",
+                    "summary": "La pagina di dettaglio per un evento.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/evento-dettaglio.html",
+                    "slug": "tests.evento-dettaglio"
+=======
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Evento",
+                    "category": "Vivere il Comune",
+                    "summary": "La pagina di dettaglio di un evento.",
+                    "slug": "tests.evento-dettaglio"
+>>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "Il dettaglio evento andra separato in hero, informazioni pratiche, programma, luogo e correlati."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/evento-dettaglio.html"
                 }
             }
         ],
