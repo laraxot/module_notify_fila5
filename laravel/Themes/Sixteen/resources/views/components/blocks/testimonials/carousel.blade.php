@@ -27,7 +27,13 @@
                     <div class="bg-gray-50 rounded-xl p-8 relative">
                         {{-- Quote Icon --}}
                         <div class="absolute top-6 right-6 text-blue-200">
+<<<<<<< HEAD
                             <x-heroicon-o-chat-bubble-left-ellipsis class="w-8 h-8" />
+||||||| parent of f2e0249c (.)
+                            <x-filament::icon icon="heroicon-o-chat-bubble-left-ellipsis class="w-8 h-8"" />
+=======
+                            <x-filament::icon icon="heroicon-o-chat-bubble-left-ellipsis" class="w-8 h-8" />
+>>>>>>> f2e0249c (.)
                         </div>
 
                         {{-- Rating --}}

@@ -181,7 +181,13 @@
                                     x-on:click="performSearch()"
                                     aria-label="Esegui ricerca"
                                 >
+<<<<<<< HEAD
                                     <x-heroicon-o-magnifying-glass class="w-4 h-4" />
+||||||| parent of f2e0249c (.)
+                                    <x-filament::icon icon="heroicon-o-magnifying-glass class="w-4 h-4"" />
+=======
+                                    <x-filament::icon icon="heroicon-o-magnifying-glass" class="w-4 h-4" />
+>>>>>>> f2e0249c (.)
                                 </button>
                             </div>
                         </form>
