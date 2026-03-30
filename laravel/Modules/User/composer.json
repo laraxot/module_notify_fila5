@@ -88,6 +88,6 @@
       "wikimedia/composer-merge-plugin": true
     }
   },
-  "minimum-stability": "beta",
+  "minimum-stability": "dev",
   "prefer-stable": true
 }
