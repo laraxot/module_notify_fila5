@@ -12,6 +12,12 @@
 - [Architettura Sistema](./architettura.md)
 - [Convenzioni Codice](./convenzioni-codice.md)
 
+### 🤖 AI Workflow Integration (NEW!)
+- [**Setup Complete Report**](./OPENVIKING_BMAD_GSD_RALPH_COMPLETE.md) ⭐
+- [**Unified AI Workflow**](./unified-ai-workflow.md) 🚀
+- [OpenViking Integration](./openviking-integration.md)
+- [BMAD-GSD-Ralph Integration](./bmad-gsd-ralph-integration.md)
+
 ### 🏆 Qualità Codice
 - [**PHPStan: Riepilogo Generale**](./phpstan/riepilogo-generale.md) ⭐
 - [PHPStan: Lezioni Apprese](./phpstan/lezioni-apprese-2025-10-10.md)

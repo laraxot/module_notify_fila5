@@ -131,7 +131,10 @@ laravel/database/migrations/
 ./cache/
 laravel/Modules/Chart/public_html/
 laravel/database/fixcity_data.sqlite
+# bashscripts - except AI workflow scripts
 bashscripts/
+!bashscripts/ai/openviking-init.sh
+!bashscripts/ai/.gitkeep
 laravel/resources/views/vendor/
 cache/models/*
 *.tar.gz
@@ -217,5 +220,8 @@ laravel/.claude
 laravel/.gemini
 laravel/.ai-context
 laravel/.phive
-.ralph
+# Ralph Loop - except configuration
+.ralph/
+!.ralph/prd.json
+!.ralph/README.md
 laravel/.ralph
