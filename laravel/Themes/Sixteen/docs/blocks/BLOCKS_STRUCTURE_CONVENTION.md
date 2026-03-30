@@ -271,7 +271,7 @@ components/blocks/
 
 ### References
 
-- [Filament Icons Documentation](https://filamentphp.com/docs/3.x/forms/fields/icon-picker)
+- [Filament Icons Documentation](https://filamentphp.com/docs/5.x/forms/fields/icon-picker)
 - [Heroicons](https://heroicons.com/)
 
 ---
