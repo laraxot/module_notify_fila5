@@ -1,8 +1,8 @@
 {
     "id": "tests.appuntamento-04-richiedente",
     "title": {
-        "it": "Step 4 - Aggiunta delle informazioni personali (utente non autenticato)",
-        "en": "Step 4 - Personal information (unauthenticated user)"
+        "it": "Appuntamento - Step 4 richiedente",
+        "en": "Appuntamento - Step 4 richiedente"
     },
     "slug": "tests.appuntamento-04-richiedente",
     "content": null,
@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Step 4 - Aggiunta delle informazioni personali (utente non autenticato)",
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Appuntamento - Step 4 richiedente",
                     "category": "Prenotazione Appuntamento",
-                    "summary": "La schermata di inserimento delle informazioni personali senza autenticazione con identità digitale.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-04-richiedente.html",
+                    "summary": "La schermata di inserimento delle informazioni personali per utente non autenticato.",
                     "slug": "tests.appuntamento-04-richiedente"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "Serviranno blocchi separati per stepper, campi anagrafici, consenso e conferme operative."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-04-richiedente.html"
                 }
             }
         ],

@@ -1,22 +1,103 @@
 {
-    "id": "tests.mappa-sito",
+    "id": "tests-mappa-sito",
     "title": {
         "it": "Mappa del sito",
-        "en": "Mappa del sito"
+        "en": "Site map"
     },
     "slug": "tests.mappa-sito",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "page_block",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/"},
+                        {"label": "Mappa del sito", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
                     "title": "Mappa del sito",
-                    "category": "Generali",
-                    "summary": "Il template della pagina mappa del sito.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/mappa-sito.html",
-                    "slug": "tests.mappa-sito"
+                    "subtitle": "Navigazione rapida",
+                    "content": "<p>Tutte le pagine del sito in un'unica vista</p>",
+                    "background_color": "bg-white",
+                    "text_color": "text-gray-900"
+                }
+            },
+            {
+                "type": "feature_sections",
+                "data": {
+                    "view": "pub_theme::components.blocks.feature_sections.default",
+                    "title": "Sezioni principali",
+                    "sections": [
+                        {
+                            "title": "Generali",
+                            "description": "Homepage, argomenti, FAQ",
+                            "icon": "it-home"
+                        },
+                        {
+                            "title": "Amministrazione",
+                            "description": "Giunta, consiglio, documenti",
+                            "icon": "it-pa"
+                        },
+                        {
+                            "title": "Servizi",
+                            "description": "Servizi digitali",
+                            "icon": "it-services"
+                        },
+                        {
+                            "title": "Novità",
+                            "description": "Comunicati e avvisi",
+                            "icon": "it-info-circle"
+                        },
+                        {
+                            "title": "Eventi",
+                            "description": "Eventi e manifestazioni",
+                            "icon": "it-calendar"
+                        },
+                        {
+                            "title": "Assistenza",
+                            "description": "Contatti e supporto",
+                            "icon": "it-help"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "links",
+                "data": {
+                    "view": "pub_theme::components.blocks.links.grid",
+                    "title": "Tutte le pagine",
+                    "links": [
+                        {"label": "Homepage", "url": "/it/tests/homepage"},
+                        {"label": "Argomenti", "url": "/it/tests/argomenti"},
+                        {"label": "Servizi", "url": "/it/tests/servizi"},
+                        {"label": "Novità", "url": "/it/tests/novita"},
+                        {"label": "Amministrazione", "url": "/it/tests/amministrazione"},
+                        {"label": "Documenti e dati", "url": "/it/tests/documenti-dati"},
+                        {"label": "Eventi", "url": "/it/tests/eventi"},
+                        {"label": "Domande frequenti", "url": "/it/tests/domande-frequenti"},
+                        {"label": "Risultati di ricerca", "url": "/it/tests/risultati-ricerca"},
+                        {"label": "Prenotazione appuntamento", "url": "/it/tests/appuntamento-01-ufficio"},
+                        {"label": "Richiesta assistenza", "url": "/it/tests/assistenza-01-dati"},
+                        {"label": "Segnalazioni", "url": "/it/tests/segnalazioni-elenco"}
+                    ]
+                }
+            },
+            {
+                "type": "cta",
+                "data": {
+                    "view": "pub_theme::components.blocks.cta.default",
+                    "title": "Hai bisogno di aiuto?",
+                    "description": "Se non riesci a trovare quello che cerchi, contatta l'URP",
+                    "button_text": "Contattaci",
+                    "button_url": "/it/tests/assistenza",
+                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
                 }
             }
         ],

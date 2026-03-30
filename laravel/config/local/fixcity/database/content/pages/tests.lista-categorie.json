@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Lista categorie",
                     "category": "Generali",
-                    "summary": "Il template per una pagina lista di categoria di secondo o terzo livello.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/lista-categorie.html",
+                    "summary": "Il template di una pagina lista categorie di secondo o terzo livello.",
                     "slug": "tests.lista-categorie"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La pagina va divisa in hero, griglia categorie e percorsi di approfondimento."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/lista-categorie.html"
                 }
             }
         ],
