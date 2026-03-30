@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Categoria di servizio",
                     "category": "Servizi",
-                    "summary": "La pagina di secondo livello per i servizi appartenenti a una specifica categoria.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/servizi-categoria.html",
+                    "summary": "La pagina dei servizi appartenenti a una specifica categoria.",
                     "slug": "tests.servizi-categoria"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La conversione isola titolo categoria, descrizione, lista servizi e collegamenti trasversali."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/servizi-categoria.html"
                 }
             }
         ],

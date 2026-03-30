@@ -1,8 +1,8 @@
 {
     "id": "tests.appuntamento-02-data-orario",
     "title": {
-        "it": "Step 2 - Scelta appuntamento",
-        "en": "Step 2 - Appointment choice"
+        "it": "Appuntamento - Step 2 data e orario",
+        "en": "Appuntamento - Step 2 data e orario"
     },
     "slug": "tests.appuntamento-02-data-orario",
     "content": null,
@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Step 2 - Scelta appuntamento",
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Appuntamento - Step 2 data e orario",
                     "category": "Prenotazione Appuntamento",
-                    "summary": "La schermata di selezione di data e ora.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-02-data-orario.html",
+                    "summary": "La schermata di selezione della data e ora dell'appuntamento.",
                     "slug": "tests.appuntamento-02-data-orario"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "Il template finale richiede almeno stepper, calendario/orari e riepilogo contestuale."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-02-data-orario.html"
                 }
             }
         ],

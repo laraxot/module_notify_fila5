@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Segnalazione disservizio - Area personale",
                     "category": "Segnalazione Disservizio",
-                    "summary": "La schermata dell'area personale con le attività recenti dell'utente.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-area-personale.html",
+                    "summary": "La schermata dell'area personale con la segnalazione appena effettuata.",
                     "slug": "tests.segnalazione-area-personale"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La pagina finale separera overview profilo, elenco segnalazioni e stato ticket."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-area-personale.html"
                 }
             }
         ],

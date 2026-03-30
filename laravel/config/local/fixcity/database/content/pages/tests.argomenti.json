@@ -1,104 +1,77 @@
 {
-    "id": "tests-argomenti",
+    "id": "tests.argomenti",
     "title": {
         "it": "Argomenti",
-        "en": "Topics"
+        "en": "Argomenti"
     },
     "slug": "tests.argomenti",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "breadcrumb",
+                "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
-                    "items": [
-                        {"label": "Home", "url": "/"},
-                        {"label": "Argomenti", "url": null}
-                    ]
-                }
-            },
-            {
-                "type": "hero",
-                "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
+                    "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Argomenti",
-                    "subtitle": "Naviga per tematiche",
-                    "content": "<p>Gli argomenti rispondono a un'esigenza di organizzazione dei contenuti del sito istituzionale per tematiche e aiutano l'utente ad orientarsi nella ricerca di informazioni e servizi.</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
+                    "category": "Generali",
+                    "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
+                    "slug": "tests.argomenti"
                 }
             },
             {
-                "type": "paragraph",
+                "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<p class=\"text-center text-lg\">Scegli un argomento per esplorare i servizi e le informazioni correlate</p>",
-                    "class": "py-4"
-                }
-            },
-            {
-                "type": "links",
-                "data": {
-                    "view": "pub_theme::components.blocks.links.grid",
-                    "title": "Tutti gli argomenti",
-                    "links": [
-                        {
-                            "label": "Iscrizioni",
-                            "url": "/it/tests/argomento/iscrizioni",
-                            "description": "Servizi per iscrizioni e registrazioni"
-                        },
-                        {
-                            "label": "Estate in città",
-                            "url": "/it/tests/argomento/estate",
-                            "description": "Eventi e iniziative estive"
-                        },
-                        {
-                            "label": "Polizia locale",
-                            "url": "/it/tests/argomento/polizia",
-                            "description": "Informazioni e servizi di polizia municipale"
-                        },
-                        {
-                            "label": "Tutti gli argomenti",
-                            "url": "/it/tests/argomenti",
-                            "description": "Elenco completo di tutti gli argomenti"
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "info",
-                "data": {
-                    "view": "pub_theme::components.blocks.info.default",
-                    "title": "Come cercare",
+                    "view": "pub_theme::components.blocks.tests.argomenti",
+                    "title": "Argomenti",
+                    "category": "Generali",
+                    "summary": "La pagina con la lista di tutti gli argomenti a cui sono associati i contenuti del sito.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html",
+                    "slug": "tests.argomenti",
                     "items": [
                         {
-                            "icon": "search",
-                            "title": "Usa la ricerca",
-                            "description": "Cerca per parola chiave per trovare rapidamente ciò che ti serve"
+                            "title": "Anagrafe e stato civile",
+                            "description": "Carta d'identita, certificati, residenza e documenti personali.",
+                            "href": "#"
                         },
                         {
-                            "icon": "filter",
-                            "title": "Filtra per categoria",
-                            "description": "Naviga le categorie per esplorare i servizi disponibili"
+                            "title": "Ambiente",
+                            "description": "Rifiuti, raccolta differenziata, verde pubblico e sostenibilita.",
+                            "href": "#"
                         },
                         {
-                            "icon": "bookmark",
-                            "title": "Salva i preferiti",
-                            "description": "Aggiungi ai preferiti i servizi che usi più spesso"
+                            "title": "Mobilita e trasporti",
+                            "description": "Parcheggi, viabilita, ZTL, trasporto pubblico e percorsi urbani.",
+                            "href": "#"
+                        },
+                        {
+                            "title": "Tributi",
+                            "description": "IMU, TARI, canoni e pagamenti verso il Comune.",
+                            "href": "#"
+                        },
+                        {
+                            "title": "Scuola e servizi educativi",
+                            "description": "Mensa, trasporto scolastico, nidi e sostegni per le famiglie.",
+                            "href": "#"
+                        },
+                        {
+                            "title": "Segnalazioni e cura del territorio",
+                            "description": "Problemi urbani, manutenzioni e monitoraggio degli interventi.",
+                            "href": "#"
                         }
                     ]
                 }
             },
             {
-                "type": "cta",
+                "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Non trovi quello che cerchi?",
-                    "description": "Contatta l'ufficio relazioni con il pubblico per assistenza",
-                    "button_text": "Contattaci",
-                    "button_url": "/it/tests/assistenza",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html"
                 }
             }
         ],

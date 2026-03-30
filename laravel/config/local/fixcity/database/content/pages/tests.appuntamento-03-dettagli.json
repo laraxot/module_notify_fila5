@@ -1,8 +1,8 @@
 {
     "id": "tests.appuntamento-03-dettagli",
     "title": {
-        "it": "Step 3 - Selezione del motivo e aggiunta dei dettagli",
-        "en": "Step 3 - Reason selection and details"
+        "it": "Appuntamento - Step 3 dettagli",
+        "en": "Appuntamento - Step 3 dettagli"
     },
     "slug": "tests.appuntamento-03-dettagli",
     "content": null,
@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Step 3 - Selezione del motivo e aggiunta dei dettagli",
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Appuntamento - Step 3 dettagli",
                     "category": "Prenotazione Appuntamento",
-                    "summary": "La schermata di selezione del motivo e integrazione della richiesta con maggiori dettagli.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-03-dettagli.html",
+                    "summary": "La schermata di selezione del motivo dell'appuntamento e aggiunta dettagli.",
                     "slug": "tests.appuntamento-03-dettagli"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "Qui la scomposizione corretta separa stepper, form dettagli, note e riepilogo laterale."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-03-dettagli.html"
                 }
             }
         ],

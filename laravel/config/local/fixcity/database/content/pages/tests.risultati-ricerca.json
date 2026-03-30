@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "view": "pub_theme::components.blocks.tests.intro",
                     "title": "Risultati di ricerca",
                     "category": "Generali",
                     "summary": "La pagina per la presentazione dei risultati di ricerca.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/risultati-ricerca.html",
                     "slug": "tests.risultati-ricerca"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La conversione finale dovra isolare form di ricerca, riepilogo query, filtri e lista risultati."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/risultati-ricerca.html"
                 }
             }
         ],

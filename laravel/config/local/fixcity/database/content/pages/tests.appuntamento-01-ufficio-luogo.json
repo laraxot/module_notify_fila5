@@ -1,8 +1,8 @@
 {
     "id": "tests.appuntamento-01-ufficio-luogo",
     "title": {
-        "it": "Step 1 - Selezione ufficio (2 di 2)",
-        "en": "Step 1 - Office selection (2 of 2)"
+        "it": "Appuntamento - Step 1 ufficio luogo",
+        "en": "Appuntamento - Step 1 ufficio luogo"
     },
     "slug": "tests.appuntamento-01-ufficio-luogo",
     "content": null,
@@ -11,12 +11,32 @@
             {
                 "type": "page_block",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Step 1 - Selezione ufficio (2 di 2)",
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Appuntamento - Step 1 ufficio luogo",
                     "category": "Prenotazione Appuntamento",
-                    "summary": "La schermata di selezione tra più sedi dello stesso ufficio.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-01-ufficio-luogo.html",
+                    "summary": "La schermata di selezione tra piu sedi dello stesso ufficio.",
                     "slug": "tests.appuntamento-01-ufficio-luogo"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La pagina andra scomposta in stepper, selezione sede, card luogo e note operative."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-01-ufficio-luogo.html"
                 }
             }
         ],
