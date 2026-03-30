@@ -4,15 +4,6 @@
 
 Il modulo **UI** fornisce componenti Blade, widget Filament e asset condivisi per tutti i moduli e temi.
 
-## Active Theme
-
-**Current Theme**: **Sixteen** (AGID/Bootstrap Italia compliant)  
-**Domain**: `fixcity.local`  
-**Config**: `laravel/config/localhost/xra.php` → `pub_theme`
-
-**Theme Documentation**: [Themes Index](../../Themes/docs/README.md)  
-**Theme Context**: [.planning/THEME_CONTEXT.md](../../../../.planning/THEME_CONTEXT.md)
-
 ## Struttura Componenti
 
 ```
