@@ -50,13 +50,7 @@
                     class="{$sizeClasses} text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     aria-label="Prima pagina"
                 >
-<<<<<<< HEAD
                     <x-heroicon-o-chevron-double-left class="h-4 w-4" />
-||||||| parent of f2e0249c (.)
-                    <x-filament::icon icon="heroicon-o-chevron-double-left class="h-4 w-4"" />
-=======
-                    <x-filament::icon icon="heroicon-o-chevron-double-left" class="h-4 w-4" />
->>>>>>> f2e0249c (.)
                 </a>
             </li>
         @endif
@@ -68,13 +62,7 @@
                     class="{$sizeClasses} text-gray-500 bg-white border border-gray-300 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     aria-label="Pagina precedente"
                 >
-<<<<<<< HEAD
                     <x-heroicon-o-chevron-left class="h-4 w-4" />
-||||||| parent of f2e0249c (.)
-                    <x-filament::icon icon="heroicon-o-chevron-left class="h-4 w-4"" />
-=======
-                    <x-filament::icon icon="heroicon-o-chevron-left" class="h-4 w-4" />
->>>>>>> f2e0249c (.)
                 </a>
             </li>
         @endif
@@ -106,13 +94,7 @@
                     class="{$sizeClasses} text-gray-500 bg-white border border-gray-300 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     aria-label="Pagina successiva"
                 >
-<<<<<<< HEAD
                     <x-heroicon-o-chevron-right class="h-4 w-4" />
-||||||| parent of f2e0249c (.)
-                    <x-filament::icon icon="heroicon-o-chevron-right class="h-4 w-4"" />
-=======
-                    <x-filament::icon icon="heroicon-o-chevron-right" class="h-4 w-4" />
->>>>>>> f2e0249c (.)
                 </a>
             </li>
         @endif
@@ -124,13 +106,7 @@
                     class="{$sizeClasses} text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     aria-label="Ultima pagina"
                 >
-<<<<<<< HEAD
                     <x-heroicon-o-chevron-double-right class="h-4 w-4" />
-||||||| parent of f2e0249c (.)
-                    <x-filament::icon icon="heroicon-o-chevron-double-right class="h-4 w-4"" />
-=======
-                    <x-filament::icon icon="heroicon-o-chevron-double-right" class="h-4 w-4" />
->>>>>>> f2e0249c (.)
                 </a>
             </li>
         @endif
