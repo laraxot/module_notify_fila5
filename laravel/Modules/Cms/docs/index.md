@@ -104,6 +104,3 @@
 
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice del modulo CMS, consultare la documentazione pertinente e aggiornare i documenti correlati.
-
-### Frontoffice Tests Pages
-- [Tests Pages: Folio + Volt + x-page](./frontoffice/tests-pages-folio-volt-x-page.md) - Regola architetturale per pagine test theme-driven
