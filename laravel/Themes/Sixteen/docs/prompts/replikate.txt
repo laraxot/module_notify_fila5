@@ -228,19 +228,3 @@ https://flowbite.com/blocks/
 
 
   errore grave scrivere  [Filament Icons Documentation](https://filamentphp.com/docs/3.x/forms/fields/icon-picker)            noi utilizziamo filament 5 !
-
-  utilizziamo sempre la ultima versione di filament ! in questo momento e' la 5 
-
-  nel file composer.json 
-
-   "merge-plugin": {
-            "include": [
-                "Modules/*/composer.json"
-            ]
-        }
-
-non ci deve stare anche "Themes/*/composer.json" i temi vivono di vita loro isolati 
-capisci da solo il perche' 
-
-
-in laravel/app/Providers/AppServiceProvider.php  non devi fare  $this->app->register(\Themes\Sixteen\Providers\ThemeServiceProvider::class);  il tema e' configurabile ed e' un vestito !  capisci da solo , e poi aggiorna le solite cose

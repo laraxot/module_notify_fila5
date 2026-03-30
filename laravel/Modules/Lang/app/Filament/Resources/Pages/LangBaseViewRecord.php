@@ -10,7 +10,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 
 abstract class LangBaseViewRecord extends XotBaseViewRecord
 {
-    
+    use Translatable;
 
     protected static string $resource; // = SectionResource::class;
 
