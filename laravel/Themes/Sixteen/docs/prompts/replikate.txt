@@ -181,3 +181,27 @@ flowbite, tailwindcss e daisyui sono anche i mattoni con cui facciamo i temi
  per facilitare il lavoro dentro il tag body ad esclusione degli script l' html di http://fixcity.local/it/tests/argomenti  deve esssere uguale a quello di  https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html e vale anche per tutte le altre pagine di  https://italia.github.io/design-comuni-pagine-statiche/
 
  per fare un buon lavoro studia @/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/Main_files/five/src/style-apply.css e @laravel/Themes/Sixteen/Main_files/five/src/app1.js 
+
+
+ concentrati sul footer di https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html  devi replicarlo uguale su http://fixcity.local/it/tests/argomenti, ti ricordo che il footer e' una section e va chiamato con <x-section slug="footer" />  se in altre pagine ci sara' un footer "slim" potrai chiamarlo con <x-section slug="footer" tpl="slim" />  , aiutati facendo screenshots e analizzandoli, sia gli screenshots che le analisi le metti dentro le cartelle docs dentro i moduli e dentro i temi, oltre che alla analisi devi dettagliare anche come correggere , ti ricordo che per vedere le modifiche ai css, o js , queste modifiche vanno fatte dentro la cartella del tema, poi devi compilare con npm run build, e per pubblicare le modifiche npm run copy , studia e capisci anche gli script, oltre a capirli documentali , utilizza openviking, bmad, gsd, notebooklm e ralph loop 
+
+
+ studiati, installati, configurati e documenta e rendi utilizzabile e controlla funzionamento :
+ https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+ https://github.com/Leonxlnx/taste-skill
+ https://medium.com/@unicodeveloper/10-must-have-skills-for-claude-and-any-coding-agent-in-2026-b5451b013051
+ https://ui-ux-pro-max-skill.nextlevelbuilder.io/
+ https://github.com/anthropics/skills.git
+ https://github.com/vercel-labs/agent-skills
+ https://github.com/bencium/bencium-claude-code-design-skill
+ https://github.com/accesslint/claude-marketplace
+ https://www.freecodecamp.org/news/how-to-improve-your-ui-ux-design-skills-as-a-developer-1fd96a49d807/
+ https://rosalie24.medium.com/the-future-of-product-design-how-ui-ux-principles-are-shaping-innovation-67655dc2ad07
+ https://smithery.ai/skills/vnzzzz/frontend-design
+ https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4
+ https://mcpmarket.com/tools/skills/frontend-design-codex
+ https://snyk.io/articles/top-claude-skills-ui-ux-engineers/
+
+ utilizza come sempre openviking installato globalmente, bmad, gsd, notebooklm, ralph loop 
+
+
