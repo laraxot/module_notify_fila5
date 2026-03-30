@@ -20,10 +20,20 @@ base_fixcity_fila5/
 
 ## Theme List
 
-| Theme | Description | Documentation | Status |
-|-------|-------------|---------------|--------|
-| **TwentyOne** | Modern Tailwind CSS theme with Vite build | [docs/](TwentyOne/docs/) | ✅ Active |
-| **Sixteen** | AGID/Bootstrap Italia compliant theme for PA | [docs/](Sixteen/docs/) | ✅ Active |
+| Theme | Description | Documentation | Status | Config |
+|-------|-------------|---------------|--------|--------|
+| **Sixteen** | AGID/Bootstrap Italia compliant theme for PA | [docs/](Sixteen/docs/) | ✅ **ACTIVE** | `localhost/xra.php` |
+| **TwentyOne** | Modern Tailwind CSS theme with Vite build | [docs/](TwentyOne/docs/) | 📦 Available | (configurable) |
+
+## Active Theme
+
+**Current Active Theme**: **Sixteen**  
+**Domain**: `fixcity.local`  
+**Configuration**: `laravel/config/localhost/xra.php` → `pub_theme`  
+**Document Root**: `public_html/`  
+**Theme Assets**: `public_html/themes/Sixteen/`
+
+**Theme Context**: [.planning/THEME_CONTEXT.md](../../../../.planning/THEME_CONTEXT.md)
 
 ## Architectural Principles
 
@@ -147,28 +157,15 @@ All themes follow mobile-first responsive design:
 
 ## Theme-Specific Documentation
 
-### TwentyOne
-
-Modern, minimalist theme built with Tailwind CSS:
-
-- **Design**: Clean, modern aesthetic
-- **Framework**: Tailwind CSS v4
-- **Build**: Vite
-- **Features**:
-  - Responsive layouts
-  - Dark mode support
-  - Component library
-  - Performance optimized
-
-**Documentation**: [TwentyOne/docs/](TwentyOne/docs/)
-
-### Sixteen
+### Sixteen ✅ ACTIVE THEME
 
 AGID/Bootstrap Italia compliant theme for Italian Public Administration:
 
+- **Status**: ✅ **ACTIVE** (fixcity.local)
 - **Design**: Bootstrap Italia design system
 - **Compliance**: AGID guidelines, WCAG 2.1 AA
 - **Framework**: Tailwind CSS (Bootstrap Italia port)
+- **Config**: `laravel/config/localhost/xra.php` → `pub_theme`
 - **Features**:
   - PA-compliant components
   - Accessibility built-in
@@ -176,6 +173,23 @@ AGID/Bootstrap Italia compliant theme for Italian Public Administration:
   - PagoPA integration (planned)
 
 **Documentation**: [Sixteen/docs/](Sixteen/docs/)
+
+### TwentyOne 📦 AVAILABLE THEME
+
+Modern, minimalist theme built with Tailwind CSS:
+
+- **Status**: 📦 **AVAILABLE** (can be activated)
+- **Design**: Clean, modern aesthetic
+- **Framework**: Tailwind CSS v4
+- **Build**: Vite
+- **Config**: Update `pub_theme` in config to activate
+- **Features**:
+  - Responsive layouts
+  - Dark mode support
+  - Component library
+  - Performance optimized
+
+**Documentation**: [TwentyOne/docs/](TwentyOne/docs/)
 
 ## Quality Gates
 
