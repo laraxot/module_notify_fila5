@@ -1,0 +1,216 @@
+{
+  "title": "FixCity Homepage Improvement - Phase 1",
+  "version": "1.0.0",
+  "created_at": "2026-03-30",
+  "author": "AI Agent (BMAD Workflow)",
+  "status": "draft",
+  
+  "problem_statement": {
+    "current_state": "La homepage di fixcity.local utilizza un semplice componente <x-page> che carica contenuti CMS in modo generico. Manca di: (1) Hero section cinematografica, (2) Animazioni GSAP scroll-trigger, (3) Particelle cinematiche, (4) Trust bar, (5) Featured markets dinamici, (6) Stats counter animati",
+    "desired_state": "Homepage moderna e coinvolgente con hero section cinematografica, animazioni fluide, mercati in evidenza dinamici, e elementi di gamification per massimizzare engagement e conversioni",
+    "impact": "Miglioramento UX, aumento tempo di permanenza, miglioramento conversioni signup, percezione professionale del prodotto"
+  },
+  
+  "goals": [
+    "Implementare hero section cinematografica con particelle e animazioni GSAP",
+    "Aggiungere trust bar con statistiche animate (counter animation)",
+    "Implementare featured markets grid con professional cards",
+    "Aggiungere cinematic footer completo",
+    "Mantenere compatibilità con CMS (container0/slug0 pattern)",
+    "Garantire performance: Lighthouse score >90, load time <2s"
+  ],
+  
+  "user_stories": [
+    {
+      "id": "story-1",
+      "title": "Hero Section Cinematografica",
+      "as": "Utente visitatore",
+      "i_want": "Vedere una hero section impressionante con animazioni fluide e particelle",
+      "so_that": "Posso capire immediatamente il valore della piattaforma e rimanere coinvolto",
+      "acceptance_criteria": [
+        "Hero con gradiente sfondo (slate-950 → emerald-950)",
+        "Particelle cinematiche animate (60-80 particles)",
+        "Headline con gradiente animato",
+        "Badge con icona e testo promozionale",
+        "Stats counter con animazione (utenti, previsioni, mercati)",
+        "Responsive: mobile-first, tablet, desktop"
+      ],
+      "priority": "high",
+      "effort": "medium"
+    },
+    {
+      "id": "story-2",
+      "title": "Trust Bar con Statistiche",
+      "as": "Utente potenziale",
+      "i_want": "Vedere statistiche credibili e social proof",
+      "so_that": "Posso fidarmi della piattaforma e decidere di partecipare",
+      "acceptance_criteria": [
+        "Trust bar con 3-5 metriche chiave",
+        "Counter animation (0 → valore finale in 2s)",
+        "Icone per ogni metrica",
+        "Design coerente con hero section",
+        "Animazione triggerata allo scroll"
+      ],
+      "priority": "high",
+      "effort": "low"
+    },
+    {
+      "id": "story-3",
+      "title": "Featured Markets Grid",
+      "as": "Utente interessato",
+      "i_want": "Vedere i mercati predittivi in evidenza",
+      "so_that": "Posso esplorare e partecipare ai mercati più popolari",
+      "acceptance_criteria": [
+        "Grid responsive (1 col mobile, 2 tablet, 3 desktop)",
+        "Professional cards con outcome multipli",
+        "Progress bar per probabilità",
+        "Badge per categoria e status",
+        "Hover effects cinematici",
+        "Dati da widget Filament (XotBase)"
+      ],
+      "priority": "high",
+      "effort": "medium"
+    },
+    {
+      "id": "story-4",
+      "title": "Footer Cinematico Completo",
+      "as": "Utente navigatore",
+      "i_want": "Un footer completo e professionale",
+      "so_that": "Posso trovare informazioni e link utili facilmente",
+      "acceptance_criteria": [
+        "Footer con gradiente scuro",
+        "Link organized per categorie",
+        "Social media links",
+        "Newsletter signup",
+        "Trust indicators (security, compliance)",
+        "Copyright e link legali"
+      ],
+      "priority": "medium",
+      "effort": "low"
+    },
+    {
+      "id": "story-5",
+      "title": "Animazioni GSAP Scroll-Trigger",
+      "as": "Utente mobile/desktop",
+      "i_want": "Animazioni fluide mentre scorro la pagina",
+      "so_that": "L'esperienza sia coinvolgente e professionale",
+      "acceptance_criteria": [
+        "GSAP ScrollTrigger configurato",
+        "Fade-in animations per sezioni",
+        "Counter animation per stats",
+        "Parallax effects per particelle",
+        "Performance: 60fps, no jank",
+        "Reduced motion support"
+      ],
+      "priority": "high",
+      "effort": "medium"
+    }
+  ],
+  
+  "constraints": [
+    "Usare pattern container0/slug0 per compatibilità CMS",
+    "Widget Filament devono estendere XotBaseWidget",
+    "Blade components devono essere riutilizzabili",
+    "Tailwind CSS v4 per styling",
+    "GSAP per animazioni (già incluso nel tema)",
+    "PHPStan Level 10 compliance",
+    "No logiche business nelle view (solo presentation)",
+    "Accessibility: WCAG 2.1 AA minimum"
+  ],
+  
+  "technical_requirements": {
+    "frontend": {
+      "framework": "Tailwind CSS v4 + GSAP 3.x",
+      "components": "Blade components modulari",
+      "animations": "GSAP ScrollTrigger + Cinematic particles",
+      "performance": "Lighthouse >90, First Contentful Paint <1.5s"
+    },
+    "backend": {
+      "widgets": "Filament v5 con XotBaseWidget",
+      "data": "Predict module models",
+      "caching": "Laravel cache per stats e markets"
+    },
+    "cms": {
+      "pattern": "container0/slug0",
+      "compatibility": "Mantenere <x-page> come fallback"
+    }
+  },
+  
+  "success_metrics": {
+    "performance": {
+      "lighthouse_score": ">90",
+      "first_contentful_paint": "<1.5s",
+      "time_to_interactive": "<3.5s",
+      "cumulative_layout_shift": "<0.1"
+    },
+    "engagement": {
+      "bounce_rate": "<40%",
+      "avg_session_duration": ">2min",
+      "scroll_depth": ">60%"
+    },
+    "conversion": {
+      "signup_rate": "+20% vs baseline",
+      "market_exploration": "+30% vs baseline"
+    }
+  },
+  
+  "dependencies": [
+    "Predict Module - per dati markets",
+    "Xot Module - per widget base classes",
+    "TwentyOne Theme - per components esistenti",
+    "GSAP - già incluso nel tema"
+  ],
+  
+  "risks": [
+    {
+      "risk": "Performance degradation con troppe animazioni",
+      "mitigation": "Ottimizzare GSAP config, lazy load, reduced motion"
+    },
+    {
+      "risk": "Complessità CMS pattern container0/slug0",
+      "mitigation": "Mantenere backward compatibility, test approfonditi"
+    },
+    {
+      "risk": "Widget Filament non aggiornano dati in real-time",
+      "mitigation": "Implementare caching strategico, Livewire polling"
+    }
+  ],
+  
+  "out_of_scope": [
+    "Modifiche al backend Predict module",
+    "Cambiamenti al database schema",
+    "Authentication/Authorization changes",
+    "Mobile app development"
+  ],
+  
+  "timeline": {
+    "phase_1": {
+      "name": "Hero Section + Trust Bar",
+      "duration": "1-2 ore",
+      "stories": ["story-1", "story-2"]
+    },
+    "phase_2": {
+      "name": "Featured Markets + Footer",
+      "duration": "1-2 ore",
+      "stories": ["story-3", "story-4"]
+    },
+    "phase_3": {
+      "name": "GSAP Animations + Polish",
+      "duration": "1 ora",
+      "stories": ["story-5"]
+    }
+  },
+  
+  "references": {
+    "design_inspiration": [
+      "Kalshi.com - prediction market leader",
+      "home-improved.blade.php - existing design",
+      "GSAP ScrollTrigger documentation"
+    ],
+    "technical_docs": [
+      "docs/unified-ai-workflow.md",
+      "laravel/Themes/TwentyOne/docs/00-INDEX.md",
+      "AGENTS.md"
+    ]
+  }
+}
