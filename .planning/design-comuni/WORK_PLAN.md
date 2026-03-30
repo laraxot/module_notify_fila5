@@ -1,83 +1,117 @@
-# Work Plan: Design Comuni Replication - FixCity
-
-## 📋 Project Overview
-
-**Goal**: Replicate 38 static pages from Italian "Design Comuni" template (https://github.com/italia/design-comuni-pagine-statiche) into FixCity using Tailwind CSS + Blade components.
-
-**Namespace**: `pub_theme` (NOT `sixteen`)  
-**Header/Footer Pattern**: `<x-section slug="header" />` and `<x-section slug="footer" />`  
-**Components**: `<x-pub_theme::blocks./*>` 
+# Design Comuni Replication - Work Plan
 
 ## ✅ Architecture Confirmed
 
 - **Theme**: Sixteen (namespace: `pub_theme`)
 - **CSS**: Tailwind CSS (NOT Bootstrap)
 - **Routing**: Folio at `resources/views/pages/it/tests/`
-- **Components**: 
-  - Header/Footer: `<x-section slug="header"/>`, `<x-section slug="footer"/>`
-  - Other blocks: `<x-pub_theme::blocks.navigation.header-main>`
-  - Design Comuni shell: `<x-pub_theme::design-comuni.page-shell>`
-  - Page hero: `<x-pub_theme::design-comuni.page-hero>`
+- **File**: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
 
-## 📊 Pages to Create (38 total)
+### Component Pattern
+```php
+// laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
+<?php
+declare(strict_types=1);
 
-### Phase 1: General Pages (9)
-1. Homepage → `/it/tests/homepage`
-2. Argomenti → `/it/tests/argomenti` ✅ (already done)
-3. Argomento → `/it/tests/argomento`
-4. FAQ → `/it/tests/domande-frequenti`
-5. Search → `/it/tests/risultati-ricerca`
-6. Resources List → `/it/tests/lista-risorse`
-7. Categories List → `/it/tests/lista-categorie`
-8. Sitemap → `/it/tests/mappa-sito`
+use function Laravel\Folio\middleware;
+use function Laravel\Folio\name;
+use Livewire\Volt\Component;
+use Modules\Cms\Http\Middleware\PageSlugMiddleware;
 
-### Phase 2: Services (13)
-9-16. Prenotazione Appuntamento (8 steps)
-17-18. Richiesta Assistenza (2 steps)
-19-25. Segnalazione Disservizio (5 steps)
+name('tests.view');
+middleware(PageSlugMiddleware::class);
 
-### Phase 3: Content Pages (9)
-26-27. Amministrazione (2)
-28-29. Novità (2)
-30-32. Servizi (3)
-33-34. Eventi (2)
+new class extends Component {
+    public string $slug = '';
+    public string $pageSlug = '';
+    public array $data = [];
 
-### Phase 4: Additional (8)
-35-42. Remaining service detail pages
+    public function mount(string $slug): void
+    {
+        $this->slug = $slug;
+        $this->pageSlug = 'tests.'.$slug;
+        $this->data = ['slug' => $slug];
+    }
+};
+?>
 
-## 🎯 Implementation Strategy
-
-### 1. Study Existing Components
-- `page-shell.blade.php` - Main wrapper with header/footer
-- `page-hero.blade.php` - Hero section
-- `page-index.blade.php` - Index/list layout
-
-### 2. Create Page Template Pattern
-```blade
-<x-pub_theme::design-comuni.page-shell
-    :title="$title"
-    :breadcrumbs="$breadcrumbs"
->
-    <x-pub_theme::blocks.navigation.breadcrumb ... />
-    
-    <!-- Page content here -->
-    
-</x-pub_theme::design-comuni.page-shell>
+<x-layouts.app>
+    @volt('tests.view')
+        <div>
+            <x-page side="content" :slug="$pageSlug" :data="$data" />
+        </div>
+    @endvolt
+</x-layouts.app>
 ```
 
-### 3. Convert HTML to Blade
-- Use HTML files as REFERENCE only
-- Create Tailwind classes matching Design Comuni look
-- Extract reusable components as needed
+### Header/Footer Pattern
+```blade
+<x-section slug="header" />
+<x-section slug="footer" />
+```
 
-## 🚀 Next Steps
+### Blocks Pattern
+```blade
+<x-pub_theme::blocks.navigation.header-main .../>
+<x-pub_theme::blocks.cards.card .../>
+<x-pub_theme::design-comuni.page-shell .../>
+```
 
-1. Create GitHub Issues for tracking
-2. Create GitHub Discussions for coordination
-3. Start Phase 1: General Pages
-4. Create reusable components as needed
+## 📂 Data Structure
 
-## 📝 Notes
-- Use existing `argomenti.blade.php` as template
-- **CORREZIONE**: HTML files are in `laravel/Themes/Sixteen/Main_files/five/` (NOT in `resources/design-comuni/dist/sito/`)
-- Components are in `laravel/Themes/Sixteen/resources/views/components/design-comuni/`
+### JSON Pages Location
+`laravel/config/local/fixcity/database/content/pages/`
+
+### JSON File Naming
+`tests.<page-slug>.json`
+
+### JSON Structure
+```json
+{
+    "id": "tests.homepage",
+    "title": { "it": "Homepage", "en": "Homepage" },
+    "slug": "tests.homepage",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            { "type": "breadcrumb", "data": { ... } },
+            { "type": "hero", "data": { ... } },
+            { "type": "card_grid", "data": { ... } }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": { "it": [], "en": [] },
+    "footer_blocks": { "it": "", "en": "" }
+}
+```
+
+## 📄 Pages Available (80+ JSON files)
+
+All pages are in `laravel/config/local/fixcity/database/content/pages/tests.*.json`
+
+### Verified Working Routes
+- `/it/tests` - Index page ✅
+- `/it/tests/homepage` ✅
+- `/it/tests/argomenti` ✅
+- `/it/tests/appuntamento-06-conferma` ✅
+
+## 🎯 Key Points
+
+1. **Pages are loaded from JSON files** in `config/local/fixcity/database/content/pages/`
+2. **Slug format**: `tests.<page-name>` (e.g., `tests.homepage`)
+3. **Each page should have multiple blocks** - NOT just one reference block
+4. **Blocks are rendered** via `<x-page side="content" :slug="$pageSlug" />`
+5. **Header/Footer**: Use `<x-section slug="header" />` and `<x-section slug="footer" />`
+
+## 📚 Source Files
+
+Original Design Comuni templates:
+- `laravel/Themes/Sixteen/Main_files/design-comuni-pagine-statiche/src/pages/sito/`
+
+Reference Tailwind implementation:
+- `laravel/Themes/Sixteen/Main_files/five/`
+
+## 🔗 Related Documentation
+
+- `Themes/Sixteen/docs/design-comuni/README.md`
+- `Themes/Sixteen/docs/bootstrap-italia-to-tailwind.md`
