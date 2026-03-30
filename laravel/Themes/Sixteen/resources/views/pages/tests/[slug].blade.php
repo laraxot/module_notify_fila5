@@ -11,21 +11,22 @@ name('tests.view');
 middleware(PageSlugMiddleware::class);
 
 new class extends Component {
+    public string $slug = '';
     public string $pageSlug = '';
 
     /** @var array<string, mixed> */
     public array $data = [];
 
-    public function mount(string $slug = ''): void
+    public function mount(string $slug): void
     {
-        $this->pageSlug = 'tests.' . $slug;
+        $this->slug = $slug;
+        $this->pageSlug = 'tests.'.$slug;
         $this->data = [
             'slug' => $slug,
         ];
     }
 };
 ?>
-
 <x-layouts.app>
     @volt('tests.view')
         <div>
