@@ -11,6 +11,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
+<<<<<<< HEAD
                     "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/"},
@@ -126,6 +127,41 @@
                     "button_text": "Contattaci",
                     "button_url": "/it/tests/assistenza",
                     "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
+||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Domande frequenti (FAQ)",
+                    "category": "Generali",
+                    "summary": "La pagina per la presentazione delle domande frequenti.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/domande-frequenti.html",
+                    "slug": "tests.domande-frequenti"
+=======
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Domande frequenti (FAQ)",
+                    "category": "Generali",
+                    "summary": "La pagina per la presentazione delle domande frequenti.",
+                    "slug": "tests.domande-frequenti"
+>>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "Questa pagina andra spezzata almeno in intro, motore di ricerca FAQ, gruppi di domande e CTA finale."
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/domande-frequenti.html"
                 }
             }
         ],
