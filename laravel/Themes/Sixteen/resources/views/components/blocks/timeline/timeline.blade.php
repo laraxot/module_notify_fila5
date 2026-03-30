@@ -44,7 +44,7 @@
                 {{-- Icon (if provided) --}}
                 @if(isset($item['icon']))
                 <div class="timeline-icon mb-2">
-                    <x-icon :name="$item['icon']" class="icon-md icon-primary" />
+                    <x-filament::icon :icon="$item['icon']" class="icon-md icon-primary" />
                 </div>
                 @endif
                 
@@ -90,7 +90,11 @@
                     {{-- Icon (if provided) --}}
                     @if(isset($item['icon']))
                     <div class="timeline-icon mb-2 {{ $loop->even ? 'md:flex md:justify-end' : '' }}">
-                        <x-icon :name="$item['icon']" class="icon-md icon-primary" />
+                        <x-filament::icon 
+                            :icon="$item['icon']" 
+                            class="icon-md icon-primary" 
+                            aria-hidden="true" 
+                        />
                     </div>
                     @endif
                     

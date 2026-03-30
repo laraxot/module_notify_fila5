@@ -74,9 +74,11 @@
                     @if($cta_text)
                     <a href="{{ $cta_url }}" class="btn btn-primary inline-flex items-center justify-center px-8 py-3 text-base font-semibold rounded-lg bg-primary text-white hover:bg-primary-dark transition-colors duration-200">
                         {{ $cta_text }}
-                        <svg class="icon icon-sm ml-2" aria-hidden="true">
-                            <x-icon name="arrow-right" />
-                        </svg>
+                        <x-filament::icon 
+                            icon="heroicon-o-arrow-right" 
+                            class="icon-sm ml-2" 
+                            aria-hidden="true" 
+                        />
                     </a>
                     @endif
                     

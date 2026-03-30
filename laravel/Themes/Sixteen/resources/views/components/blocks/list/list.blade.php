@@ -45,7 +45,11 @@
         @foreach($items as $item)
         <li class="list-item {{ $style === 'bordered' ? 'py-2 border-b border-gray-200' : '' }}">
             @if($style === 'icon' && isset($item['icon']))
-            <x-icon :name="$item['icon']" class="icon-sm icon-primary inline mr-2" />
+            <x-filament::icon 
+                :icon="$item['icon']" 
+                class="icon-sm icon-primary inline mr-2" 
+                aria-hidden="true" 
+            />
             @elseif($style === 'plain')
             <span class="list-marker text-primary mr-2">•</span>
             @endif
