@@ -7,7 +7,7 @@ Il modulo **UI** fornisce componenti Blade, widget Filament e asset condivisi pe
 ## Struttura Componenti
 
 ```
-resources/views/components/ui/
+laravel/Modules/UI/resources/views/components/ui/
 ├── buttons/
 │   ├── primary.blade.php
 │   └── secondary.blade.php
@@ -40,10 +40,22 @@ resources/views/components/ui/
 - `StatsOverviewWidget`: Statistiche dashboard
 - `ChartWidget`: Grafici integrati
 
+## Struttura Progetto
+
+```
+base_fixcity_fila5/
+├── public_html/              # DOCUMENT ROOT
+│   ├── themes/              # Theme assets
+│   └── assets/              # Shared assets
+├── laravel/Modules/UI/      # Questo modulo
+└── docs/                     # Documentazione progetto
+```
+
 ## Collegamenti
 
-- [Regole Posizionamento](../../.cursor/rules/ui-components-rules.mdc)
+- [Regole Posizionamento](../../../../.cursor/rules/ui-components-rules.mdc)
 - [Filament Widgets](./widgets/)
+- [Master Module Index](../README.md)
 
 ## Regole Fondamentali
 
@@ -55,6 +67,7 @@ resources/views/components/ui/
 
 - [Xot Base](../Xot/docs/)
 - [User Module](../User/docs/)
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
 ## AI Workflows
@@ -101,3 +114,26 @@ Workflow: `.github/workflows/semantic-versioning.yml`
 MIT
 =======
 >>>>>>> 9a84589 (.)
+||||||| Stash base
+=======
+- [Master Module Index](../README.md)
+
+## Stato Qualità
+
+- **PHPStan Level 10**: ✅ Compliant
+- **Translation Standards**: ✅ 100%
+- **Componenti**: 50+ Blade components
+- **Widget**: 20+ Filament widgets
+
+## Documentazione
+
+- [Components Guide](components.md)
+- [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
+- [Filament Components](filament-components.md)
+
+## Moduli Collegati
+
+- [Xot Module](../Xot/docs/) - Framework core
+- [User Module](../User/docs/) - Gestione utenti
+- [Lang Module](../Lang/docs/) - Traduzioni
+>>>>>>> Stashed changes

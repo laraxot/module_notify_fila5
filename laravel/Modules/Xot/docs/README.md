@@ -2,7 +2,7 @@
 
 ## Overview
 
-Il modulo **Xot** è il nucleo fondativo dell'intero progetto Laraxot PTVX. Fornisce classi base, trait, servizi e configurazioni condivise da tutti gli altri moduli.
+Il modulo **Xot** è il nucleo fondativo dell'intero ecosistema Laraxot PTVX. Fornisce classi base, trait, servizi e configurazioni condivise da tutti gli altri moduli.
 
 ## Architettura
 
@@ -22,9 +22,25 @@ Il modulo **Xot** è il nucleo fondativo dell'intero progetto Laraxot PTVX. Forn
 - `InteractsWithForms`: Gestione form nei widget
 - `RelationX`: Relazioni many-to-many estese
 
+## Struttura Progetto
+
+```
+base_fixcity_fila5/
+├── public_html/              # DOCUMENT ROOT (web accessible)
+│   ├── index.php            # Entry point
+│   ├── assets/              # Public assets
+│   └── themes/              # Theme assets
+├── laravel/                  # Laravel Application
+│   ├── Modules/Xot/         # Questo modulo
+│   ├── Modules/*/           # Altri moduli
+│   └── Themes/*/            # Temi
+├── docs/                     # Documentazione progetto
+└── bashscripts/             # Script utility
+```
+
 ## Collegamenti
 
-- [Documentazione Root](../../../docs/XOT_MODULE.md)
+- [Documentazione Root](../../../../docs/README.md)
 - [Regole Architettura](./architecture/)
 - [PHPStan Configuration](./phpstan/)
 
@@ -39,3 +55,4 @@ Il modulo **Xot** è il nucleo fondativo dell'intero progetto Laraxot PTVX. Forn
 - [User Module](../User/docs/)
 - [UI Module](../UI/docs/)
 - [Tenant Module](../Tenant/docs/)
+- [Master Module Index](../README.md)
