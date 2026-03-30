@@ -94,3 +94,5 @@ Questa documentazione descrive come gestire e personalizzare il frontoffice del 
 
 ## Approfondimenti
 - [Tests Routing Governance](./tests-routing-governance.md) - Regola Folio + Volt per `tests.index` e `tests.{slug}`
+
+- [Footer Argomenti](./screenshots/footer-argomenti.md) - Analisi del footer Design Comuni sulla pagina argomenti

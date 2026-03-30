@@ -186,7 +186,7 @@ flowbite, tailwindcss e daisyui sono anche i mattoni con cui facciamo i temi
  concentrati sul footer di https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html  devi replicarlo uguale su http://fixcity.local/it/tests/argomenti, ti ricordo che il footer e' una section e va chiamato con <x-section slug="footer" />  se in altre pagine ci sara' un footer "slim" potrai chiamarlo con <x-section slug="footer" tpl="slim" />  , aiutati facendo screenshots e analizzandoli, sia gli screenshots che le analisi le metti dentro le cartelle docs dentro i moduli e dentro i temi, oltre che alla analisi devi dettagliare anche come correggere , ti ricordo che per vedere le modifiche ai css, o js , queste modifiche vanno fatte dentro la cartella del tema, poi devi compilare con npm run build, e per pubblicare le modifiche npm run copy , studia e capisci anche gli script, oltre a capirli documentali , utilizza openviking, bmad, gsd, notebooklm e ralph loop 
 
 
- studiati, installati, configurati e documenta e rendi utilizzabile e controlla funzionamento :
+ studiati, installatele a livello di progetto, configurati e documenta e rendi utilizzabile e controlla funzionamento :
  https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
  https://github.com/Leonxlnx/taste-skill
  https://medium.com/@unicodeveloper/10-must-have-skills-for-claude-and-any-coding-agent-in-2026-b5451b013051
@@ -204,4 +204,7 @@ flowbite, tailwindcss e daisyui sono anche i mattoni con cui facciamo i temi
 
  utilizza come sempre openviking installato globalmente, bmad, gsd, notebooklm, ralph loop 
 
+
+ questa pagina http://fixcity.local/it/tests/homepage deve essere uguale alla pagina https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html , sia l'html dentro il tag body , che visivamente, 
+aiutati facendo screenshots e analizzandoli, sia gli screenshots che le analisi le metti dentro le cartelle docs dentro i moduli e dentro i temi, oltre che alla analisi devi dettagliare anche come correggere , ti ricordo che per vedere le modifiche ai css, o js , queste modifiche vanno fatte dentro la cartella del tema, poi devi compilare con npm run build, e per pubblicare le modifiche npm run copy , studia e capisci anche gli script, oltre a capirli documentali , utilizza openviking, bmad, gsd, notebooklm e ralph loop 
 
