@@ -34,7 +34,7 @@ Tenant::configureConnection($tenantId);
 
 ### Migrations
 
-- Migrations tenant-specifiche in `laravel/database/migrations/tenant/`
+- Migrations tenant-specifiche in `database/migrations/tenant/`
 - Override `XotBaseMigration` per context switching
 
 ## Filament Integration
@@ -62,23 +62,12 @@ class User extends Authenticatable
 }
 ```
 
-## Struttura Progetto
-
-```
-base_fixcity_fila5/
-├── public_html/              # DOCUMENT ROOT
-│   └── index.php            # Entry point
-├── laravel/Modules/Tenant/  # Questo modulo
-└── database/                 # Database files
-```
-
 ## Collegamenti
 
 - [Xot Base](../Xot/docs/)
 - [User Module](../User/docs/)
 - [Database Switching](./database-switching.md)
-- [Master Module Index](../README.md)
 
 ## Backlinks
 
-- [Configurazione Root](../../../../docs/README.md)
+- [Configurazione Root](../../../docs/TENANT_MODULE.md)

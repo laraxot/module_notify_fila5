@@ -2,42 +2,11 @@
 
 ## Overview
 
-Il modulo **Media** gestisce le funzionalità specifiche del dominio Media nell'ecosistema Laraxot PTVX.
+Il modulo **Media** fa parte dell'ecosistema Laraxot PTVX.
 
-## Cosa copre (business)
+## Scopo
 
-- **Upload & gestione file**: associazione media a record di dominio (es. avatar, documenti, allegati)
-- **Integrazione UI**: componenti/risorse Filament per caricare e gestire media
-- **Policy**: regole condivise su naming, storage e sicurezza (validazioni, mime types)
-
-## Funzionalità Core
-
-### Smart Transformations
-Generazione automatica di preview, thumbnail e formati next-gen (WebP/AVIF).
-
-### Video Transcoding
-Engine FFmpeg integrato per convertire video in formati streaming-efficient (H.264/VP9).
-
-### Cloud Native
-Supporto multi-disk trasparente (Local, S3, Azure) gestito dall'astrazione CloudStorage.
-
-### Safe Uploads
-Validazione rigorosa di MIME types, dimensioni e scan anti-malware integrato.
-
-### Visual Library
-Interfaccia Filament per gestire migliaia di file con drag-and-drop e visualizzazione a griglia.
-
-## Lazy Conversions
-Le conversioni non bloccano la UI. Vengono processate in background tramite il modulo **Job**, garantendo un'esperienza utente fluida.
-
-## Philosophical Design
-"Il file originale è sacro". Ogni trasformazione è una derivata che non altera mai la sorgente originale.
-
-## Associazione Media
-
-```php
-$model->addMedia($file)->toMediaCollection('gallery');
-```
+Gestisce le funzionalità specifiche del dominio Media.
 
 <<<<<<< HEAD
 ## Cosa copre (business)
@@ -75,7 +44,7 @@ $model->addMedia($file)->toMediaCollection('gallery');
 =======
 >>>>>>> 53258b2 (.)
 ```
-laravel/Modules/Media/
+Media/
 ├── app/
 │   ├── Models/
 │   ├── Filament/
@@ -89,17 +58,14 @@ laravel/Modules/Media/
 
 - [Xot Base](../Xot/docs/)
 - [User Module](../User/docs/)
-- [Job Module](../Job/docs/) - Background processing
 
 ## Collegamenti
 
-- [Documentazione Root](../../../../docs/README.md)
-- [Master Module Index](../README.md)
+- [Documentazione Root](../../../docs/MEDIA_MODULE.md)
 
 ## Backlinks
 
 - [Moduli correlati](../README.md)
-<<<<<<< Updated upstream
 <<<<<<< HEAD
 
 ## AI Workflows
@@ -118,17 +84,3 @@ Workflow locale: `.github/workflows/release.yml`.
 **License:** MIT
 =======
 >>>>>>> 53258b2 (.)
-||||||| Stash base
-=======
-
-## Release su GitHub
-Le release sono basate su tag Git e possono includere release notes generate automaticamente.
-Workflow locale: `.github/workflows/release.yml`.
-
-## License & Authors
-
-**Authors:**
-- Marco Sottana <marco.sottana@gmail.com>
-
-**License:** MIT
->>>>>>> Stashed changes

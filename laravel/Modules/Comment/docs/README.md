@@ -1,11 +1,13 @@
-# Comment Module - Sistema di Commenti
+# 💬 Comment Module - Sistema di Commenti
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
-[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
+[![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN-green.svg)](https://laravel.com/docs/localization)
 
-## Overview
+> **🚀 Modulo Comment**: Sistema completo per gestione commenti, moderazione e interazioni utente con supporto threading e notifiche.
+
+## 📋 **Panoramica**
 
 Il modulo **Comment** fornisce funzionalità di commento per l'applicazione, inclusi:
 
@@ -15,8 +17,9 @@ Il modulo **Comment** fornisce funzionalità di commento per l'applicazione, inc
 - 🎨 **Interfaccia Filament** - Gestione admin moderna
 - 🌐 **Multi-lingua** - Traduzioni IT/EN complete
 
-## Comment Management
+## ⚡ **Funzionalità Core**
 
+### 💬 **Comment Management**
 ```php
 // Creazione commento
 $comment = Comment::create([
@@ -35,8 +38,7 @@ $reply = Comment::create([
 ]);
 ```
 
-## Moderation
-
+### 🔐 **Moderazione**
 ```php
 // Approvazione commenti
 $comment->approve();
@@ -48,31 +50,31 @@ $comment->reject($reason);
 $comment->markAsSpam();
 ```
 
-## Quality Status
+## 🎯 **Stato Qualità**
 
-### Compliance
-- **PHPStan**: Level 10
-- **Filament**: Compatible 4.x
+### ✅ **Compliance**
+- **PHPStan**: Targeting Level 9
+- **Filament**: Compatibile 4.x
 - **Traduzioni**: IT/EN complete
 - **Test Coverage**: In development
 
-## Documentation
+## 📚 **Documentazione Completa**
 
-### Architecture
-- [Struttura](structure.md)
-- [Conflitti Risolti](struttura-e-conflitti.md)
+### 🏗️ **Architettura**
+- [Struttura](structure.md) - Architettura modulo
+- [Conflitti Risolti](struttura-e-conflitti.md) - Log risoluzioni
 
-### Filament Integration
-- [MCP Server](mcp-server-recommended.md)
-- [Roadmap 2025](roadmap-2025.md)
+### 🎨 **Filament Integration**
+- [MCP Server](mcp-server-recommended.md) - Server MCP consigliati
+- [Roadmap 2025](roadmap-2025.md) - Piano sviluppo
 
-### Development
-- [PHPStan Fixes](phpstan-fixes.md)
-- [File Naming](file-naming-rules.md)
+### 🔧 **Development**
+- [PHPStan Fixes](phpstan-fixes.md) - Correzioni PHPStan
+- [File Naming](file-naming-rules.md) - Convenzioni naming
 
-## Quick Start
+## 🔧 **Quick Start**
 
-### Installation
+### 📦 **Installazione**
 ```bash
 # Abilitare il modulo
 php artisan module:enable Comment
@@ -84,7 +86,7 @@ php artisan migrate
 php artisan vendor:publish --tag=comment-config
 ```
 
-### Configuration
+### ⚙️ **Configurazione**
 ```php
 // config/comment.php
 return [
@@ -92,12 +94,12 @@ return [
         'enabled' => true,
         'auto_approve_verified_users' => true,
     ],
-
+    
     'threading' => [
         'enabled' => true,
         'max_depth' => 5,
     ],
-
+    
     'notifications' => [
         'enabled' => true,
         'channels' => ['mail', 'database'],
@@ -105,36 +107,42 @@ return [
 ];
 ```
 
-## Contributing
+## 🤝 **Contributing**
 
-### Contribution Checklist
-- [ ] Codice passa PHPStan Level 10
+### 📋 **Checklist Contribuzione**
+- [ ] Codice passa PHPStan Level 9
 - [ ] Test unitari aggiunti
 - [ ] Documentazione aggiornata
 - [ ] Traduzioni complete (IT/EN)
 
-## Roadmap
+## 📊 **Roadmap**
 
-### Q1 2025
-- [ ] **PHPStan Level 10** - Compliance completa
+### 🎯 **Q1 2025**
+- [ ] **PHPStan Level 9** - Compliance completa
 - [ ] **Advanced Moderation** - Tools avanzati moderazione
 - [ ] **Rich Text Support** - Supporto markdown/HTML
 
-### Q2 2025
+### 🎯 **Q2 2025**
 - [ ] **AI Moderation** - Moderazione automatica AI
 - [ ] **Reactions** - Sistema reazioni (like, emoji)
 - [ ] **Media Attachments** - Allegati immagini/video
 
-## Support
+---
 
-- **Email**: comment@laraxot.com
-- **Issues**: [GitHub Issues](https://github.com/laraxot/comment-module/issues)
-- **Docs**: [Documentazione Completa](https://docs.laraxot.com/comment)
+## 📞 **Support**
+
+- **📧 Email**: comment@laraxot.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/comment-module/issues)
+- **📚 Docs**: [Documentazione Completa](https://docs.laraxot.com/comment)
 
 ---
 
-**Last Updated**: October 14, 2025
-**Version**: 1.0.0
-**PHPStan Level**: 10
-**Translation**: IT/EN ✅
-**Status**: Active Development
+**🔄 Ultimo aggiornamento**: 14 Ottobre 2025  
+**📦 Versione**: 1.0.0  
+**🐛 PHPStan Level**: Target Level 9  
+**🌐 Translation**: IT/EN ✅  
+**🚀 Status**: Active Development
+
+
+
+

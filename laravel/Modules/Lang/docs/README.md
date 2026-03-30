@@ -2,21 +2,16 @@
 
 ## Overview
 
-Il modulo **Lang** gestisce il sistema di traduzioni e localizzazione multi-lingua nell'ecosistema Laraxot PTVX.
+Il modulo **Lang** fa parte dell'ecosistema Laraxot PTVX.
 
 ## Scopo
 
-Questo modulo gestisce:
-- Traduzioni multi-lingua (IT/EN e altre)
-- Localizzazione di contenuti
-- Gestione lingue attive
-- Fallback linguistici
-- Traduzioni dinamiche via Filament
+Questo modulo gestisce [DESCRIZIONE SPECIFICA DA COMPLETARE].
 
 ## Struttura
 
 ```
-laravel/Modules/Lang/
+Lang/
 ├── app/
 │   ├── Models/
 │   ├── Filament/
@@ -29,45 +24,21 @@ laravel/Modules/Lang/
 ## Dipendenze
 
 - [Xot Base](../Xot/docs/)
-- [User Module](../User/docs/) - Autenticazione
-- [Tenant Module](../Tenant/docs/) - Multi-tenancy
+- [User Module](../User/docs/) (se usa autenticazione)
+- [Tenant Module](../Tenant/docs/) (se multi-tenant)
 
 ## Collegamenti
 
-- [Documentazione Root](../../../../docs/README.md)
+- [Documentazione Root](../../../docs/LANG_MODULE.md)
 - [Regole Architecture](../Xot/docs/architecture/)
-- [Master Module Index](../README.md)
 
 ## Backlinks
 
 - [Indice Moduli](../README.md)
 
-## Modelli Principali
+## TODO
 
-```php
-// Language model
-Modules\Lang\Models\Language
-
-// Translation model
-Modules\Lang\Models\Translation
-```
-
-## Utilizzo
-
-```php
-// Get translation
-__('lang::messages.welcome');
-
-// Set locale
-App::setLocale('en');
-
-// Check if language exists
-Language::isActive('en');
-```
-
-## Traduzioni
-
-Le traduzioni sono organizzate per namespace:
-- `lang::messages` - Messaggi generici
-- `lang::fields` - Etichette campi
-- `lang::validation` - Messaggi validazione
+- [ ] Completare descrizione funzionalità
+- [ ] Documentare modelli principali
+- [ ] Documentare risorse Filament
+- [ ] Aggiungere esempi codice
