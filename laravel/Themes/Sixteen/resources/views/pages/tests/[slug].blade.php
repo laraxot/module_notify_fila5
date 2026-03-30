@@ -5,10 +5,15 @@ declare(strict_types=1);
 use function Laravel\Folio\middleware;
 use function Laravel\Folio\name;
 use Livewire\Volt\Component;
+use Modules\Cms\Http\Middleware\PageSlugMiddleware;
 
-// Route: /it/tests/{slug}
+// Route name
 name('tests.view');
 
+// Middleware for slug validation and page loading
+middleware(PageSlugMiddleware::class);
+
+// Volt component - reactive page
 new class extends Component {
     public string $slug = '';
     public string $pageSlug = '';
@@ -21,25 +26,18 @@ new class extends Component {
         $this->slug = $slug;
         $this->pageSlug = 'tests.'.$slug;
         $this->data = [
-            'slug' => $slug,
-            'title' => 'Design Comuni - '.$slug,
+            'slug' => $slug
         ];
     }
 };
-
 ?>
 
+{{-- Layout with Volt --}}
 <x-layouts.app>
     @volt('tests.view')
-    <div class="design-comuni-page">
-        {{-- Header Section --}}
-        <x-section slug="header" />
-
-        {{-- Dynamic Page Content --}}
+    <div>
+        {{-- CMS page system - renders blocks from database --}}
         <x-page side="content" :slug="$pageSlug" :data="$data" />
-
-        {{-- Footer Section --}}
-        <x-section slug="footer" />
     </div>
     @endvolt
 </x-layouts.app>

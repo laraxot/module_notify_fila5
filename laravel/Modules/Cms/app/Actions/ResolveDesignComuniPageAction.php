@@ -17,14 +17,14 @@ final class ResolveDesignComuniPageAction
     {
         $theme = config('xra.pub_theme', 'Sixteen');
 
-        if (! is_string($theme) || '' === $theme) {
+        if (! is_string($theme) || $theme === '') {
             $theme = 'Sixteen';
         }
 
-        $base = base_path('Themes/' . $theme . '/Main_files');
+        $base = base_path('Themes/'.$theme.'/Main_files');
 
         // 1. Tailwind version (five/) — preferred
-        $tailwindPath = $base . '/five/' . $slug . '.html';
+        $tailwindPath = $base.'/five/'.$slug.'.html';
 
         if (is_file($tailwindPath)) {
             return ['source' => 'tailwind', 'slug' => $slug, 'source_path' => $tailwindPath];
@@ -32,7 +32,7 @@ final class ResolveDesignComuniPageAction
 
         // 2. Static HTML snapshots
         foreach (['design-comuni-pages/sito', 'design-comuni-html/dist/sito', 'design-comuni-html/dist/servizi'] as $section) {
-            $path = $base . '/' . $section . '/' . $slug . '.html';
+            $path = $base.'/'.$section.'/'.$slug.'.html';
 
             if (is_file($path)) {
                 return ['source' => 'static', 'slug' => $slug, 'source_path' => $path];
@@ -52,11 +52,11 @@ final class ResolveDesignComuniPageAction
 
         $html = file_get_contents($resolved['source_path']);
 
-        if (! is_string($html) || '' === $html) {
+        if (! is_string($html) || $html === '') {
             return null;
         }
 
-        return 'tailwind' === $resolved['source']
+        return $resolved['source'] === 'tailwind'
             ? $this->rewriteTailwindHtml($html, $locale)
             : $this->rewriteStaticHtml($html, $locale);
     }
@@ -65,20 +65,20 @@ final class ResolveDesignComuniPageAction
     private function rewriteTailwindHtml(string $html, string $locale): string
     {
         $cssUrl = $this->resolveViteAsset('resources/css/app.css');
-        $jsUrl  = $this->resolveViteAsset('resources/js/app.js');
+        $jsUrl = $this->resolveViteAsset('resources/js/app.js');
 
-        if ('' !== $cssUrl) {
+        if ($cssUrl !== '') {
             $html = str_replace(
                 ['href="/src/style-apply.css"', 'href="./src/style-apply.css"', 'href="../src/style-apply.css"'],
-                'href="' . $cssUrl . '"',
+                'href="'.$cssUrl.'"',
                 $html,
             );
         }
 
-        if ('' !== $jsUrl) {
+        if ($jsUrl !== '') {
             $html = str_replace(
                 ['src="/src/app.js"', 'src="./src/app.js"'],
-                'src="' . $jsUrl . '"',
+                'src="'.$jsUrl.'"',
                 $html,
             );
         }
@@ -90,7 +90,7 @@ final class ResolveDesignComuniPageAction
     private function rewriteStaticHtml(string $html, string $locale): string
     {
         $cssUrl = $this->resolveViteAsset('resources/css/app.css');
-        $jsUrl  = $this->resolveViteAsset('resources/js/app.js');
+        $jsUrl = $this->resolveViteAsset('resources/js/app.js');
 
         // Strip CDN Bootstrap Italia CSS/JS
         $html = (string) preg_replace('/<link[^>]*bootstrap-italia[^>]*>\n?/i', '', $html);
@@ -102,16 +102,16 @@ final class ResolveDesignComuniPageAction
         // Inject our Vite compiled CSS/JS before </head>
         $inject = '';
 
-        if ('' !== $cssUrl) {
+        if ($cssUrl !== '') {
             $inject .= "\n  <link rel=\"stylesheet\" href=\"{$cssUrl}\">";
         }
 
-        if ('' !== $jsUrl) {
+        if ($jsUrl !== '') {
             $inject .= "\n  <script src=\"{$jsUrl}\" defer></script>";
         }
 
-        if ('' !== $inject) {
-            $html = str_replace('</head>', $inject . "\n</head>", $html);
+        if ($inject !== '') {
+            $html = str_replace('</head>', $inject."\n</head>", $html);
         }
 
         return $this->rewriteInternalLinks($html, $locale);
@@ -120,7 +120,7 @@ final class ResolveDesignComuniPageAction
     /** Rewrite .html links to /locale/tests/{slug} paths. */
     private function rewriteInternalLinks(string $html, string $locale): string
     {
-        $testsBase = '/' . trim($locale, '/') . '/tests';
+        $testsBase = '/'.trim($locale, '/').'/tests';
 
         return (string) preg_replace_callback(
             '/\bhref="([^"]+\.html)"/',
@@ -133,11 +133,11 @@ final class ResolveDesignComuniPageAction
 
                 $target = pathinfo($href, PATHINFO_FILENAME);
 
-                if (! is_string($target) || '' === $target) {
+                if (! is_string($target) || $target === '') {
                     return $matches[0];
                 }
 
-                return 'href="' . $testsBase . '/' . $target . '"';
+                return 'href="'.$testsBase.'/'.$target.'"';
             },
             $html,
         ) ?? $html;
@@ -148,11 +148,11 @@ final class ResolveDesignComuniPageAction
     {
         $theme = config('xra.pub_theme', 'Sixteen');
 
-        if (! is_string($theme) || '' === $theme) {
+        if (! is_string($theme) || $theme === '') {
             $theme = 'Sixteen';
         }
 
-        $manifestPath = public_path('themes/' . $theme . '/manifest.json');
+        $manifestPath = public_path('themes/'.$theme.'/manifest.json');
 
         if (! is_file($manifestPath)) {
             return '';
@@ -171,6 +171,6 @@ final class ResolveDesignComuniPageAction
             return '';
         }
 
-        return '/themes/' . $theme . '/' . $manifest[$entryKey]['file'];
+        return '/themes/'.$theme.'/'.$manifest[$entryKey]['file'];
     }
 }
