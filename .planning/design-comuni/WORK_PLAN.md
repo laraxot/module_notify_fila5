@@ -79,5 +79,5 @@
 
 ## 📝 Notes
 - Use existing `argomenti.blade.php` as template
-- All 38 HTML files are in `resources/design-comuni/dist/sito/`
-- Components are in `resources/views/components/design-comuni/`
+- **CORREZIONE**: HTML files are in `laravel/Themes/Sixteen/Main_files/five/` (NOT in `resources/design-comuni/dist/sito/`)
+- Components are in `laravel/Themes/Sixteen/resources/views/components/design-comuni/`
