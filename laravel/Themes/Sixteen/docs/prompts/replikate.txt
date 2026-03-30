@@ -228,3 +228,16 @@ https://flowbite.com/blocks/
 
 
   errore grave scrivere  [Filament Icons Documentation](https://filamentphp.com/docs/3.x/forms/fields/icon-picker)            noi utilizziamo filament 5 !
+
+  utilizziamo sempre la ultima versione di filament ! in questo momento e' la 5 
+
+  nel file composer.json 
+
+   "merge-plugin": {
+            "include": [
+                "Modules/*/composer.json"
+            ]
+        }
+
+non ci deve stare anche "Themes/*/composer.json" i temi vivono di vita loro isolati 
+capisci da solo il perche' 
