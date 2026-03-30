@@ -31,7 +31,11 @@
             {{-- Icon --}}
             @if(isset($stat['icon']))
             <div class="stat-icon mb-4">
-                <x-icon :name="$stat['icon']" class="icon-lg icon-primary w-10 h-10" />
+            <x-filament::icon 
+                :icon="$stat['icon']" 
+                class="icon-lg icon-primary w-10 h-10" 
+                aria-hidden="true" 
+            />
             </div>
             @endif
             
