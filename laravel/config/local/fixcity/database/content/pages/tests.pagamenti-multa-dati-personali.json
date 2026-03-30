@@ -1,0 +1,21 @@
+{
+    "id": "tests.pagamenti-multa-dati-personali",
+    "title": {
+        "it": "Pagamenti Multa Dati Personali",
+        "en": "Pagamenti Multa Dati Personali"
+    },
+    "slug": "tests.pagamenti-multa-dati-personali",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

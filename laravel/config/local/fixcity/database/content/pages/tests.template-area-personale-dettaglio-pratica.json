@@ -1,0 +1,21 @@
+{
+    "id": "tests.template-area-personale-dettaglio-pratica",
+    "title": {
+        "it": "Template Area Personale Dettaglio Pratica",
+        "en": "Template Area Personale Dettaglio Pratica"
+    },
+    "slug": "tests.template-area-personale-dettaglio-pratica",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

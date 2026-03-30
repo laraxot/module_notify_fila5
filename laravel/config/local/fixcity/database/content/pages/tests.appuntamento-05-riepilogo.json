@@ -1,0 +1,33 @@
+{
+    "id": "tests.appuntamento-05-riepilogo",
+    "title": {
+        "it": "Step 5 - Riepilogo delle informazioni inserite",
+        "en": "Step 5 - Summary of entered information"
+    },
+    "slug": "tests.appuntamento-05-riepilogo",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 5 - Riepilogo delle informazioni inserite",
+                    "category": "Prenotazione Appuntamento",
+                    "summary": "La schermata di riepilogo con la possibilità di confermare o tornare indietro.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-05-riepilogo.html",
+                    "slug": "tests.appuntamento-05-riepilogo"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

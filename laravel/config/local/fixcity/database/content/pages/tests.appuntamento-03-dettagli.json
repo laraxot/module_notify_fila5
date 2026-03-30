@@ -1,0 +1,33 @@
+{
+    "id": "tests.appuntamento-03-dettagli",
+    "title": {
+        "it": "Step 3 - Selezione del motivo e aggiunta dei dettagli",
+        "en": "Step 3 - Reason selection and details"
+    },
+    "slug": "tests.appuntamento-03-dettagli",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 3 - Selezione del motivo e aggiunta dei dettagli",
+                    "category": "Prenotazione Appuntamento",
+                    "summary": "La schermata di selezione del motivo e integrazione della richiesta con maggiori dettagli.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-03-dettagli.html",
+                    "slug": "tests.appuntamento-03-dettagli"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

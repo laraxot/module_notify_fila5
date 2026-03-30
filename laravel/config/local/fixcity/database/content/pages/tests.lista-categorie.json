@@ -1,0 +1,33 @@
+{
+    "id": "tests.lista-categorie",
+    "title": {
+        "it": "Lista categorie",
+        "en": "Lista categorie"
+    },
+    "slug": "tests.lista-categorie",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Lista categorie",
+                    "category": "Generali",
+                    "summary": "Il template per una pagina lista di categoria di secondo o terzo livello.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/lista-categorie.html",
+                    "slug": "tests.lista-categorie"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

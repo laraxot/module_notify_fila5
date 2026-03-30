@@ -1,0 +1,21 @@
+{
+    "id": "tests.pagamenti-imu-preferenze",
+    "title": {
+        "it": "Pagamenti Imu Preferenze",
+        "en": "Pagamenti Imu Preferenze"
+    },
+    "slug": "tests.pagamenti-imu-preferenze",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

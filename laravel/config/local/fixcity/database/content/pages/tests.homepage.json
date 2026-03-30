@@ -1,0 +1,33 @@
+{
+    "id": "tests.homepage",
+    "title": {
+        "it": "Homepage",
+        "en": "Homepage"
+    },
+    "slug": "tests.homepage",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Homepage",
+                    "category": "Generali",
+                    "summary": "La homepage del sito comunale.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html",
+                    "slug": "tests.homepage"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": "tests.servizi",
+    "title": {
+        "it": "Servizi",
+        "en": "Servizi"
+    },
+    "slug": "tests.servizi",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Servizi",
+                    "category": "Servizi",
+                    "summary": "La pagina lista di primo livello per la sezione Servizi.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/servizi.html",
+                    "slug": "tests.servizi"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

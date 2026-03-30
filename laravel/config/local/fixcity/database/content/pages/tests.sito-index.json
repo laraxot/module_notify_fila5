@@ -1,0 +1,33 @@
+{
+    "id": "tests.sito-index",
+    "title": {
+        "it": "Index - Design Comuni",
+        "en": "Index - Design Comuni"
+    },
+    "slug": "tests.sito-index",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Index - Design Comuni",
+                    "category": "Generali",
+                    "summary": "La pagina index con l'elenco di tutte le pagine statiche del modello Comuni.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/index.html",
+                    "slug": "tests.sito-index"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

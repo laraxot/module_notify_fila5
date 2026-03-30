@@ -1,0 +1,21 @@
+{
+    "id": "tests.servizi-pagamento-dati-specifici",
+    "title": {
+        "it": "Servizi Pagamento Dati Specifici",
+        "en": "Servizi Pagamento Dati Specifici"
+    },
+    "slug": "tests.servizi-pagamento-dati-specifici",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}
