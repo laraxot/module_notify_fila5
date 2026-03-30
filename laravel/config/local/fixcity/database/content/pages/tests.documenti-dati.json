@@ -1,158 +1,90 @@
 {
-    "id": "tests-documenti-dati",
+    "id": "tests.documenti-dati",
     "title": {
-        "it": "Documenti e dati",
-        "en": "Documents and data"
+        "it": "Documenti Dati",
+        "en": "Documenti Dati"
     },
     "slug": "tests.documenti-dati",
     "content": null,
     "content_blocks": {
         "it": [
             {
-<<<<<<< HEAD
-                "type": "breadcrumb",
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                "type": "page_block",
-=======
-                "type": "tests",
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
+                "type": "navigation",
                 "data": {
-<<<<<<< HEAD
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
                     "items": [
-                        {"label": "Home", "url": "/"},
-                        {"label": "Amministrazione", "url": "/it/tests/amministrazione"},
-                        {"label": "Documenti e dati", "url": null}
-                    ]
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Test",
+                            "url": "/it/tests"
+                        }
+                    ],
+                    "currentPage": "Documenti Dati",
+                    "background": "white"
                 }
             },
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-=======
-                    "view": "pub_theme::components.blocks.tests.intro",
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "title": "Documenti e dati",
-<<<<<<< HEAD
-                    "subtitle": "Amministrazione trasparente",
-                    "content": "<p>Consulta i documenti, i dati e gli atti amministrativi del Comune</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
+                    "view": "pub_theme::components.blocks.hero.hero",
+                    "subtitle": "Sito istituzionale",
+                    "title": "Documenti Dati",
+                    "description": "Step di raccolta dati convertito in pagina CMS con blocchi componibili.",
+                    "background": "white",
+                    "alignment": "left"
                 }
             },
             {
-                "type": "feature_sections",
+                "type": "details",
                 "data": {
-                    "view": "pub_theme::components.blocks.feature_sections.default",
-                    "title": "Categorie di documenti",
-                    "sections": [
+                    "view": "pub_theme::components.blocks.details.details",
+                    "title": "Metadati pagina",
+                    "items": [
                         {
-                            "title": "Statuto e regolamenti",
-                            "description": "Statuto comunale e regolamenti",
-                            "icon": "it-file-text"
+                            "label": "Slug CMS",
+                            "value": "tests.documenti-dati"
                         },
                         {
-                            "title": "Bilanci",
-                            "description": "Bilancio di previsione e consuntivo",
-                            "icon": "it-money"
+                            "label": "Sorgente",
+                            "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/documenti-dati.html"
                         },
                         {
-                            "title": "Bandi e gare",
-                            "description": "Bandi di gara e avvisi pubblici",
-                            "icon": "it-clipboard"
+                            "label": "Sezione",
+                            "value": "sito"
                         },
                         {
-                            "title": "Delibere",
-                            "description": "Delibere di giunta e consiglio",
-                            "icon": "it-file"
+                            "label": "Stato",
+                            "value": "Generata per completare pagine vuote o invalide"
                         }
                     ]
                 }
             },
             {
-                "type": "links",
+                "type": "list",
                 "data": {
-                    "view": "pub_theme::components.blocks.links.list",
-                    "title": "Documenti principali",
-                    "links": [
+                    "view": "pub_theme::components.blocks.list.list",
+                    "title": "Link utili di navigazione",
+                    "style": "icon",
+                    "items": [
                         {
-                            "label": "Statuto comunale",
-                            "url": "/download/statuto.pdf",
-                            "description": "Ultimo aggiornamento: 1 gen 2026",
-                            "meta": "PDF - 2.5 MB"
+                            "text": "Homepage",
+                            "url": "/it/tests/homepage",
+                            "icon": "heroicon-o-home"
                         },
                         {
-                            "label": "Regolamento comunale",
-                            "url": "/download/regolamento.pdf",
-                            "description": "Ultimo aggiornamento: 1 gen 2026",
-                            "meta": "PDF - 1.8 MB"
+                            "text": "Indice test",
+                            "url": "/it/tests",
+                            "icon": "heroicon-o-squares-2x2"
                         },
                         {
-                            "label": "Bilancio di previsione 2026",
-                            "url": "/download/bilancio-2026.pdf",
-                            "description": "Approvato con delibera n. 1 del 15/01/2026",
-                            "meta": "PDF - 5.2 MB"
-                        },
-                        {
-                            "label": "Bilancio consuntivo 2025",
-                            "url": "/download/consuntivo-2025.pdf",
-                            "description": "Approvato con delibera n. 50 del 30/03/2026",
-                            "meta": "PDF - 4.8 MB"
+                            "text": "Servizi",
+                            "url": "/it/tests/servizi",
+                            "icon": "heroicon-o-wrench-screwdriver"
                         }
                     ]
-                }
-            },
-            {
-                "type": "paragraph",
-                "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<h3 class=\"text-xl font-bold mb-4\">Amministrazione trasparente</h3><p class=\"mb-4\">In ottemperanza al D.Lgs. 33/2013, il Comune pubblica nella sezione Amministrazione Trasparente tutti i dati e i documenti obbligatori.</p><p>Per consultare la sezione completa, visita il <a href=\"#\" class=\"text-blue-600 underline\">portale dell'amministrazione trasparente</a>.</p>",
-                    "class": "py-6 bg-gray-50"
-                }
-            },
-            {
-                "type": "cta",
-                "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Richiedi un documento",
-                    "description": "Per richiedere documenti non presenti nell'elenco, compila il modulo online",
-                    "button_text": "Compila richiesta",
-                    "button_url": "/it/tests/moduli/richiesta-documenti",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "category": "Amministrazione",
-                    "summary": "La pagina principale della sottosezione Documenti e dati.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/documenti-dati.html",
-                    "slug": "tests.documenti-dati"
-=======
-                    "category": "Amministrazione",
-                    "summary": "La pagina principale della sottosezione Documenti e dati.",
-                    "slug": "tests.documenti-dati"
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "La pagina va modellata in introduzione, categorie documentali, dataset e accessi rapidi."
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/documenti-dati.html"
                 }
             }
         ],

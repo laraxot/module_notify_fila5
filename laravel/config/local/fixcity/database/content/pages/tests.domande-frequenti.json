@@ -1,173 +1,90 @@
 {
-    "id": "tests-domande-frequenti",
+    "id": "tests.domande-frequenti",
     "title": {
-        "it": "Domande frequenti",
-        "en": "FAQ"
+        "it": "Domande Frequenti",
+        "en": "Domande Frequenti"
     },
     "slug": "tests.domande-frequenti",
     "content": null,
     "content_blocks": {
         "it": [
             {
-<<<<<<< HEAD
-                "type": "breadcrumb",
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                "type": "page_block",
-=======
-                "type": "tests",
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
+                "type": "navigation",
                 "data": {
-<<<<<<< HEAD
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
                     "items": [
-                        {"label": "Home", "url": "/"},
-                        {"label": "Domande frequenti", "url": null}
-                    ]
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Test",
+                            "url": "/it/tests"
+                        }
+                    ],
+                    "currentPage": "Domande Frequenti",
+                    "background": "white"
                 }
             },
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
-                    "title": "Domande frequenti",
-                    "subtitle": "Risposte alle domande più comuni",
-                    "content": "<p>Trova le risposte alle domande più frequenti sui servizi comunali</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
+                    "view": "pub_theme::components.blocks.hero.hero",
+                    "subtitle": "Sito istituzionale",
+                    "title": "Domande Frequenti",
+                    "description": "Pagina istituzionale convertita dal riferimento statico design-comuni.",
+                    "background": "white",
+                    "alignment": "left"
                 }
             },
             {
-                "type": "feature_sections",
+                "type": "details",
                 "data": {
-                    "view": "pub_theme::components.blocks.feature_sections.default",
-                    "title": "Categorie",
-                    "sections": [
-                        {
-                            "title": "Anagrafe",
-                            "description": "Documenti di identità, residenza, stato di famiglia",
-                            "icon": "it-user"
-                        },
-                        {
-                            "title": "Tributi",
-                            "description": "TARI, IMU, TOSAP e altre tasse",
-                            "icon": "it-money"
-                        },
-                        {
-                            "title": "Scuola",
-                            "description": "Iscrizioni, mense, trasporti scolastici",
-                            "icon": "it-school"
-                        },
-                        {
-                            "title": "Mobilità",
-                            "description": "Trasporti, parcheggi, traffico",
-                            "icon": "it-bus"
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "paragraph",
-                "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<h3 class=\"text-xl font-bold mb-4\">Domande frequenti - Anagrafe</h3>",
-                    "class": "py-4"
-                }
-            },
-            {
-                "type": "info",
-                "data": {
-                    "view": "pub_theme::components.blocks.info.default",
-                    "title": "",
+                    "view": "pub_theme::components.blocks.details.details",
+                    "title": "Metadati pagina",
                     "items": [
                         {
-                            "icon": "it-help",
-                            "title": "Come richiedo la carta d'identità?",
-                            "description": "Per richiedere la carta d'identità è necessario prenotare un appuntamento online o recarsi allo sportello. Porta con te un documento di identità valido, una fototessera e il codice fiscale."
+                            "label": "Slug CMS",
+                            "value": "tests.domande-frequenti"
                         },
                         {
-                            "icon": "it-help",
-                            "title": "Quali sono gli orari degli uffici?",
-                            "description": "Gli uffici anagrafe sono aperti dal lunedì al venerdì dalle 9:00 alle 13:00 e il martedì anche dalle 15:00 alle 17:00."
+                            "label": "Sorgente",
+                            "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/domande-frequenti.html"
                         },
                         {
-                            "icon": "it-help",
-                            "title": "Quanto costa la carta d'identità?",
-                            "description": "Il costo della carta d'identità elettronica è di € 21,95 più i diritti di segreteria di € 16,79."
+                            "label": "Sezione",
+                            "value": "sito"
+                        },
+                        {
+                            "label": "Stato",
+                            "value": "Generata per completare pagine vuote o invalide"
                         }
                     ]
                 }
             },
             {
-                "type": "paragraph",
+                "type": "list",
                 "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<h3 class=\"text-xl font-bold mb-4 mt-8\">Domande frequenti - Tributi</h3>",
-                    "class": "py-4"
-                }
-            },
-            {
-                "type": "info",
-                "data": {
-                    "view": "pub_theme::components.blocks.info.default",
-                    "title": "",
+                    "view": "pub_theme::components.blocks.list.list",
+                    "title": "Link utili di navigazione",
+                    "style": "icon",
                     "items": [
                         {
-                            "icon": "it-help",
-                            "title": "Come pago la TARI?",
-                            "description": "Il pagamento della TARI può essere effettuato tramite bollettino postale, bonifico bancario o presso gli sportelli abilitati."
+                            "text": "Homepage",
+                            "url": "/it/tests/homepage",
+                            "icon": "heroicon-o-home"
                         },
                         {
-                            "icon": "it-help",
-                            "title": "Quando scade la TARI?",
-                            "description": "La TARI si paga in un'unica soluzione entro il 30 giugno o in due rate: 30 giugno e 31 dicembre."
+                            "text": "Indice test",
+                            "url": "/it/tests",
+                            "icon": "heroicon-o-squares-2x2"
+                        },
+                        {
+                            "text": "Servizi",
+                            "url": "/it/tests/servizi",
+                            "icon": "heroicon-o-wrench-screwdriver"
                         }
                     ]
-                }
-            },
-            {
-                "type": "cta",
-                "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Non hai trovato la tua domanda?",
-                    "description": "Contatta l'ufficio relazioni con il pubblico per ulteriori informazioni",
-                    "button_text": "Contattaci",
-                    "button_url": "/it/tests/assistenza",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Domande frequenti (FAQ)",
-                    "category": "Generali",
-                    "summary": "La pagina per la presentazione delle domande frequenti.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/domande-frequenti.html",
-                    "slug": "tests.domande-frequenti"
-=======
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Domande frequenti (FAQ)",
-                    "category": "Generali",
-                    "summary": "La pagina per la presentazione delle domande frequenti.",
-                    "slug": "tests.domande-frequenti"
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "Questa pagina andra spezzata almeno in intro, motore di ricerca FAQ, gruppi di domande e CTA finale."
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/domande-frequenti.html"
                 }
             }
         ],

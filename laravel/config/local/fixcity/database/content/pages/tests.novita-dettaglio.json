@@ -1,157 +1,90 @@
 {
-    "id": "tests-novita-dettaglio",
+    "id": "tests.novita-dettaglio",
     "title": {
-        "it": "Dettaglio notizia",
-        "en": "News detail"
+        "it": "Novita Dettaglio",
+        "en": "Novita Dettaglio"
     },
     "slug": "tests.novita-dettaglio",
     "content": null,
     "content_blocks": {
         "it": [
             {
-<<<<<<< HEAD
-                "type": "breadcrumb",
-||||||| parent of b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
-                "type": "page_block",
-=======
-                "type": "tests",
->>>>>>> b86fa613 (feat: Implement BlockData auto-resolve view (DRY + KISS))
+                "type": "navigation",
                 "data": {
-<<<<<<< HEAD
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
                     "items": [
-                        {"label": "Home", "url": "/"},
-                        {"label": "Novità", "url": "/it/tests/novita"},
-                        {"label": "Dettaglio notizia", "url": null}
-                    ]
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Test",
+                            "url": "/it/tests"
+                        }
+                    ],
+                    "currentPage": "Novita Dettaglio",
+                    "background": "white"
                 }
             },
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
-                    "title": "Parte l'estate con oltre 300 eventi",
-                    "subtitle": "Estate in città 2026",
-                    "content": "<p>Inaugurazione lunedì 2 luglio con il concerto gratuito in piazza XX Settembre degli Sweet Soul Music Revue. Sul palco 20 musicisti dal tutto il mondo.</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900",
-                    "image": "/images/estate-citta-2026.jpg"
+                    "view": "pub_theme::components.blocks.hero.hero",
+                    "subtitle": "Sito istituzionale",
+                    "title": "Novita Dettaglio",
+                    "description": "Pagina istituzionale convertita dal riferimento statico design-comuni.",
+                    "background": "white",
+                    "alignment": "left"
                 }
             },
             {
-                "type": "info",
+                "type": "details",
                 "data": {
-                    "view": "pub_theme::components.blocks.info.default",
-                    "title": "Dettagli",
+                    "view": "pub_theme::components.blocks.details.details",
+                    "title": "Metadati pagina",
                     "items": [
                         {
-                            "icon": "it-calendar",
-                            "title": "Data",
-                            "description": "18 maggio 2026"
+                            "label": "Slug CMS",
+                            "value": "tests.novita-dettaglio"
                         },
                         {
-                            "icon": "it-category",
-                            "title": "Categoria",
-                            "description": "Estate in città"
+                            "label": "Sorgente",
+                            "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/novita-dettaglio.html"
                         },
                         {
-                            "icon": "it-user",
-                            "title": "Autore",
-                            "description": "Ufficio Stampa"
+                            "label": "Sezione",
+                            "value": "sito"
+                        },
+                        {
+                            "label": "Stato",
+                            "value": "Generata per completare pagine vuote o invalide"
                         }
                     ]
                 }
             },
             {
-                "type": "paragraph",
+                "type": "list",
                 "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<p class=\"mb-4\">L'Amministrazione Comunale è lieta di presentare il programma di <strong>Estate in Città 2026</strong>, una rassegna di oltre 300 eventi che animeranno la città dal 2 luglio al 31 agosto.</p><h3 class=\"text-xl font-bold mt-6 mb-4\">Il programma</h3><p class=\"mb-4\">Concerti, spettacoli teatrali, proiezioni cinematografiche, mercatini e molto altro ancora. Tutti gli eventi sono gratuiti e aperti a tutti.</p><h3 class=\"text-xl font-bold mt-6 mb-4\">L'inaugurazione</h3><p class=\"mb-4\">Si parte lunedì 2 luglio con il grande concerto degli <strong>Sweet Soul Music Revue</strong>, 20 musicisti provenienti da tutto il mondo che omaggeranno i grandi classici del soul e del rhythm and blues.</p>",
-                    "class": "py-6"
-                }
-            },
-            {
-                "type": "links",
-                "data": {
-                    "view": "pub_theme::components.blocks.links.list",
-                    "title": "Documenti correlati",
-                    "links": [
+                    "view": "pub_theme::components.blocks.list.list",
+                    "title": "Link utili di navigazione",
+                    "style": "icon",
+                    "items": [
                         {
-                            "label": "Programma completo Estate in Città 2026",
-                            "url": "/download/programma-estate-2026.pdf",
-                            "description": "PDF - 2.5 MB"
+                            "text": "Homepage",
+                            "url": "/it/tests/homepage",
+                            "icon": "heroicon-o-home"
                         },
                         {
-                            "label": "Mappa degli eventi",
-                            "url": "/download/mappa-eventi.pdf",
-                            "description": "PDF - 1.2 MB"
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "links",
-                "data": {
-                    "view": "pub_theme::components.blocks.links.list",
-                    "title": "Notizie correlate",
-                    "links": [
-                        {
-                            "label": "Mercatini di Natale in centro",
-                            "url": "/it/tests/novita-dettaglio",
-                            "description": "5 mag 2026"
+                            "text": "Indice test",
+                            "url": "/it/tests",
+                            "icon": "heroicon-o-squares-2x2"
                         },
                         {
-                            "label": "Bonus trasporti per studenti",
-                            "url": "/it/tests/novita-dettaglio",
-                            "description": "10 mag 2026"
+                            "text": "Servizi",
+                            "url": "/it/tests/servizi",
+                            "icon": "heroicon-o-wrench-screwdriver"
                         }
                     ]
-                }
-            },
-            {
-                "type": "cta",
-                "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Condividi",
-                    "description": "Condividi questa notizia sui social network",
-                    "button_text": "Condividi su Facebook",
-                    "button_url": "https://facebook.com/sharer.php",
-                    "button_color": "bg-blue-600 hover:bg-blue-700"
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-                    "view": "pub_theme::components.blocks.tests.reference-page",
-                    "title": "Notizia, Comunicato, Avviso",
-                    "category": "Novità",
-                    "summary": "La pagina di dettaglio per notizia, comunicato stampa e avviso.",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/novita-dettaglio.html",
-                    "slug": "tests.novita-dettaglio"
-=======
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Notizia, Comunicato, Avviso",
-                    "category": "Novita",
-                    "summary": "La pagina di dettaglio per notizie, comunicati e avvisi.",
-                    "slug": "tests.novita-dettaglio"
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "Il dettaglio finale va scomposto in intestazione, metadata, corpo articolo, allegati e contenuti correlati."
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/novita-dettaglio.html"
                 }
             }
         ],
