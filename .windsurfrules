@@ -329,16 +329,35 @@ protected function getHeaderActions(): array
 - Actions are single-purpose, testable, and queueable
 - Example location: `Modules/ModuleName/app/Actions/ActionName.php`
 
-### NO ROUTES/CONTROLLERS - USE VOLT + FOLIO + FILAMENT
-- **NEVER** create route files (routes/*.php) for module functionality
-- **NEVER** create Controllers for module functionality
-- **ALWAYS** use:
-  - **Volt** for single-file Livewire components
-  - **Folio** for file-based routing (resources/views/pages/)
-  - **Filament** for admin panel resources and widgets
-  - **Laraxot** patterns and base classes
-- Only use routes/ for module registration routes (e.g., route service providers)
-- Study base_laravelpizza Cms module for reference implementation
+### FOLIO + VOLT ROUTING (CRITICAL)
+
+**Pattern**: File-based routing con Laravel Folio + Livewire Volt
+
+**Dynamic Pages**: `pages/tests/[slug].blade.php`
+```php
+new class extends Component {
+    public function mount(string $slug): void
+    {
+        $this->pageSlug = 'tests.'.$slug;
+    }
+};
+```
+
+**Static Pages**: `pages/tests/index.blade.php`
+```php
+new class extends Component {
+    public function mount(): void
+    {
+        $this->pageSlug = 'tests.index';
+    }
+};
+```
+
+**Middleware**: PageSlugMiddleware carica JSON content
+**JSON Path**: `laravel/config/local/fixcity/database/content/pages/{pageSlug}.json`
+
+**WHY**: 38 pagine → 1 file dinamico (97% code reduction)
+**See**: `laravel/Themes/Sixteen/docs/design-comuni/FOLIO_VOLT_PHILOSOPHY.md`
 
 ### LOGGING BEST PRACTICES - CRITICAL FOR PERFORMANCE
 - **NEVER USE Log::info()** - it only logs and slows down the project significantly

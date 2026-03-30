@@ -54,6 +54,7 @@ Questo indice organizza tutta la documentazione del tema Sixteen per facilitare 
 - **[components.md](components.md)** - Documentazione componenti
 - **[blocks-system.md](blocks-system.md)** - Sistema di blocchi
 - **[examples.md](examples.md)** - Esempi di utilizzo
+- **[design-comuni/tests-routing-governance.md](design-comuni/tests-routing-governance.md)** - Governance Folio + Volt per `tests/index` e `tests/[slug]`
 
 ### Naming Conventions
 - **[sixteen-agid-naming-rules.md](sixteen-agid-naming-rules.md)** - Regole naming AGID

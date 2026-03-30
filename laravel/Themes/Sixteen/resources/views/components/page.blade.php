@@ -1,47 +1,41 @@
+<?php
+
+declare(strict_types=1);
+
+use Modules\Cms\Models\Page as PageModel;
+
+?>
 @props([
     'side' => 'content',
     'slug' => '',
-    'data' => []
+    'data' => [],
 ])
 
 @php
-    // Load page from JSON
-    $jsonPath = config_path('local/fixcity/database/content/pages/'.$slug.'.json');
-    $pageData = null;
-    
-    if(file_exists($jsonPath)) {
-        $pageData = json_decode(file_get_contents($jsonPath), true);
+    $resolvedSlug = $slug;
+
+    if ($resolvedSlug === '' && isset($data['slug']) && is_string($data['slug'])) {
+        $resolvedSlug = $data['slug'];
     }
-    
-    // Get blocks for current language
-    $blocks = [];
-    if($pageData) {
-        $lang = app()->getLocale();
-        $blocks = $pageData['content_blocks'][$lang] ?? $pageData['content_blocks']['it'] ?? [];
-    }
+
+    $blocks = PageModel::getBlocksBySlug($resolvedSlug, $side);
 @endphp
 
-<div class="page-content {{ $side }}">
-    @if(count($blocks) > 0)
+@if(!empty($blocks))
+    <div class="page-{{ $side }}-content" data-slug="{{ $resolvedSlug }}" data-side="{{ $side }}">
         @foreach($blocks as $block)
-            @if(isset($block['type']) && isset($block['data']['view']))
-                @includeIf($block['data']['view'], $block['data'])
-            @endif
+            @include($block->view, array_merge($data, $block->data))
         @endforeach
-    @else
-        {{-- Fallback: Show error --}}
-        <div class="container mx-auto py-12">
-            <div class="max-w-2xl mx-auto bg-red-50 border border-red-200 rounded-lg p-6">
-                <h2 class="text-xl font-bold text-red-800 mb-2">
-                    Pagina non trovata
-                </h2>
-                <p class="text-red-600 mb-4">
-                    Il file JSON per la pagina "<code>{{ $slug }}</code>" non esiste o non contiene blocchi validi.
-                </p>
-                <p class="text-sm text-red-500">
-                    Path atteso: <code>{{ $jsonPath }}</code>
+    </div>
+@else
+    <div class="page-{{ $side }}-content" data-slug="{{ $resolvedSlug }}" data-side="{{ $side }}">
+        <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+            <div class="rounded-3xl border border-amber-200 bg-amber-50 p-6 text-amber-900">
+                <h2 class="text-lg font-semibold">Pagina non configurata</h2>
+                <p class="mt-2 text-sm leading-6">
+                    Nessun blocco disponibile per lo slug <code>{{ $resolvedSlug }}</code> sul lato <code>{{ $side }}</code>.
                 </p>
             </div>
         </div>
-    @endif
-</div>
+    </div>
+@endif
