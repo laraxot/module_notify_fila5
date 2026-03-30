@@ -71,7 +71,7 @@
         @if($startDate)
             <div class="event-card-date mb-3">
                 <div class="flex items-center text-sm text-gray-500">
-                    <x-heroicon-o-calendar class="w-4 h-4 mr-2" />
+                    <x-filament::icon icon="heroicon-o-calendar class="w-4 h-4 mr-2"" />
                     <time datetime="{{ $startDate->format('Y-m-d\TH:i:s') }}">
                         @if($isMultiDay)
                             {{ $startDate->format('d/m/Y') }} - {{ $endDate->format('d/m/Y') }}
@@ -102,7 +102,7 @@
         @if($location)
             <div class="event-card-location mb-4">
                 <div class="flex items-center text-sm text-gray-500">
-                    <x-heroicon-o-map-pin class="w-4 h-4 mr-2" />
+                    <x-filament::icon icon="heroicon-o-map-pin class="w-4 h-4 mr-2"" />
                     <span>{{ $location }}</span>
                 </div>
             </div>
@@ -112,7 +112,7 @@
             <div class="event-card-meta flex items-center space-x-4 text-sm text-gray-500">
                 @if($category)
                     <span class="flex items-center">
-                        <x-heroicon-o-tag class="w-4 h-4 mr-1" />
+                        <x-filament::icon icon="heroicon-o-tag class="w-4 h-4 mr-1"" />
                         {{ $category }}
                     </span>
                 @endif
@@ -124,7 +124,7 @@
                 aria-label="Visualizza dettagli evento: {{ $title }}"
             >
                 Dettagli
-                <x-heroicon-o-arrow-right class="w-4 h-4 ml-1" />
+                <x-filament::icon icon="heroicon-o-arrow-right class="w-4 h-4 ml-1"" />
             </a>
         </div>
     </div>

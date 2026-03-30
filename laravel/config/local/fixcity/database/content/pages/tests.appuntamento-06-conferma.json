@@ -1,83 +1,88 @@
 {
-    "id": "tests.appuntamento-06-conferma",
-    "title": {
-        "it": "Appuntamento confermato",
-        "en": "Appointment confirmed"
-    },
-    "slug": "tests.appuntamento-06-conferma",
-    "content": null,
-    "content_blocks": {
-        "it": [
+  "id": "tests.appuntamento-06-conferma",
+  "title": {
+    "it": "Appuntamento confermato",
+    "en": "Appointment confirmed"
+  },
+  "slug": "tests.appuntamento-06-conferma",
+  "content": null,
+  "content_blocks": {
+    "it": [
+      {
+        "type": "navigation",
+        "data": {
+          "view": "pub_theme::components.blocks.navigation.breadcrumb",
+          "items": [
             {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Appuntamento confermato",
-                    "summary": "La prenotazione e stata registrata. Questa pagina demo e composta da piu blocchi CMS ordinabili e riusabili.",
-                    "category": "Design Comuni / Test",
-                    "slug": "tests.appuntamento-06-conferma"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.appuntamento-conferma",
-                    "steps": [
-                        {
-                            "title": "Dati del richiedente",
-                            "description": "Confermati"
-                        },
-                        {
-                            "title": "Scelta appuntamento",
-                            "description": "Completata"
-                        },
-                        {
-                            "title": "Verifica finale",
-                            "description": "Inviata"
-                        }
-                    ],
-                    "details": {
-                        "Servizio": "Richiesta carta d'identita elettronica",
-                        "Sede": "Municipio, sportello servizi demografici",
-                        "Data": "Mercoledi 17 aprile 2026",
-                        "Ora": "10:30",
-                        "Codice prenotazione": "FC-AP-2026-0417"
-                    }
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-06-conferma.html"
-                }
+              "label": "Prenotazioni",
+              "url": "/it/tests/appuntamento-01-ufficio-luogo"
             }
-        ],
-        "en": []
-    },
-    "sidebar_blocks": {
-        "it": [],
-        "en": []
-    },
-    "footer_blocks": {
-        "it": "",
-        "en": ""
-    }
-<<<<<<< HEAD
+          ],
+          "currentPage": "Conferma appuntamento",
+          "background": "white"
+        }
+      },
+      {
+        "type": "confirmation",
+        "data": {
+          "view": "pub_theme::components.blocks.confirmation.with-details",
+          "title": "Prenotazione inviata",
+          "message": "La prenotazione e stata registrata correttamente e riceverai un promemoria con i dettagli dell'appuntamento.",
+          "icon": "check",
+          "details": {
+            "Servizio": "Richiesta carta di identita elettronica",
+            "Sede": "Municipio, sportello servizi demografici",
+            "Data": "Mercoledi 17 aprile 2026",
+            "Ora": "10:30",
+            "Codice prenotazione": "FC-AP-2026-0417"
+          }
+        }
+      },
+      {
+        "type": "details",
+        "data": {
+          "view": "pub_theme::components.blocks.details.details",
+          "title": "Prossimi passaggi",
+          "items": [
+            { "label": "1", "value": "Conserva il codice prenotazione." },
+            { "label": "2", "value": "Presentati con i documenti richiesti all'orario indicato." },
+            { "label": "3", "value": "Se necessario, modifica o annulla l'appuntamento dai servizi online." }
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "view": "pub_theme::components.blocks.list.list",
+          "title": "Aggiungi al calendario",
+          "items": [
+            { "text": "Outlook", "url": "#" },
+            { "text": "Google Calendar", "url": "#" },
+            { "text": "iCloud Calendar", "url": "#" }
+          ]
+        }
+      },
+      {
+        "type": "details",
+        "data": {
+          "view": "pub_theme::components.blocks.details.details",
+          "title": "Riferimento e parita attesa",
+          "items": [
+            { "label": "Sorgente upstream", "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-06-conferma.html" },
+            { "label": "Slug CMS", "value": "tests.appuntamento-06-conferma" },
+            { "label": "Rendering", "value": "JSON content_blocks + blocchi universali" }
+          ]
+        }
+      }
+    ],
+    "en": []
+  },
+  "sidebar_blocks": {
+    "it": [],
+    "en": []
+  },
+  "footer_blocks": {
+    "it": "",
+    "en": ""
+  }
 }
-||||||| parent of 3ba19f5d (docs: Add Block View Convention Philosophy)
-    },
-    "created_at": "2026-03-30T00:00:00.000000Z",
-    "updated_at": "2026-03-30T00:00:00.000000Z",
-    "created_by": "system",
-    "updated_by": "system"
-}
-=======
-}
->>>>>>> 3ba19f5d (docs: Add Block View Convention Philosophy)

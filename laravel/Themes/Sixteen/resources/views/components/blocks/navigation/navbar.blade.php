@@ -75,7 +75,7 @@
                     @click="open = !open"
                 >
                     <span class="sr-only">Apri menu principale</span>
-                    <x-heroicon-o-bars-3 class="h-6 w-6" />
+                    <x-filament::icon icon="heroicon-o-bars-3 class="h-6 w-6"" />
                 </button>
             </div>
         </div>
