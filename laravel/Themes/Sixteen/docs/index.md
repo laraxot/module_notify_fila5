@@ -29,7 +29,6 @@ Questo indice organizza tutta la documentazione del tema Sixteen per facilitare 
 ### Configurazione Build
 - **[vite-configuration-rules.md](vite-configuration-rules.md)** - Regole per configurazione Vite
 - **[vite-theme-integration.md](vite-theme-integration.md)** - Integrazione Vite con tema
-- **[active-theme-resolution-and-vite-manifest.md](active-theme-resolution-and-vite-manifest.md)** - Risoluzione del tema attivo da APP_URL e procedura corretta per rigenerare il manifest Vite
 - **[vite-asset-loading-correction.md](vite-asset-loading-correction.md)** - Correzione caricamento asset
 - **[vite-configuration-correction-complete.md](vite-configuration-correction-complete.md)** - Correzione completa configurazione
 - **[vite-correction-summary.md](vite-correction-summary.md)** - Riassunto correzioni Vite
@@ -54,7 +53,6 @@ Questo indice organizza tutta la documentazione del tema Sixteen per facilitare 
 - **[components.md](components.md)** - Documentazione componenti
 - **[blocks-system.md](blocks-system.md)** - Sistema di blocchi
 - **[examples.md](examples.md)** - Esempi di utilizzo
-- **[design-comuni/tests-routing-governance.md](design-comuni/tests-routing-governance.md)** - Governance Folio + Volt per `tests/index` e `tests/[slug]`
 
 ### Naming Conventions
 - **[sixteen-agid-naming-rules.md](sixteen-agid-naming-rules.md)** - Regole naming AGID
@@ -117,7 +115,6 @@ Questo indice organizza tutta la documentazione del tema Sixteen per facilitare 
 - **[route-patterns-correction.md](route-patterns-correction.md)** - Correzione pattern routing
 - **[route-correction-summary.md](route-correction-summary.md)** - Riassunto correzioni routing
 - **[route-structure-rules.md](route-structure-rules.md)** - Regole struttura routing
-- **[design-comuni/tests-folio-volt-pattern.md](design-comuni/tests-folio-volt-pattern.md)** - Contratto Folio + Volt per `/tests` e `/tests/{slug}`
 
 ## 🌍 Traduzioni e Localizzazione
 
@@ -242,5 +239,3 @@ npm run copy
 **Mantenuto da**: Team Sixteen
 
 
-
-- **[design-comuni/screenshots/footer-argomenti.md](design-comuni/screenshots/footer-argomenti.md)** - Analisi del footer Design Comuni per la pagina argomenti e stato della verifica visuale

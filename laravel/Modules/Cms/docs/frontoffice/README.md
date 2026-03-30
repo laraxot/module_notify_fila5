@@ -9,7 +9,6 @@ Questa cartella contiene la documentazione relativa al frontoffice del sito.
 - `homepage-content.md` - Contenuti della homepage
 - `homepage-errors.md` - Errori comuni della homepage
 - `homepage-structure.md` - Struttura della homepage
-- `tests-folio-pages.md` - Regola CMS per `/tests` e `/tests/{slug}`
 
 ## Note
 
@@ -91,8 +90,3 @@ Questa documentazione descrive come gestire e personalizzare il frontoffice del 
 * [README.md](laravel/modules/cms/docs/components/readme.md)
 * [README.md](laravel/themes/two/docs/readme.md)
 * [README.md](laravel/themes/one/docs/readme.md)
-
-## Approfondimenti
-- [Tests Routing Governance](./tests-routing-governance.md) - Regola Folio + Volt per `tests.index` e `tests.{slug}`
-
-- [Footer Argomenti](./screenshots/footer-argomenti.md) - Analisi del footer Design Comuni sulla pagina argomenti
