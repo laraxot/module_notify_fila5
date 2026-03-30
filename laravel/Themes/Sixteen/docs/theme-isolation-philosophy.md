@@ -1,13 +1,15 @@
 ---
 title: Theme Isolation Philosophy
-description: Perché i temi vivono isolati rispetto ai moduli
+description: Perché i temi vivono isolati rispetto ai moduli, come vengono registrati dinamicamente
 ---
 
 # Theme Isolation Philosophy
 
 ## Principio Fondamentale
 
-**Moduli = parte dell'applicazione. Temi = plugin grafici autonomi.**
+**Moduli = parte dell'applicazione. Temi = vestiti grafici intercambiabili.**
+
+Il tema è configurabile: cambiare `pub_theme` in `config/local/fixcity/xra.php` cambia il tema **senza toccare nessun file PHP dell'app**.
 
 ---
 
@@ -57,9 +59,34 @@ description: Perché i temi vivono isolati rispetto ai moduli
 
 ### Come il tema viene registrato nell'app
 
-Il tema è già autoloaded via PSR-4 nel `composer.json` della root (o tramite config), e Laravel scopre il suo ServiceProvider tramite `php artisan package:discover` grazie all'`extra.laravel.providers` nel `composer.json` del tema.
+**MAI** in `AppServiceProvider` o `bootstrap/providers.php`.
+**MAI** hardcodare `\Themes\Sixteen\Providers\ThemeServiceProvider::class`.
 
-Non ha bisogno del merge-plugin perché **non installa package via composer della root** — gestisce le sue dipendenze JS/CSS localmente con npm/vite.
+Il tema è registrato **dinamicamente** da `CmsServiceProvider`:
+
+```php
+// Modules/Cms/app/Providers/CmsServiceProvider.php
+
+public function register(): void
+{
+    // Legge pub_theme da xra.php → es. 'Sixteen'
+    if ($this->xot->register_pub_theme) {
+        $theme_path = base_path('Themes/'.$this->xot->pub_theme.'/resources/views');
+        Config::set('view.paths', array_merge([$theme_path], config('view.paths')));
+    }
+}
+
+public function boot(): void
+{
+    if ($this->xot->register_pub_theme) {
+        $this->registerNamespaces('pub_theme');
+        // → registra namespace Blade 'pub_theme::' → Themes/Sixteen/resources/views
+    }
+}
+```
+
+**Risultato**: il namespace Blade è sempre `pub_theme::`, mai `sixteen::`.
+Cambia `pub_theme: 'TwentyOne'` → il sistema usa automaticamente `Themes/TwentyOne/`.
 
 ---
 
