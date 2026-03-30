@@ -225,3 +225,4 @@ laravel/.phive
 !.ralph/prd.json
 !.ralph/README.md
 laravel/.ralph
+laravel/public/design-comuni/
