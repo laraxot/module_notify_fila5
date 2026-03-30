@@ -82,6 +82,7 @@ ALLORA vista = "pub_theme::components.blocks.hero.*"
 | `chart` | Grafici | `chart.default` | [Chart](./chart.md) |
 | `rating` | Sistema valutazioni | `rating.stars` | [Rating](./rating.md) |
 | `images_gallery` | Galleria immagini | `gallery.grid` | [Gallery](./gallery.md) |
+| `topics` | Griglia argomenti | `topics.default` | [Topics](./research/topics-block-research.md) 🆕 |
 
 ---
 

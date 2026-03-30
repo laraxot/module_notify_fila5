@@ -1,0 +1,76 @@
+/* AGID Font Import (must be first) */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+:root {
+    /* AGID Colors - Bootstrap Italia */
+    --agid-primary-dark: #003366;
+    --agid-primary: #0066CC;
+    --agid-primary-light: #3399FF;
+    --agid-secondary: #5C6F82;
+    --agid-success: #006621;
+    --agid-warning: #FFB300;
+    --agid-danger: #CC0000;
+    --agid-info: #0073CE;
+    --agid-purple: #6B3FA0;
+    --agid-orange: #F08030;
+    
+    /* AGID Grays */
+    --agid-gray-50: #F5F7FA;
+    --agid-gray-100: #E8EDF2;
+    --agid-gray-200: #D1D9E0;
+    --agid-gray-300: #B0BEC5;
+    --agid-gray-400: #90A4AE;
+    --agid-gray-500: #78909C;
+    --agid-gray-600: #5C6F82;
+    --agid-gray-700: #455A64;
+    --agid-gray-800: #263238;
+    --agid-gray-900: #1A202C;
+    
+    /* AGID Typography */
+    --agid-font-family: 'Titillium Web', 'Segoe UI', sans-serif;
+    --agid-font-size-base: 16px;
+    --agid-line-height-base: 1.5;
+    
+    /* AGID Spacing */
+    --agid-spacing-xs: 0.5rem;    /* 8px */
+    --agid-spacing-sm: 1rem;      /* 16px */
+    --agid-spacing-md: 1.5rem;    /* 24px */
+    --agid-spacing-lg: 2rem;      /* 32px */
+    --agid-spacing-xl: 3rem;      /* 48px */
+    --agid-spacing-2xl: 4rem;     /* 64px */
+    
+    /* AGID Border Radius */
+    --agid-radius-sm: 0.25rem;    /* 4px */
+    --agid-radius-md: 0.5rem;     /* 8px */
+    --agid-radius-lg: 0.75rem;    /* 12px */
+    --agid-radius-xl: 1rem;       /* 16px */
+    
+    /* AGID Shadows */
+    --agid-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --agid-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --agid-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --agid-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply AGID font globally */
+body {
+    font-family: var(--agid-font-family);
+    font-size: var(--agid-font-size-base);
+    line-height: var(--agid-line-height-base);
+}
+
+/* AGID Utility Classes */
+.agid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.agid-focus:focus {
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.agid-transition {
+    transition: all 0.2s ease-in-out;
+}

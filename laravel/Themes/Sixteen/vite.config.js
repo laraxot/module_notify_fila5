@@ -21,25 +21,9 @@ export default defineConfig({
         outDir: './public',
         emptyOutDir: false,
         manifest: 'manifest.json',
+        // Simplified build without manual chunks for now
         rollupOptions: {
             output: {
-                manualChunks: {
-                    // Core vendor libraries
-                    'vendor-core': ['alpinejs', 'livewire'],
-                    // UI libraries
-                    'vendor-ui': ['bootstrap-italia'],
-                    // Chart libraries
-                    'vendor-charts': ['chart.js'],
-                    // Map libraries
-                    'vendor-maps': ['leaflet'],
-                    // Utility libraries
-                    'vendor-utils': ['lodash', 'moment']
-                },
-                // Optimize chunk names
-                chunkFileNames: (chunkInfo) => {
-                    const facadeModuleId = chunkInfo.facadeModuleId ? chunkInfo.facadeModuleId.split('/').pop().replace('.js', '') : 'chunk';
-                    return `js/[name]-[hash].js`;
-                },
                 entryFileNames: 'js/[name]-[hash].js',
                 assetFileNames: (assetInfo) => {
                     const info = assetInfo.name.split('.');
@@ -57,43 +41,15 @@ export default defineConfig({
                 }
             }
         },
-        // Minification settings
         minify: 'terser',
-        terserOptions: {
-            compress: {
-                drop_console: true,
-                drop_debugger: true,
-                pure_funcs: ['console.log', 'console.info', 'console.debug', 'console.warn']
-            },
-            mangle: {
-                safari10: true
-            }
-        },
-        // Source maps for production debugging
-        sourcemap: false,
-        // Target modern browsers
+        sourcemap: true,
         target: 'es2015',
-        // CSS code splitting
         cssCodeSplit: true,
-        // Asset inlining threshold
         assetsInlineLimit: 4096
     },
-    // Development server settings
     server: {
         hmr: {
             host: 'localhost'
         }
-    },
-    // Optimize dependencies
-    optimizeDeps: {
-        include: [
-            'alpinejs',
-            'livewire',
-            'bootstrap-italia',
-            'chart.js',
-            'leaflet',
-            'lodash',
-            'moment'
-        ]
     },
 });

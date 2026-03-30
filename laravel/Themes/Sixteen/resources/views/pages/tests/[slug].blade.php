@@ -11,18 +11,16 @@ name('tests.view');
 middleware(PageSlugMiddleware::class);
 
 new class extends Component {
-    public string $slug = '';
     public string $pageSlug = '';
 
     /** @var array<string, mixed> */
     public array $data = [];
 
-    public function mount(string $slug): void
+    public function mount(string $slug = ''): void
     {
-        $this->slug = $slug;
-        $this->pageSlug = 'tests.'.$slug;
+        $this->pageSlug = 'tests.' . $slug;
         $this->data = [
-            'slug' => $slug
+            'slug' => $slug,
         ];
     }
 };
