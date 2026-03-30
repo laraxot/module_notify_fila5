@@ -4,100 +4,122 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Icons Sets
+    | Blade Icons Configuration
     |--------------------------------------------------------------------------
     |
-    | With this config option you can define a couple of
-    | default icon sets. Provide a key name for your icon
-    | set and a combination from the options below.
+    | Here you can configure which icon sets are available and where they
+    | are located. You can also define custom icon sets.
     |
     */
 
     'sets' => [
 
-        'ui-brands' => [
-            'path' => base_path('Modules/UI/resources/svg/brands'),
-            'prefix' => 'ui-brands',
+        /*
+        |---------------------------------------------------------------------
+        | Default Icon Set
+        |---------------------------------------------------------------------
+        |
+        | This is the default icon set that will be used when no set is
+        | specified.
+        |
+        */
+
+        'default' => [
+
+            /*
+            |-----------------------------------------------------------------
+            | Path
+            |-----------------------------------------------------------------
+            |
+            | The path to the icon set.
+            |
+            */
+
+            'path' => 'resources/svg',
+
+            /*
+            |-----------------------------------------------------------------
+            | Prefix
+            |-----------------------------------------------------------------
+            |
+            | The prefix to use for all icons in this set.
+            |
+            */
+
+            'prefix' => '',
+
         ],
 
+        /*
+        |---------------------------------------------------------------------
+        | UI Module Brands (Automatic SVG Registration)
+        |---------------------------------------------------------------------
+        |
+        | Icon set for UI module brand icons (social media, etc.)
+        | These are automatically registered by Filament.
+        |
+        */
+
+        'ui-brands' => [
+
+            'path' => 'Modules/UI/resources/svg/brands',
+
+            'prefix' => 'ui-brands.',
+
+        ],
+
+        /*
+        |---------------------------------------------------------------------
+        | Heroicons (Disabled - Use Filament Icons Instead)
+        |---------------------------------------------------------------------
+        |
+        | Heroicons is now disabled. Use Filament's automatic SVG registration
+        | instead by placing SVG files in resources/svg/ directories.
+        |
+        | To re-enable, install blade-ui-kit/blade-heroicons:
+        | composer require blade-ui-kit/blade-heroicons
+        |
+        */
+
+        // 'heroicons' => [
+        //     'path' => resource_path('icons/heroicons'),
+        //     'prefix' => 'heroicon-',
+        // ],
+
     ],
 
     /*
     |--------------------------------------------------------------------------
-    | Global Default Classes
+    | Cache Configuration
     |--------------------------------------------------------------------------
     |
-    | This config option allows you to define some classes which
-    | will be applied by default to all icons.
+    | Here you can configure caching settings for icon sets.
     |
     */
 
-    'class' => '',
-
-    /*
-    |--------------------------------------------------------------------------
-    | Global Default Attributes
-    |--------------------------------------------------------------------------
-    |
-    | This config option allows you to define some attributes which
-    | will be applied by default to all icons.
-    |
-    */
-
-    'attributes' => [
-        // 'width' => 50,
-        // 'height' => 50,
-    ],
-
-    /*
-    |--------------------------------------------------------------------------
-    | Global Fallback Icon
-    |--------------------------------------------------------------------------
-    |
-    | This config option allows you to define a global fallback
-    | icon when an icon in any set cannot be found. It can
-    | reference any icon from any configured set.
-    |
-    */
-
-    'fallback' => '',
-
-    /*
-    |--------------------------------------------------------------------------
-    | Components
-    |--------------------------------------------------------------------------
-    |
-    | These config options allow you to define some
-    | settings related to Blade Components.
-    |
-    */
-
-    'components' => [
+    'cache' => [
 
         /*
-        |----------------------------------------------------------------------
-        | Disable Components
-        |----------------------------------------------------------------------
+        |---------------------------------------------------------------------
+        | Enabled
+        |---------------------------------------------------------------------
         |
-        | This config option allows you to disable Blade components
-        | completely. It's useful to avoid performance problems
-        | when working with large icon libraries.
+        | Whether caching is enabled.
         |
         */
 
-        'disabled' => false,
+        'enabled' => true,
 
         /*
-        |----------------------------------------------------------------------
-        | Default Icon Component Name
-        |----------------------------------------------------------------------
+        |---------------------------------------------------------------------
+        | Duration
+        |---------------------------------------------------------------------
         |
-        | This config option allows you to define the name
-        | for the default Icon class component.
+        | How long icons should be cached.
         |
         */
 
-        'default' => 'icon',
+        'duration' => 3600,
 
     ],
 

@@ -1,52 +1,60 @@
 {
     "id": "tests.homepage",
-    "title": {
-        "it": "Homepage - Il mio Comune",
-        "en": "Homepage - My Municipality"
-    },
     "slug": "tests.homepage",
-    "content": null,
+    "title": {
+        "it": "Homepage",
+        "en": "Homepage"
+    },
     "content_blocks": {
         "it": [
             {
-                "type": "homepage",
+                "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.homepage.head-section"
+                    "view": "pub_theme::components.blocks.hero.homepage",
+                    "title": "NOME DEL COMUNE",
+                    "subtitle": "CONTENUTI IN EVIDENZA"
                 }
             },
             {
-                "type": "homepage",
+                "type": "news_featured",
                 "data": {
-                    "view": "pub_theme::components.blocks.homepage.calendario"
+                    "view": "pub_theme::components.blocks.news.featured",
+                    "title": "Ultime notizie",
+                    "items": [
+                        {
+                            "title": "Nuovo orario uffici comunali",
+                            "excerpt": "Dal 1 aprile 2026 il nuovo orario di apertura al pubblico degli uffici comunali.",
+                            "date": "15 Mar 2026",
+                            "url": "#"
+                        }
+                    ]
                 }
             },
             {
-                "type": "homepage",
+                "type": "services",
                 "data": {
-                    "view": "pub_theme::components.blocks.homepage.evidence"
+                    "view": "pub_theme::components.blocks.services.grid",
+                    "title": "Servizi",
+                    "items": [
+                        {"title": "Anagrafe", "url": "#", "icon": "user"},
+                        {"title": "Cultura", "url": "#", "icon": "book"},
+                        {"title": "Mobilità", "url": "#", "icon": "bus"}
+                    ]
                 }
             },
             {
-                "type": "homepage",
+                "type": "topics",
                 "data": {
-                    "view": "pub_theme::components.blocks.homepage.useful-links"
-                }
-            },
-            {
-                "type": "homepage",
-                "data": {
-                    "view": "pub_theme::components.blocks.homepage.rating-contacts"
+                    "view": "pub_theme::components.blocks.topics.grid",
+                    "title": "Esplora per argomento",
+                    "items": [
+                        {"title": "Cultura", "url": "#"},
+                        {"title": "Sport", "url": "#"},
+                        {"title": "Famiglia", "url": "#"}
+                    ]
                 }
             }
         ],
         "en": []
-    },
-    "sidebar_blocks": {
-        "it": [],
-        "en": []
-    },
-    "footer_blocks": {
-        "it": "",
-        "en": ""
     }
 }

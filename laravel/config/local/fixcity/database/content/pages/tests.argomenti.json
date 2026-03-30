@@ -1,94 +1,58 @@
 {
-  "id": "tests.argomenti",
-  "title": {
-    "it": "Argomenti",
-    "en": "Topics"
-  },
-  "slug": "tests.argomenti",
-  "content": null,
-  "content_blocks": {
-    "it": [
-      {
-        "type": "navigation",
-        "data": {
-          "view": "pub_theme::components.blocks.navigation.breadcrumb",
-          "items": [],
-          "currentPage": "Argomenti",
-          "background": "white"
-        }
-      },
-      {
-        "type": "hero",
-        "data": {
-          "view": "pub_theme::components.blocks.hero.hero",
-          "subtitle": "Amministrazione",
-          "title": "Argomenti",
-          "description": "Gli argomenti rispondono a un'esigenza di organizzazione dei contenuti del sito istituzionale per tematiche.",
-          "background": "white",
-          "alignment": "left"
-        }
-      },
-      {
-        "type": "topics",
-        "data": {
-          "view": "pub_theme::components.blocks.topics.grid",
-          "title": "Esplora per argomento",
-          "topics": [
-            { "title": "Agricoltura", "description": "Contributi, territorio rurale e attivita agricole.", "url": "#" },
-            { "title": "Animale domestico", "description": "Anagrafe animali, tutela e servizi dedicati.", "url": "#" },
-            { "title": "Assistenza sociale", "description": "Sostegni, aiuti e servizi alla persona.", "url": "#" },
-            { "title": "Associazioni", "description": "Vita associativa, patrocini e spazi civici.", "url": "#" },
-            { "title": "Concorsi", "description": "Bandi, selezioni pubbliche e graduatorie.", "url": "#" },
-            { "title": "Formazione professionale", "description": "Percorsi, opportunita e orientamento.", "url": "#" },
-            { "title": "Imposte", "description": "Tributi, canoni e fiscalita locale.", "url": "#" },
-            { "title": "Imprese", "description": "Sportelli, autorizzazioni e supporto alle attivita economiche.", "url": "#" },
-            { "title": "Inquinamento", "description": "Qualita ambientale, monitoraggi e segnalazioni.", "url": "#" },
-            { "title": "Integrazione sociale", "description": "Iniziative per inclusione e cittadinanza attiva.", "url": "#" },
-            { "title": "Istruzione", "description": "Scuola, mensa, trasporto e servizi educativi.", "url": "#" },
-            { "title": "Lavoro", "description": "Orientamento, bandi e opportunita occupazionali.", "url": "#" },
-            { "title": "Parcheggi", "description": "Sosta, permessi e regolazione urbana.", "url": "#" },
-            { "title": "Patrimonio culturale", "description": "Luoghi, archivi e valorizzazione culturale.", "url": "#" },
-            { "title": "Piano di sviluppo", "description": "Programmazione, piani e trasformazioni urbane.", "url": "#" },
-            { "title": "Pista ciclabile", "description": "Percorsi, mobilita dolce e sicurezza.", "url": "#" },
-            { "title": "Trasporto pubblico", "description": "Linee, orari e servizi di mobilita.", "url": "#" },
-            { "title": "Zone pedonali", "description": "Aree pedonali, accessi e regolamenti.", "url": "#" }
-          ]
-        }
-      },
-      {
-        "type": "details",
-        "data": {
-          "view": "pub_theme::components.blocks.details.details",
-          "title": "Riferimento e strategia di conversione",
-          "items": [
-            { "label": "Sorgente upstream", "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html" },
-            { "label": "Slug CMS", "value": "tests.argomenti" },
-            { "label": "Rendering", "value": "Folio + Volt + x-page + BlockData" }
-          ]
-        }
-      },
-      {
-        "type": "list",
-        "data": {
-          "view": "pub_theme::components.blocks.list.list",
-          "title": "Link di lavoro",
-          "style": "icon",
-          "items": [
-            { "text": "Homepage", "url": "/it/tests/homepage", "icon": "heroicon-o-home" },
-            { "text": "Servizi", "url": "/it/tests/servizi", "icon": "heroicon-o-wrench-screwdriver" },
-            { "text": "Amministrazione", "url": "/it/tests/amministrazione", "icon": "heroicon-o-building-office-2" }
-          ]
-        }
-      }
-    ],
-    "en": []
-  },
-  "sidebar_blocks": {
-    "it": [],
-    "en": []
-  },
-  "footer_blocks": {
-    "it": "",
-    "en": ""
-  }
+    "id": "tests.argomenti",
+    "slug": "tests.argomenti",
+    "title": {
+        "it": "Argomenti",
+        "en": "Topics"
+    },
+    "content_blocks": {
+        "it": [
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.argomenti",
+                    "title": "ARGOMENTI",
+                    "subtitle": "Esplora i temi del sito"
+                }
+            },
+            {
+                "type": "topics_featured",
+                "data": {
+                    "view": "pub_theme::components.blocks.topics.featured",
+                    "title": "IN EVIDENZA",
+                    "items": [
+                        {"title": "Cultura", "url": "#", "description": "Eventi e informazioni culturali"},
+                        {"title": "Sport", "url": "#", "description": "Attività sportive e impianti"},
+                        {"title": "Famiglia", "url": "#", "description": "Servizi per la famiglia"}
+                    ]
+                }
+            },
+            {
+                "type": "topics_grid",
+                "data": {
+                    "view": "pub_theme::components.blocks.topics.grid",
+                    "title": "ESPLORA PER ARGOMENTO",
+                    "columns": 4,
+                    "items": [
+                        {"title": "Agricoltura", "url": "#"},
+                        {"title": "Animali", "url": "#"},
+                        {"title": "Casa", "url": "#"},
+                        {"title": "Cultura", "url": "#"},
+                        {"title": "Famiglia", "url": "#"},
+                        {"title": "Lavoro", "url": "#"},
+                        {"title": "Scuola", "url": "#"},
+                        {"title": "Sport", "url": "#"}
+                    ]
+                }
+            },
+            {
+                "type": "feedback",
+                "data": {
+                    "view": "pub_theme::components.blocks.feedback.rating",
+                    "title": "Valuta la pagina"
+                }
+            }
+        ],
+        "en": []
+    }
 }

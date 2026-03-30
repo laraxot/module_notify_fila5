@@ -63,20 +63,7 @@
             title="Diminuisci la dimensione del testo"
         >
             <x-heroicon-o-minus class="h-4 w-4" />
-<<<<<<< HEAD
-||||||| parent of f7ac8eda (.)
-||||||| parent of f2e0249c (.)
-            <x-filament::icon icon="heroicon-o-minus class="h-4 w-4"" />
-=======
-            <x-filament::icon icon="heroicon-o-minus" class="h-4 w-4" />
->>>>>>> f2e0249c (.)
-=======
-||||||| parent of f2e0249c (.)
-            <x-filament::icon icon="heroicon-o-minus" class="h-4 w-4" />
-=======
-            <x-filament::icon icon="heroicon-o-minus" class="h-4 w-4" />
->>>>>>> f2e0249c (.)
->>>>>>> f7ac8eda (.)
+f7ac8eda (.)
         </button>
         
         <select 
@@ -104,20 +91,7 @@
             title="Aumenta la dimensione del testo"
         >
             <x-heroicon-o-plus class="h-4 w-4" />
-<<<<<<< HEAD
-||||||| parent of f7ac8eda (.)
-||||||| parent of f2e0249c (.)
-            <x-filament::icon icon="heroicon-o-plus class="h-4 w-4"" />
-=======
-            <x-filament::icon icon="heroicon-o-plus" class="h-4 w-4" />
->>>>>>> f2e0249c (.)
-=======
-||||||| parent of f2e0249c (.)
-            <x-filament::icon icon="heroicon-o-plus" class="h-4 w-4" />
-=======
-            <x-filament::icon icon="heroicon-o-plus" class="h-4 w-4" />
->>>>>>> f2e0249c (.)
->>>>>>> f7ac8eda (.)
+f7ac8eda (.)
         </button>
     </div>
     
