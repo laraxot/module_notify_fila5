@@ -22,17 +22,17 @@
                 <div class="flex space-x-4" role="list" aria-label="Link ai social media">
                     @if($social['linkedin'] ?? null)
                         <a href="{{ $social['linkedin'] ?? '#' }}" class="p-2 bg-white/10 rounded-lg hover:bg-white/20 agid-transition agid-focus focus:outline-2 focus:outline-white focus:outline-offset-2" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn - si apre in una nuova finestra">
-                            <x-filament::icon icon="heroicon-o-briefcase" class="w-5 h-5 text-current" aria-hidden="true" />
+                            <x-heroicon-o-briefcase class="w-5 h-5 text-current" aria-hidden="true" />
                         </a>
                     @endif
                     @if($social['facebook'] ?? null)
                         <a href="{{ $social['facebook'] ?? '#' }}" class="p-2 bg-white/10 rounded-lg hover:bg-white/20 agid-transition agid-focus focus:outline-2 focus:outline-white focus:outline-offset-2" target="_blank" rel="noopener noreferrer" aria-label="Facebook - si apre in una nuova finestra">
-                            <x-filament::icon icon="heroicon-o-facebook" class="w-5 h-5 text-current" aria-hidden="true" />
+                            <x-heroicon-o-facebook class="w-5 h-5 text-current" aria-hidden="true" />
                         </a>
                     @endif
                     @if($social['instagram'] ?? null)
                         <a href="{{ $social['instagram'] ?? '#' }}" class="p-2 bg-white/10 rounded-lg hover:bg-white/20 agid-transition agid-focus focus:outline-2 focus:outline-white focus:outline-offset-2" target="_blank" rel="noopener noreferrer" aria-label="Instagram - si apre in una nuova finestra">
-                            <x-filament::icon icon="heroicon-o-camera" class="w-5 h-5 text-current" aria-hidden="true" />
+                            <x-heroicon-o-camera class="w-5 h-5 text-current" aria-hidden="true" />
                         </a>
                     @endif
                 </div>
@@ -41,7 +41,7 @@
             {{-- Normative --}}
             <div>
                 <h3 class="text-lg font-semibold mb-4 block flex items-center">
-                    <x-filament::icon icon="heroicon-o-shield-check" class="w-5 h-5 mr-2" aria-hidden="true" />
+                    <x-heroicon-o-shield-check class="w-5 h-5 mr-2" aria-hidden="true" />
                     {{ $normative['title'] ?? 'Normative & Certificazioni' }}
                 </h3>
                 <ul class="space-y-3 text-sm text-gray-300" role="list">
@@ -69,19 +69,19 @@
                 <address class="space-y-3 text-sm not-italic">
                     @if($contact['address'] ?? null)
                         <div class="flex items-start space-x-3">
-                            <x-filament::icon icon="heroicon-o-map-pin" class="w-5 h-5 flex-shrink-0 mt-1" aria-hidden="true" />
+                            <x-heroicon-o-map-pin class="w-5 h-5 flex-shrink-0 mt-1" aria-hidden="true" />
                             <span class="text-gray-300">{{ $contact['address'] }}<br>{{ $contact['city'] ?? '' }}</span>
                         </div>
                     @endif
                     @if($contact['email'] ?? null)
                         <div class="flex items-start space-x-3">
-                            <x-filament::icon icon="heroicon-o-envelope" class="w-5 h-5 flex-shrink-0 mt-1" aria-hidden="true" />
+                            <x-heroicon-o-envelope class="w-5 h-5 flex-shrink-0 mt-1" aria-hidden="true" />
                             <a href="mailto:{{ $contact['email'] }}" class="text-gray-300 hover:text-opacity-80 agid-transition agid-focus focus:outline-2 focus:outline-white focus:outline-offset-2" aria-label="Invia email a {{ $contact['email'] }}">{{ $contact['email'] }}</a>
                         </div>
                     @endif
                     @if($contact['phone'] ?? null)
                         <div class="flex items-start space-x-3">
-                            <x-filament::icon icon="heroicon-o-phone" class="w-5 h-5 flex-shrink-0 mt-1" aria-hidden="true" />
+                            <x-heroicon-o-phone class="w-5 h-5 flex-shrink-0 mt-1" aria-hidden="true" />
                             <a href="tel:{{ $contact['phone'] }}" class="text-gray-300 hover:text-opacity-80 agid-transition agid-focus focus:outline-2 focus:outline-white focus:outline-offset-2" aria-label="Chiama {{ $contact['phone'] }}">{{ $contact['phone'] }}</a>
                         </div>
                     @endif
