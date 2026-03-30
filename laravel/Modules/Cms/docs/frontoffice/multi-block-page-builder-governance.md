@@ -11,6 +11,20 @@ Nel CMS FixCity una pagina pubblica non e un blob HTML. E una composizione di bl
 
 Questo implica che la visione corretta e blocco-centrica.
 
+## Contratto type/view
+Il tipo del blocco e il namespace della view devono raccontare la stessa cosa.
+La regola generale e:
+- leggere `data.view`
+- prendere il primo segmento dopo `components.blocks.`
+- usare quel segmento come `type`
+
+Esempi:
+- `pub_theme::components.blocks.tests.intro` -> `type = tests`
+- `pub_theme::components.blocks.hero.default` -> `type = hero`
+- `pub_theme::components.blocks.links.grid` -> `type = links`
+
+Questo rende la composizione leggibile nel builder, nei JSON tenant, nella documentazione e nelle automazioni AI parallele.
+
 ## Conseguenze architetturali
 - lo slug pagina identifica il contenitore editoriale
 - `content_blocks` rappresenta la sequenza principale dei blocchi
