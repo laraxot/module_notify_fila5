@@ -55,3 +55,49 @@ resources/views/components/ui/
 
 - [Xot Base](../Xot/docs/)
 - [User Module](../User/docs/)
+<<<<<<< HEAD
+
+## AI Workflows
+- [AI Methodologies](./ai-methodologies.md)
+||||||| parent of 9a84589 (.)
+    case LIST = 'list';
+    case GRID = 'grid';
+
+    public function getLabel(): string
+    {
+        return $this->transClass(self::class, $this->value . '.label');
+    }
+}
+```
+
+## ✅ Stato Qualità
+
+- **PHPStan Level 10**: ✅ Compliant
+- **Translation Standards**: ✅ 100%
+- **Componenti**: 50+ Blade components
+- **Widget**: 20+ Filament widgets
+
+## 📚 Documentazione
+
+- [Components Guide](components.md)
+- [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
+- [Filament Components](filament-components.md)
+
+## 🔗 Moduli Collegati
+
+- [Xot Module](../xot/docs/readme.md) - Framework core
+- [User Module](../user/docs/readme.md) - Gestione utenti
+- [Lang Module](../lang/docs/readme.md) - Traduzioni
+
+---
+
+**🔄 Ultimo aggiornamento**: 27 Gennaio 2025
+**📦 Versione**: 4.1.0
+
+## 🔁 CI & Semantic Versioning
+Workflow: `.github/workflows/semantic-versioning.yml`
+
+## 📄 License
+MIT
+=======
+>>>>>>> 9a84589 (.)

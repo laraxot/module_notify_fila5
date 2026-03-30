@@ -8,6 +8,23 @@
 2. [roadmap.md](./roadmap.md) - Visione evolutiva e obiettivi 2026.
 3. [philosophy.md](./philosophy.md) - La gestione "Zen" dei flussi asincroni.
 
+## 📋 **Documenti Prodotto & Sviluppo**
+
+### Product
+| File | Scopo |
+|------|-------|
+| PRD.md | Product Requirements |
+| PRODUCT_ROADMAP.md | Roadmap |
+| PRODUCT_STRATEGY.md | Strategy |
+| PRODUCT_LAUNCH_PLAN.md | Launch Plan |
+
+### Development
+| File | Scopo |
+|------|-------|
+| GSD_WORKFLOW.md | GSD Workflow |
+| SPRINT_PLANNING.md | Sprint Planning |
+| USER_RESEARCH.md | User Research |
+
 ## 🏗️ **Core Logic & Services**
 - ⚡ **[Queue Management](./queueable-action.md)** - Guida alla gestione delle code e dei worker.
 - 🕒 **[Scheduling System](./schedule.md)** - Configurazione di cron job e task pianificati.
@@ -30,6 +47,7 @@
 - [Xot](../../xot/docs/readme.md) - Base framework e Page classes.
 - [Activity](../../activity/docs/readme.md) - Tracciamento log esecuzione.
 - [Notify](../../notify/docs/readme.md) - Notifiche fallimento job.
+- [AGENTS.md](../../../../AGENTS.md) - Project guidelines
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
