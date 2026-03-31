@@ -61,7 +61,7 @@ new class extends Component {
                         <h3 class="text-xl font-semibold mb-2">{{ $organo['nome'] }}</h3>
                         <p class="text-gray-800 dark:text-gray-200 font-medium mb-2">{{ $organo['nome_completo'] }}</p>
                         <a href="mailto:{{ $organo['email'] }}" class="text-primary hover:underline text-sm">
-                            <x-icon name="heroicon-o-envelope" class="w-4 h-4 inline mr-1" />
+                            <x-filament::icon icon="heroicon-o-envelope" class="w-4 h-4 inline mr-1" />
                             {{ $organo['email'] }}
                         </a>
                     </div>

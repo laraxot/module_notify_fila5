@@ -73,31 +73,158 @@
 ])
 
 <footer class="it-footer" id="footer">
-    {{-- Main Footer --}}
-    <div class="it-footer-main">
+    
+    {{-- Feedback Module - Bootstrap Italia Style --}}
+    <section class="py-5 bg-light">
         <div class="container">
-            {{-- Row 1: UE Logo + Brand --}}
             <div class="row">
-                <div class="col-12 footer-items-wrapper logo-wrapper">
-                    <img class="ue-logo" src="{{ $ueLogoUrl }}" alt="logo Unione Europea">
-                    <div class="it-brand-wrapper">
-                        <a href="/it/tests/homepage">
-                            <x-filament::icon
-                                icon="heroicon-o-building-office-2"
-                                class="w-20 h-20"
-                            />
-                            <div class="it-brand-text">
-                                <h2 class="no_toc">{{ $title }}</h2>
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <h3 class="h5 mb-4">Quanto sono chiare le informazioni su questa pagina?</h3>
+                    <div class="rating-stars mb-3" role="group" aria-label="Valutazione a stelle">
+                        @for($i = 1; $i <= 5; $i++)
+                        <button type="button" 
+                                class="btn btn-link text-warning p-0 mx-1" 
+                                aria-label="{{ $i }} {{ Str::plural('stella', $i) }}"
+                                data-rating="{{ $i }}">
+                            <svg class="icon icon-lg" aria-hidden="true">
+                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-star"></use>
+                            </svg>
+                        </button>
+                        @endfor
+                    </div>
+                    <p class="text-muted small">Clicca sulle stelle per valutare</p>
+                    
+                    {{-- Hidden Feedback Form --}}
+                    <div id="feedback-form" class="mt-4 d-none">
+                        <h4 class="h6 mb-3">Grazie! Il tuo parere ci aiuterà a migliorare il servizio.</h4>
+                        
+                        {{-- Positive Feedback --}}
+                        <div class="feedback-positive mb-3">
+                            <p class="small mb-2">Quali sono stati gli aspetti che hai preferito?</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="feedback-chiaro">
+                                <label class="form-check-label small" for="feedback-chiaro">Chiaro</label>
                             </div>
-                        </a>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="feedback-completo">
+                                <label class="form-check-label small" for="feedback-completo">Completo</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="feedback-procedura">
+                                <label class="form-check-label small" for="feedback-procedura">Procedura corretta</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="feedback-problemi">
+                                <label class="form-check-label small" for="feedback-problemi">Nessun problema tecnico</label>
+                            </div>
+                        </div>
+                        
+                        {{-- Negative Feedback --}}
+                        <div class="feedback-negative mb-3">
+                            <p class="small mb-2">Dove hai incontrato le maggiori difficoltà?</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="feedback-non-chiaro">
+                                <label class="form-check-label small" for="feedback-non-chiaro">Non chiaro</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="feedback-incompleto">
+                                <label class="form-check-label small" for="feedback-incompleto">Incompleto</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="feedback-confuso">
+                                <label class="form-check-label small" for="feedback-confuso">Confuso</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="feedback-problemi-tecnici">
+                                <label class="form-check-label small" for="feedback-problemi-tecnici">Problemi tecnici</label>
+                            </div>
+                        </div>
+                        
+                        {{-- Details --}}
+                        <div class="mb-3">
+                            <label class="form-label small" for="feedback-details">Vuoi aggiungere altri dettagli?</label>
+                            <textarea class="form-control" id="feedback-details" rows="3" maxlength="200" placeholder="Max 200 caratteri"></textarea>
+                            <small class="text-muted">0/200 caratteri</small>
+                        </div>
+                        
+                        {{-- Buttons --}}
+                        <div class="d-flex gap-2 justify-content-center">
+                            <button type="button" class="btn btn-outline-secondary btn-sm feedback-back">Indietro</button>
+                            <button type="submit" class="btn btn-primary btn-sm">Invia</button>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            {{-- Row 2: Footer Columns --}}
-            <div class="row">
-                {{-- Column 1: Amministrazione --}}
-                <div class="col-md-3 footer-items-wrapper">
+        </div>
+    </section>
+    
+    {{-- Quick Actions Row --}}
+    <div class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row g-4">
+                {{-- Contatta il Comune --}}
+                <div class="col-md-4">
+                    <div class="d-flex align-items-start gap-3">
+                        <svg class="icon icon-lg text-white" aria-hidden="true">
+                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-mail"></use>
+                        </svg>
+                        <div>
+                            <h4 class="h6 mb-2">Contatta il Comune</h4>
+                            <ul class="list-unstyled small mb-0">
+                                <li><a href="#" class="text-white text-decoration-underline">FAQ</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline">Assistenza</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline">Numero Verde: {{ $greenNumber }}</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline">Prenotazione appuntamento</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                {{-- Problemi in Città --}}
+                <div class="col-md-4">
+                    <div class="d-flex align-items-start gap-3">
+                        <svg class="icon icon-lg text-white" aria-hidden="true">
+                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-warning"></use>
+                        </svg>
+                        <div>
+                            <h4 class="h6 mb-2">Problemi in città?</h4>
+                            <ul class="list-unstyled small mb-0">
+                                <li><a href="#" class="text-white text-decoration-underline">Segnala un disservizio</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                {{-- Cerca --}}
+                <div class="col-md-4">
+                    <div class="d-flex align-items-start gap-3">
+                        <svg class="icon icon-lg text-white" aria-hidden="true">
+                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
+                        </svg>
+                        <div>
+                            <h4 class="h6 mb-2">Cerca nel sito</h4>
+                            <form class="mb-2">
+                                <div class="input-group">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Cerca...">
+                                    <button class="btn btn-light btn-sm" type="submit">
+                                        <svg class="icon icon-xs" aria-hidden="true">
+                                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                            <small class="text-white-50">Forse stavi cercando:</small>
+                            <ul class="list-unstyled small mb-0">
+                                <li><a href="#" class="text-white text-decoration-underline">CIE</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline">Residenza</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline">Tributi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
                     <h4 class="footer-heading-title">Amministrazione</h4>
                     <ul class="footer-list">
                         @foreach($adminLinks as $link)

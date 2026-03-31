@@ -63,7 +63,7 @@ new class extends Component {
                             <p class="text-gray-600 dark:text-gray-300">{{ $servizio['descrizione'] }}</p>
                             <span class="inline-flex items-center gap-2 text-primary font-medium mt-4">
                                 Accedi al servizio
-                                <x-icon name="heroicon-o-arrow-right" class="w-4 h-4" />
+                                <x-filament::icon icon="heroicon-o-arrow-right" class="w-4 h-4" />
                             </span>
                         </div>
                     </div>
