@@ -1,24 +1,41 @@
-@props(['title' => 'Contatti', 'office' => '', 'phone' => '', 'email' => '', 'hours' => '', 'address' => ''])
-<section class="py-10 bg-slate-50">
-    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <h2 class="text-2xl font-semibold text-slate-900">{{ $title }}</h2>
-            <dl class="mt-6 grid gap-4 md:grid-cols-2">
-                @foreach([
-                    'Ufficio' => $office,
-                    'Telefono' => $phone,
-                    'Email' => $email,
-                    'Orari' => $hours,
-                    'Indirizzo' => $address,
-                ] as $label => $value)
-                    @if($value)
-                        <div>
-                            <dt class="text-sm font-semibold uppercase tracking-wide text-slate-500">{{ $label }}</dt>
-                            <dd class="mt-1 text-slate-800">{{ $value }}</dd>
+{{--
+    Contact Info Block
+    Reference: design-comuni-pagine-statiche/src/pages/sito/homepage.hbs cmp-contacts
+--}}
+@props([
+    'title'       => 'Hai riscontrato dei problemi?',
+    'description' => 'Aiutaci a migliorare questo sito.',
+    'cta_label'   => 'Segnala un problema',
+    'cta_url'     => '#',
+])
+
+<div class="bg-grey-card shadow-contacts">
+    <div class="container">
+        <div class="row d-flex justify-content-center p-contacts">
+            <div class="col-12 col-lg-6">
+                <div class="cmp-contacts">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <h2 class="title-medium-2-semi-bold">{{ $title }}</h2>
+                            @if($description)
+                            <p class="subtitle-small">{{ $description }}</p>
+                            @endif
+                            @if($cta_label)
+                            <ul class="contact-list mt-4">
+                                <li>
+                                    <a class="list-item" href="{{ $cta_url }}">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-mail') }}"></use>
+                                        </svg>
+                                        <span>{{ $cta_label }}</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            @endif
                         </div>
-                    @endif
-                @endforeach
-            </dl>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</section>
+</div>
