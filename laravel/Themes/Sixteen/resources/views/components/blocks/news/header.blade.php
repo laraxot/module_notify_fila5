@@ -1,16 +1,45 @@
-@props(['title' => '', 'subtitle' => '', 'description' => '', 'date' => '', 'category' => ''])
-<section class="py-12 bg-white">
-    <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-wrap gap-3 text-sm text-slate-500">
-            @if($category)<span>{{ $category }}</span>@endif
-            @if($date)<span>{{ $date }}</span>@endif
+{{-- News Header Component --}}
+@props([
+    'title' => '',
+    'date' => '',
+    'category' => '',
+    'author' => '',
+    'reading_time' => '',
+])
+
+<div class="cmp-heading mt-2 mb-8">
+    <div class="row g-4 mb-4">
+        <div class="col-12">
+            <div class="d-flex flex-wrap gap-2 align-items-center">
+                @if($category)
+                <span class="badge badge-pill badge-primary">{{ $category }}</span>
+                @endif
+                
+                @if($date)
+                <span class="text-muted small">
+                    <x-filament::icon icon="heroicon-o-calendar" class="w-4 h-4 inline me-1" />
+                    {{ $date }}
+                </span>
+                @endif
+                
+                @if($reading_time)
+                <span class="text-muted small">
+                    <x-filament::icon icon="heroicon-o-clock" class="w-4 h-4 inline me-1" />
+                    {{ $reading_time }} lettura
+                </span>
+                @endif
+            </div>
         </div>
-        <h1 class="mt-3 text-4xl font-bold text-slate-900">{{ $title }}</h1>
-        @if($subtitle)
-            <p class="mt-3 text-lg font-medium text-slate-700">{{ $subtitle }}</p>
-        @endif
-        @if($description)
-            <p class="mt-4 text-lg text-slate-600">{{ $description }}</p>
-        @endif
     </div>
-</section>
+    
+    <h1 class="title-xxxlarge mb-4">{{ $title }}</h1>
+    
+    @if($author)
+    <div class="author-info">
+        <p class="text-muted mb-0">
+            <x-filament::icon icon="heroicon-o-user" class="w-4 h-4 inline me-1" />
+            Di {{ $author }}
+        </p>
+    </div>
+    @endif
+</div>
