@@ -34,6 +34,9 @@ e vederle perfettamente ,
 
 
 
+
+
+
 e aggiorna le cartelle docs dentro i moduli e dentro i temi e le tue rules, le tue memories e le tue skills, aggiorna tutto utilizzando gli indici, controllando la rindondanza e files doppi e tutto con ottica dry + kiss
 
 l'obiettivo di questo task e' anche creare componenti riutilizzabili e riconoscere i blocchi e documentarli 
@@ -235,4 +238,56 @@ https://flowbite.com/blocks/
  e' sbagliato ! 
  dovevi usare sempre 
  laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
- 
+
+
+
+fare la blade laravel/Themes/Sixteen/resources/views/pages/tests/homepage.blade.php  e' sbagliato ! si usa 
+laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
+doveva tramite folio + volt fare
+<?php
+
+declare(strict_types=1);
+
+use function Laravel\Folio\middleware;
+use function Laravel\Folio\name;
+use Livewire\Volt\Component;
+use Modules\Cms\Http\Middleware\PageSlugMiddleware;
+
+name('tests.view');
+middleware(PageSlugMiddleware::class);
+
+new class extends Component {
+    public string $slug = '';
+    public string $pageSlug = '';
+
+    /** @var array<string, mixed> */
+    public array $data = [];
+
+    public function mount(string $slug): void
+    {
+        $this->slug = $slug;
+        $this->pageSlug = 'tests.'.$slug;
+        $this->data = [
+            'slug' => $slug
+        ];
+    }
+};
+?>
+<x-layouts.app >
+ @volt('tests.view')
+    <div>
+        <x-page side="content" :slug="$pageSlug" :data="$data" />
+    </div>
+    @endvolt
+</x-layouts.app >
+
+utilizza i superpowers (https://github.com/obra/superpowers)
+
+
+ > "UNO [slug].blade.php per TUTTE le pagine."
+
+    > "MAI file specifici. SEMPRE dinamico."
+
+    > "JSON per contenuti. Blade per struttura."
+
+    > "DRY: Don't Repeat Yourself."
