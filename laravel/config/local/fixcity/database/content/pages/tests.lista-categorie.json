@@ -12,7 +12,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Categorie", "url": null}
@@ -22,7 +22,7 @@
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::blocks.hero.default",
+                    "view": "pub_theme::components.blocks.hero.default",
                     "title": "Categorie",
                     "subtitle": "Naviga per categorie",
                     "content": "<p>Esplora i contenuti organizzati per categorie</p>"
@@ -31,7 +31,7 @@
             {
                 "type": "categories-grid",
                 "data": {
-                    "view": "pub_theme::blocks.categories.grid",
+                    "view": "pub_theme::components.blocks.categories.grid",
                     "categories": [
                         {
                             "name": "Categoria 1",
