@@ -128,17 +128,30 @@
                 <div class="col-12">
                     <div class="it-header-center-content-wrapper">
                         {{-- Brand/Logo Section --}}
+                        @php
+                            $brandBlock = collect($blocks)->firstWhere('type', 'header_brand');
+                            $brandData = $brandBlock ? $brandBlock->data : [];
+                            $logo = $brandData['logo'] ?? asset('themes/Sixteen/images/logo.svg');
+                            $name = $brandData['name'] ?? 'Il mio Comune';
+                            $slogan = $brandData['slogan'] ?? 'Un comune da vivere';
+                        @endphp
                         <div class="it-brand-wrapper">
-                            <a href="/" aria-label="Il mio Comune - Vai alla homepage">
-                                {{-- Logo SVG (Bootstrap Italia PA icon) --}}
-                                <svg width="82" height="82" class="icon" aria-hidden="true">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
-                                </svg>
+                            <a href="/" aria-label="{{ $name }} - Vai alla homepage">
+                                {{-- Logo --}}
+                                @if (Str::endsWith($logo, '.svg') && !Str::contains($logo, '://'))
+                                    <img src="{{ $logo }}" alt="{{ $name }} Logo" class="icon" width="82" height="82" />
+                                @elseif (Str::contains($logo, 'sprites.svg#'))
+                                    <svg width="82" height="82" class="icon" aria-hidden="true">
+                                        <use href="{{ $logo }}"></use>
+                                    </svg>
+                                @else
+                                    <img src="{{ $logo }}" alt="{{ $name }} Logo" class="icon" width="82" height="82" />
+                                @endif
                                 
                                 {{-- Municipality Name and Slogan --}}
                                 <div class="it-brand-text">
-                                    <div class="it-brand-title">Il mio Comune</div>
-                                    <div class="it-brand-tagline d-none d-md-block">Un comune da vivere</div>
+                                    <div class="it-brand-title">{{ $name }}</div>
+                                    <div class="it-brand-tagline d-none d-md-block">{{ $slogan }}</div>
                                 </div>
                             </a>
                         </div>
