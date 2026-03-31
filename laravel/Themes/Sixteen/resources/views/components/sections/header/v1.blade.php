@@ -26,7 +26,7 @@
                                         aria-haspopup="true">
                                     <span class="visually-hidden">Lingua attiva:</span>
                                     <span>ITA</span>
-                                    <x-icon name="o-chevron-down" class="icon icon-sm" aria-hidden="true" />
+                                    <x-filament::icon icon="heroicon-o-chevron-down" class="icon icon-sm" aria-hidden="true" />
                                 </button>
                                 <div class="dropdown-menu" id="languages">
                                     <div class="row">
@@ -57,7 +57,7 @@
                                    data-element="personal-area-login"
                                    aria-label="Accedi all'area personale">
                                     <span class="rounded-icon" aria-hidden="true">
-                                        <x-icon name="o-user" class="icon icon-primary" />
+                                        <x-filament::icon icon="heroicon-o-user" class="icon icon-primary" />
                                     </span>
                                     <span class="d-none d-lg-block">Accedi all'area personale</span>
                                 </a>
@@ -70,7 +70,7 @@
                                             aria-expanded="false"
                                             aria-haspopup="true">
                                         <span class="rounded-icon" aria-hidden="true">
-                                            <x-icon name="o-user" class="icon icon-primary" />
+                                            <x-filament::icon icon="heroicon-o-user" class="icon icon-primary" />
                                         </span>
                                         <span class="d-none d-lg-block">{{ Auth::user()->name }}</span>
                                     </button>
@@ -89,7 +89,7 @@
                                                             <form method="POST" action="{{ route('logout') }}">
                                                                 @csrf
                                                                 <button type="submit" class="dropdown-item list-item">
-                                                                    <span><x-icon name="o-arrow-right-start-on-rectangle" class="icon icon-sm" /> Esci</span>
+                                                                    <span><x-filament::icon icon="heroicon-o-arrow-right-start-rectangle" class="icon icon-sm" /> Esci</span>
                                                                 </button>
                                                             </form>
                                                         </li>
@@ -134,32 +134,32 @@
                                 <ul>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Twitter">
-                                            <x-icon name="brands.twitter" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <x-filament::icon icon="ui-brands.twitter" class="icon icon-sm icon-white" aria-hidden="true" />
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Facebook">
-                                            <x-icon name="brands.facebook" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <x-filament::icon icon="ui-brands.facebook" class="icon icon-sm icon-white" aria-hidden="true" />
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="YouTube">
-                                            <x-icon name="brands.youtube" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <x-filament::icon icon="ui-brands.youtube" class="icon icon-sm icon-white" aria-hidden="true" />
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Telegram">
-                                            <x-icon name="brands.telegram" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <x-filament::icon icon="ui-brands.telegram" class="icon icon-sm icon-white" aria-hidden="true" />
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Whatsapp">
-                                            <x-icon name="brands.whatsapp" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <x-filament::icon icon="ui-brands.whatsapp" class="icon icon-sm icon-white" aria-hidden="true" />
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="RSS">
-                                            <x-icon name="brands.rss" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <x-filament::icon icon="ui-brands.rss" class="icon icon-sm icon-white" aria-hidden="true" />
                                         </a>
                                     </li>
                                 </ul>
@@ -173,7 +173,7 @@
                                         data-bs-toggle="modal" 
                                         data-bs-target="#search-modal"
                                         aria-label="Cerca nel sito">
-                                    <x-icon name="o-magnifying-glass" class="icon" aria-hidden="true" />
+                                    <x-filament::icon icon="heroicon-o-magnifying-glass" class="icon" aria-hidden="true" />
                                 </button>
                             </div>
                         </div>
@@ -197,7 +197,7 @@
                                 aria-label="Mostra/Nascondi la navigazione"
                                 data-bs-toggle="navbarcollapsible"
                                 data-bs-target="#nav4">
-                            <x-icon name="o-bars-3" class="icon" aria-hidden="true" />
+                            <x-filament::icon icon="heroicon-o-bars-3" class="icon" aria-hidden="true" />
                         </button>
                         
                         {{-- Collapsible Menu --}}
@@ -206,7 +206,7 @@
                             <div class="close-div">
                                 <button class="btn close-menu" type="button">
                                     <span class="visually-hidden">Nascondi la navigazione</span>
-                                    <x-icon name="o-x-mark" class="icon" aria-hidden="true" />
+                                    <x-filament::icon icon="heroicon-o-x-mark" class="icon" aria-hidden="true" />
                                 </button>
                             </div>
                             
@@ -277,9 +277,9 @@
                                 <div class="it-socials">
                                     <span>Seguici su</span>
                                     <ul>
-                                        <li><a href="#" aria-label="Twitter"><x-icon name="brands.twitter" class="icon icon-sm icon-white" /></a></li>
-                                        <li><a href="#" aria-label="Facebook"><x-icon name="brands.facebook" class="icon icon-sm icon-white" /></a></li>
-                                        <li><a href="#" aria-label="YouTube"><x-icon name="brands.youtube" class="icon icon-sm icon-white" /></a></li>
+                                        <li><a href="#" aria-label="Twitter"><x-filament::icon icon="ui-brands.twitter" class="icon icon-sm icon-white" /></a></li>
+                                        <li><a href="#" aria-label="Facebook"><x-filament::icon icon="ui-brands.facebook" class="icon icon-sm icon-white" /></a></li>
+                                        <li><a href="#" aria-label="YouTube"><x-filament::icon icon="ui-brands.youtube" class="icon icon-sm icon-white" /></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -298,7 +298,7 @@
             <div class="modal-header">
                 <h5 class="modal-title" id="search-modal-label">Cerca nel sito</h5>
                 <button class="close" type="button" data-bs-dismiss="modal" aria-label="Close">
-                    <x-icon name="o-x-mark" class="icon" aria-hidden="true" />
+                    <x-filament::icon icon="heroicon-o-x-mark" class="icon" aria-hidden="true" />
                 </button>
             </div>
             <div class="modal-body">
@@ -308,7 +308,7 @@
                         <input type="search" class="form-control" id="search-input" placeholder="Cerca una parola chiave" name="q">
                     </div>
                     <button type="submit" class="btn btn-primary">
-                        <x-icon name="o-magnifying-glass" class="icon icon-sm" />
+                        <x-filament::icon icon="heroicon-o-magnifying-glass" class="icon icon-sm" />
                         Invio
                     </button>
                 </form>

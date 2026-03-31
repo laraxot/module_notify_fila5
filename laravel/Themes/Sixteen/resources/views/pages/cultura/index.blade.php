@@ -53,7 +53,7 @@ new class extends Component {
                 <div class="card card-bg hover:shadow-lg transition-shadow">
                     <div class="card-body">
                         <div class="flex items-center gap-3 mb-3">
-                            <x-icon name="ui-brands.facebook" class="w-6 h-6 text-primary" />
+                            <x-filament::icon icon="heroicon-ui-brands.facebook" class="w-6 h-6 text-primary" />
                             <h3 class="text-xl font-semibold">Biblioteche</h3>
                         </div>
                         <p class="text-gray-600 dark:text-gray-300">Orari, servizi e catalogo delle biblioteche comunali</p>
@@ -66,7 +66,7 @@ new class extends Component {
                 <div class="card card-bg hover:shadow-lg transition-shadow">
                     <div class="card-body">
                         <div class="flex items-center gap-3 mb-3">
-                            <x-icon name="ui-brands.instagram" class="w-6 h-6 text-primary" />
+                            <x-filament::icon icon="heroicon-ui-brands.instagram" class="w-6 h-6 text-primary" />
                             <h3 class="text-xl font-semibold">Musei</h3>
                         </div>
                         <p class="text-gray-600 dark:text-gray-300">Collezioni, mostre e percorsi espositivi</p>
@@ -79,7 +79,7 @@ new class extends Component {
                 <div class="card card-bg hover:shadow-lg transition-shadow">
                     <div class="card-body">
                         <div class="flex items-center gap-3 mb-3">
-                            <x-icon name="ui-brands.youtube" class="w-6 h-6 text-primary" />
+                            <x-filament::icon icon="heroicon-ui-brands.youtube" class="w-6 h-6 text-primary" />
                             <h3 class="text-xl font-semibold">Teatri</h3>
                         </div>
                         <p class="text-gray-600 dark:text-gray-300">Stagioni teatrali, concerti e spettacoli</p>

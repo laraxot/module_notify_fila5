@@ -46,11 +46,11 @@ new class extends Component {
             <header class="mb-8">
                 <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
                     <span class="flex items-center gap-2">
-                        <x-icon name="heroicon-o-calendar" class="w-4 h-4" />
+                        <x-filament::icon icon="heroicon-o-calendar" class="w-4 h-4" />
                         {{ date('d M Y') }}
                     </span>
                     <span class="flex items-center gap-2">
-                        <x-icon name="heroicon-o-tag" class="w-4 h-4" />
+                        <x-filament::icon icon="heroicon-o-tag" class="w-4 h-4" />
                         Categoria
                     </span>
                 </div>
@@ -81,13 +81,13 @@ new class extends Component {
                 <h3 class="text-lg font-semibold mb-4">Condividi</h3>
                 <div class="flex gap-3">
                     <a href="#" class="p-2 bg-blue-600 text-white rounded hover:bg-blue-700" aria-label="Condividi su Facebook">
-                        <x-icon name="ui-brands.facebook" class="w-5 h-5" />
+                        <x-filament::icon icon="heroicon-ui-brands.facebook" class="w-5 h-5" />
                     </a>
                     <a href="#" class="p-2 bg-sky-500 text-white rounded hover:bg-sky-600" aria-label="Condividi su Twitter">
-                        <x-icon name="ui-brands.twitter" class="w-5 h-5" />
+                        <x-filament::icon icon="heroicon-ui-brands.twitter" class="w-5 h-5" />
                     </a>
                     <a href="#" class="p-2 bg-pink-600 text-white rounded hover:bg-pink-700" aria-label="Condividi su Instagram">
-                        <x-icon name="ui-brands.instagram" class="w-5 h-5" />
+                        <x-filament::icon icon="heroicon-ui-brands.instagram" class="w-5 h-5" />
                     </a>
                 </div>
             </div>
@@ -99,7 +99,7 @@ new class extends Component {
                     @foreach($this->getRelatedNews() as $news)
                     <li>
                         <a href="{{ $news['url'] }}" class="flex items-start gap-3 hover:bg-gray-100 dark:hover:bg-gray-700 p-2 rounded transition-colors">
-                            <x-icon name="heroicon-o-document-text" class="w-5 h-5 text-primary mt-1" />
+                            <x-filament::icon icon="heroicon-o-document-text" class="w-5 h-5 text-primary mt-1" />
                             <div>
                                 <h4 class="font-semibold text-gray-900 dark:text-white">{{ $news['title'] }}</h4>
                                 <p class="text-sm text-gray-500">{{ $news['date'] }}</p>
