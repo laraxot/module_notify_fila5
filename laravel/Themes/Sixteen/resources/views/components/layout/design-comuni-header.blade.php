@@ -1,124 +1,123 @@
-{{-- Header - Bootstrap Italia EXACT Replica --}}
-{{-- Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html --}}
-{{-- HTML structure MUST match exactly --}}
+<div class="skiplink">
+    <a class="visually-hidden-focusable" href="#main-container">Vai ai contenuti</a>
+    <a class="visually-hidden-focusable" href="#footer">Vai al footer</a>
+</div>
 
 <header class="it-header-wrapper" data-bs-target="#header-nav-wrapper">
-    {{-- Skip Links --}}
-    <div class="skiplink">
-        <a class="visually-hidden-focusable" href="#main-container">Vai ai contenuti</a>
-        <a class="visually-hidden-focusable" href="#footer">Vai al footer</a>
-    </div>
-    
-    {{-- TOP BAR --}}
     <div class="it-header-slim-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="it-header-slim-wrapper-content">
-                        <a class="active" href="#">Nome della Regione</a>
-                        <div class="it-header-slim-right-content">
-                            <div class="it-header-slim-language">
-                                <span class="it-header-slim-language-label">Lingua attiva:</span>
-                                <a href="#" class="active" aria-label="Lingua attiva: Italiano">ITA</a>
-                                <span class="it-header-slim-language-divider">/</span>
-                                <a href="#" aria-label="Passa alla lingua: Inglese">ENG</a>
+                        <a class="d-lg-block navbar-brand" target="_blank" href="#" aria-label="Vai al portale {Nome della Regione}" title="Vai al portale {Nome della Regione}">
+                            Nome della Regione
+                        </a>
+                        <div class="it-header-slim-right-zone" role="navigation">
+                            <div class="nav-item dropdown">
+                                <button type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="languages" aria-haspopup="true">
+                                    <span class="visually-hidden">Lingua attiva:</span>
+                                    <span>ITA</span>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="link-list-wrapper">
+                                                <ul class="link-list">
+                                                    <li><a class="dropdown-item list-item" href="#"><span>ITA <span class="visually-hidden">selezionata</span></span></a></li>
+                                                    <li><a class="dropdown-item list-item" href="#"><span>ENG</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <a class="btn btn-primary" href="{{ route('login') }}">
-                                <svg class="icon icon-white icon-xs">
-                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
-                                </svg>
-                                <span>Accedi all'area personale</span>
+                            @guest
+                            <a class="btn btn-primary btn-icon btn-full" href="{{ route('login') }}" data-element="personal-area-login">
+                                <span class="rounded-icon" aria-hidden="true">
+                                    <x-filament::icon icon="heroicon-o-user" class="icon icon-primary" />
+                                </span>
+                                <span class="d-none d-lg-block">Accedi all'area personale</span>
                             </a>
+                            @endguest
+                            @auth
+                            <a class="btn btn-primary btn-icon btn-full" href="#" data-element="personal-area-login">
+                                <span class="rounded-icon" aria-hidden="true">
+                                    <x-filament::icon icon="heroicon-o-user" class="icon icon-primary" />
+                                </span>
+                                <span class="d-none d-lg-block">{{ Auth::user()->name }}</span>
+                            </a>
+                            @endauth
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    {{-- MAIN HEADER --}}
-    <div class="it-header-wrapper">
-        <div class="it-header-main">
+
+    <div class="it-nav-wrapper">
+        <div class="it-header-center-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="it-header-main-content">
+                        <div class="it-header-center-content-wrapper">
                             <div class="it-brand-wrapper">
                                 <a href="/">
-                                    <svg class="icon" aria-hidden="true">
-                                        <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
+                                    <svg width="82" height="82" class="icon" aria-hidden="true">
+                                        <use href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#it-pa') }}"/>
                                     </svg>
                                     <div class="it-brand-text">
-                                        <h2 class="no_toc">NOME DEL COMUNE</h2>
-                                        <p class="no_toc">Un comune da vivere</p>
+                                        <div class="it-brand-title">Il mio Comune</div>
+                                        <div class="it-brand-tagline d-none d-md-block">Un comune da vivere</div>
                                     </div>
                                 </a>
                             </div>
                             <div class="it-right-zone">
-                                {{-- Search --}}
-                                <div class="it-search-wrapper">
-                                    <div class="autocomplete-bar">
-                                        <form role="search">
-                                            <div class="autocomplete">
-                                                <label class="autocomplete-label" for="autocomplete-one">Cerca nel sito</label>
-                                                <input class="autocomplete-input" type="text" name="search" id="autocomplete-one" placeholder="Cerca nel sito" />
-                                                <button class="autocomplete-icon" type="submit" aria-label="Cerca nel sito">
-                                                    <svg class="icon">
-                                                        <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                
-                                {{-- Social --}}
-                                <div class="it-socials">
+                                <div class="it-socials d-none d-lg-flex">
                                     <span>Seguici su</span>
                                     <ul>
                                         <li>
-                                            <a href="#" aria-label="Twitter" target="_blank">
-                                                <svg class="icon">
-                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use>
-                                                </svg>
+                                            <a href="#" target="_blank">
+                                                <x-filament::icon icon="ui-brands.twitter" class="icon icon-sm icon-white align-top" />
+                                                <span class="visually-hidden">Twitter</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" aria-label="Facebook" target="_blank">
-                                                <svg class="icon">
-                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use>
-                                                </svg>
+                                            <a href="#" target="_blank">
+                                                <x-filament::icon icon="ui-brands.facebook" class="icon icon-sm icon-white align-top" />
+                                                <span class="visually-hidden">Facebook</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" aria-label="YouTube" target="_blank">
-                                                <svg class="icon">
-                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use>
-                                                </svg>
+                                            <a href="#" target="_blank">
+                                                <x-filament::icon icon="ui-brands.youtube" class="icon icon-sm icon-white align-top" />
+                                                <span class="visually-hidden">YouTube</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" aria-label="Telegram" target="_blank">
-                                                <svg class="icon">
-                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-telegram"></use>
-                                                </svg>
+                                            <a href="#" target="_blank">
+                                                <x-filament::icon icon="ui-brands.telegram" class="icon icon-sm icon-white align-top" />
+                                                <span class="visually-hidden">Telegram</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" aria-label="Whatsapp" target="_blank">
-                                                <svg class="icon">
-                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"></use>
-                                                </svg>
+                                            <a href="#" target="_blank">
+                                                <x-filament::icon icon="ui-brands.whatsapp" class="icon icon-sm icon-white align-top" />
+                                                <span class="visually-hidden">WhatsApp</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" aria-label="RSS" target="_blank">
-                                                <svg class="icon">
-                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-rss"></use>
-                                                </svg>
+                                            <a href="#" target="_blank">
+                                                <x-filament::icon icon="ui-brands.rss" class="icon icon-sm icon-white align-top" />
+                                                <span class="visually-hidden">RSS</span>
                                             </a>
                                         </li>
                                     </ul>
+                                </div>
+                                <div class="it-search-wrapper">
+                                    <span class="d-none d-md-block">Cerca</span>
+                                    <button class="search-link rounded-icon" type="button" aria-label="Cerca nel sito">
+                                        <x-filament::icon icon="heroicon-o-magnifying-glass" class="icon" />
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -126,64 +125,85 @@
                 </div>
             </div>
         </div>
-        
-        {{-- NAVIGATION --}}
-        <div class="it-nav-wrapper">
-            <div class="it-nav-close">
-                <button type="button" class="btn-close" aria-label="Chiudi navigazione">
-                    <svg class="icon">
-                        <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-close"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="it-main-menu">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="it-nav">
-                                <div class="it-brand-wrapper">
-                                    <a href="/">
+
+        <div class="it-header-navbar-wrapper" id="header-nav-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="navbar navbar-expand-lg has-megamenu">
+                            <button class="custom-navbar-toggler" type="button" aria-controls="nav4" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-target="#nav4" data-bs-toggle="navbarcollapsible">
+                                <x-filament::icon icon="heroicon-o-bars-3" class="icon" />
+                            </button>
+                            <div class="navbar-collapsable" id="nav4">
+                                <div class="overlay" style="display: none;"></div>
+                                <div class="close-div">
+                                    <button class="btn close-menu" type="button">
+                                        <span class="visually-hidden">Nascondi la navigazione</span>
+                                        <x-filament::icon icon="heroicon-o-x-mark" class="icon" />
+                                    </button>
+                                </div>
+                                <div class="menu-wrapper">
+                                    <a href="/" class="logo-hamburger">
                                         <svg class="icon" aria-hidden="true">
-                                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
+                                            <use href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#it-pa') }}"/>
                                         </svg>
                                         <div class="it-brand-text">
-                                            <h2 class="no_toc">NOME DEL COMUNE</h2>
-                                            <p class="no_toc">Un comune da vivere</p>
+                                            <div class="it-brand-title">Nome del Comune</div>
                                         </div>
                                     </a>
-                                </div>
-                                <button class="custom-navbar-btn navbar-btn" type="button">
-                                    <span class="navbar-toggler-icon">
-                                        <svg class="icon">
-                                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="sr-only">Mostra/nascondi la navigazione</span>
-                                </button>
-                                <div class="menu-wrapper" id="header-nav-wrapper">
-                                    <div class="link-list-wrapper menu-link-list">
-                                        <h3>Menu di navigazione</h3>
-                                        <ul class="link-list">
+                                    <nav aria-label="Principale">
+                                        <ul class="navbar-nav" data-element="main-navigation">
                                             <li class="nav-item">
-                                                <a class="nav-link" href="/it/amministrazione">
+                                                <a class="nav-link" href="/it/amministrazione" data-element="management">
                                                     <span>Amministrazione</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="/it/novita">
+                                                <a class="nav-link" href="/it/novita" data-element="news">
                                                     <span>Novità</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="/it/servizi">
+                                                <a class="nav-link" href="/it/servizi" data-element="all-services">
                                                     <span>Servizi</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="/it/vivere">
+                                                <a class="nav-link" href="/it/eventi" data-element="live">
                                                     <span>Vivere il Comune</span>
                                                 </a>
                                             </li>
+                                        </ul>
+                                    </nav>
+                                    <nav aria-label="Secondaria">
+                                        <ul class="navbar-nav navbar-secondary">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/it/tests/argomento">Iscrizioni</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/it/tests/argomento">Estate in città</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/it/tests/argomento">Polizia locale</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/it/tests/argomenti" data-element="all-topics">
+                                                    <span>Tutti gli argomenti
+                                                        <x-filament::icon icon="heroicon-o-chevron-right" class="icon icon-sm" />
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <div class="it-socials d-lg-none">
+                                        <span>Seguici su</span>
+                                        <ul>
+                                            <li><a href="#" target="_blank"><x-filament::icon icon="ui-brands.twitter" class="icon icon-sm icon-white" /><span class="visually-hidden">Twitter</span></a></li>
+                                            <li><a href="#" target="_blank"><x-filament::icon icon="ui-brands.facebook" class="icon icon-sm icon-white" /><span class="visually-hidden">Facebook</span></a></li>
+                                            <li><a href="#" target="_blank"><x-filament::icon icon="ui-brands.youtube" class="icon icon-sm icon-white" /><span class="visually-hidden">YouTube</span></a></li>
+                                            <li><a href="#" target="_blank"><x-filament::icon icon="ui-brands.telegram" class="icon icon-sm icon-white" /><span class="visually-hidden">Telegram</span></a></li>
+                                            <li><a href="#" target="_blank"><x-filament::icon icon="ui-brands.whatsapp" class="icon icon-sm icon-white" /><span class="visually-hidden">WhatsApp</span></a></li>
+                                            <li><a href="#" target="_blank"><x-filament::icon icon="ui-brands.rss" class="icon icon-sm icon-white" /><span class="visually-hidden">RSS</span></a></li>
                                         </ul>
                                     </div>
                                 </div>
