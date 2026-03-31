@@ -1,64 +1,49 @@
-{{-- Useful Links - Design Comuni Style (Tailwind CSS) --}}
+{{--
+    Useful Links Section
+    Reference: design-comuni-pagine-statiche/src/pages/sito/homepage.hbs .useful-links-section
+--}}
 @props([
-    'search_label'       => 'Cerca tra i link utili',
-    'search_placeholder' => 'Inserisci una parola chiave',
+    'search_placeholder' => 'Cerca una parola chiave',
     'links_heading'      => 'Link utili',
-    'items'              => [],  // [ ['label'=>'...','url'=>'...'] ]
+    'items'              => [],
 ])
 
-<section class="bg-gray-50 py-10 lg:py-14">
-    <div class="container mx-auto px-4">
-        <div class="max-w-2xl mx-auto">
+<section class="useful-links-section">
+    <div class="section section-muted p-0 py-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-lg-6">
 
-            {{-- Campo di ricerca --}}
-            <div class="mb-8">
-                @if($search_label)
-                    <label for="useful-links-search" class="block text-sm font-semibold text-gray-700 mb-2">
-                        {{ $search_label }}
-                    </label>
-                @endif
-                <div class="relative">
-                    <input
-                        type="search"
-                        id="useful-links-search"
-                        placeholder="{{ $search_placeholder }}"
-                        class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 bg-white text-gray-900 text-sm"
-                        x-data
-                        x-on:input.debounce.300ms="
-                            const q = $event.target.value.toLowerCase();
-                            document.querySelectorAll('[data-useful-link]').forEach(el => {
-                                el.style.display = el.textContent.toLowerCase().includes(q) ? '' : 'none';
-                            });
-                        "
-                    />
-                    <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
-                        <x-filament::icon icon="heroicon-o-magnifying-glass" class="w-4 h-4" />
-                    </span>
+                    {{-- Campo di ricerca --}}
+                    <div class="mb-2 mb-lg-4">
+                        <div class="form-group">
+                            <label for="autocomplete-three" class="form-label">{{ $search_placeholder }}</label>
+                            <input
+                                type="search"
+                                id="autocomplete-three"
+                                placeholder="{{ $search_placeholder }}"
+                                class="form-control"
+                                aria-label="{{ $search_placeholder }}"
+                            />
+                        </div>
+                    </div>
+
+                    {{-- Link utili --}}
+                    <div class="link-list-wrapper">
+                        <div class="link-list-heading text-uppercase mb-3 ps-0 text-secondary">{{ $links_heading }}</div>
+                        <ul class="link-list">
+                            @foreach($items as $item)
+                            <li>
+                                <a class="list-item mb-3 active ps-0" href="{{ $item['url'] ?? '#' }}">
+                                    <span class="text-button-normal">{{ $item['label'] ?? '' }}</span>
+                                </a>
+                            </li>
+                            @endforeach
+                        </ul>
+                    </div>
+
                 </div>
             </div>
-
-            {{-- Heading "Link utili" --}}
-            @if($links_heading)
-                <h2 class="text-xl lg:text-2xl font-semibold text-gray-900 mb-5">{{ $links_heading }}</h2>
-            @endif
-
-            {{-- Lista link --}}
-            @if(!empty($items))
-                <ul class="divide-y divide-gray-200 border border-gray-200 rounded bg-white">
-                    @foreach($items as $item)
-                        <li data-useful-link>
-                            <a href="{{ $item['url'] ?? '#' }}"
-                               class="flex items-center justify-between gap-3 px-5 py-4 text-blue-700 font-medium hover:bg-blue-50 hover:text-blue-900 transition-colors focus:outline-none focus:bg-blue-50">
-                                <span>{{ $item['label'] ?? '' }}</span>
-                                <x-filament::icon icon="heroicon-o-arrow-right" class="w-4 h-4 flex-shrink-0" />
-                            </a>
-                        </li>
-                    @endforeach
-                </ul>
-            @else
-                <p class="text-gray-500 text-sm">Nessun link disponibile.</p>
-            @endif
-
         </div>
     </div>
 </section>

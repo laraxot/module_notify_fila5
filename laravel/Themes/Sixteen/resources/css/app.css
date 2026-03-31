@@ -1,6 +1,7 @@
 /**
  * Tema Sixteen - CSS principale
- * Design System AGID per Filament 4.x + Bootstrap Italia + Tailwind CSS
+ * Design System AGID per Filament 4.x + Tailwind CSS
+ * NO Bootstrap Italia imports - ALL via Tailwind @apply
  */
 
 /* ========================================
@@ -10,16 +11,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 /* ========================================
-   BOOTSTRAP ITALIA CORE
+   AGID COLORS & VARIABLES
 ======================================== */
-/* Bootstrap Italia Design System */
-@import "./bootstrap-italia.css";
-
-/* Colori AGID */
 @import "./agid-colors.css";
-
-/* Override AGID */
 @import "./agid-override.css";
+
+/* ========================================
+   BOOTSTRAP ITALIA CLASSES (Tailwind @apply)
+   NO external imports - ALL replicated
+======================================== */
+@import "./components/bootstrap-italia-classes.css";
 
 /* ========================================
    DESIGN COMUNI COMPONENTS (Tailwind @apply)

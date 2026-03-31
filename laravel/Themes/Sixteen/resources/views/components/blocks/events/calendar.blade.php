@@ -1,35 +1,51 @@
-@props(['month' => '', 'year' => '', 'events' => []])
+{{--
+    Events Calendar Block - Splide carousel
+    Reference: design-comuni-pagine-statiche/src/pages/sito/homepage.hbs #calendario section
+--}}
+@props([
+    'month' => '',
+    'items' => [],
+])
 
-{{-- Events Calendar - Bootstrap Italia Style --}}
-<section class="events-section py-8">
-    <div class="container">
-        <h2 class="title-xxlarge mb-2">EVENTI</h2>
-        <h3 class="text-muted mb-6">{{ $month }} {{ $year }}</h3>
-        
-        <div class="events-calendar">
-            <div class="row g-3">
-                @foreach($events as $event)
-                <div class="col-12">
-                    <div class="calendar-day d-flex gap-3 p-3 border-bottom">
-                        <div class="day-badge text-center" style="min-width: 80px;">
-                            <span class="day h3 mb-0 text-primary fw-bold">{{ $event['day'] }}</span>
-                            <span class="weekday text-uppercase small">{{ $event['weekday'] }}</span>
-                        </div>
-                        <div class="events-list flex-grow-1">
-                            <ul class="list-unstyled mb-0">
-                                @foreach($event['items'] as $item)
-                                <li>
-                                    <a href="{{ $item['url'] ?? '#' }}" class="text-decoration-none">
-                                        {{ $item['title'] }}
-                                    </a>
-                                </li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
+<div class="row row-title pt-5 pt-lg-60 pb-3">
+    <div class="col-12 d-lg-flex justify-content-between">
+        <h2>Eventi</h2>
+    </div>
+</div>
+<div class="row row-calendar">
+    <div class="it-carousel-wrapper it-carousel-landscape-abstract-four-cols it-calendar-wrapper splide"
+        data-bs-carousel-splide>
+        <div class="it-header-block">
+            <div class="it-header-block-title">
+                <h3 class="mb-0 text-center home-carousel-title">{{ $month }}</h3>
             </div>
         </div>
+        <div class="splide__track">
+            <ul class="splide__list it-carousel-all">
+                @foreach($items as $item)
+                <li class="splide__slide">
+                    <div class="it-single-slide-wrapper h-100">
+                        <div class="card-wrapper h-100">
+                            <div class="card card-bg">
+                                <div class="card-body">
+                                    <h4 class="card-title pb-4 mb-10 text-secondary">{{ $item['day'] }}<span>{{ $item['weekday'] }}</span></h4>
+                                    @foreach($item['events'] as $event)
+                                    @if(!empty($event['image']))
+                                    <p class="card-text px-2 pb-10 mb-10 d-flex">
+                                        <img src="{{ $event['image'] }}" alt="random image" class="me-3 rounded">
+                                        <a href="{{ $event['url'] ?? '#' }}">{{ $event['title'] }}</a>
+                                    </p>
+                                    @else
+                                    <p class="card-text px-2 pb-10 mb-10"><a href="{{ $event['url'] ?? '#' }}">{{ $event['title'] }}</a></p>
+                                    @endif
+                                    @endforeach
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                @endforeach
+            </ul>
+        </div>
     </div>
-</section>
+</div>

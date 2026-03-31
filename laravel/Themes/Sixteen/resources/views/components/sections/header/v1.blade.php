@@ -1,5 +1,5 @@
 <header class="it-header-wrapper" data-bs-target="#header-nav-wrapper" role="banner">
-    {{-- Level 1: Top Bar (Slim) --}}
+    {{-- Level 1: Top Bar (Slim) - Bootstrap Italia EXACT Structure --}}
     <div class="it-header-slim-wrapper">
         <div class="container">
             <div class="row">
@@ -26,7 +26,9 @@
                                         aria-haspopup="true">
                                     <span class="visually-hidden">Lingua attiva:</span>
                                     <span>ITA</span>
-                                    <x-filament::icon icon="heroicon-o-chevron-down" class="icon icon-sm" aria-hidden="true" />
+                                    <svg class="icon">
+                                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-chevron-down"></use>
+                                    </svg>
                                 </button>
                                 <div class="dropdown-menu" id="languages">
                                     <div class="row">
@@ -57,7 +59,9 @@
                                    data-element="personal-area-login"
                                    aria-label="Accedi all'area personale">
                                     <span class="rounded-icon" aria-hidden="true">
-                                        <x-filament::icon icon="heroicon-o-user" class="icon icon-primary" />
+                                        <svg class="icon icon-primary">
+                                            <use href="/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                                        </svg>
                                     </span>
                                     <span class="d-none d-lg-block">Accedi all'area personale</span>
                                 </a>
@@ -70,7 +74,9 @@
                                             aria-expanded="false"
                                             aria-haspopup="true">
                                         <span class="rounded-icon" aria-hidden="true">
-                                            <x-filament::icon icon="heroicon-o-user" class="icon icon-primary" />
+                                            <svg class="icon icon-primary">
+                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                                            </svg>
                                         </span>
                                         <span class="d-none d-lg-block">{{ Auth::user()->name }}</span>
                                     </button>
@@ -89,7 +95,7 @@
                                                             <form method="POST" action="{{ route('logout') }}">
                                                                 @csrf
                                                                 <button type="submit" class="dropdown-item list-item">
-                                                                    <span><x-filament::icon icon="heroicon-o-arrow-right-start-rectangle" class="icon icon-sm" /> Esci</span>
+                                                                    <span><svg class="icon icon-sm"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right"></use></svg> Esci</span>
                                                                 </button>
                                                             </form>
                                                         </li>
@@ -107,7 +113,7 @@
         </div>
     </div>
     
-    {{-- Level 2: Main Header (Center) --}}
+    {{-- Level 2: Main Header (Center) - Bootstrap Italia EXACT Structure --}}
     <div class="it-header-center-wrapper">
         <div class="container">
             <div class="row">
@@ -117,7 +123,7 @@
                         <div class="it-brand-wrapper">
                             <a href="/" aria-label="Nome del Comune - Vai alla homepage">
                                 <svg width="82" height="82" class="icon" aria-hidden="true">
-                                    <image xlink:href="/themes/sixteen/images/stemma-comune.svg"/>
+                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
                                 </svg>
                                 <div class="it-brand-text">
                                     <div class="it-brand-title">Il mio Comune</div>
@@ -134,32 +140,44 @@
                                 <ul>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Twitter">
-                                            <x-filament::icon icon="ui-brands.twitter" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <svg class="icon icon-sm icon-white" aria-hidden="true">
+                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use>
+                                            </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Facebook">
-                                            <x-filament::icon icon="ui-brands.facebook" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <svg class="icon icon-sm icon-white" aria-hidden="true">
+                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use>
+                                            </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="YouTube">
-                                            <x-filament::icon icon="ui-brands.youtube" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <svg class="icon icon-sm icon-white" aria-hidden="true">
+                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use>
+                                            </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Telegram">
-                                            <x-filament::icon icon="ui-brands.telegram" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <svg class="icon icon-sm icon-white" aria-hidden="true">
+                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-telegram"></use>
+                                            </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Whatsapp">
-                                            <x-filament::icon icon="ui-brands.whatsapp" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <svg class="icon icon-sm icon-white" aria-hidden="true">
+                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"></use>
+                                            </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="RSS">
-                                            <x-filament::icon icon="ui-brands.rss" class="icon icon-sm icon-white" aria-hidden="true" />
+                                            <svg class="icon icon-sm icon-white" aria-hidden="true">
+                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-rss"></use>
+                                            </svg>
                                         </a>
                                     </li>
                                 </ul>
@@ -173,7 +191,9 @@
                                         data-bs-toggle="modal" 
                                         data-bs-target="#search-modal"
                                         aria-label="Cerca nel sito">
-                                    <x-filament::icon icon="heroicon-o-magnifying-glass" class="icon" aria-hidden="true" />
+                                    <svg class="icon" aria-hidden="true">
+                                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
+                                    </svg>
                                 </button>
                             </div>
                         </div>
@@ -183,7 +203,7 @@
         </div>
     </div>
     
-    {{-- Level 3: Navigation Bar --}}
+    {{-- Level 3: Navigation Bar - Bootstrap Italia EXACT Structure --}}
     <div class="it-header-navbar-wrapper" id="header-nav-wrapper">
         <div class="container">
             <div class="row">
@@ -197,7 +217,9 @@
                                 aria-label="Mostra/Nascondi la navigazione"
                                 data-bs-toggle="navbarcollapsible"
                                 data-bs-target="#nav4">
-                            <x-filament::icon icon="heroicon-o-bars-3" class="icon" aria-hidden="true" />
+                            <svg class="icon" aria-hidden="true">
+                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
+                            </svg>
                         </button>
                         
                         {{-- Collapsible Menu --}}
@@ -206,7 +228,9 @@
                             <div class="close-div">
                                 <button class="btn close-menu" type="button">
                                     <span class="visually-hidden">Nascondi la navigazione</span>
-                                    <x-filament::icon icon="heroicon-o-x-mark" class="icon" aria-hidden="true" />
+                                    <svg class="icon" aria-hidden="true">
+                                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-close"></use>
+                                    </svg>
                                 </button>
                             </div>
                             
@@ -277,9 +301,9 @@
                                 <div class="it-socials">
                                     <span>Seguici su</span>
                                     <ul>
-                                        <li><a href="#" aria-label="Twitter"><x-filament::icon icon="ui-brands.twitter" class="icon icon-sm icon-white" /></a></li>
-                                        <li><a href="#" aria-label="Facebook"><x-filament::icon icon="ui-brands.facebook" class="icon icon-sm icon-white" /></a></li>
-                                        <li><a href="#" aria-label="YouTube"><x-filament::icon icon="ui-brands.youtube" class="icon icon-sm icon-white" /></a></li>
+                                        <li><a href="#" aria-label="Twitter"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use></svg></a></li>
+                                        <li><a href="#" aria-label="Facebook"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use></svg></a></li>
+                                        <li><a href="#" aria-label="YouTube"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use></svg></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -291,14 +315,16 @@
     </div>
 </header>
 
-{{-- Search Modal --}}
+{{-- Search Modal - Bootstrap Italia EXACT Structure --}}
 <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="search-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="search-modal-label">Cerca nel sito</h5>
                 <button class="close" type="button" data-bs-dismiss="modal" aria-label="Close">
-                    <x-filament::icon icon="heroicon-o-x-mark" class="icon" aria-hidden="true" />
+                    <svg class="icon" aria-hidden="true">
+                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-close"></use>
+                    </svg>
                 </button>
             </div>
             <div class="modal-body">
@@ -308,7 +334,9 @@
                         <input type="search" class="form-control" id="search-input" placeholder="Cerca una parola chiave" name="q">
                     </div>
                     <button type="submit" class="btn btn-primary">
-                        <x-filament::icon icon="heroicon-o-magnifying-glass" class="icon icon-sm" />
+                        <svg class="icon icon-sm">
+                            <use href="/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
+                        </svg>
                         Invio
                     </button>
                 </form>
