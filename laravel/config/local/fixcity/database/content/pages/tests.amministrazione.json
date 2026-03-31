@@ -1,85 +1,67 @@
 {
-    "id": "tests.amministrazione",
-    "slug": "tests.amministrazione",
+    "id": "tests-amministrazione",
     "title": {
         "it": "Amministrazione",
         "en": "Administration"
     },
+    "slug": "tests.amministrazione",
+    "category": "Amministrazione",
+    "content": null,
     "content_blocks": {
         "it": [
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "view": "pub_theme::blocks.breadcrumb.default",
                     "items": [
-                        {"label": "Home", "url": "/"},
+                        {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Amministrazione", "url": null}
                     ]
                 }
             },
             {
-                "type": "page_header",
+                "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.header.page",
-                    "title": "AMMINISTRAZIONE",
-                    "subtitle": "Organi di governo e uffici comunali"
+                    "view": "pub_theme::blocks.hero.default",
+                    "title": "Amministrazione",
+                    "subtitle": "Giunta, consiglio e organi di governo",
+                    "content": "<p>Conosci gli organi di governo del tuo Comune e consulta documenti e dati</p>"
                 }
             },
             {
-                "type": "administration_sections",
+                "type": "cards-grid",
                 "data": {
-                    "view": "pub_theme::components.blocks.administration.sections",
-                    "items": [
-                        {
-                            "title": "Organi di Governo",
-                            "icon": "building-office",
-                            "description": "Sindaco, Giunta e Consiglio Comunale",
-                            "url": "/amministrazione/organi"
-                        },
-                        {
-                            "title": "Aree Amministrative",
-                            "icon": "document-text",
-                            "description": "Struttura organizzativa del Comune",
-                            "url": "/amministrazione/aree"
-                        },
-                        {
-                            "title": "Uffici",
-                            "icon": "clipboard-document-list",
-                            "description": "Elenco uffici comunali",
-                            "url": "/amministrazione/uffici"
-                        },
-                        {
-                            "title": "Personale",
-                            "icon": "user-group",
-                            "description": "Organico e dirigenti",
-                            "url": "/amministrazione/personale"
-                        }
+                    "view": "pub_theme::blocks.cards.grid",
+                    "title": "Organi di governo",
+                    "cards": [
+                        {"title": "Sindaco", "description": "Il Sindaco e la sua giunta", "url": "#"},
+                        {"title": "Giunta comunale", "description": "I membri della giunta", "url": "#"},
+                        {"title": "Consiglio comunale", "description": "I consiglieri e le commissioni", "url": "#"}
                     ]
                 }
             },
             {
-                "type": "administration_documents",
+                "type": "links-list",
                 "data": {
-                    "view": "pub_theme::components.blocks.administration.documents",
-                    "title": "Documenti",
-                    "items": [
-                        {"title": "Statuto Comunale", "url": "#", "type": "PDF"},
-                        {"title": "Regolamenti", "url": "#", "type": "PDF"},
-                        {"title": "Delibere", "url": "#", "type": "PDF"},
-                        {"title": "Determinazioni", "url": "#", "type": "PDF"}
+                    "view": "pub_theme::blocks.links.list",
+                    "title": "Documenti e dati",
+                    "links": [
+                        {"label": "Statuto comunale", "url": "/it/tests/documenti-dati", "description": "Lo statuto del Comune"},
+                        {"label": "Regolamenti", "url": "/it/tests/documenti-dati", "description": "I regolamenti comunali"},
+                        {"label": "Bilanci", "url": "/it/tests/documenti-dati", "description": "Bilancio di previsione e consuntivo"},
+                        {"label": "Bandi e avvisi", "url": "/it/tests/documenti-dati", "description": "Bandi di gara e avvisi pubblici"}
                     ]
-                }
-            },
-            {
-                "type": "administration_transparency",
-                "data": {
-                    "view": "pub_theme::components.blocks.administration.transparency",
-                    "title": "Amministrazione Trasparente",
-                    "description": "Accesso alle informazioni pubbliche",
-                    "url": "/trasparenza"
                 }
             }
         ],
         "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
     }
 }

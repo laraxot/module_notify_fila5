@@ -1,42 +1,60 @@
 {
-    "id": "tests.risultati-ricerca",
+    "id": "tests-risultati-ricerca",
     "title": {
         "it": "Risultati di ricerca",
-        "en": "Risultati di ricerca"
+        "en": "Search results"
     },
     "slug": "tests.risultati-ricerca",
+    "category": "Generali",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "tests",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Risultati di ricerca",
-                    "category": "Generali",
-                    "summary": "La pagina per la presentazione dei risultati di ricerca.",
-                    "slug": "tests.risultati-ricerca"
+                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Risultati di ricerca", "url": null}
+                    ]
                 }
             },
             {
-                "type": "tests",
+                "type": "search-results",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "La conversione finale dovra isolare form di ricerca, riepilogo query, filtri e lista risultati."
+                    "view": "pub_theme::blocks.search.results",
+                    "query": "termine cercato",
+                    "count": 15,
+                    "results": [
+                        {
+                            "title": "Risultato 1",
+                            "excerpt": "Estratto del risultato della ricerca...",
+                            "url": "/it/tests/servizio-dettaglio",
+                            "type": "Servizio"
+                        },
+                        {
+                            "title": "Risultato 2",
+                            "excerpt": "Estratto del risultato della ricerca...",
+                            "url": "/it/tests/novita-dettaglio",
+                            "type": "Novità"
+                        },
+                        {
+                            "title": "Risultato 3",
+                            "excerpt": "Estratto del risultato della ricerca...",
+                            "url": "/it/tests/evento-dettaglio",
+                            "type": "Evento"
+                        }
+                    ]
                 }
             },
             {
-                "type": "tests",
+                "type": "pagination",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/risultati-ricerca.html"
+                    "view": "pub_theme::blocks.pagination.default",
+                    "current": 1,
+                    "total": 3,
+                    "prev": null,
+                    "next": 2
                 }
             }
         ],
