@@ -295,3 +295,5 @@ utilizza i superpowers (https://github.com/obra/superpowers)
 
 l'html dentro il tag body di https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html deve essere lo stesso di http://fixcity.local/it/tests/homepage , ti ricordo che viene servita dalla blade 
 laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php  e dal json laravel/config/local/fixcity/database/content/pages/tests.homepage.json utilizza i superpowers (https://github.com/obra/superpowers), bmad (https://github.com/bmad-code-org/BMAD-METHOD), gsd (https://github.com/gsd-build/get-shit-done), ralph loop (https://github.com/snarktank/ralph), openviking installato globalmente (https://github.com/volcengine/OpenViking), notebooklm mcp , devi installarti , configurarti, documentare tutto quello che ti serve 
+
+ Noi usiamo Tailwind CSS con @apply per replicare le classi Bootstrap Italia. Le classi nel HTML sono quelle Bootstrap Italia, ma lo styling è fatto con Tailwind @apply in style-apply.css.
