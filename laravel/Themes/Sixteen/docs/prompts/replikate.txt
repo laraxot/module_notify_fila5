@@ -314,3 +314,9 @@ laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php  e dal json 
  nei css non puoi fare @import url('https://cdn.jsdelivr.net/npm/bootstrap-italia@2.8.8/dist/css/bootstrap-italia.min.css'); ma devi usare tailwind @apply per replicare le classi Bootstrap Italia.
 
  the goal is to use Tailwind CSS (not Bootstrap Italia) to replicate the Design Comuni template
+
+
+ l'header di http://fixcity.local/it/tests/homepage  e' troppo diverso dal header di https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html , aiutati con screenshots, aiutati con mcp, con plugin , non si vede il logo , non si legge il nome, non si legge lo slogan, i colori son diversi, gli spazi son diversi .. 
+
+
+ Goal: Design Comuni look con Tailwind utilities
