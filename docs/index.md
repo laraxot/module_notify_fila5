@@ -1,6 +1,6 @@
 # 📚 FixCity Platform - Documentation Index
 
-> **Last Updated**: 2026-03-13  
+> **Last Updated**: 2026-03-31
 > **Status**: ✅ Active  
 > **Version**: 2.0
 
@@ -22,6 +22,7 @@
 
 ### For Operations
 - 🔧 [Deployment](deployment/README.md)
+- 🌐 [VHost Apache - fixcity.local](project/vhost-configuration.md)
 - 📈 [Monitoring](monitoring/README.md)
 - 🔒 [Security](security/README.md)
 
@@ -38,7 +39,14 @@ docs/
 ├── github/                 # GitHub workflows
 ├── mcp/                    # MCP configuration
 ├── monitoring/             # Monitoring & logging
+├── project/                # Project configuration & vhost
+│   ├── README.md          # Project docs index
+│   └── vhost-configuration.md  # Apache vhost for fixcity.local
 ├── quality/                # Quality assurance
+├── regole-critiche/        # Critical rules (Italian)
+├── rules/                  # Governance rules (English)
+│   ├── README.md          # Rules index
+│   └── vhost-governance.md  # VHost mandatory rules
 ├── roadmaps/               # Product roadmaps
 ├── security/               # Security documentation
 ├── testing/                # Testing guides
@@ -49,17 +57,17 @@ docs/
 
 ## 🔥 Recent Updates
 
+### 2026-03-31
+- ✅ Apache vhost configuration for fixcity.local
+- ✅ VHost documentation across all layers (project, modules, themes)
+- ✅ Document root governance: public_html/
+
 ### 2026-03-13
 - ✅ Database naming convention standardized
 - ✅ .gitattributes files removed (now in .gitignore)
 - ✅ MCP GitHub configuration added
 - ✅ GitHub Issue #5 created
 - ✅ Ollama optimization guide
-
-### 2026-03-02
-- ✅ PHPStan Level 10 compliance
-- ✅ Logging best practices
-- ✅ DRY principle enforcement
 
 ---
 
