@@ -358,3 +358,9 @@ utilizza https://github.com/bmad-code-org/BMAD-METHOD
 
 
 in laravel/Themes/Sixteen/resources/js/app.js  fare import "bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js";  e' sbagliato capiscilo da solo 
+
+
+sbaliato "Bootstrap Italia JS is loaded via CDN in the layout." noi stiamo rifacendo bootstrap italia con tailwind e alpine !! 
+
+
+controlla se dentro il tag body compreso se l'html e' uguale fra http://fixcity.local/it/tests/homepage e https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html ​
