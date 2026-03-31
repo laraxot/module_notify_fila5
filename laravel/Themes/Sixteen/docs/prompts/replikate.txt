@@ -355,3 +355,6 @@ poi non e'  @vite(['Themes/Sixteen/resources/css/app.css'])  ma  @vite(['Themes/
 
 poi dentro laravel/Themes/Sixteen/resources/views/components/layouts/app.blade.php  hai scritto il codice dell'header al posto di utilizzare <x-section slug="header" 
 utilizza https://github.com/bmad-code-org/BMAD-METHOD
+
+
+in laravel/Themes/Sixteen/resources/js/app.js  fare import "bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js";  e' sbagliato capiscilo da solo 
