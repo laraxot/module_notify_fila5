@@ -1,5 +1,4 @@
-{{-- Header Section - Design Comuni Style (Pure Tailwind) --}}
+{{-- Header Section - Bootstrap Italia EXACT Replica --}}
 {{-- Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html --}}
-{{-- Include the Design Comuni header component --}}
 
 <x-layout.design-comuni-header />
