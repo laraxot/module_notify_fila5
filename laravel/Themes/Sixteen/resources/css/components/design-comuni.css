@@ -6,7 +6,8 @@
 /* Top Bar Component
    ========================================================================== */
 .it-header-slim-wrapper {
-    @apply bg-primary-dark border-b border-white/20;
+    background-color: #0066B3 !important; /* Blu istituzionale Bootstrap Italia */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .it-header-slim-wrapper .language-selector button {
@@ -24,7 +25,7 @@
 }
 
 .it-header-center-wrapper .social-links a {
-    @apply text-primary hover:text-primary-dark transition-colors;
+    @apply text-primary color: #003366 transition-colors;
 }
 
 /* Navigation Component
@@ -64,7 +65,7 @@
 /* Hero Component
    ========================================================================== */
 .it-hero-wrapper {
-    @apply bg-primary text-white py-12;
+    background-color: #0066B3; color: #FFFFFF; padding: 3rem 0;
 }
 
 .it-hero-wrapper .title-xxxlarge {
@@ -174,13 +175,13 @@
 }
 
 .contact-section .quick-link {
-    @apply text-primary hover:text-primary-dark hover:underline inline-flex items-center gap-2;
+    @apply text-primary color: #003366 hover:underline inline-flex items-center gap-2;
 }
 
 /* Footer Component
    ========================================================================== */
 .it-footer-wrapper {
-    @apply bg-primary-dark text-white py-12;
+    background-color: #003366; color: #FFFFFF; padding: 3rem 0;
 }
 
 .it-footer-wrapper a {
@@ -210,7 +211,7 @@
 }
 
 .btn-primary {
-    @apply bg-primary text-white hover:bg-primary-dark;
+    background-color: #0066B3; color: #FFFFFF; transition: background-color 0.2s;
 }
 
 .btn-secondary {
@@ -354,7 +355,7 @@
 .font-bold { @apply font-bold; }
 .font-semibold { @apply font-semibold; }
 .font-medium { @apply font-medium; }
-.text-primary { @apply text-primary; }
+.text-primary { color: #0066B3; }
 .text-gray-500 { @apply text-gray-500; }
 .text-gray-600 { @apply text-gray-600; }
 .text-gray-700 { @apply text-gray-700; }
@@ -364,13 +365,13 @@
 .bg-white { @apply bg-white; }
 .bg-gray-50 { @apply bg-gray-50; }
 .bg-gray-100 { @apply bg-gray-100; }
-.bg-primary { @apply bg-primary; }
+.bg-primary { background-color: #0066B3; }
 
 /* Border utilities */
 .border { @apply border; }
 .border-2 { @apply border-2; }
 .border-gray-200 { @apply border-gray-200; }
-.border-primary { @apply border-primary; }
+.border-primary { border-color: #0066B3; }
 .rounded-lg { @apply rounded-lg; }
 .rounded-end { @apply rounded-r-lg; }
 
@@ -415,7 +416,7 @@
 
 /* Pseudo-classes */
 .hover\:text-primary:hover { @apply hover:text-primary; }
-.hover\:text-primary-dark:hover { @apply hover:text-primary-dark; }
+.hover\:text-primary-dark:hover { @apply color: #003366; }
 .hover\:text-white:hover { @apply hover:text-white; }
 .hover\:bg-primary:hover { @apply hover:bg-primary; }
 .hover\:bg-gray-100:hover { @apply hover:bg-gray-100; }
