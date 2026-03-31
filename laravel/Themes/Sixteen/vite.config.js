@@ -17,7 +17,7 @@ export default defineConfig({
         tailwindcss(),
     ],
     build: {
-        outDir: './public',
+        outDir: '../../public_html/themes/Sixteen',
         emptyOutDir: false,
         manifest: 'manifest.json',
         chunkFileNames: 'js/[name]-[hash].js',
@@ -36,8 +36,6 @@ export default defineConfig({
         assetsInlineLimit: 4096
     },
     server: {
-        hmr: {
-            host: 'localhost'
-        }
+        hmr: { host: 'localhost' }
     },
 });

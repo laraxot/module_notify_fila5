@@ -1,12 +1,25 @@
+/**
+ * Sixteen Theme - App JS
+ * Custom scripts (Bootstrap Italia not installed - using Tailwind instead)
+ */
+
+// Flowbite (for some UI components)
 import "./flowbite.js";
+
+// Swiper (for carousels)
 import "./swiper.js";
-//import "./cookie-consent.js";
+
+// Custom scripts
 import "./custom.js";
+
+// Filament 4x integration
 import "./filament-4x.js";
-// Bootstrap Italia JS bundle (for header/nav components, dropdowns, etc.)
-import "bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js";
+
+// AGID enforcer
 import "./agid-enforcer.js";
+
 // PWA Manager
 import "./pwa.js";
+
 // Performance Manager
 import "./performance.js";
