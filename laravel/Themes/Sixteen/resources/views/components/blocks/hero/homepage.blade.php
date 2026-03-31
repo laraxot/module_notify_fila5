@@ -22,7 +22,7 @@
                         @if(!empty($news))
                         <div class="category-top">
                             <svg class="icon icon-sm" aria-hidden="true">
-                                <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-calendar') }}"></use>
+                                <use href="{{ asset('themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar') }}"></use>
                             </svg>
                             <span class="title-xsmall-semi-bold fw-semibold">{{ $news['category'] ?? 'Notizie' }}</span>
                             <span class="data fw-normal">{{ $news['date'] ?? '' }}</span>
@@ -40,7 +40,7 @@
                         <a class="read-more pb-3" href="{{ $all_news_url }}">
                             <span class="text">{{ $all_news_label }}</span>
                             <svg class="icon">
-                                <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
+                                <use href="{{ asset('themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
                             </svg>
                         </a>
                     </div>
