@@ -344,3 +344,14 @@ view-source:https://italia.github.io/design-comuni-pagine-statiche/sito/homepage
 
 in laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
 utilizzare <x-layouts.design-comuni> o <x-pub_theme::layouts.design-comuni>  e' sbagliato devi utilizzare <x-layouts.app>
+
+ "Use <x-layouts.app>. NOT <x-pub_theme::...>"
+
+    > "Keep it simple. Use correct component."
+
+mettere <link rel="stylesheet" href="/themes/sixteen/bootstrap-italia/dist/css/bootstrap-italia.min.css" />  dentro laravel/Themes/Sixteen/resources/views/components/layouts/app.blade.php  e' la soluzione peggiore che potevi fare 
+poi non e'  @vite(['Themes/Sixteen/resources/css/app.css'])  ma  @vite(['Themes/Sixteen/resources/css/app.css'],'themes/Sixteen')
+
+
+poi dentro laravel/Themes/Sixteen/resources/views/components/layouts/app.blade.php  hai scritto il codice dell'header al posto di utilizzare <x-section slug="header" 
+utilizza https://github.com/bmad-code-org/BMAD-METHOD
