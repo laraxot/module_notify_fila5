@@ -291,3 +291,7 @@ utilizza i superpowers (https://github.com/obra/superpowers)
     > "JSON per contenuti. Blade per struttura."
 
     > "DRY: Don't Repeat Yourself."
+
+
+l'html dentro il tag body di https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html deve essere lo stesso di http://fixcity.local/it/tests/homepage , ti ricordo che viene servita dalla blade 
+laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php  e dal json laravel/config/local/fixcity/database/content/pages/tests.homepage.json utilizza i superpowers (https://github.com/obra/superpowers), bmad (https://github.com/bmad-code-org/BMAD-METHOD), gsd (https://github.com/gsd-build/get-shit-done), ralph loop (https://github.com/snarktank/ralph), openviking installato globalmente (https://github.com/volcengine/OpenViking), notebooklm mcp , devi installarti , configurarti, documentare tutto quello che ti serve 

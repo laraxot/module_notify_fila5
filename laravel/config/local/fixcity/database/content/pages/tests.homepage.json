@@ -134,14 +134,15 @@
                 "type": "useful_links",
                 "data": {
                     "view": "pub_theme::components.blocks.links.useful",
-                    "title": "Link utili",
-                    "links": [
-                        {"title": "Rilascio Carta Identità Elettronica (CIE)", "url": "#"},
-                        {"title": "Cambio di residenza", "url": "#"},
-                        {"title": "Tributi online", "url": "#"},
-                        {"title": "Prenotazione appuntamenti", "url": "#"},
-                        {"title": "Rilascio tessera elettorale", "url": "#"},
-                        {"title": "Voucher connettività", "url": "#"}
+                    "links_heading": "Link utili",
+                    "search_placeholder": "Cerca una parola chiave",
+                    "items": [
+                        {"label": "Rilascio Carta Identità Elettronica (CIE)", "url": "#"},
+                        {"label": "Cambio di residenza", "url": "#"},
+                        {"label": "Tributi online", "url": "#"},
+                        {"label": "Prenotazione appuntamenti", "url": "#"},
+                        {"label": "Rilascio tessera elettorale", "url": "#"},
+                        {"label": "Voucher connettività", "url": "#"}
                     ]
                 }
             },
