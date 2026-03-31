@@ -22,9 +22,13 @@
 
 ### For Operations
 - 🔧 [Deployment](deployment/README.md)
-- 🌐 [VHost Apache - fixcity.local](project/vhost-configuration.md)
+- 🌐 [VHost Apache - fixcity.local](deployment/vhost-fixcity.md)
 - 📈 [Monitoring](monitoring/README.md)
 - 🔒 [Security](security/README.md)
+
+### AI Agent Tools
+- ⚡ [Superpowers Framework](superpowers.md) - Agentic skills (TDD, brainstorming, code review)
+- 🧩 [Plugins & Skills](../.opencode/PLUGINS_AND_SKILLS.md) - Full plugin inventory
 
 ---
 
@@ -49,6 +53,11 @@ docs/
 │   └── vhost-governance.md  # VHost mandatory rules
 ├── roadmaps/               # Product roadmaps
 ├── security/               # Security documentation
+├── superpowers/            # Superpowers framework docs
+│   ├── README.md          # Overview & workflow
+│   ├── installation.md    # Installation guide
+│   ├── workflow.md        # Detailed workflow
+│   └── skills-reference.md # All skills
 ├── testing/                # Testing guides
 └── index.md               # This file
 ```
@@ -58,9 +67,12 @@ docs/
 ## 🔥 Recent Updates
 
 ### 2026-03-31
+- ✅ Superpowers framework installed and configured
+- ✅ Complete Superpowers documentation (4 files)
 - ✅ Apache vhost configuration for fixcity.local
 - ✅ VHost documentation across all layers (project, modules, themes)
 - ✅ Document root governance: public_html/
+- ✅ Governance rules created in docs/rules/
 
 ### 2026-03-13
 - ✅ Database naming convention standardized
