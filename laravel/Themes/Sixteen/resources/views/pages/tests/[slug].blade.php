@@ -26,11 +26,12 @@ new class extends Component {
         ];
     }
 };
-
 ?>
 
-<x-pub_theme::layouts.design-comuni>
+<x-layouts.app>
     @volt('tests.view')
-    <x-page side="content" :slug="$pageSlug" :data="$data" />
+    <div>
+        <x-page side="content" :slug="$pageSlug" :data="$data" />
+    </div>
     @endvolt
-</x-layouts.design-comuni>
+</x-layouts.app>

@@ -340,3 +340,7 @@ laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php  e dal json 
 il nostro e' diverso.. ma che cosa e' che non capisci ? ma che controlli fai ? che cose cosi' semplici non le hai ancora raggiunte in giorni di lavoro ?
 
 view-source:https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  view-source:http://fixcity.local/it/tests/homepage
+
+
+in laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
+utilizzare <x-layouts.design-comuni> o <x-pub_theme::layouts.design-comuni>  e' sbagliato devi utilizzare <x-layouts.app>
