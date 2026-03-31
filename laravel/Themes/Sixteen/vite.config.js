@@ -17,7 +17,7 @@ export default defineConfig({
         tailwindcss(),
     ],
     build: {
-        outDir: '../../public_html/themes/Sixteen',
+        outDir: '../../public_html/build',
         emptyOutDir: false,
         manifest: 'manifest.json',
         chunkFileNames: 'js/[name]-[hash].js',
