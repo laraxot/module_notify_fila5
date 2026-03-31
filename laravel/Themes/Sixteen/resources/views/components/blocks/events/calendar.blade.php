@@ -1,84 +1,62 @@
-{{-- Events Calendar - Design Comuni Style (Tailwind CSS) --}}
+{{-- Events Calendar - Bootstrap Italia Style --}}
+{{-- Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html --}}
 @props([
     'title' => 'Eventi',
     'month' => '',
-    'items' => [],   // [ ['day'=>'15','weekday'=>'lun','events'=>[['title'=>'...','url'=>'...']]] ]
+    'items' => [],
 ])
 
-<section class="bg-white py-10 lg:py-14">
-    <div class="container mx-auto px-4">
-
-        {{-- Intestazione --}}
-        <div class="flex flex-col sm:flex-row sm:items-baseline gap-2 mb-8">
-            @if($title)
-                <h2 class="text-2xl lg:text-3xl font-semibold text-gray-900">{{ $title }}</h2>
-            @endif
-            @if($month)
-                <span class="text-lg text-gray-500 sm:ml-3">{{ $month }}</span>
-            @endif
+<section class="py-5">
+    <div class="container">
+        {{-- Header --}}
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 class="section-title mb-2">{{ $title }}</h2>
+                @if($month)
+                <h3 class="text-muted mb-4">{{ $month }}</h3>
+                @endif
+            </div>
         </div>
-
-        {{-- Desktop: scroll orizzontale a giorni; Mobile: lista verticale --}}
-
-        {{-- Desktop (md+): flex row, overflow-x-auto --}}
-        <div class="hidden md:flex gap-4 overflow-x-auto pb-4">
-            @foreach($items as $day)
-                <div class="min-w-[160px] flex-shrink-0 bg-gray-50 rounded border border-gray-200 overflow-hidden">
-                    {{-- Header giorno --}}
-                    <div class="bg-blue-700 text-white px-4 py-3 text-center">
-                        <span class="block text-2xl font-bold leading-none">{{ $day['day'] ?? '' }}</span>
-                        <span class="block text-xs uppercase tracking-wider mt-1">{{ $day['weekday'] ?? '' }}</span>
+        
+        {{-- Calendar List --}}
+        <div class="row">
+            <div class="col-12">
+                <div class="calendar-list">
+                    @foreach($items as $day)
+                    <div class="calendar-event mb-3 pb-3 border-bottom">
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                <span class="calendar-date text-primary h3 mb-0 d-block">{{ $day['day'] ?? '' }}</span>
+                                <span class="calendar-day text-muted small text-uppercase">{{ $day['weekday'] ?? '' }}</span>
+                            </div>
+                            <div class="col-9 col-md-10">
+                                <ul class="event-list list-unstyled mb-0">
+                                    @forelse($day['events'] ?? [] as $event)
+                                    <li class="mb-2">
+                                        <a href="{{ $event['url'] ?? '#' }}" class="text-decoration-none">
+                                            {{ $event['title'] ?? '' }}
+                                        </a>
+                                    </li>
+                                    @empty
+                                    <li class="text-muted italic">Nessun evento</li>
+                                    @endforelse
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    {{-- Lista eventi del giorno --}}
-                    <ul class="divide-y divide-gray-200">
-                        @forelse($day['events'] ?? [] as $event)
-                            <li>
-                                <a href="{{ $event['url'] ?? '#' }}"
-                                   class="flex items-start gap-2 px-3 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 focus:outline-none focus:bg-blue-50 transition-colors">
-                                    @if(!empty($event['image']))
-                                        <img src="{{ $event['image'] }}"
-                                             alt=""
-                                             class="w-8 h-8 rounded object-cover flex-shrink-0 mt-0.5" />
-                                    @else
-                                        <x-filament::icon icon="heroicon-o-calendar-days" class="w-4 h-4 flex-shrink-0 mt-0.5 text-blue-600" />
-                                    @endif
-                                    <span class="leading-snug">{{ $event['title'] ?? '' }}</span>
-                                </a>
-                            </li>
-                        @empty
-                            <li class="px-3 py-3 text-xs text-gray-400 italic">Nessun evento</li>
-                        @endforelse
-                    </ul>
+                    @endforeach
                 </div>
-            @endforeach
-        </div>
-
-        {{-- Mobile: lista verticale --}}
-        <div class="flex flex-col gap-4 md:hidden">
-            @foreach($items as $day)
-                <div class="bg-gray-50 rounded border border-gray-200 overflow-hidden">
-                    {{-- Header giorno --}}
-                    <div class="bg-blue-700 text-white px-4 py-2 flex items-center gap-3">
-                        <span class="text-xl font-bold">{{ $day['day'] ?? '' }}</span>
-                        <span class="text-sm uppercase tracking-wider">{{ $day['weekday'] ?? '' }}</span>
-                    </div>
-                    {{-- Lista eventi --}}
-                    <ul class="divide-y divide-gray-200">
-                        @forelse($day['events'] ?? [] as $event)
-                            <li>
-                                <a href="{{ $event['url'] ?? '#' }}"
-                                   class="flex items-start gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 focus:outline-none transition-colors">
-                                    <x-filament::icon icon="heroicon-o-calendar-days" class="w-4 h-4 flex-shrink-0 mt-0.5 text-blue-600" />
-                                    <span>{{ $event['title'] ?? '' }}</span>
-                                </a>
-                            </li>
-                        @empty
-                            <li class="px-4 py-3 text-xs text-gray-400 italic">Nessun evento</li>
-                        @endforelse
-                    </ul>
+                
+                {{-- Vai al calendario --}}
+                <div class="text-center mt-4">
+                    <a href="/it/eventi" class="btn btn-outline-primary">
+                        Vai al calendario eventi
+                        <svg class="icon icon-xs ms-1" aria-hidden="true">
+                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"></use>
+                        </svg>
+                    </a>
                 </div>
-            @endforeach
+            </div>
         </div>
-
     </div>
 </section>

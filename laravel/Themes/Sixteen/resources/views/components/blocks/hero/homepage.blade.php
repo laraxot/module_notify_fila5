@@ -1,79 +1,85 @@
-{{-- Hero Homepage - Design Comuni Style (Tailwind CSS) --}}
+{{-- Hero Homepage - Tailwind CSS --}}
+{{-- Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html --}}
 @props([
-    'news'           => [],
-    'image'          => null,
+    'title' => 'NOME DEL COMUNE',
+    'subtitle' => 'CONTENUTI IN EVIDENZA',
+    'news' => [],
+    'image' => null,
     'all_news_label' => 'Tutte le novità',
-    'all_news_url'   => '#',
+    'all_news_url' => '#',
 ])
 
-<section id="head-section" class="bg-white">
+<section class="py-12 md:py-16">
     <div class="container mx-auto px-4">
-        {{-- Mobile: immagine sopra; Desktop: news sx + immagine dx --}}
-        <div class="flex flex-col-reverse lg:flex-row lg:items-stretch min-h-[28rem]">
-
-            {{-- Colonna sinistra: news card --}}
-            <div class="flex-1 py-8 lg:py-12 lg:pr-8 flex flex-col justify-center">
-
-                @if(!empty($news))
-                    {{-- Categoria + icona calendario --}}
-                    <div class="flex items-center gap-2 mb-3">
-                        @if(!empty($news['category']))
-                            <span class="text-xs font-semibold uppercase tracking-wider text-blue-700">
-                                {{ $news['category'] }}
-                            </span>
-                        @endif
-                        <x-filament::icon icon="heroicon-o-calendar-days" class="w-4 h-4 text-gray-400" />
-                        @if(!empty($news['date']))
-                            <time class="text-xs text-gray-500">{{ $news['date'] }}</time>
-                        @endif
-                    </div>
-
-                    {{-- Titolo --}}
-                    @if(!empty($news['title']))
-                        <h3 class="text-2xl lg:text-3xl font-semibold text-gray-900 mb-4 leading-tight">
-                            <a href="{{ $news['url'] ?? '#' }}" class="hover:text-blue-700 focus:outline-none focus:underline">
-                                {{ $news['title'] }}
-                            </a>
-                        </h3>
-                    @endif
-
-                    {{-- Excerpt --}}
-                    @if(!empty($news['excerpt']))
-                        <p class="text-gray-600 mb-5 leading-relaxed">
-                            {{ $news['excerpt'] }}
-                        </p>
-                    @endif
-
-                    {{-- Tag chip --}}
-                    @if(!empty($news['tag']))
-                        <div class="mb-6">
-                            <span class="inline-block bg-blue-50 text-blue-700 text-xs font-medium px-3 py-1 rounded-full border border-blue-200">
-                                {{ $news['tag'] }}
-                            </span>
-                        </div>
-                    @endif
-                @endif
-
-                {{-- Link "Tutte le novità" --}}
-                <div class="mt-auto">
-                    <a href="{{ $all_news_url }}"
-                       class="inline-flex items-center gap-1 text-blue-700 font-semibold text-sm hover:underline focus:outline-none focus:underline">
-                        {{ $all_news_label }}
-                        <x-filament::icon icon="heroicon-o-arrow-right" class="w-4 h-4" />
-                    </a>
-                </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <div class="lg:col-span-8 lg:col-start-3 text-center mb-10">
+                <h2 class="text-lg font-semibold tracking-wider text-gray-500 dark:text-gray-400 uppercase mb-4">
+                    {{ $subtitle }}
+                </h2>
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                    {{ $title }}
+                </h1>
             </div>
-
-            {{-- Colonna destra: immagine --}}
-            @if($image)
-                <div class="lg:w-1/2 xl:w-5/12 overflow-hidden">
-                    <img src="{{ $image }}"
-                         alt="{{ $news['title'] ?? '' }}"
-                         class="w-full h-56 lg:h-full object-cover"
-                         loading="lazy" />
-                </div>
+            
+            @if(!empty($news))
+            <div class="lg:col-span-10 lg:col-start-2">
+                <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden">
+                    <div class="p-6 md:p-8">
+                        <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+                            <div class="md:col-span-2">
+                                @if($image)
+                                <img src="{{ $image }}" 
+                                     alt="{{ $news['title'] ?? '' }}" 
+                                     class="w-full h-auto rounded-lg object-cover" 
+                                     loading="lazy" />
+                                @endif
+                            </div>
+                            <div class="md:col-span-3">
+                                <div class="flex items-center text-sm text-primary-600 dark:text-primary-400 mb-3">
+                                    @if(!empty($news['category']))
+                                    <span class="me-3">{{ $news['category'] }}</span>
+                                    @endif
+                                    @if(!empty($news['date']))
+                                    <time datetime="{{ $news['date'] }}" class="font-medium">
+                                        {{ $news['date'] }}
+                                    </time>
+                                    @endif
+                                </div>
+                                
+                                @if(!empty($news['title']))
+                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+                                    <a href="{{ $news['url'] ?? '#' }}" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                                        {{ $news['title'] }}
+                                    </a>
+                                </h3>
+                                @endif
+                                
+                                @if(!empty($news['description']))
+                                <p class="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
+                                    {{ $news['description'] }}
+                                </p>
+                                @endif
+                                
+                                @if(!empty($news['tag']))
+                                <div class="mb-4">
+                                    <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-200">
+                                        {{ $news['tag'] }}
+                                    </span>
+                                </div>
+                                @endif
+                                
+                                <a href="{{ $all_news_url }}" 
+                                   class="inline-flex items-center text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 font-medium transition-colors">
+                                    {{ $all_news_label }}
+                                    <svg class="w-4 h-4 ms-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             @endif
-
         </div>
     </div>
 </section>

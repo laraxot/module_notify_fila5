@@ -1,61 +1,86 @@
-{{-- Governance Cards Block - Organi di governo (Tailwind CSS) --}}
-{{-- Reference: design-comuni-pagine-statiche/sito/homepage.hbs #calendario section --}}
+{{-- Governance Cards Block - Tailwind CSS --}}
+{{-- Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html --}}
 @props([
     'title' => 'Organi di governo',
     'items' => [],
 ])
 
-<div class="bg-gray-50 py-8 lg:py-12 px-4">
-    <div class="max-w-6xl mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<section class="py-12 md:py-16 bg-gray-50 dark:bg-gray-900">
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold text-center text-gray-900 dark:text-white mb-10">
+            {{ $title }}
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             @foreach($items as $item)
-
+            
             @if(!empty($item['image']))
             {{-- Card con immagine (es. Sindaco) --}}
-            <div class="bg-white rounded shadow-sm border border-gray-200 flex flex-col overflow-hidden">
-                <div class="flex flex-1 gap-0">
-                    <div class="flex-1 p-4 pb-10 flex flex-col">
-                        <div class="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2">
-                            {{ $item['category'] ?? $title }}
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden h-full">
+                <div class="p-6">
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <div class="flex-1">
+                            <div class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase mb-2 tracking-wide">
+                                {{ $item['category'] ?? $title }}
+                            </div>
+                            @if(!empty($item['name']))
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                                {{ $item['name'] }}
+                            </h3>
+                            @endif
+                            @if(!empty($item['title']))
+                            <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                                {{ $item['title'] }}
+                            </p>
+                            @endif
+                            <a href="{{ $item['url'] ?? '#' }}" 
+                               class="inline-flex items-center text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 text-sm font-medium transition-colors">
+                                Vai alla pagina
+                                <svg class="w-4 h-4 ms-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </a>
                         </div>
-                        @if(!empty($item['name']))
-                            <h3 class="text-base font-medium text-gray-700 mb-1">{{ $item['name'] }}</h3>
+                        @if(!empty($item['image']))
+                        <div class="sm:w-24 flex-shrink-0">
+                            <img src="{{ $item['image'] }}" 
+                                 alt="{{ $item['name'] ?? $item['title'] ?? '' }}" 
+                                 class="w-full h-auto rounded-lg object-cover" />
+                        </div>
                         @endif
-                        <p class="text-sm text-gray-500 m-0">{{ $item['title'] ?? '' }}</p>
-                    </div>
-                    <div class="w-24 flex-shrink-0 pb-10">
-                        <img src="{{ $item['image'] }}" alt="{{ $item['name'] ?? $item['title'] ?? '' }}"
-                             class="w-full h-full object-cover object-top rounded-tr" />
                     </div>
                 </div>
-                <a href="{{ $item['url'] ?? '#' }}"
-                   class="flex items-center gap-1 px-4 py-3 text-sm font-semibold text-blue-700 hover:text-blue-900 border-t border-gray-100 mt-auto">
-                    Vai alla pagina
-                    <x-filament::icon icon="heroicon-o-arrow-right" class="w-4 h-4" />
-                </a>
             </div>
-
+            
             @else
             {{-- Card senza immagine (es. Giunta, Consiglio) --}}
-            <div class="bg-white rounded shadow-sm border border-gray-200 flex flex-col">
-                <div class="p-4 pb-10 flex-1">
-                    <div class="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2">
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden h-full">
+                <div class="p-6">
+                    <div class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase mb-2 tracking-wide">
                         {{ $item['category'] ?? $title }}
                     </div>
-                    <h3 class="text-base font-medium text-gray-700 mb-2">{{ $item['title'] ?? '' }}</h3>
-                    @if(!empty($item['description']))
-                        <p class="text-sm text-gray-500 m-0">{{ $item['description'] }}</p>
+                    @if(!empty($item['title']))
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                        {{ $item['title'] }}
+                    </h3>
                     @endif
+                    @if(!empty($item['description']))
+                    <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                        {{ $item['description'] }}
+                    </p>
+                    @endif
+                    <a href="{{ $item['url'] ?? '#' }}" 
+                       class="inline-flex items-center text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 text-sm font-medium transition-colors">
+                        Vai alla pagina
+                        <svg class="w-4 h-4 ms-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
                 </div>
-                <a href="{{ $item['url'] ?? '#' }}"
-                   class="flex items-center gap-1 px-4 py-3 text-sm font-semibold text-blue-700 hover:text-blue-900 border-t border-gray-100">
-                    Vai alla pagina
-                    <x-filament::icon icon="heroicon-o-arrow-right" class="w-4 h-4" />
-                </a>
             </div>
             @endif
-
+            
             @endforeach
         </div>
     </div>
-</div>
+</section>

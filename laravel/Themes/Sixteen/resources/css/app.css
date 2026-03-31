@@ -22,6 +22,11 @@
 @import "./agid-override.css";
 
 /* ========================================
+   DESIGN COMUNI COMPONENTS (Tailwind @apply)
+======================================== */
+@import "./components/design-comuni.css";
+
+/* ========================================
    TAILWIND CSS 4.x BASE
 ======================================== */
 /* Sorgenti per lo scan delle classi (Tailwind v4) */
