@@ -1,7 +1,52 @@
 /**
- * Design Comuni Template - Tailwind CSS ONLY
- * NO Bootstrap Italia - Pure Tailwind utilities
+ * Sixteen Theme - App CSS
+ * 
+ * Design Comuni replicated with Tailwind CSS
+ * NO Bootstrap Italia - Pure Tailwind implementation
  */
 
+/* ========================================
+   FONTS UFFICIALI AGID
+======================================== */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-@import "./style-apply.css";
+/* ========================================
+   AGID COLORS & VARIABLES
+======================================== */
+@import "./agid-colors.css";
+@import "./agid-override.css";
+
+/* ========================================
+   BOOTSTRAP ITALIA CLASSES (Tailwind @apply)
+   Replicated with Tailwind CSS only
+======================================== */
+@import "./components/bootstrap-italia-classes.css";
+
+/* ========================================
+   DESIGN COMUNI COMPONENTS (Tailwind @apply)
+======================================== */
+@import "./components/design-comuni.css";
+
+/* ========================================
+   TAILWIND CSS 4.x BASE
+======================================== */
+/* Sorgenti per lo scan delle classi (Tailwind v4) */
+@source "../views/**/*.blade.php";
+@source "../js/**/*.js";
+@source "./**/*.css";
+@source "../../../app/Filament/**/*.php";
+@source "../../../resources/views/**/*.blade.php";
+@source "../../../Modules/**/Filament/**/*.php";
+@source "../../../Modules/**/resources/views/**/*.blade.php";
+@source "../../../storage/framework/views/*.php";
+@source "../../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php";
+@source "../../../../public_html/vendor/**/*.blade.php";
+@import "tailwindcss";
+
+/* ========================================
+   ALPINE.JS STYLES
+======================================== */
+[x-cloak] {
+    display: none !important;
+}
