@@ -1,220 +1,188 @@
 <footer class="it-footer" id="footer" role="contentinfo">
-    {{-- Main Footer Section - Bootstrap Italia EXACT Structure --}}
     <div class="it-footer-main">
         <div class="container">
+
+            {{-- Logo Row --}}
             <div class="row">
-                {{-- Column 1: Municipality Info --}}
-                <div class="col-12 col-lg-3">
-                    <div class="it-footer-content">
-                        <div class="it-brand-wrapper">
-                            <svg width="82" height="82" class="icon" aria-hidden="true">
-                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
+                <div class="col-12 footer-items-wrapper logo-wrapper">
+                    <img class="ue-logo" src="/themes/Sixteen/images/logo-eu-inverted.svg" alt="logo Unione Europea">
+                    <div class="it-brand-wrapper">
+                        <a href="/">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
                             </svg>
                             <div class="it-brand-text">
-                                <div class="it-brand-title">Nome del Comune</div>
-                                <div class="it-brand-tagline d-none d-md-block">Un comune da vivere</div>
+                                <h2 class="no_toc">Nome del Comune</h2>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                
-                {{-- Column 2: Administration Links --}}
-                <div class="col-12 col-lg-3">
-                    <h4 class="h5 mb-3">Amministrazione</h4>
-                    <ul class="it-footer-linklist">
-                        <li><a href="/amministrazione/organi">Organi di governo</a></li>
-                        <li><a href="/amministrazione/aree">Aree amministrative</a></li>
-                        <li><a href="/uffici">Uffici</a></li>
-                        <li><a href="/enti">Enti e fondazioni</a></li>
-                        <li><a href="/politici">Politici</a></li>
-                        <li><a href="/personale">Personale amministrativo</a></li>
-                        <li><a href="/documenti">Documenti e dati</a></li>
-                    </ul>
-                </div>
-                
-                {{-- Column 3: Service Categories --}}
-                <div class="col-12 col-lg-3">
-                    <h4 class="h5 mb-3">Categorie di Servizio</h4>
-                    <div class="row">
-                        <div class="col-6">
-                            <ul class="it-footer-linklist">
-                                <li><a href="/servizi/anagrafe">Anagrafe</a></li>
-                                <li><a href="/servizi/cultura">Cultura</a></li>
-                                <li><a href="/servizi/vita-lavorativa">Vita lavorativa</a></li>
-                                <li><a href="/servizi/imprese">Imprese</a></li>
-                                <li><a href="/servizi/appalti">Appalti</a></li>
-                                <li><a href="/servizi/catasto">Catasto</a></li>
-                                <li><a href="/servizi/turismo">Turismo</a></li>
-                                <li><a href="/servizi/mobilita">Mobilità</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-6">
-                            <ul class="it-footer-linklist">
-                                <li><a href="/servizi/educazione">Educazione</a></li>
-                                <li><a href="/servizi/giustizia">Giustizia</a></li>
-                                <li><a href="/servizi/tributi">Tributi</a></li>
-                                <li><a href="/servizi/ambiente">Ambiente</a></li>
-                                <li><a href="/servizi/salute">Salute</a></li>
-                                <li><a href="/servizi/autorizzazioni">Autorizzazioni</a></li>
-                                <li><a href="/servizi/agricoltura">Agricoltura</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                {{-- Column 4: Contacts --}}
-                <div class="col-12 col-lg-3">
-                    <h4 class="h5 mb-3">Contatti</h4>
-                    <address class="it-footer-contact">
-                        <p><strong>Comune di Nome Comune</strong></p>
-                        <p>Via Roma 123, 00100 Nome Comune (RM)</p>
-                        <p>CF: 00000000000 - P.IVA: 00000000000</p>
-                    </address>
-                    
-                    <h5 class="h6 mb-2 mt-3">URP - Ufficio Relazioni con il Pubblico</h5>
-                    <ul class="it-footer-contact-list">
-                        <li>
-                            <a href="tel:061234567">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-phone"></use>
-                                </svg>
-                                Numero verde: 06 1234567
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-chat"></use>
-                                </svg>
-                                SMS/WhatsApp: +39 333 0000000
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:urp@comune.it">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-mail"></use>
-                                </svg>
-                                urp@comune.it
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:comune@pec.it">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-certified-mail"></use>
-                                </svg>
-                                comune@pec.it
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:0612345678">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-phone"></use>
-                                </svg>
-                                Centralino: 06 12345678
-                            </a>
-                        </li>
-                    </ul>
-                    
-                    <div class="it-footer-actions mt-3">
-                        <a href="/faq" class="btn btn-outline-primary btn-sm me-2">FAQ</a>
-                        <a href="/appuntamento" class="btn btn-outline-primary btn-sm me-2">Appuntamento</a>
-                        <a href="/segnalazione" class="btn btn-outline-primary btn-sm me-2">Segnalazione</a>
-                        <a href="/assistenza" class="btn btn-outline-primary btn-sm">Assistenza</a>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    
-    {{-- Bottom Footer Section - Bootstrap Italia EXACT Structure --}}
-    <div class="it-footer-bottom">
-        <div class="container">
-            <div class="row align-items-center py-3">
-                {{-- Legal Links --}}
-                <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
-                    <ul class="it-footer-legal-links list-inline mb-0">
-                        <li class="list-inline-item">
-                            <a href="/amministrazione-trasparente">Amministrazione trasparente</a>
-                        </li>
-                        <li class="list-inline-item">|</li>
-                        <li class="list-inline-item">
-                            <a href="/privacy">Informativa privacy</a>
-                        </li>
-                        <li class="list-inline-item">|</li>
-                        <li class="list-inline-item">
-                            <a href="/note-legali">Note legali</a>
-                        </li>
-                        <li class="list-inline-item">|</li>
-                        <li class="list-inline-item">
-                            <a href="/accessibilita">Dichiarazione di accessibilità</a>
-                        </li>
-                    </ul>
-                </div>
-                
-                {{-- Social Media --}}
-                <div class="col-12 col-md-6 text-center text-md-end">
-                    <span class="me-2">Seguici su</span>
-                    <ul class="it-footer-social list-inline mb-0 d-inline-flex">
-                        <li class="list-inline-item">
-                            <a href="#" aria-label="Twitter">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" aria-label="Facebook">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" aria-label="YouTube">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" aria-label="Telegram">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-telegram"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" aria-label="Whatsapp">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" aria-label="RSS">
-                                <svg class="icon icon-sm">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-rss"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            {{-- Bottom Links --}}
+
+            {{-- Main Links Row --}}
             <div class="row">
-                <div class="col-12 text-center">
-                    <ul class="list-inline mb-0">
+
+                {{-- Amministrazione --}}
+                <div class="col-md-3 footer-items-wrapper">
+                    <h4 class="footer-heading-title">Amministrazione</h4>
+                    <ul class="footer-list">
+                        <li><a href="#">Organi di governo</a></li>
+                        <li><a href="#">Aree amministrative</a></li>
+                        <li><a href="#">Uffici</a></li>
+                        <li><a href="#">Enti e fondazioni</a></li>
+                        <li><a href="#">Politici</a></li>
+                        <li><a href="#">Personale amministrativo</a></li>
+                        <li><a href="#">Documenti e dati</a></li>
+                    </ul>
+                </div>
+
+                {{-- Categorie di servizio --}}
+                <div class="col-md-6 footer-items-wrapper">
+                    <h4 class="footer-heading-title">Categorie di servizio</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="footer-list">
+                                <li><a href="#">Anagrafe e stato civile</a></li>
+                                <li><a href="#">Cultura e tempo libero</a></li>
+                                <li><a href="#">Vita lavorativa</a></li>
+                                <li><a href="#">Imprese e commercio</a></li>
+                                <li><a href="#">Appalti pubblici</a></li>
+                                <li><a href="#">Catasto e urbanistica</a></li>
+                                <li><a href="#">Turismo</a></li>
+                                <li><a href="#">Mobilità e trasporti</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="footer-list">
+                                <li><a href="#">Educazione e formazione</a></li>
+                                <li><a href="#">Giustizia e sicurezza pubblica</a></li>
+                                <li><a href="#">Tributi, finanze e contravvenzioni</a></li>
+                                <li><a href="#">Ambiente</a></li>
+                                <li><a href="#">Salute, benessere e assistenza</a></li>
+                                <li><a href="#">Autorizzazioni</a></li>
+                                <li><a href="#">Agricoltura e pesca</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Novità + Vivere il comune --}}
+                <div class="col-md-3 footer-items-wrapper">
+                    <h4 class="footer-heading-title">Novità</h4>
+                    <ul class="footer-list">
+                        <li><a href="#">Notizie</a></li>
+                        <li><a href="#">Comunicati</a></li>
+                        <li><a href="#">Avvisi</a></li>
+                    </ul>
+                    <h4 class="footer-heading-title">Vivere il comune</h4>
+                    <ul class="footer-list">
+                        <li><a href="#">Luoghi</a></li>
+                        <li><a href="#">Eventi</a></li>
+                    </ul>
+                </div>
+
+                {{-- Contatti --}}
+                <div class="col-md-9 mt-md-4 footer-items-wrapper">
+                    <h4 class="footer-heading-title">Contatti</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="footer-info">
+                                Comune di Nome Comune<br>
+                                Via Roma 123 - 00100 Comune<br>
+                                Codice fiscale / P. IVA: 00123456789<br><br>
+                                <a href="#">Ufficio Relazioni con il Pubblico</a><br>
+                                Numero verde: 800 016 123<br>
+                                SMS e WhatsApp: +39 320 1234567<br>
+                                Posta Elettronica Certificata<br>
+                                Centralino unico: 012 3456
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="footer-list">
+                                <li><a href="#" data-element="faq">Leggi le FAQ</a></li>
+                                <li><a href="#">Prenotazione appuntamento</a></li>
+                                <li><a href="#" data-element="report-inefficiency">Segnalazione disservizio</a></li>
+                                <li><a href="#">Richiesta d'assistenza</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="footer-list">
+                                <li><a href="#">Amministrazione trasparente</a></li>
+                                <li><a href="#" data-element="privacy-policy-link">Informativa privacy</a></li>
+                                <li><a href="#" data-element="legal-notes">Note legali</a></li>
+                                <li><a href="#" data-element="accessibility-link">Dichiarazione di accessibilità</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Seguici su --}}
+                <div class="col-md-3 mt-md-4 footer-items-wrapper">
+                    <h4 class="footer-heading-title">Seguici su</h4>
+                    <ul class="list-inline text-start social">
                         <li class="list-inline-item">
-                            <a href="/media-policy">Media policy</a>
+                            <a class="p-1 text-white" href="#" target="_blank">
+                                <svg class="icon icon-sm icon-white align-top">
+                                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use>
+                                </svg>
+                                <span class="visually-hidden">Twitter</span>
+                            </a>
                         </li>
-                        <li class="list-inline-item">|</li>
                         <li class="list-inline-item">
-                            <a href="/mappa-sito">Mappa del sito</a>
+                            <a class="p-1 text-white" href="#" target="_blank">
+                                <svg class="icon icon-sm icon-white align-top">
+                                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use>
+                                </svg>
+                                <span class="visually-hidden">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="p-1 text-white" href="#" target="_blank">
+                                <svg class="icon icon-sm icon-white align-top">
+                                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use>
+                                </svg>
+                                <span class="visually-hidden">YouTube</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="p-1 text-white" href="#" target="_blank">
+                                <svg class="icon icon-sm icon-white align-top">
+                                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram"></use>
+                                </svg>
+                                <span class="visually-hidden">Telegram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="p-1 text-white" href="#" target="_blank">
+                                <svg class="icon icon-sm icon-white align-top">
+                                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"></use>
+                                </svg>
+                                <span class="visually-hidden">Whatsapp</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="p-1 text-white" href="#" target="_blank">
+                                <svg class="icon icon-sm icon-white align-top">
+                                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"></use>
+                                </svg>
+                                <span class="visually-hidden">RSS</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
+
             </div>
+
+            {{-- Bottom Row --}}
+            <div class="row">
+                <div class="col-12 footer-items-wrapper">
+                    <div class="footer-bottom">
+                        <a href="#">Media policy</a>
+                        <a href="#">Mappa del sito</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </footer>

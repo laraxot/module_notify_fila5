@@ -33,7 +33,7 @@
                     <a class="read-more ps-3" href="{{ $item['url'] ?? '#' }}">
                         <span class="text">Vai alla pagina</span>
                         <svg class="icon">
-                            <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
+                            <use href="{{ asset('themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
                         </svg>
                     </a>
                 </div>
@@ -53,7 +53,7 @@
                     <a class="read-more" href="{{ $item['url'] ?? '#' }}">
                         <span class="text">Vai alla pagina</span>
                         <svg class="icon ms-0">
-                            <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
+                            <use href="{{ asset('themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
                         </svg>
                     </a>
                 </div>

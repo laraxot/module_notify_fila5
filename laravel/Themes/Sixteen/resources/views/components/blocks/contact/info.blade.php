@@ -25,7 +25,7 @@
                                 <li>
                                     <a class="list-item" href="{{ $cta_url }}">
                                         <svg class="icon" aria-hidden="true">
-                                            <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-mail') }}"></use>
+                                            <use href="{{ asset('themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-mail') }}"></use>
                                         </svg>
                                         <span>{{ $cta_label }}</span>
                                     </a>

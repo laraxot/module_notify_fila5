@@ -22,7 +22,7 @@
                                 <input type="radio" id="{{ $id }}-star{{ $i }}" name="{{ $id }}-rating" value="{{ $i }}" class="visually-hidden" />
                                 <label class="rating-star" for="{{ $id }}-star{{ $i }}" aria-label="Valutazione {{ $i }} stelle su 5">
                                     <svg aria-hidden="true">
-                                        <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-star-full') }}"></use>
+                                        <use href="{{ asset('themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-star-full') }}"></use>
                                     </svg>
                                 </label>
                                 @endfor

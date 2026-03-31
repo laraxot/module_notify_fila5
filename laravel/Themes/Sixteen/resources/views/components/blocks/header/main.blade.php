@@ -1,33 +1,48 @@
-@props(['municipality' => '', 'subtitle' => '', 'search_url' => '#'])
+@props(['municipality' => '', 'subtitle' => '', 'search_url' => '#', 'logo_url' => ''])
 
-{{-- Header Main - Bootstrap Italia Style --}}
+{{-- Header Main - Bootstrap Italia Style (EXACT REPLICATION) --}}
 <div class="it-header-main-wrapper">
     <div class="container">
-        <div class="d-flex justify-content-between align-items-center py-3">
-            {{-- Left: Brand --}}
-            <div class="it-brand-wrapper">
-                <a href="/" class="d-flex align-items-center gap-3 text-decoration-none text-white">
-                    <img src="https://picsum.photos/80/80" alt="Logo" class="rounded-circle" width="80" height="80">
-                    <div class="it-brand-text">
-                        <h2 class="h5 mb-0 text-white">{{ $municipality ?: 'Nome del Comune' }}</h2>
-                        @if($subtitle)
-                        <p class="text-white mb-0 small">{{ $subtitle }}</p>
-                        @endif
+        <div class="row">
+            <div class="col-12">
+                <div class="it-header-main-content-wrapper py-4">
+                    <div class="it-brand-wrapper d-flex align-items-center gap-4">
+                        <a href="/" class="d-flex align-items-center gap-4 text-decoration-none">
+                            {{-- Logo - Circular 80x80 --}}
+                            <img src="{{ $logo_url ?: 'https://picsum.photos/80/80' }}" 
+                                 alt="Logo" 
+                                 class="it-logo rounded-circle" 
+                                 width="80" 
+                                 height="80"
+                                 style="object-fit: cover;">
+                            
+                            {{-- Brand Text --}}
+                            <div class="it-brand-text d-flex flex-column gap-1">
+                                <h2 class="it-brand-title h3 mb-0 fw-bold text-dark" style="font-size: 1.5rem; line-height: 1.2;">
+                                    {{ $municipality ?: 'NOME DEL COMUNE' }}
+                                </h2>
+                                @if($subtitle)
+                                <p class="it-brand-tagline mb-0 text-muted small" style="font-size: 0.875rem; color: #5d7083;">
+                                    {{ $subtitle }}
+                                </p>
+                                @endif
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            
-            {{-- Right: Search Button --}}
-            <div class="it-right-zone">
-                <button class="search-link" data-bs-toggle="modal" data-bs-target="#searchModal">
-                    <svg class="icon icon-white">
-                        <use href="#it-search"></use>
-                    </svg>
-                    <span class="d-none d-lg-block">Cerca</span>
-                </button>
+                </div>
             </div>
         </div>
     </div>
+</div>
+
+{{-- Search Button (Absolute positioned) --}}
+<div class="it-search-wrapper position-absolute top-0 end-0 mt-3 me-3">
+    <button class="search-link" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Cerca">
+        <svg class="icon icon-white" style="width: 24px; height: 24px;">
+            <use href="#it-search"></use>
+        </svg>
+        <span class="d-none d-lg-block ms-2">Cerca</span>
+    </button>
 </div>
 
 {{-- Search Modal --}}
