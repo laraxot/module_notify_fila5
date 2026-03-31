@@ -1,0 +1,15 @@
+{
+    "id": "1",
+    "slug": "header",
+    "name": "Header",
+    "blocks": [
+        {
+            "type": "header_brand",
+            "data": {
+                "logo": "/themes/Sixteen/images/logo-fixcity.png",
+                "name": "Comune di FixCity",
+                "slogan": "Un comune intelligente al servizio del cittadino"
+            }
+        }
+    ]
+}
