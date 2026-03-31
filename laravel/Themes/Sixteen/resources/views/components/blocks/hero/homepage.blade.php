@@ -1,7 +1,6 @@
 {{--
     Hero Homepage Block
     Reference: design-comuni-pagine-statiche/src/pages/sito/homepage.hbs #head-section
-    Pattern: HTML usa classi Bootstrap Italia, CSS via CDN + Tailwind @apply
 --}}
 @props([
     'title'          => '',
@@ -22,14 +21,16 @@
                     <div class="card-body pb-5 px-0">
                         @if(!empty($news))
                         <div class="category-top">
-                            <x-filament::icon icon="heroicon-o-calendar-days" class="icon icon-sm" aria-hidden="true" />
+                            <svg class="icon icon-sm" aria-hidden="true">
+                                <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-calendar') }}"></use>
+                            </svg>
                             <span class="title-xsmall-semi-bold fw-semibold">{{ $news['category'] ?? 'Notizie' }}</span>
                             <span class="data fw-normal">{{ $news['date'] ?? '' }}</span>
                         </div>
                         <a href="{{ $news['url'] ?? '#' }}" class="text-decoration-none">
                             <h3 class="card-title">{{ $news['title'] ?? '' }}</h3>
                         </a>
-                        <p class="mb-4 pt-3 lora">{{ $news['excerpt'] ?? '' }}</p>
+                        <p class="mb-4 pt-3 lora"><strong>{{ $news['excerpt'] ?? '' }}</strong></p>
                         @if(!empty($news['tag']))
                         <a class="chip chip-simple" href="{{ $news['url'] ?? '#' }}">
                             <span class="chip-label">{{ $news['tag'] }}</span>
@@ -38,7 +39,9 @@
                         @endif
                         <a class="read-more pb-3" href="{{ $all_news_url }}">
                             <span class="text">{{ $all_news_label }}</span>
-                            <x-filament::icon icon="heroicon-o-arrow-right" class="icon" />
+                            <svg class="icon">
+                                <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
+                            </svg>
                         </a>
                     </div>
                 </div>
