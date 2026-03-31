@@ -1,19 +1,20 @@
 {
-    "id": "tests-novita",
+    "id": "tests.novita",
     "title": {
         "it": "Novità",
         "en": "News"
     },
     "slug": "tests.novita",
+    "category": "Novità",
     "content": null,
     "content_blocks": {
         "it": [
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "view": "pub_theme::blocks.breadcrumb.default",
                     "items": [
-                        {"label": "Home", "url": "/"},
+                        {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Novità", "url": null}
                     ]
                 }
@@ -21,70 +22,39 @@
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
+                    "view": "pub_theme::blocks.hero.default",
                     "title": "Novità",
                     "subtitle": "Comunicati, avvisi e notizie",
-                    "content": "<p>Rimani aggiornato sulle ultime novità del tuo Comune</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
+                    "content": "<p>Rimani aggiornato sulle ultime novità del tuo Comune</p>"
                 }
             },
             {
-                "type": "links",
+                "type": "news-list",
                 "data": {
-                    "view": "pub_theme::components.blocks.links.list",
-                    "title": "Ultime notizie",
-                    "links": [
+                    "view": "pub_theme::blocks.news.list",
+                    "items": [
                         {
-                            "label": "Parte l'estate con oltre 300 eventi",
-                            "url": "/it/tests/novita-dettaglio",
-                            "description": "Inaugurazione lunedì 2 luglio con il concerto gratuito in piazza XX Settembre",
-                            "meta": "18 mag 2026 - Estate in città"
+                            "category": "Notizie",
+                            "date": "18 mag 2026",
+                            "title": "Parte l'estate con oltre 300 eventi",
+                            "excerpt": "Inaugurazione lunedì 2 luglio con il concerto gratuito in piazza",
+                            "url": "/it/tests/novita-dettaglio"
                         },
                         {
-                            "label": "Nuovi orari uffici comunali",
-                            "url": "/it/tests/novita-dettaglio",
-                            "description": "Dal 1 giugno nuovi orari di apertura al pubblico",
-                            "meta": "15 mag 2026 - Amministrazione"
+                            "category": "Avvisi",
+                            "date": "15 mag 2026",
+                            "title": "Nuovo orario uffici comunali",
+                            "excerpt": "Dal 1 giugno nuovi orari di apertura al pubblico",
+                            "url": "/it/tests/novita-dettaglio"
                         },
                         {
-                            "label": "Bonus trasporti per studenti",
-                            "url": "/it/tests/novita-dettaglio",
-                            "description": "Attive le domande per il bonus trasporti anno scolastico 2026/2027",
-                            "meta": "10 mag 2026 - Scuola"
-                        },
-                        {
-                            "label": "Mercatini di Natale in centro",
-                            "url": "/it/tests/novita-dettaglio",
-                            "description": "Dal 1 dicembre al 6 gennaio mercatini in piazza Maggiore",
-                            "meta": "5 mag 2026 - Eventi"
-                        },
-                        {
-                            "label": "Campagna di vaccinazione antinfluenzale",
-                            "url": "/it/tests/novita-dettaglio",
-                            "description": "Dal 15 ottobre prenotazioni aperte per la campagna vaccinale",
-                            "meta": "1 mag 2026 - Salute"
+                            "category": "Comunicati",
+                            "date": "10 mag 2026",
+                            "title": "Bandi pubblicati",
+                            "excerpt": "Disponibili i nuovi bandi per contributi alle associazioni",
+                            "url": "/it/tests/novita-dettaglio"
                         }
                     ]
-                }
-            },
-            {
-                "type": "paragraph",
-                "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<h3 class=\"text-xl font-bold mb-4\">Categorie</h3><div class=\"flex flex-wrap gap-2\"><span class=\"px-4 py-2 bg-blue-100 text-blue-800 rounded-full\">Comunicati</span><span class=\"px-4 py-2 bg-green-100 text-green-800 rounded-full\">Avvisi</span><span class=\"px-4 py-2 bg-purple-100 text-purple-800 rounded-full\">Eventi</span><span class=\"px-4 py-2 bg-orange-100 text-orange-800 rounded-full\">Amministrazione</span></div>",
-                    "class": "py-6"
-                }
-            },
-            {
-                "type": "cta",
-                "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Iscriviti alla newsletter",
-                    "description": "Rimani aggiornato ricevendo le novità direttamente nella tua email",
-                    "button_text": "Iscriviti ora",
-                    "button_url": "/it/tests/newsletter",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
                 }
             }
         ],
