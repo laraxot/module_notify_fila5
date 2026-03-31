@@ -2,23 +2,27 @@
     "id": "tests.homepage",
     "slug": "tests.homepage",
     "title": {
-        "it": "Homepage",
+        "it": "Homepage - Nome del Comune",
         "en": "Homepage"
     },
     "content_blocks": {
         "it": [
             {
-                "type": "hero",
+                "type": "hero_homepage",
                 "data": {
                     "view": "pub_theme::components.blocks.hero.homepage",
+                    "title": "Nome del Comune",
+                    "subtitle": "Un comune da vivere",
                     "section_title": "CONTENUTI IN EVIDENZA",
-                    "featured_news": {
-                        "date": "18 mag 2022",
-                        "title": "PARTE L'ESTATE CON OLTRE 300 EVENTI, SPETTACOLI E INIZIATIVE",
-                        "excerpt": "Tutti gli appuntamenti del calendario 'Estate in città 2022'",
-                        "url": "#",
-                        "image": "/images/estate-citta.jpg"
-                    }
+                    "news": {
+                        "category": "Notizie",
+                        "date": "18 mag 2026",
+                        "title": "PARTE L'ESTATE CON OLTRE 300 EVENTI IN CENTRO E NEI QUARTIERI",
+                        "excerpt": "Inaugurazione lunedì 2 luglio con il concerto gratuito in piazza XX Settembre degli Sweet Soul Music Revue. Sul palco 20 musicisti da tutto il mondo.",
+                        "url": "/it/tests/notizia",
+                        "tag": "Estate in città"
+                    },
+                    "image": "https://picsum.photos/800/600"
                 }
             },
             {
@@ -28,17 +32,20 @@
                     "title": "Organi di governo",
                     "items": [
                         {
-                            "title": "Il Sindaco della città",
-                            "name": "Mario Rossi",
-                            "url": "/amministrazione/organi/sindaco"
+                            "title": "Mario Rossi",
+                            "subtitle": "Il Sindaco della città",
+                            "url": "/it/tests/amministrazione",
+                            "image": "https://picsum.photos/150/200"
                         },
                         {
                             "title": "La Giunta Comunale",
-                            "url": "/amministrazione/organi/giunta"
+                            "subtitle": "La giunta, nominata dal sindaco, esercita collegialmente le funzioni ad essa attribuite dalla legge.",
+                            "url": "/it/tests/amministrazione"
                         },
                         {
                             "title": "Il Consiglio Comunale",
-                            "url": "/amministrazione/organi/consiglio"
+                            "subtitle": "Il Consiglio è un organo collegiale ed elettivo che rimane in carica per 5 anni.",
+                            "url": "/it/tests/amministrazione"
                         }
                     ]
                 }
@@ -48,11 +55,14 @@
                 "data": {
                     "view": "pub_theme::components.blocks.events.calendar",
                     "month": "SETTEMBRE",
-                    "year": "2022",
+                    "year": "2026",
                     "events": [
-                        {"date": "15 LUN", "title": "Saldo TASI", "url": "#"},
-                        {"date": "20 MAR", "title": "Concerto gratuito", "url": "#"},
-                        {"date": "21 MAR", "title": "Mostra fotografica", "url": "#"}
+                        {"day": "15", "weekday": "lun", "title": "Saldo TASI", "url": "#"},
+                        {"day": "16", "weekday": "mar", "title": "Presentazione mostra 'Mediterraneo'", "url": "#"},
+                        {"day": "18", "weekday": "gio", "title": "Evento 'La notte bianca dei bambini'", "url": "#"},
+                        {"day": "19", "weekday": "ven", "title": "Concerto della Banda Civica", "url": "#"},
+                        {"day": "20", "weekday": "sab", "title": "Mercato straordinario", "url": "#"},
+                        {"day": "21", "weekday": "dom", "title": "Festa di quartiere", "url": "#"}
                     ]
                 }
             },
@@ -60,45 +70,98 @@
                 "type": "topics_highlight",
                 "data": {
                     "view": "pub_theme::components.blocks.topics.highlight",
-                    "title": "ARGOMENTI IN EVIDENZA",
+                    "title": "Argomenti in evidenza",
                     "items": [
-                        {"title": "Trasporto Pubblico", "url": "#", "icon": "bus"},
-                        {"title": "Mobilità in Comune", "url": "#", "icon": "map"},
-                        {"title": "Animale Domestico", "url": "#", "icon": "paw"},
-                        {"title": "Sport", "url": "#", "icon": "fitness"}
+                        {
+                            "title": "Trasporto pubblico",
+                            "description": "Informazioni sui servizi di trasporto pubblico e servizi taxi",
+                            "url": "/it/tests/argomento",
+                            "external": "Mobilità in Comune",
+                            "external_url": "#"
+                        },
+                        {
+                            "title": "Animale domestico",
+                            "description": "Informazioni sui servizi e le norme previste dal comune per gli animali domestici.",
+                            "url": "/it/tests/argomento",
+                            "links": [
+                                {"title": "Come adottare un cane al Canile Municipale", "url": "#"},
+                                {"title": "Elenco delle aree per cani", "url": "#"},
+                                {"title": "Come segnalare una colonia felina", "url": "#"}
+                            ]
+                        },
+                        {
+                            "title": "Sport",
+                            "description": "Tutto quello che c'è da sapere sulle strutture sportive comunali.",
+                            "url": "/it/tests/argomento",
+                            "links": [
+                                {"title": "Tutte le strutture sportive della città", "url": "#"},
+                                {"title": "Concessione di contributi ad enti sportivi", "url": "#"}
+                            ]
+                        }
                     ],
-                    "show_all_url": "/argomenti"
+                    "other_topics": ["Associazioni", "Concorsi", "Energie rinnovabili", "Gestione rifiuti", "Imposte", "Istruzione", "Pista ciclabile"],
+                    "show_all_url": "/it/tests/argomenti"
                 }
             },
             {
                 "type": "thematic_sites",
                 "data": {
                     "view": "pub_theme::components.blocks.thematic.sites",
-                    "title": "SITI TEMATICI",
+                    "title": "Siti tematici",
                     "items": [
-                        {"title": "Mobilità in Comune", "url": "#"},
-                        {"title": "Turismo", "url": "#"},
-                        {"title": "Musei Civici", "url": "#"}
+                        {
+                            "title": "Mobilità in Comune",
+                            "description": "Il sito del turismo del Comune e della Città Metropolitana",
+                            "url": "#",
+                            "color": "blue"
+                        },
+                        {
+                            "title": "Turismo",
+                            "description": "Il sito che offre informazioni sulle attività turistiche attive in città",
+                            "url": "#",
+                            "color": "yellow"
+                        },
+                        {
+                            "title": "Musei Civici",
+                            "description": "Tutte le informazioni sui musei e gli eventi culturali della città",
+                            "url": "#",
+                            "color": "dark"
+                        }
                     ]
                 }
             },
             {
-                "type": "search_feedback",
+                "type": "useful_links",
                 "data": {
-                    "view": "pub_theme::components.blocks.search.feedback",
-                    "search_placeholder": "Cerca una parola chiave",
-                    "feedback_title": "Quanto sono chiare le informazioni presenti in questo sito?"
+                    "view": "pub_theme::components.blocks.links.useful",
+                    "title": "Link utili",
+                    "links": [
+                        {"title": "Rilascio Carta Identità Elettronica (CIE)", "url": "#"},
+                        {"title": "Cambio di residenza", "url": "#"},
+                        {"title": "Tributi online", "url": "#"},
+                        {"title": "Prenotazione appuntamenti", "url": "#"},
+                        {"title": "Rilascio tessera elettorale", "url": "#"},
+                        {"title": "Voucher connettività", "url": "#"}
+                    ]
                 }
             },
             {
-                "type": "contact_services",
+                "type": "feedback_rating",
                 "data": {
-                    "view": "pub_theme::components.blocks.contact.services",
-                    "contact_title": "Contatta il Comune",
-                    "report_title": "Problemi in città"
+                    "view": "pub_theme::components.blocks.feedback.rating",
+                    "title": "Quanto sono chiare le informazioni su questa pagina?",
+                    "description": "Aiutaci a migliorare il servizio"
                 }
             }
         ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": [],
         "en": []
     }
 }
