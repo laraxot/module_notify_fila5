@@ -150,3 +150,46 @@ Ogni pagina supporta sezioni CMS dinamiche:
 - [Ralph Loop](.qwen/skills/ralph-loop/)
 - [Laravel Folio](https://laravel.com/docs/folio)
 - [Livewire Volt](https://livewire.laravel.com/docs/volt)
+
+## Aggiornamento: Pagine Dettaglio e Servizi
+
+### Pagine Dettaglio (2)
+- [x] `/it/novita/[slug]` - Dettaglio notizia con share social
+- [x] `/it/eventi/[slug]` - Dettaglio evento con info e prenotazione
+
+### Pagine Amministrazione (2)
+- [x] `/it/amministrazione/aree` - Aree amministrative
+- [x] `/it/amministrazione/uffici` - Uffici comunali con orari
+
+### Pagine Servizi (1)
+- [x] `/it/servizi/[categoria]` - Servizi per categoria
+
+## Totale Complessivo: 15 pagine create
+
+## Features Implementate
+
+### Novità Dettaglio
+- ✅ Header con data e categoria
+- ✅ Featured image con didascalia
+- ✅ Content prose-style
+- ✅ Share buttons (Facebook, Twitter, Instagram)
+- ✅ Notizie correlate
+
+### Eventi Dettaglio
+- ✅ Hero con info evento (data, ora, luogo)
+- ✅ Info box con dettagli
+- ✅ Programma dell'evento
+- ✅ CTA per prenotazione
+- ✅ Condividi evento
+
+### Amministrazione
+- ✅ Elenco aree con responsabili
+- ✅ Tabella uffici con orari
+- ✅ Mappa edificio interattiva
+- ✅ Contatti diretti (email, telefono)
+
+### Servizi
+- ✅ Lista servizi per categoria
+- ✅ Card navigabili
+- ✅ CTA per accesso servizio
+

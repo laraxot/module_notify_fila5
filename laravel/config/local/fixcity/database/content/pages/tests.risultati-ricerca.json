@@ -12,7 +12,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Risultati di ricerca", "url": null}
@@ -22,7 +22,7 @@
             {
                 "type": "search-results",
                 "data": {
-                    "view": "pub_theme::blocks.search.results",
+                    "view": "pub_theme::components.blocks.search.results",
                     "query": "termine cercato",
                     "count": 15,
                     "results": [
@@ -50,7 +50,7 @@
             {
                 "type": "pagination",
                 "data": {
-                    "view": "pub_theme::blocks.pagination.default",
+                    "view": "pub_theme::components.blocks.pagination.default",
                     "current": 1,
                     "total": 3,
                     "prev": null,

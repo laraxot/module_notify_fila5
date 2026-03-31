@@ -12,7 +12,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Argomenti", "url": "/it/tests/argomenti"},
@@ -23,7 +23,7 @@
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::blocks.hero.default",
+                    "view": "pub_theme::components.blocks.hero.default",
                     "title": "Dettaglio argomento",
                     "subtitle": "Informazioni e servizi correlati",
                     "content": "<p>Esplora tutti i servizi e le informazioni relative a questo argomento</p>"
@@ -32,7 +32,7 @@
             {
                 "type": "cards-grid",
                 "data": {
-                    "view": "pub_theme::blocks.cards.grid",
+                    "view": "pub_theme::components.blocks.cards.grid",
                     "title": "Servizi correlati",
                     "cards": [
                         {"title": "Servizio 1", "description": "Descrizione del servizio", "url": "/it/tests/servizio-dettaglio"},
@@ -44,7 +44,7 @@
             {
                 "type": "links-list",
                 "data": {
-                    "view": "pub_theme::blocks.links.list",
+                    "view": "pub_theme::components.blocks.links.list",
                     "title": "Documenti utili",
                     "links": [
                         {"label": "Documento 1", "url": "#", "description": "Descrizione documento"},
