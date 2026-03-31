@@ -1,5 +1,9 @@
 <header class="it-header-wrapper" data-bs-target="#header-nav-wrapper" role="banner">
-    {{-- Level 1: Top Bar (Slim) - Bootstrap Italia EXACT Structure --}}
+    {{-- ============================================
+        Level 1: Top Bar (Slim Header)
+        Background: DARK GREEN (#00614a)
+        Contains: Region link, Language, Login
+        ============================================ --}}
     <div class="it-header-slim-wrapper">
         <div class="container">
             <div class="row">
@@ -27,7 +31,7 @@
                                     <span class="visually-hidden">Lingua attiva:</span>
                                     <span>ITA</span>
                                     <svg class="icon">
-                                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-chevron-down"></use>
+                                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
                                     </svg>
                                 </button>
                                 <div class="dropdown-menu" id="languages">
@@ -113,18 +117,25 @@
         </div>
     </div>
     
-    {{-- Level 2: Main Header (Center) - Bootstrap Italia EXACT Structure --}}
+    {{-- ============================================
+        Level 2: Main Header (Center)
+        Background: GREEN (#007a52)
+        Contains: Logo, Municipality Name, Slogan, Social, Search
+        ============================================ --}}
     <div class="it-header-center-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="it-header-center-content-wrapper">
-                        {{-- Brand/Logo --}}
+                        {{-- Brand/Logo Section --}}
                         <div class="it-brand-wrapper">
-                            <a href="/" aria-label="Nome del Comune - Vai alla homepage">
+                            <a href="/" aria-label="Il mio Comune - Vai alla homepage">
+                                {{-- Logo SVG (Bootstrap Italia PA icon) --}}
                                 <svg width="82" height="82" class="icon" aria-hidden="true">
                                     <use href="/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
                                 </svg>
+                                
+                                {{-- Municipality Name and Slogan --}}
                                 <div class="it-brand-text">
                                     <div class="it-brand-title">Il mio Comune</div>
                                     <div class="it-brand-tagline d-none d-md-block">Un comune da vivere</div>
@@ -132,9 +143,9 @@
                             </a>
                         </div>
                         
-                        {{-- Right Zone: Social + Search --}}
+                        {{-- Right Zone: Social Media + Search --}}
                         <div class="it-right-zone">
-                            {{-- Social Media --}}
+                            {{-- Social Media Links --}}
                             <div class="it-socials d-none d-lg-flex">
                                 <span>Seguici su</span>
                                 <ul>
@@ -183,7 +194,7 @@
                                 </ul>
                             </div>
                             
-                            {{-- Search Toggle --}}
+                            {{-- Search Toggle Button --}}
                             <div class="it-search-wrapper">
                                 <span class="d-none d-md-block">Cerca</span>
                                 <button class="search-link rounded-icon" 
@@ -203,119 +214,125 @@
         </div>
     </div>
     
-    {{-- Level 3: Navigation Bar - Bootstrap Italia EXACT Structure --}}
-    <div class="it-header-navbar-wrapper" id="header-nav-wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="navbar navbar-expand-lg" aria-label="Navigazione principale">
-                        {{-- Hamburger Toggle --}}
-                        <button class="custom-navbar-toggler" 
-                                type="button" 
-                                aria-controls="nav4" 
-                                aria-expanded="false" 
-                                aria-label="Mostra/Nascondi la navigazione"
-                                data-bs-toggle="navbarcollapsible"
-                                data-bs-target="#nav4">
-                            <svg class="icon" aria-hidden="true">
-                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
-                            </svg>
-                        </button>
-                        
-                        {{-- Collapsible Menu --}}
-                        <div class="navbar-collapsable" id="nav4">
-                            <div class="overlay"></div>
-                            <div class="close-div">
-                                <button class="btn close-menu" type="button">
-                                    <span class="visually-hidden">Nascondi la navigazione</span>
-                                    <svg class="icon" aria-hidden="true">
-                                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-close"></use>
-                                    </svg>
-                                </button>
-                            </div>
+    {{-- ============================================
+        Level 3: Navigation Bar
+        Background: WHITE
+        Contains: Hamburger menu, Main navigation, Secondary navigation
+        ============================================ --}}
+    <div class="it-nav-wrapper">
+        <div class="it-header-navbar-wrapper" id="header-nav-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg" aria-label="Navigazione principale">
+                            {{-- Hamburger Toggle Button --}}
+                            <button class="custom-navbar-toggler" 
+                                    type="button" 
+                                    aria-controls="nav4" 
+                                    aria-expanded="false" 
+                                    aria-label="Mostra/Nascondi la navigazione"
+                                    data-bs-toggle="navbarcollapsible"
+                                    data-bs-target="#nav4">
+                                <svg class="icon" aria-hidden="true">
+                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
+                                </svg>
+                            </button>
                             
-                            <div class="menu-wrapper">
-                                {{-- Logo Hamburger (Mobile) --}}
-                                <a href="/" class="logo-hamburger">
-                                    <svg class="icon" aria-hidden="true">
-                                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
-                                    </svg>
-                                    <div class="it-brand-text">
-                                        <div class="it-brand-title">Nome del Comune</div>
+                            {{-- Collapsible Mobile Menu --}}
+                            <div class="navbar-collapsable" id="nav4">
+                                <div class="overlay"></div>
+                                <div class="close-div">
+                                    <button class="btn close-menu" type="button">
+                                        <span class="visually-hidden">Nascondi la navigazione</span>
+                                        <svg class="icon" aria-hidden="true">
+                                            <use href="/bootstrap-italia/dist/svg/sprites.svg#it-close"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                
+                                <div class="menu-wrapper">
+                                    {{-- Logo Hamburger (Mobile Only) --}}
+                                    <a href="/" class="logo-hamburger">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use href="/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
+                                        </svg>
+                                        <div class="it-brand-text">
+                                            <div class="it-brand-title">Nome del Comune</div>
+                                        </div>
+                                    </a>
+                                    
+                                    {{-- Primary Navigation --}}
+                                    <nav aria-label="Principale">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/amministrazione">
+                                                    <span>Amministrazione</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/novita">
+                                                    <span>Novità</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/servizi">
+                                                    <span>Servizi</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/vivere">
+                                                    <span>Vivere il Comune</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    
+                                    {{-- Secondary Navigation --}}
+                                    <nav aria-label="Secondaria">
+                                        <ul class="navbar-nav navbar-secondary">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/iscrizioni">
+                                                    <span>Iscrizioni</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/estate-citta">
+                                                    <span>Estate in città</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/polizia-locale">
+                                                    <span>Polizia locale</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/argomenti">
+                                                    <span>Tutti gli argomenti</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    
+                                    {{-- Social Media (Mobile Only) --}}
+                                    <div class="it-socials">
+                                        <span>Seguici su</span>
+                                        <ul>
+                                            <li><a href="#" aria-label="Twitter"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use></svg></a></li>
+                                            <li><a href="#" aria-label="Facebook"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use></svg></a></li>
+                                            <li><a href="#" aria-label="YouTube"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use></svg></a></li>
+                                        </ul>
                                     </div>
-                                </a>
-                                
-                                {{-- Primary Navigation --}}
-                                <nav aria-label="Principale">
-                                    <ul class="navbar-nav">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/amministrazione">
-                                                <span>Amministrazione</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/novita">
-                                                <span>Novità</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/servizi">
-                                                <span>Servizi</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/vivere">
-                                                <span>Vivere il Comune</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                
-                                {{-- Secondary Navigation --}}
-                                <nav aria-label="Secondaria">
-                                    <ul class="navbar-nav navbar-secondary">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/iscrizioni">
-                                                <span>Iscrizioni</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/estate-citta">
-                                                <span>Estate in città</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/polizia-locale">
-                                                <span>Polizia locale</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/argomenti">
-                                                <span>Tutti gli argomenti</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                
-                                {{-- Social (Mobile) --}}
-                                <div class="it-socials">
-                                    <span>Seguici su</span>
-                                    <ul>
-                                        <li><a href="#" aria-label="Twitter"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use></svg></a></li>
-                                        <li><a href="#" aria-label="Facebook"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use></svg></a></li>
-                                        <li><a href="#" aria-label="YouTube"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use></svg></a></li>
-                                    </ul>
                                 </div>
                             </div>
-                        </div>
-                    </nav>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-{{-- Search Modal - Bootstrap Italia EXACT Structure --}}
+{{-- Search Modal --}}
 <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="search-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
