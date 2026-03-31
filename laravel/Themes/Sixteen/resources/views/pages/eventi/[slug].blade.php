@@ -38,15 +38,15 @@ new class extends Component {
                 <h1 class="text-4xl font-bold mb-4">Nome dell'Evento</h1>
                 <div class="flex flex-wrap gap-6 text-lg">
                     <span class="flex items-center gap-2">
-                        <x-icon name="heroicon-o-calendar" class="w-6 h-6" />
+                        <x-filament::icon icon="heroicon-o-calendar" class="w-6 h-6" />
                         20 Marzo 2026
                     </span>
                     <span class="flex items-center gap-2">
-                        <x-icon name="heroicon-o-clock" class="w-6 h-6" />
+                        <x-filament::icon icon="heroicon-o-clock" class="w-6 h-6" />
                         15:00 - 18:00
                     </span>
                     <span class="flex items-center gap-2">
-                        <x-icon name="heroicon-o-map-pin" class="w-6 h-6" />
+                        <x-filament::icon icon="heroicon-o-map-pin" class="w-6 h-6" />
                         Piazza Roma
                     </span>
                 </div>
@@ -98,11 +98,11 @@ new class extends Component {
             {{-- CTA --}}
             <div class="flex gap-4">
                 <a href="#" class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors font-semibold">
-                    <x-icon name="heroicon-o-ticket" class="w-5 h-5" />
+                    <x-filament::icon icon="heroicon-o-ticket" class="w-5 h-5" />
                     Prenota Ora
                 </a>
                 <a href="#" class="inline-flex items-center gap-2 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white px-6 py-3 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors font-semibold">
-                    <x-icon name="heroicon-o-share" class="w-5 h-5" />
+                    <x-filament::icon icon="heroicon-o-share" class="w-5 h-5" />
                     Condividi
                 </a>
             </div>

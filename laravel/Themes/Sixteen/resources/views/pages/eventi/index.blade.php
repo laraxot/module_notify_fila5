@@ -59,7 +59,7 @@ new class extends Component {
                             <span class="text-sm text-primary font-semibold">{{ $event['date'] }}</span>
                             <h3 class="text-xl font-semibold mt-2 mb-2">{{ $event['title'] }}</h3>
                             <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                                <x-icon name="heroicon-o-map-pin" class="w-4 h-4 inline mr-1" />
+                                <x-filament::icon icon="heroicon-o-map-pin" class="w-4 h-4 inline mr-1" />
                                 {{ $event['location'] }}
                             </p>
                             <a href="{{ $event['url'] }}" class="text-primary hover:underline font-medium">
