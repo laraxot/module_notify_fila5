@@ -25,7 +25,7 @@
 }
 
 .it-header-center-wrapper .social-links a {
-    @apply text-primary color: #003366 transition-colors;
+    color: #0066B3; transition: color 0.2s;
 }
 
 /* Navigation Component
@@ -47,7 +47,7 @@
 }
 
 .it-nav-wrapper .nav-item.highlighted .nav-link {
-    @apply font-bold text-primary;
+    font-weight: 700; color: #0066B3;
 }
 
 .it-nav-wrapper .submenu-wrapper {
@@ -175,7 +175,7 @@
 }
 
 .contact-section .quick-link {
-    @apply text-primary color: #003366 hover:underline inline-flex items-center gap-2;
+    color: #0066B3; text-decoration: underline; display: inline-flex; align-items: center; gap: 0.5rem;
 }
 
 /* Footer Component
