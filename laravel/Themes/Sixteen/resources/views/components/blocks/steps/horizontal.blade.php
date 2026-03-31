@@ -1,21 +1,35 @@
-@props(['title' => '', 'steps' => []])
-<section class="py-10 bg-white">
-    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        @if($title)
-            <h2 class="text-2xl font-semibold text-slate-900">{{ $title }}</h2>
-        @endif
-        <ol class="mt-6 grid gap-4 md:grid-cols-3">
-            @foreach($steps as $step)
-                <li class="rounded-2xl border border-slate-200 p-6">
-                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-600 text-sm font-bold text-white">
-                        {{ $step['number'] ?? $loop->iteration }}
+{{-- Steps Horizontal Component --}}
+@props([
+    'title' => '',
+    'steps' => [],
+])
+
+<div class="steps-horizontal py-8">
+    @if($title)
+    <h2 class="title-xxlarge mb-6">{{ $title }}</h2>
+    @endif
+    
+    <div class="row g-4">
+        @foreach($steps as $index => $step)
+        <div class="col-12 col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="step-number mb-3">
+                        <span class="badge rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px; font-size: 1.5rem;">
+                            {{ $step['number'] ?? ($index + 1) }}
+                        </span>
                     </div>
-                    <h3 class="mt-4 text-lg font-semibold text-slate-900">{{ $step['title'] ?? 'Passo' }}</h3>
-                    @if(! empty($step['description']))
-                        <p class="mt-2 text-slate-600">{{ $step['description'] }}</p>
+                    
+                    @if(isset($step['title']))
+                    <h3 class="h5 mb-2">{{ $step['title'] }}</h3>
                     @endif
-                </li>
-            @endforeach
-        </ol>
+                    
+                    @if(isset($step['description']))
+                    <p class="text-muted">{{ $step['description'] }}</p>
+                    @endif
+                </div>
+            </div>
+        </div>
+        @endforeach
     </div>
-</section>
+</div>

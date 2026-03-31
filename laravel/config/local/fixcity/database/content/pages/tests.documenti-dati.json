@@ -1,88 +1,66 @@
 {
     "id": "tests.documenti-dati",
     "title": {
-        "it": "Documenti Dati",
-        "en": "Documenti Dati"
+        "it": "Documenti e dati",
+        "en": "Documents and data"
     },
     "slug": "tests.documenti-dati",
+    "category": "Amministrazione",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "navigation",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
+                    "view": "pub_theme::blocks.breadcrumb.default",
                     "items": [
-                        {
-                            "label": "Home",
-                            "url": "/it/tests/homepage"
-                        },
-                        {
-                            "label": "Test",
-                            "url": "/it/tests"
-                        }
-                    ],
-                    "currentPage": "Documenti Dati",
-                    "background": "white"
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Amministrazione", "url": "/it/tests/amministrazione"},
+                        {"label": "Documenti e dati", "url": null}
+                    ]
                 }
             },
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.hero",
-                    "subtitle": "Sito istituzionale",
-                    "title": "Documenti Dati",
-                    "description": "Step di raccolta dati convertito in pagina CMS con blocchi componibili.",
-                    "background": "white",
-                    "alignment": "left"
+                    "view": "pub_theme::blocks.hero.default",
+                    "title": "Documenti e dati",
+                    "subtitle": "Amministrazione trasparente",
+                    "content": "<p>Consulta i documenti, i dati e gli atti amministrativi del Comune</p>"
                 }
             },
             {
-                "type": "details",
+                "type": "resources-list",
                 "data": {
-                    "view": "pub_theme::components.blocks.details.details",
-                    "title": "Metadati pagina",
-                    "items": [
+                    "view": "pub_theme::blocks.resources.list",
+                    "resources": [
                         {
-                            "label": "Slug CMS",
-                            "value": "tests.documenti-dati"
+                            "title": "Statuto comunale",
+                            "description": "Lo statuto del Comune",
+                            "type": "PDF",
+                            "size": "2.5 MB",
+                            "url": "/download/statuto.pdf"
                         },
                         {
-                            "label": "Sorgente",
-                            "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/documenti-dati.html"
+                            "title": "Regolamento comunale",
+                            "description": "I regolamenti comunali",
+                            "type": "PDF",
+                            "size": "1.8 MB",
+                            "url": "/download/regolamento.pdf"
                         },
                         {
-                            "label": "Sezione",
-                            "value": "sito"
+                            "title": "Bilancio di previsione 2026",
+                            "description": "Approvato con delibera n. 1 del 15/01/2026",
+                            "type": "PDF",
+                            "size": "5.2 MB",
+                            "url": "/download/bilancio-2026.pdf"
                         },
                         {
-                            "label": "Stato",
-                            "value": "Generata per completare pagine vuote o invalide"
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "list",
-                "data": {
-                    "view": "pub_theme::components.blocks.list.list",
-                    "title": "Link utili di navigazione",
-                    "style": "icon",
-                    "items": [
-                        {
-                            "text": "Homepage",
-                            "url": "/it/tests/homepage",
-                            "icon": "heroicon-o-home"
-                        },
-                        {
-                            "text": "Indice test",
-                            "url": "/it/tests",
-                            "icon": "heroicon-o-squares-2x2"
-                        },
-                        {
-                            "text": "Servizi",
-                            "url": "/it/tests/servizi",
-                            "icon": "heroicon-o-wrench-screwdriver"
+                            "title": "Bilancio consuntivo 2025",
+                            "description": "Approvato con delibera n. 50 del 30/03/2026",
+                            "type": "PDF",
+                            "size": "4.8 MB",
+                            "url": "/download/consuntivo-2025.pdf"
                         }
                     ]
                 }
