@@ -1,61 +1,48 @@
-# ✅ Route Dinamica Corretta - [slug].blade.php
+# 🔄 Dynamic Route Correction - [slug].blade.php Only
 
-**Data**: 2026-03-30  
-**Correzione**: **Rimossi file blade errati**
+**Date**: 2026-03-30  
+**Status**: ✅ **CORRECTED**  
+**Owner**: Multi-Agent Team
 
-## 🎯 Concetto Corretto
+---
 
-**USARE SOLO**: `resources/views/pages/tests/[slug].blade.php`
+## 🚨 Error Fixed
 
-**NON CREARE**: File blade separati per ogni pagina
-
-## ❌ Errore Commesso
-
-### File Creati (SBAGLIATO)
+**WRONG**: Created specific blade files for each page
 ```
-resources/views/pages/tests/
-├── amministrazione.blade.php          ❌ CANCELLATO
-├── documenti-dati.blade.php           ❌ CANCELLATO
-├── novita-dettaglio.blade.php         ❌ CANCELLATO
-├── segnalazione-area-personale.blade.php  ❌ CANCELLATO
-└── segnalazioni-elenco.blade.php      ❌ CANCELLATO
+❌ amministrazione.blade.php
+❌ documenti-dati.blade.php
+❌ novita-dettaglio.blade.php
+❌ segnalazione-area-personale.blade.php
+❌ segnalazioni-elenco.blade.php
 ```
 
-### Perché è Sbagliato ❌
-1. **Duplicazione**: Ogni pagina ha il suo file blade
-2. **Non manutenibile**: 39 file da mantenere
-3. **Contro il pattern**: Folio usa route dinamiche
-4. **Inutile**: I JSON contengono già tutta la struttura
-
-## ✅ Soluzione Corretta
-
-### File Unico Dinamico
+**CORRECT**: Use ONLY dynamic route
 ```
-resources/views/pages/tests/
-├── [slug].blade.php          ✅ CORRETTO - Route dinamica
-├── homepage.blade.php        ✅ CORRETTO - Pagina speciale
-└── index.blade.php           ✅ CORRETTO - Index page
+✅ [slug].blade.php (handles ALL pages)
 ```
 
-### Come Funziona ✅
+---
 
+## ✅ Correct Architecture
+
+### Single Dynamic Route File
+
+**File**: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
+
+**Purpose**: Handle ALL test pages dynamically
+
+**How It Works**:
 ```
-URL: /it/tests/amministrazione
-  ↓
-Folio Route: [slug].blade.php
-  ↓
-Mount: $slug = 'amministrazione'
-  ↓
-Load JSON: tests.amministrazione.json
-  ↓
-Render: Content blocks dal JSON
-  ↓
-Output: HTML pagina
+/it/tests/amministrazione → loads tests.amministrazione.json
+/it/tests/documenti-dati → loads tests.documenti-dati.json
+/it/tests/novita-dettaglio → loads tests.novita-dettaglio.json
+/it/tests/segnalazione-area-personale → loads tests.segnalazione-area-personale.json
+/it/tests/segnalazioni-elenco → loads tests.segnalazioni-elenco.json
+/it/tests/* → loads tests.*.json (ANY page)
 ```
 
-## 📁 Struttura Corretta
-
-### Route Dinamica ([slug].blade.php)
+### Code Structure
 
 ```php
 <?php
@@ -78,7 +65,7 @@ new class extends Component {
         $this->slug = $slug;
         $this->pageSlug = 'tests.' . $slug;
         
-        // Load page data from JSON
+        // Load from JSON
         $jsonPath = config_path('local/fixcity/database/content/pages/' . $this->pageSlug . '.json');
         
         if (file_exists($jsonPath)) {
@@ -89,125 +76,201 @@ new class extends Component {
                 'content_blocks' => $this->pageData['content_blocks']['it'] ?? [],
             ];
         } else {
-            $this->data = [
-                'title' => 'Pagina non trovata',
-                'slug' => $slug,
-                'error' => true,
-            ];
+            $this->data = ['error' => true, 'title' => 'Pagina non trovata'];
         }
     }
 };
-
 ?>
 
 <x-layouts.app>
     @volt('tests.view')
-    <div>
-        {{-- Skip Links --}}
+    <div class="test-page-wrapper">
         <a class="skiplinks" href="#main">Vai al contenuto principale</a>
-
-        {{-- Header --}}
-        <x-section slug="header" />
-
-        {{-- Main Content --}}
-        <main class="container py-8" id="main">
-            @if(isset($this->data['error']))
-                {{-- Error: Page not found --}}
-                <div class="alert alert-danger">
-                    Pagina non trovata: {{ $this->slug }}
-                </div>
-            @else
-                {{-- Render content blocks from JSON --}}
-                @foreach($this->getContentBlocks() as $block)
-                    @includeIf($block['data']['view'], ['data' => $block['data']])
-                @endforeach
-            @endif
+        <x-section slug="header" :data="$headerData ?? []" />
+        <main class="container" id="main">
+            @foreach($this->getContentBlocks() as $block)
+                @include($block['data']['view'], $block['data'])
+            @endforeach
         </main>
-
-        {{-- Footer --}}
-        <x-section slug="footer" />
+        <x-section slug="footer" :data="$footerData ?? []" tpl="full" />
     </div>
     @endvolt
 </x-layouts.app>
 ```
 
-## 📊 Vantaggi Route Dinamica
+---
 
-### Prima (SBAGLIATO) ❌
-```
-39 file blade separati
-Ogni pagina = 1 file blade
-Difficile da mantenere
-Duplicazione di codice
-```
+## 📁 File Structure
 
-### Dopo (CORRETTO) ✅
+### ✅ What We Have Now
+
 ```
-1 file [slug].blade.php
-Tutte le pagine = 1 file
-Facile da mantenere
-Nessuna duplicazione
+laravel/Themes/Sixteen/resources/views/pages/tests/
+├── [slug].blade.php          ← ONLY dynamic route (handles ALL pages)
+├── homepage.blade.php        ← Special case (custom homepage)
+├── index.blade.php           ← Index page
+└── argomenti.blade.php       ← Example page (can be removed)
 ```
 
-## 🎯 Pattern Corretto
+### ❌ What Was Removed
 
-### JSON Files (GIÀ CORRETTI) ✅
 ```
-config/local/fixcity/database/content/pages/
-├── tests.homepage.json
-├── tests.argomenti.json
-├── tests.amministrazione.json
-├── tests.documenti-dati.json
-└── ... (39 totali)
+❌ amministrazione.blade.php         ← Use [slug].blade.php + JSON
+❌ documenti-dati.blade.php          ← Use [slug].blade.php + JSON
+❌ novita-dettaglio.blade.php        ← Use [slug].blade.php + JSON
+❌ segnalazione-area-personale.blade.php  ← Use [slug].blade.php + JSON
+❌ segnalazioni-elenco.blade.php     ← Use [slug].blade.php + JSON
 ```
-
-### Blade Files (CORRETTI) ✅
-```
-resources/views/pages/tests/
-├── [slug].blade.php      ← Route dinamica per TUTTE le pagine
-├── homepage.blade.php    ← Solo se serve layout speciale
-└── index.blade.php       ← Index page
-```
-
-## ✅ Verifica
-
-### File Rimasti
-```bash
-ls resources/views/pages/tests/
-# Deve mostrare:
-# - [slug].blade.php
-# - homepage.blade.php (opzionale)
-# - index.blade.php
-```
-
-### File Cancellati
-```bash
-# Non devono esistere:
-# - amministrazione.blade.php
-# - documenti-dati.blade.php
-# - novita-dettaglio.blade.php
-# - etc.
-```
-
-## 📝 Lessons Learned
-
-### Regola Fondamentale
-**MAI creare file blade separati per pagine JSON**
-
-### Pattern da Seguire
-1. Creare JSON per ogni pagina
-2. Usare `[slug].blade.php` per tutte le pagine
-3. Il JSON contiene tutta la struttura
-4. Il blade legge e renderizza il JSON
-
-### Eccezioni
-- `homepage.blade.php` - Solo se serve layout speciale
-- `index.blade.php` - Per la lista pagine
-- Altre pagine speciali - Solo se strettamente necessario
 
 ---
 
-**Stato**: ✅ **CORRETTO - Solo route dinamica**  
-**File Blade**: **1 ([slug].blade.php)**  
-**JSON Files**: **39 (uno per pagina)**  
-**Pattern**: **Dinamico, non statico**
+## 🔧 How It Works
+
+### 1. Request Flow
+
+```
+User visits: /it/tests/amministrazione
+    ↓
+Folio routes to: pages/tests/[slug].blade.php
+    ↓
+slug = "amministrazione"
+    ↓
+Load JSON: tests.amministrazione.json
+    ↓
+Render with blocks
+    ↓
+HTML response
+```
+
+### 2. JSON Content
+
+**File**: `laravel/config/local/fixcity/database/content/pages/tests.amministrazione.json`
+
+```json
+{
+  "id": "tests.amministrazione",
+  "title": {
+    "it": "Amministrazione",
+    "en": "Administration"
+  },
+  "slug": "tests.amministrazione",
+  "content_blocks": {
+    "it": [
+      {
+        "type": "breadcrumb",
+        "data": {
+          "view": "pub_theme::components.blocks.navigation.breadcrumb",
+          "items": [...]
+        }
+      },
+      {
+        "type": "hero",
+        "data": {
+          "view": "pub_theme::components.blocks.hero.default",
+          "title": "Amministrazione"
+        }
+      }
+    ]
+  }
+}
+```
+
+### 3. Block Rendering
+
+```php
+@foreach($this->getContentBlocks() as $block)
+    @include($block['data']['view'], $block['data'])
+@endforeach
+```
+
+**Example**:
+- Block 1: `pub_theme::components.blocks.navigation.breadcrumb`
+- Block 2: `pub_theme::components.blocks.hero.default`
+- Block 3: `pub_theme::components.blocks.administration.sections`
+
+---
+
+## ✅ Benefits of This Approach
+
+### DRY (Don't Repeat Yourself)
+- ❌ **Before**: 38 blade files (duplicated code)
+- ✅ **After**: 1 blade file ([slug].blade.php)
+- **Reduction**: 97% less code
+
+### Maintainability
+- ❌ **Before**: Change in 38 files
+- ✅ **After**: Change in 1 file
+- **Time saved**: 38x
+
+### Flexibility
+- ❌ **Before**: Need to create blade file for new page
+- ✅ **After**: Just create JSON file
+- **Easier**: Yes!
+
+### Consistency
+- ❌ **Before**: Each file could be different
+- ✅ **After**: All pages use same template
+- **Quality**: Consistent
+
+---
+
+## 📊 Pages Supported
+
+### All 38 Pages via [slug].blade.php
+
+| Page | Route | JSON File |
+|------|-------|-----------|
+| Homepage | `/it/tests/homepage` | `tests.homepage.json` |
+| Argomenti | `/it/tests/argomenti` | `tests.argomenti.json` |
+| Amministrazione | `/it/tests/amministrazione` | `tests.amministrazione.json` |
+| Documenti-dati | `/it/tests/documenti-dati` | `tests.documenti-dati.json` |
+| Servizi | `/it/tests/servizi` | `tests.servizi.json` |
+| Novita | `/it/tests/novita` | `tests.novita.json` |
+| Eventi | `/it/tests/eventi` | `tests.eventi.json` |
+| Appuntamento-* | `/it/tests/appuntamento-*` | `tests.appuntamento-*.json` |
+| Assistenza-* | `/it/tests/assistenza-*` | `tests.assistenza-*.json` |
+| Segnalazione-* | `/it/tests/segnalazione-*` | `tests.segnalazione-*.json` |
+| ...and more | ... | ... |
+
+**Total**: 38 pages, 1 blade file
+
+---
+
+## 🤖 Multi-Agent Coordination
+
+### OpenViking Context
+
+```bash
+openviking add-memory "Dynamic route correction: Use ONLY [slug].blade.php for ALL test pages. JSON files in config drive content. Removed duplicate blade files. DRY principle applied."
+```
+
+### BMAD Thread Update
+
+Update `_bmad/threads/design-comuni-pages-creation.md`:
+- Remove references to specific blade files
+- Emphasize [slug].blade.php pattern
+- Update architecture diagram
+
+### GSD Phase Update
+
+Update `.planning/phases/12-design-comuni-pages/PLAN.md`:
+- Remove blade file creation tasks
+- Add JSON creation tasks
+- Emphasize dynamic routing
+
+---
+
+## 📚 Related Documentation
+
+- [Test Pages Implementation Status](./TEST_PAGES_IMPLEMENTATION_STATUS.md)
+- [Dynamic Slug Route Created](./screenshots/DYNAMIC_SLUG_ROUTE_CREATED.md)
+- [SVG Icon Convention](./SVG_ICON_CONVENTION.md)
+- [Theme Architecture](./THEME_ARCHITECTURE_OUTFIT.md)
+
+---
+
+**Last Updated**: 2026-03-30  
+**Correction Status**: ✅ **COMPLETE**  
+**Pattern**: [slug].blade.php ONLY  
+**JSON Driven**: Yes  
+**Owner**: Multi-Agent Team
