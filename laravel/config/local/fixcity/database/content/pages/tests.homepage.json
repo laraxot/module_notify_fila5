@@ -1,141 +1,100 @@
 {
-    "id": "tests.homepage",
     "slug": "tests.homepage",
-    "title": {
-        "it": "Homepage - Nome del Comune",
-        "en": "Homepage"
-    },
+    "title": "Homepage - Nome del Comune",
+    "description": "Homepage Design Comuni",
     "content_blocks": {
         "it": [
             {
-                "type": "hero_homepage",
+                "type": "hero",
                 "data": {
                     "view": "pub_theme::components.blocks.hero.homepage",
-                    "title": "Nome del Comune",
-                    "subtitle": "Un comune da vivere",
-                    "section_title": "CONTENUTI IN EVIDENZA",
+                    "title": "NOME DEL COMUNE",
+                    "subtitle": "CONTENUTI IN EVIDENZA",
                     "news": {
-                        "category": "Notizie",
-                        "date": "18 mag 2026",
-                        "title": "PARTE L'ESTATE CON OLTRE 300 EVENTI IN CENTRO E NEI QUARTIERI",
-                        "excerpt": "Inaugurazione lunedì 2 luglio con il concerto gratuito in piazza XX Settembre degli Sweet Soul Music Revue. Sul palco 20 musicisti da tutto il mondo.",
-                        "url": "/it/tests/notizia",
+                        "date": "18 mag 2022",
+                        "title": "PARTE L'ESTATE CON OLTRE 300 EVENTI, TANTI APPUNTAMENTI PER L'ESTATE",
+                        "description": "Torna anche per il 2022, l'appuntamento con l'Estate in città. Tanti concerti, eventi e spettacoli per un'estate all'insegna della musica e del divertimento.",
+                        "url": "#",
                         "tag": "Estate in città"
                     },
-                    "image": "https://picsum.photos/800/600"
+                    "image": "https://picsum.photos/800/600",
+                    "all_news_url": "#",
+                    "all_news_label": "Tutte le novità"
                 }
             },
             {
-                "type": "governance_cards",
+                "type": "governance",
                 "data": {
                     "view": "pub_theme::components.blocks.governance.cards",
                     "title": "Organi di governo",
                     "items": [
                         {
-                            "title": "Mario Rossi",
-                            "subtitle": "Il Sindaco della città",
-                            "url": "/it/tests/amministrazione",
-                            "image": "https://picsum.photos/150/200"
+                            "name": "Mario Rossi",
+                            "title": "Il Sindaco della città",
+                            "image": "https://picsum.photos/150/200",
+                            "url": "#"
                         },
                         {
-                            "title": "La Giunta Comunale",
-                            "subtitle": "La giunta, nominata dal sindaco, esercita collegialmente le funzioni ad essa attribuite dalla legge.",
-                            "url": "/it/tests/amministrazione"
+                            "title": "La giunta comunale",
+                            "description": "La giunta, nominata dal sindaco, esercita collegialmente le funzioni ad essa attribuite dalla legge.",
+                            "url": "#"
                         },
                         {
-                            "title": "Il Consiglio Comunale",
-                            "subtitle": "Il Consiglio è un organo collegiale ed elettivo che rimane in carica per 5 anni.",
-                            "url": "/it/tests/amministrazione"
+                            "title": "Il consiglio comunale",
+                            "description": "Il Consiglio è un organo collegiale ed elettivo che rimane in carica per 5 anni.",
+                            "url": "#"
                         }
                     ]
                 }
             },
             {
-                "type": "events_calendar",
+                "type": "events",
                 "data": {
                     "view": "pub_theme::components.blocks.events.calendar",
-                    "month": "SETTEMBRE",
-                    "year": "2026",
-                    "events": [
-                        {"day": "15", "weekday": "lun", "title": "Saldo TASI", "url": "#"},
-                        {"day": "16", "weekday": "mar", "title": "Presentazione mostra 'Mediterraneo'", "url": "#"},
-                        {"day": "18", "weekday": "gio", "title": "Evento 'La notte bianca dei bambini'", "url": "#"},
-                        {"day": "19", "weekday": "ven", "title": "Concerto della Banda Civica", "url": "#"},
-                        {"day": "20", "weekday": "sab", "title": "Mercato straordinario", "url": "#"},
-                        {"day": "21", "weekday": "dom", "title": "Festa di quartiere", "url": "#"}
+                    "month": "SETTEMBRE 2022",
+                    "items": [
+                        {"day": "15", "weekday": "LUN", "events": [{"title": "Saldo TASI", "url": "#"}, {"title": "Concerto gratuito piazza XXIV maggio", "url": "#"}]},
+                        {"day": "16", "weekday": "MAR", "events": [{"title": "Presentazione mostra Mediterraneo", "url": "#"}, {"title": "Convocazione Consiglio Comunale", "url": "#"}]},
+                        {"day": "17", "weekday": "MER", "events": [{"title": "Presentazione piano lavori pubblici 2018", "url": "#"}]},
+                        {"day": "18", "weekday": "GIO", "events": [{"title": "La notte bianca dei bambini", "url": "#"}, {"title": "Concerto della Banda Civica", "url": "#"}]},
+                        {"day": "19", "weekday": "VEN", "events": [{"title": "Saldo TASI", "url": "#"}, {"title": "Seconda rata TARI", "url": "#"}]},
+                        {"day": "20", "weekday": "SAB", "events": [{"title": "Concerto gratuito piazza XXIV maggio", "url": "#"}]},
+                        {"day": "21", "weekday": "DOM", "events": [{"title": "Saldo TASI", "url": "#"}]}
                     ]
                 }
             },
             {
-                "type": "topics_highlight",
+                "type": "topics",
                 "data": {
                     "view": "pub_theme::components.blocks.topics.highlight",
-                    "title": "Argomenti in evidenza",
+                    "title": "ARGOMENTI IN EVIDENZA",
+                    "show_all_url": "/it/tests/argomenti",
                     "items": [
-                        {
-                            "title": "Trasporto pubblico",
-                            "description": "Informazioni sui servizi di trasporto pubblico e servizi taxi",
-                            "url": "/it/tests/argomento",
-                            "external": "Mobilità in Comune",
-                            "external_url": "#"
-                        },
-                        {
-                            "title": "Animale domestico",
-                            "description": "Informazioni sui servizi e le norme previste dal comune per gli animali domestici.",
-                            "url": "/it/tests/argomento",
-                            "links": [
-                                {"title": "Come adottare un cane al Canile Municipale", "url": "#"},
-                                {"title": "Elenco delle aree per cani", "url": "#"},
-                                {"title": "Come segnalare una colonia felina", "url": "#"}
-                            ]
-                        },
-                        {
-                            "title": "Sport",
-                            "description": "Tutto quello che c'è da sapere sulle strutture sportive comunali.",
-                            "url": "/it/tests/argomento",
-                            "links": [
-                                {"title": "Tutte le strutture sportive della città", "url": "#"},
-                                {"title": "Concessione di contributi ad enti sportivi", "url": "#"}
-                            ]
-                        }
+                        {"title": "Trasporto pubblico", "url": "#", "description": "Informazioni sui servizi di trasporto pubblico e servizi taxi", "external": "Mobilità in Comune", "external_url": "#"},
+                        {"title": "Animale domestico", "url": "#", "description": "Informazioni sui servizi e le norme previste dal comune per gli animali domestici."},
+                        {"title": "Sport", "url": "#", "description": "Tutto quello che c'è da sapere sulle strutture sportive comunali."}
                     ],
-                    "other_topics": ["Associazioni", "Concorsi", "Energie rinnovabili", "Gestione rifiuti", "Imposte", "Istruzione", "Pista ciclabile"],
-                    "show_all_url": "/it/tests/argomenti"
+                    "other_topics": ["Associazioni", "Concorsi", "Energie rinnovabili", "Gestione rifiuti", "Imposte", "Istruzione", "Pista ciclabile"]
                 }
             },
             {
-                "type": "thematic_sites",
+                "type": "thematic",
                 "data": {
                     "view": "pub_theme::components.blocks.thematic.sites",
                     "title": "Siti tematici",
                     "items": [
-                        {
-                            "title": "Mobilità in Comune",
-                            "description": "Il sito del turismo del Comune e della Città Metropolitana",
-                            "url": "#",
-                            "color": "blue"
-                        },
-                        {
-                            "title": "Turismo",
-                            "description": "Il sito che offre informazioni sulle attività turistiche attive in città",
-                            "url": "#",
-                            "color": "yellow"
-                        },
-                        {
-                            "title": "Musei Civici",
-                            "description": "Tutte le informazioni sui musei e gli eventi culturali della città",
-                            "url": "#",
-                            "color": "dark"
-                        }
+                        {"title": "Mobilità in Comune", "description": "Il sito del turismo del Comune e della Città Metropolitana", "url": "#"},
+                        {"title": "Turismo", "description": "Il sito che offre informazioni sulle attività turistiche attive in città", "url": "#"},
+                        {"title": "Musei Civici", "description": "Tutte le informazioni sui musei e gli eventi culturali della città", "url": "#"}
                     ]
                 }
             },
             {
-                "type": "useful_links",
+                "type": "links",
                 "data": {
                     "view": "pub_theme::components.blocks.links.useful",
-                    "links_heading": "Link utili",
                     "search_placeholder": "Cerca una parola chiave",
+                    "links_heading": "Link utili",
                     "items": [
                         {"label": "Rilascio Carta Identità Elettronica (CIE)", "url": "#"},
                         {"label": "Cambio di residenza", "url": "#"},
@@ -147,22 +106,23 @@
                 }
             },
             {
-                "type": "feedback_rating",
+                "type": "feedback",
                 "data": {
                     "view": "pub_theme::components.blocks.feedback.rating",
-                    "title": "Quanto sono chiare le informazioni su questa pagina?",
-                    "description": "Aiutaci a migliorare il servizio"
+                    "title": "Quanto sono chiare le informazioni su questa pagina?"
+                }
+            },
+            {
+                "type": "contact",
+                "data": {
+                    "view": "pub_theme::components.blocks.contact.info",
+                    "title": "Hai riscontrato dei problemi?",
+                    "description": "Aiutaci a migliorare questo sito.",
+                    "cta_label": "Segnala un problema",
+                    "cta_url": "#"
                 }
             }
         ],
-        "en": []
-    },
-    "sidebar_blocks": {
-        "it": [],
-        "en": []
-    },
-    "footer_blocks": {
-        "it": [],
         "en": []
     }
 }
