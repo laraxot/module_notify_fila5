@@ -1,6 +1,13 @@
 {{--
-    Bootstrap Italia Full Footer
+    Bootstrap Italia Full Footer - CORRECTED COLORS
     Source: https://italia.github.io/design-comuni-pagine-statiche/sito/argomenti.html
+    
+    EXACT Design Comuni Colors:
+    - Footer Background: #003D73 (Blu Scuro) - SAME as top bar
+    - Text: #FFFFFF (White)
+    - Links: rgba(255,255,255,0.8) (White 80% opacity)
+    - Hover: #FFFFFF (Pure white)
+    - Legal Links: rgba(255,255,255,0.6) (White 60% opacity)
     
     Usage:
     <x-section slug="footer" />
@@ -72,7 +79,8 @@
     ]
 ])
 
-<footer class="it-footer" id="footer">
+{{-- Footer - EXACT Design Comuni color #003D73 (SAME as top bar) --}}
+<footer class="it-footer" id="footer" style="background-color: #003D73;">
     
     {{-- Feedback Module - Bootstrap Italia Style --}}
     <section class="py-5 bg-light">
@@ -171,10 +179,10 @@
                         <div>
                             <h4 class="h6 mb-2">Contatta il Comune</h4>
                             <ul class="list-unstyled small mb-0">
-                                <li><a href="#" class="text-white text-decoration-underline">FAQ</a></li>
-                                <li><a href="#" class="text-white text-decoration-underline">Assistenza</a></li>
-                                <li><a href="#" class="text-white text-decoration-underline">Numero Verde: {{ $greenNumber }}</a></li>
-                                <li><a href="#" class="text-white text-decoration-underline">Prenotazione appuntamento</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline" style="color: rgba(255,255,255,0.8);">FAQ</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline" style="color: rgba(255,255,255,0.8);">Assistenza</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline" style="color: rgba(255,255,255,0.8);">Numero Verde: {{ $greenNumber }}</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline" style="color: rgba(255,255,255,0.8);">Prenotazione appuntamento</a></li>
                             </ul>
                         </div>
                     </div>
@@ -189,7 +197,7 @@
                         <div>
                             <h4 class="h6 mb-2">Problemi in città?</h4>
                             <ul class="list-unstyled small mb-0">
-                                <li><a href="#" class="text-white text-decoration-underline">Segnala un disservizio</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline" style="color: rgba(255,255,255,0.8);">Segnala un disservizio</a></li>
                             </ul>
                         </div>
                     </div>
@@ -215,9 +223,9 @@
                             </form>
                             <small class="text-white-50">Forse stavi cercando:</small>
                             <ul class="list-unstyled small mb-0">
-                                <li><a href="#" class="text-white text-decoration-underline">CIE</a></li>
-                                <li><a href="#" class="text-white text-decoration-underline">Residenza</a></li>
-                                <li><a href="#" class="text-white text-decoration-underline">Tributi</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline" style="color: rgba(255,255,255,0.8);">CIE</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline" style="color: rgba(255,255,255,0.8);">Residenza</a></li>
+                                <li><a href="#" class="text-white text-decoration-underline" style="color: rgba(255,255,255,0.8);">Tributi</a></li>
                             </ul>
                         </div>
                     </div>

@@ -1,29 +1,63 @@
-@props(['title' => '', 'items' => []])
+{{--
+    Governance Cards Block - Organi di governo
+    Reference: design-comuni-pagine-statiche/src/pages/sito/homepage.hbs #calendario section (card-wrapper)
+    Pattern: HTML usa classi Bootstrap Italia, CSS via CDN + Tailwind @apply
+--}}
+@props([
+    'title' => 'Organi di governo',
+    'items' => [],
+])
 
-{{-- Governance Cards - Bootstrap Italia Style --}}
-<section class="governance-section py-8">
+<div class="section section-muted pb-5 px-lg-5 pt-0">
     <div class="container">
-        <h2 class="title-xxlarge mb-6">{{ $title ?: 'Organi di governo' }}</h2>
-        <div class="row g-4">
-            @foreach($items as $item)
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper card-space">
-                    <div class="card card-bg">
-                        <div class="card-body">
-                            @if(isset($item['image']))
-                            <img src="{{ $item['image'] }}" alt="" class="card-img-top mb-3" width="150" height="200">
+        <div class="row mb-2">
+            <div class="card-wrapper px-0 card-overlapping card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
+                @foreach($items as $item)
+
+                @if(!empty($item['image']))
+                {{-- Card con immagine (es. Sindaco) --}}
+                <div class="card card-teaser card-teaser-image card-flex no-after rounded shadow-sm border border-light mb-0">
+                    <div class="card-image-wrapper with-read-more">
+                        <div class="card-body p-3 pb-5">
+                            <div class="category-top">
+                                <span class="title-xsmall-semi-bold fw-semibold">{{ $item['category'] ?? $title }}</span>
+                            </div>
+                            @if(!empty($item['name']))
+                            <h3 class="card-title text-paragraph-medium u-grey-light">{{ $item['name'] }}</h3>
                             @endif
-                            <h3 class="card-title h5">{{ $item['title'] }}</h3>
-                            <p class="card-text mt-2">{{ $item['subtitle'] }}</p>
-                            <a href="{{ $item['url'] }}" class="read-more text-primary fw-semibold text-decoration-none mt-3 d-inline-flex align-items-center">
-                                <span>Vai alla pagina</span>
-                                <x-filament::icon icon="heroicon-o-arrow-right" class="icon-sm ms-2" />
-                            </a>
+                            <p class="text-paragraph-card u-grey-light m-0">{{ $item['title'] ?? '' }}</p>
+                        </div>
+                        <div class="card-image card-image-rounded pb-5">
+                            <img src="{{ $item['image'] }}" alt="{{ $item['name'] ?? ($item['title'] ?? '') }}" />
                         </div>
                     </div>
+                    <a class="read-more ps-3" href="{{ $item['url'] ?? '#' }}">
+                        <span class="text">Vai alla pagina</span>
+                        <x-filament::icon icon="heroicon-o-arrow-right" class="icon" />
+                    </a>
                 </div>
+
+                @else
+                {{-- Card senza immagine (es. Giunta, Consiglio) --}}
+                <div class="card card-teaser no-after rounded shadow-sm mb-0 border border-light">
+                    <div class="card-body pb-5">
+                        <div class="category-top">
+                            <span class="title-xsmall-semi-bold fw-semibold">{{ $item['category'] ?? $title }}</span>
+                        </div>
+                        <h3 class="card-title text-paragraph-medium u-grey-light">{{ $item['title'] ?? '' }}</h3>
+                        @if(!empty($item['description']))
+                        <p class="text-paragraph-card u-grey-light m-0">{{ $item['description'] }}</p>
+                        @endif
+                    </div>
+                    <a class="read-more" href="{{ $item['url'] ?? '#' }}">
+                        <span class="text">Vai alla pagina</span>
+                        <x-filament::icon icon="heroicon-o-arrow-right" class="icon ms-0" />
+                    </a>
+                </div>
+                @endif
+
+                @endforeach
             </div>
-            @endforeach
         </div>
     </div>
-</section>
+</div>
