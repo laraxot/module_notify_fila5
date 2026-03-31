@@ -303,7 +303,7 @@
 ======================================== */
 
 .text-decoration-none {
-  @apply no-underline !important;
+  text-decoration: none !important;
 }
 
 .read-more {
