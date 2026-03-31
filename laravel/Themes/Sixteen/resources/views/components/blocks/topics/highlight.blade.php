@@ -1,72 +1,71 @@
+{{-- Topics Highlight Grid - Bootstrap Italia Style --}}
+{{-- Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html --}}
 @props([
     'title' => 'Argomenti in evidenza',
     'items' => [],
     'show_all_url' => '',
-    'other_topics' => [],
+    'show_all_label' => 'Mostra tutti',
 ])
 
-<section class="py-8">
+<section class="py-5 bg-light">
     <div class="container">
-        <div class="row mb-4">
-            <div class="col-12">
-                <h2 class="title-xxlarge mb-0">{{ $title }}</h2>
-            </div>
-        </div>
-
+        <h2 class="section-title mb-5">{{ $title }}</h2>
+        
+        {{-- Topics Grid --}}
         <div class="row g-4">
             @foreach($items as $item)
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="card card-bg shadow-sm h-100">
-                    <div class="card-body p-4">
-                        <h3 class="card-title h5 mb-2">
-                            <a href="{{ $item['url'] ?? '#' }}" class="text-decoration-none text-dark stretched-link">
-                                {{ $item['title'] }}
-                            </a>
+            <div class="col-lg-3 col-md-6">
+                <div class="card card-teaser shadow-sm h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h6 text-uppercase text-muted mb-3">
+                            {{ $item['title'] ?? '' }}
                         </h3>
                         @if(!empty($item['description']))
-                            <p class="card-text text-muted small mb-3">{{ $item['description'] }}</p>
+                        <p class="card-text small">{{ $item['description'] }}</p>
                         @endif
-                        @if(!empty($item['external']))
-                            <a href="{{ $item['external_url'] ?? '#' }}" class="text-primary small d-block mb-2">
-                                {{ $item['external'] }}
-                                <x-filament::icon icon="heroicon-o-arrow-top-right-on-square" class="w-3 h-3 inline" />
-                            </a>
+                        @if(!empty($item['list_items']))
+                        <ul class="card-list list-unstyled small mt-3 mb-3">
+                            @foreach($item['list_items'] as $listItem)
+                            <li>• {{ $listItem }}</li>
+                            @endforeach
+                        </ul>
                         @endif
-                        @if(!empty($item['links']))
-                            <ul class="list-unstyled mt-2">
-                                @foreach($item['links'] as $link)
-                                    <li class="mb-1">
-                                        <a href="{{ $link['url'] ?? '#' }}" class="text-primary small">
-                                            <x-filament::icon icon="heroicon-o-chevron-right" class="w-3 h-3 inline" />
-                                            {{ $link['title'] }}
-                                        </a>
-                                    </li>
-                                @endforeach
-                            </ul>
-                        @endif
+                        <a href="{{ $item['url'] ?? '#' }}" 
+                           class="btn btn-outline-primary btn-sm mt-3">
+                            {{ $item['cta_label'] ?? 'Esplora argomento' }}
+                            <svg class="icon icon-xs ms-1" aria-hidden="true">
+                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
             @endforeach
         </div>
-
-        @if(!empty($other_topics))
-        <div class="row mt-4">
+        
+        {{-- Show All Card --}}
+        @if($show_all_url || count($items) > 0)
+        <div class="row mt-5">
             <div class="col-12">
-                @foreach($other_topics as $topic)
-                    <a href="{{ $show_all_url ?? '#' }}" class="badge bg-primary text-white me-2 mb-2 p-2">{{ $topic }}</a>
-                @endforeach
-            </div>
-        </div>
-        @endif
-
-        @if($show_all_url)
-        <div class="row mt-4">
-            <div class="col-12 text-end">
-                <a href="{{ $show_all_url }}" class="btn btn-outline-primary">
-                    Altri argomenti
-                    <x-filament::icon icon="heroicon-o-arrow-right" class="w-4 h-4 inline ms-1" />
-                </a>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title h5 mb-3">ALTRI ARGOMENTI</h3>
+                        <ul class="card-list list-unstyled mb-3">
+                            <li>• Associazioni</li>
+                            <li>• Concorsi</li>
+                            <li>• Energie rinnovabili</li>
+                            <li>• Gestione rifiuti</li>
+                        </ul>
+                        @if($show_all_url)
+                        <a href="{{ $show_all_url }}" class="btn btn-outline-primary btn-sm">
+                            {{ $show_all_label }}
+                            <svg class="icon icon-xs ms-1" aria-hidden="true">
+                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"></use>
+                            </svg>
+                        </a>
+                        @endif
+                    </div>
+                </div>
             </div>
         </div>
         @endif
