@@ -1,156 +1,197 @@
-{{-- Design Comuni Header - Pure Tailwind CSS --}}
+{{-- Header - Bootstrap Italia EXACT Replica --}}
 {{-- Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html --}}
-{{-- Exact replication with Tailwind CSS only --}}
+{{-- HTML structure MUST match exactly --}}
 
-<header class="bg-white shadow-sm">
-    {{-- TOP BAR - Regione + Login --}}
-    <div class="bg-[#0066CC] text-white py-2">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center">
-                {{-- Left: Regione --}}
-                <a href="#" class="text-white text-sm font-semibold hover:underline no-underline">
-                    Nome della Regione
-                </a>
-                
-                {{-- Right: Language + Login --}}
-                <div class="flex items-center gap-4">
-                    {{-- Language --}}
-                    <div class="text-white text-sm flex items-center gap-2">
-                        <span class="opacity-90">Lingua attiva:</span>
-                        <span class="font-bold">ITA</span>
-                        <span class="opacity-70">/</span>
-                        <a href="#" class="opacity-70 hover:opacity-100 no-underline">ENG</a>
-                    </div>
-                    
-                    {{-- Login --}}
-                    <a href="{{ route('login') }}" 
-                       class="inline-flex items-center gap-2 bg-white text-[#0066CC] px-4 py-1.5 rounded text-sm font-semibold no-underline hover:bg-[#F0F0F0] transition-colors">
-                        <svg class="w-4 h-4" aria-hidden="true">
-                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
-                        </svg>
-                        <span class="hidden sm:inline">Accedi all'area personale</span>
-                    </a>
-                </div>
-            </div>
-        </div>
+<header class="it-header-wrapper" data-bs-target="#header-nav-wrapper">
+    {{-- Skip Links --}}
+    <div class="skiplink">
+        <a class="visually-hidden-focusable" href="#main-container">Vai ai contenuti</a>
+        <a class="visually-hidden-focusable" href="#footer">Vai al footer</a>
     </div>
     
-    {{-- MAIN HEADER - Logo + Comune Name + Search + Social --}}
-    <div class="bg-white border-b border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
-                {{-- Left: Logo + Comune --}}
-                <a href="/" class="flex items-center gap-4 no-underline group">
-                    {{-- Logo PA --}}
-                    <div class="w-20 h-20 flex items-center justify-center">
-                        <svg class="w-full h-full text-[#0066CC]" aria-hidden="true">
-                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
-                        </svg>
-                    </div>
-                    
-                    {{-- Comune Name + Slogan --}}
-                    <div class="flex flex-col">
-                        <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 m-0 group-hover:text-[#0066CC] transition-colors">
-                            NOME DEL COMUNE
-                        </h1>
-                        <p class="text-base text-gray-600 m-0 mt-1">
-                            Un comune da vivere
-                        </p>
-                    </div>
-                </a>
-                
-                {{-- Right: Search + Social --}}
-                <div class="flex flex-col items-end gap-3">
-                    {{-- Search --}}
-                    <form class="w-full max-w-xs">
-                        <div class="relative">
-                            <input type="text" 
-                                   placeholder="Cerca nel sito" 
-                                   class="w-full px-4 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#0066CC] focus:border-transparent" />
-                            <button type="submit" 
-                                    class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-[#0066CC]">
-                                <svg class="w-5 h-5" aria-hidden="true">
-                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
+    {{-- TOP BAR --}}
+    <div class="it-header-slim-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="it-header-slim-wrapper-content">
+                        <a class="active" href="#">Nome della Regione</a>
+                        <div class="it-header-slim-right-content">
+                            <div class="it-header-slim-language">
+                                <span class="it-header-slim-language-label">Lingua attiva:</span>
+                                <a href="#" class="active" aria-label="Lingua attiva: Italiano">ITA</a>
+                                <span class="it-header-slim-language-divider">/</span>
+                                <a href="#" aria-label="Passa alla lingua: Inglese">ENG</a>
+                            </div>
+                            <a class="btn btn-primary" href="{{ route('login') }}">
+                                <svg class="icon icon-white icon-xs">
+                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
                                 </svg>
-                            </button>
+                                <span>Accedi all'area personale</span>
+                            </a>
                         </div>
-                    </form>
-                    
-                    {{-- Social Icons --}}
-                    <div class="flex items-center gap-2">
-                        <span class="text-xs text-gray-500 font-semibold">Seguici su</span>
-                        <a href="#" class="text-gray-600 hover:text-[#0066CC] transition-colors" aria-label="Twitter">
-                            <svg class="w-5 h-5" aria-hidden="true">
-                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use>
-                            </svg>
-                        </a>
-                        <a href="#" class="text-gray-600 hover:text-[#0066CC] transition-colors" aria-label="Facebook">
-                            <svg class="w-5 h-5" aria-hidden="true">
-                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use>
-                            </svg>
-                        </a>
-                        <a href="#" class="text-gray-600 hover:text-[#0066CC] transition-colors" aria-label="YouTube">
-                            <svg class="w-5 h-5" aria-hidden="true">
-                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use>
-                            </svg>
-                        </a>
-                        <a href="#" class="text-gray-600 hover:text-[#0066CC] transition-colors" aria-label="Telegram">
-                            <svg class="w-5 h-5" aria-hidden="true">
-                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-telegram"></use>
-                            </svg>
-                        </a>
-                        <a href="#" class="text-gray-600 hover:text-[#0066CC] transition-colors" aria-label="Whatsapp">
-                            <svg class="w-5 h-5" aria-hidden="true">
-                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"></use>
-                            </svg>
-                        </a>
-                        <a href="#" class="text-gray-600 hover:text-[#0066CC] transition-colors" aria-label="RSS">
-                            <svg class="w-5 h-5" aria-hidden="true">
-                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-rss"></use>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     
-    {{-- NAVIGATION BAR --}}
-    <nav class="bg-white border-b border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center">
-                {{-- Comune Name (repeated in nav) --}}
-                <div class="hidden lg:block">
-                    <h2 class="text-lg font-bold text-gray-900">NOME DEL COMUNE</h2>
+    {{-- MAIN HEADER --}}
+    <div class="it-header-wrapper">
+        <div class="it-header-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="it-header-main-content">
+                            <div class="it-brand-wrapper">
+                                <a href="/">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
+                                    </svg>
+                                    <div class="it-brand-text">
+                                        <h2 class="no_toc">NOME DEL COMUNE</h2>
+                                        <p class="no_toc">Un comune da vivere</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="it-right-zone">
+                                {{-- Search --}}
+                                <div class="it-search-wrapper">
+                                    <div class="autocomplete-bar">
+                                        <form role="search">
+                                            <div class="autocomplete">
+                                                <label class="autocomplete-label" for="autocomplete-one">Cerca nel sito</label>
+                                                <input class="autocomplete-input" type="text" name="search" id="autocomplete-one" placeholder="Cerca nel sito" />
+                                                <button class="autocomplete-icon" type="submit" aria-label="Cerca nel sito">
+                                                    <svg class="icon">
+                                                        <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                
+                                {{-- Social --}}
+                                <div class="it-socials">
+                                    <span>Seguici su</span>
+                                    <ul>
+                                        <li>
+                                            <a href="#" aria-label="Twitter" target="_blank">
+                                                <svg class="icon">
+                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Facebook" target="_blank">
+                                                <svg class="icon">
+                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="YouTube" target="_blank">
+                                                <svg class="icon">
+                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Telegram" target="_blank">
+                                                <svg class="icon">
+                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-telegram"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Whatsapp" target="_blank">
+                                                <svg class="icon">
+                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="RSS" target="_blank">
+                                                <svg class="icon">
+                                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-rss"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-                {{-- Main Menu --}}
-                <div class="flex items-center gap-1">
-                    <a href="/it/amministrazione" 
-                       class="px-4 py-3 text-sm font-semibold text-gray-700 hover:text-[#0066CC] hover:bg-gray-50 no-underline transition-colors">
-                        Amministrazione
-                    </a>
-                    <a href="/it/novita" 
-                       class="px-4 py-3 text-sm font-semibold text-gray-700 hover:text-[#0066CC] hover:bg-gray-50 no-underline transition-colors">
-                        Novità
-                    </a>
-                    <a href="/it/servizi" 
-                       class="px-4 py-3 text-sm font-semibold text-gray-700 hover:text-[#0066CC] hover:bg-gray-50 no-underline transition-colors">
-                        Servizi
-                    </a>
-                    <a href="/it/vivere" 
-                       class="px-4 py-3 text-sm font-semibold text-gray-700 hover:text-[#0066CC] hover:bg-gray-50 no-underline transition-colors">
-                        Vivere il Comune
-                    </a>
-                </div>
-                
-                {{-- Mobile Menu Toggle --}}
-                <button class="lg:hidden p-2 text-gray-600 hover:text-[#0066CC]" aria-label="Menu">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </div>
+        </div>
+        
+        {{-- NAVIGATION --}}
+        <div class="it-nav-wrapper">
+            <div class="it-nav-close">
+                <button type="button" class="btn-close" aria-label="Chiudi navigazione">
+                    <svg class="icon">
+                        <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-close"></use>
                     </svg>
                 </button>
             </div>
+            <div class="it-main-menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="it-nav">
+                                <div class="it-brand-wrapper">
+                                    <a href="/">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
+                                        </svg>
+                                        <div class="it-brand-text">
+                                            <h2 class="no_toc">NOME DEL COMUNE</h2>
+                                            <p class="no_toc">Un comune da vivere</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <button class="custom-navbar-btn navbar-btn" type="button">
+                                    <span class="navbar-toggler-icon">
+                                        <svg class="icon">
+                                            <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="sr-only">Mostra/nascondi la navigazione</span>
+                                </button>
+                                <div class="menu-wrapper" id="header-nav-wrapper">
+                                    <div class="link-list-wrapper menu-link-list">
+                                        <h3>Menu di navigazione</h3>
+                                        <ul class="link-list">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/it/amministrazione">
+                                                    <span>Amministrazione</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/it/novita">
+                                                    <span>Novità</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/it/servizi">
+                                                    <span>Servizi</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/it/vivere">
+                                                    <span>Vivere il Comune</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
+    </div>
 </header>

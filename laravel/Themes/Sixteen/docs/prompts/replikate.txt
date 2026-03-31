@@ -320,3 +320,23 @@ laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php  e dal json 
 
 
  Goal: Design Comuni look con Tailwind utilities
+
+
+ ripeto l'html all'interno del tag body, tag body compreso deve essere uguale , tranne per gli scripts,
+ quello da replicare nelle prime righe e'   
+ <body>
+    <div class="skiplink">
+      <a class="visually-hidden-focusable" href="#main-container">Vai ai contenuti</a>
+      <a class="visually-hidden-focusable" href="#footer">Vai al
+        footer</a>
+      
+    </div><!-- /skiplink -->
+            <header class="it-header-wrapper" data-bs-target="#header-nav-wrapper" style="">
+              <div class="it-header-slim-wrapper">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="it-header-slim-wrapper-content">
+il nostro e' diverso.. ma che cosa e' che non capisci ? ma che controlli fai ? che cose cosi' semplici non le hai ancora raggiunte in giorni di lavoro ?
+
+view-source:https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  view-source:http://fixcity.local/it/tests/homepage
