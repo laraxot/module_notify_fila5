@@ -81,6 +81,22 @@
                         {"title": "Musei Civici", "url": "#"}
                     ]
                 }
+            },
+            {
+                "type": "search_feedback",
+                "data": {
+                    "view": "pub_theme::components.blocks.search.feedback",
+                    "search_placeholder": "Cerca una parola chiave",
+                    "feedback_title": "Quanto sono chiare le informazioni presenti in questo sito?"
+                }
+            },
+            {
+                "type": "contact_services",
+                "data": {
+                    "view": "pub_theme::components.blocks.contact.services",
+                    "contact_title": "Contatta il Comune",
+                    "report_title": "Problemi in città"
+                }
             }
         ],
         "en": []

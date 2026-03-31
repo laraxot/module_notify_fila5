@@ -1,42 +1,38 @@
 {
     "id": "tests.assistenza-01-dati",
     "title": {
-        "it": "Assistenza - Step 1 dati",
-        "en": "Assistenza - Step 1 dati"
+        "it": "Richiesta assistenza - Inserimento dati",
+        "en": "Assistance request - Data entry"
     },
     "slug": "tests.assistenza-01-dati",
+    "category": "Richiesta Assistenza",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "tests",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Assistenza - Step 1 dati",
-                    "category": "Richiesta Assistenza",
-                    "summary": "La schermata per inserire le informazioni personali e i dettagli della richiesta.",
-                    "slug": "tests.assistenza-01-dati"
+                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Richiesta assistenza", "url": null}
+                    ]
                 }
             },
             {
-                "type": "tests",
+                "type": "form",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "La scomposizione corretta prevede stepper, campi richiesta, allegati e note informative."
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/assistenza-01-dati.html"
+                    "view": "pub_theme::blocks.form.assistance",
+                    "title": "Inserisci i tuoi dati",
+                    "description": "Compila il modulo per richiedere assistenza",
+                    "fields": [
+                        {"name": "nome", "label": "Nome", "type": "text", "required": true},
+                        {"name": "cognome", "label": "Cognome", "type": "text", "required": true},
+                        {"name": "email", "label": "Email", "type": "email", "required": true},
+                        {"name": "telefono", "label": "Telefono", "type": "tel", "required": false},
+                        {"name": "oggetto", "label": "Oggetto", "type": "text", "required": true},
+                        {"name": "messaggio", "label": "Messaggio", "type": "textarea", "required": true}
+                    ]
                 }
             }
         ],
