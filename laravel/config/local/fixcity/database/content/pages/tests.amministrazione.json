@@ -12,7 +12,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Amministrazione", "url": null}
@@ -22,7 +22,7 @@
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::blocks.hero.default",
+                    "view": "pub_theme::components.blocks.hero.default",
                     "title": "Amministrazione",
                     "subtitle": "Giunta, consiglio e organi di governo",
                     "content": "<p>Conosci gli organi di governo del tuo Comune e consulta documenti e dati</p>"
@@ -31,7 +31,7 @@
             {
                 "type": "cards-grid",
                 "data": {
-                    "view": "pub_theme::blocks.cards.grid",
+                    "view": "pub_theme::components.blocks.cards.grid",
                     "title": "Organi di governo",
                     "cards": [
                         {"title": "Sindaco", "description": "Il Sindaco e la sua giunta", "url": "#"},
@@ -43,7 +43,7 @@
             {
                 "type": "links-list",
                 "data": {
-                    "view": "pub_theme::blocks.links.list",
+                    "view": "pub_theme::components.blocks.links.list",
                     "title": "Documenti e dati",
                     "links": [
                         {"label": "Statuto comunale", "url": "/it/tests/documenti-dati", "description": "Lo statuto del Comune"},

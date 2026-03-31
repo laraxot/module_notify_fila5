@@ -11,46 +11,74 @@
                 "type": "hero",
                 "data": {
                     "view": "pub_theme::components.blocks.hero.homepage",
-                    "title": "NOME DEL COMUNE",
-                    "subtitle": "CONTENUTI IN EVIDENZA"
+                    "section_title": "CONTENUTI IN EVIDENZA",
+                    "featured_news": {
+                        "date": "18 mag 2022",
+                        "title": "PARTE L'ESTATE CON OLTRE 300 EVENTI, SPETTACOLI E INIZIATIVE",
+                        "excerpt": "Tutti gli appuntamenti del calendario 'Estate in città 2022'",
+                        "url": "#",
+                        "image": "/images/estate-citta.jpg"
+                    }
                 }
             },
             {
-                "type": "news_featured",
+                "type": "governance_cards",
                 "data": {
-                    "view": "pub_theme::components.blocks.news.featured",
-                    "title": "Ultime notizie",
+                    "view": "pub_theme::components.blocks.governance.cards",
+                    "title": "Organi di governo",
                     "items": [
                         {
-                            "title": "Nuovo orario uffici comunali",
-                            "excerpt": "Dal 1 aprile 2026 il nuovo orario di apertura al pubblico degli uffici comunali.",
-                            "date": "15 Mar 2026",
-                            "url": "#"
+                            "title": "Il Sindaco della città",
+                            "name": "Mario Rossi",
+                            "url": "/amministrazione/organi/sindaco"
+                        },
+                        {
+                            "title": "La Giunta Comunale",
+                            "url": "/amministrazione/organi/giunta"
+                        },
+                        {
+                            "title": "Il Consiglio Comunale",
+                            "url": "/amministrazione/organi/consiglio"
                         }
                     ]
                 }
             },
             {
-                "type": "services",
+                "type": "events_calendar",
                 "data": {
-                    "view": "pub_theme::components.blocks.services.grid",
-                    "title": "Servizi",
-                    "items": [
-                        {"title": "Anagrafe", "url": "#", "icon": "user"},
-                        {"title": "Cultura", "url": "#", "icon": "book"},
-                        {"title": "Mobilità", "url": "#", "icon": "bus"}
+                    "view": "pub_theme::components.blocks.events.calendar",
+                    "month": "SETTEMBRE",
+                    "year": "2022",
+                    "events": [
+                        {"date": "15 LUN", "title": "Saldo TASI", "url": "#"},
+                        {"date": "20 MAR", "title": "Concerto gratuito", "url": "#"},
+                        {"date": "21 MAR", "title": "Mostra fotografica", "url": "#"}
                     ]
                 }
             },
             {
-                "type": "topics",
+                "type": "topics_highlight",
                 "data": {
-                    "view": "pub_theme::components.blocks.topics.grid",
-                    "title": "Esplora per argomento",
+                    "view": "pub_theme::components.blocks.topics.highlight",
+                    "title": "ARGOMENTI IN EVIDENZA",
                     "items": [
-                        {"title": "Cultura", "url": "#"},
-                        {"title": "Sport", "url": "#"},
-                        {"title": "Famiglia", "url": "#"}
+                        {"title": "Trasporto Pubblico", "url": "#", "icon": "bus"},
+                        {"title": "Mobilità in Comune", "url": "#", "icon": "map"},
+                        {"title": "Animale Domestico", "url": "#", "icon": "paw"},
+                        {"title": "Sport", "url": "#", "icon": "fitness"}
+                    ],
+                    "show_all_url": "/argomenti"
+                }
+            },
+            {
+                "type": "thematic_sites",
+                "data": {
+                    "view": "pub_theme::components.blocks.thematic.sites",
+                    "title": "SITI TEMATICI",
+                    "items": [
+                        {"title": "Mobilità in Comune", "url": "#"},
+                        {"title": "Turismo", "url": "#"},
+                        {"title": "Musei Civici", "url": "#"}
                     ]
                 }
             }

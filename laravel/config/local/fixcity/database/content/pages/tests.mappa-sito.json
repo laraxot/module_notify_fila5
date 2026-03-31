@@ -12,7 +12,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Mappa del sito", "url": null}
@@ -22,7 +22,7 @@
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::blocks.hero.default",
+                    "view": "pub_theme::components.blocks.hero.default",
                     "title": "Mappa del sito",
                     "subtitle": "Navigazione rapida",
                     "content": "<p>Tutte le pagine del sito in un'unica vista</p>"
@@ -31,7 +31,7 @@
             {
                 "type": "links-grid",
                 "data": {
-                    "view": "pub_theme::blocks.links.grid",
+                    "view": "pub_theme::components.blocks.links.grid",
                     "title": "Pagine principali",
                     "links": [
                         {"label": "Homepage", "url": "/it/tests/homepage", "description": "Pagina principale"},
@@ -46,7 +46,7 @@
             {
                 "type": "links-grid",
                 "data": {
-                    "view": "pub_theme::blocks.links.grid",
+                    "view": "pub_theme::components.blocks.links.grid",
                     "title": "Servizi",
                     "links": [
                         {"label": "Tutti i servizi", "url": "/it/tests/servizi", "description": "Elenco completo"},
@@ -58,7 +58,7 @@
             {
                 "type": "links-grid",
                 "data": {
-                    "view": "pub_theme::blocks.links.grid",
+                    "view": "pub_theme::components.blocks.links.grid",
                     "title": "Flussi",
                     "links": [
                         {"label": "Prenotazione appuntamento", "url": "/it/tests/appuntamento-01-ufficio", "description": "8 step"},

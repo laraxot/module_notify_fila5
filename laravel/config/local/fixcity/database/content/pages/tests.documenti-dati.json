@@ -12,7 +12,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Amministrazione", "url": "/it/tests/amministrazione"},
@@ -23,7 +23,7 @@
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::blocks.hero.default",
+                    "view": "pub_theme::components.blocks.hero.default",
                     "title": "Documenti e dati",
                     "subtitle": "Amministrazione trasparente",
                     "content": "<p>Consulta i documenti, i dati e gli atti amministrativi del Comune</p>"
@@ -32,7 +32,7 @@
             {
                 "type": "resources-list",
                 "data": {
-                    "view": "pub_theme::blocks.resources.list",
+                    "view": "pub_theme::components.blocks.resources.list",
                     "resources": [
                         {
                             "title": "Statuto comunale",
