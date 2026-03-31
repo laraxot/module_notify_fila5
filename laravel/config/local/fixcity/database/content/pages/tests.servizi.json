@@ -1,19 +1,20 @@
 {
-    "id": "tests-servizi",
+    "id": "tests.servizi",
     "title": {
         "it": "Servizi",
         "en": "Services"
     },
     "slug": "tests.servizi",
+    "category": "Servizi",
     "content": null,
     "content_blocks": {
         "it": [
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "view": "pub_theme::blocks.breadcrumb.default",
                     "items": [
-                        {"label": "Home", "url": "/"},
+                        {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Servizi", "url": null}
                     ]
                 }
@@ -21,94 +22,25 @@
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
+                    "view": "pub_theme::blocks.hero.default",
                     "title": "Servizi",
                     "subtitle": "Servizi digitali del Comune",
-                    "content": "<p>Accedi ai servizi online. Autenticati con SPID o CIE per usufruire dei servizi digitali.</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
+                    "content": "<p>Accedi ai servizi online. Autenticati con SPID o CIE per usufruire dei servizi digitali.</p>"
                 }
             },
             {
-                "type": "feature_sections",
+                "type": "services-grid",
                 "data": {
-                    "view": "pub_theme::components.blocks.feature_sections.default",
+                    "view": "pub_theme::blocks.services.grid",
                     "title": "Tutti i servizi",
-                    "sections": [
-                        {
-                            "title": "Carta d'identità",
-                            "description": "Richiesta e rinnovo carta d'identità elettronica",
-                            "icon": "it-card"
-                        },
-                        {
-                            "title": "Residenza",
-                            "description": "Cambi di residenza e certificati",
-                            "icon": "it-home"
-                        },
-                        {
-                            "title": "Stato di famiglia",
-                            "description": "Certificati e visure",
-                            "icon": "it-users"
-                        },
-                        {
-                            "title": "TARI",
-                            "description": "Tassa sui rifiuti",
-                            "icon": "it-waste"
-                        },
-                        {
-                            "title": "Scuola",
-                            "description": "Iscrizioni scolastiche e servizi mensa",
-                            "icon": "it-school"
-                        },
-                        {
-                            "title": "Mobilità",
-                            "description": "Trasporti pubblici e parcheggi",
-                            "icon": "it-bus"
-                        }
+                    "services": [
+                        {"title": "Anagrafe", "description": "Servizi demografici e stato civile", "url": "/it/tests/servizio-dettaglio", "icon": "it-user"},
+                        {"title": "Cultura", "description": "Eventi, biblioteche e musei", "url": "/it/tests/servizio-dettaglio", "icon": "it-camera"},
+                        {"title": "Mobilità", "description": "Trasporti, traffico e parcheggi", "url": "/it/tests/servizio-dettaglio", "icon": "it-bus"},
+                        {"title": "Ambiente", "description": "Rifiuti, verde pubblico e sostenibilità", "url": "/it/tests/servizio-dettaglio", "icon": "it-leaf"},
+                        {"title": "Polizia locale", "description": "Sicurezza e ordinanze comunali", "url": "/it/tests/servizio-dettaglio", "icon": "it-shield"},
+                        {"title": "Servizi sociali", "description": "Assistenza e sostegno alla persona", "url": "/it/tests/servizio-dettaglio", "icon": "it-users"}
                     ]
-                }
-            },
-            {
-                "type": "paragraph",
-                "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<h3 class=\"text-xl font-bold mb-4\">Come accedere ai servizi</h3><p class=\"mb-4\">Per accedere ai servizi digitali è necessario autenticarsi con una delle identità digitali riconosciute:</p><ul class=\"list-disc list-inside space-y-2\"><li><strong>SPID</strong> - Sistema Pubblico di Identità Digitale</li><li><strong>CIE</strong> - Carta d'Identità Elettronica</li><li><strong>CNS</strong> - Carta Nazionale dei Servizi</li></ul>",
-                    "class": "py-6 bg-gray-50"
-                }
-            },
-            {
-                "type": "info",
-                "data": {
-                    "view": "pub_theme::components.blocks.info.default",
-                    "title": "Assistenza",
-                    "items": [
-                        {
-                            "icon": "phone",
-                            "title": "Telefono",
-                            "description": "Chiama il numero verde 800 123 456"
-                        },
-                        {
-                            "icon": "email",
-                            "title": "Email",
-                            "description": "Scrivi a servizi@comune.it"
-                        },
-                        {
-                            "icon": "location",
-                            "title": "Di persona",
-                            "description": "Vieni negli uffici comunali"
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "cta",
-                "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Accedi con SPID o CIE",
-                    "description": "Per usufruire dei servizi digitali è necessario autenticarsi",
-                    "button_text": "Accedi ora",
-                    "button_url": "/login",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
                 }
             }
         ],
