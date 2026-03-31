@@ -152,13 +152,9 @@ le cartelle docs dentro i moduli e dentro i temi devono essere agnostiche non pu
 
 i blocchi se sono di tipo <tipo blocco> la view dentro data deve essere "pub_theme::components.blocks.<tipo blocco>.<blade del blocco>", 
 
-<<<<<<< HEAD
-||||||| 448c6141
-=======
 
 con git andiamo solo in avanti, non ripristiniamo mai versione vecchie, devi studiare le versioni vecchie e capire il perche' sono state fatte in quel modo e migliorare
 
->>>>>>> 53d2eaa3
 devi capire il perche' la logica, la visione, la religione, la politica, la filosofia, lo zen e documentare tutto dentro le cartelle docs dentro i moduli e dentro i temi, aggiornare studiare e migliorare anche le tue rules, le tue memories, e le tue skills, aggiorna tutto utilizzando indici un controllo avanzato per la rindondanza e per i files doppi e dry + kiss
 utilizza openviking installato globalmente, bmad, gsd , ralph loop e notebooklm, ricorda che ogni task viene dato a piu' agenti ai, percio' comportati di conseguenza e cerca di unire le forze con gli altri agenti ai
 
@@ -228,3 +224,15 @@ https://flowbite.com/blocks/
 
 
   errore grave scrivere  [Filament Icons Documentation](https://filamentphp.com/docs/3.x/forms/fields/icon-picker)            noi utilizziamo filament 5 !
+
+
+  fare 
+   create mode 100644 laravel/Themes/Sixteen/resources/views/pages/tests/amministrazione.blade.php
+ create mode 100644 laravel/Themes/Sixteen/resources/views/pages/tests/documenti-dati.blade.php
+ create mode 100644 laravel/Themes/Sixteen/resources/views/pages/tests/novita-dettaglio.blade.php
+ create mode 100644 laravel/Themes/Sixteen/resources/views/pages/tests/segnalazione-area-personale.blade.php
+ create mode 100644 laravel/Themes/Sixteen/resources/views/pages/tests/segnalazioni-elenco.blade.php
+ e' sbagliato ! 
+ dovevi usare sempre 
+ laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
+ 
