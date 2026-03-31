@@ -1,0 +1,486 @@
+/**
+ * Bootstrap Italia Classes - Replicated with Tailwind CSS
+ * NO external imports - ALL via Tailwind @apply
+ */
+
+/* ========================================
+   BOOTSTRAP ITALIA OFFICIAL COLORS
+======================================== */
+:root {
+  --bs-italia: #0066B3;
+  --bs-italia-dark: #003366;
+  --bs-italia-darker: #002244;
+  --bs-white: #FFFFFF;
+  --bs-black: #000000;
+  --bs-gray: #666666;
+  --bs-gray-light: #E5E7EB;
+}
+
+/* ========================================
+   HEADER - Bootstrap Italia Classes
+======================================== */
+
+/* Header Slim Wrapper */
+.it-header-slim-wrapper {
+  @apply bg-[#0066B3] text-white border-b border-white/20;
+}
+
+.it-header-slim-wrapper a,
+.it-header-slim-wrapper .nav-link {
+  @apply text-white hover:text-white/80 transition-colors;
+}
+
+/* Header Center Wrapper */
+.it-header-center-wrapper {
+  @apply bg-white border-b;
+}
+
+.it-header-center-wrapper .it-brand-title {
+  @apply text-black font-bold;
+}
+
+.it-header-center-wrapper a {
+  @apply text-black hover:text-[#0066B3] transition-colors;
+}
+
+/* Header Navbar Wrapper */
+.it-header-navbar-wrapper {
+  @apply bg-[#003366] text-white border-b border-white/10;
+}
+
+.it-header-navbar-wrapper a,
+.it-header-navbar-wrapper .nav-link {
+  @apply text-white hover:text-white/80 transition-colors;
+}
+
+/* ========================================
+   FOOTER - Bootstrap Italia Classes
+======================================== */
+
+/* Footer Main */
+.it-footer {
+  @apply bg-[#003366] text-white py-12;
+}
+
+.it-footer a,
+.it-footer .footer-heading-title,
+.it-footer .footer-info {
+  @apply text-white hover:text-white/80 transition-colors;
+}
+
+/* Footer Secondary */
+.it-footer-secondary {
+  @apply bg-[#002244] text-white py-6;
+}
+
+.it-footer-secondary a,
+.it-footer-secondary p {
+  @apply text-white;
+}
+
+/* ========================================
+   LAYOUT - Bootstrap Italia Classes
+======================================== */
+
+.container {
+  @apply w-full mx-auto px-4 max-w-7xl;
+}
+
+.row {
+  @apply flex flex-wrap -mx-4;
+}
+
+.col-12 {
+  @apply w-full px-4;
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    @apply w-1/4 px-4;
+  }
+  
+  .col-lg-4 {
+    @apply w-1/3 px-4;
+  }
+  
+  .col-lg-6 {
+    @apply w-1/2 px-4;
+  }
+  
+  .col-lg-8 {
+    @apply w-2/3 px-4;
+  }
+  
+  .col-lg-9 {
+    @apply w-3/4 px-4;
+  }
+  
+  .col-lg-10 {
+    @apply w-5/6 px-4;
+  }
+  
+  .order-lg-1 {
+    order: 1;
+  }
+  
+  .order-lg-2 {
+    order: 2;
+  }
+  
+  .px-lg-3 {
+    @apply px-4;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    @apply w-1/4 px-4;
+  }
+  
+  .col-md-4 {
+    @apply w-1/3 px-4;
+  }
+  
+  .col-md-6 {
+    @apply w-1/2 px-4;
+  }
+  
+  .col-md-8 {
+    @apply w-2/3 px-4;
+  }
+  
+  .col-md-9 {
+    @apply w-3/4 px-4;
+  }
+}
+
+/* ========================================
+   CARDS - Bootstrap Italia Classes
+======================================== */
+
+.card {
+  @apply bg-white border border-gray-200 rounded-lg shadow-sm;
+}
+
+.card-body {
+  @apply p-0;
+}
+
+.card-title {
+  @apply text-xl font-semibold mb-2;
+}
+
+.card-text {
+  @apply text-gray-600;
+}
+
+.card-date {
+  @apply text-sm text-gray-500 block mb-2;
+}
+
+.card-bg {
+  @apply bg-white;
+}
+
+.card-teaser {
+  @apply bg-white border rounded-lg shadow-sm transition-all;
+}
+
+.card-teaser:hover {
+  @apply bg-[#0066B3];
+}
+
+.card-teaser .card-title a {
+  @apply text-inherit no-underline;
+}
+
+.card-teaser .card-title a:hover {
+  color: #FFFFFF !important;
+}
+
+/* ========================================
+   BUTTONS - Bootstrap Italia Classes
+======================================== */
+
+.btn {
+  @apply px-6 py-3 rounded-lg font-medium transition-colors inline-flex items-center gap-2 cursor-pointer no-underline;
+}
+
+.btn-primary {
+  @apply bg-[#0066B3] text-white hover:bg-[#003366] border-none;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+}
+
+.btn-outline-primary {
+  @apply border-2 border-[#0066B3] text-[#0066B3] hover:bg-[#0066B3] hover:text-white;
+}
+
+.btn-sm {
+  @apply px-4 py-2 text-sm;
+}
+
+/* ========================================
+   TYPOGRAPHY - Bootstrap Italia Classes
+======================================== */
+
+.title-xxlarge {
+  @apply text-3xl md:text-4xl font-bold;
+}
+
+.title-xlarge {
+  @apply text-2xl md:text-3xl font-bold;
+}
+
+.title-large {
+  @apply text-xl md:text-2xl font-bold;
+}
+
+.title-xsmall-semi-bold {
+  @apply text-xs font-semibold;
+}
+
+.lead {
+  @apply text-lg text-gray-600;
+}
+
+.fw-semibold {
+  @apply font-semibold;
+}
+
+.fw-normal {
+  @apply font-normal;
+}
+
+.fw-bold {
+  @apply font-bold;
+}
+
+/* ========================================
+   ICONS - Bootstrap Italia Classes
+======================================== */
+
+.icon {
+  @apply w-6 h-6 fill-current;
+}
+
+.icon-sm {
+  @apply w-5 h-5;
+}
+
+.icon-xs {
+  @apply w-4 h-4;
+}
+
+.icon-primary {
+  @apply text-[#0066B3];
+}
+
+.icon-white {
+  @apply text-white;
+}
+
+/* ========================================
+   CHIPS - Bootstrap Italia Classes
+======================================== */
+
+.chip {
+  @apply inline-block px-3 py-1 rounded-full text-sm no-underline transition-colors;
+}
+
+.chip-simple {
+  @apply bg-transparent text-[#0066B3] hover:bg-[#0066B3] hover:text-white;
+}
+
+.chip-label {
+  @apply text-inherit;
+}
+
+/* ========================================
+   LINKS - Bootstrap Italia Classes
+======================================== */
+
+.text-decoration-none {
+  @apply no-underline !important;
+}
+
+.read-more {
+  @apply inline-flex items-center gap-2 text-[#0066B3] hover:text-[#003366] no-underline transition-colors;
+}
+
+/* ========================================
+   UTILITIES - Bootstrap Italia Classes
+======================================== */
+
+.visually-hidden,
+.sr-only {
+  @apply absolute w-px h-px p-0 m-[-1px] overflow-hidden clip-[rect(0,0,0,0)] whitespace-nowrap border-0;
+}
+
+.visually-hidden-focusable:focus {
+  @apply static w-auto h-auto p-0 m-0 overflow-visible clip-auto whitespace-normal border;
+}
+
+.img-fluid {
+  @apply w-full h-auto;
+}
+
+.text-center {
+  @apply text-center;
+}
+
+.text-end {
+  @apply text-right;
+}
+
+.text-start {
+  @apply text-left;
+}
+
+.mb-0 {
+  @apply mb-0;
+}
+
+.mb-2 {
+  @apply mb-2;
+}
+
+.mb-3 {
+  @apply mb-3;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.mb-5 {
+  @apply mb-5;
+}
+
+.mb-8 {
+  @apply mb-8;
+}
+
+.mt-3 {
+  @apply mt-3;
+}
+
+.mt-4 {
+  @apply mt-4;
+}
+
+.mt-5 {
+  @apply mt-5;
+}
+
+.mt-8 {
+  @apply mt-8;
+}
+
+.py-3 {
+  @apply py-3;
+}
+
+.py-6 {
+  @apply py-6;
+}
+
+.py-8 {
+  @apply py-8;
+}
+
+.py-12 {
+  @apply py-12;
+}
+
+.px-0 {
+  @apply px-0;
+}
+
+.px-3 {
+  @apply px-3;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.pb-3 {
+  @apply pb-3;
+}
+
+.pb-5 {
+  @apply pb-5;
+}
+
+.pt-3 {
+  @apply pt-3;
+}
+
+.gap-2 {
+  @apply gap-2;
+}
+
+.gap-4 {
+  @apply gap-4;
+}
+
+/* ========================================
+   RESPONSIVE UTILITIES
+======================================== */
+
+@media (min-width: 992px) {
+  .d-lg-block {
+    @apply block;
+  }
+  
+  .d-lg-none {
+    @apply hidden;
+  }
+}
+
+@media (max-width: 991px) {
+  .d-lg-block {
+    @apply hidden;
+  }
+}
+
+/* ========================================
+   ORDER UTILITIES
+======================================== */
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+@media (min-width: 992px) {
+  .order-lg-1 {
+    order: 1;
+  }
+  
+  .order-lg-2 {
+    order: 2;
+  }
+}
+
+/* ========================================
+   SPACING UTILITIES
+======================================== */
+
+.g-0 {
+  @apply gap-0;
+}
+
+.g-2 {
+  @apply gap-2;
+}
+
+.g-4 {
+  @apply gap-4;
+}

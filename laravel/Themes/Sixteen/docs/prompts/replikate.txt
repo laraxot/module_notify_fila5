@@ -310,3 +310,7 @@ laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php  e dal json 
  http://fixcity.local/it/tests/homepage e' ancora molto diverso da https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html utilizza gli screenshots inizia dal header e dal footer che non rispettano neanche i colori ..  ​ti ricordo che l'html dentro il tag body di https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html deve essere lo stesso di http://fixcity.local/it/tests/homepage 
 
  non fare rm -rf /var/www/_bases/base_fixcity_fila5/laravel/storage/framework/views/*  , cosi' facendo cancelli anche il file .gitignore che c'e' dentro, per svuotare le cache utilizza i comandi appositi di laravel o createne uno ad hoc 
+
+ nei css non puoi fare @import url('https://cdn.jsdelivr.net/npm/bootstrap-italia@2.8.8/dist/css/bootstrap-italia.min.css'); ma devi usare tailwind @apply per replicare le classi Bootstrap Italia.
+
+ the goal is to use Tailwind CSS (not Bootstrap Italia) to replicate the Design Comuni template

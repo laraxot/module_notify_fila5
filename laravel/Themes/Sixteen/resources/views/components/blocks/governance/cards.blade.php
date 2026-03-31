@@ -1,14 +1,13 @@
 {{--
     Governance Cards Block - Organi di governo
     Reference: design-comuni-pagine-statiche/src/pages/sito/homepage.hbs #calendario section (card-wrapper)
-    Pattern: HTML usa classi Bootstrap Italia, CSS via CDN + Tailwind @apply
 --}}
 @props([
     'title' => 'Organi di governo',
     'items' => [],
 ])
 
-<div class="section section-muted pb-5 px-lg-5 pt-0">
+<div class="section section-muted pb-90 pb-lg-50 px-lg-5 pt-0">
     <div class="container">
         <div class="row mb-2">
             <div class="card-wrapper px-0 card-overlapping card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
@@ -33,7 +32,9 @@
                     </div>
                     <a class="read-more ps-3" href="{{ $item['url'] ?? '#' }}">
                         <span class="text">Vai alla pagina</span>
-                        <x-filament::icon icon="heroicon-o-arrow-right" class="icon" />
+                        <svg class="icon">
+                            <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
+                        </svg>
                     </a>
                 </div>
 
@@ -51,7 +52,9 @@
                     </div>
                     <a class="read-more" href="{{ $item['url'] ?? '#' }}">
                         <span class="text">Vai alla pagina</span>
-                        <x-filament::icon icon="heroicon-o-arrow-right" class="icon ms-0" />
+                        <svg class="icon ms-0">
+                            <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
+                        </svg>
                     </a>
                 </div>
                 @endif
