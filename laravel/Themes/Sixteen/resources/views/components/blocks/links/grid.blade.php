@@ -1,29 +1,33 @@
-@props([
-    'title' => '',
-    'links' => [],
-])
+{{--
+    Links Grid Block
+    Usage: <x-blocks.links.grid :links="$data['links']" :title="$data['title']" />
+--}}
 
-@if(!empty($links))
-<section class="py-8 bg-white">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        @if($title)
-            <h3 class="text-2xl font-bold text-gray-900 mb-6">{{ $title }}</h3>
-        @endif
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            @foreach($links as $link)
-                <a href="{{ $link['url'] ?? '#' }}" class="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <h4 class="font-semibold text-gray-900">{{ $link['label'] ?? '' }}</h4>
-                            @if(!empty($link['description']))
-                                <p class="text-sm text-gray-600 mt-1">{{ $link['description'] }}</p>
-                            @endif
-                        </div>
-                        <x-filament::icon icon="heroicon-o-arrow-right" class="w-5 h-5 text-gray-400" />
+@props(['links' => [], 'title' => ''])
+
+<section class="cmp-links-grid mb-8">
+    @if($title)
+    <h2 class="title-xlarge mb-4">{{ $title }}</h2>
+    @endif
+
+    <div class="row g-4">
+        @foreach($links as $link)
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper card-space">
+                <div class="card card-bg">
+                    <div class="card-body">
+                        <h3 class="card-title h5">
+                            <a href="{{ $link['url'] }}" class="text-decoration-none">
+                                {{ $link['label'] }}
+                            </a>
+                        </h3>
+                        @if(isset($link['description']))
+                        <p class="card-text text-muted">{{ $link['description'] }}</p>
+                        @endif
                     </div>
-                </a>
-            @endforeach
+                </div>
+            </div>
         </div>
+        @endforeach
     </div>
 </section>
-@endif

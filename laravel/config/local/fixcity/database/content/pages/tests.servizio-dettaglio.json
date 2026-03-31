@@ -1,11 +1,10 @@
 {
-    "id": "tests-servizio-dettaglio",
-    "title": {
-        "it": "Scheda servizio",
-        "en": "Service detail"
-    },
+    "id": "tests.servizio-dettaglio",
     "slug": "tests.servizio-dettaglio",
-    "content": null,
+    "title": {
+        "it": "Dettaglio Servizio",
+        "en": "Service Detail"
+    },
     "content_blocks": {
         "it": [
             {
@@ -14,123 +13,75 @@
                     "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/"},
-                        {"label": "Servizi", "url": "/it/tests/servizi"},
-                        {"label": "Dettaglio servizio", "url": null}
+                        {"label": "Servizi", "url": "/servizi"},
+                        {"label": "Dettaglio", "url": null}
                     ]
                 }
             },
             {
-                "type": "hero",
+                "type": "service_header",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
-                    "title": "Carta d'identità elettronica",
-                    "subtitle": "Richiesta e rinnovo",
-                    "content": "<p>La Carta d'Identità Elettronica (CIE) è il documento di identità che lo Stato italiano rilascia ai cittadini italiani e stranieri residenti nel territorio del Comune.</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
+                    "view": "pub_theme::components.blocks.service.header",
+                    "title": "Certificato di Residenza",
+                    "subtitle": "Rilascio certificato di residenza",
+                    "description": "Il certificato di residenza attesta il luogo di residenza del cittadino.",
+                    "category": "Anagrafe"
                 }
             },
             {
-                "type": "info",
+                "type": "service_details",
                 "data": {
-                    "view": "pub_theme::components.blocks.info.default",
-                    "title": "Informazioni principali",
-                    "items": [
-                        {
-                            "icon": "it-user",
-                            "title": "A chi è rivolto",
-                            "description": "A tutti i cittadini italiani e stranieri residenti"
-                        },
-                        {
-                            "icon": "it-clock",
-                            "title": "Tempi di rilascio",
-                            "description": "15 giorni dalla data della richiesta"
-                        },
-                        {
-                            "icon": "it-card",
-                            "title": "Validità",
-                            "description": "10 anni per i maggiorenni, 5 anni per i minori"
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "paragraph",
-                "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<h3 class=\"text-xl font-bold mb-4\">Come fare</h3><p class=\"mb-4\">Per richiedere la carta d'identità elettronica è necessario:</p><ol class=\"list-decimal list-inside space-y-2 mb-4\"><li>Prenotare un appuntamento online o recarsi allo sportello</li><li>Presentarsi con un documento di identità valido</li><li>Portare una fototessera recente</li><li>Effettuare il pagamento dei diritti di segreteria (€ 16,79)</li></ol><p>Il giorno dell'appuntamento verrai fotografato e verranno rilevate le tue impronte digitali.</p>",
-                    "class": "py-6 bg-gray-50"
-                }
-            },
-            {
-                "type": "feature_sections",
-                "data": {
-                    "view": "pub_theme::components.blocks.feature_sections.default",
-                    "title": "Cosa serve",
+                    "view": "pub_theme::components.blocks.service.details",
+                    "title": "Informazioni sul servizio",
                     "sections": [
                         {
-                            "title": "Documento di identità",
-                            "description": "Un documento di identità valido",
-                            "icon": "it-card"
+                            "title": "A chi è rivolto",
+                            "content": "A tutti i cittadini residenti nel comune."
                         },
                         {
-                            "title": "Fototessera",
-                            "description": "Una fototessera recente su sfondo bianco",
-                            "icon": "it-image"
+                            "title": "Come si richiede",
+                            "content": "Online tramite SPID/CIE, oppure di persona presso l'Ufficio Anagrafe."
                         },
                         {
-                            "title": "Codice fiscale",
-                            "description": "Tessera sanitaria o codice fiscale",
-                            "icon": "it-fiscal-card"
+                            "title": "Documenti richiesti",
+                            "content": "Documento di identità valido."
                         },
                         {
-                            "title": "Pagamento",
-                            "description": "Ricevuta del pagamento dei diritti",
-                            "icon": "it-euro"
+                            "title": "Tempi di rilascio",
+                            "content": "Immediato online, 3 giorni di persona."
+                        },
+                        {
+                            "title": "Costi",
+                            "content": "Gratuito per uso personale. € 0,52 per uso terzi."
                         }
                     ]
                 }
             },
             {
-                "type": "paragraph",
+                "type": "service_contact",
                 "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<h3 class=\"text-xl font-bold mb-4\">Costi</h3><p class=\"mb-4\">Il costo della carta d'identità elettronica è di <strong>€ 21,95</strong> da pagare presso gli sportelli abilitati.</p><p>Oltre ai diritti di segreteria di <strong>€ 16,79</strong> da pagare in Comune.</p>",
-                    "class": "py-6"
-                }
-            },
-            {
-                "type": "contact",
-                "data": {
-                    "view": "pub_theme::components.blocks.contact.default",
+                    "view": "pub_theme::components.blocks.service.contact",
                     "title": "Contatti",
                     "office": "Ufficio Anagrafe",
-                    "address": "Via Roma 1 - Piano terra",
-                    "phone": "0123 456789",
-                    "email": "anagrafe@comune.it",
-                    "hours": "Lun-Ven 9:00-13:00, Mar 15:00-17:00"
+                    "phone": "06 1234567",
+                    "email": "anagrafe@fixcity.gov.it",
+                    "hours": "Lun-Ven 9:00-13:00, Mar-Gio 15:00-17:00",
+                    "address": "Via Roma 1, FixCity"
                 }
             },
             {
-                "type": "cta",
+                "type": "related_services",
                 "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Prenota un appuntamento",
-                    "description": "Prenota online il tuo appuntamento per richiedere la carta d'identità",
-                    "button_text": "Prenota ora",
-                    "button_url": "/it/tests/appuntamento-01-ufficio",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
+                    "view": "pub_theme::components.blocks.services.related",
+                    "title": "Servizi correlati",
+                    "items": [
+                        {"title": "Certificato di nascita", "url": "#"},
+                        {"title": "Certificato di matrimonio", "url": "#"},
+                        {"title": "Carta d'identità", "url": "#"}
+                    ]
                 }
             }
         ],
         "en": []
-    },
-    "sidebar_blocks": {
-        "it": [],
-        "en": []
-    },
-    "footer_blocks": {
-        "it": "",
-        "en": ""
     }
 }

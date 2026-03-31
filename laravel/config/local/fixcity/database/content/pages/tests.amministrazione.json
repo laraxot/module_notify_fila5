@@ -1,11 +1,10 @@
 {
-    "id": "tests-amministrazione",
+    "id": "tests.amministrazione",
+    "slug": "tests.amministrazione",
     "title": {
         "it": "Amministrazione",
         "en": "Administration"
     },
-    "slug": "tests.amministrazione",
-    "content": null,
     "content_blocks": {
         "it": [
             {
@@ -19,97 +18,68 @@
                 }
             },
             {
-                "type": "hero",
+                "type": "page_header",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
-                    "title": "Amministrazione",
-                    "subtitle": "Giunta, consiglio e organi di governo",
-                    "content": "<p>Conosci gli organi di governo del tuo Comune e consulta documenti e dati</p>",
-                    "background_color": "bg-white",
-                    "text_color": "text-gray-900"
+                    "view": "pub_theme::components.blocks.header.page",
+                    "title": "AMMINISTRAZIONE",
+                    "subtitle": "Organi di governo e uffici comunali"
                 }
             },
             {
-                "type": "feature_sections",
+                "type": "administration_sections",
                 "data": {
-                    "view": "pub_theme::components.blocks.feature_sections.default",
-                    "title": "Organi di governo",
-                    "sections": [
+                    "view": "pub_theme::components.blocks.administration.sections",
+                    "items": [
                         {
-                            "title": "Sindaco",
-                            "description": "Il Sindaco e la sua giunta",
-                            "icon": "it-user"
+                            "title": "Organi di Governo",
+                            "icon": "building-office",
+                            "description": "Sindaco, Giunta e Consiglio Comunale",
+                            "url": "/amministrazione/organi"
                         },
                         {
-                            "title": "Giunta comunale",
-                            "description": "I membri della giunta",
-                            "icon": "it-users"
+                            "title": "Aree Amministrative",
+                            "icon": "document-text",
+                            "description": "Struttura organizzativa del Comune",
+                            "url": "/amministrazione/aree"
                         },
                         {
-                            "title": "Consiglio comunale",
-                            "description": "I consiglieri e le commissioni",
-                            "icon": "it-pa"
+                            "title": "Uffici",
+                            "icon": "clipboard-document-list",
+                            "description": "Elenco uffici comunali",
+                            "url": "/amministrazione/uffici"
+                        },
+                        {
+                            "title": "Personale",
+                            "icon": "user-group",
+                            "description": "Organico e dirigenti",
+                            "url": "/amministrazione/personale"
                         }
                     ]
                 }
             },
             {
-                "type": "paragraph",
+                "type": "administration_documents",
                 "data": {
-                    "view": "pub_theme::components.blocks.paragraph.default",
-                    "content": "<h3 class=\"text-xl font-bold mb-4\">Amministrazione trasparente</h3><p class=\"mb-4\">Consulta i documenti, i bilanci, i bandi e gli atti amministrativi del Comune nella sezione dedicata all'amministrazione trasparente.</p><p>Tutti i documenti sono disponibili in formato digitale e possono essere scaricati liberamente.</p>",
-                    "class": "py-6 bg-gray-50"
-                }
-            },
-            {
-                "type": "links",
-                "data": {
-                    "view": "pub_theme::components.blocks.links.grid",
-                    "title": "Documenti e dati",
-                    "links": [
-                        {
-                            "label": "Statuto comunale",
-                            "url": "/it/tests/documenti-dati",
-                            "description": "Lo statuto del Comune"
-                        },
-                        {
-                            "label": "Regolamenti",
-                            "url": "/it/tests/documenti-dati",
-                            "description": "I regolamenti comunali"
-                        },
-                        {
-                            "label": "Bilanci",
-                            "url": "/it/tests/documenti-dati",
-                            "description": "Bilancio di previsione e consuntivo"
-                        },
-                        {
-                            "label": "Bandi e avvisi",
-                            "url": "/it/tests/documenti-dati",
-                            "description": "Bandi di gara e avvisi pubblici"
-                        }
+                    "view": "pub_theme::components.blocks.administration.documents",
+                    "title": "Documenti",
+                    "items": [
+                        {"title": "Statuto Comunale", "url": "#", "type": "PDF"},
+                        {"title": "Regolamenti", "url": "#", "type": "PDF"},
+                        {"title": "Delibere", "url": "#", "type": "PDF"},
+                        {"title": "Determinazioni", "url": "#", "type": "PDF"}
                     ]
                 }
             },
             {
-                "type": "cta",
+                "type": "administration_transparency",
                 "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Consulta i documenti",
-                    "description": "Accedi alla sezione documenti e dati per consultare tutti gli atti amministrativi",
-                    "button_text": "Vai ai documenti",
-                    "button_url": "/it/tests/documenti-dati",
-                    "button_color": "bg-italia-blue-500 hover:bg-italia-blue-600"
+                    "view": "pub_theme::components.blocks.administration.transparency",
+                    "title": "Amministrazione Trasparente",
+                    "description": "Accesso alle informazioni pubbliche",
+                    "url": "/trasparenza"
                 }
             }
         ],
         "en": []
-    },
-    "sidebar_blocks": {
-        "it": [],
-        "en": []
-    },
-    "footer_blocks": {
-        "it": "",
-        "en": ""
     }
 }
