@@ -1,75 +1,28 @@
-{{-- Governance Cards Block - Bootstrap Italia Style --}}
-{{-- Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html --}}
-@props([
-    'title' => 'Organi di governo',
-    'items' => [],
-])
+@props(['title' => '', 'items' => []])
 
-<section class="py-5 bg-light">
+{{-- Governance Cards - Bootstrap Italia Style --}}
+<section class="governance-section py-8">
     <div class="container">
-        <h2 class="section-title text-center mb-5">{{ $title }}</h2>
-        
+        <h2 class="title-xxlarge mb-6">{{ $title ?: 'Organi di governo' }}</h2>
         <div class="row g-4">
             @foreach($items as $item)
-            
-            @if(!empty($item['image']))
-            {{-- Card con immagine (es. Sindaco) --}}
-            <div class="col-lg-4 col-md-6">
-                <div class="card card-teaser shadow-sm h-100">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-8">
-                                <div class="card-category text-muted small text-uppercase mb-2">
-                                    {{ $item['category'] ?? $title }}
-                                </div>
-                                @if(!empty($item['name']))
-                                <h3 class="card-title h5">{{ $item['name'] }}</h3>
-                                @endif
-                                <p class="card-text text-muted">{{ $item['title'] ?? '' }}</p>
-                            </div>
-                            @if(!empty($item['image']))
-                            <div class="col-4">
-                                <img src="{{ $item['image'] }}" 
-                                     alt="{{ $item['name'] ?? $item['title'] ?? '' }}" 
-                                     class="img-fluid rounded" />
-                            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card-wrapper card-space">
+                    <div class="card card-bg">
+                        <div class="card-body">
+                            @if(isset($item['image']))
+                            <img src="{{ $item['image'] }}" alt="" class="card-img-top mb-3" width="150" height="200">
                             @endif
+                            <h3 class="card-title h5">{{ $item['title'] }}</h3>
+                            <p class="card-text mt-2">{{ $item['subtitle'] }}</p>
+                            <a href="{{ $item['url'] }}" class="read-more text-primary fw-semibold text-decoration-none mt-3 d-inline-flex align-items-center">
+                                <span>Vai alla pagina</span>
+                                <x-filament::icon icon="heroicon-o-arrow-right" class="icon-sm ms-2" />
+                            </a>
                         </div>
-                        <a href="{{ $item['url'] ?? '#' }}" 
-                           class="btn btn-outline-primary btn-sm mt-3">
-                            Vai alla pagina
-                            <svg class="icon icon-xs ms-1" aria-hidden="true">
-                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"></use>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
-            
-            @else
-            {{-- Card senza immagine (es. Giunta, Consiglio) --}}
-            <div class="col-lg-4 col-md-6">
-                <div class="card card-teaser shadow-sm h-100">
-                    <div class="card-body">
-                        <div class="card-category text-muted small text-uppercase mb-2">
-                            {{ $item['category'] ?? $title }}
-                        </div>
-                        <h3 class="card-title h5">{{ $item['title'] ?? '' }}</h3>
-                        @if(!empty($item['description']))
-                        <p class="card-text text-muted">{{ $item['description'] }}</p>
-                        @endif
-                        <a href="{{ $item['url'] ?? '#' }}" 
-                           class="btn btn-outline-primary btn-sm mt-3">
-                            Vai alla pagina
-                            <svg class="icon icon-xs ms-1" aria-hidden="true">
-                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"></use>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            @endif
-            
             @endforeach
         </div>
     </div>

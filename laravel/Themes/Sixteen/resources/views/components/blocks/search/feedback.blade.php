@@ -1,78 +1,54 @@
-{{-- Search Bar & Feedback Form - Design Comuni Style --}}
-@props([
-    'search_placeholder' => 'Cerca una parola chiave',
-    'feedback_title' => 'Quanto sono chiare le informazioni presenti in questo sito?',
-])
+@props(['search_placeholder' => '', 'feedback_question' => '', 'quick_links' => []])
 
-<section class="py-8">
+{{-- Search + Feedback Section - Bootstrap Italia Style --}}
+<section class="search-feedback-section py-8">
     <div class="container">
         <div class="row g-4">
-            {{-- Search Bar --}}
-            <div class="col-12 col-md-6">
-                <div class="card shadow-sm">
-                    <div class="card-body p-4">
-                        <h3 class="h5 mb-3">Cerca nel sito</h3>
-                        <form action="#" method="get" class="search-form">
-                            <div class="form-group mb-3">
-                                <label for="site-search" class="visually-hidden">{{ $search_placeholder }}</label>
-                                <input 
-                                    type="text" 
-                                    id="site-search" 
-                                    class="form-control" 
-                                    placeholder="{{ $search_placeholder }}"
-                                    name="q"
-                                />
-                            </div>
-                            <button type="submit" class="btn btn-primary w-100">
-                                <x-filament::icon icon="heroicon-o-magnifying-glass" class="w-5 h-5 me-2" />
-                                Invio
-                            </button>
-                        </form>
+            {{-- Search --}}
+            <div class="col-lg-6">
+                <div class="search-box p-4 border rounded">
+                    <h3 class="h5 mb-3">CERCA</h3>
+                    <form action="#" method="get">
+                        <div class="mb-3">
+                            <label for="search-input" class="form-label visually-hidden">Cerca nel sito</label>
+                            <input type="text" class="form-control" id="search-input" placeholder="{{ $search_placeholder ?: 'Cerca una parola chiave' }}">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Cerca</button>
+                    </form>
+                    
+                    @if(count($quick_links) > 0)
+                    <div class="mt-4">
+                        <h4 class="h6 mb-2">Link utili</h4>
+                        <ul class="list-unstyled mb-0">
+                            @foreach($quick_links as $link)
+                            <li>
+                                <a href="{{ $link['url'] }}" class="text-decoration-none">
+                                    {{ $link['label'] }}
+                                </a>
+                            </li>
+                            @endforeach
+                        </ul>
                     </div>
+                    @endif
                 </div>
             </div>
             
-            {{-- Feedback Form --}}
-            <div class="col-12 col-md-6">
-                <div class="card shadow-sm">
-                    <div class="card-body p-4">
-                        <h3 class="h5 mb-3">Valuta la pagina</h3>
-                        <form class="feedback-form">
-                            {{-- Star Rating --}}
-                            <div class="mb-4">
-                                <label class="form-label">{{ $feedback_title }}</label>
-                                <div class="rating">
-                                    @for($i = 1; $i <= 5; $i++)
-                                    <input 
-                                        type="radio" 
-                                        name="rating" 
-                                        value="{{ $i }}" 
-                                        id="star{{ $i }}" 
-                                        class="rating-input"
-                                    />
-                                    <label for="star{{ $i }}" class="rating-label">★</label>
-                                    @endfor
-                                </div>
-                            </div>
-                            
-                            {{-- Aspects Preferred --}}
-                            <div class="mb-3">
-                                <label class="form-label">Quali aspetti di questo sito pensi di utilizzare più frequentemente?</label>
-                                <textarea class="form-control" rows="2"></textarea>
-                            </div>
-                            
-                            {{-- Difficulties Encountered --}}
-                            <div class="mb-3">
-                                <label class="form-label">Quali difficoltà hai incontrato oggi nel completare le attività su questo sito?</label>
-                                <textarea class="form-control" rows="2"></textarea>
-                            </div>
-                            
-                            {{-- Submit --}}
-                            <button type="submit" class="btn btn-primary">
-                                Invia feedback
+            {{-- Feedback Rating --}}
+            <div class="col-lg-6">
+                <div class="feedback-box p-4 border rounded">
+                    <h3 class="h5 mb-3">{{ $feedback_question ?: 'Quanto sono chiare le informazioni su questa pagina?' }}</h3>
+                    <div class="rating-stars mb-3">
+                        <div class="btn-group" role="group" aria-label="Valutazione">
+                            @for($i = 1; $i <= 5; $i++)
+                            <button type="button" class="btn btn-outline-warning btn-sm" data-rating="{{ $i }}">
+                                <svg class="icon icon-sm">
+                                    <use href="#it-star"></use>
+                                </svg>
                             </button>
-                        </form>
+                            @endfor
+                        </div>
                     </div>
+                    <p class="text-muted small">Aiutaci a migliorare il servizio</p>
                 </div>
             </div>
         </div>

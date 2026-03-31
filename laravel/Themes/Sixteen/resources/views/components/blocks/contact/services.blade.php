@@ -86,7 +86,7 @@
                             </li>
                             <li class="mb-2">
                                 <a href="#" class="text-decoration-none text-primary">
-                                    <x-filament::icon icon="heroicon-o-euro" class="w-4 h-4 inline me-2" />
+                                    <x-filament::icon icon="heroicon-o-currency-euro" class="w-4 h-4 inline me-2" />
                                     Tributi online
                                 </a>
                             </li>
