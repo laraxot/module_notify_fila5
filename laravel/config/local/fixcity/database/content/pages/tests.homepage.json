@@ -8,12 +8,13 @@
                 "type": "hero",
                 "data": {
                     "view": "pub_theme::components.blocks.hero.homepage",
-                    "title": "NOME DEL COMUNE",
-                    "subtitle": "CONTENUTI IN EVIDENZA",
+                    "title": "Nome del comune",
+                    "subtitle": "Contenuti in evidenza",
                     "news": {
+                        "category": "Notizie",
                         "date": "18 mag 2022",
-                        "title": "PARTE L'ESTATE CON OLTRE 300 EVENTI, TANTI APPUNTAMENTI PER L'ESTATE",
-                        "description": "Torna anche per il 2022, l'appuntamento con l'Estate in città. Tanti concerti, eventi e spettacoli per un'estate all'insegna della musica e del divertimento.",
+                        "title": "Parte l'estate con oltre 300 eventi in centro e nei quartieri, tutti gli eventi previsti",
+                        "excerpt": "Inaugurazione lunedì 2 luglio con il concerto gratuito in piazza XX Settembre degli Sweet Soul Music Revue. Sul palco 20 musicisti dal tutto il mondo",
                         "url": "#",
                         "tag": "Estate in città"
                     },
@@ -51,15 +52,15 @@
                 "type": "events",
                 "data": {
                     "view": "pub_theme::components.blocks.events.calendar",
-                    "month": "SETTEMBRE 2022",
+                    "month": "Settembre 2022",
                     "items": [
-                        {"day": "15", "weekday": "LUN", "events": [{"title": "Saldo TASI", "url": "#"}, {"title": "Concerto gratuito piazza XXIV maggio", "url": "#"}]},
-                        {"day": "16", "weekday": "MAR", "events": [{"title": "Presentazione mostra Mediterraneo", "url": "#"}, {"title": "Convocazione Consiglio Comunale", "url": "#"}]},
-                        {"day": "17", "weekday": "MER", "events": [{"title": "Presentazione piano lavori pubblici 2018", "url": "#"}]},
-                        {"day": "18", "weekday": "GIO", "events": [{"title": "La notte bianca dei bambini", "url": "#"}, {"title": "Concerto della Banda Civica", "url": "#"}]},
-                        {"day": "19", "weekday": "VEN", "events": [{"title": "Saldo TASI", "url": "#"}, {"title": "Seconda rata TARI", "url": "#"}]},
-                        {"day": "20", "weekday": "SAB", "events": [{"title": "Concerto gratuito piazza XXIV maggio", "url": "#"}]},
-                        {"day": "21", "weekday": "DOM", "events": [{"title": "Saldo TASI", "url": "#"}]}
+                        {"day": "15", "weekday": "lun", "events": [{"title": "Saldo TASI", "url": "#"}, {"title": "Concerto gratuito piazza XXIV maggio", "url": "#", "image": "https://picsum.photos/200"}, {"title": "Convocazione Consiglio Comunale - Prima seduta", "url": "#"}, {"title": "Seconda rata TARI", "url": "#"}]},
+                        {"day": "16", "weekday": "mar", "events": [{"title": "Presentazione mostra \"Mediterraneo\"", "url": "#"}, {"title": "Convocazione Consiglio Comunale - Seconda seduta", "url": "#", "image": "https://picsum.photos/200"}]},
+                        {"day": "17", "weekday": "mar", "events": [{"title": "Presentazione piano lavori pubblici 2018", "url": "#"}]},
+                        {"day": "18", "weekday": "mar", "events": [{"title": "Evento \"La notte bianca dei bambini\"", "url": "#"}, {"title": "Concerto della Banda Civica in piazza San Vittore", "url": "#"}]},
+                        {"day": "19", "weekday": "mar", "events": [{"title": "Saldo TASI", "url": "#"}, {"title": "Concerto gratuito piazza XXIV maggio", "url": "#", "image": "https://picsum.photos/200"}, {"title": "Convocazione Consiglio Comunale - Prima seduta", "url": "#"}, {"title": "Seconda rata TARI", "url": "#"}]},
+                        {"day": "20", "weekday": "mar", "events": [{"title": "Saldo TASI", "url": "#"}, {"title": "Concerto gratuito piazza XXIV maggio", "url": "#", "image": "https://picsum.photos/200"}, {"title": "Convocazione Consiglio Comunale - Prima seduta", "url": "#"}, {"title": "Seconda rata TARI", "url": "#"}]},
+                        {"day": "21", "weekday": "mar", "events": [{"title": "Saldo TASI", "url": "#"}, {"title": "Concerto gratuito piazza XXIV maggio", "url": "#", "image": "https://picsum.photos/200"}, {"title": "Convocazione Consiglio Comunale - Prima seduta", "url": "#"}, {"title": "Seconda rata TARI", "url": "#"}]}
                     ]
                 }
             },
@@ -67,25 +68,49 @@
                 "type": "topics",
                 "data": {
                     "view": "pub_theme::components.blocks.topics.highlight",
-                    "title": "ARGOMENTI IN EVIDENZA",
-                    "show_all_url": "/it/tests/argomenti",
+                    "title": "Argomenti in evidenza",
+                    "background_image": "/themes/sixteen/images/evidenza-header.png",
+                    "show_all_url": "#",
+                    "show_all_label": "Mostra tutti",
                     "items": [
-                        {"title": "Trasporto pubblico", "url": "#", "description": "Informazioni sui servizi di trasporto pubblico e servizi taxi", "external": "Mobilità in Comune", "external_url": "#"},
-                        {"title": "Animale domestico", "url": "#", "description": "Informazioni sui servizi e le norme previste dal comune per gli animali domestici."},
-                        {"title": "Sport", "url": "#", "description": "Tutto quello che c'è da sapere sulle strutture sportive comunali."}
+                        {
+                            "title": "Trasporto pubblico",
+                            "url": "#",
+                            "description": "Informazioni sui servizi di trasporto pubblico e servizi taxi",
+                            "external_site": {
+                                "title": "Mobilità in Comune",
+                                "description": "Il sito del turismo del Comune e della Città Metropolitana.",
+                                "image": "https://picsum.photos/200/200",
+                                "url": "#"
+                            }
+                        },
+                        {
+                            "title": "Animale domestico",
+                            "url": "#",
+                            "description": "Informazioni sui servizi e le norme previste dal comune per gli animali domestici.",
+                            "links": [
+                                {"label": "Come adottare un cane al Canile Municipale", "url": "#"},
+                                {"label": "Elenco delle aree per cani", "url": "#"},
+                                {"label": "Come segnalare una colonia felina e ricevere il tesserino di riconoscimento come referente", "url": "#"},
+                                {"label": "Come segnalare lo smarrimento del proprio animale", "url": "#"}
+                            ]
+                        },
+                        {
+                            "title": "Sport",
+                            "url": "#",
+                            "description": "Tutto quello che c'è da sapere sulle strutture sportive comunali a disposizione del pubblico e delle Associazioni, le iniziative a sostegno dello sport e gli eventi che coinvolgono la città.",
+                            "links": [
+                                {"label": "Tutte le strutture sportive della città", "url": "#"},
+                                {"label": "Da lunedì 3 settembre chiudono le vasche della piscina comunale", "url": "#"},
+                                {"label": "Concessione di contributi ad enti, associazioni, società sportive", "url": "#"}
+                            ]
+                        }
                     ],
-                    "other_topics": ["Associazioni", "Concorsi", "Energie rinnovabili", "Gestione rifiuti", "Imposte", "Istruzione", "Pista ciclabile"]
-                }
-            },
-            {
-                "type": "thematic",
-                "data": {
-                    "view": "pub_theme::components.blocks.thematic.sites",
-                    "title": "Siti tematici",
-                    "items": [
-                        {"title": "Mobilità in Comune", "description": "Il sito del turismo del Comune e della Città Metropolitana", "url": "#"},
-                        {"title": "Turismo", "description": "Il sito che offre informazioni sulle attività turistiche attive in città", "url": "#"},
-                        {"title": "Musei Civici", "description": "Tutte le informazioni sui musei e gli eventi culturali della città", "url": "#"}
+                    "other_topics": ["Associazioni", "Concorsi", "Energie rinnovabili", "Gestione rifiuti", "Imposte", "Istruzione", "Pista ciclabile"],
+                    "thematic_sites": [
+                        {"title": "Mobilità in Comune", "description": "Il sito del turismo del Comune e della Città Metropolitana", "image": "https://picsum.photos/200/200", "url": "#", "color": "blue"},
+                        {"title": "Turismo", "description": "Il sito che offre informazioni sulle attività turistiche attive in città", "image": "https://picsum.photos/200/200", "url": "#", "color": "warning"},
+                        {"title": "Musei Civici", "description": "Tutte le informazioni sui musei e gli eventi culturali della città", "image": "https://picsum.photos/200/200", "url": "#", "color": "dark"}
                     ]
                 }
             },
@@ -109,6 +134,7 @@
                 "type": "feedback",
                 "data": {
                     "view": "pub_theme::components.blocks.feedback.rating",
+                    "id": "rating",
                     "title": "Quanto sono chiare le informazioni su questa pagina?"
                 }
             },
