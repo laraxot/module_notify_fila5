@@ -79,10 +79,10 @@
    AGID CSS VARIABLES
 ======================================== */
 :root {
-    /* Colori primari AGID */
-    --agid-primary: #0066CC;
-    --agid-primary-light: #4da6ff;
-    --agid-primary-dark: #003d7a;
+    /* Colori primari Bootstrap Italia (CORRETTI) */
+    --agid-primary: #007a52;
+    --agid-primary-light: #00a86b;
+    --agid-primary-dark: #00614a;
 
     --agid-success: #00B373;
     --agid-success-light: #4dc493;
