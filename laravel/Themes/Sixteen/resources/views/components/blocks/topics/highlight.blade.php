@@ -59,7 +59,7 @@
                         <a class="read-more pt-0" href="{{ $item['url'] ?? '#' }}">
                             <span class="text">Esplora argomento</span>
                             <svg class="icon ms-0">
-                                <use href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
+                                <use href="{{ asset('themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
                             </svg>
                         </a>
                     </div>
