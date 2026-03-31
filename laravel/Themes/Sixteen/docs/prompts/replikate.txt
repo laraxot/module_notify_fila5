@@ -302,3 +302,6 @@ laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php  e dal json 
  aiutati con screenshots http://fixcity.local/it/tests/homepage deve essere uguale a https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html , crea gli screenshots e le analisi delle differenze e come fare , poi le metti dentro
   le cartelle docs dentro i moduli e dentro i temi ,  utilizza i superpowers (https://github.com/obra/superpowers), bmad (https://github.com/bmad-code-org/BMAD-METHOD), gsd (https://github.com/gsd-build/get-shit-done), ralph loop
   (https://github.com/snarktank/ralph), openviking installato globalmente (https://github.com/volcengine/OpenViking), notebooklm mcp , devi installarti , configurarti, documentare tutto quello che ti serve ​
+
+  FERMATI SOLO QUANDO SEI AL 100% DEI TUOI TASK utilizza i superpowers (https://github.com/obra/superpowers), bmad (https://github.com/bmad-code-org/BMAD-METHOD), gsd (https://github.com/gsd-build/get-shit-done), ralph loop
+    (https://github.com/snarktank/ralph), openviking installato globalmente (https://github.com/volcengine/OpenViking), notebooklm mcp , devi installarti , configurarti, documentare tutto quello che ti serve ​

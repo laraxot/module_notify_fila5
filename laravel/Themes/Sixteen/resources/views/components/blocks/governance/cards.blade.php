@@ -1,81 +1,71 @@
-{{-- Governance Cards Block - Tailwind CSS --}}
+{{-- Governance Cards Block - Bootstrap Italia Style --}}
 {{-- Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html --}}
 @props([
     'title' => 'Organi di governo',
     'items' => [],
 ])
 
-<section class="py-12 md:py-16 bg-gray-50 dark:bg-gray-900">
-    <div class="container mx-auto px-4">
-        <h2 class="text-2xl font-bold text-center text-gray-900 dark:text-white mb-10">
-            {{ $title }}
-        </h2>
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">{{ $title }}</h2>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="row g-4">
             @foreach($items as $item)
             
             @if(!empty($item['image']))
             {{-- Card con immagine (es. Sindaco) --}}
-            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden h-full">
-                <div class="p-6">
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <div class="flex-1">
-                            <div class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase mb-2 tracking-wide">
-                                {{ $item['category'] ?? $title }}
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-teaser shadow-sm h-100">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="card-category text-muted small text-uppercase mb-2">
+                                    {{ $item['category'] ?? $title }}
+                                </div>
+                                @if(!empty($item['name']))
+                                <h3 class="card-title h5">{{ $item['name'] }}</h3>
+                                @endif
+                                <p class="card-text text-muted">{{ $item['title'] ?? '' }}</p>
                             </div>
-                            @if(!empty($item['name']))
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                                {{ $item['name'] }}
-                            </h3>
+                            @if(!empty($item['image']))
+                            <div class="col-4">
+                                <img src="{{ $item['image'] }}" 
+                                     alt="{{ $item['name'] ?? $item['title'] ?? '' }}" 
+                                     class="img-fluid rounded" />
+                            </div>
                             @endif
-                            @if(!empty($item['title']))
-                            <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                                {{ $item['title'] }}
-                            </p>
-                            @endif
-                            <a href="{{ $item['url'] ?? '#' }}" 
-                               class="inline-flex items-center text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 text-sm font-medium transition-colors">
-                                Vai alla pagina
-                                <svg class="w-4 h-4 ms-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                                </svg>
-                            </a>
                         </div>
-                        @if(!empty($item['image']))
-                        <div class="sm:w-24 flex-shrink-0">
-                            <img src="{{ $item['image'] }}" 
-                                 alt="{{ $item['name'] ?? $item['title'] ?? '' }}" 
-                                 class="w-full h-auto rounded-lg object-cover" />
-                        </div>
-                        @endif
+                        <a href="{{ $item['url'] ?? '#' }}" 
+                           class="btn btn-outline-primary btn-sm mt-3">
+                            Vai alla pagina
+                            <svg class="icon icon-xs ms-1" aria-hidden="true">
+                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
             
             @else
             {{-- Card senza immagine (es. Giunta, Consiglio) --}}
-            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden h-full">
-                <div class="p-6">
-                    <div class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase mb-2 tracking-wide">
-                        {{ $item['category'] ?? $title }}
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-teaser shadow-sm h-100">
+                    <div class="card-body">
+                        <div class="card-category text-muted small text-uppercase mb-2">
+                            {{ $item['category'] ?? $title }}
+                        </div>
+                        <h3 class="card-title h5">{{ $item['title'] ?? '' }}</h3>
+                        @if(!empty($item['description']))
+                        <p class="card-text text-muted">{{ $item['description'] }}</p>
+                        @endif
+                        <a href="{{ $item['url'] ?? '#' }}" 
+                           class="btn btn-outline-primary btn-sm mt-3">
+                            Vai alla pagina
+                            <svg class="icon icon-xs ms-1" aria-hidden="true">
+                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"></use>
+                            </svg>
+                        </a>
                     </div>
-                    @if(!empty($item['title']))
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                        {{ $item['title'] }}
-                    </h3>
-                    @endif
-                    @if(!empty($item['description']))
-                    <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                        {{ $item['description'] }}
-                    </p>
-                    @endif
-                    <a href="{{ $item['url'] ?? '#' }}" 
-                       class="inline-flex items-center text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 text-sm font-medium transition-colors">
-                        Vai alla pagina
-                        <svg class="w-4 h-4 ms-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                        </svg>
-                    </a>
                 </div>
             </div>
             @endif
