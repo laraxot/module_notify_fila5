@@ -29,6 +29,7 @@ use Spatie\Comments\Models\CommentNotificationSubscription as BaseCommentNotific
  * @property string|null $deleted_by
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ *
  * @method static CommentNotificationSubscriptionFactory factory($count = null, $state = [])
  * @method static Builder|CommentNotificationSubscription newModelQuery()
  * @method static Builder|CommentNotificationSubscription newQuery()
@@ -45,8 +46,10 @@ use Spatie\Comments\Models\CommentNotificationSubscription as BaseCommentNotific
  * @method static Builder|CommentNotificationSubscription whereType($value)
  * @method static Builder|CommentNotificationSubscription whereUpdatedAt($value)
  * @method static Builder|CommentNotificationSubscription whereUpdatedBy($value)
+ *
  * @property-read Model|\Eloquent $commentable
  * @property-read Model|\Eloquent $subscriber
+ *
  * @method static CommentNotificationSubscription|null first()
  * @method static Collection<int, CommentNotificationSubscription> get()
  * @method static CommentNotificationSubscription create(array $attributes = [])
@@ -54,6 +57,7 @@ use Spatie\Comments\Models\CommentNotificationSubscription as BaseCommentNotific
  * @method static Builder<static>|CommentNotificationSubscription where((string|Closure) $column, mixed $operator = null, mixed $value = null, string $boolean = 'and')
  * @method static Builder<static>|CommentNotificationSubscription whereNotNull((string|Expression) $columns)
  * @method static int count(string $columns = '*')
+ *
  * @mixin \Eloquent
  */
 class CommentNotificationSubscription extends BaseCommentNotificationSubscription

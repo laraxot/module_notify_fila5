@@ -27,7 +27,7 @@ final class ResolvePageAction
         // 1. Tenta il caricamento di un modello dinamico
         $item = $this->loadDynamicModel($container0, $slug0);
 
-        if (null !== $item) {
+        if ($item !== null) {
             return new ResolvePageData(
                 renderMode: 'model',
                 item: $item,
@@ -65,7 +65,7 @@ final class ResolvePageAction
 
     private function loadDynamicModel(string $container0, string $slug0): ?object
     {
-        if ('profile' === $container0) {
+        if ($container0 === 'profile') {
             return $this->resolvePublicProfileItem($slug0);
         }
 
@@ -98,7 +98,7 @@ final class ResolvePageAction
 
         foreach ($possibleModels as $modelClass) {
             $item = $this->queryModel($modelClass, $slug0);
-            if (null !== $item) {
+            if ($item !== null) {
                 return $item;
             }
         }
@@ -127,7 +127,7 @@ final class ResolvePageAction
                     continue;
                 }
 
-                if (null !== $item) {
+                if ($item !== null) {
                     return $item;
                 }
             }
@@ -140,7 +140,7 @@ final class ResolvePageAction
     {
         $userClass = 'Modules\\User\\Models\\User';
         $user = $this->queryModel($userClass, $identifier);
-        if (null !== $user) {
+        if ($user !== null) {
             return $user;
         }
 
@@ -151,7 +151,7 @@ final class ResolvePageAction
 
         foreach ($profileClasses as $profileClass) {
             $profile = $this->queryModel($profileClass, $identifier);
-            if (null !== $profile) {
+            if ($profile !== null) {
                 return $profile;
             }
         }

@@ -14,7 +14,7 @@ test('event_resource_extends_xot_base_resource', function () {
 });
 
 test('event_resource_model_is_event', function () {
-    $resource = new EventResource();
+    $resource = new EventResource;
     expect($resource->getModel())->toBe(Event::class);
 });
 

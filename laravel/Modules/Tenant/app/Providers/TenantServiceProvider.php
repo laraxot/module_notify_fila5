@@ -121,21 +121,18 @@ class TenantServiceProvider extends XotBaseServiceProvider
             }
         }
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< .merge_file_EkwQnQ
         // Create test database connections during testing
         if ($this->app->environment('testing')) {
             // Create test database connections based on environment variables
             $testConnections = [];
             
             // Create test connection for main database
-            $testConnections['<nome progetto>_data_test'] = [
+            $testConnections['<nome_progetto>_data_test'] = [
                 'driver' => 'mysql',
                 'url' => env('DB_URL'),
                 'host' => env('DB_HOST', '127.0.0.1'),
                 'port' => env('DB_PORT', '3306'),
-                'database' => '<nome progetto>_data_test',
+                'database' => '<nome_progetto>_data_test',
                 'username' => env('DB_USERNAME', 'root'),
                 'password' => env('DB_PASSWORD', ''),
                 'unix_socket' => env('DB_SOCKET', ''),
@@ -152,12 +149,12 @@ class TenantServiceProvider extends XotBaseServiceProvider
             ];
             
             // Create test connection for user database
-            $testConnections['<nome progetto>_user_test'] = [
+            $testConnections['<nome_progetto>_user_test'] = [
                 'driver' => 'mysql',
                 'url' => env('DB_URL'),
                 'host' => env('DB_HOST', '127.0.0.1'),
                 'port' => env('DB_PORT', '3306'),
-                'database' => '<nome progetto>_user_test',
+                'database' => '<nome_progetto>_user_test',
                 'username' => env('DB_USERNAME_USER', 'root'),
                 'password' => env('DB_PASSWORD_USER', ''),
                 'unix_socket' => env('DB_SOCKET', ''),
@@ -177,9 +174,6 @@ class TenantServiceProvider extends XotBaseServiceProvider
             $connections = array_merge($connections, $testConnections);
         }
 
-=======
->>>>>>> .merge_file_EufmEY
->>>>>>> Stashed changes
         $data = Arr::set($data, 'connections', $connections);
         Config::set('database', $data);
 

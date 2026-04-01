@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Models;
 
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
 use Modules\Fixcity\Database\Factories\TicketSubscriberFactory;
-use Illuminate\Database\Eloquent\Builder;
 use Modules\User\Models\User;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Xot\Datas\XotData;
 
 /**
@@ -22,6 +22,7 @@ use Modules\Xot\Datas\XotData;
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  * @property Ticket|null $ticket
+ *
  * @method static TicketSubscriberFactory factory($count = null, $state = [])
  * @method static Builder|TicketSubscriber newModelQuery()
  * @method static Builder|TicketSubscriber newQuery()
@@ -38,10 +39,12 @@ use Modules\Xot\Datas\XotData;
  * @method static Builder|TicketSubscriber whereUserId($value)
  * @method static Builder|TicketSubscriber withTrashed()
  * @method static Builder|TicketSubscriber withoutTrashed()
+ *
  * @property User|null $user
  * @property-read Profile|null $creator
  * @property-read Profile|null $updater
  * @property-read \Modules\Fixcity\Models\Profile|null $deleter
+ *
  * @mixin \Eloquent
  */
 class TicketSubscriber extends BaseModel

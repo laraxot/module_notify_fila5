@@ -158,7 +158,7 @@ class SubtitleService
                     'item_i' => $item_i,
                     'start' => $start,
                     'end' => $end,
-                    'time' => secondsToHms($start).','.secondsToHms($end),
+                    'time' => $this->secondsToHms($start).','.$this->secondsToHms($end),
                     'text' => $item->__toString(),
                 ];
                 $data[] = $tmp;
@@ -169,6 +169,23 @@ class SubtitleService
         }
 
         return $data;
+    }
+
+    /**
+     * Convert seconds to HH:MM:SS,mmm subtitle time format.
+     *
+     * @param  float|int  $seconds  The number of seconds to convert
+     * @return string The formatted time string (e.g. "00:01:30,500")
+     */
+    private function secondsToHms(float|int $seconds): string
+    {
+        $ms = (int) round(($seconds - floor($seconds)) * 1000);
+        $s = (int) floor($seconds);
+        $h = (int) floor($s / 3600);
+        $m = (int) floor(($s % 3600) / 60);
+        $s = $s % 60;
+
+        return sprintf('%02d:%02d:%02d,%03d', $h, $m, $s, $ms);
     }
 
     /**
