@@ -1,36 +1,33 @@
-{{--
-    Feedback Rating Block
-    Reference: design-comuni-pagine-statiche/src/pages/sito/homepage.hbs cmp-rating
---}}
-@props([
-    'id'    => 'rating',
-    'title' => 'Quanto sono chiare le informazioni su questa pagina?',
-])
+@props(['data' => []])
 
-<div class="bg-primary">
-    <div class="container">
-        <div class="row d-flex justify-content-center bg-primary">
-            <div class="col-12 col-lg-6">
-                <div class="cmp-rating">
-                    <div class="card-wrapper card shadow-lg border-0">
-                        <div class="card-header border-0 bg-white">
-                            <h2 class="title-medium-2-semi-bold text-center" id="{{ $id }}-title">{{ $title }}</h2>
-                        </div>
-                        <div class="card-body px-4 pb-8">
-                            <div class="rating" role="group" aria-labelledby="{{ $id }}-title">
-                                @for($i = 5; $i >= 1; $i--)
-                                <input type="radio" id="{{ $id }}-star{{ $i }}" name="{{ $id }}-rating" value="{{ $i }}" class="visually-hidden" />
-                                <label class="rating-star" for="{{ $id }}-star{{ $i }}" aria-label="Valutazione {{ $i }} stelle su 5">
-                                    <svg aria-hidden="true">
-                                        <use href="{{ asset('themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-star-full') }}"></use>
-                                    </svg>
-                                </label>
-                                @endfor
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{-- Rating Component - Bootstrap Italia Exact Replica --}}
+@php
+    $title = $data['title'] ?? 'QUANTO SONO CHIARE LE INFORMAZIONI SU QUESTA PAGINA?';
+    $question = $data['question'] ?? 'GRAZIE, IL TUO PARERE CI AIUTERÀ A MIGLIORARE IL SERVIZIO!';
+    $maxRating = $data['maxRating'] ?? 5;
+@endphp
+
+<div class="cmp-rating">
+    <div class="card card-teaser shadow p-4 rounded border border-light">
+        <div class="card-body text-center">
+            <h5 class="card-title mb-3">{{ $title }}</h5>
+            
+            <div class="rating-wrapper">
+                @for($i = 1; $i <= $maxRating; $i++)
+                <label class="rating-label">
+                    <input type="radio" name="rating" value="{{ $i }}" class="visually-hidden">
+                    <span class="rating-star" data-value="{{ $i }}">
+                        <svg class="icon icon-lg">
+                            <use xlink:href="#it-star"></use>
+                        </svg>
+                    </span>
+                </label>
+                @endfor
             </div>
+            
+            @if($question)
+            <p class="mt-3 mb-0 text-muted">{{ $question }}</p>
+            @endif
         </div>
     </div>
 </div>

@@ -88,13 +88,43 @@
         "active": true,
         "data": {
           "view": "pub_theme::components.blocks.hero.homepage",
-          "title": "Benvenuto nel Comune",
-          "subtitle": "Portale dei servizi digitali",
+          "title": "NOME DEL COMUNE",
+          "subtitle": "CONTENUTI IN EVIDENZA",
           "image": "/themes/Sixteen/images/hero-homepage.jpg",
           "cta": {
             "label": "Scopri i servizi",
             "url": "/it/servizi"
           }
+        }
+      },
+      {
+        "id": "block-004b",
+        "type": "governance",
+        "weight": 15,
+        "active": true,
+        "data": {
+          "view": "pub_theme::components.blocks.governance.cards",
+          "title": "Organi di governo",
+          "cards": [
+            {
+              "title": "MARIO ROSSI",
+              "role": "Il Sindaco della città",
+              "description": "Mandato dal 2021",
+              "url": "/it/amministrazione/sindaco"
+            },
+            {
+              "title": "LA GIUNTA COMUNALE",
+              "role": "Organo esecutivo",
+              "description": "Composta da 8 assessori",
+              "url": "/it/amministrazione/giunta"
+            },
+            {
+              "title": "IL CONSIGLIO COMUNALE",
+              "role": "Organo di indirizzo",
+              "description": "Composto da 16 consigieri",
+              "url": "/it/amministrazione/consiglio"
+            }
+          ]
         }
       },
       {
@@ -157,6 +187,63 @@
               "url": "/it/novita/lavori-pubblici"
             }
           ]
+        }
+      },
+      {
+        "id": "block-006c",
+        "type": "events-section",
+        "weight": 32,
+        "active": true,
+        "data": {
+          "view": "pub_theme::components.blocks.events.calendar",
+          "title": "EVENTI",
+          "month": "SETTEMBRE 2022",
+          "events": [
+            {"day": "15", "month": "LUN", "title": "Saldo TASI", "url": "/it/eventi/saldo-tasi"},
+            {"day": "20", "month": "SAB", "title": "Concerto in piazza", "url": "/it/eventi/concerto"},
+            {"day": "21", "month": "MAR", "title": "Convocazione consiglio", "url": "/it/eventi/consiglio"}
+          ]
+        }
+      },
+      {
+        "id": "block-006d",
+        "type": "topics-section",
+        "weight": 34,
+        "active": true,
+        "data": {
+          "view": "pub_theme::components.blocks.topics.highlight",
+          "title": "ARGOMENTI IN EVIDENZA",
+          "topics": [
+            {"title": "TRASPORTO PUBBLICO", "icon": "it-bus", "url": "/it/trasporto", "description": "Orari e linee"},
+            {"title": "MOBILITÀ IN COMUNE", "icon": "it-bicycle", "url": "/it/mobilita", "description": "Piste ciclabili"},
+            {"title": "ANIMALE DOMESTICO", "icon": "it-paw", "url": "/it/animali", "list": [{"label": "Anagrafe animale", "url": "/it/anagrafe"}]},
+            {"title": "SPORT", "icon": "it-sport", "url": "/it/sport", "list": [{"label": "Impianti sportivi", "url": "/it/impianti"}]}
+          ],
+          "showAllUrl": "/it/argomenti"
+        }
+      },
+      {
+        "id": "block-006e",
+        "type": "search-section",
+        "weight": 36,
+        "active": true,
+        "data": {
+          "view": "pub_theme::components.blocks.search.support-links",
+          "title": "Cerca nel sito",
+          "placeholder": "Cerca una parola chiave",
+          "action": "/it/ricerca"
+        }
+      },
+      {
+        "id": "block-006f",
+        "type": "feedback-section",
+        "weight": 38,
+        "active": true,
+        "data": {
+          "view": "pub_theme::components.blocks.feedback.rating",
+          "title": "QUANTO SONO CHIARE LE INFORMAZIONI SU QUESTA PAGINA?",
+          "question": "GRAZIE, IL TUO PARERE CI AIUTERÀ A MIGLIORARE IL SERVIZIO!",
+          "maxRating": 5
         }
       },
       {

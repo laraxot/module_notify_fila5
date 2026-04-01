@@ -12,7 +12,12 @@
 3. [Design Comuni Implementation](./design-comuni-implementation.md) - Main implementation guide for Municipality Design
 
 ### 🏗️ Architecture & Standards
-- [Theme Vite Output Rule](../../Modules/Xot/docs/vite-configuration.md) - `outDir: ./public` and why the copy step exists
+<<<<<<< HEAD
+- [Agid Layout Usage Rules](./agid-layout-usage-rules.md) - How to use Agid-compliant layouts
+- [Sixteen Theme Naming Rules](./sixteen-theme-naming-rules.md) - Naming conventions for this theme
+- [Vite Configuration Rules](./vite-configuration-rules.md) - Asset loading optimization
+- [SVG Icon Convention](./svg-icon-convention.md) - Rules for using SVG icons
+=======
 - **[Layout Hierarchy](./layout-hierarchy.md)** ✅ - `x-layouts.app` extends `x-layouts.main`
   - Base structure → Public frontend → Specialized layouts
   - DRY + KISS compliant architecture
@@ -31,20 +36,10 @@
   - Development vs Production builds
 - [Agid Layout Usage Rules](./agid-layout-usage-rules.md) - How to use Agid-compliant layouts
 - [Sixteen Theme Naming Rules](./sixteen-theme-naming-rules.md) - Naming conventions for this theme
-- [Vite Configuration Rules](./vite-configuration-rules.md) - Asset loading optimization
-- [SVG Icon Convention](./svg-icon-convention.md) - Rules for using SVG icons
+>>>>>>> 4a11dcf (.)
 
 ### 🎨 Design Comuni Italia (Agid Compliance)
-- [Design Comuni Replication Guide](./design-comuni/00-index.md) - **Complete replication documentation**
-  - [Pages Index](./design-comuni/pages/00-index.md) - All pages to replicate
-    - [Homepage](./design-comuni/pages/homepage.md) - Homepage replication
-    - [Argomenti](./design-comuni/pages/argomenti.md) - Topics page
-    - [Appuntamento 06](./design-comuni/pages/appuntamento-06-conferma.md) - Appointment confirmation
-  - [Blocks System](./design-comuni/blocks/00-index.md) - Universal reusable blocks
-  - [Screenshots](./design-comuni/screenshots/00-index.md) - Visual comparisons
 - [Design Comuni Implementation Guide](./design-comuni-implementation.md) - **Primary Technical Reference**
-- [Design Comuni Pages Analysis](./design-comuni/pages-analysis.md) - Canonical mapping page -> reusable blocks
-- GitHub tracking: issue #46, issue #47, issue #48, discussion #45
 - [Agid Checklist](./agid-checklist.md) - Compliance verification
 - [Agid Compliance Summary](./agid-compliance-summary.md) - Summary of work done
 - [Components Status](./components-status.md) - Current state of all components

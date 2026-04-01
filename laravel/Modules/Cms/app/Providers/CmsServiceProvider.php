@@ -61,7 +61,7 @@ class CmsServiceProvider extends XotBaseServiceProvider
             Config::set('livewire.view_path', $theme_path.'/livewire');
             Config::set('livewire.class_namespace', 'Themes\\'.$this->xot->pub_theme.'\Http\Livewire');
 
-            // Folio routing handled by FolioVoltServiceProvider
+            // $this->registerFolio();
         }
     }
 

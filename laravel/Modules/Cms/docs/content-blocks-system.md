@@ -177,7 +177,7 @@ class BlockData extends Data implements Wireable
 
 ## Integrazione con Filament Builder
 
-Il sistema utilizza il [Filament Builder](https://filamentphp.com/docs/5.x/forms/builder) per la gestione dinamica dei blocchi nell'interfaccia admin.
+Il sistema utilizza il [Filament Builder](https://filamentphp.com/docs/3.x/forms/fields/builder) per la gestione dinamica dei blocchi nell'interfaccia admin.
 
 ### Configurazione Builder
 
@@ -218,7 +218,7 @@ Errore: Proprietà mancanti nel template
 - Utilizzare il null coalescing operator `??` per valori opzionali
 
 ## Collegamenti
-- [Filament Builder Documentation](https://filamentphp.com/docs/5.x/forms/builder)
+- [Filament Builder Documentation](https://filamentphp.com/docs/3.x/forms/fields/builder)
 - [Architettura Content Blocks](./content_blocks_architecture.md)
 - [Implementazione Register Disabled](./register_disabled_implementation.md)
 - [BlockData Implementation](../app/Datas/BlockData.php)

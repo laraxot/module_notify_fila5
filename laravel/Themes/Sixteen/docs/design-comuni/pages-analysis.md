@@ -4,22 +4,10 @@
 **Source:** [Design Comuni Pagine Statiche v2.4.0](https://italia.github.io/design-comuni-pagine-statiche/)  
 **Purpose:** Document HTML structure, identify blocks needed, and map to CMS JSON structure for implementation
 
+<<<<<<< HEAD
+=======
 
-## Active Workstream
-
-- Theme governance: GitHub issue `#47`
-- Tests pages migration: GitHub issue `#46`
-- Docs and screenshot governance: GitHub issue `#48`
-- Architecture decision log: GitHub discussion `#45`
-
-## Canonical Constraints
-
-- Use `Themes/Sixteen/resources/views/pages/tests/[slug].blade.php` as the single dynamic entry point for test pages.
-- Keep `Themes/Sixteen/resources/views/pages/tests/index.blade.php` only for `tests.index`.
-- Render page content via `<x-page side="content" :slug="" :data="" />`.
-- Treat header and footer as sections invoked with `<x-section slug="header" />` and `<x-section slug="footer" />`.
-- Use reusable block views named `pub_theme::components.blocks.<type>.<blade>`.
-- Replicate Design Comuni with Tailwind/Vite/Alpine and , not Bootstrap Italia runtime assets.
+>>>>>>> 4a11dcf (.)
 ---
 
 ## Table of Contents
