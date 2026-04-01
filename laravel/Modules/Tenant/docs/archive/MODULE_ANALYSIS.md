@@ -148,7 +148,7 @@ Tenant Detection → Configuration Load → Bootstrap → Response
 - **User**: Tenant-aware user management
 - **Activity**: Tenant-isolated activity logging
 - **Limesurvey**: Tenant-specific survey data
-- **<nome progetto>**: Tenant-scoped reporting
+- **Quaeris**: Tenant-scoped reporting
 - **Notify**: Tenant notification channels
 
 ## Lacune e Funzionalità Mancanti
@@ -195,7 +195,7 @@ Tenant Detection → Configuration Load → Bootstrap → Response
 1. **Advanced Analytics**
    - No tenant behavior analytics
    - Missing performance comparisons
-   - No usage <nome progetto>ions
+   - No usage predictions
    - Missing optimization recommendations
 
 2. **Integration Features**
