@@ -8,16 +8,16 @@
             <a href="#" class="it-header-slim-link">
                 {{ $region ?: 'Nome della Regione' }}
             </a>
-
+            
             {{-- Right: Language, Login, Social --}}
             <div class="it-header-slim-right-zone">
                 {{-- Language Dropdown --}}
                 <div class="dropdown">
                     <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <span class="visually-hidden">Lingua attiva:</span>
-                        IT
+                        {{ $language }}
                         <svg class="icon icon-xs">
-                            <use href="#it-chevron-down"></use>
+                            <use xlink:href="#it-chevron-down"></use>
                         </svg>
                     </button>
                     <ul class="dropdown-menu">
@@ -26,7 +26,7 @@
                                 <span>ITA</span>
                                 @if($language === 'ITA')
                                     <svg class="icon icon-xs ms-2">
-                                        <use href="#it-check"></use>
+                                        <use xlink:href="#it-check"></use>
                                     </svg>
                                 @endif
                             </a>
@@ -36,54 +36,39 @@
                                 <span>ENG</span>
                                 @if($language === 'ENG')
                                     <svg class="icon icon-xs ms-2">
-                                        <use href="#it-check"></use>
+                                        <use xlink:href="#it-check"></use>
                                     </svg>
                                 @endif
                             </a>
                         </li>
                     </ul>
                 </div>
-
+                
                 {{-- Login Button --}}
                 <a href="{{ $login_url }}" class="btn btn-primary btn-sm">
                     <svg class="icon icon-sm">
-                        <use href="#it-user"></use>
+                        <use xlink:href="#it-user"></use>
                     </svg>
                     <span>Accedi all'area personale</span>
                 </a>
-
+                
                 {{-- Social Icons --}}
                 @if(count($social) > 0)
                 <div class="it-socials d-none d-lg-flex">
                     <span class="me-2">Seguici su</span>
                     <ul class="list-inline mb-0">
                         @foreach($social as $network)
+                        <li class="list-inline-item">
                             @php
-                                // Handle array, object, or string
-                                if (is_array($network)) {
-                                    $platform = $network['platform'] ?? '';
-                                    $url = $network['url'] ?? '#';
-                                } elseif (is_object($network)) {
-                                    $platform = $network->platform ?? '';
-                                    $url = $network->url ?? '#';
-                                } else {
-                                    // Fallback: assume string (platform name)
-                                    $platform = (string) $network;
-                                    $url = '#';
-                                }
-                                
-                                // Ensure platform is a string for ucfirst()
-                                $platform = is_string($platform) ? $platform : '';
+                                $platform = is_array($network) ? $network['platform'] : $network;
+                                $url = is_array($network) ? $network['url'] : '#';
                             @endphp
-                            @if($platform !== '')
-                                <li class="list-inline-item">
-                                    <a href="{{ $url }}" class="text-link" aria-label="{{ ucfirst($platform) }}">
-                                        <svg class="icon icon-sm">
-                                            <use href="#it-{{ strtolower($platform) }}"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            @endif
+                            <a href="{{ $url }}" class="text-link" aria-label="{{ ucfirst($platform) }}">
+                                <svg class="icon icon-sm">
+                                    <use xlink:href="#it-{{ $platform }}"></use>
+                                </svg>
+                            </a>
+                        </li>
                         @endforeach
                     </ul>
                 </div>

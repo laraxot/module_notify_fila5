@@ -16,12 +16,10 @@
 
 ### 🏗️ Architecture (NEW)
 1. **[Layout Hierarchy](./layout-hierarchy.md)** ✅ - `x-layouts.app` extends `x-layouts.main`
-2. **[Design System Conversion](./design-system-conversion.md)** ✅ **NEW** - Bootstrap Italia → Tailwind + Alpine + Flowbite
-3. **[Components Directory](./components-directory-structure.md)** ✅ - Complete component organization
-4. **[Vite Configuration](./vite-configuration-guide.md)** ✅ - Build configuration (`outDir: './public'`)
+2. **[Components Directory](./components-directory-structure.md)** ✅ - Complete component organization
+3. **[Vite Configuration](./vite-configuration-guide.md)** ✅ - Build configuration (`outDir: './public'`)
 4. **[Build Commands](./build-commands-guide.md)** ✅ - Complete build process
 5. **[Vite Config Fix](./vite-config-fix-summary.md)** ✅ - Why `outDir: './public'`
-6. **[Vite Manifest Root Cause](./VITE_MANIFEST_ROOT_CAUSE.md)** ✅ NEW - Complete error analysis
 
 ---
 
@@ -32,7 +30,6 @@
 | Document | Status | Description |
 |----------|--------|-------------|
 | [Layout Hierarchy](./layout-hierarchy.md) | ✅ NEW | Base structure → Public frontend → Specialized layouts |
-| [JSON content_blocks Rule](./json-content-blocks-rule.md) | ✅ NEW | Regola per struttura content_blocks nei JSON |
 | [Components Directory](./components-directory-structure.md) | ✅ NEW | Layouts, Sections, Blocks, AGID components |
 | [Vite Configuration](./vite-configuration-guide.md) | ✅ NEW | Build configuration with `outDir: './public'` |
 | [Build Commands](./build-commands-guide.md) | ✅ NEW | `composer update -W` → `npm run build` → `npm run copy` |
@@ -46,8 +43,6 @@
 | Document | Status | Description |
 |----------|--------|-------------|
 | [Design Comuni Implementation](./design-comuni-implementation.md) | ✅ | Primary technical reference |
-| [Design Comuni Replication Plan](./DESIGN_COMUNI_REPLICATION_PLAN.md) | ✅ NEW | 38 pages replication |
-| [Design Comuni HTML Parity Plan](./design-comuni-html-parity-plan.md) | ✅ NEW | HTML exact matching |
 | [AGID Checklist](./agid-checklist.md) | ✅ | Compliance verification |
 | [AGID Compliance Summary](./agid-compliance-summary.md) | ✅ | Summary of work done |
 | [AGID Components Reorganization](./agid-components-reorganization.md) | ✅ | Component structure |
@@ -112,8 +107,6 @@ All documentation files now include **bidirectional links** for easy navigation:
 
 ### From Architecture Docs
 - [[00-index]] - Main index
-- [[layout-hierarchy]] - Layouts
-- [[json-content-blocks-rule]] - JSON content_blocks rule
 - [[components-directory-structure]] - Components
 - [[vite-configuration-guide]] - Vite config
 - [[build-commands-guide]] - Build process

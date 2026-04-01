@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Themes\Sixteen\Providers;
 
 use Illuminate\Support\Facades\Blade;
-use Laravel\Folio\Folio;
 use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
 use Modules\Xot\Providers\XotBaseThemeServiceProvider;
 use Themes\Sixteen\Console\Commands\SixteenInstallCommand;
@@ -50,9 +49,6 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 
         parent::boot();
 
-        // Mount Folio pages for the theme
-        $this->mountFolioPages();
-
         // Menu system registration
         $this->registerMenuSystem();
 
@@ -90,26 +86,17 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
     }
 
     /**
-     * Mount Folio pages for the theme
-     */
-    protected function mountFolioPages(): void
-    {
-        // Mount pages from theme directory
-        // This enables file-based routing for pages in:
-        // Themes/Sixteen/resources/views/pages/
-        Folio::path(__DIR__.'/../../resources/views/pages');
-    }
-
-    /**
      * Load core theme resources
      */
     protected function loadCoreThemeResources(): void
     {
         // IMPORTANTE: pub_theme è il namespace standard per i temi
         $this->loadViewsFrom(__DIR__.'/../../resources/views', 'pub_theme');
-        // Also register with 'sixteen' namespace for compatibility
-        $this->loadViewsFrom(__DIR__.'/../../resources/views', 'sixteen');
         $this->loadTranslationsFrom(__DIR__.'/../../lang', 'pub_theme');
+
+        // Register 'sixteen' namespace for backward compatibility
+        $this->loadViewsFrom(__DIR__.'/../../resources/views', 'sixteen');
+        $this->loadTranslationsFrom(__DIR__.'/../../lang', 'sixteen');
 
         // Caricamento delle configurazioni del tema
         $this->loadConfigFrom(__DIR__.'/../../config', 'sixteen');
@@ -252,15 +239,10 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
         // Register with pub_theme namespace (for theme compatibility)
         Blade::componentNamespace($componentNamespace, 'pub_theme');
 
-        // CRITICAL: Register Page component to override Cms\Page component
-        // Use 'page' alias so <x-page> uses this instead of Modules\Cms\View\Components\Page
-        Blade::alias('Themes\Sixteen\View\Components\Page', 'page');
-
         // Register anonymous components for pub_theme
         $componentsPath = realpath(__DIR__.'/../../resources/views/components');
         if ($componentsPath !== false) {
             Blade::anonymousComponentPath($componentsPath, 'pub_theme');
-            Blade::anonymousComponentPath($componentsPath, 'sixteen');
         }
 
         // Register class-based components

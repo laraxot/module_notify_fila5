@@ -1,46 +1,34 @@
-{{--
-    Hero Block - Universal reusable component
-    
-    USAGE:
-    <x-pub_theme::components.blocks.hero.default title="Benvenuto" subtitle="Homepage" />
-    
-    BLOCK TYPE: hero (UNIVERSAL, NOT page-specific)
-    VIEW: pub_theme::components.blocks.hero.default
-    
-    VARIANTS:
-    - default: Simple hero with title and subtitle
-    - homepage: Hero with image and CTA
-    - with-image: Hero with background image
-    - with-video: Hero with video background
-    
-    INSPIRED BY:
-    - https://flowbite.com/blocks/
-    - https://tailwindcss.com/plus/ui-blocks
---}}
+@props(['data' => []])
 
-@props(['title' => '', 'subtitle' => '', 'content' => '', 'background' => 'primary'])
+{{-- Hero Section - Bootstrap Italia Exact Replica --}}
+@php
+    $title = $data['title'] ?? 'NOME DEL COMUNE';
+    $subtitle = $data['subtitle'] ?? 'CONTENUTI IN EVIDENZA';
+    $backgroundImage = $data['backgroundImage'] ?? null;
+    $overlay = $data['overlay'] ?? true;
+    $theme = $data['theme'] ?? 'dark';
+@endphp
 
-<div class="cmp-hero py-12 {{ $background === 'primary' ? 'bg-primary text-white' : ($background === 'white' ? 'bg-white' : 'bg-gray-100') }}">
+<div class="it-hero-wrapper it-{{ $theme }} @if($overlay) it-overlay @endif">
+    @if($backgroundImage)
+    <div class="img-responsive-wrapper">
+        <div class="img-responsive">
+            <div class="img-wrapper">
+                <img src="{{ $backgroundImage }}" alt="{{ $title }}">
+            </div>
+        </div>
+    </div>
+    @endif
+
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-10">
-                <section class="it-hero-wrapper bg-{{ $background === 'white' ? 'white' : '' }} align-items-start">
-                    <div class="it-hero-text-wrapper pt-0 ps-0 pb-4 pb-lg-60">
-                        @if($title)
-                            <h1 class="text-{{ $background === 'white' ? 'black' : ($background === 'primary' ? 'white' : 'gray-900') }}" data-element="page-name">
-                                {{ $title }}
-                            </h1>
-                        @endif
-                        
-                        @if($subtitle || $content)
-                            <div class="hero-text">
-                                <p class="{{ $background === 'white' ? '' : ($background === 'primary' ? 'text-white/90' : 'text-gray-600') }}">
-                                    {{ $subtitle ?: $content }}
-                                </p>
-                            </div>
-                        @endif
-                    </div>
-                </section>
+        <div class="row">
+            <div class="col-12">
+                <div class="it-hero-text-wrapper bg-{{ $theme }}">
+                    <h1 class="no_toc">{{ $title }}</h1>
+                    @if($subtitle)
+                    <p class="d-none d-lg-block">{{ $subtitle }}</p>
+                    @endif
+                </div>
             </div>
         </div>
     </div>
