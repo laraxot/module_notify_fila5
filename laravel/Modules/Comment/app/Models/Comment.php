@@ -39,6 +39,7 @@ use Spatie\Comments\Models\Reaction;
  * @property string $original_text
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ *
  * @method static CommentFactory factory($count = null, $state = [])
  * @method static Builder|Comment newModelQuery()
  * @method static Builder|Comment newQuery()
@@ -62,6 +63,7 @@ use Spatie\Comments\Models\Reaction;
  * @method static Builder|Comment whereUpdatedAt($value)
  * @method static Builder|Comment whereUpdatedBy($value)
  * @method static Builder|Comment whereUserId($value)
+ *
  * @property Model|\Eloquent $commentable
  * @property Model|\Eloquent $commentator
  * @property Collection<int, BaseComment> $comments
@@ -75,6 +77,7 @@ use Spatie\Comments\Models\Reaction;
  * @property int|null $reactions_count
  * @property ReactionCollection<int, Reaction> $unsortedReactionCounts
  * @property int|null $unsorted_reaction_counts_count
+ *
  * @method static Builder<static>|Comment approved()
  * @method static Builder<static>|Comment pending()
  * @method static Builder<static>|Comment topLevel()
@@ -85,6 +88,7 @@ use Spatie\Comments\Models\Reaction;
  * @method static Builder<static>|Comment where((string|Closure) $column, mixed $operator = null, mixed $value = null, string $boolean = 'and')
  * @method static Builder<static>|Comment whereNotNull((string|Expression) $columns)
  * @method static int count(string $columns = '*')
+ *
  * @mixin \Eloquent
  */
 class Comment extends BaseComment

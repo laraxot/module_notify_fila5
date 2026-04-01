@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Comment\Models;
 
-use Illuminate\Database\Eloquent\Relations\MorphPivot;
 use Modules\Xot\Traits\Updater;
 
 /**

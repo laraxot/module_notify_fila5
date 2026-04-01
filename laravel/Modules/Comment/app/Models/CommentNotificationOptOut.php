@@ -16,12 +16,15 @@ use Spatie\Comments\Models\CommentNotificationOptOut as BaseCommentNotificationO
 /**
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ *
  * @method static CommentNotificationOptOutFactory factory($count = null, $state = [])
  * @method static Builder|CommentNotificationOptOut newModelQuery()
  * @method static Builder|CommentNotificationOptOut newQuery()
  * @method static Builder|CommentNotificationOptOut query()
+ *
  * @property-read Model|\Eloquent $commentable
  * @property-read Model|\Eloquent $commentator
+ *
  * @method static CommentNotificationOptOut|null first()
  * @method static Collection<int, CommentNotificationOptOut> get()
  * @method static CommentNotificationOptOut create(array $attributes = [])
@@ -29,6 +32,7 @@ use Spatie\Comments\Models\CommentNotificationOptOut as BaseCommentNotificationO
  * @method static Builder<static>|CommentNotificationOptOut where((string|Closure) $column, mixed $operator = null, mixed $value = null, string $boolean = 'and')
  * @method static Builder<static>|CommentNotificationOptOut whereNotNull((string|Expression) $columns)
  * @method static int count(string $columns = '*')
+ *
  * @mixin \Eloquent
  */
 class CommentNotificationOptOut extends BaseCommentNotificationOptOut

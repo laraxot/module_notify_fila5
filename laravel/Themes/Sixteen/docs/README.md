@@ -13,6 +13,7 @@ Il tema Sixteen è un'implementazione completa delle **Linee Guida AGID per il D
 - **Requisiti Legali**: In implementazione
 
 ### 📋 Documentazione Aggiornata
+- **[Layout Hierarchy](layout-hierarchy.md)** - Canonical rule: `app` wraps `main`
 - **[Analisi Compliance AGID](agid-compliance-analysis.md)** - Analisi completa requisiti
 - **[Roadmap Componenti Mancanti](missing-components-roadmap.md)** - Piano implementazione 38+ componenti
 - **[Stato Componenti](components-status.md)** - Stato dettagliato implementazione
@@ -73,12 +74,21 @@ public function panel(Panel $panel): Panel
 ```
 Themes/Sixteen/
 ├── docs/                           # 📚 Documentazione completa
+│   ├── 00-index.md                 # ✅ Indice principale (aggiornato)
+│   ├── layout-hierarchy.md         # ✅ Gerarchia layout (app → main)
 │   ├── agid-bootstrap-italia-gap-analysis.md  # Gap analysis AGID
 │   ├── bootstrap-italia-compliance-analysis.md # Stato compliance
 │   ├── components-status.md        # Stato componenti
 │   ├── filament-4-login-widget-implementation.md # ✅ Login Widget Guide
 │   └── index.md                    # Indice documentazione
 ├── resources/views/components/
+│   └── layouts/                    # 🎨 Layout Components
+│       ├── main.blade.php          # ✅ Base HTML structure
+│       ├── app.blade.php           # ✅ Public frontend (extends main)
+│       ├── auth.blade.php          # Protected pages
+│       ├── guest.blade.php         # Authentication pages
+│       └── navigation.blade.php    # Navigation layouts
+│   └── bootstrap-italia/           # 🎨 Componenti AGID
 │   └── bootstrap-italia/           # 🎨 Componenti AGID
 │       ├── alert.blade.php         # ✅ Messaggi di stato
 │       ├── badge.blade.php         # ✅ Indicatori stato
