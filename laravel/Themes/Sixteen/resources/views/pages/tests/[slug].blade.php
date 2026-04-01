@@ -26,23 +26,13 @@ new class extends Component {
         ];
     }
 };
+
 ?>
 
 <x-layouts.app>
     @volt('tests.view')
-    {{-- Single root wrapper for Livewire --}}
-    <div class="tests-view-wrapper">
-        @php
-            // Load blocks from CMS Page model
-            $blocks = \Modules\Cms\Models\Page::getBlocksBySlug($this->pageSlug, 'content');
-        @endphp
-
-        {{-- Main Content - Page-specific content only (NO header/footer/skiplink) --}}
-        <div class="page-content content" data-slug="{{ $this->pageSlug }}" data-side="content">
-            @foreach($blocks as $block)
-                @include($block->view, array_merge(['data' => []], $block->data))
-            @endforeach
+        <div>
+            <x-page side="content" :slug="$pageSlug" :data="$data" />
         </div>
-    </div>
     @endvolt
 </x-layouts.app>

@@ -91,24 +91,29 @@ trait HasBlocks
      */
     public static function getBlocksBySlug(string $slug, ?string $side = null): array
     {
+        
+        
         try {
             $record = static::query()->where('slug', $slug)->sole();
-        } catch (ModelNotFoundException) {
+        } catch (ModelNotFoundException $e) {
+            dddx(['message'=>$e->getMessage(),'slug'=>$slug,'side'=>$side,'class'=>static::class]);
             return [];
         }
-
+        
+        
         if (! $record instanceof Model) {
             return [];
         }
-
+        
         // Check if getBlocks method exists
         if (! method_exists($record, 'getBlocks')) {
             return [];
         }
-
+        
         /** @var array<string, BlockData> $blocks */
         $blocks = $record->getBlocks($side);
-
+        
+        
         return $blocks;
     }
 }
