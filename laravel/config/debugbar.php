@@ -294,6 +294,11 @@ return [
      |--------------------------------------------------------------------------
      |
      | Additional middleware to run on the Debugbar routes
+     |
+     | IMPORTANT: In this project, SecurityMiddleware is configured to skip
+     | security headers (CSP, X-Frame-Options) for Debugbar routes in local
+     | environment. This is necessary because the strict CSP blocks Debugbar's
+     | inline scripts and styles required for rendering the debug bar.
      */
     'route_middleware' => [],
 

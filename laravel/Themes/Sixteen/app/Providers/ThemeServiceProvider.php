@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Themes\Sixteen\Providers;
 
 use Illuminate\Support\Facades\Blade;
+use Laravel\Folio\Folio;
 use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
 use Modules\Xot\Providers\XotBaseThemeServiceProvider;
 use Themes\Sixteen\Console\Commands\SixteenInstallCommand;
@@ -49,6 +50,9 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 
         parent::boot();
 
+        // Mount Folio pages for the theme
+        $this->mountFolioPages();
+
         // Menu system registration
         $this->registerMenuSystem();
 
@@ -83,6 +87,17 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 
         // Register SPID/CIE services
         $this->registerAuthServices();
+    }
+
+    /**
+     * Mount Folio pages for the theme
+     */
+    protected function mountFolioPages(): void
+    {
+        // Mount pages from theme directory
+        // This enables file-based routing for pages in:
+        // Themes/Sixteen/resources/views/pages/
+        Folio::path(__DIR__.'/../../resources/views/pages');
     }
 
     /**
