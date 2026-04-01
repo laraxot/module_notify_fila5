@@ -13,12 +13,6 @@
 
 ### 🏗️ Architecture & Standards
 - [Theme Vite Output Rule](../../Modules/Xot/docs/vite-configuration.md) - `outDir: ./public` and why the copy step exists
-<<<<<<< HEAD
-- [Agid Layout Usage Rules](./agid-layout-usage-rules.md) - How to use Agid-compliant layouts
-- [Sixteen Theme Naming Rules](./sixteen-theme-naming-rules.md) - Naming conventions for this theme
-- [Vite Configuration Rules](./vite-configuration-rules.md) - Asset loading optimization
-- [SVG Icon Convention](./svg-icon-convention.md) - Rules for using SVG icons
-=======
 - **[Layout Hierarchy](./layout-hierarchy.md)** ✅ - `x-layouts.app` extends `x-layouts.main`
   - Base structure → Public frontend → Specialized layouts
   - DRY + KISS compliant architecture
@@ -37,7 +31,8 @@
   - Development vs Production builds
 - [Agid Layout Usage Rules](./agid-layout-usage-rules.md) - How to use Agid-compliant layouts
 - [Sixteen Theme Naming Rules](./sixteen-theme-naming-rules.md) - Naming conventions for this theme
->>>>>>> 4a11dcf (.)
+- [Vite Configuration Rules](./vite-configuration-rules.md) - Asset loading optimization
+- [SVG Icon Convention](./svg-icon-convention.md) - Rules for using SVG icons
 
 ### 🎨 Design Comuni Italia (Agid Compliance)
 - [Design Comuni Implementation Guide](./design-comuni-implementation.md) - **Primary Technical Reference**
