@@ -364,6 +364,7 @@ sbaliato "Bootstrap Italia JS is loaded via CDN in the layout." noi stiamo rifac
 
 
 controlla se dentro il tag body compreso se l'html e' uguale fra http://fixcity.local/it/tests/homepage e https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html ​
+controlla se dentro il tag body compreso se l'html e' uguale fra http://fixcity.local/it/tests/homepage e https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html ​
 
 
 
@@ -378,3 +379,15 @@ composer update -W
 npm install
 npm run build
 npm run copy 
+
+
+in laravel/Themes/Sixteen/vite.config.js
+deve essere outDir: './public',
+percio' dentro 
+laravel/Themes/Sixteen/package.json
+ci deve essere 
+"copy": "cp -rv ./public/* ../../../public_html/themes/Sixteen/",
+
+capisci da solo il perche' e aggiorna, studia e migliora le cartelle docs dentro i moduli e dentro i temi, le tue rules, le tue memories, le tue skills, aggiorna tutto utilizzando indici e collegamenti bidirezionali 
+
+
