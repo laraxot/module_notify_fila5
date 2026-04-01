@@ -86,7 +86,39 @@ Questa documentazione elenca tutte le skill AI installate e configurate per il p
 
 ---
 
-### 4. **Vercel Agent Skills** ▲
+### 4. **Superpowers** 🚀
+
+**Directory**: Plugin via `opencode.json`  
+**Source**: https://github.com/obra/superpowers  
+**Status**: ✅ Installed (2026-03-31)
+
+**Features**:
+- **test-driven-development** - RED-GREEN-REFACTOR cycle
+- **systematic-debugging** - 4-phase root cause process
+- **brainstorming** - Socratic design refinement
+- **writing-plans** - Detailed implementation plans
+- **subagent-driven-development** - Fast iteration with two-stage review
+- **using-git-worktrees** - Parallel development branches
+- **finishing-a-development-branch** - Merge/PR decision workflow
+- **requesting-code-review** - Pre-review checklist
+- **receiving-code-review** - Responding to feedback
+- **verification-before-completion** - Ensure it's actually fixed
+- **writing-skills** - Create new skills following best practices
+
+**Installation**: Plugin in `laravel/opencode.json`:
+```json
+{
+    "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
+}
+```
+
+**Usage**: Skills auto-attivano quando l'agente rileva task rilevanti
+
+**File**: [superpowers/installazione.md](./superpowers/installazione.md)
+
+---
+
+### 5. **Vercel Agent Skills** ▲
 
 **Directory**: `skills/vercel/` (To be installed)  
 **Source**: https://github.com/vercel-labs/agent-skills  
