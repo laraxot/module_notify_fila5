@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Models\Policies;
 
-use Illuminate\Auth\Access\Response;
 use Illuminate\Auth\Access\HandlesAuthorization;
+use Illuminate\Auth\Access\Response;
 use Modules\Fixcity\Models\Ticket;
 use Modules\Xot\Contracts\UserContract;
 
@@ -45,8 +45,6 @@ class TicketPolicy
 
     /**
      * Determine whether the user can create models.
-     *
-     * @return Response|bool
      */
     public function create(UserContract $user): Response|bool
     {
@@ -74,8 +72,6 @@ class TicketPolicy
 
     /**
      * Determine whether the user can delete the model.
-     *
-     * @return Response|bool
      */
     public function delete(UserContract $user, Ticket $ticket): Response|bool
     {

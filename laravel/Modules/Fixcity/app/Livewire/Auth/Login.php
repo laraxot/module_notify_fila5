@@ -2,10 +2,10 @@
 
 namespace Modules\Fixcity\Livewire\Auth;
 
-use Filament\Schemas\Schema;
 use Filament\Forms\Components\Checkbox;
 use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
+use Filament\Schemas\Schema;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 

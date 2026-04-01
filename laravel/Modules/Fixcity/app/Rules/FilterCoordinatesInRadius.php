@@ -32,7 +32,6 @@ class FilterCoordinatesInRadius implements ValidationRule
 
         /** @var array<array{latitude: string, longitude: string}> $coordinatesArray */
         $coordinatesArray = array_map(
-            /** @param mixed $row */
             static fn (mixed $row): array => [
                 'latitude' => (string) (is_array($row) ? ($row['latitude'] ?? '0') : '0'),
                 'longitude' => (string) (is_array($row) ? ($row['longitude'] ?? '0') : '0'),

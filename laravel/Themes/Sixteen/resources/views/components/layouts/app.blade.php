@@ -1,23 +1,27 @@
 {{--
-    App Layout Component
-    Design Comuni - Pure Tailwind CSS + Alpine.js
-    NO Bootstrap Italia CDN - Using compiled assets
+    App Layout - Public Frontend
+    Extends: x-layouts.main (components/layouts/main.blade.php)
+    
+    USAGE:
+    <x-layouts.app>
+        <x-section slug="header" />
+        <main>{{ $slot }}</main>
+        <x-section slug="footer" />
+    </x-layouts.app>
+    
+    ARCHITECTURE:
+    - x-layouts.main: Base HTML structure (DOCTYPE, head, body, scripts)
+    - x-layouts.app: Public frontend wrapper with header/footer sections
+    - x-layouts.guest: Authentication pages (login, register)
+    - x-layouts.auth: Protected dashboard pages
+    
+    DRY + KISS:
+    - main.blade.php contains ONLY essential HTML structure
+    - app.blade.php adds public frontend semantics
+    - No duplication: all Vite assets in main.blade.php
 --}}
 @props(['title' => ''])
 
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    
-    <title>{{ $title ? $title . ' - ' : '' }}{{ config('app.name', 'Laravel') }}</title>
-    
-    {{-- Vite Assets - Compiled Tailwind CSS + Alpine.js --}}
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-<body class="font-sans antialiased">
+<x-layouts.main>
     {{ $slot }}
-</body>
-</html>
+</x-layouts.main>

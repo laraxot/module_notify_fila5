@@ -8,17 +8,17 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Filament\Widgets;
 
-use Filament\Actions\Contracts\HasActions;
-use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Schemas\Components\Wizard;
-use Filament\Schemas\Components\Wizard\Step;
 use Filament\Actions\Action;
-use Filament\Schemas\Schema;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Components\Checkbox;
 use Filament\Forms\Components\Placeholder;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Wizard;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
 use Filament\Widgets\Widget as BaseWidget;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\HtmlString;
@@ -29,7 +29,7 @@ use Modules\Fixcity\Models\Ticket;
 /**
  * @property Schema $form
  */
-class CreateTicketWidget extends BaseWidget implements HasForms, HasActions
+class CreateTicketWidget extends BaseWidget implements HasActions, HasForms
 {
     use InteractsWithActions;
     use InteractsWithForms;

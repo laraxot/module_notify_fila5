@@ -20,9 +20,9 @@ use Modules\Xot\Contracts\ProfileContract;
  *
  * @method static StateFactory factory($count = null, $state = [])
  *
- * @property string                          $id
- * @property string                          $state
- * @property string                          $state_code
+ * @property string $id
+ * @property string $state
+ * @property string $state_code
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  *

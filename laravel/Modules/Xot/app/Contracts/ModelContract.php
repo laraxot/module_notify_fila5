@@ -92,7 +92,7 @@ interface ModelContract
     /**
      * Get the value of the model's primary key.
      */
-    public function getKey();
+    public function getKey(): mixed;
 
     /**
      * Get a relationship.
@@ -101,7 +101,7 @@ interface ModelContract
      *
      * @phpstan-param string $key
      */
-    public function getRelationValue($key);
+    public function getRelationValue(string $key): mixed;
 
     /**
      * Create a new instance of the given model.

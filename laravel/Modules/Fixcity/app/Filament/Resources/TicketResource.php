@@ -4,28 +4,26 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Filament\Resources;
 
-use Filament\Schemas\Components\Section;
-use Filament\Forms\Components\TextInput;
-use Filament\Schemas\Components\Utilities\Set;
-use Filament\Schemas\Components\Utilities\Get;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\Textarea;
-use Modules\Fixcity\Filament\Resources\TicketResource\Pages\ListTickets;
-use Modules\Fixcity\Filament\Resources\TicketResource\Pages\CreateTicket;
-use Modules\Fixcity\Filament\Resources\TicketResource\Pages\EditTicket;
-use Modules\Fixcity\Filament\Resources\TicketResource\Pages\ViewTicket;
 use Dotswan\MapPicker\Fields\Map;
 use Filament\Facades\Filament;
 use Filament\Forms;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
 use Filament\Resources\Resource;
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Components\Utilities\Get;
+use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Str;
 use Modules\Fixcity\Enums\TicketPriorityEnum;
 use Modules\Fixcity\Enums\TicketTypeEnum;
-use Modules\Fixcity\Filament\Resources\TicketResource\Pages;
+use Modules\Fixcity\Filament\Resources\TicketResource\Pages\CreateTicket;
+use Modules\Fixcity\Filament\Resources\TicketResource\Pages\EditTicket;
+use Modules\Fixcity\Filament\Resources\TicketResource\Pages\ListTickets;
+use Modules\Fixcity\Filament\Resources\TicketResource\Pages\ViewTicket;
 use Modules\Fixcity\Models\Ticket;
 use Modules\Fixcity\Rules\FilterCoordinatesInRadius;
-use Webmozart\Assert\Assert;
 
 class TicketResource extends Resource
 {
@@ -93,27 +91,26 @@ class TicketResource extends Resource
 
                     // Hidden Latitude and Longitude
                     TextInput::make('latitude')
-                    ->hidden(function () {
-                        $user = Filament::auth()->user();
-                        if (! $user || ! $user->profile) {
-                            return true; // nascondi se non loggato o senza profilo
-                        }
-                
-                        return ! $user->profile->isSuperAdmin();
-                    })
-                    ->readOnly(),
+                        ->hidden(function () {
+                            $user = Filament::auth()->user();
+                            if (! $user || ! $user->profile) {
+                                return true; // nascondi se non loggato o senza profilo
+                            }
+
+                            return ! $user->profile->isSuperAdmin();
+                        })
+                        ->readOnly(),
 
                     TextInput::make('longitude')
-                    ->hidden(function () {
-                        $user = Filament::auth()->user();
-                        if (! $user || ! $user->profile) {
-                            return true;
-                        }
-                
-                        return ! $user->profile->isSuperAdmin();
-                    })
-                    ->readOnly(),
-                
+                        ->hidden(function () {
+                            $user = Filament::auth()->user();
+                            if (! $user || ! $user->profile) {
+                                return true;
+                            }
+
+                            return ! $user->profile->isSuperAdmin();
+                        })
+                        ->readOnly(),
 
                     // Map Section - DISABLED: Package Dotswan\MapPicker not installed
                     // NOTA BENE, ASSICURATI DI ABILITARE LA LOCALIZZAZIONE NEL BROWSER

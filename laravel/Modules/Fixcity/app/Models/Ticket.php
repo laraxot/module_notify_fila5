@@ -4,34 +4,33 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Models;
 
-use Illuminate\Support\Carbon;
-use Illuminate\Database\Eloquent\Collection;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Modules\Media\Models\Media;
-use Modules\User\Models\User;
-use Modules\Fixcity\Database\Factories\TicketFactory;
-use Illuminate\Database\Eloquent\Builder;
-use Spatie\ModelStatus\Status;
-use Modules\Xot\Contracts\ProfileContract;
-use Spatie\Comments\Models\CommentNotificationSubscription;
 use Carbon\CarbonInterval;
 use Illuminate\Database\Eloquent\Casts\Attribute;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
+use Modules\Fixcity\Database\Factories\TicketFactory;
 use Modules\Fixcity\Enums\TicketPriorityEnum;
 use Modules\Fixcity\Enums\TicketStatusEnum;
 use Modules\Fixcity\Enums\TicketTypeEnum;
 use Modules\Fixcity\Notifications\TicketCreated;
 use Modules\Fixcity\Notifications\TicketStatusUpdated;
+use Modules\Media\Models\Media;
+use Modules\User\Models\User;
 use Modules\Xot\Actions\File\AssetAction;
+use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Models\XotBaseModel;
+use Spatie\Comments\Models\CommentNotificationSubscription;
 use Spatie\Comments\Models\Concerns\HasComments;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\ModelStatus\HasStatuses;
+use Spatie\ModelStatus\Status;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 use Webmozart\Assert\Assert;
@@ -88,6 +87,7 @@ use Webmozart\Assert\Assert;
  * @property mixed $total_logged_in_hours
  * @property mixed $total_logged_seconds
  * @property TicketTypeEnum|null $type
+ *
  * @method static TicketFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket newQuery()
@@ -118,19 +118,25 @@ use Webmozart\Assert\Assert;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket withTrashed()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket withoutTrashed()
+ *
  * @property Collection<int, Status> $statuses
  * @property int|null $statuses_count
+ *
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket currentStatus(...$names)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket otherCurrentStatus(...$names)
+ *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ *
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket wherePriority($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket whereSlug($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket whereStatus($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Ticket whereType($value)
+ *
  * @property Collection<int, CommentNotificationSubscription> $notificationSubscriptions
  * @property int|null $notification_subscriptions_count
  * @property-read \Modules\Fixcity\Models\Profile|null $deleter
+ *
  * @mixin \Eloquent
  */
 class Ticket extends XotBaseModel implements HasMedia
@@ -165,8 +171,6 @@ class Ticket extends XotBaseModel implements HasMedia
         // 'estimationProgress',
     ];
 
-
-
     public function casts(): array
     {
         return [
@@ -178,9 +182,6 @@ class Ticket extends XotBaseModel implements HasMedia
         ];
     }
 
-    /**
-     * @return \Modules\Fixcity\Database\Factories\TicketFactory
-     */
     protected static function newFactory(): \Modules\Fixcity\Database\Factories\TicketFactory
     {
         return \Modules\Fixcity\Database\Factories\TicketFactory::new();
@@ -192,10 +193,10 @@ class Ticket extends XotBaseModel implements HasMedia
             return [];
         }
 
-        Assert::isInstanceOf($this->type, TicketTypeEnum::class, '[' . __LINE__ . '][' . __FILE__ . ']');
+        Assert::isInstanceOf($this->type, TicketTypeEnum::class, '['.__LINE__.']['.__FILE__.']');
         $url = $this->type->getIcon();
         $url = Str::of((string) $url)->after('heroicon-o-')->append('.svg')->toString();
-        $url = app(AssetAction::class)->execute('ui::svg/' . $url);
+        $url = app(AssetAction::class)->execute('ui::svg/'.$url);
 
         return [
             'url' => $url,
@@ -241,7 +242,7 @@ class Ticket extends XotBaseModel implements HasMedia
         parent::boot();
 
         static::creating(function (Ticket $ticket) {
-            if (!$ticket->status) {
+            if (! $ticket->status) {
                 $ticket->status = TicketStatusEnum::PENDING;
             }
         });
@@ -475,15 +476,15 @@ class Ticket extends XotBaseModel implements HasMedia
     }
 
     /**
- * @return BelongsTo<User, $this>
- */
-public function assignee(): BelongsTo
-{
-    /** @var class-string<User> $userModel */
-    $userModel = config('auth.providers.users.model');
+     * @return BelongsTo<User, $this>
+     */
+    public function assignee(): BelongsTo
+    {
+        /** @var class-string<User> $userModel */
+        $userModel = config('auth.providers.users.model');
 
-    return $this->belongsTo($userModel, 'assignee_id');
-}
+        return $this->belongsTo($userModel, 'assignee_id');
+    }
 
     /**
      * @return HasMany<TicketComment, $this>
@@ -508,17 +509,17 @@ public function assignee(): BelongsTo
         }
     }
 
-/**
- * @return BelongsToMany<User, $this>
- */
-public function subscribers(): BelongsToMany
-{
-    /** @var class-string<User> $userModel */
-    $userModel = config('auth.providers.users.model');
+    /**
+     * @return BelongsToMany<User, $this>
+     */
+    public function subscribers(): BelongsToMany
+    {
+        /** @var class-string<User> $userModel */
+        $userModel = config('auth.providers.users.model');
 
-    return $this->belongsToMany($userModel, 'ticket_subscribers')
-        ->withTimestamps();
-}
+        return $this->belongsToMany($userModel, 'ticket_subscribers')
+            ->withTimestamps();
+    }
 
     public function registerMediaCollections(): void
     {

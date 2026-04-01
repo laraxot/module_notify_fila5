@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Models;
 
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
  * Class Category.
- * 
+ *
  * Modello per la gestione delle categorie dei ticket.
  * Le categorie sono utilizzate per classificare i tipi di segnalazioni
  * (es. 'strade', 'illuminazione', 'rifiuti', etc.).
@@ -122,7 +122,8 @@ class Category extends BaseModel
         if ($this->parent) {
             $parentName = (string) $this->parent->getAttribute('name');
             $currentName = (string) $this->getAttribute('name');
-            return $parentName . ' > ' . $currentName;
+
+            return $parentName.' > '.$currentName;
         }
 
         return (string) $this->getAttribute('name');

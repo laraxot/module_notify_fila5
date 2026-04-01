@@ -24,15 +24,15 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property ProfileContract|null $updater
  *
  * @method static \Modules\Geo\Database\Factories\CountyFactory factory($count = null, $state = [])
- * @method static Builder<static>|County                        newModelQuery()
- * @method static Builder<static>|County                        newQuery()
- * @method static Builder<static>|County                        query()
- *                                                                                                  >>>>>>> 65bf1208 (.)
+ * @method static Builder<static>|County newModelQuery()
+ * @method static Builder<static>|County newQuery()
+ * @method static Builder<static>|County query()
+ *                                               >>>>>>> 65bf1208 (.)
  *
- * @property string                          $id
- * @property string                          $county
- * @property string|null                     $county_code
- * @property int|null                        $state_id
+ * @property string $id
+ * @property string $county
+ * @property string|null $county_code
+ * @property int|null $state_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  *

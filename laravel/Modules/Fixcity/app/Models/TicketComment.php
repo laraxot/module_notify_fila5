@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Models;
 
-use Illuminate\Support\Carbon;
-use Modules\User\Models\User;
-use Modules\Fixcity\Database\Factories\TicketCommentFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Carbon;
+use Modules\Fixcity\Database\Factories\TicketCommentFactory;
 use Modules\Fixcity\Notifications\TicketCommented;
+use Modules\User\Models\User;
 use Modules\Xot\Datas\XotData;
 use Webmozart\Assert\Assert;
 
@@ -26,6 +26,7 @@ use Webmozart\Assert\Assert;
  * @property string|null $deleted_by
  * @property Ticket|null $ticket
  * @property User|null $user
+ *
  * @method static TicketCommentFactory factory($count = null, $state = [])
  * @method static Builder|TicketComment newModelQuery()
  * @method static Builder|TicketComment newQuery()
@@ -43,9 +44,11 @@ use Webmozart\Assert\Assert;
  * @method static Builder|TicketComment whereUserId($value)
  * @method static Builder|TicketComment withTrashed()
  * @method static Builder|TicketComment withoutTrashed()
+ *
  * @property-read Profile|null $creator
  * @property-read Profile|null $updater
  * @property-read \Modules\Fixcity\Models\Profile|null $deleter
+ *
  * @mixin \Eloquent
  */
 class TicketComment extends BaseModel

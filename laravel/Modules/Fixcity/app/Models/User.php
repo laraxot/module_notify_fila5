@@ -4,27 +4,28 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Models;
 
-use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Collection;
-use Modules\User\Models\OauthClient;
-use Spatie\Comments\Models\Comment;
-use Modules\User\Models\Team;
-use Modules\User\Models\TenantUser;
-use Modules\User\Models\Device;
-use Illuminate\Notifications\DatabaseNotificationCollection;
 use Illuminate\Notifications\DatabaseNotification;
+use Illuminate\Notifications\DatabaseNotificationCollection;
+use Illuminate\Support\Carbon;
+use Modules\User\Database\Factories\UserFactory;
+use Modules\User\Models\Device;
+use Modules\User\Models\Membership;
+use Modules\User\Models\OauthAccessToken;
+use Modules\User\Models\OauthClient;
 use Modules\User\Models\Permission;
+use Modules\User\Models\Role;
+use Modules\User\Models\Team;
+use Modules\User\Models\Tenant;
+use Modules\User\Models\TenantUser;
+use Modules\User\Models\User as BaseUser;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\Comments\Models\Collections\ReactionCollection;
-use Spatie\Comments\Models\Reaction;
-use Modules\User\Models\Role;
+use Spatie\Comments\Models\Comment;
 use Spatie\Comments\Models\CommentNotificationSubscription;
-use Modules\User\Models\Membership;
-use Modules\User\Models\Tenant;
-use Modules\User\Models\OauthAccessToken;
-use Modules\User\Database\Factories\UserFactory;
-use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
-use Modules\User\Models\User as BaseUser;
+use Spatie\Comments\Models\Reaction;
+
 // Temporarily disabled due to conflict with BaseUser's notifications() method
 // use Spatie\Comments\Models\Concerns\InteractsWithComments;
 // use Spatie\Comments\Models\Concerns\Interfaces\CanComment;
@@ -110,7 +111,7 @@ use Modules\User\Models\User as BaseUser;
  * @mixin \Eloquent
  */
 class User extends BaseUser
-// implements CanComment // Temporarily disabled
+    // implements CanComment // Temporarily disabled
 {
     // use InteractsWithComments; // Temporarily disabled
 }

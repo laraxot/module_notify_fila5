@@ -22,31 +22,15 @@ new class extends Component {
         $this->slug = $slug;
         $this->pageSlug = 'tests.'.$slug;
         $this->data = [
-            'slug' => $slug
+            'slug' => $slug,
         ];
     }
 };
 ?>
-
 <x-layouts.app>
     @volt('tests.view')
     <div>
-        {{-- Skip Links --}}
-        <div class="skiplink">
-            <a class="visually-hidden-focusable" href="#main-container">Vai ai contenuti</a>
-            <a class="visually-hidden-focusable" href="#footer">Vai al footer</a>
-        </div><!-- /skiplink -->
-
-        {{-- Header Section --}}
-        <x-section slug="header" />
-
-        {{-- Main Content - Rendered via x-page component with JSON blocks --}}
-        <main id="main-container">
-            <x-page side="content" :slug="$pageSlug" :data="$data" />
-        </main>
-
-        {{-- Footer Section --}}
-        <x-section slug="footer" tpl="full" />
+        <x-page side="content" :slug="$pageSlug" :data="$data" />
     </div>
     @endvolt
 </x-layouts.app>
