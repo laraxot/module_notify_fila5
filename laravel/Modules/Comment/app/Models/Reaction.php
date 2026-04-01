@@ -30,6 +30,7 @@ use Spatie\Comments\Models\Reaction as BaseReaction;
  * @property string|null $deleted_by
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ *
  * @method static ReactionFactory factory($count = null, $state = [])
  * @method static Builder|Reaction newModelQuery()
  * @method static Builder|Reaction newQuery()
@@ -45,8 +46,10 @@ use Spatie\Comments\Models\Reaction as BaseReaction;
  * @method static Builder|Reaction whereReaction($value)
  * @method static Builder|Reaction whereUpdatedAt($value)
  * @method static Builder|Reaction whereUpdatedBy($value)
+ *
  * @property-read Comment|null $comment
  * @property-read Model|\Eloquent $commentator
+ *
  * @method static ReactionCollection<int, static> all($columns = ['*'])
  * @method static ReactionCollection<int, static> get($columns = ['*'])
  * @method static Reaction|null first()
@@ -56,6 +59,7 @@ use Spatie\Comments\Models\Reaction as BaseReaction;
  * @method static Builder<static>|Reaction where((string|Closure) $column, mixed $operator = null, mixed $value = null, string $boolean = 'and')
  * @method static Builder<static>|Reaction whereNotNull((string|Expression) $columns)
  * @method static int count(string $columns = '*')
+ *
  * @mixin \Eloquent
  */
 class Reaction extends BaseReaction

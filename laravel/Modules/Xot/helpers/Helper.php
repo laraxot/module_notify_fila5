@@ -15,6 +15,9 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
 use Webmozart\Assert\Assert;
+use function Safe\define;
+use function Safe\glob;
+use function Safe\preg_match;
 
 if (! function_exists('isRunningTestBench')) {
     function isRunningTestBench(): bool
@@ -229,6 +232,11 @@ if (! function_exists('isItem')) {
 }
 
 if (! function_exists('params2ContainerItem')) {
+    /**
+     * @param array<string, mixed>|null $params
+     *
+     * @return array{0: array<string, mixed>, 1: array<string, mixed>}
+     */
     function params2ContainerItem(?array $params = null): array
     {
         if (null === $params) {
@@ -274,8 +282,7 @@ if (! function_exists('getModelByName')) {
 
         $files_path = base_path('Modules').'/*/Models/*.php';
         Assert::isArray($files = glob($files_path));
-        $path = Arr::first($files, function ($file) use ($name): bool {
-            Assert::string($file, __FILE__.':'.__LINE__.' - Helper');
+        $path = Arr::first($files, function (string $file) use ($name): bool {
             $info = pathinfo($file);
 
             return Str::snake($info['filename'] ?? '') === $name;
@@ -300,7 +307,8 @@ if (! function_exists('getModuleFromModel')) {
     {
         $class = $model::class;
         $module_name = Str::before(Str::after($class, 'Modules\\'), '\\Models\\');
-        Assert::isInstanceOf($res = app('module')->find($module_name), Nwidart\Modules\Module::class);
+        $moduleRepository = app(\Nwidart\Modules\Contracts\RepositoryInterface::class);
+        Assert::isInstanceOf($res = $moduleRepository->find($module_name), Nwidart\Modules\Module::class);
 
         return $res;
     }
@@ -371,7 +379,7 @@ if (! function_exists('authId')) {
 }
 
 if (! function_exists('trans_string')) {
-    function trans_string(string $key, array $replace = [], ?string $locale = null): ?string
+    function trans_string(string $key, array $replace = [], ?string $locale = null): string
     {
         $safeReplace = [];
         foreach ($replace as $k => $v) {
@@ -384,6 +392,6 @@ if (! function_exists('trans_string')) {
 
         $result = __($key, $safeReplace, $locale);
 
-        return is_string($result) ? $result : (null === $result ? null : $key);
+        return is_string($result) ? $result : $key;
     }
 }

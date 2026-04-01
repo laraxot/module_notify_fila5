@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Comment\Database\Seeders;
 
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Seeder;
+use Modules\Comment\Database\Factories\CommentFactory;
 use Modules\Comment\Models\Comment;
 use Modules\User\Models\User;
-use Illuminate\Database\Eloquent\Collection as EloquentCollection;
-use Modules\Comment\Database\Factories\CommentFactory;
 
 class CommentSeeder extends Seeder
 {

@@ -5,10 +5,8 @@ declare(strict_types=1);
 namespace Modules\Fixcity\Filament\Resources\TicketResource\Pages;
 
 use Filament\Actions\CreateAction;
-use Filament\Tables\Columns\TextColumn;
-use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
-use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
 use Modules\Fixcity\Filament\Resources\TicketResource;
 
 class ListTickets extends ListRecords

@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Models;
 
-use Illuminate\Support\Carbon;
-use Modules\User\Models\User;
-use Modules\Fixcity\Database\Factories\TicketHourFactory;
-use Illuminate\Database\Eloquent\Builder;
 use Carbon\CarbonInterval;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Carbon;
+use Modules\Fixcity\Database\Factories\TicketHourFactory;
+use Modules\User\Models\User;
 use Modules\Xot\Datas\XotData;
 
 /**
@@ -30,6 +30,7 @@ use Modules\Xot\Datas\XotData;
  * @property mixed $for_humans
  * @property Ticket|null $ticket
  * @property User|null $user
+ *
  * @method static TicketHourFactory factory($count = null, $state = [])
  * @method static Builder|TicketHour newModelQuery()
  * @method static Builder|TicketHour newQuery()
@@ -49,9 +50,11 @@ use Modules\Xot\Datas\XotData;
  * @method static Builder|TicketHour whereValue($value)
  * @method static Builder|TicketHour withTrashed()
  * @method static Builder|TicketHour withoutTrashed()
+ *
  * @property-read Profile|null $creator
  * @property-read Profile|null $updater
  * @property-read \Modules\Fixcity\Models\Profile|null $deleter
+ *
  * @mixin \Eloquent
  */
 class TicketHour extends BaseModel
