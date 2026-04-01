@@ -1,66 +1,23 @@
 {{--
-    Page Component - Renders pages from JSON config
+    Page Component - Theme Wrapper for Cms Page Component
+    
+    This is a minimal wrapper that delegates to the Cms module's Page component.
+    All logic (JSON loading, block resolution) is in Modules/Cms/app/View/Components/Page.php
+    
     Usage: <x-page side="content" :slug="$pageSlug" :data="$data" />
     
-    Renders all content blocks defined in JSON config
+    DOCS: Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md
 --}}
 
 @props([
     'side' => 'content',
     'slug' => '',
-    'data' => []
+    'data' => [],
 ])
 
-@php
-
-    // Load page from JSON config
-    $jsonPath = config('local.fixcity.database.content.pages.'.$slug);
-    $pageData = null;
-    $blocks = [];
-
-    // Try to load from config path
-    // NOTE: base_path() returns /var/www/_bases/base_fixcity_fila5/laravel
-    // JSON files are in: laravel/config/local/fixcity/database/content/pages/
-    $configPath = base_path('config/local/fixcity/database/content/pages/'.$slug.'.json');
-    if (file_exists($configPath)) {
-        $pageData = json_decode(file_get_contents($configPath), true);
-        // Handle both 'blocks' and 'content_blocks' structures
-        $blocks = $pageData['blocks'] ?? $pageData['content_blocks']['it'] ?? [];
-    } else {
-        // Fallback: try with laravel/ prefix if running from different context
-        $configPathAlt = base_path('laravel/config/local/fixcity/database/content/pages/'.$slug.'.json');
-        if (file_exists($configPathAlt)) {
-            $pageData = json_decode(file_get_contents($configPathAlt), true);
-            $blocks = $pageData['blocks'] ?? $pageData['content_blocks']['it'] ?? [];
-        }
-    }
-@endphp
-
-<div class="page-content {{ $side }}">
-    @if($pageData && count($blocks) > 0)
-        {{-- Render all content blocks from JSON --}}
-        @foreach($blocks as $block)
-            @if(isset($block['type']))
-                @php
-                    $blockType = $block['type'];
-                    $blockData = $block['data'] ?? [];
-                    // Use the view path from JSON data, fallback to type-based path
-                    $viewPath = $blockData['view'] ?? 'pub_theme::components.blocks.' . $blockType;
-                @endphp
-                
-                @includeIf($viewPath, ['data' => $blockData])
-            @endif
-        @endforeach
-    @else
-        {{-- Error: Page not found or no blocks --}}
-        <div class="container py-8">
-            <div class="alert alert-danger" role="alert">
-                <h2 class="h4 mb-2">Pagina non trovata</h2>
-                <p>La pagina <code>{{ $slug }}</code> non esiste o non ha blocchi di contenuto.</p>
-                <a href="/it/tests/" class="btn btn-primary mt-3">
-                    Torna all'indice
-                </a>
-            </div>
-        </div>
-    @endif
-</div>
+{{-- Delegate to Cms module's page component --}}
+<x-cms-page 
+    :side="$side" 
+    :slug="$slug" 
+    :data="$data" 
+/>

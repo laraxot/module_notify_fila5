@@ -21,6 +21,7 @@ Modules/Cms/
 ## 🧭 Current Analysis
 - [Design Comuni Page Census](./design-comuni-page-census.md)
 - [Layout Runtime Contract](./layout-runtime-contract.md)
+- [Page Component Runtime](./component-page-runtime.md)
 
 ## 🔗 Collegamenti Documentazione
 

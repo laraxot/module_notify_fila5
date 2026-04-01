@@ -4,7 +4,7 @@
 **Date:** 2026-04-01
 **Status:** 🔄 **In Progress**
 **Priority:** 🔴 **CRITICAL**
-**Version:** 1.0
+**Version:** 2.0 - Updated with Block Analysis
 
 ---
 
@@ -17,6 +17,161 @@ Questo documento definisce le specifiche UI per i componenti Design Comuni, con:
 - ✅ **Accessibility** - WCAG 2.1 AA requirements
 - ✅ **Responsive Design** - Mobile-first approach
 - ✅ **Interaction Patterns** - Hover, focus, active states
+- ✅ **47 Componenti Identificati** - Da analisi completa 38 pagine
+
+**⚠️ IMPORTANTE:** Questo documento è stato aggiornato con i risultati dell'analisi completa dei blocchi. Vedi [Block Analysis](design-comuni-block-analysis.md) per i dettagli completi.
+
+---
+
+## 🧩 Component Catalog (Updated)
+
+### Tier 1 - Fondamentali (Implementare Subito)
+
+Questi 7 componenti appaiono nel 95%+ delle pagine:
+
+| # | Component | Usage % | Pages | Priority |
+|---|-----------|---------|-------|----------|
+| 1 | `cmp-base/base` | 100% | Tutte | 🔴 Critical |
+| 2 | `cmp-breadcrumbs` | 97% | Tutte tranne homepage | 🔴 Critical |
+| 3 | `cmp-contacts/*` | 95% | Footer | 🔴 Critical |
+| 4 | `cmp-rating` | 87% | Feedback | 🔴 Critical |
+| 5 | `cmp-hero/*` | 79% | Hero sections | 🔴 Critical |
+| 6 | `cmp-card/*` | 92% | Content cards | 🔴 Critical |
+| 7 | `cmp-button` | 85% | Actions | 🔴 Critical |
+
+---
+
+### Tier 2 - Navigazione (5 componenti)
+
+| # | Component | Usage % | Pages | Priority |
+|---|-----------|---------|-------|----------|
+| 8 | `cmp-navscroll` | 58% | Dettaglio, Form | 🟠 High |
+| 9 | `cmp-nav-steps` | 32% | Multi-step forms | 🟠 High |
+| 10 | `cmp-info-progress` | 29% | Progress indicator | 🟠 High |
+| 11 | `cmp-nav-tab` | 3% | Area personale | 🟡 Medium |
+| 12 | `cmp-category-list` | 13% | Category navigation | 🟡 Medium |
+
+---
+
+### Tier 3 - Form & Input (10 componenti)
+
+| # | Component | Usage % | Pages | Priority |
+|---|-----------|---------|-------|----------|
+| 13 | `cmp-input/input` | 21% | Forms | 🟠 High |
+| 14 | `cmp-select/select` | 26% | Dropdown forms | 🟠 High |
+| 15 | `cmp-text-area` | 13% | Long text forms | 🟠 High |
+| 16 | `cmp-input-autocomplete` | 3% | Segnalazione luogo | 🟡 Medium |
+| 17 | `cmp-info-radio` | 11% | Radio selection | 🟡 Medium |
+| 18 | `cmp-card-radio-list` | 3% | Appuntamento | 🟡 Medium |
+| 19 | `cmp-info-button-card` | 26% | Expandable info | 🟠 High |
+| 20 | `cmp-info-summary` | 21% | Summary/review | 🟠 High |
+| 21 | `cmp-info-summary-no-modify` | 16% | Read-only summary | 🟡 Medium |
+| 22 | `cmp-callout` | 5% | Alerts/warnings | 🟡 Medium |
+
+---
+
+### Tier 4 - Card & Content (12 componenti)
+
+| # | Component | Usage % | Pages | Priority |
+|---|-----------|---------|-------|----------|
+| 23 | `cmp-card-simple` | 70%+ | Lists, categories | 🔴 Critical |
+| 24 | `cmp-card-latest-messages` | 53% | Dynamic lists | 🟠 High |
+| 25 | `cmp-card-teaser` | 24% | Previews | 🟠 High |
+| 26 | `cmp-card-content-box` | 66% | Form containers | 🟠 High |
+| 27 | `cmp-card-img` | 13% | Image cards | 🟡 Medium |
+| 28 | `cmp-list-card-img-hr` | 21% | Horizontal lists | 🟠 High |
+| 29 | `cmp-list-card-img` | 13% | Vertical lists | 🟡 Medium |
+| 30 | `cmp-list-card-docs` | 5% | Document lists | 🟡 Medium |
+| 31 | `cmp-ul-list` | 8% | Bullet lists | 🟡 Medium |
+| 32 | `cmp-icon-link` | 11% | Icon links | 🟡 Medium |
+| 33 | `cmp-icon-list` | 11% | Icon lists | 🟡 Medium |
+| 34 | `cmp-tag` | 39% | Tags/topics | 🟠 High |
+
+---
+
+### Tier 5 - Specialized (13 componenti)
+
+| # | Component | Usage % | Pages | Priority |
+|---|-----------|---------|-------|----------|
+| 35 | `cmp-accordion` | 11% | FAQ, expandable | 🟡 Medium |
+| 36 | `cmp-accordion-faq` | 3% | FAQ page | 🟡 Medium |
+| 37 | `cmp-filter` | 5% | Filters | 🟡 Medium |
+| 38 | `cmp-modal/*` | 21% | Modals | 🟠 High |
+| 39 | `cmp-carousel` | 13% | Related content | 🟡 Medium |
+| 40 | `cmp-timeline` | 3% | Service timeline | 🟡 Medium |
+| 41 | `cmp-map` | 5% | Maps | 🟡 Medium |
+| 42 | `cmp-heading/*` | 26% | Page headers | 🟠 High |
+| 43 | `cmp-heading-detail` | 11% | Detail headers | 🟡 Medium |
+| 44 | `cmp-text-button` | 8% | Text CTAs | 🟡 Medium |
+| 45 | `cmp-hero-img-small` | 5% | Small hero images | 🟡 Medium |
+| 46 | `cmp-input-search` | 18% | Search inputs | 🟠 High |
+| 47 | `cmp-data-element` | 40%+ | Data attributes | 🟠 High |
+
+---
+
+## 📊 Component Implementation Priority
+
+### Phase 1: Foundation (Sprint 1-2)
+
+**7 componenti fondamentali** (appartengono al 95%+ pagine)
+
+```
+1. cmp-base/base         → Layout wrapper (x-layouts.app)
+2. cmp-breadcrumbs       → Navigation helper
+3. cmp-contacts/*        → Footer contacts
+4. cmp-rating            → Feedback component
+5. cmp-hero/*            → Hero sections
+6. cmp-card/*            → Base card component
+7. cmp-button            → Action buttons
+```
+
+### Phase 2: Navigation (Sprint 2-3)
+
+**5 componenti navigazione**
+
+```
+8. cmp-navscroll         → Page index/navigation
+9. cmp-nav-steps         → Multi-step progress
+10. cmp-info-progress    → Progress indicator
+11. cmp-nav-tab          → Tab navigation
+12. cmp-category-list    → Category navigation
+```
+
+### Phase 3: Forms (Sprint 3-4)
+
+**10 componenti form**
+
+```
+13. cmp-input/input       → Text inputs
+14. cmp-select/select     → Dropdown selects
+15. cmp-text-area         → Textarea inputs
+16. cmp-info-button-card  → Expandable info
+17. cmp-info-summary      → Summary cards
+18. [altri form components]
+```
+
+### Phase 4: Content Cards (Sprint 4-5)
+
+**12 componenti card**
+
+```
+23. cmp-card-simple          → Simple cards
+24. cmp-card-latest-messages → Dynamic cards
+25. cmp-card-teaser          → Teaser cards
+26. cmp-list-card-img-hr     → Horizontal lists
+[etc...]
+```
+
+### Phase 5: Specialized (Sprint 5-6)
+
+**13 componenti specializzati**
+
+```
+38. cmp-modal/*         → Modal dialogs
+39. cmp-carousel        → Content carousel
+41. cmp-map             → Map integration
+[etc...]
+```
 
 ---
 
