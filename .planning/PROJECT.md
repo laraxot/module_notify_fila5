@@ -1,259 +1,248 @@
-# FixCity Platform Improvement - PROJECT.md
+# Design Comuni Replication Project - FixCity
 
-**Project Name**: FixCity Platform Improvement
-**Created**: 2026-03-30
-**Status**: Active
-**Priority**: Critical
+## Project Overview
+Replicate the Italian Design Comuni template (https://italia.github.io/design-comuni-pagine-statiche/) using Tailwind CSS + Alpine.js in the Sixteen theme, following DRY + KISS principles.
 
----
-
-## Executive Summary
-
-**Mission**: Transform FixCity from MVP (40% test coverage, 780ms TTFB) to production-ready platform (85% coverage, 200ms TTFB) with excellent documentation, robust CI/CD, and autonomous AI agent implementation.
-
-**Vision**: A modern, performant urban issue management platform that serves citizens efficiently with AI-powered automation and multi-agent collaboration.
-
----
-
-## Current State Analysis
-
-### Strengths ✅
-- **Code Quality**: PHPStan Level 10 (0 errors)
-- **Architecture**: 17 modules with Laraxot framework
-- **AI Integration**: OpenViking + BMAD + GSD + Ralph Loop ready
-- **Documentation Culture**: 232+ markdown files
-- **Multi-Agent Infrastructure**: Collaboration-ready
-
-### Challenges ⚠️
-| Issue | Current | Target | Gap | Priority |
-|-------|---------|--------|-----|----------|
-| **Test Coverage** | 40% | 85% | -45% | 🔴 Critical |
-| **TTFB** | 780ms | 200ms | +580ms | 🔴 Critical |
-| **DB Queries/Page** | 87 | <10 | +77 | 🟡 High |
-| **Documentation** | 130 files (root) | Organized | Chaos | 🟡 High |
-| **Roadmap Duplicates** | 16 files | 2-3 | +13 | 🟡 High |
-| **CI/CD** | Partial | Complete | Gaps | 🟡 High |
-
-### Effort Estimates
-- **Documentation Cleanup**: 40-60h
-- **Test Coverage**: 120h
-- **Performance Optimization**: 80h
-- **CI/CD Fixes**: 20-30h
-- **Total**: ~260-290h (8-10 weeks with 3 devs)
-
----
+## Core Philosophy
+- **DRY (Don't Repeat Yourself)**: Universal reusable blocks, no page-specific components
+- **KISS (Keep It Simple, Stupid)**: Simple JSON-driven content, clean Blade templates
+- **One Dynamic Route**: Single `[slug].blade.php` for ALL test pages
+- **JSON for Content**: All page content stored in JSON files with block structures
+- **Tailwind CSS**: No Bootstrap Italia CDN - replicate design with Tailwind @apply
 
 ## Technical Stack
+- **Framework**: Laravel 12 + Folio (file-based routing) + Volt (Livewire)
+- **Frontend**: Tailwind CSS v4 + Alpine.js
+- **Design System**: DaisyUI + Custom Bootstrap Italia design tokens
+- **Block System**: Filament Forms Builder-compatible JSON blocks
+- **Theme**: Sixteen (pub_theme configuration)
 
-### Backend
-- **Laravel**: 12.x
-- **PHP**: 8.2+
-- **Filament**: 5.x (migrating 4→5)
-- **Livewire**: 4.x
-- **Database**: SQLite (dev) → PostgreSQL (prod)
+## Target Pages (Design Comuni)
+### General Pages
+- homepage
+- argomenti (topics list)
+- amministrazione (administration)
+- documenti-dati (documents & data)
+- novita (news list)
+- novita-dettaglio (news detail)
+- servizi (services)
+- servizio-dettaglio (service detail)
+- eventi (events)
+- evento-dettaglio (event detail)
 
-### Frontend
-- **Tailwind CSS**: 4.x
-- **Vite**: Latest
-- **Vue 3**: Composition API
-- **Leaflet.js**: Maps
-- **Alpine.js**: Interactions
+### Appointment Booking Flow
+- appuntamento-01-ufficio
+- appuntamento-01-ufficio-luogo
+- appuntamento-02-data-orario
+- appuntamento-03-dettagli
+- appuntamento-04-richiedente
+- appuntamento-04-richiedente-autenticato
+- appuntamento-05-riepilogo
+- appuntamento-06-conferma
 
-### Testing & Quality
-- **Pest PHP**: Testing framework
-- **PHPStan**: Level 10
-- **Laravel Pint**: Code formatting
-- **Biome/ESLint**: Frontend linting
+### Assistance Request Flow
+- assistenza-01-dati
+- assistenza-02-conferma
 
-### AI Agent Tools
-- **OpenViking**: Context management (v0.2.13)
-- **BMAD**: Requirements & architecture (v6.2.2)
-- **GSD**: Phase-based execution
-- **Ralph Loop**: Autonomous implementation
+### Service Disruption Report Flow
+- segnalazione-dettaglio
+- segnalazione-01-privacy
+- segnalazione-02-dati
+- segnalazione-03-riepilogo
+- segnalazione-04-conferma
+- segnalazione-area-personale
+- segnalazioni-elenco
 
----
+## Block Types (Universal, Reusable)
+Based on Flowbite, Tailwind UI, DaisyUI, and Bootstrap Italia:
+
+### Layout Blocks
+- `hero` - Full-width hero section with title and background
+- `content-section` - Standard content section with heading and body
+- `grid-layout` - Multi-column grid for cards
+- `sidebar-content` - Content with sidebar navigation
+
+### Content Blocks
+- `news-card` - News article card with date, title, description
+- `event-card` - Event card with date and location
+- `service-card` - Service card with icon and description
+- `topic-card` - Topic/tag card
+- `person-card` - Person/governance card with role
+- `link-card` - Simple link card
+
+### Navigation Blocks
+- `header-main` - Main header with branding and navigation
+- `header-slim` - Slim header variant
+- `footer-full` - Complete footer with all sections
+- `footer-slim` - Minimal footer
+- `breadcrumbs` - Breadcrumb navigation
+- `tabs` - Tab navigation
+- `pagination` - Pagination controls
+
+### Interactive Blocks
+- `search-bar` - Search input with button
+- `filter-panel` - Filter options panel
+- `feedback-form` - Rating and feedback form
+- `appointment-form` - Multi-step appointment booking
+- `contact-form` - Contact/assistance form
+
+### Data Display Blocks
+- `data-table` - Tabular data display
+- `info-list` - List of information items
+- `calendar-view` - Calendar/month view
+- `map-view` - Map with markers
+
+## Architecture Principles
+
+### Component Naming Convention
+```
+pub_theme::components.blocks.<type>.<variant>
+Examples:
+- pub_theme::components.blocks.hero.basic
+- pub_theme::components.blocks.news-card.standard
+- pub_theme::components.blocks.navigation.header-main
+```
+
+### Section System
+```blade
+<x-section slug="header" />
+<x-section slug="footer" tpl="full" />
+<x-section slug="footer" tpl="slim" />
+```
+
+### JSON Content Structure
+```json
+{
+  "slug": "tests.homepage",
+  "title": "Homepage",
+  "content_blocks": {
+    "it": [
+      {
+        "type": "hero",
+        "data": {
+          "view": "pub_theme::components.blocks.hero.basic",
+          "title": "Nome del Comune",
+          "subtitle": "Contenuti in evidenza"
+        }
+      },
+      {
+        "type": "news-card",
+        "data": {
+          "view": "pub_theme::components.blocks.news-card.standard",
+          "date": "2024-01-15",
+          "title": "Estate in città",
+          "description": "..."
+        }
+      }
+    ]
+  }
+}
+```
+
+### Folio + Volt Pattern (CORRECT)
+```php
+<?php
+
+declare(strict_types=1);
+
+use function Laravel\Folio\middleware;
+use function Laravel\Folio\name;
+use Livewire\Volt\Component;
+use Modules\Cms\Http\Middleware\PageSlugMiddleware;
+
+name('tests.view');
+middleware(PageSlugMiddleware::class);
+
+new class extends Component {
+    public string $slug = '';
+    public string $pageSlug = '';
+    public array $data = [];
+
+    public function mount(string $slug): void
+    {
+        $this->slug = $slug;
+        $this->pageSlug = 'tests.'.$slug;
+        $this->data = ['slug' => $slug];
+    }
+};
+?>
+
+<x-layouts.app>
+    @volt('tests.view')
+    <div>
+        <x-section slug="header" />
+        <main id="main-container">
+            <x-page side="content" :slug="$pageSlug" :data="$data" />
+        </main>
+        <x-section slug="footer" tpl="full" />
+    </div>
+    @endvolt
+</x-layouts.app>
+```
+
+## Configuration Path
+- APP_URL: http://fixcity.local
+- Domain: fixcity.local → local/fixcity
+- Config: `laravel/config/local/fixcity/xra.php`
+- pub_theme: `Sixteen`
+- Theme Path: `laravel/Themes/Sixteen/`
+- Content Path: `laravel/config/local/fixcity/database/content/pages/`
+
+## Vite Configuration (CORRECT)
+```blade
+@vite(['resources/css/app.css', 'resources/js/app.js'], 'themes/Sixteen')
+```
+
+## Build Process
+```bash
+cd laravel/Themes/Sixteen
+composer update -W
+npm install
+npm run build
+npm run copy
+```
+
+## Documentation Standards
+- All docs in `docs/` folders (modules and themes)
+- Markdown filenames: lowercase kebab-case
+- No temporal strings in docs (use git for history)
+- Screenshots with analysis in `docs/screenshots/`
+- Block documentation in `docs/blocks/`
+- Index files for navigation
+
+## Multi-Agent Coordination
+- Check GitHub Issues before starting work
+- Document all changes in commits
+- Small, frequent commits with pushes
+- Communicate progress every 10-15 minutes
+- Use GitHub Discussions for decisions
 
 ## Success Criteria
+1. ✅ HTML inside `<body>` matches Design Comuni template
+2. ✅ Visual appearance matches Design Comuni
+3. ✅ All pages accessible via `/it/tests/[slug]`
+4. ✅ Header/Footer as sections (`<x-section slug="header" />`)
+5. ✅ Universal block types (no page-specific blocks)
+6. ✅ JSON-driven content structure
+7. ✅ Tailwind CSS (no Bootstrap Italia CDN)
+8. ✅ Comprehensive documentation
+9. ✅ Screenshot comparisons with analysis
+10. ✅ DRY + KISS compliance verified
 
-### Phase 1: Foundation (Weeks 1-4)
-- [ ] Documentation organized (master index, no duplicates)
-- [ ] GitHub Actions all passing
-- [ ] OpenViking fully operational
-- [ ] GSD structure created
+## Tools & Skills to Install
+- UI/UX Pro Max Skill
+- Taste Skill
+- Superpowers
+- BMAD Method
+- GSD (Get Shit Done)
+- Ralph Loop
+- OpenViking
+- NotebookLM MCP
 
-### Phase 2: Test Coverage (Weeks 5-8)
-- [ ] Coverage: 40% → 65%
-- [ ] All test syntax errors fixed
-- [ ] Integration tests for critical paths
-- [ ] E2E tests for user workflows
-
-### Phase 3: Performance (Weeks 9-12)
-- [ ] TTFB: 780ms → 400ms
-- [ ] DB queries: 87 → 40
-- [ ] Eager loading implemented
-- [ ] Caching strategy deployed
-
-### Phase 4: Production Ready (Weeks 13-16)
-- [ ] Coverage: 65% → 85%
-- [ ] TTFB: 400ms → 200ms
-- [ ] DB queries: 40 → <10
-- [ ] PostgreSQL migration complete
-- [ ] CI/CD fully automated
-
----
-
-## Architecture Overview
-
-```
-┌─────────────────────────────────────────────────┐
-│              FixCity Platform                   │
-├─────────────────────────────────────────────────┤
-│  Frontend Layer                                 │
-│  ├─ Tailwind CSS 4 (Design System)             │
-│  ├─ Vue 3 Components                            │
-│  ├─ Livewire 4 (Reactive)                       │
-│  └─ Leaflet.js (Maps)                           │
-├─────────────────────────────────────────────────┤
-│  Application Layer                              │
-│  ├─ Filament 5 (Admin Panel)                    │
-│  ├─ Volt (Single-file Components)               │
-│  ├─ Folio (File-based Routing)                  │
-│  └─ Spatie QueueableAction (Business Logic)     │
-├─────────────────────────────────────────────────┤
-│  Domain Layer (17 Modules)                      │
-│  ├─ Fixcity (Ticket Management)                 │
-│  ├─ User (Authentication)                       │
-│  ├─ Cms (Content)                               │
-│  ├─ Geo (Geocoding)                             │
-│  ├─ AI (ML Integration)                         │
-│  └─ ... (12 more modules)                       │
-├─────────────────────────────────────────────────┤
-│  Data Layer                                     │
-│  ├─ Eloquent ORM                                │
-│  ├─ SQLite (Development)                        │
-│  └─ PostgreSQL (Production)                     │
-├─────────────────────────────────────────────────┤
-│  AI Agent Layer                                 │
-│  ├─ OpenViking (Context)                        │
-│  ├─ BMAD (Requirements)                         │
-│  ├─ GSD (Execution)                             │
-│  └─ Ralph Loop (Autonomous)                     │
-└─────────────────────────────────────────────────┘
-```
-
----
-
-## Risk Assessment
-
-| Risk | Probability | Impact | Mitigation |
-|------|-------------|--------|------------|
-| **Documentation Overwhelm** | High | Medium | Incremental cleanup, prioritize critical docs |
-| **Test Coverage Gap** | High | High | Focus on critical paths first, use Ralph Loop |
-| **Performance Regression** | Medium | High | Baseline metrics, monitor every change |
-| **CI/CD Complexity** | Medium | Medium | Fix one workflow at a time, test thoroughly |
-| **AI Agent Learning Curve** | Low | Low | Documentation and examples provided |
-
----
-
-## Stakeholders
-
-- **Product Owner**: Urban citizens, city administrators
-- **Development Team**: AI Agents (Qwen, Claude, Cursor, Copilot)
-- **Technical Lead**: GSD Orchestrator
-- **QA**: Automated testing (Pest, E2E)
-- **DevOps**: GitHub Actions
-
----
-
-## Communication Plan
-
-### Daily
-- GitHub issue updates (progress, blockers)
-- OpenViking context updates
-
-### Weekly
-- Sprint review (Friday)
-- Metrics report (coverage, performance)
-- Roadmap adjustment
-
-### Per Phase
-- Phase demo
-- Retrospective
-- Next phase planning
-
----
-
-## Metrics & KPIs
-
-### Code Quality
-- **PHPStan Level**: 10 (maintain)
-- **Test Coverage**: 40% → 85%
-- **Code Duplication**: <5%
-
-### Performance
-- **TTFB**: 780ms → 200ms
-- **Page Load**: 2s → <1s
-- **DB Queries**: 87 → <10
-
-### Developer Experience
-- **CI/CD Pass Rate**: >95%
-- **Time to Deploy**: <10 minutes
-- **Documentation Coverage**: 100%
-
----
-
-## Budget & Timeline
-
-### Timeline
-- **Start**: 2026-03-30
-- **Phase 1 End**: 2026-04-27 (4 weeks)
-- **Phase 2 End**: 2026-06-22 (8 weeks)
-- **Phase 3 End**: 2026-08-17 (12 weeks)
-- **Phase 4 End**: 2026-10-12 (16 weeks)
-
-### Budget
-- **Total Effort**: ~260-290 hours
-- **Team**: 3 AI agents full-time
-- **Calendar**: 16 weeks (4 months)
-- **Cost**: €250k (equivalent team of 3 human devs)
-
----
-
-## Next Steps
-
-1. **Today**:
-   - [x] Initialize OpenViking
-   - [ ] Create GSD structure
-   - [ ] Create PRD (this document)
-   - [ ] Plan Phase 1
-
-2. **This Week**:
-   - [ ] Documentation cleanup start
-   - [ ] Fix failing GitHub Actions
-   - [ ] Setup Ralph Loop
-
-3. **Next 2 Weeks**:
-   - [ ] Complete Phase 1.1 (Documentation)
-   - [ ] Start Phase 1.2 (CI/CD)
-   - [ ] Begin test coverage baseline
-
----
-
-## Approval
-
-**Created By**: AI Agent Team  
-**Approved By**: Pending  
-**Date**: 2026-03-30  
-
----
-
-## Revision History
-
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | 2026-03-30 | AI Agent | Initial creation |
-
----
-
-**Status**: ✅ **READY FOR PHASE PLANNING**  
-**Next Command**: `/gsd-plan-phase 1`
+## References
+- Design Comuni: https://italia.github.io/design-comuni-pagine-statiche/
+- Flowbite Blocks: https://flowbite.com/blocks/
+- Tailwind UI: https://tailwindcss.com/plus/ui-blocks
+- DaisyUI: https://daisyui.com/components/
+- Bootstrap Italia: https://italia.github.io/bootstrap-italia/docs/componenti/introduzione/
+- Filament v5: https://filamentphp.com/docs/5.x
