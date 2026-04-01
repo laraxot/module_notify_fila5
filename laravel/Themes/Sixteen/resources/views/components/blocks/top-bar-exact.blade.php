@@ -51,7 +51,7 @@
                                 <span class="visually-hidden">Lingua attiva:</span>
                                 <span>{{ collect($languages)->firstWhere('active', true)['label'] }}</span>
                                 <svg class="icon">
-                                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
+                                    <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
                                 </svg>
                             </button>
                             <div class="dropdown-menu">
@@ -84,7 +84,7 @@
                            data-element="personal-area-login">
                             <span class="rounded-icon" aria-hidden="true">
                                 <svg class="icon icon-primary">
-                                    <use xlink:href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
                                 </svg>
                             </span>
                             <span class="d-none d-lg-block">Accedi all'area personale</span>
