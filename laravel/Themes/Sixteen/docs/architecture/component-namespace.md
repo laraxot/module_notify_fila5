@@ -426,10 +426,11 @@ Vantaggi:
 
 ## 🔗 Documenti Correlati
 
-- [Layout Architecture](./architecture/layout-architecture.md)
-- [Blocks Implementation](./BLOCKS_IMPLEMENTATION.md)
-- [ThemeServiceProvider](laravel/Themes/Sixteen/app/Providers/ThemeServiceProvider.php)
-- [Replikate.txt](./prompts/replikate.txt)
+- [Layout Architecture](./layout-architecture.md)
+- [Page Component Architecture](./page-component-architecture.md)
+- [Blocks Implementation](../BLOCKS_IMPLEMENTATION.md)
+- [ThemeServiceProvider](../../app/Providers/ThemeServiceProvider.php)
+- [Replikate.txt](../prompts/replikate.txt)
 
 ---
 
