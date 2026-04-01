@@ -12,6 +12,14 @@
 3. [Design Comuni Implementation](./design-comuni-implementation.md) - Main implementation guide for Municipality Design
 
 ### 🏗️ Architecture & Standards
+- **[Layout Hierarchy](./layout-hierarchy.md)** ✅ - `x-layouts.app` extends `x-layouts.main`
+  - Base structure → Public frontend → Specialized layouts
+  - DRY + KISS compliant architecture
+  - See: [[components-directory-structure]], [[vite-configuration-rules]]
+- **[Components Directory Structure](./components-directory-structure.md)** ✅ - Complete component organization
+  - Layouts, Sections, Blocks, AGID components
+  - Block types (hero, topics, events, news, etc.)
+  - Naming conventions
 - [Agid Layout Usage Rules](./agid-layout-usage-rules.md) - How to use Agid-compliant layouts
 - [Sixteen Theme Naming Rules](./sixteen-theme-naming-rules.md) - Naming conventions for this theme
 - [Vite Configuration Rules](./vite-configuration-rules.md) - Asset loading optimization
