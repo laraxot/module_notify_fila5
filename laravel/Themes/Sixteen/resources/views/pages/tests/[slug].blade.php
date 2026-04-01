@@ -13,20 +13,17 @@ middleware(PageSlugMiddleware::class);
 new class extends Component {
     public string $slug = '';
     public string $pageSlug = '';
-    public array $blocks = [];
+
+    /** @var array<string, mixed> */
+    public array $data = [];
 
     public function mount(string $slug): void
     {
         $this->slug = $slug;
         $this->pageSlug = 'tests.'.$slug;
-        
-        // Load blocks from JSON
-        $jsonPath = config_path('local/fixcity/database/content/pages/'.$this->pageSlug.'.json');
-        if (file_exists($jsonPath)) {
-            $content = file_get_contents($jsonPath);
-            $data = json_decode($content, true);
-            $this->blocks = $data['content_blocks']['it'] ?? [];
-        }
+        $this->data = [
+            'slug' => $slug
+        ];
     }
 };
 ?>
@@ -40,19 +37,15 @@ new class extends Component {
             <a class="visually-hidden-focusable" href="#footer">Vai al footer</a>
         </div><!-- /skiplink -->
 
-        {{-- Header --}}
+        {{-- Header Section --}}
         <x-section slug="header" />
 
-        {{-- Main Content --}}
+        {{-- Main Content - Rendered via x-page component with JSON blocks --}}
         <main id="main-container">
-            @foreach($this->blocks as $block)
-                @if(isset($block['data']['view']))
-                    @includeIf($block['data']['view'], ['data' => $block['data']])
-                @endif
-            @endforeach
+            <x-page side="content" :slug="$pageSlug" :data="$data" />
         </main>
 
-        {{-- Footer --}}
+        {{-- Footer Section --}}
         <x-section slug="footer" tpl="full" />
     </div>
     @endvolt
