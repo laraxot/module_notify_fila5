@@ -11,13 +11,6 @@ name('tests.index');
 middleware(PageSlugMiddleware::class);
 
 new class extends Component {
-<<<<<<< HEAD
-    public string $pageSlug = 'tests.index';
-    public array $data = [];
-};
-?>
-
-=======
     public string $pageSlug = '';
 
     /** @var array<string, mixed> */
@@ -30,15 +23,20 @@ new class extends Component {
     }
 };
 ?>
->>>>>>> 4a11dcf (.)
+
 <x-layouts.app>
     @volt('tests.index')
     <div>
-        <x-page side="content" :slug="$pageSlug" :data="$data" />
+        {{-- Header Section --}}
+        <x-section slug="header" />
+
+        {{-- Main Content --}}
+        <main id="main-container">
+            <x-page side="content" :slug="$pageSlug" :data="$data" />
+        </main>
+
+        {{-- Footer Section --}}
+        <x-section slug="footer" tpl="full" />
     </div>
     @endvolt
-<<<<<<< HEAD
 </x-layouts.app>
-=======
-</x-layouts.app>
->>>>>>> 4a11dcf (.)
