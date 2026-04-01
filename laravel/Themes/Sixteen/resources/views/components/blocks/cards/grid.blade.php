@@ -30,7 +30,7 @@
                         <a href="{{ $card['url'] }}" class="read-more">
                             <span class="text">Leggi di più</span>
                             <svg class="icon icon-primary icon-xs" aria-hidden="true">
-                                <use xlink:href="{{ asset('themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
+                                <use xlink:href="{{ asset('themes/sixteen/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use>
                             </svg>
                         </a>
                         @endif

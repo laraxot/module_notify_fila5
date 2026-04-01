@@ -31,7 +31,7 @@
                                     <span class="visually-hidden">Lingua attiva:</span>
                                     <span>ITA</span>
                                     <svg class="icon">
-                                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
+                                        <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
                                     </svg>
                                 </button>
                                 <div class="dropdown-menu" id="languages">
@@ -64,7 +64,7 @@
                                    aria-label="Accedi all'area personale">
                                     <span class="rounded-icon" aria-hidden="true">
                                         <svg class="icon icon-primary">
-                                            <use href="/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                                            <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
                                         </svg>
                                     </span>
                                     <span class="d-none d-lg-block">Accedi all'area personale</span>
@@ -79,7 +79,7 @@
                                             aria-haspopup="true">
                                         <span class="rounded-icon" aria-hidden="true">
                                             <svg class="icon icon-primary">
-                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                                                <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
                                             </svg>
                                         </span>
                                         <span class="d-none d-lg-block">{{ Auth::user()->name }}</span>
@@ -99,7 +99,7 @@
                                                             <form method="POST" action="{{ route('logout') }}">
                                                                 @csrf
                                                                 <button type="submit" class="dropdown-item list-item">
-                                                                    <span><svg class="icon icon-sm"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right"></use></svg> Esci</span>
+                                                                    <span><svg class="icon icon-sm"><use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right"></use></svg> Esci</span>
                                                                 </button>
                                                             </form>
                                                         </li>
@@ -165,42 +165,42 @@
                                     <li>
                                         <a href="#" target="_blank" aria-label="Twitter">
                                             <svg class="icon icon-sm icon-white" aria-hidden="true">
-                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use>
+                                                <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use>
                                             </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Facebook">
                                             <svg class="icon icon-sm icon-white" aria-hidden="true">
-                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use>
+                                                <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use>
                                             </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="YouTube">
                                             <svg class="icon icon-sm icon-white" aria-hidden="true">
-                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use>
+                                                <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use>
                                             </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Telegram">
                                             <svg class="icon icon-sm icon-white" aria-hidden="true">
-                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-telegram"></use>
+                                                <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram"></use>
                                             </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="Whatsapp">
                                             <svg class="icon icon-sm icon-white" aria-hidden="true">
-                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"></use>
+                                                <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"></use>
                                             </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank" aria-label="RSS">
                                             <svg class="icon icon-sm icon-white" aria-hidden="true">
-                                                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-rss"></use>
+                                                <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"></use>
                                             </svg>
                                         </a>
                                     </li>
@@ -216,7 +216,7 @@
                                         data-bs-target="#search-modal"
                                         aria-label="Cerca nel sito">
                                     <svg class="icon" aria-hidden="true">
-                                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
+                                        <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
                                     </svg>
                                 </button>
                             </div>
@@ -247,7 +247,7 @@
                                     data-bs-toggle="navbarcollapsible"
                                     data-bs-target="#nav4">
                                 <svg class="icon" aria-hidden="true">
-                                    <use href="/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
+                                    <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
                                 </svg>
                             </button>
                             
@@ -258,7 +258,7 @@
                                     <button class="btn close-menu" type="button">
                                         <span class="visually-hidden">Nascondi la navigazione</span>
                                         <svg class="icon" aria-hidden="true">
-                                            <use href="/bootstrap-italia/dist/svg/sprites.svg#it-close"></use>
+                                            <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-close"></use>
                                         </svg>
                                     </button>
                                 </div>
@@ -267,7 +267,7 @@
                                     {{-- Logo Hamburger (Mobile Only) --}}
                                     <a href="/" class="logo-hamburger">
                                         <svg class="icon" aria-hidden="true">
-                                            <use href="/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
+                                            <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
                                         </svg>
                                         <div class="it-brand-text">
                                             <div class="it-brand-title">Nome del Comune</div>
@@ -330,9 +330,9 @@
                                     <div class="it-socials">
                                         <span>Seguici su</span>
                                         <ul>
-                                            <li><a href="#" aria-label="Twitter"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use></svg></a></li>
-                                            <li><a href="#" aria-label="Facebook"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use></svg></a></li>
-                                            <li><a href="#" aria-label="YouTube"><svg class="icon icon-sm icon-white"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use></svg></a></li>
+                                            <li><a href="#" aria-label="Twitter"><svg class="icon icon-sm icon-white"><use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use></svg></a></li>
+                                            <li><a href="#" aria-label="Facebook"><svg class="icon icon-sm icon-white"><use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use></svg></a></li>
+                                            <li><a href="#" aria-label="YouTube"><svg class="icon icon-sm icon-white"><use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use></svg></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -353,7 +353,7 @@
                 <h5 class="modal-title" id="search-modal-label">Cerca nel sito</h5>
                 <button class="close" type="button" data-bs-dismiss="modal" aria-label="Close">
                     <svg class="icon" aria-hidden="true">
-                        <use href="/bootstrap-italia/dist/svg/sprites.svg#it-close"></use>
+                        <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-close"></use>
                     </svg>
                 </button>
             </div>
@@ -365,7 +365,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary">
                         <svg class="icon icon-sm">
-                            <use href="/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
+                            <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
                         </svg>
                         Invio
                     </button>

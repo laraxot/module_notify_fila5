@@ -14,7 +14,7 @@
                   <span class="visually-hidden">Lingua attiva:</span>
                   <span>ITA</span>
                   <svg class="icon">
-                    <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
+                    <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
                   </svg>
                 </button>
                 <div class="dropdown-menu">
@@ -33,7 +33,7 @@
               <a class="btn btn-primary btn-icon btn-full" href="#" data-element="personal-area-login">
                 <span class="rounded-icon" aria-hidden="true">
                   <svg class="icon icon-primary">
-                    <use xlink:href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
                   </svg>
                 </span>
                 <span class="d-none d-lg-block">Accedi all'area personale</span>
@@ -69,21 +69,21 @@
                     <li class="list-inline-item">
                       <a href="#" aria-label="Facebook" target="_blank">
                         <svg class="icon">
-                          <use xlink:href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use>
+                          <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"></use>
                         </svg>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#" aria-label="Twitter" target="_blank">
                         <svg class="icon">
-                          <use xlink:href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use>
+                          <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"></use>
                         </svg>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#" aria-label="YouTube" target="_blank">
                         <svg class="icon">
-                          <use xlink:href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use>
+                          <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube"></use>
                         </svg>
                       </a>
                     </li>
@@ -96,7 +96,7 @@
                       <input type="text" class="form-control" placeholder="Cerca nel sito" aria-label="Cerca nel sito" name="q">
                       <button class="btn" type="submit" aria-label="Cerca">
                         <svg class="icon">
-                          <use xlink:href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
+                          <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>
                         </svg>
                       </button>
                     </div>
@@ -116,7 +116,7 @@
               <nav class="navbar navbar-expand-lg" aria-label="Navigazione principale">
                 <button class="custom-navbar-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav-wrapper" aria-controls="header-nav-wrapper" aria-expanded="false" aria-label="Apri/chudi menu">
                   <svg class="icon">
-                    <use xlink:href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
+                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
                   </svg>
                 </button>
                 <div class="collapse navbar-collapse" id="header-nav-wrapper">
