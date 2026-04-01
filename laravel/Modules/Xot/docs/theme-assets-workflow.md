@@ -1,5 +1,11 @@
 # 🎨 Theme Assets Workflow - CSS/JS Frontend
 
+Related documents:
+- [Vite Configuration](./vite-configuration.md)
+- [Xot Documentation Index](./index.md)
+- [Sixteen Theme Documentation Index](../../Themes/Sixteen/docs/00-index.md)
+
+
 **⚠️ REGOLA CRITICA**: Per modifiche CSS/JS del frontend, lavorare SEMPRE nella cartella del tema, NON nella root Laravel.
 
 ## 📁 Struttura Corretta
