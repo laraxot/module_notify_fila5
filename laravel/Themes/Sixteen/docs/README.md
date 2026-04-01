@@ -14,6 +14,7 @@
 |----------|----------|-------------|
 | 🏗️ **Architecture** | [Layout Architecture](layout-architecture.md) | Layout hierarchy e componenti |
 | 🧱 **Runtime Contract** | [layout-runtime-contract.md](layout-runtime-contract.md) | Confini tra page blades, app layout e main shell |
+| 🧩 **Page Runtime** | [component-page-runtime.md](component-page-runtime.md) | `Page.php` contiene la logica, la blade solo il rendering |
 | 🗺️ **Navigation Map** | [LAYOUT_ARCHITECTURE_MAP.md](LAYOUT_ARCHITECTURE_MAP.md) | Bidirectional links |
 | 🔧 **Recent Fixes** | [LAYOUT_FIX_COMPLETE_BMAD.md](LAYOUT_FIX_COMPLETE_BMAD.md) | Layout fix summary |
 | ⚡ **Vite Fix** | [VITE_MANIFEST_FIX_COMPLETE.md](VITE_MANIFEST_FIX_COMPLETE.md) | Build manifest fix |

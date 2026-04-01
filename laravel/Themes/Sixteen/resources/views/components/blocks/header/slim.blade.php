@@ -8,7 +8,7 @@
             <a href="#" class="it-header-slim-link">
                 {{ $region ?: 'Nome della Regione' }}
             </a>
-            
+
             {{-- Right: Language, Login, Social --}}
             <div class="it-header-slim-right-zone">
                 {{-- Language Dropdown --}}
@@ -43,7 +43,7 @@
                         </li>
                     </ul>
                 </div>
-                
+
                 {{-- Login Button --}}
                 <a href="{{ $login_url }}" class="btn btn-primary btn-sm">
                     <svg class="icon icon-sm">
@@ -51,24 +51,39 @@
                     </svg>
                     <span>Accedi all'area personale</span>
                 </a>
-                
+
                 {{-- Social Icons --}}
                 @if(count($social) > 0)
                 <div class="it-socials d-none d-lg-flex">
                     <span class="me-2">Seguici su</span>
                     <ul class="list-inline mb-0">
                         @foreach($social as $network)
-                        <li class="list-inline-item">
                             @php
-                                $platformName = is_array($network) ? ($network['platform'] ?? $network['label'] ?? 'social') : $network;
-                                $platformUrl = is_array($network) ? ($network['url'] ?? '#') : '#';
+                                // Handle array, object, or string
+                                if (is_array($network)) {
+                                    $platform = $network['platform'] ?? '';
+                                    $url = $network['url'] ?? '#';
+                                } elseif (is_object($network)) {
+                                    $platform = $network->platform ?? '';
+                                    $url = $network->url ?? '#';
+                                } else {
+                                    // Fallback: assume string (platform name)
+                                    $platform = (string) $network;
+                                    $url = '#';
+                                }
+                                
+                                // Ensure platform is a string for ucfirst()
+                                $platform = is_string($platform) ? $platform : '';
                             @endphp
-                            <a href="{{ $platformUrl }}" class="text-link" aria-label="{{ ucfirst($platformName) }}">
-                                <svg class="icon icon-sm">
-                                    <use href="#it-{{ $platformName }}"></use>
-                                </svg>
-                            </a>
-                        </li>
+                            @if($platform !== '')
+                                <li class="list-inline-item">
+                                    <a href="{{ $url }}" class="text-link" aria-label="{{ ucfirst($platform) }}">
+                                        <svg class="icon icon-sm">
+                                            <use href="#it-{{ strtolower($platform) }}"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            @endif
                         @endforeach
                     </ul>
                 </div>
