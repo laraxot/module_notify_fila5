@@ -25,13 +25,13 @@ Comprehensive demo and testing page for all implemented components
                 <div class="d-flex gap-3 justify-content-center">
                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#componentGuideModal">
                         <svg class="icon icon-sm me-2">
-                            <use href="#it-info-circle"></use>
+                            <use xlink:href="#it-info-circle"></use>
                         </svg>
                         Component Guide
                     </button>
                     <button class="btn btn-outline-primary" onclick="window.print()">
                         <svg class="icon icon-sm me-2">
-                            <use href="#it-print"></use>
+                            <use xlink:href="#it-print"></use>
                         </svg>
                         Print Guide
                     </button>
@@ -47,7 +47,7 @@ Comprehensive demo and testing page for all implemented components
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#core-components" type="button" role="tab">
                         <svg class="icon icon-sm me-2">
-                            <use href="#it-star"></use>
+                            <use xlink:href="#it-star"></use>
                         </svg>
                         Core Components
                     </button>
@@ -55,7 +55,7 @@ Comprehensive demo and testing page for all implemented components
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" data-bs-toggle="tab" data-bs-target="#form-components" type="button" role="tab">
                         <svg class="icon icon-sm me-2">
-                            <use href="#it-edit"></use>
+                            <use xlink:href="#it-edit"></use>
                         </svg>
                         Form Components
                     </button>
@@ -63,7 +63,7 @@ Comprehensive demo and testing page for all implemented components
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" data-bs-toggle="tab" data-bs-target="#navigation-components" type="button" role="tab">
                         <svg class="icon icon-sm me-2">
-                            <use href="#it-menu"></use>
+                            <use xlink:href="#it-menu"></use>
                         </svg>
                         Navigation
                     </button>
@@ -71,7 +71,7 @@ Comprehensive demo and testing page for all implemented components
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" data-bs-toggle="tab" data-bs-target="#interactive-components" type="button" role="tab">
                         <svg class="icon icon-sm me-2">
-                            <use href="#it-tool"></use>
+                            <use xlink:href="#it-tool"></use>
                         </svg>
                         Interactive
                     </button>
@@ -296,9 +296,9 @@ Comprehensive demo and testing page for all implemented components
                                     <x-sidebar>
                                         <x-slot name="menu">
                                             <ul class="list-unstyled">
-                                                <li><a href="#" class="nav-link"><svg class="icon icon-sm me-2"><use href="#it-home"></use></svg>Dashboard</a></li>
-                                                <li><a href="#" class="nav-link"><svg class="icon icon-sm me-2"><use href="#it-user"></use></svg>Users</a></li>
-                                                <li><a href="#" class="nav-link"><svg class="icon icon-sm me-2"><use href="#it-settings"></use></svg>Settings</a></li>
+                                                <li><a href="#" class="nav-link"><svg class="icon icon-sm me-2"><use xlink:href="#it-home"></use></svg>Dashboard</a></li>
+                                                <li><a href="#" class="nav-link"><svg class="icon icon-sm me-2"><use xlink:href="#it-user"></use></svg>Users</a></li>
+                                                <li><a href="#" class="nav-link"><svg class="icon icon-sm me-2"><use xlink:href="#it-settings"></use></svg>Settings</a></li>
                                             </ul>
                                         </x-slot>
                                     </x-sidebar>
@@ -316,15 +316,15 @@ Comprehensive demo and testing page for all implemented components
                                     <x-pub_theme::navigation.bottom-nav fixed="false">
                                         <x-slot name="links">
                                             <a href="#" class="nav-link active">
-                                                <svg class="icon"><use href="#it-home"></use></svg>
+                                                <svg class="icon"><use xlink:href="#it-home"></use></svg>
                                                 <span class="bottom-nav-label">Home</span>
                                             </a>
                                             <a href="#" class="nav-link">
-                                                <svg class="icon"><use href="#it-search"></use></svg>
+                                                <svg class="icon"><use xlink:href="#it-search"></use></svg>
                                                 <span class="bottom-nav-label">Search</span>
                                             </a>
                                             <a href="#" class="nav-link">
-                                                <svg class="icon"><use href="#it-user"></use></svg>
+                                                <svg class="icon"><use xlink:href="#it-user"></use></svg>
                                                 <span class="bottom-nav-label">Profile</span>
                                             </a>
                                         </x-slot>
@@ -412,13 +412,13 @@ Comprehensive demo and testing page for all implemented components
                                     <x-slot name="tabs">
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#vertical-tab1" type="button">
-                                                <svg class="icon icon-sm me-2"><use href="#it-info"></use></svg>
+                                                <svg class="icon icon-sm me-2"><use xlink:href="#it-info"></use></svg>
                                                 Info
                                             </button>
                                         </li>
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link" data-bs-toggle="tab" data-bs-target="#vertical-tab2" type="button">
-                                                <svg class="icon icon-sm me-2"><use href="#it-settings"></use></svg>
+                                                <svg class="icon icon-sm me-2"><use xlink:href="#it-settings"></use></svg>
                                                 Settings
                                             </button>
                                         </li>

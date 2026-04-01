@@ -83,15 +83,17 @@ The Sixteen theme uses a **layered layout architecture** following **DRY (Don't 
 
 **Contains**:
 - Extends `x-layouts.main`
-- **Skip Links** (accessibilità WCAG AA)
-- **Header Section**: `<x-section slug="header" />`
-- **Main Container** con `id="main-container"` per skip links
-- **Footer Section**: `<x-section slug="footer" />`
+- Adds slot for content
+- Ready for `<x-section slug="header" />` and `<x-section slug="footer" />`
 
 **Usage**:
 ```blade
 <x-layouts.app>
-    <x-page side="content" :slug="$pageSlug" :data="$data" />
+    <x-section slug="header" />
+    <main id="main-container">
+        {{ $slot }}
+    </main>
+    <x-section slug="footer" tpl="full" />
 </x-layouts.app>
 ```
 

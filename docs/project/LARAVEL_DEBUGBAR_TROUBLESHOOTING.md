@@ -68,7 +68,27 @@ private function isDebugbarRoute(Request $request): bool
 }
 ```
 
-### 2. Config Update
+### 2. PWAMiddleware Update
+
+**File**: `laravel/Themes/Sixteen/app/Http/Middleware/PWAMiddleware.php`
+
+Added the same exclusion for Debugbar routes:
+
+```php
+public function handle(Request $request, Closure $next): Response
+{
+    // Skip PWA headers for Debugbar routes in local environment
+    // to allow Debugbar to function properly
+    if ($this->isDebugbarRoute($request) && app()->environment('local')) {
+        return $next($request);
+    }
+
+    $response = $next($request);
+    // ... rest of the middleware
+}
+```
+
+### 3. Config Update
 
 **File**: `laravel/config/debugbar.php`
 
@@ -82,10 +102,11 @@ Added documentation about the SecurityMiddleware integration:
 |
 | Additional middleware to run on the Debugbar routes
 |
-| IMPORTANT: In this project, SecurityMiddleware is configured to skip
-| security headers (CSP, X-Frame-Options) for Debugbar routes in local
-| environment. This is necessary because the strict CSP blocks Debugbar's
-| inline scripts and styles required for rendering the debug bar.
+| IMPORTANT: In this project, SecurityMiddleware and PWAMiddleware are 
+| configured to skip security headers (CSP, X-Frame-Options) for Debugbar 
+| routes in local environment. This is necessary because the strict CSP 
+| blocks Debugbar's inline scripts and styles required for rendering the 
+| debug bar.
 */
 'route_middleware' => [],
 ```
@@ -260,10 +281,13 @@ For better performance with many queries:
 ## Related Files
 
 - **Config**: `laravel/config/debugbar.php`
-- **Middleware**: `laravel/Modules/Xot/app/Http/Middleware/SecurityMiddleware.php`
+- **Middleware**: 
+  - `laravel/Modules/Xot/app/Http/Middleware/SecurityMiddleware.php`
+  - `laravel/Themes/Sixteen/app/Http/Middleware/PWAMiddleware.php`
 - **Storage**: `laravel/storage/debugbar/`
 - **Vendor**: `laravel/vendor/fruitcake/laravel-debugbar/`
 - **Env**: `laravel/.env` (DEBUGBAR_ENABLED)
+- **Documentation**: `docs/project/LARAVEL_DEBUGBAR_TROUBLESHOOTING.md`
 
 ## References
 

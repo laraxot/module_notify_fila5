@@ -40,7 +40,8 @@ FixCity Fila5 Documentation
 │       ├── design-comuni-architecture.md - Architecture Design
 │       ├── design-comuni-ui-spec.md - UI Specification
 │       ├── design-comuni-epics.md - Epics & Stories (12 epics, 62 stories)
-│       └── design-comuni-sprint-plan.md - Sprint Plan (6 sprints, 12 weeks)
+│       ├── design-comuni-sprint-plan.md - Sprint Plan (6 sprints, 12 weeks)
+│       └── design-comuni-block-analysis.md - Block Analysis (47 components, 38 pages)
 │
 ├── 📁 Modules (laravel/Modules/*/docs/)
 │   ├── Xot (Core Framework) - 1,941 files
@@ -63,14 +64,27 @@ FixCity Fila5 Documentation
 │   └── Job (Employment) - XXX files
 │
 ├── 📁 Themes (laravel/Themes/*/docs/)
-│   ├── Sixteen - 325 files
+│   ├── Sixteen - 325+ files
+│   │   ├── DESIGN_COMUNI_TEAM_GUIDE.md - Complete team guide for replication
+│   │   ├── DESIGN_COMUNI_PROJECT_SUMMARY.md - Project summary and status
+│   │   ├── COMPONENT_CATALOG.md - All 47 components (TO BE CREATED)
+│   │   ├── BLOCK_TYPES.md - All block types (TO BE CREATED)
+│   │   ├── JSON_STRUCTURE.md - JSON schema (TO BE CREATED)
+│   │   └── screenshots/ - Screenshot comparisons (TO BE CREATED)
 │   └── [Other themes]
 │
 ├── 📁 Project (docs/)
-│   ├── Project docs - 153 files
+│   ├── Project docs - 153+ files
 │   ├── Rules
 │   ├── Guides
 │   └── References
+│
+├── 📁 Planning (.planning/)
+│   ├── PROJECT.md - Project overview and history
+│   ├── ROADMAP.md - 12-week implementation plan (6 phases)
+│   ├── STATE.md - Current state tracking
+│   └── research/
+│       └── design-comuni-pages.md - Complete page analysis (674 lines)
 │
 └── 📁 Skills & Rules (.qwen/skills/, docs/rules/)
     ├── BMad skills

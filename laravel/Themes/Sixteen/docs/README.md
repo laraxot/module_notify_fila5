@@ -13,12 +13,10 @@
 | Category | Document | Description |
 |----------|----------|-------------|
 | 🏗️ **Architecture** | [Layout Architecture](layout-architecture.md) | Layout hierarchy e componenti |
-| 🧱 **Runtime Contract** | [layout-runtime-contract.md](layout-runtime-contract.md) | Confini tra page blades, app layout e main shell |
-| 🧩 **Page Runtime** | [component-page-runtime.md](component-page-runtime.md) | `Page.php` contiene la logica, la blade solo il rendering |
 | 🗺️ **Navigation Map** | [LAYOUT_ARCHITECTURE_MAP.md](LAYOUT_ARCHITECTURE_MAP.md) | Bidirectional links |
 | 🔧 **Recent Fixes** | [LAYOUT_FIX_COMPLETE_BMAD.md](LAYOUT_FIX_COMPLETE_BMAD.md) | Layout fix summary |
 | ⚡ **Vite Fix** | [VITE_MANIFEST_FIX_COMPLETE.md](VITE_MANIFEST_FIX_COMPLETE.md) | Build manifest fix |
-| 🧭 **Page Census** | [design-comuni-page-census.md](design-comuni-page-census.md) | Static pages inventory and reusable block families |
+| 🇮🇹 **Design Comuni** | [design-comuni/HTML_PARITY_VERIFICATION_REPORT.md](design-comuni/HTML_PARITY_VERIFICATION_REPORT.md) | HTML parity verification |
 | 📚 **Master Index** | [../../../docs/MODULE_DOCS_INDEX.md](../../../docs/MODULE_DOCS_INDEX.md) | Central navigation |
 
 ---
@@ -32,7 +30,7 @@
 **Hierarchy:**
 ```
 x-layouts.main (Base)
-    ├── x-layouts.app (Public Frontend Structure)
+    ├── x-layouts.app (Public Frontend)
     ├── x-layouts.guest (Authentication)
     ├── x-layouts.auth (Dashboard)
     └── x-layouts.admin (Filament Admin)
@@ -42,7 +40,7 @@ x-layouts.main (Base)
 | File | Component | Extends | Description |
 |------|-----------|---------|-------------|
 | [`main.blade.php`](../resources/views/components/layouts/main.blade.php) | `x-layouts.main` | None | Base HTML structure |
-| [`app.blade.php`](../resources/views/layouts/app.blade.php) | `x-layouts.app` | `x-layouts.main` | Public frontend wrapper |
+| [`app.blade.php`](../resources/views/components/layouts/app.blade.php) | `x-layouts.app` | `main` | Public frontend wrapper |
 | [`guest.blade.php`](../resources/views/components/layouts/guest.blade.php) | `x-layouts.guest` | `main` | Authentication pages |
 | [`auth.blade.php`](../resources/views/components/layouts/auth.blade.php) | `x-layouts.auth` | `main` | Protected dashboard |
 | [`admin.blade.php`](../resources/views/components/layouts/admin.blade.php) | `x-layouts.admin` | `main` | Filament admin panel |
