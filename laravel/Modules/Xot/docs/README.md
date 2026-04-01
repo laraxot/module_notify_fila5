@@ -23,6 +23,8 @@ Il modulo **Xot** è il nucleo fondativo dell'intero progetto Laraxot PTVX. Forn
 - `RelationX`: Relazioni many-to-many estese
 
 ## Collegamenti
+- [Vite Configuration](./vite-configuration.md)
+- [Theme Assets Workflow](./theme-assets-workflow.md)
 
 - [Documentazione Root](../../../docs/XOT_MODULE.md)
 - [Regole Architettura](./architecture/)

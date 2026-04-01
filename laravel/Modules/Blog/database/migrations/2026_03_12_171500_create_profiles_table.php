@@ -4,13 +4,15 @@ declare(strict_types=1);
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 use Modules\Blog\Models\Profile;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 /*
  * Class CreateProfilesTable.
  */
-return new class extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
     protected ?string $model_class = Profile::class;
 
     /**
@@ -102,7 +104,7 @@ return new class extends XotBaseMigration {
                     DB::connection($this->getConnection())
                         ->table($this->getTable())
                         ->where('id', $row->id)
-                        ->update(['uuid' => (string) str()->uuid()]);
+                        ->update(['uuid' => Str::uuid()]);
                 }
             });
     }
