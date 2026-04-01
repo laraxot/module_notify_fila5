@@ -32,13 +32,36 @@ Dal file `vite.config.js` del tema:
 ```javascript
 export default defineConfig({
     build: {
-        outDir: './resources/dist',  // Directory specifica del tema
-        emptyOutDir: false,
-        manifest: 'manifest.json',   // Manifest separato
+        outDir: './public',  // Output nella cartella public del tema
+        emptyOutDir: true,
+        manifest: 'manifest.json',   // Manifest nella stessa cartella
     },
     // ...
 });
 ```
+
+## 🔄 Flusso Completo Build e Deploy
+
+### 1. Compilazione (npm run build)
+- Vite compila gli asset da `resources/css/app.css` e `resources/js/app.js`
+- Output: `Themes/Sixteen/public/` (contiene `manifest.json` e `assets/`)
+
+### 2. Deploy (npm run copy)
+- Script: `cp -rv ./public/* ../../../public_html/themes/Sixteen/`
+- Copia gli asset compilati in `public_html/themes/Sixteen/`
+
+### 3. Risoluzione Asset (@vite)
+- Laravel cerca il manifest in `public_html/themes/Sixteen/manifest.json`
+- La direttiva `@vite([...], 'themes/Sixteen')` indica il percorso corretto
+
+### Schema del Flusso
+```
+resources/
+├── css/app.css  →  vite build  →  ./public/  →  cp →  public_html/themes/Sixteen/
+└── js/app.js   →              →  manifest.json
+```
+
+**Nota**: La documentazione precedente menzionava erratamente `./resources/dist` - la configurazione corretta è `./public`.
 
 ## 📁 Audit Completo File Vite - TUTTI CORRETTI ✅
 
