@@ -1,79 +1,114 @@
 {
-  "slug": "tests.argomenti",
-  "title": "Argomenti",
-  "description": "Naviga per argomenti del Comune",
-  "blocks": [
-    {
-      "id": "block-001",
-      "type": "hero",
-      "weight": 10,
-      "active": true,
-      "data": {
-        "view": "pub_theme::components.blocks.hero.default",
-        "title": "Argomenti",
-        "subtitle": "Naviga per argomenti del Comune",
-        "background": "primary"
-      }
+    "id": "tests.argomenti",
+    "title": {
+        "it": "Argomenti",
+        "en": "Topics"
     },
-    {
-      "id": "block-002",
-      "type": "topics-grid",
-      "weight": 20,
-      "active": true,
-      "data": {
-        "view": "pub_theme::components.blocks.topics-grid.default",
-        "title": "Argomenti principali",
-        "topics": [
-          {
-            "title": "Cultura e Tempo Libero",
-            "icon": "it-culture",
-            "url": "/it/cultura",
-            "description": "Eventi, musei, biblioteche"
-          },
-          {
-            "title": "Sport",
-            "icon": "it-sport",
-            "url": "/it/sport",
-            "description": "Impianti, corsi, manifestazioni"
-          },
-          {
-            "title": "Turismo",
-            "icon": "it-tourism",
-            "url": "/it/turismo",
-            "description": "Informazioni turistiche, percorsi"
-          },
-          {
-            "title": "Istruzione",
-            "icon": "it-education",
-            "url": "/it/istruzione",
-            "description": "Scuole, asili, servizi educativi"
-          },
-          {
-            "title": "Salute",
-            "icon": "it-health",
-            "url": "/it/salute",
-            "description": "Servizi sanitari, farmacie"
-          },
-          {
-            "title": "Mobilità",
-            "icon": "it-mobility",
-            "url": "/it/mobilita",
-            "description": "Trasporti, traffico, parcheggi"
-          },
-          {
-            "title": "Ambiente",
-            "icon": "it-environment",
-            "url": "/it/ambiente",
-            "description": "Rifiuti, verde pubblico, sostenibilità"
-          },
-          {
-            "title": "Servizi Sociali",
-            "icon": "it-social",
-            "url": "/it/servizi-sociali",
-            "description": "Assistenza, inclusione, famiglia"
-          }
-        ]
-      }
+    "slug": "tests.argomenti",
+    "category": "Navigazione",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "id": "block-hero",
+                "type": "hero",
+                "weight": 10,
+                "active": true,
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.argomenti",
+                    "title": "Argomenti",
+                    "subtitle": "Gli argomenti rispondono a un'esigenza di organizzazione dei contenuti del sito istituzionale per temi e rappresentano le principali categorie di contenuti, informazioni e documenti specifici.",
+                    "background": "white"
+                }
+            },
+            {
+                "id": "block-featured",
+                "type": "topics-highlight",
+                "weight": 20,
+                "active": true,
+                "data": {
+                    "view": "pub_theme::components.blocks.topics-highlight",
+                    "title": "In evidenza",
+                    "topics": [
+                        {
+                            "title": "Cultura",
+                            "image": "https://picsum.photos/376/488",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Sport",
+                            "image": "https://picsum.photos/376/488",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Famiglia",
+                            "image": "https://picsum.photos/376/488",
+                            "url": "#"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "block-topics",
+                "type": "topics-list",
+                "weight": 30,
+                "active": true,
+                "data": {
+                    "view": "pub_theme::components.blocks.topics-grid.default",
+                    "title": "Esplora per argomento",
+                    "topics": [
+                        {"title": "Agricoltura", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Animale domestico", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Assistenza sociale", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Associazioni", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Concorsi", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Formazione professionale", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Imposte", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Imprese", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Inquinamento", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Integrazione sociale", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Istruzione", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Lavoro", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Parcheggi", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Patrimonio culturale", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Piano di sviluppo", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Pista ciclabile", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Patrimonio culturale", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Piano di sviluppo", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Trasporto pubblico", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Zone pedonali", "url": "#", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."}
+                    ]
+                }
+            },
+            {
+                "id": "block-feedback",
+                "type": "feedback-rating",
+                "weight": 40,
+                "active": true,
+                "data": {
+                    "view": "pub_theme::components.blocks.feedback.rating",
+                    "title": "Quanto sono chiare le informazioni su questa pagina?"
+                }
+            },
+            {
+                "id": "block-contacts",
+                "type": "contact-info",
+                "weight": 50,
+                "active": true,
+                "data": {
+                    "view": "pub_theme::components.blocks.contact.default",
+                    "title": "Contatta il comune"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
     }
-  ]
 }

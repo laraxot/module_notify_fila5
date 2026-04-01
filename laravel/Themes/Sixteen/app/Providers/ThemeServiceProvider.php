@@ -92,6 +92,8 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
     {
         // IMPORTANTE: pub_theme è il namespace standard per i temi
         $this->loadViewsFrom(__DIR__.'/../../resources/views', 'pub_theme');
+        // Also register with 'sixteen' namespace for compatibility
+        $this->loadViewsFrom(__DIR__.'/../../resources/views', 'sixteen');
         $this->loadTranslationsFrom(__DIR__.'/../../lang', 'pub_theme');
 
         // Caricamento delle configurazioni del tema
@@ -235,10 +237,15 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
         // Register with pub_theme namespace (for theme compatibility)
         Blade::componentNamespace($componentNamespace, 'pub_theme');
 
+        // CRITICAL: Register Page component to override Cms\Page component
+        // Use 'page' alias so <x-page> uses this instead of Modules\Cms\View\Components\Page
+        Blade::alias('Themes\Sixteen\View\Components\Page', 'page');
+
         // Register anonymous components for pub_theme
         $componentsPath = realpath(__DIR__.'/../../resources/views/components');
         if ($componentsPath !== false) {
             Blade::anonymousComponentPath($componentsPath, 'pub_theme');
+            Blade::anonymousComponentPath($componentsPath, 'sixteen');
         }
 
         // Register class-based components

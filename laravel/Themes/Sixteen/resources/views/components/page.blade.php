@@ -12,16 +12,27 @@
 ])
 
 @php
+
     // Load page from JSON config
     $jsonPath = config('local.fixcity.database.content.pages.'.$slug);
     $pageData = null;
     $blocks = [];
-    
+
     // Try to load from config path
-    $configPath = base_path('laravel/config/local/fixcity/database/content/pages/'.$slug.'.json');
+    // NOTE: base_path() returns /var/www/_bases/base_fixcity_fila5/laravel
+    // JSON files are in: laravel/config/local/fixcity/database/content/pages/
+    $configPath = base_path('config/local/fixcity/database/content/pages/'.$slug.'.json');
     if (file_exists($configPath)) {
         $pageData = json_decode(file_get_contents($configPath), true);
-        $blocks = $pageData['content_blocks']['it'] ?? [];
+        // Handle both 'blocks' and 'content_blocks' structures
+        $blocks = $pageData['blocks'] ?? $pageData['content_blocks']['it'] ?? [];
+    } else {
+        // Fallback: try with laravel/ prefix if running from different context
+        $configPathAlt = base_path('laravel/config/local/fixcity/database/content/pages/'.$slug.'.json');
+        if (file_exists($configPathAlt)) {
+            $pageData = json_decode(file_get_contents($configPathAlt), true);
+            $blocks = $pageData['blocks'] ?? $pageData['content_blocks']['it'] ?? [];
+        }
     }
 @endphp
 
@@ -33,7 +44,8 @@
                 @php
                     $blockType = $block['type'];
                     $blockData = $block['data'] ?? [];
-                    $viewPath = 'components.blocks.' . $blockType;
+                    // Use the view path from JSON data, fallback to type-based path
+                    $viewPath = $blockData['view'] ?? 'pub_theme::components.blocks.' . $blockType;
                 @endphp
                 
                 @includeIf($viewPath, ['data' => $blockData])

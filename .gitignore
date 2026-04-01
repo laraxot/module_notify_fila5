@@ -227,3 +227,6 @@ laravel/.phive
 laravel/.ralph
 laravel/public/design-comuni/
 bashscripts/ai/.claude/skills/canvas-design/canvas-fonts
+*.*Zone.Identifier
+.kilo
+.gemini
