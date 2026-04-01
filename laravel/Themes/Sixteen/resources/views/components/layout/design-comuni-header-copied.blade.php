@@ -43,7 +43,7 @@
                                     <span class="visually-hidden">Lingua attiva:</span>
                                     <span>ITA</span>
                                     <svg class="icon">
-                                        <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
+                                        <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
                                     </svg>
                                 </button>
                                 <div class="dropdown-menu">
@@ -66,7 +66,7 @@
                                data-element="personal-area-login">
                                 <span class="rounded-icon" aria-hidden="true">
                                     <svg class="icon icon-primary">
-                                        <use xlink:href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                                        <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
                                     </svg>
                                 </span>
                                 <span class="d-none d-lg-block">Accedi all'area personale</span>
@@ -109,7 +109,7 @@
                                         <li>
                                             <a href="{{ $social['url'] }}" target="_blank">
                                                 <svg class="icon icon-sm icon-white align-top">
-                                                    <use xlink:href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#{{ $social['icon'] }}"></use>
+                                                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#{{ $social['icon'] }}"></use>
                                                 </svg>
                                                 <span class="visually-hidden">{{ $social['label'] }}</span>
                                             </a>
@@ -139,7 +139,7 @@
                                 aria-expanded="false"
                                 aria-label="Toggle navigation">
                             <svg class="icon">
-                                <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
+                                <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
                             </svg>
                         </button>
                         <div class="collapse navbar-collapse" id="mainNav">

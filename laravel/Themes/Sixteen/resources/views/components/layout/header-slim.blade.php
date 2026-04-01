@@ -24,7 +24,7 @@
                 <a href="{{ route('login') }}" 
                    class="inline-flex items-center gap-2 bg-white text-[#0066CC] px-3 py-1.5 rounded text-sm font-semibold no-underline hover:bg-[#F0F0F0] hover:text-[#0052A3] transition-all">
                     <svg class="w-4 h-4" aria-hidden="true">
-                        <use href="/themes/sixteen/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                        <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
                     </svg>
                     <span>Accedi all'area personale</span>
                 </a>
