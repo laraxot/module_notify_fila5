@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name', 'Laravel') }}</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'], 'themes/Sixteen')
+    
+    {{-- Bootstrap Italia CSS - CDN (EXACT match with Design Comuni) --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-italia@2.8.8/dist/css/bootstrap-italia.min.css" />
 </head>
 <body>
     {{-- Skip Links - EXACT Bootstrap Italia Structure --}}
