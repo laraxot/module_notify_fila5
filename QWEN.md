@@ -1,0 +1,4 @@
+## Qwen Added Memories
+- Documentation System: Master index at docs/MODULE_DOCS_INDEX.md with 7,299+ files (6,812 module docs, 325 theme docs, 9 BMad docs, 153 project docs). All docs must have bidirectional links (min 3 cross-references). Vite config outDir: './public' is CORRECT - builds to local public/, then npm run copy copies to public_html/themes/Sixteen/.
+- BMad-METHOD Complete: 9 documents in _bmad-output/ (PRD, Architecture, UI Spec, Epics, Sprint Plan, Adversarial Review, Workflow Complete, Index, Codebase Analysis). All BMad docs linked to Master Index and module/theme docs with bidirectional links. Total project documentation: 548,000+ lines across 7,299 files.
+- Layout Architecture: x-layouts.app MUST extend x-layouts.main (DRY, KISS, maintainability). Documented in Themes/Sixteen/docs/layout-architecture.md with bidirectional links to LAYOUT_ARCHITECTURE_MAP.md, LAYOUT_FIX_COMPLETE_BMAD.md, VITE_MANIFEST_FIX_COMPLETE.md, and Master Index.
