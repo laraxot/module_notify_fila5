@@ -133,22 +133,22 @@ After each fix batch, run:
 |--------|--------|--------|----------|-------------|------|
 | Activity | 0 | ✅ Clean | - | - | 2026-04-01 |
 | AI | 0 | ✅ Clean | - | - | 2026-04-01 |
-| Blog | 4 | 🔴 Open | Pending | Pending | - |
-| Cms | 9 | 🔴 Open | Pending | Pending | - |
+| Blog | 4 → 0 | ✅ Fixed | AI Agent | AI Agent | 2026-04-01 |
+| Cms | 9 → 0 | ✅ Fixed | AI Agent | AI Agent | 2026-04-01 |
 | Comment | 0 | ✅ Clean | - | - | 2026-04-01 |
 | Fixcity | 0 | ✅ Clean | - | - | 2026-04-01 |
 | Gdpr | 0 | ✅ Clean | - | - | 2026-04-01 |
-| Geo | ? | ⏳ Pending | - | - | - |
-| Job | ? | ⏳ Pending | - | - | - |
-| Lang | ? | ⏳ Pending | - | - | - |
-| Media | ? | ⏳ Pending | - | - | - |
-| Notify | ? | ⏳ Pending | - | - | - |
-| Rating | ? | ⏳ Pending | - | - | - |
-| Seo | ? | ⏳ Pending | - | - | - |
-| Tenant | ? | ⏳ Pending | - | - | - |
-| UI | ? | ⏳ Pending | - | - | - |
-| User | ? | ⏳ Pending | - | - | - |
-| Xot | ? | ⏳ Pending | - | - | - |
+| Geo | ? | ⏳ Analyzing | - | - | - |
+| Job | ? | ⏳ Analyzing | - | - | - |
+| Lang | ? | ⏳ Analyzing | - | - | - |
+| Media | ? | ⏳ Analyzing | - | - | - |
+| Notify | ? | ⏳ Analyzing | - | - | - |
+| Rating | ? | ⏳ Analyzing | - | - | - |
+| Seo | ? | ⏳ Analyzing | - | - | - |
+| Tenant | ? | ⏳ Analyzing | - | - | - |
+| UI | ? | ⏳ Analyzing | - | - | - |
+| User | ? | ⏳ Analyzing | - | - | - |
+| Xot | ? | ⏳ Analyzing | - | - | - |
 
 ## Communication Protocol
 
