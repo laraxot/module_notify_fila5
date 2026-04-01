@@ -185,8 +185,9 @@ new class extends Component {
 
 <x-layouts.app>
     @volt('tests.view')
-        {{-- SOLO contenuto specifico (NO header/footer/skiplink) --}}
-        <x-page side="content" :slug="$pageSlug" :data="$data" />
+        <div>
+            <x-page side="content" :slug="$pageSlug" :data="$data" />
+        </div>
     @endvolt
 </x-layouts.app>
 ```
@@ -225,7 +226,9 @@ new class extends Component {
 
 <x-layouts.app>
     @volt('tests.index')
-        <x-page side="content" :slug="$pageSlug" :data="$data" />
+        <div>
+            <x-page side="content" :slug="$pageSlug" :data="$data" />
+        </div>
     @endvolt
 </x-layouts.app>
 ```
@@ -852,39 +855,46 @@ git push
 *"Blocchi universali, NON pagina-specifici"*  
 *"DRY + KISS + Git Forward-Only"*
 
+## 12. Canonical Page Tree
 
-hai controllato che l'html dentro il tag body ad esclusione degli script di https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html sia uguale all'html dentro il tag body ad esclusione degli script di  http://127.0.0.1:8000/it/tests/homepage ? creati uno strumento, utilizza un mcp, fa quello che vuoi.. basta che diventi piu' veloce, non mi interessa la formattazione, ma la struttura deve essere uguale, per fare questo task utilizza https://agentnativedev.medium.com/get-sh-t-done-meta-prompting-and-spec-driven-development-for-claude-code-and-codex-d1cde082e103 https://github.com/gsd-build/get-shit-done
+### Solo directory ammesse in `resources/views/pages`
+
+```text
+resources/views/pages/
+├── [container0]/
+│   └── [slug0]/
+├── auth/
+└── tests/
+```
+
+### Directory vietate
+
+Non creare o mantenere alberi semantici hardcoded come `administration`, `news`, `profile`, `services`, `turismo` o `pages`.
+
+### Regola operativa
+
+- il tema usa Folio dinamico, non cartelle dedicate per dominio editoriale
+- `tests/*` usa un solo `[slug].blade.php`
+- `/tests` usa `index.blade.php`
+- gli elementi globali stanno nei layout, non nelle page blades
+- i contenuti arrivano dal CMS JSON tramite `<x-page ... />`
+
+### Verifica minima
+
+Dopo ogni cleanup della struttura pagine verificare:
+
+```bash
+find laravel/Themes/Sixteen/resources/views/pages -maxdepth 2 -type d | sort
+php laravel/artisan folio:list
+curl -s http://127.0.0.1:8000/it/tests/homepage
+```
+
+### Collegamenti
+
+- `../page-directory-structure.md`
+- `../../../../Modules/Cms/docs/page-directory-structure.md`
 
 
-con git si va solo in avanti, non ripristiniamo mai versioni vecchie, puoi solo studiare le versioni vecchie ma non ripristinarle, ricordatelo !
+http://127.0.0.1:8000/it/tests/homepage  viene gestita dalla blade laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php e dal json laravel/config/local/fixcity/database/content/pages/tests.homepage.json ricordatelo !
 
-queste cartelle non devono esistere
-laravel/Themes/Sixteen/resources/views/pages/administration
-laravel/Themes/Sixteen/resources/views/pages/ambiente
-laravel/Themes/Sixteen/resources/views/pages/article
-laravel/Themes/Sixteen/resources/views/pages/articles
-laravel/Themes/Sixteen/resources/views/pages/categories
-laravel/Themes/Sixteen/resources/views/pages/cultura
-laravel/Themes/Sixteen/resources/views/pages/dashboard
-laravel/Themes/Sixteen/resources/views/pages/eventi
-laravel/Themes/Sixteen/resources/views/pages/famiglia
-laravel/Themes/Sixteen/resources/views/pages/genesis
-laravel/Themes/Sixteen/resources/views/pages/lavoro
-laravel/Themes/Sixteen/resources/views/pages/learn
-laravel/Themes/Sixteen/resources/views/pages/mobilita
-laravel/Themes/Sixteen/resources/views/pages/news
-laravel/Themes/Sixteen/resources/views/pages/pages
-laravel/Themes/Sixteen/resources/views/pages/profile
-laravel/Themes/Sixteen/resources/views/pages/salute
-laravel/Themes/Sixteen/resources/views/pages/segnalazioni
-laravel/Themes/Sixteen/resources/views/pages/services
-laravel/Themes/Sixteen/resources/views/pages/sport
-laravel/Themes/Sixteen/resources/views/pages/tickets
-laravel/Themes/Sixteen/resources/views/pages/turismo
-queste cartelle DEVONO esistere 
-laravel/Themes/Sixteen/resources/views/pages/[container0]
-laravel/Themes/Sixteen/resources/views/pages/auth
-laravel/Themes/Sixteen/resources/views/pages/tests
-
-capisci da solo il perche' e aggiorna le cartelle docs dentro i moduli e dentro i temi, le tue rules, le tue memories, le tue skills, aggiorna tutto utilizzando gli indici + dry + kiss 
-utilizza https://github.com/gsd-build/get-shit-done https://agentnativedev.medium.com/get-sh-t-done-meta-prompting-and-spec-driven-development-for-claude-code-and-codex-d1cde082e103
+manca il blocco che contiene "Informazioni sui servizi e le norme previste dal comune per gli animali domestici." che c'e' in https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html# ma manca nel nostro http://127.0.0.1:8000/it/tests/homepage
