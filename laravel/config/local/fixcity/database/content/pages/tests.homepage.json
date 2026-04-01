@@ -1,310 +1,281 @@
 {
   "id": "tests.homepage",
-  "title": {
-    "it": "Homepage",
-    "en": "Homepage"
-  },
+  "title": { "it": "Homepage", "en": "Homepage" },
   "slug": "tests.homepage",
   "category": "Home",
   "content": null,
   "content_blocks": {
     "it": [
       {
-        "id": "block-001",
-        "type": "header-slim",
-        "weight": 1,
-        "active": true,
-        "data": {
-          "view": "pub_theme::components.blocks.header.slim",
-          "region": "Nome della Regione",
-          "language": "ITA",
-          "login_url": "/login",
-          "social": [
-            {"platform": "facebook", "url": "https://facebook.com"},
-            {"platform": "twitter", "url": "https://twitter.com"},
-            {"platform": "instagram", "url": "https://instagram.com"}
-          ]
-        }
-      },
-      {
-        "id": "block-002",
-        "type": "header-main",
-        "weight": 2,
-        "active": true,
-        "data": {
-          "view": "pub_theme::components.blocks.header.main",
-          "logo": "/themes/Sixteen/images/logo.svg",
-          "municipality": "Nome del Comune",
-          "subtitle": "Slogan del Comune",
-          "social": [
-            {"platform": "facebook", "url": "https://facebook.com"},
-            {"platform": "twitter", "url": "https://twitter.com"},
-            {"platform": "instagram", "url": "https://instagram.com"}
-          ],
-          "search": {
-            "enabled": true,
-            "action": "/it/search"
-          }
-        }
-      },
-      {
-        "id": "block-003",
-        "type": "navigation",
-        "weight": 3,
-        "active": true,
-        "data": {
-          "view": "pub_theme::components.blocks.navigation.main",
-          "items": [
-            {
-              "label": "Amministrazione",
-              "url": "/it/amministrazione",
-              "children": [
-                {"label": "Giunta", "url": "/it/giunta"},
-                {"label": "Consiglio", "url": "/it/consiglio"}
-              ]
-            },
-            {
-              "label": "Servizi",
-              "url": "/it/servizi",
-              "children": []
-            },
-            {
-              "label": "Novità",
-              "url": "/it/novita",
-              "children": []
-            },
-            {
-              "label": "Documenti",
-              "url": "/it/documenti",
-              "children": []
-            }
-          ]
-        }
-      },
-      {
-        "id": "block-004",
-        "type": "hero",
+        "id": "block-hero",
+        "type": "hero-homepage",
         "weight": 10,
         "active": true,
         "data": {
           "view": "pub_theme::components.blocks.hero.homepage",
-          "title": "NOME DEL COMUNE",
-          "subtitle": "CONTENUTI IN EVIDENZA",
-          "image": "/themes/Sixteen/images/hero-homepage.jpg",
-          "cta": {
-            "label": "Scopri i servizi",
-            "url": "/it/servizi"
+          "title": "Nome del comune",
+          "subtitle": "Contenuti in evidenza",
+          "image": "https://picsum.photos/800/600",
+          "all_news_url": "#",
+          "all_news_label": "Tutte le novità",
+          "news": {
+            "category": "Notizie",
+            "date": "18 mag 2022",
+            "title": "Parte l'estate con oltre 300 eventi in centro e nei quartieri, tutti gli eventi previsti",
+            "excerpt": "Inaugurazione lunedì 2 luglio con il concerto gratuito in piazza XX Settembre degli Sweet Soul Music Revue. Sul palco 20 musicisti dal tutto il mondo",
+            "tag": "Estate in città",
+            "url": "#"
           }
         }
       },
       {
-        "id": "block-004b",
-        "type": "governance",
-        "weight": 15,
-        "active": true,
-        "data": {
-          "view": "pub_theme::components.blocks.governance.cards",
-          "title": "Organi di governo",
-          "cards": [
-            {
-              "title": "MARIO ROSSI",
-              "role": "Il Sindaco della città",
-              "description": "Mandato dal 2021",
-              "url": "/it/amministrazione/sindaco"
-            },
-            {
-              "title": "LA GIUNTA COMUNALE",
-              "role": "Organo esecutivo",
-              "description": "Composta da 8 assessori",
-              "url": "/it/amministrazione/giunta"
-            },
-            {
-              "title": "IL CONSIGLIO COMUNALE",
-              "role": "Organo di indirizzo",
-              "description": "Composto da 16 consigieri",
-              "url": "/it/amministrazione/consiglio"
-            }
-          ]
-        }
-      },
-      {
-        "id": "block-005",
-        "type": "quick-links",
+        "id": "block-calendario",
+        "type": "governance-calendario",
         "weight": 20,
         "active": true,
         "data": {
-          "view": "pub_theme::components.blocks.quick-links.default",
-          "title": "Accesso rapido",
-          "links": [
+          "view": "pub_theme::components.blocks.governance.cards",
+          "cards": [
             {
-              "icon": "it-calendar",
-              "label": "Appuntamenti",
-              "url": "/it/appuntamenti"
+              "category": "Organi di governo",
+              "title": "Mario Rossi",
+              "role": "Il Sindaco della città",
+              "image": "https://picsum.photos/150/200",
+              "url": "#"
             },
             {
-              "icon": "it-file",
-              "label": "Documenti",
-              "url": "/it/documenti"
+              "category": "Organi di governo",
+              "title": "La giunta comunale",
+              "description": "La giunta, nominata dal sindaco, esercita collegialmente le funzioni ad essa attribuite dalla legge.",
+              "url": "#"
             },
             {
-              "icon": "it-mail",
-              "label": "Contatti",
-              "url": "/it/contatti"
+              "category": "Organi di governo",
+              "title": "Il consiglio comunale",
+              "description": "Il Consiglio è un organo collegiale ed elettivo che rimane in carica per 5 anni.",
+              "url": "#"
+            }
+          ],
+          "month": "Settembre 2022",
+          "slides": [
+            {
+              "day": "15",
+              "weekday": "lun",
+              "events": [
+                { "title": "Saldo TASI", "url": "#" },
+                { "title": "Concerto gratuito piazza XXIV maggio", "url": "#", "image": "https://picsum.photos/200" },
+                { "title": "Convocazione Consiglio Comunale - Prima seduta", "url": "#" },
+                { "title": "Seconda rata TARI", "url": "#" }
+              ]
             },
             {
-              "icon": "it-help",
-              "label": "FAQ",
-              "url": "/it/faq"
+              "day": "16",
+              "weekday": "mar",
+              "events": [
+                { "title": "Presentazione mostra \"Mediterraneo\"", "url": "#" },
+                { "title": "Convocazione Consiglio Comunale - Seconda seduta", "url": "#", "image": "https://picsum.photos/200" }
+              ]
+            },
+            {
+              "day": "17",
+              "weekday": "mar",
+              "events": [
+                { "title": "Presentazione piano lavori pubblici 2018", "url": "#" }
+              ]
+            },
+            {
+              "day": "18",
+              "weekday": "mar",
+              "events": [
+                { "title": "Evento \"La notte bianca dei bambini\"", "url": "#" },
+                { "title": "Concerto della Banda Civica in piazza San Vittore", "url": "#" }
+              ]
+            },
+            {
+              "day": "19",
+              "weekday": "mar",
+              "events": [
+                { "title": "Saldo TASI", "url": "#" },
+                { "title": "Concerto gratuito piazza XXIV maggio", "url": "#", "image": "https://picsum.photos/200" },
+                { "title": "Convocazione Consiglio Comunale - Prima seduta", "url": "#" },
+                { "title": "Seconda rata TARI", "url": "#" }
+              ]
+            },
+            {
+              "day": "20",
+              "weekday": "mar",
+              "events": [
+                { "title": "Saldo TASI", "url": "#" },
+                { "title": "Concerto gratuito piazza XXIV maggio", "url": "#", "image": "https://picsum.photos/200" },
+                { "title": "Convocazione Consiglio Comunale - Prima seduta", "url": "#" },
+                { "title": "Seconda rata TARI", "url": "#" }
+              ]
+            },
+            {
+              "day": "21",
+              "weekday": "mar",
+              "events": [
+                { "title": "Saldo TASI", "url": "#" },
+                { "title": "Concerto gratuito piazza XXIV maggio", "url": "#", "image": "https://picsum.photos/200" },
+                { "title": "Convocazione Consiglio Comunale - Prima seduta", "url": "#" },
+                { "title": "Seconda rata TARI", "url": "#" }
+              ]
             }
           ]
         }
       },
       {
-        "id": "block-006",
-        "type": "news-carousel",
+        "id": "block-topics",
+        "type": "topics-highlight",
         "weight": 30,
         "active": true,
         "data": {
-          "view": "pub_theme::components.blocks.news.carousel",
-          "title": "Ultime notizie",
-          "news": [
+          "view": "pub_theme::components.blocks.topics.highlight",
+          "title": "Argomenti in evidenza",
+          "background_image": "/themes/Sixteen/design-comuni/assets/images/evidenza-header.png",
+          "items": [
             {
-              "title": "Nuovo servizio digitale",
-              "date": "2026-04-01",
-              "excerpt": "Attivato nuovo servizio online per i cittadini...",
-              "url": "/it/novita/nuovo-servizio"
+              "title": "Trasporto pubblico",
+              "description": "Informazioni sui servizi di trasporto pubblico e servizi taxi",
+              "url": "#",
+              "external_site": {
+                "url": "#",
+                "image": "https://picsum.photos/200/200",
+                "title": "Mobilità in Comune",
+                "description": "Il sito del turismo del Comune e della Città Metropolitana."
+              }
             },
             {
-              "title": "Evento culturale",
-              "date": "2026-03-28",
-              "excerpt": "Grande evento culturale in programma...",
-              "url": "/it/novita/evento-culturale"
+              "title": "Animale domestico",
+              "description": "Informazioni sui servizi e le norme previste dal comune per gli animali domestici.",
+              "url": "#",
+              "links": [
+                { "label": "Come adottare un cane al Canile Municipale", "url": "#" },
+                { "label": "Elenco delle aree per cani", "url": "#" },
+                { "label": "Come segnalare una colonia felina e ricevere il tesserino di riconoscimento come referente", "url": "#" },
+                { "label": "Come segnalare lo smarrimento del proprio animale", "url": "#" }
+              ]
             },
             {
-              "title": "Lavori pubblici",
-              "date": "2026-03-25",
-              "excerpt": "Iniziati i lavori di ristrutturazione...",
-              "url": "/it/novita/lavori-pubblici"
+              "title": "Sport",
+              "description": "Tutto quello che c’è da sapere sulle strutture sportive comunali a disposizione del pubblico e delle Associazioni, le iniziative a sostegno dello sport e gli eventi che coinvolgono la città.",
+              "url": "#",
+              "links": [
+                { "label": "Tutte le strutture sportive della città", "url": "#" },
+                { "label": "Da lunedì 3 settembre chiudono le vasche della piscina comunale", "url": "#" },
+                { "label": "Concessione di contributi ad enti, associazioni, società sportive", "url": "#" }
+              ]
+            }
+          ],
+          "other_topics": [
+            "Associazioni",
+            "Concorsi",
+            "Energie rinnovabili",
+            "Gestione rifiuti",
+            "Imposte",
+            "Istruzione",
+            "Pista ciclabile"
+          ],
+          "show_all_url": "#",
+          "show_all_label": "Mostra tutti",
+          "thematic_sites": [
+            {
+              "title": "Mobilità in Comune",
+              "description": "Il sito del turismo del Comune e della Città Metropolitana.",
+              "url": "#",
+              "image": "https://picsum.photos/200/200",
+              "color": "blue"
+            },
+            {
+              "title": "Turismo",
+              "description": "Il sito che offre informazioni sulle attività turistiche attive in città",
+              "url": "#",
+              "image": "https://picsum.photos/200/200",
+              "color": "warning"
+            },
+            {
+              "title": "Musei Civici",
+              "description": "Tutte le informazioni sui musei e gli eventi culturali della città",
+              "url": "#",
+              "image": "https://picsum.photos/200/200",
+              "color": "dark"
             }
           ]
         }
       },
       {
-        "id": "block-006c",
-        "type": "events-section",
-        "weight": 32,
-        "active": true,
-        "data": {
-          "view": "pub_theme::components.blocks.events.calendar",
-          "title": "EVENTI",
-          "month": "SETTEMBRE 2022",
-          "events": [
-            {"day": "15", "month": "LUN", "title": "Saldo TASI", "url": "/it/eventi/saldo-tasi"},
-            {"day": "20", "month": "SAB", "title": "Concerto in piazza", "url": "/it/eventi/concerto"},
-            {"day": "21", "month": "MAR", "title": "Convocazione consiglio", "url": "/it/eventi/consiglio"}
-          ]
-        }
-      },
-      {
-        "id": "block-006d",
-        "type": "topics-section",
-        "weight": 34,
-        "active": true,
-        "data": {
-          "view": "pub_theme::components.blocks.topics.highlight",
-          "title": "ARGOMENTI IN EVIDENZA",
-          "topics": [
-            {"title": "TRASPORTO PUBBLICO", "icon": "it-bus", "url": "/it/trasporto", "description": "Orari e linee"},
-            {"title": "MOBILITÀ IN COMUNE", "icon": "it-bicycle", "url": "/it/mobilita", "description": "Piste ciclabili"},
-            {"title": "ANIMALE DOMESTICO", "icon": "it-paw", "url": "/it/animali", "list": [{"label": "Anagrafe animale", "url": "/it/anagrafe"}]},
-            {"title": "SPORT", "icon": "it-sport", "url": "/it/sport", "list": [{"label": "Impianti sportivi", "url": "/it/impianti"}]}
-          ],
-          "showAllUrl": "/it/argomenti"
-        }
-      },
-      {
-        "id": "block-006e",
-        "type": "search-section",
-        "weight": 36,
+        "id": "block-useful-links",
+        "type": "useful-links",
+        "weight": 40,
         "active": true,
         "data": {
           "view": "pub_theme::components.blocks.search.support-links",
-          "title": "Cerca nel sito",
           "placeholder": "Cerca una parola chiave",
-          "action": "/it/ricerca"
+          "action": "/it/ricerca",
+          "useful_links": [
+            { "label": "Rilascio Carta Identità Elettronica (CIE)", "url": "#" },
+            { "label": "Cambio di residenza", "url": "#" },
+            { "label": "Tributi online", "url": "#" },
+            { "label": "Prenotazione appuntamenti", "url": "#" },
+            { "label": "Rilascio tessera elettorale", "url": "#" },
+            { "label": "Voucher connettività", "url": "#" }
+          ]
         }
       },
       {
-        "id": "block-006f",
-        "type": "feedback-section",
-        "weight": 38,
+        "id": "block-feedback",
+        "type": "feedback-rating",
+        "weight": 50,
         "active": true,
         "data": {
           "view": "pub_theme::components.blocks.feedback.rating",
-          "title": "QUANTO SONO CHIARE LE INFORMAZIONI SU QUESTA PAGINA?",
-          "question": "GRAZIE, IL TUO PARERE CI AIUTERÀ A MIGLIORARE IL SERVIZIO!",
-          "maxRating": 5
+          "title": "Quanto sono chiare le informazioni su questa pagina?",
+          "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
         }
       },
       {
-        "id": "block-007",
-        "type": "footer-main",
-        "weight": 100,
+        "id": "block-contacts",
+        "type": "contacts-homepage",
+        "weight": 60,
         "active": true,
         "data": {
-          "view": "pub_theme::components.blocks.footer.main",
-          "contact": {
-            "address": "Via Roma 123, 00100 Comune (XX)",
-            "phone": "+39 0123 456789",
-            "email": "info@comune.it",
-            "pec": "pec@comune.it"
-          },
-          "columns": [
-            {
-              "title": "Amministrazione",
-              "links": [
-                {"label": "Giunta", "url": "/it/giunta"},
-                {"label": "Consiglio", "url": "/it/consiglio"},
-                {"label": "Uffici", "url": "/it/uffici"}
-              ]
-            },
-            {
-              "title": "Servizi",
-              "links": [
-                {"label": "Tutti i servizi", "url": "/it/servizi"},
-                {"label": "Servizi online", "url": "/it/servizi-online"}
-              ]
-            },
-            {
-              "title": "Contatti",
-              "links": [
-                {"label": "Telefono", "url": "tel:+390123456789"},
-                {"label": "Email", "url": "mailto:info@comune.it"},
-                {"label": "PEC", "url": "mailto:pec@comune.it"}
-              ]
-            }
+          "view": "pub_theme::components.blocks.contact.homepage",
+          "contact_links": [
+            { "icon": "it-help-circle", "label": "Leggi le domande frequenti", "url": "#" },
+            { "icon": "it-mail", "label": "Richiedi assistenza", "url": "#", "data_element": "contacts" },
+            { "icon": "it-hearing", "label": "Chiama il numero verde 05 0505", "url": "#" },
+            { "icon": "it-calendar", "label": "Prenota appuntamento", "url": "#", "data_element": "appointment-booking" }
           ],
-          "social": [
-            {"platform": "facebook", "url": "https://facebook.com"},
-            {"platform": "twitter", "url": "https://twitter.com"},
-            {"platform": "instagram", "url": "https://instagram.com"}
-          ],
-          "legal": {
-            "privacy": "/it/privacy",
-            "cookies": "/it/cookies",
-            "notes": "/it/note-legali"
-          }
+          "report_links": [
+            { "icon": "it-map-marker-circle", "label": "Segnala disservizio", "url": "#" }
+          ]
+        }
+      },
+      {
+        "id": "block-final-search",
+        "type": "search-final",
+        "weight": 70,
+        "active": true,
+        "data": {
+          "view": "pub_theme::components.blocks.search.final",
+          "title": "Cerca",
+          "placeholder": "Cerca nel sito",
+          "button_label": "Cerca",
+          "action": "/it/ricerca",
+          "suggestions_title": "FORSE STAVI CERCANDO",
+          "suggestions": [
+            { "label": "Rilascio Carta Identità Elettronica (CIE)", "url": "#" },
+            { "label": "Cambio di residenza", "url": "#" },
+            { "label": "Tributi online", "url": "#" },
+            { "label": "Prenotazione appuntamenti", "url": "#" },
+            { "label": "Rilascio tessera elettorale", "url": "#" },
+            { "label": "Voucher connettività", "url": "#" }
+          ]
         }
       }
     ],
     "en": []
   },
-  "sidebar_blocks": {
-    "it": [],
-    "en": []
-  },
-  "footer_blocks": {
-    "it": "",
-    "en": ""
-  }
+  "sidebar_blocks": { "it": [], "en": [] },
+  "footer_blocks": { "it": "", "en": "" }
 }
