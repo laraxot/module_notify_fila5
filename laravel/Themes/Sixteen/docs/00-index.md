@@ -12,6 +12,7 @@
 3. [Design Comuni Implementation](./design-comuni-implementation.md) - Main implementation guide for Municipality Design
 
 ### 🏗️ Architecture & Standards
+- [Theme Vite Output Rule](../../Modules/Xot/docs/vite-configuration.md) - `outDir: ./public` and why the copy step exists
 <<<<<<< HEAD
 - [Agid Layout Usage Rules](./agid-layout-usage-rules.md) - How to use Agid-compliant layouts
 - [Sixteen Theme Naming Rules](./sixteen-theme-naming-rules.md) - Naming conventions for this theme
@@ -40,6 +41,8 @@
 
 ### 🎨 Design Comuni Italia (Agid Compliance)
 - [Design Comuni Implementation Guide](./design-comuni-implementation.md) - **Primary Technical Reference**
+- [Design Comuni Pages Analysis](./design-comuni/pages-analysis.md) - Canonical mapping page -> reusable blocks
+- GitHub tracking: issue #46, issue #47, issue #48, discussion #45
 - [Agid Checklist](./agid-checklist.md) - Compliance verification
 - [Agid Compliance Summary](./agid-compliance-summary.md) - Summary of work done
 - [Components Status](./components-status.md) - Current state of all components
