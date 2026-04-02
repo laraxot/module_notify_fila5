@@ -255,7 +255,7 @@
         "id": "block-servizi",
         "type": "services-homepage",
         "weight": 65,
-        "active": true,
+        "active": false,
         "data": {
           "view": "pub_theme::components.blocks.services.homepage",
           "title": "Servizi",
@@ -273,7 +273,7 @@
         "id": "block-amministrazione",
         "type": "administration-homepage",
         "weight": 75,
-        "active": true,
+        "active": false,
         "data": {
           "view": "pub_theme::components.blocks.administration.homepage",
           "title": "AMMINISTRAZIONE",
