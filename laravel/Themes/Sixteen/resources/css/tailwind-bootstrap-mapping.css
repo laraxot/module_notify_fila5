@@ -808,6 +808,11 @@
     @apply text-xl font-semibold mb-4;
   }
 
+  /* Social icons - visible on desktop, hidden on mobile/tablet */
+  .it-socials {
+    @apply lg:flex;
+  }
+
   .has-megamenu {
     @apply relative;
   }
@@ -831,6 +836,10 @@
 @layer components {
   .container {
     max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   @media (min-width: 768px) {
@@ -855,5 +864,159 @@
     .container {
       max-width: 1320px;
     }
+  }
+}
+
+/* ============================================================
+   MODAL COMPONENTS (Bootstrap)
+   ============================================================ */
+@layer components {
+  /* Modal base state - hidden by default */
+  .modal {
+    @apply hidden fixed inset-0 z-50 overflow-hidden;
+  }
+
+  /* Modal shown state */
+  .modal.show {
+    @apply flex items-center justify-center overflow-y-auto;
+  }
+
+  /* Modal backdrop (overlay) - darkens background */
+  .modal-backdrop {
+    @apply fixed inset-0 bg-black bg-opacity-50 z-40;
+  }
+
+  .modal-backdrop.show {
+    @apply block;
+  }
+
+  /* Modal dialog container */
+  .modal-dialog {
+    @apply relative w-auto pointer-events-none;
+  }
+
+  .modal.show .modal-dialog {
+    @apply pointer-events-auto;
+  }
+
+  /* Modal content box */
+  .modal-content {
+    @apply relative bg-white pointer-events-auto rounded-lg shadow-2xl;
+    max-width: 95%;
+  }
+
+  @media (min-width: 576px) {
+    .modal-content {
+      max-width: 500px;
+    }
+  }
+
+  /* Modal header - title area */
+  .modal-header {
+    @apply border-b border-gray-200 px-6 py-4 flex items-center justify-between;
+  }
+
+  .modal-header .modal-title {
+    @apply text-xl font-semibold text-gray-900;
+  }
+
+  .modal-header .btn-close {
+    @apply text-2xl font-bold text-gray-600 hover:text-gray-900 cursor-pointer;
+    @apply bg-transparent border-0 p-0;
+  }
+
+  /* Modal body - content area */
+  .modal-body {
+    @apply relative p-6 text-gray-700;
+  }
+
+  /* Modal footer - action buttons */
+  .modal-footer {
+    @apply border-t border-gray-200 px-6 py-4 flex justify-end gap-2;
+  }
+
+  /* Modal fade animation */
+  .modal.fade {
+    @apply opacity-0 transition-opacity duration-200;
+  }
+
+  .modal.show.fade {
+    @apply opacity-100;
+  }
+
+  /* Scrollable body */
+  .modal-dialog-scrollable .modal-body {
+    @apply overflow-y-auto;
+  }
+
+  /* Centered modal */
+  .modal-dialog-centered {
+    @apply flex items-center justify-center min-h-full;
+  }
+
+  /* Extra large modal */
+  .modal-xl {
+    max-width: 1140px;
+  }
+
+  /* Large modal */
+  .modal-lg {
+    max-width: 800px;
+  }
+
+  /* Small modal */
+  .modal-sm {
+    max-width: 300px;
+  }
+
+  /* Fullscreen modal */
+  .modal-fullscreen {
+    @apply w-full h-full max-w-none;
+  }
+
+  @media (max-width: 575.98px) {
+    .modal-fullscreen-sm-down {
+      @apply w-full h-full max-w-none;
+    }
+  }
+
+  /* Modal static (no close on backdrop click) */
+  .modal.modal-static .modal-dialog {
+    @apply shake;
+  }
+
+  /* Search modal specific */
+  .modal-search {
+    @apply bg-white;
+  }
+
+  .modal-search .modal-body {
+    @apply p-0;
+  }
+
+  .modal-search .search-input {
+    @apply w-full px-6 py-4 border-0;
+  }
+
+  /* Button styling in modals */
+  .modal .btn {
+    @apply inline-block px-4 py-2 rounded transition-colors;
+  }
+
+  .modal .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+
+  .modal .btn-secondary {
+    @apply bg-gray-200 text-gray-900 hover:bg-gray-300;
+  }
+
+  .modal .btn-close {
+    @apply text-gray-600 hover:text-gray-900 text-2xl font-bold;
+  }
+
+  /* Modal prevent scroll on body */
+  body.modal-open {
+    @apply overflow-hidden;
   }
 }
