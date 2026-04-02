@@ -38,6 +38,13 @@ trait HasBlocks
             $blocks = [];
         }
 
+        $blocks = array_filter(
+            $blocks,
+            static fn (mixed $block): bool => ! is_array($block)
+                || ! array_key_exists('active', $block)
+                || (bool) $block['active']
+        );
+
         $blocks = $this->compile($blocks);
 
         // Create BlockData instances manually to ensure constructor is called

@@ -201,20 +201,41 @@ npm run copy     # Copia in public_html/themes/Sixteen/
 
 ---
 
-## Checklist di Verifica
+## Stato Attuale
 
-- [ ] Classi grid mancanti aggiunte
-- [ ] Classi modal aggiunte
-- [ ] Classi search aggiunte
-- [ ] Utility classes aggiunte
-- [ ] Mappature Tailwind verificate
-- [ ] Alpine.js per navigazione mobile
-- [ ] Alpine.js per search modal
-- [ ] Alpine.js per dropdown lingue
-- [ ] Carousel funzionante
-- [ ] Build completato senza errori
-- [ ] `npm run copy` eseguito
-- [ ] Verifica visuale pagina homepage
+### Analisi Strutturale Completata ✅
+
+Dopo normalizzazione HTML (rimozione whitespace, Livewire attrs, Blade comments):
+
+| Differenza | Tipo | Azione |
+|-----------|------|--------|
+| `<!--[if BLOCK]>` comments | Blade artifacts | CSS: ignorare (non visibili) |
+| `text-paragraph-card` vs nessuna classe | Classe extra | CSS: harmless |
+| `card-text text-paragraph-card` vs `text-paragraph-card` | Classe extra | CSS: harmless |
+| `alt` attributo diverso | Contenuto JSON | Non CSS/JS |
+| `href` vs `xlink:href` | Equivalente | CSS: ignorare |
+| Whitespace nel testo | Rendering | CSS: ignorare |
+
+### Classi CSS Mancanti Aggiunte ✅
+
+- Grid: `.col`, `.col-lg-5`, `.col-xl-6`, `.col-xl-8`, `.offset-lg-1`, `.offset-xl-2`
+- Display: `.d-md-none`, `.d-md-block`, `.d-md-flex`
+- Modal: `.modal`, `.modal.fade`, `.modal.show`, `.modal-dialog`, `.modal-lg`, `.modal-content`, `.modal-body`, `.modal-title`
+- Search: `.search-modal`, `.searches-list`, `.searches-list-wrapper`, `.perfect-scrollbar`
+- Utility: `.ps-5`, `.icon-md`, `.text-underline`, `.variable-gutters`, `.other-link-title`
+
+### Build Completato ✅
+
+- `npm run build` → OK (760KB CSS)
+- `npm run copy` → OK (assets copiati in public_html)
+
+### Da Fare
+
+- [ ] Verifica visuale pagina dopo build
+- [ ] Aggiungere classi mancanti per carousel Splide
+- [ ] Aggiungere classi per rating component
+- [ ] Aggiungere classi per link-list
+- [ ] Alpine.js per interazioni (dropdown, mobile nav, search modal)
 
 ---
 

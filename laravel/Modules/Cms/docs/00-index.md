@@ -38,6 +38,9 @@ The Cms module handles content management, page rendering, and multi-language su
 
 ## Multi-Language Support
 
+### Design Comuni Homepage Parity
+- [Design Comuni Homepage](design-comuni-homepage.md) - Analisi visiva homepage con screenshot e piano CSS/JS
+
 ### Language Detection Logic
 ```php
 // In Page component
