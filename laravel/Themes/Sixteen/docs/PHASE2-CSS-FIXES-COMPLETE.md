@@ -4,6 +4,14 @@
 Make local homepage visually identical to Design Comuni reference.
 
 ## Status
+---
+
+## 📚 Related Documentation
+
+- **[← INDEX](./INDEX.md)** - Documentation overview
+- **[→ FOOTER-FIXES-REPORT](./FOOTER-FIXES-REPORT.md)** - Next: Footer optimization
+
+**Phase 2 Complete**: Container sizing finalized
 ✅ **COMPLETE** - Major CSS fixes applied
 
 ## Fixes Applied
