@@ -385,10 +385,9 @@ html, body {
 }
 
 .it-header-center-wrapper {
-  background: var(--bs-primary) !important;
-  @apply py-[6px] pb-0;
-  color: #191919;
-}
+    background: var(--bs-primary) !important;
+    @apply py-[6px] pb-0;
+    color: #191919;
 }
 
 .it-header-center-content-wrapper {

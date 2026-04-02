@@ -1,8 +1,5 @@
 /**
- * Sixteen Theme - Design Comuni Italia
- *
- * Bootstrap Italia styles converted to Tailwind CSS with @apply
- * Based on: https://italia.github.io/design-comuni-pagine-statiche/
+ * Sixteen Theme - Design Comuni Italia - TEST
  */
 
 /* ========================================
@@ -11,11 +8,15 @@
 @import "tailwindcss";
 
 /* ========================================
-   TAILWIND BOOTSTRAP ITALIA MAPPING
-   Complete @apply mapping of all Bootstrap classes
-   Pure Tailwind implementation (NO Bootstrap Italia CSS)
+   IMPORT STYLE-APPLY (Bootstrap Italia converted to Tailwind)
 ======================================== */
-@import './tailwind-bootstrap-mapping.css';
+@import './style-apply.css';
+
+/* ========================================
+   IMPORT DESIGN COMUNI COMPONENT CLASSES
+   Bootstrap Italia classes → Tailwind CSS
+======================================== */
+@import './components/bootstrap-italia-classes.css';
 
 /* ========================================
    FINAL HOMEPAGE PARITY OVERRIDES
