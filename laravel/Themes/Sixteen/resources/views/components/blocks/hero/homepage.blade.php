@@ -24,7 +24,7 @@
 @endphp
 
 <h1 class="visually-hidden" id="main-container">{{ $title }}</h1>
-<section id="head-section" class="py-4 py-lg-0">
+<section id="head-section">
     <h2 class="visually-hidden">Contenuti in evidenza</h2>
     <div class="container">
         <div class="row align-items-center min-vh-lg-50">
