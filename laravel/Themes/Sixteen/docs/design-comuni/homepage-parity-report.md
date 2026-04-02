@@ -59,3 +59,16 @@ Analisi screenshot footer:
 
 Esito: struttura footer identica al riferimento; il problema residuo era CSS, corretto portando il background finale di `footer#footer` da trasparente a blu antracite e riallineando testi e separatori.
 
+
+## Header Search Check
+
+Analisi screenshot header/search:
+- [header-search-analysis.md](./screenshots/homepage-parity/header-search-analysis.md)
+- [reference-header-issues.png](./screenshots/homepage-parity/reference-header-issues.png)
+- [local-header-issues.png](./screenshots/homepage-parity/local-header-issues.png)
+- [local-header-fixed.png](./screenshots/homepage-parity/local-header-fixed.png)
+
+Esito del fix:
+- `container` riallineato ai gutter del riferimento (`x=52`, `width=1176` anche in locale)
+- icone social header rese visibili forzando `color/fill` bianchi
+- `#search-modal` confermato nascosto; il blocco rimosso era `.cmp-search` dell'hero, non il modal

@@ -49,16 +49,17 @@
 
 ---
 
-## 🎯 Master Implementation Plan
-- **File**: `ui-fixes/UI-FIXES-MASTER-PLAN.md`
-- **Purpose**: Complete implementation workflow
+### Master Planning (BMAD Decisions)
+- **File**: `ui-fixes/BMAD-STRATEGIC-DECISIONS.md`
+- **Purpose**: Strategic approach and execution plan approved by analyst
 - **Content**:
-  - All 3 fixes overview
-  - Phase-by-phase workflow
-  - Expected outcomes
-  - Files to modify
+  - Execution strategy (Parallel Fix #1+2 → Fix #3)
+  - HTML structure constraint (maintain Italia design)
+  - Verification strategy (multi-level approach)
+  - Dependency analysis
+  - Risk assessment
   - Success criteria
-  - Next steps
+  - Timeline estimates
 
 ---
 
@@ -95,10 +96,14 @@ laravel/Themes/Sixteen/resources/css/tailwind-bootstrap-mapping.css
 2. Review: Individual issue documents
 3. Understand: Each fix's requirements
 
-### Step 2: Plan Implementation (BMAD)
-1. Discuss: Best approach for each fix
-2. Consider: Dependencies between fixes
-3. Order: Prioritize implementation sequence
+### Step 2: Plan Implementation (BMAD) ✅ COMPLETE
+1. Discuss: Best approach for each fix ✅ Done
+2. Consider: Dependencies between fixes ✅ Done
+3. Order: Prioritize implementation sequence ✅ Done
+   - **Decision**: Parallel execution (Fix #1 + Fix #2) → Fix #3
+   - **HTML Constraint**: Maintain 100% Italia design structure
+   - **Verification**: Multi-level (screenshots + tests + checklist)
+   - **See**: `BMAD-STRATEGIC-DECISIONS.md`
 
 ### Step 3: Create Execution Plan (GSD)
 1. Break down: Each fix into tasks
@@ -162,10 +167,11 @@ laravel/Themes/Sixteen/resources/css/tailwind-bootstrap-mapping.css
 
 ### Forward Links
 - **Analysis** → `UI-LAYOUT-VISIBILITY-ISSUES-ANALYSIS.md`
+- **BMAD Decisions** → `ui-fixes/BMAD-STRATEGIC-DECISIONS.md` ✅ NEW
 - **Container Fix** → `ui-fixes/CONTAINER-CENTERING-ISSUE.md`
 - **Social Icons Fix** → `ui-fixes/SOCIAL-ICONS-VISIBILITY-ISSUE.md`
 - **Modal Fix** → `ui-fixes/SEARCH-MODAL-VISIBILITY-ISSUE.md`
-- **Implementation Plan** → `ui-fixes/UI-FIXES-MASTER-PLAN.md`
+- **Original Implementation Plan** → `ui-fixes/UI-FIXES-MASTER-PLAN.md`
 
 ### Backward Links
 - **From Analysis** ← This index
@@ -210,8 +216,8 @@ For questions about:
 | Phase | Task | Status |
 |-------|------|--------|
 | 1 | Analysis & Documentation | ✅ COMPLETE |
-| 2 | BMAD Discussion | ⏳ PENDING |
-| 3 | GSD Plan Creation | ⏳ PENDING |
+| 2 | BMAD Discussion | ✅ COMPLETE |
+| 3 | GSD Plan Creation | ⏳ IN PROGRESS |
 | 4 | Implementation | ⏳ PENDING |
 | 5 | Testing & Validation | ⏳ PENDING |
 | 6 | Commit & Documentation | ⏳ PENDING |
