@@ -45,19 +45,19 @@ export default {
             },
             colors: {
                 // Colori AGID ufficiali (Agenzia per l'Italia Digitale)
-                // PRIMARY = VERDE PA (come Design Comuni)
+                // PRIMARY = VERDE PA (Design Comuni Italia)
                 primary: {
                     50: '#e6f7f0',
                     100: '#b3e6d1',
                     200: '#80d5b2',
                     300: '#4dc493',
                     400: '#1ab374',
-                    500: '#00814A', // Primary GREEN PA (Design Comuni)
-                    600: '#006b3d',
-                    700: '#005530',
-                    800: '#003f23',
-                    900: '#002916',
-                    DEFAULT: '#00814A',
+                    500: '#007A52', // Primary GREEN Design Comuni Italia (updated)
+                    600: '#006945',
+                    700: '#005838',
+                    800: '#00472b',
+                    900: '#00361e',
+                    DEFAULT: '#007A52',
                 },
                 success: {
                     50: '#e6f7f0',

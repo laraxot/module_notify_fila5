@@ -38,7 +38,7 @@
   --dc-blue-dark: #004b9a;
   --dc-ink: #191919;         /* rgb(25, 25, 25) - text color */
   --dc-muted: #5c6f82;
-  --dc-footer: transparent;  /* Reference footer has no bg */
+  --dc-footer: #202a2e;      /* rgb(32,42,46) - reference footer bg */
   --dc-footer-dark: #1b2733;
   --dc-border: #d9e1e8;
 }
@@ -127,6 +127,17 @@ body {
   font-size: 14px !important;
   line-height: 21px !important;
   gap: 0 !important;
+}
+
+/* Social icon links - must be white on green header */
+.it-socials a {
+  color: #fff !important;
+}
+
+.it-socials a svg,
+.it-socials svg.icon {
+  fill: #fff !important;
+  color: #fff !important;
 }
 
 .it-brand-wrapper {
@@ -356,6 +367,15 @@ footer.it-footer {
 
 .search-modal {
   background: rgba(23, 50, 77, 0.56);
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+.search-modal.show {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .search-modal .modal-dialog {
@@ -452,16 +472,16 @@ footer#footer svg {
 
 /* ========================================
    FOOTER PARITY HOTFIX
-   Keep after all footer rules so transparent overrides cannot win.
+   Reference: rgb(32,42,46) = #202a2e
 ======================================== */
 :root {
-  --dc-footer: #24323f;
+  --dc-footer: #202a2e;
 }
 
 footer#footer,
 footer#footer .it-footer-main {
-  background: #24323f !important;
-  color: rgba(255, 255, 255, 0.82) !important;
+  background: #202a2e !important;
+  color: #fff !important;
 }
 
 footer#footer .container,
@@ -482,8 +502,16 @@ footer#footer svg,
 footer#footer span,
 footer#footer p,
 footer#footer li {
-  color: rgba(255, 255, 255, 0.82) !important;
+  color: #fff !important;
   fill: currentColor;
+}
+
+footer#footer .footer-list li a {
+  color: rgba(255, 255, 255, 0.82) !important;
+}
+
+footer#footer .footer-list li a:hover {
+  color: #fff !important;
 }
 
 footer#footer .footer-heading-title,
