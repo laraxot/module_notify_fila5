@@ -1,6 +1,6 @@
 /*
  * Homepage parity overrides
- * Last import wins over duplicated Bootstrap-Italia-to-Tailwind mappings.
+ * Limit changes to palette and chrome so we don't disturb proven content layouts.
  */
 
 :root {
@@ -12,7 +12,6 @@
   --dc-muted: #5c6f82;
   --dc-footer: #24323f;
   --dc-footer-dark: #1b2733;
-  --dc-surface: #f5f6f7;
   --dc-border: #d9e1e8;
 }
 
@@ -20,10 +19,6 @@ html,
 body {
   color: var(--dc-ink);
   background: #fff;
-}
-
-body {
-  font-family: "Titillium Web", Geneva, Tahoma, sans-serif;
 }
 
 .it-header-wrapper {
@@ -57,34 +52,13 @@ body {
   color: var(--dc-muted) !important;
 }
 
-.it-right-zone {
-  gap: 1rem;
-}
-
-.it-socials ul {
-  gap: 0.25rem;
-}
-
-.it-socials li a {
-  color: #fff;
-}
-
-.it-socials li a .icon {
-  width: 1.125rem;
-  height: 1.125rem;
-}
-
-.search-link,
-.btn-primary,
-.input-group-append .btn {
+.search-link {
   background: var(--dc-blue) !important;
   border-color: var(--dc-blue) !important;
   color: #fff !important;
 }
 
-.search-link:hover,
-.btn-primary:hover,
-.input-group-append .btn:hover {
+.search-link:hover {
   background: var(--dc-blue-dark) !important;
   border-color: var(--dc-blue-dark) !important;
 }
@@ -111,91 +85,32 @@ body {
   background: transparent;
 }
 
-.section {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.section-muted,
-.bg-grey-card {
-  background: var(--dc-surface);
-}
-
-.card,
-.card-teaser,
-.cmp-rating .card-wrapper,
-.cmp-contacts .card {
-  border-radius: 0;
-  box-shadow: 0 10px 24px rgba(23, 50, 77, 0.08);
-}
-
-.card,
-.card-teaser {
-  border-color: var(--dc-border);
-}
-
 .bg-primary {
   background: var(--dc-green) !important;
   color: #fff;
-}
-
-.contact-list .list-item,
-.text-primary,
-.t-primary {
-  color: var(--dc-blue) !important;
-}
-
-.contact-list .list-item:hover {
-  color: var(--dc-blue-dark) !important;
-}
-
-.cmp-rating .card-header,
-.cmp-rating .card-body,
-.cmp-contacts .card-body {
-  background: #fff;
-}
-
-.cmp-rating .title-medium-2-semi-bold,
-.cmp-rating .title-medium-2-bold,
-.title-medium-2-semi-bold,
-.title-medium-2-bold {
-  color: var(--dc-ink) !important;
-}
-
-.rating .rating-star svg,
-.rating .rating-star.active svg,
-.rating input:checked ~ label.rating-star svg {
-  fill: #ffb400;
 }
 
 .evidence-section .section::before {
   background: linear-gradient(90deg, rgba(0, 122, 82, 0.96), rgba(0, 102, 204, 0.92));
 }
 
-.useful-links-section .section {
-  background: #fff;
+.btn-primary,
+.input-group-append .btn {
+  background: var(--dc-blue) !important;
+  border-color: var(--dc-blue) !important;
+  color: #fff !important;
 }
 
-.link-list > li {
-  border-bottom-color: var(--dc-border);
+.btn-primary:hover,
+.input-group-append .btn:hover {
+  background: var(--dc-blue-dark) !important;
+  border-color: var(--dc-blue-dark) !important;
 }
 
-.link-list .list-item,
-.read-more,
-.chip-simple {
-  color: var(--dc-blue);
-}
-
-.chip-simple {
-  border-color: var(--dc-blue);
-}
-
-.chip-simple:hover {
-  background: var(--dc-blue);
-}
-
-.home-carousel-title {
-  color: var(--dc-ink);
+.rating .rating-star svg,
+.rating .rating-star.active svg,
+.rating input:checked ~ label.rating-star svg {
+  fill: #ffb400;
 }
 
 .it-footer {
@@ -239,16 +154,16 @@ body {
   border-top-color: rgba(255, 255, 255, 0.16);
 }
 
-.shadow-contacts {
-  box-shadow: 0 -8px 18px rgba(23, 50, 77, 0.08);
-}
-
 .search-modal {
   background: rgba(23, 50, 77, 0.56);
 }
 
 .search-modal .modal-dialog {
   border-radius: 0;
+}
+
+.shadow-contacts {
+  box-shadow: 0 -8px 18px rgba(23, 50, 77, 0.08);
 }
 
 @media (max-width: 991px) {
