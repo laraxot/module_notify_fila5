@@ -54,41 +54,61 @@ La struttura della pagina locale è DIFFERENTE dalla reference:
 - **Navigation**: Reference ha "Vivi il Comune" dropdown, locale no
 - **Evidence Section**: Reference blu (#0066CC), locale diverso
 
-### ✅ FATTO - Colori Header/Footer
+### ✅ FATTO - Correzioni CSS/JS
+
+**Header/Footer Colors:**
 - Header Slim: #007a52 ✅
 - Header Navbar: #007a52 ✅
 - Footer Main: #009699 ✅
 - Footer Secondary: #17334f ✅
 
+**Evidence Section:**
+- ✅ Gradient overlay verde (era assente)
+- ✅ Background image support
+
+**Hero Section:**
+- ✅ Rimosso gap bianco dopo header
+- ✅ Aggiunto min-vh-lg-50 per altezza minima
+
 ### 🟡 STATO ATTUALE
 
-**JSON Aggiornato** con block Servizi e AMMINISTRAZIONE ma:
-- I blocchi non vengono renderizzati - il sistema CMS non riconosce `services-homepage` e `administration-homepage` come tipi validi
-- Servizi nel menu ma NON nella content section (hero, topics, etc)
+**Correzioni CSS completate:**
+- Header/Footer colors allineati
+- Evidence section gradient fix
+- Hero section spacing fix
 
-### Prossime Azioni
-
-1. **Verificare Block Processor** - Il CMS deve processare i tipi di blocco
-2. **Creare componenti BlockData** per i nuovi tipi se necessario
-3. **Verificare Hero section** - layout diverso da reference
-4. **Verificare Navigation** - menu diversi
-
----
-
-## Piano di Correzione
-
-1. **Aggiungere sezione Servizi** - Card con icone servizi comunali
-2. **Aggiungere sezione AMMINISTRAZIONE** - Menu con servizi comunali
-3. **Modificare layout Hero** - Aggiungere overlay scuro come reference
-4. **Aggiornare JSON** - Aggiungere block mancanti in `tests.homepage.json`
+**Da fare (CSS/JS only):**
+- Allineare layout card (card-teaser-wrapper)
+- Sistemare spacing nelle sezioni
+- Verificare responsive behavior
 
 ---
 
-## Contenuto Reference Mancante nel JSON
+## Piano di Correzione (CSS/JS Only)
 
-Reference ha这些 sezioni che mancano nel JSON locale:
-- `block-servizi` - Card servizi con icone
-- `block-amministrazione` - Menu servizi amministrativi
+### ✅ Completato
+1. ✅ **Header/Footer colors** - Allineati a Bootstrap Italia
+2. ✅ **Evidence Section** - Aggiunto gradient overlay verde
+3. ✅ **Hero Section** - Rimosso gap bianco, aggiunto min-height
+
+### 🔄 In Progress
+4. **Card-teaser-wrapper** - Sistemare layout cards
+
+### 📋 Da Fare (CSS/JS)
+5. **Search bar in Hero** - Aggiungere come reference (se necessario)
+6. **Responsive fixes** - Verificare mobile/tablet
+7. **Spacing fixes** - Uniformare padding/margin
+
+---
+
+## Note Tecniche
+
+- **NO Bootstrap Italia** - Solo Tailwind CSS + Alpine.js
+- **Build commands**: `npm run build && npm run copy`
+- **File modificati**:
+  - `resources/css/components/bootstrap-italia-classes.css`
+  - `resources/views/components/blocks/topics/highlight.blade.php`
+  - `resources/views/components/blocks/hero/homepage.blade.php`
 
 ---
 
