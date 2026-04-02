@@ -541,3 +541,25 @@ footer#footer .footer-bottom {
 .dc-homepage-parity #head-section .cmp-search {
   display: none !important;
 }
+
+/* ========================================
+   LOGO PARITY HOTFIX
+======================================== */
+.it-header-center-wrapper .it-brand-wrapper > a > svg {
+  display: none !important;
+}
+
+.it-header-center-wrapper .it-brand-wrapper > a::before {
+  content: '';
+  display: block;
+  width: 82px;
+  height: 82px;
+  flex: 0 0 82px;
+  background: url('/themes/Sixteen/design-comuni/assets/images/logo-comune.svg') center center / contain no-repeat;
+}
+
+.it-header-center-wrapper .it-brand-wrapper > a {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+}
