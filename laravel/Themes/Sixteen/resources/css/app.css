@@ -17,6 +17,7 @@
    IMPORT STYLE-APPLY (Bootstrap Italia converted to Tailwind)
 ======================================== */
 @import './style-apply.css';
+@import "./container-override.css";
 
 /* ========================================
    IMPORT DESIGN COMUNI COMPONENT CLASSES
@@ -146,19 +147,17 @@ body {
   fill: #ffb400;
 }
 
-.it-footer {
+/* Footer: dark navy matching reference */
+.it-footer,
+footer.it-footer {
   background: #17324D !important;
   color: rgba(255, 255, 255, 0.85) !important;
   padding: 0 !important;
 }
 
-footer.it-footer {
-  background: #17324D !important;
-  color: rgba(255, 255, 255, 0.85) !important;
-}
-
 .it-footer-main {
   background: #17324D !important;
+  padding: 0 !important;
 }
 
 .it-footer-secondary {
@@ -195,6 +194,21 @@ footer.it-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.16);
 }
 
+/* Compact feedback + contacts to match reference height */
+.bg-primary .cmp-rating {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.p-contacts {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.cmp-contacts .card-body {
+  padding: 1.5rem !important;
+}
+
 .search-modal {
   background: rgba(23, 50, 77, 0.56);
 }
@@ -205,6 +219,45 @@ footer.it-footer {
 
 .shadow-contacts {
   box-shadow: 0 -8px 18px rgba(23, 50, 77, 0.08);
+}
+
+/* ========================================
+   HERO SECTION - Design Comuni parity
+======================================== */
+#head-section .card {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#head-section .card-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--dc-green) !important;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+/* Read-more / all-news link: uppercase */
+.read-more {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--dc-green) !important;
+}
+
+.read-more svg { fill: var(--dc-green); }
+
+/* Government body cards: VAI ALLA PAGINA uppercase */
+.government-card .read-more,
+.card.border .read-more {
+  text-transform: uppercase;
+}
+
+/* Government body card: category label */
+.category-top .title-xsmall-semi-bold {
+  text-transform: uppercase;
+  color: var(--dc-muted) !important;
 }
 
 @media (max-width: 991px) {
@@ -224,4 +277,30 @@ footer.it-footer {
   .menu-wrapper {
     padding: 1.25rem;
   }
+}
+
+footer#footer,
+footer#footer .it-footer-main,
+footer#footer .it-footer-secondary {
+  background: var(--dc-footer) !important;
+}
+
+footer#footer .it-footer-secondary {
+  background: var(--dc-footer-dark) !important;
+}
+
+footer#footer .container,
+footer#footer .row,
+footer#footer .footer-items-wrapper {
+  background: transparent !important;
+}
+
+footer#footer .it-brand-wrapper {
+  align-items: center;
+}
+
+footer#footer .icon,
+footer#footer svg {
+  color: #fff !important;
+  fill: currentColor;
 }
