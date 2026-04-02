@@ -9,9 +9,11 @@
     
         <x-section slug="header" />
 
-        <main>
+        <main id="main-container">
             {{ $slot }}
         </main>
+
+        <x-sections.search-modal />
 
         <x-section slug="footer" tpl="full" />
     
