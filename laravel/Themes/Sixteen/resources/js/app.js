@@ -6,23 +6,21 @@
  */
 
 import Alpine from 'alpinejs';
+import { dropdownToggle } from './components/dropdown';
+import { modal } from './components/modal';
+import { mobileMenu } from './components/mobile-menu';
+import { governanceCarousel } from './components/carousel';
 import './components/bootstrap-italia.js';
 
 window.Alpine = Alpine;
 
-Alpine.data('modal', () => ({
-    open: false,
-    toggle() {
-        this.open = !this.open;
-    },
-    show() {
-        this.open = true;
-    },
-    hide() {
-        this.open = false;
-    },
-}));
+// Register Alpine components for direct usage
+Alpine.data('dropdownToggle', dropdownToggle);
+Alpine.data('modal', modal);
+Alpine.data('mobileMenu', mobileMenu);
+Alpine.data('governanceCarousel', governanceCarousel);
 
+// Fallback Alpine data for backward compatibility
 Alpine.data('dropdown', () => ({
     open: false,
     toggle() {

@@ -179,11 +179,11 @@
      ============================================================ */
   
   .btn {
-    @apply inline-block px-4 py-2 font-medium rounded-lg transition-colors;
+    @apply inline-block px-6 py-3 font-semibold text-base transition-colors rounded-none;
   }
   
   .btn-primary {
-    @apply bg-blue-600 text-white hover:bg-blue-700;
+    @apply bg-[#007A52] text-white hover:bg-[#005c43];
   }
   
   .btn-secondary {
@@ -199,7 +199,27 @@
   }
   
   .btn-outline-primary {
-    @apply border-2 border-blue-600 text-blue-600 bg-transparent hover:bg-blue-50;
+    @apply border-2 border-[#007A52] text-[#007A52] bg-transparent hover:bg-[#007A52] hover:text-white;
+  }
+  
+  .btn-primary {
+    @apply bg-[#007A52] text-white hover:bg-[#005c43];
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-500 text-white hover:bg-gray-600;
+  }
+  
+  .btn-danger {
+    @apply bg-red-600 text-white hover:bg-red-700;
+  }
+  
+  .btn-icon {
+    @apply inline-flex items-center justify-center;
+  }
+  
+  .btn-outline-primary {
+    @apply border-2 border-[#007A52] text-[#007A52] bg-transparent hover:bg-[#007A52] hover:text-white;
   }
   
   .btn-full {
@@ -233,7 +253,7 @@
   
   /* Footer styles */
   .it-footer {
-    @apply bg-gray-100 border-t border-gray-300 py-8;
+    @apply bg-gray-100 border-t border-gray-300;
   }
   
   .footer-items-wrapper {
