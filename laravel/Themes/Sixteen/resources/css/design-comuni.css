@@ -210,15 +210,11 @@
 }
 
 .it-socials .icon {
-  width: 1.125rem;
-  height: 1.125rem;
-  color: #FFFFFF;
-}
-
-.it-socials .icon {
-  width: 1.125rem;
-  height: 1.125rem;
-  color: #FFFFFF;
+  width: 1.5rem; /* 24px */
+  height: 1.5rem;
+  color: #007A52;
+  font-size: 1.125rem; /* 18px */
+  margin-left: 1rem; /* 16px */
 }
 
 .it-search-wrapper {
