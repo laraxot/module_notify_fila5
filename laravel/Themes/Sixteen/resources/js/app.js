@@ -8,6 +8,9 @@
 // Import Alpine.js for interactivity
 import Alpine from 'alpinejs';
 
+// Import Design Comuni components (carousel, hamburger, rating, etc.)
+import './components/bootstrap-italia.js';
+
 // Make Alpine available globally
 window.Alpine = Alpine;
 

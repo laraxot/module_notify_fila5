@@ -14,3 +14,9 @@
    IMPORT STYLE-APPLY (Bootstrap Italia converted to Tailwind)
 ======================================== */
 @import './style-apply.css';
+
+/* ========================================
+   IMPORT DESIGN COMUNI COMPONENT CLASSES
+   Bootstrap Italia classes → Tailwind CSS
+======================================== */
+@import './components/bootstrap-italia-classes.css';
