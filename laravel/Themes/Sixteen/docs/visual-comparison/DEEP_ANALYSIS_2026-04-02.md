@@ -226,13 +226,14 @@
 ### ✅ CORRETTO (2026-04-02)
 1. **Header Social Icons**: ✅ Aggiunti Telegram, WhatsApp, RSS
 2. **Header Secondary Nav**: ✅ Aggiunti Iscrizioni, Estate in città, Polizia locale, Tutti gli argomenti
+3. **Evidence Gradient**: ✅ Gradient corretto (green con teal mix)
 
 ### RISULTATO FINALE
 Tutte le sezioni principali ora corrispondono al reference:
 - Header: ✅ Secondary nav + tutti social icons
-- Hero: ✅ Search box presente
-- Governance: ✅ Cards + calendar
-- Evidence: ✅ Gradient + cards + siti tematici
+- Hero: ✅ Search box presente, layout identico
+- Governance: ✅ Cards + calendar carousel
+- Evidence: ✅ Green gradient (corretto), cards, siti tematici
 - Useful Links: ✅ Search + links
 - Feedback: ✅ Rating stars
 - Contacts: ✅ Links
@@ -243,8 +244,13 @@ Tutte le sezioni principali ora corrispondono al reference:
 ---
 
 ## SCREENSHOT AGGIORNATI
-- `local-full.png` - Homepage locale dopo fix
-- `reference-full.png` - Reference Bootstrap Italia
+Screenshots dettagliati per sezione in `sections/`:
+- `01-header-local.png` / `01-header-reference.png`
+- `02-hero-local.png` / `02-hero-reference.png`
+- `03-governance-local.png` / `03-governance-reference.png`
+- `04-evidence-local.png` / `04-evidence-reference.png` (gradient FIXED)
+- `05-usefullinks-local.png` / `05-usefullinks-reference.png`
+- `06-footer-local.png` / `06-footer-reference.png`
 
 ---
 
