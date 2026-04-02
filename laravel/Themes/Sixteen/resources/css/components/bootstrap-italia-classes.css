@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon-primary {
-  @apply text-[#0066CC];
+  @apply text-[#007a52];
 }
 
 .icon-white {
@@ -426,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
    LINKS - Bootstrap Italia Style
 ======================================== */
 a {
-  @apply text-[#0066CC] no-underline hover:underline transition-colors;
+  @apply text-[#007a52] no-underline hover:underline transition-colors;
 }
 
 .list-item {
@@ -742,15 +742,15 @@ a {
   text-decoration: none;
 }
 .chip-simple {
-  border: 1px solid #0066CC;
+  border: 1px solid #007a52;
   border-radius: 100px;
   padding: 0.25rem 0.75rem;
   font-size: 0.75rem;
-  color: #0066CC;
+  color: #007a52;
   transition: background-color 0.2s, color 0.2s;
 }
 .chip-simple:hover {
-  background-color: #0066CC;
+  background-color: #007a52;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -900,11 +900,11 @@ a {
   transition: color 0.2s;
 }
 .link-list .list-item:hover {
-  color: #0066CC;
+  color: #007a52;
   text-decoration: underline;
 }
 .link-list .list-item.active {
-  color: #0066CC;
+  color: #007a52;
   font-weight: 600;
 }
 .text-button-normal {
@@ -1069,20 +1069,20 @@ a {
   align-items: center;
   gap: 0.75rem;
   padding: 0.875rem 0;
-  color: #0066CC;
+  color: #007a52;
   text-decoration: none;
   font-size: 0.875rem;
   transition: color 0.2s;
 }
 .contact-list .list-item:hover {
-  color: #0052A3;
+  color: #00402b;
   text-decoration: underline;
 }
 .contact-list .icon {
   width: 1.25rem;
   height: 1.25rem;
   flex-shrink: 0;
-  color: #0066CC;
+  color: #007a52;
 }
 
 /* ========================================
@@ -1132,6 +1132,28 @@ a {
 .it-single-slide-wrapper {
   height: 100%;
 }
+
+/* Calendar slide links - green like Design Comuni reference */
+.splide__slide a {
+  color: #007a52;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.splide__slide a:hover {
+  color: #00402b;
+}
+
+/* Evidence section - topic/argomenti links */
+.evidence-section .list-item,
+.evidence-section a.list-item {
+  color: #007a52;
+  text-decoration: none;
+}
+.evidence-section .list-item:hover {
+  color: #00402b;
+  text-decoration: underline;
+}
+
 .splide__arrow {
   position: absolute;
   top: 50%;
