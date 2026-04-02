@@ -5,9 +5,6 @@
 @import 'tailwindcss';
 
 /* Set DaisyUI theme */
-html {
-  data-theme: bootstrap_italia;
-}
 @import '../../vendor/filament/support/resources/css/index.css';
 @import '../../vendor/filament/actions/resources/css/index.css';
 @import '../../vendor/filament/forms/resources/css/index.css';
@@ -70,15 +67,17 @@ html, body {
   --bs-gray-900: #191919;
 }
 
-/* Header styling - Bootstrap Italia style with @apply */
+/* Header styling - VERIFIED from reference 2026-04-02 */
 .it-header-wrapper {
   background-color: var(--bs-primary);
-  @apply text-white relative;
+  @apply relative;
+  color: #191919;
 }
 
 .it-header-slim-wrapper {
   background-color: var(--bs-primary-dark);
-  @apply py-2 text-sm;
+  @apply py-0 text-base;
+  color: #191919;
 }
 
 .it-header-slim-wrapper-content {
@@ -86,7 +85,8 @@ html, body {
 }
 
 .it-header-slim-wrapper a {
-  @apply text-white no-underline text-sm;
+  @apply no-underline text-base;
+  color: #191919;
 }
 
 .it-header-slim-right-zone {
@@ -99,11 +99,16 @@ html, body {
 }
 
 .nav-link.dropdown-toggle {
-  @apply bg-transparent border-0 text-white flex items-center gap-1 px-2 py-1 text-sm cursor-pointer;
+  @apply bg-transparent border-0 flex items-center gap-1 px-2 py-1 text-base cursor-pointer;
+  color: #191919;
 }
 
 .nav-link.dropdown-toggle:hover {
-  @apply text-white/80;
+  @apply opacity-80;
+}
+
+.nav-link.dropdown-toggle:hover {
+  @apply opacity-80;
 }
 
 .dropdown-menu {
@@ -275,7 +280,8 @@ html, body {
 }
 
 .it-brand-wrapper a {
-  @apply flex items-center gap-3 no-underline text-white;
+  @apply flex items-center gap-3 no-underline;
+  color: #191919;
 }
 
 .it-brand-text {
@@ -287,11 +293,18 @@ html, body {
 }
 
 .it-brand-title {
-  @apply text-2xl font-semibold text-white mb-0;
+  @apply text-2xl font-semibold mb-0;
+  color: #191919;
 }
 
 .it-brand-tagline {
-  @apply text-sm text-white/90 mb-0;
+  @apply text-sm mb-0;
+  color: #191919;
+}
+
+.it-brand-tagline {
+  @apply text-sm mb-0;
+  color: #191919;
 }
 
 .it-right-zone {
@@ -303,7 +316,8 @@ html, body {
 }
 
 .it-socials span {
-  @apply text-sm text-white mr-3 font-normal;
+  @apply text-sm mr-3 font-normal;
+  color: #191919;
 }
 
 .it-socials ul {
@@ -311,7 +325,8 @@ html, body {
 }
 
 .it-socials li a {
-  @apply text-white p-1 inline-flex transition-opacity duration-200;
+  @apply p-1 inline-flex transition-opacity duration-200;
+  color: #191919;
 }
 
 .it-socials li a .icon {
@@ -339,7 +354,8 @@ html, body {
 }
 
 .it-search-wrapper span {
-  @apply text-sm text-white;
+  @apply text-sm;
+  color: #191919;
 }
 
 .search-link {
@@ -364,12 +380,15 @@ html, body {
 
 .it-header-navbar-wrapper {
   background: var(--bs-primary) !important;
-  @apply py-3 border-t-0;
+  @apply py-0 border-t-0;
+  color: #191919;
 }
 
 .it-header-center-wrapper {
   background: var(--bs-primary) !important;
-  @apply py-4 text-white;
+  @apply py-[6px] pb-0;
+  color: #191919;
+}
 }
 
 .it-header-center-content-wrapper {
@@ -395,12 +414,18 @@ html, body {
 }
 
 .navbar-nav .nav-link {
-  @apply text-white font-semibold text-base px-6 py-3 no-underline block transition-colors duration-200;
+  @apply font-semibold text-base px-6 py-3 no-underline block transition-colors duration-200;
+  color: #191919;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #FFFFFF;
-  background-color: rgba(255, 255, 255, 0.12);
+  color: #191919;
+  background-color: rgba(25, 25, 25, 0.12);
+}
+
+.navbar-nav .nav-link:hover {
+  color: #191919;
+  background-color: rgba(25, 25, 25, 0.12);
 }
 
 .navbar-secondary {
@@ -408,25 +433,30 @@ html, body {
 }
 
 .navbar-secondary .nav-link {
-  @apply text-sm text-white font-normal px-6 py-2 opacity-90;
+  @apply text-sm font-normal px-6 py-2 opacity-90;
+  color: #191919;
 }
 
 .navbar-secondary .nav-link:hover {
-  color: var(--bs-primary);
+  color: #191919;
+  opacity: 1;
 }
 
 /* Navigation styling per desktop e mobile */
 .navbar-collapsable .navbar-nav .nav-link {
-  @apply text-white bg-transparent;
+  @apply bg-transparent;
+  color: #191919;
 }
 
 .navbar-collapsable .navbar-secondary .nav-link {
-  @apply text-white bg-transparent opacity-90;
+  @apply bg-transparent opacity-90;
+  color: #191919;
 }
 
 /* Mobile hamburger menu */
 .custom-navbar-toggler {
-  @apply border-0 bg-transparent p-2 text-white block;
+  @apply border-0 bg-transparent p-2 block;
+  color: #191919;
 }
 
 @media (min-width: 992px) {

@@ -1,47 +1,20 @@
-/**
- * Sixteen Theme - Design Comuni Italia
- *
- * Bootstrap Italia styles converted to Tailwind CSS with @apply
- * Based on: https://italia.github.io/design-comuni-pagine-statiche/
- */
-
-/* ========================================
-   TAILWIND CSS 4.x BASE
-======================================== */
 @import "tailwindcss";
 
-/* ========================================
-   IMPORT STYLE-APPLY (Bootstrap Italia converted to Tailwind)
-======================================== */
-@import './style-apply.css';
+@layer base {
+  :root {
+    --color-primary: #0066cc;
+    --color-primary-500: #0066cc;
+    --color-primary-600: #0052a3;
+    --color-danger: #ff3333;
+    --color-danger-500: #ff3333;
+    --color-danger-600: #cc2a2a;
+    --color-warning: #ff9500;
+    --color-warning-500: #ff9500;
+    --color-warning-600: #cc7700;
+    --color-success: #00cc66;
+    --color-success-500: #00cc66;
+    --color-success-600: #009933;
+  }
+}
 
-/* ========================================
-   IMPORT DESIGN COMUNI COMPONENT CLASSES
-   Bootstrap Italia classes → Tailwind CSS
-======================================== */
-@import './components/bootstrap-italia-classes.css';
-
-/* ========================================
-   TAILWIND BOOTSTRAP ITALIA MAPPING
-   Complete @apply mapping of all Bootstrap classes
-   Pure Tailwind implementation (NO Bootstrap Italia CSS)
-======================================== */
 @import './tailwind-bootstrap-mapping.css';
-
-/* ========================================
-    FINAL HOMEPAGE PARITY OVERRIDES
-    Keep this last so it wins over duplicated legacy mappings.
-======================================== */
-@import './overrides/homepage-parity.css';
-
-/* ========================================
-    DESIGN COMUNI - VERIFIED COLORS
-    These overrides MUST come after all legacy imports.
-======================================== */
-@import './design-comuni.css';
-
-/* ========================================
-    DESIGN COMUNI - VERIFIED COLORS
-    These overrides MUST come after all legacy imports.
-======================================== */
-@import './design-comuni.css';
