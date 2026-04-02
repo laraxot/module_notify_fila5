@@ -90,8 +90,18 @@
 
 ## 🔗 Collegamenti
 
+### Tema Sixteen
 - [00-index.md](00-index.md) - Indice documentazione
 - [work-plan.md](work-plan.md) - Piano di lavoro
 - [visual-comparison-analysis-2026-04-02.md](visual-comparison-analysis-2026-04-02.md) - Analisi precedente
+- [screenshots/00-index.md](screenshots/00-index.md) - Indice screenshot
+
+### Modulo Cms
+- [design-comuni-homepage.md](../../../Modules/Cms/docs/design-comuni-homepage.md) - Homepage parity
+
+### Globale
 - [../../../docs/design-comuni/html-match.md](../../../docs/design-comuni/html-match.md) - Regola globale
-- [../../../Modules/Cms/docs/design-comuni-homepage.md](../../../Modules/Cms/docs/design-comuni-homepage.md) - Modulo Cms
+
+### Scripts
+- [bashscripts/design-comuni/capture-homepage-screenshots.sh](../../../bashscripts/design-comuni/capture-homepage-screenshots.sh)
+- [bashscripts/docs/design-comuni-scripts.md](../../../bashscripts/docs/design-comuni-scripts.md)

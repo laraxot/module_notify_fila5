@@ -1,6 +1,7 @@
 /*
  * Homepage parity overrides
- * Limit changes to palette and chrome so we don't disturb proven content layouts.
+ * Colors match reference: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
+ * Reference uses: #007a52 (green), #17334f (dark), #FFFFFF (white)
  */
 
 :root {
@@ -21,94 +22,103 @@ body {
   background: #fff;
 }
 
-.it-header-wrapper {
-  background: #fff;
-  color: var(--dc-ink);
-  box-shadow: none;
-}
+/* ============================================
+   HEADER - Match reference colors exactly
+   Reference: slim=#007a52 (green), center=#007a52, navbar=#007a52
+   ============================================ */
 
-.it-header-slim-wrapper,
-.it-header-navbar-wrapper,
-.navbar,
-.navbar-expand-lg,
-.navbar-collapsable {
+.it-header-slim-wrapper {
   background: var(--dc-green) !important;
 }
 
 .it-header-center-wrapper {
   background: var(--dc-green) !important;
-  color: #fff;
   border-bottom: none;
 }
 
-.it-brand-wrapper a,
-.it-brand-title {
-  color: #fff !important;
-}
-
-.it-brand-tagline,
-.it-search-wrapper span,
-.it-socials > span {
-  color: #fff !important;
-}
-
-.it-brand-wrapper a,
-.it-brand-title {
-  color: #fff !important;
-}
-
-.it-brand-tagline,
-.it-search-wrapper span,
-.it-socials > span {
-  color: #fff !important;
-}
-
-.search-link {
-  background: transparent !important;
-  color: #fff !important;
-  border-radius: 24px;
-  margin-left: 16px;
-  padding: 0;
-}
-
-.search-link:hover {
-  background: rgba(255, 255, 255, 0.1) !important;
-}
-
-.search-link:hover {
-  background: rgba(255, 255, 255, 0.1) !important;
-}
-
-.navbar-nav .nav-link,
-.navbar-secondary .nav-link,
-.navbar-collapsable .navbar-nav .nav-link,
-.navbar-collapsable .navbar-secondary .nav-link {
-  color: #fff !important;
-}
-
-.navbar-nav .nav-link:hover,
-.navbar-secondary .nav-link:hover {
-  color: #fff !important;
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.custom-navbar-toggler,
-.close-menu {
-  color: #fff;
-}
-
-.close-menu {
-  background: transparent;
-}
-
-.bg-primary {
+.it-header-navbar-wrapper {
   background: var(--dc-green) !important;
-  color: #fff;
 }
+
+/* Brand text in center header should be white */
+.dc-homepage-parity .it-header-center-wrapper .it-brand-title,
+.dc-homepage-parity .it-header-center-wrapper .it-brand-tagline {
+  color: #fff !important;
+}
+
+/* Socials and search text in center header */
+.dc-homepage-parity .it-header-center-wrapper .it-socials > span,
+.dc-homepage-parity .it-header-center-wrapper .it-search-wrapper span {
+  color: #fff !important;
+}
+
+/* Social icons in center header */
+.dc-homepage-parity .it-header-center-wrapper .it-socials a {
+  color: #fff !important;
+}
+
+/* Search button in center header */
+.dc-homepage-parity .it-header-center-wrapper .search-link {
+  background: #fff !important;
+  color: var(--dc-green) !important;
+}
+
+.dc-homepage-parity .it-header-center-wrapper .search-link .icon {
+  color: var(--dc-green) !important;
+}
+
+/* Nav links in navbar */
+.navbar-nav .nav-link,
+.navbar-secondary .nav-link {
+  color: #fff !important;
+}
+
+/* ============================================
+   HEAD SECTION - Match reference
+   Reference: card has no border, no shadow, white bg
+   ============================================ */
+
+.dc-homepage-parity #head-section {
+  margin-bottom: 2.5rem;
+}
+
+.dc-homepage-parity #head-section .card {
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+.dc-homepage-parity #head-section .card-body {
+  padding-right: 3rem;
+}
+
+.dc-homepage-parity #head-section .card-title {
+  color: var(--dc-green) !important;
+  font-size: 2.25rem;
+  line-height: 1.12;
+  font-weight: 700;
+}
+
+.dc-homepage-parity #head-section .img-fluid {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* ============================================
+   EVIDENCE SECTION - Match reference
+   Reference: green gradient overlay
+   ============================================ */
 
 .evidence-section .section::before {
   background: linear-gradient(135deg, rgba(0, 122, 82, 0.97) 0%, rgba(0, 150, 136, 0.95) 50%, rgba(0, 122, 82, 0.97) 100%);
 }
+
+/* ============================================
+   BUTTONS - Match reference
+   Reference: green #007a52
+   ============================================ */
 
 .btn-primary,
 .input-group-append .btn {
@@ -126,17 +136,9 @@ body {
   border-color: var(--dc-green-dark) !important;
 }
 
-.btn-primary:hover,
-.input-group-append .btn:hover {
-  background: var(--dc-green-dark) !important;
-  border-color: var(--dc-green-dark) !important;
-}
-
-.rating .rating-star svg,
-.rating .rating-star.active svg,
-.rating input:checked ~ label.rating-star svg {
-  fill: #ffb400;
-}
+/* ============================================
+   FOOTER - Match reference
+   ============================================ */
 
 .it-footer {
   background: var(--dc-footer);
@@ -179,6 +181,43 @@ body {
   border-top-color: rgba(255, 255, 255, 0.16);
 }
 
+/* Footer EU Logo */
+.dc-homepage-parity .it-footer-small-helper {
+  background: var(--dc-green);
+  text-align: center;
+}
+
+.dc-homepage-parity .it-footer-main .it-brand-wrapper {
+  padding: 1rem 0;
+}
+
+.dc-homepage-parity .it-footer-main .it-brand-wrapper a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.dc-homepage-parity .it-footer-main .it-brand-wrapper .it-brand-title {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* ============================================
+   RATING STARS
+   ============================================ */
+
+.rating .rating-star svg,
+.rating .rating-star.active svg,
+.rating input:checked ~ label.rating-star svg {
+  fill: #ffb400;
+}
+
+/* ============================================
+   SEARCH MODAL
+   ============================================ */
+
 .search-modal {
   background: rgba(23, 50, 77, 0.56);
 }
@@ -187,9 +226,9 @@ body {
   border-radius: 0;
 }
 
-.shadow-contacts {
-  box-shadow: 0 -8px 18px rgba(23, 50, 77, 0.08);
-}
+/* ============================================
+   MOBILE NAV
+   ============================================ */
 
 @media (max-width: 991px) {
   .it-header-center-content-wrapper {
@@ -208,57 +247,4 @@ body {
   .menu-wrapper {
     padding: 1.25rem;
   }
-}
-
-
-.dc-homepage-parity .it-header-center-wrapper {
-  background: var(--dc-green) !important;
-  color: #fff !important;
-  border-bottom: 0 !important;
-}
-
-.dc-homepage-parity .it-brand-title,
-.dc-homepage-parity .it-brand-tagline,
-.dc-homepage-parity .it-search-wrapper span,
-.dc-homepage-parity .it-socials > span {
-  color: #fff !important;
-}
-
-.dc-homepage-parity .it-search-wrapper .search-link {
-  background: #fff !important;
-  border-color: #fff !important;
-  color: var(--dc-green) !important;
-}
-
-.dc-homepage-parity .it-search-wrapper .search-link .icon,
-.dc-homepage-parity .it-header-slim-wrapper .btn-primary .icon {
-  color: var(--dc-green) !important;
-}
-
-.dc-homepage-parity #head-section {
-  margin-bottom: 2.5rem;
-}
-
-.dc-homepage-parity #head-section .card {
-  border: 0 !important;
-  box-shadow: none !important;
-  border-radius: 0 !important;
-  background: transparent !important;
-}
-
-.dc-homepage-parity #head-section .card-body {
-  padding-right: 3rem;
-}
-
-.dc-homepage-parity #head-section .card-title {
-  color: var(--dc-green) !important;
-  font-size: 2.25rem;
-  line-height: 1.12;
-  font-weight: 700;
-}
-
-.dc-homepage-parity #head-section .img-fluid {
-  width: 100%;
-  height: 420px;
-  object-fit: cover;
 }
