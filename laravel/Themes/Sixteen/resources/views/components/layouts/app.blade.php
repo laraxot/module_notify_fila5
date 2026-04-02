@@ -13,7 +13,7 @@
             {{ $slot }}
         </main>
 
-        <x-sections.search-modal />
+        @include('pub_theme::components.sections.search-modal')
 
         <x-section slug="footer" tpl="full" />
     
