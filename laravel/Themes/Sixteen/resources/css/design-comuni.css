@@ -10,15 +10,17 @@
 @import "tailwindcss";
 
 /* ========================================
-   DESIGN COMUNI THEME CONFIGURATION
+    DESIGN COMUNI THEME CONFIGURATION
+    Colors from live reference analysis (2026-04-02)
 ======================================== */
 @theme {
-  /* Official Design Comuni Colors */
-  --color-italia: #0066B3;
-  --color-italia-dark: #003366;
+  /* Official Design Comuni Colors - VERIFIED from reference */
+  --color-italia: #007A52;
+  --color-italia-dark: #00402B;
   --color-italia-darker: #002244;
   --color-white: #FFFFFF;
   --color-black: #000000;
+  --color-text: #191919;
   --color-gray-light: #E5E7EB;
   
   /* Typography */
@@ -87,93 +89,115 @@
 }
 
 /* ========================================
-   HEADER - Design Comuni Style
+    HEADER - Design Comuni Style
+    Colors verified from reference 2026-04-02
 ======================================== */
 
-/* Header Slim - Institutional Blue (#0066B3) */
+/* Header Slim - Dark Green (#00402B) */
 .it-header-slim-wrapper {
-  background-color: #0066B3;
-  color: #FFFFFF;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 0.5rem 0;
-  font-size: 0.875rem;
+  background-color: #00402B;
+  color: #191919;
+  padding: 0;
+  font-size: 1rem;
 }
 
 .it-header-slim-wrapper a,
 .it-header-slim-wrapper .nav-link {
-  color: #FFFFFF;
+  color: #191919;
   transition: color 0.2s;
 }
 
 .it-header-slim-wrapper a:hover,
 .it-header-slim-wrapper .nav-link:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(25, 25, 25, 0.8);
 }
 
-/* Header Center - White Background */
+/* Header Center - Medium Green (#007A52) */
 .it-header-center-wrapper {
-  background-color: #FFFFFF;
-  border-bottom: 1px solid #E5E7EB;
-  padding: 1.5rem 0;
+  background-color: #007A52;
+  color: #191919;
+  border-bottom: none;
+  padding: 6px 0 0;
 }
 
 .it-header-center-wrapper .it-brand-title {
-  color: #000000;
+  color: #191919;
   font-weight: 700;
   font-size: 1.5rem;
 }
 
+.it-header-center-wrapper .it-brand-tagline {
+  color: #191919;
+}
+
 .it-header-center-wrapper a {
-  color: #000000;
+  color: #191919;
   transition: color 0.2s;
 }
 
 .it-header-center-wrapper a:hover {
-  color: #0066B3;
+  color: rgba(25, 25, 25, 0.8);
 }
 
-/* Header Navbar - Dark Blue (#003366) */
+/* Header Navbar - Medium Green (#007A52) */
 .it-header-navbar-wrapper {
-  background-color: #003366;
-  color: #FFFFFF;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 0.75rem 0;
+  background-color: #007A52;
+  color: #191919;
+  border-bottom: none;
+  padding: 0;
 }
 
 .it-header-navbar-wrapper a,
 .it-header-navbar-wrapper .nav-link {
-  color: #FFFFFF;
+  color: #191919;
   transition: color 0.2s;
 }
 
 .it-header-navbar-wrapper a:hover,
 .it-header-navbar-wrapper .nav-link:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(25, 25, 25, 0.8);
 }
 
 /* ========================================
-   FOOTER - Design Comuni Style
+    FOOTER - Design Comuni Style
+    Reference footer has transparent bg - styled by inner sections
 ======================================== */
 
-/* Footer Main - Dark Blue (#003366) */
+/* Footer Main - Transparent (inner sections have their own colors) */
 .it-footer {
-  background-color: #003366;
-  color: #FFFFFF;
-  padding: 3rem 0;
+  background-color: transparent;
+  color: #191919;
+  padding: 0;
 }
 
 .it-footer a,
 .it-footer .footer-heading-title,
 .it-footer .footer-info {
-  color: #FFFFFF;
+  color: #191919;
   transition: color 0.2s;
 }
 
 .it-footer a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(25, 25, 25, 0.8);
 }
 
-/* Footer Secondary - Darker Blue (#002244) */
+/* Footer Secondary - Darker Green */
+.it-footer-secondary {
+  background-color: #002244;
+  color: #FFFFFF;
+  padding: 1.5rem 0;
+}
+
+.it-footer-secondary a,
+.it-footer-secondary p {
+  color: #FFFFFF;
+}
+
+.it-footer a:hover {
+  color: rgba(25, 25, 25, 0.8);
+}
+
+/* Footer Secondary - Darker Green */
 .it-footer-secondary {
   background-color: #002244;
   color: #FFFFFF;
@@ -231,7 +255,7 @@
 }
 
 .card-teaser:hover {
-  background-color: #0066B3;
+  background-color: #007A52;
 }
 
 .card-teaser .card-title a {
@@ -261,23 +285,32 @@
 }
 
 .btn-primary {
-  background-color: #0066B3;
+  background-color: #007A52;
   color: #FFFFFF;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #003366;
+  background-color: #00402B;
+}
+
+.btn-primary:hover {
+  background-color: #00402B;
 }
 
 .btn-outline-primary {
   background-color: transparent;
-  color: #0066B3;
-  border: 2px solid #0066B3;
+  color: #007A52;
+  border: 2px solid #007A52;
 }
 
 .btn-outline-primary:hover {
-  background-color: #0066B3;
+  background-color: #007A52;
+  color: #FFFFFF;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007A52;
   color: #FFFFFF;
 }
 
@@ -370,7 +403,7 @@
 }
 
 .icon-primary {
-  color: #0066B3;
+  color: #007A52;
 }
 
 .icon-white {
@@ -392,11 +425,11 @@
 
 .chip-simple {
   background-color: transparent;
-  color: #0066B3;
+  color: #007A52;
 }
 
 .chip-simple:hover {
-  background-color: #0066B3;
+  background-color: #007A52;
   color: #FFFFFF;
 }
 
@@ -405,24 +438,32 @@
 }
 
 /* ========================================
-   LINKS - Design Comuni Style
+    FOOTER - Design Comuni Style
+    Reference footer has transparent bg - styled by inner sections
 ======================================== */
 
-.text-decoration-none {
-  text-decoration: none !important;
+/* Footer Main - Transparent (inner sections have their own colors) */
+.it-footer {
+  background-color: transparent;
+  color: #191919;
+  padding: 0;
 }
 
 .read-more {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: #0066B3;
+  color: #007A52;
   transition: color 0.2s;
   text-decoration: none;
 }
 
 .read-more:hover {
-  color: #003366;
+  color: #00402B;
+}
+
+.read-more:hover {
+  color: #00402B;
 }
 
 /* ========================================
@@ -513,7 +554,7 @@
 }
 
 /* ========================================
-   SECTIONS - Design Comuni Style
+    SECTIONS - Design Comuni Style
 ======================================== */
 
 #head-section {
@@ -521,7 +562,7 @@
 }
 
 .contact-section .quick-link {
-  color: #0066B3;
+  color: #007A52;
   text-decoration: underline;
   display: inline-flex;
   align-items: center;
@@ -530,5 +571,9 @@
 }
 
 .contact-section .quick-link:hover {
-  color: #003366;
+  color: #00402B;
+}
+
+.contact-section .quick-link:hover {
+  color: #00402B;
 }

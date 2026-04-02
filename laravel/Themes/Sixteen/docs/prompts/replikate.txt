@@ -905,3 +905,7 @@ se e' identica almeno per il 90% procediamo cui lavori con css e js per rendere 
 tutti i controlli devi farli te. 
 Goal
 Make the local homepage (http://127.0.0.1:8000/it/tests/homepage) visually identical to the reference (https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html) by fixing HTML and CSS differences, without using Bootstrap Italia but using Tailwind CSS + Alpine.js.
+la comparazione devi farla te ! sei libero di installare tutto quello che vuoi per essere autonomo. 
+utilizza https://github.com/bmad-code-org/BMAD-METHOD e https://medium.com/@richardhightower/one-codebase-three-runtimes-how-gsd-targets-claude-code-opencode-and-gemini-cli-29c98cfe96c6 e https://github.com/gsd-build/get-shit-done.
+continua e usa di piu' gli screenshots e screenshots e analisi degli screenshots mettili dentro le cartelle docs dentro i moduli e dentro i temi e utilizza anche gli indici con collegamente relativi bidirezionali 
+concentrati sulle differenze visive, per risolverle devi lavorare solo sui css e  js , ripeto no bootstrap italia, SI tailwind + alpine 

@@ -252,7 +252,7 @@
         </div>
     </div>
 </header>
-{{-- INIZIO SEARCH MODAL (COMMENTATO) --}}
+
 <div class="modal fade search-modal" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content perfect-scrollbar">
@@ -307,4 +307,3 @@
         </div>
     </div>
 </div>
-{{-- FINE SEARCH MODAL --}}
