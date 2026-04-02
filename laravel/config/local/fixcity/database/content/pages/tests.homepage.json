@@ -252,10 +252,43 @@
         }
       },
       {
+        "id": "block-servizi",
+        "type": "services-homepage",
+        "weight": 65,
+        "active": true,
+        "data": {
+          "view": "pub_theme::components.blocks.services.homepage",
+          "title": "Servizi",
+          "services": [
+            { "icon": "it-agenda", "title": "Servizi per la persona", "description": "Anagrafe, stato civile, elettorale", "url": "#" },
+            { "icon": "it-institute", "title": "Istruzione", "description": "Scuole, asili, servizi educativi", "url": "#" },
+            { "icon": "it-laptop", "title": "Servizi digitali", "description": "Sportello online, PEC, firma digitale", "url": "#" },
+            { "icon": "it-euro", "title": "Tributi e pagamenti", "description": "IMU, TARI, Tosap e pagamenti", "url": "#" },
+            { "icon": "it-building", "title": "Urbanistica", "description": "Permessi, concessioni, edilizia", "url": "#" },
+            { "icon": "it-environment", "title": "Ambiente", "description": "Rifiuti, verde, animali domestici", "url": "#" }
+          ]
+        }
+      },
+      {
+        "id": "block-amministrazione",
+        "type": "administration-homepage",
+        "weight": 75,
+        "active": true,
+        "data": {
+          "view": "pub_theme::components.blocks.administration.homepage",
+          "title": "AMMINISTRAZIONE",
+          "items": [
+            { "title": "Organi di governo", "description": "Sindaco, Giunta, Consiglio", "url": "#" },
+            { "title": "Aree amministrative", "description": "Strutture organizzative e uffici", "url": "#" },
+            { "title": "Enti e fondazioni", "description": "Società partecipate e fondazioni", "url": "#" }
+          ]
+        }
+      },
+      {
         "id": "block-final-search",
         "type": "search-final",
         "weight": 70,
-        "active": true,
+        "active": false,
         "data": {
           "view": "pub_theme::components.blocks.search.final",
           "title": "Cerca",
