@@ -75,12 +75,13 @@ html, body {
 
 .it-header-slim-wrapper {
   background-color: var(--bs-primary-dark);
-  @apply py-0 text-base;
+  @apply py-0 text-base flex;
   color: #191919;
 }
 
 .it-header-slim-wrapper-content {
   @apply flex justify-between items-center;
+  padding: 0 18px;
 }
 
 .it-header-slim-wrapper a {
@@ -293,17 +294,37 @@ html, body {
 
 .it-brand-title {
   @apply text-2xl font-semibold mb-0;
-  color: #191919;
+  color: #FFFFFF;
 }
 
 .it-brand-tagline {
   @apply text-sm mb-0;
-  color: #191919;
+  color: #FFFFFF;
 }
 
 .it-brand-tagline {
   @apply text-sm mb-0;
-  color: #191919;
+  color: #FFFFFF;
+}
+
+.it-brand-tagline {
+  @apply text-sm mb-0;
+  color: #FFFFFF;
+}
+
+.it-brand-tagline {
+  @apply text-sm mb-0;
+  color: #FFFFFF;
+}
+
+.it-brand-tagline {
+  @apply text-sm mb-0;
+  color: #FFFFFF;
+}
+
+.it-brand-tagline {
+  @apply text-sm mb-0;
+  color: #FFFFFF;
 }
 
 .it-right-zone {
@@ -316,7 +337,7 @@ html, body {
 
 .it-socials span {
   @apply text-sm mr-3 font-normal;
-  color: #191919;
+  color: #FFFFFF;
 }
 
 .it-socials ul {
@@ -325,11 +346,19 @@ html, body {
 
 .it-socials li a {
   @apply p-1 inline-flex transition-opacity duration-200;
-  color: #191919;
+  color: #007A52;
 }
 
 .it-socials li a .icon {
-  @apply w-7 h-7;
+  @apply w-6 h-6 text-[#007A52];
+}
+
+.it-socials li a .icon {
+  @apply w-6 h-6 text-[#007A52];
+}
+
+.it-socials li a .icon {
+  @apply w-6 h-6 text-[#007A52];
 }
 
 .it-socials li a:hover {
@@ -354,13 +383,13 @@ html, body {
 
 .it-search-wrapper span {
   @apply text-sm;
-  color: #191919;
+  color: #FFFFFF;
 }
 
 .search-link {
-  background: white;
-  color: var(--bs-primary);
-  @apply p-3 rounded-full border-0 inline-flex items-center justify-center transition-colors duration-200 w-12 h-12;
+  background: transparent;
+  color: #FFFFFF;
+  @apply p-1 rounded-full border-0 inline-flex items-center justify-center transition-colors duration-200 ml-4;
 }
 
 .search-link .icon {
@@ -368,25 +397,25 @@ html, body {
 }
 
 .search-link:hover {
-  @apply bg-gray-100;
+  @apply bg-white/10;
 }
 
-/* Navigation - Bootstrap Italia style with @apply */
+/* Navigation - Design Comuni green */
 .it-nav-wrapper {
-  background: var(--bs-primary) !important;
+  background: #007A52 !important;
   box-shadow: none;
 }
 
 .it-header-navbar-wrapper {
-  background: var(--bs-primary) !important;
+  background: #007A52 !important;
   @apply py-0 border-t-0;
-  color: #191919;
+  color: #FFFFFF;
 }
 
 .it-header-center-wrapper {
-    background: var(--bs-primary) !important;
+    background: #007A52 !important;
     @apply py-[6px] pb-0;
-    color: #191919;
+    color: #FFFFFF;
 }
 
 .it-header-center-content-wrapper {
@@ -396,11 +425,11 @@ html, body {
 /* Navbar */
 .navbar {
   @apply p-0;
-  background: var(--bs-primary) !important;
+  background: #007A52 !important;
 }
 
 .navbar-expand-lg {
-  background: var(--bs-primary) !important;
+  background: #007A52 !important;
 }
 
 .navbar-nav {
@@ -412,18 +441,13 @@ html, body {
 }
 
 .navbar-nav .nav-link {
-  @apply font-semibold text-base px-6 py-3 no-underline block transition-colors duration-200;
-  color: #191919;
+  @apply font-semibold text-lg px-6 py-3 no-underline block transition-colors duration-200;
+  color: #FFFFFF;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #191919;
-  background-color: rgba(25, 25, 25, 0.12);
-}
-
-.navbar-nav .nav-link:hover {
-  color: #191919;
-  background-color: rgba(25, 25, 25, 0.12);
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
 .navbar-secondary {
@@ -432,18 +456,18 @@ html, body {
 
 .navbar-secondary .nav-link {
   @apply text-sm font-normal px-6 py-2 opacity-90;
-  color: #191919;
+  color: #FFFFFF;
 }
 
 .navbar-secondary .nav-link:hover {
-  color: #191919;
+  color: #FFFFFF;
   opacity: 1;
 }
 
 /* Navigation styling per desktop e mobile */
 .navbar-collapsable .navbar-nav .nav-link {
   @apply bg-transparent;
-  color: #191919;
+  color: #FFFFFF;
 }
 
 .navbar-collapsable .navbar-secondary .nav-link {

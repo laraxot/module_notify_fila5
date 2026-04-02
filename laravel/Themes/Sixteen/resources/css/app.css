@@ -57,33 +57,108 @@ body {
 /* Header Slim - Dark Green #00402B */
 .it-header-slim-wrapper {
   background: var(--dc-green-dark) !important;
-  color: var(--dc-ink) !important;
-  padding: 0 !important;
+  display: flex !important;
 }
 
-/* Header Navbar - Medium Green #007A52 */
-.it-header-navbar-wrapper {
-  background: var(--dc-green) !important;
-  color: var(--dc-ink) !important;
-  padding: 0 !important;
+.it-header-slim-wrapper-content {
+  padding: 0 18px !important;
+  gap: 0 !important;
+}
+
+/* Navbar brand in slim wrapper - reference: 14px, 400, 12px padding, 21px line-height */
+.navbar-brand {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  padding: 12px 0 !important;
+  line-height: 21px !important;
+  color: #fff !important;
+}
+
+.it-header-slim-wrapper-content {
+  padding: 0 18px !important;
+  gap: 0 !important;
+}
+
+/* Navbar brand in slim wrapper - reference: 14px, 400, 12px padding, 21px line-height */
+.navbar-brand {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  padding: 12px 0 !important;
+  line-height: 21px !important;
+  color: #fff !important;
 }
 
 .it-header-center-wrapper {
   background: var(--dc-green) !important;
-  color: var(--dc-ink) !important;
+  color: #fff !important;
   padding: 6px 0 0 !important;
   border-bottom: none !important;
 }
 
+.it-brand-wrapper {
+  display: block !important;
+  gap: 0 !important;
+}
+
 .it-brand-wrapper a,
-.it-brand-title,
+.it-brand-title {
+  color: #fff !important;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  line-height: 30.8px !important;
+}
+
 .it-brand-tagline {
-  color: var(--dc-ink) !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  margin: 0 !important;
 }
 
 .it-search-wrapper span,
 .it-socials > span {
-  color: var(--dc-ink) !important;
+  color: #fff !important;
+  font-size: 14px !important;
+}
+
+.it-socials {
+  color: #fff !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  gap: 0 !important;
+}
+
+.it-brand-wrapper {
+  display: block !important;
+  gap: 0 !important;
+}
+
+.it-brand-wrapper a,
+.it-brand-title {
+  color: #fff !important;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  line-height: 30.8px !important;
+}
+
+.it-brand-tagline {
+  color: #fff !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  margin: 0 !important;
+}
+
+.it-search-wrapper span,
+.it-socials > span {
+  color: #fff !important;
+  font-size: 14px !important;
+}
+
+.it-socials {
+  color: #fff !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  gap: 0 !important;
 }
 
 .search-link {
@@ -97,26 +172,69 @@ body {
   border-color: #f0f0f0 !important;
 }
 
-.navbar-nav .nav-link,
-.navbar-secondary .nav-link,
-.navbar-collapsable .navbar-nav .nav-link,
-.navbar-collapsable .navbar-secondary .nav-link {
-  color: var(--dc-ink) !important;
+/* ---- Nav Wrapper ---- */
+.it-nav-wrapper {
+  background: transparent !important;
+}
+
+/* Navbar */
+.it-header-navbar-wrapper {
+  background: var(--dc-green) !important;
+}
+
+.navbar-nav {
+  font-size: 18px !important;
+  line-height: normal !important;
+  gap: 0 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-size: 18px !important;
+  line-height: normal !important;
+  display: flex !important;
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-secondary .nav-link:hover {
-  color: var(--dc-ink) !important;
-  background: rgba(25, 25, 25, 0.08);
+  color: #fff !important;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.navbar-secondary .nav-link,
+.navbar-collapsable .navbar-nav .nav-link,
+.navbar-collapsable .navbar-secondary .nav-link {
+  color: #fff !important;
 }
 
 .custom-navbar-toggler,
 .close-menu {
-  color: var(--dc-ink);
+  color: #fff;
 }
 
 .close-menu {
   background: transparent;
+}
+
+/* ---- Container / Grid ---- */
+.container {
+  padding: 0 12px !important;
+  margin: 0 60px !important;
+}
+
+.row {
+  margin: 0 -12px !important;
+}
+
+/* ---- Evidence Cards ---- */
+/* ---- Evidence Cards ---- */
+.evidence-section .section::before {
+  background: linear-gradient(90deg, rgba(0, 122, 82, 0.96), rgba(0, 102, 204, 0.92));
+}
+
+.evidence-section .card {
+  padding: 16px 24px !important;
+  margin: 16px 0 !important;
 }
 
 .bg-primary {
@@ -124,8 +242,14 @@ body {
   color: #fff;
 }
 
-.evidence-section .section::before {
-  background: linear-gradient(90deg, rgba(0, 122, 82, 0.96), rgba(0, 102, 204, 0.92));
+.evidence-section .card {
+  padding: 16px 24px !important;
+  margin: 16px 0 !important;
+}
+
+.bg-primary {
+  background: var(--dc-green) !important;
+  color: #fff;
 }
 
 .btn-primary,
@@ -139,6 +263,26 @@ body {
 .input-group-append .btn:hover {
   background: var(--dc-green-dark) !important;
   border-color: var(--dc-green-dark) !important;
+}
+
+/* ---- Rating ---- */
+.cmp-rating {
+  color: var(--dc-ink) !important;
+}
+
+.cmp-rating .card {
+  color: var(--dc-ink) !important;
+  padding: 24px !important;
+}
+
+/* ---- Rating ---- */
+.cmp-rating {
+  color: var(--dc-ink) !important;
+}
+
+.cmp-rating .card {
+  color: var(--dc-ink) !important;
+  padding: 24px !important;
 }
 
 .rating .rating-star svg,
