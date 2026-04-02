@@ -5,6 +5,9 @@
  * Based on: https://italia.github.io/design-comuni-pagine-statiche/
  */
 
+/* Google Fonts - MUST be first @import */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 /* ========================================
    TAILWIND CSS 4.x BASE
 ======================================== */
@@ -23,16 +26,17 @@
 
 /* ========================================
    FINAL HOMEPAGE PARITY OVERRIDES
-   Limit changes to palette and chrome so content layout keeps working.
+   Colors VERIFIED from reference 2026-04-02
 ======================================== */
 :root {
-  --dc-green: #007a52;
-  --dc-green-dark: #005c40;
+  /* Reference colors from computed styles */
+  --dc-green: #007a52;       /* rgb(0, 122, 82) - header center/nav */
+  --dc-green-dark: #00402b;  /* rgb(0, 64, 43) - header slim */
   --dc-blue: #0066cc;
   --dc-blue-dark: #004b9a;
-  --dc-ink: #17324d;
+  --dc-ink: #191919;         /* rgb(25, 25, 25) - text color */
   --dc-muted: #5c6f82;
-  --dc-footer: #24323f;
+  --dc-footer: transparent;  /* Reference footer has no bg */
   --dc-footer-dark: #1b2733;
   --dc-border: #d9e1e8;
 }
@@ -44,63 +48,70 @@ body {
 }
 
 .it-header-wrapper {
-  background: #fff;
+  background: transparent;
   color: var(--dc-ink);
   box-shadow: none;
 }
 
-.it-header-slim-wrapper,
-.it-header-navbar-wrapper,
-.navbar,
-.navbar-expand-lg,
-.navbar-collapsable {
+/* Header Slim - Dark Green #00402B */
+.it-header-slim-wrapper {
+  background: var(--dc-green-dark) !important;
+  color: var(--dc-ink) !important;
+  padding: 0 !important;
+}
+
+/* Header Navbar - Medium Green #007A52 */
+.it-header-navbar-wrapper {
   background: var(--dc-green) !important;
+  color: var(--dc-ink) !important;
+  padding: 0 !important;
 }
 
 .it-header-center-wrapper {
-  background: #fff !important;
-  color: var(--dc-ink);
-  border-bottom: 1px solid var(--dc-border);
+  background: var(--dc-green) !important;
+  color: var(--dc-ink) !important;
+  padding: 6px 0 0 !important;
+  border-bottom: none !important;
 }
 
 .it-brand-wrapper a,
-.it-brand-title {
+.it-brand-title,
+.it-brand-tagline {
   color: var(--dc-ink) !important;
 }
 
-.it-brand-tagline,
 .it-search-wrapper span,
 .it-socials > span {
-  color: var(--dc-muted) !important;
+  color: var(--dc-ink) !important;
 }
 
 .search-link {
-  background: var(--dc-blue) !important;
-  border-color: var(--dc-blue) !important;
-  color: #fff !important;
+  background: white !important;
+  border-color: white !important;
+  color: var(--dc-green) !important;
 }
 
 .search-link:hover {
-  background: var(--dc-blue-dark) !important;
-  border-color: var(--dc-blue-dark) !important;
+  background: #f0f0f0 !important;
+  border-color: #f0f0f0 !important;
 }
 
 .navbar-nav .nav-link,
 .navbar-secondary .nav-link,
 .navbar-collapsable .navbar-nav .nav-link,
 .navbar-collapsable .navbar-secondary .nav-link {
-  color: #fff !important;
+  color: var(--dc-ink) !important;
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-secondary .nav-link:hover {
-  color: #fff !important;
-  background: rgba(255, 255, 255, 0.08);
+  color: var(--dc-ink) !important;
+  background: rgba(25, 25, 25, 0.08);
 }
 
 .custom-navbar-toggler,
 .close-menu {
-  color: #fff;
+  color: var(--dc-ink);
 }
 
 .close-menu {
@@ -118,15 +129,15 @@ body {
 
 .btn-primary,
 .input-group-append .btn {
-  background: var(--dc-blue) !important;
-  border-color: var(--dc-blue) !important;
+  background: var(--dc-green) !important;
+  border-color: var(--dc-green) !important;
   color: #fff !important;
 }
 
 .btn-primary:hover,
 .input-group-append .btn:hover {
-  background: var(--dc-blue-dark) !important;
-  border-color: var(--dc-blue-dark) !important;
+  background: var(--dc-green-dark) !important;
+  border-color: var(--dc-green-dark) !important;
 }
 
 .rating .rating-star svg,
@@ -136,12 +147,18 @@ body {
 }
 
 .it-footer {
-  background: var(--dc-footer);
-  color: #fff;
+  background: transparent !important;
+  color: var(--dc-ink) !important;
+  padding: 0 !important;
+}
+
+footer.it-footer {
+  background: transparent !important;
+  color: var(--dc-ink) !important;
 }
 
 .it-footer-main {
-  background: var(--dc-footer);
+  background: transparent !important;
 }
 
 .it-footer-secondary {
@@ -156,7 +173,7 @@ body {
 .it-footer p,
 .it-footer li,
 .it-footer span {
-  color: #fff !important;
+  color: var(--dc-ink) !important;
 }
 
 .it-footer .footer-list li a,
