@@ -1,190 +1,221 @@
-# Theme Documentation Index
+# Sixteen Theme - Design Comuni Italia Documentation Index
+
+**Theme**: Sixteen  
+**Framework**: Laravel + Tailwind CSS 4.x + Alpine.js  
+**Status**: 🟢 **VISUAL PARITY: IN PROGRESS** (Phase 2 Complete)
+
+---
 
 ## 📋 Quick Navigation
 
-### Phase 1: HTML Structural Analysis
-- **[STRUCTURAL-VALIDATION-PERFECT.md](./STRUCTURAL-VALIDATION-PERFECT.md)** - HTML DOM structure comparison and element count analysis
+### 🎯 Current Work
+- **[HTML Structure Analysis](./html-structure-analysis/INDEX.md)** - Phase 1-2 summary
+  - HTML structural match: **98.3%** ✅
+  - CSS fixes deployed: **5/5** ✅
+  - Status: Ready for visual verification
 
-### Phase 2: CSS Container Fixes
-- **[VISUAL-DIFF-ANALYSIS.md](./VISUAL-DIFF-ANALYSIS.md)** - Initial visual analysis and differences
-- **[PHASE2-CSS-FIXES-COMPLETE.md](./PHASE2-CSS-FIXES-COMPLETE.md)** - Container max-width fixes (1280px → 720px → 1320px)
+### 📊 Phase Documentation
 
-### Phase 3: Footer Optimization
-- **[FOOTER-FIXES-REPORT.md](./FOOTER-FIXES-REPORT.md)** - Footer CSS fixes: spacing, typography, height reduction
-
-### Phase 4: Layout Alignment (CURRENT)
-- **[LAYOUT-ISSUES-ANALYSIS.md](./LAYOUT-ISSUES-ANALYSIS.md)** - Analysis of left-shift and modal issues
-- **[LAYOUT-CENTERING-FIX.md](./LAYOUT-CENTERING-FIX.md)** - Container centering fix (60px → 300px margin)
-
-### Phase 5: Comprehensive Validation
-- **[FINAL-VISUAL-PARITY-REPORT.md](./FINAL-VISUAL-PARITY-REPORT.md)** - Complete visual parity verification
-
-### Phase 6: Alpine.js Implementation (PLANNED)
-- **[PHASE3-ALPINE-PLAN.md](./PHASE3-ALPINE-PLAN.md)** - Interactive elements implementation plan
+| Phase | Status | Focus | Docs |
+|-------|--------|-------|------|
+| 1-5 | ✅ Done | HTML structure, layout centering | See [html-structure-analysis/](./html-structure-analysis/) |
+| 6 | ⏸️ Blocked | Alpine.js setup | [PHASE6-ALPINE-STATUS.md](./PHASE6-ALPINE-STATUS.md) |
+| 7 | 🟡 Active | CSS visual fixes | [html-structure-analysis/CSS-FIX-IMPLEMENTATION-REPORT.md](./html-structure-analysis/CSS-FIX-IMPLEMENTATION-REPORT.md) |
 
 ---
 
-## 🎯 Current Status
-
-| Phase | Status | Key Achievement |
-|-------|--------|-----------------|
-| ✅ Phase 1 | Complete | HTML structure 99.7% match |
-| ✅ Phase 2 | Complete | Container max-width fixed to 1320px |
-| ✅ Phase 3 | Complete | Footer height: 1141px → 984px |
-| ✅ Phase 4 | Complete | Page centering: 60px → 300px margin |
-| ⏳ Phase 5 | In Progress | Final validation and metrics |
-| ⏹️ Phase 6 | Planned | Alpine.js interactivity |
-
----
-
-## 📊 Key Metrics
-
-### HTML Structure
-- **Links**: 139 (✅ match)
-- **Headings**: 26 (✅ match)
-- **Paragraphs**: 34 (✅ match)
-- **Buttons**: 15 (✅ match)
-- **Images**: 12 (✅ match)
-
-### Layout Centering
-- **Container width**: 1320px (✅ match)
-- **Container margin**: 0px 300px (✅ match)
-- **Container offset-left**: 300px (✅ match)
-
-### Footer Optimization
-- **Before**: 1141px
-- **After**: 984px
-- **Variance**: 3.9% (EXCELLENT)
-
----
-
-## 🔧 CSS Override Files
-
-### container-override.css
-Bootstrap-compatible responsive container with max-widths:
-- 540px (sm), 720px (md), 960px (lg), 1140px (xl), 1320px (2xl)
-- Centering: `margin: 0 auto !important`
-
-### footer-override.css
-Footer-specific fixes:
-- Heading typography (14px, 600 weight, 16px line-height)
-- List item font-size (18px)
-- Logo wrapper spacing and gap
-
-### tailwind-bootstrap-mapping.css
-88+ Bootstrap class mappings to Tailwind @apply directives
-
----
-
-## 🖼️ Screenshots & Comparisons
-
-Located in: `docs/design-comuni/screenshots/homepage-parity/`
-
-| Comparison | Local | Reference | Analysis |
-|-----------|-------|-----------|----------|
-| Footer elements | local-footer-element.png | reference-footer-element.png | Spacing and typography |
-| Above-fold | alignment-local-above-fold.png | alignment-ref-above-fold.png | Centering verification |
-| Full page | alignment-local-full.png | alignment-ref-full.png | Complete layout |
-
----
-
-## 🔗 File Structure
+## 📁 Document Structure
 
 ```
-laravel/Themes/Sixteen/
-├── docs/
-│   ├── INDEX.md (this file)
-│   ├── STRUCTURAL-VALIDATION-PERFECT.md
-│   ├── VISUAL-DIFF-ANALYSIS.md
-│   ├── PHASE2-CSS-FIXES-COMPLETE.md
-│   ├── FOOTER-FIXES-REPORT.md
-│   ├── LAYOUT-ISSUES-ANALYSIS.md
-│   ├── LAYOUT-CENTERING-FIX.md
-│   ├── FINAL-VISUAL-PARITY-REPORT.md
-│   ├── PHASE3-ALPINE-PLAN.md
-│   └── design-comuni/
-│       └── screenshots/
-│           └── homepage-parity/
-│               ├── local-footer-element.png
-│               ├── reference-footer-element.png
-│               ├── alignment-*.png
-│               └── analysis.md
-├── resources/css/
-│   ├── app.css (main, imports overrides)
-│   ├── container-override.css (NEW)
-│   ├── footer-override.css (NEW)
-│   └── tailwind-bootstrap-mapping.css
-├── tailwind.config.js
-└── ...
+docs/
+├── INDEX.md (this file)
+│   └── Master navigation for all theme documentation
+│
+├── html-structure-analysis/
+│   ├── INDEX.md
+│   ├── STRUCTURE-COMPARISON.md (element count analysis)
+│   ├── CSS-FIX-STRATEGY.md (5 fixes planned)
+│   └── CSS-FIX-IMPLEMENTATION-REPORT.md (deployed fixes)
+│
+├── PHASE6-ALPINE-STATUS.md
+│   └── Alpine.js implementation blocker
+│
+└── FINAL-VISUAL-PARITY-REPORT.md
+    └── Previous visual analysis
 ```
 
 ---
 
-## 🚀 Build & Deploy
+## 🎨 Visual Parity Progress
 
+### HTML Structure: ✅ EXCELLENT (98.3%)
+- Element count variance: +1.7% (857 vs 843)
+- Links: Perfect match (139 = 139)
+- Sections, headers, footers: All aligned
+- Status: **APPROVED FOR CSS FIXES**
+
+### CSS Fixes: ✅ DEPLOYED (5/5)
+
+| # | Issue | Solution | File | Status |
+|---|-------|----------|------|--------|
+| 1 | Link colors (white) | #007A52 green | `design-comuni-visual-fix.css` | ✅ Live |
+| 2 | Footer background | #1a3a42 color | `design-comuni-visual-fix.css` | ✅ Live |
+| 3 | Header height (-18px) | padding adjustments | `design-comuni-visual-fix.css` | ✅ Live |
+| 4 | H1 color (-1 RGB) | #191919 exact | `design-comuni-visual-fix.css` | ✅ Live |
+| 5 | Footer height (-19px) | spacing fix | `design-comuni-visual-fix.css` | ✅ Live |
+
+### Alpine.js: ⏸️ BLOCKED
+- Issue: Blade templates not rendering Alpine directives
+- Root cause: CMS view resolution via `pub_theme::` namespace
+- Status: Lower priority, investigating
+
+---
+
+## 🚀 Key Files to Modify
+
+### CSS Files
+- **`resources/css/app.css`** - Main entry point, imports all CSS
+- **`resources/css/design-comuni-visual-fix.css`** - 5 CSS fixes (JUST ADDED)
+- **`resources/css/footer-override.css`** - Footer styling
+- **`resources/css/container-override.css`** - Container/grid layout
+- **`tailwind.config.js`** - Tailwind configuration + Design Comuni tokens
+
+### Blade Templates (reference only)
+- **`resources/views/pages/tests/[slug].blade.php`** - Test page template
+- **`resources/views/components/blocks/header/`** - Header components
+- **`resources/views/components/blocks/footer/`** - Footer components
+
+### Build & Deploy
 ```bash
 cd laravel/Themes/Sixteen
 
-# Development
-npm run dev
-
-# Build for production
+# Build CSS
 npm run build
 
-# Copy to public_html
+# Deploy to public_html
 npm run copy
 
-# Combined
-npm run build && npm run copy
+# Clean old assets
+npm run clean  # if available
 ```
 
 ---
 
-## 📝 Implementation Notes
+## 📊 Current Metrics
 
-### CSS Specificity Strategy
-- All overrides use `!important` flag (necessary due to Bootstrap Italia CDN specificity)
-- CSS rule order matters: later rules override earlier ones even with `!important`
-- Multiple override files consolidated in app.css imports
+| Metric | Value | Status |
+|--------|-------|--------|
+| HTML Match | 98.3% | ✅ Excellent |
+| CSS Fixes | 5/5 deployed | ✅ Complete |
+| Build Time | 1.34s | ✅ Fast |
+| CSS Size | 770 KB | ✅ Acceptable |
+| Visual Parity | ~95% estimated | 🟡 Pending verification |
 
-### Centering Logic
-- Bootstrap container max-width: 1320px (at lg+ breakpoints)
-- At 1920px viewport: (1920 - 1320) / 2 = 300px margin each side
-- `margin: 0 auto` allows browser to calculate automatically
+---
 
-### Responsive Breakpoints
-- sm: 540px
-- md: 720px (default md breakpoint)
-- lg: 960px
-- xl: 1140px
-- 2xl: 1320px
+## 🔧 Technical Stack
+
+- **CSS Framework**: Tailwind CSS 4.x (JIT mode)
+- **Font**: Titillium Web (Google Fonts)
+- **Build Tool**: Vite 7.3.1
+- **Primary Color**: #007A52 (Design Comuni Green)
+- **No Bootstrap Italia CDN**: ✅ Confirmed
+- **Alpine.js**: v3.15.9 (ready, view resolution issue)
 
 ---
 
 ## ✅ Verification Checklist
 
-- [x] HTML structure: 99.7% match
-- [x] Container max-width: 1320px
-- [x] Container centering: 300px margin
-- [x] Footer height: 984px (3.9% variance)
-- [x] Social icons: Matching reference
-- [x] Search modal: Correct behavior
-- [x] Build system: npm run build && npm run copy ✅
-- [ ] Alpine.js interactivity (Phase 6)
-- [ ] Final pixel-perfect comparison
+### HTML Structure
+- [x] Element counts analyzed (857 vs 843)
+- [x] All major tags match (links, headings, sections)
+- [x] Structure variance: +1.7% (acceptable)
+- [x] Approved for CSS fixes
+
+### CSS Fixes
+- [x] 5 fixes identified and prioritized
+- [x] design-comuni-visual-fix.css created
+- [x] Import added to app.css
+- [x] Build successful (1.34s)
+- [x] Deployed to public_html
+- [x] Color values verified (#007A52 present)
+
+### Deployment
+- [x] CSS file in public_html/themes/Sixteen/assets/
+- [x] Manifest.json updated
+- [x] Hash-based cache busting active
+- [x] No build errors
+
+### Next Steps
+- [ ] Manual visual testing (browser)
+- [ ] Screenshot comparison (local vs reference)
+- [ ] Footer verification
+- [ ] Header sizing check
+- [ ] Link color check
+- [ ] Browser cache cleared
 
 ---
 
-## 🔄 Related Documentation
+## 🎯 Next Phase Goals
 
-- **Homepage Configuration**: `laravel/config/local/fixcity/database/content/pages/tests.homepage.json`
-- **Blade Template**: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
-- **Tailwind Config**: `laravel/Themes/Sixteen/tailwind.config.js`
-- **Build Config**: `laravel/Themes/Sixteen/vite.config.js`
+### Immediate (Within 1 hour)
+1. Manual visual verification in browser
+2. Screenshot comparison with reference
+3. Document any remaining visual differences
+4. Fix any edge cases found
+
+### Short Term (Next session)
+1. Alpine.js view resolution investigation
+2. JavaScript functionality testing
+3. Mobile responsiveness check
+4. Cross-browser testing
+
+### Long Term
+1. Complete Alpine.js integration
+2. Additional page templates (list pages)
+3. Advanced interactions
+4. Performance optimization
 
 ---
 
-**Last Updated**: 2024  
-**Status**: Layout centering complete ✅  
-**Next Phase**: Final validation and Alpine.js implementation
+## 📝 Session Notes
+
+**Previous Sessions**: Phases 1-6 completed
+- Fixed Livewire errors
+- Achieved 98.3% HTML match
+- Fixed layout centering
+- Attempted Alpine.js (blocked on view resolution)
+- Created comprehensive documentation
+
+**Current Session**: Phase 7 - CSS Fixes
+- Analyzed 5 visual differences
+- Created design-comuni-visual-fix.css
+- Deployed all 5 fixes
+- Build successful ✅
+- Awaiting visual verification
+
+---
+
+## 🔗 External References
+
+- **Reference Design**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
+- **Local Instance**: http://127.0.0.1:8000/it/tests/homepage
+- **Design Sistema**: https://design.italia.it/
+- **Bootstrap Italia**: https://github.com/italia/bootstrap-italia
+- **Tailwind CSS**: https://tailwindcss.com/
+
+---
+
+## 🤝 Collaboration
+
+This documentation is maintained for multi-agent coordination:
+- **BMAD Method**: Used for deep analysis and reasoning
+- **GSD Workflow**: Used for structured phase execution
+- **Multiple AI Agents**: Coordinate via this documentation
+- **Bidirectional Links**: Enable cross-reference navigation
+
+---
+
+**Last Updated**: 2026-04-02  
+**Status**: 🟢 ACTIVE - Phase 7 (CSS Fixes) Complete, Awaiting Verification
 
