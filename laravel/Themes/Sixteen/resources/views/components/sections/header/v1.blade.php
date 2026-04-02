@@ -51,7 +51,7 @@
                             <div class="it-brand-wrapper">
                                 <a href="homepage.html">
                                     <svg width="82" height="82" class="icon" aria-hidden="true">
-                                        <image xlink:href="/themes/Sixteen/design-comuni/assets/images/logo-comune.svg"/>
+                                        <image xlink:href="/themes/Sixteen/images/logo.svg"/>
                                     </svg>
                                     <div class="it-brand-text">
                                         <div class="it-brand-title">Il mio Comune</div>
