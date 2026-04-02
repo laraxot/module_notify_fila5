@@ -363,10 +363,10 @@
 .card-body { padding: 1.5rem; }
 
 .card-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 0.75rem;
-  color: #191919;
+  font-size: 2rem; /* 32px for hero section */
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #007A52;
   line-height: 1.3;
 }
 
@@ -375,7 +375,7 @@
   text-decoration: none;
 }
 
-.card-title a:hover { color: #0066cc; }
+.card-title a:hover { color: #007A52; }
 
 .card-text {
   color: #4B5563;
