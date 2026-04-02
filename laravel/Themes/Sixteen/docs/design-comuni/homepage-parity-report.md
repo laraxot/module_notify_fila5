@@ -49,3 +49,13 @@ Le differenze visive più evidenti prima del fix erano:
 2. `npm run copy`
 3. screenshot della route locale e del riferimento
 4. confronto finale di header, feedback, footer e modal di ricerca
+
+## Footer Check
+
+Analisi screenshot footer:
+- [footer-analysis.md](./screenshots/homepage-parity/footer-analysis.md)
+- [reference-footer-element.png](./screenshots/homepage-parity/reference-footer-element.png)
+- [local-footer-element.png](./screenshots/homepage-parity/local-footer-element.png)
+
+Esito: struttura footer identica al riferimento; il problema residuo era CSS, corretto portando il background finale di `footer#footer` da trasparente a blu antracite e riallineando testi e separatori.
+
