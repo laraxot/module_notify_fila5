@@ -11,14 +11,198 @@
 @import "tailwindcss";
 
 /* ========================================
-   TAILWIND BOOTSTRAP ITALIA MAPPING
-   Complete @apply mapping of all Bootstrap classes
-   Pure Tailwind implementation (NO Bootstrap Italia CSS)
+   IMPORT STYLE-APPLY (Bootstrap Italia converted to Tailwind)
 ======================================== */
-@import './tailwind-bootstrap-mapping.css';
+@import './style-apply.css';
+
+/* ========================================
+   IMPORT DESIGN COMUNI COMPONENT CLASSES
+   Bootstrap Italia classes → Tailwind CSS
+======================================== */
+@import './components/bootstrap-italia-classes.css';
 
 /* ========================================
    FINAL HOMEPAGE PARITY OVERRIDES
-   Keep this last so it wins over duplicated legacy mappings.
+   Limit changes to palette and chrome so content layout keeps working.
 ======================================== */
-@import './overrides/homepage-parity.css';
+:root {
+  --dc-green: #007a52;
+  --dc-green-dark: #005c40;
+  --dc-blue: #0066cc;
+  --dc-blue-dark: #004b9a;
+  --dc-ink: #17324d;
+  --dc-muted: #5c6f82;
+  --dc-footer: #24323f;
+  --dc-footer-dark: #1b2733;
+  --dc-border: #d9e1e8;
+}
+
+html,
+body {
+  color: var(--dc-ink);
+  background: #fff;
+}
+
+.it-header-wrapper {
+  background: #fff;
+  color: var(--dc-ink);
+  box-shadow: none;
+}
+
+.it-header-slim-wrapper,
+.it-header-navbar-wrapper,
+.navbar,
+.navbar-expand-lg,
+.navbar-collapsable {
+  background: var(--dc-green) !important;
+}
+
+.it-header-center-wrapper {
+  background: #fff !important;
+  color: var(--dc-ink);
+  border-bottom: 1px solid var(--dc-border);
+}
+
+.it-brand-wrapper a,
+.it-brand-title {
+  color: var(--dc-ink) !important;
+}
+
+.it-brand-tagline,
+.it-search-wrapper span,
+.it-socials > span {
+  color: var(--dc-muted) !important;
+}
+
+.search-link {
+  background: var(--dc-blue) !important;
+  border-color: var(--dc-blue) !important;
+  color: #fff !important;
+}
+
+.search-link:hover {
+  background: var(--dc-blue-dark) !important;
+  border-color: var(--dc-blue-dark) !important;
+}
+
+.navbar-nav .nav-link,
+.navbar-secondary .nav-link,
+.navbar-collapsable .navbar-nav .nav-link,
+.navbar-collapsable .navbar-secondary .nav-link {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-secondary .nav-link:hover {
+  color: #fff !important;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.custom-navbar-toggler,
+.close-menu {
+  color: #fff;
+}
+
+.close-menu {
+  background: transparent;
+}
+
+.bg-primary {
+  background: var(--dc-green) !important;
+  color: #fff;
+}
+
+.evidence-section .section::before {
+  background: linear-gradient(90deg, rgba(0, 122, 82, 0.96), rgba(0, 102, 204, 0.92));
+}
+
+.btn-primary,
+.input-group-append .btn {
+  background: var(--dc-blue) !important;
+  border-color: var(--dc-blue) !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover,
+.input-group-append .btn:hover {
+  background: var(--dc-blue-dark) !important;
+  border-color: var(--dc-blue-dark) !important;
+}
+
+.rating .rating-star svg,
+.rating .rating-star.active svg,
+.rating input:checked ~ label.rating-star svg {
+  fill: #ffb400;
+}
+
+.it-footer {
+  background: var(--dc-footer);
+  color: #fff;
+}
+
+.it-footer-main {
+  background: var(--dc-footer);
+}
+
+.it-footer-secondary {
+  background: var(--dc-footer-dark);
+  border-top-color: rgba(255, 255, 255, 0.16);
+}
+
+.it-footer .it-brand-wrapper a,
+.it-footer .it-brand-text,
+.it-footer .footer-heading-title,
+.it-footer a,
+.it-footer p,
+.it-footer li,
+.it-footer span {
+  color: #fff !important;
+}
+
+.it-footer .footer-list li a,
+.it-footer .footer-info,
+.it-footer-secondary a,
+.it-footer-secondary p {
+  color: rgba(255, 255, 255, 0.82) !important;
+  text-decoration: none;
+}
+
+.it-footer .footer-list li a:hover,
+.it-footer-secondary a:hover {
+  color: #fff !important;
+}
+
+.it-footer .footer-bottom {
+  border-top-color: rgba(255, 255, 255, 0.16);
+}
+
+.search-modal {
+  background: rgba(23, 50, 77, 0.56);
+}
+
+.search-modal .modal-dialog {
+  border-radius: 0;
+}
+
+.shadow-contacts {
+  box-shadow: 0 -8px 18px rgba(23, 50, 77, 0.08);
+}
+
+@media (max-width: 991px) {
+  .it-header-center-content-wrapper {
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .it-brand-wrapper a {
+    align-items: flex-start;
+  }
+
+  .navbar-collapsable {
+    background: var(--dc-green) !important;
+  }
+
+  .menu-wrapper {
+    padding: 1.25rem;
+  }
+}
