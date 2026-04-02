@@ -31,3 +31,10 @@
     margin: 0 auto !important;
   }
 }
+
+/* Header/main centering parity with reference viewport gutters */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1176px !important;
+  }
+}
