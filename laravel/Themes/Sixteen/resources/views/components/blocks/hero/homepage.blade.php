@@ -24,10 +24,10 @@
 @endphp
 
 <h1 class="visually-hidden" id="main-container">{{ $title }}</h1>
-<section id="head-section">
+<section id="head-section" class="py-4 py-lg-0">
     <h2 class="visually-hidden">Contenuti in evidenza</h2>
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center min-vh-lg-50">
             <div class="col-lg-6 order-2 order-lg-1">
                 <div class="card mb-5">
                     <div class="card-body pb-5 px-0">
