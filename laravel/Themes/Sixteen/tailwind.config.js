@@ -167,6 +167,24 @@ export default {
                 'agid-lg': '0 4px 8px rgba(0, 0, 0, 0.15)',
                 'agid-xl': '0 8px 16px rgba(0, 0, 0, 0.2)',
             },
+            container: {
+                center: true,
+                padding: {
+                    DEFAULT: '1rem',
+                    sm: '1rem',
+                    md: '1rem',
+                    lg: '1rem',
+                    xl: '1rem',
+                    '2xl': '1rem',
+                },
+                screens: {
+                    sm: '540px',
+                    md: '720px',
+                    lg: '960px',
+                    xl: '1140px',
+                    '2xl': '1320px',
+                },
+            },
         },
     },
     plugins: [
