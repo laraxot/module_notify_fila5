@@ -18,6 +18,7 @@
 ======================================== */
 @import './style-apply.css';
 @import "./container-override.css";
+@import "./footer-override.css";
 
 /* ========================================
    IMPORT DESIGN COMUNI COMPONENT CLASSES
@@ -447,4 +448,53 @@ footer#footer .icon,
 footer#footer svg {
   color: #fff !important;
   fill: currentColor;
+}
+
+/* ========================================
+   FOOTER PARITY HOTFIX
+   Keep after all footer rules so transparent overrides cannot win.
+======================================== */
+:root {
+  --dc-footer: #24323f;
+}
+
+footer#footer,
+footer#footer .it-footer-main {
+  background: #24323f !important;
+  color: rgba(255, 255, 255, 0.82) !important;
+}
+
+footer#footer .container,
+footer#footer .row,
+footer#footer .footer-items-wrapper {
+  background: transparent !important;
+}
+
+footer#footer .footer-heading-title,
+footer#footer .it-brand-text h2,
+footer#footer .it-brand-wrapper a,
+footer#footer .footer-bottom a,
+footer#footer .footer-list a,
+footer#footer .footer-info,
+footer#footer .social a,
+footer#footer .icon,
+footer#footer svg,
+footer#footer span,
+footer#footer p,
+footer#footer li {
+  color: rgba(255, 255, 255, 0.82) !important;
+  fill: currentColor;
+}
+
+footer#footer .footer-heading-title,
+footer#footer .it-brand-text h2 {
+  color: #fff !important;
+}
+
+footer#footer .footer-heading-title {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+footer#footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.18) !important;
 }
