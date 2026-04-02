@@ -526,3 +526,18 @@ footer#footer .footer-heading-title {
 footer#footer .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.18) !important;
 }
+
+/* ========================================
+   HEADER PARITY HOTFIX
+======================================== */
+.it-header-center-wrapper .it-socials a,
+.it-header-center-wrapper .it-socials .icon,
+.it-header-center-wrapper .it-socials svg,
+.it-header-center-wrapper .it-socials use {
+  color: #fff !important;
+  fill: currentColor !important;
+}
+
+.dc-homepage-parity #head-section .cmp-search {
+  display: none !important;
+}
