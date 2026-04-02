@@ -147,50 +147,52 @@ body {
 }
 
 .it-footer {
-  background: transparent !important;
-  color: var(--dc-ink) !important;
+  background: #17324D !important;
+  color: rgba(255, 255, 255, 0.85) !important;
   padding: 0 !important;
 }
 
 footer.it-footer {
-  background: transparent !important;
-  color: var(--dc-ink) !important;
+  background: #17324D !important;
+  color: rgba(255, 255, 255, 0.85) !important;
 }
 
 .it-footer-main {
-  background: transparent !important;
+  background: #17324D !important;
 }
 
 .it-footer-secondary {
-  background: var(--dc-footer-dark);
+  background: #0d1f2d !important;
   border-top-color: rgba(255, 255, 255, 0.16);
 }
 
 .it-footer .it-brand-wrapper a,
 .it-footer .it-brand-text,
-.it-footer .footer-heading-title,
 .it-footer a,
 .it-footer p,
 .it-footer li,
 .it-footer span {
-  color: var(--dc-ink) !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.it-footer .footer-heading-title {
+  color: #ffffff !important;
+  font-weight: 700;
 }
 
 .it-footer .footer-list li a,
-.it-footer .footer-info,
-.it-footer-secondary a,
-.it-footer-secondary p {
-  color: rgba(255, 255, 255, 0.82) !important;
+.it-footer .footer-info {
+  color: rgba(255, 255, 255, 0.75) !important;
   text-decoration: none;
 }
 
-.it-footer .footer-list li a:hover,
-.it-footer-secondary a:hover {
+.it-footer .footer-list li a:hover {
   color: #fff !important;
+  text-decoration: underline;
 }
 
 .it-footer .footer-bottom {
-  border-top-color: rgba(255, 255, 255, 0.16);
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 .search-modal {
