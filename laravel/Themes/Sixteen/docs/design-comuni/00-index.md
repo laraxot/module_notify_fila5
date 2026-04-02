@@ -315,7 +315,7 @@ Questo progetto coinvolve multipli agenti AI:
 
 | Pagina | HTML | Stili | Blocchi | Docs | Stato |
 |--------|------|-------|---------|------|-------|
-| Homepage | ⏳ | ⏳ | ⏳ | ⏳ | 🔄 |
+| Homepage | ✅ | ✅ | ✅ | ✅ | 🔄 CSS/JS refinement |
 | Argomenti | ⏳ | ⏳ | ⏳ | ⏳ | 🔄 |
 | Appuntamento 06 | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | Amministrazione | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
@@ -325,6 +325,43 @@ Questo progetto coinvolve multipli agenti AI:
 
 ---
 
-**Ultimo Aggiornamento:** 2026-04-01  
-**Versione:** 1.0  
-**Stato:** 🔄 In Progress
+## 📸 Analisi Visiva Homepage (2026-04-02)
+
+### Report Disponibili
+
+| Report | File | Descrizione |
+|--------|------|-------------|
+| Struttura HTML | [html-structure-comparison-2026-04-02.md](html-structure-comparison-2026-04-02.md) | Analisi struttura 53% match |
+| Comparazione Visiva | [visual-comparison-report-2026-04-02.md](visual-comparison-report-2026-04-02.md) | 93.3% classi CSS replicate |
+| Analisi Dettagliata | [visual-comparison-analysis-2026-04-02.md](visual-comparison-analysis-2026-04-02.md) | Analisi per sezione |
+| Piano di Lavoro | [work-plan.md](work-plan.md) | Piano condiviso agenti |
+
+### Screenshots per Sezione
+
+| Sezione | Reference | FixCity | Match |
+|---------|-----------|---------|-------|
+| Header Slim | [ref](screenshots/reference-02-header-slim.png) | [fix](screenshots/fixcity-02-header-slim.png) | ✅ 0.86x |
+| Header Center | [ref](screenshots/reference-03-header-center.png) | [fix](screenshots/fixcity-03-header-center.png) | ⚠️ 0.58x |
+| Header Navbar | [ref](screenshots/reference-04-header-navbar.png) | [fix](screenshots/fixcity-04-header-navbar.png) | ✅ 1.29x |
+| Header Full | [ref](screenshots/reference-05-header-full.png) | [fix](screenshots/fixcity-05-header-full.png) | ✅ 0.86x |
+| Hero Section | [ref](screenshots/reference-06-hero-section.png) | [fix](screenshots/fixcity-06-hero-section.png) | ✅ 1.06x |
+| Calendario | [ref](screenshots/reference-07-calendario.png) | [fix](screenshots/fixcity-07-calendario.png) | ❌ 1.40x |
+| Evidence | [ref](screenshots/reference-08-evidence-section.png) | [fix](screenshots/fixcity-08-evidence-section.png) | ✅ 0.88x |
+| Useful Links | [ref](screenshots/reference-09-useful-links.png) | [fix](screenshots/fixcity-09-useful-links.png) | ✅ 1.14x |
+| Rating | [ref](screenshots/reference-10-rating-section.png) | [fix](screenshots/fixcity-10-rating-section.png) | ❌ 2.14x |
+| Footer | [ref](screenshots/reference-11-footer.png) | [fix](screenshots/fixcity-11-footer.png) | ✅ 1.27x |
+
+### Screenshot Full Page
+
+| Tipo | File |
+|------|------|
+| Reference Desktop | [reference-desktop.png](screenshots/reference-desktop.png) |
+| FixCity Desktop | [fixcity-desktop.png](screenshots/fixcity-desktop.png) |
+| Reference Mobile | [reference-mobile.png](screenshots/reference-mobile.png) |
+| FixCity Mobile | [fixcity-mobile.png](screenshots/fixcity-mobile.png) |
+
+---
+
+**Ultimo Aggiornamento:** 2026-04-02  
+**Versione:** 1.1  
+**Stato:** 🔄 In Progress - CSS/JS refinement
