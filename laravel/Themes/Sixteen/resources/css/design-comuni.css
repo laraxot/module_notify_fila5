@@ -117,9 +117,9 @@
 
 .it-header-wrapper { position: relative; }
 
-/* Header Slim - Institutional Blue */
+/* Header Slim - Dark Green (#00402B) - matches reference */
 .it-header-slim-wrapper {
-  background-color: #0066cc;
+  background-color: #00402B;
   color: #FFFFFF;
   padding: 0.25rem 0;
   font-size: 0.875rem;
@@ -146,10 +146,11 @@
   gap: 1rem;
 }
 
-/* Header Center - White Background */
+/* Header Center - Medium Green (#007A52) - matches reference */
 .it-header-center-wrapper {
-  background-color: #FFFFFF;
-  padding: 1rem 0;
+  background-color: #007A52;
+  padding: 6px 0 0;
+  color: #191919;
 }
 
 .it-header-center-content-wrapper {
@@ -162,18 +163,19 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #191919;
+  color: #FFFFFF;
 }
 
 .it-brand-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #191919;
+  font-size: 1.75rem; /* 28px */
+  font-weight: 600;
+  color: #FFFFFF;
 }
 
 .it-brand-tagline {
-  font-size: 0.875rem;
-  color: #4B5563;
+  font-size: 0.875rem; /* 14px */
+  color: #FFFFFF;
+  margin: 0;
 }
 
 .it-right-zone {
@@ -207,6 +209,18 @@
   align-items: center;
 }
 
+.it-socials .icon {
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #FFFFFF;
+}
+
+.it-socials .icon {
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #FFFFFF;
+}
+
 .it-search-wrapper {
   display: flex;
   align-items: center;
@@ -223,18 +237,19 @@
   border: none;
   color: #FFFFFF;
   cursor: pointer;
-  padding: 0.25rem;
-  border-radius: 50%;
+  padding: 4px;
+  border-radius: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 16px;
 }
 
 .search-link:hover { background-color: rgba(255, 255, 255, 0.1); }
 
-/* Header Navbar - Dark Blue */
+/* Header Navbar - Medium Green (#007A52) - matches reference */
 .it-header-navbar-wrapper {
-  background-color: #003366;
+  background-color: #007A52;
   color: #FFFFFF;
 }
 
@@ -256,11 +271,12 @@
 
 .nav-link {
   display: block;
-  padding: 0.75rem 1rem;
+  padding: 12px 16px;
   color: #FFFFFF;
   text-decoration: none;
   transition: background-color 0.2s;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.125rem; /* 18px */
 }
 
 .nav-link:hover { background-color: rgba(255, 255, 255, 0.1); }
@@ -367,9 +383,18 @@
 }
 
 .card-bg { background-color: #FFFFFF; }
-.card-bg-blue { background-color: #0066cc; }
-.card-bg-warning { background-color: #ffb81c; }
-.card-bg-dark { background-color: #191919; }
+.card-bg-blue { background-color: #0066cc; color: #FFFFFF; }
+.card-bg-warning { background-color: #ffb81c; color: #191919; }
+.card-bg-dark { background-color: #191919; color: #FFFFFF; }
+
+.card-bg-blue .card-title,
+.card-bg-blue .card-text { color: #FFFFFF; }
+
+.card-bg-warning .card-title,
+.card-bg-warning .card-text { color: #191919; }
+
+.card-bg-dark .card-title,
+.card-bg-dark .card-text { color: #FFFFFF; }
 
 /* Card Teaser */
 .card-teaser {
@@ -490,24 +515,37 @@
 }
 
 .btn-primary {
-  background-color: #0066cc;
+  background-color: #007A52;
   color: #FFFFFF;
-  border-color: #0066cc;
+  border-color: #007A52;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0;
 }
 
 .btn-primary:hover {
-  background-color: #0059b3;
-  border-color: #0059b3;
+  background-color: #005c43;
+  border-color: #005c43;
+}
+
+.btn-primary:hover {
+  background-color: #005c43;
+  border-color: #005c43;
 }
 
 .btn-outline-primary {
   background-color: transparent;
-  color: #0066cc;
-  border-color: #0066cc;
+  color: #007A52;
+  border-color: #007A52;
 }
 
 .btn-outline-primary:hover {
-  background-color: #0066cc;
+  background-color: #007A52;
+  color: #FFFFFF;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007A52;
   color: #FFFFFF;
 }
 
@@ -579,7 +617,7 @@
 .icon-sm { width: 1.25rem; height: 1.25rem; }
 .icon-md { width: 1.5rem; height: 1.5rem; }
 .icon-xs { width: 1rem; height: 1rem; }
-.icon-primary { color: #0066cc; }
+.icon-primary { color: #007A52; }
 .icon-white { color: #FFFFFF; }
 .align-top { vertical-align: top; }
 
@@ -776,11 +814,15 @@
 .row-title { margin-bottom: 1rem; }
 .row-title h2 { margin: 0; }
 
-/* Evidence Section */
+/* Evidence Section - Blue background matching reference */
 .evidence-section {
   position: relative;
   background-color: #0066cc;
   color: #FFFFFF;
+}
+
+.evidence-section > .section {
+  padding: 3rem 0;
 }
 
 .evidence-section h2 { color: #FFFFFF; }
@@ -794,6 +836,36 @@
 .evidence-section .card-teaser .card-text { color: #4B5563; }
 
 .evidence-section .read-more { color: #0066cc; }
+
+.evidence-section .card-bg-blue {
+  background-color: #0066cc;
+  color: #FFFFFF;
+}
+
+.evidence-section .card-bg-blue .card-title,
+.evidence-section .card-bg-blue .card-text {
+  color: #FFFFFF;
+}
+
+.evidence-section .card-bg-warning {
+  background-color: #ffb81c;
+  color: #191919;
+}
+
+.evidence-section .card-bg-warning .card-title,
+.evidence-section .card-bg-warning .card-text {
+  color: #191919;
+}
+
+.evidence-section .card-bg-dark {
+  background-color: #191919;
+  color: #FFFFFF;
+}
+
+.evidence-section .card-bg-dark .card-title,
+.evidence-section .card-bg-dark .card-text {
+  color: #FFFFFF;
+}
 
 /* Useful Links Section */
 .useful-links-section {
@@ -1153,17 +1225,115 @@
 .gap-4 { gap: 1rem; }
 
 .h-100 { height: 100%; }
+.min-vh-lg-50 { min-height: 50vh; }
+@media (min-width: 992px) { .min-vh-lg-50 { min-height: 50vh; } }
 
 .position-relative { position: relative; }
 
 .bg-primary { background-color: #0066cc; }
 .bg-white { background-color: #FFFFFF; }
 
+.py-4 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.py-lg-0 { padding-top: 0; padding-bottom: 0; }
+@media (min-width: 992px) { .py-lg-0 { padding-top: 0; padding-bottom: 0; } }
+
 .with-read-more { position: relative; }
 
 .perfect-scrollbar { position: relative; }
 .variable-gutters { margin-bottom: 1.5rem; }
 .other-link-title { font-size: 0.875rem; font-weight: 600; color: #0066cc; }
+
+/* Input group text addon */
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.625rem 1rem;
+  font-size: 1rem;
+  color: #191919;
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 0.25rem;
+}
+
+.input-group .form-control:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Search component */
+.cmp-search {
+  margin-bottom: 1.5rem;
+}
+
+.cmp-search .autocomplete-wrapper {
+  position: relative;
+}
+
+/* Text paragraph medium */
+.text-paragraph-medium {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4B5563;
+}
+
+/* Card bg colors for evidence section */
+.card-bg-blue {
+  background-color: #0066cc;
+  color: #FFFFFF;
+}
+
+.card-bg-blue .card-title,
+.card-bg-blue .card-text {
+  color: #FFFFFF;
+}
+
+.card-bg-warning {
+  background-color: #ffb81c;
+  color: #191919;
+}
+
+.card-bg-warning .card-title,
+.card-bg-warning .card-text {
+  color: #191919;
+}
+
+.card-bg-dark {
+  background-color: #191919;
+  color: #FFFFFF;
+}
+
+.card-bg-dark .card-title,
+.card-bg-dark .card-text {
+  color: #FFFFFF;
+}
+
+/* Sito tematico card link */
+.card-teaser.card-bg-blue,
+.card-teaser.card-bg-warning,
+.card-teaser.card-bg-dark {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s;
+}
+
+.card-teaser.card-bg-blue:hover {
+  background-color: #0059b3;
+}
+
+.card-teaser.card-bg-warning:hover {
+  background-color: #e6a600;
+}
+
+.card-teaser.card-bg-dark:hover {
+  background-color: #333333;
+}
+
+.sito-tematico {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
 
 /* ========================================
    ALPINE.JS - Interactive Components
@@ -1199,4 +1369,530 @@
   max-height: 80vh;
   overflow-y: auto;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+.input-group .form-control:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Search component */
+.cmp-search {
+  margin-bottom: 1.5rem;
+}
+
+.cmp-search .autocomplete-wrapper {
+  position: relative;
+}
+
+/* Text paragraph medium */
+.text-paragraph-medium {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4B5563;
+}
+
+/* Card bg colors for evidence section */
+.card-bg-blue {
+  background-color: #0066cc;
+  color: #FFFFFF;
+}
+
+.card-bg-blue .card-title,
+.card-bg-blue .card-text {
+  color: #FFFFFF;
+}
+
+.card-bg-warning {
+  background-color: #ffb81c;
+  color: #191919;
+}
+
+.card-bg-warning .card-title,
+.card-bg-warning .card-text {
+  color: #191919;
+}
+
+.card-bg-dark {
+  background-color: #191919;
+  color: #FFFFFF;
+}
+
+.card-bg-dark .card-title,
+.card-bg-dark .card-text {
+  color: #FFFFFF;
+}
+
+/* Sito tematico card link */
+.card-teaser.card-bg-blue,
+.card-teaser.card-bg-warning,
+.card-teaser.card-bg-dark {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s;
+}
+
+.card-teaser.card-bg-blue:hover {
+  background-color: #0059b3;
+}
+
+.card-teaser.card-bg-warning:hover {
+  background-color: #e6a600;
+}
+
+.card-teaser.card-bg-dark:hover {
+  background-color: #333333;
+}
+
+.sito-tematico {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+/* ========================================
+   ALPINE.JS - Interactive Components
+======================================== */
+
+[x-cloak] { display: none !important; }
+
+/* Mobile nav overlay */
+.nav-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1040;
+}
+
+/* Search modal */
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1055;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.search-modal-content {
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 800px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+/* ========================================
+   FOOTER - Design Comuni Style
+======================================== */
+
+.it-footer {
+  background-color: transparent;
+  color: #191919;
+  padding: 0;
+}
+
+.it-footer-main {
+  background-color: #17324d;
+  color: #FFFFFF;
+  padding: 3rem 0;
+}
+
+.it-footer a,
+.it-footer .footer-heading-title,
+.it-footer .footer-info {
+  color: #FFFFFF;
+  transition: color 0.2s;
+}
+
+.it-footer a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.it-footer-secondary {
+  background-color: #1b2733;
+  color: #FFFFFF;
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.it-footer-secondary a,
+.it-footer-secondary p {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.it-footer-secondary a:hover {
+  color: #FFFFFF;
+}
+
+.it-footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+/* ========================================
+   SECTION SPACING
+======================================== */
+
+.section {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.section-muted {
+  background-color: #F2F2F2;
+}
+
+.bg-grey-card {
+  background-color: #F2F2F2;
+}
+
+.shadow-contacts {
+  box-shadow: 0 -8px 18px rgba(23, 50, 77, 0.08);
+}
+
+/* ========================================
+   READ MORE LINKS
+======================================== */
+
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #007A52;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  color: #005c43;
+}
+
+/* ========================================
+   LINK LISTS
+======================================== */
+
+.link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link-list .list-item {
+  display: block;
+  padding: 0.5rem 0;
+  color: #007A52;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.link-list .list-item:hover {
+  color: #005c43;
+}
+
+.link-list-heading {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #5C6F82;
+  margin-bottom: 0.75rem;
+}
+
+/* ========================================
+   RATING COMPONENT
+======================================== */
+
+.cmp-rating {
+  padding: 2rem 0;
+}
+
+.cmp-rating .card-wrapper {
+  border-radius: 0;
+  box-shadow: 0 10px 24px rgba(23, 50, 77, 0.08);
+}
+
+.cmp-rating__card-first {
+  background: #FFFFFF;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+
+.rating-star {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-star svg {
+  fill: #ddd;
+  transition: fill 0.2s;
+}
+
+.rating-star:hover svg,
+.rating-star:hover ~ .rating-star svg,
+.rating input[type="radio"]:checked ~ label.rating-star svg {
+  fill: #ffb400;
+}
+
+.rating input[type="radio"] {
+  display: none;
+}
+
+/* ========================================
+   CONTACTS / CMP
+======================================== */
+
+.cmp-contacts .card {
+  border-radius: 0;
+  box-shadow: 0 10px 24px rgba(23, 50, 77, 0.08);
+}
+
+.cmp-contacts .card-body {
+  background: #FFFFFF;
+}
+
+.contact-list .list-item {
+  color: #007A52;
+}
+
+.contact-list .list-item:hover {
+  color: #005c43;
+}
+
+/* ========================================
+   RESPONSIVE HEADER
+======================================== */
+
+@media (max-width: 991px) {
+  .it-header-center-content-wrapper {
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .it-brand-wrapper a {
+    align-items: flex-start;
+  }
+
+  .navbar-collapsable {
+    background: #007A52 !important;
+  }
+
+  .menu-wrapper {
+    padding: 1.25rem;
+  }
+}
+
+/* ========================================
+   FOOTER - Design Comuni Style
+======================================== */
+
+.it-footer {
+  background-color: transparent;
+  color: #191919;
+  padding: 0;
+}
+
+.it-footer-main {
+  background-color: #17324d;
+  color: #FFFFFF;
+  padding: 3rem 0;
+}
+
+.it-footer a,
+.it-footer .footer-heading-title,
+.it-footer .footer-info {
+  color: #FFFFFF;
+  transition: color 0.2s;
+}
+
+.it-footer a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.it-footer-secondary {
+  background-color: #1b2733;
+  color: #FFFFFF;
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.it-footer-secondary a,
+.it-footer-secondary p {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.it-footer-secondary a:hover {
+  color: #FFFFFF;
+}
+
+.it-footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+/* ========================================
+   SECTION SPACING
+======================================== */
+
+.section {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.section-muted {
+  background-color: #F2F2F2;
+}
+
+.bg-grey-card {
+  background-color: #F2F2F2;
+}
+
+.shadow-contacts {
+  box-shadow: 0 -8px 18px rgba(23, 50, 77, 0.08);
+}
+
+/* ========================================
+   READ MORE LINKS
+======================================== */
+
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #007A52;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  color: #005c43;
+}
+
+/* ========================================
+   LINK LISTS
+======================================== */
+
+.link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link-list .list-item {
+  display: block;
+  padding: 0.5rem 0;
+  color: #007A52;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.link-list .list-item:hover {
+  color: #005c43;
+}
+
+.link-list-heading {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #5C6F82;
+  margin-bottom: 0.75rem;
+}
+
+/* ========================================
+   RATING COMPONENT
+======================================== */
+
+.cmp-rating {
+  padding: 2rem 0;
+}
+
+.cmp-rating .card-wrapper {
+  border-radius: 0;
+  box-shadow: 0 10px 24px rgba(23, 50, 77, 0.08);
+}
+
+.cmp-rating__card-first {
+  background: #FFFFFF;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+
+.rating-star {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-star svg {
+  fill: #ddd;
+  transition: fill 0.2s;
+}
+
+.rating-star:hover svg,
+.rating-star:hover ~ .rating-star svg,
+.rating input[type="radio"]:checked ~ label.rating-star svg {
+  fill: #ffb400;
+}
+
+.rating input[type="radio"] {
+  display: none;
+}
+
+/* ========================================
+   CONTACTS / CMP
+======================================== */
+
+.cmp-contacts .card {
+  border-radius: 0;
+  box-shadow: 0 10px 24px rgba(23, 50, 77, 0.08);
+}
+
+.cmp-contacts .card-body {
+  background: #FFFFFF;
+}
+
+.contact-list .list-item {
+  color: #007A52;
+}
+
+.contact-list .list-item:hover {
+  color: #005c43;
+}
+
+/* ========================================
+   RESPONSIVE HEADER
+======================================== */
+
+@media (max-width: 991px) {
+  .it-header-center-content-wrapper {
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .it-brand-wrapper a {
+    align-items: flex-start;
+  }
+
+  .navbar-collapsable {
+    background: #007A52 !important;
+  }
+
+  .menu-wrapper {
+    padding: 1.25rem;
+  }
 }
