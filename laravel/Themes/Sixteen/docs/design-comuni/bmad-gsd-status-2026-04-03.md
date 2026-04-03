@@ -5,16 +5,18 @@ Documento collegato: [work-plan.md](./work-plan.md)
 ## BMAD
 
 ### Analyze
-Rivalutata la homepage confrontando screenshot full-page reference vs locale dopo i pass su hero, governance e lower-page rhythm.
+Rivalutata la homepage confrontando screenshot full-page reference vs locale dopo i pass su hero, governance, lower-page rhythm e governance+contacts tuning.
 
 ### Decide
-La priorita' successiva resta chiudere i delta residui su governance cards e sul rapporto verticale fra blocchi centrali e blocchi bassi.
+Il loop finale corrente stringe solo due residui rimasti: hero first viewport e prima governance card con immagine.
 
 ### Act
-Applicati tre loop principali:
+Applicati cinque loop principali:
 - hero refinement
 - governance cards refinement
 - lower-page rhythm refinement
+- governance + contacts tuning
+- final hero/governance loop
 
 ### Review
 Ogni loop continua a chiudersi con:
@@ -32,14 +34,14 @@ Ogni loop continua a chiudersi con:
 - second pass hero
 - governance pass
 - lower-page rhythm pass
+- governance + contacts tuning pass
+- screenshot pass4 desktop/full-page
 - documentazione continua BMAD/GSD
-- screenshot pass3 desktop/full-page
 
 ### In progress
-- riduzione delta residuo governance
-- affinamento finale useful-links / contacts / footer rhythm
+- final hero/governance loop
+- verifica del delta residuo finale
 
 ### Next
-- un altro loop screenshot-driven su governance + contacts
-- eventuale ultimo giro di compattazione verticale
-- nuova verifica finale full-page
+- build e screenshot pass5
+- valutazione finale realistica dello stato di parity
