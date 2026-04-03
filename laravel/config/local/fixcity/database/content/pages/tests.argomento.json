@@ -1,8 +1,8 @@
 {
     "id": "tests-argomento",
     "title": {
-        "it": "Argomento",
-        "en": "Topic"
+        "it": "Sport",
+        "en": "Sport"
     },
     "slug": "tests.argomento",
     "category": "Generali",
@@ -10,110 +10,111 @@
     "content_blocks": {
         "it": [
             {
-                "type": "hero-argomento",
+                "type": "hero-topic",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.argomento",
+                    "view": "pub_theme::components.blocks.hero.topic",
                     "title": "Sport",
-                    "subtitle": "Informazioni su eventi sportivi, impianti comunali, servizi dedicati allo sport",
-                    "image": "https://picsum.photos/800/400",
-                    "offices": [
+                    "subtitle": "Tutto quello che c'è da sapere sulle attività sportive nel Comune, dalle strutture disponibili agli eventi in programma.",
+                    "image": "https://picsum.photos/1280/720?random=10",
+                    "breadcrumb": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Argomenti", "url": "/it/tests/argomenti"},
+                        {"label": "Sport", "url": null}
+                    ],
+                    "managing_offices": [
                         {
-                            "name": "Sport, cultura, spettacolo",
-                            "url": "#",
-                            "address": "Via Dei Transiti 21, 50302",
-                            "phone": "055 1234567",
-                            "email": "sport@comune.it",
-                            "image": "https://picsum.photos/200/200"
-                        },
-                        {
-                            "name": "Ufficio informazioni",
-                            "url": "#",
-                            "address": "Piazza del Comune, 1",
-                            "email": "info@comune.it"
+                            "title": "Ufficio Sport",
+                            "url": "/it/tests/ufficio-dettaglio"
                         }
                     ]
                 }
             },
             {
-                "type": "themed-section",
+                "type": "section-news",
                 "data": {
-                    "view": "pub_theme::components.blocks.sections.themed",
+                    "view": "pub_theme::components.blocks.cards.grid",
                     "id": "novita",
-                    "title": "Novità ed eventi",
-                    "bg": "bg-primary",
-                    "text_color": "text-white",
+                    "title": "Novità",
                     "items": [
-                        {"title": "Nuovo impianto sportivo inaugurato", "description": "È stato inaugurato il nuovo impianto sportivo comunale...", "url": "#", "date": "15/03/2024"},
-                        {"title": "Iscrizioni corso di nuoto", "description": "Sono aperte le iscrizioni al corso di nuoto per ragazzi...", "url": "#", "date": "10/03/2024"},
-                        {"title": "Torneo di calcio giovanile", "description": "Il comune organizza il torneo di calcio per le categorie...", "url": "#", "date": "05/03/2024"}
+                        {
+                            "title": "Inaugurazione nuovo centro sportivo",
+                            "url": "/it/tests/novita-dettaglio",
+                            "date": "20 Febbraio 2026",
+                            "category": "Notizia"
+                        },
+                        {
+                            "title": "Bando per la gestione delle palestre comunali",
+                            "url": "/it/tests/novita-dettaglio",
+                            "date": "15 Febbraio 2026",
+                            "category": "Avviso"
+                        }
                     ]
                 }
             },
             {
-                "type": "themed-section",
+                "type": "section-administration",
                 "data": {
-                    "view": "pub_theme::components.blocks.sections.themed",
+                    "view": "pub_theme::components.blocks.cards.grid",
                     "id": "amministrazione",
                     "title": "Amministrazione",
-                    "bg": "bg-white",
-                    "text_color": "t-primary",
                     "items": [
-                        {"title": "Delibera impianto sportivo", "description": "Documento di approvazione del nuovo impianto...", "url": "#"},
-                        {"title": "Regolamento strutture comunali", "description": "Regolamento per l'utilizzo delle strutture sportive...", "url": "#"}
+                        {
+                            "title": "Assessorato allo Sport",
+                            "url": "/it/tests/organo",
+                            "category": "Organo"
+                        },
+                        {
+                            "title": "Commissione consiliare Sport e Cultura",
+                            "url": "/it/tests/organo",
+                            "category": "Organo"
+                        }
                     ]
                 }
             },
             {
-                "type": "themed-section",
+                "type": "section-services",
                 "data": {
-                    "view": "pub_theme::components.blocks.sections.themed",
+                    "view": "pub_theme::components.blocks.cards.grid",
                     "id": "servizi",
                     "title": "Servizi",
-                    "bg": "bg-grey-card",
-                    "text_color": "t-primary",
                     "items": [
-                        {"title": "Prenostazione impianto", "description": "Prenota un impianto sportivo comunale", "url": "/it/tests/servizio-dettaglio"},
-                        {"title": "Iscrizione registro sportivo", "description": "Iscriviti al registro delle associazioni sportive", "url": "/it/tests/servizio-dettaglio"},
-                        {"title": "Richiesta patrocinio", "description": "Richiedi il patrocinio per eventi sportivi", "url": "/it/tests/servizio-dettaglio"}
+                        {
+                            "title": "Iscrizione ai corsi sportivi comunali",
+                            "url": "/it/tests/servizio-dettaglio",
+                            "category": "Servizio"
+                        },
+                        {
+                            "title": "Prenotazione campi da tennis",
+                            "url": "/it/tests/servizio-dettaglio",
+                            "category": "Servizio"
+                        }
                     ]
                 }
             },
             {
-                "type": "themed-section",
+                "type": "section-documents",
                 "data": {
-                    "view": "pub_theme::components.blocks.sections.themed",
+                    "view": "pub_theme::components.blocks.links.list",
                     "id": "documenti",
-                    "title": "Documenti utili",
-                    "bg": "bg-white",
-                    "text_color": "t-primary",
+                    "title": "Documenti",
                     "items": [
-                        {"title": "Modulo prenotazione impianto", "description": "Scarica il modulo per la prenotazione", "url": "#"},
-                        {"title": "Elenco impianti sportivi", "description": "Lista completa degli impianti disponibili", "url": "#"}
+                        {
+                            "label": "Regolamento impianti sportivi",
+                            "url": "/it/tests/documento-dettaglio"
+                        },
+                        {
+                            "label": "Piano d'azione per lo sport 2026",
+                            "url": "/it/tests/documento-dettaglio"
+                        }
                     ]
                 }
             },
             {
                 "type": "feedback",
                 "data": {
-                    "view": "pub_theme::components.blocks.feedback.faq-rating",
-                    "title": "Quanto sono chiare le informazioni su questa pagina?",
+                    "view": "pub_theme::components.blocks.feedback.rating",
+                    "title": "QUANTO SONO CHIARE LE INFORMAZIONI SU QUESTA PAGINA?",
                     "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
-                }
-            },
-            {
-                "type": "contacts",
-                "data": {
-                    "view": "pub_theme::components.blocks.contacts.faq",
-                    "contact_title": "Contatta il comune",
-                    "contacts": [
-                        {"label": "Richiedi assistenza", "url": "/it/tests/assistenza-01-dati"},
-                        {"label": "Chiama il numero verde 05 0505", "url": "tel:050505"},
-                        {"label": "Prenota appuntamento", "url": "/it/tests/appuntamento-01-ufficio"}
-                    ],
-                    "issues_title": "Problemi in città",
-                    "issues": [
-                        {"label": "Segnala disservizio", "url": "/it/tests/segnalazione-dettaglio"}
-                    ]
                 }
             }
         ],

@@ -94,11 +94,13 @@ Queste pagine hanno struttura significativamente diversa.
 
 - **Progress Report**: [`PROGRESS_REPORT.md`](./PROGRESS_REPORT.md)
 - **All Pages Analysis**: [`ALL_PAGES_ANALYSIS.md`](./ALL_PAGES_ANALYSIS.md)
+- **Batch Pages Analysis**: [`BATCH_PAGES_ANALYSIS.md`](./BATCH_PAGES_ANALYSIS.md)
+- **Batch Progress Report**: [`BATCH_PROGRESS_REPORT.md`](./BATCH_PROGRESS_REPORT.md)
 - **Fail Pages Analysis**: [`FAIL_PAGES_ANALYSIS.md`](./FAIL_PAGES_ANALYSIS.md)
 - **Master Index**: [`docs/design-comuni/MASTER_INDEX.md`](../../../docs/design-comuni/MASTER_INDEX.md)
 
 ---
 
-**Stato**: ✅ 63.0% OK, ⚠️ 29.6% Warning, ❌ 7.4% Fail  
-**Target**: 90%+ OK  
+**Stato**: ✅ 61.2% OK (30/49), ⚠️ 32.7% Warning (16/49), ❌ 6.1% Fail (3/49)  
+**Target**: 90%+ OK (44/49)  
 **Data**: 2026-04-03

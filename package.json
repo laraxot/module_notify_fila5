@@ -18,7 +18,9 @@
     "@typescript-eslint/parser": "^8.45.0",
     "eslint": "^9.36.0",
     "htmlhint": "^1.7.1",
+    "jsdom": "^29.0.1",
     "markdownlint-cli": "^0.45.0",
+    "node-fetch": "^3.3.2",
     "playwright": "^1.59.1"
   }
 }

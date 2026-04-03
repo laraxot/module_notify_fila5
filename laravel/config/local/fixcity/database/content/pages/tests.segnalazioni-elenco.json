@@ -142,7 +142,8 @@
                                 "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png",
                                 "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png",
                                 "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
-                            ]
+                            ],
+                            "edit_url": "#"
                         },
                         {
                             "title": "Lampione non funzionante",
@@ -153,7 +154,8 @@
                             "description": "Il lampione in piazza Roma non funziona da diversi giorni",
                             "images": [
                                 "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
-                            ]
+                            ],
+                            "edit_url": "#"
                         },
                         {
                             "title": "Rifiuti abbandonati",
@@ -162,25 +164,11 @@
                             "date": "05/03/2026",
                             "location": "Via Garibaldi, 28 - 50100 Firenze",
                             "description": "Rifiuti abbandonati sul marciapiede che creano degrado",
-                            "images": []
-                        },
-                        {
-                            "title": "Marciapiede danneggiato",
-                            "type": "Strade, marciapiedi, segnaletica e viabilità",
-                            "status": "Da lavorare",
-                            "date": "01/03/2026",
-                            "location": "Via Milano, 45 - 50100 Firenze",
-                            "description": "Marciapiede danneggiato con mattonelle sollevate",
-                            "images": []
-                        },
-                        {
-                            "title": "Albero pericolante",
-                            "type": "Parchi e verde pubblico",
-                            "status": "In lavorazione",
-                            "date": "28/02/2026",
-                            "location": "Parco Nord, ingresso 3 - 50100 Firenze",
-                            "description": "Albero con rami pericolanti che potrebbero cadere",
-                            "images": []
+                            "images": [
+                                "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png",
+                                "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
+                            ],
+                            "edit_url": "#"
                         }
                     ]
                 }
