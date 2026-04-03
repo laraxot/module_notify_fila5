@@ -1,4 +1,4 @@
-# Homepage Visual Pass 2026-04-02
+# Homepage Visual Pass 2026-04-02 / 2026-04-03
 
 Report strutturale correlato: [../homepage-structure-diff-2026-04-02.md](../homepage-structure-diff-2026-04-02.md)
 
@@ -9,46 +9,33 @@ Screenshot salvati:
 - `fixcity-homepage-after-full-2026-04-02.png`
 - `fixcity-homepage-pass2-2026-04-02.png`
 - `fixcity-homepage-pass2-full-2026-04-02.png`
+- `fixcity-homepage-pass3-2026-04-03.png`
+- `fixcity-homepage-pass3-full-2026-04-03.png`
 
-## Osservazioni principali
+## Stato sintetico
 
-1. Header e navbar sono molto vicini alla reference per colori, allineamento e gerarchia.
-2. Il secondo pass hero ha ridotto il gap di spacing nella prima viewport; il blocco testo parte piu' in alto ed e' piu' vicino alla reference.
-3. Le card di governance e il ritmo verticale delle sezioni centrali sono leggibili, ma restano ancora leggermente piu' compatte del riferimento.
-4. Evidence section e useful-links sono coerenti, ma alcuni spacing e altezze card non sono ancora chiusi.
-5. Il confronto pixel-perfect resta falsato dai placeholder `picsum.photos`, che cambiano immagine a ogni caricamento; la normalizzazione JS riduce ma non elimina del tutto questo rumore.
+1. Header e navbar sono vicini alla reference.
+2. Hero migliorata sensibilmente nei pass successivi.
+3. Il pass3 ha ridotto il gap verticale della parte bassa della pagina.
+4. I delta residui piu' evidenti sono ora nelle governance cards e in alcune proporzioni dei blocchi centrali.
 
-## Interventi applicati nei pass correnti
+## Progressione dei pass
 
-### CSS
+### Pass 1
+- allineamento generale header/hero/section spacing
 
-In `resources/css/app.css` sono stati aggiunti override scoped a `.dc-homepage-parity` per:
-- altezze header/navbar
-- spaziatura hero
-- typography hero
-- immagine hero
-- min-height e padding card governance
-- padding evidence section
-- spacing useful-links, rating, contatti, footer
-- refinement ulteriore della hero nel pass2
+### Pass 2
+- refinement hero
+- migliore allineamento della prima viewport
 
-### JS
-
-In `resources/js/app.js` e' stata aggiunta una normalizzazione leggera dei placeholder immagini sulla homepage di test per ridurre la casualita' visiva nelle verifiche.
+### Pass 3
+- refinement governance cards
+- compressione useful-links / rating / contacts
+- full-page piu' vicino alla reference rispetto ai pass precedenti
 
 ## Limiti residui
 
-1. L'hero non e' ancora pixel-identica alla reference.
-2. Le tre card governance sono ancora da affinare in altezza e ritmo interno.
-3. Il blocco useful-links -> rating -> contacts ha ancora un delta verticale percepibile rispetto alla reference.
-4. La presenza nel DOM della `.cmp-search` dentro `#head-section` resta una differenza strutturale secondaria, oggi mascherata via CSS.
-
-## Comandi eseguiti
-
-```bash
-cd laravel/Themes/Sixteen
-npm run build
-npm run copy
-```
-
-Poi e' stato necessario copiare esplicitamente i bundle finali in `public_html/themes/Sixteen` per riallineare gli asset realmente serviti da `127.0.0.1:8000`.
+1. L'hero non e' ancora pixel-identica.
+2. Le card governance sono ancora leggermente diverse nelle proporzioni.
+3. La sequenza `siti tematici -> useful-links -> rating -> contacts` e' migliorata ma non ancora identica.
+4. La `.cmp-search` nel DOM di `#head-section` resta una differenza strutturale secondaria, oggi nascosta via CSS.

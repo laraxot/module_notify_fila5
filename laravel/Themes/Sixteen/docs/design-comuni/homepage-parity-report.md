@@ -114,3 +114,10 @@ Esito del passaggio:
 - tipografia hero allineata a `32/40` e `18/28`
 - immagine hero allineata a `556x417`
 - residuo principale rimasto: il blocco hero locale parte ancora circa `32px` piu in basso del riferimento
+
+
+## Tooling di ispezione
+
+Script canonici e documentazione tecnica:
+- [Bashscripts homepage inspectors](../../../../bashscripts/docs/homepage-visual-parity/inspectors.md)
+- [Bashscripts homepage inspectors index](../../../../bashscripts/docs/homepage-visual-parity/README.md)

@@ -18,3 +18,9 @@ Riferimento vs locale sul primo `VAI ALLA PAGINA`:
 - rimuovere il padding-bottom extra e il gap che sposta la freccia
 
 Ritorno: [homepage-parity-report.md](../../homepage-parity-report.md)
+
+
+## Inspector usato
+
+- [inspectors.md](../../../../../bashscripts/docs/homepage-visual-parity/inspectors.md)
+- [inspect-readmore.mjs](../../../../../bashscripts/inspectors/homepage-visual-parity/inspect-readmore.mjs)
