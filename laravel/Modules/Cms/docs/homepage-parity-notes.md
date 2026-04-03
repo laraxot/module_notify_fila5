@@ -10,3 +10,11 @@ La documentazione visuale e i fix attivi stanno nel tema:
 - [logo-residual-analysis.md](/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/design-comuni/screenshots/homepage-parity/logo-residual-analysis.md)
 
 Nota: in questa fase i residui sono quasi tutti nel layer di presentazione del tema, non nella struttura CMS dei blocchi.
+
+## Structural Status
+
+Confronto attuale utile della shell pagina:
+- top-level `body` allineato tra riferimento e locale
+- figli immediati di `main` allineati nello stesso ordine
+
+Quindi la fase corrente resta coerente con il piano: mantenere la struttura CMS e rifinire i residui nel tema con CSS/JS.

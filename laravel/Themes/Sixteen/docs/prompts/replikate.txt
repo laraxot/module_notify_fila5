@@ -896,15 +896,16 @@ curl -s http://127.0.0.1:8000/it/tests/homepage
 
 manca il blocco che contiene "Informazioni sui servizi e le norme previste dal comune per gli animali domestici." che c'e' in https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html# ma manca nel nostro http://127.0.0.1:8000/it/tests/homepage
 
+<pagina>=domande-frequenti
  analizza la struttura del html dentro il tag body esclusi gli scripts di
-  https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html e di
-  http://127.0.0.1:8000/it/tests/homepage  e documenta le differenze, non mi interessa la formattazione ma
+  https://italia.github.io/design-comuni-pagine-statiche/sito/<pagina>.html e di
+  http://127.0.0.1:8000/it/tests/<pagina>  e documenta le differenze, non mi interessa la formattazione ma
   la struttura del html che deve essere la stessa , ti ricordo che 
-http://127.0.0.1:8000/it/tests/homepage  viene gestita dalla blade laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php e dal json laravel/config/local/fixcity/database/content/pages/tests.homepage.json ricordatelo !
+http://127.0.0.1:8000/it/tests/<pagina>  viene gestita dalla blade laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php e dal json laravel/config/local/fixcity/database/content/pages/tests.<pagina>.json ricordatelo !
 se e' identica almeno per il 90% procediamo cui lavori con css e js per rendere uguali le 2 pagine , ti ricordo che il nostro progetto e' quello di non utilizzare bootstrap-italia, ma di replicare il design con tailwind e alpinejs, percio' fa screenshots, analizzali, trova differenze, ragiona, documenta come procedere, poi ti ricordo che i css e i js da modificare sono dentro laravel/Themes/Sixteen  e per vedere le modifiche devi fare npm run build e npm run copy , adesso lavora su css e js capito ? ti ricordo anche che puoi installarti e configurarti le skills, plugin , tools , ecc ecc che vuoi basta che documenti, ti ricordo anche che se fai degli script devono essere messi dentro una sottocartella di ./bashscripts  e documentati dentro ./bashscripts/docs utilizzando gli indici e collegamenti bidirezionali relativi ,  per fare tutto questo utilizza bmad + gsd, ti ricordo che lo stesso task viene dato a piu' agenti ai , comportati di conseguenza e cerca di unire le forze con gli altri agenti ai, magari sfruttando al meglio le cartelle docs dentro i moduli e dentro i temi , creati anche gli agenti teams e tutto quello che ti serve per portare a termine questo task velocemente con produttività e qualità !!
 tutti i controlli devi farli te. 
 Goal
-Make the local homepage (http://127.0.0.1:8000/it/tests/homepage) visually identical to the reference (https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html) by fixing HTML and CSS differences, without using Bootstrap Italia but using Tailwind CSS + Alpine.js.
+Make the local homepage (http://127.0.0.1:8000/it/tests/<pagina>) visually identical to the reference (https://italia.github.io/design-comuni-pagine-statiche/sito/<pagina>.html) by fixing HTML and CSS differences, without using Bootstrap Italia but using Tailwind CSS + Alpine.js.
 la comparazione devi farla te ! sei libero di installare tutto quello che vuoi per essere autonomo. 
 utilizza https://github.com/bmad-code-org/BMAD-METHOD e https://medium.com/@richardhightower/one-codebase-three-runtimes-how-gsd-targets-claude-code-opencode-and-gemini-cli-29c98cfe96c6 e https://github.com/gsd-build/get-shit-done.
 continua e usa di piu' gli screenshots e screenshots e analisi degli screenshots mettili dentro le cartelle docs dentro i moduli e dentro i temi e utilizza anche gli indici con collegamente relativi bidirezionali 
