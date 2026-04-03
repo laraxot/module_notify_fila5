@@ -1,0 +1,56 @@
+{
+    "id": "tests.area-amministrativa-dettaglio",
+    "title": {
+        "it": "Dettaglio area amministrativa",
+        "en": "Dettaglio area amministrativa"
+    },
+    "slug": "tests.area-amministrativa-dettaglio",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Dettaglio area amministrativa",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Dettaglio area amministrativa",
+                    "subtitle": "",
+                    "content": "<p>Contenuto della pagina Dettaglio area amministrativa</p>"
+                }
+            },
+            {
+                "type": "content",
+                "data": {
+                    "view": "pub_theme::components.blocks.content.default",
+                    "title": "Dettaglio area amministrativa",
+                    "content": "<p>Contenuto dettagliato della pagina...</p>"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

@@ -328,10 +328,12 @@ Confronto tra la pagina di riferimento e l'implementazione locale per `domande-f
 
 ## Prossimi Passi
 
-1. Correggere struttura HTML nei componenti Blade
-2. Aggiungere CSS Tailwind @apply mancanti
-3. Verificare con screenshot
-4. Documentare in docs/HTML_STRUCTURE_ANALYSIS.md
+1. ✅ Correggere struttura HTML nei componenti Blade
+2. ✅ Aggiungere CSS Tailwind @apply mancanti
+3. ⏳ Verificare con screenshot
+4. ✅ Documentare in docs/HTML_STRUCTURE_ANALYSIS.md
+
+**Implementazione**: Vedi [DOMANDE_FREQUENTI_IMPLEMENTAZIONE.md](./DOMANDE_FREQUENTI_IMPLEMENTAZIONE.md)
 
 ---
 

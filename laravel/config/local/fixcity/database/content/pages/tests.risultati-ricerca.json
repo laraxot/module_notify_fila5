@@ -24,26 +24,24 @@
                 "data": {
                     "view": "pub_theme::components.blocks.search.results",
                     "query": "termine cercato",
-                    "count": 15,
+                    "count": 645,
                     "results": [
-                        {
-                            "title": "Risultato 1",
-                            "excerpt": "Estratto del risultato della ricerca...",
-                            "url": "/it/tests/servizio-dettaglio",
-                            "type": "Servizio"
-                        },
-                        {
-                            "title": "Risultato 2",
-                            "excerpt": "Estratto del risultato della ricerca...",
-                            "url": "/it/tests/novita-dettaglio",
-                            "type": "Novità"
-                        },
-                        {
-                            "title": "Risultato 3",
-                            "excerpt": "Estratto del risultato della ricerca...",
-                            "url": "/it/tests/evento-dettaglio",
-                            "type": "Evento"
-                        }
+                        {"title": "Risultato 1", "excerpt": "Estratto del risultato della ricerca per il termine indicato...", "url": "#", "type": "Servizio"},
+                        {"title": "Risultato 2", "excerpt": "Estratto del risultato della ricerca per il termine indicato...", "url": "#", "type": "Novità"},
+                        {"title": "Risultato 3", "excerpt": "Estratto del risultato della ricerca per il termine indicato...", "url": "#", "type": "Evento"},
+                        {"title": "Risultato 4", "excerpt": "Estratto del risultato della ricerca per il termine indicato...", "url": "#", "type": "Documento"},
+                        {"title": "Risultato 5", "excerpt": "Estratto del risultato della ricerca per il termine indicato...", "url": "#", "type": "Servizio"},
+                        {"title": "Risultato 6", "excerpt": "Estratto del risultato della ricerca per il termine indicato...", "url": "#", "type": "Novità"},
+                        {"title": "Risultato 7", "excerpt": "Estratto del risultato della ricerca per il termine indicato...", "url": "#", "type": "Evento"},
+                        {"title": "Risultato 8", "excerpt": "Estratto del risultato della ricerca per il termine indicato...", "url": "#", "type": "Documento"},
+                        {"title": "Risultato 9", "excerpt": "Estratto del risultato della ricerca per il termine indicato...", "url": "#", "type": "Servizio"},
+                        {"title": "Risultato 10", "excerpt": "Estratto del risultato della ricerca per il termine indicato...", "url": "#", "type": "Novità"}
+                    ],
+                    "categories": [
+                        {"id": "unit", "name": "Unità organizzativa", "count": 21},
+                        {"id": "public-person", "name": "Persona pubblica", "count": 14},
+                        {"id": "documents", "name": "Documenti", "count": 7},
+                        {"id": "services", "name": "Servizi", "count": 208}
                     ]
                 }
             },

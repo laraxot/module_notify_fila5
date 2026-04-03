@@ -1,0 +1,56 @@
+{
+    "id": "tests.dataset-dettaglio",
+    "title": {
+        "it": "Dettaglio dataset",
+        "en": "Dettaglio dataset"
+    },
+    "slug": "tests.dataset-dettaglio",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Dettaglio dataset",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Dettaglio dataset",
+                    "subtitle": "",
+                    "content": "<p>Contenuto della pagina Dettaglio dataset</p>"
+                }
+            },
+            {
+                "type": "content",
+                "data": {
+                    "view": "pub_theme::components.blocks.content.default",
+                    "title": "Dettaglio dataset",
+                    "content": "<p>Contenuto dettagliato della pagina...</p>"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

@@ -1,57 +1,47 @@
-# Design Comuni - Homepage Visual Parity
+# Design Comuni Homepage Parity
 
-**Data**: 2026-04-02
-**Modulo**: Cms (blocchi universali)
-**Tema**: Sixteen
+**Last verified**: 2026-04-03
+**Module**: Cms
+**Theme**: Sixteen
+**Scope**: coordination between Cms-driven page structure and theme-level visual parity work
 
----
+## Runtime ownership
 
-## 📊 Stato Homepage
+La homepage di test ` /it/tests/homepage ` e' orchestrata da due livelli distinti:
 
-La homepage `/it/tests/homepage` è gestita dal sistema CMS-driven pages:
-- **Blade**: `Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
-- **JSON**: `config/local/fixcity/database/content/pages/tests.homepage.json`
-- **Blocchi**: Renderizzati dal modulo Cms
+### Cms / content layer
+- `config/local/fixcity/database/content/pages/tests.homepage.json`
+- struttura contenuti, blocchi, ordine delle sezioni
+- contratto dati per la pagina di test
 
-## 📸 Analisi Visiva
+### Theme / presentation layer
+- `Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
+- `Themes/Sixteen/resources/css/app.css`
+- `Themes/Sixteen/resources/js/app.js`
+- resa visuale finale, spacing, tipografia, component rhythm e normalizzazioni runtime
 
-Screenshot e analisi completa nel tema Sixteen:
+## Current status
 
-- [Indice screenshot](../../../Themes/Sixteen/docs/design-comuni/screenshots/00-index.md)
-- [Analisi visiva](../../../Themes/Sixteen/docs/design-comuni/visual-comparison-analysis-2026-04-02.md)
-- [Piano di lavoro](../../../Themes/Sixteen/docs/design-comuni/work-plan.md)
+- Il confronto del `body` senza script e' oltre la soglia del 90%.
+- Le differenze residue piu' importanti sono visive, non di struttura CMS.
+- Per questo pass il Cms non e' il punto principale di intervento: il lavoro attivo resta nel tema Sixteen.
 
-## 📊 Risultato
+## Active references in theme docs
 
-| Metrica | Valore |
-|---------|--------|
-| Classi CSS replicate | **93.3%** (266/285) |
-| Sezioni presenti | ✅ **10/10** |
-| Contenuto identico | ✅ **Sì** |
-| Build CSS/JS | ✅ **Successo** |
+- [../../../Themes/Sixteen/docs/design-comuni/00-index.md](../../../Themes/Sixteen/docs/design-comuni/00-index.md)
+- [../../../Themes/Sixteen/docs/design-comuni/homepage-structure-diff-2026-04-02.md](../../../Themes/Sixteen/docs/design-comuni/homepage-structure-diff-2026-04-02.md)
+- [../../../Themes/Sixteen/docs/design-comuni/work-plan.md](../../../Themes/Sixteen/docs/design-comuni/work-plan.md)
+- [../../../Themes/Sixteen/docs/design-comuni/bmad-gsd-status-2026-04-03.md](../../../Themes/Sixteen/docs/design-comuni/bmad-gsd-status-2026-04-03.md)
+- [../../../Themes/Sixteen/docs/design-comuni/screenshots/homepage-visual-pass-2026-04-02.md](../../../Themes/Sixteen/docs/design-comuni/screenshots/homepage-visual-pass-2026-04-02.md)
 
-### Sezioni per Sezione
+## Cms-side guidance
 
-| Sezione | Match | Note |
-|---------|-------|------|
-| Header | ✅ | Tutte e 3 le parti presenti |
-| Hero | ✅ | Card + immagine identiche |
-| Calendario | ✅ | 7 slide, stessa struttura |
-| Evidence | ✅ | Card teaser + link list |
-| Useful Links | ✅ | Search + link list |
-| Rating | ✅ | Form feedback presente |
-| Footer | ✅ | Struttura corretta |
+- Se la struttura HTML del `body` dovesse scendere sotto la soglia di parity, verificare prima il JSON della pagina di test.
+- Se le differenze sono solo visive, non toccare Blade o JSON: lavorare nel tema.
+- Ogni modifica alla composizione della homepage deve essere documentata sia qui sia nei docs del tema.
 
-## 🔗 Collegamenti
+## Related docs
 
-### Tema Sixteen
-- [00-index.md](../../../Themes/Sixteen/docs/design-comuni/00-index.md) - Indice tema
-- [screenshots/](../../../Themes/Sixteen/docs/design-comuni/screenshots/00-index.md) - Screenshot
-- [work-plan.md](../../../Themes/Sixteen/docs/design-comuni/work-plan.md) - Piano
-
-### Modulo Cms
-- [00-index.md](00-index.md) - Indice modulo
-- [PAGE_COMPONENT_ARCHITECTURE.md](PAGE_COMPONENT_ARCHITECTURE.md) - Architettura pagine
-
-### Globale
-- [../../../docs/design-comuni/html-match.md](../../../docs/design-comuni/html-match.md) - Regola globale
+- [00-index.md](./00-index.md) - Indice del modulo Cms
+- [architecture/homepage-structure.md](./architecture/homepage-structure.md) - Architettura runtime aggiornata
+- [PAGE_COMPONENT_ARCHITECTURE.md](./PAGE_COMPONENT_ARCHITECTURE.md) - Architettura generale dei componenti pagina

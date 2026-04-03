@@ -1,90 +1,49 @@
 {
     "id": "tests.evento-dettaglio",
     "title": {
-        "it": "Evento Dettaglio",
-        "en": "Evento Dettaglio"
+        "it": "Evento",
+        "en": "Evento"
     },
     "slug": "tests.evento-dettaglio",
+    "category": "Generali",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "navigation",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {
                             "label": "Home",
                             "url": "/it/tests/homepage"
                         },
                         {
-                            "label": "Test",
-                            "url": "/it/tests"
+                            "label": "Eventi",
+                            "url": "/it/tests/eventi"
+                        },
+                        {
+                            "label": "Evento",
+                            "url": null
                         }
-                    ],
-                    "currentPage": "Evento Dettaglio",
-                    "background": "white"
+                    ]
                 }
             },
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.hero",
-                    "subtitle": "Sito istituzionale",
-                    "title": "Evento Dettaglio",
-                    "description": "Pagina istituzionale convertita dal riferimento statico design-comuni.",
-                    "background": "white",
-                    "alignment": "left"
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Evento",
+                    "subtitle": "",
+                    "content": "<p>Dettagli dell'evento in programma.</p>"
                 }
             },
             {
-                "type": "details",
+                "type": "content",
                 "data": {
-                    "view": "pub_theme::components.blocks.details.details",
-                    "title": "Metadati pagina",
-                    "items": [
-                        {
-                            "label": "Slug CMS",
-                            "value": "tests.evento-dettaglio"
-                        },
-                        {
-                            "label": "Sorgente",
-                            "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/evento-dettaglio.html"
-                        },
-                        {
-                            "label": "Sezione",
-                            "value": "sito"
-                        },
-                        {
-                            "label": "Stato",
-                            "value": "Generata per completare pagine vuote o invalide"
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "list",
-                "data": {
-                    "view": "pub_theme::components.blocks.list.list",
-                    "title": "Link utili di navigazione",
-                    "style": "icon",
-                    "items": [
-                        {
-                            "text": "Homepage",
-                            "url": "/it/tests/homepage",
-                            "icon": "heroicon-o-home"
-                        },
-                        {
-                            "text": "Indice test",
-                            "url": "/it/tests",
-                            "icon": "heroicon-o-squares-2x2"
-                        },
-                        {
-                            "text": "Servizi",
-                            "url": "/it/tests/servizi",
-                            "icon": "heroicon-o-wrench-screwdriver"
-                        }
-                    ]
+                    "view": "pub_theme::components.blocks.content.default",
+                    "title": "Dettagli",
+                    "content": "<p>Luogo: Piazza Roma<br>Data: 15 Aprile 2026<br>Ora: 18:00</p>"
                 }
             }
         ],

@@ -96,3 +96,40 @@ Analyzes each major section:
 - [← Back to Master Index](../00-HOMEPAGE-REPLICATION-INDEX.md)
 - [Next: Screenshots →](../screenshots/README.md)
 
+
+---
+
+## 📄 FAQ Page Analysis
+
+### 5. **FAQ-STRUCTURE-ANALYSIS.md**
+**Purpose**: HTML structure comparison for FAQ page (domande-frequenti)
+
+- Reference vs. local HTML element count
+- Structural parity assessment (98.3% match)
+- Size analysis (87.6 KB vs 103.7 KB)
+- Element differences inventory
+- Recommendation: Proceed to CSS/JS phase
+
+🔗 [Read](./FAQ-STRUCTURE-ANALYSIS.md) | [← Back](#-documents-in-this-folder)
+
+---
+
+### 6. **FAQ-VISUAL-ANALYSIS.md**
+**Purpose**: Visual appearance comparison for FAQ page
+
+- Screenshots captured at 3 viewports (desktop, mobile, tablet)
+- Visual analysis framework
+- Key areas to check (search bar, accordion, centering)
+- Expected Tailwind CSS classes
+- Implementation roadmap
+
+🔗 [Read](./FAQ-VISUAL-ANALYSIS.md) | [← Back](#-documents-in-this-folder)
+
+---
+
+### Screenshots for FAQ
+- Desktop: `domande-frequenti-reference-viewport.png` vs `domande-frequenti-local-viewport.png`
+- Full page: `domande-frequenti-reference-full.png` vs `domande-frequenti-local-full.png`
+- Mobile: `domande-frequenti-reference-mobile.png` vs `domande-frequenti-local-mobile.png`
+- Tablet: `domande-frequenti-reference-tablet.png` vs `domande-frequenti-local-tablet.png`
+
