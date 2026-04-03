@@ -12,7 +12,7 @@
 - **[PROGRESS_REPORT.md](./PROGRESS_REPORT.md)** - Report progresso aggiornato
 - **[FAIL_PAGES_ANALYSIS.md](./FAIL_PAGES_ANALYSIS.md)** - Analisi pagine fail
 - **[SEGNALAZIONI_ELENCO_ANALISI.md](./SEGNALAZIONI_ELENCO_ANALISI.md)** - Analisi segnalazioni elenco
-- **[SEGNALAZIONI_ELENCO_REPORT.md](./SEGNALAZIONI_ELENCO_REPORT.md)** - Report segnalazioni elenco (81.6%)
+- **[SEGNALAZIONI_ELENCO_REPORT.md](./SEGNALAZIONI_ELENCO_REPORT.md)** - Report segnalazioni elenco (95.7% - TARGET RAGGIUNTO)
 
 ## Current focus
 
