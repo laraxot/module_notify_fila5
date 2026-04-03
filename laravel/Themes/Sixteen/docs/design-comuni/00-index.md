@@ -15,6 +15,7 @@
 - **[SEGNALAZIONI_ELENCO_REPORT.md](./SEGNALAZIONI_ELENCO_REPORT.md)** - Report segnalazioni elenco (95.7% - TARGET RAGGIUNTO)
 - **[SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md](./SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md)** - Analisi visiva dettagliata
 - **[SEGNALAZIONI_ELENCO_CSS_REPORT.md](./SEGNALAZIONI_ELENCO_CSS_REPORT.md)** - Report CSS fix (+327 lines)
+- **[SEGNALAZIONI_ELENCO_LAYOUT_FIX.md](./SEGNALAZIONI_ELENCO_LAYOUT_FIX.md)** - Fix layout mappa/filtri (101.1%)
 - **[BATCH_PAGES_ANALYSIS.md](./BATCH_PAGES_ANALYSIS.md)** - Analisi batch 49 pagine
 - **[BATCH_PROGRESS_REPORT.md](./BATCH_PROGRESS_REPORT.md)** - Report progresso batch
 - **[FAIL_PAGES_DETAIL_REPORT.md](./FAIL_PAGES_DETAIL_REPORT.md)** - Analisi dettagliata 3 pagine fail
@@ -47,6 +48,8 @@ Il lavoro visivo resta limitato a:
 ### Visual Comparison Reports
 - [visual-comparison/homepage-visual-report-2026-04-03.md](./visual-comparison/homepage-visual-report-2026-04-03.md) - Homepage screenshot comparison
 - [VISUAL-PARITY-STATUS-2026-04-03.md](./VISUAL-PARITY-STATUS-2026-04-03.md) - Complete status report (54 pages)
+- [VISUAL-PARITY-BATCH-REPORT.md](./VISUAL-PARITY-BATCH-REPORT.md) - Batch analysis report
+- [FINAL-VISUAL-PARITY-REPORT.md](./FINAL-VISUAL-PARITY-REPORT.md) - Final comprehensive report
 
 ### Screenshots
 - [screenshots/](./screenshots/) - All 54 pages (reference + local)
