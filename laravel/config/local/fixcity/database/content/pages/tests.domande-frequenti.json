@@ -32,56 +32,40 @@
                 "type": "search",
                 "data": {
                     "view": "pub_theme::components.blocks.search.input",
-                    "placeholder": "Cerca nel sito",
-                    "autocomplete": []
+                    "placeholder": "Cerca nelle FAQ",
+                    "buttonLabel": "CERCA",
+                    "header": "Cerca nelle FAQ"
                 }
             },
             {
                 "type": "accordion",
                 "data": {
                     "view": "pub_theme::components.blocks.accordion.default",
-                    "title": "Anagrafe",
                     "items": [
-                        {
-                            "question": "Come richiedo la carta d'identità?",
-                            "answer": "<p>Per richiedere la carta d'identità è necessario prenotare un appuntamento online o recarsi allo sportello. Porta con te un documento di identità valido, una fototessera e il codice fiscale.</p>"
-                        },
-                        {
-                            "question": "Quali sono gli orari degli uffici?",
-                            "answer": "<p>Gli uffici anagrafe sono aperti dal lunedì al venerdì dalle 9:00 alle 13:00 e il martedì anche dalle 15:00 alle 17:00.</p>"
-                        },
-                        {
-                            "question": "Quanto costa la carta d'identità?",
-                            "answer": "<p>Il costo della carta d'identità elettronica è di € 21,95 da pagare presso gli sportelli abilitati, più i diritti di segreteria di € 16,79 da pagare in Comune.</p>"
-                        }
+                        {"question": "Come posso pagare una multa?", "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
+                        {"question": "Come faccio a rinnovare la carta di identità?", "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
+                        {"question": "Come posso cambiare la mia residenza?", "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
+                        {"question": "Come posso richiedere un posto auto riservato alle persone con disabilità?", "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
+                        {"question": "Come faccio a sapere se ho diritto all'esenzione della TARI?", "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
+                        {"question": "Come posso fare richiesta per una casa popolare?", "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
+                        {"question": "Come posso richiedere SPID (Sistema Pubblico di Identità Digitale)?", "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
+                        {"question": "Devo smaltire un rifiuto ingombrante. Come posso fare?", "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
                     ]
                 }
             },
             {
-                "type": "accordion",
+                "type": "link-list",
                 "data": {
-                    "view": "pub_theme::components.blocks.accordion.default",
-                    "title": "Tributi",
+                    "view": "pub_theme::components.blocks.list.list",
+                    "title": "Argomenti",
+                    "style": "plain",
                     "items": [
-                        {
-                            "question": "Come pago la TARI?",
-                            "answer": "<p>Il pagamento della TARI può essere effettuato tramite bollettino postale, bonifico bancario o presso gli sportelli abilitati.</p>"
-                        },
-                        {
-                            "question": "Quando scade la TARI?",
-                            "answer": "<p>La TARI si paga in un'unica soluzione entro il 30 giugno o in due rate: 30 giugno e 31 dicembre.</p>"
-                        }
+                        {"text": "Anagrafe", "url": "#"},
+                        {"text": "Tributi", "url": "#"},
+                        {"text": "Servizi scolastici", "url": "#"},
+                        {"text": "Ambiente", "url": "#"},
+                        {"text": "Urbanistica", "url": "#"}
                     ]
-                }
-            },
-            {
-                "type": "cta",
-                "data": {
-                    "view": "pub_theme::components.blocks.cta.default",
-                    "title": "Non hai trovato la tua domanda?",
-                    "description": "Contatta l'ufficio relazioni con il pubblico per ulteriori informazioni",
-                    "button_text": "Contattaci",
-                    "button_url": "/it/tests/assistenza-01-dati"
                 }
             }
         ],
