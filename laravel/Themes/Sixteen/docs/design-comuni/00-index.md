@@ -45,7 +45,15 @@ Il lavoro visivo resta limitato a:
 - [docs/design-comuni/MASTER_INDEX.md](../../../docs/design-comuni/MASTER_INDEX.md) - Index globale progetto
 
 ### Visual Comparison Reports
-- [visual-comparison/homepage-visual-report-2026-04-03.md](./visual-comparison/homepage-visual-report-2026-04-03.md) - Homepage screenshot comparison + fix list
+- [visual-comparison/homepage-visual-report-2026-04-03.md](./visual-comparison/homepage-visual-report-2026-04-03.md) - Homepage screenshot comparison
+- [VISUAL-PARITY-STATUS-2026-04-03.md](./VISUAL-PARITY-STATUS-2026-04-03.md) - Complete status report (54 pages)
+
+### Screenshots
+- [screenshots/](./screenshots/) - All 54 pages (reference + local)
+
+### Scripts
+- [bashscripts/design-comuni/](../../../bashscripts/design-comuni/) - Screenshot capture scripts
+- [bashscripts/docs/DESIGN_COMUNI_VISUAL_COMPARE.md](../../../bashscripts/docs/DESIGN_COMUNI_VISUAL_COMPARE.md) - Scripts documentation
 
 ### Modulo Cms
 - [Modules/Cms/docs/DESIGN_COMUNI_INDEX.md](../../../Modules/Cms/docs/DESIGN_COMUNI_INDEX.md) - Index completo modulo Cms
