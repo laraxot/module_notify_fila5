@@ -2,10 +2,10 @@
     "id": "tests.persona",
     "title": {
         "it": "Persona",
-        "en": "Persona"
+        "en": "Person"
     },
     "slug": "tests.persona",
-    "category": "Generali",
+    "category": "Amministrazione",
     "content": null,
     "content_blocks": {
         "it": [
@@ -14,14 +14,9 @@
                 "data": {
                     "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
-                        {
-                            "label": "Home",
-                            "url": "/it/tests/homepage"
-                        },
-                        {
-                            "label": "Persona",
-                            "url": null
-                        }
+                        { "label": "Home", "url": "/it/tests/homepage" },
+                        { "label": "Amministrazione", "url": "/it/tests/amministrazione" },
+                        { "label": "Persona", "url": null }
                     ]
                 }
             },
@@ -29,33 +24,27 @@
                 "type": "hero",
                 "data": {
                     "view": "pub_theme::components.blocks.hero.default",
-                    "title": "Persona",
-                    "subtitle": "",
-                    "content": "<p>Contenuto della pagina Persona</p>"
+                    "title": "Nome Persona",
+                    "subtitle": "Ruolo - Amministrazione",
+                    "content": "<p>Dettagli della persona dell'amministrazione comunale.</p>"
                 }
             },
             {
-                "type": "card-list",
+                "type": "card",
                 "data": {
-                    "view": "pub_theme::components.blocks.card.list"
-                    "title": "Elenco",
-                    "items": [
-                        {
-                            "title": "Elemento 1",
-                            "excerpt": "Descrizione elemento 1",
-                            "url": "#"
-                        },
-                        {
-                            "title": "Elemento 2",
-                            "excerpt": "Descrizione elemento 2",
-                            "url": "#"
-                        },
-                        {
-                            "title": "Elemento 3",
-                            "excerpt": "Descrizione elemento 3",
-                            "url": "#"
-                        }
-                    ]
+                    "view": "pub_theme::components.blocks.card.default",
+                    "title": "Informazioni Personali",
+                    "content": "<p>Dettagli anagrafici e contatti della persona.</p>"
+                }
+            },
+            {
+                "type": "contacts",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.default",
+                    "title": "Contatti",
+                    "phone": "06 12345678",
+                    "email": "persona@comune.it",
+                    "address": "Via Roma 1, 00100 Roma"
                 }
             }
         ],
