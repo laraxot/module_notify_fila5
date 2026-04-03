@@ -31,6 +31,7 @@
 @import './components/bootstrap-italia-classes.css';
 @import './components/design-comuni.css';
 @import './design-comuni-visual-fix.css';
+@import './design-comuni-global.css';
 @import './faq-parity.css';
 @import './argomenti-parity.css';
 @import './homepage-visual-fix.css';
