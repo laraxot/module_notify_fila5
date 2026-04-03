@@ -1,59 +1,144 @@
-# Module Comment
+---
+title: Comment
+module: comment
+related: Xot, User, Activity
+status: production
+---
 
-Modulo dedicato alla gestione dei commenti
+# Comment Module
 
-## Aggiungere Modulo nella base del progetto
+**Module**: `comment`
+**Namespace**: `Modules\Comment\`
+**Status**: ✅ Production
 
-Dentro la cartella laravel/Modules
+---
 
-```bash
-git submodule add https://github.com/laraxot/module_comment_fila5.git Comment
-```
-Verrà creata la cartella Comment con dentro tutto il contenuto del modulo.
+## Overview
 
-## Verificare che il modulo sia attivo
+TODO: Add overview for Comment module
 
-```bash
-php artisan module:list
-```
+### Key Features
 
-in caso abilitarlo
+- Feature 1
+- Feature 2
+- Feature 3
 
-```bash
-php artisan module:enable Comment
-```
+### Module Dependencies
 
-## Eseguire le migrazioni
+- [Xot](../Xot/README.md) (required)
+- [User](../User/README.md) (required)
+- [Activity](../Activity/README.md) (required)
 
-```bash
-php artisan module:migrate Comment
-```
+---
 
-## Inserire le dipendenze
+## Quick Start
 
-Per installare correttamente il modulo Comment è necessario installare le dipendenze dei 3 seguenti moduli:
-
-- [UI](https://github.com/laraxot/module_ui_fila5/blob/dev/README.md)
-- [Xot](https://github.com/laraxot/module_xot_fila5/blob/dev/README.md)
-- [Tenant](https://github.com/laraxot/module_tenant_fila5/blob/dev/README.md)
-- 
-
-Leggere ed eseguire correttamente le istruzioni all'interno dei file README.md di ciascuno di questi moduli
-
-## Configurazione comments.php
-
-Dopo aver installato il modulo, eseguire dentro la cartella laravel, il comando 
+### Installation
 
 ```bash
-php -d memory_limit=-1 composer.phar update -W
+# Already included in main project
+# No additional setup required
 ```
 
-e in seguito
+### Basic Usage
+
+```php
+use Modules\Comment\Models\YourModel;
+
+$item = YourModel::first();
+```
+
+### Configuration
+
+Configuration file: `config/comment.php`
+
+Key settings:
+- `setting1` - Description
+- `setting2` - Description
+
+---
+
+## Architecture
+
+### Directory Structure
+
+```
+Comment/
+├── src/
+│   ├── Models/
+│   ├── Controllers/
+│   ├── Resources/
+│   ├── Actions/
+│   └── Traits/
+├── routes/
+│   ├── api.php
+│   └── web.php
+├── database/
+│   ├── migrations/
+│   └── seeders/
+├── tests/
+│   ├── Unit/
+│   └── Feature/
+├── config/
+│   └── comment.php
+├── docs/
+│   └── README.md
+└── composer.json
+```
+
+### Key Components
+
+
+
+---
+
+## API Reference
+
+Reference
+
+---
+
+## Usage Examples
+
+### Common Tasks
+
+#### Task 1: Description
+
+```php
+// Code example
+```
+
+---
+
+## Testing
+
+### Running Tests
 
 ```bash
-php artisan vendor:publish --tag="comments-config"
+# Run all module tests
+composer test -- Modules/Comment
 ```
-che creerà il file laravel\config\comments.php
 
-...quali modelli bisogna sostituire?
-...bisogna modificare il file principale dentro laravel\config oppure anche/solo i file dentro le configurazioni di dominio?
+---
+
+## Troubleshooting
+
+### Common Issues
+
+#### Issue: Problem description
+
+**Solution**: How to fix this issue
+
+---
+
+## Related Modules
+
+### Dependencies
+
+- [Xot](../Xot/README.md) - Required module
+- [User](../User/README.md) - Required module
+- [Activity](../Activity/README.md) - Required module
+
+---
+
+Navigation: [Project Home](../../docs/INDEX.md) | [Modules](../../docs/modules/README.md)
