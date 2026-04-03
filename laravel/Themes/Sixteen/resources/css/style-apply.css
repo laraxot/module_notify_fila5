@@ -1253,9 +1253,9 @@ footer.it-footer {
   @apply fill-yellow-400;
 }
 
-/* Ensure all stars are visible and active by default */
+/* Active stars shown as gray (unselected default state - matches Design Comuni reference) */
 .rating .rating-star.active svg {
-  @apply fill-yellow-400;
+  @apply fill-slate-300;
 }
 
 .pt-lg-80 {

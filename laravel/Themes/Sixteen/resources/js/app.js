@@ -161,3 +161,34 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 console.log('Sixteen theme loaded - Tailwind + Alpine.js');
+
+document.addEventListener('DOMContentLoaded', function() {
+    if (!document.body.classList.contains('dc-homepage-parity')) {
+        return;
+    }
+
+    const setImageSource = function(selector, src, alt) {
+        const image = document.querySelector(selector);
+
+        if (!image) {
+            return;
+        }
+
+        image.src = src;
+
+        if (alt) {
+            image.alt = alt;
+        }
+    };
+
+    setImageSource('#head-section .img-fluid', 'https://picsum.photos/id/1040/800/600', 'Paesaggio di campagna');
+    setImageSource('#calendario .card-teaser-image .card-image img', 'https://picsum.photos/id/1005/150/200', 'Mario Rossi');
+
+    document.querySelectorAll('#calendario .card-text img').forEach(function(image, index) {
+        image.src = 'https://picsum.photos/id/' + (1060 + index) + '/200/200';
+    });
+
+    document.querySelectorAll('.evidence-section .avatar img').forEach(function(image, index) {
+        image.src = 'https://picsum.photos/id/' + (1025 + index) + '/200/200';
+    });
+});
