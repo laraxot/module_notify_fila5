@@ -76,7 +76,8 @@ Essential documentation for the entire project:
 - [Theme System](../laravel/docs/THEME_SYSTEM_DYNAMIC.md) - Theme architecture
 
 **Project Planning & Roadmap:**
-- [Project Roadmap](./PROJECT-ROADMAP.md) - Consolidated roadmap
+- [🗺️ Central Roadmap](./ROADMAP.md) - **START HERE** - Complete phases 1-15+, Phase 11 status, all module roadmaps linked
+- [Project Roadmap](./PROJECT-ROADMAP.md) - Legacy consolidated roadmap (archived)
 - [Strategy](./strategy.md) - High-level strategy
 - [Project Overview](./PROJECT_OVERVIEW.md) - Project vision
 
