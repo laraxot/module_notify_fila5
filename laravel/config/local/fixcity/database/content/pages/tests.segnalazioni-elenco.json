@@ -34,84 +34,45 @@
                 }
             },
             {
-                "type": "sidebar-filters",
+                "type": "feedback",
                 "data": {
-                    "view": "pub_theme::components.blocks.filters.sidebar",
-                    "title": "categoria",
-                    "filters": [
+                    "view": "pub_theme::components.blocks.feedback.faq-rating",
+                    "title": "Quanto sono chiare le informazioni su questa pagina?",
+                    "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
+                }
+            },
+            {
+                "type": "contacts",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.faq",
+                    "contact_title": "Contatta il comune",
+                    "contacts": [
                         {
-                            "id": "water",
-                            "label": "Acqua, allagamenti, problemi fognari",
-                            "count": 21,
-                            "value": "acqua,allagamenti,fogne"
+                            "label": "Richiedi assistenza",
+                            "url": "/it/tests/assistenza-01-dati"
                         },
                         {
-                            "id": "enviroment",
-                            "label": "Ambiente, inquinamento, protezione ambientale",
-                            "count": 14,
-                            "value": "inquinamneto"
+                            "label": "Chiama il numero verde 05 0505",
+                            "url": "tel:050505"
                         },
                         {
-                            "id": "street-furniture",
-                            "label": "Arredo urbano",
-                            "count": 7,
-                            "value": "arredo-urbano"
-                        },
+                            "label": "Prenota appuntamento",
+                            "url": "/it/tests/appuntamento-01-ufficio"
+                        }
+                    ],
+                    "issues_title": "Problemi in città",
+                    "issues": [
                         {
-                            "id": "rodent-control",
-                            "label": "Disinfestazione, derattizazione, animali randagi",
-                            "count": 208,
-                            "value": "derattizazione"
-                        },
-                        {
-                            "id": "waste",
-                            "label": "Igiene urbana, rifiuti, pulizia e decoro",
-                            "count": 321,
-                            "value": "igiene"
-                        },
-                        {
-                            "id": "maintenance",
-                            "label": "Manutenzione strade e infrastrutture",
-                            "count": 156,
-                            "value": "manutenzione"
-                        },
-                        {
-                            "id": "public-order",
-                            "label": "Ordine pubblico",
-                            "count": 89,
-                            "value": "ordine"
-                        },
-                        {
-                            "id": "green",
-                            "label": "Parchi e verde pubblico",
-                            "count": 302,
-                            "value": "parchi"
-                        },
-                        {
-                            "id": "service",
-                            "label": "Servizi del comune",
-                            "count": 302,
-                            "value": "servizi"
-                        },
-                        {
-                            "id": "security",
-                            "label": "Sicurezza, degrado urbano e sociale",
-                            "count": 302,
-                            "value": "sicurezza"
-                        },
-                        {
-                            "id": "road",
-                            "label": "Strade, marciapiedi, segnaletica e viabilità",
-                            "count": 302,
-                            "value": "strade"
+                            "label": "Segnala disservizio",
+                            "url": "/it/tests/segnalazioni"
                         }
                     ]
                 }
             },
             {
-                "type": "tabs-map-list",
+                "type": "segnalazioni-layout",
                 "data": {
-                    "view": "pub_theme::components.blocks.tabs.map-list",
+                    "view": "pub_theme::components.blocks.segnalazioni.layout",
                     "results_count": 645,
                     "tabs": [
                         {
@@ -170,43 +131,78 @@
                             ],
                             "edit_url": "#"
                         }
-                    ]
-                }
-            },
-            {
-                "type": "feedback",
-                "data": {
-                    "view": "pub_theme::components.blocks.feedback.faq-rating",
-                    "title": "Quanto sono chiare le informazioni su questa pagina?",
-                    "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
-                }
-            },
-            {
-                "type": "contacts",
-                "data": {
-                    "view": "pub_theme::components.blocks.contacts.faq",
-                    "contact_title": "Contatta il comune",
-                    "contacts": [
-                        {
-                            "label": "Richiedi assistenza",
-                            "url": "/it/tests/assistenza-01-dati"
-                        },
-                        {
-                            "label": "Chiama il numero verde 05 0505",
-                            "url": "tel:050505"
-                        },
-                        {
-                            "label": "Prenota appuntamento",
-                            "url": "/it/tests/appuntamento-01-ufficio"
-                        }
                     ],
-                    "issues_title": "Problemi in città",
-                    "issues": [
-                        {
-                            "label": "Segnala disservizio",
-                            "url": "/it/tests/segnalazioni"
-                        }
-                    ]
+                    "filters": {
+                        "title": "categoria",
+                        "items": [
+                            {
+                                "id": "water",
+                                "label": "Acqua, allagamenti, problemi fognari",
+                                "count": 21,
+                                "value": "acqua,allagamenti,fogne"
+                            },
+                            {
+                                "id": "enviroment",
+                                "label": "Ambiente, inquinamento, protezione ambientale",
+                                "count": 14,
+                                "value": "inquinamneto"
+                            },
+                            {
+                                "id": "street-furniture",
+                                "label": "Arredo urbano",
+                                "count": 7,
+                                "value": "arredo-urbano"
+                            },
+                            {
+                                "id": "rodent-control",
+                                "label": "Disinfestazione, derattizazione, animali randagi",
+                                "count": 208,
+                                "value": "derattizazione"
+                            },
+                            {
+                                "id": "waste",
+                                "label": "Igiene urbana, rifiuti, pulizia e decoro",
+                                "count": 321,
+                                "value": "igiene"
+                            },
+                            {
+                                "id": "maintenance",
+                                "label": "Manutenzione strade e infrastrutture",
+                                "count": 156,
+                                "value": "manutenzione"
+                            },
+                            {
+                                "id": "public-order",
+                                "label": "Ordine pubblico",
+                                "count": 89,
+                                "value": "ordine"
+                            },
+                            {
+                                "id": "green",
+                                "label": "Parchi e verde pubblico",
+                                "count": 302,
+                                "value": "parchi"
+                            },
+                            {
+                                "id": "service",
+                                "label": "Servizi del comune",
+                                "count": 302,
+                                "value": "servizi"
+                            },
+                            {
+                                "id": "security",
+                                "label": "Sicurezza, degrado urbano e sociale",
+                                "count": 302,
+                                "value": "sicurezza"
+                            },
+                            {
+                                "id": "road",
+                                "label": "Strade, marciapiedi, segnaletica e viabilità",
+                                "count": 302,
+                                "value": "strade"
+                            }
+                        ]
+                    }
                 }
             }
         ],
