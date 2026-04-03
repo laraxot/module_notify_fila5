@@ -32,7 +32,7 @@
                                     @endphp
                                     @foreach($stars as $val => $star)
                                     <input type="radio" id="star{{ $val }}a" name="ratingA" value="{{ $val }}">
-                                    <label class="full rating-star active" for="star{{ $val }}a" data-element="feedback-rate-{{ $val }}">
+                                    <label class="full rating-star" for="star{{ $val }}a" data-element="feedback-rate-{{ $val }}">
                                         <svg class="icon icon-sm" role="img" aria-labelledby="{{ $star['id'] }}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
                                             <path fill="none" d="M0 0h24v24H0z"></path>

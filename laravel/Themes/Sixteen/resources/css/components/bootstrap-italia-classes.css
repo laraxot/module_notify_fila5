@@ -844,17 +844,11 @@ a {
    Sfondo con immagine + overlay scuro
 ======================================== */
 .evidence-section .section {
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 300px;
+  background-position: top center;
   background-repeat: no-repeat;
+  background-color: #003d29;
   position: relative;
-}
-.evidence-section .section::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(0, 122, 82, 0.92), rgba(0, 92, 64, 0.88));
-  z-index: 0;
 }
 .evidence-section .container {
   position: relative;

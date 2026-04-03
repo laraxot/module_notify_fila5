@@ -72,3 +72,45 @@ Esito del fix:
 - `container` riallineato ai gutter del riferimento (`x=52`, `width=1176` anche in locale)
 - icone social header rese visibili forzando `color/fill` bianchi
 - `#search-modal` confermato nascosto; il blocco rimosso era `.cmp-search` dell'hero, non il modal
+
+## Body Structure Refresh
+
+Confronto strutturale attuale del `body` senza `script`:
+
+Riferimento:
+- `div.skiplink`
+- `header.it-header-wrapper`
+- `main`
+- `div.modal.fade.search-modal#search-modal`
+- `footer.it-footer#footer`
+
+Locale:
+- `div.skiplink`
+- `header.it-header-wrapper`
+- `main#main-container`
+- `div.modal.fade.search-modal#search-modal`
+- `footer.it-footer#footer`
+
+Confronto strutturale attuale dei figli immediati di `main`:
+- `h1.visually-hidden#main-container`
+- `section#head-section`
+- `section#calendario`
+- `section.evidence-section`
+- `section.useful-links-section`
+- `div.bg-primary`
+- `div.bg-grey-card.shadow-contacts`
+
+Esito: la shell HTML utile della homepage e sostanzialmente allineata; la differenza residua a questo livello e l'id `main-container` sul `main` locale. Il confronto grezzo totale resta basso perché il contenuto interno dei blocchi CMS non e ancora perfettamente 1:1, ma il livello strutturale di pagina e ormai oltre la soglia operativa per continuare solo con CSS/JS.
+
+## Above The Fold Pass 4
+
+Analisi residui:
+- [header-hero-residuals.md](./screenshots/homepage-parity/header-hero-residuals.md)
+- [local-header-hero-pass4.png](./screenshots/homepage-parity/local-header-hero-pass4.png)
+
+Esito del passaggio:
+- `header center` allineato a `120px`
+- `header navbar` allineato a `54px`
+- tipografia hero allineata a `32/40` e `18/28`
+- immagine hero allineata a `556x417`
+- residuo principale rimasto: il blocco hero locale parte ancora circa `32px` piu in basso del riferimento
