@@ -1,37 +1,51 @@
 {{--
-    Accordion Block - Default
-    Usage: <x-blocks.accordion :items="$data['items']" :title="$data['title']" />
+    Accordion Block - Default (FAQ Style)
+    Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/domande-frequenti.html
 --}}
 
-@props(['items' => [], 'title' => ''])
+@props(['items' => []])
 
-<section class="cmp-accordion mb-8">
-    @if($title)
-    <h2 class="title-xlarge mb-4">{{ $title }}</h2>
-    @endif
+@php
+    $spritePath = '/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg';
+@endphp
 
-    <div class="accordion" id="accordion-{{ Str::slug($title) }}">
-        @foreach($items as $index => $item)
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="heading-{{ Str::slug($title) }}-{{ $index }}">
-                <button class="accordion-button" 
-                        type="button" 
-                        data-bs-toggle="collapse" 
-                        data-bs-target="#collapse-{{ Str::slug($title) }}-{{ $index }}"
-                        aria-expanded="{{ $index === 0 ? 'true' : 'false' }}"
-                        aria-controls="collapse-{{ Str::slug($title) }}-{{ $index }}">
-                    {{ $item['question'] }}
-                </button>
-            </h2>
-            <div id="collapse-{{ Str::slug($title) }}-{{ $index }}" 
-                 class="accordion-collapse collapse {{ $index === 0 ? 'show' : '' }}"
-                 aria-labelledby="heading-{{ Str::slug($title) }}-{{ $index }}"
-                 data-bs-parent="#accordion-{{ Str::slug($title) }}">
-                <div class="accordion-body">
-                    {!! $item['answer'] !!}
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-8 offset-lg-2 px-0 px-sm-3">
+            <div class="cmp-accordion faq">
+                <div class="accordion" id="accordion-faq" data-faq-accordion>
+                    @foreach($items as $index => $item)
+                        <div class="accordion-item" data-faq-item data-faq-text="{{ Str::lower(strip_tags(($item['question'] ?? '').' '.preg_replace('~<[^>]+>~', ' ', (string) ($item['answer'] ?? '')))) }}">
+                            <div class="accordion-header" id="headingfaq-{{ $index + 1 }}">
+                                <button class="accordion-button collapsed title-small-semi-bold py-3"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefaq-{{ $index + 1 }}"
+                                        aria-expanded="false"
+                                        aria-controls="collapsefaq-{{ $index + 1 }}">
+                                    <div class="button-wrapper">
+                                        {{ $item['question'] }}
+                                        <div class="icon-wrapper">
+                                            <svg class="icon icon-xs me-1 icon-primary">
+                                                <use href="{{ $spritePath }}#it-expand"></use>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div id="collapsefaq-{{ $index + 1 }}"
+                                 class="accordion-collapse collapse p-0"
+                                 data-bs-parent="#accordion-faq"
+                                 role="region"
+                                 aria-labelledby="headingfaq-{{ $index + 1 }}">
+                                <div class="accordion-body">
+                                    {!! $item['answer'] !!}
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>
-        @endforeach
     </div>
-</section>
+</div>
