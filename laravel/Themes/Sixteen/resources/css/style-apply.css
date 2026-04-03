@@ -1812,3 +1812,130 @@ hr {
 .it-header-slim-wrapper .dropdown-menu .dropdown-item:hover span {
   color: #007a52 !important;
 }
+
+/* FAQ Page Specific Styles */
+
+/* Search Box - Design Comuni style */
+.cmp-input-search {
+  @apply my-8;
+}
+
+.cmp-input-search .search-header {
+  @apply mb-4;
+}
+
+.cmp-input-search .search-title {
+  @apply text-xl font-semibold text-gray-900;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.cmp-input-search .search-form .form-group {
+  @apply mb-0;
+}
+
+.cmp-input-search .input-group {
+  @apply flex border border-gray-300 rounded-lg overflow-hidden;
+}
+
+.cmp-input-search .input-group .form-control {
+  @apply flex-1 px-4 py-3 border-0 outline-none text-base;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.cmp-input-search .input-group .form-control::placeholder {
+  @apply text-gray-500;
+}
+
+.cmp-input-search .input-group .btn-primary {
+  @apply px-6 py-3 bg-[#0066cc] border-0 text-white font-semibold flex items-center gap-2 cursor-pointer transition-colors duration-200;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.cmp-input-search .input-group .btn-primary:hover {
+  @apply bg-[#0052a3];
+}
+
+.cmp-input-search .input-group .btn-primary .icon {
+  @apply w-5 h-5;
+}
+
+/* FAQ Accordion - Design Comuni style - Dark Teal */
+.cmp-accordion.faq .accordion-item {
+  @apply border-0 mb-2 rounded-lg overflow-hidden;
+}
+
+.cmp-accordion.faq .accordion-button {
+  @apply w-full px-4 py-4 text-left flex items-center justify-between cursor-pointer transition-colors duration-200;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #FFFFFF !important;
+  background-color: #004445 !important;
+}
+
+.cmp-accordion.faq .accordion-button:hover {
+  background-color: #003334 !important;
+}
+
+.cmp-accordion.faq .accordion-button .button-wrapper {
+  @apply flex-1;
+}
+
+.cmp-accordion.faq .accordion-button .icon-wrapper {
+  @apply flex-shrink-0 ml-2;
+}
+
+.cmp-accordion.faq .accordion-button .icon {
+  @apply text-white;
+}
+
+.cmp-accordion.faq .accordion-button .icon.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.cmp-accordion.faq .accordion-button.collapsed {
+  background-color: #004445 !important;
+}
+
+.cmp-accordion.faq .accordion-button .icon {
+  @apply text-white;
+  color: #FFFFFF !important;
+}
+
+.cmp-accordion.faq .accordion-collapse {
+  @apply hidden;
+  background-color: #F2F9F9;
+}
+
+.cmp-accordion.faq .accordion-collapse.show {
+  @apply block;
+}
+
+.cmp-accordion.faq .accordion-body {
+  @apply px-4 pb-4 pt-2 text-base;
+  font-family: 'Titillium Web', sans-serif;
+  color: #334a52;
+  background-color: #F2F9F9;
+}
+
+.cmp-accordion.faq .accordion-body p {
+  @apply mb-0;
+}
+
+/* Link list section after FAQ */
+.link-list-block {
+  @apply mt-8 mb-8;
+}
+
+.link-list-block .link-list-title {
+  @apply text-lg font-semibold text-gray-900 mb-4;
+}
+
+.link-list-block .link-list {
+  @apply flex flex-wrap gap-3;
+}
+
+.link-list-block .link-list a {
+  @apply px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200;
+  font-family: 'Titillium Web', sans-serif;
+}

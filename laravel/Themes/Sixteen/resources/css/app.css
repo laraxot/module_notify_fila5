@@ -24,6 +24,7 @@
    IMPORT DESIGN COMUNI COMPONENT CLASSES
    Bootstrap Italia classes → Tailwind CSS
 ======================================== */
+@import './components/header-footer-colors.css';
 @import './components/bootstrap-italia-classes.css';
 @import './design-comuni-visual-fix.css';
 
@@ -1481,4 +1482,115 @@ header.it-header-wrapper {
   max-width: 476px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+/* ========================================
+   HOMEPAGE PARITY PASS - GOVERNANCE + CONTACTS TUNING
+======================================== */
+.dc-homepage-parity #calendario .card-wrapper.card-teaser-wrapper-equal.card-teaser-block-3 {
+  gap: 12px !important;
+}
+
+.dc-homepage-parity #calendario .card-teaser-wrapper-equal > .card {
+  min-height: 226px !important;
+}
+
+.dc-homepage-parity #calendario .card-teaser .card-body,
+.dc-homepage-parity #calendario .card-teaser-image .card-body {
+  padding: 16px 16px 18px !important;
+}
+
+.dc-homepage-parity #calendario .card-teaser-image .card-image {
+  padding: 0 16px 14px !important;
+}
+
+.dc-homepage-parity #calendario .card-teaser-image .card-image img {
+  max-width: 96px !important;
+  max-height: 128px !important;
+}
+
+.dc-homepage-parity #calendario .card-teaser .read-more,
+.dc-homepage-parity #calendario .card-teaser-image .read-more {
+  font-size: 13px !important;
+  line-height: 18px !important;
+  padding: 10px 14px 10px !important;
+}
+
+.dc-homepage-parity .cmp-contacts {
+  padding-top: 14px !important;
+  padding-bottom: 22px !important;
+}
+
+.dc-homepage-parity .cmp-contacts .card {
+  max-width: 520px !important;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08) !important;
+}
+
+.dc-homepage-parity .cmp-contacts .card-body {
+  padding: 20px 24px !important;
+}
+
+/* ========================================
+   HOMEPAGE PARITY PASS - FINAL HERO/GOVERNANCE LOOP
+======================================== */
+.dc-homepage-parity #head-section .row.align-items-center.min-vh-lg-50 {
+  padding-top: 18px !important;
+  padding-bottom: 22px !important;
+}
+
+.dc-homepage-parity #head-section .card-title {
+  font-size: 31px !important;
+  line-height: 1.2 !important;
+}
+
+.dc-homepage-parity #head-section .lora {
+  font-size: 17px !important;
+  line-height: 1.5 !important;
+}
+
+.dc-homepage-parity #calendario .card-teaser-image .card-image img {
+  max-width: 88px !important;
+  max-height: 118px !important;
+  object-position: center top !important;
+}
+
+.dc-homepage-parity #calendario .card-teaser-image .card-body {
+  padding-bottom: 12px !important;
+}
+
+/* ========================================
+   READ MORE PARITY HOTFIX 4
+======================================== */
+.dc-homepage-parity #calendario .card-teaser > .read-more.ps-3,
+.dc-homepage-parity #calendario .card-teaser > .read-more,
+.dc-homepage-parity #calendario .card-teaser .read-more.ps-3,
+.dc-homepage-parity #calendario .card-teaser .read-more {
+  display: inline-flex !important;
+  width: auto !important;
+  max-width: max-content !important;
+  flex: 0 0 auto !important;
+  align-self: flex-start !important;
+  justify-content: normal !important;
+  gap: 0 !important;
+  padding: 16px 0 0 16px !important;
+  height: 40px !important;
+  min-height: 40px !important;
+  max-height: 40px !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  font-weight: 700 !important;
+  letter-spacing: normal !important;
+}
+
+.dc-homepage-parity #calendario .card-teaser > .read-more .icon,
+.dc-homepage-parity #calendario .card-teaser .read-more .icon {
+  margin-left: 8px !important;
+  transform: none !important;
+  width: 32px !important;
+  min-width: 32px !important;
+  max-width: 32px !important;
+  height: 16px !important;
+  min-height: 16px !important;
+  max-height: 16px !important;
+  flex: 0 0 32px !important;
 }

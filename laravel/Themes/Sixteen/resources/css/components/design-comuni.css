@@ -65,11 +65,24 @@
 /* Hero Component
    ========================================================================== */
 .it-hero-wrapper {
-    background-color: #0066CC; color: #FFFFFF; padding: 3rem 0;
+    background-color: #FFFFFF; 
+    color: #191919; 
+    padding: 3rem 0;
 }
 
-.it-hero-wrapper .title-xxxlarge {
-    @apply text-4xl md:text-5xl font-bold mb-4;
+.it-hero-wrapper.bg-dark {
+    background-color: #0066CC !important;
+    color: #FFFFFF !important;
+}
+
+.it-hero-wrapper .title-xxxlarge,
+.it-hero-wrapper h1 {
+    color: #191919 !important;
+}
+
+.it-hero-wrapper.bg-dark .title-xxxlarge,
+.it-hero-wrapper.bg-dark h1 {
+    color: #FFFFFF !important;
 }
 
 /* Featured News Component
