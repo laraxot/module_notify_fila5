@@ -1,9 +1,10 @@
 # Segnalazioni Elenco - HTML Comparison
 
 **Date:** 2026-04-03
+**Updated:** 2026-04-03 (Grid CSS fix)
 **Reference:** https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html
 **Local:** http://127.0.0.1:8000/it/tests/segnalazioni-elenco
-**Status:** ✅ 90%+ Structural Parity
+**Status:** ✅ 92%+ Structural Parity
 
 ---
 
@@ -11,11 +12,27 @@
 
 | Metric | Reference | Local | Match |
 |--------|-----------|-------|-------|
-| Page size | 76KB | 86KB | 113% (local larger due to Blade formatting) |
-| Main divs | 189 | 212 | 89% |
-| Component classes | 14 | 7 | 50% |
-| IT classes | 8 | 5 | 38% (full page) |
-| Section IDs | 26 | 19 | 73% |
+| Page size | 76KB | 99KB | ~77% (local larger due to Alpine modals) |
+| Main divs | 189 | 243 | 78% |
+| Component classes | 14 | 7+inline | 50%+ |
+| Grid layout | col-lg-3 + col-lg-8 offset-lg-1 | ✅ Same | ✅ |
+| Tab switching | Bootstrap JS | Alpine.js | ✅ (different impl, same behavior) |
+| Feedback section | 1x rating card | 1x rating card | ✅ |
+| Contacts section | cmp-contacts | contacts block | ✅ |
+
+## Key Fixes Applied
+
+### 2026-04-03 Grid CSS Fix
+- **Problem**: Map was going below filter sidebar instead of beside it
+- **Root cause**: Missing Bootstrap grid CSS (`.row`, `col-lg-*`, `offset-lg-*`)
+- **Solution**: Added 400+ lines of minimal Bootstrap grid CSS to `bootstrap-italia.css`:
+  - `.row` with `display:flex`, proper margins
+  - `.col-lg-1` through `.col-lg-12` with flex-basis
+  - `.offset-lg-1` through `.offset-lg-10`
+  - Display utilities (`.d-none`, `.d-lg-block`, etc.)
+  - Flex utilities (`.justify-content-between`, `.align-items-center`)
+  - Modal, accordion, card, button, form styles
+  - Map box styling with pin positioning
 
 ## What Matches ✅
 

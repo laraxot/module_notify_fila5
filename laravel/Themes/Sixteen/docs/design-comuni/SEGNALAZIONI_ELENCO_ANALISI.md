@@ -4,16 +4,16 @@
 
 - **Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html
 - **Local**: http://127.0.0.1:8000/it/tests/segnalazioni-elenco
-- **Data**: 2026-04-03
+- **Data**: 2026-04-04
 
 ## 📊 Metriche
 
 | Metrica | Valore |
 |---------|--------|
 | Reference righe | 1351 |
-| Local righe | 1339 |
-| Differenza | -12 righe |
-| Match % | 99.1% |
+| Local righe | 1243 |
+| Differenza | -108 righe |
+| Match % | 92.0% |
 
 ## 🧩 Componenti
 
@@ -59,4 +59,4 @@
 
 ---
 
-**Data**: 2026-04-03
+**Data**: 2026-04-04
