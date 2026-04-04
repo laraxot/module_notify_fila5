@@ -31,6 +31,18 @@ Alpine.data('dropdown', () => ({
     },
 }));
 
+// Generic components used by inline x-data (workaround for Alpine 3.15.x bug
+// where plain object literals in x-data trigger "r.call(...).catch is not a function")
+Alpine.data('accordionItem', () => ({ open: false }));
+Alpine.data('ratingInline', () => ({ rating: 0, hover: 0 }));
+
+// Segnalazioni elenco page: tabs + modals state
+Alpine.data('segnalazioniLayout', () => ({
+    activeTab: 'map',
+    showModal: false,
+    showFilterModal: false,
+}));
+
 Alpine.start();
 
 document.addEventListener('DOMContentLoaded', function() {

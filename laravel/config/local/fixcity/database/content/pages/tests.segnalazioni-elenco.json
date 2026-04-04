@@ -34,34 +34,6 @@
                 }
             },
             {
-                "type": "contacts",
-                "data": {
-                    "view": "pub_theme::components.blocks.contacts.faq",
-                    "contact_title": "Contatta il comune",
-                    "contacts": [
-                        {
-                            "label": "Richiedi assistenza",
-                            "url": "/it/tests/assistenza-01-dati"
-                        },
-                        {
-                            "label": "Chiama il numero verde 05 0505",
-                            "url": "tel:050505"
-                        },
-                        {
-                            "label": "Prenota appuntamento",
-                            "url": "/it/tests/appuntamento-01-ufficio"
-                        }
-                    ],
-                    "issues_title": "Problemi in città",
-                    "issues": [
-                        {
-                            "label": "Segnala disservizio",
-                            "url": "/it/tests/segnalazioni"
-                        }
-                    ]
-                }
-            },
-            {
                 "type": "segnalazioni-layout",
                 "data": {
                     "view": "pub_theme::components.blocks.segnalazioni.layout",
@@ -195,6 +167,34 @@
                             }
                         ]
                     }
+                }
+            },
+            {
+                "type": "contacts",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.faq",
+                    "contact_title": "Contatta il comune",
+                    "contacts": [
+                        {
+                            "label": "Richiedi assistenza",
+                            "url": "/it/tests/assistenza-01-dati"
+                        },
+                        {
+                            "label": "Chiama il numero verde 05 0505",
+                            "url": "tel:050505"
+                        },
+                        {
+                            "label": "Prenota appuntamento",
+                            "url": "/it/tests/appuntamento-01-ufficio"
+                        }
+                    ],
+                    "issues_title": "Problemi in città",
+                    "issues": [
+                        {
+                            "label": "Segnala disservizio",
+                            "url": "/it/tests/segnalazioni"
+                        }
+                    ]
                 }
             }
         ],
