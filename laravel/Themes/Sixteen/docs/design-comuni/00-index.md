@@ -17,6 +17,9 @@
 - **[SEGNALAZIONI_ELENCO_CSS_REPORT.md](./SEGNALAZIONI_ELENCO_CSS_REPORT.md)** - Report CSS fix (+327 lines)
 - **[SEGNALAZIONI_ELENCO_LAYOUT_FIX.md](./SEGNALAZIONI_ELENCO_LAYOUT_FIX.md)** - Fix layout mappa/filtri (101.1%)
 - **[SEGNALAZIONI_ELENCO_RATING_FIX.md](./SEGNALAZIONI_ELENCO_RATING_FIX.md)** - Fix rating duplicato (99.1%)
+- **[SEGNALAZIONI_ELENCO_TABS_ANALYSIS.md](./SEGNALAZIONI_ELENCO_TABS_ANALYSIS.md)** - Analisi tabs e bottoni
+- **[SEGNALAZIONI_ELENCO_ELEMENTI_ANALISI.md](./SEGNALAZIONI_ELENCO_ELEMENTI_ANALISI.md)** - Analisi completa elementi e fix modal
+- **[SEGNALAZIONI_ELENCO_FIX_COMPLETI.md](./SEGNALAZIONI_ELENCO_FIX_COMPLETI.md)** - Fix completi e analisi elementi (92.5%)
 - **[BATCH_PAGES_ANALYSIS.md](./BATCH_PAGES_ANALYSIS.md)** - Analisi batch 49 pagine
 - **[BATCH_PROGRESS_REPORT.md](./BATCH_PROGRESS_REPORT.md)** - Report progresso batch
 - **[FAIL_PAGES_DETAIL_REPORT.md](./FAIL_PAGES_DETAIL_REPORT.md)** - Analisi dettagliata 3 pagine fail
@@ -73,6 +76,7 @@ Il lavoro visivo resta limitato a:
 
 ## Active audit documents
 
+- [segnalazioni-elenco/README.md](./segnalazioni-elenco/README.md) - Layout combinato mappa/elenco con filtro e tab Alpine
 - [segnalazione-dettaglio/README.md](./segnalazione-dettaglio/README.md) - Implementazione e verifica della scheda servizio segnalazione disservizio
 - [ALL_PAGES_ANALYSIS.md](./ALL_PAGES_ANALYSIS.md) - Audit completo 54 pagine
 - [PROGRESS_REPORT.md](./PROGRESS_REPORT.md) - Report progresso

@@ -9,9 +9,34 @@
     $cta = $data['cta'] ?? [];
     $items = $data['items'] ?? [];
     $resultsCount = $data['results_count'] ?? 645;
+    $filters = $data['filters'] ?? [];
 @endphp
 
-<div class="col-lg-8 offset-lg-1">
+<div class="row segnalazioni-layout align-items-start gx-4">
+    <div class="col-lg-3 d-none d-lg-block">
+        <fieldset>
+            <legend class="h6 text-uppercase category-list__title">categoria</legend>
+            <div class="categoy-list pb-4">
+                <ul>
+                    @foreach(array_filter($filters ?? []) as $filter)
+                    <li>
+                        <div class="form-check">
+                            <div class="checkbox-body border-light py-1">
+                                <input type="checkbox" id="{{ $filter['id'] }}" name="category" value="{{ $filter['value'] ?? '' }}">
+                                <label for="{{ $filter['id'] }}" class="subtitle-small_semi-bold mb-0 category-list__list">
+                                    {{ $filter['label'] }} ({{ $filter['count'] ?? 0 }})
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    @endforeach
+                </ul>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="col-lg-9">
+
     <div class="d-flex justify-content-between border-bottom border-light pb-3 mt-5">
         <span class="search-results">{{ $resultsCount }} Risultati</span>
 
@@ -195,7 +220,8 @@
         </div>
     </div>
 </div>
-
+</div>
+</div>
 </div>
 {{-- Modal Disservizio --}}
 <div class="modal fade" tabindex="-1" role="dialog" id="modal-disservizio" aria-labelledby="modalDisservizioTitle">
