@@ -196,6 +196,7 @@
     </div>
 </div>
 
+</div>
 {{-- Modal Disservizio --}}
 <div class="modal fade" tabindex="-1" role="dialog" id="modal-disservizio" aria-labelledby="modalDisservizioTitle">
     <div class="modal-dialog" role="document">

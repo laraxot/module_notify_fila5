@@ -34,14 +34,6 @@
                 }
             },
             {
-                "type": "feedback",
-                "data": {
-                    "view": "pub_theme::components.blocks.feedback.faq-rating",
-                    "title": "Quanto sono chiare le informazioni su questa pagina?",
-                    "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
-                }
-            },
-            {
                 "type": "contacts",
                 "data": {
                     "view": "pub_theme::components.blocks.contacts.faq",
