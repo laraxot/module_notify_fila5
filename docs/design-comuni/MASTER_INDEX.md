@@ -56,6 +56,8 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 | **Segnalazioni Elenco Report** | [SEGNALAZIONI_ELENCO_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_REPORT.md) | Report segnalazioni elenco - TARGET RAGGIUNTO |
 | **Segnalazioni Elenco Visual** | [SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md) | Analisi visiva dettagliata |
 | **Segnalazioni Elenco CSS** | [SEGNALAZIONI_ELENCO_CSS_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_CSS_REPORT.md) | Report CSS fix (+327 lines) |
+| **Segnalazioni Elenco Layout Fix** | [SEGNALAZIONI_ELENCO_LAYOUT_FIX.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_LAYOUT_FIX.md) | Fix layout mappa/filtri (101.1%) |
+| **Segnalazioni Elenco Rating Fix** | [SEGNALAZIONI_ELENCO_RATING_FIX.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_RATING_FIX.md) | Fix rating duplicato (99.1%) |
 | **Batch Pages Analysis** | [BATCH_PAGES_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/BATCH_PAGES_ANALYSIS.md) | Analisi completa 49 pagine |
 | **Batch Progress Report** | [BATCH_PROGRESS_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/BATCH_PROGRESS_REPORT.md) | Report progresso batch |
 | **Fail Pages Detail** | [FAIL_PAGES_DETAIL_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/FAIL_PAGES_DETAIL_REPORT.md) | Analisi dettagliata 3 pagine fail |

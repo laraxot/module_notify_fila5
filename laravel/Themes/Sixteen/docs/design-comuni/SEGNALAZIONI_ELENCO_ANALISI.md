@@ -11,9 +11,9 @@
 | Metrica | Valore |
 |---------|--------|
 | Reference righe | 1351 |
-| Local righe | 1295 |
-| Differenza | -56 righe |
-| Match % | 95.9% |
+| Local righe | 1339 |
+| Differenza | -12 righe |
+| Match % | 99.1% |
 
 ## 🧩 Componenti
 

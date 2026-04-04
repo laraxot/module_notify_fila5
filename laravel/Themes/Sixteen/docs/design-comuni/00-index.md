@@ -16,6 +16,7 @@
 - **[SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md](./SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md)** - Analisi visiva dettagliata
 - **[SEGNALAZIONI_ELENCO_CSS_REPORT.md](./SEGNALAZIONI_ELENCO_CSS_REPORT.md)** - Report CSS fix (+327 lines)
 - **[SEGNALAZIONI_ELENCO_LAYOUT_FIX.md](./SEGNALAZIONI_ELENCO_LAYOUT_FIX.md)** - Fix layout mappa/filtri (101.1%)
+- **[SEGNALAZIONI_ELENCO_RATING_FIX.md](./SEGNALAZIONI_ELENCO_RATING_FIX.md)** - Fix rating duplicato (99.1%)
 - **[BATCH_PAGES_ANALYSIS.md](./BATCH_PAGES_ANALYSIS.md)** - Analisi batch 49 pagine
 - **[BATCH_PROGRESS_REPORT.md](./BATCH_PROGRESS_REPORT.md)** - Report progresso batch
 - **[FAIL_PAGES_DETAIL_REPORT.md](./FAIL_PAGES_DETAIL_REPORT.md)** - Analisi dettagliata 3 pagine fail
