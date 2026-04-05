@@ -24,6 +24,7 @@
 - **[BATCH_PROGRESS_REPORT.md](./BATCH_PROGRESS_REPORT.md)** - Report progresso batch
 - **[FAIL_PAGES_DETAIL_REPORT.md](./FAIL_PAGES_DETAIL_REPORT.md)** - Analisi dettagliata 3 pagine fail
 - **[FAIL_PAGES_FIX_REPORT.md](./FAIL_PAGES_FIX_REPORT.md)** - Report fix pagine fail
+- **[css-js-pass-2026-04-04.md](./css-js-pass-2026-04-04.md)** - Pass operativo CSS/JS con screenshot aggiornati e blocker JSON/Blade
 
 ## Current focus
 
