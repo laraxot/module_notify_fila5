@@ -103,3 +103,8 @@ Analizzate tutte le pagine di test confrontando:
 - NO Bootstrap Italia
 - Tailwind CSS + Alpine.js only
 - Build: `npm run build` from laravel/Themes/Sixteen
+
+## Extra Reports
+
+- [live-parity-2026-04-04.md](../live-parity-2026-04-04.md) - live screenshot findings for lista-risorse, amministrazione, segnalazioni-elenco
+- [LIVE_BODY_PARITY_REPORT.md](../LIVE_BODY_PARITY_REPORT.md) - current live body audit from the running app

@@ -52,6 +52,46 @@
                         {"label": "Bandi e avvisi", "url": "/it/tests/documenti-dati", "description": "Bandi di gara e avvisi pubblici"}
                     ]
                 }
+            },
+            {
+                "type": "feedback",
+                "data": {
+                    "view": "pub_theme::components.blocks.feedback.rating",
+                    "title": "Quanto è facile trovare informazioni su questa pagina?",
+                    "rating_stars": 5,
+                    "positive_label": "Facile",
+                    "negative_label": "Poco facile",
+                    "comment_placeholder": "Hai qualche suggerimento? Faccelo sapere con un breve commento.",
+                    "submit_label": "Invia feedback"
+                }
+            },
+            {
+                "type": "contacts",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.default",
+                    "title": "Contatti",
+                    "phone": "06 1234567",
+                    "email": "amministrazione@comune.italia.it",
+                    "certified_email": "comune@pec.italia.it",
+                    "address": "Via Roma 1, 00100 Roma"
+                }
+            },
+            {
+                "type": "faq",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.faq",
+                    "title": "Domande frequenti",
+                    "questions": [
+                        {
+                            "question": "Come è composto il consiglio comunale?",
+                            "answer": "Il Consiglio comunale è formato da membri eletti dai cittadini. Rimane in carica per 5 anni."
+                        },
+                        {
+                            "question": "Come posso partecipare alle sedute del consiglio?",
+                            "answer": "Le sedute del consiglio sono pubbliche. Puoi consultare il calendario sul sito del Comune."
+                        }
+                    ]
+                }
             }
         ],
         "en": []
