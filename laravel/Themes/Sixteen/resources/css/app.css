@@ -37,6 +37,7 @@
 @import './homepage-visual-fix.css';
 @import './listing-parity.css';
 @import './servizi-parity-fix.css';
+@import './amministrazione-parity-fix.css';
 /* ========================================
    FINAL HOMEPAGE PARITY OVERRIDES
    Colors VERIFIED from reference 2026-04-02
@@ -2169,57 +2170,122 @@ main[data-page="segnalazioni-elenco"] .search-results {
   color: #5c6f82;
 }
 
-main[data-page="segnalazioni-elenco"] .nav-tabs {
-  margin-top: 1rem !important;
-  margin-bottom: 1.5rem !important;
-}
-
-main[data-page="segnalazioni-elenco"] .nav-tabs .nav-link {
-  padding-bottom: 0.875rem !important;
-  font-size: 0.95rem;
-}
 
 main[data-page="segnalazioni-elenco"] .map-box {
-  overflow: hidden;
+  margin-top: 1rem;
+  border-radius: 0;
   border: 1px solid #d9e1e8;
-  background: #f5f7f9;
+  background: #fff;
+  padding: 0;
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.08);
 }
 
-main[data-page="segnalazioni-elenco"] .map-box > img {
+main[data-page="segnalazioni-elenco"] .map-box img {
   display: block;
-  width: 100%;
-  aspect-ratio: 16 / 10;
+  border-radius: 0;
+  height: 26rem;
   object-fit: cover;
 }
 
 main[data-page="segnalazioni-elenco"] .cmp-text-button {
-  max-width: 24rem;
+  background: #fff;
+  border-radius: 0;
+  border: 1px solid #d9e1e8;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  padding: 2rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-text-button h2 {
+  font-size: 2.25rem;
+  line-height: 1.1;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-info-button-card,
+main[data-page="segnalazioni-elenco"] .cmp-info-summary {
+  border-radius: 0;
+  border: 1px solid #d9e1e8;
+  background: #fff;
+  box-shadow: none;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-info-summary .card {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-card {
+  border-radius: 0;
+  border: 1px solid #d9e1e8;
+  box-shadow: none;
+  background: #fff;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-card .card.has-bkg-grey {
+  border: none;
+  box-shadow: none;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-info-summary .cmp-info-summary__icon,
+main[data-page="segnalazioni-elenco"] .cmp-info-summary .single-line-info {
+  padding: 1rem 1.25rem;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-info-summary .card-body .single-line-info {
+  border-bottom: 1px solid #edf0f4;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-info-summary .single-line-info:last-child {
+  border-bottom: none;
+}
+
+main[data-page="segnalazioni-elenco"] .category-list__list {
+  color: #1f2d3d;
+  font-size: 0.875rem;
+  letter-spacing: 0.01em;
+}
+
+main[data-page="segnalazioni-elenco"] .nav-tabs {
+  border: none !important;
+}
+
+main[data-page="segnalazioni-elenco"] .nav-tabs .nav-link {
+  border: none;
+  background: transparent;
+  padding-bottom: 0.5rem;
+}
+
+main[data-page="segnalazioni-elenco"] .nav-tabs .nav-link.active {
+  border-bottom: 2px solid #007a52;
+  color: #1f2d3d;
 }
 
 main[data-page="segnalazioni-elenco"] .cmp-rating {
-  padding-top: 2.75rem !important;
-  padding-bottom: 2.75rem !important;
+  background: #007a52;
+  color: #fff;
+  margin-top: 3rem;
+  padding: 3rem 1rem;
 }
 
-main[data-page="segnalazioni-elenco"] .cmp-rating .card,
-main[data-page="segnalazioni-elenco"] .cmp-rating .card-wrapper {
-  max-width: 22rem;
+main[data-page="segnalazioni-elenco"] .cmp-rating__card-first {
+  max-width: 34rem;
   margin: 0 auto;
+  background: transparent;
 }
 
-main[data-page="segnalazioni-elenco"] .cmp-rating .button-shadow,
-main[data-page="segnalazioni-elenco"] .cmp-rating .btn-back,
-main[data-page="segnalazioni-elenco"] .cmp-rating .btn-next {
-  display: none !important;
+main[data-page="segnalazioni-elenco"] .cmp-rating__card-first .card-body {
+  padding: 0;
 }
 
-main[data-page="segnalazioni-elenco"] .cmp-rating fieldset.rating {
-  justify-content: flex-start !important;
+main[data-page="segnalazioni-elenco"] .cmp-contacts {
+  margin-top: 2rem;
 }
 
-main[data-page="segnalazioni-elenco"] .cmp-rating .rating-star svg {
-  width: 1.25rem;
-  height: 1.25rem;
+main[data-page="segnalazioni-elenco"] .cmp-contacts .cmp-contacts__container .card {
+  border: 1px solid #d9e1e8;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 main[data-page="amministrazione"] .cmp-hero .it-hero-text-wrapper {
