@@ -2473,3 +2473,39 @@ main[data-page="lista-risorse"] .useful-links-section .section.section-muted {
     max-width: 33.333333% !important;
   }
 }
+/* ========================================
+   SEGNALAZIONI ELENCO MOBILE TUNING - 2026-04-06
+======================================== */
+main[data-page="segnalazioni-elenco"] .cmp-rating .cmp-rating__card-second,
+main[data-page="segnalazioni-elenco"] .cmp-rating .form-rating {
+  display: none;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-rating .button-wrapper,
+main[data-page="segnalazioni-elenco"] .cmp-rating button {
+  display: none;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-rating fieldset.rating {
+  justify-content: center !important;
+}
+
+main[data-page="segnalazioni-elenco"] .cmp-contacts .cmp-contacts__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (max-width: 991px) {
+  main[data-page="segnalazioni-elenco"] .map-box img {
+    height: 22rem;
+  }
+
+  main[data-page="segnalazioni-elenco"] .cmp-contacts .cmp-contacts__container {
+    gap: 0.75rem;
+  }
+
+  main[data-page="segnalazioni-elenco"] .cmp-text-button {
+    padding: 1.5rem 1rem;
+  }
+}

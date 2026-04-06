@@ -1461,7 +1461,188 @@ hr {
   background-color: var(--bs-gray-100);
 }
 
-/* Typography - Bootstrap Italia style with @apply */
+/* ============================================================================
+   CARD COMPONENTS - Bootstrap Italia Exact Mapping
+   Missing classes added to match reference implementation
+   ============================================================================ */
+
+/* Card Teaser - Main card style for listings */
+.card-teaser {
+  @apply bg-white rounded border border-gray-200 transition-all duration-200;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card-teaser:hover {
+  @apply border-blue-600;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.card-teaser .card-body {
+  @apply p-6;
+}
+
+.card-teaser .card-title {
+  @apply text-blue-600 text-lg font-semibold mb-2 leading-tight;
+}
+
+.card-teaser .card-title a {
+  @apply text-blue-600 no-underline hover:text-blue-800;
+}
+
+.card-teaser .card-text {
+  @apply text-gray-500 text-base leading-relaxed mt-0;
+}
+
+/* CMP Card Simple - Simple card component */
+.cmp-card-simple {
+  @apply bg-white rounded-lg;
+}
+
+.cmp-card-simple .card {
+  @apply border border-gray-200 rounded shadow-sm transition-all duration-200 h-full;
+}
+
+.cmp-card-simple .card:hover {
+  @apply border-blue-600;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.cmp-card-simple .card-body {
+  @apply p-6;
+}
+
+.cmp-card-simple .card-title {
+  @apply text-blue-600 text-base font-semibold mb-2 leading-tight;
+}
+
+.cmp-card-simple .card-title.t-primary,
+.cmp-card-simple h3.t-primary {
+  color: #0066cc !important;
+}
+
+.cmp-card-simple .description {
+  @apply text-gray-500 text-sm leading-relaxed;
+}
+
+/* ============================================================================
+   SECTION SPACING - Bootstrap Italia standard
+   ============================================================================ */
+
+/* Standard section spacing */
+section.py-5 {
+  @apply py-12;
+}
+
+section.py-4 {
+  @apply py-8;
+}
+
+/* ============================================================================
+   LINK LIST - Bootstrap Italia links list component
+   ============================================================================ */
+
+.link-list-wrapper {
+  @apply bg-white rounded-lg;
+}
+
+.link-list-wrapper ul {
+  @apply list-none p-0 m-0;
+}
+
+.link-list-wrapper .link-list {
+  @apply space-y-2;
+}
+
+.link-list-wrapper .list-item {
+  @apply border border-gray-200 rounded-lg p-4 transition-all duration-200;
+}
+
+.link-list-wrapper .list-item:hover {
+  @apply border-blue-600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.link-list-wrapper .list-item a {
+  @apply text-blue-600 text-lg font-semibold block mb-1 no-underline hover:underline;
+}
+
+.link-list-wrapper .list-item .description,
+.link-list-wrapper .list-item p {
+  @apply text-gray-500 text-sm leading-relaxed m-0;
+}
+
+/* ============================================================================
+   ACCORDION - Bootstrap Italia accordion component
+   ============================================================================ */
+
+.accordion {
+  @apply space-y-2;
+}
+
+.accordion .accordion-item {
+  @apply border border-gray-200 rounded-lg overflow-hidden;
+}
+
+.accordion .accordion-header {
+  @apply m-0;
+}
+
+.accordion .accordion-button {
+  @apply w-full px-6 py-4 bg-white text-gray-900 text-lg font-semibold text-left cursor-pointer border-0 transition-colors duration-200 flex justify-between items-center;
+}
+
+.accordion .accordion-button:hover {
+  @apply bg-blue-50;
+}
+
+.accordion .accordion-button:not(.collapsed)::after {
+  content: '−' !important;
+  @apply text-blue-600 text-2xl font-light;
+}
+
+.accordion .accordion-button.collapsed::after {
+  content: '+' !important;
+  @apply text-blue-600 text-2xl font-light;
+}
+
+.accordion .accordion-body {
+  @apply px-6 pb-4 text-gray-500 text-base leading-relaxed;
+}
+
+/* ============================================================================
+   RATING COMPONENT - Bootstrap Italia rating component
+   ============================================================================ */
+
+.cmp-rating {
+  @apply py-8;
+}
+
+.cmp-rating .card-wrapper {
+  @apply bg-blue-50 rounded-lg p-6 text-center;
+}
+
+.cmp-rating .card-header {
+  @apply mb-4;
+}
+
+.cmp-rating .title-medium-2-semi-bold {
+  @apply text-2xl font-semibold text-gray-900;
+}
+
+.cmp-rating__card-first,
+.cmp-rating__card-second {
+  @apply inline-flex items-center justify-center w-10 h-10 rounded-full mx-1 cursor-pointer transition-transform duration-150;
+}
+
+.cmp-rating__card-first:hover,
+.cmp-rating__card-second:hover {
+  @apply scale-115;
+}
+
+/* ============================================================================
+   CONTACT LIST - Bootstrap Italia contact list component
+   ============================================================================ */
 .title-medium-2-semi-bold {
   @apply text-xl font-semibold text-gray-900;
   color: var(--bs-dark);
