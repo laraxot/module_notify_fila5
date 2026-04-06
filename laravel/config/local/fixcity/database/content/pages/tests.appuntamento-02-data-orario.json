@@ -9,34 +9,29 @@
     "content_blocks": {
         "it": [
             {
-                "type": "tests",
+                "type": "flow-stepper",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Appuntamento - Step 2 data e orario",
-                    "category": "Prenotazione Appuntamento",
-                    "summary": "La schermata di selezione della data e ora dell'appuntamento.",
-                    "slug": "tests.appuntamento-02-data-orario"
+                    "title": "Prenotazione appuntamento",
+                    "description": "Compila il form per prenotare un appuntamento presso gli uffici comunali",
+                    "steps": [
+                        {"title": "Ufficio", "description": "Seleziona l'ufficio", "completed": true},
+                        {"title": "Data e orario", "description": "Scegli quando", "completed": false},
+                        {"title": "Dettagli", "description": "Motivo della visita", "completed": false, "disabled": true},
+                        {"title": "Dati anagrafici", "description": "I tuoi dati", "completed": false, "disabled": true},
+                        {"title": "Riepilogo", "description": "Conferma i dati", "completed": false, "disabled": true},
+                        {"title": "Conferma", "description": "Appuntamento prenotato", "completed": false, "disabled": true}
+                    ],
+                    "currentStep": 2,
+                    "navigable": false,
+                    "view": "pub_theme::components.blocks.flow.stepper"
                 }
             },
             {
-                "type": "tests",
+                "type": "flow-data-orario",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "Il template finale richiede almeno stepper, calendario/orari e riepilogo contestuale."
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-02-data-orario.html"
+                    "view": "pub_theme::components.blocks.flow.appuntamento.02-data-orario",
+                    "title": "Seleziona data e orario",
+                    "description": "Scegli il giorno e l'orario del tuo appuntamento"
                 }
             }
         ],

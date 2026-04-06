@@ -100,6 +100,7 @@
 | [Design Comuni Screenshots](./screenshots/) | 📁 | Visual comparisons |
 | [FAQ Page Parity](./FAQ-PARITY.md) | ✅ | FAQ page visual parity |
 | [Homepage Parity](./homepage-parity-2026-04-02.md) | ✅ | Homepage visual parity |
+| [Visual Parity Analysis](./visual-parity/00-INDEX.md) | ✅ NEW | Cross-page visual comparison |
 
 ### 🔗 Bidirectional Links
 

@@ -70,18 +70,22 @@ These local pages have ~8500 tags vs ~700-790 in the reference:
 
 | Page | Similarity | Ref Tags | Local Tags | Issue |
 |------|-----------|----------|------------|-------|
-| prenotazione-appuntamento | 0% | 20 | 8504 | Local has ALL blocks rendered |
-| segnalazione-disservizio | 0% | 20 | 8504 | Local has ALL blocks rendered |
-| documenti-dati | 7% | 702 | 8504 | Local has ALL blocks rendered |
-| novita | 7% | 713 | 8504 | Local has ALL blocks rendered |
-| eventi | 7% | 791 | 8504 | Local has ALL blocks rendered |
+| prenotazione-appuntamento | 0% | 20 | 8504 | Block view not found, page renders empty + debug toolbar |
+| segnalazione-disservizio | 0% | 20 | 8504 | Block view not found, page renders empty + debug toolbar |
+| documenti-dati | 7% | 702 | 8504 | Block view not found, page renders empty + debug toolbar |
+| novita | 7% | 713 | 8504 | Block view not found, page renders empty + debug toolbar |
+| eventi | 7% | 791 | 8504 | Block view not found, page renders empty + debug toolbar |
 
-**Root Cause:** The local pages are rendering **ALL content blocks from ALL pages** instead of just the blocks for the specific page. The reference page has 20 tags for `prenotazione-appuntamento` (likely a minimal placeholder), while the local page has 8504 tags because it's dumping every single block view.
+**Root Cause:** The JSON files reference block views that don't exist:
+- `pub_theme::components.blocks.events.list` — only `calendar.blade.php` exists
+- `pub_theme::components.blocks.news.list` — view doesn't exist
+- `pub_theme::components.blocks.documents.list` — view doesn't exist
+- `pub_theme::components.blocks.appointment.booking` — view doesn't exist
+- `pub_theme::components.blocks.report.layout` — view doesn't exist
 
-**This indicates a bug in the block rendering pipeline:**
-- The `<x-page>` component or `Page::getBlocksBySlug()` is returning ALL blocks instead of filtering by page slug
-- OR the JSON content for these pages contains references to all blocks
-- OR there's a fallback/default that renders everything when a specific page isn't found
+When the BlockData constructor can't find the view, it throws an exception. The exception bubbles up through the `@include` which silently fails (or renders empty). The page renders with just the layout + Laravel Boost debug toolbar (8504 tags of debug output).
+
+**Fix needed:** Create the missing block view files for each page type.
 
 ---
 

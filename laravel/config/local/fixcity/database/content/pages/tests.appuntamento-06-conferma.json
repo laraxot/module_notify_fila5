@@ -12,7 +12,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Prenotazione appuntamento", "url": "/it/tests/appuntamento-01-ufficio"},
@@ -23,7 +23,7 @@
             {
                 "type": "confirmation",
                 "data": {
-                    "view": "pub_theme::blocks.confirmation.appointment",
+                    "view": "pub_theme::components.blocks.confirmation.appointment",
                     "title": "Appuntamento confermato",
                     "description": "La tua prenotazione è stata registrata con successo",
                     "reference_number": "FC-AP-2026-0417",

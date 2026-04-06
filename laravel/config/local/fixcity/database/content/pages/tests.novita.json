@@ -12,7 +12,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Novità", "url": null}
@@ -22,7 +22,7 @@
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::blocks.hero.default",
+                    "view": "pub_theme::components.blocks.hero.default",
                     "title": "Novità",
                     "subtitle": "Comunicati, avvisi e notizie",
                     "content": "<p>Rimani aggiornato sulle ultime novità del tuo Comune</p>"
@@ -31,7 +31,7 @@
             {
                 "type": "news-list",
                 "data": {
-                    "view": "pub_theme::blocks.news.list",
+                    "view": "pub_theme::components.blocks.news.list",
                     "items": [
                         {
                             "category": "Notizie",

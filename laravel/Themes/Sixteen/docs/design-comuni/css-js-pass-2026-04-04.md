@@ -90,3 +90,32 @@ Regola confermata dal pass:
 - Indice Design Comuni: [00-index.md](./00-index.md)
 - Piano master: [MASTER_IMPLEMENTATION_PLAN.md](./MASTER_IMPLEMENTATION_PLAN.md)
 - Report batch body parity: [BATCH_BODY_PARITY_REPORT.md](./BATCH_BODY_PARITY_REPORT.md)
+
+## Secondo loop 2026-04-05
+
+Screenshot aggiuntivo:
+- Locale pass 2: [screenshots/lista-risorse/local-pass2.png](./screenshots/lista-risorse/local-pass2.png)
+
+Esito:
+- confermato che il solo CSS/JS puo rifinire la presentazione del blocco feedback
+- confermato che il box `Contatta il comune` della reference non e riproducibile senza markup equivalente nel locale
+- confermato che `mappa-sito` resta fuori perimetro visual-only finche la struttura non cambia
+
+Decisione aggiornata:
+- continuare CSS/JS solo sulle pagine dove la parte bassa del body ha gia blocchi equivalenti
+- aprire o assegnare pass Blade/JSON per `mappa-sito` e per i blocchi mancanti di `lista-risorse`
+
+## Segnalazioni: struttura e next steps
+
+Il batch `BATCH_BODY_PARITY_REPORT.md` segnala queste percentuali di match tra body reference e locale:
+
+- `segnalazione-disservizio`: match 23.8% (reference 404, locale 500) → pagina non renderizzata; serve ripristinare il JSON/Blade prima di qualsiasi CSS.
+- `segnalazione-01-privacy`: match 57.9% (tag-count 430/384); struttura molto diversa → non vale il pass CSS-only.
+- `segnalazione-02-dati`: 46.0% (tag-count 559/384); drift di markup evidente.
+- `segnalazione-03-riepilogo`: 48.7% (tag-count 523/384).
+- `segnalazione-04-conferma`: 44.2% (tag-count 551/384).
+- `segnalazione-area-personale`: 19.2% (tag-count 886/384) — decisamente fuori soglia.
+- `segnalazioni-elenco`: 32.4% (tag-count 775/384).
+- `segnalazione-dettaglio`: 31.1% (tag-count 804/384).
+
+Tutti i casi sopra riportano `main structure drift`, quindi la struttura del `body` locale non ha ancora i contenuti/block corrispondenti alla reference (molti `<article>` trasformati in `<section>`, numero di tag molto diverso, reference non disponibile o 500 locale). Non ha senso spingere solo CSS/JS: dobbiamo prima riallineare Blade/JSON o almeno rendere il markup più simile (per esempio creare i blocchi mancanti nei file JSON). Una volta raggiunto il ~90% strutturale possiamo tornare a `page-parity.css` con un pass di visual polishing.
