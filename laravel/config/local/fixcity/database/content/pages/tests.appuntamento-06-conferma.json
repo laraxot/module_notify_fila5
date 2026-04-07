@@ -1,0 +1,56 @@
+{
+    "id": "tests.appuntamento-06-conferma",
+    "title": {
+        "it": "Appuntamento confermato",
+        "en": "Appointment confirmed"
+    },
+    "slug": "tests.appuntamento-06-conferma",
+    "category": "Prenotazione Appuntamento",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Prenotazione appuntamento", "url": "/it/tests/appuntamento-01-ufficio"},
+                        {"label": "Conferma", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "confirmation",
+                "data": {
+                    "view": "pub_theme::components.blocks.confirmation.appointment",
+                    "title": "Appuntamento confermato",
+                    "description": "La tua prenotazione è stata registrata con successo",
+                    "reference_number": "FC-AP-2026-0417",
+                    "details": {
+                        "Servizio": "Richiesta carta d'identità elettronica",
+                        "Sede": "Municipio, sportello servizi demografici",
+                        "Data": "Mercoledì 17 aprile 2026",
+                        "Ora": "10:30",
+                        "Codice prenotazione": "FC-AP-2026-0417"
+                    },
+                    "next_steps": [
+                        "Presentati allo sportello 10 minuti prima",
+                        "Porta con te un documento di identità valido",
+                        "Porta una fototessera recente",
+                        "Porta il codice fiscale"
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

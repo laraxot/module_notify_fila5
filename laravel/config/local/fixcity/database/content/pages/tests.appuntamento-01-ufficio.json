@@ -1,0 +1,54 @@
+{
+    "id": "tests.appuntamento-01-ufficio",
+    "title": {
+        "it": "Appuntamento - Step 1 ufficio",
+        "en": "Appuntamento - Step 1 ufficio"
+    },
+    "slug": "tests.appuntamento-01-ufficio",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "flow-stepper",
+                "data": {
+                    "title": "Prenotazione appuntamento",
+                    "description": "Compila il form per prenotare un appuntamento presso gli uffici comunali",
+                    "steps": [
+                        {"title": "Ufficio", "description": "Seleziona l'ufficio", "completed": false},
+                        {"title": "Data e orario", "description": "Scegli quando", "completed": false, "disabled": true},
+                        {"title": "Dettagli", "description": "Motivo della visita", "completed": false, "disabled": true},
+                        {"title": "Dati anagrafici", "description": "I tuoi dati", "completed": false, "disabled": true},
+                        {"title": "Riepilogo", "description": "Conferma i dati", "completed": false, "disabled": true},
+                        {"title": "Conferma", "description": "Appuntamento prenotato", "completed": false, "disabled": true}
+                    ],
+                    "currentStep": 1,
+                    "navigable": false,
+                    "view": "pub_theme::components.blocks.flow.stepper"
+                }
+            },
+            {
+                "type": "flow-ufficio",
+                "data": {
+                    "view": "pub_theme::components.blocks.flow.appuntamento.01-ufficio",
+                    "title": "Seleziona l'ufficio",
+                    "description": "Scegli l'ufficio presso cui presentarti",
+                    "offices": [
+                        {"id": "anagrafe", "name": "Ufficio Anagrafe", "address": "Via Roma, 1 - Piano 1", "phone": "06 1234567"},
+                        {"id": "urbanistica", "name": "Ufficio Urbanistica", "address": "Via Milano, 15 - Piano 2", "phone": "06 1234568"},
+                        {"id": "tesoreria", "name": "Ufficio Tributi e Tesoreria", "address": "Via Napoli, 22 - Piano 1", "phone": "06 1234569"},
+                        {"id": "tecnico", "name": "Ufficio Tecnico", "address": "Via Engineering, 8 - Piano 3", "phone": "06 1234570"}
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

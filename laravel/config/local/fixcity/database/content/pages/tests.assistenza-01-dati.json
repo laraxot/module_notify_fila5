@@ -1,0 +1,49 @@
+{
+    "id": "tests.assistenza-01-dati",
+    "title": {
+        "it": "Richiesta assistenza - Inserimento dati",
+        "en": "Assistance request - Data entry"
+    },
+    "slug": "tests.assistenza-01-dati",
+    "category": "Richiesta Assistenza",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Richiesta assistenza", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "form",
+                "data": {
+                    "view": "pub_theme::components.blocks.form.assistance",
+                    "title": "Inserisci i tuoi dati",
+                    "description": "Compila il modulo per richiedere assistenza",
+                    "fields": [
+                        {"name": "nome", "label": "Nome", "type": "text", "required": true},
+                        {"name": "cognome", "label": "Cognome", "type": "text", "required": true},
+                        {"name": "email", "label": "Email", "type": "email", "required": true},
+                        {"name": "telefono", "label": "Telefono", "type": "tel", "required": false},
+                        {"name": "oggetto", "label": "Oggetto", "type": "text", "required": true},
+                        {"name": "messaggio", "label": "Messaggio", "type": "textarea", "required": true}
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

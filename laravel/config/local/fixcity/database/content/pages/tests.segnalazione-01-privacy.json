@@ -1,0 +1,52 @@
+{
+    "id": "tests.segnalazione-01-privacy",
+    "title": {
+        "it": "Segnalazione - Step 1 privacy",
+        "en": "Segnalazione - Step 1 privacy"
+    },
+    "slug": "tests.segnalazione-01-privacy",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "flow-stepper",
+                "data": {
+                    "title": "Segnalazione disservizio",
+                    "description": "Segnala un disservizio riscontrato",
+                    "steps": [
+                        {"title": "Autorizzazioni e condizioni", "description": "Informativa e consenso", "completed": false},
+                        {"title": "Dati di segnalazione", "description": "I tuoi dati", "completed": false},
+                        {"title": "Riepilogo", "description": "Verifica e invia", "completed": false}
+                    ],
+                    "currentStep": 1,
+                    "navigable": false,
+                    "view": "pub_theme::components.blocks.flow.stepper"
+                }
+            },
+            {
+                "type": "flow-segnalazione-privacy",
+                "data": {
+                    "view": "pub_theme::components.blocks.flow.segnalazione.01-privacy",
+                    "title": "Informativa sulla privacy",
+                    "privacyText": "Il Comune di Firenze gestisce i dati personali conferiti con il presente modulo per le finalità connesse alla gestione della segnalazione, ai sensi dell'articolo 13 del Regolamento (UE) 2016/679 (GDPR) e del d.lgs 267/2000. Per i dettagli sul trattamento dei dati personali consulta l'informativa sulla privacy."
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [
+            {
+                "type": "contacts",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.faq"
+                }
+            }
+        ],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "id": "tests.servizi",
+    "title": {
+        "it": "Servizi",
+        "en": "Services"
+    },
+    "slug": "tests.servizi",
+    "category": "Servizi",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Servizi", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Servizi",
+                    "subtitle": "Servizi digitali del Comune",
+                    "content": "<p>Accedi ai servizi online. Autenticati con SPID o CIE per usufruire dei servizi digitali.</p>"
+                }
+            },
+            {
+                "type": "services-grid",
+                "data": {
+                    "view": "pub_theme::components.blocks.services.grid",
+                    "title": "Tutti i servizi",
+                    "services": [
+                        {"title": "Anagrafe", "description": "Servizi demografici e stato civile", "url": "/it/tests/servizio-dettaglio", "icon": "it-user"},
+                        {"title": "Cultura", "description": "Eventi, biblioteche e musei", "url": "/it/tests/servizio-dettaglio", "icon": "it-camera"},
+                        {"title": "Mobilità", "description": "Trasporti, traffico e parcheggi", "url": "/it/tests/servizio-dettaglio", "icon": "it-bus"},
+                        {"title": "Ambiente", "description": "Rifiuti, verde pubblico e sostenibilità", "url": "/it/tests/servizio-dettaglio", "icon": "it-leaf"},
+                        {"title": "Polizia locale", "description": "Sicurezza e ordinanze comunali", "url": "/it/tests/servizio-dettaglio", "icon": "it-shield"},
+                        {"title": "Servizi sociali", "description": "Assistenza e sostegno alla persona", "url": "/it/tests/servizio-dettaglio", "icon": "it-users"}
+                    ]
+                }
+            },
+            {
+                "type": "feedback",
+                "data": {
+                    "view": "pub_theme::components.blocks.feedback.rating",
+                    "title": "Quanto è facile usare questa pagina?",
+                    "rating_stars": 5,
+                    "positive_label": "Facile",
+                    "negative_label": "Poco facile",
+                    "comment_placeholder": "Hai qualche suggerimento? Faccelo sapere con un breve commento. Non ti chiederemo dati personali, così puoi scrivere in libertà.",
+                    "submit_label": "Invia feedback"
+                }
+            },
+            {
+                "type": "contacts",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.default",
+                    "title": "Contatti",
+                    "phone": "06 1234567",
+                    "email": "servizi@comune.italia.it",
+                    "certified_email": "comune@pec.italia.it",
+                    "address": "Via Roma 1, 00100 Roma"
+                }
+            },
+            {
+                "type": "appointment-booking",
+                "data": {
+                    "view": "pub_theme::components.blocks.booking.default",
+                    "title": "Prenota un appuntamento",
+                    "description": "Prenota un appuntamento per ricevere assistenza personalizzata sui servizi.",
+                    "button_label": "Prenota ora",
+                    "url": "/it/tests/prenotazione-appuntamento"
+                }
+            },
+            {
+                "type": "faq",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.faq",
+                    "title": "Domande frequenti",
+                    "questions": [
+                        {
+                            "question": "Come posso accedere ai servizi online?",
+                            "answer": "Puoi accedere con SPID (Sistema Pubblico di Identità Digitale) o CIE (Carta d'Identità Elettronica)."
+                        },
+                        {
+                            "question": "Come prenoto un appuntamento?",
+                            "answer": "Puoi prenotare un appuntamento direttamente online selezionando il servizio di tuo interesse."
+                        },
+                        {
+                            "question": "Come posso inviare una segnalazione?",
+                            "answer": "Puoi inviare una segnalazione compilando l'apposito modulo disponibile nella sezione dedicata."
+                        }
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

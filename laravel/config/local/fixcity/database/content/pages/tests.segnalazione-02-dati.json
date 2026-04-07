@@ -1,0 +1,51 @@
+{
+    "id": "tests.segnalazione-02-dati",
+    "title": {
+        "it": "Segnalazione - Step 2 dati",
+        "en": "Segnalazione - Step 2 dati"
+    },
+    "slug": "tests.segnalazione-02-dati",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "flow-stepper",
+                "data": {
+                    "title": "Segnalazione disservizio",
+                    "description": "Segnala un disservizio riscontrato",
+                    "steps": [
+                        {"title": "Autorizzazioni e condizioni", "description": "Informativa e consenso", "completed": true},
+                        {"title": "Dati di segnalazione", "description": "I tuoi dati", "completed": false},
+                        {"title": "Riepilogo", "description": "Verifica e invia", "completed": false}
+                    ],
+                    "currentStep": 2,
+                    "navigable": false,
+                    "view": "pub_theme::components.blocks.flow.stepper"
+                }
+            },
+            {
+                "type": "flow-segnalazione-dati",
+                "data": {
+                    "view": "pub_theme::components.blocks.flow.segnalazione.02-dati",
+                    "title": "Dati di segnalazione"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [
+            {
+                "type": "contacts",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.faq"
+                }
+            }
+        ],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

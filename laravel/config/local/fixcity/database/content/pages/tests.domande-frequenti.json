@@ -1,0 +1,143 @@
+{
+    "id": "tests-domande-frequenti",
+    "title": {
+        "it": "Domande frequenti",
+        "en": "FAQ"
+    },
+    "slug": "tests.domande-frequenti",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Domande frequenti", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Domande frequenti",
+                    "subtitle": "Elenco di risposte alle domande più frequenti raccolte dalle richieste di assistenza dei cittadini."
+                }
+            },
+            {
+                "type": "search",
+                "data": {
+                    "view": "pub_theme::components.blocks.search.input",
+                    "placeholder": "Cerca",
+                    "buttonLabel": "Invio",
+                    "action": "#",
+                    "inputId": "autocomplete-three"
+                }
+            },
+            {
+                "type": "accordion",
+                "data": {
+                    "view": "pub_theme::components.blocks.accordion.default",
+                    "items": [
+                        {
+                            "question": "Come posso pagare una multa?",
+                            "answer": "<p>Puoi pagare la multa online tramite il portale dei pagamenti del Comune, presso gli sportelli abilitati oppure utilizzando l'avviso pagoPA ricevuto con il verbale.</p>"
+                        },
+                        {
+                            "question": "Come faccio a rinnovare la carta d'identità?",
+                            "answer": "<p>Per rinnovare la carta d'identità devi prenotare un appuntamento presso l'ufficio anagrafe e presentarti con documento scaduto, fototessera recente e codice fiscale.</p>"
+                        },
+                        {
+                            "question": "Come posso cambiare la mia residenza?",
+                            "answer": "<p>La richiesta di cambio di residenza può essere inviata online oppure allo sportello anagrafe allegando documento di identità, codice fiscale e i dati dell'immobile di nuova residenza.</p>"
+                        },
+                        {
+                            "question": "Come posso richiedere un posto auto riservato alle persone con disabilità?",
+                            "answer": "<p>La domanda va presentata all'ufficio mobilità o polizia locale con il contrassegno disabili, la documentazione sanitaria richiesta e la motivazione della richiesta.</p>"
+                        },
+                        {
+                            "question": "Come faccio a sapere se ho diritto all’esenzione della TARI?",
+                            "answer": "<p>Verifica i requisiti nel regolamento comunale TARI oppure contatta l'ufficio tributi: in genere servono attestazione ISEE e composizione del nucleo familiare.</p>"
+                        },
+                        {
+                            "question": "Come posso fare richiesta per una casa popolare?",
+                            "answer": "<p>La domanda va inoltrata durante i periodi di apertura del bando ERP seguendo le istruzioni pubblicate dal Comune e allegando ISEE, documenti anagrafici e requisiti previsti.</p>"
+                        },
+                        {
+                            "question": "Come posso richiedere SPID (Sistema Pubblico di Identità Digitale)?",
+                            "answer": "<p>Puoi richiedere SPID scegliendo un identity provider accreditato e completando il riconoscimento online o di persona con documento, tessera sanitaria e indirizzo email.</p>"
+                        },
+                        {
+                            "question": "Devo smaltire un rifiuto ingombrante. Come posso fare?",
+                            "answer": "<p>Puoi prenotare il ritiro a domicilio oppure conferire il materiale presso il centro di raccolta comunale seguendo le indicazioni del gestore dei rifiuti.</p>"
+                        },
+                        {
+                            "question": "Come faccio a prenotare un appuntamento con gli uffici del comune?",
+                            "answer": "<p>Accedi al servizio di prenotazione appuntamenti, scegli l'ufficio competente, seleziona la fascia oraria disponibile e conferma i tuoi dati di contatto.</p>"
+                        },
+                        {
+                            "question": "Dove posso trovare una lista delle Scuole dell’infanzia comunali o accreditate?",
+                            "answer": "<p>L'elenco aggiornato è disponibile nella sezione Scuola del sito comunale oppure presso l'ufficio istruzione, dove puoi richiedere anche supporto per le iscrizioni.</p>"
+                        },
+                        {
+                            "question": "Ho perso la tessera elettorale. Come posso fare?",
+                            "answer": "<p>Puoi chiedere il duplicato all'ufficio elettorale portando un documento di identità; nei periodi elettorali il servizio prevede aperture straordinarie.</p>"
+                        },
+                        {
+                            "question": "Cosa devo fare per cancellare una persona dal mio stato di famiglia?",
+                            "answer": "<p>Contatta l'ufficio anagrafe per verificare il procedimento corretto: in base al caso possono servire dichiarazione di irreperibilità, variazione di residenza o altra documentazione.</p>"
+                        },
+                        {
+                            "question": "Come faccio a ottenere l’attestato di soggiorno permanente?",
+                            "answer": "<p>L'attestato si richiede all'ufficio anagrafe presentando documento valido, titolo di soggiorno, prova della residenza continuativa e gli altri documenti previsti dalla normativa.</p>"
+                        },
+                        {
+                            "question": "Che documenti mi servono per fare la denuncia di nascita?",
+                            "answer": "<p>Servono l'attestazione di nascita rilasciata dalla struttura sanitaria, i documenti di identità dei genitori e l'eventuale documentazione aggiuntiva richiesta dall'ufficiale di stato civile.</p>"
+                        },
+                        {
+                            "question": "Cosa devo fare per esprimere la mia volontà di donare gli organi?",
+                            "answer": "<p>Puoi dichiarare la tua volontà al momento del rilascio o rinnovo della carta d'identità elettronica oppure tramite le altre modalità previste dal Sistema Informativo Trapianti.</p>"
+                        },
+                        {
+                            "question": "Come posso fare per separarmi o divorziare in comune?",
+                            "answer": "<p>Verifica con l'ufficio stato civile se il tuo caso rientra nelle procedure semplificate davanti all'ufficiale di stato civile e prepara la documentazione anagrafica richiesta.</p>"
+                        },
+                        {
+                            "question": "Ho cambiato indirizzo di residenza. Devo rinnovare la Carta di identità?",
+                            "answer": "<p>No, non è necessario rinnovare subito la carta d'identità: il nuovo indirizzo viene registrato negli archivi anagrafici senza sostituire il documento ancora valido.</p>"
+                        },
+                        {
+                            "question": "Cosa devo fare per denunciare un lutto in famiglia?",
+                            "answer": "<p>Rivolgiti all'ufficio stato civile o all'agenzia funebre incaricata con il certificato di decesso e i documenti del defunto per avviare le pratiche necessarie.</p>"
+                        },
+                        {
+                            "question": "Come faccio a sapere se ho diritto a ricevere l’assegno di maternità?",
+                            "answer": "<p>Consulta il bando o contatta i servizi sociali del Comune: per la verifica dei requisiti servono di norma ISEE, residenza e documentazione familiare aggiornata.</p>"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feedback",
+                "data": {
+                    "view": "pub_theme::components.blocks.feedback.rating",
+                    "title": "QUANTO SONO CHIARE LE INFORMAZIONI SU QUESTA PAGINA?",
+                    "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

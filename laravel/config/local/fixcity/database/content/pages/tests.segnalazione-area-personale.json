@@ -1,0 +1,71 @@
+{
+    "id": "tests.segnalazione-area-personale",
+    "title": {
+        "it": "Segnalazione - Area personale",
+        "en": "Segnalazione - Area personale"
+    },
+    "slug": "tests.segnalazione-area-personale",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Area personale",
+                            "url": "/it/tests/area-personale"
+                        },
+                        {
+                            "label": "Segnalazione",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Segnalazione - Area personale",
+                    "subtitle": "",
+                    "content": "<p>Gestione delle tue segnalazioni.</p>"
+                }
+            },
+            {
+                "type": "card-list",
+                "data": {
+                    "view": "pub_theme::components.blocks.card.list",
+                    "title": "Le tue segnalazioni",
+                    "items": [
+                        {
+                            "title": "Segnalazione 1",
+                            "excerpt": "Stato: In lavorazione",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Segnalazione 2",
+                            "excerpt": "Stato: Completata",
+                            "url": "#"
+                        }
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

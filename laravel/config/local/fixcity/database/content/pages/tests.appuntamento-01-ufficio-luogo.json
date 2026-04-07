@@ -1,0 +1,53 @@
+{
+    "id": "tests.appuntamento-01-ufficio-luogo",
+    "title": {
+        "it": "Appuntamento - Step 1 ufficio luogo",
+        "en": "Appuntamento - Step 1 ufficio luogo"
+    },
+    "slug": "tests.appuntamento-01-ufficio-luogo",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "tests",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Appuntamento - Step 1 ufficio luogo",
+                    "category": "Prenotazione Appuntamento",
+                    "summary": "La schermata di selezione tra piu sedi dello stesso ufficio.",
+                    "slug": "tests.appuntamento-01-ufficio-luogo"
+                }
+            },
+            {
+                "type": "tests",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "La pagina andra scomposta in stepper, selezione sede, card luogo e note operative."
+                }
+            },
+            {
+                "type": "tests",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "tests",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-01-ufficio-luogo.html"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

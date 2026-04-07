@@ -1,0 +1,50 @@
+{
+    "id": "tests.segnalazione-04-conferma",
+    "title": {
+        "it": "Segnalazione - Step 4 conferma",
+        "en": "Segnalazione - Step 4 conferma"
+    },
+    "slug": "tests.segnalazione-04-conferma",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "flow-stepper",
+                "data": {
+                    "title": "Segnalazione disservizio",
+                    "description": "Segnala un disservizio riscontrato",
+                    "steps": [
+                        {"title": "Privacy", "description": "Informativa e consenso", "completed": true},
+                        {"title": "Dati", "description": "I tuoi dati", "completed": true},
+                        {"title": "Dettagli", "description": "Descrivi il problema", "completed": true},
+                        {"title": "Conferma", "description": "Segnalazione inviata", "completed": false}
+                    ],
+                    "currentStep": 4,
+                    "navigable": false,
+                    "view": "pub_theme::components.blocks.flow.stepper"
+                }
+            },
+            {
+                "type": "flow-conferma",
+                "data": {
+                    "view": "pub_theme::components.blocks.flow.segnalazione.04-conferma",
+                    "title": "Segnalazione inviata",
+                    "segnalazione": {
+                        "codice_segnalazione": "SEG-2025-005678",
+                        "categoria": "Illuminazione pubblica",
+                        "titolo": "Lampione spento in via Roma"
+                    }
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

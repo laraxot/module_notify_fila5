@@ -1,0 +1,68 @@
+{
+    "id": "tests.lista-categorie",
+    "title": {
+        "it": "Lista categorie",
+        "en": "Category list"
+    },
+    "slug": "tests.lista-categorie",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Categorie", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Categorie",
+                    "subtitle": "Naviga per categorie",
+                    "content": "<p>Esplora i contenuti organizzati per categorie</p>"
+                }
+            },
+            {
+                "type": "categories-grid",
+                "data": {
+                    "view": "pub_theme::components.blocks.categories.grid",
+                    "categories": [
+                        {
+                            "name": "Categoria 1",
+                            "description": "Descrizione della categoria",
+                            "url": "/it/tests/categoria-1",
+                            "count": 15
+                        },
+                        {
+                            "name": "Categoria 2",
+                            "description": "Descrizione della categoria",
+                            "url": "/it/tests/categoria-2",
+                            "count": 8
+                        },
+                        {
+                            "name": "Categoria 3",
+                            "description": "Descrizione della categoria",
+                            "url": "/it/tests/categoria-3",
+                            "count": 12
+                        }
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

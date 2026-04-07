@@ -1,0 +1,79 @@
+{
+    "id": "tests.documenti-dati",
+    "title": {
+        "it": "Documenti e dati",
+        "en": "Documents and data"
+    },
+    "slug": "tests.documenti-dati",
+    "category": "Amministrazione",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Amministrazione", "url": "/it/tests/amministrazione"},
+                        {"label": "Documenti e dati", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Documenti e dati",
+                    "subtitle": "Amministrazione trasparente",
+                    "content": "<p>Consulta i documenti, i dati e gli atti amministrativi del Comune</p>"
+                }
+            },
+            {
+                "type": "resources-list",
+                "data": {
+                    "view": "pub_theme::components.blocks.resources.list",
+                    "resources": [
+                        {
+                            "title": "Statuto comunale",
+                            "description": "Lo statuto del Comune",
+                            "type": "PDF",
+                            "size": "2.5 MB",
+                            "url": "/download/statuto.pdf"
+                        },
+                        {
+                            "title": "Regolamento comunale",
+                            "description": "I regolamenti comunali",
+                            "type": "PDF",
+                            "size": "1.8 MB",
+                            "url": "/download/regolamento.pdf"
+                        },
+                        {
+                            "title": "Bilancio di previsione 2026",
+                            "description": "Approvato con delibera n. 1 del 15/01/2026",
+                            "type": "PDF",
+                            "size": "5.2 MB",
+                            "url": "/download/bilancio-2026.pdf"
+                        },
+                        {
+                            "title": "Bilancio consuntivo 2025",
+                            "description": "Approvato con delibera n. 50 del 30/03/2026",
+                            "type": "PDF",
+                            "size": "4.8 MB",
+                            "url": "/download/consuntivo-2025.pdf"
+                        }
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

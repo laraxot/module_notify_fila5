@@ -1,0 +1,53 @@
+{
+    "id": "tests.appuntamento-03-dettagli",
+    "title": {
+        "it": "Appuntamento - Step 3 dettagli",
+        "en": "Appuntamento - Step 3 dettagli"
+    },
+    "slug": "tests.appuntamento-03-dettagli",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "tests",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.intro",
+                    "title": "Appuntamento - Step 3 dettagli",
+                    "category": "Prenotazione Appuntamento",
+                    "summary": "La schermata di selezione del motivo dell'appuntamento e aggiunta dettagli.",
+                    "slug": "tests.appuntamento-03-dettagli"
+                }
+            },
+            {
+                "type": "tests",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.body",
+                    "body_title": "Scenario di conversione",
+                    "body_text": "Qui la scomposizione corretta separa stepper, form dettagli, note e riepilogo laterale."
+                }
+            },
+            {
+                "type": "tests",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.governance-note"
+                }
+            },
+            {
+                "type": "tests",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.source-link",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-03-dettagli.html"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

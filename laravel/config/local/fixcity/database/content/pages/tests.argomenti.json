@@ -1,0 +1,89 @@
+{
+    "id": "tests-argomenti",
+    "title": {
+        "it": "Argomenti",
+        "en": "Topics"
+    },
+    "slug": "tests.argomenti",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Argomenti", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.argomenti",
+                    "title": "Argomenti",
+                    "subtitle": "Elenco di risposte alle domande più frequenti raccolte dalle richieste di assistenza dei cittadini."
+                }
+            },
+            {
+                "type": "topics-highlight",
+                "data": {
+                    "view": "pub_theme::components.blocks.topics-highlight",
+                    "title": "In evidenza",
+                    "topics": [
+                        {"title": "Turismo", "url": "/it/tests/argomento", "image": "https://picsum.photos/376/488?random=1"},
+                        {"title": "Cultura e tempo libero", "url": "/it/tests/argomento", "image": "https://picsum.photos/376/488?random=2"},
+                        {"title": "Sport", "url": "/it/tests/argomento", "image": "https://picsum.photos/376/488?random=3"}
+                    ]
+                }
+            },
+            {
+                "type": "topics-grid",
+                "data": {
+                    "view": "pub_theme::components.blocks.topics-grid.default",
+                    "title": "Esplora per argomento",
+                    "topics": [
+                        {"title": "Agricoltura", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Ambiente", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Anagrafe e stato civile", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Appalti pubblici", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Catasto e urbanistica", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Educazione e formazione", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Formazione professionale", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Imposte", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Imprese", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Inquinamento", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Integrazione sociale", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Istruzione", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Lavoro", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Parcheggi", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Patrimonio culturale", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Piano di sviluppo", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Pista ciclabile", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Trasporto pubblico", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."},
+                        {"title": "Zone pedonali", "url": "/it/tests/argomento", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula fermentum eros a elementum. Donec."}
+                    ]
+                }
+            },
+            {
+                "type": "feedback",
+                "data": {
+                    "view": "pub_theme::components.blocks.feedback.rating",
+                    "title": "QUANTO SONO CHIARE LE INFORMAZIONI SU QUESTA PAGINA?",
+                    "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

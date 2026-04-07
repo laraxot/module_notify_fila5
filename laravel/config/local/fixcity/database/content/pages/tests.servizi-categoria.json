@@ -1,0 +1,76 @@
+{
+    "id": "tests.servizi-categoria",
+    "title": {
+        "it": "Categoria di servizio",
+        "en": "Categoria di servizio"
+    },
+    "slug": "tests.servizi-categoria",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Servizi",
+                            "url": "/it/tests/servizi"
+                        },
+                        {
+                            "label": "Categoria di servizio",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Categoria di servizio",
+                    "subtitle": "",
+                    "content": "<p>Elenco dei servizi appartenenti a questa categoria.</p>"
+                }
+            },
+            {
+                "type": "card-list",
+                "data": {
+                    "view": "pub_theme::components.blocks.card.list",
+                    "title": "Servizi",
+                    "items": [
+                        {
+                            "title": "Servizio 1",
+                            "excerpt": "Descrizione servizio 1",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Servizio 2",
+                            "excerpt": "Descrizione servizio 2",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Servizio 3",
+                            "excerpt": "Descrizione servizio 3",
+                            "url": "#"
+                        }
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

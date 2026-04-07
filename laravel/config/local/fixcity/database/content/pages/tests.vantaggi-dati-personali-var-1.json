@@ -1,0 +1,101 @@
+{
+    "id": "tests.vantaggi-dati-personali-var-1",
+    "title": {
+        "it": "Vantaggi Dati Personali Var 1",
+        "en": "Vantaggi Dati Personali Var 1"
+    },
+    "slug": "tests.vantaggi-dati-personali-var-1",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "navigation",
+                "data": {
+                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Test",
+                            "url": "/it/tests"
+                        }
+                    ],
+                    "currentPage": "Vantaggi Dati Personali Var 1",
+                    "background": "white"
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.hero",
+                    "subtitle": "Servizi",
+                    "title": "Vantaggi Dati Personali Var 1",
+                    "description": "Step di raccolta dati convertito in pagina CMS con blocchi componibili.",
+                    "background": "white",
+                    "alignment": "left"
+                }
+            },
+            {
+                "type": "details",
+                "data": {
+                    "view": "pub_theme::components.blocks.details.details",
+                    "title": "Metadati pagina",
+                    "items": [
+                        {
+                            "label": "Slug CMS",
+                            "value": "tests.vantaggi-dati-personali-var-1"
+                        },
+                        {
+                            "label": "Sorgente",
+                            "value": "https://italia.github.io/design-comuni-pagine-statiche/servizi/vantaggi-dati-personali-var-1.html"
+                        },
+                        {
+                            "label": "Sezione",
+                            "value": "servizi"
+                        },
+                        {
+                            "label": "Stato",
+                            "value": "Generata per completare pagine vuote o invalide"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "list",
+                "data": {
+                    "view": "pub_theme::components.blocks.list.list",
+                    "title": "Link utili di navigazione",
+                    "style": "icon",
+                    "items": [
+                        {
+                            "text": "Homepage",
+                            "url": "/it/tests/homepage",
+                            "icon": "heroicon-o-home"
+                        },
+                        {
+                            "text": "Indice test",
+                            "url": "/it/tests",
+                            "icon": "heroicon-o-squares-2x2"
+                        },
+                        {
+                            "text": "Servizi",
+                            "url": "/it/tests/servizi",
+                            "icon": "heroicon-o-wrench-screwdriver"
+                        }
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

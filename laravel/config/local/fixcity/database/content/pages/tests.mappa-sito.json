@@ -1,0 +1,81 @@
+{
+    "id": "tests-mappa-sito",
+    "title": {
+        "it": "Mappa del sito",
+        "en": "Site map"
+    },
+    "slug": "tests.mappa-sito",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Mappa del sito", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Mappa del sito",
+                    "subtitle": "Navigazione rapida",
+                    "content": "<p>Tutte le pagine del sito in un'unica vista</p>"
+                }
+            },
+            {
+                "type": "links-grid",
+                "data": {
+                    "view": "pub_theme::components.blocks.links.grid",
+                    "title": "Pagine principali",
+                    "links": [
+                        {"label": "Homepage", "url": "/it/tests/homepage", "description": "Pagina principale"},
+                        {"label": "Argomenti", "url": "/it/tests/argomenti", "description": "Elenco argomenti"},
+                        {"label": "Servizi", "url": "/it/tests/servizi", "description": "Servizi comunali"},
+                        {"label": "Novità", "url": "/it/tests/novita", "description": "Comunicati e avvisi"},
+                        {"label": "Amministrazione", "url": "/it/tests/amministrazione", "description": "Organi di governo"},
+                        {"label": "Eventi", "url": "/it/tests/eventi", "description": "Eventi e manifestazioni"}
+                    ]
+                }
+            },
+            {
+                "type": "links-grid",
+                "data": {
+                    "view": "pub_theme::components.blocks.links.grid",
+                    "title": "Servizi",
+                    "links": [
+                        {"label": "Tutti i servizi", "url": "/it/tests/servizi", "description": "Elenco completo"},
+                        {"label": "Categoria servizio", "url": "/it/tests/servizi-categoria", "description": "Servizi per categoria"},
+                        {"label": "Dettaglio servizio", "url": "/it/tests/servizio-dettaglio", "description": "Scheda servizio"}
+                    ]
+                }
+            },
+            {
+                "type": "links-grid",
+                "data": {
+                    "view": "pub_theme::components.blocks.links.grid",
+                    "title": "Flussi",
+                    "links": [
+                        {"label": "Prenotazione appuntamento", "url": "/it/tests/appuntamento-01-ufficio", "description": "8 step"},
+                        {"label": "Richiesta assistenza", "url": "/it/tests/assistenza-01-dati", "description": "2 step"},
+                        {"label": "Segnalazione disservizio", "url": "/it/tests/segnalazione-01-privacy", "description": "6 step"}
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

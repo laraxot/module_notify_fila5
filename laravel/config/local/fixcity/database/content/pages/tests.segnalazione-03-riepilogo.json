@@ -1,0 +1,64 @@
+{
+    "id": "tests.segnalazione-03-riepilogo",
+    "title": {
+        "it": "Segnalazione - Step 3 riepilogo",
+        "en": "Segnalazione - Step 3 riepilogo"
+    },
+    "slug": "tests.segnalazione-03-riepilogo",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "flow-stepper",
+                "data": {
+                    "title": "Segnalazione disservizio",
+                    "description": "Segnala un disservizio riscontrato",
+                    "steps": [
+                        {"title": "Autorizzazioni e condizioni", "description": "Confermato", "completed": true},
+                        {"title": "Dati di segnalazione", "description": "Confermato", "completed": true},
+                        {"title": "Riepilogo", "description": "Attivo", "completed": false}
+                    ],
+                    "currentStep": 3,
+                    "navigable": false,
+                    "view": "pub_theme::components.blocks.flow.stepper"
+                }
+            },
+            {
+                "type": "flow-segnalazione-riepilogo",
+                "data": {
+                    "view": "pub_theme::components.blocks.flow.segnalazione.03-riepilogo",
+                    "title": "Riepilogo segnalazione",
+                    "segnalazione": {
+                        "luogo": "Via Solferino - 50100 Firenze (FI)",
+                        "tipo_disservizio": "Danneggiamento proprietà pubblica",
+                        "titolo": "Panchina danneggiata",
+                        "dettagli": "La seduta della panchina risulta inutilizzabile a causa di un danno strutturale.",
+                        "immagine": "6yhakandsahm413d8da.jpg"
+                    },
+                    "autore": {
+                        "nome": "GIULIA BIANCHI",
+                        "codice_fiscale": "GLABNC72H25H501Y",
+                        "telefono": "+39 331 1234567",
+                        "email": "giulia.bianchi@gmail.com"
+                    }
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [
+            {
+                "type": "contacts",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.faq"
+                }
+            }
+        ],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}
