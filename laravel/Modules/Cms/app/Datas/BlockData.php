@@ -36,12 +36,6 @@ class BlockData extends Data implements Wireable
 
     public string $livewireComponentName = '';
 
-<<<<<<< HEAD
-    public function __construct(string $type, array $data, ?string $slug = null)
-    {
-        $this->type = $type;
-        $this->slug = $slug;
-=======
     public bool $active = true;
 
     public function __construct(string $type, array $data, ?string $slug = null, bool $active = true)
@@ -49,7 +43,6 @@ class BlockData extends Data implements Wireable
         $this->type = $type;
         $this->slug = $slug;
         $this->active = $active;
->>>>>>> origin/dev
 
         // Dynamic Query Resolution
         /** @var array<string, mixed> $query */

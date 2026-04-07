@@ -1,5 +1,4 @@
 ## Qwen Added Memories
-
 - **Documentation System:** Master index at docs/MODULE_DOCS_INDEX.md with 7,305+ files (6,812 module docs, 325 theme docs, 15+ BMad docs, 153 project docs). All docs must have bidirectional links (min 3 cross-references). Vite config outDir: './public' is CORRECT - builds to local public/, then npm run copy copies to public_html/themes/Sixteen/.
 
 - **BMad-METHOD Complete:** 15+ documents in _bmad-output/ (9 general BMad docs + 6+ Design Comuni docs). Design Comuni suite: PRD, Architecture, UI Spec, Epics, Sprint Plan, Block Analysis (38 pagine, 47 componenti), Index. All BMad docs linked to Master Index and module/theme docs with bidirectional links. Total project documentation: 552,500+ lines across 7,305+ files.
@@ -21,3 +20,4 @@
 - **Folio Pages Architecture (DRY + KISS):** ONLY 3 folders allowed in pages/: [container0] (dynamic CMS), auth (authentication), tests (Design Comuni). ALL page-specific folders DELETED (22 folders: administration, ambiente, article, articles, categories, cultura, dashboard, eventi, famiglia, genesis, lavoro, learn, mobilita, news, pages, profile, salute, segnalazioni, services, sport, tickets, turismo) + blade files (home.blade.php, homepage.blade.php, prova01.blade.php, segnalazioni.blade.php, show.blade.php, counter.blade.php, bootstrap-italia-showcase.blade.php). Pattern: pages/tests/[slug].blade.php handles ALL Design Comuni pages dynamically via JSON content. Forward-Only Git: study old versions, NEVER restore. Docs: Themes/Sixteen/docs/architecture/PAGE_ROUTING_ARCHITECTURE.md, Themes/Sixteen/docs/design-comuni/ARCHITECTURAL_DECISIONS.md.
 
 - **Livewire Single Root Element:** Livewire/Volt components MUST have single root HTML element. Use wrapper div: `<div class="tests-view-wrapper">...</div>`. Multiple root elements cause exception. Fixed in pages/tests/[slug].blade.php.
+- Forward-Only Git Rule: NEVER reset, revert, or checkout old commits. Always study existing code, understand it, then create NEW improvements that move forward. Merge conflicts are resolved by creating clean NEW code that incorporates the best of both versions, not by choosing one side.

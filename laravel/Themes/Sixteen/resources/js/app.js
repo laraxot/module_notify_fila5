@@ -6,10 +6,7 @@
  */
 
 import Alpine from 'alpinejs';
-<<<<<<< HEAD
-=======
 import '@splidejs/splide/dist/css/splide.min.css';
->>>>>>> origin/dev
 import { dropdownToggle } from './components/dropdown';
 import { modal } from './components/modal';
 import { mobileMenu } from './components/mobile-menu';

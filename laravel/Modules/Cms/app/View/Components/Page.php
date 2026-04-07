@@ -52,15 +52,8 @@ final class Page extends Component
         }
 
         $this->slug = $slug;
-<<<<<<< HEAD
-        
 
         $this->blocks = PageModel::getBlocksBySlug($this->slug, $this->side);
-        
-=======
-
-        $this->blocks = PageModel::getBlocksBySlug($this->slug, $this->side);
->>>>>>> origin/dev
     }
 
     /**

@@ -432,7 +432,6 @@
   position: relative;
 }
 
-<<<<<<< HEAD
 .card-teaser-image .card-image {
   position: absolute;
   bottom: 0;
@@ -445,7 +444,6 @@
 .card-teaser-image .card-image-wrapper {
   position: relative;
   padding-bottom: 3rem;
-=======
 /* Image overlaps bottom-right corner */
 .card-teaser-image .card-image-wrapper {
   position: relative;
@@ -473,7 +471,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
->>>>>>> origin/dev
 }
 
 .card-image-rounded {
@@ -499,8 +496,6 @@
   flex-direction: column;
 }
 
-<<<<<<< HEAD
-=======
 /* Governance cards - horizontal layout for card with image */
 .card-flex.row {
   flex-direction: row;
@@ -534,7 +529,6 @@
   object-fit: cover;
 }
 
->>>>>>> origin/dev
 .card-wrapper {
   display: flex;
   flex-direction: column;
@@ -551,8 +545,6 @@
   min-height: 100%;
 }
 
-<<<<<<< HEAD
-=======
 /* Governance cards: vertical stack (NOT horizontal) */
 .card-teaser-block-3 {
   display: flex;
@@ -560,13 +552,11 @@
   gap: 1rem;
 }
 
->>>>>>> origin/dev
 .card-teaser-block-3 > div,
 .card-teaser-block-3 > a {
   flex: 1;
 }
 
-<<<<<<< HEAD
 @media (min-width: 992px) {
   .card-teaser-block-3 {
     display: flex;
@@ -574,8 +564,6 @@
   }
 }
 
-=======
->>>>>>> origin/dev
 .no-after { position: relative; }
 .no-after::after { display: none; }
 
@@ -739,8 +727,6 @@
 
 .chip-label { color: inherit; }
 
-<<<<<<< HEAD
-=======
 /* Chip Green Variant */
 .chip-green {
   background-color: rgba(0, 122, 82, 0.1);
@@ -757,7 +743,6 @@
   color: #007A52;
 }
 
->>>>>>> origin/dev
 /* ========================================
    LINKS - Design Comuni Style
 ======================================== */
@@ -780,8 +765,6 @@
 .read-more .icon { transition: transform 0.2s; }
 .read-more:hover .icon { transform: translateX(0.25rem); }
 
-<<<<<<< HEAD
-=======
 /* Read More Green Variant */
 .read-more-green {
   color: #007A52 !important;
@@ -801,7 +784,6 @@
   stroke: #005c43;
 }
 
->>>>>>> origin/dev
 /* ========================================
    LINK LIST - Design Comuni Style
 ======================================== */
@@ -1010,8 +992,6 @@
   padding: 3rem 0;
 }
 
-<<<<<<< HEAD
-=======
 /* Calendar Header - Green background */
 .it-header-block {
   background-color: #007A52;
@@ -1165,7 +1145,6 @@
   margin: 0;
 }
 
->>>>>>> origin/dev
 /* ========================================
    CAROUSEL / SPLIDE - Design Comuni Style
 ======================================== */
@@ -2185,8 +2164,6 @@
     padding: 1.25rem;
   }
 }
-<<<<<<< HEAD
-=======
 
 /* ========================================
    CARD OVERLAPPING EFFECT
@@ -2540,4 +2517,3 @@
   font-size: 0.75rem;
   color: #5C6F82;
 }
->>>>>>> origin/dev

@@ -97,11 +97,6 @@ interface ModelContract
     /**
      * Get a relationship.
      *
-<<<<<<< HEAD
-     * @param string $key
-     *
-=======
->>>>>>> origin/dev
      * @phpstan-param string $key
      */
     public function getRelationValue(string $key): mixed;

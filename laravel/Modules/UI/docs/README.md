@@ -55,7 +55,6 @@ resources/views/components/ui/
 
 - [Xot Base](../Xot/docs/)
 - [User Module](../User/docs/)
-<<<<<<< HEAD
 
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
@@ -99,5 +98,3 @@ Workflow: `.github/workflows/semantic-versioning.yml`
 
 ## 📄 License
 MIT
-=======
->>>>>>> 9a84589 (.)

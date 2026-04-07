@@ -2,13 +2,14 @@
     Hero Homepage Block
     Reference: design-comuni-pagine-statiche/src/pages/sito/homepage.hbs #head-section
 --}}
-@props(['data' => []])
 @php
-    $title = $data['title'] ?? 'Nome del comune';
-    $news = $data['news'] ?? [];
-    $image = $data['image'] ?? 'https://picsum.photos/800/600';
-    $allNewsLabel = $data['all_news_label'] ?? 'Tutte le novità';
-    $allNewsUrl = $data['all_news_url'] ?? '#';
+    // Support both @include (direct vars) and @component (via $data)
+    $data = $data ?? [];
+    $title = isset($title) ? $title : ($data['title'] ?? 'Nome del comune');
+    $news = isset($news) && is_array($news) ? $news : ($data['news'] ?? []);
+    $image = isset($image) ? $image : ($data['image'] ?? 'https://picsum.photos/800/600');
+    $allNewsLabel = isset($all_news_label) ? $all_news_label : ($data['all_news_label'] ?? 'Tutte le novità');
+    $allNewsUrl = isset($all_news_url) ? $all_news_url : ($data['all_news_url'] ?? '#');
     $excerpt = $news['excerpt'] ?? '';
     $excerptLead = $excerpt;
     $excerptTail = '';
@@ -31,15 +32,9 @@
             <div class="col-lg-6 order-2 order-lg-1">
                 <div class="card mb-5">
                     <div class="card-body pb-5 px-0">
-<<<<<<< HEAD
                         <div class="category-top">
                             <svg class="icon icon-sm" aria-hidden="true">
                                 <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar"></use>
-=======
-                        <div class="category-top mb-2">
-                            <svg class="icon icon-sm" aria-hidden="true">
-                                <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar"></use>
->>>>>>> origin/dev
                             </svg>
                             <span class="title-xsmall-semi-bold fw-semibold">{{ $news['category'] ?? 'Notizie' }}</span>
                             <span class="data fw-normal">{{ $news['date'] ?? '' }}</span>
@@ -51,7 +46,6 @@
                         <a class="chip chip-simple" href="{{ $news['url'] ?? '#' }}">
                             <span class="chip-label">{{ $news['tag'] ?? 'Estate in città' }}</span>
                         </a>
-<<<<<<< HEAD
                         <a class="read-more pb-3" href="{{ $allNewsUrl }}">
                             <span class="text">{{ $allNewsLabel }}</span>
                             <svg class="icon">
@@ -62,20 +56,6 @@
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 px-0 px-lg-3">
-=======
-                        <div class="d-block">
-                            <a class="read-more pb-3" href="{{ $allNewsUrl }}">
-                                <span class="text">{{ $allNewsLabel }}</span>
-                                <svg class="icon icon-sm ms-1">
-                                    <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right"></use>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 px-0">
->>>>>>> origin/dev
                 <img src="{{ $image }}" title="titolo immagine" alt="descrizione immagine" class="img-fluid">
             </div>
         </div>

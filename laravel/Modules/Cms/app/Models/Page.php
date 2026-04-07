@@ -237,13 +237,7 @@ class Page extends BaseModelLang
 
     public function getRows(): array
     {
-<<<<<<< HEAD
-        $rows= $this->getSushiRows();
-        
-        return $rows;
-=======
         return $this->getSushiRows();
->>>>>>> origin/dev
     }
 
     public static function findUniqueBySlug(string $slug): ?self

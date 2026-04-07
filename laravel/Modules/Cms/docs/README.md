@@ -28,10 +28,7 @@ Modules/Cms/
 - [Processo Build Tema](./theme-build-process.md)
 - [Architettura Frontend](./frontend-architecture/struttura-homepage.md)
 - [Testing Guidelines](./tests/architecture-separation-rules.md)
-<<<<<<< HEAD
 - [Page Directory Structure](./page-directory-structure.md) ⭐
-=======
->>>>>>> origin/dev
 
 ### Moduli Correlati
 - [Modulo UI - Blocchi](../../UI/docs/blocks-system.md)
@@ -171,15 +168,9 @@ Il modulo CMS gestisce i contenuti e i widget del sistema, fornendo un sistema f
    - [Wizard](ux-wizard-registrazione-paziente.md)
 
 ## Dipendenze Principali
-<<<<<<< HEAD
 - Laravel Framework ^11.0
 - Filament ^3.2
 - Livewire ^3.0
-=======
-- Laravel Framework ^12.0
-- Filament ^5.0
-- Livewire ^4.0
->>>>>>> origin/dev
 - Laravel Folio ^1.0
 - Laravel Volt ^1.0
 - Tailwind CSS ^3.4
@@ -344,9 +335,3 @@ npm run dev
 * [README.md](laravel/Themes/Two/docs/README.md)
 * [README.md](laravel/Themes/One/docs/README.md)
 
-<<<<<<< HEAD
-=======
-
-## AI Workflows
-- [AI Methodologies](./ai-methodologies.md)
->>>>>>> origin/dev

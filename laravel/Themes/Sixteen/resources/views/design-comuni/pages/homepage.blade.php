@@ -125,7 +125,6 @@
     @endphp
     <x-blocks.governance.cards :data="$calendarioData" />
 
->>>>>>> origin/dev
     {{-- Services Section --}}
     <div class="container">
         <div class="row justify-content-center">
@@ -282,6 +281,201 @@
     </div>
 </main>
 
+{{-- Argomenti in Evidenza Section --}}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-10">
+            <h2 class="title-xxlarge mb-4">{{ __('navigation.homepage.featured_topics') }}</h2>
+            <div class="row g-4">
+                @php
+                $featuredTopics = [
+                    [
+                        'title' => 'Trasporto pubblico',
+                        'description' => 'Informazioni sui servizi di trasporto pubblico e servizi taxi',
+                        'url' => '#',
+                        'image' => 'https://picsum.photos/200/200',
+                    ],
+                    [
+                        'title' => 'Animale domestico',
+                        'description' => 'Informazioni sui servizi e le norme previste dal comune per gli animali domestici.',
+                        'url' => '#',
+                        'links' => [
+                            'Come adottare un cane al Canile Municipale',
+                            'Elenco delle aree per cani',
+                            'Come segnalare una colonia felina',
+                            'Come segnalare lo smarrimento del proprio animale',
+                        ],
+                    ],
+                    [
+                        'title' => 'Sport',
+                        'description' => 'Tutto quello che c\'è da sapere sulle strutture sportive comunali.',
+                        'url' => '#',
+                        'links' => [
+                            'Tutte le strutture sportive della città',
+                            'Da lunedì 3 settembre chiudono le vasche della piscina comunale',
+                            'Concessione di contributi ad enti, associazioni, società sportive',
+                        ],
+                    ],
+                ];
+                @endphp
+                @foreach($featuredTopics as $topic)
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card card-bg card-teaser shadow">
+                        <div class="card-body">
+                            <h3 class="card-title h5">{{ $topic['title'] }}</h3>
+                            <p class="card-text">{{ $topic['description'] }}</p>
+                            @if(isset($topic['links']))
+                            <ul class="mb-3">
+                                @foreach($topic['links'] as $link)
+                                <li><a href="{{ $topic['url'] }}">{{ $link }}</a></li>
+                                @endforeach
+                            </ul>
+                            @endif
+                            <a href="{{ $topic['url'] }}" class="read-more">
+                                <span class="text">Esplora argomento</span>
+                                <svg class="icon"><use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right"></use></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- Altri Argomenti Section --}}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-10">
+            <h2 class="title-xxlarge mb-4">{{ __('navigation.homepage.other_topics') }}</h2>
+            <div class="d-flex flex-wrap gap-2">
+                <a href="#" class="chip chip-simple"><span class="chip-label">Associazioni</span></a>
+                <a href="#" class="chip chip-simple"><span class="chip-label">Concorsi</span></a>
+                <a href="#" class="chip chip-simple"><span class="chip-label">Energie rinnovabili</span></a>
+                <a href="#" class="chip chip-simple"><span class="chip-label">Gestione rifiuti</span></a>
+                <a href="#" class="chip chip-simple"><span class="chip-label">Imposte</span></a>
+                <a href="#" class="chip chip-simple"><span class="chip-label">Istruzione</span></a>
+                <a href="#" class="chip chip-simple"><span class="chip-label">Pista ciclabile</span></a>
+            </div>
+            <a href="#" class="btn btn-outline-primary mt-3">{{ __('navigation.homepage.show_all') }}</a>
+        </div>
+    </div>
+</div>
+
+{{-- Siti Tematici Section --}}
+@php
+$thematicSites = [
+    'title' => __('navigation.homepage.thematic_sites'),
+    'sites' => [
+        [
+            'title' => 'Mobilità in Comune',
+            'description' => 'Il sito del turismo del Comune e della Città Metropolitana',
+            'url' => '#',
+            'image' => 'https://picsum.photos/200/200',
+        ],
+        [
+            'title' => 'Turismo',
+            'description' => 'Il sito che offre informazioni sulle attività turistiche attive in città',
+            'url' => '#',
+            'image' => 'https://picsum.photos/200/201',
+        ],
+        [
+            'title' => 'Musei Civici',
+            'description' => 'Tutte le informazioni sui musei e gli eventi culturali della città',
+            'url' => '#',
+            'image' => 'https://picsum.photos/200/202',
+        ],
+    ],
+];
+@endphp
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-10">
+            <h2 class="title-xxlarge mb-4">{{ $thematicSites['title'] }}</h2>
+            <div class="row g-4">
+                @foreach($thematicSites['sites'] as $site)
+                <div class="col-sm-6 col-lg-4">
+                    <a href="{{ $site['url'] }}" class="text-decoration-none">
+                        <div class="card card-bg shadow">
+                            <img src="{{ $site['image'] }}" alt="{{ $site['title'] }}" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title h5">{{ $site['title'] }}</h3>
+                                <p class="card-text">{{ $site['description'] }}</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- Useful Links Section --}}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-10">
+            <h2 class="title-xxlarge mb-4">{{ __('navigation.homepage.useful_links') }}</h2>
+            <ul class="list-unstyled">
+                <li><a href="#">Rilascio Carta Identità Elettronica (CIE)</a></li>
+                <li><a href="#">Cambio di residenza</a></li>
+                <li><a href="#">Tributi online</a></li>
+                <li><a href="#">Prenotazione appuntamenti</a></li>
+                <li><a href="#">Rilascio tessera elettorale</a></li>
+                <li><a href="#">Voucher connettività</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{-- Rating Section --}}
+<x-blocks.rating.default />
+
+{{-- Contacts Section --}}
+<div class="bg-grey-card shadow-contacts">
+    <div class="container">
+        <div class="row d-flex justify-content-center p-contacts">
+            <div class="col-12 col-lg-6">
+                <div class="cmp-contacts" data-element="contacts">
+                    <div class="card card-wrapper bg-white p-3">
+                        <div class="card-body">
+                            <h2 class="title-medium-2-semi-bold mb-0">{{ __('navigation.homepage.contacts') }}</h2>
+                            <div class="d-flex flex-column gap-3">
+                                <a href="tel:+390512345678" class="d-flex align-items-center gap-2 text-decoration-none text-primary">
+                                    <svg class="icon icon-sm"><use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-phone"></use></svg>
+                                    <span>05 12345678</span>
+                                </a>
+                                <a href="mailto:urp@comune.it" class="d-flex align-items-center gap-2 text-decoration-none text-primary">
+                                    <svg class="icon icon-sm"><use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-mail"></use></svg>
+                                    <span>urp@comune.it</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- Maybe You Were Looking For --}}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-10">
+            <h2 class="title-xxlarge mb-4">{{ __('navigation.homepage.maybe_searching') }}</h2>
+            <ul class="list-unstyled">
+                <li><a href="#">Rilascio Carta Identità Elettronica (CIE)</a></li>
+                <li><a href="#">Cambio di residenza</a></li>
+                <li><a href="#">Tributi online</a></li>
+                <li><a href="#">Prenotazione appuntamenti</a></li>
+                <li><a href="#">Rilascio tessera elettorale</a></li>
+                <li><a href="#">Voucher connettività</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 {{-- Footer Component --}}
 @include('pub_theme::footer-comune')
 
@@ -289,8 +483,5 @@
 
 @push('scripts')
 {{-- Bootstrap Italia JS --}}
-<<<<<<< HEAD
-<script src="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/js/themes/Sixteen/design-comuni/assets/bootstrap-italia.bundle.min.js"></script>
-=======
-    <script src="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js"></script>
+<script src="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js"></script>
 @endpush

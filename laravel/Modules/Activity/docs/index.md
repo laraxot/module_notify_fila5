@@ -68,8 +68,3 @@ Common issues and solutions:
 - Database performance with large activity logs
 - Missing activity entries
 - Configuration issues
-<<<<<<< HEAD
-=======
-
-- [Conflict Resolution](conflict-resolution.md)
->>>>>>> origin/dev

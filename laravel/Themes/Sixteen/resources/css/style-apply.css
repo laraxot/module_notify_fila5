@@ -2151,8 +2151,6 @@ section.py-4 {
 .fill-gray-300 {
     fill: #E0E0E0;
 }
-<<<<<<< HEAD
-=======
 
 /* ============================================
    SEGNALAZIONE PAGES - Design Comuni Parity
@@ -3258,4 +3256,3 @@ hr.mt-40 {
   @apply bg-white rounded-lg shadow-xl max-w-lg w-full mx-4 max-h-[90vh] overflow-y-auto;
 }
 
->>>>>>> origin/dev

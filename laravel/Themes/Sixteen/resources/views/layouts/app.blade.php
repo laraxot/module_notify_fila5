@@ -7,11 +7,7 @@
 
     <x-section slug="header" />
 
-<<<<<<< HEAD
     <main>
-=======
-    <main id="main-container">
->>>>>>> origin/dev
         {{ $slot }}
     </main>
 

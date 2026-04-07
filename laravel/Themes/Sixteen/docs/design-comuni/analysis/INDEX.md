@@ -1,11 +1,5 @@
 # Design Comuni Pages - HTML Structure Analysis Index
 
-<<<<<<< HEAD
-=======
-> **Updated:** 2026-04-07
-> **Latest:** [HTML-STRUCTURE-COMPARISON.md](./HTML-STRUCTURE-COMPARISON.md) - Homepage detailed comparison (92% match)
-
->>>>>>> origin/dev
 ## Overview
 
 Analizzate tutte le pagine di test confrontando:
@@ -66,20 +60,9 @@ Analizzate tutte le pagine di test confrontando:
 
 ## Key Structural Differences Found
 
-<<<<<<< HEAD
 ### Homepage
 - Additional search form in head-section
 - Different rating implementation (Alpine.js vs vanilla JS)
-=======
-### 🔴 Homepage — Detailed Analysis (2026-04-07)
-**Match: 92%** — See [HTML-STRUCTURE-COMPARISON.md](./HTML-STRUCTURE-COMPARISON.md)
-
-**Issues found:**
-- Missing `<h2.visually-hidden>` "Contenuti in evidenza" → Accessibility
-- Extra duplicate `<section>` after contacts (~70 lines) → Remove
-- Rating: `<fieldset>` → `<div>` → Accessibility semantics
-- Rating: `<input>` → `<textarea>` → Element mismatch
->>>>>>> origin/dev
 
 ### Domande Frequenti
 - Reference has 17 FAQ items vs local has 11
@@ -125,19 +108,3 @@ Analizzate tutte le pagine di test confrontando:
 
 - [live-parity-2026-04-04.md](../live-parity-2026-04-04.md) - live screenshot findings for lista-risorse, amministrazione, segnalazioni-elenco
 - [LIVE_BODY_PARITY_REPORT.md](../LIVE_BODY_PARITY_REPORT.md) - current live body audit from the running app
-<<<<<<< HEAD
-=======
-
-## See Also
-
-- [HTML-STRUCTURE-COMPARISON.md](./HTML-STRUCTURE-COMPARISON.md) - Detailed homepage structural comparison
-- [../00-index.md](../00-index.md) - Design Comuni main index
-- [../prompts/replikate.txt](../prompts/replikate.txt) - REPLIKATE workflow prompt v6.0
-- [../../architecture/layout-architecture.md](../../architecture/layout-architecture.md) - Layout architecture
-
-## Referenced By
-
-- [../00-index.md](../00-index.md) - Main Design Comuni index
-- [../pages-census.md](../pages-census.md) - Complete page census
-- [../../docs/prompts/replikate.txt](../../prompts/replikate.txt) - REPLIKATE master prompt
->>>>>>> origin/dev

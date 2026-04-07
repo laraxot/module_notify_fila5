@@ -57,3 +57,6 @@ This task can be parallelized by assigning different blocks to different agents:
 - Agent D: Footer sections (08, 09, 10)
 
 All agents should coordinate via shared documentation to avoid duplicate work.
+
+
+bashscripts deve essere agnostico, percio' crea/migliora uno script dentro una sottocartella di bashscripts per confrontare l'html dentro il tag body incluso esclusi gli scripts , poi lo documenti dentro la bashscripts/docs utilizzando gli indici , dopo lo utilizziamo per portare avanti http://127.0.0.1:8001/it/tests/homepage, invididua i blocchi che ci sono in https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html , ogni singolo blocco lo devi documentare dentro /var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/prompts/homepage/blocks , 

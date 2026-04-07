@@ -71,11 +71,7 @@ abstract class XotBaseMigration extends LaravelMigration
         Assert::stringNotEmpty($modelClass);
         Assert::classExists($modelClass);
 
-<<<<<<< HEAD
-        /** @var class-string<Model> $modelClass */
-=======
         /* @var class-string<Model> $modelClass */
->>>>>>> origin/dev
         $this->model_class = $modelClass;
 
         return $modelClass;

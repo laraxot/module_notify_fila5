@@ -101,22 +101,13 @@ TextInput::make('full_name')
 ## Collegamenti Correlati
 
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/fields/text-input)
-<<<<<<< HEAD:docs/convenzioni_naming_campi.md
 - [Best Practices Database](../../../docs/database/best-practices.md)
 - [Convenzioni API](../../../docs/api/convenzioni.md) 
 ||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
 - [Best Practices Database](../../../docs/database/best-practices.md)
 - [Convenzioni API](../../../docs/api/convenzioni.md)
-=======
-- [Best Practices Database](../../../../docs/database/best-practices.md)
-- [Convenzioni API](../../../../docs/api/convenzioni.md)
->>>>>>> 9a84589 (.):docs/convenzioni-naming-campi-1.md
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
-<<<<<<< HEAD:docs/convenzioni_naming_campi.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 
 ||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
-=======
-* [convenzioni-naming-campi.md](../../../../../docs/convenzioni-naming-campi.md)
->>>>>>> 9a84589 (.):docs/convenzioni-naming-campi-1.md

@@ -8,14 +8,10 @@
     
     <!-- Tailwind CSS -->
     @vite(['resources/css/app.css'], 'themes/Sixteen')
-<<<<<<< HEAD
-    
-=======
 
     <!-- Design Comuni CSS (Bootstrap Italia class mappings) -->
     <link href="{{ asset('themes/Sixteen/design-comuni.css') }}" rel="stylesheet">
 
->>>>>>> origin/dev
     <style>
         [x-cloak] { display: none !important; }
         
@@ -96,17 +92,9 @@
                                 </div>
                             </div>
                         </div>
-<<<<<<< HEAD
-                        <a class="btn btn-primary btn-icon btn-full" href="#" data-element="personal-area-login">
-                            <span class="rounded-icon" aria-hidden="true">
-                                <svg class="icon icon-primary"><use xlink:href="#it-user"></use></svg>
-                            </span>
-                            <span class="d-none d-lg-block">Accedi all'area personale</span>
-=======
                         <a class="btn btn-outline-light d-flex align-items-center gap-2" href="#" data-element="personal-area-login">
                             <svg class="icon" style="width:18px;height:18px;fill:currentColor;"><use xlink:href="#it-user"></use></svg>
                             <span class="d-none d-lg-inline">Accedi all'area personale</span>
->>>>>>> origin/dev
                         </a>
                     </div>
                 </div>
@@ -114,11 +102,6 @@
         </div>
     
         <!-- Header Center - Logo & Search -->
-<<<<<<< HEAD
-        <div class="it-header-center-wrapper">
-            <div class="container">
-                <div class="it-header-center-content-wrapper flex justify-between items-center">
-=======
         <div class="it-header-center-wrapper" x-data="mobileMenu()">
             <div class="container">
                 <div class="it-header-center-content-wrapper flex justify-between items-center">
@@ -136,7 +119,6 @@
                     >
                         <svg class="icon text-white" style="width:24px;height:24px;"><use xlink:href="#it-burger"></use></svg>
                     </button>
->>>>>>> origin/dev
                     <div class="it-brand-wrapper">
                         <a href="#">
                             <svg width="82" height="82" class="icon" aria-hidden="true">
@@ -172,35 +154,12 @@
         </div>
     
         <!-- Header Navbar - Navigation -->
-<<<<<<< HEAD
-        <div class="it-header-navbar-wrapper" id="header-nav-wrapper" x-data="mobileMenu()" @keydown.escape="close()">
-            <div class="container">
-                <div class="navbar navbar-expand-lg">
-                    <button 
-                        class="navbar-toggler md:hidden" 
-                        type="button" 
-                        @click="toggle()"
-                        :aria-expanded="isOpen"
-                        aria-controls="nav4" 
-                        aria-label="Mostra/Nascondi la navigazione" 
-                        data-bs-target="#nav4" 
-                        data-bs-toggle="collapse"
-                    >
-                        <svg class="icon text-white"><use xlink:href="#it-burger"></use></svg>
-                    </button>
-                    <div 
-                        class="collapse navbar-collapse transition-all duration-300" 
-                        id="nav4"
-                        x-show="isOpen || !isMobile()"
-                        @click.outside="close()"
-=======
         <div class="it-header-navbar-wrapper" id="header-nav-wrapper">
             <div class="container">
                 <div class="navbar navbar-expand-lg">
                     <div 
                         class="collapse navbar-collapse transition-all duration-300" 
                         id="nav4"
->>>>>>> origin/dev
                     >
                         <div class="menu-wrapper">
                             <nav aria-label="Principale">

@@ -62,10 +62,7 @@
     "filament/spatie-laravel-translatable-plugin": "*"
   },
   "require-dev": {
-<<<<<<< HEAD
     "barryvdh/laravel-debugbar": "^3.14",
-=======
->>>>>>> origin/dev
     "barryvdh/laravel-ide-helper": "^3.2",
     "fakerphp/faker": "^1.24",
     "fruitcake/laravel-debugbar": "^3.16",

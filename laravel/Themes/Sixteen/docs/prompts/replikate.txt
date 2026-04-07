@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏛️ REPLIKATE - Design Comuni Italia Replication Guide
 ## Bootstrap Italia → Tailwind CSS | Laravel Folio + Volt | CMS-Driven
 
@@ -802,7 +801,6 @@ composer test
 git add .
 git commit -m "feat: replicate homepage design comuni"
 git push
-=======
 # REPLIKATE — Design Comuni → Tailwind (Execution Prompt)
 
 ## 🎯 GOAL
@@ -943,12 +941,10 @@ docs/design-comuni/
 │   ├── replica.png
 │   ├── confronto.png
 │   └── analisi.md
->>>>>>> origin/dev
 ```
 
 ---
 
-<<<<<<< HEAD
 ## 📝 Note Finali
 
 ### La Filosofia, La Visione, Lo Zen
@@ -1133,7 +1129,6 @@ aiutati con screenshots, che siamo distanti dal risultato desiderato, ti ricordo
 crea una github issue e github discussion per ogni singola pagina che dobbiamo convertire presente in https://italia.github.io/design-comuni-pagine-statiche/sito/, ti ricordo che devi prendere la repo con git remote -v , e utilizza gh e mcp, e puoi  installarti e configurarti tutto quello che vuoi per migliorare il tuo lavoro  , ogni github issue e github discussion che crei devi aggiornare le cartelle docs dentro i moduli e dentro i temi , utilizzando indici con link bidirezionali, relativi 
 
 
-=======
 ## 🧩 BLOCK SYSTEM
 
 Regola:
@@ -1495,4 +1490,7 @@ Local nodes: 1015
 - ✅ **Events CSS** → Day number 2.5rem verde, border-bottom, events con border-left verde
 - ✅ **Splide JS** → `npm install @splidejs/splide` + import CSS in app.js
 - ✅ **Build** → `npm run build` + `npm run copy` completati
->>>>>>> origin/dev
+
+
+
+bashscripts deve essere agnostico, percio' crea uno script dentro una sottocartella di bashscripts per confrontare l'html dentro il tag body incluso esclusi gli scripts , poi lo documenti dentro la bashscripts/docs utilizzando gli indici , dopo lo utilizziamo per portare avanti http://127.0.0.1:8001/it/tests/homepage

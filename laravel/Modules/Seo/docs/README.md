@@ -31,8 +31,6 @@ php artisan module:enable Seo
 php artisan migrate
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### 🎯 **Meta Tags Management**
 ```php
 // Impostazione meta tags
@@ -280,9 +278,6 @@ php artisan seo:validate-schema
 
 
 
-=======
-Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
->>>>>>> 013c0d2 (.)
 =======
 ## ⚙️ Configuration
 

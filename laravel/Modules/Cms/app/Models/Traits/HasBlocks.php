@@ -38,16 +38,6 @@ trait HasBlocks
             $blocks = [];
         }
 
-<<<<<<< HEAD
-        $blocks = array_filter(
-            $blocks,
-            static fn (mixed $block): bool => ! is_array($block)
-                || ! array_key_exists('active', $block)
-                || (bool) $block['active']
-        );
-
-=======
->>>>>>> origin/dev
         $blocks = $this->compile($blocks);
 
         // Create BlockData instances manually to ensure constructor is called
@@ -59,14 +49,9 @@ trait HasBlocks
             $type = (string) ($block['type'] ?? 'unknown');
             $data = (array) ($block['data'] ?? []);
             $slug = isset($block['slug']) ? (string) $block['slug'] : null;
-<<<<<<< HEAD
-
-            $blockDataInstances[(string) $key] = new BlockData($type, $data, $slug);
-=======
             $active = (bool) ($block['active'] ?? true);
 
             $blockDataInstances[(string) $key] = new BlockData($type, $data, $slug, $active);
->>>>>>> origin/dev
         }
 
         /* @var array<string, BlockData> $blockDataInstances */
@@ -107,22 +92,6 @@ trait HasBlocks
      */
     public static function getBlocksBySlug(string $slug, ?string $side = null): array
     {
-<<<<<<< HEAD
-        
-        
-        try {
-            $record = static::query()->where('slug', $slug)->sole();
-        } catch (ModelNotFoundException $e) {
-            dddx(['message'=>$e->getMessage(),'slug'=>$slug,'side'=>$side,'class'=>static::class]);
-            return [];
-        }
-        
-        
-        if (! $record instanceof Model) {
-            return [];
-        }
-        
-=======
         try {
             $record = static::query()->where('slug', $slug)->sole();
         } catch (ModelNotFoundException) {
@@ -133,23 +102,14 @@ trait HasBlocks
             return [];
         }
 
->>>>>>> origin/dev
         // Check if getBlocks method exists
         if (! method_exists($record, 'getBlocks')) {
             return [];
         }
-<<<<<<< HEAD
-        
-        /** @var array<string, BlockData> $blocks */
-        $blocks = $record->getBlocks($side);
-        
-        
-=======
 
         /** @var array<string, BlockData> $blocks */
         $blocks = $record->getBlocks($side);
 
->>>>>>> origin/dev
         return $blocks;
     }
 }

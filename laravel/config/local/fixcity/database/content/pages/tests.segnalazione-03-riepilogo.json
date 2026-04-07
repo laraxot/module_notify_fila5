@@ -1,95 +1,41 @@
 {
     "id": "tests.segnalazione-03-riepilogo",
     "title": {
-        "it": "Segnalazione - Step 3 riepilogo",
-        "en": "Segnalazione - Step 3 riepilogo"
+        "it": "Segnalazione disservizio",
+        "en": "Service Report"
     },
     "slug": "tests.segnalazione-03-riepilogo",
     "content": null,
     "content_blocks": {
         "it": [
             {
-<<<<<<< HEAD
-                "type": "tests",
+                "type": "segnalazione-03-riepilogo",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Segnalazione - Step 3 riepilogo",
-                    "category": "Segnalazione Disservizio",
-                    "summary": "La schermata di riepilogo delle informazioni inserite.",
-                    "slug": "tests.segnalazione-03-riepilogo"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "Il riepilogo finale richiede blocchi separati per stepper, schede riepilogo e invio."
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-03-riepilogo.html"
-=======
-                "type": "flow-stepper",
-                "data": {
+                    "view": "pub_theme::components.blocks.tests.segnalazione-03-riepilogo",
                     "title": "Segnalazione disservizio",
-                    "description": "Segnala un disservizio riscontrato",
-                    "steps": [
-                        {"title": "Autorizzazioni e condizioni", "description": "Confermato", "completed": true},
-                        {"title": "Dati di segnalazione", "description": "Confermato", "completed": true},
-                        {"title": "Riepilogo", "description": "Attivo", "completed": false}
-                    ],
-                    "currentStep": 3,
-                    "navigable": false,
-                    "view": "pub_theme::components.blocks.flow.stepper"
-                }
-            },
-            {
-                "type": "flow-segnalazione-riepilogo",
-                "data": {
-                    "view": "pub_theme::components.blocks.flow.segnalazione.03-riepilogo",
-                    "title": "Riepilogo segnalazione",
-                    "segnalazione": {
-                        "luogo": "Via Solferino - 50100 Firenze (FI)",
-                        "tipo_disservizio": "Danneggiamento proprietà pubblica",
-                        "titolo": "Panchina danneggiata",
-                        "dettagli": "La seduta della panchina risulta inutilizzabile a causa di un danno strutturale.",
-                        "immagine": "6yhakandsahm413d8da.jpg"
+                    "current_step": 3,
+                    "total_steps": 3,
+                    "steps": ["Autorizzazioni e condizioni", "Dati di segnalazione", "Riepilogo"],
+                    "report": {
+                        "address": "Via Solferino - 50100 Firenze (FI)",
+                        "type": "Danneggiamento proprietà pubblica",
+                        "title": "Panchina danneggiata",
+                        "details": "La seduta della panchina risulta inutilizzabile e pericolosa dato che ci sono molte schegge e parti appuntite",
+                        "images": ["6yhakandsahm413d8da.jpg"]
                     },
-                    "autore": {
-                        "nome": "GIULIA BIANCHI",
-                        "codice_fiscale": "GLABNC72H25H501Y",
-                        "telefono": "+39 331 1234567",
+                    "user": {
+                        "name": "Giulia Bianchi",
+                        "cf": "GLABNC72H25H501Y",
+                        "phone": "+39 331 1234567",
                         "email": "giulia.bianchi@gmail.com"
                     }
->>>>>>> origin/dev
                 }
             }
         ],
         "en": []
     },
     "sidebar_blocks": {
-<<<<<<< HEAD
         "it": [],
-=======
-        "it": [
-            {
-                "type": "contacts",
-                "data": {
-                    "view": "pub_theme::components.blocks.contacts.faq"
-                }
-            }
-        ],
->>>>>>> origin/dev
         "en": []
     },
     "footer_blocks": {

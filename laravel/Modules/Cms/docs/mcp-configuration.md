@@ -36,22 +36,14 @@ The Cms module's MCP configuration enables AI assistants to interact with:
     },
     "filesystem": {
       "command": "npx",
-<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_laravelpizza/laravel"],
-=======
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "./laravel"],
->>>>>>> origin/dev
       "description": "Access to Cms module files"
     },
     "database": {
       "command": "npx",
       "args": ["-y", "@bytebase/dbhub"],
       "env": {
-<<<<<<< HEAD
         "DATABASE_URL": "sqlite:///var/www/_bases/base_laravelpizza/laravel/database/database.sqlite"
-=======
-        "DATABASE_URL": "sqlite://./laravel/database/database.sqlite"
->>>>>>> origin/dev
       },
       "description": "SQLite database queries"
     }

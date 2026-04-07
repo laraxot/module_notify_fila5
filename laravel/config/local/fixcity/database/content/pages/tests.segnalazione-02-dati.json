@@ -1,71 +1,41 @@
 {
     "id": "tests.segnalazione-02-dati",
     "title": {
-<<<<<<< HEAD
         "it": "Segnalazione disservizio",
-        "en": "Segnalazione disservizio"
-=======
-        "it": "Segnalazione - Step 2 dati",
-        "en": "Segnalazione - Step 2 dati"
->>>>>>> origin/dev
+        "en": "Service Report"
     },
     "slug": "tests.segnalazione-02-dati",
     "content": null,
     "content_blocks": {
         "it": [
             {
-<<<<<<< HEAD
-                "type": "tests",
+                "type": "segnalazione-02-dati",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.segnalazione-02-dati",
                     "title": "Segnalazione disservizio",
-                    "summary": "Inserisci luogo, dettagli e allegati per segnalare un disservizio"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati.html"
-=======
-                "type": "flow-stepper",
-                "data": {
-                    "title": "Segnalazione disservizio",
-                    "description": "Segnala un disservizio riscontrato",
-                    "steps": [
-                        {"title": "Autorizzazioni e condizioni", "description": "Informativa e consenso", "completed": true},
-                        {"title": "Dati di segnalazione", "description": "I tuoi dati", "completed": false},
-                        {"title": "Riepilogo", "description": "Verifica e invia", "completed": false}
-                    ],
-                    "currentStep": 2,
-                    "navigable": false,
-                    "view": "pub_theme::components.blocks.flow.stepper"
-                }
-            },
-            {
-                "type": "flow-segnalazione-dati",
-                "data": {
-                    "view": "pub_theme::components.blocks.flow.segnalazione.02-dati",
-                    "title": "Dati di segnalazione"
->>>>>>> origin/dev
+                    "current_step": 2,
+                    "total_steps": 3,
+                    "steps": ["Informativa sulla privacy", "Dati di segnalazione", "Riepilogo"],
+                    "inefficiency_types": ["Danneggiamento proprietà pubblica", "Mancata manutenzione", "Decoro urbano"],
+                    "placeholders": {
+                        "search_place": "Cerca un luogo*",
+                        "inefficiency_type": "Tipo di disservizio*",
+                        "title": "Titolo*",
+                        "details": "Dettagli**"
+                    },
+                    "user": {
+                        "name": "Giulia Bianchi",
+                        "cf": "GLABNC72H25H501Y",
+                        "phone": "+39 331 1234567",
+                        "email": "giulia.bianchi@gmail.com"
+                    }
                 }
             }
         ],
         "en": []
     },
     "sidebar_blocks": {
-<<<<<<< HEAD
         "it": [],
-=======
-        "it": [
-            {
-                "type": "contacts",
-                "data": {
-                    "view": "pub_theme::components.blocks.contacts.faq"
-                }
-            }
-        ],
->>>>>>> origin/dev
         "en": []
     },
     "footer_blocks": {

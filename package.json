@@ -16,17 +16,16 @@
     "@biomejs/biome": "^2.2.4",
     "@typescript-eslint/eslint-plugin": "^8.45.0",
     "@typescript-eslint/parser": "^8.45.0",
-<<<<<<< HEAD
-=======
     "canvas": "^3.2.3",
->>>>>>> origin/dev
     "eslint": "^9.36.0",
     "htmlhint": "^1.7.1",
     "jsdom": "^29.0.1",
     "markdownlint-cli": "^0.45.0",
     "node-fetch": "^3.3.2",
-<<<<<<< HEAD
-    "playwright": "^1.59.1"
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.59.1",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.5"
   },
   "main": ".eslintrc.js",
   "directories": {
@@ -208,11 +207,4 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
-=======
-    "pixelmatch": "^7.1.0",
-    "playwright": "^1.59.1",
-    "pngjs": "^7.0.0",
-    "sharp": "^0.34.5"
-  }
->>>>>>> origin/dev
 }

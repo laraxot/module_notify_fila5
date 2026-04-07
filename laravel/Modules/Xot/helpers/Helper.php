@@ -14,20 +14,12 @@ use Modules\Xot\Actions\File\FixPathAction;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
-<<<<<<< HEAD
 use Webmozart\Assert\Assert;
-=======
 
->>>>>>> origin/dev
 use function Safe\define;
 use function Safe\glob;
 use function Safe\preg_match;
 
-<<<<<<< HEAD
-=======
-use Webmozart\Assert\Assert;
-
->>>>>>> origin/dev
 if (! function_exists('isRunningTestBench')) {
     function isRunningTestBench(): bool
     {
@@ -316,11 +308,7 @@ if (! function_exists('getModuleFromModel')) {
     {
         $class = $model::class;
         $module_name = Str::before(Str::after($class, 'Modules\\'), '\\Models\\');
-<<<<<<< HEAD
-        $moduleRepository = app(\Nwidart\Modules\Contracts\RepositoryInterface::class);
-=======
         $moduleRepository = app(Nwidart\Modules\Contracts\RepositoryInterface::class);
->>>>>>> origin/dev
         Assert::isInstanceOf($res = $moduleRepository->find($module_name), Nwidart\Modules\Module::class);
 
         return $res;

@@ -12,11 +12,7 @@ return RectorConfig::configure()
         __DIR__.'/bootstrap',
         __DIR__.'/config',
         __DIR__.'/lang',
-<<<<<<< HEAD
-        __DIR__.'/public',
-=======
         __DIR__.'/public',  // Note: laravel/public/ exists but is UNUSED. Actual public is ../public_html
->>>>>>> origin/dev
         __DIR__.'/resources',
         __DIR__.'/routes',
         __DIR__.'/tests',

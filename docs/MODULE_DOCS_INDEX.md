@@ -12,11 +12,7 @@
 Questo documento crea un **sistema di indicizzazione centrale** con collegamenti bidirezionali tra:
 - ✅ Documentazione moduli (6,812 file)
 - ✅ Documentazione temi (325 file)
-<<<<<<< HEAD
 - ✅ BMad documentation (9 file)
-=======
-- ✅ BMad documentation (11+ file: setup guide, quick reference, output artifacts)
->>>>>>> origin/dev
 - ✅ Project documentation (153 file)
 - ✅ Rules, memories, skills
 
@@ -207,39 +203,9 @@ FixCity Fila5 Documentation
 
 ## 📁 BMad Documentation
 
-<<<<<<< HEAD
 **Location:** `_bmad-output/`  
 **Files:** 9  
 **Status:** ✅ Complete
-=======
-**Location:** `_bmad/` (modules) + `_bmad-output/` (artifacts) + `docs/bmad/` (guides)
-**Version:** 6.2.2
-**Status:** ✅ **Fully Installed & Configured**
-**Total Skills:** 110 | **Total Agents:** 28
-
-### BMad Setup & Configuration
-
-| Document | File | Purpose |
-|----------|------|---------|
-| **Setup Guide** | [BMAD_SETUP_GUIDE.md](bmad/BMAD_SETUP_GUIDE.md) | Complete installation & configuration guide |
-| **Quick Reference** | [BMAD_QUICK_REFERENCE.md](bmad/BMAD_QUICK_REFERENCE.md) | Quick start & common workflows |
-
-### Installed Modules
-
-| Module | Version | Type | Skills | Agents |
-|--------|---------|------|--------|--------|
-| **core** | 6.2.2 | Built-in | 11 | - |
-| **bmm** | 6.2.2 | Built-in | 20 | 9 |
-| **cis** | 0.1.9 | External | 8 | 6 |
-| **gds** | 0.2.2 | External | 22 | 7 |
-| **tea** | 1.7.2 | External | 9 | 1 |
-| **wds** | 0.3.1 | External | 10 | 2 |
-
-### BMad Output Artifacts
-
-**Location:** `_bmad-output/`
-**Files:** 15+ documents
->>>>>>> origin/dev
 
 | Document | File | Lines | Purpose |
 |----------|------|-------|---------|
@@ -257,10 +223,6 @@ FixCity Fila5 Documentation
 - ← [Master Index](#master-documentation-index---fixcity-fila5) - This document
 - ← [Module Docs](#module-documentation-indexes) - Module documentation
 - ← [Theme Docs](#theme-documentation-indexes) - Theme documentation
-<<<<<<< HEAD
-=======
-- → [BMad Official Docs](https://docs.bmad-method.org/) - Official documentation
->>>>>>> origin/dev
 
 ---
 
@@ -309,10 +271,6 @@ FixCity Fila5 Documentation
 - → [UI Spec](_bmad-output/design-comuni-ui-spec.md) - Component specs
 - → [Replication Master Plan](laravel/Themes/Sixteen/docs/design-comuni/REPLICATION_MASTER_PLAN.md) - Technical guide
 - → [Theme Docs Index](laravel/Themes/Sixteen/docs/00-index.md) - Theme documentation
-<<<<<<< HEAD
-=======
-- → [Segnalazione Parity](laravel/Themes/Sixteen/docs/design-comuni/segnalazione-parity/README.md) - 7 pages CSS/JS parity (2026-04-07)
->>>>>>> origin/dev
 
 ---
 

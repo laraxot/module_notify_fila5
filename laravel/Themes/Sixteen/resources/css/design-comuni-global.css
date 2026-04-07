@@ -17,24 +17,15 @@
 .card-teaser-wrapper-equal {
   display: flex !important;
   flex-direction: row !important;
-<<<<<<< HEAD
-  flex-wrap: nowrap !important;
-=======
   flex-wrap: wrap !important;  /* FIXED: allow wrapping for multi-row layouts */
->>>>>>> origin/dev
   gap: 1.5rem !important;
   justify-content: center !important;
   align-items: stretch !important;
 }
 
 .card-teaser-wrapper-equal > .card {
-<<<<<<< HEAD
-  flex: 1 1 0 !important;
-  min-width: 0 !important;
-=======
   flex: 1 1 calc(33.333% - 1.5rem) !important;  /* 3 columns with gap */
   min-width: 280px !important;  /* Minimum width before wrapping */
->>>>>>> origin/dev
   max-width: none !important;
   margin-bottom: 0 !important;
   width: auto !important;
@@ -81,13 +72,6 @@
 }
 
 @media (max-width: 1024px) {
-<<<<<<< HEAD
-  .card-teaser-wrapper-equal {
-    flex-direction: column !important;
-  }
-}
-
-=======
   .card-teaser-wrapper-equal > .card {
     flex: 1 1 calc(50% - 1.5rem) !important;  /* 2 columns on tablet */
     min-width: 280px !important;
@@ -136,7 +120,6 @@
   min-width: 0 !important;
 }
 
->>>>>>> origin/dev
 /* ============================================================================
    GLOBAL: Rating Section (all pages)
    ============================================================================ */
