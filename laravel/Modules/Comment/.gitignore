@@ -1,0 +1,15 @@
+vendor/
+docs/cache/
+cache/
+-e 
+# PHPStan documentation
+docs/phpstan/
+
+# Backup files
+*.old
+*.old1
+*.backup
+*.backup.*
+lang/lang/
+_docs/
+_docs/
