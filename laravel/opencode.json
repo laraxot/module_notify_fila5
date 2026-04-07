@@ -1,5 +1,40 @@
 {
     "$schema": "https://opencode.ai/config.json",
+<<<<<<< HEAD
+=======
+    "agent": {
+        "analyst": {
+            "prompt": "{file:./_bmad/agents/analyst.md}"
+        },
+        "architect": {
+            "prompt": "{file:./_bmad/agents/architect.md}"
+        },
+        "bmad-master": {
+            "prompt": "{file:./_bmad/agents/bmad-master.md}"
+        },
+        "bmad-orchestrator": {
+            "prompt": "{file:./_bmad/agents/bmad-orchestrator.md}"
+        },
+        "dev": {
+            "prompt": "{file:./_bmad/agents/dev.md}"
+        },
+        "pm": {
+            "prompt": "{file:./_bmad/agents/pm.md}"
+        },
+        "po": {
+            "prompt": "{file:./_bmad/agents/po.md}"
+        },
+        "qa": {
+            "prompt": "{file:./_bmad/agents/qa.md}"
+        },
+        "sm": {
+            "prompt": "{file:./_bmad/agents/sm.md}"
+        },
+        "ux-expert": {
+            "prompt": "{file:./_bmad/agents/ux-expert.md}"
+        }
+    },
+>>>>>>> origin/dev
     "mcp": {
         "laravel-boost": {
             "type": "local",
@@ -10,6 +45,18 @@
                 "/var/www/_bases/base_fixcity_fila5/laravel/artisan",
                 "boost:mcp"
             ]
+<<<<<<< HEAD
+=======
+        },
+        "context7": {
+            "type": "local",
+            "command": [
+                "npx",
+                "-y",
+                "@upstash/context7-mcp"
+            ],
+            "enabled": true
+>>>>>>> origin/dev
         }
     },
     "plugin": [

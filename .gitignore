@@ -230,3 +230,7 @@ bashscripts/ai/.claude/skills/canvas-design/canvas-fonts
 *.*Zone.Identifier
 .kilo
 .gemini
+<<<<<<< HEAD
+=======
+laravel/.env.testing
+>>>>>>> origin/dev

@@ -42,3 +42,9 @@ Activity/
 - [ ] Documentare modelli principali
 - [ ] Documentare risorse Filament
 - [ ] Aggiungere esempi codice
+<<<<<<< HEAD
+=======
+
+## AI Workflows
+- [AI Methodologies](./ai-methodologies.md)
+>>>>>>> origin/dev

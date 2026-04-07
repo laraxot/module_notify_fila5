@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Notify
 module: notify
@@ -144,3 +145,8 @@ composer test -- Modules/Notify
 ---
 
 Navigation: [Project Home](../../docs/INDEX.md) | [Modules](../../docs/modules/README.md)
+=======
+# Notify Module
+
+Notification management module for the Laraxot ecosystem: email, SMS, WhatsApp, Telegram, and FCM push.
+>>>>>>> origin/dev

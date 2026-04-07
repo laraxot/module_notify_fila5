@@ -30,6 +30,7 @@
                   </div>
                 </div>
               </div>
+<<<<<<< HEAD
               <a class="btn btn-primary btn-icon btn-full" href="#" data-element="personal-area-login">
                 <span class="rounded-icon" aria-hidden="true">
                   <svg class="icon icon-primary">
@@ -37,6 +38,10 @@
                   </svg>
                 </span>
                 <span class="d-none d-lg-block">Accedi all'area personale</span>
+=======
+              <a class="text-white text-decoration-none" href="#" data-element="personal-area-login">
+                <span>Accedi all'area personale</span>
+>>>>>>> origin/dev
               </a>
             </div>
           </div>
@@ -45,12 +50,24 @@
     </div>
   </div>
 
+<<<<<<< HEAD
   <div class="it-nav-wrapper">
+=======
+    <div class="it-nav-wrapper">
+>>>>>>> origin/dev
     <div class="it-header-center-wrapper">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="it-header-center-content-wrapper">
+<<<<<<< HEAD
+=======
+              <button class="custom-navbar-toggler navbar-toggler me-3 d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav-wrapper" aria-controls="header-nav-wrapper" aria-expanded="false" aria-label="Apri/chudi menu">
+                <svg class="icon">
+                  <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
+                </svg>
+              </button>
+>>>>>>> origin/dev
               <div class="it-brand-wrapper">
                 <a href="/">
                     <svg width="82" height="82" class="icon" aria-hidden="true">
@@ -135,11 +152,14 @@
           <div class="col-12">
             <div class="it-nav-scroll">
               <nav class="navbar navbar-expand-lg" aria-label="Navigazione principale">
+<<<<<<< HEAD
                 <button class="custom-navbar-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav-wrapper" aria-controls="header-nav-wrapper" aria-expanded="false" aria-label="Apri/chudi menu">
                   <svg class="icon">
                     <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
                   </svg>
                 </button>
+=======
+>>>>>>> origin/dev
                 <div class="collapse navbar-collapse" id="header-nav-wrapper">
                   <ul class="navbar-nav">
                     <li class="nav-item">

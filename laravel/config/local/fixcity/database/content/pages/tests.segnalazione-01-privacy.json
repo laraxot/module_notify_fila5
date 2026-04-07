@@ -9,6 +9,7 @@
     "content_blocks": {
         "it": [
             {
+<<<<<<< HEAD
                 "type": "tests",
                 "data": {
                     "view": "pub_theme::components.blocks.tests.intro",
@@ -37,13 +38,46 @@
                 "data": {
                     "view": "pub_theme::components.blocks.tests.source-link",
                     "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-01-privacy.html"
+=======
+                "type": "flow-stepper",
+                "data": {
+                    "title": "Segnalazione disservizio",
+                    "description": "Segnala un disservizio riscontrato",
+                    "steps": [
+                        {"title": "Autorizzazioni e condizioni", "description": "Informativa e consenso", "completed": false},
+                        {"title": "Dati di segnalazione", "description": "I tuoi dati", "completed": false},
+                        {"title": "Riepilogo", "description": "Verifica e invia", "completed": false}
+                    ],
+                    "currentStep": 1,
+                    "navigable": false,
+                    "view": "pub_theme::components.blocks.flow.stepper"
+                }
+            },
+            {
+                "type": "flow-segnalazione-privacy",
+                "data": {
+                    "view": "pub_theme::components.blocks.flow.segnalazione.01-privacy",
+                    "title": "Informativa sulla privacy",
+                    "privacyText": "Il Comune di Firenze gestisce i dati personali conferiti con il presente modulo per le finalità connesse alla gestione della segnalazione, ai sensi dell'articolo 13 del Regolamento (UE) 2016/679 (GDPR) e del d.lgs 267/2000. Per i dettagli sul trattamento dei dati personali consulta l'informativa sulla privacy."
+>>>>>>> origin/dev
                 }
             }
         ],
         "en": []
     },
     "sidebar_blocks": {
+<<<<<<< HEAD
         "it": [],
+=======
+        "it": [
+            {
+                "type": "contacts",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.faq"
+                }
+            }
+        ],
+>>>>>>> origin/dev
         "en": []
     },
     "footer_blocks": {

@@ -24,7 +24,10 @@ final class ResolvePageAction
 
     public function execute(string $container0, string $slug0): ResolvePageData
     {
+<<<<<<< HEAD
         // 1. Tenta il caricamento di un modello dinamico
+=======
+>>>>>>> origin/dev
         $item = $this->loadDynamicModel($container0, $slug0);
 
         if (null !== $item) {
@@ -35,7 +38,10 @@ final class ResolvePageAction
             );
         }
 
+<<<<<<< HEAD
         // 2. Verifica se esiste una pagina CMS con slug esatto
+=======
+>>>>>>> origin/dev
         $fullSlug = $container0.'.'.$slug0;
         if (PageModel::where('slug', $fullSlug)->exists()) {
             return new ResolvePageData(
@@ -45,7 +51,10 @@ final class ResolvePageAction
             );
         }
 
+<<<<<<< HEAD
         // 3. Fallback a container.view
+=======
+>>>>>>> origin/dev
         $viewSlug = $container0.'.view';
         if (PageModel::where('slug', $viewSlug)->exists()) {
             return new ResolvePageData(
@@ -55,7 +64,10 @@ final class ResolvePageAction
             );
         }
 
+<<<<<<< HEAD
         // 4. Fallback finale allo slug completo (mostrerà 404 o placeholder nel componente x-page)
+=======
+>>>>>>> origin/dev
         return new ResolvePageData(
             renderMode: 'cms',
             item: null,
@@ -69,7 +81,10 @@ final class ResolvePageAction
             return $this->resolvePublicProfileItem($slug0);
         }
 
+<<<<<<< HEAD
         // Mappature note (Priority 1)
+=======
+>>>>>>> origin/dev
         $knownMappings = [
             'events' => 'Modules\\Meetup\\Models\\Event',
         ];
@@ -80,7 +95,10 @@ final class ResolvePageAction
             return $this->queryModel($modelClass, $slug0);
         }
 
+<<<<<<< HEAD
         // Mappature da config (Priority 2)
+=======
+>>>>>>> origin/dev
         $modelMap = config('xra.container0_model_map', []);
         if (is_array($modelMap) && isset($modelMap[$container0])) {
             $modelClass = $modelMap[$container0];
@@ -89,7 +107,10 @@ final class ResolvePageAction
             }
         }
 
+<<<<<<< HEAD
         // Convenzioni (Priority 3)
+=======
+>>>>>>> origin/dev
         $singular = rtrim($container0, 's');
         $possibleModels = [
             'Modules\\'.ucfirst($container0).'\\Models\\'.ucfirst($singular),

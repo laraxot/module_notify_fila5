@@ -31,9 +31,15 @@
             <div class="col-lg-6 order-2 order-lg-1">
                 <div class="card mb-5">
                     <div class="card-body pb-5 px-0">
+<<<<<<< HEAD
                         <div class="category-top">
                             <svg class="icon icon-sm" aria-hidden="true">
                                 <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar"></use>
+=======
+                        <div class="category-top mb-2">
+                            <svg class="icon icon-sm" aria-hidden="true">
+                                <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar"></use>
+>>>>>>> origin/dev
                             </svg>
                             <span class="title-xsmall-semi-bold fw-semibold">{{ $news['category'] ?? 'Notizie' }}</span>
                             <span class="data fw-normal">{{ $news['date'] ?? '' }}</span>
@@ -45,6 +51,7 @@
                         <a class="chip chip-simple" href="{{ $news['url'] ?? '#' }}">
                             <span class="chip-label">{{ $news['tag'] ?? 'Estate in città' }}</span>
                         </a>
+<<<<<<< HEAD
                         <a class="read-more pb-3" href="{{ $allNewsUrl }}">
                             <span class="text">{{ $allNewsLabel }}</span>
                             <svg class="icon">
@@ -55,6 +62,20 @@
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 px-0 px-lg-3">
+=======
+                        <div class="d-block">
+                            <a class="read-more pb-3" href="{{ $allNewsUrl }}">
+                                <span class="text">{{ $allNewsLabel }}</span>
+                                <svg class="icon icon-sm ms-1">
+                                    <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 px-0">
+>>>>>>> origin/dev
                 <img src="{{ $image }}" title="titolo immagine" alt="descrizione immagine" class="img-fluid">
             </div>
         </div>

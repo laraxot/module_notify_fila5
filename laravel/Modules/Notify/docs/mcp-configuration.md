@@ -36,14 +36,22 @@ The Notify module's MCP configuration enables AI assistants to interact with:
     },
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_<nome progetto>/laravel"],
+=======
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
+>>>>>>> origin/dev
       "description": "Access to Notify module files"
     },
     "database": {
       "command": "npx",
       "args": ["-y", "@bytebase/dbhub"],
       "env": {
+<<<<<<< HEAD
         "DATABASE_URL": "sqlite:///var/www/_bases/base_<nome progetto>/laravel/database/database.sqlite"
+=======
+        "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
+>>>>>>> origin/dev
       },
       "description": "SQLite database queries"
     }

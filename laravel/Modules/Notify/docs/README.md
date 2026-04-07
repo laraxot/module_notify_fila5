@@ -40,3 +40,9 @@ use Modules\Notify\Models\Traits\HasNotify;
 
 - [Filament Resources](./filament/)
 - [PHPStan Config](./phpstan/)
+<<<<<<< HEAD
+=======
+
+## AI Workflows
+- [AI Methodologies](./ai-methodologies.md)
+>>>>>>> origin/dev

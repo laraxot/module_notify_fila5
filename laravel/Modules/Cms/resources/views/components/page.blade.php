@@ -13,8 +13,17 @@ declare(strict_types=1);
 ])
 
 @if(!empty($blocks))
+<<<<<<< HEAD
     @foreach($blocks as $block)
         {{-- BlockData ha già gestito tutto: vista, dati, fallback --}}
         @include($block->view, array_merge($data, $block->data, ['data' => $block->data]))
     @endforeach
+=======
+    <div class="page-{{ $side }}-content" data-slug="{{ $slug }}" data-side="{{ $side }}">
+        @foreach($blocks as $block)
+            {{-- BlockData ha già gestito tutto: vista, dati, fallback --}}
+            @include($block->view, array_merge($data, $block->data))
+        @endforeach
+    </div>
+>>>>>>> origin/dev
 @endif

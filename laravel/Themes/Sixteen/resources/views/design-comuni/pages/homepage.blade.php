@@ -51,10 +51,10 @@
                                 <strong>Inaugurazione lunedì 2 luglio</strong> con il concerto
                                 gratuito in piazza XX Settembre degli Sweet Soul Music Revue. Sul palco 20 musicisti dal tutto il mondo
                             </p>
-                            <a class="chip chip-simple" href="/it/tests/novita-dettaglio">
+                            <a class="chip chip-simple chip-green" href="/it/tests/novita-dettaglio">
                                 <span class="chip-label">Estate in città</span>
                             </a>
-                            <a class="read-more pb-3" href="/it/tests/novita">
+                            <a class="read-more read-more-green pb-3" href="/it/tests/novita">
                                 <span class="text">Tutte le novità</span>
                                 <svg class="icon">
                                     <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right"></use>
@@ -71,7 +71,61 @@
             </div>
         </div>
     </section>
+    {{-- Calendario Section - Organi di governo + Events Calendar (from reference) --}}
+    @php
+        $calendarioData = [
+            'cards' => [
+                [
+                    'category' => 'Organi di governo',
+                    'title' => 'Mario Rossi',
+                    'role' => 'Il Sindaco della città',
+                    'image' => 'https://picsum.photos/150/200',
+                    'url' => '/it/tests/amministrazione#sindaco',
+                ],
+                [
+                    'category' => 'Organi di governo',
+                    'title' => 'La giunta comunale',
+                    'description' => 'La giunta, nominata dal sindaco, esercita collegialmente le funzioni ad essa attribuite dalla legge.',
+                    'url' => '/it/tests/amministrazione#giunta',
+                ],
+                [
+                    'category' => 'Organi di governo',
+                    'title' => 'Il consiglio comunale',
+                    'description' => 'Il Consiglio è un organo collegiale ed elettivo che rimane in carica per 5 anni.',
+                    'url' => '/it/tests/amministrazione#consiglio',
+                ],
+            ],
+            'month' => 'LUGLIO 2026',
+            'slides' => [
+                ['day' => '1', 'weekday' => 'Lunedì', 'events' => [
+                    ['title' => 'Estate in città - Inaugurazione', 'url' => '/it/tests/eventi/estate-citta'],
+                ]],
+                ['day' => '5', 'weekday' => 'Venerdì', 'events' => [
+                    ['title' => 'Concerto in piazza', 'url' => '/it/tests/eventi/concerto', 'image' => 'https://picsum.photos/60/60'],
+                ]],
+                ['day' => '10', 'weekday' => 'Mercoledì', 'events' => [
+                    ['title' => 'Mostra d\'arte moderna', 'url' => '/it/tests/eventi/mostra', 'image' => 'https://picsum.photos/60/61'],
+                    ['title' => 'Incontro con l\'autore', 'url' => '/it/tests/eventi/incontro'],
+                ]],
+                ['day' => '15', 'weekday' => 'Lunedì', 'events' => [
+                    ['title' => 'Festa di quartiere', 'url' => '/it/tests/eventi/festa'],
+                ]],
+                ['day' => '20', 'weekday' => 'Sabato', 'events' => [
+                    ['title' => 'Mercato dell\'usato', 'url' => '/it/tests/eventi/mercato'],
+                    ['title' => 'Laboratorio bambini', 'url' => '/it/tests/eventi/laboratorio'],
+                ]],
+                ['day' => '25', 'weekday' => 'Giovedì', 'events' => [
+                    ['title' => 'Cinema all\'aperto', 'url' => '/it/tests/eventi/cinema', 'image' => 'https://picsum.photos/60/62'],
+                ]],
+                ['day' => '30', 'weekday' => 'Martedì', 'events' => [
+                    ['title' => 'Torneo di scacchi', 'url' => '/it/tests/eventi/scacchi'],
+                ]],
+            ],
+        ];
+    @endphp
+    <x-blocks.governance.cards :data="$calendarioData" />
 
+>>>>>>> origin/dev
     {{-- Services Section --}}
     <div class="container">
         <div class="row justify-content-center">
@@ -235,5 +289,8 @@
 
 @push('scripts')
 {{-- Bootstrap Italia JS --}}
+<<<<<<< HEAD
 <script src="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/js/themes/Sixteen/design-comuni/assets/bootstrap-italia.bundle.min.js"></script>
+=======
+    <script src="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js"></script>
 @endpush

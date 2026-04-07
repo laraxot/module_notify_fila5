@@ -27,6 +27,7 @@
                                     </div>
                                 </div>
                             </div>
+<<<<<<< HEAD
                             <a class="btn btn-primary btn-icon btn-full" href="../servizi/accesso-servizio.html" data-element="personal-area-login">
                                 <span class="rounded-icon" aria-hidden="true">
                                     <svg class="icon icon-primary">
@@ -34,6 +35,12 @@
                                     </svg>
                                 </span>
                                 <span class="d-none d-lg-block">Accedi all'area personale</span>
+=======
+                            <a class="btn btn-outline-light btn-icon" href="../servizi/accesso-servizio.html" data-element="personal-area-login" aria-label="Accedi all'area personale">
+                                <svg class="icon icon-white">
+                                    <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                                </svg>
+>>>>>>> origin/dev
                             </a>
                         </div>
                     </div>
@@ -48,6 +55,14 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="it-header-center-content-wrapper">
+<<<<<<< HEAD
+=======
+                            <button class="custom-navbar-toggler d-lg-none me-3" type="button" aria-controls="nav4" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-target="#nav4" data-bs-toggle="navbarcollapsible">
+                                <svg class="icon">
+                                    <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
+                                </svg>
+                            </button>
+>>>>>>> origin/dev
                             <div class="it-brand-wrapper">
                                 <a href="homepage.html">
                                     <svg width="82" height="82" class="icon" aria-hidden="true">
@@ -126,11 +141,14 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="navbar navbar-expand-lg has-megamenu">
+<<<<<<< HEAD
                             <button class="custom-navbar-toggler" type="button" aria-controls="nav4" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-target="#nav4" data-bs-toggle="navbarcollapsible">
                                 <svg class="icon">
                                     <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
                                 </svg>
                             </button>
+=======
+>>>>>>> origin/dev
                             <div class="navbar-collapsable" id="nav4">
                                 <div class="overlay" style="display: none;"></div>
                                 <div class="close-div">

@@ -37,16 +37,27 @@ npm run copy
 ```
 
 ## ⚠️ NON Fare Mai
+<<<<<<< HEAD
 ❌ **NON modificare** `/public/css/` o `/public/js/` direttamente
+=======
+❌ **NON modificare** `/public_html/css/` o `/public_html/js/` direttamente
+>>>>>>> origin/dev
 ❌ **NON usare** `npm run build` dalla root Laravel
 ❌ **NON dimenticare** il comando `npm run copy`
 
 ## ✅ Processo Corretto
 1. **Modifica sorgenti** in `/Themes/[Theme]/resources/`
+<<<<<<< HEAD
 2. **Usa `@vite([...], 'themes/[Theme]')`** nei layout del tema per evitare il fallback a `public/build/manifest.json`
 2. **Build assets** con `npm run build` dalla cartella tema
 3. **Copy assets** con `npm run copy` dalla cartella tema
 4. **Verifica risultato** nel browser
+=======
+2. **Usa `@vite([...], 'themes/[Theme]')`** nei layout del tema per evitare il fallback a `public_html/build/manifest.json`
+3. **Build assets** con `npm run build` dalla cartella tema
+4. **Copy assets** con `npm run copy` dalla cartella tema
+5. **Verifica risultato** nel browser
+>>>>>>> origin/dev
 
 ## 🔄 Comandi di Build per Tema
 
@@ -55,7 +66,11 @@ npm run copy
 cd Themes/One
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
+<<<<<<< HEAD
 npm run copy         # Copia in /public/
+=======
+npm run copy         # Copia in /public_html/themes/One/
+>>>>>>> origin/dev
 ```
 
 ### Tema Two
@@ -63,7 +78,11 @@ npm run copy         # Copia in /public/
 cd Themes/Two
 npm install
 npm run build
+<<<<<<< HEAD
 npm run copy
+=======
+npm run copy         # Copia in /public_html/themes/Two/
+>>>>>>> origin/dev
 ```
 
 ## 🎯 File di Configurazione
@@ -73,7 +92,11 @@ npm run copy
 {
   "scripts": {
     "build": "vite build",
+<<<<<<< HEAD
     "copy": "cp -r public/* ../../public/"
+=======
+    "copy": "cp -r public/* ../../../public_html/themes/[Theme]/"
+>>>>>>> origin/dev
   }
 }
 ```
@@ -103,4 +126,8 @@ export default defineConfig({
 
 ---
 
+<<<<<<< HEAD
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public_html!
+>>>>>>> origin/dev

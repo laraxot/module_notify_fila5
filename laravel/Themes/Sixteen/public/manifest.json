@@ -6,7 +6,11 @@
     "isDynamicEntry": true
   },
   "resources/css/app.css": {
+<<<<<<< HEAD
     "file": "assets/app-DjBe6cy1.css",
+=======
+    "file": "assets/app-CEzJRGYx.css",
+>>>>>>> origin/dev
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -15,12 +19,22 @@
     ]
   },
   "resources/js/app.js": {
+<<<<<<< HEAD
     "file": "assets/app-DoRf-Me2.js",
+=======
+    "file": "assets/app-aUVY1683.js",
+>>>>>>> origin/dev
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
       "node_modules/@splidejs/splide/dist/js/splide.esm.js"
+<<<<<<< HEAD
+=======
+    ],
+    "css": [
+      "assets/app-BRKXMWAJ.css"
+>>>>>>> origin/dev
     ]
   }
 }

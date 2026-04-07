@@ -10,7 +10,11 @@
 La verifica mirata eseguita con:
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_predict_fila5/laravel
+=======
+cd ./laravel
+>>>>>>> origin/dev
 ./vendor/bin/phpstan analyse --no-progress ../bashscripts/cms/generate_test_data.php Modules/Cms/populate_database_comprehensive.php
 ```
 

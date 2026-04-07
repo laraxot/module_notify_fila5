@@ -175,9 +175,13 @@ public_html
 # ==============================================
 lang/lang/
 _docs/
+<<<<<<< HEAD
 _docs/
 <<<<<<< HEAD
 docs/archive/
 ||||||| parent of 9a84589 (.)
 =======
 >>>>>>> 9a84589 (.)
+=======
+docs/archive/
+>>>>>>> origin/dev

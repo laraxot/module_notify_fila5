@@ -6,11 +6,16 @@
 
 ---
 
+<<<<<<< HEAD
 ## Configuration Summary
+=======
+## Configurazione
+>>>>>>> origin/dev
 
 | Parametro | Valore |
 |-----------|--------|
 | **ServerName** | `fixcity.local` |
+<<<<<<< HEAD
 | **ServerAlias** | `www.fixcity.local` |
 | **DocumentRoot** | `/var/www/_bases/base_fixcity_fila5/public_html` |
 | **Port** | 80 (HTTP) |
@@ -79,10 +84,30 @@ echo "127.0.0.1 fixcity.local www.fixcity.local" | sudo tee -a /etc/hosts
 ```bash
 sudo apache2ctl configtest
 sudo systemctl reload apache2
+=======
+| **DocumentRoot** | `/var/www/_bases/base_fixcity_fila5/public_html` |
+| **Port** | 80 |
+
+---
+
+## Document Root
+
+Il `public_html` è la directory esposta. `index.php` bootstrappa Laravel da `../laravel/`.
+
+```
+public_html/
+├── index.php       # Front controller
+├── .htaccess       # Rewrite rules
+├── assets/css/js/  # Compiled theme assets
+├── modules/        # Module public assets
+├── themes/         # Theme compiled assets
+└── uploads/        # User uploads
+>>>>>>> origin/dev
 ```
 
 ---
 
+<<<<<<< HEAD
 ## Security Headers
 
 La configurazione include:
@@ -125,11 +150,31 @@ tail -f /var/log/apache2/fixcity.local-error.log
 sudo a2enmod rewrite
 sudo systemctl restart apache2
 ```
+=======
+## Dipendenze Apache
+
+- `mod_rewrite` - URL rewriting (Laravel routing)
+- `mod_headers` - Security headers
+- `AllowOverride All` - .htaccess processing
+
+---
+
+## File di Configurazione
+
+- **Sistema**: `/etc/apache2/sites-available/fixcity.local.conf`
+- **Progetto**: `docs/deployment/fixcity.local.conf`
+- **/etc/hosts**: `127.0.0.1 fixcity.local`
+>>>>>>> origin/dev
 
 ---
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [Laravel Deployment](https://laravel.com/docs/deployment)
 - [Apache VirtualHost](https://httpd.apache.org/docs/2.4/vhosts/)
 - [Rule 013: Design Comuni HTML Match](../../.kilo/rules/013-design-comuni-html-match.md)
+=======
+- [Deployment Docs](../../docs/deployment/vhost-fixcity.md)
+- [Laravel Deployment](https://laravel.com/docs/deployment)
+>>>>>>> origin/dev
