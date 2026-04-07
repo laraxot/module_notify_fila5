@@ -10,11 +10,11 @@
     $subtitle = $data['subtitle'] ?? 'Grazie, il tuo parere ci aiuterà a migliorare il servizio!';
 @endphp
 
-<div class="bg-primary" id="rating" x-data="{ rating: 0, hover: 0, step: 1, answer: '', feedbackType: '' }">
+<div class="bg-primary">
     <div class="container">
         <div class="row d-flex justify-content-center bg-primary">
             <div class="col-12 col-lg-6">
-                <div class="cmp-rating pt-lg-80 pb-lg-80">
+                <div class="cmp-rating pt-lg-80 pb-lg-80" id="rating" x-data="{ rating: 0, hover: 0, step: 1, answer: '', feedbackType: '' }">
                     <div class="card shadow card-wrapper" data-element="feedback">
                         <div class="cmp-rating__card-first">
                             <div class="card-header border-0">

@@ -49,8 +49,9 @@ trait HasBlocks
             $type = (string) ($block['type'] ?? 'unknown');
             $data = (array) ($block['data'] ?? []);
             $slug = isset($block['slug']) ? (string) $block['slug'] : null;
+            $active = (bool) ($block['active'] ?? true);
 
-            $blockDataInstances[(string) $key] = new BlockData($type, $data, $slug);
+            $blockDataInstances[(string) $key] = new BlockData($type, $data, $slug, $active);
         }
 
         /* @var array<string, BlockData> $blockDataInstances */
