@@ -1,8 +1,8 @@
 {
     "id": "tests.segnalazione-02-dati",
     "title": {
-        "it": "Segnalazione - Step 2 dati",
-        "en": "Segnalazione - Step 2 dati"
+        "it": "Segnalazione disservizio",
+        "en": "Segnalazione disservizio"
     },
     "slug": "tests.segnalazione-02-dati",
     "content": null,
@@ -11,25 +11,9 @@
             {
                 "type": "tests",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Segnalazione - Step 2 dati",
-                    "category": "Segnalazione Disservizio",
-                    "summary": "La schermata per l'inserimento di luogo, dettagli, allegati e dati autore.",
-                    "slug": "tests.segnalazione-02-dati"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "La forma corretta a blocchi separa stepper, mappa/luogo, campi segnalazione, allegati e dati autore."
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
+                    "view": "pub_theme::components.blocks.tests.segnalazione-02-dati",
+                    "title": "Segnalazione disservizio",
+                    "summary": "Inserisci luogo, dettagli e allegati per segnalare un disservizio"
                 }
             },
             {

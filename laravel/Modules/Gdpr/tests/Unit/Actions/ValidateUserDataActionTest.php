@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Hash;
 use Modules\Gdpr\Actions\Validation\ValidateUserDataAction;
 
 test('ValidateUserDataAction returns valid user data', function () {
-    $action = new ValidateUserDataAction;
+    $action = new ValidateUserDataAction();
 
     // Use unique email to avoid uniqueness constraint issues
     $uniqueEmail = 'test'.uniqid().'@example.com';
@@ -34,7 +34,7 @@ test('ValidateUserDataAction returns valid user data', function () {
 });
 
 test('ValidateUserDataAction hashes password', function () {
-    $action = new ValidateUserDataAction;
+    $action = new ValidateUserDataAction();
 
     $uniqueEmail = 'test'.uniqid().'@example.com';
 

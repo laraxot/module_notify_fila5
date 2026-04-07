@@ -14,7 +14,7 @@ test('consent_resource_extends_xot_base_resource', function () {
 });
 
 test('consent_resource_model_is_consent', function () {
-    $resource = new ConsentResource;
+    $resource = new ConsentResource();
     expect($resource->getModel())->toBe(Consent::class);
 });
 
