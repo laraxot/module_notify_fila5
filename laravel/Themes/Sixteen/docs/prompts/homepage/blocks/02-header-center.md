@@ -1,17 +1,13 @@
 # Block 02: Header Center
 
-> Logo comune, nome, tagline e social links
+**Fonte**: `https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html`
+**Posizione**: `header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper`
 
----
+## Descrizione
 
-## Reference
-**URL**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
-**Selettore**: `.it-header-center-wrapper`  
-**Posizione**: Dopo header-slim, dentro it-nav-wrapper
+Sezione centrale dell'header con: logo SVG del comune, nome + tagline, social links, toggle dark mode, pulsante ricerca.
 
----
-
-## Struttura HTML
+## Struttura HTML (Reference)
 
 ```html
 <div class="it-header-center-wrapper">
@@ -19,11 +15,12 @@
     <div class="row">
       <div class="col-12">
         <div class="it-header-center-content-wrapper">
-          <!-- Logo + Brand -->
+
+          <!-- Logo + nome comune -->
           <div class="it-brand-wrapper">
             <a href="homepage.html">
-              <svg width="82" height="82" class="icon">
-                <image xlink:href="logo-comune.svg"/>
+              <svg class="icon">
+                <image></image>
               </svg>
               <div class="it-brand-text">
                 <div class="it-brand-title">Il mio Comune</div>
@@ -31,17 +28,62 @@
               </div>
             </a>
           </div>
-          
-          <!-- Social Links -->
-          <div class="it-socials d-none d-lg-flex">
-            <span>Seguici su</span>
-            <ul>
-              <li><a href="#" target="_blank">
-                <svg class="icon icon-sm icon-white"><use href="#it-twitter"></use></svg>
-                <span class="visually-hidden">Twitter</span>
-              </a></li>
-              <!-- Facebook, YouTube, Telegram, WhatsApp... -->
-            </ul>
+
+          <!-- Zona destra: social + dark mode + ricerca -->
+          <div class="it-right-zone">
+
+            <!-- Social links (desktop only) -->
+            <div class="it-socials d-none d-lg-flex">
+              <span>Seguici su</span>
+              <ul>
+                <li>
+                  <a href="#">
+                    <svg class="icon icon-sm icon-white align-top">
+                      <use></use>
+                    </svg>
+                    <span class="visually-hidden">Twitter</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="icon icon-sm icon-white align-top">
+                      <use></use>
+                    </svg>
+                    <span class="visually-hidden">Facebook</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="icon icon-sm icon-white align-top">
+                      <use></use>
+                    </svg>
+                    <span class="visually-hidden">YouTube</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Dark mode toggle -->
+            <div class="it-header-dark-mode-toggle">
+              <button class="btn btn-icon p-0" type="button"
+                      aria-label="Attiva la modalità scura">
+                <svg class="icon icon-sm icon-white">
+                  <use></use>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Pulsante ricerca -->
+            <div class="it-search-wrapper">
+              <span class="d-none d-md-block">Cerca</span>
+              <button class="search-link rounded-icon" type="button"
+                      aria-label="Cerca nel sito">
+                <svg class="icon">
+                  <use href=".../sprites.svg#it-search"></use>
+                </svg>
+              </button>
+            </div>
+
           </div>
         </div>
       </div>
@@ -50,58 +92,16 @@
 </div>
 ```
 
----
+## Differenze locali rilevate
 
-## Elementi Chiave
+| Elemento | Reference | Locale |
+|----------|-----------|--------|
+| Hamburger button | nella navbar (block 03) | EXTRA: qui nel header-center prima di `.it-brand-wrapper` |
 
-| Elemento | Classe/ID | data-element | Scopo |
-|----------|-----------|--------------|-------|
-| Wrapper | `.it-header-center-wrapper` | - | Container centrale |
-| Brand | `.it-brand-wrapper` | - | Logo + testo |
-| Logo SVG | `svg.icon` 82x82 | - | Stemma comune |
-| Titolo | `.it-brand-title` | - | "Il mio Comune" |
-| Tagline | `.it-brand-tagline` | - | Slogan comune |
-| Social | `.it-socials` | - | Icone social |
+La versione locale posiziona il `custom-navbar-toggler` dentro `.it-header-center-content-wrapper` invece che in `.it-header-navbar-wrapper`.
 
----
+## Note strutturali
 
-## Social Icons (Reference)
-
-| Piattaforma | Icona SVG | Visually Hidden |
-|-------------|-----------|-----------------|
-| Twitter | `#it-twitter` | "Twitter" |
-| Facebook | `#it-facebook` | "Facebook" |
-| YouTube | `#it-youtube` | "YouTube" |
-| Telegram | `#it-telegram` | "Telegram" |
-| WhatsApp | `#it-whatsapp` | "WhatsApp" |
-
----
-
-## Responsive
-
-| Breakpoint | Comportamento |
-|------------|---------------|
-| Desktop (md+) | Tagline visibile |
-| Mobile (<md) | Tagline nascosta |
-| Desktop (lg+) | Social links visibili |
-| Mobile (<lg) | Social nascosti |
-
----
-
-## Local Implementation
-
-**File**: `Themes/Sixteen/resources/views/layouts/app.blade.php`  
-**Logo**: `/themes/Sixteen/images/logo.svg`  
-**SVG Sprite**: `/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg`
-
----
-
-## 🔗 Link Bidirezionali
-
-- ← [Blocks Index](./00-index.md)
-- → [Header Slim](./01-header-slim.md)
-- → [Header Navbar](./03-header-navbar.md)
-
----
-
-**Stato**: ✅ Documentato
+- `.it-brand-tagline` nascosta su mobile (`d-none d-md-block`)
+- Social links nascosti su mobile (`d-none d-lg-flex`)
+- Il pulsante search apre `#search-modal` via Alpine.js o Bootstrap JS

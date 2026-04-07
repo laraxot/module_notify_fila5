@@ -1,7 +1,11 @@
 {{--
     Governance Cards + Events Calendar
     Reference: design-comuni-pagine-statiche/sito/homepage.html #calendario
+<<<<<<< HEAD
+    Screenshot 7 fix: Horizontal card layout (content left, image right)
+=======
     Structure matches reference exactly for 90%+ HTML similarity
+>>>>>>> 4b74b32 (.)
 --}}
 @php
     $data = $data ?? [];
@@ -15,23 +19,61 @@
         <div class="container">
             {{-- Governance Cards --}}
             <div class="row mb-2">
-                <div class="card-wrapper px-0 card-overlapping card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
-                    @foreach($cards as $i => $card)
+                @foreach($cards as $i => $card)
+                <div class="col-md-6 col-lg-4">
                     @if($i === 0)
+<<<<<<< HEAD
+                    {{-- Mario Rossi card - overlapping card effect --}}
+                    <div class="card-wrapper px-0 card-overlapping card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
+                        <div class="card card-teaser card-teaser-image card-flex no-after rounded shadow-sm border border-light h-100">
+=======
                     {{-- First card with image --}}
                     <div class="card card-teaser card-teaser-image card-flex no-after rounded shadow-sm border border-light mb-0">
                         <div class="card-image-wrapper with-read-more">
+>>>>>>> 4b74b32 (.)
                             <div class="card-body p-3 pb-5">
                                 <div class="category-top">
-                                    <span class="title-xsmall-semi-bold fw-semibold">{{ $card['category'] ?? 'Organi di governo' }}</span>
+                                    <span class="title-xsmall-semi-bold fw-semibold text-paragraph-medium u-grey-light text-uppercase">{{ $card['category'] ?? 'Organi di governo' }}</span>
                                 </div>
                                 <h3 class="card-title text-paragraph-medium u-grey-light">{{ $card['title'] ?? '' }}</h3>
                                 <p class="text-paragraph-card u-grey-light m-0">{{ $card['role'] ?? '' }}</p>
                             </div>
+<<<<<<< HEAD
+                            <div class="card-image">
+                                <img src="{{ $card['image'] ?? 'https://picsum.photos/150/200' }}" alt="{{ $card['title'] ?? '' }}">
+=======
                             <div class="card-image card-image-rounded pb-5">
                                 <img src="{{ $card['image'] ?? 'https://picsum.photos/150/200' }}" alt="Immagine di esempio">
+>>>>>>> 4b74b32 (.)
+                            </div>
+                            <div class="card-footer bg-transparent border-0 pt-0 pb-3 px-3">
+                                <a class="read-more" href="{{ $card['url'] ?? '#' }}">
+                                    <span class="text title-xxsmall-semi-bold text-uppercase">Vai alla pagina</span>
+                                    <svg class="icon icon-sm ms-1"><use href="{{ asset('themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use></svg>
+                                </a>
                             </div>
                         </div>
+<<<<<<< HEAD
+                    </div>
+                    @else
+                    {{-- Other cards - simple text layout --}}
+                    <div class="card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
+                        <div class="card card-teaser no-after rounded shadow-sm border border-light h-100">
+                            <div class="card-body p-3">
+                                <div class="category-top">
+                                    <span class="title-xsmall-semi-bold fw-semibold text-paragraph-medium u-grey-light text-uppercase">{{ $card['category'] ?? 'Organi di governo' }}</span>
+                                </div>
+                                <h3 class="card-title text-paragraph-medium u-grey-light">{{ $card['title'] ?? '' }}</h3>
+                                <p class="card-text text-paragraph-card u-grey-light m-0">{{ $card['description'] ?? '' }}</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 pt-0 pb-3 px-3">
+                                <a class="read-more" href="{{ $card['url'] ?? '#' }}">
+                                    <span class="text title-xxsmall-semi-bold text-uppercase">Vai alla pagina</span>
+                                    <svg class="icon icon-sm ms-1"><use href="{{ asset('themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right') }}"></use></svg>
+                                </a>
+                            </div>
+                        </div>
+=======
                         <a class="read-more ps-3" href="{{ $card['url'] ?? '#' }}">
                             <span class="text">Vai alla pagina</span>
                             <svg class="icon">
@@ -55,10 +97,11 @@
                                 <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right"></use>
                             </svg>
                         </a>
+>>>>>>> 4b74b32 (.)
                     </div>
                     @endif
-                    @endforeach
                 </div>
+                @endforeach
             </div>
 
             {{-- Events Calendar --}}

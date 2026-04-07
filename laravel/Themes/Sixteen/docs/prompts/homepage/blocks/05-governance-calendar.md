@@ -1,27 +1,30 @@
-# Block 05: Governance Calendar
+# Block 05: Governance & Calendar
 
-> Cards organi di governo + calendario eventi
+**Fonte**: `https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html`
+**Posizione**: `main > section#calendario`
+**CSS section**: `div.section.section-muted.pb-90.pb-lg-50.px-lg-5.pt-0`
 
----
+## Descrizione
 
-## Reference
-**URL**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
-**Selettore**: `section#calendario`  
-**Posizione**: Dopo hero section
+Sezione con due sottosezioni distinte:
+1. **Cards organi di governo** (Sindaco, Giunta, Consiglio) — card teaser con immagine
+2. **Calendario eventi** — slider/carousel con eventi mensili
 
----
-
-## Struttura HTML
+## Struttura HTML (Reference) — Organi di governo
 
 ```html
 <section id="calendario">
   <div class="section section-muted pb-90 pb-lg-50 px-lg-5 pt-0">
     <div class="container">
-      <!-- Governance Cards -->
+
+      <!-- 3 card organi di governo (a-la Bootstrap card-teaser) -->
       <div class="row mb-2">
-        <div class="card-wrapper px-0 card-overlapping card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
+        <div class="card-wrapper px-0 card-overlapping card-teaser-wrapper
+                    card-teaser-wrapper-equal card-teaser-block-3">
+
           <!-- Card 1: Sindaco (con immagine) -->
-          <div class="card card-teaser card-teaser-image card-flex no-after rounded shadow-sm border border-light mb-0">
+          <div class="card card-teaser card-teaser-image card-flex no-after
+                      rounded shadow-sm border border-light mb-0">
             <div class="card-image-wrapper with-read-more">
               <div class="card-body p-3 pb-5">
                 <div class="category-top">
@@ -31,143 +34,98 @@
                 <p class="text-paragraph-card u-grey-light m-0">Il Sindaco della città</p>
               </div>
               <div class="card-image card-image-rounded pb-5">
-                <img src="..." alt="Immagine di esempio">
+                <img src="https://picsum.photos/150/200" alt="Immagine di esempio">
               </div>
             </div>
             <a class="read-more ps-3" href="#">
               <span class="text">Vai alla pagina</span>
-              <svg class="icon"><use href="#it-arrow-right"></use></svg>
+              <svg class="icon"><use></use></svg>
             </a>
           </div>
-          
-          <!-- Card 2: Giunta -->
+
+          <!-- Card 2: Giunta (senza immagine) -->
           <div class="card card-teaser no-after rounded shadow-sm mb-0 border border-light">
             <div class="card-body pb-5">
-              <div class="category-top">...</div>
-              <h3 class="card-title">La giunta comunale</h3>
-              <p class="text-paragraph-card u-grey-light m-0">Descrizione...</p>
+              <div class="category-top">
+                <span class="title-xsmall-semi-bold fw-semibold">Organi di governo</span>
+              </div>
+              <h3 class="card-title text-paragraph-medium u-grey-light">La giunta comunale</h3>
+              <p class="text-paragraph-card u-grey-light m-0">La giunta, nominata dal sindaco...</p>
             </div>
-            <a class="read-more" href="#">...</a>
+            <a class="read-more" href="#">
+              <span class="text">Vai alla pagina</span>
+              <svg class="icon ms-0"><use></use></svg>
+            </a>
           </div>
-          
-          <!-- Card 3: Consiglio -->
+
+          <!-- Card 3: Consiglio (senza immagine) -->
           <div class="card card-teaser no-after rounded shadow-sm mb-0 border border-light">
-            ...
+            <div class="card-body pb-5">
+              <div class="category-top">
+                <span class="title-xsmall-semi-bold fw-semibold">Organi di governo</span>
+              </div>
+              <h3 class="card-title text-paragraph-medium u-grey-light">Il consiglio comunale</h3>
+              <p class="text-paragraph-card u-grey-light m-0">Il consiglio comunale è l'organo...</p>
+            </div>
+            <a class="read-more" href="#">
+              <span class="text">Vai alla pagina</span>
+              <svg class="icon ms-0"><use></use></svg>
+            </a>
           </div>
+
         </div>
       </div>
-      
-      <!-- Calendario Eventi -->
-      <div class="row row-title pt-5 pt-lg-60 pb-3">
-        <div class="col-12 d-lg-flex justify-content-between">
-          <h2>Eventi</h2>
-        </div>
+
+      <!-- Calendario eventi (titolo + slider) -->
+      <div class="row">
+        <h2>Eventi</h2>
       </div>
-      
-      <div class="row row-calendar">
-        <div class="it-carousel-wrapper it-carousel-landscape-abstract-four-cols it-calendar-wrapper splide" data-bs-carousel-splide>
-          <div class="it-header-block">
-            <div class="it-header-block-title">
-              <h3 class="mb-0 text-center home-carousel-title">Settembre 2022</h3>
+      <div class="it-calendar-wrapper mb-5">
+        <div class="it-now-button d-flex align-content-center mb-3">
+          <span class="today-date">Settembre 2022</span>
+        </div>
+        <!-- Slider con card evento -->
+        <div class="owl-carousel owl-theme it-carousel-wrapper it-calendar-wrapper
+                    it-card-bg it-full-carousel owl-drag">
+          <!-- Card evento (ripetute) -->
+          <div class="it-single-slide-wrapper">
+            <div class="card card-teaser card-teaser-image card-flex no-after
+                        rounded shadow-sm border border-light">
+              <div class="card-image-wrapper">
+                <div class="card-body p-3">
+                  <div class="it-date-wrapper d-flex align-items-center mb-2">
+                    <!-- Data evento -->
+                  </div>
+                  <h3 class="card-title small-text">Titolo evento</h3>
+                </div>
+              </div>
+              <a class="read-more" href="#">
+                <span class="text">Leggi di più</span>
+              </a>
             </div>
           </div>
-          <div class="splide__track">
-            <ul class="splide__list it-carousel-all">
-              <li class="splide__slide">
-                <div class="it-single-slide-wrapper h-100">
-                  <div class="card-wrapper h-100">
-                    <div class="card card-bg">
-                      <div class="card-body">
-                        <h4 class="card-title pb-4 mb-10 text-secondary">
-                          15<span>lun</span>
-                        </h4>
-                        <p class="card-text px-2 pb-10 mb-10">
-                          <a href="#">Saldo TASI</a>
-                        </p>
-                        <p class="card-text px-2 pb-10 mb-10 d-flex">
-                          <img src="..." alt="..." class="me-3 rounded">
-                          <a href="#">Concerto gratuito...</a>
-                        </p>
-                        ...
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- Altri slide... -->
-            </ul>
-          </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
 ```
 
----
+## Layout cards organi di governo
 
-## Elementi Chiave
+- **Pattern**: `card-teaser-block-3` → 3 colonne su desktop, 1 su mobile
+- **Card 1** (Sindaco): ha foto (`card-teaser-image`) + `card-image-rounded`
+- **Card 2 e 3** (Giunta, Consiglio): solo testo, niente immagine
+- **`card-overlapping`**: sovrappone le card per effetto visivo
 
-| Elemento | Classe/ID | Scopo |
-|----------|-----------|-------|
-| Sezione | `#calendario` | ID sezione |
-| Card Wrapper | `.card-teaser-wrapper-equal` | Container cards |
-| Card Sindaco | `.card-teaser-image.card-flex` | Card con immagine |
-| Card standard | `.card-teaser` | Cards senza immagine |
-| Carousel | `.it-carousel-wrapper.splide` | Carousel eventi |
-| Slide | `.splide__slide` | Singolo giorno |
-| Giorno | `.card-title.text-secondary` | Numero + giorno |
-| Evento | `.card-text` | Link evento |
-| Evento con img | `.card-text.d-flex` | Evento con immagine |
+## Calendario
 
----
+- Usa Owl Carousel (o alternativa Alpine.js)
+- `it-calendar-wrapper` + `it-full-carousel`
+- Data mese corrente in `span.today-date`
 
-## JSON Structure
+## Note
 
-```json
-{
-  "type": "governance-calendario",
-  "data": {
-    "view": "pub_theme::components.blocks.governance.cards",
-    "cards": [
-      {
-        "category": "Organi di governo",
-        "title": "Mario Rossi",
-        "role": "Il Sindaco della città",
-        "image": "https://picsum.photos/150/200",
-        "url": "#"
-      },
-      {...}
-    ],
-    "month": "Settembre 2022",
-    "slides": [
-      {
-        "day": "15",
-        "weekday": "lun",
-        "events": [
-          {"title": "Saldo TASI", "url": "#"},
-          {"title": "Concerto...", "url": "#", "image": "https://picsum.photos/200"}
-        ]
-      }
-    ]
-  }
-}
-```
-
----
-
-## Local Implementation
-
-**Blade**: `Themes/Sixteen/resources/views/components/blocks/governance/cards.blade.php`
-
----
-
-## 🔗 Link Bidirezionali
-
-- ← [Blocks Index](./00-index.md)
-- → [Hero Section](./04-hero-section.md)
-- → [Evidence Section](./06-evidence-section.md)
-
----
-
-**Stato**: ✅ Documentato
+- Nonostante il nome `id="calendario"`, il blocco contiene PRIMA le card organi di governo e POI il calendario
+- Il section-muted dà sfondo grigio chiaro all'intera sezione

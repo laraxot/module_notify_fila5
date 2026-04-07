@@ -7,25 +7,31 @@
 
 ## Blocchi Identificati
 
+### 0. Accessibilità
+- [00-skiplink.md](./00-skiplink.md) - `div.skiplink` - Skip links accessibilità (vai contenuti/footer)
+
 ### 1. Header
-- [01-header-slim.md](./01-header-slim.md) - Barra superiore (regione, lingua, accesso)
-- [02-header-center.md](./02-header-center.md) - Logo comune + social
-- [03-header-navbar.md](./03-header-navbar.md) - Navigazione principale con megamenu
+- [01-header-slim.md](./01-header-slim.md) - `div.it-header-slim-wrapper` - Barra superiore (regione, lingua, accesso)
+- [02-header-center.md](./02-header-center.md) - `div.it-header-center-wrapper` - Logo comune + social + dark mode
+- [03-header-navbar.md](./03-header-navbar.md) - `div.it-header-navbar-wrapper` - Navigazione principale con megamenu
 
 ### 2. Main Content
-- [04-hero-section.md](./04-hero-section.md) - `#head-section` - Notizia in evidenza + immagine
-- [05-governance-calendar.md](./05-governance-calendar.md) - `#calendario` -cards + calendario eventi
-- [06-evidence-section.md](./06-evidence-section.md) - `.evidence-section` - Argomenti in evidenza + siti tematici
-- [07-useful-links.md](./07-useful-links.md) - `.useful-links-section` - Ricerca rapida + link utili
+- [04-hero-section.md](./04-hero-section.md) - `section#head-section` - Notizia in evidenza + immagine
+- [05-governance-calendar.md](./05-governance-calendar.md) - `section#calendario` - Organi di governo (cards) + calendario eventi
+- [06-evidence-section.md](./06-evidence-section.md) - `section.evidence-section` - Argomenti in evidenza + altri argomenti + siti tematici
+- [07-useful-links.md](./07-useful-links.md) - `section.useful-links-section` - Ricerca rapida servizi
 
 ### 3. Feedback
-- [08-rating-feedback.md](./08-rating-feedback.md) - `.cmp-rating` - Valutazione stelle + feedback multi-step
+- [08-rating-feedback.md](./08-rating-feedback.md) - `div.bg-primary > div.cmp-rating` - Valutazione stelle + feedback multi-step
 
 ### 4. Contacts
-- [09-contacts-section.md](./09-contacts-section.md) - `.bg-grey-card` - Contatti comune + disservizi
+- [09-contacts-section.md](./09-contacts-section.md) - `div.bg-grey-card.shadow-contacts` - Contatta il comune + segnalazioni disservizi
 
 ### 5. Footer
-- [10-footer.md](./10-footer.md) - Footer con link, contatti, Europa
+- [10-footer.md](./10-footer.md) - `footer#footer.it-footer` - Footer con link, contatti, logo Europa
+
+### 6. Modale
+- [11-search-modal.md](./11-search-modal.md) - `div#search-modal` - Modale ricerca globale con autocomplete
 
 ---
 
@@ -58,7 +64,7 @@
 ### Indici
 - ← [Design Comuni Index](../../00-index.md)
 - ← [Homepage Structural Analysis](../../HOMEPAGE_STRUCTURAL_ANALYSIS_FINAL.md)
-- ← [Bashscripts HTML Compare](../../../../../bashscripts/html-compare/README.md)
+- ← [Bashscripts HTML Compare](../../../../../bashscripts/html/compare-html.sh) — script agnostico di confronto
 
 ### Documenti Correlati
 - → [HTML_SIMILARITY_90_PERCENT_PLAN.md](../HTML_SIMILARITY_90_PERCENT_PLAN.md)
@@ -67,5 +73,5 @@
 ---
 
 **Ultimo Aggiornamento**: 2026-04-07  
-**Blocchi Documentati**: 10  
+**Blocchi Documentati**: 12  
 **Stato**: ✅ Completi

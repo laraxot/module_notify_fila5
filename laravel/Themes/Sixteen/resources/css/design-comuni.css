@@ -1005,6 +1005,16 @@
   font-size: 1.25rem;
   font-weight: 600;
   text-transform: uppercase;
+<<<<<<< HEAD
+}
+
+/* Calendar day styling */
+.it-single-slide-wrapper .card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #007A52;
+  line-height: 1;
+=======
   margin: 0;
 }
 
@@ -1028,6 +1038,7 @@
   margin-bottom: 0.25rem;
   border-bottom: 2px solid #007A52;
   padding-bottom: 0.5rem;
+>>>>>>> 4b74b32 (.)
 }
 
 .it-single-slide-wrapper .card-title span {
@@ -1037,6 +1048,8 @@
   color: #5C6F82;
   text-transform: uppercase;
   margin-top: 0.25rem;
+<<<<<<< HEAD
+=======
   letter-spacing: 0.05em;
 }
 
@@ -1044,13 +1057,17 @@
   margin-bottom: 0.75rem;
   padding-left: 0.5rem;
   border-left: 3px solid #007A52;
+>>>>>>> 4b74b32 (.)
 }
 
 .it-single-slide-wrapper .card-text a {
   color: #007A52;
   text-decoration: none;
+<<<<<<< HEAD
+=======
   font-size: 0.875rem;
   line-height: 1.4;
+>>>>>>> 4b74b32 (.)
   font-weight: 500;
 }
 
@@ -1058,6 +1075,8 @@
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
+=======
 .it-single-slide-wrapper .card-text img {
   width: 40px;
   height: 40px;
@@ -1066,6 +1085,7 @@
   flex-shrink: 0;
 }
 
+>>>>>>> 4b74b32 (.)
 /* ========================================
    RATING SECTION - Green Background + White Box
 ======================================== */
@@ -2314,6 +2334,8 @@
     display: none;
   }
 }
+<<<<<<< HEAD
+=======
 
 /* ========================================
    GOVERNANCE CARDS - Reference Match
@@ -2517,3 +2539,4 @@
   font-size: 0.75rem;
   color: #5C6F82;
 }
+>>>>>>> 4b74b32 (.)

@@ -43,7 +43,7 @@
                                 <span class="data fw-normal">18 mag 2026</span>
                             </div>
                             <a href="/it/tests/novita-dettaglio" class="text-decoration-none">
-                                <h3 class="card-title">
+                                <h3 class="card-title text-success">
                                     Parte l'estate con oltre 300 eventi in centro e nei quartieri, tutti gli eventi previsti
                                 </h3>
                             </a>
