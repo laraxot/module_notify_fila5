@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 return [
-    // Breadcrumb
     'breadcrumb' => [
         'home' => [
             'label' => 'Home',
@@ -12,35 +11,14 @@ return [
             'label' => 'Elenco segnalazioni',
         ],
     ],
-
-    // Heading
     'heading' => [
         'title' => [
-            'label' => 'Elenco segnalazioni',
+            'label' => 'ELENCO SEGNALAZIONI',
         ],
         'subtitle' => [
-            'text' => 'Negli ultimi 12 mesi sono state risolte :count segnalazioni.',
+            'text' => 'Negli ultimi 12 mesi sono state risolte 73 segnalazioni.',
         ],
     ],
-
-    // Results section
-    'results' => [
-        'count' => [
-            'text' => ':count Risultati',
-        ],
-    ],
-
-    // Filter buttons
-    'filter' => [
-        'button' => [
-            'label' => 'Filtra',
-        ],
-        'remove' => [
-            'label' => 'Rimuovi tutti i filtri',
-        ],
-    ],
-
-    // Tabs
     'tabs' => [
         'map' => [
             'label' => 'Mappa',
@@ -49,49 +27,50 @@ return [
             'label' => 'Elenco',
         ],
     ],
-
-    // Load more
-    'load-more' => [
-        'button' => [
-            'label' => 'Carica altre segnalazioni',
+    'results' => [
+        'count' => [
+            'text' => ':count Risultati',
         ],
     ],
-
-    // Map tab content
-    'map' => [
-        'cta' => [
-            'title' => [
-                'label' => 'Fai una segnalazione',
-            ],
-            'text' => [
-                'label' => 'Se vuoi aggiungere una segnalazione, puoi farlo dopo esserti autenticato con le tue credenziali SPID o CIE.',
-            ],
-            'button' => [
-                'label' => 'Segnala disservizio',
-            ],
+    'filter' => [
+        'button' => [
+            'label' => 'Filtra',
         ],
+        'remove' => [
+            'label' => 'Rimuovi tutti i filtri',
+        ],
+    ],
+    'filters' => [
+        'legend' => [
+            'label' => 'categoria',
+        ],
+    ],
+    'map' => [
         'image' => [
-            'alt' => 'Mappa',
+            'alt' => 'Mappa delle segnalazioni',
         ],
         'pin' => [
-            'alt' => 'Pin di geolocalizzazione',
+            'alt' => 'Segnalazione sulla mappa',
+        ],
+        'cta' => [
+            'title' => [
+                'label' => 'Fai anche tu una segnalazione',
+            ],
+            'text' => [
+                'label' => 'Aiutaci a migliorare la città, segnalaci un disservizio o un problema',
+            ],
+            'button' => [
+                'label' => 'Fai una segnalazione',
+            ],
         ],
     ],
-
-    // Card in list tab
     'card' => [
         'type' => [
-            'label' => 'Tipologia di segnalazione',
-            'short' => 'Tipologia segnalazione',
+            'label' => 'categoria',
         ],
         'expand' => [
             'button' => [
-                'label' => 'Mostra tutto',
-            ],
-        ],
-        'collapse' => [
-            'button' => [
-                'label' => 'Nascondi',
+                'label' => 'Espandi',
             ],
         ],
         'edit' => [
@@ -107,46 +86,46 @@ return [
         ],
         'images' => [
             'label' => 'Immagini',
-            'alt' => 'Immagine della mappa di dove si trova il disservizio',
+            'alt' => 'Immagine del disservizio',
         ],
     ],
-
-    // Filters sidebar
-    'filters' => [
-        'legend' => [
-            'label' => 'categoria',
+    'load-more' => [
+        'button' => [
+            'label' => 'Carica altre segnalazioni',
         ],
     ],
-
-    // Rating section
     'rating' => [
         'question' => [
             'text' => 'Quanto sono chiare le informazioni su questa pagina?',
         ],
         'legend' => [
-            'text' => 'Valuta da 1 a 5 stelle la pagina',
+            'text' => 'Valutazione da 1 a 5 stelle',
         ],
     ],
-
-    // Contacts section
-    'modal' => [
-        'close' => [
-            'label' => 'Chiudi',
+    'feedback' => [
+        'title' => [
+            'label' => 'Cosa preferisci?',
+        ],
+        'aspects' => [
+            'label' => 'Seleziona gli aspetti che preferisci',
+        ],
+        'difficulties' => [
+            'label' => 'Quali sono le maggiori difficoltà?',
+        ],
+        'details' => [
+            'label' => 'Altri dettagli',
+        ],
+        'submit' => [
+            'label' => 'Invia feedback',
         ],
     ],
-
     'contacts' => [
         'title' => [
             'label' => 'Contatta il comune',
         ],
-        'faq' => [
-            'link' => [
-                'label' => 'Leggi le domande frequenti',
-            ],
-        ],
         'assistance' => [
             'link' => [
-                'label' => 'Richiedi assistenza',
+                'label' => 'Leggi le domande frequenti',
             ],
         ],
         'phone' => [
@@ -161,13 +140,18 @@ return [
         ],
         'issues' => [
             'title' => [
-                'label' => 'Problemi in città',
+                'label' => 'Segnala un disservizio',
             ],
             'report' => [
                 'link' => [
-                    'label' => 'Segnala disservizio',
+                    'label' => 'Segnala un problema',
                 ],
             ],
+        ],
+    ],
+    'modal' => [
+        'close' => [
+            'label' => 'Chiudi finestra modale',
         ],
     ],
 ];
