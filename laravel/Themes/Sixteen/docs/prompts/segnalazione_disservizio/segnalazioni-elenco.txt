@@ -1,6 +1,8 @@
-#FASE html parity
-bmad-help fase "html parity"
 <pagina> = segnalazioni-elenco
+
+<pagina> = segnalazione-dettaglio
+#FASE html parity <pagina>
+bmad-help fase "html parity <pagina>"
 obiettivo: raggiungiamo il 90% di struttura html uguale.
 tramite lo script che hai messo dentro una sottocartella di ./bashscripts e documentato dentro ./bahscripts/docs utilizzando anche gli indici , dobbiamo confrontare la struttura html del tag body incluso, ad esclusione degli script, controlliamo il numero di elementi, ed importante la corrispondenza degli id e le classi css  di 
 https://italia.github.io/design-comuni-pagine-statiche/sito/<pagina>.html

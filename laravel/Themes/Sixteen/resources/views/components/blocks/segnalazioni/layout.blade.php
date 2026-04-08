@@ -321,13 +321,13 @@
                                                                                     <div class="border-light border-0">
                                                                                         <div
                                                                                             class="d-lg-flex gap-2 mt-3">
-                                                                                            @foreach ($item['images'] as $img)
-                                                                                                <div>
-                                                                                            <img src="{{ $img }}"
-                                        alt="{{ __($ns . '.card.images.alt') }}"
-                                        class="img-fluid w-100 @if (!$loop->last) mb-3 mb-lg-0 @endif">
-                                                                                                </div>
-                                                                                            @endforeach
+                                                                                        @foreach ($item['images'] as $index => $img)
+                                                                                            <div>
+                                                                                                <img src="{{ $img }}"
+                                                                                                    alt="{{ __($ns . '.card.images.alt') }}"
+                                                                                                    class="img-fluid w-100{{ $index < 2 ? ' mb-3 mb-lg-0' : '' }}">
+                                                                                            </div>
+                                                                                        @endforeach
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
