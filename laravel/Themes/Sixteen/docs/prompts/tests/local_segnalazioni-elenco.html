@@ -1,7 +1,216 @@
-<body class=""><div class="skiplink">
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        <!-- Used to add dark mode right away, adding here prevents any flicker -->
+        <script>
+            if (typeof(Storage) !== "undefined") {
+                if (localStorage.getItem('dark_mode') && localStorage.getItem('dark_mode') == 'true') {
+                    document.documentElement.classList.add('dark');
+                }
+            }
+        </script>
+        <style>
+            [x-cloak] {
+                display: none !important;
+            }
+        </style>
+                            <link rel="preload" as="style" href="http://127.0.0.1:8000/themes/Sixteen/assets/app-CXenKT0P.css" /><link rel="preload" as="style" href="http://127.0.0.1:8000/themes/Sixteen/assets/app-BRKXMWAJ.css" /><link rel="modulepreload" as="script" href="http://127.0.0.1:8000/themes/Sixteen/assets/app-aUVY1683.js" /><link rel="stylesheet" href="http://127.0.0.1:8000/themes/Sixteen/assets/app-CXenKT0P.css" data-navigate-track="reload" /><link rel="stylesheet" href="http://127.0.0.1:8000/themes/Sixteen/assets/app-BRKXMWAJ.css" data-navigate-track="reload" /><script type="module" src="http://127.0.0.1:8000/themes/Sixteen/assets/app-aUVY1683.js" data-navigate-track="reload"></script>            <script id="browser-logger-active">
+(function() {
+    const ENDPOINT = 'http://127.0.0.1:8000/_boost/browser-logs';
+    const logQueue = [];
+    let flushTimeout = null;
+
+    console.log('🔍 Browser logger active (MCP server detected). Posting to: ' + ENDPOINT);
+
+    // Store original console methods
+    const originalConsole = {
+        log: console.log,
+        info: console.info,
+        error: console.error,
+        warn: console.warn,
+        table: console.table
+    };
+
+    // Helper to safely stringify values
+    function safeStringify(obj) {
+        const seen = new WeakSet();
+        return JSON.stringify(obj, (key, value) => {
+            if (typeof value === 'object' && value !== null) {
+                if (seen.has(value)) return '[Circular]';
+                seen.add(value);
+            }
+            if (value instanceof Error) {
+                return {
+                    name: value.name,
+                    message: value.message,
+                    stack: value.stack
+                };
+            }
+            return value;
+        });
+    }
+
+    // Batch and send logs
+    function flushLogs() {
+        if (logQueue.length === 0) return;
+
+        const batch = logQueue.splice(0, logQueue.length);
+
+        fetch(ENDPOINT, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Requested-With': 'XMLHttpRequest'
+            },
+            body: JSON.stringify({ logs: batch })
+        }).catch(err => {
+            // Silently fail to avoid infinite loops
+            originalConsole.error('Failed to send logs:', err);
+        });
+    }
+
+    // Debounced flush (100ms)
+    function scheduleFlush() {
+        if (flushTimeout) clearTimeout(flushTimeout);
+        flushTimeout = setTimeout(flushLogs, 100);
+    }
+
+    // Intercept console methods
+    ['log', 'info', 'error', 'warn', 'table'].forEach(method => {
+        console[method] = function(...args) {
+            // Call original method
+            originalConsole[method].apply(console, args);
+
+            // Capture log data
+            try {
+                logQueue.push({
+                    type: method,
+                    timestamp: new Date().toISOString(),
+                    data: args.map(arg => {
+                        try {
+                            return typeof arg === 'object' ? JSON.parse(safeStringify(arg)) : arg;
+                        } catch (e) {
+                            return String(arg);
+                        }
+                    }),
+                    url: window.location.href,
+                    userAgent: navigator.userAgent
+                });
+
+                scheduleFlush();
+            } catch (e) {
+                // Fail silently
+            }
+        };
+    });
+
+    // Global error handlers for uncaught errors
+    const originalOnError = window.onerror;
+    window.onerror = function boostErrorHandler(errorMsg, url, lineNumber, colNumber, error) {
+        try {
+            logQueue.push({
+                type: 'uncaught_error',
+                timestamp: new Date().toISOString(),
+                data: [{
+                    message: errorMsg,
+                    filename: url,
+                    lineno: lineNumber,
+                    colno: colNumber,
+                    error: error ? {
+                        name: error.name,
+                        message: error.message,
+                        stack: error.stack
+                    } : null
+                }],
+                url: window.location.href,
+                userAgent: navigator.userAgent
+            });
+
+            scheduleFlush();
+        } catch (e) {
+            // Fail silently
+        }
+
+        // Call original handler if it exists
+        if (originalOnError && typeof originalOnError === 'function') {
+            return originalOnError(errorMsg, url, lineNumber, colNumber, error);
+        }
+
+        // Let the error continue to propagate
+        return false;
+    }
+    window.addEventListener('error', (event) => {
+        try {
+            logQueue.push({
+                type: 'window_error',
+                timestamp: new Date().toISOString(),
+                data: [{
+                    message: event.message,
+                    filename: event.filename,
+                    lineno: event.lineno,
+                    colno: event.colno,
+                    error: event.error ? {
+                        name: event.error.name,
+                        message: event.error.message,
+                        stack: event.error.stack
+                    } : null
+                }],
+                url: window.location.href,
+                userAgent: navigator.userAgent
+            });
+
+            scheduleFlush();
+        } catch (e) {
+            // Fail silently
+        }
+
+        // Let the error continue to propagate
+        return false;
+    });
+    window.addEventListener('unhandledrejection', (event) => {
+        try {
+            logQueue.push({
+                type: 'error',
+                timestamp: new Date().toISOString(),
+                data: [{
+                    message: 'Unhandled Promise Rejection',
+                    reason: event.reason instanceof Error ? {
+                        name: event.reason.name,
+                        message: event.reason.message,
+                        stack: event.reason.stack
+                    } : event.reason
+                }],
+                url: window.location.href,
+                userAgent: navigator.userAgent
+            });
+
+            scheduleFlush();
+        } catch (e) {
+            // Fail silently
+        }
+
+        // Let the rejection continue to propagate
+        return false;
+    });
+
+    // Flush on page unload
+    window.addEventListener('beforeunload', () => {
+        if (logQueue.length > 0) {
+            navigator.sendBeacon(ENDPOINT, JSON.stringify({ logs: logQueue }));
+        }
+    });
+})();
+</script>
+</head>
+    <body class="">
+        <div class="skiplink">
         <a class="visually-hidden-focusable" href="#main-container">Vai ai contenuti</a>
         <a class="visually-hidden-focusable" href="#footer">Vai al footer</a>
-    </div>
+    </div><!-- /skiplink -->
 
     <header class="it-header-wrapper" data-bs-target="#header-nav-wrapper">
     <div class="it-header-slim-wrapper">
@@ -510,7 +719,7 @@
                                     <div class="button-wrapper">
                                         <button type="button" data-bs-toggle="modal"
                                             data-bs-target="#modal-disservizio"
-                                            class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
+                                            class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0 btn-full">
                                             <span>Segnala disservizio</span>
                                         </button>
                                     </div>
@@ -551,7 +760,7 @@
                                                             </button>
                                                         </div>
                                                         <div id="collapse1"
-                                                            class="accordion-collapse collapse pb-0" role="region">
+                                                            class="accordion-collapse collapse" role="region">
                                                             <div class="accordion-body p-0">
                                                                 <div class="cmp-info-summary bg-white border-0">
                                                                     <div class="card">
@@ -594,17 +803,17 @@
                                                                                                                                                                                             <div>
                                                                                             <img src="../assets/images/image-disservizio.png"
                                         alt="Immagine della mappa di dove si trova il disservizio"
-                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                        class="img-fluid w-100  mb-3 mb-lg-0 ">
                                                                                                 </div>
                                                                                                                                                                                             <div>
                                                                                             <img src="../assets/images/image-disservizio.png"
                                         alt="Immagine della mappa di dove si trova il disservizio"
-                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                        class="img-fluid w-100  mb-3 mb-lg-0 ">
                                                                                                 </div>
                                                                                                                                                                                             <div>
                                                                                             <img src="../assets/images/image-disservizio.png"
                                         alt="Immagine della mappa di dove si trova il disservizio"
-                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                        class="img-fluid w-100 ">
                                                                                                 </div>
                                                                                                                                                                                     </div>
                                                                                     </div>
@@ -650,7 +859,7 @@
                                                             </button>
                                                         </div>
                                                         <div id="collapse2"
-                                                            class="accordion-collapse collapse pb-0" role="region">
+                                                            class="accordion-collapse collapse" role="region">
                                                             <div class="accordion-body p-0">
                                                                 <div class="cmp-info-summary bg-white border-0">
                                                                     <div class="card">
@@ -693,7 +902,7 @@
                                                                                                                                                                                             <div>
                                                                                             <img src="../assets/images/image-disservizio.png"
                                         alt="Immagine della mappa di dove si trova il disservizio"
-                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                        class="img-fluid w-100 ">
                                                                                                 </div>
                                                                                                                                                                                     </div>
                                                                                     </div>
@@ -739,7 +948,7 @@
                                                             </button>
                                                         </div>
                                                         <div id="collapse3"
-                                                            class="accordion-collapse collapse pb-0" role="region">
+                                                            class="accordion-collapse collapse" role="region">
                                                             <div class="accordion-body p-0">
                                                                 <div class="cmp-info-summary bg-white border-0">
                                                                     <div class="card">
@@ -782,12 +991,12 @@
                                                                                                                                                                                             <div>
                                                                                             <img src="../assets/images/image-disservizio.png"
                                         alt="Immagine della mappa di dove si trova il disservizio"
-                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                        class="img-fluid w-100  mb-3 mb-lg-0 ">
                                                                                                 </div>
                                                                                                                                                                                             <div>
                                                                                             <img src="../assets/images/image-disservizio.png"
                                         alt="Immagine della mappa di dove si trova il disservizio"
-                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                        class="img-fluid w-100 ">
                                                                                                 </div>
                                                                                                                                                                                     </div>
                                                                                     </div>
@@ -807,7 +1016,7 @@
                             </div>
                                             </div>
                     <div class="col-12 text-center">
-                        <button type="button" class="btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto">
+                        <button type="button" class="btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto btn-full">
                             <span>Carica altre segnalazioni</span>
                         </button>
                     </div>
@@ -1129,8 +1338,8 @@
                                         <li><a href="#">Prenotazione appuntamenti</a></li>
                                         <li><a href="#">Rilascio tessera elettorale</a></li>
                                         <li><a href="#">Voucher connettività</a></li>
-                                    </ul>
-                                </div>
+                                    </ul><!-- /searches-list -->
+                                </div><!-- /searches-list-wrapper -->
                             </div>
                         </div>
                     </div>
@@ -1302,4 +1511,25 @@
             </div>
         </div>
     </div>
-</footer></body>
+</footer>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const darkModeToggle = document.getElementById('darkModeToggle');
+                if (darkModeToggle) {
+                    darkModeToggle.addEventListener('click', function() {
+                        const html = document.documentElement;
+                        const isDark = html.classList.contains('dark');
+                        if (isDark) {
+                            html.classList.remove('dark');
+                            localStorage.setItem('dark_mode', 'false');
+                        } else {
+                            html.classList.add('dark');
+                            localStorage.setItem('dark_mode', 'true');
+                        }
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>

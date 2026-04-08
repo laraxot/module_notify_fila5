@@ -42,7 +42,7 @@
                                 {{ $step }}
                                 @if($index + 1 < $currentStep)
                                     <svg class="icon steppers-success" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-check"></use>
+                                        <use href="{{ $sprite }}#it-check"></use>
                                     </svg>
                                     <span class="visually-hidden">Confermato</span>
                                 @elseif($index + 1 === $currentStep)
@@ -71,7 +71,7 @@
                                             <button class="accordion-button pb-10 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
                                                 INFORMAZIONI RICHIESTE
                                                 <svg class="icon icon-xs right">
-                                                    <use xlink:href="{{ $sprite }}#it-expand"></use>
+                                                    <use href="{{ $sprite }}#it-expand"></use>
                                                 </svg>
                                             </button>
                                         </span>
@@ -128,7 +128,7 @@
                                                 <a class="list-item active icon-left" href="#">
                                                     <span class="list-item-title-icon-wrapper">
                                                         <svg class="icon icon-sm icon-primary mb-1" aria-hidden="true">
-                                                            <use xlink:href="{{ $sprite }}#it-map-marker"></use>
+                                                            <use href="{{ $sprite }}#it-map-marker"></use>
                                                         </svg>
                                                         <span class="list-item-title t-primary">Usa la tua posizione</span>
                                                     </span>
@@ -177,7 +177,7 @@
                                         <button type="button" aria-label="Carica file per il disservizio" class="btn btn-primary w-100 fw-bold">
                                             <span class="rounded-icon">
                                                 <svg class="icon icon-white icon-sm" aria-hidden="true">
-                                                    <use xlink:href="{{ $sprite }}#it-upload"></use>
+                                                    <use href="{{ $sprite }}#it-upload"></use>
                                                 </svg>
                                             </span>
                                             <span class="">Carica file</span>
@@ -211,7 +211,7 @@
                                                                 <span class="d-flex align-items-center">
                                                                     Mostra tutto
                                                                     <svg class="icon icon-primary icon-sm">
-                                                                        <use xlink:href="{{ $sprite }}#it-expand"></use>
+                                                                        <use href="{{ $sprite }}#it-expand"></use>
                                                                     </svg>
                                                                 </span>
                                                             </button>
@@ -261,7 +261,7 @@
                     <nav class="steppers-nav" aria-label="Step">
                         <button type="button" class="btn btn-sm steppers-btn-prev p-0">
                             <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                <use xlink:href="{{ $sprite }}#it-chevron-left"></use>
+                                <use href="{{ $sprite }}#it-chevron-left"></use>
                             </svg>
                             <span class="text-button-sm t-primary">Indietro</span>
                         </button>
@@ -274,7 +274,7 @@
                         <button type="button" class="btn btn-primary btn-sm steppers-btn-confirm" data-bs-toggle="modal" data-bs-target="#">
                             <span class="text-button-sm">Avanti</span>
                             <svg class="icon icon-white icon-sm" aria-hidden="true">
-                                <use xlink:href="{{ $sprite }}#it-chevron-right"></use>
+                                <use href="{{ $sprite }}#it-chevron-right"></use>
                             </svg>
                         </button>
                     </nav>
@@ -298,19 +298,19 @@
                             <ul class="contact-list p-0">
                                 <li><a class="list-item" href="#">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-help-circle"></use>
+                                        <use href="{{ $sprite }}#it-help-circle"></use>
                                     </svg><span>Leggi le domande frequenti</span></a></li>
                                 <li><a class="list-item" href="#" data-element="contacts">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-mail"></use>
+                                        <use href="{{ $sprite }}#it-mail"></use>
                                     </svg><span>Richiedi assistenza</span></a></li>
                                 <li><a class="list-item" href="#">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-hearing"></use>
+                                        <use href="{{ $sprite }}#it-hearing"></use>
                                     </svg><span>Chiama il numero verde 05 0505</span></a></li>
                                 <li><a class="list-item" href="#" data-element="appointment-booking">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-calendar"></use>
+                                        <use href="{{ $sprite }}#it-calendar"></use>
                                     </svg><span>Prenota appuntamento</span></a></li>
                             </ul>
                         </div>

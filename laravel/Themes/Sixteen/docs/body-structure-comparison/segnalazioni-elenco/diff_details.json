@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-08T12:58:21.387326",
-  "slug": "comparison",
-  "reference": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html",
-  "local": "http://127.0.0.1:8000/it/tests/segnalazioni-elenco",
+  "generated_at": "2026-04-08T12:19:48.758441",
+  "slug": "segnalazioni-elenco",
+  "reference": "/tmp/reference_segnalazioni.html",
+  "local": "/tmp/local_segnalazioni_v2.html",
   "threshold": 90,
-  "parity_score": 75.6,
+  "parity_score": 76.2,
   "reference_node_count": 776,
-  "local_node_count": 723,
+  "local_node_count": 711,
   "stats": {
-    "identical": 540,
-    "warning": 47,
-    "missing": 184,
-    "different": 5,
-    "extra": 131
+    "identical": 549,
+    "warning": 42,
+    "missing": 182,
+    "different": 3,
+    "extra": 117
   },
   "findings": [
     {
@@ -1381,9 +1381,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/button[1]",
-      "detail": "classes differ: ref=['btn', 'btn', 'btn-primary', 'mb-4', 'mb-lg-0', 'mobile-full', 'mt-2', 'py-3'] local=['btn', 'btn', 'btn-full', 'btn-primary', 'mb-4', 'mb-lg-0', 'mobile-full', 'mt-2', 'py-3']; other attributes differ"
+      "detail": "<button> identical"
     },
     {
       "kind": "warning",
@@ -1436,19 +1436,19 @@
       "detail": "<h3> identical"
     },
     {
-      "kind": "warning",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
-      "detail": "text differs"
+      "detail": "<p> identical"
     },
     {
-      "kind": "missing",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/br[1]",
-      "detail": "missing local element <br>"
+      "detail": "<br> identical"
     },
     {
-      "kind": "missing",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]",
-      "detail": "missing local element <span>"
+      "detail": "<span> identical"
     },
     {
       "kind": "identical",
@@ -1586,9 +1586,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "warning",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]",
-      "detail": "other attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "identical",
@@ -1596,9 +1596,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "warning",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[2]/img[1]",
-      "detail": "other attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "identical",
@@ -1606,9 +1606,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "warning",
+      "kind": "different",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[3]/img[1]",
-      "detail": "other attributes differ"
+      "detail": "classes differ: ref=['img-fluid', 'w-100'] local=['img-fluid', 'mb-3', 'mb-lg-0', 'w-100']; other attributes differ"
     },
     {
       "kind": "identical",
@@ -1654,6 +1654,16 @@
       "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
       "detail": "text differs"
+    },
+    {
+      "kind": "extra",
+      "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/br[1]",
+      "detail": "extra local element <br>"
+    },
+    {
+      "kind": "extra",
+      "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]",
+      "detail": "extra local element <span>"
     },
     {
       "kind": "identical",
@@ -1791,9 +1801,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]",
-      "detail": "classes differ: ref=['img-fluid', 'mb-3', 'mb-lg-0', 'w-100'] local=['img-fluid', 'w-100']; other attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "missing",
@@ -1849,6 +1859,16 @@
       "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
       "detail": "text differs"
+    },
+    {
+      "kind": "extra",
+      "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/br[1]",
+      "detail": "extra local element <br>"
+    },
+    {
+      "kind": "extra",
+      "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]",
+      "detail": "extra local element <span>"
     },
     {
       "kind": "identical",
@@ -1986,9 +2006,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "warning",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]",
-      "detail": "other attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "identical",
@@ -1996,9 +2016,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[2]/img[1]",
-      "detail": "classes differ: ref=['img-fluid', 'mb-3', 'mb-lg-0', 'w-100'] local=['img-fluid', 'w-100']; other attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "missing",
@@ -2018,7 +2038,7 @@
     {
       "kind": "different",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/button[1]",
-      "detail": "classes differ: ref=['btn', 'btn', 'btn-outline-primary', 'mobile-full', 'mt-10', 'mx-auto', 'py-3'] local=['btn', 'btn', 'btn-full', 'btn-outline-primary', 'mobile-full', 'mt-10', 'mx-auto', 'py-3']; other attributes differ"
+      "detail": "classes differ: ref=['btn', 'btn', 'btn-outline-primary', 'mobile-full', 'mt-10', 'mx-auto', 'py-3'] local=['btn', 'btn-outline-primary', 'mobile-full', 'mt-10', 'mx-auto', 'py-3']; other attributes differ"
     },
     {
       "kind": "warning",

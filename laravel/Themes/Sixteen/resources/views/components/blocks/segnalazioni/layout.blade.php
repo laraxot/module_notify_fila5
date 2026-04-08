@@ -174,7 +174,7 @@
                     class="btn p-0 pe-2 d-lg-none">
                     <span class="rounded-icon">
                         <svg class="icon icon-primary icon-xs" aria-hidden="true">
-                            <use xlink:href="{{ $sprite }}#it-funnel"></use>
+                            <use href="{{ $sprite }}#it-funnel"></use>
                         </svg>
                     </span>
                     <span class="t-primary title-xsmall-semi-bold ms-1">{{ __($ns . '.filter.button.label') }}</span>
@@ -227,7 +227,7 @@
                                     <div class="button-wrapper">
                                         <button type="button" data-bs-toggle="modal"
                                             data-bs-target="#modal-disservizio"
-                                            class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0 btn-full">
+                                            class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
                                             <span>{{ $cta['button_text'] }}</span>
                                         </button>
                                     </div>
@@ -250,7 +250,11 @@
                                                 <div class="card-body p-0">
                                                     <h3 class="medium-title mb-0">{{ $item['title'] ?? '' }}</h3>
                                                     <p class="card-info">
-                                                        {{ __($ns . '.card.type.label') }} {{ $item['type'] ?? '' }}
+                                                        @if ($loop->first)
+                                                            {{ __($ns . '.card.type.label') }}<br><span>{{ $item['type'] ?? '' }}</span>
+                                                        @else
+                                                            {{ __($ns . '.card.type.short') }}
+                                                        @endif
                                                     </p>
 
                                                     <div class="accordion-item">
@@ -263,14 +267,14 @@
                                                                 <span class="d-flex align-items-center">
                                                                     {{ __($ns . '.card.expand.button.label') }}
                                                                     <svg class="icon icon-primary icon-sm">
-                                                                        <use xlink:href="{{ $sprite }}#it-expand">
+                                                                        <use href="{{ $sprite }}#it-expand">
                                                                         </use>
                                                                     </svg>
                                                                 </span>
                                                             </button>
                                                         </div>
                                                         <div id="collapse{{ $loop->iteration }}"
-                                                            class="accordion-collapse collapse" role="region">
+                                                            class="accordion-collapse collapse @if ($loop->first) pb-0 @endif" role="region">
                                                             <div class="accordion-body p-0">
                                                                 <div class="cmp-info-summary bg-white border-0">
                                                                     <div class="card">
@@ -344,7 +348,7 @@
                         @endforeach
                     </div>
                     <div class="col-12 text-center">
-                        <button type="button" class="btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto btn-full">
+                        <button type="button" class="btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto">
                             <span>{{ __($ns . '.load-more.button.label') }}</span>
                         </button>
                     </div>
@@ -411,6 +415,21 @@
                                         </li>
                                     @endforeach
                                 </ul>
+                                @if (!empty($contacts['issues']))
+                                    <h2 class="title-medium-2-semi-bold mb-3">{{ $contacts['issues_title'] }}</h2>
+                                    <ul class="contact-list p-0">
+                                        @foreach ($contacts['issues'] as $issue)
+                                            <li>
+                                                <a class="list-item" href="{{ $issue['url'] }}">
+                                                    <svg class="icon icon-primary icon-sm" aria-hidden="true">
+                                                        <use href="{{ $sprite }}#it-warning-circle"></use>
+                                                    </svg>
+                                                    <span>{{ $issue['label'] }}</span>
+                                                </a>
+                                            </li>
+                                        @endforeach
+                                    </ul>
+                                @endif
                             </div>
                         </div>
                     </div>

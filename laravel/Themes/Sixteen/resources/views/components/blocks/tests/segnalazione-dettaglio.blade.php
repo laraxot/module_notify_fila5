@@ -49,7 +49,7 @@
                             <div class="dropdown dc-service-detail__dropdown">
                                 <button aria-label="condividi sui social" class="btn btn-dropdown text-decoration-underline d-inline-flex align-items-center fs-0" type="button">
                                     <svg class="icon" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-share"></use>
+                                        <use href="{{ $sprite }}#it-share"></use>
                                     </svg>
                                     <small>Condividi</small>
                                 </button>
@@ -60,7 +60,7 @@
                                                 <li role="none">
                                                     <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem">
                                                         <svg class="icon" aria-hidden="true">
-                                                            <use xlink:href="{{ $sprite }}#{{ $item['icon'] ?? 'it-share' }}"></use>
+                                                            <use href="{{ $sprite }}#{{ $item['icon'] ?? 'it-share' }}"></use>
                                                         </svg>
                                                         <span>{{ $item['label'] ?? '' }}</span>
                                                     </a>
@@ -76,7 +76,7 @@
                             <div class="dropdown dc-service-detail__dropdown">
                                 <button aria-label="vedi azioni da compiere sulla pagina" class="btn btn-dropdown text-decoration-underline d-inline-flex align-items-center fs-0" type="button">
                                     <svg class="icon" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-more-items"></use>
+                                        <use href="{{ $sprite }}#it-more-items"></use>
                                     </svg>
                                     <small>Vedi azioni</small>
                                 </button>
@@ -87,7 +87,7 @@
                                                 <li role="none">
                                                     <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem">
                                                         <svg class="icon" aria-hidden="true">
-                                                            <use xlink:href="{{ $sprite }}#{{ $item['icon'] ?? 'it-link' }}"></use>
+                                                            <use href="{{ $sprite }}#{{ $item['icon'] ?? 'it-link' }}"></use>
                                                         </svg>
                                                         <span>{{ $item['label'] ?? '' }}</span>
                                                     </a>
@@ -120,7 +120,7 @@
                                             <button class="accordion-button pb-10 px-3" type="button">
                                                 INDICE DELLA PAGINA
                                                 <svg class="icon icon-xs right">
-                                                    <use xlink:href="{{ $sprite }}#it-expand"></use>
+                                                    <use href="{{ $sprite }}#it-expand"></use>
                                                 </svg>
                                             </button>
                                         </span>
@@ -171,7 +171,7 @@
                                     <a class="list-item icon-left d-inline-block" href="{{ $link['url'] ?? '#' }}" aria-label="{{ $link['label'] ?? '' }}" title="{{ $link['label'] ?? '' }}">
                                         <span class="list-item-title-icon-wrapper">
                                             <svg class="icon icon-primary icon-sm me-1" aria-hidden="true">
-                                                <use xlink:href="{{ $sprite }}#{{ $link['icon'] ?? 'it-clip' }}"></use>
+                                                <use href="{{ $sprite }}#{{ $link['icon'] ?? 'it-clip' }}"></use>
                                             </svg>
                                             <span class="list-item">{{ $link['label'] ?? '' }}</span>
                                         </span>

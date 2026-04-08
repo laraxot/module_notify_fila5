@@ -81,7 +81,7 @@
                             <button type="button" class="nav-link dropdown-toggle text-white bg-transparent border-0 cursor-pointer flex items-center gap-1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <span class="visually-hidden">Lingua attiva:</span>
                                 <span>ITA</span>
-                                <svg class="icon icon-sm icon-white"><use xlink:href="#it-expand"></use></svg>
+                                <svg class="icon icon-sm icon-white"><use href="#it-expand"></use></svg>
                             </button>
                             <div class="dropdown-menu">
                                 <div class="link-list-wrapper">
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <a class="btn btn-outline-light d-flex align-items-center gap-2" href="#" data-element="personal-area-login">
-                            <svg class="icon" style="width:18px;height:18px;fill:currentColor;"><use xlink:href="#it-user"></use></svg>
+                            <svg class="icon" style="width:18px;height:18px;fill:currentColor;"><use href="#it-user"></use></svg>
                             <span class="d-none d-lg-inline">Accedi all'area personale</span>
                         </a>
                     </div>
@@ -117,12 +117,12 @@
                         data-bs-toggle="collapse"
                         style="background:transparent;border:none;padding:0.5rem;"
                     >
-                        <svg class="icon text-white" style="width:24px;height:24px;"><use xlink:href="#it-burger"></use></svg>
+                        <svg class="icon text-white" style="width:24px;height:24px;"><use href="#it-burger"></use></svg>
                     </button>
                     <div class="it-brand-wrapper">
                         <a href="#">
                             <svg width="82" height="82" class="icon" aria-hidden="true">
-                                <image xlink:href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%230066CC'/%3E%3Ctext x='50' y='60' font-size='40' text-anchor='middle' fill='white'%3EC%3C/text%3E%3C/svg%3E" width="82" height="82"/>
+                                <image href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%230066CC'/%3E%3Ctext x='50' y='60' font-size='40' text-anchor='middle' fill='white'%3EC%3C/text%3E%3C/svg%3E" width="82" height="82"/>
                             </svg>
                             <div class="it-brand-text">
                                 <div class="it-brand-title">Nome del Comune</div>
@@ -134,18 +134,18 @@
                         <div class="it-socials d-none d-lg-flex">
                             <span>Seguici su</span>
                             <ul>
-                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use xlink:href="#it-twitter"></use></svg><span class="visually-hidden">Twitter</span></a></li>
-                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use xlink:href="#it-facebook"></use></svg><span class="visually-hidden">Facebook</span></a></li>
-                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use xlink:href="#it-youtube"></use></svg><span class="visually-hidden">YouTube</span></a></li>
-                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use xlink:href="#it-telegram"></use></svg><span class="visually-hidden">Telegram</span></a></li>
-                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use xlink:href="#it-whatsapp"></use></svg><span class="visually-hidden">Whatsapp</span></a></li>
-                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use xlink:href="#it-rss"></use></svg><span class="visually-hidden">RSS</span></a></li>
+                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use href="#it-twitter"></use></svg><span class="visually-hidden">Twitter</span></a></li>
+                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use href="#it-facebook"></use></svg><span class="visually-hidden">Facebook</span></a></li>
+                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use href="#it-youtube"></use></svg><span class="visually-hidden">YouTube</span></a></li>
+                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use href="#it-telegram"></use></svg><span class="visually-hidden">Telegram</span></a></li>
+                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use href="#it-whatsapp"></use></svg><span class="visually-hidden">Whatsapp</span></a></li>
+                                <li><a href="#" target="_blank"><svg class="icon icon-sm icon-white"><use href="#it-rss"></use></svg><span class="visually-hidden">RSS</span></a></li>
                             </ul>
                         </div>
                         <div class="it-search-wrapper">
                             <span class="d-none d-md-block">Cerca</span>
                             <button class="search-link" type="button" aria-label="Cerca nel sito">
-                                <svg class="icon"><use xlink:href="#it-search"></use></svg>
+                                <svg class="icon"><use href="#it-search"></use></svg>
                             </button>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                         <div class="it-brand-wrapper mb-4">
                             <a href="#">
                                 <svg width="82" height="82" class="icon" aria-hidden="true">
-                                    <image xlink:href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='white'/%3E%3Ctext x='50' y='60' font-size='40' text-anchor='middle' fill='%230066CC'%3EC%3C/text%3E%3C/svg%3E" width="82" height="82"/>
+                                    <image href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='white'/%3E%3Ctext x='50' y='60' font-size='40' text-anchor='middle' fill='%230066CC'%3EC%3C/text%3E%3C/svg%3E" width="82" height="82"/>
                                 </svg>
                                 <div class="it-brand-text">
                                     <div class="it-brand-title text-white">Nome del Comune</div>

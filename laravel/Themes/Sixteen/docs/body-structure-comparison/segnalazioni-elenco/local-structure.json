@@ -3479,7 +3479,7 @@
                                                 "type": "button",
                                                 "data-bs-toggle": "modal",
                                                 "data-bs-target": "#modal-disservizio",
-                                                "class": "btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0 btn-full"
+                                                "class": "btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0"
                                               },
                                               "classes": [
                                                 "btn",
@@ -3489,8 +3489,7 @@
                                                 "py-3",
                                                 "mt-2",
                                                 "mb-4",
-                                                "mb-lg-0",
-                                                "btn-full"
+                                                "mb-lg-0"
                                               ],
                                               "text": "",
                                               "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/button[1]",
@@ -3725,12 +3724,13 @@
                                                               "tag": "div",
                                                               "attrs": {
                                                                 "id": "collapse1",
-                                                                "class": "accordion-collapse collapse",
+                                                                "class": "accordion-collapse collapse pb-0",
                                                                 "role": "region"
                                                               },
                                                               "classes": [
                                                                 "accordion-collapse",
-                                                                "collapse"
+                                                                "collapse",
+                                                                "pb-0"
                                                               ],
                                                               "text": "",
                                                               "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
@@ -3993,7 +3993,7 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100  mb-3 mb-lg-0 "
+                                                                                                    "class": "img-fluid w-100 mb-3 mb-lg-0"
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
@@ -4019,7 +4019,7 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100  mb-3 mb-lg-0 "
+                                                                                                    "class": "img-fluid w-100 mb-3 mb-lg-0"
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
@@ -4045,11 +4045,13 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100 "
+                                                                                                    "class": "img-fluid w-100 mb-3 mb-lg-0"
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
-                                                                                                    "w-100"
+                                                                                                    "w-100",
+                                                                                                    "mb-3",
+                                                                                                    "mb-lg-0"
                                                                                                   ],
                                                                                                   "text": "",
                                                                                                   "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[3]/img[1]",
@@ -4286,12 +4288,13 @@
                                                               "tag": "div",
                                                               "attrs": {
                                                                 "id": "collapse2",
-                                                                "class": "accordion-collapse collapse",
+                                                                "class": "accordion-collapse collapse pb-0",
                                                                 "role": "region"
                                                               },
                                                               "classes": [
                                                                 "accordion-collapse",
-                                                                "collapse"
+                                                                "collapse",
+                                                                "pb-0"
                                                               ],
                                                               "text": "",
                                                               "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
@@ -4554,11 +4557,13 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100 "
+                                                                                                    "class": "img-fluid w-100 mb-3 mb-lg-0"
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
-                                                                                                    "w-100"
+                                                                                                    "w-100",
+                                                                                                    "mb-3",
+                                                                                                    "mb-lg-0"
                                                                                                   ],
                                                                                                   "text": "",
                                                                                                   "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]",
@@ -4795,12 +4800,13 @@
                                                               "tag": "div",
                                                               "attrs": {
                                                                 "id": "collapse3",
-                                                                "class": "accordion-collapse collapse",
+                                                                "class": "accordion-collapse collapse pb-0",
                                                                 "role": "region"
                                                               },
                                                               "classes": [
                                                                 "accordion-collapse",
-                                                                "collapse"
+                                                                "collapse",
+                                                                "pb-0"
                                                               ],
                                                               "text": "",
                                                               "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
@@ -5063,7 +5069,7 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100  mb-3 mb-lg-0 "
+                                                                                                    "class": "img-fluid w-100 mb-3 mb-lg-0"
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
@@ -5089,11 +5095,13 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100 "
+                                                                                                    "class": "img-fluid w-100 mb-3 mb-lg-0"
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
-                                                                                                    "w-100"
+                                                                                                    "w-100",
+                                                                                                    "mb-3",
+                                                                                                    "mb-lg-0"
                                                                                                   ],
                                                                                                   "text": "",
                                                                                                   "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[2]/img[1]",
@@ -5163,7 +5171,7 @@
                                   "tag": "button",
                                   "attrs": {
                                     "type": "button",
-                                    "class": "btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto btn-full"
+                                    "class": "btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto"
                                   },
                                   "classes": [
                                     "btn",
@@ -5172,8 +5180,7 @@
                                     "mobile-full",
                                     "py-3",
                                     "mt-10",
-                                    "mx-auto",
-                                    "btn-full"
+                                    "mx-auto"
                                   ],
                                   "text": "",
                                   "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/button[1]",
@@ -5792,7 +5799,8 @@
                                                   "tag": "a",
                                                   "attrs": {
                                                     "class": "list-item",
-                                                    "href": "#"
+                                                    "href": "#",
+                                                    "data-element": "contacts"
                                                   },
                                                   "classes": [
                                                     "list-item"
@@ -5817,7 +5825,7 @@
                                                         {
                                                           "tag": "use",
                                                           "attrs": {
-                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-help-circle"
+                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-mail"
                                                           },
                                                           "classes": [],
                                                           "text": "",
@@ -5830,7 +5838,7 @@
                                                       "tag": "span",
                                                       "attrs": {},
                                                       "classes": [],
-                                                      "text": "Leggi le domande frequenti",
+                                                      "text": "Richiedi assistenza",
                                                       "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]",
                                                       "children": []
                                                     }
@@ -5849,8 +5857,7 @@
                                                   "tag": "a",
                                                   "attrs": {
                                                     "class": "list-item",
-                                                    "href": "#",
-                                                    "data-element": "contacts"
+                                                    "href": "#"
                                                   },
                                                   "classes": [
                                                     "list-item"
@@ -5875,7 +5882,7 @@
                                                         {
                                                           "tag": "use",
                                                           "attrs": {
-                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-mail"
+                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-hearing"
                                                           },
                                                           "classes": [],
                                                           "text": "",
@@ -5888,7 +5895,7 @@
                                                       "tag": "span",
                                                       "attrs": {},
                                                       "classes": [],
-                                                      "text": "Richiedi assistenza",
+                                                      "text": "Chiama il numero verde 05 0505",
                                                       "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]",
                                                       "children": []
                                                     }
@@ -5907,7 +5914,8 @@
                                                   "tag": "a",
                                                   "attrs": {
                                                     "class": "list-item",
-                                                    "href": "#"
+                                                    "href": "#",
+                                                    "data-element": "appointment-booking"
                                                   },
                                                   "classes": [
                                                     "list-item"
@@ -5932,7 +5940,7 @@
                                                         {
                                                           "tag": "use",
                                                           "attrs": {
-                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-hearing"
+                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar"
                                                           },
                                                           "classes": [],
                                                           "text": "",
@@ -5945,66 +5953,8 @@
                                                       "tag": "span",
                                                       "attrs": {},
                                                       "classes": [],
-                                                      "text": "Chiama il numero verde 05 0505",
-                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]",
-                                                      "children": []
-                                                    }
-                                                  ]
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "tag": "li",
-                                              "attrs": {},
-                                              "classes": [],
-                                              "text": "",
-                                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]",
-                                              "children": [
-                                                {
-                                                  "tag": "a",
-                                                  "attrs": {
-                                                    "class": "list-item",
-                                                    "href": "#",
-                                                    "data-element": "appointment-booking"
-                                                  },
-                                                  "classes": [
-                                                    "list-item"
-                                                  ],
-                                                  "text": "",
-                                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]",
-                                                  "children": [
-                                                    {
-                                                      "tag": "svg",
-                                                      "attrs": {
-                                                        "class": "icon icon-primary icon-sm",
-                                                        "aria-hidden": "true"
-                                                      },
-                                                      "classes": [
-                                                        "icon",
-                                                        "icon-primary",
-                                                        "icon-sm"
-                                                      ],
-                                                      "text": "",
-                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/svg[1]",
-                                                      "children": [
-                                                        {
-                                                          "tag": "use",
-                                                          "attrs": {
-                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar"
-                                                          },
-                                                          "classes": [],
-                                                          "text": "",
-                                                          "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/svg[1]/use[1]",
-                                                          "children": []
-                                                        }
-                                                      ]
-                                                    },
-                                                    {
-                                                      "tag": "span",
-                                                      "attrs": {},
-                                                      "classes": [],
                                                       "text": "Prenota appuntamento",
-                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/span[1]",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]",
                                                       "children": []
                                                     }
                                                   ]

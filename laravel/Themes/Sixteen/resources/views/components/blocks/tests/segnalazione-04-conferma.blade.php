@@ -26,7 +26,7 @@
             <div class="cmp-heading p-0">
                 <div class="categoryicon-top d-flex">
                     <svg class="icon icon-success mr-10 icon-md" aria-hidden="true">
-                        <use xlink:href="{{ $sprite }}#it-check-circle"></use>
+                        <use href="{{ $sprite }}#it-check-circle"></use>
                     </svg>
                     <h1 class="title-xxxlarge">{{ $title }}</h1>
                 </div>
@@ -38,7 +38,7 @@
                 <button type="button" class="btn btn-outline-primary bg-white fw-bold">
                     <span class="rounded-icon">
                         <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                            <use xlink:href="{{ $sprite }}#it-download"></use>
+                            <use href="{{ $sprite }}#it-download"></use>
                         </svg>
                     </span>
                     <span class="">Scarica la ricevuta (PDF 100KB)</span>
@@ -62,7 +62,7 @@
                                 <a class="list-item icon-left t-primary title-small-semi-bold" href="{{ $service['url'] ?? '#' }}">
                                     <span class="list-item-title-icon-wrapper">
                                         <svg class="icon icon-sm align-self-start icon-color" aria-hidden="true">
-                                            <use xlink:href="{{ $sprite }}#{{ $service['icon'] ?? 'it-settings' }}"></use>
+                                            <use href="{{ $sprite }}#{{ $service['icon'] ?? 'it-settings' }}"></use>
                                         </svg>
                                         <span class="list-item-title title-small-semi-bold">{{ $service['label'] ?? '' }}</span>
                                     </span>
@@ -230,19 +230,19 @@
                             <ul class="contact-list p-0">
                                 <li><a class="list-item" href="#">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-help-circle"></use>
+                                        <use href="{{ $sprite }}#it-help-circle"></use>
                                     </svg><span>Leggi le domande frequenti</span></a></li>
                                 <li><a class="list-item" href="#" data-element="contacts">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-mail"></use>
+                                        <use href="{{ $sprite }}#it-mail"></use>
                                     </svg><span>Richiedi assistenza</span></a></li>
                                 <li><a class="list-item" href="#">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-hearing"></use>
+                                        <use href="{{ $sprite }}#it-hearing"></use>
                                     </svg><span>Chiama il numero verde 05 0505</span></a></li>
                                 <li><a class="list-item" href="#" data-element="appointment-booking">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-calendar"></use>
+                                        <use href="{{ $sprite }}#it-calendar"></use>
                                     </svg><span>Prenota appuntamento</span></a></li>
                             </ul>
                         </div>

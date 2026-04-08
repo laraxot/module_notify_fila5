@@ -82,6 +82,7 @@ return [
     'card' => [
         'type' => [
             'label' => 'Tipologia di segnalazione',
+            'short' => 'Tipologia segnalazione',
         ],
         'expand' => [
             'button' => [
