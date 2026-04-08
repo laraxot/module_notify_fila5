@@ -1,0 +1,3092 @@
+{
+  "timestamp": "2026-04-08T08:12:57.368Z",
+  "scores": {
+    "structureParity": "46.01",
+    "classParity": "40.21",
+    "overall": "43.69",
+    "totalReference": 776,
+    "totalLocal": 437,
+    "identical": 312,
+    "different": 45,
+    "missingInLocal": 419,
+    "missingInReference": 80
+  },
+  "identical_count": 312,
+  "different_count": 45,
+  "missing_count": 419,
+  "extra_count": 80,
+  "identical": [
+    {
+      "path": "html > body",
+      "tag": "body",
+      "classes": []
+    },
+    {
+      "path": "html > body > div.skiplink",
+      "tag": "div",
+      "classes": [
+        "skiplink"
+      ]
+    },
+    {
+      "path": "html > body > div.skiplink > a.visually-hidden-focusable",
+      "tag": "a",
+      "classes": [
+        "visually-hidden-focusable"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper",
+      "tag": "header",
+      "classes": [
+        "it-header-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-header-slim-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container",
+      "tag": "div",
+      "classes": [
+        "container"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12",
+      "tag": "div",
+      "classes": [
+        "col-12"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content",
+      "tag": "div",
+      "classes": [
+        "it-header-slim-wrapper-content"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > a.d-lg-block.navbar-brand",
+      "tag": "a",
+      "classes": [
+        "d-lg-block",
+        "navbar-brand"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone",
+      "tag": "div",
+      "classes": [
+        "it-header-slim-right-zone"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown",
+      "tag": "div",
+      "classes": [
+        "nav-item",
+        "dropdown"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle",
+      "tag": "button",
+      "classes": [
+        "nav-link",
+        "dropdown-toggle"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu",
+      "tag": "div",
+      "classes": [
+        "dropdown-menu"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12",
+      "tag": "div",
+      "classes": [
+        "col-12"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper",
+      "tag": "div",
+      "classes": [
+        "link-list-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list",
+      "tag": "ul",
+      "classes": [
+        "link-list"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item",
+      "tag": "a",
+      "classes": [
+        "dropdown-item",
+        "list-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item",
+      "tag": "a",
+      "classes": [
+        "dropdown-item",
+        "list-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-nav-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-header-center-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container",
+      "tag": "div",
+      "classes": [
+        "container"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12",
+      "tag": "div",
+      "classes": [
+        "col-12"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-header-center-content-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-brand-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > div.it-brand-text",
+      "tag": "div",
+      "classes": [
+        "it-brand-text"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > div.it-brand-text > div.it-brand-title",
+      "tag": "div",
+      "classes": [
+        "it-brand-title"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > div.it-brand-text > div.it-brand-tagline.d-none.d-md-block",
+      "tag": "div",
+      "classes": [
+        "it-brand-tagline",
+        "d-none",
+        "d-md-block"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone",
+      "tag": "div",
+      "classes": [
+        "it-right-zone"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex",
+      "tag": "div",
+      "classes": [
+        "it-socials",
+        "d-none",
+        "d-lg-flex"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul",
+      "tag": "ul",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-search-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper > span.d-none.d-md-block",
+      "tag": "span",
+      "classes": [
+        "d-none",
+        "d-md-block"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper > button.search-link.rounded-icon",
+      "tag": "button",
+      "classes": [
+        "search-link",
+        "rounded-icon"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper > button.search-link.rounded-icon > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-header-navbar-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container",
+      "tag": "div",
+      "classes": [
+        "container"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12",
+      "tag": "div",
+      "classes": [
+        "col-12"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu",
+      "tag": "div",
+      "classes": [
+        "navbar",
+        "navbar-expand-lg",
+        "has-megamenu"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4",
+      "tag": "div",
+      "classes": [
+        "navbar-collapsable"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.overlay",
+      "tag": "div",
+      "classes": [
+        "overlay"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div",
+      "tag": "div",
+      "classes": [
+        "close-div"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div > button.btn.close-menu",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "close-menu"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div > button.btn.close-menu > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div > button.btn.close-menu > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper",
+      "tag": "div",
+      "classes": [
+        "menu-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger",
+      "tag": "a",
+      "classes": [
+        "logo-hamburger"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger > div.it-brand-text",
+      "tag": "div",
+      "classes": [
+        "it-brand-text"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger > div.it-brand-text > div.it-brand-title",
+      "tag": "div",
+      "classes": [
+        "it-brand-title"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav",
+      "tag": "ul",
+      "classes": [
+        "navbar-nav"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link",
+      "tag": "a",
+      "classes": [
+        "nav-link"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav",
+      "tag": "nav",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary",
+      "tag": "ul",
+      "classes": [
+        "navbar-nav",
+        "navbar-secondary"
+      ]
+    }
+  ],
+  "different": [
+    {
+      "path": "html > body > div.skiplink > a.visually-hidden-focusable",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "visually-hidden-focusable"
+      ],
+      "localClasses": [
+        "visually-hidden-focusable"
+      ],
+      "refAttributes": {
+        "href": "#main-container"
+      },
+      "localAttributes": {
+        "href": "#footer"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > svg > image",
+      "tag": "image",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/images/logo-comune.svg"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/images/logo.svg"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper > button.search-link.rounded-icon > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-search"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-search"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div > button.btn.close-menu > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-close-big"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-close-big"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav",
+      "tag": "nav",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "aria-label": "Principale"
+      },
+      "localAttributes": {
+        "aria-label": "Secondaria"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/amministrazione.html",
+        "data-element": "management"
+      },
+      "localAttributes": {
+        "href": "../sito/eventi.html",
+        "data-element": "live"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/novita.html",
+        "data-element": "news"
+      },
+      "localAttributes": {
+        "href": "../sito/eventi.html",
+        "data-element": "live"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/servizi.html",
+        "data-element": "all-services"
+      },
+      "localAttributes": {
+        "href": "../sito/eventi.html",
+        "data-element": "live"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/argomento.html"
+      },
+      "localAttributes": {
+        "href": "argomenti.html",
+        "data-element": "all-topics"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/argomento.html"
+      },
+      "localAttributes": {
+        "href": "argomenti.html",
+        "data-element": "all-topics"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/argomento.html"
+      },
+      "localAttributes": {
+        "href": "argomenti.html",
+        "data-element": "all-topics"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link > span > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > main",
+      "tag": "main",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {},
+      "localAttributes": {
+        "data-page": "segnalazioni-elenco"
+      }
+    },
+    {
+      "path": "html > body > div#search-modal > div.modal-dialog.modal-lg > div.modal-content.perfect-scrollbar > div.modal-body > form > div.container > div.row.variable-gutters > div.col > div.modal-title > button.search-link.d-md-none > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-left"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-left"
+      }
+    },
+    {
+      "path": "html > body > div#search-modal > div.modal-dialog.modal-lg > div.modal-content.perfect-scrollbar > div.modal-body > form > div.container > div.row.variable-gutters > div.col > div.modal-title > button.search-link.d-none.d-md-block > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-close-big"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-close-big"
+      }
+    },
+    {
+      "path": "html > body > div#search-modal > div.modal-dialog.modal-lg > div.modal-content.perfect-scrollbar > div.modal-body > form > div.container > div.row.variable-gutters > div.col > div.form-group.autocomplete-wrapper > span.autocomplete-icon > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-search"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-search"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-12.footer-items-wrapper.logo-wrapper > img.ue-logo",
+      "tag": "img",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "ue-logo"
+      ],
+      "localClasses": [
+        "ue-logo"
+      ],
+      "refAttributes": {
+        "src": "../assets/images/logo-eu-inverted.svg",
+        "alt": "logo Unione Europea"
+      },
+      "localAttributes": {
+        "src": "/themes/Sixteen/design-comuni/assets/images/logo-eu-inverted.svg",
+        "alt": "logo Unione Europea"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-12.footer-items-wrapper.logo-wrapper > div.it-brand-wrapper > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#",
+        "data-element": "faq"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#",
+        "data-element": "report-inefficiency"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#",
+        "data-element": "privacy-policy-link"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#",
+        "data-element": "legal-notes"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    }
+  ],
+  "missingInLocal": [
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full",
+      "tag": "a",
+      "classes": [
+        "btn",
+        "btn-primary",
+        "btn-icon",
+        "btn-full"
+      ],
+      "attributes": {
+        "href": "../servizi/accesso-servizio.html",
+        "data-element": "personal-area-login"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.rounded-icon",
+      "tag": "span",
+      "classes": [
+        "rounded-icon"
+      ],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.rounded-icon > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.rounded-icon > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-user"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.d-none.d-lg-block",
+      "tag": "span",
+      "classes": [
+        "d-none",
+        "d-lg-block"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > button.custom-navbar-toggler",
+      "tag": "button",
+      "classes": [
+        "custom-navbar-toggler"
+      ],
+      "attributes": {
+        "type": "button",
+        "aria-controls": "nav4",
+        "aria-expanded": "false",
+        "aria-label": "Mostra/Nascondi la navigazione",
+        "data-bs-target": "#nav4",
+        "data-bs-toggle": "navbarcollapsible"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > button.custom-navbar-toggler > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > button.custom-navbar-toggler > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80",
+      "tag": "div",
+      "classes": [
+        "row",
+        "justify-content-center",
+        "mb-md-40",
+        "mb-lg-80"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10",
+      "tag": "div",
+      "classes": [
+        "col-12",
+        "col-lg-10"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs",
+      "tag": "div",
+      "classes": [
+        "cmp-breadcrumbs"
+      ],
+      "attributes": {
+        "role": "navigation"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container",
+      "tag": "nav",
+      "classes": [
+        "breadcrumb-container"
+      ],
+      "attributes": {
+        "aria-label": "breadcrumb"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0",
+      "tag": "ol",
+      "classes": [
+        "breadcrumb",
+        "p-0"
+      ],
+      "attributes": {
+        "data-element": "breadcrumb"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item",
+      "tag": "li",
+      "classes": [
+        "breadcrumb-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item > a",
+      "tag": "a",
+      "classes": [],
+      "attributes": {
+        "href": "homepage.html"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item > span.separator",
+      "tag": "span",
+      "classes": [
+        "separator"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item.active",
+      "tag": "li",
+      "classes": [
+        "breadcrumb-item",
+        "active"
+      ],
+      "attributes": {
+        "aria-current": "page"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0",
+      "tag": "div",
+      "classes": [
+        "cmp-heading",
+        "p-0"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0 > h1.title-xxxlarge",
+      "tag": "h1",
+      "classes": [
+        "title-xxxlarge"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0 > p.subtitle-small",
+      "tag": "p",
+      "classes": [
+        "subtitle-small"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > hr.d-none.d-lg-block.mt-30.mb-2",
+      "tag": "hr",
+      "classes": [
+        "d-none",
+        "d-lg-block",
+        "mt-30",
+        "mb-2"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center",
+      "tag": "div",
+      "classes": [
+        "row",
+        "justify-content-center"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block",
+      "tag": "div",
+      "classes": [
+        "col-lg-3",
+        "d-none",
+        "d-lg-block"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset",
+      "tag": "fieldset",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > legend.h6.text-uppercase.category-list__title",
+      "tag": "legend",
+      "classes": [
+        "h6",
+        "text-uppercase",
+        "category-list__title"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4",
+      "tag": "div",
+      "classes": [
+        "categoy-list",
+        "pb-4"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul",
+      "tag": "ul",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#water",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "acqua,allagamenti,fogne"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "water"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#enviroment",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "inquinamneto"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "enviroment"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#street-furniture",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "arredo-urbano"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "street-furniture"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#rodent-control",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "derattizazione"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "rodent-control"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#waste",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "igiene"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "waste"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#maintenance",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "manutenzione"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "maintenance"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#public-order",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "ordine-pubblico"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "public-order"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#green",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "parchi"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "green"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#service",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "servizi"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "service"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#security",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "sicurezza"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "security"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check",
+      "tag": "div",
+      "classes": [
+        "form-check"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1",
+      "tag": "div",
+      "classes": [
+        "checkbox-body",
+        "border-light",
+        "py-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > input#road",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "checkbox",
+        "name": "category",
+        "value": "strade"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1 > label.subtitle-small_semi-bold.mb-0.category-list__list",
+      "tag": "label",
+      "classes": [
+        "subtitle-small_semi-bold",
+        "mb-0",
+        "category-list__list"
+      ],
+      "attributes": {
+        "for": "road"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1",
+      "tag": "div",
+      "classes": [
+        "col-lg-8",
+        "offset-lg-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5",
+      "tag": "div",
+      "classes": [
+        "d-flex",
+        "justify-content-between",
+        "border-bottom",
+        "border-light",
+        "pb-3",
+        "mt-5"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > span.search-results",
+      "tag": "span",
+      "classes": [
+        "search-results"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "p-0",
+        "pe-2",
+        "d-lg-none"
+      ],
+      "attributes": {
+        "type": "button",
+        "data-bs-toggle": "modal",
+        "data-bs-target": "#modal-categories"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.rounded-icon",
+      "tag": "span",
+      "classes": [
+        "rounded-icon"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.rounded-icon > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.rounded-icon > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-funnel"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.t-primary.title-xsmall-semi-bold.ms-1",
+      "tag": "span",
+      "classes": [
+        "t-primary",
+        "title-xsmall-semi-bold",
+        "ms-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-none.d-lg-block",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "p-0",
+        "pe-2",
+        "d-none",
+        "d-lg-block"
+      ],
+      "attributes": {
+        "type": "button"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-none.d-lg-block > span.title-xsmall-semi-bold.ms-1",
+      "tag": "span",
+      "classes": [
+        "title-xsmall-semi-bold",
+        "ms-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > ul#tabDisservizio",
+      "tag": "ul",
+      "classes": [
+        "nav",
+        "nav-tabs",
+        "w-100",
+        "flex-nowrap",
+        "border-bottom",
+        "border-light",
+        "mb-40",
+        "mt-3",
+        "shadow-none"
+      ],
+      "attributes": {
+        "role": "tablist"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > ul#tabDisservizio > li.nav-item.w-100",
+      "tag": "li",
+      "classes": [
+        "nav-item",
+        "w-100"
+      ],
+      "attributes": {
+        "role": "tab"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > ul#tabDisservizio > li.nav-item.w-100 > a.nav-link.active.title-medium-semi-bold.pt-0",
+      "tag": "a",
+      "classes": [
+        "nav-link",
+        "active",
+        "title-medium-semi-bold",
+        "pt-0"
+      ],
+      "attributes": {
+        "href": "#data-ex-disservizio1",
+        "aria-current": "page",
+        "data-bs-toggle": "tab",
+        "role": "button",
+        "aria-controls": "disservizio1",
+        "aria-selected": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > ul#tabDisservizio > li.nav-item.w-100",
+      "tag": "li",
+      "classes": [
+        "nav-item",
+        "w-100"
+      ],
+      "attributes": {
+        "role": "tab"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > ul#tabDisservizio > li.nav-item.w-100 > a.nav-link.title-medium-semi-bold.pt-0",
+      "tag": "a",
+      "classes": [
+        "nav-link",
+        "title-medium-semi-bold",
+        "pt-0"
+      ],
+      "attributes": {
+        "href": "#data-ex-disservizio2",
+        "aria-current": "page",
+        "data-bs-toggle": "tab",
+        "role": "button",
+        "aria-controls": "disservizio2",
+        "aria-selected": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content",
+      "tag": "div",
+      "classes": [
+        "tab-content"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio1",
+      "tag": "div",
+      "classes": [
+        "tab-pane",
+        "fade",
+        "show",
+        "active"
+      ],
+      "attributes": {
+        "role": "tabpanel"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio1 > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ],
+      "attributes": {}
+    }
+  ],
+  "missingInReference": [
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-outline-light.btn-icon",
+      "tag": "a",
+      "classes": [
+        "btn",
+        "btn-outline-light",
+        "btn-icon"
+      ],
+      "attributes": {
+        "href": "../servizi/accesso-servizio.html",
+        "data-element": "personal-area-login",
+        "aria-label": "Accedi all'area personale"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-outline-light.btn-icon > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-outline-light.btn-icon > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > button.custom-navbar-toggler.d-lg-none.me-3",
+      "tag": "button",
+      "classes": [
+        "custom-navbar-toggler",
+        "d-lg-none",
+        "me-3"
+      ],
+      "attributes": {
+        "type": "button",
+        "aria-controls": "nav4",
+        "aria-expanded": "false",
+        "aria-label": "Mostra/Nascondi la navigazione",
+        "data-bs-target": "#nav4",
+        "data-bs-toggle": "navbarcollapsible"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > button.custom-navbar-toggler.d-lg-none.me-3 > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > button.custom-navbar-toggler.d-lg-none.me-3 > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content",
+      "tag": "div",
+      "classes": [
+        "main-content"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80",
+      "tag": "div",
+      "classes": [
+        "row",
+        "justify-content-center",
+        "mb-md-40",
+        "mb-lg-80"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10",
+      "tag": "div",
+      "classes": [
+        "col-12",
+        "col-lg-10"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs",
+      "tag": "div",
+      "classes": [
+        "cmp-breadcrumbs"
+      ],
+      "attributes": {
+        "role": "navigation"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container",
+      "tag": "nav",
+      "classes": [
+        "breadcrumb-container"
+      ],
+      "attributes": {
+        "aria-label": "breadcrumb"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0",
+      "tag": "ol",
+      "classes": [
+        "breadcrumb",
+        "p-0"
+      ],
+      "attributes": {
+        "data-element": "breadcrumb"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item",
+      "tag": "li",
+      "classes": [
+        "breadcrumb-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item > a",
+      "tag": "a",
+      "classes": [],
+      "attributes": {
+        "href": "/it/tests/homepage"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item > span.separator",
+      "tag": "span",
+      "classes": [
+        "separator"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item.active",
+      "tag": "li",
+      "classes": [
+        "breadcrumb-item",
+        "active"
+      ],
+      "attributes": {
+        "aria-current": "\"page\""
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0",
+      "tag": "div",
+      "classes": [
+        "cmp-heading",
+        "p-0"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0 > h1.title-xxxlarge",
+      "tag": "h1",
+      "classes": [
+        "title-xxxlarge"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0 > p.subtitle-small",
+      "tag": "p",
+      "classes": [
+        "subtitle-small"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > hr.d-none.d-lg-block.mt-30.mb-2",
+      "tag": "hr",
+      "classes": [
+        "d-none",
+        "d-lg-block",
+        "mt-30",
+        "mb-2"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center",
+      "tag": "div",
+      "classes": [
+        "row",
+        "justify-content-center"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1",
+      "tag": "div",
+      "classes": [
+        "col-lg-8",
+        "offset-lg-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5",
+      "tag": "div",
+      "classes": [
+        "d-flex",
+        "justify-content-between",
+        "border-bottom",
+        "border-light",
+        "pb-3",
+        "mt-5"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > span.search-results",
+      "tag": "span",
+      "classes": [
+        "search-results"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "p-0",
+        "pe-2",
+        "d-lg-none"
+      ],
+      "attributes": {
+        "type": "button",
+        "data-bs-toggle": "modal",
+        "data-bs-target": "#modal-categories"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.rounded-icon",
+      "tag": "span",
+      "classes": [
+        "rounded-icon"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.rounded-icon > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.rounded-icon > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-funnel"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.t-primary.title-xsmall-semi-bold.ms-1",
+      "tag": "span",
+      "classes": [
+        "t-primary",
+        "title-xsmall-semi-bold",
+        "ms-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-none.d-lg-block",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "p-0",
+        "pe-2",
+        "d-none",
+        "d-lg-block"
+      ],
+      "attributes": {
+        "type": "button"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-none.d-lg-block > span.title-xsmall-semi-bold.ms-1",
+      "tag": "span",
+      "classes": [
+        "title-xsmall-semi-bold",
+        "ms-1"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > ul#tabDisservizio",
+      "tag": "ul",
+      "classes": [
+        "nav",
+        "nav-tabs",
+        "w-100",
+        "flex-nowrap",
+        "border-bottom",
+        "border-light",
+        "mb-40",
+        "mt-3",
+        "shadow-none"
+      ],
+      "attributes": {
+        "role": "tablist"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > ul#tabDisservizio > li.nav-item.w-100",
+      "tag": "li",
+      "classes": [
+        "nav-item",
+        "w-100"
+      ],
+      "attributes": {
+        "role": "tab"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > ul#tabDisservizio > li.nav-item.w-100 > a.nav-link.active.title-medium-semi-bold.pt-0",
+      "tag": "a",
+      "classes": [
+        "nav-link",
+        "active",
+        "title-medium-semi-bold",
+        "pt-0"
+      ],
+      "attributes": {
+        "href": "#data-ex-disservizio1",
+        "aria-current": "page",
+        "data-bs-toggle": "tab",
+        "role": "button",
+        "aria-controls": "disservizio1",
+        "aria-selected": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > ul#tabDisservizio > li.nav-item.w-100",
+      "tag": "li",
+      "classes": [
+        "nav-item",
+        "w-100"
+      ],
+      "attributes": {
+        "role": "tab"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > ul#tabDisservizio > li.nav-item.w-100 > a.nav-link.title-medium-semi-bold.pt-0",
+      "tag": "a",
+      "classes": [
+        "nav-link",
+        "title-medium-semi-bold",
+        "pt-0"
+      ],
+      "attributes": {
+        "href": "#data-ex-disservizio2",
+        "aria-current": "page",
+        "data-bs-toggle": "tab",
+        "role": "button",
+        "aria-controls": "disservizio2",
+        "aria-selected": "false"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content",
+      "tag": "div",
+      "classes": [
+        "tab-content"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio1",
+      "tag": "div",
+      "classes": [
+        "tab-pane",
+        "fade",
+        "show",
+        "active"
+      ],
+      "attributes": {
+        "role": "tabpanel"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio1 > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio1 > div.row > div.col-12",
+      "tag": "div",
+      "classes": [
+        "col-12"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio1 > div.row > div.col-12 > div.map-box",
+      "tag": "div",
+      "classes": [
+        "map-box"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio1 > div.row > div.col-12 > div.map-box > img.w-100",
+      "tag": "img",
+      "classes": [
+        "w-100"
+      ],
+      "attributes": {
+        "src": "/themes/Sixteen/design-comuni/assets/images/map-placeholder.svg",
+        "alt": "fixcity::segnalazione.map.map_alt.text"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio1 > div.row > div.col-12 > div.map-box > button.pin",
+      "tag": "button",
+      "classes": [
+        "pin"
+      ],
+      "attributes": {
+        "type": "button",
+        "data-bs-toggle": "modal",
+        "data-bs-target": "#modal-disservizio"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio1 > div.row > div.col-12 > div.map-box > button.pin > img",
+      "tag": "img",
+      "classes": [],
+      "attributes": {
+        "src": "/themes/Sixteen/design-comuni/assets/images/map-pin.svg",
+        "alt": "fixcity::segnalazione.map.pin_alt.text",
+        "title": "fixcity::segnalazione.map.pin_alt.text"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio2",
+      "tag": "div",
+      "classes": [
+        "tab-pane",
+        "fade"
+      ],
+      "attributes": {
+        "role": "tabpanel"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio2 > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio2 > div.text-center.mt-4",
+      "tag": "div",
+      "classes": [
+        "text-center",
+        "mt-4"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio2 > div.text-center.mt-4 > button.btn.btn-outline-primary",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "btn-outline-primary"
+      ],
+      "attributes": {
+        "type": "button"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.tab-content > div#data-ex-disservizio2 > div.text-center.mt-4 > button.btn.btn-outline-primary > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary",
+      "tag": "div",
+      "classes": [
+        "bg-primary"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container",
+      "tag": "div",
+      "classes": [
+        "container"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary",
+      "tag": "div",
+      "classes": [
+        "row",
+        "d-flex",
+        "justify-content-center",
+        "bg-primary"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3",
+      "tag": "div",
+      "classes": [
+        "col-12",
+        "col-lg-6",
+        "p-lg-0",
+        "px-3"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating",
+      "tag": "div",
+      "classes": [
+        "cmp-rating",
+        "pt-lg-80",
+        "pb-lg-80"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper",
+      "tag": "div",
+      "classes": [
+        "card",
+        "shadow",
+        "card-wrapper"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-header.border-0",
+      "tag": "div",
+      "classes": [
+        "card-header",
+        "border-0"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-header.border-0 > h2.title-medium-2-semi-bold.mb-0",
+      "tag": "h2",
+      "classes": [
+        "title-medium-2-semi-bold",
+        "mb-0"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body",
+      "tag": "div",
+      "classes": [
+        "card-body"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating",
+      "tag": "fieldset",
+      "classes": [
+        "rating"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > legend.visually-hidden",
+      "tag": "legend",
+      "classes": [
+        "visually-hidden"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > input#star5a",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "radio",
+        "name": "ratingA",
+        "value": "5"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star",
+      "tag": "label",
+      "classes": [
+        "full",
+        "rating-star"
+      ],
+      "attributes": {
+        "for": "star5a"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star > svg > path",
+      "tag": "path",
+      "classes": [],
+      "attributes": {
+        "d": "M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > input#star4a",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "radio",
+        "name": "ratingA",
+        "value": "4"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star",
+      "tag": "label",
+      "classes": [
+        "full",
+        "rating-star"
+      ],
+      "attributes": {
+        "for": "star4a"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star > svg > path",
+      "tag": "path",
+      "classes": [],
+      "attributes": {
+        "d": "M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > input#star3a",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "radio",
+        "name": "ratingA",
+        "value": "3"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star",
+      "tag": "label",
+      "classes": [
+        "full",
+        "rating-star"
+      ],
+      "attributes": {
+        "for": "star3a"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star > svg > path",
+      "tag": "path",
+      "classes": [],
+      "attributes": {
+        "d": "M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > input#star2a",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "radio",
+        "name": "ratingA",
+        "value": "2"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star",
+      "tag": "label",
+      "classes": [
+        "full",
+        "rating-star"
+      ],
+      "attributes": {
+        "for": "star2a"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star > svg > path",
+      "tag": "path",
+      "classes": [],
+      "attributes": {
+        "d": "M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > input#star1a",
+      "tag": "input",
+      "classes": [],
+      "attributes": {
+        "type": "radio",
+        "name": "ratingA",
+        "value": "1"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star",
+      "tag": "label",
+      "classes": [
+        "full",
+        "rating-star"
+      ],
+      "attributes": {
+        "for": "star1a"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.bg-primary > div.container > div.row.d-flex.justify-content-center.bg-primary > div.col-12.col-lg-6.p-lg-0.px-3 > div#rating > div.card.shadow.card-wrapper > div.card-body > fieldset.rating > label.full.rating-star > svg > path",
+      "tag": "path",
+      "classes": [],
+      "attributes": {
+        "d": "M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"
+      }
+    }
+  ]
+}

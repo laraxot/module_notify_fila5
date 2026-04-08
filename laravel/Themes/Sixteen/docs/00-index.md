@@ -42,6 +42,13 @@
 - [segnalazione-css-diff-2026-04-07.md](./segnalazione-css-diff-2026-04-07.md) - Previous CSS/JS differences analysis
 - [design-comuni/segnalazione-comparison-analysis.md](./segnalazione-comparison-analysis.md) - Earlier parity analysis report
 
+### HTML Structure Comparison Tools
+- [body-structure-comparison/segnalazioni-elenco/report.md](./body-structure-comparison/segnalazioni-elenco/report.md) — Structured diff output (BLOCK/FLAG/WARN severity)
+- [body-structure-comparison/segnalazioni-elenco/parity-score.md](./body-structure-comparison/segnalazioni-elenco/parity-score.md) — Score card tracking parity over time
+- [bashscripts/html/README.md](../../../bashscripts/html/README.md) — Tool documentation (compare-html-body.py, html-structure-compare.sh)
+- [bashscripts/body/](../../../bashscripts/body/) — Bash orchestrator scripts for comparison runs
+- [prompts/segnalazione_disservizio/segnalazioni-elenco-html-parity-analysis.md](./prompts/segnalazione_disservizio/segnalazioni-elenco-html-parity-analysis.md) — Analysis summary for segnalazioni-elenco
+
 ### Theme implementation entrypoints
 - `resources/css/app.css` - Primary CSS entrypoint for visual parity overrides
 - `resources/js/app.js` - Primary JS entrypoint for homepage runtime normalization
@@ -51,9 +58,11 @@
 - [../../Modules/Cms/docs/00-index.md](../../Modules/Cms/docs/00-index.md) - Cms module documentation index
 - [../../Modules/Cms/docs/design-comuni-homepage.md](../../Modules/Cms/docs/design-comuni-homepage.md) - Cms-side parity coordination note
 - [../../Modules/Cms/docs/architecture/homepage-structure.md](../../Modules/Cms/docs/architecture/homepage-structure.md) - Homepage runtime architecture
+- [../../Modules/Cms/docs/body-structure-comparison/README.md](../../Modules/Cms/docs/body-structure-comparison/README.md) - Body structure comparison methodology
 
 ## Notes
 
 - The active visual parity work is scoped to CSS/JS changes in the theme.
 - The homepage test route remains CMS-driven through the Cms module and the local JSON content source.
 - If this index diverges from the active parity docs, prefer the files under `docs/design-comuni/`.
+- HTML structure comparison tools live in `bashscripts/html/` (Python comparison) and `bashscripts/body/` (Bash orchestration).

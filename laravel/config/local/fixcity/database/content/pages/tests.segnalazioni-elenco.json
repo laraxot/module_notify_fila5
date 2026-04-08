@@ -2,7 +2,7 @@
     "id": "tests.segnalazioni-elenco",
     "title": {
         "it": "Elenco segnalazioni",
-        "en": "Elenco segnalazioni"
+        "en": "Reports list"
     },
     "slug": "tests.segnalazioni-elenco",
     "category": "Generali",
@@ -10,50 +10,39 @@
     "content_blocks": {
         "it": [
             {
-                "type": "breadcrumb",
-                "data": {
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
-                    "items": [
-                        {
-                            "label": "Home",
-                            "url": "/it/tests/homepage"
-                        },
-                        {
-                            "label": "Elenco segnalazioni",
-                            "url": null
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "heading",
-                "data": {
-                    "view": "pub_theme::components.blocks.heading.default",
-                    "title": "Elenco segnalazioni",
-                    "subtitle": "Negli ultimi 12 mesi sono state risolte 73 segnalazioni."
-                }
-            },
-            {
                 "type": "segnalazioni-layout",
                 "data": {
                     "view": "pub_theme::components.blocks.segnalazioni.layout",
+                    "breadcrumb": [
+                        {
+                            "label": "fixcity::segnalazione.breadcrumb.home.label",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "fixcity::segnalazione.breadcrumb.elenco.label",
+                            "url": null,
+                            "active": true
+                        }
+                    ],
+                    "title": "fixcity::segnalazione.heading.title.label",
+                    "subtitle": "fixcity::segnalazione.heading.subtitle.text",
                     "results_count": 645,
                     "tabs": [
                         {
                             "id": "map",
-                            "label": "Mappa",
+                            "label": "fixcity::segnalazione.tabs.map.label",
                             "active": true
                         },
                         {
                             "id": "list",
-                            "label": "Elenco",
+                            "label": "fixcity::segnalazione.tabs.list.label",
                             "active": false
                         }
                     ],
                     "cta": {
-                        "title": "Fai una segnalazione",
-                        "text": "Se vuoi aggiungere una segnalazione, puoi farlo dopo esserti autenticato con le tue credenziali SPID o CIE.",
-                        "button_text": "Segnala disservizio"
+                        "title": "fixcity::segnalazione.map.cta.title.label",
+                        "text": "fixcity::segnalazione.map.cta.text.label",
+                        "button_text": "fixcity::segnalazione.map.cta.button.label"
                     },
                     "items": [
                         {
@@ -97,7 +86,7 @@
                         }
                     ],
                     "filters": {
-                        "title": "categoria",
+                        "title": "fixcity::segnalazione.filters.legend.label",
                         "items": [
                             {
                                 "id": "water",
@@ -109,7 +98,7 @@
                                 "id": "enviroment",
                                 "label": "Ambiente, inquinamento, protezione ambientale",
                                 "count": 14,
-                                "value": "inquinamneto"
+                                "value": "inquinamento"
                             },
                             {
                                 "id": "street-furniture",
@@ -131,15 +120,15 @@
                             },
                             {
                                 "id": "maintenance",
-                                "label": "Manutenzione strade e infrastrutture",
-                                "count": 156,
+                                "label": "Manutenzione immobili, edifici pubblici, scuole, barriere architettoniche, cimiteri",
+                                "count": 302,
                                 "value": "manutenzione"
                             },
                             {
                                 "id": "public-order",
-                                "label": "Ordine pubblico",
+                                "label": "Ordine pubblico, disturbo della quiete",
                                 "count": 89,
-                                "value": "ordine"
+                                "value": "ordine-pubblico"
                             },
                             {
                                 "id": "green",
@@ -166,35 +155,31 @@
                                 "value": "strade"
                             }
                         ]
+                    },
+                    "contacts": {
+                        "contact_title": "fixcity::segnalazione.contacts.title.label",
+                        "contacts": [
+                            {
+                                "label": "fixcity::segnalazione.contacts.assistance.link.label",
+                                "url": "/it/tests/assistenza-01-dati"
+                            },
+                            {
+                                "label": "fixcity::segnalazione.contacts.phone.link.label",
+                                "url": "tel:050505"
+                            },
+                            {
+                                "label": "fixcity::segnalazione.contacts.appointment.link.label",
+                                "url": "/it/tests/appuntamento-01-ufficio"
+                            }
+                        ],
+                        "issues_title": "fixcity::segnalazione.contacts.issues.title.label",
+                        "issues": [
+                            {
+                                "label": "fixcity::segnalazione.contacts.issues.report.link.label",
+                                "url": "/it/tests/segnalazioni"
+                            }
+                        ]
                     }
-                }
-            },
-            {
-                "type": "contacts",
-                "data": {
-                    "view": "pub_theme::components.blocks.contacts.faq",
-                    "contact_title": "Contatta il comune",
-                    "contacts": [
-                        {
-                            "label": "Richiedi assistenza",
-                            "url": "/it/tests/assistenza-01-dati"
-                        },
-                        {
-                            "label": "Chiama il numero verde 05 0505",
-                            "url": "tel:050505"
-                        },
-                        {
-                            "label": "Prenota appuntamento",
-                            "url": "/it/tests/appuntamento-01-ufficio"
-                        }
-                    ],
-                    "issues_title": "Problemi in città",
-                    "issues": [
-                        {
-                            "label": "Segnala disservizio",
-                            "url": "/it/tests/segnalazioni"
-                        }
-                    ]
                 }
             }
         ],

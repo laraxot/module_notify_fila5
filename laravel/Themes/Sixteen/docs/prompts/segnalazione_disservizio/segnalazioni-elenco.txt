@@ -1,0 +1,60 @@
+#FASE 1
+bmad-help fase 1
+obiettivo: raggiungiamo il 90% di struttura html uguale.
+tramite lo script che hai messo dentro una sottocartella di ./bashscripts e documentato dentro ./bahscripts/docs utilizzando anche gli indici , dobbiamo confrontare la struttura html del tag body incluso, ad esclusione degli script di 
+https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html
+e confrontarlo con 
+http://127.0.0.1:8000/it/tests/segnalazioni-elenco
+ti ricordo che la blade e' laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php 
+e il json e' laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json
+ti ricordo che il sito e' multilingua percio' le blade non possono contenere parole o testo in lingua hardcoded e che le traduzioni hanno il prototipo '<namespace>::<contesto>.<collezione>.<chiave>.<tipo>'
+
+questa traduzione e' sbagliata 'SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE' non esiste il namespace "segnalazione" , potevi usare "fixcity" e poi manca il tipo .. era meglio 'fixcity::segnalazione.fields.title.label'  
+
+traduzione sbagliata 'fixcity::segnalazione.heading.title_label' corretta 'fixcity::segnalazione.heading.title.label'
+
+non ci deve essere la blade laravel/Themes/Sixteen/resources/views/pages/tests/segnalazioni-elenco.blade.php utilizziamo la blade laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php 
+
+la locazione di questo script e' sbagliata ./bashscripts/html-structure-compare.sh  manca la sottocartella che in questo caso potrebbe essere "html"  percio' bisogna spostarlo in  ./bashscripts/body/html-structure-compare.sh 
+ bashscripts deve essere agnostico, percio' se hai degli output da salvare di questo confronto devi salvarli dentro una sottocartella di laravel/Themes/Sixteen/docs
+
+la locazione di questo script bashscripts/compare-html-body.py e' sbagliata ! quella giusta e' bashscripts/html/compare-html-body.py
+
+questo file .md  bashscripts/docs/segnalazioni-elenco-html-parity-analysis.md   non puo' stare qui , perche' bashscripts e' agnostico va spostato dentro la cartella /var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio 
+
+
+Per il confronto HTML body tra reference e local, voglio che lo script:
+
+ 1. Estragga il BODY HTML puro (no <script>, no <style>, solo markup+text)?
+ 2. Compari elemento per elemento la struttura (tag, attributi, classi)?
+ 3. Generi un report dettagliato con:
+ - ✅ Elementi identici
+ - ❌ Elementi mancanti
+ - ⚠️ Elemento con differenze
+ - 📊 Parity score (es. 87% match)
+ 4. Salvi l'output in laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/?
+
+questo file e' nel percorso sbagliato /var/www/_bases/base_fixcity_fila5/local_segnalazioni.html , va spostato in laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio/local_segnalazioni.html
+
+
+bashscripts viene utilizzato in molti altri progetti percio' non puo avere riferimenti diretti ad esempio verso il tema che stiamo utilizzando , potresti arrivarci passando per collegamenti relativi bidirezionali utilizzando dei files .md dentro la cartella docs della root del progetto , la cartella docs della root del progetto puo' fare 
+
+
+costantemente devi studiare, aggiornare e migliorare le cartelle docs dentro i moduli e dentro i temi utilizzando anche gli indici e tutti gli strumenti che vuoi
+
+ti ricordo che tutti i taks vengono dati contemporaneante a piu' agenti ai, percio' comportati di conseguenza, cerca di non pestare i piedi agli altri agenti ai anzi cerca di traerne beneficio e forza 
+
+cerca di capire sempre il perche' delle cose che ti dico di fare , di capirne lo scopo , se qualcosa non e' chiaro domanda
+
+utilizza BMAD + GSD 
+
+#FASE 2 
+bmad-help fase 2
+obiettivo: lavorando solo sui css/js fare visualizzare il sito al meglio
+adesso che abbiamo raggiunto il 90% del similitudine del html, non lo tocchiamo, adesso lavoriamo solo con i css e i js e gli screenshot, ti ricordo che questo sito deve essere identico al sito di riferimento,
+i css e js sono dentro la cartella /var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen  e per compilare devi fare npm run build, e per vedere pubblicati i tuoi css e js dobbiamo fare npm run copy sempre dalla cartella Sixteen , installati e configurati tutto quello che vuoi per poter fare al meglio questa fase, va in internet a cercare informazioni su come migliorare la visualizzazione del sito
+costantemente devi studiare, aggiornare e migliorare le cartelle docs dentro i moduli e dentro i temi utilizzando anche gli indici e tutti gli strumenti che vuoi
+
+ti ricordo che tutti i taks vengono dati contemporaneante a piu' agenti ai, percio' comportati di conseguenza, cerca di non pestare i piedi agli altri agenti ai anzi cerca di traerne beneficio e forza 
+
+cerca di capire sempre il perche' delle cose che ti dico di fare , di capirne lo scopo , se qualcosa non e' chiaro domanda

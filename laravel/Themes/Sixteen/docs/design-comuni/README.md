@@ -66,6 +66,14 @@ All comparison screenshots are in the `screenshots/` subdirectory:
 - [Design Comuni Block Analysis](../../../../_bmad-output/design-comuni-block-analysis.md)
 - [Design Comuni PRD](../../../../_bmad-output/design-comuni-prd.md)
 
+### HTML Structure Comparison Tools
+- [bashscripts/html/README.md](../../../bashscripts/html/README.md) — Tool documentation for compare-html-body.py and html-structure-compare.sh
+- [bashscripts/body/](../../../bashscripts/body/) — Bash orchestrator scripts (html-structure-compare.sh, compare-segnalazioni-elenco.sh)
+- [Body Structure Comparison Output](../body-structure-comparison/) — Generated reports and parity scores
+- [Segnalazioni Elenco Report](../body-structure-comparison/segnalazioni-elenco/report.md) — Structured diff output with BLOCK/FLAG/WARN severity
+- [Segnalazioni Elenco Parity Score](../body-structure-comparison/segnalazioni-elenco/parity-score.md) — Score card tracking parity over runs
+- [Segnalazioni Elenco Analysis](../prompts/segnalazione_disservizio/segnalazioni-elenco-html-parity-analysis.md) — Phase 1 parity summary (90%+ structural)
+
 ## Progress Status
 
 ### Completed ✓
