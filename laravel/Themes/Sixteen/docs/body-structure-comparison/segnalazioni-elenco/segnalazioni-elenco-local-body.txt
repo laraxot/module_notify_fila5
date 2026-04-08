@@ -976,6 +976,22 @@ Prenota appuntamento
 </a>
 </li>
 </ul>
+<h2 class="title-medium-2-semi-bold mb-3">
+Segnala un disservizio
+</h2>
+<ul class="contact-list p-0">
+<li>
+<a class="list-item" href="/it/tests/segnalazioni">
+<svg class="icon icon-primary icon-sm" aria-hidden="true">
+<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-warning-circle">
+</use>
+</svg>
+<span>
+Segnala un problema
+</span>
+</a>
+</li>
+</ul>
 </div>
 </div>
 </div>

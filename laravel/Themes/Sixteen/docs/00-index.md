@@ -43,14 +43,18 @@
 - [design-comuni/segnalazione-comparison-analysis.md](./segnalazione-comparison-analysis.md) - Earlier parity analysis report
 
 ### HTML Structure Comparison Tools
-- [body-structure-comparison/segnalazioni-elenco/README.md](./body-structure-comparison/segnalazioni-elenco/README.md) — Latest comparison report (28.9% parity)
-- [body-structure-comparison/segnalazioni-elenco/report.md](./body-structure-comparison/segnalazioni-elenco/report.md) — Structured diff output (BLOCK/FLAG/WARN severity)
-- [body-structure-comparison/segnalazioni-elenco/summary.json](./body-structure-comparison/segnalazioni-elenco/summary.json) — Score summary JSON
-- [body-structure-comparison/segnalazioni-elenco/parity-score.md](./body-structure-comparison/segnalazioni-elenco/parity-score.md) — Score card tracking parity over time
-- [bashscripts/html/README.md](../../../bashscripts/html/README.md) — Tool documentation (compare-html-body.py, html-structure-compare.sh)
-- [bashscripts/body/](../../../bashscripts/body/) — Bash orchestrator scripts for comparison runs
-- [bashscripts/maintenance/disk-space-cleanup.sh](../../../bashscripts/maintenance/disk-space-cleanup.sh) — Disk space cleanup tool
-- [prompts/segnalazione_disservizio/segnalazioni-elenco-html-parity-analysis.md](./prompts/segnalazione_disservizio/segnalazioni-elenco-html-parity-analysis.md) — Analysis summary for segnalazioni-elenco
+- [body-structure-comparison/segnalazioni-elenco/report.md](./body-structure-comparison/segnalazioni-elenco/report.md) — Latest comparison report (**77.8% parity**, 2026-04-08)
+- [body-structure-comparison/segnalazioni-elenco/diff_details.json](./body-structure-comparison/segnalazioni-elenco/diff_details.json) — Structured diff details (JSON)
+- [prompts/tests/reference_segnalazioni-elenco.html](./prompts/tests/reference_segnalazioni-elenco.html) — Reference HTML source
+- [prompts/tests/local_segnalazioni-elenco.html](./prompts/tests/local_segnalazioni-elenco.html) — Local HTML source
+- [prompts/tests/local_segnalazioni.html](./prompts/tests/local_segnalazioni.html) — Earlier local HTML snapshot
+- [bashscripts/html/README.md](../../../bashscripts/html/README.md) — Tool documentation
+- [bashscripts/html/html-structure-compare.sh](../../../bashscripts/html/html-structure-compare.sh) — Shell wrapper (usage: `./html-structure-compare.sh <page_name>`)
+- [bashscripts/html/compare-html-body.py](../../../bashscripts/html/compare-html-body.py) — Python comparison engine
+
+### Translations
+- [../../Modules/Fixcity/lang/it/segnalazione.php](../../Modules/Fixcity/lang/it/segnalazione.php) — Italian translations for segnalazione pages
+- [../../Modules/Fixcity/lang/en/segnalazione.php](../../Modules/Fixcity/lang/en/segnalazione.php) — English translations for segnalazione pages
 
 ### Theme implementation entrypoints
 - `resources/css/app.css` - Primary CSS entrypoint for visual parity overrides

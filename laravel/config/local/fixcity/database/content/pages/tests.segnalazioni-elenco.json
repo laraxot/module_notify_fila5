@@ -48,41 +48,23 @@
                         {
                             "title": "Buca in via Solferino",
                             "type": "Verde pubblico e arredo urbano",
-                            "status": "In lavorazione",
-                            "date": "15/03/2026",
-                            "location": "Via Solferino, 12 - 50100 Firenze",
-                            "description": "Sulla strada c'è una buca piuttosto profonda che andrebbe sistemata con urgenza",
-                            "images": [
-                                "../assets/images/image-disservizio.png",
-                                "../assets/images/image-disservizio.png",
-                                "../assets/images/image-disservizio.png"
-                            ],
-                            "edit_url": "#"
+                            "location": "Via Solferino, 15",
+                            "description": "Segnalazione di una buca in via Solferino",
+                            "images": []
                         },
                         {
                             "title": "Lampione non funzionante",
                             "type": "Illuminazione pubblica",
-                            "status": "Completata",
-                            "date": "10/03/2026",
-                            "location": "Piazza Roma, 5 - 50100 Firenze",
-                            "description": "Il lampione in piazza Roma non funziona da diversi giorni",
-                            "images": [
-                                "../assets/images/image-disservizio.png"
-                            ],
-                            "edit_url": "#"
+                            "location": "Piazza Garibaldi, 3",
+                            "description": "Lampione non funzionante in piazza",
+                            "images": []
                         },
                         {
                             "title": "Rifiuti abbandonati",
-                            "type": "Igiene urbana, rifiuti, pulizia e decoro",
-                            "status": "In lavorazione",
-                            "date": "05/03/2026",
-                            "location": "Via Garibaldi, 28 - 50100 Firenze",
-                            "description": "Rifiuti abbandonati sul marciapiede che creano degrado",
-                            "images": [
-                                "../assets/images/image-disservizio.png",
-                                "../assets/images/image-disservizio.png"
-                            ],
-                            "edit_url": "#"
+                            "type": "Igiene urbana e rifiuti",
+                            "location": "Via Roma, 45",
+                            "description": "Rifiuti abbandonati sul marciapiede",
+                            "images": []
                         }
                     ],
                     "filters": {
@@ -184,7 +166,12 @@
                                 "data_element": "appointment-booking"
                             }
                         ],
-                        "issues": []
+                        "issues": [
+                            {
+                                "label": "fixcity::segnalazione.contacts.issues.report.link.label",
+                                "url": "/it/tests/segnalazioni"
+                            }
+                        ]
                     }
                 }
             }

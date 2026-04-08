@@ -60,7 +60,7 @@ ENG
 <a class="btn btn-primary btn-icon btn-full" href="../servizi/accesso-servizio.html" data-element="personal-area-login">
 <span class="rounded-icon" aria-hidden="true">
 <svg class="icon icon-primary">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-user">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-user">
 </use>
 </svg>
 </span>
@@ -83,7 +83,7 @@ Accedi all'area personale
 <div class="it-brand-wrapper">
 <a href="homepage.html">
 <svg width="82" height="82" class="icon" aria-hidden="true">
-<image xlink:href="../assets/images/logo-comune.svg">
+<image href="../assets/images/logo-comune.svg">
 </image>
 </svg>
 <div class="it-brand-text">
@@ -105,7 +105,7 @@ Seguici su
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -116,7 +116,7 @@ Twitter
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -127,7 +127,7 @@ Facebook
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -138,7 +138,7 @@ YouTube
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -149,7 +149,7 @@ Telegram
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -160,7 +160,7 @@ Whatsapp
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -278,7 +278,7 @@ Polizia locale
 <span>
 Tutti gli argomenti
 <svg class="icon icon-sm">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right">
 </use>
 </svg>
 </span>
@@ -294,7 +294,7 @@ Seguici su
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -305,7 +305,7 @@ Twitter
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -316,7 +316,7 @@ Facebook
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -327,7 +327,7 @@ YouTube
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -338,7 +338,7 @@ Telegram
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -349,7 +349,7 @@ Whatsapp
 <li>
 <a href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -1354,7 +1354,7 @@ Voucher connettività
 <div class="it-brand-wrapper">
 <a href="#">
 <svg class="icon" aria-hidden="true">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-pa">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-pa">
 </use>
 </svg>
 <div class="it-brand-text">
@@ -1621,7 +1621,7 @@ Seguici su
 <li class="list-inline-item">
 <a class="p-1 text-white" href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -1632,7 +1632,7 @@ Twitter
 <li class="list-inline-item">
 <a class="p-1 text-white" href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -1643,7 +1643,7 @@ Facebook
 <li class="list-inline-item">
 <a class="p-1 text-white" href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -1654,7 +1654,7 @@ YouTube
 <li class="list-inline-item">
 <a class="p-1 text-white" href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -1665,7 +1665,7 @@ Telegram
 <li class="list-inline-item">
 <a class="p-1 text-white" href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp">
 </use>
 </svg>
 <span class="visually-hidden">
@@ -1676,7 +1676,7 @@ Whatsapp
 <li class="list-inline-item">
 <a class="p-1 text-white" href="#" target="_blank">
 <svg class="icon icon-sm icon-white align-top">
-<use xlink:href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss">
+<use href="../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss">
 </use>
 </svg>
 <span class="visually-hidden">

@@ -209,11 +209,11 @@
                         <div class="col-12">
                             <div class="map-box">
                                 <img src="/themes/Sixteen/design-comuni/assets/images/map-placeholder.svg"
-                                    alt="{{ __($ns . '.map.image.alt') }}" class="w-100">
+                                    alt="Mappa" class="w-100">
                                 <button type="button" class="pin" data-bs-toggle="modal"
                                     data-bs-target="#modal-disservizio">
                                     <img src="/themes/Sixteen/design-comuni/assets/images/map-pin.svg"
-                                        alt="{{ __($ns . '.map.pin.alt') }}" title="{{ __($ns . '.map.pin.alt') }}">
+                                        alt="Pin di geolocalizzazione" title="Pin di geolocalizzazione">
                                 </button>
                             </div>
                         </div>
@@ -228,7 +228,7 @@
                                         <button type="button" data-bs-toggle="modal"
                                             data-bs-target="#modal-disservizio"
                                             class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
-                                            <span>{{ $cta['button_text'] }}</span>
+                                            <span class>{{ $cta['button_text'] }}</span>
                                         </button>
                                     </div>
                                 </div>
@@ -363,24 +363,42 @@
                 <div class="row d-flex justify-content-center bg-primary">
                     <div class="col-12 col-lg-6 p-lg-0 px-3">
                         <div class="cmp-rating pt-lg-80 pb-lg-80" id="rating">
-                            <div class="card shadow card-wrapper">
-                                <div class="card-header border-0">
-                                    <h2 class="title-medium-2-semi-bold mb-0">{{ __($ns . '.rating.question.text') }}</h2>
-                                </div>
-                                <div class="card-body">
-                                    <fieldset class="rating">
-                                        <legend class="visually-hidden">{{ __($ns . '.rating.legend.text') }}</legend>
-                                        @for ($i = 5; $i >= 1; $i--)
-                                            <input type="radio" id="star{{ $i }}a" name="ratingA"
-                                                value="{{ $i }}">
-                                            <label class="full rating-star" for="star{{ $i }}a">
-                                                <svg class="icon icon-sm" viewBox="0 0 24 24">
-                                                    <path
-                                                        d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z" />
-                                                </svg>
-                                            </label>
-                                        @endfor
-                                    </fieldset>
+                            <div class="card shadow card-wrapper" data-element="feedback">
+                                <div class="cmp-rating__card-first">
+                                    <div class="card-header border-0">
+                                        <h2 class="title-medium-2-semi-bold mb-0" data-element="feedback-title">{{ __($ns . '.rating.question.text') }}</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <fieldset class="rating">
+                                            <legend class="visually-hidden">{{ __($ns . '.rating.legend.text') }}</legend>
+                                            @php
+                                                $starLabels = [
+                                                    5 => 'Valuta 5 stelle su 5',
+                                                    4 => 'Valuta 4 stelle su 5',
+                                                    3 => 'Valuta 3 stelle su 5',
+                                                    2 => 'Valuta 2 stelle su 5',
+                                                    1 => 'Valuta 1 stelle su 5',
+                                                ];
+                                                $starIds = [
+                                                    5 => 'first-star',
+                                                    4 => 'second-star',
+                                                    3 => 'third-star',
+                                                    2 => 'fourth-star',
+                                                    1 => 'fifth-star',
+                                                ];
+                                            @endphp
+                                            @for ($i = 5; $i >= 1; $i--)
+                                                <input type="radio" id="star{{ $i }}a" name="ratingA" value="{{ $i }}">
+                                                <label class="full rating-star active" for="star{{ $i }}a" data-element="feedback-rate-{{ $i }}">
+                                                    <svg class="icon icon-sm" role="img" aria-labelledby="{{ $starIds[$i] }}" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    </svg>
+                                                    <span class="visually-hidden" id="{{ $starIds[$i] }}">{{ $starLabels[$i] }}</span>
+                                                </label>
+                                            @endfor
+                                        </fieldset>
+                                    </div>
                                 </div>
                             </div>
                         </div>
