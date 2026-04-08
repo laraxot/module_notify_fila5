@@ -1,17 +1,17 @@
-# HTML Body Structure Comparison — segnalazioni-elenco
+# HTML Body Structure Comparison — comparison
 
-- Data: 2026-04-08 12:29:44
+- Data: 2026-04-08 12:58:21
 - Reference: `https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html`
 - Local: `http://127.0.0.1:8000/it/tests/segnalazioni-elenco`
 - Soglia obiettivo: 90%
-- Parity score: **75.8%**
+- Parity score: **75.6%**
 
 ## Sommario
-- ✅ Elementi identici: 546
-- 🛈 Elementi quasi uguali (solo testo/attributi non strutturali): 42
-- ❌ Elementi mancanti: 7
-- ⚠️ Elementi con differenze strutturali: 6
-- ➕ Elementi extra locali: 8
+- ✅ Elementi identici: 540
+- 🛈 Elementi quasi uguali (solo testo/attributi non strutturali): 47
+- ❌ Elementi mancanti: 9
+- ⚠️ Elementi con differenze strutturali: 5
+- ➕ Elementi extra locali: 3
 
 ## ✅ Elementi identici
 - ✅ `document/body[1]/div[1]` — <div> identical
@@ -237,9 +237,13 @@
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[1]/fieldset[1]/div[1]/ul[1]/li[7]/div[1]/div[1]/label[1]` — text differs
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[1]/button[1]/span[1]/svg[1]/use[1]` — other attributes differ
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/button[1]/span[1]` — other attributes differ
+- 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]` — text differs
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]/svg[1]/use[1]` — other attributes differ
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/p[1]` — text differs
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/p[1]` — text differs
+- 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]` — other attributes differ
+- 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[2]/img[1]` — other attributes differ
+- 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[3]/img[1]` — other attributes differ
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]` — text differs
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]` — text differs
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]/svg[1]/use[1]` — other attributes differ
@@ -250,6 +254,7 @@
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]/svg[1]/use[1]` — other attributes differ
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/p[1]` — text differs
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/p[1]` — text differs
+- 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]` — other attributes differ
 - 🛈 `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/button[1]/span[1]` — other attributes differ
 - 🛈 `document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]/use[1]` — other attributes differ
 - 🛈 `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[1]/a[1]/svg[1]/use[1]` — other attributes differ
@@ -260,6 +265,8 @@
 - 🛈 `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[6]/a[1]/svg[1]/use[1]` — other attributes differ
 
 ## ❌ Elementi mancanti
+- ❌ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/br[1]` — missing local element <br>
+- ❌ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]` — missing local element <span>
 - ❌ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[2]` — missing local element <div>
 - ❌ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[3]` — missing local element <div>
 - ❌ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[3]` — missing local element <div>
@@ -269,19 +276,13 @@
 - ❌ `document/body[1]/main[1]/div[4]` — missing local element <div>
 
 ## ⚠️ Elementi con differenze strutturali
+- ⚠️ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/button[1]` — classes differ: ref=['btn', 'btn', 'btn-primary', 'mb-4', 'mb-lg-0', 'mobile-full', 'mt-2', 'py-3'] local=['btn', 'btn', 'btn-full', 'btn-primary', 'mb-4', 'mb-lg-0', 'mobile-full', 'mt-2', 'py-3']; other attributes differ
 - ⚠️ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]` — classes differ: ref=['accordion-collapse', 'collapse', 'pb-0'] local=['accordion-collapse', 'collapse']; other attributes differ
-- ⚠️ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]` — classes differ: ref=['img-fluid', 'mb-3', 'mb-lg-0', 'w-100'] local=['img-fluid', 'w-100']; other attributes differ
-- ⚠️ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[2]/img[1]` — classes differ: ref=['img-fluid', 'mb-3', 'mb-lg-0', 'w-100'] local=['img-fluid', 'w-100']; other attributes differ
 - ⚠️ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]` — classes differ: ref=['img-fluid', 'mb-3', 'mb-lg-0', 'w-100'] local=['img-fluid', 'w-100']; other attributes differ
-- ⚠️ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]` — classes differ: ref=['img-fluid', 'mb-3', 'mb-lg-0', 'w-100'] local=['img-fluid', 'w-100']; other attributes differ
 - ⚠️ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[2]/img[1]` — classes differ: ref=['img-fluid', 'mb-3', 'mb-lg-0', 'w-100'] local=['img-fluid', 'w-100']; other attributes differ
+- ⚠️ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/button[1]` — classes differ: ref=['btn', 'btn', 'btn-outline-primary', 'mobile-full', 'mt-10', 'mx-auto', 'py-3'] local=['btn', 'btn', 'btn-full', 'btn-outline-primary', 'mobile-full', 'mt-10', 'mx-auto', 'py-3']; other attributes differ
 
 ## ➕ Elementi extra locali
-- ➕ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/br[1]` — extra local element <br>
-- ➕ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]` — extra local element <span>
-- ➕ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/br[1]` — extra local element <br>
-- ➕ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]` — extra local element <span>
-- ➕ `document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[3]` — extra local element <div>
 - ➕ `document/body[1]/main[1]/div[1]/div[3]` — extra local element <div>
 - ➕ `document/body[1]/main[1]/div[1]/div[4]` — extra local element <div>
 - ➕ `document/body[1]/main[1]/div[1]/div[5]` — extra local element <div>

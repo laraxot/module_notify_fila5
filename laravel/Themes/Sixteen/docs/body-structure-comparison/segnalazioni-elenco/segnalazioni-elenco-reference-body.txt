@@ -3,8 +3,7 @@
 Vai ai contenuti
 </a>
 <a class="visually-hidden-focusable" href="#footer">
-Vai al
-        footer
+Vai al footer
 </a>
 </div>
 <header class="it-header-wrapper" data-bs-target="#header-nav-wrapper" style>
@@ -575,8 +574,7 @@ Fai una segnalazione
 </h2>
 <div class="text-wrapper">
 <p class="subtitle-small mb-3 mt-3">
-Se vuoi aggiungere una segnalazione, puoi farlo dopo esserti autenticato con le tue
-                    credenziali SPID o CIE.
+Se vuoi aggiungere una segnalazione, puoi farlo dopo esserti autenticato con le tue credenziali SPID o CIE.
 </p>
 </div>
 <div class="button-wrapper">
@@ -648,7 +646,7 @@ Dettaglio
 </div>
 <div class="border-light">
 <p class="data-text">
-Sulla strada c’è una buca piuttosto profonda che andrebbe  sistemata con urgenza
+Sulla strada c’è una buca piuttosto profonda che andrebbe sistemata con urgenza
 </p>
 </div>
 </div>
@@ -736,7 +734,7 @@ Dettaglio
 </div>
 <div class="border-light">
 <p class="data-text">
-Sulla strada c’è una buca piuttosto profonda che andrebbe  sistemata con urgenza
+Sulla strada c’è una buca piuttosto profonda che andrebbe sistemata con urgenza
 </p>
 </div>
 </div>
@@ -824,7 +822,7 @@ Dettaglio
 </div>
 <div class="border-light">
 <p class="data-text">
-Sulla strada c’è una buca piuttosto profonda che andrebbe  sistemata con urgenza
+Sulla strada c’è una buca piuttosto profonda che andrebbe sistemata con urgenza
 </p>
 </div>
 </div>
@@ -875,8 +873,7 @@ Fai una segnalazione
 </h2>
 <div class="text-wrapper">
 <p class="subtitle-small mb-3 mt-3">
-Se vuoi aggiungere una segnalazione, puoi farlo dopo esserti autenticato con le tue
-                    credenziali SPID o CIE.
+Se vuoi aggiungere una segnalazione, puoi farlo dopo esserti autenticato con le tue credenziali SPID o CIE.
 </p>
 </div>
 <div class="button-wrapper">
@@ -976,8 +973,7 @@ Valuta 1 stelle su 5
 <div class="cmp-rating__card-second d-none" data-step="3">
 <div class="card-header border-0 mb-0">
 <h2 class="title-medium-2-bold mb-0" id="rating-feedback">
-Grazie, il tuo parere ci aiuterà a migliorare il
-                        servizio!
+Grazie, il tuo parere ci aiuterà a migliorare il servizio!
 </h2>
 </div>
 </div>
@@ -1240,7 +1236,7 @@ Via Solferino - 50100 Firenze
 Dettaglio
 </h3>
 <p class="subtitle-small pb-2">
-Sulla strada c’è una buca piuttosto profonda che andrebbe  sistemata con urgenza
+Sulla strada c’è una buca piuttosto profonda che andrebbe sistemata con urgenza
 </p>
 </div>
 <h3 class="title-xsmall border-light pt-2">

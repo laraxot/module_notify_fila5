@@ -20,10 +20,26 @@
 
 ### Differenze Rilevanti (da fixare per 90%)
 
-1. **Classe `btn-full`** - applicata ai bottoni (FIXED)
+1. **Classe `btn-full`** - applicata ai bottoni ✅ FIXED nel blade
 2. **Classe `pb-0`** - su accordion-collapse (già presente nel local)
-3. **Contenuti condizionali** - extra `<br>` e `<span>` nel local
-4. **Sezioni mancanti** - div extra nel reference dopo content
+3. **Extra elements**: `<br>` e `<span>` extra nel local - non bloccante
+4. **Struttura HTML**: Differenza nel nesting delle card tra ref e local
+5. **local-body.html NON aggiornato** - i fix non sono riflessi nel file catturato
+
+### Analisi Dettagliata
+
+| Problema | Severity | Status |
+|----------|----------|--------|
+| `btn-full` mancante | Alta | ✅ Fixed in blade, da verificare |
+| Extra `<br>`/`<span>` | Bassa | Accettabile |
+| Empty `<div>` wrapper | Media | Render artifact |
+| Struttura card | Media | Layout difference |
+
+### ⚠️Nota Importante
+
+Il file `local-body.html` è stato catturato **prima** dei fix btn-full. Per misurare il progresso reale:
+- Rigenerare local-body.html dal server locale
+- O confrontare direttamente i file blade
 
 ### Critical IDs: 8/8 ✅
 

@@ -46,7 +46,15 @@ con git andiamo solo in avanti ! non ripristiniamo mai vecchie versioni, certo p
 
 non fare git commit a caso lo fai solo quando hai finito una fase intera 
 
-costantemente devi studiare, aggiornare e migliorare le cartelle docs dentro i moduli e dentro i temi utilizzando anche gli indici e tutti gli strumenti che vuoi
+ il blocco "Contatta il comune" di https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html e' troppo diverso da
+  127.0.0.1:8000/it/tests/segnalazioni-elenco , sto parlando del html
+
+
+
+
+costantemente devi studiare, aggiornare e migliorare le cartelle docs dentro i moduli e dentro i temi, le tue rules, le tue memories, le tue skills utilizzando anche gli indici e tutti gli strumenti che vuoi
+
+cerca sempre di imparare e di migliorare, non fermarti mai
 
 ti ricordo che tutti i taks vengono dati contemporaneante a piu' agenti ai, percio' comportati di conseguenza, cerca di non pestare i piedi agli altri agenti ai anzi cerca di traerne beneficio e forza 
 

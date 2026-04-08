@@ -85,6 +85,8 @@
                     fn($c) => [
                         'label' => $t($c['label'] ?? ''),
                         'url' => $c['url'] ?? '#',
+                        'icon' => $c['icon'] ?? 'it-help-circle',
+                        'data_element' => $c['data_element'] ?? null,
                     ],
                 )
                 ->toArray(),
@@ -225,7 +227,7 @@
                                     <div class="button-wrapper">
                                         <button type="button" data-bs-toggle="modal"
                                             data-bs-target="#modal-disservizio"
-                                            class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
+                                            class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0 btn-full">
                                             <span>{{ $cta['button_text'] }}</span>
                                         </button>
                                     </div>
@@ -248,7 +250,7 @@
                                                 <div class="card-body p-0">
                                                     <h3 class="medium-title mb-0">{{ $item['title'] ?? '' }}</h3>
                                                     <p class="card-info">
-                                                        {{ __($ns . '.card.type.label') }}<br><span>{{ $item['type'] ?? '' }}</span>
+                                                        {{ __($ns . '.card.type.label') }} {{ $item['type'] ?? '' }}
                                                     </p>
 
                                                     <div class="accordion-item">
@@ -268,7 +270,7 @@
                                                             </button>
                                                         </div>
                                                         <div id="collapse{{ $loop->iteration }}"
-                                                            class="accordion-collapse collapse pb-0" role="region">
+                                                            class="accordion-collapse collapse" role="region">
                                                             <div class="accordion-body p-0">
                                                                 <div class="cmp-info-summary bg-white border-0">
                                                                     <div class="card">
@@ -319,7 +321,7 @@
                                                                                                 <div>
                                                                                             <img src="{{ $img }}"
                                         alt="{{ __($ns . '.card.images.alt') }}"
-                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                        class="img-fluid w-100 @if (!$loop->last) mb-3 mb-lg-0 @endif">
                                                                                                 </div>
                                                                                             @endforeach
                                                                                         </div>
@@ -342,24 +344,11 @@
                         @endforeach
                     </div>
                     <div class="col-12 text-center">
-                        <button type="button" class="btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto">
+                        <button type="button" class="btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto btn-full">
                             <span>{{ __($ns . '.load-more.button.label') }}</span>
                         </button>
                     </div>
                 </div>
-                    <div class="col-lg-6 mt-50 mb-4 mb-lg-0">
-                        <div class="cmp-text-button mt-0">
-                            <h2 class="title-xxlarge mb-0">{{ __($ns . '.cta.title.label') }}</h2>
-                            <div class="text-wrapper">
-                                <p class="subtitle-small mb-3 mt-3">{{ __($ns . '.cta.text.label') }}</p>
-                            </div>
-                            <div class="button-wrapper">
-                                <button type="button" data-bs-toggle="modal" data-bs-target="#modal-disservizio" class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
-                                    <span>{{ __($ns . '.cta.button.label') }}</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
             </div>
         </div>
     </div>
@@ -396,63 +385,74 @@
             </div>
         </div>
 
-        {{-- Contacts Section --}}
-        @if (!empty($contacts))
-            <div class="bg-grey-card shadow-contacts">
-                <div class="container">
-                    <div class="row d-flex justify-content-center p-contacts">
-                        <div class="col-12 col-lg-5">
-                            <h2 class="title-medium-2-semi-bold mb-3">{{ $contacts['contact_title'] }}</h2>
-                            <ul class="link-list">
-                                @foreach ($contacts['contacts'] as $contact)
-                                    <li><a class="list-item" href="{{ $contact['url'] }}">{{ $contact['label'] }}</a></li>
-                                @endforeach
-                            </ul>
-                            @if (!empty($contacts['issues']))
-                                <h2 class="title-medium-2-semi-bold mb-3 mt-4">{{ $contacts['issues_title'] }}</h2>
-                                <ul class="link-list">
-                                    @foreach ($contacts['issues'] as $issue)
-                                        <li><a class="list-item" href="{{ $issue['url'] }}">{{ $issue['label'] }}</a></li>
+{{-- Contacts Section --}}
+@if (!empty($contacts))
+    <div class="bg-grey-card shadow-contacts">
+        <div class="container">
+            <div class="row d-flex justify-content-center p-contacts">
+                <div class="col-12 col-lg-5">
+                    <div class="cmp-contacts">
+                        <div class="card w-100">
+                            <div class="card-body">
+                                <h2 class="title-medium-2-semi-bold">{{ $contacts['contact_title'] }}</h2>
+                                <ul class="contact-list p-0">
+                                    @foreach ($contacts['contacts'] as $contact)
+                                        @php
+                                            $icon = $contact['icon'] ?? 'it-help-circle';
+                                            $dataElement = $contact['data_element'] ?? null;
+                                        @endphp
+                                        <li>
+                                            <a class="list-item" href="{{ $contact['url'] }}"@if($dataElement) data-element="{{ $dataElement }}"@endif>
+                                                <svg class="icon icon-primary icon-sm" aria-hidden="true">
+                                                    <use href="{{ $sprite }}#{{ $icon }}"></use>
+                                                </svg>
+                                                <span>{{ $contact['label'] }}</span>
+                                            </a>
+                                        </li>
                                     @endforeach
                                 </ul>
-                            @endif
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        @endif
+        </div>
+    </div>
+@endif
+
 @if (!empty($filters['items']))
-    <div class="modal fade" id="modal-categories" tabindex="-1" role="dialog"
-        aria-labelledby="modal-categories-label" aria-hidden="true">
     <div class="it-example-modal">
-        <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title h4" id="modal-categories-label">{{ $filters['title'] }}</h2>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                        aria-label="{{ __($ns . '.modal.close.label') }}"></button>
-                </div>
-                <div class="modal-body">
-                    <fieldset>
-                        <div class="categoy-list pb-4">
-                            <ul>
-                                @foreach ($filters['items'] as $filter)
-                                    <li>
-                                        <div class="form-check">
-                                            <div class="checkbox-body border-light py-1">
-                                                <input type="checkbox" id="mobile-{{ $filter['id'] }}"
-                                                    name="category" value="{{ $filter['value'] ?? '' }}">
-                                                <label for="mobile-{{ $filter['id'] }}"
-                                                    class="subtitle-small_semi-bold mb-0 category-list__list">{{ $filter['label'] }}
-                                                    ({{ $filter['count'] ?? 0 }})
-                                                </label>
+        <div class="modal fade" id="modal-categories" tabindex="-1" role="dialog"
+            aria-labelledby="modal-categories-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title h4" id="modal-categories-label">{{ $filters['title'] }}</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="{{ __($ns . '.modal.close.label') }}"></button>
+                    </div>
+                    <div class="modal-body">
+                        <fieldset>
+                            <div class="categoy-list pb-4">
+                                <ul>
+                                    @foreach ($filters['items'] as $filter)
+                                        <li>
+                                            <div class="form-check">
+                                                <div class="checkbox-body border-light py-1">
+                                                    <input type="checkbox" id="mobile-{{ $filter['id'] }}"
+                                                        name="category" value="{{ $filter['value'] ?? '' }}">
+                                                    <label for="mobile-{{ $filter['id'] }}"
+                                                        class="subtitle-small_semi-bold mb-0 category-list__list">
+                                                        {{ $filter['label'] }} ({{ $filter['count'] ?? 0 }})
+                                                    </label>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    </fieldset>
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        </fieldset>
+                    </div>
                 </div>
             </div>
         </div>

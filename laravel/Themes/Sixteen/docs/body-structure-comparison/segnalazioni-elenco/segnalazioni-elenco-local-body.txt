@@ -413,8 +413,7 @@ categoria
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="water" name="category" value="acqua,allagamenti,fogne">
 <label for="water" class="subtitle-small_semi-bold mb-0 category-list__list">
-Acqua, allagamenti, problemi fognari
-                                                (21)
+Acqua, allagamenti, problemi fognari (21)
 </label>
 </div>
 </div>
@@ -424,8 +423,7 @@ Acqua, allagamenti, problemi fognari
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="enviroment" name="category" value="inquinamento">
 <label for="enviroment" class="subtitle-small_semi-bold mb-0 category-list__list">
-Ambiente, inquinamento, protezione ambientale
-                                                (14)
+Ambiente, inquinamento, protezione ambientale (14)
 </label>
 </div>
 </div>
@@ -435,8 +433,7 @@ Ambiente, inquinamento, protezione ambientale
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="street-furniture" name="category" value="arredo-urbano">
 <label for="street-furniture" class="subtitle-small_semi-bold mb-0 category-list__list">
-Arredo urbano
-                                                (7)
+Arredo urbano (7)
 </label>
 </div>
 </div>
@@ -446,8 +443,7 @@ Arredo urbano
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="rodent-control" name="category" value="derattizazione">
 <label for="rodent-control" class="subtitle-small_semi-bold mb-0 category-list__list">
-Disinfestazione, derattizazione, animali randagi
-                                                (208)
+Disinfestazione, derattizazione, animali randagi (208)
 </label>
 </div>
 </div>
@@ -457,8 +453,7 @@ Disinfestazione, derattizazione, animali randagi
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="waste" name="category" value="igiene">
 <label for="waste" class="subtitle-small_semi-bold mb-0 category-list__list">
-Igiene urbana, rifiuti, pulizia e decoro
-                                                (321)
+Igiene urbana, rifiuti, pulizia e decoro (321)
 </label>
 </div>
 </div>
@@ -468,8 +463,7 @@ Igiene urbana, rifiuti, pulizia e decoro
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="maintenance" name="category" value="manutenzione">
 <label for="maintenance" class="subtitle-small_semi-bold mb-0 category-list__list">
-Manutenzione immobili, edifici pubblici, scuole, barriere architettoniche, cimiteri
-                                                (302)
+Manutenzione immobili, edifici pubblici, scuole, barriere architettoniche, cimiteri (302)
 </label>
 </div>
 </div>
@@ -479,8 +473,7 @@ Manutenzione immobili, edifici pubblici, scuole, barriere architettoniche, cimit
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="public-order" name="category" value="ordine-pubblico">
 <label for="public-order" class="subtitle-small_semi-bold mb-0 category-list__list">
-Ordine pubblico, disturbo della quiete
-                                                (89)
+Ordine pubblico, disturbo della quiete (89)
 </label>
 </div>
 </div>
@@ -490,8 +483,7 @@ Ordine pubblico, disturbo della quiete
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="green" name="category" value="parchi">
 <label for="green" class="subtitle-small_semi-bold mb-0 category-list__list">
-Parchi e verde pubblico
-                                                (302)
+Parchi e verde pubblico (302)
 </label>
 </div>
 </div>
@@ -501,8 +493,7 @@ Parchi e verde pubblico
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="service" name="category" value="servizi">
 <label for="service" class="subtitle-small_semi-bold mb-0 category-list__list">
-Servizi del comune
-                                                (302)
+Servizi del comune (302)
 </label>
 </div>
 </div>
@@ -512,8 +503,7 @@ Servizi del comune
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="security" name="category" value="sicurezza">
 <label for="security" class="subtitle-small_semi-bold mb-0 category-list__list">
-Sicurezza, degrado urbano e sociale
-                                                (302)
+Sicurezza, degrado urbano e sociale (302)
 </label>
 </div>
 </div>
@@ -523,8 +513,7 @@ Sicurezza, degrado urbano e sociale
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="road" name="category" value="strade">
 <label for="road" class="subtitle-small_semi-bold mb-0 category-list__list">
-Strade, marciapiedi, segnaletica e viabilità
-                                                (302)
+Strade, marciapiedi, segnaletica e viabilità (302)
 </label>
 </div>
 </div>
@@ -589,7 +578,7 @@ Se vuoi aggiungere una segnalazione, puoi farlo dopo esserti autenticato con le 
 </p>
 </div>
 <div class="button-wrapper">
-<button type="button" data-bs-toggle="modal" data-bs-target="#modal-disservizio" class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
+<button type="button" data-bs-toggle="modal" data-bs-target="#modal-disservizio" class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0 btn-full">
 <span>
 Segnala disservizio
 </span>
@@ -611,11 +600,7 @@ Segnala disservizio
 Buca in via Solferino
 </h3>
 <p class="card-info">
-Tipologia di segnalazione
-<br>
-<span>
-Verde pubblico e arredo urbano
-</span>
+Tipologia di segnalazione Verde pubblico e arredo urbano
 </p>
 <div class="accordion-item">
 <div class="accordion-header">
@@ -668,13 +653,13 @@ Immagini
 <div class="border-light border-0">
 <div class="d-lg-flex gap-2 mt-3">
 <div>
-<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100  mb-3 mb-lg-0 ">
 </div>
 <div>
-<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100  mb-3 mb-lg-0 ">
 </div>
 <div>
-<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 ">
 </div>
 </div>
 </div>
@@ -703,11 +688,7 @@ Immagini
 Lampione non funzionante
 </h3>
 <p class="card-info">
-Tipologia di segnalazione
-<br>
-<span>
-Illuminazione pubblica
-</span>
+Tipologia di segnalazione Illuminazione pubblica
 </p>
 <div class="accordion-item">
 <div class="accordion-header">
@@ -760,7 +741,7 @@ Immagini
 <div class="border-light border-0">
 <div class="d-lg-flex gap-2 mt-3">
 <div>
-<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 ">
 </div>
 </div>
 </div>
@@ -789,11 +770,7 @@ Immagini
 Rifiuti abbandonati
 </h3>
 <p class="card-info">
-Tipologia di segnalazione
-<br>
-<span>
-Igiene urbana, rifiuti, pulizia e decoro
-</span>
+Tipologia di segnalazione Igiene urbana, rifiuti, pulizia e decoro
 </p>
 <div class="accordion-item">
 <div class="accordion-header">
@@ -846,10 +823,10 @@ Immagini
 <div class="border-light border-0">
 <div class="d-lg-flex gap-2 mt-3">
 <div>
-<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100  mb-3 mb-lg-0 ">
 </div>
 <div>
-<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 ">
 </div>
 </div>
 </div>
@@ -870,7 +847,7 @@ Immagini
 </div>
 </div>
 <div class="col-12 text-center">
-<button type="button" class="btn btn-outline-primary mobile-full py-3 mt-10 mx-auto">
+<button type="button" class="btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto btn-full">
 <span>
 Carica altre segnalazioni
 </span>
@@ -943,33 +920,66 @@ Valuta da 1 a 5 stelle la pagina
 <div class="container">
 <div class="row d-flex justify-content-center p-contacts">
 <div class="col-12 col-lg-5">
-<h2 class="title-medium-2-semi-bold mb-3">
+<div class="cmp-contacts">
+<div class="card w-100">
+<div class="card-body">
+<h2 class="title-medium-2-semi-bold">
 Contatta il comune
 </h2>
-<ul class="link-list">
+<ul class="contact-list p-0">
 <li>
-<a class="list-item" href="/it/tests/assistenza-01-dati">
+<a class="list-item" href="#">
+<svg class="icon icon-primary icon-sm" aria-hidden="true">
+<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-help-circle">
+</use>
+</svg>
+<span>
+Leggi le domande frequenti
+</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="#">
+<svg class="icon icon-primary icon-sm" aria-hidden="true">
+<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-help-circle">
+</use>
+</svg>
+<span>
+Leggi le domande frequenti
+</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="#" data-element="contacts">
+<svg class="icon icon-primary icon-sm" aria-hidden="true">
+<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-mail">
+</use>
+</svg>
+<span>
 Richiedi assistenza
+</span>
 </a>
 </li>
 <li>
-<a class="list-item" href="tel:050505">
+<a class="list-item" href="#">
+<svg class="icon icon-primary icon-sm" aria-hidden="true">
+<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-hearing">
+</use>
+</svg>
+<span>
 Chiama il numero verde 05 0505
+</span>
 </a>
 </li>
 <li>
-<a class="list-item" href="/it/tests/appuntamento-01-ufficio">
+<a class="list-item" href="#" data-element="appointment-booking">
+<svg class="icon icon-primary icon-sm" aria-hidden="true">
+<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar">
+</use>
+</svg>
+<span>
 Prenota appuntamento
-</a>
-</li>
-</ul>
-<h2 class="title-medium-2-semi-bold mb-3 mt-4">
-Problemi in città
-</h2>
-<ul class="link-list">
-<li>
-<a class="list-item" href="/it/tests/segnalazioni">
-Segnala disservizio
+</span>
 </a>
 </li>
 </ul>
@@ -977,8 +987,11 @@ Segnala disservizio
 </div>
 </div>
 </div>
-<div class="modal fade" id="modal-categories" tabindex="-1" role="dialog" aria-labelledby="modal-categories-label" aria-hidden="true">
+</div>
+</div>
+</div>
 <div class="it-example-modal">
+<div class="modal fade" id="modal-categories" tabindex="-1" role="dialog" aria-labelledby="modal-categories-label" aria-hidden="true">
 <div class="modal-dialog modal-dialog-scrollable">
 <div class="modal-content">
 <div class="modal-header">
@@ -997,8 +1010,7 @@ categoria
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-water" name="category" value="acqua,allagamenti,fogne">
 <label for="mobile-water" class="subtitle-small_semi-bold mb-0 category-list__list">
-Acqua, allagamenti, problemi fognari
-                                                    (21)
+Acqua, allagamenti, problemi fognari (21)
 </label>
 </div>
 </div>
@@ -1008,8 +1020,7 @@ Acqua, allagamenti, problemi fognari
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-enviroment" name="category" value="inquinamento">
 <label for="mobile-enviroment" class="subtitle-small_semi-bold mb-0 category-list__list">
-Ambiente, inquinamento, protezione ambientale
-                                                    (14)
+Ambiente, inquinamento, protezione ambientale (14)
 </label>
 </div>
 </div>
@@ -1019,8 +1030,7 @@ Ambiente, inquinamento, protezione ambientale
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-street-furniture" name="category" value="arredo-urbano">
 <label for="mobile-street-furniture" class="subtitle-small_semi-bold mb-0 category-list__list">
-Arredo urbano
-                                                    (7)
+Arredo urbano (7)
 </label>
 </div>
 </div>
@@ -1030,8 +1040,7 @@ Arredo urbano
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-rodent-control" name="category" value="derattizazione">
 <label for="mobile-rodent-control" class="subtitle-small_semi-bold mb-0 category-list__list">
-Disinfestazione, derattizazione, animali randagi
-                                                    (208)
+Disinfestazione, derattizazione, animali randagi (208)
 </label>
 </div>
 </div>
@@ -1041,8 +1050,7 @@ Disinfestazione, derattizazione, animali randagi
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-waste" name="category" value="igiene">
 <label for="mobile-waste" class="subtitle-small_semi-bold mb-0 category-list__list">
-Igiene urbana, rifiuti, pulizia e decoro
-                                                    (321)
+Igiene urbana, rifiuti, pulizia e decoro (321)
 </label>
 </div>
 </div>
@@ -1052,8 +1060,7 @@ Igiene urbana, rifiuti, pulizia e decoro
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-maintenance" name="category" value="manutenzione">
 <label for="mobile-maintenance" class="subtitle-small_semi-bold mb-0 category-list__list">
-Manutenzione immobili, edifici pubblici, scuole, barriere architettoniche, cimiteri
-                                                    (302)
+Manutenzione immobili, edifici pubblici, scuole, barriere architettoniche, cimiteri (302)
 </label>
 </div>
 </div>
@@ -1063,8 +1070,7 @@ Manutenzione immobili, edifici pubblici, scuole, barriere architettoniche, cimit
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-public-order" name="category" value="ordine-pubblico">
 <label for="mobile-public-order" class="subtitle-small_semi-bold mb-0 category-list__list">
-Ordine pubblico, disturbo della quiete
-                                                    (89)
+Ordine pubblico, disturbo della quiete (89)
 </label>
 </div>
 </div>
@@ -1074,8 +1080,7 @@ Ordine pubblico, disturbo della quiete
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-green" name="category" value="parchi">
 <label for="mobile-green" class="subtitle-small_semi-bold mb-0 category-list__list">
-Parchi e verde pubblico
-                                                    (302)
+Parchi e verde pubblico (302)
 </label>
 </div>
 </div>
@@ -1085,8 +1090,7 @@ Parchi e verde pubblico
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-service" name="category" value="servizi">
 <label for="mobile-service" class="subtitle-small_semi-bold mb-0 category-list__list">
-Servizi del comune
-                                                    (302)
+Servizi del comune (302)
 </label>
 </div>
 </div>
@@ -1096,8 +1100,7 @@ Servizi del comune
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-security" name="category" value="sicurezza">
 <label for="mobile-security" class="subtitle-small_semi-bold mb-0 category-list__list">
-Sicurezza, degrado urbano e sociale
-                                                    (302)
+Sicurezza, degrado urbano e sociale (302)
 </label>
 </div>
 </div>
@@ -1107,8 +1110,7 @@ Sicurezza, degrado urbano e sociale
 <div class="checkbox-body border-light py-1">
 <input type="checkbox" id="mobile-road" name="category" value="strade">
 <label for="mobile-road" class="subtitle-small_semi-bold mb-0 category-list__list">
-Strade, marciapiedi, segnaletica e viabilità
-                                                    (302)
+Strade, marciapiedi, segnaletica e viabilità (302)
 </label>
 </div>
 </div>
@@ -1116,6 +1118,7 @@ Strade, marciapiedi, segnaletica e viabilità
 </ul>
 </div>
 </fieldset>
+</div>
 </div>
 </div>
 </div>

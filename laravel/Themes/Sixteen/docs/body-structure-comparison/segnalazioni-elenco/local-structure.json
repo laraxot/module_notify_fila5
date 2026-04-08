@@ -3479,7 +3479,7 @@
                                                 "type": "button",
                                                 "data-bs-toggle": "modal",
                                                 "data-bs-target": "#modal-disservizio",
-                                                "class": "btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0"
+                                                "class": "btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0 btn-full"
                                               },
                                               "classes": [
                                                 "btn",
@@ -3489,7 +3489,8 @@
                                                 "py-3",
                                                 "mt-2",
                                                 "mb-4",
-                                                "mb-lg-0"
+                                                "mb-lg-0",
+                                                "btn-full"
                                               ],
                                               "text": "",
                                               "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/button[1]",
@@ -3634,26 +3635,9 @@
                                                           "classes": [
                                                             "card-info"
                                                           ],
-                                                          "text": "Tipologia di segnalazione",
+                                                          "text": "Tipologia di segnalazione Verde pubblico e arredo urbano",
                                                           "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
-                                                          "children": [
-                                                            {
-                                                              "tag": "br",
-                                                              "attrs": {},
-                                                              "classes": [],
-                                                              "text": "",
-                                                              "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/br[1]",
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "tag": "span",
-                                                              "attrs": {},
-                                                              "classes": [],
-                                                              "text": "Verde pubblico e arredo urbano",
-                                                              "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]",
-                                                              "children": []
-                                                            }
-                                                          ]
+                                                          "children": []
                                                         },
                                                         {
                                                           "tag": "div",
@@ -4009,11 +3993,13 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100"
+                                                                                                    "class": "img-fluid w-100  mb-3 mb-lg-0 "
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
-                                                                                                    "w-100"
+                                                                                                    "w-100",
+                                                                                                    "mb-3",
+                                                                                                    "mb-lg-0"
                                                                                                   ],
                                                                                                   "text": "",
                                                                                                   "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]",
@@ -4033,11 +4019,13 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100"
+                                                                                                    "class": "img-fluid w-100  mb-3 mb-lg-0 "
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
-                                                                                                    "w-100"
+                                                                                                    "w-100",
+                                                                                                    "mb-3",
+                                                                                                    "mb-lg-0"
                                                                                                   ],
                                                                                                   "text": "",
                                                                                                   "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[2]/img[1]",
@@ -4057,7 +4045,7 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100"
+                                                                                                    "class": "img-fluid w-100 "
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
@@ -4208,26 +4196,9 @@
                                                           "classes": [
                                                             "card-info"
                                                           ],
-                                                          "text": "Tipologia di segnalazione",
+                                                          "text": "Tipologia di segnalazione Illuminazione pubblica",
                                                           "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
-                                                          "children": [
-                                                            {
-                                                              "tag": "br",
-                                                              "attrs": {},
-                                                              "classes": [],
-                                                              "text": "",
-                                                              "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/br[1]",
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "tag": "span",
-                                                              "attrs": {},
-                                                              "classes": [],
-                                                              "text": "Illuminazione pubblica",
-                                                              "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]",
-                                                              "children": []
-                                                            }
-                                                          ]
+                                                          "children": []
                                                         },
                                                         {
                                                           "tag": "div",
@@ -4583,7 +4554,7 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100"
+                                                                                                    "class": "img-fluid w-100 "
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
@@ -4734,26 +4705,9 @@
                                                           "classes": [
                                                             "card-info"
                                                           ],
-                                                          "text": "Tipologia di segnalazione",
+                                                          "text": "Tipologia di segnalazione Igiene urbana, rifiuti, pulizia e decoro",
                                                           "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
-                                                          "children": [
-                                                            {
-                                                              "tag": "br",
-                                                              "attrs": {},
-                                                              "classes": [],
-                                                              "text": "",
-                                                              "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/br[1]",
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "tag": "span",
-                                                              "attrs": {},
-                                                              "classes": [],
-                                                              "text": "Igiene urbana, rifiuti, pulizia e decoro",
-                                                              "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]",
-                                                              "children": []
-                                                            }
-                                                          ]
+                                                          "children": []
                                                         },
                                                         {
                                                           "tag": "div",
@@ -5109,11 +5063,13 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100"
+                                                                                                    "class": "img-fluid w-100  mb-3 mb-lg-0 "
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
-                                                                                                    "w-100"
+                                                                                                    "w-100",
+                                                                                                    "mb-3",
+                                                                                                    "mb-lg-0"
                                                                                                   ],
                                                                                                   "text": "",
                                                                                                   "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]",
@@ -5133,7 +5089,7 @@
                                                                                                   "attrs": {
                                                                                                     "src": "../assets/images/image-disservizio.png",
                                                                                                     "alt": "Immagine della mappa di dove si trova il disservizio",
-                                                                                                    "class": "img-fluid w-100"
+                                                                                                    "class": "img-fluid w-100 "
                                                                                                   },
                                                                                                   "classes": [
                                                                                                     "img-fluid",
@@ -5207,7 +5163,7 @@
                                   "tag": "button",
                                   "attrs": {
                                     "type": "button",
-                                    "class": "btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto"
+                                    "class": "btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto btn-full"
                                   },
                                   "classes": [
                                     "btn",
@@ -5216,7 +5172,8 @@
                                     "mobile-full",
                                     "py-3",
                                     "mt-10",
-                                    "mx-auto"
+                                    "mx-auto",
+                                    "btn-full"
                                   ],
                                   "text": "",
                                   "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/button[1]",
@@ -5228,120 +5185,6 @@
                                       "text": "Carica altre segnalazioni",
                                       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/button[1]/span[1]",
                                       "children": []
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "tag": "div",
-                          "attrs": {
-                            "class": "col-lg-6 mt-50 mb-4 mb-lg-0"
-                          },
-                          "classes": [
-                            "col-lg-6",
-                            "mt-50",
-                            "mb-4",
-                            "mb-lg-0"
-                          ],
-                          "text": "",
-                          "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[3]",
-                          "children": [
-                            {
-                              "tag": "div",
-                              "attrs": {
-                                "class": "cmp-text-button mt-0"
-                              },
-                              "classes": [
-                                "cmp-text-button",
-                                "mt-0"
-                              ],
-                              "text": "",
-                              "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]",
-                              "children": [
-                                {
-                                  "tag": "h2",
-                                  "attrs": {
-                                    "class": "title-xxlarge mb-0"
-                                  },
-                                  "classes": [
-                                    "title-xxlarge",
-                                    "mb-0"
-                                  ],
-                                  "text": "fixcity::segnalazione.cta.title.label",
-                                  "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/h2[1]",
-                                  "children": []
-                                },
-                                {
-                                  "tag": "div",
-                                  "attrs": {
-                                    "class": "text-wrapper"
-                                  },
-                                  "classes": [
-                                    "text-wrapper"
-                                  ],
-                                  "text": "",
-                                  "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/div[1]",
-                                  "children": [
-                                    {
-                                      "tag": "p",
-                                      "attrs": {
-                                        "class": "subtitle-small mb-3 mt-3"
-                                      },
-                                      "classes": [
-                                        "subtitle-small",
-                                        "mb-3",
-                                        "mt-3"
-                                      ],
-                                      "text": "fixcity::segnalazione.cta.text.label",
-                                      "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/div[1]/p[1]",
-                                      "children": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "tag": "div",
-                                  "attrs": {
-                                    "class": "button-wrapper"
-                                  },
-                                  "classes": [
-                                    "button-wrapper"
-                                  ],
-                                  "text": "",
-                                  "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/div[2]",
-                                  "children": [
-                                    {
-                                      "tag": "button",
-                                      "attrs": {
-                                        "type": "button",
-                                        "data-bs-toggle": "modal",
-                                        "data-bs-target": "#modal-disservizio",
-                                        "class": "btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0"
-                                      },
-                                      "classes": [
-                                        "btn",
-                                        "btn",
-                                        "btn-primary",
-                                        "mobile-full",
-                                        "py-3",
-                                        "mt-2",
-                                        "mb-4",
-                                        "mb-lg-0"
-                                      ],
-                                      "text": "",
-                                      "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/div[2]/button[1]",
-                                      "children": [
-                                        {
-                                          "tag": "span",
-                                          "attrs": {},
-                                          "classes": [],
-                                          "text": "fixcity::segnalazione.cta.button.label",
-                                          "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/div[2]/button[1]/span[1]",
-                                          "children": []
-                                        }
-                                      ]
                                     }
                                   ]
                                 }
@@ -5824,141 +5667,353 @@
                           "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
                           "children": [
                             {
-                              "tag": "h2",
+                              "tag": "div",
                               "attrs": {
-                                "class": "title-medium-2-semi-bold mb-3"
+                                "class": "cmp-contacts"
                               },
                               "classes": [
-                                "title-medium-2-semi-bold",
-                                "mb-3"
-                              ],
-                              "text": "Contatta il comune",
-                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/h2[1]",
-                              "children": []
-                            },
-                            {
-                              "tag": "ul",
-                              "attrs": {
-                                "class": "link-list"
-                              },
-                              "classes": [
-                                "link-list"
+                                "cmp-contacts"
                               ],
                               "text": "",
-                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/ul[1]",
+                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
                               "children": [
                                 {
-                                  "tag": "li",
-                                  "attrs": {},
-                                  "classes": [],
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "card w-100"
+                                  },
+                                  "classes": [
+                                    "card",
+                                    "w-100"
+                                  ],
                                   "text": "",
-                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/ul[1]/li[1]",
+                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]",
                                   "children": [
                                     {
-                                      "tag": "a",
+                                      "tag": "div",
                                       "attrs": {
-                                        "class": "list-item",
-                                        "href": "/it/tests/assistenza-01-dati"
+                                        "class": "card-body"
                                       },
                                       "classes": [
-                                        "list-item"
+                                        "card-body"
                                       ],
-                                      "text": "Richiedi assistenza",
-                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]",
-                                      "children": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "tag": "li",
-                                  "attrs": {},
-                                  "classes": [],
-                                  "text": "",
-                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/ul[1]/li[2]",
-                                  "children": [
-                                    {
-                                      "tag": "a",
-                                      "attrs": {
-                                        "class": "list-item",
-                                        "href": "tel:050505"
-                                      },
-                                      "classes": [
-                                        "list-item"
-                                      ],
-                                      "text": "Chiama il numero verde 05 0505",
-                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",
-                                      "children": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "tag": "li",
-                                  "attrs": {},
-                                  "classes": [],
-                                  "text": "",
-                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/ul[1]/li[3]",
-                                  "children": [
-                                    {
-                                      "tag": "a",
-                                      "attrs": {
-                                        "class": "list-item",
-                                        "href": "/it/tests/appuntamento-01-ufficio"
-                                      },
-                                      "classes": [
-                                        "list-item"
-                                      ],
-                                      "text": "Prenota appuntamento",
-                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]",
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "tag": "h2",
-                              "attrs": {
-                                "class": "title-medium-2-semi-bold mb-3 mt-4"
-                              },
-                              "classes": [
-                                "title-medium-2-semi-bold",
-                                "mb-3",
-                                "mt-4"
-                              ],
-                              "text": "Problemi in città",
-                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/h2[2]",
-                              "children": []
-                            },
-                            {
-                              "tag": "ul",
-                              "attrs": {
-                                "class": "link-list"
-                              },
-                              "classes": [
-                                "link-list"
-                              ],
-                              "text": "",
-                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/ul[2]",
-                              "children": [
-                                {
-                                  "tag": "li",
-                                  "attrs": {},
-                                  "classes": [],
-                                  "text": "",
-                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/ul[2]/li[1]",
-                                  "children": [
-                                    {
-                                      "tag": "a",
-                                      "attrs": {
-                                        "class": "list-item",
-                                        "href": "/it/tests/segnalazioni"
-                                      },
-                                      "classes": [
-                                        "list-item"
-                                      ],
-                                      "text": "Segnala disservizio",
-                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/ul[2]/li[1]/a[1]",
-                                      "children": []
+                                      "text": "",
+                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                                      "children": [
+                                        {
+                                          "tag": "h2",
+                                          "attrs": {
+                                            "class": "title-medium-2-semi-bold"
+                                          },
+                                          "classes": [
+                                            "title-medium-2-semi-bold"
+                                          ],
+                                          "text": "Contatta il comune",
+                                          "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]",
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "ul",
+                                          "attrs": {
+                                            "class": "contact-list p-0"
+                                          },
+                                          "classes": [
+                                            "contact-list",
+                                            "p-0"
+                                          ],
+                                          "text": "",
+                                          "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]",
+                                          "children": [
+                                            {
+                                              "tag": "li",
+                                              "attrs": {},
+                                              "classes": [],
+                                              "text": "",
+                                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]",
+                                              "children": [
+                                                {
+                                                  "tag": "a",
+                                                  "attrs": {
+                                                    "class": "list-item",
+                                                    "href": "#"
+                                                  },
+                                                  "classes": [
+                                                    "list-item"
+                                                  ],
+                                                  "text": "",
+                                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]",
+                                                  "children": [
+                                                    {
+                                                      "tag": "svg",
+                                                      "attrs": {
+                                                        "class": "icon icon-primary icon-sm",
+                                                        "aria-hidden": "true"
+                                                      },
+                                                      "classes": [
+                                                        "icon",
+                                                        "icon-primary",
+                                                        "icon-sm"
+                                                      ],
+                                                      "text": "",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/svg[1]",
+                                                      "children": [
+                                                        {
+                                                          "tag": "use",
+                                                          "attrs": {
+                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-help-circle"
+                                                          },
+                                                          "classes": [],
+                                                          "text": "",
+                                                          "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/svg[1]/use[1]",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attrs": {},
+                                                      "classes": [],
+                                                      "text": "Leggi le domande frequenti",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "li",
+                                              "attrs": {},
+                                              "classes": [],
+                                              "text": "",
+                                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]",
+                                              "children": [
+                                                {
+                                                  "tag": "a",
+                                                  "attrs": {
+                                                    "class": "list-item",
+                                                    "href": "#"
+                                                  },
+                                                  "classes": [
+                                                    "list-item"
+                                                  ],
+                                                  "text": "",
+                                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",
+                                                  "children": [
+                                                    {
+                                                      "tag": "svg",
+                                                      "attrs": {
+                                                        "class": "icon icon-primary icon-sm",
+                                                        "aria-hidden": "true"
+                                                      },
+                                                      "classes": [
+                                                        "icon",
+                                                        "icon-primary",
+                                                        "icon-sm"
+                                                      ],
+                                                      "text": "",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/svg[1]",
+                                                      "children": [
+                                                        {
+                                                          "tag": "use",
+                                                          "attrs": {
+                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-help-circle"
+                                                          },
+                                                          "classes": [],
+                                                          "text": "",
+                                                          "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/svg[1]/use[1]",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attrs": {},
+                                                      "classes": [],
+                                                      "text": "Leggi le domande frequenti",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "li",
+                                              "attrs": {},
+                                              "classes": [],
+                                              "text": "",
+                                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]",
+                                              "children": [
+                                                {
+                                                  "tag": "a",
+                                                  "attrs": {
+                                                    "class": "list-item",
+                                                    "href": "#",
+                                                    "data-element": "contacts"
+                                                  },
+                                                  "classes": [
+                                                    "list-item"
+                                                  ],
+                                                  "text": "",
+                                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]",
+                                                  "children": [
+                                                    {
+                                                      "tag": "svg",
+                                                      "attrs": {
+                                                        "class": "icon icon-primary icon-sm",
+                                                        "aria-hidden": "true"
+                                                      },
+                                                      "classes": [
+                                                        "icon",
+                                                        "icon-primary",
+                                                        "icon-sm"
+                                                      ],
+                                                      "text": "",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/svg[1]",
+                                                      "children": [
+                                                        {
+                                                          "tag": "use",
+                                                          "attrs": {
+                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-mail"
+                                                          },
+                                                          "classes": [],
+                                                          "text": "",
+                                                          "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/svg[1]/use[1]",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attrs": {},
+                                                      "classes": [],
+                                                      "text": "Richiedi assistenza",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "li",
+                                              "attrs": {},
+                                              "classes": [],
+                                              "text": "",
+                                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]",
+                                              "children": [
+                                                {
+                                                  "tag": "a",
+                                                  "attrs": {
+                                                    "class": "list-item",
+                                                    "href": "#"
+                                                  },
+                                                  "classes": [
+                                                    "list-item"
+                                                  ],
+                                                  "text": "",
+                                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]",
+                                                  "children": [
+                                                    {
+                                                      "tag": "svg",
+                                                      "attrs": {
+                                                        "class": "icon icon-primary icon-sm",
+                                                        "aria-hidden": "true"
+                                                      },
+                                                      "classes": [
+                                                        "icon",
+                                                        "icon-primary",
+                                                        "icon-sm"
+                                                      ],
+                                                      "text": "",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/svg[1]",
+                                                      "children": [
+                                                        {
+                                                          "tag": "use",
+                                                          "attrs": {
+                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-hearing"
+                                                          },
+                                                          "classes": [],
+                                                          "text": "",
+                                                          "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/svg[1]/use[1]",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attrs": {},
+                                                      "classes": [],
+                                                      "text": "Chiama il numero verde 05 0505",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "li",
+                                              "attrs": {},
+                                              "classes": [],
+                                              "text": "",
+                                              "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]",
+                                              "children": [
+                                                {
+                                                  "tag": "a",
+                                                  "attrs": {
+                                                    "class": "list-item",
+                                                    "href": "#",
+                                                    "data-element": "appointment-booking"
+                                                  },
+                                                  "classes": [
+                                                    "list-item"
+                                                  ],
+                                                  "text": "",
+                                                  "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]",
+                                                  "children": [
+                                                    {
+                                                      "tag": "svg",
+                                                      "attrs": {
+                                                        "class": "icon icon-primary icon-sm",
+                                                        "aria-hidden": "true"
+                                                      },
+                                                      "classes": [
+                                                        "icon",
+                                                        "icon-primary",
+                                                        "icon-sm"
+                                                      ],
+                                                      "text": "",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/svg[1]",
+                                                      "children": [
+                                                        {
+                                                          "tag": "use",
+                                                          "attrs": {
+                                                            "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar"
+                                                          },
+                                                          "classes": [],
+                                                          "text": "",
+                                                          "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/svg[1]/use[1]",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attrs": {},
+                                                      "classes": [],
+                                                      "text": "Prenota appuntamento",
+                                                      "path": "document/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/span[1]",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
                                     }
                                   ]
                                 }
@@ -5975,16 +6030,10 @@
             {
               "tag": "div",
               "attrs": {
-                "class": "modal fade",
-                "id": "modal-categories",
-                "tabindex": "-1",
-                "role": "dialog",
-                "aria-labelledby": "modal-categories-label",
-                "aria-hidden": "true"
+                "class": "it-example-modal"
               },
               "classes": [
-                "modal",
-                "fade"
+                "it-example-modal"
               ],
               "text": "",
               "path": "document/body[1]/main[1]/div[1]/div[5]",
@@ -5992,10 +6041,16 @@
                 {
                   "tag": "div",
                   "attrs": {
-                    "class": "it-example-modal"
+                    "class": "modal fade",
+                    "id": "modal-categories",
+                    "tabindex": "-1",
+                    "role": "dialog",
+                    "aria-labelledby": "modal-categories-label",
+                    "aria-hidden": "true"
                   },
                   "classes": [
-                    "it-example-modal"
+                    "modal",
+                    "fade"
                   ],
                   "text": "",
                   "path": "document/body[1]/main[1]/div[1]/div[5]/div[1]",

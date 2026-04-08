@@ -160,25 +160,31 @@
                         "contact_title": "fixcity::segnalazione.contacts.title.label",
                         "contacts": [
                             {
+                                "label": "fixcity::segnalazione.contacts.faq.link.label",
+                                "url": "#",
+                                "icon": "it-help-circle",
+                                "data_element": null
+                            },
+                            {
                                 "label": "fixcity::segnalazione.contacts.assistance.link.label",
-                                "url": "/it/tests/assistenza-01-dati"
+                                "url": "#",
+                                "icon": "it-mail",
+                                "data_element": "contacts"
                             },
                             {
                                 "label": "fixcity::segnalazione.contacts.phone.link.label",
-                                "url": "tel:050505"
+                                "url": "#",
+                                "icon": "it-hearing",
+                                "data_element": null
                             },
                             {
                                 "label": "fixcity::segnalazione.contacts.appointment.link.label",
-                                "url": "/it/tests/appuntamento-01-ufficio"
+                                "url": "#",
+                                "icon": "it-calendar",
+                                "data_element": "appointment-booking"
                             }
                         ],
-                        "issues_title": "fixcity::segnalazione.contacts.issues.title.label",
-                        "issues": [
-                            {
-                                "label": "fixcity::segnalazione.contacts.issues.report.link.label",
-                                "url": "/it/tests/segnalazioni"
-                            }
-                        ]
+                        "issues": []
                     }
                 }
             }
