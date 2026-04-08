@@ -173,7 +173,7 @@
         <div class="col-lg-8 offset-lg-1">
             {{-- Results Header --}}
             <div class="d-flex justify-content-between border-bottom border-light pb-3 mt-5">
-                <span class="search-results">{{ __($ns . '.elenco.results.text', ['count' => $resultsCount]) }}</span>
+                <span class="search-results">{{ __($ns . '.results.count.text', ['count' => $resultsCount]) }}</span>
 
                 {{-- Mobile Filter Button --}}
                 <button type="button" data-bs-toggle="modal" data-bs-target="#modal-categories"
@@ -184,12 +184,12 @@
                         </svg>
                     </span>
                     <span
-                        class="t-primary title-xsmall-semi-bold ms-1">{{ __($ns . '.elenco.filter_btn.label') }}</span>
+                        class="t-primary title-xsmall-semi-bold ms-1">{{ __($ns . '.filter.button.label') }}</span>
                 </button>
 
                 {{-- Desktop Remove Filters Button --}}
                 <button type="button" class="btn p-0 pe-2 d-none d-lg-block">
-                    <span class="title-xsmall-semi-bold ms-1">{{ __($ns . '.elenco.remove_filters_btn.label') }}</span>
+                    <span class="title-xsmall-semi-bold ms-1">{{ __($ns . '.filter.remove.label') }}</span>
                 </button>
             </div>
 
@@ -217,12 +217,12 @@
                         <div class="col-12">
                             <div class="map-box">
                                 <img src="/themes/Sixteen/design-comuni/assets/images/map-placeholder.svg"
-                                    alt="{{ __($ns . '.map.map_alt.text') }}" class="w-100">
+                                    alt="{{ __($ns . '.map.image.alt') }}" class="w-100">
                                 <button type="button" class="pin" data-bs-toggle="modal"
                                     data-bs-target="#modal-disservizio">
                                     <img src="/themes/Sixteen/design-comuni/assets/images/map-pin.svg"
-                                        alt="{{ __($ns . '.map.pin_alt.text') }}"
-                                        title="{{ __($ns . '.map.pin_alt.text') }}">
+                                        alt="{{ __($ns . '.map.pin.alt') }}"
+                                        title="{{ __($ns . '.map.pin.alt') }}">
                                 </button>
                             </div>
                         </div>
@@ -230,16 +230,16 @@
                             <div class="col-lg-6 mt-50 mb-4 mb-lg-0">
                                 <div class="cmp-text-button mt-0">
                                     <h2 class="title-xxlarge mb-0">
-                                        {{ $cta['title'] ?? __($ns . '.map.cta_title.label') }}</h2>
+                                        {{ $cta['title'] ?? __($ns . '.map.cta.title.label') }}</h2>
                                     <div class="text-wrapper">
                                         <p class="subtitle-small mb-3 mt-3">
-                                            {{ $cta['text'] ?? __($ns . '.map.cta_text.text') }}</p>
+                                            {{ $cta['text'] ?? __($ns . '.map.cta.text.label') }}</p>
                                     </div>
                                     <div class="button-wrapper">
                                         <button type="button" data-bs-toggle="modal"
                                             data-bs-target="#modal-disservizio"
                                             class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
-                                            <span>{{ $cta['button_text'] ?? __($ns . '.map.cta_btn.label') }}</span>
+                                            <span>{{ $cta['button_text'] ?? __($ns . '.map.cta.button.label') }}</span>
                                         </button>
                                     </div>
                                 </div>
@@ -260,7 +260,7 @@
                                                 <div class="card-body p-0">
                                                     <h3 class="medium-title mb-0">{{ $item['title'] ?? '' }}</h3>
 
-                                                    <p class="card-info">{{ __($ns . '.card.type_label.text') }}<br>
+                                                    <p class="card-info">{{ __($ns . '.card.type.label') }}<br>
                                                         <span>{{ $item['type'] ?? '' }}</span>
                                                     </p>
 
@@ -300,7 +300,7 @@
                                                                                 <div
                                                                                     class="single-line-info border-light">
                                                                                     <div class="text-paragraph-small">
-                                                                                        {{ __($ns . '.card.address_label_text') }}
+                                                                                        {{ __($ns . '.card.address.label') }}
                                                                                     </div>
                                                                                     <div class="border-light">
                                                                                         <p class="data-text">
@@ -313,7 +313,7 @@
                                                                                 <div
                                                                                     class="single-line-info border-light">
                                                                                     <div class="text-paragraph-small">
-                                                                                        {{ __($ns . '.card.detail_label_text') }}
+                                                                                        {{ __($ns . '.card.detail.label') }}
                                                                                     </div>
                                                                                     <div class="border-light">
                                                                                         <p class="data-text">
@@ -327,7 +327,7 @@
                                                                                 <div
                                                                                     class="single-line-info border-light">
                                                                                     <div class="text-paragraph-small">
-                                                                                        {{ __($ns . '.card.images_label_text') }}
+                                                                                        {{ __($ns . '.card.images.label') }}
                                                                                     </div>
                                                                                     <div class="border-light border-0">
                                                                                         <div
@@ -364,7 +364,7 @@
                     {{-- Load More --}}
                     <div class="text-center mt-4">
                         <button type="button" class="btn btn-outline-primary">
-                            <span>{{ __($ns . '.elenco.load_more_text') }}</span>
+                            <span>{{ __($ns . '.load_more.button.label') }}</span>
                         </button>
                     </div>
                 </div>
@@ -381,11 +381,11 @@
                 <div class="cmp-rating pt-lg-80 pb-lg-80" id="rating">
                     <div class="card shadow card-wrapper">
                         <div class="card-header border-0">
-                            <h2 class="title-medium-2-semi-bold mb-0">{{ __($ns . '.rating.question_text') }}</h2>
+                            <h2 class="title-medium-2-semi-bold mb-0">{{ __($ns . '.rating.question.text') }}</h2>
                         </div>
                         <div class="card-body">
                             <fieldset class="rating">
-                                <legend class="visually-hidden">{{ __($ns . '.rating.legend_text') }}</legend>
+                                <legend class="visually-hidden">{{ __($ns . '.rating.legend.text') }}</legend>
                                 @for ($i = 5; $i >= 1; $i--)
                                     <input type="radio" id="star{{ $i }}a" name="ratingA"
                                         value="{{ $i }}">
@@ -413,7 +413,7 @@
                 <div class="col-12 col-lg-5">
                     @php $contacts = $data['contacts']; @endphp
                     <h2 class="title-medium-2-semi-bold mb-3">
-                        {{ $contacts['contact_title'] ?? __($ns . '.contacts.contact_title_label') }}</h2>
+                        {{ $contacts['contact_title'] ?? __($ns . '.contacts.title.label') }}</h2>
                     <ul class="link-list">
                         @if (!empty($contacts['contacts']))
                             @foreach ($contacts['contacts'] as $contact)
@@ -424,7 +424,7 @@
 
                     @if (!empty($contacts['issues']))
                         <h2 class="title-medium-2-semi-bold mb-3 mt-4">
-                            {{ $contacts['issues_title'] ?? __($ns . '.contacts.issues_title_label') }}</h2>
+                            {{ $contacts['issues_title'] ?? __($ns . '.contacts.issues.title.label') }}</h2>
                         <ul class="link-list">
                             @foreach ($contacts['issues'] as $issue)
                                 <li><a href="{{ $issue['url'] ?? '#' }}">{{ $issue['label'] ?? '' }}</a></li>
@@ -445,8 +445,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h2 class="modal-title h4" id="modal-categories-label">
-                        {{ $filters['title'] ?? __($ns . '.filters.legend_label') }}</h2>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+                        {{ $filters['title'] ?? __($ns . '.filters.legend.label') }}</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{{ __($ns . ' .modal.close.label') }}"></button>
                 </div>
                 <div class="modal-body">
                     <fieldset>

@@ -128,6 +128,12 @@ return [
     ],
 
     // Contacts section
+    'modal' => [
+        'close' => [
+            'label' => 'Chiudi',
+        ],
+    ],
+
     'contacts' => [
         'title' => [
             'label' => 'Contatta il comune',

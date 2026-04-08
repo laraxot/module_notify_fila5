@@ -44,6 +44,12 @@ return [
         'question' => ['text' => 'How clear is the information on this page?'],
         'legend' => ['text' => 'Rate this page from 1 to 5 stars'],
     ],
+    'modal' => [
+        'close' => [
+            'label' => 'Close',
+        ],
+    ],
+
     'contacts' => [
         'title' => ['label' => 'Contact the municipality'],
         'faq' => ['link' => ['label' => 'Read FAQs']],
