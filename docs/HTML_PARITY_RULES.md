@@ -9,13 +9,21 @@
 
 ## 🎯 Core Philosophy
 
-HTML parity analysis is a **structured phase** to align a page implementation with a reference design while maintaining the project's architecture constraints:
+**HTML structural parity is ESSENTIAL** - it is the foundation, not optional.
 
-- ✅ **Multilingual**: No hardcoded text (all strings from translations)
-- ✅ **TailwindCSS + Alpine**: Bootstrap is forbidden
-- ✅ **Folio + Volt + Filament**: Modern Laravel stack, no HTTP controllers
-- ✅ **Agnostic Scripts**: bash/py scripts have no theme references (theme-agnostic)
-- ✅ **Centralized Docs**: Theme-specific docs in `Themes/<ThemeName>/docs/`
+The reference HTML structure (tags, attributes, classes, IDs, nesting) MUST be replicated exactly. This is not negotiable.
+
+**TailwindCSS @apply + Alpine.js** are the tools we use to achieve visual/functional parity while maintaining identical HTML structure.
+
+### Principles (in order of importance)
+1. **HTML Structure Parity** (ESSENTIAL): Same tags, same attributes, same classes, same IDs, same nesting
+2. **Visual Parity** (via Tailwind @apply): Same appearance using Tailwind utilities
+3. **Functional Parity** (via Alpine.js): Same interactivity using Alpine directives
+4. **Multilingual**: No hardcoded text (all strings from translations)
+5. **TailwindCSS + Alpine ONLY**: Bootstrap is FORBIDDEN
+6. **Folio + Volt + Filament**: Modern Laravel stack, no HTTP controllers
+7. **Agnostic Scripts**: bash/py scripts have no theme references (theme-agnostic)
+8. **Centralized Docs**: Theme-specific docs in `Themes/<ThemeName>/docs/`
 
 ---
 
