@@ -1,8 +1,8 @@
 {
   "page": "segnalazione-dettaglio",
-  "date": "2026-04-08T14:12:47.447932",
-  "ref_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-dettaglio.html",
-  "local_url": "http://127.0.0.1:8000/it/tests/segnalazione-dettaglio",
+  "date": "2026-04-08T14:13:20.175494",
+  "ref_url": "/tmp/ref_dettaglio.html",
+  "local_url": "/tmp/local_dettaglio.html",
   "stats": {
     "total_ref": 804,
     "total_local": 509,

@@ -1,8 +1,8 @@
 # HTML Body Structure Comparison: `segnalazione-dettaglio`
 
-**Date**: 2026-04-08 14:12:47
-**Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-dettaglio.html
-**Local**: http://127.0.0.1:8000/it/tests/segnalazione-dettaglio
+**Date**: 2026-04-08 14:13:20
+**Reference**: /tmp/ref_dettaglio.html
+**Local**: /tmp/local_dettaglio.html
 
 ## 📊 Parity Score
 

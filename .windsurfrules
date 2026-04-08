@@ -395,6 +395,120 @@ protected function getHeaderActions(): array
 - Actions are single-purpose, testable, and queueable
 - Example location: `Modules/ModuleName/app/Actions/ActionName.php`
 
+### FRONTEND STACK - CRITICAL ARCHITECTURAL RULE
+
+**NO BOOTSTRAP ITALIA - USE TAILWINDCSS + ALPINE.JS ONLY**
+
+This project's core purpose is to **replace Bootstrap Italia with TailwindCSS + Alpine.js**.
+Using Bootstrap defeats the entire purpose of the project.
+
+**WRONG (Bootstrap Italia):**
+```blade
+<div class="row">
+    <div class="col-12 col-lg-6">
+        <button class="btn btn-primary">Click</button>
+        <div class="card shadow">
+            <div class="card-body">Content</div>
+        </div>
+    </div>
+</div>
+<script src="bootstrap-italia.bundle.min.js"></script>
+<link rel="stylesheet" href="bootstrap-italia.min.css">
+```
+
+**CORRECT (TailwindCSS + Alpine.js):**
+```blade
+<div class="max-w-2xl mx-auto px-4">
+    <button class="inline-flex items-center px-4 py-2 bg-primary-500 text-white rounded-md hover:bg-primary-600">
+        Click
+    </button>
+    <div class="bg-white rounded-lg shadow-lg p-6">Content</div>
+</div>
+```
+
+**Forbidden Bootstrap Classes:**
+- Layout: `row`, `col-*`, `container`, `d-flex`, `d-none`, `justify-content-*`, `align-items-*`
+- Components: `card`, `card-body`, `btn`, `btn-*`, `form-check`, `form-control`, `navbar`, `modal`
+- Utilities: `visually-hidden`, `text-wrap`, `border-light`, `shadow-sm`, `bg-primary` (Bootstrap variant)
+- Spacing: `pt-lg-80`, `pb-lg-80`, `me-4`, `ms-2` (Bootstrap spacing scale)
+- JS attributes: `data-bs-toggle`, `data-bs-target`
+
+**Required TailwindCSS Patterns:**
+- Layout: `max-w-*`, `mx-auto`, `px-4 sm:px-6 lg:px-8`, `flex`, `grid`, `gap-*`
+- Components: Custom classes with Tailwind utilities
+- Responsive: `sm:`, `md:`, `lg:`, `xl:` breakpoints
+- Spacing: Tailwind spacing scale (1, 2, 3, 4, 6, 8, 12, 16, 20, 24, etc.)
+
+**Required Alpine.js Patterns:**
+- State: `x-data="{ open: false, step: 1 }"`
+- Events: `@click`, `@mouseenter`, `@mouseleave`, `@submit.prevent`
+- Visibility: `x-show`, `x-cloak`, `x-transition`
+- Binding: `x-model`, `:class`, `:aria-checked`
+- See: `laravel/Themes/Sixteen/docs/ALPINE-JS-COMPONENTS.md`
+
+**Documentation:** `laravel/Themes/Sixteen/docs/BLOCK_IMPLEMENTATION_GUIDE.md`
+
+### MULTILINGUAL STRINGS - NO HARDCODED TEXT
+
+**ALL blade templates MUST be multilingual.** Hardcoded strings in ANY language (Italian, English, etc.) are forbidden.
+
+**WRONG (Hardcoded Italian):**
+```blade
+<h2>Quanto sono chiare le informazioni?</h2>
+<button>Invia</button>
+<p>Grazie per il tuo feedback!</p>
+<span class="sr-only">Valuta 5 stelle su 5</span>
+```
+
+**WRONG (Hardcoded English):**
+```blade
+<h2>How clear is the information?</h2>
+<button>Submit</button>
+<p>Thank you for your feedback!</p>
+<span class="sr-only">Rate 5 stars out of 5</span>
+```
+
+**CORRECT (Translation namespace pattern):**
+```blade
+@php
+    $ns = 'fixcity::rating';
+    $title = $data['title'] ?? __($ns . '.title');
+@endphp
+<h2>{{ $title }}</h2>
+<button>{{ __($ns . '.buttons.submit') }}</button>
+<p>{{ __($ns . '.thank_you') }}</p>
+<span class="sr-only">{{ __($ns . '.star.labels.5') }}</span>
+```
+
+**Translation File Structure:**
+- Location: `laravel/Modules/Fixcity/lang/{locale}/rating.php`
+- Namespace pattern: `fixcity::rating.title`
+- Format: `namespace::context.collection.element.type`
+- Supported locales: `it`, `en` (minimum)
+
+**Translation Key Pattern Examples:**
+- ✅ `fixcity::rating.title`
+- ✅ `fixcity::rating.star.labels.5`
+- ✅ `fixcity::rating.buttons.submit`
+- ✅ `fixcity::segnalazione.heading.title.label`
+- ❌ `SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE` (wrong namespace format)
+- ❌ `fixcity::segnalazione.heading.title_label` (missing `.label` type)
+
+**Helper Pattern for JSON-driven content:**
+```php
+$t = function (?string $value, string $fallbackKey) use ($ns): string {
+    if (empty($value)) {
+        return __($ns . '.' . $fallbackKey);
+    }
+    if (str_contains($value, '::')) {
+        return __($value);
+    }
+    return $value;
+};
+```
+
+**Documentation:** `laravel/Themes/Sixteen/docs/BLOCK_IMPLEMENTATION_GUIDE.md`
+
 ### FOLIO + VOLT ROUTING (CRITICAL)
 
 **Pattern**: File-based routing con Laravel Folio + Livewire Volt

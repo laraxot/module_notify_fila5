@@ -111,7 +111,7 @@
     <div class="row row-column-menu-left mt-lg-80 mt-3">
         <div class="col-12 col-lg-3 mb-4">
             <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-one">
-                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="INDICE DELLA PAGINA">
+                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="{{ __($ns.'.detail.index.label') }}">
                     <div class="navbar-custom" id="navbarNavProgress">
                         <div class="menu-wrapper">
                             <div class="link-list-wrapper">
@@ -119,7 +119,7 @@
                                     <div class="accordion-item">
                                         <span class="accordion-header" id="accordion-title-one">
                                             <button class="accordion-button pb-10 px-3" type="button">
-                                                INDICE DELLA PAGINA
+                                                {{ __($ns.'.detail.index.label') }}
                                                 <svg class="icon icon-xs right">
                                                     <use xlink:href="{{ $sprite }}#it-expand"></use>
                                                 </svg>
@@ -140,7 +140,7 @@
                                                     @endforeach
                                                     <li class="nav-item">
                                                         <a class="nav-link" href="#contacts">
-                                                            <span>Contatti</span>
+                                                            <span>{{ __($ns.'.detail.contacts.label') }}</span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -213,7 +213,7 @@
                         </div>
 
                         <div class="col-12 mb-30">
-                            <span class="text-paragraph-small">Argomenti:</span>
+                            <span class="text-paragraph-small">{{ __($ns.'.detail.topics.label') }}:</span>
                             <ul class="d-flex flex-wrap gap-2 mt-10 mb-3">
                                 @foreach($topics as $topic)
                                     <li>
@@ -224,7 +224,7 @@
                                 @endforeach
                             </ul>
                             @if($updatedAt)
-                                <p class="text-paragraph-small mb-0">Pagina aggiornata il {{ $updatedAt }}</p>
+                                <p class="text-paragraph-small mb-0">{{ __('fixcity::segnalazione.detail.updated.text', ['date' => $updatedAt]) }}</p>
                             @endif
                         </div>
                     </div>
