@@ -50,7 +50,7 @@
                             <div class="dropdown" x-data="{ shareOpen: false }">
                                 <button aria-label="{{ __($ns.'.detail.share.aria') }}" class="btn btn-dropdown dropdown-toggle text-decoration-underline d-inline-flex align-items-center fs-0" type="button" id="shareActions" @click="shareOpen = !shareOpen" aria-haspopup="true" :aria-expanded="shareOpen.toString()">
                                     <svg class="icon" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-share"></use>
+                                        <use xlink:href="{{ $sprite }}#it-share"></use>
                                     </svg>
                                     <small>{{ __($ns.'.detail.share.label') }}</small>
                                 </button>
@@ -61,7 +61,7 @@
                                                 <li role="none">
                                                     <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem" @click="shareOpen = false">
                                                         <svg class="icon" aria-hidden="true">
-                                                            <use href="{{ $sprite }}#{{ $item['icon'] ?? 'it-share' }}"></use>
+                                                            <use xlink:href="{{ $sprite }}#{{ $item['icon'] ?? 'it-share' }}"></use>
                                                         </svg>
                                                         <span>{{ $item['label'] ?? '' }}</span>
                                                     </a>
@@ -77,7 +77,7 @@
                             <div class="dropdown" x-data="{ actionsOpen: false }">
                                 <button aria-label="{{ __($ns.'.detail.actions.aria') }}" class="btn btn-dropdown dropdown-toggle text-decoration-underline d-inline-flex align-items-center fs-0" type="button" id="viewActions" @click="actionsOpen = !actionsOpen" aria-haspopup="true" :aria-expanded="actionsOpen.toString()">
                                     <svg class="icon" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-more-items"></use>
+                                        <use xlink:href="{{ $sprite }}#it-more-items"></use>
                                     </svg>
                                     <small>{{ __($ns.'.detail.actions.label') }}</small>
                                 </button>
@@ -88,7 +88,7 @@
                                                 <li role="none">
                                                     <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem" @click="actionsOpen = false">
                                                         <svg class="icon" aria-hidden="true">
-                                                            <use href="{{ $sprite }}#{{ $item['icon'] ?? 'it-link' }}"></use>
+                                                            <use xlink:href="{{ $sprite }}#{{ $item['icon'] ?? 'it-link' }}"></use>
                                                         </svg>
                                                         <span>{{ $item['label'] ?? '' }}</span>
                                                     </a>
@@ -111,7 +111,7 @@
     <div class="row row-column-menu-left mt-lg-80 mt-3">
         <div class="col-12 col-lg-3 mb-4">
             <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-one">
-                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="{{ __($ns.'.detail.index.label') }}">
+                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="INDICE DELLA PAGINA">
                     <div class="navbar-custom" id="navbarNavProgress">
                         <div class="menu-wrapper">
                             <div class="link-list-wrapper">
@@ -119,9 +119,9 @@
                                     <div class="accordion-item">
                                         <span class="accordion-header" id="accordion-title-one">
                                             <button class="accordion-button pb-10 px-3" type="button">
-                                                {{ __($ns.'.detail.index.label') }}
+                                                INDICE DELLA PAGINA
                                                 <svg class="icon icon-xs right">
-                                                    <use href="{{ $sprite }}#it-expand"></use>
+                                                    <use xlink:href="{{ $sprite }}#it-expand"></use>
                                                 </svg>
                                             </button>
                                         </span>
@@ -140,7 +140,7 @@
                                                     @endforeach
                                                     <li class="nav-item">
                                                         <a class="nav-link" href="#contacts">
-                                                            <span>{{ __($ns.'.detail.contacts.label') }}</span>
+                                                            <span>Contatti</span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -172,7 +172,7 @@
                                     <a class="list-item icon-left d-inline-block" href="{{ $link['url'] ?? '#' }}" aria-label="{{ $link['label'] ?? '' }}" title="{{ $link['label'] ?? '' }}">
                                         <span class="list-item-title-icon-wrapper">
                                             <svg class="icon icon-primary icon-sm me-1" aria-hidden="true">
-                                                <use href="{{ $sprite }}#{{ $link['icon'] ?? 'it-clip' }}"></use>
+                                                <use xlink:href="{{ $sprite }}#{{ $link['icon'] ?? 'it-clip' }}"></use>
                                             </svg>
                                             <span class="list-item">{{ $link['label'] ?? '' }}</span>
                                         </span>
@@ -213,7 +213,7 @@
                         </div>
 
                         <div class="col-12 mb-30">
-                            <span class="text-paragraph-small">{{ __($ns.'.detail.topics.label') }}:</span>
+                            <span class="text-paragraph-small">Argomenti:</span>
                             <ul class="d-flex flex-wrap gap-2 mt-10 mb-3">
                                 @foreach($topics as $topic)
                                     <li>
@@ -224,7 +224,7 @@
                                 @endforeach
                             </ul>
                             @if($updatedAt)
-                                <p class="text-paragraph-small mb-0">{{ __($ns.'.detail.updated.text', ['date' => $updatedAt]) }}</p>
+                                <p class="text-paragraph-small mb-0">Pagina aggiornata il {{ $updatedAt }}</p>
                             @endif
                         </div>
                     </div>

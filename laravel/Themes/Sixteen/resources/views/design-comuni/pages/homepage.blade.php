@@ -5,7 +5,7 @@
     Body Length: 1331 righe HTML
 --}}
 
-@extends('pub_theme::layouts.bootstrap-italia')
+@extends('pub_theme::layouts.base')
 
 @section('title', 'Il mio Comune')
 
@@ -20,7 +20,6 @@
 </div>
 
 {{-- Header Component --}}
-@include('pub_theme::bootstrap-italia.header')
 
 {{-- Main Content --}}
 <main>
