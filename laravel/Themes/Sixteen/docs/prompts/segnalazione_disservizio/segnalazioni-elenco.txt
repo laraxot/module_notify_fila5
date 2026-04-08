@@ -1,7 +1,7 @@
 #FASE 1
-bmad-help fase 1
+/bmad-help fase 1
 obiettivo: raggiungiamo il 90% di struttura html uguale.
-tramite lo script che hai messo dentro una sottocartella di ./bashscripts e documentato dentro ./bahscripts/docs utilizzando anche gli indici , dobbiamo confrontare la struttura html del tag body incluso, ad esclusione degli script di 
+tramite lo script che hai messo dentro una sottocartella di ./bashscripts e documentato dentro ./bahscripts/docs utilizzando anche gli indici , dobbiamo confrontare la struttura html del tag body incluso, ad esclusione degli script, controlliamo il numero di elementi, ed importante la corrispondenza degli id e le classi css  di 
 https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html
 e confrontarlo con 
 http://127.0.0.1:8000/it/tests/segnalazioni-elenco
@@ -19,6 +19,8 @@ la locazione di questo script e' sbagliata ./bashscripts/html-structure-compare.
  bashscripts deve essere agnostico, percio' se hai degli output da salvare di questo confronto devi salvarli dentro una sottocartella di laravel/Themes/Sixteen/docs
 
 la locazione di questo script bashscripts/compare-html-body.py e' sbagliata ! quella giusta e' bashscripts/html/compare-html-body.py
+
+questo file bashscripts/body/html-structure-compare.sh e' sbagliato il contesto non e' body ma leggermente piu' ampio percio' html .. percio' doveva essere bashscripts/html/html-structure-compare.sh
 
 questo file .md  bashscripts/docs/segnalazioni-elenco-html-parity-analysis.md   non puo' stare qui , perche' bashscripts e' agnostico va spostato dentro la cartella /var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio 
 

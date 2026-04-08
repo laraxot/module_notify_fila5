@@ -1,54 +1,31 @@
 # Batch Visual Parity — Screenshot Summary
 
 **Date:** 2026-04-08
-**Pages captured:** 18/35
-**Failed:** 17
+**Pages captured:** 17/17
+**Failed:** 0
 
 ## Results
 
 | Page | Desktop | Tablet | Mobile |
 |------|---------|--------|--------|
-| homepage | ✅/✅ | ✅/✅ | ✅/✅ |
-| domande-frequenti | ✅/✅ | ✅/✅ | ✅/✅ |
-| risultati-ricerca | ✅/❌ | ✅/✅ | ✅/✅ |
-| argomenti | ✅/✅ | ✅/✅ | ✅/✅ |
-| argomento | ✅/✅ | ✅/✅ | ✅/✅ |
-| lista-risorse | ✅/✅ | ✅/✅ | ✅/✅ |
-| lista-categorie | ✅/✅ | ✅/✅ | ✅/✅ |
-| lista-risorse-categorie | ✅/✅ | ✅/✅ | ✅/✅ |
-| mappa-sito | ✅/✅ | ✅/✅ | ✅/✅ |
-| amministrazione | ✅/✅ | ✅/✅ | ✅/✅ |
-| documenti-dati | ✅/✅ | ✅/✅ | ✅/✅ |
-| novita | ✅/✅ | ✅/✅ | ✅/✅ |
-| novita-dettaglio | ✅/✅ | ✅/✅ | ✅/✅ |
-| servizi | ✅/✅ | ✅/✅ | ✅/✅ |
-| servizi-categoria | ✅/✅ | ✅/✅ | ✅/✅ |
-| servizio-dettaglio | ✅/✅ | ✅/✅ | ✅/✅ |
-| eventi | ✅/✅ | ✅/✅ | ✅/✅ |
-| evento-dettaglio | ✅/✅ | ✅/✅ | ✅/✅ |
+| appuntamento-01-ufficio | ✅/✅ | ✅/✅ | ✅/✅ |
+| appuntamento-01-ufficio-luogo | ✅/✅ | ✅/✅ | ✅/✅ |
+| appuntamento-02-data-orario | ✅/✅ | ✅/✅ | ✅/✅ |
+| appuntamento-03-dettagli | ✅/✅ | ✅/✅ | ✅/✅ |
+| appuntamento-04-richiedente | ✅/✅ | ✅/✅ | ✅/✅ |
+| appuntamento-04-richiedente-autenticato | ✅/✅ | ✅/✅ | ✅/✅ |
+| appuntamento-05-riepilogo | ✅/✅ | ✅/✅ | ✅/✅ |
+| appuntamento-06-conferma | ✅/✅ | ✅/✅ | ✅/✅ |
+| assistenza-01-dati | ✅/✅ | ✅/✅ | ✅/✅ |
+| assistenza-02-conferma | ✅/✅ | ✅/✅ | ✅/✅ |
+| segnalazione-dettaglio | ✅/✅ | ✅/✅ | ✅/✅ |
+| segnalazioni-elenco | ✅/✅ | ✅/✅ | ✅/✅ |
+| segnalazione-01-privacy | ✅/✅ | ✅/✅ | ✅/✅ |
+| segnalazione-02-dati | ✅/✅ | ✅/✅ | ✅/✅ |
+| segnalazione-03-riepilogo | ✅/✅ | ✅/✅ | ✅/✅ |
+| segnalazione-04-conferma | ✅/✅ | ✅/✅ | ✅/✅ |
+| segnalazione-area-personale | ✅/✅ | ✅/✅ | ✅/❌ |
 
-
-## Failed Pages
-
-| Page | Error |
-|------|-------|
-| appuntamento-01-ufficio | page.setViewportSize: Target page, context or browser has been closed |
-| appuntamento-01-ufficio-luogo | browser.newContext: Target page, context or browser has been closed |
-| appuntamento-02-data-orario | browser.newContext: Target page, context or browser has been closed |
-| appuntamento-03-dettagli | browser.newContext: Target page, context or browser has been closed |
-| appuntamento-04-richiedente | browser.newContext: Target page, context or browser has been closed |
-| appuntamento-04-richiedente-autenticato | browser.newContext: Target page, context or browser has been closed |
-| appuntamento-05-riepilogo | browser.newContext: Target page, context or browser has been closed |
-| appuntamento-06-conferma | browser.newContext: Target page, context or browser has been closed |
-| assistenza-01-dati | browser.newContext: Target page, context or browser has been closed |
-| assistenza-02-conferma | browser.newContext: Target page, context or browser has been closed |
-| segnalazione-dettaglio | browser.newContext: Target page, context or browser has been closed |
-| segnalazioni-elenco | browser.newContext: Target page, context or browser has been closed |
-| segnalazione-01-privacy | browser.newContext: Target page, context or browser has been closed |
-| segnalazione-02-dati | browser.newContext: Target page, context or browser has been closed |
-| segnalazione-03-riepilogo | browser.newContext: Target page, context or browser has been closed |
-| segnalazione-04-conferma | browser.newContext: Target page, context or browser has been closed |
-| segnalazione-area-personale | browser.newContext: Target page, context or browser has been closed |
 
 
 ## Next Steps

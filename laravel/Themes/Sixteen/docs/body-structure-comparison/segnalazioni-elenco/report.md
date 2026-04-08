@@ -1,6 +1,6 @@
 # HTML Body Structure Comparison Report
 
-**Generated:** 2026-04-08T08:12:57.368Z
+**Generated:** 2026-04-08T08:29:06.093Z
 **Reference:** `reference_segnalazioni.html`
 **Local:** `local_segnalazioni.html`
 
@@ -10,17 +10,17 @@
 
 | Metric | Value |
 |--------|-------|
-| **Overall Parity Score** | **43.69%** |
-| Structure Parity | 46.01% |
-| Class Parity | 40.21% |
+| **Overall Parity Score** | **0.00%** |
+| Structure Parity | 0.00% |
+| Class Parity | 0.00% |
 | Reference Elements | 776 |
-| Local Elements | 437 |
+| Local Elements | 1812 |
 
 ### Breakdown
-- ✅ **Identical Elements:** 312
-- ⚠️ **Different Classes/Attrs:** 45
-- ❌ **Missing in Local:** 419
-- ➕ **Extra in Local:** 80
+- ✅ **Identical Elements:** 0
+- ⚠️ **Different Classes/Attrs:** 0
+- ❌ **Missing in Local:** 776
+- ➕ **Extra in Local:** 1812
 
 ---
 
@@ -28,192 +28,50 @@
 
 These elements match perfectly between reference and local implementation.
 
-- `html > body`
-- `html > body > div.skiplink`
-- `html > body > div.skiplink > a.visually-hidden-focusable`
-- `html > body > header.it-header-wrapper`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > a.d-lg-block.navbar-brand`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > span.visually-hidden`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > span`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > svg`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span > span.visually-hidden`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item`
-- `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > svg`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > div.it-brand-text`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > div.it-brand-text > div.it-brand-title`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > div.it-brand-text > div.it-brand-tagline.d-none.d-md-block`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > span`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li`
-- `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a`
-
-... and 262 more identical elements
+*No identical elements found.*
 
 ---
 
 ## ⚠️ Elements with Differences
 
-### `html > body > div.skiplink > a.visually-hidden-focusable`
-- **Tag:** `a`
-
-### `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > svg > image`
-- **Tag:** `image`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper > button.search-link.rounded-icon > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div > button.btn.close-menu > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav`
-- **Tag:** `nav`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link`
-- **Tag:** `a`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link`
-- **Tag:** `a`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link`
-- **Tag:** `a`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link`
-- **Tag:** `a`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link`
-- **Tag:** `a`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link`
-- **Tag:** `a`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link > span > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use`
-- **Tag:** `use`
-
-### `html > body > main`
-- **Tag:** `main`
-
-### `html > body > div#search-modal > div.modal-dialog.modal-lg > div.modal-content.perfect-scrollbar > div.modal-body > form > div.container > div.row.variable-gutters > div.col > div.modal-title > button.search-link.d-md-none > svg > use`
-- **Tag:** `use`
-
-### `html > body > div#search-modal > div.modal-dialog.modal-lg > div.modal-content.perfect-scrollbar > div.modal-body > form > div.container > div.row.variable-gutters > div.col > div.modal-title > button.search-link.d-none.d-md-block > svg > use`
-- **Tag:** `use`
-
-### `html > body > div#search-modal > div.modal-dialog.modal-lg > div.modal-content.perfect-scrollbar > div.modal-body > form > div.container > div.row.variable-gutters > div.col > div.form-group.autocomplete-wrapper > span.autocomplete-icon > svg > use`
-- **Tag:** `use`
-
-
-... and 15 more elements with differences
+*No differences found in classes/attributes.*
 
 ---
 
 ## ❌ Elements Missing in Local
 
-- ❌ `<a .btn.btn-primary.btn-icon.btn-full>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full`
-- ❌ `<span .rounded-icon>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.rounded-icon`
-- ❌ `<svg>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.rounded-icon > svg`
-- ❌ `<use>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.rounded-icon > svg > use`
-- ❌ `<span .d-none.d-lg-block>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.d-none.d-lg-block`
-- ❌ `<button .custom-navbar-toggler>` at `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > button.custom-navbar-toggler`
-- ❌ `<svg>` at `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > button.custom-navbar-toggler > svg`
-- ❌ `<use>` at `html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > button.custom-navbar-toggler > svg > use`
-- ❌ `<div .row.justify-content-center.mb-md-40.mb-lg-80>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80`
-- ❌ `<div .col-12.col-lg-10>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10`
-- ❌ `<div .cmp-breadcrumbs>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs`
-- ❌ `<nav .breadcrumb-container>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container`
-- ❌ `<ol .breadcrumb.p-0>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0`
-- ❌ `<li .breadcrumb-item>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item`
-- ❌ `<a>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item > a`
-- ❌ `<span .separator>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item > span.separator`
-- ❌ `<li .breadcrumb-item.active>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item.active`
-- ❌ `<div .cmp-heading.p-0>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0`
-- ❌ `<h1 .title-xxxlarge>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0 > h1.title-xxxlarge`
-- ❌ `<p .subtitle-small>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0 > p.subtitle-small`
-- ❌ `<hr .d-none.d-lg-block.mt-30.mb-2>` at `html > body > main > div#main-container > div.row.justify-content-center.mb-md-40.mb-lg-80 > hr.d-none.d-lg-block.mt-30.mb-2`
-- ❌ `<div .row.justify-content-center>` at `html > body > main > div#main-container > div.row.justify-content-center`
-- ❌ `<div .col-lg-3.d-none.d-lg-block>` at `html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block`
-- ❌ `<fieldset>` at `html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset`
-- ❌ `<legend .h6.text-uppercase.category-list__title>` at `html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > legend.h6.text-uppercase.category-list__title`
-- ❌ `<div .categoy-list.pb-4>` at `html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4`
-- ❌ `<ul>` at `html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul`
-- ❌ `<li>` at `html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li`
-- ❌ `<div .form-check>` at `html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check`
-- ❌ `<div .checkbox-body.border-light.py-1>` at `html > body > main > div#main-container > div.row.justify-content-center > div.col-lg-3.d-none.d-lg-block > fieldset > div.categoy-list.pb-4 > ul > li > div.form-check > div.checkbox-body.border-light.py-1`
+- ❌ `<body>` at `html > body`
+- ❌ `<div .skiplink>` at `html > body > div.skiplink`
+- ❌ `<a .visually-hidden-focusable>` at `html > body > div.skiplink > a.visually-hidden-focusable`
+- ❌ `<a .visually-hidden-focusable>` at `html > body > div.skiplink > a.visually-hidden-focusable`
+- ❌ `<header .it-header-wrapper>` at `html > body > header.it-header-wrapper`
+- ❌ `<div .it-header-slim-wrapper>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper`
+- ❌ `<div .container>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container`
+- ❌ `<div .row>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row`
+- ❌ `<div .col-12>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12`
+- ❌ `<div .it-header-slim-wrapper-content>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content`
+- ❌ `<a .d-lg-block.navbar-brand>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > a.d-lg-block.navbar-brand`
+- ❌ `<div .it-header-slim-right-zone>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone`
+- ❌ `<div .nav-item.dropdown>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown`
+- ❌ `<button .nav-link.dropdown-toggle>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle`
+- ❌ `<span .visually-hidden>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > span.visually-hidden`
+- ❌ `<span>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > span`
+- ❌ `<svg>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > svg`
+- ❌ `<use>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > svg > use`
+- ❌ `<div .dropdown-menu>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu`
+- ❌ `<div .row>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row`
+- ❌ `<div .col-12>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12`
+- ❌ `<div .link-list-wrapper>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper`
+- ❌ `<ul .link-list>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list`
+- ❌ `<li>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li`
+- ❌ `<a .dropdown-item.list-item>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item`
+- ❌ `<span>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span`
+- ❌ `<span .visually-hidden>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span > span.visually-hidden`
+- ❌ `<li>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li`
+- ❌ `<a .dropdown-item.list-item>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item`
+- ❌ `<span>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span`
 
-... and 389 more missing elements
+... and 746 more missing elements
 
 ---
 
@@ -221,46 +79,46 @@ These elements match perfectly between reference and local implementation.
 
 These elements exist in local but not in reference:
 
-- ➕ `<a .btn.btn-outline-light.btn-icon>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-outline-light.btn-icon`
-- ➕ `<svg>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-outline-light.btn-icon > svg`
-- ➕ `<use>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-outline-light.btn-icon > svg > use`
-- ➕ `<button .custom-navbar-toggler.d-lg-none.me-3>` at `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > button.custom-navbar-toggler.d-lg-none.me-3`
-- ➕ `<svg>` at `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > button.custom-navbar-toggler.d-lg-none.me-3 > svg`
-- ➕ `<use>` at `html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > button.custom-navbar-toggler.d-lg-none.me-3 > svg > use`
-- ➕ `<div .main-content>` at `html > body > main > div#main-container > div.main-content`
-- ➕ `<div .row.justify-content-center.mb-md-40.mb-lg-80>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80`
-- ➕ `<div .col-12.col-lg-10>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10`
-- ➕ `<div .cmp-breadcrumbs>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs`
-- ➕ `<nav .breadcrumb-container>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container`
-- ➕ `<ol .breadcrumb.p-0>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0`
-- ➕ `<li .breadcrumb-item>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item`
-- ➕ `<a>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item > a`
-- ➕ `<span .separator>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item > span.separator`
-- ➕ `<li .breadcrumb-item.active>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item.active`
-- ➕ `<div .cmp-heading.p-0>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0`
-- ➕ `<h1 .title-xxxlarge>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0 > h1.title-xxxlarge`
-- ➕ `<p .subtitle-small>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > div.col-12.col-lg-10 > div.cmp-heading.p-0 > p.subtitle-small`
-- ➕ `<hr .d-none.d-lg-block.mt-30.mb-2>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center.mb-md-40.mb-lg-80 > hr.d-none.d-lg-block.mt-30.mb-2`
-- ➕ `<div .row.justify-content-center>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center`
-- ➕ `<div .col-lg-8.offset-lg-1>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1`
-- ➕ `<div .d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5`
-- ➕ `<span .search-results>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > span.search-results`
-- ➕ `<button .btn.p-0.pe-2.d-lg-none>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none`
-- ➕ `<span .rounded-icon>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.rounded-icon`
-- ➕ `<svg>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.rounded-icon > svg`
-- ➕ `<use>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.rounded-icon > svg > use`
-- ➕ `<span .t-primary.title-xsmall-semi-bold.ms-1>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-lg-none > span.t-primary.title-xsmall-semi-bold.ms-1`
-- ➕ `<button .btn.p-0.pe-2.d-none.d-lg-block>` at `html > body > main > div#main-container > div.main-content > div.row.justify-content-center > div.col-lg-8.offset-lg-1 > div.d-flex.justify-content-between.border-bottom.border-light.pb-3.mt-5 > button.btn.p-0.pe-2.d-none.d-lg-block`
+- ➕ `<body .font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark`
+- ➕ `<div .min-h-dvh>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh`
+- ➕ `<section .w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0`
+- ➕ `<div .flex.items-center.justify-between>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between`
+- ➕ `<div .flex.items-center.gap-2.h-[56px]>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px]`
+- ➕ `<div .w-[18px].h-[18px].flex.items-center.justify-center.bg-rose-500.rounded-md>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px] > div.w-[18px].h-[18px].flex.items-center.justify-center.bg-rose-500.rounded-md`
+- ➕ `<svg>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px] > div.w-[18px].h-[18px].flex.items-center.justify-center.bg-rose-500.rounded-md > svg`
+- ➕ `<path>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px] > div.w-[18px].h-[18px].flex.items-center.justify-center.bg-rose-500.rounded-md > svg > path`
+- ➕ `<path>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px] > div.w-[18px].h-[18px].flex.items-center.justify-center.bg-rose-500.rounded-md > svg > path`
+- ➕ `<div .font-medium.text-sm.text-neutral-900.dark:text-white>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px] > div.font-medium.text-sm.text-neutral-900.dark:text-white`
+- ➕ `<button .text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10`
+- ➕ `<svg>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg`
+- ➕ `<g>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > g`
+- ➕ `<path>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > g > path`
+- ➕ `<defs>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > defs`
+- ➕ `<clippath>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > defs > clippath#clip0_14732_6079`
+- ➕ `<rect>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > defs > clippath#clip0_14732_6079 > rect`
+- ➕ `<svg>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg`
+- ➕ `<path>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > path`
+- ➕ `<span>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > span`
+- ➕ `<div .h-0.w-full.relative>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > div.h-0.w-full.relative`
+- ➕ `<div .absolute.top-[-1px].left-0.right-0.bottom-0.border-t.border-dashed.border-neutral-300.dark:border-white/[9%]>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > div.h-0.w-full.relative > div.absolute.top-[-1px].left-0.right-0.bottom-0.border-t.border-dashed.border-neutral-300.dark:border-white/[9%]`
+- ➕ `<section .w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0`
+- ➕ `<div .flex.flex-col.pt-8.sm:pt-16.overflow-x-auto>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto`
+- ➕ `<div .flex.flex-col.gap-5.mb-8>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8`
+- ➕ `<h1 .text-3xl.font-semibold.text-neutral-950.dark:text-white>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8 > h1.text-3xl.font-semibold.text-neutral-950.dark:text-white`
+- ➕ `<div .truncate.font-mono.text-xs.text-neutral-500.dark:text-neutral-400.-mt-3.text-xs>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8 > div.truncate.font-mono.text-xs.text-neutral-500.dark:text-neutral-400.-mt-3.text-xs`
+- ➕ `<span>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8 > div.truncate.font-mono.text-xs.text-neutral-500.dark:text-neutral-400.-mt-3.text-xs > span`
+- ➕ `<span .text-neutral-500>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8 > div.truncate.font-mono.text-xs.text-neutral-500.dark:text-neutral-400.-mt-3.text-xs > span > span.text-neutral-500`
+- ➕ `<p .text-xl.font-light.text-neutral-800.dark:text-neutral-300>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8 > p.text-xl.font-light.text-neutral-800.dark:text-neutral-300`
 
-... and 50 more extra elements
+... and 1782 more extra elements
 
 ---
 
 ## 🎯 Action Items
 
-❌ **Target not reached.** Need 46.3% more parity.
+❌ **Target not reached.** Need 90.0% more parity.
 
 ### Priority Fixes
-1. **Add 419 missing elements** from reference
-2. **Fix 45 elements** with class/attribute differences
-3. **Review 80 extra elements** (remove if not needed)
+1. **Add 776 missing elements** from reference
+2. **Fix 0 elements** with class/attribute differences
+3. **Review 1812 extra elements** (remove if not needed)

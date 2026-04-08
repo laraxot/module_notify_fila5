@@ -8,14 +8,13 @@
         if (empty($value)) {
             return $default;
         }
-        // If value looks like a translation key, resolve it
         if (str_contains($value, '::')) {
             return __($value);
         }
         return $value;
     };
 
-    // Breadcrumb
+    // Data extraction
     $rawBreadcrumb = $data['breadcrumb'] ?? [];
     $breadcrumbItems = [];
     foreach ($rawBreadcrumb as $item) {
@@ -32,14 +31,10 @@
         ];
     }
 
-    // Heading
     $title = $t($data['title'] ?? '', __($ns . '.heading.title.label'));
     $subtitle = $t($data['subtitle'] ?? '', __($ns . '.heading.subtitle.text', ['count' => 73]));
-
-    // Results
     $resultsCount = $data['results_count'] ?? 645;
 
-    // Tabs
     $rawTabs = $data['tabs'] ?? [];
     $tabs = [];
     foreach ($rawTabs as $tab) {
@@ -56,14 +51,12 @@
         ];
     }
 
-    // Filters
     $rawFilters = $data['filters'] ?? [];
     $filters = [
         'title' => $t($rawFilters['title'] ?? '', __($ns . '.filters.legend.label')),
         'items' => $rawFilters['items'] ?? [],
     ];
 
-    // CTA (Map tab)
     $rawCta = $data['cta'] ?? [];
     $cta = !empty($rawCta)
         ? [
@@ -73,10 +66,8 @@
         ]
         : [];
 
-    // Items (List tab)
     $items = $data['items'] ?? [];
 
-    // Contacts
     $rawContacts = $data['contacts'] ?? [];
     $contacts = !empty($rawContacts)
         ? [
@@ -104,21 +95,19 @@
     $sprite = '/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg';
 @endphp
 
-{{-- Main Container Content --}}
-<div class="main-content">
+<div class="container" id="main-container">
     {{-- Breadcrumb + Heading Row --}}
     <div class="row justify-content-center mb-md-40 mb-lg-80">
         <div class="col-12 col-lg-10">
-            {{-- Breadcrumbs --}}
             <div class="cmp-breadcrumbs" role="navigation">
                 <nav class="breadcrumb-container" aria-label="breadcrumb">
                     <ol class="breadcrumb p-0" data-element="breadcrumb">
                         @foreach ($breadcrumbItems as $item)
                             <li
-                                class="breadcrumb-item{{ isset($item['active']) && $item['active'] ? ' active' : '' }}"{{ isset($item['active']) && $item['active'] ? ' aria-current="page"' : '' }}>
-                                @if (isset($item['url']) && $item['url'])
-                                    <a href="{{ $item['url'] }}">{{ $item['label'] }}</a>
-                                    <span class="separator">/</span>
+                                class="breadcrumb-item{{ $item['active'] ?? false ? ' active' : '' }}"{{ $item['active'] ?? false ? ' aria-current="page"' : '' }}>
+                                @if ($item['url'] ?? false)
+                                    <a href="{{ $item['url'] }}">{{ $item['label'] }}</a><span
+                                        class="separator">/</span>
                                 @else
                                     {{ $item['label'] }}
                                 @endif
@@ -127,8 +116,6 @@
                     </ol>
                 </nav>
             </div>
-
-            {{-- Heading --}}
             <div class="cmp-heading p-0">
                 <h1 class="title-xxxlarge">{{ $title }}</h1>
                 @if ($subtitle)
@@ -141,12 +128,11 @@
 
     {{-- Content Row: Filters + Results --}}
     <div class="row justify-content-center">
-        {{-- Filters Sidebar (Desktop only) --}}
+        {{-- Filters Sidebar (Desktop) --}}
         @if (!empty($filters['items']))
             <div class="col-lg-3 d-none d-lg-block">
                 <fieldset>
-                    <legend class="h6 text-uppercase category-list__title">
-                        {{ $filters['title'] ?? __($ns . '.filters.legend.label') }}</legend>
+                    <legend class="h6 text-uppercase category-list__title">{{ $filters['title'] }}</legend>
                     <div class="categoy-list pb-4">
                         <ul>
                             @foreach ($filters['items'] as $filter)
@@ -171,11 +157,9 @@
 
         {{-- Results Column --}}
         <div class="col-lg-8 offset-lg-1">
-            {{-- Results Header --}}
             <div class="d-flex justify-content-between border-bottom border-light pb-3 mt-5">
                 <span class="search-results">{{ __($ns . '.results.count.text', ['count' => $resultsCount]) }}</span>
 
-                {{-- Mobile Filter Button --}}
                 <button type="button" data-bs-toggle="modal" data-bs-target="#modal-categories"
                     class="btn p-0 pe-2 d-lg-none">
                     <span class="rounded-icon">
@@ -183,11 +167,9 @@
                             <use href="{{ $sprite }}#it-funnel"></use>
                         </svg>
                     </span>
-                    <span
-                        class="t-primary title-xsmall-semi-bold ms-1">{{ __($ns . '.filter.button.label') }}</span>
+                    <span class="t-primary title-xsmall-semi-bold ms-1">{{ __($ns . '.filter.button.label') }}</span>
                 </button>
 
-                {{-- Desktop Remove Filters Button --}}
                 <button type="button" class="btn p-0 pe-2 d-none d-lg-block">
                     <span class="title-xsmall-semi-bold ms-1">{{ __($ns . '.filter.remove.label') }}</span>
                 </button>
@@ -196,12 +178,12 @@
             {{-- Tabs --}}
             <ul class="nav nav-tabs w-100 flex-nowrap border-bottom border-light mb-40 mt-3 shadow-none"
                 id="tabDisservizio" role="tablist">
-                @foreach ($tabs as $tab)
+                @foreach ($tabs as $index => $tab)
                     <li class="nav-item w-100" role="tab">
-                        <a class="nav-link{{ isset($tab['active']) && $tab['active'] ? ' active' : '' }} title-medium-semi-bold pt-0"
-                            href="#data-ex-disservizio{{ $loop->iteration }}" aria-current="page" data-bs-toggle="tab"
-                            role="button" aria-controls="disservizio{{ $loop->iteration }}"
-                            aria-selected="{{ isset($tab['active']) && $tab['active'] ? 'true' : 'false' }}">
+                        <a class="nav-link{{ $tab['active'] ?? false ? ' active' : '' }} title-medium-semi-bold pt-0"
+                            href="#data-ex-disservizio{{ $index + 1 }}" aria-current="page" data-bs-toggle="tab"
+                            role="button" aria-controls="disservizio{{ $index + 1 }}"
+                            aria-selected="{{ $tab['active'] ?? false ? 'true' : 'false' }}">
                             {{ $tab['label'] }}
                         </a>
                     </li>
@@ -211,7 +193,7 @@
             {{-- Tab Content --}}
             <div class="tab-content">
                 {{-- Map Tab --}}
-                <div class="tab-pane fade{{ isset($tabs[0]['active']) && $tabs[0]['active'] ? ' show active' : '' }}"
+                <div class="tab-pane fade{{ isset($tabs[0]) && ($tabs[0]['active'] ?? false) ? ' show active' : '' }}"
                     id="data-ex-disservizio1" role="tabpanel">
                     <div class="row">
                         <div class="col-12">
@@ -221,25 +203,22 @@
                                 <button type="button" class="pin" data-bs-toggle="modal"
                                     data-bs-target="#modal-disservizio">
                                     <img src="/themes/Sixteen/design-comuni/assets/images/map-pin.svg"
-                                        alt="{{ __($ns . '.map.pin.alt') }}"
-                                        title="{{ __($ns . '.map.pin.alt') }}">
+                                        alt="{{ __($ns . '.map.pin.alt') }}" title="{{ __($ns . '.map.pin.alt') }}">
                                 </button>
                             </div>
                         </div>
                         @if (!empty($cta))
                             <div class="col-lg-6 mt-50 mb-4 mb-lg-0">
                                 <div class="cmp-text-button mt-0">
-                                    <h2 class="title-xxlarge mb-0">
-                                        {{ $cta['title'] ?? __($ns . '.map.cta.title.label') }}</h2>
+                                    <h2 class="title-xxlarge mb-0">{{ $cta['title'] }}</h2>
                                     <div class="text-wrapper">
-                                        <p class="subtitle-small mb-3 mt-3">
-                                            {{ $cta['text'] ?? __($ns . '.map.cta.text.label') }}</p>
+                                        <p class="subtitle-small mb-3 mt-3">{{ $cta['text'] }}</p>
                                     </div>
                                     <div class="button-wrapper">
                                         <button type="button" data-bs-toggle="modal"
                                             data-bs-target="#modal-disservizio"
                                             class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
-                                            <span>{{ $cta['button_text'] ?? __($ns . '.map.cta.button.label') }}</span>
+                                            <span>{{ $cta['button_text'] }}</span>
                                         </button>
                                     </div>
                                 </div>
@@ -249,7 +228,8 @@
                 </div>
 
                 {{-- List Tab --}}
-                <div class="tab-pane fade" id="data-ex-disservizio2" role="tabpanel">
+                <div class="tab-pane fade{{ (isset($tabs[0]) && !($tabs[0]['active'] ?? false)) || !isset($tabs[0]) ? ' show active' : '' }}"
+                    id="data-ex-disservizio2" role="tabpanel">
                     <div class="row">
                         @foreach ($items as $item)
                             <div class="cmp-card mb-4 mb-lg-30">
@@ -259,12 +239,10 @@
                                             <div class="card p-3 p-lg-4">
                                                 <div class="card-body p-0">
                                                     <h3 class="medium-title mb-0">{{ $item['title'] ?? '' }}</h3>
-
-                                                    <p class="card-info">{{ __($ns . '.card.type.label') }}<br>
-                                                        <span>{{ $item['type'] ?? '' }}</span>
+                                                    <p class="card-info">
+                                                        {{ __($ns . '.card.type.label') }}<br><span>{{ $item['type'] ?? '' }}</span>
                                                     </p>
 
-                                                    {{-- Expandable section --}}
                                                     <div class="accordion-item">
                                                         <div class="accordion-header">
                                                             <button class="collapsed accordion-button" type="button"
@@ -273,7 +251,7 @@
                                                                 aria-expanded="false"
                                                                 aria-controls="collapse{{ $loop->iteration }}">
                                                                 <span class="d-flex align-items-center">
-                                                                    {{ __($ns . '.card.expand_btn.label') }}
+                                                                    {{ __($ns . '.card.expand.button.label') }}
                                                                     <svg class="icon icon-primary icon-sm">
                                                                         <use href="{{ $sprite }}#it-expand">
                                                                         </use>
@@ -291,10 +269,9 @@
                                                                             @if (!empty($item['edit_url']))
                                                                                 <a href="{{ $item['edit_url'] }}"
                                                                                     class="d-none text-decoration-none"><span
-                                                                                        class="text-button-sm-semi t-primary">{{ __($ns . '.card.edit_link.text') }}</span></a>
+                                                                                        class="text-button-sm-semi t-primary">{{ __($ns . '.card.edit.link.label') }}</span></a>
                                                                             @endif
                                                                         </div>
-
                                                                         <div class="card-body p-0">
                                                                             @if (!empty($item['location']))
                                                                                 <div
@@ -308,7 +285,6 @@
                                                                                     </div>
                                                                                 </div>
                                                                             @endif
-
                                                                             @if (!empty($item['description']))
                                                                                 <div
                                                                                     class="single-line-info border-light">
@@ -322,7 +298,6 @@
                                                                                     </div>
                                                                                 </div>
                                                                             @endif
-
                                                                             @if (!empty($item['images']) && is_array($item['images']))
                                                                                 <div
                                                                                     class="single-line-info border-light">
@@ -335,7 +310,7 @@
                                                                                             @foreach ($item['images'] as $img)
                                                                                                 <div>
                                                                                                     <img src="{{ $img }}"
-                                                                                                        alt="{{ __($ns . '.card.images_alt.text') }}"
+                                                                                                        alt="{{ __($ns . '.card.images.alt') }}"
                                                                                                         class="img-fluid w-100 mb-3 mb-lg-0">
                                                                                                 </div>
                                                                                             @endforeach
@@ -344,9 +319,7 @@
                                                                                 </div>
                                                                             @endif
                                                                         </div>
-
-                                                                        <div class="card-footer p-0 d-none">
-                                                                        </div>
+                                                                        <div class="card-footer p-0 d-none"></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -360,11 +333,9 @@
                             </div>
                         @endforeach
                     </div>
-
-                    {{-- Load More --}}
                     <div class="text-center mt-4">
                         <button type="button" class="btn btn-outline-primary">
-                            <span>{{ __($ns . '.load_more.button.label') }}</span>
+                            <span>{{ __($ns . '.load-more.button.label') }}</span>
                         </button>
                     </div>
                 </div>
@@ -406,28 +377,22 @@
 </div>
 
 {{-- Contacts Section --}}
-@if (!empty($data['contacts']))
+@if (!empty($contacts))
     <div class="bg-grey-card shadow-contacts">
         <div class="container">
             <div class="row d-flex justify-content-center p-contacts">
                 <div class="col-12 col-lg-5">
-                    @php $contacts = $data['contacts']; @endphp
-                    <h2 class="title-medium-2-semi-bold mb-3">
-                        {{ $contacts['contact_title'] ?? __($ns . '.contacts.title.label') }}</h2>
+                    <h2 class="title-medium-2-semi-bold mb-3">{{ $contacts['contact_title'] }}</h2>
                     <ul class="link-list">
-                        @if (!empty($contacts['contacts']))
-                            @foreach ($contacts['contacts'] as $contact)
-                                <li><a href="{{ $contact['url'] ?? '#' }}">{{ $contact['label'] ?? '' }}</a></li>
-                            @endforeach
-                        @endif
+                        @foreach ($contacts['contacts'] as $contact)
+                            <li><a href="{{ $contact['url'] }}">{{ $contact['label'] }}</a></li>
+                        @endforeach
                     </ul>
-
                     @if (!empty($contacts['issues']))
-                        <h2 class="title-medium-2-semi-bold mb-3 mt-4">
-                            {{ $contacts['issues_title'] ?? __($ns . '.contacts.issues.title.label') }}</h2>
+                        <h2 class="title-medium-2-semi-bold mb-3 mt-4">{{ $contacts['issues_title'] }}</h2>
                         <ul class="link-list">
                             @foreach ($contacts['issues'] as $issue)
-                                <li><a href="{{ $issue['url'] ?? '#' }}">{{ $issue['label'] ?? '' }}</a></li>
+                                <li><a href="{{ $issue['url'] }}">{{ $issue['label'] }}</a></li>
                             @endforeach
                         </ul>
                     @endif
@@ -436,6 +401,7 @@
         </div>
     </div>
 @endif
+</div>
 
 {{-- Mobile Filters Modal --}}
 @if (!empty($filters['items']))
@@ -444,9 +410,9 @@
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h2 class="modal-title h4" id="modal-categories-label">
-                        {{ $filters['title'] ?? __($ns . '.filters.legend.label') }}</h2>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{{ __($ns . ' .modal.close.label') }}"></button>
+                    <h2 class="modal-title h4" id="modal-categories-label">{{ $filters['title'] }}</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="{{ __($ns . '.modal.close.label') }}"></button>
                 </div>
                 <div class="modal-body">
                     <fieldset>
