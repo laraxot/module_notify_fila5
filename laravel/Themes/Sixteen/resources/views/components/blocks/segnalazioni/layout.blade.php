@@ -172,7 +172,7 @@
                     class="btn p-0 pe-2 d-lg-none">
                     <span class="rounded-icon">
                         <svg class="icon icon-primary icon-xs" aria-hidden="true">
-                            <use href="{{ $sprite }}#it-funnel"></use>
+                            <use xlink:href="{{ $sprite }}#it-funnel"></use>
                         </svg>
                     </span>
                     <span class="t-primary title-xsmall-semi-bold ms-1">{{ __($ns . '.filter.button.label') }}</span>
@@ -261,14 +261,14 @@
                                                                 <span class="d-flex align-items-center">
                                                                     {{ __($ns . '.card.expand.button.label') }}
                                                                     <svg class="icon icon-primary icon-sm">
-                                                                        <use href="{{ $sprite }}#it-expand">
+                                                                        <use xlink:href="{{ $sprite }}#it-expand">
                                                                         </use>
                                                                     </svg>
                                                                 </span>
                                                             </button>
                                                         </div>
                                                         <div id="collapse{{ $loop->iteration }}"
-                                                            class="accordion-collapse collapse pb-0" role="region">
+                                                            class="accordion-collapse collapse" role="region">
                                                             <div class="accordion-body p-0">
                                                                 <div class="cmp-info-summary bg-white border-0">
                                                                     <div class="card">
@@ -341,8 +341,8 @@
                             </div>
                         @endforeach
                     </div>
-                    <div class="text-center mt-4">
-                        <button type="button" class="btn btn-outline-primary">
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn btn btn-outline-primary mobile-full py-3 mt-10 mx-auto">
                             <span>{{ __($ns . '.load-more.button.label') }}</span>
                         </button>
                     </div>
@@ -350,71 +350,68 @@
             </div>
         </div>
     </div>
-</div>
 
 {{-- Rating Section --}}
-<div class="bg-primary">
-    <div class="container">
-        <div class="row d-flex justify-content-center bg-primary">
-            <div class="col-12 col-lg-6 p-lg-0 px-3">
-                <div class="cmp-rating pt-lg-80 pb-lg-80" id="rating">
-                    <div class="card shadow card-wrapper">
-                        <div class="card-header border-0">
-                            <h2 class="title-medium-2-semi-bold mb-0">{{ __($ns . '.rating.question.text') }}</h2>
-                        </div>
-                        <div class="card-body">
-                            <fieldset class="rating">
-                                <legend class="visually-hidden">{{ __($ns . '.rating.legend.text') }}</legend>
-                                @for ($i = 5; $i >= 1; $i--)
-                                    <input type="radio" id="star{{ $i }}a" name="ratingA"
-                                        value="{{ $i }}">
-                                    <label class="full rating-star" for="star{{ $i }}a">
-                                        <svg class="icon icon-sm" viewBox="0 0 24 24">
-                                            <path
-                                                d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z" />
-                                        </svg>
-                                    </label>
-                                @endfor
-                            </fieldset>
+        <div class="bg-primary">
+            <div class="container">
+                <div class="row d-flex justify-content-center bg-primary">
+                    <div class="col-12 col-lg-6 p-lg-0 px-3">
+                        <div class="cmp-rating pt-lg-80 pb-lg-80" id="rating">
+                            <div class="card shadow card-wrapper">
+                                <div class="card-header border-0">
+                                    <h2 class="title-medium-2-semi-bold mb-0">{{ __($ns . '.rating.question.text') }}</h2>
+                                </div>
+                                <div class="card-body">
+                                    <fieldset class="rating">
+                                        <legend class="visually-hidden">{{ __($ns . '.rating.legend.text') }}</legend>
+                                        @for ($i = 5; $i >= 1; $i--)
+                                            <input type="radio" id="star{{ $i }}a" name="ratingA"
+                                                value="{{ $i }}">
+                                            <label class="full rating-star" for="star{{ $i }}a">
+                                                <svg class="icon icon-sm" viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z" />
+                                                </svg>
+                                            </label>
+                                        @endfor
+                                    </fieldset>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
-{{-- Contacts Section --}}
-@if (!empty($contacts))
-    <div class="bg-grey-card shadow-contacts">
-        <div class="container">
-            <div class="row d-flex justify-content-center p-contacts">
-                <div class="col-12 col-lg-5">
-                    <h2 class="title-medium-2-semi-bold mb-3">{{ $contacts['contact_title'] }}</h2>
-                    <ul class="link-list">
-                        @foreach ($contacts['contacts'] as $contact)
-                            <li><a href="{{ $contact['url'] }}">{{ $contact['label'] }}</a></li>
-                        @endforeach
-                    </ul>
-                    @if (!empty($contacts['issues']))
-                        <h2 class="title-medium-2-semi-bold mb-3 mt-4">{{ $contacts['issues_title'] }}</h2>
-                        <ul class="link-list">
-                            @foreach ($contacts['issues'] as $issue)
-                                <li><a href="{{ $issue['url'] }}">{{ $issue['label'] }}</a></li>
-                            @endforeach
-                        </ul>
-                    @endif
+        {{-- Contacts Section --}}
+        @if (!empty($contacts))
+            <div class="bg-grey-card shadow-contacts">
+                <div class="container">
+                    <div class="row d-flex justify-content-center p-contacts">
+                        <div class="col-12 col-lg-5">
+                            <h2 class="title-medium-2-semi-bold mb-3">{{ $contacts['contact_title'] }}</h2>
+                            <ul class="link-list">
+                                @foreach ($contacts['contacts'] as $contact)
+                                    <li><a href="{{ $contact['url'] }}">{{ $contact['label'] }}</a></li>
+                                @endforeach
+                            </ul>
+                            @if (!empty($contacts['issues']))
+                                <h2 class="title-medium-2-semi-bold mb-3 mt-4">{{ $contacts['issues_title'] }}</h2>
+                                <ul class="link-list">
+                                    @foreach ($contacts['issues'] as $issue)
+                                        <li><a href="{{ $issue['url'] }}">{{ $issue['label'] }}</a></li>
+                                    @endforeach
+                                </ul>
+                            @endif
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-@endif
-</div>
-
-{{-- Mobile Filters Modal --}}
+        @endif
 @if (!empty($filters['items']))
     <div class="modal fade" id="modal-categories" tabindex="-1" role="dialog"
         aria-labelledby="modal-categories-label" aria-hidden="true">
+    <div class="it-example-modal">
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
