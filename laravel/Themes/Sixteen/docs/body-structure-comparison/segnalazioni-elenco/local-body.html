@@ -1,7 +1,7 @@
-<div class="skiplink">
+<body class=""><div class="skiplink">
         <a class="visually-hidden-focusable" href="#main-container">Vai ai contenuti</a>
         <a class="visually-hidden-focusable" href="#footer">Vai al footer</a>
-    </div><!-- /skiplink -->
+    </div>
 
     <header class="it-header-wrapper" data-bs-target="#header-nav-wrapper" style="">
     <div class="it-header-slim-wrapper">
@@ -257,31 +257,28 @@
 
     <main  data-page="segnalazioni-elenco" >
         <div id="main-container" class="container">
-        <div class="main-content">
+        <div class="container" id="main-container">
     
     <div class="row justify-content-center mb-md-40 mb-lg-80">
         <div class="col-12 col-lg-10">
-            
             <div class="cmp-breadcrumbs" role="navigation">
                 <nav class="breadcrumb-container" aria-label="breadcrumb">
                     <ol class="breadcrumb p-0" data-element="breadcrumb">
                                                     <li
                                 class="breadcrumb-item">
-                                                                    <a href="/it/tests/homepage">fixcity::segnalazione.breadcrumb.home.label</a>
-                                    <span class="separator">/</span>
+                                                                    <a href="/it/tests/homepage">Home</a><span
+                                        class="separator">/</span>
                                                             </li>
                                                     <li
                                 class="breadcrumb-item active" aria-current=&quot;page&quot;>
-                                                                    fixcity::segnalazione.breadcrumb.elenco.label
+                                                                    Elenco segnalazioni
                                                             </li>
                                             </ol>
                 </nav>
             </div>
-
-            
             <div class="cmp-heading p-0">
-                <h1 class="title-xxxlarge">fixcity::segnalazione.heading.title_label</h1>
-                                    <p class="subtitle-small">fixcity::segnalazione.heading.subtitle.text</p>
+                <h1 class="title-xxxlarge">Elenco segnalazioni</h1>
+                                    <p class="subtitle-small">Negli ultimi 12 mesi sono state risolte :count segnalazioni.</p>
                             </div>
         </div>
         <hr class="d-none d-lg-block mt-30 mb-2">
@@ -290,14 +287,153 @@
     
     <div class="row justify-content-center">
         
+                    <div class="col-lg-3 d-none d-lg-block">
+                <fieldset>
+                    <legend class="h6 text-uppercase category-list__title">categoria</legend>
+                    <div class="categoy-list pb-4">
+                        <ul>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="water" name="category"
+                                                value="acqua,allagamenti,fogne">
+                                            <label for="water"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Acqua, allagamenti, problemi fognari
+                                                (21)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="enviroment" name="category"
+                                                value="inquinamento">
+                                            <label for="enviroment"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Ambiente, inquinamento, protezione ambientale
+                                                (14)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="street-furniture" name="category"
+                                                value="arredo-urbano">
+                                            <label for="street-furniture"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Arredo urbano
+                                                (7)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="rodent-control" name="category"
+                                                value="derattizazione">
+                                            <label for="rodent-control"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Disinfestazione, derattizazione, animali randagi
+                                                (208)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="waste" name="category"
+                                                value="igiene">
+                                            <label for="waste"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Igiene urbana, rifiuti, pulizia e decoro
+                                                (321)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="maintenance" name="category"
+                                                value="manutenzione">
+                                            <label for="maintenance"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Manutenzione immobili, edifici pubblici, scuole, barriere architettoniche, cimiteri
+                                                (302)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="public-order" name="category"
+                                                value="ordine-pubblico">
+                                            <label for="public-order"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Ordine pubblico, disturbo della quiete
+                                                (89)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="green" name="category"
+                                                value="parchi">
+                                            <label for="green"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Parchi e verde pubblico
+                                                (302)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="service" name="category"
+                                                value="servizi">
+                                            <label for="service"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Servizi del comune
+                                                (302)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="security" name="category"
+                                                value="sicurezza">
+                                            <label for="security"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Sicurezza, degrado urbano e sociale
+                                                (302)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="form-check">
+                                        <div class="checkbox-body border-light py-1">
+                                            <input type="checkbox" id="road" name="category"
+                                                value="strade">
+                                            <label for="road"
+                                                class="subtitle-small_semi-bold mb-0 category-list__list">Strade, marciapiedi, segnaletica e viabilità
+                                                (302)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                                    </ul>
+                    </div>
+                </fieldset>
+            </div>
         
         
         <div class="col-lg-8 offset-lg-1">
-            
             <div class="d-flex justify-content-between border-bottom border-light pb-3 mt-5">
-                <span class="search-results">fixcity::segnalazione.elenco.results.text</span>
+                <span class="search-results">645 Risultati</span>
 
-                
                 <button type="button" data-bs-toggle="modal" data-bs-target="#modal-categories"
                     class="btn p-0 pe-2 d-lg-none">
                     <span class="rounded-icon">
@@ -305,13 +441,11 @@
                             <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-funnel"></use>
                         </svg>
                     </span>
-                    <span
-                        class="t-primary title-xsmall-semi-bold ms-1">fixcity::segnalazione.elenco.filter_btn.label</span>
+                    <span class="t-primary title-xsmall-semi-bold ms-1">Filtra</span>
                 </button>
 
-                
                 <button type="button" class="btn p-0 pe-2 d-none d-lg-block">
-                    <span class="title-xsmall-semi-bold ms-1">fixcity::segnalazione.elenco.remove_filters_btn.label</span>
+                    <span class="title-xsmall-semi-bold ms-1">Rimuovi tutti i filtri</span>
                 </button>
             </div>
 
@@ -323,7 +457,7 @@
                             href="#data-ex-disservizio1" aria-current="page" data-bs-toggle="tab"
                             role="button" aria-controls="disservizio1"
                             aria-selected="true">
-                            fixcity::segnalazione.elenco.map_tab.label
+                            Mappa
                         </a>
                     </li>
                                     <li class="nav-item w-100" role="tab">
@@ -331,7 +465,7 @@
                             href="#data-ex-disservizio2" aria-current="page" data-bs-toggle="tab"
                             role="button" aria-controls="disservizio2"
                             aria-selected="false">
-                            fixcity::segnalazione.elenco.list_tab.label
+                            Elenco
                         </a>
                     </li>
                             </ul>
@@ -345,27 +479,322 @@
                         <div class="col-12">
                             <div class="map-box">
                                 <img src="/themes/Sixteen/design-comuni/assets/images/map-placeholder.svg"
-                                    alt="fixcity::segnalazione.map.map_alt.text" class="w-100">
+                                    alt="Mappa" class="w-100">
                                 <button type="button" class="pin" data-bs-toggle="modal"
                                     data-bs-target="#modal-disservizio">
                                     <img src="/themes/Sixteen/design-comuni/assets/images/map-pin.svg"
-                                        alt="fixcity::segnalazione.map.pin_alt.text"
-                                        title="fixcity::segnalazione.map.pin_alt.text">
+                                        alt="Pin di geolocalizzazione" title="Pin di geolocalizzazione">
                                 </button>
                             </div>
                         </div>
+                                                    <div class="col-lg-6 mt-50 mb-4 mb-lg-0">
+                                <div class="cmp-text-button mt-0">
+                                    <h2 class="title-xxlarge mb-0">Fai una segnalazione</h2>
+                                    <div class="text-wrapper">
+                                        <p class="subtitle-small mb-3 mt-3">Se vuoi aggiungere una segnalazione, puoi farlo dopo esserti autenticato con le tue credenziali SPID o CIE.</p>
+                                    </div>
+                                    <div class="button-wrapper">
+                                        <button type="button" data-bs-toggle="modal"
+                                            data-bs-target="#modal-disservizio"
+                                            class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
+                                            <span>Segnala disservizio</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                                             </div>
                 </div>
 
                 
-                <div class="tab-pane fade" id="data-ex-disservizio2" role="tabpanel">
+                <div class="tab-pane fade"
+                    id="data-ex-disservizio2" role="tabpanel">
                     <div class="row">
-                                            </div>
+                                                    <div class="cmp-card mb-4 mb-lg-30">
+                                <div class="card has-bkg-grey shadow-sm">
+                                    <div class="card-body p-0">
+                                        <div class="cmp-info-button-card">
+                                            <div class="card p-3 p-lg-4">
+                                                <div class="card-body p-0">
+                                                    <h3 class="medium-title mb-0">Buca in via Solferino</h3>
+                                                    <p class="card-info">
+                                                        Tipologia di segnalazione<br><span>Verde pubblico e arredo urbano</span>
+                                                    </p>
 
-                    
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-header">
+                                                            <button class="collapsed accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapse1"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapse1">
+                                                                <span class="d-flex align-items-center">
+                                                                    Mostra tutto
+                                                                    <svg class="icon icon-primary icon-sm">
+                                                                        <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand">
+                                                                        </use>
+                                                                    </svg>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                        <div id="collapse1"
+                                                            class="accordion-collapse collapse pb-0" role="region">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="cmp-info-summary bg-white border-0">
+                                                                    <div class="card">
+                                                                        <div
+                                                                            class="card-header border-bottom border-light p-0 mb-0 d-flex justify-content-end">
+                                                                                                                                                            <a href="#"
+                                                                                    class="d-none text-decoration-none"><span
+                                                                                        class="text-button-sm-semi t-primary">Modifica</span></a>
+                                                                                                                                                    </div>
+                                                                        <div class="card-body p-0">
+                                                                                                                                                            <div
+                                                                                    class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">
+                                                                                        Indirizzo
+                                                                                    </div>
+                                                                                    <div class="border-light">
+                                                                                        <p class="data-text">
+                                                                                            Via Solferino, 12 - 50100 Firenze</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                                                                                                                                                        <div
+                                                                                    class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">
+                                                                                        Dettaglio
+                                                                                    </div>
+                                                                                    <div class="border-light">
+                                                                                        <p class="data-text">
+                                                                                            Sulla strada c&#039;è una buca piuttosto profonda che andrebbe sistemata con urgenza
+                                                                                        </p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                                                                                                                                                        <div
+                                                                                    class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">
+                                                                                        Immagini
+                                                                                    </div>
+                                                                                    <div class="border-light border-0">
+                                                                                        <div
+                                                                                            class="d-lg-flex gap-2 mt-3">
+                                                                                                                                                                                            <div>
+                                                                                                    <img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
+                                                                                                        alt="Immagine della mappa di dove si trova il disservizio"
+                                                                                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                                                                                </div>
+                                                                                                                                                                                            <div>
+                                                                                                    <img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
+                                                                                                        alt="Immagine della mappa di dove si trova il disservizio"
+                                                                                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                                                                                </div>
+                                                                                                                                                                                            <div>
+                                                                                                    <img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
+                                                                                                        alt="Immagine della mappa di dove si trova il disservizio"
+                                                                                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                                                                                </div>
+                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                                                                    </div>
+                                                                        <div class="card-footer p-0 d-none"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="cmp-card mb-4 mb-lg-30">
+                                <div class="card has-bkg-grey shadow-sm">
+                                    <div class="card-body p-0">
+                                        <div class="cmp-info-button-card">
+                                            <div class="card p-3 p-lg-4">
+                                                <div class="card-body p-0">
+                                                    <h3 class="medium-title mb-0">Lampione non funzionante</h3>
+                                                    <p class="card-info">
+                                                        Tipologia di segnalazione<br><span>Illuminazione pubblica</span>
+                                                    </p>
+
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-header">
+                                                            <button class="collapsed accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapse2"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapse2">
+                                                                <span class="d-flex align-items-center">
+                                                                    Mostra tutto
+                                                                    <svg class="icon icon-primary icon-sm">
+                                                                        <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand">
+                                                                        </use>
+                                                                    </svg>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                        <div id="collapse2"
+                                                            class="accordion-collapse collapse pb-0" role="region">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="cmp-info-summary bg-white border-0">
+                                                                    <div class="card">
+                                                                        <div
+                                                                            class="card-header border-bottom border-light p-0 mb-0 d-flex justify-content-end">
+                                                                                                                                                            <a href="#"
+                                                                                    class="d-none text-decoration-none"><span
+                                                                                        class="text-button-sm-semi t-primary">Modifica</span></a>
+                                                                                                                                                    </div>
+                                                                        <div class="card-body p-0">
+                                                                                                                                                            <div
+                                                                                    class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">
+                                                                                        Indirizzo
+                                                                                    </div>
+                                                                                    <div class="border-light">
+                                                                                        <p class="data-text">
+                                                                                            Piazza Roma, 5 - 50100 Firenze</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                                                                                                                                                        <div
+                                                                                    class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">
+                                                                                        Dettaglio
+                                                                                    </div>
+                                                                                    <div class="border-light">
+                                                                                        <p class="data-text">
+                                                                                            Il lampione in piazza Roma non funziona da diversi giorni
+                                                                                        </p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                                                                                                                                                        <div
+                                                                                    class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">
+                                                                                        Immagini
+                                                                                    </div>
+                                                                                    <div class="border-light border-0">
+                                                                                        <div
+                                                                                            class="d-lg-flex gap-2 mt-3">
+                                                                                                                                                                                            <div>
+                                                                                                    <img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
+                                                                                                        alt="Immagine della mappa di dove si trova il disservizio"
+                                                                                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                                                                                </div>
+                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                                                                    </div>
+                                                                        <div class="card-footer p-0 d-none"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="cmp-card mb-4 mb-lg-30">
+                                <div class="card has-bkg-grey shadow-sm">
+                                    <div class="card-body p-0">
+                                        <div class="cmp-info-button-card">
+                                            <div class="card p-3 p-lg-4">
+                                                <div class="card-body p-0">
+                                                    <h3 class="medium-title mb-0">Rifiuti abbandonati</h3>
+                                                    <p class="card-info">
+                                                        Tipologia di segnalazione<br><span>Igiene urbana, rifiuti, pulizia e decoro</span>
+                                                    </p>
+
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-header">
+                                                            <button class="collapsed accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapse3"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapse3">
+                                                                <span class="d-flex align-items-center">
+                                                                    Mostra tutto
+                                                                    <svg class="icon icon-primary icon-sm">
+                                                                        <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand">
+                                                                        </use>
+                                                                    </svg>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                        <div id="collapse3"
+                                                            class="accordion-collapse collapse pb-0" role="region">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="cmp-info-summary bg-white border-0">
+                                                                    <div class="card">
+                                                                        <div
+                                                                            class="card-header border-bottom border-light p-0 mb-0 d-flex justify-content-end">
+                                                                                                                                                            <a href="#"
+                                                                                    class="d-none text-decoration-none"><span
+                                                                                        class="text-button-sm-semi t-primary">Modifica</span></a>
+                                                                                                                                                    </div>
+                                                                        <div class="card-body p-0">
+                                                                                                                                                            <div
+                                                                                    class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">
+                                                                                        Indirizzo
+                                                                                    </div>
+                                                                                    <div class="border-light">
+                                                                                        <p class="data-text">
+                                                                                            Via Garibaldi, 28 - 50100 Firenze</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                                                                                                                                                        <div
+                                                                                    class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">
+                                                                                        Dettaglio
+                                                                                    </div>
+                                                                                    <div class="border-light">
+                                                                                        <p class="data-text">
+                                                                                            Rifiuti abbandonati sul marciapiede che creano degrado
+                                                                                        </p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                                                                                                                                                        <div
+                                                                                    class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">
+                                                                                        Immagini
+                                                                                    </div>
+                                                                                    <div class="border-light border-0">
+                                                                                        <div
+                                                                                            class="d-lg-flex gap-2 mt-3">
+                                                                                                                                                                                            <div>
+                                                                                                    <img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
+                                                                                                        alt="Immagine della mappa di dove si trova il disservizio"
+                                                                                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                                                                                </div>
+                                                                                                                                                                                            <div>
+                                                                                                    <img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
+                                                                                                        alt="Immagine della mappa di dove si trova il disservizio"
+                                                                                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                                                                                </div>
+                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                                                                    </div>
+                                                                        <div class="card-footer p-0 d-none"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
                     <div class="text-center mt-4">
                         <button type="button" class="btn btn-outline-primary">
-                            <span>fixcity::segnalazione.elenco.load_more_text</span>
+                            <span>Carica altre segnalazioni</span>
                         </button>
                     </div>
                 </div>
@@ -382,11 +811,11 @@
                 <div class="cmp-rating pt-lg-80 pb-lg-80" id="rating">
                     <div class="card shadow card-wrapper">
                         <div class="card-header border-0">
-                            <h2 class="title-medium-2-semi-bold mb-0">fixcity::segnalazione.rating.question_text</h2>
+                            <h2 class="title-medium-2-semi-bold mb-0">Quanto sono chiare le informazioni su questa pagina?</h2>
                         </div>
                         <div class="card-body">
                             <fieldset class="rating">
-                                <legend class="visually-hidden">fixcity::segnalazione.rating.legend_text</legend>
+                                <legend class="visually-hidden">Valuta da 1 a 5 stelle la pagina</legend>
                                                                     <input type="radio" id="star5a" name="ratingA"
                                         value="5">
                                     <label class="full rating-star" for="star5a">
@@ -437,8 +866,179 @@
 </div>
 
 
+    <div class="bg-grey-card shadow-contacts">
+        <div class="container">
+            <div class="row d-flex justify-content-center p-contacts">
+                <div class="col-12 col-lg-5">
+                    <h2 class="title-medium-2-semi-bold mb-3">Contatta il comune</h2>
+                    <ul class="link-list">
+                                                    <li><a href="/it/tests/assistenza-01-dati">Richiedi assistenza</a></li>
+                                                    <li><a href="tel:050505">Chiama il numero verde 05 0505</a></li>
+                                                    <li><a href="/it/tests/appuntamento-01-ufficio">Prenota appuntamento</a></li>
+                                            </ul>
+                                            <h2 class="title-medium-2-semi-bold mb-3 mt-4">Problemi in città</h2>
+                        <ul class="link-list">
+                                                            <li><a href="/it/tests/segnalazioni">Segnala disservizio</a></li>
+                                                    </ul>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
+    <div class="modal fade" id="modal-categories" tabindex="-1" role="dialog"
+        aria-labelledby="modal-categories-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title h4" id="modal-categories-label">categoria</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Chiudi"></button>
+                </div>
+                <div class="modal-body">
+                    <fieldset>
+                        <div class="categoy-list pb-4">
+                            <ul>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-water"
+                                                    name="category" value="acqua,allagamenti,fogne">
+                                                <label for="mobile-water"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Acqua, allagamenti, problemi fognari
+                                                    (21)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-enviroment"
+                                                    name="category" value="inquinamento">
+                                                <label for="mobile-enviroment"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Ambiente, inquinamento, protezione ambientale
+                                                    (14)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-street-furniture"
+                                                    name="category" value="arredo-urbano">
+                                                <label for="mobile-street-furniture"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Arredo urbano
+                                                    (7)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-rodent-control"
+                                                    name="category" value="derattizazione">
+                                                <label for="mobile-rodent-control"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Disinfestazione, derattizazione, animali randagi
+                                                    (208)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-waste"
+                                                    name="category" value="igiene">
+                                                <label for="mobile-waste"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Igiene urbana, rifiuti, pulizia e decoro
+                                                    (321)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-maintenance"
+                                                    name="category" value="manutenzione">
+                                                <label for="mobile-maintenance"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Manutenzione immobili, edifici pubblici, scuole, barriere architettoniche, cimiteri
+                                                    (302)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-public-order"
+                                                    name="category" value="ordine-pubblico">
+                                                <label for="mobile-public-order"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Ordine pubblico, disturbo della quiete
+                                                    (89)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-green"
+                                                    name="category" value="parchi">
+                                                <label for="mobile-green"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Parchi e verde pubblico
+                                                    (302)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-service"
+                                                    name="category" value="servizi">
+                                                <label for="mobile-service"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Servizi del comune
+                                                    (302)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-security"
+                                                    name="category" value="sicurezza">
+                                                <label for="mobile-security"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Sicurezza, degrado urbano e sociale
+                                                    (302)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="form-check">
+                                            <div class="checkbox-body border-light py-1">
+                                                <input type="checkbox" id="mobile-road"
+                                                    name="category" value="strade">
+                                                <label for="mobile-road"
+                                                    class="subtitle-small_semi-bold mb-0 category-list__list">Strade, marciapiedi, segnaletica e viabilità
+                                                    (302)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
         </div>
     </main>
 
@@ -486,8 +1086,8 @@
                                         <li><a href="#">Prenotazione appuntamenti</a></li>
                                         <li><a href="#">Rilascio tessera elettorale</a></li>
                                         <li><a href="#">Voucher connettività</a></li>
-                                    </ul><!-- /searches-list -->
-                                </div><!-- /searches-list-wrapper -->
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -659,4 +1259,4 @@
             </div>
         </div>
     </div>
-</footer>
+</footer></body>

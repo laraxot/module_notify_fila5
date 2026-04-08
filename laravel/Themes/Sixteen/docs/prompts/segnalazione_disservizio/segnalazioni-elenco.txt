@@ -1,5 +1,5 @@
 #FASE 1
-/bmad-help fase 1
+bmad-help fase 1
 obiettivo: raggiungiamo il 90% di struttura html uguale.
 tramite lo script che hai messo dentro una sottocartella di ./bashscripts e documentato dentro ./bahscripts/docs utilizzando anche gli indici , dobbiamo confrontare la struttura html del tag body incluso, ad esclusione degli script, controlliamo il numero di elementi, ed importante la corrispondenza degli id e le classi css  di 
 https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html

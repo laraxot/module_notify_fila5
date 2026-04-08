@@ -1,124 +1,267 @@
-# HTML Body Structure Comparison Report
+# HTML Body Structure Comparison — segnalazioni-elenco
 
-**Generated:** 2026-04-08T08:29:06.093Z
-**Reference:** `reference_segnalazioni.html`
-**Local:** `local_segnalazioni.html`
+- Data: 2026-04-08 10:51:39
+- Reference: `https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html`
+- Local: `http://127.0.0.1:8000/it/tests/segnalazioni-elenco`
+- Soglia obiettivo: 90%
+- Parity score: **28.9%**
 
----
+## Sommario
+- ✅ Elementi identici: 224
+- ❌ Elementi mancanti: 6
+- ⚠️ Elementi con differenze: 34
+- ➕ Elementi extra locali: 5
 
-## 📊 Summary
+## ✅ Elementi identici
+- ✅ `document/body[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/div[1]/a[2]` — <a> identical
+- ✅ `document/body[1]/header[1]` — <header> identical
+- ✅ `document/body[1]/header[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]` — <button> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]` — <span> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[2]` — <span> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]` — <svg> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]` — <ul> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]` — <li> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]` — <span> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]` — <span> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]` — <li> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]` — <a> identical
+- ✅ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]` — <span> identical
+- ✅ `document/body[1]/header[1]/div[2]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[2]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[2]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[2]/div[2]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[2]/div[2]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/main[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]` — <form> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/button[1]` — <button> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]` — <svg> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/h2[1]` — <h2> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/button[2]` — <button> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/button[2]/svg[1]` — <svg> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/label[1]` — <label> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/input[1]` — <input> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/span[1]` — <span> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/span[1]/svg[1]` — <svg> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/button[1]` — <button> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/button[1]/span[1]` — <span> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]` — <ul> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[1]` — <li> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[2]` — <li> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[2]/a[1]` — <a> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[3]` — <li> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[3]/a[1]` — <a> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[4]` — <li> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[4]/a[1]` — <a> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[5]` — <li> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]` — <a> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]` — <li> identical
+- ✅ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]` — <footer> identical
+- ✅ `document/body[1]/footer[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]` — <svg> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/h2[1]` — <h2> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/h4[1]` — <h4> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]` — <ul> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[7]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[7]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/h4[1]` — <h4> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]` — <ul> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[2]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[2]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[3]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[3]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[4]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[4]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[5]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[6]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[6]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[7]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[7]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[8]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[8]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]` — <ul> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[1]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[2]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[2]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[3]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[3]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[4]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[4]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[5]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[5]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[6]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[6]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[7]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[7]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/h4[1]` — <h4> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[1]` — <ul> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[1]/li[1]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[1]/li[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[1]/li[2]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[1]/li[2]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[1]/li[3]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[1]/li[3]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/h4[2]` — <h4> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[2]` — <ul> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[2]/li[1]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[2]/li[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[2]/li[2]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[3]/ul[2]/li[2]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/h4[1]` — <h4> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/p[1]` — <p> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/p[1]/br[1]` — <br> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/p[1]/br[2]` — <br> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/p[1]/br[3]` — <br> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/p[1]/br[4]` — <br> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/p[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/p[1]/br[5]` — <br> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/p[1]/br[6]` — <br> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/p[1]/br[7]` — <br> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/p[1]/br[8]` — <br> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]` — <ul> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[1]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[2]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[2]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[3]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[3]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[4]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[4]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/ul[1]` — <ul> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/ul[1]/li[1]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/ul[1]/li[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/ul[1]/li[2]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/ul[1]/li[2]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/ul[1]/li[3]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/ul[1]/li[3]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/ul[1]/li[4]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/ul[1]/li[4]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]` — <div> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/h4[1]` — <h4> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]` — <ul> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[1]` — <li> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[1]/a[1]` — <a> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[1]/a[1]/svg[1]` — <svg> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[1]/a[1]/span[1]` — <span> identical
+- ✅ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[2]` — <li> identical
 
-| Metric | Value |
-|--------|-------|
-| **Overall Parity Score** | **0.00%** |
-| Structure Parity | 0.00% |
-| Class Parity | 0.00% |
-| Reference Elements | 776 |
-| Local Elements | 1812 |
+## ❌ Elementi mancanti
+- ❌ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[2]` — missing local element <span>
+- ❌ `document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]` — missing local element <div>
+- ❌ `document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]` — missing local element <div>
+- ❌ `document/body[1]/main[1]/div[1]/div[2]/div[2]` — missing local element <div>
+- ❌ `document/body[1]/main[1]/div[3]` — missing local element <div>
+- ❌ `document/body[1]/main[1]/div[4]` — missing local element <div>
 
-### Breakdown
-- ✅ **Identical Elements:** 0
-- ⚠️ **Different Classes/Attrs:** 0
-- ❌ **Missing in Local:** 776
-- ➕ **Extra in Local:** 1812
+## ⚠️ Elementi con differenze
+- ⚠️ `document/body[1]` — attributes differ
+- ⚠️ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]/use[1]` — attributes differ
+- ⚠️ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]` — tag mismatch: ref=<span> local=<svg>
+- ⚠️ `document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` — tag mismatch: ref=<div> local=<button>
+- ⚠️ `document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]` — tag mismatch: ref=<div> local=<a>
+- ⚠️ `document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]` — tag mismatch: ref=<button> local=<div>
+- ⚠️ `document/body[1]/main[1]` — attributes differ
+- ⚠️ `document/body[1]/main[1]/div[1]/div[1]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/main[1]/div[1]/div[1]/div[1]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/nav[1]` — tag mismatch: ref=<nav> local=<div>
+- ⚠️ `document/body[1]/main[1]/div[1]/div[1]/div[1]/div[2]` — tag mismatch: ref=<div> local=<hr>
+- ⚠️ `document/body[1]/main[1]/div[1]/div[1]/hr[1]` — tag mismatch: ref=<hr> local=<div>
+- ⚠️ `document/body[1]/main[1]/div[1]/div[2]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/main[1]/div[1]/div[2]/div[1]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/main[1]/div[1]/div[2]/div[1]/fieldset[1]` — tag mismatch: ref=<fieldset> local=<div>
+- ⚠️ `document/body[1]/main[1]/div[2]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/main[1]/div[2]/div[1]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/main[1]/div[2]/div[1]/div[1]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]` — attributes differ; classes differ
+- ⚠️ `document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]` — tag mismatch: ref=<div> local=<h2>
+- ⚠️ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]/use[1]` — attributes differ
+- ⚠️ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/button[2]/svg[1]/use[1]` — attributes differ
+- ⚠️ `document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/span[1]/svg[1]/use[1]` — attributes differ
+- ⚠️ `document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/img[1]` — attributes differ
+- ⚠️ `document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]/use[1]` — attributes differ
+- ⚠️ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[1]/a[1]/svg[1]/use[1]` — attributes differ
+- ⚠️ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[2]/a[1]/svg[1]/use[1]` — attributes differ
+- ⚠️ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[3]/a[1]/svg[1]/use[1]` — attributes differ
+- ⚠️ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[4]/a[1]/svg[1]/use[1]` — attributes differ
+- ⚠️ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[5]/a[1]/svg[1]/use[1]` — attributes differ
+- ⚠️ `document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[6]/a[1]/svg[1]/use[1]` — attributes differ
 
----
+## ➕ Elementi extra locali
+- ➕ `document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]` — extra local element <div>
+- ➕ `document/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]` — extra local element <div>
+- ➕ `document/body[1]/main[1]/div[1]/div[3]` — extra local element <div>
+- ➕ `document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]/button[1]` — extra local element <button>
+- ➕ `document/body[1]/main[1]/div[2]/div[1]/div[1]/div[2]` — extra local element <div>
 
-## ✅ Identical Elements
-
-These elements match perfectly between reference and local implementation.
-
-*No identical elements found.*
-
----
-
-## ⚠️ Elements with Differences
-
-*No differences found in classes/attributes.*
-
----
-
-## ❌ Elements Missing in Local
-
-- ❌ `<body>` at `html > body`
-- ❌ `<div .skiplink>` at `html > body > div.skiplink`
-- ❌ `<a .visually-hidden-focusable>` at `html > body > div.skiplink > a.visually-hidden-focusable`
-- ❌ `<a .visually-hidden-focusable>` at `html > body > div.skiplink > a.visually-hidden-focusable`
-- ❌ `<header .it-header-wrapper>` at `html > body > header.it-header-wrapper`
-- ❌ `<div .it-header-slim-wrapper>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper`
-- ❌ `<div .container>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container`
-- ❌ `<div .row>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row`
-- ❌ `<div .col-12>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12`
-- ❌ `<div .it-header-slim-wrapper-content>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content`
-- ❌ `<a .d-lg-block.navbar-brand>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > a.d-lg-block.navbar-brand`
-- ❌ `<div .it-header-slim-right-zone>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone`
-- ❌ `<div .nav-item.dropdown>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown`
-- ❌ `<button .nav-link.dropdown-toggle>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle`
-- ❌ `<span .visually-hidden>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > span.visually-hidden`
-- ❌ `<span>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > span`
-- ❌ `<svg>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > svg`
-- ❌ `<use>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > svg > use`
-- ❌ `<div .dropdown-menu>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu`
-- ❌ `<div .row>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row`
-- ❌ `<div .col-12>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12`
-- ❌ `<div .link-list-wrapper>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper`
-- ❌ `<ul .link-list>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list`
-- ❌ `<li>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li`
-- ❌ `<a .dropdown-item.list-item>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item`
-- ❌ `<span>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span`
-- ❌ `<span .visually-hidden>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span > span.visually-hidden`
-- ❌ `<li>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li`
-- ❌ `<a .dropdown-item.list-item>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item`
-- ❌ `<span>` at `html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span`
-
-... and 746 more missing elements
-
----
-
-## ➕ Extra Elements in Local
-
-These elements exist in local but not in reference:
-
-- ➕ `<body .font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark`
-- ➕ `<div .min-h-dvh>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh`
-- ➕ `<section .w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0`
-- ➕ `<div .flex.items-center.justify-between>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between`
-- ➕ `<div .flex.items-center.gap-2.h-[56px]>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px]`
-- ➕ `<div .w-[18px].h-[18px].flex.items-center.justify-center.bg-rose-500.rounded-md>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px] > div.w-[18px].h-[18px].flex.items-center.justify-center.bg-rose-500.rounded-md`
-- ➕ `<svg>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px] > div.w-[18px].h-[18px].flex.items-center.justify-center.bg-rose-500.rounded-md > svg`
-- ➕ `<path>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px] > div.w-[18px].h-[18px].flex.items-center.justify-center.bg-rose-500.rounded-md > svg > path`
-- ➕ `<path>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px] > div.w-[18px].h-[18px].flex.items-center.justify-center.bg-rose-500.rounded-md > svg > path`
-- ➕ `<div .font-medium.text-sm.text-neutral-900.dark:text-white>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > div.flex.items-center.gap-2.h-[56px] > div.font-medium.text-sm.text-neutral-900.dark:text-white`
-- ➕ `<button .text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10`
-- ➕ `<svg>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg`
-- ➕ `<g>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > g`
-- ➕ `<path>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > g > path`
-- ➕ `<defs>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > defs`
-- ➕ `<clippath>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > defs > clippath#clip0_14732_6079`
-- ➕ `<rect>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > defs > clippath#clip0_14732_6079 > rect`
-- ➕ `<svg>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg`
-- ➕ `<path>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > svg > path`
-- ➕ `<span>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].px-6.py-0.sm:py-0 > div.flex.items-center.justify-between > button.text-sm.rounded-md.border.px-3.h-8.flex.items-center.gap-2.transition-colors.duration-200.ease-in-out.cursor-pointer.shadow-xs.text-neutral-600.dark:text-neutral-400.bg-white/5.border-neutral-200.hover:bg-neutral-100.dark:bg-white/5.dark:border-white/10.dark:hover:bg-white/10 > span`
-- ➕ `<div .h-0.w-full.relative>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > div.h-0.w-full.relative`
-- ➕ `<div .absolute.top-[-1px].left-0.right-0.bottom-0.border-t.border-dashed.border-neutral-300.dark:border-white/[9%]>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > div.h-0.w-full.relative > div.absolute.top-[-1px].left-0.right-0.bottom-0.border-t.border-dashed.border-neutral-300.dark:border-white/[9%]`
-- ➕ `<section .w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0`
-- ➕ `<div .flex.flex-col.pt-8.sm:pt-16.overflow-x-auto>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto`
-- ➕ `<div .flex.flex-col.gap-5.mb-8>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8`
-- ➕ `<h1 .text-3xl.font-semibold.text-neutral-950.dark:text-white>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8 > h1.text-3xl.font-semibold.text-neutral-950.dark:text-white`
-- ➕ `<div .truncate.font-mono.text-xs.text-neutral-500.dark:text-neutral-400.-mt-3.text-xs>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8 > div.truncate.font-mono.text-xs.text-neutral-500.dark:text-neutral-400.-mt-3.text-xs`
-- ➕ `<span>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8 > div.truncate.font-mono.text-xs.text-neutral-500.dark:text-neutral-400.-mt-3.text-xs > span`
-- ➕ `<span .text-neutral-500>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8 > div.truncate.font-mono.text-xs.text-neutral-500.dark:text-neutral-400.-mt-3.text-xs > span > span.text-neutral-500`
-- ➕ `<p .text-xl.font-light.text-neutral-800.dark:text-neutral-300>` at `html > body.font-sans.antialiased.overflow-x-hidden.bg-neutral-50.dark:bg-neutral-900.dark:text-white.scheme-light-dark > div.min-h-dvh > section.w-full.max-w-7xl.mx-auto.p-4.sm:p-14.border-x.border-dashed.border-neutral-300.dark:border-white/[9%].flex.flex-col.gap-8.py-0.sm:py-0 > div.flex.flex-col.pt-8.sm:pt-16.overflow-x-auto > div.flex.flex-col.gap-5.mb-8 > p.text-xl.font-light.text-neutral-800.dark:text-neutral-300`
-
-... and 1782 more extra elements
-
----
-
-## 🎯 Action Items
-
-❌ **Target not reached.** Need 90.0% more parity.
-
-### Priority Fixes
-1. **Add 776 missing elements** from reference
-2. **Fix 0 elements** with class/attribute differences
-3. **Review 1812 extra elements** (remove if not needed)

@@ -1,4 +1,14 @@
-@props(['data' => []])
+@props([
+    'breadcrumb' => [],
+    'title' => '',
+    'subtitle' => '',
+    'results_count' => 645,
+    'tabs' => [],
+    'filters' => [],
+    'cta' => [],
+    'items' => [],
+    'contacts' => [],
+])
 
 @php
     $ns = 'fixcity::segnalazione';
@@ -15,7 +25,7 @@
     };
 
     // Data extraction
-    $rawBreadcrumb = $data['breadcrumb'] ?? [];
+    $rawBreadcrumb = $breadcrumb;
     $breadcrumbItems = [];
     foreach ($rawBreadcrumb as $item) {
         $breadcrumbItems[] = [
@@ -31,11 +41,11 @@
         ];
     }
 
-    $title = $t($data['title'] ?? '', __($ns . '.heading.title.label'));
-    $subtitle = $t($data['subtitle'] ?? '', __($ns . '.heading.subtitle.text', ['count' => 73]));
-    $resultsCount = $data['results_count'] ?? 645;
+    $title = $t($title, __($ns . '.heading.title.label'));
+    $subtitle = $t($subtitle, __($ns . '.heading.subtitle.text', ['count' => 73]));
+    $resultsCount = $results_count;
 
-    $rawTabs = $data['tabs'] ?? [];
+    $rawTabs = $tabs;
     $tabs = [];
     foreach ($rawTabs as $tab) {
         $tabs[] = [
@@ -51,13 +61,13 @@
         ];
     }
 
-    $rawFilters = $data['filters'] ?? [];
+    $rawFilters = $filters;
     $filters = [
         'title' => $t($rawFilters['title'] ?? '', __($ns . '.filters.legend.label')),
         'items' => $rawFilters['items'] ?? [],
     ];
 
-    $rawCta = $data['cta'] ?? [];
+    $rawCta = $cta;
     $cta = !empty($rawCta)
         ? [
             'title' => $t($rawCta['title'] ?? '', __($ns . '.map.cta.title.label')),
@@ -66,9 +76,7 @@
         ]
         : [];
 
-    $items = $data['items'] ?? [];
-
-    $rawContacts = $data['contacts'] ?? [];
+    $rawContacts = $contacts;
     $contacts = !empty($rawContacts)
         ? [
             'contact_title' => $t($rawContacts['contact_title'] ?? '', __($ns . '.contacts.title.label')),

@@ -133,9 +133,8 @@
                     </div>
                     @endforeach
                 </div>
-                @endforeach
             </div>
+            @endif
         </div>
-        @endif
     </div>
 </section>

@@ -1,0 +1,13 @@
+{
+  "slug": "segnalazioni-elenco",
+  "reference": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html",
+  "local": "http://127.0.0.1:8000/it/tests/segnalazioni-elenco",
+  "threshold": 90,
+  "parity_score": 28.9,
+  "reference_node_count": 776,
+  "local_node_count": 709,
+  "identical_count": 224,
+  "missing_count": 6,
+  "different_count": 34,
+  "extra_count": 5
+}
