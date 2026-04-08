@@ -18,10 +18,10 @@ Agnostic tooling lives in `bashscripts`:
 - [`bashscripts/html/html-structure-compare.sh`](../../../bashscripts/html/html-structure-compare.sh)
 - [`bashscripts/html/compare-html-body.py`](../../../bashscripts/html/compare-html-body.py)
 - [`bashscripts/html/README.md`](../../../bashscripts/html/README.md)
-- [`bashscripts/docs/HTML-BODY-COMPARISON.md`](../../../bashscripts/docs/HTML-BODY-COMPARISON.md)
+- [`bashscripts/docs/html/html-structure-compare.md`](../../../bashscripts/docs/html/html-structure-compare.md)\n- [`docs/html-structure-comparison.md`](../../../docs/html-structure-comparison.md)\n- [`../prompts/segnalazione_disservizio/README.md`](../prompts/segnalazione_disservizio/README.md)
 
 ## Governance
 
 - `bashscripts` stays reusable and project-agnostic.
 - Theme-specific outputs stay under `laravel/Themes/Sixteen/docs/...`.
-- The neutral bridge note lives in [`docs/theme/sixteen/analysis/body-structure-parity.md`](../../../../docs/theme/sixteen/analysis/body-structure-parity.md).
+- The root bridge note for this repo lives in [`docs/html-structure-comparison.md`](../../../docs/html-structure-comparison.md).
