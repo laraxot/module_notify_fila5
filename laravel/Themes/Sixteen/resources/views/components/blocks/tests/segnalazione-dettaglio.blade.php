@@ -2,17 +2,29 @@
 
 @php
     $ns = 'fixcity::segnalazione';
-    $title = $data['title'] ?? '';
-    $status = $data['status'] ?? '';
-    $summary = $data['summary'] ?? '';
-    $primaryAction = $data['primary_action'] ?? [];
-    $secondaryAction = $data['secondary_action'] ?? [];
-    $shareLinks = $data['share_links'] ?? [];
-    $viewActions = $data['view_actions'] ?? [];
-    $sections = $data['sections'] ?? [];
-    $contact = $data['contact'] ?? [];
-    $topics = $data['topics'] ?? [];
-    $updatedAt = $data['updated_at'] ?? null;
+    
+    // Fallback: read from JSON config if DB blocks are empty
+    $jsonPath = config_path('local/fixcity/database/content/pages/tests.segnalazione-dettaglio.json');
+    $jsonData = [];
+    if (file_exists($jsonPath)) {
+        $jsonData = json_decode(file_get_contents($jsonPath), true);
+    }
+    $fallbackData = $jsonData['content_blocks']['it'][1]['data'] ?? [];
+
+    // Merge: $data overrides fallback, but fallback provides defaults for missing keys
+    $blockData = array_replace_recursive($fallbackData, $data);
+    
+    $title = $blockData['title'] ?? '';
+    $status = $blockData['status'] ?? '';
+    $summary = $blockData['summary'] ?? '';
+    $primaryAction = $blockData['primary_action'] ?? [];
+    $secondaryAction = $blockData['secondary_action'] ?? [];
+    $shareLinks = $blockData['share_links'] ?? [];
+    $viewActions = $blockData['view_actions'] ?? [];
+    $sections = $blockData['sections'] ?? [];
+    $contact = $blockData['contact'] ?? [];
+    $topics = $blockData['topics'] ?? [];
+    $updatedAt = $blockData['updated_at'] ?? null;
     $sprite = '/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg';
 @endphp
 
@@ -37,29 +49,29 @@
                         @endif
 
                         <div class="d-lg-flex gap-30 mb-2">
-                            <button class="btn fw-bold btn-primary mr-lg-30" onclick="window.location.href='{{ $primaryAction['url'] ?? '#' }}'">
+                            <button type="button" class="btn fw-bold btn-primary mr-lg-30">
                                 <span>{{ $primaryAction['label'] ?? '' }}</span>
                             </button>
-                            <button class="btn fw-bold btn-outline-primary t-primary" onclick="window.location.href='{{ $secondaryAction['url'] ?? '#' }}'">
+                            <button type="button" class="btn fw-bold btn-outline-primary t-primary">
                                 <span>{{ $secondaryAction['label'] ?? '' }}</span>
                             </button>
                         </div>
                     </div>
                     <div class="col-lg-3 mt-5 mt-lg-0">
                         @if($shareLinks !== [])
-                            <div class="dropdown">
-                                <button aria-label="{{ __($ns.'.detail.share.aria') }}" class="btn btn-dropdown dropdown-toggle text-decoration-underline d-inline-flex align-items-center fs-0" type="button" id="shareActions" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="dropdown" x-data="{ shareOpen: false }">
+                                <button aria-label="{{ __($ns.'.detail.share.aria') }}" class="btn btn-dropdown dropdown-toggle text-decoration-underline d-inline-flex align-items-center fs-0" type="button" id="shareActions" data-bs-toggle="dropdown" @click="shareOpen = !shareOpen" aria-haspopup="true" :aria-expanded="shareOpen.toString()">
                                     <svg class="icon" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-share"></use>
+                                        <use xlink:href="{{ $sprite }}#it-share"></use>
                                     </svg>
                                     <small>{{ __($ns.'.detail.share.label') }}</small>
                                 </button>
-                                <div class="dropdown-menu shadow-lg" aria-labelledby="shareActions">
+                                <div class="dropdown-menu shadow-lg" aria-labelledby="shareActions" x-show="shareOpen" @click.away="shareOpen = false" x-cloak>
                                     <div class="link-list-wrapper">
                                         <ul class="link-list" role="menu">
                                             @foreach($shareLinks as $item)
                                                 <li role="none">
-                                                    <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem">
+                                                    <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem" @click="shareOpen = false">
                                                         <svg class="icon" aria-hidden="true">
                                                             <use href="{{ $sprite }}#{{ $item['icon'] ?? 'it-share' }}"></use>
                                                         </svg>
@@ -74,19 +86,19 @@
                         @endif
 
                         @if($viewActions !== [])
-                            <div class="dropdown">
-                                <button aria-label="{{ __($ns.'.detail.actions.aria') }}" class="btn btn-dropdown dropdown-toggle text-decoration-underline d-inline-flex align-items-center fs-0" type="button" id="viewActions" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="dropdown" x-data="{ actionsOpen: false }">
+                                <button aria-label="{{ __($ns.'.detail.actions.aria') }}" class="btn btn-dropdown dropdown-toggle text-decoration-underline d-inline-flex align-items-center fs-0" type="button" id="viewActions" data-bs-toggle="dropdown" @click="actionsOpen = !actionsOpen" aria-haspopup="true" :aria-expanded="actionsOpen.toString()">
                                     <svg class="icon" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-more-items"></use>
+                                        <use xlink:href="{{ $sprite }}#it-more-items"></use>
                                     </svg>
                                     <small>{{ __($ns.'.detail.actions.label') }}</small>
                                 </button>
-                                <div class="dropdown-menu shadow-lg" aria-labelledby="viewActions">
+                                <div class="dropdown-menu shadow-lg" aria-labelledby="viewActions" x-show="actionsOpen" @click.away="actionsOpen = false" x-cloak>
                                     <div class="link-list-wrapper">
                                         <ul class="link-list" role="menu">
                                             @foreach($viewActions as $item)
                                                 <li role="none">
-                                                    <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem">
+                                                    <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem" @click="actionsOpen = false">
                                                         <svg class="icon" aria-hidden="true">
                                                             <use href="{{ $sprite }}#{{ $item['icon'] ?? 'it-link' }}"></use>
                                                         </svg>
@@ -178,9 +190,9 @@
                         @if(!empty($section['buttons']))
                             <div class="mt-3">
                                 @foreach($section['buttons'] as $button)
-                                    <button type="button" class="btn {{ $button['variant'] ?? 'btn-primary' }} mobile-full" onclick="window.location.href='{{ $button['url'] ?? '#' }}'">
+                                    <a href="{{ $button['url'] ?? '#' }}" class="btn {{ $button['variant'] ?? 'btn-primary' }} mobile-full">
                                         <span>{{ $button['label'] ?? '' }}</span>
-                                    </button>
+                                    </a>
                                 @endforeach
                             </div>
                         @endif
