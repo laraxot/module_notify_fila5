@@ -1,153 +1,66 @@
-# HTML Structure Comparison - Project Integration
+# HTML Structure Comparison Tools
 
-**Purpose**: Connects the agnostic `bashscripts/html/` comparison tools to the FixCity Fila5 project context.
+Scripts for comparing HTML body structure between Design Comuni reference pages and local implementations.
 
----
+## Scripts Location
 
-## Overview
+| Script | Path | Purpose |
+|--------|------|---------|
+| Orchestrator | `bashscripts/html/html-structure-compare.sh` | Fetches HTML pages, runs comparison |
+| Core | `bashscripts/html/compare-html-body.py` | Extracts body HTML, compares elements |
 
-This project uses HTML structure comparison tools to measure parity between:
-- **Reference**: Design Comuni static pages (`https://italia.github.io/design-comuni-pagine-statiche/sito/<page>.html`)
-- **Local**: FixCity test pages (`http://127.0.0.1:8000/it/tests/<page>`)
+## Output Location
 
-The tools in `bashscripts/html/` are **project-agnostic** — they contain no hardcoded paths. This document bridges them to project-specific locations.
+All comparison reports are saved to:
+```
+laravel/Themes/Sixteen/docs/body-structure-comparison/<page-name>/
+```
 
----
-
-## Tool Locations
-
-| Tool | Location | Purpose |
-|------|----------|---------|
-| Python comparer | `bashscripts/html/compare-html-body.py` | Core comparison engine |
-| Bash wrapper | `bashscripts/html/html-structure-compare.sh` | URL derivation + orchestrator |
-| Body extraction | `bashscripts/html/extract-body-html.py` | Extract `<body>` without scripts |
-| Element comparison | `bashscripts/html/compare_elements.py` | Structural comparison |
-
----
-
-## Project-Specific Paths
-
-### Input
-- **Reference URL**: `https://italia.github.io/design-comuni-pagine-statiche/sito/<page_name>.html`
-- **Local URL**: `http://127.0.0.1:8000/it/tests/<page_name>`
-
-### Output
-- **Reports**: `laravel/Themes/Sixteen/docs/body-structure-comparison/<page_name>/`
-  - `report.md` — Full markdown report
-  - `diff_details.json` — Structured JSON details
-- **HTML Snapshots**: `laravel/Themes/Sixteen/docs/prompts/<page>/`
-  - `reference_<page>.html` — Raw reference HTML
-  - `local_<page>.html` — Raw local HTML
-
----
+Each page directory contains:
+- `report.md` - Markdown parity report
+- `diff_details.json` - Detailed JSON comparison
+- `reference-body.html` - Cleaned reference body (no script/style)
+- `local-body.html` - Cleaned local body
+- `reference-structure.json` - Reference element tree
+- `local-structure.json` - Local element tree
 
 ## Usage
 
-### Quick Comparison
-
 ```bash
-bashscripts/html/html-structure-compare.sh segnalazioni-elenco
-```
+# From project root
+python3 bashscripts/html/compare-html-body.py <reference> <local> <page-name>
 
-### Any Page
-
-```bash
-bashscripts/html/html-structure-compare.sh <page_name>
-```
-
-### Custom URLs
-
-```bash
+# Example with files
 python3 bashscripts/html/compare-html-body.py \
-  "https://example.com/reference.html" \
-  "http://localhost:8000/custom-page" \
-  "custom-page"
+  laravel/Themes/Sixteen/docs/prompts/segnalazione-dettaglio/reference.html \
+  laravel/Themes/Sixteen/docs/prompts/segnalazione-dettaglio/local.html \
+  segnalazione-dettaglio
 ```
 
----
+## Reference HTML Location
 
-## Current Status
-
-| Page | Parity Score | Status |
-|------|-------------|--------|
-| segnalazioni-elenco | **77.8%** | 🔄 In progress (target: 90%) |
-
-### Key Gaps (segnalazioni-elenco)
-- Rating section structure differs (cmp-rating__card-first/second)
-- Modal: reference has `modal-disservizio`, local has `modal-categories`
-- Card image classes: extra `mb-3 mb-lg-0` in local
-- Header center wrapper class differences
-- Some accordion `pb-0` inconsistencies
-
----
-
-## Architecture
-
-### How It Works
-
+Reference HTML files are stored in:
 ```
-┌─────────────────────────────────────────────────┐
-│  bashscripts/html/ (Agnostic Tools)             │
-│                                                   │
-│  html-structure-compare.sh                       │
-│    └── compare-html-body.py                      │
-│         ├── Fetch HTML (HTTP)                    │
-│         ├── Extract <body> (no script/style)    │
-│         ├── Parse elements (tag, attrs, depth)  │
-│         ├── Align via LCS                        │
-│         └── Classify: ✅ ⚠️ ❌ ➕                │
-└──────────────────┬──────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────┐
-│  laravel/Themes/Sixteen/docs/ (Project Output)  │
-│                                                   │
-│  body-structure-comparison/<page>/               │
-│    ├── report.md                                  │
-│    └── diff_details.json                         │
-│                                                   │
-│  prompts/<page>/                                  │
-│    ├── reference_<page>.html                     │
-│    └── local_<page>.html                         │
-└─────────────────────────────────────────────────┘
+laravel/Themes/Sixteen/docs/prompts/<page-name>/reference.html
 ```
 
-### Translation Key Convention
+## Local HTML Location
 
-All text in Blade templates MUST use translation keys following the pattern:
+Local HTML snapshots are stored in:
 ```
-fixcity::segnalazione.<collection>.<key>.<type>
+laravel/Themes/Sixteen/docs/prompts/<page-name>/local.html
 ```
 
-**Examples:**
-- ✅ `fixcity::segnalazione.heading.title.label`
-- ✅ `fixcity::segnalazione.breadcrumb.home.label`
-- ❌ `SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE` (wrong namespace)
-- ❌ `fixcity::segnalazione.heading.title_label` (underscore instead of dot)
+## Rules
 
----
+1. **No Bootstrap Italia**: Project uses TailwindCSS + Alpine.js only
+2. **Translation keys**: All text must use `fixcity::segnalazione.context.key.type` pattern
+3. **Page routing**: All test pages use `pages/tests/[slug].blade.php` with Volt component
+4. **Layout**: Test pages use `<x-layouts.app>`, not `<x-layouts.design-comuni>`
 
 ## Related Documentation
 
-- **bashscripts docs**: [`bashscripts/docs/html/README.md`](../../bashscripts/docs/html/README.md)
-- **Theme docs index**: [`laravel/Themes/Sixteen/docs/00-index.md`](laravel/Themes/Sixteen/docs/00-index.md)
-- **Master index**: [`docs/MODULE_DOCS_INDEX.md`](MODULE_DOCS_INDEX.md)
-- **Design Comuni plan**: [`laravel/Themes/Sixteen/docs/design-comuni-html-parity-plan.md`](laravel/Themes/Sixteen/docs/design-comuni-html-parity-plan.md)
-
----
-
-## Workflow
-
-1. **Fetch** reference and local HTML
-2. **Extract** body content (no scripts/styles)
-3. **Compare** element-by-element
-4. **Review** report for gaps
-5. **Fix** Blade templates or JSON content
-6. **Re-run** comparison to verify improvement
-7. **Commit** when target parity reached
-
----
-
-**Last Updated**: 2026-04-08
-**Next Review**: 2026-04-15
-**Owner**: Frontend Team
+- [Theme Architecture](../laravel/Themes/Sixteen/docs/architecture/README.md)
+- [No Bootstrap Rule](../docs/rules/no-bootstrap-italia.md)
+- [Design Comuni Index](../laravel/Themes/Sixteen/docs/design-comuni/README.md)
+- [Body Structure Comparison Index](../laravel/Themes/Sixteen/docs/body-structure-comparison/INDEX.md)

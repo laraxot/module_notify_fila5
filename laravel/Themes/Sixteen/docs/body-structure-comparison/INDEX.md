@@ -18,13 +18,15 @@ Artifacts in [`./segnalazioni-elenco/`](./segnalazioni-elenco/):
 
 ### segnalazione-dettaglio
 
-**Parity Score: 71.1%** (572/804 elements identical)
+**Parity Score: 45.5%** (366/804 elements identical)
 
 Artifacts in [`./segnalazione-dettaglio/`](./segnalazione-dettaglio/):
 - [`report.md`](./segnalazione-dettaglio/report.md) — Detailed report with identical, missing, different, and extra elements
 - [`diff_details.json`](./segnalazione-dettaglio/diff_details.json) — Machine-readable parity summary
 - [`reference-body.html`](./segnalazione-dettaglio/reference-body.html) — Reference body (no `<script>`/`<style>`)
 - [`local-body.html`](./segnalazione-dettaglio/local-body.html) — Local body (no `<script>`/`<style>`)
+- [`reference-structure.json`](./segnalazione-dettaglio/reference-structure.json) — Parsed reference tree
+- [`local-structure.json`](./segnalazione-dettaglio/local-structure.json) — Parsed local tree
 
 ## Tooling
 
