@@ -38,7 +38,11 @@ middleware(PageSlugMiddleware::class);
 @endphp
 
 <x-layouts.app>
-    <div id="main-container" @class(['container' => $slug === 'segnalazioni-elenco'])>
+    @if ($slug === 'segnalazioni-elenco')
         <x-page :blocks="$blocks" side="content" :slug="$pageSlug" :data="$data" />
-    </div>
+    @else
+        <div id="main-container">
+            <x-page :blocks="$blocks" side="content" :slug="$pageSlug" :data="$data" />
+        </div>
+    @endif
 </x-layouts.app>

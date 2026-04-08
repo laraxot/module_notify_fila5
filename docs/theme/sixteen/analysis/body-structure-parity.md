@@ -3,7 +3,7 @@
 This note links the agnostic comparison tooling in `bashscripts` with the Sixteen theme parity reports.
 
 ## Agnostic tools
-- [`bashscripts/body/html-structure-compare.sh`](../../../../bashscripts/body/html-structure-compare.sh)
+- [`bashscripts/html/html-structure-compare.sh`](../../../../bashscripts/html/html-structure-compare.sh)
 - [`bashscripts/html/compare-html-body.py`](../../../../bashscripts/html/compare-html-body.py)
 - [`bashscripts/html/README.md`](../../../../bashscripts/html/README.md)
 

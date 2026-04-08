@@ -50,6 +50,7 @@ Utility script documentation:
 - **[Bash Scripts](../../bashscripts/docs/)** - Automation scripts
 - AI Scripts - [Docs](../../bashscripts/docs/ai/)
 - System Scripts - [Docs](../../bashscripts/docs/system/)
+- **HTML Comparison** - [Docs](../../bashscripts/docs/html/) | [Results](html-structure-comparison.md)
 
 ## 📖 Key Documents
 

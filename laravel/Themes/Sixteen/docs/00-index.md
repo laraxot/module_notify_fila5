@@ -43,10 +43,13 @@
 - [design-comuni/segnalazione-comparison-analysis.md](./segnalazione-comparison-analysis.md) - Earlier parity analysis report
 
 ### HTML Structure Comparison Tools
+- [body-structure-comparison/segnalazioni-elenco/README.md](./body-structure-comparison/segnalazioni-elenco/README.md) — Latest comparison report (28.9% parity)
 - [body-structure-comparison/segnalazioni-elenco/report.md](./body-structure-comparison/segnalazioni-elenco/report.md) — Structured diff output (BLOCK/FLAG/WARN severity)
+- [body-structure-comparison/segnalazioni-elenco/summary.json](./body-structure-comparison/segnalazioni-elenco/summary.json) — Score summary JSON
 - [body-structure-comparison/segnalazioni-elenco/parity-score.md](./body-structure-comparison/segnalazioni-elenco/parity-score.md) — Score card tracking parity over time
 - [bashscripts/html/README.md](../../../bashscripts/html/README.md) — Tool documentation (compare-html-body.py, html-structure-compare.sh)
 - [bashscripts/body/](../../../bashscripts/body/) — Bash orchestrator scripts for comparison runs
+- [bashscripts/maintenance/disk-space-cleanup.sh](../../../bashscripts/maintenance/disk-space-cleanup.sh) — Disk space cleanup tool
 - [prompts/segnalazione_disservizio/segnalazioni-elenco-html-parity-analysis.md](./prompts/segnalazione_disservizio/segnalazioni-elenco-html-parity-analysis.md) — Analysis summary for segnalazioni-elenco
 
 ### Theme implementation entrypoints

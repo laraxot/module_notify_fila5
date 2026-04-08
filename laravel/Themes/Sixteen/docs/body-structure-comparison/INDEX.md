@@ -15,7 +15,7 @@ Artifacts saved in [`./segnalazioni-elenco/`](./segnalazioni-elenco/):
 ## Tooling
 
 Agnostic tooling lives in `bashscripts`:
-- [`bashscripts/body/html-structure-compare.sh`](../../../bashscripts/body/html-structure-compare.sh)
+- [`bashscripts/html/html-structure-compare.sh`](../../../bashscripts/html/html-structure-compare.sh)
 - [`bashscripts/html/compare-html-body.py`](../../../bashscripts/html/compare-html-body.py)
 - [`bashscripts/html/README.md`](../../../bashscripts/html/README.md)
 - [`bashscripts/docs/HTML-BODY-COMPARISON.md`](../../../bashscripts/docs/HTML-BODY-COMPARISON.md)

@@ -8,7 +8,7 @@
 
     <x-section slug="header" />
 
-    <main @if (request()->routeIs('tests.*')) data-page="{{ request()->route('slug') }}" @endif>
+    <main>
         {{ $slot }}
     </main>
 
