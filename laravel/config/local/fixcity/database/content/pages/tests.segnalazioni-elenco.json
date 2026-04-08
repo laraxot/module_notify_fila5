@@ -53,9 +53,9 @@
                             "location": "Via Solferino, 12 - 50100 Firenze",
                             "description": "Sulla strada c'è una buca piuttosto profonda che andrebbe sistemata con urgenza",
                             "images": [
-                                "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png",
-                                "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png",
-                                "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
+                                "../assets/images/image-disservizio.png",
+                                "../assets/images/image-disservizio.png",
+                                "../assets/images/image-disservizio.png"
                             ],
                             "edit_url": "#"
                         },
@@ -67,7 +67,7 @@
                             "location": "Piazza Roma, 5 - 50100 Firenze",
                             "description": "Il lampione in piazza Roma non funziona da diversi giorni",
                             "images": [
-                                "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
+                                "../assets/images/image-disservizio.png"
                             ],
                             "edit_url": "#"
                         },
@@ -79,8 +79,8 @@
                             "location": "Via Garibaldi, 28 - 50100 Firenze",
                             "description": "Rifiuti abbandonati sul marciapiede che creano degrado",
                             "images": [
-                                "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png",
-                                "/themes/Sixteen/design-comuni/assets/images/image-disservizio.png"
+                                "../assets/images/image-disservizio.png",
+                                "../assets/images/image-disservizio.png"
                             ],
                             "edit_url": "#"
                         }

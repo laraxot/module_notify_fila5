@@ -41,7 +41,7 @@
                                 {{ $step }}
                                 @if($index + 1 < $currentStep)
                                     <svg class="icon steppers-success" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-check"></use>
+                                        <use xlink:href="{{ $sprite }}#it-check"></use>
                                     </svg>
                                     <span class="visually-hidden">Confermato</span>
                                 @elseif($index + 1 === $currentStep)
@@ -99,45 +99,45 @@
                                 @if(!empty($contacts['faq']))
                                     <li><a class="list-item" href="{{ $contacts['faq'] }}">
                                         <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                            <use href="{{ $sprite }}#it-help-circle"></use>
+                                            <use xlink:href="{{ $sprite }}#it-help-circle"></use>
                                         </svg><span>Leggi le domande frequenti</span></a></li>
                                 @else
                                     <li><a class="list-item" href="#">
                                         <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                            <use href="{{ $sprite }}#it-help-circle"></use>
+                                            <use xlink:href="{{ $sprite }}#it-help-circle"></use>
                                         </svg><span>Leggi le domande frequenti</span></a></li>
                                 @endif
                                 @if(!empty($contacts['assistenza']))
                                     <li><a class="list-item" href="{{ $contacts['assistenza'] }}" data-element="contacts">
                                         <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                            <use href="{{ $sprite }}#it-mail"></use>
+                                            <use xlink:href="{{ $sprite }}#it-mail"></use>
                                         </svg><span>Richiedi assistenza</span></a></li>
                                 @else
                                     <li><a class="list-item" href="#" data-element="contacts">
                                         <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                            <use href="{{ $sprite }}#it-mail"></use>
+                                            <use xlink:href="{{ $sprite }}#it-mail"></use>
                                         </svg><span>Richiedi assistenza</span></a></li>
                                 @endif
                                 @if(!empty($contacts['phone']))
                                     <li><a class="list-item" href="tel:{{ $contacts['phone'] }}">
                                         <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                            <use href="{{ $sprite }}#it-hearing"></use>
+                                            <use xlink:href="{{ $sprite }}#it-hearing"></use>
                                         </svg><span>Chiama il numero {{ $contacts['phone'] }}</span></a></li>
                                 @else
                                     <li><a class="list-item" href="#">
                                         <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                            <use href="{{ $sprite }}#it-hearing"></use>
+                                            <use xlink:href="{{ $sprite }}#it-hearing"></use>
                                         </svg><span>Chiama il numero verde 05 0505</span></a></li>
                                 @endif
                                 @if(!empty($contacts['appointment']))
                                     <li><a class="list-item" href="{{ $contacts['appointment'] }}" data-element="appointment-booking">
                                         <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                            <use href="{{ $sprite }}#it-calendar"></use>
+                                            <use xlink:href="{{ $sprite }}#it-calendar"></use>
                                         </svg><span>Prenota appuntamento</span></a></li>
                                 @else
                                     <li><a class="list-item" href="#" data-element="appointment-booking">
                                         <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                            <use href="{{ $sprite }}#it-calendar"></use>
+                                            <use xlink:href="{{ $sprite }}#it-calendar"></use>
                                         </svg><span>Prenota appuntamento</span></a></li>
                                 @endif
                             </ul>

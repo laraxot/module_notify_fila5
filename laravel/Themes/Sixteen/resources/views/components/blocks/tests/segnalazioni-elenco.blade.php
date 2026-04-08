@@ -78,7 +78,7 @@
                 <button type="button" data-bs-toggle="modal" data-bs-target="#modal-categories" class="btn p-0 pe-2 d-lg-none">
                     <span class="rounded-icon">
                         <svg class="icon icon-primary icon-xs" aria-hidden="true">
-                            <use href="{{ $sprite }}#it-funnel"></use>
+                            <use xlink:href="{{ $sprite }}#it-funnel"></use>
                         </svg>
                     </span>
                     <span class="t-primary title-xsmall-semi-bold ms-1">Filtra</span>
@@ -146,7 +146,7 @@
                                                                 <span class="d-flex align-items-center">
                                                                     Mostra tutto
                                                                     <svg class="icon icon-primary icon-sm">
-                                                                        <use href="{{ $sprite }}#it-expand"></use>
+                                                                        <use xlink:href="{{ $sprite }}#it-expand"></use>
                                                                     </svg>
                                                                 </span>
                                                             </button>

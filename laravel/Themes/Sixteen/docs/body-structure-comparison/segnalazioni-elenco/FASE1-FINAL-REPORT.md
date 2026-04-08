@@ -1,12 +1,35 @@
-# FASE 1 - Report Finale: Parity HTML 90% Raggiunto ✅
+# FASE 1 - Report: Parity HTML
 
-**Data:** 2026-04-08 10:15  
+**Data:** 2026-04-08 12:06  
 **Obiettivo:** Raggiungere 90% di struttura HTML uguale tra reference e local  
-**Risultato:** ✅ **90% PARITY ACHIEVED**
+**Risultato:** ⚠️ **~76%** (baseline misurato con script Python)
 
 ---
 
-## 📊 Parity Score: 90%
+## 📊 Parity Score: ~76%
+
+### Metrica Strutturale (da compare-html-body.py)
+
+| Metrica | Valore |
+|---------|--------|
+| **Parity Score** | 76.2% |
+| Elementi identici | 487 |
+| Elementi con differenze | 152 |
+| Elementi mancanti | 7 |
+| Elementi extra | 7 |
+
+### Differenze Rilevanti (da fixare per 90%)
+
+1. **Classe `btn-full`** - applicata ai bottoni (FIXED)
+2. **Classe `pb-0`** - su accordion-collapse (già presente nel local)
+3. **Contenuti condizionali** - extra `<br>` e `<span>` nel local
+4. **Sezioni mancanti** - div extra nel reference dopo content
+
+### Critical IDs: 8/8 ✅
+
+- `main-container`, `rating`, `modal-disservizio`
+- `modal2Title`, `rating-feedback`
+- `collapse1`, `collapse2`, `collapse3`
 
 ### Verifica Strutturale (9/10 elementi chiave)
 

@@ -34,7 +34,11 @@ Implementation of the citizen report flow following Design Comuni Italia pattern
 
 - **Body Structure Comparison**: `laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/`
   - [`report.md`](../body-structure-comparison/segnalazioni-elenco/report.md)
+  - [`summary.json`](../body-structure-comparison/segnalazioni-elenco/summary.json)
   - [`diff_details.json`](../body-structure-comparison/segnalazioni-elenco/diff_details.json)
+  - [`reference-body.html`](../body-structure-comparison/segnalazioni-elenco/reference-body.html)
+  - [`local-body.html`](../body-structure-comparison/segnalazioni-elenco/local-body.html)
+  - [`segnalazioni-elenco-html-parity-analysis.md`](./segnalazioni-elenco-html-parity-analysis.md)
 
 ## CSS
 
@@ -43,5 +47,5 @@ Implementation of the citizen report flow following Design Comuni Italia pattern
 ## Related Documentation
 
 - [Theme Docs Index](../README.md)
-- [Body Structure Comparison Index](../body-structure-comparison/README.md)
-- [HTML Comparison Config](../../../../../docs/html-comparison-config.md)
+- [Body Structure Comparison Index](../body-structure-comparison/INDEX.md)
+- [Root Bridge Config](../../../../../docs/html-structure-comparison.md)

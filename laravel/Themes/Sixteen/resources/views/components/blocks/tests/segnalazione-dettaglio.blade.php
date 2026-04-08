@@ -120,7 +120,7 @@
                                             <button class="accordion-button pb-10 px-3" type="button">
                                                 INDICE DELLA PAGINA
                                                 <svg class="icon icon-xs right">
-                                                    <use href="{{ $sprite }}#it-expand"></use>
+                                                    <use xlink:href="{{ $sprite }}#it-expand"></use>
                                                 </svg>
                                             </button>
                                         </span>
@@ -171,7 +171,7 @@
                                     <a class="list-item icon-left d-inline-block" href="{{ $link['url'] ?? '#' }}" aria-label="{{ $link['label'] ?? '' }}" title="{{ $link['label'] ?? '' }}">
                                         <span class="list-item-title-icon-wrapper">
                                             <svg class="icon icon-primary icon-sm me-1" aria-hidden="true">
-                                                <use href="{{ $sprite }}#{{ $link['icon'] ?? 'it-clip' }}"></use>
+                                                <use xlink:href="{{ $sprite }}#{{ $link['icon'] ?? 'it-clip' }}"></use>
                                             </svg>
                                             <span class="list-item">{{ $link['label'] ?? '' }}</span>
                                         </span>

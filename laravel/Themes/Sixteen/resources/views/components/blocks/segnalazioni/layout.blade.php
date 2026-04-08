@@ -268,7 +268,7 @@
                                                             </button>
                                                         </div>
                                                         <div id="collapse{{ $loop->iteration }}"
-                                                            class="accordion-collapse collapse" role="region">
+                                                            class="accordion-collapse collapse pb-0" role="region">
                                                             <div class="accordion-body p-0">
                                                                 <div class="cmp-info-summary bg-white border-0">
                                                                     <div class="card">
@@ -317,9 +317,9 @@
                                                                                             class="d-lg-flex gap-2 mt-3">
                                                                                             @foreach ($item['images'] as $img)
                                                                                                 <div>
-                                                                                                    <img src="{{ $img }}"
-                                                                                                        alt="{{ __($ns . '.card.images.alt') }}"
-                                                                                                        class="img-fluid w-100 mb-3 mb-lg-0">
+                                                                                            <img src="{{ $img }}"
+                                        alt="{{ __($ns . '.card.images.alt') }}"
+                                        class="img-fluid w-100 mb-3 mb-lg-0">
                                                                                                 </div>
                                                                                             @endforeach
                                                                                         </div>
@@ -347,6 +347,19 @@
                         </button>
                     </div>
                 </div>
+                    <div class="col-lg-6 mt-50 mb-4 mb-lg-0">
+                        <div class="cmp-text-button mt-0">
+                            <h2 class="title-xxlarge mb-0">{{ __($ns . '.cta.title.label') }}</h2>
+                            <div class="text-wrapper">
+                                <p class="subtitle-small mb-3 mt-3">{{ __($ns . '.cta.text.label') }}</p>
+                            </div>
+                            <div class="button-wrapper">
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#modal-disservizio" class="btn btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
+                                    <span>{{ __($ns . '.cta.button.label') }}</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
@@ -392,14 +405,14 @@
                             <h2 class="title-medium-2-semi-bold mb-3">{{ $contacts['contact_title'] }}</h2>
                             <ul class="link-list">
                                 @foreach ($contacts['contacts'] as $contact)
-                                    <li><a href="{{ $contact['url'] }}">{{ $contact['label'] }}</a></li>
+                                    <li><a class="list-item" href="{{ $contact['url'] }}">{{ $contact['label'] }}</a></li>
                                 @endforeach
                             </ul>
                             @if (!empty($contacts['issues']))
                                 <h2 class="title-medium-2-semi-bold mb-3 mt-4">{{ $contacts['issues_title'] }}</h2>
                                 <ul class="link-list">
                                     @foreach ($contacts['issues'] as $issue)
-                                        <li><a href="{{ $issue['url'] }}">{{ $issue['label'] }}</a></li>
+                                        <li><a class="list-item" href="{{ $issue['url'] }}">{{ $issue['label'] }}</a></li>
                                     @endforeach
                                 </ul>
                             @endif

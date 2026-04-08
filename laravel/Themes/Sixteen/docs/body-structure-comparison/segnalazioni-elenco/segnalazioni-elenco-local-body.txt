@@ -6,7 +6,7 @@ Vai ai contenuti
 Vai al footer
 </a>
 </div>
-<header class="it-header-wrapper" data-bs-target="#header-nav-wrapper" style>
+<header class="it-header-wrapper" data-bs-target="#header-nav-wrapper">
 <div class="it-header-slim-wrapper">
 <div class="container">
 <div class="row">
@@ -57,11 +57,16 @@ ENG
 </div>
 </div>
 </div>
-<a class="btn btn-outline-light btn-icon" href="../servizi/accesso-servizio.html" data-element="personal-area-login" aria-label="Accedi all'area personale">
-<svg class="icon icon-white">
+<a class="btn btn-primary btn-icon btn-full" href="/it/tests/accesso-servizio" data-element="personal-area-login">
+<span class="rounded-icon" aria-hidden="true">
+<svg class="icon icon-primary">
 <use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user">
 </use>
 </svg>
+</span>
+<span class="d-none d-lg-block">
+Accedi all'area personale
+</span>
 </a>
 </div>
 </div>
@@ -75,16 +80,10 @@ ENG
 <div class="row">
 <div class="col-12">
 <div class="it-header-center-content-wrapper">
-<button class="custom-navbar-toggler d-lg-none me-3" type="button" aria-controls="nav4" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-target="#nav4" data-bs-toggle="navbarcollapsible">
-<svg class="icon">
-<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger">
-</use>
-</svg>
-</button>
 <div class="it-brand-wrapper">
-<a href="homepage.html">
+<a href="/">
 <svg width="82" height="82" class="icon" aria-hidden="true">
-<image xlink:href="/themes/Sixteen/images/logo.svg">
+<image xlink:href="/themes/Sixteen/design-comuni/assets/images/logo-comune.svg">
 </image>
 </svg>
 <div class="it-brand-text">
@@ -193,6 +192,12 @@ Cerca
 <div class="row">
 <div class="col-12">
 <div class="navbar navbar-expand-lg has-megamenu">
+<button class="custom-navbar-toggler" type="button" aria-controls="nav4" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-target="#nav4" data-bs-toggle="navbarcollapsible">
+<svg class="icon">
+<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger">
+</use>
+</svg>
+</button>
 <div class="navbar-collapsable" id="nav4">
 <div class="overlay" style="display: none;">
 </div>
@@ -208,7 +213,7 @@ Nascondi la navigazione
 </button>
 </div>
 <div class="menu-wrapper">
-<a href="homepage.html" class="logo-hamburger">
+<a href="/" class="logo-hamburger">
 <svg class="icon" aria-hidden="true">
 <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-pa">
 </use>
@@ -222,28 +227,28 @@ Nome del Comune
 <nav aria-label="Principale">
 <ul class="navbar-nav" data-element="main-navigation">
 <li class="nav-item">
-<a class="nav-link" href="../sito/amministrazione.html" data-element="management">
+<a class="nav-link" href="/it/tests/amministrazione" data-element="management">
 <span>
 Amministrazione
 </span>
 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="../sito/novita.html" data-element="news">
+<a class="nav-link" href="/it/tests/novita" data-element="news">
 <span>
 Novità
 </span>
 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="../sito/servizi.html" data-element="all-services">
+<a class="nav-link" href="/it/tests/servizi" data-element="all-services">
 <span>
 Servizi
 </span>
 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="../sito/eventi.html" data-element="live">
+<a class="nav-link" href="/it/tests/eventi" data-element="live">
 <span>
 Vivere il Comune
 </span>
@@ -254,22 +259,22 @@ Vivere il Comune
 <nav aria-label="Secondaria">
 <ul class="navbar-nav navbar-secondary">
 <li class="nav-item">
-<a class="nav-link" href="../sito/argomento.html">
+<a class="nav-link" href="#">
 Iscrizioni
 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="../sito/argomento.html">
+<a class="nav-link" href="#">
 Estate in città
 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="../sito/argomento.html">
+<a class="nav-link" href="#">
 Polizia locale
 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="argomenti.html" data-element="all-topics">
+<a class="nav-link" href="/it/tests/argomenti" data-element="all-topics">
 <span>
 Tutti gli argomenti
 <svg class="icon icon-sm">
@@ -363,7 +368,7 @@ RSS
 </div>
 </div>
 </header>
-<main data-page="segnalazioni-elenco">
+<main>
 <div class="container" id="main-container">
 <div class="row justify-content-center mb-md-40 mb-lg-80">
 <div class="col-12 col-lg-10">
@@ -536,7 +541,7 @@ Strade, marciapiedi, segnaletica e viabilità
 <button type="button" data-bs-toggle="modal" data-bs-target="#modal-categories" class="btn p-0 pe-2 d-lg-none">
 <span class="rounded-icon">
 <svg class="icon icon-primary icon-xs" aria-hidden="true">
-<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-funnel">
+<use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-funnel">
 </use>
 </svg>
 </span>
@@ -618,13 +623,13 @@ Verde pubblico e arredo urbano
 <span class="d-flex align-items-center">
 Mostra tutto
 <svg class="icon icon-primary icon-sm">
-<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand">
+<use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand">
 </use>
 </svg>
 </span>
 </button>
 </div>
-<div id="collapse1" class="accordion-collapse collapse pb-0" role="region">
+<div id="collapse1" class="accordion-collapse collapse" role="region">
 <div class="accordion-body p-0">
 <div class="cmp-info-summary bg-white border-0">
 <div class="card">
@@ -663,13 +668,13 @@ Immagini
 <div class="border-light border-0">
 <div class="d-lg-flex gap-2 mt-3">
 <div>
-<img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
 </div>
 <div>
-<img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
 </div>
 <div>
-<img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
 </div>
 </div>
 </div>
@@ -710,13 +715,13 @@ Illuminazione pubblica
 <span class="d-flex align-items-center">
 Mostra tutto
 <svg class="icon icon-primary icon-sm">
-<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand">
+<use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand">
 </use>
 </svg>
 </span>
 </button>
 </div>
-<div id="collapse2" class="accordion-collapse collapse pb-0" role="region">
+<div id="collapse2" class="accordion-collapse collapse" role="region">
 <div class="accordion-body p-0">
 <div class="cmp-info-summary bg-white border-0">
 <div class="card">
@@ -755,7 +760,7 @@ Immagini
 <div class="border-light border-0">
 <div class="d-lg-flex gap-2 mt-3">
 <div>
-<img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
 </div>
 </div>
 </div>
@@ -796,13 +801,13 @@ Igiene urbana, rifiuti, pulizia e decoro
 <span class="d-flex align-items-center">
 Mostra tutto
 <svg class="icon icon-primary icon-sm">
-<use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand">
+<use xlink:href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand">
 </use>
 </svg>
 </span>
 </button>
 </div>
-<div id="collapse3" class="accordion-collapse collapse pb-0" role="region">
+<div id="collapse3" class="accordion-collapse collapse" role="region">
 <div class="accordion-body p-0">
 <div class="cmp-info-summary bg-white border-0">
 <div class="card">
@@ -841,10 +846,10 @@ Immagini
 <div class="border-light border-0">
 <div class="d-lg-flex gap-2 mt-3">
 <div>
-<img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
 </div>
 <div>
-<img src="/themes/Sixteen/design-comuni/assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+<img src="../assets/images/image-disservizio.png" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
 </div>
 </div>
 </div>
@@ -864,13 +869,12 @@ Immagini
 </div>
 </div>
 </div>
-<div class="text-center mt-4">
-<button type="button" class="btn btn-outline-primary">
+<div class="col-12 text-center">
+<button type="button" class="btn btn-outline-primary mobile-full py-3 mt-10 mx-auto">
 <span>
 Carica altre segnalazioni
 </span>
 </button>
-</div>
 </div>
 </div>
 </div>
@@ -944,17 +948,17 @@ Contatta il comune
 </h2>
 <ul class="link-list">
 <li>
-<a href="/it/tests/assistenza-01-dati">
+<a class="list-item" href="/it/tests/assistenza-01-dati">
 Richiedi assistenza
 </a>
 </li>
 <li>
-<a href="tel:050505">
+<a class="list-item" href="tel:050505">
 Chiama il numero verde 05 0505
 </a>
 </li>
 <li>
-<a href="/it/tests/appuntamento-01-ufficio">
+<a class="list-item" href="/it/tests/appuntamento-01-ufficio">
 Prenota appuntamento
 </a>
 </li>
@@ -964,7 +968,7 @@ Problemi in città
 </h2>
 <ul class="link-list">
 <li>
-<a href="/it/tests/segnalazioni">
+<a class="list-item" href="/it/tests/segnalazioni">
 Segnala disservizio
 </a>
 </li>
@@ -973,8 +977,8 @@ Segnala disservizio
 </div>
 </div>
 </div>
-</div>
 <div class="modal fade" id="modal-categories" tabindex="-1" role="dialog" aria-labelledby="modal-categories-label" aria-hidden="true">
+<div class="it-example-modal">
 <div class="modal-dialog modal-dialog-scrollable">
 <div class="modal-content">
 <div class="modal-header">

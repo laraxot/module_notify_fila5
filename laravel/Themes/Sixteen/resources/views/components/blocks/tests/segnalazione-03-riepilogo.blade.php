@@ -56,7 +56,7 @@
                                 {{ $step }}
                                 @if($index + 1 < $currentStep)
                                     <svg class="icon steppers-success" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-check"></use>
+                                        <use xlink:href="{{ $sprite }}#it-check"></use>
                                     </svg>
                                     <span class="visually-hidden">Confermato</span>
                                 @elseif($index + 1 === $currentStep)
@@ -77,7 +77,7 @@
             <div class="callout callout-highlight ps-3 warning">
                 <div class="callout-title mb-20 d-flex align-items-center">
                     <svg class="icon icon-sm" aria-hidden="true">
-                        <use href="{{ $sprite }}#it-horn"></use>
+                        <use xlink:href="{{ $sprite }}#it-horn"></use>
                     </svg>
                     <span>Attenzione</span>
                 </div>
@@ -244,7 +244,7 @@
                 <nav class="steppers-nav" aria-label="Step">
                     <button type="button" class="btn btn-sm steppers-btn-prev p-0">
                         <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                            <use href="{{ $sprite }}#it-chevron-left"></use>
+                            <use xlink:href="{{ $sprite }}#it-chevron-left"></use>
                         </svg>
                         <span class="text-button-sm t-primary">Indietro</span>
                     </button>
@@ -288,7 +288,7 @@
                     <nav class="steppers-nav" aria-label="Step">
                         <button type="button" class="btn btn-sm steppers-btn-prev p-0">
                             <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                <use href="{{ $sprite }}#it-chevron-left"></use>
+                                <use xlink:href="{{ $sprite }}#it-chevron-left"></use>
                             </svg>
                             <span class="text-button-sm t-primary">Indietro</span>
                         </button>
@@ -298,7 +298,7 @@
                         <button type="button" class="btn btn-primary btn-sm steppers-btn-confirm">
                             <span class="text-button-sm">Conferma e invia</span>
                             <svg class="icon icon-white icon-sm" aria-hidden="true">
-                                <use href="{{ $sprite }}#it-check"></use>
+                                <use xlink:href="{{ $sprite }}#it-check"></use>
                             </svg>
                         </button>
                     </nav>
@@ -325,19 +325,19 @@
                             <ul class="contact-list p-0">
                                 <li><a class="list-item" href="#">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-help-circle"></use>
+                                        <use xlink:href="{{ $sprite }}#it-help-circle"></use>
                                     </svg><span>Leggi le domande frequenti</span></a></li>
                                 <li><a class="list-item" href="#" data-element="contacts">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-mail"></use>
+                                        <use xlink:href="{{ $sprite }}#it-mail"></use>
                                     </svg><span>Richiedi assistenza</span></a></li>
                                 <li><a class="list-item" href="#">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-hearing"></use>
+                                        <use xlink:href="{{ $sprite }}#it-hearing"></use>
                                     </svg><span>Chiama il numero verde 05 0505</span></a></li>
                                 <li><a class="list-item" href="#" data-element="appointment-booking">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-calendar"></use>
+                                        <use xlink:href="{{ $sprite }}#it-calendar"></use>
                                     </svg><span>Prenota appuntamento</span></a></li>
                             </ul>
                         </div>

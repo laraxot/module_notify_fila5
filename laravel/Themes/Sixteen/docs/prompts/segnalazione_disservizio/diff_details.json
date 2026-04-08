@@ -1,23 +1,24 @@
 {
-  "generated_at": "2026-04-08T11:14:28.463254",
+  "generated_at": "2026-04-08T12:19:48.758441",
   "slug": "segnalazioni-elenco",
-  "reference": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html",
-  "local": "http://127.0.0.1:8000/it/tests/segnalazioni-elenco",
+  "reference": "/tmp/reference_segnalazioni.html",
+  "local": "/tmp/local_segnalazioni_v2.html",
   "threshold": 90,
-  "parity_score": 55.3,
+  "parity_score": 76.2,
   "reference_node_count": 776,
-  "local_node_count": 708,
+  "local_node_count": 711,
   "stats": {
-    "identical": 429,
-    "missing": 196,
-    "different": 65,
-    "extra": 113
+    "identical": 549,
+    "warning": 42,
+    "missing": 182,
+    "different": 3,
+    "extra": 117
   },
   "findings": [
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
@@ -100,9 +101,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "<use> identical"
     },
     {
       "kind": "identical",
@@ -165,19 +166,29 @@
       "detail": "<span> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]",
-      "detail": "attributes differ; classes differ"
+      "detail": "<a> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]",
-      "detail": "tag mismatch: ref=<span> local=<svg>"
+      "detail": "<span> identical"
     },
     {
-      "kind": "missing",
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
       "path": "document/body[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[2]",
-      "detail": "missing local element <span>"
+      "detail": "<span> identical"
     },
     {
       "kind": "identical",
@@ -210,29 +221,234 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
-      "detail": "tag mismatch: ref=<div> local=<button>"
+      "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]/image[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]",
+      "detail": "<div> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]",
+      "detail": "<div> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[2]",
+      "detail": "<div> identical"
+    },
+    {
+      "kind": "identical",
       "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
-      "detail": "attributes differ; classes differ"
+      "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
-      "detail": "tag mismatch: ref=<div> local=<a>"
+      "detail": "<div> identical"
     },
     {
-      "kind": "missing",
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]",
+      "detail": "<ul> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
       "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
-      "detail": "missing local element <div>"
+      "detail": "<div> identical"
     },
     {
-      "kind": "extra",
-      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
-      "detail": "extra local element <div>"
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]",
+      "detail": "<button> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/svg[1]/use[1]",
+      "detail": "<use> identical"
     },
     {
       "kind": "identical",
@@ -260,14 +476,384 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]",
-      "detail": "tag mismatch: ref=<button> local=<div>"
+      "detail": "<button> identical"
     },
     {
-      "kind": "missing",
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]/use[1]",
+      "detail": "<use> identical"
+    },
+    {
+      "kind": "identical",
       "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
-      "detail": "missing local element <div>"
+      "detail": "<div> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "detail": "<div> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "detail": "<div> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]",
+      "detail": "<button> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/svg[1]/use[1]",
+      "detail": "<use> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+      "detail": "<div> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/svg[1]/use[1]",
+      "detail": "<use> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/div[1]",
+      "detail": "<div> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/div[1]/div[1]",
+      "detail": "<div> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]",
+      "detail": "<nav> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]",
+      "detail": "<ul> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[1]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[1]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[1]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[2]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[2]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[2]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]",
+      "detail": "<nav> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]",
+      "detail": "<ul> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[1]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[1]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[2]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[2]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[3]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[3]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[4]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[4]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[4]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[4]/a[1]/span[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[2]/ul[1]/li[4]/a[1]/span[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+      "detail": "<div> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]",
+      "detail": "<ul> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[1]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[1]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[1]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[1]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[2]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[2]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[2]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[2]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[3]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[3]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[3]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[3]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[4]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[5]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[5]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[5]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[5]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[5]/a[1]/span[1]",
+      "detail": "<span> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]",
+      "detail": "<li> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]",
+      "detail": "<a> identical"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/svg[1]",
+      "detail": "<svg> identical"
+    },
+    {
+      "kind": "warning",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/svg[1]/use[1]",
+      "detail": "other attributes differ"
+    },
+    {
+      "kind": "identical",
+      "path": "document/body[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/span[1]",
+      "detail": "<span> identical"
     },
     {
       "kind": "identical",
@@ -310,9 +896,9 @@
       "detail": "<li> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ol[1]/li[1]/a[1]",
-      "detail": "attributes differ"
+      "detail": "<a> identical"
     },
     {
       "kind": "identical",
@@ -320,9 +906,9 @@
       "detail": "<span> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ol[1]/li[2]",
-      "detail": "attributes differ"
+      "detail": "<li> identical"
     },
     {
       "kind": "identical",
@@ -335,7 +921,7 @@
       "detail": "<h1> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[1]/div[1]/div[2]/p[1]",
       "detail": "text differs"
     },
@@ -415,9 +1001,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[1]/fieldset[1]/div[1]/ul[1]/li[2]/div[1]/div[1]/input[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
@@ -545,7 +1131,7 @@
       "detail": "<input> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[1]/fieldset[1]/div[1]/ul[1]/li[7]/div[1]/div[1]/label[1]",
       "detail": "text differs"
     },
@@ -680,9 +1266,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[1]/button[1]/span[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
@@ -720,9 +1306,9 @@
       "detail": "<li> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/ul[1]/li[2]/a[1]",
-      "detail": "attributes differ"
+      "detail": "<a> identical"
     },
     {
       "kind": "identical",
@@ -750,9 +1336,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/img[1]",
-      "detail": "attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "identical",
@@ -760,9 +1346,9 @@
       "detail": "<button> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]/img[1]",
-      "detail": "attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "identical",
@@ -800,9 +1386,9 @@
       "detail": "<button> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/button[1]/span[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
@@ -890,14 +1476,14 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
-      "kind": "identical",
+      "kind": "different",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
-      "detail": "<div> identical"
+      "detail": "classes differ: ref=['accordion-collapse', 'collapse', 'pb-0'] local=['accordion-collapse', 'collapse']; other attributes differ"
     },
     {
       "kind": "identical",
@@ -950,7 +1536,7 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/p[1]",
       "detail": "text differs"
     },
@@ -970,7 +1556,7 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/p[1]",
       "detail": "text differs"
     },
@@ -1000,9 +1586,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]",
-      "detail": "attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "identical",
@@ -1010,9 +1596,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[2]/img[1]",
-      "detail": "attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "identical",
@@ -1022,7 +1608,7 @@
     {
       "kind": "different",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[3]/img[1]",
-      "detail": "attributes differ; classes differ"
+      "detail": "classes differ: ref=['img-fluid', 'w-100'] local=['img-fluid', 'mb-3', 'mb-lg-0', 'w-100']; other attributes differ"
     },
     {
       "kind": "identical",
@@ -1060,12 +1646,12 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]",
       "detail": "text differs"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
       "detail": "text differs"
     },
@@ -1105,14 +1691,14 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
-      "detail": "attributes differ; classes differ"
+      "detail": "<div> identical"
     },
     {
       "kind": "identical",
@@ -1165,7 +1751,7 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/p[1]",
       "detail": "text differs"
     },
@@ -1185,7 +1771,7 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/p[1]",
       "detail": "text differs"
     },
@@ -1215,9 +1801,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]",
-      "detail": "attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "missing",
@@ -1265,12 +1851,12 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]",
       "detail": "text differs"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
       "detail": "text differs"
     },
@@ -1310,14 +1896,14 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
-      "detail": "attributes differ; classes differ"
+      "detail": "<div> identical"
     },
     {
       "kind": "identical",
@@ -1370,7 +1956,7 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/p[1]",
       "detail": "text differs"
     },
@@ -1390,7 +1976,7 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/p[1]",
       "detail": "text differs"
     },
@@ -1420,9 +2006,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/img[1]",
-      "detail": "attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "identical",
@@ -1430,9 +2016,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[2]/img[1]",
-      "detail": "attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "missing",
@@ -1445,19 +2031,19 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]",
-      "detail": "attributes differ; classes differ"
+      "detail": "<div> identical"
     },
     {
       "kind": "different",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/button[1]",
-      "detail": "attributes differ; classes differ"
+      "detail": "classes differ: ref=['btn', 'btn', 'btn-outline-primary', 'mobile-full', 'mt-10', 'mx-auto', 'py-3'] local=['btn', 'btn-outline-primary', 'mobile-full', 'mt-10', 'mx-auto', 'py-3']; other attributes differ"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/main[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/button[1]/span[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "missing",
@@ -1465,144 +2051,34 @@
       "detail": "missing local element <div>"
     },
     {
-      "kind": "identical",
-      "path": "document/body[1]/main[1]/div[2]",
-      "detail": "<div> identical"
-    },
-    {
-      "kind": "identical",
-      "path": "document/body[1]/main[1]/div[2]/div[1]",
-      "detail": "<div> identical"
-    },
-    {
-      "kind": "identical",
-      "path": "document/body[1]/main[1]/div[2]/div[1]/div[1]",
-      "detail": "<div> identical"
-    },
-    {
-      "kind": "identical",
-      "path": "document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]",
-      "detail": "<div> identical"
-    },
-    {
-      "kind": "identical",
-      "path": "document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
-      "detail": "<div> identical"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
-      "detail": "attributes differ"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
-      "detail": "attributes differ; classes differ"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
-      "detail": "tag mismatch: ref=<div> local=<h2>"
-    },
-    {
-      "kind": "missing",
-      "path": "document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
-      "detail": "missing local element <div>"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
-      "detail": "attributes differ; classes differ"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
-      "detail": "tag mismatch: ref=<div> local=<fieldset>"
-    },
-    {
-      "kind": "missing",
-      "path": "document/body[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
-      "detail": "missing local element <div>"
-    },
-    {
-      "kind": "identical",
-      "path": "document/body[1]/main[1]/div[3]",
-      "detail": "<div> identical"
-    },
-    {
-      "kind": "identical",
-      "path": "document/body[1]/main[1]/div[3]/div[1]",
-      "detail": "<div> identical"
-    },
-    {
-      "kind": "identical",
-      "path": "document/body[1]/main[1]/div[3]/div[1]/div[1]",
-      "detail": "<div> identical"
-    },
-    {
-      "kind": "identical",
-      "path": "document/body[1]/main[1]/div[3]/div[1]/div[1]/div[1]",
-      "detail": "<div> identical"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
-      "detail": "tag mismatch: ref=<div> local=<h2>"
-    },
-    {
       "kind": "extra",
-      "path": "document/body[1]/main[1]/div[3]/div[1]/div[1]/div[1]/ul[1]",
-      "detail": "extra local element <ul>"
-    },
-    {
-      "kind": "extra",
-      "path": "document/body[1]/main[1]/div[3]/div[1]/div[1]/div[1]/h2[2]",
-      "detail": "extra local element <h2>"
-    },
-    {
-      "kind": "extra",
-      "path": "document/body[1]/main[1]/div[3]/div[1]/div[1]/div[1]/ul[2]",
-      "detail": "extra local element <ul>"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[4]",
-      "detail": "attributes differ; classes differ"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[4]/div[1]",
-      "detail": "attributes differ; classes differ"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[4]/div[1]/div[1]",
-      "detail": "attributes differ; classes differ"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[4]/div[1]/div[1]/div[1]",
-      "detail": "attributes differ; classes differ"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
-      "detail": "tag mismatch: ref=<div> local=<h2>"
-    },
-    {
-      "kind": "different",
-      "path": "document/body[1]/main[1]/div[4]/div[1]/div[1]/div[1]/div[2]",
-      "detail": "tag mismatch: ref=<div> local=<button>"
-    },
-    {
-      "kind": "missing",
-      "path": "document/body[1]/main[1]/div[4]/div[1]/div[1]/div[1]/div[3]",
-      "detail": "missing local element <div>"
-    },
-    {
-      "kind": "extra",
-      "path": "document/body[1]/main[1]/div[4]/div[1]/div[1]/div[2]",
+      "path": "document/body[1]/main[1]/div[1]/div[3]",
       "detail": "extra local element <div>"
+    },
+    {
+      "kind": "extra",
+      "path": "document/body[1]/main[1]/div[1]/div[4]",
+      "detail": "extra local element <div>"
+    },
+    {
+      "kind": "extra",
+      "path": "document/body[1]/main[1]/div[1]/div[5]",
+      "detail": "extra local element <div>"
+    },
+    {
+      "kind": "missing",
+      "path": "document/body[1]/main[1]/div[2]",
+      "detail": "missing local element <div>"
+    },
+    {
+      "kind": "missing",
+      "path": "document/body[1]/main[1]/div[3]",
+      "detail": "missing local element <div>"
+    },
+    {
+      "kind": "missing",
+      "path": "document/body[1]/main[1]/div[4]",
+      "detail": "missing local element <div>"
     },
     {
       "kind": "identical",
@@ -1660,9 +2136,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "<use> identical"
     },
     {
       "kind": "identical",
@@ -1680,9 +2156,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/button[2]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "<use> identical"
     },
     {
       "kind": "identical",
@@ -1710,9 +2186,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/span[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "<use> identical"
     },
     {
       "kind": "identical",
@@ -1835,9 +2311,9 @@
       "detail": "<div> identical"
     },
     {
-      "kind": "different",
+      "kind": "identical",
       "path": "document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/img[1]",
-      "detail": "attributes differ"
+      "detail": "<img> identical"
     },
     {
       "kind": "identical",
@@ -1855,9 +2331,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
@@ -2420,9 +2896,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[1]/a[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
@@ -2445,9 +2921,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[2]/a[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
@@ -2470,9 +2946,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[3]/a[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
@@ -2495,9 +2971,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[4]/a[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
@@ -2520,9 +2996,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[5]/a[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
@@ -2545,9 +3021,9 @@
       "detail": "<svg> identical"
     },
     {
-      "kind": "different",
+      "kind": "warning",
       "path": "document/body[1]/footer[1]/div[1]/div[1]/div[2]/div[5]/ul[1]/li[6]/a[1]/svg[1]/use[1]",
-      "detail": "attributes differ"
+      "detail": "other attributes differ"
     },
     {
       "kind": "identical",
