@@ -1,66 +1,66 @@
-# HTML Structure Comparison Tools
+# HTML Structure Comparison
 
-Scripts for comparing HTML body structure between Design Comuni reference pages and local implementations.
+> **Purpose**: Master index for HTML structure comparison between Design Comuni reference pages and the Sixteen theme implementation.
+> Bridges `bashscripts/html/` (agnostic tools) with `laravel/Themes/Sixteen/docs/` (project-specific output).
 
-## Scripts Location
+## Tools
 
-| Script | Path | Purpose |
-|--------|------|---------|
-| Orchestrator | `bashscripts/html/html-structure-compare.sh` | Fetches HTML pages, runs comparison |
-| Core | `bashscripts/html/compare-html-body.py` | Extracts body HTML, compares elements |
+| Script | Location | Purpose |
+|--------|----------|---------|
+| `compare-html-body.py` | [`bashscripts/html/compare-html-body.py`](bashscripts/html/compare-html-body.py) | Python comparison engine |
+| `compare-html-body.sh` | [`bashscripts/html/compare-html-body.sh`](bashscripts/html/compare-html-body.sh) | Shell wrapper with project defaults |
+| `html-structure-compare.sh` | [`bashscripts/html/html-structure-compare.sh`](bashscripts/html/html-structure-compare.sh) | Legacy shell comparison |
 
-## Output Location
+## Documentation
 
-All comparison reports are saved to:
-```
-laravel/Themes/Sixteen/docs/body-structure-comparison/<page-name>/
-```
+| Doc | Location |
+|-----|----------|
+| Script docs | [`bashscripts/docs/html/compare-html-body.md`](bashscripts/docs/html/compare-html-body.md) |
+| Theme comparison results | [`laravel/Themes/Sixteen/docs/body-structure-comparison/README.md`](laravel/Themes/Sixteen/docs/body-structure-comparison/README.md) |
 
-Each page directory contains:
-- `report.md` - Markdown parity report
-- `diff_details.json` - Detailed JSON comparison
-- `reference-body.html` - Cleaned reference body (no script/style)
-- `local-body.html` - Cleaned local body
-- `reference-structure.json` - Reference element tree
-- `local-structure.json` - Local element tree
-
-## Usage
+## How to Run
 
 ```bash
-# From project root
-python3 bashscripts/html/compare-html-body.py <reference> <local> <page-name>
+# Quick comparison with project defaults
+bash bashscripts/html/compare-html-body.sh <page-name>
 
-# Example with files
-python3 bashscripts/html/compare-html-body.py \
-  laravel/Themes/Sixteen/docs/prompts/segnalazione-dettaglio/reference.html \
-  laravel/Themes/Sixteen/docs/prompts/segnalazione-dettaglio/local.html \
-  segnalazione-dettaglio
+# With custom threshold
+bash bashscripts/html/compare-html-body.sh <page-name> 85
+
+# Verbose output
+bash bashscripts/html/compare-html-body.sh <page-name> --verbose
 ```
 
-## Reference HTML Location
+## Target Pages
 
-Reference HTML files are stored in:
-```
-laravel/Themes/Sixteen/docs/prompts/<page-name>/reference.html
-```
+All Design Comuni static pages under `laravel/config/local/fixcity/database/content/pages/tests.*.json`:
 
-## Local HTML Location
+- homepage
+- argomenti, argomento
+- servizi, servizio-dettaglio
+- segnalazioni-elenco, segnalazione-dettaglio
+- segnalazione-01-privacy, segnalazione-02-dati, segnalazione-03-riepilogo, segnalazione-04-conferma
+- novita, novita-dettaglio
+- eventi, evento-dettaglio
+- amministrazione
+- assistenza-01-dati, assistenza-02-conferma
+- appuntamento-01-ufficio, appuntamento-02-data-orario, ...
+- e altri...
 
-Local HTML snapshots are stored in:
-```
-laravel/Themes/Sixteen/docs/prompts/<page-name>/local.html
-```
+## Goal
 
-## Rules
+**≥90% HTML parity score** for all Design Comuni pages before production deployment.
 
-1. **No Bootstrap Italia**: Project uses TailwindCSS + Alpine.js only
-2. **Translation keys**: All text must use `fixcity::segnalazione.context.key.type` pattern
-3. **Page routing**: All test pages use `pages/tests/[slug].blade.php` with Volt component
-4. **Layout**: Test pages use `<x-layouts.app>`, not `<x-layouts.design-comuni>`
+Current methodology:
+1. Replicate Bootstrap Italia HTML structure exactly (same tags, same classes, same `data-element` attributes)
+2. Style with TailwindCSS `@apply` in `style-apply.css` (NOT Bootstrap CSS)
+3. Add interactivity with Alpine.js (NOT Bootstrap JS)
+4. Verify multilingual (NO hardcoded Italian strings)
+5. Verify 5-level translation format: `namespace::context.collection.element.type`
 
-## Related Documentation
+## Bidirectional Links
 
-- [Theme Architecture](../laravel/Themes/Sixteen/docs/architecture/README.md)
-- [No Bootstrap Rule](../docs/rules/no-bootstrap-italia.md)
-- [Design Comuni Index](../laravel/Themes/Sixteen/docs/design-comuni/README.md)
-- [Body Structure Comparison Index](../laravel/Themes/Sixteen/docs/body-structure-comparison/INDEX.md)
+- **Bashscripts index**: [`bashscripts/docs/00-INDEX.md`](bashscripts/docs/00-INDEX.md)
+- **Theme docs index**: [`laravel/Themes/Sixteen/docs/00-index.md`](laravel/Themes/Sixteen/docs/00-index.md)
+- **Design Comuni overview**: [`laravel/Themes/Sixteen/docs/design-comuni/README.md`](laravel/Themes/Sixteen/docs/design-comuni/README.md)
+- **Block implementation guide**: [`laravel/Themes/Sixteen/docs/BLOCK_IMPLEMENTATION_GUIDE.md`](laravel/Themes/Sixteen/docs/BLOCK_IMPLEMENTATION_GUIDE.md)

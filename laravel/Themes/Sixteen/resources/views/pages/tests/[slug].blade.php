@@ -4,38 +4,48 @@ declare(strict_types=1);
 
 use function Laravel\Folio\middleware;
 use function Laravel\Folio\name;
+use Livewire\Volt\Component;
+use Modules\Cms\Models\Page;
 use Modules\Cms\Http\Middleware\PageSlugMiddleware;
 
 name('tests.view');
 middleware(PageSlugMiddleware::class);
+
+new class extends Component {
+    public string $slug = '';
+    public string $pageSlug = '';
+
+    /** @var array<int, object> */
+    public array $blocks = [];
+
+    /** @var array<string, mixed> */
+    public array $data = [];
+
+    public function mount(string $slug = ''): void
+    {
+        $this->slug = $slug;
+        $this->pageSlug = $slug ? 'tests.'.$slug : 'tests';
+
+        // Load blocks from CMS Page model
+        $this->blocks = Page::getBlocksBySlug($this->pageSlug, 'content');
+
+        $this->data = [
+            'slug' => $slug,
+        ];
+    }
+};
 ?>
-@php
-    $slug = (string) request()->route('slug', '');
-    $pageSlug = $slug !== '' ? 'tests.'.$slug : 'tests';
-    $locale = app()->getLocale();
 
-    $blocks = \Modules\Cms\Models\Page::getBlocksBySlug($pageSlug, 'content');
-
-    $pageTitle = match ($slug) {
-        'segnalazione-dettaglio' => 'Segnalazione disservizio - Scheda servizio',
-        'segnalazioni-elenco' => 'Elenco segnalazioni',
-        default => ucfirst(str_replace('-', ' ', $slug)),
-    };
-
-    $pageMetaDescription = match ($slug) {
-        'segnalazione-dettaglio' => 'Dettaglio del servizio di segnalazione disservizio.',
-        'segnalazioni-elenco' => 'Elenco delle segnalazioni ricevute dal comune.',
-        default => 'Pagina di test ' . $pageTitle,
-    };
-
-    $data = ['slug' => $slug];
-@endphp
-<x-layouts.app :title="$pageTitle" :meta-description="$pageMetaDescription">
+<x-layouts.app>
+    @volt('tests.view')
+    {{-- Single root wrapper for Livewire --}}
     <div id="main-container" class="container cms-view-wrapper">
-        <div class="page-content content" data-slug="{{ $pageSlug }}" data-side="content">
-            @foreach($blocks as $block)
+        {{-- Page content via CMS blocks --}}
+        <div class="page-content content" data-slug="{{ $this->pageSlug }}" data-side="content">
+            @foreach($this->blocks as $block)
                 @include($block->view, array_merge(['data' => []], $block->data))
             @endforeach
         </div>
     </div>
+    @endvolt
 </x-layouts.app>

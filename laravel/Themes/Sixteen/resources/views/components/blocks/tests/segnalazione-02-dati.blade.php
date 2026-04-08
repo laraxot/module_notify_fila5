@@ -1,19 +1,23 @@
 @props(['data' => []])
 
 @php
-    $title = $data['title'] ?? 'Segnalazione disservizio';
+    $title = $data['title'] ?? __('fixcity::segnalazione.heading.title.label');
     $sprite = '/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg';
     $currentStep = $data['current_step'] ?? 2;
     $totalSteps = $data['total_steps'] ?? 3;
-    $steps = $data['steps'] ?? ['Informativa sulla privacy', 'Dati di segnalazione', 'Riepilogo'];
+    $steps = $data['steps'] ?? [
+        __('fixcity::segnalazione.steps.privacy.label'),
+        __('fixcity::segnalazione.steps.data.label'),
+        __('fixcity::segnalazione.steps.summary.label'),
+    ];
     $sections = $data['sections'] ?? [];
     $placeholders = $data['placeholders'] ?? [
-        'search_place' => 'Cerca un luogo*',
-        'inefficiency_type' => 'Tipo di disservizio*',
-        'title' => 'Titolo*',
-        'details' => 'Dettagli**'
+        'search_place' => __('fixcity::segnalazione.fields.place.placeholder'),
+        'inefficiency_type' => __('fixcity::segnalazione.fields.inefficiency_type.placeholder'),
+        'title' => __('fixcity::segnalazione.fields.title.placeholder'),
+        'details' => __('fixcity::segnalazione.fields.details.placeholder'),
     ];
-    $inefficiencyTypes = $data['inefficiency_types'] ?? ['Danneggiamento proprietà pubblica'];
+    $inefficiencyTypes = $data['inefficiency_types'] ?? [__('fixcity::segnalazione.inefficiency_types.property_damage')];
     $contacts = $data['contacts'] ?? [];
 @endphp
 
@@ -23,8 +27,8 @@
             <div class="cmp-breadcrumbs" role="navigation">
                 <nav class="breadcrumb-container" aria-label="breadcrumb">
                     <ol class="breadcrumb p-0" data-element="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a><span class="separator">/</span></li>
-                        <li class="breadcrumb-item"><a href="#">Servizi</a><span class="separator">/</span></li>
+                        <li class="breadcrumb-item"><a href="#">{{ __('fixcity::common.navigation.home.label') }}</a><span class="separator">/</span></li>
+                        <li class="breadcrumb-item"><a href="#">{{ __('fixcity::common.navigation.services.label') }}</a><span class="separator">/</span></li>
                         <li class="breadcrumb-item active" aria-current="page">{{ $title }}</li>
                     </ol>
                 </nav>
@@ -44,9 +48,9 @@
                                     <svg class="icon steppers-success" aria-hidden="true">
                                         <use href="{{ $sprite }}#it-check"></use>
                                     </svg>
-                                    <span class="visually-hidden">Confermato</span>
+                                    <span class="visually-hidden">{{ __('fixcity::segnalazione.steps.confirmed.label') }}</span>
                                 @elseif($index + 1 === $currentStep)
-                                    <span class="visually-hidden">Attivo</span>
+                                    <span class="visually-hidden">{{ __('fixcity::segnalazione.steps.active.label') }}</span>
                                 @endif
                             </li>
                         @endforeach
@@ -54,14 +58,14 @@
                     <span class="steppers-index" aria-hidden="true">{{ $currentStep }}/{{ $totalSteps }}</span>
                 </div>
             </div>
-            <p class="title-xsmall d-lg-none my-5">I campi contraddistinti dal simbolo asterisco sono obbligatori</p>
+            <p class="title-xsmall d-lg-none my-5">{{ __('fixcity::segnalazione.fields.required.note.label') }}</p>
         </div>
     </div>
 
     <div class="row" x-data="{ accordionOpen: true, parentsOpen: false }">
         <div class="col-12 col-lg-3 d-lg-block mb-4 d-none">
             <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-one">
-                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="INFORMAZIONI RICHIESTE">
+                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="{{ __('fixcity::segnalazione.heading.required_info.label') }}">
                     <div class="navbar-custom" id="navbarNavProgress">
                         <div class="menu-wrapper">
                             <div class="link-list-wrapper">
@@ -69,7 +73,7 @@
                                     <div class="accordion-item">
                                         <span class="accordion-header" id="accordion-title-one">
                                             <button class="accordion-button pb-10 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-one" @click="accordionOpen = !accordionOpen" aria-expanded="true" aria-controls="collapse-one">
-                                                INFORMAZIONI RICHIESTE
+                                                {{ __('fixcity::segnalazione.heading.required_info.label') }}
                                                 <svg class="icon icon-xs right">
                                                     <use href="{{ $sprite }}#it-expand"></use>
                                                 </svg>
