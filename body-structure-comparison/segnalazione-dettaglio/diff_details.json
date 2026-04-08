@@ -1,69 +1,74 @@
 {
   "page": "segnalazione-dettaglio",
-  "date": "2026-04-08T14:08:26.630481",
-  "ref_url": "/tmp/ref_dettaglio.html",
-  "local_url": "/tmp/local_dettaglio.html",
+  "date": "2026-04-08T14:22:42.726018",
+  "ref_url": "/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/prompts/segnalazione-dettaglio/reference.html",
+  "local_url": "/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/prompts/segnalazione-dettaglio/local.html",
   "stats": {
-    "total_ref": 804,
+    "total_ref": 621,
     "total_local": 509,
-    "identical": 366,
-    "different": 134,
-    "missing_in_local": 304,
-    "extra_in_local": 9,
-    "parity_score": 45.5
+    "identical": 333,
+    "different": 105,
+    "missing_in_local": 183,
+    "extra_in_local": 71,
+    "parity_score": 53.6
   },
   "ids": {
     "common": [
-      "accordion-title-one",
       "autocomplete-two",
-      "contacts",
       "footer",
       "header-nav-wrapper",
       "main-container",
       "nav4",
-      "navbarNavProgress",
-      "rating",
       "search-modal"
     ],
     "missing_in_local": [
-      "collapse-one",
-      "collapseExample",
-      "conditions",
-      "costs",
-      "description",
-      "fifth-star",
-      "first-star",
-      "formGroupExampleInputWithHelp",
-      "formGroupExampleInputWithHelpDescription",
-      "fourth-star",
-      "how-to",
-      "needed",
-      "obtain",
-      "radio-1",
-      "radio-10",
-      "radio-2",
-      "radio-3",
-      "radio-4",
-      "radio-5",
-      "radio-6",
-      "radio-7",
-      "radio-8",
-      "radio-9",
-      "rating-feedback",
-      "second-star",
-      "service-access",
-      "shareActions",
-      "star1a",
-      "star2a",
-      "star3a",
-      "star4a",
-      "star5a",
-      "third-star",
-      "viewActions",
-      "who-needs"
+      "accordion-faq-69cf9bc922bc1",
+      "autocomplete-three",
+      "button-3",
+      "collapsefaq-1",
+      "collapsefaq-10",
+      "collapsefaq-11",
+      "collapsefaq-12",
+      "collapsefaq-13",
+      "collapsefaq-14",
+      "collapsefaq-15",
+      "collapsefaq-16",
+      "collapsefaq-17",
+      "collapsefaq-18",
+      "collapsefaq-19",
+      "collapsefaq-2",
+      "collapsefaq-3",
+      "collapsefaq-4",
+      "collapsefaq-5",
+      "collapsefaq-6",
+      "collapsefaq-7",
+      "collapsefaq-8",
+      "collapsefaq-9",
+      "headingfaq-1",
+      "headingfaq-10",
+      "headingfaq-11",
+      "headingfaq-12",
+      "headingfaq-13",
+      "headingfaq-14",
+      "headingfaq-15",
+      "headingfaq-16",
+      "headingfaq-17",
+      "headingfaq-18",
+      "headingfaq-19",
+      "headingfaq-2",
+      "headingfaq-3",
+      "headingfaq-4",
+      "headingfaq-5",
+      "headingfaq-6",
+      "headingfaq-7",
+      "headingfaq-8",
+      "headingfaq-9"
     ],
     "extra_in_local": [
+      "accordion-title-one",
+      "contacts",
       "feedback-text",
+      "navbarNavProgress",
       "neg-0",
       "neg-1",
       "neg-2",
@@ -74,6 +79,7 @@
       "pos-2",
       "pos-3",
       "pos-4",
+      "rating",
       "star1",
       "star2",
       "star3",
@@ -100,37 +106,22 @@
       "btn",
       "btn-full",
       "btn-icon",
-      "btn-outline-primary",
       "btn-primary",
-      "card",
-      "card-body",
-      "card-teaser",
-      "card-teaser-info",
-      "card-wrapper",
-      "chip",
-      "chip-label",
-      "chip-simple",
       "close-div",
       "close-menu",
       "cmp-breadcrumbs",
-      "cmp-heading",
-      "cmp-navscroll",
       "col",
       "col-12",
       "col-lg-10",
-      "col-lg-3",
       "col-lg-5",
-      "col-lg-6",
       "col-lg-8",
       "col-md-3",
       "col-md-4",
       "col-md-6",
-      "col-md-8",
       "col-md-9",
       "collapse",
       "container",
       "custom-navbar-toggler",
-      "d-flex",
       "d-lg-block",
       "d-lg-flex",
       "d-md-block",
@@ -141,18 +132,12 @@
       "dropdown-menu",
       "dropdown-toggle",
       "fade",
-      "flex-wrap",
       "footer-bottom",
       "footer-heading-title",
       "footer-info",
       "footer-items-wrapper",
       "footer-list",
       "form-group",
-      "fw-bold",
-      "gap-1",
-      "gap-2",
-      "gap-30",
-      "h-auto",
       "has-megamenu",
       "icon",
       "icon-md",
@@ -174,10 +159,6 @@
       "it-header-slim-wrapper-content",
       "it-header-wrapper",
       "it-nav-wrapper",
-      "it-navscroll-progressbar",
-      "it-navscroll-wrapper",
-      "it-page-section",
-      "it-page-sections-container",
       "it-right-zone",
       "it-search-wrapper",
       "it-socials",
@@ -189,11 +170,7 @@
       "list-item",
       "logo-hamburger",
       "logo-wrapper",
-      "mb-0",
       "mb-2",
-      "mb-3",
-      "mb-30",
-      "mb-4",
       "menu-wrapper",
       "modal",
       "modal-body",
@@ -201,68 +178,34 @@
       "modal-dialog",
       "modal-lg",
       "modal-title",
-      "mr-lg-30",
-      "mt-10",
       "mt-2",
-      "mt-3",
-      "mt-4",
-      "mt-5",
-      "mt-lg-0",
-      "mt-lg-80",
       "mt-md-4",
-      "my-3",
       "nav-item",
       "nav-link",
       "navbar",
       "navbar-brand",
       "navbar-collapsable",
-      "navbar-custom",
       "navbar-expand-lg",
       "navbar-nav",
       "navbar-secondary",
       "no_toc",
-      "offset-lg-1",
       "other-link-title",
       "overlay",
       "p-0",
       "p-1",
-      "p-3",
-      "pb-0",
-      "pb-10",
-      "pb-3",
-      "pb-lg-4",
-      "pe-3",
       "perfect-scrollbar",
-      "progress",
-      "progress-bar",
       "ps-5",
-      "px-3",
-      "px-4",
-      "right",
-      "rounded",
       "rounded-icon",
       "row",
-      "row-column-menu-left",
       "search-link",
       "search-modal",
       "searches-list",
       "searches-list-wrapper",
-      "shadow-lg",
-      "shadow-sm",
-      "show",
       "skiplink",
       "social",
-      "sticky-top",
-      "subtitle-small",
-      "t-primary",
-      "text-button",
-      "text-center",
-      "text-decoration-none",
-      "text-paragraph-small",
+      "sr-only",
       "text-start",
       "text-white",
-      "title-small",
-      "title-xxxlarge",
       "ue-logo",
       "variable-gutters",
       "visually-hidden",
@@ -270,104 +213,40 @@
     ],
     "missing_in_local": [
       "active",
-      "align-items-center",
-      "align-items-lg-center",
-      "avatar",
-      "bg-grey-card",
-      "bg-primary",
-      "border-0",
-      "border-bottom",
-      "border-col",
-      "border-light",
+      "align-items-start",
       "breadcrumb-item",
-      "btn-back",
-      "btn-dropdown",
-      "btn-next",
-      "button-shadow",
-      "card-bg",
-      "card-body__list",
-      "card-header",
-      "card-space",
-      "carousel-4-card",
-      "cmp-carousel",
-      "cmp-carousel__header",
-      "cmp-carousel__header-title",
-      "cmp-carousel__title",
-      "cmp-contacts",
-      "cmp-icon-link",
-      "cmp-radio-list",
-      "cmp-radio-list__item",
-      "cmp-rating",
-      "cmp-rating__card-first",
-      "cmp-rating__card-second",
-      "cmp-steps-rating",
-      "cmp-steps-rating__body",
-      "contact-list",
-      "d-block",
-      "d-inline-block",
-      "d-inline-flex",
-      "drop-shadow",
-      "fieldset-rating-one",
-      "fieldset-rating-two",
-      "flex-column",
-      "flex-lg-row",
-      "flex-nowrap",
-      "form-check",
+      "btn-link",
+      "button-wrapper",
+      "cmp-accordion",
+      "cmp-hero",
+      "cmp-input-search",
+      "collapsed",
+      "faq",
       "form-control",
-      "form-rating",
-      "form-text",
-      "fs-0",
-      "full",
-      "h-100",
-      "has-bg-grey",
-      "hr-shadow-sm",
-      "icon-left",
-      "iscrizioni-header",
-      "it-carousel-all",
-      "it-carousel-wrapper",
-      "it-header-block",
-      "it-header-block-title",
-      "justify-content-between",
-      "list-item-title-icon-wrapper",
-      "list-wrapper",
-      "lora",
-      "m-0",
+      "hero-text",
+      "icon-wrapper",
+      "input-group",
+      "input-group-append",
+      "it-hero-text-wrapper",
+      "it-hero-wrapper",
+      "it-rating-label-container",
+      "it-rating-list",
+      "it-rating-list-container",
+      "it-rating-section",
+      "it-rating-wrapper",
+      "mb-lg-4",
       "me-1",
-      "me-4",
-      "mobile-full",
-      "ms-3",
-      "offset-lg-3",
-      "p-contacts",
-      "p-lg-0",
+      "offset-lg-2",
       "pb-4",
-      "pb-lg-80",
-      "pt-4",
-      "pt-5",
-      "pt-lg-80",
+      "pb-lg-60",
+      "ps-0",
+      "pt-0",
       "px-0",
-      "radio-body",
-      "rating",
-      "rating-star",
+      "px-sm-3",
+      "py-3",
       "separator",
-      "shadow",
-      "shadow-contacts",
-      "shadow-rating",
-      "show-more",
-      "single-card",
-      "size-xl",
-      "splide",
-      "splide__list",
-      "splide__slide",
-      "splide__track",
-      "step",
-      "step-title",
-      "text-decoration-underline",
-      "text-paragraph",
-      "text-wrap",
-      "title-medium-2-bold",
-      "title-medium-2-semi-bold",
-      "title-xxlarge",
-      "w-100"
+      "text-black",
+      "title-small-semi-bold"
     ],
     "extra_in_local": [
       "bg-primary-500",
@@ -377,12 +256,29 @@
       "border-gray-100",
       "border-gray-300",
       "border-transparent",
+      "btn-back",
+      "btn-next",
+      "btn-outline-primary",
+      "card",
+      "card-bg",
+      "card-body",
+      "card-wrapper",
+      "chip",
+      "chip-label",
+      "chip-simple",
+      "cmp-heading",
+      "cmp-navscroll",
       "cms-view-wrapper",
+      "col-lg-3",
+      "col-lg-6",
+      "col-md-8",
       "content",
       "cursor-pointer",
+      "d-flex",
       "duration-150",
       "flex",
       "flex-row-reverse",
+      "flex-wrap",
       "focus:border-primary-500",
       "focus:outline-none",
       "focus:ring-2",
@@ -390,13 +286,22 @@
       "focus:ring-primary-500",
       "font-medium",
       "font-semibold",
+      "fw-bold",
+      "gap-1",
+      "gap-2",
+      "gap-30",
       "gap-4",
       "h-12",
       "h-4",
       "h-8",
+      "h-auto",
       "hover:bg-gray-50",
       "hover:bg-primary-600",
       "inline-flex",
+      "it-navscroll-progressbar",
+      "it-navscroll-wrapper",
+      "it-page-section",
+      "it-page-sections-container",
       "items-center",
       "items-start",
       "justify-center",
@@ -404,38 +309,76 @@
       "lg:px-8",
       "lg:py-20",
       "max-w-2xl",
+      "mb-0",
+      "mb-3",
+      "mb-30",
+      "mb-4",
       "mb-6",
+      "me-4",
       "ml-3",
       "mt-1",
+      "mt-10",
+      "mt-3",
+      "mt-4",
+      "mt-5",
       "mt-6",
+      "mt-lg-0",
+      "mt-lg-80",
       "mx-auto",
+      "my-3",
+      "navbar-custom",
+      "offset-lg-1",
       "overflow-hidden",
+      "p-3",
       "page-content",
+      "pb-0",
+      "pb-10",
+      "pb-3",
+      "pb-lg-4",
+      "pe-3",
+      "progress",
+      "progress-bar",
+      "px-3",
+      "px-4",
       "px-6",
       "py-12",
       "py-2",
       "py-5",
       "py-6",
       "py-8",
+      "right",
+      "rounded",
       "rounded-lg",
       "rounded-md",
+      "row-column-menu-left",
+      "shadow-lg",
+      "shadow-sm",
+      "show",
+      "single-card",
       "sm:h-10",
       "sm:px-6",
       "sm:px-8",
       "sm:text-3xl",
       "sm:w-10",
       "space-y-3",
-      "sr-only",
+      "sticky-top",
+      "subtitle-small",
       "text-2xl",
       "text-base",
+      "text-button",
+      "text-center",
+      "text-decoration-none",
       "text-gray-500",
       "text-gray-600",
       "text-gray-700",
       "text-gray-900",
       "text-green-500",
       "text-lg",
+      "text-paragraph-small",
       "text-primary-500",
       "text-sm",
+      "title-small",
+      "title-xxxlarge",
       "transition-colors",
       "w-12",
       "w-4",
@@ -454,13 +397,6 @@
       "diffs": [
         "attributes differ: ref=['class', 'data-bs-target', 'style'], local=['class', 'data-bs-target']"
       ]
-    },
-    {
-      "tag": "use",
-      "depth": 10,
-      "id": null,
-      "classes": [],
-      "diffs": []
     },
     {
       "tag": "a",
@@ -488,9 +424,7 @@
       "depth": 8,
       "id": null,
       "classes": [],
-      "diffs": [
-        "attributes differ: ref=['href', 'title'], local=['href']"
-      ]
+      "diffs": []
     },
     {
       "tag": "image",
@@ -556,27 +490,6 @@
       ]
     },
     {
-      "tag": "use",
-      "depth": 11,
-      "id": null,
-      "classes": [],
-      "diffs": []
-    },
-    {
-      "tag": "use",
-      "depth": 9,
-      "id": null,
-      "classes": [],
-      "diffs": []
-    },
-    {
-      "tag": "use",
-      "depth": 11,
-      "id": null,
-      "classes": [],
-      "diffs": []
-    },
-    {
       "tag": "a",
       "depth": 9,
       "id": null,
@@ -586,13 +499,6 @@
       "diffs": []
     },
     {
-      "tag": "use",
-      "depth": 11,
-      "id": null,
-      "classes": [],
-      "diffs": []
-    },
-    {
       "tag": "a",
       "depth": 12,
       "id": null,
@@ -615,12 +521,9 @@
       "depth": 12,
       "id": null,
       "classes": [
-        "active",
         "nav-link"
       ],
-      "diffs": [
-        "classes missing in local: ['active']"
-      ]
+      "diffs": []
     },
     {
       "tag": "a",
@@ -731,6 +634,15 @@
       ]
     },
     {
+      "tag": "main",
+      "depth": 0,
+      "id": null,
+      "classes": [],
+      "diffs": [
+        "attributes differ: ref=['data-page'], local=[]"
+      ]
+    },
+    {
       "tag": "div",
       "depth": 1,
       "id": "main-container",
@@ -749,73 +661,22 @@
       "depth": 7,
       "id": null,
       "classes": [
-        "d-lg-flex",
-        "gap-30",
-        "mb-2"
+        "hero-text"
       ],
       "diffs": [
-        "classes missing in local: ['d-lg-flex', 'gap-30', 'mb-2']",
-        "classes extra in local: ['chip', 'chip-simple', 'text-button']",
-        "attributes differ: ref=['class'], local=['class', 'data-element']"
-      ]
-    },
-    {
-      "tag": "span",
-      "depth": 9,
-      "id": null,
-      "classes": [],
-      "diffs": [
-        "classes extra in local: ['chip-label']"
+        "classes missing in local: ['hero-text']",
+        "classes extra in local: ['container']"
       ]
     },
     {
       "tag": "div",
-      "depth": 9,
+      "depth": 2,
       "id": null,
       "classes": [
-        "link-list-wrapper"
+        "row"
       ],
       "diffs": [
-        "classes missing in local: ['link-list-wrapper']",
-        "classes extra in local: ['d-lg-flex', 'gap-30', 'mb-2']"
-      ]
-    },
-    {
-      "tag": "a",
-      "depth": 12,
-      "id": null,
-      "classes": [
-        "list-item"
-      ],
-      "diffs": [
-        "classes missing in local: ['list-item']",
-        "classes extra in local: ['btn', 'btn-primary', 'fw-bold', 'mr-lg-30']",
-        "attributes differ: ref=['class', 'href', 'role'], local=['class', 'href']"
-      ]
-    },
-    {
-      "tag": "a",
-      "depth": 12,
-      "id": null,
-      "classes": [
-        "list-item"
-      ],
-      "diffs": [
-        "classes missing in local: ['list-item']",
-        "classes extra in local: ['btn', 'btn-outline-primary', 'fw-bold', 't-primary']",
-        "attributes differ: ref=['class', 'href', 'role'], local=['class', 'href']"
-      ]
-    },
-    {
-      "tag": "div",
-      "depth": 9,
-      "id": null,
-      "classes": [
-        "link-list-wrapper"
-      ],
-      "diffs": [
-        "classes missing in local: ['link-list-wrapper']",
-        "classes extra in local: ['col-lg-3', 'mt-5', 'mt-lg-0', 'offset-lg-1']"
+        "classes extra in local: ['justify-content-center']"
       ]
     },
     {
@@ -823,99 +684,42 @@
       "depth": 3,
       "id": null,
       "classes": [
-        "border-col",
         "col-12",
-        "col-lg-3",
-        "mb-4"
+        "col-lg-8",
+        "mt-2",
+        "offset-lg-2",
+        "px-sm-3"
       ],
       "diffs": [
-        "classes missing in local: ['border-col']"
-      ]
-    },
-    {
-      "tag": "nav",
-      "depth": 5,
-      "id": null,
-      "classes": [
-        "it-navscroll-wrapper",
-        "navbar",
-        "navbar-expand-lg"
-      ],
-      "diffs": [
-        "attributes differ: ref=['aria-label', 'class', 'data-bs-navscroll'], local=['aria-label', 'class']"
-      ]
-    },
-    {
-      "tag": "button",
-      "depth": 12,
-      "id": null,
-      "classes": [
-        "accordion-button",
-        "pb-10",
-        "px-3"
-      ],
-      "diffs": [
-        "attributes differ: ref=['aria-controls', 'aria-expanded', 'class', 'data-bs-target', 'data-bs-toggle', 'type'], local=['class', 'type']"
-      ]
-    },
-    {
-      "tag": "use",
-      "depth": 14,
-      "id": null,
-      "classes": [],
-      "diffs": []
-    },
-    {
-      "tag": "div",
-      "depth": 11,
-      "id": "collapse-one",
-      "classes": [
-        "accordion-collapse",
-        "collapse",
-        "show"
-      ],
-      "diffs": [
-        "id: 'collapse-one' vs None",
-        "attributes differ: ref=['aria-labelledby', 'class', 'id', 'role'], local=['aria-labelledby', 'class', 'role']"
+        "classes missing in local: ['col-lg-8', 'mt-2', 'offset-lg-2', 'px-sm-3']",
+        "classes extra in local: ['col-lg-10']"
       ]
     },
     {
       "tag": "div",
-      "depth": 6,
+      "depth": 4,
       "id": null,
       "classes": [
-        "cmp-icon-link"
+        "cmp-input-search"
       ],
       "diffs": [
-        "classes missing in local: ['cmp-icon-link']",
-        "classes extra in local: ['col-12', 'col-lg-8', 'offset-lg-1']"
-      ]
-    },
-    {
-      "tag": "div",
-      "depth": 6,
-      "id": null,
-      "classes": [
-        "cmp-icon-link"
-      ],
-      "diffs": [
-        "classes missing in local: ['cmp-icon-link']",
-        "classes extra in local: ['it-page-sections-container']"
+        "classes missing in local: ['cmp-input-search']",
+        "classes extra in local: ['cmp-heading', 'pb-3', 'pb-lg-4']"
       ]
     },
     {
       "tag": "div",
       "depth": 5,
-      "id": "rating",
+      "id": null,
       "classes": [
-        "cmp-rating",
-        "pb-lg-80",
-        "pt-lg-80"
+        "autocomplete-wrapper",
+        "form-group",
+        "mb-2",
+        "mb-lg-4"
       ],
       "diffs": [
-        "classes missing in local: ['cmp-rating', 'pb-lg-80', 'pt-lg-80']",
-        "classes extra in local: ['bg-primary-500', 'lg:py-20', 'py-12']",
-        "attributes differ: ref=['class', 'id'], local=['class', 'data-element', 'id', 'x-data']"
+        "classes missing in local: ['autocomplete-wrapper', 'form-group', 'mb-2', 'mb-lg-4']",
+        "classes extra in local: ['row']"
       ]
     },
     {
@@ -923,14 +727,11 @@
       "depth": 6,
       "id": null,
       "classes": [
-        "card",
-        "card-wrapper",
-        "shadow"
+        "input-group"
       ],
       "diffs": [
-        "classes missing in local: ['card', 'card-wrapper', 'shadow']",
-        "classes extra in local: ['lg:px-8', 'max-w-2xl', 'mx-auto', 'px-4', 'sm:px-6']",
-        "attributes differ: ref=['class', 'data-element'], local=['class']"
+        "classes missing in local: ['input-group']",
+        "classes extra in local: ['col-lg-8']"
       ]
     },
     {
@@ -938,11 +739,53 @@
       "depth": 7,
       "id": null,
       "classes": [
-        "cmp-rating__card-first"
+        "input-group-append"
       ],
       "diffs": [
-        "classes missing in local: ['cmp-rating__card-first']",
-        "classes extra in local: ['bg-white', 'overflow-hidden', 'rounded-lg', 'shadow-lg']"
+        "classes missing in local: ['input-group-append']",
+        "classes extra in local: ['chip', 'chip-simple', 'text-button']",
+        "attributes differ: ref=['class'], local=['class', 'data-element']"
+      ]
+    },
+    {
+      "tag": "span",
+      "depth": 7,
+      "id": null,
+      "classes": [
+        "autocomplete-icon"
+      ],
+      "diffs": [
+        "classes missing in local: ['autocomplete-icon']",
+        "classes extra in local: ['chip-label']",
+        "attributes differ: ref=['aria-hidden', 'class'], local=['class']"
+      ]
+    },
+    {
+      "tag": "div",
+      "depth": 10,
+      "id": null,
+      "classes": [
+        "icon-wrapper"
+      ],
+      "diffs": [
+        "classes missing in local: ['icon-wrapper']",
+        "classes extra in local: ['d-lg-flex', 'gap-30', 'mb-2']"
+      ]
+    },
+    {
+      "tag": "div",
+      "depth": 7,
+      "id": "collapsefaq-4",
+      "classes": [
+        "accordion-collapse",
+        "collapse",
+        "p-0"
+      ],
+      "diffs": [
+        "id: 'collapsefaq-4' vs None",
+        "classes missing in local: ['accordion-collapse', 'collapse', 'p-0']",
+        "classes extra in local: ['col-lg-3', 'mt-5', 'mt-lg-0', 'offset-lg-1']",
+        "attributes differ: ref=[':style', '@click.outside', 'aria-labelledby', 'class', 'id', 'role', 'style', 'x-cloak', 'x-show'], local=['class']"
       ]
     },
     {
@@ -950,35 +793,156 @@
       "depth": 8,
       "id": null,
       "classes": [
-        "border-0",
-        "card-header"
+        "accordion-body"
       ],
       "diffs": [
-        "classes missing in local: ['border-0', 'card-header']",
-        "classes extra in local: ['border-b', 'border-gray-100', 'px-6', 'py-5', 'sm:px-8']"
+        "classes missing in local: ['accordion-body']",
+        "classes extra in local: ['container']"
+      ]
+    },
+    {
+      "tag": "div",
+      "depth": 6,
+      "id": null,
+      "classes": [
+        "accordion-item"
+      ],
+      "diffs": [
+        "classes missing in local: ['accordion-item']",
+        "classes extra in local: ['mt-3', 'mt-lg-80', 'row', 'row-column-menu-left']",
+        "attributes differ: ref=['class', 'data-faq-item', 'data-faq-text'], local=['class']"
+      ]
+    },
+    {
+      "tag": "div",
+      "depth": 7,
+      "id": "headingfaq-5",
+      "classes": [
+        "accordion-header"
+      ],
+      "diffs": [
+        "id: 'headingfaq-5' vs None",
+        "classes missing in local: ['accordion-header']",
+        "classes extra in local: ['col-12', 'col-lg-3', 'mb-4']",
+        "attributes differ: ref=['class', 'id'], local=['class']"
+      ]
+    },
+    {
+      "tag": "div",
+      "depth": 9,
+      "id": null,
+      "classes": [
+        "button-wrapper"
+      ],
+      "diffs": [
+        "classes missing in local: ['button-wrapper']",
+        "classes extra in local: ['cmp-navscroll', 'sticky-top']",
+        "attributes differ: ref=['class'], local=['aria-labelledby', 'class']"
+      ]
+    },
+    {
+      "tag": "div",
+      "depth": 10,
+      "id": null,
+      "classes": [
+        "icon-wrapper"
+      ],
+      "diffs": [
+        "id: None vs 'navbarNavProgress'",
+        "classes missing in local: ['icon-wrapper']",
+        "classes extra in local: ['navbar-custom']",
+        "attributes differ: ref=['class'], local=['class', 'id']"
+      ]
+    },
+    {
+      "tag": "div",
+      "depth": 7,
+      "id": "collapsefaq-5",
+      "classes": [
+        "accordion-collapse",
+        "collapse",
+        "p-0"
+      ],
+      "diffs": [
+        "id: 'collapsefaq-5' vs None",
+        "classes missing in local: ['accordion-collapse', 'collapse', 'p-0']",
+        "classes extra in local: ['menu-wrapper']",
+        "attributes differ: ref=[':style', '@click.outside', 'aria-labelledby', 'class', 'id', 'role', 'style', 'x-cloak', 'x-show'], local=['class']"
+      ]
+    },
+    {
+      "tag": "div",
+      "depth": 8,
+      "id": null,
+      "classes": [
+        "accordion-body"
+      ],
+      "diffs": [
+        "classes missing in local: ['accordion-body']",
+        "classes extra in local: ['link-list-wrapper']"
+      ]
+    },
+    {
+      "tag": "div",
+      "depth": 6,
+      "id": null,
+      "classes": [
+        "accordion-item"
+      ],
+      "diffs": [
+        "classes missing in local: ['accordion-item']",
+        "classes extra in local: ['accordion']",
+        "attributes differ: ref=['class', 'data-faq-item', 'data-faq-text'], local=['class']"
+      ]
+    },
+    {
+      "tag": "div",
+      "depth": 7,
+      "id": "headingfaq-6",
+      "classes": [
+        "accordion-header"
+      ],
+      "diffs": [
+        "id: 'headingfaq-6' vs None",
+        "classes missing in local: ['accordion-header']",
+        "classes extra in local: ['accordion-item']",
+        "attributes differ: ref=['class', 'id'], local=['class']"
+      ]
+    },
+    {
+      "tag": "button",
+      "depth": 8,
+      "id": null,
+      "classes": [
+        "accordion-button",
+        "collapsed",
+        "py-3",
+        "title-small-semi-bold"
+      ],
+      "diffs": [
+        "classes missing in local: ['collapsed', 'py-3', 'title-small-semi-bold']",
+        "classes extra in local: ['pb-10', 'px-3']",
+        "attributes differ: ref=[':aria-expanded', ':class', '@click', 'aria-controls', 'class', 'type'], local=['class', 'type']"
+      ]
+    },
+    {
+      "tag": "svg",
+      "depth": 11,
+      "id": null,
+      "classes": [
+        "icon",
+        "icon-primary",
+        "icon-xs",
+        "me-1"
+      ],
+      "diffs": [
+        "classes missing in local: ['icon-primary', 'me-1']",
+        "classes extra in local: ['right']",
+        "attributes differ: ref=[':class', 'class'], local=['class']"
       ]
     }
   ],
   "missing_elements": [
-    {
-      "tag": "li",
-      "id": null,
-      "classes": [
-        "breadcrumb-item"
-      ]
-    },
-    {
-      "tag": "a",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "span",
-      "id": null,
-      "classes": [
-        "separator"
-      ]
-    },
     {
       "tag": "li",
       "id": null,
@@ -1010,198 +974,321 @@
       "tag": "div",
       "id": null,
       "classes": [
-        "chip",
-        "chip-simple",
-        "text-button"
+        "justify-content-center",
+        "row"
       ]
     },
     {
-      "tag": "span",
+      "tag": "div",
       "id": null,
       "classes": [
-        "chip-label"
+        "col-12",
+        "col-lg-10"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "cmp-hero"
+      ]
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": [
+        "align-items-start",
+        "bg-white",
+        "it-hero-wrapper"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "it-hero-text-wrapper",
+        "pb-4",
+        "pb-lg-60",
+        "ps-0",
+        "pt-0"
+      ]
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "classes": [
+        "text-black"
       ]
     },
     {
       "tag": "p",
       "id": null,
+      "classes": []
+    },
+    {
+      "tag": "label",
+      "id": null,
       "classes": [
-        "mb-3",
-        "subtitle-small"
+        "visually-hidden"
+      ]
+    },
+    {
+      "tag": "input",
+      "id": "autocomplete-three",
+      "classes": [
+        "autocomplete",
+        "form-control"
+      ]
+    },
+    {
+      "tag": "button",
+      "id": "button-3",
+      "classes": [
+        "btn",
+        "btn-primary"
+      ]
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": [
+        "icon",
+        "icon-primary",
+        "icon-sm"
+      ]
+    },
+    {
+      "tag": "use",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "row"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "col-12",
+        "col-lg-8",
+        "offset-lg-2",
+        "px-0",
+        "px-sm-3"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "cmp-accordion",
+        "faq"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "accordion-faq-69cf9bc922bc1",
+      "classes": [
+        "accordion"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "accordion-item"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "headingfaq-1",
+      "classes": [
+        "accordion-header"
       ]
     },
     {
       "tag": "button",
       "id": null,
       "classes": [
-        "btn",
-        "btn-primary",
-        "fw-bold",
-        "mr-lg-30"
+        "accordion-button",
+        "collapsed",
+        "py-3",
+        "title-small-semi-bold"
       ]
     },
     {
-      "tag": "span",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "button-wrapper"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "icon-wrapper"
+      ]
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": [
+        "icon",
+        "icon-primary",
+        "icon-xs",
+        "me-1"
+      ]
+    },
+    {
+      "tag": "use",
       "id": null,
       "classes": []
+    },
+    {
+      "tag": "div",
+      "id": "collapsefaq-1",
+      "classes": [
+        "accordion-collapse",
+        "collapse",
+        "p-0"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "accordion-body"
+      ]
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "accordion-item"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "headingfaq-2",
+      "classes": [
+        "accordion-header"
+      ]
     },
     {
       "tag": "button",
       "id": null,
       "classes": [
-        "btn",
-        "btn-outline-primary",
-        "fw-bold",
-        "t-primary"
+        "accordion-button",
+        "collapsed",
+        "py-3",
+        "title-small-semi-bold"
       ]
     },
     {
       "tag": "div",
       "id": null,
       "classes": [
-        "col-lg-3",
-        "mt-5",
-        "mt-lg-0",
-        "offset-lg-1"
+        "button-wrapper"
       ]
     },
     {
       "tag": "div",
       "id": null,
       "classes": [
-        "dropdown"
+        "icon-wrapper"
+      ]
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": [
+        "icon",
+        "icon-primary",
+        "icon-xs",
+        "me-1"
+      ]
+    },
+    {
+      "tag": "use",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "div",
+      "id": "collapsefaq-2",
+      "classes": [
+        "accordion-collapse",
+        "collapse",
+        "p-0"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "accordion-body"
+      ]
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "accordion-item"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": "headingfaq-3",
+      "classes": [
+        "accordion-header"
       ]
     },
     {
       "tag": "button",
-      "id": "shareActions",
-      "classes": [
-        "align-items-center",
-        "btn",
-        "btn-dropdown",
-        "d-inline-flex",
-        "dropdown-toggle",
-        "fs-0",
-        "text-decoration-underline"
-      ]
-    },
-    {
-      "tag": "svg",
       "id": null,
       "classes": [
-        "icon"
+        "accordion-button",
+        "collapsed",
+        "py-3",
+        "title-small-semi-bold"
       ]
-    },
-    {
-      "tag": "use",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "small",
-      "id": null,
-      "classes": []
     },
     {
       "tag": "div",
       "id": null,
       "classes": [
-        "dropdown-menu",
-        "shadow-lg"
+        "button-wrapper"
       ]
     },
     {
-      "tag": "ul",
+      "tag": "div",
       "id": null,
       "classes": [
-        "link-list"
-      ]
-    },
-    {
-      "tag": "li",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "a",
-      "id": null,
-      "classes": [
-        "list-item"
+        "icon-wrapper"
       ]
     },
     {
       "tag": "svg",
       "id": null,
       "classes": [
-        "icon"
-      ]
-    },
-    {
-      "tag": "use",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "span",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "li",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "a",
-      "id": null,
-      "classes": [
-        "list-item"
-      ]
-    },
-    {
-      "tag": "svg",
-      "id": null,
-      "classes": [
-        "icon"
-      ]
-    },
-    {
-      "tag": "use",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "span",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "li",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "svg",
-      "id": null,
-      "classes": [
-        "icon"
-      ]
-    },
-    {
-      "tag": "use",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "li",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "svg",
-      "id": null,
-      "classes": [
-        "icon"
+        "icon",
+        "icon-primary",
+        "icon-xs",
+        "me-1"
       ]
     },
     {
@@ -1211,87 +1298,22 @@
     },
     {
       "tag": "div",
-      "id": null,
+      "id": "collapsefaq-3",
       "classes": [
-        "dropdown"
+        "accordion-collapse",
+        "collapse",
+        "p-0"
       ]
-    },
-    {
-      "tag": "button",
-      "id": "viewActions",
-      "classes": [
-        "align-items-center",
-        "btn",
-        "btn-dropdown",
-        "d-inline-flex",
-        "dropdown-toggle",
-        "fs-0",
-        "text-decoration-underline"
-      ]
-    },
-    {
-      "tag": "svg",
-      "id": null,
-      "classes": [
-        "icon"
-      ]
-    },
-    {
-      "tag": "use",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "small",
-      "id": null,
-      "classes": []
     },
     {
       "tag": "div",
       "id": null,
       "classes": [
-        "dropdown-menu",
-        "shadow-lg"
+        "accordion-body"
       ]
     },
     {
-      "tag": "ul",
-      "id": null,
-      "classes": [
-        "link-list"
-      ]
-    },
-    {
-      "tag": "li",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "a",
-      "id": null,
-      "classes": [
-        "list-item"
-      ]
-    },
-    {
-      "tag": "svg",
-      "id": null,
-      "classes": [
-        "icon"
-      ]
-    },
-    {
-      "tag": "use",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "span",
-      "id": null,
-      "classes": []
-    },
-    {
-      "tag": "li",
+      "tag": "p",
       "id": null,
       "classes": []
     }
@@ -1306,52 +1328,35 @@
       ]
     },
     {
-      "tag": "div",
+      "tag": "h1",
       "id": null,
       "classes": [
-        "px-6",
-        "py-6",
-        "sm:px-8"
+        "title-xxxlarge"
       ]
     },
     {
-      "tag": "div",
+      "tag": "ul",
       "id": null,
       "classes": [
-        "flex",
-        "flex-row-reverse",
+        "d-flex",
+        "flex-wrap",
         "gap-1",
-        "justify-end"
+        "my-3"
       ]
     },
     {
-      "tag": "p",
+      "tag": "li",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "a",
       "id": null,
       "classes": [
-        "mb-6",
-        "text-base",
-        "text-gray-600"
-      ]
-    },
-    {
-      "tag": "textarea",
-      "id": "feedback-text",
-      "classes": [
-        "border-gray-300",
-        "focus:border-primary-500",
-        "focus:ring-primary-500",
-        "rounded-md",
-        "shadow-sm",
-        "w-full"
-      ]
-    },
-    {
-      "tag": "p",
-      "id": "text-help",
-      "classes": [
-        "mt-1",
-        "text-gray-500",
-        "text-sm"
+        "btn",
+        "btn-next",
+        "btn-primary",
+        "fw-bold"
       ]
     },
     {
@@ -1360,17 +1365,348 @@
       "classes": []
     },
     {
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "btn",
+        "btn-back",
+        "btn-outline-primary",
+        "fw-bold",
+        "me-4"
+      ]
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "hr",
+      "id": null,
+      "classes": [
+        "d-lg-block",
+        "d-none",
+        "mb-0",
+        "mt-2"
+      ]
+    },
+    {
+      "tag": "nav",
+      "id": null,
+      "classes": [
+        "it-navscroll-wrapper",
+        "navbar",
+        "navbar-expand-lg"
+      ]
+    },
+    {
+      "tag": "span",
+      "id": "accordion-title-one",
+      "classes": [
+        "accordion-header"
+      ]
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": [
+        "link-list"
+      ]
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": [
+        "nav-item"
+      ]
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "nav-link"
+      ]
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "section",
+      "id": "contacts",
+      "classes": [
+        "it-page-section"
+      ]
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": [
+        "title-small"
+      ]
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "text-decoration-none"
+      ]
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": [
+        "text-paragraph-small"
+      ]
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": [
+        "d-flex",
+        "flex-wrap",
+        "gap-2",
+        "mb-3",
+        "mt-10"
+      ]
+    },
+    {
+      "tag": "h2",
+      "id": null,
+      "classes": [
+        "font-semibold",
+        "sm:text-3xl",
+        "text-2xl",
+        "text-gray-900"
+      ]
+    },
+    {
+      "tag": "fieldset",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "legend",
+      "id": null,
+      "classes": [
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "input",
+      "id": "star5",
+      "classes": [
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": [
+        "cursor-pointer",
+        "duration-150",
+        "p-1",
+        "transition-colors"
+      ]
+    },
+    {
       "tag": "path",
       "id": null,
       "classes": []
     },
     {
-      "tag": "p",
+      "tag": "span",
       "id": null,
       "classes": [
-        "mt-4",
-        "text-gray-700",
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "input",
+      "id": "star4",
+      "classes": [
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": [
+        "cursor-pointer",
+        "duration-150",
+        "p-1",
+        "transition-colors"
+      ]
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": [
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "input",
+      "id": "star3",
+      "classes": [
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": [
+        "cursor-pointer",
+        "duration-150",
+        "p-1",
+        "transition-colors"
+      ]
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": [
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "input",
+      "id": "star2",
+      "classes": [
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": [
+        "cursor-pointer",
+        "duration-150",
+        "p-1",
+        "transition-colors"
+      ]
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": [
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "input",
+      "id": "star1",
+      "classes": [
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": [
+        "cursor-pointer",
+        "duration-150",
+        "p-1",
+        "transition-colors"
+      ]
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": [
+        "sr-only"
+      ]
+    },
+    {
+      "tag": "fieldset",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "legend",
+      "id": null,
+      "classes": [
+        "font-semibold",
+        "mb-4",
+        "text-gray-900",
         "text-lg"
+      ]
+    },
+    {
+      "tag": "input",
+      "id": "pos-0",
+      "classes": [
+        "border-gray-300",
+        "focus:ring-primary-500",
+        "h-4",
+        "mt-1",
+        "text-primary-500",
+        "w-4"
+      ]
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": [
+        "cursor-pointer",
+        "ml-3",
+        "text-base",
+        "text-gray-700"
+      ]
+    },
+    {
+      "tag": "input",
+      "id": "pos-1",
+      "classes": [
+        "border-gray-300",
+        "focus:ring-primary-500",
+        "h-4",
+        "mt-1",
+        "text-primary-500",
+        "w-4"
+      ]
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": [
+        "cursor-pointer",
+        "ml-3",
+        "text-base",
+        "text-gray-700"
+      ]
+    },
+    {
+      "tag": "input",
+      "id": "pos-2",
+      "classes": [
+        "border-gray-300",
+        "focus:ring-primary-500",
+        "h-4",
+        "mt-1",
+        "text-primary-500",
+        "w-4"
       ]
     }
   ]

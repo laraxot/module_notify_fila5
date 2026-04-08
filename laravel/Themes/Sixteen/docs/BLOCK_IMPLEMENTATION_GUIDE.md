@@ -11,31 +11,47 @@ It prevents common mistakes: Bootstrap Italia usage, hardcoded language strings,
 
 ## 🚫 CRITICAL RULES (NEVER VIOLATE)
 
-### 1. NO Bootstrap Italia
+### 1. HTML Structural Parity è ESSENZIALE
 
-**Bootstrap Italia is NOT used in this project.** The entire purpose is to replace Bootstrap with TailwindCSS + Alpine.js.
+La **parità HTML strutturale** è ESSENZIALE, NON secondaria. Replichiamo ESATTAMENTE la struttura HTML del reference (italia.github.io/design-comuni-pagine-statiche): stessi tag, stessi attributi, stessi nomi classe, stessi `data-element`, stessa gerarchia. Poi raggiungiamo la parità visiva/funzionale con TailwindCSS @apply e Alpine.js.
+
+**Priorità:**
+1. ✅ HTML Structural Parity (ESSENZIALE): Stessi tag, classi, gerarchia del reference
+2. ✅ Visual Parity: TailwindCSS @apply replica lo styling
+3. ✅ Functional Parity: Alpine.js replica il comportamento
 
 ```blade
-{{-- ❌ WRONG: Bootstrap classes —}}
-<div class="row">
-    <div class="col-12 col-lg-6">
-        <button class="btn btn-primary">Click</button>
+{{-- ✅ CORRETTO: STESSA struttura HTML del reference —}}
+<div id="rating" class="bg-primary" data-element="feedback">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-6">
+                <div class="cmp-rating pt-5 pb-5">
+                    <fieldset class="rating">
+                        <input class="visually-hidden" type="radio" id="star5" name="rating" value="5">
+                        <label class="full rating-star" for="star5" data-element="feedback-rate-5">
+                            <svg class="icon icon-sm">...</svg>
+                        </label>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-{{-- ✅ CORRECT: TailwindCSS utility classes —}}
-<div class="max-w-2xl mx-auto px-4">
-    <button class="inline-flex items-center px-4 py-2 bg-primary-500 text-white rounded-md hover:bg-primary-600">
-        Click
-    </button>
-</div>
+{{-- ❌ SBAGLIATO: Inventare classi custom —}}
+<div class="rating-block flex flex-col gap-4">  <!-- NON è nel reference -->
 ```
 
-**Bootstrap classes to NEVER use:**
-- Layout: `row`, `col-*`, `container`, `d-flex`, `d-none`, `justify-content-*`
-- Components: `card`, `btn`, `btn-*`, `form-check`, `form-control`, `modal`, `navbar`
-- Utilities: `visually-hidden`, `text-wrap`, `border-light`, `shadow-sm`, `bg-primary` (Bootstrap variant)
-- JS: `data-bs-toggle`, `data-bs-target`
+**Regole:**
+- ✅ Copiare ESATTAMENTE classi Bootstrap dal reference
+- ✅ Copiare ESATTAMENTE attributi `data-element` dal reference
+- ✅ Stessa gerarchia tag del reference
+- ✅ Tailwind @apply per styling: `style-apply.css`
+- ✅ Alpine.js per comportamento: `x-data`, `@click`, `x-show`
+- ❌ File Bootstrap CSS/JS: MAI
+- ❌ Attributi `data-bs-*`: MAI
+- ❌ Inventare classi custom: MAI
 
 ### 2. NO Hardcoded Language Strings
 
@@ -51,26 +67,54 @@ It prevents common mistakes: Bootstrap Italia usage, hardcoded language strings,
 @php
     $ns = 'fixcity::rating';
 @endphp
-<h2>{{ __($ns . '.title') }}</h2>
-<button>{{ __($ns . '.buttons.submit') }}</button>
-<p>{{ __($ns . '.thank_you') }}</p>
+<h2>{{ __($ns . '.fields.title.label') }}</h2>
+<button>{{ __($ns . '.actions.submit.label') }}</button>
+<p>{{ __($ns . '.messages.thank_you.text') }}</p>
 ```
 
 ### 3. Translation Namespace Pattern
 
-**Format:** `namespace::context.collection.element.type`
+**Format:** `namespace::context.collection.element.type` (5 livelli, SEMPRE!)
 
 ```
-fixcity::rating.title
-fixcity::rating.star.legend
-fixcity::rating.positive.options.1
-fixcity::rating.buttons.submit
-fixcity::segnalazione.heading.title.label
+✅ fixcity::rating.fields.title.label
+✅ fixcity::rating.fields.star.labels.5
+✅ fixcity::rating.actions.submit.label
+✅ fixcity::rating.messages.thank_you.text
+✅ fixcity::segnalazione.heading.title.label
+
+❌ fixcity::rating.title (manca .collection.)
+❌ fixcity::rating.star.labels.5 (manca .collection.)
+❌ SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE (namespace uppercase)
+❌ fixcity::segnalazione.heading.title_label (underscore invece di dot)
 ```
 
 **Translation files location:**
 - `laravel/Modules/Fixcity/lang/it/rating.php`
 - `laravel/Modules/Fixcity/lang/en/rating.php`
+
+**Structure example:**
+```php
+return [
+    'rating' => [         // context
+        'fields' => [     // collection
+            'title' => [  // element
+                'label' => 'Titolo',  // type
+            ],
+            'star' => [
+                'labels' => [
+                    5 => 'Valuta 5 stelle su 5',
+                ],
+            ],
+        ],
+        'actions' => [    // collection
+            'submit' => [ // element
+                'label' => 'Invia',  // type
+            ],
+        ],
+    ],
+];
+```
 
 ---
 

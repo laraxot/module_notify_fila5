@@ -58,17 +58,17 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" x-data="{ accordionOpen: true, parentsOpen: false }">
         <div class="col-12 col-lg-3 d-lg-block mb-4 d-none">
             <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-one">
-                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="INFORMAZIONI RICHIESTE" data-bs-navscroll>
+                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="INFORMAZIONI RICHIESTE">
                     <div class="navbar-custom" id="navbarNavProgress">
                         <div class="menu-wrapper">
                             <div class="link-list-wrapper">
                                 <div class="accordion">
                                     <div class="accordion-item">
                                         <span class="accordion-header" id="accordion-title-one">
-                                            <button class="accordion-button pb-10 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
+                                            <button class="accordion-button pb-10 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-one" @click="accordionOpen = !accordionOpen" aria-expanded="true" aria-controls="collapse-one">
                                                 INFORMAZIONI RICHIESTE
                                                 <svg class="icon icon-xs right">
                                                     <use href="{{ $sprite }}#it-expand"></use>
@@ -78,7 +78,7 @@
                                         <div class="progress">
                                             <div class="progress-bar it-navscroll-progressbar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                        <div id="collapse-one" class="accordion-collapse collapse show" role="region" aria-labelledby="accordion-title-one">
+                                        <div id="collapse-one" class="accordion-collapse collapse show" role="region" aria-labelledby="accordion-title-one" x-show="accordionOpen" x-cloak>
                                             <div class="accordion-body">
                                                 <ul class="link-list" data-element="page-index">
                                                     <li class="nav-item">
@@ -207,7 +207,7 @@
                                                     <p class="card-info">Codice Fiscale <br> <span>{{ $data['user']['cf'] ?? '' }}</span></p>
                                                     <div class="accordion-item">
                                                         <div class="accordion-header" id="heading-collapse-parents">
-                                                            <button class="collapsed accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-parents" aria-expanded="false" aria-controls="collapse-parents">
+                                                            <button class="collapsed accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-parents" @click="parentsOpen = !parentsOpen" aria-expanded="false" aria-controls="collapse-parents">
                                                                 <span class="d-flex align-items-center">
                                                                     Mostra tutto
                                                                     <svg class="icon icon-primary icon-sm">
@@ -216,7 +216,7 @@
                                                                 </span>
                                                             </button>
                                                         </div>
-                                                        <div id="collapse-parents" class="accordion-collapse collapse" role="region">
+                                                        <div id="collapse-parents" class="accordion-collapse collapse" role="region" x-show="parentsOpen" x-cloak>
                                                             <div class="accordion-body p-0">
                                                                 <div class="cmp-info-summary bg-white has-border">
                                                                     <div class="card">
@@ -271,7 +271,7 @@
                         <button type="button" class="btn btn-outline-primary bg-white btn-sm steppers-btn-save d-block d-lg-none saveBtn center">
                             <span class="text-button-sm t-primary">Salva</span>
                         </button>
-                        <button type="button" class="btn btn-primary btn-sm steppers-btn-confirm" data-bs-toggle="modal" data-bs-target="#">
+                        <button type="button" class="btn btn-primary btn-sm steppers-btn-confirm" data-bs-toggle="modal" data-bs-target="#" @click="confirmAndProceed()">
                             <span class="text-button-sm">Avanti</span>
                             <svg class="icon icon-white icon-sm" aria-hidden="true">
                                 <use href="{{ $sprite }}#it-chevron-right"></use>

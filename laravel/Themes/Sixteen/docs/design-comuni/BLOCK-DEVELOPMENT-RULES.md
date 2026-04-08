@@ -18,8 +18,6 @@ Bootstrap Italia is the **visual reference only**, NOT a dependency.
 <link rel="stylesheet" href="...bootstrap-italia.min.css" />
 @extends('pub_theme::layouts.bootstrap-italia')
 <x-layouts.design-comuni>
-data-bs-toggle="dropdown"
-data-bs-toggle="collapse"
 ```
 
 ### Required
@@ -28,6 +26,25 @@ data-bs-toggle="collapse"
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <x-layouts.app>
 ```
+
+### Exception: data-bs-* Attributes for HTML Parity
+`data-bs-toggle`, `data-bs-target`, `data-bs-dismiss` **MUST be kept** for HTML structure parity with the reference.
+The comparison script checks these as structural attributes.
+**Add Alpine.js IN PARALLEL**, don't replace:
+
+```blade
+<!-- ✅ CORRECT: data-bs for parity + Alpine for behavior -->
+<button data-bs-toggle="dropdown" @click="open = !open">Toggle</button>
+<button data-bs-dismiss="modal" @click="modalOpen = false">Chiudi</button>
+<button data-bs-toggle="collapse" data-bs-target="#collapse-one" @click="accordionOpen = !accordionOpen">Toggle</button>
+<a data-bs-toggle="tab" @click="activeTab = 'tab1'">Tab 1</a>
+
+<!-- ❌ WRONG: removing data-bs attributes breaks HTML parity -->
+<button @click="open = !open">Toggle</button>
+```
+
+### Exception: SVG Sprite Paths
+SVG sprite paths like `/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg` are acceptable - these are static icon files, NOT Bootstrap framework code.
 
 ### Exception
 SVG sprite paths like `/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg` are acceptable - these are static icon files, NOT Bootstrap framework code.

@@ -1,3 +1,4 @@
+<body>
 <div class="skiplink">
 <a class="visually-hidden-focusable" href="#main-container">
 Vai ai contenuti
@@ -1791,3 +1792,4 @@ Mappa del sito
 </div>
 </div>
 </footer>
+</body>

@@ -37,31 +37,31 @@
                         @endif
 
                         <div class="d-lg-flex gap-30 mb-2">
-                            <a href="{{ $primaryAction['url'] ?? '#' }}" class="btn fw-bold btn-primary mr-lg-30">
+                            <button class="btn fw-bold btn-primary mr-lg-30" onclick="window.location.href='{{ $primaryAction['url'] ?? '#' }}'">
                                 <span>{{ $primaryAction['label'] ?? '' }}</span>
-                            </a>
-                            <a href="{{ $secondaryAction['url'] ?? '#' }}" class="btn fw-bold btn-outline-primary t-primary">
+                            </button>
+                            <button class="btn fw-bold btn-outline-primary t-primary" onclick="window.location.href='{{ $secondaryAction['url'] ?? '#' }}'">
                                 <span>{{ $secondaryAction['label'] ?? '' }}</span>
-                            </a>
+                            </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 offset-lg-1 mt-5 mt-lg-0">
+                    <div class="col-lg-3 mt-5 mt-lg-0">
                         @if($shareLinks !== [])
-                            <div class="dropdown" x-data="{ shareOpen: false }">
-                                <button aria-label="{{ __($ns.'.detail.share.aria') }}" class="btn btn-dropdown dropdown-toggle text-decoration-underline d-inline-flex align-items-center fs-0" type="button" id="shareActions" @click="shareOpen = !shareOpen" aria-haspopup="true" :aria-expanded="shareOpen.toString()">
+                            <div class="dropdown">
+                                <button aria-label="{{ __($ns.'.detail.share.aria') }}" class="btn btn-dropdown dropdown-toggle text-decoration-underline d-inline-flex align-items-center fs-0" type="button" id="shareActions" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <svg class="icon" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-share"></use>
+                                        <use href="{{ $sprite }}#it-share"></use>
                                     </svg>
                                     <small>{{ __($ns.'.detail.share.label') }}</small>
                                 </button>
-                                <div class="dropdown-menu shadow-lg" aria-labelledby="shareActions" x-show="shareOpen" @click.away="shareOpen = false" x-cloak>
+                                <div class="dropdown-menu shadow-lg" aria-labelledby="shareActions">
                                     <div class="link-list-wrapper">
                                         <ul class="link-list" role="menu">
                                             @foreach($shareLinks as $item)
                                                 <li role="none">
-                                                    <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem" @click="shareOpen = false">
+                                                    <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem">
                                                         <svg class="icon" aria-hidden="true">
-                                                            <use xlink:href="{{ $sprite }}#{{ $item['icon'] ?? 'it-share' }}"></use>
+                                                            <use href="{{ $sprite }}#{{ $item['icon'] ?? 'it-share' }}"></use>
                                                         </svg>
                                                         <span>{{ $item['label'] ?? '' }}</span>
                                                     </a>
@@ -74,21 +74,21 @@
                         @endif
 
                         @if($viewActions !== [])
-                            <div class="dropdown" x-data="{ actionsOpen: false }">
-                                <button aria-label="{{ __($ns.'.detail.actions.aria') }}" class="btn btn-dropdown dropdown-toggle text-decoration-underline d-inline-flex align-items-center fs-0" type="button" id="viewActions" @click="actionsOpen = !actionsOpen" aria-haspopup="true" :aria-expanded="actionsOpen.toString()">
+                            <div class="dropdown">
+                                <button aria-label="{{ __($ns.'.detail.actions.aria') }}" class="btn btn-dropdown dropdown-toggle text-decoration-underline d-inline-flex align-items-center fs-0" type="button" id="viewActions" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <svg class="icon" aria-hidden="true">
-                                        <use xlink:href="{{ $sprite }}#it-more-items"></use>
+                                        <use href="{{ $sprite }}#it-more-items"></use>
                                     </svg>
                                     <small>{{ __($ns.'.detail.actions.label') }}</small>
                                 </button>
-                                <div class="dropdown-menu shadow-lg" aria-labelledby="viewActions" x-show="actionsOpen" @click.away="actionsOpen = false" x-cloak>
+                                <div class="dropdown-menu shadow-lg" aria-labelledby="viewActions">
                                     <div class="link-list-wrapper">
                                         <ul class="link-list" role="menu">
                                             @foreach($viewActions as $item)
                                                 <li role="none">
-                                                    <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem" @click="actionsOpen = false">
+                                                    <a class="list-item" href="{{ $item['url'] ?? '#' }}" role="menuitem">
                                                         <svg class="icon" aria-hidden="true">
-                                                            <use xlink:href="{{ $sprite }}#{{ $item['icon'] ?? 'it-link' }}"></use>
+                                                            <use href="{{ $sprite }}#{{ $item['icon'] ?? 'it-link' }}"></use>
                                                         </svg>
                                                         <span>{{ $item['label'] ?? '' }}</span>
                                                     </a>
@@ -108,11 +108,11 @@
 </div>
 
 <div class="container">
-    <div class="row row-column-menu-left mt-lg-80 mt-3">
-        <div class="col-12 col-lg-3 mb-4">
+    <div class="row mt-3 mt-lg-80">
+        <div class="col-12 col-lg-3 border-col">
             <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-one">
-                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="{{ __($ns.'.detail.index.label') }}">
-                    <div class="navbar-custom" id="navbarNavProgress">
+                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" id="navbarNavProgress" aria-label="{{ __($ns.'.detail.index.label') }}">
+                    <div class="navbar-custom">
                         <div class="menu-wrapper">
                             <div class="link-list-wrapper">
                                 <div class="accordion">
@@ -121,14 +121,14 @@
                                             <button class="accordion-button pb-10 px-3" type="button">
                                                 {{ __($ns.'.detail.index.label') }}
                                                 <svg class="icon icon-xs right">
-                                                    <use xlink:href="{{ $sprite }}#it-expand"></use>
+                                                    <use href="{{ $sprite }}#it-expand"></use>
                                                 </svg>
                                             </button>
                                         </span>
                                         <div class="progress">
                                             <div class="progress-bar it-navscroll-progressbar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                        <div class="accordion-collapse collapse show" role="region" aria-labelledby="accordion-title-one">
+                                        <div class="accordion-collapse collapse show" id="collapse-one" role="region" aria-labelledby="accordion-title-one">
                                             <div class="accordion-body">
                                                 <ul class="link-list" data-element="page-index">
                                                     @foreach($sections as $section)
@@ -158,7 +158,7 @@
         <div class="col-12 col-lg-8 offset-lg-1">
             <div class="it-page-sections-container">
                 @foreach($sections as $section)
-                    <section class="it-page-section {{ $section['class'] ?? 'mb-30' }}" id="{{ $section['id'] }}">
+                    <section class="it-page-section mb-30" id="{{ $section['id'] }}">
                         <h2 class="title-xxlarge mb-3">{{ $section['title'] }}</h2>
                         @if(!empty($section['intro']))
                             <p class="text-paragraph lora mb-0">{{ $section['intro'] }}</p>
@@ -167,18 +167,13 @@
                             <p class="text-paragraph lora mb-0">{!! $section['content'] !!}</p>
                         @endif
                         @if(!empty($section['links']))
-                            @foreach($section['links'] as $link)
-                                <div class="cmp-icon-link mt-3">
-                                    <a class="list-item icon-left d-inline-block" href="{{ $link['url'] ?? '#' }}" aria-label="{{ $link['label'] ?? '' }}" title="{{ $link['label'] ?? '' }}">
-                                        <span class="list-item-title-icon-wrapper">
-                                            <svg class="icon icon-primary icon-sm me-1" aria-hidden="true">
-                                                <use xlink:href="{{ $sprite }}#{{ $link['icon'] ?? 'it-clip' }}"></use>
-                                            </svg>
-                                            <span class="list-item">{{ $link['label'] ?? '' }}</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            @endforeach
+                            <ul class="link-list list-wrapper lora">
+                                @foreach($section['links'] as $link)
+                                    <li class="list-item">
+                                        <span>{{ $link['label'] ?? '' }}</span>
+                                    </li>
+                                @endforeach
+                            </ul>
                         @endif
                         @if(!empty($section['buttons']))
                             <div class="mt-3">
@@ -193,6 +188,7 @@
                 @endforeach
 
                 <section class="it-page-section" id="contacts">
+                    <h2 class="mb-3">{{ __($ns.'.detail.contacts.title') }}</h2>
                     <div class="row">
                         <div class="col-12 col-md-8 col-lg-6 mb-30">
                             <div class="card-wrapper rounded h-auto pb-0">
@@ -204,31 +200,97 @@
                                         <p class="subtitle-small mb-0">{!! nl2br(e($contact['details'] ?? '')) !!}</p>
                                     </div>
                                     @if(!empty($contact['image']))
-                                        <div class="avatar size-xl">
-                                            <img src="{{ $contact['image'] }}" alt="{{ $contact['office'] ?? 'Contatto' }}">
+                                        <div class="col-12 mb-30">
+                                            <div class="avatar size-xl">
+                                                <img src="{{ $contact['image'] }}" alt="{{ $contact['office'] ?? 'Contatto' }}">
+                                            </div>
                                         </div>
                                     @endif
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-12 mb-30">
-                            <span class="text-paragraph-small">{{ __($ns.'.detail.topics.label') }}:</span>
-                            <ul class="d-flex flex-wrap gap-2 mt-10 mb-3">
-                                @foreach($topics as $topic)
-                                    <li>
-                                        <a class="chip chip-simple" href="{{ $topic['url'] ?? '#' }}" data-element="service-topic">
-                                            <span class="chip-label">{{ $topic['label'] ?? '' }}</span>
-                                        </a>
-                                    </li>
-                                @endforeach
-                            </ul>
-                            @if($updatedAt)
-                                <p class="text-paragraph-small mb-0">{{ __('fixcity::segnalazione.detail.updated.text', ['date' => $updatedAt]) }}</p>
-                            @endif
-                        </div>
+                    <div class="col-12 mb-30">
+                        <span class="text-paragraph-small">{{ __($ns.'.detail.topics.label') }}:</span>
+                        <ul class="d-flex flex-wrap gap-2 mt-10 mb-3">
+                            @foreach($topics as $topic)
+                                <li>
+                                    <a class="chip chip-simple" href="{{ $topic['url'] ?? '#' }}" data-element="service-topic">
+                                        <span class="chip-label">{{ $topic['label'] ?? '' }}</span>
+                                    </a>
+                                </li>
+                            @endforeach
+                        </ul>
+                        @if($updatedAt)
+                            <p class="text-paragraph-small mb-0">{{ __($ns.'.detail.updated.text', ['date' => $updatedAt]) }}</p>
+                        @endif
                     </div>
                 </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- Rating Section --}}
+<div class="bg-primary">
+    <div class="container">
+        <div class="row d-flex justify-content-center bg-primary">
+            <div class="col-12 col-lg-6 p-lg-0 px-3">
+                <div class="cmp-rating pt-lg-80 pb-lg-80" id="rating">
+                    <div class="card shadow card-wrapper" data-element="feedback">
+                        <div class="cmp-rating__card-first">
+                            <div class="card-header border-0">
+                                <h2 class="title-medium-2-semi-bold mb-0" data-element="feedback-title">{{ __($ns.'.rating.question.text') }}</h2>
+                            </div>
+                            <div class="card-body">
+                                <fieldset class="rating">
+                                    <legend class="visually-hidden">{{ __($ns.'.rating.legend.text') }}</legend>
+                                    @php
+                                        $starLabels = [
+                                            5 => 'Valuta 5 stelle su 5',
+                                            4 => 'Valuta 4 stelle su 5',
+                                            3 => 'Valuta 3 stelle su 5',
+                                            2 => 'Valuta 2 stelle su 5',
+                                            1 => 'Valuta 1 stelle su 5',
+                                        ];
+                                        $starIds = [
+                                            5 => 'first-star',
+                                            4 => 'second-star',
+                                            3 => 'third-star',
+                                            2 => 'fourth-star',
+                                            1 => 'fifth-star',
+                                        ];
+                                    @endphp
+                                    @for ($i = 5; $i >= 1; $i--)
+                                        <input type="radio" id="star{{ $i }}a" name="ratingA" value="{{ $i }}">
+                                        <label class="full rating-star active" for="star{{ $i }}a" data-element="feedback-rate-{{ $i }}">
+                                            <svg class="icon icon-sm" role="img" aria-labelledby="{{ $starIds[$i] }}" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                            </svg>
+                                            <span class="visually-hidden" id="{{ $starIds[$i] }}">{{ $starLabels[$i] }}</span>
+                                        </label>
+                                    @endfor
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="cmp-rating__card-second d-none">
+                            <div class="card-header border-0 mb-0">
+                                <h2 class="title-medium-2-bold mb-0" id="rating-feedback"></h2>
+                            </div>
+                            <div class="d-none form-rating">
+                                <div class="d-none">
+                                    <div class="cmp-steps-rating">
+                                        <fieldset class="d-none fieldset-rating-one">
+                                            <legend class="iscrizione"></legend>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

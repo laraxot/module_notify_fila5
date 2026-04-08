@@ -1,47 +1,47 @@
 # HTML Body Structure Comparison: `segnalazione-dettaglio`
 
-**Date**: 2026-04-08 14:08:26
-**Reference**: /tmp/ref_dettaglio.html
-**Local**: /tmp/local_dettaglio.html
+**Date**: 2026-04-08 14:22:42
+**Reference**: /var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/prompts/segnalazione-dettaglio/reference.html
+**Local**: /var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/prompts/segnalazione-dettaglio/local.html
 
 ## 📊 Parity Score
 
-**Overall Match**: **45.5%** (366/804 elements identical)
+**Overall Match**: **53.6%** (333/621 elements identical)
 
 ## Summary
 
 | Metric | Value |
 |---|---|
-| Total elements (reference) | 804 |
+| Total elements (reference) | 621 |
 | Total elements (local) | 509 |
-| ✅ Identical elements | 366 |
-| ⚠️ Different elements | 134 |
-| ❌ Missing in local | 304 |
-| ➕ Extra in local | 9 |
+| ✅ Identical elements | 333 |
+| ⚠️ Different elements | 105 |
+| ❌ Missing in local | 183 |
+| ➕ Extra in local | 71 |
 
 ## 🆔 ID Comparison
 
-- Common IDs: 10
-- Missing in local: 35
-- Extra in local: 17
+- Common IDs: 6
+- Missing in local: 41
+- Extra in local: 21
 
 ## 🎨 CSS Class Comparison
 
-- Common classes: 183
-- Missing in local: 99
-- Extra in local: 71
+- Common classes: 120
+- Missing in local: 35
+- Extra in local: 135
 
 ## ⚠️ Elements with Differences
 
 1. `<header>` at depth 0
    - attributes differ: ref=['class', 'data-bs-target', 'style'], local=['class', 'data-bs-target']
-2. `<use>` at depth 10
-3. `<a>` at depth 7
-4. `<use>` at depth 10
+2. `<a>` at depth 7
+3. `<use>` at depth 10
    - attributes differ: ref=['xlink:href'], local=['href']
-5. `<a>` at depth 8
-   - attributes differ: ref=['href', 'title'], local=['href']
-6. `<image>` at depth 10
+4. `<a>` at depth 8
+5. `<image>` at depth 10
+   - attributes differ: ref=['xlink:href'], local=['href']
+6. `<use>` at depth 13
    - attributes differ: ref=['xlink:href'], local=['href']
 7. `<use>` at depth 13
    - attributes differ: ref=['xlink:href'], local=['href']
@@ -53,31 +53,38 @@
    - attributes differ: ref=['xlink:href'], local=['href']
 11. `<use>` at depth 13
    - attributes differ: ref=['xlink:href'], local=['href']
-12. `<use>` at depth 13
-   - attributes differ: ref=['xlink:href'], local=['href']
-13. `<use>` at depth 11
-14. `<use>` at depth 9
-15. `<use>` at depth 11
-16. `<a>` at depth 9
-17. `<use>` at depth 11
+12. `<a>` at depth 9
+13. `<a>` at depth 12
+14. `<a>` at depth 12
+15. `<a>` at depth 12
+16. `<a>` at depth 12
+17. `<a>` at depth 12
 18. `<a>` at depth 12
 19. `<a>` at depth 12
 20. `<a>` at depth 12
-   - classes missing in local: ['active']
-21. `<a>` at depth 12
-22. `<a>` at depth 12
-23. `<a>` at depth 12
-24. `<a>` at depth 12
-25. `<a>` at depth 12
-26. `<use>` at depth 15
+21. `<use>` at depth 15
+   - attributes differ: ref=['xlink:href'], local=['href']
+22. `<use>` at depth 14
+   - attributes differ: ref=['xlink:href'], local=['href']
+23. `<use>` at depth 14
+   - attributes differ: ref=['xlink:href'], local=['href']
+24. `<use>` at depth 14
+   - attributes differ: ref=['xlink:href'], local=['href']
+25. `<use>` at depth 14
+   - attributes differ: ref=['xlink:href'], local=['href']
+26. `<use>` at depth 14
    - attributes differ: ref=['xlink:href'], local=['href']
 27. `<use>` at depth 14
    - attributes differ: ref=['xlink:href'], local=['href']
-28. `<use>` at depth 14
-   - attributes differ: ref=['xlink:href'], local=['href']
-29. `<use>` at depth 14
-   - attributes differ: ref=['xlink:href'], local=['href']
-30. `<use>` at depth 14
-   - attributes differ: ref=['xlink:href'], local=['href']
-... and 104 more (see JSON)
+28. `<main>` at depth 0
+   - attributes differ: ref=['data-page'], local=[]
+29. `<div>` at depth 1
+   - id: 'main-container' vs None
+   - classes missing in local: ['container']
+   - classes extra in local: ['content', 'page-content']
+   - attributes differ: ref=['class', 'id'], local=['class', 'data-side', 'data-slug']
+30. `<div>` at depth 7
+   - classes missing in local: ['hero-text']
+   - classes extra in local: ['container']
+... and 75 more (see JSON)
 

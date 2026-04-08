@@ -1793,9 +1793,9 @@
     "tag": "div",
     "attrs": {
       "wire:key": "lw-558597373-0",
-      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazione-dettaglio\",\"pageSlug\":\"tests.segnalazione-dettaglio\",\"data\":[{\"slug\":\"segnalazione-dettaglio\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"TYsAMNnILPiXvCt6ImsU\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazione-dettaglio\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":false},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"25a3f71acc2c7e41509f36de8d75681927c57d82209dcfd029e6a35af75cc4bb\"}",
+      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazione-dettaglio\",\"pageSlug\":\"tests.segnalazione-dettaglio\",\"data\":[{\"slug\":\"segnalazione-dettaglio\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"5E6rDEt5oGkc6LL0MjeT\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazione-dettaglio\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":false},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"22f2bcb94c6a73c52a4080d13b6cb33d0dcb268c972b56acf19afff737bc5ca5\"}",
       "wire:effects": "{\"partials\":[]}",
-      "wire:id": "TYsAMNnILPiXvCt6ImsU",
+      "wire:id": "5E6rDEt5oGkc6LL0MjeT",
       "wire:name": "volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9",
       "id": "main-container",
       "class": "container cms-view-wrapper"
@@ -2027,15 +2027,15 @@
     "tag": "a",
     "attrs": {
       "href": "#",
-      "class": "btn fw-bold btn-primary mr-lg-30"
+      "class": "btn btn-primary fw-bold btn-next"
     },
     "depth": 10,
     "id": null,
     "classes": [
       "btn",
+      "btn-next",
       "btn-primary",
-      "fw-bold",
-      "mr-lg-30"
+      "fw-bold"
     ]
   },
   {
@@ -2049,15 +2049,16 @@
     "tag": "a",
     "attrs": {
       "href": "#",
-      "class": "btn fw-bold btn-outline-primary t-primary"
+      "class": "btn btn-outline-primary fw-bold me-4 btn-back"
     },
     "depth": 10,
     "id": null,
     "classes": [
       "btn",
+      "btn-back",
       "btn-outline-primary",
       "fw-bold",
-      "t-primary"
+      "me-4"
     ]
   },
   {
@@ -2258,7 +2259,7 @@
   {
     "tag": "use",
     "attrs": {
-      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+      "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"
     },
     "depth": 16,
     "id": null,
@@ -2437,17 +2438,17 @@
   {
     "tag": "div",
     "attrs": {
-      "class": "card card-teaser card-teaser-info rounded shadow-sm p-3"
+      "class": "card card-bg single-card rounded shadow-sm p-3"
     },
     "depth": 11,
     "id": null,
     "classes": [
       "card",
-      "card-teaser",
-      "card-teaser-info",
+      "card-bg",
       "p-3",
       "rounded",
-      "shadow-sm"
+      "shadow-sm",
+      "single-card"
     ]
   },
   {

@@ -92,6 +92,35 @@ Different CSS framework: We use TailwindCSS + Alpine, reference uses Bootstrap I
 non ci deve essere Semantic HTML differences se la reference usa <nav> , <ol>, <li> dobbiamo usarle anche noi
 le Classi CSS devono essere le stesse 
 
+Dobbiamo utilizzare le stesse classi bootstrap, poi con tailwind @apply  le utilizziamo , piu' o meno come fa https://daisyui.com/docs/install
+
+
+ ✅ Translation Format - CORRETTO
+     - ❌ fixcity::context.element.type (SBAGLIATO - manca collection)
+     - ✅ fixcity::context.collection.element.type (CORRETTO - 5 livelli)
+
+    Esempi:
+     - ✅ fixcity::segnalazione.fields.title.label
+     - ✅ fixcity::rating.fields.star.5.label
+     - ❌ fixcity::rating.title (manca .collection.)
+
+     ✅ Bootstrap Usage - CORRETTO
+     - ❌ "NO Bootstrap classes" (SBAGLIATO)
+     - ✅ Bootstrap class names SI nel HTML (row, col-12, btn, card, ecc.) per HTML parity
+     - ✅ Bootstrap CSS/JS NO (MAI caricare file)
+     - ✅ TailwindCSS @apply per styling (style-apply.css)
+     
+     Bootstrap class names SI (for HTML parity)
+     Translation format: 5 levels with .collection
+
+    Files Aggiornati:
+      ✅ .windsurfrules - Regole corrette
+      ✅ QWEN.md - Memories corrette
+      ✅ BLOCK_IMPLEMENTATION_GUIDE.md - Documentazione corretta
+
+Regola: parità HTML strutturale ESSENZIALE (≥90% match, esclusi script/style).
+Dopo: parità visiva/funzionale con TailwindCSS (@apply) + Alpine.js (mai Bootstrap Italia CSS/JS).
+
 costantemente devi studiare, aggiornare e migliorare le cartelle docs dentro i moduli e dentro i temi, le tue rules, le tue memories, le tue skills utilizzando anche gli indici e tutti gli strumenti che vuoi
 
 cerca sempre di imparare e di migliorare, non fermarti mai

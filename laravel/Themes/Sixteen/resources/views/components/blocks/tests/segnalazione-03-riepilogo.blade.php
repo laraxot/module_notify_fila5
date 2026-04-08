@@ -254,7 +254,7 @@
                     <button type="button" class="btn btn-outline-primary bg-white btn-sm steppers-btn-save d-block d-lg-none saveBtn center">
                         <span class="text-button-sm t-primary">Salva</span>
                     </button>
-                    <button type="button" class="btn btn-primary btn-sm steppers-btn-confirm send" data-bs-toggle="modal" data-bs-target="#modal-terms">
+                    <button type="button" class="btn btn-primary btn-sm steppers-btn-confirm send" data-bs-toggle="modal" data-bs-target="#modal-terms" @click="modalOpen = true">
                         <span class="text-button-sm">Invia</span>
                     </button>
                 </nav>
@@ -267,19 +267,19 @@
 </div>
 
 <div class="cmp-modal">
-    <div class="modal fade" tabindex="-1" role="dialog" id="modal-terms" aria-labelledby="modal-terms-modal-title">
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal-terms" aria-labelledby="modal-terms-modal-title" x-data="{ modalOpen: false }" x-show="modalOpen" @keydown.escape.window="modalOpen = false" x-cloak>
         <div class="modal-dialog modal-dialog-centered small" role="document">
             <div class="modal-content modal-dimensions">
                 <div class="cmp-modal__header modal-header pb-0">
-                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Chiudi finestra modale"></button>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" @click="modalOpen = false" aria-label="Chiudi finestra modale"></button>
                     <h2 class="cmp-modal__header-title title-mini" id="modal-terms-modal-title">Termini e condizioni</h2>
                     <p class="cmp-modal__header-info header-font">Cliccando su Conferma e invia confermi di aver preso visione dei termini e delle condizioni di servizio.</p>
                     <a href="#" class="cmp-modal__header-link text-success underline mt-1">Leggi termini e condizioni</a>
                 </div>
                 <div class="modal-body"></div>
                 <div class="modal-footer pb-70 pt-0">
-                    <button class="btn btn-primary w-100 mx-0 fw-bold mb-4" type="submit" data-bs-toggle="modal" data-bs-target="#" form="">Conferma e invia</button>
-                    <button class="btn btn-outline-primary w-100 mx-0" data-bs-dismiss="modal fw-bold" type="button">Annulla</button>
+                    <button class="btn btn-primary w-100 mx-0 fw-bold mb-4" type="submit" data-bs-toggle="modal" data-bs-target="#" @click="submitForm()" form="">Conferma e invia</button>
+                    <button class="btn btn-outline-primary w-100 mx-0 fw-bold" type="button" data-bs-dismiss="modal" @click="modalOpen = false">Annulla</button>
 =======
                     </section>
                 </div>
