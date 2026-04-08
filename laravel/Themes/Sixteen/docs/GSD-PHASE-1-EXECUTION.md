@@ -25,7 +25,7 @@ Align FixCity Sixteen theme HTML body structure with Design Comuni reference to 
 
 ### Dependencies
 - ✅ PHASE-1-STRATEGY.md completed
-- ✅ bashscripts/body/html-structure-compare.sh functional
+- ✅ bashscripts/html/html-structure-compare.sh functional
 - ✅ bashscripts/html/ helper scripts ready
 - ⏳ Laravel dev server running
 - ⏳ Executor agents available
@@ -62,7 +62,7 @@ cd /var/www/_bases/base_fixcity_fila5
 
 **Step 1.2**: Run comparison script
 ```bash
-./bashscripts/body/html-structure-compare.sh segnalazioni-elenco
+./bashscripts/html/html-structure-compare.sh segnalazioni-elenco
 ```
 
 **Step 1.3**: Monitor output
@@ -409,7 +409,7 @@ php artisan optimize:clear
 
 **Step 5.2**: Re-run comparison
 ```bash
-./bashscripts/body/html-structure-compare.sh segnalazioni-elenco
+./bashscripts/html/html-structure-compare.sh segnalazioni-elenco
 ```
 
 **Step 5.3**: Review new parity score
@@ -559,7 +559,7 @@ Add section:
 
 **Page**: segnalazioni-elenco (pilot)
 **Parity**: 90%+ ✅
-**Script Used**: `./bashscripts/body/html-structure-compare.sh segnalazioni-elenco`
+**Script Used**: `./bashscripts/html/html-structure-compare.sh segnalazioni-elenco`
 **Output**: [Link to theme docs]
 
 ### Lessons Learned
@@ -647,7 +647,7 @@ graph TD
 ## ✅ CHECKLIST: BEFORE STARTING PHASE 1
 
 - [ ] PHASE-1-STRATEGY.md created and reviewed
-- [ ] bashscripts/body/html-structure-compare.sh ready
+- [ ] bashscripts/html/html-structure-compare.sh ready
 - [ ] bashscripts/html/ helpers functional
 - [ ] Laravel dev server can be started
 - [ ] All agents briefed on their tasks

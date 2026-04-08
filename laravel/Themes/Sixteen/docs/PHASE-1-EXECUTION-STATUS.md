@@ -58,7 +58,7 @@ PHASE 1 WORKFLOW
 - ✅ **bashscripts/docs/html/INDEX.md** (8.5 KB) - Tools documentation
 
 ### For Subtask 1 (Executor #1)
-- ✅ **bashscripts/body/html-structure-compare.sh** - Main script
+- ✅ **bashscripts/html/html-structure-compare.sh** - Main script
 - ✅ **bashscripts/html/extract-body-html.py** - Helper script
 - ✅ **bashscripts/html/compare-html-body.py** - Comparison helper
 
@@ -173,7 +173,7 @@ ls -la laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco
 **Key Files**:
 - Blade Template: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
 - JSON Content: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
-- Comparison Script: `./bashscripts/body/html-structure-compare.sh`
+- Comparison Script: `./bashscripts/html/html-structure-compare.sh`
 
 **Translation Pattern**: `fixcity::segnalazione.fields.title.label`
 

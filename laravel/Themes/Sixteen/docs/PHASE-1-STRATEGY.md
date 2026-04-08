@@ -438,7 +438,7 @@ Based on initial analysis, likely gaps in current implementation:
 **Executor Agent Task**: Run HTML comparison script
 
 ```bash
-./bashscripts/body/html-structure-compare.sh segnalazioni-elenco
+./bashscripts/html/html-structure-compare.sh segnalazioni-elenco
 ```
 
 **Output Location**:
@@ -508,7 +508,7 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 **Executor Task**: Re-run comparison and verify 90% parity
 
 ```bash
-./bashscripts/body/html-structure-compare.sh segnalazioni-elenco
+./bashscripts/html/html-structure-compare.sh segnalazioni-elenco
 ```
 
 **Check Results**:
@@ -611,7 +611,7 @@ Phase 1a: RESEARCH (Researcher Agent)
 └── Output: PHASE-1-STRATEGY.md
 
 Phase 1b: COMPARE (Executor Agent #1)
-├── Run: ./bashscripts/body/html-structure-compare.sh segnalazioni-elenco
+├── Run: ./bashscripts/html/html-structure-compare.sh segnalazioni-elenco
 ├── Fetch reference HTML
 ├── Fetch local HTML
 ├── Extract BODY elements
@@ -638,7 +638,7 @@ Phase 1e: FIX JSON (Executor Agent #2)
 └── Output: Updated JSON
 
 Phase 1f: VERIFY (Executor Agent #1)
-├── Re-run: ./bashscripts/body/html-structure-compare.sh
+├── Re-run: ./bashscripts/html/html-structure-compare.sh
 ├── Check parity score ≥ 90%
 └── Output: Final parity report
 
@@ -713,7 +713,7 @@ As work progresses, update these docs (Researcher/Documentation responsibility):
 #### Executor #1 (Comparison & Verification)
 - **Responsibility**: Run comparison scripts, verify results
 - **Work**: Phase 1b (compare) and Phase 1f (verify)
-- **Command**: `./bashscripts/body/html-structure-compare.sh segnalazioni-elenco`
+- **Command**: `./bashscripts/html/html-structure-compare.sh segnalazioni-elenco`
 
 #### Executor #2 (Code Changes)
 - **Responsibility**: Fix blade templates and JSON content
@@ -741,7 +741,7 @@ As work progresses, update these docs (Researcher/Documentation responsibility):
 ## 🔗 RELATED DOCUMENTATION
 
 - 📖 [bashscripts/docs/html/INDEX.md](../../../bashscripts/docs/html/INDEX.md) - HTML comparison tools
-- 📋 [bashscripts/body/html-structure-compare.sh](../../../bashscripts/body/html-structure-compare.sh) - Main script
+- 📋 [bashscripts/html/html-structure-compare.sh](../../../bashscripts/html/html-structure-compare.sh) - Main script
 - 🎯 [Design Comuni Reference](https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html) - Live reference
 - 📚 [Bootstrap Italia Docs](https://italia.github.io/bootstrap-italia/) - Official component library
 

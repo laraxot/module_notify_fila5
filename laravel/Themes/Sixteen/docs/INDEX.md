@@ -9,7 +9,7 @@ Target: 90%+ structural identity with `italia/design-comuni-pagine-statiche`.
 - [Theme Audit & Roadmap](../../../docs/design-comuni-theme-audit.md)
 
 ### 🛠 Tools (Agnostic)
-- `bashscripts/body/html-structure-compare.sh`: Main entry point for structural comparison.
+- `bashscripts/html/html-structure-compare.sh`: Main entry point for structural comparison.
 - `bashscripts/html/compare-html-body.py`: Python engine for deep tree comparison.
 
 ### 🏗 Architecture

@@ -19,14 +19,21 @@
 
 ## Misurazione corrente
 
-Esecuzione del 2026-04-08 10:51:39:
+### Esecuzione 1: 2026-04-08 10:51:39 (PRIMA della correzione `<main>`)
 - Parity score: `28.9%`
 - Elementi identici: `224`
 - Elementi mancanti: `6`
 - Elementi con differenze: `34`
 - Elementi extra locali: `5`
-- Nodi reference: consultare `reference-structure.json`
-- Nodi local: consultare `local-structure.json`
+
+### Esecuzione 2: 2026-04-08 11:11:14 (DOPO la correzione `<main>`)
+- Parity score: `55.3%` ✅ (+26.4%)
+- Elementi identici: `429`
+- Elementi mancanti: `10`
+- Elementi con differenze: `65`
+- Elementi extra locali: `9`
+
+**Fix applicato**: Rimosso attributo `data-page` da `<main>` in `app.blade.php`
 
 Il precedente claim di `90%` non è più attendibile: il comparer corretto, elemento-per-elemento e con body incluso, misura una distanza strutturale ancora significativa.
 

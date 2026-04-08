@@ -84,7 +84,7 @@ Executor #2 should:
 Executor #1 will re-run comparison after fixes:
 
 ```bash
-./bashscripts/body/html-structure-compare.sh segnalazioni-elenco
+./bashscripts/html/html-structure-compare.sh segnalazioni-elenco
 ```
 
 **Expected Result**: Parity score ≥ 90%

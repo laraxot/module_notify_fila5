@@ -93,14 +93,14 @@
 
 **HTML Structure Comparison Tools**:
 - [bashscripts/docs/html/INDEX.md](../../bashscripts/docs/html/INDEX.md) - HTML comparison tools documentation
-- [bashscripts/body/html-structure-compare.sh](../../bashscripts/body/html-structure-compare.sh) - Main comparison script
+- [bashscripts/html/html-structure-compare.sh](../../bashscripts/html/html-structure-compare.sh) - Main comparison script
 - [bashscripts/html/extract-body-html.py](../../bashscripts/html/extract-body-html.py) - Body extraction helper
 - [bashscripts/html/compare-html-body.py](../../bashscripts/html/compare-html-body.py) - Structure comparison helper
 
 **Usage**:
 ```bash
 cd /var/www/_bases/base_fixcity_fila5
-./bashscripts/body/html-structure-compare.sh segnalazioni-elenco
+./bashscripts/html/html-structure-compare.sh segnalazioni-elenco
 ```
 
 Output → `laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/`
@@ -287,7 +287,7 @@ laravel/config/local/fixcity/database/content/pages/
    Use: laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
 
 ❌ Move bashscripts/html-structure-compare.sh
-   Use: bashscripts/body/html-structure-compare.sh
+   Use: bashscripts/html/html-structure-compare.sh
 
 ❌ Move bashscripts/compare-html-body.py
    Use: bashscripts/html/compare-html-body.py
@@ -356,7 +356,7 @@ cd laravel && php artisan serve
 
 # Step 2: Run comparison (in new terminal)
 cd /var/www/_bases/base_fixcity_fila5
-./bashscripts/body/html-structure-compare.sh segnalazioni-elenco
+./bashscripts/html/html-structure-compare.sh segnalazioni-elenco
 
 # Step 3: Review output
 cat laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/parity-summary.txt

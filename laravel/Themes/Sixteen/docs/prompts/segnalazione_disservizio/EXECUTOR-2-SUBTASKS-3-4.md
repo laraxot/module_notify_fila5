@@ -301,7 +301,7 @@ After you complete Subtasks 3 & 4:
 
 1. **Executor #1 (Subtask 5)** will re-run comparison script
    ```bash
-   ./bashscripts/body/html-structure-compare.sh segnalazioni-elenco
+   ./bashscripts/html/html-structure-compare.sh segnalazioni-elenco
    ```
 
 2. **Expected Result**: Parity score should be ≥ 90%

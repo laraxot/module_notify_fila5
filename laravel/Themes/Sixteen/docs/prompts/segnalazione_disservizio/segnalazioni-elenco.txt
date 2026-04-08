@@ -15,12 +15,12 @@ traduzione sbagliata 'fixcity::segnalazione.heading.title_label' corretta 'fixci
 
 non ci deve essere la blade laravel/Themes/Sixteen/resources/views/pages/tests/segnalazioni-elenco.blade.php utilizziamo la blade laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php 
 
-la locazione di questo script e' sbagliata ./bashscripts/html-structure-compare.sh  manca la sottocartella che in questo caso potrebbe essere "html"  percio' bisogna spostarlo in  ./bashscripts/body/html-structure-compare.sh 
+la locazione di questo script e' sbagliata ./bashscripts/html-structure-compare.sh  manca la sottocartella che in questo caso potrebbe essere "html"  percio' bisogna spostarlo in  ./bashscripts/html/html-structure-compare.sh 
  bashscripts deve essere agnostico, percio' se hai degli output da salvare di questo confronto devi salvarli dentro una sottocartella di laravel/Themes/Sixteen/docs
 
 la locazione di questo script bashscripts/compare-html-body.py e' sbagliata ! quella giusta e' bashscripts/html/compare-html-body.py
 
-questo file bashscripts/body/html-structure-compare.sh e' sbagliato il contesto non e' body ma leggermente piu' ampio percio' html .. percio' doveva essere bashscripts/html/html-structure-compare.sh
+questo file bashscripts/html/html-structure-compare.sh e' sbagliato il contesto non e' body ma leggermente piu' ampio percio' html .. percio' doveva essere bashscripts/html/html-structure-compare.sh
 
 questo file .md  bashscripts/docs/segnalazioni-elenco-html-parity-analysis.md   non puo' stare qui , perche' bashscripts e' agnostico va spostato dentro la cartella /var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio 
 
