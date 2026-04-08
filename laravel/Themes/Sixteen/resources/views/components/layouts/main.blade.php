@@ -9,10 +9,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        {{--
-        {!! $_theme->metatags() !!}
-        --}}
-        <!-- Used to add dark mode right away, adding here prevents any flicker -->
+        {{-- PHILOSOPHY: TailwindCSS + Alpine.js ONLY. NO Bootstrap Italia JS/CSS. --}}
+        {{-- See: docs/architecture/tailwind-alpine-philosophy.md --}}
+
+        {{-- Used to add dark mode right away, adding here prevents any flicker --}}
         <script>
             if (typeof(Storage) !== "undefined") {
                 if (localStorage.getItem('dark_mode') && localStorage.getItem('dark_mode') == 'true') {

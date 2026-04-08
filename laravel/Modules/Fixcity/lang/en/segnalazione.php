@@ -154,4 +154,26 @@ return [
             'label' => 'Close modal dialog',
         ],
     ],
+    'detail' => [
+        'share' => [
+            'label' => 'Share',
+            'aria' => 'share on social media',
+        ],
+        'actions' => [
+            'label' => 'View actions',
+            'aria' => 'view actions to perform on this page',
+        ],
+        'index' => [
+            'label' => 'PAGE INDEX',
+        ],
+        'contacts' => [
+            'label' => 'Contacts',
+        ],
+        'topics' => [
+            'label' => 'Topics',
+        ],
+        'updated' => [
+            'text' => 'Page updated on :date',
+        ],
+    ],
 ];

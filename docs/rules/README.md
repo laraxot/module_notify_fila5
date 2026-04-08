@@ -13,6 +13,19 @@ This directory contains **mandatory rules** and governance documents for the Fix
 
 ## 📁 Rules
 
+### Frontend
+
+| Rule | Description | Enforcement |
+|------|-------------|-------------|
+| [`no-bootstrap-italia.md`](no-bootstrap-italia.md) | Never include Bootstrap Italia CSS/JS; use Tailwind + Alpine | ✅ Mandatory |
+
+**Key Rules**:
+1. NEVER include `<link href="...bootstrap-italia..." rel="stylesheet">`
+2. NEVER include `<script src="...bootstrap-italia.bundle.min.js"></script>`
+3. ALWAYS use `<x-layouts.app>` for pages
+4. ALWAYS follow Volt Component pattern for `[slug].blade.php`
+5. SVG sprite paths are allowed (icons only)
+
 ### Infrastructure
 
 | Rule | Description | Enforcement |

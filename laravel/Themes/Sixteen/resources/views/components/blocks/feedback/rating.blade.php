@@ -1,334 +1,242 @@
 {{--
     Feedback Rating Block - Multi-Step Wizard
     Reference: design-comuni-pagine-statiche/sito/homepage.html #rating section
-    Structure: 3-step wizard (stars → radio feedback → optional text → thank you)
-    Multilingual: ALL text from JSON, NO hardcoded strings
+    Structure: Star rating → follow-up questions → thank you
+    Tech: TailwindCSS + Alpine.js (NO Bootstrap)
+    Multilingual: ALL text from translations, NO hardcoded strings
+    Usage: <x-pub_theme::components.blocks.feedback.rating :data="$blockData" />
 --}}
+@props(['data' => []])
+
 @php
-    $data = $data ?? [];
-    // Rating configuration - support @include (direct vars) and @component (via $data)
-    $titleData = isset($title) ? $title : ($data['title'] ?? []);
-    $subtitleData = isset($subtitle) ? $subtitle : ($data['subtitle'] ?? []);
-    $title = is_array($titleData) ? ($titleData['it'] ?? 'Quanto sono chiare le informazioni su questa pagina?') : ($titleData ?: 'Quanto sono chiare le informazioni su questa pagina?');
-    $subtitle = is_array($subtitleData) ? ($subtitleData['it'] ?? 'Grazie, il tuo parere ci aiuterà a migliorare il servizio!') : ($subtitleData ?: 'Grazie, il tuo parere ci aiuterà a migliorare il servizio!');
-    
-    // Step 1: Positive feedback options
-    $positiveQuestion = $data['positive_question']['it'] ?? 'Quali sono stati gli aspetti che hai preferito?';
-    $positiveOptions = $data['positive_options']['it'] ?? [
-        'Le indicazioni erano chiare',
-        'Le indicazioni erano complete',
-        'Capivo sempre che stavo procedendo correttamente',
-        'Non ho avuto problemi tecnici',
-        'Altro'
-    ];
-    
-    // Step 1: Negative feedback options
-    $negativeQuestion = $data['negative_question']['it'] ?? 'Dove hai incontrato le maggiori difficoltà?';
-    $negativeOptions = $data['negative_options']['it'] ?? [
-        'A volte le indicazioni non erano chiare',
-        'A volte le indicazioni non erano complete',
-        'A volte non capivo se stavo procedendo correttamente',
-        'Ho avuto problemi tecnici',
-        'Altro'
-    ];
-    
-    // Step 2: Optional text input
-    $textQuestion = $data['text_question']['it'] ?? 'Vuoi aggiungere altri dettagli?';
-    $textLabel = $data['text_label']['it'] ?? 'Dettaglio';
-    $textHelp = $data['text_help']['it'] ?? 'Inserire massimo 200 caratteri';
+    // Translation namespace
+    $ns = 'fixcity::rating';
+
+    // Helper: resolve translation key or fallback to value
+    $t = function (?string $value, string $fallbackKey) use ($ns): string {
+        if (empty($value)) {
+            return __($ns . '.' . $fallbackKey);
+        }
+        // If value contains '::', treat as translation key
+        if (str_contains($value, '::')) {
+            return __($value);
+        }
+        return $value;
+    };
+
+    // Title & subtitle - from JSON or translations
+    $titleRaw = $data['title'] ?? null;
+    $title = $t(is_array($titleRaw) ? ($titleRaw[app()->getLocale()] ?? null) : $titleRaw, 'title');
+
+    $subtitleRaw = $data['subtitle'] ?? null;
+    $subtitle = $t(is_array($subtitleRaw) ? ($subtitleRaw[app()->getLocale()] ?? null) : $subtitleRaw, 'subtitle');
+
+    // Star rating labels
+    $starLegend = $t($data['star_legend'][app()->getLocale()] ?? null, 'star.legend');
+    $starLabels = [];
+    for ($i = 1; $i <= 5; $i++) {
+        $key = 'star.labels.' . $i;
+        $raw = $data['star_labels'][app()->getLocale()][$i] ?? null;
+        $starLabels[$i] = $t($raw, $key);
+    }
+
+    // Positive feedback options
+    $positiveQuestion = $t($data['positive_question'][app()->getLocale()] ?? null, 'positive.question');
+    $positiveOptions = [];
+    $posOptionsRaw = $data['positive_options'][app()->getLocale()] ?? [];
+    if (is_array($posOptionsRaw) && count($posOptionsRaw) > 0) {
+        foreach ($posOptionsRaw as $idx => $opt) {
+            $positiveOptions[$idx] = $t($opt, 'positive.options.' . ($idx + 1));
+        }
+    } else {
+        for ($i = 1; $i <= 5; $i++) {
+            $positiveOptions[$i - 1] = __($ns . '.positive.options.' . $i);
+        }
+    }
+
+    // Negative feedback options
+    $negativeQuestion = $t($data['negative_question'][app()->getLocale()] ?? null, 'negative.question');
+    $negativeOptions = [];
+    $negOptionsRaw = $data['negative_options'][app()->getLocale()] ?? [];
+    if (is_array($negOptionsRaw) && count($negOptionsRaw) > 0) {
+        foreach ($negOptionsRaw as $idx => $opt) {
+            $negativeOptions[$idx] = $t($opt, 'negative.options.' . ($idx + 1));
+        }
+    } else {
+        for ($i = 1; $i <= 5; $i++) {
+            $negativeOptions[$i - 1] = __($ns . '.negative.options.' . $i);
+        }
+    }
+
+    // Text feedback
+    $textQuestion = $t($data['text_question'][app()->getLocale()] ?? null, 'text.question');
+    $textLabel = $t($data['text_label'][app()->getLocale()] ?? null, 'text.label');
+    $textHelp = $t($data['text_help'][app()->getLocale()] ?? null, 'text.help');
     $textMaxlength = $data['text_maxlength'] ?? 200;
-    
-    // Navigation buttons
-    $btnBack = $data['btn_back']['it'] ?? 'Indietro';
-    $btnNext = $data['btn_next']['it'] ?? 'Avanti';
-    
-    // Star rating
-    $starLegend = $data['star_legend']['it'] ?? 'Valuta da 1 a 5 stelle la pagina';
-    $starLabels = $data['star_labels']['it'] ?? [
-        5 => 'Valuta 5 stelle su 5',
-        4 => 'Valuta 4 stelle su 5',
-        3 => 'Valuta 3 stelle su 5',
-        2 => 'Valuta 2 stelle su 5',
-        1 => 'Valuta 1 stella su 5'
-    ];
+
+    // Buttons
+    $btnBack = $t($data['btn_back'][app()->getLocale()] ?? null, 'buttons.back');
+    $btnNext = $t($data['btn_next'][app()->getLocale()] ?? null, 'buttons.next');
+    $btnSubmit = $t($data['btn_submit'][app()->getLocale()] ?? null, 'buttons.submit');
+    $thankYouMsg = $t($data['thank_you'][app()->getLocale()] ?? null, 'thank_you');
 @endphp
 
-<div class="bg-primary" id="rating" x-data="{ rating: 0, hover: 0, step: 1, answer: '', feedbackType: '' }">
-    <div class="container">
-        <div class="row d-flex justify-content-center bg-primary">
-            <div class="col-12 col-lg-6">
-                <div class="cmp-rating pt-lg-80 pb-lg-80">
-                    <div class="card shadow card-wrapper" data-element="feedback">
-                        <div class="cmp-rating__card-first">
-                            <div class="card-header border-0">
-                                <h2 class="title-medium-2-semi-bold mb-0" data-element="feedback-title">{{ $title }}</h2>
-                            </div>
-                            <div class="card-body">
-                                <fieldset class="rating" id="fieldset-rating-one">
-                                    <legend class="visually-hidden">Valuta da 1 a 5 stelle la pagina</legend>
+{{-- Rating Block Container --}}
+<div
+    id="rating"
+    class="py-12 lg:py-20 bg-primary-500"
+    x-data="{
+        rating: 0,
+        hover: 0,
+        step: 1,
+        selectedOption: null,
+        textFeedback: '',
+        feedbackType: '',
+        submitted: false
+    }"
+    data-element="feedback"
+>
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            {{-- Header --}}
+            <div class="px-6 py-5 sm:px-8 border-b border-gray-100">
+                <h2 class="text-2xl sm:text-3xl font-semibold text-gray-900" data-element="feedback-title">
+                    {{ $title }}
+                </h2>
+            </div>
 
-                    {{-- 5 stars - reverse order for CSS star rating --}}
-                    <input type="radio" id="star5a" name="ratingA" value="5" x-model="rating" class="visually-hidden">
-                    <label class="full rating-star active" for="star5a"
-                           data-element="feedback-rate-5"
-                           @click="rating = 5; step = rating >= 4 ? 2 : 2; feedbackType = rating >= 4 ? 'positive' : 'negative'"
-                           @mouseenter="hover = 5"
-                           @mouseleave="hover = 0">
-                        <svg class="icon icon-sm" role="img" aria-labelledby="first-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"/>
-                            <path fill="none" d="M0 0h24v24H0z"/>
-                        </svg>
-                        <span class="visually-hidden" id="first-star">Valuta 5 stelle su 5</span>
-                    </label>
-
-                    <input type="radio" id="star4a" name="ratingA" value="4" x-model="rating" class="visually-hidden">
-                    <label class="full rating-star active" for="star4a"
-                           data-element="feedback-rate-4"
-                           @click="rating = 4; step = rating >= 4 ? 2 : 2; feedbackType = rating >= 4 ? 'positive' : 'negative'"
-                           @mouseenter="hover = 4"
-                           @mouseleave="hover = 0">
-                        <svg class="icon icon-sm" role="img" aria-labelledby="second-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"/>
-                            <path fill="none" d="M0 0h24v24H0z"/>
-                        </svg>
-                        <span class="visually-hidden" id="second-star">Valuta 4 stelle su 5</span>
-                    </label>
-
-                    <input type="radio" id="star3a" name="ratingA" value="3" x-model="rating" class="visually-hidden">
-                    <label class="full rating-star active" for="star3a"
-                           data-element="feedback-rate-3"
-                           @click="rating = 3; step = rating >= 4 ? 2 : 2; feedbackType = rating >= 4 ? 'positive' : 'negative'"
-                           @mouseenter="hover = 3"
-                           @mouseleave="hover = 0">
-                        <svg class="icon icon-sm" role="img" aria-labelledby="third-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"/>
-                            <path fill="none" d="M0 0h24v24H0z"/>
-                        </svg>
-                        <span class="visually-hidden" id="third-star">Valuta 3 stelle su 5</span>
-                    </label>
-
-                    <input type="radio" id="star2a" name="ratingA" value="2" x-model="rating" class="visually-hidden">
-                    <label class="full rating-star active" for="star2a"
-                           data-element="feedback-rate-2"
-                           @click="rating = 2; step = rating >= 4 ? 2 : 2; feedbackType = rating >= 4 ? 'positive' : 'negative'"
-                           @mouseenter="hover = 2"
-                           @mouseleave="hover = 0">
-                        <svg class="icon icon-sm" role="img" aria-labelledby="fourth-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"/>
-                            <path fill="none" d="M0 0h24v24H0z"/>
-                        </svg>
-                        <span class="visually-hidden" id="fourth-star">Valuta 2 stelle su 5</span>
-                    </label>
-
-                    <input type="radio" id="star1a" name="ratingA" value="1" x-model="rating" class="visually-hidden">
-                    <label class="full rating-star active" for="star1a"
-                           data-element="feedback-rate-1"
-                           @click="rating = 1; step = rating >= 4 ? 2 : 2; feedbackType = rating >= 4 ? 'positive' : 'negative'"
-                           @mouseenter="hover = 1"
-                           @mouseleave="hover = 0">
-                        <svg class="icon icon-sm" role="img" aria-labelledby="fifth-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"/>
-                            <path fill="none" d="M0 0h24v24H0z"/>
-                        </svg>
-                        <span class="visually-hidden" id="fifth-star">Valuta 1 stella su 5</span>
-                    </label>
-                    @endforeach
-                </fieldset>
-
-                {{-- Step 1: Rating selected, show follow-up --}}
-                <div class="cmp-rating__card-second" :class="{ 'd-none': step === 1 }">
-                    <p class="text-wrap">{{ $subtitle }}</p>
+            {{-- Body --}}
+            <div class="px-6 py-6 sm:px-8">
+                {{-- Step 1: Star Rating --}}
+                <div x-show="step === 1" x-transition>
+                    <fieldset>
+                        <legend class="sr-only">{{ $starLegend }}</legend>
+                        <div class="flex flex-row-reverse justify-end gap-1" role="radiogroup" aria-label="{{ $starLegend }}">
+                            {{-- Stars rendered 5→1 for CSS hover effect --}}
+                            @for ($star = 5; $star >= 1; $star--)
+                            <input
+                                type="radio"
+                                id="star{{ $star }}"
+                                name="rating"
+                                value="{{ $star }}"
+                                x-model="rating"
+                                class="sr-only"
+                            >
+                            <label
+                                for="star{{ $star }}"
+                                class="cursor-pointer p-1 transition-colors duration-150"
+                                :class="(hover >= {{ $star }} || rating >= {{ $star }}) ? 'text-yellow-400' : 'text-gray-300'"
+                                @click="rating = {{ $star }}; feedbackType = {{ $star }} >= 4 ? 'positive' : 'negative'; step = 2"
+                                @mouseenter="hover = {{ $star }}"
+                                @mouseleave="hover = 0"
+                                :aria-checked="rating === {{ $star }}"
+                                role="radio"
+                                data-element="feedback-rate-{{ $star }}"
+                            >
+                                <svg class="w-8 h-8 sm:w-10 sm:h-10" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"/>
+                                </svg>
+                                <span class="sr-only">{{ $starLabels[$star] }}</span>
+                            </label>
+                            @endfor
+                        </div>
+                    </fieldset>
                 </div>
 
-                {{-- Step 2: Multi-step form --}}
-                <div class="form-rating" :class="{ 'd-none': step < 2 }">
-                    {{-- Positive feedback fieldset --}}
-                    <fieldset class="fieldset-rating-one" :class="{ 'd-none': feedbackType !== 'positive' }" data-element="feedback-rating-positive">
-                        <legend>
-                            <span data-element="feedback-rating-question">Cosa ritieni di meglio di questa pagina?</span>
-                        </legend>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="positiveFeedback" id="pos1" value="clear">
-                            <label class="form-check-label" for="pos1" data-element="feedback-rating-answer">
-                                <span>Le informazioni sono chiare</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="positiveFeedback" id="pos2" value="complete">
-                            <label class="form-check-label" for="pos2" data-element="feedback-rating-answer">
-                                <span>Le informazioni sono complete</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="positiveFeedback" id="pos3" value="easy">
-                            <label class="form-check-label" for="pos3" data-element="feedback-rating-answer">
-                                <span>È facile trovare quello che cerco</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="positiveFeedback" id="pos4" value="design">
-                            <label class="form-check-label" for="pos4" data-element="feedback-rating-answer">
-                                <span>Il design è gradevole</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="positiveFeedback" id="pos5" value="other">
-                            <label class="form-check-label" for="pos5" data-element="feedback-rating-answer">
-                                <span>Altro</span>
-                            </label>
+                {{-- Step 2: Follow-up Questions --}}
+                <div x-show="step === 2" x-cloak x-transition>
+                    <p class="text-base text-gray-600 mb-6">{{ $subtitle }}</p>
+
+                    {{-- Positive feedback --}}
+                    <fieldset x-show="feedbackType === 'positive'" x-cloak data-element="feedback-rating-positive">
+                        <legend class="text-lg font-semibold text-gray-900 mb-4">{{ $positiveQuestion }}</legend>
+                        <div class="space-y-3">
+                            @foreach($positiveOptions as $index => $option)
+                            <div class="flex items-start">
+                                <input
+                                    type="radio"
+                                    id="pos-{{ $index }}"
+                                    name="positiveFeedback"
+                                    value="{{ $index }}"
+                                    x-model="selectedOption"
+                                    class="mt-1 h-4 w-4 border-gray-300 text-primary-500 focus:ring-primary-500"
+                                >
+                                <label for="pos-{{ $index }}" class="ml-3 text-base text-gray-700 cursor-pointer" data-element="feedback-rating-answer">
+                                    {{ $option }}
+                                </label>
+                            </div>
+                            @endforeach
                         </div>
                     </fieldset>
 
-                    {{-- Negative feedback fieldset --}}
-                    <fieldset class="fieldset-rating-two" :class="{ 'd-none': feedbackType !== 'negative' }" data-element="feedback-rating-negative">
-                        <legend>
-                            <span data-element="feedback-rating-question">Cosa non va in questa pagina?</span>
-                        </legend>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="negativeFeedback" id="neg1" value="unclear">
-                            <label class="form-check-label" for="neg1" data-element="feedback-rating-answer">
-                                <span>Le informazioni non sono chiare</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="negativeFeedback" id="neg2" value="incomplete">
-                            <label class="form-check-label" for="neg2" data-element="feedback-rating-answer">
-                                <span>Le informazioni sono incomplete</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="negativeFeedback" id="neg3" value="hard">
-                            <label class="form-check-label" for="neg3" data-element="feedback-rating-answer">
-                                <span>È difficile trovare quello che cerco</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="negativeFeedback" id="neg4" value="design">
-                            <label class="form-check-label" for="neg4" data-element="feedback-rating-answer">
-                                <span>Il design non è gradevole</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="negativeFeedback" id="neg5" value="other">
-                            <label class="form-check-label" for="neg5" data-element="feedback-rating-answer">
-                                <span>Altro</span>
-                            </label>
+                    {{-- Negative feedback --}}
+                    <fieldset x-show="feedbackType === 'negative'" x-cloak data-element="feedback-rating-negative">
+                        <legend class="text-lg font-semibold text-gray-900 mb-4">{{ $negativeQuestion }}</legend>
+                        <div class="space-y-3">
+                            @foreach($negativeOptions as $index => $option)
+                            <div class="flex items-start">
+                                <input
+                                    type="radio"
+                                    id="neg-{{ $index }}"
+                                    name="negativeFeedback"
+                                    value="{{ $index }}"
+                                    x-model="selectedOption"
+                                    class="mt-1 h-4 w-4 border-gray-300 text-primary-500 focus:ring-primary-500"
+                                >
+                                <label for="neg-{{ $index }}" class="ml-3 text-base text-gray-700 cursor-pointer" data-element="feedback-rating-answer">
+                                    {{ $option }}
+                                </label>
+                            </div>
+                            @endforeach
                         </div>
                     </fieldset>
 
-                    {{-- Step 2b: Text feedback --}}
-                    <div class="mt-4" :class="{ 'd-none': step < 3 }">
-                        <label class="form-label" for="feedback-text">Vuoi aggiungere un commento?</label>
-                        <textarea class="form-control" id="feedback-text" x-model="answer" maxlength="200" data-element="feedback-input-text" rows="3"></textarea>
-                        <p class="form-text"><span x-text="answer.length"></span>/200 caratteri</p>
-                        <button class="btn btn-primary mt-3" @click="step = 4">Invia</button>
-                        <button class="btn btn-back btn-link text-decoration-none" @click="step = 2">Indietro</button>
+                    {{-- Text feedback (optional) --}}
+                    <div class="mt-6">
+                        <label for="feedback-text" class="block text-sm font-medium text-gray-700 mb-2">
+                            {{ $textQuestion }}
+                        </label>
+                        <textarea
+                            id="feedback-text"
+                            x-model="textFeedback"
+                            maxlength="{{ $textMaxlength }}"
+                            rows="3"
+                            class="w-full rounded-md border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500"
+                            data-element="feedback-input-text"
+                            aria-describedby="text-help"
+                        ></textarea>
+                        <p id="text-help" class="mt-1 text-sm text-gray-500">
+                            {{ $textHelp }} (<span x-text="textFeedback.length"></span>/{{ $textMaxlength }})
+                        </p>
+                    </div>
+
+                    {{-- Navigation buttons --}}
+                    <div class="mt-6 flex gap-4">
+                        <button
+                            type="button"
+                            @click="step = 1; selectedOption = null"
+                            class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                        >
+                            {{ $btnBack }}
+                        </button>
+                        <button
+                            type="button"
+                            @click="submitted = true; step = 3"
+                            class="inline-flex items-center justify-center px-6 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary-500 hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                        >
+                            {{ $btnSubmit }}
+                        </button>
                     </div>
                 </div>
 
-                {{-- Step 4: Thank you --}}
-                <div class="cmp-rating__card-second d-none" :class="{ 'd-none': step !== 4 }" data-step="3">
-                    <p class="text-wrap">Grazie per il tuo feedback!</p>
+                {{-- Step 3: Thank You --}}
+                <div x-show="step === 3" x-cloak x-transition class="text-center py-8">
+                    <svg class="mx-auto h-12 w-12 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <p class="mt-4 text-lg text-gray-700">{{ $thankYouMsg }}</p>
                 </div>
             </div>
         </div>
-
-        {{-- Multi-step form (hidden until star rating submitted) --}}
-        <form id="rating" x-show="step > 0" class="d-none">
-            {{-- Step 1: Radio Button Feedback --}}
-            <div class="d-none" data-step="1">
-                <div class="cmp-steps-rating">
-                    {{-- Positive feedback fieldset --}}
-                    <fieldset class="fieldset-rating-one d-none" data-element="feedback-rating-positive" x-show="isPositive">
-                        <legend class="iscrizioni-header w-100">
-                            <h3 class="step-title d-flex flex-column flex-lg-row align-items-lg-center justify-content-between drop-shadow">
-                                <span class="d-block text-wrap" data-element="feedback-rating-question">
-                                    {{ $positiveQuestion }}
-                                </span>
-                                <span class="step">1/2</span>
-                            </h3>
-                        </legend>
-                        <div class="cmp-steps-rating__body">
-                            <div class="cmp-radio-list">
-                                <div class="card card-teaser shadow-rating">
-                                    <div class="card-body">
-                                        <div class="form-check m-0">
-                                            @foreach($positiveOptions as $index => $option)
-                                            <div class="radio-body border-bottom border-light cmp-radio-list__item">
-                                                <input name="rating1" type="radio" id="radio-{{ $index + 1 }}">
-                                                <label for="radio-{{ $index + 1 }}" class="active" data-element="feedback-rating-answer">{{ $option }}</label>
-                                            </div>
-                                            @endforeach
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-
-                    {{-- Negative feedback fieldset --}}
-                    <fieldset class="fieldset-rating-two d-none" data-element="feedback-rating-negative" x-show="!isPositive">
-                        <legend class="iscrizioni-header w-100">
-                            <h3 class="step-title d-flex flex-column flex-lg-row flex-wrap align-items-lg-center justify-content-between drop-shadow">
-                                <span class="d-block text-wrap" data-element="feedback-rating-question">
-                                    {{ $negativeQuestion }}
-                                </span>
-                                <span class="step">1/2</span>
-                            </h3>
-                        </legend>
-                        <div class="cmp-steps-rating__body">
-                            <div class="cmp-radio-list">
-                                <div class="card card-teaser shadow-rating">
-                                    <div class="card-body">
-                                        <div class="form-check m-0">
-                                            @foreach($negativeOptions as $index => $option)
-                                            <div class="radio-body border-bottom border-light cmp-radio-list__item">
-                                                <input name="rating2" type="radio" id="radio-{{ $index + 6 }}">
-                                                <label for="radio-{{ $index + 6 }}" class="active" data-element="feedback-rating-answer">{{ $option }}</label>
-                                            </div>
-                                            @endforeach
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                </div>
-            </div>
-
-            {{-- Step 2: Optional Text Input --}}
-            <div class="d-none" data-step="2">
-                <div class="cmp-steps-rating">
-                    <fieldset>
-                        <legend class="iscrizioni-header w-100">
-                            <h3 class="step-title d-flex flex-column flex-lg-row flex-wrap align-items-lg-center justify-content-between drop-shadow">
-                                <span class="d-block text-wrap">
-                                    {{ $textQuestion }}
-                                </span>
-                                <span class="step">2/2</span>
-                            </h3>
-                        </legend>
-                        <div class="cmp-steps-rating__body">
-                            <div class="form-group">
-                                <label for="formGroupExampleInputWithHelp">{{ $textLabel }}</label>
-                                <input type="text" class="form-control" id="formGroupExampleInputWithHelp" aria-describedby="formGroupExampleInputWithHelpDescription" maxlength="{{ $textMaxlength }}" data-element="feedback-input-text">
-                                <small id="formGroupExampleInputWithHelpDescription" class="form-text">
-                                    {{ $textHelp }}</small>
-                            </div>
-                        </div>
-                    </fieldset>
-                </div>
-            </div>
-
-            {{-- Step Navigation Buttons --}}
-            <div class="d-none" data-step="buttons">
-                <div class="d-flex flex-nowrap pt-4 w-100 justify-content-center button-shadow">
-                    <button class="btn btn-outline-primary fw-bold me-4 btn-back" type="button" @click="showStep(step > 1 ? step - 1 : 0)">{{ $btnBack }}</button>
-                    <button class="btn btn-primary fw-bold btn-next" type="submit" form="rating">{{ $btnNext }}</button>
-                </div>
-            </div>
-        </form>
     </div>
-    </div>
-</div>
 </div>

@@ -1,0 +1,3217 @@
+{
+  "timestamp": "2026-04-08T11:58:37.344Z",
+  "scores": {
+    "structureParity": "46.58",
+    "classParity": "40.37",
+    "overall": "44.10",
+    "totalReference": 805,
+    "totalLocal": 622,
+    "identical": 325,
+    "different": 50,
+    "missingInLocal": 430,
+    "missingInReference": 245
+  },
+  "identical_count": 325,
+  "different_count": 50,
+  "missing_count": 430,
+  "extra_count": 245,
+  "identical": [
+    {
+      "path": "html > body",
+      "tag": "body",
+      "classes": []
+    },
+    {
+      "path": "html > body > div.skiplink",
+      "tag": "div",
+      "classes": [
+        "skiplink"
+      ]
+    },
+    {
+      "path": "html > body > div.skiplink > a.visually-hidden-focusable",
+      "tag": "a",
+      "classes": [
+        "visually-hidden-focusable"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper",
+      "tag": "header",
+      "classes": [
+        "it-header-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-header-slim-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container",
+      "tag": "div",
+      "classes": [
+        "container"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12",
+      "tag": "div",
+      "classes": [
+        "col-12"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content",
+      "tag": "div",
+      "classes": [
+        "it-header-slim-wrapper-content"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > a.d-lg-block.navbar-brand",
+      "tag": "a",
+      "classes": [
+        "d-lg-block",
+        "navbar-brand"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone",
+      "tag": "div",
+      "classes": [
+        "it-header-slim-right-zone"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown",
+      "tag": "div",
+      "classes": [
+        "nav-item",
+        "dropdown"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle",
+      "tag": "button",
+      "classes": [
+        "nav-link",
+        "dropdown-toggle"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu",
+      "tag": "div",
+      "classes": [
+        "dropdown-menu"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12",
+      "tag": "div",
+      "classes": [
+        "col-12"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper",
+      "tag": "div",
+      "classes": [
+        "link-list-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list",
+      "tag": "ul",
+      "classes": [
+        "link-list"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item",
+      "tag": "a",
+      "classes": [
+        "dropdown-item",
+        "list-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item",
+      "tag": "a",
+      "classes": [
+        "dropdown-item",
+        "list-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > div.dropdown-menu > div.row > div.col-12 > div.link-list-wrapper > ul.link-list > li > a.dropdown-item.list-item > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full",
+      "tag": "a",
+      "classes": [
+        "btn",
+        "btn-primary",
+        "btn-icon",
+        "btn-full"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.rounded-icon",
+      "tag": "span",
+      "classes": [
+        "rounded-icon"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.rounded-icon > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.d-none.d-lg-block",
+      "tag": "span",
+      "classes": [
+        "d-none",
+        "d-lg-block"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-nav-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-header-center-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container",
+      "tag": "div",
+      "classes": [
+        "container"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12",
+      "tag": "div",
+      "classes": [
+        "col-12"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-header-center-content-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-brand-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > div.it-brand-text",
+      "tag": "div",
+      "classes": [
+        "it-brand-text"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > div.it-brand-text > div.it-brand-title",
+      "tag": "div",
+      "classes": [
+        "it-brand-title"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > div.it-brand-text > div.it-brand-tagline.d-none.d-md-block",
+      "tag": "div",
+      "classes": [
+        "it-brand-tagline",
+        "d-none",
+        "d-md-block"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone",
+      "tag": "div",
+      "classes": [
+        "it-right-zone"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex",
+      "tag": "div",
+      "classes": [
+        "it-socials",
+        "d-none",
+        "d-lg-flex"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul",
+      "tag": "ul",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li",
+      "tag": "li",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a",
+      "tag": "a",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-search-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper > span.d-none.d-md-block",
+      "tag": "span",
+      "classes": [
+        "d-none",
+        "d-md-block"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper > button.search-link.rounded-icon",
+      "tag": "button",
+      "classes": [
+        "search-link",
+        "rounded-icon"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper > button.search-link.rounded-icon > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper",
+      "tag": "div",
+      "classes": [
+        "it-header-navbar-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container",
+      "tag": "div",
+      "classes": [
+        "container"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12",
+      "tag": "div",
+      "classes": [
+        "col-12"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu",
+      "tag": "div",
+      "classes": [
+        "navbar",
+        "navbar-expand-lg",
+        "has-megamenu"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > button.custom-navbar-toggler",
+      "tag": "button",
+      "classes": [
+        "custom-navbar-toggler"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > button.custom-navbar-toggler > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4",
+      "tag": "div",
+      "classes": [
+        "navbar-collapsable"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.overlay",
+      "tag": "div",
+      "classes": [
+        "overlay"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div",
+      "tag": "div",
+      "classes": [
+        "close-div"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div > button.btn.close-menu",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "close-menu"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div > button.btn.close-menu > span.visually-hidden",
+      "tag": "span",
+      "classes": [
+        "visually-hidden"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div > button.btn.close-menu > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper",
+      "tag": "div",
+      "classes": [
+        "menu-wrapper"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger",
+      "tag": "a",
+      "classes": [
+        "logo-hamburger"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger > svg",
+      "tag": "svg",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger > div.it-brand-text",
+      "tag": "div",
+      "classes": [
+        "it-brand-text"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger > div.it-brand-text > div.it-brand-title",
+      "tag": "div",
+      "classes": [
+        "it-brand-title"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav",
+      "tag": "ul",
+      "classes": [
+        "navbar-nav"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": []
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ]
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ]
+    }
+  ],
+  "different": [
+    {
+      "path": "html > body > div.skiplink > a.visually-hidden-focusable",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "visually-hidden-focusable"
+      ],
+      "localClasses": [
+        "visually-hidden-focusable"
+      ],
+      "refAttributes": {
+        "href": "#main-container"
+      },
+      "localAttributes": {
+        "href": "#footer"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > div.nav-item.dropdown > button.nav-link.dropdown-toggle > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-header-slim-wrapper > div.container > div.row > div.col-12 > div.it-header-slim-wrapper-content > div.it-header-slim-right-zone > a.btn.btn-primary.btn-icon.btn-full > span.rounded-icon > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-user"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "homepage.html",
+        "title": "Vai alla homepage"
+      },
+      "localAttributes": {
+        "href": "homepage.html"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-brand-wrapper > a > svg > image",
+      "tag": "image",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/images/logo-comune.svg"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/images/logo.svg"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-socials.d-none.d-lg-flex > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div.it-header-center-wrapper > div.container > div.row > div.col-12 > div.it-header-center-content-wrapper > div.it-right-zone > div.it-search-wrapper > button.search-link.rounded-icon > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-search"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-search"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > button.custom-navbar-toggler > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.close-div > button.btn.close-menu > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-close-big"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-close-big"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > a.logo-hamburger > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav",
+      "tag": "nav",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "aria-label": "Principale"
+      },
+      "localAttributes": {
+        "aria-label": "Secondaria"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/amministrazione.html",
+        "data-element": "management"
+      },
+      "localAttributes": {
+        "href": "../sito/eventi.html",
+        "data-element": "live"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/novita.html",
+        "data-element": "news"
+      },
+      "localAttributes": {
+        "href": "../sito/eventi.html",
+        "data-element": "live"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/argomento.html"
+      },
+      "localAttributes": {
+        "href": "argomenti.html",
+        "data-element": "all-topics"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/argomento.html"
+      },
+      "localAttributes": {
+        "href": "argomenti.html",
+        "data-element": "all-topics"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "nav-link"
+      ],
+      "localClasses": [
+        "nav-link"
+      ],
+      "refAttributes": {
+        "href": "../sito/argomento.html"
+      },
+      "localAttributes": {
+        "href": "argomenti.html",
+        "data-element": "all-topics"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav.navbar-secondary > li.nav-item > a.nav-link > span > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-chevron-right"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > div.it-socials > ul > li > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > main",
+      "tag": "main",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {},
+      "localAttributes": {
+        "data-page": "segnalazione-dettaglio"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "homepage.html"
+      },
+      "localAttributes": {
+        "href": "/it/tests/servizi"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#"
+      },
+      "localAttributes": {
+        "href": "/it/tests/servizi"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-breadcrumbs > nav.breadcrumb-container > ol.breadcrumb.p-0 > li.breadcrumb-item.active",
+      "tag": "li",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "breadcrumb-item",
+        "active"
+      ],
+      "localClasses": [
+        "breadcrumb-item",
+        "active"
+      ],
+      "refAttributes": {
+        "aria-current": "page"
+      },
+      "localAttributes": {
+        "aria-current": "\"page\""
+      }
+    },
+    {
+      "path": "html > body > div#search-modal > div.modal-dialog.modal-lg > div.modal-content.perfect-scrollbar > div.modal-body > form > div.container > div.row.variable-gutters > div.col > div.modal-title > button.search-link.d-md-none > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-left"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-arrow-left"
+      }
+    },
+    {
+      "path": "html > body > div#search-modal > div.modal-dialog.modal-lg > div.modal-content.perfect-scrollbar > div.modal-body > form > div.container > div.row.variable-gutters > div.col > div.modal-title > button.search-link.d-none.d-md-block > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-close-big"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-close-big"
+      }
+    },
+    {
+      "path": "html > body > div#search-modal > div.modal-dialog.modal-lg > div.modal-content.perfect-scrollbar > div.modal-body > form > div.container > div.row.variable-gutters > div.col > div.form-group.autocomplete-wrapper > span.autocomplete-icon > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-search"
+      },
+      "localAttributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-search"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-12.footer-items-wrapper.logo-wrapper > img.ue-logo",
+      "tag": "img",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [
+        "ue-logo"
+      ],
+      "localClasses": [
+        "ue-logo"
+      ],
+      "refAttributes": {
+        "src": "../assets/images/logo-eu-inverted.svg",
+        "alt": "logo Unione Europea"
+      },
+      "localAttributes": {
+        "src": "/themes/Sixteen/design-comuni/assets/images/logo-eu-inverted.svg",
+        "alt": "logo Unione Europea"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-12.footer-items-wrapper.logo-wrapper > div.it-brand-wrapper > a > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#",
+        "data-element": "faq"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#",
+        "data-element": "report-inefficiency"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#",
+        "data-element": "privacy-policy-link"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-9.mt-md-4.footer-items-wrapper > div.row > div.col-md-4 > ul.footer-list > li > a",
+      "tag": "a",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "href": "#",
+        "data-element": "legal-notes"
+      },
+      "localAttributes": {
+        "href": "#",
+        "data-element": "accessibility-link"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-youtube"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-telegram"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    },
+    {
+      "path": "html > body > footer#footer > div.it-footer-main > div.container > div.row > div.col-md-3.mt-md-4.footer-items-wrapper > ul.list-inline.text-start.social > li.list-inline-item > a.p-1.text-white > svg > use",
+      "tag": "use",
+      "missingClasses": [],
+      "extraClasses": [],
+      "refClasses": [],
+      "localClasses": [],
+      "refAttributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      },
+      "localAttributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-rss"
+      }
+    }
+  ],
+  "missingInLocal": [
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link.active",
+      "tag": "a",
+      "classes": [
+        "nav-link",
+        "active"
+      ],
+      "attributes": {
+        "href": "../sito/servizi.html",
+        "data-element": "all-services"
+      }
+    },
+    {
+      "path": "html > body > header.it-header-wrapper > div.it-nav-wrapper > div#header-nav-wrapper > div.container > div.row > div.col-12 > div.navbar.navbar-expand-lg.has-megamenu > div#nav4 > div.menu-wrapper > nav > ul.navbar-nav > li.nav-item > a.nav-link.active > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container",
+      "tag": "div",
+      "classes": [
+        "container"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center",
+      "tag": "div",
+      "classes": [
+        "row",
+        "justify-content-center"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10",
+      "tag": "div",
+      "classes": [
+        "col-12",
+        "col-lg-10"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4",
+      "tag": "div",
+      "classes": [
+        "cmp-heading",
+        "pb-3",
+        "pb-lg-4"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8",
+      "tag": "div",
+      "classes": [
+        "col-lg-8"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > h1.title-xxxlarge",
+      "tag": "h1",
+      "classes": [
+        "title-xxxlarge"
+      ],
+      "attributes": {
+        "data-element": "service-title"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > ul.d-flex.flex-wrap.gap-1.my-3",
+      "tag": "ul",
+      "classes": [
+        "d-flex",
+        "flex-wrap",
+        "gap-1",
+        "my-3"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > ul.d-flex.flex-wrap.gap-1.my-3 > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > ul.d-flex.flex-wrap.gap-1.my-3 > li > div.chip.chip-simple.text-button",
+      "tag": "div",
+      "classes": [
+        "chip",
+        "chip-simple",
+        "text-button"
+      ],
+      "attributes": {
+        "data-element": "service-status"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > ul.d-flex.flex-wrap.gap-1.my-3 > li > div.chip.chip-simple.text-button > span.chip-label",
+      "tag": "span",
+      "classes": [
+        "chip-label"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > p.subtitle-small.mb-3",
+      "tag": "p",
+      "classes": [
+        "subtitle-small",
+        "mb-3"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > div.d-lg-flex.gap-30.mb-2",
+      "tag": "div",
+      "classes": [
+        "d-lg-flex",
+        "gap-30",
+        "mb-2"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > div.d-lg-flex.gap-30.mb-2 > button.btn.fw-bold.btn-primary.mr-lg-30",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "fw-bold",
+        "btn-primary",
+        "mr-lg-30"
+      ],
+      "attributes": {
+        "type": "button"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > div.d-lg-flex.gap-30.mb-2 > button.btn.fw-bold.btn-primary.mr-lg-30 > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > div.d-lg-flex.gap-30.mb-2 > button.btn.fw-bold.btn-outline-primary.t-primary",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "fw-bold",
+        "btn-outline-primary",
+        "t-primary"
+      ],
+      "attributes": {
+        "type": "button"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > div.d-lg-flex.gap-30.mb-2 > button.btn.fw-bold.btn-outline-primary.t-primary > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0",
+      "tag": "div",
+      "classes": [
+        "col-lg-3",
+        "offset-lg-1",
+        "mt-5",
+        "mt-lg-0"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown",
+      "tag": "div",
+      "classes": [
+        "dropdown"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > button#shareActions",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "btn-dropdown",
+        "dropdown-toggle",
+        "text-decoration-underline",
+        "d-inline-flex",
+        "align-items-center",
+        "fs-0"
+      ],
+      "attributes": {
+        "aria-label": "condividi sui social",
+        "type": "button",
+        "data-bs-toggle": "dropdown",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > button#shareActions > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > button#shareActions > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-share"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > button#shareActions > small",
+      "tag": "small",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg",
+      "tag": "div",
+      "classes": [
+        "dropdown-menu",
+        "shadow-lg"
+      ],
+      "attributes": {
+        "aria-labelledby": "shareActions"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper",
+      "tag": "div",
+      "classes": [
+        "link-list-wrapper"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list",
+      "tag": "ul",
+      "classes": [
+        "link-list"
+      ],
+      "attributes": {
+        "role": "menu"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-linkedin"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown",
+      "tag": "div",
+      "classes": [
+        "dropdown"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > button#viewActions",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "btn-dropdown",
+        "dropdown-toggle",
+        "text-decoration-underline",
+        "d-inline-flex",
+        "align-items-center",
+        "fs-0"
+      ],
+      "attributes": {
+        "aria-label": "vedi azioni da compiere sulla pagina",
+        "type": "button",
+        "data-bs-toggle": "dropdown",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > button#viewActions > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > button#viewActions > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-more-items"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > button#viewActions > small",
+      "tag": "small",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg",
+      "tag": "div",
+      "classes": [
+        "dropdown-menu",
+        "shadow-lg"
+      ],
+      "attributes": {
+        "aria-labelledby": "viewActions"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper",
+      "tag": "div",
+      "classes": [
+        "link-list-wrapper"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list",
+      "tag": "ul",
+      "classes": [
+        "link-list"
+      ],
+      "attributes": {
+        "role": "menu"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-print"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem",
+        "onclick": "listenElements(this, '[data-audio]')"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-hearing"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-mail"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0 > div.dropdown > div.dropdown-menu.shadow-lg > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.justify-content-center > hr.d-none.d-lg-block.mb-0.mt-2",
+      "tag": "hr",
+      "classes": [
+        "d-none",
+        "d-lg-block",
+        "mb-0",
+        "mt-2"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container",
+      "tag": "div",
+      "classes": [
+        "container"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3",
+      "tag": "div",
+      "classes": [
+        "row",
+        "row-column-menu-left",
+        "mt-lg-80",
+        "mt-3"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col",
+      "tag": "div",
+      "classes": [
+        "col-12",
+        "col-lg-3",
+        "mb-4",
+        "border-col"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top",
+      "tag": "div",
+      "classes": [
+        "cmp-navscroll",
+        "sticky-top"
+      ],
+      "attributes": {
+        "aria-labelledby": "accordion-title-one"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg",
+      "tag": "nav",
+      "classes": [
+        "navbar",
+        "it-navscroll-wrapper",
+        "navbar-expand-lg"
+      ],
+      "attributes": {
+        "aria-label": "INDICE DELLA PAGINA",
+        "data-bs-navscroll": ""
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress",
+      "tag": "div",
+      "classes": [
+        "navbar-custom"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper",
+      "tag": "div",
+      "classes": [
+        "menu-wrapper"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper",
+      "tag": "div",
+      "classes": [
+        "link-list-wrapper"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion",
+      "tag": "div",
+      "classes": [
+        "accordion"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item",
+      "tag": "div",
+      "classes": [
+        "accordion-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > span#accordion-title-one",
+      "tag": "span",
+      "classes": [
+        "accordion-header"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > span#accordion-title-one > button.accordion-button.pb-10.px-3",
+      "tag": "button",
+      "classes": [
+        "accordion-button",
+        "pb-10",
+        "px-3"
+      ],
+      "attributes": {
+        "type": "button",
+        "data-bs-toggle": "collapse",
+        "data-bs-target": "#collapse-one",
+        "aria-expanded": "true",
+        "aria-controls": "collapse-one"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > span#accordion-title-one > button.accordion-button.pb-10.px-3 > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > span#accordion-title-one > button.accordion-button.pb-10.px-3 > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "href": "../assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.progress",
+      "tag": "div",
+      "classes": [
+        "progress"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.progress > div.progress-bar.it-navscroll-progressbar",
+      "tag": "div",
+      "classes": [
+        "progress-bar",
+        "it-navscroll-progressbar"
+      ],
+      "attributes": {
+        "role": "progressbar",
+        "aria-valuenow": "0",
+        "aria-valuemin": "0",
+        "aria-valuemax": "100"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one",
+      "tag": "div",
+      "classes": [
+        "accordion-collapse",
+        "collapse",
+        "show"
+      ],
+      "attributes": {
+        "role": "region",
+        "aria-labelledby": "accordion-title-one"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body",
+      "tag": "div",
+      "classes": [
+        "accordion-body"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body > ul.link-list",
+      "tag": "ul",
+      "classes": [
+        "link-list"
+      ],
+      "attributes": {
+        "data-element": "page-index"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body > ul.link-list > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body > ul.link-list > li.nav-item > a.nav-link",
+      "tag": "a",
+      "classes": [
+        "nav-link"
+      ],
+      "attributes": {
+        "href": "#who-needs"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body > ul.link-list > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body > ul.link-list > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body > ul.link-list > li.nav-item > a.nav-link",
+      "tag": "a",
+      "classes": [
+        "nav-link"
+      ],
+      "attributes": {
+        "href": "#description"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body > ul.link-list > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body > ul.link-list > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body > ul.link-list > li.nav-item > a.nav-link",
+      "tag": "a",
+      "classes": [
+        "nav-link"
+      ],
+      "attributes": {
+        "href": "#how-to"
+      }
+    },
+    {
+      "path": "html > body > main > div.container > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div#collapse-one > div.accordion-body > ul.link-list > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    }
+  ],
+  "missingInReference": [
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail",
+      "tag": "div",
+      "classes": [
+        "container",
+        "dc-service-detail"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center",
+      "tag": "div",
+      "classes": [
+        "row",
+        "justify-content-center"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10",
+      "tag": "div",
+      "classes": [
+        "col-12",
+        "col-lg-10"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4",
+      "tag": "div",
+      "classes": [
+        "cmp-heading",
+        "pb-3",
+        "pb-lg-4"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row",
+      "tag": "div",
+      "classes": [
+        "row"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8",
+      "tag": "div",
+      "classes": [
+        "col-lg-8"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > h1.title-xxxlarge",
+      "tag": "h1",
+      "classes": [
+        "title-xxxlarge"
+      ],
+      "attributes": {
+        "data-element": "service-title"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > ul.d-flex.flex-wrap.gap-1.my-3.list-unstyled",
+      "tag": "ul",
+      "classes": [
+        "d-flex",
+        "flex-wrap",
+        "gap-1",
+        "my-3",
+        "list-unstyled"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > ul.d-flex.flex-wrap.gap-1.my-3.list-unstyled > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > ul.d-flex.flex-wrap.gap-1.my-3.list-unstyled > li > div.chip.chip-simple.text-button",
+      "tag": "div",
+      "classes": [
+        "chip",
+        "chip-simple",
+        "text-button"
+      ],
+      "attributes": {
+        "data-element": "service-status"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > ul.d-flex.flex-wrap.gap-1.my-3.list-unstyled > li > div.chip.chip-simple.text-button > span.chip-label",
+      "tag": "span",
+      "classes": [
+        "chip-label"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > p.subtitle-small.mb-3",
+      "tag": "p",
+      "classes": [
+        "subtitle-small",
+        "mb-3"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > div.d-lg-flex.gap-30.mb-2.dc-service-detail__cta-group",
+      "tag": "div",
+      "classes": [
+        "d-lg-flex",
+        "gap-30",
+        "mb-2",
+        "dc-service-detail__cta-group"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > div.d-lg-flex.gap-30.mb-2.dc-service-detail__cta-group > a.btn.fw-bold.btn-primary.mr-lg-30",
+      "tag": "a",
+      "classes": [
+        "btn",
+        "fw-bold",
+        "btn-primary",
+        "mr-lg-30"
+      ],
+      "attributes": {
+        "href": "/it/tests/segnalazione-01-privacy"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > div.d-lg-flex.gap-30.mb-2.dc-service-detail__cta-group > a.btn.fw-bold.btn-primary.mr-lg-30 > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > div.d-lg-flex.gap-30.mb-2.dc-service-detail__cta-group > a.btn.fw-bold.btn-outline-primary.t-primary",
+      "tag": "a",
+      "classes": [
+        "btn",
+        "fw-bold",
+        "btn-outline-primary",
+        "t-primary"
+      ],
+      "attributes": {
+        "href": "/it/tests/segnalazioni-elenco"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-8 > div.d-lg-flex.gap-30.mb-2.dc-service-detail__cta-group > a.btn.fw-bold.btn-outline-primary.t-primary > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions",
+      "tag": "div",
+      "classes": [
+        "col-lg-3",
+        "offset-lg-1",
+        "mt-5",
+        "mt-lg-0",
+        "dc-service-detail__actions"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown",
+      "tag": "div",
+      "classes": [
+        "dropdown",
+        "dc-service-detail__dropdown"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > button.btn.btn-dropdown.text-decoration-underline.d-inline-flex.align-items-center.fs-0",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "btn-dropdown",
+        "text-decoration-underline",
+        "d-inline-flex",
+        "align-items-center",
+        "fs-0"
+      ],
+      "attributes": {
+        "aria-label": "condividi sui social",
+        "type": "button"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > button.btn.btn-dropdown.text-decoration-underline.d-inline-flex.align-items-center.fs-0 > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > button.btn.btn-dropdown.text-decoration-underline.d-inline-flex.align-items-center.fs-0 > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-share"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > button.btn.btn-dropdown.text-decoration-underline.d-inline-flex.align-items-center.fs-0 > small",
+      "tag": "small",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu",
+      "tag": "div",
+      "classes": [
+        "dropdown-menu",
+        "shadow-lg",
+        "dc-service-detail__dropdown-menu"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper",
+      "tag": "div",
+      "classes": [
+        "link-list-wrapper"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list",
+      "tag": "ul",
+      "classes": [
+        "link-list"
+      ],
+      "attributes": {
+        "role": "menu"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-facebook"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-twitter"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-linkedin"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-whatsapp"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown",
+      "tag": "div",
+      "classes": [
+        "dropdown",
+        "dc-service-detail__dropdown"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > button.btn.btn-dropdown.text-decoration-underline.d-inline-flex.align-items-center.fs-0",
+      "tag": "button",
+      "classes": [
+        "btn",
+        "btn-dropdown",
+        "text-decoration-underline",
+        "d-inline-flex",
+        "align-items-center",
+        "fs-0"
+      ],
+      "attributes": {
+        "aria-label": "vedi azioni da compiere sulla pagina",
+        "type": "button"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > button.btn.btn-dropdown.text-decoration-underline.d-inline-flex.align-items-center.fs-0 > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > button.btn.btn-dropdown.text-decoration-underline.d-inline-flex.align-items-center.fs-0 > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-more-items"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > button.btn.btn-dropdown.text-decoration-underline.d-inline-flex.align-items-center.fs-0 > small",
+      "tag": "small",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu",
+      "tag": "div",
+      "classes": [
+        "dropdown-menu",
+        "shadow-lg",
+        "dc-service-detail__dropdown-menu"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper",
+      "tag": "div",
+      "classes": [
+        "link-list-wrapper"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list",
+      "tag": "ul",
+      "classes": [
+        "link-list"
+      ],
+      "attributes": {
+        "role": "menu"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-print"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-hearing"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li",
+      "tag": "li",
+      "classes": [],
+      "attributes": {
+        "role": "none"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item",
+      "tag": "a",
+      "classes": [
+        "list-item"
+      ],
+      "attributes": {
+        "href": "#",
+        "role": "menuitem"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "xlink:href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-mail"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > div.col-12.col-lg-10 > div.cmp-heading.pb-3.pb-lg-4 > div.row > div.col-lg-3.offset-lg-1.mt-5.mt-lg-0.dc-service-detail__actions > div.dropdown.dc-service-detail__dropdown > div.dropdown-menu.shadow-lg.dc-service-detail__dropdown-menu > div.link-list-wrapper > ul.link-list > li > a.list-item > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail > div.row.justify-content-center > hr.d-none.d-lg-block.mb-0.mt-2",
+      "tag": "hr",
+      "classes": [
+        "d-none",
+        "d-lg-block",
+        "mb-0",
+        "mt-2"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content",
+      "tag": "div",
+      "classes": [
+        "container",
+        "dc-service-detail",
+        "dc-service-detail__content"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3",
+      "tag": "div",
+      "classes": [
+        "row",
+        "row-column-menu-left",
+        "mt-lg-80",
+        "mt-3"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col",
+      "tag": "div",
+      "classes": [
+        "col-12",
+        "col-lg-3",
+        "mb-4",
+        "border-col"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top",
+      "tag": "div",
+      "classes": [
+        "cmp-navscroll",
+        "sticky-top"
+      ],
+      "attributes": {
+        "aria-labelledby": "accordion-title-one"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg",
+      "tag": "nav",
+      "classes": [
+        "navbar",
+        "it-navscroll-wrapper",
+        "navbar-expand-lg"
+      ],
+      "attributes": {
+        "aria-label": "INDICE DELLA PAGINA"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress",
+      "tag": "div",
+      "classes": [
+        "navbar-custom"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper",
+      "tag": "div",
+      "classes": [
+        "menu-wrapper"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper",
+      "tag": "div",
+      "classes": [
+        "link-list-wrapper"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion",
+      "tag": "div",
+      "classes": [
+        "accordion"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item",
+      "tag": "div",
+      "classes": [
+        "accordion-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > span#accordion-title-one",
+      "tag": "span",
+      "classes": [
+        "accordion-header"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > span#accordion-title-one > button.accordion-button.pb-10.px-3",
+      "tag": "button",
+      "classes": [
+        "accordion-button",
+        "pb-10",
+        "px-3"
+      ],
+      "attributes": {
+        "type": "button"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > span#accordion-title-one > button.accordion-button.pb-10.px-3 > svg",
+      "tag": "svg",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > span#accordion-title-one > button.accordion-button.pb-10.px-3 > svg > use",
+      "tag": "use",
+      "classes": [],
+      "attributes": {
+        "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.progress",
+      "tag": "div",
+      "classes": [
+        "progress"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.progress > div.progress-bar.it-navscroll-progressbar",
+      "tag": "div",
+      "classes": [
+        "progress-bar",
+        "it-navscroll-progressbar"
+      ],
+      "attributes": {
+        "role": "progressbar",
+        "aria-valuenow": "0",
+        "aria-valuemin": "0",
+        "aria-valuemax": "100"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show",
+      "tag": "div",
+      "classes": [
+        "accordion-collapse",
+        "collapse",
+        "show"
+      ],
+      "attributes": {
+        "role": "region",
+        "aria-labelledby": "accordion-title-one"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body",
+      "tag": "div",
+      "classes": [
+        "accordion-body"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list",
+      "tag": "ul",
+      "classes": [
+        "link-list"
+      ],
+      "attributes": {
+        "data-element": "page-index"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item > a.nav-link",
+      "tag": "a",
+      "classes": [
+        "nav-link"
+      ],
+      "attributes": {
+        "href": "#who-needs"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item > a.nav-link",
+      "tag": "a",
+      "classes": [
+        "nav-link"
+      ],
+      "attributes": {
+        "href": "#description"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item > a.nav-link",
+      "tag": "a",
+      "classes": [
+        "nav-link"
+      ],
+      "attributes": {
+        "href": "#how-to"
+      }
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item > a.nav-link > span",
+      "tag": "span",
+      "classes": [],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item",
+      "tag": "li",
+      "classes": [
+        "nav-item"
+      ],
+      "attributes": {}
+    },
+    {
+      "path": "html > body > main > div#main-container > div.container.dc-service-detail.dc-service-detail__content > div.row.row-column-menu-left.mt-lg-80.mt-3 > div.col-12.col-lg-3.mb-4.border-col > div.cmp-navscroll.sticky-top > nav.navbar.it-navscroll-wrapper.navbar-expand-lg > div#navbarNavProgress > div.menu-wrapper > div.link-list-wrapper > div.accordion > div.accordion-item > div.accordion-collapse.collapse.show > div.accordion-body > ul.link-list > li.nav-item > a.nav-link",
+      "tag": "a",
+      "classes": [
+        "nav-link"
+      ],
+      "attributes": {
+        "href": "#needed"
+      }
+    }
+  ]
+}

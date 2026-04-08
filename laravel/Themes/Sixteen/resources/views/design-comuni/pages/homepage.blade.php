@@ -483,5 +483,4 @@ $thematicSites = [
 
 @push('scripts')
 {{-- Bootstrap Italia JS --}}
-<script src="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js"></script>
 @endpush

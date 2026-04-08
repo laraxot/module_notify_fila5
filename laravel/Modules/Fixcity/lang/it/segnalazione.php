@@ -155,4 +155,26 @@ return [
             'label' => 'Chiudi finestra modale',
         ],
     ],
+    'detail' => [
+        'share' => [
+            'label' => 'Condividi',
+            'aria' => 'condividi sui social',
+        ],
+        'actions' => [
+            'label' => 'Vedi azioni',
+            'aria' => 'vedi azioni da compiere sulla pagina',
+        ],
+        'index' => [
+            'label' => 'INDICE DELLA PAGINA',
+        ],
+        'contacts' => [
+            'label' => 'Contatti',
+        ],
+        'topics' => [
+            'label' => 'Argomenti',
+        ],
+        'updated' => [
+            'text' => 'Pagina aggiornata il :date',
+        ],
+    ],
 ];

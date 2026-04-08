@@ -2,28 +2,45 @@
 
 Canonical output area for HTML body structure comparisons between Design Comuni reference pages and Sixteen theme implementations.
 
-## Canonical run: `segnalazioni-elenco`
+## Pages Compared
 
-Artifacts saved in [`./segnalazioni-elenco/`](./segnalazioni-elenco/):
-- [`report.md`](./segnalazioni-elenco/report.md) — detailed report with identical, missing, different, and extra elements
-- [`summary.json`](./segnalazioni-elenco/summary.json) — machine-readable parity summary
-- [`reference-body.html`](./segnalazioni-elenco/reference-body.html) — reference body including `<body>`, without `<script>` and `<style>`
-- [`local-body.html`](./segnalazioni-elenco/local-body.html) — local body including `<body>`, without `<script>` and `<style>`
-- [`reference-structure.json`](./segnalazioni-elenco/reference-structure.json) — parsed reference tree
-- [`local-structure.json`](./segnalazioni-elenco/local-structure.json) — parsed local tree
+### segnalazioni-elenco
+
+**Parity Score: 77.8%** (603/775 elements identical)
+
+Artifacts in [`./segnalazioni-elenco/`](./segnalazioni-elenco/):
+- [`report.md`](./segnalazioni-elenco/report.md) — Detailed report with identical, missing, different, and extra elements
+- [`diff_details.json`](./segnalazioni-elenco/diff_details.json) — Machine-readable parity summary
+- [`reference-body.html`](./segnalazioni-elenco/reference-body.html) — Reference body (no `<script>`/`<style>`)
+- [`local-body.html`](./segnalazioni-elenco/local-body.html) — Local body (no `<script>`/`<style>`)
+- [`reference-structure.json`](./segnalazioni-elenco/reference-structure.json) — Parsed reference tree
+- [`local-structure.json`](./segnalazioni-elenco/local-structure.json) — Parsed local tree
+
+### segnalazione-dettaglio
+
+**Parity Score: 71.1%** (572/804 elements identical)
+
+Artifacts in [`./segnalazione-dettaglio/`](./segnalazione-dettaglio/):
+- [`report.md`](./segnalazione-dettaglio/report.md) — Detailed report with identical, missing, different, and extra elements
+- [`diff_details.json`](./segnalazione-dettaglio/diff_details.json) — Machine-readable parity summary
+- [`reference-body.html`](./segnalazione-dettaglio/reference-body.html) — Reference body (no `<script>`/`<style>`)
+- [`local-body.html`](./segnalazione-dettaglio/local-body.html) — Local body (no `<script>`/`<style>`)
 
 ## Tooling
 
 Agnostic tooling lives in `bashscripts`:
-- [`bashscripts/html/html-structure-compare.sh`](../../../bashscripts/html/html-structure-compare.sh)
-- [`bashscripts/html/compare-html-body.py`](../../../bashscripts/html/compare-html-body.py)
-- [`bashscripts/html/README.md`](../../../bashscripts/html/README.md)
-- [`bashscripts/docs/html/html-structure-compare.md`](../../../bashscripts/docs/html/html-structure-compare.md)
-- [`docs/html-structure-comparison.md`](../../../docs/html-structure-comparison.md)
-- [`../prompts/segnalazione_disservizio/README.md`](../prompts/segnalazione_disservizio/README.md)
+- [`bashscripts/html/html-structure-compare.sh`](../../../bashscripts/html/html-structure-compare.sh) — Bash wrapper
+- [`bashscripts/html/compare-html-body.py`](../../../bashscripts/html/compare-html-body.py) — Python engine
+- [`bashscripts/docs/html/README.md`](../../../bashscripts/docs/html/README.md) — Tool documentation
+
+## Project Bridge
+
+- **Root bridge**: [`docs/html-structure-comparison.md`](../../../docs/html-structure-comparison.md)
+- **Theme docs index**: [`../00-index.md`](../00-index.md)
 
 ## Governance
 
 - `bashscripts` stays reusable and project-agnostic.
 - Theme-specific outputs stay under `laravel/Themes/Sixteen/docs/...`.
+- Source HTML snapshots go to [`../prompts/<page>/`](../prompts/).
 - The root bridge note for this repo lives in [`docs/html-structure-comparison.md`](../../../docs/html-structure-comparison.md).
