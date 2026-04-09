@@ -970,16 +970,19 @@ select:focus {
    ============================================================================ */
 .steppers-header {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
-  padding: 0;
+  padding: 0 24px;
+  height: 64px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
   gap: 1rem;
 }
 
 .steppers-header ul {
   display: flex;
-  flex: 1 1 auto;
+  width: 100%;
   align-items: stretch;
   list-style: none;
   padding: 0;
@@ -992,8 +995,9 @@ select:focus {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.875rem;
-  color: #5c6f82;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #5b6f82;
   white-space: nowrap;
   flex: 1 1 0;
   min-width: 0;
@@ -1009,34 +1013,52 @@ select:focus {
 
 .steppers-header li.active,
 .steppers-header .step.active {
-  color: #007a52;
-  font-weight: 700;
-  border-bottom-width: 2px;
-  border-bottom-color: #007a52;
+  color: #06c;
+  font-weight: 600;
+}
+
+.steppers-header li.active .icon,
+.steppers-header .step.active .icon {
+  fill: #06c;
 }
 
 .steppers-header li.confirmed,
 .steppers-header .step.confirmed {
-  color: #007a52;
+  color: #06c;
+}
+
+.steppers-header li.confirmed .icon,
+.steppers-header .step.confirmed .icon {
+  fill: #06c;
 }
 
 .steppers-header .step-title {
   font-size: 0.875rem;
 }
 
-.steppers-header .step .icon {
-  width: 1.5rem;
-  height: 1.5rem;
+.steppers-header .step .icon,
+.steppers-header li .icon {
+  fill: #5b6f82;
+  margin-right: 0.667rem;
+  width: 24px;
+  height: 24px;
 }
 
-.steppers-header .step.active .icon {
-  color: #007a52;
+.steppers-header .step.active .icon,
+.steppers-header li.active .icon {
+  fill: #06c;
+}
+
+.steppers-header .step.confirmed .icon,
+.steppers-header li.confirmed .icon {
+  fill: #06c;
 }
 
 .steppers-index {
-  flex: 0 0 auto;
+  margin-left: auto;
   font-size: 0.875rem;
-  line-height: 1;
+  font-weight: 600;
+  flex-shrink: 0;
   color: #5c6f82;
   padding-bottom: 0.875rem;
 }
@@ -2211,6 +2233,20 @@ footer#footer .it-brand-wrapper > a:hover {
 }
 
 /* --------------------------------------------------------------------------
+   26.17 HEADER BRAND LINK — Remove underline from brand title/tagline
+   Reference: no underline on "Il mio Comune" and "Un comune da vivere"
+   -------------------------------------------------------------------------- */
+.it-header-center-wrapper .it-brand-wrapper > a,
+.it-header-center-wrapper .it-brand-title,
+.it-header-center-wrapper .it-brand-tagline {
+  text-decoration: none !important;
+}
+
+.it-header-center-wrapper .it-brand-wrapper > a:hover {
+  text-decoration: none !important;
+}
+
+/* --------------------------------------------------------------------------
    26.7 Header slim — "Accedi all'area personale" button styling
    Reference: white icon + text on dark green background
    -------------------------------------------------------------------------- */
@@ -2894,4 +2930,76 @@ button.btn.btn-primary.mobile-full:hover,
 /* Contacts card background: REF rgb(235,238,240) */
 .bg-grey-card {
   background-color: rgb(235, 238, 240) !important;
+}
+
+/* ============================================================================
+   segnalazione-crea — same styles as segnalazione-01-privacy
+   Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-01-privacy.html
+   ============================================================================ */
+
+body.page-tests-segnalazione-crea .steppers-header ul {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 2rem !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body.page-tests-segnalazione-crea .steppers-header li {
+  display: block !important;
+  position: relative !important;
+  min-width: 0 !important;
+  padding: 0 0 0.9rem !important;
+  margin: 0 !important;
+  border-bottom: 1px solid #d9e3ea !important;
+  color: #007A52 !important;
+  font-size: 1.125rem !important;
+  font-weight: 600 !important;
+  line-height: 1.45 !important;
+  white-space: normal !important;
+}
+
+body.page-tests-segnalazione-crea .steppers-header ul li {
+  color: #007A52 !important;
+}
+
+body.page-tests-segnalazione-crea .steppers-header ul li:hover {
+  color: #007A52 !important;
+}
+
+body.page-tests-segnalazione-crea .steppers-header ul li.active {
+  color: #007A52 !important;
+}
+
+body.page-tests-segnalazione-crea .steppers-header ul li.confirmed {
+  color: #007A52 !important;
+}
+
+body.page-tests-segnalazione-crea .steppers-header li.active {
+  color: #007A52 !important;
+  border-bottom: 2px solid #008758 !important;
+}
+
+body.page-tests-segnalazione-crea .steppers-header li.confirmed {
+  color: #007A52 !important;
+  border-bottom-color: #008758 !important;
+}
+
+body.page-tests-segnalazione-crea .form-check {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  padding: 0 !important;
+}
+
+body.page-tests-segnalazione-crea .checkbox-body label {
+  font-size: 1.125rem !important;
+  color: #1a1a1a !important;
+}
+
+body.page-tests-segnalazione-crea h1.title-xxxlarge {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  color: #191919 !important;
+  margin-bottom: 1.5rem !important;
 }
