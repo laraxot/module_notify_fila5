@@ -10,7 +10,36 @@
  * Strategy: Tailwind CSS + Alpine.js (NO Bootstrap Italia runtime)
  *
  * Created: 2026-04-07
+ * Updated: 2026-04-09 - Added reference colors from visual parity analysis
  */
+
+/* ============================================================================
+   0. BOOTSTRAP ITALIA REFERENCE COLORS
+   Source: Visual parity analysis 2026-04-09
+   ============================================================================ */
+:root {
+  /* Text colors - EXACT from reference analysis */
+  --bi-text-primary: #000000;        /* rgb(0,0,0) - pure black */
+  --bi-text-secondary: #455a64;      /* rgb(69,90,100) - blue-gray */
+  --bi-text-tertiary: #5d7083;       /* rgb(93,112,131) - lighter blue-gray */
+  --bi-text-muted: #5c6f82;          /* Bootstrap Italia standard muted */
+  --bi-text-dark: #191919;           /* Near black for paragraphs */
+  
+  /* Border colors - EXACT from reference analysis */
+  --bi-border-light: #d4d4d4;        /* rgb(212,212,212) - light gray borders */
+  --bi-border: #e0e0e0;              /* Standard border */
+  --bi-border-dark: #a6a6a6;         /* Darker borders */
+  
+  /* Background colors */
+  --bi-bg-light: #f5f5f5;            /* Light gray background */
+  --bi-bg-white: #ffffff;            /* Pure white */
+  --bi-bg-page: #fafafa;             /* Page background */
+  
+  /* Brand colors */
+  --bi-primary: #007a52;             /* Bootstrap Italia green */
+  --bi-primary-dark: #00402b;        /* Darker green */
+  --bi-link: #0066cc;                /* Standard link blue */
+}
 
 /* ============================================================================
    1. BOOTSTRAP UTILITY CLASSES — Missing mappings
@@ -149,7 +178,7 @@
 .fw-normal      { font-weight: 400 !important; }
 .fs-0           { font-size: 0.875rem !important; }
 .fst-italic     { font-style: italic !important; }
-.text-paragraph       { font-size: 1rem; line-height: 1.5; color: #191919; }
+.text-paragraph       { font-size: 1rem; line-height: 1.6; color: #5C6F82; }
 .text-paragraph-small { font-size: 0.875rem; line-height: 1.5; color: #5c6f82; }
 
 /* Background */
@@ -680,13 +709,21 @@ select:focus {
    ============================================================================ */
 .steppers-header {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
-  padding: 1rem 0;
-  border-bottom: 1px solid #d9e1e8;
+  padding: 0;
   margin-bottom: 2rem;
-  gap: 0.5rem;
-  overflow-x: auto;
+  gap: 1rem;
+}
+
+.steppers-header ul {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: stretch;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
 }
 
 .steppers-header li,
@@ -697,14 +734,27 @@ select:focus {
   font-size: 0.875rem;
   color: #5c6f82;
   white-space: nowrap;
-  flex-shrink: 0;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0 1rem 0.875rem;
+  border-bottom: 1px solid #d9e1e8;
+  line-height: 1.4;
 }
 
+.steppers-header li + li,
+.steppers-header .step + .step {
+  border-left: 1px solid #d9e1e8;
+}
+
+.steppers-header li.active,
 .steppers-header .step.active {
   color: #007a52;
   font-weight: 700;
+  border-bottom-width: 2px;
+  border-bottom-color: #007a52;
 }
 
+.steppers-header li.confirmed,
 .steppers-header .step.confirmed {
   color: #007a52;
 }
@@ -720,6 +770,14 @@ select:focus {
 
 .steppers-header .step.active .icon {
   color: #007a52;
+}
+
+.steppers-index {
+  flex: 0 0 auto;
+  font-size: 0.875rem;
+  line-height: 1;
+  color: #5c6f82;
+  padding-bottom: 0.875rem;
 }
 
 .steppers-nav {
@@ -1157,6 +1215,15 @@ main svg:not(.leaflet-zoom-animated):not([width]):not([class*="icon"]) {
     -webkit-overflow-scrolling: touch;
     padding-bottom: 0.5rem;
   }
+
+  .steppers-header ul {
+    min-width: max-content;
+  }
+
+  .steppers-header li,
+  .steppers-header .step {
+    flex: 0 0 auto;
+  }
 }
 
 
@@ -1577,5 +1644,899 @@ a.read-terms {
   .steppers-nav .d-flex {
     width: 100% !important;
     justify-content: center !important;
+  }
+}
+
+/* ============================================================================
+   26. SEGNALAZIONE-01-PRIVACY — Visual parity fixes from screenshots
+   Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-01-privacy.html
+   Date: 2026-04-09
+   ============================================================================ */
+
+/* --------------------------------------------------------------------------
+   26.1 Stepper — horizontal tab style with green underline on active
+   Reference: horizontal tabs, active has green underline + bold text
+   -------------------------------------------------------------------------- */
+.steppers {
+  margin-bottom: 2rem;
+}
+
+.steppers-header {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  border-bottom: 2px solid #d9e1e8 !important;
+  padding-bottom: 0 !important;
+}
+
+.steppers-header ul {
+  display: flex !important;
+  flex-direction: row !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 0 !important;
+  flex: 1 !important;
+}
+
+.steppers-header ul li {
+  padding: 0.75rem 1.5rem !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: #5c6f82 !important;
+  border-bottom: 3px solid transparent !important;
+  margin-bottom: -2px !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+  transition: all 0.15s ease !important;
+}
+
+.steppers-header ul li:hover {
+  color: #17324d !important;
+}
+
+/* Active step: green underline + bold + dark text */
+.steppers-header ul li.active {
+  color: #17324d !important;
+  font-weight: 700 !important;
+  border-bottom-color: #007a52 !important;
+}
+
+/* Confirmed step (completed): green text */
+.steppers-header ul li.confirmed {
+  color: #007a52 !important;
+  font-weight: 600 !important;
+}
+
+.steppers-header ul li .icon {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  margin-left: 0.375rem !important;
+  vertical-align: middle !important;
+  fill: #007a52 !important;
+}
+
+/* Hide the "1/3" counter - reference doesn't have it */
+.steppers-index {
+  display: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.2 Privacy text paragraph — spacing and typography
+   Reference: Titillium Web 16px/24px, color #191919 (near black)
+   Updated: 2026-04-09 - Visual parity analysis confirmed #191919
+   -------------------------------------------------------------------------- */
+.segnalazione-privacy-page .text-paragraph {
+  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  color: var(--bi-text-dark) !important; /* #191919 - near black from reference */
+  max-width: 640px !important;
+  margin-bottom: 16px !important;
+}
+
+/* Override any .lora class that might be applied to paragraphs */
+.segnalazione-privacy-page p.lora,
+.segnalazione-privacy-page .lora.text-paragraph {
+  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #191919 !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.3 Checkbox — Bootstrap Italia style
+   Reference: square checkbox with green check, label inline on same line, no underline
+   -------------------------------------------------------------------------- */
+.segnalazione-privacy-page .form-check {
+  border-bottom: none !important;
+  border-top: none !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.segnalazione-privacy-page .form-check .checkbox-body {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.75rem !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 0.5rem 0 !important;
+}
+
+.segnalazione-privacy-page .form-check input[type="checkbox"] {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  min-width: 1.25rem !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+  border: 2px solid #5c6f82 !important;
+  border-radius: 2px !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  background: #fff !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+
+.segnalazione-privacy-page .form-check input[type="checkbox"]:checked {
+  background-color: #007a52 !important;
+  border-color: #007a52 !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
+  background-size: 75% 75% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.segnalazione-privacy-page .form-check input[type="checkbox"]:hover {
+  border-color: #007a52 !important;
+}
+
+.segnalazione-privacy-page .form-check .checkbox-body label.title-small-semi-bold {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: #17324d !important;
+  line-height: 1.5 !important;
+  cursor: pointer !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.4 Button "Avanti" — large, full-width green button
+   Reference: 48px tall, full width of content area (~640px), green (#007a52), bold text
+   -------------------------------------------------------------------------- */
+.btn.btn-primary.mobile-full {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  max-width: 375px !important;
+  min-height: 48px !important;
+  padding: 0.75rem 2rem !important;
+  background-color: #007a52 !important;
+  border: none !important;
+  border-radius: 4px !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  font-family: 'Titillium Web', sans-serif !important;
+  cursor: pointer !important;
+  transition: background-color 0.15s ease !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 0 !important;
+}
+
+.btn.btn-primary.mobile-full:hover {
+  background-color: #005c3e !important;
+}
+
+.btn.btn-primary.mobile-full:active {
+  background-color: #004d33 !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.5 "Contatta il comune" card — wider white card on grey background, minimal shadow
+   Reference: white card, centered, ~592px wide, subtle shadow
+   -------------------------------------------------------------------------- */
+.bg-grey-card {
+  background-color: #f2f4f6 !important;
+  padding: 3rem 0 !important;
+  margin-top: 2rem !important;
+}
+
+/* Override the col-lg-6 offset-lg-3 constraint */
+.bg-grey-card .row > .col-12.col-lg-6,
+.bg-grey-card .col-12.col-lg-6.offset-lg-3 {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+.bg-grey-card .cmp-contacts {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.bg-grey-card .cmp-contacts .card,
+div.bg-grey-card .cmp-contacts .card.w-100 {
+  width: 100% !important;
+  max-width: 592px !important;
+  min-width: 320px !important;
+  border: none !important;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.06) !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+}
+
+.bg-grey-card .cmp-contacts .card-body {
+  padding: 2rem !important;
+}
+
+.bg-grey-card .cmp-contacts .card-body {
+  padding: 2rem !important;
+}
+
+.bg-grey-card .cmp-contacts .card-body h2.title-medium-2-semi-bold {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: #191919 !important;
+  margin-bottom: 1.25rem !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+}
+
+.bg-grey-card .contact-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.bg-grey-card .contact-list li {
+  margin-bottom: 0 !important;
+}
+
+.bg-grey-card .contact-list .list-item {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.75rem !important;
+  padding: 0.75rem 0 !important;
+  font-size: 1rem !important;
+  color: #007a52 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid #e8e8e8 !important;
+  transition: color 0.15s ease !important;
+}
+
+.bg-grey-card .contact-list li:last-child .list-item {
+  border-bottom: none !important;
+}
+
+.bg-grey-card .contact-list .list-item:hover {
+  color: #005c3e !important;
+  text-decoration: underline !important;
+}
+
+.bg-grey-card .contact-list .list-item .icon {
+  width: 20px !important;
+  height: 20px !important;
+  flex-shrink: 0 !important;
+  fill: #007a52 !important;
+}
+
+.bg-grey-card .contact-list .list-item span {
+  color: inherit !important;
+  font-size: 1rem !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.6 Footer fixes — "Nome del Comune" without underline
+   -------------------------------------------------------------------------- */
+footer#footer .it-brand-wrapper > a,
+footer#footer .it-footer-brand a {
+  text-decoration: none !important;
+}
+
+footer#footer .it-brand-wrapper > a:hover {
+  text-decoration: underline !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.7 Header slim — "Accedi all'area personale" button styling
+   Reference: white icon + text on dark green background
+   -------------------------------------------------------------------------- */
+.it-header-slim-wrapper .it-access-top-wrapper .btn,
+.it-header-slim-wrapper .btn-full {
+  color: #fff !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 12px 16px !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  white-space: nowrap !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  transition: all 0.15s ease !important;
+}
+
+.it-header-slim-wrapper .it-access-top-wrapper .btn:hover,
+.it-header-slim-wrapper .btn-full:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.it-header-slim-wrapper .it-access-top-wrapper .btn svg,
+.it-header-slim-wrapper .btn-full svg {
+  fill: #fff !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.8 Header center — "Cerca" label next to search button
+   Reference: "Cerca" text positioned to the left of the search icon button
+   -------------------------------------------------------------------------- */
+.it-header-center-wrapper .it-search-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.it-header-center-wrapper .it-search-wrapper > span {
+  color: #fff !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  white-space: nowrap !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.9 Main content area — proper spacing
+   -------------------------------------------------------------------------- */
+.segnalazione-privacy-page .container .row.justify-content-center {
+  margin-bottom: 0 !important;
+}
+
+.segnalazione-privacy-page .col-12.col-lg-8 {
+  padding-bottom: 2rem !important;
+}
+
+@media (min-width: 992px) {
+  .segnalazione-privacy-page .col-12.col-lg-8 {
+    padding-bottom: 4rem !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   26.10 Breadcrumb — reference style
+   Reference: "Home / Servizi / Segnalazione disservizio" with slashes
+   -------------------------------------------------------------------------- */
+.cmp-breadcrumbs {
+  padding: 1rem 0 0.5rem !important;
+}
+
+.cmp-breadcrumbs .breadcrumb {
+  font-size: 0.875rem !important;
+}
+
+.cmp-breadcrumbs .breadcrumb-item a {
+  color: #5c6f82 !important;
+  text-decoration: none !important;
+}
+
+.cmp-breadcrumbs .breadcrumb-item a:hover {
+  text-decoration: underline !important;
+}
+
+.cmp-breadcrumbs .breadcrumb-item.active {
+  color: #191919 !important;
+  font-weight: 400 !important;
+}
+
+.cmp-breadcrumbs .breadcrumb-item .separator {
+  margin: 0 0.375rem !important;
+  color: #5c6f82 !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.11 Page heading H1
+   Reference: large bold title
+   -------------------------------------------------------------------------- */
+h1.title-xxxlarge {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  line-height: 1.1 !important;
+  color: #191919 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+@media (max-width: 767px) {
+  h1.title-xxxlarge {
+    font-size: 1.75rem !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   26.12 Privacy text link styling
+   -------------------------------------------------------------------------- */
+.segnalazione-privacy-page a.t-primary {
+  color: #007a52 !important;
+  text-decoration: underline !important;
+}
+
+.segnalazione-privacy-page a.t-primary:hover {
+  color: #005c3e !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.13 Container width for segnalazione pages — match reference
+   Reference uses max-width content area
+   -------------------------------------------------------------------------- */
+.segnalazione-privacy-page #main-container {
+  padding-top: 1.5rem !important;
+}
+
+/* --------------------------------------------------------------------------
+   26.14 Slim header language selector
+   Reference: "ITA" with dropdown arrow
+   -------------------------------------------------------------------------- */
+.it-header-slim-wrapper .it-header-slim-wrapper-content {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.it-header-slim-wrapper .it-left-region {
+  font-size: 0.875rem !important;
+  color: #fff !important;
+}
+
+.it-header-slim-wrapper .it-right-region {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+/* ============================================================================
+   26. PAGE-SPECIFIC VISUAL PARITY — segnalazione-01-privacy
+   Keep scoped to the tests privacy page to avoid stepping on parallel work.
+   ============================================================================ */
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs {
+  padding: 2rem 0 1.25rem !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .title-xxxlarge {
+  margin-bottom: 2.25rem !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers {
+  margin-bottom: 2rem !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header {
+  display: flex !important;
+  align-items: stretch !important;
+  justify-content: space-between !important;
+  padding: 0 !important;
+  margin-bottom: 2.25rem !important;
+  border-bottom: 0 !important;
+  gap: 0 !important;
+  overflow: visible !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header ul {
+  display: flex !important;
+  flex: 1 1 auto !important;
+  align-items: stretch !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  flex: 1 1 0 !important;
+  min-height: 4rem !important;
+  padding: 0 1.5rem 1rem 1.5rem !important;
+  margin: 0 !important;
+  border-left: 1px solid #d9e1e8 !important;
+  color: #5c6f82 !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  white-space: normal !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li:last-child {
+  border-right: 1px solid #d9e1e8 !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.active {
+  color: #007a52 !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.active::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 1.25rem !important;
+  right: 1.25rem !important;
+  bottom: 0 !important;
+  height: 3px !important;
+  background: #007a52 !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header .visually-hidden {
+  position: absolute !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-index {
+  display: none !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .form-check {
+  margin-top: 2rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body {
+  gap: 0.875rem !important;
+  padding: 0 !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body input[type="checkbox"] {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  margin: 0 !important;
+  border: 2px solid #5c6f82 !important;
+  border-radius: 0.25rem !important;
+  flex: 0 0 1.5rem !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body label {
+  padding-top: 0 !important;
+  line-height: 1.5 !important;
+}
+
+.page-content[data-slug="tests.segnalazione-01-privacy"] .btn.btn-primary.mobile-full {
+  width: min(25.5rem, 100%) !important;
+  min-height: 3rem !important;
+  justify-content: center !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+}
+
+@media (max-width: 991px) {
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs {
+    padding: 1.5rem 0 1rem !important;
+  }
+
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .title-xxxlarge {
+    margin-bottom: 1.75rem !important;
+  }
+
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header {
+    padding: 1.125rem 1.5rem !important;
+    margin-bottom: 1.75rem !important;
+    background: #fff !important;
+    box-shadow: 0 8px 24px rgba(23, 50, 77, 0.12) !important;
+  }
+
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header ul {
+    display: block !important;
+  }
+
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li {
+    display: none !important;
+    border: 0 !important;
+    padding: 0 !important;
+    min-height: auto !important;
+  }
+
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.active {
+    display: block !important;
+    flex: 1 1 auto !important;
+    font-size: 1rem !important;
+  }
+
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.active::after {
+    display: none !important;
+  }
+
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-index {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    min-width: 3rem !important;
+    margin-left: 1rem !important;
+    color: #17324d !important;
+    font-size: 1.125rem !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+  }
+
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .text-paragraph {
+    max-width: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body {
+    align-items: flex-start !important;
+  }
+
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .btn.btn-primary.mobile-full {
+    width: 100% !important;
+  }
+}
+
+/* Hide dev overlays in visual parity runs. */
+#phpdebugbar,
+.phpdebugbar,
+[id^="phpdebugbar-"] {
+  display: none !important;
+}
+
+/* ============================================================================
+   26. PAGE-SPECIFIC PARITY: segnalazione-01-privacy
+   ============================================================================ */
+body.page-tests-segnalazione-01-privacy #phpdebugbar,
+body.page-tests-segnalazione-01-privacy .phpdebugbar,
+body.page-tests-segnalazione-01-privacy [id^="phpdebugbar"] {
+  display: none !important;
+}
+
+body.page-tests-segnalazione-01-privacy .cmp-breadcrumbs {
+  padding: 0.7rem 0 0.4rem !important;
+}
+
+body.page-tests-segnalazione-01-privacy .cmp-breadcrumbs .breadcrumb-item,
+body.page-tests-segnalazione-01-privacy .cmp-breadcrumbs .breadcrumb-item a,
+body.page-tests-segnalazione-01-privacy .cmp-breadcrumbs .separator {
+  font-size: 0.75rem !important;
+  line-height: 1.5 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .title-xxxlarge {
+  font-size: 2.5rem !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.02em !important;
+  margin-bottom: 1.55rem !important;
+}
+
+body.page-tests-segnalazione-01-privacy .steppers {
+  margin-bottom: 1.5rem !important;
+}
+
+body.page-tests-segnalazione-01-privacy .steppers-header {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto !important;
+  align-items: end !important;
+  gap: 1rem !important;
+  padding: 0 !important;
+  margin-bottom: 1.8rem !important;
+  border-bottom: 0 !important;
+  overflow: visible !important;
+}
+
+body.page-tests-segnalazione-01-privacy .steppers-header ul {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 2rem !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .steppers-header li {
+  display: block !important;
+  position: relative !important;
+  min-width: 0 !important;
+  padding: 0 0 0.9rem !important;
+  margin: 0 !important;
+  border-bottom: 1px solid #d9e3ea !important;
+  color: #5b6f82 !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  line-height: 1.45 !important;
+  white-space: normal !important;
+}
+
+body.page-tests-segnalazione-01-privacy .steppers-header li.active {
+  color: #17324d !important;
+  border-bottom: 2px solid #008758 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .steppers-header li.confirmed {
+  color: #008758 !important;
+  border-bottom: 2px solid #8fd4b6 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .steppers-header .steppers-success {
+  width: 1rem !important;
+  height: 1rem !important;
+  color: #008758 !important;
+  margin-left: 0.4rem !important;
+  vertical-align: -0.12rem !important;
+}
+
+body.page-tests-segnalazione-01-privacy .steppers-index {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  min-width: 2.75rem !important;
+  padding-bottom: 0.9rem !important;
+  color: #5b6f82 !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .text-paragraph {
+  color: #5C6F82 !important;
+  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  max-width: 640px !important;
+  margin-bottom: 16px !important;
+}
+
+body.page-tests-segnalazione-01-privacy .text-paragraph + .text-paragraph {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .form-check {
+  margin-top: 2rem !important;
+  margin-bottom: 1.25rem !important;
+  padding: 0 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .checkbox-body {
+  gap: 0.6rem !important;
+  padding: 0 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .checkbox-body input[type="checkbox"] {
+  width: 1rem !important;
+  height: 1rem !important;
+  margin-top: 0.1rem !important;
+  border: 1px solid #5b6f82 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .checkbox-body label {
+  margin: 0 !important;
+  padding-top: 0 !important;
+  font-size: 0.875rem !important;
+  line-height: 1.45 !important;
+  color: #17324d !important;
+  font-weight: 600 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .btn.btn-primary.mobile-full {
+  min-width: 10.75rem !important;
+  width: auto !important;
+  padding: 0.7rem 2.15rem !important;
+  font-size: 0.875rem !important;
+  line-height: 1.2 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* ============================================================================
+   26.15 FONT PARITY — Override all conflicting text-paragraph rules
+   Reference: Titillium Web, 16px, 24px line-height, color #5C6F82
+   Must beat: body.page-tests-segnalazione-01-privacy .text-paragraph
+   ============================================================================ */
+body.page-tests-segnalazione-01-privacy .text-paragraph {
+  color: #5C6F82 !important;
+  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  margin-bottom: 16px !important;
+}
+
+body.page-tests-segnalazione-01-privacy p.lora,
+body.page-tests-segnalazione-01-privacy .lora.text-paragraph {
+  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #191919 !important;
+}
+
+/* ============================================================================
+   26.16 CONTACTS CARD — Fix max-width (was 16.5rem = 264px, too narrow)
+   Reference: ~592px wide card centered on grey background
+   ============================================================================ */
+body.page-tests-segnalazione-01-privacy .bg-grey-card.shadow-contacts {
+  margin-top: 2rem !important;
+  padding: 3rem 0 !important;
+  background: #f2f4f6 !important;
+  box-shadow: none !important;
+}
+
+body.page-tests-segnalazione-01-privacy .p-contacts {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+body.page-tests-segnalazione-01-privacy .cmp-contacts {
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+body.page-tests-segnalazione-01-privacy .cmp-contacts .card {
+  max-width: 592px !important;
+  min-width: 320px !important;
+  margin: 0 auto !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.06) !important;
+  background: #fff !important;
+}
+
+body.page-tests-segnalazione-01-privacy .cmp-contacts .card-body {
+  padding: 2rem !important;
+}
+
+body.page-tests-segnalazione-01-privacy .cmp-contacts .title-medium-2-semi-bold {
+  font-size: 1rem !important;
+  line-height: 1.25 !important;
+  margin-bottom: 0.85rem !important;
+}
+
+body.page-tests-segnalazione-01-privacy .cmp-contacts .list-item {
+  gap: 0.55rem !important;
+  padding: 0.32rem 0 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .cmp-contacts .list-item span {
+  font-size: 0.75rem !important;
+  line-height: 1.35 !important;
+}
+
+body.page-tests-segnalazione-01-privacy .cmp-contacts .icon {
+  width: 0.95rem !important;
+  height: 0.95rem !important;
+}
+
+@media (max-width: 991px) {
+  body.page-tests-segnalazione-01-privacy .steppers-header {
+    grid-template-columns: 1fr !important;
+  }
+
+  body.page-tests-segnalazione-01-privacy .steppers-header ul {
+    gap: 1rem !important;
+  }
+
+  body.page-tests-segnalazione-01-privacy .steppers-index {
+    justify-content: flex-start !important;
+    padding-bottom: 0 !important;
   }
 }
