@@ -3287,6 +3287,119 @@ body.page-tests-segnalazione-02-dati .btn-next::after {
 }
 
 /* ============================================================================
+   28. SEGNALAZIONE-AREA-PERSONALE — Visual parity fixes
+   Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-area-personale.html
+   Date: 2026-04-09
+   ============================================================================ */
+
+/* 28.1 Tabs — active green with border-bottom, inactive dark */
+body.page-tests-segnalazione-area-personale .nav-tabs .nav-link,
+body.page-tests-segnalazione-area-personale .nav-pills .nav-link,
+body.page-tests-segnalazione-area-personale .nav-link.active {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #007a52 !important;
+  border-bottom: 3px solid #007a52 !important;
+  border-radius: 0 !important;
+}
+
+body.page-tests-segnalazione-area-personale .nav-tabs .nav-link:not(.active),
+body.page-tests-segnalazione-area-personale .nav-pills .nav-link:not(.active),
+body.page-tests-segnalazione-area-personale .nav-link:not(.active) {
+  color: #191919 !important;
+  border-bottom: 3px solid transparent !important;
+}
+
+/* 28.2 Section headings — 40px, bold, not italic */
+body.page-tests-segnalazione-area-personale h2,
+body.page-tests-segnalazione-area-personale .title-xlarge,
+body.page-tests-segnalazione-area-personale .section-title {
+  font-size: 40px !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  color: #1a1a1a !important;
+  margin-bottom: 8px !important;
+}
+
+/* 28.3 Cards — no border-radius, specific shadow */
+body.page-tests-segnalazione-area-personale .card {
+  border-radius: 0 !important;
+  border: none !important;
+  background: #fff !important;
+}
+
+body.page-tests-segnalazione-area-personale .card-teaser,
+body.page-tests-segnalazione-area-personale .card.shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.075) !important;
+}
+
+body.page-tests-segnalazione-area-personale .card-teaser-lg {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* 28.4 User name header */
+body.page-tests-segnalazione-area-personale .user-name {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  color: #191919 !important;
+}
+
+/* 28.5 Message list items */
+body.page-tests-segnalazione-area-personale .message-item {
+  border-bottom: 1px solid #e0e0e0 !important;
+  padding: 1rem 0 !important;
+}
+
+body.page-tests-segnalazione-area-personale .message-item .message-title {
+  color: #007a52 !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+}
+
+body.page-tests-segnalazione-area-personale .message-item .message-date {
+  color: #5c6f82 !important;
+  font-size: 0.875rem !important;
+}
+
+/* 28.6 Activity cards */
+body.page-tests-segnalazione-area-personale .activity-card {
+  padding: 1.5rem !important;
+  background: #fff !important;
+}
+
+body.page-tests-segnalazione-area-personale .activity-card .activity-title {
+  color: #007a52 !important;
+  font-weight: 600 !important;
+}
+
+body.page-tests-segnalazione-area-personale .activity-card .activity-date {
+  color: #5c6f82 !important;
+  font-size: 0.875rem !important;
+}
+
+/* 28.7 Contacts card — flat */
+body.page-tests-segnalazione-area-personale .cmp-contacts .card {
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+}
+
+body.page-tests-segnalazione-area-personale .cmp-contacts a {
+  color: #007a52 !important;
+}
+
+/* 28.8 "Vedi altri messaggi" button */
+body.page-tests-segnalazione-area-personale .btn-view-more {
+  background: #007a52 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 8px 16px !important;
+  font-weight: 600 !important;
+}
+
+/* ============================================================================
    GLOBAL SEGNALAZIONE PARITY - ALL PAGES
    Fixes: h2 sizing, button styling, body text color
    Applied to ALL segnalazione-* pages
