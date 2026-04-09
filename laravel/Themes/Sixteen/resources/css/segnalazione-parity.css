@@ -271,6 +271,20 @@ a:hover {
 }
 
 /* ============================================================================
+   0.6 BORDER RESET - Remove unwanted borders
+   Reference: NO borders on body, headings, paragraphs
+   ============================================================================ */
+
+body, h1, h2, h3, h4, h5, h6, p, span, div, a, li {
+  border: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-style: none !important;
+}
+
+/* ============================================================================
    1. BOOTSTRAP UTILITY CLASSES — Missing mappings
    ============================================================================ */
 
@@ -2242,7 +2256,7 @@ div.bg-grey-card .cmp-contacts .card.w-100 {
   gap: 0.75rem !important;
   padding: 0.75rem 0 !important;
   font-size: 1rem !important;
-  color: #007a52 !important;
+  color: #06c !important;
   text-decoration: none !important;
   border-bottom: 1px solid #e8e8e8 !important;
   transition: color 0.15s ease !important;
@@ -2253,7 +2267,7 @@ div.bg-grey-card .cmp-contacts .card.w-100 {
 }
 
 .bg-grey-card .contact-list .list-item:hover {
-  color: #005c3e !important;
+  color: #0052a3 !important;
   text-decoration: underline !important;
 }
 
@@ -2261,7 +2275,7 @@ div.bg-grey-card .cmp-contacts .card.w-100 {
   width: 20px !important;
   height: 20px !important;
   flex-shrink: 0 !important;
-  fill: #007a52 !important;
+  fill: #06c !important;
 }
 
 .bg-grey-card .contact-list .list-item span {

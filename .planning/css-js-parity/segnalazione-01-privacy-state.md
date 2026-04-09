@@ -50,86 +50,75 @@ Make all 7 segnalazione pages visually identical to their references working **O
 - Font/color differences identified
 - Global CSS issues documented
 
-3. ✅ **Baseline Analysis Complete**
-   - Screenshots: local.png, reference.png
-   - Font analysis: 20 combinations compared
-   - Color analysis: 11 differences found
+## ✅ Phase 2: Global CSS Fixes (COMPLETE)
 
-4. ✅ **Reference Color System Added**
-   - File: `segnalazione-parity.css` (lines 17-46)
-   - Variables: `--bi-text-*`, `--bi-border-*`, `--bi-bg-*`
-   - Source: Exact values from visual parity analysis
+### Tasks Completed
 
-5. ✅ **text-paragraph Color Fixed**
-   - Files modified: `style-apply.css:2227`, `segnalazione-parity.css:1729`
-   - Change: `#5C6F82` → `#191919` (near black)
-   - Reason: Reference uses dark text, not grayish-blue
+1. ✅ **design-comuni-global-fixes.css Created**
+   - Font size utilities: .fs-18, .fs-16, .fs-14
+   - Nav links: 18px Titillium Web
+   - Breadcrumbs: 16px Titillium Web
+   - Steppers index: 14px
+   - Body text: #1a1a1a (reference value)
+   - Secondary text: #455a64
+   - Border colors: #d4d4d4
+   - Header/footer: #17334f / #ffffff
+   - Link colors: #007a52 green
+   - Background colors: #ebeef0
 
-6. ✅ **Alpine.js Duplicate Instance Fixed**
-   - File: `app.js` (complete rewrite)
-   - Problem: Alpine imported statically AND loaded by Livewire
-   - Solution: Dynamic `import('alpinejs')` only if `window.Alpine` not set
-   - Result: Alpine is now a separate chunk (45.78 kB) loaded only when needed
-   - Build output: `app-BKq_DBcR.js` (16.14 kB) + `module.esm-DmcgkPTo.js` (45.78 kB)
+2. ✅ **Import Order Fixed**
+   - Global fixes moved to END of CSS import chain
+   - Proper cascade override of page-specific rules
 
-7. ✅ **Documentation Updated**
-   - Created: `docs/css-js-parity/segnalazione-01-privacy-css-fix.md`
-   - Updated: `docs/README.md` (new index format)
-   - Planning: This file
+3. ✅ **All 8 Pages Verified**
+   - All loading HTTP 200
+   - CSS rebuilt: app-CtJ3wuUu.css (1,029.68 kB)
+   - Assets deployed to public_html/themes/Sixteen/
 
-### Build Status
-- ✅ CSS builds successfully (1,020.00 kB)
-- ✅ Assets deployed to `public_html/themes/Sixteen/`
-- ✅ No build errors or warnings
+4. ✅ **segnalazione-crea Wizard Operational**
+   - CreateTicketWizardWidget extends XotBaseWidget
+   - 3-step wizard working: Privacy → Dati → Riepilogo+Submit
+   - Submit redirects to segnalazione-04-conferma
+   - Old pages remain available
 
----
-
-## ⏳ Phase 2: Color & Font Fixes (TODO)
-
-### Remaining Issues to Fix
-
-| Issue | Current | Target | Files to Modify | Priority |
-|-------|---------|--------|-----------------|----------|
-| Body text color | `rgb(34,34,34)` | `rgb(0,0,0)` | `style-apply.css` | 🔴 HIGH |
-| Border colors | Missing | `#d4d4d4` | `segnalazione-parity.css` | 🟡 MEDIUM |
-| Secondary text | `rgb(117,117,117)` | `rgb(69,90,100)` | `segnalazione-parity.css` | 🟡 MEDIUM |
-| Font sizes 18px | Missing | Add | `segnalazione-parity.css` | 🟡 MEDIUM |
-| Font sizes 16px | Missing | Add | `segnalazione-parity.css` | 🟡 MEDIUM |
-| Font sizes 14px | Missing | Add | `segnalazione-parity.css` | 🟢 LOW |
-
-### Action Plan
-
-```css
-/* 1. Body text color fix */
-body, .segnalazione-privacy-page {
-  color: #000000 !important; /* Pure black */
-}
-
-/* 2. Border color fix */
-.breadcrumb, .steppers-header ul li, .form-check-input {
-  border-color: var(--bi-border-light) !important; /* #d4d4d4 */
-}
-
-/* 3. Secondary text fix */
-.text-muted, .breadcrumb-item.active, small {
-  color: var(--bi-text-secondary) !important; /* #455a64 */
-}
-
-/* 4. Font size utilities */
-.fs-18 { font-size: 18px !important; }
-.fs-16 { font-size: 16px !important; }
-.fs-14 { font-size: 14px !important; }
+### Build Artifacts
+```
+public/assets/app-BRKXMWAJ.css   4.97 kB (Filament styles)
+public/assets/app-CtJ3wuUu.css   1,029.68 kB (main styles)
+public/assets/app--a8bupAA.js    9.48 kB (app JS)
+public/assets/splide.esm-*.js    32.60 kB (carousel)
 ```
 
 ---
 
-## ⏳ Phase 3: Verification (TODO)
+## ⏳ Phase 3: Page-Specific Visual Fixes (TODO)
 
-1. ⏳ Run `npm run build && npm run copy`
-2. ⏳ Take new screenshots with `visual-parity.mjs`
-3. ⏳ Compare with baseline
-4. ⏳ Verify visual parity > 90%
-5. ⏳ Update documentation with results
+### Remaining Visual Issues
+
+| Issue | Affected Pages | Fix Required | Priority |
+|-------|---------------|--------------|----------|
+| Header slim colors | All pages | #17334f background | 🔴 HIGH |
+| Card shadows | All pages | Consistent 0 2px 5px rgba(0,0,0,0.2) | 🟡 MEDIUM |
+| Spacing inconsistencies | 02-dati, 03-riepilogo | Padding/margin adjustments | 🟡 MEDIUM |
+| Upload widget styling | 02-dati, crea | Image preview styles | 🟡 MEDIUM |
+| Steppers active state | All wizard pages | Green active indicator | 🟢 LOW |
+
+### Action Plan
+1. Run visual parity analysis for each page
+2. Identify page-specific CSS gaps
+3. Create page-specific parity CSS files
+4. Rebuild and verify
+5. Update documentation
+
+---
+
+## ⏳ Phase 4: Verification (TODO)
+
+1. ⏳ Final screenshots for all 8 pages
+2. ⏳ Side-by-side comparison with reference
+3. ⏳ Verify HTML parity unchanged (>80% maintained)
+4. ⏳ Update documentation with results
+5. ⏳ Archive phase directories
 
 ---
 
