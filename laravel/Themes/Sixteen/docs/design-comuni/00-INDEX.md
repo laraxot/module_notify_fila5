@@ -1,9 +1,42 @@
-# Design Comuni - Homepage Replication Index
+# Design Comuni - Documentation Index
 
 ## 📚 Documentazione Principale
 
 - **[REPLIKATE Protocol](../prompts/replikate.txt)** - Protocollo di esecuzione generale
-- **[Homepage Structure Analysis](./homepage-structure-diff.md)** ← **STAI QUI**
+- **[Ticket Creation Wizard](./TICKET-CREATION-WIZARD.md)** - Wizard unificato creazione ticket
+- **[CSS/JS Phase Status](./CSS-JS-PHASE-STATUS.md)** - Stato fase CSS/JS per tutte le pagine
+- **[CSS/JS Phase Blocker](./CSS-JS-PHASE-BLOCKER.md)** - Blocker database mancante
+- **[MCP Servers](./MCP_SERVERS.md)** - Server MCP configurati
+
+---
+
+## 🎯 Ticket Creation Wizard
+
+### Pages Architecture
+
+| Page | Purpose | Status |
+|------|---------|--------|
+| `segnalazione-crea` | Unified wizard (3 steps) | ✅ Active |
+| `segnalazione-01-privacy` | Reference page | ✅ Kept |
+| `segnalazione-02-dati` | Reference page | ✅ Kept |
+| `segnalazione-03-riepilogo` | Reference page | ✅ Kept |
+| `segnalazione-04-conferma` | Post-submit confirmation | ✅ Kept |
+
+### Widget
+
+- **Class**: `CreateTicketWizardWidget` (NOT ~~CreateSegnalazioneWizardWidget~~)
+- **Location**: `Modules/Fixcity/app/Filament/Widgets/`
+- **Steps**: 3 (Privacy → Data → Summary + Submit)
+- **Redirect**: After submit → `/it/tests/segnalazione-04-conferma`
+
+### Visual Parity
+
+| Element | Reference | Local | Status |
+|---------|-----------|-------|--------|
+| h1 font-size | 48px | 48px | ✅ |
+| stepper color | rgb(0,122,82) | rgb(0,122,82) | ✅ |
+| form-check margin | 40px | 40px | ✅ |
+| privacy label | 18px/#1a1a1a | 18px/#1a1a1a | ✅ |
 
 ---
 

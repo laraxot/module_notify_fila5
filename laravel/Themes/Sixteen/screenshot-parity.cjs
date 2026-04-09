@@ -51,7 +51,7 @@ const OUTPUT = '/var/www/_bases/base_fixcity_fila5/bashscripts/compare-html/outp
       const selectors = [
         'body', '#main-container', 'h1.title-xxxlarge', 'p.text-paragraph', 
         '.form-check', '.form-check input[type="checkbox"]', '.form-check label',
-        '.btn.btn-primary', '.bg-grey-card', '.cmp-contacts .card'
+        '.btn.btn-primary.mobile-full', '.bg-grey-card', '.cmp-contacts .card'
       ];
       for (const sel of selectors) {
         const el = document.querySelector(sel);

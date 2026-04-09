@@ -1,33 +1,44 @@
-# Project State - Session 2026-04-08
+# Project State - Session 2026-04-09
 
-## Session Summary
-- **Date**: April 8, 2026
-- **Focus**: High-Fidelity HTML Parity (Phase 1.1)
-- **Status**: 🚀 ACTIVE
+**Date**: April 9, 2026  
+**Focus**: HTML Structural Parity - Segnalazione Pages  
+**Status**: 🚀 EXECUTING  
 
 ## Progress This Session
 
 ### ✅ Completed
-1. **segnalazioni-elenco Structure**: 93.7% Parity achieved.
-   - Refactored `segnalazioni.layout` component.
-   - Centralized translations in theme `lang/it/segnalazione.php`.
-   - Updated JSON content to match reference data model.
-2. **Infrastructure**:
-   - Reorganized `bashscripts` into agnostics subfolders (`body/`, `html/`).
-   - Relocated theme-specific documentation to `Themes/Sixteen/docs/`.
+1. **segnalazione-01-privacy**: 89% HTML parity (16/18 elements match)
+   - Removed wrapper divs (`cms-view-wrapper`, `page-content`)
+   - Fixed component structure to match reference exactly
+   - All Bootstrap Italia classes present
+2. **MCP Servers**: Configured 10 MCP servers for memory & productivity
+   - supermemory, memory-bank, context7 added
+   - Comprehensive documentation created (DRY compliant)
+3. **File Upload**: Added to CreateTicketWizardWidget
+   - Proper Livewire file upload handling
+   - Bootstrap Italia upload-wrapper structure
+4. **Analysis**: All 7 segnalazione pages analyzed
+   - Created `.planning/html-parity-plan.md`
 
-### ⏳ In Progress / Blocked
-1. **Header DOM Alignment**: 🔴 BLOCKED by shared component structure.
-   - Current Sixteen header has structural mismatches (Slim header icons, right zone hierarchy).
-   - Needs surgical update to `bootstrap-italia/header.blade.php`.
-2. **Alpine.js Interactivity**: 🟡 WARN.
-   - Still investigating view resolution issues mentioned in previous state.
+### Current Page Status
+| Page | Match | IDs | Status |
+|------|-------|-----|--------|
+| segnalazione-01-privacy | 89% | 7/7 | ✅ Good |
+| segnalazione-02-dati | ~80% | 12/14 | ⚠️ Needs fix |
+| segnalazione-03-riepilogo | ~85% | 3/4 | ⚠️ Minor fix |
+| segnalazione-04-conferma | 92% | 24/26 | ✅ Good |
+| segnalazioni-elenco | 86% | 38/44 | ✅ Good |
+| segnalazione-dettaglio | 88% | 35/40 | ✅ Good |
+| segnalazione-area-personale | 73% | 29/40 | ❌ Needs work |
 
-## Key Metrics
-- `segnalazioni-elenco` Parity: 93.7% ✅
-- `homepage` Parity: 99.7% ✅ (previously reported)
+## Next Goals (GSD Execute Phase)
+1. Fix `segnalazione-area-personale` (73% → 90%+)
+2. Fix remaining IDs in `segnalazione-02-dati` and `segnalazione-03-riepilogo`
+3. Achieve 85%+ average across all pages
+4. Document all fixes in theme docs
 
-## Next Goals
-1. Fix 24 "BLOCK" errors in `segnalazioni-elenco` parity report.
-2. Finalize Header parity to reach 100% on shared components.
-3. Update `Themes/Sixteen/docs/INDEX.md` with progress tracking.
+## Technical Notes
+- Livewire Volt adds expected attributes (wire:key, wire:snapshot, etc.)
+- All pages render correctly, no blank pages
+- Bootstrap Italia structure properly implemented
+- No duplicate IDs in any page

@@ -1,21 +1,21 @@
-# GSD Phase: CSS/JS Visual Parity - segnalazione-01-privacy
+# GSD Phase: CSS/JS Visual Parity - Segnalazione Pages
 
-**Phase**: CSS/JS Parity  
-**Page**: segnalazione-01-privacy  
-**Started**: 2026-04-09 10:00 UTC  
-**Status**: 🔄 IN PROGRESS - Phase 1 Complete  
+**Phase**: CSS/JS Parity
+**Started**: 2026-04-09 10:00 UTC
+**Status**: 🔄 IN PROGRESS - Phase 2 Active
 
 ---
 
 ## 🎯 Goal
 
-Make `http://127.0.0.1:8000/it/tests/segnalazione-01-privacy` visually identical to `https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-01-privacy.html` working **ONLY** on CSS/JS files.
+Make all 7 segnalazione pages visually identical to their references working **ONLY** on CSS/JS files.
 
 **Constraints**:
-- ✅ HTML is LOCKED at 99.8% parity - DO NOT MODIFY
+- ✅ HTML is LOCKED - DO NOT MODIFY (parity established)
 - ✅ Work only in `laravel/Themes/Sixteen/resources/css/`
 - ✅ Build with `npm run build && npm run copy`
 - ✅ Use Playwright screenshots for verification
+- ✅ Ticket naming (not Segnalazione) in PHP classes
 
 ---
 
@@ -30,24 +30,25 @@ Make `http://127.0.0.1:8000/it/tests/segnalazione-01-privacy` visually identical
 | segnalazione-dettaglio | 86.8% | ✅ YES | Done | 🔄 CSS fixes applied |
 | segnalazioni-elenco | 72.5% | ❌ NO | - | ⏳ Needs HTML fix |
 | segnalazione-04-conferma | 43.6% | ❌ NO | - | ⏳ Needs HTML fix |
+| **segnalazione-crea** | **83.6%** | ✅ YES | ✅ Done | 🔄 **Wizard active, CSS fixes needed** |
 
-**5 out of 7 pages qualify for CSS/JS phase (>80% HTML parity)**
+**6 out of 8 pages qualify for CSS/JS phase (>80% HTML parity)**
 
 ---
 
 ## ✅ Phase 1: Analysis & Foundation (COMPLETE)
 
-### Tasks Completed
+### Tools Installed & Configured
+- ✅ Supermemory SDK + API
+- ✅ Playwright visual parity analysis
+- ✅ HTML comparison scripts
+- ✅ MCP servers (8 total)
 
-1. ✅ **Installed Supermemory SDK** - AI context infrastructure
-   - Package: `supermemory` (npm)
-   - API key configured in `.env`
-   - Script: `scripts/supermemory-context.js`
-
-2. ✅ **Created Visual Parity Tool** - Playwright-based analysis
-   - Script: `scripts/visual-parity.mjs`
-   - Features: Screenshots, font analysis, color analysis
-   - Output: `storage/visual-parity/segnalazione-01-privacy/`
+### Baseline Analysis Complete
+- All 8 pages analyzed
+- Screenshots captured (local + reference)
+- Font/color differences identified
+- Global CSS issues documented
 
 3. ✅ **Baseline Analysis Complete**
    - Screenshots: local.png, reference.png

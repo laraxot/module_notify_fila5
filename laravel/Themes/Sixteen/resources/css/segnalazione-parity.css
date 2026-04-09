@@ -1938,7 +1938,7 @@ a.read-terms {
 
 /* --------------------------------------------------------------------------
    26.1 Stepper — horizontal tab style with green underline on active
-   Reference: horizontal tabs, active has green underline + bold text
+   Reference: horizontal tabs in a shadow box, active has green underline + bold green text
    -------------------------------------------------------------------------- */
 .steppers {
   margin-bottom: 2rem;
@@ -1949,8 +1949,12 @@ a.read-terms {
   flex-direction: row !important;
   align-items: center !important;
   justify-content: space-between !important;
-  border-bottom: 2px solid #d9e1e8 !important;
-  padding-bottom: 0 !important;
+  border-bottom: none !important;
+  padding: 0 !important;
+  background: #fff !important;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 4px !important;
+  padding: 0 1.5rem !important;
 }
 
 .steppers-header ul {
@@ -1964,7 +1968,7 @@ a.read-terms {
 }
 
 .steppers-header ul li {
-  padding: 0.75rem 1.5rem !important;
+  padding: 1rem 1.5rem !important;
   font-size: 1rem !important;
   font-weight: 400 !important;
   color: #5c6f82 !important;
@@ -1979,9 +1983,9 @@ a.read-terms {
   color: #17324d !important;
 }
 
-/* Active step: green underline + bold + dark text */
+/* Active step: green underline + bold green text */
 .steppers-header ul li.active {
-  color: #17324d !important;
+  color: #007a52 !important;
   font-weight: 700 !important;
   border-bottom-color: #007a52 !important;
 }
@@ -2001,8 +2005,28 @@ a.read-terms {
 }
 
 /* Hide the "1/3" counter - reference doesn't have it */
-.steppers-index {
+.steppers-index,
+.steppers-header > span,
+.steppers-header .steppers-index,
+span.steppers-index,
+span[aria-hidden="true"].steppers-index {
   display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  clip: rect(0,0,0,0) !important;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+}
+
+/* Inactive tabs should be grey, not green */
+.steppers-header ul li:not(.active):not(.confirmed) {
+  color: #5c6f82 !important;
+}
+
+.steppers-header ul li:not(.active):not(.confirmed):hover {
+  color: #17324d !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -2091,8 +2115,8 @@ a.read-terms {
 }
 
 /* --------------------------------------------------------------------------
-   26.4 Button "Avanti" — large, full-width green button
-   Reference: 48px tall, full width of content area (~640px), green (#007a52), bold text
+   26.4 Button "Avanti" — Bootstrap Italia primary button (blue #06c)
+   Reference: Bootstrap Italia .btn-primary = hsl(210, 100%, 40%) = #06c
    -------------------------------------------------------------------------- */
 .btn.btn-primary.mobile-full {
   display: flex !important;
@@ -2102,7 +2126,7 @@ a.read-terms {
   max-width: 375px !important;
   min-height: 48px !important;
   padding: 0.75rem 2rem !important;
-  background-color: #007a52 !important;
+  background-color: #06c !important;
   border: none !important;
   border-radius: 4px !important;
   font-size: 1rem !important;
@@ -2116,11 +2140,11 @@ a.read-terms {
 }
 
 .btn.btn-primary.mobile-full:hover {
-  background-color: #005c3e !important;
+  background-color: #0052a3 !important;
 }
 
 .btn.btn-primary.mobile-full:active {
-  background-color: #004d33 !important;
+  background-color: #004780 !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -2805,8 +2829,8 @@ body.page-tests-segnalazione-01-privacy .cmp-contacts .card {
   min-width: 320px !important;
   margin: 0 auto !important;
   border: 0 !important;
-  border-radius: 4px !important;
-  box-shadow: 0 0 24px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
   background: #fff !important;
 }
 

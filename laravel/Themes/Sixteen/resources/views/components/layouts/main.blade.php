@@ -43,7 +43,10 @@
             <link rel="stylesheet" type="text/css" href="{{ asset('vendor/cookie-consent/css/cookie-consent.css') }}">
         @endif
     </head>
-    <body @class(['dc-homepage-parity' => $isHomepageParity])>
+    <body @class([
+        'dc-homepage-parity' => $isHomepageParity,
+        'page-tests-' . (request()->route('slug') ?? '') => $isTestsRoute,
+    ])>
         {{ $slot }}
         @if($renderRuntimeChrome)
             <livewire:toast />
