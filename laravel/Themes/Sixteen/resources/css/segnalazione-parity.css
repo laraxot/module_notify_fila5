@@ -427,9 +427,9 @@ body, h1, h2, h3, h4, h5, h6, p, span, div, a, li {
 .fs-16 { font-size: 16px !important; }
 .fs-14 { font-size: 14px !important; }
 
-/* Paragraph text - EXACT reference colors from visual parity analysis */
-.text-paragraph       { font-size: 1rem; line-height: 1.6; color: var(--bi-text-dark, #191919); }
-.text-paragraph-small { font-size: 0.875rem; line-height: 1.5; color: var(--bi-text-secondary, #455a64); }
+/* Paragraph text - EXACT reference sizes from computed styles */
+.text-paragraph       { font-size: 1rem !important; line-height: 1.5 !important; color: rgb(25, 25, 25) !important; font-weight: 400 !important; margin-bottom: 24px !important; }
+.text-paragraph-small { font-size: 0.875rem !important; line-height: 1.5 !important; color: rgb(25, 25, 25) !important; }
 
 /* Secondary text colors - EXACT reference */
 .text-muted, .u-grey-dark { color: var(--bi-text-secondary, #455a64) !important; }
@@ -486,10 +486,11 @@ body, .segnalazione-privacy-page, .segnalazione-dati-page,
    2. TYPOGRAPHY — Design Comuni specific classes
    ============================================================================ */
 .title-xxxlarge {
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1.1;
-  color: #191919;
+  font-size: 3rem !important;        /* 48px - was 2.5rem/40px */
+  font-weight: 700 !important;
+  line-height: 1.25 !important;      /* 60px/48px - was 1.1 */
+  letter-spacing: -1px !important;
+  color: rgb(25, 25, 25) !important;
 }
 
 .title-xxlarge {
@@ -513,9 +514,11 @@ body, .segnalazione-privacy-page, .segnalazione-dati-page,
 }
 
 .title-medium-2-semi-bold {
-  font-size: 1.125rem;
-  font-weight: 600;
-  line-height: 1.35;
+  font-size: 1.5rem !important;      /* 24px - was 1.125rem/18px */
+  font-weight: 600 !important;
+  line-height: 1.25 !important;      /* 30px/24px - was 1.35 */
+  color: rgb(25, 25, 25) !important;
+  margin-bottom: 8px !important;
 }
 
 .title-small-semi-bold {
@@ -2154,8 +2157,8 @@ span[aria-hidden="true"].steppers-index {
 }
 
 /* --------------------------------------------------------------------------
-   26.4 Button "Avanti" — Bootstrap Italia primary button (blue #06c)
-   Reference: Bootstrap Italia .btn-primary = hsl(210, 100%, 40%) = #06c
+   26.4 Button "Avanti" — Bootstrap Italia primary button (GREEN #007a52)
+   Reference: padding 12px 24px, font-size 16px, weight 600, NO border-radius
    -------------------------------------------------------------------------- */
 .btn.btn-primary.mobile-full {
   display: flex !important;
@@ -2164,12 +2167,13 @@ span[aria-hidden="true"].steppers-index {
   width: 100% !important;
   max-width: 375px !important;
   min-height: 48px !important;
-  padding: 0.75rem 2rem !important;
-  background-color: #06c !important;
+  padding: 12px 24px !important;
+  background-color: rgb(0, 122, 82) !important;
   border: none !important;
-  border-radius: 4px !important;
-  font-size: 1rem !important;
-  font-weight: 700 !important;
+  border-radius: 0 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 24.88px !important;
   color: #fff !important;
   font-family: 'Titillium Web' !important;
   cursor: pointer !important;
@@ -2179,7 +2183,7 @@ span[aria-hidden="true"].steppers-index {
 }
 
 .btn.btn-primary.mobile-full:hover {
-  background-color: #0052a3 !important;
+  background-color: rgb(0, 90, 60) !important;
 }
 
 .btn.btn-primary.mobile-full:active {
@@ -2959,6 +2963,12 @@ h1.title-xxxlarge {
   line-height: 60px !important;
   font-weight: 700 !important;
   color: rgb(25, 25, 25) !important;
+  margin-bottom: 8px !important;
+}
+
+/* segnalazione-01-privacy uses 24px margin-bottom for h1 */
+body.page-tests-segnalazione-01-privacy h1.title-xxxlarge,
+body.page-tests-segnalazione-crea h1.title-xxxlarge {
   margin-bottom: 24px !important;
 }
 
@@ -3309,4 +3319,102 @@ h2.title-xxlarge,
 /* Body text color: REF rgb(25,25,25) → local was rgb(26,26,26) */
 body {
   color: rgb(25, 25, 25) !important;
+}
+
+/* Override Filament body color (#17324d) - MUST be last rule */
+html body,
+html.segnalazione body,
+body.segnalazione-page {
+  color: rgb(25, 25, 25) !important;
+}
+
+/* Global button fix - all segnalazione pages */
+button.btn-primary:not(.dropdown-toggle):not(.navbar-toggler):not(.close-menu):not(.accordion-button):not(.custom-navbar-toggler) {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  background-color: rgb(0, 122, 82) !important;
+  color: rgb(255, 255, 255) !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+/* ============================================================================
+   28. SEGNALAZIONE-01-PRIVACY - Final visual parity fixes
+   Body class: page-tests-segnalazione-01-privacy
+   Date: 2026-04-09 - Computed style fixes
+   ============================================================================ */
+
+/* h1 title - REF 48px/60px/700 → ensure override of all previous rules */
+body.page-tests-segnalazione-01-privacy h1,
+body.page-tests-segnalazione-01-privacy h1.title-xxxlarge {
+  font-size: 48px !important;
+  line-height: 60px !important;
+  font-weight: 700 !important;
+  letter-spacing: -1px !important;
+  color: rgb(25, 25, 25) !important;
+  margin-bottom: 24px !important;
+}
+
+/* h2 title - REF 24px/30px/600 */
+body.page-tests-segnalazione-01-privacy h2,
+body.page-tests-segnalazione-01-privacy h2.title-medium-2-semi-bold {
+  font-size: 24px !important;
+  line-height: 30px !important;
+  font-weight: 600 !important;
+  color: rgb(25, 25, 25) !important;
+  margin-bottom: 8px !important;
+}
+
+/* Paragraph - REF 16px/24px/400 */
+body.page-tests-segnalazione-01-privacy p,
+body.page-tests-segnalazione-01-privacy p.text-paragraph {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  font-weight: 400 !important;
+  color: rgb(25, 25, 25) !important;
+  margin-bottom: 24px !important;
+}
+
+/* Button - REF 16px/24.88px/600, green bg, 12px 24px padding */
+body.page-tests-segnalazione-01-privacy .btn,
+body.page-tests-segnalazione-01-privacy .btn-primary,
+body.page-tests-segnalazione-01-privacy button.btn-primary {
+  font-size: 16px !important;
+  line-height: 24.88px !important;
+  font-weight: 600 !important;
+  padding: 12px 24px !important;
+  background-color: rgb(0, 122, 82) !important;
+  color: rgb(255, 255, 255) !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+/* Card - REF white bg, no padding, no shadow */
+body.page-tests-segnalazione-01-privacy .card {
+  background-color: rgb(255, 255, 255) !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* List item - REF 16px/32px, white text on green bg */
+body.page-tests-segnalazione-01-privacy .list-item {
+  font-size: 16px !important;
+  line-height: 32px !important;
+  color: rgb(255, 255, 255) !important;
+  padding: 4px 24px !important;
+}
+
+/* Links - REF green, no bg */
+body.page-tests-segnalazione-01-privacy a {
+  background-color: transparent !important;
+  color: rgb(0, 122, 82) !important;
+  padding: 0 !important;
+}
+
+/* Body text color - exact match */
+body.page-tests-segnalazione-01-privacy {
+  color: rgb(25, 25, 25) !important;
+  background-color: rgb(255, 255, 255) !important;
 }

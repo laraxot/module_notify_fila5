@@ -53,12 +53,28 @@ When fixing fonts on Design Comuni pages, ALWAYS check for conflicting rules wit
 **5/7 pages PASS (>80% threshold)**
 
 ### Visual Issues Found (CSS/JS Phase)
-- **segnalazione-02-dati**: Untranslated `fixcity::segnalazione.fields.*` keys showing raw in form labels
-- **segnalazione-03-riepilogo**: Phone number shows literal `:phone` instead of actual number
+- **segnalazione-01-privacy**: ✅ FIXED - stepper shadow box, green active tab, hidden counter, brand no underline, flat contacts card
+- **segnalazione-02-dati**: ⚠️ CSS fixed (form underline style, font, stepper), but raw `fixcity::` translation keys showing (data issue)
+- **segnalazione-03-riepilogo**: Phone shows literal `:phone` instead of actual number (data issue)
 - **segnalazione-04-conferma**: Stepper shows circles instead of tabs; missing wrapper structure
 - **segnalazione-dettaglio**: Empty green line gaps between content sections
 - **segnalazioni-elenco**: Title uppercase "ELENCO SEGNALAZIONI" vs reference "Elenco segnalazioni"
 - **segnalazione-area-personale**: ✅ Looks good visually
+
+### CSS Fixes Applied (2026-04-09)
+
+#### segnalazione-01-privacy
+- Stepper: shadow box, green active tab, hidden "1/3" counter, inactive tabs grey
+- Header: brand link no underline
+- Contacts card: flat, no shadow, 592px wide
+- Font: Titillium Web 16px/24px #191919
+
+#### segnalazione-02-dati
+- Form inputs: underline-only style (border-bottom only)
+- Font: 16px Titillium Web #191919
+- Stepper: shadow box styling
+- Contacts: green links
+- **Limitation**: Raw `fixcity::` translation keys (data issue, not CSS)
 
 ## Architettura CSS
 

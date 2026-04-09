@@ -18,7 +18,7 @@ const SELECTORS = {
   'body': ['fontFamily', 'fontSize', 'fontWeight', 'color', 'backgroundColor'],
   'h1, .title-xxxlarge': ['fontSize', 'lineHeight', 'fontWeight', 'color'],
   'h2, .title-xxlarge': ['fontSize', 'lineHeight', 'fontWeight', 'color'],
-  '.btn-primary.mobile-full, .btn-primary.btn-icon, .btn-primary': ['fontSize', 'fontWeight', 'backgroundColor', 'color'],
+  'button.btn-primary': ['fontSize', 'fontWeight', 'backgroundColor', 'color'],
   '.card': ['backgroundColor', 'borderRadius', 'boxShadow'],
   'a': ['color'],
 };
