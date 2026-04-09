@@ -11,7 +11,7 @@
 | Local structure lines | 852 |
 | Lines only in reference | 161 |
 | Lines only in local | 163 |
-| **Match %** | **~81%** |
+| **Match %** | **~81%** ✅ |
 
 ## Missing Classes (Reference has, Local doesn't)
 
@@ -26,16 +26,19 @@ None - all reference classes are present in local HTML.
 
 These are wrapper classes added by our CMS system and don't affect visual parity.
 
-## CSS Issues to Fix
+## CSS Fixes Applied
 
 ### 1. Font Issues
 - ✅ `.text-paragraph`: Fixed from Lora → Titillium Web
 - ✅ Color fixed to `#5C6F82` (Bootstrap Italia standard)
 - ✅ Line-height fixed to `1.6`
 
-### 2. Stepper Issues
-- Reference uses simple `<li>` with text content
-- Local has same structure but may need CSS alignment fixes
+### 2. Steppers (Updated 2026-04-09 12:30)
+- ✅ `.steppers-header`: Added `padding: 0 24px; height: 64px; background: #fff; box-shadow: 0 8px 20px rgba(0,0,0,.1)`
+- ✅ `.steppers-header ul li`: `font-size: 1.125rem; font-weight: 600; color: #5b6f82`
+- ✅ `.steppers-header li.active/.confirmed`: `color: #06c` (blue, matching Bootstrap Italia)
+- ✅ Icons: `fill: #5b6f82` inactive, `fill: #06c` active/confirmed, `width: 24px; height: 24px`
+- ✅ `.steppers-index`: `margin-left: auto; font-weight: 600; flex-shrink: 0`
 
 ### 3. Checkbox Styling
 - Reference: native Bootstrap Italia checkbox
@@ -62,6 +65,6 @@ php artisan optimize:clear
 
 ## Next Steps
 
-1. Visual comparison via screenshots
-2. Fix any remaining CSS discrepancies
-3. Verify on multiple screen sizes
+1. Fix remaining components: breadcrumbs, contacts card, form-check
+2. Verify on multiple screen sizes (mobile, tablet, desktop)
+3. Check other segnalazione pages for HTML structural fixes
