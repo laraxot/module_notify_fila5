@@ -83,7 +83,7 @@ h1, .h1, .hero-title {
 
 h2, .h2, .section-title {
   font-size: 24px !important;
-  font-weight: 400 !important;
+  font-weight: 600 !important;
   line-height: 30px !important;
   color: rgb(25, 25, 25) !important;
   margin-bottom: 8px !important;
@@ -149,20 +149,21 @@ a:hover {
 }
 
 /* ============================================================================
-   0.3 CARD - Bootstrap Italia style
+   0.3 CARD - Bootstrap Italia style (reference match)
+   Reference: NO padding, NO border-radius, NO shadow on main card
    ============================================================================ */
 
 .card {
   background-color: rgb(255, 255, 255) !important;
-  border: 1px solid rgb(212, 212, 212) !important;
-  border-radius: 4px !important;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
-  padding: 24px !important;
-  margin-bottom: 24px !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .card-body {
-  padding: 24px !important;
+  padding: 0 !important;
 }
 
 .card-title {
@@ -180,7 +181,8 @@ a:hover {
 }
 
 /* ============================================================================
-   0.4 BUTTONS - Bootstrap Italia style
+   0.4 BUTTONS - Bootstrap Italia style (reference match)
+   Reference: 12px 24px padding, 16px font, 600 weight, 0 border-radius
    ============================================================================ */
 
 .btn {
@@ -190,11 +192,11 @@ a:hover {
   white-space: nowrap !important;
   vertical-align: middle !important;
   user-select: none !important;
-  border: 2px solid transparent !important;
-  padding: 0.375rem 1rem !important;
-  font-size: 1rem !important;
-  line-height: 1.5 !important;
-  border-radius: 4px !important;
+  border: none !important;
+  padding: 12px 24px !important;
+  font-size: 16px !important;
+  line-height: 24.88px !important;
+  border-radius: 0 !important;
   transition: all 0.2s ease-in-out !important;
   cursor: pointer !important;
   text-decoration: none !important;
@@ -202,7 +204,6 @@ a:hover {
 
 .btn-primary {
   background-color: rgb(0, 122, 82) !important;
-  border-color: rgb(0, 122, 82) !important;
   color: rgb(255, 255, 255) !important;
 }
 
@@ -884,13 +885,36 @@ select:focus {
   margin-top: 0.25rem;
 }
 
-/* Checkbox & Radio */
+/* Checkbox & Radio - Bootstrap Italia style */
 .form-check {
   display: flex;
   align-items: flex-start;
   gap: 0.75rem;
   padding: 0.5rem 0;
   margin-bottom: 0.5rem;
+}
+
+.form-check input[type="checkbox"],
+.form-check input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  left: 9px;
+  top: 9px;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.form-check input[type="checkbox"] + label,
+.form-check input[type="radio"] + label {
+  position: relative;
+  padding-left: 2rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  user-select: none;
+  color: #191919;
 }
 
 .form-check-input {
@@ -912,8 +936,8 @@ select:focus {
 }
 
 .form-check-input:checked {
-  background-color: #007a52;
-  border-color: #007a52;
+  background-color: #06c;
+  border-color: #06c;
 }
 
 .form-check-input:checked::after {
@@ -939,6 +963,7 @@ select:focus {
 
 .form-check-label {
   font-size: 1rem;
+  font-weight: 600;
   color: #191919;
   cursor: pointer;
 }
@@ -3026,4 +3051,187 @@ body.page-tests-segnalazione-crea h1.title-xxxlarge {
   font-weight: 700 !important;
   color: #191919 !important;
   margin-bottom: 1.5rem !important;
+}
+
+/* ============================================================================
+   27. SEGNALAZIONE-02-DATI — Visual parity fixes
+   Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati.html
+   Date: 2026-04-09
+   ============================================================================ */
+
+/* 27.1 Form inputs — underline-only style (border-bottom only) */
+body.page-tests-segnalazione-02-dati input[type="text"],
+body.page-tests-segnalazione-02-dati input[type="search"],
+body.page-tests-segnalazione-02-dati textarea,
+body.page-tests-segnalazione-02-dati select {
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 1px solid #5d7083 !important;
+  border-radius: 0 !important;
+  font-size: 16px !important;
+  padding: 6px 8px !important;
+  background: #fff !important;
+  color: #191919 !important;
+}
+
+body.page-tests-segnalazione-02-dati input[type="text"]:focus,
+body.page-tests-segnalazione-02-dati input[type="search"]:focus,
+body.page-tests-segnalazione-02-dati textarea:focus,
+body.page-tests-segnalazione-02-dati select:focus {
+  border-bottom-color: #007a52 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* 27.2 Form labels — proper sizing and color */
+body.page-tests-segnalazione-02-dati label {
+  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 16px !important;
+  color: #191919 !important;
+  font-weight: 600 !important;
+}
+
+/* 27.3 Section cards — grey background with shadow */
+body.page-tests-segnalazione-02-dati .section-card,
+body.page-tests-segnalazione-02-dati .form-section {
+  background: #f0f2f5 !important;
+  padding: 2rem !important;
+  margin-bottom: 1.5rem !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* 27.4 Section headings */
+body.page-tests-segnalazione-02-dati .section-card h2,
+body.page-tests-segnalazione-02-dati .form-section h2 {
+  font-size: 1.75rem !important;
+  font-weight: 700 !important;
+  color: #191919 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* 27.5 Buttons — proper layout */
+body.page-tests-segnalazione-02-dati .steppers-nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 1.5rem 0 !important;
+  margin-top: 2rem !important;
+}
+
+/* 27.6 "Indietro" button — text only with left arrow */
+body.page-tests-segnalazione-02-dati .btn-back {
+  background: transparent !important;
+  border: none !important;
+  color: #007a52 !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  padding: 0 !important;
+}
+
+/* 27.7 "Salva" button — outline style */
+body.page-tests-segnalazione-02-dati .btn-save {
+  background: transparent !important;
+  border: 1px solid #007a52 !important;
+  color: #007a52 !important;
+  border-radius: 4px !important;
+  padding: 8px 24px !important;
+  font-weight: 600 !important;
+}
+
+/* 27.8 "Avanti" button — filled green with right arrow */
+body.page-tests-segnalazione-02-dati .btn-next {
+  background: #007a52 !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 4px !important;
+  padding: 8px 24px !important;
+  font-weight: 600 !important;
+  min-width: 120px !important;
+}
+
+/* 27.9 Stepper — match segnalazione-01-privacy styling */
+body.page-tests-segnalazione-02-dati .steppers-header {
+  background: #fff !important;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 4px !important;
+  padding: 0 1.5rem !important;
+}
+
+body.page-tests-segnalazione-02-dati .steppers-header ul li.active {
+  color: #007a52 !important;
+  font-weight: 700 !important;
+  border-bottom-color: #007a52 !important;
+}
+
+body.page-tests-segnalazione-02-dati .steppers-header ul li:not(.active):not(.confirmed) {
+  color: #5c6f82 !important;
+}
+
+/* 27.10 File upload button */
+body.page-tests-segnalazione-02-dati .btn-file-upload {
+  background: #007a52 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 12px 24px !important;
+  font-weight: 600 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+}
+
+/* 27.11 Contacts card — flat, no shadow */
+body.page-tests-segnalazione-02-dati .cmp-contacts .card {
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+  max-width: 592px !important;
+  margin: 0 auto !important;
+}
+
+/* 27.12 "I campi contraddistinti..." notice text */
+body.page-tests-segnalazione-02-dati .form-required-notice {
+  font-size: 0.875rem !important;
+  color: #5c6f82 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* 27.13 Helper text under inputs */
+body.page-tests-segnalazione-02-dati .form-text,
+body.page-tests-segnalazione-02-dati .help-text {
+  font-size: 0.875rem !important;
+  color: #5c6f82 !important;
+  margin-top: 0.5rem !important;
+}
+
+/* 27.14 Image thumbnail in file upload */
+body.page-tests-segnalazione-02-dati .file-thumbnail {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  padding: 8px 12px !important;
+  background: #fff !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 4px !important;
+  margin-bottom: 1rem !important;
+}
+
+/* 27.15 User card section */
+body.page-tests-segnalazione-02-dati .user-card {
+  background: #fff !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 4px !important;
+  padding: 1.5rem !important;
+  margin-top: 1rem !important;
+}
+
+body.page-tests-segnalazione-02-dati .user-card h3 {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: #191919 !important;
+  margin-bottom: 0.5rem !important;
 }

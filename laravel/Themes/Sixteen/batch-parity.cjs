@@ -16,9 +16,9 @@ const LOC_BASE = 'http://127.0.0.1:8000/it/tests';
 
 const SELECTORS = {
   'body': ['fontFamily', 'fontSize', 'fontWeight', 'color', 'backgroundColor'],
-  'h1': ['fontSize', 'lineHeight', 'fontWeight', 'color'],
-  'h2': ['fontSize', 'lineHeight', 'fontWeight', 'color'],
-  '.btn-primary': ['fontSize', 'fontWeight', 'backgroundColor', 'color'],
+  'h1, .title-xxxlarge': ['fontSize', 'lineHeight', 'fontWeight', 'color'],
+  'h2, .title-xxlarge': ['fontSize', 'lineHeight', 'fontWeight', 'color'],
+  '.btn-primary.mobile-full, .btn-primary.btn-icon, .btn-primary': ['fontSize', 'fontWeight', 'backgroundColor', 'color'],
   '.card': ['backgroundColor', 'borderRadius', 'boxShadow'],
   'a': ['color'],
 };
