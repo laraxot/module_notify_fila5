@@ -1,16 +1,16 @@
 ---
-status: gathering
+status: investigating
 trigger: "Debug and fix critical database issue - fixcity_data.sqlite missing + ModelContract getKey() signature incompatibility"
 created: 2026-04-09T12:00:00Z
-updated: 2026-04-09T12:00:00Z
+updated: 2026-04-09T12:05:00Z
 ---
 
 ## Current Focus
 
-hypothesis: Two separate issues: (1) missing SQLite database file, (2) ModelContract::getKey() signature incompatible with Laravel's Model::getKey()
-test: Read config files and contract to understand the exact signatures
-expecting: Find the exact incompatibility and fix path
-next_action: "gather initial evidence - read .env, database config, ModelContract, XotBaseModel"
+hypothesis: Two issues: (1) ModelContract::getKey(): mixed and getRelationValue(): mixed are incompatible with Laravel's Model methods - the interface declares return types that conflict with parent. (2) Database file exists but no migrations have been run. The 'cms' and 'xot' connections need to resolve to the sqlite database.
+test: Check if the error occurs when bootstrapping Laravel by trying to artisan migrate; fix ModelContract first
+expecting: After fixing ModelContract signatures, migrations should bootstrap correctly
+next_action: "Fix ModelContract - remove getKey() and getRelationValue() from interface since they conflict with Laravel Model"
 
 ## Symptoms
 
@@ -22,7 +22,46 @@ started: Database file was never created or was deleted; contract signature is w
 
 ## Eliminated
 
+- hypothesis: Database file doesn't exist
+  evidence: File exists at laravel/database/fixcity_data.sqlite (12KB, created today at 12:17)
+  timestamp: 2026-04-09T12:05:00Z
+
 ## Evidence
+
+- timestamp: 2026-04-09T12:02:00Z
+  checked: laravel/.env
+  found: DB_CONNECTION=sqlite, DB_DATABASE=fixcity_data
+  implication: Database path resolves to database_path('fixcity_data.sqlite') = laravel/database/fixcity_data.sqlite
+
+- timestamp: 2026-04-09T12:02:00Z
+  checked: laravel/config/database.php
+  found: sqlite connection uses database_path(env('DB_DATABASE', 'database').'.sqlite')
+  implication: Path resolution confirmed
+
+- timestamp: 2026-04-09T12:03:00Z
+  checked: Modules/Xot/app/Contracts/ModelContract.php
+  found: Interface declares `public function getKey(): mixed;` and `public function getRelationValue(string $key): mixed;` with merge conflict markers (<<<<<<< HEAD / ======= / >>>>>>> 9506daa5)
+  implication: These methods conflict with Laravel's Model which has different signatures. Also has leftover git merge conflict markers in PHPDoc.
+
+- timestamp: 2026-04-09T12:03:00Z
+  checked: Modules/Xot/app/Models/XotBaseModel.php
+  found: extends Eloquent Model, does NOT implement ModelContract directly. Has $connection = 'xot'
+  implication: Models extending XotBaseModel use 'xot' connection which is not defined in database.php
+
+- timestamp: 2026-04-09T12:04:00Z
+  checked: Modules/Cms/app/Models/BaseModel.php
+  found: extends XotBaseModel, overrides $connection = 'cms'
+  implication: CMS models use 'cms' connection which is also not defined in database.php
+
+- timestamp: 2026-04-09T12:04:00Z
+  checked: Modules/Cms/app/Models/Page.php
+  found: extends BaseModelLang -> BaseModel -> XotBaseModel. Uses SushiToJsons trait (Sushi pattern - loads from array, not DB)
+  implication: Page model uses Sushi pattern - data comes from getRows() method, not from database table
+
+- timestamp: 2026-04-09T12:05:00Z
+  checked: php artisan migrate:status
+  found: ALL migrations are Pending - no tables exist yet
+  implication: Database file exists but is empty (no schema)
 
 ## Resolution
 

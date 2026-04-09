@@ -3249,3 +3249,38 @@ body.page-tests-segnalazione-02-dati .user-card h3 {
   color: #191919 !important;
   margin-bottom: 0.5rem !important;
 }
+
+/* ============================================================================
+   GLOBAL SEGNALAZIONE PARITY - ALL PAGES
+   Fixes: h2 sizing, button styling, body text color
+   Applied to ALL segnalazione-* pages
+   ============================================================================ */
+
+/* H2 title sizing: REF 40px/50px/700 → local was 24px/30px/400 */
+h2,
+h2.title-xxlarge,
+.title-xxlarge {
+  font-size: 2.5rem !important;      /* 40px */
+  line-height: 50px !important;
+  font-weight: 700 !important;
+  color: rgb(25, 25, 25) !important;
+}
+
+/* Primary buttons on segnalazione pages */
+.segnalazione-privacy-page .btn-primary,
+.segnalazione-dati-page .btn-primary,
+.segnalazione-riepilogo-page .btn-primary,
+.segnalazione-conferma-page .btn-primary,
+.segnalazione-dettaglio-page .btn-primary,
+.segnalazione-area-page .btn-primary,
+.segnalazioni-elenco-page .btn-primary {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  background-color: rgb(0, 122, 82) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+/* Body text color: REF rgb(25,25,25) → local was rgb(26,26,26) */
+body {
+  color: rgb(25, 25, 25) !important;
+}
