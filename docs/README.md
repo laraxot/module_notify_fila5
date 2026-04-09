@@ -25,7 +25,7 @@ Documentation that applies to the entire project:
 
 - **[Configuration](project/configuration.md)** - Theme detection, paths, environment
 - **[AI Workflow](project/ai-workflow/)** - BMAD, GSD, Ralph Loop, OpenViking integration
-- **[MCP Servers](project/mcp-index.md)** - Memory systems, development tools, configuration
+- **[MCP Servers](project/mcp-overview.md)** - Memory systems, development tools, configuration
 - **[Conventions](project/conventions/)** - Coding standards, naming, structure
 
 ### Module Documentation

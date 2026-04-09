@@ -1,218 +1,186 @@
-# MCP Servers - FixCity Project
+# MCP Servers - Master Index
 
+**Project**: FixCity Platform  
 **Last Updated**: 2026-04-09  
-**Configuration File**: `.claude/mcp.json`  
+**Configuration**: `laravel/.mcp.json`  
 **Total Servers**: 10
-
----
 
 ## Overview
 
-Model Context Protocol (MCP) servers provide tools and resources that AI agents can use to interact with external systems, access documentation, perform browser automation, and maintain persistent memory.
+MCP (Model Context Protocol) servers provide AI assistants with persistent memory, code analysis, documentation access, and development tools. This document is the **single authoritative source** for MCP configuration across all modules and themes.
 
----
+## Quick Reference
 
-## Configured MCP Servers
+| Server | Category | Status | Purpose |
+|--------|----------|--------|---------|
+| [laravel-boost](#laravel-boost) | Development | ✅ Active | Laravel-specific AI assistance |
+| [fetch](#fetch) | Web | ✅ Active | Web content fetching |
+| [filesystem](#filesystem) | Files | ✅ Active | Secure file operations |
+| [sqlite](#sqlite) | Database | ✅ Active | Database queries |
+| [sequential-thinking](#sequential-thinking) | Reasoning | ✅ Active | Complex problem solving |
+| [memory](#memory) | Memory | ✅ Active | Knowledge graph persistence |
+| [github](#github) | Version Control | ✅ Active | GitHub integration |
+| [context7](#context7) | Documentation | ✅ Active | Library documentation lookup |
+| [memory-bank](#memory-bank) | Memory | ✅ Active | Session memory bank |
+| [supermemory](#supermemory) | Memory | ✅ Active | AI memory infrastructure |
 
-### 1. filesystem
-- **Package**: `@modelcontextprotocol/server-filesystem`
-- **Purpose**: Read/write files, list directories, search files
-- **Scope**: `/var/www/_bases/base_fixcity_fila5`
-- **Use Cases**: File operations, codebase exploration, content management
+## Server Details
 
-### 2. memory
-- **Package**: `@modelcontextprotocol/server-memory`
-- **Purpose**: Persistent AI memory across sessions
-- **Use Cases**: Remember project decisions, user preferences, codebase knowledge
-- **Commands**: `read_memory`, `write_memory`, `search_memory`, `delete_memory`
+### laravel-boost
+- **Type**: Laravel-specific
+- **Command**: `php artisan boost:mcp`
+- **Use**: Laravel 12, Filament, Livewire documentation and best practices
+- **Module Docs**: [Xot MCP Guide](../Modules/Xot/docs/MCP_SERVERS.md) | [Theme MCP Guide](../Themes/Sixteen/docs/MCP_SERVERS.md)
 
-### 3. fetch
+### fetch
+- **Type**: Web content
 - **Package**: `@modelcontextprotocol/server-fetch`
-- **Purpose**: HTTP requests, web scraping, API calls
-- **Use Cases**: Fetch reference pages, API testing, external data retrieval
+- **Use**: Fetch web content, API responses, documentation pages
+- **Example**: Fetch Bootstrap Italia documentation for parity checks
 
-### 4. sequential-thinking
-- **Package**: `@modelcontextprotocol/server-sequential-thinking`
-- **Purpose**: Structured multi-step reasoning
-- **Use Cases**: Complex problem solving, architecture decisions, debugging
+### filesystem
+- **Type**: File operations
+- **Package**: `@modelcontextprotocol/server-filesystem`
+- **Scope**: `/var/www/_bases/base_fixcity_fila5`
+- **Use**: Read/write files, search directories, explore project structure
 
-### 5. puppeteer
-- **Package**: `@modelcontextprotocol/server-puppeteer`
-- **Purpose**: Browser automation, screenshots, page interaction
-- **Use Cases**: Visual parity verification, screenshot comparison, UI testing
-
-### 6. sqlite
+### sqlite
+- **Type**: Database
 - **Package**: `@modelcontextprotocol/server-sqlite`
-- **Purpose**: Database queries on project SQLite
 - **DB Path**: `laravel/database/database.sqlite`
-- **Use Cases**: Data inspection, CMS content verification, debugging
+- **Use**: Query database, verify seeders, debug data issues
+- **Module Usage**: Each module queries its own tables
 
-### 7. git
-- **Package**: `@modelcontextprotocol/server-git`
-- **Purpose**: Git operations, diff analysis, commit history
-- **Repository**: `/var/www/_bases/base_fixcity_fila5`
-- **Use Cases**: Change tracking, blame analysis, branch management
+### sequential-thinking
+- **Type**: Reasoning
+- **Package**: `@modelcontextprotocol/server-sequential-thinking`
+- **Use**: Complex problem decomposition, multi-step analysis
+- **When to Use**: Architecture decisions, debugging complex issues
 
-### 8. context7
+### memory
+- **Type**: Knowledge Graph
+- **Package**: `@modelcontextprotocol/server-memory`
+- **Use**: Store project decisions, patterns, conventions
+- **Persistence**: Survives across sessions
+- **Example**: "Fixcity uses XotBaseModel pattern"
+
+### github
+- **Type**: Version Control
+- **Package**: `@modelcontextprotocol/server-github`
+- **Auth**: `GITHUB_TOKEN` environment variable
+- **Use**: PR creation, issue management, code review
+
+### context7
+- **Type**: Documentation
 - **Package**: `@upstash/context7-mcp`
-- **Purpose**: Code documentation search across 8000+ libraries
-- **Use Cases**: Laravel/Filament/Livewire docs lookup, API reference, best practices
+- **Use**: Look up Laravel, Filament, Livewire, Tailwind documentation
+- **Coverage**: 13,000+ libraries with version resolution
+- **Example**: "Filament v4 table best practices"
 
-### 9. mcp-deepwiki
-- **Package**: `mcp-deepwiki`
-- **Purpose**: Wikipedia knowledge retrieval
-- **Use Cases**: Technical research, domain knowledge, general reference
+### memory-bank
+- **Type**: Session Memory
+- **Package**: `memory-bank-mcp`
+- **Path**: `.memory-bank/` in project root
+- **Use**: Store session checkpoints, decisions, context
+- **Features**: Session summaries, context recovery
 
-### 10. supermemory
-- **Package**: `supermemory-mcp`
-- **Purpose**: Long-term AI memory with knowledge graph
-- **API Key**: Configured via `SUPERMEMORY_API_KEY` env var
-- **Use Cases**: Project context persistence, semantic search, memory retrieval
-- **Container Tag**: `fixcity-project`
-
----
-
-## Removed/Deprecated
-
-| Server | Reason | Date |
-|--------|--------|------|
-| `@modelcontextprotocol/server-github` | Package deprecated (npm notice) | 2026-04-09 |
-| `@anthropic-ai/mcp-server-playwright` | Redundant with existing puppeteer | 2026-04-09 |
-| `mcp-screenshot-server` | Redundant with puppeteer | 2026-04-09 |
-| `@modelcontextprotocol/server-everart` | No API key, unused | 2026-04-09 |
-
----
-
-## Usage Examples
-
-### Memory (Persistent Knowledge)
-```
-Use memory to:
-- Store architecture decisions
-- Remember coding conventions
-- Track completed phases
-- Store user preferences
-```
-
-### Context7 (Documentation Search)
-```
-Use context7 to:
-- Look up Laravel 12 documentation
-- Find Filament 3 patterns
-- Check Livewire 3 APIs
-- Search TailwindCSS utilities
-```
-
-### Puppeteer (Browser Automation)
-```
-Use puppeteer to:
-- Take screenshots for visual parity
-- Test page interactions
-- Verify CSS rendering
-- Compare reference vs local
-```
-
-### SuperMemory (Semantic Search)
-```
-Use supermemory to:
-- Search project context semantically
-- Retrieve past decisions
-- Find related knowledge
-- Build on previous work
-```
-
----
-
-## Architecture
-
-```
-AI Agent (Claude/Qwen)
-    │
-    ├── MCP: filesystem ──→ Project files
-    ├── MCP: memory ──→ Persistent session memory
-    ├── MCP: fetch ──→ Web/API requests
-    ├── MCP: sequential-thinking ──→ Complex reasoning
-    ├── MCP: puppeteer ──→ Browser automation
-    ├── MCP: sqlite ──→ Database queries
-    ├── MCP: git ──→ Version control
-    ├── MCP: context7 ──→ Library documentation
-    ├── MCP: mcp-deepwiki ──→ General knowledge
-    └── MCP: supermemory ──→ Semantic memory + knowledge graph
-```
-
----
+### supermemory
+- **Type**: AI Memory Infrastructure
+- **CLI**: `supermemory` (npm global)
+- **API Key**: Configured in `.mcp.json`
+- **Container Tag**: `fixcity`
+- **Use**: 
+  - Persistent project context across conversations
+  - Semantic search across project documentation
+  - User profile and preferences
+  - Knowledge graph with relationships
+- **Commands**:
+  - `supermemory add` - Ingest content
+  - `supermemory search` - Semantic search
+  - `supermemory profile` - Get user/project context
+  - `supermemory remember` - Store specific memory
+- **Setup**: See [SuperMemory Quickstart](#supermemory-quickstart)
 
 ## Configuration
 
-### File Location
-- **Primary**: `.claude/mcp.json` (project root)
-- **Backup**: `docs/MCP_SERVERS.md` (this file)
+### Project Configuration
+Main config: `laravel/.mcp.json`
+
+### Editor Configuration
+- **Cursor**: Uses `.mcp.json` automatically
+- **Windsurf**: Import from [Xot Windsurf Config](../Modules/Xot/docs/windsurf-mcp-config.json)
+- **Claude Desktop**: Copy config to `claude_desktop_config.json`
 
 ### Environment Variables
 ```bash
-SUPERMEMORY_API_KEY=sm_BzH3Cugxk1hMDm5V1EHC2N_Jr9NfJdUqxlnPe21yb9q7FtbYMevTsoPtKZJEfBqdP4i81z6aJA34SF32Gx3PUa9
+# Required
+GITHUB_TOKEN=your_github_token
+CONTEXT7_API_KEY=your_context7_key
+SUPERMEMORY_API_KEY=sm_BzH3Cugxk1hMDm5V1EHC2N_...
+
+# Optional
+DATABASE_URL=postgresql://...
 ```
 
-### SQLite Database
-```
-laravel/database/database.sqlite
+## SuperMemory Quickstart
+
+### Authentication
+```bash
+supermemory whoami
+# Should show: marco.sottana@gmail.com (Xot org)
 ```
 
-### Git Repository
+### Add Project Context
+```bash
+supermemory add --tag fixcity --file .supermemory/fixcity-context.md
 ```
-/var/www/_bases/base_fixcity_fila5
+
+### Search Memories
+```bash
+supermemory search "FixCity architecture" --tag fixcity
 ```
+
+### Get Profile
+```bash
+supermemory profile --tag fixcity --query "project preferences"
+```
+
+## Module-Specific Usage
+
+Each module has specific MCP usage guidelines. See module-specific docs:
+
+- **Xot**: [MCP Servers Guide](../Modules/Xot/docs/MCP_SERVERS.md)
+- **Fixcity**: Module-specific patterns for ticket system
+- **User**: Authentication and user management
+- **Cms**: Content management patterns
+
+**Rule**: Always cross-reference to this master doc. Module docs should ONLY contain module-specific additions.
+
+## Theme-Specific Usage
+
+- **Sixteen**: [Theme MCP Servers](../Themes/Sixteen/docs/MCP_SERVERS.md)
+  - Frontoffice page testing
+  - Visual parity verification
+  - CSS/JS build process
+
+## DRY Compliance
+
+**Authoritative Source**: This file is the single source of truth for MCP configuration.
+
+**Module Docs**: Should contain ONLY module-specific usage patterns, NOT server list.
+
+**Theme Docs**: Should contain ONLY theme-specific usage patterns.
+
+**Cross-References**: All module/theme docs MUST link back to this master index.
+
+## Related Documentation
+
+- [Project Configuration](configuration.md)
+- [AI Workflow](ai-workflow/)
+- [Coding Conventions](conventions/)
+- [Module Index](modules/index.md)
+- [Theme Index](themes/index.md)
 
 ---
 
-## Adding New MCP Servers
-
-### Process
-1. Research the MCP server on npm/GitHub
-2. Test availability: `npx -y <package-name> --help`
-3. Add to `.claude/mcp.json` with proper configuration
-4. Document in this file
-5. Update the index below
-
-### Naming Convention
-- Use kebab-case for server names
-- Prefix with purpose if ambiguous (e.g., `mcp-deepwiki`)
-- Avoid deprecated packages
-
----
-
-## Index Cross-References
-
-### Module Docs
-- See [Xot Module MCP Docs](../../laravel/Modules/Xot/docs/mcp-servers.md)
-- See [Cms Module MCP Docs](../../laravel/Modules/Cms/docs/mcp-integration.md)
-
-### Theme Docs
-- See [Sixteen Theme MCP Docs](../../laravel/Themes/Sixteen/docs/mcp-servers.md)
-
-### Project Docs
-- See [AI Workflow](project/ai-workflow.md)
-- See [Conventions](project/conventions.md)
-
----
-
-## Maintenance
-
-### Regular Tasks
-- [ ] Check for deprecated packages (monthly)
-- [ ] Test all servers are reachable (weekly)
-- [ ] Update packages when new versions available (monthly)
-- [ ] Review API key validity (quarterly)
-
-### Troubleshooting
-| Issue | Solution |
-|-------|----------|
-| MCP server not found | Run `npx -y <package> --help` to test |
-| JSON parse error | Validate `.claude/mcp.json` syntax |
-| Permission denied | Check file paths are absolute |
-| API key expired | Update env var in mcp.json |
-
----
-
-*Last updated: 2026-04-09*  
-*Maintained by: AI Agents + Development Team*
+*This document follows DRY+KISS principles. For questions or updates, edit this file and update cross-references.*
