@@ -30,3 +30,13 @@
 2. Bootstrap class names ARE USED in HTML markup for parity (row, col-12, btn, card, form-check, title-*, ecc.) but Bootstrap CSS/JS files are NEVER loaded. Styling via TailwindCSS @apply in style-apply.css. Interactivity via Alpine.js (x-data, @click, x-show). NEVER use data-bs-* attributes.
 3. ALL blade text must use __('namespace::collection.element.type') - NO hardcoded strings in any language.
 - HTML Structural Parity è ESSENZIALE, NON secondaria. Replichiamo ESATTAMENTE la struttura HTML del reference: stessi tag, stesse classi Bootstrap, stessi data-element, stessa gerarchia. NON inventare classi custom. Poi parità visiva/funzionale con TailwindCSS @apply e Alpine.js. Traduzioni 5 livelli: namespace::context.collection.element.type (es: fixcity::segnalazione.fields.title.label).
+
+- **CRITICAL: Widget Naming — Use `Ticket` NOT `Segnalazione`.** All PHP/Filament widget classes for ticket creation MUST use `Ticket` in the name. Correct: `CreateTicketWizardWidget`. WRONG: `CreateSegnalazioneWizardWidget`, `SegnalazioneCreateWidget`. The single correct widget is `Modules\Fixcity\Filament\Widgets\CreateTicketWizardWidget`.
+
+- **CRITICAL: Frontoffice Widget Architecture — NO Filament Schemas Wizard.** `Filament\Schemas\Components\Wizard` requires JS assets (`step`, `isFirstStep`, `filamentSchemaComponent`) NOT available in the frontoffice theme. Use pure Livewire state (`$currentStep`) with manual step navigation instead. The widget extends `BaseWidget` with `InteractsWithForms` + `InteractsWithActions`.
+
+- **CRITICAL: Multi-Agent Collision Prevention.** Before creating/modifying any widget, form, or page: 1) grep for existing implementations, 2) read existing docs, 3) check if another agent already modified the file. If collision detected, merge the best approach, document the decision.
+
+- **CRITICAL: NO dates in .md filenames.** Use `phpstan-fix-plan.md` NOT `phpstan-fix-plan-2026-03-02.md`. Dates go inside the document body, never in the filename.
+
+- **CRITICAL: Always update docs on code changes.** When creating/modifying widgets, update: module docs (`Modules/*/docs/`), theme docs (`Themes/*/docs/`), indexes, and this QWEN.md if a new pattern emerges.

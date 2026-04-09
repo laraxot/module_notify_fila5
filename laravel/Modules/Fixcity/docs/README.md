@@ -132,6 +132,7 @@ php artisan test --filter=TicketResourceTest
 - [Resources](resources.md) - Gestione risorse Filament
 - [Pages](pages.md) - Pagine personalizzate
 - [Widgets](widgets.md) - Widget dashboard
+- [Ticket Wizard Frontoffice](ticket-wizard-frontoffice.md) - Wizard creazione ticket frontoffice
 
 ### 🔧 **Development**
 - [PHPStan Fixes](phpstan/) - Log correzioni PHPStan
