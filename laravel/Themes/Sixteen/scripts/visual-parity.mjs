@@ -25,6 +25,10 @@ const PAGES = {
     local: 'http://127.0.0.1:8000/it/tests/segnalazione-01-privacy',
     reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-01-privacy.html'
   },
+  'segnalazione-crea': {
+    local: 'http://127.0.0.1:8000/it/tests/segnalazione-crea',
+    reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-01-privacy.html'
+  },
   'segnalazione-02-dati': {
     local: 'http://127.0.0.1:8000/it/tests/segnalazione-02-dati',
     reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati.html'

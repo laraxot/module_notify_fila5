@@ -28,7 +28,7 @@ main *,
 .row *,
 [class*="col-"],
 [class*="col-"] * {
-  font-family: "Titillium Web", Geneva, Tahoma, sans-serif !important;
+  font-family: "Titillium Web" !important;
 }
 
 /* Preserve monospace for code elements */

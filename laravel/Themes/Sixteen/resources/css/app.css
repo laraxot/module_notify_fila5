@@ -2538,7 +2538,7 @@ main *,
 .row *,
 [class*="col-"],
 [class*="col-"] * {
-  font-family: "Titillium Web", Geneva, Tahoma, sans-serif !important;
+  font-family: "Titillium Web" !important;
 }
 
 /* Preserve monospace ONLY for code elements and debug */
@@ -2550,5 +2550,5 @@ pre, code, kbd, samp,
 
 /* ABSOLUTE FINAL OVERRIDE - body font with !important */
 html body {
-  font-family: "Titillium Web", Geneva, Tahoma, sans-serif !important;
+  font-family: "Titillium Web" !important;
 }

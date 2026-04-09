@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Filament\Widgets;
 
-use Filament\Actions\Action;
-use Filament\Actions\Contracts\HasActions;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Widgets\Widget as BaseWidget;
+use Filament\Schemas\Components\Component;
 use Illuminate\Contracts\View\View;
 use Modules\Fixcity\Events\TicketCreatedEvent;
 use Modules\Fixcity\Models\Ticket;
@@ -17,11 +14,15 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
  * Widget frontoffice per creazione Ticket in 3 step.
  *
  * Step 1: Privacy - accettazione informativa
- * Step 2: Dati - luogo, tipo, titolo, dettagli, email
- * Step 3: Riepilogo - revisione + submit → redirect a conferma
+ * Step 2: Dati - luogo, tipo, titolo, dettagli, immagini, autore
+ * Step 3: Riepilogo - revisione + submit → redirect a /tests/segnalazione-04-conferma
  *
- * Estende XotBaseWidget seguendo le regole Laraxot.
- * Navigazione step via stato Livewire puro ($currentStep) per compatibilità frontoffice.
+ * Nota: la pagina 04-conferma NON fa parte del wizard, è una pagina separata
+ * raggiunta via redirect dopo il submit al Step 3.
+ *
+ * Navigazione step via stato Livewire puro ($currentStep).
+ * Nessun Filament Schema component: parità HTML Design Comuni.
+ * Translations: fixcity::segnalazione.steps.<item>.<tipo>
  */
 class CreateTicketWizardWidget extends XotBaseWidget
 {
@@ -34,8 +35,10 @@ class CreateTicketWizardWidget extends XotBaseWidget
     /** @var array<string, mixed> */
     public array $blockData = [];
 
+    // Step 1: Privacy
     public bool $privacyAccepted = false;
 
+    // Step 2: Dati segnalazione
     public string $address = '';
 
     public string $issueType = '';
@@ -46,15 +49,24 @@ class CreateTicketWizardWidget extends XotBaseWidget
 
     public string $email = '';
 
+    /** @var array<int, string> */
+    public array $images = [];
+
+    // Step 2: Autore (se non autenticato)
+    public string $userName = '';
+
+    public string $userFiscalCode = '';
+
+    public string $userPhone = '';
+
     /** @param array<string, mixed> $blockData */
     public function mount(array $blockData = []): void
     {
         $this->blockData = $blockData;
-        $this->data = $this->getFormFill();
     }
 
     /**
-     * @return array<string, \Filament\Schemas\Components\Component>
+     * @return array<string, Component>
      */
     public function getFormSchema(): array
     {
@@ -87,6 +99,21 @@ class CreateTicketWizardWidget extends XotBaseWidget
         }
     }
 
+    public function removeImage(int $index): void
+    {
+        unset($this->images[$index]);
+        $this->images = array_values($this->images);
+    }
+
+    /**
+     * Stub per upload immagini via Alpine.js.
+     * L'upload effettivo avviene lato client; i path vengono passati tramite $wire.set().
+     */
+    public function handleImageUpload(): void
+    {
+        // Implementazione futura: usare Livewire TemporaryUploadedFile
+    }
+
     public function submit(): void
     {
         $this->validate([
@@ -96,6 +123,9 @@ class CreateTicketWizardWidget extends XotBaseWidget
             'title' => ['required', 'string', 'max:255'],
             'details' => ['required', 'string'],
             'email' => ['nullable', 'email', 'max:255'],
+            'userName' => ['nullable', 'string', 'max:255'],
+            'userFiscalCode' => ['nullable', 'string', 'max:16'],
+            'userPhone' => ['nullable', 'string', 'max:20'],
         ]);
 
         $ticket = Ticket::create([

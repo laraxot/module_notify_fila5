@@ -161,7 +161,7 @@ body.page-tests-lista-risorse .card-title a {
 
 body.page-tests-lista-risorse .card-text {
   color: #4f6377;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web";
   font-size: 0.98rem;
   line-height: 1.5;
 }

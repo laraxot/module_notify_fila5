@@ -21,11 +21,42 @@ Il widget segue i principi Laraxot ed estende `XotBaseWidget`.
 - **Naming**: Usa sempre `Ticket` invece di `Segnalazione` nel codice PHP.
 
 ### Step del Wizard (3):
-1. **Privacy**: Accettazione informativa obbligatoria.
-2. **Dati**: Raccolta di indirizzo, tipo disservizio, titolo, dettagli ed email.
-3. **Riepilogo**: Revisione finale dei dati e pulsante di invio (Submit).
+1. **Privacy** (`$currentStep === 1`): Accettazione informativa obbligatoria (`$privacyAccepted`).
+2. **Dati** (`$currentStep === 2`): Raccolta di indirizzo, tipo disservizio, titolo, dettagli, email, immagini (opzionali), autore (se non autenticato: `$userName`, `$userFiscalCode`, `$userPhone`).
+3. **Riepilogo + Submit** (`$currentStep === 3`): Revisione finale dei dati e pulsante di invio.
 
-**Conferma**: Il redirect post-invio punta alla pagina `/{locale}/tests/segnalazione-04-conferma`, che è esterna al wizard.
+**Conferma**: Il redirect post-invio punta alla pagina `/{locale}/tests/segnalazione-04-conferma`, che è **esterna al wizard** (pagina separata di esito).
+
+### Proprietà Livewire del widget:
+```php
+// Navigazione
+public int $currentStep = 1;
+public array $blockData = [];
+// Step 1
+public bool $privacyAccepted = false;
+// Step 2 - Segnalazione
+public string $address = '';
+public string $issueType = '';
+public string $title = '';
+public string $details = '';
+public string $email = '';
+public array $images = [];   // percorsi immagini
+// Step 2 - Autore (guest)
+public string $userName = '';
+public string $userFiscalCode = '';
+public string $userPhone = '';
+```
+
+### Metodi chiave:
+- `nextStep()`: valida step corrente e avanza (max 3)
+- `prevStep()`: torna allo step precedente (min 1)
+- `submit()`: valida tutto, crea Ticket, dispatch `TicketCreatedEvent`, redirect a conferma
+- `removeImage(int $index)`: rimuove immagine dall'array
+- `getIssueTypeOptions()`: tipi disservizio da `$blockData['issue_types']` o da traduzioni
+
+### Classe naming convention:
+- **CORRETTO**: `CreateTicketWizardWidget` (Ticket, non Segnalazione)
+- **SBAGLIATO**: ~~`CreateSegnalazioneWizardWidget`~~
 
 ## Traduzioni
 Segue il pattern richiesto: `fixcity::segnalazione.steps.<item>.<tipo>`.

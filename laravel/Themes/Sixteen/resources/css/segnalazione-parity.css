@@ -698,7 +698,7 @@ body, .segnalazione-privacy-page, .segnalazione-dati-page,
 }
 
 .it-page-section h2 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web';
   font-style: italic;
   font-size: 1.75rem;
   font-weight: 700;
@@ -1394,7 +1394,7 @@ main svg:not(.leaflet-zoom-animated):not([width]):not([class*="icon"]) {
 }
 
 .cmp-hero-cta h2 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web';
   font-style: italic;
   font-size: 1.75rem;
   margin-bottom: 0.75rem;
@@ -1850,7 +1850,7 @@ a.read-terms {
   font-weight: 600 !important;
   font-size: 0.95rem !important;
   cursor: pointer !important;
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   transition: all 0.2s ease !important;
 }
 
@@ -1869,7 +1869,7 @@ a.read-terms {
   font-weight: 600 !important;
   font-size: 0.95rem !important;
   cursor: pointer !important;
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   transition: all 0.2s ease !important;
 }
 
@@ -1989,7 +1989,7 @@ a.read-terms {
    Updated: 2026-04-09 - Visual parity analysis confirmed #191919
    -------------------------------------------------------------------------- */
 .segnalazione-privacy-page .text-paragraph {
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 24px !important;
@@ -2001,7 +2001,7 @@ a.read-terms {
 /* Override any .lora class that might be applied to paragraphs */
 .segnalazione-privacy-page p.lora,
 .segnalazione-privacy-page .lora.text-paragraph {
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   font-size: 16px !important;
   line-height: 24px !important;
   color: #191919 !important;
@@ -2086,7 +2086,7 @@ a.read-terms {
   font-size: 1rem !important;
   font-weight: 700 !important;
   color: #fff !important;
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   cursor: pointer !important;
   transition: background-color 0.15s ease !important;
   margin-top: 1.5rem !important;
@@ -2614,15 +2614,15 @@ body.page-tests-segnalazione-01-privacy .steppers-header li {
   padding: 0 0 0.9rem !important;
   margin: 0 !important;
   border-bottom: 1px solid #d9e3ea !important;
-  color: #5b6f82 !important;
-  font-size: 0.875rem !important;
+  color: #007A52 !important;
+  font-size: 1.125rem !important;
   font-weight: 600 !important;
   line-height: 1.45 !important;
   white-space: normal !important;
 }
 
 body.page-tests-segnalazione-01-privacy .steppers-header li.active {
-  color: #17324d !important;
+  color: #007A52 !important;
   border-bottom: 2px solid #008758 !important;
 }
 
@@ -2653,7 +2653,7 @@ body.page-tests-segnalazione-01-privacy .steppers-index {
 
 body.page-tests-segnalazione-01-privacy .text-paragraph {
   color: #5C6F82 !important;
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 24px !important;
@@ -2710,7 +2710,7 @@ body.page-tests-segnalazione-01-privacy .btn.btn-primary.mobile-full {
    ============================================================================ */
 body.page-tests-segnalazione-01-privacy .text-paragraph {
   color: #191919 !important;
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 24px !important;
@@ -2720,7 +2720,7 @@ body.page-tests-segnalazione-01-privacy .text-paragraph {
 /* Also override via container class (dual approach for maximum specificity) */
 .segnalazione-privacy-page .text-paragraph {
   color: #191919 !important;
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 24px !important;
@@ -2731,7 +2731,7 @@ body.page-tests-segnalazione-01-privacy p.lora,
 body.page-tests-segnalazione-01-privacy .lora.text-paragraph,
 .segnalazione-privacy-page p.lora,
 .segnalazione-privacy-page .lora.text-paragraph {
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   font-size: 16px !important;
   line-height: 24px !important;
   color: #191919 !important;
@@ -2821,7 +2821,7 @@ body.page-tests-segnalazione-01-privacy .cmp-contacts .icon {
 
 /* segnalazione-area-personale: Titillium Web 16px/24px, color #191919 */
 body.page-tests-segnalazione-area-personale .text-paragraph {
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 24px !important;
@@ -2841,9 +2841,57 @@ body.page-tests-segnalazione-dettaglio .text-paragraph {
 
 /* segnalazione-03-riepilogo: Titillium Web 18px/27px, color #30475f */
 body.page-tests-segnalazione-03-riepilogo .text-paragraph {
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
   font-size: 18px !important;
   font-weight: 400 !important;
   line-height: 27px !important;
   color: #30475f !important;
+}
+
+/* ============================================================================
+   FINAL VISUAL PARITY FIXES - 2026-04-09
+   Must override ALL conflicting page-specific rules
+   Reference: computed styles from italia.github.io
+   ============================================================================ */
+
+/* H1 title: REF 48px/60px w=700 → was 40px/44px */
+h1.title-xxxlarge {
+  font-size: 3rem !important;        /* 48px = 3 * 16px */
+  line-height: 60px !important;
+  font-weight: 700 !important;
+  color: rgb(25, 25, 25) !important;
+  margin-bottom: 24px !important;
+}
+
+/* Checkbox label: REF 18px/27px w=600 color=rgb(26,26,26) → was 14px/21px */
+.form-check .checkbox-body label.title-small-semi-bold,
+.form-check label[for="privacy"] {
+  font-size: 18px !important;
+  line-height: 27px !important;
+  font-weight: 600 !important;
+  color: rgb(26, 26, 26) !important;
+}
+
+/* Button: REF 16px/24.88px w=600 bg=rgb(0,122,82) → was 14px/21px w=400 bg=transparent */
+button.btn.btn-primary.mobile-full,
+.btn.btn-primary.mobile-full {
+  font-size: 16px !important;
+  line-height: 1.555 !important;     /* 24.88/16 */
+  font-weight: 600 !important;
+  background-color: rgb(0, 122, 82) !important;
+  color: rgb(255, 255, 255) !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 0.75rem 2rem !important;
+  min-height: 48px !important;
+}
+
+button.btn.btn-primary.mobile-full:hover,
+.btn.btn-primary.mobile-full:hover {
+  background-color: rgb(0, 90, 60) !important;
+}
+
+/* Contacts card background: REF rgb(235,238,240) */
+.bg-grey-card {
+  background-color: rgb(235, 238, 240) !important;
 }

@@ -43,7 +43,7 @@
 ======================================== */
 body {
   @apply font-sans text-base text-[#1A1A1A];
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web';
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -677,7 +677,7 @@ a {
   font-weight: 600;
 }
 .text-sans-serif {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web';
 }
 .lora {
   font-style: italic;
