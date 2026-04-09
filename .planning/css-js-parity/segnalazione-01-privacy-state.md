@@ -19,14 +19,19 @@ Make `http://127.0.0.1:8000/it/tests/segnalazione-01-privacy` visually identical
 
 ---
 
-## 📊 Baseline Metrics (2026-04-09 10:11)
+## 📊 All 7 Pages Status
 
-| Metric | Value | Source |
-|--------|-------|--------|
-| **HTML Parity** | 99.8% | bashscripts/html/compare-html.sh |
-| **Visual Parity** | 75% | scripts/visual-parity.mjs analysis |
-| **Font Matches** | 9/20 | Missing 18px, 16px, 14px combinations |
-| **Color Matches** | 4/11 | Missing reference colors |
+| Page | HTML Parity | CSS/JS Phase | Visual Analysis | Status |
+|------|-------------|--------------|-----------------|--------|
+| segnalazione-01-privacy | 99.5% | ✅ YES | Done | 🔄 CSS fixes applied |
+| segnalazione-02-dati | 97.0% | ✅ YES | Done | 🔄 CSS fixes applied |
+| segnalazione-03-riepilogo | 83.3% | ✅ YES | Done | 🔄 CSS fixes applied |
+| segnalazione-area-personale | 91.9% | ✅ YES | Done | 🔄 CSS fixes applied |
+| segnalazione-dettaglio | 86.8% | ✅ YES | Done | 🔄 CSS fixes applied |
+| segnalazioni-elenco | 72.5% | ❌ NO | - | ⏳ Needs HTML fix |
+| segnalazione-04-conferma | 43.6% | ❌ NO | - | ⏳ Needs HTML fix |
+
+**5 out of 7 pages qualify for CSS/JS phase (>80% HTML parity)**
 
 ---
 

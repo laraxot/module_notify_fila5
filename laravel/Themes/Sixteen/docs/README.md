@@ -10,10 +10,13 @@
 | Page | HTML Parity | Visual Parity | Status | Documentation |
 |------|-------------|---------------|--------|---------------|
 | **Homepage** | 99.5% | 85% | ✅ CSS Complete | [Homepage Analysis](HOMEPAGE-VISUAL-ANALYSIS.md) |
-| **segnalazione-01-privacy** | 99.8% | 75% → 80% | 🔄 CSS Fix In Progress | [CSS/JS Parity Fix](css-js-parity/segnalazione-01-privacy-css-fix.md) |
-| **servizi** | TBD | TBD | ⏳ Pending | - |
-| **amministrazione** | TBD | TBD | ⏳ Pending | - |
-| **faq** | TBD | TBD | ⏳ Pending | - |
+| **segnalazione-01-privacy** | 99.5% | ~80% | 🔄 CSS Global Fixes Applied | [CSS/JS Parity Fix](css-js-parity/segnalazione-01-privacy-css-fix.md) |
+| **segnalazione-02-dati** | 97.0% | ~80% | 🔄 CSS Global Fixes Applied + File Upload UI | [CSS/JS Parity Fix](css-js-parity/segnalazione-01-privacy-css-fix.md) |
+| **segnalazione-03-riepilogo** | 83.3% | ~80% | 🔄 CSS Global Fixes Applied | [CSS/JS Parity Fix](css-js-parity/segnalazione-01-privacy-css-fix.md) |
+| **segnalazione-area-personale** | 91.9% | ~80% | 🔄 CSS Global Fixes Applied | [CSS/JS Parity Fix](css-js-parity/segnalazione-01-privacy-css-fix.md) |
+| **segnalazione-dettaglio** | 86.8% | ~80% | 🔄 CSS Global Fixes Applied | [CSS/JS Parity Fix](css-js-parity/segnalazione-01-privacy-css-fix.md) |
+| **segnalazioni-elenco** | 72.5% | - | ❌ HTML fix needed first | - |
+| **segnalazione-04-conferma** | 43.6% | - | ❌ HTML fix needed first | - |
 
 ---
 
