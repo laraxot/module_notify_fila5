@@ -1360,10 +1360,10 @@
     "attrs": {
       "class": "cms-view-wrapper",
       "wire:effects": "{\"partials\":[]}",
-      "wire:id": "MXrBYxuxnQgwpnzky8Dd",
+      "wire:id": "BhMwBZMZ93FdHNrKyBRG",
       "wire:key": "lw-558597373-0",
       "wire:name": "volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9",
-      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazione-dettaglio\",\"pageSlug\":\"tests.segnalazione-dettaglio\",\"data\":[{\"slug\":\"segnalazione-dettaglio\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"MXrBYxuxnQgwpnzky8Dd\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazione-dettaglio\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":true},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"592991a7d1cc86e7b7304ad223f8dfd471c83681c9c973f8225fc970f4f6de2f\"}"
+      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazione-dettaglio\",\"pageSlug\":\"tests.segnalazione-dettaglio\",\"data\":[{\"slug\":\"segnalazione-dettaglio\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"BhMwBZMZ93FdHNrKyBRG\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazione-dettaglio\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":true},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"604b81848770768c1264837c3f7c549ab97505791a5a75b864f4e811419417ab\"}"
     },
     "direct_text": ""
   },
@@ -4262,6 +4262,872 @@
       "class": "col-12 pt-5"
     },
     "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "carousel-4-card cmp-carousel it-carousel-wrapper splide"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "it-header-block"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "it-header-block-title"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]",
+    "tag": "h2",
+    "attrs": {
+      "class": "border-0 cmp-carousel__title pb-0 text-center"
+    },
+    "direct_text": "Contenuti correlati"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]",
+    "tag": "div",
+    "attrs": {
+      "class": "splide__track"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]",
+    "tag": "ul",
+    "attrs": {
+      "class": "it-carousel-all splide__list"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]",
+    "tag": "li",
+    "attrs": {
+      "class": "splide__slide"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-space card-wrapper h-100 pb-4"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card card-bg rounded shadow-sm single-card"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-carousel__header"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "aria-hidden": "true",
+      "class": "icon icon-md"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-pa"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/span[1]",
+    "tag": "span",
+    "attrs": {
+      "class": "cmp-carousel__header-title ms-3"
+    },
+    "direct_text": "Amministrazione"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "link-list-wrapper"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]",
+    "tag": "ul",
+    "attrs": {
+      "class": "card-body__list"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/uffici"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Area Servizi Civici"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]",
+    "tag": "li",
+    "attrs": {
+      "class": "splide__slide"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-space card-wrapper h-100 pb-4"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card card-bg rounded shadow-sm single-card"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-carousel__header"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "aria-hidden": "true",
+      "class": "icon icon-md"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-settings"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/span[1]",
+    "tag": "span",
+    "attrs": {
+      "class": "cmp-carousel__header-title ms-3"
+    },
+    "direct_text": "Servizi"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "link-list-wrapper"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]",
+    "tag": "ul",
+    "attrs": {
+      "class": "card-body__list"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/servizio"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Pagamento retta scolastica"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/servizio"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Servizio di trasporto scolastico"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]",
+    "tag": "li",
+    "attrs": {
+      "class": "splide__slide"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-space card-wrapper h-100 pb-4"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card card-bg rounded shadow-sm single-card"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-carousel__header"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "aria-hidden": "true",
+      "class": "icon icon-md"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-file"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/span[1]",
+    "tag": "span",
+    "attrs": {
+      "class": "cmp-carousel__header-title ms-3"
+    },
+    "direct_text": "Documenti"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "link-list-wrapper"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]",
+    "tag": "ul",
+    "attrs": {
+      "class": "card-body__list"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/documento"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Attestazione ISEE"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/documento"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Carta dei servizi educativi all'infanzia"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]",
+    "tag": "li",
+    "attrs": {
+      "class": "splide__slide"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-space card-wrapper h-100 pb-4"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card card-bg rounded shadow-sm single-card"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-carousel__header"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "aria-hidden": "true",
+      "class": "icon icon-md"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/span[1]",
+    "tag": "span",
+    "attrs": {
+      "class": "cmp-carousel__header-title ms-3"
+    },
+    "direct_text": "Notizie"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "link-list-wrapper"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]",
+    "tag": "ul",
+    "attrs": {
+      "class": "card-body__list"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/notizia"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Justo eget magna fermentum"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/notizia"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Dolor magna eget est lorem"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/notizia"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Justo eget magna fermentum"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/notizia"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Dolor magna eget est lorem"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]",
+    "tag": "li",
+    "attrs": {
+      "x-data": "{ open: false }"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]",
+    "tag": "a",
+    "attrs": {
+      ":aria-expanded": "open.toString()",
+      "@click.prevent": "open = !open",
+      "aria-controls": "collapseExample",
+      "class": "px-0 show-more",
+      "data-bs-toggle": "collapse",
+      "href": "#collapseExample"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {
+      "class": "align-items-center d-flex show-more"
+    },
+    "direct_text": "Vedi altri 2"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "class": "icon icon-md icon-primary"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]",
+    "tag": "ul",
+    "attrs": {
+      "class": "collapse",
+      "id": "collapseExample",
+      "x-show": "open"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/notizia"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Servizio di trasporto scolastico"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item px-0",
+      "href": "/it/tests/notizia"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Servizio di trasporto scolastico"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/span[1]",
+    "tag": "span",
+    "attrs": {
+      "class": "d-lg-block d-none hr-shadow-sm"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]",
+    "tag": "div",
+    "attrs": {
+      "class": "col-12 col-lg-6 offset-lg-3 p-contacts"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-contacts"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card w-100"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h2[1]",
+    "tag": "h2",
+    "attrs": {
+      "class": "title-medium-2-semi-bold"
+    },
+    "direct_text": "Contatta il comune"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]",
+    "tag": "ul",
+    "attrs": {
+      "class": "contact-list p-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item",
+      "href": "/it/tests/faq"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "aria-hidden": "true",
+      "class": "icon icon-primary icon-sm"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-help-circle"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Leggi le domande frequenti"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item",
+      "href": "/it/tests/contatti"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "aria-hidden": "true",
+      "class": "icon icon-primary icon-sm"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-mail"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Richiedi assistenza"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item",
+      "href": "tel:050505"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "aria-hidden": "true",
+      "class": "icon icon-primary icon-sm"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-hearing"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Chiama il numero verde 05 0505"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]",
+    "tag": "li",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "class": "list-item",
+      "href": "/it/tests/appuntamento-01-ufficio"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "aria-hidden": "true",
+      "class": "icon icon-primary icon-sm"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-calendar"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]",
+    "tag": "span",
+    "attrs": {},
+    "direct_text": "Prenota appuntamento"
   },
   {
     "path": "body/div[2]",

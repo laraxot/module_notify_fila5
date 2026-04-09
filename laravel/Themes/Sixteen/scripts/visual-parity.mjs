@@ -25,6 +25,30 @@ const PAGES = {
     local: 'http://127.0.0.1:8000/it/tests/segnalazione-01-privacy',
     reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-01-privacy.html'
   },
+  'segnalazione-02-dati': {
+    local: 'http://127.0.0.1:8000/it/tests/segnalazione-02-dati',
+    reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati.html'
+  },
+  'segnalazione-03-riepilogo': {
+    local: 'http://127.0.0.1:8000/it/tests/segnalazione-03-riepilogo',
+    reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-03-riepilogo.html'
+  },
+  'segnalazione-04-conferma': {
+    local: 'http://127.0.0.1:8000/it/tests/segnalazione-04-conferma',
+    reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-04-conferma.html'
+  },
+  'segnalazione-area-personale': {
+    local: 'http://127.0.0.1:8000/it/tests/segnalazione-area-personale',
+    reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-area-personale.html'
+  },
+  'segnalazioni-elenco': {
+    local: 'http://127.0.0.1:8000/it/tests/segnalazioni-elenco',
+    reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html'
+  },
+  'segnalazione-dettaglio': {
+    local: 'http://127.0.0.1:8000/it/tests/segnalazione-dettaglio',
+    reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-dettaglio.html'
+  },
   'homepage': {
     local: 'http://127.0.0.1:8000/it/',
     reference: 'https://italia.github.io/design-comuni-pagine-statiche/sito/index.html'

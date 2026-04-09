@@ -2,42 +2,28 @@
 
 - Reference: `https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html`
 - Local: `http://127.0.0.1:8000/it/tests/segnalazioni-elenco`
-- Threshold: `90.0%`
-- Status: ❌ FAIL
+- Threshold: `80.0%`
+- Status: ✅ PASS
 
 ## Summary
 
-- 📊 Parity score: **77.55%**
-- Tag parity: 89.68%
-- ID parity: 69.39%
-- Class parity: 75.8%
+- 📊 Parity score: **80.19%**
+- Tag parity: 96.0%
+- ID parity: 100.0%
+- Class parity: 87.61%
 - Reference elements: 775
-- Local elements: 709
+- Local elements: 785
 
 ## Counts
 
-- ✅ Identical elements: 548
-- ⚠️ Elements with differences: 106
-- ❌ Missing elements: 121
-- ➕ Extra local elements: 55
+- ✅ Identical elements: 561
+- ⚠️ Elements with differences: 137
+- ❌ Missing elements: 77
+- ➕ Extra local elements: 87
 
 ## ID Differences
 
-- ❌ Missing id `#formGroupExampleInputWithHelp`
-- ❌ Missing id `#formGroupExampleInputWithHelpDescription`
-- ❌ Missing id `#modal-disservizio`
-- ❌ Missing id `#modal2Title`
-- ❌ Missing id `#radio-1`
-- ❌ Missing id `#radio-10`
-- ❌ Missing id `#radio-2`
-- ❌ Missing id `#radio-3`
-- ❌ Missing id `#radio-4`
-- ❌ Missing id `#radio-5`
-- ❌ Missing id `#radio-6`
-- ❌ Missing id `#radio-7`
-- ❌ Missing id `#radio-8`
-- ❌ Missing id `#radio-9`
-- ❌ Missing id `#rating-feedback`
+- ✅ No missing ids
 - ⚠️ Extra id `#mobile-enviroment`
 - ⚠️ Extra id `#mobile-green`
 - ⚠️ Extra id `#mobile-maintenance`
@@ -49,8 +35,6 @@
 - ⚠️ Extra id `#mobile-street-furniture`
 - ⚠️ Extra id `#mobile-waste`
 - ⚠️ Extra id `#mobile-water`
-- ⚠️ Extra id `#modal-categories`
-- ⚠️ Extra id `#modal-categories-label`
 
 ## Element Details
 
@@ -175,7 +159,7 @@
 - ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]` (`<li>`)
 - ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1]` (`<a>` / `<a>`): attributes differ
 
-- … truncated: 710 more element results in JSON report
+- … truncated: 742 more element results in JSON report
 
 ---
 

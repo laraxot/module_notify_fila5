@@ -1360,10 +1360,10 @@
     "attrs": {
       "class": "cms-view-wrapper",
       "wire:effects": "{\"partials\":[]}",
-      "wire:id": "WE14cpWalvfXxBK74Czn",
+      "wire:id": "J3N2Cprmo4VelsLc5mJj",
       "wire:key": "lw-558597373-0",
       "wire:name": "volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9",
-      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazione-03-riepilogo\",\"pageSlug\":\"tests.segnalazione-03-riepilogo\",\"data\":[{\"slug\":\"segnalazione-03-riepilogo\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"WE14cpWalvfXxBK74Czn\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazione-03-riepilogo\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":true},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"e61f383d91d7ff67a31e4ad3ae81a1e128ed78b3547af5a0ada89cdb793be3bc\"}"
+      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazione-03-riepilogo\",\"pageSlug\":\"tests.segnalazione-03-riepilogo\",\"data\":[{\"slug\":\"segnalazione-03-riepilogo\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"J3N2Cprmo4VelsLc5mJj\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazione-03-riepilogo\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":true},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"8274b1a5dd297d61f959e28adf97905372c2f3ccdf8edffd2ce42d390456626e\"}"
     },
     "direct_text": ""
   },

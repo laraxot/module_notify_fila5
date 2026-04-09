@@ -1,6 +1,6 @@
 --- segnalazioni-elenco-reference
 +++ segnalazioni-elenco-local
-@@ -165,419 +165,353 @@
+@@ -165,419 +165,429 @@
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/svg[1] | <svg> | id=- | class=align-top icon icon-sm icon-white | text=-
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/span[1] | <span> | id=- | class=visually-hidden | text=RSS
@@ -623,7 +623,7 @@
 +body/main[1]/div[1]/div[1]/div[1]/div[3] | <div> | id=- | class=bg-primary | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1] | <div> | id=- | class=container | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1] | <div> | id=- | class=bg-primary d-flex justify-content-center row | text=-
-+body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1] | <div> | id=- | class=col-12 col-lg-6 p-lg-0 px-3 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1] | <div> | id=- | class=col-12 col-lg-6 p-lg-0 px-4 | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1] | <div> | id=rating | class=cmp-rating pb-lg-80 pt-lg-80 | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=card card-wrapper shadow | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=cmp-rating__card-first | text=-
@@ -631,37 +631,113 @@
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1] | <h2> | id=- | class=mb-0 title-medium-2-semi-bold | text=Quanto sono chiare le informazioni su questa pagina?
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2] | <div> | id=- | class=card-body | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1] | <fieldset> | id=- | class=rating | text=-
-+body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/legend[1] | <legend> | id=- | class=visually-hidden | text=Valutazione da 1 a 5 stelle
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/legend[1] | <legend> | id=- | class=visually-hidden | text=Valuta da 1 a 5 stelle la pagina
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/input[1] | <input> | id=star5a | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[1] | <label> | id=- | class=active full rating-star | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[1]/svg[1] | <svg> | id=- | class=icon icon-sm | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[1]/svg[1]/path[1] | <path> | id=- | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[1]/svg[1]/path[2] | <path> | id=- | class=- | text=-
-+body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[1]/span[1] | <span> | id=first-star | class=visually-hidden | text=5 stelle su 5
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[1]/span[1] | <span> | id=first-star | class=visually-hidden | text=Valuta 5 stelle su 5
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/input[2] | <input> | id=star4a | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[2] | <label> | id=- | class=active full rating-star | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[2]/svg[1] | <svg> | id=- | class=icon icon-sm | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[2]/svg[1]/path[1] | <path> | id=- | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[2]/svg[1]/path[2] | <path> | id=- | class=- | text=-
-+body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[2]/span[1] | <span> | id=second-star | class=visually-hidden | text=4 stelle su 5
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[2]/span[1] | <span> | id=second-star | class=visually-hidden | text=Valuta 4 stelle su 5
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/input[3] | <input> | id=star3a | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[3] | <label> | id=- | class=active full rating-star | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[3]/svg[1] | <svg> | id=- | class=icon icon-sm | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[3]/svg[1]/path[1] | <path> | id=- | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[3]/svg[1]/path[2] | <path> | id=- | class=- | text=-
-+body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[3]/span[1] | <span> | id=third-star | class=visually-hidden | text=3 stelle su 5
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[3]/span[1] | <span> | id=third-star | class=visually-hidden | text=Valuta 3 stelle su 5
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/input[4] | <input> | id=star2a | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[4] | <label> | id=- | class=active full rating-star | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[4]/svg[1] | <svg> | id=- | class=icon icon-sm | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[4]/svg[1]/path[1] | <path> | id=- | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[4]/svg[1]/path[2] | <path> | id=- | class=- | text=-
-+body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[4]/span[1] | <span> | id=fourth-star | class=visually-hidden | text=2 stelle su 5
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[4]/span[1] | <span> | id=fourth-star | class=visually-hidden | text=Valuta 2 stelle su 5
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/input[5] | <input> | id=star1a | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[5] | <label> | id=- | class=active full rating-star | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[5]/svg[1] | <svg> | id=- | class=icon icon-sm | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[5]/svg[1]/path[1] | <path> | id=- | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[5]/svg[1]/path[2] | <path> | id=- | class=- | text=-
-+body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[5]/span[1] | <span> | id=fifth-star | class=visually-hidden | text=1 stella su 5
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[5]/span[1] | <span> | id=fifth-star | class=visually-hidden | text=Valuta 1 stella su 5
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2] | <div> | id=- | class=cmp-rating__card-second d-none | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1] | <div> | id=- | class=border-0 card-header mb-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/h2[1] | <h2> | id=rating-feedback | class=mb-0 title-medium-2-bold | text=Il tuo feedback ci aiuta a migliorare il servizio.
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2] | <div> | id=- | class=d-none form-rating | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1] | <div> | id=- | class=cmp-steps-rating | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1] | <fieldset> | id=- | class=d-none fieldset-rating-one | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/legend[1] | <legend> | id=- | class=iscrizioni-header w-100 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/legend[1]/h3[1] | <h3> | id=- | class=align-items-lg-center d-flex drop-shadow flex-column flex-lg-row justify-content-between step-title | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/legend[1]/h3[1]/span[1] | <span> | id=- | class=d-block text-wrap | text=Cosa ritieni di meglio di questa pagina?
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/legend[1]/h3[1]/span[2] | <span> | id=- | class=step | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1] | <div> | id=- | class=cmp-steps-rating__body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1] | <div> | id=- | class=cmp-radio-list | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1] | <div> | id=- | class=card card-teaser shadow-rating | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=card-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=form-check m-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=border-bottom border-light cmp-radio-list__item radio-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1] | <input> | id=radio-1 | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1] | <label> | id=- | class=active | text=Le informazioni sono chiare
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2] | <div> | id=- | class=form-check m-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1] | <div> | id=- | class=border-bottom border-light cmp-radio-list__item radio-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1] | <input> | id=radio-2 | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/label[1] | <label> | id=- | class=active | text=Le informazioni sono complete
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3] | <div> | id=- | class=form-check m-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1] | <div> | id=- | class=border-bottom border-light cmp-radio-list__item radio-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/input[1] | <input> | id=radio-3 | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/label[1] | <label> | id=- | class=active | text=È facile trovare quello che cerco
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4] | <div> | id=- | class=form-check m-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1] | <div> | id=- | class=border-bottom border-light cmp-radio-list__item radio-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/input[1] | <input> | id=radio-4 | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/label[1] | <label> | id=- | class=active | text=Il design è gradevole
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5] | <div> | id=- | class=form-check m-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1] | <div> | id=- | class=border-bottom border-light cmp-radio-list__item radio-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/input[1] | <input> | id=radio-5 | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/label[1] | <label> | id=- | class=active | text=Altro
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2] | <div> | id=- | class=cmp-steps-rating | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1] | <fieldset> | id=- | class=d-none fieldset-rating-two | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/legend[1] | <legend> | id=- | class=iscrizioni-header w-100 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/legend[1]/h3[1] | <h3> | id=- | class=align-items-lg-center d-flex drop-shadow flex-column flex-lg-row flex-wrap justify-content-between step-title | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/legend[1]/h3[1]/span[1] | <span> | id=- | class=d-block text-wrap | text=Cosa non va in questa pagina?
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/legend[1]/h3[1]/span[2] | <span> | id=- | class=step | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1] | <div> | id=- | class=cmp-steps-rating__body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1] | <div> | id=- | class=cmp-radio-list | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1] | <div> | id=- | class=card card-teaser shadow-rating | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=card-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=form-check m-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=border-bottom border-light cmp-radio-list__item radio-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1] | <input> | id=radio-6 | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1] | <label> | id=- | class=active | text=Le informazioni non sono chiare
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2] | <div> | id=- | class=form-check m-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1] | <div> | id=- | class=border-bottom border-light cmp-radio-list__item radio-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1] | <input> | id=radio-7 | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/label[1] | <label> | id=- | class=active | text=Le informazioni sono incomplete
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3] | <div> | id=- | class=form-check m-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1] | <div> | id=- | class=border-bottom border-light cmp-radio-list__item radio-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/input[1] | <input> | id=radio-8 | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/label[1] | <label> | id=- | class=active | text=È difficile trovare quello che cerco
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4] | <div> | id=- | class=form-check m-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1] | <div> | id=- | class=border-bottom border-light cmp-radio-list__item radio-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/input[1] | <input> | id=radio-9 | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/label[1] | <label> | id=- | class=active | text=Il design non è gradevole
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5] | <div> | id=- | class=form-check m-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1] | <div> | id=- | class=border-bottom border-light cmp-radio-list__item radio-body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/input[1] | <input> | id=radio-10 | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/label[1] | <label> | id=- | class=active | text=Altro
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3] | <div> | id=- | class=cmp-steps-rating | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1] | <div> | id=- | class=cmp-steps-rating__body | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[1] | <div> | id=- | class=form-group | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/label[1] | <label> | id=- | class=- | text=Dettaglio
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/input[1] | <input> | id=formGroupExampleInputWithHelp | class=form-control | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/small[1] | <small> | id=formGroupExampleInputWithHelpDescription | class=form-text | text=Inserire massimo 200 caratteri
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4] | <div> | id=- | class=button-shadow d-flex flex-nowrap justify-content-center pt-4 w-100 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/button[1] | <button> | id=- | class=btn btn-back btn-outline-primary fw-bold me-4 | text=Indietro
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/button[2] | <button> | id=- | class=btn btn-next btn-primary fw-bold | text=Avanti
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3] | <div> | id=- | class=cmp-rating__card-second d-none | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1] | <div> | id=- | class=border-0 card-header mb-0 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/h2[1] | <h2> | id=- | class=mb-0 title-medium-2-bold | text=Grazie per il tuo feedback!
 +body/main[1]/div[1]/div[1]/div[1]/div[4] | <div> | id=- | class=bg-grey-card shadow-contacts | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[4]/div[1] | <div> | id=- | class=container | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1] | <div> | id=- | class=d-flex justify-content-center p-contacts row | text=-
@@ -699,11 +775,11 @@
 +body/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[2]/li[1]/a[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[2]/li[1]/a[1]/span[1] | <span> | id=- | class=- | text=Segnala un problema
 +body/main[1]/div[1]/div[1]/div[1]/div[5] | <div> | id=- | class=it-example-modal | text=-
-+body/main[1]/div[1]/div[1]/div[1]/div[5]/div[1] | <div> | id=modal-categories | class=fade modal | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[5]/div[1] | <div> | id=modal-disservizio | class=fade modal | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1] | <div> | id=- | class=modal-dialog modal-dialog-scrollable | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1] | <div> | id=- | class=modal-content | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=modal-header | text=-
-+body/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/h2[1] | <h2> | id=modal-categories-label | class=h4 modal-title | text=categoria
++body/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/h2[1] | <h2> | id=modal2Title | class=h4 modal-title | text=categoria
 +body/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/button[1] | <button> | id=- | class=btn-close | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2] | <div> | id=- | class=modal-body | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]/fieldset[1] | <fieldset> | id=- | class=- | text=-

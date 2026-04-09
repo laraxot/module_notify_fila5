@@ -1,17 +1,17 @@
 {
   "summary": {
     "reference_elements": 559,
-    "local_elements": 553,
-    "identical": 463,
-    "different": 86,
-    "missing": 10,
-    "extra": 4
+    "local_elements": 575,
+    "identical": 467,
+    "different": 89,
+    "missing": 3,
+    "extra": 19
   },
   "scores": {
-    "parity": 90.52,
-    "tag_parity": 98.57,
+    "parity": 88.96,
+    "tag_parity": 100.0,
     "id_parity": 100.0,
-    "class_parity": 96.65
+    "class_parity": 99.09
   },
   "reference": {
     "tags": {
@@ -317,10 +317,10 @@
   },
   "local": {
     "tags": {
-      "a": 89,
+      "a": 91,
       "br": 9,
       "button": 14,
-      "div": 147,
+      "div": 150,
       "footer": 1,
       "form": 1,
       "h1": 1,
@@ -328,9 +328,10 @@
       "h3": 1,
       "h4": 7,
       "header": 1,
+      "hr": 2,
       "image": 1,
-      "img": 1,
-      "input": 3,
+      "img": 3,
+      "input": 4,
       "label": 6,
       "li": 82,
       "main": 1,
@@ -340,11 +341,12 @@
       "p": 8,
       "section": 3,
       "select": 1,
-      "span": 61,
-      "svg": 41,
+      "span": 63,
+      "svg": 44,
+      "template": 4,
       "textarea": 1,
       "ul": 17,
-      "use": 40
+      "use": 43
     },
     "ids": [
       "accordion-title-one",
@@ -354,6 +356,7 @@
       "collapse-one",
       "collapse-parents",
       "details",
+      "file-upload-attachments",
       "footer",
       "header-nav-wrapper",
       "heading-collapse-parents",
@@ -377,7 +380,8 @@
       "active": 3,
       "alert": 1,
       "alert-success": 1,
-      "align-items-center": 1,
+      "align-items-center": 3,
+      "align-self-center": 2,
       "align-top": 18,
       "autocomplete": 2,
       "autocomplete-icon": 1,
@@ -438,14 +442,14 @@
       "content": 1,
       "custom-navbar-toggler": 1,
       "d-block": 2,
-      "d-flex": 7,
+      "d-flex": 9,
       "d-inline-block": 1,
       "d-lg-block": 4,
       "d-lg-flex": 1,
       "d-lg-none": 2,
       "d-md-block": 3,
       "d-md-none": 1,
-      "d-none": 9,
+      "d-none": 10,
       "data-text": 2,
       "dropdown": 1,
       "dropdown-item": 2,
@@ -459,18 +463,19 @@
       "footer-list": 7,
       "form-control": 1,
       "form-group": 4,
-      "fw-bold": 1,
+      "fw-bold": 3,
       "has-bkg-grey": 3,
       "has-border": 1,
       "has-megamenu": 1,
-      "icon": 41,
+      "icon": 44,
       "icon-left": 1,
       "icon-md": 2,
-      "icon-primary": 8,
+      "icon-primary": 11,
       "icon-required": 1,
-      "icon-sm": 28,
+      "icon-sm": 30,
       "icon-white": 20,
       "icon-xs": 1,
+      "img": 2,
       "it-brand-tagline": 1,
       "it-brand-text": 3,
       "it-brand-title": 2,
@@ -492,7 +497,7 @@
       "it-right-zone": 1,
       "it-search-wrapper": 1,
       "it-socials": 2,
-      "justify-content-between": 1,
+      "justify-content-between": 3,
       "justify-content-center": 2,
       "justify-content-end": 1,
       "label": 1,
@@ -509,7 +514,7 @@
       "logo-wrapper": 1,
       "m-0": 4,
       "mb-0": 7,
-      "mb-1": 3,
+      "mb-1": 5,
       "mb-2": 1,
       "mb-3": 2,
       "mb-4": 1,
@@ -522,7 +527,7 @@
       "modal-dialog": 1,
       "modal-lg": 1,
       "modal-title": 1,
-      "ms-2": 1,
+      "ms-2": 3,
       "mt-3": 3,
       "mt-md-4": 2,
       "my-5": 1,
@@ -591,7 +596,7 @@
       "steppers-success": 1,
       "sticky-top": 1,
       "subtitle-small": 2,
-      "t-primary": 4,
+      "t-primary": 6,
       "text-area": 1,
       "text-area-wrapper": 1,
       "text-button-sm": 4,
@@ -607,14 +612,17 @@
       "title-xxxlarge": 1,
       "u-grey-dark": 3,
       "ue-logo": 1,
+      "upload-wrapper": 2,
       "variable-gutters": 2,
       "visually-hidden": 25,
       "visually-hidden-focusable": 2,
-      "w-100": 2
+      "w-100": 4
     }
   },
   "missing_ids": [],
-  "extra_ids": [],
+  "extra_ids": [
+    "file-upload-attachments"
+  ],
   "element_results": [
     {
       "status": "identical",
@@ -4007,7 +4015,7 @@
       ]
     },
     {
-      "status": "identical",
+      "status": "different",
       "ref_path": "body/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]",
       "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]",
       "ref_tag": "div",
@@ -4016,7 +4024,9 @@
         "tag",
         "classes"
       ],
-      "differences": []
+      "differences": [
+        "attributes differ"
+      ]
     },
     {
       "status": "identical",
@@ -4032,80 +4042,258 @@
       "differences": []
     },
     {
-      "status": "missing",
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]",
+      "ref_tag": null,
+      "local_tag": "template",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "identical",
       "ref_path": "body/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/img[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/img[1]",
       "ref_tag": "img",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "img",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "text `6yhakandsahm413d8.jpg` -> `img-disservizio-thumbnail.png`"
       ]
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/a[1]/svg[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/a[1]/svg[1]",
       "ref_tag": "svg",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "svg",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/a[1]/svg[1]/use[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/a[1]/svg[1]/use[1]",
       "ref_tag": "use",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "use",
+      "identical_parts": [
+        "tag"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/hr[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/hr[1]",
       "ref_tag": "hr",
-      "local_tag": null,
+      "local_tag": "hr",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]",
+      "ref_tag": null,
+      "local_tag": "template",
       "identical_parts": [],
       "differences": [
-        "missing in local document"
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]",
+      "ref_tag": null,
+      "local_tag": "div",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]",
+      "ref_tag": null,
+      "local_tag": "div",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[1]",
+      "ref_tag": null,
+      "local_tag": "template",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[1]/img[1]",
+      "ref_tag": null,
+      "local_tag": "img",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[2]",
+      "ref_tag": null,
+      "local_tag": "template",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[2]/svg[1]",
+      "ref_tag": null,
+      "local_tag": "svg",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[2]/svg[1]/use[1]",
+      "ref_tag": null,
+      "local_tag": "use",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/span[1]",
+      "ref_tag": null,
+      "local_tag": "span",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/a[1]",
+      "ref_tag": null,
+      "local_tag": "a",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/a[1]/svg[1]",
+      "ref_tag": null,
+      "local_tag": "svg",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/a[1]/svg[1]/use[1]",
+      "ref_tag": null,
+      "local_tag": "use",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/hr[1]",
+      "ref_tag": null,
+      "local_tag": "hr",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
+      ]
+    },
+    {
+      "status": "extra",
+      "ref_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/input[1]",
+      "ref_tag": null,
+      "local_tag": "input",
+      "identical_parts": [],
+      "differences": [
+        "extra in local document"
       ]
     },
     {
@@ -4161,31 +4349,29 @@
       ]
     },
     {
-      "status": "different",
+      "status": "identical",
       "ref_path": "body/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/button[1]/span[2]",
       "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/button[1]/span[2]",
       "ref_tag": "span",
       "local_tag": "span",
       "identical_parts": [
-        "tag"
+        "tag",
+        "text"
       ],
-      "differences": [
-        "text `Carica file` -> `fixcity::segnalazione.buttons.upload.label`"
-      ]
+      "differences": []
     },
     {
-      "status": "different",
+      "status": "identical",
       "ref_path": "body/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/p[1]",
       "local_path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/p[1]",
       "ref_tag": "p",
       "local_tag": "p",
       "identical_parts": [
         "tag",
-        "classes"
+        "classes",
+        "text"
       ],
-      "differences": [
-        "text `Seleziona una o più immagini da allegare alla segnalazione` -> `fixcity::segnalazione.fields.images.help.label`"
-      ]
+      "differences": []
     },
     {
       "status": "identical",

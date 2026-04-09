@@ -1,53 +1,45 @@
 # Ticket Wizard Frontoffice
 
 ## Decisione
-La pagina pubblica `tests.segnalazione-crea` e' l'entrypoint unificato del flusso utente.
-Le pagine legacy restano disponibili:
+La pagina pubblica `tests.segnalazione-crea` è l'entrypoint unificato del flusso utente per la creazione di segnalazioni (Ticket).
+Le pagine statiche legacy restano disponibili per riferimento o test di parità HTML:
 - `segnalazione-01-privacy`
 - `segnalazione-02-dati`
 - `segnalazione-03-riepilogo`
 - `segnalazione-04-conferma`
 
 ## Architettura
-Il widget **NON** usa `Filament\Schemas\Components\Wizard` perche' richiede asset JavaScript
-(`step`, `isFirstStep`, `isLastStep`, `filamentSchemaComponent`) non disponibili nel frontoffice.
+Il widget segue i principi Laraxot ed estende `XotBaseWidget`.
 
-Invece usa navigazione Livewire pura:
-- Stato `$currentStep` (1-3) con validazione per-step
-- Step 1: Privacy → checkbox obbligatoria
-- Step 2: Dati → address, issue_type, title, details, email
-- Step 3: Riepilogo → revisione + submit
-- Submit al step 3 crea il `Ticket` e redirect a `/{locale}/tests/segnalazione-04-conferma`
+**Nota tecnica**: Nonostante la disponibilità di asset Filament in alcune pagine frontoffice, il widget **NON** usa `Filament\Schemas\Components\Wizard` standard per garantire la massima fedeltà al design system "Design Comuni Italia" (Bootstrap Italia replicated via Tailwind).
 
-## Regole stabili
-- Le classi PHP/Filament usano `Ticket`, NON `Segnalazione`.
-- Il widget corretto e' `Modules\Fixcity\Filament\Widgets\CreateTicketWizardWidget`.
-- Estende `BaseWidget` con `InteractsWithForms` + `InteractsWithActions`.
-- `segnalazione-crea` appare come `segnalazione-01-privacy` (step 1 iniziale).
-- Gli step sono 3: `privacy`, `data`, `summary`.
-- Il submit avviene allo step 3 (`summary`).
-- `segnalazione-04-conferma` NON fa parte del wizard, e' pagina separata post-redirect.
-- Le traduzioni usano namespace `fixcity::segnalazione.*`.
-- Pattern traduzioni step: `fixcity::segnalazione.steps.<item>.label`.
+### Caratteristiche principali:
+- **Base Class**: `Modules\Fixcity\Filament\Widgets\CreateTicketWizardWidget`
+- **Estensione**: `Modules\Xot\Filament\Widgets\XotBaseWidget`
+- **Navigazione**: Stato Livewire puro (`$currentStep`) gestito manualmente nella vista.
+- **Validazione**: Per-step tramite metodi `nextStep()` e `submit()`.
+- **Naming**: Usa sempre `Ticket` invece di `Segnalazione` nel codice PHP.
 
-## Widget duplicati rimossi
-- `SegnalazioneCreateWidget.php` — rimosso (aveva 4 step, confirmation dentro wizard, sbagliato)
-- `CreateTicketWidget.php` — mantenuto (approccio diverso con TicketResource, per backoffice)
+### Step del Wizard (3):
+1. **Privacy**: Accettazione informativa obbligatoria.
+2. **Dati**: Raccolta di indirizzo, tipo disservizio, titolo, dettagli ed email.
+3. **Riepilogo**: Revisione finale dei dati e pulsante di invio (Submit).
+
+**Conferma**: Il redirect post-invio punta alla pagina `/{locale}/tests/segnalazione-04-conferma`, che è esterna al wizard.
+
+## Traduzioni
+Segue il pattern richiesto: `fixcity::segnalazione.steps.<item>.<tipo>`.
+Esempio: `fixcity::segnalazione.steps.privacy.label`.
+
+Il file principale è `laravel/Modules/Fixcity/lang/{locale}/segnalazione.php`.
 
 ## File coinvolti
-- widget: `laravel/Modules/Fixcity/app/Filament/Widgets/CreateTicketWizardWidget.php`
-- view widget: `laravel/Modules/Fixcity/resources/views/filament/widgets/ticket-create-wizard.blade.php`
-- blocco tema: `laravel/Themes/Sixteen/resources/views/components/blocks/tests/segnalazione-crea.blade.php`
-- json cms: `laravel/config/local/fixcity/database/content/pages/tests.segnalazione-crea.json`
-- traduzioni: `laravel/Modules/Fixcity/lang/{locale}/segnalazione.php`
-
-## Coordinamento multi-agent
-Prima di cambiare il flusso controllare sempre se altri agenti hanno gia' introdotto:
-- un widget `Ticket` concorrente
-- modifiche ai JSON CMS della stessa pagina
-- docs che fissano il numero di step o il naming delle classi
+- **Widget**: `laravel/Modules/Fixcity/app/Filament/Widgets/CreateTicketWizardWidget.php`
+- **View Widget**: `laravel/Modules/Fixcity/resources/views/filament/widgets/ticket-create-wizard.blade.php`
+- **Blocco Tema**: `laravel/Themes/Sixteen/resources/views/components/blocks/tests/segnalazione-crea.blade.php`
+- **CMS JSON**: `laravel/config/local/fixcity/database/content/pages/tests.segnalazione-crea.json`
 
 ## See Also
 - [Fixcity Module README](README.md)
-- [Fixcity Components](components.md)
-- [Sixteen Theme Docs](../../Themes/Sixteen/docs/)
+- [Laraxot Core Architecture](../../Xot/docs/architecture.md)
+- [Sixteen Theme Design Comuni](../../../Themes/Sixteen/docs/design-comuni/README.md)

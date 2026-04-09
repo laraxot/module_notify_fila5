@@ -1360,10 +1360,10 @@
     "attrs": {
       "class": "cms-view-wrapper",
       "wire:effects": "{\"partials\":[]}",
-      "wire:id": "gS2AHPsXWMnEQXUDNXQn",
+      "wire:id": "UdtLm9dZXJZw5dKLSX2q",
       "wire:key": "lw-558597373-0",
       "wire:name": "volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9",
-      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazione-02-dati\",\"pageSlug\":\"tests.segnalazione-02-dati\",\"data\":[{\"slug\":\"segnalazione-02-dati\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"gS2AHPsXWMnEQXUDNXQn\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazione-02-dati\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":true},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"7befdb6775712051e21760b266c4ba9de220674575fe61013a6a512662146d74\"}"
+      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazione-02-dati\",\"pageSlug\":\"tests.segnalazione-02-dati\",\"data\":[{\"slug\":\"segnalazione-02-dati\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"UdtLm9dZXJZw5dKLSX2q\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazione-02-dati\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":true},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"4478506a94e7006c4766c1197282c8d0678956adddbb8dbc2a8311c6cff6cfc4\"}"
     },
     "direct_text": ""
   },
@@ -2215,7 +2215,8 @@
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]",
     "tag": "div",
     "attrs": {
-      "class": "bg-white btn-wrapper pb-3 pb-lg-4 pt-2 pt-lg-0 px-3 px-lg-4"
+      "class": "bg-white btn-wrapper pb-3 pb-lg-4 pt-2 pt-lg-0 px-3 px-lg-4",
+      "x-data": "{ files: [], maxFiles: 5, maxSize: 5 * 1024 * 1024, addFiles(event) { const newFiles = Array.from(event.target.files); newFiles.forEach(file => { if (this.files.length < this.maxFiles && file.size <= this.maxSize) { this.files.push({ name: file.name, size: file.size, type: file.type, preview: file.type.startsWith('image/') ? URL.createObjectURL(file) : null }); } }); event.target.value = ''; }, removeFile(index) { if (this.files[index]?.preview) { URL.revokeObjectURL(this.files[index].preview); } this.files.splice(index, 1); }, formatSize(bytes) { if (bytes < 1024) return bytes + ' B'; if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB'; return (bytes / (1024 * 1024)).toFixed(1) + ' MB'; } }"
     },
     "direct_text": ""
   },
@@ -2228,10 +2229,201 @@
     "direct_text": "Immagini"
   },
   {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]",
+    "tag": "template",
+    "attrs": {
+      "x-if": "files.length === 0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "align-items-center d-flex justify-content-between upload-wrapper"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/img[1]",
+    "tag": "img",
+    "attrs": {
+      "alt": "",
+      "class": "img",
+      "src": "/themes/Sixteen/design-comuni/assets/images/img-disservizio-thumbnail.png"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/span[1]",
+    "tag": "span",
+    "attrs": {
+      "class": "fw-bold ms-2 t-primary w-100"
+    },
+    "direct_text": "img-disservizio-thumbnail.png"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/a[1]",
+    "tag": "a",
+    "attrs": {
+      "aria-label": "fixcity::segnalazione.buttons.delete_image.aria.label",
+      "class": "align-self-center",
+      "href": "#"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/a[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "class": "icon icon-primary icon-sm mb-1"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/a[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-close"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/hr[1]",
+    "tag": "hr",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]",
+    "tag": "template",
+    "attrs": {
+      ":key": "index",
+      "x-for": "(file, index) in files"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]",
+    "tag": "div",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "align-items-center d-flex justify-content-between upload-wrapper"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[1]",
+    "tag": "template",
+    "attrs": {
+      "x-if": "file.preview"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[1]/img[1]",
+    "tag": "img",
+    "attrs": {
+      ":src": "file.preview",
+      "alt": "",
+      "class": "img",
+      "style": "width:48px;height:48px;object-fit:cover;border-radius:4px;"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[2]",
+    "tag": "template",
+    "attrs": {
+      "x-if": "!file.preview"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[2]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "aria-hidden": "true",
+      "class": "icon icon-primary",
+      "style": "width:48px;height:48px;flex-shrink:0;"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[2]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-file"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/span[1]",
+    "tag": "span",
+    "attrs": {
+      "class": "fw-bold ms-2 t-primary w-100",
+      "x-text": "file.name"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/a[1]",
+    "tag": "a",
+    "attrs": {
+      ":aria-label": "'elimina file ' + file.name",
+      "@click.prevent": "removeFile(index)",
+      "class": "align-self-center",
+      "href": "#"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/a[1]/svg[1]",
+    "tag": "svg",
+    "attrs": {
+      "aria-hidden": "true",
+      "class": "icon icon-primary icon-sm mb-1"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/a[1]/svg[1]/use[1]",
+    "tag": "use",
+    "attrs": {
+      "href": "/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-close"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/hr[1]",
+    "tag": "hr",
+    "attrs": {},
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "@change": "addFiles($event)",
+      "accept": "image/jpeg,image/png,image/gif,image/webp",
+      "class": "d-none",
+      "id": "file-upload-attachments",
+      "name": "attachments[]",
+      "type": "file"
+    },
+    "direct_text": ""
+  },
+  {
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/button[1]",
     "tag": "button",
     "attrs": {
-      "aria-label": "fixcity::segnalazione.buttons.upload.aria.label",
+      "@click": "document.getElementById('file-upload-attachments').click()",
+      "aria-label": "Carica file per il disservizio",
       "class": "btn btn-primary fw-bold w-100",
       "type": "button"
     },
@@ -2265,10 +2457,8 @@
   {
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/button[1]/span[2]",
     "tag": "span",
-    "attrs": {
-      "class": ""
-    },
-    "direct_text": "fixcity::segnalazione.buttons.upload.label"
+    "attrs": {},
+    "direct_text": "Carica file"
   },
   {
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/p[1]",
@@ -2276,7 +2466,7 @@
     "attrs": {
       "class": "mb-0 pt-10 title-xsmall u-grey-dark"
     },
-    "direct_text": "fixcity::segnalazione.fields.images.help.label"
+    "direct_text": "Seleziona una o più immagini da allegare alla segnalazione"
   },
   {
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[3]",

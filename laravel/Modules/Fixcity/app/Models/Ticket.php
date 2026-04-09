@@ -163,7 +163,7 @@ class Ticket extends XotBaseModel implements HasMedia
         'status',
         'type',
         'priority',
-        'slu  g',
+        'slug',
     ];
 
     protected $appends = [

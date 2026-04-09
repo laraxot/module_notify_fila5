@@ -1360,10 +1360,10 @@
     "attrs": {
       "class": "cms-view-wrapper",
       "wire:effects": "{\"partials\":[]}",
-      "wire:id": "sC2CKLjsEE5RScytkgYN",
+      "wire:id": "2lCHb0SoIdHRTtVS9l4r",
       "wire:key": "lw-558597373-0",
       "wire:name": "volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9",
-      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazioni-elenco\",\"pageSlug\":\"tests.segnalazioni-elenco\",\"data\":[{\"slug\":\"segnalazioni-elenco\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"sC2CKLjsEE5RScytkgYN\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazioni-elenco\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":true},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"b6d2c734c980eac7b5f54af02978f525eeea6e903a46af7bcdc13087045bd88b\"}"
+      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazioni-elenco\",\"pageSlug\":\"tests.segnalazioni-elenco\",\"data\":[{\"slug\":\"segnalazioni-elenco\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"2lCHb0SoIdHRTtVS9l4r\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazioni-elenco\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":true},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"5b88fc898efbbdc35137384efae9adcbe1fa61d32a4cb69d5a640ab026572ffd\"}"
     },
     "direct_text": ""
   },
@@ -3077,7 +3077,7 @@
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
     "tag": "div",
     "attrs": {
-      "class": "col-12 col-lg-6 p-lg-0 px-3"
+      "class": "col-12 col-lg-6 p-lg-0 px-4"
     },
     "direct_text": ""
   },
@@ -3086,7 +3086,8 @@
     "tag": "div",
     "attrs": {
       "class": "cmp-rating pb-lg-80 pt-lg-80",
-      "id": "rating"
+      "id": "rating",
+      "x-data": "{ rating: 0, hover: 0, step: 1, feedbackType: '', selectedOption: '', textFeedback: '' }"
     },
     "direct_text": ""
   },
@@ -3146,7 +3147,7 @@
     "attrs": {
       "class": "visually-hidden"
     },
-    "direct_text": "Valutazione da 1 a 5 stelle"
+    "direct_text": "Valuta da 1 a 5 stelle la pagina"
   },
   {
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/input[1]",
@@ -3155,7 +3156,8 @@
       "id": "star5a",
       "name": "ratingA",
       "type": "radio",
-      "value": "5"
+      "value": "5",
+      "x-model": "rating"
     },
     "direct_text": ""
   },
@@ -3163,6 +3165,9 @@
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[1]",
     "tag": "label",
     "attrs": {
+      "@click": "feedbackType = 5 >= 4 ? 'positive' : 'negative'; step = 2",
+      "@mouseenter": "hover = 5",
+      "@mouseleave": "hover = 0",
       "class": "active full rating-star",
       "data-element": "feedback-rate-5",
       "for": "star5a"
@@ -3205,7 +3210,7 @@
       "class": "visually-hidden",
       "id": "first-star"
     },
-    "direct_text": "5 stelle su 5"
+    "direct_text": "Valuta 5 stelle su 5"
   },
   {
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/input[2]",
@@ -3214,7 +3219,8 @@
       "id": "star4a",
       "name": "ratingA",
       "type": "radio",
-      "value": "4"
+      "value": "4",
+      "x-model": "rating"
     },
     "direct_text": ""
   },
@@ -3222,6 +3228,9 @@
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[2]",
     "tag": "label",
     "attrs": {
+      "@click": "feedbackType = 4 >= 4 ? 'positive' : 'negative'; step = 2",
+      "@mouseenter": "hover = 4",
+      "@mouseleave": "hover = 0",
       "class": "active full rating-star",
       "data-element": "feedback-rate-4",
       "for": "star4a"
@@ -3264,7 +3273,7 @@
       "class": "visually-hidden",
       "id": "second-star"
     },
-    "direct_text": "4 stelle su 5"
+    "direct_text": "Valuta 4 stelle su 5"
   },
   {
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/input[3]",
@@ -3273,7 +3282,8 @@
       "id": "star3a",
       "name": "ratingA",
       "type": "radio",
-      "value": "3"
+      "value": "3",
+      "x-model": "rating"
     },
     "direct_text": ""
   },
@@ -3281,6 +3291,9 @@
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[3]",
     "tag": "label",
     "attrs": {
+      "@click": "feedbackType = 3 >= 4 ? 'positive' : 'negative'; step = 2",
+      "@mouseenter": "hover = 3",
+      "@mouseleave": "hover = 0",
       "class": "active full rating-star",
       "data-element": "feedback-rate-3",
       "for": "star3a"
@@ -3323,7 +3336,7 @@
       "class": "visually-hidden",
       "id": "third-star"
     },
-    "direct_text": "3 stelle su 5"
+    "direct_text": "Valuta 3 stelle su 5"
   },
   {
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/input[4]",
@@ -3332,7 +3345,8 @@
       "id": "star2a",
       "name": "ratingA",
       "type": "radio",
-      "value": "2"
+      "value": "2",
+      "x-model": "rating"
     },
     "direct_text": ""
   },
@@ -3340,6 +3354,9 @@
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[4]",
     "tag": "label",
     "attrs": {
+      "@click": "feedbackType = 2 >= 4 ? 'positive' : 'negative'; step = 2",
+      "@mouseenter": "hover = 2",
+      "@mouseleave": "hover = 0",
       "class": "active full rating-star",
       "data-element": "feedback-rate-2",
       "for": "star2a"
@@ -3382,7 +3399,7 @@
       "class": "visually-hidden",
       "id": "fourth-star"
     },
-    "direct_text": "2 stelle su 5"
+    "direct_text": "Valuta 2 stelle su 5"
   },
   {
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/input[5]",
@@ -3391,7 +3408,8 @@
       "id": "star1a",
       "name": "ratingA",
       "type": "radio",
-      "value": "1"
+      "value": "1",
+      "x-model": "rating"
     },
     "direct_text": ""
   },
@@ -3399,6 +3417,9 @@
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/fieldset[1]/label[5]",
     "tag": "label",
     "attrs": {
+      "@click": "feedbackType = 1 >= 4 ? 'positive' : 'negative'; step = 2",
+      "@mouseenter": "hover = 1",
+      "@mouseleave": "hover = 0",
       "class": "active full rating-star",
       "data-element": "feedback-rate-1",
       "for": "star1a"
@@ -3441,7 +3462,698 @@
       "class": "visually-hidden",
       "id": "fifth-star"
     },
-    "direct_text": "1 stella su 5"
+    "direct_text": "Valuta 1 stella su 5"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+    "tag": "div",
+    "attrs": {
+      ":class": "{ 'd-none': step !== 2 }",
+      "class": "cmp-rating__card-second d-none"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-0 card-header mb-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/h2[1]",
+    "tag": "h2",
+    "attrs": {
+      "class": "mb-0 title-medium-2-bold",
+      "id": "rating-feedback"
+    },
+    "direct_text": "Il tuo feedback ci aiuta a migliorare il servizio."
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+    "tag": "div",
+    "attrs": {
+      ":class": "{ 'd-none': step !== 2 }",
+      "class": "d-none form-rating"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-steps-rating"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]",
+    "tag": "fieldset",
+    "attrs": {
+      ":class": "{ 'd-none': feedbackType !== 'positive' }",
+      "class": "d-none fieldset-rating-one",
+      "data-element": "feedback-rating-positive"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/legend[1]",
+    "tag": "legend",
+    "attrs": {
+      "class": "iscrizioni-header w-100"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/legend[1]/h3[1]",
+    "tag": "h3",
+    "attrs": {
+      "class": "align-items-lg-center d-flex drop-shadow flex-column flex-lg-row justify-content-between step-title"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/legend[1]/h3[1]/span[1]",
+    "tag": "span",
+    "attrs": {
+      "class": "d-block text-wrap",
+      "data-element": "feedback-rating-question"
+    },
+    "direct_text": "Cosa ritieni di meglio di questa pagina?"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/legend[1]/h3[1]/span[2]",
+    "tag": "span",
+    "attrs": {
+      "class": "step"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-steps-rating__body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-radio-list"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card card-teaser shadow-rating"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-check m-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-bottom border-light cmp-radio-list__item radio-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "id": "radio-1",
+      "name": "rating1",
+      "type": "radio",
+      "value": "1",
+      "x-model": "selectedOption"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "active",
+      "data-element": "feedback-rating-answer",
+      "for": "radio-1"
+    },
+    "direct_text": "Le informazioni sono chiare"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-check m-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-bottom border-light cmp-radio-list__item radio-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "id": "radio-2",
+      "name": "rating1",
+      "type": "radio",
+      "value": "2",
+      "x-model": "selectedOption"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "active",
+      "data-element": "feedback-rating-answer",
+      "for": "radio-2"
+    },
+    "direct_text": "Le informazioni sono complete"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-check m-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-bottom border-light cmp-radio-list__item radio-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "id": "radio-3",
+      "name": "rating1",
+      "type": "radio",
+      "value": "3",
+      "x-model": "selectedOption"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "active",
+      "data-element": "feedback-rating-answer",
+      "for": "radio-3"
+    },
+    "direct_text": "È facile trovare quello che cerco"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-check m-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-bottom border-light cmp-radio-list__item radio-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "id": "radio-4",
+      "name": "rating1",
+      "type": "radio",
+      "value": "4",
+      "x-model": "selectedOption"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "active",
+      "data-element": "feedback-rating-answer",
+      "for": "radio-4"
+    },
+    "direct_text": "Il design è gradevole"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-check m-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-bottom border-light cmp-radio-list__item radio-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "id": "radio-5",
+      "name": "rating1",
+      "type": "radio",
+      "value": "5",
+      "x-model": "selectedOption"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "active",
+      "data-element": "feedback-rating-answer",
+      "for": "radio-5"
+    },
+    "direct_text": "Altro"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-steps-rating"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]",
+    "tag": "fieldset",
+    "attrs": {
+      ":class": "{ 'd-none': feedbackType !== 'negative' }",
+      "class": "d-none fieldset-rating-two",
+      "data-element": "feedback-rating-negative"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/legend[1]",
+    "tag": "legend",
+    "attrs": {
+      "class": "iscrizioni-header w-100"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/legend[1]/h3[1]",
+    "tag": "h3",
+    "attrs": {
+      "class": "align-items-lg-center d-flex drop-shadow flex-column flex-lg-row flex-wrap justify-content-between step-title"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/legend[1]/h3[1]/span[1]",
+    "tag": "span",
+    "attrs": {
+      "class": "d-block text-wrap",
+      "data-element": "feedback-rating-question"
+    },
+    "direct_text": "Cosa non va in questa pagina?"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/legend[1]/h3[1]/span[2]",
+    "tag": "span",
+    "attrs": {
+      "class": "step"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-steps-rating__body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-radio-list"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card card-teaser shadow-rating"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "card-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-check m-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-bottom border-light cmp-radio-list__item radio-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "id": "radio-6",
+      "name": "rating2",
+      "type": "radio",
+      "value": "1",
+      "x-model": "selectedOption"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "active",
+      "data-element": "feedback-rating-answer",
+      "for": "radio-6"
+    },
+    "direct_text": "Le informazioni non sono chiare"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-check m-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-bottom border-light cmp-radio-list__item radio-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "id": "radio-7",
+      "name": "rating2",
+      "type": "radio",
+      "value": "2",
+      "x-model": "selectedOption"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "active",
+      "data-element": "feedback-rating-answer",
+      "for": "radio-7"
+    },
+    "direct_text": "Le informazioni sono incomplete"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-check m-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-bottom border-light cmp-radio-list__item radio-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "id": "radio-8",
+      "name": "rating2",
+      "type": "radio",
+      "value": "3",
+      "x-model": "selectedOption"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "active",
+      "data-element": "feedback-rating-answer",
+      "for": "radio-8"
+    },
+    "direct_text": "È difficile trovare quello che cerco"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-check m-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-bottom border-light cmp-radio-list__item radio-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "id": "radio-9",
+      "name": "rating2",
+      "type": "radio",
+      "value": "4",
+      "x-model": "selectedOption"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "active",
+      "data-element": "feedback-rating-answer",
+      "for": "radio-9"
+    },
+    "direct_text": "Il design non è gradevole"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-check m-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-bottom border-light cmp-radio-list__item radio-body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "id": "radio-10",
+      "name": "rating2",
+      "type": "radio",
+      "value": "5",
+      "x-model": "selectedOption"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "active",
+      "data-element": "feedback-rating-answer",
+      "for": "radio-10"
+    },
+    "direct_text": "Altro"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-steps-rating"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "cmp-steps-rating__body"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "form-group"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/label[1]",
+    "tag": "label",
+    "attrs": {
+      "class": "",
+      "for": "formGroupExampleInputWithHelp"
+    },
+    "direct_text": "Dettaglio"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/input[1]",
+    "tag": "input",
+    "attrs": {
+      "aria-describedby": "formGroupExampleInputWithHelpDescription",
+      "class": "form-control",
+      "data-element": "feedback-input-text",
+      "id": "formGroupExampleInputWithHelp",
+      "maxlength": "200",
+      "type": "text",
+      "x-model": "textFeedback"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/small[1]",
+    "tag": "small",
+    "attrs": {
+      "class": "form-text",
+      "id": "formGroupExampleInputWithHelpDescription"
+    },
+    "direct_text": "Inserire massimo 200 caratteri"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]",
+    "tag": "div",
+    "attrs": {
+      "class": "button-shadow d-flex flex-nowrap justify-content-center pt-4 w-100"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/button[1]",
+    "tag": "button",
+    "attrs": {
+      "@click": "step = 1; selectedOption = ''; textFeedback = ''",
+      "class": "btn btn-back btn-outline-primary fw-bold me-4",
+      "type": "button"
+    },
+    "direct_text": "Indietro"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/button[2]",
+    "tag": "button",
+    "attrs": {
+      "@click": "step = 3",
+      "class": "btn btn-next btn-primary fw-bold",
+      "type": "button"
+    },
+    "direct_text": "Avanti"
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+    "tag": "div",
+    "attrs": {
+      ":class": "{ 'd-none': step !== 3 }",
+      "class": "cmp-rating__card-second d-none",
+      "data-step": "3"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+    "tag": "div",
+    "attrs": {
+      "class": "border-0 card-header mb-0"
+    },
+    "direct_text": ""
+  },
+  {
+    "path": "body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/h2[1]",
+    "tag": "h2",
+    "attrs": {
+      "class": "mb-0 title-medium-2-bold"
+    },
+    "direct_text": "Grazie per il tuo feedback!"
   },
   {
     "path": "body/main[1]/div[1]/div[1]/div[1]/div[4]",
@@ -3736,9 +4448,9 @@
     "tag": "div",
     "attrs": {
       "aria-hidden": "true",
-      "aria-labelledby": "modal-categories-label",
+      "aria-labelledby": "modal2Title",
       "class": "fade modal",
-      "id": "modal-categories",
+      "id": "modal-disservizio",
       "role": "dialog",
       "tabindex": "-1"
     },
@@ -3773,7 +4485,7 @@
     "tag": "h2",
     "attrs": {
       "class": "h4 modal-title",
-      "id": "modal-categories-label"
+      "id": "modal2Title"
     },
     "direct_text": "categoria"
   },

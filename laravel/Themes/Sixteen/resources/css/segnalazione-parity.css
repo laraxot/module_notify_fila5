@@ -16,28 +16,29 @@
 /* ============================================================================
    0. BOOTSTRAP ITALIA REFERENCE COLORS
    Source: Visual parity analysis 2026-04-09
+   Note: Uses existing --bs-* variables where available
    ============================================================================ */
 :root {
   /* Text colors - EXACT from reference analysis */
   --bi-text-primary: #000000;        /* rgb(0,0,0) - pure black */
   --bi-text-secondary: #455a64;      /* rgb(69,90,100) - blue-gray */
-  --bi-text-tertiary: #5d7083;       /* rgb(93,112,131) - lighter blue-gray */
+  --bi-text-tertiary: #5d7083;       /* rgb(93,112,131) - lighter blue-gray (same as --bs-secondary) */
   --bi-text-muted: #5c6f82;          /* Bootstrap Italia standard muted */
-  --bi-text-dark: #191919;           /* Near black for paragraphs */
+  --bi-text-dark: #191919;           /* Near black for paragraphs (same as --bs-gray-900) */
   
   /* Border colors - EXACT from reference analysis */
-  --bi-border-light: #d4d4d4;        /* rgb(212,212,212) - light gray borders */
+  --bi-border-light: #d4d4d4;        /* rgb(212,212,212) - light gray borders (same as --bs-gray-300) */
   --bi-border: #e0e0e0;              /* Standard border */
   --bi-border-dark: #a6a6a6;         /* Darker borders */
   
   /* Background colors */
-  --bi-bg-light: #f5f5f5;            /* Light gray background */
+  --bi-bg-light: #f5f5f5;            /* Light gray background (same as --bs-gray-100) */
   --bi-bg-white: #ffffff;            /* Pure white */
   --bi-bg-page: #fafafa;             /* Page background */
   
   /* Brand colors */
-  --bi-primary: #007a52;             /* Bootstrap Italia green */
-  --bi-primary-dark: #00402b;        /* Darker green */
+  --bi-primary: #007a52;             /* Bootstrap Italia green (same as --bs-primary) */
+  --bi-primary-dark: #00402b;        /* Darker green (same as --bs-primary-dark) */
   --bi-link: #0066cc;                /* Standard link blue */
 }
 
@@ -178,8 +179,41 @@
 .fw-normal      { font-weight: 400 !important; }
 .fs-0           { font-size: 0.875rem !important; }
 .fst-italic     { font-style: italic !important; }
-.text-paragraph       { font-size: 1rem; line-height: 1.6; color: #5C6F82; }
-.text-paragraph-small { font-size: 0.875rem; line-height: 1.5; color: #5c6f82; }
+
+/* Font size utilities - Bootstrap Italia / Design Comuni reference */
+.fs-18 { font-size: 18px !important; }
+.fs-16 { font-size: 16px !important; }
+.fs-14 { font-size: 14px !important; }
+
+/* Paragraph text - EXACT reference colors from visual parity analysis */
+.text-paragraph       { font-size: 1rem; line-height: 1.6; color: var(--bi-text-dark, #191919); }
+.text-paragraph-small { font-size: 0.875rem; line-height: 1.5; color: var(--bi-text-secondary, #455a64); }
+
+/* Secondary text colors - EXACT reference */
+.text-muted, .u-grey-dark { color: var(--bi-text-secondary, #455a64) !important; }
+.subtitle-small { font-size: 0.875rem; color: var(--bi-text-secondary, #455a64); }
+
+/* Border colors - EXACT reference from visual parity analysis */
+.border-light { border-color: var(--bi-border-light, #d4d4d4) !important; }
+hr { border-color: var(--bi-border-light, #d4d4d4); }
+
+/* Body text color - EXACT reference rgb(0,0,0) */
+body, .segnalazione-privacy-page, .segnalazione-dati-page,
+.segnalazione-riepilogo-page, .segnalazione-conferma-page,
+.segnalazione-dettaglio-page, .segnalazione-area-page,
+.segnalazioni-elenco-page {
+  color: var(--bi-text-primary, #000000);
+}
+
+/* Title colors - EXACT reference */
+.title-xxxlarge, .title-xxlarge, .title-xlarge,
+.title-large, .title-medium, .title-small, .title-xsmall {
+  color: var(--bi-text-primary, #000000);
+}
+
+/* Link colors - EXACT reference */
+.t-primary { color: var(--bi-link, #0066cc) !important; }
+.t-primary:hover { color: var(--bi-primary-dark, #00402b) !important; }
 
 /* Background */
 .bg-white   { background-color: #fff !important; }
@@ -2555,13 +2589,11 @@ body.page-tests-segnalazione-01-privacy .cmp-contacts .icon {
 
 /* ============================================================================
    Global text-paragraph fixes for all segnalazione pages
-   Reference: Titillium Web 16px/24px, color #191919
-   Fixes pages that were showing 14px/21px instead of 16px/24px
+   Reference: Each page has slightly different typography - match exactly
    ============================================================================ */
 
-body.page-tests-segnalazione-area-personale .text-paragraph,
-body.page-tests-segnalazioni-elenco .text-paragraph,
-body.page-tests-segnalazione-dettaglio .text-paragraph {
+/* segnalazione-area-personale: Titillium Web 16px/24px, color #191919 */
+body.page-tests-segnalazione-area-personale .text-paragraph {
   font-family: 'Titillium Web', sans-serif !important;
   font-size: 16px !important;
   font-weight: 400 !important;
@@ -2569,9 +2601,22 @@ body.page-tests-segnalazione-dettaglio .text-paragraph {
   color: #191919 !important;
 }
 
-/* Also fix generic text color if needed */
-body.page-tests-segnalazione-area-personale .text-paragraph,
-body.page-tests-segnalazioni-elenco .text-paragraph,
+/* segnalazioni-elenco: no .text-paragraph elements - uses different structure */
+
+/* segnalazione-dettaglio: Lora serif 16px/24px, color #191919 */
 body.page-tests-segnalazione-dettaglio .text-paragraph {
+  font-family: 'Lora', Georgia, serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
   color: #191919 !important;
+}
+
+/* segnalazione-03-riepilogo: Titillium Web 18px/27px, color #30475f */
+body.page-tests-segnalazione-03-riepilogo .text-paragraph {
+  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 27px !important;
+  color: #30475f !important;
 }

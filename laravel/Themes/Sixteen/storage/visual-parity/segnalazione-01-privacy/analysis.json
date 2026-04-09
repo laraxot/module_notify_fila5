@@ -1,6 +1,6 @@
 {
   "page": "segnalazione-01-privacy",
-  "timestamp": "2026-04-09T08:13:03.701Z",
+  "timestamp": "2026-04-09T08:54:55.404Z",
   "viewport": {
     "name": "desktop",
     "width": 1440,
@@ -13,25 +13,16 @@
   "fonts": {
     "local": [
       {
-        "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
-        "fontSize": "13px",
-        "fontWeight": "400",
-        "color": "rgb(26, 26, 26)",
-        "lineHeight": "20px",
-        "count": 189,
-        "sample": "status"
-      },
-      {
-        "fontFamily": "\"Titillium Web\", sans-serif",
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
         "fontSize": "14px",
         "fontWeight": "400",
         "color": "rgb(255, 255, 255)",
         "lineHeight": "21px",
-        "count": 85,
+        "count": 93,
         "sample": "Nome della Regione"
       },
       {
-        "fontFamily": "\"Titillium Web\", sans-serif",
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
         "fontSize": "18px",
         "fontWeight": "400",
         "color": "rgb(255, 255, 255)",
@@ -40,34 +31,7 @@
         "sample": "\n                                                \n"
       },
       {
-        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
-        "fontSize": "13px",
-        "fontWeight": "400",
-        "color": "rgb(0, 122, 82)",
-        "lineHeight": "0px",
-        "count": 42,
-        "sample": "Request"
-      },
-      {
-        "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
-        "fontSize": "13px",
-        "fontWeight": "700",
-        "color": "rgb(26, 26, 26)",
-        "lineHeight": "20px",
-        "count": 32,
-        "sample": "log"
-      },
-      {
-        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
-        "fontSize": "14px",
-        "fontWeight": "400",
-        "color": "rgb(0, 122, 82)",
-        "lineHeight": "16px",
-        "count": 21,
-        "sample": ""
-      },
-      {
-        "fontFamily": "\"Titillium Web\", sans-serif",
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
         "fontSize": "16px",
         "fontWeight": "400",
         "color": "rgb(0, 122, 82)",
@@ -76,34 +40,7 @@
         "sample": "Vai ai contenuti"
       },
       {
-        "fontFamily": "\"Titillium Web\", sans-serif",
-        "fontSize": "12px",
-        "fontWeight": "400",
-        "color": "rgb(255, 255, 255)",
-        "lineHeight": "16px",
-        "count": 15,
-        "sample": "Lingua attiva:"
-      },
-      {
-        "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
-        "fontSize": "12px",
-        "fontWeight": "400",
-        "color": "rgb(26, 26, 26)",
-        "lineHeight": "21px",
-        "count": 15,
-        "sample": "0 of 0"
-      },
-      {
-        "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
-        "fontSize": "11px",
-        "fontWeight": "400",
-        "color": "rgb(26, 26, 26)",
-        "lineHeight": "14px",
-        "count": 14,
-        "sample": ""
-      },
-      {
-        "fontFamily": "\"Titillium Web\", sans-serif",
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
         "fontSize": "18px",
         "fontWeight": "600",
         "color": "rgb(255, 255, 255)",
@@ -112,16 +49,34 @@
         "sample": "\n                                                 "
       },
       {
-        "fontFamily": "\"Titillium Web\", sans-serif",
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "16px",
+        "count": 8,
+        "sample": "Lingua attiva:"
+      },
+      {
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
         "fontSize": "14px",
         "fontWeight": "600",
         "color": "rgb(255, 255, 255)",
         "lineHeight": "18.6667px",
-        "count": 9,
+        "count": 8,
         "sample": "Seguici su"
       },
       {
-        "fontFamily": "\"Titillium Web\", sans-serif",
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "rgb(0, 122, 82)",
+        "lineHeight": "22.8571px",
+        "count": 8,
+        "sample": "\n                                    \n            "
+      },
+      {
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
         "fontSize": "16px",
         "fontWeight": "600",
         "color": "rgb(26, 26, 26)",
@@ -130,34 +85,7 @@
         "sample": "Nascondi la navigazione"
       },
       {
-        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
-        "fontSize": "11px",
-        "fontWeight": "400",
-        "color": "rgb(26, 26, 26)",
-        "lineHeight": "16.5px",
-        "count": 7,
-        "sample": "PHP Version"
-      },
-      {
-        "fontFamily": "\"Titillium Web\", sans-serif",
-        "fontSize": "16px",
-        "fontWeight": "500",
-        "color": "rgb(0, 122, 82)",
-        "lineHeight": "22.8571px",
-        "count": 4,
-        "sample": "\n                                    \n            "
-      },
-      {
-        "fontFamily": "\"Titillium Web\", sans-serif",
-        "fontSize": "12px",
-        "fontWeight": "500",
-        "color": "rgb(0, 122, 82)",
-        "lineHeight": "16.2px",
-        "count": 4,
-        "sample": "Leggi le domande frequenti"
-      },
-      {
-        "fontFamily": "\"Titillium Web\", sans-serif",
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
         "fontSize": "28px",
         "fontWeight": "600",
         "color": "rgb(255, 255, 255)",
@@ -166,29 +94,20 @@
         "sample": "\n                                    \n            "
       },
       {
-        "fontFamily": "\"Titillium Web\", sans-serif",
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
         "fontSize": "20px",
         "fontWeight": "700",
         "color": "rgb(25, 25, 25)",
-        "lineHeight": "25px",
+        "lineHeight": "27px",
         "count": 2,
         "sample": "Contatta il comune"
       },
       {
-        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
-        "fontSize": "10px",
-        "fontWeight": "400",
-        "color": "rgb(0, 122, 82)",
-        "lineHeight": "15.6px",
-        "count": 2,
-        "sample": ""
-      },
-      {
-        "fontFamily": "\"Titillium Web\", sans-serif",
+        "fontFamily": "\"Titillium Web\", Geneva, Tahoma, sans-serif",
         "fontSize": "40px",
         "fontWeight": "700",
         "color": "rgb(25, 25, 25)",
-        "lineHeight": "48px",
+        "lineHeight": "44px",
         "count": 1,
         "sample": "Segnalazione disservizio"
       }
@@ -432,64 +351,64 @@
   "colors": {
     "local": [
       {
-        "color": "rgb(26, 26, 26)",
-        "count": 656
-      },
-      {
         "color": "rgb(255, 255, 255)",
-        "count": 537
+        "count": 499
       },
       {
-        "color": "rgb(34, 34, 34)",
-        "count": 430
-      },
-      {
-        "color": "rgb(0, 122, 82)",
-        "count": 206
+        "color": "rgb(26, 26, 26)",
+        "count": 164
       },
       {
         "color": "rgba(255, 255, 255, 0.82)",
         "count": 70
       },
       {
+        "color": "rgb(0, 122, 82)",
+        "count": 53
+      },
+      {
         "color": "rgb(25, 25, 25)",
-        "count": 55
-      },
-      {
-        "color": "rgb(117, 117, 117)",
-        "count": 40
-      },
-      {
-        "color": "rgb(85, 85, 85)",
-        "count": 28
-      },
-      {
-        "color": "rgb(245, 245, 245)",
-        "count": 27
+        "count": 41
       },
       {
         "color": "rgb(23, 51, 79)",
-        "count": 25
-      },
-      {
-        "color": "rgb(217, 225, 232)",
-        "count": 16
-      },
-      {
-        "color": "rgb(23, 50, 77)",
-        "count": 16
+        "count": 27
       },
       {
         "color": "rgb(0, 110, 71)",
         "count": 16
       },
       {
-        "color": "rgb(235, 68, 50)",
-        "count": 15
+        "color": "rgb(92, 111, 130)",
+        "count": 12
       },
       {
-        "color": "rgb(92, 111, 130)",
-        "count": 13
+        "color": "rgb(0, 102, 204)",
+        "count": 8
+      },
+      {
+        "color": "rgb(255, 255, 255) rgb(255, 255, 255) rgba(255, 255, 255, 0.4)",
+        "count": 6
+      },
+      {
+        "color": "rgba(255, 255, 255, 0.85)",
+        "count": 4
+      },
+      {
+        "color": "rgb(26, 26, 26) rgb(26, 26, 26) rgb(229, 231, 235)",
+        "count": 3
+      },
+      {
+        "color": "rgb(0, 122, 82) rgb(0, 122, 82) rgb(232, 232, 232)",
+        "count": 3
+      },
+      {
+        "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+        "count": 2
+      },
+      {
+        "color": "rgb(217, 225, 232)",
+        "count": 2
       }
     ],
     "reference": [
@@ -603,48 +522,48 @@
       ],
       "onlyInLocal": [
         {
-          "color": "rgb(34, 34, 34)",
-          "count": 430
-        },
-        {
           "color": "rgba(255, 255, 255, 0.82)",
           "count": 70
         },
         {
-          "color": "rgb(117, 117, 117)",
-          "count": 40
-        },
-        {
-          "color": "rgb(85, 85, 85)",
-          "count": 28
-        },
-        {
-          "color": "rgb(245, 245, 245)",
-          "count": 27
-        },
-        {
           "color": "rgb(23, 51, 79)",
-          "count": 25
-        },
-        {
-          "color": "rgb(217, 225, 232)",
-          "count": 16
-        },
-        {
-          "color": "rgb(23, 50, 77)",
-          "count": 16
+          "count": 27
         },
         {
           "color": "rgb(0, 110, 71)",
           "count": 16
         },
         {
-          "color": "rgb(235, 68, 50)",
-          "count": 15
+          "color": "rgb(92, 111, 130)",
+          "count": 12
         },
         {
-          "color": "rgb(92, 111, 130)",
-          "count": 13
+          "color": "rgb(0, 102, 204)",
+          "count": 8
+        },
+        {
+          "color": "rgb(255, 255, 255) rgb(255, 255, 255) rgba(255, 255, 255, 0.4)",
+          "count": 6
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.85)",
+          "count": 4
+        },
+        {
+          "color": "rgb(26, 26, 26) rgb(26, 26, 26) rgb(229, 231, 235)",
+          "count": 3
+        },
+        {
+          "color": "rgb(0, 122, 82) rgb(0, 122, 82) rgb(232, 232, 232)",
+          "count": 3
+        },
+        {
+          "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+          "count": 2
+        },
+        {
+          "color": "rgb(217, 225, 232)",
+          "count": 2
         }
       ]
     }

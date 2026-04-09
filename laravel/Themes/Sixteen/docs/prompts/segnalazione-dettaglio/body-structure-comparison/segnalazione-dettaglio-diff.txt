@@ -9,7 +9,7 @@
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]/a[1]/span[1] | <span> | id=- | class=- | text=Servizi
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4] | <li> | id=- | class=nav-item | text=-
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1] | <a> | id=- | class=nav-link | text=-
-@@ -165,448 +165,346 @@
+@@ -165,448 +165,458 @@
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/svg[1] | <svg> | id=- | class=align-top icon icon-sm icon-white | text=-
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/span[1] | <span> | id=- | class=visually-hidden | text=RSS
@@ -795,6 +795,118 @@
 +body/main[1]/div[1]/div[1]/div[5]/div[1] | <div> | id=- | class=container | text=-
 +body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1] | <div> | id=- | class=row | text=-
 +body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1] | <div> | id=- | class=col-12 pt-5 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=carousel-4-card cmp-carousel it-carousel-wrapper splide | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=it-header-block | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1] | <div> | id=- | class=it-header-block-title | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1] | <h2> | id=- | class=border-0 cmp-carousel__title pb-0 text-center | text=Contenuti correlati
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2] | <div> | id=- | class=splide__track | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1] | <ul> | id=- | class=it-carousel-all splide__list | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1] | <li> | id=- | class=splide__slide | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1] | <div> | id=- | class=card-space card-wrapper h-100 pb-4 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1] | <div> | id=- | class=card card-bg rounded shadow-sm single-card | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1] | <div> | id=- | class=cmp-carousel__header | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/svg[1] | <svg> | id=- | class=icon icon-md | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/span[1] | <span> | id=- | class=cmp-carousel__header-title ms-3 | text=Amministrazione
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2] | <div> | id=- | class=card-body | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1] | <div> | id=- | class=link-list-wrapper | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1] | <ul> | id=- | class=card-body__list | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1] | <span> | id=- | class=- | text=Area Servizi Civici
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2] | <li> | id=- | class=splide__slide | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1] | <div> | id=- | class=card-space card-wrapper h-100 pb-4 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1] | <div> | id=- | class=card card-bg rounded shadow-sm single-card | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1] | <div> | id=- | class=cmp-carousel__header | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/svg[1] | <svg> | id=- | class=icon icon-md | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/span[1] | <span> | id=- | class=cmp-carousel__header-title ms-3 | text=Servizi
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2] | <div> | id=- | class=card-body | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1] | <div> | id=- | class=link-list-wrapper | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1] | <ul> | id=- | class=card-body__list | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1] | <span> | id=- | class=- | text=Pagamento retta scolastica
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1] | <span> | id=- | class=- | text=Servizio di trasporto scolastico
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3] | <li> | id=- | class=splide__slide | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1] | <div> | id=- | class=card-space card-wrapper h-100 pb-4 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1] | <div> | id=- | class=card card-bg rounded shadow-sm single-card | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1] | <div> | id=- | class=cmp-carousel__header | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/svg[1] | <svg> | id=- | class=icon icon-md | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/span[1] | <span> | id=- | class=cmp-carousel__header-title ms-3 | text=Documenti
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2] | <div> | id=- | class=card-body | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1] | <div> | id=- | class=link-list-wrapper | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1] | <ul> | id=- | class=card-body__list | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1] | <span> | id=- | class=- | text=Attestazione ISEE
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1] | <span> | id=- | class=- | text=Carta dei servizi educativi all'infanzia
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4] | <li> | id=- | class=splide__slide | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1] | <div> | id=- | class=card-space card-wrapper h-100 pb-4 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1] | <div> | id=- | class=card card-bg rounded shadow-sm single-card | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1] | <div> | id=- | class=cmp-carousel__header | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/svg[1] | <svg> | id=- | class=icon icon-md | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/span[1] | <span> | id=- | class=cmp-carousel__header-title ms-3 | text=Notizie
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2] | <div> | id=- | class=card-body | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1] | <div> | id=- | class=link-list-wrapper | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1] | <ul> | id=- | class=card-body__list | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1] | <span> | id=- | class=- | text=Justo eget magna fermentum
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1] | <span> | id=- | class=- | text=Dolor magna eget est lorem
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/span[1] | <span> | id=- | class=- | text=Justo eget magna fermentum
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/span[1] | <span> | id=- | class=- | text=Dolor magna eget est lorem
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1] | <a> | id=- | class=px-0 show-more | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1] | <span> | id=- | class=align-items-center d-flex show-more | text=Vedi altri 2
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]/svg[1] | <svg> | id=- | class=icon icon-md icon-primary | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1] | <ul> | id=collapseExample | class=collapse | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]/a[1]/span[1] | <span> | id=- | class=- | text=Servizio di trasporto scolastico
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]/a[1] | <a> | id=- | class=list-item px-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]/a[1]/span[1] | <span> | id=- | class=- | text=Servizio di trasporto scolastico
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/span[1] | <span> | id=- | class=d-lg-block d-none hr-shadow-sm | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2] | <div> | id=- | class=col-12 col-lg-6 offset-lg-3 p-contacts | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1] | <div> | id=- | class=cmp-contacts | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1] | <div> | id=- | class=card w-100 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1] | <div> | id=- | class=card-body | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h2[1] | <h2> | id=- | class=title-medium-2-semi-bold | text=Contatta il comune
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1] | <ul> | id=- | class=contact-list p-0 | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1] | <a> | id=- | class=list-item | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/svg[1] | <svg> | id=- | class=icon icon-primary icon-sm | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1] | <span> | id=- | class=- | text=Leggi le domande frequenti
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1] | <a> | id=- | class=list-item | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/svg[1] | <svg> | id=- | class=icon icon-primary icon-sm | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1] | <span> | id=- | class=- | text=Richiedi assistenza
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1] | <a> | id=- | class=list-item | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/svg[1] | <svg> | id=- | class=icon icon-primary icon-sm | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1] | <span> | id=- | class=- | text=Chiama il numero verde 05 0505
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4] | <li> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1] | <a> | id=- | class=list-item | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/svg[1] | <svg> | id=- | class=icon icon-primary icon-sm | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1] | <span> | id=- | class=- | text=Prenota appuntamento
  body/div[2] | <div> | id=search-modal | class=fade modal search-modal | text=-
  body/div[2]/div[1] | <div> | id=- | class=modal-dialog modal-lg | text=-
  body/div[2]/div[1]/div[1] | <div> | id=- | class=modal-content perfect-scrollbar | text=-

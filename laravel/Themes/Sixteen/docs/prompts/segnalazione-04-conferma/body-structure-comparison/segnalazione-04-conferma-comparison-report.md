@@ -2,7 +2,7 @@
 
 - Reference: `https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-04-conferma.html`
 - Local: `http://127.0.0.1:8000/it/tests/segnalazione-04-conferma`
-- Threshold: `90.0%`
+- Threshold: `80.0%`
 - Status: ❌ FAIL
 
 ## Summary

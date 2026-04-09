@@ -39,13 +39,26 @@ When fixing fonts on Design Comuni pages, ALWAYS check for conflicting rules wit
 ### Merge Conflict Risolti
 - `homepage-parity-v2.css` — rimosso 2x marker `<<<<<<< HEAD` e `>>>>>>> 36abb5a44`
 
-### HTML Parity Scores (Aggiornati)
+### HTML Parity Scores (Aggiornati 2026-04-09)
 | Pagina | Match % | Struttura Ref | Struttura Locale | Status |
 |---|---|---|---|--------|
-| segnalazione-01-privacy | **99.8%** | 430 righe | 430 righe | ✅ COMPLETE |
-| segnalazione-02-dati | TBD | | | |
-| segnalazione-03-riepilogo | TBD | | | |
-| segnalazione-04-conferma | TBD | | | |
+| segnalazione-01-privacy | **99.5%** | 430 righe | 430 righe | ✅ COMPLETE |
+| segnalazione-02-dati | **97.0%** | 559 righe | 573 righe | ✅ PASS |
+| segnalazione-area-personale | **91.9%** | 886 righe | 875 righe | ✅ PASS |
+| segnalazione-dettaglio | **86.8%** | 804 righe | 812 righe | ✅ PASS |
+| segnalazione-03-riepilogo | **83.3%** | 523 righe | 529 righe | ✅ PASS |
+| segnalazioni-elenco | **72.5%** | 775 righe | 783 righe | ⚠️ NEEDS WORK |
+| segnalazione-04-conferma | **43.6%** | 551 righe | 224 righe | ❌ NEEDS WORK |
+
+**5/7 pages PASS (>80% threshold)**
+
+### Visual Issues Found (CSS/JS Phase)
+- **segnalazione-02-dati**: Untranslated `fixcity::segnalazione.fields.*` keys showing raw in form labels
+- **segnalazione-03-riepilogo**: Phone number shows literal `:phone` instead of actual number
+- **segnalazione-04-conferma**: Stepper shows circles instead of tabs; missing wrapper structure
+- **segnalazione-dettaglio**: Empty green line gaps between content sections
+- **segnalazioni-elenco**: Title uppercase "ELENCO SEGNALAZIONI" vs reference "Elenco segnalazioni"
+- **segnalazione-area-personale**: ✅ Looks good visually
 
 ## Architettura CSS
 

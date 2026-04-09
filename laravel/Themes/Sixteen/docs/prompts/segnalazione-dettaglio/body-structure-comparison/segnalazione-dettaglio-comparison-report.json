@@ -1,17 +1,17 @@
 {
   "summary": {
     "reference_elements": 804,
-    "local_elements": 702,
-    "identical": 507,
-    "different": 151,
-    "missing": 146,
-    "extra": 44
+    "local_elements": 814,
+    "identical": 595,
+    "different": 173,
+    "missing": 36,
+    "extra": 46
   },
   "scores": {
-    "parity": 72.45,
-    "tag_parity": 85.95,
-    "id_parity": 97.78,
-    "class_parity": 82.32
+    "parity": 83.72,
+    "tag_parity": 98.76,
+    "id_parity": 100.0,
+    "class_parity": 97.76
   },
   "reference": {
     "tags": {
@@ -380,15 +380,15 @@
   },
   "local": {
     "tags": {
-      "a": 104,
+      "a": 120,
       "br": 10,
       "button": 16,
-      "div": 166,
+      "div": 194,
       "fieldset": 3,
       "footer": 1,
       "form": 1,
       "h1": 1,
-      "h2": 14,
+      "h2": 16,
       "h3": 2,
       "h4": 6,
       "header": 1,
@@ -398,7 +398,7 @@
       "input": 17,
       "label": 17,
       "legend": 3,
-      "li": 95,
+      "li": 115,
       "main": 1,
       "nav": 4,
       "ol": 1,
@@ -406,15 +406,16 @@
       "path": 10,
       "section": 9,
       "small": 3,
-      "span": 81,
-      "svg": 47,
-      "ul": 20,
-      "use": 41
+      "span": 102,
+      "svg": 56,
+      "ul": 27,
+      "use": 50
     },
     "ids": [
       "accordion-title-one",
       "autocomplete-two",
       "collapse-one",
+      "collapseExample",
       "conditions",
       "contacts",
       "costs",
@@ -465,7 +466,7 @@
       "accordion-header": 1,
       "accordion-item": 1,
       "active": 16,
-      "align-items-center": 2,
+      "align-items-center": 3,
       "align-items-lg-center": 2,
       "align-top": 18,
       "autocomplete": 1,
@@ -475,7 +476,7 @@
       "bg-grey-card": 1,
       "bg-primary": 2,
       "bg-white": 1,
-      "border-0": 3,
+      "border-0": 4,
       "border-bottom": 10,
       "border-col": 1,
       "border-light": 10,
@@ -491,18 +492,27 @@
       "btn-outline-primary": 3,
       "btn-primary": 5,
       "button-shadow": 1,
-      "card": 4,
-      "card-body": 4,
+      "card": 9,
+      "card-bg": 4,
+      "card-body": 9,
+      "card-body__list": 4,
       "card-header": 3,
+      "card-space": 4,
       "card-teaser": 3,
       "card-teaser-info": 1,
-      "card-wrapper": 2,
+      "card-wrapper": 6,
+      "carousel-4-card": 1,
       "chip": 5,
       "chip-label": 5,
       "chip-simple": 5,
       "close-div": 1,
       "close-menu": 1,
       "cmp-breadcrumbs": 1,
+      "cmp-carousel": 1,
+      "cmp-carousel__header": 4,
+      "cmp-carousel__header-title": 4,
+      "cmp-carousel__title": 1,
+      "cmp-contacts": 1,
       "cmp-heading": 1,
       "cmp-icon-link": 2,
       "cmp-navscroll": 1,
@@ -515,30 +525,31 @@
       "cmp-steps-rating__body": 3,
       "cms-view-wrapper": 1,
       "col": 1,
-      "col-12": 13,
+      "col-12": 14,
       "col-lg-10": 1,
       "col-lg-3": 2,
       "col-lg-5": 1,
-      "col-lg-6": 2,
+      "col-lg-6": 3,
       "col-lg-8": 2,
       "col-md-3": 3,
       "col-md-4": 3,
       "col-md-6": 3,
       "col-md-8": 1,
       "col-md-9": 1,
-      "collapse": 1,
+      "collapse": 2,
+      "contact-list": 1,
       "container": 9,
       "content": 1,
       "custom-navbar-toggler": 1,
       "d-block": 2,
-      "d-flex": 6,
+      "d-flex": 7,
       "d-inline-block": 2,
       "d-inline-flex": 2,
-      "d-lg-block": 3,
+      "d-lg-block": 4,
       "d-lg-flex": 2,
       "d-md-block": 3,
       "d-md-none": 1,
-      "d-none": 11,
+      "d-none": 12,
       "drop-shadow": 2,
       "dropdown": 3,
       "dropdown-item": 2,
@@ -567,14 +578,16 @@
       "gap-1": 1,
       "gap-2": 1,
       "gap-30": 1,
+      "h-100": 4,
       "h-auto": 1,
       "has-bg-grey": 2,
       "has-megamenu": 1,
-      "icon": 47,
+      "hr-shadow-sm": 1,
+      "icon": 56,
       "icon-left": 2,
-      "icon-md": 2,
-      "icon-primary": 3,
-      "icon-sm": 26,
+      "icon-md": 7,
+      "icon-primary": 8,
+      "icon-sm": 30,
       "icon-white": 18,
       "icon-xs": 1,
       "iscrizioni-header": 2,
@@ -582,8 +595,12 @@
       "it-brand-text": 3,
       "it-brand-title": 2,
       "it-brand-wrapper": 2,
+      "it-carousel-all": 1,
+      "it-carousel-wrapper": 1,
       "it-footer": 1,
       "it-footer-main": 1,
+      "it-header-block": 1,
+      "it-header-block-title": 1,
       "it-header-center-content-wrapper": 1,
       "it-header-center-wrapper": 1,
       "it-header-navbar-wrapper": 1,
@@ -602,10 +619,10 @@
       "justify-content-between": 2,
       "justify-content-center": 3,
       "link-list": 5,
-      "link-list-wrapper": 4,
+      "link-list-wrapper": 8,
       "list-inline": 1,
       "list-inline-item": 6,
-      "list-item": 15,
+      "list-item": 30,
       "list-item-title-icon-wrapper": 2,
       "list-wrapper": 1,
       "logo-hamburger": 1,
@@ -628,6 +645,7 @@
       "modal-lg": 1,
       "modal-title": 1,
       "mr-lg-30": 1,
+      "ms-3": 4,
       "mt-10": 1,
       "mt-2": 1,
       "mt-3": 1,
@@ -648,16 +666,19 @@
       "navbar-secondary": 1,
       "no_toc": 1,
       "offset-lg-1": 1,
+      "offset-lg-3": 1,
       "other-link-title": 1,
       "overlay": 1,
-      "p-0": 1,
+      "p-0": 2,
       "p-1": 6,
       "p-3": 3,
+      "p-contacts": 1,
       "p-lg-0": 1,
       "page-content": 1,
-      "pb-0": 1,
+      "pb-0": 2,
       "pb-10": 1,
       "pb-3": 1,
+      "pb-4": 4,
       "pb-lg-4": 1,
       "pb-lg-80": 1,
       "pe-3": 1,
@@ -668,13 +689,14 @@
       "pt-4": 1,
       "pt-5": 1,
       "pt-lg-80": 1,
+      "px-0": 12,
       "px-3": 1,
       "px-4": 1,
       "radio-body": 10,
       "rating": 1,
       "rating-star": 5,
       "right": 1,
-      "rounded": 2,
+      "rounded": 6,
       "rounded-icon": 2,
       "row": 17,
       "row-column-menu-left": 1,
@@ -687,17 +709,24 @@
       "shadow-contacts": 1,
       "shadow-lg": 2,
       "shadow-rating": 2,
-      "shadow-sm": 1,
+      "shadow-sm": 5,
       "show": 1,
+      "show-more": 2,
+      "single-card": 4,
       "size-xl": 1,
       "skiplink": 1,
       "social": 1,
+      "splide": 1,
+      "splide__list": 1,
+      "splide__slide": 4,
+      "splide__track": 1,
       "step": 2,
       "step-title": 2,
       "sticky-top": 1,
       "subtitle-small": 2,
       "t-primary": 2,
       "text-button": 1,
+      "text-center": 1,
       "text-decoration-none": 1,
       "text-decoration-underline": 2,
       "text-paragraph": 10,
@@ -706,7 +735,7 @@
       "text-white": 6,
       "text-wrap": 2,
       "title-medium-2-bold": 2,
-      "title-medium-2-semi-bold": 1,
+      "title-medium-2-semi-bold": 2,
       "title-small": 1,
       "title-xxlarge": 8,
       "title-xxxlarge": 1,
@@ -714,12 +743,10 @@
       "variable-gutters": 2,
       "visually-hidden": 28,
       "visually-hidden-focusable": 2,
-      "w-100": 3
+      "w-100": 4
     }
   },
-  "missing_ids": [
-    "collapseExample"
-  ],
+  "missing_ids": [],
   "extra_ids": [],
   "element_results": [
     {
@@ -7425,30 +7452,25 @@
       ]
     },
     {
-      "status": "different",
-      "ref_path": "body/main[1]/div[5]",
+      "status": "extra",
+      "ref_path": null,
       "local_path": "body/main[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
-      "ref_tag": "div",
+      "ref_tag": null,
       "local_tag": "div",
-      "identical_parts": [
-        "tag"
-      ],
+      "identical_parts": [],
       "differences": [
-        "classes `bg-grey-card shadow-contacts` -> `cmp-rating__card-second d-none`",
-        "attributes differ"
+        "extra in local document"
       ]
     },
     {
-      "status": "different",
-      "ref_path": "body/main[1]/div[5]/div[1]",
+      "status": "extra",
+      "ref_path": null,
       "local_path": "body/main[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
-      "ref_tag": "div",
+      "ref_tag": null,
       "local_tag": "div",
-      "identical_parts": [
-        "tag"
-      ],
+      "identical_parts": [],
       "differences": [
-        "classes `container` -> `border-0 card-header mb-0`"
+        "extra in local document"
       ]
     },
     {
@@ -7463,1266 +7485,1442 @@
       ]
     },
     {
-      "status": "different",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]",
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]",
       "local_path": "body/main[1]/div[1]/div[1]/div[5]",
       "ref_tag": "div",
       "local_tag": "div",
       "identical_parts": [
-        "tag"
+        "tag",
+        "classes"
       ],
-      "differences": [
-        "classes `row` -> `bg-grey-card shadow-contacts`"
-      ]
+      "differences": []
     },
     {
-      "status": "different",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]",
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]",
       "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]",
       "ref_tag": "div",
       "local_tag": "div",
       "identical_parts": [
-        "tag"
+        "tag",
+        "classes"
       ],
-      "differences": [
-        "classes `col-12 pt-5` -> `container`"
-      ]
+      "differences": []
     },
     {
-      "status": "different",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]",
       "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]",
       "ref_tag": "div",
       "local_tag": "div",
       "identical_parts": [
-        "tag"
+        "tag",
+        "classes"
       ],
-      "differences": [
-        "classes `carousel-4-card cmp-carousel it-carousel-wrapper splide` -> `row`"
-      ]
+      "differences": []
     },
     {
-      "status": "different",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]",
       "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
       "ref_tag": "div",
       "local_tag": "div",
       "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
+    },
+    {
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+      "ref_tag": "div",
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
+    },
+    {
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "ref_tag": "div",
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
+    },
+    {
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "ref_tag": "div",
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
+    },
+    {
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]",
+      "ref_tag": "h2",
+      "local_tag": "h2",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "text"
+      ],
+      "differences": []
+    },
+    {
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "ref_tag": "div",
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
+    },
+    {
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]",
+      "ref_tag": "ul",
+      "local_tag": "ul",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
+    },
+    {
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]",
+      "ref_tag": "li",
+      "local_tag": "li",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
+    },
+    {
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]",
+      "ref_tag": "div",
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
+    },
+    {
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]",
+      "ref_tag": "div",
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
+    },
+    {
+      "status": "identical",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]",
+      "ref_tag": "div",
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
+    },
+    {
+      "status": "different",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/svg[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/svg[1]",
+      "ref_tag": "svg",
+      "local_tag": "svg",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": [
+        "attributes differ"
+      ]
+    },
+    {
+      "status": "different",
+      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/svg[1]/use[1]",
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/svg[1]/use[1]",
+      "ref_tag": "use",
+      "local_tag": "use",
+      "identical_parts": [
         "tag"
       ],
       "differences": [
-        "classes `it-header-block` -> `col-12 pt-5`"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
-      "local_path": null,
-      "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
-    },
-    {
-      "status": "missing",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]",
-      "local_path": null,
-      "ref_tag": "h2",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
-    },
-    {
-      "status": "missing",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]",
-      "local_path": null,
-      "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
-    },
-    {
-      "status": "missing",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]",
-      "local_path": null,
-      "ref_tag": "ul",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
-    },
-    {
-      "status": "missing",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]",
-      "local_path": null,
-      "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
-    },
-    {
-      "status": "missing",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]",
-      "local_path": null,
-      "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
-    },
-    {
-      "status": "missing",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]",
-      "local_path": null,
-      "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
-    },
-    {
-      "status": "missing",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]",
-      "local_path": null,
-      "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
-    },
-    {
-      "status": "missing",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/svg[1]",
-      "local_path": null,
-      "ref_tag": "svg",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
-    },
-    {
-      "status": "missing",
-      "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/svg[1]/use[1]",
-      "local_path": null,
-      "ref_tag": "use",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
-    },
-    {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]",
       "ref_tag": "ul",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "ul",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/svg[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/svg[1]",
       "ref_tag": "svg",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "svg",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "attrs"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/svg[1]/use[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/svg[1]/use[1]",
       "ref_tag": "use",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "use",
+      "identical_parts": [
+        "tag"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]",
       "ref_tag": "ul",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "ul",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/svg[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/svg[1]",
       "ref_tag": "svg",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "svg",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "attrs"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/svg[1]/use[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/svg[1]/use[1]",
       "ref_tag": "use",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "use",
+      "identical_parts": [
+        "tag"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]",
       "ref_tag": "ul",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "ul",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/svg[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/svg[1]",
       "ref_tag": "svg",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "svg",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "attrs"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/svg[1]/use[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/svg[1]/use[1]",
       "ref_tag": "use",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "use",
+      "identical_parts": [
+        "tag"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]",
       "ref_tag": "ul",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "ul",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]/svg[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]/svg[1]",
       "ref_tag": "svg",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "svg",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]/svg[1]/use[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]/svg[1]/use[1]",
       "ref_tag": "use",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "use",
+      "identical_parts": [
+        "tag"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]",
       "ref_tag": "ul",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "ul",
+      "identical_parts": [
+        "tag",
+        "id",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[1]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/ul[1]/li[2]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
       "ref_tag": "div",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "div",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h2[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h2[1]",
       "ref_tag": "h2",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "h2",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]",
       "ref_tag": "ul",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "ul",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/svg[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/svg[1]",
       "ref_tag": "svg",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "svg",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "attrs"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/svg[1]/use[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/svg[1]/use[1]",
       "ref_tag": "use",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "use",
+      "identical_parts": [
+        "tag"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/svg[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/svg[1]",
       "ref_tag": "svg",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "svg",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "attrs"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/svg[1]/use[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/svg[1]/use[1]",
       "ref_tag": "use",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "use",
+      "identical_parts": [
+        "tag"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/svg[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/svg[1]",
       "ref_tag": "svg",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "svg",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "attrs"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/svg[1]/use[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/svg[1]/use[1]",
       "ref_tag": "use",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "use",
+      "identical_parts": [
+        "tag"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]",
       "ref_tag": "li",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "li",
+      "identical_parts": [
+        "tag"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]",
       "ref_tag": "a",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "a",
+      "identical_parts": [
+        "tag",
+        "classes"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/svg[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/svg[1]",
       "ref_tag": "svg",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "svg",
+      "identical_parts": [
+        "tag",
+        "classes",
+        "attrs"
+      ],
+      "differences": []
     },
     {
-      "status": "missing",
+      "status": "different",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/svg[1]/use[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/svg[1]/use[1]",
       "ref_tag": "use",
-      "local_tag": null,
-      "identical_parts": [],
+      "local_tag": "use",
+      "identical_parts": [
+        "tag"
+      ],
       "differences": [
-        "missing in local document"
+        "attributes differ"
       ]
     },
     {
-      "status": "missing",
+      "status": "identical",
       "ref_path": "body/main[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]",
-      "local_path": null,
+      "local_path": "body/main[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]",
       "ref_tag": "span",
-      "local_tag": null,
-      "identical_parts": [],
-      "differences": [
-        "missing in local document"
-      ]
+      "local_tag": "span",
+      "identical_parts": [
+        "tag",
+        "text"
+      ],
+      "differences": []
     },
     {
       "status": "identical",

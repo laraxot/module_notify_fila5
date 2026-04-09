@@ -1360,10 +1360,10 @@
     "attrs": {
       "class": "cms-view-wrapper",
       "wire:effects": "{\"partials\":[]}",
-      "wire:id": "UAG6NCHMwWbfx5X9uD8M",
+      "wire:id": "T0u48z6q01vg8Q0Y7PeJ",
       "wire:key": "lw-558597373-0",
       "wire:name": "volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9",
-      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazione-area-personale\",\"pageSlug\":\"tests.segnalazione-area-personale\",\"data\":[{\"slug\":\"segnalazione-area-personale\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"UAG6NCHMwWbfx5X9uD8M\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazione-area-personale\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":true},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"b3e6942d96188dd6cfb3c0f5bfebcbdd692fcbd8b18d871c9759b4077710e4bf\"}"
+      "wire:snapshot": "{\"data\":{\"slug\":\"segnalazione-area-personale\",\"pageSlug\":\"tests.segnalazione-area-personale\",\"data\":[{\"slug\":\"segnalazione-area-personale\"},{\"s\":\"arr\"}]},\"memo\":{\"id\":\"T0u48z6q01vg8Q0Y7PeJ\",\"name\":\"volt-anonymous-fragment-eyJuYW1lIjoidGVzdHMudmlldyIsInBhdGgiOiJUaGVtZXNcL1NpeHRlZW5cL3Jlc291cmNlc1wvdmlld3NcL3BhZ2VzXC90ZXN0c1wvW3NsdWddLmJsYWRlLnBocCJ9\",\"path\":\"it\\/tests\\/segnalazione-area-personale\",\"method\":\"GET\",\"release\":\"a-a-a\",\"attributes\":{\"lang\":\"it\",\"_theme\":{},\"isMobile\":false,\"isTablet\":false,\"isDesktop\":true},\"children\":[],\"scripts\":[],\"assets\":[],\"errors\":[],\"locale\":\"it\",\"islands\":[]},\"checksum\":\"fad20281a27d59f8a3e2fcb66a4e278d81fe792c5844a3e84a9577b0984c1c96\"}"
     },
     "direct_text": ""
   },

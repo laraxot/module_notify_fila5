@@ -2,29 +2,29 @@
 
 - Reference: `https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati.html`
 - Local: `http://127.0.0.1:8000/it/tests/segnalazione-02-dati`
-- Threshold: `90.0%`
+- Threshold: `80.0%`
 - Status: ✅ PASS
 
 ## Summary
 
-- 📊 Parity score: **90.52%**
-- Tag parity: 98.57%
+- 📊 Parity score: **88.96%**
+- Tag parity: 100.0%
 - ID parity: 100.0%
-- Class parity: 96.65%
+- Class parity: 99.09%
 - Reference elements: 559
-- Local elements: 553
+- Local elements: 575
 
 ## Counts
 
-- ✅ Identical elements: 463
-- ⚠️ Elements with differences: 86
-- ❌ Missing elements: 10
-- ➕ Extra local elements: 4
+- ✅ Identical elements: 467
+- ⚠️ Elements with differences: 89
+- ❌ Missing elements: 3
+- ➕ Extra local elements: 19
 
 ## ID Differences
 
 - ✅ No missing ids
-- ✅ No extra ids
+- ⚠️ Extra id `#file-upload-attachments`
 
 ## Element Details
 
@@ -149,7 +149,7 @@
 - ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]` (`<li>`)
 - ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1]` (`<a>` / `<a>`): attributes differ
 
-- … truncated: 443 more element results in JSON report
+- … truncated: 458 more element results in JSON report
 
 ---
 

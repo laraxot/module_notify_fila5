@@ -9,7 +9,7 @@
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]/a[1]/span[1] | <span> | id=- | class=- | text=Servizi
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4] | <li> | id=- | class=nav-item | text=-
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1] | <a> | id=- | class=nav-link | text=-
-@@ -165,203 +165,197 @@
+@@ -165,203 +165,219 @@
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/svg[1] | <svg> | id=- | class=align-top icon icon-sm icon-white | text=-
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
  body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[6]/a[1]/span[1] | <span> | id=- | class=visually-hidden | text=RSS
@@ -314,12 +314,34 @@
 +body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[3]/div[1]/span[1] | <span> | id=- | class=label | text=fixcity::segnalazione.fields.details.max_chars.label
 +body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4] | <div> | id=- | class=bg-white btn-wrapper pb-3 pb-lg-4 pt-2 pt-lg-0 px-3 px-lg-4 | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/label[1] | <label> | id=- | class=ms-2 pb-2 title-xsmall-bold u-grey-dark | text=Immagini
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1] | <template> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1] | <div> | id=- | class=align-items-center d-flex justify-content-between upload-wrapper | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/img[1] | <img> | id=- | class=img | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/span[1] | <span> | id=- | class=fw-bold ms-2 t-primary w-100 | text=img-disservizio-thumbnail.png
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/a[1] | <a> | id=- | class=align-self-center | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/a[1]/svg[1] | <svg> | id=- | class=icon icon-primary icon-sm mb-1 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[1]/div[1]/a[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/hr[1] | <hr> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2] | <template> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1] | <div> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1] | <div> | id=- | class=align-items-center d-flex justify-content-between upload-wrapper | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[1] | <template> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[1]/img[1] | <img> | id=- | class=img | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[2] | <template> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[2]/svg[1] | <svg> | id=- | class=icon icon-primary | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/template[2]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/span[1] | <span> | id=- | class=fw-bold ms-2 t-primary w-100 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/a[1] | <a> | id=- | class=align-self-center | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/a[1]/svg[1] | <svg> | id=- | class=icon icon-primary icon-sm mb-1 | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/div[1]/a[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/template[2]/div[1]/hr[1] | <hr> | id=- | class=- | text=-
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/input[1] | <input> | id=file-upload-attachments | class=d-none | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/button[1] | <button> | id=- | class=btn btn-primary fw-bold w-100 | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/button[1]/span[1] | <span> | id=- | class=rounded-icon | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/button[1]/span[1]/svg[1] | <svg> | id=- | class=icon icon-sm icon-white | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/button[1]/span[1]/svg[1]/use[1] | <use> | id=- | class=- | text=-
-+body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/button[1]/span[2] | <span> | id=- | class=- | text=fixcity::segnalazione.buttons.upload.label
-+body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/p[1] | <p> | id=- | class=mb-0 pt-10 title-xsmall u-grey-dark | text=fixcity::segnalazione.fields.images.help.label
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/button[1]/span[2] | <span> | id=- | class=- | text=Carica file
++body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/p[1] | <p> | id=- | class=mb-0 pt-10 title-xsmall u-grey-dark | text=Seleziona una o più immagini da allegare alla segnalazione
 +body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[3] | <section> | id=report-author | class=it-page-section | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[3]/div[1] | <div> | id=- | class=cmp-card | text=-
 +body/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/section[3]/div[1]/div[1] | <div> | id=- | class=card has-bkg-grey shadow-sm | text=-

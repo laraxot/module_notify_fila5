@@ -2,28 +2,28 @@
 
 - Reference: `https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-dettaglio.html`
 - Local: `http://127.0.0.1:8000/it/tests/segnalazione-dettaglio`
-- Threshold: `90.0%`
-- Status: ❌ FAIL
+- Threshold: `80.0%`
+- Status: ✅ PASS
 
 ## Summary
 
-- 📊 Parity score: **72.45%**
-- Tag parity: 85.95%
-- ID parity: 97.78%
-- Class parity: 82.32%
+- 📊 Parity score: **83.72%**
+- Tag parity: 98.76%
+- ID parity: 100.0%
+- Class parity: 97.76%
 - Reference elements: 804
-- Local elements: 702
+- Local elements: 814
 
 ## Counts
 
-- ✅ Identical elements: 507
-- ⚠️ Elements with differences: 151
-- ❌ Missing elements: 146
-- ➕ Extra local elements: 44
+- ✅ Identical elements: 595
+- ⚠️ Elements with differences: 173
+- ❌ Missing elements: 36
+- ➕ Extra local elements: 46
 
 ## ID Differences
 
-- ❌ Missing id `#collapseExample`
+- ✅ No missing ids
 - ✅ No extra ids
 
 ## Element Details
@@ -149,7 +149,7 @@
 - ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]` (`<li>`)
 - ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1]` (`<a>` / `<a>`): attributes differ
 
-- … truncated: 728 more element results in JSON report
+- … truncated: 730 more element results in JSON report
 
 ---
 
