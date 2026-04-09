@@ -12,6 +12,9 @@
     $placeholders = is_array($blockData['placeholders'] ?? null) ? $blockData['placeholders'] : [];
 @endphp
 
+{{-- Single root element required by Livewire --}}
+<div class="ticket-wizard-root">
+
 {{-- Title + Steppers --}}
 <div class="container" id="main-container">
     <div class="row justify-content-center">
@@ -440,3 +443,4 @@
         </div>
     </div>
 </div>
+</div>{{-- /.ticket-wizard-root --}}

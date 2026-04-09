@@ -10,36 +10,266 @@
  * Strategy: Tailwind CSS + Alpine.js (NO Bootstrap Italia runtime)
  *
  * Created: 2026-04-07
- * Updated: 2026-04-09 - Added reference colors from visual parity analysis
+ * Updated: 2026-04-09 - Visual parity fixes from computed styles analysis
+ *   - Font family: "Titillium Web" ONLY (no fallbacks)
+ *   - Font sizes: h1=48px, h2=24px, p=16px (EXACT match)
+ *   - Colors: rgb(25,25,25) text, #191919 dark
+ *   - Spacing: mb h1=24px, h2=8px, p=24px
+ *   - Container: max-width + padding match
  */
 
 /* ============================================================================
    0. BOOTSTRAP ITALIA REFERENCE COLORS
-   Source: Visual parity analysis 2026-04-09
-   Note: Uses existing --bs-* variables where available
+   Source: Computed styles analysis 2026-04-09
    ============================================================================ */
 :root {
-  /* Text colors - EXACT from reference analysis */
-  --bi-text-primary: #000000;        /* rgb(0,0,0) - pure black */
+  /* Text colors - EXACT from computed styles */
+  --bi-text-primary: #191919;        /* rgb(25, 25, 25) - reference text color */
+  --bi-text-dark: #191919;           /* Same as primary for consistency */
   --bi-text-secondary: #455a64;      /* rgb(69,90,100) - blue-gray */
-  --bi-text-tertiary: #5d7083;       /* rgb(93,112,131) - lighter blue-gray (same as --bs-secondary) */
-  --bi-text-muted: #5c6f82;          /* Bootstrap Italia standard muted */
-  --bi-text-dark: #191919;           /* Near black for paragraphs (same as --bs-gray-900) */
-  
-  /* Border colors - EXACT from reference analysis */
-  --bi-border-light: #d4d4d4;        /* rgb(212,212,212) - light gray borders (same as --bs-gray-300) */
+  --bi-text-muted: #5c6f82;          /* Muted text */
+  --bi-text-link: #007a52;           /* rgb(0, 122, 82) - green links */
+
+  /* Border colors */
+  --bi-border-light: #d4d4d4;        /* Light gray borders */
   --bi-border: #e0e0e0;              /* Standard border */
-  --bi-border-dark: #a6a6a6;         /* Darker borders */
-  
+
   /* Background colors */
-  --bi-bg-light: #f5f5f5;            /* Light gray background (same as --bs-gray-100) */
   --bi-bg-white: #ffffff;            /* Pure white */
   --bi-bg-page: #fafafa;             /* Page background */
-  
+  --bi-bg-light: #f5f5f5;            /* Light gray sections */
+
   /* Brand colors */
-  --bi-primary: #007a52;             /* Bootstrap Italia green (same as --bs-primary) */
-  --bi-primary-dark: #00402b;        /* Darker green (same as --bs-primary-dark) */
-  --bi-link: #0066cc;                /* Standard link blue */
+  --bi-primary: #007a52;             /* Bootstrap Italia green */
+  --bi-primary-dark: #00402b;        /* Darker green */
+}
+
+/* ============================================================================
+   0.1 TYPOGRAPHY - EXACT REFERENCE MATCH
+   Computed styles from reference 2026-04-09
+   ============================================================================ */
+
+/* Force Titillium Web everywhere - NO fallbacks to match computed styles */
+body,
+p,
+span,
+div,
+a,
+li,
+label,
+input,
+button,
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Titillium Web" !important;
+}
+
+/* Reference computed styles:
+   body: font-family "Titillium Web"
+   h1: 48px, 700, line-height 60px, letter-spacing -1px
+   h2: 24px, line-height 30px
+   p: 16px, 400, line-height 24px
+*/
+
+body {
+  color: rgb(25, 25, 25) !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+h1 {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  line-height: 60px !important;
+  letter-spacing: -1px !important;
+  color: rgb(25, 25, 25) !important;
+  margin-bottom: 24px !important;
+  margin-top: 0 !important;
+}
+
+h2 {
+  font-size: 24px !important;
+  line-height: 30px !important;
+  color: rgb(25, 25, 25) !important;
+  margin-bottom: 8px !important;
+  margin-top: 0 !important;
+}
+
+h3 {
+  font-size: 20px !important;
+  line-height: 28px !important;
+  color: rgb(25, 25, 25) !important;
+}
+
+p {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  color: rgb(25, 25, 25) !important;
+  margin-bottom: 24px !important;
+}
+
+a {
+  color: rgb(0, 122, 82) !important;  /* Green links like reference */
+  text-decoration: underline !important;
+}
+
+a:hover {
+  color: rgb(0, 64, 43) !important;  /* Darker green on hover */
+}
+
+/* ============================================================================
+   0.2 CONTAINER - Match reference max-width and padding
+   Reference container: maxWidth from computed
+   ============================================================================ */
+
+.container {
+  max-width: 1166px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px !important;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px !important;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1166px !important;
+  }
+}
+
+/* ============================================================================
+   0.3 CARD - Bootstrap Italia style
+   ============================================================================ */
+
+.card {
+  background-color: rgb(255, 255, 255) !important;
+  border: 1px solid rgb(212, 212, 212) !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  padding: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+.card-body {
+  padding: 24px !important;
+}
+
+.card-title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: rgb(25, 25, 25) !important;
+  margin-bottom: 16px !important;
+}
+
+.card-text {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: rgb(25, 25, 25) !important;
+  margin-bottom: 16px !important;
+}
+
+/* ============================================================================
+   0.4 BUTTONS - Bootstrap Italia style
+   ============================================================================ */
+
+.btn {
+  display: inline-block !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  user-select: none !important;
+  border: 2px solid transparent !important;
+  padding: 0.375rem 1rem !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  border-radius: 4px !important;
+  transition: all 0.2s ease-in-out !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+}
+
+.btn-primary {
+  background-color: rgb(0, 122, 82) !important;
+  border-color: rgb(0, 122, 82) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.btn-primary:hover {
+  background-color: rgb(0, 90, 60) !important;
+  border-color: rgb(0, 90, 60) !important;
+}
+
+.btn-secondary {
+  background-color: rgb(108, 117, 125) !important;
+  border-color: rgb(108, 117, 125) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.btn-outline-primary {
+  background-color: transparent !important;
+  border-color: rgb(0, 122, 82) !important;
+  color: rgb(0, 122, 82) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgb(0, 122, 82) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.btn-lg {
+  padding: 0.5rem 1.5rem !important;
+  font-size: 1.125rem !important;
+  border-radius: 4px !important;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.75rem !important;
+  font-size: 0.875rem !important;
+  border-radius: 3px !important;
+}
+
+/* ============================================================================
+   0.5 LIST ITEMS
+   ============================================================================ */
+
+.list-item {
+  font-family: "Titillium Web" !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: rgb(25, 25, 25) !important;
+  padding: 8px 0 !important;
+  border-bottom: 1px solid rgb(212, 212, 212) !important;
+}
+
+.list-item:last-child {
+  border-bottom: none !important;
+}
+
+.link-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.link-list-wrapper ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* ============================================================================

@@ -93,6 +93,8 @@
 
 **HTML Structure Comparison Tools**:
 - [bashscripts/docs/html/INDEX.md](../../bashscripts/docs/html/INDEX.md) - HTML comparison tools documentation
+- [Project MCP Servers](../../../docs/project/mcp-overview.md) - Memory and development MCP servers
+- [.qwen/mcp-servers/README.md](../../../.qwen/mcp-servers/README.md) - MCP servers detailed docs
 - [bashscripts/html/html-structure-compare.sh](../../bashscripts/html/html-structure-compare.sh) - Main comparison script
 - [bashscripts/html/extract-body-html.py](../../bashscripts/html/extract-body-html.py) - Body extraction helper
 - [bashscripts/html/compare-html-body.py](../../bashscripts/html/compare-html-body.py) - Structure comparison helper

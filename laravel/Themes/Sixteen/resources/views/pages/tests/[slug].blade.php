@@ -32,16 +32,15 @@ new class extends Component {
 
 <x-layouts.app>
     @volt('tests.view')
-    <div class="cms-view-wrapper">
+    <div class="tests-view-wrapper">
         @php
             $blocks = Page::getBlocksBySlug($this->pageSlug, 'content');
         @endphp
 
-        <div class="page-content content" data-slug="{{ $this->pageSlug }}" data-side="content">
-            @foreach($blocks as $block)
-                @include($block->view, array_merge($this->data, ['data' => $block->data]))
-            @endforeach
-        </div>
+        {{-- HTML parity: NO extra wrapper divs - component outputs exact reference structure --}}
+        @foreach($blocks as $block)
+            @include($block->view, array_merge($this->data, ['data' => $block->data]))
+        @endforeach
     </div>
     @endvolt
 </x-layouts.app>

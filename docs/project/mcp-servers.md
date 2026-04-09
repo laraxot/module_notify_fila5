@@ -1,91 +1,77 @@
 # MCP Servers Configuration
 
-**Last Updated**: 2026-04-09
-**Config File**: `.qwen/mcp.json`
+**Ultimo aggiornamento**: 2026-04-09  
+**Canonical Config**: `laravel/.mcp.json`  
+**Total Servers**: 9 (6 existing + 3 new memory servers)
 
-## Installed MCP Servers
+## 📚 Canonical Documentation
 
-### Memory & Knowledge
+⚠️ **DRY Rule**: Questa pagina è un index. Per documentazione completa, vedere:
 
-| Server | Package | Purpose | Status |
-|---|---|---|---|
-| **memory-bank** | `memory-bank-mcp` | Project memory bank with structured files (features, context, progress) | ✅ Installed |
-| **knowledge-graph** | `mcp-server-memory` | Knowledge graph for semantic memory queries | ✅ Installed |
-| **supermemory** | `opencode-supermemory` | Cloud persistent memory with AI search and user profiles | ✅ Installed |
+| Document | Location |
+|----------|----------|
+| **⭐ MCP Servers Index** | [Modules/Xot/docs/mcp/MCP-SERVERS-INDEX.md](../../laravel/Modules/Xot/docs/mcp/MCP-SERVERS-INDEX.md) |
+| **Theme MCP Setup** | [Themes/Sixteen/docs/mcp/MCP-THEME-SETUP.md](../../laravel/Themes/Sixteen/docs/mcp/MCP-THEME-SETUP.md) |
+| **Bash Scripts MCP Index** | [bashscripts/docs/mcp/MCP-INDEX.md](../../bashscripts/docs/mcp/MCP-INDEX.md) |
+| **Memory Bank** | [.memory-bank/](../.memory-bank/) |
 
-### Development Tools
+## 🧠 Memory Servers (NEW - 2026-04-09)
 
-| Server | Package | Purpose | Status |
-|---|---|---|---|
-| **filesystem** | `@modelcontextprotocol/server-filesystem` | File system access with security constraints | ✅ Installed |
-| **sequential-thinking** | `@modelcontextprotocol/server-sequential-thinking` | Structured reasoning and chain-of-thought | ✅ Installed |
-| **laravel-boost** | Laravel Boost MCP | Laravel-specific tools (search-docs, tinker, browser-logs) | ✅ Installed |
-| **flowbite** | `flowbite-mcp` | Flowbite UI component reference | ✅ Installed |
-| **classmcp** | `classmcp` | PHP class introspection | ✅ Installed |
+### 1. Knowledge Graph Memory (Official)
+- **Package**: `@modelcontextprotocol/server-memory`
+- **Scopo**: Persistent memory across sessions
+- **Storage**: Local JSON
+- **Status**: ✅ Attivo
 
-## Memory Servers Detail
+### 2. Memory Bank (⭐893)
+- **Package**: `memory-bank-mcp`
+- **Scopo**: Structured project memory (Cline pattern)
+- **Storage**: `.memory-bank/` directory
+- **Files**: 5/5 completati
+  - activeContext.md
+  - productContext.md
+  - techContext.md
+  - systemPatterns.md
+  - progress.md
+- **Status**: ✅ Attivo
 
-### 1. Memory Bank (`memory-bank-mcp`)
-**Location**: `npm global`
-**Init**: `memory-bank-mcp init --directory .`
-**Directory**: `/var/www/_bases/base_fixcity_fila5/memory-bank/`
+### 3. Context7 (⭐52,094)
+- **Package**: `@upstash/context7-mcp`
+- **Scopo**: Code documentation lookup
+- **API Key**: Richiesta (gratuita)
+- **Status**: ✅ Configurato
 
-**Structure**:
-```
-memory-bank/
-├── projectbrief.md      # Project purpose and goals
-├── productContext.md    # Product context and user needs
-├── systemPatterns.md    # Architecture patterns and decisions
-├── techContext.md       # Technology stack and constraints
-├── activeContext.md     # Current work and recent decisions
-├── progress.md          # What works, what's left, progress status
-├── features/            # Feature specifications
-│   └── sample-feature.md
-```
+## 🛠️ Existing Servers (6)
 
-**Commands**:
+| Server | Scopo | Status |
+|--------|-------|--------|
+| laravel-boost | Artisan commands, docs | ✅ |
+| filesystem | File operations | ✅ |
+| sqlite | Database queries | ✅ |
+| sequential-thinking | Reasoning | ✅ |
+| fetch | HTTP requests | ✅ |
+| github | Git management | ✅ |
+
+## 🚀 Quick Start
+
 ```bash
-memory-bank-mcp init --directory .    # Initialize in project root
-memory-bank-mcp serve --directory .   # Start MCP server
-memory-bank-mcp list                  # List memory files
-memory-bank-mcp read                  # Read all memory content
+# Config: laravel/.mcp.json
+# Memory Bank: .memory-bank/
+
+# Riavviare IDE per ricaricare MCP
+# Verifica: Test memory tools in chat
 ```
 
-### 2. Knowledge Graph (`mcp-server-memory`)
-**Location**: `npm global`
-**Type**: Local SQLite + FTS5 knowledge graph
-**Use Case**: Semantic search across project knowledge
+## 📊 Full Documentation
 
-### 3. Supermemory (`opencode-supermemory`)
-**Location**: `npm package (bunx)`
-**API Key**: `sm_BzH3Cugxk1hMDm5V1EHC2N_Jr9NfJdUqxlnPe21yb9q7FtbYMevTsoPtKZJEfBqdP4i81z6aJA34SF32Gx3PUa9`
-**Tag**: `fixcity_fila5_project`
-**Features**:
-- Cross-project user profiles
-- Project-specific memories with semantic search
-- Keyword detection ("ricorda", "memorizza", "salva questa")
-- Preemptive context compaction at 80% capacity
+Per dettagli completi su configurazione, usage, e best practices:
 
-## Configuration Rules
+→ [MCP-SERVERS-INDEX.md](../../laravel/Modules/Xot/docs/mcp/MCP-SERVERS-INDEX.md)
 
-### File Naming
-- **NEVER** use dates in MCP config filenames
-- Use lowercase with hyphens: `memory-bank`, `knowledge-graph`
-- Config files go in `.qwen/mcp.json`
+## Related Docs
 
-### Memory Organization
-- **Project memory**: `memory-bank/` directory
-- **Cloud memory**: Supermemory with tag `fixcity_fila5_project`
-- **Knowledge graph**: Local SQLite in `.engram/` (if configured)
-
-### DRY Prevention
-- Each memory system has a distinct purpose
-- Memory Bank = structured project documentation
-- Supermemory = AI-learned context across sessions
-- Knowledge Graph = semantic search engine
-- **NO duplicate storage** - use cross-references
-
-## See Also
-- [Memory Bank Directory](../../memory-bank/)
-- [Supermemory Setup](../../docs/project/supermemory-setup.md)
-- [Laravel MCP Development](../../.qwen/skills/mcp-development/)
+- [Project Configuration](project/configuration.md)
+- [AI Workflow](project/ai-workflow/)
+- Module MCP: [MCP-SERVERS-INDEX.md](../../laravel/Modules/Xot/docs/mcp/MCP-SERVERS-INDEX.md)
+- Theme MCP: [MCP-THEME-SETUP.md](../../laravel/Themes/Sixteen/docs/mcp/MCP-THEME-SETUP.md)
+- Bash Scripts MCP: [MCP-INDEX.md](../../bashscripts/docs/mcp/MCP-INDEX.md)
