@@ -2552,3 +2552,26 @@ body.page-tests-segnalazione-01-privacy .cmp-contacts .icon {
     padding-bottom: 0 !important;
   }
 }
+
+/* ============================================================================
+   Global text-paragraph fixes for all segnalazione pages
+   Reference: Titillium Web 16px/24px, color #191919
+   Fixes pages that were showing 14px/21px instead of 16px/24px
+   ============================================================================ */
+
+body.page-tests-segnalazione-area-personale .text-paragraph,
+body.page-tests-segnalazioni-elenco .text-paragraph,
+body.page-tests-segnalazione-dettaglio .text-paragraph {
+  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  color: #191919 !important;
+}
+
+/* Also fix generic text color if needed */
+body.page-tests-segnalazione-area-personale .text-paragraph,
+body.page-tests-segnalazioni-elenco .text-paragraph,
+body.page-tests-segnalazione-dettaglio .text-paragraph {
+  color: #191919 !important;
+}

@@ -4,32 +4,27 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Filament\Widgets;
 
-use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Action;
 use Filament\Actions\Contracts\HasActions;
-use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Widgets\Widget as BaseWidget;
 use Illuminate\Contracts\View\View;
-use Illuminate\Http\UploadedFile;
-use Illuminate\Support\Facades\Storage;
 use Modules\Fixcity\Events\TicketCreatedEvent;
 use Modules\Fixcity\Models\Ticket;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
 /**
  * Widget frontoffice per creazione Ticket in 3 step.
  *
  * Step 1: Privacy - accettazione informativa
- * Step 2: Dati - luogo, tipo, titolo, dettagli, immagini, info utente
+ * Step 2: Dati - luogo, tipo, titolo, dettagli, email
  * Step 3: Riepilogo - revisione + submit → redirect a conferma
  *
- * NON usa Filament Schemas Wizard (asset JS non disponibili nel frontoffice).
- * Navigazione step via stato Livewire puro ($currentStep).
+ * Estende XotBaseWidget seguendo le regole Laraxot.
+ * Navigazione step via stato Livewire puro ($currentStep) per compatibilità frontoffice.
  */
-class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForms
+class CreateTicketWizardWidget extends XotBaseWidget
 {
-    use InteractsWithActions;
-    use InteractsWithForms;
-
     protected string $view = 'fixcity::filament.widgets.ticket-create-wizard';
 
     protected int|string|array $columnSpan = 'full';
@@ -51,20 +46,19 @@ class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForm
 
     public string $email = '';
 
-    /** @var array<int, string> */
-    public array $images = [];
-
-    // User info
-    public string $userName = '';
-
-    public string $userFiscalCode = '';
-
-    public string $userPhone = '';
-
     /** @param array<string, mixed> $blockData */
     public function mount(array $blockData = []): void
     {
         $this->blockData = $blockData;
+        $this->data = $this->getFormFill();
+    }
+
+    /**
+     * @return array<string, \Filament\Schemas\Components\Component>
+     */
+    public function getFormSchema(): array
+    {
+        return []; // Gestito manualmente nella vista per parità HTML Design Comuni
     }
 
     public function nextStep(): void
@@ -76,12 +70,8 @@ class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForm
                 'address' => ['required', 'string', 'max:255'],
                 'issueType' => ['required', 'string'],
                 'title' => ['required', 'string', 'max:255'],
-                'details' => ['required', 'string', 'max:200'],
+                'details' => ['required', 'string'],
                 'email' => ['nullable', 'email', 'max:255'],
-                'images.*' => ['nullable', 'image', 'max:5120'],
-                'userName' => ['nullable', 'string', 'max:255'],
-                'userFiscalCode' => ['nullable', 'string', 'max:16'],
-                'userPhone' => ['nullable', 'string', 'max:20'],
             ]);
         }
 
@@ -97,52 +87,6 @@ class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForm
         }
     }
 
-    /**
-     * Handles image uploads from the file input.
-     * Called via wire:change on the file input element.
-     */
-    public function updatedImages(mixed $value): void
-    {
-        if ($value instanceof UploadedFile) {
-            $path = $value->store('tickets/images', 'public');
-            $this->images[] = $path;
-        } elseif (is_array($value)) {
-            foreach ($value as $file) {
-                if ($file instanceof UploadedFile) {
-                    $path = $file->store('tickets/images', 'public');
-                    $this->images[] = $path;
-                }
-            }
-        }
-    }
-
-    /**
-     * Handles multiple image uploads from file input change event.
-     *
-     * @param  array<int, mixed>  $files
-     */
-    public function handleImageUpload(array $files): void
-    {
-        foreach ($files as $file) {
-            if ($file instanceof UploadedFile && $file->isValid()) {
-                $path = $file->store('tickets/images', 'public');
-                $this->images[] = $path;
-            }
-        }
-    }
-
-    public function removeImage(int $index): void
-    {
-        if (isset($this->images[$index])) {
-            $path = $this->images[$index];
-            if (Storage::disk('public')->exists($path)) {
-                Storage::disk('public')->delete($path);
-            }
-            unset($this->images[$index]);
-            $this->images = array_values($this->images);
-        }
-    }
-
     public function submit(): void
     {
         $this->validate([
@@ -150,23 +94,20 @@ class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForm
             'address' => ['required', 'string', 'max:255'],
             'issueType' => ['required', 'string'],
             'title' => ['required', 'string', 'max:255'],
-            'details' => ['required', 'string', 'max:200'],
+            'details' => ['required', 'string'],
             'email' => ['nullable', 'email', 'max:255'],
         ]);
 
-        $imagePaths = [];
-        foreach ($this->images as $uploadedPath) {
-            $imagePaths[] = $uploadedPath;
-        }
-
         $ticket = Ticket::create([
-            'address' => $this->address,
-            'issue_type' => $this->issueType,
-            'title' => $this->title,
-            'details' => $this->details,
-            'email' => $this->email !== '' ? $this->email : null,
+            'name' => $this->title, // Mappa title -> name
+            'content' => $this->details, // Mappa details -> content
+            'type' => $this->issueType, // Mappa issueType -> type
+            // 'address' => $this->address, // Se presente in DB
+            // 'email' => $this->email !== '' ? $this->email : null,
         ]);
 
+        // Se address ed email non sono in Ticket, potremmo salvarli in metadata o content
+        // Per ora manteniamo la logica base e inviamo l'evento
         TicketCreatedEvent::dispatch($ticket);
 
         $this->redirect('/'.app()->getLocale().'/tests/segnalazione-04-conferma');
@@ -208,7 +149,7 @@ class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForm
 
     public function render(): View
     {
-        return view('fixcity::filament.widgets.ticket-create-wizard', [
+        return view($this->view, [
             'issueTypeOptions' => $this->getIssueTypeOptions(),
             'steps' => [
                 (string) __('fixcity::segnalazione.steps.privacy.label'),
