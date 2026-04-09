@@ -90,8 +90,6 @@
    6. EVENTI CAROUSEL
    ============================================================================ */
 
-<<<<<<< HEAD
-=======
 /* Chip "Estate in città" — green border, on its own line */
 .dc-homepage-parity #head-section .chip {
   display: inline-flex !important;
@@ -822,17 +820,12 @@ body.dc-homepage-parity .it-carousel-wrapper,
 }
 
 /* Individual event card - ONLY slides in carousel, NOT governance cards */
-.dc-homepage-parity .it-carousel-wrapper .splide__slide .card-teaser,
->>>>>>> 36abb5a44 (.)
 .dc-homepage-parity .it-carousel-wrapper .splide__slide {
   flex: 0 0 180px !important;
   min-width: 180px !important;
   max-width: 180px !important;
 }
 
-<<<<<<< HEAD
-.dc-homepage-parity #calendario .card-bg .card-title {
-=======
 /* Governance cards - proper width, NOT carousel slides */
 .dc-homepage-parity #calendario .row.mb-2 .card-teaser {
   flex: none !important;
@@ -845,7 +838,6 @@ body.dc-homepage-parity .it-carousel-wrapper,
 /* Event date - large and bold */
 .dc-homepage-parity #calendario .card-bg .card-title,
 .dc-homepage-parity #calendario .card-title {
->>>>>>> 36abb5a44 (.)
   font-size: 2rem !important;
   font-weight: 700 !important;
   color: #0066cc !important;
