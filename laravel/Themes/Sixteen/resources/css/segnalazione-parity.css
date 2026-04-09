@@ -2667,8 +2667,8 @@ body.page-tests-segnalazione-01-privacy .text-paragraph + .text-paragraph {
 }
 
 body.page-tests-segnalazione-01-privacy .form-check {
-  margin-top: 2rem !important;
-  margin-bottom: 1.25rem !important;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
   padding: 0 !important;
 }
 
@@ -2678,18 +2678,18 @@ body.page-tests-segnalazione-01-privacy .checkbox-body {
 }
 
 body.page-tests-segnalazione-01-privacy .checkbox-body input[type="checkbox"] {
-  width: 1rem !important;
-  height: 1rem !important;
-  margin-top: 0.1rem !important;
+  width: 1.125rem !important;
+  height: 1.125rem !important;
+  margin-top: 0 !important;
   border: 1px solid #5b6f82 !important;
 }
 
 body.page-tests-segnalazione-01-privacy .checkbox-body label {
   margin: 0 !important;
   padding-top: 0 !important;
-  font-size: 0.875rem !important;
+  font-size: 1.125rem !important;
   line-height: 1.45 !important;
-  color: #17324d !important;
+  color: #1a1a1a !important;
   font-weight: 600 !important;
 }
 
