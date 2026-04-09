@@ -191,7 +191,7 @@
                                             @endforeach
                                             <hr>
                                         @endif
-                                        <input type="file" id="imageUpload" multiple accept="image/*" class="d-none" wire:change="updatedImages($event.target.files)">
+                                        <input type="file" id="imageUpload" x-ref="imageUpload" multiple accept="image/*" class="d-none" wire:change="handleImageUpload($event.target.files)">
                                         <button type="button" aria-label="{{ __('fixcity::segnalazione.fields.images.upload_label') }}" class="btn btn-primary w-100 fw-bold" @click="$refs.imageUpload.click()">
                                             <span class="rounded-icon">
                                                 <svg class="icon icon-white icon-sm" aria-hidden="true">

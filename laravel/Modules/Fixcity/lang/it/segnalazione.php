@@ -100,7 +100,7 @@ return [
             'description' => 'Allega immagini del disservizio',
             'upload_label' => 'Carica file per il disservizio',
             'upload_button' => 'Carica file',
-            'help_text' => 'Seleziona una o piu immagini da allegare alla segnalazione',
+            'help_text' => 'Seleziona una o più immagini da allegare alla segnalazione',
             'help' => [
                 'label' => 'Seleziona una o più immagini da allegare alla segnalazione',
             ],

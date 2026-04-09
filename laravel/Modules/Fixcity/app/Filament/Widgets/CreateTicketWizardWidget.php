@@ -8,9 +8,9 @@ use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
-use Filament\Forms\Components\FileUpload;
 use Filament\Widgets\Widget as BaseWidget;
 use Illuminate\Contracts\View\View;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
 use Modules\Fixcity\Events\TicketCreatedEvent;
 use Modules\Fixcity\Models\Ticket;
@@ -103,15 +103,30 @@ class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForm
      */
     public function updatedImages(mixed $value): void
     {
-        if ($value instanceof \Illuminate\Http\UploadedFile) {
+        if ($value instanceof UploadedFile) {
             $path = $value->store('tickets/images', 'public');
             $this->images[] = $path;
         } elseif (is_array($value)) {
             foreach ($value as $file) {
-                if ($file instanceof \Illuminate\Http\UploadedFile) {
+                if ($file instanceof UploadedFile) {
                     $path = $file->store('tickets/images', 'public');
                     $this->images[] = $path;
                 }
+            }
+        }
+    }
+
+    /**
+     * Handles multiple image uploads from file input change event.
+     *
+     * @param  array<int, mixed>  $files
+     */
+    public function handleImageUpload(array $files): void
+    {
+        foreach ($files as $file) {
+            if ($file instanceof UploadedFile && $file->isValid()) {
+                $path = $file->store('tickets/images', 'public');
+                $this->images[] = $path;
             }
         }
     }

@@ -68,6 +68,7 @@ return [
         ],
         'report_author' => [
             'label' => 'Report Author',
+            'description' => 'Information about you',
         ],
         'contacts' => [
             'label' => 'Contacts',
