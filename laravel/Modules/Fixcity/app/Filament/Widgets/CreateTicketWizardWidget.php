@@ -8,8 +8,10 @@ use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
+use Filament\Forms\Components\FileUpload;
 use Filament\Widgets\Widget as BaseWidget;
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\Storage;
 use Modules\Fixcity\Events\TicketCreatedEvent;
 use Modules\Fixcity\Models\Ticket;
 
@@ -17,7 +19,7 @@ use Modules\Fixcity\Models\Ticket;
  * Widget frontoffice per creazione Ticket in 3 step.
  *
  * Step 1: Privacy - accettazione informativa
- * Step 2: Dati - luogo, tipo, titolo, dettagli, email
+ * Step 2: Dati - luogo, tipo, titolo, dettagli, immagini, info utente
  * Step 3: Riepilogo - revisione + submit → redirect a conferma
  *
  * NON usa Filament Schemas Wizard (asset JS non disponibili nel frontoffice).
@@ -49,6 +51,16 @@ class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForm
 
     public string $email = '';
 
+    /** @var array<int, string> */
+    public array $images = [];
+
+    // User info
+    public string $userName = '';
+
+    public string $userFiscalCode = '';
+
+    public string $userPhone = '';
+
     /** @param array<string, mixed> $blockData */
     public function mount(array $blockData = []): void
     {
@@ -64,8 +76,12 @@ class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForm
                 'address' => ['required', 'string', 'max:255'],
                 'issueType' => ['required', 'string'],
                 'title' => ['required', 'string', 'max:255'],
-                'details' => ['required', 'string'],
+                'details' => ['required', 'string', 'max:200'],
                 'email' => ['nullable', 'email', 'max:255'],
+                'images.*' => ['nullable', 'image', 'max:5120'],
+                'userName' => ['nullable', 'string', 'max:255'],
+                'userFiscalCode' => ['nullable', 'string', 'max:16'],
+                'userPhone' => ['nullable', 'string', 'max:20'],
             ]);
         }
 
@@ -81,6 +97,37 @@ class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForm
         }
     }
 
+    /**
+     * Handles image uploads from the file input.
+     * Called via wire:change on the file input element.
+     */
+    public function updatedImages(mixed $value): void
+    {
+        if ($value instanceof \Illuminate\Http\UploadedFile) {
+            $path = $value->store('tickets/images', 'public');
+            $this->images[] = $path;
+        } elseif (is_array($value)) {
+            foreach ($value as $file) {
+                if ($file instanceof \Illuminate\Http\UploadedFile) {
+                    $path = $file->store('tickets/images', 'public');
+                    $this->images[] = $path;
+                }
+            }
+        }
+    }
+
+    public function removeImage(int $index): void
+    {
+        if (isset($this->images[$index])) {
+            $path = $this->images[$index];
+            if (Storage::disk('public')->exists($path)) {
+                Storage::disk('public')->delete($path);
+            }
+            unset($this->images[$index]);
+            $this->images = array_values($this->images);
+        }
+    }
+
     public function submit(): void
     {
         $this->validate([
@@ -88,9 +135,14 @@ class CreateTicketWizardWidget extends BaseWidget implements HasActions, HasForm
             'address' => ['required', 'string', 'max:255'],
             'issueType' => ['required', 'string'],
             'title' => ['required', 'string', 'max:255'],
-            'details' => ['required', 'string'],
+            'details' => ['required', 'string', 'max:200'],
             'email' => ['nullable', 'email', 'max:255'],
         ]);
+
+        $imagePaths = [];
+        foreach ($this->images as $uploadedPath) {
+            $imagePaths[] = $uploadedPath;
+        }
 
         $ticket = Ticket::create([
             'address' => $this->address,

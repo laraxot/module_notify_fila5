@@ -140,7 +140,13 @@ Need to update docs/rules/memories to prevent this from happening again
 utilizza BMAD + GSD 
 
 
-<pagina>=segnalazione-01-privacy
+<pagina> = segnalazione-area-personale
+<pagina> = segnalazioni-elenco
+<pagina> = segnalazione-dettaglio
+<pagina> = segnalazione-01-privacy
+<pagina> = segnalazione-02-dati
+<pagina> = segnalazione-03-riepilogo
+<pagina> = segnalazione-04-conferma
 #FASE css/js <pagin>
 bmad-help fase "css/js <pagina>" 
 controlliamo la percentuale di html parity, che hai gia' fatto uno script dentro bashscripts/html e controlliamo

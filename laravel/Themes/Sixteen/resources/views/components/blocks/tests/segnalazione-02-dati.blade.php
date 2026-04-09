@@ -176,15 +176,93 @@
                                             <span class="label">{{ __('fixcity::segnalazione.fields.details.max_chars.label') }}</span>
                                         </div>
                                     </div>
-                                    <div class="btn-wrapper px-3 pt-2 pb-3 px-lg-4 pb-lg-4 pt-lg-0 bg-white">
+                                    <div class="btn-wrapper px-3 pt-2 pb-3 px-lg-4 pb-lg-4 pt-lg-0 bg-white"
+                                         x-data="{
+                                             files: [],
+                                             maxFiles: 5,
+                                             maxSize: 5 * 1024 * 1024,
+                                             addFiles(event) {
+                                                 const newFiles = Array.from(event.target.files);
+                                                 newFiles.forEach(file => {
+                                                     if (this.files.length < this.maxFiles && file.size <= this.maxSize) {
+                                                         this.files.push({
+                                                             name: file.name,
+                                                             size: file.size,
+                                                             type: file.type,
+                                                             preview: file.type.startsWith('image/') ? URL.createObjectURL(file) : null
+                                                         });
+                                                     }
+                                                 });
+                                                 event.target.value = '';
+                                             },
+                                             removeFile(index) {
+                                                 if (this.files[index]?.preview) {
+                                                     URL.revokeObjectURL(this.files[index].preview);
+                                                 }
+                                                 this.files.splice(index, 1);
+                                             },
+                                             formatSize(bytes) {
+                                                 if (bytes < 1024) return bytes + ' B';
+                                                 if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+                                                 return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+                                             }
+                                         }">
                                         <label class="title-xsmall-bold u-grey-dark pb-2 ms-2">{{ __('fixcity::segnalazione.fields.images.label') }}</label>
-                                        <button type="button" aria-label="{{ __('fixcity::segnalazione.buttons.upload.aria.label') }}" class="btn btn-primary w-100 fw-bold">
+
+                                        {{-- Static placeholder when no files uploaded (matches reference) --}}
+                                        <template x-if="files.length === 0">
+                                            <div class="upload-wrapper d-flex justify-content-between align-items-center">
+                                                <img src="/themes/Sixteen/design-comuni/assets/images/img-disservizio-thumbnail.png" alt="" class="img">
+                                                <span class="t-primary fw-bold w-100 ms-2">img-disservizio-thumbnail.png</span>
+                                                <a href="#" class="align-self-center" aria-label="{{ __('fixcity::segnalazione.buttons.delete_image.aria.label') }}">
+                                                    <svg class="icon icon-primary icon-sm mb-1">
+                                                        <use href="{{ $sprite }}#it-close"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </template>
+                                        <hr>
+
+                                        {{-- Uploaded files preview list --}}
+                                        <template x-for="(file, index) in files" :key="index">
+                                            <div>
+                                                <div class="upload-wrapper d-flex justify-content-between align-items-center">
+                                                    <template x-if="file.preview">
+                                                        <img :src="file.preview" alt="" class="img" style="width:48px;height:48px;object-fit:cover;border-radius:4px;">
+                                                    </template>
+                                                    <template x-if="!file.preview">
+                                                        <svg class="icon icon-primary" style="width:48px;height:48px;flex-shrink:0;" aria-hidden="true">
+                                                            <use href="{{ $sprite }}#it-file"></use>
+                                                        </svg>
+                                                    </template>
+                                                    <span class="t-primary fw-bold w-100 ms-2" x-text="file.name"></span>
+                                                    <a href="#" class="align-self-center" :aria-label="'elimina file ' + file.name"
+                                                       @click.prevent="removeFile(index)">
+                                                        <svg class="icon icon-primary icon-sm mb-1" aria-hidden="true">
+                                                            <use href="{{ $sprite }}#it-close"></use>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                                <hr>
+                                            </div>
+                                        </template>
+
+                                        {{-- Hidden file input --}}
+                                        <input type="file" id="file-upload-attachments" name="attachments[]" multiple
+                                               accept="image/jpeg,image/png,image/gif,image/webp"
+                                               class="d-none" @change="addFiles($event)">
+
+                                        {{-- Upload button triggers hidden input --}}
+                                        <button type="button"
+                                                aria-label="{{ __('fixcity::segnalazione.actions.upload.aria.label') }}"
+                                                class="btn btn-primary w-100 fw-bold"
+                                                @click="document.getElementById('file-upload-attachments').click()">
                                             <span class="rounded-icon">
                                                 <svg class="icon icon-white icon-sm" aria-hidden="true">
                                                     <use href="{{ $sprite }}#it-upload"></use>
                                                 </svg>
                                             </span>
-                                            <span class="">{{ __('fixcity::segnalazione.buttons.upload.label') }}</span>
+                                            <span>{{ __('fixcity::segnalazione.actions.upload.label') }}</span>
                                         </button>
                                         <p class="title-xsmall u-grey-dark pt-10 mb-0">{{ __('fixcity::segnalazione.fields.images.help.label') }}</p>
                                     </div>

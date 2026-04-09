@@ -68,6 +68,7 @@ return [
         ],
         'report_author' => [
             'label' => 'Autore della segnalazione',
+            'description' => 'Informazione su di te',
         ],
         'contacts' => [
             'label' => 'Contatti',
@@ -76,30 +77,51 @@ return [
     'fields' => [
         'title' => [
             'label' => 'Titolo',
+            'placeholder' => 'Inserisci un titolo sintetico',
+            'description' => 'Descrivi brevemente il disservizio',
         ],
         'type' => [
             'label' => 'Tipo di disservizio',
+            'description' => 'Seleziona il tipo di disservizio',
         ],
         'disservice' => [
             'label' => 'Disservizio',
         ],
         'address' => [
             'label' => 'Indirizzo',
+            'placeholder' => 'Indica il luogo del disservizio',
         ],
         'details' => [
             'label' => 'Dettagli',
+            'char_limit' => 'Inserire al massimo 200 caratteri',
         ],
         'images' => [
             'label' => 'Immagini',
+            'description' => 'Allega immagini del disservizio',
+            'upload_label' => 'Carica file per il disservizio',
+            'upload_button' => 'Carica file',
+            'help_text' => 'Seleziona una o piu immagini da allegare alla segnalazione',
+            'help' => [
+                'label' => 'Seleziona una o più immagini da allegare alla segnalazione',
+            ],
+        ],
+        'use_my_location' => [
+            'label' => 'Usa la tua posizione',
         ],
         'author' => [
             'label' => 'Autore',
         ],
+        'name' => [
+            'label' => 'Nome e Cognome',
+            'placeholder' => 'Nome e Cognome',
+        ],
         'fiscal_code' => [
             'label' => 'Codice Fiscale',
+            'placeholder' => 'Inserisci il codice fiscale',
         ],
         'phone' => [
             'label' => 'Telefono',
+            'placeholder' => '+39 333 1234567',
         ],
         'email' => [
             'label' => 'Email',
@@ -129,6 +151,20 @@ return [
         ],
         'cancel' => [
             'label' => 'Annulla',
+        ],
+        'upload' => [
+            'label' => 'Carica file',
+            'aria' => [
+                'label' => 'Carica file per il disservizio',
+            ],
+        ],
+        'delete_image' => [
+            'aria' => [
+                'label' => 'elimina immagina caricata',
+            ],
+        ],
+        'use_my_location' => [
+            'label' => 'Usa la mia posizione',
         ],
     ],
     'alert' => [

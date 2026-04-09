@@ -79,30 +79,51 @@ return [
     'fields' => [
         'title' => [
             'label' => 'Title',
+            'placeholder' => 'Enter a short title',
+            'description' => 'Briefly describe the issue',
         ],
         'type' => [
             'label' => 'Issue Type',
+            'description' => 'Select the issue type',
         ],
         'disservice' => [
             'label' => 'Issue',
         ],
         'address' => [
             'label' => 'Address',
+            'placeholder' => 'Indicate the issue location',
         ],
         'details' => [
             'label' => 'Details',
+            'char_limit' => 'Maximum 200 characters',
         ],
         'images' => [
             'label' => 'Images',
+            'description' => 'Attach images of the issue',
+            'upload_label' => 'Upload files for the issue',
+            'upload_button' => 'Upload file',
+            'help_text' => 'Select one or more images to attach to the report',
+            'help' => [
+                'label' => 'Select one or more images to attach to the report',
+            ],
+        ],
+        'use_my_location' => [
+            'label' => 'Use my location',
         ],
         'author' => [
             'label' => 'Author',
         ],
+        'name' => [
+            'label' => 'Full Name',
+            'placeholder' => 'Full Name',
+        ],
         'fiscal_code' => [
             'label' => 'Tax Code',
+            'placeholder' => 'Enter tax code',
         ],
         'phone' => [
             'label' => 'Phone',
+            'placeholder' => '+39 333 1234567',
         ],
         'email' => [
             'label' => 'Email',
@@ -132,6 +153,20 @@ return [
         ],
         'cancel' => [
             'label' => 'Cancel',
+        ],
+        'upload' => [
+            'label' => 'Upload file',
+            'aria' => [
+                'label' => 'Upload file for the report',
+            ],
+        ],
+        'delete_image' => [
+            'aria' => [
+                'label' => 'delete uploaded image',
+            ],
+        ],
+        'use_my_location' => [
+            'label' => 'Use my location',
         ],
     ],
     'alert' => [

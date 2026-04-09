@@ -1,4 +1,3 @@
-<div class="ticket-create-wizard">
 @php
     $title = (string) ($blockData['title'] ?? __('fixcity::segnalazione.page.title.label'));
     $description = (string) ($blockData['description'] ?? '');
@@ -12,8 +11,6 @@
     $privacyCheckboxLabel = (string) ($blockData['privacy_checkbox_label'] ?? __('fixcity::segnalazione.privacy.checkbox.label'));
     $placeholders = is_array($blockData['placeholders'] ?? null) ? $blockData['placeholders'] : [];
 @endphp
-
-<div class="fixcity-ticket-create-wizard">
 
 {{-- Title + Steppers --}}
 <div class="container" id="main-container">
@@ -79,16 +76,46 @@
                 @elseif($currentStep === 2)
                     {{-- Step 2: Data --}}
                     <div class="it-page-sections-container">
+
+                        {{-- Luogo del disservizio --}}
                         <div class="cmp-card mb-40">
                             <div class="card has-bkg-grey shadow-sm p-big p-lg-4">
+                                <div class="card-header border-0 p-0 mb-lg-20 m-0">
+                                    <div class="d-flex">
+                                        <h2 class="title-xxlarge mb-1">{{ __('fixcity::segnalazione.fields.address.label') }}</h2>
+                                    </div>
+                                    <p class="subtitle-small mb-0">{{ __('fixcity::segnalazione.fields.address.placeholder') }}</p>
+                                </div>
                                 <div class="card-body p-0">
-                                    <div class="form-group bg-white p-3 mb-3">
-                                        <label class="label-input mb-2" for="address">{{ __('fixcity::segnalazione.fields.address.label') }} *</label>
+                                    <div class="form-group bg-white p-3 mb-0 mt-3">
+                                        <label class="label-input d-none mb-2" for="address">{{ __('fixcity::segnalazione.fields.address.label') }} *</label>
                                         <input type="text" class="form-control @error('address') is-invalid @enderror" id="address" wire:model="address" placeholder="{{ $placeholders['address'] ?? __('fixcity::segnalazione.create.address.placeholder') }}" required>
                                         @error('address')
                                             <div class="invalid-feedback">{{ $message }}</div>
                                         @enderror
+                                        <div class="link-wrapper mt-3">
+                                            <a class="list-item active icon-left" href="#">
+                                                <span class="list-item-title-icon-wrapper">
+                                                    <svg class="icon icon-sm icon-primary mb-1" aria-hidden="true"><use href="{{ $sprite }}#it-map-marker"></use></svg>
+                                                    <span class="list-item-title t-primary">{{ __('fixcity::segnalazione.fields.use_my_location.label') }}</span>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Tipo di disservizio --}}
+                        <div class="cmp-card mb-40">
+                            <div class="card has-bkg-grey shadow-sm p-big p-lg-4">
+                                <div class="card-header border-0 p-0 mb-lg-20 m-0">
+                                    <div class="d-flex">
+                                        <h2 class="title-xxlarge mb-1">{{ __('fixcity::segnalazione.fields.type.label') }}</h2>
+                                    </div>
+                                    <p class="subtitle-small mb-0">{{ __('fixcity::segnalazione.fields.type.description') }}</p>
+                                </div>
+                                <div class="card-body p-0">
                                     <div class="select-wrapper p-3 mb-3">
                                         <label for="issueType" class="label-input mb-2">{{ __('fixcity::segnalazione.fields.type.label') }} *</label>
                                         <select id="issueType" wire:model="issueType" class="u-grey-dark @error('issueType') is-invalid @enderror" required>
@@ -101,30 +128,167 @@
                                             <div class="invalid-feedback">{{ $message }}</div>
                                         @enderror
                                     </div>
-                                    <div class="form-group bg-white p-3 mb-3">
-                                        <label class="label-input mb-2" for="title">{{ __('fixcity::segnalazione.fields.title.label') }} *</label>
-                                        <input type="text" class="form-control @error('title') is-invalid @enderror" id="title" wire:model="title" placeholder="{{ $placeholders['title'] ?? __('fixcity::segnalazione.create.title.placeholder') }}" required>
-                                        @error('title')
-                                            <div class="invalid-feedback">{{ $message }}</div>
-                                        @enderror
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Titolo e Dettagli --}}
+                        <div class="cmp-card mb-40">
+                            <div class="card has-bkg-grey shadow-sm p-big p-lg-4">
+                                <div class="card-header border-0 p-0 mb-lg-20 m-0">
+                                    <div class="d-flex">
+                                        <h2 class="title-xxlarge mb-1">{{ __('fixcity::segnalazione.fields.title.label') }}</h2>
                                     </div>
-                                    <div class="cmp-text-area p-3 mb-3">
-                                        <label class="label-input mb-2" for="details">{{ __('fixcity::segnalazione.fields.details.label') }} *</label>
-                                        <textarea class="text-area form-control @error('details') is-invalid @enderror" id="details" wire:model="details" rows="5" required placeholder="{{ $placeholders['details'] ?? __('fixcity::segnalazione.create.details.placeholder') }}"></textarea>
-                                        @error('details')
-                                            <div class="invalid-feedback">{{ $message }}</div>
-                                        @enderror
+                                    <p class="subtitle-small mb-0">{{ __('fixcity::segnalazione.fields.title.description') }}</p>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="text-area-wrapper p-3 px-lg-4 pt-lg-5 pb-lg-0 bg-white">
+                                        <div class="form-group cmp-input mb-0">
+                                            <label class="cmp-input__label" for="title">{{ __('fixcity::segnalazione.fields.title.label') }}*</label>
+                                            <input type="text" class="form-control @error('title') is-invalid @enderror" id="title" wire:model="title" required>
+                                            @error('title')
+                                                <div class="invalid-feedback">{{ $message }}</div>
+                                            @enderror
+                                        </div>
                                     </div>
-                                    <div class="form-group bg-white p-3 mb-0">
-                                        <label class="label-input mb-2" for="email">{{ __('fixcity::segnalazione.fields.email.label') }}</label>
-                                        <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" wire:model="email">
-                                        @error('email')
-                                            <div class="invalid-feedback">{{ $message }}</div>
+                                    <div class="cmp-text-area m-0 p-3 px-lg-4 pt-lg-5 pb-lg-4 bg-white">
+                                        <div class="form-group">
+                                            <label for="details" class="d-block">{{ __('fixcity::segnalazione.fields.details.label') }}**</label>
+                                            <textarea class="text-area @error('details') is-invalid @enderror" id="details" wire:model="details" rows="2" required maxlength="200"></textarea>
+                                            <span class="label">{{ __('fixcity::segnalazione.fields.details.char_limit') }}</span>
+                                            @error('details')
+                                                <div class="invalid-feedback">{{ $message }}</div>
+                                            @enderror
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Upload Immagini --}}
+                        <div class="cmp-card mb-40">
+                            <div class="card has-bkg-grey shadow-sm p-big p-lg-4">
+                                <div class="card-header border-0 p-0 mb-lg-20 m-0">
+                                    <div class="d-flex">
+                                        <h2 class="title-xxlarge mb-1">{{ __('fixcity::segnalazione.fields.images.label') }}</h2>
+                                    </div>
+                                    <p class="subtitle-small mb-0">{{ __('fixcity::segnalazione.fields.images.description') }}</p>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="btn-wrapper px-3 pt-2 pb-3 px-lg-4 pb-lg-4 pt-lg-0 bg-white">
+                                        <label class="title-xsmall-bold u-grey-dark pb-2 ms-2">{{ __('fixcity::segnalazione.fields.images.label') }}</label>
+                                        @if(count($images) > 0)
+                                            @foreach($images as $index => $imagePath)
+                                                <div class="upload-wrapper d-flex justify-content-between align-items-center">
+                                                    <img src="{{ asset('storage/'.$imagePath) }}" alt="" class="img">
+                                                    <span class="t-primary fw-bold w-100 ms-2">{{ basename($imagePath) }}</span>
+                                                    <a href="#" wire:click.prevent="removeImage({{ $index }})" aria-label="elimina immagine caricata">
+                                                        <svg class="icon icon-primary icon-sm mb-1">
+                                                            <use href="{{ $sprite }}#it-close"></use>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            @endforeach
+                                            <hr>
+                                        @endif
+                                        <input type="file" id="imageUpload" multiple accept="image/*" class="d-none" wire:change="updatedImages($event.target.files)">
+                                        <button type="button" aria-label="{{ __('fixcity::segnalazione.fields.images.upload_label') }}" class="btn btn-primary w-100 fw-bold" @click="$refs.imageUpload.click()">
+                                            <span class="rounded-icon">
+                                                <svg class="icon icon-white icon-sm" aria-hidden="true">
+                                                    <use href="{{ $sprite }}#it-upload"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="">{{ __('fixcity::segnalazione.fields.images.upload_button') }}</span>
+                                        </button>
+                                        <p class="title-xsmall u-grey-dark pt-10 mb-0">{{ __('fixcity::segnalazione.fields.images.help_text') }}</p>
+                                        @error('images.*')
+                                            <div class="text-danger small mt-2">{{ $message }}</div>
                                         @enderror
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        {{-- Autore della segnalazione --}}
+                        <div class="cmp-card mb-40">
+                            <div class="card has-bkg-grey shadow-sm">
+                                <div class="card-header border-0 p-0 mb-lg-20 m-0">
+                                    <div class="d-flex">
+                                        <h2 class="title-xxlarge mb-1">{{ __('fixcity::segnalazione.heading.report_author.label') }}</h2>
+                                    </div>
+                                    <p class="subtitle-small mb-0">{{ __('fixcity::segnalazione.heading.report_author.description') }}</p>
+                                </div>
+                                <div class="card-body p-0">
+                                    @if($userName || $userFiscalCode)
+                                        <div class="cmp-info-button-card mt-3">
+                                            <div class="card p-3 p-lg-4">
+                                                <div class="card-body p-0">
+                                                    <h3 class="big-title mb-0">{{ $userName ?: __('fixcity::segnalazione.fields.name.placeholder') }}</h3>
+                                                    <p class="card-info">{{ __('fixcity::segnalazione.fields.fiscal_code.label') }} <br> <span>{{ $userFiscalCode ?: '—' }}</span></p>
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-header" id="heading-collapse-contacts">
+                                                            <button class="collapsed accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-contacts" aria-expanded="false" aria-controls="collapse-contacts">
+                                                                <span class="d-flex align-items-center">
+                                                                {{ __('fixcity::segnalazione.actions.show_all.label') }}
+                                                                    <svg class="icon icon-primary icon-sm">
+                                                                        <use href="{{ $sprite }}#it-expand"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                        <div id="collapse-contacts" class="accordion-collapse collapse" role="region">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="cmp-info-summary bg-white has-border">
+                                                                    <div class="card">
+                                                                        <div class="card-header border-bottom border-light p-0 mb-0 d-flex justify-content-between">
+                                                                            <h4 class="title-large-semi-bold mb-3">{{ __('fixcity::segnalazione.heading.contacts.label') }}</h4>
+                                                                        </div>
+                                                                        <div class="card-body p-0">
+                                                                            @if($userPhone)
+                                                                                <div class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">{{ __('fixcity::segnalazione.fields.phone.label') }}</div>
+                                                                                    <div class="border-light"><p class="data-text">{{ $userPhone }}</p></div>
+                                                                                </div>
+                                                                            @endif
+                                                                            @if($email)
+                                                                                <div class="single-line-info border-light">
+                                                                                    <div class="text-paragraph-small">{{ __('fixcity::segnalazione.fields.email.label') }}</div>
+                                                                                    <div class="border-light"><p class="data-text">{{ $email }}</p></div>
+                                                                                </div>
+                                                                            @endif
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @else
+                                        <div class="cmp-info-button-card mt-3">
+                                            <div class="card p-3 p-lg-4">
+                                                <div class="card-body p-0">
+                                                    <div class="form-group bg-white p-3 mb-3">
+                                                        <label class="label-input mb-2" for="userName">{{ __('fixcity::segnalazione.fields.name.label') }}</label>
+                                                        <input type="text" class="form-control" id="userName" wire:model="userName" placeholder="{{ __('fixcity::segnalazione.fields.name.placeholder') }}">
+                                                    </div>
+                                                    <div class="form-group bg-white p-3 mb-3">
+                                                        <label class="label-input mb-2" for="userFiscalCode">{{ __('fixcity::segnalazione.fields.fiscal_code.label') }}</label>
+                                                        <input type="text" class="form-control" id="userFiscalCode" wire:model="userFiscalCode" placeholder="{{ __('fixcity::segnalazione.fields.fiscal_code.placeholder') }}" maxlength="16">
+                                                    </div>
+                                                    <div class="form-group bg-white p-3 mb-0">
+                                                        <label class="label-input mb-2" for="userPhone">{{ __('fixcity::segnalazione.fields.phone.label') }}</label>
+                                                        <input type="tel" class="form-control" id="userPhone" wire:model="userPhone" placeholder="{{ __('fixcity::segnalazione.fields.phone.placeholder') }}">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endif
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 @else
@@ -172,10 +336,34 @@
                                                         <div class="border-light"><p class="data-text">{{ $details }}</p></div>
                                                     </div>
                                                 @endif
+                                                @if(count($images) > 0)
+                                                    <div class="single-line-info border-light">
+                                                        <div class="text-paragraph-small">{{ __('fixcity::segnalazione.fields.images.label') }}</div>
+                                                        <div class="border-light">
+                                                            <div class="d-flex gap-2 flex-wrap">
+                                                                @foreach($images as $imagePath)
+                                                                    <img src="{{ asset('storage/'.$imagePath) }}" alt="" style="width:64px;height:64px;object-fit:cover;border-radius:4px;">
+                                                                @endforeach
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                @endif
                                                 @if($email)
                                                     <div class="single-line-info border-light">
                                                         <div class="text-paragraph-small">{{ __('fixcity::segnalazione.fields.email.label') }}</div>
                                                         <div class="border-light"><p class="data-text">{{ $email }}</p></div>
+                                                    </div>
+                                                @endif
+                                                @if($userName)
+                                                    <div class="single-line-info border-light">
+                                                        <div class="text-paragraph-small">{{ __('fixcity::segnalazione.fields.name.label') }}</div>
+                                                        <div class="border-light"><p class="data-text">{{ $userName }}</p></div>
+                                                    </div>
+                                                @endif
+                                                @if($userPhone)
+                                                    <div class="single-line-info border-light">
+                                                        <div class="text-paragraph-small">{{ __('fixcity::segnalazione.fields.phone.label') }}</div>
+                                                        <div class="border-light"><p class="data-text">{{ $userPhone }}</p></div>
                                                     </div>
                                                 @endif
                                             </div>
@@ -251,6 +439,4 @@
             </div>
         </div>
     </div>
-</div>
-</div>
 </div>
