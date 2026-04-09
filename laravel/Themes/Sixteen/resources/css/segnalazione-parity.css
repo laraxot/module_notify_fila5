@@ -3250,6 +3250,32 @@ body.page-tests-segnalazione-02-dati .user-card h3 {
   margin-bottom: 0.5rem !important;
 }
 
+/* 27.16 Contacts card links — green color to match reference */
+body.page-tests-segnalazione-02-dati .cmp-contacts a {
+  color: #007a52 !important;
+}
+
+body.page-tests-segnalazione-02-dati .cmp-contacts a:hover {
+  text-decoration: underline !important;
+}
+
+body.page-tests-segnalazione-02-dati .cmp-contacts .icon {
+  fill: #007a52 !important;
+  color: #007a52 !important;
+}
+
+/* 27.17 "Indietro" button — add left arrow icon */
+body.page-tests-segnalazione-02-dati .btn-back::before {
+  content: '‹ ' !important;
+  margin-right: 4px !important;
+}
+
+/* 27.18 "Avanti" button — add right arrow icon */
+body.page-tests-segnalazione-02-dati .btn-next::after {
+  content: ' ›' !important;
+  margin-left: 4px !important;
+}
+
 /* ============================================================================
    GLOBAL SEGNALAZIONE PARITY - ALL PAGES
    Fixes: h2 sizing, button styling, body text color
