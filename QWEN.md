@@ -41,14 +41,7 @@
 
 - **CRITICAL: Always update docs on code changes.** When creating/modifying widgets, update: module docs (`Modules/*/docs/`), theme docs (`Themes/*/docs/`), indexes, and this QWEN.md if a new pattern emerges.
 
-- **MCP Servers Configuration:** 8 MCP servers configured in `.qwen/settings.json`. See `docs/mcp/README.md` for complete documentation.
-  - Development: laravel-boost, filament, filesystem
-  - Testing: puppeteer (browser automation), playwright (visual parity)
-  - Memory: supermemory (API + script), memory (session persistence)
-  - Reasoning: sequential-thinking, notebooklm
-  - Installed packages: @modelcontextprotocol/server-filesystem, puppeteer-mcp-server, @anthropic-ai/claude-code, supermemory (npm)
-  - Supermemory API key: configured in `.env` (SUPERMEMORY_API_KEY)
-  - Visual parity tool: `laravel/Themes/Sixteen/scripts/visual-parity.mjs`
-  - Supermemory script: `laravel/Themes/Sixteen/scripts/supermemory-context.js`
-  - All MCP docs indexed at `docs/mcp/index.md` and linked in `docs/README.md`
+- **CRITICAL: MCP Configuration — Single Source of Truth.** ALL MCP server configs MUST be in `.qwen/mcp.json`. NO duplicate mcp.json files in skills, modules, themes, or bashscripts. Documentation goes in `docs/project/mcp-servers.md` (project-wide), `docs/project/mcp-index.md` (index). NEVER create MCP docs with dates in filenames.
+
+- **CRITICAL: Memory Bank Structure.** Project memory in `memory-bank/` directory: projectbrief.md, productContext.md, systemPatterns.md, techContext.md, activeContext.md, progress.md. Use `memory-bank-mcp` CLI to manage. DO NOT duplicate memory content in other docs folders.
 
