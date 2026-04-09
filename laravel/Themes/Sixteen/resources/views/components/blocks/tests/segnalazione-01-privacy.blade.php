@@ -21,7 +21,8 @@
     $phoneHref = (string) ($contacts['phone_url'] ?? '#');
 @endphp
 
-<div class="container segnalazione-privacy-page" id="main-container">
+{{-- Breadcrumbs section - matches reference: main > div.container > div.row > div.col-12.col-lg-10 --}}
+<div class="container">
     <div class="row justify-content-center">
         <div class="col-12 col-lg-10">
             <div class="cmp-breadcrumbs" role="navigation">
@@ -37,6 +38,7 @@
     </div>
 </div>
 
+{{-- Title + Steppers section - matches reference: div.container > div.row --}}
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-12 col-lg-10">
@@ -67,6 +69,7 @@
     </div>
 </div>
 
+{{-- Content section - matches reference: div.container > div.row > div.col-12.col-lg-8 --}}
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-12 col-lg-8 pb-40 pb-lg-80">
@@ -89,6 +92,7 @@
     </div>
 </div>
 
+{{-- Contacts section - matches reference: div.bg-grey-card.shadow-contacts > div.container > div.row --}}
 <div class="bg-grey-card shadow-contacts">
     <div class="container">
         <div class="row">

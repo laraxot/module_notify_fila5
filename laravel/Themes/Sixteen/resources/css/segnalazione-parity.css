@@ -50,16 +50,12 @@
    ============================================================================ */
 
 /* Force Titillium Web everywhere - NO fallbacks to match computed styles */
-body,
-p,
-span,
-div,
-a,
-li,
-label,
-input,
-button,
-h1, h2, h3, h4, h5, h6 {
+html, body,
+body p, body span, body div,
+body a, body li, body label,
+body input, body button,
+body h1, body h2, body h3, body h4, body h5, body h6,
+.card, .btn, .list-item, a {
   font-family: "Titillium Web" !important;
 }
 
@@ -75,7 +71,7 @@ body {
   background-color: rgb(255, 255, 255) !important;
 }
 
-h1 {
+h1, .h1, .hero-title {
   font-size: 48px !important;
   font-weight: 700 !important;
   line-height: 60px !important;
@@ -85,8 +81,9 @@ h1 {
   margin-top: 0 !important;
 }
 
-h2 {
+h2, .h2, .section-title {
   font-size: 24px !important;
+  font-weight: 400 !important;
   line-height: 30px !important;
   color: rgb(25, 25, 25) !important;
   margin-bottom: 8px !important;
