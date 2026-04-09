@@ -1,0 +1,44 @@
+{
+  "mcpServers": {
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [],
+      "description": "Knowledge Graph Memory - Enables persistent context across sessions via local knowledge graph"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_fixcity_fila5"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [],
+      "description": "Filesystem access - Read/write/search files within project root"
+    },
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fetch"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [],
+      "description": "Web fetch - Fetch URLs for research and reference"
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [],
+      "description": "Sequential thinking - Structured reasoning for complex problems"
+    },
+    "laravel-boost": {
+      "command": "bash",
+      "args": ["-c", "curl -sS https://laravel.boost.sh/install | bash"],
+      "env": {},
+      "disabled": true,
+      "autoApprove": [],
+      "description": "Laravel Boost - Laravel-specific AI context (requires manual install)"
+    }
+  }
+}

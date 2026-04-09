@@ -2511,3 +2511,32 @@ main[data-page="segnalazioni-elenco"] .cmp-contacts .cmp-contacts__container {
     padding: 1.5rem 1rem;
   }
 }
+
+/* ============================================================================
+   FINAL FONT OVERRIDE - Must be LAST to win over Filament/Tailwind defaults
+   Applied to ALL body content to ensure Titillium Web everywhere
+   ============================================================================ */
+body,
+body *,
+main,
+main *,
+.container,
+.container *,
+.row,
+.row *,
+[class*="col-"],
+[class*="col-"] * {
+  font-family: "Titillium Web", Geneva, Tahoma, sans-serif !important;
+}
+
+/* Preserve monospace ONLY for code elements and debug */
+pre, code, kbd, samp,
+.phpdebugbar, .phpdebugbar *,
+.sf-dump, .sf-dump * {
+  /* keep their own fonts */
+}
+
+/* ABSOLUTE FINAL OVERRIDE - body font with !important */
+html body {
+  font-family: "Titillium Web", Geneva, Tahoma, sans-serif !important;
+}

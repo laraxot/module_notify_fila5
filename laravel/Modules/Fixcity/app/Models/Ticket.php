@@ -149,6 +149,8 @@ class Ticket extends XotBaseModel implements HasMedia
     protected $fillable = [
         'name',
         'content',
+        'address',
+        'email',
         'owner_id',
         'responsible_id',
         'project_id',

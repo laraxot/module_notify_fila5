@@ -190,6 +190,7 @@ QUEUE_CONNECTION=sync
 
 ## Related Documentation
 
+- [MCP Servers Overview](mcp-overview.md) - Memory and development workflow MCP servers
 - [Documentation Reorganization Architecture](_bmad/bmm/3-solutioning/docs-reorganization-architecture.md)
 - [Docs Reorganization PRD](_bmad/bmm/2-plan/docs-reorganization-prd.json)
 - [Find Duplicates Script](bashscripts/docs/find-doc-duplicates.sh)

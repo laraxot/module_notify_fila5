@@ -6,6 +6,9 @@
 
 ## Quick Navigation
 
+### Unified Ticket Wizard
+- [../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md](../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md) - Design and architecture of the unified ticket creation wizard.
+
 ### CSS/JS Parity Phase
 - [css-js-parity.md](./css-js-parity.md) - CSS/JS visual parity plan, build process, checklist
 - [text-paragraph-font-fix.md](./text-paragraph-font-fix.md) - Font fix: Lora → Titillium Web for .text-paragraph

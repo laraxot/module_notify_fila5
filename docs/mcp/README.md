@@ -1,309 +1,266 @@
-# MCP (Model Context Protocol) Configuration
+# MCP (Model Context Protocol) Server Documentation
 
-> **Last Updated**: 2026-03-13  
-> **Status**: 🔄 In Progress  
-> **Repository**: FixCity Platform
-
----
-
-## 📋 Overview
-
-MCP (Model Context Protocol) è un protocollo standard per connettere modelli AI a sistemi esterni come GitHub, database, API, ecc.
+**Project**: FixCity  
+**Last Updated**: 2026-04-09  
+**Configuration**: `.qwen/settings.json`
 
 ---
 
-## 🔧 MCP Servers Available
+## 📋 MCP Servers Installed & Configured
 
-### GitHub MCP Server
+| Server | Type | Purpose | Status | Config |
+|--------|------|---------|--------|--------|
+| **laravel-boost** | PHP | Laravel development, routing, models, testing | ✅ Active | [laravel-boost](#laravel-boost) |
+| **filament** | PHP | Filament admin panel, resources, widgets | ✅ Active | [filament](#filament) |
+| **notebooklm** | Python | AI research, documentation analysis | ✅ Active | [notebooklm](#notebooklm) |
+| **sequential-thinking** | Node.js | Complex reasoning, problem decomposition | ✅ Active | [sequential-thinking](#sequential-thinking) |
+| **filesystem** | Node.js | File system access, directory operations | ✅ Active | [filesystem](#filesystem) |
+| **puppeteer** | Node.js | Browser automation, screenshots, testing | ✅ Active | [puppeteer](#puppeteer) |
+| **memory** | Node.js | Persistent context, memory management | ✅ Active | [memory](#memory) |
+| **supermemory** | External API | Long-term memory, RAG, user profiles | ✅ Active | [supermemory](#supermemory) |
 
-**Status**: ⚠️ Deprecated (npm package no longer supported)
+---
 
-**Alternative**: Usare GitHub CLI (`gh`) direttamente
+## 🔧 Server Configurations
 
-**Installazione**:
-```bash
-# Install GitHub CLI (già installato)
-sudo apt install gh
+### laravel-boost
+**Command**: `php artisan boost:mcp`  
+**Purpose**: Laravel development assistant  
+**Capabilities**:
+- Route analysis and generation
+- Model relationship inspection
+- Database queries
+- Tinker/Debugging
+- Search Laravel documentation
 
-# Verifica autenticazione
-gh auth status
-
-# Autenticati se necessario
-gh auth login
+**Usage Example**:
 ```
-
-**Comandi Utili**:
-```bash
-# Creare Issue
-gh issue create --title "Titolo" --body "Descrizione"
-
-# Creare Pull Request
-gh pr create --title "Titolo" --body "Descrizione"
-
-# Vedere Issues
-gh issue list
-
-# Vedere PR
-gh pr list
-
-# Checkout PR
-gh pr checkout <number>
+Use laravel-boost to inspect the Ticket model relationships
 ```
 
 ---
 
-## 📁 MCP Configuration Files
+### filament
+**Command**: `npx -y filament-mcp-server`  
+**Purpose**: FilamentPHP admin panel assistant  
+**Capabilities**:
+- Resource inspection
+- Form schema analysis
+- Table configuration
+- Widget testing
 
-### VS Code Settings
-
-File: `.vscode/settings.json`
-
-```json
-{
-  "mcp.servers": {
-    "github": {
-      "command": "gh",
-      "args": ["api", "graphql"],
-      "env": {
-        "GH_TOKEN": "${env:GITHUB_TOKEN}"
-      }
-    },
-    "filesystem": {
-      "command": "node",
-      "args": ["/path/to/mcp-filesystem-server/dist/index.js"],
-      "env": {
-        "ROOT": "${workspaceFolder}"
-      }
-    }
-  }
-}
+**Usage Example**:
 ```
-
-### Qwen Code Configuration
-
-File: `.qwen/mcp-config.json`
-
-```json
-{
-  "mcpServers": {
-    "github": {
-      "type": "cli",
-      "command": "gh",
-      "authRequired": true
-    },
-    "git": {
-      "type": "cli",
-      "command": "git"
-    },
-    "filesystem": {
-      "type": "builtin"
-    }
-  }
-}
+Use filament to check the TicketResource form schema
 ```
 
 ---
 
-## 🚀 Setup Instructions
+### notebooklm
+**Command**: `uvx --from notebooklm-mcp-cli notebooklm-mcp`  
+**Purpose**: AI research and documentation  
+**Capabilities**:
+- Research topic analysis
+- Documentation synthesis
+- Knowledge extraction
 
-### Step 1: Install GitHub CLI
-
-```bash
-# Ubuntu/Debian
-sudo apt update
-sudo apt install gh
-
-# macOS
-brew install gh
-
-# Verifica installazione
-gh --version
+**Usage Example**:
 ```
-
-### Step 2: Authenticate with GitHub
-
-```bash
-# Login
-gh auth login
-
-# Scegli:
-# - GitHub.com
-# - HTTPS
-# - Login with browser
-# - Authorize git
-```
-
-### Step 3: Verify Authentication
-
-```bash
-gh auth status
-```
-
-Output atteso:
-```
-github.com
-  ✓ Logged in to github.com account yourusername
-  - Active account: true
-  - Git operations protocol: ssh
-  - Token: gho_************************************
-  - Token scopes: 'repo', 'read:org'
-```
-
-### Step 4: Test GitHub Commands
-
-```bash
-# View current repo
-gh repo view
-
-# List issues
-gh issue list
-
-# List PRs
-gh pr list
+Use notebooklm to research Bootstrap Italia color system
 ```
 
 ---
 
-## 📝 Common MCP Operations
+### sequential-thinking
+**Command**: `npx -y @modelcontextprotocol/server-sequential-thinking`  
+**Purpose**: Complex reasoning and problem decomposition  
+**Capabilities**:
+- Multi-step problem analysis
+- Chain of thought reasoning
+- Hypothesis generation and verification
 
-### Create GitHub Issue
-
-```bash
-gh issue create \
-  --title "🐛 Fix Database Naming Convention" \
-  --body "Description of the issue" \
-  --label "documentation,good first issue" \
-  --assignee "@me"
+**Usage Example**:
 ```
-
-### Create GitHub Pull Request
-
-```bash
-# After making changes
-git checkout -b feature/fix-database-naming
-
-git add .
-git commit -m "📁 Fix database directory naming convention"
-
-git push -u origin feature/fix-database-naming
-
-# Create PR
-gh pr create \
-  --title "📁 Fix database directory naming" \
-  --body "This PR fixes the database directory naming convention" \
-  --base main \
-  --reviewer "@me"
-```
-
-### Comment on Issue
-
-```bash
-gh issue comment <number> --body "Working on this!"
-```
-
-### Close Issue
-
-```bash
-gh issue close <number>
+Use sequential-thinking to analyze why visual parity is at 80% instead of 90%
 ```
 
 ---
 
-## 🔐 Security Best Practices
+### filesystem
+**Command**: `npx -y @modelcontextprotocol/server-filesystem /var/www/_bases/base_fixcity_fila5`  
+**Purpose**: Enhanced file system access  
+**Capabilities**:
+- Read files with path validation
+- Write files with safety checks
+- List directories with filtering
+- Check file existence and metadata
 
-### Token Management
+**Usage Example**:
+```
+Use filesystem to list all .blade.php files in Themes/Sixteen
+```
 
-1. **Never commit tokens** to git
-2. **Use environment variables**:
+---
+
+### puppeteer
+**Command**: `npx -y puppeteer-mcp-server`  
+**Purpose**: Browser automation and testing  
+**Capabilities**:
+- Navigate to URLs
+- Take screenshots
+- Extract page content
+- Execute JavaScript in browser
+- Test responsive layouts
+
+**Usage Example**:
+```
+Use puppeteer to take screenshot of segnalazione-01-privacy at 1440px width
+```
+
+---
+
+### memory
+**Command**: `npx -y @anthropic-ai/claude-code --mcp`  
+**Purpose**: Persistent memory across sessions  
+**Capabilities**:
+- Store project decisions
+- Remember user preferences
+- Track implementation progress
+- Maintain context between sessions
+
+**Usage Example**:
+```
+Use memory to store the CSS color mapping decisions
+```
+
+---
+
+### supermemory
+**Type**: External API (`supermemory` npm package)  
+**Purpose**: Long-term memory, RAG, user profiles  
+**API Key**: Configured in `.env` (`SUPERMEMORY_API_KEY`)  
+**Script**: `laravel/Themes/Sixteen/scripts/supermemory-context.js`
+
+**Capabilities**:
+- Memory API - Learned context from conversations
+- User Profiles - Static + dynamic facts
+- RAG - Semantic search across documents
+- Container tags for isolation
+
+**Usage Example**:
+```bash
+cd laravel/Themes/Sixteen
+node scripts/supermemory-context.js index     # Index all docs
+node scripts/supermemory-context.js query "CSS parity strategy"
+node scripts/supermemory-context.js status    # Check indexed docs
+```
+
+---
+
+## 📊 Installed Packages
+
+### Global npm Packages
+```bash
+@modelcontextprotocol/server-filesystem
+puppeteer-mcp-server
+@anthropic-ai/claude-code
+@modelcontextprotocol/server-sequential-thinking
+```
+
+### Local npm Packages (Theme)
+```bash
+supermemory (laravel/Themes/Sixteen/node_modules)
+playwright (laravel/Themes/Sixteen/node_modules)
+```
+
+---
+
+## 🚀 Quick Start
+
+### Add New MCP Server
+
+1. **Install globally**:
    ```bash
-   export GITHUB_TOKEN="gho_..."
+   npm install -g <mcp-server-package>
    ```
 
-3. **Use gh auth token** for scripts:
-   ```bash
-   TOKEN=$(gh auth token)
+2. **Add to `.qwen/settings.json`**:
+   ```json
+   "mcpServers": {
+     "new-server": {
+       "command": "npx",
+       "args": ["-y", "package-name"],
+       "trust": true,
+       "timeout": 30000
+     }
+   }
    ```
 
-4. **Rotate tokens regularly**
+3. **Add to allowed list**:
+   ```json
+   "mcp": {
+     "allowed": [..., "new-server"]
+   }
+   ```
 
-### Repository Permissions
+4. **Update this documentation**
 
-Minimum required scopes:
-- `repo` - Full control of private repositories
-- `read:org` - Read organization membership
-- `gist` - Create gists
+### Verify MCP Server
 
----
-
-## 🛠️ Troubleshooting
-
-### Issue: "Command not found: gh"
-
-**Solution**:
 ```bash
-# Install gh
-sudo apt install gh
+# Test if server is available
+npx -y <package-name> --help
 
-# Or download from: https://github.com/cli/cli/releases
-```
-
-### Issue: "Authentication required"
-
-**Solution**:
-```bash
-# Re-authenticate
-gh auth logout
-gh auth login
-```
-
-### Issue: "Token expired"
-
-**Solution**:
-```bash
-# Refresh token
-gh auth refresh
-```
-
-### Issue: "Rate limit exceeded"
-
-**Solution**:
-```bash
-# Check rate limit
-gh api rate_limit
-
-# Wait or use authenticated requests (higher limit)
+# Check installed servers
+npm list -g --depth=0 | grep mcp
 ```
 
 ---
 
-## 📚 Resources
+## 🔒 Security Rules
 
-### Official Documentation
-- [GitHub CLI](https://cli.github.com/)
-- [GitHub CLI Manual](https://cli.github.com/manual/)
-- [MCP Specification](https://modelcontextprotocol.io/)
+### Allowed Operations
+- ✅ Read files in project directory
+- ✅ Write files with validation
+- ✅ Execute safe shell commands
+- ✅ Browser automation for testing
 
-### Tutorials
-- [Getting Started with gh](https://docs.github.com/en/github-cli/github-cli/getting-started-with-gh)
-- [GitHub CLI Best Practices](https://github.blog/2021-03-11-scripting-with-github-cli/)
-
-### Tools
-- [gh Extensions](https://github.com/topics/gh-extension)
-- [MCP Servers](https://github.com/modelcontextprotocol/servers)
+### Restricted Operations
+- ❌ No access to `/etc/**`, `/usr/**`
+- ❌ No destructive commands (`rm -rf`, `mkfs`, etc.)
+- ❌ No filesystem access outside project root
 
 ---
 
-## 🤝 Contributing
+## 📝 Best Practices
 
-To contribute to MCP configuration:
+1. **Use the right tool for the job**:
+   - Laravel questions → `laravel-boost`
+   - Filament questions → `filament`
+   - Visual testing → `puppeteer`
+   - Complex reasoning → `sequential-thinking`
+   - Memory/context → `supermemory` or `memory`
 
-1. Test configuration on your system
-2. Document any issues encountered
-3. Submit PR with fixes
-4. Update this document
+2. **Document new servers**:
+   - Add to this README
+   - Update module/theme docs if relevant
+   - Update `docs/README.md` index
+
+3. **Test before deploying**:
+   - Verify server loads correctly
+   - Test basic operations
+   - Check for conflicts with existing servers
 
 ---
 
-**Maintainer**: @marco76tv  
-**Contact**: dev @fixcity.example.com  
-**Last Tested**: 2026-03-13
+## 🔗 Cross-References
+
+- [Main Docs Index](../README.md)
+- [Project Configuration](../project/configuration.md)
+- [AI Workflow](../project/ai-workflow/)
+- [Supermemory Script](../../laravel/Themes/Sixteen/scripts/supermemory-context.js)
+
+---
+
+**Maintained By**: AI Agents + Development Team  
+**Last Updated**: 2026-04-09

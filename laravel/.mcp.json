@@ -53,6 +53,31 @@
             "env": {
                 "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
             }
+        },
+        "context7": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@upstash/context7-mcp"
+            ],
+            "env": {
+                "CONTEXT7_API_KEY": "${CONTEXT7_API_KEY}"
+            }
+        },
+        "memory-bank": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "memory-bank-mcp",
+                "/var/www/_bases/base_fixcity_fila5/.memory-bank"
+            ]
+        },
+        "supermemory": {
+            "command": "supermemory",
+            "args": [],
+            "env": {
+                "SUPERMEMORY_API_KEY": "sm_BzH3Cugxk1hMDm5V1EHC2N_Jr9NfJdUqxlnPe21yb9q7FtbYMevTsoPtKZJEfBqdP4i81z6aJA34SF32Gx3PUa9"
+            }
         }
     }
 }

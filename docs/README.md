@@ -11,9 +11,11 @@
 |--------------|----------|
 | Understand project structure | [Project Configuration](project/configuration.md) |
 | Learn AI workflow (BMAD+GSD+Ralph) | [AI Workflow](project/ai-workflow/) |
+| Configure MCP servers (memory, dev tools) | [MCP Servers](project/mcp-overview.md) |
 | Find module documentation | [Module Index](modules/index.md) |
 | Find theme documentation | [Theme Index](themes/index.md) |
 | Check coding standards | [Conventions](project/conventions/) |
+| Configure MCP servers | [MCP Servers](mcp/README.md) |
 
 ## 📚 Documentation Sections
 
@@ -23,6 +25,7 @@ Documentation that applies to the entire project:
 
 - **[Configuration](project/configuration.md)** - Theme detection, paths, environment
 - **[AI Workflow](project/ai-workflow/)** - BMAD, GSD, Ralph Loop, OpenViking integration
+- **[MCP Servers](project/mcp-index.md)** - Memory systems, development tools, configuration
 - **[Conventions](project/conventions/)** - Coding standards, naming, structure
 
 ### Module Documentation
@@ -48,6 +51,8 @@ Theme-specific documentation:
 Utility script documentation:
 
 - **[Bash Scripts](../../bashscripts/docs/)** - Automation scripts
+- **[MCP Servers](mcp/README.md)** - Model Context Protocol servers configuration and usage
+
 - AI Scripts - [Docs](../../bashscripts/docs/ai/)
 - System Scripts - [Docs](../../bashscripts/docs/system/)
 - **HTML Comparison** - [Docs](../../bashscripts/docs/html/) | [Results](html-structure-comparison.md)
@@ -59,7 +64,8 @@ Utility script documentation:
 1. **[AGENTS.md](../AGENTS.md)** - AI agent guidelines and commands
 2. **[Project Configuration](project/configuration.md)** - Theme, paths, setup
 3. **[AI Workflow](project/ai-workflow/)** - How to use BMAD+GSD+Ralph
-4. **[Coding Conventions](project/conventions/)** - Standards and best practices
+4. **[MCP Servers](MCP_SERVERS.md)** - Configured MCP servers and usage
+5. **[Coding Conventions](project/conventions/)** - Standards and best practices
 
 ### For New Developers
 

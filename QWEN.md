@@ -40,3 +40,15 @@
 - **CRITICAL: NO dates in .md filenames.** Use `phpstan-fix-plan.md` NOT `phpstan-fix-plan-2026-03-02.md`. Dates go inside the document body, never in the filename.
 
 - **CRITICAL: Always update docs on code changes.** When creating/modifying widgets, update: module docs (`Modules/*/docs/`), theme docs (`Themes/*/docs/`), indexes, and this QWEN.md if a new pattern emerges.
+
+- **MCP Servers Configuration:** 8 MCP servers configured in `.qwen/settings.json`. See `docs/mcp/README.md` for complete documentation.
+  - Development: laravel-boost, filament, filesystem
+  - Testing: puppeteer (browser automation), playwright (visual parity)
+  - Memory: supermemory (API + script), memory (session persistence)
+  - Reasoning: sequential-thinking, notebooklm
+  - Installed packages: @modelcontextprotocol/server-filesystem, puppeteer-mcp-server, @anthropic-ai/claude-code, supermemory (npm)
+  - Supermemory API key: configured in `.env` (SUPERMEMORY_API_KEY)
+  - Visual parity tool: `laravel/Themes/Sixteen/scripts/visual-parity.mjs`
+  - Supermemory script: `laravel/Themes/Sixteen/scripts/supermemory-context.js`
+  - All MCP docs indexed at `docs/mcp/index.md` and linked in `docs/README.md`
+

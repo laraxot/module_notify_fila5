@@ -99,15 +99,13 @@ class CreateTicketWizardWidget extends XotBaseWidget
         ]);
 
         $ticket = Ticket::create([
-            'name' => $this->title, // Mappa title -> name
-            'content' => $this->details, // Mappa details -> content
-            'type' => $this->issueType, // Mappa issueType -> type
-            // 'address' => $this->address, // Se presente in DB
-            // 'email' => $this->email !== '' ? $this->email : null,
+            'name' => $this->title,
+            'content' => $this->details,
+            'type' => $this->issueType,
+            'address' => $this->address,
+            'email' => $this->email !== '' ? $this->email : null,
         ]);
 
-        // Se address ed email non sono in Ticket, potremmo salvarli in metadata o content
-        // Per ora manteniamo la logica base e inviamo l'evento
         TicketCreatedEvent::dispatch($ticket);
 
         $this->redirect('/'.app()->getLocale().'/tests/segnalazione-04-conferma');
