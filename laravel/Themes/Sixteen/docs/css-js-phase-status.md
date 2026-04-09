@@ -40,13 +40,21 @@ These are wrapper classes added by our CMS system and don't affect visual parity
 - ✅ Icons: `fill: #5b6f82` inactive, `fill: #06c` active/confirmed, `width: 24px; height: 24px`
 - ✅ `.steppers-index`: `margin-left: auto; font-weight: 600; flex-shrink: 0`
 
-### 3. Checkbox Styling
-- Reference: native Bootstrap Italia checkbox
-- Local: same HTML, may need visual tweaks
+### 3. Button (Updated 2026-04-09 13:45)
+- ✅ `.btn-primary`: Changed from green `#007a52` → blue `#06c` (Bootstrap Italia standard)
+- ✅ Hover: `#0052a3`, Active: `#004780`
 
-### 4. Button Styling
-- Reference: `<button class="btn btn-primary mobile-full">`
-- Local: same classes, verify visual match
+### 4. Checkbox/Form-check (Updated 2026-04-09 13:45)
+- ✅ Hidden input: `position: absolute; opacity: 0`
+- ✅ Label: `padding-left: 2rem; font-weight: 600`
+- ✅ Checked color: `#06c` (blue)
+
+### 5. Contact List (Updated 2026-04-09 13:45)
+- ✅ Link color: `#06c` (blue), hover: `#0052a3`
+- ✅ Icon fill: `#06c`
+
+### 6. Color Standard Discovery
+**IMPORTANT**: Bootstrap Italia uses **blue #06c** (hsl(210,100%,40%)) for ALL primary interactive elements, NOT green #007a52. This was a systematic error across the segnalazione CSS that has been corrected.
 
 ## Build Commands
 
