@@ -11,11 +11,11 @@
 |--------------|----------|
 | Understand project structure | [Project Configuration](project/configuration.md) |
 | Learn AI workflow (BMAD+GSD+Ralph) | [AI Workflow](project/ai-workflow/) |
-| Configure MCP servers (memory, dev tools) | [MCP Servers](project/mcp-overview.md) |
+| Configure MCP servers (memory, dev tools) | [MCP Servers](MCP_SERVERS.md) |
+| SuperMemory setup (AI memory) | [SuperMemory Quickstart](SUPERMEMORY_QUICKSTART.md) |
 | Find module documentation | [Module Index](modules/index.md) |
 | Find theme documentation | [Theme Index](themes/index.md) |
 | Check coding standards | [Conventions](project/conventions/) |
-| Configure MCP servers | [MCP Servers](mcp/README.md) |
 
 ## 📚 Documentation Sections
 
@@ -25,7 +25,8 @@ Documentation that applies to the entire project:
 
 - **[Configuration](project/configuration.md)** - Theme detection, paths, environment
 - **[AI Workflow](project/ai-workflow/)** - BMAD, GSD, Ralph Loop, OpenViking integration
-- **[MCP Servers](project/mcp-overview.md)** - Memory systems, development tools, configuration
+- **[MCP Servers](MCP_SERVERS.md)** - Memory systems, development tools, configuration ⭐ NEW
+- **[SuperMemory Quickstart](SUPERMEMORY_QUICKSTART.md)** - AI memory infrastructure ⭐ NEW
 - **[Conventions](project/conventions/)** - Coding standards, naming, structure
 
 ### Module Documentation
@@ -51,7 +52,7 @@ Theme-specific documentation:
 Utility script documentation:
 
 - **[Bash Scripts](../../bashscripts/docs/)** - Automation scripts
-- **[MCP Servers](mcp/README.md)** - Model Context Protocol servers configuration and usage
+- **[MCP Servers](project/mcp-servers.md)** - Model Context Protocol servers configuration and usage
 
 - AI Scripts - [Docs](../../bashscripts/docs/ai/)
 - System Scripts - [Docs](../../bashscripts/docs/system/)
@@ -64,7 +65,7 @@ Utility script documentation:
 1. **[AGENTS.md](../AGENTS.md)** - AI agent guidelines and commands
 2. **[Project Configuration](project/configuration.md)** - Theme, paths, setup
 3. **[AI Workflow](project/ai-workflow/)** - How to use BMAD+GSD+Ralph
-4. **[MCP Servers](MCP_SERVERS.md)** - Configured MCP servers and usage
+4. **[MCP Servers](project/mcp-servers.md)** - Configured MCP servers and usage
 5. **[Coding Conventions](project/conventions/)** - Standards and best practices
 
 ### For New Developers
