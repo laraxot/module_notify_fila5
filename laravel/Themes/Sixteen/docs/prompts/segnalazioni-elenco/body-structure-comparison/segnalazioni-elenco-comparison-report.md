@@ -1,0 +1,182 @@
+# HTML Structure Comparison Report: segnalazioni-elenco
+
+- Reference: `https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html`
+- Local: `http://127.0.0.1:8000/it/tests/segnalazioni-elenco`
+- Threshold: `90.0%`
+- Status: ❌ FAIL
+
+## Summary
+
+- 📊 Parity score: **77.55%**
+- Tag parity: 89.68%
+- ID parity: 69.39%
+- Class parity: 75.8%
+- Reference elements: 775
+- Local elements: 709
+
+## Counts
+
+- ✅ Identical elements: 548
+- ⚠️ Elements with differences: 106
+- ❌ Missing elements: 121
+- ➕ Extra local elements: 55
+
+## ID Differences
+
+- ❌ Missing id `#formGroupExampleInputWithHelp`
+- ❌ Missing id `#formGroupExampleInputWithHelpDescription`
+- ❌ Missing id `#modal-disservizio`
+- ❌ Missing id `#modal2Title`
+- ❌ Missing id `#radio-1`
+- ❌ Missing id `#radio-10`
+- ❌ Missing id `#radio-2`
+- ❌ Missing id `#radio-3`
+- ❌ Missing id `#radio-4`
+- ❌ Missing id `#radio-5`
+- ❌ Missing id `#radio-6`
+- ❌ Missing id `#radio-7`
+- ❌ Missing id `#radio-8`
+- ❌ Missing id `#radio-9`
+- ❌ Missing id `#rating-feedback`
+- ⚠️ Extra id `#mobile-enviroment`
+- ⚠️ Extra id `#mobile-green`
+- ⚠️ Extra id `#mobile-maintenance`
+- ⚠️ Extra id `#mobile-public-order`
+- ⚠️ Extra id `#mobile-road`
+- ⚠️ Extra id `#mobile-rodent-control`
+- ⚠️ Extra id `#mobile-security`
+- ⚠️ Extra id `#mobile-service`
+- ⚠️ Extra id `#mobile-street-furniture`
+- ⚠️ Extra id `#mobile-waste`
+- ⚠️ Extra id `#mobile-water`
+- ⚠️ Extra id `#modal-categories`
+- ⚠️ Extra id `#modal-categories-label`
+
+## Element Details
+
+- ✅ `body/div[1]` matches `body/div[1]` (`<div>`)
+- ✅ `body/div[1]/a[1]` matches `body/div[1]/a[1]` (`<a>`)
+- ✅ `body/div[1]/a[2]` matches `body/div[1]/a[2]` (`<a>`)
+- ⚠️ `body/header[1]` vs `body/header[1]` (`<header>` / `<header>`): attributes differ
+- ✅ `body/header[1]/div[1]` matches `body/header[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]` matches `body/header[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]` (`<a>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]` (`<button>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[2]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[2]` (`<span>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]/use[1]` vs `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]` (`<ul>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]` (`<li>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]` (`<a>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]` (`<li>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]` (`<a>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]` (`<span>`)
+- ⚠️ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]` vs `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]` (`<a>` / `<a>`): attributes differ
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]/svg[1]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]/svg[1]/use[1]` vs `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[2]` matches `body/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[2]` (`<span>`)
+- ✅ `body/header[1]/div[2]` matches `body/header[1]/div[2]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]` matches `body/header[1]/div[2]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]` matches `body/header[1]/div[2]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ⚠️ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]` vs `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]` (`<a>` / `<a>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]/image[1]` vs `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]/image[1]` (`<image>` / `<image>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[2]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[2]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]` (`<ul>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]` (`<li>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]` (`<a>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/svg[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/svg[1]/use[1]` vs `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]` (`<li>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]` (`<a>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/svg[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/svg[1]/use[1]` vs `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]` (`<li>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]` (`<a>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/svg[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/svg[1]/use[1]` vs `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/span[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]` (`<li>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]` (`<a>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/svg[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/svg[1]/use[1]` vs `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/span[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]` (`<li>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]` (`<a>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/svg[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/svg[1]/use[1]` vs `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]` (`<li>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]` (`<a>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/svg[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/svg[1]/use[1]` vs `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/span[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]` (`<button>`)
+- ✅ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/svg[1]` matches `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/svg[1]/use[1]` vs `body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[2]` matches `body/header[1]/div[2]/div[2]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]` matches `body/header[1]/div[2]/div[2]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]` (`<button>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]/use[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]` (`<button>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/span[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/svg[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/svg[1]/use[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]` (`<div>`)
+- ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]` (`<a>` / `<a>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/svg[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/svg[1]` (`<svg>`)
+- ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/svg[1]/use[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/svg[1]/use[1]` (`<use>` / `<use>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/div[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/div[1]/div[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/div[1]/div[1]` (`<div>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]` (`<nav>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]` (`<ul>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[1]` (`<li>`)
+- ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[1]/a[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[1]/a[1]` (`<a>` / `<a>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[1]/a[1]/span[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[1]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[2]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[2]` (`<li>`)
+- ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[2]/a[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[2]/a[1]` (`<a>` / `<a>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[2]/a[1]/span[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[2]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]` (`<li>`)
+- ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]/a[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]/a[1]` (`<a>` / `<a>`): attributes differ
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]/a[1]/span[1]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[3]/a[1]/span[1]` (`<span>`)
+- ✅ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]` matches `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]` (`<li>`)
+- ⚠️ `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1]` vs `body/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/nav[1]/ul[1]/li[4]/a[1]` (`<a>` / `<a>`): attributes differ
+
+- … truncated: 710 more element results in JSON report
+
+---
+
+*Generated by `bashscripts/html/compare-html-body.py`*

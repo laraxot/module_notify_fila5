@@ -40,7 +40,7 @@ main *:not(.d-none) {
 }
 
 html, body {
-  @apply m-0 p-0 w-full h-auto font-sans leading-normal;
+  @apply m-0 p-0 w-full h-auto leading-normal;
   font-family: "Titillium Web", Geneva, Tahoma, sans-serif;
 }
 
@@ -694,7 +694,7 @@ main {
 
 /* Ensure main content is visible */
 body {
-  @apply m-0 p-0 w-full h-auto font-sans text-base leading-normal block;
+  @apply m-0 p-0 w-full text-base leading-normal block;
   font-family: "Titillium Web", Geneva, Tahoma, sans-serif;
   color: var(--bs-dark);
   background: white;

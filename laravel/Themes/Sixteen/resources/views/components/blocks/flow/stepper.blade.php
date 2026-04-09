@@ -1,4 +1,5 @@
 @props([
+    'data' => [],
     'title' => '',
     'description' => '',
     'steps' => [],
@@ -13,6 +14,20 @@
 ])
 
 @php
+    $blockData = is_array($data) ? $data : [];
+
+    $title = $blockData['title'] ?? $title;
+    $description = $blockData['description'] ?? $description;
+    $steps = $blockData['steps'] ?? $steps;
+    $currentStep = (int) ($blockData['currentStep'] ?? $currentStep);
+    $variant = $blockData['variant'] ?? $variant;
+    $size = $blockData['size'] ?? $size;
+    $navigable = (bool) ($blockData['navigable'] ?? $navigable);
+    $showDescription = (bool) ($blockData['showDescription'] ?? $showDescription);
+    $showNumbers = (bool) ($blockData['showNumbers'] ?? $showNumbers);
+    $theme = $blockData['theme'] ?? $theme;
+    $nonLinear = (bool) ($blockData['nonLinear'] ?? $nonLinear);
+
     $steps = collect($steps)->map(function ($step, $index) {
         if (is_string($step)) {
             return [
@@ -23,9 +38,9 @@
                 'optional' => false,
             ];
         }
-        
+
         return array_merge([
-            'title' => 'Step ' . ($index + 1),
+            'title' => 'Step '.($index + 1),
             'description' => null,
             'completed' => false,
             'disabled' => false,
@@ -36,12 +51,12 @@
 
 <section class="stepper-flow-section py-8" x-data="{ currentStep: {{ $currentStep }} }">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        @if($title || $description)
+        @if ($title || $description)
             <div class="mb-8">
-                @if($title)
+                @if ($title)
                     <h2 class="text-2xl font-bold text-gray-900" data-element="stepper-title">{{ $title }}</h2>
                 @endif
-                @if($description)
+                @if ($description)
                     <p class="mt-2 text-gray-600" data-element="stepper-description">{{ $description }}</p>
                 @endif
             </div>

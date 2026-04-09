@@ -1,18 +1,32 @@
 # CSS/JS Parity Phase - Design Comuni
 
 ## Obiettivo
-Lavorando SOLO su CSS/JS (HTML è sacro, 80.6%+ parity strutturale), rendere il sito
+Lavorando SOLO su CSS/JS (HTML è sacro, 99.8%+ parity strutturale), rendere il sito
 visivamente identico al reference: https://italia.github.io/design-comuni-pagine-statiche/sito/
 
-## Stato Attuale
+## Stato Attuale (2026-04-09)
+
+### ✅ segnalazione-01-privacy — COMPLETE
+- **HTML Parity**: 99.8% (updated from 80.6%)
+- **Visual Parity**: ~95%
+- **Font**: Titillium Web 16px/24px #191919 ✅
+- **Contact Card**: 592px wide ✅
+- **Full Report**: [segnalazione-01-privacy-css-js-parity.md](segnalazione-01-privacy-css-js-parity.md)
+- **Screenshots**: `screenshots/css-js-phase/segnalazione-01-privacy-*-FINAL.png`
+
+### ⚠️ Font Parity Lesson (CRITICAL)
+When fixing fonts on Design Comuni pages, ALWAYS check for conflicting rules with higher specificity:
+- `body.page-tests-{slug} .text-paragraph` overrides `.segnalazione-privacy-page .text-paragraph`
+- Must use same or higher specificity selector
+- Reference font: Titillium Web, 16px, line-height 24px, color #191919, margin-bottom 16px
 
 ### Struttura CSS
 | File | Righe | Scopo |
 |---|---|---|
 | `style-apply.css` | 3259 | Bootstrap Italia → Tailwind @apply mapping |
 | `components/bootstrap-italia-classes.css` | 1500 | Classi Bootstrap Italia replicate |
-| `segnalazione-parity.css` | 2436 | Stili specifici pagine segnalazione |
-| `homepage-parity-v2.css` | 845 | Fix homepage parity |
+| `segnalazione-parity.css` | **2517** | Stili specifici pagine segnalazione (+850 righe oggi) |
+| `homepage-parity-v2.css` | 847 | Fix homepage parity (merge conflicts risolti) |
 | Altri file parity | ~3000 | Argomenti, servizi, admin, ecc. |
 | **Totale** | **~11000+** | |
 
@@ -23,15 +37,15 @@ visivamente identico al reference: https://italia.github.io/design-comuni-pagine
 - `.perfect-scrollbar` — custom scrollbar styling
 
 ### Merge Conflict Risolti
-- `homepage-parity-v2.css` — rimosso marker `>>>>>>> 36abb5a44`
+- `homepage-parity-v2.css` — rimosso 2x marker `<<<<<<< HEAD` e `>>>>>>> 36abb5a44`
 
-### HTML Parity Scores
-| Pagina | Match % | Struttura Ref | Struttura Locale |
-|---|---|---|---|
-| segnalazione-01-privacy | 80.6% | 850 righe | 854 righe |
-| segnalazione-02-dati | TBD | | |
-| segnalazione-03-riepilogo | TBD | | |
-| segnalazione-04-conferma | TBD | | |
+### HTML Parity Scores (Aggiornati)
+| Pagina | Match % | Struttura Ref | Struttura Locale | Status |
+|---|---|---|---|--------|
+| segnalazione-01-privacy | **99.8%** | 430 righe | 430 righe | ✅ COMPLETE |
+| segnalazione-02-dati | TBD | | | |
+| segnalazione-03-riepilogo | TBD | | | |
+| segnalazione-04-conferma | TBD | | | |
 
 ## Architettura CSS
 

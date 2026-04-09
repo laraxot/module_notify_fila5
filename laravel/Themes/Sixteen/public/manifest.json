@@ -6,11 +6,7 @@
     "isDynamicEntry": true
   },
   "resources/css/app.css": {
-<<<<<<< HEAD
-    "file": "assets/app-Dzv_Gsj1.css",
-=======
-    "file": "assets/app-CGlhd50q.css",
->>>>>>> 36abb5a44 (.)
+    "file": "assets/app-BGyW13-7.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -19,11 +15,7 @@
     ]
   },
   "resources/js/app.js": {
-<<<<<<< HEAD
-    "file": "assets/app-aUVY1683.js",
-=======
-    "file": "assets/app-B3JtV_Vh.js",
->>>>>>> 36abb5a44 (.)
+    "file": "assets/app-Bv4FbCjZ.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,

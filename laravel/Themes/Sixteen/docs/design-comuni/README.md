@@ -98,3 +98,14 @@ All comparison screenshots are in the `screenshots/` subdirectory:
 - [ ] Remaining 37 pages replication
 - [ ] Performance optimization
 - [ ] Accessibility audit (WCAG 2.1 AA)
+
+## Frontend Filament Runtime
+
+Pages under `tests/*` normally avoid Filament runtime chrome for parity work, but any page that mounts a Filament widget on the public frontend must opt back into `@filamentStyles` and `@filamentScripts`.
+
+Current reference case:
+- `tests.segnalazione-crea`
+- widget: `Modules\\Fixcity\\Filament\\Widgets\\CreateTicketWizardWidget`
+- failure mode without runtime: Alpine errors such as `step is not defined`, `isLastStep is not defined`, and `filamentSchemaComponent is not defined`
+
+- `tests/segnalazione-crea` usa runtime Livewire frontoffice, non `@filamentScripts`: il widget e' Livewire puro e Filament iniettava Alpine duplicato.

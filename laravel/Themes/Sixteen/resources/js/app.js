@@ -3,6 +3,9 @@
  *
  * Design Comuni replicated with Tailwind CSS + Alpine.js
  * NO Bootstrap Italia - Pure Tailwind + Alpine implementation
+ *
+ * CRITICAL: Livewire/Filament already loads Alpine.js.
+ * We must NOT create a second instance. Only extend the existing one.
  */
 
 import Alpine from 'alpinejs';
@@ -16,35 +19,47 @@ import './components/bootstrap-italia.js';
 // Now using blade template directly with Alpine.js for accordion
 // import { domandeFrequentiParity } from './domande-frequenti-parity';
 
-window.Alpine = Alpine;
+/**
+ * Initialize Alpine components.
+ *
+ * @param {object} AlpineInstance
+ */
+function initializeAlpineComponents(AlpineInstance) {
+    AlpineInstance.data('dropdownToggle', dropdownToggle);
+    AlpineInstance.data('modal', modal);
+    AlpineInstance.data('mobileMenu', mobileMenu);
+    AlpineInstance.data('governanceCarousel', governanceCarousel);
 
-// Register Alpine components for direct usage
-Alpine.data('dropdownToggle', dropdownToggle);
-Alpine.data('modal', modal);
-Alpine.data('mobileMenu', mobileMenu);
-Alpine.data('governanceCarousel', governanceCarousel);
+    AlpineInstance.data('dropdown', () => ({
+        open: false,
+        toggle() {
+            this.open = !this.open;
+        },
+    }));
 
-// Fallback Alpine data for backward compatibility
-Alpine.data('dropdown', () => ({
-    open: false,
-    toggle() {
-        this.open = !this.open;
-    },
-}));
+    // Work around Alpine 3.15.x object-literal issues inside inline x-data.
+    AlpineInstance.data('accordionItem', () => ({ open: false }));
+    AlpineInstance.data('ratingInline', () => ({ rating: 0, hover: 0 }));
 
-// Generic components used by inline x-data (workaround for Alpine 3.15.x bug
-// where plain object literals in x-data trigger "r.call(...).catch is not a function")
-Alpine.data('accordionItem', () => ({ open: false }));
-Alpine.data('ratingInline', () => ({ rating: 0, hover: 0 }));
+    AlpineInstance.data('segnalazioniLayout', () => ({
+        activeTab: 'map',
+        showModal: false,
+        showFilterModal: false,
+    }));
 
-// Segnalazioni elenco page: tabs + modals state
-Alpine.data('segnalazioniLayout', () => ({
-    activeTab: 'map',
-    showModal: false,
-    showFilterModal: false,
-}));
+    if (!document.documentElement.hasAttribute('data-alpine-started')) {
+        AlpineInstance.start();
+        document.documentElement.setAttribute('data-alpine-started', 'true');
+    }
+}
 
-Alpine.start();
+const alpineInstance = window.Alpine ?? Alpine;
+
+if (!window.Alpine) {
+    window.Alpine = alpineInstance;
+}
+
+initializeAlpineComponents(alpineInstance);
 
 document.addEventListener('DOMContentLoaded', function() {
     const closeModal = function(modal) {
@@ -72,6 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             const targetId = this.getAttribute('data-bs-target');
             const modal = document.querySelector(targetId);
+
             if (!modal) {
                 return;
             }
@@ -177,9 +193,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 console.log('Sixteen theme loaded - Tailwind + Alpine.js');
-
-// DISABLED: Using blade template directly with Alpine.js instead of JS-generated structure
-// domandeFrequentiParity();
 
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(function(toggle) {
@@ -367,7 +380,6 @@ document.addEventListener('DOMContentLoaded', function() {
     addTestPageBodyClasses();
     setupListaRisorseParity();
 });
-
 
 document.addEventListener('DOMContentLoaded', function() {
     const pageMain = document.querySelector('main[data-page]');

@@ -1,66 +1,45 @@
-# HTML Structure Comparison
+# HTML Structure Comparison Tools
 
-> **Purpose**: Master index for HTML structure comparison between Design Comuni reference pages and the Sixteen theme implementation.
-> Bridges `bashscripts/html/` (agnostic tools) with `laravel/Themes/Sixteen/docs/` (project-specific output).
+Bridge document tra tooling agnostico in `bashscripts` e output di progetto nel tema Sixteen.
 
-## Tools
+## Canonical Tooling
 
-| Script | Location | Purpose |
-|--------|----------|---------|
-| `compare-html-body.py` | [`bashscripts/html/compare-html-body.py`](bashscripts/html/compare-html-body.py) | Python comparison engine |
-| `compare-html-body.sh` | [`bashscripts/html/compare-html-body.sh`](bashscripts/html/compare-html-body.sh) | Shell wrapper with project defaults |
-| `html-structure-compare.sh` | [`bashscripts/html/html-structure-compare.sh`](bashscripts/html/html-structure-compare.sh) | Legacy shell comparison |
+- Wrapper: `bashscripts/html/html-structure-compare.sh`
+- Engine: `bashscripts/html/compare-html-body.py`
+- Bashscripts doc: `bashscripts/docs/HTML-COMPARISON.md`
 
-## Documentation
+## Canonical Sixteen Output
 
-| Doc | Location |
-|-----|----------|
-| Script docs | [`bashscripts/docs/html/compare-html-body.md`](bashscripts/docs/html/compare-html-body.md) |
-| Theme comparison results | [`laravel/Themes/Sixteen/docs/body-structure-comparison/README.md`](laravel/Themes/Sixteen/docs/body-structure-comparison/README.md) |
+Per le pagine di test, gli snapshot e i report devono stare qui:
+- `laravel/Themes/Sixteen/docs/prompts/<pagina>/`
+- `laravel/Themes/Sixteen/docs/prompts/<pagina>/body-structure-comparison/`
 
-## How to Run
+I vecchi output in `laravel/Themes/Sixteen/docs/body-structure-comparison/` restano artefatti legacy e non sono piu il target canonico.
+
+## Example
 
 ```bash
-# Quick comparison with project defaults
-bash bashscripts/html/compare-html-body.sh <page-name>
-
-# With custom threshold
-bash bashscripts/html/compare-html-body.sh <page-name> 85
-
-# Verbose output
-bash bashscripts/html/compare-html-body.sh <page-name> --verbose
+bashscripts/html/html-structure-compare.sh \
+  "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-03-riepilogo.html" \
+  "http://127.0.0.1:8000/it/tests/segnalazione-03-riepilogo" \
+  "segnalazione-03-riepilogo" \
+  "laravel/Themes/Sixteen/docs/prompts/segnalazione-03-riepilogo/body-structure-comparison" \
+  "90" \
+  "body"
 ```
 
-## Target Pages
+## Governance
 
-All Design Comuni static pages under `laravel/config/local/fixcity/database/content/pages/tests.*.json`:
+- `bashscripts` non deve conoscere percorsi del tema.
+- La fase canonical di parity confronta il root `body`, salvo audit espliciti sul root `html`.
+- Le blade di test usano `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`.
+- La layout corretta e `<x-layouts.app>`.
+- Le stringhe nelle blade devono passare da traduzioni a 5 livelli: `fixcity::contesto.collezione.chiave.tipo`.
+- Nel markup possiamo mantenere le classi Bootstrap Italia per parity HTML, ma senza caricare Bootstrap CSS/JS.
+- Comportamenti interattivi: TailwindCSS + Alpine.js.
+- Il report canonico deve distinguere `identical`, `different`, `missing`, `extra` e produrre un parity score realistico.
 
-- homepage
-- argomenti, argomento
-- servizi, servizio-dettaglio
-- segnalazioni-elenco, segnalazione-dettaglio
-- segnalazione-01-privacy, segnalazione-02-dati, segnalazione-03-riepilogo, segnalazione-04-conferma
-- novita, novita-dettaglio
-- eventi, evento-dettaglio
-- amministrazione
-- assistenza-01-dati, assistenza-02-conferma
-- appuntamento-01-ufficio, appuntamento-02-data-orario, ...
-- e altri...
+## Related Docs
 
-## Goal
-
-**≥90% HTML parity score** for all Design Comuni pages before production deployment.
-
-Current methodology:
-1. Replicate Bootstrap Italia HTML structure exactly (same tags, same classes, same `data-element` attributes)
-2. Style with TailwindCSS `@apply` in `style-apply.css` (NOT Bootstrap CSS)
-3. Add interactivity with Alpine.js (NOT Bootstrap JS)
-4. Verify multilingual (NO hardcoded Italian strings)
-5. Verify 5-level translation format: `namespace::context.collection.element.type`
-
-## Bidirectional Links
-
-- **Bashscripts index**: [`bashscripts/docs/00-INDEX.md`](bashscripts/docs/00-INDEX.md)
-- **Theme docs index**: [`laravel/Themes/Sixteen/docs/00-index.md`](laravel/Themes/Sixteen/docs/00-index.md)
-- **Design Comuni overview**: [`laravel/Themes/Sixteen/docs/design-comuni/README.md`](laravel/Themes/Sixteen/docs/design-comuni/README.md)
-- **Block implementation guide**: [`laravel/Themes/Sixteen/docs/BLOCK_IMPLEMENTATION_GUIDE.md`](laravel/Themes/Sixteen/docs/BLOCK_IMPLEMENTATION_GUIDE.md)
+- `bashscripts/docs/HTML-COMPARISON.md`
+- `laravel/Themes/Sixteen/docs/prompts/segnalazione-03-riepilogo/`

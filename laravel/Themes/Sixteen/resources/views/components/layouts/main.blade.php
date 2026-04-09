@@ -1,5 +1,9 @@
 @php
     $isTestsRoute = request()->routeIs('tests.*');
+    $testsSlug = (string) request()->route('slug', '');
+    $usesFrontendLivewire = $isTestsRoute && in_array($testsSlug, [
+        'segnalazione-crea',
+    ], true);
     $renderRuntimeChrome = ! $isTestsRoute;
     $isHomepageParity = $isTestsRoute && request()->route('slug') === 'homepage';
 @endphp
@@ -25,11 +29,15 @@
                 display: none !important;
             }
         </style>
-        @unless($isTestsRoute)
+        @if(! $isTestsRoute)
             @filamentStyles
-        @endunless
-        @if($isTestsRoute)
+        @elseif($usesFrontendLivewire)
+            @livewireStyles
+        @endif
+        @if($isTestsRoute && ! $usesFrontendLivewire)
             @vite(['resources/css/app.css', 'resources/js/app.js'], 'themes/Sixteen')
+        @elseif($isTestsRoute)
+            @vite(['resources/css/app.css'], 'themes/Sixteen')
         @else
             @vite(['resources/css/app.css'], 'themes/Sixteen')
             <link rel="stylesheet" type="text/css" href="{{ asset('vendor/cookie-consent/css/cookie-consent.css') }}">
@@ -42,6 +50,8 @@
             @livewire('notifications')
             @filamentScripts
             @vite(['resources/js/app.js'], 'themes/Sixteen')
+        @elseif($usesFrontendLivewire)
+            @livewireScripts
         @endif
 
         <script>

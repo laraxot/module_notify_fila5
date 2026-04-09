@@ -64,7 +64,7 @@
                         {
                             "id": "needed",
                             "title": "Cosa serve",
-                            "class": "mb-30 has-bg-grey p-3",
+                            "class": "has-bg-grey p-3",
                             "content": "<p>Per accedere al servizio, assicurati di avere:</p><ul class=\"list-wrapper link-list lora\"><li class=\"list-item\"><span>informazioni sul tipo di disservizio e sul luogo all'interno del territorio comunale;</span></li><li class=\"list-item\"><span>foto, se disponibili.</span></li></ul>"
                         },
                         {
@@ -83,11 +83,11 @@
                         {
                             "id": "service-access",
                             "title": "Fai una segnalazione",
-                            "class": "mb-30 has-bg-grey p-3",
-                            "content": "<p>Invia una segnalazione online dal tuo smartphone o computer.</p><p class=\"text-paragraph mt-4 lora\">Oppure, prenota un appuntamento all'Ufficio Relazioni con il Pubblico (URP).</p>",
+                            "class": "has-bg-grey p-3",
+                            "content": "<p>Invia una segnalazione online dal tuo smartphone o computer.</p>",
                             "buttons": [
-                                {"label": "Segnala disservizio", "url": "/it/tests/segnalazione-01-privacy", "variant": "btn-primary"},
-                                {"label": "Prenota appuntamento", "url": "/it/tests/appuntamento-01-ufficio", "variant": "btn-outline-primary t-primary bg-white"}
+                                {"label": "Segnala disservizio", "url": "/it/tests/segnalazione-01-privacy", "variant": "btn-primary", "extra_text": "Oppure, prenota un appuntamento all'Ufficio Relazioni con il Pubblico (URP)."},
+                                {"label": "Prenota appuntamento", "url": "/it/tests/appuntamento-01-ufficio", "variant": "btn-outline-primary t-primary bg-white mobile-full"}
                             ]
                         },
                         {
@@ -120,6 +120,59 @@
                     "view": "pub_theme::components.blocks.feedback.rating",
                     "title": "Quanto e stato facile usare questo servizio?",
                     "subtitle": "Grazie, il tuo parere ci aiutera a migliorare il servizio!"
+                }
+            },
+            {
+                "type": "related_content",
+                "data": {
+                    "view": "pub_theme::components.blocks.content.related",
+                    "title": "Contenuti correlati",
+                    "categories": [
+                        {
+                            "title": "Amministrazione",
+                            "icon": "it-pa",
+                            "links": [
+                                {"label": "Area Servizi Civici", "url": "/it/tests/uffici"}
+                            ]
+                        },
+                        {
+                            "title": "Servizi",
+                            "icon": "it-settings",
+                            "links": [
+                                {"label": "Pagamento retta scolastica", "url": "/it/tests/servizio"},
+                                {"label": "Servizio di trasporto scolastico", "url": "/it/tests/servizio"}
+                            ]
+                        },
+                        {
+                            "title": "Documenti",
+                            "icon": "it-file",
+                            "links": [
+                                {"label": "Attestazione ISEE", "url": "/it/tests/documento"},
+                                {"label": "Carta dei servizi educativi all'infanzia", "url": "/it/tests/documento"}
+                            ]
+                        },
+                        {
+                            "title": "Notizie",
+                            "icon": "it-calendar",
+                            "links": [
+                                {"label": "Justo eget magna fermentum", "url": "/it/tests/notizia"},
+                                {"label": "Dolor magna eget est lorem", "url": "/it/tests/notizia"},
+                                {"label": "Justo eget magna fermentum", "url": "/it/tests/notizia"},
+                                {"label": "Dolor magna eget est lorem", "url": "/it/tests/notizia"},
+                                {"label": "Servizio di trasporto scolastico", "url": "/it/tests/notizia"},
+                                {"label": "Servizio di trasporto scolastico", "url": "/it/tests/notizia"}
+                            ]
+                        }
+                    ],
+                    "contacts": {
+                        "title": "Contatta il comune",
+                        "links": [
+                            {"label": "Leggi le domande frequenti", "url": "/it/tests/faq", "icon": "it-help-circle"},
+                            {"label": "Richiedi assistenza", "url": "/it/tests/contatti", "icon": "it-mail"},
+                            {"label": "Chiama il numero verde 05 0505", "url": "tel:050505", "icon": "it-hearing"},
+                            {"label": "Prenota appuntamento", "url": "/it/tests/appuntamento-01-ufficio", "icon": "it-calendar"}
+                        ]
+                    }
                 }
             }
         ],

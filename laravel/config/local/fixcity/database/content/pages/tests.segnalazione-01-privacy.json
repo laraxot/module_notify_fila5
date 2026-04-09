@@ -15,13 +15,11 @@
                     "title": "Segnalazione disservizio",
                     "current_step": 1,
                     "total_steps": 3,
-                    "steps": ["Autorizzazioni e condizioni", "Dati di segnalazione", "Riepilogo"],
-                    "privacy_text": "Il Comune di Firenze gestisce i dati personali forniti e liberamente comunicati sulla base dell'articolo 13 del Regolamento (UE) 2016/679 General data protection regulation (Gdpr) e degli articoli 13 e successive modifiche e integrazione del decreto legislativo (di seguito d.lgs) 267/2000 (Testo unico enti locali).",
                     "privacy_link": "#",
                     "contacts": {
                         "faq": "#",
                         "assistenza": "#",
-                        "phone": "050505",
+                        "phone": "05 0505",
                         "appointment": "#"
                     }
                 }

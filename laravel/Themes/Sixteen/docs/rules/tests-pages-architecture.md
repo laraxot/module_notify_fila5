@@ -46,3 +46,8 @@ new class extends Component {
 ## Reference
 - See: `pages/[container0]/[slug].blade.php` for correct pattern
 - See: `docs/architecture/PAGE_ROUTING_ARCHITECTURE.md`
+
+### 7. HTML Parity Tooling
+- Use `bashscripts/html/html-structure-compare.sh` as the canonical parity script
+- Pass the output path explicitly; do not hardcode theme paths inside `bashscripts`
+- Canonical page output for this phase: `laravel/Themes/Sixteen/docs/prompts/<slug>/body-structure-comparison/`

@@ -15,9 +15,6 @@ new class extends Component {
     public string $slug = '';
     public string $pageSlug = '';
 
-    /** @var array<int, object> */
-    public array $blocks = [];
-
     /** @var array<string, mixed> */
     public array $data = [];
 
@@ -25,9 +22,6 @@ new class extends Component {
     {
         $this->slug = $slug;
         $this->pageSlug = $slug ? 'tests.'.$slug : 'tests';
-
-        // Load blocks from CMS Page model
-        $this->blocks = Page::getBlocksBySlug($this->pageSlug, 'content');
 
         $this->data = [
             'slug' => $slug,
@@ -38,12 +32,14 @@ new class extends Component {
 
 <x-layouts.app>
     @volt('tests.view')
-    {{-- Single root wrapper for Livewire --}}
-    <div id="main-container" class="container cms-view-wrapper">
-        {{-- Page content via CMS blocks --}}
+    <div class="cms-view-wrapper">
+        @php
+            $blocks = Page::getBlocksBySlug($this->pageSlug, 'content');
+        @endphp
+
         <div class="page-content content" data-slug="{{ $this->pageSlug }}" data-side="content">
-            @foreach($this->blocks as $block)
-                @include($block->view, array_merge(['data' => []], $block->data))
+            @foreach($blocks as $block)
+                @include($block->view, array_merge($this->data, ['data' => $block->data]))
             @endforeach
         </div>
     </div>

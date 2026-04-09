@@ -2444,11 +2444,21 @@ body.page-tests-segnalazione-01-privacy .btn.btn-primary.mobile-full {
 
 /* ============================================================================
    26.15 FONT PARITY — Override all conflicting text-paragraph rules
-   Reference: Titillium Web, 16px, 24px line-height, color #5C6F82
+   Reference: Titillium Web, 16px, 24px line-height, color #191919 (nero)
    Must beat: body.page-tests-segnalazione-01-privacy .text-paragraph
    ============================================================================ */
 body.page-tests-segnalazione-01-privacy .text-paragraph {
-  color: #5C6F82 !important;
+  color: #191919 !important;
+  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  margin-bottom: 16px !important;
+}
+
+/* Also override via container class (dual approach for maximum specificity) */
+.segnalazione-privacy-page .text-paragraph {
+  color: #191919 !important;
   font-family: 'Titillium Web', sans-serif !important;
   font-size: 16px !important;
   font-weight: 400 !important;
@@ -2457,7 +2467,9 @@ body.page-tests-segnalazione-01-privacy .text-paragraph {
 }
 
 body.page-tests-segnalazione-01-privacy p.lora,
-body.page-tests-segnalazione-01-privacy .lora.text-paragraph {
+body.page-tests-segnalazione-01-privacy .lora.text-paragraph,
+.segnalazione-privacy-page p.lora,
+.segnalazione-privacy-page .lora.text-paragraph {
   font-family: 'Titillium Web', sans-serif !important;
   font-size: 16px !important;
   line-height: 24px !important;

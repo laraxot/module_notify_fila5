@@ -3,12 +3,54 @@
 declare(strict_types=1);
 
 return [
+    'skip' => [
+        'main' => [
+            'label' => 'Skip to content',
+        ],
+        'footer' => [
+            'label' => 'Skip to footer',
+        ],
+    ],
     'breadcrumb' => [
         'home' => [
             'label' => 'Home',
         ],
+        'services' => [
+            'label' => 'Services',
+        ],
         'elenco' => [
             'label' => 'Reports list',
+        ],
+    ],
+    'steps' => [
+        'privacy' => [
+            'label' => 'Authorizations and conditions',
+        ],
+        'data' => [
+            'label' => 'Report Data',
+        ],
+        'summary' => [
+            'label' => 'Summary',
+        ],
+        'confirmation' => [
+            'label' => 'Confirmation',
+        ],
+        'confirmed' => [
+            'label' => 'Confirmed',
+        ],
+        'active' => [
+            'label' => 'Active',
+        ],
+    ],
+    'warning' => [
+        'title' => [
+            'label' => 'Warning',
+        ],
+        'message' => [
+            'label' => 'The information you provided has the value of a declaration.',
+        ],
+        'message_extra' => [
+            'label' => 'Please verify that it is correct.',
         ],
     ],
     'heading' => [
@@ -17,6 +59,117 @@ return [
         ],
         'subtitle' => [
             'text' => 'In the last 12 months, 73 reports have been resolved.',
+        ],
+        'report' => [
+            'label' => 'Report',
+        ],
+        'general_data' => [
+            'label' => 'General Data',
+        ],
+        'report_author' => [
+            'label' => 'Report Author',
+        ],
+        'contacts' => [
+            'label' => 'Contacts',
+        ],
+        'create' => [
+            'label' => 'Create report',
+        ],
+    ],
+    'fields' => [
+        'title' => [
+            'label' => 'Title',
+        ],
+        'type' => [
+            'label' => 'Issue Type',
+        ],
+        'disservice' => [
+            'label' => 'Issue',
+        ],
+        'address' => [
+            'label' => 'Address',
+        ],
+        'details' => [
+            'label' => 'Details',
+        ],
+        'images' => [
+            'label' => 'Images',
+        ],
+        'author' => [
+            'label' => 'Author',
+        ],
+        'fiscal_code' => [
+            'label' => 'Tax Code',
+        ],
+        'phone' => [
+            'label' => 'Phone',
+        ],
+        'email' => [
+            'label' => 'Email',
+        ],
+    ],
+    'actions' => [
+        'edit' => [
+            'label' => 'Edit',
+        ],
+        'back' => [
+            'label' => 'Back',
+        ],
+        'save' => [
+            'label' => 'Save Request',
+        ],
+        'save_short' => [
+            'label' => 'Save',
+        ],
+        'submit' => [
+            'label' => 'Confirm and Submit',
+        ],
+        'send' => [
+            'label' => 'Send',
+        ],
+        'next' => [
+            'label' => 'Next',
+        ],
+        'cancel' => [
+            'label' => 'Cancel',
+        ],
+    ],
+    'alert' => [
+        'save_success' => [
+            'label' => 'Request saved successfully',
+        ],
+    ],
+    'modal' => [
+        'close' => [
+            'label' => 'Close modal dialog',
+        ],
+        'terms' => [
+            'title' => [
+                'label' => 'Terms and Conditions',
+            ],
+            'info' => [
+                'label' => 'By clicking Confirm and Submit you confirm that you have read the terms and conditions of service.',
+            ],
+            'link' => [
+                'label' => 'Read terms and conditions',
+            ],
+        ],
+    ],
+    'contact' => [
+        'heading' => [
+            'label' => 'Contact the Municip',
+        ],
+        'faq' => [
+            'label' => 'Read FAQs',
+        ],
+        'assistance' => [
+            'label' => 'Request assistance',
+        ],
+        'phone' => [
+            'label' => 'Call toll-free number :phone',
+        ],
+        'appointment' => [
+            'label' => 'Book appointment',
         ],
     ],
     'tabs' => [
@@ -94,6 +247,50 @@ return [
             'label' => 'Load more reports',
         ],
     ],
+
+    'create' => [
+        'intro' => [
+            'text' => 'Combine privacy, report data, summary, and confirmation into a single experience.',
+        ],
+        'description' => [
+            'text' => 'Complete the guided report inside one frontoffice wizard.',
+        ],
+        'privacy' => [
+            'text' => 'Read the conditions and confirm your consent before continuing with the report data.',
+        ],
+        'privacy_accept' => [
+            'label' => 'I have read and accepted the privacy notice and service conditions',
+        ],
+        'address' => [
+            'placeholder' => 'Enter the issue location',
+        ],
+        'title' => [
+            'placeholder' => 'Enter a short title',
+        ],
+        'details' => [
+            'placeholder' => 'Describe the issue you found',
+        ],
+        'confirmation_note' => [
+            'label' => 'Final check',
+            'text' => 'Review the summary and submit the report from the same page.',
+        ],
+        'success' => [
+            'label' => 'Report ready',
+            'text' => 'The wizard has collected the data. The next step can persist the real ticket or redirect to the final confirmation page.',
+        ],
+    ],
+    'create_options' => [
+        'public_damage' => [
+            'label' => 'Damage to public property',
+        ],
+        'maintenance' => [
+            'label' => 'Missing maintenance',
+        ],
+        'urban_decorum' => [
+            'label' => 'Urban decorum',
+        ],
+    ],
+
     'rating' => [
         'question' => [
             'text' => 'How clear is the information on this page?',
@@ -101,79 +298,22 @@ return [
         'legend' => [
             'text' => 'Rating from 1 to 5 stars',
         ],
-    ],
-    'feedback' => [
-        'title' => [
-            'label' => 'What do you prefer?',
-        ],
-        'aspects' => [
-            'label' => 'Select the aspects you prefer',
-        ],
-        'difficulties' => [
-            'label' => 'What are the main difficulties?',
-        ],
-        'details' => [
-            'label' => 'Other details',
-        ],
-        'submit' => [
-            'label' => 'Send feedback',
-        ],
-    ],
-    'contacts' => [
-        'title' => [
-            'label' => 'Contact the municipality',
-        ],
-        'assistance' => [
-            'link' => [
-                'label' => 'Read FAQs',
+        'star' => [
+            1 => [
+                'label' => '1 star out of 5',
             ],
-        ],
-        'phone' => [
-            'link' => [
-                'label' => 'Call toll-free number 05 0505',
+            2 => [
+                'label' => '2 stars out of 5',
             ],
-        ],
-        'appointment' => [
-            'link' => [
-                'label' => 'Book appointment',
+            3 => [
+                'label' => '3 stars out of 5',
             ],
-        ],
-        'issues' => [
-            'title' => [
-                'label' => 'Report a problem',
+            4 => [
+                'label' => '4 stars out of 5',
             ],
-            'report' => [
-                'link' => [
-                    'label' => 'Report an issue',
-                ],
+            5 => [
+                'label' => '5 stars out of 5',
             ],
-        ],
-    ],
-    'modal' => [
-        'close' => [
-            'label' => 'Close modal dialog',
-        ],
-    ],
-    'detail' => [
-        'share' => [
-            'label' => 'Share',
-            'aria' => 'share on social media',
-        ],
-        'actions' => [
-            'label' => 'View actions',
-            'aria' => 'view actions to perform on this page',
-        ],
-        'index' => [
-            'label' => 'PAGE INDEX',
-        ],
-        'contacts' => [
-            'label' => 'Contacts',
-        ],
-        'topics' => [
-            'label' => 'Topics',
-        ],
-        'updated' => [
-            'text' => 'Page updated on :date',
         ],
     ],
 ];

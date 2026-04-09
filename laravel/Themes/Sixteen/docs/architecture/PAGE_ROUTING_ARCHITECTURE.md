@@ -255,3 +255,13 @@ pages/
 **Last Updated**: 2026-04-01  
 **Maintained By**: Architecture Team  
 **Compliance**: DRY ✅ KISS ✅ Forward-Only ✅
+
+## Filament On Frontend Test Pages
+
+The `tests/[slug].blade.php` route can render plain CMS blocks without Filament, but if a block mounts a Filament widget or schema-driven form on the public frontend, the layout used by that slug must load `@filamentStyles` and `@filamentScripts`.
+
+This is required for Filament wizard state and schema Alpine helpers. Without those assets the browser fails with runtime errors like `step is not defined`, `isLastStep is not defined`, and `filamentSchemaComponent is not defined`.
+
+Current known slug: `segnalazione-crea`.
+
+- Per `tests/segnalazione-crea` caricare `@livewireStyles/@livewireScripts` e non `@filamentStyles/@filamentScripts`, salvo che la pagina torni davvero a usare Filament Schemas frontend.

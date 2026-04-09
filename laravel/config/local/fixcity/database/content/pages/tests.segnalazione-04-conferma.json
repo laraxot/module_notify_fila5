@@ -2,7 +2,7 @@
     "id": "tests.segnalazione-04-conferma",
     "title": {
         "it": "Segnalazione - Step 4 conferma",
-        "en": "Segnalazione - Step 4 conferma"
+        "en": "Report - Step 4 confirmation"
     },
     "slug": "tests.segnalazione-04-conferma",
     "content": null,
@@ -29,10 +29,61 @@
                 "data": {
                     "view": "pub_theme::components.blocks.flow.segnalazione.04-conferma",
                     "title": "Segnalazione inviata",
-                    "segnalazione": {
-                        "codice_segnalazione": "SEG-2025-005678",
-                        "categoria": "Illuminazione pubblica",
-                        "titolo": "Lampione spento in via Roma"
+                    "summary_html": "Grazie, abbiamo ricevuto la tua <strong>segnalazione SEG-2025-005678.</strong>",
+                    "visibility_html": "Sarà visibile sulla <a href=\"/it/tests/segnalazioni-elenco\" class=\"t-primary\">lista di tutte le segnalazioni</a> una volta presa in carico dall'amministrazione.",
+                    "email_intro_html": "Abbiamo inviato il riepilogo all'email:",
+                    "email": "giulia.bianchi@gmail.com",
+                    "receipt": {
+                        "label": "Scarica la ricevuta (PDF 100KB)",
+                        "url": "#",
+                        "icon": "it-download"
+                    },
+                    "reserved_area": {
+                        "link_label": "Consulta la richiesta",
+                        "text": "nella tua area riservata",
+                        "url": "/it/tests/segnalazione-area-personale"
+                    },
+                    "related_services": {
+                        "title": "Servizi correlati",
+                        "items": [
+                            {
+                                "label": "Richiesta appuntamento",
+                                "url": "/it/tests/appuntamento-01-ufficio",
+                                "icon": "it-settings"
+                            }
+                        ]
+                    },
+                    "contacts": {
+                        "title": "Contatta il comune",
+                        "links": [
+                            {
+                                "label": "Leggi le domande frequenti",
+                                "url": "/it/tests/faq",
+                                "icon": "it-help-circle"
+                            },
+                            {
+                                "label": "Richiedi assistenza",
+                                "url": "/it/tests/contatti",
+                                "icon": "it-mail",
+                                "data_element": "contacts"
+                            },
+                            {
+                                "label": "Chiama il numero verde 05 0505",
+                                "url": "tel:050505",
+                                "icon": "it-hearing"
+                            },
+                            {
+                                "label": "Prenota appuntamento",
+                                "url": "/it/tests/appuntamento-01-ufficio",
+                                "icon": "it-calendar",
+                                "data_element": "appointment-booking"
+                            }
+                        ]
+                    },
+                    "show_rating": true,
+                    "rating": {
+                        "title": "Quanto è stato facile usare questo servizio?",
+                        "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
                     }
                 }
             }

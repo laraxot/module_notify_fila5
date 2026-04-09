@@ -65,7 +65,7 @@
                         {
                             "id": "needed",
                             "title": "Cosa serve",
-                            "class": "mb-30 has-bg-grey p-3",
+                            "class": "has-bg-grey p-3",
                             "content": "<p>Per accedere al servizio, assicurati di avere:</p><ul class=\"list-wrapper link-list lora\"><li class=\"list-item\"><span>informazioni sul tipo di disservizio e sul luogo all'interno del territorio comunale;</span></li><li class=\"list-item\"><span>foto, se disponibili.</span></li></ul>"
                         },
                         {
@@ -84,7 +84,7 @@
                         {
                             "id": "service-access",
                             "title": "Fai una segnalazione",
-                            "class": "mb-30 has-bg-grey p-3",
+                            "class": "has-bg-grey p-3",
                             "content": "<p>Invia una segnalazione online dal tuo smartphone o computer.</p><p class=\"text-paragraph mt-4 lora\">Oppure, prenota un appuntamento all'Ufficio Relazioni con il Pubblico (URP).</p>",
                             "buttons": [
                                 {"label": "Segnala disservizio", "url": "/it/tests/segnalazione-01-privacy", "variant": "btn-primary"},

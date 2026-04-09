@@ -87,17 +87,17 @@
                                                 <ul class="link-list" data-element="page-index">
                                                     <li class="nav-item">
                                                         <a class="nav-link" href="#report-place">
-                                                            <span>Luogo</span>
+                                                            <span>{{ __('fixcity::segnalazione.fields.place.label') }}</span>
                                                         </a>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a class="nav-link" href="#report-info">
-                                                            <span>Disservizio</span>
+                                                            <span>{{ __('fixcity::segnalazione.fields.inefficiency.label') }}</span>
                                                         </a>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a class="nav-link" href="#report-author">
-                                                            <span>Autore della segnalazione</span>
+                                                            <span>{{ __('fixcity::segnalazione.heading.author.label') }}</span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -119,9 +119,9 @@
                             <div class="card has-bkg-grey shadow-sm p-big p-lg-4">
                                 <div class="card-header border-0 p-0 mb-lg-20 m-0">
                                     <div class="d-flex">
-                                        <h2 class="title-xxlarge mb-1">Luogo</h2>
+                                        <h2 class="title-xxlarge mb-1">{{ __('fixcity::segnalazione.fields.place.label') }}</h2>
                                     </div>
-                                    <p class="subtitle-small mb-0">Indica il luogo del disservizio</p>
+                                    <p class="subtitle-small mb-0">{{ __('fixcity::segnalazione.fields.place.help.label') }}</p>
                                 </div>
                                 <div class="card-body p-0">
                                     <div class="cmp-input-autocomplete">
@@ -134,7 +134,7 @@
                                                         <svg class="icon icon-sm icon-primary mb-1" aria-hidden="true">
                                                             <use href="{{ $sprite }}#it-map-marker"></use>
                                                         </svg>
-                                                        <span class="list-item-title t-primary">Usa la tua posizione</span>
+                                                        <span class="list-item-title t-primary">{{ __('fixcity::segnalazione.buttons.use_my_location.label') }}</span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -150,7 +150,7 @@
                             <div class="card has-bkg-grey shadow-sm p-big">
                                 <div class="card-header border-0 p-0 mb-lg-20 m-0">
                                     <div class="d-flex">
-                                        <h2 class="title-xxlarge mb-3 icon-required">Disservizio</h2>
+                                        <h2 class="title-xxlarge mb-3 icon-required">{{ __('fixcity::segnalazione.fields.inefficiency.label') }}</h2>
                                     </div>
                                 </div>
                                 <div class="card-body p-0">
@@ -173,20 +173,20 @@
                                         <div class="form-group">
                                             <label for="details" class="d-block">{{ $placeholders['details'] }}</label>
                                             <textarea class="text-area" id="details" rows="2" required></textarea>
-                                            <span class="label">Inserire al massimo 200 caratteri</span>
+                                            <span class="label">{{ __('fixcity::segnalazione.fields.details.max_chars.label') }}</span>
                                         </div>
                                     </div>
                                     <div class="btn-wrapper px-3 pt-2 pb-3 px-lg-4 pb-lg-4 pt-lg-0 bg-white">
-                                        <label class="title-xsmall-bold u-grey-dark pb-2 ms-2">Immagini</label>
-                                        <button type="button" aria-label="Carica file per il disservizio" class="btn btn-primary w-100 fw-bold">
+                                        <label class="title-xsmall-bold u-grey-dark pb-2 ms-2">{{ __('fixcity::segnalazione.fields.images.label') }}</label>
+                                        <button type="button" aria-label="{{ __('fixcity::segnalazione.buttons.upload.aria.label') }}" class="btn btn-primary w-100 fw-bold">
                                             <span class="rounded-icon">
                                                 <svg class="icon icon-white icon-sm" aria-hidden="true">
                                                     <use href="{{ $sprite }}#it-upload"></use>
                                                 </svg>
                                             </span>
-                                            <span class="">Carica file</span>
+                                            <span class="">{{ __('fixcity::segnalazione.buttons.upload.label') }}</span>
                                         </button>
-                                        <p class="title-xsmall u-grey-dark pt-10 mb-0">Seleziona una o più immagini da allegare alla segnalazione</p>
+                                        <p class="title-xsmall u-grey-dark pt-10 mb-0">{{ __('fixcity::segnalazione.fields.images.help.label') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -198,9 +198,9 @@
                             <div class="card has-bkg-grey shadow-sm">
                                 <div class="card-header border-0 p-0 mb-lg-20 m-0">
                                     <div class="d-flex">
-                                        <h2 class="title-xxlarge mb-1">Autore della segnalazione</h2>
+                                        <h2 class="title-xxlarge mb-1">{{ __('fixcity::segnalazione.heading.author.label') }}</h2>
                                     </div>
-                                    <p class="subtitle-small mb-0">Informazione su di te</p>
+                                    <p class="subtitle-small mb-0">{{ __('fixcity::segnalazione.heading.about_you.label') }}</p>
                                 </div>
                                 <div class="card-body p-0">
                                     <div class="cmp-info-button-card mt-3">
@@ -208,12 +208,12 @@
                                             <div class="card-body p-0">
                                                 @if(!empty($data['user']))
                                                     <h3 class="big-title mb-0">{{ $data['user']['name'] ?? '' }}</h3>
-                                                    <p class="card-info">Codice Fiscale <br> <span>{{ $data['user']['cf'] ?? '' }}</span></p>
+                                                    <p class="card-info">{{ __('fixcity::segnalazione.fields.fiscal_code.label') }} <br> <span>{{ $data['user']['cf'] ?? '' }}</span></p>
                                                     <div class="accordion-item">
                                                         <div class="accordion-header" id="heading-collapse-parents">
                                                             <button class="collapsed accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-parents" @click="parentsOpen = !parentsOpen" aria-expanded="false" aria-controls="collapse-parents">
                                                                 <span class="d-flex align-items-center">
-                                                                    Mostra tutto
+                                                                    {{ __('fixcity::common.buttons.show_all.label') }}
                                                                     <svg class="icon icon-primary icon-sm">
                                                                         <use href="{{ $sprite }}#it-expand"></use>
                                                                     </svg>
@@ -225,12 +225,12 @@
                                                                 <div class="cmp-info-summary bg-white has-border">
                                                                     <div class="card">
                                                                         <div class="card-header border-bottom border-light p-0 mb-0 d-flex justify-content-between d-flex justify-content-end">
-                                                                            <h4 class="title-large-semi-bold mb-3">Contatti</h4>
+                                                                            <h4 class="title-large-semi-bold mb-3">{{ __('fixcity::segnalazione.heading.contacts.label') }}</h4>
                                                                         </div>
                                                                         <div class="card-body p-0">
                                                                             @if(!empty($data['user']['phone']))
                                                                                 <div class="single-line-info border-light">
-                                                                                    <div class="text-paragraph-small">Telefono</div>
+                                                                                    <div class="text-paragraph-small">{{ __('fixcity::segnalazione.fields.phone.label') }}</div>
                                                                                     <div class="border-light">
                                                                                         <p class="data-text">{{ $data['user']['phone'] }}</p>
                                                                                     </div>
@@ -238,7 +238,7 @@
                                                                             @endif
                                                                             @if(!empty($data['user']['email']))
                                                                                 <div class="single-line-info border-light">
-                                                                                    <div class="text-paragraph-small">Email</div>
+                                                                                    <div class="text-paragraph-small">{{ __('fixcity::segnalazione.fields.email.label') }}</div>
                                                                                     <div class="border-light">
                                                                                         <p class="data-text">{{ $data['user']['email'] }}</p>
                                                                                     </div>
@@ -251,7 +251,7 @@
                                                         </div>
                                                     </div>
                                                 @else
-                                                    <p class="text-muted">Effettua il login per visualizzare i tuoi dati</p>
+                                                    <p class="text-muted">{{ __('fixcity::segnalazione.messages.login_required.label') }}</p>
                                                 @endif
                                             </div>
                                         </div>

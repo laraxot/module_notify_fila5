@@ -28,11 +28,31 @@
     $searchLabel = (string) ($data['search_label'] ?? '');
     $searchButton = (string) ($data['search_button'] ?? '');
     $searchSuggestionsTitle = (string) ($data['search_suggestions_title'] ?? '');
+    $breadcrumbs = $data['breadcrumbs'] ?? [];
+    $breadcrumbLabel = (string) ($data['breadcrumb_label'] ?? '');
 @endphp
 
 <div class="container" id="main-container">
     <div class="row justify-content-center">
         <div class="col-12 col-lg-10">
+            <div class="cmp-breadcrumbs" role="navigation">
+                <nav class="breadcrumb-container" aria-label="{{ $breadcrumbLabel }}">
+                    <ol class="breadcrumb p-0" data-element="breadcrumb">
+                        @foreach($breadcrumbs as $index => $breadcrumb)
+                            @php
+                                $isLast = $index === count($breadcrumbs) - 1;
+                            @endphp
+                            <li class="breadcrumb-item{{ $isLast ? ' active' : '' }}"{{ $isLast ? ' aria-current="page"' : '' }}>
+                                @if (! $isLast)
+                                    <a href="{{ $breadcrumb['url'] ?? '#' }}">{{ $breadcrumb['label'] ?? '' }}</a><span class="separator">/</span>
+                                @else
+                                    {{ $breadcrumb['label'] ?? '' }}
+                                @endif
+                            </li>
+                        @endforeach
+                    </ol>
+                </nav>
+            </div>
             <div class="cmp-heading pb-3 pb-lg-4">
                 <h1 class="title-xxxlarge">{{ $userName }}</h1>
                 <p class="subtitle-small">{{ trim($taxCodeLabel.' '.$taxCode) }}</p>
@@ -67,7 +87,7 @@
         <div class="tab-content">
             <div class="tab-pane fade show active" id="data-ex-tab1" role="tabpanel">
                 <div class="row">
-                    <div class="col-12 col-lg-3 d-lg-block mb-4 d-none">
+                    <div class="d-none d-sm-none d-lg-block col-lg-3">
                         <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-one">
                             <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="{{ $data['desk_index_title'] ?? '' }}" data-bs-navscroll>
                                 <div class="navbar-custom" id="navbarNavProgress">
@@ -104,7 +124,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-8 offset-lg-1">
+                    <div class="col-12 col-lg-8 offset-lg-1 px-0 px-sm-3">
                         <div class="it-page-section mb-40 mb-lg-60" id="latest-posts">
                             <div class="cmp-card">
                                 <div class="card">
@@ -112,11 +132,11 @@
                                         <div class="d-flex"><h2 class="title-xxlarge">{{ $messagesTitle }}</h2></div>
                                     </div>
                                     <div class="card-body p-0">
-                                        @foreach($messages as $message)
-                                            <div class="cmp-card-latest-messages mb-3">
+                                        @foreach($messages as $index => $message)
+                                            <div class="cmp-card-latest-messages mb-3" data-bs-toggle="modal" data-bs-target="#modal-message" id="{{ $index + 1 }}">
                                                 <div class="card shadow-sm px-4 pt-4 pb-4">
+                                                    <span class="visually-hidden">{{ $message['category_label'] ?? '' }}</span>
                                                     <div class="card-header border-0 p-0 m-0">
-                                                        <p class="mb-1 fw-semibold">{{ $message['category_label'] ?? '' }}</p>
                                                         <date class="date-xsmall">{{ $message['date'] ?? '' }}</date>
                                                     </div>
                                                     <div class="card-body p-0 my-2">
@@ -166,19 +186,20 @@
                     </div>
                 </div>
             </div>
+            <div class="tab-pane" id="data-ex-tab2" role="tabpanel"></div>
 
             <div class="tab-pane" id="data-ex-tab3" role="tabpanel">
                 <div class="row">
-                    <div class="col-12 col-lg-3 d-lg-block mb-4 d-none">
-                        <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-two">
+                    <div class="d-none d-sm-none d-lg-block col-lg-3">
+                        <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-Three">
                             <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="{{ $data['service_index_title'] ?? '' }}" data-bs-navscroll>
-                                <div class="navbar-custom" id="navbarNavServices">
+                                <div class="navbar-custom" id="navbarNavProgress">
                                     <div class="menu-wrapper">
                                         <div class="link-list-wrapper">
                                             <div class="accordion">
                                                 <div class="accordion-item">
-                                                    <span class="accordion-header" id="accordion-title-two">
-                                                        <button class="accordion-button pb-10 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-two" aria-expanded="true" aria-controls="collapse-two">
+                                                    <span class="accordion-header" id="accordion-title-Three">
+                                                        <button class="accordion-button pb-10 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-Three" aria-expanded="true" aria-controls="collapse-Three">
                                                             {{ $data['service_index_title'] ?? '' }}
                                                             <svg class="icon icon-xs right"><use href="{{ $sprite }}#it-expand"></use></svg>
                                                         </button>
@@ -186,7 +207,7 @@
                                                     <div class="progress">
                                                         <div class="progress-bar it-navscroll-progressbar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
-                                                    <div id="collapse-two" class="accordion-collapse collapse show" role="region" aria-labelledby="accordion-title-two">
+                                                    <div id="collapse-Three" class="accordion-collapse collapse show" role="region" aria-labelledby="accordion-title-Three">
                                                         <div class="accordion-body">
                                                             <ul class="link-list" data-element="page-index">
                                                                 @foreach($serviceIndex as $item)
@@ -206,7 +227,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-8 offset-lg-1">
+                    <div class="col-12 col-lg-8 offset-lg-1 px-0 px-sm-3">
                         <section class="it-page-section mb-40 mb-lg-60" id="practices">
                             <div class="cmp-filter">
                                 <div class="filter-section">
@@ -217,7 +238,8 @@
                                             <span>{{ $data['filter_label'] ?? '' }}</span>
                                         </button>
                                         <div class="dropdown">
-                                            <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenu-pratiche" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenu-pratiche" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="">
+                                                <svg class="icon-expand icon icon-sm icon-primary"><use href="{{ $sprite }}#it-expand"></use></svg>
                                                 <span class="dropdown__title">{{ $data['sort_label'] ?? '' }}</span>
                                             </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenu-pratiche">
@@ -232,14 +254,25 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="cmp-input-search">
+                                    <div class="form-group autocomplete-wrapper">
+                                        <div class="input-group">
+                                            <label for="autocomplete-pratiche" class="visually-hidden">{{ $searchLabel }}</label>
+                                            <input type="search" class="autocomplete form-control" placeholder="{{ $searchButton }}" id="autocomplete-pratiche" name="pratiche" data-bs-autocomplete="[]">
+                                            <span class="autocomplete-icon" aria-hidden="true">
+                                                <svg class="icon icon-sm"><use href="{{ $sprite }}#it-search"></use></svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="cmp-accordion">
-                                <div class="accordion" id="accordionPratiche">
+                                <div class="accordion">
                                     @foreach($practices as $idx => $practice)
                                         <div class="accordion-item">
-                                            <div class="accordion-header" id="practice-heading-{{ $idx }}">
-                                                <button class="accordion-button collapsed title-snall-semi-bold" type="button" data-bs-toggle="collapse" data-bs-target="#practice-collapse-{{ $idx }}" aria-expanded="true" aria-controls="practice-collapse-{{ $idx }}">
+                                            <div class="accordion-header" id="heading{{ $idx + 1 }}">
+                                                <button class="accordion-button collapsed title-snall-semi-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $idx + 1 }}" aria-expanded="true" aria-controls="collapse{{ $idx + 1 }}">
                                                     <div class="button-wrapper">
                                                         {{ $practice['title'] ?? '' }}
                                                         <div class="icon-wrapper">
@@ -251,24 +284,28 @@
                                                 <p class="accordion-date title-xsmall-regular mb-0">{{ $practice['date'] ?? '' }}</p>
                                             </div>
 
-                                            <div id="practice-collapse-{{ $idx }}" class="accordion-collapse collapse p-0" data-bs-parent="#accordionPratiche" role="region" aria-labelledby="practice-heading-{{ $idx }}">
+                                            <div id="collapse{{ $idx + 1 }}" class="accordion-collapse collapse p-0" data-bs-parent="#accordionExample{{ $idx + 1 }}" role="region" aria-labelledby="heading{{ $idx + 1 }}">
                                                 <div class="accordion-body">
                                                     <p class="mb-2 fw-normal">{{ $practice['code_label'] ?? '' }} <span class="label">{{ $practice['code'] ?? '' }}</span></p>
                                                     <a href="{{ $practice['service_url'] ?? '#' }}" class="mb-2"><span class="t-primary">{{ $practice['service_label'] ?? '' }}</span></a>
                                                     <a class="chip chip-simple" href="{{ $practice['service_url'] ?? '#' }}"><span class="chip-label">{{ $practice['service_chip'] ?? '' }}</span></a>
                                                     @if(!empty($practice['attachments']))
-                                                        <ul class="cmp-icon-list mt-3 mb-3">
-                                                            @foreach($practice['attachments'] as $attachment)
-                                                                <li>
-                                                                    <a href="{{ $attachment['url'] ?? '#' }}" class="list-item icon-left">
-                                                                        <span class="list-item-title-icon-wrapper">
-                                                                            <svg class="icon icon-primary icon-sm"><use href="{{ $sprite }}#it-clip"></use></svg>
-                                                                            <span class="list-item-title">{{ $attachment['label'] ?? '' }}</span>
-                                                                        </span>
-                                                                    </a>
-                                                                </li>
-                                                            @endforeach
-                                                        </ul>
+                                                        <div class="cmp-icon-list">
+                                                            <div class="link-list-wrapper">
+                                                                <ul class="link-list">
+                                                                    @foreach($practice['attachments'] as $attachment)
+                                                                        <li class="shadow mt-3">
+                                                                            <a href="{{ $attachment['url'] ?? '#' }}" class="list-item icon-left t-primary title-small-semi-bold" aria-label="{{ $attachment['label'] ?? '' }}">
+                                                                                <span class="list-item-title-icon-wrapper">
+                                                                                    <svg class="icon icon-sm align-self-start icon-color" aria-hidden="true"><use href="{{ $sprite }}#it-clip"></use></svg>
+                                                                                    <span class="list-item-title title-small-semi-bold">{{ $attachment['label'] ?? '' }}</span>
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                    @endforeach
+                                                                </ul>
+                                                            </div>
+                                                        </div>
                                                     @endif
                                                     <button type="button" class="btn btn-primary justify-content-center my-3"><span>{{ $practice['action_label'] ?? '' }}</span></button>
                                                 </div>
@@ -278,7 +315,7 @@
                                 </div>
                             </div>
                             @if(!empty($data['practices_cta']))
-                                <button type="button" class="btn btn-xs btn-me btn-label t-primary px-0 mt-3"><span>{{ $data['practices_cta'] }}</span></button>
+                                <button type="button" class="btn accordion-view-more mb-2 pt-3 t-primary title-xsmall-semi-bold ps-lg-3"><span>{{ $data['practices_cta'] }}</span></button>
                             @endif
                         </section>
 
@@ -292,7 +329,8 @@
                                             <span>{{ $data['filter_label'] ?? '' }}</span>
                                         </button>
                                         <div class="dropdown">
-                                            <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenu-payments" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenu-pagamenti" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="">
+                                                <svg class="icon-expand icon icon-sm icon-primary"><use href="{{ $sprite }}#it-expand"></use></svg>
                                                 <span class="dropdown__title">{{ $data['sort_label'] ?? '' }}</span>
                                             </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenu-payments">
@@ -307,14 +345,25 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="cmp-input-search">
+                                    <div class="form-group autocomplete-wrapper">
+                                        <div class="input-group">
+                                            <label for="autocomplete-pagamenti" class="visually-hidden">{{ $searchLabel }}</label>
+                                            <input type="search" class="autocomplete form-control" placeholder="{{ $searchButton }}" id="autocomplete-pagamenti" name="pagamenti" data-bs-autocomplete="[]">
+                                            <span class="autocomplete-icon" aria-hidden="true">
+                                                <svg class="icon icon-sm"><use href="{{ $sprite }}#it-search"></use></svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="cmp-accordion">
-                                <div class="accordion" id="accordionPagamenti">
+                                <div class="accordion">
                                     @foreach($payments as $idx => $payment)
                                         <div class="accordion-item">
-                                            <div class="accordion-header" id="payment-heading-{{ $idx }}">
-                                                <button class="accordion-button collapsed title-snall-semi-bold" type="button" data-bs-toggle="collapse" data-bs-target="#payment-collapse-{{ $idx }}" aria-expanded="true" aria-controls="payment-collapse-{{ $idx }}">
+                                            <div class="accordion-header" id="heading{{ $idx + 5 }}">
+                                                <button class="accordion-button collapsed title-snall-semi-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $idx + 5 }}" aria-expanded="true" aria-controls="collapse{{ $idx + 5 }}">
                                                     <div class="button-wrapper">
                                                         {{ $payment['title'] ?? '' }}
                                                         <div class="icon-wrapper">
@@ -326,24 +375,28 @@
                                                 <p class="accordion-date title-xsmall-regular mb-0">{{ $payment['date'] ?? '' }}</p>
                                             </div>
 
-                                            <div id="payment-collapse-{{ $idx }}" class="accordion-collapse collapse p-0" data-bs-parent="#accordionPagamenti" role="region" aria-labelledby="payment-heading-{{ $idx }}">
+                                            <div id="collapse{{ $idx + 5 }}" class="accordion-collapse collapse p-0" data-bs-parent="#accordionExample{{ $idx + 5 }}" role="region" aria-labelledby="heading{{ $idx + 5 }}">
                                                 <div class="accordion-body">
                                                     <p class="mb-2 fw-normal">{{ $payment['code_label'] ?? '' }} <span class="label">{{ $payment['code'] ?? '' }}</span></p>
                                                     <a href="{{ $payment['service_url'] ?? '#' }}" class="mb-2"><span class="t-primary">{{ $payment['service_label'] ?? '' }}</span></a>
                                                     <a class="chip chip-simple" href="{{ $payment['service_url'] ?? '#' }}"><span class="chip-label">{{ $payment['service_chip'] ?? '' }}</span></a>
                                                     @if(!empty($payment['attachments']))
-                                                        <ul class="cmp-icon-list mt-3 mb-3">
-                                                            @foreach($payment['attachments'] as $attachment)
-                                                                <li>
-                                                                    <a href="{{ $attachment['url'] ?? '#' }}" class="list-item icon-left">
-                                                                        <span class="list-item-title-icon-wrapper">
-                                                                            <svg class="icon icon-primary icon-sm"><use href="{{ $sprite }}#it-clip"></use></svg>
-                                                                            <span class="list-item-title">{{ $attachment['label'] ?? '' }}</span>
-                                                                        </span>
-                                                                    </a>
-                                                                </li>
-                                                            @endforeach
-                                                        </ul>
+                                                        <div class="cmp-icon-list">
+                                                            <div class="link-list-wrapper">
+                                                                <ul class="link-list">
+                                                                    @foreach($payment['attachments'] as $attachment)
+                                                                        <li class="shadow mt-3">
+                                                                            <a href="{{ $attachment['url'] ?? '#' }}" class="list-item icon-left t-primary title-small-semi-bold" aria-label="{{ $attachment['label'] ?? '' }}">
+                                                                                <span class="list-item-title-icon-wrapper">
+                                                                                    <svg class="icon icon-sm align-self-start icon-color" aria-hidden="true"><use href="{{ $sprite }}#it-clip"></use></svg>
+                                                                                    <span class="list-item-title title-small-semi-bold">{{ $attachment['label'] ?? '' }}</span>
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                    @endforeach
+                                                                </ul>
+                                                            </div>
+                                                        </div>
                                                     @endif
                                                     <button type="button" class="btn btn-primary justify-content-center my-3"><span>{{ $payment['action_label'] ?? '' }}</span></button>
                                                 </div>
@@ -353,7 +406,7 @@
                                 </div>
                             </div>
                             @if(!empty($data['payments_cta']))
-                                <button type="button" class="btn btn-xs btn-me btn-label t-primary px-0 mt-3"><span>{{ $data['payments_cta'] }}</span></button>
+                                <button type="button" class="btn accordion-view-more mb-2 pt-3 t-primary title-xsmall-semi-bold ps-lg-3"><span>{{ $data['payments_cta'] }}</span></button>
                             @endif
                         </section>
 

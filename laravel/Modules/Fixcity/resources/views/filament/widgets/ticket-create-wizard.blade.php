@@ -1,3 +1,4 @@
+<div class="ticket-create-wizard">
 @php
     $title = (string) ($blockData['title'] ?? __('fixcity::segnalazione.page.title.label'));
     $description = (string) ($blockData['description'] ?? '');
@@ -11,6 +12,8 @@
     $privacyCheckboxLabel = (string) ($blockData['privacy_checkbox_label'] ?? __('fixcity::segnalazione.privacy.checkbox.label'));
     $placeholders = is_array($blockData['placeholders'] ?? null) ? $blockData['placeholders'] : [];
 @endphp
+
+<div class="fixcity-ticket-create-wizard">
 
 {{-- Title + Steppers --}}
 <div class="container" id="main-container">
@@ -248,4 +251,6 @@
             </div>
         </div>
     </div>
+</div>
+</div>
 </div>

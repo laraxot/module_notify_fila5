@@ -19,6 +19,11 @@
             "tax_code_label": "CF:",
             "tax_code": "GLARSS72H25H501Y"
           },
+          "breadcrumb_label": "breadcrumb",
+          "breadcrumbs": [
+            {"label": "Home", "url": "/it/tests/homepage"},
+            {"label": "Area personale", "url": ""}
+          ],
           "tabs": [
             {"id": "data-ex-tab1", "icon": "it-pa", "label": "Scrivania", "active": true},
             {"id": "data-ex-tab2", "icon": "it-mail", "label": "Messaggi", "active": false},
