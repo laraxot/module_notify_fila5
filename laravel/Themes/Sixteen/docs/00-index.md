@@ -8,6 +8,7 @@
 
 ### CSS/JS Parity Phase
 - [css-js-parity.md](./css-js-parity.md) - CSS/JS visual parity plan, build process, checklist
+- [text-paragraph-font-fix.md](./text-paragraph-font-fix.md) - Font fix: Lora → Titillium Web for .text-paragraph
 - [segnalazione-css-diff.md](./segnalazione-css-diff.md) - Segnalazione CSS diff analysis
 
 ### Active segnalazione-dettaglio phase
