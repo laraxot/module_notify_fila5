@@ -131,20 +131,22 @@
                 </div>
             </div>
         </div>
-        <div class="it-header-navbar-wrapper" id="header-nav-wrapper">
+        <div class="it-header-navbar-wrapper" id="header-nav-wrapper" x-data="headerMobileNav">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="navbar navbar-expand-lg has-megamenu">
-                            <button class="custom-navbar-toggler" type="button" aria-controls="nav4" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-target="#nav4" data-bs-toggle="navbarcollapsible">
+                            <button class="custom-navbar-toggler" type="button" aria-controls="nav4" :aria-expanded="mobileNavOpen.toString()" aria-label="Mostra/Nascondi la navigazione" @click="toggle()">
                                 <svg class="icon">
                                     <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-burger"></use>
                                 </svg>
                             </button>
-                            <div class="navbar-collapsable" id="nav4">
-                                <div class="overlay" style="display: none;"></div>
+                            <!-- Mobile overlay backdrop -->
+                            <div x-show="mobileNavOpen" @click.self="close()" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" class="navbar-overlay" style="display: none;"></div>
+                            <!-- Mobile menu panel -->
+                            <div x-show="mobileNavOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="translate-x-[-100%]" x-transition:enter-end="translate-x-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-[-100%]" class="navbar-collapsable" id="nav4" @keydown.escape.window="close()" style="display: none;">
                                 <div class="close-div">
-                                    <button class="btn close-menu" type="button">
+                                    <button class="btn close-menu" type="button" @click="close()">
                                         <span class="visually-hidden">Nascondi la navigazione</span>
                                         <svg class="icon">
                                             <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-close-big"></use>

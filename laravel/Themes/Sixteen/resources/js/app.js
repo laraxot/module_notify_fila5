@@ -51,6 +51,26 @@ function registerAlpineComponents(AlpineInstance) {
         showFilterModal: false,
     }));
 
+    // Story 1.1.1-HEADER-RESPONSIVE: Mobile header navigation toggle
+    // Fixes inline x-data not being processed correctly by Livewire/Alpine
+    AlpineInstance.data('headerMobileNav', () => ({
+        mobileNavOpen: false,
+        toggle() {
+            this.mobileNavOpen = !this.mobileNavOpen;
+            document.body.classList.toggle('nav-open', this.mobileNavOpen);
+            if (this.mobileNavOpen) {
+                this.$nextTick(() => {
+                    const firstLink = document.querySelector('.navbar-collapsable .menu-wrapper a');
+                    if (firstLink) firstLink.focus();
+                });
+            }
+        },
+        close() {
+            this.mobileNavOpen = false;
+            document.body.classList.remove('nav-open');
+        }
+    }));
+
     document.documentElement.setAttribute('data-sixteen-alpine-components', 'true');
 }
 
