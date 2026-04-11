@@ -1,7 +1,7 @@
 @props(['data' => []])
 
 @php
-    $title = $data['title'] ?? __('fixcity::segnalazione.heading.title.label');
+    $title = $data['title'] ?? __('fixcity::segnalazione.page.title.label');
     $sprite = '/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg';
     $currentStep = $data['current_step'] ?? 2;
     $totalSteps = $data['total_steps'] ?? 3;
@@ -15,20 +15,29 @@
         'search_place' => __('fixcity::segnalazione.fields.place.placeholder'),
         'inefficiency_type' => __('fixcity::segnalazione.fields.inefficiency_type.placeholder'),
         'title' => __('fixcity::segnalazione.fields.title.placeholder'),
-        'details' => __('fixcity::segnalazione.fields.details.placeholder'),
+        'details' => __('fixcity::segnalazione.create.details.placeholder'),
     ];
-    $inefficiencyTypes = $data['inefficiency_types'] ?? [__('fixcity::segnalazione.inefficiency_types.property_damage')];
-    $contacts = $data['contacts'] ?? [];
+    $inefficiencyTypes = $data['inefficiency_types'] ?? [
+        __('fixcity::segnalazione.inefficiency_types.property_damage'),
+        __('fixcity::segnalazione.inefficiency_types.maintenance'),
+        __('fixcity::segnalazione.inefficiency_types.urban_decorum'),
+    ];
+    $contacts = is_array($data['contacts'] ?? null) ? $data['contacts'] : [];
+    $phoneLabel = trim((string) ($contacts['phone'] ?? '05 0505'));
+    $phoneHref = (string) ($contacts['phone_url'] ?? '#');
+    $locale = app()->getLocale();
+    $prevUrl = (string) ($data['prev_url'] ?? url($locale.'/tests/segnalazione-01-privacy'));
+    $nextUrl = (string) ($data['next_url'] ?? url($locale.'/tests/segnalazione-03-riepilogo'));
 @endphp
 
 <div class="container" id="main-container">
     <div class="row justify-content-center">
         <div class="col-12 col-lg-10">
             <div class="cmp-breadcrumbs" role="navigation">
-                <nav class="breadcrumb-container" aria-label="breadcrumb">
+                <nav class="breadcrumb-container" aria-label="{{ __('fixcity::segnalazione.breadcrumb.container.label') }}">
                     <ol class="breadcrumb p-0" data-element="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">{{ __('fixcity::common.navigation.home.label') }}</a><span class="separator">/</span></li>
-                        <li class="breadcrumb-item"><a href="#">{{ __('fixcity::common.navigation.services.label') }}</a><span class="separator">/</span></li>
+                        <li class="breadcrumb-item"><a href="#">{{ __('fixcity::segnalazione.breadcrumb.home.label') }}</a><span class="separator">/</span></li>
+                        <li class="breadcrumb-item"><a href="#">{{ __('fixcity::segnalazione.breadcrumb.services.label') }}</a><span class="separator">/</span></li>
                         <li class="breadcrumb-item active" aria-current="page">{{ $title }}</li>
                     </ol>
                 </nav>
@@ -59,20 +68,28 @@
                 </div>
             </div>
             <p class="title-xsmall d-lg-none my-5">{{ __('fixcity::segnalazione.fields.required.note.label') }}</p>
+            {{-- Indice sezioni su mobile (sidebar desktop è nascosta) --}}
+            <nav class="cmp-page-index-mobile d-lg-none" aria-label="{{ __('fixcity::segnalazione.heading.required_info.label') }}" data-element="page-index-mobile">
+                <ul class="cmp-page-index-mobile__list">
+                    <li><a href="#report-place">{{ __('fixcity::segnalazione.fields.place.label') }}</a></li>
+                    <li><a href="#report-info">{{ __('fixcity::segnalazione.fields.inefficiency.label') }}</a></li>
+                    <li><a href="#report-author">{{ __('fixcity::segnalazione.heading.author.label') }}</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 
     <div class="row" x-data="{ accordionOpen: true, parentsOpen: false }">
         <div class="col-12 col-lg-3 d-lg-block mb-4 d-none">
             <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-one">
-                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="{{ __('fixcity::segnalazione.heading.required_info.label') }}">
+                <nav class="navbar it-navscroll-wrapper navbar-expand-lg" data-bs-navscroll="" aria-label="{{ __('fixcity::segnalazione.heading.required_info.label') }}">
                     <div class="navbar-custom" id="navbarNavProgress">
                         <div class="menu-wrapper">
                             <div class="link-list-wrapper">
                                 <div class="accordion">
                                     <div class="accordion-item">
                                         <span class="accordion-header" id="accordion-title-one">
-                                            <button class="accordion-button pb-10 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-one" @click="accordionOpen = !accordionOpen" aria-expanded="true" aria-controls="collapse-one">
+                                            <button class="accordion-button pb-10 px-3" type="button" @click="accordionOpen = !accordionOpen" aria-expanded="true" aria-controls="collapse-one">
                                                 {{ __('fixcity::segnalazione.heading.required_info.label') }}
                                                 <svg class="icon icon-xs right">
                                                     <use href="{{ $sprite }}#it-expand"></use>
@@ -126,7 +143,7 @@
                                 <div class="card-body p-0">
                                     <div class="cmp-input-autocomplete">
                                         <div class="form-group bg-white p-3 mb-0 mt-3">
-                                            <label class="label-input d-none mb-2" for="autocomplete-regioni">{{ $placeholders['search_place'] }}</label>
+                                            <label class="label-input active d-none mb-2" for="autocomplete-regioni">{{ $placeholders['search_place'] }}</label>
                                             <input type="search" class="autocomplete" placeholder="{{ $placeholders['search_place'] }}" id="autocomplete-regioni" name="autocomplete-regioni" required>
                                             <div class="link-wrapper mt-3">
                                                 <a class="list-item active icon-left" href="#">
@@ -134,7 +151,7 @@
                                                         <svg class="icon icon-sm icon-primary mb-1" aria-hidden="true">
                                                             <use href="{{ $sprite }}#it-map-marker"></use>
                                                         </svg>
-                                                        <span class="list-item-title t-primary">{{ __('fixcity::segnalazione.buttons.use_my_location.label') }}</span>
+                                                        <span class="list-item-title t-primary">{{ __('fixcity::segnalazione.actions.use_my_location.label') }}</span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -214,7 +231,7 @@
                                             <div class="upload-wrapper d-flex justify-content-between align-items-center">
                                                 <img src="/themes/Sixteen/design-comuni/assets/images/img-disservizio-thumbnail.png" alt="" class="img">
                                                 <span class="t-primary fw-bold w-100 ms-2">img-disservizio-thumbnail.png</span>
-                                                <a href="#" class="align-self-center" aria-label="{{ __('fixcity::segnalazione.buttons.delete_image.aria.label') }}">
+                                                <a href="#" class="align-self-center" aria-label="{{ __('fixcity::segnalazione.actions.delete_image.aria.label') }}">
                                                     <svg class="icon icon-primary icon-sm mb-1">
                                                         <use href="{{ $sprite }}#it-close"></use>
                                                     </svg>
@@ -289,9 +306,9 @@
                                                     <p class="card-info">{{ __('fixcity::segnalazione.fields.fiscal_code.label') }} <br> <span>{{ $data['user']['cf'] ?? '' }}</span></p>
                                                     <div class="accordion-item">
                                                         <div class="accordion-header" id="heading-collapse-parents">
-                                                            <button class="collapsed accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-parents" @click="parentsOpen = !parentsOpen" aria-expanded="false" aria-controls="collapse-parents">
+                                                            <button class="collapsed accordion-button" type="button" @click="parentsOpen = !parentsOpen" aria-expanded="false" aria-controls="collapse-parents">
                                                                 <span class="d-flex align-items-center">
-                                                                    {{ __('fixcity::common.buttons.show_all.label') }}
+                                                                    {{ __('fixcity::segnalazione.actions.show_all.label') }}
                                                                     <svg class="icon icon-primary icon-sm">
                                                                         <use href="{{ $sprite }}#it-expand"></use>
                                                                     </svg>
@@ -333,35 +350,45 @@
                                                 @endif
                                             </div>
                                         </div>
+                                        <div class="card-footer p-0 d-none"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
-                <div class="cmp-nav-steps">
-                    <nav class="steppers-nav" aria-label="Step">
-                        <button type="button" class="btn btn-sm steppers-btn-prev p-0">
+                <div class="cmp-nav-steps" x-data="{ showSaveAlert: false }">
+                    <nav class="steppers-nav" aria-label="{{ __('fixcity::segnalazione.wizard.nav_steps.label') }}">
+                        <a href="{{ $prevUrl }}" class="btn btn-sm steppers-btn-prev p-0">
                             <svg class="icon icon-primary icon-sm" aria-hidden="true">
                                 <use href="{{ $sprite }}#it-chevron-left"></use>
                             </svg>
-                            <span class="text-button-sm t-primary">Indietro</span>
+                            <span class="text-button-sm t-primary">{{ __('fixcity::segnalazione.actions.back.label') }}</span>
+                        </a>
+                        <button type="button"
+                                class="btn btn-outline-primary bg-white btn-sm steppers-btn-save d-none d-lg-block saveBtn"
+                                @click="showSaveAlert = true; setTimeout(() => showSaveAlert = false, 4000)">
+                            <span class="text-button-sm t-primary">{{ __('fixcity::segnalazione.actions.save.label') }}</span>
                         </button>
-                        <button type="button" class="btn btn-outline-primary bg-white btn-sm steppers-btn-save d-none d-lg-block saveBtn">
-                            <span class="text-button-sm t-primary">Salva Richiesta</span>
+                        <button type="button"
+                                class="btn btn-outline-primary bg-white btn-sm steppers-btn-save d-block d-lg-none saveBtn center"
+                                @click="showSaveAlert = true; setTimeout(() => showSaveAlert = false, 4000)">
+                            <span class="text-button-sm t-primary">{{ __('fixcity::segnalazione.actions.save_short.label') }}</span>
                         </button>
-                        <button type="button" class="btn btn-outline-primary bg-white btn-sm steppers-btn-save d-block d-lg-none saveBtn center">
-                            <span class="text-button-sm t-primary">Salva</span>
-                        </button>
-                        <button type="button" class="btn btn-primary btn-sm steppers-btn-confirm" data-bs-toggle="modal" data-bs-target="#" @click="confirmAndProceed()">
-                            <span class="text-button-sm">Avanti</span>
+                        <a href="{{ $nextUrl }}" class="btn btn-primary btn-sm steppers-btn-confirm">
+                            <span class="text-button-sm">{{ __('fixcity::segnalazione.actions.next.label') }}</span>
                             <svg class="icon icon-white icon-sm" aria-hidden="true">
                                 <use href="{{ $sprite }}#it-chevron-right"></use>
                             </svg>
-                        </button>
+                        </a>
                     </nav>
-                    <div id="alert-message" class="alert alert-success cmp-disclaimer rounded d-none" role="alert">
-                        <span class="d-inline-block text-uppercase cmp-disclaimer__message">Richiesta salvata con successo</span>
+                    <div id="alert-message"
+                         class="alert alert-success cmp-disclaimer rounded"
+                         role="alert"
+                         x-show="showSaveAlert"
+                         x-cloak
+                         x-transition>
+                        <span class="d-inline-block text-uppercase cmp-disclaimer__message">{{ __('fixcity::segnalazione.alert.save_success.label') }}</span>
                     </div>
                 </div>
             </div>
@@ -376,24 +403,24 @@
                 <div class="cmp-contacts">
                     <div class="card w-100">
                         <div class="card-body">
-                            <h2 class="title-medium-2-semi-bold">Contatta il comune</h2>
+                            <h2 class="title-medium-2-semi-bold">{{ __('fixcity::segnalazione.contact.heading.label') }}</h2>
                             <ul class="contact-list p-0">
-                                <li><a class="list-item" href="#">
+                                <li><a class="list-item" href="{{ $contacts['faq'] ?? '#' }}">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
                                         <use href="{{ $sprite }}#it-help-circle"></use>
-                                    </svg><span>Leggi le domande frequenti</span></a></li>
-                                <li><a class="list-item" href="#" data-element="contacts">
+                                    </svg><span>{{ __('fixcity::segnalazione.contact.faq.label') }}</span></a></li>
+                                <li><a class="list-item" href="{{ $contacts['assistenza'] ?? '#' }}" data-element="contacts">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
                                         <use href="{{ $sprite }}#it-mail"></use>
-                                    </svg><span>Richiedi assistenza</span></a></li>
-                                <li><a class="list-item" href="#">
+                                    </svg><span>{{ __('fixcity::segnalazione.contact.assistance.label') }}</span></a></li>
+                                <li><a class="list-item" href="{{ $phoneHref }}">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
                                         <use href="{{ $sprite }}#it-hearing"></use>
-                                    </svg><span>Chiama il numero verde 05 0505</span></a></li>
-                                <li><a class="list-item" href="#" data-element="appointment-booking">
+                                    </svg><span>{{ __('fixcity::segnalazione.contact.phone.label', ['phone' => $phoneLabel]) }}</span></a></li>
+                                <li><a class="list-item" href="{{ $contacts['appointment'] ?? '#' }}" data-element="appointment-booking">
                                     <svg class="icon icon-primary icon-sm" aria-hidden="true">
                                         <use href="{{ $sprite }}#it-calendar"></use>
-                                    </svg><span>Prenota appuntamento</span></a></li>
+                                    </svg><span>{{ __('fixcity::segnalazione.contact.appointment.label') }}</span></a></li>
                             </ul>
                         </div>
                     </div>

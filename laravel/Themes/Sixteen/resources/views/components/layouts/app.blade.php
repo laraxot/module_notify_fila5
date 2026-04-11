@@ -8,7 +8,7 @@
 
     <x-section slug="header" />
 
-    <main id="main-container">
+    <main>
         {{ $slot }}
     </main>
 
