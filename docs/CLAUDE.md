@@ -1,3 +1,9 @@
+<!-- AI DOCS SPLIT: This file is kept for backward compatibility. Split versions available at:
+- Split files: .agents/docs/claude/INDEX.md (20 sections)
+- Master Index: .agents/docs/INDEX.md
+-->
+
+
 # claudeMd
 Codebase and user instructions are shown below. Be sure to adhere to these instructions. IMPORTANT: These instructions OVERRIDE any default behavior and you MUST follow them exactly as written.
 

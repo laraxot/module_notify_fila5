@@ -1,3 +1,9 @@
+<!-- AI DOCS SPLIT: This file is kept for backward compatibility. Split versions available at:
+- Split files: .agents/docs/gemini/INDEX.md (13 sections)
+- Master Index: .agents/docs/INDEX.md
+-->
+
+
 <laravel-boost-guidelines>
 === .ai/laravel-boost rules ===
 
