@@ -12,6 +12,9 @@ return [
         ],
     ],
     'breadcrumb' => [
+        'container' => [
+            'label' => 'Breadcrumb',
+        ],
         'home' => [
             'label' => 'Home',
         ],
@@ -40,6 +43,12 @@ return [
         ],
         'active' => [
             'label' => 'Active',
+        ],
+        'step_number' => [
+            'label' => 'Step :number',
+        ],
+        'current_of_total' => [
+            'label' => 'Step :current of :total',
         ],
     ],
     'warning' => [
@@ -70,6 +79,15 @@ return [
             'label' => 'Report Author',
             'description' => 'Information about you',
         ],
+        'required_info' => [
+            'label' => 'Required information',
+        ],
+        'author' => [
+            'label' => 'Report author',
+        ],
+        'about_you' => [
+            'label' => 'About you',
+        ],
         'contacts' => [
             'label' => 'Contacts',
         ],
@@ -97,6 +115,9 @@ return [
         'details' => [
             'label' => 'Details',
             'char_limit' => 'Maximum 200 characters',
+            'max_chars' => [
+                'label' => 'Maximum 200 characters',
+            ],
         ],
         'images' => [
             'label' => 'Images',
@@ -128,6 +149,39 @@ return [
         ],
         'email' => [
             'label' => 'Email',
+        ],
+        'place' => [
+            'label' => 'Location',
+            'help' => [
+                'label' => 'Search for the address or place where the issue occurs',
+            ],
+            'placeholder' => 'Search a place',
+        ],
+        'inefficiency' => [
+            'label' => 'Reported issue',
+        ],
+        'inefficiency_type' => [
+            'placeholder' => 'Issue type',
+        ],
+        'required' => [
+            'note' => [
+                'label' => 'Fields marked with an asterisk are required',
+            ],
+        ],
+    ],
+    'inefficiency_types' => [
+        'property_damage' => 'Damage to public property',
+        'maintenance' => 'Lack of maintenance',
+        'urban_decorum' => 'Urban decorum',
+    ],
+    'wizard' => [
+        'nav_steps' => [
+            'label' => 'Report wizard steps',
+        ],
+    ],
+    'messages' => [
+        'login_required' => [
+            'label' => 'Sign in with SPID or CIE to continue.',
         ],
     ],
     'actions' => [
@@ -168,6 +222,9 @@ return [
         ],
         'use_my_location' => [
             'label' => 'Use my location',
+        ],
+        'show_all' => [
+            'label' => 'Show all',
         ],
     ],
     'alert' => [
@@ -350,6 +407,11 @@ return [
             5 => [
                 'label' => '5 stars out of 5',
             ],
+        ],
+    ],
+    'page' => [
+        'title' => [
+            'label' => 'Service report',
         ],
     ],
 ];

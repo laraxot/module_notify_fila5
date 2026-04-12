@@ -42,7 +42,7 @@
                             <span class="steppers-number">{{ $stepNum }}</span>
                         @endif
                         <span class="visually-hidden">
-                            {{ $isCompleted ? 'Step completato' : ($isActive ? 'Step corrente' : 'Step ' . $stepNum) }}: {{ $step['title'] ?? '' }}
+                            {{ $isCompleted ? __('fixcity::segnalazione.steps.confirmed.label') : ($isActive ? __('fixcity::segnalazione.steps.active.label') : __('fixcity::segnalazione.steps.step_number.label', ['number' => $stepNum])) }}: {{ $step['title'] ?? '' }}
                         </span>
                     </li>
                 @endforeach
@@ -54,6 +54,6 @@
     </div>
 </div>
 <p class="title-xsmall d-lg-none my-5">
-    Step {{ $currentStep }} di {{ count($steps) }}: {{ $steps[$currentStep - 1]['title'] ?? '' }}
+    {{ __('fixcity::segnalazione.steps.current_of_total.label', ['current' => $currentStep, 'total' => count($steps)]) }}: {{ $steps[$currentStep - 1]['title'] ?? '' }}
 </p>
 @endif

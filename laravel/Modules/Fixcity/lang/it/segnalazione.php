@@ -12,6 +12,9 @@ return [
         ],
     ],
     'breadcrumb' => [
+        'container' => [
+            'label' => 'Percorso di navigazione',
+        ],
         'home' => [
             'label' => 'Home',
         ],
@@ -41,6 +44,12 @@ return [
         'active' => [
             'label' => 'Attivo',
         ],
+        'step_number' => [
+            'label' => 'Passo :number',
+        ],
+        'current_of_total' => [
+            'label' => 'Passo :current di :total',
+        ],
     ],
     'warning' => [
         'title' => [
@@ -65,6 +74,15 @@ return [
         ],
         'general_data' => [
             'label' => 'Dati Generali',
+        ],
+        'required_info' => [
+            'label' => 'Informazioni richieste',
+        ],
+        'author' => [
+            'label' => 'Autore della segnalazione',
+        ],
+        'about_you' => [
+            'label' => 'Informazioni su di te',
         ],
         'report_author' => [
             'label' => 'Autore della segnalazione',
@@ -94,6 +112,9 @@ return [
         'details' => [
             'label' => 'Dettagli',
             'char_limit' => 'Inserire al massimo 200 caratteri',
+            'max_chars' => [
+                'label' => 'Massimo 200 caratteri',
+            ],
         ],
         'images' => [
             'label' => 'Immagini',
@@ -125,6 +146,39 @@ return [
         ],
         'email' => [
             'label' => 'Email',
+        ],
+        'place' => [
+            'label' => 'Luogo',
+            'help' => [
+                'label' => 'Cerca l\'indirizzo o il punto in cui si verifica il disservizio',
+            ],
+            'placeholder' => 'Cerca un luogo',
+        ],
+        'inefficiency' => [
+            'label' => 'Disservizio segnalato',
+        ],
+        'inefficiency_type' => [
+            'placeholder' => 'Tipo di disservizio',
+        ],
+        'required' => [
+            'note' => [
+                'label' => 'I campi contraddistinti da asterisco sono obbligatori',
+            ],
+        ],
+    ],
+    'inefficiency_types' => [
+        'property_damage' => 'Danneggiamento proprietà pubblica',
+        'maintenance' => 'Mancata manutenzione',
+        'urban_decorum' => 'Decoro urbano',
+    ],
+    'wizard' => [
+        'nav_steps' => [
+            'label' => 'Passi del wizard segnalazione',
+        ],
+    ],
+    'messages' => [
+        'login_required' => [
+            'label' => 'Per continuare è necessario accedere con SPID o CIE.',
         ],
     ],
     'actions' => [
@@ -165,6 +219,9 @@ return [
         ],
         'use_my_location' => [
             'label' => 'Usa la mia posizione',
+        ],
+        'show_all' => [
+            'label' => 'Mostra tutto',
         ],
     ],
     'alert' => [

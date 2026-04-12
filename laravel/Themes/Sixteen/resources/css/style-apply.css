@@ -2157,9 +2157,144 @@ section.py-4 {
    Added: 2026-04-07
    ============================================ */
 
+/* ============================================
+   STEPPERS - Design Comuni Parity (Mobile-First)
+   Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati.html
+   Added: 2026-04-12
+   ============================================ */
+
+/* Steppers wrapper */
+.steppers {
+  @apply w-full mb-4;
+}
+
+/* Steppers header */
+.steppers-header {
+  @apply w-full;
+}
+
+/* Steppers list - horizontal on desktop, scrollable on mobile */
+.steppers-header ul {
+  @apply flex flex-nowrap overflow-x-auto gap-0 list-none p-0 m-0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.steppers-header ul::-webkit-scrollbar {
+  display: none;
+}
+
+/* Stepper item */
+.steppers-header li {
+  @apply flex items-center flex-shrink-0 pr-4 text-sm;
+  font-family: 'Titillium Web', sans-serif;
+  color: var(--bs-gray-500, #767676);
+  position: relative;
+}
+
+/* Stepper number circle */
+.steppers-number {
+  @apply inline-flex items-center justify-center w-6 h-6 rounded-full mr-2 text-xs font-semibold;
+  background-color: var(--bs-gray-300, #e6e6e6);
+  color: var(--bs-gray-700, #5c6f82);
+}
+
+/* Active step */
+.steppers-header li.active {
+  @apply font-semibold;
+  color: var(--bs-primary, #00695c);
+}
+
+.steppers-header li.active .steppers-number {
+  @apply bg-green-700 text-white;
+  background-color: var(--bs-primary, #00695c);
+}
+
+/* Completed step */
+.steppers-header li.confirmed {
+  @apply text-green-700;
+  color: var(--bs-primary, #00695c);
+}
+
+.steppers-header li.confirmed .steppers-number {
+  @apply hidden;
+}
+
+.steppers-header li.confirmed .steppers-success {
+  @apply w-6 h-6 mr-2;
+  fill: var(--bs-primary, #00695c);
+}
+
+/* Stepper success icon */
+.steppers-success {
+  @apply mr-2 flex-shrink-0;
+}
+
+/* Steppers index (e.g., "2/4") */
+.steppers-index {
+  @apply block text-xs text-gray-500 mt-1;
+  font-family: 'Titillium Web', sans-serif;
+}
+
 /* Steppers content */
 .steppers-content {
   @apply w-full;
+}
+
+/* Steppers nav buttons */
+.steppers-nav {
+  @apply flex items-center justify-between w-full mt-6 pt-4 border-t border-gray-200;
+}
+
+.steppers-btn-prev,
+.steppers-btn-confirm,
+.steppers-btn-save {
+  @apply inline-flex items-center gap-2 text-sm;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* Stepper divider line between steps (desktop) */
+@media (min-width: 992px) {
+  .steppers-header ul {
+    @apply overflow-visible;
+  }
+
+  .steppers-header li::after {
+    content: '';
+    @apply absolute top-1/2 right-0 w-8 h-px bg-gray-300 -translate-y-1/2;
+  }
+
+  .steppers-header li:last-child::after {
+    display: none;
+  }
+
+  .steppers-header li.confirmed::after {
+    @apply bg-green-700;
+    background-color: var(--bs-primary, #00695c);
+  }
+
+  .steppers-index {
+    @apply text-right mt-0;
+  }
+}
+
+/* Mobile: show step indicator text instead of full stepper */
+@media (max-width: 991px) {
+  .steppers-header ul {
+    @apply gap-0;
+  }
+
+  .steppers-header li {
+    @apply pr-2 text-xs;
+  }
+
+  .steppers-number {
+    @apply w-5 h-5 text-xs;
+  }
+
+  .steppers-success {
+    @apply w-5 h-5;
+  }
 }
 
 /* Card wrapper bg-grey */
