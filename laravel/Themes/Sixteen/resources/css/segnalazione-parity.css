@@ -1,5 +1,6 @@
 /**
- * Segnalazione Pages - Visual Parity CSS
+/* ============================================================================
+   Segnalazione Pages - Visual Parity CSS
  *
  * Covers: segnalazione-dettaglio, segnalazione-01-privacy,
  *         segnalazione-02-dati, segnalazione-03-riepilogo,
@@ -10,10 +11,24 @@
  * Strategy: Tailwind CSS + Alpine.js (NO Bootstrap Italia runtime)
  *
  * Created: 2026-04-07
- * Updated: 2026-04-09 - Visual parity fixes from computed styles analysis
- *   - Font family: "Titillium Web" ONLY (no fallbacks)
- *   - Font sizes: h1=48px, h2=24px, p=16px (EXACT match)
- *   - Colors: rgb(25,25,25) text, #191919 dark
+ * Updated: 2026-04-12 - Visual parity fixes
+ *   - Body class removed (HTML parity: <body> only, no classes)
+ *   - Stepper header: show ALL steps on mobile (was hiding non-active)
+ *   - ITA dropdown: single chevron (removed custom ::after)
+ *   - Nav links: no text-decoration
+ *   - Mobile: no horizontal scrollbar
+ * ============================================================================ */
+
+/* FIX: Prevent horizontal scrollbar on mobile */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+
+.container {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
  *   - Spacing: mb h1=24px, h2=8px, p=24px
  *   - Container: max-width + padding match
  */
@@ -1534,20 +1549,56 @@ main svg:not(.leaflet-zoom-animated):not([width]):not([class*="icon"]) {
 }
 
 @media (max-width: 575px) {
+  /* FIX: Make stepper header wrap on mobile instead of horizontal scroll */
   .steppers-header {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    flex-wrap: wrap !important;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
     padding-bottom: 0.5rem;
+    height: auto !important;
+    min-height: 64px !important;
+    display: flex !important;
+    visibility: visible !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .steppers-header ul {
-    min-width: max-content;
+    min-width: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    visibility: visible !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
   }
 
   .steppers-header li,
   .steppers-header .step {
-    flex: 0 0 auto;
+    flex: 1 1 auto !important;
+    white-space: nowrap;
+    justify-content: center !important;
+    font-size: 0.75rem !important;
+    min-width: 0 !important;
+  }
+  
+  /* Hide steppers-index on mobile */
+  .steppers-header .steppers-index {
+    display: none !important;
+  }
+  
+  /* Ensure stepper container is visible */
+  .steppers {
+    display: block !important;
+    overflow: visible !important;
+    width: 100% !important;
+  }
+  
+  /* Ensure the container doesn't cause horizontal scroll */
+  .container {
+    max-width: 100% !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
   }
 }
 
@@ -1620,21 +1671,10 @@ main svg:not(.leaflet-zoom-animated):not([width]):not([class*="icon"]) {
 
 /* ============================================================================
    23. DROPDOWN refinements
+   NOTE: Custom ::after chevron removed — uses SVG icon from template instead
    ============================================================================ */
 .dropdown {
   position: relative;
-}
-
-.dropdown-toggle::after {
-  content: '';
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: 0.3rem;
-  vertical-align: middle;
-  border-top: 0.3rem solid;
-  border-right: 0.3rem solid transparent;
-  border-left: 0.3rem solid transparent;
 }
 
 .dropdown-menu {
@@ -2099,14 +2139,16 @@ span[aria-hidden="true"].steppers-index {
    26.3 Checkbox — Bootstrap Italia style
    Reference: square checkbox with green check, label inline on same line, no underline
    -------------------------------------------------------------------------- */
-.segnalazione-privacy-page .form-check {
+.segnalazione-privacy-page .form-check,
+.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check {
   border-bottom: none !important;
   border-top: none !important;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
 
-.segnalazione-privacy-page .form-check .checkbox-body {
+.segnalazione-privacy-page .form-check .checkbox-body,
+.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check .checkbox-body {
   display: flex !important;
   align-items: center !important;
   gap: 0.75rem !important;
@@ -2115,7 +2157,11 @@ span[aria-hidden="true"].steppers-index {
   padding: 0.5rem 0 !important;
 }
 
-.segnalazione-privacy-page .form-check input[type="checkbox"] {
+.segnalazione-privacy-page .form-check input[type="checkbox"],
+.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check input[type="checkbox"] {
+  /* Override BI: opacity:0 and position:absolute → make the input itself the visible checkbox */
+  opacity: 1 !important;
+  position: static !important;
   width: 1.25rem !important;
   height: 1.25rem !important;
   min-width: 1.25rem !important;
@@ -2130,7 +2176,8 @@ span[aria-hidden="true"].steppers-index {
   transition: all 0.15s ease !important;
 }
 
-.segnalazione-privacy-page .form-check input[type="checkbox"]:checked {
+.segnalazione-privacy-page .form-check input[type="checkbox"]:checked,
+.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check input[type="checkbox"]:checked {
   background-color: #007a52 !important;
   border-color: #007a52 !important;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
@@ -2139,11 +2186,22 @@ span[aria-hidden="true"].steppers-index {
   background-repeat: no-repeat !important;
 }
 
-.segnalazione-privacy-page .form-check input[type="checkbox"]:hover {
+.segnalazione-privacy-page .form-check input[type="checkbox"]:hover,
+.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check input[type="checkbox"]:hover {
   border-color: #007a52 !important;
 }
 
-.segnalazione-privacy-page .form-check .checkbox-body label.title-small-semi-bold {
+/* Hide BI pseudo-elements on the label: input is now the real visual checkbox */
+.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check .checkbox-body input[type="checkbox"] + label::before,
+.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check .checkbox-body input[type="checkbox"] + label::after {
+  display: none !important;
+  content: none !important;
+}
+
+.segnalazione-privacy-page .form-check .checkbox-body label.title-small-semi-bold,
+.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check .checkbox-body label.title-small-semi-bold {
+  /* Reset BI: position:relative (not needed since we hide ::before/::after) */
+  position: static !important;
   font-size: 1rem !important;
   font-weight: 600 !important;
   color: #17324d !important;
@@ -2662,35 +2720,35 @@ h1.title-xxxlarge {
 /* ============================================================================
    26. PAGE-SPECIFIC PARITY: segnalazione-01-privacy
    ============================================================================ */
-body.page-tests-segnalazione-01-privacy #phpdebugbar,
-body.page-tests-segnalazione-01-privacy .phpdebugbar,
-body.page-tests-segnalazione-01-privacy [id^="phpdebugbar"] {
+.page-content[data-slug="tests.segnalazione-01-privacy"] #phpdebugbar,
+.page-content[data-slug="tests.segnalazione-01-privacy"] .phpdebugbar,
+.page-content[data-slug="tests.segnalazione-01-privacy"] [id^="phpdebugbar"] {
   display: none !important;
 }
 
-body.page-tests-segnalazione-01-privacy .cmp-breadcrumbs {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs {
   padding: 0.7rem 0 0.4rem !important;
 }
 
-body.page-tests-segnalazione-01-privacy .cmp-breadcrumbs .breadcrumb-item,
-body.page-tests-segnalazione-01-privacy .cmp-breadcrumbs .breadcrumb-item a,
-body.page-tests-segnalazione-01-privacy .cmp-breadcrumbs .separator {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs .breadcrumb-item,
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs .breadcrumb-item a,
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs .separator {
   font-size: 0.75rem !important;
   line-height: 1.5 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .title-xxxlarge {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .title-xxxlarge {
   font-size: 2.5rem !important;
   line-height: 1.2 !important;
   letter-spacing: -0.02em !important;
   margin-bottom: 1.55rem !important;
 }
 
-body.page-tests-segnalazione-01-privacy .steppers {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers {
   margin-bottom: 1.5rem !important;
 }
 
-body.page-tests-segnalazione-01-privacy .steppers-header {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header {
   display: grid !important;
   grid-template-columns: minmax(0, 1fr) auto !important;
   align-items: end !important;
@@ -2701,7 +2759,7 @@ body.page-tests-segnalazione-01-privacy .steppers-header {
   overflow: visible !important;
 }
 
-body.page-tests-segnalazione-01-privacy .steppers-header ul {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header ul {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   gap: 2rem !important;
@@ -2710,7 +2768,7 @@ body.page-tests-segnalazione-01-privacy .steppers-header ul {
   margin: 0 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .steppers-header li {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li {
   display: block !important;
   position: relative !important;
   min-width: 0 !important;
@@ -2724,17 +2782,17 @@ body.page-tests-segnalazione-01-privacy .steppers-header li {
   white-space: normal !important;
 }
 
-body.page-tests-segnalazione-01-privacy .steppers-header li.active {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.active {
   color: #007A52 !important;
   border-bottom: 2px solid #008758 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .steppers-header li.confirmed {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.confirmed {
   color: #008758 !important;
   border-bottom: 2px solid #8fd4b6 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .steppers-header .steppers-success {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header .steppers-success {
   width: 1rem !important;
   height: 1rem !important;
   color: #008758 !important;
@@ -2742,7 +2800,7 @@ body.page-tests-segnalazione-01-privacy .steppers-header .steppers-success {
   vertical-align: -0.12rem !important;
 }
 
-body.page-tests-segnalazione-01-privacy .steppers-index {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-index {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: flex-end !important;
@@ -2754,7 +2812,7 @@ body.page-tests-segnalazione-01-privacy .steppers-index {
   line-height: 1 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .text-paragraph {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .text-paragraph {
   color: #5C6F82 !important;
   font-family: 'Titillium Web' !important;
   font-size: 16px !important;
@@ -2764,30 +2822,30 @@ body.page-tests-segnalazione-01-privacy .text-paragraph {
   margin-bottom: 16px !important;
 }
 
-body.page-tests-segnalazione-01-privacy .text-paragraph + .text-paragraph {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .text-paragraph + .text-paragraph {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .form-check {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .form-check {
   margin-top: 40px !important;
   margin-bottom: 40px !important;
   padding: 0 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .checkbox-body {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body {
   gap: 0.6rem !important;
   padding: 0 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .checkbox-body input[type="checkbox"] {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body input[type="checkbox"] {
   width: 1.125rem !important;
   height: 1.125rem !important;
   margin-top: 0 !important;
   border: 1px solid #5b6f82 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .checkbox-body label {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body label {
   margin: 0 !important;
   padding-top: 0 !important;
   font-size: 1.125rem !important;
@@ -2796,7 +2854,7 @@ body.page-tests-segnalazione-01-privacy .checkbox-body label {
   font-weight: 600 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .btn.btn-primary.mobile-full {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .btn.btn-primary.mobile-full {
   min-width: 10.75rem !important;
   width: auto !important;
   padding: 0.7rem 2.15rem !important;
@@ -2809,9 +2867,9 @@ body.page-tests-segnalazione-01-privacy .btn.btn-primary.mobile-full {
 /* ============================================================================
    26.15 FONT PARITY — Override all conflicting text-paragraph rules
    Reference: Titillium Web, 16px, 24px line-height, color #191919 (nero)
-   Must beat: body.page-tests-segnalazione-01-privacy .text-paragraph
+   Must beat: .page-content[data-slug="tests.segnalazione-01-privacy"] .text-paragraph
    ============================================================================ */
-body.page-tests-segnalazione-01-privacy .text-paragraph {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .text-paragraph {
   color: #191919 !important;
   font-family: 'Titillium Web' !important;
   font-size: 16px !important;
@@ -2830,8 +2888,8 @@ body.page-tests-segnalazione-01-privacy .text-paragraph {
   margin-bottom: 16px !important;
 }
 
-body.page-tests-segnalazione-01-privacy p.lora,
-body.page-tests-segnalazione-01-privacy .lora.text-paragraph,
+.page-content[data-slug="tests.segnalazione-01-privacy"] p.lora,
+.page-content[data-slug="tests.segnalazione-01-privacy"] .lora.text-paragraph,
 .segnalazione-privacy-page p.lora,
 .segnalazione-privacy-page .lora.text-paragraph {
   font-family: 'Titillium Web' !important;
@@ -2844,14 +2902,14 @@ body.page-tests-segnalazione-01-privacy .lora.text-paragraph,
    26.16 CONTACTS CARD — Fix max-width (was 16.5rem = 264px, too narrow)
    Reference: ~592px wide card centered on grey background
    ============================================================================ */
-body.page-tests-segnalazione-01-privacy .bg-grey-card.shadow-contacts {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .bg-grey-card.shadow-contacts {
   margin-top: 2rem !important;
   padding: 3rem 0 !important;
   background: #f2f4f6 !important;
   box-shadow: none !important;
 }
 
-body.page-tests-segnalazione-01-privacy .p-contacts {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .p-contacts {
   flex: 0 0 100% !important;
   max-width: 100% !important;
   margin-left: 0 !important;
@@ -2861,13 +2919,13 @@ body.page-tests-segnalazione-01-privacy .p-contacts {
   padding-right: 12px !important;
 }
 
-body.page-tests-segnalazione-01-privacy .cmp-contacts {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts {
   padding: 0 !important;
   display: flex !important;
   justify-content: center !important;
 }
 
-body.page-tests-segnalazione-01-privacy .cmp-contacts .card {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .card {
   max-width: 592px !important;
   min-width: 320px !important;
   margin: 0 auto !important;
@@ -2877,41 +2935,41 @@ body.page-tests-segnalazione-01-privacy .cmp-contacts .card {
   background: #fff !important;
 }
 
-body.page-tests-segnalazione-01-privacy .cmp-contacts .card-body {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .card-body {
   padding: 2rem !important;
 }
 
-body.page-tests-segnalazione-01-privacy .cmp-contacts .title-medium-2-semi-bold {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .title-medium-2-semi-bold {
   font-size: 1rem !important;
   line-height: 1.25 !important;
   margin-bottom: 0.85rem !important;
 }
 
-body.page-tests-segnalazione-01-privacy .cmp-contacts .list-item {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .list-item {
   gap: 0.55rem !important;
   padding: 0.32rem 0 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .cmp-contacts .list-item span {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .list-item span {
   font-size: 0.75rem !important;
   line-height: 1.35 !important;
 }
 
-body.page-tests-segnalazione-01-privacy .cmp-contacts .icon {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .icon {
   width: 0.95rem !important;
   height: 0.95rem !important;
 }
 
 @media (max-width: 991px) {
-  body.page-tests-segnalazione-01-privacy .steppers-header {
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header {
     grid-template-columns: 1fr !important;
   }
 
-  body.page-tests-segnalazione-01-privacy .steppers-header ul {
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header ul {
     gap: 1rem !important;
   }
 
-  body.page-tests-segnalazione-01-privacy .steppers-index {
+  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-index {
     justify-content: flex-start !important;
     padding-bottom: 0 !important;
   }
@@ -2923,7 +2981,7 @@ body.page-tests-segnalazione-01-privacy .cmp-contacts .icon {
    ============================================================================ */
 
 /* segnalazione-area-personale: Titillium Web 16px/24px, color #191919 */
-body.page-tests-segnalazione-area-personale .text-paragraph {
+.page-content[data-slug="tests.segnalazione-area-personale"] .text-paragraph {
   font-family: 'Titillium Web' !important;
   font-size: 16px !important;
   font-weight: 400 !important;
@@ -2934,7 +2992,7 @@ body.page-tests-segnalazione-area-personale .text-paragraph {
 /* segnalazioni-elenco: no .text-paragraph elements - uses different structure */
 
 /* segnalazione-dettaglio: Lora serif 16px/24px, color #191919 */
-body.page-tests-segnalazione-dettaglio .text-paragraph {
+.page-content[data-slug="tests.segnalazione-dettaglio"] .text-paragraph {
   font-family: 'Lora', Georgia, serif !important;
   font-size: 16px !important;
   font-weight: 400 !important;
@@ -2943,7 +3001,7 @@ body.page-tests-segnalazione-dettaglio .text-paragraph {
 }
 
 /* segnalazione-03-riepilogo: Titillium Web 18px/27px, color #30475f */
-body.page-tests-segnalazione-03-riepilogo .text-paragraph {
+.page-content[data-slug="tests.segnalazione-03-riepilogo"] .text-paragraph {
   font-family: 'Titillium Web' !important;
   font-size: 18px !important;
   font-weight: 400 !important;
@@ -2967,8 +3025,8 @@ h1.title-xxxlarge {
 }
 
 /* segnalazione-01-privacy uses 24px margin-bottom for h1 */
-body.page-tests-segnalazione-01-privacy h1.title-xxxlarge,
-body.page-tests-segnalazione-crea h1.title-xxxlarge {
+.page-content[data-slug="tests.segnalazione-01-privacy"] h1.title-xxxlarge,
+.page-content[data-slug="tests.segnalazione-crea"] h1.title-xxxlarge {
   margin-bottom: 24px !important;
 }
 
@@ -3010,7 +3068,13 @@ button.btn.btn-primary.mobile-full:hover,
    Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-01-privacy.html
    ============================================================================ */
 
-body.page-tests-segnalazione-crea .steppers-header ul {
+/* Stepper: indicazione stato sola; nessun salto step da click (AC wizard) */
+.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .steppers-header li {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+
+.page-content[data-slug="tests.segnalazione-crea"] .steppers-header ul {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   gap: 2rem !important;
@@ -3019,7 +3083,7 @@ body.page-tests-segnalazione-crea .steppers-header ul {
   margin: 0 !important;
 }
 
-body.page-tests-segnalazione-crea .steppers-header li {
+.page-content[data-slug="tests.segnalazione-crea"] .steppers-header li {
   display: block !important;
   position: relative !important;
   min-width: 0 !important;
@@ -3033,44 +3097,44 @@ body.page-tests-segnalazione-crea .steppers-header li {
   white-space: normal !important;
 }
 
-body.page-tests-segnalazione-crea .steppers-header ul li {
+.page-content[data-slug="tests.segnalazione-crea"] .steppers-header ul li {
   color: #007A52 !important;
 }
 
-body.page-tests-segnalazione-crea .steppers-header ul li:hover {
+.page-content[data-slug="tests.segnalazione-crea"] .steppers-header ul li:hover {
   color: #007A52 !important;
 }
 
-body.page-tests-segnalazione-crea .steppers-header ul li.active {
+.page-content[data-slug="tests.segnalazione-crea"] .steppers-header ul li.active {
   color: #007A52 !important;
 }
 
-body.page-tests-segnalazione-crea .steppers-header ul li.confirmed {
+.page-content[data-slug="tests.segnalazione-crea"] .steppers-header ul li.confirmed {
   color: #007A52 !important;
 }
 
-body.page-tests-segnalazione-crea .steppers-header li.active {
+.page-content[data-slug="tests.segnalazione-crea"] .steppers-header li.active {
   color: #007A52 !important;
   border-bottom: 2px solid #008758 !important;
 }
 
-body.page-tests-segnalazione-crea .steppers-header li.confirmed {
+.page-content[data-slug="tests.segnalazione-crea"] .steppers-header li.confirmed {
   color: #007A52 !important;
   border-bottom-color: #008758 !important;
 }
 
-body.page-tests-segnalazione-crea .form-check {
+.page-content[data-slug="tests.segnalazione-crea"] .form-check {
   margin-top: 40px !important;
   margin-bottom: 40px !important;
   padding: 0 !important;
 }
 
-body.page-tests-segnalazione-crea .checkbox-body label {
+.page-content[data-slug="tests.segnalazione-crea"] .checkbox-body label {
   font-size: 1.125rem !important;
   color: #1a1a1a !important;
 }
 
-body.page-tests-segnalazione-crea h1.title-xxxlarge {
+.page-content[data-slug="tests.segnalazione-crea"] h1.title-xxxlarge {
   font-size: 3rem !important;
   font-weight: 700 !important;
   color: #191919 !important;
@@ -3080,14 +3144,14 @@ body.page-tests-segnalazione-crea h1.title-xxxlarge {
 /* ============================================================================
    27. SEGNALAZIONE-02-DATI — Visual parity fixes
    Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati.html
-   Date: 2026-04-09
+   Story 7-3: selettori allineati al Blade (steppers-btn-*, cmp-card, upload-wrapper).
    ============================================================================ */
 
 /* 27.1 Form inputs — underline-only style (border-bottom only) */
-body.page-tests-segnalazione-02-dati input[type="text"],
-body.page-tests-segnalazione-02-dati input[type="search"],
-body.page-tests-segnalazione-02-dati textarea,
-body.page-tests-segnalazione-02-dati select {
+input[type="text"],
+input[type="search"],
+textarea,
+select {
   border-top: 0 !important;
   border-right: 0 !important;
   border-left: 0 !important;
@@ -3099,44 +3163,40 @@ body.page-tests-segnalazione-02-dati select {
   color: #191919 !important;
 }
 
-body.page-tests-segnalazione-02-dati input[type="text"]:focus,
-body.page-tests-segnalazione-02-dati input[type="search"]:focus,
-body.page-tests-segnalazione-02-dati textarea:focus,
-body.page-tests-segnalazione-02-dati select:focus {
+input[type="text"]:focus,
+input[type="search"]:focus,
+textarea:focus,
+select:focus {
   border-bottom-color: #007a52 !important;
   outline: none !important;
   box-shadow: none !important;
 }
 
-/* 27.2 Form labels — proper sizing and color */
-body.page-tests-segnalazione-02-dati label {
+/* 27.2 Form labels — solo aree form (evita breadcrumb / navscroll) */
+.cmp-card .form-group label:not(.visually-hidden),
+.cmp-card .cmp-input__label,
+.cmp-text-area label {
   font-family: 'Titillium Web', sans-serif !important;
   font-size: 16px !important;
   color: #191919 !important;
   font-weight: 600 !important;
 }
 
-/* 27.3 Section cards — grey background with shadow */
-body.page-tests-segnalazione-02-dati .section-card,
-body.page-tests-segnalazione-02-dati .form-section {
-  background: #f0f2f5 !important;
-  padding: 2rem !important;
-  margin-bottom: 1.5rem !important;
+/* 27.3 Section cards — markup Blade: .cmp-card .card.has-bkg-grey */
+.cmp-card .card.has-bkg-grey {
   border-radius: 4px !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
 }
 
 /* 27.4 Section headings */
-body.page-tests-segnalazione-02-dati .section-card h2,
-body.page-tests-segnalazione-02-dati .form-section h2 {
+.cmp-card .card-header h2.title-xxlarge {
   font-size: 1.75rem !important;
   font-weight: 700 !important;
   color: #191919 !important;
   margin-bottom: 0.5rem !important;
 }
 
-/* 27.5 Buttons — proper layout */
-body.page-tests-segnalazione-02-dati .steppers-nav {
+/* 27.5 Stepper nav — layout */
+.steppers-nav {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
@@ -3144,18 +3204,19 @@ body.page-tests-segnalazione-02-dati .steppers-nav {
   margin-top: 2rem !important;
 }
 
-/* 27.6 "Indietro" button — text only with left arrow */
-body.page-tests-segnalazione-02-dati .btn-back {
+/* 27.6 Indietro — .steppers-btn-prev (anchor o button) */
+.steppers-nav .steppers-btn-prev {
   background: transparent !important;
   border: none !important;
   color: #007a52 !important;
   font-size: 1rem !important;
   font-weight: 600 !important;
   padding: 0 !important;
+  text-decoration: none !important;
 }
 
-/* 27.7 "Salva" button — outline style */
-body.page-tests-segnalazione-02-dati .btn-save {
+/* 27.7 Salva — .steppers-btn-save */
+.steppers-nav .steppers-btn-save {
   background: transparent !important;
   border: 1px solid #007a52 !important;
   color: #007a52 !important;
@@ -3164,8 +3225,8 @@ body.page-tests-segnalazione-02-dati .btn-save {
   font-weight: 600 !important;
 }
 
-/* 27.8 "Avanti" button — filled green with right arrow */
-body.page-tests-segnalazione-02-dati .btn-next {
+/* 27.8 Avanti — .steppers-btn-confirm */
+.steppers-nav .steppers-btn-confirm {
   background: #007a52 !important;
   border: none !important;
   color: #fff !important;
@@ -3173,28 +3234,32 @@ body.page-tests-segnalazione-02-dati .btn-next {
   padding: 8px 24px !important;
   font-weight: 600 !important;
   min-width: 120px !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
 }
 
 /* 27.9 Stepper — match segnalazione-01-privacy styling */
-body.page-tests-segnalazione-02-dati .steppers-header {
+.steppers-header {
   background: #fff !important;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.08) !important;
   border-radius: 4px !important;
   padding: 0 1.5rem !important;
 }
 
-body.page-tests-segnalazione-02-dati .steppers-header ul li.active {
+.steppers-header ul li.active {
   color: #007a52 !important;
   font-weight: 700 !important;
   border-bottom-color: #007a52 !important;
 }
 
-body.page-tests-segnalazione-02-dati .steppers-header ul li:not(.active):not(.confirmed) {
+.steppers-header ul li:not(.active):not(.confirmed) {
   color: #5c6f82 !important;
 }
 
-/* 27.10 File upload button */
-body.page-tests-segnalazione-02-dati .btn-file-upload {
+/* 27.10 Carica file — bottone primario in .btn-wrapper */
+.btn-wrapper .btn.btn-primary[type="button"] {
   background: #007a52 !important;
   color: #fff !important;
   border: none !important;
@@ -3208,7 +3273,7 @@ body.page-tests-segnalazione-02-dati .btn-file-upload {
 }
 
 /* 27.11 Contacts card — flat, no shadow */
-body.page-tests-segnalazione-02-dati .cmp-contacts .card {
+.cmp-contacts .card {
   box-shadow: none !important;
   border: none !important;
   border-radius: 0 !important;
@@ -3217,23 +3282,23 @@ body.page-tests-segnalazione-02-dati .cmp-contacts .card {
   margin: 0 auto !important;
 }
 
-/* 27.12 "I campi contraddistinti..." notice text */
-body.page-tests-segnalazione-02-dati .form-required-notice {
+/* 27.12 Nota campi obbligatori — riga sotto stepper (mobile) */
+.col-12 > .steppers + p.title-xsmall {
   font-size: 0.875rem !important;
   color: #5c6f82 !important;
   margin-bottom: 1.5rem !important;
 }
 
-/* 27.13 Helper text under inputs */
-body.page-tests-segnalazione-02-dati .form-text,
-body.page-tests-segnalazione-02-dati .help-text {
+/* 27.13 Testi di aiuto sotto i campi */
+.cmp-text-area span.label,
+.cmp-card .card-header .subtitle-small {
   font-size: 0.875rem !important;
   color: #5c6f82 !important;
   margin-top: 0.5rem !important;
 }
 
-/* 27.14 Image thumbnail in file upload */
-body.page-tests-segnalazione-02-dati .file-thumbnail {
+/* 27.14 Riga upload file — .upload-wrapper nel Blade */
+.upload-wrapper {
   display: flex !important;
   align-items: center !important;
   gap: 12px !important;
@@ -3244,46 +3309,176 @@ body.page-tests-segnalazione-02-dati .file-thumbnail {
   margin-bottom: 1rem !important;
 }
 
-/* 27.15 User card section */
-body.page-tests-segnalazione-02-dati .user-card {
+/* 27.15 Sezione autore — .cmp-info-button-card */
+#report-author .cmp-info-button-card > .card {
   background: #fff !important;
   border: 1px solid #e0e0e0 !important;
   border-radius: 4px !important;
-  padding: 1.5rem !important;
-  margin-top: 1rem !important;
 }
 
-body.page-tests-segnalazione-02-dati .user-card h3 {
+#report-author .cmp-info-button-card .big-title {
   font-size: 1.25rem !important;
   font-weight: 700 !important;
   color: #191919 !important;
   margin-bottom: 0.5rem !important;
 }
 
-/* 27.16 Contacts card links — green color to match reference */
-body.page-tests-segnalazione-02-dati .cmp-contacts a {
+/* 27.16 Contacts card links — verde reference */
+.cmp-contacts a {
   color: #007a52 !important;
 }
 
-body.page-tests-segnalazione-02-dati .cmp-contacts a:hover {
+.cmp-contacts a:hover {
   text-decoration: underline !important;
 }
 
-body.page-tests-segnalazione-02-dati .cmp-contacts .icon {
+.cmp-contacts .icon {
   fill: #007a52 !important;
   color: #007a52 !important;
 }
 
-/* 27.17 "Indietro" button — add left arrow icon */
-body.page-tests-segnalazione-02-dati .btn-back::before {
-  content: '‹ ' !important;
-  margin-right: 4px !important;
+/* 27.17 Indice sezioni mobile (sidebar assente sotto lg) */
+.cmp-page-index-mobile {
+  margin-bottom: 1.25rem !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
 }
 
-/* 27.18 "Avanti" button — add right arrow icon */
-body.page-tests-segnalazione-02-dati .btn-next::after {
-  content: ' ›' !important;
-  margin-left: 4px !important;
+.cmp-page-index-mobile__list {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 0.5rem !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.cmp-page-index-mobile__list li {
+  flex: 0 0 auto !important;
+}
+
+.cmp-page-index-mobile__list a {
+  display: inline-block !important;
+  padding: 0.35rem 0.75rem !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  color: #007a52 !important;
+  border: 1px solid #007a52 !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+}
+
+/* 27.18 Stepper — responsive tablet/mobile: solo passo attivo + contatore X/N
+   Reference: a < 992px mostra solo il li.active e il counter "2/3" sulla destra.
+   ATTENZIONE: il CSS globale §26.1 (righe ~2049-2063) nasconde .steppers-index
+   su tutti i breakpoint con !important — qui lo riabilitiamo con specificità maggiore
+   (prefix) e tutti gli override necessari.
+*/
+@media (max-width: 991.98px) {
+  /* FIX: Show ALL steps in stepper header (reference shows all steps, not just active) */
+  .steppers-header ul li:not(.active) {
+    display: flex !important;
+  }
+
+  /* Keep steppers-index visible */
+  .steppers-index {
+    display: inline !important;
+    position: static !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+    clip: auto !important;
+    clip-path: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    font-size: 0.875rem !important;
+    color: #5c6f82 !important;
+    margin-left: auto !important;
+    white-space: nowrap !important;
+  }
+
+  /* Stepper container: no scroll (c'è solo 1 item visibile), allow height to grow if text wraps */
+  .steppers-header {
+    overflow-x: visible !important;
+    -webkit-overflow-scrolling: auto !important;
+    height: auto !important;
+    min-height: 64px !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  /* Passo attivo: occupa lo spazio disponibile, allow text wrap */
+  .steppers-header ul {
+    flex-wrap: nowrap !important;
+  }
+
+  .steppers-header ul li.active {
+    flex: 1 !important;
+    padding: 0.5rem 1rem !important;
+    white-space: normal !important;
+    line-height: 1.2 !important;
+  }
+}
+
+/* 27.18b Stepper — mobile < 576px: compatto */
+@media (max-width: 575.98px) {
+  .steppers-header ul li.active {
+    padding: 0.75rem 1rem !important;
+    font-size: 0.875rem !important;
+  }
+
+  .steppers-header {
+    padding: 0 1rem !important;
+  }
+}
+
+/* 27.19 Pulsanti passo — griglia su viewport stretti */
+@media (max-width: 991.98px) {
+  .steppers-nav {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.75rem !important;
+    align-items: stretch !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .steppers-nav .steppers-btn-save {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+  }
+
+  .steppers-nav .steppers-btn-prev,
+  .steppers-nav .steppers-btn-confirm {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+}
+
+/* 27.20 Titolo e card — proporzioni mobile */
+@media (max-width: 767.98px) {
+  .cmp-heading h1.title-xxxlarge {
+    font-size: 1.75rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .cmp-card .card.has-bkg-grey {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .upload-wrapper {
+    flex-wrap: wrap !important;
+  }
+}
+
+/* 27.21 Blocco contatti — padding orizzontale */
+@media (max-width: 575.98px) {
+  .bg-grey-card.shadow-contacts .p-contacts {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
 }
 
 /* ============================================================================
@@ -3293,9 +3488,9 @@ body.page-tests-segnalazione-02-dati .btn-next::after {
    ============================================================================ */
 
 /* 28.1 Tabs — active green with border-bottom, inactive dark */
-body.page-tests-segnalazione-area-personale .nav-tabs .nav-link,
-body.page-tests-segnalazione-area-personale .nav-pills .nav-link,
-body.page-tests-segnalazione-area-personale .nav-link.active {
+.page-content[data-slug="tests.segnalazione-area-personale"] .nav-tabs .nav-link,
+.page-content[data-slug="tests.segnalazione-area-personale"] .nav-pills .nav-link,
+.page-content[data-slug="tests.segnalazione-area-personale"] .nav-link.active {
   font-size: 16px !important;
   font-weight: 600 !important;
   color: #007a52 !important;
@@ -3303,17 +3498,17 @@ body.page-tests-segnalazione-area-personale .nav-link.active {
   border-radius: 0 !important;
 }
 
-body.page-tests-segnalazione-area-personale .nav-tabs .nav-link:not(.active),
-body.page-tests-segnalazione-area-personale .nav-pills .nav-link:not(.active),
-body.page-tests-segnalazione-area-personale .nav-link:not(.active) {
+.page-content[data-slug="tests.segnalazione-area-personale"] .nav-tabs .nav-link:not(.active),
+.page-content[data-slug="tests.segnalazione-area-personale"] .nav-pills .nav-link:not(.active),
+.page-content[data-slug="tests.segnalazione-area-personale"] .nav-link:not(.active) {
   color: #191919 !important;
   border-bottom: 3px solid transparent !important;
 }
 
 /* 28.2 Section headings — 40px, bold, not italic */
-body.page-tests-segnalazione-area-personale h2,
-body.page-tests-segnalazione-area-personale .title-xlarge,
-body.page-tests-segnalazione-area-personale .section-title {
+.page-content[data-slug="tests.segnalazione-area-personale"] h2,
+.page-content[data-slug="tests.segnalazione-area-personale"] .title-xlarge,
+.page-content[data-slug="tests.segnalazione-area-personale"] .section-title {
   font-size: 40px !important;
   font-weight: 700 !important;
   font-style: normal !important;
@@ -3322,75 +3517,75 @@ body.page-tests-segnalazione-area-personale .section-title {
 }
 
 /* 28.3 Cards — no border-radius, specific shadow */
-body.page-tests-segnalazione-area-personale .card {
+.page-content[data-slug="tests.segnalazione-area-personale"] .card {
   border-radius: 0 !important;
   border: none !important;
   background: #fff !important;
 }
 
-body.page-tests-segnalazione-area-personale .card-teaser,
-body.page-tests-segnalazione-area-personale .card.shadow {
+.page-content[data-slug="tests.segnalazione-area-personale"] .card-teaser,
+.page-content[data-slug="tests.segnalazione-area-personale"] .card.shadow {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.075) !important;
 }
 
-body.page-tests-segnalazione-area-personale .card-teaser-lg {
+.page-content[data-slug="tests.segnalazione-area-personale"] .card-teaser-lg {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* 28.4 User name header */
-body.page-tests-segnalazione-area-personale .user-name {
+.page-content[data-slug="tests.segnalazione-area-personale"] .user-name {
   font-size: 48px !important;
   font-weight: 700 !important;
   color: #191919 !important;
 }
 
 /* 28.5 Message list items */
-body.page-tests-segnalazione-area-personale .message-item {
+.page-content[data-slug="tests.segnalazione-area-personale"] .message-item {
   border-bottom: 1px solid #e0e0e0 !important;
   padding: 1rem 0 !important;
 }
 
-body.page-tests-segnalazione-area-personale .message-item .message-title {
+.page-content[data-slug="tests.segnalazione-area-personale"] .message-item .message-title {
   color: #007a52 !important;
   font-weight: 600 !important;
   font-size: 1rem !important;
 }
 
-body.page-tests-segnalazione-area-personale .message-item .message-date {
+.page-content[data-slug="tests.segnalazione-area-personale"] .message-item .message-date {
   color: #5c6f82 !important;
   font-size: 0.875rem !important;
 }
 
 /* 28.6 Activity cards */
-body.page-tests-segnalazione-area-personale .activity-card {
+.page-content[data-slug="tests.segnalazione-area-personale"] .activity-card {
   padding: 1.5rem !important;
   background: #fff !important;
 }
 
-body.page-tests-segnalazione-area-personale .activity-card .activity-title {
+.page-content[data-slug="tests.segnalazione-area-personale"] .activity-card .activity-title {
   color: #007a52 !important;
   font-weight: 600 !important;
 }
 
-body.page-tests-segnalazione-area-personale .activity-card .activity-date {
+.page-content[data-slug="tests.segnalazione-area-personale"] .activity-card .activity-date {
   color: #5c6f82 !important;
   font-size: 0.875rem !important;
 }
 
 /* 28.7 Contacts card — flat */
-body.page-tests-segnalazione-area-personale .cmp-contacts .card {
+.page-content[data-slug="tests.segnalazione-area-personale"] .cmp-contacts .card {
   box-shadow: none !important;
   border: none !important;
   border-radius: 0 !important;
   background: #fff !important;
 }
 
-body.page-tests-segnalazione-area-personale .cmp-contacts a {
+.page-content[data-slug="tests.segnalazione-area-personale"] .cmp-contacts a {
   color: #007a52 !important;
 }
 
 /* 28.8 "Vedi altri messaggi" button */
-body.page-tests-segnalazione-area-personale .btn-view-more {
+.page-content[data-slug="tests.segnalazione-area-personale"] .btn-view-more {
   background: #007a52 !important;
   color: #fff !important;
   border: none !important;
@@ -3458,8 +3653,8 @@ button.btn-primary:not(.dropdown-toggle):not(.navbar-toggler):not(.close-menu):n
    ============================================================================ */
 
 /* h1 title - REF 48px/60px/700 → ensure override of all previous rules */
-body.page-tests-segnalazione-01-privacy h1,
-body.page-tests-segnalazione-01-privacy h1.title-xxxlarge {
+.page-content[data-slug="tests.segnalazione-01-privacy"] h1,
+.page-content[data-slug="tests.segnalazione-01-privacy"] h1.title-xxxlarge {
   font-size: 48px !important;
   line-height: 60px !important;
   font-weight: 700 !important;
@@ -3469,8 +3664,8 @@ body.page-tests-segnalazione-01-privacy h1.title-xxxlarge {
 }
 
 /* h2 title - REF 24px/30px/600 */
-body.page-tests-segnalazione-01-privacy h2,
-body.page-tests-segnalazione-01-privacy h2.title-medium-2-semi-bold {
+.page-content[data-slug="tests.segnalazione-01-privacy"] h2,
+.page-content[data-slug="tests.segnalazione-01-privacy"] h2.title-medium-2-semi-bold {
   font-size: 24px !important;
   line-height: 30px !important;
   font-weight: 600 !important;
@@ -3479,8 +3674,8 @@ body.page-tests-segnalazione-01-privacy h2.title-medium-2-semi-bold {
 }
 
 /* Paragraph - REF 16px/24px/400 */
-body.page-tests-segnalazione-01-privacy p,
-body.page-tests-segnalazione-01-privacy p.text-paragraph {
+.page-content[data-slug="tests.segnalazione-01-privacy"] p,
+.page-content[data-slug="tests.segnalazione-01-privacy"] p.text-paragraph {
   font-size: 16px !important;
   line-height: 24px !important;
   font-weight: 400 !important;
@@ -3489,9 +3684,9 @@ body.page-tests-segnalazione-01-privacy p.text-paragraph {
 }
 
 /* Button - REF 16px/24.88px/600, green bg, 12px 24px padding */
-body.page-tests-segnalazione-01-privacy .btn,
-body.page-tests-segnalazione-01-privacy .btn-primary,
-body.page-tests-segnalazione-01-privacy button.btn-primary {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .btn,
+.page-content[data-slug="tests.segnalazione-01-privacy"] .btn-primary,
+.page-content[data-slug="tests.segnalazione-01-privacy"] button.btn-primary {
   font-size: 16px !important;
   line-height: 24.88px !important;
   font-weight: 600 !important;
@@ -3503,7 +3698,7 @@ body.page-tests-segnalazione-01-privacy button.btn-primary {
 }
 
 /* Card - REF white bg, no padding, no shadow */
-body.page-tests-segnalazione-01-privacy .card {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .card {
   background-color: rgb(255, 255, 255) !important;
   padding: 0 !important;
   border: none !important;
@@ -3512,7 +3707,7 @@ body.page-tests-segnalazione-01-privacy .card {
 }
 
 /* List item - REF 16px/32px, white text on green bg */
-body.page-tests-segnalazione-01-privacy .list-item {
+.page-content[data-slug="tests.segnalazione-01-privacy"] .list-item {
   font-size: 16px !important;
   line-height: 32px !important;
   color: rgb(255, 255, 255) !important;
@@ -3520,14 +3715,398 @@ body.page-tests-segnalazione-01-privacy .list-item {
 }
 
 /* Links - REF green, no bg */
-body.page-tests-segnalazione-01-privacy a {
+.page-content[data-slug="tests.segnalazione-01-privacy"] a {
   background-color: transparent !important;
   color: rgb(0, 122, 82) !important;
   padding: 0 !important;
 }
 
 /* Body text color - exact match */
-body.page-tests-segnalazione-01-privacy {
+.page-content[data-slug="tests.segnalazione-01-privacy"] {
   color: rgb(25, 25, 25) !important;
   background-color: rgb(255, 255, 255) !important;
+}
+
+/* ============================================================================
+   SEGNALAZIONE-02-DATI SPECIFIC FIXES
+   Based on computed styles deep-dive analysis
+   ============================================================================ */
+
+/* Steppers header: active item font */
+.steppers-header li.active {
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+
+.steppers-header ul li {
+  line-height: normal !important;
+}
+
+.steppers-index {
+  color: rgb(93, 112, 131) !important;
+}
+
+/* Card header: transparent bg */
+.card-header.border-0 {
+  background-color: transparent !important;
+}
+
+/* Form elements: select and input colors */
+select#inefficiency,
+.u-grey-dark {
+  font-weight: 400 !important;
+  color: rgb(25, 25, 25) !important;
+}
+
+input#title,
+textarea#details,
+.text-area {
+  color: rgb(93, 112, 131) !important;
+}
+
+/* Upload section button */
+.btn-wrapper .btn-primary {
+  font-weight: 600 !important;
+  line-height: 24px !important;
+}
+
+.btn-wrapper p.title-xsmall {
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: rgb(90, 118, 138) !important;
+}
+
+/* Navigation buttons */
+.steppers-nav .steppers-btn-prev,
+.steppers-nav .steppers-btn-save,
+.steppers-nav .steppers-btn-confirm {
+  font-size: 14px !important;
+  line-height: 24.88px !important;
+}
+
+.steppers-nav .steppers-btn-prev {
+  color: rgb(0, 102, 204) !important;
+  background-color: transparent !important;
+}
+
+/* Contacts card h2 */
+.cmp-contacts .card-body h2.title-medium-2-semi-bold {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 30px !important;
+}
+
+/* Contact list items */
+.cmp-contacts .contact-list .list-item {
+  font-weight: 400 !important;
+  color: rgb(0, 122, 82) !important;
+}
+
+/* ============================================================================
+   27.19 HEADER MOBILE — Hamburger a sinistra, logo centrato, cerca a destra
+   Reference: Design Comuni mobile header — tutto su UNA sola riga.
+   
+   ROOT CAUSE ANALYSIS: 
+   - DOM: nav-wrapper > [center-wrapper (logo), navbar-wrapper (hamburger)]
+   - Il navbar-wrapper ha bg verde sulla .navbar che COPRE il center-wrapper
+   - center-wrapper ha z-index 10 ma è DOPO navbar-wrapper nel DOM stacking
+   - La .navbar ha position: relative che crea stacking context!
+   
+   FIX: uso grid per sovrapporre. nav-wrapper grid, entrambi i figli nella 
+   stessa cell. Navbar-wrapper z-index 1 (solo hamburger), center-wrapper 
+   z-index 20 (sopra). Il verde resta sulla .navbar ma z-index risolve.
+   ============================================================================ */
+
+@media (max-width: 991.98px) {
+  /* Nav wrapper: grid per sovrapporre i figli */
+  .it-nav-wrapper {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto !important;
+  }
+
+  /* === NAVBAR WRAPPER: grid cell 1, z-index 1, contiene hamburger === */
+  .it-header-navbar-wrapper {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    z-index: 1 !important;
+  }
+
+  .it-header-navbar-wrapper .container,
+  .it-header-navbar-wrapper .row,
+  .it-header-navbar-wrapper .col-12 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .it-header-navbar-wrapper .navbar {
+    min-height: 5rem !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  /* Hamburger: a sinistra */
+  .it-header-navbar-wrapper .custom-navbar-toggler {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: relative !important;
+    z-index: 30 !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    min-width: 3rem !important;
+    padding: 0.5rem !important;
+    margin: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0.25rem !important;
+    color: #fff !important;
+  }
+
+  .it-header-navbar-wrapper .custom-navbar-toggler:hover {
+    background: rgba(255, 255, 255, 0.15) !important;
+  }
+
+  .it-header-navbar-wrapper .custom-navbar-toggler .icon {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    fill: #fff !important;
+  }
+
+  /* Overlay panel: visibility is controlled by Alpine x-show, not by page-scoped display:none rules */
+  .it-header-navbar-wrapper .navbar-overlay {
+    z-index: 1040 !important;
+  }
+
+  .it-header-navbar-wrapper .navbar-collapsable {
+    z-index: 1050 !important;
+  }
+
+  /* === CENTER WRAPPER: grid cell 1, z-index 20, SOPRA navbar === */
+  .it-header-center-wrapper {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    z-index: 20 !important;
+    /* Pointer events none per NON bloccare hamburger sotto */
+    pointer-events: none !important;
+  }
+
+  .it-header-center-wrapper .container,
+  .it-header-center-wrapper .row,
+  .it-header-center-wrapper .col-12 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Center content: flex row */
+  .it-header-center-content-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 0.75rem !important;
+    min-height: 5rem !important;
+    padding-left: 3.5rem !important;
+    padding-right: 3.5rem !important;
+  }
+
+  /* Brand */
+  .it-header-center-content-wrapper .it-brand-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    flex: 0 1 auto !important;
+    min-width: 0 !important;
+    pointer-events: auto !important; /* Riabilita click su brand */
+  }
+
+  .it-header-center-content-wrapper .it-brand-wrapper a {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    min-width: 0 !important;
+  }
+
+  .it-header-center-content-wrapper .it-brand-wrapper svg {
+    flex-shrink: 0 !important;
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+  }
+
+  .it-header-center-content-wrapper .it-brand-text {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    line-height: 1.2 !important;
+    min-width: 0 !important;
+  }
+
+  .it-header-center-content-wrapper .it-brand-title {
+    font-size: 1.125rem !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+    line-height: 1.2 !important;
+    white-space: nowrap !important;
+  }
+
+  .it-header-center-content-wrapper .it-brand-tagline {
+    display: block !important;
+    margin-top: 0.125rem !important;
+    font-size: 0.75rem !important;
+    line-height: 1.15 !important;
+    color: rgba(255, 255, 255, 0.88) !important;
+  }
+
+  /* Right zone: cerca */
+  .it-header-center-content-wrapper .it-right-zone {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.25rem !important;
+    flex-shrink: 0 !important;
+    margin-left: auto !important;
+    pointer-events: auto !important; /* Riabilita click su cerca */
+  }
+
+  .it-header-center-content-wrapper .it-socials {
+    display: none !important;
+  }
+
+  .it-header-center-content-wrapper .it-search-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.25rem !important;
+    margin-left: auto !important;
+  }
+
+  .it-header-center-content-wrapper .it-search-wrapper > span {
+    display: none !important;
+  }
+
+  .it-header-center-content-wrapper .it-search-wrapper .search-link {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+    border-radius: 50% !important;
+    background: #fff !important;
+    border: none !important;
+    padding: 0 !important;
+    pointer-events: auto !important;
+  }
+
+  .it-header-center-content-wrapper .it-search-wrapper .search-link .icon {
+    width: 1.125rem !important;
+    height: 1.125rem !important;
+    fill: #5c6f82 !important;
+  }
+
+  /* Slim header language/account: keep a single visible chevron */
+  .it-header-slim-wrapper .dropdown-toggle {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.375rem !important;
+  }
+
+  .it-header-slim-wrapper .dropdown-toggle::after {
+    display: none !important;
+  }
+
+  .it-header-slim-wrapper .dropdown-toggle .icon {
+    width: 0.875rem !important;
+    height: 0.875rem !important;
+    flex-shrink: 0 !important;
+  }
+
+  p.title-xsmall.d-lg-none.my-5 {
+    display: block !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 2rem !important;
+    color: #17324d !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .it-header-center-content-wrapper {
+    min-height: 5.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  .it-header-center-content-wrapper .it-brand-tagline {
+    display: block !important;
+    font-size: 0.9375rem !important;
+    line-height: 1.35 !important;
+    margin-top: 0.125rem !important;
+  }
+
+  .it-header-center-content-wrapper .it-search-wrapper > span {
+    display: block !important;
+    font-size: 0.9375rem !important;
+    line-height: 1 !important;
+  }
+}
+
+/* 27.22 Header/content spacing — avoid page title clipping under mobile/tablet header */
+@media (max-width: 991.98px) {
+  #main-container {
+    padding-top: 0.875rem !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #main-container {
+    padding-top: 1.125rem !important;
+  }
+}
+
+/* 27.23 Header flow height — keep center header row in document flow on tablet/mobile */
+@media (max-width: 991.98px) {
+  .it-nav-wrapper {
+    min-height: 120px !important;
+  }
+}
+
+
+@media (max-width: 991.98px) {
+  .it-header-navbar-wrapper .navbar {
+    position: relative !important;
+  }
+
+  .it-header-navbar-wrapper .custom-navbar-toggler {
+    position: absolute !important;
+    left: 0.75rem !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .it-navscroll-wrapper .accordion-body {
+    display: block !important;
+    padding: 0.75rem 0 0 !important;
+  }
+
+  .it-navscroll-wrapper .link-list {
+    display: block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .it-navscroll-wrapper .link-list .nav-item {
+    display: block !important;
+    margin: 0 0 0.25rem !important;
+  }
+
+  .it-navscroll-wrapper .link-list .nav-link {
+    display: block !important;
+    padding: 0.5rem 0 !important;
+    color: #007a52 !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+  }
 }

@@ -35,7 +35,7 @@
             @livewireStyles
         @endif
         @if($isTestsRoute && ! $usesFrontendLivewire)
-            @vite(['resources/css/app.css', 'resources/js/app.js'], 'themes/Sixteen')
+            @vite(['resources/css/app.css'], 'themes/Sixteen')
         @elseif($isTestsRoute)
             @vite(['resources/css/app.css'], 'themes/Sixteen')
         @else
@@ -43,10 +43,7 @@
             <link rel="stylesheet" type="text/css" href="{{ asset('vendor/cookie-consent/css/cookie-consent.css') }}">
         @endif
     </head>
-    <body @class([
-        'dc-homepage-parity' => $isHomepageParity,
-        'page-tests-' . (request()->route('slug') ?? '') => $isTestsRoute,
-    ])>
+    <body>
         {{ $slot }}
         @if($renderRuntimeChrome)
             <livewire:toast />
@@ -55,6 +52,9 @@
             @vite(['resources/js/app.js'], 'themes/Sixteen')
         @elseif($usesFrontendLivewire)
             @livewireScripts
+        @elseif($isTestsRoute)
+            {{-- Test routes: load theme JS after Livewire/Volt boots Alpine --}}
+            @vite(['resources/js/app.js'], 'themes/Sixteen')
         @endif
 
         <script>

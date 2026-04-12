@@ -56,3 +56,13 @@
 
 - **CRITICAL: Memory Bank Structure.** Project memory in `memory-bank/` directory: projectbrief.md, productContext.md, systemPatterns.md, techContext.md, activeContext.md, progress.md. Use `memory-bank-mcp` CLI to manage. DO NOT duplicate memory content in other docs folders.
 
+- **CRITICAL: AI Docs Split Structure.** Large AI assistant docs (AGENTS.md, CLAUDE.md, GEMINI.md) are split into focused files under `docs/ai-agents/split/` with bidirectional cross-references:
+  - `docs/ai-agents/split/INDEX.md` — Master index linking all split files
+  - `docs/ai-agents/split/agents/` — 10 BMad agent definitions
+  - `docs/ai-agents/split/tasks/` — 22 BMad task definitions  
+  - `docs/ai-agents/split/claude/` — 20 Laravel Boost sections
+  - `docs/ai-agents/split/gemini/` — 13 Gemini sections
+  - Original files kept at root with split reference headers
+  - Every split file has footer with links back to its index + master index + original
+  - When adding new split content: create in appropriate subdir, add to section INDEX.md, add bidirectional links
+
