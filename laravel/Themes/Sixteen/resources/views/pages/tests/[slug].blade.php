@@ -18,14 +18,15 @@ new class extends Component {
     /** @var array<string, mixed> */
     public array $data = [];
 
+    /** @var array<int, object> */
+    public array $blocks = [];
+
     public function mount(string $slug = ''): void
     {
         $this->slug = $slug;
         $this->pageSlug = $slug ? 'tests.'.$slug : 'tests';
-
-        $this->data = [
-            'slug' => $slug,
-        ];
+        $this->data = ['slug' => $slug];
+        $this->blocks = Page::getBlocksBySlug($this->pageSlug, 'content');
     }
 };
 ?>
@@ -33,13 +34,8 @@ new class extends Component {
 <x-layouts.app>
     @volt('tests.view')
     <div class="tests-view-wrapper">
-        @php
-            $blocks = Page::getBlocksBySlug($this->pageSlug, 'content');
-        @endphp
-
-        {{-- HTML parity: NO extra wrapper divs - component outputs exact reference structure --}}
         @foreach($blocks as $block)
-            @include($block->view, array_merge($this->data, ['data' => $block->data]))
+            @include($block->view, array_merge($data, ['data' => $block->data]))
         @endforeach
     </div>
     @endvolt
