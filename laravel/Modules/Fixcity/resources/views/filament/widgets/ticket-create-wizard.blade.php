@@ -124,7 +124,7 @@
                                         <select id="issueType" wire:model="issueType" class="u-grey-dark @error('issueType') is-invalid @enderror" required>
                                             <option value="">{{ __('fixcity::segnalazione.fields.type.label') }}</option>
                                             @foreach($issueTypeOptions as $value => $label)
-                                                <option value="{{ $value }}" @selected($issueType === $value)>{{ $label }}</option>
+                                                <option value="{{ $value }}" @selected($issueType === $value)>{{ is_array($label) ? ($label['label'] ?? $value) : $label }}</option>
                                             @endforeach
                                         </select>
                                         @error('issueType')
@@ -175,7 +175,7 @@
                                     <div class="d-flex">
                                         <h2 class="title-xxlarge mb-1">{{ __('fixcity::segnalazione.fields.images.label') }}</h2>
                                     </div>
-                                    <p class="subtitle-small mb-0">{{ __('fixcity::segnalazione.fields.images.description') }}</p>
+                                    <p class="subtitle-small mb-0">{{ __('fixcity::segnalazione.fields.images.description.label') }}</p>
                                 </div>
                                 <div class="card-body p-0">
                                     <div class="btn-wrapper px-3 pt-2 pb-3 px-lg-4 pb-lg-4 pt-lg-0 bg-white">
@@ -324,7 +324,7 @@
                                                 @if($issueType)
                                                     <div class="single-line-info border-light">
                                                         <div class="text-paragraph-small">{{ __('fixcity::segnalazione.fields.type.label') }}</div>
-                                                        <div class="border-light"><p class="data-text">{{ $issueTypeOptions[$issueType] ?? $issueType }}</p></div>
+                                                        <div class="border-light"><p class="data-text">{{ is_array($issueTypeOptions[$issueType] ?? null) ? ($issueTypeOptions[$issueType]['label'] ?? $issueType) : ($issueTypeOptions[$issueType] ?? $issueType) }}</p></div>
                                                     </div>
                                                 @endif
                                                 @if($title)
