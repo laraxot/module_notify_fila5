@@ -2253,7 +2253,61 @@ section.py-4 {
   font-family: 'Titillium Web', sans-serif;
 }
 
-/* Stepper divider line between steps (desktop) */
+/* ============================================
+   MOBILE (< 992px): Show ONLY active step + index
+   Reference shows: "Dati di segnalazione    2/3"
+   ============================================ */
+@media (max-width: 991px) {
+  /* Hide all non-active steps on mobile */
+  .steppers-header li:not(.active) {
+    @apply hidden;
+  }
+
+  /* Active step: show as single line with index on right */
+  .steppers-header ul {
+    @apply flex-row items-center justify-between overflow-visible;
+  }
+
+  .steppers-header li.active {
+    @apply flex items-center justify-between w-full pr-0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--bs-primary, #00695c);
+  }
+
+  /* Hide number circle on mobile - show only text */
+  .steppers-header li.active .steppers-number {
+    @apply hidden;
+  }
+
+  /* Hide success icon on mobile */
+  .steppers-header li.active .steppers-success {
+    @apply hidden;
+  }
+
+  /* Show visually-hidden text as visible label on mobile */
+  .steppers-header li.active .visually-hidden {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: nowrap;
+    clip-path: none;
+  }
+
+  /* Index on right side of active step */
+  .steppers-index {
+    @apply text-sm font-normal ml-4 mt-0;
+    color: var(--bs-gray-600, #5c6f82);
+  }
+}
+
+/* ============================================
+   DESKTOP (≥ 992px): Full horizontal stepper
+   ============================================ */
 @media (min-width: 992px) {
   .steppers-header ul {
     @apply overflow-visible;
@@ -2275,25 +2329,6 @@ section.py-4 {
 
   .steppers-index {
     @apply text-right mt-0;
-  }
-}
-
-/* Mobile: show step indicator text instead of full stepper */
-@media (max-width: 991px) {
-  .steppers-header ul {
-    @apply gap-0;
-  }
-
-  .steppers-header li {
-    @apply pr-2 text-xs;
-  }
-
-  .steppers-number {
-    @apply w-5 h-5 text-xs;
-  }
-
-  .steppers-success {
-    @apply w-5 h-5;
   }
 }
 
