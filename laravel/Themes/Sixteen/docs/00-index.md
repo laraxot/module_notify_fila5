@@ -26,6 +26,7 @@
 - Story 1-4: [segnalazione-crea Header Parity + Stepper Responsive](../../../.planning/stories/1-4-segnalazione-crea-header-parity-stepper-responsive.md)
 - Story 1-5: [Geolocalizzazione "Usa la tua posizione" + Step Navigation](../../../.planning/stories/1-5-geolocation-step-navigation-segnalazione-crea.md)
 - Story 1-6: [Refactor Wizard — NO Filament Schemas, NO hardcoded blade](../../../.planning/stories/1-6-refactor-wizard-no-filament-schemas-no-hardcoded-blade.md)
+- Story 1-7: [Token-Efficient Agent Setup](../../../.planning/stories/1-7-token-efficient-agent-setup.md)
 
 ### CSS/JS Parity Phase
 - Story BMAD (parity **segnalazione-02-dati** HTML/visual): [7-3 segnalazione-02-dati html visual parity](../../../../_bmad-output/implementation-artifacts/7-3-segnalazione-02-dati-html-visual-parity.md)

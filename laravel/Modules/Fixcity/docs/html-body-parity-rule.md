@@ -48,4 +48,5 @@ See also:
 - **Story 1-4**: [segnalazione-crea Header Parity + Stepper Responsive](../../.planning/stories/1-4-segnalazione-crea-header-parity-stepper-responsive.md) — hamburger centering, "Cerca" visibility, language dropdown, stepper wizard responsive
 - **Story 1-5**: [Geolocalizzazione + Step Navigation](../../.planning/stories/1-5-geolocation-step-navigation-segnalazione-crea.md) — "Usa la tua posizione" geolocation, Nominatim reverse geocoding, ?step=N URL navigation
 - **Story 1-6**: [Refactor Wizard — NO Filament Schemas, NO hardcoded blade](../../.planning/stories/1-6-refactor-wizard-no-filament-schemas-no-hardcoded-blade.md) — Remove Wizard::make(), pure Livewire $currentStep, Design Comuni HTML parity, blade conditional rendering
+- **Story 1-7**: [Token-Efficient Agent Setup](../../.planning/stories/1-7-token-efficient-agent-setup.md) — QWEN.md as single source of truth, deduplicate docs, token reduction strategies
 - [Master Index](../../../docs/MODULE_DOCS_INDEX.md)
