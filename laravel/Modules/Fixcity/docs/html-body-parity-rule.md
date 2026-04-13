@@ -46,4 +46,5 @@ See also:
 
 - **Story 1-3**: [Stepper Responsive + No Italian + Body Plain](../../.planning/stories/1-3-segnalazione-02-dati-stepper-responsive-no-italian-body-plain.md) — segnalazione-02-dati stepper CSS responsive, no hardcoded Italian, body plain
 - **Story 1-4**: [segnalazione-crea Header Parity + Stepper Responsive](../../.planning/stories/1-4-segnalazione-crea-header-parity-stepper-responsive.md) — hamburger centering, "Cerca" visibility, language dropdown, stepper wizard responsive
+- **Story 1-5**: [Geolocalizzazione + Step Navigation](../../.planning/stories/1-5-geolocation-step-navigation-segnalazione-crea.md) — "Usa la tua posizione" geolocation, Nominatim reverse geocoding, ?step=N URL navigation
 - [Master Index](../../../docs/MODULE_DOCS_INDEX.md)

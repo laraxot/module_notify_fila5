@@ -13,6 +13,9 @@
 
 ### Unified Ticket Wizard
 - [../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md](../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md) - Design and architecture of the unified ticket creation wizard.
+- Story BMAD (parity step 1: label **Autorizzazioni e condizioni**, CTA `mobile-full`, header/search con 7-29): [7-32](../../../../_bmad-output/implementation-artifacts/7-32-segnalazione-crea-design-comuni-step1-cta-stepper-labels-header-parity.md)
+- Story BMAD (step 2: **Usa la tua posizione**, coordinate Ticket, `?step=2`): [7-33](../../../../_bmad-output/implementation-artifacts/7-33-segnalazione-crea-step2-geolocation-use-my-location-and-step-query.md)
+- Story BMAD (refactor **Filament Schema Wizard** v5 al posto del Blade monolitico): [7-34](../../../../_bmad-output/implementation-artifacts/7-34-create-ticket-wizard-filament-schema-wizard-refactor.md)
 
 ### HTML parity — body minimale e scoping parity-safe
 - [BODY_CLASS_RULE.md](./BODY_CLASS_RULE.md) — il `<body>` deve restare plain, senza classi custom.
@@ -21,6 +24,7 @@
 - Modulo Fixcity rule: [../../../Modules/Fixcity/docs/html-body-parity-rule.md](../../../Modules/Fixcity/docs/html-body-parity-rule.md)
 - Story 1-3: [Stepper Responsive + No Italian + Body Plain](../../../.planning/stories/1-3-segnalazione-02-dati-stepper-responsive-no-italian-body-plain.md)
 - Story 1-4: [segnalazione-crea Header Parity + Stepper Responsive](../../../.planning/stories/1-4-segnalazione-crea-header-parity-stepper-responsive.md)
+- Story 1-5: [Geolocalizzazione "Usa la tua posizione" + Step Navigation](../../../.planning/stories/1-5-geolocation-step-navigation-segnalazione-crea.md)
 
 ### CSS/JS Parity Phase
 - Story BMAD (parity **segnalazione-02-dati** HTML/visual): [7-3 segnalazione-02-dati html visual parity](../../../../_bmad-output/implementation-artifacts/7-3-segnalazione-02-dati-html-visual-parity.md)
