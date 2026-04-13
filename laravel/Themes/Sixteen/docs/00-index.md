@@ -12,7 +12,8 @@
 - Documentazione root: [../../../../docs/bmad/setup-guide.md](../../../../docs/bmad/setup-guide.md)
 
 ### Unified Ticket Wizard
-- [../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md](../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md) - Design and architecture of the unified ticket creation wizard.
+- [../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md](../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md) — design e architettura del wizard unificato.
+- Base Filament multi-step: [../../../Modules/Xot/docs/filament/widgets/xot-base-wizard-widget.md](../../../Modules/Xot/docs/filament/widgets/xot-base-wizard-widget.md) (`XotBaseWizardWidget`, DRY su `?step=` e stato wizard).
 - Story BMAD (parity step 1: label **Autorizzazioni e condizioni**, CTA `mobile-full`, header/search con 7-29): [7-32](../../../../_bmad-output/implementation-artifacts/7-32-segnalazione-crea-design-comuni-step1-cta-stepper-labels-header-parity.md)
 - Story BMAD (step 2: **Usa la tua posizione**, coordinate Ticket, `?step=2`): [7-33](../../../../_bmad-output/implementation-artifacts/7-33-segnalazione-crea-step2-geolocation-use-my-location-and-step-query.md)
 - Story BMAD (refactor **Filament Schema Wizard** v5 al posto del Blade monolitico): [7-34](../../../../_bmad-output/implementation-artifacts/7-34-create-ticket-wizard-filament-schema-wizard-refactor.md)
@@ -27,6 +28,9 @@
 - Story 1-5: [Geolocalizzazione "Usa la tua posizione" + Step Navigation](../../../.planning/stories/1-5-geolocation-step-navigation-segnalazione-crea.md)
 - Story 1-6: [Refactor Wizard — NO Filament Schemas, NO hardcoded blade](../../../.planning/stories/1-6-refactor-wizard-no-filament-schemas-no-hardcoded-blade.md)
 - Story 1-7: [Token-Efficient Agent Setup](../../../.planning/stories/1-7-token-efficient-agent-setup.md)
+- Story 1-8: [Wizard Filament Schemas + XotBaseWidget + HTML Parity](../../../.planning/stories/1-8-wizard-filament-schemas-xotbasewidget-html-parity.md)
+- Story 1-9: [Segnalazione-Crea Visual Parity — Filament Wizard](../../../.planning/stories/1-9-segnalazione-crea-visual-parity-filament-wizard.md)
+- Story 1-10: [Extract AddressInput to Geo Module — DDD Bounded Context](../../../.planning/stories/1-10-extract-address-input-to-geo-module.md)
 
 ### CSS/JS Parity Phase
 - Story BMAD (parity **segnalazione-02-dati** HTML/visual): [7-3 segnalazione-02-dati html visual parity](../../../../_bmad-output/implementation-artifacts/7-3-segnalazione-02-dati-html-visual-parity.md)

@@ -49,4 +49,7 @@ See also:
 - **Story 1-5**: [Geolocalizzazione + Step Navigation](../../.planning/stories/1-5-geolocation-step-navigation-segnalazione-crea.md) — "Usa la tua posizione" geolocation, Nominatim reverse geocoding, ?step=N URL navigation
 - **Story 1-6**: [Refactor Wizard — NO Filament Schemas, NO hardcoded blade](../../.planning/stories/1-6-refactor-wizard-no-filament-schemas-no-hardcoded-blade.md) — Remove Wizard::make(), pure Livewire $currentStep, Design Comuni HTML parity, blade conditional rendering
 - **Story 1-7**: [Token-Efficient Agent Setup](../../.planning/stories/1-7-token-efficient-agent-setup.md) — QWEN.md as single source of truth, deduplicate docs, token reduction strategies
+- **Story 1-8**: [Wizard Filament Schemas + XotBaseWidget + HTML Parity](../../.planning/stories/1-8-wizard-filament-schemas-xotbasewidget-html-parity.md) — Wizard via Filament 5.x Schemas, extends XotBaseWidget, outer wrapper HTML parity, contacts section parity
+- **Story 1-9**: [Segnalazione-Crea Visual Parity — Filament Wizard](../../.planning/stories/1-9-segnalazione-crea-visual-parity-filament-wizard.md) — Breadcrumbs, title, stepper CSS overrides, form fields CSS, responsive verification
+- **Story 1-10**: [Extract AddressInput to Geo Module — DDD Bounded Context](../../.planning/stories/1-10-extract-address-input-to-geo-module.md) — Proper Filament component in Geo, Fixcity consumes via AddressInput::make(), NO Blade::render hacks, SRP/DRY/reusability
 - [Master Index](../../../docs/MODULE_DOCS_INDEX.md)
