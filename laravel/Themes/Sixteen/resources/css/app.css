@@ -2733,22 +2733,22 @@ html body {
 
 /* ========================================
    STORY 7.25 - SEGNALAZIONE-02-DATI HEADER VISUAL PARITY
-   Scoped via .page-content[data-slug="tests.segnalazione-02-dati"] (NOT body class).
+   Scoped via (NOT body class).
    REGOLA: MAI aggiungere classi al <body>. Reference HTML ha <body> pulito.
    Usare SEMPRE .page-content[data-slug="X"] per CSS scoping.
 ======================================== */
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .dropdown-toggle::after {
+.it-header-slim-wrapper .dropdown-toggle::after {
   display: none !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper,
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .container,
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .row,
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .col-12 {
+.it-header-slim-wrapper,
+.it-header-slim-wrapper .container,
+.it-header-slim-wrapper .row,
+.it-header-slim-wrapper .col-12 {
   min-height: 48px !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper-content {
+.it-header-slim-wrapper-content {
   display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;
@@ -2757,26 +2757,26 @@ html body {
   gap: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .navbar-brand {
+.it-header-slim-wrapper .navbar-brand {
   display: block !important;
   margin-right: auto !important;
   padding: 12px 0 !important;
   color: #fff !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-right-zone {
+.it-header-slim-right-zone {
   display: flex !important;
   align-items: center !important;
   gap: 0 !important;
   margin-left: auto !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .nav-item.dropdown {
+.it-header-slim-wrapper .nav-item.dropdown {
   display: flex !important;
   align-items: center !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .nav-link.dropdown-toggle {
+.it-header-slim-wrapper .nav-link.dropdown-toggle {
   display: inline-flex !important;
   align-items: center !important;
   gap: 8px !important;
@@ -2785,14 +2785,14 @@ html body {
   color: #fff !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .nav-link.dropdown-toggle .icon {
+.it-header-slim-wrapper .nav-link.dropdown-toggle .icon {
   width: 16px !important;
   height: 16px !important;
   color: #fff !important;
   fill: currentColor !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .btn-icon.btn-full {
+.it-header-slim-wrapper .btn-icon.btn-full {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -2805,7 +2805,7 @@ html body {
   background: #007a52 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .btn-icon.btn-full .rounded-icon {
+.it-header-slim-wrapper .btn-icon.btn-full .rounded-icon {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -2816,20 +2816,20 @@ html body {
   border-radius: 9999px !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .btn-icon.btn-full .icon {
+.it-header-slim-wrapper .btn-icon.btn-full .icon {
   width: 18px !important;
   height: 18px !important;
   color: #fff !important;
   fill: currentColor !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-center-wrapper {
+.it-header-center-wrapper {
   background: #007a52 !important;
   min-height: auto !important;
   padding: 14px 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-center-content-wrapper {
+.it-header-center-content-wrapper {
   position: relative !important;
   display: flex !important;
   align-items: center !important;
@@ -2838,31 +2838,31 @@ html body {
   gap: 16px !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-center-wrapper .it-brand-wrapper {
+.it-header-center-wrapper .it-brand-wrapper {
   flex: 1 1 auto !important;
   min-width: 0 !important;
   padding-left: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-center-wrapper .it-brand-wrapper > a {
+.it-header-center-wrapper .it-brand-wrapper > a {
   display: flex !important;
   align-items: center !important;
   gap: 14px !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-center-wrapper .it-brand-wrapper > a::before {
+.it-header-center-wrapper .it-brand-wrapper > a::before {
   width: 52px !important;
   height: 52px !important;
   flex: 0 0 52px !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-header-center-wrapper .it-brand-wrapper .it-brand-text {
+.it-header-center-wrapper .it-brand-wrapper .it-brand-text {
   display: flex !important;
   flex-direction: column !important;
   min-width: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-right-zone {
+.it-right-zone {
   display: flex !important;
   align-items: center !important;
   gap: 0 !important;
@@ -2870,18 +2870,18 @@ html body {
   flex: 0 0 auto !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-search-wrapper {
+.it-search-wrapper {
   display: flex !important;
   align-items: center !important;
   gap: 12px !important;
   margin-left: auto !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .it-search-wrapper span {
+.it-search-wrapper span {
   color: #fff !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .search-link {
+.search-link {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -2893,7 +2893,7 @@ html body {
   border-radius: 9999px !important;
 }
 
-.page-content[data-slug="tests.segnalazione-02-dati"] .search-link .icon {
+.search-link .icon {
   width: 22px !important;
   height: 22px !important;
   color: #007a52 !important;
@@ -2901,11 +2901,11 @@ html body {
 }
 
 @media (max-width: 991.98px) {
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-nav-wrapper {
+  .it-nav-wrapper {
     position: relative !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-navbar-wrapper {
+  .it-header-navbar-wrapper {
     position: absolute !important;
     top: 50% !important;
     left: 12px !important;
@@ -2917,10 +2917,10 @@ html body {
     z-index: 8 !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-navbar-wrapper .container,
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-navbar-wrapper .row,
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-navbar-wrapper .col-12,
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-navbar-wrapper .navbar {
+  .it-header-navbar-wrapper .container,
+  .it-header-navbar-wrapper .row,
+  .it-header-navbar-wrapper .col-12,
+  .it-header-navbar-wrapper .navbar {
     width: auto !important;
     min-height: 0 !important;
     margin: 0 !important;
@@ -2928,7 +2928,7 @@ html body {
     background: transparent !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .custom-navbar-toggler {
+  .custom-navbar-toggler {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -2939,85 +2939,229 @@ html body {
     background: transparent !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .custom-navbar-toggler .icon {
+  .custom-navbar-toggler .icon {
     width: 24px !important;
     height: 24px !important;
     color: #fff !important;
     fill: currentColor !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-center-wrapper .it-brand-wrapper {
+  .it-header-center-wrapper .it-brand-wrapper {
     margin-left: 48px !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .navbar-collapsable {
+  .navbar-collapsable {
     background: #fff !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .navbar-collapsable .navbar-nav .nav-link {
+  .navbar-collapsable .navbar-nav .nav-link {
     color: #17324d !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .navbar-collapsable .navbar-secondary .nav-link {
+  .navbar-collapsable .navbar-secondary .nav-link {
     color: #5c6f82 !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-brand-tagline {
+  .it-brand-tagline {
     display: block !important;
     margin-top: 2px !important;
     color: #fff !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-brand-title {
+  .it-brand-title {
     font-size: 24px !important;
     line-height: 1.15 !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-search-wrapper span {
+  .it-search-wrapper span {
     display: inline !important;
   }
 }
 
 @media (max-width: 767.98px) {
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .navbar-brand {
+  .it-header-slim-wrapper .navbar-brand {
     max-width: 48% !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
     white-space: nowrap !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .nav-link.dropdown-toggle {
+  .it-header-slim-wrapper .nav-link.dropdown-toggle {
     padding: 0 8px !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-slim-wrapper .btn-icon.btn-full {
+  .it-header-slim-wrapper .btn-icon.btn-full {
     width: 48px !important;
     min-width: 48px !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-brand-tagline,
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-search-wrapper span {
+  .it-brand-tagline,
+  .it-search-wrapper span {
     display: none !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-center-wrapper .it-brand-wrapper > a::before {
+  .it-header-center-wrapper .it-brand-wrapper > a::before {
     width: 44px !important;
     height: 44px !important;
     flex: 0 0 44px !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-brand-title {
+  .it-brand-title {
     font-size: 20px !important;
     line-height: 1.15 !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-center-wrapper {
+  .it-header-center-wrapper {
     padding: 12px 0 !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-02-dati"] .it-header-center-wrapper .it-brand-wrapper {
+  .it-header-center-wrapper .it-brand-wrapper {
     margin-left: 44px !important;
+  }
+}
+
+/* ========================================
+   FINAL STEPPER RESPONSIVE FIX
+   Scope without touching <body> or markup.
+======================================== */
+main #main-container .steppers {
+  width: 100%;
+}
+
+main #main-container .steppers-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+main #main-container .steppers-header ul {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  scrollbar-width: none;
+}
+
+main #main-container .steppers-header ul::-webkit-scrollbar {
+  display: none;
+}
+
+main #main-container .steppers-header li {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  min-height: 2rem;
+  padding-right: 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+main #main-container .steppers-index {
+  flex: 0 0 auto;
+  margin: 0;
+  padding-top: 0.125rem;
+  white-space: nowrap;
+}
+
+main #main-container .cmp-nav-steps {
+  margin-top: 2rem;
+}
+
+main #main-container .steppers-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+main #main-container .steppers-nav .steppers-btn-prev,
+main #main-container .steppers-nav .steppers-btn-confirm {
+  flex: 0 0 auto;
+}
+
+main #main-container .steppers-nav .steppers-btn-save {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+@media (max-width: 991.98px) {
+  main #main-container .steppers-header {
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  main #main-container .steppers-header li {
+    font-size: 0.8125rem;
+    padding-right: 1rem;
+  }
+
+  main #main-container .cmp-nav-steps {
+    margin-top: 1.5rem;
+  }
+
+  main #main-container .steppers-nav {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  main #main-container .steppers-nav .steppers-btn-prev {
+    justify-self: start;
+  }
+
+  main #main-container .steppers-nav .steppers-btn-confirm {
+    justify-self: end;
+  }
+
+  main #main-container .steppers-nav .steppers-btn-save {
+    margin-left: 0;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  main #main-container .steppers-header {
+    align-items: flex-start;
+  }
+
+  main #main-container .steppers-header li {
+    min-height: 1.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  main #main-container .steppers-index {
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+
+  main #main-container .steppers-nav {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  main #main-container .steppers-nav .steppers-btn-prev,
+  main #main-container .steppers-nav .steppers-btn-confirm {
+    width: 100%;
+    justify-content: center;
+  }
+
+  main #main-container .steppers-nav .steppers-btn-save {
+    grid-column: 1 / -1;
+    width: 100%;
+    justify-content: center;
   }
 }

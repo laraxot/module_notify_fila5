@@ -2023,7 +2023,7 @@ a.read-terms {
    Reference: square checkbox with green check, label inline on same line, no underline
    -------------------------------------------------------------------------- */
 .segnalazione-privacy-page .form-check,
-.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check {
+.ticket-wizard-root .form-check {
   border-bottom: none !important;
   border-top: none !important;
   margin-bottom: 0 !important;
@@ -2031,7 +2031,7 @@ a.read-terms {
 }
 
 .segnalazione-privacy-page .form-check .checkbox-body,
-.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check .checkbox-body {
+.ticket-wizard-root .form-check .checkbox-body {
   display: flex !important;
   align-items: center !important;
   gap: 0.75rem !important;
@@ -2041,7 +2041,7 @@ a.read-terms {
 }
 
 .segnalazione-privacy-page .form-check input[type="checkbox"],
-.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check input[type="checkbox"] {
+.ticket-wizard-root .form-check input[type="checkbox"] {
   /* Override BI: opacity:0 and position:absolute → make the input itself the visible checkbox */
   opacity: 1 !important;
   position: static !important;
@@ -2060,7 +2060,7 @@ a.read-terms {
 }
 
 .segnalazione-privacy-page .form-check input[type="checkbox"]:checked,
-.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check input[type="checkbox"]:checked {
+.ticket-wizard-root .form-check input[type="checkbox"]:checked {
   background-color: #007a52 !important;
   border-color: #007a52 !important;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
@@ -2070,19 +2070,19 @@ a.read-terms {
 }
 
 .segnalazione-privacy-page .form-check input[type="checkbox"]:hover,
-.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check input[type="checkbox"]:hover {
+.ticket-wizard-root .form-check input[type="checkbox"]:hover {
   border-color: #007a52 !important;
 }
 
 /* Hide BI pseudo-elements on the label: input is now the real visual checkbox */
-.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check .checkbox-body input[type="checkbox"] + label::before,
-.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check .checkbox-body input[type="checkbox"] + label::after {
+.ticket-wizard-root .form-check .checkbox-body input[type="checkbox"] + label::before,
+.ticket-wizard-root .form-check .checkbox-body input[type="checkbox"] + label::after {
   display: none !important;
   content: none !important;
 }
 
 .segnalazione-privacy-page .form-check .checkbox-body label.title-small-semi-bold,
-.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .form-check .checkbox-body label.title-small-semi-bold {
+.ticket-wizard-root .form-check .checkbox-body label.title-small-semi-bold {
   /* Reset BI: position:relative (not needed since we hide ::before/::after) */
   position: static !important;
   font-size: 1rem !important;
@@ -2418,19 +2418,19 @@ h1.title-xxxlarge {
    Keep scoped to the tests privacy page to avoid stepping on parallel work.
    ============================================================================ */
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs {
+.cmp-breadcrumbs {
   padding: 2rem 0 1.25rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .title-xxxlarge {
+.title-xxxlarge {
   margin-bottom: 2.25rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers {
+.steppers {
   margin-bottom: 2rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header {
+.steppers-header {
   display: flex !important;
   align-items: stretch !important;
   justify-content: space-between !important;
@@ -2441,7 +2441,7 @@ h1.title-xxxlarge {
   overflow: visible !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header ul {
+.steppers-header ul {
   display: flex !important;
   flex: 1 1 auto !important;
   align-items: stretch !important;
@@ -2450,7 +2450,7 @@ h1.title-xxxlarge {
   padding: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li {
+.steppers-header li {
   position: relative !important;
   display: flex !important;
   align-items: center !important;
@@ -2466,15 +2466,15 @@ h1.title-xxxlarge {
   white-space: normal !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li:last-child {
+.steppers-header li:last-child {
   border-right: 1px solid #d9e1e8 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.active {
+.steppers-header li.active {
   color: #007a52 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.active::after {
+.steppers-header li.active::after {
   content: "" !important;
   position: absolute !important;
   left: 1.25rem !important;
@@ -2484,25 +2484,25 @@ h1.title-xxxlarge {
   background: #007a52 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header .visually-hidden {
+.steppers-header .visually-hidden {
   position: absolute !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-index {
+.steppers-index {
   display: none !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .form-check {
+.form-check {
   margin-top: 2rem !important;
   margin-bottom: 1.5rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body {
+.checkbox-body {
   gap: 0.875rem !important;
   padding: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body input[type="checkbox"] {
+.checkbox-body input[type="checkbox"] {
   width: 1.5rem !important;
   height: 1.5rem !important;
   margin: 0 !important;
@@ -2511,12 +2511,12 @@ h1.title-xxxlarge {
   flex: 0 0 1.5rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body label {
+.checkbox-body label {
   padding-top: 0 !important;
   line-height: 1.5 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .btn.btn-primary.mobile-full {
+.btn.btn-primary.mobile-full {
   width: min(25.5rem, 100%) !important;
   min-height: 3rem !important;
   justify-content: center !important;
@@ -2525,43 +2525,43 @@ h1.title-xxxlarge {
 }
 
 @media (max-width: 991px) {
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs {
+  .cmp-breadcrumbs {
     padding: 1.5rem 0 1rem !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .title-xxxlarge {
+  .title-xxxlarge {
     margin-bottom: 1.75rem !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header {
+  .steppers-header {
     padding: 1.125rem 1.5rem !important;
     margin-bottom: 1.75rem !important;
     background: #fff !important;
     box-shadow: 0 8px 24px rgba(23, 50, 77, 0.12) !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header ul {
+  .steppers-header ul {
     display: block !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li {
+  .steppers-header li {
     display: none !important;
     border: 0 !important;
     padding: 0 !important;
     min-height: auto !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.active {
+  .steppers-header li.active {
     display: block !important;
     flex: 1 1 auto !important;
     font-size: 1rem !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.active::after {
+  .steppers-header li.active::after {
     display: none !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-index {
+  .steppers-index {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: flex-end !important;
@@ -2573,22 +2573,22 @@ h1.title-xxxlarge {
     line-height: 1 !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .text-paragraph {
+  .text-paragraph {
     max-width: none !important;
   }
 }
 
 @media (max-width: 767px) {
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .container {
+  .container {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body {
+  .checkbox-body {
     align-items: flex-start !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .btn.btn-primary.mobile-full {
+  .btn.btn-primary.mobile-full {
     width: 100% !important;
   }
 }
@@ -2603,35 +2603,35 @@ h1.title-xxxlarge {
 /* ============================================================================
    26. PAGE-SPECIFIC PARITY: segnalazione-01-privacy
    ============================================================================ */
-.page-content[data-slug="tests.segnalazione-01-privacy"] #phpdebugbar,
-.page-content[data-slug="tests.segnalazione-01-privacy"] .phpdebugbar,
-.page-content[data-slug="tests.segnalazione-01-privacy"] [id^="phpdebugbar"] {
+#phpdebugbar,
+.phpdebugbar,
+[id^="phpdebugbar"] {
   display: none !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs {
+.cmp-breadcrumbs {
   padding: 0.7rem 0 0.4rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs .breadcrumb-item,
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs .breadcrumb-item a,
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-breadcrumbs .separator {
+.cmp-breadcrumbs .breadcrumb-item,
+.cmp-breadcrumbs .breadcrumb-item a,
+.cmp-breadcrumbs .separator {
   font-size: 0.75rem !important;
   line-height: 1.5 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .title-xxxlarge {
+.title-xxxlarge {
   font-size: 2.5rem !important;
   line-height: 1.2 !important;
   letter-spacing: -0.02em !important;
   margin-bottom: 1.55rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers {
+.steppers {
   margin-bottom: 1.5rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header {
+.steppers-header {
   display: grid !important;
   grid-template-columns: minmax(0, 1fr) auto !important;
   align-items: end !important;
@@ -2642,7 +2642,7 @@ h1.title-xxxlarge {
   overflow: visible !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header ul {
+.steppers-header ul {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   gap: 2rem !important;
@@ -2651,7 +2651,7 @@ h1.title-xxxlarge {
   margin: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li {
+.steppers-header li {
   display: block !important;
   position: relative !important;
   min-width: 0 !important;
@@ -2665,17 +2665,17 @@ h1.title-xxxlarge {
   white-space: normal !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.active {
+.steppers-header li.active {
   color: #007A52 !important;
   border-bottom: 2px solid #008758 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header li.confirmed {
+.steppers-header li.confirmed {
   color: #008758 !important;
   border-bottom: 2px solid #8fd4b6 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header .steppers-success {
+.steppers-header .steppers-success {
   width: 1rem !important;
   height: 1rem !important;
   color: #008758 !important;
@@ -2683,7 +2683,7 @@ h1.title-xxxlarge {
   vertical-align: -0.12rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-index {
+.steppers-index {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: flex-end !important;
@@ -2695,7 +2695,7 @@ h1.title-xxxlarge {
   line-height: 1 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .text-paragraph {
+.text-paragraph {
   color: #5C6F82 !important;
   font-family: 'Titillium Web' !important;
   font-size: 16px !important;
@@ -2705,30 +2705,30 @@ h1.title-xxxlarge {
   margin-bottom: 16px !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .text-paragraph + .text-paragraph {
+.text-paragraph + .text-paragraph {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .form-check {
+.form-check {
   margin-top: 40px !important;
   margin-bottom: 40px !important;
   padding: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body {
+.checkbox-body {
   gap: 0.6rem !important;
   padding: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body input[type="checkbox"] {
+.checkbox-body input[type="checkbox"] {
   width: 1.125rem !important;
   height: 1.125rem !important;
   margin-top: 0 !important;
   border: 1px solid #5b6f82 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .checkbox-body label {
+.checkbox-body label {
   margin: 0 !important;
   padding-top: 0 !important;
   font-size: 1.125rem !important;
@@ -2737,7 +2737,7 @@ h1.title-xxxlarge {
   font-weight: 600 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .btn.btn-primary.mobile-full {
+.btn.btn-primary.mobile-full {
   min-width: 10.75rem !important;
   width: auto !important;
   padding: 0.7rem 2.15rem !important;
@@ -2750,9 +2750,9 @@ h1.title-xxxlarge {
 /* ============================================================================
    26.15 FONT PARITY — Override all conflicting text-paragraph rules
    Reference: Titillium Web, 16px, 24px line-height, color #191919 (nero)
-   Must beat: .page-content[data-slug="tests.segnalazione-01-privacy"] .text-paragraph
+   Must beat: .text-paragraph
    ============================================================================ */
-.page-content[data-slug="tests.segnalazione-01-privacy"] .text-paragraph {
+.text-paragraph {
   color: #191919 !important;
   font-family: 'Titillium Web' !important;
   font-size: 16px !important;
@@ -2771,8 +2771,8 @@ h1.title-xxxlarge {
   margin-bottom: 16px !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] p.lora,
-.page-content[data-slug="tests.segnalazione-01-privacy"] .lora.text-paragraph,
+p.lora,
+.lora.text-paragraph,
 .segnalazione-privacy-page p.lora,
 .segnalazione-privacy-page .lora.text-paragraph {
   font-family: 'Titillium Web' !important;
@@ -2785,14 +2785,14 @@ h1.title-xxxlarge {
    26.16 CONTACTS CARD — Fix max-width (was 16.5rem = 264px, too narrow)
    Reference: ~592px wide card centered on grey background
    ============================================================================ */
-.page-content[data-slug="tests.segnalazione-01-privacy"] .bg-grey-card.shadow-contacts {
+.bg-grey-card.shadow-contacts {
   margin-top: 2rem !important;
   padding: 3rem 0 !important;
   background: #f2f4f6 !important;
   box-shadow: none !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .p-contacts {
+.p-contacts {
   flex: 0 0 100% !important;
   max-width: 100% !important;
   margin-left: 0 !important;
@@ -2802,13 +2802,13 @@ h1.title-xxxlarge {
   padding-right: 12px !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts {
+.cmp-contacts {
   padding: 0 !important;
   display: flex !important;
   justify-content: center !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .card {
+.cmp-contacts .card {
   max-width: 592px !important;
   min-width: 320px !important;
   margin: 0 auto !important;
@@ -2818,41 +2818,41 @@ h1.title-xxxlarge {
   background: #fff !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .card-body {
+.cmp-contacts .card-body {
   padding: 2rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .title-medium-2-semi-bold {
+.cmp-contacts .title-medium-2-semi-bold {
   font-size: 1rem !important;
   line-height: 1.25 !important;
   margin-bottom: 0.85rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .list-item {
+.cmp-contacts .list-item {
   gap: 0.55rem !important;
   padding: 0.32rem 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .list-item span {
+.cmp-contacts .list-item span {
   font-size: 0.75rem !important;
   line-height: 1.35 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-01-privacy"] .cmp-contacts .icon {
+.cmp-contacts .icon {
   width: 0.95rem !important;
   height: 0.95rem !important;
 }
 
 @media (max-width: 991px) {
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header {
+  .steppers-header {
     grid-template-columns: 1fr !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-header ul {
+  .steppers-header ul {
     gap: 1rem !important;
   }
 
-  .page-content[data-slug="tests.segnalazione-01-privacy"] .steppers-index {
+  .steppers-index {
     justify-content: flex-start !important;
     padding-bottom: 0 !important;
   }
@@ -2864,7 +2864,7 @@ h1.title-xxxlarge {
    ============================================================================ */
 
 /* segnalazione-area-personale: Titillium Web 16px/24px, color #191919 */
-.page-content[data-slug="tests.segnalazione-area-personale"] .text-paragraph {
+.text-paragraph {
   font-family: 'Titillium Web' !important;
   font-size: 16px !important;
   font-weight: 400 !important;
@@ -2875,7 +2875,7 @@ h1.title-xxxlarge {
 /* segnalazioni-elenco: no .text-paragraph elements - uses different structure */
 
 /* segnalazione-dettaglio: Lora serif 16px/24px, color #191919 */
-.page-content[data-slug="tests.segnalazione-dettaglio"] .text-paragraph {
+.text-paragraph {
   font-family: 'Lora', Georgia, serif !important;
   font-size: 16px !important;
   font-weight: 400 !important;
@@ -2884,7 +2884,7 @@ h1.title-xxxlarge {
 }
 
 /* segnalazione-03-riepilogo: Titillium Web 18px/27px, color #30475f */
-.page-content[data-slug="tests.segnalazione-03-riepilogo"] .text-paragraph {
+.text-paragraph {
   font-family: 'Titillium Web' !important;
   font-size: 18px !important;
   font-weight: 400 !important;
@@ -2908,8 +2908,8 @@ h1.title-xxxlarge {
 }
 
 /* segnalazione-01-privacy uses 24px margin-bottom for h1 */
-.page-content[data-slug="tests.segnalazione-01-privacy"] h1.title-xxxlarge,
-.page-content[data-slug="tests.segnalazione-crea"] h1.title-xxxlarge {
+h1.title-xxxlarge,
+.ticket-wizard-root h1.title-xxxlarge {
   margin-bottom: 24px !important;
 }
 
@@ -2952,12 +2952,12 @@ button.btn.btn-primary.mobile-full:hover,
    ============================================================================ */
 
 /* Stepper: indicazione stato sola; nessun salto step da click (AC wizard) */
-.page-content[data-slug="tests.segnalazione-crea"] .ticket-wizard-root .steppers-header li {
+.ticket-wizard-root .steppers-header li {
   pointer-events: none !important;
   cursor: default !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] .steppers-header ul {
+.ticket-wizard-root .steppers-header ul {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   gap: 2rem !important;
@@ -2966,7 +2966,7 @@ button.btn.btn-primary.mobile-full:hover,
   margin: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] .steppers-header li {
+.ticket-wizard-root .steppers-header li {
   display: block !important;
   position: relative !important;
   min-width: 0 !important;
@@ -2980,44 +2980,44 @@ button.btn.btn-primary.mobile-full:hover,
   white-space: normal !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] .steppers-header ul li {
+.ticket-wizard-root .steppers-header ul li {
   color: #007A52 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] .steppers-header ul li:hover {
+.ticket-wizard-root .steppers-header ul li:hover {
   color: #007A52 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] .steppers-header ul li.active {
+.ticket-wizard-root .steppers-header ul li.active {
   color: #007A52 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] .steppers-header ul li.confirmed {
+.ticket-wizard-root .steppers-header ul li.confirmed {
   color: #007A52 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] .steppers-header li.active {
+.ticket-wizard-root .steppers-header li.active {
   color: #007A52 !important;
   border-bottom: 2px solid #008758 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] .steppers-header li.confirmed {
+.ticket-wizard-root .steppers-header li.confirmed {
   color: #007A52 !important;
   border-bottom-color: #008758 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] .form-check {
+.ticket-wizard-root .form-check {
   margin-top: 40px !important;
   margin-bottom: 40px !important;
   padding: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] .checkbox-body label {
+.ticket-wizard-root .checkbox-body label {
   font-size: 1.125rem !important;
   color: #1a1a1a !important;
 }
 
-.page-content[data-slug="tests.segnalazione-crea"] h1.title-xxxlarge {
+.ticket-wizard-root h1.title-xxxlarge {
   font-size: 3rem !important;
   font-weight: 700 !important;
   color: #191919 !important;
@@ -3371,9 +3371,9 @@ select:focus {
    ============================================================================ */
 
 /* 28.1 Tabs — active green with border-bottom, inactive dark */
-.page-content[data-slug="tests.segnalazione-area-personale"] .nav-tabs .nav-link,
-.page-content[data-slug="tests.segnalazione-area-personale"] .nav-pills .nav-link,
-.page-content[data-slug="tests.segnalazione-area-personale"] .nav-link.active {
+.nav-tabs .nav-link,
+.nav-pills .nav-link,
+.nav-link.active {
   font-size: 16px !important;
   font-weight: 600 !important;
   color: #007a52 !important;
@@ -3381,17 +3381,17 @@ select:focus {
   border-radius: 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-area-personale"] .nav-tabs .nav-link:not(.active),
-.page-content[data-slug="tests.segnalazione-area-personale"] .nav-pills .nav-link:not(.active),
-.page-content[data-slug="tests.segnalazione-area-personale"] .nav-link:not(.active) {
+.nav-tabs .nav-link:not(.active),
+.nav-pills .nav-link:not(.active),
+.nav-link:not(.active) {
   color: #191919 !important;
   border-bottom: 3px solid transparent !important;
 }
 
 /* 28.2 Section headings — 40px, bold, not italic */
-.page-content[data-slug="tests.segnalazione-area-personale"] h2,
-.page-content[data-slug="tests.segnalazione-area-personale"] .title-xlarge,
-.page-content[data-slug="tests.segnalazione-area-personale"] .section-title {
+h2,
+.title-xlarge,
+.section-title {
   font-size: 40px !important;
   font-weight: 700 !important;
   font-style: normal !important;
@@ -3400,75 +3400,75 @@ select:focus {
 }
 
 /* 28.3 Cards — no border-radius, specific shadow */
-.page-content[data-slug="tests.segnalazione-area-personale"] .card {
+.card {
   border-radius: 0 !important;
   border: none !important;
   background: #fff !important;
 }
 
-.page-content[data-slug="tests.segnalazione-area-personale"] .card-teaser,
-.page-content[data-slug="tests.segnalazione-area-personale"] .card.shadow {
+.card-teaser,
+.card.shadow {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.075) !important;
 }
 
-.page-content[data-slug="tests.segnalazione-area-personale"] .card-teaser-lg {
+.card-teaser-lg {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* 28.4 User name header */
-.page-content[data-slug="tests.segnalazione-area-personale"] .user-name {
+.user-name {
   font-size: 48px !important;
   font-weight: 700 !important;
   color: #191919 !important;
 }
 
 /* 28.5 Message list items */
-.page-content[data-slug="tests.segnalazione-area-personale"] .message-item {
+.message-item {
   border-bottom: 1px solid #e0e0e0 !important;
   padding: 1rem 0 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-area-personale"] .message-item .message-title {
+.message-item .message-title {
   color: #007a52 !important;
   font-weight: 600 !important;
   font-size: 1rem !important;
 }
 
-.page-content[data-slug="tests.segnalazione-area-personale"] .message-item .message-date {
+.message-item .message-date {
   color: #5c6f82 !important;
   font-size: 0.875rem !important;
 }
 
 /* 28.6 Activity cards */
-.page-content[data-slug="tests.segnalazione-area-personale"] .activity-card {
+.activity-card {
   padding: 1.5rem !important;
   background: #fff !important;
 }
 
-.page-content[data-slug="tests.segnalazione-area-personale"] .activity-card .activity-title {
+.activity-card .activity-title {
   color: #007a52 !important;
   font-weight: 600 !important;
 }
 
-.page-content[data-slug="tests.segnalazione-area-personale"] .activity-card .activity-date {
+.activity-card .activity-date {
   color: #5c6f82 !important;
   font-size: 0.875rem !important;
 }
 
 /* 28.7 Contacts card — flat */
-.page-content[data-slug="tests.segnalazione-area-personale"] .cmp-contacts .card {
+.cmp-contacts .card {
   box-shadow: none !important;
   border: none !important;
   border-radius: 0 !important;
   background: #fff !important;
 }
 
-.page-content[data-slug="tests.segnalazione-area-personale"] .cmp-contacts a {
+.cmp-contacts a {
   color: #007a52 !important;
 }
 
 /* 28.8 "Vedi altri messaggi" button */
-.page-content[data-slug="tests.segnalazione-area-personale"] .btn-view-more {
+.btn-view-more {
   background: #007a52 !important;
   color: #fff !important;
   border: none !important;
@@ -3536,8 +3536,8 @@ button.btn-primary:not(.dropdown-toggle):not(.navbar-toggler):not(.close-menu):n
    ============================================================================ */
 
 /* h1 title - REF 48px/60px/700 → ensure override of all previous rules */
-.page-content[data-slug="tests.segnalazione-01-privacy"] h1,
-.page-content[data-slug="tests.segnalazione-01-privacy"] h1.title-xxxlarge {
+h1,
+h1.title-xxxlarge {
   font-size: 48px !important;
   line-height: 60px !important;
   font-weight: 700 !important;
@@ -3547,8 +3547,8 @@ button.btn-primary:not(.dropdown-toggle):not(.navbar-toggler):not(.close-menu):n
 }
 
 /* h2 title - REF 24px/30px/600 */
-.page-content[data-slug="tests.segnalazione-01-privacy"] h2,
-.page-content[data-slug="tests.segnalazione-01-privacy"] h2.title-medium-2-semi-bold {
+h2,
+h2.title-medium-2-semi-bold {
   font-size: 24px !important;
   line-height: 30px !important;
   font-weight: 600 !important;
@@ -3557,8 +3557,8 @@ button.btn-primary:not(.dropdown-toggle):not(.navbar-toggler):not(.close-menu):n
 }
 
 /* Paragraph - REF 16px/24px/400 */
-.page-content[data-slug="tests.segnalazione-01-privacy"] p,
-.page-content[data-slug="tests.segnalazione-01-privacy"] p.text-paragraph {
+p,
+p.text-paragraph {
   font-size: 16px !important;
   line-height: 24px !important;
   font-weight: 400 !important;
@@ -3567,9 +3567,9 @@ button.btn-primary:not(.dropdown-toggle):not(.navbar-toggler):not(.close-menu):n
 }
 
 /* Button - REF 16px/24.88px/600, green bg, 12px 24px padding */
-.page-content[data-slug="tests.segnalazione-01-privacy"] .btn,
-.page-content[data-slug="tests.segnalazione-01-privacy"] .btn-primary,
-.page-content[data-slug="tests.segnalazione-01-privacy"] button.btn-primary {
+.btn,
+.btn-primary,
+button.btn-primary {
   font-size: 16px !important;
   line-height: 24.88px !important;
   font-weight: 600 !important;
@@ -3581,7 +3581,7 @@ button.btn-primary:not(.dropdown-toggle):not(.navbar-toggler):not(.close-menu):n
 }
 
 /* Card - REF white bg, no padding, no shadow */
-.page-content[data-slug="tests.segnalazione-01-privacy"] .card {
+.card {
   background-color: rgb(255, 255, 255) !important;
   padding: 0 !important;
   border: none !important;
@@ -3590,7 +3590,7 @@ button.btn-primary:not(.dropdown-toggle):not(.navbar-toggler):not(.close-menu):n
 }
 
 /* List item - REF 16px/32px, white text on green bg */
-.page-content[data-slug="tests.segnalazione-01-privacy"] .list-item {
+.list-item {
   font-size: 16px !important;
   line-height: 32px !important;
   color: rgb(255, 255, 255) !important;
@@ -3598,14 +3598,14 @@ button.btn-primary:not(.dropdown-toggle):not(.navbar-toggler):not(.close-menu):n
 }
 
 /* Links - REF green, no bg */
-.page-content[data-slug="tests.segnalazione-01-privacy"] a {
+a {
   background-color: transparent !important;
   color: rgb(0, 122, 82) !important;
   padding: 0 !important;
 }
 
 /* Body text color - exact match */
-.page-content[data-slug="tests.segnalazione-01-privacy"] {
+{
   color: rgb(25, 25, 25) !important;
   background-color: rgb(255, 255, 255) !important;
 }
@@ -4330,12 +4330,12 @@ textarea#details,
    Scoped per evitare regressioni sugli altri stepper.
    ========================================================================== */
 @media (max-width: 991.98px) {
-  .tests-view-wrapper .steppers {
+  .steppers {
     display: block !important;
     margin-bottom: 1.5rem !important;
   }
 
-  .tests-view-wrapper .steppers-header {
+  .steppers-header {
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
@@ -4348,7 +4348,7 @@ textarea#details,
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08) !important;
   }
 
-  .tests-view-wrapper .steppers-header ul {
+  .steppers-header ul {
     display: flex !important;
     flex: 1 1 auto !important;
     min-width: 0 !important;
@@ -4361,7 +4361,7 @@ textarea#details,
     overflow: hidden !important;
   }
 
-  .tests-view-wrapper .steppers-header ul li {
+  .steppers-header ul li {
     display: none !important;
     min-width: 0 !important;
     margin: 0 !important;
@@ -4370,7 +4370,7 @@ textarea#details,
     white-space: nowrap !important;
   }
 
-  .tests-view-wrapper .steppers-header ul li.active {
+  .steppers-header ul li.active {
     display: flex !important;
     align-items: center !important;
     flex: 1 1 auto !important;
@@ -4383,13 +4383,13 @@ textarea#details,
     text-overflow: ellipsis !important;
   }
 
-  .tests-view-wrapper .steppers-header ul li.active .visually-hidden {
+  .steppers-header ul li.active .visually-hidden {
     position: absolute !important;
   }
 
-  .tests-view-wrapper .steppers-header .steppers-index,
-  .tests-view-wrapper .steppers-index,
-  .tests-view-wrapper span.steppers-index {
+  .steppers-header .steppers-index,
+  .steppers-index,
+  span.steppers-index {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: flex-end !important;
@@ -4412,16 +4412,16 @@ textarea#details,
 }
 
 @media (max-width: 575.98px) {
-  .tests-view-wrapper .steppers-header {
+  .steppers-header {
     padding: 0.75rem 0.875rem !important;
   }
 
-  .tests-view-wrapper .steppers-header ul li.active {
+  .steppers-header ul li.active {
     font-size: 0.95rem !important;
   }
 
-  .tests-view-wrapper .steppers-header .steppers-index,
-  .tests-view-wrapper .steppers-index {
+  .steppers-header .steppers-index,
+  .steppers-index {
     font-size: 0.8125rem !important;
   }
 }
@@ -4431,12 +4431,12 @@ textarea#details,
    Keep <body> plain. Scope on the real tests wrapper + page structure only.
    ============================================================================ */
 @media (max-width: 991.98px) {
-  .tests-view-wrapper #main-container .steppers {
+  #main-container .steppers {
     display: block !important;
     margin-bottom: 1.5rem !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header {
+  #main-container .steppers-header {
     display: flex !important;
     align-items: center !important;
     gap: 0.75rem !important;
@@ -4448,7 +4448,7 @@ textarea#details,
     overflow: visible !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header ul {
+  #main-container .steppers-header ul {
     display: flex !important;
     flex: 1 1 auto !important;
     min-width: 0 !important;
@@ -4461,7 +4461,7 @@ textarea#details,
     overflow: hidden !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header ul li {
+  #main-container .steppers-header ul li {
     display: none !important;
     min-width: 0 !important;
     margin: 0 !important;
@@ -4470,7 +4470,7 @@ textarea#details,
     white-space: nowrap !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header ul li.active {
+  #main-container .steppers-header ul li.active {
     display: flex !important;
     align-items: center !important;
     flex: 1 1 auto !important;
@@ -4486,15 +4486,15 @@ textarea#details,
     padding-bottom: 0.375rem !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header ul li.active .icon,
-  .tests-view-wrapper #main-container .steppers-header ul li.active .steppers-success,
-  .tests-view-wrapper #main-container .steppers-header ul li.active .visually-hidden {
+  #main-container .steppers-header ul li.active .icon,
+  #main-container .steppers-header ul li.active .steppers-success,
+  #main-container .steppers-header ul li.active .visually-hidden {
     display: none !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header .steppers-index,
-  .tests-view-wrapper #main-container .steppers-index,
-  .tests-view-wrapper #main-container span.steppers-index {
+  #main-container .steppers-header .steppers-index,
+  #main-container .steppers-index,
+  #main-container span.steppers-index {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: flex-end !important;
@@ -4517,15 +4517,15 @@ textarea#details,
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .tests-view-wrapper #main-container .steppers-header {
+  #main-container .steppers-header {
     padding: 0.875rem 1.25rem !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header ul li.active {
+  #main-container .steppers-header ul li.active {
     font-size: 1rem !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header .steppers-index {
+  #main-container .steppers-header .steppers-index {
     font-size: 0.875rem !important;
   }
 }
@@ -4815,11 +4815,11 @@ textarea#details,
 
 /* 27.26 Segnalazione 02 stepper: final mobile/tablet parity without body selectors. */
 @media (max-width: 991.98px) {
-  .tests-view-wrapper #main-container .steppers {
+  #main-container .steppers {
     margin-bottom: 0 !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header {
+  #main-container .steppers-header {
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
@@ -4832,7 +4832,7 @@ textarea#details,
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08) !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header ul {
+  #main-container .steppers-header ul {
     display: flex !important;
     flex: 1 1 auto !important;
     align-items: center !important;
@@ -4843,7 +4843,7 @@ textarea#details,
     overflow: hidden !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header ul li {
+  #main-container .steppers-header ul li {
     display: none !important;
     min-width: 0 !important;
     margin: 0 !important;
@@ -4853,7 +4853,7 @@ textarea#details,
     box-shadow: none !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header ul li.active {
+  #main-container .steppers-header ul li.active {
     display: block !important;
     flex: 1 1 auto !important;
     min-width: 0 !important;
@@ -4866,13 +4866,13 @@ textarea#details,
     text-overflow: ellipsis !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header ul li.active .icon,
-  .tests-view-wrapper #main-container .steppers-header ul li.active .steppers-success,
-  .tests-view-wrapper #main-container .steppers-header ul li.active .visually-hidden {
+  #main-container .steppers-header ul li.active .icon,
+  #main-container .steppers-header ul li.active .steppers-success,
+  #main-container .steppers-header ul li.active .visually-hidden {
     display: none !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-index {
+  #main-container .steppers-index {
     display: inline-flex !important;
     flex: 0 0 auto !important;
     align-items: center !important;
@@ -4890,12 +4890,12 @@ textarea#details,
 }
 
 @media (max-width: 575.98px) {
-  .tests-view-wrapper #main-container .steppers-header {
+  #main-container .steppers-header {
     padding: 0.875rem 1rem !important;
   }
 
-  .tests-view-wrapper #main-container .steppers-header ul li.active,
-  .tests-view-wrapper #main-container .steppers-index {
+  #main-container .steppers-header ul li.active,
+  #main-container .steppers-index {
     font-size: 0.9375rem !important;
   }
 }
