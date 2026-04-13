@@ -6,10 +6,21 @@
 
 ## Quick Navigation
 
+### BMAD method (workflow ai, repo-wide)
+
+- [bmad-method.md](./bmad-method.md) — puntatori a `docs/bmad/` e a `prompts/bmad.txt`
+- Documentazione root: [../../../../docs/bmad/setup-guide.md](../../../../docs/bmad/setup-guide.md)
+
 ### Unified Ticket Wizard
 - [../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md](../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md) - Design and architecture of the unified ticket creation wizard.
 
+### HTML parity — body minimale (policy permanente)
+- [html-parity-body-policy.md](./html-parity-body-policy.md) — il `<body>` sulle rotte `/tests/*` non deve usare `class="page-tests-…"` per allinearsi al reference; parity visiva con scope su wrapper / `data-tests-slug` / CSS `:has()`.
+- Modulo Fixcity rule: [../../../Modules/Fixcity/docs/html-body-parity-rule.md](../../../Modules/Fixcity/docs/html-body-parity-rule.md)
+- Story 1-3: [Stepper Responsive + No Italian + Body Plain](../../../.planning/stories/1-3-segnalazione-02-dati-stepper-responsive-no-italian-body-plain.md)
+
 ### CSS/JS Parity Phase
+- Story BMAD (parity **segnalazione-02-dati** HTML/visual): [7-3 segnalazione-02-dati html visual parity](../../../../_bmad-output/implementation-artifacts/7-3-segnalazione-02-dati-html-visual-parity.md)
 - [css-js-parity.md](./css-js-parity.md) - CSS/JS visual parity plan, build process, checklist
 - [text-paragraph-font-fix.md](./text-paragraph-font-fix.md) - Font fix: Lora → Titillium Web for .text-paragraph
 - [segnalazione-css-diff.md](./segnalazione-css-diff.md) - Segnalazione CSS diff analysis
