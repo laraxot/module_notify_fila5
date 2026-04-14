@@ -25,6 +25,7 @@
 - **Memory**: Knowledge Graph + Memory Bank
 - **Context**: Context7 per code docs
 - **Workflow**: BMAD + GSD + Ralph Loop
+- **Execution discipline**: docs-first, DRY/KISS, parallel-agent-safe updates
 
 ## 📁 Directory Structure
 

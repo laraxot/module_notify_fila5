@@ -3,6 +3,12 @@
 
 **Project Goal**: Replicate Design Comuni static pages using Tailwind CSS + Alpine.js (no Bootstrap Italia runtime)
 
+## Routing & Multilingual Rule
+
+- The theme should consume named routes and CMS/config slugs, not PHP literals with Italian path fragments.
+- User-facing copy belongs in translations or CMS JSON.
+- For `/tests/[slug]` pages, keep route names stable and let content/config decide the slug value.
+
 ---
 
 ## 📋 Page Parity Analysis & Implementation

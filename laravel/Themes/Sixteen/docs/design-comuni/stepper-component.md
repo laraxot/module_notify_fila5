@@ -1,7 +1,7 @@
 # Stepper Component - Design Comuni Parity
 
 **Page**: segnalazione-02-dati  
-**Last Updated**: 2026-04-12  
+**Last Updated**: 2026-04-13  
 **Status**: ✅ Mobile-first responsive CSS implemented
 
 ---
@@ -18,7 +18,7 @@ The stepper component displays the multi-step progress indicator for the segnala
 
 ### Blade Component
 
-**Location**: `laravel/Themes/Sixteen/resources/views/components/blocks/flow/stepper.blade.php`
+**Location**: `laravel/Themes/Sixteen/resources/views/components/blocks/tests/segnalazione-02-dati.blade.php`
 
 **Features**:
 - ✅ All text uses translation keys (NO hardcoded Italian)
@@ -28,24 +28,43 @@ The stepper component displays the multi-step progress indicator for the segnala
 
 ### CSS Styling
 
-**Location**: `laravel/Themes/Sixteen/resources/css/style-apply.css` (lines 2161-2290)
+**Location**: `laravel/Themes/Sixteen/resources/css/segnalazione-parity.css` (lines 1025-1180)
 
 **Breakpoints**:
 | Breakpoint | Behavior |
 |------------|----------|
-| Mobile (<768px) | Compact stepper with scrollable indicators, small circles |
-| Tablet (768-991px) | Medium stepper with full step titles |
-| Desktop (≥992px) | Full horizontal stepper with divider lines between steps |
+| Mobile (<768px) | Wrapping stepper, smaller font (0.875rem), index at top, auto height |
+| Tablet (768-1023px) | Medium stepper, nowrap text, restored icon sizes |
+| Desktop (≥1024px) | Full horizontal stepper, 64px height, larger fonts |
 
 **Key Classes**:
 ```css
 .steppers              /* Wrapper */
-.steppers-header       /* Header container */
-.steppers-header ul    /* Step list (flex, scrollable on mobile) */
-.steppers-header li    /* Individual step */
-.steppers-number       /* Step number circle */
-.steppers-success      /* Check icon for completed steps */
-.steppers-index        /* "2/4" indicator */
+.steppers-header       /* Header container (flex-wrap on mobile) */
+.steppers-header ul    /* Step list (flex-wrap on mobile) */
+.steppers-header li    /* Individual step (white-space: normal on mobile) */
+.steppers-index        /* "2/3" indicator (order: -1 on mobile) */
+```
+
+**Mobile-First CSS**:
+```css
+/* Base: Mobile first */
+.steppers-header {
+  height: auto;
+  flex-wrap: wrap;
+  padding: 0 16px;
+}
+
+/* Tablet: 768px+ */
+@media (min-width: 768px) {
+  .steppers-header { padding: 0 20px; }
+  .steppers-header li { white-space: nowrap; }
+}
+
+/* Desktop: 1024px+ */
+@media (min-width: 1024px) {
+  .steppers-header { height: 64px; padding: 0 24px; }
+}
 ```
 
 ---
@@ -72,10 +91,12 @@ All stepper text uses the `fixcity::segnalazione.steps.*` namespace:
 
 ## Related Documentation
 
-- [Design Comuni Replication Rules](../DESIGN_COMUNI_RULES.md) — Body tag rules, translation format
-- [segnalazione-02-dati Page](./segnalazione-02-dati.md) — Full page documentation
-- [Style Apply CSS](../../resources/css/style-apply.css) — All @apply rules
-- [Block Implementation Guide](./BLOCK_IMPLEMENTATION_GUIDE.md) — Universal block patterns
+- **Story BMAD (allineamento modulo Fixcity: label step 1, CTA step 1 vs step 2+)** — [7-32](../../../../../_bmad-output/implementation-artifacts/7-32-segnalazione-crea-design-comuni-step1-cta-stepper-labels-header-parity.md)
+- **[Body Plain Rule](./body-plain-rule.md)** — Body tag must remain plain (no classes)
+- **[Design Comuni Replication Rules](../DESIGN_COMUNI_RULES.md)** — Body tag rules, translation format
+- **[segnalazione-02-dati Page](./segnalazione-02-dati.md)** — Full page documentation
+- **[segnalazione-parity.css](../../resources/css/segnalazione-parity.css)** — CSS file (lines 1025-1180)
+- **[Block Implementation Guide](./BLOCK_IMPLEMENTATION_GUIDE.md)** — Universal block patterns
 
 ---
 
@@ -83,6 +104,17 @@ All stepper text uses the `fixcity::segnalazione.steps.*` namespace:
 
 | Date | Change | Commit |
 |------|--------|--------|
+| 2026-04-13 | Updated stepper CSS breakpoints (768px, 1024px) | `new` |
+| 2026-04-13 | Added mobile-first media queries | `new` |
 | 2026-04-12 | Added mobile-first responsive stepper CSS | `8f547e01d` |
 | 2026-04-12 | Replaced hardcoded Italian with translation keys | `8f547e01d` |
 | 2026-04-10 | Initial stepper component creation | `f717e62a` |
+
+---
+
+## 🔗 Cross-References
+
+- → [Body Plain Rule](./body-plain-rule.md) — HTML parity policy
+- → [00-INDEX](./00-INDEX.md) — Main documentation index
+- → [segnalazione-02-dati Blade](../../resources/views/components/blocks/tests/segnalazione-02-dati.blade.php)
+- → [Translation Files](../../../Modules/Fixcity/lang/it/segnalazione.php)

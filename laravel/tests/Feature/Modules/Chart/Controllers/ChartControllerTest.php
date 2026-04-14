@@ -2,13 +2,11 @@
 
 declare(strict_types=1);
 
-use Tests\TestCase;
 use Modules\Chart\Models\Chart;
 use Modules\User\Models\User;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 
-uses(TestCase::class, RefreshDatabase::class, WithFaker::class);
+uses(WithFaker::class);
 
 beforeEach(function () {
     $this->user = User::factory()->create();

@@ -13,6 +13,7 @@
                 "type": "segnalazioni-layout",
                 "data": {
                     "view": "pub_theme::components.blocks.segnalazioni.layout",
+                    "id": "head-section",
                     "breadcrumb": [
                         {
                             "label": "fixcity::segnalazione.breadcrumb.home.label",
@@ -27,149 +28,57 @@
                     "title": "fixcity::segnalazione.heading.title.label",
                     "subtitle": "fixcity::segnalazione.heading.subtitle.text",
                     "results_count": 645,
-                    "tabs": [
-                        {
-                            "id": "map",
-                            "label": "fixcity::segnalazione.tabs.map.label",
-                            "active": true
-                        },
-                        {
-                            "id": "list",
-                            "label": "fixcity::segnalazione.tabs.list.label",
-                            "active": false
-                        }
-                    ],
-                    "cta": {
-                        "title": "fixcity::segnalazione.map.cta.title.label",
-                        "text": "fixcity::segnalazione.map.cta.text.label",
-                        "button_text": "fixcity::segnalazione.map.cta.button.label"
-                    },
-                    "items": [
-                        {
-                            "title": "Buca in via Solferino",
-                            "type": "Verde pubblico e arredo urbano",
-                            "location": "Via Solferino, 15",
-                            "description": "Segnalazione di una buca in via Solferino",
-                            "images": []
-                        },
-                        {
-                            "title": "Lampione non funzionante",
-                            "type": "Illuminazione pubblica",
-                            "location": "Piazza Garibaldi, 3",
-                            "description": "Lampione non funzionante in piazza",
-                            "images": []
-                        },
-                        {
-                            "title": "Rifiuti abbandonati",
-                            "type": "Igiene urbana e rifiuti",
-                            "location": "Via Roma, 45",
-                            "description": "Rifiuti abbandonati sul marciapiede",
-                            "images": []
-                        }
-                    ],
-                    "filters": {
-                        "title": "fixcity::segnalazione.filters.legend.label",
+                    "tabs": {
+                        "id": "map-and-list",
                         "items": [
                             {
-                                "id": "water",
-                                "label": "Acqua, allagamenti, problemi fognari",
-                                "count": 21,
-                                "value": "acqua,allagamenti,fogne"
+                                "id": "map",
+                                "label": "fixcity::segnalazione.tabs.map.label",
+                                "active": true
                             },
                             {
-                                "id": "enviroment",
-                                "label": "Ambiente, inquinamento, protezione ambientale",
-                                "count": 14,
-                                "value": "inquinamento"
-                            },
-                            {
-                                "id": "street-furniture",
-                                "label": "Arredo urbano",
-                                "count": 7,
-                                "value": "arredo-urbano"
-                            },
-                            {
-                                "id": "rodent-control",
-                                "label": "Disinfestazione, derattizazione, animali randagi",
-                                "count": 208,
-                                "value": "derattizazione"
-                            },
-                            {
-                                "id": "waste",
-                                "label": "Igiene urbana, rifiuti, pulizia e decoro",
-                                "count": 321,
-                                "value": "igiene"
-                            },
-                            {
-                                "id": "maintenance",
-                                "label": "Manutenzione immobili, edifici pubblici, scuole, barriere architettoniche, cimiteri",
-                                "count": 302,
-                                "value": "manutenzione"
-                            },
-                            {
-                                "id": "public-order",
-                                "label": "Ordine pubblico, disturbo della quiete",
-                                "count": 89,
-                                "value": "ordine-pubblico"
-                            },
-                            {
-                                "id": "green",
-                                "label": "Parchi e verde pubblico",
-                                "count": 302,
-                                "value": "parchi"
-                            },
-                            {
-                                "id": "service",
-                                "label": "Servizi del comune",
-                                "count": 302,
-                                "value": "servizi"
-                            },
-                            {
-                                "id": "security",
-                                "label": "Sicurezza, degrado urbano e sociale",
-                                "count": 302,
-                                "value": "sicurezza"
-                            },
-                            {
-                                "id": "road",
-                                "label": "Strade, marciapiedi, segnaletica e viabilità",
-                                "count": 302,
-                                "value": "strade"
+                                "id": "list",
+                                "label": "fixcity::segnalazione.tabs.list.label",
+                                "active": false
                             }
                         ]
                     },
+                    "main_content": {
+                        "id": "filter-and-cards",
+                        "cta": {
+                            "title": "fixcity::segnalazione.map.cta.title.label",
+                            "text": "fixcity::segnalazione.map.cta.text.label",
+                            "button_text": "fixcity::segnalazione.map.cta.button.label"
+                        },
+                        "items": [
+                            {
+                                "title": "Buca in via Solferino",
+                                "type": "Verde pubblico e arredo urbano",
+                                "location": "Via Solferino, 15",
+                                "description": "Segnalazione di una buca in via Solferino",
+                                "images": []
+                            }
+                        ],
+                        "filters": {
+                            "title": "fixcity::segnalazione.filters.legend.label",
+                            "items": [
+                                {
+                                    "id": "water",
+                                    "label": "Acqua, allagamenti, problemi fognari",
+                                    "count": 21,
+                                    "value": "acqua,allagamenti,fogne"
+                                }
+                            ]
+                        }
+                    },
                     "contacts": {
+                        "id": "info-contacts",
                         "contact_title": "fixcity::segnalazione.contacts.title.label",
                         "contacts": [
                             {
                                 "label": "fixcity::segnalazione.contacts.faq.link.label",
                                 "url": "#",
-                                "icon": "it-help-circle",
-                                "data_element": null
-                            },
-                            {
-                                "label": "fixcity::segnalazione.contacts.assistance.link.label",
-                                "url": "#",
-                                "icon": "it-mail",
-                                "data_element": "contacts"
-                            },
-                            {
-                                "label": "fixcity::segnalazione.contacts.phone.link.label",
-                                "url": "#",
-                                "icon": "it-hearing",
-                                "data_element": null
-                            },
-                            {
-                                "label": "fixcity::segnalazione.contacts.appointment.link.label",
-                                "url": "#",
-                                "icon": "it-calendar",
-                                "data_element": "appointment-booking"
-                            }
-                        ],
-                        "issues": [
-                            {
-                                "label": "fixcity::segnalazione.contacts.issues.report.link.label",
-                                "url": "/it/tests/segnalazioni"
+                                "icon": "it-help-circle"
                             }
                         ]
                     }

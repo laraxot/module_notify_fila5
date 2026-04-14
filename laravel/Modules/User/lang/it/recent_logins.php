@@ -102,13 +102,7 @@ return [
         'resetColumnManager' => [
             'tooltip' => 'resetColumnManager',
             'icon' => 'resetColumnManager',
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
             'label' => 'resetColumnManager',
->>>>>>> Stashed changes
-=======
->>>>>>> 36abb5a44 (.)
         ],
     ],
     'navigation' => [

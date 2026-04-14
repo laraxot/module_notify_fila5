@@ -9,16 +9,16 @@
                 <div class="col-12">
                     <div class="it-header-slim-wrapper-content">
                         <a class="navbar-brand" target="_blank" href="#" aria-label="Vai al portale {Nome della Regione} - link esterno - apertura nuova scheda" title="Vai al portale {Nome della Regione}">Nome della Regione</a>
-                        <div class="it-header-slim-right-zone" role="navigation">
-                            <div class="nav-item dropdown">
-                                <button type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="languages" aria-haspopup="true">
+                        <div class="it-header-slim-right-zone" role="navigation" x-data="{ langOpen: false }">
+                            <div class="nav-item dropdown" @click.outside="langOpen = false">
+                                <button type="button" class="nav-link dropdown-toggle" @click="langOpen = !langOpen" :aria-expanded="langOpen.toString()" aria-controls="languages" aria-haspopup="true">
                                     <span class="visually-hidden">Lingua attiva:</span>
                                     <span>ITA</span>
                                     <svg class="icon">
                                         <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
                                     </svg>
                                 </button>
-                                <div class="dropdown-menu">
+                                <div class="dropdown-menu" x-show="langOpen" x-transition x-cloak>
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="link-list-wrapper">
@@ -33,7 +33,7 @@
                             </div>
                             <a class="btn btn-primary btn-icon btn-full" href="/it/tests/accesso-servizio" data-element="personal-area-login">
                                 <span class="rounded-icon" aria-hidden="true">
-                                    <svg class="icon icon-primary">
+                                    <svg class="icon icon-white">
                                         <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
                                     </svg>
                                 </span>
@@ -117,8 +117,8 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="it-search-wrapper">
-                                    <span class="d-none d-md-block">Cerca</span>
+                                <div class="it-search-wrapper d-flex align-items-center">
+                                    <span class="search-label me-2">Cerca</span>
                                     <button class="search-link rounded-icon" type="button" data-bs-toggle="modal" data-bs-target="#search-modal" aria-label="Cerca nel sito">
                                         <svg class="icon">
                                             <use href="/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg#it-search"></use>

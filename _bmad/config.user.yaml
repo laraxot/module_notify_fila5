@@ -1,6 +1,4 @@
 user_name: Xot
 communication_language: Italiano
-<<<<<<< HEAD
-=======
 document_output_language: Italiano
->>>>>>> origin/dev
+output_style: terse  # risposte compatte, no riassunti, prefer tables/bullets

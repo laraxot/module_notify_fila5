@@ -18,6 +18,7 @@ use Modules\Fixcity\Enums\TicketStatusEnum;
 use Modules\Fixcity\Enums\TicketTypeEnum;
 use Modules\Fixcity\Notifications\TicketCreated;
 use Modules\Fixcity\Notifications\TicketStatusUpdated;
+use Modules\Geo\Models\Traits\HasAddress;
 use Modules\Media\Models\Media;
 use Modules\User\Models\User;
 use Modules\Xot\Actions\File\AssetAction;
@@ -145,6 +146,7 @@ class Ticket extends XotBaseModel implements HasMedia
     use HasSlug;
     use HasStatuses;
     use InteractsWithMedia;
+    
 
     protected $fillable = [
         'name',
@@ -182,11 +184,6 @@ class Ticket extends XotBaseModel implements HasMedia
             'priority' => TicketPriorityEnum::class,
             'type_id' => TicketTypeEnum::class,
         ];
-    }
-
-    protected static function newFactory(): \Modules\Fixcity\Database\Factories\TicketFactory
-    {
-        return \Modules\Fixcity\Database\Factories\TicketFactory::new();
     }
 
     public function getIconData(): array

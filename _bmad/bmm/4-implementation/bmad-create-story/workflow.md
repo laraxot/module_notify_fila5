@@ -6,8 +6,12 @@
 - Communicate all responses in {communication_language} and generate all documents in {document_output_language}
 - Your purpose is NOT to copy from epics - it's to create a comprehensive, optimized story file that gives the DEV agent EVERYTHING needed for flawless implementation
 - COMMON LLM MISTAKES TO PREVENT: reinventing wheels, wrong libraries, wrong file locations, breaking regressions, ignoring UX, vague implementations, lying about completion, not learning from past work
-- EXHAUSTIVE ANALYSIS REQUIRED: You must thoroughly analyze ALL artifacts to extract critical context - do NOT be lazy or skim! This is the most important function in the entire development process!
-- UTILIZE SUBPROCESSES AND SUBAGENTS: Use research subagents, subprocesses or parallel processing if available to thoroughly analyze different artifacts simultaneously and thoroughly
+- EXHAUSTIVE RELEVANCE REQUIRED: thoroughly analyze the story-relevant evidence, but do NOT load or repeat unrelated artifacts
+- TOKEN-AWARE DEFAULT: prefer selective loading, index-guided discovery, grep/line-targeted reads, structured parsing, and concise summaries over full-file reads
+- MINIMUM SUFFICIENT CONTEXT: stop loading more material as soon as the story has actionable requirements, constraints, dependencies, tests, and source references
+- LOWEST SUFFICIENT REASONING: when model settings are available, prefer low effort / low verbosity unless the story is genuinely ambiguous or risky
+- WEB RESEARCH GATE: browse only for unstable facts, current versions, security/deprecation issues, or when the user explicitly asks for latest information
+- AVOID DUPLICATION: never restate the same rule from PRD, architecture, UX, previous story, and git history more than once in the final story file
 - SAVE QUESTIONS: If you think of questions or clarifications during analysis, save them for the end after the complete story is written
 - ZERO USER INTERVENTION: Process should be fully automated except for initial epic/story selection or missing documents
 
@@ -40,10 +44,10 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
 
 | Input | Description | Path Pattern(s) | Load Strategy |
 |-------|-------------|------------------|---------------|
-| prd | PRD (fallback - epics file should have most content) | whole: `{planning_artifacts}/*prd*.md`, sharded: `{planning_artifacts}/*prd*/*.md` | SELECTIVE_LOAD |
-| architecture | Architecture (fallback - epics file should have relevant sections) | whole: `{planning_artifacts}/*architecture*.md`, sharded: `{planning_artifacts}/*architecture*/*.md` | SELECTIVE_LOAD |
-| ux | UX design (fallback - epics file should have relevant sections) | whole: `{planning_artifacts}/*ux*.md`, sharded: `{planning_artifacts}/*ux*/*.md` | SELECTIVE_LOAD |
-| epics | Enhanced epics+stories file with BDD and source hints | whole: `{planning_artifacts}/*epic*.md`, sharded: `{planning_artifacts}/*epic*/*.md` | SELECTIVE_LOAD |
+| prd | PRD (fallback - epics file should have most content) | whole: `{planning_artifacts}/*prd*.md`, sharded: `{planning_artifacts}/*prd*/*.md` | INDEX_GUIDED |
+| architecture | Architecture (fallback - epics file should have relevant sections) | whole: `{planning_artifacts}/*architecture*.md`, sharded: `{planning_artifacts}/*architecture*/*.md` | INDEX_GUIDED |
+| ux | UX design (fallback - epics file should have relevant sections) | whole: `{planning_artifacts}/*ux*.md`, sharded: `{planning_artifacts}/*ux*/*.md` | INDEX_GUIDED |
+| epics | Enhanced epics+stories file with BDD and source hints | whole: `{planning_artifacts}/*epic*.md`, sharded: `{planning_artifacts}/*epic*/*.md` | STORY_SLICE |
 
 ---
 
@@ -92,10 +96,8 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
 
   <!-- Auto-discover from sprint status only if no user input -->
   <check if="no user input provided">
-    <critical>MUST read COMPLETE {sprint_status} file from start to end to preserve order</critical>
-    <action>Load the FULL file: {{sprint_status}}</action>
-    <action>Read ALL lines from beginning to end - do not skip any content</action>
-    <action>Parse the development_status section completely</action>
+    <critical>Preserve order, but avoid loading unrelated content. Prefer structured parsing or a targeted scan of the `development_status` block only.</critical>
+    <action>Read only the `development_status` section of {{sprint_status}} plus the nearest metadata needed to preserve ordering and update status safely</action>
 
     <action>Find the FIRST story (by reading in order from top to bottom) where:
       - Key matches pattern: number-number-name (e.g., "1-2-user-auth")
@@ -150,9 +152,7 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
 
     <action>GOTO step 2a</action>
   </check>
-  <action>Load the FULL file: {{sprint_status}}</action>
-  <action>Read ALL lines from beginning to end - do not skip any content</action>
-  <action>Parse the development_status section completely</action>
+  <action>Read only the `development_status` section of {{sprint_status}} plus any nearby metadata required for safe update</action>
 
   <action>Find the FIRST story (by reading in order from top to bottom) where:
     - Key matches pattern: number-number-name (e.g., "1-2-user-auth")
@@ -209,24 +209,24 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
 </step>
 
 <step n="2" goal="Load and analyze core artifacts">
-  <critical>🔬 EXHAUSTIVE ARTIFACT ANALYSIS - This is where you prevent future developer mistakes!</critical>
+  <critical>🔬 RELEVANCE-FIRST ARTIFACT ANALYSIS - prevent mistakes without bloating context</critical>
 
   <!-- Load all available content through discovery protocol -->
-  <action>Read fully and follow `./discover-inputs.md` to load all input files</action>
+  <action>Follow `./discover-inputs.md` using the smallest load that still resolves the story safely</action>
   <note>Available content: {epics_content}, {prd_content}, {architecture_content}, {ux_content},
   {project_context}</note>
 
   <!-- Analyze epics file for story foundation -->
-  <action>From {epics_content}, extract Epic {{epic_num}} complete context:</action> **EPIC ANALYSIS:** - Epic
-  objectives and business value - ALL stories in this epic for cross-story context - Our specific story's requirements, user story
-  statement, acceptance criteria - Technical requirements and constraints - Dependencies on other stories/epics - Source hints pointing to
+  <action>From {epics_content}, extract only the current story plus the minimum epic context needed for sequencing, dependencies, and business value:</action> **EPIC ANALYSIS:** - Epic
+  objective and business value - Neighboring stories or dependencies that affect this story - Our specific story's requirements, user story
+  statement, acceptance criteria - Technical requirements and constraints - Source hints pointing to
   original documents <!-- Extract specific story requirements -->
   <action>Extract our story ({{epic_num}}-{{story_num}}) details:</action> **STORY FOUNDATION:** - User story statement
   (As a, I want, so that) - Detailed acceptance criteria (already BDD formatted) - Technical requirements specific to this story -
   Business context and value - Success criteria <!-- Previous story analysis for context continuity -->
   <check if="story_num > 1">
     <action>Find {{previous_story_num}}: scan {implementation_artifacts} for the story file in epic {{epic_num}} with the highest story number less than {{story_num}}</action>
-    <action>Load previous story file: {implementation_artifacts}/{{epic_num}}-{{previous_story_num}}-*.md</action> **PREVIOUS STORY INTELLIGENCE:** -
+    <action>Load only the sections of the previous story that contain learnings, review notes, touched files, and testing guidance</action> **PREVIOUS STORY INTELLIGENCE:** -
   Dev notes and learnings from previous story - Review feedback and corrections needed - Files that were created/modified and their
   patterns - Testing approaches that worked/didn't work - Problems encountered and solutions found - Code patterns established <action>Extract
   all learnings that could impact current story implementation</action>
@@ -235,8 +235,8 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
   <!-- Git intelligence for previous work patterns -->
   <check
     if="previous story exists AND git repository detected">
-    <action>Get last 5 commit titles to understand recent work patterns</action>
-    <action>Analyze 1-5 most recent commits for relevance to current story:
+    <action>Get up to the last 3 relevant commit titles to understand recent work patterns</action>
+    <action>Analyze only commits that touch the same module, feature, or file family as the current story:
       - Files created/modified
       - Code patterns and conventions used
       - Library dependencies added/changed
@@ -253,10 +253,10 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
 
   <!-- Load architecture - single file or sharded -->
   <check if="architecture file is single file">
-    <action>Load complete {architecture_content}</action>
+    <action>Load only the architecture sections referenced by source hints, story scope, or project structure patterns</action>
   </check>
   <check if="architecture is sharded to folder">
-    <action>Load architecture index and scan all architecture files</action>
+    <action>Load architecture index, then only the shards relevant to this story's module, layer, or cross-cutting concern</action>
   </check> **CRITICAL ARCHITECTURE EXTRACTION:** <action>For
   each architecture section, determine if relevant to this story:</action> - **Technical Stack:** Languages, frameworks, libraries with
   versions - **Code Structure:** Folder organization, naming conventions, file patterns - **API Patterns:** Service structure, endpoint
@@ -275,12 +275,17 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
   <!-- Check for libraries/frameworks mentioned in architecture -->
   <action>From architecture analysis, identify specific libraries, APIs, or
   frameworks</action>
-  <action>For each critical technology, research latest stable version and key changes:
+  <check if="story references unstable external technology, current versions matter, security/deprecation status matters, or user asked for latest info">
+    <action>For each critical technology, research only the minimum current facts needed to implement safely:
     - Latest API documentation and breaking changes
     - Security vulnerabilities or updates
     - Performance improvements or deprecations
     - Best practices for current version
-  </action>
+    </action>
+  </check>
+  <check if="all relevant technology facts are local, stable, or already documented in repo artifacts">
+    <action>Skip web research and rely on local source documents</action>
+  </check>
   **EXTERNAL CONTEXT INCLUSION:** <action>Include in story any critical latest information the developer needs:
     - Specific library versions and why chosen
     - API endpoints with parameters and authentication
@@ -292,6 +297,8 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
 
 <step n="5" goal="Create comprehensive story file">
   <critical>📝 CREATE ULTIMATE STORY FILE - The developer's master implementation guide!</critical>
+  <action>Write in compact, high-signal form: short bullets, no filler prose, no repeated rules, and only sections with actionable content</action>
+  <action>Prefer references to source files/sections over copied paragraphs</action>
 
   <action>Initialize from template.md:
   {default_output_file}</action>
@@ -350,7 +357,7 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
   <!-- Update sprint status -->
   <check if="sprint status file exists">
     <action>Update {{sprint_status}}</action>
-    <action>Load the FULL file and read all development_status entries</action>
+    <action>Read only the `development_status` block and the fields needed to update `last_updated` while preserving structure</action>
     <action>Find development_status key matching {{story_key}}</action>
     <action>Verify current status is "backlog" (expected previous state)</action>
     <action>Update development_status[{{story_key}}] = "ready-for-dev"</action>

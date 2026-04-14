@@ -46,17 +46,25 @@
                         "maintenance": "Mancata manutenzione",
                         "urban_decorum": "Decoro urbano"
                     },
+                    "confirmation_slug": "segnalazione-04-conferma",
                     "current_step": 1,
                     "total_steps": 3,
                     "privacy_link": "#",
                     "privacy_intro": "Il Comune di Firenze gestisce i dati personali forniti e liberamente comunicati sulla base dell'articolo 13 del Regolamento (UE) 2016/679 General data protection regulation (Gdpr) e degli articoli 13 e successive modifiche e integrazione del decreto legislativo (di seguito d.lgs) 267/2000 (Testo unico enti locali).",
                     "privacy_detail_prefix": "Per i dettagli sul trattamento dei dati personali consulta l'",
                     "privacy_link_label": "informativa sulla privacy.",
-                    "privacy_checkbox_label": "Ho letto e compreso l'informativa sulla privacy",
+                    "privacy_checkbox_label": "Ho letto e compreso l'informativa sulla privacy"
+                }
+            },
+            {
+                "type": "contacts-card",
+                "data": {
+                    "view": "pub_theme::components.blocks.design-comuni.contacts-card",
                     "contacts": {
                         "faq": "#",
                         "assistenza": "#",
                         "phone": "05 0505",
+                        "phone_url": "#",
                         "appointment": "#"
                     }
                 }
@@ -101,17 +109,25 @@
                         "maintenance": "Missing maintenance",
                         "urban_decorum": "Urban decorum"
                     },
+                    "confirmation_slug": "segnalazione-04-conferma",
                     "current_step": 1,
                     "total_steps": 3,
                     "privacy_link": "#",
                     "privacy_intro": "The Municipality processes the personal data you provide according to the applicable privacy regulation.",
                     "privacy_detail_prefix": "For details about personal data processing see the",
                     "privacy_link_label": "privacy policy.",
-                    "privacy_checkbox_label": "I have read and understood the privacy notice",
+                    "privacy_checkbox_label": "I have read and understood the privacy notice"
+                }
+            },
+            {
+                "type": "contacts-card",
+                "data": {
+                    "view": "pub_theme::components.blocks.design-comuni.contacts-card",
                     "contacts": {
                         "faq": "#",
                         "assistenza": "#",
                         "phone": "05 0505",
+                        "phone_url": "#",
                         "appointment": "#"
                     }
                 }

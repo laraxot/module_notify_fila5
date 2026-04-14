@@ -14,9 +14,16 @@ Instead of 4 separate pages (01-privacy, 02-dati, 03-riepilogo, 04-conferma), th
 | Before | After |
 |--------|-------|
 | 4 separate pages | 1 page: `segnalazione-crea` |
-| Manual step navigation | Filament Wizard Widget |
+| Manual Blade step navigation | **Filament v5 Wizard Schema** |
+| Hundreds of Blade lines | **67-line thin wrapper view** |
 | JSON blocks per page | Single JSON with widget block |
 | 04-conferma separate | Still separate (redirect after submit) |
+
+**Implementation**: Uses `Filament\Schemas\Components\Wizard` + `Wizard\Step` (Filament v5).
+State managed in `$this->data` via `XotBaseWizardWidget::form()` (wrapper policy on top of `XotBaseWidget`, statePath: `data`).
+Blade view is a **wrapper** (header + `{{ $this->form }}` + contacts footer).
+
+Reference: [Filament v5 Wizards](https://filamentphp.com/docs/5.x/schemas/wizards)
 
 ### Component Structure
 
@@ -25,7 +32,7 @@ segnalazione-crea (page)
 ├── JSON: tests.segnalazione-crea.json
 ├── Blade: components/blocks/tests/segnalazione-crea.blade.php
 └── Widget: Modules/Fixcity/app/Filament/Widgets/CreateTicketWizardWidget.php
-    ├── View: Modules/Fixcity/resources/views/filament/widgets/ticket-create-wizard.blade.php
+    ├── View: Modules/Fixcity/resources/views/filament/widgets/ticket-create-wizard.blade.php (impostata esplicitamente su `CreateTicketWizardWidget::$view`; il file tema `filament/widgets/createticketwizard.blade.php` non è usato per questo widget perché `GetViewByClassAction` lo selezionerebbe altrimenti al posto del layout con sidebar)
     └── 3 Steps:
         ├── Step 1: Privacy (checkbox)
         ├── Step 2: Data (address, type, title, details, images, author)
@@ -47,31 +54,63 @@ segnalazione-crea (page)
 ## Widget Details
 
 ### Class: `CreateTicketWizardWidget`
-**Namespace**: `Modules\Fixcity\Filament\Widgets`  
+**Namespace**: `Modules\Fixcity\Filament\Widgets`
+**Extends**: `XotBaseWizardWidget`
 **NOT**: ~~`CreateSegnalazioneWizardWidget`~~ (incorrect naming)
 
-### Properties
-| Property | Type | Step | Purpose |
-|----------|------|------|---------|
-| `$currentStep` | int | - | Wizard navigation state |
-| `$privacyAccepted` | bool | 1 | Privacy consent |
-| `$address` | string | 2 | Location of issue |
-| `$issueType` | string | 2 | Type of issue |
-| `$title` | string | 2 | Ticket title |
-| `$details` | string | 2 | Ticket description |
-| `$email` | string | 2 | Contact email |
-| `$images` | array | 2 | Uploaded images |
-| `$userName` | string | 2 | Author name |
-| `$userFiscalCode` | string | 2 | Author fiscal code |
-| `$userPhone` | string | 2 | Author phone |
+### Key Properties
+| Property | Type | Purpose |
+|----------|------|---------|
+| `$blockData` | array | CMS JSON configuration |
+| `$wizardStartStep` | int | Initial step (from `?step=` query) |
 
-### Navigation Methods
+**Form state**: managed via `$this->data` (`XotBaseWizardWidget` / `XotBaseWidget`) — NOT individual public properties.
+
+### Wizard Schema (Filament v5)
+Composed via `XotBaseWizardWidget::getFormSchema()` and widget-provided steps:
+```php
+Wizard::make([
+    makeStepPrivacy(),   // Step 1: privacy notice statico + checkbox
+    makeStepData(),      // Step 2: address, type, title, details, images, author
+    makeStepSummary(),   // Step 3: summary read-only con Infolist entries
+])
+```
+
+### Key Methods
 | Method | Purpose |
 |--------|---------|
-| `nextStep()` | Validate current step + advance |
-| `prevStep()` | Go back to previous step |
-| `submit()` | Validate all + create Ticket + redirect |
-| `removeImage()` | Remove uploaded image |
+| `mount()` | Init blockData, resolve step, fill defaults |
+| `makeStepPrivacy()` | Build step 1 |
+| `makeStepData()` | Build step 2 (all inputs) |
+| `makeStepSummary()` | Build step 3 (read-only) via Infolist |
+| `submit()` | Validate, create Ticket, redirect |
+| `getWizardSteps()` | Ordered wizard step list |
+
+**REMOVED (old Blade-managed approach)**:
+- ~~`nextStep()`~~ — Filament wizard handles navigation
+- ~~`prevStep()`~~ — Filament wizard handles navigation
+- ~~`removeImage()`~~ — Filament FileUpload handles this
+
+### Governance updates
+
+- No explicit `->label()` / `->tooltip()` customization on wizard actions in this widget: localization is managed by the project translation/auto-label stack.
+- No local `Log::error()` in widget submit flow: user feedback is handled through field error + Filament notification.
+- No locale literals in PHP runtime widget code: summary section labels/descriptions come from translation keys.
+- Payload mapping for ticket creation follows explicit normalization contract (`trim`, `blank -> null`, enum fallback, type-safe owner resolution) and is not kept as inline cast soup.
+- Geolocation action "use my location" must expose runtime feedback (spinner + busy state) to make async GPS/reverse-geocode progress visible.
+- Data step parity must keep the same semantic grouping as Design Comuni reference: `luogo`, `disservizio`, `autore della segnalazione`; author block rendered as read-only infolist-style summary plus contact input.
+- Step 2 implementation parity: use explicit `Section` grouping (`Luogo`, `Disservizio`, `Autore della segnalazione`) and keep author data visually read-only before contact edit fields.
+- Data step visual parity must use `Section` as the primary grouping primitive and reserve `Infolist` for genuinely read-only structured data, so the local step keeps the same cognitive rhythm as `segnalazione-02-dati`.
+- Visual cleanup rule: avoid nested collapsible cards inside `Autore della segnalazione` when they reduce readability; keep contact edit as direct field and style through Filament `fi-*` selectors (`fi-section`, `fi-section-content-ctn`, `fi-sc-text`).
+- Final parity consolidation tracked in [7-50 segnalazione-crea step2 high html visual parity](../../../../_bmad-output/implementation-artifacts/7-50-segnalazione-crea-step2-high-html-visual-parity.md) for residual gaps and anti-regression guardrails.
+- Ultra-parity follow-up tracked in [7-51 segnalazione-crea step2 columns header ultra parity](../../../../_bmad-output/implementation-artifacts/7-51-segnalazione-crea-step2-columns-header-ultra-parity.md), focused on left/center column width, vertical rhythm and header readability on the real step-2 URL.
+- Scope 7-50 is page-level, not widget-only: left helper column width, center content width, vertical spacing density, and header readability are part of acceptance, because the Design Comuni reference is perceived as one page, not as an isolated card.
+- HTML parity guardrail: avoid theme-level wrapper divs around the wizard mount point when they do not exist in the reference DOM (example removed: `segnalazione-crea-wrapper`).
+- Summary step parity uses native Filament Infolists (`TextEntry`, `ImageEntry`) for read-only structured data; avoid fallback to generic placeholders for primary summary entries.
+- Privacy/instructional copy is not a summary entry: for static notice content prefer Filament `Schemas` prime components (`Text`, `Image`, ...) instead of deprecated `Placeholder`.
+- Stability gate for `segnalazione-crea`: run `composer run-script guard:fixcity-wizard` (from `laravel/`) plus HTTP smoke `curl -I --max-time 15 http://127.0.0.1:8000/it/tests/segnalazione-crea` after each wizard refactor.
+- Privacy step parity: before `privacyAccepted` checkbox, show GDPR notice text block ("Il Comune di Firenze gestisce i dati personali...") with explicit privacy link, aligned with Design Comuni step 1 reference.
+- Step 2 parity rule: `Section` governs visual hierarchy, `Infolist` governs read-only author data. Do not flatten the page into a single undifferentiated form card.
 
 ---
 
@@ -107,7 +146,7 @@ All translations use: `fixcity::segnalazione.steps.<item>.<tipo>`
 
 ### CSS Fixes Applied
 
-1. **Body class**: Added `page-tests-{slug}` class to body in `main.blade.php`
+1. **Parity scoping**: use page-scoped selectors on `div.page-content[data-slug="tests.segnalazione-crea"]`, not body classes
 2. **Stepper colors**: Fixed to green `#007A52` (not blue `#17334f`)
 3. **Form check margins**: Fixed to `40px` (was `24px/16px`)
 4. **Privacy label**: Fixed to `18px` (was `14px`)
@@ -157,6 +196,7 @@ User fills Step 1 (Privacy)
 - [Widget View](../../../laravel/Modules/Fixcity/resources/views/filament/widgets/ticket-create-wizard.blade.php)
 - [Page JSON](../../../laravel/config/local/fixcity/database/content/pages/tests.segnalazione-crea.json)
 - [Page Blade](../../../laravel/Themes/Sixteen/resources/views/components/blocks/tests/segnalazione-crea.blade.php)
+- [Wizard governance story](../../../../Modules/Fixcity/docs/stories/wizard-governance-langserviceprovider-and-xotbase-refactor.md)
 
 ---
 

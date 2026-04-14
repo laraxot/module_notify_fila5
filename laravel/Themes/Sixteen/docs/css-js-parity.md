@@ -4,6 +4,9 @@
 Lavorando SOLO su CSS/JS (HTML è sacro, 99.8%+ parity strutturale), rendere il sito
 visivamente identico al reference: https://italia.github.io/design-comuni-pagine-statiche/sito/
 
+### Body minimale vs scope visivo
+Per il **diff HTML** sul tag `<body>`, le rotte `/tests/*` non devono affidarsi a `class="page-tests-{slug}"` sul body (vedi [html-parity-body-policy.md](html-parity-body-policy.md)). Gli override visivi vanno su wrapper/`data-tests-slug` e selettori derivati.
+
 ## Stato Attuale (2026-04-09)
 
 ### ✅ segnalazione-01-privacy — COMPLETE
@@ -54,7 +57,7 @@ When fixing fonts on Design Comuni pages, ALWAYS check for conflicting rules wit
 
 ### Visual Issues Found (CSS/JS Phase)
 - **segnalazione-01-privacy**: ✅ FIXED - stepper shadow box, green active tab, hidden counter, brand no underline, flat contacts card
-- **segnalazione-02-dati**: ⚠️ CSS fixed (form underline style, font, stepper), but raw `fixcity::` translation keys showing (data issue)
+- **segnalazione-02-dati**: ✅ Story [7-3](../../../../_bmad-output/implementation-artifacts/7-3-segnalazione-02-dati-html-visual-parity.md) — §27 CSS allineata ai selettori reali del Blade (`steppers-btn-*`, `.cmp-card`, `.upload-wrapper`); testo contatti e pulsanti wizard da `fixcity::segnalazione.*`; navigazione passi come link (`prev`/`next`); alert “salva” con Alpine locale (nessun `confirmAndProceed()` fantasma).
 - **segnalazione-03-riepilogo**: Phone shows literal `:phone` instead of actual number (data issue)
 - **segnalazione-04-conferma**: Stepper shows circles instead of tabs; missing wrapper structure
 - **segnalazione-dettaglio**: Empty green line gaps between content sections
@@ -74,7 +77,7 @@ When fixing fonts on Design Comuni pages, ALWAYS check for conflicting rules wit
 - Font: 16px Titillium Web #191919
 - Stepper: shadow box styling
 - Contacts: green links
-- **Limitation**: Raw `fixcity::` translation keys (data issue, not CSS)
+- §27 (2026-04-09, story 7-3): regole applicate a classi presenti nel markup; label form scoped su `.cmp-card` / `.cmp-text-area`; upload su `.btn-wrapper .btn-primary`; righe file su `.upload-wrapper`; autore su `#report-author .cmp-info-button-card`
 
 ## Architettura CSS
 

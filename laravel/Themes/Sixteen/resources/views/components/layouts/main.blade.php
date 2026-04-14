@@ -33,6 +33,7 @@
             @filamentStyles
         @elseif($usesFrontendLivewire)
             @livewireStyles
+            @filamentStyles
         @endif
         @if($isTestsRoute && ! $usesFrontendLivewire)
             @vite(['resources/css/app.css'], 'themes/Sixteen')
@@ -51,7 +52,10 @@
             @filamentScripts
             @vite(['resources/js/app.js'], 'themes/Sixteen')
         @elseif($usesFrontendLivewire)
+            {{-- Frontend Livewire with Filament Schema (Wizard) — needs Filament scripts too --}}
             @livewireScripts
+            @filamentScripts
+            @vite(['resources/js/app.js'], 'themes/Sixteen')
         @elseif($isTestsRoute)
             {{-- Test routes: load theme JS after Livewire/Volt boots Alpine --}}
             @vite(['resources/js/app.js'], 'themes/Sixteen')

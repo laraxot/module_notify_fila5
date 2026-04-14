@@ -15,13 +15,19 @@
                     "title": "Segnalazione disservizio",
                     "current_step": 3,
                     "total_steps": 3,
-                    "steps": ["Autorizzazioni e condizioni", "Dati di segnalazione", "Riepilogo"],
+                    "steps": [
+                        "Autorizzazioni e condizioni",
+                        "Dati di segnalazione",
+                        "Riepilogo"
+                    ],
                     "report": {
                         "address": "Via Solferino - 50100 Firenze (FI)",
-                        "type": "Danneggiamento proprietà pubblica",
+                        "type": "Danneggiamento propriet\u00e0 pubblica",
                         "title": "Panchina danneggiata",
                         "details": "La seduta della panchina risulta inutilizzabile e pericolosa dato che ci sono molte schegge e parti appuntite",
-                        "images": ["6yhakandsahm413d8da.jpg"]
+                        "images": [
+                            "6yhakandsahm413d8da.jpg"
+                        ]
                     },
                     "user": {
                         "name": "Giulia Bianchi",
@@ -29,6 +35,37 @@
                         "phone": "+39 331 1234567",
                         "email": "giulia.bianchi@gmail.com"
                     }
+                }
+            },
+            {
+                "type": "contacts-card",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.default",
+                    "heading": "Contatta il comune",
+                    "items": [
+                        {
+                            "label": "Leggi le domande frequenti",
+                            "url": "#",
+                            "icon": "it-help-circle"
+                        },
+                        {
+                            "label": "Richiedi assistenza",
+                            "url": "#",
+                            "icon": "it-mail",
+                            "data_element": "contacts"
+                        },
+                        {
+                            "label": "Chiama il numero verde 05 0505",
+                            "url": "#",
+                            "icon": "it-hearing"
+                        },
+                        {
+                            "label": "Prenota appuntamento",
+                            "url": "#",
+                            "icon": "it-calendar",
+                            "data_element": "appointment-booking"
+                        }
+                    ]
                 }
             }
         ],

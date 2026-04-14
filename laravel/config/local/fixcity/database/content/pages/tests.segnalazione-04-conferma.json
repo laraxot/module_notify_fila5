@@ -14,10 +14,26 @@
                     "title": "Segnalazione disservizio",
                     "description": "Segnala un disservizio riscontrato",
                     "steps": [
-                        {"title": "Privacy", "description": "Informativa e consenso", "completed": true},
-                        {"title": "Dati", "description": "I tuoi dati", "completed": true},
-                        {"title": "Dettagli", "description": "Descrivi il problema", "completed": true},
-                        {"title": "Conferma", "description": "Segnalazione inviata", "completed": false}
+                        {
+                            "title": "Privacy",
+                            "description": "Informativa e consenso",
+                            "completed": true
+                        },
+                        {
+                            "title": "Dati",
+                            "description": "I tuoi dati",
+                            "completed": true
+                        },
+                        {
+                            "title": "Dettagli",
+                            "description": "Descrivi il problema",
+                            "completed": true
+                        },
+                        {
+                            "title": "Conferma",
+                            "description": "Segnalazione inviata",
+                            "completed": false
+                        }
                     ],
                     "currentStep": 4,
                     "navigable": false,
@@ -30,7 +46,7 @@
                     "view": "pub_theme::components.blocks.flow.segnalazione.04-conferma",
                     "title": "Segnalazione inviata",
                     "summary_html": "Grazie, abbiamo ricevuto la tua <strong>segnalazione SEG-2025-005678.</strong>",
-                    "visibility_html": "Sarà visibile sulla <a href=\"/it/tests/segnalazioni-elenco\" class=\"t-primary\">lista di tutte le segnalazioni</a> una volta presa in carico dall'amministrazione.",
+                    "visibility_html": "Sar\u00e0 visibile sulla <a href=\"/it/tests/segnalazioni-elenco\" class=\"t-primary\">lista di tutte le segnalazioni</a> una volta presa in carico dall'amministrazione.",
                     "email_intro_html": "Abbiamo inviato il riepilogo all'email:",
                     "email": "giulia.bianchi@gmail.com",
                     "receipt": {
@@ -82,9 +98,40 @@
                     },
                     "show_rating": true,
                     "rating": {
-                        "title": "Quanto è stato facile usare questo servizio?",
-                        "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
+                        "title": "Quanto \u00e8 stato facile usare questo servizio?",
+                        "subtitle": "Grazie, il tuo parere ci aiuter\u00e0 a migliorare il servizio!"
                     }
+                }
+            },
+            {
+                "type": "contacts-card",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.default",
+                    "heading": "Contatta il comune",
+                    "items": [
+                        {
+                            "label": "Leggi le domande frequenti",
+                            "url": "#",
+                            "icon": "it-help-circle"
+                        },
+                        {
+                            "label": "Richiedi assistenza",
+                            "url": "#",
+                            "icon": "it-mail",
+                            "data_element": "contacts"
+                        },
+                        {
+                            "label": "Chiama il numero verde 05 0505",
+                            "url": "#",
+                            "icon": "it-hearing"
+                        },
+                        {
+                            "label": "Prenota appuntamento",
+                            "url": "#",
+                            "icon": "it-calendar",
+                            "data_element": "appointment-booking"
+                        }
+                    ]
                 }
             }
         ],

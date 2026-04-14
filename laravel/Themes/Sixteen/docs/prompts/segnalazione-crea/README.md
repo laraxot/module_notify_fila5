@@ -9,9 +9,9 @@ Pagina unificata che raggruppa le pagine legacy:
 ## Regole implementative
 - naming classi PHP: usare `Ticket`, NON `Segnalazione`
 - widget corretto: `Modules\Fixcity\Filament\Widgets\CreateTicketWizardWidget`
-- Estende `BaseWidget` con `InteractsWithForms` + `InteractsWithActions`
-- **NON** usa `Filament\Schemas\Components\Wizard` (asset JS non disponibili nel frontoffice)
-- Navigazione step via stato Livewire puro (`$currentStep`)
+- Estende `XotBaseWizardWidget` (specializzazione multi-step su `XotBaseWidget`)
+- **Usa** `Filament\Schemas\Components\Wizard` + `Wizard\Step` in `getFormSchema()`; vista Blade solo wrapper + `{{ $this->form }}`
+- Navigazione step gestita dal wizard Filament; override `?step=` quando consentito (vedi `ticket-wizard-frontoffice.md`)
 
 ## UX target
 - aspetto iniziale coerente con `segnalazione-01-privacy`

@@ -1,267 +1,31 @@
-# Laravel Themes - Master Index
+# Laravel Themes Documentation
 
-## Overview
+This directory routes to the active documentation roots for the Laravel themes in this repository.
 
-This directory contains documentation for all Laravel themes in the PTVX ecosystem. Each theme is a self-contained styling and presentation layer that integrates with the modular backend.
+## Current Themes
 
-## Project Structure
+| Theme | Role | Status | Docs |
+| --- | --- | --- | --- |
+| `Sixteen` | active public-facing theme aligned with Design Comuni and Bootstrap Italia parity work | active | [README](../Sixteen/docs/README.md) |
+| `TwentyOne` | alternative theme with Vite and Tailwind-based frontoffice work | available | [README](../TwentyOne/docs/README.md) |
 
-```
-<project_root>/
-├── public_html/              # DOCUMENT ROOT (web accessible)
-│   ├── index.php            # Entry point
-│   ├── assets/              # Public assets
-│   └── themes/              # Theme assets (build output)
-├── laravel/Themes/          # All themes (source code)
-├── laravel/Modules/         # All modules
-├── docs/                     # Project-wide documentation
-└── bashscripts/             # Shell scripts
-```
+## Theme Rules
 
-> **Note**: Replace `<project_root>` with your actual project path (e.g., `base_fixcity_fila5`, `my-project`, etc.)
+- The active documentation home for a theme is `laravel/Themes/<Theme>/docs/README.md`.
+- Keep root theme indexes short; they should route to the theme, not duplicate the theme docs.
+- Treat generated screenshots, vendor docs, and `node_modules/**/docs` as supporting material, not as canonical repository guidance.
+- Use project-level rules from [docs/project/docs-governance.md](../../../docs/project/docs-governance.md).
 
-## Theme List
+## Runtime Context
 
-| Theme | Description | Documentation | Status | Config |
-|-------|-------------|---------------|--------|--------|
-| **Sixteen** | AGID/Bootstrap Italia compliant theme for PA | [docs/](Sixteen/docs/) | ✅ **ACTIVE** | `localhost/xra.php` |
-| **TwentyOne** | Modern Tailwind CSS theme with Vite build | [docs/](TwentyOne/docs/) | 📦 Available | (configurable) |
+- Web document root: `public_html/`
+- Application code: `laravel/`
+- Theme assets are published under `public_html/themes/<Theme>/`
 
-## Active Theme
+## Fast Paths
 
-**Current Active Theme**: **Sixteen**  
-**Domain**: `[YOUR_DOMAIN]` (e.g., `your-project.local`)  
-**Configuration**: `laravel/config/[your_config]/xra.php` → `pub_theme`  
-**Document Root**: `public_html/`  
-**Theme Assets**: `public_html/themes/Sixteen/`
-
-**Theme Context**: [.planning/THEME_CONTEXT.md](../../../../.planning/THEME_CONTEXT.md)
-
-> **Note**: Replace `[YOUR_DOMAIN]` and `[your_config]` with your actual project configuration.
-
-## Architectural Principles
-
-### Document Root
-
-**CRITICAL**: The web server document root is `public_html/`, NOT `laravel/`.
-
-- **Entry Point**: `public_html/index.php`
-- **Theme Assets**: `public_html/themes/{ThemeName}/`
-- **Laravel App**: `laravel/` (not web accessible)
-
-### Build Process
-
-Themes use Vite for asset compilation:
-
-```bash
-# Development
-npm run dev
-
-# Production build
-npm run build
-
-# Copy to public_html
-npm run copy
-```
-
-### Asset Loading
-
-```blade
-{{-- In Blade templates --}}
-@vite(['themes/twentyone/resources/css/app.css', 'themes/twentyone/resources/js/app.js'])
-```
-
-## Theme Structure
-
-Standard theme structure:
-
-```
-Themes/ThemeName/
-├── app/                   # PHP components (View Composers, etc.)
-├── docs/                  # Theme documentation
-├── public/                # Build output (temporary)
-├── resources/
-│   ├── css/               # Source CSS (Tailwind, custom)
-│   ├── js/                # Source JavaScript
-│   └── views/             # Blade templates
-│       ├── components/    # Blade components
-│       ├── layouts/       # Layout templates
-│       └── pages/         # Page templates
-├── tailwind.config.js     # Tailwind configuration
-├── vite.config.js         # Vite configuration
-├── package.json           # NPM dependencies
-└── theme.json             # Theme metadata
-```
-
-## Development Guidelines
-
-### CSS Framework
-
-All themes use **Tailwind CSS v4** as the primary CSS framework:
-
-```javascript
-// tailwind.config.js
-module.exports = {
-  content: [
-    './resources/**/*.blade.php',
-    './resources/**/*.js',
-    './resources/**/*.vue',
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-### Component Development
-
-Blade components follow this pattern:
-
-```blade
-{{-- resources/views/components/button.blade.php --}}
-@props(['variant' => 'primary', 'size' => 'md'])
-
-@php
-$classes = match($variant) {
-    'primary' => 'bg-blue-600 hover:bg-blue-700',
-    'secondary' => 'bg-gray-600 hover:bg-gray-700',
-    default => 'bg-blue-600 hover:bg-blue-700',
-};
-
-$sizeClasses = match($size) {
-    'sm' => 'px-3 py-1.5 text-sm',
-    'md' => 'px-4 py-2 text-base',
-    'lg' => 'px-6 py-3 text-lg',
-    default => 'px-4 py-2 text-base',
-};
-@endphp
-
-<button {{ $attributes->merge(['class' => "$classes $sizeClasses rounded"]) }}>
-    {{ $slot }}
-</button>
-```
-
-### Responsive Design
-
-All themes follow mobile-first responsive design:
-
-```blade
-<div class="
-    grid
-    grid-cols-1
-    sm:grid-cols-2
-    lg:grid-cols-3
-    xl:grid-cols-4
-    gap-4
-">
-    {{-- Content --}}
-</div>
-```
-
-## Theme-Specific Documentation
-
-### Sixteen ✅ ACTIVE THEME
-
-AGID/Bootstrap Italia compliant theme for Italian Public Administration:
-
-- **Status**: ✅ **ACTIVE** (fixcity.local)
-- **Design**: Bootstrap Italia design system
-- **Compliance**: AGID guidelines, WCAG 2.1 AA
-- **Framework**: Tailwind CSS (Bootstrap Italia port)
-- **Config**: `laravel/config/localhost/xra.php` → `pub_theme`
-- **Features**:
-  - PA-compliant components
-  - Accessibility built-in
-  - SPID integration (planned)
-  - PagoPA integration (planned)
-
-**Documentation**: [Sixteen/docs/](Sixteen/docs/)
-
-### TwentyOne 📦 AVAILABLE THEME
-
-Modern, minimalist theme built with Tailwind CSS:
-
-- **Status**: 📦 **AVAILABLE** (can be activated)
-- **Design**: Clean, modern aesthetic
-- **Framework**: Tailwind CSS v4
-- **Build**: Vite
-- **Config**: Update `pub_theme` in config to activate
-- **Features**:
-  - Responsive layouts
-  - Dark mode support
-  - Component library
-  - Performance optimized
-
-**Documentation**: [TwentyOne/docs/](TwentyOne/docs/)
-
-## Quality Gates
-
-### Before Commit
-
-```bash
-# Build check
-npm run build
-
-# Linting
-npm run quality
-
-# Test accessibility (Sixteen)
-npm run test:a11y
-
-# Performance check
-npm run lighthouse
-```
-
-### Performance Targets
-
-| Metric | Target |
-|--------|--------|
-| Lighthouse Score | > 90 |
-| CSS Bundle Size | < 300KB |
-| JS Bundle Size | < 200KB |
-| First Contentful Paint | < 1.5s |
-| Time to Interactive | < 3.5s |
-
-## Integration with Modules
-
-Themes integrate with modules via:
-
-1. **Blade Components**: Reusable UI components
-2. **Layout Templates**: Shared page layouts
-3. **Asset Pipeline**: Centralized build process
-4. **View Namespaces**: Module-specific views
-
-```blade
-{{-- Use module views with theme layout --}}
-@extends('theme::layouts.app')
-
-@section('content')
-    @include('[your_module]::tickets.index')
-@endsection
-```
-
-> **Note**: Replace `[your_module]` with your actual module namespace (e.g., `fixcity`, `blog`, `user`, etc.)
-
-## Related Documentation
-
-- **Modules**: [laravel/Modules/docs/](../Modules/docs/)
-  - [VHost Configuration](../Modules/docs/vhost-configuration.md) - Apache setup
-- **Project Docs**: [docs/](../../../../docs/)
-  - [VHost Configuration](../../../../docs/project/vhost-configuration.md) - Complete guide
-- **Bash Scripts**: [bashscripts/docs/](../../../../bashscripts/docs/)
-- **AGENTS.md**: [AGENTS.md](../../../../AGENTS.md)
-
-## Support
-
-- **Issues**: [GitHub Issues](https://github.com/your-org/your-repo/issues)
-- **Documentation**: [Project Docs](../../../../docs/)
-- **Team**: [Your Team Name]
-
----
-
-**Last Updated**: March 30, 2026
-**Version**: 1.0.0
-**Total Themes**: 2
-
-> **Note**: Replace `your-org`, `your-repo`, and `[Your Team Name]` with your actual project information.
+- Active theme docs: [Sixteen](../Sixteen/docs/README.md)
+- Alternative theme docs: [TwentyOne](../TwentyOne/docs/README.md)
+- Module index: [laravel/Modules/docs/README.md](../../Modules/docs/README.md)
+- Shared project docs: [docs/README.md](../../../docs/README.md)
+- Agent rules: [AGENTS.md](../../../AGENTS.md)

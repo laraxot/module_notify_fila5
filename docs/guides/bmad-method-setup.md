@@ -6,6 +6,11 @@
 
 ---
 
+## documentazione canonica (naming stabile)
+
+- [setup e configurazione](../bmad/setup-guide.md)
+- [quick reference](../bmad/quick-reference.md)
+
 ## Cos'è il BMAD Method
 
 **BMAD** = **B**reakthrough **M**ethod for **A**gile **A**i **D**riven Development

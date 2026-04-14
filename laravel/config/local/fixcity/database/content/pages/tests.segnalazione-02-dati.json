@@ -15,20 +15,66 @@
                     "title": "Segnalazione disservizio",
                     "current_step": 2,
                     "total_steps": 3,
-                    "steps": ["Informativa sulla privacy", "Dati di segnalazione", "Riepilogo"],
-                    "inefficiency_types": ["Danneggiamento proprietà pubblica", "Mancata manutenzione", "Decoro urbano"],
+                    "steps": [
+                        "Informativa sulla privacy",
+                        "Dati di segnalazione",
+                        "Riepilogo"
+                    ],
+                    "text": {
+                        "breadcrumb_aria": "breadcrumb",
+                        "required_note": "I campi contraddistinti dal simbolo asterisco sono obbligatori",
+                        "sidebar_title": "INFORMAZIONI RICHIESTE",
+                        "place_help": "Indica il luogo del disservizio",
+                        "use_my_location": "Usa la tua posizione",
+                        "inefficiency_heading": "Disservizio",
+                        "inefficiency_label": "Tipo di disservizio**",
+                        "inefficiency_placeholder": "Tipo di disservizio*",
+                        "title_label": "Titolo*",
+                        "details_label": "Dettagli**",
+                        "details_max": "Inserire al massimo 200 caratteri",
+                        "author_about": "Informazione su di te",
+                        "steps_nav": "Step"
+                    },
                     "placeholders": {
-                        "search_place": "Cerca un luogo*",
-                        "inefficiency_type": "Tipo di disservizio*",
-                        "title": "Titolo*",
-                        "details": "Dettagli**"
+                        "search_place": "Cerca un luogo*"
                     },
                     "user": {
                         "name": "Giulia Bianchi",
                         "cf": "GLABNC72H25H501Y",
                         "phone": "+39 331 1234567",
-                        "email": "giulia.bianchi@gmail.com"
+                        "email": "mario.rossi@gmail.com"
                     }
+                }
+            },
+            {
+                "type": "contacts-card",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.default",
+                    "heading": "Contatta il comune",
+                    "items": [
+                        {
+                            "label": "Leggi le domande frequenti",
+                            "url": "#",
+                            "icon": "it-help-circle"
+                        },
+                        {
+                            "label": "Richiedi assistenza",
+                            "url": "#",
+                            "icon": "it-mail",
+                            "data_element": "contacts"
+                        },
+                        {
+                            "label": "Chiama il numero verde 05 0505",
+                            "url": "#",
+                            "icon": "it-hearing"
+                        },
+                        {
+                            "label": "Prenota appuntamento",
+                            "url": "#",
+                            "icon": "it-calendar",
+                            "data_element": "appointment-booking"
+                        }
+                    ]
                 }
             }
         ],

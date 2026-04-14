@@ -34,6 +34,7 @@
 **Component System**:
 - [/blocks/](blocks/) - Block component documentation
 - [/components/](components/) - Blade component reference
+- [architecture/CSS-SCOPING-RULE.md](architecture/CSS-SCOPING-RULE.md) - Regola canonica: body plain, scoping solo su `page-content[data-slug][data-side]`, mai su `tests-view-wrapper`
 
 **Design System**:
 - Color palette & tokens → See PHASE-1-STRATEGY.md § "Design Tokens"
@@ -490,4 +491,3 @@ Timeline: 90-150 minutes total (parallel execution)
 ```
 
 For detailed status, see: **PHASE-1-EXECUTION-STATUS.md**
-

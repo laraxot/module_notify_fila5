@@ -10,6 +10,8 @@
 
 ### For Developers
 - 🚀 [Getting Started](quick-start.md)
+- 📄 **Theme Sixteen — parity HTML `<body>`** (Design Comuni: body minimale, scope CSS su wrapper): [html-parity-body-policy.md](../laravel/Themes/Sixteen/docs/html-parity-body-policy.md)
+- 🧭 **Wizard segnalazione-crea — geolocalizzazione step 2 e `?step=`** (doc modulo + story): [ticket-wizard-frontoffice.md](../laravel/Modules/Fixcity/docs/ticket-wizard-frontoffice.md) · [story 7-33](../_bmad-output/implementation-artifacts/7-33-segnalazione-crea-step2-geolocation-use-my-location-and-step-query.md)
 - 📖 [AGENTS.md](../../AGENTS.md) - Main development guide
 - 🏗️ [Architecture](architecture/README.md)
 - 📝 [Conventions](conventions/README.md)

@@ -475,10 +475,76 @@ html, body {
   color: #191919;
 }
 
-/* Mobile hamburger menu */
+/* Mobile hamburger menu - centered vertically */
 .custom-navbar-toggler {
   @apply border-0 bg-transparent p-2 block;
   color: #191919;
+  align-self: center;
+}
+
+/* Hamburger menu icon vertical centering */
+.navbar .custom-navbar-toggler .icon {
+  @apply align-middle;
+  vertical-align: middle;
+}
+
+/* Slim wrapper: language selector + user button contrast */
+.it-header-slim-wrapper {
+  background-color: #00333A !important;
+}
+
+.it-header-slim-wrapper .nav-link {
+  @apply text-white;
+  color: #ffffff !important;
+}
+
+.it-header-slim-wrapper .nav-link .icon {
+  fill: #ffffff !important;
+}
+
+.it-header-slim-wrapper .btn-primary {
+  background-color: #0066CC !important;
+  border-color: #0066CC !important;
+}
+
+.it-header-slim-wrapper .btn-primary .icon {
+  fill: #ffffff !important;
+}
+
+.it-header-slim-wrapper .btn-primary span:not(.rounded-icon) {
+  @apply text-white;
+  color: #ffffff !important;
+}
+
+/* Slim wrapper right zone alignment */
+.it-header-slim-right-zone {
+  @apply flex items-center gap-2;
+}
+
+/* Language dropdown styling */
+.it-header-slim-wrapper .dropdown-menu {
+  @apply mt-2;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.it-header-slim-wrapper .dropdown-item {
+  @apply text-gray-800 hover:bg-gray-100;
+  color: #191919;
+}
+
+/* Search label visible at all breakpoints */
+.search-label {
+  @apply text-white text-sm;
+  color: #ffffff !important;
+}
+
+/* User button icon white */
+.btn-primary .icon-white,
+.it-header-slim-wrapper .btn .icon {
+  fill: #ffffff !important;
 }
 
 @media (min-width: 992px) {

@@ -117,7 +117,7 @@
    Reference uses: rgb(0,0,0), rgb(212,212,212), rgb(69,90,100), rgb(93,112,131)
    ============================================================================ */
 
-/* Body text - reference uses rgb(26,26,26) = #1a1a1a */
+/* Body text - reference uses rgb(26,26,26) = #1a1a1a for body, rgb(0,0,0) = #000000 for key text */
 body {
   color: #1a1a1a !important;
 }
@@ -132,20 +132,24 @@ h1, h2, h3, h4, h5, h6,
 /* Secondary text - reference uses rgb(69,90,100) = #455a64 */
 .text-muted,
 .u-grey-dark,
-.subtitle-small {
+.subtitle-small,
+.title-xsmall {
   color: #455a64 !important;
 }
 
 /* Tertiary text - reference uses rgb(93,112,131) = #5d7083 */
 .text-paragraph-small,
-.label-input {
+.label-input,
+.title-xsmall-bold {
   color: #5d7083 !important;
 }
 
 /* Border colors - reference uses rgb(212,212,212) = #d4d4d4 */
 .border-light,
 hr,
-.form-check .checkbox-body {
+.form-check .checkbox-body,
+.single-line-info.border-light,
+.accordion-header .accordion-button {
   border-color: #d4d4d4 !important;
 }
 
@@ -159,7 +163,7 @@ a.t-primary {
   color: #004d33 !important;
 }
 
-/* Header slim wrapper - reference uses dark blue */
+/* Header slim wrapper - reference uses dark blue #17334f */
 .it-header-slim-wrapper {
   background-color: #17334f !important;
 }
@@ -169,16 +173,23 @@ a.t-primary {
   background-color: #ffffff !important;
 }
 
-/* Header navbar wrapper - reference uses white */
+/* Header navbar wrapper - reference uses white with border */
 .it-header-navbar-wrapper {
   background-color: #ffffff !important;
   border-bottom: 1px solid #e5e5e5 !important;
 }
 
-/* Footer background - reference uses dark blue */
+/* Footer background - reference uses dark blue #17334f */
 .it-footer,
 footer.it-footer {
   background-color: #17334f !important;
+  color: #ffffff !important;
+}
+
+/* Footer links - white text */
+.it-footer a,
+.it-footer .footer-list a,
+.it-footer .footer-heading-title {
   color: #ffffff !important;
 }
 
@@ -190,6 +201,98 @@ footer.it-footer {
 /* Card backgrounds */
 .card.has-bkg-grey {
   background-color: #ebeef0 !important;
+}
+
+/* Form backgrounds - white */
+.form-group.bg-white,
+.text-area-wrapper.bg-white,
+.cmp-text-area.bg-white {
+  background-color: #ffffff !important;
+}
+
+/* Select wrapper styling */
+.select-wrapper {
+  background-color: #ffffff !important;
+}
+
+/* Steppers styling */
+.steppers-header ul li {
+  font-size: 18px !important;
+  color: #5d7083 !important;
+}
+
+.steppers-header ul li.active {
+  color: #17334f !important;
+  font-weight: 600 !important;
+}
+
+.steppers-header ul li.confirmed {
+  color: #007a52 !important;
+  font-weight: 600 !important;
+}
+
+.steppers-index {
+  font-size: 14px !important;
+  color: #5d7083 !important;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #007a52 !important;
+  border-color: #007a52 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover {
+  background-color: #004d33 !important;
+  border-color: #004d33 !important;
+}
+
+.btn-outline-primary {
+  background-color: #ffffff !important;
+  border-color: #007a52 !important;
+  color: #007a52 !important;
+}
+
+/* Contact list items */
+.contact-list li,
+.contact-list li a {
+  color: #007a52 !important;
+}
+
+.contact-list .icon {
+  fill: #007a52 !important;
+}
+
+/* Callout/Warning box */
+.callout.callout-highlight.warning {
+  background-color: #fff4e5 !important;
+  border-left-color: #f90 !important;
+}
+
+.callout-title {
+  color: #17334f !important;
+}
+
+/* Card styling */
+.card {
+  border: none !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+}
+
+/* Info summary */
+.cmp-info-summary {
+  background-color: #ffffff !important;
+}
+
+.single-line-info.border-light {
+  border-bottom: 1px solid #d4d4d4 !important;
+  padding: 0.5rem 0 !important;
+}
+
+.data-text {
+  color: #1a1a1a !important;
+  font-weight: 400 !important;
 }
 
 /* ============================================================================

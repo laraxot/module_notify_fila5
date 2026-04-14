@@ -83,16 +83,14 @@ new class extends Component {
 
 <x-layouts.app>
     @volt('tests.view')
-    <div class="tests-view-wrapper">
+    <div class="page-content content" data-slug="{{ $pageSlug }}" data-side="content">
         @php
             $blocks = \Modules\Cms\Models\Page::getBlocksBySlug($this->pageSlug, 'content');
         @endphp
 
-        <div class="page-content content" data-slug="{{ $this->pageSlug }}" data-side="content">
-            @foreach($blocks as $block)
-                @include($block->view, array_merge(['data' => []], $block->data))
-            @endforeach
-        </div>
+        @foreach($blocks as $block)
+            @include($block->view, array_merge(['data' => []], $block->data))
+        @endforeach
     </div>
     @endvolt
 </x-layouts.app>

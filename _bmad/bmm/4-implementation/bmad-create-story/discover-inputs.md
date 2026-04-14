@@ -19,6 +19,15 @@ For each pattern in the Input Files table, work through the following substeps i
 
 If a sharded pattern exists for this input, determine the load strategy (defaults to **FULL_LOAD** if not specified), then apply the matching strategy:
 
+### Token-Aware Loading Rule
+
+Before loading any file, prefer the smallest strategy that still answers the workflow need:
+
+1. Read index/manifest first when available.
+2. Load only the shard or section that matches the current story, module, dependency, or cited source hint.
+3. Avoid full-file loads unless the document is short, unsharded, or ambiguity remains after targeted reads.
+4. Stop expanding context once the story has enough information to implement safely.
+
 #### FULL_LOAD Strategy
 
 Load ALL files in the sharded directory. Use this for PRD, Architecture, UX, brownfield docs, or whenever the full picture is needed.
@@ -38,21 +47,35 @@ Load a specific shard using a template variable. Example: used for epics with `{
 4. Load that specific file.
 5. Store in variable: `{pattern_name_content}`.
 
+#### STORY_SLICE Strategy
+
+Load only the story slice and nearby supporting context, not the entire epic corpus.
+
+1. Resolve the epic/story identifiers from workflow variables.
+2. If sharded epics exist, load the shard for the current epic only.
+3. Inside that shard or whole file, extract only:
+   - the current story
+   - immediate dependencies / prerequisites
+   - source hints
+   - the smallest epic summary needed for business context
+4. Do not load unrelated epics or distant stories unless they are explicitly referenced.
+5. Store the extracted slice in `{pattern_name_content}`.
+
 #### INDEX_GUIDED Strategy
 
 Load index.md, analyze the structure and description of each doc in the index, then intelligently load relevant docs.
 
-**DO NOT BE LAZY** -- use best judgment to load documents that might have relevant information, even if there is only a 5% chance of relevance.
+Use best judgment, but stay relevance-first. Load documents that are plausibly needed for safe implementation; do not expand to low-probability material by default.
 
 1. Load `index.md` from the sharded directory.
 2. Parse the table of contents, links, and section headers.
 3. Analyze the workflow's purpose and objective.
 4. Identify which linked/referenced documents are likely relevant.
    - *Example:* If the workflow is about authentication and the index shows "Auth Overview", "Payment Setup", "Deployment" -- load the auth docs, consider deployment docs, skip payment.
-5. Load all identified relevant documents.
+5. Load only identified relevant documents.
 6. Store combined content in variable: `{pattern_name_content}`.
 
-**When in doubt, LOAD IT** -- context is valuable, and being thorough is better than missing critical info.
+**When in doubt, check the index/source hints first**. Only expand further if a missing requirement, dependency, or ambiguity remains.
 
 ---
 
@@ -63,7 +86,7 @@ After applying the matching strategy, mark the pattern as **RESOLVED** and move 
 If no sharded matches were found OR no sharded pattern exists for this input:
 
 1. Attempt a glob match on the "whole" pattern (e.g., `{planning_artifacts}/*prd*.md`).
-2. If matches are found, load ALL matching files completely (no offset/limit).
+2. If matches are found, prefer the smallest matching file. If the file is large, use targeted section reads instead of loading it completely.
 3. Store content in variable: `{pattern_name_content}` (e.g., `{prd_content}`).
 4. Mark pattern as **RESOLVED** and move to the next pattern.
 

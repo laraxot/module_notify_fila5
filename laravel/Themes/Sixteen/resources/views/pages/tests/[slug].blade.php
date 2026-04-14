@@ -5,8 +5,8 @@ declare(strict_types=1);
 use function Laravel\Folio\middleware;
 use function Laravel\Folio\name;
 use Livewire\Volt\Component;
-use Modules\Cms\Models\Page;
 use Modules\Cms\Http\Middleware\PageSlugMiddleware;
+use Modules\Cms\Models\Page;
 
 name('tests.view');
 middleware(PageSlugMiddleware::class);
@@ -33,7 +33,7 @@ new class extends Component {
 
 <x-layouts.app>
     @volt('tests.view')
-    <div class="tests-view-wrapper">
+    <div class="page-content content" data-slug="{{ $pageSlug }}" data-side="content">
         @foreach($blocks as $block)
             @include($block->view, array_merge($data, ['data' => $block->data]))
         @endforeach

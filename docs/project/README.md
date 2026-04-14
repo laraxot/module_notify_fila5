@@ -1,6 +1,6 @@
 # 📁 Project Documentation Index
 
-> **Last Updated**: 2026-03-31  
+> **Last Updated**: 2026-04-14  
 > **Status**: ✅ Active
 
 ---
@@ -28,6 +28,9 @@ This directory contains project-wide configuration and setup documentation for t
 | [`AGENTS.md`](AGENTS.md) | AI agents configuration | AI |
 | [`AI_AGENT_LESSONS_LEARNED.md`](AI_AGENT_LESSONS_LEARNED.md) | AI agent learnings | AI |
 | [`AI_SKILLS_AND_PLUGINS_COMPLETE.md`](AI_SKILLS_AND_PLUGINS_COMPLETE.md) | AI skills setup | AI |
+| [`karpathy-llm-wiki-adoption.md`](karpathy-llm-wiki-adoption.md) | Karpathy LLM Wiki adaptation for FixCity | AI |
+| [`llm-wiki-index.md`](llm-wiki-index.md) | LLM wiki content catalog | AI |
+| [`llm-wiki-log.md`](llm-wiki-log.md) | LLM wiki append-only log | AI |
 | [`COMMIT_MESSAGE.md`](COMMIT_MESSAGE.md) | Commit message guidelines | Git |
 | [`VITE_FIX_AND_EXECUTION_PLAN.md`](VITE_FIX_AND_EXECUTION_PLAN.md) | Vite build fixes | Build |
 
@@ -60,6 +63,7 @@ This directory contains project-wide configuration and setup documentation for t
 
 | File | Description | Category |
 |------|-------------|----------|
+| [`qmd-local-docs-search.md`](qmd-local-docs-search.md) | **QMD** — ricerca locale BM25 + vettoriale su `docs/` (CLI + MCP opzionale) | Tools |
 | [`NOTEBOOKLM_SETUP_COMPLETE.md`](NOTEBOOKLM_SETUP_COMPLETE.md) | NotebookLM setup | AI |
 | [`notebooklm-integration.md`](notebooklm-integration.md) | NotebookLM integration | AI |
 
@@ -124,6 +128,9 @@ echo "127.0.0.1 fixcity.local" | sudo tee -a /etc/hosts
 - [`AGENTS.md`](AGENTS.md)
 - [`AI_AGENT_LESSONS_LEARNED.md`](AI_AGENT_LESSONS_LEARNED.md)
 - [`AI_SKILLS_AND_PLUGINS_COMPLETE.md`](AI_SKILLS_AND_PLUGINS_COMPLETE.md)
+- [`karpathy-llm-wiki-adoption.md`](karpathy-llm-wiki-adoption.md)
+- [`llm-wiki-index.md`](llm-wiki-index.md)
+- [`llm-wiki-log.md`](llm-wiki-log.md)
 - [`NOTEBOOKLM_SETUP_COMPLETE.md`](NOTEBOOKLM_SETUP_COMPLETE.md)
 - [`notebooklm-integration.md`](notebooklm-integration.md)
 
@@ -169,6 +176,6 @@ echo "127.0.0.1 fixcity.local" | sudo tee -a /etc/hosts
 ---
 
 **Maintainer**: Project Team  
-**Last Review**: 2026-03-31  
+**Last Review**: 2026-04-14  
 **Next Review**: 2026-06-30  
 **Status**: ✅ Active

@@ -17,8 +17,8 @@
           "priority": "critical",
           "status": "pending",
           "goals": [
-            "Organize 130 docs in root → structured folders",
-            "Remove 16 duplicate roadmaps → keep 2-3",
+            "Organize 130 docs in root \u2192 structured folders",
+            "Remove 16 duplicate roadmaps \u2192 keep 2-3",
             "Create master documentation index",
             "Remove all temporal strings",
             "Document OpenViking/BMAD/GSD/Ralph workflows"
@@ -51,6 +51,31 @@
             "Performance metrics in every PR",
             "CI/CD docs complete"
           ]
+        },
+        {
+          "id": "1.3",
+          "name": "CSS/JS Visual Parity - Segnalazione Pages",
+          "effort_hours": 8,
+          "priority": "high",
+          "status": "complete",
+          "goals": [
+            "Achieve 86-93% computed styles parity on all 7 segnalazione pages",
+            "Fix Titillium Web font loading globally",
+            "Fix button, h2, body color parity",
+            "Create deploy-css.sh automation script",
+            "Document all fixes and lessons learned"
+          ],
+          "uat_criteria": [
+            "All 7 pages load (HTTP 200)",
+            "Titillium Web font on all elements",
+            "Computed styles match reference (86-93% parity)",
+            "Buttons styled correctly",
+            "H2 titles sized correctly",
+            "Body text color matches",
+            "Deploy script automated"
+          ],
+          "completed": "2026-04-09",
+          "result": "86-93% parity achieved across all 7 pages"
         }
       ]
     },
@@ -93,7 +118,7 @@
             "Test User module (auth)",
             "Test Cms module (content)",
             "Test Geo module (geocoding)",
-            "Coverage: 40% → 60%"
+            "Coverage: 40% \u2192 60%"
           ],
           "uat_criteria": [
             "Fixcity: 90% coverage",
@@ -110,11 +135,11 @@
           "priority": "high",
           "status": "pending",
           "goals": [
-            "User registration → ticket creation flow",
-            "Ticket assignment → resolution flow",
+            "User registration \u2192 ticket creation flow",
+            "Ticket assignment \u2192 resolution flow",
             "Admin dashboard workflows",
             "API endpoint testing",
-            "Coverage: 60% → 85%"
+            "Coverage: 60% \u2192 85%"
           ],
           "uat_criteria": [
             "5+ critical user flows tested E2E",
@@ -143,7 +168,7 @@
             "Add eager loading (fix N+1 queries)",
             "Optimize worst 10 queries",
             "Add database indexes",
-            "Query count: 87 → 40",
+            "Query count: 87 \u2192 40",
             "Setup query monitoring"
           ],
           "uat_criteria": [
@@ -165,7 +190,7 @@
             "Cache frequently accessed data",
             "Cache view fragments",
             "Cache invalidation strategy",
-            "TTFB: 780ms → 400ms"
+            "TTFB: 780ms \u2192 400ms"
           ],
           "uat_criteria": [
             "Redis connected and working",
@@ -186,7 +211,7 @@
             "Lazy load images/maps",
             "Minimize JavaScript bundles",
             "Enable HTTP/2 push",
-            "Page load: 2s → <1s"
+            "Page load: 2s \u2192 <1s"
           ],
           "uat_criteria": [
             "Lighthouse score: >95",
@@ -237,7 +262,7 @@
             "Error tracking (Sentry)",
             "Uptime monitoring",
             "Alert configuration",
-            "TTFB: 400ms → 200ms"
+            "TTFB: 400ms \u2192 200ms"
           ],
           "uat_criteria": [
             "Pulse dashboard live",

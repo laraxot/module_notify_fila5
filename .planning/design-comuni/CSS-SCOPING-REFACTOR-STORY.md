@@ -161,8 +161,24 @@ _Qwen Code_
 
 ---
 
-## Status: Draft
+## Status: In Progress
 
-**Ready for**: Dev agent implementation  
-**Estimated Effort**: 8-10 ore  
-**Dependencies**: Nessuna
+**Fixes Applied** (commit `52c95fb37`):
+1. ✅ Replaced 21 `.page-content[data-slug="tests.segnalazione-crea"]` → `.ticket-wizard-root`
+2. ✅ Replaced 146 `.page-content[data-slug="tests.XXX"]` → generic selectors in segnalazione-parity.css
+3. ✅ Replaced 51 `.page-content[data-slug="tests.XXX"]` → generic selectors in app.css
+4. ✅ Total: 218 CSS selectors fixed
+
+**Root Cause Identified**:
+- `.page-content` div is self-closing (`data-side="content">`)
+- Page content renders as SIBLINGS, not children of `.page-content`
+- Steppers for segnalazione-crea are inside `.ticket-wizard-root` (outside `.page-content`)
+
+**Remaining Issues** (from user request):
+- Hamburger menu vertical centering on tablet/mobile
+- "Cerca" text visible on tablet
+- Language dropdown functional
+- Language icon background fix
+- Other header issues to investigate
+
+### Dev Agent Record

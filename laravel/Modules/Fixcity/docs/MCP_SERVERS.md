@@ -36,8 +36,8 @@ This document provides Fixcity module-specific MCP usage guidelines only.
 - **Use**: Store Fixcity-specific decisions, patterns, conventions
 - **Examples**:
   - "Ticket model extends XotBaseModel (Laraxot pattern)"
-  - "CreateTicketWizardWidget uses Livewire state ($currentStep), NOT Filament Wizard"
-  - "File upload uses wire:change with handleImageUpload() method"
+  - "CreateTicketWizardWidget uses Filament Wizard schema and extends XotBaseWizardWidget"
+  - "Wizard step override uses shared Laraxot policy via XotBaseWizardWidget"
   - "Widget naming: Use 'Ticket' NOT 'Segnalazione' in class names"
 
 ### context7
@@ -102,6 +102,14 @@ This document provides Fixcity module-specific MCP usage guidelines only.
 2. Use `sqlite` to create test data
 3. Use `memory` to store testing patterns
 4. Use `supermemory` to store test results
+
+## Current Canonical Note
+
+`CreateTicketWizardWidget` is no longer a manual `$currentStep` widget. The canonical architecture is:
+
+- `CreateTicketWizardWidget extends XotBaseWizardWidget`
+- Filament `Wizard` / `Step` schema
+- thin Blade wrapper around `{{ $this->form }}`
 
 ## Cross-References
 

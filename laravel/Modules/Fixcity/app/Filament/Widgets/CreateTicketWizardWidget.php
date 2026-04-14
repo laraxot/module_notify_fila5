@@ -16,11 +16,13 @@ use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Wizard\Step;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\HtmlString;
+use Illuminate\Support\Arr;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 use Modules\Fixcity\Enums\TicketTypeEnum;
 use Modules\Fixcity\Events\TicketCreatedEvent;
 use Modules\Fixcity\Models\Ticket;
-use Modules\Geo\Filament\Forms\Components\AddressInput;
+use Modules\Geo\Filament\Forms\Components\LatitudeLongitudeInput;
+use Illuminate\Contracts\Auth\Authenticatable;
 use Modules\Xot\Filament\Widgets\XotBaseWizardWidget;
 
 class CreateTicketWizardWidget extends XotBaseWizardWidget
@@ -82,9 +84,12 @@ class CreateTicketWizardWidget extends XotBaseWizardWidget
                 ->compact()
                 ->extraAttributes(['id' => 'report-place', 'data-step-section' => 'place'])
                 ->schema([
-                    AddressInput::make('address')
-                        ->required()
-                        ->spritePath('/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg'),
+                    LatitudeLongitudeInput::make('location')
+                        ->label(__('fixcity::segnalazione.fields.place.section.label'))
+                        ->defaultCenter(41.9028, 12.4964)
+                        ->defaultZoom(13)
+                        ->mapHeight('340px')
+                        ->showMap(true),
                 ]),
 
             Section::make((string) __('fixcity::segnalazione.fields.inefficiency.section.label'))
@@ -92,11 +97,10 @@ class CreateTicketWizardWidget extends XotBaseWizardWidget
                 ->compact()
                 ->extraAttributes(['id' => 'report-info', 'data-step-section' => 'inefficiency'])
                 ->schema([
-                    Select::make('type')
+                    Select::make('type_id')
                         ->options(TicketTypeEnum::class)
                         ->required()
-                        //->native(false)
-                        ,
+                        ->native(false),
                     TextInput::make('name')
                         ->required()
                         ->maxLength(255),
@@ -153,14 +157,25 @@ class CreateTicketWizardWidget extends XotBaseWizardWidget
                             ->icon('heroicon-o-document'),
 
                         Text::make(function (Get $get): string {
-                            $type = TicketTypeEnum::tryFrom((string) ($get('type') ?? ''));
+                            $raw = $get('type_id');
+                            $type = $raw instanceof TicketTypeEnum
+                                ? $raw
+                                : TicketTypeEnum::tryFrom((string) ($raw ?? ''));
 
                             return $type?->getLabel() ?? '';
                         })
                             ->badge()
                             ->icon('heroicon-o-tag'),
 
-                        Text::make(fn (Get $get): string => (string) ($get('address') ?? ''))
+                        Text::make(function (Get $get): string {
+                            $lat = trim((string) ($get('latitude') ?? ''));
+                            $lng = trim((string) ($get('longitude') ?? ''));
+                            if ($lat === '' && $lng === '') {
+                                return '';
+                            }
+
+                            return $lat.', '.$lng;
+                        })
                             ->columnSpanFull()
                             ->icon('heroicon-o-map-pin'),
 
@@ -177,28 +192,124 @@ class CreateTicketWizardWidget extends XotBaseWizardWidget
 
     public function submit(): void
     {
+        $this->validateWizardSubmission();
+
         try {
-            $state = $this->normalizeWizardFormState($this->form->getState());
-            unset($state['images']);
+            $state = $this->prepareTicketData();
 
-            if (auth()->check()) {
-                $state['owner_id'] = auth()->id();
-            }
+            $ticket = $this->createTicket($state);
+            $this->dispatchEvents($ticket);
 
-            $ticket = Ticket::query()->create($state);
-            TicketCreatedEvent::dispatch($ticket);
+            $this->redirectAfterSuccess($ticket);
 
-            $slug = (string) ($this->blockData['confirmation_slug'] ?? config('fixcity.wizard.confirmation_slug', 'segnalazione-04-conferma'));
-            $url = route('tests.view', ['slug' => $slug]);
-            $localizedUrl = LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), $url) ?: $url;
-            $this->redirect($localizedUrl);
         } catch (\Throwable $e) {
-            $this->addError('submit', $e->getMessage());
-            \Filament\Notifications\Notification::make()
-                ->danger()
-                ->title(__('fixcity::segnalazione.errors.submit.title'))
-                ->body($e->getMessage())
-                ->send();
+            $this->handleSubmissionError($e);
+        }
+    }
+
+    /**
+     * Validazione specifica per il wizard submission
+     */
+    protected function validateWizardSubmission(): void
+    {
+        // Filament gestisce automaticamente la validation dei form fields
+        // Qui possiamo aggiungere logiche custom se necessario
+        $this->form->validate();
+    }
+
+    /**
+     * Prepara i dati per la creazione del ticket.
+     *
+     * @return array<string, mixed>
+     */
+    protected function prepareTicketData(): array
+    {
+        $state = $this->normalizeWizardFormState($this->form->getState());
+
+        // Rimuovere fields non necessari per il model
+        unset($state['images'], $state['privacyAccepted']);
+
+        // Estrarre latitude e longitude dal campo location se presente
+        if (isset($state['location']) && is_array($state['location'])) {
+            if (isset($state['location']['latitude']) && is_numeric($state['location']['latitude'])) {
+                $state['latitude'] = (string) $state['location']['latitude'];
+            }
+            if (isset($state['location']['longitude']) && is_numeric($state['location']['longitude'])) {
+                $state['longitude'] = (string) $state['location']['longitude'];
+            }
+            unset($state['location']);
+        }
+
+        // Assicurarsi che latitude e longitude siano presenti e siano stringhe
+        foreach (['latitude', 'longitude'] as $coord) {
+            if (isset($state[$coord]) && is_numeric($state[$coord])) {
+                $state[$coord] = (string) $state[$coord];
+            }
+        }
+
+        unset($state['address']);
+
+        // Aggiungere owner_id se utente autenticato
+        if (auth()->check()) {
+            $state['owner_id'] = auth()->id();
+        }
+
+        return $state;
+    }
+
+    /**
+     * Crea il record nel database.
+     *
+     * @param  array<string, mixed>  $state
+     */
+    protected function createTicket(array $state): Ticket
+    {
+        return Ticket::query()->create($state);
+    }
+
+    /**
+     * Dispaccia gli eventi dopo la creazione
+     */
+    protected function dispatchEvents(Ticket $ticket): void
+    {
+        TicketCreatedEvent::dispatch($ticket);
+    }
+
+    /**
+     * Redirect dopo successo con gestione multilingua
+     */
+    protected function redirectAfterSuccess(Ticket $ticket): void
+    {
+        $slug = (string) ($this->blockData['confirmation_slug']
+            ?? config('fixcity.wizard.confirmation_slug', 'segnalazione-04-conferma'));
+
+        $url = route('tests.view', ['slug' => $slug]);
+        $localizedUrl = LaravelLocalization::getLocalizedURL(
+            LaravelLocalization::getCurrentLocale(),
+            $url
+        ) ?: $url;
+
+        $this->redirect($localizedUrl);
+    }
+
+    /**
+     * Gestione errori con user-friendly notification
+     */
+    protected function handleSubmissionError(\Throwable $e): void
+    {
+        // Aggiungi errore al form per mostrarlo nella UI
+        $this->addError('submit', $e->getMessage());
+
+        // Invia notifica all'utente
+        \Filament\Notifications\Notification::make()
+            ->danger()
+            ->title(__('fixcity::segnalazione.errors.submit.title'))
+            ->body($e->getMessage())
+            ->send();
+
+        // Log dettagliato per il debug (solo in development)
+        if (app()->isLocal()) {
+            report($e);
         }
     }
 
@@ -212,14 +323,19 @@ class CreateTicketWizardWidget extends XotBaseWizardWidget
     }
 
     /**
+     * Step con label (Lang) e description come da [Filament wizard su CreateRecord](https://filamentphp.com/docs/5.x/resources/creating-records#using-a-wizard).
+     *
      * @return array<int, Step>
      */
     public function getWizardSteps(): array
     {
         return [
-            $this->getStepByName('privacy'),
-            $this->getStepByName('data'),
-            $this->getStepByName('summary'),
+            $this->getStepByName('privacy')
+                ->description((string) __('fixcity::ticket_wizard.steps.privacy.description')),
+            $this->getStepByName('data')
+                ->description((string) __('fixcity::ticket_wizard.steps.data.description')),
+            $this->getStepByName('summary')
+                ->description((string) __('fixcity::ticket_wizard.steps.summary.description')),
         ];
     }
 
@@ -239,9 +355,17 @@ class CreateTicketWizardWidget extends XotBaseWizardWidget
         ));
     }
 
+    /**
+     * Utente autenticato per blocchi read-only nello step dati (DRY).
+     */
+    protected function getAuthUser(): ?Authenticatable
+    {
+        return auth()->user();
+    }
+
     protected function getAuthUserName(): string
     {
-        $user = auth()->user();
+        $user = $this->getAuthUser();
         if ($user === null) {
             return '';
         }
@@ -253,15 +377,26 @@ class CreateTicketWizardWidget extends XotBaseWizardWidget
 
     protected function getAuthUserFiscalCode(): string
     {
-        $user = auth()->user();
+        $user = $this->getAuthUser();
+        if ($user === null) {
+            return '';
+        }
 
-        return $user === null ? '' : (string) (data_get($user, 'fiscal_code') ?? data_get($user, 'codice_fiscale') ?? '');
+        return (string) (data_get($user, 'fiscal_code')
+            ?? data_get($user, 'codice_fiscale')
+            ?? '');
     }
 
     protected function getAuthUserPhone(): string
     {
-        $user = auth()->user();
+        $user = $this->getAuthUser();
+        if ($user === null) {
+            return '';
+        }
 
-        return $user === null ? '' : (string) (data_get($user, 'phone') ?? data_get($user, 'mobile') ?? data_get($user, 'telefono') ?? '');
+        return (string) (data_get($user, 'phone')
+            ?? data_get($user, 'mobile')
+            ?? data_get($user, 'telefono')
+            ?? '');
     }
 }

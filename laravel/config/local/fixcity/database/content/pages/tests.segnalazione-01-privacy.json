@@ -15,13 +15,38 @@
                     "title": "Segnalazione disservizio",
                     "current_step": 1,
                     "total_steps": 3,
-                    "privacy_link": "#",
-                    "contacts": {
-                        "faq": "#",
-                        "assistenza": "#",
-                        "phone": "05 0505",
-                        "appointment": "#"
-                    }
+                    "privacy_link": "#"
+                }
+            },
+            {
+                "type": "contacts-card",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.default",
+                    "heading": "Contatta il comune",
+                    "items": [
+                        {
+                            "label": "Leggi le domande frequenti",
+                            "url": "#",
+                            "icon": "it-help-circle"
+                        },
+                        {
+                            "label": "Richiedi assistenza",
+                            "url": "#",
+                            "icon": "it-mail",
+                            "data_element": "contacts"
+                        },
+                        {
+                            "label": "Chiama il numero verde 05 0505",
+                            "url": "#",
+                            "icon": "it-hearing"
+                        },
+                        {
+                            "label": "Prenota appuntamento",
+                            "url": "#",
+                            "icon": "it-calendar",
+                            "data_element": "appointment-booking"
+                        }
+                    ]
                 }
             }
         ],

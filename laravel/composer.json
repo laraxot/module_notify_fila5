@@ -16,6 +16,7 @@
     },
     "require-dev": {
         "blade-ui-kit/blade-heroicons": "^2.7",
+        "itsgoingd/clockwork": "^5.3",
         "larastan/larastan": "^3.7",
         "laravel/pint": "^1.25",
         "phpstan/phpstan": "^2.1"
@@ -52,10 +53,14 @@
             "@php composer update -W",
             "@php artisan vendor:publish --all",
             "rm -rf database/migrations/*",
+            "rm -rf app/View/Components",
             "mkdir -p bootstrap/cache",
             "@php artisan migrate",
             "@php artisan optimize",
             "@php artisan filament:optimize"
+        ],
+        "guard:fixcity-wizard": [
+            "bash bashscripts/quality/check-fixcity-wizard-guards.sh"
         ]
     },
     "extra": {

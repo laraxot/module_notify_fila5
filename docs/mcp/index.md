@@ -9,6 +9,7 @@
 
 | Document | Location | Purpose |
 |----------|----------|---------|
+| **QMD (local docs search)** | [docs/project/qmd-local-docs-search.md](../project/qmd-local-docs-search.md) | Indice Markdown locale; server MCP opzionale (`qmd mcp`) |
 | **MCP Master Index** | [docs/mcp/README.md](../mcp/README.md) | Complete MCP server documentation |
 | **Supermemory Guide** | [Themes/Sixteen/docs/supermemory-setup.md](../../laravel/Themes/Sixteen/docs/supermemory-setup.md) | Supermemory integration guide |
 | **Visual Parity Tool** | [Themes/Sixteen/scripts/visual-parity.mjs](../../laravel/Themes/Sixteen/scripts/visual-parity.mjs) | Playwright-based visual analysis |
@@ -31,6 +32,7 @@
 - **supermemory** - Long-term memory, RAG
 - **memory** - Session persistence
 - **notebooklm** - Research and documentation
+- **qmd** ([tobi/qmd](https://github.com/tobi/qmd)) - Indice locale BM25 + vector su cartelle `docs/`; MCP `query` / `get` / `multi_get`
 
 ### Reasoning
 - **sequential-thinking** - Complex problem analysis

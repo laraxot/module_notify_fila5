@@ -4,9 +4,12 @@
 
 - **[REPLIKATE Protocol](../prompts/replikate.txt)** - Protocollo di esecuzione generale
 - **[Ticket Creation Wizard](./TICKET-CREATION-WIZARD.md)** - Wizard unificato creazione ticket
+- **[Wizard Governance Bridge](./wizard-governance-bridge.md)** - Confini tema/modulo/base e anti-duplicazione
 - **[CSS/JS Phase Status](./CSS-JS-PHASE-STATUS.md)** - Stato fase CSS/JS per tutte le pagine
 - **[CSS/JS Phase Blocker](./CSS-JS-PHASE-BLOCKER.md)** - Blocker database mancante
 - **[MCP Servers](./MCP_SERVERS.md)** - Server MCP configurati
+- **[Stepper Component](./stepper-component.md)** - Componente stepper responsive mobile-first
+- **[Body Plain Rule](./body-plain-rule.md)** - Regola: body tag senza classi/attributi
 
 ---
 
@@ -26,8 +29,10 @@
 
 - **Class**: `CreateTicketWizardWidget` (NOT ~~CreateSegnalazioneWizardWidget~~)
 - **Location**: `Modules/Fixcity/app/Filament/Widgets/`
+- **Base class**: `Modules\Xot\Filament\Widgets\XotBaseWizardWidget`
 - **Steps**: 3 (Privacy → Data → Summary + Submit)
 - **Redirect**: After submit → `/it/tests/segnalazione-04-conferma`
+- **Latest parity follow-up**: [7-51 segnalazione-crea step2 columns header ultra parity](../../../../_bmad-output/implementation-artifacts/7-51-segnalazione-crea-step2-columns-header-ultra-parity.md)
 
 ### Visual Parity
 

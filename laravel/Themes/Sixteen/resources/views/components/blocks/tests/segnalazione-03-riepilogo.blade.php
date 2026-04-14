@@ -267,40 +267,6 @@
 </div>
 
 {{-- Contact Card (bg-grey-card) --}}
-<div class="bg-grey-card shadow-contacts">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6 offset-lg-3 p-contacts">
-                <div class="cmp-contacts">
-                    <div class="card w-100">
-                        <div class="card-body">
-                            <h2 class="title-medium-2-semi-bold">{{ __('fixcity::segnalazione.contact.heading.label') }}</h2>
-                            <ul class="contact-list p-0">
-                                <li><a class="list-item" href="#">
-                                    <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-help-circle"></use>
-                                    </svg><span>{{ __('fixcity::segnalazione.contact.faq.label') }}</span></a></li>
-                                <li><a class="list-item" href="#" data-element="contacts">
-                                    <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-mail"></use>
-                                    </svg><span>{{ __('fixcity::segnalazione.contact.assistance.label') }}</span></a></li>
-                                <li><a class="list-item" href="#">
-                                    <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-hearing"></use>
-                                    </svg><span>{{ __('fixcity::segnalazione.contact.phone.label') }}</span></a></li>
-                                <li><a class="list-item" href="#" data-element="appointment-booking">
-                                    <svg class="icon icon-primary icon-sm" aria-hidden="true">
-                                        <use href="{{ $sprite }}#it-calendar"></use>
-                                    </svg><span>{{ __('fixcity::segnalazione.contact.appointment.label') }}</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 {{-- Terms Modal --}}
 <div class="cmp-modal">
     <div class="modal fade" tabindex="-1" role="dialog" id="modal-terms" aria-labelledby="modal-terms-modal-title">

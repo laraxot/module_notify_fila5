@@ -1,4 +1,7 @@
-# Sixteen Theme Documentation Index
+# Sixteen Theme — Sprint Operativo (00-index.md)
+
+> **Questo file** = vista operativa corrente (stories, parity phase, regole attive).
+> **Indice completo** = [00-INDEX.md](./00-INDEX.md) (300+ docs, navigazione per topic).
 
 **Last verified**: 2026-04-09
 **Status**: Active theme
@@ -14,6 +17,7 @@
 ### Unified Ticket Wizard
 - [../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md](../../../Modules/Fixcity/docs/ticket-wizard-frontoffice.md) — design e architettura del wizard unificato.
 - Base Filament multi-step: [../../../Modules/Xot/docs/filament/widgets/xot-base-wizard-widget.md](../../../Modules/Xot/docs/filament/widgets/xot-base-wizard-widget.md) (`XotBaseWizardWidget`, DRY su `?step=` e stato wizard).
+- Pannello admin (resource CRUD, **non** il wizard pubblico): [CreateRecord pipeline](../../../Modules/Xot/docs/filament/pages/create-record-page.md) — `Filament\Resources\Pages\CreateRecord` vs `XotBaseCreateRecord`; evitare di confondere con `CreateTicketWizardWidget`.
 - Story BMAD (parity step 1: label **Autorizzazioni e condizioni**, CTA `mobile-full`, header/search con 7-29): [7-32](../../../../_bmad-output/implementation-artifacts/7-32-segnalazione-crea-design-comuni-step1-cta-stepper-labels-header-parity.md)
 - Story BMAD (step 2: **Usa la tua posizione**, coordinate Ticket, `?step=2`): [7-33](../../../../_bmad-output/implementation-artifacts/7-33-segnalazione-crea-step2-geolocation-use-my-location-and-step-query.md)
 - Story BMAD (refactor **Filament Schema Wizard** v5 al posto del Blade monolitico): [7-34](../../../../_bmad-output/implementation-artifacts/7-34-create-ticket-wizard-filament-schema-wizard-refactor.md)

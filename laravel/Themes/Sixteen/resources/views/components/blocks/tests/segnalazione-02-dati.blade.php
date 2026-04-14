@@ -304,32 +304,3 @@
     </div>
 </div>
 
-<div class="bg-grey-card shadow-contacts">
-    <div class="container">
-        <div class="d-flex justify-content-center p-contacts row">
-            <div class="col-12 col-lg-5">
-                <div class="cmp-contacts">
-                    <div class="card w-100">
-                        <div class="card-body">
-                            <h2 class="title-medium-2-semi-bold">Contatta il comune</h2>
-                            <ul class="contact-list p-0">
-                                <li><a class="list-item" href="#"><svg aria-hidden="true" class="icon icon-primary icon-sm">
-                                            <use href="{{ $sprite }}#it-help-circle"></use>
-                                        </svg><span>Leggi le domande frequenti</span></a></li>
-                                <li><a class="list-item" data-element="contacts" href="#"><svg aria-hidden="true" class="icon icon-primary icon-sm">
-                                            <use href="{{ $sprite }}#it-mail"></use>
-                                        </svg><span>Richiedi assistenza</span></a></li>
-                                <li><a class="list-item" href="{{ $phoneHref }}"><svg aria-hidden="true" class="icon icon-primary icon-sm">
-                                            <use href="{{ $sprite }}#it-hearing"></use>
-                                        </svg><span>Chiama il numero verde 05 0505</span></a></li>
-                                <li><a class="list-item" data-element="appointment-booking" href="#"><svg aria-hidden="true" class="icon icon-primary icon-sm">
-                                            <use href="{{ $sprite }}#it-calendar"></use>
-                                        </svg><span>Prenota appuntamento</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>

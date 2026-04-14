@@ -11,9 +11,11 @@
 |--------------|----------|
 | Understand project structure | [Project Configuration](project/configuration.md) |
 | Learn AI workflow (BMAD+GSD+Ralph) | [AI Workflow](project/ai-workflow/) |
+| BMAD Method (setup, antigravity) | [docs/bmad/setup-guide.md](bmad/setup-guide.md) |
 | Configure MCP servers (memory, dev tools) | [MCP Servers](MCP_SERVERS.md) |
 | SuperMemory setup (AI memory) | [SuperMemory Quickstart](SUPERMEMORY_QUICKSTART.md) |
 | Find module documentation | [Module Index](modules/index.md) |
+| Fixcity ticket wizard (Filament `Wizard` / Design Comuni) | [ticket-wizard-frontoffice.md](../laravel/Modules/Fixcity/docs/ticket-wizard-frontoffice.md) |
 | Find theme documentation | [Theme Index](themes/index.md) |
 | Check coding standards | [Conventions](project/conventions/) |
 
