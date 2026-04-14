@@ -163,7 +163,7 @@ class Ticket extends XotBaseModel implements HasMedia
         'longitude', // GEO
         // 'status_id', 'type_id', 'priority_id', //OLD
         'status',
-        'type',
+        'type_id',
         'priority',
         'slug',
     ];
@@ -180,7 +180,7 @@ class Ticket extends XotBaseModel implements HasMedia
             'estimationProgress' => 'float',
             'status' => TicketStatusEnum::class,
             'priority' => TicketPriorityEnum::class,
-            'type' => TicketTypeEnum::class,
+            'type_id' => TicketTypeEnum::class,
         ];
     }
 
@@ -191,12 +191,12 @@ class Ticket extends XotBaseModel implements HasMedia
 
     public function getIconData(): array
     {
-        if ($this->type == null) {
+        if ($this->type_id == null) {
             return [];
         }
 
-        Assert::isInstanceOf($this->type, TicketTypeEnum::class, '['.__LINE__.']['.__FILE__.']');
-        $url = $this->type->getIcon();
+        Assert::isInstanceOf($this->type_id, TicketTypeEnum::class, '['.__LINE__.']['.__FILE__.']');
+        $url = $this->type_id->getIcon();
         $url = Str::of((string) $url)->after('heroicon-o-')->append('.svg')->toString();
         $url = app(AssetAction::class)->execute('ui::svg/'.$url);
 

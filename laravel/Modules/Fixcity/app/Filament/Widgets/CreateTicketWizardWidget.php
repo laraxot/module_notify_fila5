@@ -4,318 +4,264 @@ declare(strict_types=1);
 
 namespace Modules\Fixcity\Filament\Widgets;
 
-use Filament\Actions\Action;
 use Filament\Forms\Components\Checkbox;
 use Filament\Forms\Components\FileUpload;
-use Filament\Forms\Components\Placeholder;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Wizard;
+use Filament\Schemas\Components\Grid;
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Components\Text;
+use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Wizard\Step;
-use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
-use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\HtmlString;
-use Livewire\WithFileUploads;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 use Modules\Fixcity\Enums\TicketTypeEnum;
 use Modules\Fixcity\Events\TicketCreatedEvent;
 use Modules\Fixcity\Models\Ticket;
 use Modules\Geo\Filament\Forms\Components\AddressInput;
 use Modules\Xot\Filament\Widgets\XotBaseWizardWidget;
 
-/**
- * Widget frontoffice per creazione Ticket in 3 step.
- *
- * **Architettura**: estende {@see XotBaseWizardWidget} (non XotBaseWidget) perché:
- * - La responsabilità è multi-step (wizard), non form singolo
- * - XotBaseWizardWidget gestisce: navigazione step, persistenza ?step=, normalizzazione stato
- * - Separazione delle responsabilità: il widget di dominio si concentra solo sui campi specifici
- *
- * Schema: {@see Wizard} + {@see Step} (Filament v5), stato in `data` tramite {@see XotBaseWizardWidget::form()}.
- * Vista Blade: wrapper Design Comuni (titolo, contatti) + `{{ $this->form }}`.
- *
- * Translations: fixcity::segnalazione.steps.<item>.<tipo>
- */
 class CreateTicketWizardWidget extends XotBaseWizardWidget
 {
-    use WithFileUploads;
-
+    /**
+     * Vista modulo (layout Design Comuni: sidebar step 2, stepper, parity CSS).
+     * {@see GetViewByClassAction} risolve prima `pub_theme::filament.widgets.createticketwizard`:
+     * senza override qui verrebbe usato il wrapper tema slim senza colonna sinistra.
+     */
     protected string $view = 'fixcity::filament.widgets.ticket-create-wizard';
 
-    /** @var array<string, mixed> */
     public array $blockData = [];
 
     /** @param array<string, mixed> $blockData */
     public function mount(array $blockData = []): void
     {
         $this->blockData = $blockData;
-        $this->wizardStartStep = $this->resolveInitialStepFromQuery();
-        $this->form->fill($this->defaultFormData());
+        $this->initWizardState();
+    }
+
+    protected function getFormModel(): ?string
+    {
+        return null;
     }
 
     /**
      * @return array<string, mixed>
      */
-    private function defaultFormData(): array
+    #[\Override]
+    protected function defaultFormData(): array
     {
         return [
             'privacyAccepted' => false,
-            'address' => '',
-            'issueType' => '',
-            'title' => '',
-            'details' => '',
-            'email' => '',
-            'images' => [],
-            'userName' => '',
-            'userFiscalCode' => '',
-            'userPhone' => '',
         ];
     }
 
     /**
-     * @return array<int, Component>
+     * @return array<int, \Filament\Schemas\Components\Component>
      */
-    public function getFormSchema(): array
+    public function getPrivacySchema(): array
     {
-        $wizard = $this->makeWizard([
-            $this->makeStepPrivacy(),
-            $this->makeStepData(),
-            $this->makeStepSummary(),
-        ])
-            ->nextAction(fn (Action $action): Action => $this->configureWizardNextAction($action))
-            ->previousAction(fn (Action $action): Action => $this->configureWizardPreviousAction($action))
-            ->submitAction($this->getWizardSubmitAction());
-
         return [
-            $wizard,
+            Text::make(fn (): HtmlString => $this->getPrivacyNoticeHtml())
+                ->columnSpanFull(),
+            Checkbox::make('privacyAccepted')
+                ->accepted()
+                ->dehydrated(false),
         ];
     }
 
-    protected function configureWizardNextAction(Action $action): Action
+    /**
+     * @return array<int, \Filament\Schemas\Components\Component>
+     */
+    public function getDataSchema(): array
     {
-        return $action->label((string) __('fixcity::segnalazione.actions.next.label'));
-    }
+        return [
+            Section::make((string) __('fixcity::segnalazione.fields.place.section.label'))
+                ->description((string) __('fixcity::segnalazione.sections.place.description'))
+                ->compact()
+                ->extraAttributes(['id' => 'report-place', 'data-step-section' => 'place'])
+                ->schema([
+                    AddressInput::make('address')
+                        ->required()
+                        ->spritePath('/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg'),
+                ]),
 
-    protected function configureWizardPreviousAction(Action $action): Action
-    {
-        return $action->label((string) __('fixcity::segnalazione.actions.back.label'));
-    }
+            Section::make((string) __('fixcity::segnalazione.fields.inefficiency.section.label'))
+                ->description((string) __('fixcity::segnalazione.sections.inefficiency.description'))
+                ->compact()
+                ->extraAttributes(['id' => 'report-info', 'data-step-section' => 'inefficiency'])
+                ->schema([
+                    Select::make('type')
+                        ->options(TicketTypeEnum::class)
+                        ->required()
+                        //->native(false)
+                        ,
+                    TextInput::make('name')
+                        ->required()
+                        ->maxLength(255),
+                    Textarea::make('content')
+                        ->required()
+                        ->maxLength(200)
+                        ->rows(3)
+                        ->helperText((string) __('fixcity::segnalazione.fields.details.max_chars.label')),
+                    FileUpload::make('images')
+                        ->helperText((string) __('fixcity::segnalazione.fields.images.help_text'))
+                        ->multiple()
+                        ->image()
+                        ->disk('public')
+                        ->directory('tickets/images')
+                        ->maxFiles(10)
+                        ->openable(),
+                ]),
 
-    #[\Override]
-    protected function getWizardSubmitAction(): Htmlable
-    {
-        return Action::make('submit')
-            ->label((string) __('fixcity::segnalazione.actions.submit.label'))
-            ->submit('submit')
-            ->button()
-            ->extraAttributes(['class' => 'btn btn-primary mobile-full']);
-    }
+            Section::make((string) __('fixcity::segnalazione.sections.author.label'))
+                ->description((string) __('fixcity::segnalazione.sections.author.description'))
+                ->compact()
+                ->extraAttributes(['id' => 'report-author', 'data-step-section' => 'author'])
+                ->schema([
+                    Grid::make(['default' => 1, 'lg' => 3])->schema([
+                        Text::make(fn (): string => $this->getAuthUserName())
+                            ->icon('heroicon-o-user'),
+                        Text::make(fn (): string => __('fixcity::segnalazione.fields.fiscal_code.label').': '.$this->getAuthUserFiscalCode())
+                            ->icon('heroicon-o-identification'),
+                        Text::make(fn (): string => __('fixcity::segnalazione.fields.phone.label').': '.$this->getAuthUserPhone())
+                            ->icon('heroicon-o-phone'),
+                    ]),
 
-    private function makeStepPrivacy(): Step
-    {
-        return Step::make('1')
-            ->label((string) __('fixcity::segnalazione.steps.privacy.label'))
-            ->schema([
-                Checkbox::make('privacyAccepted')
-                    ->label((string) __('fixcity::segnalazione.privacy.checkbox.label'))
-                    ->accepted()
-                    ->validationAttribute((string) __('fixcity::segnalazione.privacy.checkbox.label')),
-            ]);
-    }
-
-    private function makeStepData(): Step
-    {
-        return Step::make('2')
-            ->label((string) __('fixcity::segnalazione.steps.data.label'))
-            ->schema([
-                $this->getAddressComponent(),
-                Select::make('issueType')
-                    ->label((string) __('fixcity::segnalazione.fields.type.label'))
-                    ->options(fn (): array => $this->getIssueTypeOptions())
-                    ->required()
-                    ->native(false),
-                TextInput::make('title')
-                    ->label((string) __('fixcity::segnalazione.fields.title.label'))
-                    ->required()
-                    ->maxLength(255),
-                Textarea::make('details')
-                    ->label((string) __('fixcity::segnalazione.fields.details.label'))
-                    ->required()
-                    ->maxLength(200)
-                    ->rows(3),
-                TextInput::make('email')
-                    ->label((string) __('fixcity::segnalazione.fields.email.label'))
-                    ->email()
-                    ->maxLength(255),
-                FileUpload::make('images')
-                    ->label((string) __('fixcity::segnalazione.fields.images.label'))
-                    ->helperText((string) __('fixcity::segnalazione.fields.images.help_text'))
-                    ->multiple()
-                    ->image()
-                    ->disk('public')
-                    ->directory('tickets/images')
-                    ->maxFiles(10),
-                TextInput::make('userName')
-                    ->label((string) __('fixcity::segnalazione.fields.name.label'))
-                    ->maxLength(255),
-                TextInput::make('userFiscalCode')
-                    ->label((string) __('fixcity::segnalazione.fields.fiscal_code.label'))
-                    ->maxLength(16),
-                TextInput::make('userPhone')
-                    ->label((string) __('fixcity::segnalazione.fields.phone.label'))
-                    ->tel()
-                    ->maxLength(20),
-            ]);
+                    TextInput::make('email')
+                        ->helperText((string) __('fixcity::create_ticket_wizard.fields.email.helper_text'))
+                        ->email()
+                        ->maxLength(255),
+                ]),
+        ];
     }
 
     /**
-     * Address input with geolocation action button.
-     * Delegates to Geo module — geolocation is a cross-cutting geo-spatial concern.
-     *
-     * @see Modules\Geo\Filament\Forms\Components\AddressInput
-     * @see Modules/Geo/docs/address-input-component.md
-     * @see Modules/Fixcity/docs/MODULE-BOUNDARY-PHILOSOPHY.md
+     * @return array<int, \Filament\Schemas\Components\Component>
      */
-    protected function getAddressComponent(): Component
+    public function getSummarySchema(): array
     {
-        return AddressInput::make('address')
-            ->label((string) __('fixcity::segnalazione.fields.address.label'))
-            ->required()
-            ->spritePath('/themes/Sixteen/design-comuni/assets/bootstrap-italia/dist/svg/sprites.svg');
-    }
+        return [
+            Section::make((string) __('fixcity::segnalazione.sections.summary.label'))
+                ->compact()
+                ->extraAttributes(['data-step-section' => 'summary'])
+                ->schema([
+                    Grid::make(['default' => 1, 'lg' => 2])->schema([
+                        Text::make(fn (Get $get): string => (string) ($get('name') ?? ''))
+                            ->weight('bold')
+                            ->icon('heroicon-o-document'),
 
-    private function makeStepSummary(): Step
-    {
-        return Step::make('3')
-            ->label((string) __('fixcity::segnalazione.steps.summary.label'))
-            ->schema([
-                Placeholder::make('summary_notice')
-                    ->label('')
-                    ->content(new HtmlString(
-                        '<p class="text-paragraph mb-4">'.e((string) __('fixcity::segnalazione.warning.message.label')).'</p>'
-                    )),
-                Placeholder::make('summary_address')
-                    ->label((string) __('fixcity::segnalazione.fields.address.label'))
-                    ->content(fn (): HtmlString => new HtmlString(
-                        '<p class="data-text">'.e((string) ($this->data['address'] ?? '')).'</p>'
-                    )),
-                Placeholder::make('summary_type')
-                    ->label((string) __('fixcity::segnalazione.fields.type.label'))
-                    ->content(function (): HtmlString {
-                        $key = (string) ($this->data['issueType'] ?? '');
-                        $opts = $this->getIssueTypeOptions();
-                        $label = $opts[$key] ?? $key;
+                        Text::make(function (Get $get): string {
+                            $type = TicketTypeEnum::tryFrom((string) ($get('type') ?? ''));
 
-                        return new HtmlString('<p class="data-text">'.e(is_array($label) ? (string) ($label['label'] ?? $key) : (string) $label).'</p>');
-                    }),
-                Placeholder::make('summary_title')
-                    ->label((string) __('fixcity::segnalazione.fields.title.label'))
-                    ->content(fn (): HtmlString => new HtmlString(
-                        '<p class="data-text">'.e((string) ($this->data['title'] ?? '')).'</p>'
-                    )),
-                Placeholder::make('summary_details')
-                    ->label((string) __('fixcity::segnalazione.fields.details.label'))
-                    ->content(fn (): HtmlString => new HtmlString(
-                        '<p class="data-text">'.e((string) ($this->data['details'] ?? '')).'</p>'
-                    )),
-            ]);
+                            return $type?->getLabel() ?? '';
+                        })
+                            ->badge()
+                            ->icon('heroicon-o-tag'),
+
+                        Text::make(fn (Get $get): string => (string) ($get('address') ?? ''))
+                            ->columnSpanFull()
+                            ->icon('heroicon-o-map-pin'),
+
+                        Text::make(fn (Get $get): string => (string) ($get('content') ?? ''))
+                            ->columnSpanFull()
+                            ->icon('heroicon-o-chat-bubble-left-ellipsis'),
+
+                        Text::make(fn (Get $get): string => (string) ($get('email') ?? ''))
+                            ->icon('heroicon-o-envelope'),
+                    ]),
+                ]),
+        ];
     }
 
     public function submit(): void
     {
-        $state = $this->normalizeWizardFormState($this->form->getState());
-        Validator::make($state, [
-            'privacyAccepted' => ['accepted'],
-            'address' => ['required', 'string', 'max:255'],
-            'issueType' => ['required', 'string'],
-            'title' => ['required', 'string', 'max:255'],
-            'details' => ['required', 'string'],
-            'email' => ['nullable', 'email', 'max:255'],
-            'userName' => ['nullable', 'string', 'max:255'],
-            'userFiscalCode' => ['nullable', 'string', 'max:16'],
-            'userPhone' => ['nullable', 'string', 'max:20'],
-        ])->validate();
+        try {
+            $state = $this->normalizeWizardFormState($this->form->getState());
+            unset($state['images']);
 
-        $issueType = (string) ($state['issueType'] ?? '');
-
-        $payload = [
-            'name' => (string) ($state['title'] ?? ''),
-            'content' => (string) ($state['details'] ?? ''),
-            'type' => $this->resolveTicketTypeEnumFromKey($issueType),
-            'address' => (string) ($state['address'] ?? ''),
-            'email' => ($state['email'] ?? '') !== '' ? (string) $state['email'] : null,
-        ];
-
-        if (auth()->check()) {
-            $payload['owner_id'] = auth()->id();
-        }
-
-        $ticket = Ticket::create($payload);
-
-        TicketCreatedEvent::dispatch($ticket);
-
-        $this->redirect('/'.app()->getLocale().'/tests/segnalazione-04-conferma');
-    }
-
-    /**
-     * @return array<string, string>
-     */
-    public function getIssueTypeOptions(): array
-    {
-        $issueTypes = $this->blockData['issue_types'] ?? null;
-
-        if (is_array($issueTypes) && $issueTypes !== []) {
-            $options = [];
-
-            foreach ($issueTypes as $key => $label) {
-                if (is_string($key) && is_string($label)) {
-                    $options[$key] = $label;
-
-                    continue;
-                }
-
-                if (is_string($label)) {
-                    $options[$label] = $label;
-                }
+            if (auth()->check()) {
+                $state['owner_id'] = auth()->id();
             }
 
-            if ($options !== []) {
-                return $options;
-            }
+            $ticket = Ticket::query()->create($state);
+            TicketCreatedEvent::dispatch($ticket);
+
+            $slug = (string) ($this->blockData['confirmation_slug'] ?? config('fixcity.wizard.confirmation_slug', 'segnalazione-04-conferma'));
+            $url = route('tests.view', ['slug' => $slug]);
+            $localizedUrl = LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), $url) ?: $url;
+            $this->redirect($localizedUrl);
+        } catch (\Throwable $e) {
+            $this->addError('submit', $e->getMessage());
+            \Filament\Notifications\Notification::make()
+                ->danger()
+                ->title(__('fixcity::segnalazione.errors.submit.title'))
+                ->body($e->getMessage())
+                ->send();
         }
-
-        return [
-            'public_damage' => (string) __('fixcity::segnalazione.create_options.public_damage.label'),
-            'maintenance' => (string) __('fixcity::segnalazione.create_options.maintenance.label'),
-            'urban_decorum' => (string) __('fixcity::segnalazione.create_options.urban_decorum.label'),
-        ];
-    }
-
-    private function resolveTicketTypeEnumFromKey(string $issueTypeKey): TicketTypeEnum
-    {
-        $try = TicketTypeEnum::tryFrom($issueTypeKey);
-        if ($try !== null) {
-            return $try;
-        }
-
-        return match ($issueTypeKey) {
-            'public_damage' => TicketTypeEnum::ROAD_MAINTENANCE,
-            'maintenance' => TicketTypeEnum::COMPLAINT,
-            'urban_decorum' => TicketTypeEnum::URBAN_FURNITURE,
-            default => TicketTypeEnum::OTHER,
-        };
     }
 
     public function render(): View
     {
-        $blockData = $this->blockData;
-
         return view($this->view, [
-            'blockData' => $blockData,
-            'pageTitle' => (string) ($blockData['title'] ?? __('fixcity::segnalazione.page.title.label')),
-            'pageDescription' => (string) ($blockData['description'] ?? ''),
+            'blockData' => $this->blockData,
+            'pageTitle' => (string) ($this->blockData['title'] ?? __('fixcity::segnalazione.page.title.label')),
+            'pageDescription' => (string) ($this->blockData['description'] ?? ''),
         ]);
+    }
+
+    /**
+     * @return array<int, Step>
+     */
+    public function getWizardSteps(): array
+    {
+        return [
+            $this->getStepByName('privacy'),
+            $this->getStepByName('data'),
+            $this->getStepByName('summary'),
+        ];
+    }
+
+    protected function getPrivacyNoticeHtml(): HtmlString
+    {
+        $privacyLink = (string) ($this->blockData['privacy_link'] ?? '#');
+        $intro = (string) __('fixcity::segnalazione.privacy.intro.text');
+        $detailPrefix = (string) __('fixcity::segnalazione.privacy.detail_prefix.text');
+        $linkLabel = (string) __('fixcity::segnalazione.privacy.link.label');
+
+        return new HtmlString(sprintf(
+            '<p class="mb-3">%s</p><p>%s<a href="%s" class="text-primary text-decoration-underline">%s</a></p>',
+            e($intro),
+            e($detailPrefix),
+            e($privacyLink),
+            e($linkLabel),
+        ));
+    }
+
+    protected function getAuthUserName(): string
+    {
+        $user = auth()->user();
+        if ($user === null) {
+            return '';
+        }
+
+        return (string) (data_get($user, 'name')
+            ?? trim(((string) data_get($user, 'first_name', '')).' '.((string) data_get($user, 'last_name', '')))
+        );
+    }
+
+    protected function getAuthUserFiscalCode(): string
+    {
+        $user = auth()->user();
+
+        return $user === null ? '' : (string) (data_get($user, 'fiscal_code') ?? data_get($user, 'codice_fiscale') ?? '');
+    }
+
+    protected function getAuthUserPhone(): string
+    {
+        $user = auth()->user();
+
+        return $user === null ? '' : (string) (data_get($user, 'phone') ?? data_get($user, 'mobile') ?? data_get($user, 'telefono') ?? '');
     }
 }
