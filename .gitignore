@@ -301,4 +301,25 @@ cache/*
 .git.bfg-report/
 *.jar
 laravel/Themes/One
+<<<<<<< HEAD
 >>>>>>> f2d809135 (.)
+=======
+
+.ai
+.ai-context
+.claude
+.clauderules
+.cursor
+.cursor.*
+.gemini
+.devcontainer
+.windsurf
+.iflow
+.junie
+.phive
+.vscode
+.windsurf
+.windsurf.*
+.ai-context
+.clauderules
+>>>>>>> a1fe21424 (.)
