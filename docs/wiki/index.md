@@ -62,6 +62,14 @@ Ogni tema ha il suo wiki locale in `laravel/Themes/<Name>/docs/wiki/`:
 | Sixteen | [wiki/index.md](../../laravel/Themes/Sixteen/docs/wiki/index.md) | [sixteen-theme](../../laravel/Themes/Sixteen/docs/wiki/overviews/sixteen-theme.md) |
 | TwentyOne | [wiki/index.md](../../laravel/Themes/TwentyOne/docs/wiki/index.md) | [twentyone-theme](../../laravel/Themes/TwentyOne/docs/wiki/overviews/twentyone-theme.md) |
 
+## Bashscripts
+
+Separate git repository with shell scripts and utilities:
+
+| Repo | Wiki index | Status |
+|------|-----------|--------|
+| bashscripts | [wiki/index.md](bashscripts/wiki/index.md) | bootstrap |
+
 ## Archived Queries
 
 - Pending first archived answers
