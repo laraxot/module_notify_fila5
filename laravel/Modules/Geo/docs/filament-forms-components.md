@@ -76,7 +76,9 @@ Coppia di input numerici annidati nello stato del field (schema interno `latitud
 **Path**: `app/Filament/Forms/Components/LeafletMarkerMapInput.php`
 **View**: `resources/views/filament/forms/components/leaflet-marker-map-input.blade.php`
 
-Mappa Leaflet (tile OpenStreetMap, pattern ispirato a mappe civiche tipo [farmshops.eu](https://github.com/CodeforKarlsruhe/farmshops.eu): OSM, UX chiara, niente lock-in) con marker trascinabile e pulsante «posizione corrente». Il campo mappa è `dehydrated(false)`; invece di persistere direttamente nello stato del form, aggiorna automaticamente due campi sibling configurati (di default `latitude` e `longitude`) nello stesso scope dello schema.
+Mappa Leaflet (tile OpenStreetMap, pattern ispirato a mappe civiche tipo [farmshops.eu](https://github.com/CodeforKarlsruhe/farmshops.eu): OSM, UX chiara, niente lock-in) con marker trascinabile, controlli in overlay (posizione corrente, schermo intero) e aggiornamento lat/lng sullo stato Livewire. Il campo mappa è `dehydrated(false)`; invece di persistere direttamente nello stato del form, aggiorna automaticamente due campi sibling configurati (di default `latitude` e `longitude`) nello stesso scope dello schema.
+
+Per il flusso wizard segnalazione in Fixcity vedi anche [story wizard mappa](../../Fixcity/docs/stories/wizard-leaflet-map-controls.md).
 
 **Usage Approaches**:
 
@@ -89,8 +91,7 @@ LeafletMarkerMapInput::make('location')
     ->label(__('fixcity::segnalazione.fields.place.section.label'))
     ->defaultCenter(41.9028, 12.4964) // Roma di default
     ->defaultZoom(13)
-    ->mapHeight('340px')
-    ->showMap(true),
+    ->mapHeight('340px'),
 // Aggiungi i campi sibling nascosti nello stesso schema:
 TextInput::make('latitude')->numeric()->hidden(),
 TextInput::make('longitude')->numeric()->hidden(),
@@ -115,7 +116,8 @@ TextInput::make('lng')->numeric()->hidden(),
 **Features**:
 - ✅ Leaflet 1.9 da CDN (tile OSM)
 - ✅ Marker trascinabile e click sulla mappa
-- ✅ Pulsante geolocalizzazione browser
+- ✅ Controlli in overlay sulla mappa: **posizione corrente** (aggiorna lat/lng via Livewire) e **schermo intero** (Fullscreen API + `invalidateSize()`)
+- ✅ `IntersectionObserver` + seconda passata `boot` su mappa già inizializzata: ridimensionamento corretto quando lo step wizard diventa visibile
 - ✅ Campo mappa non persistito (`dehydrated(false)`); persistenza su campi sibling lat/lng
 - ✅ Aggiornamento automatico dei campi sibling configurati via Livewire
 - ✅ Traduzioni `geo::leaflet_map.*` e riuso messaggi `geo::address.geolocation.*`

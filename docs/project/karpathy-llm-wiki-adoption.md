@@ -4,6 +4,18 @@
 > Aggiornato: 2026-04-14
 > Ambito: documentazione di progetto, ricerca, memoria operativa agentica
 
+## Wiki vs QMD (ruoli distinti)
+
+Il gist collega il wiki persistente a uno strumento di ricerca locale (**[qmd](https://github.com/tobi/qmd)**) quando il numero di pagine cresce. In FixCity teniamo separati i due concetti:
+
+| Artefatto | Domanda che risponde | Aggiornato da |
+|-----------|----------------------|---------------|
+| **LLM wiki** (`llm-wiki-index.md`, topic pages, log) | Cosa sappiamo, cosa è deciso, dove sono i link? | Agenti + umani (review) |
+| **Corpus modulare** (`docs/` per modulo/tema) | Dove vive la verità di dominio per quel modulo? | Team + policy esistenti |
+| **QMD** | Dove compare una parola chiave / un concetto in migliaia di `.md`? | Indice locale (CLI `qmd update` / `embed`) |
+
+Senza wiki compilato, QMD restituisce frammenti senza sintesi. Senza QMD, a corpus grande l’agente rilegge troppi file. Guida operativa QMD: [qmd-local-docs-search.md](./qmd-local-docs-search.md).
+
 ## Cos'e
 
 Il 4 aprile 2026 Andrej Karpathy ha pubblicato il gist `llm-wiki.md`, dove propone un pattern diverso dal classico RAG: invece di interrogare sempre le fonti grezze, l'agente mantiene un wiki markdown persistente che viene aggiornato a ogni nuova fonte e a ogni nuova sintesi utile.
@@ -161,18 +173,21 @@ Ma il risultato utile non deve restare solo nel notebook:
 
 ### Con QMD
 
-Karpathy cita QMD come upgrade naturale quando il wiki cresce. Per noi ha senso soprattutto per due casi:
+Karpathy cita QMD come upgrade naturale quando il wiki cresce ([gist — Optional: CLI tools](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)). Per noi ha senso soprattutto per:
 
-- ricerca rapida dentro `docs/`, `bashscripts/docs/`, `design-artifacts/`
-- retrieval per agenti senza rileggere centinaia di file
+- ricerca rapida su `docs/`, `laravel/Modules/*/docs/`, `laravel/Themes/*/docs/`, `bashscripts/docs/`, `design-artifacts/`;
+- retrieval per agenti (CLI, **MCP** `qmd mcp`, o SDK) senza rileggere centinaia di file;
+- **hybrid query** (BM25 + vettoriale + rerank locale) quando serve qualità superiore al grep.
 
-Uso consigliato qui:
+Uso consigliato (collezioni indicative):
 
-- collezione `project-docs` su `docs/`
-- collezione `scripts-docs` su `bashscripts/docs/`
-- collezione `design-artifacts` su `design-artifacts/`
+- `fixcity-root-docs` → `./docs`
+- `fixcity-modules` → `./laravel/Modules` con mask `**/docs/**/*.md`
+- opzionale: `bashscripts-docs`, `design-artifacts` come collezioni dedicate
 
-Se adottato, QMD non sostituisce il catalogo manuale del wiki. Lo accelera.
+Dettagli installazione, MCP, limiti e rapporto con questo documento: **[qmd-local-docs-search.md](./qmd-local-docs-search.md)**.
+
+Se adottato, QMD **non** sostituisce `llm-wiki-index.md` né le topic pages: **accelera** la scoperta; il wiki resta il layer di sintesi e governance.
 
 ## Decisione pratica per FixCity
 

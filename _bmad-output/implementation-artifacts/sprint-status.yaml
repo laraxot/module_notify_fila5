@@ -35,7 +35,7 @@
 # - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
 
 generated: 2026-04-05
-last_updated: 2026-04-14  # 8-2 leaflet map component enhancement: geolocation with user experience improvements
+last_updated: 2026-04-14  # 8-6 leaflet map fullscreen and center position
 project: base_fixcity_fila5
 project_key: NOKEY
 tracking_system: file-system
@@ -200,6 +200,7 @@ development_status:
   8-3-skills-mcp-inventory-and-setup: ready-for-dev
   8-4-agent-guide-docs-sharding-into-subfolders: ready-for-dev
   8-5-add-lat-lon-map-component: ready-for-dev
+  8-6-leaflet-map-fullscreen-and-center-position: ready-for-dev  # pulsante fullscreen + centra posizione + aggiornamento lat/lng nella mappa wizard step 2
   epic-8-retrospective: optional
 
   # Epic 6: Visual Testing & Polish (5 stories)

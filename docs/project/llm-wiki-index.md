@@ -27,6 +27,8 @@ Questo file e il catalogo dei nodi wiki utili agli agenti. Non e un archivio com
 
 ## AI And Agent Memory
 
+- [karpathy-llm-wiki-adoption.md](./karpathy-llm-wiki-adoption.md): pattern **LLM Wiki** (gist Karpathy) adattato al repo
+- [qmd-local-docs-search.md](./qmd-local-docs-search.md): **QMD** — ricerca locale hybrid su Markdown (CLI / MCP), complementare al wiki
 - [AGENTS.md](./AGENTS.md): configurazione agentica locale al progetto
 - [AI_AGENT_LESSONS_LEARNED.md](./AI_AGENT_LESSONS_LEARNED.md): lezioni apprese
 - [supermemory-setup.md](./supermemory-setup.md): setup memoria semantica

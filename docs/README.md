@@ -29,6 +29,8 @@ Documentation that applies to the entire project:
 - **[AI Workflow](project/ai-workflow/)** - BMAD, GSD, Ralph Loop, OpenViking integration
 - **[MCP Servers](MCP_SERVERS.md)** - Memory systems, development tools, configuration ⭐ NEW
 - **[SuperMemory Quickstart](SUPERMEMORY_QUICKSTART.md)** - AI memory infrastructure ⭐ NEW
+- **[LLM Wiki — adozione Karpathy](project/karpathy-llm-wiki-adoption.md)** - wiki markdown persistente, schema agenti, rapporto con QMD
+- **[QMD — ricerca locale su docs](project/qmd-local-docs-search.md)** - ricerca hybrid BM25/vettoriale su Markdown (CLI / MCP opzionale)
 - **[Conventions](project/conventions/)** - Coding standards, naming, structure
 
 ### Module Documentation
