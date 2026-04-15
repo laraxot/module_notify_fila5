@@ -66,41 +66,46 @@ docs/
 
 ## Current State
 
-**Status**: Bootstrap attivo — first reusable module pages compiled (2026-04-15)
+**Status**: In progressione — 9 pagine compilate su 20 moduli/temi (2026-04-15)
 
 | Livello | Wiki dirs | Pagine compilate | Raw docs |
 |---------|-----------|------------------|----------|
-| Root `docs/wiki/` | ✅ | 2 | ~150 |
-| Module wikis | ✅ pilot attivi | 3 AI pages + existing local scaffolds | module-specific corpora |
-| Theme wikis | ✅ scaffold presenti | 0 | theme-specific corpora |
+| Root `docs/wiki/` | ✅ | 3 | ~150 |
+| Module wikis (18) | ✅ tutti | 6 (Xot, Cms, UI, Lang, AI ×3) | ~13.174 |
+| Theme wikis (2) | ✅ tutti | 2 (Sixteen, TwentyOne) | ~745 |
 
 **Pagine compilate:**
 - `docs/wiki/concepts/llm-wiki-governance.md` — project wiki mapping
-- `docs/wiki/modules/ai-module.md` — project-level AI module summary
-- `laravel/Modules/AI/docs/wiki/overviews/ai-module.md` — local AI module overview
+- `docs/wiki/modules/ai-module.md` — project-level AI module routing
+- `laravel/Modules/Xot/docs/wiki/overviews/xot-module.md` — Xot foundation, XotBase* classes
+- `laravel/Modules/Cms/docs/wiki/overviews/cms-module.md` — content blocks, Folio routing, multilingua
+- `laravel/Modules/UI/docs/wiki/overviews/ui-module.md` — design system, componenti Blade/Filament
+- `laravel/Modules/Lang/docs/wiki/overviews/lang-module.md` — auto-discovery i18n, mcamara routing
+- `laravel/Modules/AI/docs/wiki/overviews/ai-module.md` — AI module overview
 - `laravel/Modules/AI/docs/wiki/concepts/ai-mcp-governance.md` — AI MCP synthesis
 - `laravel/Modules/AI/docs/wiki/concepts/local-first-ollama-strategy.md` — local-first runtime policy
+- `laravel/Themes/Sixteen/docs/wiki/overviews/sixteen-theme.md` — Bootstrap Italia, AGID, Design Comuni
+- `laravel/Themes/TwentyOne/docs/wiki/overviews/twentyone-theme.md` — Zen agnostic, Kinetic, GSAP
 
-**Last Ingestion**: 2026-04-15 (AI module)  
+**Last Ingestion**: 2026-04-15 (Cms, UI, Lang, Sixteen, TwentyOne)  
 **Last Lint**: Mai  
-**Health**: ✅ Struttura valida, first real module compilation in place
+**Health**: ✅ Struttura valida, core modules e temi compilati
 
 ## Next Steps
 
-### Priorità 1: Moduli Core (subito)
+### Priorità 1: Moduli rimanenti
 
-Ingerire i documenti SSOT di ogni modulo core:
+1. **User** — autenticazione, profilo, GDPR compliance
+2. **Fixcity** — ticket system, segnalazioni civiche, workflow
+3. **Geo** — geolocalizzazione, mappe, OpenStreetMap
+4. **Media** — gestione file, upload, storage S3
+5. **Seo** — meta tags, structured data, sitemap
 
-1. **AI** — MCP contracts, Ollama policy, tool routing ✅ compiled
-2. **Xot** — foundation and architecture summaries
-3. **Cms** — `content-blocks-system.md`, `folio-routing-locale.md`
-4. **UI** — `components.md`, `filament-components-usage.md`
-5. **Lang** — translation and localization synthesis
+### Priorità 2: Moduli secondari
 
-### Priorità 2: Temi
+Blog, Activity, Comment, Rating, Notify, Job, Tenant, Gdpr
 
-1. **Sixteen** — `design-comuni/README.md`, `AGID_CHECKLIST.md`
-2. **TwentyOne** — `ZEN_ARCHITECTURE_PHILOSOPHY.md`, `KINETIC_WEB_DESIGN_SPEC.md`
+### Priorità 3: Active Usage
 
 ### Priorità 3: Active Usage
 

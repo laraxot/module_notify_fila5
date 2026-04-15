@@ -102,6 +102,26 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
   - `supermemory remember` - Store specific memory
 - **Setup**: See [SuperMemory Quickstart](#supermemory-quickstart)
 
+### qmd
+- **Type**: Local Search Engine
+- **CLI**: `qmd` (npm global)
+- **Use**: Hybrid search over markdown files (BM25 + vector + reranking)
+- **Collections**:
+  - `fixcity-wiki` → `./docs/wiki`
+  - `fixcity-docs` → `./docs`
+  - `fixcity-modules` → `./Modules`
+  - `fixcity-themes` → `./Themes`
+- **Commands**:
+  - `qmd search "query"` - Full-text search
+  - `qmd query "query"` - Hybrid search with reranking
+  - `qmd vsearch "query"` - Vector semantic search
+  - `qmd get <file>` - Retrieve document
+  - `qmd status` - Index health
+  - `qmd update` - Re-index collections
+  - `qmd embed` - Generate vector embeddings
+- **MCP**: `qmd mcp` (stdio transport)
+- **Docs**: [qmd-local-docs-search.md](./project/qmd-local-docs-search.md)
+
 ## Configuration
 
 ### Project Configuration
