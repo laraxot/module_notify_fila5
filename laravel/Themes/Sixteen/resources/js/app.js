@@ -9,11 +9,13 @@
  */
 
 import '@splidejs/splide/dist/css/splide.min.css';
+import 'leaflet/dist/leaflet.css';
 import { dropdownToggle } from './components/dropdown';
 import { modal } from './components/modal';
 import { mobileMenu } from './components/mobile-menu';
 import { governanceCarousel } from './components/carousel';
 import './components/bootstrap-italia.js';
+import '../../../../Modules/Geo/resources/js/components/my-map-lit.js';
 // DISABLED: domande-frequenti-parity.js was overriding blade template HTML with JS-generated structure
 // Now using blade template directly with Alpine.js for accordion
 // import { domandeFrequentiParity } from './domande-frequenti-parity';

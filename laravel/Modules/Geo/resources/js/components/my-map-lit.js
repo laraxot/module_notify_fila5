@@ -1,6 +1,5 @@
 import { LitElement, html, css } from 'lit';
 import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
 
 export class MyMap extends LitElement {
     static properties = {
@@ -33,7 +32,7 @@ export class MyMap extends LitElement {
     }
 
     render() {
-        return html`[zibibbo]<div id="map" class="map"></div>`;
+        return html`<div id="map" class="map"></div>`;
     }
 
     firstUpdated() {

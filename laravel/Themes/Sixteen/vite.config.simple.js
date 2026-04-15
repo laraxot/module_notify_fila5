@@ -1,30 +1,8 @@
 import { defineConfig } from 'vite';
-import laravel, { refreshPaths } from 'laravel-vite-plugin'
 import tailwindcss from '@tailwindcss/vite'
-import nodeResolve from '@rollup/plugin-node-resolve';
-import path from 'path';
 
 export default defineConfig({
-    resolve: {
-        alias: {
-            '@modules': path.resolve(__dirname, '../../Modules'),
-        },
-    },
-    optimizeDeps: {
-        include: ['leaflet', 'lit'],
-    },
     plugins: [
-        laravel({
-            input: [
-                'resources/css/app.css',
-                'resources/css/app-test.css',
-                'resources/js/app.js',
-            ],
-            refresh: [
-                ...refreshPaths,
-                'app/Livewire/**',
-            ],
-        }),
         tailwindcss(),
     ],
     build: {
@@ -44,16 +22,7 @@ export default defineConfig({
         sourcemap: false,
         target: 'es2020',
         cssCodeSplit: true,
-        assetsInlineLimit: 4096,
-        rollupOptions: {
-            plugins: [
-                nodeResolve({
-                    browser: true,
-                    preferBuiltins: false,
-                    extensions: ['.mjs', '.js', '.json', '.node', '.css'],
-                }),
-            ],
-        },
+        assetsInlineLimit: 4096
     },
     server: {
         hmr: { host: 'localhost' }
