@@ -11,7 +11,26 @@ This file indexes the compiled wiki in `docs/wiki/`. It is not a mirror of the w
 - [log.md](./log.md): chronological operations log
 - [Karpathy adoption — root](../project/karpathy-llm-wiki-adoption.md): pattern originale, mapping globale
 - [Karpathy adoption — moduli/temi](../project/llm-wiki-module-adoption.md): mapping docs/=raw, docs/wiki/=wiki per ogni modulo/tema
-- [QMD local docs search](../project/qmd-local-docs-search.md)
+- [QMD local docs search](../project/qmd-local-docs-search.md): ricerca locale BM25 + vector
+
+## Tools
+
+### QMD Search
+QMD è configurato per ricerca locale su tutto il corpus markdown:
+
+| Collezione | Path | Uso |
+|------------|------|-----|
+| `fixcity-wiki` | `./docs/wiki` | Wiki compilato |
+| `fixcity-docs` | `./docs` | Documentazione progetto |
+| `fixcity-modules` | `./Modules` | Moduli Laravel |
+| `fixcity-themes` | `./Themes` | Temi |
+
+**MCP**: Server in `laravel/.mcp.json` — `qmd mcp`
+
+```bash
+# Esempio ricerca CLI
+qmd search "Laravel wiki" -c fixcity-docs -n 5
+```
 
 ## Concepts
 

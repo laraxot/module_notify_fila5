@@ -91,3 +91,19 @@ Recommended format:
 - Creato: `wiki/log.md` in 18 moduli/temi mancanti (Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, Tenant, UI, User, Xot, TwentyOne)
 - Aggiornato: `raw/index.md` in tutti i moduli/temi con mapping corretto
 - Aggiornato: `docs/wiki/index.md` — tabella moduli/temi con link wiki
+
+## [2026-04-15] decision | qmd installato e MCP configurato
+- sources:
+  - https://github.com/tobi/qmd
+  - docs/project/qmd-local-docs-search.md
+- pages:
+  - laravel/.mcp.json (aggiunto server qmd)
+  - docs/MCP_SERVERS.md (aggiunta sezione qmd)
+- summary:
+  - npm install -g qmd completato (v2.1.0)
+  - MCP server aggiunto: `"qmd": { "command": "qmd", "args": ["mcp"] }`
+  - Collezioni create: fixcity-wiki, fixcity-docs, fixcity-modules, fixcity-themes
+  - qmd search testato con successo su corpus markdown
+- next:
+  - eseguire `qmd embed` per generare embeddings vettoriali
+  - aggiornare docs/wiki/index.md con nuovo tool
