@@ -61,7 +61,7 @@ Il wizard è il flusso principale per la creazione di segnalazioni da parte dei 
 | Step | Nome | Contenuto |
 |------|------|-----------|
 | 1 | Privacy | Copy GDPR first-class + checkbox accettazione (MAI solo checkbox) |
-| 2 | Dati | LeafletMarkerMapInput, type_id, name, content, images — 3 Section (Luogo, Disservizio, Autore) |
+| 2 | Dati | LatitudeLongitudeInput, type_id, name, content, images — 3 Section (Luogo, Disservizio, Autore) |
 | 3 | Riepilogo | Infolist read-only strutturato + azione submit |
 
 ### Step 2 — Struttura Sezioni
@@ -70,8 +70,8 @@ Il wizard è il flusso principale per la creazione di segnalazioni da parte dei 
 Wizard\Step::make('dati')
     ->schema([
         Section::make()->schema([
-            // Luogo — LeafletMarkerMapInput (Geo module)
-            LeafletMarkerMapInput::make('geo_location'),
+            // Luogo — LatitudeLongitudeInput (Geo module)
+            LatitudeLongitudeInput::make('location'),
         ]),
         Section::make()->schema([
             // Disservizio — tipo e descrizione
@@ -95,7 +95,7 @@ Wizard\Step::make('dati')
 
 **4. `persistStepInQueryString('step')`** — usato solo in env locale/debug per QA; non in produzione.
 
-**5. Geolocalizzazione via Geo module** — `LeafletMarkerMapInput` (mai implementazione custom nel wizard).
+**5. Geolocalizzazione via Geo module** — `LatitudeLongitudeInput` (mai implementazione custom nel wizard).
 
 **6. Multilingua obbligatoria** — tutto il testo usa chiavi `fixcity::...`; slug CMS via config (MAI hardcoded italiano nel PHP).
 
@@ -127,7 +127,7 @@ Il pannello operatori usa Filament Resources standard:
 | Modulo | Uso |
 |--------|-----|
 | `Xot` | `XotBaseWizardWidget`, `XotBaseModel`, `XotBaseServiceProvider` |
-| `Geo` | `LeafletMarkerMapInput` per geolocalizzazione step 2 |
+| `Geo` | `LatitudeLongitudeInput` per geolocalizzazione step 2 |
 | `Sixteen` | CSS Design Comuni, stepper responsive, componenti AGID |
 | `Cms` | `content_blocks` per composizione pagina frontoffice |
 | `Lang` | `LangServiceProvider` — auto-label tutte le chiavi `fixcity::*` |
@@ -145,7 +145,7 @@ Il pannello operatori usa Filament Resources standard:
 ## Cross-References
 
 - [[../../../../../../laravel/Modules/Xot/docs/wiki/overviews/xot-module|Xot Module]] — XotBaseWizardWidget, XotBaseModel
-- [[../../../../../../laravel/Modules/Geo/docs/wiki/index|Geo Module]] — LeafletMarkerMapInput
+- [[../../../../../../laravel/Modules/Geo/docs/wiki/index|Geo Module]] — LatitudeLongitudeInput
 - [[../../../../../../laravel/Themes/Sixteen/docs/wiki/overviews/sixteen-theme|Sixteen Theme]] — CSS Design Comuni
 - [[../../../../../../laravel/Modules/Cms/docs/wiki/overviews/cms-module|Cms Module]] — content_blocks composizione
 

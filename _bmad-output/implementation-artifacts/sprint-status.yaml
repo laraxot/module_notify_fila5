@@ -1,5 +1,5 @@
 # generated: 2026-04-05
-# last_updated: 2026-04-13  # 8-1 geo filament forms components ecosystem
+# last_updated: 2026-04-15  # 8-10 segnalazione-crea map bidirectional sync and no refresh on marker drag
 # project: base_fixcity_fila5
 # project_key: NOKEY
 # tracking_system: file-system
@@ -35,7 +35,7 @@
 # - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
 
 generated: 2026-04-05
-last_updated: 2026-04-14  # 8-6 leaflet map fullscreen and center position
+last_updated: 2026-04-15  # 8-10 map sync hardening + Sixteen build/copy pipeline repaired
 project: base_fixcity_fila5
 project_key: NOKEY
 tracking_system: file-system
@@ -200,6 +200,11 @@ development_status:
   8-3-skills-mcp-inventory-and-setup: ready-for-dev
   8-4-agent-guide-docs-sharding-into-subfolders: ready-for-dev
   8-5-add-lat-lon-map-component: ready-for-dev
+  8-7-segnalazione-crea-map-ux-fix-satellite-lat-lng: in-progress  # triplo Luogo, spaziatura, satellite view, lat/lng update
+  8-8-segnalazione-crea-cross-breakpoint-visual-parity-and-map-hardening: ready-for-dev  # consolidamento parity desktop/tablet/mobile + header/stepper/sidebar + fullscreen mappa + hardening lat/lng
+  8-9-segnalazione-crea-step2-map-visibility-spacing-and-desktop-header-guard: review  # fix applicati: return Alpine map factory, spacing sections, hamburger desktop hidden; smoke runtime ancora bloccato dal server locale
+  8-10-segnalazione-crea-map-bidirectional-sync-and-no-refresh-on-marker-drag: review  # sync bidirezionale marker/input, stop refresh distruttivo, build/copy Sixteen ripristinati
+  8-11-segnalazione-crea-mobile-first-data-entry-with-map-coordinates-and-filament-governance: ready-for-dev  # step2 come form mobile-first reale; reference Design Comuni + coordinate al posto dell'indirizzo + vincolo Filament-first
   8-6-leaflet-map-fullscreen-and-center-position: ready-for-dev  # pulsante fullscreen + centra posizione + aggiornamento lat/lng nella mappa wizard step 2
   epic-8-retrospective: optional
 
