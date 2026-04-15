@@ -136,6 +136,7 @@ bashscripts/
 !bashscripts/ai/openviking-init.sh
 !bashscripts/ai/.gitkeep
 laravel/resources/views/vendor/
+laravel/lang/vendor/
 cache/models/*
 *.tar.gz
 
