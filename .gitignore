@@ -137,6 +137,7 @@ bashscripts/
 !bashscripts/ai/.gitkeep
 laravel/resources/views/vendor/
 laravel/lang/vendor/
+laravel/Themes/*/src/
 cache/models/*
 *.tar.gz
 
