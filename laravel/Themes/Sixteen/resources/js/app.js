@@ -9,7 +9,7 @@
  */
 
 import '@splidejs/splide/dist/css/splide.min.css';
-import 'leaflet/dist/leaflet.css';
+import '@theme-leaflet-css';
 import { dropdownToggle } from './components/dropdown';
 import { modal } from './components/modal';
 import { mobileMenu } from './components/mobile-menu';

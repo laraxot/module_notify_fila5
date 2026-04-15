@@ -57,9 +57,9 @@ customElements.define('my-component', MyComponent);
 
 Componente Lit che incapsula una mappa Leaflet con:
 - Proprietà reattive: `lat`, `lng`, `zoom`, `markerTitle`
-- Shadow DOM per isolamento stili
-- Geolocalizzazione e marker interattivo
+- Marker sincronizzato con le coordinate correnti
 - Integrazione Leaflet (libreria mappe)
+- Rendering in **light DOM** quando usa CSS globali di librerie terze
 
 ### Problema di Integrazione
 
@@ -142,33 +142,29 @@ export default defineConfig({
 
 ---
 
-## Raccomandazione Immediata
+## Regola Operativa Corrente
 
-**Fix rapido (per far buildare):**
+**Nel repository attuale:**
 
-1. **Aggiungere "lit" a Geo/package.json:**
-   ```json
-   {
-     "peerDependencies": {
-       "lit": "^3.3.2",
-       "leaflet": "^1.9.0"
-     }
-   }
-   ```
+1. `Sixteen` resta il bundle root
+2. I componenti JS di Geo possono essere importati dal tema
+3. Le dipendenze esterne (`lit`, `leaflet`, `leaflet.css`) vanno rese raggiungibili dal tema tramite alias Vite
+4. Se il componente usa una libreria con CSS globali come Leaflet, evitare Shadow DOM oppure reiniettare esplicitamente la stylesheet nello shadow root
 
-2. **Installare dipendenze:**
-   ```bash
-   cd laravel/Modules/Geo
-   npm install
-   ```
+### Caso reale: `my-map`
 
-3. **Oppure:** Commentare l'import in `Sixteen/resources/js/app.js` fino a quando il componente non sia completamente integrato
+Il problema non era uno solo:
 
-**Fix long-term (architettura):**
+1. Il bundle pubblicato non conteneva davvero `customElements.define('my-map', ...)`
+2. Il file Geo usava bare imports (`lit`, `leaflet`) da fuori root tema
+3. Anche dopo la build corretta, Leaflet restava visualmente rotto perché i CSS globali non entrano nello Shadow DOM
 
-- Implementare una strategia di **modular components** dove ogni modulo ha il suo package.json con dipendenze esplicite
-- Usare Monorepo tools (workspace npm) per gestire interdipendenze
-- Documentare le regole di integrazione tra moduli e temi
+### Soluzione adottata
+
+- alias Vite nel tema per `lit`, `leaflet`, `leaflet.css`
+- import del componente Geo dentro `Sixteen/resources/js/app.js`
+- pipeline obbligatoria `npm run build` + `npm run copy` da `laravel/Themes/Sixteen`
+- `my-map` reso in **light DOM** per consentire a Leaflet di usare i suoi CSS globali
 
 ---
 

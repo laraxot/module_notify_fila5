@@ -8,6 +8,9 @@ export default defineConfig({
     resolve: {
         alias: {
             '@modules': path.resolve(__dirname, '../../Modules'),
+            '@theme-lit': path.resolve(__dirname, 'node_modules/lit/index.js'),
+            '@theme-leaflet': path.resolve(__dirname, 'node_modules/leaflet/dist/leaflet-src.js'),
+            '@theme-leaflet-css': path.resolve(__dirname, 'node_modules/leaflet/dist/leaflet.css'),
         },
     },
     optimizeDeps: {

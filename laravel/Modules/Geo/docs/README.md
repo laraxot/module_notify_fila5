@@ -40,3 +40,4 @@ Geo module owns ALL geo-spatial concerns. Other modules (Fixcity, Transport, Log
 - When a Geo JS component is bundled by the `Sixteen` theme, package resolution happens in the theme Vite pipeline, not in the Geo folder.
 - If a Geo JS file uses bare imports like `lit` or `leaflet`, the theme must expose those dependencies through reachable aliases or a shared reachable `node_modules`.
 - This prevents Rollup/Vite failures when importing Geo files from outside the theme root.
+- If a Geo Web Component wraps a library that depends on global CSS, like Leaflet, prefer light DOM unless the component also reinjects the vendor stylesheet into its shadow root.

@@ -24,7 +24,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-DYvQ-VW5.js",
+    "file": "assets/app-Dh2oX-wB.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -32,7 +32,7 @@
       "node_modules/@splidejs/splide/dist/js/splide.esm.js"
     ],
     "css": [
-      "assets/app-BRKXMWAJ.css"
+      "assets/app-4obgQAYc.css"
     ]
   }
 }

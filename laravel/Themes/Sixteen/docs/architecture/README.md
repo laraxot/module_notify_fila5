@@ -53,6 +53,13 @@
 - In this repository that installation boundary is the theme bundle actually running Vite
 - When a Geo-owned Lit component is imported by the Sixteen bundle, the theme must expose `lit` to Rollup/Vite even though the source file lives under `Modules/Geo`
 
+### Build And Publish Rule
+- `npm run build` generates the new theme manifest and hashed assets under `laravel/Themes/Sixteen/public/`
+- `npm run copy` must force-overwrite `public_html/themes/Sixteen/manifest.json` and the compiled assets, otherwise Laravel may keep serving an old JS entry even after a successful build
+- If the browser is still loading an older hashed bundle, inspect both manifests:
+  - `laravel/Themes/Sixteen/public/manifest.json`
+  - `public_html/themes/Sixteen/manifest.json`
+
 ---
 
 ## 📁 Allowed Directory Structure
