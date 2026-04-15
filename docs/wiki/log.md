@@ -92,6 +92,23 @@ Recommended format:
 - Aggiornato: `raw/index.md` in tutti i moduli/temi con mapping corretto
 - Aggiornato: `docs/wiki/index.md` — tabella moduli/temi con link wiki
 
+## [2026-04-15] ingest | qmd vector embeddings setup
+- sources:
+  - qmd documentation
+  - embedding model: hf_ggml-org/embeddinggemma-300M-GGUF
+- pages:
+  - bashscripts/docs/wiki/index.md (bootstrap)
+  - bashscripts/docs/wiki/log.md (bootstrap)
+- summary:
+  - created bashscripts wiki structure (separate git repo)
+  - bashscripts wiki created with concepts/, entities/, summaries/, comparisons/, overviews/
+  - updated root wiki index.md with bashscripts reference
+  - qmd embed started (downloading 328MB embeddinggemma-300M model)
+  - embedding model downloaded to ~/.cache/qmd/models/
+- next:
+  - run qmd embed again to complete vector indexing (model ready)
+  - document bashscripts scripts (backup, sync, dev automation)
+
 ## [2026-04-15] decision | qmd installato e MCP configurato
 - sources:
   - https://github.com/tobi/qmd
