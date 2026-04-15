@@ -244,3 +244,4 @@ laravel/.env.testing
 /screenshot-group*.js
 /test-homepage*.js
 /*.png
+bashscripts/
