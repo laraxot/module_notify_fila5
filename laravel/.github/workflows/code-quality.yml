@@ -1,0 +1,139 @@
+name: Code Quality
+
+on:
+  push:
+    branches: [ main, dev, develop ]
+  pull_request:
+    branches: [ main, dev, develop ]
+
+jobs:
+  phpstan:
+    name: PHPStan Analysis
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, xml, ctype, iconv, intl, pdo_sqlite, mysql
+          coverage: none
+      
+      - name: Install Dependencies
+        run: composer install --prefer-dist --no-progress
+      
+      - name: Run PHPStan
+        run: ./vendor/bin/phpstan analyse --level=3 --error-format=github
+      
+      - name: Upload PHPStan Results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: phpstan-results
+          path: phpstan_results.json
+
+  pest:
+    name: Pest Tests
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, xml, ctype, iconv, intl, pdo_sqlite, mysql
+          coverage: xdebug
+      
+      - name: Install Dependencies
+        run: composer install --prefer-dist --no-progress
+      
+      - name: Run Pest Tests
+        run: ./vendor/bin/pest --coverage --min=80
+      
+      - name: Upload Coverage
+        if: always()
+        uses: codecov/codecov-action@v3
+        with:
+          files: ./coverage.xml
+
+  complexity:
+    name: Cyclomatic Complexity
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, xml, ctype, iconv, intl
+      
+      - name: Run Complexity Analysis
+        run: php analyze_complexity.php
+      
+      - name: Check Complexity Threshold
+        run: |
+          HIGH_COMPLEXITY=$(grep -r "High Complexity Methods" Modules/*/docs/cyclomatic-complexity-report.md | grep -oP '\d+' | awk '{s+=$1} END {print s}')
+          echo "Total high complexity methods: $HIGH_COMPLEXITY"
+          if [ "$HIGH_COMPLEXITY" -gt 20 ]; then
+            echo "❌ Too many high complexity methods: $HIGH_COMPLEXITY (max: 20)"
+            exit 1
+          fi
+          echo "✅ Complexity check passed: $HIGH_COMPLEXITY methods"
+      
+      - name: Upload Complexity Reports
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: complexity-reports
+          path: Modules/*/docs/cyclomatic-complexity-report.md
+
+  code-style:
+    name: Code Style (Pint)
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+      
+      - name: Install Dependencies
+        run: composer install --prefer-dist --no-progress
+      
+      - name: Run Laravel Pint
+        run: ./vendor/bin/pint --test
+
+  security:
+    name: Security Audit
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+      
+      - name: Install Dependencies
+        run: composer install --prefer-dist --no-progress
+      
+      - name: Security Audit
+        run: composer audit
+
+  quality-gate:
+    name: Quality Gate
+    runs-on: ubuntu-latest
+    needs: [phpstan, pest, complexity, code-style, security]
+    
+    steps:
+      - name: Quality Gate Passed
+        run: echo "✅ All quality checks passed!"

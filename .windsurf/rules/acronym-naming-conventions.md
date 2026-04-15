@@ -1,0 +1,48 @@
+<<<<<<< HEAD
+# Convenzioni di Naming per Acronimi in SaluteOra
+
+## Regola Fondamentale
+
+In SaluteOra, gli acronimi nei nomi delle classi e dei file devono utilizzare **PascalCase** e non tutte maiuscole.
+=======
+# Convenzioni di Naming per Acronimi in <nome progetto>
+
+## Regola Fondamentale
+
+In <nome progetto>, gli acronimi nei nomi delle classi e dei file devono utilizzare **PascalCase** e non tutte maiuscole.
+>>>>>>> dev
+
+## Esempi Corretti vs Errati
+
+| ❌ Errato | ✅ Corretto |
+|----------|-------------|
+| `SendSMSPage` | `SendSmsPage` |
+| `SendAWSEmailPage` | `SendAwsEmailPage` |
+| `HTTPService` | `HttpService` |
+| `JSONResponse` | `JsonResponse` |
+| `NetfunSMSAction` | `NetfunSmsAction` |
+
+## Motivazione
+
+1. **Coerenza con PSR**: Le convenzioni PSR-1 suggeriscono l'uso di PascalCase per i nomi delle classi
+2. **Leggibilità**: Gli acronimi in PascalCase sono più leggibili, specialmente quando concatenati
+3. **Compatibilità IDE**: Migliore supporto da parte degli IDE per il completamento automatico
+4. **Coerenza con Laravel/PHP**: Segue le pratiche standard in Laravel e nell'ecosistema PHP moderno
+
+## Applicazione della Regola
+
+Questa regola si applica a:
+- Nomi delle classi
+- Nomi dei file
+- Metodi e proprietà
+- Nomi dei namespace
+
+## Riferimenti
+
+<<<<<<< HEAD
+- [Modules/Notify/docs/ACRONYM_NAMING_CONVENTIONS.md](file:///var/www/html/saluteora/laravel/Modules/Notify/docs/ACRONYM_NAMING_CONVENTIONS.md)
+=======
+- [Modules/Notify/docs/ACRONYM_NAMING_CONVENTIONS.md](file:///var/www/html/<nome progetto>/laravel/Modules/Notify/docs/ACRONYM_NAMING_CONVENTIONS.md)
+>>>>>>> dev
+- [PSR-1: Basic Coding Standard](https://www.php-fig.org/psr/psr-1/)
+- [Laravel Documentation - Coding Style](https://laravel.com/docs/10.x/contributions#coding-style)

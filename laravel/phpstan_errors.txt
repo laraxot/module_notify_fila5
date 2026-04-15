@@ -1,0 +1,1107 @@
+Note: Using configuration file /var/www/_bases/base_fixcity_fila4_mono/laravel/phpstan.neon.
+    0/4174 [░░░░░░░░░░░░░░░░░░░░░░░░░░░░]   0%[1G[2K 3437/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░]  82%[1G[2K 3457/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░]  82%[1G[2K 3477/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░]  83%[1G[2K 3517/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░]  84%[1G[2K 3597/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░]  86%[1G[2K 3617/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░]  86%[1G[2K 3637/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░]  87%[1G[2K 3657/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░]  87%[1G[2K 3677/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░]  88%[1G[2K 3717/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░]  89%[1G[2K 3737/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░]  89%[1G[2K 3757/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░]  90%[1G[2K 3797/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░]  90%[1G[2K 3837/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░]  91%[1G[2K 3857/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░]  92%[1G[2K 3877/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░]  92%[1G[2K 3897/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░]  93%[1G[2K 3917/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░]  93%[1G[2K 3937/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░]  94%[1G[2K 3957/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░]  94%[1G[2K 4034/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░]  96%[1G[2K 4074/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░]  97%[1G[2K 4114/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░]  98%[1G[2K 4134/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░]  99%[1G[2K 4174/4174 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100%
+
+ ------ -------------------------------------------------- 
+  Line   AI/app/Services/AIService.php                     
+ ------ -------------------------------------------------- 
+  :30    Property                                          
+         Modules\AI\App\Services\AIService::$apiKey        
+         (string) does not accept mixed.                   
+         🪪  assign.propertyType                           
+         ✏️  AI/app/Services/AIService.php                 
+  :31    Property                                          
+         Modules\AI\App\Services\AIService::$baseUrl       
+         (string) does not accept mixed.                   
+         🪪  assign.propertyType                           
+         ✏️  AI/app/Services/AIService.php                 
+  :32    Property                                          
+         Modules\AI\App\Services\AIService::$timeout       
+         (int) does not accept mixed.                      
+         🪪  assign.propertyType                           
+         ✏️  AI/app/Services/AIService.php                 
+  :33    Property                                          
+         Modules\AI\App\Services\AIService::$retryAttempt  
+         s (int) does not accept mixed.                    
+         🪪  assign.propertyType                           
+         ✏️  AI/app/Services/AIService.php                 
+  :47    Parameter #1 $response of method                  
+         Modules\AI\App\Services\AIService::parseClassifi  
+         cationResponse() expects string, array given.     
+         🪪  argument.type                                 
+         ✏️  AI/app/Services/AIService.php                 
+  :60    Method                                            
+         Modules\AI\App\Services\AIService::suggestSoluti  
+         ons() should return array but returns mixed.      
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :64    Parameter #1 $response of method                  
+         Modules\AI\App\Services\AIService::parseSolution  
+         Response() expects string, array given.           
+         🪪  argument.type                                 
+         ✏️  AI/app/Services/AIService.php                 
+  :75    Method                                            
+         Modules\AI\App\Services\AIService::analyzeSentim  
+         ent() should return array but returns mixed.      
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :79    Parameter #1 $response of method                  
+         Modules\AI\App\Services\AIService::parseSentimen  
+         tResponse() expects string, array given.          
+         🪪  argument.type                                 
+         ✏️  AI/app/Services/AIService.php                 
+  :88    Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :94    Parameter #1 $response of method                  
+         Modules\AI\App\Services\AIService::parsePriority  
+         Response() expects string, array given.           
+         🪪  argument.type                                 
+         ✏️  AI/app/Services/AIService.php                 
+  :105   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :105   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :107   Method                                            
+         Modules\AI\App\Services\AIService::optimizeRouti  
+         ng() should return array but returns mixed.       
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :111   Parameter #1 $response of method                  
+         Modules\AI\App\Services\AIService::parseRoutingR  
+         esponse() expects string, array given.            
+         🪪  argument.type                                 
+         ✏️  AI/app/Services/AIService.php                 
+  :122   Method                                            
+         Modules\AI\App\Services\AIService::generateAutoR  
+         esponse() should return string but returns        
+         mixed.                                            
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :126   Call to an undefined method                       
+         Modules\AI\App\Services\AIService::parseResponse  
+         Response().                                       
+         🪪  method.notFound                               
+         ✏️  AI/app/Services/AIService.php                 
+  :135   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :135   Parameter #1 $string of function md5 expects      
+         string, string|false given.                       
+         🪪  argument.type                                 
+         ✏️  AI/app/Services/AIService.php                 
+  :137   Method                                            
+         Modules\AI\App\Services\AIService::analyzePatter  
+         ns() should return array but returns mixed.       
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :141   Parameter #1 $response of method                  
+         Modules\AI\App\Services\AIService::parsePatternR  
+         esponse() expects string, array given.            
+         🪪  argument.type                                 
+         ✏️  AI/app/Services/AIService.php                 
+  :150   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :150   Parameter #1 $string of function md5 expects      
+         string, string|false given.                       
+         🪪  argument.type                                 
+         ✏️  AI/app/Services/AIService.php                 
+  :152   Method                                            
+         Modules\AI\App\Services\AIService::suggestImprov  
+         ements() should return array but returns mixed.   
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :156   Parameter #1 $response of method                  
+         Modules\AI\App\Services\AIService::parseImprovem  
+         entResponse() expects string, array given.        
+         🪪  argument.type                                 
+         ✏️  AI/app/Services/AIService.php                 
+  :242   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :273   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :274   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :332   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :373   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :447   Cannot access offset 'choices' on mixed.          
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  AI/app/Services/AIService.php                 
+  :447   Cannot access offset 'content' on mixed.          
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  AI/app/Services/AIService.php                 
+  :447   Cannot access offset 'message' on mixed.          
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  AI/app/Services/AIService.php                 
+  :447   Cannot access offset 0 on mixed.                  
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  AI/app/Services/AIService.php                 
+  :447   Method                                            
+         Modules\AI\App\Services\AIService::makeAIRequest  
+         () should return array but returns mixed.         
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :477   Function json_decode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_decode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :489   Method                                            
+         Modules\AI\App\Services\AIService::parseClassifi  
+         cationResponse() should return array but returns  
+         mixed.                                            
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :497   Function json_decode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_decode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :507   Method                                            
+         Modules\AI\App\Services\AIService::parseSolution  
+         Response() should return array but returns        
+         mixed.                                            
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :515   Function json_decode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_decode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :528   Method                                            
+         Modules\AI\App\Services\AIService::parseSentimen  
+         tResponse() should return array but returns       
+         mixed.                                            
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :536   Function json_decode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_decode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :549   Method                                            
+         Modules\AI\App\Services\AIService::parsePriority  
+         Response() should return array but returns        
+         mixed.                                            
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :557   Function json_decode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_decode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :568   Method                                            
+         Modules\AI\App\Services\AIService::parseRoutingR  
+         esponse() should return array but returns mixed.  
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :576   Function json_decode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_decode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :587   Method                                            
+         Modules\AI\App\Services\AIService::parsePatternR  
+         esponse() should return array but returns mixed.  
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+  :595   Function json_decode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_decode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  AI/app/Services/AIService.php                 
+  :605   Method                                            
+         Modules\AI\App\Services\AIService::parseImprovem  
+         entResponse() should return array but returns     
+         mixed.                                            
+         🪪  return.type                                   
+         ✏️  AI/app/Services/AIService.php                 
+ ------ -------------------------------------------------- 
+
+ ------ ----------------------------------------- 
+  Line   Activity/Services/ActivityLogger.php     
+ ------ ----------------------------------------- 
+  :152   Relation 'user' is not found in          
+         Modules\Activity\Models\Activity model.  
+         🪪  larastan.relationExistence           
+         ✏️  Activity/Services/ActivityLogger.php  
+  :165   Relation 'user' is not found in          
+         Modules\Activity\Models\Activity model.  
+         🪪  larastan.relationExistence           
+         ✏️  Activity/Services/ActivityLogger.php  
+  :177   Relation 'user' is not found in          
+         Modules\Activity\Models\Activity model.  
+         🪪  larastan.relationExistence           
+         ✏️  Activity/Services/ActivityLogger.php  
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   Activity/app/Models/Activity.php                 
+ ------ ------------------------------------------------- 
+  :102   Method Modules\Activity\Models\Activity::user()  
+         has no return type specified.                    
+         🪪  missingType.return                           
+         ✏️  Activity/app/Models/Activity.php             
+ ------ ------------------------------------------------- 
+
+ ------ ------------------------------------------------- 
+  Line   Comment/Services/CommentService.php              
+ ------ ------------------------------------------------- 
+  :36    Call to an undefined method                      
+         Illuminate\Database\Eloquent\Model::comments().  
+         🪪  method.notFound                              
+         ✏️  Comment/Services/CommentService.php          
+  :122   Call to an undefined method                      
+         Illuminate\Database\Eloquent\Model::comments().  
+         🪪  method.notFound                              
+         ✏️  Comment/Services/CommentService.php          
+  :139   Relation 'user' is not found in                  
+         Modules\Comment\Models\Comment model.            
+         🪪  larastan.relationExistence                   
+         ✏️  Comment/Services/CommentService.php          
+  :164   Call to an undefined method                      
+         Illuminate\Database\Eloquent\Model::comments().  
+         🪪  method.notFound                              
+         ✏️  Comment/Services/CommentService.php          
+ ------ ------------------------------------------------- 
+
+ ------ ----------------------------------------------- 
+  Line   Comment/app/Models/Comment.php                 
+ ------ ----------------------------------------------- 
+  :103   Method Modules\Comment\Models\Comment::user()  
+         has no return type specified.                  
+         🪪  missingType.return                         
+         ✏️  Comment/app/Models/Comment.php             
+ ------ ----------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   Fixcity/Http/Resources/TicketResource.php     
+ ------ ---------------------------------------------- 
+  :116   Cannot call method count() on int|null.       
+         🪪  method.nonObject                          
+         ✏️  Fixcity/Http/Resources/TicketResource.php  
+ ------ ---------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Fixcity/Jobs/GeocodeTicketAddressJob.php          
+ ------ -------------------------------------------------- 
+  :142   Cannot access offset 'display_name' on mixed.     
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Fixcity/Jobs/GeocodeTicketAddressJob.php      
+  :143   Parameter #1 $data of method                      
+         Modules\Fixcity\Jobs\GeocodeTicketAddressJob::fo  
+         rmatAddress() expects array, mixed given.         
+         🪪  argument.type                                 
+         ✏️  Fixcity/Jobs/GeocodeTicketAddressJob.php      
+  :246   Parameter #1 $latitude of method                  
+         Modules\Fixcity\Jobs\GeocodeTicketAddressJob::ge  
+         tFallbackAddress() expects float, float|null      
+         given.                                            
+         🪪  argument.type                                 
+         ✏️  Fixcity/Jobs/GeocodeTicketAddressJob.php      
+  :247   Parameter #2 $longitude of method                 
+         Modules\Fixcity\Jobs\GeocodeTicketAddressJob::ge  
+         tFallbackAddress() expects float, float|null      
+         given.                                            
+         🪪  argument.type                                 
+         ✏️  Fixcity/Jobs/GeocodeTicketAddressJob.php      
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Fixcity/Livewire/TicketMap.php                    
+ ------ -------------------------------------------------- 
+  :111   Access to an undefined property                   
+         Modules\Fixcity\Livewire\TicketMap::$tickets.     
+         🪪  property.notFound                             
+         💡  Learn more: https://phpstan.org/blog/solving-  
+         phpstan-access-to-undefined-property              
+         ✏️  Fixcity/Livewire/TicketMap.php                
+  :162   Method                                            
+         Modules\Fixcity\Livewire\TicketMap::getUserLocat  
+         ion() should return array but returns mixed.      
+         🪪  return.type                                   
+         ✏️  Fixcity/Livewire/TicketMap.php                
+  :187   Parameter #1 $view of function view expects       
+         view-string|null, string given.                   
+         🪪  argument.type                                 
+         ✏️  Fixcity/Livewire/TicketMap.php                
+  :188   Access to an undefined property                   
+         Modules\Fixcity\Livewire\TicketMap::$tickets.     
+         🪪  property.notFound                             
+         💡  Learn more: https://phpstan.org/blog/solving-  
+         phpstan-access-to-undefined-property              
+         ✏️  Fixcity/Livewire/TicketMap.php                
+  :189   Access to an undefined property                   
+         Modules\Fixcity\Livewire\TicketMap::$stats.       
+         🪪  property.notFound                             
+         💡  Learn more: https://phpstan.org/blog/solving-  
+         phpstan-access-to-undefined-property              
+         ✏️  Fixcity/Livewire/TicketMap.php                
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Fixcity/Observers/TicketObserver.php              
+ ------ -------------------------------------------------- 
+  :121   Parameter #1 $ticket of class                     
+         Modules\Fixcity\Notifications\TicketCreatedNotif  
+         ication constructor expects                       
+         Modules\Fixcity\App\Models\Ticket,                
+         Modules\Fixcity\Models\Ticket given.              
+         🪪  argument.type                                 
+         ✏️  Fixcity/Observers/TicketObserver.php          
+  :139   Class                                             
+         Modules\Fixcity\Notifications\TicketStatusChange  
+         dNotification constructor invoked with 2          
+         parameters, 3 required.                           
+         🪪  arguments.count                               
+         ✏️  Fixcity/Observers/TicketObserver.php          
+  :139   Parameter #1 $ticket of class                     
+         Modules\Fixcity\Notifications\TicketStatusChange  
+         dNotification constructor expects                 
+         Modules\Fixcity\App\Models\Ticket,                
+         Modules\Fixcity\Models\Ticket given.              
+         🪪  argument.type                                 
+         ✏️  Fixcity/Observers/TicketObserver.php          
+  :139   Parameter #2 $oldStatus of class                  
+         Modules\Fixcity\Notifications\TicketStatusChange  
+         dNotification constructor expects string, mixed   
+         given.                                            
+         🪪  argument.type                                 
+         ✏️  Fixcity/Observers/TicketObserver.php          
+  :158   Class                                             
+         Modules\Fixcity\Notifications\TicketAssignedNoti  
+         fication constructor invoked with 1 parameter, 2  
+         required.                                         
+         🪪  arguments.count                               
+         ✏️  Fixcity/Observers/TicketObserver.php          
+  :158   Parameter #1 $ticket of class                     
+         Modules\Fixcity\Notifications\TicketAssignedNoti  
+         fication constructor expects                      
+         Modules\Fixcity\App\Models\Ticket,                
+         Modules\Fixcity\Models\Ticket given.              
+         🪪  argument.type                                 
+         ✏️  Fixcity/Observers/TicketObserver.php          
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Fixcity/Repositories/TicketRepository.php         
+ ------ -------------------------------------------------- 
+  :33    Method                                            
+         Modules\Fixcity\Repositories\TicketRepository::f  
+         indById() should return                           
+         Modules\Fixcity\Models\Ticket|null but returns    
+         mixed.                                            
+         🪪  return.type                                   
+         ✏️  Fixcity/Repositories/TicketRepository.php     
+  :51    Method                                            
+         Modules\Fixcity\Repositories\TicketRepository::f  
+         indBySlug() should return                         
+         Modules\Fixcity\Models\Ticket|null but returns    
+         mixed.                                            
+         🪪  return.type                                   
+         ✏️  Fixcity/Repositories/TicketRepository.php     
+  :89    Method                                            
+         Modules\Fixcity\Repositories\TicketRepository::n  
+         earby() should return                             
+         Illuminate\Database\Eloquent\Collection but       
+         returns mixed.                                    
+         🪪  return.type                                   
+         ✏️  Fixcity/Repositories/TicketRepository.php     
+  :115   Method                                            
+         Modules\Fixcity\Repositories\TicketRepository::b  
+         yStatus() should return                           
+         Illuminate\Database\Eloquent\Collection but       
+         returns mixed.                                    
+         🪪  return.type                                   
+         ✏️  Fixcity/Repositories/TicketRepository.php     
+  :136   Method                                            
+         Modules\Fixcity\Repositories\TicketRepository::b  
+         yCategory() should return                         
+         Illuminate\Database\Eloquent\Collection but       
+         returns mixed.                                    
+         🪪  return.type                                   
+         ✏️  Fixcity/Repositories/TicketRepository.php     
+  :157   Method                                            
+         Modules\Fixcity\Repositories\TicketRepository::b  
+         yPriority() should return                         
+         Illuminate\Database\Eloquent\Collection but       
+         returns mixed.                                    
+         🪪  return.type                                   
+         ✏️  Fixcity/Repositories/TicketRepository.php     
+  :178   Method                                            
+         Modules\Fixcity\Repositories\TicketRepository::a  
+         ssignedTo() should return                         
+         Illuminate\Database\Eloquent\Collection but       
+         returns mixed.                                    
+         🪪  return.type                                   
+         ✏️  Fixcity/Repositories/TicketRepository.php     
+  :199   Method                                            
+         Modules\Fixcity\Repositories\TicketRepository::c  
+         reatedBy() should return                          
+         Illuminate\Database\Eloquent\Collection but       
+         returns mixed.                                    
+         🪪  return.type                                   
+         ✏️  Fixcity/Repositories/TicketRepository.php     
+  :220   Method                                            
+         Modules\Fixcity\Repositories\TicketRepository::g  
+         etStatistics() should return array but returns    
+         mixed.                                            
+         🪪  return.type                                   
+         ✏️  Fixcity/Repositories/TicketRepository.php     
+  :320   Part $identifier (mixed) of encapsed string       
+         cannot be cast to string.                         
+         🪪  encapsedStringPart.nonString                  
+         ✏️  Fixcity/Repositories/TicketRepository.php     
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Fixcity/app/Filament/Resources/FaqCategoryResour  
+         ce.php                                            
+ ------ -------------------------------------------------- 
+  :104   Call to static method make() on an unknown class  
+         Filament\Tables\Actions\EditAction.               
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Fixcity/app/Filament/Resources/FaqCategoryRes  
+         ource.php                                         
+  :107   Call to static method make() on an unknown class  
+         Filament\Tables\Actions\BulkActionGroup.          
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Fixcity/app/Filament/Resources/FaqCategoryRes  
+         ource.php                                         
+  :108   Call to static method make() on an unknown class  
+         Filament\Tables\Actions\DeleteBulkAction.         
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Fixcity/app/Filament/Resources/FaqCategoryRes  
+         ource.php                                         
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Fixcity/app/Models/TicketCategory.php             
+ ------ -------------------------------------------------- 
+  :52    Method                                            
+         Modules\Fixcity\Models\TicketCategory::scopeActi  
+         ve() has no return type specified.                
+         🪪  missingType.return                            
+         ✏️  Fixcity/app/Models/TicketCategory.php         
+  :52    Method                                            
+         Modules\Fixcity\Models\TicketCategory::scopeActi  
+         ve() has parameter $query with no type            
+         specified.                                        
+         🪪  missingType.parameter                         
+         ✏️  Fixcity/app/Models/TicketCategory.php         
+  :60    Method                                            
+         Modules\Fixcity\Models\TicketCategory::scopeOrde  
+         red() has no return type specified.               
+         🪪  missingType.return                            
+         ✏️  Fixcity/app/Models/TicketCategory.php         
+  :60    Method                                            
+         Modules\Fixcity\Models\TicketCategory::scopeOrde  
+         red() has parameter $query with no type           
+         specified.                                        
+         🪪  missingType.parameter                         
+         ✏️  Fixcity/app/Models/TicketCategory.php         
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Fixcity/database/seeders/ActivitySeeder.php       
+ ------ -------------------------------------------------- 
+  :48    Call to static method firstOrCreate() on an       
+         unknown class Modules\Fixcity\Models\Activity.    
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Fixcity/database/seeders/ActivitySeeder.php   
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Fixcity/routes/api.php                            
+ ------ -------------------------------------------------- 
+  :29    Class                                             
+         Modules\Fixcity\Http\Controllers\Api\TicketContr  
+         oller not found.                                  
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Fixcity/routes/api.php                        
+  :33    Class                                             
+         Modules\Fixcity\Http\Controllers\Api\TicketContr  
+         oller not found.                                  
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Fixcity/routes/api.php                        
+  :35    Class                                             
+         Modules\Fixcity\Http\Controllers\Api\TicketContr  
+         oller not found.                                  
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Fixcity/routes/api.php                        
+  :37    Class                                             
+         Modules\Fixcity\Http\Controllers\Api\TicketContr  
+         oller not found.                                  
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Fixcity/routes/api.php                        
+  :42    Class                                             
+         Modules\Fixcity\Http\Controllers\Api\TicketContr  
+         oller not found.                                  
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Fixcity/routes/api.php                        
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Geo/Database/Factories/GeoLocationFactory.php     
+ ------ -------------------------------------------------- 
+  :27    Parameter #1 $type of method                      
+         Modules\Geo\Database\Factories\GeoLocationFactor  
+         y::generateLocationName() expects string, mixed   
+         given.                                            
+         🪪  argument.type                                 
+         ✏️  Geo/Database/Factories/GeoLocationFactory.php  
+  :62    Part $prefix (mixed) of encapsed string cannot    
+         be cast to string.                                
+         🪪  encapsedStringPart.nonString                  
+         ✏️  Geo/Database/Factories/GeoLocationFactory.php  
+  :62    Part $suffix (mixed) of encapsed string cannot    
+         be cast to string.                                
+         🪪  encapsedStringPart.nonString                  
+         ✏️  Geo/Database/Factories/GeoLocationFactory.php  
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Geo/Services/GeocodingService.php                 
+ ------ -------------------------------------------------- 
+  :37    Binary operation "." between mixed and '          
+         (contact@fixcity…' results in an error.           
+         🪪  binaryOp.invalid                              
+         ✏️  Geo/Services/GeocodingService.php             
+  :47    Method                                            
+         Modules\Geo\Services\GeocodingService::geocode()  
+         should return array|null but returns mixed.       
+         🪪  return.type                                   
+         ✏️  Geo/Services/GeocodingService.php             
+  :59    Method                                            
+         Modules\Geo\Services\GeocodingService::reverseGe  
+         ocode() should return string|null but returns     
+         mixed.                                            
+         🪪  return.type                                   
+         ✏️  Geo/Services/GeocodingService.php             
+  :148   Cannot access offset 0 on mixed.                  
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Geo/Services/GeocodingService.php             
+  :152   Cannot access offset 'lat' on mixed.              
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Geo/Services/GeocodingService.php             
+  :153   Cannot access offset 'lon' on mixed.              
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Geo/Services/GeocodingService.php             
+  :154   Cannot access offset 'display_name' on mixed.     
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Geo/Services/GeocodingService.php             
+  :155   Cannot access offset 'address' on mixed.          
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Geo/Services/GeocodingService.php             
+  :190   Cannot access offset 'display_name' on mixed.     
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Geo/Services/GeocodingService.php             
+  :191   Parameter #1 $data of method                      
+         Modules\Geo\Services\GeocodingService::formatAdd  
+         ress() expects array, mixed given.                
+         🪪  argument.type                                 
+         ✏️  Geo/Services/GeocodingService.php             
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Notify/Services/NotificationService.php           
+ ------ -------------------------------------------------- 
+  :95    Access to an undefined property                   
+         Modules\User\Models\User::$unreadNotifications.   
+         🪪  property.notFound                             
+         💡  Learn more: https://phpstan.org/blog/solving-  
+         phpstan-access-to-undefined-property              
+         ✏️  Notify/Services/NotificationService.php       
+  :126   Access to an undefined property                   
+         Modules\User\Models\User::$unreadNotifications.   
+         🪪  property.notFound                             
+         💡  Learn more: https://phpstan.org/blog/solving-  
+         phpstan-access-to-undefined-property              
+         ✏️  Notify/Services/NotificationService.php       
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Notify/app/Jobs/SendScheduledPushNotification.ph  
+         p                                                 
+ ------ -------------------------------------------------- 
+  :50    Cannot access offset 'tokens' on mixed.           
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Notify/app/Jobs/SendScheduledPushNotification  
+         .php                                              
+  :50    Parameter #1 $tokens of method                    
+         Modules\Notify\App\Services\PushNotificationServ  
+         ice::sendToDevices() expects array, mixed given.  
+         🪪  argument.type                                 
+         ✏️  Notify/app/Jobs/SendScheduledPushNotification  
+         .php                                              
+  :51    Cannot access offset 'notification' on mixed.     
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Notify/app/Jobs/SendScheduledPushNotification  
+         .php                                              
+  :51    Parameter #2 $notification of method              
+         Modules\Notify\App\Services\PushNotificationServ  
+         ice::sendToDevices() expects array, mixed given.  
+         🪪  argument.type                                 
+         ✏️  Notify/app/Jobs/SendScheduledPushNotification  
+         .php                                              
+  :52    Cannot access offset 'data' on mixed.             
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Notify/app/Jobs/SendScheduledPushNotification  
+         .php                                              
+  :52    Parameter #3 $data of method                      
+         Modules\Notify\App\Services\PushNotificationServ  
+         ice::sendToDevices() expects array, mixed given.  
+         🪪  argument.type                                 
+         ✏️  Notify/app/Jobs/SendScheduledPushNotification  
+         .php                                              
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Notify/app/Services/PushNotificationService.php   
+ ------ -------------------------------------------------- 
+  :247   Cannot access offset 'message_id' on mixed.       
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Notify/app/Services/PushNotificationService.p  
+         hp                                                
+  :287   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  Notify/app/Services/PushNotificationService.p  
+         hp                                                
+  :381   Cannot access offset 'message_id' on mixed.       
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Notify/app/Services/PushNotificationService.p  
+         hp                                                
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Rating/Services/RatingService.php                 
+ ------ -------------------------------------------------- 
+  :104   Method                                            
+         Modules\Rating\Services\RatingService::getAverag  
+         e() should return float but returns mixed.        
+         🪪  return.type                                   
+         ✏️  Rating/Services/RatingService.php             
+  :105   Expression on left side of ?? is not nullable.    
+         🪪  nullCoalesce.expr                             
+         ✏️  Rating/Services/RatingService.php             
+  :118   Method                                            
+         Modules\Rating\Services\RatingService::getCount(  
+         ) should return int but returns mixed.            
+         🪪  return.type                                   
+         ✏️  Rating/Services/RatingService.php             
+  :132   Method                                            
+         Modules\Rating\Services\RatingService::getDistri  
+         bution() should return array but returns mixed.   
+         🪪  return.type                                   
+         ✏️  Rating/Services/RatingService.php             
+  :170   Relation 'user' is not found in                   
+         Modules\Rating\Models\Rating model.               
+         🪪  larastan.relationExistence                    
+         ✏️  Rating/Services/RatingService.php             
+  :198   Return type of call to method                     
+         Illuminate\Database\Eloquent\Collection<int,Modu  
+         les\Rating\Models\Rating>::map() contains unreso  
+         lvable type.                                      
+         🪪  method.unresolvableReturnType                 
+         ✏️  Rating/Services/RatingService.php             
+  :205   Anonymous function has an unused use              
+         $modelClass.                                      
+         🪪  closure.unusedUse                             
+         ✏️  Rating/Services/RatingService.php             
+  :205   Parameter #1 $callback of method                  
+         Illuminate\Database\Eloquent\Collection<int,Modu  
+         les\Rating\Models\Rating>::map() contains unreso  
+         lvable type.                                      
+         🪪  argument.unresolvableType                     
+         ✏️  Rating/Services/RatingService.php             
+  :207   Access to an undefined property                   
+         Modules\Rating\Models\Rating::$rateable_id.       
+         🪪  property.notFound                             
+         💡  Learn more: https://phpstan.org/blog/solving-  
+         phpstan-access-to-undefined-property              
+         ✏️  Rating/Services/RatingService.php             
+  :208   Access to an undefined property                   
+         Modules\Rating\Models\Rating::$avg_rating.        
+         🪪  property.notFound                             
+         💡  Learn more: https://phpstan.org/blog/solving-  
+         phpstan-access-to-undefined-property              
+         ✏️  Rating/Services/RatingService.php             
+  :209   Access to an undefined property                   
+         Modules\Rating\Models\Rating::$rating_count.      
+         🪪  property.notFound                             
+         💡  Learn more: https://phpstan.org/blog/solving-  
+         phpstan-access-to-undefined-property              
+         ✏️  Rating/Services/RatingService.php             
+  :238   Parameter #3 ...$values of function sprintf       
+         expects bool|float|int|string|null, mixed given.  
+         🪪  argument.type                                 
+         ✏️  Rating/Services/RatingService.php             
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Tenant/app/Services/Config/Resolvers/DatabaseCon  
+         figResolver.php                                   
+ ------ -------------------------------------------------- 
+  :78    Cannot access offset string on mixed.             
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Tenant/app/Services/Config/Resolvers/Database  
+         ConfigResolver.php                                
+  :82    Cannot access offset string on mixed.             
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Tenant/app/Services/Config/Resolvers/Database  
+         ConfigResolver.php                                
+  :86    Cannot access offset string on mixed.             
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  Tenant/app/Services/Config/Resolvers/Database  
+         ConfigResolver.php                                
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   UI/App/Livewire/Components/Map/InteractiveMap.ph  
+         p                                                 
+ ------ -------------------------------------------------- 
+  :39    Property                                          
+         Modules\UI\App\Livewire\Components\Map\Interacti  
+         veMap::$listeners has no type specified.          
+         🪪  missingType.property                          
+         ✏️  UI/App/Livewire/Components/Map/InteractiveMap  
+         .php                                              
+  :65    Parameter #1 $view of function view expects       
+         view-string|null, string given.                   
+         🪪  argument.type                                 
+         ✏️  UI/App/Livewire/Components/Map/InteractiveMap  
+         .php                                              
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   User/app/Models/User.php                          
+ ------ -------------------------------------------------- 
+  :316   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  User/app/Models/User.php                      
+  :324   Function json_decode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_decode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  User/app/Models/User.php                      
+  :326   Parameter #2 $haystack of function array_search   
+         expects array, mixed given.                       
+         🪪  argument.type                                 
+         ✏️  User/app/Models/User.php                      
+  :327   Cannot access offset int|string on mixed.         
+         🪪  offsetAccess.nonOffsetAccessible              
+         ✏️  User/app/Models/User.php                      
+  :328   Parameter #1 $array of function array_values      
+         expects array<T>, mixed given.                    
+         🪪  argument.type                                 
+         ✏️  User/app/Models/User.php                      
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Xot/app/Http/Middleware/PerformanceMonitoringMid  
+         dleware.php                                       
+ ------ -------------------------------------------------- 
+  :73    Call to static method getQueryLog() on an         
+         unknown class Modules\Xot\Http\Middleware\DB.     
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Xot/app/Http/Middleware/PerformanceMonitoring  
+         Middleware.php                                    
+  :73    Call to static method getQueryLog() on an         
+         unknown class Modules\Xot\Http\Middleware\DB.     
+         🪪  class.notFound                                
+         💡  Learn more at                                 
+         https://phpstan.org/user-guide/discovering-symbo  
+         ls                                                
+         ✏️  Xot/app/Http/Middleware/PerformanceMonitoring  
+         Middleware.php                                    
+  :73    Parameter #2 $values of method                    
+         Symfony\Component\HttpFoundation\ResponseHeaderB  
+         ag::set() expects array<string>|string|null, int  
+         <0, max> given.                                   
+         🪪  argument.type                                 
+         ✏️  Xot/app/Http/Middleware/PerformanceMonitoring  
+         Middleware.php                                    
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Xot/app/Http/Middleware/SecurityMiddleware.php    
+ ------ -------------------------------------------------- 
+  :54    Parameter #1 $ip of method                        
+         Modules\Xot\Http\Middleware\SecurityMiddleware::  
+         checkIPRateLimit() expects string, string|null    
+         given.                                            
+         🪪  argument.type                                 
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :57    Parameter #1 $userAgent of method                 
+         Modules\Xot\Http\Middleware\SecurityMiddleware::  
+         checkUserAgentRateLimit() expects string,         
+         string|null given.                                
+         🪪  argument.type                                 
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :60    Parameter #2 $ip of method                        
+         Modules\Xot\Http\Middleware\SecurityMiddleware::  
+         checkEndpointRateLimit() expects string,          
+         string|null given.                                
+         🪪  argument.type                                 
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :84    Binary operation "+" between mixed and 1 results  
+         in an error.                                      
+         🪪  binaryOp.invalid                              
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :108   Binary operation "+" between mixed and 1 results  
+         in an error.                                      
+         🪪  binaryOp.invalid                              
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :132   Binary operation "+" between mixed and 1 results  
+         in an error.                                      
+         🪪  binaryOp.invalid                              
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :307   Function json_encode is unsafe to use. It can     
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\json_encode;' at    
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :307   Function preg_match is unsafe to use. It can      
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\preg_match;' at     
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :307   Function preg_match is unsafe to use. It can      
+         return FALSE instead of throwing an exception.    
+         Please add 'use function Safe\preg_match;' at     
+         the beginning of the file to use the variant      
+         provided by the 'thecodingmachine/safe' library.  
+         🪪  theCodingMachineSafe.function                 
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :307   Parameter #2 $subject of function preg_match      
+         expects string, string|false given.               
+         🪪  argument.type                                 
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :328   Parameter #1 $haystack of function stripos        
+         expects string, string|null given.                
+         🪪  argument.type                                 
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+  :434   Parameter #2 $user_string of function             
+         hash_equals expects string, mixed given.          
+         🪪  argument.type                                 
+         ✏️  Xot/app/Http/Middleware/SecurityMiddleware.ph  
+         p                                                 
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Xot/app/Services/Artisan/Handlers/CacheCommandHa  
+         ndler.php                                         
+ ------ -------------------------------------------------- 
+  :41    Method                                            
+         Modules\Xot\Services\Artisan\Handlers\CacheComma  
+         ndHandler::getCurrentCommand() should return      
+         string but returns mixed.                         
+         🪪  return.type                                   
+         ✏️  Xot/app/Services/Artisan/Handlers/CacheComman  
+         dHandler.php                                      
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Xot/app/Services/Artisan/Handlers/ErrorCommandHa  
+         ndler.php                                         
+ ------ -------------------------------------------------- 
+  :38    Method                                            
+         Modules\Xot\Services\Artisan\Handlers\ErrorComma  
+         ndHandler::getCurrentCommand() should return      
+         string but returns mixed.                         
+         🪪  return.type                                   
+         ✏️  Xot/app/Services/Artisan/Handlers/ErrorComman  
+         dHandler.php                                      
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Xot/app/Services/Artisan/Handlers/ModuleCommandH  
+         andler.php                                        
+ ------ -------------------------------------------------- 
+  :41    Method                                            
+         Modules\Xot\Services\Artisan\Handlers\ModuleComm  
+         andHandler::getCurrentCommand() should return     
+         string but returns mixed.                         
+         🪪  return.type                                   
+         ✏️  Xot/app/Services/Artisan/Handlers/ModuleComma  
+         ndHandler.php                                     
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Xot/app/Services/Artisan/Handlers/RouteCommandHa  
+         ndler.php                                         
+ ------ -------------------------------------------------- 
+  :42    Method                                            
+         Modules\Xot\Services\Artisan\Handlers\RouteComma  
+         ndHandler::getCurrentCommand() should return      
+         string but returns mixed.                         
+         🪪  return.type                                   
+         ✏️  Xot/app/Services/Artisan/Handlers/RouteComman  
+         dHandler.php                                      
+ ------ -------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   Xot/app/Services/MonitoringService.php            
+ ------ -------------------------------------------------- 
+  :30    Property                                          
+         Modules\Xot\App\Services\MonitoringService::$met  
+         rics is never read, only written.                 
+         🪪  property.onlyWritten                          
+         💡  See:                                          
+         https://phpstan.org/developing-extensions/always  
+         -read-written-properties                          
+         ✏️  Xot/app/Services/MonitoringService.php        
+  :31    Property                                          
+         Modules\Xot\App\Services\MonitoringService::$ale  
+         rts is never read, only written.                  
+         🪪  property.onlyWritten                          
+         💡  See:                                          
+         https://phpstan.org/developing-extensions/always  
+         -read-written-properties                          
+         ✏️  Xot/app/Services/MonitoringService.php        
+  :32    Property                                          
+         Modules\Xot\App\Services\MonitoringService::$tot  
+         alRequests is never read, only written.           
+         🪪  property.onlyWritten                          
+         💡  See:                                          
+         https://phpstan.org/developing-extensions/always  
+         -read-written-properties                          
+         ✏️  Xot/app/Services/MonitoringService.php        
+  :33    Property                                          
+         Modules\Xot\App\Services\MonitoringService::$tot  
+         alErrors is never read, only written.             
+         🪪  property.onlyWritten                          
+         💡  See:                                          
+         https://phpstan.org/developing-extensions/always  
+         -read-written-properties                          
+         ✏️  Xot/app/Services/MonitoringService.php        
+  :355   Call to function is_array() with mixed will       
+         always evaluate to false.                         
+         🪪  function.impossibleType                       
+         ✏️  Xot/app/Services/MonitoringService.php        
+  :355   Offset 'status' on *NEVER* in isset() always      
+         exists and is not nullable.                       
+         🪪  isset.offset                                  
+         ✏️  Xot/app/Services/MonitoringService.php        
+ ------ -------------------------------------------------- 
+
+ [ERROR] Found 168 errors                                  
+
