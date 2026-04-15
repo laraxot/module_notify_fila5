@@ -230,7 +230,15 @@ bashscripts/ai/.claude/skills/canvas-design/canvas-fonts
 *.*Zone.Identifier
 .kilo
 .gemini
-<<<<<<< HEAD
-=======
 laravel/.env.testing
->>>>>>> origin/dev
+
+# Analysis/comparison workfiles (temp scripts, outputs, screenshots at root)
+/memory-bank/
+/output/
+/segnalazione-*/
+/screenshot*.py
+/screenshot*.js
+/take_comparison.js
+/screenshot-group*.js
+/test-homepage*.js
+/*.png
