@@ -27,5 +27,7 @@ This directory routes to the active documentation roots for the Laravel themes i
 - Active theme docs: [Sixteen](../Sixteen/docs/README.md)
 - Alternative theme docs: [TwentyOne](../TwentyOne/docs/README.md)
 - Module index: [laravel/Modules/docs/README.md](../../Modules/docs/README.md)
+- LLM wiki workflow: [docs/wiki/README.md](../../../docs/wiki/README.md)
+- Themes note: [llm-wiki.md](./llm-wiki.md)
 - Shared project docs: [docs/README.md](../../../docs/README.md)
 - Agent rules: [AGENTS.md](../../../AGENTS.md)

@@ -86,3 +86,10 @@ Se desideri contribuire a questa documentazione o all'implementazione del modulo
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
 - [OpenViking Integration Guide](../../../../docs/openviking-integration.md)
+
+## LLM Wiki Workflow
+
+- Canonical wiki layer: [../../../../docs/wiki/README.md](../../../../docs/wiki/README.md)
+- Compiled index: [../../../../docs/wiki/index.md](../../../../docs/wiki/index.md)
+- Adoption notes and QMD: [../../../../docs/project/karpathy-llm-wiki-adoption.md](../../../../docs/project/karpathy-llm-wiki-adoption.md), [../../../../docs/project/qmd-local-docs-search.md](../../../../docs/project/qmd-local-docs-search.md)
+- [AI LLM Wiki](./llm-wiki.md)

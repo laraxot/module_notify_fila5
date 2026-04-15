@@ -119,6 +119,12 @@ php artisan db:seed --class=FixcitySeeder
 - [Sprint Planning](sprint.md) - Sprint correnti
 - [User Research](research.md) - Ricerca utenti
 
+## LLM Wiki Workflow
+
+- Canonical wiki layer: [../../../../docs/wiki/README.md](../../../../docs/wiki/README.md)
+- Compiled index: [../../../../docs/wiki/index.md](../../../../docs/wiki/index.md)
+- Governance page: [../../../../docs/wiki/concepts/llm-wiki-governance.md](../../../../docs/wiki/concepts/llm-wiki-governance.md)
+
 ### 🔧 Technical
 - [MCP Servers](MCP_SERVERS.md) - Server MCP configurati
 - [Logging Performance](LOGGING_PERFORMANCE.md) - Performance logging

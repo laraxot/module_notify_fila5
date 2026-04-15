@@ -1,0 +1,10 @@
+collections:
+  module-ai-docs:
+    path: /var/www/_bases/base_fixcity_fila5/laravel/Modules/AI/docs
+    pattern: "**/*.md"
+  theme-sixteen-docs:
+    path: /var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs
+    pattern: "**/*.md"
+    context:
+      "": Sixteen theme documentation, design parity reports, frontend rules, and compiled wiki pages.
+global_context: Laraxot documentation workspace with docs/ as source layer and docs/wiki as compiled LLM wiki layer.

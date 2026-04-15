@@ -19,11 +19,11 @@ Output pensati per **flussi agentici** (CLI con `--json` / `--files`, **SDK** `@
 
 | Layer | Ruolo | Dove sta in FixCity |
 |-------|--------|---------------------|
-| **Wiki compilato** | Sintesi persistente, link, contraddizioni segnalate | [`karpathy-llm-wiki-adoption.md`](./karpathy-llm-wiki-adoption.md), [`llm-wiki-index.md`](./llm-wiki-index.md), topic pages in `docs/project/` |
+| **Wiki compilato** | Sintesi persistente, link, contraddizioni segnalate | [`karpathy-llm-wiki-adoption.md`](./karpathy-llm-wiki-adoption.md), [`../wiki/index.md`](../wiki/index.md), topic pages in `docs/wiki/` |
 | **Ricerca (QMD)** | Trovare *rapidamente* file e passaggi rilevanti nel corpus `.md` | Questo documento + indice locale |
 | **Fonti raw** | Immutabili, materiali grezzi | `.planning/`, `design-artifacts/`, allegati, ecc. (vedi adozione Karpathy) |
 
-QMD risolve il problema “**in quale file era scritto X?**” a scala grande. Il wiki risolve “**cosa abbiamo deciso e come si collega?**”. L’agente può: query QMD → leggere i file → aggiornare il wiki e il log.
+QMD risolve il problema “**in quale file era scritto X?**” a scala grande. Il wiki risolve “**cosa abbiamo deciso e come si collega?**”. L’agente può: query QMD → leggere i file → aggiornare `docs/wiki/` e il log.
 
 ## Perché nel progetto FixCity
 
@@ -121,13 +121,13 @@ Da **v1.1.6+** / **v2.0+**: `import { createStore } from '@tobilu/qmd'` con `dbP
 
 1. **Aggiornare** `@tobilu/qmd` periodicamente e rieseguire `qmd update && qmd embed` dopo grandi merge su `docs/`.
 2. **Una collezione per area** (root `docs/`, `Modules`, `Themes`) per filtrare le query e ridurre rumore.
-3. **Dopo ingest importante** nel senso Karpathy, aggiornare [`llm-wiki-log.md`](./llm-wiki-log.md) e, se serve, [`llm-wiki-index.md`](./llm-wiki-index.md) — QMD non sostituisce il catalogo manuale.
+3. **Dopo ingest importante** nel senso Karpathy, aggiornare [`../wiki/log.md`](../wiki/log.md) e, se serve, [`../wiki/index.md`](../wiki/index.md) — QMD non sostituisce il catalogo manuale.
 4. **Lint wiki** (periodicità definita in adozione Karpathy): QMD può aiutare a trovare file correlati, ma la coerenza semantica resta un compito guidato.
 
 ## Collegamenti
 
 - Pattern wiki persistente: [karpathy-llm-wiki-adoption.md](./karpathy-llm-wiki-adoption.md)
-- Catalogo nodi wiki: [llm-wiki-index.md](./llm-wiki-index.md)
+- Catalogo nodi wiki: [../wiki/index.md](../wiki/index.md)
 - Indice documentazione progetto: [README.md](./README.md)
 - MCP index: [../mcp/index.md](../mcp/index.md)
 - Repository: [tobi/qmd](https://github.com/tobi/qmd)

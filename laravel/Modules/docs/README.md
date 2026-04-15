@@ -52,4 +52,6 @@ The governing rule for all module docs is in
 - Shared project rules: [docs/README.md](../../../docs/README.md)
 - Project documentation governance: [docs/project/docs-governance.md](../../../docs/project/docs-governance.md)
 - Theme index: [laravel/Themes/docs/README.md](../../Themes/docs/README.md)
+- LLM wiki workflow: [docs/wiki/README.md](../../../docs/wiki/README.md)
+- Modules note: [llm-wiki.md](./llm-wiki.md)
 - Agent rules: [AGENTS.md](../../../AGENTS.md)

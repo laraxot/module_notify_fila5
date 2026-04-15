@@ -20,6 +20,49 @@ This file provides guidance and memory for Codex CLI. The content has been split
 - [Architect (Winston)](./.agents/docs/main-rules/agent-architect.md)
 - [Business Analyst (Mary)](./.agents/docs/main-rules/agent-analyst.md)
 
+## LLM Wiki Knowledge Base
+
+Questo progetto usa il pattern **LLM Wiki** di Andrej Karpathy per costruire una knowledge base persistente.
+
+### Struttura Wiki
+
+```
+docs/
+├── wiki/           # Wiki LLM-maintained (compilata)
+│   ├── concepts/  # Pattern, architetture, metodologie
+│   ├── entities/  # Moduli, classi, componenti
+│   ├── summaries/ # Sintesi di documenti
+│   └── ...
+├── raw/            # Sorgenti grezzi (immutabili)
+│   ├── articles/  # Articoli e reference
+│   ├── papers/    # Paper tecnici
+│   └── notes/     # Note e appunti
+├── .schema/       # Schema per l'LLM
+│   └── WIKI_SCHEMA.md
+├── wiki/index.md  # Indice principale
+└── log.md         # Log cronologico
+```
+
+### Convenzioni
+
+1. **Raw sources**: IMMUTABILI - l'LLM legge ma non modifica
+2. **Wiki pages**: Create e mantenute dall'LLM
+3. **Ogni modulo/tema** ha la propria `wiki/` e `raw/`
+
+### Riferimenti
+
+- [Schema Wiki](./docs/.schema/WIKI_SCHEMA.md) - Istruzioni per l'LLM
+- [Index Globale](./docs/wiki/index.md) - Catalogo di tutte le wiki
+- [Log](./docs/log.md) - Cronologia delle operazioni
+
+### Workflow
+
+- **Ingest**: Leggi un sorgente → aggiungi a wiki
+- **Query**: Chiedi → consulta wiki → rispondi con citazioni
+- **Lint**: Verifica consistenza e cross-references
+
+---
+
 ## Reusable Tasks
 
 - [Task: validate-next-story](./.agents/docs/main-rules/task-validate-next-story.md)

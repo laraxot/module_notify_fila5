@@ -10,7 +10,7 @@ Il gist collega il wiki persistente a uno strumento di ricerca locale (**[qmd](h
 
 | Artefatto | Domanda che risponde | Aggiornato da |
 |-----------|----------------------|---------------|
-| **LLM wiki** (`llm-wiki-index.md`, topic pages, log) | Cosa sappiamo, cosa è deciso, dove sono i link? | Agenti + umani (review) |
+| **LLM wiki** (`docs/wiki/index.md`, topic pages, log) | Cosa sappiamo, cosa è deciso, dove sono i link? | Agenti + umani (review) |
 | **Corpus modulare** (`docs/` per modulo/tema) | Dove vive la verità di dominio per quel modulo? | Team + policy esistenti |
 | **QMD** | Dove compare una parola chiave / un concetto in migliaia di `.md`? | Indice locale (CLI `qmd update` / `embed`) |
 
@@ -60,6 +60,8 @@ Il valore del modello Karpathy qui non e fare "un altro sistema docs". Il valore
 
 ### 1. Raw sources
 
+Per questa adozione la cartella raw non e una directory separata: il corpus raw e `docs/`, con l'unica esclusione di `docs/wiki/**` che e il layer compilato.
+
 Per FixCity, le fonti grezze canoniche dovrebbero essere queste:
 
 - `.planning/research/` per ricerche esterne e raccolta materiale
@@ -76,18 +78,18 @@ Regola operativa:
 
 ### 2. Wiki
 
-Per noi il wiki layer non deve nascere fuori dal repo. Deve stare nel repo, sotto `docs/project/`, e puntare alle fonti reali.
+Per noi il wiki layer non deve nascere fuori dal repo. Deve stare nel repo, sotto `docs/wiki/`, e puntare alle fonti reali.
 
 Da oggi i primi artifact del wiki layer sono:
 
-- [`llm-wiki-index.md`](./llm-wiki-index.md)
-- [`llm-wiki-log.md`](./llm-wiki-log.md)
+- [`../wiki/index.md`](../wiki/index.md)
+- [`../wiki/log.md`](../wiki/log.md)
 - questo documento di adozione
 
 Uso previsto:
 
-- `llm-wiki-index.md` = catalogo tematico dei nodi di conoscenza utili agli agenti
-- `llm-wiki-log.md` = log cronologico append-only di ingest, query, lint, decisioni
+- `docs/wiki/index.md` = catalogo tematico dei nodi di conoscenza utili agli agenti
+- `docs/wiki/log.md` = log cronologico append-only di ingest, query, lint, decisioni
 - topic pages future = pagine stabili su argomenti ricorrenti ad alta utilita
 
 Esempi di future topic pages ad alto ROI:
@@ -126,13 +128,13 @@ Quando entra una nuova fonte:
 1. l'agente la classifica come `raw source`;
 2. aggiorna o crea una pagina wiki stabile;
 3. aggiunge link bidirezionali nel catalogo;
-4. registra l'evento in `llm-wiki-log.md`.
+4. registra l'evento in `docs/wiki/log.md`.
 
 ### Query
 
 Quando facciamo una domanda progettuale:
 
-1. l'agente parte da `llm-wiki-index.md`;
+1. l'agente parte da `docs/wiki/index.md`;
 2. apre le pagine wiki rilevanti;
 3. scende alle raw sources solo se serve verifica;
 4. se la risposta produce una sintesi riusabile, la salva nel wiki.
@@ -187,7 +189,7 @@ Uso consigliato (collezioni indicative):
 
 Dettagli installazione, MCP, limiti e rapporto con questo documento: **[qmd-local-docs-search.md](./qmd-local-docs-search.md)**.
 
-Se adottato, QMD **non** sostituisce `llm-wiki-index.md` né le topic pages: **accelera** la scoperta; il wiki resta il layer di sintesi e governance.
+Se adottato, QMD **non** sostituisce `docs/wiki/index.md` né le topic pages: **accelera** la scoperta; il wiki resta il layer di sintesi e governance.
 
 ## Decisione pratica per FixCity
 
@@ -201,11 +203,15 @@ L'adozione corretta non e costruire subito un mega knowledge base. E introdurre 
 
 ## Prossimi passi consigliati
 
-1. Popolare `llm-wiki-index.md` con 10-20 nodi reali del progetto.
+1. Popolare `docs/wiki/index.md` con 10-20 nodi reali del progetto.
 2. Creare 3-5 topic pages sui temi che riapriamo piu spesso.
 3. Stabilire una convenzione `ingest | query | lint | decision` nel log.
 4. Valutare QMD solo dopo aver reso il wiki utile a mano, non prima.
 5. Promuovere nel wiki solo conoscenza riusabile, non report temporanei.
+
+## Compatibilita con i file storici
+
+I file storici `docs/project/llm-wiki-index.md` e `docs/project/llm-wiki-log.md` restano come shim di compatibilita per i link esistenti, ma la posizione canonica da usare da oggi e `docs/wiki/`.
 
 ## Nota critica
 
