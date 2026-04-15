@@ -15,6 +15,12 @@ wiki/
 └── overviews/     # Panoramiche
 ```
 
+## Pagine Compilate
+
+| Pagina | Tipo | Argomento |
+|--------|------|-----------|
+| [fixcity-module](./overviews/fixcity-module.md) | overview | Ticket system, wizard frontoffice cittadini, pannello operatori |
+
 ## Raw Sources
 
 Vedi [[../raw/index|Lista Sorgenti Grezzi]]

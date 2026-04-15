@@ -15,6 +15,12 @@ wiki/
 └── overviews/     # Panoramiche
 ```
 
+## Pagine Compilate
+
+| Pagina | Tipo | Argomento |
+|--------|------|-----------|
+| [user-module](./overviews/user-module.md) | overview | User, Profile, Team, Spatie RBAC, OAuth, multi-tenancy |
+
 ## Raw Sources
 
 Vedi [[../raw/index|Lista Sorgenti Grezzi]]

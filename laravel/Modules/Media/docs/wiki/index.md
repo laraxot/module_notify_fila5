@@ -15,6 +15,12 @@ wiki/
 └── overviews/     # Panoramiche
 ```
 
+## Pagine Compilate
+
+| Pagina | Tipo | Argomento |
+|--------|------|-----------|
+| [media-module](./overviews/media-module.md) | overview | Upload, storage S3, processing, FFmpeg, MediaLibrary |
+
 ## Raw Sources
 
 Vedi [[../raw/index|Lista Sorgenti Grezzi]]

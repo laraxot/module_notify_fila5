@@ -15,6 +15,12 @@ wiki/
 └── overviews/     # Panoramiche
 ```
 
+## Pagine Compilate
+
+| Pagina | Tipo | Argomento |
+|--------|------|-----------|
+| [tenant-module](./overviews/tenant-module.md) | overview | Multi-tenancy, DB-per-tenant, domain routing, SushiToJson |
+
 ## Raw Sources
 
 Vedi [[../raw/index|Lista Sorgenti Grezzi]]

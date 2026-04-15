@@ -15,6 +15,12 @@ wiki/
 └── overviews/     # Panoramiche
 ```
 
+## Pagine Compilate
+
+| Pagina | Tipo | Argomento |
+|--------|------|-----------|
+| [blog-module](./overviews/blog-module.md) | overview | Articoli, categorie, content blocks, WYSIWYG, AI |
+
 ## Raw Sources
 
 Vedi [[../raw/index|Lista Sorgenti Grezzi]]
