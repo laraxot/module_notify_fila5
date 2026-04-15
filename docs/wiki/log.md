@@ -30,3 +30,11 @@ Recommended format:
 - next:
   - create the first reusable module and theme synthesis pages
   - install and verify QMD locally when the package installation completes
+
+## [2026-04-15] ingest | Karpathy LLM Wiki — adozione moduli/temi
+- Fonte: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- Mapping adottato: `docs/` = raw layer, `docs/wiki/` = wiki layer, `docs/.schema/WIKI_SCHEMA.md` = schema
+- Creato: `docs/project/llm-wiki-module-adoption.md` — guida completa per moduli e temi
+- Creato: `wiki/log.md` in 18 moduli/temi mancanti (Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, Tenant, UI, User, Xot, TwentyOne)
+- Aggiornato: `raw/index.md` in tutti i moduli/temi con mapping corretto
+- Aggiornato: `docs/wiki/index.md` — tabella moduli/temi con link wiki
