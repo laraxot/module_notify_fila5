@@ -21,23 +21,27 @@ This file indexes the compiled wiki in `docs/wiki/`. It is not a mirror of the w
 
 Ogni modulo ha il suo wiki locale in `laravel/Modules/<Name>/docs/wiki/`:
 
+- [ai-module](./modules/ai-module.md): project-level routing page for the AI module and its local wiki
+
 | Modulo | Wiki index | Wiki log |
 |--------|-----------|---------|
-| Fixcity | [docs/wiki/index.md](../../laravel/Modules/Fixcity/docs/wiki/index.md) | [log.md](../../laravel/Modules/Fixcity/docs/wiki/log.md) |
-| Geo | [docs/wiki/index.md](../../laravel/Modules/Geo/docs/wiki/index.md) | [log.md](../../laravel/Modules/Geo/docs/wiki/log.md) |
-| Xot | [docs/wiki/index.md](../../laravel/Modules/Xot/docs/wiki/index.md) | [log.md](../../laravel/Modules/Xot/docs/wiki/log.md) |
-| Cms | [docs/wiki/index.md](../../laravel/Modules/Cms/docs/wiki/index.md) | [log.md](../../laravel/Modules/Cms/docs/wiki/log.md) |
-| User | [docs/wiki/index.md](../../laravel/Modules/User/docs/wiki/index.md) | [log.md](../../laravel/Modules/User/docs/wiki/log.md) |
-| Geo, Lang, Media, Seo, Tenant, UI, Notify, Blog, Job, Comment, Gdpr, Rating, AI, Activity | wiki/ presenti | log.md presenti |
+| Modulo | Wiki index | Compiled pages |
+|--------|-----------|----------------|
+| Xot | [wiki/index.md](../../laravel/Modules/Xot/docs/wiki/index.md) | [xot-module](../../laravel/Modules/Xot/docs/wiki/overviews/xot-module.md) |
+| Cms | [wiki/index.md](../../laravel/Modules/Cms/docs/wiki/index.md) | [cms-module](../../laravel/Modules/Cms/docs/wiki/overviews/cms-module.md) |
+| UI | [wiki/index.md](../../laravel/Modules/UI/docs/wiki/index.md) | [ui-module](../../laravel/Modules/UI/docs/wiki/overviews/ui-module.md) |
+| Lang | [wiki/index.md](../../laravel/Modules/Lang/docs/wiki/index.md) | [lang-module](../../laravel/Modules/Lang/docs/wiki/overviews/lang-module.md) |
+| AI | [wiki/index.md](../../laravel/Modules/AI/docs/wiki/index.md) | [ai-module (root)](./modules/ai-module.md) |
+| Fixcity, Geo, User, Media, Seo, Tenant, Blog, Activity, Comment, Rating, Notify, Job, Gdpr | wiki/ presenti | pending |
 
 ## Themes
 
 Ogni tema ha il suo wiki locale in `laravel/Themes/<Name>/docs/wiki/`:
 
-| Tema | Wiki index | Wiki log |
-|------|-----------|---------|
-| Sixteen | [docs/wiki/index.md](../../laravel/Themes/Sixteen/docs/wiki/index.md) | [log.md](../../laravel/Themes/Sixteen/docs/wiki/log.md) |
-| TwentyOne | [docs/wiki/index.md](../../laravel/Themes/TwentyOne/docs/wiki/index.md) | [log.md](../../laravel/Themes/TwentyOne/docs/wiki/log.md) |
+| Tema | Wiki index | Compiled pages |
+|------|-----------|----------------|
+| Sixteen | [wiki/index.md](../../laravel/Themes/Sixteen/docs/wiki/index.md) | [sixteen-theme](../../laravel/Themes/Sixteen/docs/wiki/overviews/sixteen-theme.md) |
+| TwentyOne | [wiki/index.md](../../laravel/Themes/TwentyOne/docs/wiki/index.md) | [twentyone-theme](../../laravel/Themes/TwentyOne/docs/wiki/overviews/twentyone-theme.md) |
 
 ## Archived Queries
 

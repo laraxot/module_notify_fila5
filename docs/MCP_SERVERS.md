@@ -23,6 +23,7 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 | [context7](#context7) | Documentation | ✅ Active | Library documentation lookup |
 | [memory-bank](#memory-bank) | Memory | ✅ Active | Session memory bank |
 | [supermemory](#supermemory) | Memory | ✅ Active | AI memory infrastructure |
+| [qmd](#qmd) | Search | ✅ Active | Local markdown search (BM25 + vector) |
 
 ## Server Details
 

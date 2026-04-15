@@ -31,6 +31,59 @@ Recommended format:
   - create the first reusable module and theme synthesis pages
   - install and verify QMD locally when the package installation completes
 
+## [2026-04-15] ingest | core modules + themes — first compiled overviews
+- sources:
+  - `laravel/Modules/Cms/docs/content-blocks-system.md`
+  - `laravel/Modules/Cms/docs/folio-routing-locale.md`
+  - `laravel/Modules/Cms/docs/business-logic-overview.md`
+  - `laravel/Modules/UI/docs/module-ui.md`
+  - `laravel/Modules/UI/docs/philosophy.md`
+  - `laravel/Modules/UI/docs/design-system.md`
+  - `laravel/Modules/Lang/docs/translations-system.md`
+  - `laravel/Modules/Lang/docs/filosofia-modulo-lang.md`
+  - `laravel/Modules/Lang/docs/mcamara-laravel-localization-governance.md`
+  - `laravel/Themes/Sixteen/docs/design_comuni_italia_integration.md`
+  - `laravel/Themes/Sixteen/docs/design-comuni-compliance.md`
+  - `laravel/Themes/TwentyOne/docs/ZEN_ARCHITECTURE_PHILOSOPHY.md`
+  - `laravel/Themes/TwentyOne/docs/KINETIC_WEB_DESIGN_SPEC.md`
+  - `laravel/Themes/TwentyOne/docs/HOMEPAGE_ARCHITECTURE.md`
+- pages:
+  - `laravel/Modules/Cms/docs/wiki/overviews/cms-module.md`
+  - `laravel/Modules/UI/docs/wiki/overviews/ui-module.md`
+  - `laravel/Modules/Lang/docs/wiki/overviews/lang-module.md`
+  - `laravel/Themes/Sixteen/docs/wiki/overviews/sixteen-theme.md`
+  - `laravel/Themes/TwentyOne/docs/wiki/overviews/twentyone-theme.md`
+- summary:
+  - Cms: content_blocks JSON system, BlockData rendering, Folio locale routing, mcamara rules
+  - UI: design system tokens, component library, Filament AdminPanel, agnostic provider
+  - Lang: AutoLabelAction auto-discovery, LangBase classes, mcamara routing governance
+  - Sixteen: Bootstrap Italia, AGID compliance, Design Comuni Italia mapping
+  - TwentyOne: Zen agnostic container, kinetic web design, GSAP, CMS-driven homepage
+- next:
+  - compile User, Fixcity, Geo modules
+  - compile remaining modules (Media, Seo, Tenant, Blog, Activity, Comment, Rating, Notify, Job, Gdpr)
+  - update docs/wiki/overview.md compiled page count
+
+## [2026-04-15] ingest | AI module first compiled pages
+- sources:
+  - `laravel/Modules/AI/docs/README.md`
+  - `laravel/Modules/AI/docs/structure.md`
+  - `laravel/Modules/AI/docs/mcp.md`
+  - `laravel/Modules/AI/docs/mcp/mcp-integration-overview.md`
+  - `laravel/Modules/AI/docs/ollama-strategy.md`
+  - `laravel/Modules/AI/docs/tools.md`
+- pages:
+  - `laravel/Modules/AI/docs/wiki/overviews/ai-module.md`
+  - `laravel/Modules/AI/docs/wiki/concepts/ai-mcp-governance.md`
+  - `laravel/Modules/AI/docs/wiki/concepts/local-first-ollama-strategy.md`
+  - `docs/wiki/modules/ai-module.md`
+- summary:
+  - compiled the first reusable AI module syntheses in the local module wiki
+  - added a root wiki module page so project-wide discovery reaches the local AI wiki
+- next:
+  - compile Sixteen theme docs into its local wiki
+  - keep root wiki overview counts aligned with new module pages
+
 ## [2026-04-15] ingest | Karpathy LLM Wiki — adozione moduli/temi
 - Fonte: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 - Mapping adottato: `docs/` = raw layer, `docs/wiki/` = wiki layer, `docs/.schema/WIKI_SCHEMA.md` = schema

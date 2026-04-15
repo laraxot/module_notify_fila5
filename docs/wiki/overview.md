@@ -66,20 +66,24 @@ docs/
 
 ## Current State
 
-**Status**: Bootstrap completo — prima compilazione avviata (2026-04-15)
+**Status**: Bootstrap attivo — first reusable module pages compiled (2026-04-15)
 
 | Livello | Wiki dirs | Pagine compilate | Raw docs |
 |---------|-----------|------------------|----------|
-| Root `docs/wiki/` | ✅ | 0 | ~150 |
-| Module wikis (18) | ✅ tutti | 1 (Xot overview) | ~13.174 |
-| Theme wikis (2) | ✅ tutti | 0 | ~745 |
+| Root `docs/wiki/` | ✅ | 2 | ~150 |
+| Module wikis | ✅ pilot attivi | 3 AI pages + existing local scaffolds | module-specific corpora |
+| Theme wikis | ✅ scaffold presenti | 0 | theme-specific corpora |
 
 **Pagine compilate:**
-- `Modules/Xot/docs/wiki/overviews/xot-module.md` — Xot foundation overview
+- `docs/wiki/concepts/llm-wiki-governance.md` — project wiki mapping
+- `docs/wiki/modules/ai-module.md` — project-level AI module summary
+- `laravel/Modules/AI/docs/wiki/overviews/ai-module.md` — local AI module overview
+- `laravel/Modules/AI/docs/wiki/concepts/ai-mcp-governance.md` — AI MCP synthesis
+- `laravel/Modules/AI/docs/wiki/concepts/local-first-ollama-strategy.md` — local-first runtime policy
 
-**Last Ingestion**: 2026-04-15 (Xot module)  
+**Last Ingestion**: 2026-04-15 (AI module)  
 **Last Lint**: Mai  
-**Health**: ✅ Struttura valida, ingestion in corso
+**Health**: ✅ Struttura valida, first real module compilation in place
 
 ## Next Steps
 
@@ -87,11 +91,11 @@ docs/
 
 Ingerire i documenti SSOT di ogni modulo core:
 
-1. **Xot** — `xot-engine.md`, `module-architecture.md` ✅ avviato
-2. **Cms** — `content-blocks-system.md`, `folio-routing-locale.md`
-3. **UI** — `components.md`, `filament-components-usage.md`
-4. **Lang** — `translation_system.md`
-5. **User** — `gdpr-compliance.md`
+1. **AI** — MCP contracts, Ollama policy, tool routing ✅ compiled
+2. **Xot** — foundation and architecture summaries
+3. **Cms** — `content-blocks-system.md`, `folio-routing-locale.md`
+4. **UI** — `components.md`, `filament-components-usage.md`
+5. **Lang** — translation and localization synthesis
 
 ### Priorità 2: Temi
 

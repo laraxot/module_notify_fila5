@@ -78,6 +78,10 @@
             "env": {
                 "SUPERMEMORY_API_KEY": "sm_BzH3Cugxk1hMDm5V1EHC2N_Jr9NfJdUqxlnPe21yb9q7FtbYMevTsoPtKZJEfBqdP4i81z6aJA34SF32Gx3PUa9"
             }
+        },
+        "qmd": {
+            "command": "qmd",
+            "args": ["mcp"]
         }
     }
 }

@@ -2,9 +2,26 @@ collections:
   module-ai-docs:
     path: /var/www/_bases/base_fixcity_fila5/laravel/Modules/AI/docs
     pattern: "**/*.md"
+    context:
+      "": AI module documentation, MCP guidance, local-first runtime policy, and compiled wiki pages.
   theme-sixteen-docs:
     path: /var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs
     pattern: "**/*.md"
     context:
       "": Sixteen theme documentation, design parity reports, frontend rules, and compiled wiki pages.
+  fixcity-root-docs:
+    path: /var/www/_bases/base_fixcity_fila5/docs
+    pattern: "**/*.md"
+    context:
+      "": FixCity root project documentation including the canonical docs/wiki layer
+  fixcity-modules:
+    path: /var/www/_bases/base_fixcity_fila5/laravel/Modules
+    pattern: "**/*.md"
+    context:
+      "": Laravel module documentation for FixCity; module docs are raw corpus, docs/wiki is the compiled synthesis layer
+  fixcity-themes:
+    path: /var/www/_bases/base_fixcity_fila5/laravel/Themes
+    pattern: "**/*.md"
+    context:
+      "": Laravel theme documentation for FixCity; theme docs are raw corpus, docs/wiki is the compiled synthesis layer
 global_context: Laraxot documentation workspace with docs/ as source layer and docs/wiki as compiled LLM wiki layer.

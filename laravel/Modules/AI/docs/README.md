@@ -89,7 +89,9 @@ Se desideri contribuire a questa documentazione o all'implementazione del modulo
 
 ## LLM Wiki Workflow
 
-- Canonical wiki layer: [../../../../docs/wiki/README.md](../../../../docs/wiki/README.md)
-- Compiled index: [../../../../docs/wiki/index.md](../../../../docs/wiki/index.md)
+- Local compiled wiki: [./wiki/README.md](./wiki/README.md)
+- Local compiled index: [./wiki/index.md](./wiki/index.md)
+- Project wiki layer: [../../../../docs/wiki/README.md](../../../../docs/wiki/README.md)
+- Project compiled index: [../../../../docs/wiki/index.md](../../../../docs/wiki/index.md)
 - Adoption notes and QMD: [../../../../docs/project/karpathy-llm-wiki-adoption.md](../../../../docs/project/karpathy-llm-wiki-adoption.md), [../../../../docs/project/qmd-local-docs-search.md](../../../../docs/project/qmd-local-docs-search.md)
 - [AI LLM Wiki](./llm-wiki.md)
