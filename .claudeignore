@@ -40,3 +40,9 @@ yarn.lock
 
 # Log
 *.log
+# Additional large documentation directories
+laravel/Modules/**/docs/**
+docs/**/*.md
+# Git metadata
+.git/
+*.log

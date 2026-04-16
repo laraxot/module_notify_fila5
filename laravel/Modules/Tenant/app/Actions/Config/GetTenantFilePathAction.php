@@ -15,7 +15,7 @@ class GetTenantFilePathAction
 
     public function execute(string $filename): string
     {
-        if (function_exists('isRunningTestBench') && isRunningTestBench()) {
+        if (isRunningTestBench()) {
             $basePath = realpath(__DIR__.'/../../Config');
 
             return $basePath.\DIRECTORY_SEPARATOR.$filename;

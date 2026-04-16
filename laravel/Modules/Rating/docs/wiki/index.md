@@ -1,28 +1,32 @@
-# Wiki Locale - Module Rating
+---
+title: "Wiki Index"
+module: "Rating"
+updated: "2026-04-15T08:28:47Z"
+---
 
-## Schema di Riferimento
+# Wiki Index — Rating
 
-Vedi [[../../../../docs/.schema/WIKI_SCHEMA.md|Schema Wiki Globale]]
+> **Purpose:** Content-oriented catalog of all wiki pages in this module.  
+> **Replaces embedding-based RAG at moderate scale (~100 sources).**
 
-## Struttura Locale
+## Concepts
 
-```
-wiki/
-├── concepts/       # Pattern e metodologie
-├── entities/       # Classi e componenti
-├── summaries/      # Sommari documenti
-├── comparisons/    # Confronti
-└── overviews/     # Panoramiche
-```
+_No concepts ingested yet. Drop raw documents in `../raw/articles/` and run ingest._
 
-## Raw Sources
+## Entities
 
-Vedi [[../raw/index|Lista Sorgenti Grezzi]]
+_No entities tracked yet._
 
-## Index Globale
+## Sources
 
-Vedi [[../../../../docs/wiki/index|Index Globale Wiki]]
+_No sources ingested yet._
+
+## Comparisons
+
+_No comparisons synthesized yet._
 
 ---
 
-*Ultimo aggiornamento: 2026-04-15*
+**Last Updated:** 2026-04-15T08:28:47Z  
+**Total Pages:** 0  
+**Total Raw Sources:** 0
