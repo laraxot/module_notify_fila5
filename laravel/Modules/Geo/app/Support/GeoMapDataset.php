@@ -58,7 +58,7 @@ final class GeoMapDataset
                 continue;
             }
 
-            $category = $feature['properties']['category'] ?? null;
+            $category = $feature['properties']['p'] ?? $feature['properties']['category'] ?? null;
 
             if (is_string($category) && $category !== '') {
                 $categories[] = $category;

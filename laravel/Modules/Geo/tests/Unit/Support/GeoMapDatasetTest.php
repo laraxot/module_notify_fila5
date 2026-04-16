@@ -26,7 +26,7 @@ test('geo map dataset exposes point categories only', function (): void {
     expect($dataset->getCategories())->toBe([
         'beekeeper',
         'farm',
-        'market',
+        'marketplace',
         'vending_machine',
     ]);
 });

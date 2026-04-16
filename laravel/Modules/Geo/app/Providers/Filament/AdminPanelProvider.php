@@ -23,6 +23,7 @@ class AdminPanelProvider extends XotBasePanelProvider
         $panel = parent::panel($panel);
 
         FilamentAsset::register([
+            Js::make('geo-map-widget', asset('modules/geo/geo-map-widget.js'))->module(),
             Css::make('geo-map-picker', asset('modules/geo/map-picker.css')),
             Js::make('geo-map-picker', asset('modules/geo/map-picker.js'))->module(),
         ], 'geo');

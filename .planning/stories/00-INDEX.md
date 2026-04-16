@@ -11,6 +11,11 @@
 - [1-6-refactor-wizard-no-filament-schemas-no-hardcoded-blade.md](1-6-refactor-wizard-no-filament-schemas-no-hardcoded-blade.md) — historical draft, now incompatible with Xot wizard direction
 - [1-7-segnalazione-crea-xotbasewizardwidget-parity-consolidation.md](1-7-segnalazione-crea-xotbasewizardwidget-parity-consolidation.md) — active consolidation story
 
+## Epic 2 — Modular Architecture
+
+- [2-1-geo-module-address-input.md](2-1-geo-module-address-input.md) — address input ownership and module boundary
+- [2-2-geo-farmshops-lit-port.md](2-2-geo-farmshops-lit-port.md) — port `farmshops.eu` functional parity into a Lit Web Component in `Geo`
+
 ## Dedup rule
 
 - For `segnalazione-crea`, treat `1-7` as the active story.

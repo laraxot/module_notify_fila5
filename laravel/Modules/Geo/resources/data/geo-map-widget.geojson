@@ -4,11 +4,18 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "farm-1",
+        "id": "node/1001",
         "name": "Cascina Nord",
-        "category": "farm",
-        "description": "Vendita diretta di ortaggi e formaggi.",
-        "address": "Via dei Campi 12, Milano"
+        "p": "farm",
+        "shop": "farm",
+        "produce": "vegetables;cheese",
+        "organic": "yes",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "website": "https://example.test/cascina-nord",
+        "addr:street": "Via dei Campi",
+        "addr:housenumber": "12",
+        "addr:postcode": "20100",
+        "addr:city": "Milano"
       },
       "geometry": {
         "type": "Point",
@@ -18,11 +25,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "market-1",
+        "id": "node/1002",
         "name": "Mercato Centro",
-        "category": "market",
+        "p": "marketplace",
+        "amenity": "marketplace",
+        "opening_hours": "Fr 07:00-13:00",
         "description": "Mercato settimanale con produttori locali.",
-        "address": "Piazza Duomo, Milano"
+        "addr:place": "Piazza Duomo",
+        "addr:postcode": "20121",
+        "addr:city": "Milano"
       },
       "geometry": {
         "type": "Point",
@@ -32,11 +43,17 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "hive-1",
+        "id": "node/1003",
         "name": "Apicoltura Sud",
-        "category": "beekeeper",
-        "description": "Miele, propoli e prodotti dell'alveare.",
-        "address": "Via delle Robinie 4, Pavia"
+        "p": "beekeeper",
+        "craft": "beekeeper",
+        "produce": "honey",
+        "opening_hours": "Sa 09:00-12:00",
+        "phone": "+39 030 000000",
+        "addr:street": "Via delle Robinie",
+        "addr:housenumber": "4",
+        "addr:postcode": "27100",
+        "addr:city": "Pavia"
       },
       "geometry": {
         "type": "Point",
@@ -46,11 +63,17 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "machine-1",
+        "id": "node/1004",
         "name": "Distributore Latte Est",
-        "category": "vending_machine",
+        "p": "vending_machine",
+        "amenity": "vending_machine",
+        "vending": "milk;cheese",
+        "opening_hours": "24/7",
         "description": "Latte crudo e yogurt freschi.",
-        "address": "Viale Lombardia 55, Bergamo"
+        "addr:street": "Viale Lombardia",
+        "addr:housenumber": "55",
+        "addr:postcode": "24100",
+        "addr:city": "Bergamo"
       },
       "geometry": {
         "type": "Point",
@@ -60,11 +83,16 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "farm-2",
+        "id": "node/1005",
         "name": "Azienda Agricola Ovest",
-        "category": "farm",
-        "description": "Frutta di stagione e conserve.",
-        "address": "Strada Provinciale 3, Novara"
+        "p": "farm",
+        "shop": "farm",
+        "produce": "fruits;jam",
+        "opening_hours": "Tu-Sa 09:00-17:00",
+        "addr:street": "Strada Provinciale",
+        "addr:housenumber": "3",
+        "addr:postcode": "28100",
+        "addr:city": "Novara"
       },
       "geometry": {
         "type": "Point",
@@ -76,8 +104,7 @@
       "properties": {
         "id": "zone-1",
         "name": "Zona Agricola Prioritaria",
-        "category": "zone",
-        "description": "Perimetro di esempio per overlay zone."
+        "description": "Perimetro dimostrativo non usato dalla replica farmshops classica."
       },
       "geometry": {
         "type": "Polygon",

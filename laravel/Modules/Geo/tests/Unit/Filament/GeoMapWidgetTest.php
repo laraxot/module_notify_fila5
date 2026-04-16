@@ -18,7 +18,7 @@ test('geo map widget exposes categories and config', function (): void {
     $widget = new GeoMapWidget;
     $config = $widget->getMapConfig();
 
-    expect($widget->getCategories())->toContain('farm', 'market', 'beekeeper', 'vending_machine')
+    expect($widget->getCategories())->toContain('farm', 'marketplace', 'beekeeper', 'vending_machine')
         ->and($config['layers'])->toBe([
             'clusters' => true,
             'points' => true,

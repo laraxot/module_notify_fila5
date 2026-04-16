@@ -1,569 +1,357 @@
 import { LitElement, css, html, unsafeCSS } from 'lit';
 import L from 'leaflet';
 import 'leaflet.markercluster';
-import 'leaflet.heat';
+import '../opening_hours+deps.min.js';
 import leafletCss from 'leaflet/dist/leaflet.css?inline';
 import markerClusterCss from 'leaflet.markercluster/dist/MarkerCluster.css?inline';
-import markerClusterDefaultCss from 'leaflet.markercluster/dist/MarkerCluster.Default.css?inline';
 
-delete L.Icon.Default.prototype._getIconUrl;
-L.Icon.Default.mergeOptions({
-    iconRetinaUrl: new URL('leaflet/dist/images/marker-icon-2x.png', import.meta.url).href,
-    iconUrl: new URL('leaflet/dist/images/marker-icon.png', import.meta.url).href,
-    shadowUrl: new URL('leaflet/dist/images/marker-shadow.png', import.meta.url).href,
-});
+const HOF_ICON = new URL('../../img/hof.png', import.meta.url).href;
+const MARKT_ICON = new URL('../../img/markt.png', import.meta.url).href;
+const AUTOMAT_ICON = new URL('../../img/automat.png', import.meta.url).href;
+const IMKER_ICON = new URL('../../img/imker.png', import.meta.url).href;
+const GITHUB_ICON = new URL('../../img/github.svg', import.meta.url).href;
+const OKFN_ICON = new URL('../../img/okfnde.png', import.meta.url).href;
+const CODEFOR_ICON = new URL('../../img/codeforkarlsruhe.png', import.meta.url).href;
 
-const CATEGORY_PALETTE = {
-    beekeeper: '#d97706',
-    farm: '#15803d',
-    market: '#c2410c',
-    vending_machine: '#0891b2',
-    zone: '#0f766e',
-    unknown: '#475569',
+const CATEGORY_IMAGES = {
+    farm: HOF_ICON,
+    marketplace: MARKT_ICON,
+    vending_machine: AUTOMAT_ICON,
+    beekeeper: IMKER_ICON,
 };
-
-class GeoMapFeatureStore {
-    constructor(dataset) {
-        this.dataset = isFeatureCollection(dataset) ? dataset : { type: 'FeatureCollection', features: [] };
-        this.features = this.dataset.features.filter((feature) => isFeature(feature));
-        this.pointFeatures = this.features.filter((feature) => feature.geometry.type === 'Point');
-        this.zoneFeatures = this.features.filter((feature) => ['Polygon', 'MultiPolygon'].includes(feature.geometry.type));
-        this.featureIndex = new Map(this.features.map((feature) => [readFeatureId(feature), feature]));
-        this.categories = Array.from(
-            new Set(this.pointFeatures.map((feature) => readCategory(feature)).filter((category) => category !== '')),
-        ).sort((left, right) => left.localeCompare(right));
-    }
-
-    getStats() {
-        return {
-            total: this.features.length,
-            points: this.pointFeatures.length,
-            zones: this.zoneFeatures.length,
-            categories: this.categories.length,
-        };
-    }
-
-    getFilteredPointFeatures(activeCategories) {
-        if (!(activeCategories instanceof Set) || activeCategories.size === 0) {
-            return this.pointFeatures;
-        }
-
-        return this.pointFeatures.filter((feature) => activeCategories.has(readCategory(feature)));
-    }
-
-    getBounds() {
-        const bounds = L.latLngBounds([]);
-
-        this.pointFeatures.forEach((feature) => {
-            const latLng = pointToLatLng(feature);
-
-            if (latLng !== null) {
-                bounds.extend(latLng);
-            }
-        });
-
-        this.zoneFeatures.forEach((feature) => {
-            const layer = L.geoJSON(feature);
-            const layerBounds = layer.getBounds();
-
-            if (layerBounds.isValid()) {
-                bounds.extend(layerBounds);
-            }
-        });
-
-        return bounds;
-    }
-
-    getInitialCenter() {
-        const bounds = this.getBounds();
-
-        if (bounds.isValid()) {
-            return bounds.getCenter();
-        }
-
-        return L.latLng(45.4642, 9.19);
-    }
-}
-
-class GeoMapLayerManager {
-    constructor({ map, config, onFeatureSelect, popupRenderer }) {
-        this.map = map;
-        this.config = config;
-        this.onFeatureSelect = onFeatureSelect;
-        this.popupRenderer = popupRenderer;
-
-        this.baseLayers = {
-            street: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; OpenStreetMap contributors',
-                maxZoom: 19,
-            }),
-            satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-                attribution: 'Tiles &copy; Esri',
-                maxZoom: 19,
-            }),
-        };
-
-        this.clusterGroup = L.markerClusterGroup({
-            spiderfyOnMaxZoom: true,
-            showCoverageOnHover: true,
-            removeOutsideVisibleBounds: true,
-            chunkedLoading: true,
-            maxClusterRadius: (zoom) => (zoom < this.getAggregateZoom() ? 72 : 48),
-            iconCreateFunction: (cluster) => this.createClusterIcon(cluster),
-        });
-
-        this.pointLayer = L.layerGroup();
-        this.zoneLayer = L.geoJSON([], {
-            style: () => ({
-                color: '#0f766e',
-                weight: 2,
-                fillColor: '#14b8a6',
-                fillOpacity: 0.16,
-            }),
-            onEachFeature: (feature, layer) => {
-                layer.bindPopup(this.popupRenderer(feature));
-                layer.on('click', () => this.onFeatureSelect(feature));
-            },
-        });
-
-        this.heatLayer = L.heatLayer([], {
-            radius: 28,
-            blur: 20,
-            maxZoom: this.getDetailZoom() + 1,
-        });
-    }
-
-    boot(baseLayerKey) {
-        this.baseLayers[baseLayerKey]?.addTo(this.map);
-    }
-
-    setBaseLayer(baseLayerKey) {
-        Object.entries(this.baseLayers).forEach(([key, layer]) => {
-            if (key === baseLayerKey) {
-                if (!this.map.hasLayer(layer)) {
-                    layer.addTo(this.map);
-                }
-
-                return;
-            }
-
-            if (this.map.hasLayer(layer)) {
-                this.map.removeLayer(layer);
-            }
-        });
-    }
-
-    render({ filteredPoints, zoneFeatures, activeLayers, lodMode }) {
-        const markers = filteredPoints
-            .map((feature) => this.createMarker(feature))
-            .filter((marker) => marker !== null);
-
-        this.clusterGroup.clearLayers();
-        this.clusterGroup.addLayers(markers);
-
-        this.pointLayer.clearLayers();
-        markers.forEach((marker) => {
-            this.pointLayer.addLayer(marker);
-        });
-
-        this.zoneLayer.clearLayers();
-        this.zoneLayer.addData(zoneFeatures);
-
-        this.heatLayer.setLatLngs(
-            filteredPoints
-                .map((feature) => pointToLatLng(feature))
-                .filter((latLng) => latLng !== null)
-                .map((latLng) => [latLng.lat, latLng.lng, 0.6]),
-        );
-
-        this.syncOverlayVisibility(activeLayers, lodMode);
-    }
-
-    syncOverlayVisibility(activeLayers, lodMode) {
-        const showClusters = activeLayers.has('clusters') && lodMode !== 'detail';
-        const showPoints = activeLayers.has('points') && lodMode !== 'cluster';
-        const showHeatmap = activeLayers.has('heatmap');
-        const showZones = activeLayers.has('zones');
-
-        this.syncLayer(this.clusterGroup, showClusters);
-        this.syncLayer(this.pointLayer, showPoints);
-        this.syncLayer(this.heatLayer, showHeatmap);
-        this.syncLayer(this.zoneLayer, showZones);
-    }
-
-    createMarker(feature) {
-        const latLng = pointToLatLng(feature);
-
-        if (latLng === null) {
-            return null;
-        }
-
-        const category = readCategory(feature);
-        const marker = L.marker(latLng, {
-            title: readFeatureLabel(feature),
-            icon: createCategoryIcon(category),
-        });
-
-        marker.feature = feature;
-        marker.bindPopup(this.popupRenderer(feature));
-        marker.on('click', () => this.onFeatureSelect(feature));
-
-        return marker;
-    }
-
-    createClusterIcon(cluster) {
-        const childMarkers = cluster.getAllChildMarkers();
-        const counts = new Map();
-
-        childMarkers.forEach((marker) => {
-            const category = readCategory(marker.feature);
-            counts.set(category, (counts.get(category) ?? 0) + 1);
-        });
-
-        const lodMode = this.map.getZoom() < this.getAggregateZoom() ? 'cluster' : 'aggregate';
-        const breakdown = Array.from(counts.entries())
-            .sort(([left], [right]) => left.localeCompare(right))
-            .map(([category, count]) => `${shortCategoryLabel(category)} ${count}`)
-            .join(' · ');
-
-        const detail = lodMode === 'aggregate'
-            ? `<div class="cluster-breakdown">${breakdown}</div>`
-            : '<div class="cluster-breakdown">Overview</div>';
-
-        return L.divIcon({
-            className: 'geo-map-cluster-shell',
-            html: `
-                <div class="geo-map-cluster">
-                    <strong>${childMarkers.length}</strong>
-                    ${detail}
-                </div>
-            `,
-            iconSize: [64, 64],
-        });
-    }
-
-    syncLayer(layer, shouldBeVisible) {
-        const isVisible = this.map.hasLayer(layer);
-
-        if (shouldBeVisible && !isVisible) {
-            layer.addTo(this.map);
-        }
-
-        if (!shouldBeVisible && isVisible) {
-            this.map.removeLayer(layer);
-        }
-    }
-
-    getAggregateZoom() {
-        return this.config.aggregateZoom ?? 8;
-    }
-
-    getDetailZoom() {
-        return this.config.detailZoom ?? 12;
-    }
-}
 
 class GeoMapWidgetElement extends LitElement {
     static properties = {
-        activeBaseLayer: { state: true },
-        activeCategories: { state: true },
-        activeLayers: { state: true },
-        lodLabel: { state: true },
-        selectedFeatureId: { state: true },
+        sidebarPanel: { state: true },
         statusText: { state: true },
     };
 
     static styles = css`
         ${unsafeCSS(leafletCss)}
         ${unsafeCSS(markerClusterCss)}
-        ${unsafeCSS(markerClusterDefaultCss)}
 
         :host {
             display: block;
-            color: #0f172a;
-            --geo-border: rgba(148, 163, 184, 0.35);
-            --geo-surface: rgba(255, 255, 255, 0.96);
-            --geo-muted: #475569;
+            color: #222;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
-        .geo-map-widget {
-            display: grid;
-            gap: 1rem;
-        }
-
-        .toolbar {
-            display: grid;
-            gap: 0.75rem;
-            padding: 1rem;
-            border: 1px solid var(--geo-border);
-            border-radius: 1rem;
-            background:
-                radial-gradient(circle at top left, rgba(20, 184, 166, 0.14), transparent 24%),
-                linear-gradient(180deg, rgba(248, 250, 252, 0.98), rgba(255, 255, 255, 0.95));
-        }
-
-        .toolbar-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            align-items: center;
-        }
-
-        .label {
-            font-size: 0.75rem;
-            font-weight: 700;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            color: var(--geo-muted);
-        }
-
-        button {
-            border: 1px solid rgba(148, 163, 184, 0.45);
-            border-radius: 999px;
-            background: white;
-            color: #0f172a;
-            padding: 0.45rem 0.8rem;
-            font-size: 0.875rem;
-            cursor: pointer;
-            transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease;
-        }
-
-        button.is-active {
-            background: #0f172a;
-            border-color: #0f172a;
-            color: white;
-        }
-
-        .layout {
-            display: grid;
-            grid-template-columns: minmax(0, 1fr);
-            gap: 1rem;
-        }
-
-        @media (min-width: 1024px) {
-            .layout {
-                grid-template-columns: minmax(0, 1.8fr) minmax(18rem, 0.82fr);
-            }
-        }
-
-        .map-shell {
+        .farmshops {
+            position: relative;
+            min-height: 48rem;
+            border: 1px solid #d1d5db;
             overflow: hidden;
-            border: 1px solid var(--geo-border);
-            border-radius: 1rem;
-            background: white;
-        }
-
-        .map-canvas {
-            min-height: 36rem;
+            background: #fff;
         }
 
         .sidebar {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1000;
             display: grid;
-            gap: 0.75rem;
-            align-content: start;
+            grid-template-columns: 3rem minmax(0, 23rem);
+            transform: translateX(0);
+            transition: transform 180ms ease;
         }
 
-        .sidebar-card {
-            border-radius: 1rem;
-            background: var(--geo-surface);
-            border: 1px solid var(--geo-border);
+        .sidebar.is-collapsed {
+            transform: translateX(calc(-100% + 3rem));
+        }
+
+        .sidebar-tabs {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: rgba(255, 255, 255, 0.94);
+            border-right: 1px solid #d8dee4;
+        }
+
+        .sidebar-tab-group {
+            display: grid;
+        }
+
+        .sidebar-tab {
+            display: grid;
+            place-items: center;
+            width: 3rem;
+            height: 3rem;
+            border: 0;
+            border-bottom: 1px solid #d8dee4;
+            background: transparent;
+            cursor: pointer;
+            color: #1f2937;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .sidebar-tab img {
+            width: 1.25rem;
+            height: 1.25rem;
+            object-fit: contain;
+        }
+
+        .sidebar-content {
+            overflow: auto;
+            background: rgba(255, 255, 255, 0.97);
+            box-shadow: 4px 0 16px rgba(0, 0, 0, 0.14);
+        }
+
+        .sidebar-pane {
+            padding: 0;
+        }
+
+        .sidebar-header {
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            margin: 0;
+            padding: 0.85rem 1rem;
+            font-size: 1.05rem;
+            color: #f2f2f2;
+            background: #4ca7ce;
+        }
+
+        .sidebar-inner {
             padding: 1rem;
+            font-size: 0.92rem;
+            line-height: 1.5;
         }
 
-        .sidebar-title {
-            font-size: 0.76rem;
-            color: var(--geo-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .sidebar-value {
-            margin-top: 0.35rem;
+        .sidebar-inner h3 {
+            margin: 1rem 0 0.5rem;
             font-size: 1rem;
-            line-height: 1.35;
-            color: #0f172a;
         }
 
-        .sidebar-grid {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 0.65rem;
+        .sidebar-inner ul {
+            padding-left: 1.2rem;
         }
 
-        .stat {
-            border-radius: 0.8rem;
-            border: 1px solid rgba(226, 232, 240, 1);
-            background: white;
-            padding: 0.8rem;
-        }
-
-        .stat-label {
-            display: block;
-            font-size: 0.72rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: var(--geo-muted);
-        }
-
-        .stat-value {
-            display: block;
-            margin-top: 0.2rem;
-            font-size: 1rem;
-            font-weight: 700;
-            color: #0f172a;
-        }
-
-        .legend {
-            display: grid;
-            gap: 0.45rem;
+        .map {
+            min-height: 48rem;
         }
 
         .legend-row {
             display: flex;
             align-items: center;
-            gap: 0.55rem;
-            font-size: 0.875rem;
+            gap: 0.6rem;
+            margin: 0.5rem 0;
         }
 
-        .legend-swatch {
-            width: 0.9rem;
-            height: 0.9rem;
-            border-radius: 999px;
-            border: 2px solid white;
-            box-shadow: 0 2px 10px rgba(15, 23, 42, 0.16);
+        .legend-row img {
+            width: 2.5rem;
+            max-width: 100%;
         }
 
-        .geo-map-cluster {
-            display: grid;
-            place-items: center;
-            min-width: 4rem;
-            min-height: 4rem;
-            padding: 0.5rem 0.7rem;
-            border-radius: 999px;
-            background: #0f172a;
-            color: white;
-            border: 3px solid rgba(255, 255, 255, 0.92);
-            box-shadow: 0 10px 28px rgba(15, 23, 42, 0.24);
+        .button {
+            display: inline-block;
+            font-weight: bold;
+            padding: 0.5rem 0.75rem;
+            margin: 0.5rem 0;
+            font-size: 0.95rem;
+            color: #f2f2f2;
+            background: #4ca7ce;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .popup-headline {
+            width: 100%;
+            background: #4ca7ce;
+        }
+
+        .popup-headline h1 {
+            margin: 0;
+            padding: 8px 40px 8px 8px;
+            font-size: 20px;
+            color: #f2f2f2;
             text-align: center;
+            background: #4ca7ce;
         }
 
-        .cluster-breakdown {
-            max-width: 9rem;
-            font-size: 0.64rem;
-            line-height: 1.2;
-            opacity: 0.9;
-        }
-
-        .leaflet-container {
-            font: 400 0.875rem/1.4 ui-sans-serif, sans-serif;
+        .leaflet-popup-content-wrapper {
+            border-radius: 0;
+            font-size: 10px;
+            padding: 0;
+            overflow: hidden;
         }
 
         .leaflet-popup-content {
-            margin: 0.8rem 0.9rem;
+            margin: 0;
+        }
+
+        .popup-wrapper {
+            padding: 8px;
+        }
+
+        .popup-address {
+            float: left;
+            max-width: 110px;
+            margin-bottom: 6px;
+        }
+
+        .popup-links {
+            float: right;
+            padding: 2px;
+            border-left: 2px solid #4ca7ce;
+        }
+
+        .popup-times,
+        .popup-table {
+            clear: both;
+            margin-bottom: 6px;
+        }
+
+        .popup-table table {
+            width: 100%;
+            min-width: 250px;
+            font-size: 10px;
+            overflow-wrap: break-word;
+        }
+
+        .popup-table th {
+            color: white;
+            background-color: #4ca7ce;
+        }
+
+        .popup-table td {
+            padding: 2px;
+            text-align: left;
+        }
+
+        .popup-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .popup-button {
+            display: inline-block;
+            padding: 4px;
+            margin: 4px;
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 30px;
+            color: #f2f2f2;
+            text-decoration: none;
+            background: #4ca7ce;
+        }
+
+        .circle {
+            display: grid;
+            place-items: center;
+            min-width: 80px;
+            min-height: 80px;
+            padding: 4px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            line-height: 1;
+            color: #f2f2f2;
+            text-align: center;
+            background: #4ca7ce;
+            border: 3px solid #f2f2f2;
+            border-radius: 100px / 100px;
+            opacity: 0.8;
+        }
+
+        .cluster-icons {
+            padding-top: 2px;
+        }
+
+        .cluster-icons img {
+            height: 14px;
+            margin: 0 1px;
+        }
+
+        .status-box {
+            margin-top: 1rem;
+            padding: 0.65rem 0.75rem;
+            font-size: 0.82rem;
+            color: #334155;
+            background: #eef6fb;
+            border-left: 4px solid #4ca7ce;
+        }
+
+        @media (max-width: 900px) {
+            .farmshops,
+            .map {
+                min-height: 42rem;
+            }
+
+            .sidebar {
+                grid-template-columns: 3rem minmax(0, 18rem);
+            }
         }
     `;
 
     constructor() {
         super();
-        this.activeBaseLayer = 'street';
-        this.activeCategories = new Set();
-        this.activeLayers = new Set(['clusters', 'points', 'heatmap', 'zones']);
-        this.lodLabel = 'Loading';
-        this.selectedFeatureId = null;
-        this.statusText = 'Preparing dataset';
+        this.sidebarPanel = 'home';
+        this.statusText = 'Letzter Datenabgleich: Demo dataset.';
+        this.dataset = { type: 'FeatureCollection', features: [] };
         this.config = {};
-        this.store = new GeoMapFeatureStore({ type: 'FeatureCollection', features: [] });
-        this.layerManager = null;
         this.map = null;
+        this.markers = null;
+        this.streetLayer = null;
+        this.satelliteLayer = null;
         this.resizeObserver = null;
+    }
+
+    createRenderRoot() {
+        return this;
     }
 
     connectedCallback() {
         super.connectedCallback();
-
+        this.dataset = this.readJsonAttribute('data-dataset');
         this.config = this.readJsonAttribute('data-config');
-        this.store = new GeoMapFeatureStore(this.readJsonAttribute('data-dataset'));
-        this.activeCategories = new Set(this.config.categories ?? this.store.categories);
+        this.statusText = this.config.lastUpdate ?? this.statusText;
     }
 
     render() {
-        const stats = this.config.stats ?? this.store.getStats();
-        const selectedFeature = this.store.featureIndex.get(this.selectedFeatureId) ?? null;
+        const collapsed = this.sidebarPanel === null;
 
         return html`
-            <div class="geo-map-widget">
-                <div class="toolbar">
-                    <div class="toolbar-group">
-                        <span class="label">Base map</span>
-                        ${this.renderToggleButton('street', 'Street', this.activeBaseLayer === 'street', () => this.setBaseLayer('street'))}
-                        ${this.renderToggleButton('satellite', 'Satellite', this.activeBaseLayer === 'satellite', () => this.setBaseLayer('satellite'))}
+            <div class="farmshops">
+                <div class=${`sidebar ${collapsed ? 'is-collapsed' : ''}`}>
+                    <div class="sidebar-tabs">
+                        <div class="sidebar-tab-group">
+                            <button class="sidebar-tab" type="button" title="Was ist das hier?" @click=${() => this.togglePanel('home')}>
+                                &#9776;
+                            </button>
+                        </div>
+
+                        <div class="sidebar-tab-group">
+                            <button class="sidebar-tab" type="button" title="Impressum" @click=${() => this.togglePanel('info')}>
+                                &#8505;
+                            </button>
+                            <a class="sidebar-tab" href="https://github.com/CodeforKarlsruhe/direktvermarkter" target="_blank" rel="noopener" title="Repository">
+                                <img src=${GITHUB_ICON} alt="Github">
+                            </a>
+                            <a class="sidebar-tab" href="https://codefor.de/" target="_blank" rel="noopener" title="Code for Germany">
+                                <img src=${OKFN_ICON} alt="OKFN">
+                            </a>
+                        </div>
                     </div>
 
-                    <div class="toolbar-group">
-                        <span class="label">Layers</span>
-                        ${this.renderLayerButton('clusters', 'Clusters')}
-                        ${this.renderLayerButton('points', 'Points')}
-                        ${this.renderLayerButton('heatmap', 'Heatmap')}
-                        ${this.renderLayerButton('zones', 'Zones')}
-                    </div>
-
-                    <div class="toolbar-group">
-                        <span class="label">Categories</span>
-                        ${this.store.categories.map((category) => this.renderCategoryButton(category))}
-                    </div>
-                </div>
-
-                <div class="layout">
-                    <div class="map-shell">
-                        <div id="map" class="map-canvas"></div>
-                    </div>
-
-                    <div class="sidebar">
-                        <div class="sidebar-card">
-                            <div class="sidebar-title">Runtime</div>
-                            <div class="sidebar-value">${this.statusText}</div>
-                        </div>
-
-                        <div class="sidebar-card">
-                            <div class="sidebar-title">Selected feature</div>
-                            <div class="sidebar-value">${selectedFeature ? readFeatureLabel(selectedFeature) : 'None'}</div>
-                        </div>
-
-                        <div class="sidebar-card">
-                            <div class="sidebar-title">Dataset</div>
-                            <div class="sidebar-grid">
-                                ${this.renderStat('Features', stats.total)}
-                                ${this.renderStat('Points', stats.points)}
-                                ${this.renderStat('Zones', stats.zones)}
-                                ${this.renderStat('Categories', stats.categories)}
-                            </div>
-                        </div>
-
-                        <div class="sidebar-card">
-                            <div class="sidebar-title">LOD</div>
-                            <div class="sidebar-value">${this.lodLabel}</div>
-                        </div>
-
-                        <div class="sidebar-card">
-                            <div class="sidebar-title">Legend</div>
-                            <div class="legend">
-                                ${this.store.categories.map((category) => html`
-                                    <div class="legend-row">
-                                        <span class="legend-swatch" style=${`background:${CATEGORY_PALETTE[category] ?? CATEGORY_PALETTE.unknown}`}></span>
-                                        <span>${category}</span>
-                                    </div>
-                                `)}
-                            </div>
-                        </div>
+                    <div class="sidebar-content">
+                        ${this.sidebarPanel === 'info' ? this.renderInfoPane() : this.renderHomePane()}
                     </div>
                 </div>
+
+                <div id="map" class="map"></div>
             </div>
         `;
     }
 
     firstUpdated() {
         this.initializeMap();
-        this.renderDataLayers();
         this.observeResize();
     }
 
@@ -574,32 +362,62 @@ class GeoMapWidgetElement extends LitElement {
         super.disconnectedCallback();
     }
 
-    renderToggleButton(key, label, active, action) {
+    renderHomePane() {
         return html`
-            <button
-                type="button"
-                data-key=${key}
-                class=${active ? 'is-active' : ''}
-                @click=${action}
-            >
-                ${label}
-            </button>
+            <div class="sidebar-pane">
+                <h1 class="sidebar-header">
+                    farmshops.eu - Direktvermarkter-Karte
+                    <button type="button" class="sidebar-tab" @click=${() => this.togglePanel(null)}>×</button>
+                </h1>
+                <div class="sidebar-inner">
+                    <h3>Was ist das hier?</h3>
+                    <p>
+                        Diese Lit-Komponente repliziert die originale Übersichtskarte von
+                        <code>farmshops.eu</code> mit Hofläden, Märkten, Imkern und Verkaufsautomaten.
+                    </p>
+
+                    <h3>Welche Einträge werden angezeigt?</h3>
+                    <div class="legend-row"><img src=${HOF_ICON} alt=""><span><strong>shop=farm</strong> für Hofläden</span></div>
+                    <div class="legend-row"><img src=${AUTOMAT_ICON} alt=""><span><strong>amenity=vending_machine</strong> für Automaten</span></div>
+                    <div class="legend-row"><img src=${MARKT_ICON} alt=""><span><strong>amenity=marketplace</strong> für Märkte</span></div>
+                    <div class="legend-row"><img src=${IMKER_ICON} alt=""><span><strong>craft=beekeeper</strong> für Imker</span></div>
+
+                    <p>
+                        Die Karte nutzt OpenStreetMap als Standard-Layer, Satellitenbilder von Esri und dieselbe Cluster-Logik
+                        des Originals: einfache Zähler bei kleinem Zoom, Kategorie-Icons im Cluster bei höherem Zoom.
+                    </p>
+
+                    <p>
+                        <a class="button" href="https://github.com/CodeforKarlsruhe/farmshops.eu" target="_blank" rel="noopener">Original auf GitHub</a>
+                    </p>
+
+                    <div class="status-box">${this.statusText}</div>
+                </div>
+            </div>
         `;
     }
 
-    renderLayerButton(key, label) {
-        return this.renderToggleButton(key, label, this.activeLayers.has(key), () => this.toggleLayer(key));
-    }
-
-    renderCategoryButton(category) {
-        return this.renderToggleButton(category, category, this.activeCategories.has(category), () => this.toggleCategory(category));
-    }
-
-    renderStat(label, value) {
+    renderInfoPane() {
         return html`
-            <div class="stat">
-                <span class="stat-label">${label}</span>
-                <span class="stat-value">${value}</span>
+            <div class="sidebar-pane">
+                <h1 class="sidebar-header">
+                    Impressum und Datenschutz
+                    <button type="button" class="sidebar-tab" @click=${() => this.togglePanel(null)}>×</button>
+                </h1>
+                <div class="sidebar-inner">
+                    <img src=${CODEFOR_ICON} alt="Code for Karlsruhe" width="200">
+                    <p><strong>Replica basata su progetto MIT</strong> di Code for Karlsruhe.</p>
+                    <p>
+                        Il comportamento della mappa, la tassonomia delle categorie e il linguaggio visuale sono stati
+                        portati in un Web Component Lit dentro il modulo <code>Geo</code>.
+                    </p>
+                    <p>
+                        Repository originale:
+                        <a href="https://github.com/CodeforKarlsruhe/farmshops.eu" target="_blank" rel="noopener">
+                            CodeforKarlsruhe/farmshops.eu
+                        </a>
+                    </p>
+                </div>
             </div>
         `;
     }
@@ -618,136 +436,230 @@ class GeoMapWidgetElement extends LitElement {
         }
     }
 
+    togglePanel(panel) {
+        this.sidebarPanel = this.sidebarPanel === panel ? null : panel;
+        requestAnimationFrame(() => this.map?.invalidateSize());
+    }
+
     initializeMap() {
-        const canvas = this.renderRoot.querySelector('#map');
-        const center = this.store.getInitialCenter();
+        const canvas = this.querySelector('#map');
+        const center = this.getInitialCenter();
+
+        this.streetLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        });
+
+        this.satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri',
+            maxZoom: 19,
+        });
 
         this.map = L.map(canvas, {
             center,
             zoom: this.config.defaultZoom ?? 6,
-            zoomControl: true,
+            minZoom: 2,
+            maxZoom: 18,
+            zoomControl: false,
         });
 
-        this.layerManager = new GeoMapLayerManager({
-            map: this.map,
-            config: this.config,
-            onFeatureSelect: (feature) => this.selectFeature(feature),
-            popupRenderer: (feature) => renderPopupHtml(feature),
+        this.streetLayer.addTo(this.map);
+        this.markers = L.markerClusterGroup({
+            spiderfyOnMaxZoom: true,
+            maxClusterRadius: (zoom) => (zoom < 12 ? 80 : 45),
+            showCoverageOnHover: true,
+            zoomToBoundsOnClick: true,
+            removeOutsideVisibleBounds: true,
+            iconCreateFunction: (cluster) => this.createClusterIcon(cluster),
         });
 
-        this.layerManager.boot(this.activeBaseLayer);
+        this.createFeatureLayers();
+        this.map.addLayer(this.markers);
+        this.installPermalink();
+        this.installLocateControl();
 
-        const bounds = this.store.getBounds();
-
-        if (bounds.isValid()) {
-            this.map.fitBounds(bounds.pad(0.08), { maxZoom: this.config.detailZoom ?? 12 });
-        }
-
-        this.map.on('zoomend moveend', () => this.refreshLodState());
-        this.map.on('popupopen', () => {
-            this.statusText = `Popup open at zoom ${this.map.getZoom()}`;
-        });
-    }
-
-    renderDataLayers() {
-        if (!this.map || !this.layerManager) {
-            return;
-        }
-
-        const filteredPoints = this.store.getFilteredPointFeatures(this.activeCategories);
-
-        this.layerManager.render({
-            filteredPoints,
-            zoneFeatures: this.store.zoneFeatures,
-            activeLayers: this.activeLayers,
-            lodMode: this.getLodMode(),
-        });
-
-        this.refreshLodState();
-        this.statusText = `Loaded ${filteredPoints.length} filtered points from static GeoJSON`;
-    }
-
-    selectFeature(feature) {
-        this.selectedFeatureId = readFeatureId(feature);
-        this.statusText = `Selected ${readFeatureLabel(feature)}`;
-
-        this.dispatchEvent(new CustomEvent('geo-feature-selected', {
-            bubbles: true,
-            composed: true,
-            detail: {
-                feature,
+        L.control.scale({ position: 'topright' }).addTo(this.map);
+        L.control.layers(
+            {
+                OpenStreetMap: this.streetLayer,
+                Satellit: this.satelliteLayer,
             },
-        }));
+            {
+                Marker: this.markers,
+            },
+        ).addTo(this.map);
+        L.control.zoom({ position: 'bottomright' }).addTo(this.map);
+
+        this.map.on('popupopen', (event) => {
+            const divmap = this.querySelector('#map');
+            event.popup.options.maxHeight = 0.8 * divmap.offsetHeight;
+            event.popup.options.maxWidth = 0.95 * divmap.offsetWidth;
+            event.popup.update();
+        });
     }
 
-    toggleLayer(layerKey) {
-        if (this.activeLayers.has(layerKey)) {
-            this.activeLayers.delete(layerKey);
-        } else {
-            this.activeLayers.add(layerKey);
+    installPermalink() {
+        let shouldWriteHash = true;
+        const initialLocation = readPermalinkState();
+
+        if (initialLocation !== null) {
+            this.map.setView(initialLocation.center, initialLocation.zoom);
         }
 
-        this.activeLayers = new Set(this.activeLayers);
-        this.renderDataLayers();
+        this.map.on('moveend', () => {
+            if (!shouldWriteHash) {
+                shouldWriteHash = true;
+
+                return;
+            }
+
+            const center = this.map.getCenter();
+            window.history.replaceState(
+                {
+                    zoom: this.map.getZoom(),
+                    center,
+                },
+                'map',
+                `#${round5(center.lat)},${round5(center.lng)},${this.map.getZoom()}z`,
+            );
+        });
+
+        window.addEventListener('popstate', (event) => {
+            if (event.state !== null) {
+                shouldWriteHash = false;
+                this.map.setView(event.state.center, event.state.zoom);
+            }
+        });
     }
 
-    toggleCategory(category) {
-        if (this.activeCategories.has(category)) {
-            this.activeCategories.delete(category);
-        } else {
-            this.activeCategories.add(category);
-        }
+    installLocateControl() {
+        const LocateControl = L.Control.extend({
+            options: { position: 'bottomright' },
+            onAdd: (map) => {
+                const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+                const button = L.DomUtil.create('a', 'leaflet-bar-part leaflet-bar-part-single', container);
+                button.href = '#';
+                button.title = 'Karte auf meine aktuelle Position zentrieren!';
+                button.innerHTML = '&#9678;';
 
-        this.activeCategories = new Set(this.activeCategories);
-        this.renderDataLayers();
+                L.DomEvent.on(button, 'click', L.DomEvent.stop)
+                    .on(button, 'click', () => {
+                        if (!navigator.geolocation) {
+                            return;
+                        }
+
+                        navigator.geolocation.getCurrentPosition((position) => {
+                            const latlng = [position.coords.latitude, position.coords.longitude];
+                            map.setView(latlng, 12);
+                            L.circle(latlng, {
+                                radius: position.coords.accuracy,
+                                color: '#136AEC',
+                                fillColor: '#136AEC',
+                                fillOpacity: 0.15,
+                                weight: 2,
+                                opacity: 0.5,
+                            }).addTo(map);
+                            L.circleMarker(latlng, {
+                                color: '#136AEC',
+                                fillColor: '#2A93EE',
+                                fillOpacity: 0.7,
+                                weight: 2,
+                                opacity: 0.9,
+                                radius: 5,
+                            }).addTo(map);
+                        });
+                    });
+
+                return container;
+            },
+        });
+
+        new LocateControl().addTo(this.map);
     }
 
-    setBaseLayer(baseLayerKey) {
-        if (!this.layerManager || this.activeBaseLayer === baseLayerKey) {
-            return;
-        }
+    createFeatureLayers() {
+        this.getPointFeatures().forEach((feature) => {
+            const latlng = [feature.geometry.coordinates[1], feature.geometry.coordinates[0]];
+            const marker = L.marker(latlng, {
+                icon: this.createCategoryMarker(readCategory(feature)),
+            });
 
-        this.activeBaseLayer = baseLayerKey;
-        this.layerManager.setBaseLayer(baseLayerKey);
+            marker.feature = feature;
+            marker.bindPopup(renderPopupContent(feature));
+            this.markers.addLayer(marker);
+        });
     }
 
-    refreshLodState() {
-        if (!this.map) {
-            this.lodLabel = 'Loading';
+    createCategoryMarker(category) {
+        const image = CATEGORY_IMAGES[category] ?? HOF_ICON;
 
-            return;
-        }
-
-        const lodMode = this.getLodMode();
-        this.lodLabel = lodMode === 'cluster'
-            ? 'Cluster overview'
-            : lodMode === 'aggregate'
-                ? 'Category aggregate'
-                : 'Point detail';
+        return L.divIcon({
+            className: 'farmshop-marker',
+            html: `<img src="${image}" alt="${category}" style="width:40px;height:40px;">`,
+            iconSize: [40, 40],
+            iconAnchor: [20, 40],
+            popupAnchor: [0, -32],
+        });
     }
 
-    getLodMode() {
-        if (!this.map) {
-            return 'cluster';
+    createClusterIcon(cluster) {
+        const markers = cluster.getAllChildMarkers();
+        const flags = {
+            farm: false,
+            marketplace: false,
+            vending_machine: false,
+            beekeeper: false,
+        };
+
+        markers.forEach((marker) => {
+            const category = readCategory(marker.feature);
+
+            if (category in flags) {
+                flags[category] = true;
+            }
+        });
+
+        const detail = this.map.getZoom() >= 8
+            ? `
+                <div class="cluster-icons">
+                    ${flags.farm ? `<img src="${HOF_ICON}" alt="farm">` : ''}
+                    ${flags.marketplace ? `<img src="${MARKT_ICON}" alt="marketplace">` : ''}
+                    ${flags.vending_machine ? `<img src="${AUTOMAT_ICON}" alt="vending_machine">` : ''}
+                    ${flags.beekeeper ? `<img src="${IMKER_ICON}" alt="beekeeper">` : ''}
+                </div>
+            `
+            : `<div style="padding:8px;">${markers.length}</div>`;
+
+        const body = this.map.getZoom() >= 8 ? `${markers.length}${detail}` : detail;
+
+        return L.divIcon({
+            html: `<div class="circle"><strong>${body}</strong></div>`,
+            className: 'test',
+            iconSize: L.point(80, 80),
+        });
+    }
+
+    getPointFeatures() {
+        return Array.isArray(this.dataset.features)
+            ? this.dataset.features.filter((feature) => feature.geometry?.type === 'Point')
+            : [];
+    }
+
+    getInitialCenter() {
+        const firstFeature = this.getPointFeatures()[0];
+
+        if (!firstFeature) {
+            return [51.1657, 10.4515];
         }
 
-        const zoom = this.map.getZoom();
-        const aggregateZoom = this.config.aggregateZoom ?? 8;
-        const detailZoom = this.config.detailZoom ?? 12;
-
-        if (zoom < aggregateZoom) {
-            return 'cluster';
-        }
-
-        if (zoom < detailZoom) {
-            return 'aggregate';
-        }
-
-        return 'detail';
+        return [
+            firstFeature.geometry.coordinates[1],
+            firstFeature.geometry.coordinates[0],
+        ];
     }
 
     observeResize() {
-        const host = this.renderRoot.querySelector('.map-shell');
+        const host = this.querySelector('.farmshops');
 
         if (!(host instanceof HTMLElement)) {
             return;
@@ -761,94 +673,262 @@ class GeoMapWidgetElement extends LitElement {
     }
 }
 
-function isFeatureCollection(value) {
-    return Boolean(value) && value.type === 'FeatureCollection' && Array.isArray(value.features);
-}
-
-function isFeature(value) {
-    return Boolean(value)
-        && value.type === 'Feature'
-        && value.geometry
-        && typeof value.geometry.type === 'string'
-        && Array.isArray(value.geometry.coordinates)
-        && value.properties
-        && typeof value.properties === 'object';
-}
-
-function pointToLatLng(feature) {
-    if (feature.geometry.type !== 'Point') {
-        return null;
-    }
-
-    const [lng, lat] = feature.geometry.coordinates;
-
-    if (typeof lat !== 'number' || typeof lng !== 'number') {
-        return null;
-    }
-
-    return L.latLng(lat, lng);
-}
-
-function readFeatureId(feature) {
-    return String(feature.properties?.id ?? '');
-}
-
-function readFeatureLabel(feature) {
-    return String(feature.properties?.name ?? feature.properties?.id ?? 'Feature');
-}
-
 function readCategory(feature) {
-    return String(feature.properties?.category ?? 'unknown');
+    return String(feature.properties?.p ?? feature.properties?.category ?? 'farm');
 }
 
-function shortCategoryLabel(category) {
-    return category
-        .split('_')
-        .map((item) => item.charAt(0).toUpperCase())
-        .join('')
-        .slice(0, 2);
-}
-
-function createCategoryIcon(category) {
-    const label = shortCategoryLabel(category);
-    const color = CATEGORY_PALETTE[category] ?? CATEGORY_PALETTE.unknown;
-
-    return L.divIcon({
-        className: 'geo-map-marker-shell',
-        html: `
-            <span style="
-                display:grid;
-                place-items:center;
-                width:2rem;
-                height:2rem;
-                border-radius:999px;
-                background:${color};
-                color:white;
-                font:700 0.72rem/1 sans-serif;
-                border:2px solid white;
-                box-shadow:0 8px 24px rgba(15,23,42,.22);
-            ">${label}</span>
-        `,
-        iconSize: [32, 32],
-        iconAnchor: [16, 16],
-        popupAnchor: [0, -16],
-    });
-}
-
-function renderPopupHtml(feature) {
-    const name = readFeatureLabel(feature);
-    const description = String(feature.properties?.description ?? 'No description available');
-    const category = readCategory(feature);
-    const address = String(feature.properties?.address ?? 'Address unavailable');
+function renderPopupContent(feature) {
+    const properties = feature.properties ?? {};
+    const title = resolveHeadline(properties);
+    const address = renderAddress(properties);
+    const openingHours = renderOpeningHours(properties);
+    const detailsTable = renderDetailsTable(properties);
+    const [lng, lat] = feature.geometry.coordinates;
+    const osmId = String(properties.id ?? properties.name ?? '');
+    const editId = osmId.includes('/') ? osmId.replace('/', '=') : osmId;
 
     return `
-        <div style="min-width:16rem;display:grid;gap:.35rem">
-            <div style="font:700 1rem/1.2 sans-serif;color:#0f172a">${name}</div>
-            <div style="font:600 .75rem/1 sans-serif;text-transform:uppercase;letter-spacing:.05em;color:#475569">${category}</div>
-            <div style="font:.875rem/1.4 sans-serif;color:#1e293b">${description}</div>
-            <div style="font:.8rem/1.4 sans-serif;color:#475569">${address}</div>
+        <div class="popup-headline"><h1>${title}</h1></div>
+        <div class="popup-wrapper">
+            <div class="popup-address"><strong>Adresse:</strong><br>${address}</div>
+            <div class="popup-links">
+                <strong>Dieser Ort auf</strong><br>
+                <a target="_blank" rel="noopener" href="http://openstreetmap.org/${osmId}">OpenStreetMap</a><br>
+                <a target="_blank" rel="noopener" href="https://maps.openrouteservice.org/directions?n1=${lat}&n2=${lng}&n3=14&a=null,null,${lat},${lng}&b=0&c=0&k1=en-US&k2=km">Openrouteservice</a><br>
+                <a target="_blank" rel="noopener" href="http://maps.google.de/?q=${lat},${lng}">Google Maps</a>
+            </div>
+            <div class="popup-times"><strong>Öffnungszeiten:</strong><br>${openingHours}</div>
+            <div class="popup-table">
+                <table>
+                    <th colspan="2">Weitere Daten:</th>
+                    ${detailsTable}
+                </table>
+            </div>
+            <a target="_blank" rel="noopener" href="http://openstreetmap.org/edit?editor=id&${editId}" class="popup-button">Auf OSM bearbeiten</a>
+            <br>Die Daten werden regelmäßig abgeglichen.
         </div>
     `;
+}
+
+function resolveHeadline(properties) {
+    if (properties.name) {
+        return properties.name;
+    }
+
+    if (properties.shop === 'farm' || properties.p === 'farm') {
+        return 'Hofladen';
+    }
+
+    if (properties.craft === 'beekeeper' || properties.p === 'beekeeper') {
+        return 'Imker';
+    }
+
+    if (properties.amenity === 'vending_machine' || properties.p === 'vending_machine') {
+        return 'Verkaufsautomat';
+    }
+
+    if (properties.amenity === 'marketplace' || properties.p === 'marketplace') {
+        return 'Markt';
+    }
+
+    return 'Direktvermarkter';
+}
+
+function renderAddress(properties) {
+    const line1 = [properties['addr:street'], properties['addr:housenumber']]
+        .filter(Boolean)
+        .join(' ')
+        .trim();
+    const line2 = [properties['addr:postcode'], properties['addr:city']]
+        .filter(Boolean)
+        .join(' ')
+        .trim();
+    const line3 = properties['addr:place'] ?? '';
+    const parts = [line1, line2, line3].filter((item) => item !== '');
+
+    return parts.length > 0 ? parts.join('<br>') : 'Unbekannt <br> <br>';
+}
+
+function renderOpeningHours(properties) {
+    const openingHours = properties.opening_hours ?? null;
+
+    if (!openingHours) {
+        return 'Unbekannt';
+    }
+
+    const stateText = resolveOpenState(openingHours);
+
+    return `${openingHours}${stateText}`;
+}
+
+function renderDetailsTable(properties) {
+    const hiddenKeys = new Set([
+        'id',
+        'name',
+        'p',
+        'shop',
+        'craft',
+        'amenity',
+        'opening_hours',
+        'addr:street',
+        'addr:housenumber',
+        'addr:postcode',
+        'addr:city',
+        'addr:place',
+        'addr:country',
+        'addr:suburb',
+        'image',
+    ]);
+
+    return Object.entries(properties)
+        .filter(([key, value]) => !hiddenKeys.has(key) && value !== null && value !== '')
+        .map(([key, value]) => renderPropertyRow(key, value, properties))
+        .join('');
+}
+
+function renderPropertyRow(key, value, properties) {
+    if (key === 'fixme') {
+        return `<tr><td><strong>Unklare Daten:</strong></td><td>${String(value).replace('position estimated', 'Position geschätzt')} <a target="_blank" rel="noopener" href="http://openstreetmap.org/${properties.id ?? ''}">Daten verbessern</a></td></tr>`;
+    }
+
+    return `<tr><td><strong>${translateKey(key)}:</strong></td><td>${formatValue(key, value)}</td></tr>`;
+}
+
+function translateKey(key) {
+    return key
+        .replace('opening_hours', 'Öffnungszeiten')
+        .replace('city', 'Stadt')
+        .replace('housenumber', 'Hausnummer')
+        .replace('operator', 'Betreiber')
+        .replace('postcode', 'Postleitzahl')
+        .replace('street', 'Straße')
+        .replace('suburb', 'Bezirk')
+        .replace('website', 'Webseite')
+        .replace('phone', 'Telefon')
+        .replace('email', 'E-Mail')
+        .replace('description', 'Beschreibung')
+        .replace('produce', 'Erzeugnisse')
+        .replace('organic', 'Biologisch')
+        .replace('product', 'Produkt(e)')
+        .replace('wheelchair', 'Rollstuhlgerecht')
+        .replace('currency', 'Währung')
+        .replace('covered', 'Überdacht')
+        .replace('indoor', 'Innenraum')
+        .replace('country', 'Land')
+        .replace('source', 'Quelle')
+        .replace('start_date', 'Geöffnet seit')
+        .replace('vending', 'Verkauft')
+        .replace('amenity', 'Einrichtung')
+        .replaceAll(':', ' ');
+}
+
+function formatValue(key, value) {
+    const stringValue = String(value);
+
+    if (['website', 'contact:website', 'url'].includes(key)) {
+        return `<a target="_blank" rel="noopener" href="${stringValue}">${stringValue}</a>`;
+    }
+
+    if (['email', 'contact:email'].includes(key)) {
+        return `<a target="_blank" rel="noopener" href="mailto:${stringValue}">${stringValue}</a>`;
+    }
+
+    if (['phone', 'contact:phone'].includes(key)) {
+        return `<a target="_blank" rel="noopener" href="tel:${stringValue}">${stringValue}</a>`;
+    }
+
+    return stringValue
+        .replaceAll(';', ', ')
+        .replace('only', 'nur')
+        .replace('vending_machine', 'Verkaufsautomat')
+        .replace('raw_milk', 'Rohmilch')
+        .replace('eggs', 'Eier')
+        .replace('aspice', 'Sülze')
+        .replace('meat', 'Fleisch')
+        .replace('soup', 'Suppen')
+        .replace('edible oil', 'Speiseöl')
+        .replace('rapeseed oil', 'Rapsöl')
+        .replace('linseed oil', 'Leinöl')
+        .replace('canned sausages', 'Wurstkonserven')
+        .replace('sausages', 'Wurst')
+        .replace('potatoes', 'Kartoffeln')
+        .replace('carrots', 'Möhren')
+        .replace('courgettes', 'Zucchini')
+        .replace('zucchini', 'Zucchini')
+        .replace('pumpkins', 'Kürbisse')
+        .replace('asparagus', 'Spargel')
+        .replace('tomatoes', 'Tomaten')
+        .replace('vegetables', 'Gemüse')
+        .replace('fruits', 'Früchte')
+        .replace('apples', 'Äpfel')
+        .replace('blueberries', 'Heidelbeeren')
+        .replace('raspberries', 'Himbeeren')
+        .replace('strawberries', 'Erdbeeren')
+        .replace('jam', 'Marmelade')
+        .replace('cheese', 'Käse')
+        .replace('cream cheese', 'Frischkäse')
+        .replace('butter', 'Butter')
+        .replace('yogurt', 'Joghurt')
+        .replace('curd', 'Quark')
+        .replace('dairy', 'Molkereiprodukte')
+        .replace('marketplace', 'Marktplatz')
+        .replace('noodles', 'Nudeln')
+        .replace('flour', 'Mehl')
+        .replace('bread roll', 'Brötchen')
+        .replace('bread', 'Brot')
+        .replace('cake', 'Kuchen')
+        .replace('honey', 'Honig')
+        .replace('fast_food', 'Schnellimbiss')
+        .replace('seafood', 'Meeresfrüchte')
+        .replace('sweets', 'Süßigkeiten')
+        .replace('food', 'Lebensmittel')
+        .replace('drinks', 'Getränke')
+        .replace('water', 'Wasser')
+        .replace('apple juice', 'Apfelsaft')
+        .replace('partially', 'teilweise')
+        .replace('milk', 'Milch')
+        .replace('yes', 'ja')
+        .replace('no', 'nein');
+}
+
+function resolveOpenState(openingHours) {
+    if (typeof window.opening_hours !== 'function') {
+        return '';
+    }
+
+    try {
+        const oh = new window.opening_hours(openingHours);
+
+        return oh.getState()
+            ? '<br><strong><span style="color:green">Wahrscheinlich gerade geöffnet</span></strong>'
+            : '<br><strong><span style="color:red">Wahrscheinlich gerade geschlossen</span></strong>';
+    } catch {
+        return '';
+    }
+}
+
+function readPermalinkState() {
+    if (window.location.hash === '') {
+        return null;
+    }
+
+    const parts = window.location.hash.replace('#', '').split(',');
+
+    if (parts.length !== 3) {
+        return null;
+    }
+
+    return {
+        center: {
+            lat: Number.parseFloat(parts[0]),
+            lng: Number.parseFloat(parts[1]),
+        },
+        zoom: Number.parseInt(parts[2].replace('z', ''), 10),
+    };
+}
+
+function round5(value) {
+    return Math.round(value * 100000) / 100000;
 }
 
 if (!customElements.get('geo-map-widget')) {
