@@ -66,7 +66,8 @@ AddressSection::make('address')
 
 **Tipo**: Filament Field
 **Path**: `app/Filament/Forms/Components/LatitudeLongitudeInput.php`
-**View**: `resources/views/filament/forms/components/latitude-longitude-input.blade.php`
+**View default**: `resources/views/filament/forms/components/latitude-longitude-input.blade.php`
+**View Lit**: `resources/views/filament/forms/components/latitude-longitude-input-lit.blade.php`
 
 Coppia di input numerici annidati nello stato del field (schema interno `latitude` / `longitude`) con **mappa Leaflet integrata**, marker trascinabile, geolocalizzazione, fullscreen e **sincronizzazione bidirezionale non-distruttiva** input ↔ mappa ↔ Livewire.
 
@@ -108,6 +109,21 @@ LatitudeLongitudeInput::make('location')
     ->showMap(true),
 ```
 
+**Renderer Selection**:
+```php
+LatitudeLongitudeInput::make('location')
+    ->jsFramework('lit')
+    ->defaultCenter(41.9028, 12.4964)
+    ->defaultZoom(13)
+    ->mapHeight('340px');
+```
+
+**Regola**:
+- `blade` resta il renderer di default e mantiene il percorso legacy Blade/Alpine
+- `lit` è opt-in esplicito e usa un Web Component dedicato
+- Filament/PHP resta il layer di governo del field; il renderer JS cambia solo la UI
+- valori supportati: `blade`, `lit`
+
 **Data Structure** (Livewire state):
 ```php
 'location' => [
@@ -122,6 +138,11 @@ LatitudeLongitudeInput::make('location')
 - `isProgrammaticInputUpdate` flag previene sync circolare durante updates JS
 - Throttling (200ms drag, 160ms input) riduce DOM thrashing
 - Non usiamo `wire.set()` diretto — usiamo change event per attivare `wire:model.change`
+
+**Variante Lit**:
+- la Blade Lit monta `<my-map>` come Web Component
+- il bridge dati resta nel field: input Filament con `wire:model.change` + sync bidirezionale `inputs ↔ my-map`
+- la variante Lit oggi copre il contract dati del field senza replicare integralmente tutti i controlli UX del renderer legacy
 
 ### 4. LeafletMarkerMapInput
 

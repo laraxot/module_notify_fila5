@@ -6,6 +6,8 @@ export class MyMap extends LitElement {
         lat: { type: Number },
         lng: { type: Number },
         zoom: { type: Number },
+        height: { type: String },
+        interactive: { type: Boolean },
         markerTitle: { type: String, attribute: 'marker-title' },
     };
 
@@ -14,6 +16,8 @@ export class MyMap extends LitElement {
         this.lat = 45.6669;   // esempio: Treviso/Mogliano area
         this.lng = 12.2423;
         this.zoom = 10;
+        this.height = '400px';
+        this.interactive = true;
         this.markerTitle = 'My Map';
         this._map = null;
         this._marker = null;
@@ -30,7 +34,7 @@ export class MyMap extends LitElement {
     }
 
     render() {
-        return html`<div id="map" class="map" style="width: 100%; height: 400px; border-radius: 12px; overflow: hidden;"></div>`;
+        return html`<div id="map" class="map" style="width: 100%; height: ${this.height}; border-radius: 12px; overflow: hidden;"></div>`;
     }
 
     firstUpdated() {
@@ -43,9 +47,34 @@ export class MyMap extends LitElement {
             attribution: '&copy; OpenStreetMap contributors',
         }).addTo(this._map);
 
-        this._marker = L.marker([this.lat, this.lng])
+        this._marker = L.marker([this.lat, this.lng], {
+            draggable: this.interactive,
+        })
             .addTo(this._map)
             .bindPopup(this.markerTitle);
+
+        if (this.interactive) {
+            this._marker.on('dragend', () => {
+                const position = this._marker?.getLatLng();
+
+                if (! position) {
+                    return;
+                }
+
+                this.lat = position.lat;
+                this.lng = position.lng;
+
+                this.dispatchCoordinatesChanged();
+            });
+
+            this._map.on('click', (event) => {
+                this.lat = event.latlng.lat;
+                this.lng = event.latlng.lng;
+
+                this._marker?.setLatLng(event.latlng);
+                this.dispatchCoordinatesChanged();
+            });
+        }
 
         requestAnimationFrame(() => {
             this._map?.invalidateSize();
@@ -68,6 +97,30 @@ export class MyMap extends LitElement {
                 this._marker.setLatLng([this.lat, this.lng]);
             }
         }
+
+        if (changedProperties.has('height')) {
+            const mapEl = this.querySelector('#map');
+
+            if (mapEl instanceof HTMLElement) {
+                mapEl.style.height = this.height;
+            }
+
+            requestAnimationFrame(() => {
+                this._map?.invalidateSize();
+            });
+        }
+    }
+
+    dispatchCoordinatesChanged() {
+        this.dispatchEvent(new CustomEvent('map-coordinates-changed', {
+            bubbles: true,
+            composed: true,
+            detail: {
+                lat: this.lat,
+                lng: this.lng,
+                zoom: this.zoom,
+            },
+        }));
     }
 
     disconnectedCallback() {
@@ -80,4 +133,6 @@ export class MyMap extends LitElement {
     }
 }
 
-customElements.define('my-map', MyMap);
+if (! customElements.get('my-map')) {
+    customElements.define('my-map', MyMap);
+}

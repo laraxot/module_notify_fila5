@@ -60,6 +60,11 @@
   - `laravel/Themes/Sixteen/public/manifest.json`
   - `public_html/themes/Sixteen/manifest.json`
 
+### Filament + Lit Rule
+- If a Geo Filament field selects a Lit renderer, the field still remains Filament-governed on the PHP side
+- The theme only bundles and publishes the Web Component assets
+- The field chooses the renderer; the theme does not choose field behavior
+
 ---
 
 ## 📁 Allowed Directory Structure

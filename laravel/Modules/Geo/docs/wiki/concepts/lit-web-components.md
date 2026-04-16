@@ -166,6 +166,22 @@ Il problema non era uno solo:
 - pipeline obbligatoria `npm run build` + `npm run copy` da `laravel/Themes/Sixteen`
 - `my-map` reso in **light DOM** per consentire a Leaflet di usare i suoi CSS globali
 
+## Uso in Filament Fields
+
+`Lit` non sostituisce Filament. Nel modulo Geo la regola corretta e':
+
+- il **field PHP** decide il renderer (`blade` o `lit`)
+- la **Blade del field** fa da bridge verso il renderer JS
+- il **Web Component** renderizza la UI mappa
+
+Caso concreto:
+
+- `LatitudeLongitudeInput` usa `blade` come default
+- `LatitudeLongitudeInput::make(...)->jsFramework('lit')` seleziona una Blade alternativa
+- la Blade Lit monta `<my-map>` e mantiene il sync con gli input Filament/Livewire
+
+Questo evita di spostare la governance del field nel tema o nella pagina.
+
 ---
 
 ## Architettura Consigliata: Modular Web Components
