@@ -9,6 +9,7 @@ uses(\Modules\Geo\Tests\TestCase::class);
 use Modules\Geo\Filament\Actions\UpdateCoordinatesBulkAction;
 use Modules\Geo\Filament\Forms\Components\AddressField;
 use Modules\Geo\Filament\Forms\Components\MapPicker;
+use Modules\Geo\Filament\Widgets\GeoMapWidget;
 use Modules\Geo\Filament\Widgets\LatLngWidget;
 use Modules\Geo\Filament\Widgets\LocationWidget;
 
@@ -32,6 +33,10 @@ test('LocationWidget can be instantiated', function () {
 
 test('LatLngWidget can be instantiated', function () {
     expect(class_exists(LatLngWidget::class))->toBeTrue();
+});
+
+test('GeoMapWidget can be instantiated', function () {
+    expect(class_exists(GeoMapWidget::class))->toBeTrue();
 });
 
 test('UpdateCoordinatesBulkAction can be instantiated', function () {

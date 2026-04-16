@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "farm-1",
+        "name": "Cascina Nord",
+        "category": "farm",
+        "description": "Vendita diretta di ortaggi e formaggi.",
+        "address": "Via dei Campi 12, Milano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1682, 45.5001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "market-1",
+        "name": "Mercato Centro",
+        "category": "market",
+        "description": "Mercato settimanale con produttori locali.",
+        "address": "Piazza Duomo, Milano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1905, 45.4645]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hive-1",
+        "name": "Apicoltura Sud",
+        "category": "beekeeper",
+        "description": "Miele, propoli e prodotti dell'alveare.",
+        "address": "Via delle Robinie 4, Pavia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1492, 45.1847]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "machine-1",
+        "name": "Distributore Latte Est",
+        "category": "vending_machine",
+        "description": "Latte crudo e yogurt freschi.",
+        "address": "Viale Lombardia 55, Bergamo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.6773, 45.6983]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "farm-2",
+        "name": "Azienda Agricola Ovest",
+        "category": "farm",
+        "description": "Frutta di stagione e conserve.",
+        "address": "Strada Provinciale 3, Novara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.6212, 45.4473]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "zone-1",
+        "name": "Zona Agricola Prioritaria",
+        "category": "zone",
+        "description": "Perimetro di esempio per overlay zone."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.0381, 45.5708],
+            [9.3310, 45.5708],
+            [9.3310, 45.3712],
+            [9.0381, 45.3712],
+            [9.0381, 45.5708]
+          ]
+        ]
+      }
+    }
+  ]
+}

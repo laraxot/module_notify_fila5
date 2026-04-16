@@ -66,6 +66,7 @@ qmd update
 ## Concepts
 
 - [llm-wiki-governance](./concepts/llm-wiki-governance.md): repository mapping, ingest/query/lint, and source-of-truth rules
+- [phpstan-central-config-rule](./concepts/phpstan-central-config-rule.md): always run module PHPStan via `laravel/phpstan.neon`, never via module-local config
 
 ## Modules
 

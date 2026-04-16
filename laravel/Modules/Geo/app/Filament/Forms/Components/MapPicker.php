@@ -80,17 +80,26 @@ class MapPicker extends XotBaseField
 
     public function shouldReverseGeocode(): bool
     {
-        return (bool) $this->evaluate($this->reverseGeocoding);
+        $res = $this->evaluate($this->reverseGeocoding);
+        Assert::boolean($res);
+
+        return $res;
     }
 
     public function shouldGeolocateWhenEmpty(): bool
     {
-        return (bool) $this->evaluate($this->geolocateWhenEmpty);
+        $res = $this->evaluate($this->geolocateWhenEmpty);
+        Assert::boolean($res);
+
+        return $res;
     }
 
     public function getZoom(): int
     {
-        return (int) $this->evaluate($this->zoom);
+        $res = $this->evaluate($this->zoom);
+        Assert::integer($res);
+
+        return $res;
     }
 
     public function getLatitudeStatePath(): string

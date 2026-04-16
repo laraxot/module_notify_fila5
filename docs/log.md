@@ -32,3 +32,15 @@ Quando esegui un'operazione:
 ---
 
 <!-- Aggiungi nuove entries qui -->
+
+## [2026-04-16] update | PHPStan module workflow governance
+
+- Aggiunto [[wiki/concepts/phpstan-central-config-rule.md]]
+- Aggiornato [[wiki/index.md]]
+- Registrata la regola operativa: usare sempre `cd laravel && ./vendor/bin/phpstan analyse Modules/<ModuleName>` con config centrale `laravel/phpstan.neon`
+
+## [2026-04-16] update | PHPStan full-project-first rule
+
+- Aggiornato [[wiki/concepts/phpstan-central-config-rule.md]]
+- Registrata la regola operativa: validare prima l'intero progetto con `cd laravel && ./vendor/bin/phpstan analyse`
+- Solo se il rumore è troppo alto, scendere a validazione modulo per modulo

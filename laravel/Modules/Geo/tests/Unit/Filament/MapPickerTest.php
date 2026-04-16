@@ -31,3 +31,13 @@ test('map picker accepts absolute coordinate paths', function (): void {
         ->and($field->shouldGeolocateWhenEmpty())->toBeFalse()
         ->and($field->shouldReverseGeocode())->toBeFalse();
 });
+
+test('map picker keeps bare coordinate paths at root level', function (): void {
+    $field = MapPicker::make('map_picker')
+        ->statePath('map_picker')
+        ->latitude('latitude')
+        ->longitude('longitude');
+
+    expect($field->getLatitudeStatePath())->toBe('latitude')
+        ->and($field->getLongitudeStatePath())->toBe('longitude');
+});

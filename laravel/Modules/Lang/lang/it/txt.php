@@ -507,6 +507,12 @@ return [
         'display_name' => [
             'label' => 'display_name',
         ],
+        'location' => [
+            'label' => 'location',
+            'placeholder' => 'location',
+            'helper_text' => 'location',
+            'description' => 'location',
+        ],
     ],
     'actions' => [
         'authenticate' => [
