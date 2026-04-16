@@ -16,20 +16,51 @@ This file indexes the compiled wiki in `docs/wiki/`. It is not a mirror of the w
 ## Tools
 
 ### QMD Search
-QMD è configurato per ricerca locale su tutto il corpus markdown:
+QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file indicizzati):
 
-| Collezione | Path | Uso |
-|------------|------|-----|
-| `fixcity-wiki` | `./docs/wiki` | Wiki compilato |
-| `fixcity-docs` | `./docs` | Documentazione progetto |
-| `fixcity-modules` | `./Modules` | Moduli Laravel |
-| `fixcity-themes` | `./Themes` | Temi |
+| Collezione | Path | Files | Descrizione |
+|------------|------|-------|-------------|
+| `root-docs` | `docs/` | 710 | Documentazione root progetto |
+| `mod-fixcity` | `Modules/Fixcity/docs/` | 69 | Ticket, wizard, segnalazioni |
+| `mod-xot` | `Modules/Xot/docs/` | 4409 | Core framework, modelli base |
+| `mod-cms` | `Modules/Cms/docs/` | 711 | Gestione contenuti, pagine |
+| `mod-user` | `Modules/User/docs/` | 1952 | Auth, profili, ruoli |
+| `mod-geo` | `Modules/Geo/docs/` | 562 | Mappe, indirizzi |
+| `mod-ui` | `Modules/UI/docs/` | 472 | Componenti interfaccia |
+| `mod-ai` | `Modules/AI/docs/` | 84 | LLM, AI integration |
+| `mod-lang` | `Modules/Lang/docs/` | 761 | Traduzioni |
+| `mod-notify` | `Modules/Notify/docs/` | 827 | Notifiche |
+| `mod-activity` | `Modules/Activity/docs/` | 430 | Log attività |
+| `mod-tenant` | `Modules/Tenant/docs/` | 231 | Multi-tenancy |
+| `mod-media` | `Modules/Media/docs/` | 252 | Gestione file |
+| `mod-blog` | `Modules/Blog/docs/` | 63 | Articoli, post |
+| `mod-gdpr` | `Modules/Gdpr/docs/` | 170 | Privacy, GDPR |
+| `mod-job` | `Modules/Job/docs/` | 176 | Code lavoro |
+| `mod-comment` | `Modules/Comment/docs/` | 35 | Commenti |
+| `mod-seo` | `Modules/Seo/docs/` | 91 | SEO |
+| `mod-rating` | `Modules/Rating/docs/` | 49 | Valutazioni |
+| `theme-sixteen` | `Themes/Sixteen/docs/` | 964 | Design Comuni Italia |
+| `theme-twentyone` | `Themes/TwentyOne/docs/` | 185 | Tema alternativo |
+| `bashscripts` | `bashscripts/docs/` | 642 | Script, automazione |
+| `agents-docs` | `.agents/docs/` | 332 | Istruzioni AI agents |
 
-**MCP**: Server in `laravel/.mcp.json` — `qmd mcp`
+**MCP Plugin**: `qmd@qmd` (installato in Claude Code via plugin)
 
 ```bash
-# Esempio ricerca CLI
-qmd search "Laravel wiki" -c fixcity-docs -n 5
+# Ricerca keyword (BM25, veloce ~30ms)
+qmd search "wizard ticket" -c mod-fixcity -n 5
+
+# Ricerca semantica (vector, ~2s)
+qmd vsearch "come creare una segnalazione" -c mod-fixcity
+
+# Ricerca ibrida + reranking (migliore qualità, ~10s)
+qmd query "architettura moduli Laravel" -n 10
+
+# Ricerca in una specifica collezione
+qmd search "Bootstrap Italia header" -c theme-sixteen
+
+# Re-indicizza dopo modifiche
+qmd update
 ```
 
 ## Concepts
