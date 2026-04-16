@@ -245,3 +245,4 @@ laravel/.env.testing
 /test-homepage*.js
 /*.png
 bashscripts/
+bashscripts/
