@@ -11,7 +11,7 @@ use Modules\User\Models\User;
 
 uses(TestCase::class);
 
-test('record notification data returns mail route', function (): void {
+test('record notification data returns mail route', function(): void {
     $user = new User;
     $user->setAttribute('email', 'recipient@example.test');
 
@@ -24,7 +24,7 @@ test('record notification data returns mail route', function (): void {
         ->and($data->getRoute())->toBe('recipient@example.test');
 });
 
-test('record notification data returns normalized sms route', function (): void {
+test('record notification data returns normalized sms route', function(): void {
     app()->instance(NormalizePhoneNumberAction::class, new class
     {
         public function execute(string $phone): string
@@ -44,7 +44,7 @@ test('record notification data returns normalized sms route', function (): void 
     expect($data->getRoute())->toBe('+393331234567');
 });
 
-test('record notification data throws for unsupported channel', function (): void {
+test('record notification data throws for unsupported channel', function(): void {
     $user = new User;
     $user->setAttribute('email', 'recipient@example.test');
 

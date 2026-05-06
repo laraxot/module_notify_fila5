@@ -4,15 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Enums;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
 use Modules\Notify\Enums\ContactTypeEnum;
+use Modules\Notify\Tests\TestCase;
 
-it('has correct cases', function (): void {
+it('has correct cases', function(): void {
     expect(ContactTypeEnum::cases())->toHaveCount(6);
 
     expect(ContactTypeEnum::PHONE->value)->toBe('phone');
@@ -23,20 +24,20 @@ it('has correct cases', function (): void {
     expect(ContactTypeEnum::FAX->value)->toBe('fax');
 });
 
-it('implements filament contracts', function (): void {
+it('implements filament contracts', function(): void {
     expect(ContactTypeEnum::PHONE)->toBeInstanceOf(HasLabel::class);
     expect(ContactTypeEnum::PHONE)->toBeInstanceOf(HasIcon::class);
     expect(ContactTypeEnum::PHONE)->toBeInstanceOf(HasColor::class);
 });
 
-it('has trans trait', function (): void {
+it('has trans trait', function(): void {
     $reflection = new \ReflectionClass(ContactTypeEnum::class);
     $traits = $reflection->getTraitNames();
 
     expect($traits)->toContain('Modules\\Xot\\Filament\\Traits\\TransTrait');
 });
 
-it('has required methods', function (): void {
+it('has required methods', function(): void {
     expect(method_exists(ContactTypeEnum::class, 'getLabel'))->toBeTrue();
     expect(method_exists(ContactTypeEnum::class, 'getColor'))->toBeTrue();
     expect(method_exists(ContactTypeEnum::class, 'getIcon'))->toBeTrue();
@@ -45,7 +46,7 @@ it('has required methods', function (): void {
     expect(method_exists(ContactTypeEnum::class, 'getFormSchema'))->toBeTrue();
 });
 
-it('getSearchable returns all values', function (): void {
+it('getSearchable returns all values', function(): void {
     $searchable = ContactTypeEnum::getSearchable();
 
     expect($searchable)->toBeArray();
@@ -53,7 +54,7 @@ it('getSearchable returns all values', function (): void {
     expect($searchable)->toContain('phone', 'mobile', 'email', 'pec', 'whatsapp', 'fax');
 });
 
-it('getFormSchema returns TextInput components', function (): void {
+it('getFormSchema returns TextInput components', function(): void {
     $schema = ContactTypeEnum::getFormSchema();
 
     expect($schema)->toBeArray();
@@ -64,7 +65,7 @@ it('getFormSchema returns TextInput components', function (): void {
     }
 });
 
-it('each case has a unique value', function (): void {
+it('each case has a unique value', function(): void {
     $values = array_map(static fn (ContactTypeEnum $case): string => $case->value, ContactTypeEnum::cases());
     $uniqueValues = array_unique($values);
 

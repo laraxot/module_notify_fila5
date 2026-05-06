@@ -34,14 +34,14 @@ function makeEditNotifyThemeTestProxy(): EditNotifyTheme
     };
 }
 
-test('list notification templates page returns empty table columns array', function (): void {
+test('list notification templates page returns empty table columns array', function(): void {
     $page = new ListNotificationTemplates;
 
     expect($page->getTableColumns())->toBeArray()
         ->and($page->getTableColumns())->toBe([]);
 });
 
-test('notify theme resource field options are configured', function (): void {
+test('notify theme resource field options are configured', function(): void {
     expect(NotifyThemeResource::fieldOptions('lang'))->toBe([
         'it' => 'Italiano',
         'en' => 'English',
@@ -56,7 +56,7 @@ test('notify theme resource field options are configured', function (): void {
     ])->and(NotifyThemeResource::fieldOptions('unknown'))->toBe([]);
 });
 
-test('notify theme resource form schema exposes expected components', function (): void {
+test('notify theme resource form schema exposes expected components', function(): void {
     $schema = NotifyThemeResource::getFormSchema();
 
     expect($schema)->toBeArray()
@@ -72,7 +72,7 @@ test('notify theme resource form schema exposes expected components', function (
         ->and($schema['body_html'])->toBeInstanceOf(RichEditor::class);
 });
 
-test('edit notify theme page exposes delete header action', function (): void {
+test('edit notify theme page exposes delete header action', function(): void {
     $page = makeEditNotifyThemeTestProxy();
     $actions = $page->exposedHeaderActions();
 
@@ -81,7 +81,7 @@ test('edit notify theme page exposes delete header action', function (): void {
         ->and($actions['delete'])->toBeInstanceOf(DeleteAction::class);
 });
 
-test('list notify themes columns and filters are configured', function (): void {
+test('list notify themes columns and filters are configured', function(): void {
     $columns = ListNotifyThemes::getNotifyThemeTableColumns();
     $page = new ListNotifyThemes;
     $filters = $page->getTableFilters();
@@ -101,7 +101,7 @@ test('list notify themes columns and filters are configured', function (): void 
         ->and($filters['type'])->toBeInstanceOf(SelectFilter::class);
 });
 
-test('linkable relation manager exposes text input form schema', function (): void {
+test('linkable relation manager exposes text input form schema', function(): void {
     $manager = new LinkableRelationManager;
     $schema = $manager->getFormSchema();
 
@@ -109,7 +109,7 @@ test('linkable relation manager exposes text input form schema', function (): vo
         ->and($schema[0])->toBeInstanceOf(TextInput::class);
 });
 
-test('contact column is a view column with expected name', function (): void {
+test('contact column is a view column with expected name', function(): void {
     $column = ContactColumn::make('contact');
 
     expect($column)->toBeInstanceOf(ViewColumn::class)

@@ -12,9 +12,14 @@ class NotifyThemeData extends Data
 
     public ?string $from = null; // from name
 
+    /** @var string */
     public string $subject;
 
+    /** @var string */
     public string $body_html;
 
-    public array $view_params;
+    /**
+     * @var array<string, mixed>
+     */
+    public array $view_params = [];
 }

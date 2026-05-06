@@ -4,27 +4,28 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 
 use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
+use Modules\Notify\Tests\TestCase;
 
-it('extends base model', function (): void {
+it('extends base model', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
 
     expect($version)->toBeInstanceOf(BaseModel::class);
 });
 
-it('uses updater trait', function (): void {
+it('uses updater trait', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $traits = $reflection->getTraitNames();
 
     expect($traits)->toContain('Modules\\Xot\\Traits\\Updater');
 });
 
-it('has correct fillable attributes', function (): void {
+it('has correct fillable attributes', function(): void {
     $expectedFillable = [
         'template_id',
         'subject',
@@ -47,7 +48,7 @@ it('has correct fillable attributes', function (): void {
     expect($fillable)->toBe($expectedFillable);
 });
 
-it('has correct casts', function (): void {
+it('has correct casts', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $instance = $reflection->newInstanceWithoutConstructor();
     $castsMethod = $reflection->getMethod('casts');
@@ -60,21 +61,21 @@ it('has correct casts', function (): void {
     expect($casts['conditions'] ?? null)->toBe('array');
 });
 
-it('has template relationship method', function (): void {
+it('has template relationship method', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
 
     expect(method_exists($version, 'template'))->toBeTrue();
 });
 
-it('has restore method', function (): void {
+it('has restore method', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
 
     expect(method_exists($version, 'restore'))->toBeTrue();
 });
 
-it('restore method returns NotificationTemplate', function (): void {
+it('restore method returns NotificationTemplate', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
 
@@ -87,56 +88,56 @@ it('restore method returns NotificationTemplate', function (): void {
     expect($returnType?->getName())->toBe(NotificationTemplate::class);
 });
 
-it('has expected table name', function (): void {
+it('has expected table name', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
 
     expect($version->getTable())->toBe('notification_template_versions');
 });
 
-it('has expected primary key', function (): void {
+it('has expected primary key', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
 
     expect($version->getKeyName())->toBe('id');
 });
 
-it('uses timestamps', function (): void {
+it('uses timestamps', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
 
     expect($version->usesTimestamps())->toBeTrue();
 });
 
-it('has uuids trait', function (): void {
+it('has uuids trait', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $traits = $reflection->getTraitNames();
 
     expect($traits)->toContain('Illuminate\\Database\\Eloquent\\Concerns\\HasUuids');
 });
 
-it('has factory trait', function (): void {
+it('has factory trait', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $traits = $reflection->getTraitNames();
 
     expect($traits)->toContain('Modules\\Xot\\Traits\\HasFactory');
 });
 
-it('has media trait', function (): void {
+it('has media trait', function(): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $traits = $reflection->getTraitNames();
 
     expect($traits)->toContain('Spatie\\MediaLibrary\\HasMedia');
 });
 
-it('has creator and updater relationships', function (): void {
+it('has creator and updater relationships', function(): void {
     $version = new NotificationTemplateVersion;
 
     expect(method_exists($version, 'creator'))->toBeTrue();
     expect(method_exists($version, 'updater'))->toBeTrue();
 });
 
-it('has media relationship', function (): void {
+it('has media relationship', function(): void {
     $version = new NotificationTemplateVersion;
 
     expect(method_exists($version, 'media'))->toBeTrue();

@@ -35,12 +35,14 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      */
     public function __construct(
         public FirebaseNotificationData $data,
-    ) {}
+    ) {
+    }
 
     /**
      * Get the notification's delivery channels.
      *
      * @param  object  $_notifiable  The entity to be notified (l'entità da notificare)
+     *
      * @return array<int, class-string>
      */
     public function via(object $_notifiable): array
@@ -95,6 +97,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * Get the array representation of the notification.
      *
      * @param  object|null  $notifiable  The entity to be notified
+     *
      * @return array<string, mixed>
      */
     #[Override]
@@ -124,9 +127,6 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
             }
         }
 
-        /** @var CloudMessage $message */
-        $message = CloudMessage::new()->withHighestPossiblePriority()->withData($data);
-
-        return $message;
+        return CloudMessage::new()->withHighestPossiblePriority()->withData($data);
     }
 }

@@ -6,10 +6,11 @@ namespace Modules\Notify\Tests\Feature;
 
 use Illuminate\Support\Facades\Config;
 use Modules\Notify\Actions\Mail\GetMailLayoutAction;
+use Modules\Notify\Tests\TestCase;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 
-it('resolves christmas professional layout when context is christmas', function (): void {
+it('resolves christmas professional layout when context is christmas', function(): void {
     // Arrange
     Config::set('xra.pub_theme', 'Zero'); // Use existing theme instead of 'Sixteen'
 
@@ -40,7 +41,7 @@ it('resolves christmas professional layout when context is christmas', function 
     expect($html)->toContain('{{ company_name }}');
 });
 
-it('falls back to base when not christmas', function (): void {
+it('falls back to base when not christmas', function(): void {
     // Arrange
     Config::set('xra.pub_theme', 'Sixteen');
 
@@ -60,7 +61,7 @@ it('falls back to base when not christmas', function (): void {
     expect($html)->not()->toContain('background: linear-gradient(135deg, #800000 0%, #A00000 100%);');
 });
 
-it('resolves christmas festive layout with vml', function (): void {
+it('resolves christmas festive layout with vml', function(): void {
     // Arrange
     Config::set('xra.pub_theme', 'Sixteen');
 

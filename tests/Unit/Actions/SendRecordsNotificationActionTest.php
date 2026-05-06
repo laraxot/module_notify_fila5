@@ -21,7 +21,7 @@ function makeDummyBulkNotifyRecord(array $attributes = []): Model
     };
 }
 
-test('send records notification action counts successful sends', function (): void {
+test('send records notification action counts successful sends', function(): void {
     app()->instance(SafeEloquentCastAction::class, new class
     {
         public function getStringAttribute(Model $record, string $attribute, string $default = ''): string
@@ -57,7 +57,7 @@ test('send records notification action counts successful sends', function (): vo
         ->and($result->totalProcessed)->toBe(4);
 });
 
-test('send records notification action accumulates errors per channel', function (): void {
+test('send records notification action accumulates errors per channel', function(): void {
     app()->instance(SafeEloquentCastAction::class, new class
     {
         public function getStringAttribute(Model $record, string $attribute, string $default = ''): string
@@ -96,7 +96,7 @@ test('send records notification action accumulates errors per channel', function
         ->and($result->totalProcessed)->toBe(4);
 });
 
-test('send records notification action falls back to record key when name is missing', function (): void {
+test('send records notification action falls back to record key when name is missing', function(): void {
     app()->instance(SafeEloquentCastAction::class, new class
     {
         public function getStringAttribute(Model $record, string $attribute, string $default = ''): string

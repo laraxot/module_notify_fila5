@@ -4,15 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Notifications\GenericNotification;
+use Modules\Notify\Tests\TestCase;
 
 // Basic unit tests focusing on business logic of recipient name resolution
 
-describe('GenericNotification getRecipientName', function (): void {
-    it('prefers getFullName() when available', function (): void {
+describe('GenericNotification getRecipientName', function(): void {
+    it('prefers getFullName() when available', function(): void {
         $notification = new GenericNotification('Title', 'Message');
 
         $notifiable = new class
@@ -30,7 +31,7 @@ describe('GenericNotification getRecipientName', function (): void {
         expect($method->invoke($notification, $notifiable))->toBe('John Doe');
     });
 
-    it('uses Eloquent model full_name when present and non-empty', function (): void {
+    it('uses Eloquent model full_name when present and non-empty', function(): void {
         $notification = new GenericNotification('Title', 'Message');
 
         $model = new class extends Model
@@ -47,7 +48,7 @@ describe('GenericNotification getRecipientName', function (): void {
         expect($method->invoke($notification, $model))->toBe('Jane Roe');
     });
 
-    it('falls back to first_name then name then default', function (): void {
+    it('falls back to first_name then name then default', function(): void {
         $notification = new GenericNotification('Title', 'Message');
 
         // first_name present

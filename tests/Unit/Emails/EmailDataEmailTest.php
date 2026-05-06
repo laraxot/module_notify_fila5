@@ -11,7 +11,7 @@ use Modules\Notify\Tests\TestCase;
 
 uses(TestCase::class);
 
-test('email data email envelope uses explicit sender and subject', function (): void {
+test('email data email envelope uses explicit sender and subject', function(): void {
     $emailData = new EmailData(
         recipient: 'recipient@example.test',
         subject: 'Subject Line',
@@ -29,7 +29,7 @@ test('email data email envelope uses explicit sender and subject', function (): 
         ->and($envelope->from->name)->toBe('Notify Sender');
 });
 
-test('email data email content uses notify views and exposes email data', function (): void {
+test('email data email content uses notify views and exposes email data', function(): void {
     $emailData = new EmailData(
         recipient: 'recipient@example.test',
         subject: 'Subject Line',
@@ -44,7 +44,7 @@ test('email data email content uses notify views and exposes email data', functi
         ->and($content->with['email_data'])->toBe($emailData);
 });
 
-test('email data email has no attachments by default', function (): void {
+test('email data email has no attachments by default', function(): void {
     $emailData = new EmailData(
         recipient: 'recipient@example.test',
         subject: 'Subject Line',

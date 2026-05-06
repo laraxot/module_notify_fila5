@@ -37,7 +37,7 @@ function makeDummySendNotificationRecipient(array $attributes = []): Model
     };
 }
 
-beforeEach(function (): void {
+beforeEach(function(): void {
     $schema = Schema::connection('notify');
 
     if (! $schema->hasTable('notification_templates')) {
@@ -65,13 +65,13 @@ beforeEach(function (): void {
     NotificationTemplate::query()->delete();
 });
 
-test('send notification action throws when template is missing', function (): void {
+test('send notification action throws when template is missing', function(): void {
     $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
     app(SendNotificationAction::class)->execute($recipient, 'missing-template');
 })->throws(\Exception::class);
 
-test('send notification action returns false when template should not send', function (): void {
+test('send notification action returns false when template should not send', function(): void {
     NotificationTemplate::query()->create([
         'id' => (string) Str::uuid(),
         'name' => 'Welcome',
@@ -93,7 +93,7 @@ test('send notification action returns false when template should not send', fun
     expect($result)->toBeFalse();
 });
 
-test('send notification action dispatches database notification from template channels', function (): void {
+test('send notification action dispatches database notification from template channels', function(): void {
     NotificationTemplate::query()->create([
         'id' => (string) Str::uuid(),
         'name' => 'Welcome',

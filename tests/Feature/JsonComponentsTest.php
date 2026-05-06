@@ -9,7 +9,7 @@ use Tests\TestCase;
 
 uses(TestCase::class);
 
-test('components json is valid and contains expected components', function (): void {
+test('components json is valid and contains expected components', function(): void {
     // Percorso del file
     $filePath = base_path('Modules/Notify/app/Console/Commands/_components.json');
 

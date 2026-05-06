@@ -12,6 +12,7 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\View;
 use Filament\Tables\Columns\IconColumn;
@@ -71,7 +72,7 @@ function makePreviewNotificationTemplateTestProxy(): PreviewNotificationTemplate
     return new class extends PreviewNotificationTemplate {};
 }
 
-test('contact resource form schema exposes expected fields', function (): void {
+test('contact resource form schema exposes expected fields', function(): void {
     $schema = ContactResource::getFormSchema();
 
     expect($schema)->toBeArray()
@@ -80,7 +81,7 @@ test('contact resource form schema exposes expected fields', function (): void {
         ->and($schema)->toHaveKey('phone');
 });
 
-test('edit contact page exposes delete header action', function (): void {
+test('edit contact page exposes delete header action', function(): void {
     $page = makeEditContactTestProxy();
     $actions = $page->exposedHeaderActions();
 
@@ -89,7 +90,7 @@ test('edit contact page exposes delete header action', function (): void {
         ->and($actions['delete'])->toBeInstanceOf(DeleteAction::class);
 });
 
-test('list contacts page exposes expected table columns and filters', function (): void {
+test('list contacts page exposes expected table columns and filters', function(): void {
     $page = new ListContacts;
 
     $columns = $page->getTableColumns();
@@ -107,7 +108,7 @@ test('list contacts page exposes expected table columns and filters', function (
         ->and($filters['inactive'])->toBeInstanceOf(Filter::class);
 });
 
-test('list mail templates page exposes expected table columns', function (): void {
+test('list mail templates page exposes expected table columns', function(): void {
     $page = new ListMailTemplates;
     $columns = $page->getTableColumns();
 
@@ -120,7 +121,7 @@ test('list mail templates page exposes expected table columns', function (): voi
         ->and($columns['counter'])->toBeInstanceOf(TextColumn::class);
 });
 
-test('preview mail template page title and header actions are configured', function (): void {
+test('preview mail template page title and header actions are configured', function(): void {
     $page = makePreviewMailTemplateTestProxy();
     $actions = $page->exposedHeaderActions();
 
@@ -130,7 +131,7 @@ test('preview mail template page title and header actions are configured', funct
         ->and($actions[0])->toBeInstanceOf(Action::class);
 });
 
-test('list notifications page exposes expected columns and filters', function (): void {
+test('list notifications page exposes expected columns and filters', function(): void {
     $page = new ListNotifications;
 
     $columns = $page->getTableColumns();
@@ -150,7 +151,7 @@ test('list notifications page exposes expected columns and filters', function ()
         ->and($filters['type'])->toBeInstanceOf(SelectFilter::class);
 });
 
-test('view notification page infolist schema contains section with text entries', function (): void {
+test('view notification page infolist schema contains section with text entries', function(): void {
     $page = makeViewNotificationTestProxy();
     $schema = $page->exposedInfolistSchema();
 
@@ -165,7 +166,7 @@ test('view notification page infolist schema contains section with text entries'
         ->and($components)->not->toBeEmpty();
 });
 
-test('mail template resource form schema exposes expected components', function (): void {
+test('mail template resource form schema exposes expected components', function(): void {
     $mailLayoutsPath = base_path('Themes/Meetup/resources/mail-layouts');
     if (! is_dir($mailLayoutsPath)) {
         mkdir($mailLayoutsPath, 0777, true);
@@ -179,7 +180,7 @@ test('mail template resource form schema exposes expected components', function 
 
     expect($schema)->toBeArray()
         ->and($schema)->toHaveKey('mailable_slug_group')
-        ->and($schema['mailable_slug_group'])->toBeInstanceOf(\Filament\Schemas\Components\Group::class)
+        ->and($schema['mailable_slug_group'])->toBeInstanceOf(Group::class)
         ->and($schema)->toHaveKey('subject')
         ->and($schema['subject'])->toBeInstanceOf(TextInput::class)
         ->and($schema)->toHaveKey('html_layout_path')
@@ -191,7 +192,7 @@ test('mail template resource form schema exposes expected components', function 
         ->and($schema['text_template'])->toBeInstanceOf(Textarea::class);
 });
 
-test('notification resource form schema exposes expected components', function (): void {
+test('notification resource form schema exposes expected components', function(): void {
     $schema = NotificationResource::getFormSchema();
 
     expect($schema)->toBeArray()
@@ -203,7 +204,7 @@ test('notification resource form schema exposes expected components', function (
         ->and($schema['read_at'])->toBeInstanceOf(DateTimePicker::class);
 });
 
-test('notification template resource form schema and pages are configured', function (): void {
+test('notification template resource form schema and pages are configured', function(): void {
     $schema = NotificationTemplateResource::getFormSchema();
     $pages = NotificationTemplateResource::getPages();
 
@@ -218,7 +219,7 @@ test('notification template resource form schema and pages are configured', func
         ->and($pages)->toHaveKey('preview');
 });
 
-test('preview notification template page exposes title and subheading', function (): void {
+test('preview notification template page exposes title and subheading', function(): void {
     $page = makePreviewNotificationTemplateTestProxy();
 
     expect($page->getTitle())->toBeString()

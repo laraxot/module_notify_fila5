@@ -22,7 +22,7 @@ function makeDummyNotifyBulkModel(array $attributes = []): Model
     };
 }
 
-test('send records notification bulk action exposes expected schema components', function (): void {
+test('send records notification bulk action exposes expected schema components', function(): void {
     $action = SendRecordsNotificationBulkAction::make();
     $reflection = new \ReflectionClass($action);
     $prop = $reflection->getProperty('schema');
@@ -46,7 +46,7 @@ test('send records notification bulk action exposes expected schema components',
         ->and($schema['channels']->getName())->toBe('channels');
 });
 
-test('send records notification bulk action delegates to send records action', function (): void {
+test('send records notification bulk action delegates to send records action', function(): void {
     $spy = new class
     {
         /** @var array{count: int, slug: string, channels: array<int, string>}|null */

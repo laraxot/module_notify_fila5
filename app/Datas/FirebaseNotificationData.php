@@ -10,12 +10,16 @@ use Spatie\LaravelData\Data;
 
 class FirebaseNotificationData extends Data
 {
+    /** @var string */
     public string $type; // ' => $data['type'],
 
+    /** @var string */
     public string $title; // ' => $data['title'],
 
+    /** @var string */
     public string $body; // ' => $data['body'],
 
+    /** @var array<string, mixed> */
     public array $data; // ' => json_encode($data['data']),
 
     public static function fromType(string $type): self
