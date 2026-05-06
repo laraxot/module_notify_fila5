@@ -33,6 +33,7 @@ use Override;
  * @property array<string>|string|null $channels
  * @property string|null $status
  * @property Carbon|null $sent_at
+ *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *

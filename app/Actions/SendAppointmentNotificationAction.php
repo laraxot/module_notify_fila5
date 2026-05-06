@@ -45,7 +45,6 @@ class SendAppointmentNotificationAction
             ]);
 
             return false;
-
         } catch (Exception $e) {
             Log::error('Errore nell\'invio della notifica di appuntamento', [
                 'type' => $type,

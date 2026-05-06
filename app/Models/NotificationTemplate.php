@@ -40,8 +40,11 @@ use Spatie\Translatable\HasTranslations;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property Carbon|null $deleted_at
+ *
  * @property-read string $channels_label
+ *
  * @property NotificationTypeEnum $type
+ *
  * @property-read ProfileContract|null $creator
  * @property-read int|null $logs_count
  * @property-read MediaCollection<int, Media> $media
@@ -65,6 +68,7 @@ use Spatie\Translatable\HasTranslations;
  * @mixin IdeHelperNotificationTemplate
  *
  * @property-read ProfileContract|null $deleter
+ *
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property string|null $deleted_by
@@ -173,6 +177,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Compile the template with the given data.
      *
      * @param  array<string, mixed>  $data  The data to compile the template with
+     *
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function compile(array $data = []): array
@@ -213,6 +218,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Preview the template with the given data.
      *
      * @param  array<string, mixed>  $data  Additional data to merge with preview data
+     *
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function preview(array $data = []): array
@@ -227,33 +233,24 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
     /**
      * Scope a query to only include active templates.
-     *
-     * @param  Builder  $query
-     * @return Builder
      */
-    public function scopeActive($query)
+    public function scopeActive(Builder $query): Builder
     {
         return $query->where('is_active', true);
     }
 
     /**
      * Scope a query to only include templates for a specific channel.
-     *
-     * @param  Builder  $query
-     * @return Builder
      */
-    public function scopeForChannel($query, string $channel)
+    public function scopeForChannel(Builder $query, string $channel): Builder
     {
         return $query->whereJsonContains('channels', $channel);
     }
 
     /**
      * Scope a query to only include templates for a specific category.
-     *
-     * @param  Builder  $query
-     * @return Builder
      */
-    public function scopeForCategory($query, string $category)
+    public function scopeForCategory(Builder $query, string $category): Builder
     {
         return $query->where('category', $category);
     }

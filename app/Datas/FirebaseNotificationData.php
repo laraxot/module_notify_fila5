@@ -12,7 +12,7 @@ class FirebaseNotificationData extends Data
 {
     public string $type; // ' => $data['type'],
 
-    public string $title; // ' => $data['title'],
+    public $title; // ' => $data['title'],
 
     public string $body; // ' => $data['body'],
 

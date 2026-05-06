@@ -28,7 +28,7 @@ use function Safe\file_get_contents;
  */
 class SpatieEmail extends TemplateMailable
 {
-    public string $slug;
+    public $slug;
 
     public array $data = [];
 
@@ -246,7 +246,6 @@ class SpatieEmail extends TemplateMailable
 
     public function buildSms(): string
     {
-        /* @phpstan-ignore method.notFound */
         /** @var MailTemplate $mailTemplate */
         $mailTemplate = $this->getMailTemplate();
         $sms_template = $mailTemplate->sms_template;

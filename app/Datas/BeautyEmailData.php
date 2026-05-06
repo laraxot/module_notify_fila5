@@ -10,7 +10,7 @@ use Spatie\LaravelData\Data;
 
 class BeautyEmailData extends Data
 {
-    public array $view;
+    public $view;
 
     // css must not be accessed before its inizialization.
     // sulla config beautymail di localhost manca, quindi va gestito se è vuoto
