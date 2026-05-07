@@ -34,7 +34,6 @@ use Modules\Xot\Contracts\ProfileContract;
  *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
- *
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *

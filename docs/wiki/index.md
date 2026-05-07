@@ -1,4 +1,3 @@
-<<<<<<< .merge_file_gDMkiZ
 # Knowledge Base Index
 
 > Status: bootstrap
@@ -106,7 +105,6 @@ Separate git repository with shell scripts and utilities:
 ## Archived Queries
 
 - Pending first archived answers
-=======
 # Wiki Locale Index
 
 ## Karpathy LLM Wiki Standard
@@ -133,4 +131,4 @@ Separate git repository with shell scripts and utilities:
 | [llm-wiki-governance](./concepts/llm-wiki-governance.md) | Concept | - | 2026-04-21 |
 | [module-test-location-rule](./concepts/module-test-location-rule.md) | Concept | - | 2026-04-21 |
 | [phpstan-central-config-rule](./concepts/phpstan-central-config-rule.md) | Concept | - | 2026-04-21 |
->>>>>>> .merge_file_7yhG1v
+| [xotbase-table-columns-enforcement](./concepts/xotbase-table-columns-enforcement.md) | Concept | 5 Table files populated — XotBaseResourceTable enforcement | 2026-05-07 |

@@ -68,7 +68,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
- *
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
