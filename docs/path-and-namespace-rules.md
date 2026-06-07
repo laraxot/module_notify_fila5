@@ -68,6 +68,9 @@ namespace Modules\Notify\App\Datas;
 Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
 Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
 Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
 ```
 
 **Namespace corretto:**
@@ -79,6 +82,9 @@ namespace Modules\Notify\Actions\SMS;
 
 **Path fisico corretto:**
 ```
+Modules/Notify/app/Http/Controllers/NotificationController.php
+Modules/Notify/app/Http/Controllers/NotificationController.php
+Modules/Notify/app/Http/Controllers/NotificationController.php
 Modules/Notify/app/Http/Controllers/NotificationController.php
 Modules/Notify/app/Http/Controllers/NotificationController.php
 Modules/Notify/app/Http/Controllers/NotificationController.php
@@ -96,6 +102,9 @@ namespace Modules\Notify\Http\Controllers;
 Modules/Notify/app/Providers/NotifyServiceProvider.php
 Modules/Notify/app/Providers/NotifyServiceProvider.php
 Modules/Notify/app/Providers/NotifyServiceProvider.php
+Modules/Notify/app/Providers/NotifyServiceProvider.php
+Modules/Notify/app/Providers/NotifyServiceProvider.php
+Modules/Notify/app/Providers/NotifyServiceProvider.php
 ```
 
 **Namespace corretto:**
@@ -107,6 +116,9 @@ namespace Modules\Notify\Providers;
 
 **Path fisico corretto:**
 ```
+Modules/Notify/app/Datas/NetfunSMSMessage.php
+Modules/Notify/app/Datas/NetfunSMSMessage.php
+Modules/Notify/app/Datas/NetfunSMSMessage.php
 Modules/Notify/app/Datas/NetfunSMSMessage.php
 Modules/Notify/app/Datas/NetfunSMSMessage.php
 Modules/Notify/app/Datas/NetfunSMSMessage.php
@@ -126,6 +138,8 @@ namespace Modules\Notify\App\Datas;
 
 ## Motivo di questa Regola
 
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto .
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
 Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto .
 Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
 
@@ -159,6 +173,9 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 
 **Path fisico corretto:**
 ```
+Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
 Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
 Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
 Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php

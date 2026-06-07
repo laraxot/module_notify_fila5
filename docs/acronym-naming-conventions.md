@@ -1,4 +1,5 @@
 # Convenzioni di Naming per Acronimi
+# Convenzioni di Naming per Acronimi
 
 ## Regola Fondamentale
 

@@ -250,4 +250,3 @@ class TicketDigest extends Notification implements ShouldQueue
 **Status**: ✅ BUONO  
 **PHPStan**: ✅ 0 errori  
 **Focus**: Real-Time + Push + Preferences
-

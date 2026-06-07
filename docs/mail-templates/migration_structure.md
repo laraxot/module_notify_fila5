@@ -2,11 +2,7 @@
 
 ## Informazioni Generali
 
-<<<<<<< HEAD
-- **File**: `/var/www/html/ptvx/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
-=======
-- **File**: `/var/www/html/healthcare_app/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
->>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+- **File**: `/var/www/html/Quaeris/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 - **Base**: `XotBaseMigration`
 - **Tabella**: `mail_templates`
 
@@ -216,6 +212,9 @@ public function tableUpdate(\Closure $next, ?string $table = null): void
    - Gestione degli errori
 
 ## Collegamenti
+- [Documentazione XotBaseMigration](../Xot/docs/XotBaseMigration.md)
+- [Best Practices Migrazioni](./MIGRATION_BEST_PRACTICES.md)
+- [Gestione Errori](./ERROR_HANDLING.md)
 - [Documentazione XotBaseMigration](../Xot/docs/XotBaseMigration.md)
 - [Best Practices Migrazioni](./MIGRATION_BEST_PRACTICES.md)
 - [Gestione Errori](./ERROR_HANDLING.md)

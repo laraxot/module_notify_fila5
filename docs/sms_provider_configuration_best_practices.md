@@ -73,11 +73,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 
 ```php
 // ❌ ERRATO
-<<<<<<< HEAD
-'sender' => env('NETFUN_SENDER', 'Laraxot'),
-=======
-'sender' => env('NETFUN_SENDER', 'healthcare_app'),
->>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+'sender' => env('NETFUN_SENDER', 'Quaeris'),
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),
@@ -119,3 +115,7 @@ $token = config('services.netfun.token');
 - [SMS Implementation](./sms_implementation.md)
 - [SMS Best Practices](./sms_best_practices.md)
 - [Netfun Authentication Methods](./netfun_authentication_methods.md)
+- [SMS Provider Architecture](./SMS_PROVIDER_ARCHITECTURE.md)
+- [SMS Implementation](./SMS_IMPLEMENTATION.md)
+- [SMS Best Practices](./SMS_BEST_PRACTICES.md)
+- [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)

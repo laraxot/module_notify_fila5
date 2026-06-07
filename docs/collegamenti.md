@@ -1,5 +1,8 @@
 # Collegamenti Documentazione Notify
 
+- [README Notify](README.md)
+- [Architettura del modulo](architecture.md)
+- [CRUD Template Email Filament](CRUD-template-email-filament.md)
 - [README Notify](readme.md)
 - [Architettura del modulo](architecture.md)
 - [CRUD Template Email Filament](crud-template-email-filament.md)

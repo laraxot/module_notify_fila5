@@ -4,6 +4,7 @@
 
 ### ConfigHelper.php - Type Safety Enhancement
 **File**: `Modules/Notify/app/Helpers/ConfigHelper.php`
+**File**: `Modules/Notify/app/Helpers/ConfigHelper.php`
 **Errori risolti**: 11 errori di type mismatch
 
 #### Problemi Identificati
@@ -19,6 +20,7 @@
 
 ### XotData.php - Metodo Mancante Aggiunto
 **File**: `Modules/Xot/app/Datas/XotData.php`
+**File**: `Modules/Xot/app/Datas/XotData.php`
 **Errore risolto**: Metodo `getProjectNamespace()` non esistente
 
 #### Implementazione
@@ -33,6 +35,7 @@ public function getProjectNamespace(): string
 ```
 
 ### NotifyThemeableFactory.php - Pattern Dinamico
+**File**: `Modules/Notify/database/factories/NotifyThemeableFactory.php`
 **File**: `Modules/Notify/database/factories/NotifyThemeableFactory.php`
 **Risultato**: Factory completamente riutilizzabile
 
@@ -94,6 +97,7 @@ protected function getProjectNamespace(): string
 ```bash
 # PHPStan clean
 ./vendor/bin/phpstan analyze Modules/Notify --level=9
+./vendor/bin/phpstan analyze Modules/Notify --level=9
 # Result: 0 errors found ✅
 ```
 
@@ -111,6 +115,7 @@ protected function getProjectNamespace(): string
 ### Validazione
 ```bash
 # Test PHPStan
+cd laravel
 cd laravel
 ./vendor/bin/phpstan analyze Modules/Notify --level=9
 

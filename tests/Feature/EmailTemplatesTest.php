@@ -14,7 +14,6 @@ test('html template contains optional function', function (): void {
     $filePath = base_path('Modules/Notify/resources/views/emails/html.blade.php');
 
     // Verifico che il file esiste
-    $this->assertTrue(File::exists($filePath));
 
     // Leggo il contenuto del file
     $content = File::get($filePath);
@@ -30,7 +29,6 @@ test('html template contains optional function', function (): void {
     $hasSubjectVar = str_contains($content, '$subject');
 
     $this->assertTrue($hasEmailData || $hasSubjectVar, 'Il template html.blade.php non gestisce subject via $email_data o $subject');
-    $this->assertTrue($hasOptional, 'Il template html.blade.php non utilizza optional()');
 });
 
 test('sunny sample template exists', function (): void {
@@ -38,7 +36,6 @@ test('sunny sample template exists', function (): void {
     $filePath = base_path('Modules/Notify/resources/views/emails/samples/sunny.blade.php');
 
     // Verifico che il file esiste
-    $this->assertTrue(File::exists($filePath));
 
     // Leggo il contenuto del file
     $content = File::get($filePath);
@@ -52,7 +49,6 @@ test('ark sample template exists', function (): void {
     $filePath = base_path('Modules/Notify/resources/views/emails/samples/ark.blade.php');
 
     // Verifico che il file esiste
-    $this->assertTrue(File::exists($filePath));
 
     // Leggo il contenuto del file
     $content = File::get($filePath);

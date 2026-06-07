@@ -73,11 +73,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 
 ```php
 // ❌ ERRATO
-<<<<<<< HEAD
-'sender' => env('NETFUN_SENDER', 'Laraxot'),
-=======
-'sender' => env('NETFUN_SENDER', 'healthcare_app'),
->>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+'sender' => env('NETFUN_SENDER', 'Quaeris'),
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),
@@ -108,6 +104,7 @@ $token = config('services.netfun.token');
 | Provider | Endpoint Verificato | Metodo Autenticazione |
 |----------|---------------------|------------------------|
 | Netfun | `https://v2.smsviainternet.it/api/rest/v1/sms-batch.json` | username/password |
+| Twilio | `https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json` | account_sid/auth_token |
 | Twilio | `https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json` | account_sid/auth_token |
 | Vonage | `https://rest.nexmo.com/sms/json` | api_key/api_secret |
 | SMSHosting | `https://api.smshosting.it/rest/api/sms/send` | token |

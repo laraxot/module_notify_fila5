@@ -4,6 +4,8 @@
 
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di  e le azioni necessarie per garantire la coerenza.
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di <nome progetto> e le azioni necessarie per garantire la coerenza.
+Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di  e le azioni necessarie per garantire la coerenza.
+Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di <nome progetto> e le azioni necessarie per garantire la coerenza.
 
 ## Convenzioni Attuali nel Modulo Notify
 
@@ -44,6 +46,8 @@ return [
 
 ## Discrepanza con le Convenzioni Generali
 
+Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di :
+Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di <nome progetto>:
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di :
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di <nome progetto>:
 

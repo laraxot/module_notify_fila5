@@ -2,9 +2,6 @@
 
 declare(strict_types=1);
 
-namespace Modules\Notify\Tests\Unit\Enums;
-
-uses(\Modules\Notify\Tests\TestCase::class);
 
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Contracts\HasColor;
@@ -30,7 +27,6 @@ it('implements filament contracts', function (): void {
 });
 
 it('has trans trait', function (): void {
-    $reflection = new \ReflectionClass(ContactTypeEnum::class);
     $traits = $reflection->getTraitNames();
 
     expect($traits)->toContain('Modules\\Xot\\Filament\\Traits\\TransTrait');

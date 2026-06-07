@@ -2,6 +2,7 @@
 
 ## Data
 2025-11-24
+2025-11-24
 
 ## Riepilogo Esecutivo
  **Tutti i 147 errori PHPStan nel modulo Notify sono stati risolti con successo**
@@ -167,6 +168,7 @@ Durante la risoluzione:
 
 ## Collegamenti
 
+- [Git Conflicts Guide](../../Geo/docs_project/git-conflicts-resolution-guide.md)
 - [Git Conflicts Guide](../../Geo/docs_project/git-conflicts-resolution-guide.md)
 - [Notify Best Practices](best-practices.md)
 - [PHPStan Configuration](../../phpstan.neon)

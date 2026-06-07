@@ -2,9 +2,6 @@
 
 declare(strict_types=1);
 
-namespace Modules\Notify\Tests\Feature;
-
-uses(\Modules\Notify\Tests\TestCase::class);
 
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Notify\Models\MailTemplate;

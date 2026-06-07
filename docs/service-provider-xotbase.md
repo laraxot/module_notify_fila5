@@ -89,6 +89,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 - [XotBaseServiceProvider](Modules/Xot/app/Providers/XotBaseServiceProvider.php)
 - [Best Practices](Modules/Xot/project_docs/service-provider-best-practices.md)
 - [Best Practices](Modules/Xot/docs/service-provider-best-practices.md)
+- [Best Practices](Modules/Xot/project_docs/service-provider-best-practices.md)
+- [Best Practices](Modules/Xot/docs/service-provider-best-practices.md)
 
 ---
 
@@ -182,6 +184,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
 ## 7. Riferimenti
 - [XotBaseServiceProvider](Modules/Xot/app/Providers/XotBaseServiceProvider.php)
+- [Best Practices](Modules/Xot/project_docs/service-provider-best-practices.md)
 - [Best Practices](Modules/Xot/project_docs/service-provider-best-practices.md)
 
 ---

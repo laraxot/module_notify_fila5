@@ -32,10 +32,16 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => 'public_html/images/avatars/default-3.svg',
            'path' => 'public_html/images/avatars/default-3.svg',
            'path' => 'public_html/images/avatars/default-3.svg',
+           'path' => 'public_html/images/avatars/default-3.svg',
+           'path' => 'public_html/images/avatars/default-3.svg',
+           'path' => 'public_html/images/avatars/default-3.svg',
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
+           'path' => 'public_html/images/avatars/default-3.svg',
+           'path' => 'public_html/images/avatars/default-3.svg',
+           'path' => 'public_html/images/avatars/default-3.svg',
            'path' => 'public_html/images/avatars/default-3.svg',
            'path' => 'public_html/images/avatars/default-3.svg',
            'path' => 'public_html/images/avatars/default-3.svg',
@@ -134,6 +140,7 @@ L'implementazione corretta dimostra che:
 3. **Miglioramenti**
    - Considerare la validazione
    - Implementare logging
+   - Aggiungere monitoraggio
    - Aggiungere monitoraggio
 
 ## Visualizzazione Parametri come Badge

@@ -8,6 +8,124 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 
 ### Formato Corretto
 
+```php
+// Formato corretto - un array di array di allegati
+$attachments = [
+    [
+        'path' => 'public_html/images/avatars/default-3.svg',
+        'path' => 'public_html/images/avatars/default-3.svg',
+        'path' => 'public_html/images/avatars/default-3.svg',
+        'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
+        'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
+    ],
+    // Eventualmente altri allegati...
+    [
+        'path' => 'public_html/documents/terms.pdf',
+        'path' => 'public_html/documents/terms.pdf',
+        'path' => 'public_html/documents/terms.pdf',
+        'as' => 'termini.pdf',
+        'mime' => 'application/pdf',
+    ],
+];
+```
+
+## Implementazione nella Classe SpatieEmail
+
+La classe `SpatieEmail` utilizza la classe `Illuminate\Mail\Mailables\Attachment` di Laravel per gestire gli allegati in modo robusto:
+
+```php
+/**
+ * Add attachments to the email
+ *
+ * @param array<int, array<string, string>> $attachments Array of attachment data
+ * @return self
+ */
+public function addAttachments(array $attachments): self
+{
+    $attachmentObjects = [];
+
+    foreach ($attachments as $item) {
+        if (!isset($item['path']) || !file_exists($item['path'])) {
+            continue;
+        }
+
+        $attachment = Attachment::fromPath($item['path']);
+
+        if (isset($item['as'])) {
+            $attachment = $attachment->as($item['as']);
+        }
+
+        if (isset($item['mime'])) {
+            $attachment = $attachment->withMime($item['mime']);
+        }
+
+        $attachmentObjects[] = $attachment;
+    }
+
+    $this->customAttachments = $attachmentObjects;
+
+    return $this;
+}
+
+/**
+ * Get the attachments for the message.
+ *
+ * @return array<int, \Illuminate\Mail\Mailables\Attachment>
+ */
+public function attachments(): array
+{
+    return $this->customAttachments;
+}
+```
+
+## Esempio di Utilizzo Completo
+
+```php
+// Creazione di un array di allegati
+$attachments = [
+    [
+        'path' => 'modules/notify/resources/assets/images/logo.png',
+        'as' => 'logo.png',
+        'mime' => 'image/png',
+    ],
+];
+
+// Invio email con allegati
+Mail::to($recipient)
+    ->locale('it')
+    ->send((new SpatieEmail($user, 'email_template_slug'))
+    ->addAttachments($attachments));
+```
+
+## Opzioni Disponibili per gli Allegati
+
+Ogni allegato deve contenere i seguenti parametri:
+
+- `path`: Percorso al file da allegare (può essere percorso relativo o assoluto)
+- `as`: Nome del file che apparirà nell'email
+- `mime`: Tipo MIME del file (es. 'image/png', 'application/pdf', ecc.)
+
+## Note Aggiuntive
+
+- Assicurarsi che i file specificati nei percorsi esistano
+- Per allegati di grandi dimensioni, considerare l'utilizzo di un job in coda
+- Verificare che i tipi MIME siano corretti per evitare problemi di visualizzazione nei client email
+
+## Collegamenti alla Documentazione Correlata
+
+- [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
+- [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
+- [EMAIL_TROUBLESHOOTING.md](./EMAIL_TROUBLESHOOTING.md)
+# Utilizzo Corretto degli Allegati nelle Email Spatie
+
+Questa documentazione descrive come utilizzare correttamente il metodo `addAttachments()` nella classe `SpatieEmail` del modulo Notify.
+
+## Formato degli Allegati
+
+Il metodo `addAttachments()` accetta un array di array, dove ogni array interno rappresenta un singolo allegato con le relative proprietà.
+
+### Formato Corretto
+
 Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 
 #### Formato 1: Allegato da File Esistente (`path`)
@@ -16,21 +134,15 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 // Formato corretto - allegato da file su filesystem
 $attachments = [
     [
-<<<<<<< HEAD
-        'path' => '/var/www/html/ptvx/public_html/images/avatars/default-3.svg',
-=======
-        'path' => '/var/www/html/healthcare_app/public_html/images/avatars/default-3.svg',
->>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+        'path' => 'public_html/images/avatars/default-3.svg',
+'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
-<<<<<<< HEAD
-        'path' => '/var/www/html/ptvx/public_html/documents/terms.pdf',
-=======
-        'path' => '/var/www/html/healthcare_app/public_html/documents/terms.pdf',
->>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+        'path' => 'public_html/documents/terms.pdf',
+'path' => '/var/www/html/Quaeris/public_html/documents/terms.pdf',
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
@@ -77,20 +189,29 @@ public function addAttachments(array $attachments): self
     foreach ($attachments as $item) {
         $attachment = null;
         
+
+    foreach ($attachments as $item) {
+        $attachment = null;
+
         // Priorità 1: Se esiste 'path' e il file esiste, usa getAttachmentFromPath()
         if (isset($item['path']) && file_exists($item['path'])) {
             $attachment = $this->getAttachmentFromPath($item);
         }
+        
         
         // Priorità 2: Se non c'è path o file non esiste, prova con 'data' (contenuto binario)
         if ($attachment === null && isset($item['data'])) {
             $attachment = $this->getAttachmentFromData($item);
         }
         
+        
         if ($attachment) {
             $attachmentObjects[] = $attachment;
         }
     }
+
+    $this->customAttachments = $attachmentObjects;
+
     
     $this->customAttachments = $attachmentObjects;
     
@@ -216,6 +337,7 @@ Ogni allegato può utilizzare **due formati** a seconda della fonte:
 
 ### Esempio: Email con PDF di Scheda Valutazione
 
+Vedi [Email PDF Attachments](../../../Ptv/docs/email-pdf-attachments.md) per un esempio completo di generazione e invio PDF come allegato email.
 Vedi [Email PDF Attachments](../../../ptv/docs/email-pdf-attachments.md) per un esempio completo di generazione e invio PDF come allegato email.
 
 ## Esempi Completi
@@ -276,6 +398,7 @@ use Modules\Xot\Actions\Pdf\GetPdfContentByRecordAction;
 foreach ($records as $record) {
     $pdfContent = app(GetPdfContentByRecordAction::class)->execute($record);
     
+    
     $attachments = [
         [
             'data' => $pdfContent,
@@ -287,6 +410,10 @@ foreach ($records as $record) {
     $notify = new RecordNotification($record, 'bulk-template');
     $notify->addAttachments($attachments);
     
+
+    $notify = new RecordNotification($record, 'bulk-template');
+    $notify->addAttachments($attachments);
+
     Notification::route('mail', $record->email)->notify($notify);
 }
 ```
@@ -299,6 +426,11 @@ foreach ($records as $record) {
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/email_layouts_best_practices.md)
 - [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/spatie_mail_templates_structure.md)
 - [EMAIL_TROUBLESHOOTING.md](./email_troubleshooting.md)
+- [Ptv - Complete PDF Email Guide](../../../Ptv/docs/pdf-email-attachments-complete-guide.md)
+- [Xot - PDF Generation Technical](../../../Xot/docs/actions/pdf-content-generation-technical.md)
+- [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
+- [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
+- [EMAIL_TROUBLESHOOTING.md](./EMAIL_TROUBLESHOOTING.md)
 
 ### File Correlati
 - `Modules/Notify/app/Emails/SpatieEmail.php` - Gestione allegati
