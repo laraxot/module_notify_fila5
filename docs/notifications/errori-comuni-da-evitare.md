@@ -1,5 +1,7 @@
 # Errori Comuni da Evitare nelle Implementazioni di Moduli
 # Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
+# Errori Comuni da Evitare nelle Implementazioni di Moduli
+# Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
 
 ## Errori di Struttura Directory e Namespace
 
@@ -16,6 +18,7 @@
 2. **Errore di Namespace nei File**
    - ❌ ERRATO: `namespace Modules\Notify\App\Actions;`
    - ✅ CORRETTO: `namespace Modules\Notify\Actions;`
+   
 
    > Il namespace dipende dalla configurazione PSR-4 nel composer.json del modulo
 
@@ -33,6 +36,7 @@
            'retry_attempts' => 3,  // ERRORE: Duplicazione
        ],
    ],
+   
 
    // CORRETTO
    'drivers' => [

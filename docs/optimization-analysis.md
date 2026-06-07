@@ -66,4 +66,3 @@ class NotificationTemplateCache
 
 ---
 *Stato: 🟡 Funzionale ma Necessita Reliability Enhancement*
-

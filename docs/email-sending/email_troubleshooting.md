@@ -15,11 +15,7 @@ La classe `SpatieEmail` ora utilizza l'API moderna di Laravel per gli allegati t
 $attachments = [
     [
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
-<<<<<<< HEAD
-        'path' => '/var/www/html/ptvx/public_html/images/avatars/default.svg',
-=======
-        'path' => '/var/www/html/healthcare_app/public_html/images/avatars/default.svg',
->>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+'path' => '/var/www/html/Quaeris/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila5_mono/public_html/images/avatars/default.svg',
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
@@ -49,6 +45,7 @@ L'implementazione attuale include:
 3. **Gestione opzionale di nome e MIME type**: Personalizzazione flessibile degli allegati
 4. **Documentazione PHPDoc completa**: Miglior supporto IDE e type hints
 
+Per maggiori dettagli, consultare [ATTACHMENTS_USAGE.md](./ATTACHMENTS_USAGE.md).
 Per maggiori dettagli, consultare [ATTACHMENTS_USAGE.md](./ATTACHMENTS_USAGE.md).
 
 ### 2. Errore: "View [notify::emails.template-name] not found"
@@ -208,6 +205,9 @@ public function test_can_send_email_with_attachments()
 
 ## Collegamenti alla Documentazione Correlata
 
+- [ATTACHMENTS_USAGE.md](./ATTACHMENTS_USAGE.md)
+- [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
+- [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
 - [ATTACHMENTS_USAGE.md](./ATTACHMENTS_USAGE.md)
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)

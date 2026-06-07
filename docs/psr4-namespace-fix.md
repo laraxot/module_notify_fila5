@@ -2,6 +2,7 @@
 
 > **Versione**: 1.0  
 > **Ultima modifica**: Vedi [CHANGELOG.md](./CHANGELOG.md)
+> **Ultima modifica**: Vedi [CHANGELOG.md](./CHANGELOG.md)
 
 **Problema**: Namespace con `\App\` viola convenzione Laraxot  
 **Severità**: 🟡 Media (warning autoload, non blocca app)
@@ -78,7 +79,8 @@ NON: Modules\{ModuleName}\App\{Subdirectory}
 
 - [Namespace Conventions](../../Xot/docs/namespace-conventions.md)
 - [PSR-4 Autoloading Pattern](../../Xot/docs/namespace-autoload-pattern.md)
+- [Namespace Conventions](../../Xot/docs/namespace-conventions.md)
+- [PSR-4 Autoloading Pattern](../../Xot/docs/namespace-autoload-pattern.md)
 
 **Status**: ✅ RISOLTO  
 **Impatto**: Nessuno (warning, non blocco funzionale)
-

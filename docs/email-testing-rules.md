@@ -154,6 +154,9 @@ public function sendEmail(): void
 - [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
+- [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
+- [Best Practices Laravel](https://laravel.com/docs/best-practices)
+- [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 
 ## 📝 Note
 

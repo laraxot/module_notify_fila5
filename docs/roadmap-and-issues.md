@@ -243,6 +243,8 @@ class TicketDigest extends Notification implements ShouldQueue
 
 - [← Notify Module README](../README.md)
 - [← Fixcity Integration](../../Fixcity/docs/roadmap-and-issues.md)
+- [← Notify Module README](../README.md)
+- [← Fixcity Integration](../../Fixcity/docs/roadmap-and-issues.md)
 - [← Root Documentation](../../../docs/index.md)
 
 ---
@@ -250,4 +252,3 @@ class TicketDigest extends Notification implements ShouldQueue
 **Status**: ✅ BUONO  
 **PHPStan**: ✅ 0 errori  
 **Focus**: Real-Time + Push + Preferences
-

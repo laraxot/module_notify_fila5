@@ -10,20 +10,12 @@ Le interfacce sono organizzate in due livelli:
 
 1. **Interfacce Generiche**: Posizionate direttamente nella directory `app/Contracts/`
    ```
-<<<<<<< HEAD
-   /var/www/html/ptvx/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
-=======
-   /var/www/html/healthcare_app/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
->>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+/var/www/html/Quaeris/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
    ```
 
 2. **Interfacce Specifiche per Canale**: Posizionate in sottodirectory dedicate
    ```
-<<<<<<< HEAD
-   /var/www/html/ptvx/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
-=======
-   /var/www/html/healthcare_app/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
->>>>>>> 8116fe6a (docs: replace project-specific references with generic placeholders across documentation)
+/var/www/html/Quaeris/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
    ```
 
 ### Convenzioni di Naming
@@ -101,6 +93,9 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 ## Collegamenti Correlati
 
+- [Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
+- [Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
+- [Architettura dei Contratti](./CONTRACTS_ARCHITECTURE.md)
 - [Convenzioni di Naming per le Interfacce](./interface_naming_convention.md)
 - [Chiarimento sulla Struttura delle Interfacce](./interface_structure_clarification.md)
 - [Architettura dei Contratti](./contracts_architecture.md)

@@ -85,6 +85,8 @@ Notification::make()
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+- [LangServiceProvider](../../Lang/docs/service-provider.md)
+- [Regole Traduzioni](../../../../docs/regole/traduzioni.md)
 - [Architettura delle Traduzioni](../../../../../docs/architecture/translations.md)
 - [Gestione Lingue](../../../../../docs/architecture/languages.md)
 

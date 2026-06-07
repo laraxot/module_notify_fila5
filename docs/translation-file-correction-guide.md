@@ -4,6 +4,8 @@
 
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di .
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di <nome progetto>.
+Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di .
+Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di <nome progetto>.
 
 ## Passo 1: Analisi del File Esistente
 
@@ -19,6 +21,9 @@ Se il file ha un nome non conforme:
 ```bash
 
 # 1. Creare un nuovo file con il nome corretto
+touch Modules/Notify/lang/it/nome_corretto.php
+touch Modules/Notify/lang/it/nome_corretto.php
+touch Modules/Notify/lang/it/nome_corretto.php
 touch Modules/Notify/lang/it/nome_corretto.php
 touch Modules/Notify/lang/it/nome_corretto.php
 touch Modules/Notify/lang/it/nome_corretto.php
@@ -86,6 +91,9 @@ Dopo aver corretto un file in italiano, verificare e aggiornare la versione ingl
 ```bash
 
 # 1. Controllare se esiste il file inglese
+ls Modules/Notify/lang/en/nome_file.php
+ls Modules/Notify/lang/en/nome_file.php
+ls Modules/Notify/lang/en/nome_file.php
 ls Modules/Notify/lang/en/nome_file.php
 ls Modules/Notify/lang/en/nome_file.php
 ls Modules/Notify/lang/en/nome_file.php

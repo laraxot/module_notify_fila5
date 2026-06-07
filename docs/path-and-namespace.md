@@ -335,4 +335,3 @@ namespace Modules\Notify\App\Console\Commands;
 > **Nota:** Anche per i comandi console, il namespace non deve mai includere il segmento `App`.
 
 ---
-

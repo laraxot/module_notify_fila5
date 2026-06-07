@@ -1,15 +1,4 @@
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
 # Modulo Notify - Analisi Completa
-=======
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -57,6 +46,7 @@ Supporta template dinamici, allegati binari, multi-canale e integrazione complet
 - **[Spatie Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)**  
   Sistema template email database
 
+- **[Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)**  
 - **[Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)**  
   Best practices layout email
 
@@ -244,32 +234,19 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 
 ---
 
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
 **Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
 **Versione**: 1.1  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base  
 **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
-=======
+**Changelog**: [CHANGELOG.md](./CHANGELOG.md)
+
 ## 🔗 Collegamenti
 
 ### Moduli Correlati
 
 #### Ptv (Schede Valutazione)
+- **[Complete PDF Email Guide](../../Ptv/docs/pdf-email-attachments-complete-guide.md)**  
 - **[Complete PDF Email Guide](../../Ptv/docs/pdf-email-attachments-complete-guide.md)**  
   Caso d'uso completo: invio schede valutazione con PDF
 
@@ -277,6 +254,7 @@ Notification::route('mail', 'to@example.com')->notify($notify);
   Implementation reference
 
 #### Xot (Core Framework)
+- **[GetPdfContentByRecordAction](../../Xot/docs/actions/pdf-content-generation-technical.md)**  
 - **[GetPdfContentByRecordAction](../../Xot/docs/actions/pdf-content-generation-technical.md)**  
   Generazione PDF binario da record
 
@@ -286,6 +264,9 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 ### Documentazione Interna
 
 #### Email System
+- [Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
+- [Spatie Mail Templates Structure](./mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
+- [Email Troubleshooting](./email-sending/EMAIL_TROUBLESHOOTING.md)
 - [Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [Spatie Mail Templates Structure](./mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
 - [Email Troubleshooting](./email-sending/EMAIL_TROUBLESHOOTING.md)
@@ -433,6 +414,7 @@ Log::channel('email')->info('Email sent', [
 
 ---
 
+**Ultimo aggiornamento:** 2025-01-22  
 **Ultimo aggiornamento:** 2025-01-22  
 **Versione:** 2.1.0  
 **Stato:** ✅ Production Ready  

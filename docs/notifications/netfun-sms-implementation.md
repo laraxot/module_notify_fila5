@@ -177,6 +177,8 @@ class AppointmentReminder extends Notification
             message: "Promemoria: appuntamento il {$this->appointment->date}",
             sender: '',
             sender: '<nome progetto>',
+            sender: '',
+            sender: '<nome progetto>',
             reference: 'app_' . $this->appointment->id
         );
         

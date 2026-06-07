@@ -293,9 +293,12 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
 <step n="5" goal="Create comprehensive story file">
   <critical>📝 CREATE ULTIMATE STORY FILE - The developer's master implementation guide!</critical>
 
+  <critical>🔗 GITHUB MANDATORY (FixCity/Laraxot) — Every story MUST include `## GitHub (tracciamento)` with ≥1 Issue URL and ≥1 Discussion URL on repo owner `laraxot/base_fixcity_fila5`, plus issues on every touched module/theme repo. If missing: `gh issue create` + discussion (or documented exception) BEFORE marking ready-for-dev. Canon: `docs/wiki/bmad/story-github-links-mandatory.md`</critical>
+
   <action>Initialize from template.md:
   {default_output_file}</action>
   <template-output file="{default_output_file}">story_header</template-output>
+  <template-output file="{default_output_file}">github_tracking_section</template-output>
 
   <!-- Story foundation from epics analysis -->
   <template-output
@@ -344,6 +347,10 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
 </step>
 
 <step n="6" goal="Update sprint status and finalize">
+  <action>Validate GitHub section in {default_output_file}: heading `## GitHub (tracciamento)` present; table has base_fixcity_fila5 issue + discussion with real issue numbers (no `___` placeholders); module/theme repos listed if code spans them</action>
+  <check if="GitHub section invalid or placeholder">
+    <action>HALT — create issues/discussions via `gh` and fill links; do not mark ready-for-dev</action>
+  </check>
   <action>Validate the newly created story file {default_output_file} against `./checklist.md` and apply any required fixes before finalizing</action>
   <action>Save story document unconditionally</action>
 

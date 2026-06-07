@@ -2,6 +2,7 @@
 
 ## Contesto del Conflitto
 **File**: `Modules/Notify/app/Channels/SmsChannel.php`
+**File**: `Modules/Notify/app/Channels/SmsChannel.php`
 **Linee**: 55-58
 **Tipo**: Conflitto di formattazione (riga vuota aggiuntiva)
 
@@ -11,6 +12,7 @@ Il conflitto è molto semplice e riguarda solo la presenza di una riga vuota agg
 ### Versione HEAD
 ```php
 $action = $this->factory->create();
+        
 
 return $action->execute($smsData);
 ```
@@ -40,6 +42,7 @@ Rimuovere i marker di conflitto mantenendo la versione HEAD con la riga vuota ag
 ## Codice Finale
 ```php
 $action = $this->factory->create();
+        
 
 return $action->execute($smsData);
 ```
@@ -50,6 +53,9 @@ return $action->execute($smsData);
 - Solo miglioramento della leggibilità del codice
 
 ## Collegamenti
+- [Notify Module Documentation](README.md)
+- [SMS Channel Architecture](sms_channel_action_resolution.md)
+- [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
 - [Notify Module Documentation](readme.md)
 - [SMS Channel Architecture](sms_channel_action_resolution.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/project/conflict-resolution-guidelines.md)
