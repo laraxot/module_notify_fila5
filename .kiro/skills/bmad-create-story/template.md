@@ -4,6 +4,17 @@ Status: ready-for-dev
 
 <!-- Note: Validation is optional. Run validate-create-story for quality check before dev-story. -->
 
+## GitHub (tracciamento)
+
+> **Obbligatorio** — vedi [story-github-links-mandatory.md](../../../../docs/wiki/bmad/story-github-links-mandatory.md)
+
+| Repo | Issue | Discussion |
+|------|-------|------------|
+| base_fixcity_fila5 | [#___](https://github.com/laraxot/base_fixcity_fila5/issues/___) | [D#___](https://github.com/laraxot/base_fixcity_fila5/discussions/___) |
+| _(moduli/temi toccati)_ | [#___](https://github.com/laraxot/REPO/issues/___) | cross-link o D# |
+
+**URL diretti:** issue owner · discussion owner (sostituire `___` prima di `ready-for-dev`).
+
 ## Story
 
 As a {{role}},

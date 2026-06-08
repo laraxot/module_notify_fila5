@@ -59,6 +59,17 @@ This is a COMPETITION to create the **ULTIMATE story context** that makes LLM de
 
 You will systematically re-do the entire story creation process, but with a critical eye for what the original LLM might have missed:
 
+### **Step 0: GitHub tracking (FixCity — BLOCKER if missing)**
+
+- [ ] Story has `## GitHub (tracciamento)` immediately after metadata
+- [ ] At least one real `https://github.com/laraxot/base_fixcity_fila5/issues/N` link
+- [ ] At least one real `https://github.com/laraxot/base_fixcity_fila5/discussions/N` link (or documented org exception)
+- [ ] Module/theme repos touched have issue rows (Fixcity, Cms, Geo, Sixteen, …)
+- [ ] No `___` placeholders left in GitHub table
+- [ ] AC or task includes closing comment on owner issue
+
+Canon: `docs/wiki/bmad/story-github-links-mandatory.md`
+
 ### **Step 1: Load and Understand the Target**
 
 1. **Load the workflow configuration**: `./workflow.md` for variable inclusion
