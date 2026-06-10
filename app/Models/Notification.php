@@ -53,8 +53,6 @@ use Override;
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
  *
- * @mixin IdeHelperNotification
- *
  * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent

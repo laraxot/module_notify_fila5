@@ -27,8 +27,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
  *
- * @mixin IdeHelperMailTemplateLog
- *
  * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
@@ -50,11 +48,13 @@ class MailTemplateLog extends BaseModel
         'clicked_at',
     ];
 
+    /** @return BelongsTo<MailTemplate, $this> */
     public function template(): BelongsTo
     {
         return $this->belongsTo(MailTemplate::class, 'template_id');
     }
 
+    /** @return MorphTo<Model, $this> */
     public function mailable(): MorphTo
     {
         return $this->morphTo();
