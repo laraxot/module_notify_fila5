@@ -28,8 +28,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
  *
- * @mixin IdeHelperNotificationTemplateVersion
- *
  * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
@@ -51,6 +49,7 @@ class NotificationTemplateVersion extends BaseModel
         'change_notes',
     ];
 
+    /** @return BelongsTo<NotificationTemplate, $this> */
     public function template(): BelongsTo
     {
         return $this->belongsTo(NotificationTemplate::class, 'template_id');

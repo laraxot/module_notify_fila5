@@ -82,8 +82,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @method static Builder|Contact whereValue($value)
  * @method static Builder|Contact whereVerifiedAt($value)
  *
- * @mixin Eloquent
- *
  * @property string|null $email
  * @property string|null $mobile_phone
  *
@@ -115,8 +113,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  *
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
- *
- * @mixin IdeHelperContact
  *
  * @property-read ProfileContract|null $deleter
  *

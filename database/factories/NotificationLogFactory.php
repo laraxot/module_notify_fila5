@@ -5,6 +5,9 @@ namespace Modules\Notify\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\NotificationLog;
 
+/**
+ * @extends Factory<NotificationLog>
+ */
 class NotificationLogFactory extends Factory
 {
     /**
@@ -14,6 +17,9 @@ class NotificationLogFactory extends Factory
 
     /**
      * Define the model's default state.
+     */
+    /**
+     * @return array<string, mixed>
      */
     public function definition(): array
     {

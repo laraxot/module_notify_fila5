@@ -13,8 +13,6 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
  *
- * @mixin IdeHelperNotificationType
- *
  * @property int $id
  * @property string $name
  * @property string|null $description
