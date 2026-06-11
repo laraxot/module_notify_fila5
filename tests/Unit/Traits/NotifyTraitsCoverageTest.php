@@ -4,126 +4,119 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Traits;
 
+use Filament\Facades\Filament;
+use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Tests\TestCase;
 use Modules\Notify\Traits\HasNotificationRateLimiting;
 use Modules\Notify\Traits\HasNotificationTracking;
 use Modules\Notify\Traits\HasTenantNotifications;
-use Modules\Tenant\Services\TenantManager;
+use Modules\Tenant\Models\Tenant;
+use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
-function makeNotifyRateLimitDummy(): object
+final class NotifyRateLimitDummy
 {
-    return new class
+    use HasNotificationRateLimiting;
+
+    public function shouldSend(string $key): bool
     {
-        use HasNotificationRateLimiting;
+        return $this->shouldSendNotification($key);
+    }
 
-        public function shouldSend(string $key): bool
-        {
-            return $this->shouldSendNotification($key);
-        }
+    public function retryAfter(string $key): int
+    {
+        return $this->getNotificationRateLimitRetryAfter($key);
+    }
 
-        public function retryAfter(string $key): int
-        {
-            return $this->getNotificationRateLimitRetryAfter($key);
-        }
+    public function remaining(string $key): int
+    {
+        return $this->getNotificationRateLimitRemainingAttempts($key);
+    }
 
-        public function remaining(string $key): int
-        {
-            return $this->getNotificationRateLimitRemainingAttempts($key);
-        }
+    public function reset(string $key): void
+    {
+        $this->resetNotificationRateLimit($key);
+    }
 
-        public function reset(string $key): void
-        {
-            $this->resetNotificationRateLimit($key);
-        }
-
-        public function key(string $type, mixed $identifier): string
-        {
-            return $this->getNotificationRateLimitKey($type, $identifier);
-        }
-    };
+    public function key(string $type, mixed $identifier): string
+    {
+        return $this->getNotificationRateLimitKey($type, $identifier);
+    }
 }
 
-function makeNotifyTrackingDummy(): object
+final class NotifyTrackingDummy
 {
-    return new class
+    use HasNotificationTracking;
+
+    public function addTrackingPublic(string $html, string $id): string
     {
-        use HasNotificationTracking;
+        return $this->addTracking($html, $id);
+    }
 
-        public function addTrackingPublic(string $html, string $id): string
-        {
-            return $this->addTracking($html, $id);
-        }
+    public function trackingId(): string
+    {
+        return $this->generateTrackingId();
+    }
 
-        public function trackingId(): string
-        {
-            return $this->generateTrackingId();
-        }
-
-        public function trackingEnabled(): bool
-        {
-            return $this->isTrackingEnabled();
-        }
-    };
+    public function trackingEnabled(): bool
+    {
+        return $this->isTrackingEnabled();
+    }
 }
 
-function makeNotifyTenantDummy(): object
+final class NotifyTenantDummyModel extends Model
 {
-    return new class
-    {
-        use HasTenantNotifications;
+    use HasTenantNotifications;
 
-        public ?string $tenant_id = null;
-    };
+    protected $table = 'notify_tenant_dummy';
+
+    public ?string $tenant_id = null;
 }
 
-test('notification rate limiting helpers work with limiter', function () {
+test('notification rate limiting helpers work with limiter', function (): void {
     config()->set('notify.rate_limiting.enabled', true);
     config()->set('notify.rate_limiting.max_attempts', 1);
     config()->set('notify.rate_limiting.decay_minutes', 1);
 
-    $dummy = makeNotifyRateLimitDummy();
+    $dummy = new NotifyRateLimitDummy();
     $key = $dummy->key('mail', 'id-'.uniqid());
     $dummy->reset($key);
 
-    expect($dummy->shouldSend($key))->toBeTrue()
-        ->and($dummy->shouldSend($key))->toBeFalse()
-        ->and($dummy->remaining($key))->toBeLessThanOrEqual(0)
-        ->and($dummy->retryAfter($key))->toBeInt();
+    Assert::assertTrue($dummy->shouldSend($key));
+    Assert::assertFalse($dummy->shouldSend($key));
+    Assert::assertLessThanOrEqual(0, $dummy->remaining($key));
+    Assert::assertGreaterThanOrEqual(0, $dummy->retryAfter($key));
 
     $dummy->reset($key);
-    expect($dummy->shouldSend($key))->toBeTrue();
+    Assert::assertTrue($dummy->shouldSend($key));
 });
 
-test('notification tracking returns original html when tracking is disabled', function () {
+test('notification tracking returns original html when tracking is disabled', function (): void {
     config()->set('notify.tracking.enabled', false);
     config()->set('notify.tracking.pixel.enabled', false);
     config()->set('notify.tracking.links.enabled', false);
 
-    $dummy = makeNotifyTrackingDummy();
+    $dummy = new NotifyTrackingDummy();
     $html = '<a href="https://example.com/path">click</a>';
 
     $tracked = $dummy->addTrackingPublic($html, 'track-1');
 
-    expect($tracked)->toBe($html)
-        ->and($dummy->trackingId())->toBeString()
-        ->and($dummy->trackingEnabled())->toBeFalse();
+    Assert::assertSame($html, $tracked);
+    Assert::assertNotSame('', $dummy->trackingId());
+    Assert::assertFalse($dummy->trackingEnabled());
 });
 
-test('tenant notification helpers check tenant ownership', function () {
-    app()->instance(TenantManager::class, new class
-    {
-        public function getTenantId(): string
-        {
-            return 'tenant-42';
-        }
-    });
+test('tenant notification helpers check tenant ownership', function (): void {
+    $tenant = \Mockery::mock(Tenant::class);
+    $tenant->shouldReceive('getKey')->andReturn('tenant-42');
 
-    $dummy = makeNotifyTenantDummy();
+    Filament::shouldReceive('getTenant')->andReturn($tenant);
+
+    $dummy = new NotifyTenantDummyModel();
     $dummy->tenant_id = 'tenant-42';
 
-    expect($dummy->belongsToTenant('tenant-42'))->toBeTrue()
-        ->and($dummy->belongsToCurrentTenant())->toBeTrue()
-        ->and($dummy->belongsToTenant('other-tenant'))->toBeFalse();
+    Assert::assertTrue($dummy->belongsToTenant('tenant-42'));
+    Assert::assertTrue($dummy->belongsToCurrentTenant());
+    Assert::assertFalse($dummy->belongsToTenant('other-tenant'));
 });

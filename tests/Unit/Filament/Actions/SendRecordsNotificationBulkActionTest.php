@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Filament\Actions;
 
+use Closure;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SendRecordsNotificationAction;
@@ -11,20 +12,33 @@ use Modules\Notify\Filament\Actions\SendRecordsNotificationBulkAction;
 use Modules\Notify\Filament\Forms\Components\ChannelCheckboxList;
 use Modules\Notify\Filament\Forms\Components\MailTemplateSelect;
 use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+use ReflectionClass;
 
 uses(TestCase::class);
 
+/**
+ * @param  array<string, mixed>  $attributes
+ */
 function makeDummyNotifyBulkModel(array $attributes = []): Model
 {
     return new class($attributes) extends Model
     {
         protected $guarded = [];
+
+        /**
+         * @param  array<string, mixed>  $attributes
+         */
+        public function __construct(array $attributes = [])
+        {
+            parent::__construct($attributes);
+        }
     };
 }
 
 test('send records notification bulk action exposes expected schema components', function (): void {
     $action = SendRecordsNotificationBulkAction::make();
-    $reflection = new \ReflectionClass($action);
+    $reflection = new ReflectionClass(SendRecordsNotificationBulkAction::class);
     $prop = $reflection->getProperty('schema');
     $prop->setAccessible(true);
     $schemaResolver = $prop->getValue($action);
@@ -37,38 +51,25 @@ test('send records notification bulk action exposes expected schema components',
         $schema = [];
     }
 
-    expect($schema)->toBeArray()
-        ->and($schema)->toHaveKey('mail_template_slug')
-        ->and($schema['mail_template_slug'])->toBeInstanceOf(MailTemplateSelect::class)
-        ->and($schema['mail_template_slug']->getName())->toBe('mail_template_slug')
-        ->and($schema)->toHaveKey('channels')
-        ->and($schema['channels'])->toBeInstanceOf(ChannelCheckboxList::class)
-        ->and($schema['channels']->getName())->toBe('channels');
+    $schema = \assertNotifyArray($schema);
+    Assert::assertArrayHasKey('mail_template_slug', $schema);
+    Assert::assertArrayHasKey('channels', $schema);
+    Assert::assertInstanceOf(MailTemplateSelect::class, $schema['mail_template_slug']);
+    Assert::assertInstanceOf(ChannelCheckboxList::class, $schema['channels']);
+    Assert::assertSame('mail_template_slug', $schema['mail_template_slug']->getName());
+    Assert::assertSame('channels', $schema['channels']->getName());
 });
 
 test('send records notification bulk action delegates to send records action', function (): void {
-    $spy = new class
-    {
-        /** @var array{count: int, slug: string, channels: array<int, string>}|null */
-        public ?array $received = null;
-
-        public function execute(EloquentCollection $records, string $templateSlug, array $channels): void
-        {
-            $this->received = [
-                'count' => $records->count(),
-                'slug' => $templateSlug,
-                'channels' => $channels,
-            ];
-        }
-    };
+    $spy = new SendRecordsNotificationBulkActionSpy;
     app()->instance(SendRecordsNotificationAction::class, $spy);
 
     $action = SendRecordsNotificationBulkAction::make();
-    $reflection = new \ReflectionClass($action);
+    $reflection = new ReflectionClass(SendRecordsNotificationBulkAction::class);
     $prop = $reflection->getProperty('action');
     $prop->setAccessible(true);
-    /** @var Closure(EloquentCollection, array<string, mixed>): void $callback */
     $callback = $prop->getValue($action);
+    Assert::assertInstanceOf(Closure::class, $callback);
 
     $records = new EloquentCollection([
         makeDummyNotifyBulkModel(['id' => 1]),
@@ -80,8 +81,27 @@ test('send records notification bulk action delegates to send records action', f
         'channels' => ['mail', 'sms'],
     ]);
 
-    expect($spy->received)->not->toBeNull()
-        ->and($spy->received['count'])->toBe(2)
-        ->and($spy->received['slug'])->toBe('template-a')
-        ->and($spy->received['channels'])->toBe(['mail', 'sms']);
+    Assert::assertNotNull($spy->received);
+    Assert::assertSame(2, $spy->received['count']);
+    Assert::assertSame('template-a', $spy->received['slug']);
+    Assert::assertSame(['mail', 'sms'], $spy->received['channels']);
 });
+
+final class SendRecordsNotificationBulkActionSpy
+{
+    /** @var array{count: int, slug: string, channels: array<int, string>}|null */
+    public ?array $received = null;
+
+    /**
+     * @param  EloquentCollection<int, Model>  $records
+     * @param  array<int, string>  $channels
+     */
+    public function execute(EloquentCollection $records, string $templateSlug, array $channels): void
+    {
+        $this->received = [
+            'count' => $records->count(),
+            'slug' => $templateSlug,
+            'channels' => $channels,
+        ];
+    }
+}

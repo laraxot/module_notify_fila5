@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Enums;
 
+use PHPUnit\Framework\Assert;
 use Modules\Notify\Enums\TelegramDriverEnum;
 use PHPUnit\Framework\TestCase;
 
@@ -12,52 +13,48 @@ class TelegramDriverEnumTest extends TestCase
     /** @test */
     public function it_has_correct_cases(): void
     {
-        $this->assertCount(3, TelegramDriverEnum::cases());
+        Assert::assertCount(3, TelegramDriverEnum::cases());
 
-        $this->assertEquals('telegram', TelegramDriverEnum::TELEGRAM->value);
-        $this->assertEquals('botapi', TelegramDriverEnum::BOTAPI->value);
-        $this->assertEquals('laravel-telegram', TelegramDriverEnum::LARAVEL_TELEGRAM->value);
+        Assert::assertEquals('telegram', TelegramDriverEnum::TELEGRAM->value);
+        Assert::assertEquals('botapi', TelegramDriverEnum::BOTAPI->value);
+        Assert::assertEquals('laravel-telegram', TelegramDriverEnum::LARAVEL_TELEGRAM->value);
     }
 
     /** @test */
     public function options_returns_correct_array(): void
     {
         $options = TelegramDriverEnum::options();
-
-        $this->assertIsArray($options);
-        $this->assertCount(3, $options);
-        $this->assertEquals('Telegram', $options['telegram']);
-        $this->assertEquals('Bot API', $options['botapi']);
-        $this->assertEquals('Laravel Telegram', $options['laravel-telegram']);
+        Assert::assertCount(3, $options);
+        Assert::assertEquals('Telegram', $options['telegram']);
+        Assert::assertEquals('Bot API', $options['botapi']);
+        Assert::assertEquals('Laravel Telegram', $options['laravel-telegram']);
     }
 
     /** @test */
     public function labels_returns_localized_array(): void
     {
         $labels = TelegramDriverEnum::labels();
-
-        $this->assertIsArray($labels);
-        $this->assertCount(3, $labels);
-        $this->assertArrayHasKey('telegram', $labels);
-        $this->assertArrayHasKey('botapi', $labels);
-        $this->assertArrayHasKey('laravel-telegram', $labels);
+        Assert::assertCount(3, $labels);
+        Assert::assertArrayHasKey('telegram', $labels);
+        Assert::assertArrayHasKey('botapi', $labels);
+        Assert::assertArrayHasKey('laravel-telegram', $labels);
     }
 
     /** @test */
     public function is_supported_returns_true_for_valid_drivers(): void
     {
-        $this->assertTrue(TelegramDriverEnum::isSupported('telegram'));
-        $this->assertTrue(TelegramDriverEnum::isSupported('botapi'));
-        $this->assertTrue(TelegramDriverEnum::isSupported('laravel-telegram'));
+        Assert::assertTrue(TelegramDriverEnum::isSupported('telegram'));
+        Assert::assertTrue(TelegramDriverEnum::isSupported('botapi'));
+        Assert::assertTrue(TelegramDriverEnum::isSupported('laravel-telegram'));
     }
 
     /** @test */
     public function is_supported_returns_false_for_invalid_drivers(): void
     {
-        $this->assertFalse(TelegramDriverEnum::isSupported('invalid'));
-        $this->assertFalse(TelegramDriverEnum::isSupported(''));
-        $this->assertFalse(TelegramDriverEnum::isSupported('TELEGRAM'));
-        $this->assertFalse(TelegramDriverEnum::isSupported('Telegram'));
+        Assert::assertFalse(TelegramDriverEnum::isSupported('invalid'));
+        Assert::assertFalse(TelegramDriverEnum::isSupported(''));
+        Assert::assertFalse(TelegramDriverEnum::isSupported('TELEGRAM'));
+        Assert::assertFalse(TelegramDriverEnum::isSupported('Telegram'));
     }
 
     /** @test */
@@ -65,8 +62,8 @@ class TelegramDriverEnumTest extends TestCase
     {
         $default = TelegramDriverEnum::getDefault();
 
-        $this->assertInstanceOf(TelegramDriverEnum::class, $default);
-        $this->assertContains($default, TelegramDriverEnum::cases());
+        Assert::assertInstanceOf(TelegramDriverEnum::class, $default);
+        Assert::assertContains($default, TelegramDriverEnum::cases());
     }
 
     /** @test */
@@ -75,19 +72,17 @@ class TelegramDriverEnumTest extends TestCase
         $values = array_map(fn ($case) => $case->value, TelegramDriverEnum::cases());
         $uniqueValues = array_unique($values);
 
-        $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
+        Assert::assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
     }
 
     /** @test */
     public function cases_returns_all_enum_instances(): void
     {
         $cases = TelegramDriverEnum::cases();
-
-        $this->assertIsArray($cases);
-        $this->assertCount(3, $cases);
+        Assert::assertCount(3, $cases);
 
         foreach ($cases as $case) {
-            $this->assertInstanceOf(TelegramDriverEnum::class, $case);
+            Assert::assertInstanceOf(TelegramDriverEnum::class, $case);
         }
     }
 
@@ -95,7 +90,6 @@ class TelegramDriverEnumTest extends TestCase
     public function all_cases_have_required_methods(): void
     {
         foreach (TelegramDriverEnum::cases() as $case) {
-            $this->assertIsString($case->value);
         }
     }
 }

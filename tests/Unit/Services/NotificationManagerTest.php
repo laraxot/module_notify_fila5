@@ -5,11 +5,18 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Services;
 
 use Exception;
-use Mockery;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SendNotificationAction;
+use Modules\Notify\Database\Factories\NotificationFactory;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Services\NotificationManager;
-use PHPUnit\Framework\TestCase;
+use Modules\Notify\Tests\TestCase;
+use Modules\User\Database\Factories\UserFactory;
+use Modules\User\Models\User;
+use PHPUnit\Framework\Assert;
 
 class NotificationManagerTest extends TestCase
 {
@@ -21,82 +28,15 @@ class NotificationManagerTest extends TestCase
         $this->notificationManager = new NotificationManager;
     }
 
-    protected function tearDown(): void
-    {
-        Mockery::close();
-        parent::tearDown();
-    }
-
     /** @test */
-    public function it_can_send_notification_to_single_recipient(): void
+    public function it_has_required_methods(): void
     {
-        $recipient = Mockery::mock('Illuminate\Database\Eloquent\Model');
-        $templateCode = 'test_template';
-        $data = ['key' => 'value'];
-        $channels = ['email'];
-        $options = ['priority' => 'high'];
+        $reflection = new \ReflectionClass($this->notificationManager);
 
-        $template = Mockery::mock(NotificationTemplate::class);
-        $template->shouldReceive('getAttribute')->with('code')->andReturn($templateCode);
-
-        $action = Mockery::mock(SendNotificationAction::class);
-        $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
-
-        app()->instance(SendNotificationAction::class, $action);
-
-        $result = $this->notificationManager->send($recipient, $templateCode, $data, $channels, $options);
-
-        $this->assertIsArray($result);
-    }
-
-    /** @test */
-    public function it_can_send_notification_to_multiple_recipients(): void
-    {
-        $recipients = [
-            Mockery::mock('Illuminate\Database\Eloquent\Model'),
-            Mockery::mock('Illuminate\Database\Eloquent\Model'),
-        ];
-        $templateCode = 'test_template';
-        $data = ['key' => 'value'];
-        $channels = ['email'];
-        $options = ['priority' => 'high'];
-
-        $template = Mockery::mock(NotificationTemplate::class);
-        $template->shouldReceive('getAttribute')->with('code')->andReturn($templateCode);
-
-        $action = Mockery::mock(SendNotificationAction::class);
-        $action->shouldReceive('execute')->times(2);
-
-        app()->instance(SendNotificationAction::class, $action);
-
-        $result = $this->notificationManager->sendMultiple($recipients, $templateCode, $data, $channels, $options);
-
-        $this->assertIsArray($result);
-        $this->assertCount(2, $result);
-    }
-
-    /** @test */
-    public function it_can_get_template_by_code(): void
-    {
-        $code = 'test_template';
-
-        $template = Mockery::mock(NotificationTemplate::class);
-        $template->shouldReceive('getAttribute')->with('code')->andReturn($code);
-        $template->shouldReceive('getAttribute')->with('is_active')->andReturn(true);
-
-        $result = $this->notificationManager->getTemplate($code);
-
-        $this->assertNull($result); // Mock non restituisce risultati reali
-    }
-
-    /** @test */
-    public function it_can_get_templates_by_category(): void
-    {
-        $category = 'test_category';
-
-        $result = $this->notificationManager->getTemplatesByCategory($category);
-
-        $this->assertIsObject($result); // Collection
+        Assert::assertTrue($reflection->hasMethod('send'));
+        Assert::assertTrue($reflection->hasMethod('sendMultiple'));
+        Assert::assertTrue($reflection->hasMethod('getTemplate'));
+        Assert::assertTrue($reflection->hasMethod('getTemplatesByCategory'));
     }
 
     /** @test */
@@ -105,50 +45,103 @@ class NotificationManagerTest extends TestCase
         $this->expectException(Exception::class);
         $this->expectExceptionMessage('Template not found: invalid_template');
 
-        $recipient = Mockery::mock('Illuminate\Database\Eloquent\Model');
-        $templateCode = 'invalid_template';
-
-        $this->notificationManager->send($recipient, $templateCode);
+        $recipient = UserFactory::new()->createOne();
+        Assert::assertInstanceOf(Model::class, $recipient);
+        $this->notificationManager->send($recipient, 'invalid_template');
     }
 
     /** @test */
-    public function it_has_required_methods(): void
+    public function it_returns_null_when_template_lookup_misses(): void
     {
-        $this->assertTrue(method_exists($this->notificationManager, 'send'));
-        $this->assertTrue(method_exists($this->notificationManager, 'sendMultiple'));
-        $this->assertTrue(method_exists($this->notificationManager, 'getTemplate'));
-        $this->assertTrue(method_exists($this->notificationManager, 'getTemplatesByCategory'));
+        $result = $this->notificationManager->getTemplate('missing-template-code');
+
+        Assert::assertNull($result);
     }
 
     /** @test */
-    public function it_returns_array_from_send_method(): void
+    public function it_returns_template_when_code_exists(): void
     {
-        $recipient = Mockery::mock('Illuminate\Database\Eloquent\Model');
-        $templateCode = 'test_template';
+        $template = NotificationTemplateFactory::new()->createOne([
+            'code' => 'manager-test-template',
+            'is_active' => true,
+        ]);
 
-        $action = Mockery::mock(SendNotificationAction::class);
-        $action->shouldReceive('execute')->once();
+        $result = $this->notificationManager->getTemplate('manager-test-template');
+
+        Assert::assertInstanceOf(NotificationTemplate::class, $result);
+        Assert::assertSame($template->id, $result->id);
+    }
+
+    /** @test */
+    public function it_returns_collection_from_get_templates_by_category(): void
+    {
+        $result = $this->notificationManager->getTemplatesByCategory('general');
+
+        Assert::assertInstanceOf(Collection::class, $result);
+    }
+
+    /** @test */
+    public function it_can_send_notification_with_mocked_action(): void
+    {
+        NotificationTemplateFactory::new()->createOne([
+            'code' => 'send-test-template',
+            'is_active' => true,
+        ]);
+
+        $recipient = UserFactory::new()->createOne();
+        Assert::assertInstanceOf(Model::class, $recipient);
+        $notification = NotificationFactory::new()->createOne();
+
+        $action = $this->createMock(SendNotificationAction::class);
+        $action->expects($this->once())
+            ->method('handle')
+            ->willReturn($notification);
 
         app()->instance(SendNotificationAction::class, $action);
 
-        $result = $this->notificationManager->send($recipient, $templateCode);
+        $result = $this->notificationManager->send($recipient, 'send-test-template');
 
-        $this->assertIsArray($result);
+        Assert::assertInstanceOf(Notification::class, $result);
     }
 
     /** @test */
-    public function it_returns_array_from_send_multiple_method(): void
+    public function it_returns_notifications_array_from_send_multiple(): void
     {
-        $recipients = [Mockery::mock('Illuminate\Database\Eloquent\Model')];
-        $templateCode = 'test_template';
+        NotificationTemplateFactory::new()->createOne([
+            'code' => 'multi-test-template',
+            'is_active' => true,
+        ]);
 
-        $action = Mockery::mock(SendNotificationAction::class);
-        $action->shouldReceive('execute')->once();
+        $firstRecipient = UserFactory::new()->createOne();
+        $secondRecipient = UserFactory::new()->createOne();
+        Assert::assertInstanceOf(Model::class, $firstRecipient);
+        Assert::assertInstanceOf(Model::class, $secondRecipient);
+
+        /** @var array<int, Model> $recipients */
+        $recipients = [$firstRecipient, $secondRecipient];
+        $notification = NotificationFactory::new()->createOne();
+
+        $action = $this->createMock(SendNotificationAction::class);
+        $action->expects($this->exactly(2))
+            ->method('handle')
+            ->willReturn($notification);
 
         app()->instance(SendNotificationAction::class, $action);
 
-        $result = $this->notificationManager->sendMultiple($recipients, $templateCode);
+        $result = $this->notificationManager->sendMultiple($recipients, 'multi-test-template');
 
-        $this->assertIsArray($result);
+        Assert::assertCount(2, $result);
+        Assert::assertContainsOnlyInstancesOf(Notification::class, $result);
+    }
+
+    /** @test */
+    public function send_method_accepts_model_recipient(): void
+    {
+        $reflection = new \ReflectionClass(NotificationManager::class);
+        $method = $reflection->getMethod('send');
+        $params = $method->getParameters();
+
+        Assert::assertCount(5, $params);
+        \assertReflectionTypeName($params[0]->getType(), Model::class);
     }
 }

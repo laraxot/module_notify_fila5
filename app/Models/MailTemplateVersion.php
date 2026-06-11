@@ -87,7 +87,7 @@ class MailTemplateVersion extends BaseModel
         return $this->belongsTo(MailTemplate::class, 'template_id');
     }
 
-    public function restore(): MailTemplate
+    public function restoreTemplate(): MailTemplate
     {
         $template = $this->template;
 
