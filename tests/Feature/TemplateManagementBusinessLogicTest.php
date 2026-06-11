@@ -6,8 +6,6 @@ namespace Modules\Notify\Tests\Feature;
 
 use Modules\Notify\Tests\TestCase;
 
-uses(TestCase::class);
-
 /**
  * Template Management Business Logic Tests.
  *
@@ -24,6 +22,10 @@ uses(TestCase::class);
  * - NotifyTheme
  * - NotifyThemeable
  */
-test('template management tests need model name corrections', function () {
-    expect(true)->toBeTrue();
-})->skip('Tests use incorrect model names (EmailTemplate instead of MailTemplate)');
+final class TemplateManagementBusinessLogicTest extends TestCase
+{
+    public function testTemplateManagementNeedsModelCorrections(): void
+    {
+        $this->markTestSkipped('Tests use incorrect model names (EmailTemplate instead of MailTemplate)');
+    }
+}

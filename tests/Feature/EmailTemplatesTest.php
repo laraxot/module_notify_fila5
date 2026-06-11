@@ -6,6 +6,7 @@ namespace Modules\Notify\Tests\Feature;
 
 use Illuminate\Support\Facades\File;
 use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
@@ -14,14 +15,14 @@ test('html template contains optional function', function (): void {
     $filePath = base_path('Modules/Notify/resources/views/emails/html.blade.php');
 
     // Verifico che il file esiste
-    $this->assertTrue(File::exists($filePath));
+    Assert::assertTrue(File::exists($filePath));
 
     // Leggo il contenuto del file
     $content = File::get($filePath);
 
     // Verifico che il template supporti subject e body_html
-    $this->assertStringContainsString('subject', $content, 'Il template html.blade.php non gestisce subject');
-    $this->assertStringContainsString('body_html', $content, 'Il template html.blade.php non gestisce body_html');
+    Assert::assertStringContainsString('subject', $content, 'Il template html.blade.php non gestisce subject');
+    Assert::assertStringContainsString('body_html', $content, 'Il template html.blade.php non gestisce body_html');
 
     // Preferito: optional($email_data)->subject / body_html
     // Accettiamo anche fallback su $subject se presente.
@@ -29,8 +30,8 @@ test('html template contains optional function', function (): void {
     $hasOptional = str_contains($content, 'optional(');
     $hasSubjectVar = str_contains($content, '$subject');
 
-    $this->assertTrue($hasEmailData || $hasSubjectVar, 'Il template html.blade.php non gestisce subject via $email_data o $subject');
-    $this->assertTrue($hasOptional, 'Il template html.blade.php non utilizza optional()');
+    Assert::assertTrue($hasEmailData || $hasSubjectVar, 'Il template html.blade.php non gestisce subject via $email_data o $subject');
+    Assert::assertTrue($hasOptional, 'Il template html.blade.php non utilizza optional()');
 });
 
 test('sunny sample template exists', function (): void {
@@ -38,13 +39,13 @@ test('sunny sample template exists', function (): void {
     $filePath = base_path('Modules/Notify/resources/views/emails/samples/sunny.blade.php');
 
     // Verifico che il file esiste
-    $this->assertTrue(File::exists($filePath));
+    Assert::assertTrue(File::exists($filePath));
 
     // Leggo il contenuto del file
     $content = File::get($filePath);
 
     // Smoke: è un sample che estende un template
-    $this->assertStringContainsString('@extends', $content, 'Il template sunny sample non estende un template');
+    Assert::assertStringContainsString('@extends', $content, 'Il template sunny sample non estende un template');
 });
 
 test('ark sample template exists', function (): void {
@@ -52,11 +53,11 @@ test('ark sample template exists', function (): void {
     $filePath = base_path('Modules/Notify/resources/views/emails/samples/ark.blade.php');
 
     // Verifico che il file esiste
-    $this->assertTrue(File::exists($filePath));
+    Assert::assertTrue(File::exists($filePath));
 
     // Leggo il contenuto del file
     $content = File::get($filePath);
 
     // Smoke: è un sample che estende un template
-    $this->assertStringContainsString('@extends', $content, 'Il template ark sample non estende un template');
+    Assert::assertStringContainsString('@extends', $content, 'Il template ark sample non estende un template');
 });

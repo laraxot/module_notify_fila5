@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Unit\Actions;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Actions\SendAppointmentNotificationAction;
 use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
@@ -18,5 +19,5 @@ test('send appointment notification returns false and logs info when models are 
         type: 'reminder',
     );
 
-    expect($result)->toBeFalse();
+    Assert::assertFalse($result);
 });
