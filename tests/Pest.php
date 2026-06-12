@@ -27,7 +27,7 @@ use function Safe\file_get_contents;
  */
 function assertNotifyTableHas(string $table, array $where): void
 {
-    $query = DB::table($table);
+    $query = DB::connection('notify')->table($table);
 
     foreach ($where as $column => $value) {
         $query->where((string) $column, $value);
@@ -41,7 +41,7 @@ function assertNotifyTableHas(string $table, array $where): void
  */
 function assertNotifyTableMissing(string $table, array $where): void
 {
-    $query = DB::table($table);
+    $query = DB::connection('notify')->table($table);
 
     foreach ($where as $column => $value) {
         $query->where((string) $column, $value);

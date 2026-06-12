@@ -102,6 +102,9 @@ test('email data notification exposes mail channel and array payload', function 
     Assert::assertEquals([
         'recipient' => 'recipient@example.test',
         'subject' => 'Subject',
+        'from' => 'Sender Name',
+        'from_email' => 'from@example.test',
+        'body' => 'Body',
     ], \assertNotifyArray($notification->toArray(new \stdClass)));
 });
 
@@ -150,8 +153,8 @@ test('theme notification returns channels and array payload', function () {
 
     Assert::assertSame(['mail', 'sms'], $notification->via($notifiable));
     Assert::assertSame([
-        '_name' => 'welcome-email',
         'foo' => 'bar',
+        '_name' => 'welcome-email',
     ], $notification->toArray($notifiable));
     Assert::assertTrue(in_array(Queueable::class, class_uses($notification), true));
 });

@@ -2,46 +2,43 @@
 
 declare(strict_types=1);
 
+namespace Modules\Notify\Tests\Feature;
+
 use Illuminate\Support\Facades\File;
 use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+use function Safe\json_decode;
 
-test('components json is valid and contains expected components', function (): void {
-    // Percorso del file
-    $filePath = base_path('Modules/Notify/app/Console/Commands/_components.json');
+final class JsonComponentTest extends TestCase
+{
+    public function test_components_json_is_valid_and_contains_expected_components(): void
+    {
+        $filePath = base_path('Modules/Notify/app/Console/Commands/_components.json');
 
-    // Verifico che il file esiste
-    expect(File::exists($filePath))->toBeTrue('Il file _components.json non esiste');
+        Assert::assertTrue(File::exists($filePath), 'Il file _components.json non esiste');
 
-    // Leggo il contenuto del file
-    $content = File::get($filePath);
+        $content = File::get($filePath);
+        /** @var array<int, array<string, string>> $json */
+        $json = json_decode($content, true);
 
-    // Decodifico il JSON
-    $json = json_decode($content, true);
+        Assert::assertNotNull($json, 'Il file _components.json non contiene JSON valido');
+        Assert::assertCount(2, $json, 'Il file _components.json non contiene i 2 componenti attesi');
 
-    // Verifico che il JSON è valido
-    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
+        Assert::assertArrayHasKey('name', $json[0], 'Il primo componente non ha una chiave "name"');
+        Assert::assertArrayHasKey('class', $json[0], 'Il primo componente non ha una chiave "class"');
+        Assert::assertArrayHasKey('ns', $json[0], 'Il primo componente non ha una chiave "ns"');
 
-    // Verifico che ci sono 2 componenti
-    expect($json)->toHaveCount(2, 'Il file _components.json non contiene i 2 componenti attesi');
+        Assert::assertArrayHasKey('name', $json[1], 'Il secondo componente non ha una chiave "name"');
+        Assert::assertArrayHasKey('class', $json[1], 'Il secondo componente non ha una chiave "class"');
+        Assert::assertArrayHasKey('ns', $json[1], 'Il secondo componente non ha una chiave "ns"');
 
-    // Verifico che ci sono i componenti SendMailCommand e TelegramWebhook
-    expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
-    expect($json[0])->toHaveKey('class', 'Il primo componente non ha una chiave "class"');
-    expect($json[0])->toHaveKey('ns', 'Il primo componente non ha una chiave "ns"');
+        $names = array_column($json, 'name');
+        Assert::assertContains('send-mail-command', $names, 'Componente "send-mail-command" non trovato');
+        Assert::assertContains('telegram-webhook', $names, 'Componente "telegram-webhook" non trovato');
 
-    expect($json[1])->toHaveKey('name', 'Il secondo componente non ha una chiave "name"');
-    expect($json[1])->toHaveKey('class', 'Il secondo componente non ha una chiave "class"');
-    expect($json[1])->toHaveKey('ns', 'Il secondo componente non ha una chiave "ns"');
-
-    // Verifico i nomi specifici dei componenti
-    $names = array_column($json, 'name');
-    expect($names)->toContain('send-mail-command', 'Componente "send-mail-command" non trovato');
-    expect($names)->toContain('telegram-webhook', 'Componente "telegram-webhook" non trovato');
-
-    // Verifico le classi specifiche dei componenti
-    $classes = array_column($json, 'class');
-    expect($classes)->toContain('SendMailCommand', 'Classe "SendMailCommand" non trovata');
-    expect($classes)->toContain('TelegramWebhook', 'Classe "TelegramWebhook" non trovata');
-});
+        $classes = array_column($json, 'class');
+        Assert::assertContains('SendMailCommand', $classes, 'Classe "SendMailCommand" non trovata');
+        Assert::assertContains('TelegramWebhook', $classes, 'Classe "TelegramWebhook" non trovata');
+    }
+}
