@@ -2,62 +2,62 @@
 
 declare(strict_types=1);
 
+namespace Modules\Notify\Tests\Feature;
+
 use Illuminate\Support\Facades\File;
 use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+final class EmailTemplatesTest extends TestCase
+{
+    public function test_html_template_contains_optional_function(): void
+    {
+        $filePath = base_path('Modules/Notify/resources/views/emails/html.blade.php');
 
-test('html template contains optional function', function (): void {
-    // Percorso del file
-    $filePath = base_path('Modules/Notify/resources/views/emails/html.blade.php');
+        Assert::assertTrue(File::exists($filePath), 'Il file html.blade.php non esiste');
 
-    // Verifico che il file esiste
-    expect(File::exists($filePath))->toBeTrue('Il file html.blade.php non esiste');
+        $content = File::get($filePath);
 
-    // Leggo il contenuto del file
-    $content = File::get($filePath);
+        Assert::assertStringContainsString(
+            'optional($email_data)->subject',
+            $content,
+            'Il template html.blade.php non utilizza optional() per subject',
+        );
 
-    // Verifico che contiene la funzione optional per subject
-    expect($content)
-        ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
-
-    // Verifico che contiene la funzione optional per body_html
-    expect($content)
-        ->toContain(
+        Assert::assertStringContainsString(
             'optional($email_data)->body_html',
+            $content,
             'Il template html.blade.php non utilizza optional() per body_html',
         );
-});
+    }
 
-test('sunny template contains optional function', function (): void {
-    // Percorso del file
-    $filePath = base_path('Modules/Notify/resources/views/emails/templates/sunny.blade.php');
+    public function test_sunny_template_contains_optional_function(): void
+    {
+        $filePath = base_path('Modules/Notify/resources/views/emails/templates/sunny.blade.php');
 
-    // Verifico che il file esiste
-    expect(File::exists($filePath))->toBeTrue('Il file sunny.blade.php non esiste');
+        Assert::assertTrue(File::exists($filePath), 'Il file sunny.blade.php non esiste');
 
-    // Leggo il contenuto del file
-    $content = File::get($filePath);
+        $content = File::get($filePath);
 
-    // Verifico che contiene la funzione optional per cssInLine
-    expect($content)
-        ->toContain(
+        Assert::assertStringContainsString(
             'optional($_theme)->cssInLine',
+            $content,
             'Il template sunny.blade.php non utilizza optional() per cssInLine',
         );
-});
+    }
 
-test('ark template contains optional function', function (): void {
-    // Percorso del file
-    $filePath = base_path('Modules/Notify/resources/views/emails/templates/ark.blade.php');
+    public function test_ark_template_contains_optional_function(): void
+    {
+        $filePath = base_path('Modules/Notify/resources/views/emails/templates/ark.blade.php');
 
-    // Verifico che il file esiste
-    expect(File::exists($filePath))->toBeTrue('Il file ark.blade.php non esiste');
+        Assert::assertTrue(File::exists($filePath), 'Il file ark.blade.php non esiste');
 
-    // Leggo il contenuto del file
-    $content = File::get($filePath);
+        $content = File::get($filePath);
 
-    // Verifico che contiene la funzione optional per cssInLine
-    expect($content)
-        ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
-});
+        Assert::assertStringContainsString(
+            'optional($_theme)->cssInLine',
+            $content,
+            'Il template ark.blade.php non utilizza optional() per cssInLine',
+        );
+    }
+}

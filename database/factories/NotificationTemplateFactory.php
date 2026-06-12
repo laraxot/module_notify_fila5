@@ -6,6 +6,7 @@ namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\NotificationTemplate;
+use function Safe\json_encode;
 
 /**
  * @extends Factory<NotificationTemplate>

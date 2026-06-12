@@ -20,8 +20,6 @@ describe('Contact Management Business Logic', function () {
             'value' => 'mario.rossi@example.com',
             'first_name' => 'Mario',
             'last_name' => 'Rossi',
-            'email' => 'mario.rossi@example.com',
-            'mobile_phone' => '+39 123 456 7890',
         ];
 
         $contact = ContactFactory::new()->createOne($contactData);
