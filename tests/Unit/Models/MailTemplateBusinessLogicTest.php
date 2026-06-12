@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
+use ReflectionClass;
 
 use Mockery;
 use function Safe\class_uses;
@@ -12,7 +13,6 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-use ReflectionClass;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 

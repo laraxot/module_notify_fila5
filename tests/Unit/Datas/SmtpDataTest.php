@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Datas;
-
 use ReflectionClass;
+
 use Modules\Notify\Datas\SmtpData;
 use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;

@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Actions\NotifyTheme\Attachment;
+use ReflectionClass;
 
 use Modules\Notify\Tests\TestCase;
 use function Safe\file_get_contents;
-use ReflectionClass;
 use Modules\Notify\Actions\NotifyTheme\Attachment\Pdf;
 use Modules\Notify\Datas\AttachmentData;
 use PHPUnit\Framework\Assert;

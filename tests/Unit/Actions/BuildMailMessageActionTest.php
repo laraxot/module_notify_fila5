@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Actions;
+use ReflectionClass;
 
 use Modules\Notify\Tests\TestCase;
 use function Safe\file_get_contents;
-use ReflectionClass;
 use function Safe\class_uses;
 use Illuminate\Notifications\Messages\MailMessage;
 use Modules\Notify\Actions\BuildMailMessageAction;

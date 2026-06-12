@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Datas;
+use ReflectionClass;
 
 use Modules\Notify\Datas\EmailData;
 use PHPUnit\Framework\Assert;
-use ReflectionClass;
 use Spatie\LaravelData\Data;
 
 describe('EmailData', function () {

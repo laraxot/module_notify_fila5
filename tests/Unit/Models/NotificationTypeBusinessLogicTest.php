@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
-
 use ReflectionClass;
+
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Models\NotificationType;
 use Modules\Notify\Tests\TestCase;
