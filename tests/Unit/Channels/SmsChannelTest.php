@@ -3,9 +3,9 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Channels;
+use ReflectionClass;
 
 use function Safe\file_get_contents;
-use ReflectionClass;
 use Modules\Notify\Channels\SmsChannel;
 
 use PHPUnit\Framework\Assert;

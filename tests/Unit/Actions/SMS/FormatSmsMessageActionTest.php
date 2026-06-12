@@ -3,12 +3,12 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Actions\SMS;
+use ReflectionClass;
 
 use function Safe\file_get_contents;
 use Modules\Notify\Actions\SMS\FormatSmsMessageAction;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-use ReflectionClass;
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\class_uses;

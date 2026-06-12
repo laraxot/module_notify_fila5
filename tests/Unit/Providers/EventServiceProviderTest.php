@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Providers;
-
 use ReflectionClass;
+
 use Modules\Notify\Providers\EventServiceProvider;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;

@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Actions\WhatsApp;
+use ReflectionClass;
 
 use Modules\Notify\Tests\TestCase;
 use function Safe\file_get_contents;
-use ReflectionClass;
 use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
 use Modules\Notify\Datas\WhatsAppData;
 use PHPUnit\Framework\Assert;
