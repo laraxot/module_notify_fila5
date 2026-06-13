@@ -3,15 +3,13 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Datas;
-use ReflectionClass;
-
 use Modules\Notify\Datas\EmailData;
 use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
 describe('EmailData', function () {
     it('can be instantiated via reflection without constructor', function () {
-        $reflection = new ReflectionClass(EmailData::class);
+        $reflection = new \ReflectionClass(EmailData::class);
 
         Assert::assertTrue($reflection->isInstantiable());
     });
@@ -21,7 +19,7 @@ describe('EmailData', function () {
     });
 
     it('has required properties', function () {
-        $propertyNames = \notifyReflectionPropertyNames(new ReflectionClass(EmailData::class));
+        $propertyNames = \notifyReflectionPropertyNames(new \ReflectionClass(EmailData::class));
 
         \assertListContains('recipient', $propertyNames);
         \assertListContains('from', $propertyNames);
@@ -33,31 +31,31 @@ describe('EmailData', function () {
     });
 
     it('extends Spatie Data', function () {
-        $reflection = new ReflectionClass(EmailData::class);
+        $reflection = new \ReflectionClass(EmailData::class);
 
         Assert::assertTrue($reflection->isSubclassOf(Data::class));
     });
 
     it('has getFrom method', function () {
-        $reflection = new ReflectionClass(EmailData::class);
+        $reflection = new \ReflectionClass(EmailData::class);
 
         Assert::assertTrue($reflection->hasMethod('getFrom'));
     });
 
     it('has getMimeEmail method', function () {
-        $reflection = new ReflectionClass(EmailData::class);
+        $reflection = new \ReflectionClass(EmailData::class);
 
         Assert::assertTrue($reflection->hasMethod('getMimeEmail'));
     });
 
     it('has from method', function () {
-        $reflection = new ReflectionClass(EmailData::class);
+        $reflection = new \ReflectionClass(EmailData::class);
 
         Assert::assertTrue($reflection->hasMethod('from'));
     });
 
     it('can create via static from method with valid data', function () {
-        $reflection = new ReflectionClass(EmailData::class);
+        $reflection = new \ReflectionClass(EmailData::class);
         $fromMethod = $reflection->getMethod('from');
         Assert::assertTrue($fromMethod->isStatic());
     });

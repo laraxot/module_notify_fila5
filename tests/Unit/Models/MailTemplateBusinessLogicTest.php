@@ -3,8 +3,6 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
-use ReflectionClass;
-
 use Mockery;
 use function Safe\class_uses;
 use Illuminate\Contracts\Mail\Mailable;
@@ -20,7 +18,7 @@ uses(TestCase::class);
 
 describe('MailTemplate Business Logic', function () {
     test('mail template extends spatie mail template', function () {
-        Assert::assertTrue((new ReflectionClass(MailTemplate::class))->isSubclassOf(\Spatie\MailTemplates\Models\MailTemplate::class));
+        Assert::assertTrue((new \ReflectionClass(MailTemplate::class))->isSubclassOf(\Spatie\MailTemplates\Models\MailTemplate::class));
     });
 
     test('mail template has slug trait for url-friendly names', function () {

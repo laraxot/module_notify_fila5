@@ -3,8 +3,6 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Actions\Mail;
-use ReflectionClass;
-
 use function Safe\file_get_contents;
 use function Safe\class_uses;
 use Modules\Notify\Actions\Mail\GetMailLayoutAction;

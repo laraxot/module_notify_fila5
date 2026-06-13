@@ -5,65 +5,17 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Modules\Notify\Models\BaseMorphPivot;
-use Modules\Notify\Models\BasePivot;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
-use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Tests\Fixtures\NotifyBaseMorphPivotProxy;
+use Modules\Notify\Tests\Fixtures\NotifyBasePivotProxy;
+use Modules\Notify\Tests\Fixtures\NotifyNotificationTemplateProxy;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
-
-final class NotifyBaseMorphPivotProxy extends BaseMorphPivot
-{
-    protected $table = 'notify_base_morph_pivot_proxy';
-
-    /** @return array<string, string> */
-    public function exposedCasts(): array
-    {
-        /** @var array<string, string> $casts */
-        $casts = $this->getCasts();
-
-        return $casts;
-    }
-}
-
-final class NotifyBasePivotProxy extends BasePivot
-{
-    protected $table = 'notify_base_pivot_proxy';
-
-    /** @return array<string, string> */
-    public function exposedCasts(): array
-    {
-        /** @var array<string, string> $casts */
-        $casts = $this->getCasts();
-
-        return $casts;
-    }
-}
-
-final class NotifyNotificationTemplateProxy extends NotificationTemplate
-{
-    /**
-     * @param  array<string, mixed>  $data
-     */
-    public function exposedCompileString(?string $template, array $data): ?string
-    {
-        return $this->compileString($template, $data);
-    }
-
-    /** @return array<string, string> */
-    public function exposedCasts(): array
-    {
-        /** @var array<string, string> $casts */
-        $casts = $this->getCasts();
-
-        return $casts;
-    }
-}
 
 function makeNotifyBaseMorphPivotProxy(): NotifyBaseMorphPivotProxy
 {

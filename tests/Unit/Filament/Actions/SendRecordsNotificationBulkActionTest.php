@@ -3,8 +3,6 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Filament\Actions;
-use ReflectionClass;
-
 use Closure;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
@@ -12,6 +10,7 @@ use Modules\Notify\Actions\SendRecordsNotificationAction;
 use Modules\Notify\Filament\Actions\SendRecordsNotificationBulkAction;
 use Modules\Notify\Filament\Forms\Components\ChannelCheckboxList;
 use Modules\Notify\Filament\Forms\Components\MailTemplateSelect;
+use Modules\Notify\Tests\Fixtures\SendRecordsNotificationBulkActionSpy;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
@@ -38,7 +37,7 @@ function makeDummyNotifyBulkModel(array $attributes = []): Model
 
 test('send records notification bulk action exposes expected schema components', function (): void {
     $action = SendRecordsNotificationBulkAction::make();
-    $reflection = new ReflectionClass(SendRecordsNotificationBulkAction::class);
+    $reflection = new \ReflectionClass(SendRecordsNotificationBulkAction::class);
     $prop = $reflection->getProperty('schema');
     $prop->setAccessible(true);
     $schemaResolver = $prop->getValue($action);
@@ -65,7 +64,7 @@ test('send records notification bulk action delegates to send records action', f
     app()->instance(SendRecordsNotificationAction::class, $spy);
 
     $action = SendRecordsNotificationBulkAction::make();
-    $reflection = new ReflectionClass(SendRecordsNotificationBulkAction::class);
+    $reflection = new \ReflectionClass(SendRecordsNotificationBulkAction::class);
     $prop = $reflection->getProperty('action');
     $prop->setAccessible(true);
     $callback = $prop->getValue($action);
@@ -86,22 +85,3 @@ test('send records notification bulk action delegates to send records action', f
     Assert::assertSame('template-a', $spy->received['slug']);
     Assert::assertSame(['mail', 'sms'], $spy->received['channels']);
 });
-
-final class SendRecordsNotificationBulkActionSpy
-{
-    /** @var array{count: int, slug: string, channels: array<int, string>}|null */
-    public ?array $received = null;
-
-    /**
-     * @param  EloquentCollection<int, Model>  $records
-     * @param  array<int, string>  $channels
-     */
-    public function execute(EloquentCollection $records, string $templateSlug, array $channels): void
-    {
-        $this->received = [
-            'count' => $records->count(),
-            'slug' => $templateSlug,
-            'channels' => $channels,
-        ];
-    }
-}
