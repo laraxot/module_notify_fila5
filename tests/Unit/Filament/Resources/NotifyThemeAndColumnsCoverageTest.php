@@ -15,24 +15,14 @@ use Filament\Tables\Columns\ViewColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\ListNotificationTemplates;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
-use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
+use Modules\Notify\Tests\Fixtures\EditNotifyThemeTestProxy;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers\LinkableRelationManager;
 use Modules\Notify\Filament\Tables\Columns\ContactColumn;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
-
-
-final class EditNotifyThemeTestProxy extends EditNotifyTheme
-{
-    /** @return array<string, mixed> */
-    public function exposedHeaderActions(): array
-    {
-        return $this->getHeaderActions();
-    }
-}
 
 function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 {

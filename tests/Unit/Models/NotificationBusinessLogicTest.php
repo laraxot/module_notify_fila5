@@ -3,8 +3,6 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
-use ReflectionClass;
-
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;

@@ -3,8 +3,6 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Filament\Resources;
-use ReflectionClass;
-
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\DeleteAction;
@@ -21,16 +19,16 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\ContactResource;
-use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\ListMailTemplates;
-use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\PreviewMailTemplate;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Notify\Filament\Resources\NotificationResource\Pages\ListNotifications;
-use Modules\Notify\Filament\Resources\NotificationResource\Pages\ViewNotification;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Modules\Notify\Tests\Fixtures\EditContactTestProxy;
+use Modules\Notify\Tests\Fixtures\PreviewMailTemplateTestProxy;
+use Modules\Notify\Tests\Fixtures\ViewNotificationTestProxy;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
@@ -38,40 +36,6 @@ use function Safe\file_put_contents;
 use function Safe\mkdir;
 
 uses(TestCase::class);
-
-
-final class EditContactTestProxy extends EditContact
-{
-    /** @return array<string, mixed> */
-    public function exposedHeaderActions(): array
-    {
-        return $this->getHeaderActions();
-    }
-}
-
-final class PreviewMailTemplateTestProxy extends PreviewMailTemplate
-{
-    /** @return array<int, mixed> */
-    public function exposedHeaderActions(): array
-    {
-        /** @var array<int, mixed> $actions */
-        $actions = $this->getHeaderActions();
-
-        return $actions;
-    }
-}
-
-final class ViewNotificationTestProxy extends ViewNotification
-{
-    /** @return array<int, mixed> */
-    public function exposedInfolistSchema(): array
-    {
-        /** @var array<int, mixed> $schema */
-        $schema = $this->getInfolistSchema();
-
-        return $schema;
-    }
-}
 
 function makeEditContactTestProxy(): EditContactTestProxy
 {

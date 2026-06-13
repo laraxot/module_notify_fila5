@@ -3,8 +3,6 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Channels;
-use ReflectionClass;
-
 use function Safe\file_get_contents;
 use Modules\Notify\Channels\NetfunChannel;
 

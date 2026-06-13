@@ -3,8 +3,6 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Enums;
-use ReflectionClass;
-
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
@@ -33,7 +31,7 @@ it('implements filament contracts', function (): void {
 });
 
 it('has enum trait', function (): void {
-    $reflection = new ReflectionClass(SmsDriverEnum::class);
+    $reflection = new \ReflectionClass(SmsDriverEnum::class);
     $traits = $reflection->getTraitNames();
 
     Assert::assertContains('Modules\\Xot\\Traits\\EnumTrait', $traits);

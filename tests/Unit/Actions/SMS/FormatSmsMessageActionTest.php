@@ -3,8 +3,6 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Actions\SMS;
-use ReflectionClass;
-
 use function Safe\file_get_contents;
 use Modules\Notify\Actions\SMS\FormatSmsMessageAction;
 use Modules\Notify\Tests\TestCase;
@@ -25,7 +23,7 @@ describe('FormatSmsMessageAction', function () {
     it('has execute method with correct signature', function () {
                 $action = new FormatSmsMessageAction;
 
-        $reflection = new ReflectionClass($action);
+        $reflection = new \ReflectionClass($action);
         $method = $reflection->getMethod('execute');
 
         Assert::assertTrue($method->isPublic());
@@ -35,7 +33,7 @@ describe('FormatSmsMessageAction', function () {
     it('execute accepts string parameter', function () {
                 $action = new FormatSmsMessageAction;
 
-        $reflection = new ReflectionClass($action);
+        $reflection = new \ReflectionClass($action);
         $method = $reflection->getMethod('execute');
         $params = $method->getParameters();
 
@@ -45,7 +43,7 @@ describe('FormatSmsMessageAction', function () {
     it('execute returns array', function () {
                 $action = new FormatSmsMessageAction;
 
-        $reflection = new ReflectionClass($action);
+        $reflection = new \ReflectionClass($action);
         $method = $reflection->getMethod('execute');
         $returnType = $method->getReturnType();
 
@@ -55,7 +53,7 @@ describe('FormatSmsMessageAction', function () {
     it('uses strict types', function () {
                 $action = new FormatSmsMessageAction;
 
-        $reflection = new ReflectionClass($action);
+        $reflection = new \ReflectionClass($action);
         $content = \notifyReflectionSource($reflection);
         Assert::assertStringContainsString('declare(strict_types=1)', (string) $content);
     });
@@ -63,7 +61,7 @@ describe('FormatSmsMessageAction', function () {
     it('has correct namespace', function () {
                 $action = new FormatSmsMessageAction;
 
-        $reflection = new ReflectionClass($action);
+        $reflection = new \ReflectionClass($action);
 
         Assert::assertSame('Modules\Notify\Actions\SMS', $reflection->getNamespaceName());
     });
@@ -71,7 +69,7 @@ describe('FormatSmsMessageAction', function () {
     it('has required imports', function () {
                 $action = new FormatSmsMessageAction;
 
-        $reflection = new ReflectionClass($action);
+        $reflection = new \ReflectionClass($action);
         $content = \notifyReflectionSource($reflection);
         Assert::assertStringContainsString('declare(strict_types=1)', $content);
     });

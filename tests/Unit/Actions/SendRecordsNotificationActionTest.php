@@ -8,6 +8,12 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SendRecordNotificationAction;
 use Modules\Notify\Actions\SendRecordsNotificationAction;
+use Modules\Notify\Tests\Fixtures\SendRecordNotificationFailStub;
+use Modules\Notify\Tests\Fixtures\SendRecordNotificationNoopStub;
+use Modules\Notify\Tests\Fixtures\SendRecordNotificationThrowStub;
+use Modules\Notify\Tests\Fixtures\SendRecordsNotificationRecordDummy;
+use Modules\Notify\Tests\Fixtures\SendRecordsSafeEloquentCastEmptyStub;
+use Modules\Notify\Tests\Fixtures\SendRecordsSafeEloquentCastStub;
 use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 use PHPUnit\Framework\Assert;
@@ -82,66 +88,3 @@ test('send records notification action falls back to record key when name is mis
     Assert::assertSame(1, $result->errorCount);
     Assert::assertSame('99', $result->errors->first()['record'] ?? null);
 });
-
-final class SendRecordsNotificationRecordDummy extends Model
-{
-    protected $guarded = [];
-
-    /**
-     * @param  array<string, mixed>  $attributes
-     */
-    public function __construct(array $attributes = [])
-    {
-        parent::__construct($attributes);
-    }
-}
-
-final class SendRecordsSafeEloquentCastStub
-{
-    public function getStringAttribute(Model $record, string $attribute, string $default = ''): string
-    {
-        $value = $record->getAttribute($attribute);
-
-        return is_string($value) ? $value : $default;
-    }
-}
-
-final class SendRecordsSafeEloquentCastEmptyStub
-{
-    public function getStringAttribute(Model $record, string $attribute, string $default = ''): string
-    {
-        return '';
-    }
-}
-
-final class SendRecordNotificationNoopStub
-{
-    /**
-     * @param  array<int, string>  $channels
-     */
-    public function execute(Model $record, string $templateSlug, array $channels): void {}
-}
-
-final class SendRecordNotificationFailStub
-{
-    /**
-     * @param  array<int, string>  $channels
-     */
-    public function execute(Model $record, string $templateSlug, array $channels): void
-    {
-        if ((bool) $record->getAttribute('should_fail')) {
-            throw new \Exception('bulk failure');
-        }
-    }
-}
-
-final class SendRecordNotificationThrowStub
-{
-    /**
-     * @param  array<int, string>  $channels
-     */
-    public function execute(Model $record, string $templateSlug, array $channels): void
-    {
-        throw new \Exception('forced error');
-    }
-}
