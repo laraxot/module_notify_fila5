@@ -11,12 +11,11 @@ use Modules\Notify\Models\MailTemplateVersion;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-class MailTemplateVersionBusinessLogicTest extends TestCase
-{
-    /** @test */
-    public function it_can_create_mail_template_version_with_basic_information(): void
-    {
-        $template = MailTemplateFactory::new()->createOne();
+uses(\Modules\Notify\Tests\TestCase::class);
+
+describe('Mail Template Version Business Logic', function (): void {
+    test('_can_create_mail_template_version_with_basic_information', function (): void {
+$template = MailTemplateFactory::new()->createOne();
 
         $version = MailTemplateVersionFactory::new()->createOne([
             'template_id' => $template->id,
@@ -35,24 +34,20 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         Assert::assertSame(2, $version->version);
         Assert::assertStringContainsString('{{patient_name}}', $version->html_template);
         Assert::assertSame('Aggiornamento copy', $version->change_notes);
-    }
+    });
 
-    /** @test */
-    public function it_can_manage_mail_template_version_relationships(): void
-    {
-        $template = MailTemplateFactory::new()->createOne();
+    test('_can_manage_mail_template_version_relationships', function (): void {
+$template = MailTemplateFactory::new()->createOne();
         $version = MailTemplateVersionFactory::new()->createOne([
             'template_id' => $template->id,
         ]);
 
         Assert::assertInstanceOf(MailTemplate::class, $version->template);
         Assert::assertSame($template->id, $version->template->id);
-    }
+    });
 
-    /** @test */
-    public function it_can_store_metadata_on_mail_template_version(): void
-    {
-        $template = MailTemplateFactory::new()->createOne();
+    test('_can_store_metadata_on_mail_template_version', function (): void {
+$template = MailTemplateFactory::new()->createOne();
         $metadata = [
             'author' => 'admin@example.com',
             'review_status' => 'approved',
@@ -68,12 +63,10 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         $fresh = $version->fresh();
         Assert::assertInstanceOf(MailTemplateVersion::class, $fresh);
         Assert::assertSame('approved', \assertNotifyArray($fresh->metadata)['review_status']);
-    }
+    });
 
-    /** @test */
-    public function it_can_update_template_content_from_version_fields(): void
-    {
-        $template = MailTemplateFactory::new()->createOne([
+    test('_can_update_template_content_from_version_fields', function (): void {
+$template = MailTemplateFactory::new()->createOne([
             'subject' => 'Versione Corrente',
             'html_template' => '<p>Template corrente</p>',
             'text_template' => 'Template corrente',
@@ -97,5 +90,5 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         Assert::assertInstanceOf(MailTemplate::class, $freshTemplate);
         Assert::assertSame('Versione Precedente', $freshTemplate->subject);
         Assert::assertSame('<p>Template versione precedente</p>', $freshTemplate->html_template);
-    }
-}
+    });
+});

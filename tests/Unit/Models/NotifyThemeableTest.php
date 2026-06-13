@@ -7,21 +7,19 @@ namespace Modules\Notify\Tests\Unit\Models;
 use PHPUnit\Framework\Assert;
 use Modules\Notify\Models\NotifyThemeable;
 use Modules\Notify\Tests\TestCase;
+use function Pest\Laravel\get;
 
-class NotifyThemeableTest extends TestCase
-{
-    // DatabaseTransactions is already used in the module TestCase
+uses(\Modules\Notify\Tests\TestCase::class);
 
-    protected function setUp(): void
-    {
-        parent::setUp();
-        $this->withoutExceptionHandling();
-    }
+beforeEach(function (): void {
+    /** @var \Modules\Notify\Tests\TestCase $this */
+$this->disableExceptionHandling();
+});
 
-    /** @test */
-    public function it_can_create_notify_themeable(): void
-    {
-        $themeable = NotifyThemeable::create([
+describe('Notify Themeable', function (): void {
+    test('_can_create_notify_themeable', function (): void {
+        /** @var \Modules\Notify\Tests\TestCase $this */
+$themeable = NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
@@ -34,12 +32,10 @@ class NotifyThemeableTest extends TestCase
         ]);
 
         Assert::assertInstanceOf(NotifyThemeable::class, $themeable);
-    }
+    });
 
-    /** @test */
-    public function it_can_create_with_created_by_and_updated_by(): void
-    {
-        $themeable = NotifyThemeable::create([
+    test('_can_create_with_created_by_and_updated_by', function (): void {
+$themeable = NotifyThemeable::create([
             'model_type' => 'App\Models\Company',
             'model_id' => 789,
             'notify_theme_id' => 101,
@@ -57,12 +53,10 @@ class NotifyThemeableTest extends TestCase
 
         Assert::assertEquals('user_123', $themeable->created_by);
         Assert::assertEquals('user_123', $themeable->updated_by);
-    }
+    });
 
-    /** @test */
-    public function it_can_update_notify_themeable(): void
-    {
-        $themeable = NotifyThemeable::create([
+    test('_can_update_notify_themeable', function (): void {
+$themeable = NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
@@ -80,12 +74,10 @@ class NotifyThemeableTest extends TestCase
 
         Assert::assertEquals(789, \assertFreshModel($themeable, \Modules\Notify\Models\NotifyThemeable::class)->notify_theme_id);
         Assert::assertEquals('user_456', \assertFreshModel($themeable, \Modules\Notify\Models\NotifyThemeable::class)->updated_by);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_model_type_and_id(): void
-    {
-        $themeable = NotifyThemeable::create([
+    test('_can_find_by_model_type_and_id', function (): void {
+$themeable = NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
@@ -98,12 +90,10 @@ class NotifyThemeableTest extends TestCase
         Assert::assertEquals('App\Models\User', $found->model_type);
         Assert::assertEquals(123, $found->model_id);
         Assert::assertEquals(456, $found->notify_theme_id);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_notify_theme_id(): void
-    {
-        NotifyThemeable::create([
+    test('_can_find_by_notify_theme_id', function (): void {
+NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
@@ -129,12 +119,10 @@ class NotifyThemeableTest extends TestCase
         Assert::assertEquals(456, \assertFirstModel($theme456Themeables, \Modules\Notify\Models\NotifyThemeable::class)->notify_theme_id);
         Assert::assertEquals(456, \assertFirstModel($theme456Themeables->slice(1), \Modules\Notify\Models\NotifyThemeable::class)->notify_theme_id);
         Assert::assertEquals(789, \assertFirstModel($theme789Themeables, \Modules\Notify\Models\NotifyThemeable::class)->notify_theme_id);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_model_type(): void
-    {
-        NotifyThemeable::create([
+    test('_can_find_by_model_type', function (): void {
+NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
@@ -160,12 +148,10 @@ class NotifyThemeableTest extends TestCase
         Assert::assertEquals('App\Models\User', \assertFirstModel($userThemeables, \Modules\Notify\Models\NotifyThemeable::class)->model_type);
         Assert::assertEquals('App\Models\User', \assertFirstModel($userThemeables->slice(1), \Modules\Notify\Models\NotifyThemeable::class)->model_type);
         Assert::assertEquals('App\Models\Company', \assertFirstModel($companyThemeables, \Modules\Notify\Models\NotifyThemeable::class)->model_type);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_created_by(): void
-    {
-        NotifyThemeable::create([
+    test('_can_find_by_created_by', function (): void {
+NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
@@ -194,12 +180,10 @@ class NotifyThemeableTest extends TestCase
         Assert::assertEquals('user_123', \assertFirstModel($user123Themeables, \Modules\Notify\Models\NotifyThemeable::class)->created_by);
         Assert::assertEquals('user_123', \assertFirstModel($user123Themeables->slice(1), \Modules\Notify\Models\NotifyThemeable::class)->created_by);
         Assert::assertEquals('user_456', \assertFirstModel($user456Themeables, \Modules\Notify\Models\NotifyThemeable::class)->created_by);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_updated_by(): void
-    {
-        NotifyThemeable::create([
+    test('_can_find_by_updated_by', function (): void {
+NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
@@ -228,12 +212,10 @@ class NotifyThemeableTest extends TestCase
         Assert::assertEquals('user_123', \assertFirstModel($user123Themeables, \Modules\Notify\Models\NotifyThemeable::class)->updated_by);
         Assert::assertEquals('user_123', \assertFirstModel($user123Themeables->slice(1), \Modules\Notify\Models\NotifyThemeable::class)->updated_by);
         Assert::assertEquals('user_456', \assertFirstModel($user456Themeables, \Modules\Notify\Models\NotifyThemeable::class)->updated_by);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_multiple_criteria(): void
-    {
-        NotifyThemeable::create([
+    test('_can_find_by_multiple_criteria', function (): void {
+NotifyThemeable::create([
             'model_type' => 'App\Models\User',
             'model_id' => 123,
             'notify_theme_id' => 456,
@@ -263,12 +245,10 @@ class NotifyThemeableTest extends TestCase
         Assert::assertEquals(123, \assertFirstModel($user123Themeables, \Modules\Notify\Models\NotifyThemeable::class)->model_id);
         Assert::assertEquals(456, \assertFirstModel($user123Themeables, \Modules\Notify\Models\NotifyThemeable::class)->notify_theme_id);
         Assert::assertEquals('user_123', \assertFirstModel($user123Themeables, \Modules\Notify\Models\NotifyThemeable::class)->created_by);
-    }
+    });
 
-    /** @test */
-    public function it_can_handle_null_values(): void
-    {
-        $themeable = NotifyThemeable::create([
+    test('_can_handle_null_values', function (): void {
+$themeable = NotifyThemeable::create([
             'model_type' => null,
             'model_id' => null,
             'notify_theme_id' => null,
@@ -281,12 +261,10 @@ class NotifyThemeableTest extends TestCase
         Assert::assertNull($themeable->notify_theme_id);
         Assert::assertNull($themeable->created_by);
         Assert::assertNull($themeable->updated_by);
-    }
+    });
 
-    /** @test */
-    public function it_can_create_multiple_themeables(): void
-    {
-        $themeables = [
+    test('_can_create_multiple_themeables', function (): void {
+$themeables = [
             [
                 'model_type' => 'App\Models\User',
                 'model_id' => 1,
@@ -335,12 +313,10 @@ class NotifyThemeableTest extends TestCase
 
         $user1Themeables = NotifyThemeable::where('created_by', 'user_1')->get();
         Assert::assertCount(3, $user1Themeables);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_date_range(): void
-    {
-        $yesterday = now()->subDay();
+    test('_can_find_by_date_range', function (): void {
+$yesterday = now()->subDay();
         $today = now();
         $tomorrow = now()->addDay();
 
@@ -372,5 +348,5 @@ class NotifyThemeableTest extends TestCase
         Assert::assertCount(2, $recentThemeables); // yesterday and today
         Assert::assertEquals('App\Models\User', \assertFirstModel($todayThemeables, \Modules\Notify\Models\NotifyThemeable::class)->model_type);
         Assert::assertEquals(2, \assertFirstModel($todayThemeables, \Modules\Notify\Models\NotifyThemeable::class)->model_id);
-    }
-}
+    });
+});

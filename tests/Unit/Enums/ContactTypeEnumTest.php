@@ -11,7 +11,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 it('has correct cases', function (): void {
     Assert::assertCount(6, ContactTypeEnum::cases());

@@ -7,12 +7,13 @@ namespace Modules\Notify\Tests\Feature;
 use Illuminate\Support\Facades\File;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
+use function Pest\Laravel\get;
 
-final class EmailTemplatesTest extends TestCase
-{
-    public function test_html_template_contains_optional_function(): void
-    {
-        $filePath = base_path('Modules/Notify/resources/views/emails/html.blade.php');
+uses(\Modules\Notify\Tests\TestCase::class);
+
+describe('Email Templates', function (): void {
+    test('_html_template_contains_optional_function', function (): void {
+$filePath = base_path('Modules/Notify/resources/views/emails/html.blade.php');
 
         Assert::assertTrue(File::exists($filePath), 'Il file html.blade.php non esiste');
 
@@ -29,11 +30,10 @@ final class EmailTemplatesTest extends TestCase
             $content,
             'Il template html.blade.php non utilizza optional() per body_html',
         );
-    }
+    });
 
-    public function test_sunny_template_contains_optional_function(): void
-    {
-        $filePath = base_path('Modules/Notify/resources/views/emails/templates/sunny.blade.php');
+    test('_sunny_template_contains_optional_function', function (): void {
+$filePath = base_path('Modules/Notify/resources/views/emails/templates/sunny.blade.php');
 
         Assert::assertTrue(File::exists($filePath), 'Il file sunny.blade.php non esiste');
 
@@ -44,11 +44,10 @@ final class EmailTemplatesTest extends TestCase
             $content,
             'Il template sunny.blade.php non utilizza optional() per cssInLine',
         );
-    }
+    });
 
-    public function test_ark_template_contains_optional_function(): void
-    {
-        $filePath = base_path('Modules/Notify/resources/views/emails/templates/ark.blade.php');
+    test('_ark_template_contains_optional_function', function (): void {
+$filePath = base_path('Modules/Notify/resources/views/emails/templates/ark.blade.php');
 
         Assert::assertTrue(File::exists($filePath), 'Il file ark.blade.php non esiste');
 
@@ -59,5 +58,5 @@ final class EmailTemplatesTest extends TestCase
             $content,
             'Il template ark.blade.php non utilizza optional() per cssInLine',
         );
-    }
-}
+    });
+});

@@ -13,7 +13,7 @@ use Modules\Notify\Notifications\RecordNotification;
 use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 /**
  * @param  array<string, mixed>  $attributes

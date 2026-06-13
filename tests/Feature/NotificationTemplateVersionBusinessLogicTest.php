@@ -12,12 +12,12 @@ use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use RuntimeException;
 
-class NotificationTemplateVersionBusinessLogicTest extends TestCase
-{
-    /** @test */
-    public function it_can_create_template_version_with_basic_information(): void
-    {
-        $template = NotificationTemplateFactory::new()->createOne();
+uses(\Modules\Notify\Tests\TestCase::class);
+
+describe('Notification Template Version Business Logic', function (): void {
+    test('_can_create_template_version_with_basic_information', function (): void {
+        /** @var \Modules\Notify\Tests\TestCase $this */
+$template = NotificationTemplateFactory::new()->createOne();
 
         $version = NotificationTemplateVersionFactory::new()->createOne([
             'template_id' => $template->id,
@@ -41,24 +41,20 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
         Assert::assertSame(['mail'], $version->channels);
         Assert::assertSame(['patient_name', 'appointment_date'], $version->variables);
         Assert::assertSame(['is_confirmed' => true], $version->conditions);
-    }
+    });
 
-    /** @test */
-    public function it_can_manage_template_version_relationships(): void
-    {
-        $template = NotificationTemplateFactory::new()->createOne();
+    test('_can_manage_template_version_relationships', function (): void {
+$template = NotificationTemplateFactory::new()->createOne();
         $version = NotificationTemplateVersionFactory::new()->createOne([
             'template_id' => $template->id,
         ]);
 
         Assert::assertInstanceOf(NotificationTemplate::class, $version->template);
         Assert::assertSame($template->id, $version->template->id);
-    }
+    });
 
-    /** @test */
-    public function it_can_restore_template_from_version(): void
-    {
-        $template = NotificationTemplateFactory::new()->createOne([
+    test('_can_restore_template_from_version', function (): void {
+$template = NotificationTemplateFactory::new()->createOne([
             'subject' => 'Versione Originale',
             'body_html' => '<p>Contenuto originale</p>',
         ]);
@@ -87,15 +83,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
         Assert::assertSame(['mail'], $restoredTemplate->channels);
         Assert::assertSame(['patient_name'], $restoredTemplate->variables);
         Assert::assertSame(['is_active' => true], $restoredTemplate->conditions);
-    }
+    });
 
-    /** @test */
-    public function it_throws_exception_when_restoring_without_template(): void
-    {
-        $version = NotificationTemplateVersionFactory::new()->createOne([
+    test('_throws_exception_when_restoring_without_template', function (): void {
+$version = NotificationTemplateVersionFactory::new()->createOne([
             'template_id' => 999999,
         ]);
-        $this->expectException(RuntimeException::class);
+        $this->expectApplicationException(RuntimeException::class);
         $version->restoreTemplate();
-    }
-}
+    });
+});

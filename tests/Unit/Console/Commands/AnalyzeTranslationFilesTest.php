@@ -8,7 +8,7 @@ use Modules\Notify\Console\Commands\AnalyzeTranslationFiles;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 describe('AnalyzeTranslationFiles', function () {
     it('has correct signature', function () {

@@ -35,7 +35,7 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_put_contents;
 use function Safe\mkdir;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 function makeEditContactTestProxy(): EditContactTestProxy
 {

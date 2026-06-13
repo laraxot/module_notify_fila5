@@ -11,7 +11,7 @@ use Modules\Notify\Actions\BuildMailMessageAction;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 describe('BuildMailMessageAction', function () {
     // Test strutturali - non richiede container per la classe

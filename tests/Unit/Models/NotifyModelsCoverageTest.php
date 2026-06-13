@@ -15,7 +15,7 @@ use Modules\Notify\Tests\Fixtures\NotifyNotificationTemplateProxy;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 function makeNotifyBaseMorphPivotProxy(): NotifyBaseMorphPivotProxy
 {

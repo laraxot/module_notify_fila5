@@ -7,7 +7,7 @@ use Modules\Notify\Models\Notification;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 describe('Notification Business Logic', function () {
     test('notification extends xot base model', function () {

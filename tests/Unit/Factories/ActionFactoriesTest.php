@@ -12,7 +12,7 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 test('sms action factory creates netfun driver instance', function () {
     config()->set('sms.drivers.netfun.token', 'token-123');

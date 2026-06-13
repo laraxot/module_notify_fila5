@@ -10,7 +10,7 @@ use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 describe('GetMailLayoutAction', function () {
     it('can be instantiated', function () {

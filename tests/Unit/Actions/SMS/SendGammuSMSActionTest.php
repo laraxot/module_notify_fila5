@@ -14,7 +14,7 @@ use Spatie\QueueableAction\QueueableAction;
 use function Safe\class_implements;
 use function Safe\class_uses;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 describe('SendGammuSMSAction', function () {
     // Test strutturali - la classe richiede config nel costruttore

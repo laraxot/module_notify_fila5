@@ -13,7 +13,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\json_encode;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 describe('Mail Template Log Business Logic', function () {
     it('can create mail template log with basic information', function () {

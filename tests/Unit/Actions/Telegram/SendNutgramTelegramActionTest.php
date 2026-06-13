@@ -11,7 +11,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\class_uses;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 describe('SendNutgramTelegramAction', function () {
     it('can be referenced via ReflectionClass without instantiation', function () {

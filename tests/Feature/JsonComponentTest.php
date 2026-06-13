@@ -7,14 +7,14 @@ namespace Modules\Notify\Tests\Feature;
 use Illuminate\Support\Facades\File;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
 use function Safe\json_decode;
+use function Pest\Laravel\get;
 
-final class JsonComponentTest extends TestCase
-{
-    public function test_components_json_is_valid_and_contains_expected_components(): void
-    {
-        $filePath = base_path('Modules/Notify/app/Console/Commands/_components.json');
+uses(\Modules\Notify\Tests\TestCase::class);
+
+describe('Json Component', function (): void {
+    test('_components_json_is_valid_and_contains_expected_components', function (): void {
+$filePath = base_path('Modules/Notify/app/Console/Commands/_components.json');
 
         Assert::assertTrue(File::exists($filePath), 'Il file _components.json non esiste');
 
@@ -40,5 +40,5 @@ final class JsonComponentTest extends TestCase
         $classes = array_column($json, 'class');
         Assert::assertContains('SendMailCommand', $classes, 'Classe "SendMailCommand" non trovata');
         Assert::assertContains('TelegramWebhook', $classes, 'Classe "TelegramWebhook" non trovata');
-    }
-}
+    });
+});

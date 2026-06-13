@@ -9,7 +9,7 @@ use Modules\Notify\Actions\SendAppointmentNotificationAction;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 test('send appointment notification returns false and logs info when models are missing', function () {
     Log::shouldReceive('info')->once();
