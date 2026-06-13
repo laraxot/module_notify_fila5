@@ -9,7 +9,7 @@ use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 test('base model extends eloquent model', function () {
         $baseModel = new class extends BaseModel

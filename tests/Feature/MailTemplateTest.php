@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
 
 
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 describe('MailTemplate Model Tests', function () {
     it('can create a mail template', function () {

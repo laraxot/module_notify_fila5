@@ -14,7 +14,7 @@ use PHPUnit\Framework\Assert;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 describe('MailTemplate Business Logic', function () {
     test('mail template extends spatie mail template', function () {

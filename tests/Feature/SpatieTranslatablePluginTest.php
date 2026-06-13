@@ -18,9 +18,10 @@ use PHPUnit\Framework\Assert;
 
 use function Pest\Laravel\actingAs;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 beforeEach(function (): void {
+    /** @var \Modules\Notify\Tests\TestCase $this */
     $user = UserFactory::new()->createOne();
     Assert::assertInstanceOf(Authenticatable::class, $user);
     $user->assignRole('notify::admin');

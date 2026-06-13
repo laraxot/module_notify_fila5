@@ -16,7 +16,7 @@ use Modules\Notify\Notifications\GenericNotification;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 /**
  * @param  array<string, mixed>  $attributes
@@ -50,6 +50,7 @@ function makeDummySendNotificationRecipient(array $attributes = []): Model
 }
 
 beforeEach(function (): void {
+    /** @var \Modules\Notify\Tests\TestCase $this */
         $schema = Schema::connection('notify');
 
     if (! $schema->hasTable('notification_templates')) {
@@ -78,6 +79,7 @@ beforeEach(function (): void {
 });
 
 test('send notification action throws when template is missing', function (): void {
+        /** @var \Modules\Notify\Tests\TestCase $this */
     $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
     \assertNotifyThrows(

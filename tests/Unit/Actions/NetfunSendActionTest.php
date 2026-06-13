@@ -12,7 +12,7 @@ use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\class_uses;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 describe('NetfunSendAction', function () {
     // Test strutturali senza istanziazione - la classe richiede config() nel costruttore

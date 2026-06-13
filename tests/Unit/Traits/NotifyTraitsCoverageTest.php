@@ -13,23 +13,15 @@ use Modules\Notify\Traits\HasTenantNotifications;
 use Modules\Tenant\Models\Tenant;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
+
 final class NotifyRateLimitDummy
 {
     use HasNotificationRateLimiting;
 
-    public function shouldSend(string $key): bool
+    public function key(string $type, mixed $identifier): string
     {
-        return $this->shouldSendNotification($key);
-    }
-
-    public function retryAfter(string $key): int
-    {
-        return $this->getNotificationRateLimitRetryAfter($key);
-    }
-
-    public function remaining(string $key): int
-    {
-        return $this->getNotificationRateLimitRemainingAttempts($key);
+        return $this->getNotificationRateLimitKey($type, $identifier);
     }
 
     public function reset(string $key): void
@@ -37,9 +29,19 @@ final class NotifyRateLimitDummy
         $this->resetNotificationRateLimit($key);
     }
 
-    public function key(string $type, mixed $identifier): string
+    public function shouldSend(string $key): bool
     {
-        return $this->getNotificationRateLimitKey($type, $identifier);
+        return $this->shouldSendNotification($key);
+    }
+
+    public function remaining(string $key): int
+    {
+        return $this->getNotificationRateLimitRemainingAttempts($key);
+    }
+
+    public function retryAfter(string $key): int
+    {
+        return $this->getNotificationRateLimitRetryAfter($key);
     }
 }
 
@@ -47,9 +49,9 @@ final class NotifyTrackingDummy
 {
     use HasNotificationTracking;
 
-    public function addTrackingPublic(string $html, string $id): string
+    public function addTrackingPublic(string $html, string $trackingId): string
     {
-        return $this->addTracking($html, $id);
+        return $this->addTracking($html, $trackingId);
     }
 
     public function trackingId(): string
@@ -67,16 +69,17 @@ final class NotifyTenantDummyModel extends Model
 {
     use HasTenantNotifications;
 
-    protected $table = 'notify_tenant_dummy';
-
     public ?string $tenant_id = null;
+
+    public function getTable(): string
+    {
+        return 'notify_tenant_dummy_models';
+    }
 }
 
-final class NotifyTraitsCoverageTest extends TestCase
-{
-    public function test_notification_rate_limiting_helpers_work_with_limiter(): void
-    {
-        config()->set('notify.rate_limiting.enabled', true);
+describe('Notify Traits Coverage', function (): void {
+    test('_notification_rate_limiting_helpers_work_with_limiter', function (): void {
+config()->set('notify.rate_limiting.enabled', true);
         config()->set('notify.rate_limiting.max_attempts', 1);
         config()->set('notify.rate_limiting.decay_minutes', 1);
 
@@ -91,11 +94,10 @@ final class NotifyTraitsCoverageTest extends TestCase
 
         $dummy->reset($key);
         Assert::assertTrue($dummy->shouldSend($key));
-    }
+    });
 
-    public function test_notification_tracking_returns_original_html_when_tracking_is_disabled(): void
-    {
-        config()->set('notify.tracking.enabled', false);
+    test('_notification_tracking_returns_original_html_when_tracking_is_disabled', function (): void {
+config()->set('notify.tracking.enabled', false);
         config()->set('notify.tracking.pixel.enabled', false);
         config()->set('notify.tracking.links.enabled', false);
 
@@ -107,16 +109,12 @@ final class NotifyTraitsCoverageTest extends TestCase
         Assert::assertSame($html, $tracked);
         Assert::assertNotSame('', $dummy->trackingId());
         Assert::assertFalse($dummy->trackingEnabled());
-    }
+    });
 
-    public function test_tenant_notification_helpers_check_tenant_ownership(): void
-    {
-        $tenant = \Mockery::mock(Tenant::class);
-        /** @phpstan-ignore-next-line */
-        $tenant->shouldReceive('getKey')->andReturn('tenant-42');
-
-        /** @phpstan-ignore-next-line */
-    Filament::partialMock()->shouldReceive('getTenant')->andReturn($tenant);
+    test('_tenant_notification_helpers_check_tenant_ownership', function (): void {
+$tenant = new Tenant;
+        $tenant->setAttribute('id', 'tenant-42');
+        Filament::setTenant($tenant, isQuiet: true);
 
         $dummy = new NotifyTenantDummyModel();
         $dummy->tenant_id = 'tenant-42';
@@ -124,5 +122,6 @@ final class NotifyTraitsCoverageTest extends TestCase
         Assert::assertTrue($dummy->belongsToTenant('tenant-42'));
         Assert::assertTrue($dummy->belongsToCurrentTenant());
         Assert::assertFalse($dummy->belongsToTenant('other-tenant'));
-    }
-}
+        Filament::setTenant(null, isQuiet: true);
+    });
+});

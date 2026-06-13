@@ -8,7 +8,7 @@ use Modules\Notify\Notifications\GenericNotification;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 // Basic unit tests focusing on business logic of recipient name resolution
 

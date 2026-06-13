@@ -12,7 +12,7 @@ use Modules\Notify\Actions\SendNotificationToRecipientAction;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 function makeDummyNotificationForRecipient(): IlluminateNotification
 {

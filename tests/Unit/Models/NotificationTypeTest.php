@@ -8,21 +8,19 @@ use Modules\Notify\Database\Factories\NotificationTypeFactory;
 use Modules\Notify\Models\NotificationType;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
+use function Pest\Laravel\get;
 
-class NotificationTypeTest extends TestCase
-{
-    // DatabaseTransactions is already used in the module TestCase
+uses(\Modules\Notify\Tests\TestCase::class);
 
-    protected function setUp(): void
-    {
-        parent::setUp();
-        $this->withoutExceptionHandling();
-    }
+beforeEach(function (): void {
+    /** @var \Modules\Notify\Tests\TestCase $this */
+$this->disableExceptionHandling();
+});
 
-    /** @test */
-    public function it_can_create_notification_type(): void
-    {
-        $notificationType = NotificationTypeFactory::new()->createOne([
+describe('Notification Type', function (): void {
+    test('_can_create_notification_type', function (): void {
+        /** @var \Modules\Notify\Tests\TestCase $this */
+$notificationType = NotificationTypeFactory::new()->createOne([
             'name' => 'Email Notification',
             'description' => 'Email notification type for sending emails',
             'template' => 'email_template_1',
@@ -35,12 +33,10 @@ class NotificationTypeTest extends TestCase
         ]);
 
         Assert::assertInstanceOf(NotificationType::class, $notificationType);
-    }
+    });
 
-    /** @test */
-    public function it_has_correct_fillable_fields(): void
-    {
-        $notificationType = new NotificationType;
+    test('_has_correct_fillable_fields', function (): void {
+$notificationType = new NotificationType;
 
         $expectedFillable = [
             'name',
@@ -49,12 +45,10 @@ class NotificationTypeTest extends TestCase
         ];
 
         Assert::assertEquals($expectedFillable, $notificationType->getFillable());
-    }
+    });
 
-    /** @test */
-    public function it_can_update_notification_type(): void
-    {
-        $notificationType = NotificationTypeFactory::new()->createOne([
+    test('_can_update_notification_type', function (): void {
+$notificationType = NotificationTypeFactory::new()->createOne([
             'name' => 'Original Name',
             'description' => 'Original description',
             'template' => 'original_template',
@@ -76,12 +70,10 @@ class NotificationTypeTest extends TestCase
         Assert::assertEquals('Updated Name', $fresh->name);
         Assert::assertEquals('Updated description', $fresh->description);
         Assert::assertEquals('updated_template', $fresh->template);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_name(): void
-    {
-        $notificationType = NotificationTypeFactory::new()->createOne([
+    test('_can_find_by_name', function (): void {
+$notificationType = NotificationTypeFactory::new()->createOne([
             'name' => 'SMS Notification',
             'description' => 'SMS notification type',
             'template' => 'sms_template',
@@ -94,12 +86,10 @@ class NotificationTypeTest extends TestCase
         Assert::assertEquals('SMS Notification', $found->name);
         Assert::assertEquals('SMS notification type', $found->description);
         Assert::assertEquals('sms_template', $found->template);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_template(): void
-    {
-        NotificationTypeFactory::new()->createOne([
+    test('_can_find_by_template', function (): void {
+NotificationTypeFactory::new()->createOne([
             'name' => 'Email Type 1',
             'description' => 'First email template',
             'template' => 'email_template_1',
@@ -118,12 +108,10 @@ class NotificationTypeTest extends TestCase
         Assert::assertCount(1, $template2Types);
         Assert::assertEquals('email_template_1', \assertFirstModel($template1Types, \Modules\Notify\Models\NotificationType::class)->template);
         Assert::assertEquals('email_template_2', \assertFirstModel($template2Types, \Modules\Notify\Models\NotificationType::class)->template);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_description_pattern(): void
-    {
-        NotificationTypeFactory::new()->createOne([
+    test('_can_find_by_description_pattern', function (): void {
+NotificationTypeFactory::new()->createOne([
             'name' => 'Email Type',
             'description' => 'Email notification type for users',
             'template' => 'email_template',
@@ -152,12 +140,10 @@ class NotificationTypeTest extends TestCase
         Assert::assertStringContainsString('for users', (string) $firstUserType->description);
         Assert::assertStringContainsString('for users', (string) $secondUserType->description);
         Assert::assertStringContainsString('mobile', (string) $mobileType->description);
-    }
+    });
 
-    /** @test */
-    public function it_can_handle_null_values(): void
-    {
-        $notificationType = NotificationTypeFactory::new()->createOne([
+    test('_can_handle_null_values', function (): void {
+$notificationType = NotificationTypeFactory::new()->createOne([
             'name' => 'No Description Type',
             'description' => null,
             'template' => null,
@@ -170,12 +156,10 @@ class NotificationTypeTest extends TestCase
             'description' => null,
             'template' => null,
         ]);
-    }
+    });
 
-    /** @test */
-    public function it_can_create_multiple_types(): void
-    {
-        $types = [
+    test('_can_create_multiple_types', function (): void {
+$types = [
             ['name' => 'Email', 'description' => 'Email notifications', 'template' => 'email'],
             ['name' => 'SMS', 'description' => 'SMS notifications', 'template' => 'sms'],
             ['name' => 'Push', 'description' => 'Push notifications', 'template' => 'push'],
@@ -202,12 +186,10 @@ class NotificationTypeTest extends TestCase
         Assert::assertEquals('email', $emailType->template);
         Assert::assertEquals('sms', $smsType->template);
         Assert::assertEquals('push', $pushType->template);
-    }
+    });
 
-    /** @test */
-    public function it_can_find_by_multiple_criteria(): void
-    {
-        NotificationTypeFactory::new()->createOne([
+    test('_can_find_by_multiple_criteria', function (): void {
+NotificationTypeFactory::new()->createOne([
             'name' => 'High Priority Email',
             'description' => 'High priority email notifications',
             'template' => 'high_priority_email',
@@ -233,5 +215,5 @@ class NotificationTypeTest extends TestCase
         Assert::assertEquals('High Priority Email', \assertFirstModel($highPriorityEmailTypes, \Modules\Notify\Models\NotificationType::class)->name);
         Assert::assertEquals('High priority email notifications', \assertFirstModel($highPriorityEmailTypes, \Modules\Notify\Models\NotificationType::class)->description);
         Assert::assertEquals('high_priority_email', \assertFirstModel($highPriorityEmailTypes, \Modules\Notify\Models\NotificationType::class)->template);
-    }
-}
+    });
+});

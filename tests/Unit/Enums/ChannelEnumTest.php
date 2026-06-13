@@ -15,7 +15,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\preg_replace;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 test('notification channel mapping is correct', function () {
     Assert::assertSame('mail', ChannelEnum::Mail->getNotificationChannel());

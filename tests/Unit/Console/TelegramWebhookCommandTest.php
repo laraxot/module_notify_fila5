@@ -8,7 +8,7 @@ use Modules\Notify\Console\Commands\TelegramWebhook;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 test('telegram webhook command has expected signature and handle returns void', function () {
     $command = new TelegramWebhook;

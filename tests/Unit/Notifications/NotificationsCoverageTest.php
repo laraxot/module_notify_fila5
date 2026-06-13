@@ -27,7 +27,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\class_uses;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 function makeThemeNotifiableDummy(): CanThemeNotificationContract
 {
@@ -87,6 +87,7 @@ function makeGenericNotifiableDummy(): Model
 }
 
 test('email data notification exposes mail channel and array payload', function () {
+        /** @var \Modules\Notify\Tests\TestCase $this */
     $emailData = EmailData::from([
         'recipient' => 'recipient@example.test',
         'from' => 'Sender Name',

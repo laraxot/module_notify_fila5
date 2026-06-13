@@ -10,7 +10,7 @@ use Modules\Notify\Tests\TestCase;
 use Modules\User\Models\User;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 test('record notification data returns mail route', function (): void {
     $user = new User;

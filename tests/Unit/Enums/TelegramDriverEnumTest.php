@@ -8,7 +8,7 @@ use Modules\Notify\Enums\TelegramDriverEnum;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\Notify\Tests\TestCase::class);
 
 it('has correct cases', function (): void {
     Assert::assertCount(3, TelegramDriverEnum::cases());
