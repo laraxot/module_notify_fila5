@@ -138,7 +138,6 @@ Questo pattern può essere riutilizzato in altri widget che:
 - [Widget Error Troubleshooting](../../../xot/project_docs/troubleshooting/widget-errors.md) - Guide generali
 ---
 **Creato**: 2025-01-07
-**Aggiornato**: 2025-01-07
 **Autore**: AI Assistant
 **Tipo**: Bug Fix Documentation
 **Priorità**: Critica (blocca registrazione paziente)

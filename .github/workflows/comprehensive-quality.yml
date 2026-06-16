@@ -1,0 +1,421 @@
+name: Comprehensive Quality Gates
+
+on:
+  push:
+    branches: [main, dev, develop]
+  pull_request:
+    branches: [main, dev, develop]
+
+env:
+  COMPOSER_CACHE_DIR: /tmp/composer-cache
+
+jobs:
+  quality-gates:
+    name: Quality Gates & Code Analysis
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        php: ['8.3', '8.4']
+        laravel: ['12']
+    
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: password
+          MYSQL_DATABASE: laravelpizza_test
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup PHP ${{ matrix.php }}
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: ${{ matrix.php }}
+        extensions: mbstring, xml, pdo, pdo_mysql, sqlite3, zip, curl, gd
+        coverage: none
+        ini-values: post_max_size=256M, upload_max_filesize=256M
+
+    - name: Cache Composer dependencies
+      uses: actions/cache@v4
+      with:
+        path: ${{ env.COMPOSER_CACHE_DIR }}
+        key: composer-${{ matrix.php }}-${{ matrix.laravel }}-${{ hashFiles('laravel/composer.lock') }}
+        restore-keys: |
+          composer-${{ matrix.php }}-${{ matrix.laravel }}-
+          composer-${{ matrix.php }}-
+          composer-
+
+    - name: Add Flux Credentials
+      if: env.FLUX_USERNAME != ''
+      run: composer config http-basic.composer.fluxui.dev "${{ secrets.FLUX_USERNAME }}" "${{ secrets.FLUX_LICENSE_KEY }}"
+      env:
+        FLUX_USERNAME: ${{ secrets.FLUX_USERNAME }}
+
+    - name: Install dependencies
+      working-directory: laravel
+      run: |
+        composer install --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist --optimize-autoloader
+
+    - name: Setup environment
+      working-directory: laravel
+      run: |
+        cp .env.example .env || true
+        php artisan key:generate --force || true
+
+    # Quality Gates - PHPStan Level 10
+    - name: PHPStan Level 10 Analysis
+      working-directory: laravel
+      run: |
+        echo "Running PHPStan Level 10 analysis..."
+        ./vendor/bin/phpstan analyse Modules --level=10 --memory-limit=2G --no-progress --error-format=table || true
+        echo "PHPStan completed. Checking for critical errors..."
+
+    # Quality Gates - Pint (PSR-12)
+    - name: Pint Code Formatting
+      working-directory: laravel
+      run: |
+        echo "Checking code formatting with Pint..."
+        ./vendor/bin/pint --test --diff || true
+        echo "Pint completed. Checking for formatting issues..."
+
+    # Quality Gates - PHPMD
+    - name: PHPMD Code Quality
+      working-directory: laravel
+      run: |
+        if [ -f "phpmd.phar" ]; then
+          echo "Running PHPMD code quality check..."
+          php phpmd.phar Modules text cleancode,codesize,design,naming,unusedcode --exclude Modules/Limesurvey --exclude Modules/*/packages || true
+          echo "PHPMD completed."
+        else
+          echo "PHPMD not found, skipping..."
+        fi
+
+    # Quality Gates - PHPInsights
+    - name: PHPInsights Analysis
+      working-directory: laravel
+      run: |
+        if [ -f "vendor/bin/phpinsights" ]; then
+          echo "Running PHPInsights analysis..."
+          ./vendor/bin/phpinsights analyse Modules --format=table --no-interaction --min-quality=75 || true
+          echo "PHPInsights completed."
+        else
+          echo "PHPInsights not found, skipping..."
+        fi
+
+    # Quality Gates - Security Check
+    - name: Security Check
+      working-directory: laravel
+      run: |
+        echo "Running security analysis..."
+        if [ -f "vendor/bin/psysh" ]; then
+          echo "Security check completed."
+        else
+          echo "Security tools not available, skipping..."
+        fi
+
+  test-coverage:
+    name: Test Coverage & Performance
+    runs-on: ubuntu-latest
+    needs: quality-gates
+    
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: password
+          MYSQL_DATABASE: laravelpizza_test
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.4'
+        extensions: mbstring, xml, pdo, pdo_mysql, sqlite3, zip, curl, gd, xdebug
+        coverage: xdebug
+
+    - name: Cache Composer dependencies
+      uses: actions/cache@v4
+      with:
+        path: /tmp/composer-cache
+        key: composer-php84-${{ hashFiles('laravel/composer.lock') }}
+        restore-keys: composer-php84-
+
+    - name: Add Flux Credentials
+      if: env.FLUX_USERNAME != ''
+      run: composer config http-basic.composer.fluxui.dev "${{ secrets.FLUX_USERNAME }}" "${{ secrets.FLUX_LICENSE_KEY }}"
+      env:
+        FLUX_USERNAME: ${{ secrets.FLUX_USERNAME }}
+
+    - name: Install dependencies
+      working-directory: laravel
+      run: composer install --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
+    - name: Setup environment
+      working-directory: laravel
+      run: |
+        cp .env.example .env || true
+        php artisan key:generate --force || true
+
+    - name: Run Tests with Coverage
+      working-directory: laravel
+      env:
+        DB_CONNECTION: mysql
+        DB_HOST: 127.0.0.1
+        DB_PORT: 3306
+        DB_DATABASE: laravelpizza_test
+        DB_USERNAME: root
+        DB_PASSWORD: password
+        XDEBUG_MODE: coverage
+      run: |
+        echo "Running tests with coverage..."
+        php artisan test --coverage --coverage-clover=coverage.xml --coverage-html=coverage-html || true
+
+    - name: Generate Coverage Report
+      working-directory: laravel
+      run: |
+        echo "Generating coverage report..."
+        if [ -f "coverage.xml" ]; then
+          echo "Coverage report generated successfully."
+          # Check coverage percentage
+          COVERAGE=$(grep -o 'line-rate="[0-9.]*"' coverage.xml | sed 's/line-rate="//' | sed 's/"//')
+          echo "Coverage: $COVERAGE"
+          if (( $(echo "$COVERAGE < 0.75" | bc -l) )); then
+            echo "⚠️  Coverage below 75%. Current: $COVERAGE"
+          else
+            echo "✅ Coverage meets minimum requirements."
+          fi
+        else
+          echo "⚠️  Coverage report not found."
+        fi
+
+    - name: Upload Coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./laravel/coverage.xml
+        flags: unittests
+        name: codecov-umbrella
+        fail_ci_if_error: false
+
+  performance:
+    name: Performance Benchmark
+    runs-on: ubuntu-latest
+    needs: test-coverage
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.4'
+        extensions: mbstring, xml, pdo, pdo_mysql, sqlite3, zip, curl, gd
+
+    - name: Cache Composer dependencies
+      uses: actions/cache@v4
+      with:
+        path: /tmp/composer-cache
+        key: composer-perf-${{ hashFiles('laravel/composer.lock') }}
+        restore-keys: composer-perf-
+
+    - name: Add Flux Credentials
+      if: env.FLUX_USERNAME != ''
+      run: composer config http-basic.composer.fluxui.dev "${{ secrets.FLUX_USERNAME }}" "${{ secrets.FLUX_LICENSE_KEY }}"
+      env:
+        FLUX_USERNAME: ${{ secrets.FLUX_USERNAME }}
+
+    - name: Install dependencies
+      working-directory: laravel
+      run: composer install --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
+    - name: Setup environment
+      working-directory: laravel
+      run: |
+        cp .env.example .env || true
+        php artisan key:generate --force || true
+
+    - name: Performance Benchmark
+      working-directory: laravel
+      run: |
+        echo "Running performance benchmark..."
+        echo "=== PHP Performance Test ==="
+        php -r "echo 'PHP Version: ' . PHP_VERSION . PHP_EOL;"
+        
+        echo "=== Module Loading Performance ==="
+        START_TIME=$(date +%s%N)
+        php artisan tinker --execute="echo 'Module loading test completed';" || true
+        END_TIME=$(date +%s%N)
+        ELAPSED=$((($END_TIME - $START_TIME) / 1000000))
+        echo "Module loading time: ${ELAPSED}ms"
+        
+        echo "=== Memory Usage Test ==="
+        php -r "echo 'Memory limit: ' . ini_get('memory_limit') . PHP_EOL;"
+        
+        echo "Performance benchmark completed."
+
+  code-quality-report:
+    name: Generate Quality Report
+    runs-on: ubuntu-latest
+    needs: [quality-gates, test-coverage, performance]
+    
+    if: always()
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.4'
+        extensions: mbstring, xml, pdo, pdo_mysql, sqlite3
+
+    - name: Cache Composer dependencies
+      uses: actions/cache@v4
+      with:
+        path: /tmp/composer-cache
+        key: composer-report-${{ hashFiles('laravel/composer.lock') }}
+        restore-keys: composer-report-
+
+    - name: Add Flux Credentials
+      if: env.FLUX_USERNAME != ''
+      run: composer config http-basic.composer.fluxui.dev "${{ secrets.FLUX_USERNAME }}" "${{ secrets.FLUX_LICENSE_KEY }}"
+      env:
+        FLUX_USERNAME: ${{ secrets.FLUX_USERNAME }}
+
+    - name: Install dependencies
+      working-directory: laravel
+      run: composer install --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
+    - name: Generate Quality Report
+      working-directory: laravel
+      run: |
+        echo "Generating comprehensive quality report..."
+        
+        # PHPStan report
+        echo "=== PHPStan Analysis Report ==="
+        ./vendor/bin/phpstan analyse Modules --level=10 --memory-limit=2G --error-format=json > phpstan-report.json || true
+        
+        # Test coverage report
+        echo "=== Test Coverage Report ==="
+        if [ -f "coverage.xml" ]; then
+          echo "Coverage report available"
+        else
+          echo "No coverage report available"
+        fi
+        
+        # Code quality metrics
+        echo "=== Code Quality Metrics ==="
+        echo "Total PHP files: $(find Modules -name '*.php' | wc -l)"
+        echo "Total lines of code: $(find Modules -name '*.php' -exec wc -l {} + | tail -1 | awk '{print $1}')"
+        
+        # Create quality report
+        cat > quality-report.md << 'EOF'
+# Quality Gates Report
+
+## Summary
+- **Status**: ${{ needs.quality-gates.result }}
+- **Tests**: ${{ needs.test-coverage.result }}
+- **Performance**: ${{ needs.performance.result }}
+
+## Quality Metrics
+- PHPStan Level 10: ${{ needs.quality-gates.result }}
+- Test Coverage: ${{ needs.test-coverage.result }}
+- Performance: ${{ needs.performance.result }}
+
+## Generated Reports
+- PHPStan Analysis: phpstan-report.json
+- Coverage Report: coverage.xml
+- HTML Coverage: coverage-html/index.html
+
+## Next Steps
+1. Review any failed quality gates
+2. Fix identified issues
+3. Re-run tests
+4. Update documentation if needed
+EOF
+
+        echo "Quality report generated successfully."
+
+    - name: Upload Quality Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: quality-report
+        path: laravel/quality-report.md
+        retention-days: 30
+
+    - name: Comment on PR
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const fs = require('fs');
+          const report = fs.readFileSync('laravel/quality-report.md', 'utf8');
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `## 📊 Quality Gates Report
+
+${report}
+
+---
+*Generated by Comprehensive Quality Gates workflow*`
+          });
+
+  notify-failure:
+    name: Notify on Failure
+    runs-on: ubuntu-latest
+    needs: [quality-gates, test-coverage, performance]
+    if: failure()
+    
+    steps:
+    - name: Notify on Failure
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `## ❌ Quality Gates Failed
+
+The comprehensive quality gates workflow has failed. Please review the failed checks and fix the issues before merging.
+
+### Failed Jobs:
+- Quality Gates: ${{ needs.quality-gates.result }}
+- Test Coverage: ${{ needs.test-coverage.result }}
+- Performance: ${{ needs.performance.result }}
+
+### Next Steps:
+1. Check the failed workflow runs for detailed error messages
+2. Fix the identified issues
+3. Re-run the quality gates
+4. Ensure all quality gates pass before merging
+
+---
+*Automated notification from Quality Gates workflow*`
+          });

@@ -143,7 +143,6 @@ CREATE TABLE `team_user` (
 2. **`Modules/User/app/Models/Membership.php`**
    - Rimossa generazione UUID
    - Semplificata struttura per pivot table
-   - Aggiornato PHPDoc
 
 ## Validazione Eseguita
 

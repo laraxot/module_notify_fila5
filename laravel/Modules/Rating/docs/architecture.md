@@ -240,7 +240,6 @@ enum RuleEnum: string implements HasLabel
 ```php
 // Rating module pubblica eventi che altri moduli possono ascoltare
 RatingCreated::dispatch($rating);
-RatingUpdated::dispatch($rating, $oldValue, $newValue);
 
 // In altri moduli
 #[Subscribe(RatingCreated::class)]

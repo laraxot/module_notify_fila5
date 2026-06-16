@@ -41,7 +41,62 @@ This file contains comprehensive guidelines and commands for AI agents working o
 ### DRY PRINCIPLE - TRAIT METHODS
 - **CRITICAL**: Trait methods (getJsonFile, loadExistingData, etc.) DEVONO essere implementati UNA SOLA VOLTA nel trait, NON in ogni modello
 - I modelli che usano il trait ereditano automaticamente i metodi
-- Aggiungere metodi ai singoli modelli crea duplicazione del codice e viola DRY  
+- Aggiungere metodi ai singoli modelli crea duplicazione del codice e viola DRY
+
+### DATABASE DIRECTORY NAMING - LARAVEL STANDARD
+- **CORRETTO**: `database/factories/`, `database/migrations/`, `database/seeders/` (tutto minuscolo)
+- **SBAGLIATO**: `database/Factories/`, `database/Migrations/`, `database/Seeders/` (iniziale maiuscola)
+- **Motivo**: Laravel segue la convenzione snake_case per le directory
+- **PSR-4**: I namespace possono avere iniziali maiuscole (`Database\Factories`) ma le path devono essere minuscole
+- **Riferimento**: Vedi `docs/conventions/database-naming.md`
+
+### GITATTRIBUTES REMOVED - USE GITIGNORE ONLY
+- **REMOVED**: Tutti i file `.gitattributes` sono stati eliminati
+- **CURRENT**: Usare solo `.gitignore` (root e modulo)
+- **Motivo**: Semplificazione, `.gitattributes` non necessario per questo progetto
+- **Riferimento**: Vedi `docs/gitattributes-cleanup.md`
+
+### DOCUMENTATION STRUCTURE
+- **ROOT**: `docs/` per documentazione progetto
+- **MODULE**: `Modules/*/docs/` per documentazione modulo
+- **BASHSCRIPTS**: `bashscripts/docs/` per script bash
+- **INDEX**: Ogni docs deve avere `README.md` o `index.md`
+- **CONVENTIONS**: Vedi `docs/conventions/README.md`
+
+### SCRIPT ORGANIZATION - CRITICAL
+- **ALL .sh FILES**: MUST be in `bashscripts/` subfolders
+- **NEVER** in project root or `laravel/` root
+- **Structure**: `bashscripts/<category>/<script-name>.sh`
+- **Examples**:
+  - `bashscripts/system/optimization/ollama-optimize-cpu.sh`
+  - `bashscripts/ai/ai_init.sh`
+  - `bashscripts/git/git-cleanup.sh`
+- **Docs**: Always document in `bashscripts/docs/<category>/`
+- **Rationale**: Centralized, organized, discoverable, maintainable
+
+### AI INIT SCRIPT - ENHANCED V2.0
+- **Script**: `bashscripts/ai/ai_init.sh`
+- **Funzione**: Crea symlinks AI in root + laravel/
+- **Doppi Symlinks**: Root (`.cursor`) + Laravel (`laravel/.cursor`)
+- **.github**: Fisica (rsync), NON symlink
+- **.gitignore**: Auto-aggiornato con symlinks creati
+- **Usage**: `cd bashscripts && ./ai/ai_init.sh`
+- **Docs**: `bashscripts/docs/ai/ai_init-guide.md`
+
+### OLLAMA OPTIMIZATION
+- **Script**: `bashscripts/system/optimization/ollama-optimize-cpu.sh`
+- **Purpose**: Optimize Ollama for CPU (Intel i5-8400, 32GB RAM)
+- **Features**: 
+  - Creates `/etc/ollama/ollama.env` with optimized settings
+  - Systemd service override for performance
+  - Intel MKL library installation
+  - Model recommendations guide
+  - Verification tool (`ollama-check`)
+- **Usage**: `sudo bash bashscripts/system/optimization/ollama-optimize-cpu.sh`
+- **Verify**: `ollama-check`
+- **Docs**: `bashscripts/docs/system/optimization/ollama-optimize-cpu.md`
+- **Hardware Target**: Intel i5-8400 (4C/4T), 32GB RAM, No GPU
+- **Expected Performance**: 8-15 tokens/sec (7B models), 15-25 tokens/sec (3B models)
 
 ## 🚀 BUILD/LINT/TEST COMMANDS
 
@@ -209,6 +264,11 @@ use Webmozart\Assert\Assert;
 - **snake_case**: `created_at`, `updated_by`
 - **Foreign Keys**: `user_id`, `team_id`
 - **Timestamps**: Standard Laravel conventions
+
+#### Database Folders (CRITICAL)
+- **ALWAYS use lowercase**: `database/factories/`, `database/migrations/`, `database/seeders/`
+- **NEVER use uppercase**: `Database/Factories/`, `Database/Migrations/`, `Database/Seeders/`
+- This is a case-sensitive project - wrong casing breaks autoloading
 
 ## 🏛️ ARCHITECTURAL PATTERNS
 
@@ -1320,9 +1380,140 @@ When creating or modifying features:
 
 ---
 
-**Last Updated**: 2026-03-02  
+## 📚 DOCUMENTATION GOVERNANCE
+
+### CRITICAL: No Temporal Strings
+
+**RULE**: NEVER include temporal strings in documentation files.
+
+❌ **FORBIDDEN**:
+```markdown
+**Last Updated**: 2026-03-02
+**Next Review**: 2026-03-16
+Updated: January 2025
+*Last Updated: March 12, 2026*
+```
+
+✅ **CORRECT**: Use git for temporal tracking
+```bash
+git log --follow docs/file.md
+git blame docs/file.md
+```
+
+**Why**:
+1. Timeless documentation - good docs are evergreen
+2. Git history tracks when changes happened
+3. No maintenance burden for date updates
+4. Old dates discourage readers
+
+### Documentation Structure
+
+**Standard Module Structure**:
+```
+Modules/ModuleName/
+├── docs/
+│   ├── README.md              # Module overview & quick reference
+│   ├── architecture/          # Architecture decisions
+│   ├── guides/                # How-to guides
+│   ├── references/            # API references
+│   ├── best-practices/        # Best practices
+│   └── troubleshooting/       # Troubleshooting
+```
+
+**Standard Theme Structure**:
+```
+Themes/ThemeName/
+├── docs/
+│   ├── README.md              # Theme overview
+│   ├── getting-started/       # Installation & setup
+│   ├── components/            # Component documentation
+│   ├── customization/         # Customization guides
+│   └── build-system/          # Build processes
+```
+
+### File Naming Conventions
+
+✅ **CORRECT**:
+- `user-authentication.md` (kebab-case, lowercase)
+- `00-index.md` (numeric prefix for ordering)
+- `README.md`, `CHANGELOG.md` (standards)
+
+❌ **WRONG**:
+- `UserAuthentication.md` (PascalCase)
+- `USER_AUTHENTICATION.md` (UPPERCASE)
+- `temp.md`, `test.md` (non-descriptive)
+
+### Documentation Quality Standards
+
+**Every Document Must Have**:
+1. Clear purpose statement
+2. Target audience defined
+3. Prerequisites (if any)
+4. Practical examples
+5. Related documents linked
+6. No duplicate content
+
+**Content Requirements**:
+- English primary (Italian only for AGID compliance)
+- Active voice ("Do this" not "This should be done")
+- Simple sentences (one idea per sentence)
+- Consistent terminology (use glossary)
+
+### Documentation Types
+
+1. **README.md**: Module/theme overview with quick reference
+2. **Guides**: Step-by-step tutorials
+3. **References**: API documentation, class signatures
+4. **ADRs**: Architectural Decision Records
+5. **Best Practices**: Coding standards and patterns
+6. **Troubleshooting**: Common issues and solutions
+
+### Before Creating Documentation
+
+1. **Search Existing**: Check if topic already documented
+2. **Define Purpose**: Why is this needed?
+3. **Choose Location**: Correct directory structure
+4. **Follow Template**: Use standard format
+5. **Link to Index**: Add to module README
+
+### After Creating Documentation
+
+1. **Update Index**: Add to module README
+2. **Cross-Reference**: Link from related docs
+3. **Remove Duplicates**: Check for overlapping content
+4. **Verify Links**: Test all internal links
+5. **Git Commit**: Commit with clear message
+
+### Documentation Resources
+
+- [Master Documentation Index](docs/MASTER_DOCUMENTATION_INDEX.md)
+- [Documentation Governance](docs/DOCUMENTATION_GOVERNANCE.md)
+- [Documentation Improvement Plan](docs/DOCUMENTATION_ANALYSIS_AND_IMPROVEMENT_PLAN.md)
+
+---
+
+## 📊 PROJECT STATUS
+
+### Documentation Health
+
+| Metric | Target | Status |
+|--------|--------|--------|
+| Temporal Strings | 0 | ✅ Complete (784 removed) |
+| Master Index | Created | ✅ Complete |
+| Governance | Documented | ✅ Complete |
+| Duplicate Cleanup | In Progress | 🟡 Ongoing |
+| Xot Audit | In Progress | 🟡 Ongoing |
+
+### Recent Changes
+
+- ✅ **2026-03-13**: Database directory naming fix (Factories→factories, etc.)
+- ✅ **2026-03-13**: Removed all temporal strings from documentation
+- ✅ **2026-03-13**: Created documentation governance framework
+- ✅ **2026-03-13**: Created master documentation index
+
+---
+
 **Filament Version**: 4.x → 5.x Migration Target  
 **PHPStan Level**: 10 (Maximum)  
 **Test Coverage**: 90%+ Target  
-**PHPStan Errors**: 138 (down from 155+, 11% reduction)  
 **Logging Performance**: CRITICAL - NEVER use Log::info() for routine operations

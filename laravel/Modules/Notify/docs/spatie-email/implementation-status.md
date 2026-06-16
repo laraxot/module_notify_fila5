@@ -6,7 +6,6 @@ Questo documento tiene traccia dello stato di implementazione delle email utiliz
 
 1. **Struttura Base**:
    - Configurato il modello `MailTemplate` per utilizzare il trait `HasTranslations`
-   - Aggiornato il metodo `casts()` per seguire le convenzioni Laravel 12
    - Creato documentazione su best practices per gestione traduzioni
 
 2. **Documentazione**:

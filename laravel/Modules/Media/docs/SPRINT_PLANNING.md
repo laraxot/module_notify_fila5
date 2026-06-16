@@ -65,4 +65,3 @@ Implement core media upload and storage system with basic transformations.
 
 ---
 
-*Last Updated: March 12, 2026*

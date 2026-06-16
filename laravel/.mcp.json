@@ -1,9 +1,8 @@
 {
     "mcpServers": {
         "laravel-boost": {
-            "command": "wsl.exe",
+            "command": "php",
             "args": [
-                "/usr/bin/php8.3",
                 "/var/www/_bases/base_fixcity_fila5/laravel/artisan",
                 "boost:mcp"
             ]
@@ -20,7 +19,7 @@
             "args": [
                 "-y",
                 "@modelcontextprotocol/server-filesystem",
-                "/var/www/html/_bases/base_fixcity_fila5_mono/laravel"
+                "/var/www/_bases/base_fixcity_fila5"
             ]
         },
         "sqlite": {
@@ -28,7 +27,7 @@
             "args": [
                 "-y",
                 "@modelcontextprotocol/server-sqlite",
-                "/var/www/html/_bases/base_fixcity_fila5_mono/laravel/database/database.sqlite"
+                "/var/www/_bases/base_fixcity_fila5/laravel/database/database.sqlite"
             ]
         },
         "sequential-thinking": {
@@ -52,15 +51,8 @@
                 "@modelcontextprotocol/server-github"
             ],
             "env": {
-                "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+                "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
             }
-        },
-        "puppeteer": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "@modelcontextprotocol/server-puppeteer"
-            ]
         }
     }
 }

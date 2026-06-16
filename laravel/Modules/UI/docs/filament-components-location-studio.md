@@ -63,7 +63,6 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 
 ## Integrazione nel FindDoctorAndAppointmentWidget
 
-### Step 1: Search Step (Aggiornato)
 
 ```php
 protected function getSearchStepSchema(): array
@@ -311,7 +310,6 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 
 ## Integrazione nel FindDoctorAndAppointmentWidget
 
-### Step 1: Search Step (Aggiornato)
 
 ```php
 protected function getSearchStepSchema(): array

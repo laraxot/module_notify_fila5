@@ -64,4 +64,3 @@ Launch core commenting system with CRUD, threading, and basic moderation.
 
 ---
 
-*Last Updated: March 12, 2026*
