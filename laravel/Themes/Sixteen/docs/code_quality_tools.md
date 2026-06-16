@@ -13,6 +13,11 @@ Il tema Sixteen utilizza una suite completa di strumenti di analisi del codice p
 
 ## 🛠️ STRUMENTI INTEGRATI
 
+### **Backend PHP (progetto)**
+
+- **PHPMD**: `php tools/phpmd.phar` — scaricare da phpmd.org
+- **PHPInsights**: `php tools/phpinsights.phar` — build locale, vedi [docs/phpinsights-phar-build](../../../docs/phpinsights-phar-build.md)
+
 ### **Frontend**
 - **ESLint**: ✅ Configurato
 - **Prettier**: ✅ Configurato

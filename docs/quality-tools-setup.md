@@ -23,7 +23,8 @@
 
 ### PHPInsights
 
-- **Installazione**: Verificare releases GitHub per phar. Se non disponibile, build con box.
+- **Installazione**: Build locale con box — vedi [phpinsights-phar-build](phpinsights-phar-build.md)
+- **Build**: `cd laravel/tools/build-phpinsights && ./build.sh`
 - **Comando**: `cd laravel && php tools/phpinsights.phar analyse Modules --no-interaction`
 
 ### Struttura
@@ -40,5 +41,6 @@ laravel/tools/
 
 ## Collegamenti
 
-- phpstan-level-10-rules.md
-- .cursor/rules/error-resolution-process.mdc
+- [phpinsights-phar-build](phpinsights-phar-build.md)
+- [phpstan-level-10-rules](phpstan-level-10-rules.md)
+- [.cursor/rules/error-resolution-process.mdc](../.cursor/rules/error-resolution-process.mdc)
