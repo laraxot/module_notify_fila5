@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - dev
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,27 +19,33 @@ jobs:
 
     steps:
       - name: Checkout main repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
-          token: ${{ github.token }}
+          token: ${{ secrets.BASHSCRIPTS_TOKEN || github.token }}
           submodules: false
 
       - name: Configure Git authentication
         run: |
+          TOKEN="${{ secrets.BASHSCRIPTS_TOKEN }}"
+          if [ -z "$TOKEN" ]; then
+            TOKEN="${{ github.token }}"
+          fi
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git config --global core.symlinks false
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config --global --add safe.directory "$GITHUB_WORKSPACE/bashscripts"
-          git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "git@github.com:"
+          git config --global url."https://x-access-token:${TOKEN}@github.com/".insteadOf "git@github.com:"
+          git config --global url."https://x-access-token:${TOKEN}@github.com/".insteadOf "ssh://git@github.com/"
+          git config --global url."https://x-access-token:${TOKEN}@github.com/".insteadOf "https://github.com/"
 
       - name: Checkout bashscripts repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: laraxot/bashscripts_fila5
           ref: dev
-          token: ${{ secrets.BASHSCRIPTS_TOKEN }}
+          token: ${{ secrets.BASHSCRIPTS_TOKEN || github.token }}
           path: bashscripts
           fetch-depth: 0
           sparse-checkout: |
@@ -56,27 +63,40 @@ jobs:
       - name: Run remote sync
         run: |
           chmod +x bashscripts/git/subtrees/sync_remote_repo.sh
-          bashscripts/git/subtrees/sync_remote_repo.sh laraxot
+          bash bashscripts/git/subtrees/sync_remote_repo.sh laraxot
         env:
           BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
           CI: true
+          SKIP_SUBTREE_BACKUP: "1"
 
-      - name: Commit synced files to main repository
+      - name: Configure Git for committing
         run: |
-          git status --short
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
 
+      - name: Commit and push synced changes
+        run: |
+          echo "🔍 Checking for changes..."
+          git status --short
+          
           if [ -z "$(git status --porcelain)" ]; then
-            echo "No changes produced by sync_remote_repo.sh"
+            echo "✅ No changes - all subtrees already in sync"
             exit 0
           fi
-
+          
+          echo "📝 Changes detected, committing..."
           git add -A .
-          # We don't reset bashscripts anymore to ensure everything is captured if needed,
-          # but usually bashscripts is in .gitignore or checked out as a separate path.
-          # If it's a separate repo checkout inside the main one, git add -A might ignore it anyway
-          # unless it's a submodule.
-
-          git commit -m "chore: persist synced remote repo changes [skip ci]"
-          git pull --rebase origin dev
-          git push origin HEAD:dev
+          git commit -m "chore: sync remote subtrees [skip ci]"
+          
+          echo "🔄 Pulling latest changes..."
+          git pull --rebase origin dev || true
+          
+          echo "⬆️ Pushing changes..."
+          git push origin HEAD:dev || {
+            echo "❌ Push failed, pulling again and retrying..."
+            git pull --rebase origin dev
+            git push origin HEAD:dev
+          }
+          
+          echo "✅ Sync complete and changes pushed!"
