@@ -1,7 +1,7 @@
 # claudeMd
 Codebase and user instructions are shown below. Be sure to adhere to these instructions. IMPORTANT: These instructions OVERRIDE any default behavior and you MUST follow them exactly as written.
 
-Contents of /var/www/html/_bases/base_fixcity_fila3_mono/laravel/CLAUDE.md (project instructions, checked into the codebase):
+Contents of /var/www/html/_bases/base_fixcity_fila5_mono/laravel/CLAUDE.md (project instructions, checked into the codebase):
 
 <laravel-boost-guidelines>
 === foundation rules ===
@@ -676,7 +676,7 @@ it('has emails', function (string $email) {
 
 ### Required Commands (ALWAYS):
 ```bash
-cd /var/www/html/_bases/base_fixcity_fila3_mono/laravel/Themes/Sixteen
+cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
 npm run build
 npm run copy
 ```

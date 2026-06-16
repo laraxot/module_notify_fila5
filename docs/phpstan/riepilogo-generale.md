@@ -1,6 +1,6 @@
 # Riepilogo Generale - PHPStan Level 10 Compliance
 
-**Progetto:** base_fixcity_fila4_mono  
+**Progetto:** base_fixcity_fila5_mono  
 **Data Aggiornamento:** 10 Ottobre 2025  
 **PHPStan Level:** 10 (Massimo)
 
@@ -150,7 +150,7 @@ return [
 
 ### Step 1: Analisi Iniziale
 ```bash
-cd /var/www/_bases/base_fixcity_fila4_mono/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 ./vendor/bin/phpstan analyse Modules/ModuleName
 ```
 
@@ -322,7 +322,7 @@ echo "✅ PHPStan OK - Procedo con commit"
 
 ---
 
-**Riepilogo Generale PHPStan - Progetto base_fixcity_fila4_mono**  
+**Riepilogo Generale PHPStan - Progetto base_fixcity_fila5_mono**  
 **Qualità Codice - Zero Compromessi** 🏆  
 **Aggiornato:** 10 Ottobre 2025
 
