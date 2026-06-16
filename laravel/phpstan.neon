@@ -1,0 +1,65 @@
+includes:
+    # - ./phpstan-baseline.neon  # DISABLED: Gli errori vanno corretti, non ignorati!
+    - ./vendor/larastan/larastan/extension.neon  
+    - ./vendor/nesbot/carbon/extension.neon
+    - ./vendor/phpstan/phpstan/conf/bleedingEdge.neon
+    - ./vendor/thecodingmachine/phpstan-safe-rule/phpstan-safe-rule.neon
+    - ./vendor/pestphp/pest/extension.neon
+
+parameters:
+    level: max
+    #parallel:
+    #    maximumNumberOfProcesses: 4
+    #    jobSize: 1
+    #    minimumNumberOfJobsPerProcess: 1
+
+    paths:
+        - ./Modules/
+        - ./Themes/
+        # - ./app
+
+    ignoreErrors:
+        - '#PHPDoc tag @mixin contains unknown class #'
+        - '#Static call to instance method Nwidart#'
+        - '#is used zero times and is not analysed#'
+        - "#^Unsafe usage of new static#"
+        # - '#Method .+::.+ should return .+<.+, (.+)> but returns .+<.+, \$this\(\1\)>#' # Ignora errori di covarianza nei tipi generici delle relazioni Eloquent
+        - '#Cannot cast mixed to (string|float|double|int|bool|boolean).#' # Ignora errori di cast da mixed a tipi specifici
+        - identifier: missingType.generics
+        - identifier: missingType.iterableValue
+        - identifier: larastan.noEnvCallsOutsideOfConfig
+        - identifier: method.unused
+        #- identifier: method.internalClass #per i tests
+        #- identifier: new.internalClass  #per i tests
+        # - identifier: property.notFound  # Pest closure $this-> dynamic properties
+        # - identifier: method.nonObject  # Pest/Laravel testing method chains on mixed
+        # - identifier: argument.templateType  # Pest expect() template type resolution
+        # - identifier: property.nonObject  # Test accessing properties on mixed/dynamic objects
+        # - identifier: offsetAccess.nonOffsetAccessible  # Array access on mixed in tests
+        # - identifier: method.notFound  # Test helper methods from traits/parents
+
+    excludePaths:
+        - ./*/vendor/*
+        - ./*/build/*
+        - ./*/docs/*
+        - ./*/packages/*
+        - ./*/phpinsights.php
+        - ./*/rector.php
+        - ./*/*.blade.php
+        - ./*/tests/*
+        - ./Modules/Media/app/Actions/Image/Merge.php
+        # - ./Modules/Xot/app/Filament/Traits/HasXotTable.php
+
+    bootstrapFiles:
+        # - ./phpstan_bootstrap.php
+        - ./phpstan_constants.php
+        # - ./vendor/amenadiel/jpgraph/src/config.inc.php
+
+    scanFiles:
+        - ./Modules/Xot/Helpers/Helper.php
+        - ./_ide_helper_models.php
+
+    editorUrl: 'vscode://file/%%file%%:%%line%%'
+    tmpDir: /tmp/phpstan
+    treatPhpDocTypesAsCertain: false
+    reportUnmatchedIgnoredErrors: false
