@@ -10,6 +10,27 @@
     "content_blocks": {
         "it": [
             {
+                "id": "block-breadcrumb",
+                "type": "breadcrumb",
+                "weight": 5,
+                "active": true,
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "outer_container": true,
+                    "container_id": "main-container",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Lista Argomenti",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
                 "id": "block-hero",
                 "type": "hero",
                 "weight": 10,
@@ -29,7 +50,7 @@
                 "data": {
                     "view": "pub_theme::components.blocks.topics-highlight",
                     "title": "In evidenza",
-                    "topics": [
+                    "items": [
                         {
                             "title": "Cultura",
                             "image": "https://picsum.photos/376/488",
@@ -82,22 +103,48 @@
             },
             {
                 "id": "block-feedback",
-                "type": "feedback-rating",
+                "type": "feedback",
                 "weight": 40,
                 "active": true,
                 "data": {
-                    "view": "pub_theme::components.blocks.feedback.rating",
-                    "title": "Quanto sono chiare le informazioni su questa pagina?"
+                    "view": "pub_theme::components.blocks.feedback.faq-rating",
+                    "title": "Quanto sono chiare le informazioni su questa pagina?",
+                    "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
                 }
             },
             {
                 "id": "block-contacts",
-                "type": "contact-info",
+                "type": "contacts",
                 "weight": 50,
                 "active": true,
                 "data": {
-                    "view": "pub_theme::components.blocks.contact.default",
-                    "title": "Contatta il comune"
+                    "view": "pub_theme::components.blocks.contacts.faq",
+                    "contact_title": "Contatta il comune",
+                    "contacts": [
+                        {
+                            "label": "Leggi le domande frequenti",
+                            "url": "/it/tests/domande-frequenti"
+                        },
+                        {
+                            "label": "Richiedi assistenza",
+                            "url": "/it/tests/assistenza-01-dati"
+                        },
+                        {
+                            "label": "Chiama il numero verde 05 0505",
+                            "url": "tel:050505"
+                        },
+                        {
+                            "label": "Prenota appuntamento",
+                            "url": "/it/tests/appuntamento-01-ufficio"
+                        }
+                    ],
+                    "issues_title": "Problemi in città",
+                    "issues": [
+                        {
+                            "label": "Segnala disservizio",
+                            "url": "/it/tests/segnalazione-dettaglio"
+                        }
+                    ]
                 }
             }
         ],

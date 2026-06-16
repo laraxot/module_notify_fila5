@@ -121,3 +121,15 @@ Esito del passaggio:
 Script canonici e documentazione tecnica:
 - [Bashscripts homepage inspectors](../../../../bashscripts/docs/homepage-visual-parity/inspectors.md)
 - [Bashscripts homepage inspectors index](../../../../bashscripts/docs/homepage-visual-parity/README.md)
+
+## CTA Read More Status
+
+Analisi dedicata:
+- [readmore-analysis.md](./screenshots/homepage-parity/readmore-analysis.md)
+- [Bashscripts homepage inspectors](../../../../bashscripts/docs/homepage-visual-parity/inspectors.md)
+
+Stato corrente del primo CTA `VAI ALLA PAGINA`:
+- colore verde allineato al riferimento
+- icona freccia riallineata a `32x16`
+- padding e altezza del wrapper riallineati a `16/0/0/16` e `40px`
+- residuo ancora aperto: il testo locale rende piu stretto del riferimento e il CTA occupa circa `159px` invece di `172.5px`

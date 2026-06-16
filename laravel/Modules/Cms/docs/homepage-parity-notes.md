@@ -18,3 +18,13 @@ Confronto attuale utile della shell pagina:
 - figli immediati di `main` allineati nello stesso ordine
 
 Quindi la fase corrente resta coerente con il piano: mantenere la struttura CMS e rifinire i residui nel tema con CSS/JS.
+
+## Tooling e docs correnti
+
+Per i controlli visuali ripetibili il tooling canonico non e piu in `/tmp` ma qui:
+- [inspectors.md](/var/www/_bases/base_fixcity_fila5/bashscripts/docs/homepage-visual-parity/inspectors.md)
+- [inspect-readmore.mjs](/var/www/_bases/base_fixcity_fila5/bashscripts/inspectors/homepage-visual-parity/inspect-readmore.mjs)
+
+Nota CMS aggiornata:
+- i residui attivi della homepage sono quasi tutti nel tema Sixteen
+- il confronto del CTA `VAI ALLA PAGINA` e tracciato in [readmore-analysis.md](/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/design-comuni/screenshots/homepage-parity/readmore-analysis.md)

@@ -5,10 +5,10 @@ Documento collegato: [work-plan.md](./work-plan.md)
 ## BMAD
 
 ### Analyze
-Rivalutata la homepage confrontando screenshot full-page reference vs locale dopo i pass su hero, governance, lower-page rhythm e governance+contacts tuning.
+Rivalutata la homepage confrontando screenshot full-page reference vs locale dopo cinque loop di refine.
 
 ### Decide
-Il loop finale corrente stringe solo due residui rimasti: hero first viewport e prima governance card con immagine.
+Il full-page e' sensibilmente piu' vicino alla reference rispetto allo stato iniziale, ma la hero first viewport resta il punto piu' instabile e delicato del sistema di override.
 
 ### Act
 Applicati cinque loop principali:
@@ -35,13 +35,16 @@ Ogni loop continua a chiudersi con:
 - governance pass
 - lower-page rhythm pass
 - governance + contacts tuning pass
-- screenshot pass4 desktop/full-page
+- final hero/governance loop
+- screenshot pass5 desktop/full-page
 - documentazione continua BMAD/GSD
 
-### In progress
-- final hero/governance loop
-- verifica del delta residuo finale
+### Stato operativo reale
+- struttura HTML: buona, oltre 90%
+- full-page: molto piu' vicino alla reference rispetto all'inizio
+- hero: ancora non pixel-identica
+- governance cards: migliorate, ma non perfette
 
 ### Next
-- build e screenshot pass5
-- valutazione finale realistica dello stato di parity
+- tenere come baseline il pass5
+- se si continua: lavorare solo su hero first viewport con pass molto piu' piccoli

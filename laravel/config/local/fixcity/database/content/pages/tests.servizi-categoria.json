@@ -5,38 +5,61 @@
         "en": "Categoria di servizio"
     },
     "slug": "tests.servizi-categoria",
+    "category": "Generali",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "tests",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Servizi",
+                            "url": "/it/tests/servizi"
+                        },
+                        {
+                            "label": "Categoria di servizio",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
                     "title": "Categoria di servizio",
-                    "category": "Servizi",
-                    "summary": "La pagina dei servizi appartenenti a una specifica categoria.",
-                    "slug": "tests.servizi-categoria"
+                    "subtitle": "",
+                    "content": "<p>Elenco dei servizi appartenenti a questa categoria.</p>"
                 }
             },
             {
-                "type": "tests",
+                "type": "card-list",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "La conversione isola titolo categoria, descrizione, lista servizi e collegamenti trasversali."
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/servizi-categoria.html"
+                    "view": "pub_theme::components.blocks.card.list",
+                    "title": "Servizi",
+                    "items": [
+                        {
+                            "title": "Servizio 1",
+                            "excerpt": "Descrizione servizio 1",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Servizio 2",
+                            "excerpt": "Descrizione servizio 2",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Servizio 3",
+                            "excerpt": "Descrizione servizio 3",
+                            "url": "#"
+                        }
+                    ]
                 }
             }
         ],
