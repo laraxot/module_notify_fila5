@@ -42,10 +42,14 @@
   "autoload-dev": {
     "psr-4": {
       "Modules\\Notify\\Tests\\": "tests/"
+<<<<<<< HEAD
     },
     "files": [
       "tests/Pest.php"
     ]
+=======
+    }
+>>>>>>> 929ed821d (.)
   },
   "require": {
     "aws/aws-sdk-php": "*",

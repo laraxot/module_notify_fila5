@@ -17,6 +17,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 // BaseModel in same namespace provides common behaviors
 /**
+<<<<<<< HEAD
  * @property int $id
  * @property int $template_id
  * @property string|null $subject
@@ -30,6 +31,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $change_notes
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+=======
+>>>>>>> 929ed821d (.)
  * @property-read Profile|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
@@ -41,6 +44,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
  *
+<<<<<<< HEAD
+=======
+ * @mixin IdeHelperNotificationTemplateVersion
+ *
+>>>>>>> 929ed821d (.)
  * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
@@ -62,13 +70,20 @@ class NotificationTemplateVersion extends BaseModel
         'change_notes',
     ];
 
+<<<<<<< HEAD
     /** @return BelongsTo<NotificationTemplate, $this> */
+=======
+>>>>>>> 929ed821d (.)
     public function template(): BelongsTo
     {
         return $this->belongsTo(NotificationTemplate::class, 'template_id');
     }
 
+<<<<<<< HEAD
     public function restoreTemplate(): NotificationTemplate
+=======
+    public function restore(): NotificationTemplate
+>>>>>>> 929ed821d (.)
     {
         $template = $this->template;
 

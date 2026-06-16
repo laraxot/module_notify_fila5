@@ -18,9 +18,12 @@ class TicketStatusChangedNotification extends Notification
         public string $newStatus
     ) {}
 
+<<<<<<< HEAD
     /**
      * @return list<string>
      */
+=======
+>>>>>>> 929ed821d (.)
     public function via(mixed $notifiable): array
     {
         return ['mail', 'database'];

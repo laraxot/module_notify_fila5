@@ -29,7 +29,10 @@ use Override;
  */
 class SendFirebasePushNotificationPage extends XotBasePage
 {
+<<<<<<< HEAD
     /** @var array<string, mixed>|null */
+=======
+>>>>>>> 929ed821d (.)
     public ?array $pushData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-bell-alert';
@@ -151,11 +154,18 @@ class SendFirebasePushNotificationPage extends XotBasePage
         }
     }
 
+<<<<<<< HEAD
     /** @return array<string, \Filament\Actions\Action> */
     protected function getPushFormActions(): array
     {
         return [
             'submit' => Action::make('sendPushNotification')
+=======
+    protected function getPushFormActions(): array
+    {
+        return [
+            Action::make('sendPushNotification')
+>>>>>>> 929ed821d (.)
                 ->label(__('notify::push.actions.send'))
                 ->submit('sendPushNotification'),
         ];

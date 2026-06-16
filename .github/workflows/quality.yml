@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 name: Notify Quality Checks
 =======
 name: Activity Quality Checks
 >>>>>>> 0314e8a24 (.)
+=======
+name: Notify Quality Checks
+>>>>>>> 929ed821d (.)
 
 on:
   push:
@@ -11,20 +15,28 @@ on:
       - main
     paths:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - 'laravel/Modules/Notify/**'
 =======
       - 'laravel/Modules/Activity/**'
 >>>>>>> 0314e8a24 (.)
+=======
+      - 'laravel/Modules/Notify/**'
+>>>>>>> 929ed821d (.)
   pull_request:
     branches:
       - develop
       - main
     paths:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - 'laravel/Modules/Notify/**'
 =======
       - 'laravel/Modules/Activity/**'
 >>>>>>> 0314e8a24 (.)
+=======
+      - 'laravel/Modules/Notify/**'
+>>>>>>> 929ed821d (.)
 
 jobs:
   quality:
@@ -33,10 +45,14 @@ jobs:
     
     steps:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - uses: actions/checkout@v5
 =======
       - uses: actions/checkout@v4
 >>>>>>> 0314e8a24 (.)
+=======
+      - uses: actions/checkout@v5
+>>>>>>> 929ed821d (.)
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -55,20 +71,28 @@ jobs:
         working-directory: laravel
         run: |
 <<<<<<< HEAD
+<<<<<<< HEAD
           ./vendor/bin/phpstan analyse Modules/Notify --level=10 --memory-limit=-1 || true
 =======
           ./vendor/bin/phpstan analyse Modules/Activity --level=10 --memory-limit=-1 || true
 >>>>>>> 0314e8a24 (.)
+=======
+          ./vendor/bin/phpstan analyse Modules/Notify --level=10 --memory-limit=-1 || true
+>>>>>>> 929ed821d (.)
 
       - name: Run PHPMD
         working-directory: laravel
         run: |
           if [ -f phpmd.phar ]; then
 <<<<<<< HEAD
+<<<<<<< HEAD
             php phpmd.phar Modules/Notify text cleancode,codesize,design,naming,unusedcode || true
 =======
             php phpmd.phar Modules/Activity text cleancode,codesize,design,naming,unusedcode || true
 >>>>>>> 0314e8a24 (.)
+=======
+            php phpmd.phar Modules/Notify text cleancode,codesize,design,naming,unusedcode || true
+>>>>>>> 929ed821d (.)
           else
             echo "PHPMD not found, skipping..."
           fi
@@ -77,20 +101,28 @@ jobs:
         working-directory: laravel
         run: |
 <<<<<<< HEAD
+<<<<<<< HEAD
           ./vendor/bin/pint Modules/Notify || true
 =======
           ./vendor/bin/pint Modules/Activity || true
 >>>>>>> 0314e8a24 (.)
+=======
+          ./vendor/bin/pint Modules/Notify || true
+>>>>>>> 929ed821d (.)
 
       - name: Run PHPInsights
         working-directory: laravel
         run: |
           if [ -f vendor/bin/phpinsights ]; then
 <<<<<<< HEAD
+<<<<<<< HEAD
             ./vendor/bin/phpinsights analyse Modules/Notify --format=table --no-interaction || true
 =======
             ./vendor/bin/phpinsights analyse Modules/Activity --format=table --no-interaction || true
 >>>>>>> 0314e8a24 (.)
+=======
+            ./vendor/bin/phpinsights analyse Modules/Notify --format=table --no-interaction || true
+>>>>>>> 929ed821d (.)
           else
             echo "PHPInsights not found, skipping..."
           fi

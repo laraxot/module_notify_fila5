@@ -35,7 +35,10 @@ class SendTelegram extends XotBasePage
 {
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
     /** @var array<string, mixed>|null */
+=======
+>>>>>>> 929ed821d (.)
     public ?array $emailData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -111,11 +114,18 @@ class SendTelegram extends XotBasePage
         ];
     }
 
+<<<<<<< HEAD
     /** @return array<string, \Filament\Actions\Action> */
     protected function getEmailFormActions(): array
     {
         return [
             'submit' => Action::make('emailFormActions')
+=======
+    protected function getEmailFormActions(): array
+    {
+        return [
+            Action::make('emailFormActions')
+>>>>>>> 929ed821d (.)
 
                 ->submit('emailFormActions'),
         ];

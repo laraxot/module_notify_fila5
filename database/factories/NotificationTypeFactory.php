@@ -7,6 +7,7 @@ namespace Modules\Notify\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\NotificationType;
 
+<<<<<<< HEAD
 /**
  * @extends Factory<NotificationType>
  */
@@ -16,6 +17,11 @@ class NotificationTypeFactory extends Factory
     /**
      * @return array<string, mixed>
      */
+=======
+class NotificationTypeFactory extends Factory
+{
+    protected $model = NotificationType::class;
+>>>>>>> 929ed821d (.)
 
     public function definition(): array
     {

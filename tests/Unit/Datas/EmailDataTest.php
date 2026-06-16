@@ -3,14 +3,20 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Datas;
+<<<<<<< HEAD
 use Modules\Notify\Datas\EmailData;
 use PHPUnit\Framework\Assert;
+=======
+
+use Modules\Notify\Datas\EmailData;
+>>>>>>> 929ed821d (.)
 use Spatie\LaravelData\Data;
 
 describe('EmailData', function () {
     it('can be instantiated via reflection without constructor', function () {
         $reflection = new \ReflectionClass(EmailData::class);
 
+<<<<<<< HEAD
         Assert::assertTrue($reflection->isInstantiable());
     });
 
@@ -28,11 +34,34 @@ describe('EmailData', function () {
         \assertListContains('body_html', $propertyNames);
         \assertListContains('body', $propertyNames);
         \assertListContains('attachments', $propertyNames);
+=======
+        expect($reflection->isInstantiable())->toBeTrue();
+    });
+
+    it('has correct namespace', function () {
+        expect(EmailData::class)->toStartWith('Modules\Notify\Datas');
+    });
+
+    it('has required properties', function () {
+        $reflection = new \ReflectionClass(EmailData::class);
+        $properties = $reflection->getProperties();
+
+        $propertyNames = array_map(fn ($p) => $p->getName(), $properties);
+
+        expect($propertyNames)->toContain('recipient');
+        expect($propertyNames)->toContain('from');
+        expect($propertyNames)->toContain('from_email');
+        expect($propertyNames)->toContain('subject');
+        expect($propertyNames)->toContain('body_html');
+        expect($propertyNames)->toContain('body');
+        expect($propertyNames)->toContain('attachments');
+>>>>>>> 929ed821d (.)
     });
 
     it('extends Spatie Data', function () {
         $reflection = new \ReflectionClass(EmailData::class);
 
+<<<<<<< HEAD
         Assert::assertTrue($reflection->isSubclassOf(Data::class));
     });
 
@@ -58,5 +87,27 @@ describe('EmailData', function () {
         $reflection = new \ReflectionClass(EmailData::class);
         $fromMethod = $reflection->getMethod('from');
         Assert::assertTrue($fromMethod->isStatic());
+=======
+        expect($reflection->isSubclassOf(Data::class))->toBeTrue();
+    });
+
+    it('has getFrom method', function () {
+        expect(method_exists(EmailData::class, 'getFrom'))->toBeTrue();
+    });
+
+    it('has getMimeEmail method', function () {
+        expect(method_exists(EmailData::class, 'getMimeEmail'))->toBeTrue();
+    });
+
+    it('has from method', function () {
+        expect(method_exists(EmailData::class, 'from'))->toBeTrue();
+    });
+
+    it('can create via static from method with valid data', function () {
+        // Use Reflection to avoid constructor execution
+        $reflection = new \ReflectionClass(EmailData::class);
+        $fromMethod = $reflection->getMethod('from');
+        expect($fromMethod->isStatic())->toBeTrue();
+>>>>>>> 929ed821d (.)
     });
 });

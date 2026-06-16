@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Enums;
 
+<<<<<<< HEAD
 use Modules\Xot\Traits\EnumTrait;
 
+=======
+>>>>>>> 929ed821d (.)
 /**
  * Enum per i driver Telegram supportati
  *
@@ -14,8 +17,11 @@ use Modules\Xot\Traits\EnumTrait;
  */
 enum TelegramDriverEnum: string
 {
+<<<<<<< HEAD
     use EnumTrait;
 
+=======
+>>>>>>> 929ed821d (.)
     case TELEGRAM = 'telegram';
     case BOTAPI = 'botapi';
     case LARAVEL_TELEGRAM = 'laravel-telegram';

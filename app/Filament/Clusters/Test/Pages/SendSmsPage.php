@@ -30,7 +30,10 @@ use Webmozart\Assert\Assert;
  */
 class SendSmsPage extends XotBasePage
 {
+<<<<<<< HEAD
     /** @var array<string, mixed>|null */
+=======
+>>>>>>> 929ed821d (.)
     public ?array $smsData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
@@ -141,7 +144,11 @@ class SendSmsPage extends XotBasePage
     protected function getSmsFormActions(): array
     {
         return [
+<<<<<<< HEAD
             'submit' => Action::make('send')
+=======
+            Action::make('send')
+>>>>>>> 929ed821d (.)
                 ->label(__('notify::sms.actions.send'))
                 ->icon('heroicon-o-paper-airplane')
                 ->color('primary')

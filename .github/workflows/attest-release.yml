@@ -8,21 +8,30 @@ permissions:
   id-token: write
   attestations: write
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 929ed821d (.)
   contents: write
 
 jobs:
   attest_and_upload:
+<<<<<<< HEAD
 =======
   contents: read
 
 jobs:
   attest:
 >>>>>>> 0314e8a24 (.)
+=======
+>>>>>>> 929ed821d (.)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 929ed821d (.)
 
       - name: Create Artifact
         run: |
@@ -38,6 +47,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release upload ${{ github.event.release.tag_name }} ${{ github.event.repository.name }}.zip
+<<<<<<< HEAD
 =======
       - name: Create release artifact
         run: |
@@ -47,3 +57,5 @@ jobs:
         with:
           subject-path: ${{ github.event.repository.name }}.zip
 >>>>>>> 0314e8a24 (.)
+=======
+>>>>>>> 929ed821d (.)

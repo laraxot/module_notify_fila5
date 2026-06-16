@@ -26,7 +26,11 @@ class EsendexSendAction
     public string $base_endpoint = 'https://app.messaggissima.it/API/v1.0/REST/';
 
     /**
+<<<<<<< HEAD
      * @return array<string, mixed>
+=======
+     * Sends an SMS message.
+>>>>>>> 929ed821d (.)
      */
     public function execute(SmsData $smsData): array
     {
@@ -81,12 +85,20 @@ class EsendexSendAction
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
 
+<<<<<<< HEAD
         /** @var array<string, mixed> $res */
+=======
+>>>>>>> 929ed821d (.)
         return $res;
     }
 
     /**
+<<<<<<< HEAD
      * @return array<int, string>|null
+=======
+     * Authenticates the user given it's username and password.
+     * Returns the pair user_key, Session_key.
+>>>>>>> 929ed821d (.)
      */
     public function login(): ?array
     {

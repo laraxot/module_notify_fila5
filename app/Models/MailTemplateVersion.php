@@ -23,7 +23,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $subject
  * @property string $html_template
  * @property string|null $text_template
+<<<<<<< HEAD
  * @property array<string, mixed>|null $metadata
+=======
+ * @property array|null $metadata
+>>>>>>> 929ed821d (.)
  * @property string|null $created_by
  * @property string|null $change_notes
  * @property Carbon|null $created_at
@@ -59,6 +63,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateVersion withTrashed()
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
  *
+<<<<<<< HEAD
+=======
+ * @mixin IdeHelperMailTemplateVersion
+ *
+>>>>>>> 929ed821d (.)
  * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
@@ -81,13 +90,20 @@ class MailTemplateVersion extends BaseModel
         'change_notes',
     ];
 
+<<<<<<< HEAD
     /** @return BelongsTo<MailTemplate, $this> */
+=======
+>>>>>>> 929ed821d (.)
     public function template(): BelongsTo
     {
         return $this->belongsTo(MailTemplate::class, 'template_id');
     }
 
+<<<<<<< HEAD
     public function restoreTemplate(): MailTemplate
+=======
+    public function restore(): MailTemplate
+>>>>>>> 929ed821d (.)
     {
         $template = $this->template;
 

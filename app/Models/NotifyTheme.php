@@ -36,8 +36,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $logo_src
  * @property int|null $logo_width
  * @property int|null $logo_height
+<<<<<<< HEAD
  * @property array<string, mixed> $view_params
  * @property array<string, mixed> $logo
+=======
+ * @property array $view_params
+ * @property array $logo
+>>>>>>> 929ed821d (.)
  * @property Model|Eloquent $linkable
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
@@ -74,9 +79,17 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
  *
+<<<<<<< HEAD
  * @property-read ProfileContract|null $deleter
  *
 
+=======
+ * @mixin IdeHelperNotifyTheme
+ *
+ * @property-read ProfileContract|null $deleter
+ *
+ * @mixin Eloquent
+>>>>>>> 929ed821d (.)
  */
 class NotifyTheme extends BaseModel
 {
@@ -104,10 +117,13 @@ class NotifyTheme extends BaseModel
         'logo',
     ];
 
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>|null  $value
      * @return array<string, mixed>
      */
+=======
+>>>>>>> 929ed821d (.)
     public function getLogoAttribute(?array $value): array
     {
         return [
@@ -121,7 +137,10 @@ class NotifyTheme extends BaseModel
     /**
      * Get the parent linkable model (user or post).
      */
+<<<<<<< HEAD
     /** @return MorphTo<Model, $this> */
+=======
+>>>>>>> 929ed821d (.)
     public function linkable(): MorphTo
     {
         return $this->morphTo('post');

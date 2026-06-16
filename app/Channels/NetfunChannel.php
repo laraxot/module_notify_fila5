@@ -19,7 +19,11 @@ class NetfunChannel
     }
 
     /**
+<<<<<<< HEAD
      * @return array<string, mixed>|null
+=======
+     * Invia la notifica tramite Netfun SMS
+>>>>>>> 929ed821d (.)
      */
     public function send(mixed $notifiable, Notification $notification): ?array
     {
@@ -53,11 +57,15 @@ class NetfunChannel
         // L'esecuzione avverrà in modo asincrono (in background)
         $result = $this->sendSMSAction->onQueue('sms')->execute($smsData);
 
+<<<<<<< HEAD
         if (! is_array($result)) {
             return null;
         }
 
         /** @var array<string, mixed> $result */
         return $result;
+=======
+        return is_array($result) ? $result : null;
+>>>>>>> 929ed821d (.)
     }
 }

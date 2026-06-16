@@ -11,9 +11,12 @@ use function Safe\preg_split;
  */
 class FormatSmsMessageAction
 {
+<<<<<<< HEAD
     /**
      * @return array{0: string, 1: int, 2: int}
      */
+=======
+>>>>>>> 929ed821d (.)
     public function execute(string $message): array
     {
         // Sanitizza i caratteri accentati
