@@ -14,7 +14,7 @@
 
 6. **View Pattern**: Per view() usare variabile `@phpstan-var view-string $viewName`, `$viewParams = []`, `return view($viewName, $viewParams)`. Vedi docs/view-pattern.md.
 
-7. **PHPMD e PHPInsights — SOLO .phar**: Non installare con Composer. Usare .phar: `php phpmd.phar`, `php phpinsights.phar`. Vedi docs/quality-tools-setup.md.
+7. **PHPMD e PHPInsights — SOLO .phar**: Non installare con Composer. Usare .phar: `php phpmd.phar`, `php phpinsights.phar`. Build PHPInsights: docs/phpinsights-phar-build.md. Uso: docs/quality-tools-setup.md.
 
 ## Documentation Rules
 
