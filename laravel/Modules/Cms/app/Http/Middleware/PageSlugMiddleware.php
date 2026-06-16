@@ -28,7 +28,6 @@ class PageSlugMiddleware
             return $response;
         }
 
-        /** @phpstan-ignore staticMethod.notFound (getMiddlewareBySlug in Page) */
         $middlewares = Page::getMiddlewareBySlug($slug);
         /** @var array<int, string> $middlewares */
         $middlewares = is_array($middlewares) ? $middlewares : [];
