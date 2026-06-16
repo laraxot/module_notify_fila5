@@ -26,18 +26,11 @@ class NotificationData extends Data
 
     public string $body;
 
-<<<<<<< HEAD
     /** @var list<string> */
     public array $channels = [];
 
     /**
      * @var DataCollection<int, AttachmentData>
-=======
-    public array $channels = [];
-
-    /**
-     * @var DataCollection<AttachmentData>
->>>>>>> 929ed821d (.)
      */
     public ?DataCollection $attachments = null;
 

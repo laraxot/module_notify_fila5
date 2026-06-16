@@ -28,10 +28,7 @@ use Webmozart\Assert\Assert;
  */
 class TestSmtpPage extends XotBasePage
 {
-<<<<<<< HEAD
     /** @var array<string, mixed>|null */
-=======
->>>>>>> 929ed821d (.)
     public ?array $emailData = [];
 
     public ?string $error_message = null;
@@ -114,18 +111,11 @@ class TestSmtpPage extends XotBasePage
         return ['emailForm'];
     }
 
-<<<<<<< HEAD
     /** @return array<string, \Filament\Actions\Action> */
     protected function getEmailFormActions(): array
     {
         return [
             'submit' => Action::make('emailFormActions')->submit('emailFormActions'),
-=======
-    protected function getEmailFormActions(): array
-    {
-        return [
-            Action::make('emailFormActions')->submit('emailFormActions'),
->>>>>>> 929ed821d (.)
         ];
     }
 

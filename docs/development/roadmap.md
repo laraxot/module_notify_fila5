@@ -96,7 +96,6 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../patient/docs/roadmap.md)
 * [roadmap.md](../../../cms/docs/roadmap.md)
 * [roadmap.md](../../../../themes/one/docs/roadmap.md)
-<<<<<<< HEAD
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
 * [roadmap.md](../../../Notify/docs/roadmap.md)
 * [roadmap.md](../../../Xot/docs/roadmap.md)
@@ -111,8 +110,6 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
-=======
->>>>>>> 929ed821d (.)
 
 # Roadmap Implementazione
 
@@ -261,10 +258,7 @@ Overall Module Completion: 60%
 - Ogni sezione ha il suo README.md specifico
 
 ## Contribuire
-<<<<<<< HEAD
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).
-=======
->>>>>>> 929ed821d (.)
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
@@ -274,9 +268,4 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 ### Versione Incoming
 
 
-<<<<<<< HEAD
 ---
-=======
----
-
->>>>>>> 929ed821d (.)

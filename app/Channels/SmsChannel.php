@@ -35,11 +35,7 @@ class SmsChannel
      *
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
-<<<<<<< HEAD
      * @return array<string, mixed>|null Risultato dell'operazione o null in caso di errore
-=======
-     * @return array|null Risultato dell'operazione o null in caso di errore
->>>>>>> 929ed821d (.)
      *
      * @throws Exception Se la notifica non ha il metodo toSms o il driver non è supportato
      */
@@ -57,13 +53,9 @@ class SmsChannel
 
         $action = $this->factory->create();
 
-<<<<<<< HEAD
         /** @var array<string, mixed> $result */
         $result = $action->execute($smsData);
 
         return $result;
-=======
-        return $action->execute($smsData);
->>>>>>> 929ed821d (.)
     }
 }

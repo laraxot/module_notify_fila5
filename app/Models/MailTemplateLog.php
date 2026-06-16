@@ -15,7 +15,6 @@ use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
-<<<<<<< HEAD
  * @property int|string $id
  * @property int|null $template_id
  * @property string|null $mailable_type
@@ -31,8 +30,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property \Illuminate\Support\Carbon|null $clicked_at
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
-=======
->>>>>>> 929ed821d (.)
  * @property-read ProfileContract|null $creator
  * @property-read Model|\Eloquent $mailable
  * @property-read MediaCollection<int, Media> $media
@@ -45,11 +42,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
  *
-<<<<<<< HEAD
-=======
- * @mixin IdeHelperMailTemplateLog
- *
->>>>>>> 929ed821d (.)
  * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
@@ -71,19 +63,13 @@ class MailTemplateLog extends BaseModel
         'clicked_at',
     ];
 
-<<<<<<< HEAD
     /** @return BelongsTo<MailTemplate, $this> */
-=======
->>>>>>> 929ed821d (.)
     public function template(): BelongsTo
     {
         return $this->belongsTo(MailTemplate::class, 'template_id');
     }
 
-<<<<<<< HEAD
     /** @return MorphTo<Model, $this> */
-=======
->>>>>>> 929ed821d (.)
     public function mailable(): MorphTo
     {
         return $this->morphTo();

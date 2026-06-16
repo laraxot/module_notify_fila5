@@ -164,7 +164,6 @@ public_html
 lang/lang/
 _docs/
 _docs/
-<<<<<<< HEAD
 
 # Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
 docs/archive/.devcontainer/
@@ -195,56 +194,5 @@ config/config
 *.rej
 *~head
 
-<<<<<<< HEAD
-=======
-.agents
-.ai
-.ai-context
-.claude
-.clauderules
-.cursor
-.cursor.*
-.gemini
-.devcontainer
-.windsurf
-.iflow
-.junie
-.phive
-.vscode
-.windsurf
-.windsurf.*
-.ai-context
-.clauderules
-
-docs/archive/build-phpinsights/
-laravel/tools/build-phpinsights/
-.agent/
-.antigravity/
-.clinerules/
-.codex/
-.continue/
-.cursorrules/
-.opencode/
-.zai/
-
-.antigravity
-.cline
-.clinerules
-.codebuddy
-.codex
-.continue
-.cursorrules
-
- .zai
-laravel/.antigravity
-laravel/.cline
-laravel/.clinerules
-laravel/.codebuddy
-laravel/.codex
-laravel/.continue
-laravel/.cursorrules
-laravel/.opencode
-laravel/.zai
->>>>>>> 0314e8a24 (.)
-=======
->>>>>>> 929ed821d (.)
+ruvector.db
+.ai*

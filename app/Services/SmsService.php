@@ -5,11 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Services;
 
 use Illuminate\Support\Str;
-<<<<<<< HEAD
-=======
 use ReflectionClass;
-use ReflectionException;
->>>>>>> 929ed821d (.)
 use RuntimeException;
 
 /**
@@ -119,11 +115,7 @@ class SmsService
 
         // Utilizziamo reflection per chiamare i metodi in modo sicuro
         try {
-<<<<<<< HEAD
-            $reflectionClass = new \ReflectionClass($instance);
-=======
             $reflectionClass = new ReflectionClass($instance);
->>>>>>> 929ed821d (.)
 
             // Chiamiamo setLocalVars
             $setLocalVarsMethod = $reflectionClass->getMethod('setLocalVars');
@@ -152,11 +144,7 @@ class SmsService
             }
 
             $this->mergeVars($typedResult);
-<<<<<<< HEAD
         } catch (\ReflectionException $e) {
-=======
-        } catch (ReflectionException $e) {
->>>>>>> 929ed821d (.)
             throw new RuntimeException('Errore durante la chiamata dei metodi: '.$e->getMessage());
         }
 

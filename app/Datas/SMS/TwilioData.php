@@ -35,12 +35,9 @@ class TwilioData extends Data
         return self::$instance;
     }
 
-<<<<<<< HEAD
     /**
      * @return array<string, string>
      */
-=======
->>>>>>> 929ed821d (.)
     public function getAuthHeaders(): array
     {
         switch ($this->auth_type) {

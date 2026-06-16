@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests;
 
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
@@ -16,14 +15,6 @@ use Modules\Notify\Services\NotificationManager;
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 use PHPUnit\Framework\Assert;
-=======
-use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
-use Modules\Notify\Providers\NotifyServiceProvider;
-use Modules\User\Providers\UserServiceProvider;
-use Modules\Xot\Providers\XotServiceProvider;
-use Modules\Xot\Tests\CreatesApplication;
->>>>>>> 929ed821d (.)
 
 /**
  * Base test case for Notify module.
@@ -32,7 +23,6 @@ use Modules\Xot\Tests\CreatesApplication;
  * All module connections are mapped by TenantServiceProvider.
  * Migrations must be run ONCE externally: php artisan migrate --env=testing
  * DatabaseTransactions handles rollback between tests.
-<<<<<<< HEAD
  * @property object|null $notificationManager
  */
 abstract class TestCase extends XotBaseTestCase
@@ -69,23 +59,10 @@ abstract class TestCase extends XotBaseTestCase
     {
         return [
             ...parent::getPackageProviders($app),
-=======
- */
-abstract class TestCase extends BaseTestCase
-{
-    use CreatesApplication;
-    use DatabaseTransactions;
-
-    protected function getPackageProviders($app): array
-    {
-        return [
-            XotServiceProvider::class,
->>>>>>> 929ed821d (.)
             UserServiceProvider::class,
             NotifyServiceProvider::class,
         ];
     }
-<<<<<<< HEAD
 
     /**
      * @template T of Model
@@ -123,6 +100,4 @@ abstract class TestCase extends BaseTestCase
 
         return $this->notificationManager;
     }
-=======
->>>>>>> 929ed821d (.)
 }

@@ -1,5 +1,4 @@
 # Local generated documentation archives
-<<<<<<< HEAD
 legacy/
 legacy/**
 
@@ -18,6 +17,3 @@ legacy/**
 *.orig
 *.rej
 *~head
-=======
-archive/
->>>>>>> 929ed821d (.)

@@ -6,11 +6,8 @@ namespace Modules\Notify\Traits;
 
 use Illuminate\Support\Str;
 
-<<<<<<< HEAD
 use function Safe\preg_replace_callback;
 
-=======
->>>>>>> 929ed821d (.)
 trait HasNotificationTracking
 {
     /**
@@ -25,11 +22,7 @@ trait HasNotificationTracking
             return $html;
         }
 
-<<<<<<< HEAD
         $route = route((string) config('notify.tracking.pixel.route'), ['id' => $trackingId]);
-=======
-        $route = route(config('notify.tracking.pixel.route'), ['id' => $trackingId]);
->>>>>>> 929ed821d (.)
         $pixel = '<img src="'.$route.'" alt="" width="1" height="1" style="display:none">';
 
         return $html.$pixel;
@@ -47,51 +40,30 @@ trait HasNotificationTracking
             return $html;
         }
 
-<<<<<<< HEAD
         $result = preg_replace_callback(
             '/<a\s+(?:[^>]*?\s+)?href=(["\'])(.*?)\1/i',
             function (array $matches) use ($trackingId): string {
                 $url = (string) $matches[2];
-=======
-        return preg_replace_callback(
-            '/<a\s+(?:[^>]*?\s+)?href=(["\'])(.*?)\1/i',
-            function ($matches) use ($trackingId) {
-                $url = $matches[2];
->>>>>>> 929ed821d (.)
 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
                     Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
                         ! Str::startsWith($url, ['http://', 'https://'])
                 ) {
-<<<<<<< HEAD
                     return (string) $matches[0];
                 }
 
                 $trackingUrl = route((string) config('notify.tracking.links.route'), [
-=======
-                    return $matches[0];
-                }
-
-                $trackingUrl = route(config('notify.tracking.links.route'), [
->>>>>>> 929ed821d (.)
                     'id' => $trackingId,
                     'url' => $url,
                 ]);
 
-<<<<<<< HEAD
                 return str_replace($url, $trackingUrl, (string) $matches[0]);
             },
             $html,
         );
 
         return $result ?? $html;
-=======
-                return str_replace($url, $trackingUrl, $matches[0]);
-            },
-            $html,
-        );
->>>>>>> 929ed821d (.)
     }
 
     /**
@@ -120,11 +92,7 @@ trait HasNotificationTracking
      */
     protected function isTrackingEnabled(): bool
     {
-<<<<<<< HEAD
         return (bool) config('notify.tracking.enabled', false);
-=======
-        return config('notify.tracking.enabled', false);
->>>>>>> 929ed821d (.)
     }
 
     /**
@@ -132,11 +100,7 @@ trait HasNotificationTracking
      */
     protected function isPixelTrackingEnabled(): bool
     {
-<<<<<<< HEAD
         return $this->isTrackingEnabled() && (bool) config('notify.tracking.pixel.enabled', false);
-=======
-        return $this->isTrackingEnabled() && config('notify.tracking.pixel.enabled', false);
->>>>>>> 929ed821d (.)
     }
 
     /**
@@ -144,10 +108,6 @@ trait HasNotificationTracking
      */
     protected function isLinkTrackingEnabled(): bool
     {
-<<<<<<< HEAD
         return $this->isTrackingEnabled() && (bool) config('notify.tracking.links.enabled', false);
-=======
-        return $this->isTrackingEnabled() && config('notify.tracking.links.enabled', false);
->>>>>>> 929ed821d (.)
     }
 }

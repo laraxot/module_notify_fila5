@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Notify Module Documentation"
 type: documentation
@@ -7,8 +6,6 @@ created: 2026-06-05
 updated: 2026-06-05
 ---
 
-=======
->>>>>>> 929ed821d (.)
 # Modulo Notify
 
 ## Overview
@@ -51,20 +48,10 @@ use Modules\Notify\Models\Traits\HasNotify;
 
 - [Filament Resources](./filament/)
 - [PHPStan Config](./phpstan/)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 929ed821d (.)
 
 ## Documentation
 
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
 - [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
 - [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
-<<<<<<< HEAD
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
-=======
-- [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
-=======
->>>>>>> 01dce8d29 (initial commit)
->>>>>>> 929ed821d (.)

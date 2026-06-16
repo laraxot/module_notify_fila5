@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
-<<<<<<< HEAD
 use Filament\Facades\Filament;
 use Illuminate\Contracts\Auth\Authenticatable;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
@@ -29,42 +28,16 @@ beforeEach(function (): void {
 
     actingAs($user);
 
-=======
-uses(TestCase::class);
-
-use Filament\Facades\Filament;
-use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
-use Livewire\Livewire;
-use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\ListMailTemplates;
-use Modules\Notify\Models\MailTemplate;
-use Modules\Notify\Tests\TestCase;
-use Modules\Xot\Datas\XotData;
-
-use function Pest\Laravel\actingAs;
-
-beforeEach(function () {
-    $this->user = XotData::make()->getUserClass()::factory()->create();
-    $this->user->assignRole('notify::admin');
-
-    actingAs($this->user);
-
-    // Set panel corrente
->>>>>>> 929ed821d (.)
     Filament::setCurrentPanel(
         Filament::getPanel('notify::admin')
     );
 });
 
-<<<<<<< HEAD
 test('spatie-translatable plugin is registered in notify::admin panel', function (): void {
-=======
-test('spatie-translatable plugin is registered in notify::admin panel', function () {
->>>>>>> 929ed821d (.)
     $panel = Filament::getPanel('notify::admin');
 
     $plugin = $panel->getPlugin('spatie-translatable');
 
-<<<<<<< HEAD
     Assert::assertInstanceOf(SpatieTranslatablePlugin::class, $plugin);
 
     $locales = \assertNotifyArray($plugin->getDefaultLocales());
@@ -74,33 +47,14 @@ test('spatie-translatable plugin is registered in notify::admin panel', function
 
 test('locale switcher action exists in ListMailTemplates', function (): void {
     MailTemplateFactory::new()->count(3)->create();
-=======
-    expect($plugin)
-        ->toBeInstanceOf(SpatieTranslatablePlugin::class)
-        ->and($plugin->getDefaultLocales())
-        ->toContain('it', 'en');
-});
-
-test('locale switcher action exists in ListMailTemplates', function () {
-    MailTemplate::factory()->count(3)->create();
->>>>>>> 929ed821d (.)
 
     Livewire::test(ListMailTemplates::class)
         ->assertActionExists('locale_switcher');
 });
 
-<<<<<<< HEAD
 test('ListMailTemplates renders without plugin registration error', function (): void {
     MailTemplateFactory::new()->count(3)->create();
 
     Livewire::test(ListMailTemplates::class)
         ->assertSuccessful();
-=======
-test('ListMailTemplates renders without plugin registration error', function () {
-    MailTemplate::factory()->count(3)->create();
-
-    Livewire::test(ListMailTemplates::class)
-        ->assertSuccessful()
-        ->assertCanSeeTableRecords(MailTemplate::all());
->>>>>>> 929ed821d (.)
 });

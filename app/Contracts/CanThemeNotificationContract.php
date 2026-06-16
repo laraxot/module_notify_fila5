@@ -12,12 +12,9 @@ use Modules\Notify\Datas\NotificationData;
  */
 interface CanThemeNotificationContract
 {
-<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $view_params
      */
-=======
->>>>>>> 929ed821d (.)
     public function getNotificationData(string $name, array $view_params = []): NotificationData;
 
     public function getModel(): Model;
@@ -32,11 +29,8 @@ interface CanThemeNotificationContract
      */
     public function sendSmsCallback();
 
-<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $data
      */
-=======
->>>>>>> 929ed821d (.)
     public function increase(string $what, array $data): void;
 }

@@ -19,13 +19,8 @@ trait HasNotificationRateLimiting
             return true;
         }
 
-<<<<<<< HEAD
         $maxAttempts = (int) config('notify.rate_limiting.max_attempts', 5);
         $decayMinutes = (int) config('notify.rate_limiting.decay_minutes', 1);
-=======
-        $maxAttempts = config('notify.rate_limiting.max_attempts', 5);
-        $decayMinutes = config('notify.rate_limiting.decay_minutes', 1);
->>>>>>> 929ed821d (.)
 
         /** @var RateLimiter */
         $limiter = app(RateLimiter::class);
@@ -61,20 +56,12 @@ trait HasNotificationRateLimiting
      */
     protected function getNotificationRateLimitRemainingAttempts(string $key): int
     {
-<<<<<<< HEAD
         $maxAttempts = (int) config('notify.rate_limiting.max_attempts', 5);
-=======
-        $maxAttempts = config('notify.rate_limiting.max_attempts', 5);
->>>>>>> 929ed821d (.)
 
         /** @var RateLimiter */
         $limiter = app(RateLimiter::class);
 
-<<<<<<< HEAD
         return $maxAttempts - (int) $limiter->attempts($key);
-=======
-        return $maxAttempts - $limiter->attempts($key);
->>>>>>> 929ed821d (.)
     }
 
     /**
@@ -97,10 +84,6 @@ trait HasNotificationRateLimiting
      */
     protected function getNotificationRateLimitKey(string $type, mixed $identifier): string
     {
-<<<<<<< HEAD
         return 'notify:'.$type.':'.(string) $identifier;
-=======
-        return "notify:{$type}:{$identifier}";
->>>>>>> 929ed821d (.)
     }
 }

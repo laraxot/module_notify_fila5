@@ -28,10 +28,7 @@ use Override;
  */
 class SendNetfunSmsPage extends XotBasePage
 {
-<<<<<<< HEAD
     /** @var array<string, mixed>|null */
-=======
->>>>>>> 929ed821d (.)
     public ?array $smsData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
@@ -148,18 +145,11 @@ class SendNetfunSmsPage extends XotBasePage
         }
     }
 
-<<<<<<< HEAD
     /** @return array<string, \Filament\Actions\Action> */
     protected function getSmsFormActions(): array
     {
         return [
             'submit' => Action::make('sendSms')->label(__('notify::sms.actions.send'))->submit('sendSms'),
-=======
-    protected function getSmsFormActions(): array
-    {
-        return [
-            Action::make('sendSms')->label(__('notify::sms.actions.send'))->submit('sendSms'),
->>>>>>> 929ed821d (.)
         ];
     }
 

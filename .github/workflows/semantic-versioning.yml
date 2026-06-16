@@ -1,10 +1,6 @@
 name: Semantic Versioning
 
 on:
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 929ed821d (.)
   push:
     branches:
       - main
@@ -13,22 +9,6 @@ on:
 
 permissions:
   contents: write
-<<<<<<< HEAD
-=======
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-      - dev
-
-permissions:
-  contents: write
-  id-token: write
-  attestations: write
-  artifact-metadata: write
->>>>>>> 0314e8a24 (.)
-=======
->>>>>>> 929ed821d (.)
 
 jobs:
   tag:
@@ -37,10 +17,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 929ed821d (.)
 
       - name: Bump version and push tag
         uses: mathieudutour/github-tag-action@v6.2
@@ -48,21 +24,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           tag_prefix: Modules/Notify/v
           release_branches: main
-<<<<<<< HEAD
-=======
-      - name: Build root artifact
-        run: tar -czf project-artifact.tgz .
-      - name: Attest build provenance
-        uses: actions/attest-build-provenance@v3
-        with:
-          subject-path: project-artifact.tgz
-      - name: Bump version and push tag
-        id: tag_version
-        uses: mathieudutour/github-tag-action@v6.2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          fetch_all_tags: true
-          release_branches: main,dev
->>>>>>> 0314e8a24 (.)
-=======
->>>>>>> 929ed821d (.)
