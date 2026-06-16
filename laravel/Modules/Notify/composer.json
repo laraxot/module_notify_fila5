@@ -1,5 +1,5 @@
 {
-  "name": "laraxot/module_notify_fila5",
+  "name": "laraxot/module_notify_fila3",
   "description": "Notification management module for the Laraxot ecosystem: email, SMS, WhatsApp, Telegram, and FCM push.",
   "keywords": [
     "laraxot",
@@ -14,7 +14,7 @@
     "telegram",
     "fcm"
   ],
-  "homepage": "https://github.com/laraxot/module_notify_fila5.git",
+  "homepage": "https://github.com/laraxot/module_notify_fila3.git",
   "license": "MIT",
   "authors": [
     {
@@ -51,14 +51,12 @@
     "illuminate/support": "*",
     "irazasyed/telegram-bot-sdk": "*",
     "kreait/laravel-firebase": "^7.0",
+    "laravel-notification-channels/fcm": "^6.0",
     "laravel-notification-channels/telegram": "*",
     "phpdocumentor/type-resolver": "*",
     "spatie/laravel-database-mail-templates": "*",
     "symfony/http-client": "*",
     "symfony/postmark-mailer": "*"
-  },
-  "require-comment": {
-    "laravel-notification-channels/fcm": "*"
   },
   "repositories": [
     {

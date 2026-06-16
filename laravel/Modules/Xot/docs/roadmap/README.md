@@ -295,9 +295,6 @@ This module is open-source software licensed under the [MIT license](https://ope
 
 ---
 
-**Last Updated**: 2026-03-02  
-**Version**: 12.0.0  
-**Next Review**: 2026-03-16
 
 ---
 

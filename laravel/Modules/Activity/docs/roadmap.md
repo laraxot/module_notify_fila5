@@ -23,3 +23,12 @@ I contenuti di dettaglio sono organizzati in sotto-documenti dedicati nella cart
   - requisiti di testing;
   - aspetti di osservabilità e reporting.
 
+- **Criteri di accettazione**  
+  Vedi `docs/roadmap/acceptance-criteria.md` per criteri verificabili per Fase 1, 2 e 3.
+
+- **Dipendenze e confini**  
+  Vedi `docs/roadmap/dependencies.md` per dipendenze in ingresso/uscita e resilienza del logging.
+
+- **Metriche**  
+  Vedi `docs/roadmap/metrics.md` per obiettivi numerici e verifica.
+

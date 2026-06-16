@@ -584,5 +584,3 @@ Low Impact / High Effort: Defer or Skip
 
 ---
 
-**Last Updated**: 2026-03-02  
-**Next Review**: 2026-03-16

@@ -160,6 +160,3 @@ Follow the [Contributing Guidelines](https://github.com/laraxot/user/blob/main/C
 
 ---
 
-**Last Updated**: 2026-03-02  
-**Version**: 12.0.0  
-**Next Review**: 2026-03-16
