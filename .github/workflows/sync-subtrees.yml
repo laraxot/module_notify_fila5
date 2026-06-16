@@ -16,31 +16,39 @@ jobs:
   sync-subtrees:
     name: Sync Git Subtrees
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/dev'
     
     steps:
       - name: ⬇️ Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.SUBTREE_SYNC_TOKEN || secrets.GITHUB_TOKEN }}
-      
-      - name: 🔑 Setup SSH
-        uses: webfactory/ssh-agent@v0.7.0
-        with:
-          ssh-private-key: ${{ secrets.SUBTREE_SSH_KEY }}
+          token: ${{ secrets.BASHSCRIPTS_TOKEN }}
+          submodules: false
       
       - name: 🛡️ Configure Git
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git config --global pull.rebase true
-          git config --global push.autoSetupRemote true
-          git config --global init.defaultBranch main
-          # Add GitHub to known hosts
-          mkdir -p ~/.ssh
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          chmod 700 ~/.ssh
-          chmod 600 ~/.ssh/known_hosts
+          git config --global core.symlinks false
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE/bashscripts"
+          git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "git@github.com:"
+          git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "https://github.com/"
+      
+      - name: ⬇️ Checkout bashscripts repository
+        uses: actions/checkout@v4
+        with:
+          repository: laraxot/bashscripts_fila5
+          ref: dev
+          token: ${{ secrets.BASHSCRIPTS_TOKEN }}
+          path: bashscripts
+          fetch-depth: 0
+          sparse-checkout: |
+            git/
+            lib/
+            gitmodules.ini
+          sparse-checkout-cone-mode: false
       
       - name: 📋 Show gitmodules.ini
         run: |
@@ -53,6 +61,7 @@ jobs:
           echo "📂 Working directory: $(pwd)"
           echo "🌿 Current branch: $(git branch --show-current)"
           echo ""
+          chmod +x bashscripts/git/subtrees/sync_remote_repo.sh
           bash bashscripts/git/subtrees/sync_remote_repo.sh
         env:
           CI: "true"
