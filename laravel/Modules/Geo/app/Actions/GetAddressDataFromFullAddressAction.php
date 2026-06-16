@@ -14,7 +14,6 @@ use Modules\Geo\Actions\Nominatim\GetAddressFromNominatimAction;
 use Modules\Geo\Actions\OpenCage\GetAddressFromOpenCageAction;
 use Modules\Geo\Actions\Photon\GetAddressFromPhotonAction;
 use Modules\Geo\Datas\AddressData;
-use Webmozart\Assert\Assert;
 
 /**
  * Classe per ottenere i dati dell'indirizzo utilizzando diversi servizi di geocoding.
@@ -51,8 +50,9 @@ class GetAddressDataFromFullAddressAction
 
         foreach ($services as $service) {
             // PHPStan knows these classes exist since they're hardcoded
-            /* @phpstan-ignore staticMethod.alreadyNarrowedType */
-            Assert::classExists($service);
+            if (! class_exists($service)) {
+                continue; // Skip if class doesn't exist
+            }
             try {
                 $result = app($service)->execute($fullAddress);
                 if ($result instanceof AddressData) {

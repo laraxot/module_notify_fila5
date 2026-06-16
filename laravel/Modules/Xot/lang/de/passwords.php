@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'password' => 'Passwörter müssen mind. 6 Zeichen haben und gleich der Wiederholung sein.',
     'reset' => 'Dein Passwort wurde zurückgesetzt!',

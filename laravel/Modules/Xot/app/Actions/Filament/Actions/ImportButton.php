@@ -17,6 +17,6 @@ class ImportButton
             ->tooltip('import XLS')
             ->icon('heroicon-o-arrow-up-on-square')
             // ->visible(null != $year)
-            ->action(static fn() => dddx('WIP'));
+            ->action(static fn () => dddx('WIP'));
     }
 }

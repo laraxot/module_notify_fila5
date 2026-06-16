@@ -9,7 +9,7 @@
 
 ## Compliance Summary
 
-The Job module is fully compliant with PHPStan level 10 analysis, demonstrating:
+The Job module is fully compliant with PHPStan level 9 analysis, demonstrating:
 
 - ✅ Rigorous type hints implementation
 - ✅ Proper null handling

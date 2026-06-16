@@ -2,38 +2,34 @@
 
 declare(strict_types=1);
 
-namespace Modules\Cms\Tests\Unit\Models;
+uses(Modules\Cms\Tests\TestCase::class);
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Cms\Models\BaseModel;
-use Tests\TestCase;
 
-uses(TestCase::class, RefreshDatabase::class);
-
-beforeEach(function () {
+beforeEach(function (): void {
     $this->baseModel = new class extends BaseModel {
         protected $table = 'test_cms_table';
     };
 });
 
-test('base model extends eloquent model', function () {
+test('base model extends eloquent model', function (): void {
     expect($this->baseModel)->toBeInstanceOf(Model::class);
 });
 
-test('base model has correct table name', function () {
+test('base model has correct table name', function (): void {
     expect($this->baseModel->getTable())->toBe('test_cms_table');
 });
 
-test('base model can be instantiated', function () {
+test('base model can be instantiated', function (): void {
     expect($this->baseModel)->toBeInstanceOf(BaseModel::class);
 });
 
-test('base model has proper inheritance chain', function () {
+test('base model has proper inheritance chain', function (): void {
     expect($this->baseModel)->toBeInstanceOf(BaseModel::class);
     expect($this->baseModel)->toBeInstanceOf(Model::class);
 });
 
-test('base model has timestamps enabled', function () {
+test('base model has timestamps enabled', function (): void {
     expect($this->baseModel->usesTimestamps())->toBeTrue();
 });

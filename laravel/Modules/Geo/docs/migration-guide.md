@@ -1,8 +1,8 @@
-# Migration Guide: Moving from <nome progetto> to Geo Module
+# Migration Guide: Moving from <main module> to Geo Module
 
 ## Overview
 
-This guide explains how to migrate from using geographical models in the <nome progetto> module to using the centralized Geo module.
+This guide explains how to migrate from using geographical models in the <main module> module to using the centralized Geo module.
 
 ## Why Migrate?
 
@@ -27,13 +27,13 @@ Update your module's `composer.json` to require the Geo module if not already pr
 
 ### 2. Update Model Imports
 
-Replace imports from <nome progetto> models to Geo models:
+Replace imports from <main module> models to Geo models:
 
 ```diff
-- use Modules\<nome progetto>\Models\Region;
-- use Modules\<nome progetto>\Models\Province;
-- use Modules\<nome progetto>\Models\City;
-- use Modules\<nome progetto>\Models\Cap;
+- use Modules\<main module>\Models\Region;
+- use Modules\<main module>\Models\Province;
+- use Modules\<main module>\Models\City;
+- use Modules\<main module>\Models\Cap;
 
 + use Modules\Geo\Models\Region;
 + use Modules\Geo\Models\Province;
@@ -65,7 +65,7 @@ Update any relationships to use the new model classes:
 // Before
 public function region()
 {
-    return $this->belongsTo(\Modules\<nome progetto>\Models\Region::class);
+    return $this->belongsTo(\Modules\<main module>\Models\Region::class);
 }
 
 // After
@@ -85,7 +85,7 @@ php artisan migrate
 
 ## Data Migration
 
-If you have existing data in the <nome progetto> module's geographical tables, you'll need to migrate it to the Geo module's tables. Create a custom migration for this purpose.
+If you have existing data in the <main module> module's geographical tables, you'll need to migrate it to the Geo module's tables. Create a custom migration for this purpose.
 
 ## Testing
 
@@ -184,7 +184,7 @@ trait SushiToJsons
     protected function loadFromJson(): array
     {
         $path = $this->getJsonFile();
-        
+
         if (!File::exists($path)) {
             return [];
         }
@@ -301,21 +301,21 @@ class SushiCommand extends Command
 
         try {
             $path = base_path('database/content/comuni.json');
-            
+
             if (!File::exists($path)) {
                 $this->error('File comuni.json non trovato');
                 return 1;
             }
-            
+
             $data = json_decode(File::get($path), true);
-            
+
             if (json_last_error() !== JSON_ERROR_NONE) {
                 $this->error('Errore nel parsing del file JSON: ' . json_last_error_msg());
                 return 1;
             }
-            
+
             DB::table('comuni')->truncate();
-            
+
             foreach ($data as $comune) {
                 DB::table('comuni')->insert([
                     'id' => $comune['id'],
@@ -329,7 +329,7 @@ class SushiCommand extends Command
                     'updated_at' => $comune['updated_at'] ?? now(),
                 ]);
             }
-            
+
             $this->info('Database SQLite di Sushi aggiornato con successo');
             return 0;
         } catch (\Exception $e) {
@@ -359,25 +359,25 @@ class SushiCommand extends Command
         try {
             $count = DB::table('comuni')->count();
             $this->info("Numero di comuni: {$count}");
-            
+
             $regioni = DB::table('comuni')
                 ->select('regione')
                 ->distinct()
                 ->count();
             $this->info("Numero di regioni: {$regioni}");
-            
+
             $province = DB::table('comuni')
                 ->select('provincia')
                 ->distinct()
                 ->count();
             $this->info("Numero di province: {$province}");
-            
+
             $cap = DB::table('comuni')
                 ->select('cap')
                 ->distinct()
                 ->count();
             $this->info("Numero di CAP: {$cap}");
-            
+
             return 0;
         } catch (\Exception $e) {
             $this->error('Errore durante la verifica dello stato del database: ' . $e->getMessage());
@@ -416,7 +416,7 @@ class ComuneTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        
+
         $this->testData = [
             [
                 'id' => 1,
@@ -441,7 +441,7 @@ class ComuneTest extends TestCase
                 'updated_at' => now(),
             ],
         ];
-        
+
         File::put(
             base_path('database/content/comuni.json'),
             json_encode($this->testData, JSON_PRETTY_PRINT)
@@ -459,7 +459,7 @@ class ComuneTest extends TestCase
     public function it_can_load_comuni_from_json()
     {
         $comuni = Comune::all();
-        
+
         $this->assertCount(2, $comuni);
         $this->assertEquals('Milano', $comuni[0]->comune);
         $this->assertEquals('Sesto San Giovanni', $comuni[1]->comune);

@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions;
 
-use RuntimeException;
-use Throwable;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Process;
+use RuntimeException;
 use Spatie\QueueableAction\QueueableAction;
+use Throwable;
 use Webmozart\Assert\Assert;
 
 /**
@@ -32,27 +32,30 @@ class ExecuteArtisanCommandAction
         'route:cache',
         'event:cache',
         'queue:restart',
+        'passport:install --uuids',
+        'passport:keys',
+        'passport:purge',
+        'passport:hash',
     ];
 
     /**
      * Esegue un comando Artisan e restituisce i risultati.
      *
-     * @param string $command Il comando Artisan da eseguire (senza "php artisan")
-     *
-     * @throws RuntimeException Se il comando non è consentito o si verifica un errore
-     *
+     * @param  string  $command  Il comando Artisan da eseguire (senza "php artisan")
      * @return array{
      *     command: string,
      *     output: array<int, string>,
      *     status: 'completed'|'failed',
      *     exitCode: int
      * } Array con informazioni sull'esecuzione del comando
+     *
+     * @throws RuntimeException Se il comando non è consentito o si verifica un errore
      */
     public function execute(string $command): array
     {
         Assert::stringNotEmpty($command, 'Il comando non può essere vuoto');
 
-        if (!$this->isCommandAllowed($command)) {
+        if (! $this->isCommandAllowed($command)) {
             throw new RuntimeException("Comando non consentito: {$command}");
         }
 
@@ -71,20 +74,20 @@ class ExecuteArtisanCommandAction
             // Cattura l'output in tempo reale
             while ($process->running()) {
                 $data = $process->latestOutput();
-                if (!empty($data)) {
+                if (! empty($data)) {
                     $formattedData = trim($data);
-                    if (!empty($formattedData)) {
+                    if (! empty($formattedData)) {
                         $output[] = $formattedData;
                         Event::dispatch('artisan-command.output', [$command, $formattedData]);
                     }
                 }
 
                 $errorData = $process->latestErrorOutput();
-                if (!empty($errorData)) {
+                if (! empty($errorData)) {
                     $formattedError = trim($errorData);
-                    if (!empty($formattedError)) {
-                        $output[] = '[ERROR] ' . $formattedError;
-                        Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $formattedError]);
+                    if (! empty($formattedError)) {
+                        $output[] = '[ERROR] '.$formattedError;
+                        Event::dispatch('artisan-command.output', [$command, '[ERROR] '.$formattedError]);
                     }
                 }
 
@@ -95,15 +98,15 @@ class ExecuteArtisanCommandAction
 
             // Cattura qualsiasi output residuo
             $finalOutput = trim($result->output());
-            if (!empty($finalOutput)) {
+            if (! empty($finalOutput)) {
                 $output[] = $finalOutput;
                 Event::dispatch('artisan-command.output', [$command, $finalOutput]);
             }
 
             $finalErrorOutput = trim($result->errorOutput());
-            if (!empty($finalErrorOutput)) {
-                $output[] = '[ERROR] ' . $finalErrorOutput;
-                Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $finalErrorOutput]);
+            if (! empty($finalErrorOutput)) {
+                $output[] = '[ERROR] '.$finalErrorOutput;
+                Event::dispatch('artisan-command.output', [$command, '[ERROR] '.$finalErrorOutput]);
             }
 
             if ($result->successful()) {
@@ -133,12 +136,13 @@ class ExecuteArtisanCommandAction
     /**
      * Verifica se un comando è presente nella lista dei comandi consentiti.
      *
-     * @param string $command Il comando da verificare
+     * @param  string  $command  Il comando da verificare
      * @return bool True se il comando è consentito, false altrimenti
      */
     private function isCommandAllowed(string $command): bool
     {
         Assert::stringNotEmpty($command, 'Il comando non può essere vuoto');
+
         return in_array($command, $this->allowedCommands, true);
     }
 }

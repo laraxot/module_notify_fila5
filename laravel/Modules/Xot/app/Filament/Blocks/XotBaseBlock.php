@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Blocks;
 
-use Filament\Schemas\Components\Component;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
+use Filament\Schemas\Components\Component;
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 
@@ -16,17 +16,13 @@ abstract class XotBaseBlock
 
     public static function make(string $name = 'article_list', string $context = 'form'): Block
     {
-        /**
-         * @var array<Component>
-         */
-        $form = array_merge(static::getBlockSchema(), static::getBlockVarSchema());
+        /** @var array<Component> $schema */
+        $schema = array_merge(static::getBlockSchema(), static::getBlockVarSchema());
 
-        return Block::make($name)->schema($form)->columns('form' === $context ? 3 : 1);
+        return Block::make($name)->schema($schema)->columns($context === 'form' ? 3 : 1);
     }
 
     /**
-     * Undocumented function.
-     *
      * @return array<Component>
      */
     public static function getBlockSchema(): array
@@ -35,8 +31,6 @@ abstract class XotBaseBlock
     }
 
     /**
-     * Undocumented function.
-     *
      * @return array<Component>
      */
     public static function getBlockVarSchema(): array

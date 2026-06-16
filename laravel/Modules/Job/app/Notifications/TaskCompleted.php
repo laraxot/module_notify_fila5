@@ -15,13 +15,19 @@ class TaskCompleted extends Notification implements ShouldQueue
     use Queueable;
 
     /**
+     * The task output.
+     */
+    private readonly string $output;
+
+    /**
      * Create a new notification instance.
      *
      * @return void
      */
-    public function __construct(
-        private readonly string $output,
-    ) {}
+    public function __construct(string $output)
+    {
+        $this->output = $output;
+    }
 
     /**
      * Get the notification's delivery channels.
@@ -50,7 +56,7 @@ class TaskCompleted extends Notification implements ShouldQueue
      */
     public function toMail(Task $task): MailMessage
     {
-        return new MailMessage()
+        return (new MailMessage)
             ->subject($task->description)
             ->greeting('Hi,')
             ->line(sprintf('%s just finished running.', $task->description))

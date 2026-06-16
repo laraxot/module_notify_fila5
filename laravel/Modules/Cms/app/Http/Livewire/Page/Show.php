@@ -107,16 +107,29 @@ class Show extends Component
                 return ['error' => 'Page not found', 'slug' => $this->slug];
             }
 
+            // Type narrowing: ensure $page is a Page model
+            if (! ($page instanceof Page)) {
+                return ['error' => 'Invalid page type', 'slug' => $this->slug];
+            }
+
             // Recupera e processa i contenuti della pagina
+            // Access model properties directly
+            $title = $page->title;
+            $subtitle = $page->subtitle ?? null;
+            $content = $page->content;
+            $metaDescription = $page->meta_description ?? null;
+            $metaKeywords = $page->meta_keywords ?? null;
+            $contentBlocks = $page->content_blocks;
+
             return [
-                'title' => $page->title,
-                'subtitle' => null, // Property doesn't exist in Page model
-                'content' => $page->content,
+                'title' => $title ? (is_array($title) ? $title : (string) $title) : '',
+                'subtitle' => $subtitle,
+                'content' => $content ? (is_array($content) ? $content : (string) $content) : '',
                 'meta' => [
-                    'description' => null, // Property doesn't exist in Page model
-                    'keywords' => null, // Property doesn't exist in Page model
+                    'description' => $metaDescription,
+                    'keywords' => $metaKeywords,
                 ],
-                'blocks' => $page->content_blocks ?? [],
+                'blocks' => $contentBlocks ? (is_array($contentBlocks) ? $contentBlocks : []) : [],
                 'layout' => 'default',
             ];
         } catch (\Exception $e) {

@@ -57,31 +57,31 @@ class ImportGeoData extends Command
     public function handle()
     {
         $path = module_path('Geo', 'resources/json/comuni.json');
-        
+
         if (!file_exists($path)) {
             $this->error("comuni.json not found at: {$path}");
             return 1;
         }
-        
+
         $json = json_decode(file_get_contents($path), true);
-        
+
         if (json_last_error() !== JSON_ERROR_NONE) {
             $this->error('Invalid JSON: ' . json_last_error_msg());
             return 1;
         }
-        
+
         $this->info('Starting import of Italian geographical data...');
-        
+
         DB::transaction(function () use ($json) {
             $bar = $this->output->createProgressBar(count($json));
-            
+
             foreach ($json as $item) {
                 // Import region
                 $region = Region::firstOrCreate(
                     ['code' => $item['regione']['codice']],
                     ['name' => $item['regione']['nome']]
                 );
-                
+
                 // Import province
                 $province = Province::firstOrCreate(
                     ['code' => $item['provincia']['codice']],
@@ -92,7 +92,7 @@ class ImportGeoData extends Command
                         'code_iso' => $item['sigla'],
                     ]
                 );
-                
+
                 // Import city
                 $city = City::firstOrCreate(
                     ['code' => $item['codice']],
@@ -104,7 +104,7 @@ class ImportGeoData extends Command
                         'population' => $item['popolazione'] ?? null,
                     ]
                 );
-                
+
                 // Import CAPs
                 foreach (($item['cap'] ?? []) as $capCode) {
                     Cap::firstOrCreate(
@@ -114,13 +114,13 @@ class ImportGeoData extends Command
                         ]
                     );
                 }
-                
+
                 $bar->advance();
             }
-            
+
             $bar->finish();
             $this->newLine(2);
-            
+
             $this->info('Geographical data imported successfully!');
             $this->info(sprintf(
                 '- %d regions\n- %d provinces\n- %d cities\n- %d CAPs',
@@ -130,7 +130,7 @@ class ImportGeoData extends Command
                 Cap::count()
             ));
         });
-        
+
         return 0;
     }
 }
@@ -175,24 +175,24 @@ public static function form(Form $form): Form
     return $form
         ->schema([
             // Other fields...
-            
+
             Forms\Components\Card::make()
                 ->schema([
                     Forms\Components\TextInput::make('address')
                         ->label(__('geo::location.address'))
                         ->required(),
-                        
+
                     Forms\Components\Grid::make(2)
                         ->schema([
                             LocationSelect::make('region_id')
                                 ->getRegionSelect(),
-                                
+
                             LocationSelect::make('province_id')
                                 ->getProvinceSelect(),
-                                
+
                             LocationSelect::make('city_id')
                                 ->getCitySelect(),
-                                
+
                             LocationSelect::make('cap')
                                 ->getCapSelect(),
                         ]),
@@ -259,9 +259,9 @@ Schema::table('geo_caps', function (Blueprint $table) {
 ## Related Documentation
 
 - [Location Select Component](./location-select.md)
-- [Filament Forms Documentation](https://filamentphp.com/docs/3.x/forms/fields/select)
-- [Laravel Eloquent Relationships](https://laravel.com/docs/10.x/eloquent-relationships)
-- [Laravel Caching](https://laravel.com/docs/10.x/cache)
+- [Filament Forms Documentation](https://filamentphp.com/project_docs/3.x/forms/fields/select)
+- [Laravel Eloquent Relationships](https://laravel.com/project_docs/10.x/eloquent-relationships)
+- [Laravel Caching](https://laravel.com/project_docs/10.x/cache)
 
 ## License
 

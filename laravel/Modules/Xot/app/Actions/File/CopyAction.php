@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\File;
 
 use Exception;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Log;
 use Spatie\QueueableAction\QueueableAction;
 
 class CopyAction
@@ -14,14 +15,14 @@ class CopyAction
 
     public function execute(string $from, string $to): void
     {
-        if (!File::exists(\dirname($to))) {
+        if (! File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
             } catch (Exception $e) {
-                dd(
-                    'Caught exception: ',
-                    $e->getMessage(),
-                    '\n[' . __LINE__ . '][' . class_basename(static::class) . ']',
+                Log::error(
+                    'Caught exception: '.
+                    $e->getMessage().
+                    ' ['.__LINE__.']['.class_basename(static::class).']',
                 );
             }
         }
@@ -40,14 +41,14 @@ class CopyAction
         } catch (Exception $exception) {
             throw new Exception(
                 'Unable to copy
-                    from [' .
-                $from .
+                    from ['.
+                $from.
                 ']
-                    to [' .
-                $to .
+                    to ['.
+                $to.
                 ']
-                    message [' .
-                $exception->getMessage() .
+                    message ['.
+                $exception->getMessage().
                     ']',
                 $exception->getCode(),
                 $exception,

@@ -3,51 +3,50 @@
 declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
+use Rector\PHPUnit\Set\PHPUnitLevelSetList;
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
+use RectorLaravel\Rector\MethodCall\RedirectRouteToToRouteHelperRector;
+use RectorLaravel\Set\LaravelSetList;
 
-/*
- * Standard Rector Configuration for Laravel Modules
- *
- * Minimal configuration compatible with base Rector installation
- * Updated: 2025-11-24
- */
 return static function (RectorConfig $rectorConfig): void {
-    // Paths to analyze
     $rectorConfig->paths([
-        __DIR__,
+        __DIR__.'/Modules',
+        __DIR__.'/app',
+        __DIR__.'/bootstrap',
+        __DIR__.'/config',
+        __DIR__.'/lang',
+        __DIR__.'/public',
+        __DIR__.'/resources',
+        __DIR__.'/routes',
+        __DIR__.'/tests',
     ]);
 
-    // Paths to skip
-    $rectorConfig->skip([
-        __DIR__.'/vendor',
-        __DIR__.'/docs',
-        __DIR__.'/tests/coverage',
-    ]);
+    // register a single rule
+    // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
+    $rectorConfig->rule(RedirectRouteToToRouteHelperRector::class);
 
-    // PHP version target
-    $rectorConfig->phpVersion(Rector\ValueObject\PhpVersion::PHP_81);
-
-    // Rule sets
+    // define sets of rules
     $rectorConfig->sets([
-        // PHP 8.1 compatibility
-        LevelSetList::UP_TO_PHP_81,
-
-        // Code quality improvements
-        SetList::CODE_QUALITY,
+        PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         SetList::DEAD_CODE,
+        SetList::CODE_QUALITY,
+        LevelSetList::UP_TO_PHP_81,
+        LaravelSetList::LARAVEL_100,
+        SetList::DEAD_CODE,
+        SetList::NAMING,
+        SetList::TYPE_DECLARATION,
+        SetList::CODING_STYLE,
+        SetList::PRIVATIZATION,
         SetList::EARLY_RETURN,
-
-        // Type declarations (commented - enable carefully)
-        // SetList::TYPE_DECLARATION,
-
-        // Coding style
-        // SetList::CODING_STYLE,
+        SetList::INSTANCEOF,
     ]);
 
-    // Import names for cleaner code
-    $rectorConfig->importNames();
+    $rectorConfig->skip([
+        // testdummy files
+        '*/docs',
+        '*/vendor',
+    ]);
 
-    // Import short classes
-    $rectorConfig->importShortClasses(false);
+    $rectorConfig->importNames();
 };

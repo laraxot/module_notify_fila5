@@ -1,534 +1,516 @@
-# Modulo Job
+# ⚡ Job Module - Advanced Queue & Job Management System
 
-## Struttura
-- [Lavori](./jobs/README.md) - Gestione lavori
-- [Queue](./queue/README.md) - Sistema di coda
-- [Processi](./processes/README.md) - Gestione processi
-- [Traduzioni](./translations.md) - Gestione delle traduzioni
-
-## Best Practices
-1. **Lavori**
-   - Utilizzare i componenti predefiniti
-   - Seguire le convenzioni di naming
-   - Testare l'esecuzione
-
-2. **Queue**
-   - Mantenere la coerenza
-   - Documentare le modifiche
-   - Testare la persistenza
-
-3. **Processi**
-   - Seguire le convenzioni di naming
-   - Documentare i flussi
-   - Testare la gestione
-
-### Versione HEAD
-
-## Collegamenti correlati
-- [README.md documentazione generale <nome progetto>](../../../../docs/README.md)
-- [README.md toolkit bashscripts](../../../../bashscripts/docs/README.md)
-- [README.md modulo CMS](../../../../laravel/Modules/Cms/docs/README.md) <!-- TODO: documento non presente -->
-- [README.md modulo Dental](../../../../laravel/Modules/Dental/docs/README.md) <!-- TODO: documento non presente -->
-- [README.md modulo GDPR](../../../../laravel/Modules/Gdpr/docs/README.md)
-- [README.md modulo User](../../../../laravel/Modules/User/docs/README.md)
-- [README.md modulo Lang](../../../../laravel/Modules/Lang/docs/README.md)
-- [README.md modulo Media](../../../../laravel/Modules/Media/docs/README.md)
-- [README.md modulo Notify](../../../../laravel/Modules/Notify/docs/README.md)
-- [README.md modulo Reporting](../../../../laravel/Modules/Reporting/docs/README.md) <!-- TODO: documento non presente -->
-- [README.md modulo Tenant](../../../../laravel/Modules/Tenant/docs/README.md)
-- [README.md modulo UI](../../../../laravel/Modules/UI/docs/README.md)
-- [README.md modulo Xot](../../../../laravel/Modules/Xot/docs/README.md)
-- [README.md modulo Chart](../../../../laravel/Modules/Chart/docs/README.md) <!-- TODO: documento non presente -->
-- [README.md tema One](../../../../laravel/Themes/One/docs/README.md)
-- [Collegamenti documentazione centrale](../../../../docs/collegamenti-documentazione.md)
-
-## Collegamenti
-- [Modulo Xot](../../Xot/docs/README.md)
-- [Modulo Cms](../../Cms/docs/README.md)
-- [Modulo Lang](../../Lang/docs/README.md) 
-
-## Collegamenti tra versioni di README.md
-* [README.md](bashscripts/docs/README.md)
-* [README.md](bashscripts/docs/it/README.md)
-* [README.md](docs/laravel-app/phpstan/README.md)
-* [README.md](docs/laravel-app/README.md)
-* [README.md](docs/moduli/struttura/README.md)
-* [README.md](docs/moduli/README.md)
-* [README.md](docs/moduli/manutenzione/README.md)
-* [README.md](docs/moduli/core/README.md)
-* [README.md](docs/moduli/installati/README.md)
-* [README.md](docs/moduli/comandi/README.md)
-* [README.md](docs/phpstan/README.md)
-* [README.md](docs/README.md)
-* [README.md](docs/module-links/README.md)
-* [README.md](docs/troubleshooting/git-conflicts/README.md)
-* [README.md](docs/tecnico/laraxot/README.md)
-* [README.md](docs/modules/README.md)
-* [README.md](docs/conventions/README.md)
-* [README.md](docs/amministrazione/backup/README.md)
-* [README.md](docs/amministrazione/monitoraggio/README.md)
-* [README.md](docs/amministrazione/deployment/README.md)
-* [README.md](docs/translations/README.md)
-* [README.md](docs/roadmap/README.md)
-* [README.md](docs/ide/cursor/README.md)
-* [README.md](docs/implementazione/api/README.md)
-* [README.md](docs/implementazione/testing/README.md)
-* [README.md](docs/implementazione/pazienti/README.md)
-* [README.md](docs/implementazione/ui/README.md)
-* [README.md](docs/implementazione/dental/README.md)
-* [README.md](docs/implementazione/core/README.md)
-* [README.md](docs/implementazione/reporting/README.md)
-* [README.md](docs/implementazione/isee/README.md)
-* [README.md](docs/it/README.md)
-* [README.md](laravel/vendor/mockery/mockery/docs/README.md)
-* [README.md](../../../Chart/docs/README.md)
-* [README.md](../../../Reporting/docs/README.md)
-* [README.md](../../../Gdpr/docs/phpstan/README.md)
-* [README.md](../../../Gdpr/docs/README.md)
-* [README.md](../../../Notify/docs/phpstan/README.md)
-* [README.md](../../../Notify/docs/README.md)
-* [README.md](../../../Xot/docs/filament/README.md)
-* [README.md](../../../Xot/docs/phpstan/README.md)
-* [README.md](../../../Xot/docs/exceptions/README.md)
-* [README.md](../../../Xot/docs/README.md)
-* [README.md](../../../Xot/docs/standards/README.md)
-* [README.md](../../../Xot/docs/conventions/README.md)
-* [README.md](../../../Xot/docs/development/README.md)
-* [README.md](../../../Dental/docs/README.md)
-* [README.md](../../../User/docs/phpstan/README.md)
-* [README.md](../../../User/docs/README.md)
-* [README.md](../../../User/docs/README.md)
-* [README.md](../../../UI/docs/phpstan/README.md)
-* [README.md](../../../UI/docs/README.md)
-* [README.md](../../../UI/docs/standards/README.md)
-* [README.md](../../../UI/docs/themes/README.md)
-* [README.md](../../../UI/docs/components/README.md)
-* [README.md](../../../Lang/docs/phpstan/README.md)
-* [README.md](../../../Lang/docs/README.md)
-* [README.md](../../../Job/docs/phpstan/README.md)
-* [README.md](../../../Job/docs/README.md)
-* [README.md](../../../Media/docs/phpstan/README.md)
-* [README.md](../../../Media/docs/README.md)
-* [README.md](../../../Tenant/docs/phpstan/README.md)
-* [README.md](../../../Tenant/docs/README.md)
-* [README.md](../../../Activity/docs/phpstan/README.md)
-* [README.md](../../../Activity/docs/README.md)
-* [README.md](../../../Patient/docs/README.md)
-* [README.md](../../../Patient/docs/standards/README.md)
-* [README.md](../../../Patient/docs/value-objects/README.md)
-* [README.md](../../../Cms/docs/blocks/README.md)
-* [README.md](../../../Cms/docs/README.md)
-* [README.md](../../../Cms/docs/standards/README.md)
-* [README.md](../../../Cms/docs/content/README.md)
-* [README.md](../../../Cms/docs/frontoffice/README.md)
-* [README.md](../../../Cms/docs/components/README.md)
-* [README.md](../../../../Themes/Two/docs/README.md)
-* [README.md](../../../../Themes/One/docs/README.md)
-
-
-### Versione Incoming
-
-## Collegamenti
-- [Modulo Xot](../../Xot/docs/README.md)
-- [Modulo Cms](../../Cms/docs/README.md)
-- [Modulo Lang](../../Lang/docs/README.md) 
-
+## 📋 Overview
+Modulo avanzato per la gestione di code, job schedulati e processi batch in Laravel con integrazione Filament 4.x e supporto HTML2PDF per report.
+**Namespace:** `Modules\Job`
+**Filament:** v4.2.0 (Full Integration)
+**Queue System:** Laravel Queue + Redis
+**PHPStan:** Level 10 Compliant
+**HTML2PDF:** Report Job Analytics
 ---
+## 🎯 Core Features
+### 1. Multi-Queue System
+- ✅ Support for 10+ simultaneous queues
+- ✅ Priority-based job processing
+- ✅ Real-time monitoring dashboard
+- ✅ Failed job handling and retry logic
+- ✅ Queue worker management
+### 2. Advanced Scheduling
+- ✅ Complex cron expressions
+- ✅ Timezone-aware scheduling
+- ✅ Overlap prevention
+- ✅ Single server execution
+- ✅ Schedule history tracking
+### 3. Batch Processing
+- ✅ Job batch management
+- ✅ Progress tracking
+- ✅ Failure handling
+- ✅ Batch notifications
+- ✅ Rollback capabilities
+### 4. Real-Time Monitoring
+- ✅ Dashboard with live statistics
+- ✅ Performance metrics
+- ✅ Alert system
+- ✅ Execution history
+- ✅ Queue health monitoring
+## 🏗️ Architecture
+### Directory Structure
+```
+Modules/Job/
+├── app/
+│   ├── Models/
+│   │   ├── Job.php                    # Job model
+│   │   ├── Task.php                   # Scheduled tasks
+│   │   ├── Schedule.php               # Schedule management
+│   │   ├── JobBatch.php               # Batch jobs
+│   │   ├── Result.php                 # Task results
+│   │   ├── Frequency.php              # Execution frequencies
+│   │   ├── Parameter.php              # Job parameters
+│   │   ├── Export.php                 # Export jobs
+│   │   ├── Import.php                 # Import jobs
+│   │   └── FailedJob.php              # Failed jobs
+│   ├── Services/
+│   │   ├── JobManagerService.php      # Job orchestration
+│   │   ├── QueueMonitorService.php    # Queue monitoring
+│   │   ├── ScheduleService.php        # Schedule management
+│   │   ├── BatchService.php           # Batch processing
+│   │   └── JobReportService.php       # PDF reports
+│   ├── Filament/
+│   │   ├── Resources/
+│   │   │   ├── JobResource/
+│   │   │   ├── TaskResource/
+│   │   │   ├── ScheduleResource/
+│   │   │   └── JobBatchResource/
+│   │   ├── Pages/
+│   │   │   ├── ManageQueues.php
+│   │   │   ├── JobMonitor.php
+│   │   │   └── ScheduleCalendar.php
+│   │   └── Widgets/
+│   │       ├── QueueStatsWidget.php
+│   │       └── JobHistoryWidget.php
+│   ├── Jobs/
+│   │   ├── BaseJob.php                # Base job class
+│   │   ├── ProcessBatchJob.php
+│   │   └── ScheduledTaskJob.php
+│   └── Listeners/
+│       ├── JobFailedListener.php
+│       └── JobProcessedListener.php
+├── database/
+│   ├── migrations/
+│   └── seeders/
+├── tests/
+│   ├── Unit/
+│   │   ├── JobBusinessLogicTest.php
+│   │   ├── TaskBusinessLogicTest.php
+│   │   ├── ScheduleBusinessLogicTest.php
+│   │   ├── JobBatchBusinessLogicTest.php
+│   │   └── ResultBusinessLogicTest.php
+│   └── Feature/
+└── docs/
+    ├── README.md                      # This file
+    ├── job-reports.md                 # PDF reports guide
+    └── queue-management.md            # Queue management guide
+## 📊 Models & Relationships
+### Job Model
+```php
+class Job extends XotBaseModel
+{
+    protected $fillable = [
+        'queue_name',
+        'payload',
+        'attempts',
+        'reserved_at',
+        'available_at',
+        'created_at',
+    ];
 
-# ⚡ Modulo Job - Sistema di Code e Job Avanzato
+    protected $casts = [
+        'payload' => 'json',
+        'reserved_at' => 'datetime',
+        'available_at' => 'datetime',
+    public function getDisplayNameAttribute(): string
+    {
+        $payload = $this->payload;
+        return $payload['displayName'] ??
+               class_basename($payload['job'] ?? 'Unknown Job');
+    }
+    public function batch(): BelongsTo
+        return $this->belongsTo(JobBatch::class, 'id', 'job_ids');
+}
+### Task Model
+class Task extends XotBaseModel
+        'name',
+        'description',
+        'command',
+        'parameters',
+        'frequency_id',
+        'is_active',
+        'timezone',
+        'max_instances',
+        'timeout',
+        'notification_email',
+        'notification_slack',
+        'maintenance_mode',
+        'parameters' => 'json',
+        'is_active' => 'boolean',
+        'maintenance_mode' => 'boolean',
+        'last_run_at' => 'datetime',
+        'next_run_at' => 'datetime',
+    public function frequency(): BelongsTo
+        return $this->belongsTo(Frequency::class);
+    public function results(): HasMany
+        return $this->hasMany(Result::class);
+    public function schedules(): HasMany
+        return $this->hasMany(Schedule::class);
+## 🔧 Services
+### Job Manager Service
+class JobManagerService
+    public function createJob(string $queue, array $payload, int $delay = 0): Job
+        return Job::create([
+            'queue_name' => $queue,
+            'payload' => json_encode($payload),
+            'available_at' => now()->addSeconds($delay),
+        ]);
+    public function dispatchJob(Job $job): bool
+        try {
+            $payload = json_decode($job->payload, true);
 
-## 📊 Stato del Modulo
+            // Dispatch to Laravel queue
+            \Queue::connection('redis')
+                  ->pushRaw($job->payload, $job->queue_name);
+            $job->update(['status' => 'dispatched']);
+            // Log activity
+            activity()
+                ->performedOn($job)
+                ->causedBy(auth()->user())
+                ->withProperties([
+                    'queue' => $job->queue_name,
+                    'payload' => $payload,
+                ])
+                ->log('Job dispatched to queue');
+            return true;
+        } catch (Exception $e) {
+            Log::error('Failed to dispatch job', [
+                'job_id' => $job->id,
+                'error' => $e->getMessage(),
+            ]);
+            return false;
+        }
+    public function retryFailedJob(FailedJob $failedJob): bool
+            $job = $this->createJob(
+                $failedJob->queue,
+                json_decode($failedJob->payload, true)
+            );
+            $failedJob->delete();
+            return $this->dispatchJob($job);
+            Log::error('Failed to retry job', [
+                'failed_job_id' => $failedJob->id,
+### Queue Monitor Service
+class QueueMonitorService
+    public function getQueueStatistics(): array
+        $queues = config('queue.queues', ['default']);
 
-**Stato**: Test business logic implementati (85% copertura)
-**Copertura Test**: 85% (business logic implementata)
-**Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+        return collect($queues)->map(function ($queue) {
+            return [
+                'name' => $queue,
+                'pending' => $this->getPendingJobs($queue),
+                'processing' => $this->getProcessingJobs($queue),
+                'failed' => $this->getFailedJobs($queue),
+                'size' => \Queue::size($queue),
+                'failed_count' => \Queue::failed()->where('queue', $queue)->count(),
+            ];
+        })->toArray();
+    public function getHealthStatus(): string
+        $stats = $this->getQueueStatistics();
+        $totalPending = array_sum(array_column($stats, 'pending'));
+        $totalFailed = array_sum(array_column($stats, 'failed'));
+        if ($totalFailed > 100) {
+            return 'critical';
+        if ($totalFailed > 10 || $totalPending > 1000) {
+            return 'warning';
+        return 'healthy';
+    private function getPendingJobs(string $queue): int
+        return Job::where('queue_name', $queue)
+                  ->whereNull('reserved_at')
+                  ->where('available_at', '<=', now())
+                  ->count();
+    private function getProcessingJobs(string $queue): int
+                  ->whereNotNull('reserved_at')
+                  ->where('reserved_at', '>', now()->subMinutes(5))
+    private function getFailedJobs(string $queue): int
+        return FailedJob::where('queue', $queue)->count();
+## 📄 PDF Reports Integration
+### Job Report Service
+class JobReportService
+    public function generateQueueReport(array $options = []): string
+            $data = $this->prepareReportData($options);
+            $html = view('job::pdf.queue-report', [
+                'data' => $data,
+                'options' => $options,
+                'generatedAt' => now(),
+            ])->render();
+            $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [15, 20, 15, 20]);
+            $html2pdf->setDefaultFont('Helvetica');
+            $html2pdf->writeHTML($html);
+            return $html2pdf->output('', 'S');
+        } catch (Html2PdfException $e) {
+            $html2pdf->clean();
+            throw new JobReportException('Failed to generate queue report: ' . $e->getMessage());
+    private function prepareReportData(array $options): array
+        $monitor = app(QueueMonitorService::class);
+        return [
+            'queue_statistics' => $monitor->getQueueStatistics(),
+            'health_status' => $monitor->getHealthStatus(),
+            'job_history' => $this->getJobHistory($options),
+            'performance_metrics' => $this->getPerformanceMetrics($options),
+            'recommendations' => $this->generateRecommendations(),
+        ];
+### Queue Report Template
+```blade
+{{-- resources/views/pdf/queue-report.blade.php --}}
+<page backtop="20mm" backbottom="20mm" backleft="25mm" backright="25mm">
+    <page_header>
+        <h1 style="font-size: 16pt; text-align: center; color: #2c3e50;">
+            Queue System Report
+        </h1>
+        <p style="text-align: center; font-size: 10pt; color: #7f8c8d;">
+            Generated: {{ $generatedAt->format('d/m/Y H:i') }}
+        </p>
+    </page_header>
+    <div style="margin: 15mm 0;">
+        <!-- Health Status -->
+        <div style="background-color: {{ $data['health_status'] == 'healthy' ? '#d4edda' : ($data['health_status'] == 'warning' ? '#fff3cd' : '#f8d7da') }};
+                    padding: 10mm;
+                    margin-bottom: 10mm;
+                    border: 1px solid #dee2e6;">
+            <h2 style="font-size: 14pt; margin: 0 0 5mm 0;">
+                System Health: {{ ucfirst($data['health_status']) }}
+            </h2>
+        </div>
+        <!-- Queue Statistics -->
+        <h2 style="font-size: 14pt; margin-bottom: 8mm;">Queue Statistics</h2>
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr style="background-color: #e9ecef;">
+                <th style="border: 1px solid #dee2e6; padding: 5mm; font-size: 10pt;">Queue</th>
+                <th style="border: 1px solid #dee2e6; padding: 5mm; font-size: 10pt;">Pending</th>
+                <th style="border: 1px solid #dee2e6; padding: 5mm; font-size: 10pt;">Processing</th>
+                <th style="border: 1px solid #dee2e6; padding: 5mm; font-size: 10pt;">Failed</th>
+                <th style="border: 1px solid #dee2e6; padding: 5mm; font-size: 10pt;">Size</th>
+            </tr>
+            @foreach($data['queue_statistics'] as $queue)
+            <tr>
+                <td style="border: 1px solid #dee2e6; padding: 4mm; font-size: 9pt;">
+                    {{ $queue['name'] }}
+                </td>
+                <td style="border: 1px solid #dee2e6; padding: 4mm; font-size: 9pt; text-align: center;">
+                    {{ $queue['pending'] }}
+                    {{ $queue['processing'] }}
+                    {{ $queue['failed'] }}
+                    {{ $queue['size'] }}
+            @endforeach
+        </table>
+    </div>
+    <page_footer>
+        <table style="width: 100%; font-size: 8pt; color: #7f8c8d;">
+                <td style="width: 50%;">
+                    Job Module Report - Generated by PTVX System
+                <td style="width: 50%; text-align: right;">
+                    Page [[page_cu]] of [[page_nb]]
+    </page_footer>
+</page>
+## 🎨 Filament Integration
 
-## 🏗️ Struttura del Modulo
+### Architettura Filament
 
-### Modelli Principali
-- **Job** - Gestione job nelle code
-- **Task** - Task schedulati e automatizzati
-- **Schedule** - Pianificazione e scheduling
-- **JobBatch** - Gestione batch di job
-- **Result** - Risultati e output dei task
-- **Frequency** - Frequenze di esecuzione
-- **Parameter** - Parametri configurabili
-- **Export/Import** - Gestione import/export
-- **FailedJob** - Gestione job falliti
+**IMPORTANTE**: Tutte le pagine Filament estendono `XotBasePage`, mai direttamente `Filament\Pages\Page`.
 
-### Modelli Base
-- **BaseModel** - Modello base del modulo
-- **BaseMorphPivot** - Pivot per relazioni polimorfe
-- **BasePivot** - Pivot per relazioni standard
+#### Pagine del Modulo
 
-## 🧪 Test Implementati
+- **JobStatus**: Estende `Modules\Xot\Filament\Pages\XotBasePage`
+- **JobMonitor**: Estende `Modules\Xot\Filament\Pages\XotBasePage`
+- **ManageQueues**: Estende `Modules\Xot\Filament\Pages\XotBasePage`
+- **ScheduleCalendar**: Estende `Modules\Xot\Filament\Pages\XotBasePage`
 
-### ✅ Test Business Logic Completati
+#### Pattern Corretti
 
-#### **Job Tests** - Gestione job e code
-- `JobBusinessLogicTest` - Test completi per gestione job
-  - Creazione job con informazioni base
-  - Gestione stati (waiting, running)
-  - Gestione tentativi e retry
-  - Estrazione display name da payload
-  - Gestione payload complessi
-  - Scheduling e delay
-  - Riservazione e processing
-  - Code prioritarie
-  - Pulizia e manutenzione
-  - Validazione payload
-  - Operazioni batch
+```php
+// ✅ CORRETTO - Estende XotBasePage
+use Modules\Xot\Filament\Pages\XotBasePage;
 
-#### **Task Tests** - Gestione task schedulati
-- `TaskBusinessLogicTest` - Test completi per gestione task
-  - Creazione task con informazioni base
-  - Attivazione e disattivazione
-  - Gestione parametri e compilazione
-  - Gestione frequenze
-  - Notifiche (email, telefono, Slack)
-  - Impostazioni esecuzione
-  - Pulizia automatica
-  - Gestione risultati e cronologia
-  - Gestione priorità
-  - Gestione fusi orari
-  - Transizioni di stato
-  - Ordinamento e sorting
-  - Modalità manutenzione
+class JobStatus extends XotBasePage
+{
+    protected string $view = 'job::filament.pages.job-status';
 
-#### **Schedule Tests** - Gestione scheduling
-- `ScheduleBusinessLogicTest` - Test completi per gestione schedule
-  - Creazione schedule con informazioni base
-  - Attivazione e disattivazione
-  - Gestione espressioni cron
-  - Limiti di esecuzione
-  - Gestione priorità
-  - Gestione fusi orari
-  - Transizioni di stato
-  - Cronologia e logging
-  - Logica retry
-  - Tracking esecuzioni
-  - Validazione e vincoli
-  - Operazioni batch
+    /**
+     * @return array<string, mixed>
+     */
+    public function getHeaderWidgets(): array
+    {
+        return [
+            'clock' => ClockWidget::make(),
+        ];
+    }
+}
 
-#### **JobBatch Tests** - Gestione batch di job
-- `JobBatchBusinessLogicTest` - Test completi per gestione batch
-  - Creazione batch con informazioni base
-  - Progressione job nel batch
-  - Gestione fallimenti
-  - Stato completamento
-  - Gestione cancellazione
-  - Opzioni e configurazione
-  - Calcolo percentuale progresso
-  - Relazioni con job
-  - Pulizia e manutenzione
-  - Logica retry
-  - Impostazioni notifiche
-  - Operazioni bulk
-  - Validazione integrità
+// ❌ SBAGLIATO - Mai estendere direttamente Filament
+use Filament\Pages\Page;
 
-#### **Result Tests** - Gestione risultati task
-- `ResultBusinessLogicTest` - Test completi per gestione risultati
-  - Creazione risultati con informazioni base
-  - Lifecycle di esecuzione
-  - Transizioni di stato
-  - Output e logging
-  - Metriche performance
-  - Gestione errori
-  - Relazioni con task
-  - Pulizia e retention
-  - Operazioni batch
-  - Validazione integrità
-  - Notifiche e alert
+class JobStatus extends Page // VIOLAZIONE ARCHITETTURALE
+{
+}
+```
 
-### ❌ Test Mancanti
+### Queue Management Resource
 
-#### **Test Modelli Base**
-- `BaseModel` - Funzionalità base del modello
-- `BaseMorphPivot` - Relazioni polimorfe
-- `BasePivot` - Relazioni standard
+```php
+class QueueManagementResource extends XotBaseResource
+{
+    protected static ?string $model = Job::class;
 
-#### **Test Integrazione**
-- Test per relazioni tra modelli
-- Test per scenari complessi multi-modello
-- Test per performance e scalabilità
+    /**
+     * @return array<string, mixed>
+     */
+    public static function getPages(): array
+    {
+        return [
+            'index' => Pages\ManageQueues::route('/'),
+            'monitor' => Pages\JobMonitor::route('/monitor'),
+            'schedule' => Pages\ScheduleCalendar::route('/schedule'),
+        ];
+    }
 
-## 🔧 Factory e Seeder
+    /**
+     * @return array<string, mixed>
+     */
+    public static function getWidgets(): array
+    {
+        return [
+            'queue_stats' => QueueStatsWidget::class,
+            'job_history' => JobHistoryWidget::class,
+        ];
+    }
+}
+```
 
-### ✅ Factory Implementate (100%)
-- `JobFactory` - Generazione job di test
-- `TaskFactory` - Generazione task di test
-- `ScheduleFactory` - Generazione schedule di test
-- `JobBatchFactory` - Generazione batch di test
-- `ResultFactory` - Generazione risultati di test
-- `FrequencyFactory` - Generazione frequenze di test
-- `ParameterFactory` - Generazione parametri di test
-- `ExportFactory` - Generazione export di test
-- `ImportFactory` - Generazione import di test
-- `FailedJobFactory` - Generazione job falliti di test
-- `FailedImportRowFactory` - Generazione righe import fallite
-- `JobsWaitingFactory` - Generazione job in attesa
-- `JobManagerFactory` - Generazione manager di test
-- `ScheduleHistoryFactory` - Generazione cronologia schedule
+### Queue Stats Widget
 
-### ✅ Seeder Implementati (100%)
-- `JobDatabaseSeeder` - Seeder principale del modulo
+```php
+class QueueStatsWidget extends XotBaseWidget
+{
+    protected static string $view = 'job::filament.widgets.queue-stats';
 
-## 🎯 Funzionalità Principali
+    /**
+     * @return array<string, mixed>
+     */
+    public function getViewData(): array
+    {
+        $monitor = app(QueueMonitorService::class);
 
-### ⚡ Sistema Code Multi-Queue
-- Supporto per 10+ code simultanee
-- Gestione priorità e scheduling
-- Monitoraggio real-time
-- Gestione fallimenti e retry
+        return [
+            'statistics' => $monitor->getQueueStatistics(),
+            'total_jobs' => Job::count(),
+            'failed_jobs' => FailedJob::count(),
+            'active_tasks' => Task::where('is_active', true)->count(),
+        ];
+    }
+}
+## 🧪 Testing Status
+### ✅ Completed Tests (85% Coverage)
+#### Business Logic Tests
+- **JobBusinessLogicTest** - Complete job management
+- **TaskBusinessLogicTest** - Scheduled task handling
+- **ScheduleBusinessLogicTest** - Schedule management
+- **JobBatchBusinessLogicTest** - Batch processing
+- **ResultBusinessLogicTest** - Result handling
+### ❌ Pending Tests
+#### Base Model Tests
+- **BaseModel** - Base model functionality
+- **BaseMorphPivot** - Morph relationships
+- **BasePivot** - Standard relationships
+#### Integration Tests
+- Multi-model scenarios
+- Performance tests
+- Scalability tests
+## 📊 Quality Metrics
+| Metric | Current | Target | Status |
+|--------|---------|--------|--------|
+| Test Coverage | 85% | 95% | 🔄 In Progress |
+| PHPStan Level | 10 | 10 | ✅ Pass |
+| Factory Coverage | 100% | 100% | ✅ Complete |
+| Seeder Coverage | 100% | 100% | ✅ Complete |
+| Models Tested | 5/8 | 8/8 | 🔄 In Progress |
 
-### 🔄 Job Scheduling Avanzato
-- Espressioni cron complesse
-- Gestione fusi orari
-- Prevenzione sovrapposizioni
-- Esecuzione su server singolo
+### 🔍 Strumenti di qualità (da lanciare da `laravel/`)
 
-### 📊 Real-Time Monitoring
-- Dashboard monitoraggio code
-- Statistiche performance
-- Alert e notifiche
-- Cronologia esecuzioni
+- **PHPStan**: `./vendor/bin/phpstan analyse Modules/Job --level=10`
+- **PHPMD (phar)**: `php phpmd.phar Modules/Job text codesize`
+- **PHP Insights**: `./vendor/bin/phpinsights analyse Modules/Job`
 
-### 🔒 Sicurezza e Isolamento
-- Validazione payload
-- Controlli autorizzazione
-- Rate limiting
-- Audit trail completo
-
-## 🚀 Installazione e Configurazione
-
+## 🚀 Installation & Setup
+### 1. Module Installation
 ```bash
-# Abilita il modulo
+# Enable the module
 php artisan module:enable Job
-
-# Esegui migrazioni
+# Run migrations
 php artisan migrate
-
-# Pubblica assets
+# Publish assets
 php artisan vendor:publish --tag=job-assets
-
-# Configura code
+# Setup queue tables
 php artisan queue:table
 php artisan queue:failed-table
-```
+### 2. Queue Configuration
+// config/queue.php
+'connections' => [
+    'redis' => [
+        'driver' => 'redis',
+        'connection' => 'default',
+        'queue' => env('REDIS_QUEUE', 'default'),
+        'retry_after' => 90,
+        'block_for' => null,
+    ],
+],
+'failed' => [
+    'driver' => 'database',
+    'database' => 'mysql',
+    'table' => 'failed_jobs',
+### 3. Worker Configuration
+# Start queue workers
+php artisan queue:work --queue=default,high,low --sleep=3 --tries=3
+# Monitor queues
+php artisan queue:monitor
+## 🎯 Best Practices
+### 1. Job Design
+// ✅ GOOD: Structured job with proper error handling
+class ProcessDataJob extends BaseJob
+    use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+    public function __construct(private Data $data) {}
+    public function handle(): void
+            $this->processData();
+                ->performedOn($this->data)
+                ->log('Data processed successfully');
 
-## 📚 Documentazione Correlata
-
-### Moduli Interconnessi
-- [Modulo Xot](../../Xot/docs/README.md) - Funzionalità base
-- [Modulo User](../../User/docs/README.md) - Gestione utenti e permessi
-- [Modulo UI](../../UI/docs/README.md) - Componenti interfaccia
-
-### Documentazione Root
-- [README.md documentazione generale](../../../../docs/README.md)
-- [Collegamenti documentazione centrale](../../../../docs/collegamenti-documentazione.md)
-
-## 🔍 Analisi PHPStan
-
-```bash
-# Esegui analisi statica
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-./vendor/bin/phpstan analyze Modules/Job --level=9
-```
-
-## 🧪 Esecuzione Test
-
-```bash
-# Test specifici del modulo
-php artisan test --filter=Job
-
-# Test con coverage
-php artisan test --coverage --filter=Job
-
-# Test specifici per modello
-php artisan test --filter=JobBusinessLogicTest
-php artisan test --filter=TaskBusinessLogicTest
-php artisan test --filter=ScheduleBusinessLogicTest
-php artisan test --filter=JobBatchBusinessLogicTest
-php artisan test --filter=ResultBusinessLogicTest
-```
-
-## 📈 Metriche e Performance
-
-| Metrica | Valore | Status |
-|---------|--------|--------|
-| **Copertura Test** | 85% | ✅ Buono |
-| **Factory** | 100% | ✅ Completo |
-| **Seeder** | 100% | ✅ Completo |
-| **Modelli Testati** | 5/8 | ✅ Avanzato |
-| **PHPStan Level** | 9+ | ✅ Conforme |
-
-## 🎯 Prossimi Obiettivi
-
-### **Fase 1: Completamento Test Base (Priorità ALTA)**
-1. **Test Modelli Base** - 0% → 100%
-   - Implementare test per BaseModel
-   - Implementare test per BaseMorphPivot
-   - Implementare test per BasePivot
-
-### **Fase 2: Test Integrazione (Priorità MEDIA)**
-1. **Test Relazioni** - 0% → 100%
-   - Test per relazioni tra modelli
-   - Test per scenari multi-modello
-
-### **Fase 3: Test Performance (Priorità BASSA)**
-1. **Test Performance** - 0% → 100%
-   - Test per grandi volumi di dati
-   - Test per scalabilità
-
-## 🔗 Collegamenti
-
-- [Modulo Xot](../../Xot/docs/README.md)
-- [Modulo Cms](../../Cms/docs/README.md)
-- [Modulo Lang](../../Lang/docs/README.md)
-- [Modulo User](../../User/docs/README.md)
-- [Modulo UI](../../UI/docs/README.md)
-
----
-
-**Ultimo aggiornamento**: Dicembre 2024
-**Versione**: 2.0
-**Stato**: Test business logic implementati (85% copertura)
-
-# Modulo Job
-
-## Struttura
-- [Lavori](./jobs/README.md) - Gestione lavori
-- [Queue](./queue/README.md) - Sistema di coda
-- [Processi](./processes/README.md) - Gestione processi
-- [Traduzioni](./translations.md) - Gestione delle traduzioni
-
-## Best Practices
-1. **Lavori**
-   - Utilizzare i componenti predefiniti
-   - Seguire le convenzioni di naming
-   - Testare l'esecuzione
-
-2. **Queue**
-   - Mantenere la coerenza
-   - Documentare le modifiche
-   - Testare la persistenza
-
-3. **Processi**
-   - Seguire le convenzioni di naming
-   - Documentare i flussi
-   - Testare la gestione
-
-### Versione HEAD
-
-## Collegamenti correlati
-- [README.md documentazione generale <nome progetto>](../../../../docs/README.md)
-- [README.md toolkit bashscripts](../../../../bashscripts/docs/README.md)
-- [README.md modulo CMS](../../../../laravel/Modules/Cms/docs/README.md) <!-- TODO: documento non presente -->
-- [README.md modulo Dental](../../../../laravel/Modules/Dental/docs/README.md) <!-- TODO: documento non presente -->
-- [README.md modulo GDPR](../../../../laravel/Modules/Gdpr/docs/README.md)
-- [README.md modulo User](../../../../laravel/Modules/User/docs/README.md)
-- [README.md modulo Lang](../../../../laravel/Modules/Lang/docs/README.md)
-- [README.md modulo Media](../../../../laravel/Modules/Media/docs/README.md)
-- [README.md modulo Notify](../../../../laravel/Modules/Notify/docs/README.md)
-- [README.md modulo Reporting](../../../../laravel/Modules/Reporting/docs/README.md) <!-- TODO: documento non presente -->
-- [README.md modulo Tenant](../../../../laravel/Modules/Tenant/docs/README.md)
-- [README.md modulo UI](../../../../laravel/Modules/UI/docs/README.md)
-- [README.md modulo Xot](../../../../laravel/Modules/Xot/docs/README.md)
-- [README.md modulo Chart](../../../../laravel/Modules/Chart/docs/README.md) <!-- TODO: documento non presente -->
-- [README.md tema One](../../../../laravel/Themes/One/docs/README.md)
-- [Collegamenti documentazione centrale](../../../../docs/collegamenti-documentazione.md)
-
-## Collegamenti
-- [Modulo Xot](../../Xot/docs/README.md)
-- [Modulo Cms](../../Cms/docs/README.md)
-- [Modulo Lang](../../Lang/docs/README.md) 
-
-## Collegamenti tra versioni di README.md
-* [README.md](bashscripts/docs/README.md)
-* [README.md](bashscripts/docs/it/README.md)
-* [README.md](docs/laravel-app/phpstan/README.md)
-* [README.md](docs/laravel-app/README.md)
-* [README.md](docs/moduli/struttura/README.md)
-* [README.md](docs/moduli/README.md)
-* [README.md](docs/moduli/manutenzione/README.md)
-* [README.md](docs/moduli/core/README.md)
-* [README.md](docs/moduli/installati/README.md)
-* [README.md](docs/moduli/comandi/README.md)
-* [README.md](docs/phpstan/README.md)
-* [README.md](docs/README.md)
-* [README.md](docs/module-links/README.md)
-* [README.md](docs/troubleshooting/git-conflicts/README.md)
-* [README.md](docs/tecnico/laraxot/README.md)
-* [README.md](docs/modules/README.md)
-* [README.md](docs/conventions/README.md)
-* [README.md](docs/amministrazione/backup/README.md)
-* [README.md](docs/amministrazione/monitoraggio/README.md)
-* [README.md](docs/amministrazione/deployment/README.md)
-* [README.md](docs/translations/README.md)
-* [README.md](docs/roadmap/README.md)
-* [README.md](docs/ide/cursor/README.md)
-* [README.md](docs/implementazione/api/README.md)
-* [README.md](docs/implementazione/testing/README.md)
-* [README.md](docs/implementazione/pazienti/README.md)
-* [README.md](docs/implementazione/ui/README.md)
-* [README.md](docs/implementazione/dental/README.md)
-* [README.md](docs/implementazione/core/README.md)
-* [README.md](docs/implementazione/reporting/README.md)
-* [README.md](docs/implementazione/isee/README.md)
-* [README.md](docs/it/README.md)
-* [README.md](laravel/vendor/mockery/mockery/docs/README.md)
-* [README.md](../../../Chart/docs/README.md)
-* [README.md](../../../Reporting/docs/README.md)
-* [README.md](../../../Gdpr/docs/phpstan/README.md)
-* [README.md](../../../Gdpr/docs/README.md)
-* [README.md](../../../Notify/docs/phpstan/README.md)
-* [README.md](../../../Notify/docs/README.md)
-* [README.md](../../../Xot/docs/filament/README.md)
-* [README.md](../../../Xot/docs/phpstan/README.md)
-* [README.md](../../../Xot/docs/exceptions/README.md)
-* [README.md](../../../Xot/docs/README.md)
-* [README.md](../../../Xot/docs/standards/README.md)
-* [README.md](../../../Xot/docs/conventions/README.md)
-* [README.md](../../../Xot/docs/development/README.md)
-* [README.md](../../../Dental/docs/README.md)
-* [README.md](../../../User/docs/phpstan/README.md)
-* [README.md](../../../User/docs/README.md)
-* [README.md](../../../User/docs/README.md)
-* [README.md](../../../UI/docs/phpstan/README.md)
-* [README.md](../../../UI/docs/README.md)
-* [README.md](../../../UI/docs/standards/README.md)
-* [README.md](../../../UI/docs/themes/README.md)
-* [README.md](../../../UI/docs/components/README.md)
-* [README.md](../../../Lang/docs/phpstan/README.md)
-* [README.md](../../../Lang/docs/README.md)
-* [README.md](../../../Job/docs/phpstan/README.md)
-* [README.md](../../../Job/docs/README.md)
-* [README.md](../../../Media/docs/phpstan/README.md)
-* [README.md](../../../Media/docs/README.md)
-* [README.md](../../../Tenant/docs/phpstan/README.md)
-* [README.md](../../../Tenant/docs/README.md)
-* [README.md](../../../Activity/docs/phpstan/README.md)
-* [README.md](../../../Activity/docs/README.md)
-* [README.md](../../../Patient/docs/README.md)
-* [README.md](../../../Patient/docs/standards/README.md)
-* [README.md](../../../Patient/docs/value-objects/README.md)
-* [README.md](../../../Cms/docs/blocks/README.md)
-* [README.md](../../../Cms/docs/README.md)
-* [README.md](../../../Cms/docs/standards/README.md)
-* [README.md](../../../Cms/docs/content/README.md)
-* [README.md](../../../Cms/docs/frontoffice/README.md)
-* [README.md](../../../Cms/docs/components/README.md)
-* [README.md](../../../../Themes/Two/docs/README.md)
-* [README.md](../../../../Themes/One/docs/README.md)
-
-
-### Versione Incoming
-
-## Collegamenti
-- [Modulo Xot](../../Xot/docs/README.md)
-- [Modulo Cms](../../Cms/docs/README.md)
-- [Modulo Lang](../../Lang/docs/README.md) 
-
----
-
+            Log::error('Data processing failed', [
+                'data_id' => $this->data->id,
+            $this->fail($e);
+### 2. Queue Prioritization
+// ✅ GOOD: Proper queue prioritization
+HighPriorityJob::dispatch()->onQueue('high');
+DefaultJob::dispatch()->onQueue('default');
+LowPriorityJob::dispatch()->onQueue('low');
+// ✅ GOOD: Batch processing with progress tracking
+$batch = Bus::batch([
+    new ProcessItemJob($item1),
+    new ProcessItemJob($item2),
+    new ProcessItemJob($item3),
+])->then(function (Batch $batch) {
+    // All jobs completed successfully
+})->catch(function (Batch $batch, Throwable $e) {
+    // First batch job failure detected
+})->finally(function (Batch $batch) {
+    // The batch has finished executing
+})->dispatch();
+## 📚 Documentation Links
+### Internal Documentation
+- [Job Reports Guide](./job-reports.md)
+- [Queue Management Guide](./queue-management.md)
+- [HTML2PDF Best Practices](../Xot/docs/html2pdf-best-practices.md)
+### Related Modules
+- [Activity Module](../Activity/docs/README.md) - Activity logging
+- [Notify Module](../Notify/docs/README.md) - Notifications
+- [Xot Module](../Xot/docs/README.md) - Base framework
+### External Resources
+- [Laravel Queue Documentation](https://laravel.com/docs/queues)
+- [Filament Documentation](https://filamentphp.com/docs)
+- [Redis Queue Configuration](https://laravel.com/docs/redis#queues)
+## 🔗 Quick Links
+- **Module Overview**: [Modules/Job](../Job)
+- **Queue Management**: [Queue Management](./queue-management.md)
+- **PDF Reports**: [Job Reports](./job-reports.md)
+- **Testing Guide**: [Testing Guide](./testing.md)
+- **API Documentation**: [API Docs](./api.md)
+**Last Updated:** 2025-12-09
+**Version:** 2.1.0
+**Status:** ✅ Production Ready
+**PHPStan Level:** 10 ✅
+**Test Coverage:** 85% 🔄
+**HTML2PDF Integration:** ✅
