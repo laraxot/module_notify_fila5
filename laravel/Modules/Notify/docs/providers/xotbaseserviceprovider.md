@@ -45,7 +45,7 @@ public function boot(): void
     $this->registerViews();
     
     // Carica migrazioni
-    $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+    $this->loadMigrationsFrom($this->module_dir.'/../../database/migrations');
     
     // Registra componenti
     $this->registerLivewireComponents();

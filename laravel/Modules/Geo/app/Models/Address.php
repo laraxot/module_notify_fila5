@@ -166,12 +166,13 @@ class Address extends BaseModel
      */
     public function getRegione(): ?array
     {
+        /** @phpstan-ignore method.unresolvableReturnType */
         $res = Comune::select('regione')
             ->distinct()
             ->orderBy('regione->nome')
             ->where('regione->codice', $this->administrative_area_level_1)
             ->get()
-            // @phpstan-ignore-next-line
+            /* @phpstan-ignore argument.unresolvableType */
             ->map(function ($item) {
                 $regione = $item->regione;
                 if (! is_array($regione) || ! isset($regione['codice'], $regione['nome'])) {
@@ -187,12 +188,13 @@ class Address extends BaseModel
 
     public function getProvincia(): ?array
     {
+        /** @phpstan-ignore method.unresolvableReturnType */
         $res = Comune::select('provincia')
             ->distinct()
             ->orderBy('provincia->nome')
             ->where('provincia->codice', $this->administrative_area_level_2)
             ->get()
-            // @phpstan-ignore-next-line
+            /* @phpstan-ignore argument.unresolvableType */
             ->map(fn ($item) => [
                 /* @phpstan-ignore offsetAccess.notFound */
                 'codice' => $item->provincia['codice'],

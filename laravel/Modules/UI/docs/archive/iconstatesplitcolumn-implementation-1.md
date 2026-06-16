@@ -327,4 +327,6 @@ document.addEventListener('state-transition', function(event) {
 
 ---
 
+**Last Updated**: June 2025
+**Version**: 2.1
 **Compatibility**: Filament 3.x, Laravel 10.x
