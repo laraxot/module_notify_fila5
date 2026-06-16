@@ -226,7 +226,7 @@ return [
 ## 📁 STRUTTURA PROGETTO
 
 ```
-base_fixcity_fila4_mono/
+base_fixcity_fila5_mono/
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
 │   │   ├── Fixcity/          # Core business logic

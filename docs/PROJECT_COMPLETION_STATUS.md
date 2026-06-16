@@ -174,7 +174,7 @@
 ## 🔗 STRUTTURA DOCUMENTAZIONE
 
 ```
-base_fixcity_fila4_mono/
+base_fixcity_fila5_mono/
 ├── DOCUMENTATION_INDEX.md          # ✅ Indice generale
 ├── QUICK_START.md                  # ✅ Guida rapida
 ├── ROADMAP_STATUS_SUMMARY.md       # ✅ Status master
