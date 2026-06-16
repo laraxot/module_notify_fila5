@@ -45,7 +45,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static int                     count()
  * @method static Builder<static>|Section where($column, $operator = null, $value = null, $boolean = 'and')
  * @property ProfileContract|null $deleter
- * @method static SectionFactory factory($count = null, $state = [])
+ * @method static SectionFactory                   factory($count = null, $state = [])
  * @method array<int, array<string, mixed>> getSushiRows()
  * @mixin \Eloquent
  */

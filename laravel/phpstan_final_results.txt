@@ -1,2 +1,0 @@
-Note: Using configuration file /var/www/_bases/base_fixcity_fila5_mono/laravel/phpstan.neon.
-ParseError thrown in /var/www/_bases/base_fixcity_fila5_mono/laravel/Modules/User/app/Filament/Resources/TenantResource/RelationManagers/DomainsRelationManager.php on line 50 while loading bootstrap file /var/www/_bases/base_fixcity_fila5_mono/laravel/vendor/larastan/larastan/bootstrap.php: syntax error, unexpected token "{"
