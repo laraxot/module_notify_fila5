@@ -17,12 +17,9 @@ class Get
 {
     use QueueableAction;
 
-<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $view_params
      */
-=======
->>>>>>> 929ed821d (.)
     public function execute(string $name, string $type, array $view_params): NotifyThemeData
     {
         $xotData = XotData::make();

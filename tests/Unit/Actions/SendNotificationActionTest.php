@@ -14,7 +14,6 @@ use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Notifications\GenericNotification;
 use Modules\Notify\Tests\TestCase;
-<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\Notify\Tests\TestCase::class);
@@ -22,11 +21,6 @@ uses(\Modules\Notify\Tests\TestCase::class);
 /**
  * @param  array<string, mixed>  $attributes
  */
-=======
-
-uses(TestCase::class);
-
->>>>>>> 929ed821d (.)
 function makeDummySendNotificationRecipient(array $attributes = []): Model
 {
     return new class($attributes) extends Model
@@ -35,7 +29,6 @@ function makeDummySendNotificationRecipient(array $attributes = []): Model
 
         protected $guarded = [];
 
-<<<<<<< HEAD
         /**
          * @param  array<string, mixed>  $attributes
          */
@@ -44,8 +37,6 @@ function makeDummySendNotificationRecipient(array $attributes = []): Model
             parent::__construct($attributes);
         }
 
-=======
->>>>>>> 929ed821d (.)
         public function routeNotificationForMail(): string
         {
             return (string) $this->getAttribute('email');
@@ -59,12 +50,8 @@ function makeDummySendNotificationRecipient(array $attributes = []): Model
 }
 
 beforeEach(function (): void {
-<<<<<<< HEAD
     /** @var \Modules\Notify\Tests\TestCase $this */
         $schema = Schema::connection('notify');
-=======
-    $schema = Schema::connection('notify');
->>>>>>> 929ed821d (.)
 
     if (! $schema->hasTable('notification_templates')) {
         $schema->create('notification_templates', function (Blueprint $table): void {
@@ -92,7 +79,6 @@ beforeEach(function (): void {
 });
 
 test('send notification action throws when template is missing', function (): void {
-<<<<<<< HEAD
         /** @var \Modules\Notify\Tests\TestCase $this */
     $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
@@ -101,12 +87,6 @@ test('send notification action throws when template is missing', function (): vo
         \Exception::class,
     );
 });
-=======
-    $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
-
-    app(SendNotificationAction::class)->execute($recipient, 'missing-template');
-})->throws(\Exception::class);
->>>>>>> 929ed821d (.)
 
 test('send notification action returns false when template should not send', function (): void {
     NotificationTemplate::query()->create([
@@ -125,15 +105,9 @@ test('send notification action returns false when template should not send', fun
 
     $recipient = makeDummySendNotificationRecipient(['email' => 'user@example.test']);
 
-<<<<<<< HEAD
     $result = app(SendNotificationAction::class)->handle($recipient, 'welcome-template', ['send' => false]);
 
     Assert::assertFalse($result);
-=======
-    $result = app(SendNotificationAction::class)->execute($recipient, 'welcome-template', ['send' => false]);
-
-    expect($result)->toBeFalse();
->>>>>>> 929ed821d (.)
 });
 
 test('send notification action dispatches database notification from template channels', function (): void {
@@ -155,14 +129,8 @@ test('send notification action dispatches database notification from template ch
 
     Notification::fake();
 
-<<<<<<< HEAD
     $result = app(SendNotificationAction::class)->handle($recipient, 'welcome-template');
 
     Assert::assertTrue($result);
-=======
-    $result = app(SendNotificationAction::class)->execute($recipient, 'welcome-template');
-
-    expect($result)->toBeTrue();
->>>>>>> 929ed821d (.)
     Notification::assertSentTo($recipient, GenericNotification::class);
 });

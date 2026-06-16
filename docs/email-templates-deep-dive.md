@@ -46,12 +46,8 @@ Link: https://github.com/simplepleb/laravel-email-templates
 Link: https://github.com/spatie/laravel-database-mail-templates
 - **Database**: tabella `mail_templates` con campi `key`, `subject`, `html`, `locale`
 - **ServiceProvider**: pubblica migrazioni e configura il renderer
-<<<<<<< HEAD
 - **Filament**: si integra con un `Filament
 esources	emplateResource`
-=======
-- **Filament**: si integra con un `Filamentesources	emplateResource`
->>>>>>> 929ed821d (.)
 
 ```php
 $template = Template::where('key', 'welcome')->first();
@@ -117,7 +113,4 @@ Vedi [Queueable Actions con Spatie](queueable-actions.md) per definizione delle 
 
 ---
 *Documento generato il 2025-05-05T21:45:20+02:00*
-<<<<<<< HEAD
 *Documento generato il 2025-05-05T21:45:20+02:00*
-=======
->>>>>>> 929ed821d (.)

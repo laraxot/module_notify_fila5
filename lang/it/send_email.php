@@ -39,11 +39,7 @@ return [
         ],
         'empty' => [
             'heading' => '',
-<<<<<<< HEAD
             'label' => 'empty12',
-=======
-            'label' => 'empty',
->>>>>>> 929ed821d (.)
         ],
     ],
     'fields' => [

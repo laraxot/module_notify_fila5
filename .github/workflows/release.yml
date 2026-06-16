@@ -18,29 +18,6 @@ jobs:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - name: Checkout
-<<<<<<< HEAD
-        uses: actions/checkout@v5
-        with:
-<<<<<<< HEAD
-          fetch-depth: 0 # Required for commit analysis
-          token: ${{ secrets.GH_TOKEN }} # using standard GH_TOKEN for semantic-release
-=======
-          fetch-depth: 0
-          token: ${{ secrets.GH_TOKEN }}
->>>>>>> 0314e8a24 (.)
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
-        with:
-          node-version: 20
-
-<<<<<<< HEAD
-=======
-      - name: Install Dependencies
-        run: npm ci
-
->>>>>>> 0314e8a24 (.)
-=======
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Required for commit analysis
@@ -51,7 +28,6 @@ jobs:
         with:
           node-version: 20
 
->>>>>>> 929ed821d (.)
       - name: Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

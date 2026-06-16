@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Models\Traits;
 
 use Illuminate\Database\Eloquent\Collection;
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Arr;
->>>>>>> 929ed821d (.)
 use Modules\Notify\Enums\ContactTypeEnum;
 
 /**
@@ -27,16 +23,11 @@ trait HasContact
      */
     protected function initializeHasContact(): void
     {
-<<<<<<< HEAD
         /** @var array<string> $fields */
         $fields = array_values(array_map(
             fn (ContactTypeEnum $item): string => $item->value,
             ContactTypeEnum::cases(),
         ));
-=======
-        // Automatically create a random token
-        $fields = Arr::map(ContactTypeEnum::cases(), fn ($item) => $item->value);
->>>>>>> 929ed821d (.)
         $this->mergeFillable($fields);
     }
 }

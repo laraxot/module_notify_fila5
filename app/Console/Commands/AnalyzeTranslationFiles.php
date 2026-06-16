@@ -58,18 +58,11 @@ class AnalyzeTranslationFiles extends Command
                     continue;
                 }
 
-<<<<<<< HEAD
                 /** @var array<string, mixed> $translationsTyped */
                 $translationsTyped = $translations;
                 $allFiles["{$lang}/{$filename}"] = $this->flattenArray($translationsTyped);
 
                 foreach (array_keys($this->flattenArray($translationsTyped)) as $key) {
-=======
-                $allFiles["{$lang}/{$filename}"] = $this->flattenArray($translations);
-
-                // Collect all unique keys
-                foreach (array_keys($this->flattenArray($translations)) as $key) {
->>>>>>> 929ed821d (.)
                     $allKeys[$key] = true;
                 }
             }
@@ -92,12 +85,8 @@ class AnalyzeTranslationFiles extends Command
     }
 
     /**
-<<<<<<< HEAD
      * @param  array<string, mixed>  $array
      * @return array<string, mixed>
-=======
-     * Flatten a multi-dimensional array into a single level array with dot notation keys.
->>>>>>> 929ed821d (.)
      */
     private function flattenArray(array $array, string $prefix = ''): array
     {
@@ -107,13 +96,9 @@ class AnalyzeTranslationFiles extends Command
             $newKey = $prefix ? "{$prefix}.{$key}" : $key;
 
             if (is_array($value)) {
-<<<<<<< HEAD
                 /** @var array<string, mixed> $nested */
                 $nested = $value;
                 $result = array_merge($result, $this->flattenArray($nested, $newKey));
-=======
-                $result = array_merge($result, $this->flattenArray($value, $newKey));
->>>>>>> 929ed821d (.)
             } else {
                 $result[$newKey] = $value;
             }
@@ -123,11 +108,7 @@ class AnalyzeTranslationFiles extends Command
     }
 
     /**
-<<<<<<< HEAD
      * @param  array<string, array<string, mixed>>  $allFiles
-=======
-     * Analyze structure patterns in translation files.
->>>>>>> 929ed821d (.)
      */
     private function analyzeStructurePatterns(array $allFiles): void
     {
@@ -166,12 +147,8 @@ class AnalyzeTranslationFiles extends Command
     }
 
     /**
-<<<<<<< HEAD
      * @param  array<string, array<string, mixed>>  $allFiles
      * @param  list<string>  $allKeys
-=======
-     * Generate a consistency report for translation files.
->>>>>>> 929ed821d (.)
      */
     private function generateConsistencyReport(array $allFiles, array $allKeys): void
     {
@@ -203,11 +180,7 @@ class AnalyzeTranslationFiles extends Command
     }
 
     /**
-<<<<<<< HEAD
      * @param  array<string, array<string, mixed>>  $allFiles
-=======
-     * Generate recommendations for standardizing translation files.
->>>>>>> 929ed821d (.)
      */
     private function generateRecommendations(array $allFiles): void
     {
@@ -248,11 +221,7 @@ class AnalyzeTranslationFiles extends Command
     }
 
     /**
-<<<<<<< HEAD
      * @param  array<string, array<string, mixed>>  $allFiles
-=======
-     * Analyze the navigation structure in translation files.
->>>>>>> 929ed821d (.)
      */
     private function analyzeNavigationStructure(array $allFiles): void
     {

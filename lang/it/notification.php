@@ -3,65 +3,23 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
     'resource' => ['name' => 'Notifica', 'plural' => 'Notifiche'],
     'navigation' => [
         'name' => 'Gestione Notifiche',
         'plural' => 'Gestione Notifiche',
         'group' => ['name' => 'Sistema', 'description' => 'Gestione centralizzata delle notifiche di sistema'],
-=======
-    'resource' => [
-        'name' => 'Notifica',
-        'plural' => 'Notifiche',
-    ],
-    'navigation' => [
-        'name' => 'Gestione Notifiche',
-        'plural' => 'Gestione Notifiche',
-        'group' => [
-            'name' => 'Sistema',
-            'description' => 'Gestione centralizzata delle notifiche di sistema',
-        ],
->>>>>>> 929ed821d (.)
         'label' => 'Gestione Notifiche',
         'icon' => 'notify-notification-animated',
         'sort' => 46,
     ],
     'fields' => [
-<<<<<<< HEAD
         'title' => ['label' => 'Titolo', 'helper_text' => 'Titolo della notifica', 'placeholder' => 'Inserisci il titolo', 'tooltip' => '', 'description' => ''],
         'message' => ['label' => 'Messaggio', 'helper_text' => 'Contenuto della notifica', 'placeholder' => 'Inserisci il messaggio', 'tooltip' => '', 'description' => ''],
-=======
-        'title' => [
-            'label' => 'Titolo',
-            'helper_text' => 'Titolo della notifica',
-            'placeholder' => 'Inserisci il titolo',
-            'tooltip' => '',
-            'description' => '',
-        ],
-        'message' => [
-            'label' => 'Messaggio',
-            'helper_text' => 'Contenuto della notifica',
-            'placeholder' => 'Inserisci il messaggio',
-            'tooltip' => '',
-            'description' => '',
-        ],
->>>>>>> 929ed821d (.)
         'type' => [
             'label' => 'Tipo',
             'helper_text' => 'Tipologia di notifica',
             'placeholder' => 'Seleziona il tipo',
-<<<<<<< HEAD
             'options' => ['system' => 'Sistema', 'alert' => 'Avviso', 'info' => 'Informazione', 'success' => 'Successo', 'warning' => 'Attenzione', 'error' => 'Errore'],
-=======
-            'options' => [
-                'system' => 'Sistema',
-                'alert' => 'Avviso',
-                'info' => 'Informazione',
-                'success' => 'Successo',
-                'warning' => 'Attenzione',
-                'error' => 'Errore',
-            ],
->>>>>>> 929ed821d (.)
             'tooltip' => '',
             'description' => '',
         ],
@@ -69,7 +27,6 @@ return [
             'label' => 'Stato',
             'helper_text' => 'Stato corrente della notifica',
             'placeholder' => 'Seleziona lo stato',
-<<<<<<< HEAD
             'options' => ['unread' => 'Non letta', 'read' => 'Letta', 'archived' => 'Archiviata'],
             'tooltip' => '',
             'description' => '',
@@ -78,70 +35,16 @@ return [
         'sent_at' => ['label' => 'Inviata il', 'helper_text' => 'Data e ora di invio della notifica', 'tooltip' => '', 'description' => ''],
         'read_at' => ['label' => 'Letta il', 'helper_text' => 'Data e ora di lettura della notifica', 'tooltip' => '', 'description' => '', 'placeholder' => 'read_at'],
         'archived_at' => ['label' => 'Archiviata il', 'helper_text' => 'Data e ora di archiviazione della notifica', 'tooltip' => '', 'description' => ''],
-=======
-            'options' => [
-                'unread' => 'Non letta',
-                'read' => 'Letta',
-                'archived' => 'Archiviata',
-            ],
-            'tooltip' => '',
-            'description' => '',
-        ],
-        'recipient' => [
-            'label' => 'Destinatario',
-            'helper_text' => 'Utente destinatario della notifica',
-            'placeholder' => 'Seleziona il destinatario',
-            'tooltip' => '',
-            'description' => '',
-        ],
-        'sent_at' => [
-            'label' => 'Inviata il',
-            'helper_text' => 'Data e ora di invio della notifica',
-            'tooltip' => '',
-            'description' => '',
-        ],
-        'read_at' => [
-            'label' => 'Letta il',
-            'helper_text' => 'Data e ora di lettura della notifica',
-            'tooltip' => '',
-            'description' => '',
-        ],
-        'archived_at' => [
-            'label' => 'Archiviata il',
-            'helper_text' => 'Data e ora di archiviazione della notifica',
-            'tooltip' => '',
-            'description' => '',
-        ],
->>>>>>> 929ed821d (.)
         'channel' => [
             'label' => 'Canale',
             'tooltip' => 'Canale di invio della notifica',
             'helper_text' => 'Seleziona il canale attraverso cui inviare la notifica',
             'placeholder' => 'Seleziona un canale',
             'options' => [
-<<<<<<< HEAD
                 'email' => ['label' => 'Email', 'tooltip' => 'Invia tramite email'],
                 'sms' => ['label' => 'SMS', 'tooltip' => 'Invia tramite SMS'],
                 'push' => ['label' => 'Push', 'tooltip' => 'Invia come notifica push'],
                 'telegram' => ['label' => 'Telegram', 'tooltip' => 'Invia tramite Telegram'],
-=======
-                'email' => [
-                    'label' => 'Email',
-                    'tooltip' => 'Invia tramite email',
-                ],
-                'sms' => [
-                    'label' => 'SMS',
-                    'tooltip' => 'Invia tramite SMS',
-                ],
-                'push' => [
-                    'label' => 'Push',
-                    'tooltip' => 'Invia come notifica push',
-                ],
-                'telegram' => [
-                    'label' => 'Telegram',
-                    'tooltip' => 'Invia tramite Telegram',
-                ],
->>>>>>> 929ed821d (.)
             ],
             'description' => '',
         ],
@@ -151,27 +54,9 @@ return [
             'helper_text' => 'Scegli il modello predefinito per questa notifica',
             'placeholder' => 'Seleziona un template',
             'options' => [
-<<<<<<< HEAD
                 'subject' => ['label' => 'Oggetto', 'tooltip' => 'Oggetto della notifica', 'placeholder' => 'es: Notifica importante'],
                 'body' => ['label' => 'Corpo', 'tooltip' => 'Contenuto principale della notifica', 'placeholder' => 'Inserisci il testo della notifica...'],
                 'variables' => ['label' => 'Variabili disponibili', 'tooltip' => 'Variabili che possono essere utilizzate nel template', 'helper_text' => 'Usa {variable} per inserire valori dinamici'],
-=======
-                'subject' => [
-                    'label' => 'Oggetto',
-                    'tooltip' => 'Oggetto della notifica',
-                    'placeholder' => 'es: Notifica importante',
-                ],
-                'body' => [
-                    'label' => 'Corpo',
-                    'tooltip' => 'Contenuto principale della notifica',
-                    'placeholder' => 'Inserisci il testo della notifica...',
-                ],
-                'variables' => [
-                    'label' => 'Variabili disponibili',
-                    'tooltip' => 'Variabili che possono essere utilizzate nel template',
-                    'helper_text' => 'Usa {variable} per inserire valori dinamici',
-                ],
->>>>>>> 929ed821d (.)
             ],
             'description' => '',
         ],
@@ -181,7 +66,6 @@ return [
             'helper_text' => 'Imposta quando la notifica deve essere inviata',
             'placeholder' => 'Seleziona l\'opzione di programmazione',
             'options' => [
-<<<<<<< HEAD
                 'immediate' => ['label' => 'Immediata', 'tooltip' => 'Invia subito la notifica'],
                 'scheduled' => ['label' => 'Programmata', 'tooltip' => 'Programma l\'invio per una data specifica'],
                 'date' => ['label' => 'Data', 'tooltip' => 'Data di invio programmato', 'placeholder' => 'es: 01/01/2024'],
@@ -214,92 +98,6 @@ return [
         'delete' => ['label' => 'Elimina', 'tooltip' => 'Elimina definitivamente la notifica', 'success_message' => 'Notifica eliminata con successo', 'error_message' => 'Errore nell\'eliminazione della notifica', 'confirmation' => 'Sei sicuro di voler eliminare questa notifica? Questa azione non può essere annullata.'],
     ],
     'messages' => ['no_notifications' => 'Non hai notifiche', 'all_read' => 'Tutte le notifiche sono state lette', 'mark_all_read' => 'Segna tutte come lette', 'notification_sent' => 'Notifica inviata con successo', 'notification_error' => 'Si è verificato un errore durante l\'invio della notifica', 'delete_confirmation' => 'Sei sicuro di voler eliminare questa notifica?', 'batch_action_confirmation' => 'Sei sicuro di voler eseguire questa azione su tutte le notifiche selezionate?', 'success' => 'Operazione completata con successo', 'error' => 'Si è verificato un errore durante l\'operazione'],
-=======
-                'immediate' => [
-                    'label' => 'Immediata',
-                    'tooltip' => 'Invia subito la notifica',
-                ],
-                'scheduled' => [
-                    'label' => 'Programmata',
-                    'tooltip' => 'Programma l\'invio per una data specifica',
-                ],
-                'date' => [
-                    'label' => 'Data',
-                    'tooltip' => 'Data di invio programmato',
-                    'placeholder' => 'es: 01/01/2024',
-                ],
-                'time' => [
-                    'label' => 'Ora',
-                    'tooltip' => 'Ora di invio programmato',
-                    'placeholder' => 'es: 14:30',
-                ],
-            ],
-            'description' => '',
-        ],
-        'applyFilters' => [
-            'label' => 'applyFilters',
-            'tooltip' => '',
-            'helper_text' => '',
-            'description' => '',
-        ],
-    ],
-    'actions' => [
-        'mark_as_read' => [
-            'label' => 'Segna come letta',
-            'tooltip' => 'Marca la notifica come letta',
-            'success_message' => 'Notifica segnata come letta',
-            'error_message' => 'Errore nel segnare la notifica come letta',
-        ],
-        'mark_as_unread' => [
-            'label' => 'Segna come non letta',
-            'tooltip' => 'Marca la notifica come non letta',
-            'success_message' => 'Notifica segnata come non letta',
-            'error_message' => 'Errore nel segnare la notifica come non letta',
-        ],
-        'archive' => [
-            'label' => 'Archivia',
-            'tooltip' => 'Archivia la notifica',
-            'success_message' => 'Notifica archiviata con successo',
-            'error_message' => 'Errore nell\'archiviazione della notifica',
-        ],
-        'unarchive' => [
-            'label' => 'Ripristina',
-            'tooltip' => 'Ripristina la notifica archiviata',
-            'success_message' => 'Notifica ripristinata con successo',
-            'error_message' => 'Errore nel ripristino della notifica',
-        ],
-        'send' => [
-            'label' => 'Invia',
-            'tooltip' => 'Invia la notifica',
-            'success_message' => 'Notifica inviata con successo',
-            'error_message' => 'Errore nell\'invio della notifica',
-        ],
-        'resend' => [
-            'label' => 'Invia nuovamente',
-            'tooltip' => 'Invia nuovamente la notifica',
-            'success_message' => 'Notifica inviata nuovamente con successo',
-            'error_message' => 'Errore nell\'invio della notifica',
-        ],
-        'delete' => [
-            'label' => 'Elimina',
-            'tooltip' => 'Elimina definitivamente la notifica',
-            'success_message' => 'Notifica eliminata con successo',
-            'error_message' => 'Errore nell\'eliminazione della notifica',
-            'confirmation' => 'Sei sicuro di voler eliminare questa notifica? Questa azione non può essere annullata.',
-        ],
-    ],
-    'messages' => [
-        'no_notifications' => 'Non hai notifiche',
-        'all_read' => 'Tutte le notifiche sono state lette',
-        'mark_all_read' => 'Segna tutte come lette',
-        'notification_sent' => 'Notifica inviata con successo',
-        'notification_error' => 'Si è verificato un errore durante l\'invio della notifica',
-        'delete_confirmation' => 'Sei sicuro di voler eliminare questa notifica?',
-        'batch_action_confirmation' => 'Sei sicuro di voler eseguire questa azione su tutte le notifiche selezionate?',
-        'success' => 'Operazione completata con successo',
-        'error' => 'Si è verificato un errore durante l\'operazione',
-    ],
->>>>>>> 929ed821d (.)
     'label' => 'Notification',
     'plural_label' => 'Notification (Plurale)',
 ];

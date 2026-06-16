@@ -36,10 +36,7 @@ class SmtpData extends Data
 
     public ?string $local_domain = null;
 
-<<<<<<< HEAD
     /** @var array<string, self> */
-=======
->>>>>>> 929ed821d (.)
     private static array $instance = [];
 
     public static function make(string $name = 'smtp'): self

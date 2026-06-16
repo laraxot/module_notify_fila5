@@ -20,12 +20,4 @@ Tutte le modifiche significative al modulo Notify saranno documentate in questo 
 
 - Namespace modulo: `Modules\Notify\{Subdirectory}`
 - NO: `Modules\Notify\App\{Subdirectory}`
-<<<<<<< HEAD
 - Cartella `app/` è organizzativa, non parte del namespace
-=======
-- Cartella `app/` è organizzativa, non parte del namespace
-<<<<<<< HEAD
-
-=======
->>>>>>> 01dce8d29 (initial commit)
->>>>>>> 929ed821d (.)

@@ -17,10 +17,7 @@ class NetfunSendAction
 
     public string $token;
 
-<<<<<<< HEAD
     /** @var array<string, mixed> */
-=======
->>>>>>> 929ed821d (.)
     public array $vars = [];
 
     /**
@@ -39,11 +36,7 @@ class NetfunSendAction
     }
 
     /**
-<<<<<<< HEAD
      * @return array<string, mixed>
-=======
-     * Execute the action.
->>>>>>> 929ed821d (.)
      */
     public function execute(SmsData $smsData): array
     {

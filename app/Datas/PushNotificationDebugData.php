@@ -12,12 +12,9 @@ use Modules\Notify\Contracts\CanReceivePushNotifications;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Spatie\LaravelData\Data;
 
-<<<<<<< HEAD
 /**
  * @implements Arrayable<string, mixed>
  */
-=======
->>>>>>> 929ed821d (.)
 final class PushNotificationDebugData extends Data implements Arrayable
 {
     public function __construct(
@@ -34,12 +31,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
         return new self($notifiable, $notification, $sendReport);
     }
 
-<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
-=======
->>>>>>> 929ed821d (.)
     public function toArray(): array
     {
         return [

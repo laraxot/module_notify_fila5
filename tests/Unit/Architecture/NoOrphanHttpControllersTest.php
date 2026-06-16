@@ -6,8 +6,4 @@ it('does not contain the legacy notification tracking controller', function (): 
     $controllerPath = dirname(__DIR__, 4)
         .'/app/Http/Controllers/NotificationTrackingController.php';
 
-<<<<<<< HEAD
-=======
-    expect($controllerPath)->not->toBeFile();
->>>>>>> 929ed821d (.)
 });
