@@ -11,6 +11,9 @@ import { modal } from './components/modal';
 import { mobileMenu } from './components/mobile-menu';
 import { governanceCarousel } from './components/carousel';
 import './components/bootstrap-italia.js';
+// DISABLED: domande-frequenti-parity.js was overriding blade template HTML with JS-generated structure
+// Now using blade template directly with Alpine.js for accordion
+// import { domandeFrequentiParity } from './domande-frequenti-parity';
 
 window.Alpine = Alpine;
 
@@ -162,6 +165,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 console.log('Sixteen theme loaded - Tailwind + Alpine.js');
 
+// DISABLED: Using blade template directly with Alpine.js instead of JS-generated structure
+// domandeFrequentiParity();
+
 document.addEventListener('DOMContentLoaded', function() {
     if (!document.body.classList.contains('dc-homepage-parity')) {
         return;
@@ -191,4 +197,62 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.evidence-section .avatar img').forEach(function(image, index) {
         image.src = 'https://picsum.photos/id/' + (1025 + index) + '/200/200';
     });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(function(toggle) {
+        toggle.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('data-bs-target');
+            const panel = targetId ? document.querySelector(targetId) : null;
+
+            if (!panel) {
+                return;
+            }
+
+            const parentSelector = panel.getAttribute('data-bs-parent');
+            const isOpen = panel.classList.contains('show');
+
+            if (parentSelector) {
+                document.querySelectorAll(parentSelector + ' .accordion-collapse.show').forEach(function(openPanel) {
+                    if (openPanel !== panel) {
+                        openPanel.classList.remove('show');
+                        openPanel.previousElementSibling?.querySelector('.accordion-button')?.classList.add('collapsed');
+                        openPanel.previousElementSibling?.querySelector('.accordion-button')?.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            }
+
+            panel.classList.toggle('show', !isOpen);
+            this.classList.toggle('collapsed', isOpen);
+            this.setAttribute('aria-expanded', String(!isOpen));
+        });
+    });
+
+    const faqSearchInput = document.querySelector('[data-faq-search]');
+    const faqSearchForm = document.querySelector('[data-faq-search-form]');
+
+    if (faqSearchForm) {
+        faqSearchForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+        });
+    }
+
+    if (faqSearchInput) {
+        faqSearchInput.addEventListener('input', function() {
+            const term = this.value.trim().toLowerCase();
+
+            document.querySelectorAll('[data-faq-item]').forEach(function(item) {
+                const haystack = item.getAttribute('data-faq-text') || '';
+                item.style.display = term === '' || haystack.includes(term) ? '' : 'none';
+            });
+        });
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    if (document.querySelector('main[data-page="argomenti"]')) {
+        document.body.classList.add('dc-argomenti-parity');
+    }
 });

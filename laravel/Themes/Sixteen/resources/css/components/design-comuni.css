@@ -227,3 +227,206 @@
 .it-footer .ue-logo {
     @apply h-12 w-auto mb-4;
 }
+
+/* ==========================================================================
+   FAQ Components - Bootstrap Italia Exact Replica
+   Reference: https://italia.github.io/design-comuni-pagine-statiche/sito/domande-frequenti.html
+   ========================================================================== */
+
+/* Breadcrumb Component
+   ========================================================================== */
+.cmp-breadcrumbs {
+    @apply py-4;
+}
+
+.cmp-breadcrumbs .breadcrumb {
+    @apply flex flex-wrap items-center text-sm;
+}
+
+.cmp-breadcrumbs .breadcrumb-item {
+    @apply flex items-center;
+}
+
+.cmp-breadcrumbs .breadcrumb-item a {
+    @apply text-[#0066CC] hover:underline;
+}
+
+.cmp-breadcrumbs .breadcrumb-item.active {
+    @apply text-gray-700;
+}
+
+.cmp-breadcrumbs .separator {
+    @apply mx-2 text-gray-400;
+}
+
+/* Hero Component (FAQ Style)
+   ========================================================================== */
+.cmp-hero {
+    @apply py-8;
+}
+
+.cmp-hero .it-hero-wrapper {
+    @apply bg-white;
+}
+
+.cmp-hero .it-hero-text-wrapper {
+    @apply pt-0 ps-0 pb-4 lg:pb-[60px];
+}
+
+.cmp-hero h1 {
+    @apply text-black text-4xl lg:text-5xl font-bold;
+}
+
+.cmp-hero .hero-text {
+    @apply mt-4 text-lg text-gray-700;
+}
+
+/* Search Input (FAQ Style)
+   ========================================================================== */
+.cmp-input-search {
+    @apply py-4;
+}
+
+.cmp-input-search .autocomplete-wrapper {
+    @apply relative;
+}
+
+.cmp-input-search .input-group {
+    @apply flex items-center relative;
+}
+
+.cmp-input-search .autocomplete {
+    @apply flex-1 px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:border-[#0066CC] focus:ring-1 focus:ring-[#0066CC];
+}
+
+.cmp-input-search .input-group-append {
+    @apply relative;
+}
+
+.cmp-input-search .input-group-append .btn {
+    @apply h-full px-6 py-2 bg-[#0066CC] text-white font-medium rounded-r-lg hover:bg-[#003D73] transition-colors border border-[#0066CC];
+}
+
+.cmp-input-search .autocomplete-icon {
+    @apply absolute right-16 top-1/2 -translate-y-1/2 pointer-events-none;
+}
+
+.cmp-input-search .autocomplete-list {
+    @apply absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-lg shadow-lg mt-1 max-h-60 overflow-y-auto z-10 hidden;
+}
+
+/* Accordion FAQ Component
+   ========================================================================== */
+.cmp-accordion.faq {
+    @apply mb-8;
+}
+
+.cmp-accordion.faq .accordion-item {
+    @apply border-b border-gray-200;
+}
+
+.cmp-accordion.faq .accordion-header {
+    @apply m-0;
+}
+
+.cmp-accordion.faq .accordion-button {
+    @apply w-full px-4 py-3 flex items-center justify-between text-left bg-white hover:bg-gray-50 transition-colors border-0;
+}
+
+.cmp-accordion.faq .accordion-button.collapsed {
+    @apply bg-white;
+}
+
+.cmp-accordion.faq .accordion-button:not(.collapsed) {
+    @apply bg-gray-50;
+}
+
+.cmp-accordion.faq .button-wrapper {
+    @apply flex items-center justify-between w-full gap-2;
+}
+
+.cmp-accordion.faq .icon-wrapper {
+    @apply flex items-center flex-shrink-0;
+}
+
+.cmp-accordion.faq .icon-wrapper svg {
+    @apply transition-transform duration-200;
+}
+
+/* Alpine.js rotate-180 for accordion icon */
+.cmp-accordion.faq .icon-wrapper svg.rotate-180 {
+    transform: rotate(180deg);
+}
+
+/* x-cloak for Alpine.js - prevents flash before Alpine loads */
+[x-cloak] {
+    display: none !important;
+}
+
+/* Typography - typo "snall" is intentional from Bootstrap Italia reference */
+.cmp-accordion.faq .title-snall-semi-bold {
+    @apply text-base font-semibold leading-tight;
+}
+
+.cmp-accordion.faq .accordion-collapse {
+    @apply overflow-hidden;
+}
+
+.cmp-accordion.faq .accordion-collapse.p-0 {
+    @apply p-0;
+}
+
+.cmp-accordion.faq .accordion-body {
+    @apply px-4 py-4 text-gray-700;
+}
+
+.cmp-accordion.faq .accordion-body p {
+    @apply mb-3 last:mb-0;
+}
+
+.cmp-accordion.faq .title-snall-semi-bold {
+    @apply text-base font-semibold;
+}
+
+.cmp-accordion.faq .accordion-collapse {
+    @apply overflow-hidden;
+}
+
+.cmp-accordion.faq .accordion-collapse.p-0 {
+    @apply p-0;
+}
+
+.cmp-accordion.faq .accordion-body {
+    @apply px-4 py-4 text-gray-700;
+}
+
+.cmp-accordion.faq .accordion-body p {
+    @apply mb-3 last:mb-0;
+}
+
+/* CTA Section (Single Button Links)
+   ========================================================================== */
+.cmp-single-button-links {
+    @apply py-8;
+}
+
+.cmp-single-button-links .card {
+    @apply bg-gray-100 border-0 rounded-lg p-6;
+}
+
+.cmp-single-button-links .card-body {
+    @apply flex flex-col items-start gap-4;
+}
+
+.cmp-single-button-links .title-small-semi-bold {
+    @apply text-xl font-semibold text-gray-900 mb-0;
+}
+
+.cmp-single-button-links .card-body p {
+    @apply mb-4 text-gray-700;
+}
+
+.cmp-single-button-links .btn-primary {
+    @apply px-6 py-2 bg-[#0066CC] text-white font-medium rounded-lg hover:bg-[#003D73] transition-colors;
+}
+

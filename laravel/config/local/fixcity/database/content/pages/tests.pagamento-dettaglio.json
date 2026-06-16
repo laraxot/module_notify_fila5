@@ -1,0 +1,56 @@
+{
+    "id": "tests.pagamento-dettaglio",
+    "title": {
+        "it": "Dettaglio pagamento",
+        "en": "Dettaglio pagamento"
+    },
+    "slug": "tests.pagamento-dettaglio",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Dettaglio pagamento",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Dettaglio pagamento",
+                    "subtitle": "",
+                    "content": "<p>Contenuto della pagina Dettaglio pagamento</p>"
+                }
+            },
+            {
+                "type": "content",
+                "data": {
+                    "view": "pub_theme::components.blocks.content.default",
+                    "title": "Dettaglio pagamento",
+                    "content": "<p>Contenuto dettagliato della pagina...</p>"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

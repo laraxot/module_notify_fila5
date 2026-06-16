@@ -1,42 +1,60 @@
 {
     "id": "tests.segnalazione-area-personale",
     "title": {
-        "it": "Segnalazione disservizio - Area personale",
-        "en": "Segnalazione disservizio - Area personale"
+        "it": "Segnalazione - Area personale",
+        "en": "Segnalazione - Area personale"
     },
     "slug": "tests.segnalazione-area-personale",
+    "category": "Generali",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "tests",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Segnalazione disservizio - Area personale",
-                    "category": "Segnalazione Disservizio",
-                    "summary": "La schermata dell'area personale con la segnalazione appena effettuata.",
-                    "slug": "tests.segnalazione-area-personale"
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Area personale",
+                            "url": "/it/tests/area-personale"
+                        },
+                        {
+                            "label": "Segnalazione",
+                            "url": null
+                        }
+                    ]
                 }
             },
             {
-                "type": "tests",
+                "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "La pagina finale separera overview profilo, elenco segnalazioni e stato ticket."
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Segnalazione - Area personale",
+                    "subtitle": "",
+                    "content": "<p>Gestione delle tue segnalazioni.</p>"
                 }
             },
             {
-                "type": "tests",
+                "type": "card-list",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-area-personale.html"
+                    "view": "pub_theme::components.blocks.card.list",
+                    "title": "Le tue segnalazioni",
+                    "items": [
+                        {
+                            "title": "Segnalazione 1",
+                            "excerpt": "Stato: In lavorazione",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Segnalazione 2",
+                            "excerpt": "Stato: Completata",
+                            "url": "#"
+                        }
+                    ]
                 }
             }
         ],

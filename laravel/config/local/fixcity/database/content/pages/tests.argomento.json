@@ -10,45 +10,109 @@
     "content_blocks": {
         "it": [
             {
-                "type": "breadcrumb",
+                "type": "hero-argomento",
                 "data": {
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.hero.argomento",
+                    "title": "Sport",
+                    "subtitle": "Informazioni su eventi sportivi, impianti comunali, servizi dedicati allo sport",
+                    "image": "https://picsum.photos/800/400",
+                    "offices": [
+                        {
+                            "name": "Sport, cultura, spettacolo",
+                            "url": "#",
+                            "address": "Via Dei Transiti 21, 50302",
+                            "phone": "055 1234567",
+                            "email": "sport@comune.it",
+                            "image": "https://picsum.photos/200/200"
+                        },
+                        {
+                            "name": "Ufficio informazioni",
+                            "url": "#",
+                            "address": "Piazza del Comune, 1",
+                            "email": "info@comune.it"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "themed-section",
+                "data": {
+                    "view": "pub_theme::components.blocks.sections.themed",
+                    "id": "novita",
+                    "title": "Novità ed eventi",
+                    "bg": "bg-primary",
+                    "text_color": "text-white",
                     "items": [
-                        {"label": "Home", "url": "/it/tests/homepage"},
-                        {"label": "Argomenti", "url": "/it/tests/argomenti"},
-                        {"label": "Dettaglio argomento", "url": null}
+                        {"title": "Nuovo impianto sportivo inaugurato", "description": "È stato inaugurato il nuovo impianto sportivo comunale...", "url": "#", "date": "15/03/2024"},
+                        {"title": "Iscrizioni corso di nuoto", "description": "Sono aperte le iscrizioni al corso di nuoto per ragazzi...", "url": "#", "date": "10/03/2024"},
+                        {"title": "Torneo di calcio giovanile", "description": "Il comune organizza il torneo di calcio per le categorie...", "url": "#", "date": "05/03/2024"}
                     ]
                 }
             },
             {
-                "type": "hero",
+                "type": "themed-section",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
-                    "title": "Dettaglio argomento",
-                    "subtitle": "Informazioni e servizi correlati",
-                    "content": "<p>Esplora tutti i servizi e le informazioni relative a questo argomento</p>"
-                }
-            },
-            {
-                "type": "cards-grid",
-                "data": {
-                    "view": "pub_theme::components.blocks.cards.grid",
-                    "title": "Servizi correlati",
-                    "cards": [
-                        {"title": "Servizio 1", "description": "Descrizione del servizio", "url": "/it/tests/servizio-dettaglio"},
-                        {"title": "Servizio 2", "description": "Descrizione del servizio", "url": "/it/tests/servizio-dettaglio"},
-                        {"title": "Servizio 3", "description": "Descrizione del servizio", "url": "/it/tests/servizio-dettaglio"}
+                    "view": "pub_theme::components.blocks.sections.themed",
+                    "id": "amministrazione",
+                    "title": "Amministrazione",
+                    "bg": "bg-white",
+                    "text_color": "t-primary",
+                    "items": [
+                        {"title": "Delibera impianto sportivo", "description": "Documento di approvazione del nuovo impianto...", "url": "#"},
+                        {"title": "Regolamento strutture comunali", "description": "Regolamento per l'utilizzo delle strutture sportive...", "url": "#"}
                     ]
                 }
             },
             {
-                "type": "links-list",
+                "type": "themed-section",
                 "data": {
-                    "view": "pub_theme::components.blocks.links.list",
+                    "view": "pub_theme::components.blocks.sections.themed",
+                    "id": "servizi",
+                    "title": "Servizi",
+                    "bg": "bg-grey-card",
+                    "text_color": "t-primary",
+                    "items": [
+                        {"title": "Prenostazione impianto", "description": "Prenota un impianto sportivo comunale", "url": "/it/tests/servizio-dettaglio"},
+                        {"title": "Iscrizione registro sportivo", "description": "Iscriviti al registro delle associazioni sportive", "url": "/it/tests/servizio-dettaglio"},
+                        {"title": "Richiesta patrocinio", "description": "Richiedi il patrocinio per eventi sportivi", "url": "/it/tests/servizio-dettaglio"}
+                    ]
+                }
+            },
+            {
+                "type": "themed-section",
+                "data": {
+                    "view": "pub_theme::components.blocks.sections.themed",
+                    "id": "documenti",
                     "title": "Documenti utili",
-                    "links": [
-                        {"label": "Documento 1", "url": "#", "description": "Descrizione documento"},
-                        {"label": "Documento 2", "url": "#", "description": "Descrizione documento"}
+                    "bg": "bg-white",
+                    "text_color": "t-primary",
+                    "items": [
+                        {"title": "Modulo prenotazione impianto", "description": "Scarica il modulo per la prenotazione", "url": "#"},
+                        {"title": "Elenco impianti sportivi", "description": "Lista completa degli impianti disponibili", "url": "#"}
+                    ]
+                }
+            },
+            {
+                "type": "feedback",
+                "data": {
+                    "view": "pub_theme::components.blocks.feedback.faq-rating",
+                    "title": "Quanto sono chiare le informazioni su questa pagina?",
+                    "subtitle": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!"
+                }
+            },
+            {
+                "type": "contacts",
+                "data": {
+                    "view": "pub_theme::components.blocks.contacts.faq",
+                    "contact_title": "Contatta il comune",
+                    "contacts": [
+                        {"label": "Richiedi assistenza", "url": "/it/tests/assistenza-01-dati"},
+                        {"label": "Chiama il numero verde 05 0505", "url": "tel:050505"},
+                        {"label": "Prenota appuntamento", "url": "/it/tests/appuntamento-01-ufficio"}
+                    ],
+                    "issues_title": "Problemi in città",
+                    "issues": [
+                        {"label": "Segnala disservizio", "url": "/it/tests/segnalazione-dettaglio"}
                     ]
                 }
             }

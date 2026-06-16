@@ -573,11 +573,6 @@ html, body {
   }
 }
 
-/* Bootstrap grid system - Bootstrap Italia style with @apply */
-.container {
-  @apply w-full px-3 mx-auto;
-  max-width: 1200px;
-}
 
 .row {
   @apply flex flex-wrap -mx-3;
@@ -1861,11 +1856,11 @@ hr {
 
 /* FAQ Accordion - Design Comuni style - Dark Teal */
 .cmp-accordion.faq .accordion-item {
-  @apply border-0 mb-2 rounded-lg overflow-hidden;
+  @apply border-0 mb-0;
 }
 
 .cmp-accordion.faq .accordion-button {
-  @apply w-full px-4 py-4 text-left flex items-center justify-between cursor-pointer transition-colors duration-200;
+  @apply w-full px-4 py-4 text-left flex items-center justify-between cursor-pointer transition-colors duration-200 rounded-t-lg;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
@@ -1908,7 +1903,7 @@ hr {
 }
 
 .cmp-accordion.faq .accordion-collapse.show {
-  @apply block;
+  @apply block rounded-b-lg;
 }
 
 .cmp-accordion.faq .accordion-body {
@@ -1938,4 +1933,40 @@ hr {
 .link-list-block .link-list a {
   @apply px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200;
   font-family: 'Titillium Web', sans-serif;
+}
+/* FAQ Parity Styles */
+.dc-faq-hero-section {
+    @apply bg-white;
+}
+
+.it-rating-section {
+    @apply py-12;
+}
+
+.it-rating-wrapper {
+    @apply max-w-2xl mx-auto text-center;
+}
+
+.it-rating-label-container p {
+    @apply text-xl font-semibold text-gray-900 uppercase tracking-wider mb-6;
+}
+
+.it-rating-list {
+    @apply flex justify-center gap-2 list-none p-0;
+}
+
+.it-rating-list li button {
+    @apply p-2 transition-transform duration-200 hover:scale-110 border-0 bg-transparent cursor-pointer;
+}
+
+.it-rating-list .icon {
+    @apply w-10 h-10 transition-colors duration-200;
+}
+
+.fill-yellow-400 {
+    fill: #FFCC00;
+}
+
+.fill-gray-300 {
+    fill: #E0E0E0;
 }

@@ -1,0 +1,72 @@
+{
+    "id": "tests.persona",
+    "title": {
+        "it": "Persona",
+        "en": "Persona"
+    },
+    "slug": "tests.persona",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Persona",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Persona",
+                    "subtitle": "",
+                    "content": "<p>Contenuto della pagina Persona</p>"
+                }
+            },
+            {
+                "type": "card-list",
+                "data": {
+                    "view": "pub_theme::components.blocks.card.list"
+                    "title": "Elenco",
+                    "items": [
+                        {
+                            "title": "Elemento 1",
+                            "excerpt": "Descrizione elemento 1",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Elemento 2",
+                            "excerpt": "Descrizione elemento 2",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Elemento 3",
+                            "excerpt": "Descrizione elemento 3",
+                            "url": "#"
+                        }
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}
