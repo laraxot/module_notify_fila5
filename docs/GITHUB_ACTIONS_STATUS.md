@@ -18,8 +18,9 @@ Analisi e fix delle GitHub Actions del repository base_fixcity_fila5.
 
 1. **Sync Remote Repo** - ✅ SUCCESS (57s)
    - Syncs bashscripts submodules
-   - Triggered on dev push
+   - Triggered on `dev` push and manual dispatch
    - Uses BASHSCRIPTS_TOKEN secret
+   - Script hardened for dual runtime: CLI interactive/non-interactive and GitHub Actions
 
 ### ❌ Failing Actions
 
@@ -110,11 +111,11 @@ gh secret set SUBTREE_SSH_KEY < ~/.ssh/id_ed25519
 
 ## Next Steps
 
-1. Add SUBTREE_SSH_KEY secret
-2. Test Sync Subtrees workflow
-3. Investigate CI failures
-4. Update workflow documentation
-5. Set up proper monitoring
+1. Test `sync-remote-repo.yml` after every script change in both CLI and CI paths
+2. Add SUBTREE_SSH_KEY secret
+3. Test Sync Subtrees workflow
+4. Investigate CI failures
+5. Update workflow documentation
 
 ---
 
