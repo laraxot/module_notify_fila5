@@ -51,9 +51,8 @@ class Section extends Component
         if (is_string($tpl)) {
             $this->tpl = $tpl;
         }
-        /** @phpstan-ignore staticMethod.notFound */
-        $blocks = SectionModel::getBlocksBySlug($this->slug);
-        $this->blocks = is_array($blocks) ? $blocks : [];
+        /* @phpstan-ignore staticMethod.notFound, assign.propertyType */
+        $this->blocks = SectionModel::getBlocksBySlug($this->slug);
     }
 
     /**

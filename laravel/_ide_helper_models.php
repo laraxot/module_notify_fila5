@@ -261,6 +261,7 @@ namespace Modules\Cms\Models{
  * @property array<array-key, mixed>|null $middleware
  * @method static Builder<static>|Page whereMiddleware($value)
  * @method static Builder<static>|Page whereDescription($value)
+ * @method static string|null getMiddlewareBySlug(string $slug)
  * @mixin \Eloquent
  */
 	class Page extends \Eloquent {}
