@@ -7,14 +7,22 @@ on:
 permissions:
   id-token: write
   attestations: write
+<<<<<<< HEAD
   contents: write
 
 jobs:
   attest_and_upload:
+=======
+  contents: read
+
+jobs:
+  attest:
+>>>>>>> 0314e8a24 (.)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+<<<<<<< HEAD
 
       - name: Create Artifact
         run: |
@@ -30,3 +38,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release upload ${{ github.event.release.tag_name }} ${{ github.event.repository.name }}.zip
+=======
+      - name: Create release artifact
+        run: |
+          zip -r ${{ github.event.repository.name }}.zip . -x ".git/*" ".github/*"
+      - name: Attest build provenance
+        uses: actions/attest-build-provenance@v3
+        with:
+          subject-path: ${{ github.event.repository.name }}.zip
+>>>>>>> 0314e8a24 (.)
