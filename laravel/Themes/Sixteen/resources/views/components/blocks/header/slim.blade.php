@@ -15,7 +15,7 @@
                 <div class="dropdown">
                     <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <span class="visually-hidden">Lingua attiva:</span>
-                        {{ $language }}
+                        IT
                         <svg class="icon icon-xs">
                             <use href="#it-chevron-down"></use>
                         </svg>
@@ -59,9 +59,13 @@
                     <ul class="list-inline mb-0">
                         @foreach($social as $network)
                         <li class="list-inline-item">
-                            <a href="#" class="text-link" aria-label="{{ ucfirst($network) }}">
+                            @php
+                                $platformName = is_array($network) ? ($network['platform'] ?? $network['label'] ?? 'social') : $network;
+                                $platformUrl = is_array($network) ? ($network['url'] ?? '#') : '#';
+                            @endphp
+                            <a href="{{ $platformUrl }}" class="text-link" aria-label="{{ ucfirst($platformName) }}">
                                 <svg class="icon icon-sm">
-                                    <use href="#it-{{ $network }}"></use>
+                                    <use href="#it-{{ $platformName }}"></use>
                                 </svg>
                             </a>
                         </li>

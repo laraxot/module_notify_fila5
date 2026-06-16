@@ -1,58 +1,246 @@
 {
     "id": "tests-lista-risorse",
     "title": {
-        "it": "Lista risorse",
-        "en": "Resource list"
+        "it": "Titolo della pagina lista con risorse in evidenza e lista risorse",
+        "en": "Featured resources and resource list page"
     },
     "slug": "tests.lista-risorse",
-    "category": "Generali",
+    "category": "Novità",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "breadcrumb",
+                "type": "listing_page_header",
                 "data": {
-                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.listing.page-header",
+                    "breadcrumbs": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Novità",
+                            "url": null
+                        }
+                    ],
+                    "title": "Titolo della pagina lista con risorse in evidenza e lista risorse",
+                    "summary": "Breve sommario dei contenuti presenti in questa pagina, generalmene intesa con la descrizione della tipologia di contenuti"
+                }
+            },
+            {
+                "type": "listing_featured_cards",
+                "data": {
+                    "view": "pub_theme::components.blocks.listing.featured-cards",
+                    "title": "Notizie in evidenza",
                     "items": [
-                        {"label": "Home", "url": "/it/tests/homepage"},
-                        {"label": "Risorse", "url": null}
+                        {
+                            "category": "NOTIZIE",
+                            "date": "28 FEB 2023",
+                            "title": "Sport nel verde: le iniziative della prossima edizione",
+                            "description": "Le informazioni per partecipare all’iniziativa rivolta a tutte le fasce d’età per promuovere l’attività motoria nelle aree verdi della città",
+                            "image": "https://italia.github.io/design-comuni-pagine-statiche/assets/placeholders/placeholder-image.png",
+                            "image_alt": "descrizione immagine",
+                            "url": "#"
+                        },
+                        {
+                            "category": "NOTIZIE",
+                            "date": "10 GEN 2023",
+                            "title": "Torneo di beneficienza “Tutti in pista”",
+                            "description": "Dal 2 al 3 giugno torna il torneo di beneficienza “Tutti in pista”. La raccolta fondi finanzierà progetti sportivi per ragazzi e ragazze",
+                            "image": "https://italia.github.io/design-comuni-pagine-statiche/assets/placeholders/placeholder-image.png",
+                            "image_alt": "descrizione immagine",
+                            "url": "#"
+                        },
+                        {
+                            "category": "AVVISI",
+                            "date": "10 FEB 2023",
+                            "title": "Chiusa per ristrutturazione la piscina Minghetti",
+                            "description": "Partiti i lavori per l’adeguamento dell’impianto. La riapertura è prevista per giugno 2023",
+                            "image": "https://italia.github.io/design-comuni-pagine-statiche/assets/placeholders/placeholder-image.png",
+                            "image_alt": "descrizione immagine",
+                            "url": "#"
+                        }
                     ]
                 }
             },
             {
-                "type": "hero",
+                "type": "listing_search_results",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.default",
-                    "title": "Risorse",
-                    "subtitle": "Documenti e materiale utile",
-                    "content": "<p>Consulta l'elenco delle risorse messe a disposizione dal Comune</p>"
+                    "view": "pub_theme::components.blocks.listing.search-results",
+                    "title": "Esplora tutte le novità",
+                    "button_label": "Invio",
+                    "summary": "62 notizie trovate in ordine alfabetico",
+                    "items": [
+                        {
+                            "category": "NOTIZIE",
+                            "date": "28 FEB 2023",
+                            "title": "Dialoghi in Biblioteca - “Il viaggio delle donne”",
+                            "description": "Presentazione del libro di Alessandra Beltrame per la rassegna 'Dialoghi in Biblioteca0 alla Joppi",
+                            "image": "https://italia.github.io/design-comuni-pagine-statiche/assets/placeholders/placeholder-image.png",
+                            "image_alt": "descrizione immagine",
+                            "url": "#"
+                        },
+                        {
+                            "category": "NOTIZIE",
+                            "date": "03 MAR 2023",
+                            "title": "I giovedì dei piccoli",
+                            "description": "Attività dedicate ai più piccoli in tutte le ludoteche comunali",
+                            "image": "https://italia.github.io/design-comuni-pagine-statiche/assets/placeholders/placeholder-image.png",
+                            "image_alt": "descrizione immagine",
+                            "url": "#"
+                        },
+                        {
+                            "category": "COMUNICATI",
+                            "date": "1 MAR 2023",
+                            "title": "Messa in sicurezza del silos vecchio di viale La Playa",
+                            "description": "I lavori saranno consegnati con procedura d’urgenza e prevedono una durata di 33 giorni naturali e consecutivi",
+                            "image": "https://italia.github.io/design-comuni-pagine-statiche/assets/placeholders/placeholder-image.png",
+                            "image_alt": "descrizione immagine",
+                            "url": "#"
+                        },
+                        {
+                            "category": "NOTIZIE",
+                            "date": "27 FEB 2023",
+                            "title": "Iniziano le asfaltature dei controviali in Viale Venezia",
+                            "description": "A partire da lunedì 27.02.2023 e fino a venerdì 17.03.2023 sarà eseguito il rifacimento della pavimentazione bituminosa dei controviali Nord e Sud",
+                            "image": "https://italia.github.io/design-comuni-pagine-statiche/assets/placeholders/placeholder-image.png",
+                            "image_alt": "descrizione immagine",
+                            "url": "#"
+                        },
+                        {
+                            "category": "AVVISI",
+                            "date": "18 FEB 2023",
+                            "title": "Avviso per adesione strutture convenzionate nido",
+                            "description": "Le strutture per la prima infanzia (asili nido), che offrono i loro servizi nel territorio comunale, possono richiedere di convenzionarsi con il Comune per l'anno educativo 2023/2024",
+                            "image": "https://italia.github.io/design-comuni-pagine-statiche/assets/placeholders/placeholder-image.png",
+                            "image_alt": "descrizione immagine",
+                            "url": "#"
+                        },
+                        {
+                            "category": "NOTIZIE",
+                            "date": "07 FEB 2023",
+                            "title": "Via San Paolo: sgomberata la baraccopoli",
+                            "description": "Polizia municipale al lavoro tutta la giornata di sabato 4 febbraio",
+                            "image": "https://italia.github.io/design-comuni-pagine-statiche/assets/placeholders/placeholder-image.png",
+                            "image_alt": "descrizione immagine",
+                            "url": "#"
+                        }
+                    ]
                 }
             },
             {
-                "type": "resources-list",
+                "type": "listing_pagination",
                 "data": {
-                    "view": "pub_theme::components.blocks.resources.list",
-                    "resources": [
+                    "view": "pub_theme::components.blocks.listing.pagination",
+                    "current_page": 1,
+                    "previous_label": "Pagina precedente",
+                    "next_label": "Pagina successiva",
+                    "pages": [
                         {
-                            "title": "Documento 1",
-                            "description": "Descrizione del documento",
-                            "type": "PDF",
-                            "size": "2.5 MB",
-                            "url": "/download/doc1.pdf"
+                            "number": 1,
+                            "label": "Pagina 1",
+                            "url": "#"
                         },
                         {
-                            "title": "Documento 2",
-                            "description": "Descrizione del documento",
-                            "type": "PDF",
-                            "size": "1.8 MB",
-                            "url": "/download/doc2.pdf"
+                            "number": 2,
+                            "label": "2",
+                            "url": "#"
                         },
                         {
-                            "title": "Documento 3",
-                            "description": "Descrizione del documento",
-                            "type": "XLS",
-                            "size": "500 KB",
-                            "url": "/download/doc3.xls"
+                            "number": 3,
+                            "label": "3",
+                            "url": "#"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feedback_survey",
+                "data": {
+                    "view": "pub_theme::components.blocks.feedback.survey",
+                    "title": "Quanto sono chiare le informazioni su questa pagina?",
+                    "thanks_title": "Grazie, il tuo parere ci aiuterà a migliorare il servizio!",
+                    "positive_title": "Quali sono stati gli aspetti che hai preferito? 1/2",
+                    "negative_title": "Dove hai incontrato le maggiori difficoltà? 1/2",
+                    "details_title": "Vuoi aggiungere altri dettagli? 2/2",
+                    "positive_options": [
+                        "Le indicazioni erano chiare",
+                        "Le indicazioni erano complete",
+                        "Capivo sempre che stavo procedendo correttamente",
+                        "Non ho avuto problemi tecnici",
+                        "Altro"
+                    ],
+                    "negative_options": [
+                        "A volte le indicazioni non erano chiare",
+                        "A volte le indicazioni non erano complete",
+                        "A volte non capivo se stavo procedendo correttamente",
+                        "Ho avuto problemi tecnici",
+                        "Altro"
+                    ],
+                    "details_label": "Dettaglio",
+                    "details_help": "Inserire massimo 200 caratteri",
+                    "back_label": "Indietro",
+                    "next_label": "Avanti"
+                }
+            },
+            {
+                "type": "support_links",
+                "data": {
+                    "view": "pub_theme::components.blocks.search.support-links",
+                    "contact_title": "Contatta il comune",
+                    "contact_links": [
+                        {
+                            "label": "Leggi le domande frequenti",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Richiedi assistenza",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Chiama il numero verde 05 0505",
+                            "url": "tel:050505"
+                        },
+                        {
+                            "label": "Prenota appuntamento",
+                            "url": "#"
+                        }
+                    ],
+                    "report_title": "Problemi in città",
+                    "report_links": [
+                        {
+                            "label": "Segnala disservizio",
+                            "url": "#"
+                        }
+                    ],
+                    "search_title": "Cerca",
+                    "search_placeholder": "Cerca nel sito",
+                    "search_button": "Cerca",
+                    "related_title": "FORSE STAVI CERCANDO",
+                    "related_links": [
+                        {
+                            "label": "Rilascio Carta Identità Elettronica (CIE)",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Cambio di residenza",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Tributi online",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Prenotazione appuntamenti",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Rilascio tessera elettorale",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Voucher connettività",
+                            "url": "#"
                         }
                     ]
                 }

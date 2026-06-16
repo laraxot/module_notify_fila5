@@ -25,13 +25,22 @@ FixCity Fila5 Documentation
 ├── 📁 Master Index (THIS FILE)
 │
 ├── 📁 BMad Output (_bmad-output/)
-│   ├── prd.md
-│   ├── architecture.md
-│   ├── ui-spec.md
-│   ├── epics-and-stories.md
-│   ├── sprint-plan.md
-│   ├── adversarial-review.md
-│   └── BMAD-WORKFLOW-COMPLETE.md
+│   ├── General BMad Docs:
+│   │   ├── prd.md
+│   │   ├── architecture.md
+│   │   ├── ui-spec.md
+│   │   ├── epics-and-stories.md
+│   │   ├── sprint-plan.md
+│   │   ├── adversarial-review.md
+│   │   └── BMAD-WORKFLOW-COMPLETE.md
+│   │
+│   └── Design Comuni Italia Project:
+│       ├── DESIGN_COMUNI_INDEX.md - Index for all Design Comuni docs
+│       ├── design-comuni-prd.md - Product Requirements Document
+│       ├── design-comuni-architecture.md - Architecture Design
+│       ├── design-comuni-ui-spec.md - UI Specification
+│       ├── design-comuni-epics.md - Epics & Stories (12 epics, 62 stories)
+│       └── design-comuni-sprint-plan.md - Sprint Plan (6 sprints, 12 weeks)
 │
 ├── 📁 Modules (laravel/Modules/*/docs/)
 │   ├── Xot (Core Framework) - 1,941 files
@@ -203,6 +212,54 @@ FixCity Fila5 Documentation
 
 ---
 
+## 🇮🇹 Design Comuni Italia - BMad Documentation
+
+**Project:** Replication of 38 Design Comuni static pages
+**Status:** 🔄 In Progress
+**Priority:** 🔴 CRITICAL
+**Total Docs:** 5 BMad docs + 1 index
+
+### Documentation Suite
+
+| Document | File | Lines | Purpose |
+|----------|------|-------|---------|
+| **Index** | `_bmad-output/DESIGN_COMUNI_INDEX.md` | 300+ | Central navigation for Design Comuni docs |
+| **PRD** | `_bmad-output/design-comuni-prd.md` | 800+ | Product requirements (38 pages, WCAG 2.1 AA) |
+| **Architecture** | `_bmad-output/design-comuni-architecture.md` | 900+ | System architecture, data flow, security |
+| **UI Spec** | `_bmad-output/design-comuni-ui-spec.md` | 700+ | Component specs, design tokens, accessibility |
+| **Epics** | `_bmad-output/design-comuni-epics.md` | 1,200+ | 12 epics, 62 stories |
+| **Sprint Plan** | `_bmad-output/design-comuni-sprint-plan.md` | 600+ | 6 sprints, 12 weeks |
+
+### Key Features
+
+- ✅ **Single `[slug].blade.php`** - All pages use one file
+- ✅ **JSON Content Blocks** - Dynamic content management
+- ✅ **Universal Blocks** - Reusable components (NOT page-specific)
+- ✅ **Tailwind @apply** - NO Bootstrap Italia imports
+- ✅ **Folio + Volt** - File-based routing
+- ✅ **WCAG 2.1 AA** - Accessibility compliant
+
+### Implementation Roadmap
+
+| Sprint | Duration | Focus | Stories |
+|--------|----------|-------|---------|
+| **Sprint 1** | Week 1-2 | Foundation + Header/Footer | 9 |
+| **Sprint 2** | Week 3-4 | Block Components | 10 |
+| **Sprint 3** | Week 5-6 | Core Pages | 9 |
+| **Sprint 4** | Week 7-8 | Content Pages | 8 |
+| **Sprint 5** | Week 9-10 | Wizards | 17 |
+| **Sprint 6** | Week 11-12 | QA & Documentation | 9 |
+
+**Cross-References:**
+- → [Design Comuni Index](_bmad-output/DESIGN_COMUNI_INDEX.md) - Central navigation
+- → [PRD](_bmad-output/design-comuni-prd.md) - Requirements
+- → [Architecture](_bmad-output/design-comuni-architecture.md) - System design
+- → [UI Spec](_bmad-output/design-comuni-ui-spec.md) - Component specs
+- → [Replication Master Plan](laravel/Themes/Sixteen/docs/design-comuni/REPLICATION_MASTER_PLAN.md) - Technical guide
+- → [Theme Docs Index](laravel/Themes/Sixteen/docs/00-index.md) - Theme documentation
+
+---
+
 ## 🔍 Search & Navigation
 
 ### By Topic
@@ -256,9 +313,10 @@ Themes/Sixteen/docs/
 |----------|-------|--------------|
 | **Modules** | 6,812 | 500,000+ |
 | **Themes** | 325 | 25,000+ |
-| **BMad** | 9 | 8,000+ |
+| **BMad (General)** | 9 | 8,000+ |
+| **BMad (Design Comuni)** | 6 | 4,500+ |
 | **Project** | 153 | 15,000+ |
-| **Total** | **7,299** | **548,000+** |
+| **Total** | **7,305** | **552,500+** |
 
 ---
 

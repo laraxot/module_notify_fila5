@@ -1,6 +1,12 @@
 # Indice della Documentazione - Blocchi CMS
 
-## Collegamenti Correlati
+> **Design Comuni Integration**
+> - [Product Brief: Design Comuni Design System](../../../_bmad/bmm/2-plan/design-comuni-design-system-brief.md)
+> - [Design Comuni Census (70+ pagine)](../../../_bmad/bmm/2-plan/design-comuni-census.md)
+> - [Design System Conversion: Bootstrap → Tailwind + Alpine + Flowbite](../../../Themes/Sixteen/docs/design-system-conversion.md)
+> - [Layout Hierarchy (x-layouts.app extends x-layouts.main)](../../../Themes/Sixteen/docs/layout-hierarchy.md)
+
+## Collegamento Rapido
 - [Indice CMS](../index.md)
 - [README CMS](../readme.md)
 - [Blocchi](../blocks.md)

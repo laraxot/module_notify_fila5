@@ -335,7 +335,7 @@ class ContactPoint extends Model
         parent::boot();
 
         // Auto-increment position
-        static::creating(function (ContactPoint $model) {
+        static::creating(function ($model) {
             if (is_null($model->position)) {
                 $model->position = static::where('contactable_type', $model->contactable_type)
                     ->where('contactable_id', $model->contactable_id)
@@ -344,7 +344,7 @@ class ContactPoint extends Model
         });
 
         // Se è primario, rendi gli altri non primari
-        static::saving(function (ContactPoint $model) {
+        static::saving(function ($model) {
             if ($model->is_primary) {
                 static::where('contactable_type', $model->contactable_type)
                     ->where('contactable_id', $model->contactable_id)
