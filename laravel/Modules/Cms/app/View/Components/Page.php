@@ -52,8 +52,11 @@ final class Page extends Component
         }
 
         $this->slug = $slug;
+        
 
         $this->blocks = PageModel::getBlocksBySlug($this->slug, $this->side);
+        
+        
     }
 
     /**
@@ -71,9 +74,10 @@ final class Page extends Component
         ];
         // @phpstan-ignore-next-line
         if (! view()->exists($view)) {
+            
             throw new \Exception('view not found: '.$view);
         }
-
+        
         return view($view, $viewParams);
     }
 }

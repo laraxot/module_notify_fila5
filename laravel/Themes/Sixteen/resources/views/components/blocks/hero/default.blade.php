@@ -18,23 +18,29 @@
     - https://tailwindcss.com/plus/ui-blocks
 --}}
 
-@props(['title' => '', 'subtitle' => '', 'background' => 'primary'])
+@props(['title' => '', 'subtitle' => '', 'content' => '', 'background' => 'primary'])
 
-<div class="cmp-hero py-12 {{ $background === 'primary' ? 'bg-primary text-white' : 'bg-gray-100' }}">
+<div class="cmp-hero py-12 {{ $background === 'primary' ? 'bg-primary text-white' : ($background === 'white' ? 'bg-white' : 'bg-gray-100') }}">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                @if($title)
-                    <h1 class="title-xxxlarge mb-4 {{ $background === 'primary' ? 'text-white' : 'text-gray-900' }}">
-                        {{ $title }}
-                    </h1>
-                @endif
-                
-                @if($subtitle)
-                    <p class="subtitle-small {{ $background === 'primary' ? 'text-white/90' : 'text-gray-600' }}">
-                        {{ $subtitle }}
-                    </p>
-                @endif
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <section class="it-hero-wrapper bg-{{ $background === 'white' ? 'white' : '' }} align-items-start">
+                    <div class="it-hero-text-wrapper pt-0 ps-0 pb-4 pb-lg-60">
+                        @if($title)
+                            <h1 class="text-{{ $background === 'white' ? 'black' : ($background === 'primary' ? 'white' : 'gray-900') }}" data-element="page-name">
+                                {{ $title }}
+                            </h1>
+                        @endif
+                        
+                        @if($subtitle || $content)
+                            <div class="hero-text">
+                                <p class="{{ $background === 'white' ? '' : ($background === 'primary' ? 'text-white/90' : 'text-gray-600') }}">
+                                    {{ $subtitle ?: $content }}
+                                </p>
+                            </div>
+                        @endif
+                    </div>
+                </section>
             </div>
         </div>
     </div>

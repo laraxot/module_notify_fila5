@@ -27,6 +27,7 @@ trait HasBlocks
         if ($side) {
             $field = $side.'_blocks';
         }
+        
         $blocks = $this->{$field};
 
         if (! is_array($blocks)) {
@@ -91,6 +92,7 @@ trait HasBlocks
      */
     public static function getBlocksBySlug(string $slug, ?string $side = null): array
     {
+        $record = static::query()->where('slug', $slug)->sole();
         try {
             $record = static::query()->where('slug', $slug)->sole();
         } catch (ModelNotFoundException) {
@@ -100,15 +102,12 @@ trait HasBlocks
         if (! $record instanceof Model) {
             return [];
         }
-
         // Check if getBlocks method exists
         if (! method_exists($record, 'getBlocks')) {
             return [];
         }
-
         /** @var array<string, BlockData> $blocks */
         $blocks = $record->getBlocks($side);
-
         return $blocks;
     }
 }
