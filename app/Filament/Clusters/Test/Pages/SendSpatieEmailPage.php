@@ -32,7 +32,10 @@ use Webmozart\Assert\Assert;
  */
 class SendSpatieEmailPage extends XotBasePage
 {
+<<<<<<< HEAD
     /** @var array<string, mixed>|null */
+=======
+>>>>>>> 929ed821d (.)
     public ?array $emailData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -94,6 +97,10 @@ class SendSpatieEmailPage extends XotBasePage
          * new EmailDataEmail($email_data)
          * );
          *
+<<<<<<< HEAD
+=======
+         *
+>>>>>>> 929ed821d (.)
          */
         $user = $this->getUser();
         $attachments = [
@@ -135,11 +142,18 @@ class SendSpatieEmailPage extends XotBasePage
             ->send();
     }
 
+<<<<<<< HEAD
     /** @return array<string, \Filament\Actions\Action> */
     protected function getEmailFormActions(): array
     {
         return [
             'submit' => Action::make('emailFormActions')->submit('emailFormActions'),
+=======
+    protected function getEmailFormActions(): array
+    {
+        return [
+            Action::make('emailFormActions')->submit('emailFormActions'),
+>>>>>>> 929ed821d (.)
         ];
     }
 

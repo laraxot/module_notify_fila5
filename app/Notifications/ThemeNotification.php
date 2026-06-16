@@ -16,11 +16,20 @@ class ThemeNotification extends Notification implements ShouldQueue
 {
     use Queueable;
 
+<<<<<<< HEAD
     /** @var list<string> */
     public array $attachments;
 
     /**
      * @param  array<string, mixed>  $view_params
+=======
+    public array $attachments;
+
+    /**
+     * Create a new notification instance.
+     *
+     * @return void
+>>>>>>> 929ed821d (.)
      */
     public function __construct(
         public string $name,
@@ -28,7 +37,11 @@ class ThemeNotification extends Notification implements ShouldQueue
     ) {}
 
     /**
+<<<<<<< HEAD
      * @return list<string>
+=======
+     * Get the notification's delivery channels.
+>>>>>>> 929ed821d (.)
      */
     public function via(CanThemeNotificationContract $notifiable): array
     {
@@ -70,9 +83,12 @@ class ThemeNotification extends Notification implements ShouldQueue
     /**
      * Get the array representation of the notification.
      */
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
+=======
+>>>>>>> 929ed821d (.)
     public function toArray(CanThemeNotificationContract $notifiable): array
     {
         $res = $this->view_params;

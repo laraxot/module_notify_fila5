@@ -44,9 +44,12 @@ class MailtrapEngine
         return static::getInstance();
     }
 
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $vars
      */
+=======
+>>>>>>> 929ed821d (.)
     public function setLocalVars(array $vars): self
     {
         foreach ($vars as $k => $v) {

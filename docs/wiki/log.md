@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## [2026-06-10] schema | notifications owner Notify — XotBaseMigration
 
 - Canonico: `2026_06_10_133000_create_notifications_table.php`
@@ -9,6 +10,8 @@
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
 
+=======
+>>>>>>> 929ed821d (.)
 ---
 title: "Notify Wiki Activity Log"
 module: "Notify"
@@ -23,6 +26,7 @@ module: "Notify"
 - Created module index.md
 - Ready for on-demand loading via QMD
 
+<<<<<<< HEAD
 
 - 2026-06-10: boundary Notify schema / User runtime — vietato create_notifications in User (XotBaseMigration only)
 
@@ -31,3 +35,5 @@ module: "Notify"
 - Unica `create_notifications_table` in Notify; `model_class` = `User\Models\Notification`
 - Solo `XotBaseMigration` — mai `extends Migration`
 - Vietato duplicato in User/ (es. pattern `2026_07_02_*` con bigint morphs)
+=======
+>>>>>>> 929ed821d (.)

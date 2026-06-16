@@ -54,6 +54,7 @@ If the project maintainer has any additional requirements, you will find them li
 
 **Happy coding**!
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Contributing
 
@@ -111,3 +112,5 @@ If the project maintainer has any additional requirements, you will find them li
 
 **Happy coding**!
 >>>>>>> 0314e8a24 (.)
+=======
+>>>>>>> 929ed821d (.)

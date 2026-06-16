@@ -5,16 +5,22 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Override;
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+>>>>>>> 929ed821d (.)
 
 /**
  * @method static Builder<static>|NotificationType newModelQuery()
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
  *
+<<<<<<< HEAD
  * @property int $id
  * @property string $name
  * @property string|null $slug
@@ -31,6 +37,13 @@ use Override;
  * @property array<string, mixed>|null $templates
  * @property array<string, mixed>|null $integrations
  * @property array<string, mixed>|null $delivery_rules
+=======
+ * @mixin IdeHelperNotificationType
+ *
+ * @property int $id
+ * @property string $name
+ * @property string|null $description
+>>>>>>> 929ed821d (.)
  * @property string|null $template
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
@@ -50,6 +63,7 @@ use Override;
  */
 class NotificationType extends Model
 {
+<<<<<<< HEAD
     /** @use HasFactory<\Modules\Notify\Database\Factories\NotificationTypeFactory> */
     use HasFactory;
 
@@ -75,4 +89,11 @@ class NotificationType extends Model
             'settings' => 'array',
         ];
     }
+=======
+    protected $fillable = [
+        'name',
+        'description',
+        'template',
+    ];
+>>>>>>> 929ed821d (.)
 }

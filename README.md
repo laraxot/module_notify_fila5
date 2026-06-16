@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📬 Notify
 
 [![Domain-Notify](https://img.shields.io/badge/Domain-Notifications-E65100.svg)](#)
@@ -54,3 +55,8 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 ---
 
 **Modulo** `notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+=======
+# Notify Module
+
+Notification management module for the Laraxot ecosystem: email, SMS, WhatsApp, Telegram, and FCM push.
+>>>>>>> 929ed821d (.)

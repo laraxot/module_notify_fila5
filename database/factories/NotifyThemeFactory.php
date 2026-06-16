@@ -23,9 +23,12 @@ class NotifyThemeFactory extends Factory
     /**
      * Define the model's default state.
      */
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
+=======
+>>>>>>> 929ed821d (.)
     public function definition(): array
     {
         return [

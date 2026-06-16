@@ -51,9 +51,12 @@ class NotifyThemeForm extends XotBaseResourceForm
 
     }
 
+<<<<<<< HEAD
     /**
      * @return array<string, string>
      */
+=======
+>>>>>>> 929ed821d (.)
     public static function fieldOptions(string $field): array
     {
         return match ($field) {

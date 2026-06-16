@@ -7,9 +7,12 @@ namespace Modules\Notify\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\MailTemplateLog;
 
+<<<<<<< HEAD
 /**
  * @extends Factory<MailTemplateLog>
  */
+=======
+>>>>>>> 929ed821d (.)
 class MailTemplateLogFactory extends Factory
 {
     /**
@@ -20,9 +23,12 @@ class MailTemplateLogFactory extends Factory
     /**
      * Define the model's default state.
      */
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
+=======
+>>>>>>> 929ed821d (.)
     public function definition(): array
     {
         return [];

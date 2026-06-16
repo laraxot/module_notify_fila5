@@ -164,6 +164,7 @@ public_html
 lang/lang/
 _docs/
 _docs/
+<<<<<<< HEAD
 
 # Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
 docs/archive/.devcontainer/
@@ -245,3 +246,5 @@ laravel/.cursorrules
 laravel/.opencode
 laravel/.zai
 >>>>>>> 0314e8a24 (.)
+=======
+>>>>>>> 929ed821d (.)

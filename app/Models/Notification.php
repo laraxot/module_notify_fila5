@@ -16,6 +16,7 @@ use Override;
  *
  * @property string $id
  * @property string $type
+<<<<<<< HEAD
  * @property string|null $subject
  * @property string|null $content
  * @property string|null $priority
@@ -25,6 +26,11 @@ use Override;
  * @property string $notifiable_type
  * @property int $notifiable_id
  * @property array<string, mixed> $data
+=======
+ * @property string $notifiable_type
+ * @property int $notifiable_id
+ * @property array<string, mixed>|string $data
+>>>>>>> 929ed821d (.)
  * @property Carbon|null $read_at
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
@@ -36,7 +42,11 @@ use Override;
  * @property int|null $user_id
  * @property string|null $subject_type
  * @property int|null $subject_id
+<<<<<<< HEAD
  * @property list<string>|null $channels
+=======
+ * @property array<string>|string|null $channels
+>>>>>>> 929ed821d (.)
  * @property string|null $status
  * @property Carbon|null $sent_at
  * @property-read ProfileContract|null $creator
@@ -59,6 +69,11 @@ use Override;
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
  *
+<<<<<<< HEAD
+=======
+ * @mixin IdeHelperNotification
+ *
+>>>>>>> 929ed821d (.)
  * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent

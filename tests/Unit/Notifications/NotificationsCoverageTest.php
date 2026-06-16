@@ -23,11 +23,16 @@ use Modules\Notify\Notifications\TicketStatusChangedNotification;
 use Modules\Notify\Notifications\WhatsAppNotification;
 use Modules\Notify\Tests\TestCase;
 use Modules\User\Models\User;
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
 use function Safe\class_uses;
 
 uses(\Modules\Notify\Tests\TestCase::class);
+=======
+
+uses(TestCase::class);
+>>>>>>> 929ed821d (.)
 
 function makeThemeNotifiableDummy(): CanThemeNotificationContract
 {
@@ -79,7 +84,11 @@ function makeGenericNotifiableDummy(): Model
             return 'Mario Rossi';
         }
 
+<<<<<<< HEAD
         public function routeNotificationForTwilio(mixed $notification): string
+=======
+        public function routeNotificationForTwilio($notification): string
+>>>>>>> 929ed821d (.)
         {
             return '+39000111222';
         }
@@ -87,7 +96,10 @@ function makeGenericNotifiableDummy(): Model
 }
 
 test('email data notification exposes mail channel and array payload', function () {
+<<<<<<< HEAD
         /** @var \Modules\Notify\Tests\TestCase $this */
+=======
+>>>>>>> 929ed821d (.)
     $emailData = EmailData::from([
         'recipient' => 'recipient@example.test',
         'from' => 'Sender Name',
@@ -99,6 +111,7 @@ test('email data notification exposes mail channel and array payload', function 
 
     $notification = new EmailDataNotification($emailData);
 
+<<<<<<< HEAD
     Assert::assertSame(['mail'], $notification->via(new \stdClass));
     Assert::assertEquals([
         'recipient' => 'recipient@example.test',
@@ -107,6 +120,13 @@ test('email data notification exposes mail channel and array payload', function 
         'from_email' => 'from@example.test',
         'body' => 'Body',
     ], \assertNotifyArray($notification->toArray(new \stdClass)));
+=======
+    expect($notification->via(new \stdClass))->toBe(['mail'])
+        ->and($notification->toArray(new \stdClass))->toMatchArray([
+            'recipient' => 'recipient@example.test',
+            'subject' => 'Subject',
+        ]);
+>>>>>>> 929ed821d (.)
 });
 
 test('sms notification builds sms payload and provider config', function () {
@@ -118,20 +138,34 @@ test('sms notification builds sms payload and provider config', function () {
 
     $sms = $notification->toSms(new \stdClass);
 
+<<<<<<< HEAD
     Assert::assertInstanceOf(SmsData::class, $sms);
     Assert::assertSame(['sms'], $notification->via(new \stdClass));
     Assert::assertSame('+39123', $sms->recipient);
     Assert::assertSame('netfun', $notification->getProvider());
     Assert::assertArrayHasKey('provider', $notification->getConfig());
+=======
+    expect($notification->via(new \stdClass))->toBe(['sms'])
+        ->and($sms)->toBeInstanceOf(SmsData::class)
+        ->and($sms->recipient)->toBe('+39123')
+        ->and($notification->getProvider())->toBe('netfun')
+        ->and($notification->getConfig())->toHaveKey('provider');
+>>>>>>> 929ed821d (.)
 });
 
 test('telegram notification uses telegram channel class and returns message', function () {
     $notification = new TelegramNotification('Hello telegram');
 
+<<<<<<< HEAD
     $channels = \assertNotifyArray($notification->via(new \stdClass));
     Assert::assertCount(1, $channels);
     Assert::assertNotEmpty($channels[0] ?? null);
     Assert::assertNotEmpty($notification->toTelegram(new \stdClass));
+=======
+    expect($notification->via(new \stdClass))->toHaveCount(1)
+        ->and($notification->toTelegram(new \stdClass))->toBe('Hello telegram')
+        ->and($notification->toArray(new \stdClass))->toBeArray();
+>>>>>>> 929ed821d (.)
 });
 
 test('whatsapp notification exposes whatsapp channel and provider', function () {
@@ -142,22 +176,38 @@ test('whatsapp notification exposes whatsapp channel and provider', function () 
 
     $wa = $notification->toWhatsApp(new \stdClass);
 
+<<<<<<< HEAD
     Assert::assertInstanceOf(WhatsAppData::class, $wa);
     Assert::assertSame(['whatsapp'], $notification->via(new \stdClass));
     Assert::assertSame('+39999', $wa->recipient);
     Assert::assertSame('twilio', $notification->getProvider());
+=======
+    expect($notification->via(new \stdClass))->toBe(['whatsapp'])
+        ->and($wa)->toBeInstanceOf(WhatsAppData::class)
+        ->and($wa->recipient)->toBe('+39999')
+        ->and($notification->getProvider())->toBe('twilio');
+>>>>>>> 929ed821d (.)
 });
 
 test('theme notification returns channels and array payload', function () {
     $notification = new ThemeNotification('welcome-email', ['foo' => 'bar']);
     $notifiable = makeThemeNotifiableDummy();
 
+<<<<<<< HEAD
     Assert::assertSame(['mail', 'sms'], $notification->via($notifiable));
     Assert::assertSame([
         'foo' => 'bar',
         '_name' => 'welcome-email',
     ], $notification->toArray($notifiable));
     Assert::assertTrue(in_array(Queueable::class, class_uses($notification), true));
+=======
+    expect($notification->via($notifiable))->toBe(['mail', 'sms'])
+        ->and($notification->toArray($notifiable))->toMatchArray([
+            '_name' => 'welcome-email',
+            'foo' => 'bar',
+        ])
+        ->and(in_array(Queueable::class, class_uses($notification), true))->toBeTrue();
+>>>>>>> 929ed821d (.)
 });
 
 test('generic notification supports channels mail twilio and database payload', function () {
@@ -174,6 +224,7 @@ test('generic notification supports channels mail twilio and database payload', 
     $twilio = $notification->toTwilio($notifiable);
     $database = $notification->toDatabase($notifiable);
 
+<<<<<<< HEAD
     Assert::assertInstanceOf(MailMessage::class, $mail);
     Assert::assertArrayHasKey('content', $twilio);
     Assert::assertArrayHasKey('to', $twilio);
@@ -183,6 +234,13 @@ test('generic notification supports channels mail twilio and database payload', 
     Assert::assertArrayHasKey('data', $database);
     Assert::assertArrayHasKey('created_at', $database);
     Assert::assertSame(['mail', 'database'], $notification->via($notifiable));
+=======
+    expect($notification->via($notifiable))->toBe(['mail', 'database'])
+        ->and($mail)->toBeInstanceOf(MailMessage::class)
+        ->and($twilio)->toHaveKeys(['content', 'to'])
+        ->and($twilio['to'])->toBe('+39000111222')
+        ->and($database)->toHaveKeys(['title', 'message', 'data', 'created_at']);
+>>>>>>> 929ed821d (.)
 });
 
 test('record notification manages channels and merged payloads', function () {
@@ -207,6 +265,7 @@ test('record notification manages channels and merged payloads', function () {
 
     $channels = $notification->via($notifiable);
 
+<<<<<<< HEAD
     Assert::assertCount(2, $channels);
     Assert::assertContains('mail', $channels);
 
@@ -215,6 +274,15 @@ test('record notification manages channels and merged payloads', function () {
     Assert::assertArrayHasKey('a', $notification->data);
     Assert::assertSame('b', $notification->data['a']);
     Assert::assertCount(1, $notification->attachments);
+=======
+    expect($channels)->toHaveCount(2)
+        ->and($channels[0])->toBe('mail');
+
+    $notification->mergeData(['a' => 'b'])->addAttachments([['name' => 'file.pdf', 'path' => base_path('storage/app/f.pdf')]]);
+
+    expect($notification->data)->toMatchArray(['a' => 'b'])
+        ->and($notification->attachments)->toHaveCount(1);
+>>>>>>> 929ed821d (.)
 });
 
 test('ticket notifications expose channels and array payload', function () {
@@ -225,6 +293,7 @@ test('ticket notifications expose channels and array payload', function () {
     $assigned = new TicketAssignedNotification((object) ['id' => 10], $user);
     $changed = new TicketStatusChangedNotification((object) ['id' => 10], 'open', 'closed');
 
+<<<<<<< HEAD
     Assert::assertSame(['mail', 'database'], $assigned->via(new \stdClass));
     Assert::assertArrayHasKey('assigned_by', $assigned->toArray(new \stdClass));
     Assert::assertSame('user-1', $assigned->toArray(new \stdClass)['assigned_by']);
@@ -232,4 +301,10 @@ test('ticket notifications expose channels and array payload', function () {
     Assert::assertArrayHasKey('old_status', $changed->toArray(new \stdClass));
     Assert::assertSame('open', $changed->toArray(new \stdClass)['old_status']);
     Assert::assertSame('closed', $changed->toArray(new \stdClass)['new_status']);
+=======
+    expect($assigned->via(new \stdClass))->toBe(['mail', 'database'])
+        ->and($assigned->toArray(new \stdClass))->toMatchArray(['assigned_by' => 'user-1'])
+        ->and($changed->via(new \stdClass))->toBe(['mail', 'database'])
+        ->and($changed->toArray(new \stdClass))->toMatchArray(['old_status' => 'open', 'new_status' => 'closed']);
+>>>>>>> 929ed821d (.)
 });

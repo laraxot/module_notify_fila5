@@ -30,7 +30,10 @@ class SpatieEmail extends TemplateMailable
 {
     public string $slug;
 
+<<<<<<< HEAD
     /** @var array<string, mixed> */
+=======
+>>>>>>> 929ed821d (.)
     public array $data = [];
 
     // use our custom mail template model
@@ -107,9 +110,12 @@ class SpatieEmail extends TemplateMailable
         return $this;
     }
 
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $data
      */
+=======
+>>>>>>> 929ed821d (.)
     public function mergeData(array $data): self
     {
         $this->data = array_merge($this->data, $data);
@@ -163,7 +169,11 @@ class SpatieEmail extends TemplateMailable
     }
 
     /**
+<<<<<<< HEAD
      * @param  array<string, string>  $attachment
+=======
+     * @param  array{path: string, as?: string, mime?: string}  $attachment
+>>>>>>> 929ed821d (.)
      */
     public function getAttachmentFromPath(array $attachment): Attachment
     {
@@ -183,9 +193,12 @@ class SpatieEmail extends TemplateMailable
         return $res->as($filename)->withMime($mime);
     }
 
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $attachment
      */
+=======
+>>>>>>> 929ed821d (.)
     public function getAttachmentFromData(array $attachment): Attachment
     {
         $res = Attachment::fromData(static fn () => $attachment['data']);
@@ -223,6 +236,7 @@ class SpatieEmail extends TemplateMailable
 
         foreach ($attachments as $item) {
             $attachment = null;
+<<<<<<< HEAD
             $path = $item['path'] ?? null;
             if (is_string($path) && $path !== '' && file_exists($path)) {
                 /** @var array{path: string, as?: string, mime?: string} $pathAttachment */
@@ -232,6 +246,10 @@ class SpatieEmail extends TemplateMailable
                     'mime' => $item['mime'] ?? null,
                 ];
                 $attachment = $this->getAttachmentFromPath($pathAttachment);
+=======
+            if (isset($item['path']) && file_exists($item['path'])) {
+                $attachment = $this->getAttachmentFromPath($item);
+>>>>>>> 929ed821d (.)
             }
 
             if ($attachment === null && isset($item['data'])) {

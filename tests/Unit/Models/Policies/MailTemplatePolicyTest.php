@@ -6,6 +6,7 @@ namespace Modules\Notify\Tests\Unit\Models\Policies;
 
 use Modules\Notify\Models\Policies\MailTemplatePolicy;
 use Modules\Notify\Tests\TestCase;
+<<<<<<< HEAD
 use Modules\User\Database\Factories\UserFactory;
 use Modules\Xot\Contracts\UserContract;
 use PHPUnit\Framework\Assert;
@@ -18,4 +19,15 @@ test('mail template policy denies view any', function () {
     Assert::assertInstanceOf(UserContract::class, $user);
 
     Assert::assertFalse($policy->viewAny($user));
+=======
+use Modules\Xot\Contracts\UserContract;
+
+uses(TestCase::class);
+
+test('mail template policy denies view any', function () {
+    $policy = new MailTemplatePolicy;
+    $user = \Mockery::mock(UserContract::class);
+
+    expect($policy->viewAny($user))->toBeFalse();
+>>>>>>> 929ed821d (.)
 });

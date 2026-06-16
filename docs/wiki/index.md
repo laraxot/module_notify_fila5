@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Notify Module Wiki Index"
 type: index
@@ -27,6 +28,14 @@ related:
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_gDMkiZ
+>>>>>>> 01dce8d29 (initial commit)
+# Knowledge Base Index
+
+>>>>>>> 929ed821d (.)
 > Status: bootstrap
 > Updated: 2026-04-15
 
@@ -75,6 +84,7 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 
 ```bash
 # Ricerca keyword (BM25, veloce ~30ms)
+<<<<<<< HEAD
 ## AI / second brain
 
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
@@ -83,6 +93,8 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
 
+=======
+>>>>>>> 929ed821d (.)
 qmd search "wizard ticket" -c mod-fixcity -n 5
 
 # Ricerca semantica (vector, ~2s)
@@ -140,6 +152,13 @@ Separate git repository with shell scripts and utilities:
 ## Archived Queries
 
 - Pending first archived answers
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 01dce8d29 (initial commit)
+>>>>>>> 929ed821d (.)
 # Wiki Locale Index
 
 ## Karpathy LLM Wiki Standard
@@ -166,4 +185,12 @@ Separate git repository with shell scripts and utilities:
 | [llm-wiki-governance](./concepts/llm-wiki-governance.md) | Concept | - | 2026-04-21 |
 | [module-test-location-rule](./concepts/module-test-location-rule.md) | Concept | - | 2026-04-21 |
 | [phpstan-central-config-rule](./concepts/phpstan-central-config-rule.md) | Concept | - | 2026-04-21 |
+<<<<<<< HEAD
 | [xotbase-table-columns-enforcement](./concepts/xotbase-table-columns-enforcement.md) | Concept | 5 Table files populated — XotBaseResourceTable enforcement | 2026-05-07 |
+=======
+<<<<<<< HEAD
+| [xotbase-table-columns-enforcement](./concepts/xotbase-table-columns-enforcement.md) | Concept | 5 Table files populated — XotBaseResourceTable enforcement | 2026-05-07 |
+=======
+>>>>>>> .merge_file_7yhG1v
+>>>>>>> 01dce8d29 (initial commit)
+>>>>>>> 929ed821d (.)

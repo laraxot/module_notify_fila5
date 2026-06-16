@@ -35,7 +35,11 @@ class TelegramChannel
      *
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
+<<<<<<< HEAD
      * @return array<string, mixed>|null Risultato dell'operazione o null in caso di errore
+=======
+     * @return array|null Risultato dell'operazione o null in caso di errore
+>>>>>>> 929ed821d (.)
      *
      * @throws Exception Se la notifica non ha il metodo toTelegram o il driver non è supportato
      */
@@ -53,9 +57,13 @@ class TelegramChannel
 
         $action = $this->factory->create();
 
+<<<<<<< HEAD
         /** @var array<string, mixed> $result */
         $result = $action->execute($telegramData);
 
         return $result;
+=======
+        return $action->execute($telegramData);
+>>>>>>> 929ed821d (.)
     }
 }

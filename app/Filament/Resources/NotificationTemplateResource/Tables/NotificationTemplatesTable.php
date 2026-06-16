@@ -13,7 +13,11 @@ class NotificationTemplatesTable extends XotBaseResourceTable
     /**
      * @return array<string, Column>
      */
+<<<<<<< HEAD
     public function getTableColumns(): array
+=======
+    public static function getTableColumns(): array
+>>>>>>> 929ed821d (.)
     {
         return [
             'id' => TextColumn::make('id')->sortable(),

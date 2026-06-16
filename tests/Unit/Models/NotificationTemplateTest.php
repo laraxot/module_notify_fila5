@@ -3,12 +3,21 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
+<<<<<<< HEAD
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\Notify\Tests\TestCase::class);
+=======
+
+uses(TestCase::class);
+
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Modules\Notify\Tests\TestCase;
+>>>>>>> 929ed821d (.)
 
 /**
  * Unit tests must not bootstrap the application container.
@@ -42,7 +51,11 @@ it('has correct fillable fields', function (): void {
         'type',
     ];
 
+<<<<<<< HEAD
     Assert::assertSame($expectedFillable, $fillable);
+=======
+    expect($fillable)->toBe($expectedFillable);
+>>>>>>> 929ed821d (.)
 });
 
 it('has correct casts', function (): void {
@@ -67,7 +80,11 @@ it('has correct casts', function (): void {
         'grapesjs_data' => 'array',
     ];
 
+<<<<<<< HEAD
     Assert::assertSame($expectedCasts, $casts);
+=======
+    expect($casts)->toBe($expectedCasts);
+>>>>>>> 929ed821d (.)
 });
 
 it('has translatable fields', function (): void {
@@ -85,5 +102,9 @@ it('has translatable fields', function (): void {
         'body_html',
     ];
 
+<<<<<<< HEAD
     Assert::assertSame($expectedTranslatable, $translatable);
+=======
+    expect($translatable)->toBe($expectedTranslatable);
+>>>>>>> 929ed821d (.)
 });

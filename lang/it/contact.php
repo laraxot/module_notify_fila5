@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
     'resource' => ['name' => 'Contact'],
     'navigation' => ['name' => 'contatto', 'plural' => 'contatti', 'group' => 'Sistema', 'label' => 'Contatto', 'sort' => 49, 'icon' => 'notify-contact-animated', 'description' => 'Gestione del singolo contatto per le notifiche'],
     'fields' => [
@@ -10,15 +11,77 @@ return [
         'email' => ['label' => 'Email', 'tooltip' => 'Indirizzo email del contatto', 'placeholder' => 'es: mario.rossi@example.com', 'help' => 'Inserisci un indirizzo email valido', 'helper_text' => '', 'description' => ''],
         'phone' => ['label' => 'Telefono', 'tooltip' => 'Numero di telefono del contatto', 'placeholder' => 'es: +39 123 456 7890', 'help' => 'Inserisci il numero con prefisso internazionale', 'helper_text' => '', 'description' => ''],
         'telegram_chat_id' => ['label' => 'Chat ID Telegram', 'tooltip' => 'ID della chat Telegram del contatto', 'placeholder' => 'es: 123456789', 'help' => 'ID numerico fornito dal bot Telegram', 'helper_text' => '', 'description' => ''],
+=======
+    'resource' => [
+        'name' => 'Contact',
+    ],
+    'navigation' => [
+        'name' => 'contatto',
+        'plural' => 'contatti',
+        'group' => 'Sistema',
+        'label' => 'Contatto',
+        'sort' => 49,
+        'icon' => 'notify-contact-animated',
+        'description' => 'Gestione del singolo contatto per le notifiche',
+    ],
+    'fields' => [
+        'name' => [
+            'label' => 'Nome',
+            'tooltip' => 'Nome del contatto',
+            'placeholder' => 'es: Mario Rossi',
+            'help' => 'Inserisci il nome completo del contatto',
+            'helper_text' => '',
+            'description' => '',
+        ],
+        'email' => [
+            'label' => 'Email',
+            'tooltip' => 'Indirizzo email del contatto',
+            'placeholder' => 'es: mario.rossi@example.com',
+            'help' => 'Inserisci un indirizzo email valido',
+            'helper_text' => '',
+            'description' => '',
+        ],
+        'phone' => [
+            'label' => 'Telefono',
+            'tooltip' => 'Numero di telefono del contatto',
+            'placeholder' => 'es: +39 123 456 7890',
+            'help' => 'Inserisci il numero con prefisso internazionale',
+            'helper_text' => '',
+            'description' => '',
+        ],
+        'telegram_chat_id' => [
+            'label' => 'Chat ID Telegram',
+            'tooltip' => 'ID della chat Telegram del contatto',
+            'placeholder' => 'es: 123456789',
+            'help' => 'ID numerico fornito dal bot Telegram',
+            'helper_text' => '',
+            'description' => '',
+        ],
+>>>>>>> 929ed821d (.)
         'group' => [
             'label' => 'Gruppo',
             'tooltip' => 'Gruppo di appartenenza del contatto',
             'placeholder' => 'es: Amministrazione',
             'help' => 'Seleziona il gruppo di appartenenza',
             'options' => [
+<<<<<<< HEAD
                 'admin' => ['label' => 'Amministratore', 'tooltip' => 'Staff amministrativo'],
                 'user' => ['label' => 'Utente', 'tooltip' => 'Utente standard'],
                 'support' => ['label' => 'Supporto', 'tooltip' => 'Team di supporto'],
+=======
+                'admin' => [
+                    'label' => 'Amministratore',
+                    'tooltip' => 'Staff amministrativo',
+                ],
+                'user' => [
+                    'label' => 'Utente',
+                    'tooltip' => 'Utente standard',
+                ],
+                'support' => [
+                    'label' => 'Supporto',
+                    'tooltip' => 'Team di supporto',
+                ],
+>>>>>>> 929ed821d (.)
             ],
             'helper_text' => '',
             'description' => '',
@@ -28,10 +91,29 @@ return [
             'tooltip' => 'Canali di notifica preferiti',
             'help' => 'Seleziona i canali per l\'invio delle notifiche',
             'options' => [
+<<<<<<< HEAD
                 'email' => ['label' => 'Email', 'tooltip' => 'Notifiche via email'],
                 'sms' => ['label' => 'SMS', 'tooltip' => 'Notifiche via SMS'],
                 'telegram' => ['label' => 'Telegram', 'tooltip' => 'Notifiche via Telegram'],
                 'push' => ['label' => 'Push', 'tooltip' => 'Notifiche push sul browser'],
+=======
+                'email' => [
+                    'label' => 'Email',
+                    'tooltip' => 'Notifiche via email',
+                ],
+                'sms' => [
+                    'label' => 'SMS',
+                    'tooltip' => 'Notifiche via SMS',
+                ],
+                'telegram' => [
+                    'label' => 'Telegram',
+                    'tooltip' => 'Notifiche via Telegram',
+                ],
+                'push' => [
+                    'label' => 'Push',
+                    'tooltip' => 'Notifiche push sul browser',
+                ],
+>>>>>>> 929ed821d (.)
             ],
             'helper_text' => '',
             'description' => '',
@@ -45,16 +127,39 @@ return [
                     'label' => 'Frequenza',
                     'tooltip' => 'Frequenza di invio delle notifiche',
                     'options' => [
+<<<<<<< HEAD
                         'immediate' => ['label' => 'Immediata', 'tooltip' => 'Invia le notifiche immediatamente'],
                         'daily' => ['label' => 'Giornaliera', 'tooltip' => 'Raggruppa le notifiche in un digest giornaliero'],
                         'weekly' => ['label' => 'Settimanale', 'tooltip' => 'Raggruppa le notifiche in un digest settimanale'],
                     ],
                 ],
                 'quiet_hours' => ['label' => 'Ore di silenzio', 'tooltip' => 'Periodo in cui non inviare notifiche', 'help' => 'Le notifiche verranno inviate al termine del periodo'],
+=======
+                        'immediate' => [
+                            'label' => 'Immediata',
+                            'tooltip' => 'Invia le notifiche immediatamente',
+                        ],
+                        'daily' => [
+                            'label' => 'Giornaliera',
+                            'tooltip' => 'Raggruppa le notifiche in un digest giornaliero',
+                        ],
+                        'weekly' => [
+                            'label' => 'Settimanale',
+                            'tooltip' => 'Raggruppa le notifiche in un digest settimanale',
+                        ],
+                    ],
+                ],
+                'quiet_hours' => [
+                    'label' => 'Ore di silenzio',
+                    'tooltip' => 'Periodo in cui non inviare notifiche',
+                    'help' => 'Le notifiche verranno inviate al termine del periodo',
+                ],
+>>>>>>> 929ed821d (.)
             ],
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
         'is_active' => ['label' => 'Attivo', 'tooltip' => 'Stato di attivazione del contatto', 'help' => 'Disattiva temporaneamente le notifiche', 'helper_text' => '', 'description' => ''],
         'last_notified_at' => ['label' => 'Ultima notifica', 'tooltip' => 'Data e ora dell\'ultima notifica inviata', 'helper_text' => '', 'description' => ''],
         'id' => ['label' => 'id'],
@@ -64,22 +169,51 @@ return [
         'updated_at' => ['label' => 'updated_at'],
         'active' => ['label' => 'active'],
         'inactive' => ['label' => 'inactive'],
+=======
+        'is_active' => [
+            'label' => 'Attivo',
+            'tooltip' => 'Stato di attivazione del contatto',
+            'help' => 'Disattiva temporaneamente le notifiche',
+            'helper_text' => '',
+            'description' => '',
+        ],
+        'last_notified_at' => [
+            'label' => 'Ultima notifica',
+            'tooltip' => 'Data e ora dell\'ultima notifica inviata',
+            'helper_text' => '',
+            'description' => '',
+        ],
+>>>>>>> 929ed821d (.)
     ],
     'actions' => [
         'import' => [
             'name' => 'Importa da file',
+<<<<<<< HEAD
             'fields' => ['import_file' => 'Seleziona un file XLS o CSV da caricare'],
+=======
+            'fields' => [
+                'import_file' => 'Seleziona un file XLS o CSV da caricare',
+            ],
+>>>>>>> 929ed821d (.)
         ],
         'export' => [
             'name' => 'Esporta dati',
             'filename_prefix' => 'Aree al',
+<<<<<<< HEAD
             'columns' => ['name' => 'Nome area', 'parent_name' => 'Nome area livello superiore'],
+=======
+            'columns' => [
+                'name' => 'Nome area',
+                'parent_name' => 'Nome area livello superiore',
+            ],
+>>>>>>> 929ed821d (.)
         ],
         'test_notification' => [
             'label' => 'Invia test',
             'tooltip' => 'Invia una notifica di test',
             'icon' => 'heroicon-o-paper-airplane',
             'color' => 'primary',
+<<<<<<< HEAD
             'confirmation' => ['title' => 'Conferma invio test', 'message' => 'Vuoi inviare una notifica di test?', 'confirm' => 'Sì, invia', 'cancel' => 'No, annulla'],
         ],
         'verify' => ['label' => 'Verifica contatto', 'tooltip' => 'Verifica la validità del contatto', 'icon' => 'heroicon-o-check-circle', 'color' => 'warning'],
@@ -92,6 +226,51 @@ return [
         'test_failed' => ['title' => 'Errore Test', 'message' => 'Impossibile inviare la notifica di test: :error'],
         'verified' => ['title' => 'Verifica Completata', 'message' => 'Il contatto è stato verificato con successo'],
         'verification_failed' => ['title' => 'Errore Verifica', 'message' => 'Impossibile verificare il contatto: :error'],
+=======
+            'confirmation' => [
+                'title' => 'Conferma invio test',
+                'message' => 'Vuoi inviare una notifica di test?',
+                'confirm' => 'Sì, invia',
+                'cancel' => 'No, annulla',
+            ],
+        ],
+        'verify' => [
+            'label' => 'Verifica contatto',
+            'tooltip' => 'Verifica la validità del contatto',
+            'icon' => 'heroicon-o-check-circle',
+            'color' => 'warning',
+        ],
+    ],
+    'messages' => [
+        'created' => [
+            'title' => 'Contatto Creato',
+            'message' => 'Il contatto è stato creato con successo',
+        ],
+        'updated' => [
+            'title' => 'Contatto Aggiornato',
+            'message' => 'Il contatto è stato aggiornato con successo',
+        ],
+        'deleted' => [
+            'title' => 'Contatto Eliminato',
+            'message' => 'Il contatto è stato eliminato con successo',
+        ],
+        'test_sent' => [
+            'title' => 'Test Inviato',
+            'message' => 'La notifica di test è stata inviata con successo',
+        ],
+        'test_failed' => [
+            'title' => 'Errore Test',
+            'message' => 'Impossibile inviare la notifica di test: :error',
+        ],
+        'verified' => [
+            'title' => 'Verifica Completata',
+            'message' => 'Il contatto è stato verificato con successo',
+        ],
+        'verification_failed' => [
+            'title' => 'Errore Verifica',
+            'message' => 'Impossibile verificare il contatto: :error',
+        ],
+>>>>>>> 929ed821d (.)
     ],
     'label' => 'Contact',
     'plural_label' => 'Contact (Plurale)',

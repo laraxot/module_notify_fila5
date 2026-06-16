@@ -19,9 +19,12 @@ class Pdf
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $view_params
      */
+=======
+>>>>>>> 929ed821d (.)
     public function execute(string $post_type, array $view_params): AttachmentData
     {
         $notify_theme_data = app(Get::class)->execute($post_type, 'pdf', $view_params);

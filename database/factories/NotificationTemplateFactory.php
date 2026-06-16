@@ -6,11 +6,15 @@ namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\NotificationTemplate;
+<<<<<<< HEAD
 use function Safe\json_encode;
 
 /**
  * @extends Factory<NotificationTemplate>
  */
+=======
+
+>>>>>>> 929ed821d (.)
 class NotificationTemplateFactory extends Factory
 {
     /**
@@ -21,6 +25,7 @@ class NotificationTemplateFactory extends Factory
     /**
      * Define the model's default state.
      */
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
@@ -44,5 +49,10 @@ class NotificationTemplateFactory extends Factory
             'version' => 1,
             'type' => 'email',
         ];
+=======
+    public function definition(): array
+    {
+        return [];
+>>>>>>> 929ed821d (.)
     }
 }

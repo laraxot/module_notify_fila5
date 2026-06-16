@@ -82,11 +82,18 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @method static Builder|Contact whereValue($value)
  * @method static Builder|Contact whereVerifiedAt($value)
  *
+<<<<<<< HEAD
  * @property string|null $name
  * @property bool|null $is_active
  * @property string|null $group
  * @property array<string, mixed>|null $preferences
  * @property string|null $engagement_level
+=======
+ * @mixin Eloquent
+ *
+ * @property string|null $email
+ * @property string|null $mobile_phone
+>>>>>>> 929ed821d (.)
  *
  * @method static Builder|Contact whereAttribute1($value)
  * @method static Builder|Contact whereAttribute10($value)
@@ -117,6 +124,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
  *
+<<<<<<< HEAD
+=======
+ * @mixin IdeHelperContact
+ *
+>>>>>>> 929ed821d (.)
  * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
@@ -136,6 +148,7 @@ class Contact extends BaseModel
         'created_by',
         'user_id',
         'token',
+<<<<<<< HEAD
         'first_name',
         'last_name',
         'sms_sent_at',
@@ -161,6 +174,8 @@ class Contact extends BaseModel
         'attribute_12',
         'attribute_13',
         'attribute_14',
+=======
+>>>>>>> 929ed821d (.)
     ];
 
     /** @return array<string, string> */

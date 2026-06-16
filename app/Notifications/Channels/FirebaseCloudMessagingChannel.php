@@ -76,9 +76,12 @@ final class FirebaseCloudMessagingChannel
      * @throws MessagingException
      * @throws FirebaseException
      */
+<<<<<<< HEAD
     /**
      * @param  Collection<int, string>  $userDeviceTokens
      */
+=======
+>>>>>>> 929ed821d (.)
     private function sendMulticastNotificationToDevices(
         MobilePushNotification $notification,
         Collection $userDeviceTokens,
@@ -109,9 +112,12 @@ final class FirebaseCloudMessagingChannel
      * @throws MessagingException
      * @throws FirebaseException
      */
+<<<<<<< HEAD
     /**
      * @param  Collection<int, string>  $tokens
      */
+=======
+>>>>>>> 929ed821d (.)
     private function testFcmTokens(Collection $tokens): void
     {
         /**

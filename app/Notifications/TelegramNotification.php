@@ -23,7 +23,10 @@ class TelegramNotification extends Notification implements ShouldQueue
 
     protected string $message;
 
+<<<<<<< HEAD
     /** @var array<string, mixed> */
+=======
+>>>>>>> 929ed821d (.)
     protected array $options;
 
     /**

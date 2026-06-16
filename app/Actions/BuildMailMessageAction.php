@@ -19,8 +19,12 @@ class BuildMailMessageAction
     use QueueableAction;
 
     /**
+<<<<<<< HEAD
      * @param  array<string, mixed>  $view_params
      * @param  DataCollection<int, AttachmentData>|null  $dataCollection
+=======
+     * @param  DataCollection<AttachmentData>  $dataCollection
+>>>>>>> 929ed821d (.)
      */
     public function execute(
         string $name,
@@ -28,7 +32,10 @@ class BuildMailMessageAction
         array $view_params = [],
         ?DataCollection $dataCollection = null,
     ): MailMessage {
+<<<<<<< HEAD
         /** @var array<string, mixed> $view_params */
+=======
+>>>>>>> 929ed821d (.)
         $view_params = array_merge($model->toArray(), $view_params);
 
         $type = 'email';

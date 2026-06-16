@@ -12,7 +12,11 @@ use Illuminate\Support\Collection;
 interface CanReceivePushNotifications
 {
     /**
+<<<<<<< HEAD
      * @return Collection<int, string>
+=======
+     * @return Collection<string>
+>>>>>>> 929ed821d (.)
      */
     public function getMobileDeviceTokens(): Collection;
 

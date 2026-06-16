@@ -6,7 +6,10 @@ namespace Modules\Notify\Providers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
+<<<<<<< HEAD
 use Modules\Notify\Providers\Concerns\MergesNotifyConfigFromEnv;
+=======
+>>>>>>> 929ed821d (.)
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 use Override;
@@ -14,8 +17,11 @@ use Webmozart\Assert\Assert;
 
 class NotifyServiceProvider extends XotBaseServiceProvider
 {
+<<<<<<< HEAD
     use MergesNotifyConfigFromEnv;
 
+=======
+>>>>>>> 929ed821d (.)
     public string $name = 'Notify';
 
     protected string $module_dir = __DIR__;
@@ -23,6 +29,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     protected string $module_ns = __NAMESPACE__;
 
     #[Override]
+<<<<<<< HEAD
     public function register(): void
     {
         parent::register();
@@ -30,6 +37,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     }
 
     #[Override]
+=======
+>>>>>>> 929ed821d (.)
     public function boot(): void
     {
         parent::boot();

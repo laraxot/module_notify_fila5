@@ -49,6 +49,7 @@ class SendScheduledPushNotification implements ShouldQueue
 
             Assert::isArray($notificationData, 'Notification data must be array');
 
+<<<<<<< HEAD
             $rawTokens = $notificationData['tokens'] ?? [];
             Assert::isArray($rawTokens, 'Tokens must be array');
             /** @var list<string> $tokens */
@@ -64,6 +65,18 @@ class SendScheduledPushNotification implements ShouldQueue
             /** @var array<string, mixed> $data */
             $data = $rawData;
 
+=======
+            $tokens = $notificationData['tokens'] ?? [];
+            Assert::isArray($tokens, 'Tokens must be array');
+
+            $notification = $notificationData['notification'] ?? [];
+            Assert::isArray($notification, 'Notification must be array');
+
+            $data = $notificationData['data'] ?? [];
+            Assert::isArray($data, 'Data must be array');
+
+            // Invia notifica
+>>>>>>> 929ed821d (.)
             $result = $pushService->sendToDevices(
                 $tokens,
                 $notification,
