@@ -22,3 +22,12 @@ I dettagli sono organizzati in sotto-documenti dedicati nella cartella `docs/roa
   - obiettivi di performance;
   - requisiti di testing e sicurezza.
 
+- **Criteri di accettazione**  
+  Vedi `docs/roadmap/acceptance-criteria.md` per criteri verificabili per ogni fase (Core, Advanced, Analytics, AI).
+
+- **Dipendenze e confini**  
+  Vedi `docs/roadmap/dependencies.md` per dipendenze in ingresso/uscita e regole anti-circolari.
+
+- **Metriche**  
+  Vedi `docs/roadmap/metrics.md` per obiettivi numerici e modalità di verifica.
+

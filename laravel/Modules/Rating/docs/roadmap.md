@@ -22,3 +22,19 @@ I dettagli sono suddivisi in sotto-documenti dedicati.
   - regole PHPStan/Laraxot specifiche
   - requisiti di testing, Filament e documentazione.
 
+- **Criteri di accettazione**  
+  Vedi `docs/roadmap/acceptance-criteria.md` per:
+  - criteri verificabili per ogni fase (Fase 1, 2, 3)
+  - riferimenti a [architecture.md](architecture.md) e convenzioni Filament/Laraxot.
+
+- **Dipendenze e confini**  
+  Vedi `docs/roadmap/dependencies.md` per:
+  - da chi dipende il modulo (Laravel, Xot, Spatie)
+  - chi può usare il Rating (moduli consumer)
+  - regole per evitare dipendenze circolari.
+
+- **Metriche e obiettivi**  
+  Vedi `docs/roadmap/metrics.md` per:
+  - tabelle di metriche (PHPStan, test, documentazione, traduzioni)
+  - come verificare ogni obiettivo.
+

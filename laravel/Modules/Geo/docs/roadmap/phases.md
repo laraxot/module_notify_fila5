@@ -24,3 +24,5 @@
 - Stili di mappa configurabili per tenant differenti.
 - Supporto multi-tenant avanzato con pieno isolamento dei dati geografici.
 
+Criteri di accettazione dettagliati: [acceptance-criteria.md](acceptance-criteria.md). Metriche: [metrics.md](metrics.md).
+

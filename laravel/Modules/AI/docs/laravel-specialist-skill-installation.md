@@ -4,7 +4,6 @@
 
 **Package**: `jeffallan/claude-skills`
 **Skill**: `laravel-specialist`
-**Version**: 1.0.0
 **Author**: https://github.com/Jeffallan
 
 ## What this skill provides

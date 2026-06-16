@@ -96,6 +96,94 @@ class InformationSchemaTable extends BaseModel
     }
 
     /**
+     * Get the JSON file path for this model.
+     *
+     * @return string
+     */
+    protected function getJsonFile(): string
+    {
+        $tbl = $this->getTable();
+        return database_path('data/'.$tbl.'.json');
+    }
+
+    /**
+     * Load existing data from JSON file.
+     *
+     * @return array<int, array<string, mixed>>
+     */
+    protected function loadExistingData(): array
+    {
+        $path = $this->getJsonFile();
+        if (! File::exists($path)) {
+            return [];
+        }
+        $data = json_decode(File::get($path), true);
+        return is_array($data) ? $data : [];
+    }
+
+    /**
+     * Save data to JSON file.
+     *
+     * @param  array<int, array<string, mixed>>  $data
+     * @return bool
+     */
+    protected function saveToJson(array $data): bool
+    {
+        $file = $this->getJsonFile();
+        $directory = dirname($file);
+        if (! File::exists($directory)) {
+            File::makeDirectory($directory, 0o755, true, true);
+        }
+        $content = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+        File::put($file, $content);
+        return true;
+    }
+
+    /**
+     * Get authenticated user ID.
+     *
+     * @return int|string|null
+     */
+    protected function authId(): int|string|null
+    {
+        if (\function_exists('authId')) {
+            return authId();
+        }
+        return auth()->id() ?? null;
+    }
+
+    /**
+     * Ensure directory exists for JSON file.
+     *
+     * @param  string  $filePath
+     * @return void
+     */
+    protected function ensureDirectoryExists(string $filePath): void
+    {
+        $directory = dirname($filePath);
+        if (! File::exists($directory)) {
+            File::makeDirectory($directory, 0o755, true, true);
+        }
+    }
+
+    /**
+     * Find row index by ID in data array.
+     *
+     * @param  array<int, array<string, mixed>>  $rows
+     * @param  int  $id
+     * @return int|null
+     */
+    protected function findRowIndexById(array $rows, int $id): ?int
+    {
+        foreach ($rows as $index => $row) {
+            if (is_array($row) && ((int) ($row['id'] ?? 0)) === $id) {
+                return (int) $index;
+            }
+        }
+        return null;
+    }
+
+    /**
      * Aggiorna il numero di record memorizzato per un modello.
      *
      * @param  class-string<Model>  $modelClass

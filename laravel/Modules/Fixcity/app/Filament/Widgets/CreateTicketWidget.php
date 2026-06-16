@@ -111,7 +111,7 @@ class CreateTicketWidget extends BaseWidget implements HasForms, HasActions
     public function form(Schema $schema): Schema
     {
         return $schema
-            ->components($this->getFormSchema())
+            ->components(array_values($this->getFormSchema()))
             ->statePath('data');
     }
 
