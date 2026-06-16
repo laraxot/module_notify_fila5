@@ -4,21 +4,41 @@
 
 **NON modificare mai** `laravel/phpstan.neon`. Le correzioni vanno fatte solo nel codice sorgente.
 
-## Strumenti richiesti
+## PHPMD e PHPInsights — SOLO formato .phar
 
-### PHPStan
-- Config: `laravel/phpstan.neon` (immutabile)
+**Regola**: PHPMD e PHPInsights **NON** vanno installati con Composer. Si usano in formato **.phar** e si invocano con php phpmd.phar e php phpinsights.phar.
+
+### Perché .phar
+
+- **Indipendenza**: Nessuna dipendenza in composer.json, nessun conflitto con il progetto
+- **Portabilità**: Un solo file riutilizzabile tra progetti
+- **Leggerezza**: Nessun vendor aggiuntivo
+- **CI/CD**: Più semplice da cachare e scaricare
+
+### PHPMD
+
+- **Installazione**: `wget -c https://phpmd.org/static/latest/phpmd.phar -O laravel/tools/phpmd.phar`
+- **Comando**: `cd laravel && php tools/phpmd.phar Modules text cleancode,codesize,controversial,design,naming,unusedcode`
+- **Singolo modulo**: `php tools/phpmd.phar Modules/{Module} text codesize`
+
+### PHPInsights
+
+- **Installazione**: Verificare releases GitHub per phar. Se non disponibile, build con box.
+- **Comando**: `cd laravel && php tools/phpinsights.phar analyse Modules --no-interaction`
+
+### Struttura
+
+laravel/tools/
+  phpmd.phar
+  phpinsights.phar
+
+## PHPStan
+
+- Config: laravel/phpstan.neon (immutabile)
 - Comando: `cd laravel && ./vendor/bin/phpstan analyse Modules`
-
-### PHPMD (PHP Mess Detector)
-- **Installazione .phar**: `wget -c https://phpmd.org/static/latest/phpmd.phar -O laravel/tools/phpmd.phar`
-- Oppure via Composer: `phpmd/phpmd` in require-dev
-- Comando: `php phpmd.phar Modules text cleancode,codesize,controversial,design,naming,unusedcode`
-
-### PHP Insights
-- Installazione: `composer require nunomaduro/phpinsights --dev`
-- Comando: `./vendor/bin/phpinsights analyse Modules --no-interaction`
+- PHPStan resta in Composer.
 
 ## Collegamenti
-- [phpstan-level-10-rules](phpstan-level-10-rules.md)
-- [Error Resolution Process](../.cursor/rules/error-resolution-process.mdc)
+
+- phpstan-level-10-rules.md
+- .cursor/rules/error-resolution-process.mdc
