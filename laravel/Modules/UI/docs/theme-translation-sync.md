@@ -85,7 +85,6 @@ Entrambi i temi contengono i seguenti file di traduzione:
    - `laravel/Themes/One/lang/en/txt.php`
    - `laravel/Themes/One/lang/de/txt.php`
 
-2. Aggiornato il template Blade per usare le traduzioni:
    - Sostituito testo hardcoded con `@lang('pub_theme::txt.report.ready_title')`
    - Sostituito testo hardcoded con `@lang('pub_theme::txt.report.download_button')`
 

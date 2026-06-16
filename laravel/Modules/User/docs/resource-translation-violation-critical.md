@@ -546,7 +546,6 @@ return [
         'user.name' => ['label' => 'Utente'],
         'permission' => ['label' => 'Permesso'],
         'created_at' => ['label' => 'Creato il'],
-        'updated_at' => ['label' => 'Aggiornato il'],
     ],
 ];
 ```

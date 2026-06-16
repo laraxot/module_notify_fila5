@@ -2,7 +2,6 @@
 
 **Module:** Gdpr  
 **Version:** 1.0.0  
-**Last Updated:** March 12, 2026  
 **Owner:** Product Team
 
 ---
@@ -85,4 +84,3 @@ More users know about data rights.
 
 ---
 
-*Last Updated: March 12, 2026*

@@ -107,4 +107,3 @@ Funzionalità team includono:
 - [PHPStan Fixes](./phpstan_fixes.md)
 
 ---
-*Aggiornato automaticamente dopo risoluzione conflitti Git*

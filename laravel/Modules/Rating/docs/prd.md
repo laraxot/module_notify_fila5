@@ -1,7 +1,6 @@
 # Rating - Product Requirements Document (PRD)
 
 > **Version**: 1.0.0
-> **Last Updated**: 2026-03-03
 > **Status**: Approved
 > **Owner**: Rating Module Team
 

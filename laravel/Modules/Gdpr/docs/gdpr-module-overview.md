@@ -227,7 +227,6 @@ $consent->delete();
 - ✅ Verificato PHPStan Level 10 (82 files, 0 errori)
 - ✅ Rimosso readme.md duplicato
 - ✅ Fix nomenclatura file con date
-- ✅ Aggiornato README con overview business logic
 - ✅ Creato gdpr-module-overview.md
 
 ---

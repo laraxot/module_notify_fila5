@@ -2,7 +2,6 @@
 
 > **Document ID**: FC-LAUNCH-001  
 > **Version**: 1.0  
-> **Last Updated**: 2026-03-13  
 > **Owner**: Product Marketing Manager  
 > **Launch Date**: 2026-03-31 (v1.5.0 - Geographic Enhancement)
 

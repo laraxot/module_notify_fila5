@@ -65,4 +65,3 @@ Implement core GDPR consent management and data subject request workflows.
 
 ---
 
-*Last Updated: March 12, 2026*
