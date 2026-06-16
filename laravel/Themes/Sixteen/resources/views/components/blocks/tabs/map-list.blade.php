@@ -145,6 +145,45 @@
                                                 </div>
                                             </div>
                                         </div>
+
+                                        {{-- Info Summary Section --}}
+                                        <div class="cmp-info-summary bg-white border-0">
+                                            <div class="card">
+                                                <div class="card-header border-bottom border-light p-0 mb-0 d-flex justify-content-end">
+                                                    <a href="{{ $item['edit_url'] ?? '#' }}" class="d-none text-decoration-none"><span class="text-button-sm-semi t-primary">Modifica</span></a>
+                                                </div>
+                                                <div class="card-body p-0">
+                                                    <div class="single-line-info border-light">
+                                                        <div class="text-paragraph-small">Indirizzo</div>
+                                                        <div class="border-light">
+                                                            <p class="data-text">{{ $item['location'] ?? '' }}</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-line-info border-light">
+                                                        <div class="text-paragraph-small">Dettaglio</div>
+                                                        <div class="border-light">
+                                                            <p class="data-text">{{ $item['description'] ?? '' }}</p>
+                                                        </div>
+                                                    </div>
+                                                    @if(isset($item['images']) && count($item['images']) > 0)
+                                                    <div class="single-line-info border-light">
+                                                        <div class="text-paragraph-small">Immagini</div>
+                                                        <div class="border-light border-0">
+                                                            <div class="d-lg-flex gap-2 mt-3">
+                                                                @foreach($item['images'] as $img)
+                                                                <div>
+                                                                    <img src="{{ $img }}" alt="Immagine della mappa di dove si trova il disservizio" class="img-fluid w-100 mb-3 mb-lg-0">
+                                                                </div>
+                                                                @endforeach
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    @endif
+                                                </div>
+                                                <div class="card-footer p-0 d-none">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -249,6 +288,126 @@
             </div>
             <div class="modal-footer">
                 <button class="btn btn-outline-primary w-100 btn-sm" type="button" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- Rating Section --}}
+<div class="bg-primary">
+    <div class="container">
+        <div class="row d-flex justify-content-center bg-primary">
+            <div class="col-12 col-lg-6">
+                <div class="cmp-rating pt-lg-80 pb-lg-80" id="rating">
+                    <div class="card shadow card-wrapper" data-element="feedback">
+                        <div class="cmp-rating__card-first">
+                            <div class="card-header border-0">
+                                <h2 class="title-medium-2-semi-bold mb-0" data-element="feedback-title">Quanto sono chiare le informazioni su questa pagina?</h2>
+                            </div>
+                            <div class="card-body">
+                                <fieldset class="rating">
+                                    <legend class="visually-hidden">Valuta da 1 a 5 stelle la pagina</legend>
+                                    <input type="radio" id="star5a" name="ratingA" value="5">
+                                    <label class="full rating-star active" for="star5a" data-element="feedback-rate-5">
+                                        <svg class="icon icon-sm" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                        </svg>
+                                        <span class="visually-hidden">Valuta 5 stelle su 5</span>
+                                    </label>
+                                    <input type="radio" id="star4a" name="ratingA" value="4">
+                                    <label class="full rating-star active" for="star4a" data-element="feedback-rate-4">
+                                        <svg class="icon icon-sm" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                        </svg>
+                                        <span class="visually-hidden">Valuta 4 stelle su 5</span>
+                                    </label>
+                                    <input type="radio" id="star3a" name="ratingA" value="3">
+                                    <label class="full rating-star active" for="star3a" data-element="feedback-rate-3">
+                                        <svg class="icon icon-sm" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                        </svg>
+                                        <span class="visually-hidden">Valuta 3 stelle su 5</span>
+                                    </label>
+                                    <input type="radio" id="star2a" name="ratingA" value="2">
+                                    <label class="full rating-star active" for="star2a" data-element="feedback-rate-2">
+                                        <svg class="icon icon-sm" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                        </svg>
+                                        <span class="visually-hidden">Valuta 2 stelle su 5</span>
+                                    </label>
+                                    <input type="radio" id="star1a" name="ratingA" value="1">
+                                    <label class="full rating-star active" for="star1a" data-element="feedback-rate-1">
+                                        <svg class="icon icon-sm" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                        </svg>
+                                        <span class="visually-hidden">Valuta 1 stella su 5</span>
+                                    </label>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="d-none" data-step="2">
+                            <div class="cmp-steps-rating">
+                                <fieldset>
+                                    <legend class="iscrizioni-header w-100">
+                                        <h3 class="step-title d-flex flex-column flex-lg-row flex-wrap align-items-lg-center justify-content-between drop-shadow">
+                                            <span class="d-block text-wrap">Cosa non hai trovato chiaro?</span>
+                                            <span class="step">1/2</span>
+                                        </h3>
+                                    </legend>
+                                    <div class="cmp-steps-rating__body">
+                                        <div class="cmp-radio-list">
+                                            <ul class="list-unstyled">
+                                                <li class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                    <input name="rating2" type="radio" id="radio-6">
+                                                    <label for="radio-6" class="active" data-element="feedback-rating-answer">Non ho capito quali erano i documenti necessari</label>
+                                                </li>
+                                                <li class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                    <input name="rating2" type="radio" id="radio-7">
+                                                    <label for="radio-7" class="active" data-element="feedback-rating-answer">A volte le indicazioni non erano complete</label>
+                                                </li>
+                                                <li class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                    <input name="rating2" type="radio" id="radio-8">
+                                                    <label for="radio-8" class="active" data-element="feedback-rating-answer">A volte non capivo se stavo procedendo correttamente</label>
+                                                </li>
+                                                <li class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                    <input name="rating2" type="radio" id="radio-9">
+                                                    <label for="radio-9" class="active" data-element="feedback-rating-answer">Ho avuto problemi tecnici</label>
+                                                </li>
+                                                <li class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                    <input name="rating2" type="radio" id="radio-10">
+                                                    <label for="radio-10" class="active" data-element="feedback-rating-answer">Altro</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="d-none" data-step="3">
+                            <div class="cmp-steps-rating">
+                                <fieldset>
+                                    <legend class="iscrizioni-header w-100">
+                                        <h3 class="step-title d-flex flex-column flex-lg-row flex-wrap align-items-lg-center justify-content-between drop-shadow">
+                                            <span class="d-block text-wrap">Vuoi aggiungere altri dettagli?</span>
+                                            <span class="step">2/2</span>
+                                        </h3>
+                                    </legend>
+                                    <div class="cmp-steps-rating__body">
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInputWithHelp" class="">Dettaglio</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInputWithHelp" aria-describedby="formGroupExampleInputWithHelpDescription" maxlength="200" data-element="feedback-input-text">
+                                            <small id="formGroupExampleInputWithHelpDescription" class="form-text">Inserire massimo 200 caratteri</small>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-nowrap pt-4 w-100 justify-content-center button-shadow">
+                            <button class="btn btn-outline-primary fw-bold me-4 btn-back" type="button">Indietro</button>
+                            <button class="btn btn-primary fw-bold btn-next" type="submit" form="rating">Avanti</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

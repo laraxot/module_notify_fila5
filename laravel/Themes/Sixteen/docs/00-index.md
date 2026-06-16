@@ -29,6 +29,11 @@
 - [visual-comparison/reference-argomento.html](./visual-comparison/reference-argomento.html) - Reference HTML source
 - [visual-comparison/local-argomento-v2.html](./visual-comparison/local-argomento-v2.html) - Local HTML source (post-fix)
 
+### Segnalazioni Elenco parity docs
+- [visual-comparison/SEGNALAZIONI-ELENCO-COMPARISON.md](./visual-comparison/SEGNALAZIONI-ELENCO-COMPARISON.md) - Reports listing page comparison (90%+ parity)
+- [visual-comparison/reference-segnalazioni-elenco.html](./visual-comparison/reference-segnalazioni-elenco.html) - Reference HTML source
+- [visual-comparison/local-segnalazioni-elenco-v2.html](./visual-comparison/local-segnalazioni-elenco-v2.html) - Local HTML source (post-fix)
+
 ### Theme implementation entrypoints
 - `resources/css/app.css` - Primary CSS entrypoint for visual parity overrides
 - `resources/js/app.js` - Primary JS entrypoint for homepage runtime normalization

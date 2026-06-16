@@ -52,8 +52,23 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 | **Progress Report** | [PROGRESS_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/PROGRESS_REPORT.md) | Report progresso aggiornato |
 | **Fail Pages Analysis** | [FAIL_PAGES_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/FAIL_PAGES_ANALYSIS.md) | Analisi pagine fail |
 | **Skills & Rules** | [SKILLS_RULES.md](../laravel/Themes/Sixteen/docs/design-comuni/SKILLS_RULES.md) | Skills, rules e best practices |
-| **Segnalazioni Elenco Analisi** | [SEGNALAZIONI_ELENCO_ANALISI.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_ANALISI.md) | Analisi segnalazioni elenco (81.6%) |
-| **Segnalazioni Elenco Report** | [SEGNALAZIONI_ELENCO_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_REPORT.md) | Report segnalazioni elenco aggiornato |
+| **Segnalazioni Elenco Analisi** | [SEGNALAZIONI_ELENCO_ANALISI.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_ANALISI.md) | Analisi segnalazioni elenco (95.7%) |
+| **Segnalazioni Elenco Report** | [SEGNALAZIONI_ELENCO_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_REPORT.md) | Report segnalazioni elenco - TARGET RAGGIUNTO |
+| **Segnalazioni Elenco Visual** | [SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md) | Analisi visiva dettagliata |
+| **Segnalazioni Elenco CSS** | [SEGNALAZIONI_ELENCO_CSS_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/SEGNALAZIONI_ELENCO_CSS_REPORT.md) | Report CSS fix (+327 lines) |
+| **Batch Pages Analysis** | [BATCH_PAGES_ANALYSIS.md](../laravel/Themes/Sixteen/docs/design-comuni/BATCH_PAGES_ANALYSIS.md) | Analisi completa 49 pagine |
+| **Batch Progress Report** | [BATCH_PROGRESS_REPORT.md](../laravel/Themes/Sixteen/docs/design-comuni/BATCH_PROGRESS_REPORT.md) | Report progresso batch |
+
+### 🐙 GitHub Integration
+
+| Documento | File | Descrizione |
+|-----------|------|-------------|
+| **GitHub Issues Docs** | [GITHUB_ISSUES_DISCUSSIONS.md](../bashscripts/docs/GITHUB_ISSUES_DISCUSSIONS.md) | Documentazione issues e discussions |
+| **GitHub Issues Template** | [GITHUB_ISSUES_TEMPLATE.md](../bashscripts/docs/GITHUB_ISSUES_TEMPLATE.md) | Template completo per 54 issues |
+| **GitHub Issues Batch JSON** | [github-issues-batch.json](../bashscripts/design-comuni/github-issues-batch.json) | 54 issues pre-configurate |
+| **Create Issues Batch** | [create-github-issues-batch.sh](../bashscripts/design-comuni/create-github-issues-batch.sh) | Script batch (CONSIGLIATO) |
+| **Create Issues Script** | [create-github-issues.sh](../bashscripts/design-comuni/create-github-issues.sh) | Script per creare 54 issues |
+| **Create Discussions Script** | [create-github-discussions.sh](../bashscripts/design-comuni/create-github-discussions.sh) | Script per creare discussions |
 
 ### 📦 Modulo Cms
 
