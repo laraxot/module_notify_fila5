@@ -29,6 +29,14 @@
                 }
             },
             {
+                "type": "search",
+                "data": {
+                    "view": "pub_theme::components.blocks.search.input",
+                    "placeholder": "Cerca nel sito",
+                    "autocomplete": []
+                }
+            },
+            {
                 "type": "accordion",
                 "data": {
                     "view": "pub_theme::components.blocks.accordion.default",
