@@ -98,8 +98,9 @@ laravel/Modules/UI/resources/svg/brands/
 
 ## 📚 References
 
-### Filament Documentation
-- [Icon Button Component](https://filamentphp.com/docs/5.x/components/icon-button)
+### Filament 5 Documentation
+- [Icon Component](https://filamentphp.com/docs/5.x/components/icon-button)
+- [Icons](https://filamentphp.com/docs/5.x/support/icons)
 - **Key Point**: "Use `<x-filament::icon>` to render icons from your SVG files"
 
 ### Project Documentation
@@ -108,7 +109,7 @@ laravel/Modules/UI/resources/svg/brands/
 
 ---
 
-**Stato**: ✅ **CORRETTO**  
+**Stato**: ✅ **CORRETTO - Filament 5 Way**  
 **Component**: `<x-filament::icon>`  
 **Syntax**: `icon="brands.icon-name"`  
-**Files**: 6 SVG in `resources/svg/brands/`
+**Version**: **Filament 5.x**

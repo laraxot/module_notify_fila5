@@ -356,9 +356,9 @@
 ## 🔗 References
 
 ### External
-- [Filament Icons Documentation](https://filamentphp.com/docs/3.x/forms/fields/icon-picker)
+- [Filament Icons Documentation](https://filamentphp.com/docs/5.x/forms/fields/icon-picker)
 - [Heroicons](https://heroicons.com/)
-- [Filament Components](https://filamentphp.com/docs/3.x/support/components)
+- [Filament Components](https://filamentphp.com/docs/5.x/support/components)
 
 ### Internal
 - [Blocks Structure Convention](./BLOCKS_STRUCTURE_CONVENTION.md)

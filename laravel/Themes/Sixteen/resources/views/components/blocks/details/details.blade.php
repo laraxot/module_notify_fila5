@@ -30,9 +30,7 @@
             <div class="detail-item flex flex-col">
                 @if(isset($item['icon']))
                 <dt class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
-                    <svg class="icon icon-sm icon-primary" aria-hidden="true">
-                        <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $item['icon']) }}"></use>
-                    </svg>
+                    <x-filament::icon :icon="$item['icon']" class="icon-sm icon-primary" />
                     {{ $item['label'] }}
                 </dt>
                 @else
@@ -62,9 +60,7 @@
                     <div class="detail-item flex justify-between py-2 border-b border-gray-200">
                         @if(isset($item['icon']))
                         <dt class="flex items-center gap-2 text-sm font-medium text-gray-700">
-                            <svg class="icon icon-sm icon-primary" aria-hidden="true">
-                                <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $item['icon']) }}"></use>
-                            </svg>
+                            <x-filament::icon :icon="$item['icon']" class="icon-sm icon-primary" />
                             {{ $item['label'] }}
                         </dt>
                         @else
@@ -89,9 +85,7 @@
             <div class="detail-item">
                 @if(isset($item['icon']))
                 <dt class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
-                    <svg class="icon icon-sm icon-primary" aria-hidden="true">
-                        <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $item['icon']) }}"></use>
-                    </svg>
+                    <x-filament::icon :icon="$item['icon']" class="icon-sm icon-primary" />
                     {{ $item['label'] }}
                 </dt>
                 @else
