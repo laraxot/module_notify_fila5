@@ -62,13 +62,13 @@ class NotificationTemplate extends BaseModel
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
-- [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
-- [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
+- [Architettura dei Modelli](../../../../../docs/project/architecture/models.md)
+- [Gestione Notifiche](../../../../../docs/project/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseModel](../../Xot/project_docs/XotBaseModel.md)
-- [Architettura dei Modelli](../../../../docs/architecture/models.md)
-- [Gestione Notifiche](../../../../docs/architecture/notifications.md)
+- [Architettura dei Modelli](../../../../../docs/architecture/models.md)
+- [Gestione Notifiche](../../../../../docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseModel](../../Xot/docs/XotBaseModel.md)
