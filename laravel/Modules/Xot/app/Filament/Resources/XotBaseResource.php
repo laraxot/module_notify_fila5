@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 use Exception;
-use Filament\Forms;
-use Filament\Infolists\Infolist;
 use Filament\Pages\Enums\SubNavigationPosition;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\Pages\PageRegistration;
@@ -18,11 +16,11 @@ use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 use Filament\Support\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
 use Modules\Media\Actions\GetAttachmentsSchemaAction;
+use Modules\Xot\Actions\GetTransKeyAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use ReflectionClass;
@@ -39,14 +37,33 @@ abstract class XotBaseResource extends FilamentResource
 
     protected static ?string $model = null;
 
-    // protected static ?string $navigationIcon = 'heroicon-o-bell';
-    // protected static ?string $navigationLabel = 'Custom Navigation Label';
-    // protected static ?string $activeNavigationIcon = 'heroicon-s-document-text';
-    // protected static bool $shouldRegisterNavigation = false;
-    // protected static ?string $navigationGroup = 'Parametri di Sistema';
-    // protected static ?int $navigationSort = null;
-
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
+
+    /**
+     * @param  array<string, bool|float|int|string|null>  $params
+     */
+    public static function trans(string $key, bool $exceptionIfNotExist = false, array $params = []): string
+    {
+        $tmp = static::getKeyTrans($key);
+        $res = trans($tmp, $params);
+
+        if (is_string($res)) {
+            if ($exceptionIfNotExist && $res === $tmp) {
+                throw new Exception('['.__LINE__.']['.class_basename(self::class).']');
+            }
+
+            return $res;
+        }
+
+        if (is_array($res)) {
+            $first = current($res);
+            if (is_string($first) || is_numeric($first)) {
+                return is_string($first) ? $first : ((string) $first);
+            }
+        }
+
+        return 'fix:'.$tmp;
+    }
 
     public static function getModuleName(): string
     {
@@ -68,7 +85,7 @@ abstract class XotBaseResource extends FilamentResource
             Assert::subclassOf(
                 $res,
                 Model::class,
-                sprintf('Class %s must extend Eloquent Model', $res),
+                \sprintf('Class %s must extend Eloquent Model', $res),
             );
 
             return $res;
@@ -76,11 +93,11 @@ abstract class XotBaseResource extends FilamentResource
         $moduleName = static::getModuleName();
         $modelName = Str::before(class_basename(static::class), 'Resource');
         $res = 'Modules\\'.$moduleName.'\Models\\'.$modelName;
-        Assert::classExists($res, sprintf('Model class %s does not exist', $res));
+        Assert::classExists($res, \sprintf('Model class %s does not exist', $res));
         Assert::subclassOf(
             $res,
             Model::class,
-            sprintf('Class %s must extend Eloquent Model', $res),
+            \sprintf('Class %s must extend Eloquent Model', $res),
         );
         static::$model = $res;
 
@@ -94,8 +111,11 @@ abstract class XotBaseResource extends FilamentResource
 
     final public static function form(Schema $schema): Schema
     {
+        /** @var array<Htmlable|string> $components */
+        $components = static::getFormSchema();
+
         return $schema
-            ->components(static::getFormSchema())
+            ->components($components)
             ->columns(static::getFormSchemaColumns());
     }
 
@@ -195,22 +215,29 @@ abstract class XotBaseResource extends FilamentResource
     {
         $reflector = new ReflectionClass(static::class);
         $filename = $reflector->getFileName();
-        Assert::string($filename, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($filename, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
         $path = Str::of($filename)
             ->before('.php')
-            ->append(DIRECTORY_SEPARATOR)
+            ->append(\DIRECTORY_SEPARATOR)
             ->append('RelationManagers')
             ->toString();
 
-        $files = glob($path.DIRECTORY_SEPARATOR.'*RelationManager.php');
-        Assert::isArray($files);
+        $filesResult = glob($path.\DIRECTORY_SEPARATOR.'*RelationManager.php');
+
+        // PHPStan: glob() with valid pattern returns array
+        if ($filesResult === []) {
+            return [];
+        }
 
         /** @var array<class-string<RelationManager>> $res */
         $res = [];
-        foreach ($files as $file) {
+        foreach ($filesResult as $file) {
+            if (! \is_string($file)) {
+                continue;
+            }
             $className = Str::of($file)
-                ->after('RelationManagers'.DIRECTORY_SEPARATOR)
+                ->after('RelationManagers'.\DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
                 ->toString();
@@ -248,10 +275,36 @@ abstract class XotBaseResource extends FilamentResource
             return [];
         }
         $attachments = $model::getAttachments();
-        $disk = 'attachments';
-        $form = app(GetAttachmentsSchemaAction::class)->execute($attachments, $disk);
+        if (! \is_array($attachments)) {
+            return [];
+        }
 
-        return $form;
+        /** @var array<int, string> $safeAttachments */
+        $safeAttachments = array_values(array_filter($attachments, 'is_string'));
+
+        $disk = 'attachments';
+
+        /** @var array<int, Component> $schema */
+        $schema = app(GetAttachmentsSchemaAction::class)->execute($safeAttachments, $disk);
+
+        return $schema;
+    }
+
+    protected static function getKeyTrans(string $key): string
+    {
+        /** @var string */
+        $transKey = app(GetTransKeyAction::class)->execute(static::class);
+
+        $key = $transKey.'.'.$key;
+        $key = Str::of($key)->replace('.cluster.pages.', '.')->toString();
+        if (Str::startsWith($key, 'edit_')) {
+            $key = Str::after($key, 'edit_');
+        }
+        if (Str::endsWith($key, '_widget')) {
+            $key = Str::beforeLast($key, '_widget');
+        }
+
+        return $key;
     }
 
     protected static function getStepByName(string $name): Step
@@ -264,7 +317,11 @@ abstract class XotBaseResource extends FilamentResource
             ->toString();
 
         if (method_exists(static::class, $methodName)) {
-            return Step::make($name)->schema(static::$methodName());
+            $schemaResult = static::$methodName();
+            /** @var array<Htmlable|string> $schemaComponents */
+            $schemaComponents = \is_array($schemaResult) ? array_values($schemaResult) : [];
+
+            return Step::make($name)->schema($schemaComponents);
         }
 
         return Step::make($name)->schema([]);

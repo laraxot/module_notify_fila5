@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Cms\Models;
 
-use Illuminate\Database\Eloquent\Relations\MorphPivot;
+use Modules\Xot\Models\XotBaseMorphPivot;
 use Modules\Xot\Traits\Updater;
 
 /**
  * Class BaseMorphPivot.
  */
-abstract class BaseMorphPivot extends MorphPivot
+abstract class BaseMorphPivot extends XotBaseMorphPivot
 {
     use Updater;
 

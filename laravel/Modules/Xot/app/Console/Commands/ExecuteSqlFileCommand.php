@@ -29,15 +29,13 @@ class ExecuteSqlFileCommand extends Command
 
     /**
      * Execute the console command.
-     *
-     * @return int
      */
     public function handle(): int
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');
-        Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-        if (!file_exists($filePath)) {
+        Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        if (! file_exists($filePath)) {
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -68,11 +66,11 @@ class ExecuteSqlFileCommand extends Command
         ]);
 
         try {
-            // Connessione al database
+            // Connessione al database - $sql è sempre string grazie a Safe\file_get_contents
             DB::connection('temp')->unprepared($sql);
             $this->info('File .sql eseguito con successo!');
         } catch (Exception $e) {
-            $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
+            $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
 
             return Command::FAILURE;
         } finally {

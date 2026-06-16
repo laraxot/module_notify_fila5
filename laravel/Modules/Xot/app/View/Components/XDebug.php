@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\View\Components;
 
-use RuntimeException;
-use Illuminate\Contracts\Support\Renderable;
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\View as ViewFacade;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
-use Safe\filter;
+use RuntimeException;
 
 use function Safe\ob_end_clean;
 use function Safe\ob_start;
@@ -26,24 +26,28 @@ class XDebug extends Component
         public string $tpl = 'v1',
     ) {}
 
-    public function render(): Renderable
+    public function render(): View
     {
-        /**
-         * @phpstan-var view-string
-         */
+        /** @var string $view */
         $view = app(GetViewAction::class)->execute($this->tpl);
+
+        if (! ViewFacade::exists($view)) {
+            throw new RuntimeException("View [{$view}] does not exist.");
+        }
+
+        /** @var view-string $view */
+
+        /** @var array<string, string> $view_params */
         $view_params = [
             'html' => $this->debugStack(),
         ];
-
-        dddx($view_params);
 
         return view($view, $view_params);
     }
 
     public function debugStack(): string
     {
-        if (!extension_loaded('xdebug')) {
+        if (! \extension_loaded('xdebug')) {
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -63,6 +67,6 @@ class XDebug extends Component
         $out1 = ob_get_contents();
         ob_end_clean();
 
-        return is_string($out1) ? $out1 : ((string) $out1);
+        return \is_string($out1) ? $out1 : ((string) $out1);
     }
 }

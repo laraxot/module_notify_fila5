@@ -73,13 +73,15 @@ class ScheduleResource extends XotBaseResource
                     ->reactive()
                     ->searchable()
                     ->required()
-                    ->afterStateUpdated(function (Set $set, $state): void {
+                    ->afterStateUpdated(function (Set $set, ?string $state): void {
+                        Assert::string($state);
                         Assert::isInstanceOf(
                             $command = static::$commands->where('name', $state)->first(),
                             CommandData::class,
                         );
                         $params = $command->arguments;
                         $options_with_value = $command->options['withValue'] ?? [];
+                        Assert::isArray($options_with_value);
                         $set('params', $params);
                         $set('options_with_value', $options_with_value);
                     }),
@@ -87,8 +89,17 @@ class ScheduleResource extends XotBaseResource
                     ->schema([
                         Hidden::make('name'),
                         TextInput::make('value')
-                            ->label(fn (Get $get): mixed => $get('name'))
-                            ->required(fn (Get $get): mixed => $get('required')),
+                            ->label(function (Get $get): string {
+                                $name = $get('name');
+                                Assert::string($name);
+
+                                return $name;
+                            })
+                            ->required(function (Get $get): bool {
+                                $required = $get('required');
+
+                                return (bool) $required;
+                            }),
                     ])
                     ->addable(false)
                     ->deletable(false)
@@ -98,8 +109,17 @@ class ScheduleResource extends XotBaseResource
                         Hidden::make('name'),
                         Hidden::make('type')->default('string'),
                         TextInput::make('value')
-                            ->label(fn (Get $get): mixed => $get('name'))
-                            ->required(fn (Get $get): mixed => $get('required')),
+                            ->label(function (Get $get): string {
+                                $name = $get('name');
+                                Assert::string($name);
+
+                                return $name;
+                            })
+                            ->required(function (Get $get): bool {
+                                $required = $get('required');
+
+                                return (bool) $required;
+                            }),
                     ])
                     ->addable(false)
                     ->deletable(false)

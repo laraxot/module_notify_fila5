@@ -19,9 +19,10 @@ class PdfByViewAction
         string $filename = 'my_doc.pdf',
         string $disk = 'cache',
         string $out = 'download',
+        string $orientation = 'L',
     ): string|BinaryFileResponse {
         $html = $view->render();
 
-        return app(PdfByHtmlAction::class)->execute($html, $filename, $disk, $out);
+        return app(PdfByHtmlAction::class)->execute($html, $filename, $disk, $out, $orientation);
     }
 }

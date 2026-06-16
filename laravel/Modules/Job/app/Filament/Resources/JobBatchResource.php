@@ -13,7 +13,6 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Modules\Job\Filament\Resources\JobBatchResource\Pages\ListJobBatches;
-use Modules\Job\Models\JobBatch;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Override;
 

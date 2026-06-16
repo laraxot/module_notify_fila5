@@ -4,31 +4,25 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
-use Filament\Support\Components\Component;
-use Override;
-use Modules\Xot\Filament\Resources\CacheResource\Pages\ListCaches;
-use Modules\Xot\Filament\Resources\CacheResource\Pages\CreateCache;
-use Modules\Xot\Filament\Resources\CacheResource\Pages\EditCache;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
-use Modules\Xot\Filament\Resources\CacheResource\Pages;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Filament\Resources\CacheResource\Pages\CreateCache;
+use Modules\Xot\Filament\Resources\CacheResource\Pages\EditCache;
+use Modules\Xot\Filament\Resources\CacheResource\Pages\ListCaches;
 use Modules\Xot\Models\Cache;
+use Override;
 
 class CacheResource extends XotBaseResource
 {
-    protected static null|string $model = Cache::class;
+    protected static ?string $model = Cache::class;
 
-    /**
-     * @return array<int, Component>
-     */
     #[Override]
     public static function getFormSchema(): array
     {
         return [
-            TextInput::make('key')->required()->maxLength(255),
-            TextInput::make('expiration')->required()->numeric(),
-            KeyValue::make('value')->columnSpanFull(),
+            'key' => TextInput::make('key')->required()->maxLength(255),
+            'expiration' => TextInput::make('expiration')->required()->numeric(),
+            'value' => KeyValue::make('value')->columnSpanFull(),
         ];
     }
 

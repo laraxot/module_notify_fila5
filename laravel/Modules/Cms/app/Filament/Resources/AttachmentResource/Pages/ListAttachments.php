@@ -12,6 +12,9 @@ class ListAttachments extends LangBaseListRecords
 {
     protected static string $resource = AttachmentResource::class;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
         return [

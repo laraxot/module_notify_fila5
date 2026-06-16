@@ -20,16 +20,20 @@ class GetModelByModelTypeAction
     /**
      * Execute the action.
      */
-    public function execute(string $model_type, null|string $model_id): Model
+    public function execute(string $model_type, ?string $model_id): Model
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
-        Assert::isInstanceOf($model = app($model_class), Model::class);
-        if (null !== $model_id) {
-            $model = $model->find($model_id);
-        }
+        Assert::stringNotEmpty($model_class);
+        Assert::classExists($model_class);
+        Assert::isAOf($model_class, Model::class);
 
-        if (null === $model) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        /** @var class-string<Model> $model_class */
+        $model = $model_id !== null
+            ? $model_class::query()->find($model_id)
+            : new $model_class;
+
+        if (! ($model instanceof Model)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
 
         return $model;

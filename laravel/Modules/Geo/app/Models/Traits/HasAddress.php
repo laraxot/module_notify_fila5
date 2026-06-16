@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
+use Illuminate\Support\Arr;
+use Modules\Geo\Enums\AddressItemEnum;
 use Modules\Geo\Models\Address;
 use Webmozart\Assert\Assert;
 
@@ -62,7 +64,24 @@ trait HasAddress
         return $address ? $address->getFullAddress() : null;
     }
 
-    public function getFullAddressAttribute(?string $value): ?string
+    public function getFullAddressAttribute(?string $value): string
+    {
+        if (null !== $value) {
+            return $value;
+        }
+        $address = sprintf(
+            '%s, %s - %s, %s (%s)',
+            $this->route,
+            $this->street_number,
+            $this->postal_code,
+            $this->city,
+            $this->province,
+        );
+
+        return trim(preg_replace('/[,\s]+/', ' ', $address));
+    }
+
+    public function getFullAddressesAttribute(?string $value): ?string
     {
         if ($value) {
             return $value;
@@ -78,15 +97,22 @@ trait HasAddress
             return null;
         }
 
-        return $address->street_address.
+        $streetAddress = is_string($address->street_address) ? $address->street_address : '';
+        $streetNumber = is_string($address->street_number) ? $address->street_number : '';
+        $postalCode = is_string($address->postal_code) ? $address->postal_code : '';
+
+        $localityNome = isset($locality['nome']) && is_string($locality['nome']) ? $locality['nome'] : '';
+        $provinciaNome = isset($locality['provincia']) && is_array($locality['provincia']) && isset($locality['provincia']['nome']) && is_string($locality['provincia']['nome']) ? $locality['provincia']['nome'] : '';
+
+        return $streetAddress.
             ', '.
-            $address->street_number.
+            $streetNumber.
             ' - '.
-            $address->postal_code.
+            $postalCode.
             ' '.
-            $locality['nome'].
+            $localityNome.
             ' ('.
-            $locality['provincia']['nome'].
+            $provinciaNome.
             ') ';
     }
 
@@ -246,5 +272,18 @@ trait HasAddress
         return $query->whereHas('addresses', function ($q) use ($postalCode): void {
             $q->where('postal_code', $postalCode);
         });
+    }
+
+    /**
+     * Initialize the trait.
+     *
+     * @return void
+     */
+    protected function initializeHasAddress()
+    {
+        // Automatically create a random token
+        /** @var array<int, string> $fields */
+        $fields = Arr::map(AddressItemEnum::cases(), fn (AddressItemEnum $item): string => $item->value);
+        $this->mergeFillable($fields);
     }
 }

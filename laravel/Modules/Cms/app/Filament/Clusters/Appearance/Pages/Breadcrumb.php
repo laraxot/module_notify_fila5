@@ -6,15 +6,13 @@ namespace Modules\Cms\Filament\Clusters\Appearance\Pages;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
-use Filament\Pages\Page;
 use Filament\Schemas\Schema;
 use Filament\Support\Exceptions\Halt;
 use Illuminate\Support\Arr;
 use Modules\Cms\Filament\Clusters\Appearance;
 use Modules\Tenant\Services\TenantService;
+use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
 /**
@@ -22,18 +20,14 @@ use Webmozart\Assert\Assert;
  *
  * @property Schema $form
  */
-class Breadcrumb extends Page implements HasForms
+class Breadcrumb extends XotBasePage
 {
-    use InteractsWithForms;
-
     /**
      * Data for the form state.
      *
-     * @var array<string, mixed>|null
+     * @var array<string, mixed>
      */
-    public ?array $data = [];
-
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+    public array $data = [];
 
     protected string $view = 'cms::filament.clusters.appearance.pages.headernav';
 
@@ -52,12 +46,12 @@ class Breadcrumb extends Page implements HasForms
     /**
      * Define the form schema.
      */
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
         return $schema
             ->components([
-                TextInput::make('class')->label(__('Class'))->placeholder(__('Enter breadcrumb class')),
-                TextInput::make('style')->label(__('Style'))->placeholder(__('Enter breadcrumb style')),
+                TextInput::make('class')->label(trans_string('Class'))->placeholder(trans_string('Enter breadcrumb class')),
+                TextInput::make('style')->label(trans_string('Style'))->placeholder(trans_string('Enter breadcrumb style')),
             ])
             ->columns(2)
             ->statePath('data');
@@ -78,12 +72,12 @@ class Breadcrumb extends Page implements HasForms
             TenantService::saveConfig('appearance', $up);
 
             Notification::make()
-                ->title(__('Saved successfully'))
+                ->title(trans_string('Saved successfully'))
                 ->success()
                 ->send();
         } catch (Halt $exception) {
             Notification::make()
-                ->title(__('Error!'))
+                ->title(trans_string('Error!'))
                 ->danger()
                 ->body($exception->getMessage())
                 ->persistent()
@@ -114,7 +108,7 @@ class Breadcrumb extends Page implements HasForms
     protected function getUpdateFormActions(): array
     {
         return [
-            Action::make('updateAction')->label(__('Save Changes'))->submit('updateData'),
+            Action::make('updateAction')->label(trans_string('Save Changes'))->submit('updateData'),
         ];
     }
 }

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Geo\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 
@@ -20,6 +21,9 @@ use Illuminate\Support\Facades\Cache;
  * @see docs/comune-unificazione-analisi.md Analisi dell'unificazione dei modelli
  * @see docs/geo-json-model.md Documentazione tecnica del modello base
  */
+/**
+ * @mixin Builder
+ */
 class ComuneJson extends GeoJsonModel
 {
     /**
@@ -30,7 +34,7 @@ class ComuneJson extends GeoJsonModel
     /**
      * Get all comuni with their complete data.
      *
-     * @return Collection<array-key, array{
+     * @return Collection<int, array{
      *     nome: string,
      *     codice: string,
      *     regione: array{codice: string, nome: string},
@@ -43,7 +47,18 @@ class ComuneJson extends GeoJsonModel
     #[\Override]
     public static function all(): Collection
     {
-        return static::loadData();
+        /** @var Collection<int, array{
+         *     nome: string,
+         *     codice: string,
+         *     regione: array{codice: string, nome: string},
+         *     provincia: array{codice: string, nome: string},
+         *     cap: array<int, string>,
+         *     codiceCatastale: string,
+         *     popolazione: int
+         * }> $all */
+        $all = static::loadData();
+
+        return $all;
     }
 
     /**
@@ -72,10 +87,12 @@ class ComuneJson extends GeoJsonModel
          *     codiceCatastale: string,
          *     popolazione: int
          * }> $result */
-        $result = Cache::remember($cacheKey, self::CACHE_TTL, static::all()
-            ->where('regione.codice', $regionCode)
-            ->sortBy('nome')
-            ->values(...));
+        $result = Cache::remember($cacheKey, self::CACHE_TTL, static function () use ($regionCode): Collection {
+            return static::all()
+                ->where('regione.codice', $regionCode)
+                ->sortBy('nome')
+                ->values();
+        });
 
         return $result;
     }
@@ -106,10 +123,12 @@ class ComuneJson extends GeoJsonModel
          *     codiceCatastale: string,
          *     popolazione: int
          * }> $result */
-        $result = Cache::remember($cacheKey, self::CACHE_TTL, static::all()
-            ->where('provincia.codice', $provinceCode)
-            ->sortBy('nome')
-            ->values(...));
+        $result = Cache::remember($cacheKey, self::CACHE_TTL, static function () use ($provinceCode) {
+            return static::all()
+                ->where('provincia.codice', $provinceCode)
+                ->sortBy('nome')
+                ->values();
+        });
 
         return $result;
     }
@@ -197,10 +216,10 @@ class ComuneJson extends GeoJsonModel
     public static function allRegions(): Collection
     {
         /** @var Collection<string, string> $result */
-        $result = Cache::remember('geo_all_regions', self::CACHE_TTL, static::all()
+        $result = Cache::remember('geo_all_regions', self::CACHE_TTL, fn () => static::all()
             ->pluck('regione.nome', 'regione.codice')
             ->unique()
-            ->sort(...));
+            ->sort());
 
         return $result;
     }
@@ -213,10 +232,10 @@ class ComuneJson extends GeoJsonModel
     public static function allProvinces(): Collection
     {
         /** @var Collection<string, string> $result */
-        $result = Cache::remember('geo_all_provinces', self::CACHE_TTL, static::all()
+        $result = Cache::remember('geo_all_provinces', self::CACHE_TTL, fn () => static::all()
             ->pluck('provincia.nome', 'provincia.codice')
             ->unique()
-            ->sort(...));
+            ->sort());
 
         return $result;
     }
@@ -231,11 +250,11 @@ class ComuneJson extends GeoJsonModel
         $cacheKey = "geo_region_{$regionCode}_provinces";
 
         /** @var Collection<string, string> $result */
-        $result = Cache::remember($cacheKey, self::CACHE_TTL, static::all()
+        $result = Cache::remember($cacheKey, self::CACHE_TTL, fn () => static::all()
             ->where('regione.codice', $regionCode)
             ->pluck('provincia.nome', 'provincia.codice')
             ->unique()
-            ->sort(...));
+            ->sort());
 
         return $result;
     }
@@ -301,7 +320,6 @@ class ComuneJson extends GeoJsonModel
         $searchPatterns = [
             'geo_search_', // Ricerche generiche
             'geo_valid_cap_', // Validazione CAP
-            'geo_gerarchia_', // Gerarchie geografiche
         ];
 
         // Puliamo alcune chiavi di ricerca comuni per essere sicuri
@@ -327,7 +345,7 @@ class ComuneJson extends GeoJsonModel
         $cacheKey = "geo_valid_cap_{$cap}";
 
         /** @var bool $result */
-        $result = Cache::remember($cacheKey, self::CACHE_TTL, static::byCap($cap)->isNotEmpty(...));
+        $result = Cache::remember($cacheKey, self::CACHE_TTL, static fn (): bool => static::byCap($cap)->isNotEmpty());
 
         return $result;
     }

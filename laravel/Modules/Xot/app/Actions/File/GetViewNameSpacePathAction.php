@@ -7,7 +7,6 @@ namespace Modules\Xot\Actions\File;
 use Illuminate\Support\Facades\View;
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
 
 class GetViewNameSpacePathAction
 {
@@ -16,11 +15,10 @@ class GetViewNameSpacePathAction
     /**
      * Ottiene il percorso di un namespace di vista.
      *
-     * @param string $ns Il namespace della vista
-     *
+     * @param  string  $ns  Il namespace della vista
      * @return string|null Il percorso del namespace o null se non trovato
      */
-    public function execute(string $ns): null|string
+    public function execute(string $ns): ?string
     {
         $xot = XotData::make();
 
@@ -50,10 +48,10 @@ class GetViewNameSpacePathAction
         // Se non abbiamo trovato il namespace nelle view hints, proviamo a usare il tema
         $theme_name = $xot->{$ns} ?? null;
 
-        if (!is_string($theme_name)) {
+        if (! is_string($theme_name)) {
             return null; // Restituiamo null se il tema non è una stringa
         }
 
-        return base_path('Themes/' . $theme_name);
+        return base_path('Themes/'.$theme_name);
     }
 }

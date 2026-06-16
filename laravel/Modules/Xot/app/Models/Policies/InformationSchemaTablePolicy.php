@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Policies;
 
-use Override;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\InformationSchemaTable;
+use Override;
 
 class InformationSchemaTablePolicy extends XotBasePolicy
 {

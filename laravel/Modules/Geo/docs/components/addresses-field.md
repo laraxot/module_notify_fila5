@@ -64,7 +64,7 @@ AddressesField::make('addresses')
 ```php
 <?php
 
-namespace Modules\<nome progetto>\Filament\Resources;
+namespace Modules\<main module>\Filament\Resources;
 
 use Modules\Geo\Filament\Forms\Components\AddressesField;
 
@@ -74,7 +74,7 @@ class StudioResource extends XotBaseResource
     {
         return [
             // Altri campi dello studio...
-            
+
             'addresses' => AddressesField::make('addresses')
                 ->relationship('addresses')
                 ->minItems(1)
@@ -100,7 +100,7 @@ class PatientResource extends XotBaseResource
     {
         return [
             // Altri campi del paziente...
-            
+
             'addresses' => AddressesField::make('addresses')
                 ->relationship('addresses')
                 ->minItems(1)
@@ -129,7 +129,7 @@ class ClinicResource extends XotBaseResource
     {
         return [
             // Altri campi della clinica...
-            
+
             'addresses' => AddressesField::make('addresses')
                 ->relationship('addresses')
                 ->minItems(1)
@@ -207,7 +207,7 @@ Il modello che utilizza `AddressesField` deve avere una relazione `addresses` (o
 ```php
 <?php
 
-namespace Modules\<nome progetto>\Models;
+namespace Modules\<main module>\Models;
 
 use Modules\Geo\Models\Address;
 
@@ -265,7 +265,7 @@ return [
 Per personalizzare le traduzioni in un modulo specifico:
 
 ```php
-// Nel modulo specifico, es. Modules/<nome progetto>/lang/it/studio.php
+// Nel modulo specifico, es. Modules/<main module>/lang/it/studio.php
 return [
     'addresses' => [
         'add_action' => 'Aggiungi Sede Studio',
@@ -348,7 +348,7 @@ class AddressesFieldTest extends TestCase
 public function studio_can_manage_multiple_addresses(): void
 {
     $studio = Studio::factory()->create();
-    
+
     $addressData = [
         [
             'name' => 'Sede Principale',
@@ -445,7 +445,7 @@ public function address(): BelongsTo
 ### V2.0 Planned Features
 
 1. **Validazione Geografica**: Controllo automatico coordinate e indirizzi validi
-2. **Integrazione Mappe**: Visualizzazione indirizzi su mappa interattiva  
+2. **Integrazione Mappe**: Visualizzazione indirizzi su mappa interattiva
 3. **Geofencing**: Definizione di aree geografiche per indirizzi
 4. **Import/Export**: Funzionalità per importare indirizzi da file CSV/Excel
 5. **Template Indirizzi**: Indirizzi predefiniti per tipologie comuni
@@ -463,16 +463,16 @@ public function address(): BelongsTo
 - [AddressResource Documentation](../address-resource.md)
 - [Form Schema Reuse](../form-schema-reuse.md)
 - [Address Model Documentation](../address-model-italian.md)
-- [Studio Resource Implementation](../../<nome progetto>/docs/studio-resource.md)
+- [Studio Resource Implementation](../../<main module>/docs/studio-resource.md)
 
 ### File Correlati
 - [AddressesField.php](../../app/Filament/Forms/Components/AddressesField.php)
 - [addresses-field.blade.php](../../resources/views/filament/forms/components/addresses-field.blade.php)
 - [addresses.php](../../lang/it/addresses.php)
-- [StudioResource.php](../../<nome progetto>/app/Filament/Resources/StudioResource.php)
+- [StudioResource.php](../../<main module>/app/Filament/Resources/StudioResource.php)
 
 ---
 
 *Ultimo aggiornamento: Dicembre 2024*
 
-**Il componente AddressesField rappresenta un esempio eccellente di applicazione del principio DRY e di progettazione orientata al riutilizzo nel contesto Filament.** 
+**Il componente AddressesField rappresenta un esempio eccellente di applicazione del principio DRY e di progettazione orientata al riutilizzo nel contesto Filament.**

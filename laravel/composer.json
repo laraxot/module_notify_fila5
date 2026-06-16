@@ -18,6 +18,26 @@
         "nwidart/laravel-modules": "*",
         "thecodingmachine/safe": "^3.3"
     },
+    "require-dev": {
+        "filament/upgrade": "^5.0"
+    },
+    "require-dev_comment": {
+        "friendsofphp/php-cs-fixer": "^3.88",
+        "larastan/larastan": "^3.7",
+        "laravel/boost": "^1.0",
+        "laravel/pint": "^1.25",
+        "pestphp/pest": "^3.8",
+        "pestphp/pest-plugin-arch": "^3.1",
+        "pestphp/pest-plugin-drift": "^3.0",
+        "pestphp/pest-plugin-laravel": "^3.2",
+        "pestphp/pest-plugin-type-coverage": "^3.6",
+        "phploc/phploc": "^2.0",
+        "phpmd/phpmd": "*",
+        "phpmetrics/phpmetrics": "^2.9",
+        "phpstan/phpstan": "^2.1",
+        "squizlabs/php_codesniffer": "^4.0",
+        "vimeo/psalm": "^6.13"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "app/",
@@ -110,23 +130,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require-dev": {
-        "filament/upgrade": "^5.0",
-        "friendsofphp/php-cs-fixer": "^3.88",
-        "larastan/larastan": "^3.7",
-        "laravel/boost": "^1.0",
-        "laravel/pint": "^1.25",
-        "pestphp/pest": "^3.8",
-        "pestphp/pest-plugin-arch": "^3.1",
-        "pestphp/pest-plugin-drift": "^3.0",
-        "pestphp/pest-plugin-laravel": "^3.2",
-        "pestphp/pest-plugin-type-coverage": "^3.6",
-        "phploc/phploc": "^2.0",
-        "phpmd/phpmd": "*",
-        "phpmetrics/phpmetrics": "^2.9",
-        "phpstan/phpstan": "^2.1",
-        "squizlabs/php_codesniffer": "^4.0",
-        "vimeo/psalm": "^6.13"
-    }
+    "prefer-stable": true
 }

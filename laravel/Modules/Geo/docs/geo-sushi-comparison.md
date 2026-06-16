@@ -72,13 +72,13 @@
 ---
 
 ## 5. Collegamenti e approfondimenti
-- [Geo/docs/geo-json-model.md](geo-json-model.md)
+- [geo-json-model.md](geo-json-model.md)
 - [Sushi - usesushi.dev](https://usesushi.dev/)
 - [Squire PHP](https://github.com/squirephp/squire)
 - [Xot/docs/module-structure.md](../../Xot/docs/module-structure.md)
-- [<nome progetto>/docs/geo-integration.md](../../<nome progetto>/docs/geo-integration.md)
+- [<main module>/docs/geo-integration.md](../../<main module>/docs/geo-integration.md)
 
 ---
 
-**Ultimo aggiornamento:** {{date('Y-m-d')}}
-Responsabile: Cascade AI 
+**Ultimo aggiornamento:** 2025-01-15
+Responsabile: Antigravity

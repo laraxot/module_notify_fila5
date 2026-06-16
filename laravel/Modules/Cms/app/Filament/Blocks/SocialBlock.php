@@ -16,13 +16,13 @@ final class SocialBlock extends XotBaseBlock
     {
         return [
             TextInput::make('title')->required()
-                ->label(__('cms::blocks.social.fields.title')),
+                ->label(\trans_string('cms::blocks.social.fields.title')),
             Repeater::make('social_links')
-                ->label(__('cms::blocks.social.fields.social_links'))
+                ->label(\trans_string('cms::blocks.social.fields.social_links'))
                 ->schema([
                     Select::make('platform')
                         ->required()
-                        ->label(__('cms::blocks.social.fields.platform'))
+                        ->label(\trans_string('cms::blocks.social.fields.platform'))
                         ->options([
                             'facebook' => 'Facebook',
                             'twitter' => 'Twitter',
@@ -33,7 +33,7 @@ final class SocialBlock extends XotBaseBlock
                     TextInput::make('url')
                         ->required()
                         ->url()
-                        ->label(__('cms::blocks.social.fields.url')),
+                        ->label(\trans_string('cms::blocks.social.fields.url')),
                 ])
                 ->collapsible()
                 ->itemLabel(fn (array $state): ?string => isset($state['platform']) && is_string($state['platform']) ? $state['platform'] : null)
@@ -43,6 +43,6 @@ final class SocialBlock extends XotBaseBlock
 
     public static function getBlockLabel(): string
     {
-        return __('cms::blocks.social.label');
+        return \trans_string('cms::blocks.social.label') ?? 'Social';
     }
 }

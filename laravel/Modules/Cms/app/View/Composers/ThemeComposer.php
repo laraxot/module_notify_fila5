@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Cms\View\Composers;
 
-use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Collection;
 use Modules\Cms\Models\Menu;
@@ -29,8 +28,13 @@ class ThemeComposer
             return null;
         }
 
-        /* @var array<string, mixed> $items */
-        return $items;
+        /** @var array<string, mixed> $normalized */
+        $normalized = [];
+        foreach ($items as $key => $value) {
+            $normalized[(string) $key] = $value;
+        }
+
+        return $normalized;
     }
 
     public function getMenuUrl(array $menu): string
@@ -70,9 +74,9 @@ class ThemeComposer
             $blocks = [];
         }
         $blocksComponent = new Blocks(
-            $blocks,
-            $page,
-            'ui::components.render.blocks.v1'
+            view: 'ui::components.render.blocks.v1',
+            blocks: $blocks,
+            model: $page
         );
 
         return $blocksComponent->render();
@@ -97,9 +101,9 @@ class ThemeComposer
         }
 
         $blocksComponent = new Blocks(
-            $blocks,
-            $page,
-            'ui::components.render.blocks.v1'
+            view: 'ui::components.render.blocks.v1',
+            blocks: $blocks,
+            model: $page
         );
 
         return $blocksComponent->render();
@@ -129,11 +133,13 @@ class ThemeComposer
     */
     public function getPages(): Collection
     {
+        /* @var Collection<int, Page> $pages */
         return Page::all();
     }
 
     public function getPageModel(string $slug): ?Page
     {
+        /* @var Page|null $page */
         return Page::where('slug', $slug)->first();
     }
 

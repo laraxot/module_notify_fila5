@@ -12,6 +12,9 @@
   - Gestione lingue e traduzioni
   - Routing multilingua
   - Middleware per lingua
+- [lara-zeus/spatie-translatable](../packages/lara-zeus/spatie-translatable/docs/introduction.md)
+  - Supporto Filament per campi translatable
+  - Pacchetto locale gestito via `path` repository
 
 ### Slug
 - [spatie/laravel-sluggable](https://github.com/spatie/laravel-sluggable)
@@ -54,9 +57,9 @@
 - [Localizzazione](packages/localization.md)
 - [Traduzioni](packages/translations.md)
 - [SEO](packages/seo.md)
-- [Performance](packages/performance.md) 
+- [Performance](packages/performance.md)
+- [Composer merge plugin](composer-merge-plugin.md)
 ### Versione HEAD
-
 
 ## Collegamenti tra versioni di packages.md
 * [packages.md](../../../Gdpr/docs/packages.md)
@@ -69,9 +72,6 @@
 * [packages.md](../../../Media/docs/packages.md)
 * [packages.md](../../../Tenant/docs/packages.md)
 
-
 ### Versione Incoming
 
-
 ---
-

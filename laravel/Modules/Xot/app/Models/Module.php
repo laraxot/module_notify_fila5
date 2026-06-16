@@ -5,8 +5,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Database\Factories\ModuleFactory;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
 use Sushi\Sushi;
@@ -14,29 +15,36 @@ use Sushi\Sushi;
 use function Safe\json_encode;
 
 /**
- * @property int         $id
+ * @property int $id
  * @property string|null $name
  * @property string|null $description
- * @property bool|null   $status
- * @property int|null    $priority
+ * @property bool|null $status
+ * @property int|null $priority
  * @property string|null $path
- * @method static Builder|Module newModelQuery()
- * @method static Builder|Module newQuery()
- * @method static Builder|Module query()
- * @method static Builder|Module whereDescription($value)
- * @method static Builder|Module whereId($value)
- * @method static Builder|Module whereName($value)
- * @method static Builder|Module wherePath($value)
- * @method static Builder|Module wherePriority($value)
- * @method static Builder|Module whereStatus($value)
  * @property string|null $icon
- * @property array<string, string>|null $colors
- * @method static Builder|Module whereColors($value)
- * @method static Builder|Module whereIcon($value)
- * @mixin IdeHelperModule
+ * @property array<array-key, mixed>|null $colors
+ *
+ * @method static Builder<static>|Module newModelQuery()
+ * @method static Builder<static>|Module newQuery()
+ * @method static Builder<static>|Module query()
+ * @method static Builder<static>|Module whereColors($value)
+ * @method static Builder<static>|Module whereDescription($value)
+ * @method static Builder<static>|Module whereIcon($value)
+ * @method static Builder<static>|Module whereId($value)
+ * @method static Builder<static>|Module whereName($value)
+ * @method static Builder<static>|Module wherePath($value)
+ * @method static Builder<static>|Module wherePriority($value)
+ * @method static Builder<static>|Module whereStatus($value)
+ *
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $deleter
+ * @property-read ProfileContract|null $updater
+ *
+ * @method static ModuleFactory factory($count = null, $state = [])
+ *
  * @mixin \Eloquent
  */
-class Module extends Model
+final class Module extends BaseModel
 {
     use Sushi;
 
@@ -59,7 +67,7 @@ class Module extends Model
         $modules = ModuleFacade::all();
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
-            if (!is_array($config)) {
+            if (! is_array($config)) {
                 $config = [];
             }
             $colors = Arr::get($config, 'colors', []);

@@ -15,7 +15,5 @@ class ActivityDatabaseSeeder extends Seeder
     public function run(): void
     {
         Model::unguard();
-
-        $this->call([]);
     }
 }

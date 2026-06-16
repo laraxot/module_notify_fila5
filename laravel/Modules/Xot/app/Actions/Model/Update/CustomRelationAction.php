@@ -27,6 +27,7 @@ class CustomRelationAction
         $keyName = $relationDTO->related->getKeyName();
         foreach ($relationDTO->data as $data) {
             Assert::isArray($data);
+            /** @var array<string, mixed> $data PHPStan: ensure correct type */
             if (\in_array($keyName, array_keys($data), false)) {
                 $res = app(UpdateAction::class)->execute($related, $data, []);
                 $ids[] = $res->getKey();

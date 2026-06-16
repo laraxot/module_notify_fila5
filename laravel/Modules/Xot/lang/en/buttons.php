@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'backend' => [
         'access' => [
@@ -44,7 +43,4 @@ return [
         'view' => 'View',
     ],
     'save' => 'Save',
-    'close' => 'Chiudi',
-    'back' => 'Indietro',
-    'confirm' => 'Conferma',
 ];

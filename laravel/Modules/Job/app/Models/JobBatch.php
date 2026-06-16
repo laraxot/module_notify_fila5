@@ -11,11 +11,11 @@ declare(strict_types=1);
 
 namespace Modules\Job\Models;
 
-use Illuminate\Support\Collection;
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Job\Database\Factories\JobBatchFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Collection;
+use Modules\Job\Database\Factories\JobBatchFactory;
+use Modules\Xot\Contracts\ProfileContract;
 use Override;
 
 /**
@@ -48,6 +48,8 @@ use Override;
  * @method static Builder<static>|JobBatch whereOptions($value)
  * @method static Builder<static>|JobBatch wherePendingJobs($value)
  * @method static Builder<static>|JobBatch whereTotalJobs($value)
+ *
+ * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

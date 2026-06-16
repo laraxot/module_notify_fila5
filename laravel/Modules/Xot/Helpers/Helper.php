@@ -26,7 +26,6 @@ use function Safe\define;
 use function Safe\glob;
 use function Safe\json_decode;
 use function Safe\preg_match;
-use function Safe\realpath;
 
 // ------------------------------------------------
 
@@ -66,9 +65,8 @@ if (! function_exists('isRunningTestBench')) {
          */
         $path = app(FixPathAction::class)->execute('\vendor\orchestra\testbench-core\laravel');
         $base = app(FixPathAction::class)->execute(base_path());
-        $res = Str::endsWith($base, $path);
 
-        return $res;
+        return Str::endsWith($base, $path);
 
         // return false;
     }
@@ -161,7 +159,7 @@ if (! function_exists('hex2rgba')) {
 }
 
 if (! function_exists('dddx')) {
-    function dddx(mixed $params): string
+    function dddx(mixed $params): void
     {
         $tmp = debug_backtrace();
         $file = $tmp[0]['file'] ?? 'file-unknown';
@@ -176,16 +174,15 @@ if (! function_exists('dddx')) {
         $dir_copy = implode(DIRECTORY_SEPARATOR, $dir_piece);
         $file = str_replace($dir_copy, $doc_root, $file);
 
+        $start = defined('LARAVEL_START') ? LARAVEL_START : microtime(true);
         if (! defined('LARAVEL_START')) {
-            define('LARAVEL_START', microtime(true));
+            define('LARAVEL_START', $start);
         }
-
-        $start = LARAVEL_START;
         $data = [
             '_' => $params,
             'line' => $tmp[0]['line'] ?? 'line-unknows',
             'file' => app(FixPathAction::class)->execute($tmp[0]['file'] ?? 'file-unknown'),
-            'time' => microtime(true) - $start,
+            'time' => microtime(true) - (float) $start,
             'memory_taken' => round(memory_get_peak_usage() / (1024 * 1024), 2).' MB',
             // 'file_1' => $file, //da sistemare
         ];
@@ -201,7 +198,6 @@ if (! function_exists('dddx')) {
             $data['view_file'] = app(FixPathAction::class)
                 ->execute(Str::between($content, '/**PATH ', ' ENDPATH**/'));
         }
-
         dd($data);
     }
 }
@@ -243,7 +239,7 @@ if (! function_exists('getFilename')) {
         $tmp = debug_backtrace();
         $class = class_basename($tmp[1]['class'] ?? 'class-unknown');
 
-        $func = $tmp[1]['function'];
+        $func = $tmp[1]['function'] ?? 'function-unknown';
         $params_list = collect($params)->except(['_token', '_method'])->implode('_');
 
         return Str::slug(
@@ -291,8 +287,7 @@ if (! function_exists('inAdmin')) {
 
         $segments = Request::segments();
 
-        return
-            (is_countable($segments) ? count($segments) : 0) > 0 &&
+        return (is_countable($segments) ? count($segments) : 0) > 0 &&
             $segments[0] === 'livewire' &&
             session('in_admin') === true;
     }
@@ -564,7 +559,6 @@ if (! function_exists('getAllModulesModels')) {
     /**
      * Get all models from all enabled modules.
      *
-     *
      * @return array<string, string>
      *
      * @throws ReflectionException
@@ -573,7 +567,7 @@ if (! function_exists('getAllModulesModels')) {
     {
         $res = [];
 
-        /** @var Nwidart\Modules\Laravel\Module[] $modules */
+        /** @var array<Nwidart\Modules\Laravel\Module> $modules */
         $modules = Module::all();
 
         foreach ($modules as $module) {
@@ -600,7 +594,7 @@ if (! function_exists('getAllModulesModels')) {
             }
         }
 
-        /* @var array<string, string> */
+        /** @var array<string, string> */
         return $res;
     }
 }
@@ -657,7 +651,8 @@ if (! function_exists('xotModel')) {
 if (! function_exists('deltaTime')) {
     function deltaTime(): void
     {
-        echo '<h3>Time : '.(microtime(true) - LARAVEL_START).'</h3>';
+        $start = defined('LARAVEL_START') ? LARAVEL_START : microtime(true);
+        echo '<h3>Time : '.(microtime(true) - (float) $start).'</h3>';
     }
 }
 
@@ -790,7 +785,8 @@ if (! function_exists('removeQueryParams')) {
         $query = request()->query(); // get the query parameters (what follows the "?")
         Assert::isArray($query);
         foreach ($params as $param) {
-            unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+            $key = is_string($param) ? $param : (string) $param;
+            unset($query[$key]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
         }
 
         // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
@@ -929,7 +925,12 @@ if (! function_exists('is_active')) {
      */
     function is_active(array $routes): bool
     {
-        return (bool) call_user_func_array([app('router'), 'is'], $routes);
+        $router = app('router');
+        if (! is_object($router) || ! method_exists($router, 'is')) {
+            return false;
+        }
+
+        return (bool) call_user_func_array([$router, 'is'], $routes);
     }
 }
 
@@ -976,7 +977,8 @@ if (! function_exists('debugStack')) {
                 defined('XDEBUG_PATH_EXCLUDE')
         ) {
             xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
-                '/../../vendor/']);
+                '/../../vendor/',
+            ]);
         }
 
         if (function_exists('xdebug_print_function_stack')) {
@@ -996,10 +998,10 @@ if (! function_exists('secondsToHms')) {
         $seconds -= $minutes * 60;
         $str = '';
         if ($hours > 0) {
-            $str .= ($hours < 9 ? ('0'.$hours) : $hours).':';
+            $str .= ($hours < 9 ? '0'.$hours : $hours).':';
         }
 
-        return $str.($minutes < 9 ? ('0'.$minutes) : $minutes).':'.round($seconds, $decimal);
+        return $str.($minutes < 9 ? '0'.$minutes : $minutes).':'.round($seconds, $decimal);
     }
 }
 
@@ -1154,8 +1156,8 @@ if (! function_exists('authId')) {
                 $id = $filamentAuth->id();
             }
 
-            if ($id === null && auth()->check()) {
-                $id = auth()->id();
+            if ($id === null && auth()->guard()->check()) {
+                $id = auth()->guard()->id();
             }
 
             return $id === null ? null : (is_string($id) ? $id : ((string) $id));
@@ -1172,9 +1174,8 @@ if (! function_exists('authId')) {
  * @param  T|null  $object  L'oggetto da controllare
  * @param  string  $method  Il nome del metodo da chiamare
  * @param  mixed  ...$args  Gli argomenti da passare al metodo
- * @return mixed|null
  */
-function safe_object_call($object, string $method, ...$args)
+function safe_object_call($object, string $method, mixed ...$args): mixed
 {
     if (! is_object($object)) {
         return null;
@@ -1185,4 +1186,58 @@ function safe_object_call($object, string $method, ...$args)
     }
 
     return $object->$method(...$args);
+}
+
+if (! function_exists('trans_string')) {
+    /**
+     * Translation helper that guarantees string return type for PHPStan compliance.
+     *
+     * Laravel's __() function can return array|string|null which causes PHPStan errors
+     * when passing to methods that expect string|null (like label(), title(), etc.)
+     *
+     * This helper ensures a string return type by:
+     * - Returning the translation if it's a string
+     * - Returning the key itself if translation is array (missing translation case)
+     * - Returning null if the result is null
+     *
+     * @param  string  $key  Translation key
+     * @param  array<string, bool|float|int|string|null>  $replace  Replacement values
+     * @param  string|null  $locale  Specific locale to use
+     * @return string|null The translated string or null
+     *
+     * @example trans_string('notify::contact.label') -> "Contact" (string)
+     * @example trans_string('missing.key') -> "missing.key" (fallback to key)
+     */
+    function trans_string(string $key, array $replace = [], ?string $locale = null): ?string
+    {
+        /** @var array<string, bool|float|int|string|null> $safeReplace */
+        $safeReplace = [];
+        foreach ($replace as $k => $v) {
+            if (! is_string($k)) {
+                continue;
+            }
+            if ($v === null || is_scalar($v)) {
+                /** @var bool|float|int|string|null $v */
+                $safeReplace[$k] = $v;
+            } else {
+                $safeReplace[$k] = (string) $v;
+            }
+        }
+
+        $result = __($key, $safeReplace, $locale);
+
+        // If it's already a string, return it
+        if (is_string($result)) {
+            return $result;
+        }
+
+        // If it's null, return null
+        if ($result === null) {
+            return null;
+        }
+
+        // If it's an array (translation not found), return the key as fallback
+        // This matches Laravel's behavior when translation doesn't exist
+        return $key;
+    }
 }

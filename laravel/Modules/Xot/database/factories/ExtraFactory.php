@@ -4,13 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Database\Factories;
 
-use Modules\Xot\Models\Extra;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Modules\Xot\Models\Extra;
 
+/**
+ * @extends Factory<Extra>
+ */
 class ExtraFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
+     *
+     * @var class-string<Extra>
      */
     protected $model = Extra::class;
 

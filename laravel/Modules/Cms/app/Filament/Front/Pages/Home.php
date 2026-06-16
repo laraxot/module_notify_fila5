@@ -8,25 +8,25 @@ declare(strict_types=1);
 
 namespace Modules\Cms\Filament\Front\Pages;
 
-use Filament\Pages\Page;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
+use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
 // use InteractsWithTable;
 // implements HasTable
 // use InteractsWithForms;
 
-class Home extends Page
+class Home extends XotBasePage
 {
     public string $view_type;
 
     public array $containers = [];
 
     public array $items = [];
-
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
 
     // protected static string $view = 'cms::filament.front.pages.welcome';
     protected string $view = 'pub_theme::home';
@@ -56,7 +56,17 @@ class Home extends Page
                 $container_last_key_name = $modelInstance->getRouteKeyName();
                 Assert::string($container_last_key_name, 'Route key name must be a string');
 
-                $row = $container_last_model::where($container_last_key_name, $item_last)->first();
+                /** @var class-string<Model> $modelClass */
+                $modelClass = $container_last_model;
+
+                // Ensure the model class has the where method
+                if (! method_exists($modelClass, 'where')) {
+                    throw new \RuntimeException("Model class {$modelClass} does not have where method");
+                }
+
+                /** @var Builder<Model> $query */
+                $query = $modelClass::where($container_last_key_name, $item_last);
+                $row = $query->first();
                 $data[$container_last_singular] = $row;
             }
         }

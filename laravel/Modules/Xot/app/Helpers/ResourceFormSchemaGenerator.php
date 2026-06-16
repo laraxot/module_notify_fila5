@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Helpers;
 
-use RuntimeException;
-use ReflectionClass;
 use Exception;
 use Illuminate\Support\Str;
+use ReflectionClass;
+use RuntimeException;
 use Webmozart\Assert\Assert;
 
 use function Safe\error_log;
@@ -20,12 +20,12 @@ use function Safe\preg_replace;
 class ResourceFormSchemaGenerator
 {
     /**
-     * @param class-string $resourceClass
+     * @param  class-string  $resourceClass
      */
     public static function generateFormSchema(string $resourceClass): bool
     {
         try {
-            if (!class_exists($resourceClass)) {
+            if (! class_exists($resourceClass)) {
                 throw new RuntimeException("Class {$resourceClass} does not exist");
             }
 
@@ -54,14 +54,15 @@ class ResourceFormSchemaGenerator
             $formSchemaMethod .= "        ];\n    }\n";
 
             // Insert the method before the last closing brace
-            $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod . '}$1', $fileContents);
+            $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod.'}$1', $fileContents);
 
             // Write back to the file
             file_put_contents($filename, $modifiedContents);
 
             return true;
         } catch (Exception $e) {
-            error_log("Error generating form schema for {$resourceClass}: " . $e->getMessage());
+            error_log("Error generating form schema for {$resourceClass}: ".$e->getMessage());
+
             return false;
         }
     }
@@ -79,7 +80,7 @@ class ResourceFormSchemaGenerator
 
         foreach ($resourceFiles as $file) {
             try {
-                Assert::string($file, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                Assert::string($file, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
                 $content = file_get_contents($file);
                 $namespaceMatch = [];
                 $classMatch = [];
@@ -87,10 +88,10 @@ class ResourceFormSchemaGenerator
                 if (
                     preg_match('/namespace\s+([\w\\\\\\\\]+);/', $content, $namespaceMatch) &&
                         preg_match('/class\s+(\w+)\s+extends\s+XotBaseResource/', $content, $classMatch) &&
-                        !empty($namespaceMatch[1]) &&
-                        !empty($classMatch[1])
+                        ! empty($namespaceMatch[1]) &&
+                        ! empty($classMatch[1])
                 ) {
-                    $fullClassName = $namespaceMatch[1] . '\\' . $classMatch[1];
+                    $fullClassName = $namespaceMatch[1].'\\'.$classMatch[1];
 
                     if (class_exists($fullClassName)) {
                         /** @var class-string $fullClassName */
@@ -100,7 +101,7 @@ class ResourceFormSchemaGenerator
                     }
                 }
             } catch (Exception $e) {
-                $results['skipped'][] = is_string($file) ? $file : (((string) $file) . ': ' . $e->getMessage());
+                $results['skipped'][] = is_string($file) ? $file : (((string) $file).': '.$e->getMessage());
             }
         }
 

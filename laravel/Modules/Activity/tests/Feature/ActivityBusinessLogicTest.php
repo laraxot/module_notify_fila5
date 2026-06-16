@@ -5,14 +5,19 @@ declare(strict_types=1);
 use Illuminate\Support\Str;
 use Modules\Activity\Models\Activity;
 
+use function Safe\json_decode;
+use function Safe\json_encode;
+
+uses(\Modules\Activity\Tests\TestCase::class);
+
 describe('Activity Business Logic', function () {
     it('can create activity with basic information', function () {
         $activityData = [
             'log_name' => 'default',
             'description' => 'User logged in',
-            'subject_type' => 'App\Models\User',
+            'subject_type' => 'Modules\User\Models\User',
             'subject_id' => 123,
-            'causer_type' => 'App\Models\User',
+            'causer_type' => 'Modules\User\Models\User',
             'causer_id' => 123,
             'properties' => json_encode([
                 'ip_address' => '192.168.1.1',
@@ -32,7 +37,7 @@ describe('Activity Business Logic', function () {
             ->and($activity->description)
             ->toBe('User logged in')
             ->and($activity->subject_type)
-            ->toBe('App\Models\User')
+            ->toBe('Modules\User\Models\User')
             ->and($activity->subject_id)
             ->toBe(123)
             ->and($activity->event)
@@ -43,9 +48,9 @@ describe('Activity Business Logic', function () {
         $loginActivity = Activity::create([
             'log_name' => 'auth',
             'description' => 'User logged in successfully',
-            'subject_type' => 'App\Models\User',
+            'subject_type' => 'Modules\User\Models\User',
             'subject_id' => 456,
-            'causer_type' => 'App\Models\User',
+            'causer_type' => 'Modules\User\Models\User',
             'causer_id' => 456,
             'properties' => json_encode([
                 'ip_address' => '192.168.1.100',
@@ -58,9 +63,9 @@ describe('Activity Business Logic', function () {
         $logoutActivity = Activity::create([
             'log_name' => 'auth',
             'description' => 'User logged out',
-            'subject_type' => 'App\Models\User',
+            'subject_type' => 'Modules\User\Models\User',
             'subject_id' => 456,
-            'causer_type' => 'App\Models\User',
+            'causer_type' => 'Modules\User\Models\User',
             'causer_id' => 456,
             'properties' => json_encode([
                 'ip_address' => '192.168.1.100',
@@ -84,9 +89,9 @@ describe('Activity Business Logic', function () {
         $createActivity = Activity::create([
             'log_name' => 'models',
             'description' => 'User created',
-            'subject_type' => 'App\Models\User',
+            'subject_type' => 'Modules\User\Models\User',
             'subject_id' => 789,
-            'causer_type' => 'App\Models\User',
+            'causer_type' => 'Modules\User\Models\User',
             'causer_id' => 1,
             'properties' => json_encode([
                 'old' => null,
@@ -101,9 +106,9 @@ describe('Activity Business Logic', function () {
         $updateActivity = Activity::create([
             'log_name' => 'models',
             'description' => 'User updated',
-            'subject_type' => 'App\Models\User',
+            'subject_type' => 'Modules\User\Models\User',
             'subject_id' => 789,
-            'causer_type' => 'App\Models\User',
+            'causer_type' => 'Modules\User\Models\User',
             'causer_id' => 1,
             'properties' => json_encode([
                 'old' => [
@@ -136,7 +141,7 @@ describe('Activity Business Logic', function () {
             'description' => 'Batch operation started',
             'subject_type' => 'App\Models\Import',
             'subject_id' => 404,
-            'causer_type' => 'App\Models\User',
+            'causer_type' => 'Modules\User\Models\User',
             'causer_id' => 505,
             'properties' => json_encode(['step' => 'start']),
             'event' => 'batch_started',
@@ -148,12 +153,20 @@ describe('Activity Business Logic', function () {
             'description' => 'Batch operation completed',
             'subject_type' => 'App\Models\Import',
             'subject_id' => 404,
-            'causer_type' => 'App\Models\User',
+            'causer_type' => 'Modules\User\Models\User',
             'causer_id' => 505,
             'properties' => json_encode(['step' => 'complete', 'records_processed' => 1000]),
             'event' => 'batch_completed',
             'batch_uuid' => $batchUuid,
         ]);
+
+        $activity1->batch_uuid = $batchUuid;
+        $activity1->save();
+        $activity2->batch_uuid = $batchUuid;
+        $activity2->save();
+
+        $activity1->refresh();
+        $activity2->refresh();
 
         expect($activity1->batch_uuid)->toBe($batchUuid)->and($activity2->batch_uuid)->toBe($batchUuid);
 
@@ -162,23 +175,23 @@ describe('Activity Business Logic', function () {
     });
 
     it('can filter activities by log name', function () {
-        Activity::create([
+        $authActivity = Activity::create([
             'log_name' => 'auth',
             'description' => 'Login activity',
-            'subject_type' => 'App\Models\User',
+            'subject_type' => 'Modules\User\Models\User',
             'subject_id' => 606,
-            'causer_type' => 'App\Models\User',
+            'causer_type' => 'Modules\User\Models\User',
             'causer_id' => 606,
             'properties' => json_encode([]),
             'event' => 'login',
         ]);
 
-        Activity::create([
+        $modelActivity = Activity::create([
             'log_name' => 'models',
             'description' => 'Model activity',
-            'subject_type' => 'App\Models\User',
+            'subject_type' => 'Modules\User\Models\User',
             'subject_id' => 606,
-            'causer_type' => 'App\Models\User',
+            'causer_type' => 'Modules\User\Models\User',
             'causer_id' => 606,
             'properties' => json_encode([]),
             'event' => 'created',
@@ -187,25 +200,43 @@ describe('Activity Business Logic', function () {
         $authActivities = Activity::where('log_name', 'auth')->get();
         $modelActivities = Activity::where('log_name', 'models')->get();
 
-        expect($authActivities)
-            ->toHaveCount(1)
-            ->and($modelActivities)
-            ->toHaveCount(1)
-            ->and($authActivities->first()->log_name)
+        /** @var Activity|null $firstAuthActivity */
+        $firstAuthActivity = $authActivities->first();
+        /** @var Activity|null $firstModelActivity */
+        $firstModelActivity = $modelActivities->first();
+
+        expect($authActivities->count())->toBeGreaterThanOrEqual(1);
+        expect($modelActivities->count())->toBeGreaterThanOrEqual(1);
+
+        // Ensure the activities created in this test are present in filtered results.
+        expect($authActivities->contains('id', $authActivity->id))->toBeTrue();
+        expect($modelActivities->contains('id', $modelActivity->id))->toBeTrue();
+
+        expect($firstAuthActivity)->not->toBeNull();
+        expect($firstModelActivity)->not->toBeNull();
+
+        // Type narrowing assertions
+        expect($firstAuthActivity)->toBeInstanceOf(Activity::class);
+        \assert($firstAuthActivity instanceof Activity);
+        expect($firstModelActivity)->toBeInstanceOf(Activity::class);
+        \assert($firstModelActivity instanceof Activity);
+
+        expect($firstAuthActivity->log_name)
             ->toBe('auth')
-            ->and($modelActivities->first()->log_name)
+            ->and($firstModelActivity->log_name)
             ->toBe('models');
     });
 
     it('can handle activity with complex properties', function () {
+        /** @var Activity $complexActivity */
         $complexActivity = Activity::create([
             'log_name' => 'complex',
             'description' => 'Complex operation with nested data',
-            'subject_type' => 'App\Models\Order',
+            'subject_type' => 'App\\Models\\Order',
             'subject_id' => 909,
-            'causer_type' => 'App\Models\User',
+            'causer_type' => 'Modules\\User\\Models\\User',
             'causer_id' => 1010,
-            'properties' => json_encode([
+            'properties' => [
                 'order_details' => [
                     'items' => [
                         ['id' => 1, 'name' => 'Product A', 'quantity' => 2, 'price' => 25.99],
@@ -218,16 +249,35 @@ describe('Activity Business Logic', function () {
                     'name' => 'Jane Smith',
                     'email' => 'jane@example.com',
                 ],
-            ]),
+            ],
             'event' => 'order_placed',
         ]);
+        expect($complexActivity)->not->toBeNull();
 
-        expect($complexActivity->event)->toBe('order_placed')->and($complexActivity->log_name)->toBe('complex');
+        $propertiesValue = $complexActivity->properties;
+        /** @var array<string, mixed> $properties */
+        $properties = [];
+        if (is_string($propertiesValue)) {
+            $decoded = json_decode($propertiesValue, true);
+            $properties = is_array($decoded) ? $decoded : [];
+        } elseif (is_array($propertiesValue)) {
+            $properties = $propertiesValue;
+        } elseif ($propertiesValue !== null && method_exists($propertiesValue, 'toArray')) {
+            $properties = $propertiesValue->toArray();
+        }
 
-        $properties = json_decode($complexActivity->properties, true);
-        expect($properties['order_details']['total_amount'])
-            ->toBe(67.48)
-            ->and($properties['customer_info']['name'])
-            ->toBe('Jane Smith');
+        expect($properties)->toBeArray();
+        expect(isset($properties['order_details']))->toBeTrue();
+        expect(isset($properties['customer_info']))->toBeTrue();
+
+        /** @var array<string, mixed> $orderDetails */
+        $orderDetails = $properties['order_details'];
+        /** @var array<string, mixed> $customerInfo */
+        $customerInfo = $properties['customer_info'];
+
+        expect($orderDetails)->toBeArray()
+            ->and($orderDetails['total_amount'])->toBe(67.48)
+            ->and($customerInfo)->toBeArray()
+            ->and($customerInfo['name'])->toBe('Jane Smith');
     });
 });

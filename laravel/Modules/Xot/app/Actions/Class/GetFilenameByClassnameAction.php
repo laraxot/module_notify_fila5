@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Class;
 
 // use Modules\Xot\Services\ArrayService;
-use ReflectionClass;
 use Exception;
+use ReflectionClass;
 use Spatie\QueueableAction\QueueableAction;
 
 class GetFilenameByClassnameAction
@@ -23,12 +23,12 @@ class GetFilenameByClassnameAction
             }
         } catch (Exception $e) {
             $filename = str_replace('\\', '/', $class_name);
-            $filename = base_path($filename) . '.php';
+            $filename = base_path($filename).'.php';
         }
 
         if (is_string($filename)) {
             return $filename;
         }
-        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+        throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
     }
 }

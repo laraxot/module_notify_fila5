@@ -2,7 +2,7 @@
 
 ## Panoramica
 
-Questo documento analizza la possibilità di consolidare i modelli geografici attualmente separati (`Region`, `Province`, `City`, `Cap`) in un unico modello `Comune`. L'obiettivo è valutare vantaggi, svantaggi e implicazioni di tale consolidamento nel contesto specifico dell'applicazione <nome progetto>.
+Questo documento analizza la possibilità di consolidare i modelli geografici attualmente separati (`Region`, `Province`, `City`, `Cap`) in un unico modello `Comune`. L'obiettivo è valutare vantaggi, svantaggi e implicazioni di tale consolidamento nel contesto specifico dell'applicazione <main module>.
 
 ## Struttura Attuale
 
@@ -39,7 +39,7 @@ class Comune extends GeoJsonModel
     {
         return static::loadData()->pluck('regione')->unique()->values();
     }
-    
+
     // Recupera le province di una regione
     public static function getProvince(string $codiceRegione): Collection
     {
@@ -49,7 +49,7 @@ class Comune extends GeoJsonModel
             ->unique()
             ->values();
     }
-    
+
     // Recupera le città di una provincia
     public static function getCitta(string $codiceProvincia): Collection
     {
@@ -59,7 +59,7 @@ class Comune extends GeoJsonModel
             ->unique()
             ->values();
     }
-    
+
     // Recupera i CAP di una città
     public static function getCap(string $codiceCitta): Collection
     {
@@ -69,13 +69,13 @@ class Comune extends GeoJsonModel
             ->unique()
             ->values();
     }
-    
+
     // Cerca comuni per nome (funzionalità aggiuntiva)
     public static function cercaPerNome(string $nome): Collection
     {
         return static::loadData()
             ->filter(fn($item) => str_contains(
-                strtolower($item['comune']['nome']), 
+                strtolower($item['comune']['nome']),
                 strtolower($nome)
             ));
     }
@@ -129,7 +129,7 @@ class Comune extends GeoJsonModel
 - Il completamento automatico dell'IDE è più efficace con classi distinte e ben nominate.
 - La navigazione nel codice è facilitata dalla separazione dei concetti.
 
-## Casi d'Uso Specifici nel Progetto <nome progetto>
+## Casi d'Uso Specifici nel Progetto <main module>
 
 ### 1. Widget di Ricerca Geografica (Consolidamento sfavorevole - 20%)
 
@@ -140,7 +140,7 @@ Select::make('region')
     ->afterStateUpdated(fn (Set $set) => $set('province', null)),
 
 Select::make('province')
-    ->options(fn (Get $get) => 
+    ->options(fn (Get $get) =>
         Province::byRegion($get('region'))->pluck('nome', 'codice'))
     ->visible(fn (Get $get) => filled($get('region'))),
 ```
@@ -152,7 +152,7 @@ Select::make('region')
     ->afterStateUpdated(fn (Set $set) => $set('province', null)),
 
 Select::make('province')
-    ->options(fn (Get $get) => 
+    ->options(fn (Get $get) =>
         Comune::getProvince($get('region'))->pluck('nome', 'codice'))
     ->visible(fn (Get $get) => filled($get('region'))),
 ```

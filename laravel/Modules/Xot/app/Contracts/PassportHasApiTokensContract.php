@@ -15,8 +15,6 @@ use Laravel\Passport\Token;
 use Laravel\Passport\TransientToken;
 
 /**
- * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
- *
  * @phpstan-require-extends Model
  */
 interface PassportHasApiTokensContract
@@ -44,26 +42,21 @@ interface PassportHasApiTokensContract
 
     /**
      * Determine if the current API token has a given scope.
-     *
-     * @param string $scope
-     *
-     * @return bool
      */
-    public function tokenCan($scope);
+    public function tokenCan(string $scope): bool;
 
     /**
      * Create a new personal access token for the user.
      *
-     * @param string $name
-     *
-     * @return PersonalAccessTokenResult
+     * @param  array<int, string>  $scopes
      */
-    public function createToken($name, array $scopes = []);
+    public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
 
     /**
      * Set the current access token for the user.
      *
+     *
      * @return $this
      */
-    public function withAccessToken(Token|TransientToken $accessToken);
+    public function withAccessToken(Token|TransientToken|null $accessToken): static;
 }

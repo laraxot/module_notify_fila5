@@ -21,13 +21,13 @@ class ArtisanHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-            
+
             // ->tooltip(__('xot::actions.export_xls'))
 
             // ->icon('heroicon-o-cloud-arrow-down')
             // ->icon('fas-file-excel')
             // ->icon('heroicon-o-arrow-down-tray')
-            ->action(function () {
+            ->action(function (): void {
                 Assert::string($cmd = $this->getName());
                 Artisan::call($cmd);
                 $output = Artisan::output();
@@ -39,7 +39,7 @@ class ArtisanHeaderAction extends Action
             });
     }
 
-    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
     {
         return 'artisan_action';
     }

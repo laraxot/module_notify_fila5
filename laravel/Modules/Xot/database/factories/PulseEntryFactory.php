@@ -4,13 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Database\Factories;
 
-use Modules\Xot\Models\PulseEntry;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Modules\Xot\Models\PulseEntry;
 
+/**
+ * @extends Factory<PulseEntry>
+ */
 class PulseEntryFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
+     *
+     * @var class-string<PulseEntry>
      */
     protected $model = PulseEntry::class;
 
