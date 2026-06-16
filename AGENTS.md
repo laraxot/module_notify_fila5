@@ -1579,6 +1579,31 @@ git push origin dev
 
 ---
 
+## 🚀 GITHUB ACTIONS - SYNC SUBTREES
+
+### Overview
+Due to `.gitignore` containing `bashscripts/`, the GitHub Actions need to re-clone the bashscripts repository to run the sync script.
+
+### Required Secrets
+- **BASHSCRIPTS_TOKEN**: GitHub PAT with `repo` scope
+
+### Workflows
+
+#### 1. Sync Remote Repo (`.github/workflows/sync-remote-repo.yml`)
+- Uses sparse-checkout to avoid symlink errors
+- Clones only needed directories: `git/`, `lib/`, `gitmodules.ini`
+- Trigger: push to `dev` branch
+
+#### 2. Sync Subtrees (`.github/workflows/sync-subtrees.yml`)
+- Same functionality as above, updated to use HTTPS with token
+- Trigger: push to `dev` branch
+
+### Documentation
+- Script: `bashscripts/docs/sync-remote-repo.md`
+- Contains complete setup guide and troubleshooting
+
+---
+
 **Filament Version**: 4.x → 5.x Migration Target  
 **PHPStan Level**: 10 (Maximum)  
 **Test Coverage**: 90%+ Target  
