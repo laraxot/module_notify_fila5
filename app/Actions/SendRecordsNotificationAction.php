@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Datas\SendNotificationBulkResultData;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -106,6 +107,6 @@ class SendRecordsNotificationAction
             }
         }
 
-        return (string) $record->getKey();
+        return SafeStringCastAction::cast($record->getKey());
     }
 }

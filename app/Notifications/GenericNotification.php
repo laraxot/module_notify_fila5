@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 /**
  * Notifica generica configurabile per il sistema il progetto.
@@ -78,7 +79,7 @@ class GenericNotification extends Notification implements ShouldQueue
 
         // Aggiungi eventuali azioni se specificate nei dati
         if (isset($this->data['action_text'], $this->data['action_url'])) {
-            $mail->action((string) $this->data['action_text'], (string) $this->data['action_url']);
+            $mail->action(SafeStringCastAction::cast($this->data['action_text']), SafeStringCastAction::cast($this->data['action_url']));
         }
 
         // Aggiungi eventuali linee aggiuntive
@@ -109,7 +110,7 @@ class GenericNotification extends Notification implements ShouldQueue
         $to = '';
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForTwilio')) {
             $routeResult = $notifiable->routeNotificationForTwilio($this);
-            $to = (string) ($routeResult ?? '');
+            $to = SafeStringCastAction::cast($routeResult ?? '');
         }
 
         return [

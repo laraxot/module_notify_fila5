@@ -21,6 +21,7 @@ use Kreait\Firebase\Messaging\MessageData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
 use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 
@@ -72,7 +73,7 @@ class SendPushNotification extends XotBasePage
             if (! is_object($profile)) {
                 return [];
             }
-            $fullName = (string) (data_get($profile, 'full_name') ?? 'Utente');
+            $fullName = SafeStringCastAction::cast(data_get($profile, 'full_name') ?? 'Utente');
 
             $tokenAttr = method_exists($item, 'getAttribute') ? $item->getAttribute('push_notifications_token') : null;
             $token = is_string($tokenAttr) ? $tokenAttr : '';
@@ -169,10 +170,10 @@ class SendPushNotification extends XotBasePage
         foreach ($pushDataTemp as $key => $value) {
             // All keys are non-empty strings by this point
             if (is_scalar($value) || is_null($value)) {
-                $sanitizedData[$key] = is_string($value) ? $value : ((string) $value);
+                $sanitizedData[$key] = is_string($value) ? $value : SafeStringCastAction::cast($value);
             } else {
                 // Handle non-scalar values (arrays, objects) by converting to JSON
-                $sanitizedData[$key] = (string) json_encode($value);
+                $sanitizedData[$key] = SafeStringCastAction::cast(json_encode($value));
             }
         }
         $messageData = MessageData::fromArray($sanitizedData);

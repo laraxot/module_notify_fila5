@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace Modules\Notify\Traits;
 
 use Illuminate\Cache\RateLimiter;
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 trait HasNotificationRateLimiting
 {
@@ -19,8 +21,8 @@ trait HasNotificationRateLimiting
             return true;
         }
 
-        $maxAttempts = (int) config('notify.rate_limiting.max_attempts', 5);
-        $decayMinutes = (int) config('notify.rate_limiting.decay_minutes', 1);
+        $maxAttempts = SafeIntCastAction::cast(config('notify.rate_limiting.max_attempts', 5));
+        $decayMinutes = SafeIntCastAction::cast(config('notify.rate_limiting.decay_minutes', 1));
 
         /** @var RateLimiter */
         $limiter = app(RateLimiter::class);
@@ -56,12 +58,12 @@ trait HasNotificationRateLimiting
      */
     protected function getNotificationRateLimitRemainingAttempts(string $key): int
     {
-        $maxAttempts = (int) config('notify.rate_limiting.max_attempts', 5);
+        $maxAttempts = SafeIntCastAction::cast(config('notify.rate_limiting.max_attempts', 5));
 
         /** @var RateLimiter */
         $limiter = app(RateLimiter::class);
 
-        return $maxAttempts - (int) $limiter->attempts($key);
+        return $maxAttempts - SafeIntCastAction::cast($limiter->attempts($key));
     }
 
     /**
@@ -84,6 +86,6 @@ trait HasNotificationRateLimiting
      */
     protected function getNotificationRateLimitKey(string $type, mixed $identifier): string
     {
-        return 'notify:'.$type.':'.(string) $identifier;
+        return 'notify:'.$type.':'.SafeStringCastAction::cast($identifier);
     }
 }
