@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Modules\Notify\Models\NotificationLog;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 trait HasTenantNotifications
 {
@@ -130,6 +131,6 @@ trait HasTenantNotifications
 
         $key = $tenant->getKey();
 
-        return $key === null ? null : (string) $key;
+        return $key === null ? null : SafeStringCastAction::cast($key);
     }
 }

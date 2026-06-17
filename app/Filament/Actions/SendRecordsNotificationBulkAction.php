@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SendRecordsNotificationAction;
 use Modules\Notify\Filament\Forms\Components\ChannelCheckboxList;
 use Modules\Notify\Filament\Forms\Components\MailTemplateSelect;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Tables\Actions\XotBaseBulkAction;
 
 /**
@@ -29,7 +30,7 @@ class SendRecordsNotificationBulkAction extends XotBaseBulkAction
             ->action(function (Collection $records, array $data): void {
                 /** @var Collection<int, Model> $records */
                 /** @var array<string, mixed> $data */
-                $mailTemplateSlug = (string) $data['mail_template_slug'];
+                $mailTemplateSlug = SafeStringCastAction::cast($data['mail_template_slug']);
                 /** @var array<int, string> $channels */
                 $channels = (array) $data['channels'];
                 app(SendRecordsNotificationAction::class)->execute($records, $mailTemplateSlug, $channels);

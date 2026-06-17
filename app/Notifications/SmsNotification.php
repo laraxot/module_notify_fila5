@@ -8,6 +8,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
 use Modules\Notify\Datas\SmsData;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 /**
  * Class SmsNotification
@@ -46,8 +47,8 @@ class SmsNotification extends Notification implements ShouldQueue
 
             $this->smsData = SmsData::from([
                 'body' => $content,
-                'recipient' => (string) $recipient,
-                'from' => (string) $from,
+                'recipient' => SafeStringCastAction::cast($recipient),
+                'from' => SafeStringCastAction::cast($from),
             ]);
         }
 
@@ -78,7 +79,7 @@ class SmsNotification extends Notification implements ShouldQueue
         // we'll use that to get the destination phone number
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForSms')) {
             $routeResult = $notifiable->routeNotificationForSms($this);
-            $this->smsData->recipient = (string) ($routeResult ?? '');
+            $this->smsData->recipient = SafeStringCastAction::cast($routeResult ?? '');
         }
 
         return $this->smsData;
