@@ -9,9 +9,9 @@ use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use Modules\Fixcity\Models\User;
 use Modules\Notify\Providers\NotifyServiceProvider;
 use Modules\Notify\Services\NotificationManager;
+use Modules\User\Models\User;
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 use PHPUnit\Framework\Assert;
@@ -23,6 +23,7 @@ use PHPUnit\Framework\Assert;
  * All module connections are mapped by TenantServiceProvider.
  * Migrations must be run ONCE externally: php artisan migrate --env=testing
  * DatabaseTransactions handles rollback between tests.
+ *
  * @property object|null $notificationManager
  */
 abstract class TestCase extends XotBaseTestCase
