@@ -3,8 +3,8 @@ title: "Consolidamento Actions/SMS e Contracts (ponytail audit)"
 type: decision
 tags: [notify, sms, ponytail, contracts, factory, actions]
 created: 2026-06-30
-updated: 2026-06-30
-qmd: "Notify SMS Actions consolidation SmsActionFactory SmsActionContract ponytail audit"
+updated: 2026-07-01
+qmd: "Notify SMS Actions consolidation SmsActionFactory SmsActionContract ponytail audit smsfactor"
 issues:
   - "https://github.com/laraxot/base_predict_fila5/issues/221"
 discussions:
@@ -17,7 +17,20 @@ related:
 
 # Consolidamento Actions/SMS e Contracts (ponytail audit)
 
-## Contesto
+## Stato 2026-07-01 (run #4)
+
+Driver canonico: **`smsfactor`** (`config/sms.php` default).
+
+- 8 action SMS inattive + `NetfunSendAction` → `.php.bak`
+- 5 Data class driver inattivi → `.php.bak`
+- Contratti root duplicati eliminati (N3/N4)
+- `SmsDriverEnum` → solo `SMSFACTOR`
+- `SmsActionFactory` → solo `smsfactor`
+- Canali `NetfunChannel` (entrambi) → `SmsActionFactory`
+
+Dettaglio file: [ponytail-audit-over-engineering.md](../../ponytail-audit-over-engineering.md).
+
+## Contesto (run #1–#3)
 
 L'audit ponytail (`docs/ponytail-audit-over-engineering.md`, finding N1/N2/N3/N4) segnalava
 `app/Actions/SMS/` con 9 classi `Send*SMSAction` per 7 provider quando `config/sms.php`
