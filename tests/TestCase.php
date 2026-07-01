@@ -10,7 +10,6 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Modules\Notify\Providers\NotifyServiceProvider;
-use Modules\Notify\Services\NotificationManager;
 use Modules\User\Models\User;
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
@@ -24,7 +23,7 @@ use PHPUnit\Framework\Assert;
  * Migrations must be run ONCE externally: php artisan migrate --env=testing
  * DatabaseTransactions handles rollback between tests.
  *
- * @property object|null $notificationManager
+ * @property object|null $sendNotificationAction
  */
 abstract class TestCase extends XotBaseTestCase
 {
@@ -32,8 +31,6 @@ abstract class TestCase extends XotBaseTestCase
 
     /** @var list<string> */
     protected $connectionsToTransact = ['sqlite', 'notify', 'user'];
-
-    public ?NotificationManager $notificationManager = null;
 
     protected function setUp(): void
     {
@@ -93,12 +90,5 @@ abstract class TestCase extends XotBaseTestCase
         Assert::assertInstanceOf($class, $first);
 
         return $first;
-    }
-
-    public function notificationManager(): NotificationManager
-    {
-        Assert::assertNotNull($this->notificationManager);
-
-        return $this->notificationManager;
     }
 }
