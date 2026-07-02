@@ -8,11 +8,12 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 use Modules\Notify\Datas\WhatsAppData;
 use function Safe\json_decode;
 use Spatie\QueueableAction\QueueableAction;
 
-final class SendVonageWhatsAppAction
+final class SendVonageWhatsAppAction implements WhatsAppProviderActionInterface
 {
     use QueueableAction;
 
