@@ -86,6 +86,7 @@ class AnalyzeTranslationFiles extends Command
 
     /**
      * @param  array<string, mixed>  $array
+     *
      * @return array<string, mixed>
      */
     private function flattenArray(array $array, string $prefix = ''): array

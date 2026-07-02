@@ -113,6 +113,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 
     /**
      * @param  Builder<static>  $query
+     *
      * @return Builder<static>
      */
     public function scopeForMailable(Builder $query, Mailable $mailable): Builder
