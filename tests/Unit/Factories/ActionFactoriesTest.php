@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Factories;
 
+use Modules\Notify\Actions\SMS\SendSmsFactorSMSAction;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
-use Modules\Notify\Factories\SmsActionFactory;
 use Modules\Notify\Factories\TelegramActionFactory;
 use Modules\Notify\Factories\WhatsAppActionFactory;
 use Modules\Notify\Tests\TestCase;
@@ -14,21 +14,13 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
-test('sms action factory creates default smsfactor driver instance', function () {
+test('sms action resolves default smsfactor driver instance', function () {
     config()->set('sms.default', 'smsfactor');
     config()->set('sms.drivers.smsfactor.token', 'token-123');
 
-    $factory = new SmsActionFactory;
-    $action = $factory->create();
+    $action = app(SendSmsFactorSMSAction::class);
 
     Assert::assertInstanceOf(SmsActionContract::class, $action);
-});
-
-test('sms action factory throws for unsupported driver', function () {
-    \assertNotifyThrows(
-        fn () => (new SmsActionFactory)->create('definitely-unsupported-driver'),
-        \Exception::class,
-    );
 });
 
 test('telegram action factory throws when selected class does not implement interface', function () {

@@ -6,8 +6,8 @@ namespace Modules\Notify\Channels;
 
 use Exception;
 use Illuminate\Notifications\Notification;
+use Modules\Notify\Actions\SMS\SendSmsFactorSMSAction;
 use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Factories\SmsActionFactory;
 
 /**
  * Canale di notifica per l'invio di messaggi SMS.
@@ -18,16 +18,10 @@ use Modules\Notify\Factories\SmsActionFactory;
 class SmsChannel
 {
     /**
-     * Factory per la creazione di azioni SMS.
-     */
-    private SmsActionFactory $factory;
-
-    /**
      * Crea una nuova istanza del canale.
      */
-    public function __construct(SmsActionFactory $factory)
+    public function __construct(private readonly SendSmsFactorSMSAction $action)
     {
-        $this->factory = $factory;
     }
 
     /**
@@ -52,8 +46,6 @@ class SmsChannel
             throw new Exception('toSms method must return an instance of SmsData');
         }
 
-        $action = $this->factory->create();
-
-        return $action->execute($smsData);
+        return $this->action->execute($smsData);
     }
 }
