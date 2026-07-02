@@ -40,6 +40,7 @@ class RecordNotification extends Notification implements ShouldQueue
      * Uses `routeNotificationFor()` method to check if the notifiable supports each channel.
      *
      * @param  object  $notifiable  The entity to be notified
+     *
      * @return array<string|class-string>
      */
     public function via(object $notifiable): array
@@ -66,6 +67,7 @@ class RecordNotification extends Notification implements ShouldQueue
      * SpatieEmail handles all template resolution, placeholder replacement, and layout logic.
      *
      * @param  object  $notifiable  The entity to be notified
+     *
      * @return SpatieEmail Configured SpatieEmail instance ready to send
      */
     public function toMail(object $notifiable): SpatieEmail
@@ -130,6 +132,7 @@ class RecordNotification extends Notification implements ShouldQueue
      * Merge additional data with record attributes for placeholder replacement.
      *
      * @param  array<string, mixed>  $data  Additional data to merge
+     *
      * @return $this
      */
     public function mergeData(array $data): self
@@ -143,6 +146,7 @@ class RecordNotification extends Notification implements ShouldQueue
      * Add attachments to the notification.
      *
      * @param  array<int, array<string, string>>  $attachments  Array of attachment data
+     *
      * @return $this
      */
     public function addAttachments(array $attachments): self

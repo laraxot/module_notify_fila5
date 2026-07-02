@@ -25,7 +25,8 @@ class ThemeNotification extends Notification implements ShouldQueue
     public function __construct(
         public string $name,
         public array $view_params,
-    ) {}
+    ) {
+    }
 
     /**
      * @return list<string>

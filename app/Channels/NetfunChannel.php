@@ -13,7 +13,8 @@ class NetfunChannel
 {
     public function __construct(
         private readonly SmsActionFactory $factory,
-    ) {}
+    ) {
+    }
 
     /**
      * @return array<string, mixed>|null

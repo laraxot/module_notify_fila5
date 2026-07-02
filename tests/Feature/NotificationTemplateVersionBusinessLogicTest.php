@@ -86,6 +86,7 @@ $template = NotificationTemplateFactory::new()->createOne([
     });
 
     test('_throws_exception_when_restoring_without_template', function (): void {
+        /** @var \Modules\Notify\Tests\TestCase $this */
 $version = NotificationTemplateVersionFactory::new()->createOne([
             'template_id' => 999999,
         ]);
