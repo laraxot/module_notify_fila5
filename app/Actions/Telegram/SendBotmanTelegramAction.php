@@ -8,13 +8,14 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+use Modules\Notify\Contracts\TelegramProviderActionInterface;
 use Modules\Notify\Datas\TelegramData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use function Safe\json_decode;
 use function Safe\json_encode;
 use Spatie\QueueableAction\QueueableAction;
 
-final class SendBotmanTelegramAction
+final class SendBotmanTelegramAction implements TelegramProviderActionInterface
 {
     use QueueableAction;
 

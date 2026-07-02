@@ -6,6 +6,7 @@ namespace Modules\Notify\Tests\Unit\Factories;
 
 use Modules\Notify\Actions\SMS\SendSmsFactorSMSAction;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Contracts\TelegramProviderActionInterface;
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 use Modules\Notify\Factories\TelegramActionFactory;
 use Modules\Notify\Factories\WhatsAppActionFactory;
@@ -23,13 +24,13 @@ test('sms action resolves default smsfactor driver instance', function () {
     Assert::assertInstanceOf(SmsActionContract::class, $action);
 });
 
-test('telegram action factory throws when selected class does not implement interface', function () {
+test('telegram action factory creates official driver instance', function () {
     config()->set('services.telegram.token', 'telegram-token');
 
-    \assertNotifyThrows(
-        fn () => (new TelegramActionFactory)->create('official'),
-        \Exception::class,
-    );
+    $factory = new TelegramActionFactory;
+    $action = $factory->create('official');
+
+    Assert::assertInstanceOf(TelegramProviderActionInterface::class, $action);
 });
 
 test('telegram action factory throws for unsupported driver', function () {
