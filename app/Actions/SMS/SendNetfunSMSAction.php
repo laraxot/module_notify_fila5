@@ -58,7 +58,7 @@ final class SendNetfunSMSAction implements SmsActionContract
      * Execute the action.
      *
      * @param  SmsData  $smsData  I dati del messaggio SMS
-     * @return array Risultato dell'operazione
+     * @return array<string, mixed> Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
      */
@@ -71,9 +71,9 @@ final class SendNetfunSMSAction implements SmsActionContract
         ];
 
         // Normalizza il numero di telefono usando l'azione dedicata
-        $recipient = app(NormalizePhoneNumberAction::class)->execute($smsData->getRecipient());
+        $recipient = app(NormalizePhoneNumberAction::class)->execute($smsData->recipient);
 
-        $plainText = strip_tags($smsData->getBody());
+        $plainText = strip_tags($smsData->body);
         $textTemplate = mb_convert_encoding($plainText, 'UTF-8', 'UTF-8');
 
         $body = [
