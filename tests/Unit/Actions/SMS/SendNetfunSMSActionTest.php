@@ -9,6 +9,10 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
 
+use function Safe\class_implements;
+use function Safe\class_uses;
+use function Safe\file_get_contents;
+
 describe('SendNetfunSMSAction', function () {
     // Test strutturali - la classe richiede config() nel costruttore
     it('has correct class definition', function () {
@@ -40,8 +44,9 @@ describe('SendNetfunSMSAction', function () {
         $reflection = new \ReflectionClass(SendNetfunSMSAction::class);
         $method = $reflection->getMethod('execute');
         $params = $method->getParameters();
+        $type = $params[0]->getType();
 
-        expect($params[0]->getType()?->getName())->toBe(SmsData::class);
+        expect($type instanceof \ReflectionNamedType ? $type->getName() : null)->toBe(SmsData::class);
     });
 
     it('execute returns array', function () {
@@ -49,7 +54,7 @@ describe('SendNetfunSMSAction', function () {
         $method = $reflection->getMethod('execute');
         $returnType = $method->getReturnType();
 
-        expect($returnType?->getName())->toBe('array');
+        expect($returnType instanceof \ReflectionNamedType ? $returnType->getName() : null)->toBe('array');
     });
 
     it('has required properties', function () {
@@ -67,7 +72,10 @@ describe('SendNetfunSMSAction', function () {
         $reflection = new \ReflectionClass(SendNetfunSMSAction::class);
         $filename = $reflection->getFileName();
 
-        expect($filename)->not->toBeNull();
+        expect($filename)->toBeString();
+        if (false === $filename) {
+            return;
+        }
         $content = file_get_contents($filename);
         expect($content)->toContain('');
     });
@@ -80,6 +88,11 @@ describe('SendNetfunSMSAction', function () {
 
     it('has required imports', function () {
         $filename = (new \ReflectionClass(SendNetfunSMSAction::class))->getFileName();
+
+        expect($filename)->toBeString();
+        if (false === $filename) {
+            return;
+        }
         $content = file_get_contents($filename);
 
         expect($content)->toContain('use GuzzleHttp\Client;');
