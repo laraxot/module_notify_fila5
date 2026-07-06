@@ -8,6 +8,9 @@ use Modules\Notify\Actions\NetfunSendAction;
 use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
 
+use function Safe\class_uses;
+use function Safe\file_get_contents;
+
 describe('NetfunSendAction', function () {
     // Test strutturali senza istanziazione - la classe richiede config() nel costruttore
     it('has correct class definition', function () {
@@ -34,7 +37,8 @@ describe('NetfunSendAction', function () {
         $method = $reflection->getMethod('execute');
         $params = $method->getParameters();
 
-        expect($params[0]->getType()?->getName())->toBe(SmsData::class);
+        $type = $params[0]->getType();
+        expect($type instanceof \ReflectionNamedType ? $type->getName() : null)->toBe(SmsData::class);
     });
 
     it('execute returns array', function () {
@@ -42,7 +46,7 @@ describe('NetfunSendAction', function () {
         $method = $reflection->getMethod('execute');
         $returnType = $method->getReturnType();
 
-        expect($returnType?->getName())->toBe('array');
+        expect($returnType instanceof \ReflectionNamedType ? $returnType->getName() : null)->toBe('array');
     });
 
     it('has token property', function () {
@@ -62,6 +66,7 @@ describe('NetfunSendAction', function () {
         $filename = $reflection->getFileName();
 
         expect($filename)->not->toBeNull();
+        assert(is_string($filename));
         $content = file_get_contents($filename);
         expect($content)->toContain('');
     });
@@ -74,6 +79,7 @@ describe('NetfunSendAction', function () {
 
     it('has required imports', function () {
         $filename = (new \ReflectionClass(NetfunSendAction::class))->getFileName();
+        assert(is_string($filename));
         $content = file_get_contents($filename);
 
         expect($content)->toContain('use GuzzleHttp\Client;');

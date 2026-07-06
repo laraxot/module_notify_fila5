@@ -7,6 +7,10 @@ namespace Modules\Notify\Tests\Unit\Actions\SMS;
 use Modules\Notify\Actions\SMS\SendTwilioSMSAction;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+use Spatie\QueueableAction\QueueableAction;
+
+use function Safe\class_uses;
+use function Safe\file_get_contents;
 
 describe('SendTwilioSMSAction', function () {
     it('can be referenced via ReflectionClass without instantiation', function () {
@@ -33,8 +37,9 @@ describe('SendTwilioSMSAction', function () {
         $reflection = new \ReflectionClass(SendTwilioSMSAction::class);
         $method = $reflection->getMethod('execute');
         $params = $method->getParameters();
+        $type = $params[0]->getType();
 
-        expect($params[0]->getType()?->getName())->toBe(SmsData::class);
+        expect($type instanceof \ReflectionNamedType ? $type->getName() : null)->toBe(SmsData::class);
     });
 
     it('execute returns array', function () {
@@ -42,14 +47,17 @@ describe('SendTwilioSMSAction', function () {
         $method = $reflection->getMethod('execute');
         $returnType = $method->getReturnType();
 
-        expect($returnType?->getName())->toBe('array');
+        expect($returnType instanceof \ReflectionNamedType ? $returnType->getName() : null)->toBe('array');
     });
 
     it('uses strict types', function () {
         $reflection = new \ReflectionClass(SendTwilioSMSAction::class);
         $filename = $reflection->getFileName();
 
-        expect($filename)->not->toBeNull();
+        expect($filename)->toBeString();
+        if (false === $filename) {
+            return;
+        }
         $content = file_get_contents($filename);
         expect($content)->toContain('');
     });
@@ -63,6 +71,11 @@ describe('SendTwilioSMSAction', function () {
     it('has required imports', function () {
         $reflection = new \ReflectionClass(SendTwilioSMSAction::class);
         $filename = $reflection->getFileName();
+
+        expect($filename)->toBeString();
+        if (false === $filename) {
+            return;
+        }
         $content = file_get_contents($filename);
 
         expect($content)->toContain('use Modules\Notify\Contracts\SMS\SmsActionContract;');
@@ -73,7 +86,7 @@ describe('SendTwilioSMSAction', function () {
     it('uses QueueableAction trait', function () {
         $traits = class_uses(SendTwilioSMSAction::class);
 
-        expect($traits)->toContain('Spatie\QueueableAction\QueueableAction');
+        expect($traits)->toContain(QueueableAction::class);
     });
 
     it('has protected debug property', function () {

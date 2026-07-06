@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Datas\SMS;
 
 use Modules\Notify\Datas\SMS\TwilioData;
+use Modules\Notify\Tests\TestCase;
+
+uses(TestCase::class);
 
 describe('TwilioData', function () {
     it('has default auth type', function () {
@@ -79,11 +82,20 @@ describe('TwilioData', function () {
         expect($headers['Authorization'])->toStartWith('Basic ');
     });
 
-    it('has from method (inherited from Spatie Data)', function () {
-        expect(method_exists(TwilioData::class, 'from'))->toBeTrue();
+    it('can be hydrated from an array via the inherited from method', function () {
+        $data = TwilioData::from([
+            'account_sid' => 'AC_from_test',
+            'auth_token' => 'token_from_test',
+        ]);
+
+        expect($data)->toBeInstanceOf(TwilioData::class)
+            ->and($data->account_sid)->toBe('AC_from_test')
+            ->and($data->auth_token)->toBe('token_from_test');
     });
 
-    it('has make static method', function () {
-        expect(method_exists(TwilioData::class, 'make'))->toBeTrue();
+    it('make static method returns a TwilioData instance built from config', function () {
+        $data = TwilioData::make();
+
+        expect($data)->toBeInstanceOf(TwilioData::class);
     });
 });
