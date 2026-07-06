@@ -204,7 +204,8 @@ $contact = ContactFactory::new()->createOne([
     });
 
     test('_can_update_contact', function (): void {
-$contact = ContactFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        $contact = ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -254,7 +255,8 @@ $contact = ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_contact_type', function (): void {
-ContactFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -285,7 +287,8 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_user_id', function (): void {
-ContactFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -356,7 +359,8 @@ $contact = ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_name_pattern', function (): void {
-ContactFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -411,7 +415,8 @@ $contact = ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_verification_status', function (): void {
-ContactFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -437,7 +442,8 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_sms_status', function (): void {
-ContactFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'phone',
@@ -467,7 +473,8 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_counters', function (): void {
-ContactFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -495,7 +502,8 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_attributes', function (): void {
-ContactFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -528,7 +536,8 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_multiple_criteria', function (): void {
-ContactFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -581,7 +590,8 @@ $contact = ContactFactory::new()->createOne([
     });
 
     test('_can_order_by_order_column', function (): void {
-ContactFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
