@@ -72,6 +72,7 @@ describe('MailTemplate Business Logic', function () {
     });
 
     test('mail template can be queried by mailable', function () {
+        /** @var \Modules\Notify\Tests\TestCase $this */
         $mailable = new class extends \Illuminate\Mail\Mailable
         {
             public function build(): static

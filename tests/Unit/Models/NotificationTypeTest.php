@@ -48,7 +48,8 @@ $notificationType = new NotificationType;
     });
 
     test('_can_update_notification_type', function (): void {
-$notificationType = NotificationTypeFactory::new()->createOne([
+/** @var \Modules\Notify\Tests\TestCase $this */
+        $notificationType = NotificationTypeFactory::new()->createOne([
             'name' => 'Original Name',
             'description' => 'Original description',
             'template' => 'original_template',
