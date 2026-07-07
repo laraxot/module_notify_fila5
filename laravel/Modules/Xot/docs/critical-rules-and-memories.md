@@ -8,7 +8,13 @@
 
 3. **Folio + Volt + Filament Architecture**: In the front office, NEVER use controllers or write routes in web.php/api.php. ALWAYS use Folio + Volt + Filament for all frontoffice development.
 
-4. **XotBase Extension Rule**: All custom components must extend XotBase classes (XotBaseResource, XotBasePage, XotBaseSection, etc.) instead of extending Filament classes directly.
+4. **Mixed (tipo di dato) - Solo come Ultima Spiaggia**: Il tipo `mixed` deve essere usato SOLO come ultima spiaggia. Preferire union types, generics, interfacce. Usare mixed solo quando non esiste alternativa (es. API esterne).
+
+5. **XotBase Extension Rule**: All custom components must extend XotBase classes (XotBaseResource, XotBasePage, XotBaseSection, etc.) instead of extending Filament classes directly.
+
+6. **View Pattern**: Per view() usare variabile `@phpstan-var view-string $viewName`, `$viewParams = []`, `return view($viewName, $viewParams)`. Vedi docs/view-pattern.md.
+
+7. **PHPMD e PHPInsights — SOLO .phar**: Non installare con Composer. Usare .phar: `php phpmd.phar`, `php phpinsights.phar`. Vedi docs/quality-tools-setup.md.
 
 ## Documentation Rules
 
