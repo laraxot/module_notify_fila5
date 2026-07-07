@@ -1,89 +1,69 @@
 {
-    "id": "tests.mappa-sito",
+    "id": "tests-mappa-sito",
     "title": {
-        "it": "Mappa Sito",
-        "en": "Mappa Sito"
+        "it": "Mappa del sito",
+        "en": "Site map"
     },
     "slug": "tests.mappa-sito",
+    "category": "Generali",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "navigation",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.navigation.breadcrumb",
+                    "view": "pub_theme::blocks.breadcrumb.default",
                     "items": [
-                        {
-                            "label": "Home",
-                            "url": "/it/tests/homepage"
-                        },
-                        {
-                            "label": "Test",
-                            "url": "/it/tests"
-                        }
-                    ],
-                    "currentPage": "Mappa Sito",
-                    "background": "white"
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Mappa del sito", "url": null}
+                    ]
                 }
             },
             {
                 "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.hero.hero",
-                    "subtitle": "Sito istituzionale",
-                    "title": "Mappa Sito",
-                    "description": "Pagina istituzionale convertita dal riferimento statico design-comuni.",
-                    "background": "white",
-                    "alignment": "left"
+                    "view": "pub_theme::blocks.hero.default",
+                    "title": "Mappa del sito",
+                    "subtitle": "Navigazione rapida",
+                    "content": "<p>Tutte le pagine del sito in un'unica vista</p>"
                 }
             },
             {
-                "type": "details",
+                "type": "links-grid",
                 "data": {
-                    "view": "pub_theme::components.blocks.details.details",
-                    "title": "Metadati pagina",
-                    "items": [
-                        {
-                            "label": "Slug CMS",
-                            "value": "tests.mappa-sito"
-                        },
-                        {
-                            "label": "Sorgente",
-                            "value": "https://italia.github.io/design-comuni-pagine-statiche/sito/mappa-sito.html"
-                        },
-                        {
-                            "label": "Sezione",
-                            "value": "sito"
-                        },
-                        {
-                            "label": "Stato",
-                            "value": "Generata per completare pagine vuote o invalide"
-                        }
+                    "view": "pub_theme::blocks.links.grid",
+                    "title": "Pagine principali",
+                    "links": [
+                        {"label": "Homepage", "url": "/it/tests/homepage", "description": "Pagina principale"},
+                        {"label": "Argomenti", "url": "/it/tests/argomenti", "description": "Elenco argomenti"},
+                        {"label": "Servizi", "url": "/it/tests/servizi", "description": "Servizi comunali"},
+                        {"label": "Novità", "url": "/it/tests/novita", "description": "Comunicati e avvisi"},
+                        {"label": "Amministrazione", "url": "/it/tests/amministrazione", "description": "Organi di governo"},
+                        {"label": "Eventi", "url": "/it/tests/eventi", "description": "Eventi e manifestazioni"}
                     ]
                 }
             },
             {
-                "type": "list",
+                "type": "links-grid",
                 "data": {
-                    "view": "pub_theme::components.blocks.list.list",
-                    "title": "Link utili di navigazione",
-                    "style": "icon",
-                    "items": [
-                        {
-                            "text": "Homepage",
-                            "url": "/it/tests/homepage",
-                            "icon": "heroicon-o-home"
-                        },
-                        {
-                            "text": "Indice test",
-                            "url": "/it/tests",
-                            "icon": "heroicon-o-squares-2x2"
-                        },
-                        {
-                            "text": "Servizi",
-                            "url": "/it/tests/servizi",
-                            "icon": "heroicon-o-wrench-screwdriver"
-                        }
+                    "view": "pub_theme::blocks.links.grid",
+                    "title": "Servizi",
+                    "links": [
+                        {"label": "Tutti i servizi", "url": "/it/tests/servizi", "description": "Elenco completo"},
+                        {"label": "Categoria servizio", "url": "/it/tests/servizi-categoria", "description": "Servizi per categoria"},
+                        {"label": "Dettaglio servizio", "url": "/it/tests/servizio-dettaglio", "description": "Scheda servizio"}
+                    ]
+                }
+            },
+            {
+                "type": "links-grid",
+                "data": {
+                    "view": "pub_theme::blocks.links.grid",
+                    "title": "Flussi",
+                    "links": [
+                        {"label": "Prenotazione appuntamento", "url": "/it/tests/appuntamento-01-ufficio", "description": "8 step"},
+                        {"label": "Richiesta assistenza", "url": "/it/tests/assistenza-01-dati", "description": "2 step"},
+                        {"label": "Segnalazione disservizio", "url": "/it/tests/segnalazione-01-privacy", "description": "6 step"}
                     ]
                 }
             }

@@ -1,0 +1,1 @@
+<x-pub_theme::components.blocks.navigation.breadcrumb :items="$items ?? []" :current-page="$currentPage ?? ($title ?? '')" :home-url="$homeUrl ?? '/'" :show-home="$showHome ?? true" :background="$background ?? 'light'" />

@@ -1,42 +1,55 @@
 {
-    "id": "tests.argomento",
+    "id": "tests-argomento",
     "title": {
         "it": "Argomento",
-        "en": "Argomento"
+        "en": "Topic"
     },
     "slug": "tests.argomento",
+    "category": "Generali",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "tests",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Argomento",
-                    "category": "Generali",
-                    "summary": "La pagina di presentazione dei contenuti di uno specifico argomento.",
-                    "slug": "tests.argomento"
+                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Argomenti", "url": "/it/tests/argomenti"},
+                        {"label": "Dettaglio argomento", "url": null}
+                    ]
                 }
             },
             {
-                "type": "tests",
+                "type": "hero",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "Il template verra separato in header argomento, descrizione, contenuti correlati e navigazione contestuale."
+                    "view": "pub_theme::blocks.hero.default",
+                    "title": "Dettaglio argomento",
+                    "subtitle": "Informazioni e servizi correlati",
+                    "content": "<p>Esplora tutti i servizi e le informazioni relative a questo argomento</p>"
                 }
             },
             {
-                "type": "tests",
+                "type": "cards-grid",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
+                    "view": "pub_theme::blocks.cards.grid",
+                    "title": "Servizi correlati",
+                    "cards": [
+                        {"title": "Servizio 1", "description": "Descrizione del servizio", "url": "/it/tests/servizio-dettaglio"},
+                        {"title": "Servizio 2", "description": "Descrizione del servizio", "url": "/it/tests/servizio-dettaglio"},
+                        {"title": "Servizio 3", "description": "Descrizione del servizio", "url": "/it/tests/servizio-dettaglio"}
+                    ]
                 }
             },
             {
-                "type": "tests",
+                "type": "links-list",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomento.html"
+                    "view": "pub_theme::blocks.links.list",
+                    "title": "Documenti utili",
+                    "links": [
+                        {"label": "Documento 1", "url": "#", "description": "Descrizione documento"},
+                        {"label": "Documento 2", "url": "#", "description": "Descrizione documento"}
+                    ]
                 }
             }
         ],
