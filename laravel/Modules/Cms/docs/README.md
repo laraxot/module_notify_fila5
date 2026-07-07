@@ -18,6 +18,10 @@ Modules/Cms/
 └── resources/views/components/
 ```
 
+## 🧭 Current Analysis
+- [Design Comuni Page Census](./design-comuni-page-census.md)
+- [Layout Runtime Contract](./layout-runtime-contract.md)
+
 ## 🔗 Collegamenti Documentazione
 
 ### Documentazione Interna
