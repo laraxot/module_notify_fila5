@@ -45,7 +45,7 @@
 
 ## XotBaseListRecords
 - Rimuovere `Actions()` se restituisce solo `createAction`
-- `getListTableColumns()` deve restituire array associativo con chiavi stringhe
+- `getTableColumns()` deve restituire array associativo con chiavi stringhe
 
 ## Esempio
 ```php

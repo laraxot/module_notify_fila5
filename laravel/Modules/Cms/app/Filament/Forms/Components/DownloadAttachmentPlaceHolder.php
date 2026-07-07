@@ -4,12 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Cms\Filament\Forms\Components;
 
-use Filament\Forms\Components\Placeholder;
 use Illuminate\Support\HtmlString;
 use Modules\Cms\Models\Attachment;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Modules\Xot\Filament\Forms\Components\XotBasePlaceholder;
 use Webmozart\Assert\Assert;
 
-class DownloadAttachmentPlaceHolder extends Placeholder
+class DownloadAttachmentPlaceHolder extends XotBasePlaceholder
 {
     protected function setUp(): void
     {
@@ -22,19 +23,21 @@ class DownloadAttachmentPlaceHolder extends Placeholder
         $name = $this->getName();
         $attachment = Attachment::firstWhere('slug', $name);
         Assert::isInstanceOf($attachment, Attachment::class);
-        $data = [
-            'title' => $attachment->title,
-            'description' => $attachment->description,
-            'asset' => $attachment->asset(),
-        ];
 
-        /** @var view-string $view */
-        $view = 'pub_theme::filament.forms.components.download-attachment-place-holder';
-        if (! view()->exists($view)) {
-            throw new \Exception('View '.$view.' not found');
-        }
-        $out = view($view, $data);
+        $title = SafeStringCastAction::cast($attachment->title);
+        $description = SafeStringCastAction::cast($attachment->description);
+        /* @phpstan-ignore-next-line method.notFound */
+        $asset = SafeStringCastAction::cast($attachment->asset());
 
-        return new HtmlString($out->render());
+        $html = sprintf(
+            '<a href="%s" class="underline" target="_blank" rel="noopener noreferrer">%s</a>%s',
+            htmlspecialchars($asset, ENT_QUOTES, 'UTF-8'),
+            htmlspecialchars($title, ENT_QUOTES, 'UTF-8'),
+            '' !== $description
+                ? '<div class="text-sm text-gray-600">'.htmlspecialchars($description, ENT_QUOTES, 'UTF-8').'</div>'
+                : ''
+        );
+
+        return new HtmlString($html);
     }
 }

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Dummy;
 
 use Exception;
+use Illuminate\Http\Client\Response;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Http;
 use Spatie\QueueableAction\QueueableAction;
@@ -22,12 +23,16 @@ class GetProductsArrayDummyAction
     public function execute(): array
     {
         // API
-        Assert::isArray($products = Http::get('https://dummyjson.com/products')->json());
+        $response = Http::get('https://dummyjson.com/products');
+
+        /** @var Response $response */
+        Assert::isArray($products = $response->json());
         Assert::isArray($products['products']);
+
         // filtering some attributes
-        $products = Arr::map($products['products'], function ($item) {
+        return Arr::map($products['products'], function ($item) {
             // Verifichiamo che $item sia un array prima di usare Arr::only
-            if (!is_array($item)) {
+            if (! is_array($item)) {
                 return []; // Restituiamo un array vuoto se $item non è un array
             }
 
@@ -42,7 +47,5 @@ class GetProductsArrayDummyAction
                 'thumbnail',
             ]);
         });
-
-        return $products;
     }
 }

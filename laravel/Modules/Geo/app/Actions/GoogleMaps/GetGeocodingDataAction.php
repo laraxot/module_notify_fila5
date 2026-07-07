@@ -11,8 +11,6 @@ use Modules\Geo\Datas\GeocodingData;
 
 use function Safe\json_decode;
 
-use Webmozart\Assert\Assert;
-
 /**
  * Action per ottenere i dati di geocodifica da Google Maps.
  */
@@ -57,9 +55,15 @@ readonly class GetGeocodingDataAction
     {
         // $apiKey = config('services.google_maps.api_key');
         $apiKey = config('services.google.maps_api_key');
-        Assert::notEmpty($apiKey, 'Chiave API Google Maps non configurata!');
-        Assert::notEmpty($address, 'Indirizzo non può essere vuoto');
-        Assert::maxLength($address, 1000, 'Indirizzo troppo lungo');
+        if (empty($apiKey)) {
+            throw new \RuntimeException('Chiave API Google Maps non configurata!');
+        }
+        if (empty($address)) {
+            throw new \RuntimeException('Indirizzo non può essere vuoto');
+        }
+        if (strlen($address) > 1000) {
+            throw new \RuntimeException('Indirizzo troppo lungo');
+        }
     }
 
     /**

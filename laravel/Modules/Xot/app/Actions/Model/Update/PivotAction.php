@@ -5,10 +5,8 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model\Update;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\Pivot;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
 
 class PivotAction
 {
@@ -19,7 +17,8 @@ class PivotAction
      */
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
-        Assert::isInstanceOf($rows = $relationDTO->rows, Pivot::class);
+        $rows = $relationDTO->rows;
+        // $rows is already typed as Relation in RelationDTO
         dddx('wip');
 
         /*

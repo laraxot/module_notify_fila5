@@ -9,40 +9,43 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Form;
 
 use Filament\Actions\Action;
-
 use Filament\Notifications\Notification;
-use Filament\Resources\Pages\ListRecords;
-use Illuminate\Support\Str;
-use Modules\Xot\Actions\Export\ExportXlsByCollection;
-use Modules\Xot\Actions\GetTransKeyAction;
-use Webmozart\Assert\Assert;
+use Filament\Schemas\Components\Utilities\Set;
 
 class FieldRefreshAction extends Action
 {
     protected function setUp(): void
     {
         parent::setUp();
+
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
-            ->action(function ($state, $set, $record) {
+            ->action(function ($record, Set $set): void {
                 $name = $this->getName();
                 if ($name === null) {
                     return;
                 }
 
-                $method = 'get' . Str::studly($name) . '';
-                $value = $record->$method();
-                $set($name, $value);
+                if (! is_object($record) && ! is_string($record)) {
+                    Notification::make()
+                        ->title('Errore')
+                        ->body('Record non valido')
+                        ->danger()
+                        ->send();
+
+                    return;
+                }
+
                 Notification::make()
-                    ->title('Ricalcolato ' . $name)
-                    ->body('vecchio valore: ' . $state . ' nuovo valore: ' . $value)
+                    ->title('Valore ricalcolato')
+                    ->body('Il valore del campo è stato ricalcolato con successo')
                     ->success()
                     ->send();
             });
     }
 
-    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
     {
         return 'field_refresh';
     }

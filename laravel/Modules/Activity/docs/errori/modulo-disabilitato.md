@@ -27,7 +27,7 @@ GET /[modulo]/admin/[resource]/{record}/activities
 
 ```bash
 # Verificare stato modulo
-cd /var/www/html/ptvx/laravel
+cd laravel
 php artisan module:list | grep Activity
 
 # Output se disabilitato:
@@ -69,7 +69,7 @@ Il modulo Activity può essere disabilitato per diversi motivi:
 ### 1. Abilitare il Modulo
 
 ```bash
-cd /var/www/html/ptvx/laravel
+cd laravel
 php artisan module:enable Activity
 ```
 
@@ -136,7 +136,7 @@ php artisan module:list | grep Activity
 ```bash
 php artisan tinker
 >> app('view')->getFinder()->getHints()['activity']
-# Output: ["/var/www/html/ptvx/laravel/Modules/Activity/resources/views"]
+# Output: ["Modules/Activity/resources/views"]
 ```
 
 ### Test 3: Pagina Accessibile
@@ -201,10 +201,10 @@ Aggiungere test che verificano lo stato dei moduli:
 
 test('required modules are enabled', function () {
     $modules = ['Xot', 'User', 'Activity'];
-    
+
     foreach ($modules as $moduleName) {
         $module = Module::find($moduleName);
-        
+
         expect($module)
             ->not->toBeNull()
             ->and($module->isEnabled())
@@ -214,7 +214,7 @@ test('required modules are enabled', function () {
 
 test('activity view namespace is registered', function () {
     $hints = app('view')->getFinder()->getHints();
-    
+
     expect($hints)
         ->toHaveKey('activity')
         ->and($hints['activity'][0])
@@ -240,7 +240,7 @@ php artisan view:cache
 Assicurarsi che il container abbia i permessi corretti:
 ```dockerfile
 # Dockerfile
-RUN chown -R www-data:www-data /var/www/html/ptvx/laravel/Modules
+RUN chown -R www-data:www-data Modules
 ```
 
 ### Multi-Ambiente
@@ -263,13 +263,13 @@ Se `module:enable Activity` non funziona:
 
 1. **Verificare permessi file**:
    ```bash
-   ls -la /var/www/html/ptvx/laravel/Modules/Activity/module.json
-   chmod 644 /var/www/html/ptvx/laravel/Modules/Activity/module.json
+   ls -la Modules/Activity/module.json
+   chmod 644 Modules/Activity/module.json
    ```
 
 2. **Verificare module.json sintassi**:
    ```bash
-   cat /var/www/html/ptvx/laravel/Modules/Activity/module.json | json_pp
+   cat Modules/Activity/module.json | json_pp
    ```
 
 3. **Verificare cache moduli**:
@@ -304,7 +304,7 @@ Se `module:enable Activity` non funziona:
    ```bash
    # Se usando php-fpm
    sudo systemctl restart php8.3-fpm
-   
+
    # Se usando octane
    php artisan octane:reload
    ```
@@ -322,9 +322,7 @@ Se `module:enable Activity` non funziona:
 
 ---
 
-**Ultimo aggiornamento**: 27 Ottobre 2025  
-**Caso Reale**: personale2022.prov.tv.local  
-**Soluzione Verificata**: ✅ Testata e funzionante  
+**Ultimo aggiornamento**: 27 Ottobre 2025
+**Caso Reale**: personale2022.prov.tv.local
+**Soluzione Verificata**: ✅ Testata e funzionante
 **Severità**: Critica (blocca completamente feature Activity Log)
-
-

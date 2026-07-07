@@ -9,7 +9,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -19,7 +18,7 @@ class UpdateAction
     use QueueableAction;
 
     /**
-     * @param array<string, mixed> $data
+     * @param  array<string, mixed>  $data
      */
     public function execute(Model $model, array $data, array $rules): Model
     {
@@ -28,7 +27,7 @@ class UpdateAction
 
         $keyName = $model->getKeyName();
         // $data['updated_by'] = authId();
-        if (null === $model->getKey()) {
+        if ($model->getKey() === null) {
             $key = $data[$keyName];
             /** @var array<string, mixed> $data */
             $data = collect($data)->except($keyName)->toArray();
@@ -43,11 +42,10 @@ class UpdateAction
 
         /**
          * @phpstan-ignore method.notFound (.)
-         *
          */
         $model = tap($model)->update($data);
 
-        app(__NAMESPACE__ . '\\Update\RelationAction')->execute($model, $data);
+        app(__NAMESPACE__.'\\Update\RelationAction')->execute($model, $data);
 
         // $msg = 'aggiornato! ['.$model->getKey().']!';
 

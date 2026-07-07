@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
-use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
 use Illuminate\Support\Facades\Blade;
@@ -69,13 +68,15 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             throw new Exception('name is empty on ['.static::class.']');
         }
 
-        $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory) {
-            $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
-            $svgPath = $assetsPath.'/../svg';
+        $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory): void {
             try {
-                $factory->add($this->nameLower, ['path' => $svgPath, 'prefix' => $this->nameLower]);
+                $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
+                $svgPath = $assetsPath.'/../svg';
+                if (File::exists($svgPath)) {
+                    $factory->add($this->nameLower, ['path' => $svgPath, 'prefix' => $this->nameLower]);
+                }
             } catch (Throwable $e) {
-                // Ignore missing SVG path
+                // Ignore - assets opzionali, modulo può funzionare senza
             }
         });
 
@@ -123,18 +124,6 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     }
 
     /**
-     * Restituisce il path della cartella lang del modulo, con fallback robusto.
-     */
-    protected function getLangPath(): string
-    {
-        try {
-            return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'lang');
-        } catch (Throwable $e) {
-            return base_path('Modules/'.$this->name.'/lang');
-        }
-    }
-
-    /**
      * Registra le traduzioni del modulo.
      *
      * @throws Exception
@@ -160,34 +149,12 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         }
     }
 
-    /**
-     * Register config.
-     */
-    protected function registerConfig(): void
-    {
-        try {
-            $configPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'config');
-
-            $files = File::glob($configPath.'/*.php');
-
-            foreach ($files as $file) {
-                $content = File::getRequire($file);
-                $info = pathinfo($file);
-                $key = $this->nameLower.'::'.$info['filename'];
-                Config::set($key, $content);
-            }
-        } catch (Exception $e) {
-            // Ignore missing configuration
-            return;
-        }
-    }
-
     public function registerBladeComponents(): void
     {
         $componentViewPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
         try {
             Blade::anonymousComponentPath($componentViewPath);
-        } catch (Exception|CannotRegisterIconSet $e) {
+        } catch (Exception $e) {
             // Ignore missing component view path
             dddx([
                 'name' => $this->name,
@@ -232,7 +199,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $commands = array_map(static function (mixed $item): string {
             Assert::isArray($item);
             Assert::keyExists($item, 'ns');
-            Assert::string($item['ns'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+            Assert::string($item['ns'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
             return $item['ns'];
         }, $commands);
@@ -247,5 +214,42 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     public function provides(): array
     {
         return [];
+    }
+
+    /**
+     * Restituisce il path della cartella lang del modulo, con fallback robusto.
+     */
+    protected function getLangPath(): string
+    {
+        try {
+            return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'lang');
+        } catch (Throwable $e) {
+            return base_path('Modules/'.$this->name.'/lang');
+        }
+    }
+
+    /**
+     * Register config.
+     */
+    protected function registerConfig(): void
+    {
+        try {
+            $configPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'config');
+
+            $files = File::glob($configPath.'/*.php');
+
+            foreach ($files as $file) {
+                if (! is_string($file)) {
+                    continue;
+                }
+                $content = File::getRequire($file);
+                $info = pathinfo($file);
+                $key = $this->nameLower.'::'.$info['filename'];
+                Config::set($key, $content);
+            }
+        } catch (Exception $e) {
+            // Ignore missing configuration
+            return;
+        }
     }
 }

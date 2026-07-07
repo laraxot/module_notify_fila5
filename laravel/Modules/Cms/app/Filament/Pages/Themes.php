@@ -9,24 +9,21 @@ declare(strict_types=1);
 namespace Modules\Cms\Filament\Pages;
 
 use Filament\Notifications\Notification;
-use Filament\Pages\Page;
 use Illuminate\Support\Facades\File;
 use Modules\Cms\Datas\ThemeData;
 use Modules\Tenant\Services\TenantService;
+use Modules\Xot\Filament\Pages\XotBasePage;
 
 use function Safe\json_decode;
 
 use Webmozart\Assert\Assert;
 
-class Themes extends Page
+class Themes extends XotBasePage
 {
-    public array $data = [];
-
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paint-brush';
+    /** @var array<int, array<string, mixed>> */
+    public array $themes = [];
 
     protected string $view = 'cms::filament.pages.themes';
-
-    protected static string|\UnitEnum|null $navigationGroup = 'Settings';
 
     public function changePubTheme(string $name): void
     {
@@ -39,15 +36,8 @@ class Themes extends Page
             ->send();
     }
 
-    /*
-     * public static function getNavigationGroup(): ?string
-     * {
-     * return config('filament-themes.group') ?? static::$navigationGroup;
-     * }
-     */
-
     /**
-     * @return array<array>
+     * @return array<string, mixed>
      */
     protected function getViewData(): array
     {
@@ -72,7 +62,7 @@ class Themes extends Page
                 ];
             }
         }
-        $this->data = $data;
+        $this->themes = $data;
 
         return ['data' => $data];
     }

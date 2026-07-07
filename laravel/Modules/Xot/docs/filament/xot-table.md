@@ -89,10 +89,10 @@ public function getTableActions(): array
 public function __construct()
 {
     parent::__construct();
-    
+
     // Disabilita la replica dei record
     static::$canReplicate = false;
-    
+
     // Disabilita la visualizzazione dei record
     static::$canView = false;
 }
@@ -109,7 +109,7 @@ public function __construct()
 protected function setUp(): void
 {
     parent::setUp();
-    
+
     // Imposta il layout a griglia
     $this->layoutView = TableLayoutEnum::GRID;
 }
@@ -137,7 +137,15 @@ return [
 ## Best Practices per l'Utilizzo
 
 1. **Non Sovrascrivere il Metodo table()**:
-   Il metodo `table()` nel trait `HasXotTable` contiene logica importante. Utilizzare invece `getTableColumns()`, `getTableActions()`, ecc.
+   Il metodo `table()` nel trait `HasXotTable` è `final` e contiene logica importante. Utilizzare invece `getTableColumns()`, `getTableActions()`, ecc.
+   
+   Per personalizzazioni (defaultSort, paginated array, poll), usare i metodi dedicati:
+   - `getDefaultTableSortColumn()` e `getDefaultTableSortDirection()`
+   - `getTablePaginated()` (può restituire `bool` o `array<int>`)
+   - `getTablePollInterval()` (restituisce `?string` come '30s')
+
+2. **Visibilità Metodi getTable*()**:
+   Tutti i metodi `getTableHeading()`, `getTableHeaderActions()`, `getTableActions()`, `getTableBulkActions()`, `getTableFilters()`, `getTableSearch()` **DEVONO** essere `public`, non `protected`.
 
 2. **Utilizzare Traduzioni per Tutte le Label**:
    ```php
@@ -193,9 +201,9 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 class DatiRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'dati';
-    
+
     protected static ?string $recordTitleAttribute = 'nome';
-    
+
     /**
      * Definisce le colonne della tabella.
      *
@@ -213,7 +221,7 @@ class DatiRelationManager extends XotBaseRelationManager
                 ->dateTime(),
         ];
     }
-    
+
     /**
      * Definisce lo schema del form.
      *

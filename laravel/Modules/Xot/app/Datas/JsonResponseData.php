@@ -16,7 +16,7 @@ class JsonResponseData extends Data
 
     public string $message;
 
-    public null|int $code = null;
+    public ?int $code = null;
 
     public array $data = [];
 

@@ -1,7 +1,7 @@
 # PHPStan Tests Corrections - Activity Module
 
-**Data**: 2025-10-10  
-**Livello PHPStan**: max  
+**Data**: 2025-10-10
+**Livello PHPStan**: max
 **Errori Totali**: 353
 
 ## Pattern di Errori Identificati
@@ -75,6 +75,12 @@ Activity::forBatch((string) $uuid)->get();
 
 **File da Correggere**:
 - ❌ `Unit/Models/BaseModelTest.php`
+
+### 6. StoredEvent casts + SchemalessAttributes (Alta Priorità)
+**Problema**:
+- `StoredEvent::$connection` è `activity` (non `testing`): le `assertDatabaseHas()` devono puntare alla connessione corretta.
+- `StoredEvent->meta_data` è un oggetto `SchemalessAttributes` (non un array puro): in test verificare con `->toArray()`.
+- `StoredEvent->event_properties` è castato ad `array`: evitare `json_encode()` e passare direttamente array.
 
 ## File Analizzati
 

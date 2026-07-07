@@ -6,7 +6,6 @@ namespace Modules\Xot\Actions\Model;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -15,9 +14,13 @@ class StoreAction
 {
     use QueueableAction;
 
+    /**
+     * @param  array<string, mixed>  $data
+     * @param  array<string, mixed>  $rules
+     */
     public function execute(Model $model, array $data, array $rules): Model
     {
-        if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+        if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
@@ -41,14 +44,14 @@ class StoreAction
 
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
-            $relationClass = get_class($relation);
+            $relationClass = $relation::class;
             $relationshipType = class_basename($relationClass);
 
-            $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
+            $action_class = __NAMESPACE__.'\\Store\\'.$relationshipType.'Action';
             $action = app($action_class);
             Assert::object($action);
-            if (!method_exists($action, 'execute')) {
-                throw new Exception('method [execute] not found in [' . $action_class . ']');
+            if (! method_exists($action, 'execute')) {
+                throw new Exception('method [execute] not found in ['.$action_class.']');
             }
             $action->execute($model, $relation);
         }

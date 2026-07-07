@@ -72,6 +72,7 @@ Questo indice fornisce una mappa completa della documentazione del modulo Lang, 
 - **Migrazione**: [BEST_PRACTICES.md](BEST_PRACTICES.md#migrazione-versioni)
 - **Rollback**: [BEST_PRACTICES.md](BEST_PRACTICES.md#rollback-e-recovery)
 - **Backup**: [TROUBLESHOOTING.md](TROUBLESHOOTING.md#emergenze-e-rollback)
+- **Repository Composer Path**: [bugfix/composer-path-repository-priority.md](bugfix/composer-path-repository-priority.md)
 
 ---
 
@@ -268,7 +269,7 @@ php artisan lang:debug [--log-missing] [--log-performance]
 
 ---
 
-**Ultimo aggiornamento**: Gennaio 2025  
-**Versione**: 2.0.0  
-**Autore**: Team Laraxot  
+**Ultimo aggiornamento**: Gennaio 2025
+**Versione**: 2.0.0
+**Autore**: Team Laraxot
 **Mantenuto da**: Community Laraxot

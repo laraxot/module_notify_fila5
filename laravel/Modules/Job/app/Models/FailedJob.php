@@ -8,9 +8,9 @@ declare(strict_types=1);
 
 namespace Modules\Job\Models;
 
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Job\Database\Factories\FailedJobFactory;
 use Illuminate\Database\Eloquent\Builder;
+use Modules\Job\Database\Factories\FailedJobFactory;
+use Modules\Xot\Contracts\ProfileContract;
 use Override;
 
 /**
@@ -37,6 +37,8 @@ use Override;
  * @method static Builder<static>|FailedJob wherePayload($value)
  * @method static Builder<static>|FailedJob whereQueue($value)
  * @method static Builder<static>|FailedJob whereUuid($value)
+ *
+ * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

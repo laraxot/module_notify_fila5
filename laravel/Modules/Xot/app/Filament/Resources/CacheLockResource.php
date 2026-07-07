@@ -4,19 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
-use Override;
-use Modules\Xot\Filament\Resources\CacheLockResource\Pages\ListCacheLocks;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\CreateCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\EditCacheLock;
-use Filament\Forms\Components\TextInput;
-use Modules\Xot\Filament\Resources\CacheLockResource\Pages;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Filament\Resources\CacheLockResource\Pages\ListCacheLocks;
 use Modules\Xot\Models\CacheLock;
+use Override;
 
 class CacheLockResource extends XotBaseResource
 {
-    protected static null|string $model = CacheLock::class;
+    protected static ?string $model = CacheLock::class;
 
     /**
      * Get the form schema for the resource.

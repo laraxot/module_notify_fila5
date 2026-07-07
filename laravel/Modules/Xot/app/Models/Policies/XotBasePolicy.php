@@ -17,14 +17,12 @@ abstract class XotBasePolicy
 {
     use HandlesAuthorization;
 
-    public function before(UserContract $user, string $_ability): null|bool
+    public function before(UserContract $user, string $_ability): ?bool
     {
         return once(function () use ($user) {
             if ($user->hasRole('super-admin')) {
                 return true;
             }
-
-            return null;
         });
     }
 

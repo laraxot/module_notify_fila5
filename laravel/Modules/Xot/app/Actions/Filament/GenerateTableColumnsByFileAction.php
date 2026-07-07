@@ -9,7 +9,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Filament;
 
 // use Filament\Forms\Commands\Concerns\CanGenerateForms; // Non disponibile in Filament v4
-use Filament\Resources\Resource;
 use Filament\Support\Commands\Concerns\CanReadModelSchemas;
 // use Filament\Tables\Commands\Concerns\CanGenerateTables; // Non disponibile in Filament v4
 use Illuminate\Database\Eloquent\Model;
@@ -54,7 +53,7 @@ class GenerateTableColumnsByFileAction
         // Verifichiamo che la classe esista
         Assert::classExists($class_name);
 
-        /** @var resource $resourceInstance */
+        /** @var object $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista
@@ -116,6 +115,8 @@ class GenerateTableColumnsByFileAction
      */
     public function ddFile(File $file): void
     {
+        // Debug information - commented out for production
+        /*
         dd([
             'getRelativePath' => $file->getRelativePath(), // =  ""
             'getRelativePathname' => $file->getRelativePathname(), //  AssenzeResource.php
@@ -132,5 +133,6 @@ class GenerateTableColumnsByFileAction
             // 'getPathInfo' => $file->getPathInfo(),
             'methods' => get_class_methods($file),
         ]);
+        */
     }
 }

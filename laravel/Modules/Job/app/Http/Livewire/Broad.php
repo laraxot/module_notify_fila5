@@ -34,7 +34,7 @@ class Broad extends Component
     public function notifyEvent(): void
     {
         session()->flash('message', 'notifyEvent ['.now().']');
-        \Illuminate\Support\Facades\Log::debug('fine');
+        dd('fine');
 
         // $this->showNewOrderNotification = true;
     }

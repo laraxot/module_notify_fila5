@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+uses(\Modules\Job\Tests\TestCase::class);
+
 use Modules\Job\Actions\GetTaskFrequenciesAction;
 
 describe('GetTaskFrequenciesAction Integration', function () {
@@ -181,17 +183,17 @@ describe('GetTaskFrequenciesAction Integration', function () {
             ->toBeArray()
             ->and(count($result))
             ->toBe(10)
-            ->and($result['everyMinute'])
+            ->and(isset($result['everyMinute']) ? $result['everyMinute'] : null)
             ->toBe('Every Minute')
-            ->and($result['hourly'])
+            ->and(isset($result['hourly']) ? $result['hourly'] : null)
             ->toBe('Hourly')
-            ->and($result['daily'])
+            ->and(isset($result['daily']) ? $result['daily'] : null)
             ->toBe('Daily')
-            ->and($result['weekly'])
+            ->and(isset($result['weekly']) ? $result['weekly'] : null)
             ->toBe('Weekly')
-            ->and($result['monthly'])
+            ->and(isset($result['monthly']) ? $result['monthly'] : null)
             ->toBe('Monthly')
-            ->and($result['yearly'])
+            ->and(isset($result['yearly']) ? $result['yearly'] : null)
             ->toBe('Yearly');
     });
 });

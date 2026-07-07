@@ -2,7 +2,7 @@
 
 ## La Dualità degli Identificatori nel Sistema
 
-Nel sistema <nome progetto>, esiste una dualità fondamentale nei tipi di identificatori primari utilizzati dai diversi modelli:
+Nel sistema <main module>, esiste una dualità fondamentale nei tipi di identificatori primari utilizzati dai diversi modelli:
 
 1. **UUID** - Utilizzati principalmente per entità legate all'utente (User, Profile, ecc.)
 2. **Interi auto-incrementanti** - Utilizzati per la maggior parte delle altre entità
@@ -80,7 +80,7 @@ Nel codice, supportiamo entrambi i pattern di accesso:
 
 ```php
 // Accesso standard
-$address->model; 
+$address->model;
 
 // Accesso semantico (implementato come alias)
 $address->addressable();

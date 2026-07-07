@@ -4,22 +4,20 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Override;
-use Modules\Xot\Database\Factories\ExtraFactory;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ExtraContract;
+use Modules\Xot\Database\Factories\ExtraFactory;
+use Override;
 use Spatie\SchemalessAttributes\Casts\SchemalessAttributes;
 use Spatie\SchemalessAttributes\SchemalessAttributesTrait;
-use Webmozart\Assert\Assert;
 
 /**
  * Model Extra.
  *
- * @property int                                               $id
- * @property int|null                                          $model_id
- * @property string|null                                       $model_type
+ * @property int $id
+ * @property int|null $model_id
+ * @property string|null $model_type
  * @property \Spatie\SchemalessAttributes\SchemalessAttributes $extra_attributes
  *
  * @method static Builder|BaseModel disableCache()
@@ -32,10 +30,10 @@ use Webmozart\Assert\Assert;
  *
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
- * @property string|null                     $updated_by
- * @property string|null                     $created_by
+ * @property string|null $updated_by
+ * @property string|null $created_by
  * @property Carbon|null $deleted_at
- * @property string|null                     $deleted_by
+ * @property string|null $deleted_by
  *
  * @method static Builder|Extra whereCreatedAt($value)
  * @method static Builder|Extra whereCreatedBy($value)
@@ -64,12 +62,8 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
         'extra_attributes',
     ];
 
-    public function scopeWithExtraAttributes(): Builder
-    {
-        Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
-
-        return $this->extra_attributes->modelScope();
-    }
+    // ✅ CORRETTO: NON implementare scopeWithExtraAttributes() manualmente
+    // Il trait SchemalessAttributesTrait lo fornisce automaticamente!
 
     /**
      * Get the attributes that should be cast.

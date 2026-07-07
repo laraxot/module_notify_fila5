@@ -18,8 +18,9 @@ class PdfByHtmlAction
         string $filename = 'my_doc.pdf',
         string $disk = 'cache',
         string $out = 'download',
+        string $orientation = 'L',
     ): string|BinaryFileResponse {
-        $html2pdf = new Html2Pdf('L', 'A4', 'it');
+        $html2pdf = new Html2Pdf($orientation, 'A4', 'it');
         $html2pdf->setTestTdInOnePage(false);
         $html2pdf->writeHTML($html);
         $path = Storage::disk($disk)->path($filename);

@@ -1,8 +1,8 @@
 # Sistema di Traduzioni
 
 ## Collegamenti Bidirezionali
-- [Modulo <nome modulo> - Regole Consolidate Traduzioni](../../<nome modulo>/docs/translation-rules-consolidated.md)
-- [Modulo <nome modulo> - Implementazione Appointment Report](../../<nome modulo>/docs/appointment_report_translations_implementation.md)
+- [Modulo <nome progetto> - Regole Consolidate Traduzioni](../../<nome progetto>/docs/translation-rules-consolidated.md)
+- [Modulo <nome progetto> - Implementazione Appointment Report](../../<nome progetto>/docs/appointment_report_translations_implementation.md)
 - [Modulo User - Translation Best Practices](../../User/docs/translation_best_practices.md)
 
 ## Panoramica
@@ -150,7 +150,7 @@ return [
 
 ## Esempi di Implementazione Corretta
 
-### Modulo <nome modulo> - Appointment Report
+### Modulo <nome progetto> - Appointment Report
 ```php
 <?php
 
@@ -183,12 +183,12 @@ return [
    - Aggiornare tutte le lingue supportate
    - Usare sempre sintassi array breve `[]`
    - Includere sempre `declare(strict_types=1);`
-   
+
 2. **Revisione**
    - Verificare che tutte le chiavi siano tradotte
    - Controllare la formattazione
    - Validare helper_text rules
-   
+
 3. **Manutenzione**
    - Rimuovere le chiavi non più utilizzate
    - Aggiornare la documentazione quando si aggiungono nuove chiavi
@@ -198,4 +198,4 @@ return [
 
 *Ultimo aggiornamento: Gennaio 2025*
 *Versione: 2.0*
-*Compatibilità: Laravel 12.x, Filament 4.x* 
+*Compatibilità: Laravel 12.x, Filament 4.x*

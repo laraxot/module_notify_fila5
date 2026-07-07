@@ -15,18 +15,18 @@ final class InfoBlock extends XotBaseBlock
     public static function getBlockSchema(): array
     {
         return [
-            TextInput::make('title')->required()->label(__('cms::blocks.info.fields.title')),
-            RichEditor::make('description')->required()->label(__('cms::blocks.info.fields.description')),
+            TextInput::make('title')->required()->label(\trans_string('cms::blocks.info.fields.title')),
+            RichEditor::make('description')->required()->label(\trans_string('cms::blocks.info.fields.description')),
             FileUpload::make('logo')
                 ->image()
                 ->required()
-                ->label(__('cms::blocks.info.fields.logo')),
-            TextInput::make('copyright')->required()->label(__('cms::blocks.info.fields.copyright')),
+                ->label(\trans_string('cms::blocks.info.fields.logo')),
+            TextInput::make('copyright')->required()->label(\trans_string('cms::blocks.info.fields.copyright')),
         ];
     }
 
     public static function getBlockLabel(): string
     {
-        return __('cms::blocks.info.label');
+        return \trans_string('cms::blocks.info.label') ?? 'Info';
     }
 }

@@ -4,16 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Filament\Schemas\Schema;
-use Filament\Schemas\Components\Component;
-use Filament\Actions\Contracts\HasActions;
 use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Forms;
+use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
 use Filament\Widgets\Widget;
 use Illuminate\Support\Arr;
 use Modules\Xot\Datas\EnvData;
@@ -21,13 +20,13 @@ use Modules\Xot\Datas\EnvData;
 /**
  * @property Schema $form
  */
-class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasActions, HasForms
 {
     use InteractsWithActions;
     use InteractsWithForms;
 
     /** @var array<string, mixed>|null */
-    public null|array $data = [];
+    public ?array $data = [];
 
     public array $only = [];
 
@@ -42,14 +41,14 @@ class EnvWidget extends Widget implements HasForms, HasActions
         $this->form->fill($this->data);
     }
 
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
     }
 
     public function submit(): void
     {
-        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
             return;
         }
         EnvData::make()->update($this->data);
@@ -90,8 +89,6 @@ class EnvWidget extends Widget implements HasForms, HasActions
         /**
          * @var array<Component>
          */
-        $fields = Arr::only($all, $this->only);
-
-        return $fields;
+        return Arr::only($all, $this->only);
     }
 }

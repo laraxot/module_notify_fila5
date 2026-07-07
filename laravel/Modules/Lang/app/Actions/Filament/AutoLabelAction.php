@@ -98,53 +98,7 @@ class AutoLabelAction
             $label_tkey = $trans_key.'.actions.'.$val.'';
         }
 
-        /*
-         * $component_parent=get_parent_class($component);
-         * if(in_array($component_parent,['Filament\Forms\Components\Component'])){
-         * $component_key=Str::of(class_basename($component))->plural()->snake()->toString();
-         * }else{
-         * $component_key=Str::of(class_basename($component_parent))->plural()->snake()->toString();
-         * }
-         *
-         *
-         * $val=null;
-         * if(method_exists($component,'getLabel')){
-         * $val=$component->getLabel();
-         * }
-         * if(method_exists($component,'getHeading')){
-         * $val=$component->getHeading();
-         * }
-         * if(method_exists($component,'getName')){
-         * $val=$component->getName();
-         * }
-         *
-         * if(!in_array($component_key,['steps','fields'])){
-         * dddx([
-         * 'message'=>'preso',
-         * 'component'=>$component,
-         * 'parent'=>get_parent_class($component),
-         * 'component_key'=>$component_key,
-         * ]);
-         * }
-         *
-         * $label_tkey = $trans_key.'.'.$component_key.'.'.$val.'';
-         *
-         */
-
         $label_key = $label_tkey.'.'.Str::snake($type);
-
-        if (Str::startsWith($label_key, 'media::attachments_schema')) {
-            dddx([
-                'message' => 'preso',
-                'label_key' => $label_key,
-                'label_tkey' => $label_tkey,
-                // 'val'=>$val,
-                'type' => $type,
-                'component' => $component,
-                'class' => $class,
-                'backtrace' => $backtrace,
-            ]);
-        }
 
         $label = trans($label_key);
         if (is_string($label) && $label_key === $label) { // se non esiste la traduzione, la salvo
@@ -188,9 +142,10 @@ class AutoLabelAction
             if (method_exists($component, 'iconButton')) {
                 $component->iconButton();
             }
+
             // $component->label('FIX:'.$label_key);
             // $component->tooltip('FIX:'.$label_key);
-            $component->{$type}('heroicon-o-question-mark-circle');
+            // $component->{$type}('heroicon-o-question-mark-circle');
 
             // $component->{$type}(null);
             return $component;

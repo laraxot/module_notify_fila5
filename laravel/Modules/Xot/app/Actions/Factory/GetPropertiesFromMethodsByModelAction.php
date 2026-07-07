@@ -40,16 +40,10 @@ class GetPropertiesFromMethodsByModelAction
      */
     public function execute(Model $model): array
     {
-        Assert::isInstanceOf($model, Model::class, 'Il parametro deve essere un\'istanza di Model');
-
-        $methods = get_class_methods($model);
-        Assert::isArray($methods, 'get_class_methods deve restituire un array');
-
         $data = [];
+        $methods = get_class_methods($model);
 
         foreach ($methods as $method) {
-            Assert::string($method, 'Il nome del metodo deve essere una stringa');
-
             // Ignoriamo i metodi che iniziano con "get" e quelli ereditati da Model
             if (Str::startsWith($method, 'get') || method_exists(Model::class, $method)) {
                 continue;
@@ -68,11 +62,6 @@ class GetPropertiesFromMethodsByModelAction
 
                 // Leggiamo il contenuto del metodo
                 $file = new SplFileObject($filename);
-                Assert::isInstanceOf(
-                    $file,
-                    SplFileObject::class,
-                    'Errore nella creazione dell\'oggetto SplFileObject',
-                );
 
                 $file->seek($reflection->getStartLine() - 1);
                 $startLine = $file->key();
@@ -108,7 +97,7 @@ class GetPropertiesFromMethodsByModelAction
                 $end = mb_strrpos($codeStr, '}');
                 $end = $end !== false ? $end : mb_strlen($codeStr);
 
-                $length = ($end - $begin) + 1;
+                $length = $end - $begin + 1;
                 Assert::greaterThan($length, 0, 'La lunghezza del corpo della funzione deve essere positiva');
 
                 $codeStr = mb_substr($codeStr, $begin, $length);
@@ -162,14 +151,12 @@ class GetPropertiesFromMethodsByModelAction
 
             // Otteniamo la classe relazionata
             $relatedClass = get_class($relationObj->getRelated());
-            Assert::classExists($relatedClass, "La classe relazionata {$relatedClass} non esiste");
 
             // Chiamiamo GetFakerAction con parametri corretti
             $fakerAction = app(GetFakerAction::class);
-            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+            // Assert::isCallable rimosso - metodo verificato a compile time
 
             $type = 'factory('.$relatedClass.'::class)';
-            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione
             return;

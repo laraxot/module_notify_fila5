@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'general' => [
         'actions' => 'Action',
@@ -14,8 +13,6 @@ return [
         'buttons' => [
             'save' => 'Save',
             'update' => 'Update',
-            'add' => 'Aggiungi',
-            'edit' => 'Cambia',
         ],
         'hide' => 'Hide',
         'inactive' => 'Inactive',

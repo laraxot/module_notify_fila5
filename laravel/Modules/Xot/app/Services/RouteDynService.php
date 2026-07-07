@@ -40,12 +40,12 @@ class RouteDynService
     public static function getPrefix(array $v, ?string $namespace): string
     {
         if (isset($v['prefix'])) {
-            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
             return $prefix;
         }
 
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         $prefix = mb_strtolower($name);
         $param_name = self::getParamName($v, $namespace);
         if ($param_name !== '') {
@@ -61,12 +61,12 @@ class RouteDynService
     public static function getAs(array $v, ?string $_namespace): string
     {
         if (isset($v['as'])) {
-            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
             return $as;
         }
 
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         $as = mb_strtolower($name);
         $as = str_replace('/', '.', $as);
 
@@ -88,12 +88,12 @@ class RouteDynService
     public static function getNamespace(array $v, ?string $namespace): ?string
     {
         if (isset($v['namespace'])) {
-            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
             return $namespace;
         }
 
-        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         $namespace = str_replace(['{', '}'], '', $namespace);
         if ($namespace === '') {
             return null;
@@ -108,7 +108,7 @@ class RouteDynService
     public static function getAct(array $v, ?string $_namespace): string
     {
         if (isset($v['act'])) {
-            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
             return $act;
         }
@@ -137,12 +137,12 @@ class RouteDynService
     public static function getParamName(array $v, ?string $_namespace): string
     {
         if (isset($v['param_name'])) {
-            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
             return $param_name;
         }
 
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         $param_name = 'id_'.$name;
         $param_name = str_replace(['{', '}'], '', $param_name);
 
@@ -168,7 +168,6 @@ class RouteDynService
     {
         $param_name = self::getParamName($v, $namespace);
         $params_name = self::getParamsName($v, $namespace);
-        Assert::isArray($params_name);
 
         $opts = [
             'parameters' => [mb_strtolower((string) $v['name']) => implode('}/{', $params_name)],
@@ -194,12 +193,12 @@ class RouteDynService
     public static function getController(array $v, ?string $_namespace): string
     {
         if (isset($v['controller'])) {
-            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
             return $controller;
         }
 
-        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         $v['controller'] = str_replace(['/', '{', '}'], ['_', '', ''], $v['controller']);
         $v['controller'] = Str::studly($v['controller']);
         $v['controller'] .= 'Controller';
@@ -212,7 +211,7 @@ class RouteDynService
      */
     public static function getUri(array $v, ?string $_namespace): string
     {
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
         // return mb_strtolower(is_string($v) ? $v : (string) $v['name);
         return $name;
@@ -249,7 +248,7 @@ class RouteDynService
      */
     public static function getCallback(array $v, ?string $namespace, ?string $curr): array
     {
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         $as = Str::slug($name);
         $uses = self::getUses($v, $namespace);
         if ($curr !== null) {
@@ -270,7 +269,6 @@ class RouteDynService
         ?string $namespace_start = null,
         ?string $curr = null,
     ): void {
-        Assert::isArray($array, 'The $array parameter must be an array.');
         Assert::notEmpty($array, 'The $array parameter cannot be empty.');
 
         if ($namespace_start !== null) {
@@ -299,7 +297,7 @@ class RouteDynService
         if ($v['name'] === null) {
             return;
         }
-        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         $opts = self::getResourceOpts($v, $namespace);
         $controller = self::getController($v, $namespace);
 

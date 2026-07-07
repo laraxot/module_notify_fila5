@@ -62,7 +62,7 @@ class TokenComponent extends Component
 
                 event(new PasswordReset($user));
 
-                Auth::guard()->login($user);
+                Auth::login($user);
             },
         );
         Assert::string($response, __FILE__.':'.__LINE__.' - '.class_basename(self::class));

@@ -47,11 +47,11 @@ public function getFormattedAddressAttribute(): string
 public function getFormattedAddressAttribute(): string
 {
     $value = $this->some_property;
-    
+
     if (is_string($value)) {
         return $value;
     }
-    
+
     return ''; // fallback sicuro
 }
 ```
@@ -65,6 +65,29 @@ public function getFormattedAddressAttribute(): string
     return (string) ($this->some_property ?? '');
 }
 ```
+
+## Correzione Effettuata
+
+I metodi seguenti sono stati aggiornati con le correzioni appropriate:
+
+### Place Model
+- `getFormattedAddressAttribute()` - Corretto utilizzando `SafeStringCastAction`
+
+### Address Model
+- `getFormattedAddressAttribute()` - Aggiunti controlli di tipo espliciti per tutti gli attributi
+- `getFullAddressAttribute()` - Aggiunti controlli di tipo espliciti per tutti gli attributi
+- `getStreetAddressAttribute()` - Aggiunti controlli di tipo espliciti per tutti gli attributi
+
+### Employee Model
+- `getStatusLabelAttribute()` - Aggiunto controllo di tipo esplicito per l'attributo status
+
+## Risultato
+
+Dopo le correzioni:
+- Nessun errore PHPStan per i metodi menzionati
+- Comportamento funzionale mantenuto
+- Sicurezza dei tipi migliorata
+- Conformità alle best practices del progetto
 
 ## Pattern di Correzione per Place Model
 
@@ -93,7 +116,7 @@ public function getFormattedAddressAttribute(): string
 {
     // Utilizzo di safe casting per garantire string
     $address = \Modules\Xot\Actions\Cast\SafeStringCastAction::cast($this->address, '');
-    
+
     // Formattazione aggiuntiva se necessaria
     return trim($address) ?: 'Indirizzo non disponibile';
 }
@@ -114,15 +137,15 @@ public function getDataAttribute(): array
 public function getDataAttribute(): array
 {
     $data = $this->data;
-    
+
     if (is_array($data)) {
         return $data;
     }
-    
+
     if (is_string($data)) {
         return json_decode($data, true) ?: [];
     }
-    
+
     return [];
 }
 ```
@@ -156,19 +179,19 @@ public function getIsActiveAttribute(): bool
 public function getIsActiveAttribute(): bool
 {
     $value = $this->is_active;
-    
+
     if (is_bool($value)) {
         return $value;
     }
-    
+
     if (is_numeric($value)) {
         return (bool) $value;
     }
-    
+
     if (is_string($value)) {
         return in_array(strtolower($value), ['true', '1', 'yes', 'on'], true);
     }
-    
+
     return false;
 }
 ```
@@ -184,7 +207,7 @@ public function getFormattedValueAttribute(): string
     if (!isset($this->value)) {
         return '';
     }
-    
+
     return \Modules\Xot\Actions\Cast\SafeStringCastAction::cast($this->value, '');
 }
 ```
@@ -215,7 +238,7 @@ public function getFormattedAddressAttribute(): string
         $this->city,
         $this->postal_code,
     ]);
-    
+
     return implode(', ', $components);
 }
 ```
@@ -246,13 +269,13 @@ grep -n "Attribute.*string" Modules/*/Models/*.php | grep -v "SafeStringCastActi
 
 ## Riferimenti
 
-- [Laravel Accessors & Mutators](https://laravel.com/docs/eloquent-mutators)
+- [Laravel Accessors & Mutators](https://laravel.com/project_docs/eloquent-mutators)
 - [PHPStan Return Types](https://phpstan.org/writing-php-code/phpdoc-types#return-types)
-- [Safe Casting Actions](../../Xot/docs/safe-casting-actions.md)
+- [Safe Casting Actions](../../Xot/project_docs/safe-casting-actions.md)
 
 ## Backlink
 
-- [Root PHPStan Rules](../../../docs/phpstan_rules.md)
+- [Root PHPStan Rules](../../../project_docs/phpstan_rules.md)
 - [Geo Module Structure](./structure.md)
 - [Class Not Found Errors](./class_not_found_errors.md)
 

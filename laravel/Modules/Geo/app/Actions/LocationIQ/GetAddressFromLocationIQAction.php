@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Geo\Actions\LocationIQ;
 
+use GuzzleHttp\Promise\PromiseInterface;
+use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
 use Modules\Geo\Datas\AddressData;
 
@@ -39,6 +41,12 @@ class GetAddressFromLocationIQAction
             'addressdetails' => 1,
         ]);
 
+        // Handle PromiseInterface|Response union type
+        if ($response instanceof PromiseInterface) {
+            $response = $response->wait();
+        }
+
+        /** @var Response $response */
         if (! $response->successful()) {
             return null;
         }

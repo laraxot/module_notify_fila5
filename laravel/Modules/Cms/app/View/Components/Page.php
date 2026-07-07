@@ -31,8 +31,9 @@ class Page extends Component
         }
         $this->slug = $slug;
         $field = $side.'_blocks';
-        // Assert::isInstanceOf($page = PageModel::firstOrCreate(['slug' => $slug], ['title' => $slug, $field => []]), PageModel::class, '['.__LINE__.']['.__FILE__.']');
-        $page = PageModel::firstWhere(['slug' => $slug]);
+        // $page = PageModel::firstOrCreate(['slug' => $slug], ['title' => $slug, $field => []]);
+        $page = PageModel::firstWhere('slug', $slug);
+
         if (null === $page) {
             abort(404, 'page not found: '.$slug);
         }
@@ -48,8 +49,19 @@ class Page extends Component
 
         $metatag->concatDescription($page->description);
         $blocks = $page->$field;
+        if (is_array($blocks) && ! empty($blocks)) {
+            $locales = array_keys($blocks);
+            $current_lang = app()->getLocale();
+            if (in_array($current_lang, $locales)) {
+                $blocks = $blocks[$current_lang];
+            } elseif (in_array('it', $locales)) {
+                $blocks = $blocks['it'];
+            }
+        }
+
         if (! is_array($blocks)) {
             $primary_lang = XotData::make()->primary_lang;
+            /* @phpstan-ignore-next-line method.notFound */
             $blocks = $page->getTranslation($field, $primary_lang);
         }
         if (! is_array($blocks)) {

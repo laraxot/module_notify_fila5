@@ -31,11 +31,11 @@ class CoolModulesServiceProvider extends PackageServiceProvider
         $package->name('cool-modules');
     }
 
-    public function register()
+    public function register(): void
     {
         $this->app->register(LaravelModulesServiceProvider::class);
 
-        $this->app->afterResolving('filament', function () {
+        $this->app->afterResolving('filament', function (): void {
             $panels = Filament::getPanels();
 
             foreach ($panels as $panel) {
@@ -51,11 +51,11 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
                     $panel->renderHook(
                         'panels::sidebar.nav.start',
-                        fn() => new HtmlString("<h2 class='m-2 p-2 font-black text-xl'>{$title}</h2>"),
+                        fn () => new HtmlString("<h2 class='m-2 p-2 font-black text-xl'>{$title}</h2>"),
                     )->renderHook(
                         'panels::sidebar.nav.end',
-                        fn() => new HtmlString('<a href="' .
-                        url('/admin') .
+                        fn () => new HtmlString('<a href="'.
+                        url('/admin').
                             '" class="fi-sidebar-item-btn">
                                         <svg class="fi-icon fi-size-lg fi-sidebar-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
                                           <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />

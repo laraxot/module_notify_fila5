@@ -7,7 +7,6 @@ namespace Modules\Xot\Console\Commands;
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Process\Process;
@@ -43,7 +42,6 @@ class OptimizeFilamentMemoryCommand extends Command
     public function handle(): int
     {
         $this->info('🐄 SuperMucca Filament Memory Optimizer');
-        $this->info('=====================================');
         $this->newLine();
 
         $analyzeOnly = (bool) $this->option('analyze');
@@ -138,8 +136,8 @@ class OptimizeFilamentMemoryCommand extends Command
             if ($file->getExtension() === 'php' && str_contains($file->getPathname(), '/Models/')) {
                 $content = File::get($file->getPathname());
 
-                if (preg_match('/protected\s+\$with\s*=\s*\[([^\]]+)\]/', $content, $matches)) {
-                    $withContent = $matches[1];
+                if (preg_match('/protected\s+\$with\s*=\s*\[([^\]]+)\]/', $content, $matches) === 1) {
+                    $withContent = $matches[1] ?? '';
                     // Controlla se ha relazioni pesanti
                     if (str_contains($withContent, 'roles') ||
                         str_contains($withContent, 'permissions') ||
@@ -309,7 +307,7 @@ class OptimizeFilamentMemoryCommand extends Command
                 $this->warn("Dettagli {$type}:");
                 foreach ($items as $item) {
                     $itemString = is_string($item) ? $item : (string) $item;
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', (string) $itemString));
                 }
             }
         }

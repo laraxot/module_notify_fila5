@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'title' => 'Laravel Installer',
     'next' => 'Next Step',

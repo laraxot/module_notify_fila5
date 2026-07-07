@@ -6,6 +6,7 @@ namespace Modules\Xot\Console\Commands;
 
 use Illuminate\Console\Command;
 use RuntimeException;
+
 use function Safe\shell_exec;
 
 class ImportMdbToMySQL extends Command
@@ -30,22 +31,23 @@ class ImportMdbToMySQL extends Command
     public function handle(): int
     {
         $mdbFile = $this->ask('Inserisci il percorso del file .mdb');
-        if (!is_string($mdbFile)) {
+        if (! is_string($mdbFile)) {
             throw new RuntimeException('Il percorso del file deve essere una stringa');
         }
 
         $mysqlDb = $this->ask('Inserisci il nome del database MySQL');
-        if (!is_string($mysqlDb)) {
+        if (! is_string($mysqlDb)) {
             throw new RuntimeException('Il nome del database deve essere una stringa');
         }
 
-        $this->info("File .mdb: $mdbFile");
-        $this->info("Database MySQL: $mysqlDb");
+        $this->info("File .mdb: {$mdbFile}");
+        $this->info("Database MySQL: {$mysqlDb}");
 
         $this->info('Esportando tabelle dal file .mdb...');
         $tables = $this->exportTablesToSQL($mdbFile);
         if (empty($tables)) {
             $this->error('Nessuna tabella trovata nel file .mdb');
+
             return Command::FAILURE;
         }
 
@@ -53,6 +55,7 @@ class ImportMdbToMySQL extends Command
         $this->importTablesIntoMySQL($tables, $mysqlDb);
 
         $this->info('Importazione completata con successo!');
+
         return Command::SUCCESS;
     }
 
@@ -64,8 +67,8 @@ class ImportMdbToMySQL extends Command
     private function exportTablesToSQL(string $mdbFile): array
     {
         $tables = [];
-        $tableList = shell_exec("mdb-tables $mdbFile");
-        if (!$tableList) {
+        $tableList = shell_exec("mdb-tables {$mdbFile}");
+        if (! $tableList) {
             return [];
         }
 
@@ -77,8 +80,8 @@ class ImportMdbToMySQL extends Command
 
             $tables[] = $table;
             $sqlFile = storage_path("app/{$table}.sql");
-            shell_exec("mdb-schema $mdbFile mysql > $sqlFile");
-            shell_exec("mdb-export -I mysql $mdbFile $table >> $sqlFile");
+            shell_exec("mdb-schema {$mdbFile} mysql > {$sqlFile}");
+            shell_exec("mdb-export -I mysql {$mdbFile} {$table} >> {$sqlFile}");
         }
 
         return $tables;
@@ -87,13 +90,13 @@ class ImportMdbToMySQL extends Command
     /**
      * Importa le tabelle in MySQL.
      *
-     * @param array<int, string> $tables
+     * @param  array<int, string>  $tables
      */
     private function importTablesIntoMySQL(array $tables, string $mysqlDb): void
     {
         foreach ($tables as $table) {
             $sqlFile = storage_path("app/{$table}.sql");
-            $command = "mysql -u root $mysqlDb < $sqlFile";
+            $command = "mysql -u root {$mysqlDb} < {$sqlFile}";
             shell_exec($command);
         }
     }

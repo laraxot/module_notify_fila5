@@ -4,18 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Job\Filament\Pages;
 
-use Filament\Pages\Page;
 use Illuminate\Support\Facades\Artisan;
 use Modules\Job\Filament\Widgets\ClockWidget;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Modules\Xot\Filament\Pages\XotBasePage;
 
-class JobStatus extends Page
+class JobStatus extends XotBasePage
 {
-    use NavigationLabelTrait;
-
     public string $out = '';
-
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-computer-desktop';
 
     protected string $view = 'job::filament.pages.job-status';
 

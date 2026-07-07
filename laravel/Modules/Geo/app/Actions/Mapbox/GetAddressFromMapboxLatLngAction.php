@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Geo\Actions\Mapbox;
 
+use GuzzleHttp\Promise\PromiseInterface;
+use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
 use Modules\Geo\Datas\AddressData;
 use Modules\Geo\Datas\MapboxMapData;
@@ -62,6 +64,12 @@ class GetAddressFromMapboxLatLngAction
             'language' => 'it',
         ]);
 
+        // Handle PromiseInterface|Response union type
+        if ($response instanceof PromiseInterface) {
+            $response = $response->wait();
+        }
+
+        /** @var Response $response */
         if (! $response->successful()) {
             throw InvalidLocationException::invalidData('Richiesta a Mapbox fallita');
         }

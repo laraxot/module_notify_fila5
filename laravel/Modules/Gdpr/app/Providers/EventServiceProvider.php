@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Gdpr\Providers;
 
 use Modules\Xot\Providers\XotBaseEventServiceProvider;
-use Override;
 
 class EventServiceProvider extends XotBaseEventServiceProvider
 {
@@ -26,6 +25,8 @@ class EventServiceProvider extends XotBaseEventServiceProvider
     /**
      * Configure the proper event listeners for email verification.
      */
-    #[Override]
-    protected function configureEmailVerification(): void {}
+    #[\Override]
+    protected function configureEmailVerification(): void
+    {
+    }
 }

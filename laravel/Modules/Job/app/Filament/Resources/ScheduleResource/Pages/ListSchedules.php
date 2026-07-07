@@ -14,14 +14,13 @@ use Filament\Actions\ViewAction;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Job\Filament\Resources\ScheduleResource;
+use Modules\Job\Models\Schedule;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Override;
 
 class ListSchedules extends XotBaseListRecords
 {
     protected static string $resource = ScheduleResource::class;
 
-    #[Override]
     public function getTableColumns(): array
     {
         return [
@@ -51,15 +50,7 @@ class ListSchedules extends XotBaseListRecords
     {
         return [
             EditAction::make()
-                ->hidden(function ($record): bool {
-                    if (is_object($record) && method_exists($record, 'trashed')) {
-                        $trashed = $record->trashed();
-
-                        return is_bool($trashed) ? $trashed : false;
-                    }
-
-                    return false;
-                })
+                ->hidden(static fn (Schedule $record): bool => $record->deleted_at !== null)
                 ->tooltip(__('filament-support::actions/edit.single.label')),
             RestoreAction::make()->tooltip(__('filament-support::actions/restore.single.label')),
             DeleteAction::make()->tooltip(__('filament-support::actions/delete.single.label')),

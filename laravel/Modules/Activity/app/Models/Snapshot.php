@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Activity\Models;
 
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Carbon;
+use Modules\Activity\Database\Factories\SnapshotFactory;
 use Modules\Xot\Models\Traits\HasXotFactory;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Spatie\EventSourcing\Snapshots\EloquentSnapshot as SpatieSnapshot;
 
 /**
@@ -34,6 +34,7 @@ use Spatie\EventSourcing\Snapshots\EloquentSnapshot as SpatieSnapshot;
  * @method static Builder<static>|Snapshot whereState($value)
  * @method static Builder<static>|Snapshot whereUpdatedAt($value)
  * @method static Builder<static>|Snapshot whereUpdatedBy($value)
+ * @method static SnapshotFactory factory($count = null, $state = [])
  *
  * @mixin \Eloquent
  */

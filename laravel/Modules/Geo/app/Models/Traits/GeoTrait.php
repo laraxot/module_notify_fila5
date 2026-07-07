@@ -178,25 +178,30 @@ trait GeoTrait
             $this->country;
     }
 
-    public function getLatitudeAttribute(?float $value): ?float
+    /**
+     * Get latitude attribute.
+     */
+    public function getLatitudeAttribute(mixed $value): ?float
     {
-        if (null !== $value) {
-            return $value;
+        if (is_float($value) || is_int($value)) {
+            return (float) $value;
         }
         $address = $this->address;
         if (null === $address) {
             return null;
         }
-        if (is_string($address) && isJson((string) $address)) {
-            $geo = GeoData::from(json_decode((string) $address, true, 512, JSON_THROW_ON_ERROR));
+        if (is_string($address) && isJson($address)) {
+            $geo = GeoData::from(json_decode($address, true, 512, JSON_THROW_ON_ERROR));
             $latlng = $geo->latlng;
-            $lat = $latlng['lat'];
-            $lng = $latlng['lng'];
-            $this->update([
-                'latitude' => $lat,
-                'longitude' => $lng,
-            ]);
-            $this->save();
+            $lat = is_float($latlng['lat'] ?? null) || is_int($latlng['lat'] ?? null) ? (float) ($latlng['lat']) : null;
+            $lng = is_float($latlng['lng'] ?? null) || is_int($latlng['lng'] ?? null) ? (float) ($latlng['lng']) : null;
+            if (null !== $lat && null !== $lng) {
+                $this->update([
+                    'latitude' => $lat,
+                    'longitude' => $lng,
+                ]);
+                $this->save();
+            }
 
             return $lat;
         }
@@ -250,21 +255,14 @@ trait GeoTrait
                 $this->attributes['full_address'] = ',,';
             }
 
-            if (\strlen($this->attributes['full_address']) < 10) {
-                /*$address = collect($json);
-                 * $tmp = [];
-                 * $tmp[] = $address->get('route');
-                 * $tmp[] = $address->get('street_number');
-                 * $tmp[] = $address->get('postal_code');
-                 * $tmp[] = $address->get('administrative_area_level_3');
-                 * $tmp[] = $address->get('administrative_area_level_2_short');
-                 */
+            $fullAddress = (string) ($this->attributes['full_address'] ?? '');
+            if (strlen($fullAddress) < 10) {
                 $tmp = [];
-                $tmp[] = $geo->route;
-                $tmp[] = $geo->street_number;
-                $tmp[] = $geo->postal_code;
-                $tmp[] = $geo->administrative_area_level_3;
-                $tmp[] = $geo->administrative_area_level_2_short;
+                $tmp[] = $geo->route ?? '';
+                $tmp[] = $geo->street_number ?? '';
+                $tmp[] = $geo->postal_code ?? '';
+                $tmp[] = $geo->administrative_area_level_3 ?? '';
+                $tmp[] = $geo->administrative_area_level_2_short ?? '';
                 $this->attributes['full_address'] = implode(', ', $tmp);
             }
         }

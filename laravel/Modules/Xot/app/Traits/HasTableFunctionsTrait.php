@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Traits;
 
-use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
+use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
 
 trait HasTableFunctionsTrait
@@ -36,12 +36,12 @@ trait HasTableFunctionsTrait
         return [
             'edit' => Action::make('edit')
                 ->label('Modifica')
-                ->url(fn($record): string => route('filament.resources.' . $this->getResourceSlug() . '.edit', [
+                ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
                     'record' => $record,
                 ])),
             'delete' => Action::make('delete')
                 ->label('Elimina')
-                ->action(fn($record) => $record->delete())
+                ->action(fn ($record) => $record->delete())
                 ->requiresConfirmation(),
         ];
     }
@@ -56,15 +56,13 @@ trait HasTableFunctionsTrait
         return [
             'delete' => BulkAction::make('delete')
                 ->label('Elimina selezionati')
-                ->action(fn($records) => $records->each->delete())
+                ->action(fn ($records) => $records->each->delete())
                 ->requiresConfirmation(),
         ];
     }
 
     /**
      * Get the resource slug.
-     *
-     * @return string
      */
     protected function getResourceSlug(): string
     {

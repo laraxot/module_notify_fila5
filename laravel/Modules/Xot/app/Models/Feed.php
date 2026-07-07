@@ -4,23 +4,34 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Database\Factories\FeedFactory;
 
 /**
  * Modules\Xot\Models\Feed.
  *
+ * @property string $id
+ * @property string|null $created_by
+ * @property string|null $updated_by
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ *
  * @method static FeedFactory factory($count = null, $state = [])
- * @method static Builder|Feed newModelQuery()
- * @method static Builder|Feed newQuery()
- * @method static Builder|Feed query()
- * @method static Builder|Feed newModelQuery()
- * @method static Builder|Feed newQuery()
- * @method static Builder|Feed query()
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
- * @mixin IdeHelperFeed
+ * @method static Builder<static>|Feed newModelQuery()
+ * @method static Builder<static>|Feed newQuery()
+ * @method static Builder<static>|Feed query()
+ * @method static Builder<static>|Feed whereCreatedAt($value)
+ * @method static Builder<static>|Feed whereCreatedBy($value)
+ * @method static Builder<static>|Feed whereId($value)
+ * @method static Builder<static>|Feed whereUpdatedAt($value)
+ * @method static Builder<static>|Feed whereUpdatedBy($value)
+ *
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $deleter
+ * @property-read ProfileContract|null $updater
+ *
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

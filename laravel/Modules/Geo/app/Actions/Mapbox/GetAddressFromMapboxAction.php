@@ -12,8 +12,6 @@ use Modules\Geo\Datas\AddressData;
 use function Safe\json_decode;
 use function Safe\preg_match;
 
-use Webmozart\Assert\Assert;
-
 /**
  * Action per ottenere l'indirizzo e le coordinate tramite Mapbox.
  *
@@ -60,9 +58,15 @@ readonly class GetAddressFromMapboxAction
     private function validateInput(string $address): void
     {
         $apiKey = config('services.mapbox.access_token');
-        Assert::notEmpty($apiKey, 'Mapbox access token not configured');
-        Assert::notEmpty($address, 'Address cannot be empty');
-        Assert::maxLength($address, 1000, 'Address is too long');
+        if (empty($apiKey)) {
+            throw new \RuntimeException('Mapbox access token not configured');
+        }
+        if (empty($address)) {
+            throw new \RuntimeException('Address cannot be empty');
+        }
+        if (strlen($address) > 1000) {
+            throw new \RuntimeException('Address is too long');
+        }
     }
 
     /**

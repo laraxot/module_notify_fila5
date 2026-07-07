@@ -8,8 +8,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
-use Filament\Resources\Resource;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use ReflectionClass;
 use Spatie\QueueableAction\QueueableAction;
@@ -47,7 +47,7 @@ class GenerateFormByFileAction
         // Verifichiamo che la classe esista e sia una risorsa Filament
         Assert::classExists($class_name);
 
-        /** @var resource $resourceInstance */
+        /** @var object $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista
@@ -91,16 +91,21 @@ class GenerateFormByFileAction
         // Otteniamo i metodi della classe risorsa
         $resourceMethods = get_class_methods($resourceInstance);
 
-        dd([
-            'class_name' => $class_name,
-            'model_name' => $modelClass,
+        Log::debug('GenerateFormByFileAction', [
+            'line' => __LINE__,
+            'method' => __METHOD__,
             'fillable' => $fillable,
-            // 't1'=>app($class_name)->form(app(\Filament\Schemas\Schema::class)),
-            'methods' => $resourceMethods,
-            'form_method' => $form_method,
-            'form_method_methods' => get_class_methods($form_method),
-            'body' => $body,
         ]);
+
+        // Contiamo gli input aggiunti
+        $inputCount = 0;
+        foreach ($fillable as $field) {
+            if (in_array($field, $resourceMethods)) {
+                $inputCount++;
+            }
+        }
+
+        return $inputCount;
     }
 
     /**
@@ -110,6 +115,8 @@ class GenerateFormByFileAction
      */
     public function ddFile(File $file): void
     {
+        // Debug information - commented out for production
+        /*
         dd([
             'getRelativePath' => $file->getRelativePath(), // =  ""
             'getRelativePathname' => $file->getRelativePathname(), //  AssenzeResource.php
@@ -126,5 +133,6 @@ class GenerateFormByFileAction
             // 'getPathInfo' => $file->getPathInfo(),
             'methods' => get_class_methods($file),
         ]);
+        */
     }
 }

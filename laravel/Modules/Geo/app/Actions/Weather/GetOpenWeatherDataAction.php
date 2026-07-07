@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Geo\Actions\Weather;
 
+use GuzzleHttp\Promise\PromiseInterface;
+use Illuminate\Http\Client\Response;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
@@ -23,6 +25,12 @@ class GetOpenWeatherDataAction
                 'lang' => 'it',
             ]);
 
+            // Handle PromiseInterface|Response union type
+            if ($response instanceof PromiseInterface) {
+                $response = $response->wait();
+            }
+
+            /** @var Response $response */
             if (! $response->successful()) {
                 return null;
             }

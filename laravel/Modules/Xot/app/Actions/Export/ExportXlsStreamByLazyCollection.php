@@ -22,21 +22,19 @@ class ExportXlsStreamByLazyCollection
     /**
      * Esporta una LazyCollection in un file CSV streamed.
      *
-     * @param LazyCollection $data I dati da esportare
-     * @param string $filename Nome del file CSV
-     * @param string|null $transKey Chiave di traduzione per le intestazioni
-     * @param array<string>|null $_fields Campi da includere nell'export (attualmente non utilizzato)
-     *
-     * @return StreamedResponse
+     * @param  LazyCollection  $data  I dati da esportare
+     * @param  string  $filename  Nome del file CSV
+     * @param  string|null  $transKey  Chiave di traduzione per le intestazioni
+     * @param  array<string>|null  $_fields  Campi da includere nell'export (attualmente non utilizzato)
      */
     public function execute(
         LazyCollection $data,
         string $filename = 'test.csv',
-        null|string $transKey = null,
-        null|array $_fields = null,
+        ?string $transKey = null,
+        ?array $_fields = null,
     ): StreamedResponse {
         $headers = [
-            'Content-Disposition' => 'attachment; filename=' . $filename,
+            'Content-Disposition' => 'attachment; filename='.$filename,
         ];
         $head = $this->headings($data, $transKey);
 
@@ -64,8 +62,9 @@ class ExportXlsStreamByLazyCollection
                     // Convertiamo tutti i valori in stringhe o null
                     $safeRowData = array_map(function ($item) {
                         if ($item === null) {
-                            return null;
+                            return '';
                         }
+
                         return is_string($item) ? $item : ((string) $item);
                     }, $rowData);
 
@@ -88,15 +87,14 @@ class ExportXlsStreamByLazyCollection
     /**
      * Ottiene le intestazioni per l'export.
      *
-     * @param LazyCollection $data I dati da cui estrarre le intestazioni
-     * @param string|null $transKey Chiave di traduzione per le intestazioni
-     *
+     * @param  LazyCollection  $data  I dati da cui estrarre le intestazioni
+     * @param  string|null  $transKey  Chiave di traduzione per le intestazioni
      * @return array<string>
      */
-    public function headings(LazyCollection $data, null|string $transKey = null): array
+    public function headings(LazyCollection $data, ?string $transKey = null): array
     {
         $first = $data->first();
-        if (!is_array($first) && (!is_object($first) || !method_exists($first, 'toArray'))) {
+        if (! is_array($first) && (! is_object($first) || ! method_exists($first, 'toArray'))) {
             return []; // Ritorna intestazioni vuote se non c'è un primo elemento valido
         }
 
@@ -108,19 +106,19 @@ class ExportXlsStreamByLazyCollection
          */
         $headings = collect($headArray)->keys();
 
-        if (null !== $transKey) {
+        if ($transKey !== null) {
             $headings = $headings->map(static function (string $item) use ($transKey) {
-                $key = $transKey . '.fields.' . $item;
+                $key = $transKey.'.fields.'.$item;
                 $trans = trans($key);
                 if ($trans !== $key) {
-                    return $trans;
+                    return is_string($trans) ? $trans : $item;
                 }
 
-                Assert::string($item1 = Str::replace('.', '_', $item), '[' . __LINE__ . '][' . __CLASS__ . ']');
-                $key = $transKey . '.fields.' . $item1;
+                Assert::string($item1 = Str::replace('.', '_', $item), '['.__LINE__.']['.self::class.']');
+                $key = $transKey.'.fields.'.$item1;
                 $trans = trans($key);
                 if ($trans !== $key) {
-                    return $trans;
+                    return is_string($trans) ? $trans : $item;
                 }
 
                 return $item;
