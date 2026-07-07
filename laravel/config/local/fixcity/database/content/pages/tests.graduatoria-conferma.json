@@ -1,0 +1,21 @@
+{
+    "id": "tests.graduatoria-conferma",
+    "title": {
+        "it": "Graduatoria Conferma",
+        "en": "Graduatoria Conferma"
+    },
+    "slug": "tests.graduatoria-conferma",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "tests.template-area-personale",
+    "title": {
+        "it": "Template Area Personale",
+        "en": "Template Area Personale"
+    },
+    "slug": "tests.template-area-personale",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

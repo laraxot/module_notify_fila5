@@ -1,0 +1,33 @@
+{
+    "id": "tests.novita",
+    "title": {
+        "it": "Novità",
+        "en": "Novità"
+    },
+    "slug": "tests.novita",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Novità",
+                    "category": "Novità",
+                    "summary": "La pagina lista di primo livello per la sezione Novità.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/novita.html",
+                    "slug": "tests.novita"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

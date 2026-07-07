@@ -1,0 +1,21 @@
+{
+    "id": "tests.servizi-pagamento-pagamento",
+    "title": {
+        "it": "Servizi Pagamento Pagamento",
+        "en": "Servizi Pagamento Pagamento"
+    },
+    "slug": "tests.servizi-pagamento-pagamento",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

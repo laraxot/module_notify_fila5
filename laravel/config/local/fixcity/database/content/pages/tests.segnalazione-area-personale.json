@@ -1,0 +1,33 @@
+{
+    "id": "tests.segnalazione-area-personale",
+    "title": {
+        "it": "Segnalazione disservizio - Area personale",
+        "en": "Segnalazione disservizio - Area personale"
+    },
+    "slug": "tests.segnalazione-area-personale",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Segnalazione disservizio - Area personale",
+                    "category": "Segnalazione Disservizio",
+                    "summary": "La schermata dell'area personale con le attività recenti dell'utente.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-area-personale.html",
+                    "slug": "tests.segnalazione-area-personale"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

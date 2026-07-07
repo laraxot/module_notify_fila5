@@ -1,0 +1,33 @@
+{
+    "id": "tests.segnalazione-dettaglio",
+    "title": {
+        "it": "Scheda del servizio di segnalazione",
+        "en": "Scheda del servizio di segnalazione"
+    },
+    "slug": "tests.segnalazione-dettaglio",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Scheda del servizio di segnalazione",
+                    "category": "Segnalazione Disservizio",
+                    "summary": "La carta di presentazione del servizio di segnalazione con accesso alle funzionalità e elenco delle segnalazioni.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-dettaglio.html",
+                    "slug": "tests.segnalazione-dettaglio"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

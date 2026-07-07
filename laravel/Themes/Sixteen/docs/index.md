@@ -239,3 +239,6 @@ npm run copy
 **Mantenuto da**: Team Sixteen
 
 
+
+### Design Comuni / Tests
+- **[docs/design-comuni/folio-volt-tests-pages.md](design-comuni/folio-volt-tests-pages.md)** - Pattern corretto per `pages/tests/[slug].blade.php` con Folio, Volt e x-page

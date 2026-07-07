@@ -1,0 +1,21 @@
+{
+    "id": "tests.vantaggi-dati-personali-var-1",
+    "title": {
+        "it": "Vantaggi Dati Personali Var 1",
+        "en": "Vantaggi Dati Personali Var 1"
+    },
+    "slug": "tests.vantaggi-dati-personali-var-1",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

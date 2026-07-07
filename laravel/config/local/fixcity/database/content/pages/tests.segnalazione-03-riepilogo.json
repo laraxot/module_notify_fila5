@@ -1,0 +1,33 @@
+{
+    "id": "tests.segnalazione-03-riepilogo",
+    "title": {
+        "it": "Step 3 - Riepilogo delle informazioni inserite",
+        "en": "Step 3 - Summary of entered information"
+    },
+    "slug": "tests.segnalazione-03-riepilogo",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 3 - Riepilogo delle informazioni inserite",
+                    "category": "Segnalazione Disservizio",
+                    "summary": "La schermata di riepilogo con la possibilità di confermare o modificare.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-03-riepilogo.html",
+                    "slug": "tests.segnalazione-03-riepilogo"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": "tests.appuntamento-06-conferma",
+    "title": {
+        "it": "Step 6 - Conferma dell'appuntamento",
+        "en": "Step 6 - Appointment confirmation"
+    },
+    "slug": "tests.appuntamento-06-conferma",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.appuntamento-conferma",
+                    "title": "Step 6 - Conferma dell'appuntamento",
+                    "category": "Prenotazione Appuntamento",
+                    "summary": "La schermata con la conferma della prenotazione e il riepilogo di data, ora, requisiti e indirizzo dell'ufficio.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/appuntamento-06-conferma.html",
+                    "slug": "tests.appuntamento-06-conferma"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}
