@@ -100,27 +100,95 @@ This file contains comprehensive guidelines and commands for AI agents working o
 
 ### GITHUB ACTIONS - SUBTREE SYNC
 
-- **Workflow**: `.github/workflows/sync-subtrees.yml`
+#### Sync Remote Repo Workflow
+
+- **Workflow**: `.github/workflows/sync-remote-repo.yml`
 - **Trigger**: Push su branch `dev` (o manuale)
 - **Purpose**: Sincronizzare git subtrees automaticamente
 - **Script**: `bashscripts/git/subtrees/sync_remote_repo.sh`
-- **Why GitHub Action**: 
-  - `bashscripts/` è nel `.gitignore`
-  - Serve clonare repo nella action per eseguire script
-  - Automazione sync dopo push su `dev`
 - **Required Secrets**:
-  - `SUBTREE_SSH_KEY`: SSH key per git push
-  - `SUBTREE_SYNC_TOKEN`: GitHub PAT (opzionale)
+  - `BASHSCRIPTS_TOKEN`: GitHub PAT con scope `repo` (obbligatorio)
+  - `GITHUB_TOKEN`: Automatico (opzionale, fallback)
 - **Subtrees Synced**: 18+ (bashscripts, modules, etc.)
-- **Docs**: `bashscripts/docs/github/actions/sync-subtrees.md`
-- **Setup**:
-  ```bash
-  # Generate SSH key
-  ssh-keygen -t ed25519 -C "actions@github.com"
-  
-  # Add public key to GitHub
-  # Add private key to repo secrets
-  ```
+- **Docs**: `bashscripts/docs/git/sync-remote-repo-guide.md`
+- **Coordination**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+
+#### Sync Subtrees Workflow
+
+- **Workflow**: `.github/workflows/sync-subtrees.yml`
+- **Trigger**: Push su branch `dev` (o `workflow_dispatch`)
+- **Purpose**: Alternativa sync subtrees con checkout completo
+- **Script**: Same script (`sync_remote_repo.sh`)
+- **Difference**: Full checkout vs sparse-checkout
+- **Docs**: Same as above
+
+#### CRITICAL: Dual-Mode Script Design
+
+The script `bashscripts/git/subtrees/sync_remote_repo.sh` MUST work in **TWO modes**:
+
+**1. CLI Mode (Local Development)**:
+```bash
+cd /var/www/_bases/base_fixcity_fila5
+bashscripts/git/subtrees/sync_remote_repo.sh laraxot
+```
+
+**2. CI Mode (GitHub Actions)**:
+```yaml
+- name: Run remote sync
+  run: bashscripts/git/subtrees/sync_remote_repo.sh laraxot
+  env:
+    CI: true  # Critical: enables CI mode
+    BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
+```
+
+**Key Differences**:
+
+| Feature | CLI Mode | CI Mode |
+|---------|----------|---------|
+| Backup | ✅ Creates backup | ❌ Skipped |
+| Conflict Resolution | Interactive | Automatic (clean + reset) |
+| Working Tree | Preserves changes | Clean (`git clean -fdx`) |
+| Authentication | SSH/PAT | GitHub Token (HTTPS) |
+
+**See**: `bashscripts/docs/git/sync-remote-repo-guide.md` for complete guide
+
+#### Multi-Agent Coordination for Sync Script
+
+**CRITICAL**: Multiple AI agents may work on this script simultaneously.
+
+**BEFORE Making Changes**:
+1. Read coordination log: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md`
+2. Check GitHub Issues: `gh issue list --repo laraxot/bashscripts_fila5`
+3. Add your entry to coordination log
+4. Create feature branch (never work on `dev` directly)
+
+**DURING Work**:
+1. Test BOTH modes: CLI and CI
+2. Use feature branches
+3. Update coordination log as you work
+
+**AFTER Work**:
+1. Commit and push immediately
+2. Update coordination log with results
+3. Create GitHub Issue if needed
+4. Remove lock file if created
+
+**Lock File Protocol**:
+```bash
+# Create lock (exclusive work)
+echo "Agent-XYZ-$(date -I)" > bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md.lock
+
+# Remove lock
+rm bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md.lock
+```
+
+**Agent Teams**:
+- **Script Core**: Main logic, bug fixes
+- **CI/CD**: GitHub Actions workflow
+- **Documentation**: Guides, examples
+- **Testing**: Validation, edge cases
+
+**See**: `bashscripts/docs/git/SYNC_REMOTE_REPO_COORDINATION.md` for complete coordination guidelines
 
 ## 🚀 BUILD/LINT/TEST COMMANDS
 
