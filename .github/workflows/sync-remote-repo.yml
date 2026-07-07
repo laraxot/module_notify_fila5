@@ -16,6 +16,7 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
       CI: true
+      SKIP_SUBTREE_BACKUP: '1'
 
     steps:
       - name: Checkout main repository
