@@ -92,7 +92,7 @@
                     </label>
                 </fieldset>
 
-                <div class="cmp-rating__card-second">
+                <div class="cmp-rating__card-second d-none">
                     <p class="text-wrap">{{ $subtitle }}</p>
                 </div>
             </div>
