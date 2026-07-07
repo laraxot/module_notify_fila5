@@ -1,4 +1,4 @@
-name: 🔄 Sync Subtrees
+name: Sync Subtrees
 
 on:
   push:
@@ -13,6 +13,9 @@ env:
   GIT_COMMITTER_NAME: GitHub Actions
   GIT_COMMITTER_EMAIL: actions@github.com
 
+permissions:
+  contents: write
+
 jobs:
   sync-subtrees:
     name: Sync Git Subtrees
@@ -20,68 +23,78 @@ jobs:
     if: github.ref == 'refs/heads/dev' || github.event_name == 'workflow_dispatch'
 
     steps:
-      - name: ⬇️ Checkout repository
-        uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.BASHSCRIPTS_TOKEN }}
+          token: ${{ secrets.BASHSCRIPTS_TOKEN || github.token }}
           submodules: false
 
-      - name: 🛡️ Configure Git
+      - name: Configure Git
         run: |
+          TOKEN="${{ secrets.BASHSCRIPTS_TOKEN }}"
+          if [ -z "$TOKEN" ]; then
+            TOKEN="${{ github.token }}"
+          fi
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git config --global core.symlinks false
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config --global --add safe.directory "$GITHUB_WORKSPACE/bashscripts"
-          git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "git@github.com:"
-          git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${TOKEN}@github.com/".insteadOf "git@github.com:"
+          git config --global url."https://x-access-token:${TOKEN}@github.com/".insteadOf "ssh://git@github.com/"
+          git config --global url."https://x-access-token:${TOKEN}@github.com/".insteadOf "https://github.com/"
 
-      - name: ⬇️ Checkout bashscripts repository
-        uses: actions/checkout@v5
+      - name: Checkout bashscripts repository
+        uses: actions/checkout@v4
         with:
           repository: laraxot/bashscripts_fila5
           ref: dev
-          token: ${{ secrets.BASHSCRIPTS_TOKEN }}
+          token: ${{ secrets.BASHSCRIPTS_TOKEN || github.token }}
           path: bashscripts
           fetch-depth: 0
 
-      - name: 📋 Show gitmodules.ini
+      - name: Show gitmodules.ini
         run: |
-          echo "📋 Configuration:"
-          cat bashscripts/gitmodules.ini | head -20 || cat gitmodules.ini | head -20 || echo "⚠️ gitmodules.ini not found"
+          echo "Configuration:"
+          cat bashscripts/gitmodules.ini | head -20 || cat gitmodules.ini | head -20 || echo "gitmodules.ini not found"
 
-      - name: 🔄 Sync Subtrees
+      - name: Sync Subtrees
         run: |
-          echo "🚀 Starting subtree sync..."
-          echo "📂 Working directory: $(pwd)"
-          echo "🌿 Current branch: $(git branch --show-current)"
-          echo "🔑 CI Environment: $CI"
+          echo "Starting subtree sync..."
+          echo "Working directory: $(pwd)"
+          echo "Current branch: $(git branch --show-current)"
           echo ""
-          # Copy gitmodules.ini if needed
           if [ ! -f gitmodules.ini ] && [ -f bashscripts/gitmodules.ini ]; then
             cp bashscripts/gitmodules.ini gitmodules.ini
           fi
           chmod +x bashscripts/git/subtrees/sync_remote_repo.sh
-          # Export tokens explicitly for script
-          export BASHSCRIPTS_TOKEN="${{ secrets.BASHSCRIPTS_TOKEN }}"
-          export GITHUB_TOKEN="${{ secrets.BASHSCRIPTS_TOKEN }}"
-          export CI="true"
-          export GITHUB_ACTIONS="true"
-          echo "✅ Tokens exported, starting sync with laraxot org..."
-          # Pass laraxot to rewrite URLs from provtv to laraxot
           bash bashscripts/git/subtrees/sync_remote_repo.sh laraxot
         env:
-          BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
+          BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN || github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
           CI: "true"
           GITHUB_ACTIONS: "true"
 
-      - name: ✅ Sync Complete
+      - name: Commit synced changes
         run: |
-          echo "✅ Subtree synchronization completed successfully!"
-          echo ""
-          echo "📊 Summary:"
-          echo "- Synced all subtrees from gitmodules.ini"
-          echo "- Branch: ${{ github.ref_name }}"
-          echo "- Commit: ${{ github.sha }}"
+          git status --short
+
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit after sync"
+            exit 0
+          fi
+
+          git add -A .
+          # We don't reset bashscripts anymore to ensure everything is captured if needed,
+          # but usually bashscripts is in .gitignore or checked out as a separate path.
+
+          git commit -m "chore: sync subtrees [skip ci]"
+          git pull --rebase origin dev
+          git push origin HEAD:dev
+
+      - name: Sync Complete
+        run: |
+          echo "Subtree synchronization completed!"
+          echo "Branch: ${{ github.ref_name }}"
+          echo "Commit: ${{ github.sha }}"

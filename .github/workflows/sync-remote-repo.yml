@@ -66,13 +66,17 @@ jobs:
         run: |
           git status --short
 
-          if [ -z "$(git status --porcelain -- . ':(exclude)bashscripts')" ]; then
-            echo "No tracked changes produced by sync_remote_repo.sh"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes produced by sync_remote_repo.sh"
             exit 0
           fi
 
           git add -A .
-          git reset bashscripts || true
+          # We don't reset bashscripts anymore to ensure everything is captured if needed,
+          # but usually bashscripts is in .gitignore or checked out as a separate path.
+          # If it's a separate repo checkout inside the main one, git add -A might ignore it anyway
+          # unless it's a submodule.
+
           git commit -m "chore: persist synced remote repo changes [skip ci]"
           git pull --rebase origin dev
           git push origin HEAD:dev
