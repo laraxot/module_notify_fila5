@@ -22,6 +22,7 @@
 ## 🧪 **Qualità e Sviluppo**
 - ✅ **[PHPStan Analysis](./phpstan-level10-fixes.md)** - Report di conformità Level 10.
 - 🔬 **[Testing Guidelines](./testing.md)** - Verifica dell'isolamento dei dati tra tenant.
+- 🚀 **[Semantic Versioning & Release](./release.md)** - Workflow di rilascio automatico.
 - 🧹 **[PHPMD Fixes](./cyclomatic-complexity-report.md)** - Analisi della complessità della logica di routing.
 - 🐒 **[Chaos Monkey Tenant Isolation Checklist](./chaos-monkey-tenant-isolation-checklist.md)** - Checklist operativa per fault su multi-tenant/database.
 
