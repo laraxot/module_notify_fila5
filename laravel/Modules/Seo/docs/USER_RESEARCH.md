@@ -2,7 +2,6 @@
 
 **Module:** Seo  
 **Version:** 1.0.0  
-**Last Updated:** March 12, 2026  
 **Owner:** Product Team
 
 ---
@@ -85,4 +84,3 @@ Long-tail keywords drive qualified traffic.
 
 ---
 
-*Last Updated: March 12, 2026*

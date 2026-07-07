@@ -232,7 +232,6 @@ When creating new models in User module:
 
 ---
 
-*Last Updated: 17 October 2025*
 *Status: ✅ PHPStan Level 10 Compliant*
 
 
@@ -472,5 +471,4 @@ When creating new models in User module:
 
 ---
 
-*Last Updated: 17 October 2025*
 *Status: ✅ PHPStan Level 10 Compliant*

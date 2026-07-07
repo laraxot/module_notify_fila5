@@ -108,7 +108,6 @@
 - PHPMD: `UnusedFormalParameter` sulle closure passate a `state()`.
 
 **Fix**:
-- Aggiornato PHPDoc a `@var class-string<BaseModel>`.
 - Rimosso il parametro inutilizzato dalle closure `static fn () => [...]`.
 
 **Verifiche** (da `laravel/`):

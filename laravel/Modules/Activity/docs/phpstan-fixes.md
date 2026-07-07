@@ -28,7 +28,6 @@ public function __construct() {
 **File**: `app/Filament/Resources/ActivityResource/Pages/EditActivity.php`
 **Errore**: `PHPDoc tag @var with type array<string, Filament\Actions\Action> is not subtype of native type array{Filament\Actions\DeleteAction}`
 **Causa**: Il PHPDoc dichiarava un tipo generico ma il metodo restituiva un tipo specifico
-**Soluzione**: Aggiornato il PHPDoc per riflettere il tipo effettivo restituito
 
 ```php
 // PRIMA (ERRATO)
@@ -48,7 +47,6 @@ return [
 **File**: `app/Filament/Resources/ActivityResource/Pages/ListActivities.php`
 **Errore**: `PHPDoc tag @var with type array<string, Filament\Tables\Columns\Column> is not subtype of native type array{Filament\Tables\Columns\TextColumn, ...}`
 **Causa**: Il PHPDoc dichiarava un tipo generico ma il metodo restituiva solo TextColumn
-**Soluzione**: Aggiornato il PHPDoc per riflettere i tipi specifici delle colonne
 
 ```php
 // PRIMA (ERRATO)
@@ -71,13 +69,11 @@ return [
 ### 4. PHPDoc Type Mismatch in Snapshot Resource
 **File**: `app/Filament/Resources/SnapshotResource/Pages/ListSnapshots.php`
 **Errore**: Simile al precedente per le colonne della tabella snapshot
-**Soluzione**: Aggiornato il PHPDoc per riflettere i tipi specifici delle colonne
 
 ### 5. PHPDoc Type Mismatch in StoredEvent Resource
 **File**: `app/Filament/Resources/StoredEventResource/Pages/ListStoredEvents.php`
 **Errore**: `PHPDoc tag @var with type array<string, Filament\Tables\Columns\Column> is not subtype of native type array{Filament\Tables\Columns\TextColumn, Filament\Tables\Columns\TextColumn, Filament\Tables\Columns\ViewColumn}`
 **Causa**: Il PHPDoc dichiarava un tipo generico ma il metodo restituiva tipi specifici misti
-**Soluzione**: Aggiornato il PHPDoc per riflettere i tipi specifici delle colonne
 
 ```php
 // PRIMA (ERRATO)

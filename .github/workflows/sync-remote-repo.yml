@@ -1,20 +1,16 @@
 name: Sync Remote Repo
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # Run daily at midnight
-  workflow_dispatch:
-    inputs:
-      org:
-        description: 'Organization to rewrite URLs to (optional)'
-        required: false
-        type: string
+  push:
+    branches:
+      - dev
 
 permissions:
   contents: write
 
 jobs:
   sync:
+    if: github.ref == 'refs/heads/dev'
     runs-on: ubuntu-latest
     env:
       CI: true
@@ -27,27 +23,30 @@ jobs:
           token: ${{ secrets.BASHSCRIPTS_TOKEN }}
           submodules: false
 
-      - name: Configure Git for Auth
+      - name: Configure Git authentication
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          # Convert SSH URLs to HTTPS and use the token for authentication
           git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "git@github.com:"
           git config --global url."https://x-access-token:${{ secrets.BASHSCRIPTS_TOKEN }}@github.com/".insteadOf "https://github.com/"
 
-      - name: Checkout bashscripts (private repo, develop)
+      - name: Checkout bashscripts repository
         uses: actions/checkout@v4
         with:
           repository: laraxot/bashscripts_fila5
-          ref: develop
+          ref: dev
           token: ${{ secrets.BASHSCRIPTS_TOKEN }}
           path: bashscripts
           fetch-depth: 0
 
-      - name: Run Sync Script
+      - name: Verify sync prerequisites
+        run: |
+          test -f gitmodules.ini
+          test -f bashscripts/git/subtrees/sync_remote_repo.sh
+          bash -n bashscripts/git/subtrees/sync_remote_repo.sh
+
+      - name: Run remote sync
         run: |
           chmod +x bashscripts/git/subtrees/sync_remote_repo.sh
-          ./bashscripts/git/subtrees/sync_remote_repo.sh "${{ inputs.org }}"
-        env:
-          BASHSCRIPTS_TOKEN: ${{ secrets.BASHSCRIPTS_TOKEN }}
+          bashscripts/git/subtrees/sync_remote_repo.sh

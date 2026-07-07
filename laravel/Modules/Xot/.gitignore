@@ -148,3 +148,10 @@ packages/temp/
 # ==============================================
 lang/lang/
 docs/archive/
+
+# Copy files
+* copy*
+*copy
+*.copy
+* copy.*
+copy_*

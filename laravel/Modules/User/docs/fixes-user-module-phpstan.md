@@ -90,7 +90,6 @@ class PasswordData extends Data
 **Modifiche ai Metodi**:
 - Rimosso il metodo `setFieldName()` (incompatibile con proprietà readonly)
 - Modificato `getPasswordConfirmationFormComponent()` per accettare `$field_name` come parametro
-- Aggiornato `getPasswordFormComponents()` per passare il parametro correttamente
 
 ### 3. Actions Socialite - Proprietà Readonly
 

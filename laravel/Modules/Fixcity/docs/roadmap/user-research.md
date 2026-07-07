@@ -2,7 +2,6 @@
 
 > **Document ID**: FC-RESEARCH-001  
 > **Version**: 1.0  
-> **Last Updated**: 2026-03-13  
 > **Owner**: Head of User Research  
 > **Research Period**: Q4 2025 - Q1 2026
 

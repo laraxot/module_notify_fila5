@@ -6,7 +6,6 @@
 |-------|--------|
 | **Version** | 1.0.0 |
 | **Status** | Approved |
-| **Last Updated** | 2026-03-03 |
 | **Owner** | User Team |
 | **Module** | Rating |
 | **Repository** | laraxot/module_rating_fila5 |
