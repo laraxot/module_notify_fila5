@@ -1,0 +1,70 @@
+{
+    "id": "tests.notizia",
+    "slug": "tests.notizia",
+    "title": {
+        "it": "Dettaglio Notizia",
+        "en": "News Detail"
+    },
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/"},
+                        {"label": "Novità", "url": "/novita"},
+                        {"label": "Dettaglio", "url": null}
+                    ]
+                }
+            },
+            {
+                "type": "news_header",
+                "data": {
+                    "view": "pub_theme::components.blocks.news.header",
+                    "title": "Nuovo orario uffici comunali",
+                    "date": "15 Marzo 2026",
+                    "category": "Comunicati",
+                    "author": "Ufficio Comunicazione",
+                    "reading_time": "2 min"
+                }
+            },
+            {
+                "type": "news_content",
+                "data": {
+                    "view": "pub_theme::components.blocks.news.content",
+                    "content": "<p>Dal 1 aprile 2026 il nuovo orario di apertura al pubblico degli uffici comunali sarà il seguente:</p><ul><li>Lunedì: 9:00-13:00</li><li>Martedì: 9:00-13:00 / 15:00-17:00</li><li>Mercoledì: 9:00-13:00</li><li>Giovedì: 9:00-13:00 / 15:00-17:00</li><li>Venerdì: 9:00-13:00</li></ul><p>Per informazioni contattare l'URP al numero 06 1234567.</p>",
+                    "image": "/images/news/orari-uffici.jpg",
+                    "image_alt": "Ufficio comunale"
+                }
+            },
+            {
+                "type": "news_tags",
+                "data": {
+                    "view": "pub_theme::components.blocks.news.tags",
+                    "tags": ["Orari", "Uffici", "Comunicazione"]
+                }
+            },
+            {
+                "type": "related_news",
+                "data": {
+                    "view": "pub_theme::components.blocks.news.related",
+                    "title": "Notizie correlate",
+                    "items": [
+                        {
+                            "title": "Attivazione nuovo portale servizi",
+                            "date": "10 Marzo 2026",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Bonus trasporti attivi",
+                            "date": "5 Marzo 2026",
+                            "url": "#"
+                        }
+                    ]
+                }
+            }
+        ],
+        "en": []
+    }
+}
