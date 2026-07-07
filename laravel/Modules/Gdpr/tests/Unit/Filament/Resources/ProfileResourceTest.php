@@ -13,7 +13,7 @@ test('profile_resource_extends_xot_base_resource', function () {
 });
 
 test('profile_resource_model_is_profile', function () {
-    $resource = new ProfileResource;
+    $resource = new ProfileResource();
     expect($resource->getModel())->toBe(Modules\Gdpr\Models\Profile::class);
 });
 

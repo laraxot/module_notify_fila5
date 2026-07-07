@@ -9,7 +9,7 @@ uses(\Modules\Gdpr\Tests\TestCase::class);
 use Modules\Gdpr\Actions\Consent\CollectGdprConsentsAction;
 
 test('CollectGdprConsentsAction returns correct array', function () {
-    $action = new CollectGdprConsentsAction;
+    $action = new CollectGdprConsentsAction();
     $result = $action->execute(true, true, false);
 
     expect($result)->toBeArray()
@@ -20,7 +20,7 @@ test('CollectGdprConsentsAction returns correct array', function () {
 });
 
 test('CollectGdprConsentsAction handles all false', function () {
-    $action = new CollectGdprConsentsAction;
+    $action = new CollectGdprConsentsAction();
     $result = $action->execute(false, false, false);
 
     expect($result['privacy_accepted'])->toBeFalse()
@@ -29,7 +29,7 @@ test('CollectGdprConsentsAction handles all false', function () {
 });
 
 test('CollectGdprConsentsAction handles all true', function () {
-    $action = new CollectGdprConsentsAction;
+    $action = new CollectGdprConsentsAction();
     $result = $action->execute(true, true, true);
 
     expect($result['privacy_accepted'])->toBeTrue()
