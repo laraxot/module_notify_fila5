@@ -76,6 +76,7 @@ use Webmozart\Assert\Assert;
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @property User|null $owner
+ * @property User|null $assignee
  * @property TicketPriorityEnum|null $priority
  * @property Collection<int, TicketRelation> $relations
  * @property int|null $relations_count
@@ -334,12 +335,6 @@ class Ticket extends XotBaseModel implements HasMedia
         return $this->hasMany(TicketActivity::class, 'ticket_id', 'id');
     }
 
-    /*
-     public function comments(): HasMany
-     {
-         return $this->hasMany(TicketComment::class, 'ticket_id', 'id');
-     }
-         */
     /*-- e' in comment
     public function subscribers(): BelongsToMany
     {
@@ -481,21 +476,53 @@ class Ticket extends XotBaseModel implements HasMedia
         return '#';
     }
 
-    public function assignee(): BelongsTo
-    {
-        return $this->belongsTo(config('auth.providers.users.model'), 'assignee_id');
+    /**
+ * @return BelongsTo<User, $this>
+ */
+public function assignee(): BelongsTo
+{
+    /** @var class-string<User> $userModel */
+    $userModel = config('auth.providers.users.model');
+
+    return $this->belongsTo($userModel, 'assignee_id');
+}
+
+    /**
+ * @return HasMany<Modules\Fixcity\Models\TicketComment, $this>
+ */
+public function comments(): HasMany
+{
+    return $this->hasMany(TicketComment::class);
+}
+
+/**
+ * Set the status of the ticket.
+ *
+ * @param  string|TicketStatusEnum  $status
+ * @return void
+ */
+public function setStatus(string|TicketStatusEnum $status): void
+{
+    if (is_string($status)) {
+        $status = TicketStatusEnum::tryFrom($status);
     }
 
-    public function comments(): HasMany
-    {
-        return $this->hasMany(TicketComment::class);
+    if ($status instanceof TicketStatusEnum) {
+        $this->setStatus($status->value);
     }
+}
 
-    public function subscribers(): BelongsToMany
-    {
-        return $this->belongsToMany(config('auth.providers.users.model'), 'ticket_subscribers')
-            ->withTimestamps();
-    }
+/**
+ * @return BelongsToMany<User, $this>
+ */
+public function subscribers(): BelongsToMany
+{
+    /** @var class-string<User> $userModel */
+    $userModel = config('auth.providers.users.model');
+
+    return $this->belongsToMany($userModel, 'ticket_subscribers')
+        ->withTimestamps();
+}
 
     public function registerMediaCollections(): void
     {

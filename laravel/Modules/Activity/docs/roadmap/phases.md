@@ -21,3 +21,5 @@
 - Integrazione con strumenti di analisi per monitoraggio proattivo delle operazioni critiche.
 - Possibili notifiche automatiche verso il modulo Notify in caso di pattern sospetti.
 
+Criteri di accettazione: [acceptance-criteria.md](acceptance-criteria.md). Metriche: [metrics.md](metrics.md).
+

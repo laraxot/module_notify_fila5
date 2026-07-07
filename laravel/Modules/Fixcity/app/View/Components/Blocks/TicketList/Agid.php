@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\View\Component;
 use Modules\Fixcity\Enums\ReportStatusEnum;
 
+use function Safe\json_decode;
+
 class Agid extends Component
 {
     public function getReports(): Collection
@@ -27,16 +29,16 @@ class Agid extends Component
             ])
             ->orderBy('created_at', 'desc')
             ->get()
-            ->map(function ($report) {
+            ->map(function (object $report): array {
                 return [
                     'id' => $report->id,
                     'title' => $report->title,
                     'description' => $report->description,
-                    'location' => json_decode($report->location, true),
+                    'location' => json_decode((string) $report->location, true),
                     'address' => $report->address,
                     'category' => $report->category,
-                    'status' => ReportStatusEnum::from($report->status),
-                    'metadata' => json_decode($report->metadata, true),
+                    'status' => ReportStatusEnum::from((int) $report->status),
+                    'metadata' => json_decode((string) $report->metadata, true),
                     'created_at' => $report->created_at,
                 ];
             });

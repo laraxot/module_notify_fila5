@@ -16,16 +16,63 @@
 - DO NOT define table() method in Resource classes
 - DO NOT use ->label() method (handled by LangServiceProvider)
 - DO NOT define $navigationIcon, $modelLabel (handled by translations)
+- getHeaderActions() MUST return array with STRING keys, not indexed array
+  - CORRECT: ['delete' => DeleteAction::make(), 'edit' => EditAction::make()]
+  - WRONG: [DeleteAction::make(), EditAction::make()]
 
-## LIST PAGES
-- ALWAYS extend XotBaseListRecords
-- Use specific methods:
-  - getTableColumns(): array - For table columns
-  - getTableFilters(): array - For table filters
-  - getTableActions(): array - For row actions
-  - getTableBulkActions(): array - For bulk actions
-  - getTableHeaderActions(): array - For header actions
-- Use associative arrays with string keys for components
+## FILAMENT PAGE METHODS - CRITICAL TYPE REQUIREMENTS
+
+### getHeaderActions() - MUST return array<string, Action|ActionGroup>
+- **ALWAYS** use associative arrays with string keys
+- **NEVER** return indexed arrays like `array{Action, Action}`
+- **NEVER** use numeric indices
+
+#### CORRECT Pattern
+```php
+protected function getHeaderActions(): array
+{
+    return [
+        'delete' => DeleteAction::make(),
+        'translate' => Action::make('translate')
+            ->label('Translate')
+            ->icon('heroicon-o-language'),
+    ];
+}
+```
+
+#### WRONG Pattern
+```php
+// WRONG - indexed array
+protected function getHeaderActions(): array
+{
+    return [
+        DeleteAction::make(),
+        Action::make('translate'),
+    ];
+}
+
+// WRONG - typed as array{} without keys
+protected function getHeaderActions(): array
+{
+    return [
+        DeleteAction::make(),
+    ];
+}
+```
+
+### getTableActions() - MUST return array<string, Action|ActionGroup>
+- **ALWAYS** use associative arrays with string keys
+- Same pattern as getHeaderActions()
+
+### getTableBulkActions() - MUST return array<string, Action|ActionGroup>
+- **ALWAYS** use associative arrays with string keys
+- Same pattern as getHeaderActions()
+
+### Why String Keys Are Required
+1. **Type Safety**: PHPStan requires string keys for proper type checking
+2. **Testing**: Actions can be targeted by key in tests
+3. **Customization**: Keys allow easier action manipulation
+4. **Consistency**: All Filament action methods follow this pattern
 
 ## MIGRATIONS
 - ALWAYS extend XotBaseMigration
@@ -64,6 +111,8 @@
 - Comment out non-existent model relations
 - Document when they will be implemented
 - DO NOT implement newFactory() method when extending BaseModel
+- **CRITICAL**: Eloquent properties (like $exists) are NOT methods - don't define them as abstract methods in contracts
+- **CRITICAL**: Eloquent Model provides $exists, $timestamps, $incrementing as properties, not methods
 
 ## SERVICE PROVIDERS
 - ALWAYS call parent::boot() in boot() methods
@@ -98,3 +147,50 @@
 - Run PHPStan level 7 before starting work
 - Process: 1) Update docs 2) Study 3) Fix
 - Document all changes and decisions
+
+## DOCUMENTATION TEMPORAL STRINGS
+- NEVER include temporal strings in .md files
+- Remove patterns like:
+  - **Last Updated**: 2026-03-02
+  - **Next Review**: 2026-03-16
+  - **Version**: 12.0.0
+  - Updated: January 2025
+  - Gennaio 2025
+  - Any date-based metadata
+- Keep documentation timeless and version-agnostic
+- Use git history for temporal tracking
+
+## CRITICAL ARCHITECTURAL RULES
+
+### NO SERVICE CLASSES - USE SPATIE QUEUEABLE ACTIONS
+- **NEVER** create Service classes
+- **ALWAYS** use Spatie\QueueableAction pattern via `create-action` skill
+- Actions should extend `Modules\Xot\Actions\BaseAction` or implement `Spatie\QueueableAction\QueueableAction`
+- Actions are single-purpose, testable, and queueable
+- Example location: `Modules/ModuleName/app/Actions/ActionName.php`
+
+### NO ROUTES/CONTROLLERS - USE VOLT + FOLIO + FILAMENT
+- **NEVER** create route files (routes/*.php) for module functionality
+- **NEVER** create Controllers for module functionality
+- **ALWAYS** use:
+  - **Volt** for single-file Livewire components
+  - **Folio** for file-based routing (resources/views/pages/)
+  - **Filament** for admin panel resources and widgets
+  - **Laraxot** patterns and base classes
+- Only use routes/ for module registration routes (e.g., route service providers)
+- Study base_laravelpizza Cms module for reference implementation
+
+### LOGGING BEST PRACTICES - CRITICAL FOR PERFORMANCE
+- **NEVER** use `Log::info()` for routine operations or successful completions
+- **ALWAYS** use `Log::error()` only for actual errors and exceptions
+- **ALWAYS** use `Log::warning()` only for conditions that require attention
+- **ALWAYS** use `Log::debug()` only for development debugging (never in production)
+- **PERFORMANCE IMPACT**: Excessive logging can slow down requests by 30-50%
+- **BEST PRACTICE**: Log only when something goes wrong or requires attention
+- **WRONG**: `Log::info('User logged in', ['user_id' => $id])`
+- **WRONG**: `Log::info('Ticket created', ['ticket_id' => $id])`
+- **WRONG**: `Log::info('Notification sent', ['recipient' => $email])`
+- **CORRECT**: `Log::error('Login failed', ['user_id' => $id, 'reason' => $error])`
+- **CORRECT**: `Log::warning('Rate limit exceeded', ['user_id' => $id])`
+- **MONITORING**: Use Laravel Telescope, Pulse, or dedicated monitoring tools instead of logs
+- **AUDIT TRAIL**: Use database tables (activities, audit_logs) not log files

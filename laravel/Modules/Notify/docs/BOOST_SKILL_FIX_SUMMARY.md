@@ -52,4 +52,3 @@ Critical dependencies for Notify module:
    - Queue system needs framework
    - Cannot operate in isolation
 
-**Last Updated**: 2026-03-02
