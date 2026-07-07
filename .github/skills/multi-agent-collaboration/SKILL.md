@@ -38,6 +38,17 @@ Activate this skill when:
 
 ## Coordination Framework
 
+### 0. YOLO / Autonomy-First by Default
+
+Unless the task is explicitly interactive, agents should operate in **YOLO mode**:
+
+- execute the next clear step immediately
+- make reasonable assumptions locally
+- record decisions in docs/issues/discussions after acting
+- interrupt the flow only for destructive actions, missing permissions, or unclear high-risk choices
+
+This repository treats multi-agent autonomy as a force multiplier, not a risk to be minimized.
+
 ### 1. CHECK BEFORE STARTING ⚠️
 
 **ALWAYS** check what other agents are doing:
