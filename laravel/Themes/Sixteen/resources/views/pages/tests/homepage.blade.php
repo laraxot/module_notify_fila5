@@ -13,7 +13,7 @@ middleware(PageSlugMiddleware::class);
 new class extends Component {
     public string $pageSlug = 'tests.homepage';
     public array $data = [];
-    
+
     public function getFeaturedServices(): array
     {
         return [
@@ -25,7 +25,7 @@ new class extends Component {
             ['title' => 'Polizia locale', 'description' => 'Sicurezza e ordinanze comunali', 'url' => '#', 'icon' => 'it-shield'],
         ];
     }
-    
+
     public function getLatestNews(): array
     {
         return [
@@ -34,7 +34,7 @@ new class extends Component {
             ['title' => 'Eventi di primavera', 'excerpt' => 'Calendario completo degli eventi primaverili in programma.', 'date' => '5 Mar 2026', 'url' => '#'],
         ];
     }
-    
+
     public function getEvents(): array
     {
         return [
@@ -43,7 +43,7 @@ new class extends Component {
             ['title' => 'Mostra fotografica', 'description' => 'Galleria d\'arte - Fotografie del territorio.', 'date' => '30 Mar 2026', 'url' => '#'],
         ];
     }
-    
+
     public function getTopics(): array
     {
         return [
@@ -62,15 +62,15 @@ new class extends Component {
 
 <x-layouts.app>
     @volt('tests.homepage')
-    
-    {{-- Skip Links --}}
-    <a class="skiplinks" href="#main">Vai al contenuto principale</a>
-    
-    {{-- Header --}}
-    <x-section slug="header" :data="$headerData ?? []" />
-    
-    {{-- Main Content --}}
-    <main class="container" id="main">
+    <div>
+        {{-- Skip Links --}}
+        <a class="skiplinks" href="#main">Vai al contenuto principale</a>
+
+        {{-- Header --}}
+        <x-section slug="header" :data="$headerData ?? []" />
+
+        {{-- Main Content --}}
+        <main class="container" id="main">
         {{-- Hero Section --}}
         <section class="hero-section py-12">
             <div class="container">
@@ -83,7 +83,6 @@ new class extends Component {
             </div>
         </section>
         
-        {{-- Featured Services --}}
         <section class="featured-services py-8">
             <div class="container">
                 <h2 class="title-xxlarge mb-6">Servizi in evidenza</h2>
@@ -94,17 +93,12 @@ new class extends Component {
                             <div class="card card-bg">
                                 <div class="card-body">
                                     <h3 class="card-title">
-                                        <svg class="icon icon-primary" aria-hidden="true">
-                                            <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#' . $service['icon']) }}"></use>
-                                        </svg>
                                         {{ $service['title'] }}
                                     </h3>
                                     <p class="card-text">{{ $service['description'] }}</p>
                                     <a href="{{ $service['url'] }}" class="read-more">
                                         <span class="text">Leggi di più</span>
-                                        <svg class="icon icon-primary icon-xs" aria-hidden="true">
-                                            <use xlink:href="{{ asset('themes/Sixteen/assets/svg/sprites.svg#icon-arrow-right') }}"></use>
-                                        </svg>
+                                        <x-filament::icon icon="heroicon-o-arrow-right" class="icon icon-sm" />
                                     </a>
                                 </div>
                             </div>
@@ -206,6 +200,6 @@ new class extends Component {
     
     {{-- Footer --}}
     <x-section slug="footer" :data="$footerData ?? []" tpl="full" />
-    
+    </div>
     @endvolt
 </x-layouts.app>
