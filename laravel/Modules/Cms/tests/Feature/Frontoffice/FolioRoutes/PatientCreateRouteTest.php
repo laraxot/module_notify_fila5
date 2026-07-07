@@ -2,17 +2,19 @@
 
 declare(strict_types=1);
 
+namespace Modules\Cms\Tests\Feature\Frontoffice\FolioRoutes;
+
 use Modules\Cms\Tests\TestCase;
 
 uses(TestCase::class);
 
-it('GET /it/events acceptable (LaravelPizza Meetup)', function (): void {
+it('GET /it/patient/create acceptable', function (): void {
     /** @phpstan-ignore-next-line property.notFound */
-    $res = $this->get('/it/events');
+    $res = $this->get('/it/patient/create');
 
     $status = (int) $res->getStatusCode();
     if ($status >= 500) {
-        test()->markTestSkipped('Events (LaravelPizza) route returned server error in this install.');
+        test()->markTestSkipped('Patient create route returned server error in this install.');
 
         return;
     }
