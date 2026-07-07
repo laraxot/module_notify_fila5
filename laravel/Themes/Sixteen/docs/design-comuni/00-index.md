@@ -13,6 +13,10 @@
 - **[FAIL_PAGES_ANALYSIS.md](./FAIL_PAGES_ANALYSIS.md)** - Analisi pagine fail
 - **[SEGNALAZIONI_ELENCO_ANALISI.md](./SEGNALAZIONI_ELENCO_ANALISI.md)** - Analisi segnalazioni elenco
 - **[SEGNALAZIONI_ELENCO_REPORT.md](./SEGNALAZIONI_ELENCO_REPORT.md)** - Report segnalazioni elenco (95.7% - TARGET RAGGIUNTO)
+- **[SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md](./SEGNALAZIONI_ELENCO_VISUAL_ANALYSIS.md)** - Analisi visiva dettagliata
+- **[SEGNALAZIONI_ELENCO_CSS_REPORT.md](./SEGNALAZIONI_ELENCO_CSS_REPORT.md)** - Report CSS fix (+327 lines)
+- **[BATCH_PAGES_ANALYSIS.md](./BATCH_PAGES_ANALYSIS.md)** - Analisi batch 49 pagine
+- **[BATCH_PROGRESS_REPORT.md](./BATCH_PROGRESS_REPORT.md)** - Report progresso batch
 
 ## Current focus
 
@@ -37,6 +41,9 @@ Il lavoro visivo resta limitato a:
 
 ### Master Index
 - [docs/design-comuni/MASTER_INDEX.md](../../../docs/design-comuni/MASTER_INDEX.md) - Index globale progetto
+
+### Visual Comparison Reports
+- [visual-comparison/homepage-visual-report-2026-04-03.md](./visual-comparison/homepage-visual-report-2026-04-03.md) - Homepage screenshot comparison + fix list
 
 ### Modulo Cms
 - [Modules/Cms/docs/DESIGN_COMUNI_INDEX.md](../../../Modules/Cms/docs/DESIGN_COMUNI_INDEX.md) - Index completo modulo Cms

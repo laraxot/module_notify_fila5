@@ -1,241 +1,202 @@
-# Sixteen Theme - Design Comuni Italia Documentation Index
+# Sixteen Theme Documentation Index
 
-**Theme**: Sixteen  
-**Framework**: Laravel + Tailwind CSS 4.x + Alpine.js  
-**Status**: 🟢 **PRODUCTION READY** (Phase 10 Complete)
+## 🎯 Quick Links
 
----
+### Current Work
+- **[Segnalazioni Elenco Analysis](./pages/segnalazioni-elenco/)**
+  - HTML Structure Diff: 59 extra elements (+490px height)
+  - Visual comparison: Desktop & Tablet viewports
+  - Priority: Medium
 
-## 📋 Quick Navigation
+### Critical Pages (95%+ parity - ready for CSS fixes)
+1. [Homepage](./pages/homepage/) - ✅ 97% parity (132px diff)
+2. [FAQ (Domande Frequenti)](./pages/domande-frequenti/) - ✅ 96% parity (121px diff)
+3. [Persona](./pages/persona/) - ✅ 100% parity (0px diff)
 
-### 🎯 Current Status
-- **[Phase 10: Final Verification & Cleanup](./PHASE-10-VERIFICATION-REPORT.md)** ✅ COMPLETE
-  - All interactive features: **Verified** ✅
-  - Responsive design: **All breakpoints OK** ✅
-  - Performance: **Optimized** ✅
-  - Accessibility: **WCAG 2.1 AA framework** ✅
-  - Visual parity: **100% confirmed** ✅
-  - Status: **PRODUCTION READY**
-
-### 📊 Phase Documentation
-
-| Phase | Status | Focus | Docs |
-|-------|--------|-------|------|
-| 1-5 | ✅ Done | HTML structure, layout centering | See [html-structure-analysis/](./html-structure-analysis/) |
-| 6 | ✅ Done | Alpine.js setup | [PHASE6-ALPINE-STATUS.md](./PHASE6-ALPINE-STATUS.md) |
-| 7 | ✅ Done | CSS visual fixes | [html-structure-analysis/CSS-FIX-IMPLEMENTATION-REPORT.md](./html-structure-analysis/CSS-FIX-IMPLEMENTATION-REPORT.md) |
-| 8 | ✅ Done | Alpine investigation | [PHASE-8-ALPINE-ROOT-CAUSE.md](./PHASE-8-ALPINE-ROOT-CAUSE.md) |
-| 9 | ✅ Done | Alpine integration | [PHASE-9-IMPLEMENTATION-REPORT.md](./PHASE-9-IMPLEMENTATION-REPORT.md) |
-| 10 | ✅ Done | Final verification | [PHASE-10-VERIFICATION-REPORT.md](./PHASE-10-VERIFICATION-REPORT.md) |
+### Strategic Documents
+- [Parity Assessment & Roadmap](./PARITY-ASSESSMENT-FINDINGS.md)
+- [Container Width Resolution](./CONTAINER-WIDTH-RESOLUTION.md)
+- [Section Structure Analysis](./SECTION-STRUCTURE-DIFF.md)
+- [GitHub Issues Mapping](./GITHUB-ISSUES-MAPPING.json)
 
 ---
 
-## 📁 Document Structure
+## 📊 Analysis Tools
 
+### Located in `bashscripts/`
+
+**Batch Analysis:**
+- `analysis/comprehensive-parity-check.mjs` - Tag-count analysis (flawed metric)
+- `analysis/visual-first-assessment.mjs` - Visual height comparison (accurate)
+- `analysis/visual-section-diff.mjs` - Section-level metrics
+- `analysis/html-structure-diff.mjs` - Deep element counting
+
+**Single Page Analysis:**
+- `analysis/page-detailed-analysis.mjs` - Full page metrics + screenshots
+- `analysis/generate-page-comparison.mjs` - Multi-viewport visual comparisons
+- `analysis/compare-html-structure.mjs` - Detailed HTML structure
+
+**GitHub Integration:**
+- `github/create-design-issues.mjs` - Batch issue creation (54 pages)
+
+---
+
+## 🛠️ CSS/JS Modification Guide
+
+### Files to Modify
+1. **Theme CSS**: `resources/css/app.css`
+   - Line 852: CSS variables
+   - Line 16-18: @tailwind imports
+   - End of file: Wave fixes (homepage, footer, etc.)
+
+2. **Tailwind Config**: `tailwind.config.js`
+   - Line 170: Breakpoint configuration
+   - Line 190: Core plugin settings
+
+3. **Container Overrides**: `resources/css/container-override.css`
+   - Media query breakpoints
+   - Container sizing
+
+4. **Build Pipeline**:
+   ```bash
+   cd laravel/Themes/Sixteen
+   npm run build   # Compiles CSS/JS
+   npm run copy    # Copies to public_html/
+   ```
+
+---
+
+## ✅ Completed Work
+
+### Wave 1: Container Width Fix
+- ✅ Changed `--dc-page-max-width` from 1200px → 1320px
+- ✅ Fixed Tailwind @import strategy
+- ✅ Updated breakpoints in config
+- Result: All pages now properly centered (300px offset)
+
+### Wave 2: Gradient & Visual Fixes
+- ✅ Changed header gradient: Blue → Emerald
+- ✅ Applied to all pages
+
+### Wave 3: Homepage Specific Fixes
+- ✅ Header height: 222px
+- ✅ Social icons height: 27px
+- ✅ Footer transparent background
+- ✅ Evidence section max-height: 1102px (overflow:hidden)
+- ✅ Governance carousel hidden
+
+---
+
+## 📈 Parity Assessment Results
+
+### Metric: Visual Height Comparison (Most Accurate)
 ```
-docs/
-├── INDEX.md (this file)
-│   └── Master navigation for all theme documentation
-│
-├── html-structure-analysis/
-│   ├── INDEX.md
-│   ├── STRUCTURE-COMPARISON.md (element count analysis)
-│   ├── CSS-FIX-STRATEGY.md (5 fixes planned)
-│   └── CSS-FIX-IMPLEMENTATION-REPORT.md (deployed fixes)
-│
-├── PHASE-8-ALPINE-ROOT-CAUSE.md
-│   └── Root cause analysis: Template mismatch, not sanitization
-│
-├── PHASE-9-IMPLEMENTATION-REPORT.md ✅ NEW
-│   └── Alpine.js porting to app.blade.php - COMPLETE
-│
-├── PHASE-9-SCREENSHOT-ANALYSIS.md ✅
-│   └── Visual verification and test results
-│
-├── PHASE-10-VERIFICATION-REPORT.md ✅ NEW
-│   └── Final verification, testing, and production readiness
-│
-├── PHASE6-ALPINE-STATUS.md
-│   └── Alpine.js implementation blocker (RESOLVED)
-│
-└── 
-│
-├── design-comuni/screenshots/domande-frequenti/README.md
-│   └── FAQ parity analysis, screenshots, and residual gaps
-```
-
----
-
-## 🎨 Visual Parity Progress
-
-### HTML Structure: ✅ EXCELLENT (98.3%)
-- Element count variance: +1.7% (857 vs 843)
-- Links: Perfect match (139 = 139)
-- Sections, headers, footers: All aligned
-- Status: **APPROVED FOR CSS FIXES**
-
-### CSS Fixes: ✅ DEPLOYED (5/5)
-
-| # | Issue | Solution | File | Status |
-|---|-------|----------|------|--------|
-| 1 | Link colors (white) | #007A52 green | `design-comuni-visual-fix.css` | ✅ Live |
-| 2 | Footer background | #1a3a42 color | `design-comuni-visual-fix.css` | ✅ Live |
-| 3 | Header height (-18px) | padding adjustments | `design-comuni-visual-fix.css` | ✅ Live |
-| 4 | H1 color (-1 RGB) | #191919 exact | `design-comuni-visual-fix.css` | ✅ Live |
-| 5 | Footer height (-19px) | spacing fix | `design-comuni-visual-fix.css` | ✅ Live |
-
-### Alpine.js: ⏸️ BLOCKED
-- Issue: Blade templates not rendering Alpine directives
-- Root cause: CMS view resolution via `pub_theme::` namespace
-- Status: Lower priority, investigating
-
----
-
-## 🚀 Key Files to Modify
-
-### CSS Files
-- **`resources/css/app.css`** - Main entry point, imports all CSS
-- **`resources/css/design-comuni-visual-fix.css`** - 5 CSS fixes (JUST ADDED)
-- **`resources/css/footer-override.css`** - Footer styling
-- **`resources/css/container-override.css`** - Container/grid layout
-- **`tailwind.config.js`** - Tailwind configuration + Design Comuni tokens
-
-### Blade Templates (reference only)
-- **`resources/views/pages/tests/[slug].blade.php`** - Test page template
-- **`resources/views/components/blocks/header/`** - Header components
-- **`resources/views/components/blocks/footer/`** - Footer components
-
-### Build & Deploy
-```bash
-cd laravel/Themes/Sixteen
-
-# Build CSS
-npm run build
-
-# Deploy to public_html
-npm run copy
-
-# Clean old assets
-npm run clean  # if available
+Homepage:      132px diff  (97% parity) ✅
+FAQ:           121px diff  (96% parity) ✅
+Persona:         0px diff (100% parity) ✅
+Segnalazioni:  490px diff  (85% parity) ⚠️
 ```
 
----
-
-## 📊 Current Metrics
-
-| Metric | Value | Status |
-|--------|-------|--------|
-| HTML Match | 98.3% | ✅ Excellent |
-| CSS Fixes | 5/5 deployed | ✅ Complete |
-| Build Time | 1.34s | ✅ Fast |
-| CSS Size | 770 KB | ✅ Acceptable |
-| Visual Parity | ~95% estimated | 🟡 Pending verification |
+### Why Tag-Count Metric Failed
+- Initial metric: Count h1, h2, h3, forms, buttons, etc.
+- Result: All 54 pages <70% parity
+- **Problem**: Content variations don't indicate structural differences
+- **Solution**: Visual height is more reliable than element counting
 
 ---
 
-## 🔧 Technical Stack
+## 🔍 Key Insights
 
-- **CSS Framework**: Tailwind CSS 4.x (JIT mode)
-- **Font**: Titillium Web (Google Fonts)
-- **Build Tool**: Vite 7.3.1
-- **Primary Color**: #007A52 (Design Comuni Green)
-- **No Bootstrap Italia CDN**: ✅ Confirmed
-- **Alpine.js**: v3.15.9 (ready, view resolution issue)
+### Container Width Mystery (SOLVED)
+**Problem**: Pages appeared off-center, not matching reference
+**Root Cause**: CSS variable `--dc-page-max-width: 1200px` with !important
+**Solution**: Changed variable to 1320px in app.css line 852
+**Learning**: Always check for CSS variables in parent scopes
 
----
+### Governance Carousel (SOLVED)
+**Problem**: Homepage had extra carousel not in reference design
+**Cause**: JSON `"active": true` in block-calendario configuration
+**Solution**: Hidden with CSS (data-driven, but CSS acceptable for now)
 
-## ✅ Verification Checklist
+### CSS Selector Complexity (UNRESOLVED)
+**Issue**: nth-child selectors for card hiding returning 0 matches
+**Current Workaround**: Using overflow:hidden on parent container
+**Status**: Needs further investigation with DevTools
 
-### HTML Structure
-- [x] Element counts analyzed (857 vs 843)
-- [x] All major tags match (links, headings, sections)
-- [x] Structure variance: +1.7% (acceptable)
-- [x] Approved for CSS fixes
-
-### CSS Fixes
-- [x] 5 fixes identified and prioritized
-- [x] design-comuni-visual-fix.css created
-- [x] Import added to app.css
-- [x] Build successful (1.34s)
-- [x] Deployed to public_html
-- [x] Color values verified (#007A52 present)
-
-### Deployment
-- [x] CSS file in public_html/themes/Sixteen/assets/
-- [x] Manifest.json updated
-- [x] Hash-based cache busting active
-- [x] No build errors
-
-### Next Steps
-- [ ] Manual visual testing (browser)
-- [ ] Screenshot comparison (local vs reference)
-- [ ] Footer verification
-- [ ] Header sizing check
-- [ ] Link color check
-- [ ] Browser cache cleared
+### 54-Page Batch Processing (IN PROGRESS)
+**Issue**: How to efficiently convert 50+ pages?
+**Approach**: 
+1. ✅ Identified 3 critical high-parity pages
+2. ✅ Created batch analysis tools
+3. ✅ Prepared GitHub issues script
+4. → Next: Create issues, then systematic CSS fixes
 
 ---
 
-## 🎯 Next Phase Goals
+## 📋 Page-by-Page Documentation
 
-### Immediate (Within 1 hour)
-1. Manual visual verification in browser
-2. Screenshot comparison with reference
-3. Document any remaining visual differences
-4. Fix any edge cases found
-
-### Short Term (Next session)
-1. Alpine.js view resolution investigation
-2. JavaScript functionality testing
-3. Mobile responsiveness check
-4. Cross-browser testing
-
-### Long Term
-1. Complete Alpine.js integration
-2. Additional page templates (list pages)
-3. Advanced interactions
-4. Performance optimization
-
----
-
-## 📝 Session Notes
-
-**Previous Sessions**: Phases 1-6 completed
-- Fixed Livewire errors
-- Achieved 98.3% HTML match
-- Fixed layout centering
-- Attempted Alpine.js (blocked on view resolution)
-- Created comprehensive documentation
-
-**Current Session**: Phase 7 - CSS Fixes
-- Analyzed 5 visual differences
-- Created design-comuni-visual-fix.css
-- Deployed all 5 fixes
-- Build successful ✅
-- Awaiting visual verification
+```
+docs/pages/
+├── homepage/
+│   ├── VISUAL-ASSESSMENT.md
+│   ├── local-full.png
+│   ├── reference-full.png
+│   └── STRUCTURE-COMPARISON.md
+├── domande-frequenti/
+│   ├── DETAILED-ANALYSIS.md
+│   └── [screenshots]
+├── persona/
+│   ├── DETAILED-ANALYSIS.md
+│   └── [screenshots]
+├── segnalazioni-elenco/
+│   ├── DETAILED-ANALYSIS.md
+│   ├── HTML-STRUCTURE-DIFF.md
+│   ├── VISUAL-COMPARISON.md
+│   ├── local-viewport-1920.png
+│   ├── reference-viewport-1920.png
+│   ├── local-viewport-768.png
+│   └── reference-viewport-768.png
+└── [49 more pages]/
+```
 
 ---
 
-## 🔗 External References
+## 🚀 Next Steps
 
-- **Reference Design**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
-- **Local Instance**: http://127.0.0.1:8000/it/tests/homepage
-- **Design Sistema**: https://design.italia.it/
-- **Bootstrap Italia**: https://github.com/italia/bootstrap-italia
-- **Tailwind CSS**: https://tailwindcss.com/
+### Immediate (This Session)
+- [ ] Create GitHub issues for all 54 pages
+- [ ] Fix segnalazioni-elenco height difference (490px)
+- [ ] Apply CSS fixes to FAQ page (96% parity)
+- [ ] Apply CSS fixes to Persona page (100% parity)
+
+### Short Term (This Week)
+- [ ] Run full batch visual assessment on all 54 pages
+- [ ] Identify all high-parity (95%+) pages
+- [ ] Systematically apply CSS fixes
+- [ ] Test across responsive breakpoints
+
+### Medium Term
+- [ ] BMAD/GSD workflow integration
+- [ ] Automated CSS diff detection
+- [ ] Multi-agent collaboration setup
+- [ ] CI/CD pipeline for design conversions
 
 ---
 
-## 🤝 Collaboration
+## 📞 Support & References
 
-This documentation is maintained for multi-agent coordination:
-- **BMAD Method**: Used for deep analysis and reasoning
-- **GSD Workflow**: Used for structured phase execution
-- **Multiple AI Agents**: Coordinate via this documentation
-- **Bidirectional Links**: Enable cross-reference navigation
+### Internal Docs
+- **[PARITY-ASSESSMENT-FINDINGS.md](./PARITY-ASSESSMENT-FINDINGS.md)** - Strategic roadmap
+- **[CONTAINER-WIDTH-RESOLUTION.md](./CONTAINER-WIDTH-RESOLUTION.md)** - Technical deep-dive
+- **[bashscripts/docs/](../../bashscripts/docs/)** - Tool documentation
+
+### External References
+- Design Comuni: https://italia.github.io/design-comuni-pagine-statiche/
+- Tailwind CSS: https://tailwindcss.com/
+- Alpine.js: https://alpinejs.dev/
 
 ---
 
-**Last Updated**: 2026-04-02  
-**Status**: 🟢 ACTIVE - Phase 7 (CSS Fixes) Complete, Awaiting Verification
-
+**Last Updated**: 2026-04-03
+**Status**: Active Development
+**Phase**: Visual Parity Conversion (Wave 3+)
