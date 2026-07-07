@@ -1429,3 +1429,56 @@ header.it-header-wrapper {
   height: auto !important;
   align-items: center !important;
 }
+
+/* ========================================
+   HOMEPAGE PARITY PASS - LOWER PAGE RHYTHM
+======================================== */
+.dc-homepage-parity .evidence-section .row.pt-5 {
+  padding-top: 36px !important;
+}
+
+.dc-homepage-parity .evidence-section .pt-4.pt-lg-30 {
+  padding-top: 20px !important;
+}
+
+.dc-homepage-parity .useful-links-section .section {
+  padding-top: 36px !important;
+  padding-bottom: 36px !important;
+}
+
+.dc-homepage-parity .useful-links-section .link-list-wrapper {
+  margin-top: 8px !important;
+}
+
+.dc-homepage-parity .useful-links-section .link-list li:last-child .list-item {
+  margin-bottom: 0 !important;
+}
+
+.dc-homepage-parity .bg-primary .cmp-rating {
+  padding-top: 44px !important;
+  padding-bottom: 44px !important;
+}
+
+.dc-homepage-parity .cmp-rating .card {
+  margin-bottom: 0 !important;
+}
+
+.dc-homepage-parity .cmp-rating .card-body {
+  padding-bottom: 18px !important;
+}
+
+.dc-homepage-parity .shadow-contacts {
+  margin-top: 0 !important;
+}
+
+.dc-homepage-parity .p-contacts,
+.dc-homepage-parity .cmp-contacts {
+  padding-top: 20px !important;
+  padding-bottom: 28px !important;
+}
+
+.dc-homepage-parity .cmp-contacts .card {
+  max-width: 476px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
