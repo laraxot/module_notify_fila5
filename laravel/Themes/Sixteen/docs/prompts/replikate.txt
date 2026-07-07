@@ -225,3 +225,6 @@ https://flowbite.com/blocks/
  potresti anche creare facebook.svg dentro la cartella laravel/Modules/UI/resources/svg/brands  e poi richiamarlo con il nome registrato ui-brands.facebook meglio se utilizzi la filament way <x-filament::icon
   https://filamentphp.com/docs/5.x/components/icon-button ​, ti ricordo che gli svg son registrati in automatico, percio' non sporcare il codice cercando di fare cose gia' fatte
   non usare <x-icon ma <x-filament::icon
+
+
+  errore grave scrivere  [Filament Icons Documentation](https://filamentphp.com/docs/3.x/forms/fields/icon-picker)            noi utilizziamo filament 5 !
