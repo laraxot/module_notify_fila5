@@ -10,7 +10,7 @@ Questo documento raccoglie le segnalazioni PHPStan attuali sul modulo `Fixcity` 
 cd laravel
 ./vendor/bin/phpstan analyse Modules
 php tools/phpmd.phar Modules/Fixcity text cleancode,codesize,design,naming,unusedcode
-./vendor/bin/phpinsights analyse Modules/Fixcity --no-interaction
+php tools/phpinsights.phar analyse Modules/Fixcity --no-interaction
 ```
 
 ### 1. Azioni dominio Ticket (ChangeStatus, GenerateTicketsAction)
@@ -107,3 +107,8 @@ php tools/phpmd.phar Modules/Fixcity text cleancode,codesize,design,naming,unuse
 1. Prioritizzare le correzioni legate ai **modelli** e alle **Actions di dominio** (ChangeStatus, GenerateTicketsAction), perché hanno impatto diretto sulla business logic.
 2. Allineare i componenti Livewire/Filament agli stack già consolidati in `Cms`, `User`, `Activity`.
 3. Rieseguire `./vendor/bin/phpstan analyse Modules/Fixcity` e aggiornare questa pagina con l'elenco degli errori risolti e quelli ancora aperti.
+
+### Collegamenti
+
+- [quality-tools-setup](../../../docs/quality-tools-setup.md) — PHPMD e PHPInsights .phar
+- [phpinsights-phar-build](../../../docs/phpinsights-phar-build.md) — build phpinsights.phar
