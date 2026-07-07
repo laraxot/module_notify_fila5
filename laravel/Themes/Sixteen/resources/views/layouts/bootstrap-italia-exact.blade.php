@@ -11,7 +11,7 @@
     <title>{{ $title ?? 'Homepage' }} - {{ $municipality ?? 'Comune' }}</title>
     
     {{-- Tailwind CSS (replaces Bootstrap Italia CSS) --}}
-    @vite(['resources/css/app.css', 'resources/js/app.js'], 'themes/Sixteen')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body>

@@ -1,55 +1,64 @@
 {{--
     App Layout - Public Frontend
-    ════════════════════════════════════════════════════════════════
+    Design Comuni Italia - Bootstrap Italia Classes
     
     EXTENDS: x-layouts.main (resources/views/components/layouts/main.blade.php)
     
-    CONTIENE (obbligatorio per Design Comuni):
-    - Skip Links (accessibilità WCAG AA)
-    - Header Section
-    - Main Container con id="main-container"
-    - Footer Section
-    
     USAGE:
     ```blade
-    <x-layouts.app>
-        <x-page side="content" :slug="$pageSlug" :data="$data" />
+    <x-layouts.app title="Home">
+        <x-section slug="header" />
+        <main>{{ $slot }}</main>
+        <x-section slug="footer" />
     </x-layouts.app>
     ```
     
     ARCHITECTURE:
     - x-layouts.main: Base HTML structure (DOCTYPE, head, body, scripts)
-    - x-layouts.app: Public frontend wrapper con skip links, header, main, footer
+    - x-layouts.app: Public frontend wrapper with header/footer sections
     - x-layouts.guest: Authentication pages (login, register)
     - x-layouts.auth: Protected dashboard pages
     
-    LAYOUT HIERARCHY:
-    → docs/layout-hierarchy.md
+    WHY app.blade.php MUST extend main.blade.php:
+    1. DRY - HTML structure definita UNA sola volta
+    2. KISS - main gestisce complessità, app aggiunge semantica
+    3. Single Source of Truth - Dark mode, Vite, Filament
+    4. Maintainability - Update 1 file, not 4
+    5. Consistency - Stesso HTML per tutte le pagine
     
-    DRY + KISS:
-    - Skip links, header, footer sono nel layout, NON nelle singole pagine
-    - Le pagine (es. tests/[slug].blade.php) contengono SOLO il contenuto specifico
+    DOCUMENTATION:
+    → Layout Architecture: docs/layout-architecture.md#x-layoutsapp
+    → Main Layout: docs/layout-architecture.md#x-layoutsmain
+    → Theme Index: docs/README.md
     
-    VITE CONFIGURATION:
-    - MUST use @vite([...], 'themes/Sixteen') with second parameter
+    EXTENDED BY:
+    - Homepage
+    - CMS pages
+    - Blog listing
+    - Public profiles
+    
+    RELATED COMPONENTS:
+    → x-section: resources/views/components/section.blade.php
+    → x-header: resources/views/components/header.blade.php
+    → x-footer: resources/views/components/footer.blade.php
 --}}
 @props(['title' => ''])
 
 <x-layouts.main>
-    {{-- Skip Links - Accessibility (WCAG AA) --}}
+    {{-- Skip Links - EXACT Bootstrap Italia Structure --}}
     <div class="skiplink">
-        <a class="visually-hidden-focusable" href="#main-container">Vai ai contenuti</a>
+        <a class="visually-hidden-focusable" href="#main-content">Vai ai contenuti</a>
         <a class="visually-hidden-focusable" href="#footer">Vai al footer</a>
-    </div>
+    </div><!-- /skiplink -->
 
-    {{-- Header Section --}}
+    {{-- Header Section - Bootstrap Italia Component (includes header tag) --}}
     <x-section slug="header" />
 
-    {{-- Main Content - Il contenuto pagina specifica --}}
-    <main id="main-container">
+    {{-- Main Content --}}
+    <main id="main-content">
         {{ $slot }}
     </main>
 
     {{-- Footer Section --}}
-    <x-section slug="footer" />
+    <x-section slug="footer" tpl="full" />
 </x-layouts.main>

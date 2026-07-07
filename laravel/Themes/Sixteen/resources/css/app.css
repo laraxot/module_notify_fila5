@@ -1,1 +1,16 @@
+/**
+ * Sixteen Theme - Design Comuni Italia
+ *
+ * Bootstrap Italia styles converted to Tailwind CSS with @apply
+ * Based on: https://italia.github.io/design-comuni-pagine-statiche/
+ */
+
+/* ========================================
+   TAILWIND CSS 4.x BASE
+======================================== */
+@import "tailwindcss";
+
+/* ========================================
+   IMPORT STYLE-APPLY (Bootstrap Italia converted to Tailwind)
+======================================== */
 @import './style-apply.css';
