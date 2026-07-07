@@ -18,6 +18,8 @@ build: {
 ```
 
 ## Why
+- `@vite([...])` without a second parameter uses Laravel's default build location and therefore looks for `public/build/manifest.json`
+- theme layouts must call `@vite([...], 'themes/<Theme>')` so Laravel resolves the theme manifest instead of the root application manifest
 - the theme owns its compiled frontend artifacts locally before publication
 - `npm run copy` expects build outputs inside the theme-local `public/` directory
 - `manifest.json` must be generated in `Themes/<Theme>/public/manifest.json` before it is copied to `public_html/themes/<Theme>/manifest.json`
@@ -33,6 +35,7 @@ build: {
 
 ## Notes
 - `outDir: './public'` is a build concern, not a Laravel root-public concern
+- the second parameter of `@vite()` is a manifest lookup selector, not a cosmetic theme label
 - the public web path is reached through the explicit copy step, not by building directly into `public_html`
 
 ## Backlinks

@@ -43,6 +43,7 @@ npm run copy
 
 ## ✅ Processo Corretto
 1. **Modifica sorgenti** in `/Themes/[Theme]/resources/`
+2. **Usa `@vite([...], 'themes/[Theme]')`** nei layout del tema per evitare il fallback a `public/build/manifest.json`
 2. **Build assets** con `npm run build` dalla cartella tema
 3. **Copy assets** con `npm run copy` dalla cartella tema
 4. **Verifica risultato** nel browser

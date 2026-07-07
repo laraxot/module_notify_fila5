@@ -1,28 +1,4 @@
 {{--
-<<<<<<< HEAD
-    App Layout Component
-    Design Comuni - Pure Tailwind CSS + Alpine.js
-    NO Bootstrap Italia CDN - Using compiled assets
---}}
-@props(['title' => ''])
-
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    
-    <title>{{ $title ? $title . ' - ' : '' }}{{ config('app.name', 'Laravel') }}</title>
-    
-    {{-- Vite Assets - Compiled Tailwind CSS + Alpine.js --}}
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-<body class="font-sans antialiased">
-    {{ $slot }}
-</body>
-</html>
-=======
     App Layout - Public Frontend
     ════════════════════════════════════════════════════════════════
     
@@ -43,52 +19,31 @@
     - x-layouts.guest: Authentication pages (login, register)
     - x-layouts.auth: Protected dashboard pages
     
-    ════════════════════════════════════════════════════════════════
-    WHY app.blade.php MUST extend main.blade.php
-    ════════════════════════════════════════════════════════════════
+    VITE CONFIGURATION:
+    - Assets are built in laravel/Themes/Sixteen/
+    - outDir: './public' in vite.config.js
+    - Built assets copied to public_html/themes/Sixteen/
+    - MUST use @vite([...], 'themes/Sixteen') with second parameter
+    - Second parameter tells Laravel where to find manifest.json
     
-    1. DRY (Don't Repeat Yourself)
-       ❌ WRONG: HTML structure duplicata in ogni layout
-       ✅ CORRECT: HTML structure definita UNA sola volta in main.blade.php
-       
-    2. KISS (Keep It Simple, Stupid)
-       ❌ COMPLEX: Ogni layout gestisce scripts, styles, meta tags
-       ✅ SIMPLE: main gestisce tutta la complessità, app aggiunge solo semantica
-       
-    3. Single Source of Truth
-       - Dark mode logic: Definita in main, ereditata da tutti
-       - Vite assets: Configurati in main, consistenti ovunque
-       - Filament scripts: Caricati una volta, disponibili per tutti
-       
-    4. Maintainability
-       | Change              | Before (4 files) | After (1 file) |
-       |---------------------|------------------|----------------|
-       | Add meta tag        | Update 4 times   | Update 1 time  |
-       | Change Vite config  | Update 4 times   | Update 1 time  |
-       | Fix dark mode bug   | Fix 4 times      | Fix 1 time     |
-       
-    5. Consistency
-       ✅ Stesso HTML structure per tutte le pagine
-       ✅ Stessi meta tags per tutte le pagine
-       ✅ Stessi scripts per tutte le pagine
-       ✅ Stessi styles per tutte le pagine
+    WHY SECOND PARAMETER IS REQUIRED:
+    1. Theme is built independently from main Laravel app
+    2. Vite builds to themes/Sixteen/public/
+    3. Manifest.json is in public_html/themes/Sixteen/manifest.json
+    4. Without second param, Laravel looks in public_html/build/manifest.json (WRONG!)
+    5. With second param, Laravel looks in public_html/themes/Sixteen/manifest.json (CORRECT!)
+    
+    DRY + KISS:
+    - main.blade.php contains ONLY essential HTML structure
+    - app.blade.php adds public frontend semantics
+    - No duplication: all Vite assets in main.blade.php
     
     DOCUMENTATION:
     → Layout Architecture: docs/layout-architecture.md#x-layoutsapp
     → Main Layout: docs/layout-architecture.md#x-layoutsmain
+    → Vite Configuration: docs/VITE_MANIFEST_FIX_COMPLETE.md
+    → Vite Second Parameter: docs/VITE_SECOND_PARAMETER_GUIDE.md
     → Theme Index: docs/README.md
-    → LAYOUT_ARCHITECTURE_MAP.md (bidirectional links)
-    
-    EXTENDED BY:
-    - Homepage
-    - CMS pages
-    - Blog listing
-    - Public profiles
-    
-    RELATED COMPONENTS:
-    → x-section: resources/views/components/section.blade.php
-    → x-header: resources/views/components/header.blade.php
-    → x-footer: resources/views/components/footer.blade.php
 --}}
 @props(['title' => ''])
 
@@ -97,4 +52,3 @@
     {{ $slot }}
     <x-section slug="footer" />
 </x-layouts.main>
->>>>>>> 4a11dcf (.)
