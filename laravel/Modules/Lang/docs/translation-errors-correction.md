@@ -49,7 +49,7 @@ Durante l'audit delle traduzioni, sono state identificate numerose traduzioni ch
 
 #### ✅ Modulo Notify
 **File Tedeschi (DE):**
-- `send_email.php`: 
+- `send_email.php`:
   - `'subject_required' => 'Der Betreff ist erforderlich'`
   - `'to_required' => 'Der Empfänger ist erforderlich'`
   - `'content_required' => 'Der Inhalt ist erforderlich'`
@@ -75,7 +75,7 @@ Durante l'audit delle traduzioni, sono state identificate numerose traduzioni ch
 - `create.php`: `'required' => 'This field is required'`
 - `edit_section.php`: `'required' => 'This field is required'`
 
-#### ✅ Modulo <nome modulo>
+#### ✅ Modulo <nome progetto>
 **File Tedeschi (DE):**
 - `user.php`: `'required' => 'Das Feld :attribute ist erforderlich'`
 - `doctor.php`: `'required' => 'Das Feld :attribute ist erforderlich'`
@@ -108,7 +108,7 @@ Durante l'audit delle traduzioni, sono state identificate numerose traduzioni ch
 
 #### ✅ Modulo Xot
 **File Tedeschi (DE):**
-- `env.php`: 
+- `env.php`:
   - `'required' => 'Der Wert ist erforderlich'`
   - `'required' => 'Die Umgebung ist erforderlich'`
 - `extra.php`:
@@ -200,7 +200,7 @@ Durante l'audit delle traduzioni, sono state identificate numerose traduzioni ch
 3. <nome progetto> Module ✅
 4. Notify Module ✅
 5. FormBuilder Module ✅
-6. <nome modulo> Module ✅
+6. <nome progetto> Module ✅
 7. Cms Module ✅
 8. Xot Module ✅
 9. User Module ✅

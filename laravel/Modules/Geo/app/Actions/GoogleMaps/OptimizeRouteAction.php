@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Geo\Actions\GoogleMaps;
 
+use GuzzleHttp\Promise\PromiseInterface;
+use Illuminate\Http\Client\Response;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Http;
 use Modules\Geo\Datas\LocationData;
@@ -18,6 +20,8 @@ use Modules\Geo\Datas\RouteData;
  */
 class OptimizeRouteAction
 {
+    private const BASE_URL = 'https://maps.googleapis.com/maps/api/directions/json';
+
     /**
      * Ottimizza il percorso tra i punti specificati.
      *
@@ -46,7 +50,7 @@ class OptimizeRouteAction
         }
 
         $waypoints = $this->formatWaypoints($locations);
-        $response = Http::get('https://maps.googleapis.com/maps/api/directions/json', [
+        $response = Http::get(self::BASE_URL, [
             'origin' => $this->formatLocation($origin),
             'destination' => $this->formatLocation($destination),
             'waypoints' => 'optimize:true|'.implode('|', $waypoints),
@@ -55,6 +59,12 @@ class OptimizeRouteAction
             'key' => $apiKey,
         ]);
 
+        // Handle PromiseInterface|Response union type
+        if ($response instanceof PromiseInterface) {
+            $response = $response->wait();
+        }
+
+        /** @var Response $response */
         if (! $response->successful()) {
             throw new \RuntimeException('Failed to get directions from Google Maps API');
         }
@@ -160,11 +170,8 @@ class OptimizeRouteAction
                     ));
                 }
 
-                /** @var \Illuminate\Support\Collection<int, \Modules\Geo\Datas\LocationData> $typedWaypoints */
-                $typedWaypoints = $waypoints;
-                
                 return new RouteData(
-                    waypoints: $typedWaypoints,
+                    waypoints: $waypoints,
                     originalWaypoints: $originalLocations,
                     totalDistance: $totalDistance,
                     totalDuration: $totalDuration,

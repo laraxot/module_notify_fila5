@@ -7,11 +7,13 @@ namespace Modules\Xot\Services;
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Contracts\Support\Renderable;
+use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
+use Webmozart\Assert\Assert;
 
 use function Safe\define;
 use function Safe\fopen;
@@ -127,7 +129,7 @@ class ArtisanService
     public static function errorShow(): Renderable
     {
         /**
-         * @phpstan-var view-string
+         * @var view-string
          */
         $view = 'xot::acts.artisan.error-show';
         $files = File::files(storage_path('logs'));
@@ -141,9 +143,18 @@ class ArtisanService
         }
 
         $pattern = '/url":"([^"]*)"/';
+
+        /** @var array<int, array<int, string>> $matches */
+        $matches = [];
         preg_match_all($pattern, $content, $matches);
 
-        $urls = array_unique($matches[1]);
+        /** @var array<int, string> $urls */
+        $urls = [];
+        $urlsRaw = $matches[1];
+        if ($urlsRaw !== []) {
+            $urls = array_values(array_unique($urlsRaw));
+        }
+
         $view_params = [
             'view' => $view,
             'lang' => app()->getLocale(),
@@ -152,7 +163,7 @@ class ArtisanService
             'urls' => $urls,
         ];
 
-        return view($view, $view_params);
+        return view((string) $view, $view_params);
     }
 
     public static function showRouteList(): string
@@ -178,7 +189,7 @@ class ArtisanService
          * ]);
          */
         /**
-         * @phpstan-var view-string
+         * @var view-string
          */
         $view = 'xot::acts.artisan.show_route_list';
         $view_params = [
@@ -187,7 +198,9 @@ class ArtisanService
             'lang' => app()->getLocale(),
         ];
 
-        $out = view($view, $view_params);
+        $out = view((string) $view, $view_params);
+
+        Assert::isInstanceOf($out, View::class);
 
         return $out->render();
     }

@@ -20,9 +20,14 @@ class Flag extends Component
 
     public function render(): Renderable
     {
+        /**
+         * @phpstan-var view-string $view
+         */
         $view = app(GetViewAction::class)->execute();
+
         $viewParams = [
             'view' => $view,
+            'name' => $this->name,
         ];
 
         return view($view, $viewParams);

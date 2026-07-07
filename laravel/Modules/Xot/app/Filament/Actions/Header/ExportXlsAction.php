@@ -28,9 +28,9 @@ class ExportXlsAction extends Action
             ->icon('heroicon-o-arrow-down-tray')
             ->action(static function (ListRecords $livewire) {
                 $filename =
-                    class_basename($livewire) .
-                    '-' .
-                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    class_basename($livewire).
+                    '-'.
+                    collect($livewire->tableFilters)->flatten()->implode('-').
                     '.xlsx';
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
@@ -47,15 +47,28 @@ class ExportXlsAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
                     if (is_array($rawFields)) {
-                        $fields = array_map(static function ($field): string {
-                            if (is_object($field) && method_exists($field, '__toString')) {
-                                return $field->__toString();
-                            }
-                            if (is_scalar($field)) {
-                                return (string) $field;
-                            }
-                            return '';
-                        }, $rawFields);
+                        $fields = array_map(
+                            /**
+                             * @param  mixed  $field
+                             */
+                            static function ($field): string {
+                                // Handle objects with __toString method
+                                if (is_object($field) && method_exists($field, '__toString')) {
+                                    $stringValue = $field->__toString();
+
+                                    // Type narrowing for PHPStan Level 10
+                                    return is_string($stringValue) ? $stringValue : '';
+                                }
+
+                                // Handle scalar values
+                                if (is_scalar($field)) {
+                                    return (string) $field;
+                                }
+
+                                return '';
+                            },
+                            $rawFields
+                        );
                     }
                     Assert::isArray($fields);
                 }
@@ -64,7 +77,7 @@ class ExportXlsAction extends Action
             });
     }
 
-    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
     {
         return 'export_xls';
     }

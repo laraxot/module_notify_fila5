@@ -8,11 +8,11 @@ declare(strict_types=1);
 
 namespace Modules\Job\Models;
 
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Job\Database\Factories\ScheduleHistoryFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
+use Modules\Job\Database\Factories\ScheduleHistoryFactory;
+use Modules\Xot\Contracts\ProfileContract;
 use Override;
 
 /**
@@ -49,6 +49,8 @@ use Override;
  * @method static Builder<static>|ScheduleHistory whereScheduleId($value)
  * @method static Builder<static>|ScheduleHistory whereUpdatedAt($value)
  * @method static Builder<static>|ScheduleHistory whereUpdatedBy($value)
+ *
+ * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

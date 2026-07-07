@@ -36,6 +36,12 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
         // 36     Cannot access offset 'router' on Illuminate\Contracts\Foundation\Application
         // $router = $this->app['router'];
         $router = app('router');
+
+        // Ensure router is of correct type
+        if (! $router instanceof Router) {
+            throw new \RuntimeException('Router is not an instance of Router');
+        }
+
         // dddx([$router, $router1]);
 
         // $this->registerLang();

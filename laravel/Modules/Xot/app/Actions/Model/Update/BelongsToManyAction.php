@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
-use RuntimeException;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\Session;
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\RelationData as RelationDTO;
+use RuntimeException;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -34,7 +34,7 @@ class BelongsToManyAction
             Assert::allScalar($to, 'The "to" field must contain only scalar values.');
 
             $rows->sync($to);
-            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati ['.implode(', ', $to).'] ';
             Session::flash('status', $status);
 
             return;
@@ -50,9 +50,10 @@ class BelongsToManyAction
             Assert::isArray($data, 'Each item in RelationDTO->data must be an array.');
             if (\array_key_exists($keyName, $data)) {
                 // Aggiorna o crea il modello correlato
-                Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+                /** @var array<string, mixed> $safeData */
+                $safeData = $data;
                 /** @var Model $res */
-                $res = app(UpdateAction::class)->execute($related, $data, []);
+                $res = app(UpdateAction::class)->execute($related, $safeData, []);
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
@@ -63,7 +64,7 @@ class BelongsToManyAction
         }
 
         // Sincronizza gli ID raccolti
-        if (!empty($ids)) {
+        if (! empty($ids)) {
             try {
                 // Assicura che $ids sia un array di valori scalari
                 // $ids è già un array non vuoto a questo punto, quindi non serve verificare se è iterabile

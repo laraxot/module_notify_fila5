@@ -135,7 +135,7 @@ use Spatie\Activitylog\LogOptions;
 class MyModel extends BaseModel
 {
     use LogsActivity;
-    
+
     public function getActivitylogOptions(): LogOptions
     {
         return LogOptions::defaults()
@@ -160,12 +160,12 @@ class ListMyModels extends XotBaseListRecords
         return parent::getTableQuery()
             ->withCount('activities');  // ← Eager load conteggio
     }
-    
+
     public function getTableActions(): array
     {
         return [
             'activities' => ListLogActivitiesAction::make()
-                ->visible(fn (Model $record) => 
+                ->visible(fn (Model $record) =>
                     $record->activities_count > 0  // ← Usa conteggio precaricato
                 ),
         ];
@@ -239,7 +239,7 @@ Il modulo include test per:
 
 **Eseguire i test**:
 ```bash
-cd /var/www/html/ptvx/laravel
+cd laravel
 php artisan test --filter=ListLogActivitiesAction
 ```
 
@@ -358,8 +358,6 @@ class ListMyModelActivities extends ListLogActivities
 
 ---
 
-**Ultimo aggiornamento**: 27 Ottobre 2025  
-**Pattern**: DRY + KISS per Actions riutilizzabili  
+**Ultimo aggiornamento**: 27 Ottobre 2025
+**Pattern**: DRY + KISS per Actions riutilizzabili
 **Conformità**: ✅ PHPStan livello 9+, ✅ Pint, ✅ Test Suite
-
-

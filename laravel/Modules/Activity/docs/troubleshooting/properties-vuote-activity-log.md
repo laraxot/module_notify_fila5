@@ -203,7 +203,7 @@ class IndennitaResponsabilita extends BaseScheda
 ### Test Manuale
 
 ```bash
-cd /var/www/html/ptvx/laravel
+cd laravel
 php artisan tinker
 ```
 
@@ -347,8 +347,6 @@ $record->update(['stabi' => 999]);
 
 ---
 
-**Ultimo aggiornamento**: 27 Ottobre 2025  
-**Severità**: Media (funziona ma properties vuote)  
+**Ultimo aggiornamento**: 27 Ottobre 2025
+**Severità**: Media (funziona ma properties vuote)
 **Soluzione**: Aggiungere `->logAll()` o `->logOnly()` in getActivitylogOptions()
-
-

@@ -2,7 +2,7 @@
 
 ## Filosofia dei Contenuti
 
-<main module> segue una filosofia di contenuti modulari e riutilizzabili che riflette la missione sociale del progetto: **garantire l'accesso alla salute orale per le gestanti vulnerabili**.
+<main module> segue una filosofia di contenuti modulari e riutilizzabili che riflette la missione sociale del progetto: **garantire l'accesso alla <slogan progetto> per le gestanti vulnerabili**.
 
 ### Principi Guida
 
@@ -17,8 +17,8 @@
 ### Vision Strategica
 La pagina servizi deve comunicare:
 - **Cosa**: Servizi odontoiatrici gratuiti per gestanti
-- **Chi**: Donne incinte con ISEE ≤ 20.000€ 
-- **Perché**: Salute orale cruciale per mamma e bambino
+- **Chi**: Donne incinte con ISEE ≤ 20.000€
+- **Perché**: <slogan progetto> cruciale per mamma e bambino
 - **Come**: Processo semplice e umano
 - **Dove**: Rete nazionale di professionisti qualificati
 
@@ -89,7 +89,7 @@ La pagina servizi deve comunicare:
 
 ### Parole Chiave SEO
 
-- salute orale gravidanza
+- <slogan progetto> gravidanza
 - odontoiatra gratuito gestanti
 - ISEE 20000 cure dentali
 - prevenzione dentale gravidanza
@@ -102,4 +102,4 @@ La pagina servizi deve comunicare:
 - [Theme Blocks](../../Themes/One/docs/blocks.md)
 - [User Experience](../../../docs/frontend/ux-guidelines.md)
 
-*Ultimo aggiornamento: 2025-01-15* 
+*Ultimo aggiornamento: 2025-01-15*

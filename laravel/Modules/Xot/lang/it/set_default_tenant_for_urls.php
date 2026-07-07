@@ -7,12 +7,17 @@ return [
         'authenticate' => [
             'label' => 'authenticate',
             'icon' => 'ui-authenticate',
+            'tooltip' => 'authenticate',
         ],
         'login' => [
             'label' => 'login',
+            'tooltip' => 'login',
+            'icon' => 'login',
         ],
         'request' => [
             'label' => 'request',
+            'tooltip' => 'request',
+            'icon' => 'request',
         ],
         'activeLocale' => [
             'label' => 'activeLocale',
@@ -35,10 +40,12 @@ return [
         'hidePassword' => [
             'icon' => 'hidePassword',
             'label' => 'hidePassword',
+            'tooltip' => 'hidePassword',
         ],
         'showPassword' => [
             'icon' => 'ui-showPassword',
             'label' => 'showPassword',
+            'tooltip' => 'showPassword',
         ],
     ],
     'fields' => [
@@ -280,7 +287,7 @@ return [
                 'placeholder' => 'zeusData.2',
                 'label' => 'zeusData.2',
             ],
-            4 => [
+            [
                 'description' => 'zeusData.4',
                 'helper_text' => 'zeusData.4',
                 'placeholder' => 'zeusData.4',

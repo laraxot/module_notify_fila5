@@ -27,8 +27,8 @@ class MorphToManyAction
     /**
      * Execute the action to update morphToMany relationships.
      *
-     * @param Model       $row         The model instance to update
-     * @param RelationDTO $relationDTO Data transfer object containing relation information
+     * @param  Model  $row  The model instance to update
+     * @param  RelationDTO  $relationDTO  Data transfer object containing relation information
      *
      * @throws Exception When data is not in correct format or relation is invalid
      */
@@ -40,17 +40,17 @@ class MorphToManyAction
         $model = $row;
 
         if (\in_array('to', array_keys($data), false) || \in_array('from', array_keys($data), false)) {
-            if (!isset($data['to'])) {
+            if (! isset($data['to'])) {
                 $data['to'] = [];
             }
             $data = $data['to'];
         }
 
-        if (!\is_array($data)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! \is_array($data)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
 
-        if (!Arr::isAssoc($data)) {
+        if (! Arr::isAssoc($data)) {
             $relation->sync($data);
 
             return;
@@ -58,7 +58,7 @@ class MorphToManyAction
 
         foreach ($data as $k => $v) {
             if (\is_array($v)) {
-                if (!isset($v['pivot'])) {
+                if (! isset($v['pivot'])) {
                     $v['pivot'] = [];
                 }
 

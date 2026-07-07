@@ -4,17 +4,24 @@ declare(strict_types=1);
 
 namespace Modules\Cms\Models\Traits;
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Str;
 use Modules\Cms\Datas\BlockData;
 use Modules\Xot\Datas\XotData;
+use Spatie\LaravelData\DataCollection;
 
+/**
+ * Trait for Models that have blocks.
+ *
+ * @phpstan-require-extends Model
+ */
 trait HasBlocks
 {
     /**
-     * @return array<string, mixed>
+     * @return DataCollection<BlockData>
      */
-    public function getBlocks(): array
+    public function getBlocks(): DataCollection
     {
         $blocks = $this->blocks;
 
@@ -29,7 +36,8 @@ trait HasBlocks
 
         $blocks = $this->compile($blocks);
 
-        return BlockData::collect($blocks);
+        /* @var DataCollection<BlockData> $collection */
+        return BlockData::collection($blocks);
     }
 
     /**
@@ -37,27 +45,51 @@ trait HasBlocks
      */
     public function compile(array $blocks): array
     {
+        $result = [];
+
         foreach ($blocks as $key => $value) {
-            if (is_array($value)) {
-                $blocks[$key] = $this->compile($value);
+            if (! is_string($key)) {
+                $key = (string) $key;
             }
+
             if (is_string($value) && Str::containsAll($value, ['{{', '}}'])) {
-                $blocks[$key] = Blade::render($value);
+                $result[$key] = Blade::render($value);
+            } else {
+                $result[$key] = $value;
             }
         }
 
-        return $blocks;
+        return $result;
     }
 
-    public static function getBlocksBySlug(string $slug): array
+    /**
+     * Get blocks for a record by slug.
+     *
+     * @return DataCollection<BlockData>
+     */
+    public static function getBlocksBySlug(string $slug): DataCollection
     {
-        $model = static::class;
-        $record = $model::firstWhere('slug', $slug);
-        if (! $record) {
-            return [];
+        // This trait requires the class to extend Model (@phpstan-require-extends Model)
+        // So we can safely use static methods
+        $query = static::where('slug', $slug);
+
+        if (! method_exists($query, 'first')) {
+            return BlockData::collection([]);
         }
 
-        /* @phpstan-ignore-next-line method.notFound, return.type */
-        return $record->getBlocks();
+        $record = $query->first();
+        if (! $record instanceof Model) {
+            return BlockData::collection([]);
+        }
+
+        // Check if getBlocks method exists
+        if (! method_exists($record, 'getBlocks')) {
+            return BlockData::collection([]);
+        }
+
+        /** @var DataCollection<BlockData> $blocks */
+        $blocks = $record->getBlocks();
+
+        return $blocks;
     }
 }

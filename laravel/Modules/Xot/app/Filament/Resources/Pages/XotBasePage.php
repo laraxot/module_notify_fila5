@@ -10,12 +10,11 @@ use Filament\Pages\Concerns\InteractsWithFormActions;
 use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
-use Illuminate\Contracts\View\View;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use LogicException;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Modules\Xot\Filament\Traits\TransTrait;
 
 /**
  * Base class for all custom pages in the application.
@@ -32,7 +31,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use InteractsWithFormActions;
     use InteractsWithForms;
     use NavigationLabelTrait;
-    use TransTrait;
 
     /**
      * The model class associated with this page, if any.
@@ -95,11 +93,45 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     }
 
     /**
-     * Configure the form.
+     * Configure the schema.
      */
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->statePath('data');
+    }
+
+    /**
+     * Get the associated model class for this page.
+     *
+     * This method must be non-static to properly override the parent method.
+     * Returns the model class string or throws an exception if not set.
+     */
+    /**
+     * @return class-string<Model>
+     */
+    public function getModel(): string
+    {
+        if (static::$model === null) {
+            throw new LogicException('Model class not set for page: '.static::class);
+        }
+
+        /** @var class-string<Model> $model */
+        $model = static::$model;
+
+        return $model;
+    }
+
+    /**
+     * Get the resources associated with this page.
+     *
+     * @return Collection<int, string>
+     */
+    public static function getResources(): Collection
+    {
+        /** @var Collection<int, string> $resources */
+        $resources = collect([]);
+
+        return $resources;
     }
 
     /**
@@ -110,31 +142,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     protected function getFormSchema(): array
     {
         return [];
-    }
-
-    /**
-     * Get the associated model class for this page.
-     *
-     * This method must be non-static to properly override the parent method.
-     * Returns the model class string or throws an exception if not set.
-     */
-    public function getModel(): string
-    {
-        if (static::$model === null) {
-            throw new LogicException('Model class not set for page: '.static::class);
-        }
-
-        return static::$model;
-    }
-
-    /**
-     * Get the resources associated with this page.
-     *
-     * @return Collection<string>
-     */
-    public static function getResources(): Collection
-    {
-        return collect();
     }
 
     /*

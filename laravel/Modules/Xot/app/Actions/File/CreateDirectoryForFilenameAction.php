@@ -13,7 +13,7 @@ class CreateDirectoryForFilenameAction
 
     public function execute(string $filename): void
     {
-        if (!File::exists(\dirname($filename))) {
+        if (! File::exists(\dirname($filename))) {
             File::makeDirectory(\dirname($filename), 0o755, true, true);
         }
     }

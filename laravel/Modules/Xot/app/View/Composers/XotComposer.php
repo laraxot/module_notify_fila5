@@ -5,12 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\View\Composers;
 
 use Exception;
-use Jenssegers\Agent\Agent;
-use Modules\Xot\Actions\File\AssetAction;
+use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Illuminate\View\View;
+use Jenssegers\Agent\Agent;
+use Modules\Xot\Actions\File\AssetAction;
 use Modules\Xot\Actions\File\AssetPathAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
@@ -26,7 +27,7 @@ class XotComposer
     /**
      * Undocumented function.
      *
-     * @param array<mixed|void> $arguments
+     * @param  array<mixed|void>  $arguments
      */
     public function __call(string $name, array $arguments): mixed
     {
@@ -34,24 +35,24 @@ class XotComposer
 
         $module = Arr::first($modules, static function ($module) use ($name): bool {
             // Ensure the module is an instance of LaravelModule
-            if (!($module instanceof LaravelModule)) {
+            if (! ($module instanceof LaravelModule)) {
                 return false;
             }
 
             Assert::string($moduleName = $module->getName());
-            $class = '\Modules\\' . $moduleName . '\View\Composers\ThemeComposer';
+            $class = '\Modules\\'.$moduleName.'\View\Composers\ThemeComposer';
 
             return method_exists($class, $name);
         });
 
-        if (!\is_object($module)) {
-            throw new Exception('Create a View\Composers\ThemeComposer.php inside a module with [' .
-                $name .
+        if (! \is_object($module)) {
+            throw new Exception('Create a View\Composers\ThemeComposer.php inside a module with ['.
+                $name.
                 '] method');
         }
 
-        Assert::isInstanceOf($module, LaravelModule::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
-        $class = '\Modules\\' . $module->getName() . '\View\Composers\ThemeComposer';
+        Assert::isInstanceOf($module, LaravelModule::class, '['.__LINE__.']['.class_basename($this).']');
+        $class = '\Modules\\'.$module->getName().'\View\Composers\ThemeComposer';
 
         $app = app($class);
         $callback = [$app, $name];
@@ -70,7 +71,7 @@ class XotComposer
         $view->with('_theme', $this);
 
         if (class_exists('\Jenssegers\Agent\Agent')) {
-            $agent = new Agent();
+            $agent = new Agent;
             $view->with('isMobile', $agent->isMobile());
             $view->with('isTablet', $agent->isTablet());
             $view->with('isDesktop', $agent->isDesktop());
@@ -79,7 +80,9 @@ class XotComposer
         if (Auth::check()) {
             $profile = XotData::make()->getProfileModel();
             $view->with('profile', $profile);
-            $view->with('user', auth()->user());
+            /** @var Authenticatable|null $user */
+            $user = Auth::user();
+            $view->with('user', $user);
         }
     }
 
@@ -96,7 +99,7 @@ class XotComposer
     public function metatag(string $str): string|bool|null
     {
         $metatag = MetatagData::make();
-        $fun = 'get' . Str::studly($str);
+        $fun = 'get'.Str::studly($str);
         if (method_exists($metatag, $fun)) {
             // @phpstan-ignore return.type
             return $metatag->{$fun}();

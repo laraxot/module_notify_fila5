@@ -11,8 +11,6 @@ namespace Modules\Xot\Exceptions;
 use Exception;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
-use Illuminate\Support\Facades\View;
 use Modules\Xot\Actions\View\GetViewPathAction;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
@@ -21,8 +19,7 @@ class ExceptionHandler
     /**
      * Configura la gestione delle eccezioni.
      *
-     * @param Exceptions $exceptions Configuratore eccezioni Laravel
-     * @return void
+     * @param  Exceptions  $exceptions  Configuratore eccezioni Laravel
      */
     public static function handles(Exceptions $exceptions): void
     {
@@ -34,13 +31,14 @@ class ExceptionHandler
                 ], $status_code);
             }
 
-            $view = 'pub_theme::errors.' . $status_code;
-            if (!view()->exists($view)) {
+            $view = 'pub_theme::errors.'.$status_code;
+            if (! view()->exists($view)) {
                 throw new Exception(
-                    'view not found: [' . $view . '] view path:' . app(GetViewPathAction::class)->execute($view),
+                    'view not found: ['.$view.'] view path:'.app(GetViewPathAction::class)->execute($view),
                 );
             }
             $view_params = ['exception' => $e];
+
             return response()->view($view, $view_params, $status_code);
         });
     }

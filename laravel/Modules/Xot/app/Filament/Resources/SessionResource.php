@@ -4,17 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
-use Filament\Support\Components\Component;
-use Override;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-use Modules\Xot\Filament\Resources\SessionResource\Pages;
+use Filament\Support\Components\Component;
 use Modules\Xot\Models\Session;
+use Override;
 
 class SessionResource extends XotBaseResource
 {
-    protected static null|string $model = Session::class;
+    protected static ?string $model = Session::class;
 
     /**
      * @return array<int, Component>

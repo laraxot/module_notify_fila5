@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Geo\Actions\GoogleMaps;
 
+use GuzzleHttp\Promise\PromiseInterface;
+use Illuminate\Http\Client\Response;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Http;
 use Modules\Geo\Datas\LocationData;
@@ -44,6 +46,12 @@ class CalculateDistanceMatrixAction
             'key' => $apiKey,
         ]);
 
+        // Handle PromiseInterface|Response union type
+        if ($response instanceof PromiseInterface) {
+            $response = $response->wait();
+        }
+
+        /** @var Response $response */
         if (! $response->successful()) {
             throw GoogleMapsApiException::requestFailed((string) $response->status());
         }

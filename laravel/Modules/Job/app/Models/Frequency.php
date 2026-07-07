@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Job\Models;
 
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Job\Database\Factories\FrequencyFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Carbon;
+use Modules\Job\Database\Factories\FrequencyFactory;
+use Modules\Xot\Contracts\ProfileContract;
 
 // use Modules\Job\Models\Traits\HasParameters;
 /**
@@ -43,6 +43,8 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|Frequency whereUpdatedAt($value)
  * @method static Builder<static>|Frequency whereUpdatedBy($value)
  *
+ * @property-read ProfileContract|null $deleter
+ *
  * @mixin \Eloquent
  */
 class Frequency extends BaseModel
@@ -56,25 +58,6 @@ class Frequency extends BaseModel
         'label',
         'interval',
     ];
-
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
-    protected function casts(): array
-    {
-        return array_merge(parent::casts(), [
-            'id' => 'integer',
-            'task_id' => 'integer',
-            'label' => 'string',
-            'interval' => 'string',
-            'created_by' => 'string',
-            'updated_by' => 'string',
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-        ]);
-    }
 
     public function task(): BelongsTo
     {

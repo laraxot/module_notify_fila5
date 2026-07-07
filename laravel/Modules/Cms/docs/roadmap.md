@@ -1,45 +1,202 @@
-# Roadmap - Modulo CMS
+# CMS Module - Complete Roadmap
 
-## Scopo
-Gestione contenuti modulare (sezioni, blocchi, pagine) per frontoffice e backoffice con Filament v4, pieno supporto a traduzioni, performance e UX.
+## Module Overview
+**Purpose**: Content management system with pages, blocks, menus
+**Status**: Content management infrastructure
+**Dependencies**: Xot (core framework), User (content management), UI (components)
 
-## Obiettivi
-- **Content Model chiaro**: sezioni e blocchi con data shape documentata.
-- **Editor UX**: esperienze Filament ottimizzate, anteprima, validazioni.
-- **Performance**: caching per sezioni/blocchi, hydration lazy.
-- **Traduzioni**: chiavi strutturate per campi/azioni, no label()/placeholder() nel codice.
+## Current State Analysis
 
-## Architettura
-- Blocchi come value objects/DTO (Spatie Data) con renderer Blade/Components.
-- Storage contenuti in JSON (config/local/...) con sincronizzazione su DB dove necessario.
-- Integrazione temi: namespacing coerente per viste e componenti.
+### ✅ Completed Components
+- Basic content management system
+- Page management functionality
+- Block/content management
+- Menu management system
+- PHPStan Level 10 compliance
 
-## Piano di Lavoro
-### Fase 1 – Fondamenta
-- [ ] Mappare tutti i tipi di blocchi esistenti con schema dei dati (docs/blocks/*.md)
-- [ ] Definire interfacce per renderer dei blocchi (contratti Xot)
-- [ ] Creare cache layer (per sezione, per pagina)
+### 🔄 In Progress Components
+- [ ] Advanced content editing features
+- [ ] Content versioning system
 
-### Fase 2 – Backoffice Filament
-- [ ] Adeguare Resources a XotBaseResource e pagine a XotBasePage
-- [ ] Moduli di editing con anteprima e validazioni schema-driven
-- [ ] Policy di accesso per tenant/ruolo
+### ❌ Missing/Incomplete Components
+- Complete WYSIWYG editor integration
+- Advanced media management system
+- Content workflow and approval process
+- Multi-language content support
+- Content personalization engine
+- Advanced SEO tools
+- Content analytics and reporting
+- Content template system
 
-### Fase 3 – Frontoffice
-- [ ] Uniformare namespace componenti e viste tema (docs: namespace_* files)
-- [ ] Pipeline assets e immagini responsive per blocchi media
-- [ ] Strategie di indicizzazione SEO per pagine dinamiche
+## Module Structure
+```
+Cms/
+├── app/
+│   ├── Actions/          # Content management actions
+│   ├── Console/          # CMS commands
+│   ├── Contracts/        # CMS contracts
+│   ├── Datas/           # CMS data transfer objects
+│   ├── Enums/           # CMS-related enums
+│   ├── Filament/        # CMS Filament resources/pages/widgets
+│   ├── Http/            # CMS controllers, middleware
+│   ├── Models/          # CMS models (Page, Block, Menu, etc.)
+│   ├── Policies/        # CMS policies
+│   ├── Providers/       # Service providers
+│   └── Services/        # CMS services
+├── config/              # CMS configuration
+├── database/            # CMS migrations, seeds, factories
+├── docs/                # CMS documentation
+├── resources/           # CMS views, assets, translations
+├── routes/              # CMS routes
+└── tests/               # CMS tests
+```
 
-### Fase 4 – Internazionalizzazione
-- [ ] Strutturare chiavi i18n per campi/azioni: `cms::resource.fields.*`
-- [ ] Copertura di traduzione per blocchi core + fallback
+## Detailed Component Analysis
 
-## Collegamenti
-- Business logic CMS: `./business-logic-overview.md`
-- Filament integrazione v4: `./filament_integration.md`
-- Strategie contenuti: `./content_management.md`
+### 1. Page Management
+**Status**: ✅ Partial
+- Basic page creation and management
+- Page hierarchy support
+- **Missing**: Advanced page features, versioning
 
-## Note di Qualità
-- PHPStan Livello 9 obbligatorio
-- Vietato estendere classi Filament direttamente (usare XotBase*)
-- Aggiornare questa roadmap a ogni milestone completata
+### 2. Block/Content Management
+**Status**: ✅ Partial
+- Basic content blocks
+- Content editing capabilities
+- **Missing**: Advanced editing, rich content
+
+### 3. Menu Management
+**Status**: ✅ Partial
+- Basic menu system
+- Menu item management
+- **Missing**: Advanced menu features
+
+### 4. Content Architecture
+**Status**: ⚠️ Basic
+- Basic content models
+- **Needs**: Advanced content relationships and organization
+
+## Roadmap for Completion
+
+### Phase 1: Content Editing Enhancement (Priority: High)
+**Timeline**: 3-4 weeks
+**Tasks**:
+- [ ] Complete WYSIWYG editor integration (TinyMCE, CKEditor, or similar)
+- [ ] Advanced content block system
+- [ ] Media library with drag-and-drop
+- [ ] Content component library
+- [ ] Real-time content preview
+
+**Deliverables**:
+- Rich text editing
+- Advanced media management
+- Content components
+
+### Phase 2: Content Workflow (Priority: High)
+**Timeline**: 4-5 weeks
+**Tasks**:
+- [ ] Content versioning and history system
+- [ ] Content approval workflow
+- [ ] Content scheduling and publishing
+- [ ] Content collaboration tools
+- [ ] Content audit trail
+
+**Deliverables**:
+- Version control system
+- Approval workflows
+- Publishing schedules
+
+### Phase 3: Multi-language Support (Priority: Medium)
+**Timeline**: 3-4 weeks
+**Tasks**:
+- [ ] Complete multi-language content management
+- [ ] Translation management system
+- [ ] Language switcher implementation
+- [ ] Localized content routing
+- [ ] Content translation workflows
+
+**Deliverables**:
+- Multi-language CMS
+- Translation tools
+- Localization features
+
+### Phase 4: Content Personalization (Priority: Medium)
+**Timeline**: 4-6 weeks
+**Tasks**:
+- [ ] Content personalization engine
+- [ ] User-based content targeting
+- [ ] A/B testing for content
+- [ ] Content recommendation system
+- [ ] Dynamic content blocks
+
+**Deliverables**:
+- Personalization engine
+- Targeting system
+- Recommendation features
+
+### Phase 5: SEO & Analytics (Priority: Low)
+**Timeline**: 3-4 weeks
+**Tasks**:
+- [ ] Advanced SEO tools and optimization
+- [ ] Content analytics and reporting
+- [ ] SEO audit and suggestions
+- [ ] Content performance tracking
+- [ ] Search engine indexing tools
+
+**Deliverables**:
+- SEO optimization tools
+- Analytics dashboard
+- Performance tracking
+
+### Phase 6: Advanced Features (Priority: Low)
+**Timeline**: 4-6 weeks
+**Tasks**:
+- [ ] Content template system
+- [ ] Page builder functionality
+- [ ] Content import/export tools
+- [ ] API for headless CMS usage
+- [ ] Content syndication features
+
+**Deliverables**:
+- Template system
+- Page builder
+- API endpoints
+
+## Dependencies & Integration Points
+
+### Core Dependencies
+- Xot (base classes and services)
+- User (content creators and editors)
+- UI (components and widgets)
+- Media (file management)
+
+### Integration Points
+- Authentication system for content management
+- File management for media uploads
+- Frontend integration for content display
+- Multi-tenancy for multi-site support
+
+## Key Metrics
+- **PHPStan**: Level 10 compliance achieved
+- **Test Coverage**: Target 85%+
+- **Performance**: Efficient content rendering
+- **Usability**: User-friendly content editing
+
+## Success Criteria
+- [ ] Complete WYSIWYG editing
+- [ ] Content workflow system
+- [ ] Multi-language support
+- [ ] 85%+ test coverage
+- [ ] SEO optimization tools
+
+## Next Steps
+1. Begin Phase 1 with rich text editor integration
+2. Implement content workflow system
+3. Add multi-language support
+4. Develop personalization features
+
+---
+
+**Last Updated**: 2026-01-02
+**Maintainer**: Team Laraxot
+**Status**: Active Development
