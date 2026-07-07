@@ -43,7 +43,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|PageContent whereUpdatedBy($value)
  * @method static int                         count()
  * @property ProfileContract|null $deleter
- * @method static PageContentFactory factory($count = null, $state = [])
+ * @method static PageContentFactory               factory($count = null, $state = [])
  * @method array<int, array<string, mixed>> getSushiRows()
  * @mixin \Eloquent
  */
