@@ -32,5 +32,22 @@ The Activity module is responsible for tracking and logging all system actions, 
 
 ## 7. Release Criteria
 - 100% PHPStan Level 10 compliance.
-- Test coverage > 80% for logging logic.
+- 100% Test coverage (Pest) for all business logic and models.
+- 100% Autonomous CI/CD Monitoring: The AI agent is responsible for fixing any workflow failure.
 - API documentation completed.
+
+## 8. Testing Strategy (Laraxot Standard)
+- **Framework**: Pest PHP.
+- **Isolation**: Use `DatabaseTransactions` with `protected array $connectionsToTransact = ['mysql', 'activity', 'user'];`.
+- **Database**: Must use `.env.testing` pointing to `_test` suffixed databases.
+- **No Refresh**: `RefreshDatabase` and `migrate:fresh` are strictly forbidden.
+- **Migrations**: Run `php artisan migrate --env=testing` once before the test suite.
+
+## Testing & Coverage
+
+Il modulo $(basename $(dirname $(dirname "$prd"))) segue la **Metodologia "Super Mucca" (Laraxot Zen)**:
+- **XotBaseTestCase**: Tutti i test estendono `Modules\Xot\Tests\XotBaseTestCase`.
+- **MySQL Only**: Test eseguiti contro MySQL (.env.testing).
+- **No RefreshDatabase**: Utilizzo di `DatabaseTransactions`. (.)
+- **Obiettivo**: 100% di coverage. Se un test fallisce, va sistemato o eliminato se il sito è funzionale.
+
