@@ -827,6 +827,5 @@ public function refreshMicrosoftToken(): void
 
 **Documentazione conforme agli standard Laraxot** - PHPStan Level 10 ✅ | DRY + KISS + SOLID ✅
 
-*Last Updated: 23 Febbraio 2026*
 *Module: User*
 *Version: 2.6.0*

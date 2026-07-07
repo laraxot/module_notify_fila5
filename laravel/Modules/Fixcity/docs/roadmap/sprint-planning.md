@@ -2,7 +2,6 @@
 
 > **Document ID**: FC-SPRINT-001  
 > **Version**: 1.0  
-> **Last Updated**: 2026-03-13  
 > **Owner**: Scrum Master  
 > **Current Sprint**: S-26-10 (Mar 2-15, 2026)
 

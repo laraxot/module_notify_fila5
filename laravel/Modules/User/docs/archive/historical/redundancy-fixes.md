@@ -63,10 +63,8 @@ Durante l'implementazione della gestione completa di Passport, sono state introd
    - Documenta le regole anti-ridondanza per XotBase classes
    - Include esempi di errori comuni e correzioni
 
-2. **Aggiornato**: `laravel/Modules/Xot/docs/filament/relation-managers.md`
    - Aggiunto warning su HasXotTable ridondante
 
-3. **Aggiornato**: `laravel/Modules/User/docs/SERVICE_PROVIDER_ARCHITECTURE.md`
    - Rimosso riferimento a registrazione policies in UserServiceProvider
    - Aggiunto divieto esplicito per policies di Passport
 

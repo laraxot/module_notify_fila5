@@ -96,7 +96,6 @@ use Filament\Widgets\Concerns\CanPoll;
             'active_users' => TextInput::make('active_users')
                 ->default($this->getActiveUsers())
                 ->disabled()
-                ->hint('Aggiornato automaticamente ogni 30 secondi'),
         ];
     private function getActiveUsers(): int
         // Logica per ottenere il numero di utenti attivi

@@ -23,7 +23,6 @@ Tutte le modifiche significative al modulo Xot saranno documentate in questo fil
 - Analisi critica script bash con dialettica interna
 
 ### Documentation
-- Aggiornato [git-conflict-resolution-guide.md](../../../bashscripts/docs/git-conflict-resolution-guide.md) v1.0 → v2.0
   - +1400 righe analisi filosofica e tecnica
   - Storia evolutiva script (4 generazioni)
   - 7 bug identificati con priorità

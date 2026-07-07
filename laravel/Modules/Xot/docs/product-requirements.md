@@ -6,7 +6,6 @@
 |-------|--------|
 | **Version** | 1.0.0 |
 | **Status** | Draft |
-| **Last Updated** | YYYY-MM-DD |
 | **Owner** | Team Name |
 | **Module** | ModuleName |
 | **Repository** | laraxot/module_xxx |
