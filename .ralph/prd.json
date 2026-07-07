@@ -1,0 +1,93 @@
+{
+  "project": "FixCity Platform",
+  "goal": "Complete project implementation using OpenViking + BMAD + GSD + Ralph Loop",
+  "version": "1.0.0",
+  "context": {
+    "bmad_config": "_bmad/_config/",
+    "gsd_planning": ".planning/",
+    "openviking_docs": "docs/openviking-integration.md"
+  },
+  "stories": [
+    {
+      "id": "story-1",
+      "title": "Initialize OpenViking Context",
+      "description": "As a developer, I want to initialize OpenViking context database so that AI agents have access to project knowledge",
+      "acceptance_criteria": [
+        "OpenViking initialized in project root",
+        "Project documentation indexed",
+        "Context entries created for architecture decisions"
+      ],
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": "story-2",
+      "title": "Set Up Ralph Loop Infrastructure",
+      "description": "As a developer, I want Ralph Loop infrastructure so that autonomous implementation can run",
+      "acceptance_criteria": [
+        ".ralph/ directory created",
+        "ralph-loop.sh script functional",
+        "PRD template created"
+      ],
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": "story-3",
+      "title": "Integrate BMAD with OpenViking",
+      "description": "As a developer, I want BMAD artifacts stored in OpenViking so that context is preserved across sessions",
+      "acceptance_criteria": [
+        "PRD stored in OpenViking",
+        "Architecture decisions stored",
+        "viking:// URIs used in documentation"
+      ],
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": "story-4",
+      "title": "Integrate GSD with OpenViking",
+      "description": "As a developer, I want GSD phases tracked in OpenViking so that phase context is preserved",
+      "acceptance_criteria": [
+        "Phase plans stored",
+        "Phase outcomes documented",
+        "Verification results tracked"
+      ],
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": "story-5",
+      "title": "Create Unified Workflow Documentation",
+      "description": "As a developer, I want comprehensive workflow documentation so that I understand how to use all tools together",
+      "acceptance_criteria": [
+        "Workflow guide created",
+        "Examples provided",
+        "Best practices documented"
+      ],
+      "status": "pending",
+      "priority": "high"
+    }
+  ],
+  "constraints": [
+    "Follow Laraxot patterns",
+    "Use Spatie QueueableAction",
+    "No Services, no Controllers",
+    "PHPStan Level 10 compliance",
+    "English documentation (Italian only for AGID)",
+    "No temporal strings in docs",
+    "Commit and push after each success"
+  ],
+  "quality_gates": [
+    "vendor/bin/phpstan analyse --level=10",
+    "npm run quality",
+    "php artisan test --coverage"
+  ],
+  "metadata": {
+    "created_at": "2026-03-30",
+    "created_by": "AI Agent",
+    "bmad_prd_ref": null,
+    "gsd_phase_ref": null,
+    "openviking_ref": "viking://context/openviking-integration"
+  }
+}
