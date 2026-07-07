@@ -26,17 +26,6 @@ new class extends Component {
 
 <x-layouts.app>
     @volt('tests.index')
-    <div>
-        {{-- Header Section --}}
-        <x-section slug="header" />
-
-        {{-- Main Content --}}
-        <main id="main-container">
-            <x-page side="content" :slug="$pageSlug" :data="$data" />
-        </main>
-
-        {{-- Footer Section --}}
-        <x-section slug="footer" tpl="full" />
-    </div>
+        <x-page side="content" :slug="$pageSlug" :data="$data" />
     @endvolt
 </x-layouts.app>

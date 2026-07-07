@@ -4,51 +4,52 @@
     
     EXTENDS: x-layouts.main (resources/views/components/layouts/main.blade.php)
     
+    CONTIENE (obbligatorio per Design Comuni):
+    - Skip Links (accessibilità WCAG AA)
+    - Header Section
+    - Main Container con id="main-container"
+    - Footer Section
+    
     USAGE:
     ```blade
-    <x-layouts.app title="Home">
-        <x-section slug="header" />
-        <main>{{ $slot }}</main>
-        <x-section slug="footer" />
+    <x-layouts.app>
+        <x-page side="content" :slug="$pageSlug" :data="$data" />
     </x-layouts.app>
     ```
     
     ARCHITECTURE:
     - x-layouts.main: Base HTML structure (DOCTYPE, head, body, scripts)
-    - x-layouts.app: Public frontend wrapper with header/footer sections
+    - x-layouts.app: Public frontend wrapper con skip links, header, main, footer
     - x-layouts.guest: Authentication pages (login, register)
     - x-layouts.auth: Protected dashboard pages
     
-    VITE CONFIGURATION:
-    - Assets are built in laravel/Themes/Sixteen/
-    - outDir: './public' in vite.config.js
-    - Built assets copied to public_html/themes/Sixteen/
-    - MUST use @vite([...], 'themes/Sixteen') with second parameter
-    - Second parameter tells Laravel where to find manifest.json
-    
-    WHY SECOND PARAMETER IS REQUIRED:
-    1. Theme is built independently from main Laravel app
-    2. Vite builds to themes/Sixteen/public/
-    3. Manifest.json is in public_html/themes/Sixteen/manifest.json
-    4. Without second param, Laravel looks in public_html/build/manifest.json (WRONG!)
-    5. With second param, Laravel looks in public_html/themes/Sixteen/manifest.json (CORRECT!)
+    LAYOUT HIERARCHY:
+    → docs/layout-hierarchy.md
     
     DRY + KISS:
-    - main.blade.php contains ONLY essential HTML structure
-    - app.blade.php adds public frontend semantics
-    - No duplication: all Vite assets in main.blade.php
+    - Skip links, header, footer sono nel layout, NON nelle singole pagine
+    - Le pagine (es. tests/[slug].blade.php) contengono SOLO il contenuto specifico
     
-    DOCUMENTATION:
-    → Layout Architecture: docs/layout-architecture.md#x-layoutsapp
-    → Main Layout: docs/layout-architecture.md#x-layoutsmain
-    → Vite Configuration: docs/VITE_MANIFEST_FIX_COMPLETE.md
-    → Vite Second Parameter: docs/VITE_SECOND_PARAMETER_GUIDE.md
-    → Theme Index: docs/README.md
+    VITE CONFIGURATION:
+    - MUST use @vite([...], 'themes/Sixteen') with second parameter
 --}}
 @props(['title' => ''])
 
 <x-layouts.main>
+    {{-- Skip Links - Accessibility (WCAG AA) --}}
+    <div class="skiplink">
+        <a class="visually-hidden-focusable" href="#main-container">Vai ai contenuti</a>
+        <a class="visually-hidden-focusable" href="#footer">Vai al footer</a>
+    </div>
+
+    {{-- Header Section --}}
     <x-section slug="header" />
-    {{ $slot }}
+
+    {{-- Main Content - Il contenuto pagina specifica --}}
+    <main id="main-container">
+        {{ $slot }}
+    </main>
+
+    {{-- Footer Section --}}
     <x-section slug="footer" />
 </x-layouts.main>
