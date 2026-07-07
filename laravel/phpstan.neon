@@ -58,7 +58,7 @@ parameters:
 
     scanFiles:
         - ./Modules/Xot/Helpers/Helper.php
-        - ./_ide_helper_models.php
+        # - ./_ide_helper_models.php
 
     editorUrl: 'vscode://file/%%file%%:%%line%%'
     tmpDir: /tmp/phpstan

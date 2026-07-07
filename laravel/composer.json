@@ -79,6 +79,7 @@
             "@php artisan view:cache",
             "@php artisan icons:cache",
             "@php artisan route:clear",
+            "@php artisan ide-helper:models -W",
             "sudo chown -R www-data:www-data ..",
             "sudo chmod -R g+w ..",
             "@php artisan serve"
