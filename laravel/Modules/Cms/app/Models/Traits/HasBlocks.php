@@ -92,7 +92,6 @@ trait HasBlocks
      */
     public static function getBlocksBySlug(string $slug, ?string $side = null): array
     {
-        $record = static::query()->where('slug', $slug)->sole();
         try {
             $record = static::query()->where('slug', $slug)->sole();
         } catch (ModelNotFoundException) {
