@@ -12,7 +12,7 @@
             {
                 "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::blocks.breadcrumb.default",
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
                     "items": [
                         {"label": "Home", "url": "/it/tests/homepage"},
                         {"label": "Richiesta assistenza", "url": null}
@@ -22,7 +22,7 @@
             {
                 "type": "form",
                 "data": {
-                    "view": "pub_theme::blocks.form.assistance",
+                    "view": "pub_theme::components.blocks.form.assistance",
                     "title": "Inserisci i tuoi dati",
                     "description": "Compila il modulo per richiedere assistenza",
                     "fields": [
