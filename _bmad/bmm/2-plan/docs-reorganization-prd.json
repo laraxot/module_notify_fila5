@@ -1,0 +1,202 @@
+{
+  "title": "Documentation Reorganization - DRY + KISS Compliance",
+  "version": "1.0.0",
+  "created_at": "2026-03-30",
+  "author": "AI Agent (BMAD Workflow)",
+  "status": "draft",
+  
+  "problem_statement": {
+    "current_state": "La documentazione è sparsa in multiple cartelle con ridondanze: docs/ root, laravel/Modules/*/docs/, laravel/Themes/*/docs/, .planning/, _bmad/. Il tema attivo è Sixteen ma la documentazione recente punta a TwentyOne. Document_root è public_html ma non documentato.",
+    "desired_state": "Documentazione DRY (Don't Repeat Yourself) e KISS (Keep It Simple, Stupid): (1) Single source of truth per ogni argomento, (2) Indici bidirezionali, (3) No file duplicati, (4) Tema corretto (Sixteen), (5) Document_root chiaro",
+    "impact": "Meno confusione, manutenzione semplificata, AI agents più efficienti, onboarding veloce"
+  },
+  
+  "goals": [
+    "Identificare e rimuovere documentazione duplicata",
+    "Creare indici centralizzati con link bidirezionali",
+    "Aggiornare riferimenti al tema: TwentyOne → Sixteen",
+    "Documentare document_root: public_html",
+    "Aggiornare .windsurfrules con informazioni corrette",
+    "Creare memoria OpenViking per contesto",
+    "Mantenere solo documentazione essenziale (KISS)"
+  ],
+  
+  "user_stories": [
+    {
+      "id": "story-1",
+      "title": "Analisi Documentazione Esistente",
+      "as": "Sviluppatore AI",
+      "i_want": "Sapere esattamente dove si trova ogni documentazione",
+      "so_that": "Posso evitare duplicazioni e mantenere DRY",
+      "acceptance_criteria": [
+        "Lista completa di tutti i file docs/",
+        "Identificazione duplicati (contenuto simile >80%)",
+        "Mappatura dipendenze tra documenti",
+        "Indice master creato"
+      ],
+      "priority": "high",
+      "effort": "medium"
+    },
+    {
+      "id": "story-2",
+      "title": "Rimuovere Duplicati",
+      "as": "Manutentore documentazione",
+      "i_want": "Un solo file per ogni argomento",
+      "so_that": "La manutenzione sia semplice e DRY",
+      "acceptance_criteria": [
+        "Nessun duplicato con contenuto >80% simile",
+        "File consolidati con riferimenti incrociati",
+        "Backup creato prima di eliminare",
+        "Git history preservato"
+      ],
+      "priority": "high",
+      "effort": "high"
+    },
+    {
+      "id": "story-3",
+      "title": "Aggiornare Riferimenti Tema",
+      "as": "Sviluppatore frontend",
+      "i_want": "Documentazione che riferisce al tema corretto (Sixteen)",
+      "so_that": "Le istruzioni siano accurate",
+      "acceptance_criteria": [
+        "TwentyOne → Sixteen in tutti i docs",
+        "Path corretti: laravel/Themes/Sixteen/",
+        "Screenshot e esempi aggiornati",
+        "Configurazione documentata"
+      ],
+      "priority": "high",
+      "effort": "low"
+    },
+    {
+      "id": "story-4",
+      "title": "Creare Indici Centralizzati",
+      "as": "Nuovo sviluppatore",
+      "i_want": "Un indice master per trovare tutto velocemente",
+      "so_that": "Non perda tempo a cercare documenti",
+      "acceptance_criteria": [
+        "docs/README.md con link a tutte le sezioni",
+        "Indici per modulo e tema",
+        "Link bidirezionali tra documenti correlati",
+        "Search-friendly structure"
+      ],
+      "priority": "medium",
+      "effort": "medium"
+    },
+    {
+      "id": "story-5",
+      "title": "Aggiornare .windsurfrules e Memories",
+      "as": "AI Agent",
+      "i_want": "Regole e contesto aggiornati",
+      "so_that": "Le future AI session siano accurate",
+      "acceptance_criteria": [
+        ".windsurfrules con tema corretto",
+        ".windsurfrules con document_root",
+        ".windsurfrules con struttura docs",
+        "OpenViking memories aggiornate"
+      ],
+      "priority": "high",
+      "effort": "low"
+    }
+  ],
+  
+  "constraints": [
+    "DRY: Don't Repeat Yourself - no duplicati",
+    "KISS: Keep It Simple, Stupid - solo essenziale",
+    "Git history: preservare quando possibile",
+    "OpenViking: usare per contesto centralizzato",
+    "Tema: Sixteen (non TwentyOne)",
+    "Document root: public_html"
+  ],
+  
+  "technical_requirements": {
+    "documentation": {
+      "structure": "docs/ root + module docs + theme docs",
+      "indices": "README.md in ogni cartella docs/",
+      "naming": "kebab-case, lowercase, no dates in filenames"
+    },
+    "cleanup": {
+      "duplicate_threshold": "80% similar content",
+      "backup_before_delete": true,
+      "preserve_git_history": true
+    },
+    "update": {
+      "theme_name": "Sixteen",
+      "document_root": "public_html",
+      "config_path": "config/local/fixcity/xra.php"
+    }
+  },
+  
+  "success_metrics": {
+    "documentation": {
+      "duplicate_files": "0",
+      "indexed_docs": "100%",
+      "broken_links": "0"
+    },
+    "maintenance": {
+      "time_to_find": "<30 seconds",
+      "update_complexity": "low"
+    },
+    "ai_efficiency": {
+      "context_accuracy": "100%",
+      "theme_confusion": "0"
+    }
+  },
+  
+  "files_to_audit": [
+    "docs/",
+    "laravel/Modules/*/docs/",
+    "laravel/Themes/*/docs/",
+    ".planning/",
+    "_bmad/bmm/",
+    ".windsurfrules",
+    "AGENTS.md"
+  ],
+  
+  "files_to_update": [
+    ".windsurfrules",
+    "AGENTS.md",
+    "docs/README.md",
+    "laravel/Themes/Sixteen/docs/00-INDEX.md",
+    "bashscripts/ai/.cursor/rules/*"
+  ],
+  
+  "risks": [
+    {
+      "risk": "Eliminare documentazione importante",
+      "mitigation": "Backup completo prima di delete, review accurata"
+    },
+    {
+      "risk": "Rompere link esistenti",
+      "mitigation": "Creare redirect o aggiornare tutti i link"
+    },
+    {
+      "risk": "Perdere git history",
+      "mitigation": "Usare git mv invece di rm + add"
+    }
+  ],
+  
+  "timeline": {
+    "phase_1": {
+      "name": "Audit & Analysis",
+      "duration": "30 min",
+      "stories": ["story-1"]
+    },
+    "phase_2": {
+      "name": "Cleanup & Consolidation",
+      "duration": "1-2 ore",
+      "stories": ["story-2", "story-3"]
+    },
+    "phase_3": {
+      "name": "Indices & Updates",
+      "duration": "1 ora",
+      "stories": ["story-4", "story-5"]
+    }
+  },
+  
+  "references": {
+    "config": "laravel/config/local/fixcity/xra.php",
+    "env": "laravel/.env",
+    "document_root": "public_html",
+    "theme": "laravel/Themes/Sixteen"
+  }
+}

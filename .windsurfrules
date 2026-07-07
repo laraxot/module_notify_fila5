@@ -1,5 +1,53 @@
 # LARAXOT FRAMEWORK RULES
 
+## PROJECT CONFIGURATION (CRITICAL)
+
+### Theme Detection Algorithm
+```php
+// 1. Read APP_URL from laravel/.env
+$appUrl = 'http://fixcity.local'; // From .env
+
+// 2. Extract domain
+$domain = str_replace(['http://', 'https://', 'www.'], '', $appUrl);
+// Result: "fixcity.local"
+
+// 3. Explode and reverse
+$parts = array_reverse(explode('.', $domain));
+// Result: ["local", "fixcity"]
+
+// 4. Build config path
+$configPath = implode('/', $parts);
+// Result: "local/fixcity"
+
+// 5. Read config
+$config = include base_path("config/{$configPath}/xra.php");
+$theme = $config['pub_theme'];
+// Result: "Sixteen"
+```
+
+### Active Theme
+- **Theme Name**: Sixteen
+- **Config File**: `laravel/config/local/fixcity/xra.php`
+- **Config Key**: `pub_theme` => `'Sixteen'`
+- **Theme Path**: `laravel/Themes/Sixteen/`
+- **Assets Path**: `public_html/assets/`
+- **Document Root**: `public_html/`
+
+### Project Structure
+- **Document Root**: `public_html/` (NOT `public/`)
+- **Laravel App**: `laravel/`
+- **Modules**: `laravel/Modules/*/`
+- **Themes**: `laravel/Themes/`
+- **Config**: `laravel/config/local/fixcity/xra.php`
+
+### Documentation Structure (DRY + KISS)
+- **Project Docs**: `docs/` (root level)
+- **Module Docs**: `laravel/Modules/*/docs/` (module-specific)
+- **Theme Docs**: `laravel/Themes/Sixteen/docs/` (theme-specific)
+- **Script Docs**: `bashscripts/docs/` (script-specific)
+- **DRY Rule**: No duplicates - use cross-references with links
+- **KISS Rule**: Essential only, max 3 levels of nesting
+
 ## CRITICAL: DRY PRINCIPLE - TRAIT METHODS
 - **CRITICAL**: Trait methods (getJsonFile, loadExistingData, saveToJson, etc.) DEVONO essere implementati UNA SOLA VOLTA nel trait, NON in ogni modello
 - I modelli che usano il trait ereditano automaticamente i metodi
