@@ -1,0 +1,75 @@
+{
+    "id": "tests.richiesta-assistenza",
+    "title": {
+        "it": "Richiesta assistenza",
+        "en": "Richiesta assistenza"
+    },
+    "slug": "tests.richiesta-assistenza",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Richiesta assistenza",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Richiesta assistenza",
+                    "subtitle": "",
+                    "content": "<p>Contenuto della pagina Richiesta assistenza</p>"
+                }
+            },
+            {
+                "type": "form",
+                "data": {
+                    "view": "pub_theme::components.blocks.form.default",
+                    "title": "Modulo",
+                    "fields": [
+                        {
+                            "type": "text",
+                            "name": "nome",
+                            "label": "Nome",
+                            "required": true
+                        },
+                        {
+                            "type": "email",
+                            "name": "email",
+                            "label": "Email",
+                            "required": true
+                        },
+                        {
+                            "type": "textarea",
+                            "name": "messaggio",
+                            "label": "Messaggio",
+                            "required": false
+                        }
+                    ]
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

@@ -9,12 +9,13 @@
     <x-section slug="header" />
 
     <main
-        id="main-container"
         @if (request()->routeIs('tests.*'))
             data-page="{{ request()->route('slug') }}"
         @endif
     >
-        {{ $slot }}
+        <div class="container" id="main-container">
+            {{ $slot }}
+        </div>
     </main>
 
     @include('pub_theme::components.sections.search-modal')

@@ -58,8 +58,10 @@ docs/
 ├── PHASE6-ALPINE-STATUS.md
 │   └── Alpine.js implementation blocker (RESOLVED)
 │
-└── FINAL-VISUAL-PARITY-REPORT.md
-    └── Previous visual analysis
+└── 
+│
+├── design-comuni/screenshots/domande-frequenti/README.md
+│   └── FAQ parity analysis, screenshots, and residual gaps
 ```
 
 ---

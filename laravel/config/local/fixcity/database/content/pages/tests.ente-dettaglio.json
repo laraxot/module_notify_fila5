@@ -1,0 +1,56 @@
+{
+    "id": "tests.ente-dettaglio",
+    "title": {
+        "it": "Dettaglio ente",
+        "en": "Dettaglio ente"
+    },
+    "slug": "tests.ente-dettaglio",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Dettaglio ente",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Dettaglio ente",
+                    "subtitle": "",
+                    "content": "<p>Contenuto della pagina Dettaglio ente</p>"
+                }
+            },
+            {
+                "type": "content",
+                "data": {
+                    "view": "pub_theme::components.blocks.content.default",
+                    "title": "Dettaglio ente",
+                    "content": "<p>Contenuto dettagliato della pagina...</p>"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}
