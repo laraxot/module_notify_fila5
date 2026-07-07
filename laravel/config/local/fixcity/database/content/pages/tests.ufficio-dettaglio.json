@@ -1,0 +1,56 @@
+{
+    "id": "tests.ufficio-dettaglio",
+    "title": {
+        "it": "Dettaglio ufficio",
+        "en": "Dettaglio ufficio"
+    },
+    "slug": "tests.ufficio-dettaglio",
+    "category": "Generali",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "breadcrumb",
+                "data": {
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "url": "/it/tests/homepage"
+                        },
+                        {
+                            "label": "Dettaglio ufficio",
+                            "url": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "hero",
+                "data": {
+                    "view": "pub_theme::components.blocks.hero.default",
+                    "title": "Dettaglio ufficio",
+                    "subtitle": "",
+                    "content": "<p>Contenuto della pagina Dettaglio ufficio</p>"
+                }
+            },
+            {
+                "type": "content",
+                "data": {
+                    "view": "pub_theme::components.blocks.content.default",
+                    "title": "Dettaglio ufficio",
+                    "content": "<p>Contenuto dettagliato della pagina...</p>"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

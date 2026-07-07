@@ -13,13 +13,15 @@ Screenshot salvati:
 - `fixcity-homepage-pass3-full-2026-04-03.png`
 - `fixcity-homepage-pass4-2026-04-03.png`
 - `fixcity-homepage-pass4-full-2026-04-03.png`
+- `fixcity-homepage-pass5-2026-04-03.png`
+- `fixcity-homepage-pass5-full-2026-04-03.png`
 
 ## Stato sintetico
 
-1. Header e navbar sono vicini alla reference.
-2. Hero migliorata sensibilmente nei pass successivi.
-3. Pass3 e pass4 hanno ridotto il gap verticale della parte bassa della pagina.
-4. I delta residui piu' evidenti sono ora nella prima viewport hero e nella prima governance card con immagine.
+1. Header, navbar e struttura generale sono vicini alla reference.
+2. Il full-page locale e' nettamente migliore rispetto allo stato iniziale.
+3. La parte bassa della pagina e le relazioni verticali tra blocchi sono state avvicinate in modo significativo.
+4. Il delta residuo piu' evidente resta la hero first viewport.
 
 ## Progressione dei pass
 
@@ -33,15 +35,18 @@ Screenshot salvati:
 ### Pass 3
 - refinement governance cards
 - compressione useful-links / rating / contacts
-- full-page piu' vicino alla reference
 
 ### Pass 4
 - tuning aggiuntivo governance + contacts
 - full-page ulteriormente avvicinato alla reference
 
-## Limiti residui
+### Pass 5
+- ultimo loop su hero + prima governance card
+- baseline finale corrente del lavoro
 
-1. L'hero non e' ancora pixel-identica.
-2. La prima governance card con immagine resta ancora diversa dal riferimento.
-3. La sequenza centrale/bassa e' migliorata molto, ma non ancora identica.
-4. La `.cmp-search` nel DOM di `#head-section` resta una differenza strutturale secondaria, oggi nascosta via CSS.
+## Valutazione onesta attuale
+
+- parity strutturale: buona
+- parity full-page: buona
+- parity hero first viewport: ancora parziale
+- parity complessiva: migliorata in modo netto, ma non ancora perfetta

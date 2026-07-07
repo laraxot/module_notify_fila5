@@ -2,41 +2,124 @@
     "id": "tests.segnalazione-dettaglio",
     "title": {
         "it": "Segnalazione disservizio - Scheda servizio",
-        "en": "Segnalazione disservizio - Scheda servizio"
+        "en": "Segnalazione disservizio - Service detail"
     },
     "slug": "tests.segnalazione-dettaglio",
     "content": null,
     "content_blocks": {
         "it": [
             {
-                "type": "tests",
+                "type": "breadcrumb",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.intro",
-                    "title": "Segnalazione disservizio - Scheda servizio",
-                    "category": "Segnalazione Disservizio",
-                    "summary": "La scheda di presentazione del servizio di segnalazione.",
-                    "slug": "tests.segnalazione-dettaglio"
+                    "view": "pub_theme::components.blocks.breadcrumb.default",
+                    "items": [
+                        {"label": "Home", "url": "/it/tests/homepage"},
+                        {"label": "Servizi", "url": "/it/tests/servizi"},
+                        {"label": "Segnalazione disservizio", "url": null}
+                    ]
                 }
             },
             {
                 "type": "tests",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.body",
-                    "body_title": "Scenario di conversione",
-                    "body_text": "La scheda richiede blocchi per overview, requisiti, processo e call to action."
+                    "view": "pub_theme::components.blocks.tests.segnalazione-dettaglio",
+                    "title": "Segnalazione disservizio",
+                    "status": "Servizio attivo",
+                    "summary": "Un servizio aperto a tutti i cittadini per segnalare disservizi, guasti e criticita rilevati sul territorio comunale.",
+                    "primary_action": {
+                        "label": "Segnala disservizio",
+                        "url": "/it/tests/segnalazione-01-privacy"
+                    },
+                    "secondary_action": {
+                        "label": "Tutte le segnalazioni",
+                        "url": "/it/tests/segnalazioni-elenco"
+                    },
+                    "share_links": [
+                        {"label": "Facebook", "url": "#", "icon": "it-facebook"},
+                        {"label": "Twitter", "url": "#", "icon": "it-twitter"},
+                        {"label": "Linkedin", "url": "#", "icon": "it-linkedin"},
+                        {"label": "Whatsapp", "url": "#", "icon": "it-whatsapp"}
+                    ],
+                    "view_actions": [
+                        {"label": "Stampa", "url": "#", "icon": "it-print"},
+                        {"label": "Ascolta", "url": "#", "icon": "it-hearing"},
+                        {"label": "Invia", "url": "#", "icon": "it-mail"}
+                    ],
+                    "sections": [
+                        {
+                            "id": "who-needs",
+                            "title": "A chi e rivolto",
+                            "content": "<p>Possono segnalare un disservizio tutte le persone residenti e non residenti nel comune.</p>"
+                        },
+                        {
+                            "id": "description",
+                            "title": "Descrizione",
+                            "content": "<p>Il servizio permette di segnalare in modo dettagliato un problema all'amministrazione comunale. E possibile indicare il luogo del disservizio su mappa o tramite indirizzo e allegare foto. Le segnalazioni sono gestite dall'Ufficio Relazioni con il Pubblico.</p>"
+                        },
+                        {
+                            "id": "how-to",
+                            "title": "Come fare",
+                            "content": "<p>Si puo inviare una segnalazione online da smartphone o computer, oppure a sportello presso l'URP.</p><p>Alcune tipologie di segnalazioni online richiedono l'accesso con identita digitale SPID o CIE. Non ci sono limitazioni per le segnalazioni generiche.</p><p>Le segnalazioni per disservizi e guasti possono riguardare solo il territorio comunale.</p>"
+                        },
+                        {
+                            "id": "needed",
+                            "title": "Cosa serve",
+                            "class": "mb-30 has-bg-grey p-3",
+                            "content": "<p>Per accedere al servizio, assicurati di avere:</p><ul class=\"list-wrapper link-list lora\"><li class=\"list-item\"><span>informazioni sul tipo di disservizio e sul luogo all'interno del territorio comunale;</span></li><li class=\"list-item\"><span>foto, se disponibili.</span></li></ul>"
+                        },
+                        {
+                            "id": "obtain",
+                            "title": "Cosa si ottiene",
+                            "content": "<p>Chi segnala un disservizio online identificandosi con identita digitale ricevera, tramite posta elettronica, gli aggiornamenti sullo stato di avanzamento della segnalazione.</p>"
+                        },
+                        {
+                            "id": "costs",
+                            "title": "Costi",
+                            "content": "<p>Il servizio e gratuito.</p>",
+                            "links": [
+                                {"label": "Allegato se necessario", "url": "#", "icon": "it-clip"}
+                            ]
+                        },
+                        {
+                            "id": "service-access",
+                            "title": "Fai una segnalazione",
+                            "class": "mb-30 has-bg-grey p-3",
+                            "content": "<p>Invia una segnalazione online dal tuo smartphone o computer.</p><p class=\"text-paragraph mt-4 lora\">Oppure, prenota un appuntamento all'Ufficio Relazioni con il Pubblico (URP).</p>",
+                            "buttons": [
+                                {"label": "Segnala disservizio", "url": "/it/tests/segnalazione-01-privacy", "variant": "btn-primary"},
+                                {"label": "Prenota appuntamento", "url": "/it/tests/appuntamento-01-ufficio", "variant": "btn-outline-primary t-primary bg-white"}
+                            ]
+                        },
+                        {
+                            "id": "conditions",
+                            "title": "Condizioni di servizio",
+                            "content": "<p>Per conoscere i dettagli di scadenze, requisiti e altre informazioni importanti, leggi i termini e le condizioni di servizio.</p>",
+                            "links": [
+                                {"label": "Termini e condizioni di servizio (PDF 1MB)", "url": "#", "icon": "it-clip"}
+                            ]
+                        }
+                    ],
+                    "contact": {
+                        "office": "Ufficio Servizio pubblico",
+                        "url": "/it/tests/ufficio-dettaglio",
+                        "details": "Via Dei Transiti 21, 50302\n05 0505\nufficioserviziopubblico@email.it",
+                        "image": "https://picsum.photos/200/200?grayscale"
+                    },
+                    "topics": [
+                        {"label": "Gestione rifiuti", "url": "/it/tests/argomento"},
+                        {"label": "Igiene pubblica", "url": "/it/tests/argomento"},
+                        {"label": "Spazi verdi", "url": "/it/tests/argomento"},
+                        {"label": "Inquinamento", "url": "/it/tests/argomento"}
+                    ],
+                    "updated_at": "14/04/2022"
                 }
             },
             {
-                "type": "tests",
+                "type": "feedback",
                 "data": {
-                    "view": "pub_theme::components.blocks.tests.governance-note"
-                }
-            },
-            {
-                "type": "tests",
-                "data": {
-                    "view": "pub_theme::components.blocks.tests.source-link",
-                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-dettaglio.html"
+                    "view": "pub_theme::components.blocks.feedback.rating",
+                    "title": "Quanto e stato facile usare questo servizio?",
+                    "subtitle": "Grazie, il tuo parere ci aiutera a migliorare il servizio!"
                 }
             }
         ],

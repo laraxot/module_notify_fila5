@@ -181,11 +181,14 @@ export default {
                     sm: '540px',
                     md: '720px',
                     lg: '960px',
-                    xl: '1140px',
+                    xl: '1320px',
                     '2xl': '1320px',
                 },
             },
         },
+    },
+    corePlugins: {
+        container: false,  // Disable Tailwind's built-in container - use custom CSS only
     },
     plugins: [
         forms,

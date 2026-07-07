@@ -53,3 +53,19 @@ npm run build && npm run copy
 
 **See detailed analysis in [HOMEPAGE-VISUAL-ANALYSIS.md](HOMEPAGE-VISUAL-ANALYSIS.md)**  
 **See Phase 1 completion in [HOMEPAGE-CSS-JS-FIXES-COMPLETE.md](HOMEPAGE-CSS-JS-FIXES-COMPLETE.md)**
+
+---
+
+## Current Active Docs
+
+Per il lavoro attuale sulla homepage parity usare questi documenti canonici:
+- [design-comuni/homepage-parity-report.md](./design-comuni/homepage-parity-report.md)
+- [design-comuni/screenshots/homepage-parity/readmore-analysis.md](./design-comuni/screenshots/homepage-parity/readmore-analysis.md)
+- [../../../../bashscripts/docs/homepage-visual-parity/inspectors.md](../../../../bashscripts/docs/homepage-visual-parity/inspectors.md)
+
+I report storici nella root `docs/` restano utili come archivio, ma lo stato corrente va mantenuto nei file sopra.
+
+- [design-comuni/risultati-ricerca-parity-2026-04-03.md](./design-comuni/risultati-ricerca-parity-2026-04-03.md)
+- [design-comuni/argomenti-parity-2026-04-02.md](./design-comuni/argomenti-parity-2026-04-02.md)
+- [design-comuni/argomento-parity-2026-04-02.md](./design-comuni/argomento-parity-2026-04-02.md)
+- [design-comuni/design-comuni-batch-audit.md](./design-comuni/design-comuni-batch-audit.md)
