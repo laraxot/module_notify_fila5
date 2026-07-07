@@ -78,4 +78,3 @@ Provide a **flexible notification system** that supports:
 
 ---
 
-**Last Updated**: 2026-03-02

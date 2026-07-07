@@ -13,7 +13,6 @@
 
 #### Laravel Framework
 - **Package**: `laravel/framework`
-- **Version**: `^12.0`
 - **Purpose**: Core PHP framework
 - **Status**: Stable
 - **Criticality**: Critical
@@ -28,7 +27,6 @@
 
 #### Laravel Modules
 - **Package**: `nwidart/laravel-modules`
-- **Version**: `*`
 - **Purpose**: Module management system
 - **Status**: Stable
 - **Criticality**: Critical
@@ -43,7 +41,6 @@
 
 #### Filament
 - **Package**: `filament/filament`
-- **Version**: `^5.0`
 - **Purpose**: Admin panel framework
 - **Status**: Stable
 - **Criticality**: Critical
@@ -66,7 +63,6 @@
 
 #### PHPStan
 - **Package**: `phpstan/phpstan`
-- **Version**: `^2.1`
 - **Purpose**: Static analysis
 - **Status**: Stable
 - **Criticality**: High
@@ -79,7 +75,6 @@
 
 #### Laravel Pint
 - **Package**: `laravel/pint`
-- **Version**: `^1.25`
 - **Purpose**: Code formatting
 - **Status**: Stable
 - **Criticality**: High
@@ -91,7 +86,6 @@
 
 #### Pest PHP
 - **Package**: `pestphp/pest`
-- **Version**: `^3.8`
 - **Purpose**: Testing framework
 - **Status**: Stable
 - **Criticality**: High
@@ -111,21 +105,18 @@
 
 #### PHPMD
 - **Package**: `phpmd/phpmd`
-- **Version**: `*`
 - **Purpose**: Code quality metrics
 - **Status**: Stable
 - **Criticality**: Medium
 
 #### PHPInsights
 - **Package**: `nunomaduro/phpinsights`
-- **Version**: `*`
 - **Purpose**: Code analysis
 - **Status**: Stable
 - **Criticality**: Medium
 
 #### PHP CodeSniffer
 - **Package**: `squizlabs/php_codesniffer`
-- **Version**: `^4.0`
 - **Purpose**: Code sniffer
 - **Status**: Stable
 - **Criticality**: Medium
@@ -134,7 +125,6 @@
 
 #### Safe PHP
 - **Package**: `thecodingmachine/safe`
-- **Version**: `^3.3`
 - **Purpose**: Safe PHP functions
 - **Status**: Stable
 - **Criticality**: High
@@ -147,7 +137,6 @@
 
 #### Webmozart Assert
 - **Package**: `webmozart/assert`
-- **Version**: `*`
 - **Purpose**: Assertion library
 - **Status**: Stable
 - **Criticality**: Medium
@@ -404,5 +393,3 @@ Xot (Foundation)
 
 ---
 
-**Last Updated**: 2026-03-02  
-**Next Review**: 2026-03-16

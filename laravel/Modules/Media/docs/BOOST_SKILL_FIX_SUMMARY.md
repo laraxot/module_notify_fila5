@@ -52,4 +52,3 @@ Critical dependencies for Media module:
    - Storage needs config
    - Cannot operate in isolation
 
-**Last Updated**: 2026-03-02
