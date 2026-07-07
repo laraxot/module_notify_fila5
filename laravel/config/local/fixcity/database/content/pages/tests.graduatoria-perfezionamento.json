@@ -1,0 +1,21 @@
+{
+    "id": "tests.graduatoria-perfezionamento",
+    "title": {
+        "it": "Graduatoria Perfezionamento",
+        "en": "Graduatoria Perfezionamento"
+    },
+    "slug": "tests.graduatoria-perfezionamento",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

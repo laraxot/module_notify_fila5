@@ -1,0 +1,21 @@
+{
+    "id": "tests.permessi-dati-specifici",
+    "title": {
+        "it": "Permessi Dati Specifici",
+        "en": "Permessi Dati Specifici"
+    },
+    "slug": "tests.permessi-dati-specifici",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

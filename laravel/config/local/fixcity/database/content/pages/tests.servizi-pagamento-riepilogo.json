@@ -1,0 +1,21 @@
+{
+    "id": "tests.servizi-pagamento-riepilogo",
+    "title": {
+        "it": "Servizi Pagamento Riepilogo",
+        "en": "Servizi Pagamento Riepilogo"
+    },
+    "slug": "tests.servizi-pagamento-riepilogo",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

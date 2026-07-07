@@ -1,0 +1,21 @@
+{
+    "id": "tests.pagamenti-multa-area-personale",
+    "title": {
+        "it": "Pagamenti Multa Area Personale",
+        "en": "Pagamenti Multa Area Personale"
+    },
+    "slug": "tests.pagamenti-multa-area-personale",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

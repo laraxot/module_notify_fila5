@@ -1,0 +1,21 @@
+{
+    "id": "tests.pagamenti-imu-conferma",
+    "title": {
+        "it": "Pagamenti Imu Conferma",
+        "en": "Pagamenti Imu Conferma"
+    },
+    "slug": "tests.pagamenti-imu-conferma",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

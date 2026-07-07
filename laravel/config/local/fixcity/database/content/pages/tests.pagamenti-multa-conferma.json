@@ -1,0 +1,21 @@
+{
+    "id": "tests.pagamenti-multa-conferma",
+    "title": {
+        "it": "Pagamenti Multa Conferma",
+        "en": "Pagamenti Multa Conferma"
+    },
+    "slug": "tests.pagamenti-multa-conferma",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

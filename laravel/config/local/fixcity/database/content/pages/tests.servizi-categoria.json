@@ -1,0 +1,33 @@
+{
+    "id": "tests.servizi-categoria",
+    "title": {
+        "it": "Categoria di servizio",
+        "en": "Categoria di servizio"
+    },
+    "slug": "tests.servizi-categoria",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Categoria di servizio",
+                    "category": "Servizi",
+                    "summary": "La pagina di secondo livello per i servizi appartenenti a una specifica categoria.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/servizi-categoria.html",
+                    "slug": "tests.servizi-categoria"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

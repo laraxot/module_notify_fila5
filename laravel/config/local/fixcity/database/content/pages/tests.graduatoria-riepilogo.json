@@ -1,0 +1,21 @@
+{
+    "id": "tests.graduatoria-riepilogo",
+    "title": {
+        "it": "Graduatoria Riepilogo",
+        "en": "Graduatoria Riepilogo"
+    },
+    "slug": "tests.graduatoria-riepilogo",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

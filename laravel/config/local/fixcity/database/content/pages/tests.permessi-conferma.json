@@ -1,0 +1,21 @@
+{
+    "id": "tests.permessi-conferma",
+    "title": {
+        "it": "Permessi Conferma",
+        "en": "Permessi Conferma"
+    },
+    "slug": "tests.permessi-conferma",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

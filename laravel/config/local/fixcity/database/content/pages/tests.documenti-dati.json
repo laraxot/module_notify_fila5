@@ -1,0 +1,33 @@
+{
+    "id": "tests.documenti-dati",
+    "title": {
+        "it": "Documenti e dati",
+        "en": "Documenti e dati"
+    },
+    "slug": "tests.documenti-dati",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Documenti e dati",
+                    "category": "Amministrazione",
+                    "summary": "La pagina principale della sottosezione Documenti e dati.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/documenti-dati.html",
+                    "slug": "tests.documenti-dati"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

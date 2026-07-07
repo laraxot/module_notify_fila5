@@ -1,0 +1,33 @@
+{
+    "id": "tests.segnalazioni-elenco",
+    "title": {
+        "it": "Elenco delle segnalazioni",
+        "en": "Elenco delle segnalazioni"
+    },
+    "slug": "tests.segnalazioni-elenco",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Elenco delle segnalazioni",
+                    "category": "Segnalazione Disservizio",
+                    "summary": "La schermata con l'elenco e la mappa di tutte le segnalazioni pervenute, filtrabili per tipologia.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html",
+                    "slug": "tests.segnalazioni-elenco"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

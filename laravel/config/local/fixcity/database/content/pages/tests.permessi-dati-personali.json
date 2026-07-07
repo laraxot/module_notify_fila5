@@ -1,0 +1,21 @@
+{
+    "id": "tests.permessi-dati-personali",
+    "title": {
+        "it": "Permessi Dati Personali",
+        "en": "Permessi Dati Personali"
+    },
+    "slug": "tests.permessi-dati-personali",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

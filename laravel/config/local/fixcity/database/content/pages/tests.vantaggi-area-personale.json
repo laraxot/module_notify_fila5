@@ -1,0 +1,21 @@
+{
+    "id": "tests.vantaggi-area-personale",
+    "title": {
+        "it": "Vantaggi Area Personale",
+        "en": "Vantaggi Area Personale"
+    },
+    "slug": "tests.vantaggi-area-personale",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

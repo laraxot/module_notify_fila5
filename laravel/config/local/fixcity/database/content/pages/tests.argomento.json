@@ -1,0 +1,33 @@
+{
+    "id": "tests.argomento",
+    "title": {
+        "it": "Argomento",
+        "en": "Argomento"
+    },
+    "slug": "tests.argomento",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Argomento",
+                    "category": "Generali",
+                    "summary": "La pagina di presentazione dei contenuti di uno specifico argomento.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/argomento.html",
+                    "slug": "tests.argomento"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

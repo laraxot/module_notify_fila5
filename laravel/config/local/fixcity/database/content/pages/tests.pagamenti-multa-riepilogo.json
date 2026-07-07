@@ -1,0 +1,21 @@
+{
+    "id": "tests.pagamenti-multa-riepilogo",
+    "title": {
+        "it": "Pagamenti Multa Riepilogo",
+        "en": "Pagamenti Multa Riepilogo"
+    },
+    "slug": "tests.pagamenti-multa-riepilogo",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

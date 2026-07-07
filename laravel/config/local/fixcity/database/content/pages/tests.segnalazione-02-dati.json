@@ -1,0 +1,33 @@
+{
+    "id": "tests.segnalazione-02-dati",
+    "title": {
+        "it": "Step 2 - Inserimento dei dati di segnalazione",
+        "en": "Step 2 - Report data entry"
+    },
+    "slug": "tests.segnalazione-02-dati",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Step 2 - Inserimento dei dati di segnalazione",
+                    "category": "Segnalazione Disservizio",
+                    "summary": "La schermata per inserire ubicazione, dettagli del disservizio, allegati e dati anagrafici dell'autore.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati.html",
+                    "slug": "tests.segnalazione-02-dati"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

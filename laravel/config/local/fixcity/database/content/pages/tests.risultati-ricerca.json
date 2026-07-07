@@ -1,0 +1,33 @@
+{
+    "id": "tests.risultati-ricerca",
+    "title": {
+        "it": "Risultati di ricerca",
+        "en": "Risultati di ricerca"
+    },
+    "slug": "tests.risultati-ricerca",
+    "content": null,
+    "content_blocks": {
+        "it": [
+            {
+                "type": "page_block",
+                "data": {
+                    "view": "pub_theme::components.blocks.tests.reference-page",
+                    "title": "Risultati di ricerca",
+                    "category": "Generali",
+                    "summary": "La pagina per la presentazione dei risultati di ricerca.",
+                    "source_url": "https://italia.github.io/design-comuni-pagine-statiche/sito/risultati-ricerca.html",
+                    "slug": "tests.risultati-ricerca"
+                }
+            }
+        ],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}

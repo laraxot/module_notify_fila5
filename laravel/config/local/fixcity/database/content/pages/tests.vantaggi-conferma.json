@@ -1,0 +1,21 @@
+{
+    "id": "tests.vantaggi-conferma",
+    "title": {
+        "it": "Vantaggi Conferma",
+        "en": "Vantaggi Conferma"
+    },
+    "slug": "tests.vantaggi-conferma",
+    "content": null,
+    "content_blocks": {
+        "it": [],
+        "en": []
+    },
+    "sidebar_blocks": {
+        "it": [],
+        "en": []
+    },
+    "footer_blocks": {
+        "it": "",
+        "en": ""
+    }
+}
