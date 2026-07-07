@@ -188,6 +188,8 @@ class Example extends XotBaseModel
 
 ### 3. Mixed Type Safety (21+ Errors)
 
+**Regola critica**: Il tipo `mixed` va usato **SOLO come ultima spiaggia**. Preferire: union types, generics, interfacce. Usare mixed solo quando non esiste alternativa (es. API esterne senza tipo garantito). Vedi [docs/mixed-type-ultima-spiaggia.md](../../docs/mixed-type-ultima-spiaggia.md).
+
 **Problem**: Working with mixed types without type assertions
 
 **Pattern**: Always narrow types before operations
