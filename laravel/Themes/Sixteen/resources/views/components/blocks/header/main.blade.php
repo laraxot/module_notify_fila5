@@ -39,7 +39,7 @@
 <div class="it-search-wrapper position-absolute top-0 end-0 mt-3 me-3">
     <button class="search-link" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Cerca">
         <svg class="icon icon-white" style="width: 24px; height: 24px;">
-            <use href="#it-search"></use>
+            <use xlink:href="#it-search"></use>
         </svg>
         <span class="d-none d-lg-block ms-2">Cerca</span>
     </button>

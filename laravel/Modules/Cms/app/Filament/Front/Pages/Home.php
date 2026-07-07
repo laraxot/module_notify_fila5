@@ -9,13 +9,10 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 class Home extends XotBasePage
 {
     public string $view_type = 'home';
-
     public array $containers = [];
-
     public array $items = [];
 
     protected string $view = 'pub_theme::home';
-
     protected static string $layout = 'pub_theme::components.layouts.app';
 
     public function mount(): void

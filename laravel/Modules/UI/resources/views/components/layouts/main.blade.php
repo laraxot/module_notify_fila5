@@ -23,7 +23,7 @@ declare(strict_types=1);
 
         <title>{{ $title ?? 'Genesis' }}</title>
     </head>
-    <body>
+    <body class="min-h-screen antialiased bg-white dark:bg-gradient-to-b dark:from-gray-950 dark:to-gray-900">
         {{ $slot }}
         <livewire:toast />
     </body>

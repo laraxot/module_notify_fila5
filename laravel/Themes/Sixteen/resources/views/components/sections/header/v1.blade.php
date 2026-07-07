@@ -1,4 +1,4 @@
-<header class="it-header-wrapper" data-bs-target="#header-nav-wrapper" role="banner">
+<header class="it-header-wrapper" data-bs-target="#header-nav-wrapper" style="">
     {{-- ============================================
         Level 1: Top Bar (Slim Header)
         Background: DARK GREEN (#00614a)
