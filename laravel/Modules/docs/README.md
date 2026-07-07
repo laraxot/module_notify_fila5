@@ -162,6 +162,7 @@ php artisan test
 
 - **Themes**: [laravel/Themes/docs/](../Themes/docs/)
 - **Project Docs**: [docs/](../../../../docs/)
+  - [VHost Configuration](../../../../docs/project/vhost-configuration.md) - Apache setup for fixcity.local
 - **Bash Scripts**: [bashscripts/docs/](../../../../bashscripts/docs/)
 - **AGENTS.md**: [AGENTS.md](../../../../AGENTS.md)
 

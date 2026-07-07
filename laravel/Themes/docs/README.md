@@ -246,7 +246,9 @@ Themes integrate with modules via:
 ## Related Documentation
 
 - **Modules**: [laravel/Modules/docs/](../Modules/docs/)
+  - [VHost Configuration](../Modules/docs/vhost-configuration.md) - Apache setup
 - **Project Docs**: [docs/](../../../../docs/)
+  - [VHost Configuration](../../../../docs/project/vhost-configuration.md) - Complete guide
 - **Bash Scripts**: [bashscripts/docs/](../../../../bashscripts/docs/)
 - **AGENTS.md**: [AGENTS.md](../../../../AGENTS.md)
 
