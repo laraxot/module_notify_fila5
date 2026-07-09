@@ -1,0 +1,56 @@
+<?php
+
+declare(strict_types=1);
+
+// Notify translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/Notify/docs/wiki — domain i18n only.
+// File: lang/it/send_whatsapp.php
+return [
+    'resource' => [
+        'name' => 'Invio WhatsApp',
+        'plural' => 'Invio WhatsApp',
+    ],
+    'navigation' => [
+        'name' => 'Invio WhatsApp',
+        'plural' => 'Invio WhatsApp',
+        'group' => [
+            'name' => 'Notifiche',
+            'description' => 'Gestione dell\'invio di notifiche WhatsApp',
+        ],
+        'label' => 'Invio WhatsApp',
+        'icon' => 'heroicon-o-paper-airplane',
+        'sort' => 20,
+    ],
+    'fields' => [
+        'to' => [
+            'label' => 'Destinatario',
+            'placeholder' => 'Inserisci il numero',
+            'helper_text' => 'Numero di telefono del destinatario',
+            'tooltip' => '',
+            'description' => '',
+        ],
+        'message' => [
+            'label' => 'Messaggio',
+            'placeholder' => 'Scrivi il messaggio',
+            'helper_text' => 'Contenuto del messaggio WhatsApp',
+            'tooltip' => '',
+            'description' => '',
+        ],
+    ],
+    'actions' => [
+        'send' => [
+            'label' => 'Invia',
+            'tooltip' => 'Invia un messaggio WhatsApp al destinatario',
+            'success_message' => 'Messaggio WhatsApp inviato con successo',
+            'error_message' => 'Errore nell\'invio del messaggio WhatsApp',
+        ],
+    ],
+    'messages' => [
+        'success' => 'Messaggio WhatsApp inviato con successo',
+        'error' => 'Si è verificato un errore durante l\'invio del messaggio WhatsApp',
+        'confirmation' => 'Sei sicuro di voler inviare questo messaggio WhatsApp?',
+    ],
+    'label' => 'Send Whatsapp',
+    'plural_label' => 'Send Whatsapp (Plurale)',
+];
