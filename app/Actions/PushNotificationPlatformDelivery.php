@@ -2,11 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<<< HEAD:app/Support/PushNotificationPlatformDelivery.php
-namespace Modules\Notify\Support;
-========
 namespace Modules\Notify\Actions;
->>>>>>>> 18a3188 (.):app/Actions/PushNotificationPlatformDelivery.php
 
 use Exception;
 use GuzzleHttp\Promise\PromiseInterface;
@@ -28,23 +24,15 @@ final class PushNotificationPlatformDelivery
     public function __construct()
     {
         $this->config = [
-<<<<<<<< HEAD:app/Support/PushNotificationPlatformDelivery.php
-            "fcm" => ["server_key" => config("notify.fcm.server_key"), "url" => "https://fcm.googleapis.com/fcm/send"],
-            "apns" => ["certificate" => config("notify.apns.certificate"), "passphrase" => config("notify.apns.passphrase"), "url" => config("notify.apns.url")],
-            "webpush" => ["vapid_public" => config("notify.webpush.vapid_public"), "vapid_private" => config("notify.webpush.vapid_private"), "vapid_subject" => config("notify.webpush.vapid_subject")],
-========
             'fcm' => ['server_key' => config('notify.fcm.server_key'), 'url' => 'https://fcm.googleapis.com/fcm/send'],
             'apns' => ['certificate' => config('notify.apns.certificate'), 'passphrase' => config('notify.apns.passphrase'), 'url' => config('notify.apns.url')],
             'webpush' => ['vapid_public' => config('notify.webpush.vapid_public'), 'vapid_private' => config('notify.webpush.vapid_private'), 'vapid_subject' => config('notify.webpush.vapid_subject')],
->>>>>>>> 18a3188 (.):app/Actions/PushNotificationPlatformDelivery.php
         ];
     }
 
     /**
      * @param  array<string, mixed>  $notification
      * @param  array<string, mixed>  $data
-<<<<<<<< HEAD:app/Support/PushNotificationPlatformDelivery.php
-========
      * @return array<string, mixed>
      */
     public function execute(string $platform, string $token, array $notification, array $data = []): array
@@ -55,7 +43,6 @@ final class PushNotificationPlatformDelivery
     /**
      * @param  array<string, mixed>  $notification
      * @param  array<string, mixed>  $data
->>>>>>>> 18a3188 (.):app/Actions/PushNotificationPlatformDelivery.php
      * @return array<string, mixed>
      */
     public function sendToPlatform(string $platform, string $token, array $notification, array $data): array
@@ -160,65 +147,6 @@ final class PushNotificationPlatformDelivery
     }
 
     /**
-<<<<<<<< HEAD:app/Support/PushNotificationPlatformDelivery.php
-     * @param  list<string>  $tokens
-     * @param  array<string, mixed>  $notification
-     * @param  array<string, mixed>  $data
-     * @return array<string, mixed>
-     */
-    public function sendBatchToPlatform(string $platform, array $tokens, array $notification, array $data): array
-    {
-        $results = [];
-        $successCount = 0;
-        $failureCount = 0;
-
-        foreach ($tokens as $token) {
-            Assert::string($token, 'Token must be a string');
-            try {
-                $result = $this->sendToPlatform($platform, $token, $notification, $data);
-                if ($result['success']) {
-                    $successCount++;
-                } else {
-                    $failureCount++;
-                }
-                $results[] = $result;
-            } catch (Exception $e) {
-                $failureCount++;
-                $results[] = [
-                    'success' => false,
-                    'error' => $e->getMessage(),
-                    'token' => $token,
-                ];
-            }
-        }
-
-        return [
-            'success' => $failureCount === 0,
-            'sent' => $successCount,
-            'failed' => $failureCount,
-            'total' => count($tokens),
-            'results' => $results,
-        ];
-    }
-
-    /**
-     * @param  array<string, mixed>  $notification
-     * @param  array<string, mixed>  $data
-     * @return array<string, mixed>
-     */
-    public function sendTopicToPlatform(string $platform, string $topic, array $notification, array $data): array
-    {
-        return match ($platform) {
-            'fcm' => $this->sendFCMTopicNotification($topic, $notification, $data),
-            'apns' => $this->sendAPNSTopicNotification($topic, $notification, $data),
-            'webpush' => $this->sendWebPushTopicNotification($topic, $notification, $data),
-            default => throw new Exception("Unsupported platform: {$platform}")
-        };
-    }
-
-    /**
-========
->>>>>>>> 18a3188 (.):app/Actions/PushNotificationPlatformDelivery.php
      * @param  array<string, mixed>  $notification
      * @param  array<string, mixed>  $data
      * @return array<string, mixed>
