@@ -194,9 +194,7 @@ class SpatieEmail extends TemplateMailable
         $as = \is_string($asRaw) ? $asRaw : '';
 
         $mime = Arr::get($attachment, 'mime', null); // ?? File::mimeType($as);   file vuole un file esistente
-        /** @var string $asForPathinfo */
-        $asForPathinfo = \is_string($attachment['as']) ? $attachment['as'] : '';
-        $info = pathinfo($asForPathinfo);
+        $info = pathinfo($as);
         if ($mime === null && isset($info['extension'])) {
             $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
         }

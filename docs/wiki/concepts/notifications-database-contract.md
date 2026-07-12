@@ -56,7 +56,7 @@ php artisan migrate
 
 ## Runtime guard
 
-`Modules\User\Support\NotificationSchema::isReadable()` — header FO e widget non queryano pre-migrate.
+`app(IsNotificationSchemaReadableAction::class)->execute()` — header FO e widget non queryano pre-migrate.
 
 ## Collegamenti
 

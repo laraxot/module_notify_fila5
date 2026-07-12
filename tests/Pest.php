@@ -12,15 +12,19 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
 
 /*
  * Bootstrap Pest — modulo Notify.
- * Ogni file test dichiara uses(\Modules\Notify\Tests\TestCase::class).
+ * uses()->in() per discovery tool (claude-audit static).
  * Vietato pest()->extend() e expect()->extend() qui (PHPStan method.internalClass).
  */
+
+uses(TestCase::class)->in('Feature', 'Unit');
+uses()->group('notify');
 
 /**
  * @param  array<string, mixed>  $where

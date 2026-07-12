@@ -2,15 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Modules\Notify\Tests\Unit\Services;
+namespace Modules\Notify\Tests\Unit\Actions;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Mockery;
+use Modules\Notify\Actions\NotificationManager;
 use Modules\Notify\Actions\SendNotificationAction;
-use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationTemplate;
-use Modules\Notify\Services\NotificationManager;
 use PHPUnit\Framework\TestCase;
 
 class NotificationManagerTest extends TestCase

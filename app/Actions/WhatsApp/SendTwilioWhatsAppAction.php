@@ -8,13 +8,13 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
-use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
+use Modules\Notify\Contracts\WhatsAppProviderActionContract;
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
 
-final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
+final class SendTwilioWhatsAppAction implements WhatsAppProviderActionContract
 {
     use QueueableAction;
 

@@ -12,7 +12,7 @@ use Modules\Notify\Datas\WhatsAppData;
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
-interface WhatsAppProviderActionInterface
+interface WhatsAppProviderActionContract
 {
     /**
      * Esegue l'invio del messaggio WhatsApp.

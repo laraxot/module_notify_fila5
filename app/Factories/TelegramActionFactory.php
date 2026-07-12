@@ -6,7 +6,7 @@ namespace Modules\Notify\Factories;
 
 use Exception;
 use Illuminate\Support\Facades\Config;
-use Modules\Notify\Contracts\TelegramProviderActionInterface;
+use Modules\Notify\Contracts\TelegramProviderActionContract;
 use Webmozart\Assert\Assert;
 
 /**
@@ -22,11 +22,11 @@ final class TelegramActionFactory
      * Utilizza una formula per calcolare il nome della classe dell'azione.
      *
      * @param  string|null  $driver  Driver Telegram da utilizzare (se null, viene utilizzato quello predefinito)
-     * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
+     * @return TelegramProviderActionContract Azione Telegram corrispondente al driver
      *
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
-    public function create(?string $driver = null): TelegramProviderActionInterface
+    public function create(?string $driver = null): TelegramProviderActionContract
     {
         $driver ??= Config::get('telegram.default', 'official');
 
@@ -46,12 +46,12 @@ final class TelegramActionFactory
         }
 
         // Verifica se la classe implementa l'interfaccia richiesta
-        if (! is_subclass_of($className, TelegramProviderActionInterface::class)) {
-            throw new Exception("Class {$className} does not implement TelegramProviderActionInterface.");
+        if (! is_subclass_of($className, TelegramProviderActionContract::class)) {
+            throw new Exception("Class {$className} does not implement TelegramProviderActionContract.");
         }
 
         $instance = app($className);
-        Assert::isInstanceOf($instance, TelegramProviderActionInterface::class);
+        Assert::isInstanceOf($instance, TelegramProviderActionContract::class);
 
         return $instance;
     }

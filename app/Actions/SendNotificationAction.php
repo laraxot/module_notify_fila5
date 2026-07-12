@@ -27,7 +27,7 @@ class SendNotificationAction
      *
      * @throws Exception
      */
-    public function handle(
+    public function execute(
         Model $recipient,
         string $templateCode,
         array $data = [],
@@ -67,6 +67,25 @@ class SendNotificationAction
         }
 
         return $storedNotification;
+    }
+
+    /**
+     * @param  array<string, mixed>  $data
+     * @param  array<int, string>  $channels
+     * @param  array<string, mixed>  $options
+     *
+     * @throws Exception
+     *
+     * @deprecated Use execute().
+     */
+    public function handle(
+        Model $recipient,
+        string $templateCode,
+        array $data = [],
+        array $channels = [],
+        array $options = [],
+    ): ?NotificationModel {
+        return $this->execute($recipient, $templateCode, $data, $channels, $options);
     }
 
     /**
@@ -141,7 +160,7 @@ class SendNotificationAction
     ): NotificationModel {
         $bodyHtml = $compiled['body_html'];
         $message = $compiled['body_text'] ?? ($bodyHtml !== null ? strip_tags($bodyHtml) : '');
-        $notification = new NotificationModel;
+        $notification = new NotificationModel();
         $notification->forceFill([
             'type' => is_string($template->type) && $template->type !== '' ? $template->type : 'generic',
             'message' => $message,

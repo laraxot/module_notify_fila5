@@ -12,7 +12,7 @@ use Modules\Notify\Datas\TelegramData;
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider Telegram devono rispettare.
  */
-interface TelegramProviderActionInterface
+interface TelegramProviderActionContract
 {
     /**
      * Esegue l'invio del messaggio Telegram.

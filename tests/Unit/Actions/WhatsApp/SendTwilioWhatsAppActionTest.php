@@ -6,7 +6,7 @@ namespace Modules\Notify\Tests\Unit\Actions\WhatsApp;
 use Modules\Notify\Tests\TestCase;
 use function Safe\file_get_contents;
 use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
-use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
+use Modules\Notify\Contracts\WhatsAppProviderActionContract;
 use Modules\Notify\Datas\WhatsAppData;
 use PHPUnit\Framework\Assert;
 
@@ -20,11 +20,11 @@ describe('SendTwilioWhatsAppAction', function () {
         Assert::assertTrue($reflection->isInstantiable());
     });
 
-    it('implements WhatsAppProviderActionInterface', function () {
+    it('implements WhatsAppProviderActionContract', function () {
         $reflection = new \ReflectionClass(SendTwilioWhatsAppAction::class);
         $interfaces = $reflection->getInterfaceNames();
 
-        Assert::assertContains(WhatsAppProviderActionInterface::class, $interfaces);
+        Assert::assertContains(WhatsAppProviderActionContract::class, $interfaces);
     });
 
     it('has execute method with correct signature', function () {

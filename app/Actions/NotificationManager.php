@@ -2,17 +2,36 @@
 
 declare(strict_types=1);
 
-namespace Modules\Notify\Services;
+namespace Modules\Notify\Actions;
 
 use Exception;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationTemplate;
+use Spatie\QueueableAction\QueueableAction;
 
 class NotificationManager
 {
+    use QueueableAction;
+
+    /**
+     * Entry point per QueueableAction — delega a send().
+     *
+     * @param  array<string, mixed>  $data
+     * @param  array<int, string>  $channels
+     * @param  array<string, mixed>  $options
+     */
+    public function execute(
+        Model $recipient,
+        string $templateCode,
+        array $data = [],
+        array $channels = [],
+        array $options = [],
+    ): ?Notification {
+        return $this->send($recipient, $templateCode, $data, $channels, $options);
+    }
+
     /**
      * Invia una notifica a un destinatario.
      *

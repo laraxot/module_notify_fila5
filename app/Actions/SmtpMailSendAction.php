@@ -4,11 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions;
 
+use RuntimeException;
+use Spatie\QueueableAction\QueueableAction;
+
 class SmtpMailSendAction
 {
+    use QueueableAction;
+
     public function execute(string $_to, string $_subject, string $_body): void
     {
-        dddx('WIP');
+        throw new RuntimeException('SmtpMailSendAction is not implemented yet.');
 
         /*
          * $smtpData = SmtpData::make();

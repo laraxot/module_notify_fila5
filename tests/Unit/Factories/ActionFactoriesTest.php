@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Factories;
 
 use Modules\Notify\Contracts\SMS\SmsActionContract;
-use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
+use Modules\Notify\Contracts\WhatsAppProviderActionContract;
 use Modules\Notify\Factories\SmsActionFactory;
 use Modules\Notify\Factories\TelegramActionFactory;
 use Modules\Notify\Factories\WhatsAppActionFactory;
@@ -54,7 +54,7 @@ test('whatsapp action factory creates twilio driver instance', function () {
     $factory = new WhatsAppActionFactory;
     $action = $factory->create('twilio');
 
-    Assert::assertInstanceOf(WhatsAppProviderActionInterface::class, $action);
+    Assert::assertInstanceOf(WhatsAppProviderActionContract::class, $action);
 });
 
 test('whatsapp action factory throws for unsupported driver', function () {

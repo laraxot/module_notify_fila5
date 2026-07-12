@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 use Webmozart\Assert\Assert;
+use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_match;
 use function Safe\preg_replace;
@@ -14,6 +15,8 @@ use function Safe\preg_replace;
  */
 class NormalizePhoneNumberAction
 {
+    use QueueableAction;
+
     public function execute(string $phoneNumber): string
     {
         // Rimuove parentesi e il loro contenuto

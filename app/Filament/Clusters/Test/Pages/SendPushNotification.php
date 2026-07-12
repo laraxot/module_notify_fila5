@@ -14,6 +14,7 @@ use Filament\Notifications\Notification;
 use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Stringable;
 use Kreait\Firebase\Contract\Messaging;
 use Kreait\Firebase\Messaging\CloudMessage;
@@ -193,10 +194,18 @@ class SendPushNotification extends XotBasePage
 
             $messaging->send($message);
         } catch (Exception $e) {
-            dddx([
-                'message' => $e->getMessage(),
+            Log::error('Errore durante l\'invio della notifica push', [
+                'error' => $e->getMessage(),
                 'deviceToken' => $deviceToken,
             ]);
+
+            Notification::make()
+                ->danger()
+                ->title(__('notify::push.notifications.error.title'))
+                ->body($e->getMessage())
+                ->send();
+
+            return;
         }
 
         Notification::make()
