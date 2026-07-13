@@ -52,6 +52,12 @@ class SendMailAction
         $engineClass = '\\Modules\\Notify\\Actions\\Mail\\Engines\\'.Str::studly($this->driver).'\\Send'.Str::studly($this->driver).'MailAction';
         Assert::classExists($engineClass, '['.__LINE__.']['.__CLASS__.'] engine non trovato: '.$this->driver);
 
-        app($engineClass)->execute($this->vars);
+        $engine = app($engineClass);
+        $execute = [$engine, "execute"];
+        if (! is_callable($execute)) {
+            throw new \RuntimeException(sprintf("Engine [%s] privo di execute().", $engineClass));
+        }
+
+        $execute($this->vars);
     }
 }
