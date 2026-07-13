@@ -200,3 +200,4 @@ _bmad
 agentdb.rvf
 audit-coverage/
 tests/AuditCoverage/
+.claude-audit/
