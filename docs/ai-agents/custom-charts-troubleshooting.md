@@ -534,7 +534,7 @@ fi
 ### Documentation
 - Deep Dive Guide: `.kilo/docs/custom-charts-deep-dive.md`
 - Comprehensive Rules: `.kilo/rules/custom-charts-comprehensive-rules.mdc`
-- Session Memory: `.kilo/memories/session-2026-03-17-custom-charts-deep.md`
+- Session Memory: `.kilo/memories/session-custom-charts-deep.md`
 
 ### GitHub
 - Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97

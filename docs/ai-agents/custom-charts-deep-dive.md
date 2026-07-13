@@ -884,7 +884,7 @@ it('calculates mail response rate correctly', function (): void {
 ### Internal Documentation
 - `.kilo/docs/custom-charts-complete-guide.md`
 - `.kilo/rules/custom-charts-rules.mdc`
-- `.kilo/memories/session-2026-03-17-custom-charts.md`
+- `.kilo/memories/session-custom-charts.md`
 
 ### GitHub
 - Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97

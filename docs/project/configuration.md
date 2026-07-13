@@ -185,7 +185,7 @@ QUEUE_CONNECTION=sync
 
 ❌ **WRONG**:
 - `Configuration.md` (PascalCase)
-- `2026-03-30-update.md` (date in filename)
+- `update.md` (date in filename)
 - `temp.md` (non-descriptive)
 
 ## Related Documentation

@@ -66,7 +66,7 @@ No action needed - errors were historical. Continued with normal work.
 - Related rules
 
 #### 3. Session Memory (300+ lines)
-**File**: `.kilo/memories/session-2026-03-17-git-error.md`
+**File**: `.kilo/memories/session-git-error.md`
 
 **Contents**:
 - ✅ Session timeline

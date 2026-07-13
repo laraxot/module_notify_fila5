@@ -23,7 +23,7 @@ class SmsFactorData extends Data
     {
         if (! (self::$instance instanceof SmsFactorData)) {
             /*
-             * $data = TenantService::getConfig('sms');
+             * $data = app(\Modules\Tenant\Actions\Config\GetTenantConfigArrayAction::class)->execute('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
              */
             $data = Config::array('sms.drivers.smsfactor');

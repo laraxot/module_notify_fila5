@@ -25,7 +25,7 @@ class PlivoData extends Data
     {
         if (! (self::$instance instanceof PlivoData)) {
             /*
-             * $data = TenantService::getConfig('sms');
+             * $data = app(\Modules\Tenant\Actions\Config\GetTenantConfigArrayAction::class)->execute('sms');
              * $data = Arr::get($data, 'drivers.plivo', []);
              */
             $data = Config::array('sms.drivers.plivo');

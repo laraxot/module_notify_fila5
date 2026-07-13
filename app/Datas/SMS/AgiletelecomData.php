@@ -35,7 +35,7 @@ class AgiletelecomData extends Data
     {
         if (! (self::$instance instanceof AgiletelecomData)) {
             /*
-             * $data = TenantService::getConfig('sms');
+             * $data = app(\Modules\Tenant\Actions\Config\GetTenantConfigArrayAction::class)->execute('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
              */
             $data = Config::array('sms.drivers.agiletelecom');
