@@ -19,7 +19,7 @@ class NotificationManager
      * Entry point per QueueableAction — delega a send().
      *
      * @param  array<string, mixed>  $data
-     * @param  array<int, string>  $channels
+     * @param  list<string>  $channels
      * @param  array<string, mixed>  $options
      */
     public function execute(
@@ -38,7 +38,7 @@ class NotificationManager
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
-     * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
+     * @param  list<string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
      */
     public function send(
@@ -55,7 +55,9 @@ class NotificationManager
         }
 
         $action = app(SendNotificationAction::class);
-        $notification = $action->handle($recipient, $templateCode, $data, $channels, $options);
+        /** @var list<string> $channelList */
+        $channelList = array_values($channels);
+        $notification = $action->handle($recipient, $templateCode, $data, $channelList, $options);
 
         return $notification instanceof Notification ? $notification : null;
     }
@@ -66,7 +68,7 @@ class NotificationManager
      * @param  array<int, Model>  $recipients  I destinatari delle notifiche
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
-     * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
+     * @param  list<string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
      * @return list<Notification>
      */
