@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas;
 
-readonly class SmsMessageData
+use Spatie\LaravelData\Data;
+
+class SmsMessageData extends Data
 {
     public function __construct(
         public string $recipient,
