@@ -38,12 +38,15 @@ if (! function_exists('mockExpectation')) {
      * Questo helper incapsula quella certezza runtime in un punto solo, cosi'
      * `->with()`, `->andReturn()`, `->once()`, `->times()` restano disponibili
      * senza `method.notFound`/`method.nonObject` sparsi in ogni test.
+     *
+     * Nota: mockery/mockery 1.6.x restituisce sempre `Mockery\CompositeExpectation`
+     * da `shouldReceive()` (anche per un singolo metodo), che espone `with()`,
+     * `andReturn()`, `once()`, `times()` via `__call` proxato verso le
+     * `Expectation` interne. Il tipo di ritorno riflette quindi la realta'
+     * runtime osservata, non `Mockery\Expectation`.
      */
-    function mockExpectation(MockInterface $mock, string $method): \Mockery\Expectation
+    function mockExpectation(MockInterface $mock, string $method): \Mockery\CompositeExpectation
     {
-        /** @var \Mockery\Expectation $expectation */
-        $expectation = $mock->shouldReceive($method);
-
-        return $expectation;
+        return $mock->shouldReceive($method);
     }
 }
