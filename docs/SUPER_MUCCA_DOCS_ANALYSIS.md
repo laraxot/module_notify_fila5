@@ -204,5 +204,8 @@ touch laravel/Modules/Seo/docs/README.md
 *"Non avrai altro path all'infuori del relativo"* - Commandamento Laraxot
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 0752e49e4 (let's start)

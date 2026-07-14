@@ -19,7 +19,7 @@ class NotificationManager
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
-     * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
+     * @param  list<string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
      */
     public function send(
@@ -47,7 +47,7 @@ class NotificationManager
      * @param  array<int, Model>  $recipients  I destinatari delle notifiche
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
-     * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
+     * @param  list<string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
      * @return list<Notification>
      */

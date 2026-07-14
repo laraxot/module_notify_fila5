@@ -8,6 +8,31 @@
 
 Il tipo **mixed** deve essere usato **SOLO come ultima spiaggia**. Preferire union types, generics, interfacce. Vedi [mixed-type-ultima-spiaggia.md](mixed-type-ultima-spiaggia.md).
 
+<<<<<<< HEAD
+=======
+## Regola array iterabili
+
+Ogni parametro o ritorno `array` deve dichiarare il value type tramite PHPDoc quando la firma PHP non lo può esprimere.
+
+```php
+// Errato
+public function send(array $data = [], array $channels = []): void
+{
+}
+
+// Corretto
+/**
+ * @param array<string, mixed> $data
+ * @param list<string> $channels
+ */
+public function send(array $data = [], array $channels = []): void
+{
+}
+```
+
+Per array indicizzati usare `list<T>` quando l'ordine è sequenziale; per mappe usare `array<string, T>`; per payload noti usare array shape.
+
+>>>>>>> 0752e49e4 (let's start)
 ## Critical Rules Identified from Analysis (2026-03-02)
 
 ### 1. Trait Method Declarations
