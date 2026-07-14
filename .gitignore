@@ -201,3 +201,4 @@ agentdb.rvf
 audit-coverage/
 tests/AuditCoverage/
 .claude-audit/
+.vscode/

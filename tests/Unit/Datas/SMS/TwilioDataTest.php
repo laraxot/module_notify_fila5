@@ -74,7 +74,6 @@ describe('TwilioData', function () {
 
         $headers = $data->getAuthHeaders();
 
-        Assert::assertIsArray($headers);
         Assert::assertArrayHasKey('Authorization', $headers);
         Assert::assertArrayHasKey('Content-Type', $headers);
         Assert::assertStringStartsWith('Basic ', $headers["Authorization"]);
