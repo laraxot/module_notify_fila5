@@ -16,15 +16,6 @@ related:
   - "./laravel-path-conventions.md"
   - "./markdown-linking-conventions.md"
   - "./naming-conventions.md"
-related:
-  - "./acronym-naming-conventions.md"
-  - "./filament-naming-conventions.md"
-  - "./filament-template-conventions.md"
-  - "./form-schema-conventions.md"
-  - "./inheritance-conventions.md"
-  - "./laravel-path-conventions.md"
-  - "./markdown-linking-conventions.md"
-  - "./naming-conventions.md"
 ---
 
 # Convenzioni per i Collegamenti nei File Markdown

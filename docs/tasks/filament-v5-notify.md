@@ -15,14 +15,6 @@ related:
   - "./notify-filament-v5.md"
   - "./notify-test-coverage.md"
   - "./tasks-index.md"
-related:
-  - "./001-notification-system.md"
-  - "./cleanup-notify-docs.md"
-  - "./notification-system.md"
-  - "./notify-cleanup-docs.md"
-  - "./notify-filament-v5.md"
-  - "./notify-test-coverage.md"
-  - "./tasks-index.md"
 ---
 
 # Task: Notify Filament v5 Alignment (Clusters)

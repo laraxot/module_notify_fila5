@@ -16,15 +16,6 @@ related:
   - "./filament-ui-enhancements.md"
   - "./html-email-compatibility.md"
   - "./implementation-notes.md"
-related:
-  - "./email-best-practices.md"
-  - "./email-layouts-best-practices.md"
-  - "./email-templates-best-practices.md"
-  - "./email-templates-guide.md"
-  - "./filament-slug-generation.md"
-  - "./filament-ui-enhancements.md"
-  - "./html-email-compatibility.md"
-  - "./implementation-notes.md"
 ---
 
 # Email Templates Update Guide

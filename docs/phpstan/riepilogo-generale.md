@@ -8,15 +8,6 @@ qmd: "riepilogo-generale riepilogo generale - phpstan level 10 compliance"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./PHPSTAN-194-ERRORS-ANALYSIS-.deprecated.md.md"
-  - "./PHPSTAN-ANALYSIS-.deprecated.md.md"
-  - "./PHPSTAN-ANALYSIS-SUMMARY-.deprecated.md.md"
-  - "./PHPSTAN-FINAL-STATUS-.deprecated.md.md"
-  - "./PHPSTAN-GLOBAL-SUMMARY-.deprecated.md.md"
-  - "./PHPSTAN-PROGRESS-UPDATE-.deprecated.md.md"
-  - "./PHPSTAN-SESSION-SESSION2.deprecated.md.md"
-  - "./PHPSTAN-SESSION-4-5-SUMMARY-.deprecated.md.md"
-related:
   - "./PHPSTAN_194_ERRORS_ANALYSIS_2026-03-02.md"
   - "./PHPSTAN_ANALYSIS_2026-03-02.md"
   - "./PHPSTAN_ANALYSIS_SUMMARY_2026-03-02.md"

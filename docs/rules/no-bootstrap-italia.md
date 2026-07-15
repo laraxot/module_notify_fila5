@@ -8,9 +8,6 @@ qmd: "no-bootstrap-italia no bootstrap italia rule"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./README.md"
-  - "./vhost-governance.md"
-related:
   - "./vhost-governance.md"
 ---
 

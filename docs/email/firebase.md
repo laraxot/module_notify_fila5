@@ -10,9 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./notifications.md"
   - "./smtp-testing.md"
-related:
-  - "./notifications.md"
-  - "./smtp-testing.md"
 ---
 
 # Firebase Push Notifications

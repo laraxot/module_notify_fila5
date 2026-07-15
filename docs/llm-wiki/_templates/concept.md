@@ -6,7 +6,6 @@ confidence: medium
 created: {{date}}
 updated: {{date}}
 tags: [tag1, tag2]
-related: []
 related:
   - "./entity.md"
   - "./source.md"

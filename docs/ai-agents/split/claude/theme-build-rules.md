@@ -8,15 +8,6 @@ qmd: "theme-build-rules theme build rules"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./INDEX.md"
-  - "./boost-rules.md"
-  - "./filament-rules.md"
-  - "./filament-v3-rules.md"
-  - "./fluxui-rules.md"
-  - "./folio-rules.md"
-  - "./foundation-rules.md"
-  - "./laravel-core-rules.md"
-related:
   - "./boost-rules.md"
   - "./filament-rules.md"
   - "./filament-v3-rules.md"

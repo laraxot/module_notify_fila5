@@ -16,15 +16,6 @@ related:
   - "./quality-assurance-report.md"
   - "./record-notification-zen-constructor.md"
   - "./record-notification-zen-delegation.md"
-related:
-  - "./channel-enum-implementation-complete.md"
-  - "./channel-enum-implementation-update.md"
-  - "./channel-enum-refactoring.md"
-  - "./extract-method-pattern.md"
-  - "./final-verification-report-channel-enum.md"
-  - "./quality-assurance-report.md"
-  - "./record-notification-zen-constructor.md"
-  - "./record-notification-zen-delegation.md"
 ---
 
 # Refactoring RecordNotification Constructor - Slug Pattern

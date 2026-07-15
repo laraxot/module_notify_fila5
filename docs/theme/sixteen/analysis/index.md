@@ -13,12 +13,6 @@ related:
   - "./results.md"
   - "./status.md"
   - "./visual-comparison.md"
-related:
-  - "./body-structure-parity.md"
-  - "./homepage-comparison.md"
-  - "./results.md"
-  - "./status.md"
-  - "./visual-comparison.md"
 ---
 
 # Theme Sixteen Analysis Index

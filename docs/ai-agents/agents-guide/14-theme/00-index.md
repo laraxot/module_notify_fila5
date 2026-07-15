@@ -10,9 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./pub-theme-namespace-critical-rule.md"
   - "./theme-translations-critical-rule.md"
-related:
-  - "./pub-theme-namespace-critical-rule.md"
-  - "./theme-translations-critical-rule.md"
 ---
 
 # 📋 14 theme Index

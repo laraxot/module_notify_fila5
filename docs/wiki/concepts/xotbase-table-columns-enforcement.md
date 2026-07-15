@@ -7,8 +7,6 @@ created: 2026-05-07
 updated: 2026-05-07
 tags: [xotbase, filament, tables, enforcement]
 related:
-  - ../../../../../../docs/wiki/concepts/xotbase-table-columns-enforcement.md
-related:
   - "./claude-audit-static.md"
   - "./code-redundancy-notify.md"
   - "./composer-root-minimal-nwidart.md"

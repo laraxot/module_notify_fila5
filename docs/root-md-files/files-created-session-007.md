@@ -8,15 +8,6 @@ qmd: "files-created-session-007 files created in session 007"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./CHANGELOG.md"
-  - "./changelog.md"
-  - "./design-conversion-roadmap.md"
-  - "./firebase.md"
-  - "./links.md"
-  - "./login.md"
-  - "./notifications.md"
-  - "./qwen.md"
-related:
   - "./changelog.md"
   - "./design-conversion-roadmap.md"
   - "./firebase.md"

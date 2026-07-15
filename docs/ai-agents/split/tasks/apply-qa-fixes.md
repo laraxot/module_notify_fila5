@@ -8,15 +8,6 @@ qmd: "apply-qa-fixes apply-qa-fixes"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./INDEX.md"
-  - "./advanced-elicitation.md"
-  - "./brownfield-create-epic.md"
-  - "./brownfield-create-story.md"
-  - "./correct-course.md"
-  - "./create-brownfield-story.md"
-  - "./create-deep-research-prompt.md"
-  - "./create-doc.md"
-related:
   - "./advanced-elicitation.md"
   - "./brownfield-create-epic.md"
   - "./brownfield-create-story.md"

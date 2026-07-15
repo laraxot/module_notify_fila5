@@ -8,8 +8,6 @@ qmd: "istruzioni agenti LLM wiki modulo"
 issues: []
 discussions: []
 related:
-  - ./coding-agent-manifests.md
-related:
   - "./2-1-1-plan.md"
   - "./2-1-context.md"
   - "./ai-agent-lessons-learned.md"

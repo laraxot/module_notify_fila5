@@ -8,15 +8,6 @@ qmd: "folio-rules laravel folio"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./INDEX.md"
-  - "./boost-integration.md"
-  - "./boost-rules.md"
-  - "./filament-rules.md"
-  - "./fluxui-rules.md"
-  - "./foundation-rules.md"
-  - "./laravel-core-rules.md"
-  - "./laravel-v12-rules.md"
-related:
   - "./boost-integration.md"
   - "./boost-rules.md"
   - "./filament-rules.md"

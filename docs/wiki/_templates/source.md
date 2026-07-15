@@ -6,7 +6,6 @@ confidence: high
 created: {{date}}
 updated: {{date}}
 tags: [article, paper, documentation]
-related: []
 related:
   - "./comparison.md"
   - "./concept.md"

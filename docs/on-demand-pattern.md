@@ -5,9 +5,6 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [on-demand, pattern, wiki, qmd]
 related:
-  - ../../docs/wiki/rules/on-demand-pattern.md
-  - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
-related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"

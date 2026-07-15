@@ -13,12 +13,6 @@ related:
   - "./cms.md"
   - "./index.md"
   - "./themes-sixteen.md"
-related:
-  - "./activity.md"
-  - "./ai.md"
-  - "./cms.md"
-  - "./index.md"
-  - "./themes-sixteen.md"
 ---
 
 # Modulo UI

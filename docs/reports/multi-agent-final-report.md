@@ -8,15 +8,6 @@ qmd: "multi-agent-final-report 🤖 multi-agent ai collaboration - final report"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./BUGFIX-REPORT-.deprecated.md.md"
-  - "./bugfix-report.md"
-  - "./design-comuni-progress-1.md"
-  - "./document-root-update-summary.md"
-  - "./documentation-update-complete.md"
-  - "./final-documentation-report.md"
-  - "./final-success-report.md"
-  - "./fixcity-improvement-progress-1.md"
-related:
   - "./BUGFIX_REPORT_2025-01-14.md"
   - "./bugfix-report-.md"
   - "./bugfix-report.md"

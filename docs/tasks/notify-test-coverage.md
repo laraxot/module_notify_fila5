@@ -15,14 +15,6 @@ related:
   - "./notify-cleanup-docs.md"
   - "./notify-filament-v5.md"
   - "./tasks-index.md"
-related:
-  - "./001-notification-system.md"
-  - "./cleanup-notify-docs.md"
-  - "./filament-v5-notify.md"
-  - "./notification-system.md"
-  - "./notify-cleanup-docs.md"
-  - "./notify-filament-v5.md"
-  - "./tasks-index.md"
 ---
 
 # Task: Rafforzamento Test Suite Notify (Pest)

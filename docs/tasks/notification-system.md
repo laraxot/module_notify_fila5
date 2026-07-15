@@ -15,14 +15,6 @@ related:
   - "./notify-filament-v5.md"
   - "./notify-test-coverage.md"
   - "./tasks-index.md"
-related:
-  - "./001-notification-system.md"
-  - "./cleanup-notify-docs.md"
-  - "./filament-v5-notify.md"
-  - "./notify-cleanup-docs.md"
-  - "./notify-filament-v5.md"
-  - "./notify-test-coverage.md"
-  - "./tasks-index.md"
 ---
 
 # Task 001: Implement Multi-Channel Notification System

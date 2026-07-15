@@ -8,15 +8,6 @@ qmd: "firebase firebase"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./-repos.md"
-  - "./-todo.md"
-  - "./links.md"
-  - "./login.md"
-  - "./notifications.md"
-  - "./repos.md"
-  - "./telegram.md"
-  - "./test-smtp.md"
-related:
   - "./links.md"
   - "./login.md"
   - "./notifications.md"

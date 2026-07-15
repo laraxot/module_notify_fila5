@@ -8,15 +8,6 @@ qmd: "document-root-update-summary documentation update summary - public_html do
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./BUGFIX-REPORT-.deprecated.md.md"
-  - "./bugfix-report.md"
-  - "./design-comuni-progress-1.md"
-  - "./documentation-update-complete.md"
-  - "./final-documentation-report.md"
-  - "./final-success-report.md"
-  - "./fixcity-improvement-progress-1.md"
-  - "./multi-agent-final-report.md"
-related:
   - "./BUGFIX_REPORT_2025-01-14.md"
   - "./bugfix-report-.md"
   - "./bugfix-report.md"

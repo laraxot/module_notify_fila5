@@ -14,13 +14,6 @@ related:
   - "./sms-implementation-details.md"
   - "./sms-provider-configuration.md"
   - "./telegram-notifications-guide.md"
-related:
-  - "./multi-channel-notifications.md"
-  - "./netfun-sms-implementation.md"
-  - "./notifications-implementation-guide.md"
-  - "./sms-implementation-details.md"
-  - "./sms-provider-configuration.md"
-  - "./telegram-notifications-guide.md"
 ---
 
 # Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra

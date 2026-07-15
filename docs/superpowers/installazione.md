@@ -8,14 +8,6 @@ qmd: "installazione superpowers - installazione e configurazione"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./INDEX.md"
-  - "./README.md"
-  - "./installation-summary.md"
-  - "./installation.md"
-  - "./skills-reference.md"
-  - "./superpowers.md"
-  - "./workflow.md"
-related:
   - "./installation-summary.md"
   - "./installation.md"
   - "./skills-reference.md"

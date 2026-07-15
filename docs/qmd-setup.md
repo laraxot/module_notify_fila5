@@ -5,8 +5,6 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [qmd, search, docs, performance]
 related:
-  - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
-related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"

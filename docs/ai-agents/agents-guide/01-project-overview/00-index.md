@@ -11,10 +11,6 @@ related:
   - "./guidelines.md"
   - "./links.md"
   - "./project-overview.md"
-related:
-  - "./guidelines.md"
-  - "./links.md"
-  - "./project-overview.md"
 ---
 
 # 📋 01 project overview Index

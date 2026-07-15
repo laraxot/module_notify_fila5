@@ -6,10 +6,6 @@ tags: [redundancy, notify, filament, templates]
 created: "2026-05-26"
 updated: "2026-05-26"
 related:
-  - ../../../redundancy-audit-.md.md
-  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
-  - ../../../../Xot/docs/wiki/redundancy-audit-2026-05-26.md
-related:
   - "./claude-audit-static.md"
   - "./composer-root-minimal-nwidart.md"
   - "./context-overflow-prevention.md"

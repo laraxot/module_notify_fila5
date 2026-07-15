@@ -13,12 +13,6 @@ related:
   - "./index.md"
   - "./results.md"
   - "./status.md"
-related:
-  - "./body-structure-parity.md"
-  - "./homepage-comparison.md"
-  - "./index.md"
-  - "./results.md"
-  - "./status.md"
 ---
 
 # Homepage Visual Comparison - CSS Fixes Required

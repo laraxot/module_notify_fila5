@@ -7,8 +7,6 @@ created: 2026-06-10
 updated: 2026-06-10
 tags: [migration, notifications, module-owner, notify, user]
 related:
-  - ../../../../wiki/rules/one-migration-per-model.md
-related:
   - "./claude-audit-static.md"
   - "./code-redundancy-notify.md"
   - "./composer-root-minimal-nwidart.md"

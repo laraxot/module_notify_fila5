@@ -9,8 +9,6 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index.md"
-related:
-  - "./00-index.md"
 ---
 
 # 12. MCP (Model Context Protocol) for Autonomous AI Agents

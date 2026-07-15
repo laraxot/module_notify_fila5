@@ -8,15 +8,6 @@ qmd: "roadmap-technical 🛠️ roadmap tecnica - fixcity platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./AGID-ANALYSIS-IMPLEMENTATION-.deprecated.md.md"
-  - "./CHANGELOG-docs-update-.deprecated.md.md"
-  - "./CODE-QUALITY-IMPROVEMENTS-.deprecated.md.md"
-  - "./COMPLETION-SUMMARY-.deprecated.md.md"
-  - "./FINAL-COMPLETION-REPORT-.deprecated.md.md"
-  - "./IMPLEMENTATION-REPORT-.deprecated.md.md"
-  - "./MODULES-VALIDATION-REPORT-.deprecated.md.md"
-  - "./PERFECT-COMPLETION-REPORT-.deprecated.md.md"
-related:
   - "./AGID_ANALYSIS_IMPLEMENTATION_2025-10-02.md"
   - "./CHANGELOG-docs-update-2025-10-01.md"
   - "./CODE_QUALITY_IMPROVEMENTS_2025-10-01.md"

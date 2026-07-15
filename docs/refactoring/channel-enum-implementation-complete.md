@@ -16,15 +16,6 @@ related:
   - "./record-notification-constructor-slug.md"
   - "./record-notification-zen-constructor.md"
   - "./record-notification-zen-delegation.md"
-related:
-  - "./channel-enum-implementation-update.md"
-  - "./channel-enum-refactoring.md"
-  - "./extract-method-pattern.md"
-  - "./final-verification-report-channel-enum.md"
-  - "./quality-assurance-report.md"
-  - "./record-notification-constructor-slug.md"
-  - "./record-notification-zen-constructor.md"
-  - "./record-notification-zen-delegation.md"
 ---
 
 # Refactoring Complete: ChannelEnum Implementation in SendRecordNotificationAction

@@ -9,8 +9,6 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./phpstan-session-report.md"
-related:
-  - "./phpstan-session-report.md"
 ---
 
 # PHPMD Analysis - Modulo Notify

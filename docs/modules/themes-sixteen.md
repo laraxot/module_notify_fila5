@@ -13,12 +13,6 @@ related:
   - "./cms.md"
   - "./index.md"
   - "./ui.md"
-related:
-  - "./activity.md"
-  - "./ai.md"
-  - "./cms.md"
-  - "./index.md"
-  - "./ui.md"
 ---
 
 # Gestione asset Vite per il tema Sixteen

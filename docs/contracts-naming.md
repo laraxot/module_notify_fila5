@@ -5,9 +5,6 @@ created: 2026-07-12
 updated: 2026-07-12
 tags: [contract, naming, architecture, laraxot, notify]
 related:
-  - ../../../../docs/wiki/rules/module-contracts-naming-placement.md
-  - ./provider-contracts-naming.md
-related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"

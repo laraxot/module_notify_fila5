@@ -5,7 +5,6 @@ tags: [phpstan, quality, workflow, governance]
 sources: [AGENTS.md]
 created: 2026-04-16
 updated: 2026-04-16
-related: [llm-wiki-governance.md, ../project/qmd-local-docs-search.md]
 related:
   - "./claude-audit-static.md"
   - "./code-redundancy-notify.md"

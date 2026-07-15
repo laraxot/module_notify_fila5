@@ -11,10 +11,6 @@ related:
   - "./analisi-colori-header-footer.md"
   - "./analisi-visiva.md"
   - "./screenshot-analysis.md"
-related:
-  - "./analisi-colori-header-footer.md"
-  - "./analisi-visiva.md"
-  - "./screenshot-analysis.md"
 ---
 
 # 🚀 Fix Homepage Bootstrap Italia - Piano Esecutivo

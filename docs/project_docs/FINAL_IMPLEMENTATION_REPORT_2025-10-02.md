@@ -9,15 +9,6 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2025-excellence-achievement.md"
-  - "./IMPLEMENTATION-STATUS-.deprecated.md.md"
-  - "./INDEX.md"
-  - "./README.md"
-  - "./agid-implementation-guide.md"
-  - "./architecture.md"
-  - "./complete-refactoring-analysis.md"
-  - "./documentation-status.md"
-related:
-  - "./2025-excellence-achievement.md"
   - "./IMPLEMENTATION_STATUS_2025-10-02.md"
   - "./agid-implementation-guide.md"
   - "./architecture.md"

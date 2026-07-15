@@ -15,14 +15,6 @@ related:
   - "./notify-cleanup-docs.md"
   - "./notify-filament-v5.md"
   - "./notify-test-coverage.md"
-related:
-  - "./001-notification-system.md"
-  - "./cleanup-notify-docs.md"
-  - "./filament-v5-notify.md"
-  - "./notification-system.md"
-  - "./notify-cleanup-docs.md"
-  - "./notify-filament-v5.md"
-  - "./notify-test-coverage.md"
 ---
 
 # Indice task - Modulo Notify

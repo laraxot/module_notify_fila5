@@ -16,15 +16,6 @@ related:
   - "./phpmd-phar-installation.md"
   - "./translation-structure-5-levels-mandatory.md"
   - "./translation-structure-5-levels.md"
-related:
-  - "./00-index.md"
-  - "./bash-commands-auto-allow.md"
-  - "./llm-wiki-rule.md"
-  - "./multi-outcome-no-binary-fields.md"
-  - "./one-migration-per-model.md"
-  - "./phpmd-phar-installation.md"
-  - "./translation-structure-5-levels-mandatory.md"
-  - "./translation-structure-5-levels.md"
 ---
 
 # 🔴 USE MODELS, NOT DB::TABLE() - CRITICAL RULE

@@ -10,9 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index.md"
   - "./quick-commands.md"
-related:
-  - "./00-index.md"
-  - "./quick-commands.md"
 ---
 
 # 2. Build / Lint / Test Commands

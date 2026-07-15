@@ -10,9 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./repos.md"
   - "./todo.md"
-related:
-  - "./repos.md"
-  - "./todo.md"
 ---
 
 # test_smtp

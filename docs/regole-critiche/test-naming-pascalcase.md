@@ -10,9 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./naming-conventions.md"
   - "./phpstan-test-mai-escludere.md"
-related:
-  - "./naming-conventions.md"
-  - "./phpstan-test-mai-escludere.md"
 ---
 
 # Regola Critica: Naming File Test - PascalCase Obbligatorio

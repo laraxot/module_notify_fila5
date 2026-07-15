@@ -10,9 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./firebase.md"
   - "./smtp-testing.md"
-related:
-  - "./firebase.md"
-  - "./smtp-testing.md"
 ---
 
 # Email Notifications

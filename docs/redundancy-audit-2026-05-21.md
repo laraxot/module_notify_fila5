@@ -5,8 +5,6 @@ module: Notify
 tags: [redundancy, email, config, casing]
 created: 2026-05-21
 related:
-  - https://github.com/laraxot/base_fixcity_fila5/issues/89
-related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"

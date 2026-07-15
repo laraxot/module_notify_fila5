@@ -8,8 +8,6 @@ qmd: "istruzioni agenti LLM wiki modulo"
 issues: []
 discussions: []
 related:
-  - ./coding-agent-manifests.md
-related:
   - "./bmad-method.md"
   - "./index.md"
   - "./log.md"

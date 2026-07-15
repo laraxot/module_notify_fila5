@@ -11,10 +11,6 @@ related:
   - "./agents-filament-widgets.md"
   - "./filament-table-vs-blade-component.md"
   - "./ralph-gsd-bmad-orchestration.md"
-related:
-  - "./agents-filament-widgets.md"
-  - "./filament-table-vs-blade-component.md"
-  - "./ralph-gsd-bmad-orchestration.md"
 ---
 
 # Architecture Documentation Index

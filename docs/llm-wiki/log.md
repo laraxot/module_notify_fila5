@@ -8,10 +8,6 @@ qmd: "log notify activity log"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./AGENTS.md"
-  - "./agents.md"
-  - "./index.md"
-related:
   - "./agents.md"
   - "./index.md"
 ---

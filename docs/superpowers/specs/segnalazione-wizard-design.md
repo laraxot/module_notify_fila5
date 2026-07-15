@@ -8,11 +8,6 @@ qmd: "segnalazione-wizard-design design: ticket wizard widget (filament)"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./fixcity-hero-marketing.deprecated.md.md"
-  - "./llm-wiki-layout-design.deprecated.md.md"
-  - "./fixcity-hero-marketing.md"
-  - "./llm-wiki-layout-design.md"
-related:
   - "./2026-03-30-fixcity-hero-marketing.md"
   - "./2026-04-15-llm-wiki-layout-design.md"
   - "./fixcity-hero-marketing.md"

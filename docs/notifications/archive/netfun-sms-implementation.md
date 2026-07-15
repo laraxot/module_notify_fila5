@@ -14,13 +14,6 @@ related:
   - "./sms-implementation-details.md"
   - "./sms-provider-configuration.md"
   - "./telegram-notifications-guide.md"
-related:
-  - "./errori-comuni-da-evitare.md"
-  - "./multi-channel-notifications.md"
-  - "./notifications-implementation-guide.md"
-  - "./sms-implementation-details.md"
-  - "./sms-provider-configuration.md"
-  - "./telegram-notifications-guide.md"
 ---
 
 # Implementazione Netfun SMS 

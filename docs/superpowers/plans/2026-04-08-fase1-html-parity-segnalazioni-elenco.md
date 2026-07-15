@@ -9,8 +9,6 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./fase1-html-parity-segnalazioni-elenco.md"
-related:
-  - "./fase1-html-parity-segnalazioni-elenco.md"
 ---
 
 # FASE 1 — HTML Parity 90% (segnalazioni-elenco) Implementation Plan

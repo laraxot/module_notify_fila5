@@ -3,8 +3,6 @@ title: "context-overflow-prevention — puntatore"
 type: reference
 updated: 2026-05-21
 related:
-  - "../../../../Xot/docs/wiki/concepts/context-overflow-prevention.md"
-related:
   - "./claude-audit-static.md"
   - "./code-redundancy-notify.md"
   - "./composer-root-minimal-nwidart.md"

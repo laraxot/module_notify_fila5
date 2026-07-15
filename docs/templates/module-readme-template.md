@@ -1,7 +1,6 @@
 ---
 title: [Module Name]
 module: [module-slug]
-related: [module1, module2]
 status: production
 related:
   - "./readme.md"

@@ -11,10 +11,6 @@ related:
   - "./legacy-roadmap-ands.md"
   - "./legacy-roadmap-conflict.md"
   - "./legacy-roadmap-x.md"
-related:
-  - "./legacy-roadmap-ands.md"
-  - "./legacy-roadmap-conflict.md"
-  - "./legacy-roadmap-x.md"
 ---
 
 # Notify Module Roadmap 2026

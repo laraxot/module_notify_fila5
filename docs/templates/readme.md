@@ -8,9 +8,6 @@ qmd: "readme readme"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./README.md"
-  - "./module-readme-template.md"
-related:
   - "./module-readme-template.md"
 ---
 

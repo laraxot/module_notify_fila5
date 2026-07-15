@@ -8,15 +8,6 @@ qmd: "ponytail-audit ponytail audit — notify"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./INDEX.md"
-  - "./claude-audit-static.md"
-  - "./code-redundancy-notify.md"
-  - "./composer-root-minimal-nwidart.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-standards.md"
-  - "./llm-wiki-governance.md"
-  - "./method-name-homonyms.md"
-related:
   - "./claude-audit-static.md"
   - "./code-redundancy-notify.md"
   - "./composer-root-minimal-nwidart.md"

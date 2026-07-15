@@ -11,10 +11,6 @@ related:
   - "./00-index.md"
   - "./agents-filament-widgets.md"
   - "./filament-table-vs-blade-component.md"
-related:
-  - "./00-index.md"
-  - "./agents-filament-widgets.md"
-  - "./filament-table-vs-blade-component.md"
 ---
 
 # Ralph + GSD + BMAD Orchestration

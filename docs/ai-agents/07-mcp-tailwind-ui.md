@@ -16,15 +16,6 @@ related:
   - "./05-front-office-audit.md"
   - "./06-cinematic-effects.md"
   - "./08-verified-commit-governance.md"
-related:
-  - "./00-index.md"
-  - "./01-gsd-workflow.md"
-  - "./02-bmad-workflow.md"
-  - "./03-architecture-zen.md"
-  - "./04-filament-philosophy.md"
-  - "./05-front-office-audit.md"
-  - "./06-cinematic-effects.md"
-  - "./08-verified-commit-governance.md"
 ---
 
 # 🎨 MCP Servers per Tailwind CSS & UI Frameworks

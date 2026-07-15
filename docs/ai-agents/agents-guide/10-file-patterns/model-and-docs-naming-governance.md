@@ -11,10 +11,6 @@ related:
   - "./00-index.md"
   - "./file-patterns-and-docs-standards.md"
   - "./modules-themes-docs-audit.md"
-related:
-  - "./00-index.md"
-  - "./file-patterns-and-docs-standards.md"
-  - "./modules-themes-docs-audit.md"
 ---
 
 # Model And Docs Naming Governance

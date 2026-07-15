@@ -8,15 +8,6 @@ qmd: "sync-remote-repo-docs-summary sync remote repo documentation - creation su
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./README.md"
-  - "./discussion-ai-work-summary.md"
-  - "./fix-is-ci-context-not-found.md"
-  - "./github-action-setup-required.md"
-  - "./github-actions-fix-report.md"
-  - "./issue-multi-agent-collaboration.md"
-  - "./issue-subtree-sync-test.md"
-  - "./sync-remote-repo-test-plan.md"
-related:
   - "./discussion-ai-work-summary.md"
   - "./fix-is-ci-context-not-found.md"
   - "./github-action-setup-required.md"

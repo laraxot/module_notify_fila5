@@ -6,9 +6,6 @@ status: active
 tags: [module-structure, archive, docs]
 updated: "2026-06-30"
 related:
-  - ../../../../../../docs/project/module-root-structure-analysis.md
-  - ../../../../../Xot/docs/wiki/concepts/module-root-uppercase-folders-archive.md
-related:
   - "./claude-audit-static.md"
   - "./code-redundancy-notify.md"
   - "./composer-root-minimal-nwidart.md"

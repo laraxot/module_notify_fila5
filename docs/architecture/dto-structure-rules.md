@@ -8,15 +8,6 @@ qmd: "dto-structure-rules regole per la struttura dei dto"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./README.md"
-  - "./config-structure.md"
-  - "./document-root-architecture.md"
-  - "./dto-structure-conventions.md"
-  - "./interface-structure-clarification.md"
-  - "./mail-templates-structure.md"
-  - "./queueable-action-pattern.md"
-  - "./sms-config-structure.md"
-related:
   - "./config-structure.md"
   - "./document-root-architecture.md"
   - "./dto-structure-conventions.md"

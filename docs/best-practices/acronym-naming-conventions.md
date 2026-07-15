@@ -16,15 +16,6 @@ related:
   - "./laravel-path-conventions.md"
   - "./markdown-linking-conventions.md"
   - "./naming-conventions.md"
-related:
-  - "./filament-naming-conventions.md"
-  - "./filament-template-conventions.md"
-  - "./form-schema-conventions.md"
-  - "./inheritance-conventions.md"
-  - "./kdown-linking-conventions.md"
-  - "./laravel-path-conventions.md"
-  - "./markdown-linking-conventions.md"
-  - "./naming-conventions.md"
 ---
 
 # Convenzioni di Naming per Acronimi 

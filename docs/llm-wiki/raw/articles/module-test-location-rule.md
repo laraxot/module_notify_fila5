@@ -7,7 +7,6 @@ updated: 2026-07-14
 qmd: "module-test-location-rule regola: posizione dei test nei moduli laraxot"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related: []
 related:
 ---
 

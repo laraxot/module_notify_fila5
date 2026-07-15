@@ -12,11 +12,6 @@ related:
   - "./filament.md"
   - "./queue-jobs.md"
   - "./tenant-config.md"
-related:
-  - "./chart-widgets.md"
-  - "./filament.md"
-  - "./queue-jobs.md"
-  - "./tenant-config.md"
 ---
 
 # 📋 quick reference Index

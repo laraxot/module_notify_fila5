@@ -8,15 +8,6 @@ qmd: "session-summary llm wiki integration - session summary"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./AGENTS.md"
-  - "./README.md"
-  - "./agents.md"
-  - "./bmad-method.md"
-  - "./index.md"
-  - "./log.md"
-  - "./notify-conflict-check-.deprecated.md.md"
-  - "./notify-conflict-check.md"
-related:
   - "./agents.md"
   - "./bmad-method.md"
   - "./index.md"

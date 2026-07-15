@@ -8,15 +8,6 @@ qmd: "create-deep-research-prompt create deep research prompt task"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./INDEX.md"
-  - "./advanced-elicitation.md"
-  - "./apply-qa-fixes.md"
-  - "./brownfield-create-epic.md"
-  - "./brownfield-create-story.md"
-  - "./correct-course.md"
-  - "./create-brownfield-story.md"
-  - "./create-doc.md"
-related:
   - "./advanced-elicitation.md"
   - "./apply-qa-fixes.md"
   - "./brownfield-create-epic.md"

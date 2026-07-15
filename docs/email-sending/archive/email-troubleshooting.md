@@ -9,8 +9,6 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./attachments-usage.md"
-related:
-  - "./attachments-usage.md"
 ---
 
 # Risoluzione dei Problemi nelle Email 

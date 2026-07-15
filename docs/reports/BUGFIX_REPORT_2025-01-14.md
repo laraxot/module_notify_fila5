@@ -8,15 +8,6 @@ qmd: "bugfix-report-2025-01-14.deprecated bug fix report - 2025-01-14"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./bugfix-report.md"
-  - "./design-comuni-progress-1.md"
-  - "./document-root-update-summary.md"
-  - "./documentation-update-complete.md"
-  - "./final-documentation-report.md"
-  - "./final-success-report.md"
-  - "./fixcity-improvement-progress-1.md"
-  - "./multi-agent-final-report.md"
-related:
   - "./bugfix-report-.md"
   - "./bugfix-report.md"
   - "./design-comuni-progress-1.md"

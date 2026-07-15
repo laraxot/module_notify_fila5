@@ -11,10 +11,6 @@ related:
   - "./00-index.md"
   - "./guidelines.md"
   - "./links.md"
-related:
-  - "./00-index.md"
-  - "./guidelines.md"
-  - "./links.md"
 ---
 
 # Project Overview

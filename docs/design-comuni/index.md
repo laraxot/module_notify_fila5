@@ -10,9 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./documentazione-report-finale.md"
   - "./master-index.md"
-related:
-  - "./documentazione-report-finale.md"
-  - "./master-index.md"
 ---
 
 # REPLIKATE - Design Comuni Index

@@ -10,9 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./sms.md"
   - "./whatsapp.md"
-related:
-  - "./sms.md"
-  - "./whatsapp.md"
 ---
 
 # Telegram Bot Integration

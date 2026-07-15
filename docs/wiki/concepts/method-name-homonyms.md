@@ -4,9 +4,6 @@ type: analysis
 module: Notify
 updated: 2026-06-15
 related:
-  - ../../../../../../docs/wiki/method-name-homonym-census.md
-  - ../../../../../../bashscripts/docs/method-homonym-census.json
-related:
   - "./claude-audit-static.md"
   - "./code-redundancy-notify.md"
   - "./composer-root-minimal-nwidart.md"

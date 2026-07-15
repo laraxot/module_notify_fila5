@@ -12,11 +12,6 @@ related:
   - "./database-naming-fix-summary.md"
   - "./database-naming-verification-report.md"
   - "./sqlite-permission-fix.md"
-related:
-  - "./database-directory-naming-fix.md"
-  - "./database-naming-fix-summary.md"
-  - "./database-naming-verification-report.md"
-  - "./sqlite-permission-fix.md"
 ---
 
 # 🚨 CRITICAL BUG: sync_remote_repo.sh Deleted

@@ -6,10 +6,6 @@ created: 2026-07-13
 updated: 2026-07-13
 qmd: "Notify app Services Support converted to QueueableAction migration mapping"
 issues:
-  - "https://github.com/laraxot/base_fixcity_fila5/issues/372"
-related:
-  - no-app-support-queueable-actions.md
-  - ../../../Xot/docs/wiki/concepts/queueable-action-trait-mandatory.md
 related:
   - "./claude-audit-static.md"
   - "./code-redundancy-notify.md"

@@ -7,14 +7,7 @@ created: 2026-04-15
 updated: 2026-06-05
 qmd: "notify module wiki index notifications qmd second brain"
 issues:
-  - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
-  - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
-related:
-  - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
-  - ../../../../docs/wiki/bmad/architecture.md
-  - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
-  - ../../docs/wiki/concepts/ai-harness-module-discipline.md
 related:
   - "./agents.md"
   - "./bmad-method.md"

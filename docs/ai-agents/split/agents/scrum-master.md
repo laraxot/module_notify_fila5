@@ -8,15 +8,6 @@ qmd: "scrum-master all commands require * prefix when used (e.g., *help)"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./INDEX.md"
-  - "./architect.md"
-  - "./bmad-master.md"
-  - "./bmad-orchestrator.md"
-  - "./business-analyst.md"
-  - "./full-stack-developer.md"
-  - "./product-manager.md"
-  - "./product-owner.md"
-related:
   - "./architect.md"
   - "./bmad-master.md"
   - "./bmad-orchestrator.md"

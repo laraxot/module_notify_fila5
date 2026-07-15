@@ -16,15 +16,6 @@ related:
   - "./05-front-office-audit.md"
   - "./07-mcp-tailwind-ui.md"
   - "./08-verified-commit-governance.md"
-related:
-  - "./00-index.md"
-  - "./01-gsd-workflow.md"
-  - "./02-bmad-workflow.md"
-  - "./03-architecture-zen.md"
-  - "./04-filament-philosophy.md"
-  - "./05-front-office-audit.md"
-  - "./07-mcp-tailwind-ui.md"
-  - "./08-verified-commit-governance.md"
 ---
 
 # 🎨 Cinematic Effects & Particles

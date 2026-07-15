@@ -12,11 +12,6 @@ related:
   - "./database-directory-naming-fix.md"
   - "./database-naming-fix-summary.md"
   - "./sqlite-permission-fix.md"
-related:
-  - "./critical-bug-sync-script-deleted.md"
-  - "./database-directory-naming-fix.md"
-  - "./database-naming-fix-summary.md"
-  - "./sqlite-permission-fix.md"
 ---
 
 # ✅ Database Directory Naming - Verification Report

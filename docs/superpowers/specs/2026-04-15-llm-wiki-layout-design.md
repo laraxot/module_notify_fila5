@@ -8,11 +8,6 @@ qmd: "2026-04-15-llm-wiki-layout-design.deprecated design spec – shared ai‑a
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./fixcity-hero-marketing.deprecated.md.md"
-  - "./fixcity-hero-marketing.md"
-  - "./llm-wiki-layout-design.md"
-  - "./segnalazione-wizard-design.md"
-related:
   - "./2026-03-30-fixcity-hero-marketing.md"
   - "./fixcity-hero-marketing.md"
   - "./llm-wiki-layout-design.md"

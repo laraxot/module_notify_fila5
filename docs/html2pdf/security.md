@@ -3,8 +3,6 @@ title: "html2pdf security — puntatore"
 type: reference
 updated: 2026-05-21
 related:
-  - "../../../Media/docs/html2pdf/security.md"
-related:
   - "./advanced.md"
   - "./index.md"
   - "./laravel.md"

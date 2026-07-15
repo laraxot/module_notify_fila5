@@ -13,12 +13,6 @@ related:
   - "./attachments-usage.md"
   - "./email-troubleshooting-1.md"
   - "./email-troubleshooting.md"
-related:
-  - "./attachments-usage-1.md"
-  - "./attachments-usage-2.md"
-  - "./attachments-usage.md"
-  - "./email-troubleshooting-1.md"
-  - "./email-troubleshooting.md"
 ---
 
 # Risoluzione dei Problemi nelle Email 

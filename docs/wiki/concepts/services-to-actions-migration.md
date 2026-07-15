@@ -6,12 +6,7 @@ created: 2026-07-13
 updated: 2026-07-13
 qmd: "Notify PushNotificationService removed SendPushNotificationAction scheduled job"
 issues:
-  - "https://github.com/laraxot/base_predict_fila5/issues/704"
 discussions:
-  - "https://github.com/laraxot/base_predict_fila5/discussions/705"
-related:
-  - claude-audit-static.md
-  - ../../../../docs/wiki/rules/queueable-action-trait-mandatory.md
 related:
   - "./claude-audit-static.md"
   - "./code-redundancy-notify.md"

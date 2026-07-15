@@ -3,8 +3,6 @@ title: "organizzativa-money — puntatore"
 type: reference
 updated: 2026-05-21
 related:
-  - "../../../../Xot/docs/wiki/concepts/organizzativa-money.md"
-related:
   - "./claude-audit-static.md"
   - "./code-redundancy-notify.md"
   - "./composer-root-minimal-nwidart.md"

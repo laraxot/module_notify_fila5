@@ -16,15 +16,6 @@ related:
   - "./files-created-session-007.md"
   - "./files-created-session-replikate.md"
   - "./firebase-1.md"
-related:
-  - "./agents.md"
-  - "./changelog.md"
-  - "./claude.md"
-  - "./design-conversion-roadmap-1.md"
-  - "./files-created-session-007-1.md"
-  - "./files-created-session-007.md"
-  - "./files-created-session-replikate.md"
-  - "./firebase-1.md"
 ---
 
 # Design Comuni Conversion Roadmap
