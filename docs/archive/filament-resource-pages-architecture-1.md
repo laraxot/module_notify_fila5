@@ -1,3 +1,23 @@
+---
+title: "Architettura delle Pagine di Risorse Filament"
+type: concept
+tags: [filament, resource, pages, architecture]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-resource-pages-architecture-1 architettura delle pagine di risorse filament"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./00-index-1.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1-1.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+---
+
 # Architettura delle Pagine di Risorse Filament
 
 ## Regola Fondamentale
@@ -113,5 +133,5 @@ find Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec 
 ## Riferimenti
 
 - [Filament Resources Documentation](https://filamentphp.com/docs/3.x/panels/resources/getting-started)
-- [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+- [<nome progetto> XotBase Architecture](./FILAMENT_XOT_architecture.md)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)

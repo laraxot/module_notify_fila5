@@ -1,3 +1,23 @@
+---
+title: "Composer Update Fixes - 24 Novembre 2025"
+type: concept
+tags: [composer, update, fixes]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "composer-update-fixes composer update fixes - 24 novembre 2025"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Composer Update Fixes - 24 Novembre 2025
 
 ## Panoramica

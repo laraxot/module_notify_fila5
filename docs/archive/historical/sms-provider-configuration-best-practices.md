@@ -1,3 +1,23 @@
+---
+title: "Best Practices per la Configurazione dei Provider SMS"
+type: concept
+tags: [sms, provider, configuration, best]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "sms-provider-configuration-best-practices best practices per la configurazione dei provider sms"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Best Practices per la Configurazione dei Provider SMS
 
 ## Struttura Corretta della Configurazione
@@ -111,7 +131,7 @@ $token = config('services.netfun.token');
 
 ## Documentazione Correlata
 
-- [SMS Provider Architecture](./sms_provider_architecture.md)
-- [SMS Implementation](./sms_implementation.md)
-- [SMS Best Practices](./sms_best_practices.md)
-- [Netfun Authentication Methods](./netfun_authentication_methods.md)
+- [SMS Provider Architecture](./sms-provider-architecture-1.md)
+- [SMS Implementation](./sms-implementation-1.md)
+- [SMS Best Practices](./sms-best-practices-1.md)
+- [Netfun Authentication Methods](./netfun-authentication-methods-1.md)

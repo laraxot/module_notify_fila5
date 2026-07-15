@@ -1,3 +1,23 @@
+---
+title: "Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura"
+type: concept
+tags: [analisi, dettagliata]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "analisi-dettagliata-1 analisi dettagliata del modulo notify - parte 1: architettura e struttura"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./00-index-1.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Analisi Dettagliata del Modulo Notify - Parte 1: Architettura e Struttura
 
 ## 1. Architettura del Sistema

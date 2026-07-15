@@ -1,3 +1,23 @@
+---
+title: "Standard <nome progetto>: Componenti Blade Filament"
+type: concept
+tags: [filament, blade, components]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-blade-components standard <nome progetto>: componenti blade filament"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Standard <nome progetto>: Componenti Blade Filament
 
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).

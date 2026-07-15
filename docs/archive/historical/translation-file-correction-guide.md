@@ -1,3 +1,23 @@
+---
+title: "Guida alla Correzione dei File di Traduzione"
+type: guide
+tags: [translation, file, correction, guide]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "translation-file-correction-guide guida alla correzione dei file di traduzione"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione
@@ -159,6 +179,6 @@ return [
 
 ## Riferimenti
 
-- [Regole di Naming per i File di Traduzione](./translation_file_naming_rules.md)
-- [Guida alla Struttura dei File di Traduzione](./translation_file_structure_guide.md)
-- [Progresso della Standardizzazione](./translation_standards_progress.md)
+- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules-1.md)
+- [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide-1.md)
+- [Progresso della Standardizzazione](./translation-standards-progress-2.md)

@@ -1,3 +1,23 @@
+---
+title: "Analisi Dettagliata del Modulo Notify - Parte 5: Testing"
+type: concept
+tags: [analysis, dettagliata]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "analysis-dettagliata-5 analisi dettagliata del modulo notify - parte 5: testing"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Analisi Dettagliata del Modulo Notify - Parte 5: Testing
 
 ## 5. Testing

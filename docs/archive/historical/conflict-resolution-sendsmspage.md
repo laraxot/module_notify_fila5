@@ -1,3 +1,23 @@
+---
+title: "Risoluzione Conflitti SendSmsPage.php"
+type: concept
+tags: [conflict, resolution, sendsmspage]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "conflict-resolution-sendsmspage risoluzione conflitti sendsmspage.php"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Risoluzione Conflitti SendSmsPage.php
 
 ## Contesto del Conflitto
@@ -64,7 +84,7 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](readme.md)
 - [SMS Testing Guide](sms/testing.md)
-- [MailTemplate Integration](mail_templates_structure.md)
+- [MailTemplate Integration](mail-templates-structure-1.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/conflict-resolution-guidelines.md)
 
 # Risoluzione Conflitti SendSmsPage.php
@@ -133,6 +153,6 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](readme.md)
 - [SMS Testing Guide](sms/testing.md)
-- [MailTemplate Integration](mail_templates_structure.md)
+- [MailTemplate Integration](mail-templates-structure-1.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 

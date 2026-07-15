@@ -1,3 +1,23 @@
+---
+title: "PHPStan Level 10 Compliance Status"
+type: concept
+tags: [phpstan, compliance, status]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "phpstan-compliance-status phpstan level 10 compliance status"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # PHPStan Level 10 Compliance Status
 
 **Last Updated**: 2026-07-06

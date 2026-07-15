@@ -1,3 +1,23 @@
+---
+title: "Design Comuni Theme Audit & Improvement Roadmap"
+type: concept
+tags: [design, comuni, theme, audit]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "design-comuni-theme-audit design comuni theme audit & improvement roadmap"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Design Comuni Theme Audit & Improvement Roadmap
 
 **Date**: 2026-04-08  

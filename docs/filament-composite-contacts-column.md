@@ -1,3 +1,23 @@
+---
+title: "Colonna Contatti Composite per Filament - Modulo Notify"
+type: concept
+tags: [filament, composite, contacts, column]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-composite-contacts-column colonna contatti composite per filament - modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Colonna Contatti Composite per Filament - Modulo Notify
 
 ## Panoramica
@@ -205,8 +225,8 @@ Questo pattern può essere applicato a:
 ## Documentazione Correlata
 
 ### Modulo Notify
-- [Filament Resources](filament_resources.md)
-- [Translation Standards](translation_standards.md)
+- [Filament Resources](filament-resources.md)
+- [Translation Standards](translation-standards-2.md)
 - [Best Practices](best_practices.md)
 
 ### Root Documentation

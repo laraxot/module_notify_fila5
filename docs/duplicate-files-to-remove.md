@@ -1,3 +1,23 @@
+---
+title: "File Duplicati da Eliminare - Modulo Notify"
+type: concept
+tags: [duplicate, files, remove]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "duplicate-files-to-remove file duplicati da eliminare - modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # File Duplicati da Eliminare - Modulo Notify
 
 ## 🗑️ File da Eliminare (Case Sensitivity)

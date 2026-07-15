@@ -1,3 +1,23 @@
+---
+title: "Convenzioni per le Traduzioni del Modulo Notify"
+type: concept
+tags: [translation, conventions]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "translation-conventions-1 convenzioni per le traduzioni del modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali

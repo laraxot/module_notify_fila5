@@ -1,3 +1,23 @@
+---
+title: "Guida Migrazione Step-by-Step: Modulo Notify - Filament 4"
+type: concept
+tags: [guida, migrazione, step, step]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "guida-migrazione-step-by-step guida migrazione step-by-step: modulo notify - filament 4"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Guida Migrazione Step-by-Step: Modulo Notify - Filament 4
 
 ## Panoramica Migrazione

@@ -1,3 +1,23 @@
+---
+title: "HTML Structure Comparison Tools"
+type: concept
+tags: [html, structure, comparison]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "html-structure-comparison html structure comparison tools"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # HTML Structure Comparison Tools
 
 Bridge document tra tooling agnostico in `bashscripts` e output di progetto nel tema Sixteen.

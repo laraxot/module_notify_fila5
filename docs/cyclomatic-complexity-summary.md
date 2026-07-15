@@ -1,3 +1,23 @@
+---
+title: "Cyclomatic Complexity - Project Summary Report"
+type: concept
+tags: [cyclomatic, complexity, summary]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "cyclomatic-complexity-summary cyclomatic complexity - project summary report"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Cyclomatic Complexity - Project Summary Report
 
 **Generated:** 2025-10-01 19:44:12  

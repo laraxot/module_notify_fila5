@@ -1,9 +1,29 @@
+---
+title: "Integrazione Netfun SMS Channel in Laravel"
+type: concept
+tags: [sms, netfun, channel]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "sms-netfun-channel-1 integrazione netfun sms channel in laravel"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./00-index-1.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1-1.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+---
+
 # Integrazione Netfun SMS Channel in Laravel
 
 ## Introduzione
 Questa guida spiega come integrare il provider Netfun come canale custom per l'invio di SMS in Laravel, seguendo le best practice del framework e sfruttando il pacchetto [`spatie/laravel-queueable-action`](https://github.com/spatie/laravel-queueable-action) per la gestione asincrona.
 
-> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./NETFUN_CONFIG_REQUIREMENTS.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
+> **IMPORTANTE**: Prima di procedere, assicurati che la [configurazione richiesta per Netfun](./NETFUN_CONFIG_requirements.md) sia stata completata correttamente nel file `config/sms.php` del modulo Notify.
 
 ---
 

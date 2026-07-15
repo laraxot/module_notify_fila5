@@ -1,3 +1,23 @@
+---
+title: "Notify Module - Filament v4 Upgrade Notes"
+type: concept
+tags: [filament, upgrade, notes]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-v4-upgrade-notes notify module - filament v4 upgrade notes"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./00-index-1.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1-1.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+---
+
 # Notify Module - Filament v4 Upgrade Notes
 
 This document outlines specific considerations and changes for the `Notify` module during the Filament v4 upgrade. For a comprehensive overview of the Filament v4 upgrade process, refer to the main project documentation: [`docs/filament_v4_upgrade.md`](../../../docs/filament_upgrade_v4.md).

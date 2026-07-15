@@ -1,3 +1,23 @@
+---
+title: "Pagine Filament del Modulo Notify"
+type: concept
+tags: [filament, pages]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-pages pagine filament del modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Pagine Filament del Modulo Notify
 
 ## Panoramica

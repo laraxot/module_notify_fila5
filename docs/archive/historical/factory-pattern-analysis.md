@@ -1,3 +1,23 @@
+---
+title: "Analisi del Pattern Factory per le Notifiche"
+type: pattern
+tags: [factory, pattern, analysis]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "factory-pattern-analysis analisi del pattern factory per le notifiche"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Analisi del Pattern Factory per le Notifiche
 
 Questo documento analizza l'implementazione del pattern Factory per la gestione delle notifiche , confrontando l'approccio originale con quello basato su Factory.

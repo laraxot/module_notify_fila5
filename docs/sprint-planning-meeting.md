@@ -1,3 +1,23 @@
+---
+title: "Notify - Sprint Planning Meeting"
+type: concept
+tags: [sprint, planning, meeting]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "sprint-planning-meeting notify - sprint planning meeting"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Notify - Sprint Planning Meeting
 
 > Documento operativo per sprint planning. Modulo.

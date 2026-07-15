@@ -1,3 +1,23 @@
+---
+title: "Refactoring RecordNotification - Zen Delegation Pattern"
+type: concept
+tags: [record, notification, zen, delegation]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "record-notification-zen-delegation refactoring recordnotification - zen delegation pattern"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./channel-enum-implementation-complete.md"
+  - "./channel-enum-implementation-update.md"
+  - "./channel-enum-refactoring.md"
+  - "./extract-method-pattern.md"
+  - "./final-verification-report-channel-enum.md"
+  - "./quality-assurance-report.md"
+  - "./record-notification-constructor-slug.md"
+  - "./record-notification-zen-constructor.md"
+---
+
 # Refactoring RecordNotification - Zen Delegation Pattern
 
 **Stato**: ✅ Implementato  

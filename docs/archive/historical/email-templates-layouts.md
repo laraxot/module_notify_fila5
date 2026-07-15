@@ -1,3 +1,23 @@
+---
+title: "Template Email e Layout - Modulo Notify"
+type: concept
+tags: [email, templates, layouts]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "email-templates-layouts template email e layout - modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Template Email e Layout - Modulo Notify
 
 ## Scopo
@@ -101,7 +121,7 @@ MailTemplate::create([
 ## Collegamenti Bidirezionali
 
 ### Documentazione Correlata
-- **Tema One**: `/Themes/One/docs/email_templates.md`
+- **Tema One**: `/Themes/One/docs/email-templates.md`
 - **Modulo Notify**: Questo documento
 - **SpatieEmail**: `docs/spatie-email/`
 - **Mail Templates**: `docs/mail-templates/`

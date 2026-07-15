@@ -1,3 +1,23 @@
+---
+title: "Deep Dive: Soluzioni di Template Email in Laravel"
+type: concept
+tags: [email, templates, deep, dive]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "email-templates-deep-dive deep dive: soluzioni di template email in laravel"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Deep Dive: Soluzioni di Template Email in Laravel
 
 Un'analisi dettagliata delle risorse, pacchetti, editor e tecniche per gestire i template email in Laravel.
@@ -46,7 +66,8 @@ Link: https://github.com/simplepleb/laravel-email-templates
 Link: https://github.com/spatie/laravel-database-mail-templates
 - **Database**: tabella `mail_templates` con campi `key`, `subject`, `html`, `locale`
 - **ServiceProvider**: pubblica migrazioni e configura il renderer
-- **Filament**: si integra con un `Filamentesources	emplateResource`
+- **Filament**: si integra con un `Filament
+esources	emplateResource`
 
 ```php
 $template = Template::where('key', 'welcome')->first();

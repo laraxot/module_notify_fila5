@@ -1,3 +1,23 @@
+---
+title: "Analisi Plugin Email per Filament - il progetto"
+type: concept
+tags: [email, plugins, analysis]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "email-plugins-analysis analisi plugin email per filament - il progetto"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Analisi Plugin Email per Filament - il progetto
 
 ## Panoramica

@@ -1,3 +1,23 @@
+---
+title: "Struttura della Configurazione SMS"
+type: concept
+tags: [sms, config, structure]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "sms-config-structure struttura della configurazione sms"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Struttura della Configurazione SMS 
 
 ## Introduzione
@@ -151,8 +171,8 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 
 ## Collegamenti
 
-- [Configurazione Netfun](./netfun_config_requirements.md)
-- [Provider SMS Supportati](./notifications/sms_provider_configuration.md)
+- [Configurazione Netfun](./netfun-config-requirements-1.md)
+- [Provider SMS Supportati](./notifications/sms-provider-configuration-2.md)
 
 ---
 

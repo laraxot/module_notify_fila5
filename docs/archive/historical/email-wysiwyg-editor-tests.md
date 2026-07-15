@@ -1,3 +1,23 @@
+---
+title: "Test Editor WYSIWYG Email - il progetto"
+type: concept
+tags: [email, wysiwyg, editor, tests]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "email-wysiwyg-editor-tests test editor wysiwyg email - il progetto"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Test Editor WYSIWYG Email - il progetto
 
 ## Test Unitari

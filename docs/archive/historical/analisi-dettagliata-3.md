@@ -1,3 +1,23 @@
+---
+title: "Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core"
+type: concept
+tags: [analisi, dettagliata]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "analisi-dettagliata-3 analisi dettagliata del modulo notify - parte 3: servizi core"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-4-1.md"
+  - "./analisi-dettagliata-4.md"
+---
+
 # Analisi Dettagliata del Modulo Notify - Parte 3: Servizi Core
 
 ## 3. Servizi Core

@@ -4,15 +4,6 @@ type: concept
 module: Notify
 tags: [notify, quality, claude-audit, actions]
 created: 2026-07-09
-<<<<<<< HEAD
-updated: 2026-07-09
-qmd: "Notify claude-audit static 80 SendPushNotificationAction no services"
-issues:
-  - "https://github.com/laraxot/base_fixcity_fila5/issues/704"
-discussions:
-  - "https://github.com/laraxot/base_fixcity_fila5/discussions/705"
-related:
-=======
 updated: 2026-07-12
 qmd: "Notify claude-audit static 80 SendPushNotificationAction no app Support"
 issues:
@@ -23,7 +14,6 @@ discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/705"
 related:
   - ./no-app-support-queueable-actions.md
->>>>>>> 18a3188 (.)
   - ../actions-over-services.md
   - ../../../../../../bashscripts/tools/run-claude-audit-module-static.sh
 ---
@@ -38,11 +28,7 @@ bash bashscripts/tools/run-claude-audit-module-static.sh Notify
 
 ## Fix applicati (80/0)
 
-<<<<<<< HEAD
-- `PushNotificationService` → `SendPushNotificationAction` + `Support/PushNotificationPlatformDelivery`
-=======
 - `PushNotificationService` → `SendPushNotificationAction` + `PushNotificationPlatformDelivery` (da `app/Support/` eliminato → `app/Actions/`)
->>>>>>> 18a3188 (.)
 - Test model >500 LOC → split su confine `test()` (`split-notify-large-tests.py`)
 - Lang `test_smtp.php` — header commenti ≥5%
 

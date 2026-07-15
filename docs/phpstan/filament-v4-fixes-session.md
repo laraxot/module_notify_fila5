@@ -1,3 +1,23 @@
+---
+title: "Correzioni PHPStan - Sessione Filament v4 Migration"
+type: concept
+tags: [filament, fixes, session]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-v4-fixes-session correzioni phpstan - sessione filament v4 migration"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./PHPSTAN-194-ERRORS-ANALYSIS-.deprecated.md.md"
+  - "./PHPSTAN-ANALYSIS-.deprecated.md.md"
+  - "./PHPSTAN-ANALYSIS-SUMMARY-.deprecated.md.md"
+  - "./PHPSTAN-FINAL-STATUS-.deprecated.md.md"
+  - "./PHPSTAN-GLOBAL-SUMMARY-.deprecated.md.md"
+  - "./PHPSTAN-PROGRESS-UPDATE-.deprecated.md.md"
+  - "./PHPSTAN-SESSION-SESSION2.deprecated.md.md"
+  - "./PHPSTAN-SESSION-4-5-SUMMARY-.deprecated.md.md"
+---
+
 # Correzioni PHPStan - Sessione Filament v4 Migration
 
 **Data**: 1 Ottobre 2025  

@@ -1,3 +1,23 @@
+---
+title: "Struttura Template Email"
+type: concept
+tags: [mail, templates, structure]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "mail-templates-structure struttura template email"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Struttura Template Email
 
 ## Introduzione
@@ -120,7 +140,7 @@ $attachments = [
 ## Collegamenti Correlati
 
 - [Documentazione MailPace](https://github.com/mailpace/templates)
-- [Best Practices Email HTML](./email_html_best_practices.md)
+- [Best Practices Email HTML](./email-html-best-practices-1.md)
 - [Guida Testing](./email_testing.md)
 
 ## Supporto

@@ -1,3 +1,23 @@
+---
+title: "Stato dell'Implementazione delle Traduzioni nel Modulo Notify"
+type: concept
+tags: [translations, implementation, status]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "translations-implementation-status-1 stato dell'implementazione delle traduzioni nel modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 
 ## Panoramica
@@ -120,7 +140,7 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./translation_conventions_clarification.md)
-- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation_keys_rules.md)
-- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation_keys_best_practices.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions-2.md)
+- [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification-2.md)
+- [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules-1.md)
+- [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices-1.md)

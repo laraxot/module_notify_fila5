@@ -1,3 +1,23 @@
+---
+title: "Pattern di Design per Email Moderne"
+type: concept
+tags: [modern, emailesigns]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "modern-emailesigns pattern di design per email moderne"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Pattern di Design per Email Moderne
 
 ## Introduzione
@@ -346,7 +366,7 @@ return [
 
 ## Riferimenti
 
-- [Responsive Email Templates](./responsive_email_templates.md)
-- [Email Best Practices](./mail-templates/email_best_practices.md)
-- [HTML Email Compatibility](./mail-templates/html_email_compatibility.md)
-- [Spatie Email Integration](./spatie_email_usage_guide.md)
+- [Responsive Email Templates](./responsive_email-templates.md)
+- [Email Best Practices](./mail-templates/email-best-practices-1.md)
+- [HTML Email Compatibility](./mail-templates/html-email-compatibility-1.md)
+- [Spatie Email Integration](./spatie-email-usage-guide-1.md)

@@ -1,3 +1,23 @@
+---
+title: "Implementazione dei Canali di Notifica"
+type: concept
+tags: [notification, channels, implementation]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "notification-channels-implementation implementazione dei canali di notifica"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Implementazione dei Canali di Notifica 
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto , con particolare attenzione al pattern Factory utilizzato.
@@ -151,7 +171,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 ## Collegamenti a Documentazione Correlata
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
-- [Modelli di Email](./email_templates.md)
-- [Implementazione SMS](./sms_implementation.md)
+- [Modelli di Email](./email-templates.md)
+- [Implementazione SMS](./sms-implementation-1.md)
 - [Risoluzione dei Problemi](./troubleshooting.md)
 

@@ -1,3 +1,23 @@
+---
+title: "Notification Template Management System"
+type: concept
+tags: [template, management, system, architecture]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "template-management-system-architecture notification template management system"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Notification Template Management System
 
 ## System Architecture

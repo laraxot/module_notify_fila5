@@ -1,3 +1,23 @@
+---
+title: "Progresso Standardizzazione Traduzioni"
+type: rule
+tags: [translation, standards, progress]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "translation-standards-progress progresso standardizzazione traduzioni"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Progresso Standardizzazione Traduzioni
 
 ## Stato Attuale - 12/05/2025
@@ -46,13 +66,13 @@
 ## Documentazione di Riferimento
 
 1. **Standard di Traduzione**
-   - [Regole Generali per le Traduzioni](../../lang/docs/translation_keys_rules.md)
-   - [Best Practices per le Traduzioni](../../lang/docs/translation_keys_best_practices.md)
+   - [Regole Generali per le Traduzioni](../../lang/docs/translation-keys-rules-1.md)
+   - [Best Practices per le Traduzioni](../../lang/docs/translation-keys-best-practices-1.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./translation_conventions.md)
-   - [Regole di Naming per i File di Traduzione](./translation_file_naming_rules.md)
-   - [Guida alla Struttura dei File di Traduzione](./translation_file_structure_guide.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions-2.md)
+   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules-1.md)
+   - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide-1.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
 

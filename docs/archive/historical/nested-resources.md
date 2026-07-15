@@ -1,3 +1,23 @@
+---
+title: "Notify Module - Nested Resource Implementation Guide"
+type: concept
+tags: [nested, resources]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "nested-resources notify module - nested resource implementation guide"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Notify Module - Nested Resource Implementation Guide
 
 ## Overview

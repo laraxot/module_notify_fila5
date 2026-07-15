@@ -1,3 +1,23 @@
+---
+title: "Filament v4 Migration - Notify Module"
+type: concept
+tags: [filament, migration]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-v4-migration filament v4 migration - notify module"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Filament v4 Migration - Notify Module
 
 ## Scopo (Purpose)

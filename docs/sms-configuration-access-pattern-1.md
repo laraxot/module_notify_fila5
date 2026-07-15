@@ -1,3 +1,23 @@
+---
+title: "Pattern di Accesso alla Configurazione SMS"
+type: pattern
+tags: [sms, configuration, access, pattern]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "sms-configuration-access-pattern-1 pattern di accesso alla configurazione sms"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Pattern di Accesso alla Configurazione SMS
 
 ## Problema Identificato
@@ -54,5 +74,5 @@ Per ogni azione SMS, verificare che:
 ## Collegamenti
 
 - [Struttura della Configurazione SMS](./SMS_CONFIG_STRUCTURE.md)
-- [Requisiti di Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
-- [Pattern Factory per SMS](./SMS_ACTION_FACTORY_ANALYSIS.md)
+- [Requisiti di Configurazione Netfun](./NETFUN_CONFIG_requirements.md)
+- [Pattern Factory per SMS](./SMS_ACTION_FACTORY_analysis.md)

@@ -1,3 +1,23 @@
+---
+title: "Riepilogo Risoluzione Conflitti File Backup"
+type: concept
+tags: [riepilogo, risoluzione, conflitti, backup]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "riepilogo-risoluzione-conflitti-backup riepilogo risoluzione conflitti file backup"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./2025-excellence-achievement.md"
+  - "./FINAL-IMPLEMENTATION-REPORT-.deprecated.md.md"
+  - "./IMPLEMENTATION-STATUS-.deprecated.md.md"
+  - "./INDEX.md"
+  - "./README.md"
+  - "./agid-implementation-guide.md"
+  - "./architecture.md"
+  - "./complete-refactoring-analysis.md"
+---
+
 # Riepilogo Risoluzione Conflitti File Backup
 
 ## Data Risoluzione

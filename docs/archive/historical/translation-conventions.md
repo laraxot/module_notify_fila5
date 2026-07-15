@@ -1,3 +1,23 @@
+---
+title: "Convenzioni per le Traduzioni del Modulo Notify"
+type: concept
+tags: [translation, conventions]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "translation-conventions convenzioni per le traduzioni del modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali

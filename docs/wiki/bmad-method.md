@@ -1,3 +1,23 @@
+---
+title: "BMAD Method v6.3 operativo nel progetto"
+type: concept
+tags: [bmad, method]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "bmad-method bmad method v6.3 operativo nel progetto"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./AGENTS.md"
+  - "./README.md"
+  - "./agents.md"
+  - "./index.md"
+  - "./log.md"
+  - "./notify-conflict-check-.deprecated.md.md"
+  - "./notify-conflict-check.md"
+  - "./notify-restore-.deprecated.md.md"
+---
+
 # BMAD Method v6.3 operativo nel progetto
 
 ## Regola pratica

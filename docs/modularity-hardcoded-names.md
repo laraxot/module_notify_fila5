@@ -1,3 +1,23 @@
+---
+title: "Regola Critica: Mai Hardcodare Nomi di Progetto nei Moduli Riutilizzabili"
+type: concept
+tags: [modularity, hardcoded, names]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "modularity-hardcoded-names regola critica: mai hardcodare nomi di progetto nei moduli riutilizzabili"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Regola Critica: Mai Hardcodare Nomi di Progetto nei Moduli Riutilizzabili
 
 ## Problema Identificato

@@ -1,3 +1,23 @@
+---
+title: "Raccomandazioni per lo Sviluppo del Sistema Email Stagionali"
+type: concept
+tags: [seasonal, email, system, recommendations]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "seasonal-email-system-recommendations raccomandazioni per lo sviluppo del sistema email stagionali"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Raccomandazioni per lo Sviluppo del Sistema Email Stagionali
 
 **Progetto**: TechPlanner Laravel Multi-Tenant Application  

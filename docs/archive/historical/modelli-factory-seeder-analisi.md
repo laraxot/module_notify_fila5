@@ -1,3 +1,23 @@
+---
+title: "Analisi Modelli, Factory e Seeder - Modulo Notify"
+type: concept
+tags: [modelli, factory, seeder, analisi]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "modelli-factory-seeder-analisi analisi modelli, factory e seeder - modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Analisi Modelli, Factory e Seeder - Modulo Notify
 
 ## Panoramica
@@ -254,15 +274,15 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 
 ### Documentazione Correlata
 - [Notification System](./notification_system.md)
-- [Email Templates](./email_templates.md)
+- [Email Templates](./email-templates.md)
 - [Multi-Channel Delivery](./multi_channel_delivery.md)
 - [Template Versioning](./template_versioning.md)
 
 ### Moduli Collegati
-- [ Module](../../<nome modulo>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
-- [User Module](../../user/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
-- [Media Module](../../media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
-- [Lang Module](../../lang/docs/modelli_factory_seeder_analisi.md) - Localizzazione
+- [ Module](../../<nome modulo>/docs/modelli-factory-seeder-analisi-2.md) - Notifiche mediche
+- [User Module](../../user/docs/modelli-factory-seeder-analisi-2.md) - Notifiche utente
+- [Media Module](../../media/docs/modelli-factory-seeder-analisi-2.md) - Allegati notifiche
+- [Lang Module](../../lang/docs/modelli-factory-seeder-analisi-2.md) - Localizzazione
 
 ### Servizi Esterni
 - [Mailgun](https://www.mailgun.com/) - Email delivery service
@@ -529,16 +549,16 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 
 ### Documentazione Correlata
 - [Notification System](./notification_system.md)
-- [Email Templates](./email_templates.md)
+- [Email Templates](./email-templates.md)
 - [Multi-Channel Delivery](./multi_channel_delivery.md)
 - [Template Versioning](./template_versioning.md)
 
 ### Moduli Collegati
-- [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
-- [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
-- [User Module](../../user/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
-- [Media Module](../../media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
-- [Lang Module](../../lang/docs/modelli_factory_seeder_analisi.md) - Localizzazione
+- [<nome progetto> Module](../../<nome progetto>/docs/modelli-factory-seeder-analisi-2.md) - Notifiche mediche
+- [<nome progetto> Module](../../<nome progetto>/docs/modelli-factory-seeder-analisi-2.md) - Notifiche mediche
+- [User Module](../../user/docs/modelli-factory-seeder-analisi-2.md) - Notifiche utente
+- [Media Module](../../media/docs/modelli-factory-seeder-analisi-2.md) - Allegati notifiche
+- [Lang Module](../../lang/docs/modelli-factory-seeder-analisi-2.md) - Localizzazione
 
 ### Servizi Esterni
 - [Mailgun](https://www.mailgun.com/) - Email delivery service

@@ -1,3 +1,23 @@
+---
+title: "Configurazione Corretta dei Provider SMS"
+type: concept
+tags: [sms, provider, configuration]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "sms-provider-configuration configurazione corretta dei provider sms"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Configurazione Corretta dei Provider SMS
 
 ## Regola Fondamentale

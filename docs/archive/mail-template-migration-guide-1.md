@@ -1,3 +1,23 @@
+---
+title: "Guida alla Migrazione di MailTemplate"
+type: guide
+tags: [mail, template, migration, guide]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "mail-template-migration-guide-1 guida alla migrazione di mailtemplate"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./00-index-1.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1-1.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+---
+
 # Guida alla Migrazione di MailTemplate
 
 ## Panoramica

@@ -1,3 +1,23 @@
+---
+title: "Analisi Globale Metodi Duplicati - FixCity"
+type: concept
+tags: [duplicate, methods, global, analysis]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "duplicate-methods-global-analysis analisi globale metodi duplicati - fixcity"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Analisi Globale Metodi Duplicati - FixCity
 
 **Data Generazione**: 2025-10-15 06:41:17

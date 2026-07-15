@@ -1,3 +1,23 @@
+---
+title: "Guida all'utilizzo di SpatieEmail"
+type: guide
+tags: [spatie, email, usage, guide]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "spatie-email-usage-guide guida all'utilizzo di spatieemail"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Guida all'utilizzo di SpatieEmail
 
 ## Introduzione

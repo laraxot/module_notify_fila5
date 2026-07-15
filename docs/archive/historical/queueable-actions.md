@@ -1,3 +1,23 @@
+---
+title: "Queueable Actions con Spatie in Notify"
+type: concept
+tags: [queueable, actions]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "queueable-actions queueable actions con spatie in notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Queueable Actions con Spatie in Notify
 
 In <nome progetto>, per tutte le operazioni asincrone (invio email, preview, azioni Filament) si utilizza il package [spatie/laravel-queueable-action](https://github.com/spatie/laravel-queueable-action). Le Queueable Actions sostituiscono i tradizionali Service/ServiceProvider, garantendo codice più modulare e dispatch asincrono via queue.

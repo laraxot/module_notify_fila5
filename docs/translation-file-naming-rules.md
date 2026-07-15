@@ -1,3 +1,23 @@
+---
+title: "Regole di Naming per i File di Traduzione"
+type: rule
+tags: [translation, file, naming, rules]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "translation-file-naming-rules regole di naming per i file di traduzione"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Regole di Naming per i File di Traduzione
 
 ## Principi Fondamentali per il Naming dei File

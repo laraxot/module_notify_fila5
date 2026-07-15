@@ -1,10 +1,30 @@
+---
+title: "Proposta: Implementazione Campo Slug nei Template Email"
+type: concept
+tags: [mail, template, slug, proposal]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "mail-template-slug-proposal proposta: implementazione campo slug nei template email"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Proposta: Implementazione Campo Slug nei Template Email
 
 ## Collegamenti correlati
 
 - [README del modulo Notify](./readme.md)
-- [Guida all'utilizzo di SpatieEmail](./spatie_email_usage_guide.md)
-- [Documentazione Template Email](./email_templates.md)
+- [Guida all'utilizzo di SpatieEmail](./spatie-email-usage-guide-1.md)
+- [Documentazione Template Email](./email-templates.md)
 - [Documentazione Root](../../../../../docs/collegamenti-documentazione.md)
 
 ## Panoramica

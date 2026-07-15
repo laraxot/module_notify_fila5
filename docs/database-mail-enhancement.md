@@ -1,3 +1,23 @@
+---
+title: "Database Mail Enhancement (Open Source)"
+type: concept
+tags: [database, mail, enhancement]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "database-mail-enhancement database mail enhancement (open source)"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Database Mail Enhancement (Open Source)
 
 Questo documento descrive un approccio in-house per la gestione e l'invio di email da database, ispirato al plugin a pagamento `martin-petricko-database-mail` per Filament e alle soluzioni open source di Spatie.

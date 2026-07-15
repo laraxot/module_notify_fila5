@@ -1,3 +1,23 @@
+---
+title: "Notify Module - DRY + KISS Improvements"
+type: concept
+tags: [dry, kiss, improvements]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "dry-kiss-improvements notify module - dry + kiss improvements"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Notify Module - DRY + KISS Improvements
 
 ## Current State Analysis

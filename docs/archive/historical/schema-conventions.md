@@ -1,3 +1,23 @@
+---
+title: "Schema Conventions in Notify Module"
+type: concept
+tags: [schema, conventions]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "schema-conventions schema conventions in notify module"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Schema Conventions in Notify Module
 
 ## Field Definitions
@@ -54,9 +74,9 @@ Here's a complete example of a properly formatted schema:
 ### Versione HEAD
 
 ```
-## Collegamenti tra versioni di schema_conventions.md
-* [schema_conventions.md](docs/schema_conventions.md)
-* [schema_conventions.md](../../../notify/docs/schema_conventions.md)
+## Collegamenti tra versioni di schema-conventions-1.md
+* [schema-conventions-1.md](docs/schema-conventions-1.md)
+* [schema-conventions-1.md](../../../notify/docs/schema-conventions-1.md)
 
 
 ### Versione Incoming

@@ -1,3 +1,23 @@
+---
+title: "Architettura del Sistema di Notifiche - Best Practices"
+type: concept
+tags: [advanced, template, system]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "advanced-template-system architettura del sistema di notifiche - best practices"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+  - "./analisi-dettagliata-4.md"
+---
+
 # Architettura del Sistema di Notifiche - Best Practices
 
 ## Introduzione

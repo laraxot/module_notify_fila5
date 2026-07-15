@@ -1,3 +1,23 @@
+---
+title: "Implementation of Notification Bulk Action in Client Resource"
+type: concept
+tags: [notification, bulk, action, implementation]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "notification-bulk-action-implementation implementation of notification bulk action in client resource"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Implementation of Notification Bulk Action in Client Resource
 
 **Date**: 18 Dicembre 2025  

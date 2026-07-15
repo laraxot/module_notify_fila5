@@ -1,3 +1,23 @@
+---
+title: "PHPStan Notification Action Contract"
+type: concept
+tags: [phpstan, notification, action, contract]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "phpstan-notification-action-contract phpstan notification action contract"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # PHPStan Notification Action Contract
 
 ## Problem

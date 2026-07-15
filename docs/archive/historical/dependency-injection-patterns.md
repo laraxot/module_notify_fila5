@@ -1,3 +1,23 @@
+---
+title: "Dependency Injection Pattern in QueueableActions"
+type: pattern
+tags: [dependency, injection, patterns]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "dependency-injection-patterns dependency injection pattern in queueableactions"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Dependency Injection Pattern in QueueableActions
 
 **Date**: 18 Dicembre 2025  

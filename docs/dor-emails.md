@@ -1,3 +1,23 @@
+---
+title: "Email per i Dottori"
+type: concept
+tags: [dor, emails]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "dor-emails email per i dottori"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Email per i Dottori
 
 ## Introduzione
@@ -170,6 +190,6 @@ try {
 
 - [Documentazione Root](../../../../../docs/readme.md)
 - [Documentazione Modulo Notify](./readme.md)
-- [Documentazione Template Email](./email_templates.md)
-- [Guida all'utilizzo di SpatieEmail](./spatie_email_usage_guide.md)
+- [Documentazione Template Email](./email-templates.md)
+- [Guida all'utilizzo di SpatieEmail](./spatie-email-usage-guide-1.md)
 - [Documentazione Filament Resources](./filament-resources.md)

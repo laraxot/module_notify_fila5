@@ -1,3 +1,23 @@
+---
+title: "Risoluzione Conflitti SmsChannel.php"
+type: concept
+tags: [conflict, resolution, smschannel]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "conflict-resolution-smschannel risoluzione conflitti smschannel.php"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Risoluzione Conflitti SmsChannel.php
 
 ## Contesto del Conflitto
@@ -51,6 +71,6 @@ return $action->execute($smsData);
 
 ## Collegamenti
 - [Notify Module Documentation](readme.md)
-- [SMS Channel Architecture](sms_channel_action_resolution.md)
+- [SMS Channel Architecture](sms-channel-action-resolution-1.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 

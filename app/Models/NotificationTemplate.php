@@ -49,7 +49,6 @@ use Spatie\Translatable\HasTranslations;
  * @property-read mixed $translations
  * @property-read ProfileContract|null $updater
  * @property-read int|null $versions_count
- *
  * @method static Builder<static>|NotificationTemplate active()
  * @method static NotificationTemplateFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplate forCategory(string $category)
@@ -61,12 +60,10 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array<int, string> $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array<int, string> $locales)
- *
  * @property-read ProfileContract|null $deleter
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property string|null $deleted_by
- *
  * @method static Builder<static>|NotificationTemplate whereBodyHtml($value)
  * @method static Builder<static>|NotificationTemplate whereBodyText($value)
  * @method static Builder<static>|NotificationTemplate whereCategory($value)
@@ -91,7 +88,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereUpdatedBy($value)
  * @method static Builder<static>|NotificationTemplate whereVariables($value)
  * @method static Builder<static>|NotificationTemplate whereVersion($value)
- *
+ * @property-read array<int, string> $translatable_columns_from
  * @mixin \Eloquent
  */
 class NotificationTemplate extends BaseModel implements HasMedia

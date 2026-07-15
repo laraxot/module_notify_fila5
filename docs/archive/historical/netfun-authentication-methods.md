@@ -1,3 +1,23 @@
+---
+title: "Autenticazione Netfun SMS"
+type: concept
+tags: [netfun, authentication, methods]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "netfun-authentication-methods autenticazione netfun sms"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Autenticazione Netfun SMS
 
 ## Introduzione
@@ -65,8 +85,8 @@ public function send($notifiable, Notification $notification)
 
 ## Collegamenti
 
-- [Documentazione Netfun SMS Channel](./sms_netfun_channel.md)
-- [Requisiti di Configurazione Netfun](./netfun_config_requirements.md)
+- [Documentazione Netfun SMS Channel](./sms_netfun-channel-2.md)
+- [Requisiti di Configurazione Netfun](./netfun-config-requirements-1.md)
 
 ---
 

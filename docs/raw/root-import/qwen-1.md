@@ -1,6 +1,26 @@
+---
+title: "Qwen 1"
+type: concept
+tags: [qwen]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "qwen-1 qwen 1"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./agents.md"
+  - "./changelog.md"
+  - "./claude.md"
+  - "./design-conversion-roadmap-1.md"
+  - "./design-conversion-roadmap.md"
+  - "./files-created-session-007-1.md"
+  - "./files-created-session-007.md"
+  - "./files-created-session-replikate.md"
+---
+
 ## Qwen Added Memories
 
-- **Documentation System:** Master index at docs/MODULE_DOCS_INDEX.md with 7,305+ files (6,812 module docs, 325 theme docs, 15+ BMad docs, 153 project docs). All docs must have bidirectional links (min 3 cross-references). Vite config outDir: './public' is CORRECT - builds to local public/, then npm run copy copies to public_html/themes/Sixteen/.
+- **Documentation System:** Master index at docs/module-docs-index.md with 7,305+ files (6,812 module docs, 325 theme docs, 15+ BMad docs, 153 project docs). All docs must have bidirectional links (min 3 cross-references). Vite config outDir: './public' is CORRECT - builds to local public/, then npm run copy copies to public_html/themes/Sixteen/.
 
 - **BMad-METHOD Complete:** 15+ documents in _bmad-output/ (9 general BMad docs + 6+ Design Comuni docs). Design Comuni suite: PRD, Architecture, UI Spec, Epics, Sprint Plan, Block Analysis (38 pagine, 47 componenti), Index. All BMad docs linked to Master Index and module/theme docs with bidirectional links. Total project documentation: 552,500+ lines across 7,305+ files.
 
@@ -16,8 +36,8 @@
 
 - **Vite @vite() Second Parameter:** For theme builds, MUST use @vite(['resources/css/app.css'], 'themes/Sixteen') with second parameter. Without it, Laravel looks in public_html/build/manifest.json (WRONG). With it, Laravel looks in public_html/themes/Sixteen/manifest.json (CORRECT). Theme is built independently in laravel/Themes/Sixteen/, outDir: './public', copied to public_html/themes/Sixteen/.
 
-- **Page Component Architecture:** Cms module has Page.php component with all logic (JSON loading, block resolution). Theme blade MUST be minimal wrapper: `<x-cms-page :side="$side" :slug="$pageSlug" :data="$data" />`. DO NOT duplicate logic in theme blade. Docs: Modules/Cms/docs/PAGE_COMPONENT_ARCHITECTURE.md. Homepage /it/tests/homepage NOW WORKING!
+- **Page Component Architecture:** Cms module has Page.php component with all logic (JSON loading, block resolution). Theme blade MUST be minimal wrapper: `<x-cms-page :side="$side" :slug="$pageSlug" :data="$data" />`. DO NOT duplicate logic in theme blade. Docs: Modules/Cms/docs/PAGE_COMPONENT_architecture.md. Homepage /it/tests/homepage NOW WORKING!
 
-- **Folio Pages Architecture (DRY + KISS):** ONLY 3 folders allowed in pages/: [container0] (dynamic CMS), auth (authentication), tests (Design Comuni). ALL page-specific folders DELETED (22 folders: administration, ambiente, article, articles, categories, cultura, dashboard, eventi, famiglia, genesis, lavoro, learn, mobilita, news, pages, profile, salute, segnalazioni, services, sport, tickets, turismo) + blade files (home.blade.php, homepage.blade.php, prova01.blade.php, segnalazioni.blade.php, show.blade.php, counter.blade.php, bootstrap-italia-showcase.blade.php). Pattern: pages/tests/[slug].blade.php handles ALL Design Comuni pages dynamically via JSON content. Forward-Only Git: study old versions, NEVER restore. Docs: Themes/Sixteen/docs/architecture/PAGE_ROUTING_ARCHITECTURE.md, Themes/Sixteen/docs/design-comuni/ARCHITECTURAL_DECISIONS.md.
+- **Folio Pages Architecture (DRY + KISS):** ONLY 3 folders allowed in pages/: [container0] (dynamic CMS), auth (authentication), tests (Design Comuni). ALL page-specific folders DELETED (22 folders: administration, ambiente, article, articles, categories, cultura, dashboard, eventi, famiglia, genesis, lavoro, learn, mobilita, news, pages, profile, salute, segnalazioni, services, sport, tickets, turismo) + blade files (home.blade.php, homepage.blade.php, prova01.blade.php, segnalazioni.blade.php, show.blade.php, counter.blade.php, bootstrap-italia-showcase.blade.php). Pattern: pages/tests/[slug].blade.php handles ALL Design Comuni pages dynamically via JSON content. Forward-Only Git: study old versions, NEVER restore. Docs: Themes/Sixteen/docs/architecture/PAGE_ROUTING_architecture.md, Themes/Sixteen/docs/design-comuni/ARCHITECTURAL_DECISIONS.md.
 
 - **Livewire Single Root Element:** Livewire/Volt components MUST have single root HTML element. Use wrapper div: `<div class="tests-view-wrapper">...</div>`. Multiple root elements cause exception. Fixed in pages/tests/[slug].blade.php.

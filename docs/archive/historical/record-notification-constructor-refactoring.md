@@ -1,3 +1,23 @@
+---
+title: "RecordNotification Constructor Refactoring"
+type: concept
+tags: [record, notification, constructor, refactoring]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "record-notification-constructor-refactoring recordnotification constructor refactoring"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # RecordNotification Constructor Refactoring
 
 **Date**: December 19, 2025  

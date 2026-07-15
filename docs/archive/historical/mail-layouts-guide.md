@@ -1,3 +1,23 @@
+---
+title: "Guida ai Layout Email nel Modulo Notify"
+type: guide
+tags: [mail, layouts, guide]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "mail-layouts-guide guida ai layout email nel modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Guida ai Layout Email nel Modulo Notify
 
 ## Introduzione
@@ -129,11 +149,11 @@ I CSS sono definiti inline all'interno di ciascun layout per massimizzare la com
 
 ## Integrazione con MailPace
 
-I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/mailpace_templates_integration.md) per dettagli sull'integrazione.
+I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templates](https://github.com/mailpace/templates). Vedere [MAILPACE_TEMPLATES_INTEGRATION.md](./mail-templates/mailpace-templates-integration-1.md) per dettagli sull'integrazione.
 
 ## Riferimenti
 
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
-- [Spatie Email Documentation](./spatie_email_usage_guide.md)
-- [Email Best Practices](./mail-templates/email_best_practices.md)
-- [HTML Email Compatibility Guide](./mail-templates/html_email_compatibility.md)
+- [Spatie Email Documentation](./spatie-email-usage-guide-1.md)
+- [Email Best Practices](./mail-templates/email-best-practices-1.md)
+- [HTML Email Compatibility Guide](./mail-templates/html-email-compatibility-1.md)

@@ -1,3 +1,23 @@
+---
+title: "login"
+type: concept
+tags: [login]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "login login"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./firebase.md"
+  - "./links.md"
+  - "./notifications.md"
+  - "./repos.md"
+  - "./telegram.md"
+  - "./test-smtp.md"
+---
+
 # login
 
 <!-- Contenuto migrato da _docs/login.txt -->

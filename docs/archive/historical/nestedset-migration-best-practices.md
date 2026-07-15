@@ -1,3 +1,23 @@
+---
+title: "NestedSet Migration Best Practices - Notify Module"
+type: concept
+tags: [nestedset, migration, best, practices]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "nestedset-migration-best-practices nestedset migration best practices - notify module"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # NestedSet Migration Best Practices - Notify Module
 
 ## Overview

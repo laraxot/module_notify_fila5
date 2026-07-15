@@ -1,3 +1,23 @@
+---
+title: "Notify Module - Code Fixes & Improvements (2025)"
+type: concept
+tags: [code, fixes]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "code-fixes notify module - code fixes & improvements (2025)"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Notify Module - Code Fixes & Improvements (2025)
 
 > **

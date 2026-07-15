@@ -1,3 +1,23 @@
+---
+title: "Convenzioni di Naming per Pagine Filament"
+type: concept
+tags: [filament, page, naming, convention]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-page-naming-convention-1 convenzioni di naming per pagine filament"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Convenzioni di Naming per Pagine Filament
 
 ## Regola Fondamentale

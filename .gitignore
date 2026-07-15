@@ -201,3 +201,5 @@ agentdb.rvf
 public_html/
 docs/archived/
 *.db
+.devcontainer/
+.vscode/

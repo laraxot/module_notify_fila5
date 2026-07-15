@@ -1,3 +1,23 @@
+---
+title: "Fix: Notify TestCase - Database Connection Configuration"
+type: concept
+tags: [testing, testcase, database, connection]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "testing-testcase-database-connection-fix fix: notify testcase - database connection configuration"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Fix: Notify TestCase - Database Connection Configuration
 
 **Problema**: Test Notify falliscono con InvalidArgumentException per database connection 'notify'

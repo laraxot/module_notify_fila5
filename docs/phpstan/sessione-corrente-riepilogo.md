@@ -1,3 +1,23 @@
+---
+title: "Riepilogo Sessione Analisi PHPStan Test"
+type: concept
+tags: [sessione, corrente, riepilogo]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "sessione-corrente-riepilogo riepilogo sessione analisi phpstan test"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./PHPSTAN-194-ERRORS-ANALYSIS-.deprecated.md.md"
+  - "./PHPSTAN-ANALYSIS-.deprecated.md.md"
+  - "./PHPSTAN-ANALYSIS-SUMMARY-.deprecated.md.md"
+  - "./PHPSTAN-FINAL-STATUS-.deprecated.md.md"
+  - "./PHPSTAN-GLOBAL-SUMMARY-.deprecated.md.md"
+  - "./PHPSTAN-PROGRESS-UPDATE-.deprecated.md.md"
+  - "./PHPSTAN-SESSION-SESSION2.deprecated.md.md"
+  - "./PHPSTAN-SESSION-4-5-SUMMARY-.deprecated.md.md"
+---
+
 # Riepilogo Sessione Analisi PHPStan Test
 
 ## 📋 Sommario Esecutivo
@@ -96,9 +116,9 @@ Dettagli completi in: `docs/phpstan/tests-analysis-current.md`
 
 ```
 ❌ phpstan-fixes-2025-10-10.md    → ✅ phpstan-fixes.md
-❌ ROADMAP.md                     → ✅ roadmap.md
-❌ CONTRIBUTING.md                → ✅ contributing.md (tranne in root)
-❌ achievement-sessione-2025-10-10.md → ✅ achievement-sessione.md
+❌ roadmap.md                     → ✅ roadmap.md
+❌ contributing.md                → ✅ contributing.md (tranne in root)
+❌ achievement-sessione-.md.md → ✅ achievement-sessione.md
 ```
 
 #### Distribuzione Violazioni
@@ -106,8 +126,8 @@ Dettagli completi in: `docs/phpstan/tests-analysis-current.md`
 **Top Directory con Violazioni:**
 - `docs/`: 48 file
 - `Modules/*/docs/`: 60 file
-- `Modules/*/.github/`: 28 file (SECURITY.md, CONTRIBUTING.md)
-- `Modules/`: 16 file (CHANGELOG.md, LICENSE.md, ROADMAP.md)
+- `Modules/*/.github/`: 28 file (SECURITY.md, contributing.md)
+- `Modules/`: 16 file (CHANGELOG.md, LICENSE.md, roadmap.md)
 
 ---
 

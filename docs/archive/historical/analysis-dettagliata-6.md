@@ -1,3 +1,23 @@
+---
+title: "Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics"
+type: concept
+tags: [analysis, dettagliata]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "analysis-dettagliata-6 analisi dettagliata del modulo notify - parte 6: monitoraggio e analytics"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Analisi Dettagliata del Modulo Notify - Parte 6: Monitoraggio e Analytics
 
 ## 6. Monitoraggio e Analytics

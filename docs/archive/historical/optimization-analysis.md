@@ -1,3 +1,23 @@
+---
+title: "notify module documentation optimization analysis"
+type: concept
+tags: [optimization, analysis]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "optimization-analysis notify module documentation optimization analysis"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # notify module documentation optimization analysis
 
 ## current state analysis
@@ -49,9 +69,9 @@ docs/
 │   ├── notification_system.md
 │   ├── getting_started.md
 │   ├── advanced_topics.md
-│   └── performance_optimization.md
+│   └── performance-optimization-2.md
 ├── channels/
-│   ├── email_notifications.md
+│   ├── email-notifications.md
 │   ├── sms_notifications.md
 │   ├── push_notifications.md
 │   └── webhook_notifications.md

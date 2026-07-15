@@ -1,3 +1,23 @@
+---
+title: "Build PHPInsights .phar"
+type: concept
+tags: [phpinsights, phar, build]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "phpinsights-phar-build build phpinsights .phar"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Build PHPInsights .phar
 
 Procedura per costruire il file `phpinsights.phar` usato come strumento qualità codice. PHPInsights non fornisce release phar ufficiali; si usa [humbug/box](https://github.com/humbug/box) per crearlo localmente.

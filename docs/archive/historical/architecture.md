@@ -1,3 +1,23 @@
+---
+title: "Architectural Rules & Guidelines"
+type: concept
+tags: [architecture]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "architecture architectural rules & guidelines"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Architectural Rules & Guidelines
 
 This module adheres to the **Laraxot Architecture** and **Super Cow Methodology**.
@@ -6,7 +26,7 @@ For strict coding standards, Filament extension rules, and PHPStan guidelines, p
 
 -   [Super Cow Methodology](../../xot/docs/super_cow_methodology.md)
 -   [PHP Quality Guide](../../xot/docs/php_quality_guide.md)
--   [Filament Extension Rules](../../xot/docs/filament_extension_rules.md)
+-   [Filament Extension Rules](../../xot/docs/filament-extension-rules.md)
 
 **Key Principles:**
 1.  **DRY & KISS**: Don't repeat yourself, keep it simple.

@@ -1,3 +1,23 @@
+---
+title: "Guida alle Traduzioni nel Modulo Notify"
+type: guide
+tags: [notify, translation, guide]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "notify-translation-guide-1 guida alle traduzioni nel modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Guida alle Traduzioni nel Modulo Notify
 
 ## Introduzione

@@ -1,3 +1,23 @@
+---
+title: "SmsFactorData Implementation Summary"
+type: concept
+tags: [sms, factor, data, implementation]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "sms-factor-data-implementation smsfactordata implementation summary"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # SmsFactorData Implementation Summary
 
 ## Overview
@@ -73,7 +93,7 @@ public function __construct()
 
 **Files Created/Updated**:
 - `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
-- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+- `/Modules/Notify/project_docs/sms-implementation-1.md`: Updated to include data class information
 
 **Documentation Includes**:
 - Complete class structure and properties
@@ -176,7 +196,7 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 - `/Modules/Notify/app/Datas/SMS/AgiletelecomData.php`: Similar implementation for Agiletelecom
 - `/Modules/Notify/app/Actions/SMS/SendSmsFactorSMSAction.php`: Refactored action class
 - `/Modules/Notify/config/sms.php`: SMS configuration file
-- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+- `/Modules/Notify/project_docs/sms-implementation-1.md`: General SMS implementation documentation
 
 ## Conclusion
 

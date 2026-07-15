@@ -1,3 +1,23 @@
+---
+title: "Mixed (tipo di dato) - Solo come Ultima Spiaggia"
+type: concept
+tags: [mixed, type, ultima, spiaggia]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "mixed-type-ultima-spiaggia mixed (tipo di dato) - solo come ultima spiaggia"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Mixed (tipo di dato) - Solo come Ultima Spiaggia
 
 **Regola critica**: Il tipo `mixed` in PHP deve essere usato **SOLO come ultima spiaggia**.

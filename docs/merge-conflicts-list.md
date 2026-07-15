@@ -1,3 +1,23 @@
+---
+title: "Merge conflict markers — Notify"
+type: concept
+tags: [merge, conflicts, list]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "merge-conflicts-list merge conflict markers — notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Merge conflict markers — Notify
 
 ## Stato (2026-05-26)

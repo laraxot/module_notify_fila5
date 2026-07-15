@@ -1,3 +1,23 @@
+---
+title: "📚 **Indice Documentazione Modulo Notify**"
+type: concept
+tags: [index]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "00-index 📚 **indice documentazione modulo notify**"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+  - "./COMPLETAMENTO-PROGETTO-.deprecated.md.md"
+---
+
 # 📚 **Indice Documentazione Modulo Notify**
 
 **Status**: ✅ PHPStan Level 10 Compliant
@@ -103,7 +123,7 @@
 
 ### 📊 Code Quality
 - [PHPStan Fixes Report](./phpstan-fixes.md) - ✅ Report completo correzioni PHPStan Level 10
-- [Verification Report](./verification_report.md) - Verification and compliance report
+- [Verification Report](./verification-report-1.md) - Verification and compliance report
 - [PHPStan Analysis](./phpstan-analysis.md) - PHPStan reports
 - [Code Quality Metrics](./quality-metrics.md) - Metriche di qualità
 

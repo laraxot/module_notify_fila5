@@ -2,19 +2,17 @@
 
 declare(strict_types=1);
 
-use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
+use Modules\Notify\Models\NotificationLog;
+use Modules\Xot\Database\Migrations\XotBaseMigration;
 
-return new class extends Migration
-{
-    /**
-     * Run the migrations.
-     */
+return new class extends XotBaseMigration {
+    protected ?string $model_class = NotificationLog::class;
+
     public function up(): void
     {
-        if (! Schema::hasTable('notification_logs')) {
-            Schema::create('notification_logs', function (Blueprint $table) {
+        if (! $this->hasTable('notification_logs')) {
+            $this->tableCreate(function (Blueprint $table): void {
                 $table->id();
                 $table->string('notifiable_type');
                 $table->unsignedBigInteger('notifiable_id');
@@ -28,21 +26,16 @@ return new class extends Migration
                 $table->timestamp('read_at')->nullable();
                 $table->text('error_message')->nullable();
                 $table->json('metadata')->nullable();
-                $table->timestamps();
 
                 $table->index(['notifiable_type', 'notifiable_id']);
                 $table->index('channel');
                 $table->index('status');
                 $table->index('sent_at');
             });
-        }
-    }
 
-    /**
-     * Reverse the migrations.
-     */
-    public function down(): void
-    {
-        Schema::dropIfExists('notification_logs');
+            $this->tableUpdate(function (Blueprint $table): void {
+                $this->updateTimestamps($table, false);
+            });
+        }
     }
 };

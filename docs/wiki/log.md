@@ -1,3 +1,23 @@
+---
+title: "Notify - Wiki Activity Log"
+type: concept
+tags: [log]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "log notify - wiki activity log"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./AGENTS.md"
+  - "./README.md"
+  - "./agents.md"
+  - "./bmad-method.md"
+  - "./index.md"
+  - "./notify-conflict-check-.deprecated.md.md"
+  - "./notify-conflict-check.md"
+  - "./notify-restore-.deprecated.md.md"
+---
+
 ## [2026-06-10] schema | notifications owner Notify — XotBaseMigration
 
 - Canonico: `2026_06_10_133000_create_notifications_table.php`

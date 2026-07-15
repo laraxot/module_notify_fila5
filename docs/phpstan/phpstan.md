@@ -1,3 +1,23 @@
+---
+title: "Indice Analisi PHPStan – Progetto Laraxot"
+type: concept
+tags: [phpstan]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "phpstan indice analisi phpstan – progetto laraxot"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./PHPSTAN-194-ERRORS-ANALYSIS-.deprecated.md.md"
+  - "./PHPSTAN-ANALYSIS-.deprecated.md.md"
+  - "./PHPSTAN-ANALYSIS-SUMMARY-.deprecated.md.md"
+  - "./PHPSTAN-FINAL-STATUS-.deprecated.md.md"
+  - "./PHPSTAN-GLOBAL-SUMMARY-.deprecated.md.md"
+  - "./PHPSTAN-PROGRESS-UPDATE-.deprecated.md.md"
+  - "./PHPSTAN-SESSION-SESSION2.deprecated.md.md"
+  - "./PHPSTAN-SESSION-4-5-SUMMARY-.deprecated.md.md"
+---
+
 # Indice Analisi PHPStan – Progetto Laraxot
 
 ## 🎉 AGGIORNAMENTO: Sessione 1 Ottobre 2025 - 83% COMPLETATO!
@@ -6,8 +26,8 @@
 
 ### 📚 Documentazione Sessione
 
-- [📊 **Session Summary**](./session-summary-2025-10-01.md) - Riepilogo completo e piano per domani
-- [📝 **Final Report**](./final-report-session-2025-10-01.md) - Report dettagliato con statistiche e achievement
+- [📊 **Session Summary**](./session-summary-.md.md) - Riepilogo completo e piano per domani
+- [📝 **Final Report**](./final-report-session-.md.md) - Report dettagliato con statistiche e achievement
 - [🛠️ **Fixes Session**](./filament-v4-fixes-session.md) - Log dettagliato correzioni implementate
 
 ### 📦 Documentazione Moduli Corretti

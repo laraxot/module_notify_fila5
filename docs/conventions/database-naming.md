@@ -1,3 +1,16 @@
+---
+title: "Database Directory Naming Convention"
+type: concept
+tags: [database, naming]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "database-naming database directory naming convention"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./README.md"
+---
+
 # Database Directory Naming Convention
 
 > **Last Updated**: 2026-03-13  

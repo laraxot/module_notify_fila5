@@ -1,3 +1,23 @@
+---
+title: "Pattern: Actions che chiamano altre Actions"
+type: pattern
+tags: [actions, calling, actions, pattern]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "actions-calling-actions-pattern pattern: actions che chiamano altre actions"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+  - "./analisi-dettagliata-4.md"
+---
+
 # Pattern: Actions che chiamano altre Actions
 
 **Modulo**: Notify  

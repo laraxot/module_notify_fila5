@@ -1,3 +1,23 @@
+---
+title: "Analisi: Spostamento Logica Selezione Driver in SmsData"
+type: concept
+tags: [sms, driver, selection, analysis]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "sms-driver-selection-analysis analisi: spostamento logica selezione driver in smsdata"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Analisi: Spostamento Logica Selezione Driver in SmsData
 
 ## Contesto Attuale

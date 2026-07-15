@@ -33,7 +33,6 @@ use Spatie\Translatable\HasTranslations;
  * @property string $slug
  * @property array<string, mixed> $variables
  * @property mixed $translations
- *
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
  * @method static Builder<static>|MailTemplate newQuery()
@@ -55,22 +54,17 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereTextTemplate($value)
  * @method static Builder<static>|MailTemplate whereUpdatedAt($value)
  * @method static Builder<static>|MailTemplate whereUpdatedBy($value)
- *
  * @property array<int, string>|null $params
- *
  * @method static Builder<static>|MailTemplate whereParams($value)
- *
  * @property array<string, mixed>|null $sms_template
  * @property array<string, mixed>|null $whatsapp_template
  * @property int $counter
- *
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
  * @method static Builder<static>|MailTemplate whereWhatsappTemplate($value)
- *
  * @method static Builder<static>|MailTemplate whereHtmlLayoutPath($value)
  * @method static Builder<static>|MailTemplate whereVersion($value)
- *
+ * @property-read array<int, string> $translatable_columns_from
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface

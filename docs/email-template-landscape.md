@@ -1,3 +1,23 @@
+---
+title: "Panoramica e Analisi dei Template Email in Laravel"
+type: concept
+tags: [email, template, landscape]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "email-template-landscape panoramica e analisi dei template email in laravel"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Panoramica e Analisi dei Template Email in Laravel
 
 Questo documento raggruppa e analizza le principali risorse, pacchetti e tutorial per la gestione dei template email in Laravel, con vantaggi e svantaggi di ciascuna soluzione.

@@ -1,3 +1,23 @@
+---
+title: "🔄 SISTEMA AGGIORNAMENTO ROADMAP - FIXCITY PLATFORM"
+type: concept
+tags: [roadmap, update, system]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "roadmap-update-system 🔄 sistema aggiornamento roadmap - fixcity platform"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./AGID-ANALYSIS-IMPLEMENTATION-.deprecated.md.md"
+  - "./CHANGELOG-docs-update-.deprecated.md.md"
+  - "./CODE-QUALITY-IMPROVEMENTS-.deprecated.md.md"
+  - "./COMPLETION-SUMMARY-.deprecated.md.md"
+  - "./FINAL-COMPLETION-REPORT-.deprecated.md.md"
+  - "./IMPLEMENTATION-REPORT-.deprecated.md.md"
+  - "./MODULES-VALIDATION-REPORT-.deprecated.md.md"
+  - "./PERFECT-COMPLETION-REPORT-.deprecated.md.md"
+---
+
 # 🔄 SISTEMA AGGIORNAMENTO ROADMAP - FIXCITY PLATFORM
 
 **Versione**: 1.0  

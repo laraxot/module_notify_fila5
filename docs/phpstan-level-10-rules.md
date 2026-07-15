@@ -1,3 +1,23 @@
+---
+title: "PHPStan Level 10 Rules & Best Practices"
+type: rule
+tags: [phpstan, level, rules]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "phpstan-level-10-rules phpstan level 10 rules & best practices"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # PHPStan Level 10 Rules & Best Practices
 
 ## Regola immutabile: phpstan.neon
@@ -8,8 +28,6 @@
 
 Il tipo **mixed** deve essere usato **SOLO come ultima spiaggia**. Preferire union types, generics, interfacce. Vedi [mixed-type-ultima-spiaggia.md](mixed-type-ultima-spiaggia.md).
 
-<<<<<<< HEAD
-=======
 ## Regola array iterabili
 
 Ogni parametro o ritorno `array` deve dichiarare il value type tramite PHPDoc quando la firma PHP non lo può esprimere.
@@ -31,8 +49,6 @@ public function send(array $data = [], array $channels = []): void
 ```
 
 Per array indicizzati usare `list<T>` quando l'ordine è sequenziale; per mappe usare `array<string, T>`; per payload noti usare array shape.
-
->>>>>>> 0752e49e4 (let's start)
 ## Critical Rules Identified from Analysis (2026-03-02)
 
 ### 1. Trait Method Declarations
@@ -300,7 +316,7 @@ These rules are enforced through:
 
 ## Related Documentation
 
-- [PHPStan Analysis Report 2026-03-02](./phpstan-analysis-2026-03-02.md)
+- [PHPStan Analysis Report 2026-03-02](./phpstan-analysis-.md.md)
 - [Cms Module PHPStan Fixes](../laravel/Modules/Cms/docs/phpstan-fixes.md)
 - [Fixcity Module PHPStan Fixes](../laravel/Modules/Fixcity/docs/phpstan-level-10-fixes.md)
 - [PHPStan Official Documentation](https://phpstan.org/)

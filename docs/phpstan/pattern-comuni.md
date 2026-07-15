@@ -1,3 +1,23 @@
+---
+title: "Pattern Comuni PHPStan - Progetto Laraxot"
+type: pattern
+tags: [pattern, comuni]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "pattern-comuni pattern comuni phpstan - progetto laraxot"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./PHPSTAN-194-ERRORS-ANALYSIS-.deprecated.md.md"
+  - "./PHPSTAN-ANALYSIS-.deprecated.md.md"
+  - "./PHPSTAN-ANALYSIS-SUMMARY-.deprecated.md.md"
+  - "./PHPSTAN-FINAL-STATUS-.deprecated.md.md"
+  - "./PHPSTAN-GLOBAL-SUMMARY-.deprecated.md.md"
+  - "./PHPSTAN-PROGRESS-UPDATE-.deprecated.md.md"
+  - "./PHPSTAN-SESSION-SESSION2.deprecated.md.md"
+  - "./PHPSTAN-SESSION-4-5-SUMMARY-.deprecated.md.md"
+---
+
 # Pattern Comuni PHPStan - Progetto Laraxot
 
 **Aggiornato:** 10 Ottobre 2025  

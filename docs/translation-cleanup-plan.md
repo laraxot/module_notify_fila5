@@ -1,3 +1,23 @@
+---
+title: "Piano di Pulizia e Standardizzazione delle Traduzioni"
+type: concept
+tags: [translation, cleanup, plan]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "translation-cleanup-plan piano di pulizia e standardizzazione delle traduzioni"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di Quaeris.

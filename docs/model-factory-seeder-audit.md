@@ -1,3 +1,23 @@
+---
+title: "Model/Factory/Seeder Audit"
+type: concept
+tags: [model, factory, seeder, audit]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "model-factory-seeder-audit model/factory/seeder audit"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Model/Factory/Seeder Audit
 
 Generated: 2025-08-22 16:29

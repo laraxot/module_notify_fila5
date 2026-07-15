@@ -1,3 +1,23 @@
+---
+title: "Convenzioni per Template Blade di Filament"
+type: concept
+tags: [filament, template, conventions]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-template-conventions convenzioni per template blade di filament"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Convenzioni per Template Blade di Filament
 
 ## Struttura Standard dei Template di Pagina

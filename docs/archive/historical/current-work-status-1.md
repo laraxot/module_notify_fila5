@@ -1,3 +1,23 @@
+---
+title: "Stato Attuale del Lavoro - 12 Maggio 2025"
+type: concept
+tags: [current, work, status]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "current-work-status-1 stato attuale del lavoro - 12 maggio 2025"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Stato Attuale del Lavoro - 12 Maggio 2025
 
 ## Problematiche Identificate

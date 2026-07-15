@@ -1,3 +1,23 @@
+---
+title: "Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects"
+type: concept
+tags: [channel, dto, provider, selection]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "channel-vs-dto-provider-selection analisi architetturale: selezione provider nei canali vs data transfer objects"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects
 
 Questo documento analizza i vantaggi e gli svantaggi di spostare la logica di selezione del provider SMS dal canale (`SmsChannel`) al Data Transfer Object (`SmsData`).

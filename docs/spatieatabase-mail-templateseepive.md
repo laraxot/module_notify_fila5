@@ -1,3 +1,23 @@
+---
+title: "Spatie Laravel Database Mail Templates - Analisi Approfondita"
+type: concept
+tags: [spatieatabase, mail, templateseepive]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "spatieatabase-mail-templateseepive spatie laravel database mail templates - analisi approfondita"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Spatie Laravel Database Mail Templates - Analisi Approfondita
 
 ## Overview

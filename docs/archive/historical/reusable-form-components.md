@@ -1,3 +1,23 @@
+---
+title: "Reusable Form Components"
+type: concept
+tags: [reusable, form, components]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "reusable-form-components reusable form components"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Reusable Form Components
 
 ## Overview
@@ -163,7 +183,7 @@ These components are used in `SendRecordsNotificationBulkAction` to replace the 
 ## Related Documentation
 - [Send Notification Bulk Action](./send-notification-bulk-action.md)
 - [Enums Documentation](../enums/)
-- [Filament Extension Rules](../filament_extension_rules.md)
+- [Filament Extension Rules](../filament-extension-rules.md)
 
 ## Last Updated
 December 19, 2025

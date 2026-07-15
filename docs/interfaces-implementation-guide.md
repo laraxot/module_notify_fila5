@@ -1,3 +1,23 @@
+---
+title: "Guida all'Implementazione delle Interfacce nel Modulo Notify"
+type: guide
+tags: [interfaces, implementation, guide]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "interfaces-implementation-guide guida all'implementazione delle interfacce nel modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Guida all'Implementazione delle Interfacce nel Modulo Notify
 
 ## Struttura delle Interfacce
@@ -99,7 +119,7 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 - [Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
 - [Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
-- [Architettura dei Contratti](./CONTRACTS_ARCHITECTURE.md)
+- [Architettura dei Contratti](./CONTRACTS_architecture.md)
 # Guida all'Implementazione delle Interfacce nel Modulo Notify
 
 ## Struttura delle Interfacce
@@ -197,4 +217,4 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 
 - [Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
 - [Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
-- [Architettura dei Contratti](./CONTRACTS_ARCHITECTURE.md)
+- [Architettura dei Contratti](./CONTRACTS_architecture.md)

@@ -1,3 +1,23 @@
+---
+title: "Risoluzione Conflitti RecordNotification.php"
+type: concept
+tags: [conflict, resolution, recordnotification]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "conflict-resolution-recordnotification risoluzione conflitti recordnotification.php"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Risoluzione Conflitti RecordNotification.php
 
 ## Contesto del Conflitto
@@ -76,7 +96,7 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](readme.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
-- [SpatieEmail Integration](spatie_email_usage_guide.md)
+- [SpatieEmail Integration](spatie-email-usage-guide-1.md)
 - [Root Conflict Resolution Guidelines](../../../../docs/conflict-resolution-guidelines.md)
 
 # Risoluzione Conflitti RecordNotification.php
@@ -157,6 +177,6 @@ Verificare che:
 ## Collegamenti
 - [Notify Module Documentation](readme.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
-- [SpatieEmail Integration](spatie_email_usage_guide.md)
+- [SpatieEmail Integration](spatie-email-usage-guide-1.md)
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 

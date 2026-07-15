@@ -1,3 +1,23 @@
+---
+title: "Linee Guida per la Riusabilità del Modulo Notify"
+type: guide
+tags: [reusability, guidelines]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "reusability-guidelines linee guida per la riusabilità del modulo notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Linee Guida per la Riusabilità del Modulo Notify
 
 ## Principio Fondamentale
@@ -163,7 +183,7 @@ grep -r "database.*saluteora\|app.*saluteora" Modules/Notify/
 
 ## Collegamenti
 
-- [../../../../docs/module_reusability_guidelines.md](../../../../docs/module_reusability_guidelines.md)
+- [../../../../docs/module_reusability-guidelines-2.md](../../../../docs/module_reusability-guidelines-2.md)
 - [../../Xot/docs/xotdata_usage.md](../../xot/docs/xotdata_usage.md)
 - [testing_best_practices.md](testing_best_practices.md)
 

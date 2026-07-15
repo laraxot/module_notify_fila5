@@ -1,3 +1,23 @@
+---
+title: "Convenzioni per le Pagine Filament"
+type: concept
+tags: [filament, pages, convention]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-pages-convention convenzioni per le pagine filament"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Convenzioni per le Pagine Filament
 
 ## Regola del Suffisso "Page"

@@ -1,3 +1,23 @@
+---
+title: "Riepilogo Risoluzione Conflitti Git - Progetto Base FixCity Fila3 Mono"
+type: concept
+tags: [riepilogo, risoluzione, conflitti, git]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "riepilogo-risoluzione-conflitti-git riepilogo risoluzione conflitti git - progetto base fixcity fila3 mono"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./2025-excellence-achievement.md"
+  - "./FINAL-IMPLEMENTATION-REPORT-.deprecated.md.md"
+  - "./IMPLEMENTATION-STATUS-.deprecated.md.md"
+  - "./INDEX.md"
+  - "./README.md"
+  - "./agid-implementation-guide.md"
+  - "./architecture.md"
+  - "./complete-refactoring-analysis.md"
+---
+
 # Riepilogo Risoluzione Conflitti Git - Progetto Base FixCity Fila3 Mono
 
 ## Stato Finale

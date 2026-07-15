@@ -1,3 +1,23 @@
+---
+title: "✅ DRY Violation Analysis - Risoluzione delle Cagatas Seasonal"
+type: concept
+tags: [dry, violation, analysis]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "dry-violation-analysis ✅ dry violation analysis - risoluzione delle cagatas seasonal"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # ✅ DRY Violation Analysis - Risoluzione delle Cagatas Seasonal
 
 **Data**: 19 Dicembre 2025 16:30 CET

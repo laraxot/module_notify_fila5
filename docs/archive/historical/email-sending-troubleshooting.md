@@ -1,3 +1,23 @@
+---
+title: "Troubleshooting: Sistema di Invio Email in Notify"
+type: concept
+tags: [email, sending, troubleshooting]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "email-sending-troubleshooting troubleshooting: sistema di invio email in notify"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Troubleshooting: Sistema di Invio Email in Notify
 
 ## Problema: `SendEmail.php` vs `TestSmtpPage.php`

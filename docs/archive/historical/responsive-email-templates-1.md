@@ -1,3 +1,23 @@
+---
+title: "Responsive Email Templates - Guida Completa"
+type: concept
+tags: [responsive, email, templates]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "responsive-email-templates-1 responsive email templates - guida completa"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Responsive Email Templates - Guida Completa
 
 ## Introduzione
@@ -183,7 +203,7 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 
 ## Riferimenti e Approfondimenti
 
-- [Guida ai Layout Email](./mail_layouts_guide.md)
-- [Email Best Practices](./mail-templates/email_best_practices.md)
-- [HTML Email Compatibility](./mail-templates/html_email_compatibility.md)
-- [MailPace Integration](./mail-templates/mailpace_templates_integration.md)
+- [Guida ai Layout Email](./mail-layouts-guide-2.md)
+- [Email Best Practices](./mail-templates/email-best-practices-1.md)
+- [HTML Email Compatibility](./mail-templates/html-email-compatibility-1.md)
+- [MailPace Integration](./mail-templates/mailpace-templates-integration-1.md)

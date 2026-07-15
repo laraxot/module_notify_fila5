@@ -1,3 +1,23 @@
+---
+title: "Convenzioni per i Collegamenti nei File Markdown"
+type: concept
+tags: [markdown, linking, conventions]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "markdown-linking-conventions convenzioni per i collegamenti nei file markdown"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./-repos.md"
+  - "./-todo.md"
+  - "./00-index-1.md"
+  - "./00-index-2.md"
+  - "./00-index.md"
+  - "./AGENTS.md"
+  - "./ANALISI-COMPLETA-.deprecated.md.md"
+  - "./CHANGELOG.md"
+---
+
 # Convenzioni per i Collegamenti nei File Markdown
 
 ## Regola Fondamentale
@@ -11,13 +31,13 @@
 ```markdown
 [Convenzioni di Naming per le Interfacce](Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
-[Architettura dei Contratti](Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
+[Architettura dei Contratti](Modules/Notify/docs/CONTRACTS_architecture.md)
 [Convenzioni di Naming per le Interfacce](Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
-[Architettura dei Contratti](Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
+[Architettura dei Contratti](Modules/Notify/docs/CONTRACTS_architecture.md)
 [Convenzioni di Naming per le Interfacce](Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
-[Architettura dei Contratti](Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
+[Architettura dei Contratti](Modules/Notify/docs/CONTRACTS_architecture.md)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -25,7 +45,7 @@
 ```markdown
 [Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
-[Architettura dei Contratti](./CONTRACTS_ARCHITECTURE.md)
+[Architettura dei Contratti](./CONTRACTS_architecture.md)
 ```
 
 Per collegamenti a documenti in altre directory:
@@ -75,7 +95,7 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 ```markdown
 [Convenzioni di Naming per le Interfacce](Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
-[Architettura dei Contratti](Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
+[Architettura dei Contratti](Modules/Notify/docs/CONTRACTS_architecture.md)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -83,7 +103,7 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 ```markdown
 [Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
-[Architettura dei Contratti](./CONTRACTS_ARCHITECTURE.md)
+[Architettura dei Contratti](./CONTRACTS_architecture.md)
 ```
 
 Per collegamenti a documenti in altre directory:

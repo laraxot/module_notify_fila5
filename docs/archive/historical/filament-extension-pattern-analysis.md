@@ -1,3 +1,23 @@
+---
+title: "Analisi del Pattern di Estensione per Componenti Filament"
+type: pattern
+tags: [filament, extension, pattern, analysis]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-extension-pattern-analysis analisi del pattern di estensione per componenti filament"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore

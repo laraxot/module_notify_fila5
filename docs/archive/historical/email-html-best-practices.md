@@ -1,3 +1,23 @@
+---
+title: "Best Practices HTML per Email"
+type: concept
+tags: [email, html, best, practices]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "email-html-best-practices best practices html per email"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Best Practices HTML per Email
 
 ## Introduzione
@@ -217,8 +237,8 @@ Questo documento definisce le best practices per la creazione di template HTML p
 ## Collegamenti Correlati
 
 - [Documentazione MailPace](https://github.com/mailpace/templates)
-- [Struttura Template](./mail_templates_structure.md)
-- [Template Base](./base_templates.md)
+- [Struttura Template](./mail-templates-structure-1.md)
+- [Template Base](./base-templates.md)
 
 ## Supporto
 

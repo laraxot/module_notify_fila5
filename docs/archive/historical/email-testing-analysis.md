@@ -1,3 +1,23 @@
+---
+title: "Analisi delle Pagine di Test Email"
+type: concept
+tags: [email, testing, analysis]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "email-testing-analysis analisi delle pagine di test email"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+---
+
 # Analisi delle Pagine di Test Email
 
 ## 🎯 Panoramica
