@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./telegram.md"
   - "./whatsapp.md"
+related:
+  - "./telegram.md"
+  - "./whatsapp.md"
 ---
 
 # SMS Integration

@@ -14,6 +14,13 @@ related:
   - "./sms-implementation-details.md"
   - "./sms-provider-configuration.md"
   - "./telegram-notifications-guide.md"
+related:
+  - "./errori-comuni-da-evitare.md"
+  - "./netfun-sms-implementation.md"
+  - "./notifications-implementation-guide.md"
+  - "./sms-implementation-details.md"
+  - "./sms-provider-configuration.md"
+  - "./telegram-notifications-guide.md"
 ---
 
 # Implementazione di Notifiche Multi-Canale 

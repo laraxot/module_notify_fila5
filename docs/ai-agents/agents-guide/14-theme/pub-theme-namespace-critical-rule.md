@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index.md"
   - "./theme-translations-critical-rule.md"
+related:
+  - "./00-index.md"
+  - "./theme-translations-critical-rule.md"
 ---
 
 # 5.1. Theme & pub_theme Namespace - CRITICAL RULE

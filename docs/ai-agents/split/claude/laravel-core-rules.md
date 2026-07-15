@@ -16,6 +16,15 @@ related:
   - "./folio-rules.md"
   - "./foundation-rules.md"
   - "./laravel-v11-rules.md"
+related:
+  - "./boost-rules.md"
+  - "./filament-rules.md"
+  - "./filament-v3-rules.md"
+  - "./fluxui-rules.md"
+  - "./folio-rules.md"
+  - "./foundation-rules.md"
+  - "./laravel-v11-rules.md"
+  - "./livewire-rules.md"
 ---
 
 === laravel/core rules ===

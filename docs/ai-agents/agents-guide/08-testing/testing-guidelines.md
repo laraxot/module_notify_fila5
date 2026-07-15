@@ -11,6 +11,10 @@ related:
   - "./00-index.md"
   - "./coverage-gaps-analysis-guide.md"
   - "./pest-coverage-guide.md"
+related:
+  - "./00-index.md"
+  - "./coverage-gaps-analysis-guide.md"
+  - "./pest-coverage-guide.md"
 ---
 
 # 8. Testing Guidelines

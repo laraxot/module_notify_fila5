@@ -12,6 +12,11 @@ related:
   - "./llm-wiki-layout-design.deprecated.md.md"
   - "./fixcity-hero-marketing.md"
   - "./llm-wiki-layout-design.md"
+related:
+  - "./2026-03-30-fixcity-hero-marketing.md"
+  - "./2026-04-15-llm-wiki-layout-design.md"
+  - "./fixcity-hero-marketing.md"
+  - "./llm-wiki-layout-design.md"
 ---
 
 # Design: Ticket Wizard Widget (Filament)

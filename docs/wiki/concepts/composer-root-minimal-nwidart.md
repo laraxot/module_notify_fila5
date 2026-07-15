@@ -13,6 +13,15 @@ related:
   - ../../../Xot/docs/wiki/concepts/composer-root-skeleton-modular.md
   - ../../../../../../docs/wiki/concepts/composer-root-minimal-nwidart.md
   - ../../composer.json
+related:
+  - "./claude-audit-static.md"
+  - "./code-redundancy-notify.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-standards.md"
+  - "./llm-wiki-governance.md"
+  - "./method-name-homonyms.md"
+  - "./module-root-uppercase-folders-archive.md"
+  - "./no-app-support-queueable-actions.md"
 ---
 
 # Notify e composer root minimale

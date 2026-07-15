@@ -16,6 +16,15 @@ related:
   - "./ai-skills-and-plugins-complete.md"
   - "./commit-message.md"
   - "./configuration.md"
+related:
+  - "./2-1-1-plan.md"
+  - "./agents.md"
+  - "./ai-agent-lessons-learned.md"
+  - "./ai-skills-and-plugins-complete.md"
+  - "./commit-message.md"
+  - "./configuration.md"
+  - "./design-comuni-bmad-master-plan.md"
+  - "./docs-governance.md"
 ---
 
 # PHASE 2 - EPIC 2.1: Citizen Dashboard - CONTEXT

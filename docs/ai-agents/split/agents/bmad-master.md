@@ -16,6 +16,15 @@ related:
   - "./product-manager.md"
   - "./product-owner.md"
   - "./scrum-master.md"
+related:
+  - "./architect.md"
+  - "./bmad-orchestrator.md"
+  - "./business-analyst.md"
+  - "./full-stack-developer.md"
+  - "./product-manager.md"
+  - "./product-owner.md"
+  - "./scrum-master.md"
+  - "./test-architect.md"
 ---
 
 ### BMad Master Task Executor (id: bmad-master)

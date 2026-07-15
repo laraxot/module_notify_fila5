@@ -4,6 +4,12 @@ type: reference
 updated: 2026-05-21
 related:
   - "../../../Media/docs/html2pdf/advanced.md"
+related:
+  - "./index.md"
+  - "./laravel.md"
+  - "./security.md"
+  - "./styling.md"
+  - "./usage.md"
 ---
 
 # Html2Pdf — advanced

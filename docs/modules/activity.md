@@ -13,6 +13,12 @@ related:
   - "./index.md"
   - "./themes-sixteen.md"
   - "./ui.md"
+related:
+  - "./ai.md"
+  - "./cms.md"
+  - "./index.md"
+  - "./themes-sixteen.md"
+  - "./ui.md"
 ---
 
 # Modulo Activity – Collegamento Bidirezionale

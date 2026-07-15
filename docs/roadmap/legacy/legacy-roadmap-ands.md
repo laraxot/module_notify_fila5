@@ -11,6 +11,10 @@ related:
   - "./legacy-roadmap-conflict.md"
   - "./legacy-roadmap-x.md"
   - "./legacy-roadmap.md"
+related:
+  - "./legacy-roadmap-conflict.md"
+  - "./legacy-roadmap-x.md"
+  - "./legacy-roadmap.md"
 ---
 
 # Notify Module - Roadmap, Issues & Optimization

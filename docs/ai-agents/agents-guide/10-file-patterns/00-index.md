@@ -11,6 +11,10 @@ related:
   - "./file-patterns-and-docs-standards.md"
   - "./model-and-docs-naming-governance.md"
   - "./modules-themes-docs-audit.md"
+related:
+  - "./file-patterns-and-docs-standards.md"
+  - "./model-and-docs-naming-governance.md"
+  - "./modules-themes-docs-audit.md"
 ---
 
 # 📋 10 file patterns Index

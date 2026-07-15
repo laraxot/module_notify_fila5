@@ -16,6 +16,15 @@ related:
   - "./translation-structure-5-levels-mandatory.md"
   - "./translation-structure-5-levels.md"
   - "./use-models-not-db-table.md"
+related:
+  - "./00-index.md"
+  - "./bash-commands-auto-allow.md"
+  - "./llm-wiki-rule.md"
+  - "./multi-outcome-no-binary-fields.md"
+  - "./one-migration-per-model.md"
+  - "./translation-structure-5-levels-mandatory.md"
+  - "./translation-structure-5-levels.md"
+  - "./use-models-not-db-table.md"
 ---
 
 # 🔧 PHPMD Installation - .phar NOT Composer

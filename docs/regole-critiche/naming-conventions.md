@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./phpstan-test-mai-escludere.md"
   - "./test-naming-pascalcase.md"
+related:
+  - "./phpstan-test-mai-escludere.md"
+  - "./test-naming-pascalcase.md"
 ---
 
 # Naming Conventions - Database Folders

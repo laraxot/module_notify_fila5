@@ -1,0 +1,20 @@
+---
+title: "CODE_QUALITY_IMPROVEMENTS_2025-10-01.deprecated"
+type: concept
+tags: [deprecated]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "code_quality_improvements_2025-10-01.deprecated deprecated"
+status: deprecated
+related:
+  - "./AGID_ANALYSIS_IMPLEMENTATION_2025-10-02.md"
+  - "./CHANGELOG-docs-update-2025-10-01.md"
+  - "./CODE_QUALITY_IMPROVEMENTS_2025-10-01.md"
+  - "./COMPLETION_SUMMARY_2025-10-01.md"
+  - "./FINAL_COMPLETION_REPORT_2025-10-01.md"
+  - "./IMPLEMENTATION_REPORT_2025-10-01.md"
+  - "./MODULES_VALIDATION_REPORT_2025-10-02.md"
+  - "./PERFECT_COMPLETION_REPORT_2025-10-02.md"
+---
+
+> Questo file è stato rinominato in [code-quality-improvements-.deprecated.md](code-quality-improvements-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

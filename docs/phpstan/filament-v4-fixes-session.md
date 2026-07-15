@@ -16,6 +16,15 @@ related:
   - "./PHPSTAN-PROGRESS-UPDATE-.deprecated.md.md"
   - "./PHPSTAN-SESSION-SESSION2.deprecated.md.md"
   - "./PHPSTAN-SESSION-4-5-SUMMARY-.deprecated.md.md"
+related:
+  - "./PHPSTAN_194_ERRORS_ANALYSIS_2026-03-02.md"
+  - "./PHPSTAN_ANALYSIS_2026-03-02.md"
+  - "./PHPSTAN_ANALYSIS_SUMMARY_2026-03-02.md"
+  - "./PHPSTAN_FINAL_STATUS_2026-03-02.md"
+  - "./PHPSTAN_GLOBAL_SUMMARY_2026-03-02.md"
+  - "./PHPSTAN_PROGRESS_UPDATE_2026-03-02.md"
+  - "./PHPSTAN_SESSION_2026-03-02_SESSION2.md"
+  - "./PHPSTAN_SESSION_4_5_SUMMARY_2026-03-02.md"
 ---
 
 # Correzioni PHPStan - Sessione Filament v4 Migration

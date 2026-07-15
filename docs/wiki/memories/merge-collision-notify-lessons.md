@@ -6,6 +6,10 @@ updated: 2026-05-26
 related:
   - ../../merge-conflicts-list.md
   - ../../../../../../docs/wiki/how-to/git-merge-marker-sweep.md
+related:
+  - "./phpstan-pest-patterns-.md"
+  - "./phpstan-pest-patterns-2026-07-06.md"
+  - "./phpstan-pest-patterns.md"
 ---
 
 # Lezioni merge — modulo Notify

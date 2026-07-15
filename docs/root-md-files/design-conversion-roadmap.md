@@ -16,6 +16,15 @@ related:
   - "./login.md"
   - "./notifications.md"
   - "./qwen.md"
+related:
+  - "./changelog.md"
+  - "./files-created-session-007.md"
+  - "./firebase.md"
+  - "./links.md"
+  - "./login.md"
+  - "./notifications.md"
+  - "./qwen.md"
+  - "./repos.md"
 ---
 
 # Design Comuni Conversion Roadmap

@@ -11,6 +11,10 @@ related:
   - "./legacy-roadmap-ands.md"
   - "./legacy-roadmap-x.md"
   - "./legacy-roadmap.md"
+related:
+  - "./legacy-roadmap-ands.md"
+  - "./legacy-roadmap-x.md"
+  - "./legacy-roadmap.md"
 ---
 
 # 🔔 NOTIFY MODULE - ROADMAP 2025

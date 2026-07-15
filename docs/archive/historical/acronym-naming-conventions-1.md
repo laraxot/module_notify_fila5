@@ -16,6 +16,15 @@ related:
   - "./analisi-dettagliata-3.md"
   - "./analisi-dettagliata-4-1.md"
   - "./analisi-dettagliata-4.md"
+related:
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
+  - "./analisi-dettagliata-4.md"
 ---
 
 # Convenzioni di Naming per Acronimi

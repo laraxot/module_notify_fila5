@@ -16,6 +16,15 @@ related:
   - "./correct-course.md"
   - "./create-brownfield-story.md"
   - "./create-deep-research-prompt.md"
+related:
+  - "./advanced-elicitation.md"
+  - "./apply-qa-fixes.md"
+  - "./brownfield-create-epic.md"
+  - "./brownfield-create-story.md"
+  - "./correct-course.md"
+  - "./create-brownfield-story.md"
+  - "./create-deep-research-prompt.md"
+  - "./create-doc.md"
 ---
 
 ### Task: test-design

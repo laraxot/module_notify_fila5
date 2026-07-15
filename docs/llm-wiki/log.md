@@ -11,6 +11,9 @@ related:
   - "./AGENTS.md"
   - "./agents.md"
   - "./index.md"
+related:
+  - "./agents.md"
+  - "./index.md"
 ---
 
 # Notify Activity Log

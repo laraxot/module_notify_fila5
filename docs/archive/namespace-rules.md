@@ -16,6 +16,15 @@ related:
   - "./analisi-dettagliata-1.md"
   - "./analisi-dettagliata-2.md"
   - "./analisi-dettagliata-3.md"
+related:
+  - "./00-index-1.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1-1.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
 ---
 
 # Regole Namespace PSR-4 per il Modulo Notify

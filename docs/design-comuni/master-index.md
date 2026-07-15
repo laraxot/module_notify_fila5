@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./documentazione-report-finale.md"
   - "./index.md"
+related:
+  - "./documentazione-report-finale.md"
+  - "./index.md"
 ---
 
 # Design Comuni Italia - Master Documentation Index

@@ -16,6 +16,15 @@ related:
   - "./filament-ui-enhancements.md"
   - "./html-email-compatibility.md"
   - "./implementation-notes.md"
+related:
+  - "./email-layouts-best-practices.md"
+  - "./email-templates-best-practices.md"
+  - "./email-templates-guide.md"
+  - "./email-templates-update.md"
+  - "./filament-slug-generation.md"
+  - "./filament-ui-enhancements.md"
+  - "./html-email-compatibility.md"
+  - "./implementation-notes.md"
 ---
 
 # Best Practices per Email Transazionali

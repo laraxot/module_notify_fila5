@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index.md"
   - "./key-documentation-references.md"
+related:
+  - "./00-index.md"
+  - "./key-documentation-references.md"
 ---
 
 # Action Pattern (CRITICAL)

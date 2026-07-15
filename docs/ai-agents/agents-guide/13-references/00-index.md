@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./key-documentation-references.md"
   - "./project-patterns.md"
+related:
+  - "./key-documentation-references.md"
+  - "./project-patterns.md"
 ---
 
 # 📋 13 references Index

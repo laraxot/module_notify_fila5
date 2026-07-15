@@ -14,6 +14,13 @@ related:
   - "./notifications-implementation-guide.md"
   - "./sms-implementation-details.md"
   - "./telegram-notifications-guide.md"
+related:
+  - "./errori-comuni-da-evitare.md"
+  - "./multi-channel-notifications.md"
+  - "./netfun-sms-implementation.md"
+  - "./notifications-implementation-guide.md"
+  - "./sms-implementation-details.md"
+  - "./telegram-notifications-guide.md"
 ---
 
 # Configurazione Provider SMS per le Notifiche 

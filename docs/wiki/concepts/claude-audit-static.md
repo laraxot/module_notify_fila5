@@ -16,6 +16,15 @@ related:
   - ./no-app-support-queueable-actions.md
   - ../actions-over-services.md
   - ../../../../../../bashscripts/tools/run-claude-audit-module-static.sh
+related:
+  - "./code-redundancy-notify.md"
+  - "./composer-root-minimal-nwidart.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-standards.md"
+  - "./llm-wiki-governance.md"
+  - "./method-name-homonyms.md"
+  - "./module-root-uppercase-folders-archive.md"
+  - "./no-app-support-queueable-actions.md"
 ---
 
 # claude-audit static (Notify)

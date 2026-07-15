@@ -16,6 +16,15 @@ related:
   - "./notify-conflict-check-.deprecated.md.md"
   - "./notify-conflict-check.md"
   - "./notify-restore-.deprecated.md.md"
+related:
+  - "./agents.md"
+  - "./bmad-method.md"
+  - "./index.md"
+  - "./notify-conflict-check-.md"
+  - "./notify-conflict-check-2026-04-21.md"
+  - "./notify-conflict-check.md"
+  - "./notify-restore-.md"
+  - "./notify-restore-2026-04-21.md"
 ---
 
 ## [2026-06-10] schema | notifications owner Notify — XotBaseMigration

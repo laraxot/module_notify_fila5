@@ -16,6 +16,15 @@ related:
   - "./multi-channel-notifications-2.md"
   - "./netfun-sms-implementation-1.md"
   - "./netfun-sms-implementation.md"
+related:
+  - "./errori-comuni-da-evitare-1.md"
+  - "./errori-comuni-da-evitare.md"
+  - "./index.md"
+  - "./multi-channel-notifications-1.md"
+  - "./multi-channel-notifications-2.md"
+  - "./netfun-sms-implementation-1.md"
+  - "./netfun-sms-implementation.md"
+  - "./notifications-implementation-guide-1.md"
 ---
 
 # Implementazione di Notifiche Multi-Canale 

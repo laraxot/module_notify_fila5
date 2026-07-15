@@ -16,6 +16,15 @@ related:
   - "./repos.md"
   - "./telegram.md"
   - "./test-smtp.md"
+related:
+  - "./firebase.md"
+  - "./links.md"
+  - "./login.md"
+  - "./repos.md"
+  - "./telegram.md"
+  - "./test-smtp.md"
+  - "./todo.md"
+  - "./whatsapp.md"
 ---
 
 # notifications

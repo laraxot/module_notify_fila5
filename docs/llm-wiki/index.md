@@ -11,6 +11,9 @@ related:
   - "./AGENTS.md"
   - "./agents.md"
   - "./log.md"
+related:
+  - "./agents.md"
+  - "./log.md"
 ---
 
 # Notify Module Wiki Index

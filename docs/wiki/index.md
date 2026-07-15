@@ -15,6 +15,15 @@ related:
   - ../../../../docs/wiki/bmad/architecture.md
   - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
   - ../../docs/wiki/concepts/ai-harness-module-discipline.md
+related:
+  - "./agents.md"
+  - "./bmad-method.md"
+  - "./log.md"
+  - "./notify-conflict-check-.md"
+  - "./notify-conflict-check-2026-04-21.md"
+  - "./notify-conflict-check.md"
+  - "./notify-restore-.md"
+  - "./notify-restore-2026-04-21.md"
 ---
 
 # Knowledge Base Index

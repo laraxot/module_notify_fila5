@@ -9,6 +9,8 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./email-troubleshooting.md"
+related:
+  - "./email-troubleshooting.md"
 ---
 
 # Utilizzo Corretto degli Allegati nelle Email Spatie

@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./critical-architecture-rules.md"
   - "./critical-rules-summary.md"
+related:
+  - "./critical-architecture-rules.md"
+  - "./critical-rules-summary.md"
 ---
 
 # 📋 04 architecture Index

@@ -7,6 +7,9 @@ created: {{date}}
 updated: {{date}}
 tags: [article, paper, documentation]
 related: []
+related:
+  - "./concept.md"
+  - "./entity.md"
 ---
 
 # {{title}}

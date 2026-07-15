@@ -9,6 +9,8 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./filament-admin-patterns.md"
+related:
+  - "./filament-admin-patterns.md"
 ---
 
 # 📋 06 filament admin Index

@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./naming-conventions.md"
   - "./test-naming-pascalcase.md"
+related:
+  - "./naming-conventions.md"
+  - "./test-naming-pascalcase.md"
 ---
 
 # 🚨 REGOLA CRITICA PROGETTO: PHPStan e Test

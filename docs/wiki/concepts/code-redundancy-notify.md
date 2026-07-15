@@ -9,6 +9,15 @@ related:
   - ../../../redundancy-audit-.md.md
   - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
   - ../../../../Xot/docs/wiki/redundancy-audit-2026-05-26.md
+related:
+  - "./claude-audit-static.md"
+  - "./composer-root-minimal-nwidart.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-standards.md"
+  - "./llm-wiki-governance.md"
+  - "./method-name-homonyms.md"
+  - "./module-root-uppercase-folders-archive.md"
+  - "./no-app-support-queueable-actions.md"
 ---
 
 # Ridondanza — Notify

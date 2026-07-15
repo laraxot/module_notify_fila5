@@ -15,6 +15,12 @@ related:
   - "./installazione.md"
   - "./superpowers.md"
   - "./workflow.md"
+related:
+  - "./installation-summary.md"
+  - "./installation.md"
+  - "./installazione.md"
+  - "./superpowers.md"
+  - "./workflow.md"
 ---
 
 # 🦸 Superpowers Skills Reference

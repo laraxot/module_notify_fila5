@@ -16,6 +16,15 @@ related:
   - "./final-success-report.md"
   - "./fixcity-improvement-progress-1.md"
   - "./multi-agent-final-report.md"
+related:
+  - "./BUGFIX_REPORT_2025-01-14.md"
+  - "./bugfix-report-.md"
+  - "./bugfix-report.md"
+  - "./document-root-update-summary.md"
+  - "./documentation-update-complete.md"
+  - "./final-documentation-report.md"
+  - "./final-success-report.md"
+  - "./fixcity-improvement-progress-1.md"
 ---
 
 # ✅ Design Comuni Replication - PROGRESS REPORT #1

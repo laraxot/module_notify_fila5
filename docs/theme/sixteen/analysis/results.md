@@ -13,6 +13,12 @@ related:
   - "./index.md"
   - "./status.md"
   - "./visual-comparison.md"
+related:
+  - "./body-structure-parity.md"
+  - "./homepage-comparison.md"
+  - "./index.md"
+  - "./status.md"
+  - "./visual-comparison.md"
 ---
 
 # Homepage Visual Comparison - RESULTS

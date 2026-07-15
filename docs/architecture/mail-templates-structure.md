@@ -16,6 +16,15 @@ related:
   - "./interface-structure-clarification.md"
   - "./queueable-action-pattern.md"
   - "./sms-config-structure.md"
+related:
+  - "./config-structure.md"
+  - "./document-root-architecture.md"
+  - "./dto-structure-conventions.md"
+  - "./dto-structure-rules.md"
+  - "./interface-structure-clarification.md"
+  - "./queueable-action-pattern.md"
+  - "./sms-config-structure.md"
+  - "./standardized-sms-config-structure.md"
 ---
 
 # Struttura Template Email

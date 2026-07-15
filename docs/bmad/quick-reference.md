@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./antigravity-integration.md"
   - "./setup-guide.md"
+related:
+  - "./antigravity-integration.md"
+  - "./setup-guide.md"
 ---
 
 # bmad method: quick reference (fixcity)

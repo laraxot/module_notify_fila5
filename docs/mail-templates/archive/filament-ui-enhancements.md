@@ -16,6 +16,15 @@ related:
   - "./filament-slug-generation.md"
   - "./html-email-compatibility.md"
   - "./implementation-notes.md"
+related:
+  - "./email-best-practices.md"
+  - "./email-layouts-best-practices.md"
+  - "./email-templates-best-practices.md"
+  - "./email-templates-guide.md"
+  - "./email-templates-update.md"
+  - "./filament-slug-generation.md"
+  - "./html-email-compatibility.md"
+  - "./implementation-notes.md"
 ---
 
 # Miglioramenti UI/UX per MailTemplateResource

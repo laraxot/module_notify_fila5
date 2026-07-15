@@ -16,6 +16,15 @@ related:
   - "./mail-templates-structure.md"
   - "./queueable-action-pattern.md"
   - "./sms-config-structure.md"
+related:
+  - "./config-structure.md"
+  - "./document-root-architecture.md"
+  - "./dto-structure-rules.md"
+  - "./interface-structure-clarification.md"
+  - "./mail-templates-structure.md"
+  - "./queueable-action-pattern.md"
+  - "./sms-config-structure.md"
+  - "./standardized-sms-config-structure.md"
 ---
 
 # Convenzioni per la Struttura dei DTO nel Modulo Notify

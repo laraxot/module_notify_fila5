@@ -12,6 +12,15 @@ discussions:
 related:
   - claude-audit-static.md
   - ../../../../docs/wiki/rules/queueable-action-trait-mandatory.md
+related:
+  - "./claude-audit-static.md"
+  - "./code-redundancy-notify.md"
+  - "./composer-root-minimal-nwidart.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-standards.md"
+  - "./llm-wiki-governance.md"
+  - "./method-name-homonyms.md"
+  - "./module-root-uppercase-folders-archive.md"
 ---
 
 # Notify — `PushNotificationService` eliminato

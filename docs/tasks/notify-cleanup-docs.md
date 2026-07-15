@@ -15,6 +15,14 @@ related:
   - "./notify-filament-v5.md"
   - "./notify-test-coverage.md"
   - "./tasks-index.md"
+related:
+  - "./001-notification-system.md"
+  - "./cleanup-notify-docs.md"
+  - "./filament-v5-notify.md"
+  - "./notification-system.md"
+  - "./notify-filament-v5.md"
+  - "./notify-test-coverage.md"
+  - "./tasks-index.md"
 ---
 
 # Task: Notify Docs Cleanup

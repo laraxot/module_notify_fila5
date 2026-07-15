@@ -9,6 +9,15 @@ issues: []
 discussions: []
 related:
   - ./coding-agent-manifests.md
+related:
+  - "./bmad-method.md"
+  - "./index.md"
+  - "./log.md"
+  - "./notify-conflict-check-.md"
+  - "./notify-conflict-check-2026-04-21.md"
+  - "./notify-conflict-check.md"
+  - "./notify-restore-.md"
+  - "./notify-restore-2026-04-21.md"
 ---
 
 # LLM Wiki Agent Instructions

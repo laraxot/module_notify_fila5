@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./build-lint-test-commands.md"
   - "./quick-commands.md"
+related:
+  - "./build-lint-test-commands.md"
+  - "./quick-commands.md"
 ---
 
 # 📋 02 tooling Index

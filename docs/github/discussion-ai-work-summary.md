@@ -16,6 +16,14 @@ related:
   - "./issue-subtree-sync-test.md"
   - "./sync-remote-repo-docs-summary.md"
   - "./sync-remote-repo-test-plan.md"
+related:
+  - "./fix-is-ci-context-not-found.md"
+  - "./github-action-setup-required.md"
+  - "./github-actions-fix-report.md"
+  - "./issue-multi-agent-collaboration.md"
+  - "./issue-subtree-sync-test.md"
+  - "./sync-remote-repo-docs-summary.md"
+  - "./sync-remote-repo-test-plan.md"
 ---
 
 # 🤖 AI Agent Work Summary - GitHub Actions & Documentation

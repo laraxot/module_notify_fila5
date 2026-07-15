@@ -12,6 +12,11 @@ related:
   - "./chart-widgets.md"
   - "./filament.md"
   - "./tenant-config.md"
+related:
+  - "./00-index.md"
+  - "./chart-widgets.md"
+  - "./filament.md"
+  - "./tenant-config.md"
 ---
 
 # Quick Reference - Queue / Jobs

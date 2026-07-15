@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./analysis.md"
   - "./migration-guide.md"
+related:
+  - "./analysis.md"
+  - "./migration-guide.md"
 ---
 
 # 📦 Archive Manifest - Roadmap Consolidation

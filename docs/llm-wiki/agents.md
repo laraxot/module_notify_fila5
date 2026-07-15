@@ -9,6 +9,9 @@ issues: []
 discussions: []
 related:
   - ./coding-agent-manifests.md
+related:
+  - "./index.md"
+  - "./log.md"
 ---
 
 # Notify {{TYPE^}} LLM Wiki Agent Instructions

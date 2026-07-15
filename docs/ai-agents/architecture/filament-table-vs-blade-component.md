@@ -11,6 +11,10 @@ related:
   - "./00-index.md"
   - "./agents-filament-widgets.md"
   - "./ralph-gsd-bmad-orchestration.md"
+related:
+  - "./00-index.md"
+  - "./agents-filament-widgets.md"
+  - "./ralph-gsd-bmad-orchestration.md"
 ---
 
 # 🎯 Filament Table vs Blade Component - Decision Guide

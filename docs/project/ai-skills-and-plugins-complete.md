@@ -16,6 +16,15 @@ related:
   - "./ai-agent-lessons-learned.md"
   - "./commit-message.md"
   - "./configuration.md"
+related:
+  - "./2-1-1-plan.md"
+  - "./2-1-context.md"
+  - "./agents.md"
+  - "./ai-agent-lessons-learned.md"
+  - "./commit-message.md"
+  - "./configuration.md"
+  - "./design-comuni-bmad-master-plan.md"
+  - "./docs-governance.md"
 ---
 
 # ✅ AI Skills & Plugins - COMPLETE

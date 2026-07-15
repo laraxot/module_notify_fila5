@@ -10,6 +10,8 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./README.md"
   - "./claude-boost-snapshot.md"
+related:
+  - "./claude-boost-snapshot.md"
 ---
 
 # Raw Sources — Notify

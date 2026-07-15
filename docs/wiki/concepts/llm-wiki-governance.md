@@ -16,6 +16,15 @@ related:
   - "./enum-standards.md"
   - "./method-name-homonyms.md"
   - "./module-root-uppercase-folders-archive.md"
+related:
+  - "./claude-audit-static.md"
+  - "./code-redundancy-notify.md"
+  - "./composer-root-minimal-nwidart.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-standards.md"
+  - "./method-name-homonyms.md"
+  - "./module-root-uppercase-folders-archive.md"
+  - "./no-app-support-queueable-actions.md"
 ---
 
 # LLM Wiki Governance

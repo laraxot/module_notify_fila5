@@ -10,6 +10,8 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./README.md"
   - "./resource-rules.md"
+related:
+  - "./resource-rules.md"
 ---
 
 # Convenzioni per Form Schema in Filament

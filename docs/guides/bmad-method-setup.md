@@ -8,6 +8,7 @@ qmd: "bmad-method-setup bmad method - guida installazione e configurazione"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related: []
+related:
 ---
 
 # BMAD Method - Guida Installazione e Configurazione

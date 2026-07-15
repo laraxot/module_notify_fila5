@@ -9,6 +9,8 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./summary.md"
+related:
+  - "./summary.md"
 ---
 
 # Fix: Infinite Loop in User Creation (make:filament-user)

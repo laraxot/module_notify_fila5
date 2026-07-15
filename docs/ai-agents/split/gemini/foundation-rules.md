@@ -16,6 +16,15 @@ related:
   - "./folio-rules.md"
   - "./laravel-core-rules.md"
   - "./laravel-v12-rules.md"
+related:
+  - "./boost-integration.md"
+  - "./boost-rules.md"
+  - "./filament-rules.md"
+  - "./fluxui-rules.md"
+  - "./folio-rules.md"
+  - "./laravel-core-rules.md"
+  - "./laravel-v12-rules.md"
+  - "./pennant-rules.md"
 ---
 
 === foundation rules ===

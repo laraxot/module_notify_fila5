@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./index.md"
   - "./master-index.md"
+related:
+  - "./index.md"
+  - "./master-index.md"
 ---
 
 # Report Aggiornamento Documentazione Design Comuni FAQ

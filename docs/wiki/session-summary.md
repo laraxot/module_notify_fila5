@@ -16,6 +16,15 @@ related:
   - "./log.md"
   - "./notify-conflict-check-.deprecated.md.md"
   - "./notify-conflict-check.md"
+related:
+  - "./agents.md"
+  - "./bmad-method.md"
+  - "./index.md"
+  - "./log.md"
+  - "./notify-conflict-check-.md"
+  - "./notify-conflict-check-2026-04-21.md"
+  - "./notify-conflict-check.md"
+  - "./notify-restore-.md"
 ---
 
 # LLM Wiki Integration - Session Summary

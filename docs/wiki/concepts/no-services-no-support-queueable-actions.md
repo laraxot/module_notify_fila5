@@ -11,6 +11,15 @@ related:
   - notify-services-support-to-actions.md
   - services-to-actions-migration.md
   - ../../../Xot/docs/wiki/concepts/queueable-action-trait-mandatory.md
+related:
+  - "./claude-audit-static.md"
+  - "./code-redundancy-notify.md"
+  - "./composer-root-minimal-nwidart.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-standards.md"
+  - "./llm-wiki-governance.md"
+  - "./method-name-homonyms.md"
+  - "./module-root-uppercase-folders-archive.md"
 ---
 
 # Notify — Services/Support vietati: solo Actions

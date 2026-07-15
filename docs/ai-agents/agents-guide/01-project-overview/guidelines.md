@@ -11,6 +11,10 @@ related:
   - "./00-index.md"
   - "./links.md"
   - "./project-overview.md"
+related:
+  - "./00-index.md"
+  - "./links.md"
+  - "./project-overview.md"
 ---
 
 # Guidelines for Claude/Gemini

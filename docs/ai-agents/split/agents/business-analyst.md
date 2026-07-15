@@ -16,6 +16,15 @@ related:
   - "./product-manager.md"
   - "./product-owner.md"
   - "./scrum-master.md"
+related:
+  - "./architect.md"
+  - "./bmad-master.md"
+  - "./bmad-orchestrator.md"
+  - "./full-stack-developer.md"
+  - "./product-manager.md"
+  - "./product-owner.md"
+  - "./scrum-master.md"
+  - "./test-architect.md"
 ---
 
 ### Business Analyst (id: analyst)

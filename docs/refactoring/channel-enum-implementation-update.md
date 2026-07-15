@@ -16,6 +16,15 @@ related:
   - "./record-notification-constructor-slug.md"
   - "./record-notification-zen-constructor.md"
   - "./record-notification-zen-delegation.md"
+related:
+  - "./channel-enum-implementation-complete.md"
+  - "./channel-enum-refactoring.md"
+  - "./extract-method-pattern.md"
+  - "./final-verification-report-channel-enum.md"
+  - "./quality-assurance-report.md"
+  - "./record-notification-constructor-slug.md"
+  - "./record-notification-zen-constructor.md"
+  - "./record-notification-zen-delegation.md"
 ---
 
 # ChannelEnum Implementation Update

@@ -11,6 +11,10 @@ related:
   - "./00-index.md"
   - "./filament-table-vs-blade-component.md"
   - "./ralph-gsd-bmad-orchestration.md"
+related:
+  - "./00-index.md"
+  - "./filament-table-vs-blade-component.md"
+  - "./ralph-gsd-bmad-orchestration.md"
 ---
 
 # 🏛 Filament Widgets Architecture

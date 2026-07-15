@@ -16,6 +16,15 @@ related:
   - "./full-stack-developer.md"
   - "./product-manager.md"
   - "./scrum-master.md"
+related:
+  - "./architect.md"
+  - "./bmad-master.md"
+  - "./bmad-orchestrator.md"
+  - "./business-analyst.md"
+  - "./full-stack-developer.md"
+  - "./product-manager.md"
+  - "./scrum-master.md"
+  - "./test-architect.md"
 ---
 
 ### Product Owner (id: po)

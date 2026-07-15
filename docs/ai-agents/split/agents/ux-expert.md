@@ -16,6 +16,15 @@ related:
   - "./full-stack-developer.md"
   - "./product-manager.md"
   - "./product-owner.md"
+related:
+  - "./architect.md"
+  - "./bmad-master.md"
+  - "./bmad-orchestrator.md"
+  - "./business-analyst.md"
+  - "./full-stack-developer.md"
+  - "./product-manager.md"
+  - "./product-owner.md"
+  - "./scrum-master.md"
 ---
 
 ### UX Expert (id: ux-expert)

@@ -16,6 +16,15 @@ related:
   - "./create-brownfield-story.md"
   - "./create-deep-research-prompt.md"
   - "./create-doc.md"
+related:
+  - "./advanced-elicitation.md"
+  - "./apply-qa-fixes.md"
+  - "./brownfield-create-epic.md"
+  - "./correct-course.md"
+  - "./create-brownfield-story.md"
+  - "./create-deep-research-prompt.md"
+  - "./create-doc.md"
+  - "./create-next-story.md"
 ---
 
 ### Task: brownfield-create-story

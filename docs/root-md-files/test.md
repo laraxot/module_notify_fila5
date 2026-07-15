@@ -16,5 +16,14 @@ related:
   - "./links.md"
   - "./login.md"
   - "./notifications.md"
+related:
+  - "./changelog.md"
+  - "./design-conversion-roadmap.md"
+  - "./files-created-session-007.md"
+  - "./firebase.md"
+  - "./links.md"
+  - "./login.md"
+  - "./notifications.md"
+  - "./qwen.md"
 ---
 

@@ -16,6 +16,15 @@ related:
   - "./mail-templates-structure.md"
   - "./queueable-action-pattern.md"
   - "./sms-config-structure.md"
+related:
+  - "./config-structure.md"
+  - "./document-root-architecture.md"
+  - "./dto-structure-conventions.md"
+  - "./dto-structure-rules.md"
+  - "./mail-templates-structure.md"
+  - "./queueable-action-pattern.md"
+  - "./sms-config-structure.md"
+  - "./standardized-sms-config-structure.md"
 ---
 
 # Chiarimento sulla Struttura delle Interfacce 

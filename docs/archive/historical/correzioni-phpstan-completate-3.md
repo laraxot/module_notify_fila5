@@ -16,5 +16,14 @@ related:
   - "./analisi-dettagliata-2.md"
   - "./analisi-dettagliata-3.md"
   - "./analisi-dettagliata-4-1.md"
+related:
+  - "./acronym-naming-conventions-1.md"
+  - "./actions-calling-actions-pattern.md"
+  - "./advanced-template-system.md"
+  - "./analisi-completa.md"
+  - "./analisi-dettagliata-1.md"
+  - "./analisi-dettagliata-2.md"
+  - "./analisi-dettagliata-3.md"
+  - "./analisi-dettagliata-4-1.md"
 ---
 

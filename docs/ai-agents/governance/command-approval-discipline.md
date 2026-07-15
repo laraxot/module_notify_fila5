@@ -9,6 +9,8 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./reusable-components-and-indexes.md"
+related:
+  - "./reusable-components-and-indexes.md"
 ---
 
 # Command Approval Discipline

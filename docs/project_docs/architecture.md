@@ -16,6 +16,15 @@ related:
   - "./agid-implementation-guide.md"
   - "./complete-refactoring-analysis.md"
   - "./documentation-status.md"
+related:
+  - "./2025-excellence-achievement.md"
+  - "./FINAL_IMPLEMENTATION_REPORT_2025-10-02.md"
+  - "./IMPLEMENTATION_STATUS_2025-10-02.md"
+  - "./agid-implementation-guide.md"
+  - "./complete-refactoring-analysis.md"
+  - "./documentation-status.md"
+  - "./final-implementation-report-.md"
+  - "./final-implementation-report.md"
 ---
 
 # FixCity - Architecture Documentation

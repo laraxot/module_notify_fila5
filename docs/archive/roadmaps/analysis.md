@@ -10,6 +10,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./manifest.md"
   - "./migration-guide.md"
+related:
+  - "./manifest.md"
+  - "./migration-guide.md"
 ---
 
 # 📋 Consolidation Analysis - Phase 11 Wave 1

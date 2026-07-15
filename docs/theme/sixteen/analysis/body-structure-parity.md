@@ -13,6 +13,12 @@ related:
   - "./results.md"
   - "./status.md"
   - "./visual-comparison.md"
+related:
+  - "./homepage-comparison.md"
+  - "./index.md"
+  - "./results.md"
+  - "./status.md"
+  - "./visual-comparison.md"
 ---
 
 # Body Structure Parity Bridge

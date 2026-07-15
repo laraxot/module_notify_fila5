@@ -11,6 +11,10 @@ related:
   - "./analisi-visiva.md"
   - "./fix-plan.md"
   - "./screenshot-analysis.md"
+related:
+  - "./analisi-visiva.md"
+  - "./fix-plan.md"
+  - "./screenshot-analysis.md"
 ---
 
 # 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia

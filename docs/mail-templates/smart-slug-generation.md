@@ -16,6 +16,15 @@ related:
   - "./email-templates-best-practices-1.md"
   - "./email-templates-best-practices.md"
   - "./email-templates-guide-1.md"
+related:
+  - "./attachments.md"
+  - "./email-best-practices-1.md"
+  - "./email-best-practices.md"
+  - "./email-layouts-best-practices-1.md"
+  - "./email-layouts-best-practices.md"
+  - "./email-templates-best-practices-1.md"
+  - "./email-templates-best-practices.md"
+  - "./email-templates-guide-1.md"
 ---
 
 # Generazione Intelligente di Slug in Filament

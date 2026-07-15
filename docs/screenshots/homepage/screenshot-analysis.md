@@ -11,6 +11,10 @@ related:
   - "./analisi-colori-header-footer.md"
   - "./analisi-visiva.md"
   - "./fix-plan.md"
+related:
+  - "./analisi-colori-header-footer.md"
+  - "./analisi-visiva.md"
+  - "./fix-plan.md"
 ---
 
 # 📸 Screenshot Analysis - Homepage FixCity

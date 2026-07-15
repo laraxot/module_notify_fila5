@@ -16,6 +16,15 @@ related:
   - "./interface-structure-clarification.md"
   - "./mail-templates-structure.md"
   - "./queueable-action-pattern.md"
+related:
+  - "./config-structure.md"
+  - "./document-root-architecture.md"
+  - "./dto-structure-conventions.md"
+  - "./dto-structure-rules.md"
+  - "./interface-structure-clarification.md"
+  - "./mail-templates-structure.md"
+  - "./queueable-action-pattern.md"
+  - "./standardized-sms-config-structure.md"
 ---
 
 # Struttura della Configurazione SMS 

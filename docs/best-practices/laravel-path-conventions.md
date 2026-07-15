@@ -16,6 +16,15 @@ related:
   - "./kdown-linking-conventions.md"
   - "./markdown-linking-conventions.md"
   - "./naming-conventions.md"
+related:
+  - "./acronym-naming-conventions.md"
+  - "./filament-naming-conventions.md"
+  - "./filament-template-conventions.md"
+  - "./form-schema-conventions.md"
+  - "./inheritance-conventions.md"
+  - "./kdown-linking-conventions.md"
+  - "./markdown-linking-conventions.md"
+  - "./naming-conventions.md"
 ---
 
 # Convenzioni dei Path in Laravel e 

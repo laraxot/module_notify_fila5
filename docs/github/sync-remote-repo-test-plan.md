@@ -16,6 +16,14 @@ related:
   - "./issue-multi-agent-collaboration.md"
   - "./issue-subtree-sync-test.md"
   - "./sync-remote-repo-docs-summary.md"
+related:
+  - "./discussion-ai-work-summary.md"
+  - "./fix-is-ci-context-not-found.md"
+  - "./github-action-setup-required.md"
+  - "./github-actions-fix-report.md"
+  - "./issue-multi-agent-collaboration.md"
+  - "./issue-subtree-sync-test.md"
+  - "./sync-remote-repo-docs-summary.md"
 ---
 
 # Sync Remote Repo - Test Plan
