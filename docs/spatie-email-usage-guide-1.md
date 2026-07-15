@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Guida all'utilizzo di SpatieEmail
@@ -27,8 +27,8 @@ Questa guida illustra come utilizzare la classe `SpatieEmail` per inviare email 
 ## Collegamenti correlati
 
 - [README del modulo Notify](./README.md)
-- [Documentazione Email Templates](./EMAIL_TEMPLATES.md)
-- [Email Specifiche per Dottori](./DOCTOR_EMAILS.md)
+- [Documentazione Email Templates](./email-templates.md)
+- [Email Specifiche per Dottori](./doctor-emails.md)
 - [Implementazione Database Mail](./database-mail.md)
 - [Documentazione Centrale](../../../../docs/collegamenti-documentazione.md)
 - [Modulo Xot](../../../Xot/docs/README.md)

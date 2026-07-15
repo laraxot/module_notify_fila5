@@ -8,14 +8,14 @@ qmd: "riepilogo-generale riepilogo generale - phpstan level 10 compliance"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./PHPSTAN_194_ERRORS_ANALYSIS_2026-03-02.md"
-  - "./PHPSTAN_ANALYSIS_2026-03-02.md"
-  - "./PHPSTAN_ANALYSIS_SUMMARY_2026-03-02.md"
-  - "./PHPSTAN_FINAL_STATUS_2026-03-02.md"
-  - "./PHPSTAN_GLOBAL_SUMMARY_2026-03-02.md"
-  - "./PHPSTAN_PROGRESS_UPDATE_2026-03-02.md"
-  - "./PHPSTAN_SESSION_2026-03-02_SESSION2.md"
-  - "./PHPSTAN_SESSION_4_5_SUMMARY_2026-03-02.md"
+  - "./achievement-sessione-.md"
+  - "./achievement-sessione-1.md"
+  - "./achievement-sessione.md"
+  - "./documentazione-aggiornata-.md"
+  - "./documentazione-aggiornata-1.md"
+  - "./documentazione-aggiornata.md"
+  - "./filament-v4-fixes-session.md"
+  - "./final-report-session-.md"
 ---
 
 # Riepilogo Generale - PHPStan Level 10 Compliance
@@ -60,7 +60,7 @@ Portare **TUTTI i moduli del progetto** a PHPStan Level 10 con **0 errori**, inc
 ## 📚 Documentazione Consolidata
 
 ### Guide Principali
-- [Lezioni Apprese](./lezioni-apprese-.md.md) - Tutte le lezioni dalla correzione Activity + Blog
+- [Lezioni Apprese](./lezioni-apprese.md) - Tutte le lezioni dalla correzione Activity + Blog
 - [Pattern Comuni](./pattern-comuni.md) - Pattern riutilizzabili per tutti i moduli
 - [Regola Critica Test](../regole-critiche/phpstan-test-mai-escludere.md) - MAI escludere test
 
@@ -294,7 +294,7 @@ echo "✅ PHPStan OK - Procedo con commit"
 ## 📖 Riferimenti
 
 ### Documentazione Interna
-- [Lezioni Apprese](./lezioni-apprese-.md.md)
+- [Lezioni Apprese](./lezioni-apprese.md)
 - [Pattern Comuni](./pattern-comuni.md)
 - [Regola Critica Test](../regole-critiche/phpstan-test-mai-escludere.md)
 
@@ -317,7 +317,7 @@ echo "✅ PHPStan OK - Procedo con commit"
 - ✅ Best practices documentate
 
 ### Checklist Onboarding
-- [ ] Leggere [Lezioni Apprese](./lezioni-apprese-.md.md)
+- [ ] Leggere [Lezioni Apprese](./lezioni-apprese.md)
 - [ ] Studiare [Pattern Comuni](./pattern-comuni.md)
 - [ ] Eseguire PHPStan su modulo
 - [ ] Correggere errori seguendo pattern

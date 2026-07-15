@@ -808,7 +808,7 @@ class ConsentLog extends Model
 
 ## Collegamenti alla Documentazione Correlata
 
-- [MULTI_CHANNEL_NOTIFICATIONS.md](./MULTI_CHANNEL_NOTIFICATIONS.md)
-- [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
-- [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
-- [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
+- [MULTI_CHANNEL_NOTIFICATIONS.md](./multi-channel-notifications.md)
+- [SMS_PROVIDER_CONFIGURATION.md](./sms-provider-configuration.md)
+- [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./notifications-implementation-guide.md)
+- [TELEGRAM_NOTIFICATIONS_GUIDE.md](./telegram-notifications-guide.md)

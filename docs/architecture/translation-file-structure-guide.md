@@ -168,7 +168,7 @@ return [
 ```
 
 ## Riferimenti
-- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
 - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
-- [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
+- [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
 - [Regole Generali per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_RULES.md)

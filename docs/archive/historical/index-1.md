@@ -107,7 +107,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Code Email](./database-mail-queue-2.md) - Sistema di code per l'invio di email
 - [Template Email](./email-templates.md) - Struttura e utilizzo dei template email
 - [Best Practices Email](./email-best-practices-1.md) - Linee guida per le email
-- [Template Responsivi](./responsive_email-templates.md) - Implementazione di template email responsivi
+- [Template Responsivi](./responsive-email-templates.md) - Implementazione di template email responsivi
 
 ### Canali di Notifica
 - [Implementazione Canali](./notification-channels-implementation-2.md) - Implementazione dei canali di notifica
@@ -122,7 +122,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Configurazione
 - [Struttura Config](./config-structure.md) - Struttura dei file di configurazione
-- [Configurazione SMS](./sms_config-structure.md) - Struttura della configurazione SMS
+- [Configurazione SMS](./sms-config-structure.md) - Struttura della configurazione SMS
 - [Principi di Configurazione](./configurations-usage-principles-1.md) - Principi per l'utilizzo delle configurazioni
 
 ### Pattern e Architettura
@@ -137,7 +137,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ### Testing e Qualità
 - [PHPStan Level 10](./phpstan-level10-analysis.md) - Analisi e correzioni per PHPStan Level 10
-- [Quality Improvements](./quality-improvements-2025-01-06.md) - Riepilogo miglioramenti qualità codice
+- [Quality Improvements](./quality-improvements.md) - Riepilogo miglioramenti qualità codice
 - [Migration Fixes Summary](./migration-fixes-summary.md) - Correzioni migrazioni e server
 - [Troubleshooting](./troubleshooting.md) - Risoluzione problemi comuni (ParseError, PHPStan, etc.)
 - [Testing](./testing.md) - Strategie e approcci per il testing

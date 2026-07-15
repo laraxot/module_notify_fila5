@@ -37,9 +37,9 @@ related:
 ### ✅ CORRETTO: Percorsi Relativi
 
 ```markdown
-[Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
-[Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
-[Architettura dei Contratti](./CONTRACTS_architecture.md)
+[Convenzioni di Naming per le Interfacce](./interface-naming-convention.md)
+[Chiarimento sulla Struttura delle Interfacce](./interface-structure-clarification.md)
+[Architettura dei Contratti](./contracts-architecture.md)
 ```
 
 Per collegamenti a documenti in altre directory:

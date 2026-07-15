@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Architettura delle Pagine di Risorse Filament 
@@ -133,6 +133,6 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 ## Riferimenti
 
 - [Filament Resources Documentation](https://filamentphp.com/docs/3.x/panels/resources/getting-started)
-- [SaluteOra XotBase Architecture](./FILAMENT_XOT_architecture.md)
+- [SaluteOra XotBase Architecture](./filament-xot-architecture.md)
 - [SaluteOra XotBase Architecture](./filament-xot-architecture.md)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)

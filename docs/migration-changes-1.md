@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Modifiche alla Migrazione Mail Templates
@@ -109,7 +109,7 @@ related:
 
 ## Collegamenti Correlati
 
-- [Regole Migrazioni](./MIGRATION_RULES.md)
-- [Documentazione Template](./EMAIL_TEMPLATES.md)
+- [Regole Migrazioni](./migration-rules.md)
+- [Documentazione Template](./email-templates.md)
 - [Best Practices Database](../../../docs/best-practices/database.md)
-- [Proposta Slug Template](./EMAIL_TEMPLATE_SLUG_PROPOSAL.md) 
+- [Proposta Slug Template](./email-template-slug-proposal.md) 

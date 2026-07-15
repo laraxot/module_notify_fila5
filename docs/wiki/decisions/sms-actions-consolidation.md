@@ -8,7 +8,7 @@ qmd: "sms-actions-consolidation-2026-06-30 deprecated"
 status: deprecated
 related:
   - "./sms-actions-consolidation-.md"
-  - "./sms-actions-consolidation-2026-06-30.md"
+  - "./sms-actions-consolidation-1.md"
 ---
 
 > Questo file è stato rinominato in [sms-actions-consolidation.md](sms-actions-consolidation.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

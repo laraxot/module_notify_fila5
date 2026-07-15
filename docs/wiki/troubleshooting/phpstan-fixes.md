@@ -9,7 +9,7 @@ tags: [phpstan, notify, data, action]
 related:
   - "./phpstan-fixes-.md"
   - "./phpstan-fixes-1.md"
-  - "./phpstan-fixes-2026-05-06.md"
+  - "./phpstan-fixes-2.md"
 ---
 
 # PHPStan Fixes - 2026-05-06

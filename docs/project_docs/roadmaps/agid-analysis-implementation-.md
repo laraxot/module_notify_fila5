@@ -7,14 +7,14 @@ updated: 2026-07-14
 qmd: "agid_analysis_implementation_2025-10-02.deprecated deprecated"
 status: deprecated
 related:
-  - "./AGID_ANALYSIS_IMPLEMENTATION_2025-10-02.md"
-  - "./CHANGELOG-docs-update-2025-10-01.md"
-  - "./CODE_QUALITY_IMPROVEMENTS_2025-10-01.md"
-  - "./COMPLETION_SUMMARY_2025-10-01.md"
-  - "./FINAL_COMPLETION_REPORT_2025-10-01.md"
-  - "./IMPLEMENTATION_REPORT_2025-10-01.md"
-  - "./MODULES_VALIDATION_REPORT_2025-10-02.md"
-  - "./PERFECT_COMPLETION_REPORT_2025-10-02.md"
+  - "./agid-analysis-implementation-1.md"
+  - "./agid-analysis-implementation.md"
+  - "./changelog-docs-update-.md"
+  - "./changelog-docs-update-1.md"
+  - "./changelog-docs-update.md"
+  - "./code-quality-improvements-.md"
+  - "./code-quality-improvements-1.md"
+  - "./code-quality-improvements.md"
 ---
 
 > Questo file è stato rinominato in [agid-analysis-implementation-.deprecated.md](agid-analysis-implementation-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

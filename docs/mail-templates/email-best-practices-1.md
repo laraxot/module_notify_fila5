@@ -135,6 +135,6 @@ $mailTemplate->send($user->email, [
 ## Riferimenti
 
 - [Guida Layout Email](../MAIL_LAYOUTS_GUIDE.md)
-- [Integrazione MailPace](./MAILPACE_TEMPLATES_INTEGRATION.md)
-- [HTML Email Compatibility](./HTML_EMAIL_COMPATIBILITY.md)
+- [Integrazione MailPace](./mailpace-templates-integration.md)
+- [HTML Email Compatibility](./html-email-compatibility.md)
 - [Spatie Email Usage Guide](../SPATIE_EMAIL_USAGE_GUIDE.md)

@@ -808,6 +808,6 @@ TELEGRAM_BOT_TOKEN=12345:ABC...
 
 ## Collegamenti alla Documentazione Correlata
 
-- [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./notifications_implementation-guide-1.md)
+- [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./notifications-implementation-guide-1.md)
 - [SMS_PROVIDER_CONFIGURATION.md](./sms-provider-configuration-2.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./telegram-notifications-guide-1.md)

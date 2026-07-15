@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Guida alle Traduzioni nel Modulo Notify
@@ -194,8 +194,8 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 - [Regole Generali per le Chiavi di Traduzione](../../lang/docs/translation-keys-rules-1.md)
 - [Best Practices per le Chiavi di Traduzione](../../lang/docs/translation-keys-best-practices-1.md)
 - [Standard per le Traduzioni ](./translation-standards-2.md)
-- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
-- [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
+- [Standard per le Traduzioni ](./translation-standards.md)

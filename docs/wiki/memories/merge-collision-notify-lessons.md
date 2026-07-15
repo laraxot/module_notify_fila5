@@ -5,7 +5,7 @@ module: Notify
 updated: 2026-05-26
 related:
   - "./phpstan-pest-patterns-.md"
-  - "./phpstan-pest-patterns-2026-07-06.md"
+  - "./phpstan-pest-patterns-1.md"
   - "./phpstan-pest-patterns.md"
 ---
 

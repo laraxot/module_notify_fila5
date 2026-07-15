@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # 🏆 PROGETTO FIXCITY - 100% COMPLETATO!
@@ -339,7 +339,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ## 📚 GUIDA RAPIDA ALLA DOCUMENTAZIONE
 
 ### 🌟 START HERE
-**[→ ANALISI COMPLETA](./ANALISI-COMPLETA-.md.md)** - Executive Summary del progetto
+**[→ ANALISI COMPLETA](./analisi-completa.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
 **[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
@@ -547,7 +547,7 @@ php artisan queue:work --queue=high,notifications,default
 
 - [← Torna all'Indice](./index.md)
 - [← Master Roadmap](./roadmap-master-index.md)
-- [← Analisi Completa](./ANALISI-COMPLETA-.md.md)
+- [← Analisi Completa](./analisi-completa.md)
 
 ---
 

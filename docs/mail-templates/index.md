@@ -33,7 +33,7 @@ related:
 - [Struttura Layout](./layout-structure-1.md) - Struttura dei layout email
 - [Best Practices Layout](./email-layouts-best-practices-1.md) - Best practices per i layout email
 - [Struttura Migration](./migration-structure-1.md) - Struttura delle migrazioni per i template
-- [Struttura Spatie Mail Templates](./spatie_mail-templates-structure-1.md) - Struttura dei template con Spatie
+- [Struttura Spatie Mail Templates](./spatie-mail-templates-structure-1.md) - Struttura dei template con Spatie
 
 ## Implementazione Slug
 - [Implementazione Campo Slug](./slug-field-implementation-1.md) - Implementazione del campo slug nei template

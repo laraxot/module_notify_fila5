@@ -149,8 +149,8 @@ I template nella directory `mail-layouts` seguono queste linee guida di compatib
 ## Riferimenti
 
 - [Guida ai Layout Email](../MAIL_LAYOUTS_GUIDE.md)
-- [Integrazione MailPace](./MAILPACE_TEMPLATES_INTEGRATION.md)
+- [Integrazione MailPace](./mailpace-templates-integration.md)
 - [Guida ai Layout Email](../MAIL_LAYOUTS_GUIDE.md)
-- [Integrazione MailPace](./MAILPACE_TEMPLATES_INTEGRATION.md)
+- [Integrazione MailPace](./mailpace-templates-integration.md)
 - [Campaign Monitor Guide](https://www.campaignmonitor.com/css/)
 - [Email Client Market Share](https://emailclientmarketshare.com/)

@@ -11,10 +11,10 @@ related:
   - "./bmad-method.md"
   - "./index.md"
   - "./log.md"
-  - "./notify-conflict-check-2026-04-21.md"
+  - "./notify-conflict-check-1.md"
   - "./notify-conflict-check.md"
   - "./notify-restore-.md"
-  - "./notify-restore-2026-04-21.md"
+  - "./notify-restore-1.md"
 ---
 
 > Questo file è stato rinominato in [notify-conflict-check-.deprecated.md](notify-conflict-check-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

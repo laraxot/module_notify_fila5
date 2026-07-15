@@ -7,8 +7,8 @@ updated: 2026-07-14
 qmd: "bugfix_report_2025-01-14 deprecated"
 status: deprecated
 related:
-  - "./BUGFIX_REPORT_2025-01-14.md"
   - "./bugfix-report-.md"
+  - "./bugfix-report-1.md"
   - "./design-comuni-progress-1.md"
   - "./document-root-update-summary.md"
   - "./documentation-update-complete.md"

@@ -12,7 +12,7 @@ related:
   - "./index.md"
   - "./log.md"
   - "./notify-conflict-check-.md"
-  - "./notify-conflict-check-2026-04-21.md"
+  - "./notify-conflict-check-1.md"
   - "./notify-conflict-check.md"
   - "./notify-restore-.md"
 ---

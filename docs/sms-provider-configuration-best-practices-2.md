@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Best Practices per la Configurazione dei Provider SMS
@@ -135,7 +135,7 @@ $token = config('services.netfun.token');
 - [SMS Implementation](./sms-implementation-1.md)
 - [SMS Best Practices](./sms-best-practices-1.md)
 - [Netfun Authentication Methods](./netfun-authentication-methods-1.md)
-- [SMS Provider Architecture](./SMS_PROVIDER_architecture.md)
-- [SMS Implementation](./SMS_IMPLEMENTATION.md)
-- [SMS Best Practices](./SMS_BEST_PRACTICES.md)
-- [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
+- [SMS Provider Architecture](./sms-provider-architecture.md)
+- [SMS Implementation](./sms-implementation.md)
+- [SMS Best Practices](./sms-best-practices.md)
+- [Netfun Authentication Methods](./netfun-authentication-methods.md)

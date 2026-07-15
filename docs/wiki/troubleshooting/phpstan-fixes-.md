@@ -8,7 +8,7 @@ qmd: "phpstan-fixes-2026-05-06.deprecated deprecated"
 status: deprecated
 related:
   - "./phpstan-fixes-1.md"
-  - "./phpstan-fixes-2026-05-06.md"
+  - "./phpstan-fixes-2.md"
   - "./phpstan-fixes.md"
 ---
 

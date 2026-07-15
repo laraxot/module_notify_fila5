@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Struttura Template Email
@@ -140,10 +140,10 @@ $attachments = [
 ## Collegamenti Correlati
 
 - [Documentazione MailPace](https://github.com/mailpace/templates)
-- [Best Practices Email HTML](./EMAIL_HTML_BEST_PRACTICES.md)
-- [Guida Testing](./EMAIL_TESTING.md)
-- [Best Practices Email HTML](./EMAIL_HTML_BEST_PRACTICES.md)
-- [Guida Testing](./EMAIL_TESTING.md)
+- [Best Practices Email HTML](./email-html-best-practices.md)
+- [Guida Testing](./email-testing.md)
+- [Best Practices Email HTML](./email-html-best-practices.md)
+- [Guida Testing](./email-testing.md)
 
 ## Supporto
 

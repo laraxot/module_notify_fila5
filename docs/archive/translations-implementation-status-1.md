@@ -140,7 +140,7 @@ Per garantire la coerenza futura, si raccomanda di:
 
 ## Collegamenti Correlati
 
-- [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-- [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
+- [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+- [Chiarimento sulle Convenzioni di Traduzione](./translation-conventions-clarification.md)
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)

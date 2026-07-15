@@ -8,7 +8,7 @@ qmd: "phpstan-pest-patterns-2026-07-06.deprecated deprecated"
 status: deprecated
 related:
   - "./merge-collision-notify-lessons.md"
-  - "./phpstan-pest-patterns-2026-07-06.md"
+  - "./phpstan-pest-patterns-1.md"
   - "./phpstan-pest-patterns.md"
 ---
 

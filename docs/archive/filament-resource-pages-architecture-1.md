@@ -133,5 +133,5 @@ find Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec 
 ## Riferimenti
 
 - [Filament Resources Documentation](https://filamentphp.com/docs/3.x/panels/resources/getting-started)
-- [<nome progetto> XotBase Architecture](./FILAMENT_XOT_architecture.md)
+- [<nome progetto> XotBase Architecture](./filament-xot-architecture.md)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)

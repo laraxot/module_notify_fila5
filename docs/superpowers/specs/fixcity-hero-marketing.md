@@ -7,8 +7,8 @@ updated: 2026-07-14
 qmd: "2026-03-30-fixcity-hero-marketing deprecated"
 status: deprecated
 related:
-  - "./2026-03-30-fixcity-hero-marketing.md"
-  - "./2026-04-15-llm-wiki-layout-design.md"
+  - "./fixcity-hero-marketing-1.md"
+  - "./llm-wiki-layout-design-1.md"
   - "./llm-wiki-layout-design.md"
   - "./segnalazione-wizard-design.md"
 ---

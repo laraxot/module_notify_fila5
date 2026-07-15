@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Sistema di Email Template
@@ -366,12 +366,12 @@ php artisan tinker
 - [Gestione Traduzioni](../Lang/project_docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Configurazione Email](../../../../docs/project/email-configuration.md)
 - [Documentazione Traduzioni](./translations.md)
-- [Proposta Slug Template](./EMAIL_TEMPLATE_SLUG_PROPOSAL.md)
+- [Proposta Slug Template](./email-template-slug-proposal.md)
 - [Notify Module Index](./INDEX.md)
 - [Architecture Overview](./architecture.md)
-- [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
-- [SMS Implementation](./SMS_IMPLEMENTATION.md)
-- [Troubleshooting](./TROUBLESHOOTING.md)
+- [Notification Channels Implementation](./notification-channels-implementation.md)
+- [SMS Implementation](./sms-implementation.md)
+- [Troubleshooting](./troubleshooting.md)
 
 ---
 

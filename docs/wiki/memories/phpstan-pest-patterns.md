@@ -9,7 +9,7 @@ status: deprecated
 related:
   - "./merge-collision-notify-lessons.md"
   - "./phpstan-pest-patterns-.md"
-  - "./phpstan-pest-patterns-2026-07-06.md"
+  - "./phpstan-pest-patterns-1.md"
 ---
 
 > Questo file è stato rinominato in [phpstan-pest-patterns.md](phpstan-pest-patterns.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

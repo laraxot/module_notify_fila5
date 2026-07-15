@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Errore di Migrazione JSON e Soluzione
@@ -164,11 +164,11 @@ if ($validRecords !== $totalRecords) {
 
 ## Collegamenti Correlati
 
-- [Documentazione Migrazioni](./MIGRATION_RULES.md)
-- [Best Practices JSON](./JSON_BEST_PRACTICES.md)
+- [Documentazione Migrazioni](./migration-rules.md)
+- [Best Practices JSON](./json-best-practices.md)
 - [Gestione Errori](./ERROR_HANDLING.md)
-- [Documentazione Migrazioni](./MIGRATION_RULES.md)
-- [Best Practices JSON](./JSON_BEST_PRACTICES.md)
+- [Documentazione Migrazioni](./migration-rules.md)
+- [Best Practices JSON](./json-best-practices.md)
 - [Gestione Errori](./ERROR_HANDLING.md)
 
 ## Note Importanti

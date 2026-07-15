@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Pattern di Design per Email Moderne
@@ -366,7 +366,7 @@ return [
 
 ## Riferimenti
 
-- [Responsive Email Templates](./responsive_email-templates.md)
+- [Responsive Email Templates](./responsive-email-templates.md)
 - [Email Best Practices](./mail-templates/email-best-practices-1.md)
 - [HTML Email Compatibility](./mail-templates/html-email-compatibility-1.md)
 - [Spatie Email Integration](./spatie-email-usage-guide-1.md)

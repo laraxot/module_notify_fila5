@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Progresso Standardizzazione Traduzioni
@@ -99,9 +99,9 @@ related:
    - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+   - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
 
@@ -199,9 +199,9 @@ Modules/Notify/lang/it/create_mail_template.php
    - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+   - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
 

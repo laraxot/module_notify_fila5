@@ -27,7 +27,7 @@ related:
 - [Collegamenti Documentazione](../../../../../../docs/collegamenti-documentazione.md)
 
 ## Guida Implementazione
-- [Guida Implementazione Notifiche](./notifications_implementation-guide-1.md) - Guida generale all'implementazione delle notifiche
+- [Guida Implementazione Notifiche](./notifications-implementation-guide-1.md) - Guida generale all'implementazione delle notifiche
 - [Notifiche Multi-Canale](./multi-channel-notifications-2.md) - Implementazione di notifiche su più canali
 - [Errori Comuni da Evitare](./errori-comuni-da-evitare-1.md) - Problemi comuni e come evitarli
 
@@ -36,7 +36,7 @@ related:
 ### SMS
 - [Implementazione SMS Dettagliata](./sms-implementation-details-2.md) - Dettagli implementativi per il canale SMS
 - [Configurazione Provider SMS](./sms-provider-configuration-2.md) - Configurazione dei provider SMS
-- [Implementazione Netfun SMS](./netfun_sms-implementation-1.md) - Implementazione specifica per il provider Netfun
+- [Implementazione Netfun SMS](./netfun-sms-implementation-1.md) - Implementazione specifica per il provider Netfun
 
 ### Telegram
 - [Guida Notifiche Telegram](./telegram-notifications-guide-1.md) - Implementazione delle notifiche Telegram

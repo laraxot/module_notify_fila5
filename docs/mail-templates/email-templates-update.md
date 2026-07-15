@@ -104,6 +104,6 @@ I modelli base si trovano in:
 ## Documentazione Correlata
 
 - [Email Templates Structure](./EMAIL_TEMPLATES_STRUCTURE.md)
-- [Responsive Email Design](./RESPONSIVE_EMAIL_TEMPLATES.md)
+- [Responsive Email Design](./responsive-email-templates.md)
 - [Email HTML Best Practices](../EMAIL_HTML_BEST_PRACTICES.md)
 - [Email Templates Implementation](../EMAIL_TEMPLATES.md)

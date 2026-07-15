@@ -308,7 +308,7 @@ foreach ($records as $record) {
 - [Xot - PDF Generation Technical](../../../Xot/docs/actions/pdf-content-generation-technical.md)
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
-- [EMAIL_TROUBLESHOOTING.md](./EMAIL_TROUBLESHOOTING.md)
+- [EMAIL_TROUBLESHOOTING.md](./email-troubleshooting.md)
 
 ### File Correlati
 - `Modules/Notify/app/Emails/SpatieEmail.php` - Gestione allegati

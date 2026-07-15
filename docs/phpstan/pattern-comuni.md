@@ -8,14 +8,14 @@ qmd: "pattern-comuni pattern comuni phpstan - progetto laraxot"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./PHPSTAN_194_ERRORS_ANALYSIS_2026-03-02.md"
-  - "./PHPSTAN_ANALYSIS_2026-03-02.md"
-  - "./PHPSTAN_ANALYSIS_SUMMARY_2026-03-02.md"
-  - "./PHPSTAN_FINAL_STATUS_2026-03-02.md"
-  - "./PHPSTAN_GLOBAL_SUMMARY_2026-03-02.md"
-  - "./PHPSTAN_PROGRESS_UPDATE_2026-03-02.md"
-  - "./PHPSTAN_SESSION_2026-03-02_SESSION2.md"
-  - "./PHPSTAN_SESSION_4_5_SUMMARY_2026-03-02.md"
+  - "./achievement-sessione-.md"
+  - "./achievement-sessione-1.md"
+  - "./achievement-sessione.md"
+  - "./documentazione-aggiornata-.md"
+  - "./documentazione-aggiornata-1.md"
+  - "./documentazione-aggiornata.md"
+  - "./filament-v4-fixes-session.md"
+  - "./final-report-session-.md"
 ---
 
 # Pattern Comuni PHPStan - Progetto Laraxot

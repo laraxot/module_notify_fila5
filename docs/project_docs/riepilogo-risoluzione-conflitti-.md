@@ -8,13 +8,13 @@ qmd: "riepilogo-risoluzione-conflitti-2025-09-30.deprecated deprecated"
 status: deprecated
 related:
   - "./2025-excellence-achievement.md"
-  - "./FINAL_IMPLEMENTATION_REPORT_2025-10-02.md"
-  - "./IMPLEMENTATION_STATUS_2025-10-02.md"
   - "./agid-implementation-guide.md"
   - "./architecture.md"
   - "./complete-refactoring-analysis.md"
   - "./documentation-status.md"
   - "./final-implementation-report-.md"
+  - "./final-implementation-report-1.md"
+  - "./final-implementation-report.md"
 ---
 
 > Questo file è stato rinominato in [riepilogo-risoluzione-conflitti-.deprecated.md](riepilogo-risoluzione-conflitti-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

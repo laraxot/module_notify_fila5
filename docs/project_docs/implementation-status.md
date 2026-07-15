@@ -8,13 +8,13 @@ qmd: "implementation_status_2025-10-02 deprecated"
 status: deprecated
 related:
   - "./2025-excellence-achievement.md"
-  - "./FINAL_IMPLEMENTATION_REPORT_2025-10-02.md"
-  - "./IMPLEMENTATION_STATUS_2025-10-02.md"
   - "./agid-implementation-guide.md"
   - "./architecture.md"
   - "./complete-refactoring-analysis.md"
   - "./documentation-status.md"
   - "./final-implementation-report-.md"
+  - "./final-implementation-report-1.md"
+  - "./final-implementation-report.md"
 ---
 
 > Questo file è stato rinominato in [implementation-status.md](implementation-status.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

@@ -8,8 +8,8 @@ qmd: "document-root-update-summary documentation update summary - public_html do
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
-  - "./BUGFIX_REPORT_2025-01-14.md"
   - "./bugfix-report-.md"
+  - "./bugfix-report-1.md"
   - "./bugfix-report.md"
   - "./design-comuni-progress-1.md"
   - "./documentation-update-complete.md"

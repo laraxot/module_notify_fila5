@@ -32,7 +32,7 @@ Aggiungi la seguente sezione nel file `config/sms.php`:
 
 ## Introduzione
 
-Questo documento descrive i requisiti di configurazione per l'integrazione con il provider SMS Netfun nel modulo Notify, seguendo la [struttura standardizzata della configurazione SMS](./standardized_sms_config-structure.md).
+Questo documento descrive i requisiti di configurazione per l'integrazione con il provider SMS Netfun nel modulo Notify, seguendo la [struttura standardizzata della configurazione SMS](./standardized-sms-config-structure.md).
 
 ## Struttura di Configurazione
 
@@ -101,8 +101,8 @@ NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## Documentazione Correlata
 
-- [Struttura Standardizzata della Configurazione SMS](./standardized_sms_config-structure.md)
-- [Canale SMS Netfun](./sms_netfun-channel-2.md)
+- [Struttura Standardizzata della Configurazione SMS](./standardized-sms-config-structure.md)
+- [Canale SMS Netfun](./sms-netfun-channel-2.md)
 
 ## Supporto
 
@@ -156,9 +156,9 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 ## Collegamenti
 
-- [Documentazione Completa Netfun Channel](./sms_netfun-channel-2.md)
+- [Documentazione Completa Netfun Channel](./sms-netfun-channel-2.md)
 - [Esempi di Utilizzo Netfun](./netfun-examples-2.md)
-- [Risoluzione Conflitti Netfun](./netfunchannel_conflict_resolution.md)
+- [Risoluzione Conflitti Netfun](./netfunchannel-conflict-resolution.md)
 
 ---
 

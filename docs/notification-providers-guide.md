@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Guida Completa ai Provider di Notifiche 
@@ -152,6 +152,6 @@ Quando si implementa un nuovo provider (es. WhatsApp, Push, ecc.):
 5. **Documentazione**: Mantenere aggiornata la documentazione con nuovi provider
 
 Per implementazioni specifiche, vedere i documenti:
-- [PROVIDER_ACTIONS_architecture.md](./PROVIDER_ACTIONS_architecture.md)
-- [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
-- [WHATSAPP_PROVIDER_architecture.md](./WHATSAPP_PROVIDER_architecture.md)
+- [PROVIDER_ACTIONS_architecture.md](./provider-actions-architecture.md)
+- [SMS_ACTIONS_PATTERN.md](./sms-actions-pattern.md)
+- [WHATSAPP_PROVIDER_architecture.md](./whatsapp-provider-architecture.md)

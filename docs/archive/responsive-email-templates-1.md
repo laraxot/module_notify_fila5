@@ -203,7 +203,7 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 
 ## Riferimenti e Approfondimenti
 
-- [Guida ai Layout Email](./MAIL_LAYOUTS_GUIDE.md)
+- [Guida ai Layout Email](./mail-layouts-guide.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
 - [MailPace Integration](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md)

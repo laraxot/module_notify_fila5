@@ -70,9 +70,9 @@ related:
    - [Best Practices per le Traduzioni](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 
 2. **Guide Specifiche per Notify**
-   - [Convenzioni di Traduzione nel Modulo Notify](./TRANSLATION_CONVENTIONS.md)
-   - [Regole di Naming per i File di Traduzione](./TRANSLATION_FILE_NAMING_RULES.md)
-   - [Guida alla Struttura dei File di Traduzione](./TRANSLATION_FILE_STRUCTURE_GUIDE.md)
+   - [Convenzioni di Traduzione nel Modulo Notify](./translation-conventions.md)
+   - [Regole di Naming per i File di Traduzione](./translation-file-naming-rules.md)
+   - [Guida alla Struttura dei File di Traduzione](./translation-file-structure-guide.md)
 
 ## Appendice: Elenco Completo dei File Non Conformi
 

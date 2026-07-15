@@ -131,7 +131,7 @@ $token = config('services.netfun.token');
 
 ## Documentazione Correlata
 
-- [SMS Provider Architecture](./SMS_PROVIDER_architecture.md)
-- [SMS Implementation](./SMS_IMPLEMENTATION.md)
-- [SMS Best Practices](./SMS_BEST_PRACTICES.md)
-- [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
+- [SMS Provider Architecture](./sms-provider-architecture.md)
+- [SMS Implementation](./sms-implementation.md)
+- [SMS Best Practices](./sms-best-practices.md)
+- [Netfun Authentication Methods](./netfun-authentication-methods.md)

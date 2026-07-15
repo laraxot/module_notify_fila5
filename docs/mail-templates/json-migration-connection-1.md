@@ -84,7 +84,7 @@ if ($this->hasColumn('subject') && !$this->isColumnType('subject', 'json')) {
 
 ## Documentazione Correlata
 
-- [XotBaseMigration Best Practices](./XOTBASEMIGRATION_BEST_PRACTICES.md)
-- [JSON Migration Fixes](./JSON_MIGRATION_FIXES.md)
-- [Migration Structure](./MIGRATION_STRUCTURE.md)
+- [XotBaseMigration Best Practices](./xotbasemigration-best-practices.md)
+- [JSON Migration Fixes](./json-migration-fixes.md)
+- [Migration Structure](./migration-structure.md)
 - [Mail Template Migration Guide](../MAIL_TEMPLATE_migration-guide.md)

@@ -183,13 +183,13 @@ return [
 
 ## Riferimenti
 
-- [Implementazione del Modello](./MODEL_SLUG_IMPLEMENTATION.md)
-- [Struttura della Migrazione](./MIGRATION_STRUCTURE.md)
+- [Implementazione del Modello](./model-slug-implementation.md)
+- [Struttura della Migrazione](./migration-structure.md)
 - [Guida alla Migrazione](../MAIL_TEMPLATE_migration-guide.md)
 - [Convenzioni Filament](../../../../docs/FILAMENT_CONVENTIONS.md)
 - [Regole per Filament](../../../../docs/FILAMENT_RULES.md)
-- [Implementazione del Modello](./MODEL_SLUG_IMPLEMENTATION.md)
-- [Struttura della Migrazione](./MIGRATION_STRUCTURE.md)
+- [Implementazione del Modello](./model-slug-implementation.md)
+- [Struttura della Migrazione](./migration-structure.md)
 - [Guida alla Migrazione](../MAIL_TEMPLATE_migration-guide.md)
 - [Convenzioni Filament](../../../../../docs/FILAMENT_CONVENTIONS.md)
 - [Regole per Filament](../../../../../docs/FILAMENT_RULES.md)

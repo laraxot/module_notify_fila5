@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Template Email per Alto Engagement
@@ -241,9 +241,9 @@ Questo documento definisce le best practices per la creazione di template email 
 
 ## Collegamenti Correlati
 
-- [Struttura Template](./MAIL_TEMPLATES_STRUCTURE.md)
-- [Best Practices HTML](./EMAIL_HTML_BEST_PRACTICES.md)
-- [Template Base](./BASE_TEMPLATES.md)
+- [Struttura Template](./mail-templates-structure.md)
+- [Best Practices HTML](./email-html-best-practices.md)
+- [Template Base](./base-templates.md)
 
 ## Supporto
 

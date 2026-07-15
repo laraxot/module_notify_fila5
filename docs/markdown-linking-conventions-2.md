@@ -11,11 +11,11 @@ related:
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
-  - "./ANALISI-COMPLETA-2025-10-01.md"
-  - "./COMPLETAMENTO-PROGETTO-2025-10-01.md"
-  - "./DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md"
-  - "./GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md"
-  - "./IMPLEMENTATION_SUMMARY_2025-01-27.md"
+  - "./absolute-completion-100.md"
+  - "./acronym-naming-conventions-1.md"
+  - "./acronym-naming-conventions-2.md"
+  - "./acronym-naming-conventions.md"
+  - "./action-plan-immediate.md"
 ---
 
 # Convenzioni per i Collegamenti nei File Markdown
@@ -40,9 +40,9 @@ related:
 ### ✅ CORRETTO: Percorsi Relativi
 
 ```markdown
-[Convenzioni di Naming per le Interfacce](./INTERFACE_NAMING_CONVENTION.md)
-[Chiarimento sulla Struttura delle Interfacce](./INTERFACE_STRUCTURE_CLARIFICATION.md)
-[Architettura dei Contratti](./CONTRACTS_architecture.md)
+[Convenzioni di Naming per le Interfacce](./interface-naming-convention.md)
+[Chiarimento sulla Struttura delle Interfacce](./interface-structure-clarification.md)
+[Architettura dei Contratti](./contracts-architecture.md)
 [Convenzioni di Naming per le Interfacce](./interface-naming-convention.md)
 [Chiarimento sulla Struttura delle Interfacce](./interface-structure-clarification.md)
 [Architettura dei Contratti](./contracts-architecture.md)
