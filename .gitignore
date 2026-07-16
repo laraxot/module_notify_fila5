@@ -120,7 +120,6 @@ Thumbs.db
 # DOCUMENTATION CACHE
 # ==============================================
 docs/phpstan/
-docs/cache/
 
 # ==============================================
 # OLD DIRECTORIES (LEGACY CLEANUP)
@@ -158,11 +157,9 @@ test_notifications.sql
 
 # 🚫 File specifici del progetto
 *.fila2
-*.old
 laravel
 public_html
 lang/lang/
-_docs/
 _docs/
 
 # Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
@@ -195,7 +192,6 @@ config/config
 *~head
 
 ruvector.db
-.ai*
 _bmad
 agentdb.rvf
 public_html/
@@ -203,3 +199,21 @@ docs/archived/
 *.db
 .devcontainer/
 .vscode/
+tests/AuditCoverage
+
+# AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
+scripts/
+docs/archive/
+docs/legacy/
+docs/workbench/
+.circleci/
+.claude-audit/
+tests/.claude-audit/
+test-results/
+.kilocode/
+.kiro/
+
+# Editor/tool caches and backups
+docs/cache/
+*.old
+.ai*
