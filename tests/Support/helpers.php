@@ -39,14 +39,20 @@ if (! function_exists('mockExpectation')) {
      * `->with()`, `->andReturn()`, `->once()`, `->times()` restano disponibili
      * senza `method.notFound`/`method.nonObject` sparsi in ogni test.
      *
-     * Nota: mockery/mockery 1.6.x restituisce sempre `Mockery\CompositeExpectation`
-     * da `shouldReceive()` (anche per un singolo metodo), che espone `with()`,
-     * `andReturn()`, `once()`, `times()` via `__call` proxato verso le
-     * `Expectation` interne. Il tipo di ritorno riflette quindi la realta'
-     * runtime osservata, non `Mockery\Expectation`.
+     * Nota: chiamato con un singolo nome di metodo, `Mock::shouldReceive()`
+     * restituisce a runtime una `Mockery\Expectation` concreta (vedi
+     * vendor/mockery/mockery/library/Mockery/Mock.php::shouldReceive()), che
+     * espone nativamente `with()`, `andReturn()`, `once()`, `times()`. La firma
+     * nativa dichiara pero' l'unione `ExpectationInterface|Expectation|
+     * HigherOrderMessage`: questo helper la restringe in un punto solo cosi'
+     * quei metodi restano disponibili senza `method.notFound`/`method.nonObject`
+     * sparsi in ogni test.
      */
     function mockExpectation(MockInterface $mock, string $method): CompositeExpectation
     {
-        return $mock->shouldReceive($method);
+        /** @var CompositeExpectation $expectation */
+        $expectation = $mock->shouldReceive($method);
+
+        return $expectation;
     }
 }
