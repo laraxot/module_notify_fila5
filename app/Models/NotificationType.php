@@ -8,12 +8,14 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\NotificationTypeFactory;
 use Override;
 
 /**
  * @method static Builder<static>|NotificationType newModelQuery()
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
+ *
  * @property int $id
  * @property string $name
  * @property string|null $slug
@@ -35,6 +37,7 @@ use Override;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_by
+ *
  * @method static Builder<static>|NotificationType whereCreatedAt($value)
  * @method static Builder<static>|NotificationType whereCreatedBy($value)
  * @method static Builder<static>|NotificationType whereDescription($value)
@@ -43,11 +46,12 @@ use Override;
  * @method static Builder<static>|NotificationType whereTemplate($value)
  * @method static Builder<static>|NotificationType whereUpdatedAt($value)
  * @method static Builder<static>|NotificationType whereUpdatedBy($value)
+ *
  * @mixin \Eloquent
  */
 class NotificationType extends Model
 {
-    /** @use HasFactory<\Modules\Notify\Database\Factories\NotificationTypeFactory> */
+    /** @use HasFactory<NotificationTypeFactory> */
     use HasFactory;
 
     /** @var list<string> */

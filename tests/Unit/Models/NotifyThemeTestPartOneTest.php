@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
+
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
@@ -16,22 +17,23 @@ namespace Modules\Notify\Tests\Unit\Models;
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 
-use function Safe\json_encode;
-use PHPUnit\Framework\Assert;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Tests\TestCase;
-use function Pest\Laravel\get;
+use PHPUnit\Framework\Assert;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+use function Safe\json_encode;
+
+uses(TestCase::class);
 
 beforeEach(function (): void {
-    /** @var \Modules\Notify\Tests\TestCase $this */
-$this->disableExceptionHandling();
+    /** @var TestCase $this */
+    $this->disableExceptionHandling();
 });
 
-describe('Notify Theme PartOne', function (): void {    test('_can_create_notify_theme', function (): void {
-        /** @var \Modules\Notify\Tests\TestCase $this */
-$theme = NotifyTheme::create([
+describe('Notify Theme PartOne', function (): void {
+    test('_can_create_notify_theme', function (): void {
+        /** @var TestCase $this */
+        $theme = NotifyTheme::create([
             'lang' => 'it',
             'type' => 'email',
             'subject' => 'Benvenuto nella nostra piattaforma',
@@ -77,7 +79,7 @@ $theme = NotifyTheme::create([
     });
 
     test('_has_correct_fillable_fields', function (): void {
-$theme = new NotifyTheme;
+        $theme = new NotifyTheme();
 
         $expectedFillable = [
             'id',
@@ -101,7 +103,7 @@ $theme = new NotifyTheme;
     });
 
     test('_has_correct_casts', function (): void {
-$theme = new NotifyTheme;
+        $theme = new NotifyTheme();
 
         $expectedCasts = [
             'id' => 'string',
@@ -119,7 +121,7 @@ $theme = new NotifyTheme;
     });
 
     test('_has_logo_appended_attribute', function (): void {
-$theme = new NotifyTheme;
+        $theme = new NotifyTheme();
 
         $expectedAppends = ['logo'];
 
@@ -127,7 +129,7 @@ $theme = new NotifyTheme;
     });
 
     test('_can_store_json_view_params', function (): void {
-$viewParams = [
+        $viewParams = [
             'company_name' => 'Test Company',
             'primary_color' => '#ef4444',
             'secondary_color' => '#f59e0b',
@@ -159,7 +161,7 @@ $viewParams = [
     });
 
     test('_can_generate_logo_attribute', function (): void {
-$theme = NotifyTheme::create([
+        $theme = NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Logo Test Theme',
             'logo_src' => '/images/custom-logo.png',
@@ -176,7 +178,7 @@ $theme = NotifyTheme::create([
     });
 
     test('_uses_default_logo_dimensions_when_not_specified', function (): void {
-$theme = NotifyTheme::create([
+        $theme = NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Default Logo Theme',
             'logo_src' => '/images/default-logo.png',
@@ -189,7 +191,7 @@ $theme = NotifyTheme::create([
     });
 
     test('_can_update_theme', function (): void {
-$theme = NotifyTheme::create([
+        $theme = NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Original Subject',
             'body' => 'Original body text',
@@ -211,14 +213,14 @@ $theme = NotifyTheme::create([
             'view_params' => json_encode(['updated' => true, 'version' => '2.0']),
         ]);
 
-        Assert::assertEquals('Updated Subject', \assertFreshModel($theme, \Modules\Notify\Models\NotifyTheme::class)->subject);
-        Assert::assertEquals('Updated body text', \assertFreshModel($theme, \Modules\Notify\Models\NotifyTheme::class)->body);
-        Assert::assertEquals('updated', \assertFreshModel($theme, \Modules\Notify\Models\NotifyTheme::class)->theme);
-        Assert::assertEquals(['updated' => true, 'version' => '2.0'], \assertFreshModel($theme, \Modules\Notify\Models\NotifyTheme::class)->view_params);
+        Assert::assertEquals('Updated Subject', \assertFreshModel($theme, NotifyTheme::class)->subject);
+        Assert::assertEquals('Updated body text', \assertFreshModel($theme, NotifyTheme::class)->body);
+        Assert::assertEquals('updated', \assertFreshModel($theme, NotifyTheme::class)->theme);
+        Assert::assertEquals(['updated' => true, 'version' => '2.0'], \assertFreshModel($theme, NotifyTheme::class)->view_params);
     });
 
     test('_can_find_by_language', function (): void {
-NotifyTheme::create([
+        NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Italian Welcome',
             'lang' => 'it',
@@ -243,9 +245,9 @@ NotifyTheme::create([
         Assert::assertCount(1, $italianThemes);
         Assert::assertCount(1, $englishThemes);
         Assert::assertCount(1, $germanThemes);
-        Assert::assertEquals('it', \assertFirstModel($italianThemes, \Modules\Notify\Models\NotifyTheme::class)->lang);
-        Assert::assertEquals('en', \assertFirstModel($englishThemes, \Modules\Notify\Models\NotifyTheme::class)->lang);
-        Assert::assertEquals('de', \assertFirstModel($germanThemes, \Modules\Notify\Models\NotifyTheme::class)->lang);
+        Assert::assertEquals('it', \assertFirstModel($italianThemes, NotifyTheme::class)->lang);
+        Assert::assertEquals('en', \assertFirstModel($englishThemes, NotifyTheme::class)->lang);
+        Assert::assertEquals('de', \assertFirstModel($germanThemes, NotifyTheme::class)->lang);
     });
 
 });

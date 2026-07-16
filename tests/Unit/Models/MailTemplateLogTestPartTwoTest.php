@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
+
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
@@ -23,21 +24,22 @@ namespace Modules\Notify\Tests\Unit\Models;
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 
-use function Safe\json_encode;
-use PHPUnit\Framework\Assert;
 use Modules\Notify\Models\MailTemplateLog;
 use Modules\Notify\Tests\TestCase;
-use function Pest\Laravel\get;
+use PHPUnit\Framework\Assert;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+use function Safe\json_encode;
+
+uses(TestCase::class);
 
 beforeEach(function (): void {
-    /** @var \Modules\Notify\Tests\TestCase $this */
-$this->disableExceptionHandling();
+    /** @var TestCase $this */
+    $this->disableExceptionHandling();
 });
 
-describe('Mail Template Log PartTwo', function (): void {    test('_can_mark_as_clicked', function (): void {
-$log = MailTemplateLog::create([
+describe('Mail Template Log PartTwo', function (): void {
+    test('_can_mark_as_clicked', function (): void {
+        $log = MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -51,14 +53,14 @@ $log = MailTemplateLog::create([
         ]);
         \assertNotifyTableHas('mail_template_logs', [
             'id' => $log->id,
-            'clicked_at' => \assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->clicked_at,
+            'clicked_at' => \assertFreshModel($log, MailTemplateLog::class)->clicked_at,
         ]);
 
-        Assert::assertNotNull(\assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->clicked_at);
+        Assert::assertNotNull(\assertFreshModel($log, MailTemplateLog::class)->clicked_at);
     });
 
     test('_can_find_by_template_id', function (): void {
-MailTemplateLog::create([
+        MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -84,13 +86,13 @@ MailTemplateLog::create([
 
         Assert::assertCount(2, $template123Logs);
         Assert::assertCount(1, $template456Logs);
-        Assert::assertEquals(123, \assertFirstModel($template123Logs, \Modules\Notify\Models\MailTemplateLog::class)->template_id);
-        Assert::assertEquals(123, \assertFirstModel($template123Logs->slice(1), \Modules\Notify\Models\MailTemplateLog::class)->template_id);
-        Assert::assertEquals(456, \assertFirstModel($template456Logs, \Modules\Notify\Models\MailTemplateLog::class)->template_id);
+        Assert::assertEquals(123, \assertFirstModel($template123Logs, MailTemplateLog::class)->template_id);
+        Assert::assertEquals(123, \assertFirstModel($template123Logs->slice(1), MailTemplateLog::class)->template_id);
+        Assert::assertEquals(456, \assertFirstModel($template456Logs, MailTemplateLog::class)->template_id);
     });
 
     test('_can_find_by_status', function (): void {
-MailTemplateLog::create([
+        MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -118,13 +120,13 @@ MailTemplateLog::create([
         Assert::assertCount(1, $sentLogs);
         Assert::assertCount(1, $failedLogs);
         Assert::assertCount(1, $deliveredLogs);
-        Assert::assertEquals('sent', \assertFirstModel($sentLogs, \Modules\Notify\Models\MailTemplateLog::class)->status);
-        Assert::assertEquals('failed', \assertFirstModel($failedLogs, \Modules\Notify\Models\MailTemplateLog::class)->status);
-        Assert::assertEquals('delivered', \assertFirstModel($deliveredLogs, \Modules\Notify\Models\MailTemplateLog::class)->status);
+        Assert::assertEquals('sent', \assertFirstModel($sentLogs, MailTemplateLog::class)->status);
+        Assert::assertEquals('failed', \assertFirstModel($failedLogs, MailTemplateLog::class)->status);
+        Assert::assertEquals('delivered', \assertFirstModel($deliveredLogs, MailTemplateLog::class)->status);
     });
 
     test('_can_find_by_mailable_type', function (): void {
-MailTemplateLog::create([
+        MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -150,13 +152,13 @@ MailTemplateLog::create([
 
         Assert::assertCount(2, $testMailLogs);
         Assert::assertCount(1, $welcomeMailLogs);
-        Assert::assertEquals('App\Mail\TestMail', \assertFirstModel($testMailLogs, \Modules\Notify\Models\MailTemplateLog::class)->mailable_type);
-        Assert::assertEquals('App\Mail\TestMail', \assertFirstModel($testMailLogs->slice(1), \Modules\Notify\Models\MailTemplateLog::class)->mailable_type);
-        Assert::assertEquals('App\Mail\WelcomeMail', \assertFirstModel($welcomeMailLogs, \Modules\Notify\Models\MailTemplateLog::class)->mailable_type);
+        Assert::assertEquals('App\Mail\TestMail', \assertFirstModel($testMailLogs, MailTemplateLog::class)->mailable_type);
+        Assert::assertEquals('App\Mail\TestMail', \assertFirstModel($testMailLogs->slice(1), MailTemplateLog::class)->mailable_type);
+        Assert::assertEquals('App\Mail\WelcomeMail', \assertFirstModel($welcomeMailLogs, MailTemplateLog::class)->mailable_type);
     });
 
     test('_can_find_by_date_range', function (): void {
-$yesterday = now()->subDay();
+        $yesterday = now()->subDay();
         $today = now();
         $tomorrow = now()->addDay();
 
@@ -189,11 +191,11 @@ $yesterday = now()->subDay();
 
         Assert::assertCount(1, $todayLogs);
         Assert::assertCount(2, $recentLogs); // yesterday and today
-        Assert::assertEquals('App\Mail\WelcomeMail', \assertFirstModel($todayLogs, \Modules\Notify\Models\MailTemplateLog::class)->mailable_type);
+        Assert::assertEquals('App\Mail\WelcomeMail', \assertFirstModel($todayLogs, MailTemplateLog::class)->mailable_type);
     });
 
     test('_can_find_by_data_pattern', function (): void {
-MailTemplateLog::create([
+        MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -222,12 +224,12 @@ MailTemplateLog::create([
 
         Assert::assertCount(1, $welcomeSubjectLogs);
         Assert::assertCount(1, $welcomeTemplateLogs);
-        Assert::assertEquals('Welcome to our platform', \assertFirstModel($welcomeSubjectLogs, \Modules\Notify\Models\MailTemplateLog::class)->data['subject']);
-        Assert::assertEquals('welcome_template', \notifyArrayGet(\assertFirstModel($welcomeTemplateLogs, \Modules\Notify\Models\MailTemplateLog::class)->data, 'template'));
+        Assert::assertEquals('Welcome to our platform', \assertFirstModel($welcomeSubjectLogs, MailTemplateLog::class)->data['subject']);
+        Assert::assertEquals('welcome_template', \notifyArrayGet(\assertFirstModel($welcomeTemplateLogs, MailTemplateLog::class)->data, 'template'));
     });
 
     test('_can_find_by_metadata_pattern', function (): void {
-MailTemplateLog::create([
+        MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -256,12 +258,12 @@ MailTemplateLog::create([
 
         Assert::assertCount(1, $smtpLogs);
         Assert::assertCount(1, $sesLogs);
-        Assert::assertEquals('smtp', \assertFirstModel($smtpLogs, \Modules\Notify\Models\MailTemplateLog::class)->metadata['provider']);
-        Assert::assertEquals('ses', \assertFirstModel($sesLogs, \Modules\Notify\Models\MailTemplateLog::class)->metadata['provider']);
+        Assert::assertEquals('smtp', \assertFirstModel($smtpLogs, MailTemplateLog::class)->metadata['provider']);
+        Assert::assertEquals('ses', \assertFirstModel($sesLogs, MailTemplateLog::class)->metadata['provider']);
     });
 
     test('_can_find_by_multiple_criteria', function (): void {
-MailTemplateLog::create([
+        MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -297,13 +299,13 @@ MailTemplateLog::create([
             ->get();
 
         Assert::assertCount(1, $smtpWelcomeLogs);
-        Assert::assertEquals('sent', \assertFirstModel($smtpWelcomeLogs, \Modules\Notify\Models\MailTemplateLog::class)->status);
-        Assert::assertEquals('smtp', \assertFirstModel($smtpWelcomeLogs, \Modules\Notify\Models\MailTemplateLog::class)->metadata['provider']);
-        Assert::assertEquals('Welcome email', \assertFirstModel($smtpWelcomeLogs, \Modules\Notify\Models\MailTemplateLog::class)->data['subject']);
+        Assert::assertEquals('sent', \assertFirstModel($smtpWelcomeLogs, MailTemplateLog::class)->status);
+        Assert::assertEquals('smtp', \assertFirstModel($smtpWelcomeLogs, MailTemplateLog::class)->metadata['provider']);
+        Assert::assertEquals('Welcome email', \assertFirstModel($smtpWelcomeLogs, MailTemplateLog::class)->data['subject']);
     });
 
     test('_can_handle_null_values', function (): void {
-$log = MailTemplateLog::create([
+        $log = MailTemplateLog::create([
             'template_id' => null,
             'mailable_type' => null,
             'mailable_id' => null,
@@ -346,7 +348,7 @@ $log = MailTemplateLog::create([
             'data' => json_encode([]),
             'metadata' => json_encode([]),
         ]);
-Assert::assertEmpty($log->data);
-            Assert::assertEmpty($log->metadata);
+        Assert::assertEmpty($log->data);
+        Assert::assertEmpty($log->metadata);
     });
 });

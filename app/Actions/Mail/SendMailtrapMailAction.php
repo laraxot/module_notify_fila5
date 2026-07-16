@@ -18,7 +18,7 @@ class SendMailtrapMailAction
     use QueueableAction;
 
     /**
-     * @param array<string, mixed> $vars
+     * @param  array<string, mixed>  $vars
      */
     public function execute(string $to, string $body, array $vars = [], ?string $from = null): void
     {

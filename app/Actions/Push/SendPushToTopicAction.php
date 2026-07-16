@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\Push;
 
 use Exception;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Log;
 use GuzzleHttp\Promise\PromiseInterface;
 use Illuminate\Http\Client\Response;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;

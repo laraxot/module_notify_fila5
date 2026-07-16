@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use Modules\Notify\Services\NotificationService;
 
 /**
  * Facade for Notify module services.
@@ -15,7 +16,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static void sendPushNotification(string $userId, string $title, string $body)
  * @method static void dispatch(string $notificationClass, array<int|string, mixed> $recipients, array<string, mixed> $data = [])
  *
- * @see \Modules\Notify\Services\NotificationService
+ * @see NotificationService
  */
 class NotificationFacade extends Facade
 {

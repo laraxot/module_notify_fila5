@@ -15,17 +15,16 @@ interface NotificationDispatcherInterface
     /**
      * Dispatch notification to channel.
      *
-     * @param Notification|class-string $notification
-     * @param int|string $recipient
-     * @param string $channel email|sms|push
+     * @param  Notification|class-string  $notification
+     * @param  string  $channel  email|sms|push
      */
     public function dispatch(string|Notification $notification, int|string $recipient, string $channel = 'email'): void;
 
     /**
      * Broadcast notification to multiple recipients.
      *
-     * @param Notification|class-string $notification
-     * @param array<int|string> $recipients
+     * @param  Notification|class-string  $notification
+     * @param  array<int|string>  $recipients
      */
     public function broadcast(string|Notification $notification, array $recipients): void;
 }

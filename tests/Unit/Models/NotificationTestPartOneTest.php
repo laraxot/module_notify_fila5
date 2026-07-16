@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
+
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
@@ -19,23 +20,24 @@ namespace Modules\Notify\Tests\Unit\Models;
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 
-use function Safe\json_encode;
-use PHPUnit\Framework\Assert;
+use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Tests\TestCase;
-use Modules\Notify\Database\Factories\NotificationFactory;
-use function Pest\Laravel\get;
+use PHPUnit\Framework\Assert;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+use function Safe\json_encode;
+
+uses(TestCase::class);
 
 beforeEach(function (): void {
-    /** @var \Modules\Notify\Tests\TestCase $this */
-$this->disableExceptionHandling();
+    /** @var TestCase $this */
+    $this->disableExceptionHandling();
 });
 
-describe('Notification PartOne', function (): void {    test('_can_create_notification', function (): void {
-        /** @var \Modules\Notify\Tests\TestCase $this */
-$notification = NotificationFactory::new()->createOne([
+describe('Notification PartOne', function (): void {
+    test('_can_create_notification', function (): void {
+        /** @var TestCase $this */
+        $notification = NotificationFactory::new()->createOne([
             'message' => 'Test notification message',
             'type' => 'info',
             'tenant_id' => 1,
@@ -67,7 +69,7 @@ $notification = NotificationFactory::new()->createOne([
     });
 
     test('_has_correct_fillable_fields', function (): void {
-$notification = new Notification;
+        $notification = new Notification();
 
         $expectedFillable = [
             'message',
@@ -87,7 +89,7 @@ $notification = new Notification;
     });
 
     test('_has_correct_casts', function (): void {
-$notification = new Notification;
+        $notification = new Notification();
 
         $expectedCasts = [
             'read_at' => 'datetime',
@@ -103,7 +105,7 @@ $notification = new Notification;
     });
 
     test('_can_store_json_data', function (): void {
-$data = [
+        $data = [
             'title' => 'Welcome to our platform',
             'body' => 'Thank you for joining us!',
             'action_url' => 'https://example.com/welcome',
@@ -133,7 +135,7 @@ $data = [
     });
 
     test('_can_store_channels_array', function (): void {
-$channels = ['mail', 'database', 'sms', 'push'];
+        $channels = ['mail', 'database', 'sms', 'push'];
 
         $notification = NotificationFactory::new()->createOne([
             'message' => 'Multi-channel notification',
@@ -153,7 +155,7 @@ $channels = ['mail', 'database', 'sms', 'push'];
     });
 
     test('_can_mark_as_read', function (): void {
-$notification = NotificationFactory::new()->createOne([
+        $notification = NotificationFactory::new()->createOne([
             'message' => 'Unread notification',
             'type' => 'info',
         ]);
@@ -162,15 +164,15 @@ $notification = NotificationFactory::new()->createOne([
 
         $notification->update(['read_at' => now()]);
 
-        Assert::assertNotNull(\assertFreshModel($notification, \Modules\Notify\Models\Notification::class)->read_at);
+        Assert::assertNotNull(\assertFreshModel($notification, Notification::class)->read_at);
         \assertNotifyTableHas('notifications', [
             'id' => $notification->id,
-            'read_at' => \assertFreshModel($notification, \Modules\Notify\Models\Notification::class)->read_at,
+            'read_at' => \assertFreshModel($notification, Notification::class)->read_at,
         ]);
     });
 
     test('_can_mark_as_sent', function (): void {
-$notification = NotificationFactory::new()->createOne([
+        $notification = NotificationFactory::new()->createOne([
             'message' => 'Pending notification',
             'type' => 'info',
             'status' => 'pending',
@@ -183,17 +185,17 @@ $notification = NotificationFactory::new()->createOne([
             'status' => 'sent',
         ]);
 
-        Assert::assertNotNull(\assertFreshModel($notification, \Modules\Notify\Models\Notification::class)->sent_at);
-        Assert::assertEquals('sent', \assertFreshModel($notification, \Modules\Notify\Models\Notification::class)->status);
+        Assert::assertNotNull(\assertFreshModel($notification, Notification::class)->sent_at);
+        Assert::assertEquals('sent', \assertFreshModel($notification, Notification::class)->status);
         \assertNotifyTableHas('notifications', [
             'id' => $notification->id,
-            'sent_at' => \assertFreshModel($notification, \Modules\Notify\Models\Notification::class)->sent_at,
+            'sent_at' => \assertFreshModel($notification, Notification::class)->sent_at,
             'status' => 'sent',
         ]);
     });
 
     test('_can_update_notification', function (): void {
-$notification = NotificationFactory::new()->createOne([
+        $notification = NotificationFactory::new()->createOne([
             'message' => 'Original message',
             'type' => 'info',
             'status' => 'pending',
@@ -212,14 +214,14 @@ $notification = NotificationFactory::new()->createOne([
             'status' => 'sent',
         ]);
 
-        Assert::assertEquals('Updated message', \assertFreshModel($notification, \Modules\Notify\Models\Notification::class)->message);
-        Assert::assertEquals('warning', \assertFreshModel($notification, \Modules\Notify\Models\Notification::class)->type);
-        Assert::assertEquals('sent', \assertFreshModel($notification, \Modules\Notify\Models\Notification::class)->status);
-        Assert::assertEquals(['updated' => true], \assertFreshModel($notification, \Modules\Notify\Models\Notification::class)->data);
+        Assert::assertEquals('Updated message', \assertFreshModel($notification, Notification::class)->message);
+        Assert::assertEquals('warning', \assertFreshModel($notification, Notification::class)->type);
+        Assert::assertEquals('sent', \assertFreshModel($notification, Notification::class)->status);
+        Assert::assertEquals(['updated' => true], \assertFreshModel($notification, Notification::class)->data);
     });
 
     test('_can_find_by_type', function (): void {
-NotificationFactory::new()->createOne([
+        NotificationFactory::new()->createOne([
             'message' => 'Info notification',
             'type' => 'info',
         ]);
@@ -241,13 +243,13 @@ NotificationFactory::new()->createOne([
         Assert::assertCount(1, $infoNotifications);
         Assert::assertCount(1, $warningNotifications);
         Assert::assertCount(1, $errorNotifications);
-        Assert::assertEquals('info', \assertFirstModel($infoNotifications, \Modules\Notify\Models\Notification::class)->type);
-        Assert::assertEquals('warning', \assertFirstModel($warningNotifications, \Modules\Notify\Models\Notification::class)->type);
-        Assert::assertEquals('error', \assertFirstModel($errorNotifications, \Modules\Notify\Models\Notification::class)->type);
+        Assert::assertEquals('info', \assertFirstModel($infoNotifications, Notification::class)->type);
+        Assert::assertEquals('warning', \assertFirstModel($warningNotifications, Notification::class)->type);
+        Assert::assertEquals('error', \assertFirstModel($errorNotifications, Notification::class)->type);
     });
 
     test('_can_find_by_status', function (): void {
-NotificationFactory::new()->createOne([
+        NotificationFactory::new()->createOne([
             'message' => 'Pending notification',
             'type' => 'info',
             'status' => 'pending',
@@ -272,13 +274,13 @@ NotificationFactory::new()->createOne([
         Assert::assertCount(1, $pendingNotifications);
         Assert::assertCount(1, $sentNotifications);
         Assert::assertCount(1, $failedNotifications);
-        Assert::assertEquals('pending', \assertFirstModel($pendingNotifications, \Modules\Notify\Models\Notification::class)->status);
-        Assert::assertEquals('sent', \assertFirstModel($sentNotifications, \Modules\Notify\Models\Notification::class)->status);
-        Assert::assertEquals('failed', \assertFirstModel($failedNotifications, \Modules\Notify\Models\Notification::class)->status);
+        Assert::assertEquals('pending', \assertFirstModel($pendingNotifications, Notification::class)->status);
+        Assert::assertEquals('sent', \assertFirstModel($sentNotifications, Notification::class)->status);
+        Assert::assertEquals('failed', \assertFirstModel($failedNotifications, Notification::class)->status);
     });
 
     test('_can_find_by_tenant_id', function (): void {
-NotificationFactory::new()->createOne([
+        NotificationFactory::new()->createOne([
             'message' => 'Tenant 1 notification',
             'type' => 'info',
             'tenant_id' => 1,
@@ -301,9 +303,9 @@ NotificationFactory::new()->createOne([
 
         Assert::assertCount(2, $tenant1Notifications);
         Assert::assertCount(1, $tenant2Notifications);
-        Assert::assertEquals(1, \assertFirstModel($tenant1Notifications, \Modules\Notify\Models\Notification::class)->tenant_id);
-        Assert::assertEquals(1, \assertFirstModel($tenant1Notifications->slice(1), \Modules\Notify\Models\Notification::class)->tenant_id);
-        Assert::assertEquals(2, \assertFirstModel($tenant2Notifications, \Modules\Notify\Models\Notification::class)->tenant_id);
+        Assert::assertEquals(1, \assertFirstModel($tenant1Notifications, Notification::class)->tenant_id);
+        Assert::assertEquals(1, \assertFirstModel($tenant1Notifications->slice(1), Notification::class)->tenant_id);
+        Assert::assertEquals(2, \assertFirstModel($tenant2Notifications, Notification::class)->tenant_id);
     });
 
 });

@@ -7,15 +7,15 @@ use Modules\Notify\Datas\SmsData;
 
 describe('SendAgiletelecomSMSv2Action', function () {
     it('can be instantiated', function () {
-        expect(new SendAgiletelecomSMSv2Action)->toBeInstanceOf(SendAgiletelecomSMSv2Action::class);
+        expect(new SendAgiletelecomSMSv2Action())->toBeInstanceOf(SendAgiletelecomSMSv2Action::class);
     });
 
     it('implements SmsActionContract', function () {
-        expect(new SendAgiletelecomSMSv2Action)->toBeObject();
+        expect(new SendAgiletelecomSMSv2Action())->toBeObject();
     });
 
     it('has execute method with correct signature', function () {
-        $reflection = new \ReflectionClass(new SendAgiletelecomSMSv2Action);
+        $reflection = new ReflectionClass(new SendAgiletelecomSMSv2Action());
         $method = $reflection->getMethod('execute');
 
         expect($method->isPublic())->toBeTrue();
@@ -23,26 +23,26 @@ describe('SendAgiletelecomSMSv2Action', function () {
     });
 
     it('execute accepts SmsData parameter', function () {
-        $reflection = new \ReflectionClass(new SendAgiletelecomSMSv2Action);
+        $reflection = new ReflectionClass(new SendAgiletelecomSMSv2Action());
         $method = $reflection->getMethod('execute');
         $params = $method->getParameters();
         $type = $params[0]->getType();
 
-        expect($type)->toBeInstanceOf(\ReflectionNamedType::class);
-        expect($type instanceof \ReflectionNamedType ? $type->getName() : '')->toBe(SmsData::class);
+        expect($type)->toBeInstanceOf(ReflectionNamedType::class);
+        expect($type instanceof ReflectionNamedType ? $type->getName() : '')->toBe(SmsData::class);
     });
 
     it('execute returns array', function () {
-        $reflection = new \ReflectionClass(new SendAgiletelecomSMSv2Action);
+        $reflection = new ReflectionClass(new SendAgiletelecomSMSv2Action());
         $method = $reflection->getMethod('execute');
         $returnType = $method->getReturnType();
 
-        expect($returnType)->toBeInstanceOf(\ReflectionNamedType::class);
-        expect($returnType instanceof \ReflectionNamedType ? $returnType->getName() : '')->toBe('array');
+        expect($returnType)->toBeInstanceOf(ReflectionNamedType::class);
+        expect($returnType instanceof ReflectionNamedType ? $returnType->getName() : '')->toBe('array');
     });
 
     it('uses strict types', function () {
-        $reflection = new \ReflectionClass(new SendAgiletelecomSMSv2Action);
+        $reflection = new ReflectionClass(new SendAgiletelecomSMSv2Action());
         $filename = $reflection->getFileName();
 
         expect($filename)->not->toBeNull();
@@ -52,13 +52,13 @@ describe('SendAgiletelecomSMSv2Action', function () {
     });
 
     it('has correct namespace', function () {
-        $reflection = new \ReflectionClass(new SendAgiletelecomSMSv2Action);
+        $reflection = new ReflectionClass(new SendAgiletelecomSMSv2Action());
 
         expect($reflection->getNamespaceName())->toBe('Modules\\Notify\\Actions\\SMS');
     });
 
     it('has required imports', function () {
-        $reflection = new \ReflectionClass(new SendAgiletelecomSMSv2Action);
+        $reflection = new ReflectionClass(new SendAgiletelecomSMSv2Action());
         $filename = $reflection->getFileName();
         /** @var string $filename */
         $content = \Safe\file_get_contents($filename);
@@ -68,7 +68,7 @@ describe('SendAgiletelecomSMSv2Action', function () {
     });
 
     it('does not use QueueableAction trait', function () {
-        $traits = \Safe\class_uses(new SendAgiletelecomSMSv2Action);
+        $traits = \Safe\class_uses(new SendAgiletelecomSMSv2Action());
 
         expect($traits)->not->toContain('Spatie\\QueueableAction\\QueueableAction');
     });

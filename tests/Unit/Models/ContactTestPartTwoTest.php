@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
+
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
@@ -21,21 +22,21 @@ namespace Modules\Notify\Tests\Unit\Models;
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 
-use PHPUnit\Framework\Assert;
+use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Tests\TestCase;
-use Modules\Notify\Database\Factories\ContactFactory;
-use function Pest\Laravel\get;
+use PHPUnit\Framework\Assert;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 
 beforeEach(function (): void {
-    /** @var \Modules\Notify\Tests\TestCase $this */
-$this->disableExceptionHandling();
+    /** @var TestCase $this */
+    $this->disableExceptionHandling();
 });
 
-describe('Contact PartTwo', function (): void {    test('_can_find_by_mobile_phone', function (): void {
-$contact = ContactFactory::new()->createOne([
+describe('Contact PartTwo', function (): void {
+    test('_can_find_by_mobile_phone', function (): void {
+        $contact = ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'phone',
@@ -52,7 +53,7 @@ $contact = ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_name_pattern', function (): void {
-ContactFactory::new()->createOne([
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -91,7 +92,7 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_token', function (): void {
-$contact = ContactFactory::new()->createOne([
+        $contact = ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -107,7 +108,7 @@ $contact = ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_verification_status', function (): void {
-ContactFactory::new()->createOne([
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -133,7 +134,7 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_sms_status', function (): void {
-ContactFactory::new()->createOne([
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'phone',
@@ -163,7 +164,7 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_counters', function (): void {
-ContactFactory::new()->createOne([
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -191,7 +192,7 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_attributes', function (): void {
-ContactFactory::new()->createOne([
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -224,7 +225,7 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_find_by_multiple_criteria', function (): void {
-ContactFactory::new()->createOne([
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -257,7 +258,7 @@ ContactFactory::new()->createOne([
     });
 
     test('_can_handle_null_values', function (): void {
-$contact = ContactFactory::new()->createOne([
+        $contact = ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -277,7 +278,7 @@ $contact = ContactFactory::new()->createOne([
     });
 
     test('_can_order_by_order_column', function (): void {
-ContactFactory::new()->createOne([
+        ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
             'contact_type' => 'email',
@@ -307,7 +308,7 @@ ContactFactory::new()->createOne([
         Assert::assertEquals('first@example.com', $this->firstModel($orderedContacts, Contact::class)->value);
         Assert::assertEquals('second@example.com', $orderedContacts->get(1)?->value);
         Assert::assertEquals('third@example.com', $orderedContacts->get(2)?->value);
-Assert::assertEquals(1, $this->firstModel($orderedContacts, Contact::class)->order_column);
+        Assert::assertEquals(1, $this->firstModel($orderedContacts, Contact::class)->order_column);
         Assert::assertEquals(2, $orderedContacts->get(1)?->order_column);
         Assert::assertEquals(3, $orderedContacts->get(2)?->order_column);
     });

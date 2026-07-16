@@ -14,15 +14,18 @@ class TryDuocircleMailAction
     use QueueableAction;
 
     public ?string $from = null;
+
     public string $to = '';
+
     public ?string $body = null;
 
     /** @var array<string, mixed> */
     public array $vars = [];
 
     /**
-     * @param array<string, mixed> $vars
+     * @param  array<string, mixed>  $vars
      * @return array<int, array{subject: string, attachments: int, body: string, moved: bool}>
+     *
      * @throws Exception
      */
     public function execute(array $vars = []): array
@@ -94,6 +97,7 @@ class TryDuocircleMailAction
     private function invoke(object|string $target, string $method, mixed ...$arguments): mixed
     {
         $reflection = new ReflectionMethod($target, $method);
+
         return $reflection->invokeArgs(is_object($target) ? $target : null, $arguments);
     }
 }

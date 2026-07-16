@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
+
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
@@ -23,22 +24,23 @@ namespace Modules\Notify\Tests\Unit\Models;
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 
-use function Safe\json_encode;
-use PHPUnit\Framework\Assert;
+use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Tests\TestCase;
-use Modules\Notify\Database\Factories\NotificationFactory;
-use function Pest\Laravel\get;
+use PHPUnit\Framework\Assert;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+use function Safe\json_encode;
+
+uses(TestCase::class);
 
 beforeEach(function (): void {
-    /** @var \Modules\Notify\Tests\TestCase $this */
-$this->disableExceptionHandling();
+    /** @var TestCase $this */
+    $this->disableExceptionHandling();
 });
 
-describe('Notification PartTwo', function (): void {    test('_can_find_by_user_id', function (): void {
-NotificationFactory::new()->createOne([
+describe('Notification PartTwo', function (): void {
+    test('_can_find_by_user_id', function (): void {
+        NotificationFactory::new()->createOne([
             'message' => 'User 123 notification',
             'type' => 'info',
             'user_id' => 123,
@@ -61,13 +63,13 @@ NotificationFactory::new()->createOne([
 
         Assert::assertCount(2, $user123Notifications);
         Assert::assertCount(1, $user456Notifications);
-        Assert::assertEquals(123, \assertFirstModel($user123Notifications, \Modules\Notify\Models\Notification::class)->user_id);
-        Assert::assertEquals(123, \assertFirstModel($user123Notifications->slice(1), \Modules\Notify\Models\Notification::class)->user_id);
-        Assert::assertEquals(456, \assertFirstModel($user456Notifications, \Modules\Notify\Models\Notification::class)->user_id);
+        Assert::assertEquals(123, \assertFirstModel($user123Notifications, Notification::class)->user_id);
+        Assert::assertEquals(123, \assertFirstModel($user123Notifications->slice(1), Notification::class)->user_id);
+        Assert::assertEquals(456, \assertFirstModel($user456Notifications, Notification::class)->user_id);
     });
 
     test('_can_find_by_subject', function (): void {
-NotificationFactory::new()->createOne([
+        NotificationFactory::new()->createOne([
             'message' => 'User subject notification',
             'type' => 'info',
             'subject_type' => 'App\Models\User',
@@ -93,13 +95,13 @@ NotificationFactory::new()->createOne([
 
         Assert::assertCount(2, $userSubjectNotifications);
         Assert::assertCount(1, $companySubjectNotifications);
-        Assert::assertEquals('App\Models\User', \assertFirstModel($userSubjectNotifications, \Modules\Notify\Models\Notification::class)->subject_type);
-        Assert::assertEquals('App\Models\User', \assertFirstModel($userSubjectNotifications->slice(1), \Modules\Notify\Models\Notification::class)->subject_type);
-        Assert::assertEquals('App\Models\Company', \assertFirstModel($companySubjectNotifications, \Modules\Notify\Models\Notification::class)->subject_type);
+        Assert::assertEquals('App\Models\User', \assertFirstModel($userSubjectNotifications, Notification::class)->subject_type);
+        Assert::assertEquals('App\Models\User', \assertFirstModel($userSubjectNotifications->slice(1), Notification::class)->subject_type);
+        Assert::assertEquals('App\Models\Company', \assertFirstModel($companySubjectNotifications, Notification::class)->subject_type);
     });
 
     test('_can_find_by_channel', function (): void {
-NotificationFactory::new()->createOne([
+        NotificationFactory::new()->createOne([
             'message' => 'Mail notification',
             'type' => 'info',
             'channels' => ['mail'],
@@ -127,7 +129,7 @@ NotificationFactory::new()->createOne([
     });
 
     test('_can_find_by_data_pattern', function (): void {
-NotificationFactory::new()->createOne([
+        NotificationFactory::new()->createOne([
             'message' => 'High priority notification',
             'type' => 'alert',
             'data' => [
@@ -159,12 +161,12 @@ NotificationFactory::new()->createOne([
 
         Assert::assertCount(1, $highPriorityNotifications);
         Assert::assertCount(1, $securityNotifications);
-        Assert::assertEquals('high', \assertFirstModel($highPriorityNotifications, \Modules\Notify\Models\Notification::class)->data['priority']);
-        Assert::assertEquals('security', \assertFirstModel($securityNotifications, \Modules\Notify\Models\Notification::class)->data['category']);
+        Assert::assertEquals('high', \assertFirstModel($highPriorityNotifications, Notification::class)->data['priority']);
+        Assert::assertEquals('security', \assertFirstModel($securityNotifications, Notification::class)->data['category']);
     });
 
     test('_can_find_by_read_status', function (): void {
-NotificationFactory::new()->createOne([
+        NotificationFactory::new()->createOne([
             'message' => 'Unread notification',
             'type' => 'info',
             'read_at' => null,
@@ -187,13 +189,13 @@ NotificationFactory::new()->createOne([
 
         Assert::assertCount(2, $unreadNotifications);
         Assert::assertCount(1, $readNotifications);
-        Assert::assertNull(\assertFirstModel($unreadNotifications, \Modules\Notify\Models\Notification::class)->read_at);
-        Assert::assertNull(\assertFirstModel($unreadNotifications, \Modules\Notify\Models\Notification::class)->read_at);
-        Assert::assertNotNull(\assertFirstModel($readNotifications, \Modules\Notify\Models\Notification::class)->read_at);
+        Assert::assertNull(\assertFirstModel($unreadNotifications, Notification::class)->read_at);
+        Assert::assertNull(\assertFirstModel($unreadNotifications, Notification::class)->read_at);
+        Assert::assertNotNull(\assertFirstModel($readNotifications, Notification::class)->read_at);
     });
 
     test('_can_find_by_sent_status', function (): void {
-NotificationFactory::new()->createOne([
+        NotificationFactory::new()->createOne([
             'message' => 'Unsent notification',
             'type' => 'info',
             'sent_at' => null,
@@ -216,13 +218,13 @@ NotificationFactory::new()->createOne([
 
         Assert::assertCount(2, $unsentNotifications);
         Assert::assertCount(1, $sentNotifications);
-        Assert::assertNull(\assertFirstModel($unsentNotifications, \Modules\Notify\Models\Notification::class)->sent_at);
-        Assert::assertNull(\assertFirstModel($unsentNotifications, \Modules\Notify\Models\Notification::class)->sent_at);
-        Assert::assertNotNull(\assertFirstModel($sentNotifications, \Modules\Notify\Models\Notification::class)->sent_at);
+        Assert::assertNull(\assertFirstModel($unsentNotifications, Notification::class)->sent_at);
+        Assert::assertNull(\assertFirstModel($unsentNotifications, Notification::class)->sent_at);
+        Assert::assertNotNull(\assertFirstModel($sentNotifications, Notification::class)->sent_at);
     });
 
     test('_can_find_by_date_range', function (): void {
-$yesterday = now()->subDay();
+        $yesterday = now()->subDay();
         $today = now();
         $tomorrow = now()->addDay();
 
@@ -249,11 +251,11 @@ $yesterday = now()->subDay();
 
         Assert::assertCount(1, $todayNotifications);
         Assert::assertCount(2, $recentNotifications); // yesterday and today
-        Assert::assertEquals('Today notification', \assertFirstModel($todayNotifications, \Modules\Notify\Models\Notification::class)->message);
+        Assert::assertEquals('Today notification', \assertFirstModel($todayNotifications, Notification::class)->message);
     });
 
     test('_can_find_by_multiple_criteria', function (): void {
-NotificationFactory::new()->createOne([
+        NotificationFactory::new()->createOne([
             'message' => 'High priority security alert',
             'type' => 'alert',
             'status' => 'pending',
@@ -292,14 +294,14 @@ NotificationFactory::new()->createOne([
             ->get();
 
         Assert::assertCount(1, $pendingHighPriorityTenant1);
-        Assert::assertEquals('High priority security alert', \assertFirstModel($pendingHighPriorityTenant1, \Modules\Notify\Models\Notification::class)->message);
-        Assert::assertEquals('pending', \assertFirstModel($pendingHighPriorityTenant1, \Modules\Notify\Models\Notification::class)->status);
-        Assert::assertEquals(1, \assertFirstModel($pendingHighPriorityTenant1, \Modules\Notify\Models\Notification::class)->tenant_id);
-        Assert::assertEquals('high', \notifyArrayGet(\assertFirstModel($pendingHighPriorityTenant1, \Modules\Notify\Models\Notification::class)->data, 'priority'));
+        Assert::assertEquals('High priority security alert', \assertFirstModel($pendingHighPriorityTenant1, Notification::class)->message);
+        Assert::assertEquals('pending', \assertFirstModel($pendingHighPriorityTenant1, Notification::class)->status);
+        Assert::assertEquals(1, \assertFirstModel($pendingHighPriorityTenant1, Notification::class)->tenant_id);
+        Assert::assertEquals('high', \notifyArrayGet(\assertFirstModel($pendingHighPriorityTenant1, Notification::class)->data, 'priority'));
     });
 
     test('_can_handle_empty_data', function (): void {
-$notification = NotificationFactory::new()->createOne([
+        $notification = NotificationFactory::new()->createOne([
             'message' => 'Empty data notification',
             'type' => 'info',
             'data' => [],
@@ -312,7 +314,7 @@ $notification = NotificationFactory::new()->createOne([
     });
 
     test('_can_handle_empty_channels', function (): void {
-$notification = NotificationFactory::new()->createOne([
+        $notification = NotificationFactory::new()->createOne([
             'message' => 'No channels notification',
             'type' => 'info',
             'channels' => [],
@@ -325,7 +327,7 @@ $notification = NotificationFactory::new()->createOne([
     });
 
     test('_can_handle_null_values', function (): void {
-$notification = NotificationFactory::new()->createOne([
+        $notification = NotificationFactory::new()->createOne([
             'message' => 'Null values notification',
             'type' => 'info',
             'tenant_id' => null,
@@ -342,7 +344,7 @@ $notification = NotificationFactory::new()->createOne([
         Assert::assertNull($notification->user_id);
         Assert::assertNull($notification->subject_type);
         Assert::assertNull($notification->subject_id);
-Assert::assertNull($notification->channels);
+        Assert::assertNull($notification->channels);
         Assert::assertNull($notification->status);
         Assert::assertNull($notification->sent_at);
         Assert::assertNull($notification->data);

@@ -22,8 +22,10 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $status_message
  * @property array<string, mixed>|null $data
  * @property array<string, mixed>|null $metadata
+ *
  * @method static Builder<static> where(string $column, mixed $operator = null, mixed $value = null, string $boolean = 'and')
  * @method static static|null find(mixed $id, array<int, string>|string $columns = ['*'])
+ *
  * @property string $id
  * @property string $title
  * @property string $content
@@ -39,6 +41,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read Model|\Eloquent $notifiable
  * @property-read NotificationTemplate|null $template
  * @property-read ProfileContract|null $updater
+ *
  * @method static \Modules\Notify\Database\Factories\NotificationLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationLog forChannel(string $channel)
  * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
@@ -58,6 +61,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotificationLog whereTitle($value)
  * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
  * @method static Builder<static>|NotificationLog withStatus(string $status)
+ *
  * @mixin \Eloquent
  */
 class NotificationLog extends BaseModel

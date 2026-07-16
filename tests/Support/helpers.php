@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use Mockery\CompositeExpectation;
 use Mockery\MockInterface;
 
 if (! function_exists('typedMock')) {
@@ -14,8 +15,7 @@ if (! function_exists('typedMock')) {
      *
      * @template T of object
      *
-     * @param class-string<T> $class
-     *
+     * @param  class-string<T>  $class
      * @return T&MockInterface
      */
     function typedMock(string $class): MockInterface
@@ -45,7 +45,7 @@ if (! function_exists('mockExpectation')) {
      * `Expectation` interne. Il tipo di ritorno riflette quindi la realta'
      * runtime osservata, non `Mockery\Expectation`.
      */
-    function mockExpectation(MockInterface $mock, string $method): \Mockery\CompositeExpectation
+    function mockExpectation(MockInterface $mock, string $method): CompositeExpectation
     {
         return $mock->shouldReceive($method);
     }

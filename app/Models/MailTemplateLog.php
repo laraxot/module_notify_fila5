@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Modules\Xot\Contracts\ProfileContract;
@@ -23,24 +24,27 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $status_message
  * @property array<string, mixed> $data
  * @property array<string, mixed> $metadata
- * @property \Illuminate\Support\Carbon|null $sent_at
- * @property \Illuminate\Support\Carbon|null $delivered_at
- * @property \Illuminate\Support\Carbon|null $failed_at
- * @property \Illuminate\Support\Carbon|null $opened_at
- * @property \Illuminate\Support\Carbon|null $clicked_at
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property Carbon|null $sent_at
+ * @property Carbon|null $delivered_at
+ * @property Carbon|null $failed_at
+ * @property Carbon|null $opened_at
+ * @property Carbon|null $clicked_at
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
  * @property-read ProfileContract|null $creator
  * @property-read Model|\Eloquent $mailable
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
  * @property-read ProfileContract|null $updater
+ *
  * @method static MailTemplateLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
+ *
  * @property-read ProfileContract|null $deleter
+ *
  * @mixin \Eloquent
  */
 class MailTemplateLog extends BaseModel

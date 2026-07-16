@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
+
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
@@ -17,22 +18,23 @@ namespace Modules\Notify\Tests\Unit\Models;
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 // Notify Pest/PHPUnit — claude-audit documentation ratio.
 
-use function Safe\json_encode;
-use PHPUnit\Framework\Assert;
 use Modules\Notify\Models\MailTemplateLog;
 use Modules\Notify\Tests\TestCase;
-use function Pest\Laravel\get;
+use PHPUnit\Framework\Assert;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+use function Safe\json_encode;
+
+uses(TestCase::class);
 
 beforeEach(function (): void {
-    /** @var \Modules\Notify\Tests\TestCase $this */
-$this->disableExceptionHandling();
+    /** @var TestCase $this */
+    $this->disableExceptionHandling();
 });
 
-describe('Mail Template Log PartOne', function (): void {    test('_can_create_mail_template_log', function (): void {
-        /** @var \Modules\Notify\Tests\TestCase $this */
-$log = MailTemplateLog::create([
+describe('Mail Template Log PartOne', function (): void {
+    test('_can_create_mail_template_log', function (): void {
+        /** @var TestCase $this */
+        $log = MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\WelcomeMail',
             'mailable_id' => 456,
@@ -64,7 +66,7 @@ $log = MailTemplateLog::create([
     });
 
     test('_has_correct_fillable_fields', function (): void {
-$log = new MailTemplateLog;
+        $log = new MailTemplateLog();
 
         $expectedFillable = [
             'template_id',
@@ -85,7 +87,7 @@ $log = new MailTemplateLog;
     });
 
     test('_has_correct_casts', function (): void {
-$log = new MailTemplateLog;
+        $log = new MailTemplateLog();
 
         $expectedCasts = [
             'id' => 'string',
@@ -109,7 +111,7 @@ $log = new MailTemplateLog;
     });
 
     test('_can_store_json_data', function (): void {
-$data = [
+        $data = [
             'to' => 'user@example.com',
             'cc' => ['cc1@example.com', 'cc2@example.com'],
             'bcc' => ['bcc@example.com'],
@@ -141,7 +143,7 @@ $data = [
     });
 
     test('_can_store_json_metadata', function (): void {
-$metadata = [
+        $metadata = [
             'provider' => 'smtp',
             'queue_id' => 'queue_123',
             'attempts' => 3,
@@ -178,7 +180,7 @@ $metadata = [
     });
 
     test('_can_update_status_and_timestamps', function (): void {
-$log = MailTemplateLog::create([
+        $log = MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -196,13 +198,13 @@ $log = MailTemplateLog::create([
             'status_message' => 'Email sent successfully',
         ]);
 
-        Assert::assertEquals('sent', \assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->status);
-        Assert::assertNotNull(\assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->sent_at);
-        Assert::assertEquals('Email sent successfully', \assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->status_message);
+        Assert::assertEquals('sent', \assertFreshModel($log, MailTemplateLog::class)->status);
+        Assert::assertNotNull(\assertFreshModel($log, MailTemplateLog::class)->sent_at);
+        Assert::assertEquals('Email sent successfully', \assertFreshModel($log, MailTemplateLog::class)->status_message);
     });
 
     test('_can_mark_as_delivered', function (): void {
-$log = MailTemplateLog::create([
+        $log = MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -219,12 +221,12 @@ $log = MailTemplateLog::create([
             'status' => 'delivered',
         ]);
 
-        Assert::assertEquals('delivered', \assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->status);
-        Assert::assertNotNull(\assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->delivered_at);
+        Assert::assertEquals('delivered', \assertFreshModel($log, MailTemplateLog::class)->status);
+        Assert::assertNotNull(\assertFreshModel($log, MailTemplateLog::class)->delivered_at);
     });
 
     test('_can_mark_as_failed', function (): void {
-$log = MailTemplateLog::create([
+        $log = MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -242,13 +244,13 @@ $log = MailTemplateLog::create([
             'status_message' => 'SMTP connection failed',
         ]);
 
-        Assert::assertEquals('failed', \assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->status);
-        Assert::assertNotNull(\assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->failed_at);
-        Assert::assertEquals('SMTP connection failed', \assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->status_message);
+        Assert::assertEquals('failed', \assertFreshModel($log, MailTemplateLog::class)->status);
+        Assert::assertNotNull(\assertFreshModel($log, MailTemplateLog::class)->failed_at);
+        Assert::assertEquals('SMTP connection failed', \assertFreshModel($log, MailTemplateLog::class)->status_message);
     });
 
     test('_can_mark_as_opened', function (): void {
-$log = MailTemplateLog::create([
+        $log = MailTemplateLog::create([
             'template_id' => 123,
             'mailable_type' => 'App\Mail\TestMail',
             'mailable_id' => 456,
@@ -261,10 +263,10 @@ $log = MailTemplateLog::create([
         ]);
         \assertNotifyTableHas('mail_template_logs', [
             'id' => $log->id,
-            'opened_at' => \assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->opened_at,
+            'opened_at' => \assertFreshModel($log, MailTemplateLog::class)->opened_at,
         ]);
 
-        Assert::assertNotNull(\assertFreshModel($log, \Modules\Notify\Models\MailTemplateLog::class)->opened_at);
+        Assert::assertNotNull(\assertFreshModel($log, MailTemplateLog::class)->opened_at);
     });
 
 });

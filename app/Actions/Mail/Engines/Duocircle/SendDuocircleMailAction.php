@@ -30,7 +30,7 @@ class SendDuocircleMailAction
     public array $vars = [];
 
     /**
-     * @param array<string, mixed> $vars
+     * @param  array<string, mixed>  $vars
      *
      * @throws RuntimeException
      */

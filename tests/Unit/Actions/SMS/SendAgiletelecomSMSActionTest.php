@@ -5,15 +5,14 @@ declare(strict_types=1);
 use Modules\Notify\Actions\SMS\SendAgiletelecomSMSAction;
 use Modules\Notify\Datas\SmsData;
 
-
 it('SendAgiletelecomSMSAction can be instantiated', function () {
-    $action = new SendAgiletelecomSMSAction;
+    $action = new SendAgiletelecomSMSAction();
     expect($action)->toBeInstanceOf(SendAgiletelecomSMSAction::class);
 });
 
 it('SendAgiletelecomSMSAction has execute method with correct signature', function () {
-    $action = new SendAgiletelecomSMSAction;
-    $reflection = new \ReflectionClass($action);
+    $action = new SendAgiletelecomSMSAction();
+    $reflection = new ReflectionClass($action);
     $method = $reflection->getMethod('execute');
 
     expect($method->isPublic())->toBeTrue();
@@ -21,27 +20,27 @@ it('SendAgiletelecomSMSAction has execute method with correct signature', functi
 });
 
 it('SendAgiletelecomSMSAction execute accepts SmsData parameter', function () {
-    $action = new SendAgiletelecomSMSAction;
-    $reflection = new \ReflectionClass($action);
+    $action = new SendAgiletelecomSMSAction();
+    $reflection = new ReflectionClass($action);
     $method = $reflection->getMethod('execute');
     $params = $method->getParameters();
     $type = $params[0]->getType();
 
-    expect($type instanceof \ReflectionNamedType ? $type->getName() : null)->toBe(SmsData::class);
+    expect($type instanceof ReflectionNamedType ? $type->getName() : null)->toBe(SmsData::class);
 });
 
 it('SendAgiletelecomSMSAction execute returns array', function () {
-    $action = new SendAgiletelecomSMSAction;
-    $reflection = new \ReflectionClass($action);
+    $action = new SendAgiletelecomSMSAction();
+    $reflection = new ReflectionClass($action);
     $method = $reflection->getMethod('execute');
     $returnType = $method->getReturnType();
 
-    expect($returnType instanceof \ReflectionNamedType ? $returnType->getName() : null)->toBe('array');
+    expect($returnType instanceof ReflectionNamedType ? $returnType->getName() : null)->toBe('array');
 });
 
 it('SendAgiletelecomSMSAction uses strict types', function () {
-    $action = new SendAgiletelecomSMSAction;
-    $reflection = new \ReflectionClass($action);
+    $action = new SendAgiletelecomSMSAction();
+    $reflection = new ReflectionClass($action);
     $filename = $reflection->getFileName();
 
     expect($filename)->not->toBeNull();
@@ -51,15 +50,15 @@ it('SendAgiletelecomSMSAction uses strict types', function () {
 });
 
 it('SendAgiletelecomSMSAction has correct namespace', function () {
-    $action = new SendAgiletelecomSMSAction;
-    $reflection = new \ReflectionClass($action);
+    $action = new SendAgiletelecomSMSAction();
+    $reflection = new ReflectionClass($action);
 
     expect($reflection->getNamespaceName())->toBe('Modules\\Notify\\Actions\\SMS');
 });
 
 it('SendAgiletelecomSMSAction has required imports', function () {
-    $action = new SendAgiletelecomSMSAction;
-    $reflection = new \ReflectionClass($action);
+    $action = new SendAgiletelecomSMSAction();
+    $reflection = new ReflectionClass($action);
     $filename = $reflection->getFileName();
     /** @var string $filename */
     $content = \Safe\file_get_contents($filename);
@@ -69,7 +68,7 @@ it('SendAgiletelecomSMSAction has required imports', function () {
 });
 
 it('SendAgiletelecomSMSAction does not use QueueableAction trait', function () {
-    $action = new SendAgiletelecomSMSAction;
+    $action = new SendAgiletelecomSMSAction();
     $traits = \Safe\class_uses($action);
 
     expect($traits)->not->toContain('Spatie\\QueueableAction\\QueueableAction');

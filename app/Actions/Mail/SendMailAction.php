@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\Mail;
 
 use Illuminate\Support\Str;
-use Modules\Notify\Actions\Mail\Engines\Duocircle\SendDuocircleMailAction;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -30,7 +29,7 @@ class SendMailAction
     public array $vars = [];
 
     /**
-     * @param array<string, mixed> $vars
+     * @param  array<string, mixed>  $vars
      *
      * @throws \RuntimeException
      */
@@ -53,9 +52,9 @@ class SendMailAction
         Assert::classExists($engineClass, '['.__LINE__.']['.__CLASS__.'] engine non trovato: '.$this->driver);
 
         $engine = app($engineClass);
-        $execute = [$engine, "execute"];
+        $execute = [$engine, 'execute'];
         if (! is_callable($execute)) {
-            throw new \RuntimeException(sprintf("Engine [%s] privo di execute().", $engineClass));
+            throw new \RuntimeException(sprintf('Engine [%s] privo di execute().', $engineClass));
         }
 
         $execute($this->vars);
