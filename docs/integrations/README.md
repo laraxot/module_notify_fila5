@@ -1,3 +1,22 @@
+---
+title: "Integrazioni"
+type: index
+tags: [notify, docs, integrations]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione integrations readme integrazioni index readme frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - ../README.md
+  - ../wiki/index.md
+  - ../notifications/readme.md
+  - readme.md
+  - ../templates/readme.md
+---
 # Integrazioni
 
 ## Panoramica
@@ -117,7 +136,7 @@ class MailtrapService
 - Ogni sezione ha il suo README.md specifico
 
 ## Contribuire
-Per contribuire alla documentazione, seguire le [Linee Guida](../../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../../docs/regole_collegamenti_documentazione.md).
+Per contribuire alla documentazione, seguire le [Linee Guida](../../../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/README_links.md). 
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../../docs/readme_links.md). 

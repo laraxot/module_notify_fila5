@@ -4,48 +4,94 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests;
 
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\DB;
+use Modules\Notify\Actions\NotificationManager;
 use Modules\Notify\Providers\NotifyServiceProvider;
+use Modules\User\Models\User;
 use Modules\User\Providers\UserServiceProvider;
-use Modules\Xot\Providers\XotServiceProvider;
-use Modules\Xot\Tests\CreatesApplication;
+use Modules\Xot\Tests\XotBaseTestCase;
+use PHPUnit\Framework\Assert;
 
 /**
  * Base test case for Notify module.
  *
  * Uses MySQL from .env.testing.
+ * All module connections are mapped by TenantServiceProvider.
+ * Migrations must be run ONCE externally: php artisan migrate --env=testing
+ * DatabaseTransactions handles rollback between tests.
+ *
+ * @property object|null $sendNotificationAction
  */
-abstract class TestCase extends BaseTestCase
+abstract class TestCase extends XotBaseTestCase
 {
-    use CreatesApplication;
     use DatabaseTransactions;
 
-    protected static bool $migrated = false;
+    public NotificationManager $notificationManager;
+
+    /** @var list<string> */
+    protected $connectionsToTransact = ['sqlite', 'notify', 'user'];
 
     protected function setUp(): void
     {
         parent::setUp();
 
-        if (! self::$migrated) {
-            $this->artisan('migrate:fresh', [
-                '--force' => true,
-            ]);
+        $database = database_path('fixcity_data.sqlite');
 
-            $this->artisan('module:migrate', [
-                '--force' => true,
-            ]);
+        /** @var array<string, array<string, mixed>> $connections */
+        $connections = config('database.connections', []);
 
-            self::$migrated = true;
+        foreach (array_keys($connections) as $connection) {
+            if (config("database.connections.{$connection}.driver") !== 'sqlite') {
+                continue;
+            }
+
+            $this->app['config']->set("database.connections.{$connection}.database", $database);
+            DB::purge($connection);
         }
+
+        config(['auth.providers.users.model' => User::class]);
     }
 
-    protected function getPackageProviders($app): array
+    protected function getPackageProviders(Application $app): array
     {
         return [
-            NotifyServiceProvider::class,
+            ...parent::getPackageProviders($app),
             UserServiceProvider::class,
-            XotServiceProvider::class,
+            NotifyServiceProvider::class,
         ];
+    }
+
+    /**
+     * @template T of Model
+     *
+     * @param  T  $model
+     * @param  class-string<T>  $class
+     * @return T
+     */
+    public function freshModel(Model $model, string $class)
+    {
+        $fresh = $model->fresh();
+        Assert::assertInstanceOf($class, $fresh);
+
+        return $fresh;
+    }
+
+    /**
+     * @template T of Model
+     *
+     * @param  Collection<int, T>  $collection
+     * @param  class-string<T>  $class
+     * @return T
+     */
+    public function firstModel(Collection $collection, string $class)
+    {
+        $first = $collection->first();
+        Assert::assertInstanceOf($class, $first);
+
+        return $first;
     }
 }

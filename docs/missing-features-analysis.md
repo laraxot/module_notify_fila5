@@ -1,6 +1,6 @@
 # Analisi Funzionalità Mancanti - Modulo Notify
 
-**Data Analisi**: 2026-01-22  
+**Data Analisi**: [DATE]  
 **Versione LimeSurvey Upstream**: 5.4.x+  
 **Repository Upstream**: https://github.com/LimeSurvey/LimeSurvey
 
@@ -136,7 +136,7 @@ Il modulo **Notify** è il motore di comunicazione dell'applicazione, fornendo:
 - [ ] **Click Heatmaps** - Mappe di calore click
 - [ ] **Conversion Funnels** - Funnel conversione
 - [ ] **Engagement Scoring** - Scoring engagement
-- [ ] **Predictive Analytics** - Analisi predittive
+- [ ] **<nome progetto>ive Analytics** - Analisi predittive
 - [ ] **Cohort Analysis** - Analisi coorti
 - [ ] **Attribution Modeling** - Modelli attribuzione
 
@@ -203,7 +203,7 @@ Nessuna funzionalità critica mancante - il modulo Notify è ben implementato
 ### ⚪ BASSA (Nice to Have)
 
 1. **Rich Media Push** - Push con media
-2. **Predictive Analytics** - Analisi predittive
+2. **<nome progetto>ive Analytics** - Analisi predittive
 3. **Advanced Segmentation** - Segmentazione avanzata
 
 ## Roadmap Implementazione
@@ -228,11 +228,10 @@ Nessuna funzionalità critica mancante - il modulo Notify è ben implementato
 
 ## Collegamenti
 
-- [Modulo Quaeris](../Quaeris/docs/README.md)
-- [Modulo Limesurvey](../Limesurvey/docs/README.md)
-- [Notify README](./README.md)
+- [Modulo Quaeris](../Quaeris/docs/readme.md)
+- [Modulo Limesurvey](../limesurvey/docs/readme.md)
+- [Notify README](./readme.md)
 
 ---
 
-**Ultimo Aggiornamento**: 2026-01-22  
-**Prossima Revisione**: 2026-02-22
+**Prossima Revisione**: [DATE]

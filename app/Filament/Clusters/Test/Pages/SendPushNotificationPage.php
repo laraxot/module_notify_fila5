@@ -28,12 +28,13 @@ use Webmozart\Assert\Assert;
 use function Safe\json_encode;
 
 /**
- * @property \Filament\Schemas\Schema $notificationForm
+ * @property Schema $notificationForm
  */
 class SendPushNotificationPage extends XotBasePage
 {
     // use NavigationLabelTrait;
 
+    /** @var array<string, mixed>|null */
     public ?array $notificationData = [];
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
@@ -180,7 +181,8 @@ class SendPushNotificationPage extends XotBasePage
         // Verifichiamo che deviceToken sia una stringa non vuota (per soddisfare il tipo non-empty-string)
         Assert::stringNotEmpty($deviceToken, 'Il token del dispositivo non può essere vuoto');
 
-        $message = CloudMessage::withTarget('token', $deviceToken)
+        $message = CloudMessage::new()
+            ->withToken($deviceToken)
             ->withHighestPossiblePriority()
             ->withData($messageData);
 
@@ -212,10 +214,11 @@ class SendPushNotificationPage extends XotBasePage
         ];
     }
 
+    /** @return array<string, \Filament\Actions\Action> */
     protected function getNotificationFormActions(): array
     {
         return [
-            Action::make('notificationFormActions')
+            'submit' => Action::make('notificationFormActions')
 
                 ->submit('notificationFormActions'),
         ];

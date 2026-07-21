@@ -27,21 +27,24 @@ use Spatie\Translatable\HasTranslations;
  * @property string $subject
  * @property string|null $body_html
  * @property string|null $body_text
- * @property array $channels
- * @property array $variables
- * @property array|null $conditions
- * @property array|null $preview_data
- * @property array|null $metadata
+ * @property array<int, string> $channels
+ * @property array<string, mixed> $variables
+ * @property array<string, mixed>|null $conditions
+ * @property array<string, mixed>|null $preview_data
+ * @property array<string, mixed>|null $metadata
  * @property string|null $category
  * @property bool $is_active
  * @property int $version
  * @property int|null $tenant_id
- * @property array|null $grapesjs_data
+ * @property array<string, mixed>|null $grapesjs_data
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property Carbon|null $deleted_at
+ *
  * @property-read string $channels_label
+ *
  * @property NotificationTypeEnum $type
+ *
  * @property-read ProfileContract|null $creator
  * @property-read int|null $logs_count
  * @property-read MediaCollection<int, Media> $media
@@ -58,13 +61,40 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate newQuery()
  * @method static Builder<static>|NotificationTemplate query()
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
- * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
+ * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array<int, string> $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
- * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
- *
- * @mixin IdeHelperNotificationTemplate
+ * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array<int, string> $locales)
  *
  * @property-read ProfileContract|null $deleter
+ *
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property string|null $deleted_by
+ *
+ * @method static Builder<static>|NotificationTemplate whereBodyHtml($value)
+ * @method static Builder<static>|NotificationTemplate whereBodyText($value)
+ * @method static Builder<static>|NotificationTemplate whereCategory($value)
+ * @method static Builder<static>|NotificationTemplate whereChannels($value)
+ * @method static Builder<static>|NotificationTemplate whereCode($value)
+ * @method static Builder<static>|NotificationTemplate whereConditions($value)
+ * @method static Builder<static>|NotificationTemplate whereCreatedAt($value)
+ * @method static Builder<static>|NotificationTemplate whereCreatedBy($value)
+ * @method static Builder<static>|NotificationTemplate whereDeletedAt($value)
+ * @method static Builder<static>|NotificationTemplate whereDeletedBy($value)
+ * @method static Builder<static>|NotificationTemplate whereDescription($value)
+ * @method static Builder<static>|NotificationTemplate whereGrapesjsData($value)
+ * @method static Builder<static>|NotificationTemplate whereId($value)
+ * @method static Builder<static>|NotificationTemplate whereIsActive($value)
+ * @method static Builder<static>|NotificationTemplate whereMetadata($value)
+ * @method static Builder<static>|NotificationTemplate whereName($value)
+ * @method static Builder<static>|NotificationTemplate wherePreviewData($value)
+ * @method static Builder<static>|NotificationTemplate whereSubject($value)
+ * @method static Builder<static>|NotificationTemplate whereTenantId($value)
+ * @method static Builder<static>|NotificationTemplate whereType($value)
+ * @method static Builder<static>|NotificationTemplate whereUpdatedAt($value)
+ * @method static Builder<static>|NotificationTemplate whereUpdatedBy($value)
+ * @method static Builder<static>|NotificationTemplate whereVariables($value)
+ * @method static Builder<static>|NotificationTemplate whereVersion($value)
  *
  * @mixin \Eloquent
  */
@@ -73,6 +103,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     use HasTranslations;
     use InteractsWithMedia;
 
+    /** @var list<string> */
     public array $translatable = [
         'subject',
         'body_text',
@@ -145,6 +176,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Compile the template with the given data.
      *
      * @param  array<string, mixed>  $data  The data to compile the template with
+     *
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function compile(array $data = []): array
@@ -185,6 +217,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Preview the template with the given data.
      *
      * @param  array<string, mixed>  $data  Additional data to merge with preview data
+     *
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function preview(array $data = []): array
@@ -199,33 +232,39 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
     /**
      * Scope a query to only include active templates.
-     *
-     * @param  Builder  $query
-     * @return Builder
      */
-    public function scopeActive($query)
+    /**
+     * @param  Builder<static>  $query
+     *
+     * @return Builder<static>
+     */
+    public function scopeActive(Builder $query): Builder
     {
         return $query->where('is_active', true);
     }
 
     /**
      * Scope a query to only include templates for a specific channel.
-     *
-     * @param  Builder  $query
-     * @return Builder
      */
-    public function scopeForChannel($query, string $channel)
+    /**
+     * @param  Builder<static>  $query
+     *
+     * @return Builder<static>
+     */
+    public function scopeForChannel(Builder $query, string $channel): Builder
     {
         return $query->whereJsonContains('channels', $channel);
     }
 
     /**
      * Scope a query to only include templates for a specific category.
-     *
-     * @param  Builder  $query
-     * @return Builder
      */
-    public function scopeForCategory($query, string $category)
+    /**
+     * @param  Builder<static>  $query
+     *
+     * @return Builder<static>
+     */
+    public function scopeForCategory(Builder $query, string $category): Builder
     {
         return $query->where('category', $category);
     }
@@ -276,6 +315,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
         return $this;
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getPreviewData(): array
     {
         return $this->preview_data ?? [];

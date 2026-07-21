@@ -14,8 +14,6 @@ use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -31,14 +29,13 @@ use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 
 /**
- * @property \Filament\Schemas\Schema $emailForm
+ * @property Schema $emailForm
  */
-class SendTelegram extends XotBasePage implements HasForms
+class SendTelegram extends XotBasePage
 {
-    use InteractsWithForms;
-
     // use NavigationLabelTrait;
 
+    /** @var array<string, mixed>|null */
     public ?array $emailData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -114,10 +111,11 @@ class SendTelegram extends XotBasePage implements HasForms
         ];
     }
 
+    /** @return array<string, \Filament\Actions\Action> */
     protected function getEmailFormActions(): array
     {
         return [
-            Action::make('emailFormActions')
+            'submit' => Action::make('emailFormActions')
 
                 ->submit('emailFormActions'),
         ];

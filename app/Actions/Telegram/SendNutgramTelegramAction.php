@@ -8,14 +8,14 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+use Modules\Notify\Contracts\TelegramProviderActionInterface;
 use Modules\Notify\Datas\TelegramData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
-use Spatie\QueueableAction\QueueableAction;
-
 use function Safe\json_decode;
 use function Safe\json_encode;
+use Spatie\QueueableAction\QueueableAction;
 
-final class SendNutgramTelegramAction
+final class SendNutgramTelegramAction implements TelegramProviderActionInterface
 {
     use QueueableAction;
 
@@ -59,21 +59,13 @@ final class SendNutgramTelegramAction
      * Execute the action.
      *
      * @param  TelegramData  $telegramData  I dati del messaggio Telegram
+     *
      * @return array<string, mixed> Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
     {
-        // Log di debug se abilitato
-        if ($this->debug) {
-            Log::debug('Invio Telegram Nutgram', [
-                'chat_id' => $telegramData->chatId,
-                'message_length' => strlen($telegramData->text),
-                'type' => $telegramData->type,
-            ]);
-        }
-
         $client = new Client([
             'timeout' => $this->timeout,
             'base_uri' => $this->apiUrl,
@@ -133,7 +125,7 @@ final class SendNutgramTelegramAction
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
 
-            Log::info('Telegram Nutgram inviato con successo', [
+            Log::debug('Telegram Nutgram inviato con successo', [
                 'chat_id' => $telegramData->chatId,
                 'response_code' => $statusCode,
             ]);

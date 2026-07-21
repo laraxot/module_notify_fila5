@@ -6,15 +6,14 @@ namespace Modules\Notify\Actions;
 
 use Exception;
 use Modules\Notify\Datas\SmsData;
-use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
-
 use function Safe\curl_exec;
 use function Safe\curl_getinfo;
 use function Safe\curl_init;
 use function Safe\curl_setopt;
 use function Safe\json_decode;
 use function Safe\json_encode;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
 
 /**
  * @property string $base_endpoint
@@ -26,7 +25,7 @@ class EsendexSendAction
     public string $base_endpoint = 'https://app.messaggissima.it/API/v1.0/REST/';
 
     /**
-     * Sends an SMS message.
+     * @return array<string, mixed>
      */
     public function execute(SmsData $smsData): array
     {
@@ -81,12 +80,12 @@ class EsendexSendAction
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
 
+        /** @var array<string, mixed> $res */
         return $res;
     }
 
     /**
-     * Authenticates the user given it's username and password.
-     * Returns the pair user_key, Session_key.
+     * @return array<int, string>|null
      */
     public function login(): ?array
     {

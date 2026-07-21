@@ -1,3 +1,22 @@
+---
+title: "Modulo Notify"
+type: concept
+tags: [notify, docs, architecture, structure]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione architecture structure modulo notify frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - ../README.md
+  - README.md
+  - ../conventions/README.md
+  - ../rules/README.md
+  - ../best-practices/naming-conventions.md
+---
 # Modulo Notify
 
 Data: 2025-04-23 19:09:56
@@ -7,7 +26,7 @@ Data: 2025-04-23 19:09:56
 - **Namespace principale**: Modules\\Notify
 Modules\\Notify\\Database\\Factories
 Modules\\Notify\\Database\\Seeders
-- **Pacchetto Composer**: laraxot/module_notify_fila3
+- **Pacchetto Composer**: laraxot/module_notify_fila5
 Marco Sottana
 - **Dipendenze**: aws/aws-sdk-php * filament/filament * illuminate/contracts * illuminate/support * irazasyed/telegram-bot-sdk * kreait/laravel-firebase * laravel-notification-channels/fcm * laravel-notification-channels/telegram * phpdocumentor/type-resolver * symfony/http-client * symfony/postmark-mailer * repositories type path url ../Xot type path 
 - **Totale file PHP**: 165
@@ -437,21 +456,21 @@ tests/Unit
 
 ## Collegamenti tra versioni di structure.md
 * [structure.md](bashscripts/docs/structure.md)
-* [structure.md](../../../Gdpr/docs/structure.md)
-* [structure.md](../../../Notify/docs/structure.md)
-* [structure.md](../../../Xot/docs/structure.md)
-* [structure.md](../../../Xot/docs/base/structure.md)
-* [structure.md](../../../Xot/docs/config/structure.md)
-* [structure.md](../../../User/docs/structure.md)
-* [structure.md](../../../UI/docs/structure.md)
-* [structure.md](../../../Lang/docs/structure.md)
-* [structure.md](../../../Job/docs/structure.md)
-* [structure.md](../../../Media/docs/structure.md)
-* [structure.md](../../../Tenant/docs/structure.md)
-* [structure.md](../../../Activity/docs/structure.md)
-* [structure.md](../../../Cms/docs/structure.md)
-* [structure.md](../../../Cms/docs/themes/structure.md)
-* [structure.md](../../../Cms/docs/components/structure.md)
+* [structure.md](../../../gdpr/docs/structure.md)
+* [structure.md](../../../notify/docs/structure.md)
+* [structure.md](../../../xot/docs/structure.md)
+* [structure.md](../../../xot/docs/base/structure.md)
+* [structure.md](../../../xot/docs/config/structure.md)
+* [structure.md](../../../user/docs/structure.md)
+* [structure.md](../../../ui/docs/structure.md)
+* [structure.md](../../../lang/docs/structure.md)
+* [structure.md](../../../job/docs/structure.md)
+* [structure.md](../../../media/docs/structure.md)
+* [structure.md](../../../tenant/docs/structure.md)
+* [structure.md](../../../activity/docs/structure.md)
+* [structure.md](../../../cms/docs/structure.md)
+* [structure.md](../../../cms/docs/themes/structure.md)
+* [structure.md](../../../cms/docs/components/structure.md)
 
 
 ---

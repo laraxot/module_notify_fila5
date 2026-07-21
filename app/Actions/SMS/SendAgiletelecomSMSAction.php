@@ -7,12 +7,18 @@ namespace Modules\Notify\Actions\SMS;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Override;
+use Spatie\QueueableAction\QueueableAction;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
  */
 class SendAgiletelecomSMSAction implements SmsActionContract
 {
+    use QueueableAction;
+
+    /**
+     * @return array<string, mixed>
+     */
     #[Override]
     public function execute(SmsData $data): array
     {

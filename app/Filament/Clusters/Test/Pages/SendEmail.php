@@ -9,8 +9,6 @@ use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
@@ -24,14 +22,13 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
- * @property \Filament\Schemas\Schema $emailForm
+ * @property Schema $emailForm
  */
-class SendEmail extends XotBasePage implements HasForms
+class SendEmail extends XotBasePage
 {
-    use InteractsWithForms;
-
     // use NavigationLabelTrait;
 
+    /** @var array<string, mixed>|null */
     public ?array $emailData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -86,10 +83,11 @@ class SendEmail extends XotBasePage implements HasForms
         ];
     }
 
+    /** @return array<string, \Filament\Actions\Action> */
     protected function getEmailFormActions(): array
     {
         return [
-            Action::make('emailFormActions')->submit('emailFormActions'),
+            'submit' => Action::make('emailFormActions')->submit('emailFormActions'),
         ];
     }
 

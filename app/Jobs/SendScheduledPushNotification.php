@@ -12,7 +12,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
-use Modules\Notify\Services\PushNotificationService;
+use Modules\Notify\Actions\Push\SendPushToDevicesAction;
 use Throwable;
 use Webmozart\Assert\Assert;
 
@@ -28,12 +28,13 @@ class SendScheduledPushNotification implements ShouldQueue
 
     public function __construct(
         private string $jobId
-    ) {}
+    ) {
+    }
 
     /**
      * Execute the job.
      */
-    public function handle(PushNotificationService $pushService): void
+    public function handle(): void
     {
         try {
             // Recupera dati notifica programmata
@@ -49,24 +50,29 @@ class SendScheduledPushNotification implements ShouldQueue
 
             Assert::isArray($notificationData, 'Notification data must be array');
 
-            $tokens = $notificationData['tokens'] ?? [];
-            Assert::isArray($tokens, 'Tokens must be array');
+            $rawTokens = $notificationData['tokens'] ?? [];
+            Assert::isArray($rawTokens, 'Tokens must be array');
+            /** @var list<string> $tokens */
+            $tokens = array_values(array_filter($rawTokens, is_string(...)));
 
-            $notification = $notificationData['notification'] ?? [];
-            Assert::isArray($notification, 'Notification must be array');
+            $rawNotification = $notificationData['notification'] ?? [];
+            Assert::isArray($rawNotification, 'Notification must be array');
+            /** @var array<string, mixed> $notification */
+            $notification = $rawNotification;
 
-            $data = $notificationData['data'] ?? [];
-            Assert::isArray($data, 'Data must be array');
+            $rawData = $notificationData['data'] ?? [];
+            Assert::isArray($rawData, 'Data must be array');
+            /** @var array<string, mixed> $data */
+            $data = $rawData;
 
-            // Invia notifica
-            $result = $pushService->sendToDevices(
+            $result = app(SendPushToDevicesAction::class)->execute(
                 $tokens,
                 $notification,
                 $data
             );
 
             // Log risultato
-            Log::info('Scheduled push notification sent', [
+            Log::debug('Scheduled push notification sent', [
                 'job_id' => $this->jobId,
                 'result' => $result,
             ]);

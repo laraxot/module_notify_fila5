@@ -28,10 +28,11 @@ use Override;
 use Webmozart\Assert\Assert;
 
 /**
- * @property \Filament\Schemas\Schema $emailForm
+ * @property Schema $emailForm
  */
 class SendSpatieEmailPage extends XotBasePage
 {
+    /** @var array<string, mixed>|null */
     public ?array $emailData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -66,7 +67,7 @@ class SendSpatieEmailPage extends XotBasePage
     }
 
     /**
-     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Select|\Filament\Forms\Components\RichEditor>
+     * @return array<string, TextInput|Select|RichEditor>
      */
     public function getEmailFormSchema(): array
     {
@@ -92,7 +93,6 @@ class SendSpatieEmailPage extends XotBasePage
          * Mail::to($data['recipient'])->send(
          * new EmailDataEmail($email_data)
          * );
-         *
          *
          */
         $user = $this->getUser();
@@ -135,10 +135,11 @@ class SendSpatieEmailPage extends XotBasePage
             ->send();
     }
 
+    /** @return array<string, \Filament\Actions\Action> */
     protected function getEmailFormActions(): array
     {
         return [
-            Action::make('emailFormActions')->submit('emailFormActions'),
+            'submit' => Action::make('emailFormActions')->submit('emailFormActions'),
         ];
     }
 

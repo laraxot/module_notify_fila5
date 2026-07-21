@@ -6,6 +6,7 @@ namespace Modules\Notify\Traits;
 
 use Illuminate\Cache\RateLimiter;
 
+/** @phpstan-ignore trait.unused */
 trait HasNotificationRateLimiting
 {
     /**
@@ -19,8 +20,8 @@ trait HasNotificationRateLimiting
             return true;
         }
 
-        $maxAttempts = config('notify.rate_limiting.max_attempts', 5);
-        $decayMinutes = config('notify.rate_limiting.decay_minutes', 1);
+        $maxAttempts = (int) config('notify.rate_limiting.max_attempts', 5);
+        $decayMinutes = (int) config('notify.rate_limiting.decay_minutes', 1);
 
         /** @var RateLimiter */
         $limiter = app(RateLimiter::class);
@@ -38,6 +39,7 @@ trait HasNotificationRateLimiting
      * Ottiene il tempo rimanente prima che il rate limiting si resetti.
      *
      * @param  string  $key  Chiave univoca per il rate limiting
+     *
      * @return int Secondi rimanenti
      */
     protected function getNotificationRateLimitRetryAfter(string $key): int
@@ -52,16 +54,17 @@ trait HasNotificationRateLimiting
      * Ottiene il numero di tentativi rimanenti per il rate limiting.
      *
      * @param  string  $key  Chiave univoca per il rate limiting
+     *
      * @return int Tentativi rimanenti
      */
     protected function getNotificationRateLimitRemainingAttempts(string $key): int
     {
-        $maxAttempts = config('notify.rate_limiting.max_attempts', 5);
+        $maxAttempts = (int) config('notify.rate_limiting.max_attempts', 5);
 
         /** @var RateLimiter */
         $limiter = app(RateLimiter::class);
 
-        return $maxAttempts - $limiter->attempts($key);
+        return $maxAttempts - (int) $limiter->attempts($key);
     }
 
     /**
@@ -84,6 +87,6 @@ trait HasNotificationRateLimiting
      */
     protected function getNotificationRateLimitKey(string $type, mixed $identifier): string
     {
-        return "notify:{$type}:{$identifier}";
+        return 'notify:'.$type.':'.(string) $identifier;
     }
 }

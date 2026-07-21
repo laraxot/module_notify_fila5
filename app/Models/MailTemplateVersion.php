@@ -23,7 +23,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $subject
  * @property string $html_template
  * @property string|null $text_template
- * @property array|null $metadata
+ * @property array<string, mixed>|null $metadata
  * @property string|null $created_by
  * @property string|null $change_notes
  * @property Carbon|null $created_at
@@ -31,6 +31,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Carbon|null $deleted_at
  * @property string|null $updated_by
  * @property string|null $deleted_by
+ *
  * @property-read ProfileContract|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
@@ -59,8 +60,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateVersion withTrashed()
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
  *
- * @mixin IdeHelperMailTemplateVersion
- *
  * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
@@ -69,7 +68,6 @@ class MailTemplateVersion extends BaseModel
 {
     use SoftDeletes, Updater;
 
-    /** @var string */
     protected $connection = 'notify';
 
     /** @var list<string> */
@@ -84,12 +82,13 @@ class MailTemplateVersion extends BaseModel
         'change_notes',
     ];
 
+    /** @return BelongsTo<MailTemplate, $this> */
     public function template(): BelongsTo
     {
         return $this->belongsTo(MailTemplate::class, 'template_id');
     }
 
-    public function restore(): MailTemplate
+    public function restoreTemplate(): MailTemplate
     {
         $template = $this->template;
 

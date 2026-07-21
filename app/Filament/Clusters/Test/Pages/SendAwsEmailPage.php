@@ -24,10 +24,11 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Override;
 
 /**
- * @property \Filament\Schemas\Schema $emailForm
+ * @property Schema $emailForm
  */
 class SendAwsEmailPage extends XotBasePage
 {
+    /** @var array<string, mixed>|null */
     public ?array $emailData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
@@ -69,7 +70,7 @@ class SendAwsEmailPage extends XotBasePage
     }
 
     /**
-     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\RichEditor|\Filament\Forms\Components\Select|\Filament\Forms\Components\Toggle>
+     * @return array<string, TextInput|RichEditor|Select|Toggle>
      */
     public function getEmailFormSchema(): array
     {
@@ -138,10 +139,11 @@ class SendAwsEmailPage extends XotBasePage
         }
     }
 
+    /** @return array<string, \Filament\Actions\Action> */
     protected function getEmailFormActions(): array
     {
         return [
-            Action::make('sendEmail')->label(__('notify::email.actions.send'))->submit('sendEmail'),
+            'submit' => Action::make('sendEmail')->label(__('notify::email.actions.send'))->submit('sendEmail'),
         ];
     }
 

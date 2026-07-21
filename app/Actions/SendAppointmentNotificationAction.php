@@ -34,18 +34,16 @@ class SendAppointmentNotificationAction
         array $additionalData = []
     ): bool {
         try {
-            // Carica il paziente con le relazioni necessarie
-            $patient = null; // Patient::with('user')->find($appointment->patient_id);
+            // Patient::with('user')->find($appointment->patient_id); — modello non disponibile in questo progetto
 
             // Since patient models are not available in this project,
             // we return early with logging
-            Log::info('Notification service not fully implemented - missing Patient models', [
+            Log::debug('Notification service not fully implemented - missing Patient models', [
                 'type' => $type,
                 'additional_data' => $additionalData,
             ]);
 
             return false;
-
         } catch (Exception $e) {
             Log::error('Errore nell\'invio della notifica di appuntamento', [
                 'type' => $type,
@@ -56,5 +54,4 @@ class SendAppointmentNotificationAction
             return false;
         }
     }
-
 }

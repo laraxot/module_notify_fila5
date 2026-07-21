@@ -2,16 +2,19 @@
 
 declare(strict_types=1);
 
-uses(\Modules\Notify\Tests\TestCase::class);
-
+namespace Modules\Notify\Tests\Unit\Models;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Models\NotificationTemplate;
+use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+
+uses(\Modules\Notify\Tests\TestCase::class);
 
 /**
  * Unit tests must not bootstrap the application container.
  */
 it('has correct fillable fields', function (): void {
-    $reflection = new ReflectionClass(NotificationTemplate::class);
+    $reflection = new \ReflectionClass(NotificationTemplate::class);
     $instance = $reflection->newInstanceWithoutConstructor();
 
     $fillableProperty = $reflection->getProperty('fillable');
@@ -39,11 +42,11 @@ it('has correct fillable fields', function (): void {
         'type',
     ];
 
-    expect($fillable)->toBe($expectedFillable);
+    Assert::assertSame($expectedFillable, $fillable);
 });
 
 it('has correct casts', function (): void {
-    $reflection = new ReflectionClass(NotificationTemplate::class);
+    $reflection = new \ReflectionClass(NotificationTemplate::class);
     $instance = $reflection->newInstanceWithoutConstructor();
 
     $castsMethod = $reflection->getMethod('casts');
@@ -64,11 +67,11 @@ it('has correct casts', function (): void {
         'grapesjs_data' => 'array',
     ];
 
-    expect($casts)->toBe($expectedCasts);
+    Assert::assertSame($expectedCasts, $casts);
 });
 
 it('has translatable fields', function (): void {
-    $reflection = new ReflectionClass(NotificationTemplate::class);
+    $reflection = new \ReflectionClass(NotificationTemplate::class);
     $instance = $reflection->newInstanceWithoutConstructor();
 
     $translatableProperty = $reflection->getProperty('translatable');
@@ -82,5 +85,5 @@ it('has translatable fields', function (): void {
         'body_html',
     ];
 
-    expect($translatable)->toBe($expectedTranslatable);
+    Assert::assertSame($expectedTranslatable, $translatable);
 });

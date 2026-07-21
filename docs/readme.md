@@ -1,15 +1,22 @@
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-# Modulo Notify - Analisi Completa
-=======
+---
+title: "Modulo Notify - Documentazione"
+type: index
+tags: [notify, docs]
+module: Notify
+created: 2026-07-20
+updated: 2026-07-20
+qmd: "notify documentazione readme modulo notify - documentazione index readme frontmatter qmd search"
+issues:
+  - "https://github.com/laraxot/module_notify_fila5/issues/56"
+discussions:
+  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
+related:
+  - README.md
+  - wiki/index.md
+  - notifications/readme.md
+  - integrations/readme.md
+  - templates/readme.md
+---
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -244,27 +251,12 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 
 ---
 
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
 **Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
 **Versione**: 1.1  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base  
 **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
-=======
+
 ## 🔗 Collegamenti
 
 ### Moduli Correlati

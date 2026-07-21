@@ -25,10 +25,11 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Override;
 
 /**
- * @property \Filament\Schemas\Schema $pushForm
+ * @property Schema $pushForm
  */
 class SendFirebasePushNotificationPage extends XotBasePage
 {
+    /** @var array<string, mixed>|null */
     public ?array $pushData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-bell-alert';
@@ -60,7 +61,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
     }
 
     /**
-     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Textarea|\Filament\Forms\Components\Select|\Filament\Forms\Components\Toggle|\Filament\Forms\Components\KeyValue>
+     * @return array<string, TextInput|Textarea|Select|Toggle|KeyValue>
      */
     public function getPushFormSchema(): array
     {
@@ -129,7 +130,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->send();
 
             // Loggare l'invio
-            Log::info('Notifica push inviata con successo', [
+            Log::debug('Notifica push inviata con successo', [
                 'token' => $data['token'],
                 'title' => $data['title'],
                 'type' => $data['notification_type'],
@@ -150,10 +151,11 @@ class SendFirebasePushNotificationPage extends XotBasePage
         }
     }
 
+    /** @return array<string, \Filament\Actions\Action> */
     protected function getPushFormActions(): array
     {
         return [
-            Action::make('sendPushNotification')
+            'submit' => Action::make('sendPushNotification')
                 ->label(__('notify::push.actions.send'))
                 ->submit('sendPushNotification'),
         ];

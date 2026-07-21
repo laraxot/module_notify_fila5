@@ -8,17 +8,18 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Messages\MailMessage;
 use Modules\Notify\Actions\NotifyTheme\Get;
 use Modules\Notify\Datas\AttachmentData;
+use Modules\Notify\Datas\NotifyThemeData;
+use function Safe\mb_convert_encoding;
 use Spatie\LaravelData\DataCollection;
 use Spatie\QueueableAction\QueueableAction;
-
-use function Safe\mb_convert_encoding;
 
 class BuildMailMessageAction
 {
     use QueueableAction;
 
     /**
-     * @param  DataCollection<AttachmentData>  $dataCollection
+     * @param  array<string, mixed>  $view_params
+     * @param  DataCollection<int, AttachmentData>|null  $dataCollection
      */
     public function execute(
         string $name,
@@ -26,10 +27,12 @@ class BuildMailMessageAction
         array $view_params = [],
         ?DataCollection $dataCollection = null,
     ): MailMessage {
+        /** @var array<string, mixed> $view_params */
         $view_params = array_merge($model->toArray(), $view_params);
 
         $type = 'email';
 
+        /** @var NotifyThemeData $theme */
         $theme = app(Get::class)->execute($name, $type, $view_params);
         $view_html = 'notify::email';
         // dddx([$theme, $view_params]);
@@ -57,7 +60,7 @@ class BuildMailMessageAction
         $viewParams['body_html'] = $bodyHtml;
         $viewParams['subject'] = $subject;
 
-        $email = (new MailMessage)
+        $email = (new MailMessage())
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $viewParams);

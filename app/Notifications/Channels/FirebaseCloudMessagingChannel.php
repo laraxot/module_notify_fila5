@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Log;
 use Kreait\Firebase\Contract\Messaging;
 use Kreait\Firebase\Exception\FirebaseException;
 use Kreait\Firebase\Exception\MessagingException;
+use Kreait\Firebase\Messaging\Message;
 use Kreait\Firebase\Messaging\MulticastSendReport;
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
@@ -18,7 +19,6 @@ use Modules\Notify\Contracts\CanReceivePushNotifications;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\PushNotificationDebugData;
 use Psr\Log\LoggerInterface;
-
 use function Safe\json_encode;
 
 final class FirebaseCloudMessagingChannel
@@ -75,6 +75,9 @@ final class FirebaseCloudMessagingChannel
      * @throws MessagingException
      * @throws FirebaseException
      */
+    /**
+     * @param  Collection<int, string>  $userDeviceTokens
+     */
     private function sendMulticastNotificationToDevices(
         MobilePushNotification $notification,
         Collection $userDeviceTokens,
@@ -89,9 +92,14 @@ final class FirebaseCloudMessagingChannel
          * @var list<RegistrationToken|string>|RegistrationToken|RegistrationTokens|non-empty-string
          */
         $registrationTokens = $userDeviceTokens->toArray();
+        $message = $notification->toCloudMessage();
+
+        if (! $message instanceof Message) {
+            throw new Exception('Invalid Firebase multicast message payload.');
+        }
 
         return $this->firebaseCloudMessaging->sendMulticast(
-            message: $notification->toCloudMessage(),
+            message: $message,
             registrationTokens: $registrationTokens,
         );
     }
@@ -99,6 +107,9 @@ final class FirebaseCloudMessagingChannel
     /**
      * @throws MessagingException
      * @throws FirebaseException
+     */
+    /**
+     * @param  Collection<int, string>  $tokens
      */
     private function testFcmTokens(Collection $tokens): void
     {
