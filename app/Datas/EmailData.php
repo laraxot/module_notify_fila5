@@ -28,6 +28,8 @@ class EmailData extends Data
 
     /**
      * @param  list<string>  $attachments
+     *
+     * @return void
      */
     public function __construct(
         string $recipient,

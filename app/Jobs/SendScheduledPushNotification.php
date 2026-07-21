@@ -26,6 +26,9 @@ class SendScheduledPushNotification implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
+    /**
+     * @return void
+     */
     public function __construct(
         private string $jobId
     ) {

@@ -10,6 +10,8 @@ class NetfunSmsResponseData extends Data
 {
     /**
      * @param  array<int, array<string, mixed>>|null  $messages
+     *
+     * @return void
      */
     public function __construct(
         public string $status,

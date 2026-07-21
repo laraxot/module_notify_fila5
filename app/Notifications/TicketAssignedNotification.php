@@ -13,6 +13,9 @@ class TicketAssignedNotification extends Notification
 {
     use Queueable;
 
+    /**
+     * @return void
+     */
     public function __construct(
         public mixed $ticket, // Using mixed type since Ticket model doesn't exist
         public User $assignedBy

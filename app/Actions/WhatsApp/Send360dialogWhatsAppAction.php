@@ -31,6 +31,8 @@ final class Send360dialogWhatsAppAction implements WhatsAppProviderActionInterfa
 
     /**
      * Create a new action instance.
+     *
+     * @return void
      */
     public function __construct()
     {

@@ -34,6 +34,8 @@ final class SendNutgramTelegramAction implements TelegramProviderActionInterface
 
     /**
      * Create a new action instance.
+     *
+     * @return void
      */
     public function __construct()
     {
