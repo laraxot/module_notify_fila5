@@ -13,6 +13,7 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Actions\Push\SendPushToDevicesAction;
+use Modules\Notify\Datas\PushNotificationData;
 use Throwable;
 use Webmozart\Assert\Assert;
 
@@ -60,8 +61,7 @@ class SendScheduledPushNotification implements ShouldQueue
 
             $rawNotification = $notificationData['notification'] ?? [];
             Assert::isArray($rawNotification, 'Notification must be array');
-            /** @var array<string, mixed> $notification */
-            $notification = $rawNotification;
+            $notification = PushNotificationData::from($rawNotification);
 
             $rawData = $notificationData['data'] ?? [];
             Assert::isArray($rawData, 'Data must be array');
