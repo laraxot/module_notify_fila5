@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "Notify Module Documentation"
 type: index
 tags: [notify, docs]
@@ -17,7 +16,6 @@ related:
   - notifications/readme.md
   - integrations/readme.md
   - templates/readme.md
-=======
 title: "Notify Module Documentation — Index"
 type: concept
 tags: [index]
@@ -26,11 +24,9 @@ updated: 2026-07-24
 qmd: "index notify module documentation bridge readme"
 related:
   - "./README.md"
->>>>>>> ba3d9b421 (.)
 ---
 # Notify Module Documentation
 
-<<<<<<< HEAD
 ## Overview
 This document serves as the central index for the Notify module, providing guidance on managing notifications within a Laravel application. The Notify module handles various notification channels like email, SMS, and push notifications in a modular and reusable way.
 
@@ -286,7 +282,6 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
-=======
 > **Verificato 2026-07-24**: questo file, `index-1.md` e `index-conflict.md` erano tre varianti quasi-duplicate
 > generate da merge/rigenerazioni automatiche successive, con link a `../../../../docs/README.md` (progetto
 > "PTV"/"SaluteOra" — non questo repo) e riferimenti a issue/discussion di `provtv/base_ptv_fila5` (repo diverso,
@@ -302,4 +297,3 @@ Doc verificati utili:
 - [qmd-setup.md](./qmd-setup.md)
 - [performance-optimization-1.md](./performance-optimization-1.md)
 - [phpstan/](./phpstan/)
->>>>>>> ba3d9b421 (.)
