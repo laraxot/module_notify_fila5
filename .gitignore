@@ -201,3 +201,10 @@ agentdb.rvf
 public_html/
 docs/archived/
 *.db
+
+# Laraxot — IDE folders forbidden at module/theme root (see module-theme-root-hygiene)
+.cursor/
+.devcontainer/
+.vscode/
+.windsurf/
+tests/AuditCoverage/
