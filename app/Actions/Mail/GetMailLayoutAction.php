@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Mail;
 
+use function Safe\file_get_contents;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Actions\Theme\GetThemeContextAction;
 use Modules\Xot\Datas\XotData;
-use function Safe\file_get_contents;
 use Spatie\QueueableAction\QueueableAction;
 
 /**

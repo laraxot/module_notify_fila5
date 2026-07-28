@@ -54,9 +54,11 @@
     "laravel-notification-channels/fcm": "^6.0",
     "laravel-notification-channels/telegram": "*",
     "phpdocumentor/type-resolver": "*",
+    "spatie/laravel-data": "^4.0",
     "spatie/laravel-database-mail-templates": "*",
     "symfony/http-client": "*",
-    "symfony/postmark-mailer": "*"
+    "symfony/postmark-mailer": "*",
+    "thecodingmachine/safe": "^2.5"
   },
   "repositories": [
     {

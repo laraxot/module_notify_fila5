@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+use function Safe\file_put_contents;
+use function Safe\tempnam;
+use function Safe\unlink;
 use Exception;
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
@@ -13,9 +16,6 @@ use Override;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Process\Process;
 
-use function Safe\file_put_contents;
-use function Safe\tempnam;
-use function Safe\unlink;
 
 final class SendGammuSMSAction implements SmsActionContract
 {

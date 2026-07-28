@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Emails;
 
+use function Safe\file_get_contents;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Envelope;
@@ -16,7 +17,6 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Mustache_Engine;
-use function Safe\file_get_contents;
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 use Spatie\MailTemplates\TemplateMailable;
 use Symfony\Component\Mime\MimeTypes;

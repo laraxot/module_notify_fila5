@@ -1,7 +1,7 @@
 # Riepilogo Risoluzione Conflitti – 2025-09-30
 
 ## Obiettivo
-- Identificare file con marcatori di conflitto Git e definire una strategia di risoluzione.
+- Identificare file con marcatori di conflitto Git (`<<<<<<< HEAD`, `=======`, `>>>>>>>`) e definire una strategia di risoluzione.
 - Allineare le modifiche alle regole Laraxot/Xot, Filament 3 e agli standard di codifica del progetto (PHP strict types, type hints, `getFormSchema()` per Filament, ecc.).
 
 ## File con conflitti principali

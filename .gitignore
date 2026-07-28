@@ -166,7 +166,8 @@ _docs/
 _docs/
 
 # Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
-docs/archive/.devcontainer/
+docs/archive/
+docs/archive/**
 .planning/
 .ralph
 _bmad-output/
@@ -201,14 +202,3 @@ agentdb.rvf
 public_html/
 docs/archived/
 *.db
-
-# Laraxot — IDE folders forbidden at module/theme root (see module-theme-root-hygiene)
-.cursor/
-.devcontainer/
-.vscode/
-.windsurf/
-tests/AuditCoverage/
-
-# Laraxot — quality tool configs forbidden in module/theme root (use laravel/phpinsights.php, laravel/rector.php)
-phpinsights.php
-rector.php

@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Telegram;
 
+use function Safe\json_decode;
+use function Safe\json_encode;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -11,8 +13,6 @@ use Illuminate\Support\Facades\Log;
 use Modules\Notify\Contracts\TelegramProviderActionInterface;
 use Modules\Notify\Datas\TelegramData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
-use function Safe\json_decode;
-use function Safe\json_encode;
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendOfficialTelegramAction implements TelegramProviderActionInterface

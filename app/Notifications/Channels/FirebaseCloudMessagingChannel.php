@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Notifications\Channels;
 
+use function Safe\json_encode;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -19,7 +20,6 @@ use Modules\Notify\Contracts\CanReceivePushNotifications;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\PushNotificationDebugData;
 use Psr\Log\LoggerInterface;
-use function Safe\json_encode;
 
 final class FirebaseCloudMessagingChannel
 {

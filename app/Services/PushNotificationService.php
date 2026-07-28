@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
+use function Safe\json_encode;
 use DateTime;
 use Exception;
 use GuzzleHttp\Promise\PromiseInterface;
@@ -16,7 +17,6 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
-use function Safe\json_encode;
 
 /**
  * Servizio per notifiche push avanzate.

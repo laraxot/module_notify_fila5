@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+use function Safe\mb_convert_encoding;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -13,7 +14,6 @@ use Modules\Notify\Datas\SmsData;
 use Override;
 use Spatie\QueueableAction\QueueableAction;
 
-use function Safe\mb_convert_encoding;
 
 final class SendNetfunSMSAction implements SmsActionContract
 {

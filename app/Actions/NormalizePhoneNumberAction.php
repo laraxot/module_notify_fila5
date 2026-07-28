@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions;
 
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use function Safe\preg_replace;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
 class NormalizePhoneNumberAction

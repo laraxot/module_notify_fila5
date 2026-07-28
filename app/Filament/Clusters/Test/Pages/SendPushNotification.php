@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use function Safe\json_encode;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -24,7 +25,6 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 
-use function Safe\json_encode;
 
 /**
  * @property Schema $notificationForm

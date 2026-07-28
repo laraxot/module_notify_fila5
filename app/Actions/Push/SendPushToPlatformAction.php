@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Push;
 
+use function Safe\json_encode;
 use Exception;
 use GuzzleHttp\Promise\PromiseInterface;
 use Illuminate\Http\Client\Response;
@@ -12,7 +13,6 @@ use Modules\Notify\Datas\PushNotificationData;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
-use function Safe\json_encode;
 
 /**
  * Invia una notifica push a un singolo token su una specifica piattaforma

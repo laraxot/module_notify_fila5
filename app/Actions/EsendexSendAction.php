@@ -4,14 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions;
 
-use Exception;
-use Modules\Notify\Datas\SmsData;
 use function Safe\curl_exec;
 use function Safe\curl_getinfo;
 use function Safe\curl_init;
 use function Safe\curl_setopt;
 use function Safe\json_decode;
 use function Safe\json_encode;
+use Exception;
+
+use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -47,14 +48,6 @@ class EsendexSendAction
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curlHandle, CURLOPT_URL, $this->base_endpoint.'sms');
 
-        // Verifichiamo che i valori dell'array di autenticazione siano stringhe
-        if (! is_string($auth[0])) {
-            $auth[0] = '';
-        }
-
-        if (! is_string($auth[1])) {
-            $auth[1] = '';
-        }
 
         curl_setopt($curlHandle, CURLOPT_HTTPHEADER, [
             'Content-type: application/json',
@@ -63,7 +56,7 @@ class EsendexSendAction
         ]);
 
         curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($curlHandle, CURLOPT_POST, 1);
+        curl_setopt($curlHandle, CURLOPT_POST, true);
         curl_setopt($curlHandle, CURLOPT_POSTFIELDS, json_encode($data, JSON_THROW_ON_ERROR));
         $response = curl_exec($curlHandle);
         $info = curl_getinfo($curlHandle);
@@ -73,9 +66,9 @@ class EsendexSendAction
             return [];
         }
 
-        $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
+        /** @var array<string, mixed>|null $res */
+        $res = json_decode((string) $response, true, 512, JSON_THROW_ON_ERROR);
 
-        dddx($res);
         if (! is_array($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }

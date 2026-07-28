@@ -40,15 +40,16 @@ it('can send notification to single recipient', function (): void {
     $options = ['priority' => 'high'];
 
     $template = typedMock(NotificationTemplate::class);
-    mockExpectation($template, 'getAttribute')->with('code')->andReturn($templateCode);
+    mockExpectation($template, 'getAttribute')->__call('with', ['code'])->andReturn($templateCode);
 
     $action = typedMock(SendNotificationAction::class);
-    mockExpectation($action, 'handle')
-        ->with($recipient, $templateCode, $data, $channels, $options)
-        ->once();
+    mockExpectation($action, 'handle')->__call('with', [$recipient, $templateCode, $data, $channels, $options])->__call('once', []);
 
     app()->instance(SendNotificationAction::class, $action);
 
+    // Nessuna asserzione sul tipo di ritorno: e' sempre Notification|null per firma,
+    // il comportamento reale (chiamata all'action con i parametri attesi) e' verificato
+    // da Mockery in afterEach() tramite l'expectation ->__call('once', []).
     $this->notificationManager->send($recipient, $templateCode, $data, $channels, $options);
 });
 
@@ -63,10 +64,10 @@ it('can send notification to multiple recipients', function (): void {
     $options = ['priority' => 'high'];
 
     $template = typedMock(NotificationTemplate::class);
-    mockExpectation($template, 'getAttribute')->with('code')->andReturn($templateCode);
+    mockExpectation($template, 'getAttribute')->__call('with', ['code'])->andReturn($templateCode);
 
     $action = typedMock(SendNotificationAction::class);
-    mockExpectation($action, 'handle')->times(2);
+    mockExpectation($action, 'handle')->__call('times', [2]);
 
     app()->instance(SendNotificationAction::class, $action);
 
@@ -78,25 +79,31 @@ it('can send notification to multiple recipients', function (): void {
 it('can get template by code', function (): void {
     $code = 'test_template';
 
+    // $template non e' passato al codice reale: getTemplate() interroga sempre
+    // il database tramite query statica, quindi il mock serve solo a documentare
+    // l'intento del test (nessun template attivo con questo code) senza essere
+    // referenziato direttamente.
     $template = typedMock(NotificationTemplate::class);
-    mockExpectation($template, 'getAttribute')->with('code')->andReturn($code);
-    mockExpectation($template, 'getAttribute')->with('is_active')->andReturn(true);
+    mockExpectation($template, 'getAttribute')->__call('with', ['code'])->andReturn($code);
 
     $result = $this->notificationManager->getTemplate($code);
 
-    expect($result)->toBeNull();
+    expect($result)->toBeNull(); // Mock non restituisce risultati reali
 });
 
 it('can get templates by category', function (): void {
-    $result = $this->notificationManager->getTemplatesByCategory('test_category');
+    $category = 'test_category';
+
+    $result = $this->notificationManager->getTemplatesByCategory($category);
 
     expect($result)->toHaveCount(0);
 });
 
 it('throws exception when template not found', function (): void {
     $recipient = actionsNotificationManagerRecipient();
+    $templateCode = 'invalid_template';
 
-    expect(fn () => $this->notificationManager->send($recipient, 'invalid_template'))
+    expect(fn () => $this->notificationManager->send($recipient, $templateCode))
         ->toThrow(Exception::class, 'Template not found: invalid_template');
 });
 
@@ -105,10 +112,11 @@ it('returns array from send method', function (): void {
     $templateCode = 'test_template';
 
     $action = typedMock(SendNotificationAction::class);
-    mockExpectation($action, 'handle')->once();
+    mockExpectation($action, 'handle')->__call('once', []);
 
     app()->instance(SendNotificationAction::class, $action);
 
+    // Comportamento verificato da Mockery in afterEach() tramite ->__call('once', []).
     $this->notificationManager->send($recipient, $templateCode);
 });
 
@@ -117,7 +125,7 @@ it('returns array from send multiple method', function (): void {
     $templateCode = 'test_template';
 
     $action = typedMock(SendNotificationAction::class);
-    mockExpectation($action, 'handle')->once();
+    mockExpectation($action, 'handle')->__call('once', []);
 
     app()->instance(SendNotificationAction::class, $action);
 
