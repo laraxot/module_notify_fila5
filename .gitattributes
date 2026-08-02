@@ -4,7 +4,7 @@
 *.js linguist-vendored
 CHANGELOG.md export-ignore
 
-# Binary files (no git LFS, treat as binary)
+# Binary files (no git LFS)
 *.png binary
 *.svg binary
 *.jpg binary
@@ -14,9 +14,3 @@ CHANGELOG.md export-ignore
 *.zip binary
 *.db binary
 *.sqlite binary
-*.png !text !filter !merge !diff
-*.svg !text !filter !merge !diff
-*.jpg !text !filter !merge !diff
-*.jpeg !text !filter !merge !diff
-*.gif !text !filter !merge !diff
-*.webp !text !filter !merge !diff
