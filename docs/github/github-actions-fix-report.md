@@ -171,7 +171,11 @@ ae920e7c Add AI lessons learned and GitHub Action setup guide
 
 ```bash
 # Option 1: Via GitHub UI
+<<<<<<< HEAD
 1. Go to: https://github.com/laraxot/platform/discussions
+=======
+1. Go to: https://github.com/laraxot/base_fixcity_fila5/discussions
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. Click "New discussion"
 3. Copy content from docs/github/DISCUSSION_AI_WORK_summary.md
 4. Choose category: "General"
@@ -259,7 +263,11 @@ ae920e7c Add AI lessons learned and GitHub Action setup guide
 ### Files on GitHub
 
 All files are pushed and accessible on:
+<<<<<<< HEAD
 https://github.com/laraxot/platform/commits/dev
+=======
+https://github.com/laraxot/base_fixcity_fila5/commits/dev
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

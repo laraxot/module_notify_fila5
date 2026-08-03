@@ -1,7 +1,11 @@
 # Raccomandazioni per lo Sviluppo del Sistema Email Stagionali
 
 **Data**: 19 Dicembre 2025  
+<<<<<<< HEAD
 **Progetto**: App Laravel Multi-Tenant Application  
+=======
+**Progetto**: TechPlanner Laravel Multi-Tenant Application  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Tipo**: Linee guida e raccomandazioni  
 **Stato**: ✅ Completato  
 

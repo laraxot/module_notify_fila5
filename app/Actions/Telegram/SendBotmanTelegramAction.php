@@ -4,6 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Telegram;
 
+<<<<<<< HEAD
+=======
+use function Safe\json_decode;
+use function Safe\json_encode;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -13,9 +18,12 @@ use Modules\Notify\Datas\TelegramData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 use function Safe\json_decode;
 use function Safe\json_encode;
 
+=======
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 final class SendBotmanTelegramAction implements TelegramProviderActionInterface
 {
     use QueueableAction;
@@ -62,6 +70,10 @@ final class SendBotmanTelegramAction implements TelegramProviderActionInterface
      * Execute the action.
      *
      * @param  TelegramData  $telegramData  I dati del messaggio Telegram
+<<<<<<< HEAD
+=======
+     *
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @return array<string, mixed> Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Analisi Globale Metodi Duplicati - Notify
+=======
+# Analisi Globale Metodi Duplicati - FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data Generazione**: 2025-10-15 06:41:17
 **Totale Metodi Analizzati**: 910
@@ -36,7 +40,11 @@ Questa analisi identifica opportunità di refactoring cross-module per ridurre l
 
 | Modulo | Metodi Duplicati | Report |
 |--------|------------------|--------|
+<<<<<<< HEAD
 | App | 76 | [Visualizza](Modules/App/docs/duplicate-methods-analysis.md) |
+=======
+| Fixcity | 76 | [Visualizza](Modules/Fixcity/docs/duplicate-methods-analysis.md) |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | User | 55 | [Visualizza](Modules/User/docs/duplicate-methods-analysis.md) |
 | Geo | 46 | [Visualizza](Modules/Geo/docs/duplicate-methods-analysis.md) |
 | Notify | 34 | [Visualizza](Modules/Notify/docs/duplicate-methods-analysis.md) |

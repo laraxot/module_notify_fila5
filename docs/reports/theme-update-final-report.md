@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "✅ Notify Theme & Documentation Update - COMPLETE"
+=======
+title: "✅ FixCity Theme & Documentation Update - COMPLETE"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [theme, update, final, report]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "theme-update-final-report ✅ laraxot theme & documentation update - complete"
+=======
+qmd: "theme-update-final-report ✅ fixcity theme & documentation update - complete"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,12 +26,20 @@ related:
   - "./final-success-report.md"
 ---
 
+<<<<<<< HEAD
 # ✅ Notify Theme & Documentation Update - COMPLETE
+=======
+# ✅ FixCity Theme & Documentation Update - COMPLETE
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Date**: 2026-03-30  
 **Status**: ✅ **COMPLETE** (conflicts da risolvere)  
 **Theme**: Sixteen ✅  
+<<<<<<< HEAD
 **Domain**: laraxot.local  
+=======
+**Domain**: fixcity.local  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -32,11 +48,19 @@ related:
 ### Theme Detection Logic
 
 ```
+<<<<<<< HEAD
 APP_URL: http://laraxot.local
     ↓ (remove protocol, www)
 Domain: laraxot.local
     ↓ (explode by ".", reverse, join by "/")
 Config: local/laraxot/xra.php
+=======
+APP_URL: http://fixcity.local
+    ↓ (remove protocol, www)
+Domain: fixcity.local
+    ↓ (explode by ".", reverse, join by "/")
+Config: local/fixcity/xra.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     ↓ (read pub_theme key)
 Theme: Sixteen ✅
 ```
@@ -52,7 +76,11 @@ declare(strict_types=1);
 return [
     'pub_theme' => 'Sixteen',        // ✅ TEMA ATTIVO
     'adm_theme' => 'AdminLTE',       // ⚠️ Legacy (non usato)
+<<<<<<< HEAD
     'main_module' => 'App',
+=======
+    'main_module' => 'Fixcity',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     'primary_lang' => 'it',
 ];
 ```
@@ -60,7 +88,11 @@ return [
 ### Project Structure
 
 ```
+<<<<<<< HEAD
 base_ptvx_fila5/
+=======
+base_fixcity_fila5/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── public_html/                    # DOCUMENT ROOT
 │   ├── index.php                  # Entry point
 │   ├── themes/
@@ -98,7 +130,11 @@ base_ptvx_fila5/
 ### Files Updated
 
 **Module READMEs** (18 files):
+<<<<<<< HEAD
 - ✅ AI, Activity, Blog, Cms, Comment, App, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, Tenant, UI, User, Xot
+=======
+- ✅ AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, Tenant, UI, User, Xot
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Theme READMEs** (2 files):
 - ✅ Sixteen (marked as ACTIVE)
@@ -166,7 +202,11 @@ See: [Theme Context](../../../.planning/THEME_CONTEXT.md) for config.
 |----------|-------|
 | **Theme Name** | Sixteen |
 | **Status** | ✅ ACTIVE |
+<<<<<<< HEAD
 | **Domain** | laraxot.local |
+=======
+| **Domain** | fixcity.local |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Config File** | `laravel/config/localhost/xra.php` |
 | **Config Key** | `pub_theme` |
 | **Document Root** | `public_html/` |
@@ -205,7 +245,11 @@ docs: Update all documentation with theme info (DRY + KISS)
 **Conflicting Files** (6):
 1. `laravel/Modules/Cms/docs/README.md`
 2. `laravel/Modules/Comment/docs/README.md`
+<<<<<<< HEAD
 3. `laravel/Modules/App/docs/README.md`
+=======
+3. `laravel/Modules/Fixcity/docs/README.md`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 4. `laravel/Modules/Geo/docs/README.md`
 5. `laravel/Modules/Media/docs/README.md`
 6. `laravel/Modules/Seo/docs/README.md`
@@ -244,10 +288,17 @@ git rebase --continue
 
 ```bash
 # Option 1: Accept all local changes (recommended)
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
 for file in laravel/Modules/Cms/docs/README.md \
             laravel/Modules/Comment/docs/README.md \
             laravel/Modules/App/docs/README.md \
+=======
+cd /var/www/_bases/base_fixcity_fila5
+for file in laravel/Modules/Cms/docs/README.md \
+            laravel/Modules/Comment/docs/README.md \
+            laravel/Modules/Fixcity/docs/README.md \
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             laravel/Modules/Geo/docs/README.md \
             laravel/Modules/Media/docs/README.md \
             laravel/Modules/Seo/docs/README.md \
@@ -275,14 +326,22 @@ git push origin dev
 | **Theme Context** | `.planning/THEME_CONTEXT.md` |
 | **Modules Index** | `laravel/Modules/docs/README.md` |
 | **Themes Index** | `laravel/Themes/docs/README.md` |
+<<<<<<< HEAD
 | **Improvement Plan** | `laraxot-improvement-plan.md` |
+=======
+| **Improvement Plan** | `fixcity-improvement-plan.md` |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Project Overview** | `.planning/project.md` |
 
 ---
 
 ## 💡 Key Takeaways
 
+<<<<<<< HEAD
 1. **Theme**: Sixteen è il tema attivo per `laraxot.local`
+=======
+1. **Theme**: Sixteen è il tema attivo per `fixcity.local`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. **Config**: `laravel/config/localhost/xra.php` → `pub_theme`
 3. **Document Root**: `public_html/` è la root del web server
 4. **DRY**: Singola fonte di verità per il tema

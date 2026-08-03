@@ -13,10 +13,17 @@
 1. **PHASE-1-STRATEGY.md** (22.938 caratteri)
    - Analisi architettura Design Comuni
    - Breakdown pagina segnalazioni-elenco
+<<<<<<< HEAD
    - Assessment stato Notify attuale
    - 6 gap critici identificati
    - Strategia esecuzione multi-agente
    - Pattern traduzioni (corretto: `laraxot::segnalazione.fields.title.label`)
+=======
+   - Assessment stato FixCity attuale
+   - 6 gap critici identificati
+   - Strategia esecuzione multi-agente
+   - Pattern traduzioni (corretto: `fixcity::segnalazione.fields.title.label`)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    - Criteri successo e checklist
 
 2. **GSD-PHASE-1-EXECUTION.md** (19.499 caratteri)
@@ -81,7 +88,11 @@ Data Flow: JSON → Handlebars → Static HTML
 5. <section id="info-contacts">       <!-- CONTACTS -->
 ```
 
+<<<<<<< HEAD
 ### Notify Sixteen - Stato Attuale (Assessment)
+=======
+### FixCity Sixteen - Stato Attuale (Assessment)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```
 ✅ Punti Forti:
@@ -169,7 +180,11 @@ Crea: `PHASE-1-FINDINGS.md` con gap list dettagliato
 ### PASSO 3: Executor #2 applica fix (Subtask 3 & 4)
 Modifica:
 - `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
+<<<<<<< HEAD
 - `laravel/config/local/laraxot/database/content/pages/tests.segnalazioni-elenco.json`
+=======
+- `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ⏱️ ~40-60 min
 
 ### PASSO 4: Executor #1 re-verifica (Subtask 5)
@@ -192,9 +207,15 @@ Aggiorna: `00-INDEX.md`
 
 ### ✅ CORRETTO
 ```blade
+<<<<<<< HEAD
 {{ trans('laraxot::segnalazione.fields.title.label') }}
 {{ trans('laraxot::segnalazione.filters.category.placeholder') }}
 {{ trans('laraxot::segnalazione.actions.submit.label') }}
+=======
+{{ trans('fixcity::segnalazione.fields.title.label') }}
+{{ trans('fixcity::segnalazione.filters.category.placeholder') }}
+{{ trans('fixcity::segnalazione.actions.submit.label') }}
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### ❌ SBAGLIATO (DO NOT USE)
@@ -206,7 +227,11 @@ Aggiorna: `00-INDEX.md`
 
 ### Struttura file traduzioni
 ```php
+<<<<<<< HEAD
 // laravel/lang/it/laraxot.php
+=======
+// laravel/lang/it/fixcity.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 return [
     'segnalazione' => [
         'fields' => [
@@ -282,4 +307,8 @@ Buona fortuna! 🚀
 
 *Created: 2026-04-08*  
 *Researcher Agent - BMAD Mode C (Opzione C)*  
+<<<<<<< HEAD
 *Notify Sixteen Theme - Phase 1*
+=======
+*FixCity Sixteen Theme - Phase 1*
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

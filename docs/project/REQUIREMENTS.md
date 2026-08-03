@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # REQUIREMENTS: Notify Platform
+=======
+# REQUIREMENTS: FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Phase 2: Feature Expansion (Q1 2026) - CURRENT
 
@@ -37,4 +41,8 @@
 ## Phase 5: AI & Innovation (Q4 2026)
 - [ ] AI Auto-Categorization.
 - [ ] Duplicate Detection.
+<<<<<<< HEAD
 - [ ] Forecasting Maintenance.
+=======
+- [ ] Predictive Maintenance.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

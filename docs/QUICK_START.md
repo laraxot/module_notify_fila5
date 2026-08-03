@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # 🚀 NOTIFY - GUIDA RAPIDA SVILUPPATORI
 
 **Versione**: 1.0  
 **Data**: 2025-10-01  
 **Target**: Sviluppatori che iniziano a lavorare su Notify  
+=======
+# 🚀 FIXCITY - GUIDA RAPIDA SVILUPPATORI
+
+**Versione**: 1.0  
+**Data**: 2025-10-01  
+**Target**: Sviluppatori che iniziano a lavorare su FixCity  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -29,8 +37,13 @@
 
 ### 1. Clone Repository
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/laraxot/laraxot.git
 cd laraxot/laravel
+=======
+git clone https://github.com/laraxot/fixcity.git
+cd fixcity/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### 2. Installazione Dipendenze
@@ -55,7 +68,11 @@ php artisan key:generate
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
+<<<<<<< HEAD
 DB_DATABASE=laraxot
+=======
+DB_DATABASE=fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 DB_USERNAME=your_user
 DB_PASSWORD=your_password
 ```
@@ -226,10 +243,17 @@ return [
 ## 📁 STRUTTURA PROGETTO
 
 ```
+<<<<<<< HEAD
 base_ptvx_fila5_mono/
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
 │   │   ├── App/          # Core business logic
+=======
+base_fixcity_fila5_mono/
+├── laravel/                    # Applicazione Laravel
+│   ├── Modules/               # Moduli Nwidart
+│   │   ├── Fixcity/          # Core business logic
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   │   ├── User/             # Authentication
 │   │   ├── Xot/              # Framework base
 │   │   ├── UI/               # Component library
@@ -283,6 +307,7 @@ php artisan module:publish ModuleName
 ### Filament
 ```bash
 # Crea resource
+<<<<<<< HEAD
 php artisan make:filament-resource TicketResource --module=App
 
 # Crea page
@@ -290,6 +315,15 @@ php artisan make:filament-page Dashboard --module=App
 
 # Crea widget
 php artisan make:filament-widget StatsWidget --module=App
+=======
+php artisan make:filament-resource TicketResource --module=Fixcity
+
+# Crea page
+php artisan make:filament-page Dashboard --module=Fixcity
+
+# Crea widget
+php artisan make:filament-widget StatsWidget --module=Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -438,7 +472,11 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 - **structure.md**: Struttura file
 - **technical.md**: Dettagli tecnici
 
+<<<<<<< HEAD
 **Esempio**: [App Module Docs](./laravel/Modules/App/docs/)
+=======
+**Esempio**: [Fixcity Module Docs](./laravel/Modules/Fixcity/docs/)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -514,12 +552,21 @@ php artisan optimize:clear
 ## 📞 SUPPORTO
 
 ### Team
+<<<<<<< HEAD
 - **Slack**: #laraxot-dev
 - **Email**: dev@laraxot.it
 
 ### Documentazione
 - **Issues**: [GitHub Issues](https://github.com/laraxot/laraxot/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/laraxot/laraxot/discussions)
+=======
+- **Slack**: #fixcity-dev
+- **Email**: dev@fixcity.it
+
+### Documentazione
+- **Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/laraxot/fixcity/discussions)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

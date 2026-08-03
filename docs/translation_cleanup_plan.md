@@ -1,10 +1,18 @@
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
+<<<<<<< HEAD
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
 
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `[project-root]/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+=======
+Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di SaluteOra.
+
+## Analisi della Situazione Attuale
+
+Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`

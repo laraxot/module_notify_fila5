@@ -14,33 +14,59 @@
    - Le strutture gerarchiche sono spesso incomplete (mancano elementi come icon, sort, plural in navigation)
 
 3. **File Problematici Identificati**
+<<<<<<< HEAD
    - `[project-root]/laravel/Modules/Notify/lang/it/send_aws_email.php`
    - `[project-root]/laravel/Modules/Notify/lang/it/setting.php`
    - `[project-root]/laravel/Modules/Notify/lang/it/edit_mail_template.php`
    - `[project-root]/laravel/Modules/Notify/lang/it/send_netfun_sms.php`
    - `[project-root]/laravel/Modules/Notify/lang/it/notification_template.php`
+=======
+   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php`
+   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php`
+   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php`
+   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_sms.php`
+   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/notification_template.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    - E altri 15 file (elenco completo in appendice)
 
 ### Correzioni Implementate
 
 1. **Documentazione Standard**
+<<<<<<< HEAD
    - Creato `[project-root]/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `[project-root]/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
 2. **File Corretti**
    - Creato `[project-root]/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
    - Aggiornato `[project-root]/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
+=======
+   - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
+   - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
+
+2. **File Corretti**
+   - Creato `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
+   - Aggiornato `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    - Rimosso il file con naming errato `send_whats_app.php`
 
 ### Prossime Correzioni da Implementare
 
 1. **File da Correggere Prioritariamente**
+<<<<<<< HEAD
    - `[project-root]/laravel/Modules/Notify/lang/it/send_email.php`
    - `[project-root]/laravel/Modules/Notify/lang/it/send_sms.php`
    - `[project-root]/laravel/Modules/Notify/lang/it/send_telegram.php`
 
 2. **Verifiche da Eseguire**
    - Analisi della cartella `[project-root]/laravel/Modules/Notify/lang/en/` per identificare problemi simili
+=======
+   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_email.php`
+   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_sms.php`
+   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_telegram.php`
+
+2. **Verifiche da Eseguire**
+   - Analisi della cartella `/var/www/html/saluteora/laravel/Modules/Notify/lang/en/` per identificare problemi simili
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    - Controllo dei riferimenti nel codice che potrebbero puntare ai vecchi file
 
 ## Documentazione di Riferimento
@@ -57,6 +83,7 @@
 ## Appendice: Elenco Completo dei File Non Conformi
 
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/lang/it/send_aws_email.php
 [project-root]/laravel/Modules/Notify/lang/it/setting.php
 [project-root]/laravel/Modules/Notify/lang/it/edit_mail_template.php
@@ -77,4 +104,26 @@
 [project-root]/laravel/Modules/Notify/lang/it/send_email.php
 [project-root]/laravel/Modules/Notify/lang/it/send_spatie_email.php
 [project-root]/laravel/Modules/Notify/lang/it/create_mail_template.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_sms.php (corretto)
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/notification_template.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/notify.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/contacts.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/test_smtp.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/log.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_sms.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/contact.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/slack_notification.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/template.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_push_notification.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/dashboard.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whats_app.php (rimosso e sostituito)
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_firebase_push_notification.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_email.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_spatie_email.php
+/var/www/html/saluteora/laravel/Modules/Notify/lang/it/create_mail_template.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```

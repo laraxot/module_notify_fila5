@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # ROADMAP: Notify Platform
+=======
+# ROADMAP: FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Milestone 1: Performance & Stability (COMPLETED ✅)
 - Phase 0: Foundation

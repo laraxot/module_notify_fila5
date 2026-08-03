@@ -67,8 +67,13 @@ Non seguire queste convenzioni può portare a:
 Per verificare che tutti i template seguano queste convenzioni:
 
 ```bash
+<<<<<<< HEAD
 grep -L "name=\"description\"" [project-root]/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 grep -L "name=\"footer\"" [project-root]/laravel/Modules/*/resources/views/filament/pages/*.blade.php
+=======
+grep -L "name=\"description\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
+grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Riferimenti

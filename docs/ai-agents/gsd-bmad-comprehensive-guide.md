@@ -444,8 +444,13 @@ Agent N (Verifier):
 
 ```
 Commit Messages:
+<<<<<<< HEAD
 - "docs: forecast detail research"
 - "docs: forecast detail architecture"
+=======
+- "docs: predict detail research"
+- "docs: predict detail architecture"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - "feat: add price chart component"
 - "test: verify phase 1 complete"
 

@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Utilizzo di Enum e Config
 
 Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema <nome progetto>, con particolare attenzione alla gestione delle opzioni nei componenti Filament.
+=======
+# Utilizzo di Enum e Config 
+
+Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema SaluteOra, con particolare attenzione alla gestione delle opzioni nei componenti Filament.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Problema: Hardcoding delle Opzioni
 
@@ -50,7 +56,11 @@ enum SmsDriverEnum: string
     case PLIVO = 'plivo';
     case GAMMU = 'gammu';
     case NETFUN = 'netfun';
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public static function options(): array
     {
         return [
@@ -62,7 +72,11 @@ enum SmsDriverEnum: string
             self::NETFUN->value => 'Netfun',
         ];
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public static function labels(): array
     {
         return [
@@ -135,7 +149,11 @@ return [
 - I valori sono specifici dell'applicazione e non del dominio
 - Hai bisogno di valori diversi in produzione, staging, test, ecc.
 
+<<<<<<< HEAD
 ## Implementazione
+=======
+## Implementazione 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Per standardizzare l'approccio , si raccomanda di:
 
@@ -146,4 +164,8 @@ Per standardizzare l'approccio , si raccomanda di:
 
 ## Conclusione
 
+<<<<<<< HEAD
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema <nome progetto> garantirà un codice più robusto e facile da mantenere.
+=======
+L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

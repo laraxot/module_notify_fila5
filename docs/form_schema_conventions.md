@@ -95,7 +95,11 @@ La classe `XotBasePage` è progettata per lavorare con array associativi nei met
 Per verificare che tutti i metodi schema rispettino questa convenzione:
 
 ```bash
+<<<<<<< HEAD
 find [project-root]/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Riferimenti

@@ -23,8 +23,13 @@ related:
 
 1. **Open Obsidian**
 2. Click **"Open folder as vault"**
+<<<<<<< HEAD
 3. Select: `/var/www/_bases/base_ptvx_fila5/docs`
 4. Vault name: `base_ptvx_fila5-docs`
+=======
+3. Select: `/var/www/_bases/base_fixcity_fila5/docs`
+4. Vault name: `base_fixcity_fila5-docs`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 5. Click **"Open"**
 
 ## Configuration
@@ -78,7 +83,11 @@ Install browser extension to capture web articles:
 2. **Firefox**: [Obsidian Web Clipper](https://addons.mozilla.org/en-US/firefox/addon/obsidian-web-clipper/)
 
 **Configuration**:
+<<<<<<< HEAD
 - Clip destination: `/var/www/_bases/base_ptvx_fila5/docs/raw/articles/`
+=======
+- Clip destination: `/var/www/_bases/base_fixcity_fila5/docs/raw/articles/`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Format: Markdown with YAML frontmatter
 - Tags: Auto-extract from article metadata
 
@@ -127,7 +136,11 @@ LLM scans for issues and reports findings.
 ## Graph View Tips
 
 - **Filter by type**: `type:concept` to see only concept pages
+<<<<<<< HEAD
 - **Filter by tags**: `tags:forecast-market` to see related pages
+=======
+- **Filter by tags**: `tags:prediction-market` to see related pages
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Local graph**: Open on a page to see only its connections
 - **Groups**: Color-code by page type (concepts, entities, sources)
 

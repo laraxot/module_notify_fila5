@@ -51,7 +51,11 @@ notebooklm auth check --test
 notebooklm list
 
 # Create a notebook
+<<<<<<< HEAD
 notebooklm create "Notify Research"
+=======
+notebooklm create "FixCity Research"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Add sources
 notebooklm use <notebook_id>
@@ -72,6 +76,7 @@ Once authenticated, you can ask Claude Code to:
 
 ```
 "NotebookLM: Create a podcast about Laravel Actions patterns"
+<<<<<<< HEAD
 "NotebookLM: What's in my Notify Research notebook?"
 "NotebookLM: Generate a quiz about Filament Forms"
 ```
@@ -83,6 +88,19 @@ Recommended notebooks to create:
 1. **Notify Architecture** - AGENTS.md, docs/architecture/*
 2. **Notify Modules** - laravel/Modules/*/docs/README.md
 3. **Notify API** - API documentation, Swagger specs
+=======
+"NotebookLM: What's in my FixCity Research notebook?"
+"NotebookLM: Generate a quiz about Filament Forms"
+```
+
+## FixCity-Specific Notebooks
+
+Recommended notebooks to create:
+
+1. **FixCity Architecture** - AGENTS.md, docs/architecture/*
+2. **FixCity Modules** - laravel/Modules/*/docs/README.md
+3. **FixCity API** - API documentation, Swagger specs
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Configuration
 

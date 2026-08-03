@@ -207,5 +207,9 @@ body {
 ---
 
 **Cache**: ✅ Pulita  
+<<<<<<< HEAD
 **URL Test**: http://laraxot.local/it/tests/homepage  
+=======
+**URL Test**: http://fixcity.local/it/tests/homepage  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Status**: Header e Footer 100% conformi

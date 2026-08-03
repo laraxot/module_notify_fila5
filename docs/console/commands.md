@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🔧 Console Commands Notify
+=======
+# 🔧 Console Commands FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > **Laravel 11**: Comandi auto-registrati da `app/Console/Commands/`
 
@@ -180,29 +184,51 @@ php artisan migrate --force
 php artisan queue:restart
 ```
 
+<<<<<<< HEAD
 ## 🔧 Comandi Personalizzati Notify
+=======
+## 🔧 Comandi Personalizzati FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Template Base
 ```php
 <?php
+<<<<<<< HEAD
 // app/Console/Commands/NotifyCommand.php
+=======
+// app/Console/Commands/FixCityCommand.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
+<<<<<<< HEAD
 class NotifyCommand extends Command
 {
     protected $signature = 'laraxot:example 
+=======
+class FixCityCommand extends Command
+{
+    protected $signature = 'fixcity:example 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                            {argument : Argomento richiesto}
                            {--option=default : Opzione con default}
                            {--flag : Boolean flag}';
 
+<<<<<<< HEAD
     protected $description = 'Comando esempio per Notify';
 
     public function handle(): int
     {
         $this->info('🚀 Esecuzione comando Notify...');
+=======
+    protected $description = 'Comando esempio per FixCity';
+
+    public function handle(): int
+    {
+        $this->info('🚀 Esecuzione comando FixCity...');
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         
         if ($this->confirm('Continuare con l\'operazione?')) {
             // Business logic
@@ -250,7 +276,11 @@ php artisan health:check
 ### Struttura Comandi (Laravel 11)
 ```
 app/Console/Commands/
+<<<<<<< HEAD
 ├── Notify/           # Comandi business logic
+=======
+├── FixCity/           # Comandi business logic
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   ├── ProcessTickets.php
 │   └── GenerateReports.php
 ├── Maintenance/       # Comandi manutenzione  
@@ -264,8 +294,13 @@ app/Console/Commands/
 ### Convenzioni Naming
 ```bash
 # Gruppo comando con namespace
+<<<<<<< HEAD
 laraxot:process-tickets
 laraxot:generate-reports
+=======
+fixcity:process-tickets
+fixcity:generate-reports
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Manutenzione sistema
 maintenance:cleanup-files

@@ -241,9 +241,15 @@ Tutti gli errori vengono raccolti e mostrati all'utente tramite notifica Filamen
 - Ogni componente ha una responsabilità ben definita
 - Facile da testare e mantenere
 
+<<<<<<< HEAD
 ## Integrazione in App
 
 **File**: `app/Filament/Resources/ClientResource/Pages/ListClients.php`
+=======
+## Integrazione in TechPlanner
+
+**File**: `Modules/TechPlanner/app/Filament/Resources/ClientResource/Pages/ListClients.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```php
 public function getTableBulkActions(): array
@@ -316,7 +322,11 @@ Vedi: [Actions Calling Actions Pattern](./actions-calling-actions-pattern.md)
 - [Notification System Architecture](./notification-implementation.md)
 - [MailTemplate Model](./models.md#mailtemplate)
 - [RecordNotification Class](../../app/Notifications/RecordNotification.php)
+<<<<<<< HEAD
 - [App Client Management](../App/docs/README.md#client-management)
+=======
+- [TechPlanner Client Management](../TechPlanner/docs/README.md#client-management)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [Geo Module Reusable Components Philosophy](../geo/docs/reusable-components-philosophy.md)
 - [Xot Filament Class Extension Rules](../xot/docs/filament-class-extension-rules.md)
 

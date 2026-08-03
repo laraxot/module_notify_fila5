@@ -172,7 +172,11 @@ bash -n bashscripts/git/subtrees/sync_remote_repo.sh && echo "✅ OK"
 ### CLI Mode (Sviluppo Locale)
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 ```
 

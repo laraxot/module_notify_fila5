@@ -21,7 +21,11 @@ related:
 # 🚀 Ralph Loop Execution Log - Homepage Bootstrap Italia Fix
 
 ## Session: 2026-03-31
+<<<<<<< HEAD
 ## Goal: Allineare homepage Notify a Bootstrap Italia reference
+=======
+## Goal: Allineare homepage FixCity a Bootstrap Italia reference
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -331,7 +335,11 @@ Aggiungere feedback module con stelle
 
 ### Clear Cache
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 rm -rf storage/framework/views/* bootstrap/cache/*.php
 php artisan view:clear
 ```

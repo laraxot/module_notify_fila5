@@ -28,7 +28,11 @@ related:
 
 ## 🎯 Obiettivi Session
 
+<<<<<<< HEAD
 Completamento intensivo del progetto Notify per diventare la piattaforma migliore del 2025:
+=======
+Completamento intensivo del progetto FixCity per diventare la piattaforma migliore del 2025:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 1. ✅ API RESTful completa con documentazione OpenAPI
 2. ✅ Test Coverage enhancement
@@ -46,7 +50,11 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 ### 1. API Layer Enhancement
 
 #### Rate Limiting Middleware ✅
+<<<<<<< HEAD
 **File**: `Modules/App/app/Http/Middleware/ApiRateLimiter.php`
+=======
+**File**: `Modules/Fixcity/app/Http/Middleware/ApiRateLimiter.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Features**:
 - Rate limiting per utente autenticato: 60 req/min
@@ -58,7 +66,11 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 **Security Impact**: Previene abuse e DDoS attacks sulle API
 
 #### OpenAPI Documentation Generator ✅
+<<<<<<< HEAD
 **File**: `Modules/App/app/Services/OpenApiGenerator.php`
+=======
+**File**: `Modules/Fixcity/app/Services/OpenApiGenerator.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Features**:
 - Specifica OpenAPI 3.0 completa
@@ -73,7 +85,11 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 ### 2. Performance Optimization
 
 #### Cache Service ✅
+<<<<<<< HEAD
 **File**: `Modules/App/app/Services/TicketCacheService.php`
+=======
+**File**: `Modules/Fixcity/app/Services/TicketCacheService.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Features**:
 - Cache intelligente ticket singoli (1h TTL)
@@ -89,7 +105,11 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 - Database load reduction: ~60%
 
 #### Query Optimizer Service ✅
+<<<<<<< HEAD
 **File**: `Modules/App/app/Services/QueryOptimizerService.php`
+=======
+**File**: `Modules/Fixcity/app/Services/QueryOptimizerService.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Features**:
 - Eager loading ottimizzato con solo campi necessari
@@ -107,7 +127,11 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 ### 3. Security Hardening
 
 #### Security Headers Middleware ✅
+<<<<<<< HEAD
 **File**: `Modules/App/app/Http/Middleware/SecurityHeadersMiddleware.php`
+=======
+**File**: `Modules/Fixcity/app/Http/Middleware/SecurityHeadersMiddleware.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Security Headers Implementati**:
 - Content-Security-Policy (XSS prevention)
@@ -172,7 +196,11 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 ### 6. Dashboard Analytics
 
 #### Filament Stats Widget ✅
+<<<<<<< HEAD
 **File**: `Modules/App/app/Filament/Widgets/TicketStatsWidget.php`
+=======
+**File**: `Modules/Fixcity/app/Filament/Widgets/TicketStatsWidget.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Metriche Dashboard**:
 - Totale segnalazioni con sparkline trend
@@ -190,9 +218,15 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 
 ### Analisi Completa Eseguita
 ```bash
+<<<<<<< HEAD
 ./vendor/bin/phpstan analyse Modules/App/app/Services/ \
   Modules/App/app/Http/Middleware/ \
   Modules/App/app/Filament/Widgets/
+=======
+./vendor/bin/phpstan analyse Modules/Fixcity/app/Services/ \
+  Modules/Fixcity/app/Http/Middleware/ \
+  Modules/Fixcity/app/Filament/Widgets/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Risultati
@@ -213,6 +247,7 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 ## 📁 Files Created (10 New Files)
 
 ### Services (4)
+<<<<<<< HEAD
 1. `Modules/App/app/Services/TicketCacheService.php` - 127 lines
 2. `Modules/App/app/Services/OpenApiGenerator.php` - 334 lines
 3. `Modules/App/app/Services/QueryOptimizerService.php` - 189 lines
@@ -220,13 +255,26 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 ### Middleware (2)
 4. `Modules/App/app/Http/Middleware/ApiRateLimiter.php` - 68 lines
 5. `Modules/App/app/Http/Middleware/SecurityHeadersMiddleware.php` - 93 lines
+=======
+1. `Modules/Fixcity/app/Services/TicketCacheService.php` - 127 lines
+2. `Modules/Fixcity/app/Services/OpenApiGenerator.php` - 334 lines
+3. `Modules/Fixcity/app/Services/QueryOptimizerService.php` - 189 lines
+
+### Middleware (2)
+4. `Modules/Fixcity/app/Http/Middleware/ApiRateLimiter.php` - 68 lines
+5. `Modules/Fixcity/app/Http/Middleware/SecurityHeadersMiddleware.php` - 93 lines
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### PWA (2)
 6. `laravel/public/manifest.json` - 88 lines
 7. `laravel/public/sw.js` - 300+ lines
 
 ### UI Components (2)
+<<<<<<< HEAD
 8. `Modules/App/app/Filament/Widgets/TicketStatsWidget.php` - 116 lines
+=======
+8. `Modules/Fixcity/app/Filament/Widgets/TicketStatsWidget.php` - 116 lines
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 9. `Themes/Sixteen/resources/views/components/agid/header.blade.php` - 200+ lines
 
 ### Documentation (1)
@@ -365,7 +413,11 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 - **Error Codes**: All documented
 
 ### Access
+<<<<<<< HEAD
 - **JSON**: `GET /api/laraxot/openapi.json`
+=======
+- **JSON**: `GET /api/fixcity/openapi.json`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Swagger UI**: Ready for integration
 - **Postman**: Can auto-generate collection
 
@@ -448,7 +500,11 @@ Completamento intensivo del progetto Notify per diventare la piattaforma miglior
 ```
 
 ### Module Breakdown
+<<<<<<< HEAD
 - **App Core**: 90% ✅
+=======
+- **Fixcity Core**: 90% ✅
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **API Layer**: 85% ✅
 - **Performance**: 95% ✅
 - **Security**: 90% ✅

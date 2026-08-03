@@ -1,11 +1,19 @@
 ---
+<<<<<<< HEAD
 title: "📚 Documentation Index - Notify Project"
+=======
+title: "📚 Documentation Index - FixCity Project"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: index
 tags: [notify, docs, project_docs]
 module: Notify
 created: 2026-07-20
 updated: 2026-07-20
+<<<<<<< HEAD
 qmd: "notify documentazione project_docs index 📚 documentation index - laraxot project index readme frontmatter qmd search"
+=======
+qmd: "notify documentazione project_docs index 📚 documentation index - fixcity project index readme frontmatter qmd search"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
 discussions:
@@ -17,7 +25,11 @@ related:
   - ../integrations/readme.md
   - ../templates/readme.md
 ---
+<<<<<<< HEAD
 # 📚 Documentation Index - Notify Project
+=======
+# 📚 Documentation Index - FixCity Project
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Last Updated:** 2025-10-01 21:47  
 **Status:** ✅ Complete
@@ -165,7 +177,11 @@ Each module has a `docs/` directory containing:
 - [Extensive documentation](../Modules/User/docs/)
 
 #### Other Modules
+<<<<<<< HEAD
 - AI, Activity, Blog, Cms, Comment, App, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
+=======
+- AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Each with cyclomatic complexity report
 
 ---
@@ -440,7 +456,11 @@ All documents include:
 ## 📞 Contact
 
 ### Documentation Team
+<<<<<<< HEAD
 - **Email:** docs@laraxot.com
+=======
+- **Email:** docs@fixcity.com
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **GitHub:** Open an issue
 - **Slack:** #documentation
 

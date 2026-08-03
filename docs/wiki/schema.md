@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # LLM Wiki Schema — Notify
+=======
+# LLM Wiki Schema — FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Questo file è il "AGENTS.md" della wiki: istruzioni per l'LLM su come mantenere la wiki.
 
@@ -138,7 +142,11 @@ Per wiki di **modulo** (`Modules/<Name>/docs/wiki/`):
 
 ---
 
+<<<<<<< HEAD
 ## Stack Notify — Vocabolario Wiki
+=======
+## Stack FixCity — Vocabolario Wiki
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Termini specifici del progetto da usare consistentemente:
 
@@ -157,7 +165,11 @@ Termini specifici del progetto da usare consistentemente:
 
 ---
 
+<<<<<<< HEAD
 ## Note sul Contesto Notify
+=======
+## Note sul Contesto FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - **13.174+ file raw** nei moduli — non si leggono tutti in una sessione
 - **Molti archivi obsoleti** (Xot/archive/, Cms/archive/, etc.) — ignorarli nel lint

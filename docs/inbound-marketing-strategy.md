@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Strategia Inbound Marketing - App
+=======
+# Strategia Inbound Marketing - TechPlanner
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Data**: 7 Febbraio 2026
 **Module**: Notify
 **Scope**: Strategia inbound marketing per lead generation
@@ -135,7 +139,11 @@ Il sito target ha una base di inbound marketing decente con lead magnets e newsl
 
 **Template 1: Welcome Email**
 ```
+<<<<<<< HEAD
 Subject: Benvenuto in App Radioprotezione!
+=======
+Subject: Benvenuto in TechPlanner Radioprotezione!
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Ciao [Nome],
 

@@ -36,7 +36,11 @@ All JSON files in `config/local/*/database/content/pages/` MUST follow:
 
 1. **Filename MUST match slug exactly**:
    - File `about.json` MUST have `"slug": "about"`
+<<<<<<< HEAD
    - File `forecasts.json` MUST have `"slug": "forecasts"`
+=======
+   - File `predicts.json` MUST have `"slug": "predicts"`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 2. **Empty files forbidden**:
    - Never create empty JSON files
@@ -63,7 +67,11 @@ done
 
 - Module SVG icons live in `Modules/<ModuleName>/resources/svg`
 - The blade icon name must use the module prefix + filename
+<<<<<<< HEAD
 - Example: `forecast-bottlecap` for `Modules/Forecast/resources/svg/bottlecap.svg`
+=======
+- Example: `predict-bottlecap` for `Modules/Predict/resources/svg/bottlecap.svg`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

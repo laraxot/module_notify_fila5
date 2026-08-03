@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "✅ Notify Documentation Update - COMPLETE"
+=======
+title: "✅ FixCity Documentation Update - COMPLETE"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [documentation, update, complete]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "documentation-update-complete ✅ laraxot documentation update - complete"
+=======
+qmd: "documentation-update-complete ✅ fixcity documentation update - complete"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -15,10 +23,17 @@ related:
   - "./document-root-update-summary.md"
   - "./final-documentation-report.md"
   - "./final-success-report.md"
+<<<<<<< HEAD
   - "./laraxot-improvement-progress-1.md"
 ---
 
 # ✅ Notify Documentation Update - COMPLETE
+=======
+  - "./fixcity-improvement-progress-1.md"
+---
+
+# ✅ FixCity Documentation Update - COMPLETE
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Date**: 2026-03-30  
 **Status**: ✅ **COMPLETE**  
@@ -28,7 +43,11 @@ related:
 
 ## Executive Summary
 
+<<<<<<< HEAD
 All documentation has been updated to correctly reflect `public_html/` as the document root for Notify. Master indices created for modules and themes following DRY + KISS principles.
+=======
+All documentation has been updated to correctly reflect `public_html/` as the document root for FixCity. Master indices created for modules and themes following DRY + KISS principles.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -49,7 +68,11 @@ All documentation has been updated to correctly reflect `public_html/` as the do
 - Cross-references to module-specific docs
 
 **Modules Indexed**:
+<<<<<<< HEAD
 1. App - Ticket management
+=======
+1. Fixcity - Ticket management
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. User - Authentication
 3. Cms - Content management
 4. Xot - Base framework
@@ -102,7 +125,11 @@ All documentation has been updated to correctly reflect `public_html/` as the do
 ### 3. Project Structure Documented ✅
 
 ```
+<<<<<<< HEAD
 base_ptvx_fila5/
+=======
+base_fixcity_fila5/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── public_html/                    # ✅ DOCUMENT ROOT
 │   ├── index.php                  # Entry point
 │   ├── .htaccess                  # Apache config
@@ -129,7 +156,11 @@ base_ptvx_fila5/
 │   ├── project.md
 │   ├── config.json
 │   └── research/
+<<<<<<< HEAD
 └── laraxot-improvement-plan.md   # Roadmap
+=======
+└── fixcity-improvement-plan.md   # Roadmap
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -243,7 +274,11 @@ Date:   Mon Mar 30 09:42:00 2026
 
 ---
 
+<<<<<<< HEAD
 ## Next Steps in Notify Improvement Plan
+=======
+## Next Steps in FixCity Improvement Plan
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Phase 1: Foundation & Documentation ✅ COMPLETE
 
@@ -259,7 +294,11 @@ Date:   Mon Mar 30 09:42:00 2026
 - [ ] Phase 3: Performance (780ms → 200ms)
 - [ ] Phase 4: Production Ready
 
+<<<<<<< HEAD
 **See**: `laraxot-improvement-plan.md` for complete roadmap
+=======
+**See**: `fixcity-improvement-plan.md` for complete roadmap
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -270,7 +309,11 @@ Date:   Mon Mar 30 09:42:00 2026
 | **Project Overview** | `.planning/project.md` | Project context |
 | **Roadmap** | `.planning/config.json` | 16-week plan |
 | **Research** | `.planning/research/` | Project analysis |
+<<<<<<< HEAD
 | **Improvement Plan** | `laraxot-improvement-plan.md` | Complete guide |
+=======
+| **Improvement Plan** | `fixcity-improvement-plan.md` | Complete guide |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Modules Index** | `laravel/Modules/docs/README.md` | 18 modules |
 | **Themes Index** | `laravel/Themes/docs/README.md` | 2 themes |
 
@@ -318,7 +361,11 @@ openviking add-memory "Documentation follows DRY + KISS principles"
 
 ## Contact & Support
 
+<<<<<<< HEAD
 **Project**: Notify Platform  
+=======
+**Project**: FixCity Platform  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Team**: AI Agent Collaboration  
 **Documentation**: This file + indices  
 **Next Phase**: GitHub Actions & CI/CD fixes  

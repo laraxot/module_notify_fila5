@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "📸 Analisi Visiva Header & Footer - Notify vs Bootstrap Italia"
+=======
+title: "📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [analisi, colori, header, footer]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "analisi-colori-header-footer 📸 analisi visiva header & footer - laraxot vs bootstrap italia"
+=======
+qmd: "analisi-colori-header-footer 📸 analisi visiva header & footer - fixcity vs bootstrap italia"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -13,7 +21,11 @@ related:
   - "./screenshot-analysis.md"
 ---
 
+<<<<<<< HEAD
 # 📸 Analisi Visiva Header & Footer - Notify vs Bootstrap Italia
+=======
+# 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Data: {{ date('Y-m-d H:i:s') }}
 
@@ -22,7 +34,11 @@ related:
 ## 🎯 Problema Identificato
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
+<<<<<<< HEAD
 **Notify**: http://laraxot.local/it/tests/homepage
+=======
+**FixCity**: http://fixcity.local/it/tests/homepage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Differenze Principali**:
 1. ❌ Header: Colori non corretti
@@ -173,9 +189,15 @@ related:
 
 ---
 
+<<<<<<< HEAD
 ## 3. Notify - Differenze Attuali
 
 ### Header Notify (Errato)
+=======
+## 3. FixCity - Differenze Attuali
+
+### Header FixCity (Errato)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```
 ❌ Barra regione: Colore sbagliato
@@ -185,7 +207,11 @@ related:
 ❌ Login: Stile non Bootstrap Italia
 ```
 
+<<<<<<< HEAD
 ### Footer Notify (Errato)
+=======
+### Footer FixCity (Errato)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```
 ❌ Feedback module: Assente o errato

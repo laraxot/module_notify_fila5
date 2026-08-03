@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Base App Fila5 — PROJECT.md
+=======
+# Base Fixcity Fila5 — PROJECT.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Context
 Laravel + Filament v5 modular monolith (Laraxot architecture).
@@ -6,7 +10,11 @@ Theme: Sixteen (Bootstrap Italia → Tailwind parity).
 Frontend wizard: Ticket creation wizard via `CreateTicketWizardWidget` (Filament v5 Schemas).
 
 ## Current Milestone
+<<<<<<< HEAD
 **M0: App Ticket Wizard — Visual & HTML Parity** ✅ DONE
+=======
+**M0: Fixcity Ticket Wizard — Visual & HTML Parity** ✅ DONE
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segnalazione-02-dati.html`
 
@@ -30,4 +38,8 @@ Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segn
 - Filament Schemas = unified system (v5). Forms + Infolists coexist.
 - Widget → NO model binding (`getFormModel() → null`)
 - CSS scoped overrides → never mutate Filament markup
+<<<<<<< HEAD
 - Multilingual: all strings via `__('laraxot::ticket.*')`
+=======
+- Multilingual: all strings via `__('fixcity::ticket.*')`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

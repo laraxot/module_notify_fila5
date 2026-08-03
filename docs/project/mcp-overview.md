@@ -1,6 +1,10 @@
 # MCP Servers - Project Overview
 
+<<<<<<< HEAD
 **Project**: Notify Platform  
+=======
+**Project**: FixCity Platform  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Last Updated**: 2026-04-09  
 **Status**: Active - Memory and Development Workflow MCP Servers Configured
 
@@ -21,7 +25,11 @@ MCP (Model Context Protocol) servers enhance AI agent capabilities for:
 ### 1. SuperMemory (✅ Active - Memory)
 - **Location**: `laravel/Themes/Sixteen/.supermemory/`
 - **Purpose**: Long-term project memory for AI agents
+<<<<<<< HEAD
 - **Container Tag**: `laraxot-sixteen`
+=======
+- **Container Tag**: `fixcity-sixteen`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **API Key**: Configured in `.env`
 - **Documentation**: [Sixteen Theme SuperMemory Docs](../../laravel/Themes/Sixteen/docs/supermemory.md)
 
@@ -84,12 +92,20 @@ docs/
 // 1. Search existing memories
 const context = await client.search.memories({
   q: 'css parity workflow',
+<<<<<<< HEAD
   containerTag: 'laraxot-sixteen'
+=======
+  containerTag: 'fixcity-sixteen'
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 });
 
 // 2. Get project profile
 const profile = await client.profile({
+<<<<<<< HEAD
   containerTag: 'laraxot-sixteen',
+=======
+  containerTag: 'fixcity-sixteen',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   q: 'tech stack laravel'
 });
 ```
@@ -99,7 +115,11 @@ const profile = await client.profile({
 // Store results
 await client.add({
   content: 'Fixed CSS parity for segnalazione pages',
+<<<<<<< HEAD
   containerTag: 'laraxot-sixteen',
+=======
+  containerTag: 'fixcity-sixteen',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   metadata: { type: 'css-fix', date: '2026-04-09' }
 });
 ```
@@ -116,7 +136,11 @@ npm run build && npm run copy
 
 ## 📊 Memory Statistics
 
+<<<<<<< HEAD
 **SuperMemory Container**: `laraxot-sixteen`
+=======
+**SuperMemory Container**: `fixcity-sixteen`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 | Memory Type | Count | Description |
 |-------------|-------|-------------|

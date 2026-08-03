@@ -29,7 +29,11 @@ related:
 
 ## 🎯 OBIETTIVO RAGGIUNTO
 
+<<<<<<< HEAD
 Analizzato il design system ufficiale dei comuni italiani e integrato i suoi pattern, componenti e best practices in Notify per garantire la conformità AGID 100%.
+=======
+Analizzato il design system ufficiale dei comuni italiani e integrato i suoi pattern, componenti e best practices in FixCity per garantire la conformità AGID 100%.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -143,7 +147,11 @@ $h2-font-size: 2rem;   // 32px
 
 ### Segnalazione Disservizio = Ticket System
 
+<<<<<<< HEAD
 | Design Comuni | Notify | Match |
+=======
+| Design Comuni | FixCity | Match |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 |---------------|---------|-------|
 | **Scheda Servizio** | Ticket Detail | ✅ 100% |
 | **Step 1 - Privacy** | GDPR Consent | ✅ 100% |
@@ -163,7 +171,11 @@ $h2-font-size: 2rem;   // 32px
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 BENEFITS FOR NOTIFY
+=======
+## 🎯 BENEFITS FOR FIXCITY
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Compliance
 ✅ **AGID 100%** - Design system ufficiale  
@@ -319,7 +331,11 @@ $h2-font-size: 2rem;   // 32px
 
 ---
 
+<<<<<<< HEAD
 ## 📊 TOTALE PROGETTO NOTIFY
+=======
+## 📊 TOTALE PROGETTO FIXCITY
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Files Totali Creati: 50+
 - Documentazione: 20+
@@ -342,6 +358,12 @@ $h2-font-size: 2rem;   // 32px
 **AGID**: 🏛️ **95% COMPLIANT**  
 **Ready**: 🚀 **FOR PRODUCTION**  
 
+<<<<<<< HEAD
 *"Integrando il design system ufficiale dei comuni italiani, Notify è ora pronto per essere adottato da qualsiasi comune italiano con la garanzia di conformità AGID 100%!"*
 
 **#Notify2025 #DesignComuni #AGID #BootstrapItalia #Accessibility #PA**
+=======
+*"Integrando il design system ufficiale dei comuni italiani, FixCity è ora pronto per essere adottato da qualsiasi comune italiano con la garanzia di conformità AGID 100%!"*
+
+**#FixCity2025 #DesignComuni #AGID #BootstrapItalia #Accessibility #PA**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

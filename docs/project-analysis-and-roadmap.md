@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Notify - Analisi Completa del Progetto e Roadmap
+=======
+# FixCity - Analisi Completa del Progetto e Roadmap
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data Analisi**: 1 Ottobre 2025  
 **Analista**: AI Assistant  
@@ -8,9 +12,15 @@
 
 ## 🎯 SCOPO DEL PROGETTO
 
+<<<<<<< HEAD
 ### Cos'è Notify?
 
 **Notify** è una **piattaforma di segnalazione cittadina (Civic Reporting)** che permette ai cittadini di:
+=======
+### Cos'è FixCity?
+
+**FixCity** è una **piattaforma di segnalazione cittadina (Civic Reporting)** che permette ai cittadini di:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 1. **Segnalare problemi urbani** alla propria amministrazione comunale
 2. **Tracciare lo stato** delle segnalazioni in tempo reale
 3. **Collaborare** con l'amministrazione per migliorare la città
@@ -69,10 +79,17 @@ Moduli Supporto:
 ### Architettura Modulare
 
 ```
+<<<<<<< HEAD
 /var/www/_bases/base_ptvx_fila5_mono/
 ├── laravel/                    # Root Laravel
 │   ├── Modules/               # Moduli business
 │   │   ├── App/          # Core segnalazioni
+=======
+/var/www/_bases/base_fixcity_fila5_mono/
+├── laravel/                    # Root Laravel
+│   ├── Modules/               # Moduli business
+│   │   ├── Fixcity/          # Core segnalazioni
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   │   ├── User/             # Gestione utenti
 │   │   ├── Xot/              # Framework base
 │   │   └── [altri moduli]/
@@ -261,7 +278,11 @@ Moduli Supporto:
 - Categorizzazione automatica ticket (AI module)
 - Sentiment analysis commenti
 - Suggerimenti automatici
+<<<<<<< HEAD
 - Forecasting maintenance
+=======
+- Predictive maintenance
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Chatbot assistenza
 
 **Stima**: 1-2 mesi
@@ -493,7 +514,11 @@ Moduli Supporto:
 
 ---
 
+<<<<<<< HEAD
 **Conclusione**: Notify è un progetto **solido e ben architettato** con un **core funzionale completo** (90%). Le aree di miglioramento principali sono **qualità del codice (quasi completa)**, **test coverage**, **API standardization** e **feature avanzate** (mobile, real-time, AI).
+=======
+**Conclusione**: FixCity è un progetto **solido e ben architettato** con un **core funzionale completo** (90%). Le aree di miglioramento principali sono **qualità del codice (quasi completa)**, **test coverage**, **API standardization** e **feature avanzate** (mobile, real-time, AI).
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Potenziale commerciale**: ⭐⭐⭐⭐⭐ (5/5)  
 **Qualità tecnica**: ⭐⭐⭐⭐ (4/5 → 5/5 dopo PHPStan completion)  
@@ -504,7 +529,11 @@ Moduli Supporto:
 
 **Documento creato**: 1 Ottobre 2025  
 **Prossimo review**: 1 Novembre 2025  
+<<<<<<< HEAD
 **Maintainer**: [Team Notify]
+=======
+**Maintainer**: [Team FixCity]
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 
 

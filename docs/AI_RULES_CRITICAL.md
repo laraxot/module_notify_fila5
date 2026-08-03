@@ -23,7 +23,11 @@
 
 ```bash
 # After creating/modifying files
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # 1. Add all changes
 git add .
@@ -42,7 +46,11 @@ git commit -m "Add feature X with documentation
 git push origin dev
 
 # 5. Verify on GitHub
+<<<<<<< HEAD
 gh run list --repo laraxot/base_ptvx_fila5
+=======
+gh run list --repo laraxot/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -67,7 +75,11 @@ gh run list --repo laraxot/base_ptvx_fila5
 sleep 120
 
 # Check workflow status
+<<<<<<< HEAD
 gh run list --repo laraxot/base_ptvx_fila5
+=======
+gh run list --repo laraxot/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # View logs
 gh run view <run-id> --log
@@ -273,7 +285,11 @@ git push origin dev
 git log -n 3 --oneline
 
 # Compare with:
+<<<<<<< HEAD
 # https://github.com/laraxot/platform/commits/dev
+=======
+# https://github.com/laraxot/base_fixcity_fila5/commits/dev
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---

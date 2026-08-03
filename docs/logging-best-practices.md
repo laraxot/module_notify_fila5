@@ -141,6 +141,7 @@ Instead of logging routine operations, use proper monitoring tools:
 ## Files to Audit
 
 ### Service Classes (High Priority)
+<<<<<<< HEAD
 - `Modules/App/app/Services/NotificationService.php`
 - `Modules/App/app/Services/TicketService.php`
 - `Modules/App/app/Services/WorkflowService.php`
@@ -148,6 +149,15 @@ Instead of logging routine operations, use proper monitoring tools:
 
 ### Actions (Medium Priority)
 - `Modules/App/app/Actions/*.php`
+=======
+- `Modules/Fixcity/app/Services/NotificationService.php`
+- `Modules/Fixcity/app/Services/TicketService.php`
+- `Modules/Fixcity/app/Services/WorkflowService.php`
+- All other Service classes in all modules
+
+### Actions (Medium Priority)
+- `Modules/Fixcity/app/Actions/*.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - All Spatie QueueableActions
 
 ### Controllers (Medium Priority)

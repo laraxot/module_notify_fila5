@@ -5,7 +5,11 @@
 Il file `laravel/Modules/Notify/lang/it/send_email.php` presenta diversi problemi critici:
 
 ### 1. Conflitto di Merge Non Risolto
+<<<<<<< HEAD
 - Presenza di marcatori
+=======
+- Presenza di marcatori 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Due versioni del file in conflitto
 - Sintassi PHP non valida che impedisce l'esecuzione
 
@@ -52,7 +56,11 @@ return [
 **Prima**:
 ```php
 return array (
+<<<<<<< HEAD
   'navigation' =>
+=======
+  'navigation' => 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   array (
     'label' => 'Invio Email',
     // ...
@@ -253,8 +261,13 @@ return [
 ### 1. Controllo Sintassi PHP
 ```bash
 cd /var/www/html/_bases/base_<nome progetto>/laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/_bases/base_ptvx_fila5/laravel
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -309,5 +322,10 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ---
 
+<<<<<<< HEAD
 **Ultimo aggiornamento**: Gennaio 2025
 **Autore**: Sistema di miglioramento automatico
+=======
+**Ultimo aggiornamento**: Gennaio 2025  
+**Autore**: Sistema di miglioramento automatico  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

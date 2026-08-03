@@ -129,11 +129,19 @@ Section::make('Riepilogo Segnalazione')
 
 ```php
 // ✅ CORRETTO: usa chiavi traduzione
+<<<<<<< HEAD
 Section::make(__('laraxot::create_ticket_wizard.sections.summary.label'))
     ->description(__('laraxot::create_ticket_wizard.sections.summary.description'))
 ```
 
 **File traduzione**: `Modules/App/resources/lang/en/create_ticket_wizard.php`
+=======
+Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
+    ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
+```
+
+**File traduzione**: `Modules/Fixcity/resources/lang/en/create_ticket_wizard.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```php
 return [
     'sections' => [
@@ -145,7 +153,11 @@ return [
 ];
 ```
 
+<<<<<<< HEAD
 **File traduzione**: `Modules/App/resources/lang/it/create_ticket_wizard.php`
+=======
+**File traduzione**: `Modules/Fixcity/resources/lang/it/create_ticket_wizard.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```php
 return [
     'sections' => [
@@ -176,7 +188,11 @@ return [
 // ✅ CORRETTO: translation key con pluralizzazione
 ->description(fn (Get $get): string =>
     trans_choice(
+<<<<<<< HEAD
         'laraxot::create_ticket_wizard.sections.images.description',
+=======
+        'fixcity::create_ticket_wizard.sections.images.description',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         count($get('images') ?? [])
     )
 )
@@ -202,7 +218,11 @@ return [
 ->limitMessage('E altre :count immagini')
 
 // ✅ CORRETTO
+<<<<<<< HEAD
 ->limitMessage(__('laraxot::create_ticket_wizard.sections.images.limit_message'))
+=======
+->limitMessage(__('fixcity::create_ticket_wizard.sections.images.limit_message'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -216,7 +236,11 @@ return [
 Section::make('Riepilogo Segnalazione')
 
 // ✅ CORRETTO
+<<<<<<< HEAD
 Section::make(__('laraxot::create_ticket_wizard.sections.summary.label'))
+=======
+Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -228,7 +252,11 @@ Section::make(__('laraxot::create_ticket_wizard.sections.summary.label'))
 ->description('Verifica i dati prima dell\'invio')
 
 // ✅ CORRETTO
+<<<<<<< HEAD
 ->description(__('laraxot::create_ticket_wizard.sections.summary.description'))
+=======
+->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -252,7 +280,11 @@ Section::make(__('laraxot::create_ticket_wizard.sections.summary.label'))
 $this->addError('data.submit', 'Si è verificato un errore')
 
 // ✅ CORRETTO
+<<<<<<< HEAD
 $this->addError('data.submit', __('laraxot::create_ticket_wizard.notifications.submit_failed.body'))
+=======
+$this->addError('data.submit', __('fixcity::create_ticket_wizard.notifications.submit_failed.body'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -267,8 +299,13 @@ Notification::make()
 
 // ✅ CORRETTO
 Notification::make()
+<<<<<<< HEAD
     ->title(__('laraxot::create_ticket_wizard.notifications.success.title'))
     ->body(__('laraxot::create_ticket_wizard.notifications.success.body'))
+=======
+    ->title(__('fixcity::create_ticket_wizard.notifications.success.title'))
+    ->body(__('fixcity::create_ticket_wizard.notifications.success.body'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -280,7 +317,11 @@ Notification::make()
 echo count($items) . ' elementi trovati'
 
 // ✅ CORRETTO
+<<<<<<< HEAD
 echo trans_choice('laraxot::messages.items_found', count($items))
+=======
+echo trans_choice('fixcity::messages.items_found', count($items))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -293,8 +334,13 @@ Section::make('Riepilogo Segnalazione')
     ->description('Verify your data')  // MISTO!
 
 // ✅ CORRETTO: tutto via translation keys
+<<<<<<< HEAD
 Section::make(__('laraxot::sections.summary.label'))
     ->description(__('laraxot::sections.summary.description'))
+=======
+Section::make(__('fixcity::sections.summary.label'))
+    ->description(__('fixcity::sections.summary.description'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -302,7 +348,11 @@ Section::make(__('laraxot::sections.summary.label'))
 ### 8. CREERAI file traduzione per ogni lingua supportata
 
 ```
+<<<<<<< HEAD
 Modules/App/resources/lang/
+=======
+Modules/Fixcity/resources/lang/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── en/
 │   └── create_ticket_wizard.php
 ├── it/
@@ -321,7 +371,11 @@ Modules/App/resources/lang/
 
 ```php
 // Aggiungi nuova UI
+<<<<<<< HEAD
 Section::make(__('laraxot::new_section.label'))
+=======
+Section::make(__('fixcity::new_section.label'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 // IMMEDIATAMENTE aggiungi a TUTTI i file lang:
 // en/create_ticket_wizard.php → 'new_section' => ['label' => 'New Section']
@@ -369,8 +423,13 @@ exit 0
 
 ```bash
 # Cerca italiano hardcoded in Filament
+<<<<<<< HEAD
 grep -rE "make\(['\"][A-ZÀ]" Modules/App/app/Filament/ --include="*.php"
 grep -rE "description\(['\"][A-ZÀ]" Modules/App/app/Filament/ --include="*.php"
+=======
+grep -rE "make\(['\"][A-ZÀ]" Modules/Fixcity/app/Filament/ --include="*.php"
+grep -rE "description\(['\"][A-ZÀ]" Modules/Fixcity/app/Filament/ --include="*.php"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -379,7 +438,11 @@ grep -rE "description\(['\"][A-ZÀ]" Modules/App/app/Filament/ --include="*.php"
 
 Per ogni violazione:
 - Identifica la stringa italiana
+<<<<<<< HEAD
 - Crea chiave: `laraxot::create_ticket_wizard.sections.xxx.label`
+=======
+- Crea chiave: `fixcity::create_ticket_wizard.sections.xxx.label`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Aggiungi a TUTTI i file lang (en, it, fr, de, es)
 
 ---
@@ -392,8 +455,13 @@ Section::make('Riepilogo Segnalazione')
     ->description('Verifica i dati prima dell\'invio')
 
 // DOPO
+<<<<<<< HEAD
 Section::make(__('laraxot::create_ticket_wizard.sections.summary.label'))
     ->description(__('laraxot::create_ticket_wizard.sections.summary.description'))
+=======
+Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
+    ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -476,7 +544,11 @@ Amen.
 
 - [Laravel Localization Docs](https://laravel.com/docs/localization)
 - [LangServiceProvider](../../Lang/app/Providers/LangServiceProvider.php)
+<<<<<<< HEAD
 - [Translation Files](../../Modules/App/resources/lang/)
+=======
+- [Translation Files](../../Modules/Fixcity/resources/lang/)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [Pre-Commit Hook](../../bashscripts/check-hardcoded-language.sh)
 
 ---

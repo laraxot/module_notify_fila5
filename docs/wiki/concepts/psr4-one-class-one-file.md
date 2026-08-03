@@ -6,9 +6,15 @@ created: 2026-07-16
 updated: 2026-07-16
 qmd: "notify psr-4 test doubles phpstan probes composer autoload"
 issues:
+<<<<<<< HEAD
   - ""
 discussions:
   - ""
+=======
+  - "https://github.com/laraxot/base_techplanner_fila5/issues/38"
+discussions:
+  - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 related:
   - "../../../../Xot/docs/wiki/concepts/psr4-one-class-one-file.md"
 ---

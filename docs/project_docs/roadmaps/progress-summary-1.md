@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "📊 RIEPILOGO PROGRESSI - NOTIFY PLATFORM"
+=======
+title: "📊 RIEPILOGO PROGRESSI - FIXCITY PLATFORM"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [progress, summary, 2025, 27.deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "progress-summary-2025-01-27.deprecated 📊 riepilogo progressi - laraxot platform"
+=======
+qmd: "progress-summary-2025-01-27.deprecated 📊 riepilogo progressi - fixcity platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./code-quality-improvements-1.md"
 ---
 
+<<<<<<< HEAD
 # 📊 RIEPILOGO PROGRESSI - NOTIFY PLATFORM
+=======
+# 📊 RIEPILOGO PROGRESSI - FIXCITY PLATFORM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 27 Gennaio 2025  
 **Status**: 🚧 ACTIVE DEVELOPMENT  
@@ -51,7 +63,11 @@ related:
 ### ✅ Moduli Core (CRITICAL)
 - [x] **Xot Module**: 95% completato, PHPStan Level 9
 - [x] **User Module**: 90% completato, PHPStan Level 9
+<<<<<<< HEAD
 - [x] **App Module**: 80% completato, PHPStan Level 9
+=======
+- [x] **Fixcity Module**: 80% completato, PHPStan Level 9
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### ✅ Moduli Support (HIGH)
 - [x] **UI Module**: 85% completato, PHPStan Level 9
@@ -64,8 +80,13 @@ related:
 ## 🚧 IN CORSO
 
 ### 🔧 Implementazione Roadmap
+<<<<<<< HEAD
 - [ ] **API Development**: App module (45% completato)
 - [ ] **Mobile Optimization**: App module (55% completato)
+=======
+- [ ] **API Development**: Fixcity module (45% completato)
+- [ ] **Mobile Optimization**: Fixcity module (55% completato)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] **AGID Compliance**: Sixteen theme (85% completato)
 - [ ] **Test Coverage**: Implementazione test per tutti i moduli
 
@@ -80,7 +101,11 @@ related:
 ## 📅 PROSSIMI PASSI (Next 30 Days)
 
 ### Week 1: API Development
+<<<<<<< HEAD
 - [ ] Completare API endpoints per App
+=======
+- [ ] Completare API endpoints per Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Implementare autenticazione API
 - [ ] Documentare API con OpenAPI/Swagger
 - [ ] Test API endpoints
@@ -136,7 +161,11 @@ related:
 - [x] Aggiornare documentazione
 
 ### Febbraio 2025
+<<<<<<< HEAD
 - [ ] Completare API App
+=======
+- [ ] Completare API Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Ottimizzare mobile interface
 - [ ] Raggiungere 100% AGID compliance
 - [ ] Implementare test coverage 60%+
@@ -188,6 +217,7 @@ related:
 
 ### Moduli Core
 - **Xot ↔ User**: Integrazione completa
+<<<<<<< HEAD
 - **Xot ↔ App**: Integrazione completa
 - **User ↔ App**: Integrazione completa
 
@@ -195,6 +225,15 @@ related:
 - **UI ↔ Sixteen**: Integrazione tema
 - **Geo ↔ App**: Integrazione geolocalizzazione
 - **Media ↔ App**: Integrazione file upload
+=======
+- **Xot ↔ Fixcity**: Integrazione completa
+- **User ↔ Fixcity**: Integrazione completa
+
+### Moduli Support
+- **UI ↔ Sixteen**: Integrazione tema
+- **Geo ↔ Fixcity**: Integrazione geolocalizzazione
+- **Media ↔ Fixcity**: Integrazione file upload
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Notify ↔ User**: Integrazione notifiche
 
 ### Quality Tools
@@ -242,7 +281,11 @@ related:
 
 ---
 
+<<<<<<< HEAD
 *Questo documento riassume i progressi completati e le prossime azioni per il completamento del progetto Notify Platform.*
+=======
+*Questo documento riassume i progressi completati e le prossime azioni per il completamento del progetto FixCity Platform.*
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 
 

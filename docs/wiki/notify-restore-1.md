@@ -24,7 +24,11 @@ related:
 
 `laravel/Modules/Notify/laravel` conteneva una Laravel app completa annidata dentro il modulo Notify. La directory includeva `artisan`, `config`, `routes`, `storage`, `Themes`, `Modules` e copie di altri moduli. Questo contaminava scansioni, QMD, grep e validazioni statiche.
 
+<<<<<<< HEAD
 Inoltre `laravel/Modules/Notify/composer.json` descriveva erroneamente un modulo User/Notify invece di Notify.
+=======
+Inoltre `laravel/Modules/Notify/composer.json` descriveva erroneamente un modulo User/FixCity invece di Notify.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Intervento
 
@@ -40,7 +44,11 @@ Inoltre `laravel/Modules/Notify/composer.json` descriveva erroneamente un modulo
   - `Modules\\Notify\\` -> `app/`
   - `Modules\\Notify\\Database\\Factories\\` -> `database/factories/`
   - `Modules\\Notify\\Database\\Seeders\\` -> `database/seeders/`
+<<<<<<< HEAD
 - Non restano riferimenti `laraxot/user-module` o `Modules\\User\\` nel composer del modulo.
+=======
+- Non restano riferimenti `fixcity/user-module` o `Modules\\User\\` nel composer del modulo.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Nota
 

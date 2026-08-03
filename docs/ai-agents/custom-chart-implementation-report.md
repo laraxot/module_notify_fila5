@@ -11,7 +11,11 @@ Implementazione completa delle funzionalità di grafici custom da Fila4 a Fila5,
 ### Fila4 Features Studiate
 
 **Directory Analizzate**:
+<<<<<<< HEAD
 - `./laravel/Modules/App/app/Actions/QuestionChart/`
+=======
+- `./laravel/Modules/Quaeris/app/Actions/QuestionChart/`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `./laravel/Modules/Chart/app/Actions/`
 
 **File Chiave Esaminati**:
@@ -66,7 +70,11 @@ foreach ($charts as $chart) {
 ### 2.2 Actions Implementate ✅
 
 #### GetAnswersByQuestionChart
+<<<<<<< HEAD
 **File**: `Modules/App/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
+=======
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Features**:
 - ✅ Custom question type handling (`custom:*`)
@@ -85,7 +93,11 @@ foreach ($charts as $chart) {
 - `processResults()` - Result processing
 
 #### GetChartsDataByQuestionChart
+<<<<<<< HEAD
 **File**: `Modules/App/app/Actions/QuestionChart/GetChartsDataByQuestionChart.php`
+=======
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/GetChartsDataByQuestionChart.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Features**:
 - ✅ Multiple charts per question
@@ -151,13 +163,22 @@ foreach ($charts as $chart) {
 3. `Modules/Chart/app/Datas/AnswersChartData.php`
 
 #### Actions (4)
+<<<<<<< HEAD
 4. `Modules/App/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
 5. `Modules/App/app/Actions/QuestionChart/GetChartsDataByQuestionChart.php`
+=======
+4. `Modules/Quaeris/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
+5. `Modules/Quaeris/app/Actions/QuestionChart/GetChartsDataByQuestionChart.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 6. `Modules/Chart/app/Actions/ExportChartToSvgAction.php`
 7. `Modules/Chart/app/Actions/ExportChartToPngAction.php`
 
 #### Documentation (3)
+<<<<<<< HEAD
 8. `Modules/App/docs/custom-chart-implementation.md`
+=======
+8. `Modules/Quaeris/docs/custom-chart-implementation.md`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 9. `.kilo/docs/custom-chart-implementation-report.md` (this file)
 10. `.github/ISSUE_TEMPLATE/custom-chart-implementation.md`
 
@@ -173,7 +194,11 @@ foreach ($charts as $chart) {
 ### Basic Usage
 
 ```php
+<<<<<<< HEAD
 use Modules\App\Actions\QuestionChart\GetChartsDataByQuestionChart;
+=======
+use Modules\Quaeris\Actions\QuestionChart\GetChartsDataByQuestionChart;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 use Modules\Chart\Actions\ExportChartToSvgAction;
 use Modules\Chart\Actions\ExportChartToPngAction;
 
@@ -212,7 +237,11 @@ class QuestionChartAnswersCompositeWidget extends Widget
             $this->filters
         );
         
+<<<<<<< HEAD
         return view('this-project::filament.widgets.question-chart-answers-composite-widget', [
+=======
+        return view('quaeris::filament.widgets.question-chart-answers-composite-widget', [
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             'chartsData' => $chartsData,
         ]);
     }
@@ -341,12 +370,21 @@ $sort_by_expr = 'DATE_FORMAT(sms_sent_at, "%Y-%m")';
 
 ### File Corretto
 
+<<<<<<< HEAD
 - `laravel/Modules/App/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
 
 ### Test URL
 
 - `/this-project/admin/ats/survey-pdfs/16/question-charts/191`
 - `/this-project/admin/ats/survey-pdfs/16/question-charts/234`
+=======
+- `laravel/Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
+
+### Test URL
+
+- `/quaeris/admin/ats/survey-pdfs/16/question-charts/191`
+- `/quaeris/admin/ats/survey-pdfs/16/question-charts/234`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -403,9 +441,15 @@ $sort_by_expr = 'DATE_FORMAT(sms_sent_at, "%Y-%m")';
 ## 12. References
 
 ### Internal Documentation
+<<<<<<< HEAD
 - [Custom Chart Implementation Guide](Modules/App/docs/custom-chart-implementation.md)
 - [GitHub Issue Template](.github/ISSUE_TEMPLATE/custom-chart-implementation.md)
 - [Fila4 Source Code](file://./laravel/Modules/App/app/Actions/QuestionChart/)
+=======
+- [Custom Chart Implementation Guide](Modules/Quaeris/docs/custom-chart-implementation.md)
+- [GitHub Issue Template](.github/ISSUE_TEMPLATE/custom-chart-implementation.md)
+- [Fila4 Source Code](file://./laravel/Modules/Quaeris/app/Actions/QuestionChart/)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### External Resources
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)

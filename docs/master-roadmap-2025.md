@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "🗺️ NOTIFY PLATFORM - MASTER ROADMAP 2025"
+=======
+title: "🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [master, roadmap, 2025]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "master-roadmap-2025 🗺️ laraxot platform - master roadmap 2025"
+=======
+qmd: "master-roadmap-2025 🗺️ fixcity platform - master roadmap 2025"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 🗺️ NOTIFY PLATFORM - MASTER ROADMAP 2025
+=======
+# 🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data Creazione**: 2025-01-27  
 **Versione**: 2.0.0  
@@ -30,7 +42,11 @@ related:
 
 ## 🎯 EXECUTIVE SUMMARY
 
+<<<<<<< HEAD
 **Notify** è una piattaforma **Civic Tech** per il civic engagement urbano che connette cittadini e amministrazioni per rendere le città più vivibili, efficienti e responsive. Il progetto è basato su un'architettura modulare Laravel con Filament 4.x e segue i principi AGID per l'accessibilità.
+=======
+**FixCity** è una piattaforma **Civic Tech** per il civic engagement urbano che connette cittadini e amministrazioni per rendere le città più vivibili, efficienti e responsive. Il progetto è basato su un'architettura modulare Laravel con Filament 4.x e segue i principi AGID per l'accessibilità.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 🏆 ACHIEVEMENTS COMPLETATI
 - ✅ **PHPStan Level 9**: 0 errori (da 53 errori iniziali)
@@ -45,7 +61,11 @@ related:
 
 ### 📊 Business Logic Core
 ```
+<<<<<<< HEAD
 Notify Platform
+=======
+FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── 🎫 TICKET MANAGEMENT (Core Business)
 │   ├── Segnalazioni cittadine
 │   ├── Workflow di risoluzione
@@ -85,7 +105,11 @@ Livello 1: MODULI FOUNDATION
 └── Notify (notifications)
 
 Livello 2: MODULI BUSINESS
+<<<<<<< HEAD
 ├── App (core ticketing) ⭐
+=======
+├── Fixcity (core ticketing) ⭐
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Comment (discussions)
 ├── Rating (feedback)
 ├── Activity (audit trail)
@@ -291,7 +315,11 @@ Filament: 3.x → 4.x (100% compatible)
 
 ## 📊 MODULE-SPECIFIC ROADMAPS
 
+<<<<<<< HEAD
 ### 🎫 App Module (Core Business)
+=======
+### 🎫 Fixcity Module (Core Business)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Status**: 80% COMPLETATO  
 **Priority**: CRITICAL
 
@@ -319,7 +347,11 @@ Filament: 3.x → 4.x (100% compatible)
 - [ ] **AI Integration** (Priority: LOW)
   - [ ] Auto-categorization
   - [ ] Duplicate detection
+<<<<<<< HEAD
   - [ ] Priority forecast
+=======
+  - [ ] Priority prediction
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - [ ] Resolution suggestions
 
 ### 👥 User Module

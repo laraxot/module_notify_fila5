@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Notify - Filosofia, Logica, Visione e Zen del Progetto
 
 ## La Visione
 
 **Notify** non è solo una piattaforma per la segnalazione di problemi urbani. È un sistema che connette i cittadini con la loro città, creando un circolo virtuoso di miglioramento continuo.
+=======
+# FixCity - Filosofia, Logica, Visione e Zen del Progetto
+
+## La Visione
+
+**FixCity** non è solo una piattaforma per la segnalazione di problemi urbani. È un sistema che connette i cittadini con la loro città, creando un circolo virtuoso di miglioramento continuo.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Principi Fondamentali
 
@@ -36,7 +44,11 @@ La struttura del progetto segue una logica precisa:
 
 ## La Religione (Regole Inderogabili)
 
+<<<<<<< HEAD
 ### Le 10 Leggi di Notify
+=======
+### Le 10 Leggi di FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 1. **Legge DRY**: Non ripetere mai il codice
 2. **Legge KISS**: Semplicità prima di tutto
@@ -117,7 +129,11 @@ Gestione della conoscenza con AI
 
 ## Conclusione
 
+<<<<<<< HEAD
 Notify è più di un progetto software. È un esperimento sociale tecnologico che dimostra come la tecnologia possa migliorare la vita dei cittadini. Ogni segnalazione risolta è una piccola vittoria per la comunità.
+=======
+FixCity è più di un progetto software. È un esperimento sociale tecnologico che dimostra come la tecnologia possa migliorare la vita dei cittadini. Ogni segnalazione risolta è una piccola vittoria per la comunità.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > *"La città perfetta non esiste, ma il viaggio verso di essa sì."*
 

@@ -2,7 +2,11 @@
 
 ## Overview
 
+<<<<<<< HEAD
 This guide documents the integration of **OpenViking** (globally installed) with **BMAD**, **GSD**, and **Ralph Loop** for the Notify platform.
+=======
+This guide documents the integration of **OpenViking** (globally installed) with **BMAD**, **GSD**, and **Ralph Loop** for the FixCity platform.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Installation Status
 
@@ -24,7 +28,11 @@ OpenViking is an AI-powered context management and documentation system that hel
 ### 1. Initialize OpenViking Context
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 openviking init
 ```
 
@@ -90,11 +98,19 @@ Use `viking://` URIs in BMAD documentation:
 
 ```bash
 # 1. Start GSD project
+<<<<<<< HEAD
 /gsd-new-project Notify
 
 # 2. Store project context
 openviking add --type=project \
   --title="Notify Platform" \
+=======
+/gsd-new-project FixCity
+
+# 2. Store project context
+openviking add --type=project \
+  --title="FixCity Platform" \
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   --file="PROJECT.md"
 
 # 3. During phase execution
@@ -136,7 +152,11 @@ mkdir -p .ralph
 # Create PRD for Ralph
 cat > .ralph/prd.json << 'EOF'
 {
+<<<<<<< HEAD
   "project": "Notify",
+=======
+  "project": "FixCity",
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   "goal": "Implement feature X",
   "stories": [
     {
@@ -257,7 +277,11 @@ openviking add --type=retrospective --file="_bmad/bmm/5-retro/retro.md"
 openviking init
 
 # Configure project
+<<<<<<< HEAD
 openviking config set project.name "Notify"
+=======
+openviking config set project.name "FixCity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 openviking config set project.version "1.0.0"
 ```
 

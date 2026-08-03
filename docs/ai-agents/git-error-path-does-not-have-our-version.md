@@ -322,7 +322,11 @@ git merge --abort   # No merge in progress
 # 2. Check current status
 git status --short
 # M docs/custom-charts-session-summary.md
+<<<<<<< HEAD
 # M laravel/Modules/App/app/Actions/QuestionChart/Custom/SmsResponseRate.php
+=======
+# M laravel/Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 # ...
 
 # 3. Continue normal work
@@ -500,3 +504,7 @@ git rebase --continue
 **Last Review**: 2026-03-17  
 **Next Review**: As needed  
 **Maintainer**: Development Team  
+<<<<<<< HEAD
+=======
+**Status**: ✅ Complete Reference
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

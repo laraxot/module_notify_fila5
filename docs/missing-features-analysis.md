@@ -15,7 +15,11 @@ Il modulo **Notify** è il motore di comunicazione dell'applicazione, fornendo:
 - Code asincrone per invio massivo
 - Sistema template modulare e riutilizzabile
 
+<<<<<<< HEAD
 **Architettura**: Modulo infrastrutturale per comunicazioni; utilizzato da App per distribuzione survey.
+=======
+**Architettura**: Modulo infrastrutturale per comunicazioni; utilizzato da Quaeris per distribuzione survey.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Stato Attuale Implementazione
 
@@ -228,7 +232,11 @@ Nessuna funzionalità critica mancante - il modulo Notify è ben implementato
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Modulo App](../App/docs/readme.md)
+=======
+- [Modulo Quaeris](../Quaeris/docs/readme.md)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [Modulo Limesurvey](../limesurvey/docs/readme.md)
 - [Notify README](./readme.md)
 

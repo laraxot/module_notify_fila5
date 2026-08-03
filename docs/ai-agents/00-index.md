@@ -65,7 +65,11 @@ related:
 - [claude.md](../../../claude.md)
 - [gemini.md](../../../gemini.md)
 - [qwen.md](../../../qwen.md)
+<<<<<<< HEAD
 - [Forecast docs index](../../../laravel/Modules/Forecast/docs/00-index-1.md)
+=======
+- [Predict docs index](../../../laravel/Modules/Predict/docs/00-index-1.md)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [TwentyOne docs index](../../../laravel/Themes/TwentyOne/docs/00-index-1.md)
 - [Frontend rules index](../rules/frontend/00-index-1.md)
 - [Semantic CSS Rule](../rules/frontend/semantic-css-rule.md)

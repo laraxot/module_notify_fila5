@@ -18,7 +18,11 @@ Il modulo CMS include funzionalità per la gestione dei temi, inclusi:
 Per risolvere l'errore "Unable to locate file in Vite manifest", eseguire:
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
+=======
+cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 npm run copy
 ```
 

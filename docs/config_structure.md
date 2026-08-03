@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Principi di Configurazione
 
@@ -10,7 +14,11 @@
    ```php
    return [
        'default' => env('SMS_DRIVER', 'default_driver'),
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
        // Specifico per provider - Solo parametri di autenticazione e identificazione
        'drivers' => [
            'provider1' => [
@@ -24,19 +32,31 @@
                // Solo parametri specifici per la connessione!
            ],
        ],
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
        // Configurazione generica - Applicabile a tutti i provider
        'retry' => [
            'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
            'delay' => env('SMS_RETRY_DELAY', 60),
        ],
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
        'rate_limit' => [
            'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
            'max_attempts' => env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
            'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
        ],
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
        // Altre configurazioni generiche
    ];
    ```

@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "Pagine Create - Notify Sixteen Theme"
+=======
+title: "Pagine Create - FixCity Sixteen Theme"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [pagine, create]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "pagine-create pagine create - laraxot sixteen theme"
+=======
+qmd: "pagine-create pagine create - fixcity sixteen theme"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # Pagine Create - Notify Sixteen Theme
+=======
+# Pagine Create - FixCity Sixteen Theme
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Data: {{ date('Y-m-d') }}
 

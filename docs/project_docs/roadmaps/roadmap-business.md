@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 💼 ROADMAP BUSINESS - NOTIFY PLATFORM
+=======
+# 💼 ROADMAP BUSINESS - FIXCITY PLATFORM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Versione**: 1.0  
 **Data Creazione**: Gennaio 2025  
@@ -8,7 +12,11 @@
 ## 🎯 Vision & Mission
 
 ### Vision
+<<<<<<< HEAD
 **Notify** diventa la piattaforma leader in Italia per il civic engagement urbano, connettendo 100+ città e 1M+ cittadini per rendere le città più vivibili, efficienti e responsive.
+=======
+**FixCity** diventa la piattaforma leader in Italia per il civic engagement urbano, connettendo 100+ città e 1M+ cittadini per rendere le città più vivibili, efficienti e responsive.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Mission
 Fornire una soluzione completa, scalabile e user-friendly per la gestione delle segnalazioni urbane, migliorando la qualità della vita cittadina attraverso tecnologia moderna e workflow ottimizzati.
@@ -204,7 +212,11 @@ class CustomerFeedback
 # Revenue optimization
 - A/B testing pricing
 - Upselling campaigns
+<<<<<<< HEAD
 - Churn forecast model
+=======
+- Churn prediction model
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Customer success program
 - Retention campaigns
 ```
@@ -312,7 +324,11 @@ class ApiMarketplace
 # AI/ML features
 class AIFeatures:
     def auto_categorize_tickets(self): pass
+<<<<<<< HEAD
     def forecast_resolution_time(self): pass
+=======
+    def predict_resolution_time(self): pass
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     def detect_duplicates(self): pass
     def sentiment_analysis(self): pass
     def optimize_routes(self): pass
@@ -493,8 +509,13 @@ EBITDA: €0 (Break-even Q4 2025)
 **📞 Contatti Business**
 - **CEO**: Business Development Team
 - **Email**: business@laraxot.com
+<<<<<<< HEAD
 - **LinkedIn**: [Notify Business](https://linkedin.com/company/laraxot)
 - **Website**: [www.laraxot.it](https://www.laraxot.it)
+=======
+- **LinkedIn**: [FixCity Business](https://linkedin.com/company/fixcity)
+- **Website**: [www.fixcity.it](https://www.fixcity.it)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **🔄 Ultimo Aggiornamento**: Gennaio 2025  
 **📊 Progresso**: 0% → 100% (Target Dicembre 2025)  

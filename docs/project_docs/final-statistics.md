@@ -20,7 +20,11 @@ related:
 
 # 📊 Final Project Statistics
 
+<<<<<<< HEAD
 **Project:** Notify - Base Fila4 Mono  
+=======
+**Project:** FixCity - Base Fila4 Mono  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Date:** 2025-10-01 21:47  
 **Status:** ✅ COMPLETED WITH EXCELLENCE
 
@@ -122,7 +126,11 @@ related:
 
 ### Modules (18)
 - AI, Activity, Blog, Cms, Comment
+<<<<<<< HEAD
 - App, Gdpr, Geo, Job, Lang
+=======
+- Fixcity, Gdpr, Geo, Job, Lang
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Media, Notify, Rating, Seo, Tenant
 - UI, User, Xot
 

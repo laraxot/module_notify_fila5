@@ -48,7 +48,11 @@ related:
 | Gdpr | ✅ | ✅ | 0 | 🟢 Bassa |
 | Lang | ❌ | ✅ | 0 | 🟢 Bassa |
 | Job | ❌ | ✅ | 0 | 🟢 Bassa |
+<<<<<<< HEAD
 | App | ✅ | ❌ | 0 | 🟢 Bassa |
+=======
+| Fixcity | ✅ | ❌ | 0 | 🟢 Bassa |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Xot** | ❌ | ✅ | 0 | ⚡ **CORE** |
 
 **Totale:**
@@ -158,7 +162,11 @@ abstract class BasePivot extends XotBasePivot
 - Gdpr
 - Lang
 - Job
+<<<<<<< HEAD
 - App
+=======
+- Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Script automatico:**
 
@@ -174,7 +182,11 @@ MODULES=(
     "Gdpr"
     "Lang"
     "Job"
+<<<<<<< HEAD
     "App"
+=======
+    "Fixcity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 )
 
 for module in "${MODULES[@]}"; do
@@ -267,7 +279,11 @@ php artisan benchmark:pivot-queries
 
 ```bash
 # Test ogni modulo singolarmente
+<<<<<<< HEAD
 for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job App; do
+=======
+for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job Fixcity; do
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     echo "Testing $module..."
     php artisan test --testsuite=$module || echo "❌ $module FAILED"
 done

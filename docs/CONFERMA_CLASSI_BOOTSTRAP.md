@@ -83,7 +83,11 @@ Tailwind @apply è usato SOLO per:
 
 ```bash
 # Verifica che le classi siano presenti
+<<<<<<< HEAD
 curl http://laraxot.local/it/tests/homepage | grep -o 'class="[^"]*"' | sort | uniq
+=======
+curl http://fixcity.local/it/tests/homepage | grep -o 'class="[^"]*"' | sort | uniq
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Output atteso:
 class="card card-teaser"

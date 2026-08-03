@@ -22,7 +22,11 @@ Questo significa che:
 ### Opzione 1: Commit Forzato
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Aggiungi forzatamente bashscripts
 git add -f bashscripts/git/subtrees/sync_remote_repo.sh
@@ -136,7 +140,11 @@ git commit -m "fix: Description of fix"
 git push origin dev
 
 # 6. Monitora
+<<<<<<< HEAD
 gh run list --repo laraxot/base_ptvx_fila5
+=======
+gh run list --repo laraxot/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---

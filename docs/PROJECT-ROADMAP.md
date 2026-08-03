@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # ROADMAP PRINCIPALE - Progetto App
 
 ## Scopo del Progetto
 App è un sistema completo di gestione dei ticket per la manutenzione urbana, progettato per migliorare la qualità della vita cittadina attraverso un sistema di segnalazioni efficiente e trasparente.
+=======
+# ROADMAP PRINCIPALE - Progetto Fixcity
+
+## Scopo del Progetto
+Fixcity è un sistema completo di gestione dei ticket per la manutenzione urbana, progettato per migliorare la qualità della vita cittadina attraverso un sistema di segnalazioni efficiente e trasparente.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Visione del Progetto
 Creare una piattaforma digitale che connetta cittadini, amministrazioni pubbliche e tecnici per risolvere rapidamente i problemi urbani, migliorando la qualità della vita e la soddisfazione dei cittadini.
@@ -29,7 +36,11 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 ## Architettura del Sistema
 
 ### Moduli Core
+<<<<<<< HEAD
 - **App**: Gestione ticket e workflow
+=======
+- **Fixcity**: Gestione ticket e workflow
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **User**: Autenticazione e gestione utenti
 - **Notify**: Sistema notifiche multi-canale
 - **Geo**: Geolocalizzazione e mappe
@@ -81,7 +92,11 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 - 📋 Predizione tempi di risoluzione
 - 📋 Ottimizzazione routing
 - 📋 Sentiment analysis
+<<<<<<< HEAD
 - 📋 Forecasting maintenance
+=======
+- 📋 Predictive maintenance
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Fase 5: Enterprise Features (PIANIFICATA)
 - 📋 Multi-tenant support
@@ -167,6 +182,12 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 - [Financial Projections](./financial-projections.md)
 
 ## Conclusioni
+<<<<<<< HEAD
 Il progetto App rappresenta un'opportunità unica per rivoluzionare la gestione della manutenzione urbana attraverso la tecnologia. Con un'architettura solida, un team dedicato e una roadmap chiara, il progetto è pronto per diventare il leader di mercato nel settore della smart city management.
 
 La combinazione di tecnologie moderne, user experience ottimizzata e business logic innovativa posiziona App come la soluzione ideale per amministrazioni pubbliche che vogliono migliorare la qualità dei servizi ai cittadini.
+=======
+Il progetto Fixcity rappresenta un'opportunità unica per rivoluzionare la gestione della manutenzione urbana attraverso la tecnologia. Con un'architettura solida, un team dedicato e una roadmap chiara, il progetto è pronto per diventare il leader di mercato nel settore della smart city management.
+
+La combinazione di tecnologie moderne, user experience ottimizzata e business logic innovativa posiziona Fixcity come la soluzione ideale per amministrazioni pubbliche che vogliono migliorare la qualità dei servizi ai cittadini.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

@@ -45,7 +45,11 @@ ssh-keygen -t ed25519 -C "actions@github.com" -f ~/.ssh/subtree_sync
 
 ### Step 3: Add Private Key to Repo Secrets
 
+<<<<<<< HEAD
 1. Go to: **https://github.com/laraxot/platform/settings/secrets/actions**
+=======
+1. Go to: **https://github.com/laraxot/base_fixcity_fila5/settings/secrets/actions**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. Click **"New repository secret"**
 3. Fill in:
    - **Name**: `SUBTREE_SSH_KEY`
@@ -61,7 +65,11 @@ ssh-keygen -t ed25519 -C "actions@github.com" -f ~/.ssh/subtree_sync
 
 ```bash
 # Go to project root
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Create empty commit to trigger workflow
 git commit --allow-empty -m "Test subtree sync workflow"
@@ -70,7 +78,11 @@ git commit --allow-empty -m "Test subtree sync workflow"
 git push origin dev
 
 # Wait 1-2 minutes, then check:
+<<<<<<< HEAD
 # https://github.com/laraxot/platform/actions
+=======
+# https://github.com/laraxot/base_fixcity_fila5/actions
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -116,11 +128,19 @@ Full documentation is available at:
 
 ```bash
 # Using GitHub CLI
+<<<<<<< HEAD
 gh run list --repo laraxot/base_ptvx_fila5
 gh run view <run-id> --log
 ```
 
 Or visit: **https://github.com/laraxot/platform/actions**
+=======
+gh run list --repo laraxot/base_fixcity_fila5
+gh run view <run-id> --log
+```
+
+Or visit: **https://github.com/laraxot/base_fixcity_fila5/actions**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -130,7 +150,11 @@ If you have questions about the setup:
 
 1. Check documentation in `bashscripts/docs/github/actions/`
 2. Review error logs on GitHub Actions
+<<<<<<< HEAD
 3. Contact: dev @laraxot.example.com
+=======
+3. Contact: dev @fixcity.example.com
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

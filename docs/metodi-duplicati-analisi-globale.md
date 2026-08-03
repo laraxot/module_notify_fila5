@@ -19,7 +19,11 @@ related:
 ---
 
 # 🐮 ANALISI GLOBALE METODI DUPLICATI
+<<<<<<< HEAD
 ## Super Cow Edition - Notify Project
+=======
+## Super Cow Edition - FixCity Project
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Powered by Super Cow** 🐮⚡
 **Data Generazione**: 2025-10-15 06:50:01
@@ -78,7 +82,11 @@ related:
 | Geo | 38 | 95132.2% | 873 | 55h | [📄 Vedi](Modules/Geo/docs/metodi-duplicati-analisi-1.md) |
 | UI | 2 | 75641.9% | 31 | 4h | [📄 Vedi](Modules/UI/docs/metodi-duplicati-analisi-1.md) |
 | AI | 4 | 75640.0% | 62 | 4h | [📄 Vedi](Modules/AI/docs/metodi-duplicati-analisi-1.md) |
+<<<<<<< HEAD
 | App | 72 | 69279.0% | 773 | 148h | [📄 Vedi](Modules/App/docs/metodi-duplicati-analisi-1.md) |
+=======
+| Fixcity | 72 | 69279.0% | 773 | 148h | [📄 Vedi](Modules/Fixcity/docs/metodi-duplicati-analisi-1.md) |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | Seo | 1 | 55.0% | 3 | 3h | [📄 Vedi](Modules/Seo/docs/metodi-duplicati-analisi-1.md) |
 
 ## 🎨 Distribuzione Strategie

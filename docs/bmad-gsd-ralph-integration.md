@@ -2,7 +2,11 @@
 
 ## Overview
 
+<<<<<<< HEAD
 This guide describes how to integrate **BMAD** (requirements & architecture), **GSD** (planning & execution), and **Ralph Loop** (autonomous implementation) for the Notify platform.
+=======
+This guide describes how to integrate **BMAD** (requirements & architecture), **GSD** (planning & execution), and **Ralph Loop** (autonomous implementation) for the FixCity platform.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Methodology Comparison
 
@@ -195,7 +199,11 @@ openviking add --type=retrospective \
 
 ## Complete Workflow Example
 
+<<<<<<< HEAD
 ### Scenario: Implement Forecast Market Feature
+=======
+### Scenario: Implement Prediction Market Feature
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```bash
 # ============================================
@@ -204,7 +212,11 @@ openviking add --type=retrospective \
 
 # Create PRD
 /bmad-create-prd
+<<<<<<< HEAD
 # → Defines forecast market requirements
+=======
+# → Defines prediction market requirements
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Create Architecture
 /bmad-create-architecture
@@ -215,7 +227,11 @@ openviking add --type=retrospective \
 # → Breaks down into implementable stories
 
 # Store in OpenViking
+<<<<<<< HEAD
 openviking add --type=requirement --title="Forecast Market" \
+=======
+openviking add --type=requirement --title="Prediction Market" \
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   --file="_bmad/bmm/2-plan/prd.json"
 openviking add --type=adr --title="LMSR Algorithm" \
   --file="_bmad/bmm/3-solutioning/lmsr-architecture.md"
@@ -248,7 +264,11 @@ cat .planning/phases/001/PLAN.md >> .ralph/context.md
 ./.ralph/ralph-loop.sh 20 true
 
 # Store in OpenViking
+<<<<<<< HEAD
 openviking add --type=ralph-outcome --title="Forecast Market Implementation" \
+=======
+openviking add --type=ralph-outcome --title="Prediction Market Implementation" \
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   --file=".ralph/iteration-log.md"
 
 # ============================================
@@ -284,7 +304,11 @@ openviking add --type=retrospective --title="Phase 1 Retro" \
 # ============================================
 
 git add .
+<<<<<<< HEAD
 git commit -m "feat: Add forecast market feature (BMAD+GSD+Ralph)"
+=======
+git commit -m "feat: Add prediction market feature (BMAD+GSD+Ralph)"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 git push origin dev
 ```
 
@@ -395,10 +419,17 @@ git push
 ✅ **ALWAYS** use viking:// URIs:
 ```markdown
 ## Related Context
+<<<<<<< HEAD
 - [PRD](viking://requirement/forecast-market)
 - [Architecture](viking://adr/lmsr-algorithm)
 - [Phase Plan](viking://phase/1-plan)
 - [Implementation](viking://ralph/forecast-market)
+=======
+- [PRD](viking://requirement/prediction-market)
+- [Architecture](viking://adr/lmsr-algorithm)
+- [Phase Plan](viking://phase/1-plan)
+- [Implementation](viking://ralph/prediction-market)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ❌ **NEVER** duplicate content across documents

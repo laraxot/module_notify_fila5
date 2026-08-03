@@ -3,6 +3,10 @@ title: "Sincronizzazione multi-organizzazione (laraxot + provtv)"
 type: concept
 tags: [git, sync, multi-org, laraxot, provtv, quality-gates]
 created: "2026-07-21"
+<<<<<<< HEAD
+=======
+updated: "2026-07-29"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 ---
@@ -41,6 +45,12 @@ revisione manuale dei conflitti reali.
 ### Playbook push dual-remote (2026-07-22, canon UI)
 
 Se `unpack failed` / `did not receive expected object` → `git push --no-thin`.
+<<<<<<< HEAD
+=======
+Se `unpack failed` / `did not receive expected object` → `git push --no-thin`.
+Niente reset/squash/force: sempre forward-only.
+
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Caso User 2026-07-23 (unrelated)
 

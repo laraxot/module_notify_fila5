@@ -56,7 +56,11 @@ public function handleHTTPRequest(): void
 
 # Convenzioni di Naming per le Azioni di Notifica
 
+<<<<<<< HEAD
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema <nome progetto>, supportando la risoluzione dinamica delle classi implementata nei factory.
+=======
+Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema SaluteOra, supportando la risoluzione dinamica delle classi implementata nei factory.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Pattern di Naming
 
@@ -132,7 +136,11 @@ final class SendNewProviderSMSAction implements SmsActionInterface
     public function execute(SmsData $smsData): array
     {
         // Implementazione...
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return [
             'success' => true,
             // Altri dati...

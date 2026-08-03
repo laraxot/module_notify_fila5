@@ -135,7 +135,11 @@ related:                               # Optional (array of paths)
 ### Initialize Module Wiki
 
 ```bash
+<<<<<<< HEAD
 bashscripts/ai/init-llm-wiki.sh module App
+=======
+bashscripts/ai/init-llm-wiki.sh module Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 bashscripts/ai/init-llm-wiki.sh theme Sixteen
 ```
 
@@ -149,7 +153,11 @@ qmd serve ./docs/wiki
 ### Configure Obsidian
 
 1. Open Obsidian → "Open folder as vault"
+<<<<<<< HEAD
 2. Select: `/var/www/_bases/base_ptvx_fila5/docs`
+=======
+2. Select: `/var/www/_bases/base_fixcity_fila5/docs`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 3. Configuration already in `.obsidian/`
 
 ## Quality Checklist

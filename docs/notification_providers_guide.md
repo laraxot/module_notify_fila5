@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Guida Completa ai Provider di Notifiche
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
+=======
+# Guida Completa ai Provider di Notifiche 
+
+Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di SaluteOra.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Principi Architetturali per Tutti i Provider
 
@@ -58,9 +64,15 @@ use Spatie\QueueableAction\QueueableAction;
 final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 {
     use QueueableAction;
+<<<<<<< HEAD
 
     // Costruttore con configurazione
 
+=======
+    
+    // Costruttore con configurazione
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Metodo execute standardizzato
     public function execute({Type}Data $data): array
     {
@@ -75,7 +87,11 @@ final class Send{Provider}{Type}Action implements {Type}ProviderActionInterface
 // config/{type}.php
 return [
     'default' => env('{TYPE}_PROVIDER', 'default_provider'),
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     'providers' => [
         'provider1' => [
             // Configurazione specifica
@@ -84,7 +100,11 @@ return [
             // Configurazione specifica
         ],
     ],
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Parametri globali
     'from' => env('{TYPE}_FROM'),
     'debug' => (bool) env('{TYPE}_DEBUG', false),

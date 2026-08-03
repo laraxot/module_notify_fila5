@@ -244,7 +244,11 @@ Build a landing page with:
 4. ⏳ Documentare best practices
 
 ### This Week
+<<<<<<< HEAD
 5. Integrare con Notify project
+=======
+5. Integrare con FixCity project
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 6. Creare template riutilizzabili
 7. Training team
 8. Feedback loop

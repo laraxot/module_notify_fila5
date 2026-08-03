@@ -54,7 +54,11 @@ TEMPO SPESO: 62 minuti
 - **Mantenuto:** connection, casts specifici
 - **PHPStan:** ✅ Clean
 
+<<<<<<< HEAD
 ### 4. App Module
+=======
+### 4. Fixcity Module
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **LOC:** 72 → 43 (-40%)
 - **Rimosso:** 8 proprietà, 2 trait
 - **Mantenuto:** connection, SoftDeletes, $dates
@@ -135,7 +139,11 @@ abstract class BaseModel extends EloquentModel  // ❌ NON XotBaseModel!
 Modules/Activity/app/Models/BaseModel.php
 Modules/Blog/app/Models/BaseModel.php
 Modules/Cms/app/Models/BaseModel.php
+<<<<<<< HEAD
 Modules/App/app/Models/BaseModel.php
+=======
+Modules/Fixcity/app/Models/BaseModel.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Modules/Geo/app/Models/BaseModel.php
 Modules/Job/app/Models/BaseModel.php
 Modules/Lang/app/Models/BaseModel.php
@@ -151,7 +159,11 @@ docs/REFACTORING_COMPLETATO.md (questo file)
 Modules/Xot/docs/analisi-metodi-duplicati.md
 Modules/User/docs/analisi-metodi-duplicati.md
 Modules/Cms/docs/analisi-metodi-duplicati.md
+<<<<<<< HEAD
 Modules/App/docs/analisi-metodi-duplicati.md
+=======
+Modules/Fixcity/docs/analisi-metodi-duplicati.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Themes/Sixteen/docs/analisi-metodi-duplicati.md
 Themes/TwentyOne/docs/analisi-metodi-duplicati.md
 

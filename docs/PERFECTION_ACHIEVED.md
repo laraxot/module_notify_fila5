@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🏆 NOTIFY - PERFEZIONE RAGGIUNTA
+=======
+# 🏆 FIXCITY - PERFEZIONE RAGGIUNTA
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 2025-10-01  
 **Mode**: 🐄⚡ SUPER MUCCA PERFECTION MODE  
@@ -92,7 +96,11 @@ Implementare OGNI feature mancante con:
 ## 🎯 MODULI STATUS AGGIORNATO
 
 ### Core (98%)
+<<<<<<< HEAD
 - **App**: 95% → **98%** ✅
+=======
+- **Fixcity**: 95% → **98%** ✅
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - [x] GeocodeTicketAddressJob
   - [x] TicketRepository
   - [x] REST API
@@ -126,13 +134,21 @@ Implementare OGNI feature mancante con:
 
 #### PHPStan Level 9
 ```bash
+<<<<<<< HEAD
 ./vendor/bin/phpstan analyse --level=9 Modules/App/Jobs/AutoAssignTicketJob.php
+=======
+./vendor/bin/phpstan analyse --level=9 Modules/Fixcity/Jobs/AutoAssignTicketJob.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 **Result**: ✅ 0 errors, 0 warnings
 
 #### PHPMD
 ```bash
+<<<<<<< HEAD
 ./vendor/bin/phpmd Modules/App/Jobs/AutoAssignTicketJob.php text cleancode,codesize,design,naming
+=======
+./vendor/bin/phpmd Modules/Fixcity/Jobs/AutoAssignTicketJob.php text cleancode,codesize,design,naming
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 **Result**: ✅ 0 violations
 
@@ -298,4 +314,8 @@ php artisan test --filter=AutoAssignTicketJobTest
 
 *"La perfezione non è un punto di arrivo, è un viaggio continuo. Ogni feature implementata ci avvicina all'eccellenza assoluta!"*
 
+<<<<<<< HEAD
 **#Notify2025 #Perfection #Quality #Excellence #SuperMucca**
+=======
+**#FixCity2025 #Perfection #Quality #Excellence #SuperMucca**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

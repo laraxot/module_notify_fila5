@@ -1,10 +1,18 @@
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
+<<<<<<< HEAD
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di App.
 
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+=======
+Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di Quaeris.
+
+## Analisi della Situazione Attuale
+
+Dall'analisi dei file di traduzione nella cartella `/var/www/html/Quaeris/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`

@@ -17,7 +17,11 @@
 | `bashscripts/html/html-structure-compare.sh` | Read-only | Script wrapper agnostico |
 | `bashscripts/html/compare-html-body.py` | Read-only | Engine Python confronto HTML |
 | `laravel/Themes/Sixteen/resources/views/components/blocks/segnalazioni/layout.blade.php` | Modify | Block principale segnalazioni-elenco |
+<<<<<<< HEAD
 | `laravel/config/local/laraxot/database/content/pages/tests.segnalazioni-elenco.json` | Modify se necessario | Dati JSON pagina |
+=======
+| `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json` | Modify se necessario | Dati JSON pagina |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | `laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/report.md` | Generated | Output script (sovrascrittura auto) |
 | `laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/summary.json` | Generated | Parity score reale |
 | `laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/FASE1-FINAL-REPORT.md` | Update | Report finale fase |
@@ -34,7 +38,11 @@
 - [ ] **Step 1.1: Esegui lo script di confronto**
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 bash bashscripts/html/html-structure-compare.sh \
   "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html" \
@@ -107,8 +115,13 @@ Nel `report.md` cerca:
 
 **Regole critiche:**
 - ❌ Nessun testo hardcoded in italiano o inglese
+<<<<<<< HEAD
 - ✅ Tutte le stringhe via `__('laraxot::segnalazione.x.y.z.type')`
 - ✅ Formato chiave: `namespace::context.collection.key.type` (es. `laraxot::segnalazione.card.expand.button.label`)
+=======
+- ✅ Tutte le stringhe via `__('fixcity::segnalazione.x.y.z.type')`
+- ✅ Formato chiave: `namespace::context.collection.key.type` (es. `fixcity::segnalazione.card.expand.button.label`)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ❌ Non usare formato `_label`, `_text` (underscore) → usare `.label`, `.text` (punto)
 
 - [ ] **Step 3.1: Aggiungi elementi `❌ mancanti` identificati in Task 2**
@@ -119,7 +132,11 @@ Esempio per un bottone primary mancante:
 ```blade
 {{-- Se nel reference c'è un btn-primary extra nel CTA map --}}
 <a href="{{ $cta['url'] ?? '#' }}" class="btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
+<<<<<<< HEAD
     <span>{{ __('laraxot::segnalazione.map.cta.link.label') }}</span>
+=======
+    <span>{{ __('fixcity::segnalazione.map.cta.link.label') }}</span>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 </a>
 ```
 
@@ -157,6 +174,7 @@ Il file `layout.blade.php` attuale finisce con il modal categories (riga 447). V
         <div class="modal-content">
             <div class="modal-header">
                 <h2 class="modal-title h4" id="modal2Title">
+<<<<<<< HEAD
                     {{ __('laraxot::segnalazione.modal.disservizio.title.label') }}
                 </h2>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -164,15 +182,32 @@ Il file `layout.blade.php` attuale finisce con il modal categories (riga 447). V
             </div>
             <div class="modal-body">
                 <p>{{ __('laraxot::segnalazione.modal.disservizio.body.text') }}</p>
+=======
+                    {{ __('fixcity::segnalazione.modal.disservizio.title.label') }}
+                </h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="{{ __('fixcity::segnalazione.modal.close.label') }}"></button>
+            </div>
+            <div class="modal-body">
+                <p>{{ __('fixcity::segnalazione.modal.disservizio.body.text') }}</p>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             </div>
             <div class="modal-footer justify-content-start">
                 <button type="button" class="btn btn-primary"
                     data-bs-dismiss="modal">
+<<<<<<< HEAD
                     {{ __('laraxot::segnalazione.modal.disservizio.confirm.button.label') }}
                 </button>
                 <button type="button" class="btn btn-link"
                     data-bs-dismiss="modal">
                     {{ __('laraxot::segnalazione.modal.close.label') }}
+=======
+                    {{ __('fixcity::segnalazione.modal.disservizio.confirm.button.label') }}
+                </button>
+                <button type="button" class="btn btn-link"
+                    data-bs-dismiss="modal">
+                    {{ __('fixcity::segnalazione.modal.close.label') }}
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                 </button>
             </div>
         </div>
@@ -194,7 +229,11 @@ Dal reference, dopo il rating c'è spesso una sezione `id="rating-feedback"`. Co
 ```blade
 {{-- Rating feedback (visibile dopo voto) --}}
 <div class="cmp-rating__answer d-none" id="rating-feedback" aria-live="polite">
+<<<<<<< HEAD
     <p class="title-medium-2-semi-bold mb-0">{{ __('laraxot::segnalazione.rating.feedback.text') }}</p>
+=======
+    <p class="title-medium-2-semi-bold mb-0">{{ __('fixcity::segnalazione.rating.feedback.text') }}</p>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 </div>
 ```
 
@@ -208,7 +247,11 @@ Dal reference, dopo il rating c'è spesso una sezione `id="rating-feedback"`. Co
 - [ ] **Step 4.1: Ri-esegui lo script**
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 bash bashscripts/html/html-structure-compare.sh \
   "https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html" \
@@ -262,6 +305,7 @@ In `laravel/Themes/Sixteen/docs/body-structure-comparison/INDEX.md`, aggiorna la
 Formato UNICO accettato: `'namespace::context.collection.key.type'`
 
 ```
+<<<<<<< HEAD
 ✅ laraxot::segnalazione.heading.title.label
 ✅ laraxot::segnalazione.rating.feedback.text
 ✅ laraxot::segnalazione.modal.close.label
@@ -269,6 +313,15 @@ Formato UNICO accettato: `'namespace::context.collection.key.type'`
 ❌ SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE   (namespace maiuscolo, manca tipo)
 ❌ laraxot::segnalazione.heading.title_label  (underscore invece di punto)
 ❌ laraxot::segnalazione.fields.label         (manca chiave specifica)
+=======
+✅ fixcity::segnalazione.heading.title.label
+✅ fixcity::segnalazione.rating.feedback.text
+✅ fixcity::segnalazione.modal.close.label
+
+❌ SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE   (namespace maiuscolo, manca tipo)
+❌ fixcity::segnalazione.heading.title_label  (underscore invece di punto)
+❌ fixcity::segnalazione.fields.label         (manca chiave specifica)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Regola multilingua

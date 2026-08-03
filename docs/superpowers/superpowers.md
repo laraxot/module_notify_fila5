@@ -141,7 +141,11 @@ Installed plugins:
 Semplicemente aprire Claude Code in qualsiasi progetto. Le skills si attivano automaticamente:
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 claude
 ```
 

@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Pattern di Estensione per Componenti Filament
 
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+=======
+# Pattern di Estensione per Componenti Filament 
+
+Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema SaluteOra, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Regola Fondamentale
 
@@ -20,7 +26,11 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 
 ## Motivazione
 
+<<<<<<< HEAD
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <nome progetto>, mantenendo la coerenza in tutta l'applicazione.
+=======
+1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 2. **Aggiornamenti Semplificati**: Quando Filament viene aggiornato, è possibile adattare solo le classi XotBase senza dover modificare tutte le implementazioni concrete.
 
@@ -62,7 +72,11 @@ use Filament\Forms\Concerns\InteractsWithForms;
 class SendSmsPage extends XotBasePage implements HasForms
 {
     use InteractsWithForms;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Implementazione...
 }
 ```
@@ -81,7 +95,11 @@ use Filament\Forms\Concerns\InteractsWithForms;
 class SendSmsPage extends Page implements HasForms // ❌ ERRORE
 {
     use InteractsWithForms;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Implementazione...
 }
 ```
@@ -90,7 +108,11 @@ class SendSmsPage extends Page implements HasForms // ❌ ERRORE
 
 ### 1. Personalizzazione Centralizzata
 
+<<<<<<< HEAD
 Le classi XotBase possono implementare comportamenti specifici per <nome progetto>, come:
+=======
+Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Gestione multilingua avanzata
 - Integrazione con il sistema di permessi personalizzato
 - Logging e auditing specifici

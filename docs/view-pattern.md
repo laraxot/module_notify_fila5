@@ -23,7 +23,11 @@ return view($viewName, $viewParams);
 
 ```php
 /** @phpstan-var view-string $viewName */
+<<<<<<< HEAD
 $viewName = 'laraxot::components.blocks.ticket-list';
+=======
+$viewName = 'fixcity::components.blocks.ticket-list';
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 $viewParams = [
     'tickets' => $this->tickets,
     'status' => $this->status,

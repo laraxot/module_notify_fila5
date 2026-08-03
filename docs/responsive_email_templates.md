@@ -2,7 +2,11 @@
 
 ## Introduzione
 
+<<<<<<< HEAD
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di <nome progetto>, con focus su compatibilità, engagement e best practices di settore.
+=======
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Principi Fondamentali
 
@@ -74,7 +78,11 @@ Migliore esperienza su client moderni:
 </div>
 ```
 
+<<<<<<< HEAD
 Per <nome progetto>, si raccomanda un **approccio ibrido**:
+=======
+Per SaluteOra, si raccomanda un **approccio ibrido**:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 
@@ -129,7 +137,11 @@ I principali client email supportano diversi insiemi di funzionalità HTML/CSS:
 
 Il package `spatie/laravel-database-mail-templates` permette di archiviare e gestire template HTML nel database:
 
+<<<<<<< HEAD
 ### Implementazione
+=======
+### Implementazione 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```php
 // Nel modello MailTemplate
@@ -137,15 +149,26 @@ public function getHtmlLayout(): string
 {
     // Seleziona il layout in base al tipo di template
     $layoutType = $this->template_type ?? 'default';
+<<<<<<< HEAD
 
     // Percorso dinamico al layout
     $layoutPath = module_path('Notify', "resources/mail-layouts/{$layoutType}.html");
 
+=======
+    
+    // Percorso dinamico al layout
+    $layoutPath = module_path('Notify', "resources/mail-layouts/{$layoutType}.html");
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Fallback se non esiste
     if (!file_exists($layoutPath)) {
         $layoutPath = module_path('Notify', "resources/mail-layouts/default.html");
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     return file_get_contents($layoutPath);
 }
 

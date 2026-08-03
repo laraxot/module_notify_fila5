@@ -128,7 +128,11 @@ The following modules have documentation folders that need updates:
 - ⏳ `Modules/Notify/docs/` - Notifications
 - ⏳ `Modules/Activity/docs/` - Activity tracking
 - ⏳ `Modules/Seo/docs/` - SEO
+<<<<<<< HEAD
 - ⏳ `Modules/App/docs/` - Main app module
+=======
+- ⏳ `Modules/Fixcity/docs/` - Main app module
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ⏳ `Modules/Blog/docs/` - Blog
 - ⏳ `Modules/Comment/docs/` - Comments
 - ⏳ `Modules/Lang/docs/` - Language

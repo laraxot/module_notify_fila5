@@ -34,7 +34,11 @@ bashscripts/html/html-structure-compare.sh \
 - La fase canonical di parity confronta il root `body`, salvo audit espliciti sul root `html`.
 - Le blade di test usano `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`.
 - La layout corretta e `<x-layouts.app>`.
+<<<<<<< HEAD
 - Le stringhe nelle blade devono passare da traduzioni a 5 livelli: `laraxot::contesto.collezione.chiave.tipo`.
+=======
+- Le stringhe nelle blade devono passare da traduzioni a 5 livelli: `fixcity::contesto.collezione.chiave.tipo`.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Nel markup possiamo mantenere le classi Bootstrap Italia per parity HTML, ma senza caricare Bootstrap CSS/JS.
 - Comportamenti interattivi: TailwindCSS + Alpine.js.
 - Il report canonico deve distinguere `identical`, `different`, `missing`, `extra` e produrre un parity score realistico.

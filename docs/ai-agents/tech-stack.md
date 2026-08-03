@@ -1,6 +1,10 @@
 # Technology Stack
 
+<<<<<<< HEAD
 Stack tecnologico completo di App Fila5 Mono - Laravel 12 + Filament 5 + PHP 8.3
+=======
+Stack tecnologico completo di Quaeris Fila5 Mono - Laravel 12 + Filament 5 + PHP 8.3
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Core Technologies
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🌐 Notify Local VHost Configuration
+=======
+# 🌐 FixCity Local VHost Configuration
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > **Last Updated**: 2026-03-31
 > **Status**: ✅ Installato e Attivo
@@ -9,6 +13,7 @@
 
 ## 🎯 Overview
 
+<<<<<<< HEAD
 This document describes the Apache VirtualHost configuration for local development of the Notify platform using the domain `laraxot.local`.
 
 ### Key Points
@@ -18,6 +23,17 @@ This document describes the Apache VirtualHost configuration for local developme
 - **Config sorgente**: `laravel/config/vhost/laraxot.local.conf`
 - **Config Apache**: `/etc/apache2/sites-available/laraxot.local.conf` ✅ abilitato
 - **Hosts (Windows)**: `172.27.106.41 laraxot.local` in `C:\Windows\System32\drivers\etc\hosts`
+=======
+This document describes the Apache VirtualHost configuration for local development of the FixCity platform using the domain `fixcity.local`.
+
+### Key Points
+
+- **Domain**: `fixcity.local`
+- **Document Root**: `/var/www/_bases/base_fixcity_fila5/public_html`
+- **Config sorgente**: `laravel/config/vhost/fixcity.local.conf`
+- **Config Apache**: `/etc/apache2/sites-available/fixcity.local.conf` ✅ abilitato
+- **Hosts (Windows)**: `172.27.106.41 fixcity.local` in `C:\Windows\System32\drivers\etc\hosts`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Port**: 80 (HTTP)
 
 ---
@@ -25,11 +41,19 @@ This document describes the Apache VirtualHost configuration for local developme
 ## 📁 File Locations
 
 ```
+<<<<<<< HEAD
 /var/www/_bases/base_ptvx_fila5/
 ├── laravel/
 │   └── config/
 │       └── vhost/
 │           └── laraxot.local.conf    # Apache vhost configuration
+=======
+/var/www/_bases/base_fixcity_fila5/
+├── laravel/
+│   └── config/
+│       └── vhost/
+│           └── fixcity.local.conf    # Apache vhost configuration
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 └── public_html/                      # Document root (web accessible)
     └── index.php                     # Laravel entry point
 ```
@@ -42,10 +66,17 @@ This document describes the Apache VirtualHost configuration for local developme
 
 ```bash
 # Copy configuration to Apache sites-available
+<<<<<<< HEAD
 sudo cp /var/www/_bases/base_ptvx_fila5/laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/laraxot.local.conf
 
 # Enable the site
 sudo a2ensite laraxot.local
+=======
+sudo cp /var/www/_bases/base_fixcity_fila5/laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/fixcity.local.conf
+
+# Enable the site
+sudo a2ensite fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Reload Apache
 sudo systemctl reload apache2
@@ -60,7 +91,11 @@ In ambiente WSL2 il file `/etc/hosts` è auto-generato. Aggiungere l'entry nel f
 `C:\Windows\System32\drivers\etc\hosts`
 
 ```
+<<<<<<< HEAD
 172.27.106.41 laraxot.local
+=======
+172.27.106.41 fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 > **Stato attuale**: ✅ Già presente nel file hosts Windows
@@ -72,14 +107,23 @@ In ambiente WSL2 il file `/etc/hosts` è auto-generato. Aggiungere l'entry nel f
 sudo apache2ctl configtest
 
 # Check if vhost is enabled
+<<<<<<< HEAD
 apache2ctl -S | grep laraxot
+=======
+apache2ctl -S | grep fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### 4. Access the Application
 
 Open your browser and navigate to:
+<<<<<<< HEAD
 - `http://laraxot.local`
 - `http://www.laraxot.local`
+=======
+- `http://fixcity.local`
+- `http://www.fixcity.local`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -90,6 +134,7 @@ Open your browser and navigate to:
 ```apache
 <VirtualHost *:80>
     # Server Configuration
+<<<<<<< HEAD
     ServerName laraxot.local
     ServerAlias www.laraxot.local
     
@@ -98,12 +143,26 @@ Open your browser and navigate to:
     
     # Directory Permissions
     <Directory /var/www/_bases/base_ptvx_fila5>
+=======
+    ServerName fixcity.local
+    ServerAlias www.fixcity.local
+    
+    # Document Root - MUST point to public_html
+    DocumentRoot /var/www/_bases/base_fixcity_fila5/public_html
+    
+    # Directory Permissions
+    <Directory /var/www/_bases/base_fixcity_fila5>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
     </Directory>
     
+<<<<<<< HEAD
     <Directory /var/www/_bases/base_ptvx_fila5/public_html>
+=======
+    <Directory /var/www/_bases/base_fixcity_fila5/public_html>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         Options -Indexes +FollowSymLinks +MultiViews
         AllowOverride All
         Require all granted
@@ -118,8 +177,13 @@ Open your browser and navigate to:
     </Directory>
     
     # Logging Configuration
+<<<<<<< HEAD
     ErrorLog ${APACHE_LOG_DIR}/app_local_error.log
     CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
+=======
+    ErrorLog ${APACHE_LOG_DIR}/fixcity_local_error.log
+    CustomLog ${APACHE_LOG_DIR}/fixcity_local_access.log combined
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 </VirtualHost>
 ```
 
@@ -127,8 +191,13 @@ Open your browser and navigate to:
 
 | Directive | Purpose | Value |
 |-----------|---------|-------|
+<<<<<<< HEAD
 | `ServerName` | Primary domain | `laraxot.local` |
 | `ServerAlias` | Additional domains | `www.laraxot.local` |
+=======
+| `ServerName` | Primary domain | `fixcity.local` |
+| `ServerAlias` | Additional domains | `www.fixcity.local` |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | `DocumentRoot` | Web root directory | `public_html/` |
 | `AllowOverride All` | Enable .htaccess | Required for Laravel |
 | `mod_rewrite` | URL rewriting | Laravel routing |
@@ -141,13 +210,22 @@ Open your browser and navigate to:
 
 **Check Apache Error Log:**
 ```bash
+<<<<<<< HEAD
 sudo tail -f /var/log/apache2/app_local_error.log
+=======
+sudo tail -f /var/log/apache2/fixcity_local_error.log
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Verify Permissions:**
 ```bash
+<<<<<<< HEAD
 sudo chown -R www-data:www-data /var/www/_bases/base_ptvx_fila5/public_html
 sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5/public_html
+=======
+sudo chown -R www-data:www-data /var/www/_bases/base_fixcity_fila5/public_html
+sudo chmod -R 755 /var/www/_bases/base_fixcity_fila5/public_html
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Issue: 403 Forbidden
@@ -155,24 +233,41 @@ sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5/public_html
 **Solution:**
 ```bash
 # Check directory permissions
+<<<<<<< HEAD
 ls -la /var/www/_bases/base_ptvx_fila5/public_html
 
 # Fix permissions if needed
 sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5
+=======
+ls -la /var/www/_bases/base_fixcity_fila5/public_html
+
+# Fix permissions if needed
+sudo chmod -R 755 /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Issue: 500 Internal Server Error
 
 **Check Laravel Logs:**
 ```bash
+<<<<<<< HEAD
 tail -f /var/www/_bases/base_ptvx_fila5/laravel/storage/logs/laravel.log
+=======
+tail -f /var/www/_bases/base_fixcity_fila5/laravel/storage/logs/laravel.log
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Verify .env Configuration:**
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5/laravel
 cat .env | grep APP_URL
 # Should be: APP_URL=http://laraxot.local
+=======
+cd /var/www/_bases/base_fixcity_fila5/laravel
+cat .env | grep APP_URL
+# Should be: APP_URL=http://fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Issue: mod_rewrite Not Working
@@ -243,7 +338,11 @@ For production environments:
 ```
 Browser Request
     ↓
+<<<<<<< HEAD
 Apache VirtualHost (laraxot.local:80)
+=======
+Apache VirtualHost (fixcity.local:80)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     ↓
 DocumentRoot (public_html/)
     ↓
@@ -259,7 +358,11 @@ Response
 ### Directory Structure
 
 ```
+<<<<<<< HEAD
 base_ptvx_fila5/
+=======
+base_fixcity_fila5/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── public_html/              ← Document Root (web accessible)
 │   ├── index.php            ← Entry point
 │   ├── .htaccess            ← URL rewriting rules
@@ -289,7 +392,11 @@ For Nginx users, see: `docs/project/vhost-nginx-configuration.md`
 
 For quick testing:
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5/public_html
+=======
+cd /var/www/_bases/base_fixcity_fila5/public_html
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 php -S localhost:8000
 ```
 
@@ -303,16 +410,26 @@ For Docker-based development, see: `docker/docker-compose.yml`
 
 ### Update VHost Configuration
 
+<<<<<<< HEAD
 1. Edit `laravel/config/vhost/laraxot.local.conf`
 2. Copy to Apache: `sudo cp laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/`
+=======
+1. Edit `laravel/config/vhost/fixcity.local.conf`
+2. Copy to Apache: `sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 3. Reload Apache: `sudo systemctl reload apache2`
 
 ### Backup Configuration
 
 ```bash
 # Backup current vhost
+<<<<<<< HEAD
 sudo cp /etc/apache2/sites-available/laraxot.local.conf \
         /etc/apache2/sites-available/laraxot.local.conf.backup.$(date +%Y%m%d)
+=======
+sudo cp /etc/apache2/sites-available/fixcity.local.conf \
+        /etc/apache2/sites-available/fixcity.local.conf.backup.$(date +%Y%m%d)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -329,25 +446,41 @@ apache2ctl -S
 apache2ctl configtest
 
 # Check if site is enabled
+<<<<<<< HEAD
 ls -la /etc/apache2/sites-enabled/ | grep laraxot
+=======
+ls -la /etc/apache2/sites-enabled/ | grep fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Test Domain Resolution
 
 ```bash
 # Check hosts file entry
+<<<<<<< HEAD
 ping laraxot.local
 # Should resolve to 127.0.0.1
 
 # Or use getent
 getent hosts laraxot.local
+=======
+ping fixcity.local
+# Should resolve to 127.0.0.1
+
+# Or use getent
+getent hosts fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Test Application
 
 ```bash
 # Test with curl
+<<<<<<< HEAD
 curl -I http://laraxot.local
+=======
+curl -I http://fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Should return HTTP/1.1 200 OK
 ```

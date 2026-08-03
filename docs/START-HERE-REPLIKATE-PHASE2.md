@@ -152,7 +152,11 @@ Blade Template:
   laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
 
 JSON Content:
+<<<<<<< HEAD
   laravel/config/local/laraxot/database/content/pages/tests.homepage.json
+=======
+  laravel/config/local/fixcity/database/content/pages/tests.homepage.json
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 CSS Files:
   laravel/Themes/Sixteen/resources/css/
@@ -171,7 +175,11 @@ Local URL:
 
 ```bash
 # Go to project
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # View analysis results
 cat /tmp/replikate_analysis_homepage/structure-analysis.txt

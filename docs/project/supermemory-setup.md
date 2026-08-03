@@ -16,9 +16,15 @@
 ### Active Container Tags
 | Tag | Docs | Memories | Last Activity |
 |---|---|---|---|
+<<<<<<< HEAD
 | `app_fila5_project` | 6 | 15 | 2026-04-09 |
 | `laraxot-sixteen` | 11 | 22 | 2026-04-09 |
 | `laraxot-project` | 9 | 22 | 2026-04-09 |
+=======
+| `fixcity_fila5_project` | 6 | 15 | 2026-04-09 |
+| `fixcity-sixteen` | 11 | 22 | 2026-04-09 |
+| `fixcity-project` | 9 | 22 | 2026-04-09 |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### How It Works
 1. **Context Injection**: On first message, agent receives user profile + project memories + semantic search results (invisible to user)
@@ -29,6 +35,7 @@
 ### CLI Commands
 ```bash
 # Search memories
+<<<<<<< HEAD
 supermemory search "widget naming" --tag app_fila5_project --mode hybrid
 
 # Add memory
@@ -39,6 +46,18 @@ supermemory add /path/to/file.md --tag app_fila5_project
 
 # View profile
 supermemory profile --tag app_fila5_project
+=======
+supermemory search "widget naming" --tag fixcity_fila5_project --mode hybrid
+
+# Add memory
+supermemory add "Rule: use Ticket not Segnalazione" --tag fixcity_fila5_project
+
+# Add file
+supermemory add /path/to/file.md --tag fixcity_fila5_project
+
+# View profile
+supermemory profile --tag fixcity_fila5_project
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # List tags
 supermemory tags
@@ -59,7 +78,11 @@ supermemory tags
   "maxProjectMemories": 10,
   "maxProfileItems": 10,
   "injectProfile": true,
+<<<<<<< HEAD
   "containerTagPrefix": "app_fila5",
+=======
+  "containerTagPrefix": "fixcity_fila5",
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   "keywordPatterns": ["ricorda", "memorizza", "salva questa", "non dimenticare"],
   "compactionThreshold": 0.8
 }

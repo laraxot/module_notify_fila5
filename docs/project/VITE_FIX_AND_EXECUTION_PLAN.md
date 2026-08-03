@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🚀 Notify Improvement + Vite Fix - EXECUTION PLAN
+=======
+# 🚀 FixCity Improvement + Vite Fix - EXECUTION PLAN
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Date**: 2026-03-30  
 **Status**: ✅ **READY TO EXECUTE**  
@@ -16,7 +20,11 @@
 
 **Next Steps**:
 1. Authenticate: "Log me in to NotebookLM"
+<<<<<<< HEAD
 2. Create notebook with Notify docs
+=======
+2. Create notebook with FixCity docs
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 3. Share → Copy link
 4. Add to library: "Add [LINK] to my NotebookLM library"
 
@@ -26,7 +34,11 @@
 
 **Error**:
 ```
+<<<<<<< HEAD
 Vite manifest not found at: /var/www/_bases/base_ptvx_fila5/public_html/themes/<nome tema>/manifest.json
+=======
+Vite manifest not found at: /var/www/_bases/base_fixcity_fila5/public_html/themes/<nome tema>/manifest.json
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Root Cause Analysis**:
@@ -98,9 +110,15 @@ EOF
 
 ---
 
+<<<<<<< HEAD
 ### P0.2: Notify Italian Site Improvement 🟡 ONGOING
 
 See: `.planning/improvements/NOTIFY_IT_IMPROVEMENT_PLAN.md`
+=======
+### P0.2: FixCity Italian Site Improvement 🟡 ONGOING
+
+See: `.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Current Phase**: Phase 0 Foundation (Weeks 1-2)
 
@@ -121,7 +139,11 @@ See: `.planning/improvements/NOTIFY_IT_IMPROVEMENT_PLAN.md`
 
 ```bash
 # Navigate to project
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Fix Sixteen theme
 cd laravel/Themes/Sixteen
@@ -145,7 +167,11 @@ npm run copy
 ls -la public_html/themes/TwentyOne/manifest.json
 
 # Test site
+<<<<<<< HEAD
 firefox http://laraxot.local/it
+=======
+firefox http://fixcity.local/it
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 # Should load without Vite errors
 ```
 
@@ -197,7 +223,11 @@ EOF
 
 # 2. Create notebook
 # Go to notebooklm.google.com
+<<<<<<< HEAD
 # Create: "Notify Documentation"
+=======
+# Create: "FixCity Documentation"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 # Upload: AGENTS.md, docs/**/*.md, .planning/**/*.md
 # Share → Copy link
 
@@ -206,7 +236,11 @@ EOF
 
 # 4. Research
 "Research Laravel Vite build best practices"
+<<<<<<< HEAD
 "Query Notify docs about theme configuration"
+=======
+"Query FixCity docs about theme configuration"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -305,7 +339,11 @@ openviking ls /memories/
 "Add [LINK] to my NotebookLM library"
 
 # Query
+<<<<<<< HEAD
 "Research [topic] in my Notify docs"
+=======
+"Research [topic] in my FixCity docs"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -359,10 +397,17 @@ bash .ralph/ralph-loop.sh
 | Document | Location |
 |----------|----------|
 | **Vite Fix Guide** | This file (Section P0.1) |
+<<<<<<< HEAD
 | **Improvement Plan** | `.planning/improvements/NOTIFY_IT_IMPROVEMENT_PLAN.md` |
 | **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
 | **NotebookLM MCP** | `~/.claude/skills/notebooklm/README.md` |
 | **Start Here** | `NOTIFY_IMPROVEMENT_START_HERE.md` |
+=======
+| **Improvement Plan** | `.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md` |
+| **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
+| **NotebookLM MCP** | `~/.claude/skills/notebooklm/README.md` |
+| **Start Here** | `FIXCITY_IMPROVEMENT_START_HERE.md` |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -372,7 +417,11 @@ bash .ralph/ralph-loop.sh
 
 - [x] NotebookLM MCP installed
 - [ ] Vite manifest fixed (Sixteen + TwentyOne)
+<<<<<<< HEAD
 - [ ] Site tested (http://laraxot.local/it)
+=======
+- [ ] Site tested (http://fixcity.local/it)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] GSD Phase 0 initialized
 - [ ] Ralph Loop started for test fixes
 
@@ -391,4 +440,8 @@ bash .ralph/ralph-loop.sh
 **Then**: GSD Phase 0 initialization  
 **ETA Phase 0 Complete**: 2026-04-13
 
+<<<<<<< HEAD
 **Let's fix and improve Notify! 🚀**
+=======
+**Let's fix and improve FixCity! 🚀**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

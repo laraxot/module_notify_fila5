@@ -1,11 +1,19 @@
 ---
+<<<<<<< HEAD
 title: "MCP Server Index - Notify Project"
+=======
+title: "MCP Server Index - FixCity Project"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: index
 tags: [notify, docs, mcp]
 module: Notify
 created: 2026-07-20
 updated: 2026-07-20
+<<<<<<< HEAD
 qmd: "notify documentazione mcp index mcp server index - laraxot project index readme frontmatter qmd search"
+=======
+qmd: "notify documentazione mcp index mcp server index - fixcity project index readme frontmatter qmd search"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
 discussions:
@@ -17,7 +25,11 @@ related:
   - ../integrations/readme.md
   - ../templates/readme.md
 ---
+<<<<<<< HEAD
 # MCP Server Index - Notify Project
+=======
+# MCP Server Index - FixCity Project
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Purpose**: Central index for all MCP server documentation  
 **Last Updated**: 2026-04-09

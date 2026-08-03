@@ -8,8 +8,13 @@
 
 ## File chiave
 
+<<<<<<< HEAD
 - `laravel/Modules/App/app/Filament/Widgets/QuestionChartAnswersChartWidget.php`
 - `laravel/Modules/App/app/Filament/Widgets/QuestionChartAnswersTripleChartWidget.php`
+=======
+- `laravel/Modules/Quaeris/app/Filament/Widgets/QuestionChartAnswersChartWidget.php`
+- `laravel/Modules/Quaeris/app/Filament/Widgets/QuestionChartAnswersTripleChartWidget.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `laravel/Modules/Chart/resources/js/filament-chart-js-plugins.js`
 
 ## Check dataset rapido

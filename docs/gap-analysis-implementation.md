@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "🔍 NOTIFY - GAP ANALYSIS & IMPLEMENTATION PLAN"
+=======
+title: "🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [gap, analysis, implementation]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "gap-analysis-implementation 🔍 laraxot - gap analysis & implementation plan"
+=======
+qmd: "gap-analysis-implementation 🔍 fixcity - gap analysis & implementation plan"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 🔍 NOTIFY - GAP ANALYSIS & IMPLEMENTATION PLAN
+=======
+# 🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 2025-10-01  
 **Scopo**: Identificare e implementare tutte le features mancanti per eccellenza 2025  
@@ -29,7 +41,11 @@ related:
 ## 🎯 SCOPO DEL PROGETTO
 
 ### Business Goal
+<<<<<<< HEAD
 **Notify** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette ai cittadini di segnalare problemi (buche, illuminazione, rifiuti, etc.) e agli amministratori comunali di gestirle efficacemente.
+=======
+**FixCity** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette ai cittadini di segnalare problemi (buche, illuminazione, rifiuti, etc.) e agli amministratori comunali di gestirle efficacemente.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Target Users
 1. **Cittadini** - Segnalano problemi urbani
@@ -61,7 +77,11 @@ related:
 
 **Files da creare/modificare**:
 ```
+<<<<<<< HEAD
 Modules/App/
+=======
+Modules/Fixcity/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Jobs/GeocodeTicketAddressJob.php          [NEW]
 ├── Repositories/TicketRepository.php         [NEW]
 ├── Filament/Resources/Pages/ListTickets.php  [MODIFY]
@@ -80,7 +100,11 @@ Modules/App/
 
 **Files da creare**:
 ```
+<<<<<<< HEAD
 Modules/App/
+=======
+Modules/Fixcity/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Http/Controllers/Api/V1/
 │   ├── TicketController.php                  [NEW]
 │   ├── CategoryController.php                [NEW]
@@ -102,7 +126,11 @@ Modules/App/
 
 **Files da creare**:
 ```
+<<<<<<< HEAD
 Modules/App/Tests/Feature/
+=======
+Modules/Fixcity/Tests/Feature/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── CreateTicketTest.php                      [NEW]
 ├── UpdateTicketTest.php                      [NEW]
 ├── AssignTicketTest.php                      [NEW]
@@ -186,7 +214,11 @@ laravel/Themes/Sixteen/
 
 **Files da creare**:
 ```
+<<<<<<< HEAD
 Modules/App/Filament/Widgets/
+=======
+Modules/Fixcity/Filament/Widgets/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── TicketTrendsWidget.php                    [NEW]
 ├── GeographicHeatmapWidget.php               [NEW]
 ├── PerformanceMetricsWidget.php              [NEW]
@@ -204,7 +236,11 @@ Modules/App/Filament/Widgets/
 
 **Files da creare**:
 ```
+<<<<<<< HEAD
 Modules/App/
+=======
+Modules/Fixcity/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Jobs/AutoAssignTicketJob.php              [NEW]
 ├── Jobs/EscalateOverdueTicketsJob.php        [NEW]
 ├── Models/Zone.php                           [NEW]
@@ -223,7 +259,11 @@ Modules/App/
 **Files da creare/modificare**:
 ```
 lang/en/
+<<<<<<< HEAD
 ├── laraxot.php                               [NEW]
+=======
+├── fixcity.php                               [NEW]
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── user.php                                  [NEW]
 └── validation.php                            [NEW]
 ```

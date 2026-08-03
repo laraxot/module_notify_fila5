@@ -68,7 +68,11 @@ ls -la ~/.claude/skills/notebooklm/
 
 ```
 ┌─────────────────────────────────────────────────────────┐
+<<<<<<< HEAD
 │              AI Tool Stack - Notify                    │
+=======
+│              AI Tool Stack - FixCity                    │
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├─────────────────────────────────────────────────────────┤
 │                                                          │
 │  📚 NotebookLM Skill                                    │
@@ -178,7 +182,11 @@ python scripts/run.py ask_question.py \
   --question "What does the docs say about [topic]?"
 ```
 
+<<<<<<< HEAD
 ## Usage Examples for Notify
+=======
+## Usage Examples for FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Example 1: Technical Research (BMAD)
 
@@ -236,7 +244,11 @@ Every NotebookLM answer ends with: **"Is that ALL you need to know?"**
 4. **REPEAT** - Until information is complete
 5. **SYNTHESIZE** - Combine all answers before responding
 
+<<<<<<< HEAD
 ## Recommended Notebooks for Notify
+=======
+## Recommended Notebooks for FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Create these NotebookLM notebooks:
 
@@ -256,8 +268,13 @@ Create these NotebookLM notebooks:
 - **Use**: Admin panel development
 
 ### 4. Project Documentation
+<<<<<<< HEAD
 - **Upload**: Notify docs, module docs, theme docs
 - **Topics**: laraxot, project, conventions, documentation
+=======
+- **Upload**: FixCity docs, module docs, theme docs
+- **Topics**: fixcity, project, conventions, documentation
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Use**: Project-specific queries
 
 ## Files Created/Updated
@@ -317,8 +334,13 @@ STEALTH_ENABLED=true     # Human-like behavior
 TYPING_WPM_MIN=160
 TYPING_WPM_MAX=240
 
+<<<<<<< HEAD
 # Default notebook (Notify docs)
 DEFAULT_NOTEBOOK_ID=laraxot-project-docs
+=======
+# Default notebook (FixCity docs)
+DEFAULT_NOTEBOOK_ID=fixcity-project-docs
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Data Storage
@@ -355,7 +377,11 @@ DEFAULT_NOTEBOOK_ID=laraxot-project-docs
 
 1. ✅ Skill installed and verified
 2. ⏳ Authenticate with Google account
+<<<<<<< HEAD
 3. ⏳ Create Notify NotebookLM notebooks
+=======
+3. ⏳ Create FixCity NotebookLM notebooks
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 4. ⏳ Upload project documentation
 5. ⏳ Integrate with BMAD workflow
 6. ⏳ Store insights in OpenViking

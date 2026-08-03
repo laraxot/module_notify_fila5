@@ -72,7 +72,11 @@ Tu hai chiesto:
 ✅ Activity: 72→45 LOC (-37%)
 ✅ Blog: 76→45 LOC (-41%)
 ✅ Cms: 70→37 LOC (-47%)
+<<<<<<< HEAD
 ✅ App: 72→43 LOC (-40%)
+=======
+✅ Fixcity: 72→43 LOC (-40%)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ✅ Geo: 78→31 LOC (-60%) 🏆
 ✅ Job: 89→72 LOC (-19%)
 ✅ Lang: 73→44 LOC (-40%)
@@ -121,7 +125,11 @@ Tu hai chiesto:
 **Moduli (18):**
 ```
 ✅ Activity, AI, Blog, Cms, Comment
+<<<<<<< HEAD
 ✅ App, Gdpr, Geo, Job, Lang
+=======
+✅ Fixcity, Gdpr, Geo, Job, Lang
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ✅ Media, Notify, Rating, Seo, Tenant
 ✅ UI, User, Xot
 ```
@@ -246,7 +254,11 @@ Ogni file contiene:
 ✅ Modules/Activity/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Blog/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Cms/app/Models/BaseModel.php (refactorato)
+<<<<<<< HEAD
 ✅ Modules/App/app/Models/BaseModel.php (refactorato)
+=======
+✅ Modules/Fixcity/app/Models/BaseModel.php (refactorato)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ✅ Modules/Geo/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Job/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Lang/app/Models/BaseModel.php (refactorato)

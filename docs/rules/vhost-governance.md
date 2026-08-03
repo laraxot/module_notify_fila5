@@ -27,7 +27,11 @@ related:
 
 ## 📋 Overview
 
+<<<<<<< HEAD
 This document defines the **mandatory rules** for Apache VirtualHost configuration in the Notify platform.
+=======
+This document defines the **mandatory rules** for Apache VirtualHost configuration in the FixCity platform.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -39,10 +43,17 @@ This document defines the **mandatory rules** for Apache VirtualHost configurati
 
 ```apache
 # ✅ CORRECT
+<<<<<<< HEAD
 DocumentRoot /var/www/_bases/base_ptvx_fila5/public_html
 
 # ❌ WRONG - Never point to laravel/ directly
 DocumentRoot /var/www/_bases/base_ptvx_fila5/laravel
+=======
+DocumentRoot /var/www/_bases/base_fixcity_fila5/public_html
+
+# ❌ WRONG - Never point to laravel/ directly
+DocumentRoot /var/www/_bases/base_fixcity_fila5/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Rationale**: 
@@ -58,12 +69,21 @@ DocumentRoot /var/www/_bases/base_ptvx_fila5/laravel
 
 ```
 ✅ CORRECT:
+<<<<<<< HEAD
 laravel/config/vhost/laraxot.local.conf
 
 ❌ WRONG:
 - /etc/apache2/sites-available/laraxot.local.conf (not versioned)
 - docs/vhost.conf (wrong location)
 - config/laraxot.local.conf (wrong directory)
+=======
+laravel/config/vhost/fixcity.local.conf
+
+❌ WRONG:
+- /etc/apache2/sites-available/fixcity.local.conf (not versioned)
+- docs/vhost.conf (wrong location)
+- config/fixcity.local.conf (wrong directory)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Rationale**:
@@ -79,6 +99,7 @@ laravel/config/vhost/laraxot.local.conf
 
 ```apache
 # ✅ CORRECT
+<<<<<<< HEAD
 ServerName laraxot.local
 ServerAlias www.laraxot.local
 
@@ -86,6 +107,15 @@ ServerAlias www.laraxot.local
 ServerName laraxot.dev
 ServerName laraxot.test
 ServerName localhost/laraxot
+=======
+ServerName fixcity.local
+ServerAlias www.fixcity.local
+
+# ❌ WRONG
+ServerName fixcity.dev
+ServerName fixcity.test
+ServerName localhost/fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Rationale**:
@@ -101,8 +131,13 @@ ServerName localhost/laraxot
 
 ```apache
 # ✅ CORRECT
+<<<<<<< HEAD
 ErrorLog ${APACHE_LOG_DIR}/app_local_error.log
 CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
+=======
+ErrorLog ${APACHE_LOG_DIR}/fixcity_local_error.log
+CustomLog ${APACHE_LOG_DIR}/fixcity_local_access.log combined
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # ❌ WRONG - Don't use default Apache logs
 # (No logging configuration)
@@ -121,7 +156,11 @@ CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
 
 ```apache
 # ✅ CORRECT
+<<<<<<< HEAD
 <Directory /var/www/_bases/base_ptvx_fila5/public_html>
+=======
+<Directory /var/www/_bases/base_fixcity_fila5/public_html>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     Options -Indexes +FollowSymLinks +MultiViews
     AllowOverride All
     Require all granted
@@ -149,12 +188,20 @@ CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
 
 ```
 ✅ CORRECT:
+<<<<<<< HEAD
 - laraxot.local.conf
+=======
+- fixcity.local.conf
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - staging.local.conf
 
 ❌ WRONG:
 - vhost.conf (too generic)
+<<<<<<< HEAD
 - laraxot.conf (missing .local)
+=======
+- fixcity.conf (missing .local)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - 000-default.conf (Apache default)
 ```
 
@@ -181,11 +228,19 @@ CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
 
 ```bash
 # ✅ CORRECT
+<<<<<<< HEAD
 127.0.0.1    laraxot.local
 127.0.0.1    www.laraxot.local
 
 # ❌ WRONG
 127.0.0.1    laraxot
+=======
+127.0.0.1    fixcity.local
+127.0.0.1    www.fixcity.local
+
+# ❌ WRONG
+127.0.0.1    fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 # (missing .local TLD)
 ```
 
@@ -209,9 +264,15 @@ apache2ctl -M | grep rewrite
 
 ```bash
 # ✅ CORRECT WORKFLOW
+<<<<<<< HEAD
 1. Edit: laravel/config/vhost/laraxot.local.conf
 2. Copy: sudo cp laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/
 3. Enable: sudo a2ensite laraxot.local.conf
+=======
+1. Edit: laravel/config/vhost/fixcity.local.conf
+2. Copy: sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/
+3. Enable: sudo a2ensite fixcity.local.conf
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 4. Reload: sudo systemctl reload apache2
 
 # ❌ WRONG
@@ -243,7 +304,11 @@ php artisan migrate:rollback
 
 ```apache
 # ❌ CRITICAL SECURITY ISSUE
+<<<<<<< HEAD
 DocumentRoot /var/www/_bases/base_ptvx_fila5/laravel
+=======
+DocumentRoot /var/www/_bases/base_fixcity_fila5/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # This exposes:
 # - .env file
@@ -304,7 +369,11 @@ AllowOverride None
 ```env
 # ✅ DEVELOPMENT
 DB_CONNECTION=sqlite
+<<<<<<< HEAD
 DB_DATABASE=/var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
+=======
+DB_DATABASE=/var/www/_bases/base_fixcity_fila5/laravel/database/fixcity_data.sqlite
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # ❌ WRONG
 DB_HOST=production-db.example.com
@@ -330,9 +399,15 @@ Before committing vhost changes:
 - [ ] `apache2ctl configtest` passes
 - [ ] Site enabled: `a2ensite`
 - [ ] Apache reloaded: `systemctl reload apache2`
+<<<<<<< HEAD
 - [ ] Domain resolves: `ping laraxot.local`
 - [ ] Application accessible: `curl -I http://laraxot.local`
 - [ ] Logs created: `ls -la /var/log/apache2/app_*`
+=======
+- [ ] Domain resolves: `ping fixcity.local`
+- [ ] Application accessible: `curl -I http://fixcity.local`
+- [ ] Logs created: `ls -la /var/log/apache2/fixcity_*`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

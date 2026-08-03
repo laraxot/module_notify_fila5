@@ -23,7 +23,11 @@
 
 ```php
 // ❌ SBAGLIATO: namespace basato su COMPONENTE UI
+<<<<<<< HEAD
 __('laraxot::create_ticket_wizard.summary.images.limit_message')
+=======
+__('fixcity::create_ticket_wizard.summary.images.limit_message')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Perche e sbagliato**:
@@ -49,7 +53,11 @@ __('laraxot::create_ticket_wizard.summary.images.limit_message')
 
 ```php
 // ✅ CORRETTO: namespace basato su DOMINIO BUSINESS
+<<<<<<< HEAD
 __('laraxot::ticket.rules.image.limit_message')
+=======
+__('fixcity::ticket.rules.image.limit_message')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Perche e meglio**:
@@ -106,10 +114,17 @@ lang/it/
 
 ```php
 // ❌ SBAGLIATO: componente UI
+<<<<<<< HEAD
 __('laraxot::create_ticket_wizard.summary.label')
 
 // ✅ CORRETTO: dominio business
 __('laraxot::ticket.sections.summary.label')
+=======
+__('fixcity::create_ticket_wizard.summary.label')
+
+// ✅ CORRETTO: dominio business
+__('fixcity::ticket.sections.summary.label')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -147,10 +162,17 @@ ticket.php
 
 ```php
 // ❌ SBAGLIATO
+<<<<<<< HEAD
 __('laraxot::create_ticket_wizard.summary.images.limit_message')
 
 // ✅ CORRETTO
 __('laraxot::ticket.rules.image.limit_message')
+=======
+__('fixcity::create_ticket_wizard.summary.images.limit_message')
+
+// ✅ CORRETTO
+__('fixcity::ticket.rules.image.limit_message')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Perche**: La regola delle immagini e una proprieta del DOMINIO ticket, non del widget.
@@ -175,7 +197,11 @@ ticket.php  ← Aggiungo nuove chiavi qui
 
 ```bash
 # Cerca file di traduzione esistenti
+<<<<<<< HEAD
 find Modules/App/lang/it -name "ticket*.php"
+=======
+find Modules/Fixcity/lang/it -name "ticket*.php"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 → ticket.php  ← Questo e il file!
 ```
 
@@ -185,7 +211,11 @@ find Modules/App/lang/it -name "ticket*.php"
 
 ```bash
 # Cerca nel file
+<<<<<<< HEAD
 grep "limit_message" Modules/App/lang/it/ticket.php
+=======
+grep "limit_message" Modules/Fixcity/lang/it/ticket.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 → 'limit_message' => 'E altre :count immagini'
 ```
 
@@ -195,10 +225,17 @@ grep "limit_message" Modules/App/lang/it/ticket.php
 
 ```php
 // ❌ SBAGLIATO
+<<<<<<< HEAD
 ->limitMessage(__('laraxot::create_ticket_wizard.summary.images.limit_message'))
 
 // ✅ CORRETTO
 ->limitMessage(__('laraxot::ticket.rules.image.limit_message'))
+=======
+->limitMessage(__('fixcity::create_ticket_wizard.summary.images.limit_message'))
+
+// ✅ CORRETTO
+->limitMessage(__('fixcity::ticket.rules.image.limit_message'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -208,8 +245,13 @@ grep "limit_message" Modules/App/lang/it/ticket.php
 ### Prima (Sbagliato)
 
 ```php
+<<<<<<< HEAD
 Section::make(__('laraxot::create_ticket_wizard.summary.images.label'))
     ->limitMessage(__('laraxot::create_ticket_wizard.summary.images.limit_message'))
+=======
+Section::make(__('fixcity::create_ticket_wizard.summary.images.label'))
+    ->limitMessage(__('fixcity::create_ticket_wizard.summary.images.limit_message'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Problemi**:
@@ -222,8 +264,13 @@ Section::make(__('laraxot::create_ticket_wizard.summary.images.label'))
 ### Dopo (Corretto)
 
 ```php
+<<<<<<< HEAD
 Section::make(__('laraxot::ticket.sections.images.label'))
     ->limitMessage(__('laraxot::ticket.rules.image.limit_message'))
+=======
+Section::make(__('fixcity::ticket.sections.images.label'))
+    ->limitMessage(__('fixcity::ticket.rules.image.limit_message'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Vantaggi**:
@@ -301,7 +348,11 @@ Amen.
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [ticket.php (dominio corretto)](../../Modules/App/lang/it/ticket.php)
+=======
+- [ticket.php (dominio corretto)](../../Modules/Fixcity/lang/it/ticket.php)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [Laravel Localization](https://laravel.com/docs/localization)
 - [No Hardcoded Language Religion](../../docs/no-hardcoded-language-religion.md)
 

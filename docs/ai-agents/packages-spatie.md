@@ -1,6 +1,10 @@
 # Spatie Packages Reference
 
+<<<<<<< HEAD
 Pacchetti Spatie installati in App Fila5 Mono.
+=======
+Pacchetti Spatie installati in Quaeris Fila5 Mono.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Versioni installate
 

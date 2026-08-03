@@ -29,12 +29,20 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    ```php
    $attachments = [
        [
+<<<<<<< HEAD
            'path' => '[project-root]/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
+<<<<<<< HEAD
            'path' => '[project-root]/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]

@@ -1,7 +1,11 @@
 # Code Quality Analysis Summary
 
 **Generated:** Wed Oct  1 21:12:15 CEST 2025
+<<<<<<< HEAD
 **Project:** Notify Platform
+=======
+**Project:** FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## PHP Analysis
 - **PHPStan:** ✅ Completed

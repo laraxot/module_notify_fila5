@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🏆 NOTIFY - ECCELLENZA 2025
+=======
+# 🏆 FIXCITY - ECCELLENZA 2025
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 2025-10-01  
 **Status**: 🚀 BEST IN CLASS  
@@ -8,7 +12,11 @@
 
 ## 🎯 VISIONE
 
+<<<<<<< HEAD
 Notify è la piattaforma enterprise leader per la gestione delle segnalazioni urbane, progettata per essere:
+=======
+FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni urbane, progettata per essere:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **La più accessibile**: 100% AGID compliant
 - **La più sicura**: PHPStan Level 9, 2FA, SSO
 - **La più scalabile**: Architettura modulare, API-first
@@ -26,7 +34,11 @@ Notify è la piattaforma enterprise leader per la gestione delle segnalazioni ur
 4. ✅ **PROJECT_COMPLETION_STATUS.md** - Tracking avanzamento
 5. ✅ **EXCELLENCE_2025.md** - Questo documento
 
+<<<<<<< HEAD
 ### 🎫 Modulo App - ECCELLENZA (90%)
+=======
+### 🎫 Modulo Fixcity - ECCELLENZA (90%)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ **API.md** - REST API completa con 15+ endpoints
 - ✅ **USER_GUIDE.md** - Guida cittadini 15 sezioni
 - ✅ **ADMIN_GUIDE.md** - Guida admin 18 sezioni
@@ -58,7 +70,11 @@ Notify è la piattaforma enterprise leader per la gestione delle segnalazioni ur
 
 ### Documentazione
 - **Coverage Globale**: 75% → Target 90%
+<<<<<<< HEAD
 - **Moduli Core**: 92% (App, User, Xot)
+=======
+- **Moduli Core**: 92% (Fixcity, User, Xot)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **API Docs**: 60% → Target 100%
 - **User Guides**: 40% → Target 90%
 - **Video Tutorials**: 0% → Target 20+
@@ -127,7 +143,11 @@ Notify è la piattaforma enterprise leader per la gestione delle segnalazioni ur
 
 #### Settimana 1-2 (Ottobre)
 - [x] Documentazione strategica completa
+<<<<<<< HEAD
 - [x] API documentation App
+=======
+- [x] API documentation Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [x] User guides complete
 - [x] 2FA implementation guide
 - [x] SSO implementation guide
@@ -187,10 +207,17 @@ Notify è la piattaforma enterprise leader per la gestione delle segnalazioni ur
 - 📋 **Webinar mensili** - Best practices
 
 ### Supporto
+<<<<<<< HEAD
 - ✅ **Email**: support@laraxot.it
 - ✅ **Slack**: #laraxot-dev
 - ✅ **GitHub**: Issues & Discussions
 - ✅ **Documentation**: docs.laraxot.it
+=======
+- ✅ **Email**: support@fixcity.it
+- ✅ **Slack**: #fixcity-dev
+- ✅ **GitHub**: Issues & Discussions
+- ✅ **Documentation**: docs.fixcity.it
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -254,7 +281,11 @@ public function createTicket(
 ### 4. Modular Architecture
 ```
 18 Independent Modules
+<<<<<<< HEAD
 ├── Core (Xot, User, App)
+=======
+├── Core (Xot, User, Fixcity)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Support (UI, Geo, Media, Notify)
 ├── Features (Comment, Rating, Activity)
 └── Enterprise (Gdpr, Tenant, Seo, AI)
@@ -264,7 +295,11 @@ public function createTicket(
 
 ## 📊 COMPARAZIONE COMPETITORS
 
+<<<<<<< HEAD
 | Feature | Notify | Competitor A | Competitor B |
+=======
+| Feature | FixCity | Competitor A | Competitor B |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 |---------|---------|--------------|--------------|
 | **AGID Compliance** | 90% ✅ | 60% | 40% |
 | **PHPStan Level** | 9 ✅ | 5 | 3 |
@@ -350,11 +385,19 @@ public function createTicket(
 - **Doc Lead**: Documentation & Training
 
 ### Support Channels
+<<<<<<< HEAD
 - **Email**: support@laraxot.it
 - **Slack**: #laraxot-community
 - **GitHub**: github.com/laraxot/laraxot
 - **Docs**: docs.laraxot.it
 - **Status**: status.laraxot.it
+=======
+- **Email**: support@fixcity.it
+- **Slack**: #fixcity-community
+- **GitHub**: github.com/laraxot/fixcity
+- **Docs**: docs.fixcity.it
+- **Status**: status.fixcity.it
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -368,9 +411,15 @@ Grazie a tutti i contributor che hanno reso possibile questo progetto:
 - **Documentation Writers** - Guide e tutorial
 
 ### Open Source
+<<<<<<< HEAD
 Notify è orgogliosamente open source:
 - **License**: MIT
 - **Repository**: github.com/laraxot/laraxot
+=======
+FixCity è orgogliosamente open source:
+- **License**: MIT
+- **Repository**: github.com/laraxot/fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Contributions**: Welcome!
 - **Code of Conduct**: Contributor Covenant
 
@@ -380,7 +429,11 @@ Notify è orgogliosamente open source:
 
 ### 2026
 - AI-powered categorization
+<<<<<<< HEAD
 - Forecasting maintenance
+=======
+- Predictive maintenance
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Advanced analytics
 - Mobile native apps
 - International expansion
@@ -402,12 +455,20 @@ Notify è orgogliosamente open source:
 - **[PROJECT_COMPLETION_STATUS.md](./PROJECT_COMPLETION_STATUS.md)** - Status
 
 ### Moduli Principali
+<<<<<<< HEAD
 - **[App Docs](./laravel/Modules/App/docs/)** - Core business
+=======
+- **[Fixcity Docs](./laravel/Modules/Fixcity/docs/)** - Core business
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **[User Docs](./laravel/Modules/User/docs/)** - Authentication
 - **[Sixteen Docs](./laravel/Themes/Sixteen/docs/)** - Frontend theme
 
 ### API
+<<<<<<< HEAD
 - **[App API](./laravel/Modules/App/docs/API.md)** - REST API
+=======
+- **[Fixcity API](./laravel/Modules/Fixcity/docs/API.md)** - REST API
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **[User 2FA](./laravel/Modules/User/docs/2FA_GUIDE.md)** - 2FA Guide
 - **[User SSO](./laravel/Modules/User/docs/SSO_GUIDE.md)** - SSO Guide
 
@@ -415,7 +476,11 @@ Notify è orgogliosamente open source:
 
 ## 🏆 CONCLUSIONE
 
+<<<<<<< HEAD
 Notify rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
+=======
+FixCity rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ✅ **Tecnicamente superiore** - PHPStan Level 9, Type-safe, Modular  
 ✅ **Altamente accessibile** - AGID 90%, WCAG 2.1 AA  
@@ -434,4 +499,8 @@ Notify rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
 
 *"Building the future of civic engagement, one line of code at a time."*
 
+<<<<<<< HEAD
 **#Notify2025 #Excellence #OpenSource #AGID #Laravel #Filament**
+=======
+**#FixCity2025 #Excellence #OpenSource #AGID #Laravel #Filament**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

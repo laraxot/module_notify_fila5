@@ -40,7 +40,11 @@ Ogni modulo ha una copia in `Modules/{ModuleName}/docs/metodi-duplicati-analisi-
 - `Modules/Blog/docs/metodi-duplicati-analisi-1.md`
 - `Modules/Cms/docs/metodi-duplicati-analisi-1.md`
 - `Modules/Comment/docs/metodi-duplicati-analisi-1.md`
+<<<<<<< HEAD
 - `Modules/App/docs/metodi-duplicati-analisi-1.md`
+=======
+- `Modules/Fixcity/docs/metodi-duplicati-analisi-1.md`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `Modules/Gdpr/docs/metodi-duplicati-analisi-1.md`
 - `Modules/Geo/docs/metodi-duplicati-analisi-1.md`
 - `Modules/Job/docs/metodi-duplicati-analisi-1.md`
@@ -106,7 +110,11 @@ Il documento contiene dati VERIFICATI:
 
 ### Fase 2: Refactoring (3 settimane)
 - Settimana 1: Core (Xot, User, Cms) - 15 files
+<<<<<<< HEAD
 - Settimana 2: Business (App, Blog, Geo) - 20 files
+=======
+- Settimana 2: Business (Fixcity, Blog, Geo) - 20 files
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Settimana 3: Support (Job, Media, Notify, etc.) - 29 files
 
 ### Fase 3: Validazione (1 settimana)
@@ -153,7 +161,11 @@ public function getTableColumns(): array
 ### Documenti Esistenti (Precedenti)
 Alcuni moduli hanno già documenti di analisi precedenti:
 - `Modules/Cms/docs/analisi-metodi-duplicati.md` (versione precedente)
+<<<<<<< HEAD
 - `Modules/App/docs/analisi-metodi-duplicati.md` (versione precedente)
+=======
+- `Modules/Fixcity/docs/analisi-metodi-duplicati.md` (versione precedente)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `Modules/AI/docs/duplicate-methods-analysis.md` (analisi automatica)
 
 Questi documenti sono stati **SUPERATI** dal nuovo documento master che contiene:

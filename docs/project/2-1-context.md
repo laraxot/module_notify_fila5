@@ -33,11 +33,19 @@ Provide a centralized area for citizens to manage their reports (tickets), see s
   - Search/Filter by status.
 
 ## Technical Details
+<<<<<<< HEAD
 - **Model**: `Modules\App\Models\Ticket` (need to verify this).
+=======
+- **Model**: `Modules\Fixcity\Models\Ticket` (need to verify this).
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Filtering**: Eager loading to optimize queries.
 - **Auth**: Required `auth` middleware.
 
 ## Questions to Resolve
+<<<<<<< HEAD
 - [ ] Is there already a `Ticket` model in the `App` module?
+=======
+- [ ] Is there already a `Ticket` model in the `Fixcity` module?
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] What are the ticket statuses available?
 - [ ] How is the relation between User and Ticket defined?

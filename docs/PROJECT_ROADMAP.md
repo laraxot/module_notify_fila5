@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🗺️ NOTIFY - PROJECT ROADMAP COMPLETA
+=======
+# 🗺️ FIXCITY - PROJECT ROADMAP COMPLETA
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > **Data**: 2025-10-01
 > **Versione**: 2.0.0
@@ -8,7 +12,11 @@
 
 ## 📊 EXECUTIVE SUMMARY
 
+<<<<<<< HEAD
 **Notify** è una piattaforma di civic engagement per la gestione delle segnalazioni urbane. Architettura **modular monolith** basata su Nwidart + Laraxot, con backend Filament 3.x e frontend Folio + Volt + Livewire 3.x.
+=======
+**FixCity** è una piattaforma di civic engagement per la gestione delle segnalazioni urbane. Architettura **modular monolith** basata su Nwidart + Laraxot, con backend Filament 3.x e frontend Folio + Volt + Livewire 3.x.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Stato Attuale
 - ✅ **Backend Admin**: Filament Resource completo per gestione ticket
@@ -116,7 +124,11 @@ Responsabilità:
 - XotData (configurazioni centralizzate)
 ```
 
+<<<<<<< HEAD
 #### **App** - Core Business Logic
+=======
+#### **Fixcity** - Core Business Logic
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 Models:
 ├── Ticket (core entity)
@@ -257,8 +269,13 @@ Funzionalità:
 - [ ] Documentare requisiti browser (geolocation API)
 
 **File coinvolti**:
+<<<<<<< HEAD
 - `Modules/App/app/Filament/Resources/TicketResource.php:125-154`
 - `Modules/App/app/Rules/FilterCoordinatesInRadius.php`
+=======
+- `Modules/Fixcity/app/Filament/Resources/TicketResource.php:125-154`
+- `Modules/Fixcity/app/Rules/FilterCoordinatesInRadius.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Acceptance Criteria**:
 - ✅ Mappa interattiva funzionante
@@ -282,9 +299,15 @@ Funzionalità:
 - [ ] Testare eliminazione media
 
 **File coinvolti**:
+<<<<<<< HEAD
 - `Modules/App/app/Filament/Resources/TicketResource.php:169-180`
 - `Modules/App/app/Models/Ticket.php:500-505` (registerMediaCollections)
 - `Modules/App/resources/views/pages/tickets/[slug].blade.php:112-121`
+=======
+- `Modules/Fixcity/app/Filament/Resources/TicketResource.php:169-180`
+- `Modules/Fixcity/app/Models/Ticket.php:500-505` (registerMediaCollections)
+- `Modules/Fixcity/resources/views/pages/tickets/[slug].blade.php:112-121`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Acceptance Criteria**:
 - ✅ Upload fino a 5 immagini
@@ -311,10 +334,17 @@ Funzionalità:
 - [ ] Aggiungere metriche performance
 
 **File da creare**:
+<<<<<<< HEAD
 - `Modules/App/app/Services/TicketWorkflowService.php`
 - `Modules/App/app/Jobs/AutoAssignTicketJob.php`
 - `Modules/App/app/Jobs/EscalateUrgentTicketJob.php`
 - `Modules/App/app/Jobs/SendTicketReminderJob.php`
+=======
+- `Modules/Fixcity/app/Services/TicketWorkflowService.php`
+- `Modules/Fixcity/app/Jobs/AutoAssignTicketJob.php`
+- `Modules/Fixcity/app/Jobs/EscalateUrgentTicketJob.php`
+- `Modules/Fixcity/app/Jobs/SendTicketReminderJob.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Transizioni di Stato Valide**:
 ```php
@@ -347,12 +377,21 @@ Funzionalità:
 - [ ] Implementare digest giornaliero/settimanale
 
 **File coinvolti**:
+<<<<<<< HEAD
 - `Modules/App/app/Notifications/TicketCreated.php`
 - `Modules/App/app/Notifications/TicketStatusUpdated.php`
 
 **File da creare**:
 - `Modules/App/app/Notifications/TicketAssigned.php`
 - `Modules/App/app/Notifications/TicketResolved.php`
+=======
+- `Modules/Fixcity/app/Notifications/TicketCreated.php`
+- `Modules/Fixcity/app/Notifications/TicketStatusUpdated.php`
+
+**File da creare**:
+- `Modules/Fixcity/app/Notifications/TicketAssigned.php`
+- `Modules/Fixcity/app/Notifications/TicketResolved.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `resources/views/emails/ticket/*.blade.php`
 
 **Acceptance Criteria**:
@@ -383,8 +422,13 @@ Funzionalità:
 - [ ] Ottimizzare per mobile
 
 **File coinvolti**:
+<<<<<<< HEAD
 - `Modules/App/resources/views/pages/tickets/create.blade.php`
 - `Modules/App/app/Filament/Widgets/CreateTicketWidget.php`
+=======
+- `Modules/Fixcity/resources/views/pages/tickets/create.blade.php`
+- `Modules/Fixcity/app/Filament/Widgets/CreateTicketWidget.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -402,7 +446,11 @@ Funzionalità:
 
 **File da creare**:
 - `Themes/Sixteen/resources/views/pages/my-tickets/index.blade.php`
+<<<<<<< HEAD
 - `Modules/App/app/Livewire/MyTicketsTable.php`
+=======
+- `Modules/Fixcity/app/Livewire/MyTicketsTable.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -419,11 +467,19 @@ Funzionalità:
 - [ ] Dashboard satisfaction score
 
 **File coinvolti**:
+<<<<<<< HEAD
 - `Modules/App/app/Models/Ticket.php:489-492` (comments relation)
 - `Modules/App/app/Models/TicketComment.php`
 
 **File da creare**:
 - `Modules/App/app/Livewire/TicketComments.php`
+=======
+- `Modules/Fixcity/app/Models/Ticket.php:489-492` (comments relation)
+- `Modules/Fixcity/app/Models/TicketComment.php`
+
+**File da creare**:
+- `Modules/Fixcity/app/Livewire/TicketComments.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Component per rating system
 
 ---
@@ -445,9 +501,15 @@ Funzionalità:
 - [ ] Report esportabili (PDF, Excel)
 
 **File da creare**:
+<<<<<<< HEAD
 - `Modules/App/app/Filament/Widgets/TicketStatsWidget.php`
 - `Modules/App/app/Filament/Widgets/TicketHeatmapWidget.php`
 - `Modules/App/app/Filament/Widgets/PerformanceMetricsWidget.php`
+=======
+- `Modules/Fixcity/app/Filament/Widgets/TicketStatsWidget.php`
+- `Modules/Fixcity/app/Filament/Widgets/TicketHeatmapWidget.php`
+- `Modules/Fixcity/app/Filament/Widgets/PerformanceMetricsWidget.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -465,8 +527,13 @@ Funzionalità:
 - [ ] Tracking carico lavoro tecnici
 
 **File da creare**:
+<<<<<<< HEAD
 - `Modules/App/app/Services/AutoAssignmentService.php`
 - `Modules/App/app/Policies/AssignmentPolicy.php`
+=======
+- `Modules/Fixcity/app/Services/AutoAssignmentService.php`
+- `Modules/Fixcity/app/Policies/AssignmentPolicy.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -489,9 +556,15 @@ Funzionalità:
 - [ ] Report performance mensili
 
 **File da creare**:
+<<<<<<< HEAD
 - `config/laraxot-sla.php`
 - `Modules/App/app/Services/SlaTrackingService.php`
 - `Modules/App/app/Jobs/CheckSlaViolationsJob.php`
+=======
+- `config/fixcity-sla.php`
+- `Modules/Fixcity/app/Services/SlaTrackingService.php`
+- `Modules/Fixcity/app/Jobs/CheckSlaViolationsJob.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -513,8 +586,13 @@ Funzionalità:
 
 **File da creare**:
 - `routes/api.php` (attualmente vuoto)
+<<<<<<< HEAD
 - `Modules/App/app/Http/Controllers/Api/V1/TicketController.php`
 - `Modules/App/app/Http/Resources/TicketResource.php`
+=======
+- `Modules/Fixcity/app/Http/Controllers/Api/V1/TicketController.php`
+- `Modules/Fixcity/app/Http/Resources/TicketResource.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `docs/openapi.yaml`
 
 ---
@@ -559,23 +637,41 @@ Funzionalità:
 ### Unit Tests
 ```bash
 # Test modelli
+<<<<<<< HEAD
 tests/Unit/App/Models/TicketTest.php
 tests/Unit/App/Enums/TicketStatusEnumTest.php
 
 # Test services
 tests/Unit/App/Services/TicketWorkflowServiceTest.php
 tests/Unit/App/Services/AutoAssignmentServiceTest.php
+=======
+tests/Unit/Fixcity/Models/TicketTest.php
+tests/Unit/Fixcity/Enums/TicketStatusEnumTest.php
+
+# Test services
+tests/Unit/Fixcity/Services/TicketWorkflowServiceTest.php
+tests/Unit/Fixcity/Services/AutoAssignmentServiceTest.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Feature Tests
 ```bash
 # Test workflow completo
+<<<<<<< HEAD
 tests/Feature/App/TicketCreationFlowTest.php
 tests/Feature/App/TicketAssignmentFlowTest.php
 tests/Feature/App/TicketResolutionFlowTest.php
 
 # Test authorization
 tests/Feature/App/TicketAuthorizationTest.php
+=======
+tests/Feature/Fixcity/TicketCreationFlowTest.php
+tests/Feature/Fixcity/TicketAssignmentFlowTest.php
+tests/Feature/Fixcity/TicketResolutionFlowTest.php
+
+# Test authorization
+tests/Feature/Fixcity/TicketAuthorizationTest.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Integration Tests
@@ -584,7 +680,11 @@ tests/Feature/App/TicketAuthorizationTest.php
 tests/Feature/Api/V1/TicketApiTest.php
 
 # Test notifiche
+<<<<<<< HEAD
 tests/Feature/App/NotificationTest.php
+=======
+tests/Feature/Fixcity/NotificationTest.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Browser Tests (Pest + Playwright)
@@ -674,8 +774,13 @@ tests/Browser/AdminManageTicketTest.php
 ## 📚 DOCUMENTAZIONE CORRELATA
 
 ### Moduli
+<<<<<<< HEAD
 - [App ROADMAP](Modules/App/docs/ROADMAP.md)
 - [App README](Modules/App/docs/README.md)
+=======
+- [Fixcity ROADMAP](Modules/Fixcity/docs/ROADMAP.md)
+- [Fixcity README](Modules/Fixcity/docs/README.md)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [Cms ROADMAP](Modules/Cms/docs/development/roadmap.md)
 
 ### Temi

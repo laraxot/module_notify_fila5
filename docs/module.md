@@ -56,7 +56,11 @@ The Notify module provides comprehensive notification and communication function
 
 ## Integration with Other Modules
 - **User**: Communication with system users
+<<<<<<< HEAD
 - **App**: Survey participant notifications
+=======
+- **Quaeris**: Survey participant notifications
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Limesurvey**: Survey response notifications
 - **Xot**: Base notification infrastructure
 - **Filament**: Management interface

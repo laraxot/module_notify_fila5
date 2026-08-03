@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "Notify - Architecture Documentation"
+=======
+title: "FixCity - Architecture Documentation"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [architecture]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "architecture laraxot - architecture documentation"
+=======
+qmd: "architecture fixcity - architecture documentation"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./final-refactoring-report.md"
 ---
 
+<<<<<<< HEAD
 # Notify - Architecture Documentation
+=======
+# FixCity - Architecture Documentation
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Version:** 4.0  
 **Date:** 2025-10-01  
@@ -72,7 +84,11 @@ Modules/
 ├── Xot/              # Core framework extensions
 ├── Tenant/           # Multi-tenancy support
 ├── User/             # User management & authentication
+<<<<<<< HEAD
 ├── App/          # Main application logic
+=======
+├── Fixcity/          # Main application logic
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Blog/             # Content management
 ├── Cms/              # CMS functionality
 ├── Geo/              # Geographic services
@@ -96,7 +112,11 @@ graph TD
     A[Xot] --> B[Tenant]
     A --> C[User]
     A --> D[Lang]
+<<<<<<< HEAD
     B --> E[App]
+=======
+    B --> E[Fixcity]
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     C --> E
     E --> F[Blog]
     E --> G[Cms]

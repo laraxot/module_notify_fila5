@@ -285,6 +285,7 @@ Priority: P1
 ## Examples
 
 ### Good Epic Issue
+<<<<<<< HEAD
 https://github.com/laraxot/platform/issues/1
 
 ### Good Component Issue
@@ -295,6 +296,18 @@ https://github.com/laraxot/platform/issues/9
 
 ### Good ADR
 https://github.com/laraxot/platform/discussions/1
+=======
+https://github.com/laraxot/base_fixcity_fila5/issues/1
+
+### Good Component Issue
+https://github.com/laraxot/base_fixcity_fila5/issues/2
+
+### Good Page Issue
+https://github.com/laraxot/base_fixcity_fila5/issues/9
+
+### Good ADR
+https://github.com/laraxot/base_fixcity_fila5/discussions/1
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

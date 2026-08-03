@@ -21,14 +21,22 @@ related:
 # 📊 REPORT CONSOLIDATO ROADMAP - 2025-10-01
 
 ## 🎯 OVERVIEW
+<<<<<<< HEAD
 Report consolidato delle roadmap di tutti i moduli e temi del progetto Notify.
+=======
+Report consolidato delle roadmap di tutti i moduli e temi del progetto FixCity.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 📋 MODULI
 
 ### Moduli Core (CRITICAL)
 - **Xot**: Core framework - Status: 95% COMPLETATO
 - **User**: Authentication & Authorization - Status: 90% COMPLETATO  
+<<<<<<< HEAD
 - **App**: Core business logic - Status: 80% COMPLETATO
+=======
+- **Fixcity**: Core business logic - Status: 80% COMPLETATO
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Moduli Support (HIGH)
 - **UI**: Component library - Status: 60% COMPLETATO
@@ -73,8 +81,13 @@ Report consolidato delle roadmap di tutti i moduli e temi del progetto Notify.
 ## 🎯 PROSSIMI PASSI
 
 ### Q1 2025 (Gennaio-Marzo)
+<<<<<<< HEAD
 1. Completare moduli core (Xot, User, App)
 2. Implementare API v1 per App
+=======
+1. Completare moduli core (Xot, User, Fixcity)
+2. Implementare API v1 per Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 3. Ottimizzare mobile interface
 4. Raggiungere 100% AGID compliance per Sixteen
 

@@ -132,8 +132,13 @@ public function notifiable(): MorphTo
 
 **Trovato in  file4 file**:
 
+<<<<<<< HEAD
 - `Category::scopeActive` - [Modules/App/app/Models/Category.php:155](Modules/App/app/Models/Category.php) (Modulo: App)
 - `FaqCategory::scopeActive` - [Modules/App/app/Models/FaqCategory.php:94](Modules/App/app/Models/FaqCategory.php) (Modulo: App)
+=======
+- `Category::scopeActive` - [Modules/Fixcity/app/Models/Category.php:155](Modules/Fixcity/app/Models/Category.php) (Modulo: Fixcity)
+- `FaqCategory::scopeActive` - [Modules/Fixcity/app/Models/FaqCategory.php:94](Modules/Fixcity/app/Models/FaqCategory.php) (Modulo: Fixcity)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `Schedule::scopeActive` - [Modules/Job/app/Models/Schedule.php:254](Modules/Job/app/Models/Schedule.php) (Modulo: Job)
 - `NotificationTemplate::scopeActive` - [Modules/Notify/app/Models/NotificationTemplate.php:239](Modules/Notify/app/Models/NotificationTemplate.php)
 
@@ -205,7 +210,11 @@ public function login(User $user): Activity
 
 **Trovato in  file4 file**:
 
+<<<<<<< HEAD
 - `Ticket::getSlugOptions` - [Modules/App/app/Models/Ticket.php:234](Modules/App/app/Models/Ticket.php) (Modulo: App)
+=======
+- `Ticket::getSlugOptions` - [Modules/Fixcity/app/Models/Ticket.php:234](Modules/Fixcity/app/Models/Ticket.php) (Modulo: Fixcity)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `Post::getSlugOptions` - [Modules/Lang/app/Models/Post.php:174](Modules/Lang/app/Models/Post.php) (Modulo: Lang)
 - `MailTemplate::getSlugOptions` - [Modules/Notify/app/Models/MailTemplate.php:112](Modules/Notify/app/Models/MailTemplate.php)
 - `BaseTenant::getSlugOptions` - [Modules/User/app/Models/BaseTenant.php:59](Modules/User/app/Models/BaseTenant.php) (Modulo: User)
@@ -420,6 +429,7 @@ public function send(
 - `BaseModel::casts` - [Modules/Comment/app/Models/BaseModel.php:44](Modules/Comment/app/Models/BaseModel.php) (Modulo: Comment)
 - `BaseMorphPivot::casts` - [Modules/Comment/app/Models/BaseMorphPivot.php:54](Modules/Comment/app/Models/BaseMorphPivot.php) (Modulo: Comment)
 - `BasePivot::casts` - [Modules/Comment/app/Models/BasePivot.php:41](Modules/Comment/app/Models/BasePivot.php) (Modulo: Comment)
+<<<<<<< HEAD
 - `Activity::casts` - [Modules/App/app/Models/Activity.php:50](Modules/App/app/Models/Activity.php) (Modulo: App)
 - `BaseModel::casts` - [Modules/App/app/Models/BaseModel.php:47](Modules/App/app/Models/BaseModel.php) (Modulo: App)
 - `BasePivot::casts` - [Modules/App/app/Models/BasePivot.php:49](Modules/App/app/Models/BasePivot.php) (Modulo: App)
@@ -429,6 +439,17 @@ public function send(
 - `PushSubscription::casts` - [Modules/App/app/Models/PushSubscription.php:58](Modules/App/app/Models/PushSubscription.php) (Modulo: App)
 - `Ticket::casts` - [Modules/App/app/Models/Ticket.php:188](Modules/App/app/Models/Ticket.php) (Modulo: App)
 - `TicketCategory::casts` - [Modules/App/app/Models/TicketCategory.php:51](Modules/App/app/Models/TicketCategory.php) (Modulo: App)
+=======
+- `Activity::casts` - [Modules/Fixcity/app/Models/Activity.php:50](Modules/Fixcity/app/Models/Activity.php) (Modulo: Fixcity)
+- `BaseModel::casts` - [Modules/Fixcity/app/Models/BaseModel.php:47](Modules/Fixcity/app/Models/BaseModel.php) (Modulo: Fixcity)
+- `BasePivot::casts` - [Modules/Fixcity/app/Models/BasePivot.php:49](Modules/Fixcity/app/Models/BasePivot.php) (Modulo: Fixcity)
+- `Category::casts` - [Modules/Fixcity/app/Models/Category.php:117](Modules/Fixcity/app/Models/Category.php) (Modulo: Fixcity)
+- `Faq::casts` - [Modules/Fixcity/app/Models/Faq.php:63](Modules/Fixcity/app/Models/Faq.php) (Modulo: Fixcity)
+- `FaqCategory::casts` - [Modules/Fixcity/app/Models/FaqCategory.php:67](Modules/Fixcity/app/Models/FaqCategory.php) (Modulo: Fixcity)
+- `PushSubscription::casts` - [Modules/Fixcity/app/Models/PushSubscription.php:58](Modules/Fixcity/app/Models/PushSubscription.php) (Modulo: Fixcity)
+- `Ticket::casts` - [Modules/Fixcity/app/Models/Ticket.php:188](Modules/Fixcity/app/Models/Ticket.php) (Modulo: Fixcity)
+- `TicketCategory::casts` - [Modules/Fixcity/app/Models/TicketCategory.php:51](Modules/Fixcity/app/Models/TicketCategory.php) (Modulo: Fixcity)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `BaseModel::casts` - [Modules/Gdpr/app/Models/BaseModel.php:58](Modules/Gdpr/app/Models/BaseModel.php) (Modulo: Gdpr)
 - `BaseMorphPivot::casts` - [Modules/Gdpr/app/Models/BaseMorphPivot.php:67](Modules/Gdpr/app/Models/BaseMorphPivot.php) (Modulo: Gdpr)
 - `BasePivot::casts` - [Modules/Gdpr/app/Models/BasePivot.php:47](Modules/Gdpr/app/Models/BasePivot.php) (Modulo: Gdpr)
@@ -537,7 +558,11 @@ protected function casts(): array
 **Trovato in  file3 file**:
 
 - `Attachment::registerMediaCollections` - [Modules/Cms/app/Models/Attachment.php:158](Modules/Cms/app/Models/Attachment.php) (Modulo: Cms)
+<<<<<<< HEAD
 - `Ticket::registerMediaCollections` - [Modules/App/app/Models/Ticket.php:526](Modules/App/app/Models/Ticket.php) (Modulo: App)
+=======
+- `Ticket::registerMediaCollections` - [Modules/Fixcity/app/Models/Ticket.php:526](Modules/Fixcity/app/Models/Ticket.php) (Modulo: Fixcity)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `NotificationTemplate::registerMediaCollections` - [Modules/Notify/app/Models/NotificationTemplate.php:141](Modules/Notify/app/Models/NotificationTemplate.php)
 
 **Signature**:
@@ -585,8 +610,13 @@ public function registerMediaCollections(): void
 - `GetViewThemeByViewAction::execute` - [Modules/Cms/app/Actions/GetViewThemeByViewAction.php:13](Modules/Cms/app/Actions/GetViewThemeByViewAction.php) (Modulo: Cms)
 - `SaveFooterConfigAction::execute` - [Modules/Cms/app/Actions/SaveFooterConfigAction.php:14](Modules/Cms/app/Actions/SaveFooterConfigAction.php) (Modulo: Cms)
 - `SaveHeadernavConfigAction::execute` - [Modules/Cms/app/Actions/SaveHeadernavConfigAction.php:12](Modules/Cms/app/Actions/SaveHeadernavConfigAction.php) (Modulo: Cms)
+<<<<<<< HEAD
 - `ChangeStatus::execute` - [Modules/App/app/Actions/ChangeStatus.php:12](Modules/App/app/Actions/ChangeStatus.php) (Modulo: App)
 - `GenerateTicketsAction::execute` - [Modules/App/app/Actions/GenerateTicketsAction.php:24](Modules/App/app/Actions/GenerateTicketsAction.php) (Modulo: App)
+=======
+- `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
+- `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `CalculateDistanceAction::execute` - [Modules/Geo/app/Actions/CalculateDistanceAction.php:47](Modules/Geo/app/Actions/CalculateDistanceAction.php) (Modulo: Geo)
 - `ClusterLocationsAction::execute` - [Modules/Geo/app/Actions/ClusterLocationsAction.php:25](Modules/Geo/app/Actions/ClusterLocationsAction.php) (Modulo: Geo)
 - `FilterCoordinatesAction::execute` - [Modules/Geo/app/Actions/FilterCoordinatesAction.php:29](Modules/Geo/app/Actions/FilterCoordinatesAction.php) (Modulo: Geo)

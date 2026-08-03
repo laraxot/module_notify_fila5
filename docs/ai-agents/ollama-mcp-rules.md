@@ -43,7 +43,11 @@ Task complexity?
 **Parametri obbligatori**:
 ```json
 {
+<<<<<<< HEAD
   "num_forecast": 128-256,
+=======
+  "num_predict": 128-256,
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   "temperature": 0.1-0.3,
   "top_k": 10-20,
   "top_p": 0.5-0.7

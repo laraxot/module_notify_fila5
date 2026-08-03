@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # Configurazione Provider SMS per le Notifiche
 
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+=======
+# Configurazione Provider SMS per le Notifiche 
+
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Indice
 
@@ -63,7 +70,11 @@ class AppointmentNotification extends Notification
     {
         return ['mail', TwilioChannel::class];
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function toTwilio($notifiable)
     {
         return (new TwilioSmsMessage())
@@ -108,7 +119,11 @@ composer require laravel-notification-channels/vonage
 VONAGE_KEY=abcd1234
 VONAGE_SECRET=xyz789...
 VONAGE_SMS_FROM=<nome progetto>
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
+=======
+VONAGE_SMS_FROM=SaluteOra
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Implementazione Notifica
@@ -123,7 +138,11 @@ class AppointmentNotification extends Notification
     {
         return ['mail', VonageChannel::class];
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function toVonage($notifiable)
     {
         return (new VonageMessage())
@@ -419,7 +438,11 @@ $this->app->bind(CustomSMSChannel::class, function ($app) {
     if ($app->environment('testing')) {
         return new TestSMSChannel();
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     return new CustomSMSChannel(
         new HttpClient(),
         config('services.sms.base_url'),

@@ -34,7 +34,11 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
+<<<<<<< HEAD
             sender: '<nome progetto>'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         );
     }
 
@@ -83,13 +87,21 @@ public function sendOtp(User $user)
     try {
         // Genera OTP
         $otp = str_pad(random_int(0, 999999), 6, '0', STR_PAD_LEFT);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Salva OTP nel database con scadenza
         $user->update([
             'otp' => $otp,
             'otp_expires_at' => now()->addMinutes(5)
         ]);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Invia SMS
         $user->notify(new OtpSmsNotification($otp));
 
@@ -193,14 +205,22 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 
         $message = "Promemoria: Hai un appuntamento con {$doctorName} il {$appointmentDate->format('d/m/Y H:i')}";
         $message .= " presso {$location}.";
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         if ($notes) {
             $message .= " Note: {$notes}";
         }
 
         parent::__construct(
             message: $message,
+<<<<<<< HEAD
             sender: '<nome progetto>'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         );
     }
 
@@ -376,7 +396,11 @@ class SendBulkSmsAction
                     }
 
                     $result = NetfunSmsResponseData::fromArray($response->json());
+<<<<<<< HEAD
 
+=======
+                    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                     if ($result->status !== 'success') {
                         throw new \Exception($result->error ?? 'Errore sconosciuto');
                     }
@@ -441,7 +465,11 @@ public function sendBulkSms(Request $request)
         $results = SendBulkSmsAction::make(
             users: $users,
             message: $request->message,
+<<<<<<< HEAD
             sender: '<nome progetto>',
+=======
+            sender: 'SALUTEORA',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -503,7 +531,11 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
         string $sender
     ) {
         parent::__construct($to, $message, $sender);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         $this->maxRetries = config('notify.netfun.max_retries', 3);
         $this->retryDelay = config('notify.netfun.retry_delay', 1);
         $this->circuitBreakerThreshold = config('notify.netfun.circuit_breaker.threshold', 5);
@@ -529,10 +561,17 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
         while ($attempts < $this->maxRetries) {
             try {
                 $result = parent::execute();
+<<<<<<< HEAD
 
                 // Reset circuit breaker on success
                 $this->resetCircuitBreaker();
 
+=======
+                
+                // Reset circuit breaker on success
+                $this->resetCircuitBreaker();
+                
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                 return $result;
 
             } catch (\Exception $e) {
@@ -542,13 +581,21 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
                 if ($attempts === $this->maxRetries) {
                     // Increment circuit breaker counter
                     $this->incrementCircuitBreaker();
+<<<<<<< HEAD
 
+=======
+                    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                     Log::error('Tentativi esauriti per invio SMS', [
                         'to' => $this->to,
                         'error' => $e->getMessage(),
                         'attempts' => $attempts
                     ]);
+<<<<<<< HEAD
 
+=======
+                    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                     throw $e;
                 }
 
@@ -581,7 +628,11 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
     {
         $key = 'netfun_circuit_breaker_failures';
         $failures = Cache::get($key, 0) + 1;
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         Cache::put($key, $failures, $this->circuitBreakerTimeout);
 
         if ($failures >= $this->circuitBreakerThreshold) {
@@ -636,16 +687,27 @@ class SendNetfunSmsWithMetricsAction extends SendNetfunSmsAction
     public function execute(): NetfunSmsResponseData
     {
         $startTime = microtime(true);
+<<<<<<< HEAD
 
         try {
             $result = parent::execute();
 
+=======
+        
+        try {
+            $result = parent::execute();
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             // Registra metriche di successo
             $this->recordMetrics(true, microtime(true) - $startTime, [
                 'message_id' => $result->message_id,
                 'status' => $result->status
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             return $result;
 
         } catch (\Exception $e) {
@@ -653,11 +715,19 @@ class SendNetfunSmsWithMetricsAction extends SendNetfunSmsAction
             $this->recordMetrics(false, microtime(true) - $startTime, [
                 'error' => $e->getMessage()
             ]);
+<<<<<<< HEAD
 
             throw $e;
         }
     }
 
+=======
+            
+            throw $e;
+        }
+    }
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     /**
      * Registra le metriche
      *
@@ -741,7 +811,11 @@ class NetfunSmsActionTest extends TestCase
         $this->assertInstanceOf(NetfunSmsResponseData::class, $result);
         $this->assertEquals('success', $result->status);
         $this->assertEquals('123456', $result->message_id);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         Http::assertSent(function ($request) {
             return $request->url() == config('notify.netfun.endpoint') &&
                    $request['messages'][0]['to'] == '+393331234567' &&
@@ -842,7 +916,11 @@ class NetfunNotificationIntegrationTest extends TestCase
         ]);
 
         $otp = '123456';
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         $user->notify(new OtpSmsNotification($otp));
 
         Http::assertSent(function ($request) use ($otp) {
@@ -923,4 +1001,8 @@ class NetfunNotificationIntegrationTest extends TestCase
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache)
+<<<<<<< HEAD
 - [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php)
+=======
+- [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php) 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

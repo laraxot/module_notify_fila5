@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "🔒 Notify Security Checklist"
+=======
+title: "🔒 FixCity Security Checklist"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [security, checklist]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "security-checklist 🔒 laraxot security checklist"
+=======
+qmd: "security-checklist 🔒 fixcity security checklist"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./final-implementation-report.md"
 ---
 
+<<<<<<< HEAD
 # 🔒 Notify Security Checklist
+=======
+# 🔒 FixCity Security Checklist
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Status**: Production Ready
 
@@ -416,9 +428,15 @@ Overall Security Score: 92/100
 
 ## 📞 Security Contacts
 
+<<<<<<< HEAD
 **Security Team Lead**: security@laraxot.it  
 **Emergency Contact**: +39 06 1234 5678  
 **Incident Reporting**: incidents@laraxot.it
+=======
+**Security Team Lead**: security@fixcity.it  
+**Emergency Contact**: +39 06 1234 5678  
+**Incident Reporting**: incidents@fixcity.it
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

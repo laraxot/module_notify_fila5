@@ -10,8 +10,13 @@ Per qualunque elemento che sia una lista, una collezione di outcome o una vista 
 
 ## Quando vale
 
+<<<<<<< HEAD
 - outcomes di un mercato forecast
 - liste di forecasts, articles, events, profiles
+=======
+- outcomes di un mercato predict
+- liste di predicts, articles, events, profiles
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - viste operative che richiedono ricerca, ordinamento o filtri
 - tabelle front office e back office che devono restare coerenti
 

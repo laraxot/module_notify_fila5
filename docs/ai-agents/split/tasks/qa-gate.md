@@ -161,7 +161,11 @@ Gate: CONCERNS → qa.qaLocation/gates/{epic}.{story}-{slug}.yml
 
 ## Key Principles
 
+<<<<<<< HEAD
 - Keep it minimal and forecastable
+=======
+- Keep it minimal and predictable
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Fixed severity scale (low/medium/high)
 - Always write to standard path
 - Always update story with gate reference

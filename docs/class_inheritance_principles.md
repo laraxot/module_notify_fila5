@@ -1,5 +1,9 @@
 # Principi di Ereditarietà nelle Classi <nome progetto>
+<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
+=======
+# Principi di Ereditarietà nelle Classi SaluteOra
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Regola Fondamentale: No Duplicate Declarations
 
@@ -76,8 +80,13 @@ Per identificare dichiarazioni duplicate, usare:
 
 # Trova classi che estendono XotBasePage e implementano HasForms
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
+<<<<<<< HEAD
 grep -r --include="*.php" "extends XotBasePage implements HasForms" [project-root]/laravel/Modules/
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/_bases/base_ptvx_fila5/laravel/Modules/
+=======
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Riferimenti

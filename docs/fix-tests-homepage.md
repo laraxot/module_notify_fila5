@@ -103,11 +103,19 @@ new class extends Component {
 
 ```bash
 # Homepage
+<<<<<<< HEAD
 curl http://laraxot.local/it/tests/homepage
 
 # Altre pagine (se esistono nel CMS)
 curl http://laraxot.local/it/tests/servizi
 curl http://laraxot.local/it/tests/amministrazione
+=======
+curl http://fixcity.local/it/tests/homepage
+
+# Altre pagine (se esistono nel CMS)
+curl http://fixcity.local/it/tests/servizi
+curl http://fixcity.local/it/tests/amministrazione
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Files Modificati

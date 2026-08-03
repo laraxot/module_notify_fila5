@@ -55,7 +55,11 @@
 | **Job** | 83 | ✅ | 🟢 Buono | Queue management |
 | **Gdpr** | 79 | ✅ | 🟢 Buono | Compliance GDPR |
 | **Tenant** | 57 | ✅ | 🟢 Buono | Multi-tenancy |
+<<<<<<< HEAD
 | **App** | 38 | ✅ | 🟢 Buono | Ticketing system |
+=======
+| **Fixcity** | 38 | ✅ | 🟢 Buono | Ticketing system |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **AI** | 34 | ✅ | 🟢 Buono | MCP integration |
 | **Blog** | 34 | ✅ | 🟢 Buono | Content management |
 | **Seo** | 21 | ❌ | 🔴 Mancante | **README mancante** |

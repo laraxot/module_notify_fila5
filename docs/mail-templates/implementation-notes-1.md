@@ -49,12 +49,20 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    ```php
    $attachments = [
        [
+<<<<<<< HEAD
 'path' => '/var/www/_bases/base_ptvx_fila5/public_html/images/avatars/default-3.svg',
+=======
+'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
+<<<<<<< HEAD
 'path' => '/var/www/_bases/base_ptvx_fila5/public_html/images/avatars/default-3.svg',
+=======
+'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]

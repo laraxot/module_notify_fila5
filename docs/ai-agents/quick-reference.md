@@ -56,7 +56,11 @@ class ListPosts extends XotBaseListRecords
 - [LimeSurvey Deep Dive](../../laravel/Modules/Limesurvey/docs/limesurvey-deep-dive-architecture.md)
 - [Professional Charts Guide](../../laravel/Modules/Chart/docs/filament-charts-professional-guide.md)
 - [JpGraph Reference](../../laravel/Modules/Chart/docs/jpgraph-4-4-3-reference.md)
+<<<<<<< HEAD
 - [PDF Generation](../../laravel/Modules/App/docs/pdf-generation-with-charts.md)
+=======
+- [PDF Generation](../../laravel/Modules/Quaeris/docs/pdf-generation-with-charts.md)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Collegamenti
 

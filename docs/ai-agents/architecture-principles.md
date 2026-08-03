@@ -1,6 +1,10 @@
 # Architecture Principles
 
+<<<<<<< HEAD
 Key architectural rules for App Fila5 Mono (Laraxot / Laravel 12 / Filament 5).
+=======
+Key architectural rules for Quaeris Fila5 Mono (Laraxot / Laravel 12 / Filament 5).
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 0. Database Configuration (CRITICAL)
 
@@ -74,9 +78,15 @@ FilamentAsset::register([
     Js::make('chart-js-plugins', Vite::asset('resources/js/filament-chart-js-plugins.js', 'assets/chart'))->module(),
 ]);
 
+<<<<<<< HEAD
 // WRONG: In other modules like App, User, etc.
 FilamentAsset::register([
     Js::make('chart-js-plugins', Vite::asset('Resources/assets/js/filament-chart-js-plugins.js', 'assets/this-project'))->module(),
+=======
+// WRONG: In other modules like Quaeris, User, etc.
+FilamentAsset::register([
+    Js::make('chart-js-plugins', Vite::asset('Resources/assets/js/filament-chart-js-plugins.js', 'assets/quaeris'))->module(),
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ]);
 ```
 
@@ -130,14 +140,22 @@ Ref: `.claude/docs/spatie-queueable-action.md`
 
 ```php
 // WRONG - Service class FORBIDDEN
+<<<<<<< HEAD
 namespace Modules\App\Services;
+=======
+namespace Modules\Quaeris\Services;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 class ReportService
 {
     public function generate(SurveyPdf $pdf): void { ... }
 }
 
 // CORRECT - QueueableAction obbligatorio
+<<<<<<< HEAD
 namespace Modules\App\Actions;
+=======
+namespace Modules\Quaeris\Actions;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 use Spatie\QueueableAction\QueueableAction;
 
 class GenerateReportAction

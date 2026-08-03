@@ -5,7 +5,11 @@
 ```php
 config('app.url');
 app(\Modules\Tenant\Actions\GetTenantNameAction::class)->execute();
+<<<<<<< HEAD
 config('it.this-project.manager.morph_map');
+=======
+config('it.quaeris.manager.morph_map');
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 \Illuminate\Database\Eloquent\Relations\Relation::morphMap();
 ```
 

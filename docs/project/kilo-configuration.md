@@ -14,7 +14,11 @@ Kilo è un'estensione VS Code per AI-assisted coding con CLI. La configurazione 
 - Integrazioni (BMAD, GSD, Ralph, OpenViking, NotebookLM)
 - Quality gates (PHPStan, Pint, Pest)
 
+<<<<<<< HEAD
 ## Configurazione Notify
+=======
+## Configurazione FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Provider AI Configurati
 
@@ -216,7 +220,11 @@ npm run lint, npm run format
   "modules": "laravel/Modules/",
   "themes": "laravel/Themes/",
   "documentRoot": "public_html/",
+<<<<<<< HEAD
   "config": "laravel/config/local/laraxot/xra.php"
+=======
+  "config": "laravel/config/local/fixcity/xra.php"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 }
 ```
 

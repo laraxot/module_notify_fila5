@@ -20,7 +20,11 @@ related:
 
 # NotebookLM Skill - Configuration & Usage Guide
 
+<<<<<<< HEAD
 **Project**: Notify  
+=======
+**Project**: FixCity  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Skill Location**: `~/.claude/skills/notebooklm/`  
 **Status**: ✅ **INSTALLED & READY**  
 **Last Updated**: 2026-03-30
@@ -127,9 +131,15 @@ notebooklm/
    - 📚 GitHub repositories
    - 🎥 YouTube transcripts
 
+<<<<<<< HEAD
 **Per Notify**:
 ```
 Notebook Name: "Notify Documentation"
+=======
+**Per FixCity**:
+```
+Notebook Name: "FixCity Documentation"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Sources:
   - AGENTS.md
   - laravel/AGENTS.md
@@ -153,7 +163,11 @@ Sources:
 
 Oppure (smart):
 ```
+<<<<<<< HEAD
 "Query this notebook about Notify and add it to my library: [LINK]"
+=======
+"Query this notebook about FixCity and add it to my library: [LINK]"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -168,8 +182,13 @@ Oppure (smart):
 | `"Set up NotebookLM authentication"` | Login Google |
 | `"Add [LINK] to my NotebookLM library"` | Aggiungi notebook |
 | `"Show my NotebookLM notebooks"` | Lista notebook |
+<<<<<<< HEAD
 | `"Ask my Notify docs about [topic]"` | Query notebook |
 | `"Use the Notify notebook"` | Set active |
+=======
+| `"Ask my FixCity docs about [topic]"` | Query notebook |
+| `"Use the FixCity notebook"` | Set active |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | `"Clear NotebookLM data"` | Reset (keep library) |
 | `"Reset NotebookLM authentication"` | Re-auth |
 
@@ -178,7 +197,11 @@ Oppure (smart):
 #### 1. Query su Documentazione
 
 ```
+<<<<<<< HEAD
 User: "What does the Notify documentation say about theme configuration?"
+=======
+User: "What does the FixCity documentation say about theme configuration?"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Claude → NotebookLM → Gemini synthesizes answer from docs → Claude responds
 ```
@@ -194,32 +217,52 @@ Result: Source-grounded answer with citations
 #### 3. Multi-Source Correlation
 
 ```
+<<<<<<< HEAD
 User: "How do Notify tickets integrate with the Geo module for location tracking?"
+=======
+User: "How do FixCity tickets integrate with the Geo module for location tracking?"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Result: Gemini connects info from multiple docs
 ```
 
 ---
 
+<<<<<<< HEAD
 ## 🔧 Configurazione Notify
 
 ### Notebook Structure Consigliata
 
 **Notebook 1: Notify Core**
+=======
+## 🔧 Configurazione FixCity
+
+### Notebook Structure Consigliata
+
+**Notebook 1: FixCity Core**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 Sources:
   - AGENTS.md
   - laravel/AGENTS.md
   - .planning/project.md
   - .planning/config.json
+<<<<<<< HEAD
   - laraxot-improvement-plan.md
+=======
+  - fixcity-improvement-plan.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Notebook 2: Module Documentation**
 ```
 Sources:
   - laravel/Modules/docs/README.md
+<<<<<<< HEAD
   - laravel/Modules/App/docs/
+=======
+  - laravel/Modules/Fixcity/docs/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - laravel/Modules/User/docs/
   - laravel/Modules/Cms/docs/
   - ... (altri moduli)
@@ -253,7 +296,11 @@ I notebook vengono salvati in:
 {
   "notebooks": [
     {
+<<<<<<< HEAD
       "name": "Notify Core",
+=======
+      "name": "FixCity Core",
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
       "url": "https://notebooklm.google.com/notebook/...",
       "topics": ["architecture", "configuration", "setup"],
       "added_date": "2026-03-30"
@@ -376,7 +423,11 @@ pip install -r requirements.txt
 
 ```bash
 # OpenViking per context management
+<<<<<<< HEAD
 openviking add-memory "NotebookLM: Notify docs indexed"
+=======
+openviking add-memory "NotebookLM: FixCity docs indexed"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Claude usa NotebookLM per query source-grounded
 ```
@@ -433,7 +484,11 @@ claude
 "Add [LINK] to my NotebookLM library"
 
 # 6. Query
+<<<<<<< HEAD
 "What does Notify documentation say about theme configuration?"
+=======
+"What does FixCity documentation say about theme configuration?"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -477,6 +532,7 @@ claude
 User: "Show my NotebookLM notebooks"
 
 Claude: You have 1 notebook:
+<<<<<<< HEAD
   - Notify Documentation (added 2026-03-30)
     Topics: architecture, configuration, laravel, fil
 
@@ -485,6 +541,16 @@ User: "Ask my Notify docs about the active theme"
 Claude: Based on your Notify Documentation notebook:
 
   The active theme is **Sixteen** for the domain laraxot.local.
+=======
+  - FixCity Documentation (added 2026-03-30)
+    Topics: architecture, configuration, laravel, fil
+
+User: "Ask my FixCity docs about the active theme"
+
+Claude: Based on your FixCity Documentation notebook:
+
+  The active theme is **Sixteen** for the domain fixcity.local.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   
   Configuration is stored in `laravel/config/localhost/xra.php`:
   
@@ -495,6 +561,7 @@ Claude: Based on your Notify Documentation notebook:
   ];
   ```
   
+<<<<<<< HEAD
   **Source**: Notify Theme Context documentation
 
 User: "Perfect! Now check what modules are available"
@@ -502,6 +569,15 @@ User: "Perfect! Now check what modules are available"
 Claude: Your Notify Documentation lists 18 active modules:
 
   1. App - Ticket management
+=======
+  **Source**: FixCity Theme Context documentation
+
+User: "Perfect! Now check what modules are available"
+
+Claude: Your FixCity Documentation lists 18 active modules:
+
+  1. Fixcity - Ticket management
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   2. User - Authentication
   3. Cms - Content management
   ... (continues)

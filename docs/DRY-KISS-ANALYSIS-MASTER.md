@@ -307,7 +307,11 @@ abstract class BaseModel extends XotBaseModel  // ✅ Standard
 
 #### Mese 6: Service/Action Consolidation
 - [ ] Xot: 31 Services → 25 (-6)
+<<<<<<< HEAD
 - [ ] App: Service→Action conversion
+=======
+- [ ] Fixcity: Service→Action conversion
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Altri moduli: Audit
 
 **Effort:** 1 mese  
@@ -376,7 +380,11 @@ abstract class BaseModel extends XotBaseModel  // ✅ Standard
 9. UI (7/10)
 10. Blog (7/10)
 11. Media (7/10)
+<<<<<<< HEAD
 12. App (6.5/10)
+=======
+12. Fixcity (6.5/10)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 13. Cms (6.5/10)
 14. Geo (6.5/10)
 
@@ -633,7 +641,11 @@ Modules/
 ├── Blog/docs/dry-kiss-analysis.md
 ├── Cms/docs/dry-kiss-analysis.md
 ├── Comment/docs/dry-kiss-analysis.md
+<<<<<<< HEAD
 ├── App/docs/dry-kiss-analysis.md
+=======
+├── Fixcity/docs/dry-kiss-analysis.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Gdpr/docs/dry-kiss-analysis.md
 ├── Geo/docs/dry-kiss-analysis.md
 ├── Job/docs/dry-kiss-analysis.md

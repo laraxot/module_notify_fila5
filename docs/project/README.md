@@ -26,7 +26,11 @@ related:
 
 ## 📋 Overview
 
+<<<<<<< HEAD
 This directory contains project-wide configuration and setup documentation for the Notify platform.
+=======
+This directory contains project-wide configuration and setup documentation for the FixCity platform.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -54,7 +58,11 @@ This directory contains project-wide configuration and setup documentation for t
 
 | File | Description | Category |
 |------|-------------|----------|
+<<<<<<< HEAD
 | [`vhost-configuration.md`](vhost-configuration.md) | **Apache vhost for laraxot.local** | 🌐 **VHost** |
+=======
+| [`vhost-configuration.md`](vhost-configuration.md) | **Apache vhost for fixcity.local** | 🌐 **VHost** |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Planning
 
@@ -72,8 +80,13 @@ This directory contains project-wide configuration and setup documentation for t
 | File | Description | Category |
 |------|-------------|----------|
 | [`philosophy.md`](philosophy.md) | Project philosophy | Guidelines |
+<<<<<<< HEAD
 | [`NOTIFY_IMPROVEMENT_PLAN.md`](NOTIFY_IMPROVEMENT_PLAN.md) | Improvement plan | Planning |
 | [`NOTIFY_IMPROVEMENT_START_HERE.md`](NOTIFY_IMPROVEMENT_START_HERE.md) | Where to start | Planning |
+=======
+| [`FIXCITY_IMPROVEMENT_PLAN.md`](FIXCITY_IMPROVEMENT_PLAN.md) | Improvement plan | Planning |
+| [`FIXCITY_IMPROVEMENT_START_HERE.md`](FIXCITY_IMPROVEMENT_START_HERE.md) | Where to start | Planning |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Integrations
 
@@ -88,24 +101,41 @@ This directory contains project-wide configuration and setup documentation for t
 
 ### Quick Reference
 
+<<<<<<< HEAD
 **Domain**: `laraxot.local`  
 **Document Root**: `public_html/`  
 **Configuration File**: [`../../laravel/config/vhost/laraxot.local.conf`](../../laravel/config/vhost/laraxot.local.conf)
+=======
+**Domain**: `fixcity.local`  
+**Document Root**: `public_html/`  
+**Configuration File**: [`../../laravel/config/vhost/fixcity.local.conf`](../../laravel/config/vhost/fixcity.local.conf)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Setup Steps
 
 ```bash
 # 1. Copy vhost config to Apache
+<<<<<<< HEAD
 sudo cp laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/
 
 # 2. Enable site
 sudo a2ensite laraxot.local.conf
+=======
+sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/
+
+# 2. Enable site
+sudo a2ensite fixcity.local.conf
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # 3. Reload Apache
 sudo systemctl reload apache2
 
 # 4. Update /etc/hosts
+<<<<<<< HEAD
 echo "127.0.0.1 laraxot.local" | sudo tee -a /etc/hosts
+=======
+echo "127.0.0.1 fixcity.local" | sudo tee -a /etc/hosts
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Full Documentation
@@ -164,8 +194,13 @@ echo "127.0.0.1 laraxot.local" | sudo tee -a /etc/hosts
 
 **Philosophy:**
 - [`philosophy.md`](philosophy.md)
+<<<<<<< HEAD
 - [`NOTIFY_IMPROVEMENT_PLAN.md`](NOTIFY_IMPROVEMENT_PLAN.md)
 - [`NOTIFY_IMPROVEMENT_START_HERE.md`](NOTIFY_IMPROVEMENT_START_HERE.md)
+=======
+- [`FIXCITY_IMPROVEMENT_PLAN.md`](FIXCITY_IMPROVEMENT_PLAN.md)
+- [`FIXCITY_IMPROVEMENT_START_HERE.md`](FIXCITY_IMPROVEMENT_START_HERE.md)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

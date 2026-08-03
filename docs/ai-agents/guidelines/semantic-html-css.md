@@ -320,7 +320,11 @@ Semantic HTML **REDUCES** need for ARIA:
 
 ## 📊 Examples from Our Project
 
+<<<<<<< HEAD
 ### Forecast Detail Page
+=======
+### Predict Detail Page
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```blade
 {{-- ❌ WRONG: Non-semantic --}}
@@ -336,12 +340,21 @@ Semantic HTML **REDUCES** need for ARIA:
 </div>
 
 {{-- ✅ CORRECT: Semantic --}}
+<<<<<<< HEAD
 <main class="forecast-detail-page">
   <article class="forecast-card">
     <header class="forecast-header">
       <h1 class="forecast-title">F1 Champion 2026</h1>
     </header>
     <section class="forecast-outcomes">
+=======
+<main class="predict-detail-page">
+  <article class="predict-card">
+    <header class="predict-header">
+      <h1 class="predict-title">F1 Champion 2026</h1>
+    </header>
+    <section class="predict-outcomes">
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
       <ul class="outcomes-list">
         <li class="outcome-item">
           <span class="outcome-name">Verstappen</span>

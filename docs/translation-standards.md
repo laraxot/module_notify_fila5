@@ -1,6 +1,10 @@
 # Standard per le Traduzioni 
 
+<<<<<<< HEAD
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di App, con particolare attenzione al modulo Notify.
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di Quaeris, con particolare attenzione al modulo Notify.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Struttura delle Cartelle
 

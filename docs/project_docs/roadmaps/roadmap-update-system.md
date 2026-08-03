@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🔄 SISTEMA AGGIORNAMENTO ROADMAP - NOTIFY PLATFORM
+=======
+# 🔄 SISTEMA AGGIORNAMENTO ROADMAP - FIXCITY PLATFORM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Versione**: 1.0  
 **Data Creazione**: Gennaio 2025  
@@ -20,7 +24,11 @@ project_docs/roadmaps/
 ├── roadmap-quality.md            # Roadmap qualità
 ├── roadmap-update-system.md      # Questo file
 └── modules/                      # Roadmap specifiche moduli
+<<<<<<< HEAD
     ├── laraxot-roadmap.md
+=======
+    ├── fixcity-roadmap.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     ├── user-roadmap.md
     ├── xot-roadmap.md
     ├── ui-roadmap.md
@@ -443,20 +451,32 @@ class ProgressReportGenerator
 
 ### Q2 2025
 - [ ] AI-powered insights
+<<<<<<< HEAD
 - [ ] Forecasting analytics
+=======
+- [ ] Predictive analytics
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Automated recommendations
 - [ ] Advanced reporting
 
 ### Q3 2025
 - [ ] Machine learning integration
 - [ ] Automated timeline optimization
+<<<<<<< HEAD
 - [ ] Risk forecast
+=======
+- [ ] Risk prediction
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Resource optimization
 
 ### Q4 2025
 - [ ] Full automation
 - [ ] Zero-touch updates
+<<<<<<< HEAD
 - [ ] Forecasting planning
+=======
+- [ ] Predictive planning
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Self-optimizing system
 
 ---
@@ -468,4 +488,8 @@ class ProgressReportGenerator
 
 ---
 
+<<<<<<< HEAD
 *Questo sistema garantisce l'aggiornamento costante e coerente di tutte le roadmap del progetto Notify.*
+=======
+*Questo sistema garantisce l'aggiornamento costante e coerente di tutte le roadmap del progetto FixCity.*
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

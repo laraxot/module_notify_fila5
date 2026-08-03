@@ -135,7 +135,11 @@ php artisan test
 
 ## Related
 
+<<<<<<< HEAD
 - **GitHub Issue**: https://github.com/laraxot/platform/issues/4
+=======
+- **GitHub Issue**: https://github.com/laraxot/base_fixcity_fila5/issues/4
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Laravel Directory Structure**: https://laravel.com/docs/structure
 
 ## Checklist

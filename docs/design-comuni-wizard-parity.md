@@ -4,7 +4,11 @@
 **Created**: 2026-04-14  
 **Last Updated**: 2026-04-14  
 **Category**: Frontend / Filament / Design Comuni  
+<<<<<<< HEAD
 **Module**: App  
+=======
+**Module**: Fixcity  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Theme**: Sixteen
 
 ---
@@ -62,27 +66,45 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati
 ## Implementazione Filament Widget
 
 ### PHP Widget
+<<<<<<< HEAD
 **File**: `Modules/App/app/Filament/Widgets/CreateTicketWizardWidget.php`
+=======
+**File**: `Modules/Fixcity/app/Filament/Widgets/CreateTicketWizardWidget.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```php
 public function getDataSchema(): array
 {
     return [
         // Sezione LUOGO
+<<<<<<< HEAD
         Section::make(__('laraxot::segnalazione.sections.place.label'))
             ->description(__('laraxot::segnalazione.sections.place.description'))
+=======
+        Section::make(__('fixcity::segnalazione.sections.place.label'))
+            ->description(__('fixcity::segnalazione.sections.place.description'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             ->aside()       // Sidebar heading style
             ->compact()     // Compact card style
             ->schema([...]),
 
         // Sezione DISSERVIZIO
+<<<<<<< HEAD
         Section::make(__('laraxot::segnalazione.sections.inefficiency.label'))
+=======
+        Section::make(__('fixcity::segnalazione.sections.inefficiency.label'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             ->compact()
             ->schema([...]),
 
         // Sezione AUTORE
+<<<<<<< HEAD
         Section::make(__('laraxot::segnalazione.sections.author.label'))
             ->description(__('laraxot::segnalazione.sections.author.description'))
+=======
+        Section::make(__('fixcity::segnalazione.sections.author.label'))
+            ->description(__('fixcity::segnalazione.sections.author.description'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             ->aside()
             ->compact()
             ->schema([...]),
@@ -91,7 +113,11 @@ public function getDataSchema(): array
 ```
 
 ### Blade View
+<<<<<<< HEAD
 **File**: `Modules/App/resources/views/filament/widgets/ticket-create-wizard.blade.php`
+=======
+**File**: `Modules/Fixcity/resources/views/filament/widgets/ticket-create-wizard.blade.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```blade
 <div class="segnalazione-wizard-root">
@@ -134,7 +160,11 @@ Stili custom per match Design Comuni:
 ---
 
 ## Traduzioni
+<<<<<<< HEAD
 **File**: `Modules/App/lang/it/segnalazione.php`
+=======
+**File**: `Modules/Fixcity/lang/it/segnalazione.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```php
 'sections' => [

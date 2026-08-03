@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "🎯 AZIONI IMMEDIATE - NOTIFY PLATFORM"
+=======
+title: "🎯 AZIONI IMMEDIATE - FIXCITY PLATFORM"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [immediate, actions, 2025, 27.deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "immediate-actions-2025-01-27.deprecated 🎯 azioni immediate - laraxot platform"
+=======
+qmd: "immediate-actions-2025-01-27.deprecated 🎯 azioni immediate - fixcity platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./code-quality-improvements-1.md"
 ---
 
+<<<<<<< HEAD
 # 🎯 AZIONI IMMEDIATE - NOTIFY PLATFORM
+=======
+# 🎯 AZIONI IMMEDIATE - FIXCITY PLATFORM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 27 Gennaio 2025  
 **Priorità**: CRITICAL  
@@ -32,7 +44,11 @@ related:
 **Status**: 0% - **BLOCCANTE PER PRODUZIONE**
 
 #### Azioni Immediate
+<<<<<<< HEAD
 - [ ] **Week 1**: Implementare test per moduli core (Xot, User, App)
+=======
+- [ ] **Week 1**: Implementare test per moduli core (Xot, User, Fixcity)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] **Week 2**: Implementare test per moduli support (UI, Geo, Media, Notify)
 - [ ] **Week 3**: Implementare test per moduli features (Comment, Rating, Activity)
 - [ ] **Week 4**: Implementare test per moduli enterprise (Tenant, Seo, Job, AI)
@@ -43,7 +59,11 @@ related:
 - **Q3 2025**: Test coverage > 90%
 
 ### 2. API Development Completion (HIGH)
+<<<<<<< HEAD
 **Status**: 45% - **NOTIFY MODULE**
+=======
+**Status**: 45% - **FIXCITY MODULE**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 #### Azioni Immediate
 - [ ] **Week 1**: Completare RESTful endpoints
@@ -56,7 +76,11 @@ related:
 - **Q2 2025**: API v2 with advanced features
 
 ### 3. Mobile Optimization (HIGH)
+<<<<<<< HEAD
 **Status**: 55% - **NOTIFY MODULE**
+=======
+**Status**: 55% - **FIXCITY MODULE**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 #### Azioni Immediate
 - [ ] **Week 1**: Audit mobile interface
@@ -89,11 +113,19 @@ related:
 - [ ] **Lunedì**: Setup test environment per moduli core
 - [ ] **Martedì**: Implementare test unitari per Xot module
 - [ ] **Mercoledì**: Implementare test unitari per User module
+<<<<<<< HEAD
 - [ ] **Giovedì**: Implementare test unitari per App module
 - [ ] **Venerdì**: Implementare test feature per moduli core
 
 ### Week 2: API & Mobile (3-9 Feb)
 - [ ] **Lunedì**: Completare API endpoints App
+=======
+- [ ] **Giovedì**: Implementare test unitari per Fixcity module
+- [ ] **Venerdì**: Implementare test feature per moduli core
+
+### Week 2: API & Mobile (3-9 Feb)
+- [ ] **Lunedì**: Completare API endpoints Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] **Martedì**: Implementare autenticazione API
 - [ ] **Mercoledì**: Audit mobile interface
 - [ ] **Giovedì**: Implementare responsive improvements
@@ -246,7 +278,11 @@ related:
 
 ---
 
+<<<<<<< HEAD
 *Questo documento definisce le azioni immediate per completare il progetto Notify Platform nei prossimi 30 giorni.*
+=======
+*Questo documento definisce le azioni immediate per completare il progetto FixCity Platform nei prossimi 30 giorni.*
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 
 

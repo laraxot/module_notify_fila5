@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Notifiche Telegram
 
 Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di <nome progetto>.
+=======
+# Notifiche Telegram 
+
+Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di SaluteOra.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Indice
 
@@ -15,7 +21,11 @@ Questa documentazione descrive come implementare notifiche Telegram nel modulo N
 
 ## Introduzione
 
+<<<<<<< HEAD
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. <nome progetto> integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
+=======
+Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. SaluteOra integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Setup del Bot Telegram
 
@@ -28,17 +38,28 @@ Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua AP
 
 ### Funzionalità del Bot
 
+<<<<<<< HEAD
 Il bot di <nome progetto> deve avere:
 - Privacy Mode disattivata (per leggere messaggi nei gruppi)
 - Comandi personalizzati configurati
 - Immagine del profilo con logo <nome progetto>
+=======
+Il bot di SaluteOra deve avere:
+- Privacy Mode disattivata (per leggere messaggi nei gruppi)
+- Comandi personalizzati configurati
+- Immagine del profilo con logo SaluteOra
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Comandi Consigliati
 
 Configura i seguenti comandi per il tuo bot:
 ```
 start - Inizia l'interazione con il bot
+<<<<<<< HEAD
 register - Collega il tuo account Telegram a <nome progetto>
+=======
+register - Collega il tuo account Telegram a SaluteOra
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 unregister - Scollega il tuo account Telegram
 settings - Gestisci le tue preferenze di notifica
 help - Ottieni assistenza
@@ -82,21 +103,37 @@ use NotificationChannels\Telegram\TelegramMessage;
 class AppointmentNotification extends Notification
 {
     protected $appointment;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct($appointment)
     {
         $this->appointment = $appointment;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function via($notifiable)
     {
         return [TelegramChannel::class];
     }
+<<<<<<< HEAD
 
     public function toTelegram($notifiable)
     {
         $url = url("/appointments/{$this->appointment->id}");
 
+=======
+    
+    public function toTelegram($notifiable)
+    {
+        $url = url("/appointments/{$this->appointment->id}");
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return TelegramMessage::create()
             ->content("**Promemoria Appuntamento**\n\nHai un appuntamento il {$this->appointment->formatted_date} alle {$this->appointment->formatted_time} con il Dr. {$this->appointment->doctor->name}.")
             ->button('Visualizza Dettagli', $url)
@@ -135,7 +172,11 @@ public function toTelegram($notifiable)
 public function toTelegram($notifiable)
 {
     $appointmentId = $this->appointment->id;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     return TelegramMessage::create()
         ->content("Confermi l'appuntamento del {$this->appointment->formatted_date}?")
         ->buttonWithCallback('Conferma', "confirm_appointment_{$appointmentId}")
@@ -159,10 +200,17 @@ public function toTelegram($notifiable)
 
 ### Collegamento Account Telegram
 
+<<<<<<< HEAD
 Per collegare un account Telegram a un utente <nome progetto>:
 
 1. Implementa un comando `/register` nel bot che generi un token univoco.
 2. L'utente inserisce questo token nel proprio profilo nell'app <nome progetto>.
+=======
+Per collegare un account Telegram a un utente SaluteOra:
+
+1. Implementa un comando `/register` nel bot che generi un token univoco.
+2. L'utente inserisce questo token nel proprio profilo nell'app SaluteOra.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 3. Salva il `chat_id` Telegram dell'utente nel database.
 
 ```php
@@ -175,22 +223,37 @@ use Modules\Notify\Models\TelegramToken;
 class RegisterCommand extends Command
 {
     protected $name = 'register';
+<<<<<<< HEAD
     protected $description = 'Collega il tuo account Telegram a <nome progetto>';
 
+=======
+    protected $description = 'Collega il tuo account Telegram a SaluteOra';
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function handle()
     {
         $chatId = $this->update->getMessage()->getChat()->getId();
         $token = Str::random(8);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Salva il token temporaneo
         TelegramToken::create([
             'token' => $token,
             'chat_id' => $chatId,
             'expires_at' => now()->addHours(1),
         ]);
+<<<<<<< HEAD
 
         $this->replyWithMessage([
             'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo <nome progetto> per completare il collegamento."
+=======
+        
+        $this->replyWithMessage([
+            'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo SaluteOra per completare il collegamento."
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         ]);
     }
 }
@@ -210,11 +273,16 @@ class VerifyTelegramToken
     public function handle(Request $request, Closure $next)
     {
         $token = $request->input('token');
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         $telegramToken = TelegramToken::where('token', $token)
             ->where('expires_at', '>', now())
             ->whereNull('user_id')
             ->first();
+<<<<<<< HEAD
 
         if (!$telegramToken) {
             return response()->json(['error' => 'Token non valido o scaduto'], 400);
@@ -222,6 +290,15 @@ class VerifyTelegramToken
 
         $request->merge(['telegram_token' => $telegramToken]);
 
+=======
+        
+        if (!$telegramToken) {
+            return response()->json(['error' => 'Token non valido o scaduto'], 400);
+        }
+        
+        $request->merge(['telegram_token' => $telegramToken]);
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return $next($request);
     }
 }
@@ -248,16 +325,28 @@ class TelegramNotificationTest extends TestCase
     {
         $user = User::factory()->create(['telegram_chat_id' => '123456789']);
         $appointment = Appointment::factory()->create();
+<<<<<<< HEAD
 
         $notification = new AppointmentNotification($appointment);
 
         $telegramMessage = $notification->toTelegram($user);
 
+=======
+        
+        $notification = new AppointmentNotification($appointment);
+        
+        $telegramMessage = $notification->toTelegram($user);
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         $this->assertStringContainsString(
             $appointment->formatted_date,
             $telegramMessage->content
         );
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         $this->assertCount(2, $telegramMessage->buttons);
     }
 }

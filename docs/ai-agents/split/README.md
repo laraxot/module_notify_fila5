@@ -19,7 +19,11 @@ related:
 ---
 # AI Assistant Documentation
 
+<<<<<<< HEAD
 **Purpose**: Centralized documentation for all AI assistants used in the Notify project  
+=======
+**Purpose**: Centralized documentation for all AI assistants used in the FixCity project  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Last Updated**: 2026-04-11  
 
 ---

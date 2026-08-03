@@ -69,7 +69,11 @@ ls -la ~/.claude/skills/notebooklm/
 "Add [LINK] to my NotebookLM library"
 
 # 4. Query
+<<<<<<< HEAD
 "Ask my Notify docs about theme configuration"
+=======
+"Ask my FixCity docs about theme configuration"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Documentazione
@@ -365,7 +369,11 @@ claude
 "Add [LINK] to my NotebookLM library"
 
 # 5. Query
+<<<<<<< HEAD
 "What does Notify documentation say?"
+=======
+"What does FixCity documentation say?"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Kilo
@@ -430,7 +438,11 @@ openviking search "theme"
 1. **.planning/project.md** - Project overview
 2. **.planning/config.json** - 16-week roadmap
 3. **.planning/THEME_CONTEXT.md** - Theme configuration
+<<<<<<< HEAD
 4. **laraxot-improvement-plan.md** - Improvement plan
+=======
+4. **fixcity-improvement-plan.md** - Improvement plan
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Module & Theme Docs
 
@@ -503,7 +515,11 @@ openviking search "theme"
 
 ### This Week
 
+<<<<<<< HEAD
 1. [ ] Index all Notify docs in NotebookLM
+=======
+1. [ ] Index all FixCity docs in NotebookLM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. [ ] Test BMAD + GSD + Ralph workflow
 3. [ ] Create custom Kilo plugins
 4. [ ] Document best practices from usage

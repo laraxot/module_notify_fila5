@@ -322,5 +322,10 @@ If you find incorrect directory names:
 
 ---
 
+<<<<<<< HEAD
 **Maintainer**: Notify Dev Team  
 **Contact**: dev @laraxot.example.com
+=======
+**Maintainer**: FixCity Dev Team  
+**Contact**: dev @fixcity.example.com
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

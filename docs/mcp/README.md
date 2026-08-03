@@ -21,7 +21,11 @@ related:
 
 > **Last Updated**: 2026-03-13  
 > **Status**: 🔄 In Progress  
+<<<<<<< HEAD
 > **Repository**: Notify Platform
+=======
+> **Repository**: FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -324,5 +328,9 @@ To contribute to MCP configuration:
 ---
 
 **Maintainer**: @marco76tv  
+<<<<<<< HEAD
 **Contact**: dev @laraxot.example.com  
+=======
+**Contact**: dev @fixcity.example.com  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Last Tested**: 2026-03-13

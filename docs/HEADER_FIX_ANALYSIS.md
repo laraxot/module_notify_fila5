@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 📸 Header Notify vs Bootstrap Italia - Analisi e Fix
+=======
+# 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Data: 2026-03-31
 ## Problema: Header non conforme al reference
@@ -9,6 +13,7 @@
 
 ### 1. Logo non visibile ❌
 **Reference**: Logo PA visibile (80x80px)  
+<<<<<<< HEAD
 **Notify**: Logo mancante o non visibile
 
 ### 2. Nome del Comune non leggibile ❌
@@ -18,6 +23,17 @@
 ### 3. Slogan non leggibile ❌
 **Reference**: "Un comune da vivere" - text-base text-gray-600  
 **Notify**: Slogan mancante o illeggibile
+=======
+**FixCity**: Logo mancante o non visibile
+
+### 2. Nome del Comune non leggibile ❌
+**Reference**: "NOME DEL COMUNE" - text-2xl/3xl font-bold  
+**FixCity**: Testo troppo piccolo o colore errato
+
+### 3. Slogan non leggibile ❌
+**Reference**: "Un comune da vivere" - text-base text-gray-600  
+**FixCity**: Slogan mancante o illeggibile
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 4. Colori diversi ❌
 **Reference**: 
@@ -25,7 +41,11 @@
 - Text: `#FFFFFF` (White)
 - Hover: `#0066CC` on gray
 
+<<<<<<< HEAD
 **Notify**: Colori CSS variables non corretti
+=======
+**FixCity**: Colori CSS variables non corretti
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 5. Spaziature diverse ❌
 **Reference**:
@@ -33,7 +53,11 @@
 - Main header: `py-6` (24px)
 - Nav: `py-3` (12px)
 
+<<<<<<< HEAD
 **Notify**: Spaziature non conformi
+=======
+**FixCity**: Spaziature non conformi
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -100,7 +124,11 @@
 
 ## 📊 Conformità Raggiunta
 
+<<<<<<< HEAD
 | Elemento | Reference | Notify | Status |
+=======
+| Elemento | Reference | FixCity | Status |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 |----------|-----------|---------|--------|
 | Top bar color | `#0066CC` | `#0066CC` | ✅ |
 | Logo visible | 80x80px | 80x80px | ✅ |

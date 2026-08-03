@@ -114,7 +114,11 @@ composer show livewire/livewire
 ### 1. Clear Cache
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 php artisan config:clear
 php artisan cache:clear
 php artisan view:clear
@@ -125,10 +129,17 @@ php artisan route:clear
 
 ```bash
 # Test homepage
+<<<<<<< HEAD
 http://laraxot.local/it/tests/homepage
 
 # Test Filament admin
 http://laraxot.local/admin
+=======
+http://fixcity.local/it/tests/homepage
+
+# Test Filament admin
+http://fixcity.local/admin
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### 3. Check for Breaking Changes

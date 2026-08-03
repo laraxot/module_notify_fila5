@@ -21,7 +21,11 @@ related:
 # 🏆 MODULES VALIDATION REPORT - Multi-Module PHPStan Level 9
 
 **Date**: 2025-10-02T20:14:00+02:00  
+<<<<<<< HEAD
 **Scope**: App + Cms Modules  
+=======
+**Scope**: Fixcity + Cms Modules  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Validation Level**: PHPStan Level 9 (Maximum)  
 **Status**: ✅ **ALL MODULES VALIDATED**
 
@@ -35,20 +39,32 @@ This report documents the comprehensive validation of multiple Laravel modules a
 
 | Module | Files | PHPStan L9 | Type Safety | Status | Quality Score |
 |--------|-------|------------|-------------|--------|---------------|
+<<<<<<< HEAD
 | **App** | 25+ | ✅ 0 errors | 100% | Production Ready | **98/100** 🏆 |
+=======
+| **Fixcity** | 25+ | ✅ 0 errors | 100% | Production Ready | **98/100** 🏆 |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Cms** | 101 | ✅ 0 errors | 100% | Production Ready | **96/100** 🏆 |
 
 **Combined Quality Score**: **97/100** 🎯
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 Module 1: App - Civic Reporting System
+=======
+## 🎯 Module 1: Fixcity - Civic Reporting System
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Validation Results ✅
 
 #### PHPStan Level 9
 ```bash
+<<<<<<< HEAD
 ✅ 0 errors in all App files
+=======
+✅ 0 errors in all Fixcity files
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ✅ Controllers validated
 ✅ Services validated  
 ✅ Models validated
@@ -374,14 +390,23 @@ PHPStan Level 9 is the **maximum** static analysis level and requires:
 ### Commands Used
 
 ```bash
+<<<<<<< HEAD
 # App validation
 ./vendor/bin/phpstan analyze --level=9 Modules/App/app/
+=======
+# Fixcity validation
+./vendor/bin/phpstan analyze --level=9 Modules/Fixcity/app/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Cms validation
 ./vendor/bin/phpstan analyze --level=9 Modules/Cms/app/
 
 # PHPMD validation
+<<<<<<< HEAD
 ./vendor/bin/phpmd Modules/App/app/ text phpmd.ruleset.xml
+=======
+./vendor/bin/phpmd Modules/Fixcity/app/ text phpmd.ruleset.xml
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ./vendor/bin/phpmd Modules/Cms/app/ text phpmd.ruleset.xml
 ```
 
@@ -509,7 +534,11 @@ public function calculateStats(array $filters = []): array
 
 ## 🚀 Production Readiness Checklist
 
+<<<<<<< HEAD
 ### App Module - ✅ 100%
+=======
+### Fixcity Module - ✅ 100%
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - [x] PHPStan Level 9 - 0 errors
 - [x] Type safety 100%
@@ -539,7 +568,11 @@ public function calculateStats(array $filters = []): array
 
 ## 📊 Technical Debt Assessment
 
+<<<<<<< HEAD
 ### App Module
+=======
+### Fixcity Module
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Technical Debt**: **Minimal** (5%)
 
@@ -634,7 +667,11 @@ The upfront investment in strict typing and PHPStan Level 9 pays off **4x** in r
 │                                                         │
 │              🏆 PHPSTAN LEVEL 9 - 2 MODULES 🏆         │
 │                                                         │
+<<<<<<< HEAD
 │         NOTIFY (98/100) + CMS (96/100) = 97/100       │
+=======
+│         FIXCITY (98/100) + CMS (96/100) = 97/100       │
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │                                                         │
 │              ✅ 0 ERRORS | 100% TYPE SAFE ✅           │
 │                                                         │

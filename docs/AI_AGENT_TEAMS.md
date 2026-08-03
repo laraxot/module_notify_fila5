@@ -8,7 +8,11 @@
 
 ## 🎯 Why Agent Teams?
 
+<<<<<<< HEAD
 Multiple AI agents (Qwen, Claude, Cursor, etc.) are working on the same Notify platform. Without coordination:
+=======
+Multiple AI agents (Qwen, Claude, Cursor, etc.) are working on the same FixCity platform. Without coordination:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ❌ Duplicate work
 - ❌ Conflicting changes
 - ❌ Wasted effort

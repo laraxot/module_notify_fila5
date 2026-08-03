@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "📚 Indice Generale Documentazione - App"
+=======
+title: "📚 Indice Generale Documentazione - Fixcity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [documentation, index]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "documentation-index 📚 indice generale documentazione - laraxot"
+=======
+qmd: "documentation-index 📚 indice generale documentazione - fixcity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 📚 Indice Generale Documentazione - App
+=======
+# 📚 Indice Generale Documentazione - Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > **Navigazione Completa della Documentazione del Progetto**
 
@@ -88,8 +100,13 @@ related:
 
 ### Moduli Business
 
+<<<<<<< HEAD
 #### **App Module** - Ticketing System
 - [README](../laravel/Modules/App/docs/README.md) - Gestione ticket
+=======
+#### **Fixcity Module** - Ticketing System
+- [README](../laravel/Modules/Fixcity/docs/README.md) - Gestione ticket
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - File docs: 38 files
 - **Funzionalità**: Ticket, segnalazioni, supporto
 - **Status**: ✅ Operativo (Filament 4.x)
@@ -296,8 +313,13 @@ related:
 ## 📞 Support & Community
 
 ### Support Channels
+<<<<<<< HEAD
 - **📧 Email**: support@laraxot.com
 - **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/laraxot/issues)
+=======
+- **📧 Email**: support@fixcity.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **💬 Discord**: [Laraxot Community](https://discord.gg/laraxot)
 - **📚 Docs**: [Documentation Portal](https://docs.laraxot.com)
 

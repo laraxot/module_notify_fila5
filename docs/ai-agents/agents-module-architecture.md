@@ -4,7 +4,11 @@ Regole di architettura modulare per il progetto.
 
 ## Modulo Agnosticism - REGOLA FONDAMENTALE
 
+<<<<<<< HEAD
 **Il modulo Forecast (e tutti i moduli) devono essere AGONISTICI!**
+=======
+**Il modulo Predict (e tutti i moduli) devono essere AGONISTICI!**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Non usare MAI dipendenze hardcoded come `Modules\Blog\Models\User`. Usa sempre `XotData`:
 

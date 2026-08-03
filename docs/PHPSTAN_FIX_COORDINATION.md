@@ -1,6 +1,10 @@
 # PHPStan Fix Coordination Plan
 
+<<<<<<< HEAD
 **Project:** Base Notify Fila5  
+=======
+**Project:** Base FixCity Fila5  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Date:** April 1, 2026  
 **Method:** BMAD-METHOD with Multi-Agent Collaboration
 
@@ -11,10 +15,17 @@ This document coordinates the PHPStan Level Max fix effort across all Laravel mo
 ## Current Status
 
 ### Analysis Complete (Batch 1)
+<<<<<<< HEAD
 - ✅ **Modules Analyzed:** Activity, AI, Blog, Cms, Comment, App, Gdpr
 - ✅ **Total Errors:** 13 errors
 - ✅ **Modules Affected:** Blog (4), Cms (9)
 - ✅ **Clean Modules:** Activity, AI, Comment, App, Gdpr
+=======
+- ✅ **Modules Analyzed:** Activity, AI, Blog, Cms, Comment, Fixcity, Gdpr
+- ✅ **Total Errors:** 13 errors
+- ✅ **Modules Affected:** Blog (4), Cms (9)
+- ✅ **Clean Modules:** Activity, AI, Comment, Fixcity, Gdpr
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Analysis Pending (Batch 2)
 - ⏳ **Modules:** Geo, Job, Lang, Media, Notify, Rating, Seo, Tenant, UI, User, Xot
@@ -136,7 +147,11 @@ After each fix batch, run:
 | Blog | 4 → 0 | ✅ Fixed | AI Agent | AI Agent | 2026-04-01 |
 | Cms | 9 → 0 | ✅ Fixed | AI Agent | AI Agent | 2026-04-01 |
 | Comment | 0 | ✅ Clean | - | - | 2026-04-01 |
+<<<<<<< HEAD
 | App | 0 | ✅ Clean | - | - | 2026-04-01 |
+=======
+| Fixcity | 0 | ✅ Clean | - | - | 2026-04-01 |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | Gdpr | 0 | ✅ Clean | - | - | 2026-04-01 |
 | Geo | ? | ⏳ Analyzing | - | - | - |
 | Job | ? | ⏳ Analyzing | - | - | - |

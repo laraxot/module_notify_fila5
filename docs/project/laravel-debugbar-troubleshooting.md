@@ -198,7 +198,11 @@ php artisan debugbar:clear
 
 ### 4. Test in Browser
 
+<<<<<<< HEAD
 1. Navigate to `http://laraxot.local` (or your local URL)
+=======
+1. Navigate to `http://fixcity.local` (or your local URL)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. Debugbar should appear at the bottom of the page
 3. Check browser console for any CSP errors
 

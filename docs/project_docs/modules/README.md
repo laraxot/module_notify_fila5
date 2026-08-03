@@ -204,8 +204,13 @@ Modulo per l'intelligenza artificiale.
 - Chatbots
 - Automation
 
+<<<<<<< HEAD
 ### laraxot/
 Modulo specifico per Notify.
+=======
+### fixcity/
+Modulo specifico per FixCity.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Contenuti:**
 - Business logic

@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "📊 NOTIFY - RIEPILOGO FINALE COMPLETAMENTO"
+=======
+title: "📊 FIXCITY - RIEPILOGO FINALE COMPLETAMENTO"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [final, summary]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "final-summary 📊 laraxot - riepilogo finale completamento"
+=======
+qmd: "final-summary 📊 fixcity - riepilogo finale completamento"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 📊 NOTIFY - RIEPILOGO FINALE COMPLETAMENTO
+=======
+# 📊 FIXCITY - RIEPILOGO FINALE COMPLETAMENTO
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data Completamento**: 2025-10-01  
 **Sessione**: Aggiornamento Roadmap & Documentazione Completa  
@@ -28,7 +40,11 @@ related:
 
 ## 🎯 OBIETTIVO RAGGIUNTO
 
+<<<<<<< HEAD
 Completamento sistematico della documentazione e delle roadmap del progetto Notify per renderlo la piattaforma
+=======
+Completamento sistematico della documentazione e delle roadmap del progetto FixCity per renderlo la piattaforma
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ---
@@ -43,7 +59,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 5. ✅ **excellence-2025.md** - Visione eccellenza e obiettivi
 6. ✅ **WORK-COMPLETED-.md.md** - Riepilogo tecnico aggiornamenti
 
+<<<<<<< HEAD
 ### 🎫 Modulo App (4)
+=======
+### 🎫 Modulo Fixcity (4)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 7. ✅ **API.md** - REST API completa (15+ endpoints, auth, examples)
 8. ✅ **USER_GUIDE.md** - Guida cittadini (15 sezioni, FAQ, best practices)
 9. ✅ **ADMIN_GUIDE.md** - Guida amministratori (18 sezioni, troubleshooting)
@@ -89,7 +109,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ## 🎯 MODULI AGGIORNATI
 
 ### ✅ Completati al 90%+
+<<<<<<< HEAD
 1. **App** - 85% → **90%**
+=======
+1. **Fixcity** - 85% → **90%**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    - API documentation completa
    - User guide completa
    - Admin guide completa
@@ -120,7 +144,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ## 🏗️ STRUTTURA DOCUMENTAZIONE FINALE
 
 ```
+<<<<<<< HEAD
 base_ptvx_fila5_mono/
+=======
+base_fixcity_fila5_mono/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │
 ├── 📊 ROOT LEVEL (11 docs strategici)
 │   ├── documentation-index.md          ✅ Indice generale
@@ -137,7 +165,11 @@ base_ptvx_fila5_mono/
 │
 └── 📁 laravel/
     │
+<<<<<<< HEAD
     ├── Modules/App/docs/           ✅ 90% COMPLETO
+=======
+    ├── Modules/Fixcity/docs/           ✅ 90% COMPLETO
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     │   ├── README.md                   ✅ Completo
     │   ├── ROADMAP_2025.md             ✅ Aggiornato
     │   ├── API.md                      ✅ NEW - Completo
@@ -174,14 +206,22 @@ base_ptvx_fila5_mono/
 ## 🎓 CONTENUTI DOCUMENTAZIONE
 
 ### Guide Utente (2)
+<<<<<<< HEAD
 - ✅ **USER_GUIDE.md** (App) - 15 sezioni
+=======
+- ✅ **USER_GUIDE.md** (Fixcity) - 15 sezioni
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - Registrazione e login
   - Creare segnalazioni
   - Seguire segnalazioni
   - Dashboard personale
   - FAQ e troubleshooting
 
+<<<<<<< HEAD
 - ✅ **ADMIN_GUIDE.md** (App) - 18 sezioni
+=======
+- ✅ **ADMIN_GUIDE.md** (Fixcity) - 18 sezioni
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - Gestione segnalazioni
   - Gestione utenti
   - Configurazione sistema
@@ -203,7 +243,11 @@ base_ptvx_fila5_mono/
   - Testing
 
 ### API Documentation (1)
+<<<<<<< HEAD
 - ✅ **API.md** (App) - REST API completa
+=======
+- ✅ **API.md** (Fixcity) - REST API completa
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - 15+ endpoints documentati
   - Authentication (Sanctum)
   - Rate limiting
@@ -212,7 +256,11 @@ base_ptvx_fila5_mono/
 
 ### Roadmap (4 aggiornate)
 - ✅ **roadmap-status-summary.md** - Master status
+<<<<<<< HEAD
 - ✅ **App/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
+=======
+- ✅ **Fixcity/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ **User/roadmap.md** - Timeline Q4 2025-Q1 2026
 - ✅ **Sixteen/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
 
@@ -292,6 +340,7 @@ base_ptvx_fila5_mono/
 ### Per Sviluppatori
 - **Quick Start**: [quick-start.md](./quick-start.md)
 - **Documentation Index**: [documentation-index.md](./documentation-index.md)
+<<<<<<< HEAD
 - **Slack**: #laraxot-dev
 
 ### Per Utenti
@@ -301,6 +350,17 @@ base_ptvx_fila5_mono/
 
 ### Per API Developers
 - **API Documentation**: [API.md](./laravel/Modules/App/docs/API.md)
+=======
+- **Slack**: #fixcity-dev
+
+### Per Utenti
+- **User Guide**: [USER_GUIDE.md](./laravel/Modules/Fixcity/docs/USER_GUIDE.md)
+- **Admin Guide**: [ADMIN_GUIDE.md](./laravel/Modules/Fixcity/docs/ADMIN_GUIDE.md)
+- **Support**: support@fixcity.it
+
+### Per API Developers
+- **API Documentation**: [API.md](./laravel/Modules/Fixcity/docs/API.md)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **2FA Guide**: [2FA_GUIDE.md](./laravel/Modules/User/docs/2FA_GUIDE.md)
 - **SSO Guide**: [SSO_GUIDE.md](./laravel/Modules/User/docs/SSO_GUIDE.md)
 
@@ -308,7 +368,11 @@ base_ptvx_fila5_mono/
 
 ## 🎉 CONCLUSIONE
 
+<<<<<<< HEAD
 Il progetto Notify ha raggiunto un livello di documentazione e organizzazione eccellente:
+=======
+Il progetto FixCity ha raggiunto un livello di documentazione e organizzazione eccellente:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ✅ **15 documenti** creati/aggiornati  
 ✅ **400+ pagine** di documentazione  
@@ -331,7 +395,11 @@ Il progetto Notify ha raggiunto un livello di documentazione e organizzazione ec
 - [x] excellence-2025.md creato
 - [x] project-completion-status.md creato
 
+<<<<<<< HEAD
 ### Modulo App
+=======
+### Modulo Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [x] API.md creato
 - [x] USER_GUIDE.md creato
 - [x] ADMIN_GUIDE.md creato
@@ -398,10 +466,17 @@ php artisan test --coverage
 
 ## 📞 CONTATTI
 
+<<<<<<< HEAD
 **Team Notify**
 - Email: dev@laraxot.it
 - Slack: #laraxot-dev
 - GitHub: github.com/laraxot/laraxot
+=======
+**Team FixCity**
+- Email: dev@fixcity.it
+- Slack: #fixcity-dev
+- GitHub: github.com/laraxot/fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -414,6 +489,12 @@ php artisan test --coverage
 
 ---
 
+<<<<<<< HEAD
 *"La documentazione è il fondamento dell'eccellenza. Oggi abbiamo costruito solide fondamenta per il successo di Notify nel 2025 e oltre."* 🏆
 
 **#Notify2025 #Documentation #Excellence #OpenSource**
+=======
+*"La documentazione è il fondamento dell'eccellenza. Oggi abbiamo costruito solide fondamenta per il successo di FixCity nel 2025 e oltre."* 🏆
+
+**#FixCity2025 #Documentation #Excellence #OpenSource**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

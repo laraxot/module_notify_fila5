@@ -108,7 +108,11 @@ Filament is designed to **work with Eloquent**.
 ```blade
 {{-- Manual query in blade --}}
 @php
+<<<<<<< HEAD
     $items = DB::table('forecasts')
+=======
+    $items = DB::table('predicts')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         ->where('status', 'active')
         ->orderBy('created_at', 'desc')
         ->paginate(10);
@@ -125,7 +129,11 @@ Filament is designed to **work with Eloquent**.
 public function table(Table $table): Table
 {
     return $table
+<<<<<<< HEAD
         ->query(Forecast::query()->where('status', 'active'))
+=======
+        ->query(Predict::query()->where('status', 'active'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         ->columns([
             TextColumn::make('title')->sortable()->searchable(),
         ])

@@ -211,13 +211,21 @@ Tutti i modelli attivi hanno le factory corrispondenti.
 ### Integrazione Business Logic
 
 #### <nome progetto> Integration
+<<<<<<< HEAD
 #### <nome progetto> Integration
+=======
+#### SaluteOra Integration
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Appointment Reminders**: Promemoria appuntamenti
 - **Report Notifications**: Notifiche nuovi referti
 - **Emergency Alerts**: Allerte mediche urgenti
 - **Prescription Reminders**: Promemoria farmaci
 
+<<<<<<< HEAD
 #### User Integration
+=======
+#### User Integration  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Welcome Messages**: Messaggi benvenuto
 - **Password Reset**: Email reset password
 - **Account Verification**: Verifiche account
@@ -261,7 +269,11 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 
 ### Moduli Collegati
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
+<<<<<<< HEAD
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
+=======
+- [SaluteOra Module](../../SaluteOra/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [User Module](../../User/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
 - [Media Module](../../Media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
 - [Lang Module](../../Lang/docs/modelli_factory_seeder_analisi.md) - Localizzazione

@@ -28,7 +28,11 @@ related:
 
 ## 🎯 EXECUTIVE SUMMARY
 
+<<<<<<< HEAD
 Stato della documentazione del progetto Notify aggiornato a Ottobre 2025. La documentazione è in fase di
+=======
+Stato della documentazione del progetto FixCity aggiornato a Ottobre 2025. La documentazione è in fase di
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 consolidamento seguendo le roadmap definite. Focus attuale: completamento documentazione moduli e temi.
 
 ---
@@ -52,7 +56,11 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 
 ---
 
+<<<<<<< HEAD
 #### ✅ App (Core Business) - 85% COMPLETATO
+=======
+#### ✅ Fixcity (Core Business) - 85% COMPLETATO
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Documentazione Presente**:
 - [x] README.md completo
 - [x] roadmap.md
@@ -359,7 +367,11 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 ## 🎯 PRIORITÀ IMMEDIATE (Next 30 Days)
 
 ### Week 1-2: Moduli Core
+<<<<<<< HEAD
 - [ ] Completare API documentation App
+=======
+- [ ] Completare API documentation Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Completare User guide 2FA/SSO
 - [ ] Aggiornare Xot migration guide
 
@@ -415,7 +427,11 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 - [Roadmap Documentation](./roadmaps/roadmap-documentation.md)
 
 ### Documentazione Moduli
+<<<<<<< HEAD
 - [App Module](../laravel/Modules/App/docs/)
+=======
+- [Fixcity Module](../laravel/Modules/Fixcity/docs/)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [User Module](../laravel/Modules/User/docs/)
 - [Xot Module](../laravel/Modules/Xot/docs/)
 - [UI Module](../laravel/Modules/UI/docs/)

@@ -19,7 +19,11 @@ related:
 ---
 # AI Agents Documentation Index
 
+<<<<<<< HEAD
 **Project**: Notify Platform  
+=======
+**Project**: FixCity Platform  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Purpose**: Centralized documentation for all AI assistant configurations  
 **Last Updated**: 2026-04-11  
 
@@ -27,7 +31,11 @@ related:
 
 ## Overview
 
+<<<<<<< HEAD
 This directory contains split documentation files for AI assistants used in the Notify project. Each file is focused on a specific area to improve readability and maintainability.
+=======
+This directory contains split documentation files for AI assistants used in the FixCity project. Each file is focused on a specific area to improve readability and maintainability.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Original Files** (kept for backward compatibility):
 - [`AGENTS.md`](../../../../AGENTS.md) — 5349 lines, comprehensive BMad agents + tasks

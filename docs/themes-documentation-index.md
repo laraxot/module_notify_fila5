@@ -193,7 +193,11 @@ TIER 4-5 - Specialized
 ```json
 {
   "type": "hero",
+<<<<<<< HEAD
   "title": "Welcome to Notify",
+=======
+  "title": "Welcome to FixCity",
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   "subtitle": "Manage your city, digitally",
   "image": "https://...",
   "cta": {
@@ -247,7 +251,11 @@ Request: GET /it/tests/homepage
    @mount('tests.homepage')
    
 4. Middleware loads JSON:
+<<<<<<< HEAD
    config/local/laraxot/database/content/pages/homepage.json
+=======
+   config/local/fixcity/database/content/pages/homepage.json
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 5. Data passed to view:
    @props('content' => $content)
@@ -401,13 +409,22 @@ Integrates with:
 
 **Via .env:**
 ```bash
+<<<<<<< HEAD
 APP_URL=http://laraxot.local
 # Theme detected from APP_URL → laraxot → Sixteen (or override via config)
+=======
+APP_URL=http://fixcity.local
+# Theme detected from APP_URL → fixcity → Sixteen (or override via config)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Via Config:**
 ```php
+<<<<<<< HEAD
 // laravel/config/local/laraxot/xra.php
+=======
+// laravel/config/local/fixcity/xra.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 'pub_theme' => 'Sixteen',  // or 'TwentyOne'
 ```
 

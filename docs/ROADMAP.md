@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🗺️ Notify Design System - Product Roadmap
+=======
+# 🗺️ FixCity Design System - Product Roadmap
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > **Central hub consolidating 355+ scattered planning files into unified vision**  
 > Last Updated: April 3, 2026  
@@ -8,7 +12,11 @@
 
 ## 📊 Roadmap Overview
 
+<<<<<<< HEAD
 Notify is a civic technology platform connecting citizens and municipalities to improve urban services. The project follows a **modular, phased approach** using Laravel + Filament 4.x + Tailwind CSS + Alpine.js.
+=======
+FixCity is a civic technology platform connecting citizens and municipalities to improve urban services. The project follows a **modular, phased approach** using Laravel + Filament 4.x + Tailwind CSS + Alpine.js.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Current State**:
 - ✅ **Phase 10**: COMPLETE - Homepage design replica (100% HTML parity with AGID Design Comuni)
@@ -54,7 +62,11 @@ Level 1: Foundation Modules
 └── Notify (notifications)
 
 Level 2: Business Modules
+<<<<<<< HEAD
 ├── App (core ticketing) ⭐
+=======
+├── Fixcity (core ticketing) ⭐
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Comment (discussions)
 ├── Rating (feedback)
 ├── Activity (audit trail)
@@ -170,7 +182,11 @@ Level 3: Themes
 
 **Deliverables**:
 - ✅ `/laravel/Themes/Sixteen/resources/views/components/blocks/` (header, footer, content blocks)
+<<<<<<< HEAD
 - ✅ `/laravel/config/local/laraxot/database/content/pages/tests.homepage.json`
+=======
+- ✅ `/laravel/config/local/fixcity/database/content/pages/tests.homepage.json`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ Screenshot comparison analysis: `Themes/Sixteen/docs/homepage-visual-parity.md`
 - ✅ Header/Footer architecture documentation
 
@@ -285,7 +301,11 @@ Level 3: Themes
 - [ ] AI-powered ticket categorization
 - [ ] Duplicate detection
 - [ ] Sentiment analysis
+<<<<<<< HEAD
 - [ ] Forecasting metrics
+=======
+- [ ] Predictive metrics
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -315,7 +335,11 @@ Each of the 18 modules has its own documentation:
 - **[Notify Module](../laravel/Modules/Notify/docs/)** - Notifications
 
 ### Business Modules
+<<<<<<< HEAD
 - **[Notify Module](../laravel/Modules/App/docs/)** - Core ticketing system ⭐
+=======
+- **[FixCity Module](../laravel/Modules/Fixcity/docs/)** - Core ticketing system ⭐
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **[Comment Module](../laravel/Modules/Comment/docs/)** - Discussion threads
 - **[Rating Module](../laravel/Modules/Rating/docs/)** - User feedback
 - **[Activity Module](../laravel/Modules/Activity/docs/product-roadmap.md)** - Audit trail

@@ -2,13 +2,21 @@
 
 > **Date**: 2026-03-31  
 > **Status**: ✅ Complete  
+<<<<<<< HEAD
 > **Domain**: laraxot.local
+=======
+> **Domain**: fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
 ## 📋 Overview
 
+<<<<<<< HEAD
 This document summarizes the complete VHost configuration implementation for the Notify platform.
+=======
+This document summarizes the complete VHost configuration implementation for the FixCity platform.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -16,12 +24,21 @@ This document summarizes the complete VHost configuration implementation for the
 
 ### 1. Configuration File Created
 
+<<<<<<< HEAD
 **File**: `laravel/config/vhost/laraxot.local.conf`
 
 **Key Features**:
 - Document root: `public_html/`
 - Server name: `laraxot.local`
 - Server alias: `www.laraxot.local`
+=======
+**File**: `laravel/config/vhost/fixcity.local.conf`
+
+**Key Features**:
+- Document root: `public_html/`
+- Server name: `fixcity.local`
+- Server alias: `www.fixcity.local`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Dedicated logging
 - mod_rewrite enabled
 - Security headers (optional)
@@ -104,11 +121,19 @@ This document summarizes the complete VHost configuration implementation for the
 ## 📁 File Structure
 
 ```
+<<<<<<< HEAD
 base_ptvx_fila5/
 ├── laravel/
 │   └── config/
 │       └── vhost/
 │           └── laraxot.local.conf          ← Configuration file
+=======
+base_fixcity_fila5/
+├── laravel/
+│   └── config/
+│       └── vhost/
+│           └── fixcity.local.conf          ← Configuration file
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── docs/
 │   ├── project/
 │   │   ├── README.md                       ← Project index (NEW)
@@ -142,17 +167,29 @@ base_ptvx_fila5/
 
 ```bash
 # 1. Copy configuration to Apache
+<<<<<<< HEAD
 sudo cp laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/
 
 # 2. Enable site
 sudo a2ensite laraxot.local.conf
+=======
+sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/
+
+# 2. Enable site
+sudo a2ensite fixcity.local.conf
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # 3. Reload Apache
 sudo systemctl reload apache2
 
 # 4. Update hosts file
+<<<<<<< HEAD
 echo "127.0.0.1 laraxot.local" | sudo tee -a /etc/hosts
 echo "127.0.0.1 www.laraxot.local" | sudo tee -a /etc/hosts
+=======
+echo "127.0.0.1 fixcity.local" | sudo tee -a /etc/hosts
+echo "127.0.0.1 www.fixcity.local" | sudo tee -a /etc/hosts
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Verification
@@ -162,6 +199,7 @@ echo "127.0.0.1 www.laraxot.local" | sudo tee -a /etc/hosts
 apache2ctl configtest
 
 # Check vhost enabled
+<<<<<<< HEAD
 apache2ctl -S | grep laraxot
 
 # Test domain
@@ -169,6 +207,15 @@ ping laraxot.local
 
 # Test application
 curl -I http://laraxot.local
+=======
+apache2ctl -S | grep fixcity
+
+# Test domain
+ping fixcity.local
+
+# Test application
+curl -I http://fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -177,7 +224,11 @@ curl -I http://laraxot.local
 
 | Layer | File | Status | Links |
 |-------|------|--------|-------|
+<<<<<<< HEAD
 | **Configuration** | `laravel/config/vhost/laraxot.local.conf` | ✅ | - |
+=======
+| **Configuration** | `laravel/config/vhost/fixcity.local.conf` | ✅ | - |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Project Docs** | `docs/project/vhost-configuration.md` | ✅ | [Link](docs/project/vhost-configuration.md) |
 | **Modules Docs** | `laravel/Modules/docs/vhost-configuration.md` | ✅ | [Link](laravel/Modules/docs/vhost-configuration.md) |
 | **Themes Docs** | `laravel/Themes/docs/vhost-configuration.md` | ✅ | [Link](laravel/Themes/docs/vhost-configuration.md) |
@@ -242,7 +293,11 @@ curl -I http://laraxot.local
 |------|--------|----------|
 | Document root = `public_html/` | ✅ | Config file line 7 |
 | Config in `laravel/config/vhost/` | ✅ | File location |
+<<<<<<< HEAD
 | Domain uses `.local` TLD | ✅ | `laraxot.local` |
+=======
+| Domain uses `.local` TLD | ✅ | `fixcity.local` |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | Dedicated logging | ✅ | ErrorLog + CustomLog |
 | Least privilege permissions | ✅ | Directory directives |
 | Documentation in 3 layers | ✅ | Project, Modules, Themes |
@@ -265,7 +320,11 @@ curl -I http://laraxot.local
 
 - [Governance Rules](docs/rules/vhost-governance.md)
 - [Management Skill](.github/skills/vhost-management/SKILL.md)
+<<<<<<< HEAD
 - [Configuration File](laravel/config/vhost/laraxot.local.conf)
+=======
+- [Configuration File](laravel/config/vhost/fixcity.local.conf)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### For AI Agents
 
@@ -285,7 +344,11 @@ curl -I http://laraxot.local
 
 ## 🎉 Conclusion
 
+<<<<<<< HEAD
 The VHost configuration for `laraxot.local` is now:
+=======
+The VHost configuration for `fixcity.local` is now:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - ✅ **Complete**: All files created
 - ✅ **Documented**: Three-layer documentation

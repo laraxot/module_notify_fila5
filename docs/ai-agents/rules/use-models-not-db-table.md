@@ -16,12 +16,20 @@
 ```php
 // ❌ SBAGLIATO - DB::table() quando esiste il modello
 $betHistories = DB::table('bet_histories')
+<<<<<<< HEAD
     ->where('forecast_id', $forecast->id)
+=======
+    ->where('predict_id', $predict->id)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     ->get();
 
 // ✅ CORRETTO - Usa il MODELLO
 $betHistories = BetHistory::query()
+<<<<<<< HEAD
     ->where('forecast_id', $forecast->id)
+=======
+    ->where('predict_id', $predict->id)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     ->get();
 ```
 
@@ -183,8 +191,13 @@ Rating::query()->...
 - **[Reusable Components](../guidelines/reusable-components-philosophy.md)** - DRY+KISS
 
 ### Module Docs
+<<<<<<< HEAD
 - **[BetHistory Model](../../laravel/Modules/Forecast/app/Models/BetHistory.php)** - Source
 - **[Transaction Model](../../laravel/Modules/Forecast/app/Models/Transaction.php)** - Source
+=======
+- **[BetHistory Model](../../laravel/Modules/Predict/app/Models/BetHistory.php)** - Source
+- **[Transaction Model](../../laravel/Modules/Predict/app/Models/Transaction.php)** - Source
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

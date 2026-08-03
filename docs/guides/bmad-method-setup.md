@@ -2,7 +2,11 @@
 
 **Versione:** 6.2.2  
 **Data Setup:** 2026-04-07  
+<<<<<<< HEAD
 **Progetto:** Notify Fila5 (Laraxot)
+=======
+**Progetto:** FixCity Fila5 (Laraxot)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -47,7 +51,11 @@ Un framework open-source (MIT) per lo sviluppo software guidato da AI che fornis
 ### Installazione Interattiva (consigliata la prima volta)
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 npx bmad-method install
 ```
 
@@ -55,7 +63,11 @@ npx bmad-method install
 
 ```bash
 npx bmad-method install \
+<<<<<<< HEAD
   --directory /var/www/_bases/base_ptvx_fila5 \
+=======
+  --directory /var/www/_bases/base_fixcity_fila5 \
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   --modules bmm \
   --tools windsurf \
   --yes
@@ -65,7 +77,11 @@ npx bmad-method install \
 
 ```bash
 npx bmad-method install \
+<<<<<<< HEAD
   --directory /var/www/_bases/base_ptvx_fila5 \
+=======
+  --directory /var/www/_bases/base_fixcity_fila5 \
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   --modules bmm \
   --tools windsurf \
   --action update \
@@ -76,7 +92,11 @@ npx bmad-method install \
 
 ```bash
 npx bmad-method install \
+<<<<<<< HEAD
   --directory /var/www/_bases/base_ptvx_fila5 \
+=======
+  --directory /var/www/_bases/base_fixcity_fila5 \
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   --action quick-update \
   --yes
 ```

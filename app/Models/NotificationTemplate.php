@@ -13,6 +13,10 @@ use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Xot\Contracts\ProfileContract;
 use Override;
 use Spatie\MediaLibrary\HasMedia;
+<<<<<<< HEAD
+=======
+use Spatie\MediaLibrary\InteractsWithMedia;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\Translatable\HasTranslations;
 
@@ -39,8 +43,16 @@ use Spatie\Translatable\HasTranslations;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property Carbon|null $deleted_at
+<<<<<<< HEAD
  * @property-read string $channels_label
  * @property NotificationTypeEnum $type
+=======
+ *
+ * @property-read string $channels_label
+ *
+ * @property NotificationTypeEnum $type
+ *
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
  * @property-read ProfileContract|null $creator
  * @property-read int|null $logs_count
  * @property-read MediaCollection<int, Media> $media
@@ -62,6 +74,10 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array<int, string> $locales)
  *
  * @property-read ProfileContract|null $deleter
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property string|null $deleted_by
@@ -96,6 +112,10 @@ use Spatie\Translatable\HasTranslations;
 class NotificationTemplate extends BaseModel implements HasMedia
 {
     use HasTranslations;
+<<<<<<< HEAD
+=======
+    use InteractsWithMedia;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
     /** @var list<string> */
     public array $translatable = [
@@ -170,6 +190,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Compile the template with the given data.
      *
      * @param  array<string, mixed>  $data  The data to compile the template with
+<<<<<<< HEAD
+=======
+     *
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function compile(array $data = []): array
@@ -210,6 +234,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Preview the template with the given data.
      *
      * @param  array<string, mixed>  $data  Additional data to merge with preview data
+<<<<<<< HEAD
+=======
+     *
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function preview(array $data = []): array
@@ -227,6 +255,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     /**
      * @param  Builder<static>  $query
+<<<<<<< HEAD
+=======
+     *
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @return Builder<static>
      */
     public function scopeActive(Builder $query): Builder
@@ -239,6 +271,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     /**
      * @param  Builder<static>  $query
+<<<<<<< HEAD
+=======
+     *
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @return Builder<static>
      */
     public function scopeForChannel(Builder $query, string $channel): Builder
@@ -251,6 +287,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     /**
      * @param  Builder<static>  $query
+<<<<<<< HEAD
+=======
+     *
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @return Builder<static>
      */
     public function scopeForCategory(Builder $query, string $category): Builder

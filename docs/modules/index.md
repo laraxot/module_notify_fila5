@@ -34,11 +34,19 @@ related:
 - `UpdaterTrait` - Tracking automatico created_by/updated_by
 - Pattern architetturali comuni
 
+<<<<<<< HEAD
 ### App - Business Logic
 **Path**: `Modules/App/`  
 **Responsabilità**: Core della piattaforma di segnalazioni  
 **Status**: ✅ Attivo - Modulo principale  
 **Docs**: [📖 App Docs](../../Modules/App/docs/links.md)
+=======
+### Fixcity - Business Logic
+**Path**: `Modules/Fixcity/`  
+**Responsabilità**: Core della piattaforma di segnalazioni  
+**Status**: ✅ Attivo - Modulo principale  
+**Docs**: [📖 Fixcity Docs](../../Modules/Fixcity/docs/links.md)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - Gestione segnalazioni cittadini
 - Workflow amministrativo
@@ -242,7 +250,11 @@ related:
 | Modulo | Status | PHPStan | Tests | Docs |
 |--------|---------|---------|-------|------|
 | Xot | ✅ Active | Level 9 | ✅ 80% | ✅ Complete |  
+<<<<<<< HEAD
 | App | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
+=======
+| Fixcity | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | User | ✅ Active | Level 8 | ✅ 75% | ✅ Complete |
 | UI | ✅ Active | Level 8 | ✅ 70% | ✅ Complete |
 | Cms | ✅ Active | Level 7 | ⚠️ 65% | ✅ Complete |

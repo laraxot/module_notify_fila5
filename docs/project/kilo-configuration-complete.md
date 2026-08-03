@@ -45,7 +45,11 @@ related:
 
 ---
 
+<<<<<<< HEAD
 ## Configurazione Notify
+=======
+## Configurazione FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### File di Configurazione
 
@@ -105,7 +109,11 @@ related:
 
 ### ✅ Chiavi Supportate
 
+<<<<<<< HEAD
 | Chiave | Tipo | Descrizione | Valore Notify |
+=======
+| Chiave | Tipo | Descrizione | Valore FixCity |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 |--------|------|-------------|----------------|
 | `$schema` | string | URL schema JSON | `https://app.kilo.ai/config.json` |
 | `model` | string | Modello primario | `anthropic/claude-sonnet-4-6` |
@@ -166,7 +174,11 @@ export GOOGLE_API_KEY="your-key-here"
 ### 3. Avvia Kilo
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Avvia TUI
 opencode
@@ -223,7 +235,11 @@ Modifica `.kilo/kilo.jsonc`:
 ### Tema Attivo
 
 - **Tema**: Sixteen ✅
+<<<<<<< HEAD
 - **Domain**: laraxot.local
+=======
+- **Domain**: fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Config**: `laravel/config/localhost/xra.php` → `pub_theme`
 
 ### Document Root

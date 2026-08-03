@@ -86,7 +86,11 @@ docs/
 <claude-mem-context>
 # Memory Context
 
+<<<<<<< HEAD
 # [base_ptvx_fila5] recent context, 2026-04-15 10:19pm GMT+2
+=======
+# [base_fixcity_fila5] recent context, 2026-04-15 10:19pm GMT+2
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 No previous sessions found.
 </claude-mem-context>

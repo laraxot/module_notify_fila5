@@ -8,7 +8,11 @@
 
 ## Executive Summary
 
+<<<<<<< HEAD
 Ho aggiornato l'intero sistema di documentazione del progetto Notify Fila5 con:
+=======
+Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 1. ✅ **Master Documentation Index** - Indice centrale con 7,299+ file
 2. ✅ **Bidirectional Links** - Collegamenti incrociati tra tutti i documenti
@@ -46,7 +50,11 @@ Ho aggiornato l'intero sistema di documentazione del progetto Notify Fila5 con:
 ## 🗺️ Documentation Hierarchy
 
 ```
+<<<<<<< HEAD
 Notify Fila5 Documentation (7,299 files)
+=======
+FixCity Fila5 Documentation (7,299 files)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │
 ├── 📄 Master Index
 │   └── docs/MODULE_DOCS_INDEX.md (THIS FILE)
@@ -71,7 +79,11 @@ Notify Fila5 Documentation (7,299 files)
 │   │   ├── phpstan*.md (100+ files)
 │   │   ├── testing/
 │   │   └── ...
+<<<<<<< HEAD
 │   ├── App/docs/
+=======
+│   ├── Fixcity/docs/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   ├── User/docs/
 │   ├── Cms/docs/
 │   ├── Blog/docs/
@@ -271,7 +283,11 @@ Every documentation file should have:
 
 Start at module index:
 - `Modules/Xot/docs/00-index.md` (1,941 files)
+<<<<<<< HEAD
 - `Modules/App/docs/README.md`
+=======
+- `Modules/Fixcity/docs/README.md`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `Modules/User/docs/README.md`
 - etc.
 

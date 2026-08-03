@@ -26,8 +26,13 @@ related:
 
 ## Repository
 
+<<<<<<< HEAD
 - **URL**: https://github.com/laraxot/base_ptvx_fila5
 - **Remote**: `origin` (git@github.com:laraxot/base_ptvx_fila5.git)
+=======
+- **URL**: https://github.com/laraxot/base_predict_fila5
+- **Remote**: `origin` (git@github.com:laraxot/base_predict_fila5.git)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -36,7 +41,11 @@ related:
 ### Method 1: GitHub Web Interface
 
 ```
+<<<<<<< HEAD
 1. Vai su: https://github.com/laraxot/base_ptvx_fila5/issues
+=======
+1. Vai su: https://github.com/laraxot/base_predict_fila5/issues
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. Clicca "New issue"
 3. Scegli template
 4. Compili e invii
@@ -121,7 +130,11 @@ gh pr create --title "Fix: ..." --body "Fixes #123"
 3. 💬 **Comments Section** - HIGH priority
 4. 📤 **Share Buttons** - MEDIUM priority
 
+<<<<<<< HEAD
 **Create issues on GitHub**: https://github.com/laraxot/base_ptvx_fila5/issues
+=======
+**Create issues on GitHub**: https://github.com/laraxot/base_predict_fila5/issues
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

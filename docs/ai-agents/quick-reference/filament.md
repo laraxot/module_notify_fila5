@@ -24,5 +24,9 @@
 ```bash
 cd laravel
 php artisan optimize:clear
+<<<<<<< HEAD
 vendor/bin/phpstan analyse Modules/Xot Modules/App
+=======
+vendor/bin/phpstan analyse Modules/Xot Modules/Quaeris
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```

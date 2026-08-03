@@ -58,13 +58,22 @@ namespace::context.collection.element.type
 ### Esempio
 
 ```blade
+<<<<<<< HEAD
 ✅ __('forecast::home.hero.cta_learn.label')
 ❌ __('forecast::fields.key')  // Missing type!
+=======
+✅ __('predict::home.hero.cta_learn.label')
+❌ __('predict::fields.key')  // Missing type!
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Eccezione
 
+<<<<<<< HEAD
 `forecast::messages.*` - valore diretto, NO `.label`
+=======
+`predict::messages.*` - valore diretto, NO `.label`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

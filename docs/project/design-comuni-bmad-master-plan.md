@@ -20,7 +20,11 @@ related:
 
 # Design Comuni Italia - BMad Master Plan
 
+<<<<<<< HEAD
 **Project:** Notify Fila5
+=======
+**Project:** FixCity Fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Date:** 2026-04-01
 **Status:** 🔄 **In Progress**
 **Priority:** 🔴 **CRITICAL**
@@ -229,7 +233,11 @@ pages/tests/[slug].blade.php  ← UNICO file per TUTTE
 **Comparison:**
 ```
 Design Comuni: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
+<<<<<<< HEAD
 Notify:       http://laraxot.local/it/tests/homepage
+=======
+FixCity:       http://fixcity.local/it/tests/homepage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Checklist:**
@@ -390,7 +398,11 @@ _bmad-output/
 ## Design Comuni Replication - {Page Name}
 
 **URL Design Comuni:** https://italia.github.io/design-comuni-pagine-statiche/sito/{page}.html
+<<<<<<< HEAD
 **URL Notify:** http://laraxot.local/it/tests/{page}
+=======
+**URL FixCity:** http://fixcity.local/it/tests/{page}
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Checklist
 
@@ -404,7 +416,11 @@ _bmad-output/
 ### Screenshots
 
 - [ ] Design Comuni screenshot
+<<<<<<< HEAD
 - [ ] Notify screenshot
+=======
+- [ ] FixCity screenshot
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Comparison analysis
 
 ### Analysis

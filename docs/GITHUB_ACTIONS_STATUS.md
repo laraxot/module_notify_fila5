@@ -8,7 +8,11 @@
 
 ## Summary
 
+<<<<<<< HEAD
 Analisi e fix delle GitHub Actions del repository base_ptvx_fila5.
+=======
+Analisi e fix delle GitHub Actions del repository base_fixcity_fila5.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

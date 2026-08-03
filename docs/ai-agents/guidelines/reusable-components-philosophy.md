@@ -40,19 +40,32 @@
 
 ```blade
 {{-- ✅ CORRETTO: Un componente = una responsabilità —}}
+<<<<<<< HEAD
 <x-forecast-view.outcomes-grid :outcomes="$outcomes" />
 <x-forecast-view.stats-bar :stats="$stats" />
 <x-forecast-view.order-book :orderBook="$orderBook" />
 
 {{-- ❌ SBAGLIATO: Componente "god" che fa tutto —}}
 <x-forecast-view.everything :data="$everything" />
+=======
+<x-predict-view.outcomes-grid :outcomes="$outcomes" />
+<x-predict-view.stats-bar :stats="$stats" />
+<x-predict-view.order-book :orderBook="$orderBook" />
+
+{{-- ❌ SBAGLIATO: Componente "god" che fa tutto —}}
+<x-predict-view.everything :data="$everything" />
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Principle 2: Composability
 
 ```blade
 {{-- Componenti piccoli si combinano —}}
+<<<<<<< HEAD
 @livewire('view-forecast-widget')
+=======
+@livewire('view-predict-widget')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     ├── header.blade.php
     ├── stats-bar.blade.php
     ├── outcomes-grid.blade.php
@@ -92,9 +105,15 @@ if ($isBinary) {
 ```blade
 {{-- ✅ CORRETTO: Logica nelle Action classes —}}
 @php
+<<<<<<< HEAD
     $orderBook = BuildOrderBookAction::make()->execute($forecast);
 @endphp
 <x-forecast-view.order-book :orderBook="$orderBook" />
+=======
+    $orderBook = BuildOrderBookAction::make()->execute($predict);
+@endphp
+<x-predict-view.order-book :orderBook="$orderBook" />
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 {{-- ❌ SBAGLIATO: Logica complessa nel blade —}}
 @php
@@ -134,7 +153,11 @@ if ($isBinary) {
 
 | Component | File | Reusability |
 |-----------|------|-------------|
+<<<<<<< HEAD
 | Header | `header.blade.php` | All forecast pages |
+=======
+| Header | `header.blade.php` | All predict pages |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | Sidebar | `sidebar-enhanced.blade.php` | All detail pages |
 | Tabs | `tabs.blade.php` | All content types |
 
@@ -148,12 +171,20 @@ if ($isBinary) {
      * Component Name - Description
      * 
      * @var array $data Input data
+<<<<<<< HEAD
      * @var \Modules\Forecast\Models\Forecast $forecast Model
+=======
+     * @var \Modules\Predict\Models\Predict $predict Model
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      */
     
     // Initialize with defaults
     $data = $data ?? [];
+<<<<<<< HEAD
     $forecast = $forecast ?? null;
+=======
+    $predict = $predict ?? null;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     
     // Helper function for translations
     $tx = static function (string $key, string $fallback): string {
@@ -165,7 +196,11 @@ if ($isBinary) {
 <div class="component-root">
     {{-- Header --}}
     <div class="header">
+<<<<<<< HEAD
         <h3>{{ $tx('forecast::titles.component', 'Title') }}</h3>
+=======
+        <h3>{{ $tx('predict::titles.component', 'Title') }}</h3>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     </div>
     
     {{-- Content --}}
@@ -192,8 +227,13 @@ if ($isBinary) {
 
 ```blade
 {{-- Load heavy components last —}}
+<<<<<<< HEAD
 <x-forecast-view.outcomes-grid :outcomes="$outcomes" />
 <x-forecast-view.order-book :orderBook="$orderBook" />
+=======
+<x-predict-view.outcomes-grid :outcomes="$outcomes" />
+<x-predict-view.order-book :orderBook="$orderBook" />
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 @livewire('comments-widget') {{-- Lazy via Livewire —}}
 ```
 
@@ -201,11 +241,19 @@ if ($isBinary) {
 
 ```php
 // ✅ CORRETTO: Single query with eager loading
+<<<<<<< HEAD
 $forecast = Forecast::with(['ratings', 'transactions'])->find($id);
 
 // ❌ SBAGLIATO: N+1 queries
 $forecast = Forecast::find($id);
 foreach ($forecast->ratings as $rating) {
+=======
+$predict = Predict::with(['ratings', 'transactions'])->find($id);
+
+// ❌ SBAGLIATO: N+1 queries
+$predict = Predict::find($id);
+foreach ($predict->ratings as $rating) {
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     $rating->transactions; // Query per outcome!
 }
 ```
@@ -216,9 +264,15 @@ foreach ($forecast->ratings as $rating) {
 @php
     // Cache order book calculation
     $orderBook = Cache::remember(
+<<<<<<< HEAD
         "order_book_{$forecast->id}",
         300, // 5 minutes
         fn() => BuildOrderBookAction::make()->execute($forecast)
+=======
+        "order_book_{$predict->id}",
+        300, // 5 minutes
+        fn() => BuildOrderBookAction::make()->execute($predict)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     );
 @endphp
 ```
@@ -236,7 +290,11 @@ it('renders outcomes grid with 6 outcomes', function () {
         // ... 5 more
     ];
     
+<<<<<<< HEAD
     $html = Blade::render('<x-forecast-view.outcomes-grid :outcomes="$outcomes" />', [
+=======
+    $html = Blade::render('<x-predict-view.outcomes-grid :outcomes="$outcomes" />', [
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         'outcomes' => $outcomes
     ]);
     
@@ -248,10 +306,17 @@ it('renders outcomes grid with 6 outcomes', function () {
 ### Integration Tests
 
 ```php
+<<<<<<< HEAD
 it('displays F1 forecast detail page', function () {
     $forecast = Forecast::factory()->create(['slug' => 'f1-world-champion-2026']);
     
     $response = $this->get('/it/forecasts/f1-world-champion-2026');
+=======
+it('displays F1 predict detail page', function () {
+    $predict = Predict::factory()->create(['slug' => 'f1-world-champion-2026']);
+    
+    $response = $this->get('/it/predicts/f1-world-champion-2026');
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     
     $response->assertStatus(200)
         ->assertSee('Verstappen')
@@ -264,6 +329,7 @@ it('displays F1 forecast detail page', function () {
 ## 🔗 Related Documentation
 
 ### Module Docs
+<<<<<<< HEAD
 - **[Components Index](laravel/Modules/Forecast/resources/views/components/forecast-view/00-INDEX.md)** - All components
 - **[Reusable Architecture](laravel/Modules/Forecast/docs/components/reusable-architecture.md)** - Design principles
 - **[Multi-Outcome Fundamental](laravel/Modules/Forecast/docs/MULTI-OUTCOME-FUNDAMENTAL.md)** - Core principle
@@ -271,6 +337,15 @@ it('displays F1 forecast detail page', function () {
 ### Theme Docs
 - **[Theme Zero Components](laravel/Themes/Zero/docs/components/00-INDEX.md)** - Theme components
 - **[TwentyOne Integration](laravel/Themes/TwentyOne/docs/forecast-integration.md)** - Theme integration
+=======
+- **[Components Index](laravel/Modules/Predict/resources/views/components/predict-view/00-INDEX.md)** - All components
+- **[Reusable Architecture](laravel/Modules/Predict/docs/components/reusable-architecture.md)** - Design principles
+- **[Multi-Outcome Fundamental](laravel/Modules/Predict/docs/MULTI-OUTCOME-FUNDAMENTAL.md)** - Core principle
+
+### Theme Docs
+- **[Theme Zero Components](laravel/Themes/Zero/docs/components/00-INDEX.md)** - Theme components
+- **[TwentyOne Integration](laravel/Themes/TwentyOne/docs/predict-integration.md)** - Theme integration
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### AI Agents Docs
 - **[Rules Index](.agents/docs/rules/00-INDEX.md)** - Filament Tables rule

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Karpathy LLM Wiki per Notify
+=======
+# Karpathy LLM Wiki per FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > Stato: proposta applicata al repository
 > Aggiornato: 2026-04-14
@@ -6,7 +10,11 @@
 
 ## Wiki vs QMD (ruoli distinti)
 
+<<<<<<< HEAD
 Il gist collega il wiki persistente a uno strumento di ricerca locale (**[qmd](https://github.com/tobi/qmd)**) quando il numero di pagine cresce. In Notify teniamo separati i due concetti:
+=======
+Il gist collega il wiki persistente a uno strumento di ricerca locale (**[qmd](https://github.com/tobi/qmd)**) quando il numero di pagine cresce. In FixCity teniamo separati i due concetti:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 | Artefatto | Domanda che risponde | Aggiornato da |
 |-----------|----------------------|---------------|
@@ -62,7 +70,11 @@ Il valore del modello Karpathy qui non e fare "un altro sistema docs". Il valore
 
 Per questa adozione la cartella raw non e una directory separata: il corpus raw e `docs/`, con l'unica esclusione di `docs/wiki/**` che e il layer compilato.
 
+<<<<<<< HEAD
 Per Notify, le fonti grezze canoniche dovrebbero essere queste:
+=======
+Per FixCity, le fonti grezze canoniche dovrebbero essere queste:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - `.planning/research/` per ricerche esterne e raccolta materiale
 - `.planning/external/` per acquisizioni esterne e dump temporanei
@@ -96,7 +108,11 @@ Esempi di future topic pages ad alto ROI:
 
 - `ticket-wizard-knowledge.md`
 - `design-comuni-parity-knowledge.md`
+<<<<<<< HEAD
 - `filament-v5-laraxot-patterns.md`
+=======
+- `filament-v5-fixcity-patterns.md`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `agent-memory-architecture.md`
 - `docs-governance-knowledge.md`
 
@@ -183,15 +199,24 @@ Karpathy cita QMD come upgrade naturale quando il wiki cresce ([gist — Optiona
 
 Uso consigliato (collezioni indicative):
 
+<<<<<<< HEAD
 - `laraxot-root-docs` → `./docs`
 - `laraxot-modules` → `./laravel/Modules` con mask `**/docs/**/*.md`
+=======
+- `fixcity-root-docs` → `./docs`
+- `fixcity-modules` → `./laravel/Modules` con mask `**/docs/**/*.md`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - opzionale: `bashscripts-docs`, `design-artifacts` come collezioni dedicate
 
 Dettagli installazione, MCP, limiti e rapporto con questo documento: **[qmd-local-docs-search.md](./qmd-local-docs-search.md)**.
 
 Se adottato, QMD **non** sostituisce `docs/wiki/index.md` né le topic pages: **accelera** la scoperta; il wiki resta il layer di sintesi e governance.
 
+<<<<<<< HEAD
 ## Decisione pratica per Notify
+=======
+## Decisione pratica per FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 L'adozione corretta non e costruire subito un mega knowledge base. E introdurre una disciplina leggera:
 

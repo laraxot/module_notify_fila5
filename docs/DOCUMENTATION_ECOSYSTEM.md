@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Notify Documentation Ecosystem - Visual Map
+=======
+# FixCity Documentation Ecosystem - Visual Map
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **📍 Complete Bidirectional Links & Cross-References**
 
@@ -8,7 +12,11 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
+<<<<<<< HEAD
 │            Notify Fila5 Documentation Ecosystem                 │
+=======
+│            FixCity Fila5 Documentation Ecosystem                 │
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │                   (7,137+ Connected Files)                       │
 └──────────────────────────────────────────────────────────────────┘
 
@@ -156,7 +164,11 @@ Theme: Sixteen
     │
     ├─→ Cms Module
     │   └─ Displays: Pages, blocks, content
+<<<<<<< HEAD
     │   └─ Via: config/local/laraxot/database/content/pages/
+=======
+    │   └─ Via: config/local/fixcity/database/content/pages/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     │   └─ Renders: Block components
     │
     ├─→ Media Module

@@ -149,4 +149,8 @@ GET /it/tests/amministrazione → tests.view (slug=amministrazione)
 
 **Status**: ✅ COMPLETATO  
 **Data**: 2026-03-31  
+<<<<<<< HEAD
 **URL Test**: http://laraxot.local/it/tests/homepage
+=======
+**URL Test**: http://fixcity.local/it/tests/homepage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

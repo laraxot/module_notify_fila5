@@ -9,7 +9,11 @@
 
 ## 🎯 The Rule
 
+<<<<<<< HEAD
 > **NON ESISTONO** forecast di tipo SÌ/NO!
+=======
+> **NON ESISTONO** predict di tipo SÌ/NO!
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 > **TUTTO** è multi-risposta (2-30+ outcomes)!
 > **MAI** usare `sum_credit_yes`, `sum_credit_no`, `count_credit_yes`, `count_credit_no`!
 
@@ -76,11 +80,19 @@ CREATE TABLE rating_morph (
 
 ```php
 // ❌ SBAGLIATO: Usare campi binary
+<<<<<<< HEAD
 $forecast->ratings->first()->pivot->sum_credit_yes;  // ❌ ERROR!
 $forecast->ratings->first()->pivot->count_credit_no; // ❌ ERROR!
 
 // ✅ CORRETTO: Usare SOLO percentage
 $forecast->ratings->first()->pivot->percentage;  // ✅ WORKS!
+=======
+$predict->ratings->first()->pivot->sum_credit_yes;  // ❌ ERROR!
+$predict->ratings->first()->pivot->count_credit_no; // ❌ ERROR!
+
+// ✅ CORRETTO: Usare SOLO percentage
+$predict->ratings->first()->pivot->percentage;  // ✅ WORKS!
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Impact**: Rimuovere riferimenti a campi binary da TUTTO il codice.
@@ -90,7 +102,11 @@ $forecast->ratings->first()->pivot->percentage;  // ✅ WORKS!
 ### Level 4: Multi-Outcome Architecture ✅✅
 
 ```
+<<<<<<< HEAD
 TUTTI i forecast sono MULTI-RISPOSTA:
+=======
+TUTTI i predict sono MULTI-RISPOSTA:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 1. Binary (2 outcomes) - CASO PARTICOLARE
    - SÌ/NO è solo un caso con 2 outcomes
@@ -143,8 +159,13 @@ $participants = $pivot->count_credit_yes + $pivot->count_credit_no;
 $probability = $pivot->percentage;
 
 // Per volume/participants, usare query separate
+<<<<<<< HEAD
 $volume = BetHistory::where('forecast_id', $forecast->id)->sum('value');
 $participants = RatingMorph::where('model_id', $forecast->id)
+=======
+$volume = BetHistory::where('predict_id', $predict->id)->sum('value');
+$participants = RatingMorph::where('model_id', $predict->id)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     ->distinct('user_id')
     ->count('user_id');
 ```
@@ -194,8 +215,13 @@ $pivot->percentage  // ✅ Unico campo valido
 - **[Use Models Not DB::Table](use-models-not-db-table.md)** - Model usage
 
 ### Module Docs
+<<<<<<< HEAD
 - **[MULTI-OUTCOME-FUNDAMENTAL.md](../../laravel/Modules/Forecast/docs/MULTI-OUTCOME-FUNDAMENTAL.md)** - Fundamental rule
 - **[ADR-003 Deprecate Binary Fields](../../laravel/Modules/Forecast/docs/ADR-003_DEPRECATE_BINARY_CREDIT_FIELDS.md)** - Deprecation plan
+=======
+- **[MULTI-OUTCOME-FUNDAMENTAL.md](../../laravel/Modules/Predict/docs/MULTI-OUTCOME-FUNDAMENTAL.md)** - Fundamental rule
+- **[ADR-003 Deprecate Binary Fields](../../laravel/Modules/Predict/docs/ADR-003_DEPRECATE_BINARY_CREDIT_FIELDS.md)** - Deprecation plan
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

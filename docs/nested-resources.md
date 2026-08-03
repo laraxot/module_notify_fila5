@@ -66,13 +66,21 @@ The Notify module provides a comprehensive notification system for the Laraxot s
 **Justification:** Group notification logs by tenant for multi-tenant monitoring and compliance.
 
 ### 7. Customer Communication History
+<<<<<<< HEAD
 **Parent Resource:** CustomerResource (from App module)
+=======
+**Parent Resource:** CustomerResource (from Quaeris module)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Child Resource:** NotificationLogResource
 **Relationship:** Customer-related notifications (via contacts/surveys)
 **Justification:** Track all communication with customers across different channels for relationship management.
 
 ### 8. Survey Communication Logs
+<<<<<<< HEAD
 **Parent Resource:** SurveyPdfResource (from App module)
+=======
+**Parent Resource:** SurveyPdfResource (from Quaeris module)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Child Resource:** NotificationLogResource
 **Relationship:** Survey-related notifications (via survey contacts)
 **Justification:** Monitor all communication related to specific surveys for better survey management.
@@ -179,7 +187,11 @@ Following the documented approach in `Modules/UI/docs/filament/nested-resource.m
 - Optimize queries for common notification log patterns
 
 ### 4. Integration with Other Modules
+<<<<<<< HEAD
 - Handle relationships with App module (surveys and contacts)
+=======
+- Handle relationships with Quaeris module (surveys and contacts)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Coordinate with User module for recipient management
 - Integrate with Tenant module for multi-tenant operations
 

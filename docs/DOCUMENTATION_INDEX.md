@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 📚 Indice Generale Documentazione - App
+=======
+# 📚 Indice Generale Documentazione - Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > **Navigazione Completa della Documentazione del Progetto**
 
@@ -68,8 +72,13 @@
 
 ### Moduli Business
 
+<<<<<<< HEAD
 #### **App Module** - Ticketing System
 - [README](../laravel/Modules/App/docs/README.md) - Gestione ticket
+=======
+#### **Fixcity Module** - Ticketing System
+- [README](../laravel/Modules/Fixcity/docs/README.md) - Gestione ticket
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - File docs: 38 files
 - **Funzionalità**: Ticket, segnalazioni, supporto
 - **Status**: ✅ Operativo (Filament 4.x)
@@ -276,8 +285,13 @@
 ## 📞 Support & Community
 
 ### Support Channels
+<<<<<<< HEAD
 - **📧 Email**: support@laraxot.com
 - **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/laraxot/issues)
+=======
+- **📧 Email**: support@fixcity.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **💬 Discord**: [Laraxot Community](https://discord.gg/laraxot)
 - **📚 Docs**: [Documentation Portal](https://docs.laraxot.com)
 

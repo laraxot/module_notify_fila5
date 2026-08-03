@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Push;
 
+<<<<<<< HEAD
+=======
+use function Safe\json_encode;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 use Exception;
 use GuzzleHttp\Promise\PromiseInterface;
 use Illuminate\Http\Client\Response;
@@ -12,7 +16,10 @@ use Modules\Notify\Datas\PushNotificationData;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 use function Safe\json_encode;
+=======
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 /**
  * Invia una notifica push a un singolo token su una specifica piattaforma

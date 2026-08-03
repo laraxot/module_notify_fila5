@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "Notify Platform - Project Status Report"
+=======
+title: "FixCity Platform - Project Status Report"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [project, status]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "project-status laraxot platform - project status report"
+=======
+qmd: "project-status fixcity platform - project status report"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # Notify Platform - Project Status Report
+=======
+# FixCity Platform - Project Status Report
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 2025-01-01  
 **Versione**: 1.0.0-alpha  
@@ -28,7 +40,11 @@ related:
 
 | Modulo | Status | Completamento | Priorità | Owner |
 |--------|--------|---------------|----------|-------|
+<<<<<<< HEAD
 | **App** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
+=======
+| **Fixcity** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **User** | 🟢 Stable | 75% | 🔴 Critical | Security Team |
 | **Xot** | 🟢 Stable | 80% | 🔴 Critical | Core Team |
 | **Notify** | 🟡 In Progress | 50% | 🟠 High | Notification Team |
@@ -195,5 +211,9 @@ related:
 
 **Report Generated**: 2025-01-01  
 **Next Update**: 2025-01-15  
+<<<<<<< HEAD
 **Contact**: development@laraxot.io
+=======
+**Contact**: development@fixcity.io
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 

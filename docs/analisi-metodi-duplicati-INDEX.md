@@ -57,12 +57,21 @@
 🎯 **Priorità:** ALTA - Modulo critico  
 ⚠️ **Note:** Testing intensivo necessario (auth)
 
+<<<<<<< HEAD
 #### App (Gestione Segnalazioni)
 📄 **File:** [../Modules/App/docs/analisi-metodi-duplicati.md](../Modules/App/docs/analisi-metodi-duplicati.md)  
 📊 **Dati:** 9 proprietà duplicate, 72 LOC, 79% riduzione  
 🎯 **Priorità:** ALTA - Business core  
 ⚠️ **Note:** Usa SoftDeletes (trait specifico da mantenere)  
 📝 **Alternative:** [METODI_DUPLICATI_ANALISI.md](../Modules/App/docs/METODI_DUPLICATI_ANALISI.md)
+=======
+#### Fixcity (Gestione Segnalazioni)
+📄 **File:** [../Modules/Fixcity/docs/analisi-metodi-duplicati.md](../Modules/Fixcity/docs/analisi-metodi-duplicati.md)  
+📊 **Dati:** 9 proprietà duplicate, 72 LOC, 79% riduzione  
+🎯 **Priorità:** ALTA - Business core  
+⚠️ **Note:** Usa SoftDeletes (trait specifico da mantenere)  
+📝 **Alternative:** [METODI_DUPLICATI_ANALISI.md](../Modules/Fixcity/docs/METODI_DUPLICATI_ANALISI.md)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 #### Cms (Content Management)
 📄 **File:** [../Modules/Cms/docs/analisi-metodi-duplicati.md](../Modules/Cms/docs/analisi-metodi-duplicati.md)  

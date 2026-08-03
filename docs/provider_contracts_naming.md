@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Convenzioni di Naming per i Contracts
 
 ## Regola Fondamentale
 
 Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+=======
+# Convenzioni di Naming per i Contracts 
+
+## Regola Fondamentale
+
+Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 1. **Suffisso `Contract` e non `Interface`**:
    - ✅ CORRETTO: `SmsProviderContract`

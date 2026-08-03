@@ -111,7 +111,11 @@ class OutcomesTableWidget extends XotBaseTableWidget
 ```
 
 **Zen Philosophy**:
+<<<<<<< HEAD
 > "XotBaseTableWidget non sa di Forecast, non sa di Blog, non sa di Events.
+=======
+> "XotBaseTableWidget non sa di Predict, non sa di Blog, non sa di Events.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 > È AGNOSTICO, come il container blade.
 > La sua forza è la sua VUOTEZZA.
 > Può contenere QUALSIASI cosa."
@@ -127,7 +131,11 @@ abstract class XotBaseTableWidget extends FilamentTableWidget
 ```
 
 **Why This is Powerful**:
+<<<<<<< HEAD
 - ✅ **Agnostico**: Funziona per Forecast, Blog, Events, Profiles
+=======
+- ✅ **Agnostico**: Funziona per Predict, Blog, Events, Profiles
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ **Estensibile**: Puoi aggiungere features a TUTTI i widget cambiando 1 file
 - ✅ **Coerente**: Tutti i widget hanno lo stesso comportamento base
 - ✅ **Manutenibile**: Fix in 1 posto, fix everywhere
@@ -267,7 +275,11 @@ class OutcomesTableWidget extends XotBaseTableWidget
 ## 🔗 Related Documentation
 
 ### Module Docs
+<<<<<<< HEAD
 - **[OutcomesTableWidget](../../laravel/Modules/Forecast/Filament/Widgets/OutcomesTableWidget.php)** - Actual implementation
+=======
+- **[OutcomesTableWidget](../../laravel/Modules/Predict/Filament/Widgets/OutcomesTableWidget.php)** - Actual implementation
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **[XotBaseTableWidget](../../laravel/Modules/Xot/app/Filament/Widgets/XotBaseTableWidget.php)** - Base class
 
 ### AI Agents Docs

@@ -15,7 +15,11 @@ related:
   - "./documentation-update-complete.md"
   - "./final-documentation-report.md"
   - "./final-success-report.md"
+<<<<<<< HEAD
   - "./laraxot-improvement-progress-1.md"
+=======
+  - "./fixcity-improvement-progress-1.md"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ---
 
 # Bug Fix Report - 2025-01-14

@@ -12,25 +12,41 @@
 return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'netfun'),
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Configurazioni generiche applicabili a tutti i driver
     'from' => env('SMS_FROM'),
     'timeout' => (int) env('SMS_TIMEOUT', 30),
     'debug' => (bool) env('SMS_DEBUG', false),
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Configurazione per retry e circuit breaker
     'retry' => [
         'attempts' => (int) env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => (int) env('SMS_RETRY_DELAY', 60),
     ],
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Configurazione per rate limiting
     'rate_limit' => [
         'enabled' => (bool) env('SMS_RATE_LIMIT_ENABLED', true),
         'max_attempts' => (int) env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
         'decay_minutes' => (int) env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Configurazioni specifiche per driver
     'drivers' => [
         'netfun' => [
@@ -40,14 +56,22 @@ return [
             'sender' => env('NETFUN_SENDER'),
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         'twilio' => [
             // Solo parametri specifici per Twilio
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
             'auth_token' => env('TWILIO_AUTH_TOKEN'),
             'from' => env('TWILIO_FROM'),
         ],
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Altri provider...
     ],
 ];
@@ -62,7 +86,11 @@ return [
   - MAI includere retry, rate limiting, circuit breaker, timeout, debug flags
 
 - **Configurazione Generica** (sezioni separate):
+<<<<<<< HEAD
   - Sezione `retry` per tentativi di ripetizione
+=======
+  - Sezione `retry` per tentativi di ripetizione 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - Sezione `rate_limit` per limitazione delle richieste
   - Sezione `timeout` per timeout globale
   - Sezione `debug` per flag di debug
@@ -73,7 +101,11 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 
 ```php
 // ❌ ERRATO
+<<<<<<< HEAD
 'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),

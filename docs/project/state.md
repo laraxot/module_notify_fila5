@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "STATE: Notify Platform"
+=======
+title: "STATE: FixCity Platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [state]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "state state: laraxot platform"
+=======
+qmd: "state state: fixcity platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./design-comuni-bmad-master-plan.md"
 ---
 
+<<<<<<< HEAD
 # STATE: Notify Platform
+=======
+# STATE: FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Current Position
 - Date: 2026-03-30

@@ -252,10 +252,17 @@ Same process! We welcome all contributors.
 
 ## 📞 Contact
 
+<<<<<<< HEAD
 - **GitHub Issues**: https://github.com/laraxot/platform/issues
 - **GitHub Discussions**: https://github.com/laraxot/platform/discussions
 - **Slack**: #multi-agent (if available)
 - **Email**: dev @laraxot.example.com
+=======
+- **GitHub Issues**: https://github.com/laraxot/base_fixcity_fila5/issues
+- **GitHub Discussions**: https://github.com/laraxot/base_fixcity_fila5/discussions
+- **Slack**: #multi-agent (if available)
+- **Email**: dev @fixcity.example.com
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

@@ -44,7 +44,11 @@ Monitorare costantemente tutte le cartelle `docs` dei moduli e temi per:
 | Modulo | Docs Count | Last Updated | Status | Priority |
 |--------|------------|--------------|--------|----------|
 | **Xot** | 95+ files | 2025-01-27 | ✅ UPDATED | CRITICAL |
+<<<<<<< HEAD
 | **App** | 8 files | 2025-01-27 | ✅ UPDATED | CRITICAL |
+=======
+| **Fixcity** | 8 files | 2025-01-27 | ✅ UPDATED | CRITICAL |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **User** | 12 files | 2025-01-27 | ✅ UPDATED | HIGH |
 | **Geo** | 3 files | 2025-01-27 | ✅ UPDATED | HIGH |
 | **Notify** | 3 files | 2025-01-27 | ✅ UPDATED | MEDIUM |
@@ -177,12 +181,21 @@ find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 12/g' {} \;
 ### 🔥 **Critical Priority**
 1. **ROADMAP_2025.md** (tutti i moduli)
 2. **README.md** (moduli principali)
+<<<<<<< HEAD
 3. **performance-issues.md** (App, User)
 4. **phpstan-fixes-report.md** (App, User)
 5. **filament_4x_upgrade_report.md** (tutti i moduli)
 
 ### ⚡ **High Priority**
 1. **API Documentation** (App, User, Geo)
+=======
+3. **performance-issues.md** (Fixcity, User)
+4. **phpstan-fixes-report.md** (Fixcity, User)
+5. **filament_4x_upgrade_report.md** (tutti i moduli)
+
+### ⚡ **High Priority**
+1. **API Documentation** (Fixcity, User, Geo)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. **Implementation Guides** (tutti i moduli)
 3. **Troubleshooting Guides** (Xot, Sixteen, TwentyOne)
 4. **Best Practices** (Xot, moduli core)

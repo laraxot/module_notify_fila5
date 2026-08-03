@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "✅ NOTIFY - IMPLEMENTAZIONI COMPLETATE"
+=======
+title: "✅ FIXCITY - IMPLEMENTAZIONI COMPLETATE"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [implementations, completed]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "implementations-completed ✅ laraxot - implementazioni completate"
+=======
+qmd: "implementations-completed ✅ fixcity - implementazioni completate"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # ✅ NOTIFY - IMPLEMENTAZIONI COMPLETATE
+=======
+# ✅ FIXCITY - IMPLEMENTAZIONI COMPLETATE
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 2025-10-01  
 **Sessione**: Gap Analysis & Core Implementation  
@@ -28,14 +40,22 @@ related:
 
 ## 🎯 OBIETTIVO RAGGIUNTO
 
+<<<<<<< HEAD
 Analizzato lo scopo del progetto, identificate le features mancanti e implementate le funzionalità critiche per trasformare Notify da MVP a piattaforma enterprise-ready.
+=======
+Analizzato lo scopo del progetto, identificate le features mancanti e implementate le funzionalità critiche per trasformare FixCity da MVP a piattaforma enterprise-ready.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
 ## 📊 SCOPO DEL PROGETTO (Analizzato)
 
 ### Business Goal
+<<<<<<< HEAD
 **Notify** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette:
+=======
+**FixCity** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - 👥 **Cittadini**: Segnalare problemi urbani (buche, illuminazione, rifiuti, verde pubblico)
 - 🔧 **Operatori**: Gestire e risolvere segnalazioni con workflow ottimizzati
 - 📊 **Amministratori**: Monitorare performance e analytics
@@ -54,7 +74,11 @@ Analizzato lo scopo del progetto, identificate le features mancanti e implementa
 ### 📊 Analisi e Planning (1)
 1. ✅ **gap-analysis-implementation.md** - Analisi completa gap e piano implementazione
 
+<<<<<<< HEAD
 ### 🎫 Modulo App - Core Implementation (4)
+=======
+### 🎫 Modulo Fixcity - Core Implementation (4)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. ✅ **Jobs/GeocodeTicketAddressJob.php** - Async geocoding con cache
 3. ✅ **Repositories/TicketRepository.php** - Query optimization con cache layer
 4. ✅ **Http/Controllers/Api/V1/TicketController.php** - REST API completa
@@ -70,9 +94,15 @@ Analizzato lo scopo del progetto, identificate le features mancanti e implementa
 12. ✅ **final-summary.md**
 
 ### 📖 Guide Complete (3 - da sessione precedente)
+<<<<<<< HEAD
 13. ✅ **App/docs/API.md**
 14. ✅ **App/docs/USER_GUIDE.md**
 15. ✅ **App/docs/ADMIN_GUIDE.md**
+=======
+13. ✅ **Fixcity/docs/API.md**
+14. ✅ **Fixcity/docs/USER_GUIDE.md**
+15. ✅ **Fixcity/docs/ADMIN_GUIDE.md**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 🔐 Security Implementation (2 - da sessione precedente)
 16. ✅ **User/docs/2FA_GUIDE.md**
@@ -80,7 +110,11 @@ Analizzato lo scopo del progetto, identificate le features mancanti e implementa
 
 ### 🗺️ Roadmap (3 - da sessione precedente)
 18. ✅ **roadmap-status-summary.md**
+<<<<<<< HEAD
 19. ✅ **App/ROADMAP_2025.md**
+=======
+19. ✅ **Fixcity/ROADMAP_2025.md**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 20. ✅ **User/roadmap.md**
 
 ---
@@ -109,7 +143,11 @@ GeocodeTicketAddressJob::dispatch($ticket);
 - 🔄 Resilienza: Fallback automatico
 - 📊 Scalabilità: Queue-based
 
+<<<<<<< HEAD
 **File**: `Modules/App/Jobs/GeocodeTicketAddressJob.php`
+=======
+**File**: `Modules/Fixcity/Jobs/GeocodeTicketAddressJob.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -137,7 +175,11 @@ $stats = $repository->getStatistics();
 - 💾 Memory usage: -40%
 - 🔍 Nearby search ottimizzato
 
+<<<<<<< HEAD
 **File**: `Modules/App/Repositories/TicketRepository.php`
+=======
+**File**: `Modules/Fixcity/Repositories/TicketRepository.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Metodi Principali**:
 - `findById()` - Con cache
@@ -282,7 +324,11 @@ GET    /api/v1/tickets/nearby       // Nearby search
 
 ### 1. Database Migration
 ```bash
+<<<<<<< HEAD
 php artisan make:migration add_address_to_tickets_table --path=Modules/App/database/migrations
+=======
+php artisan make:migration add_address_to_tickets_table --path=Modules/Fixcity/database/migrations
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ```php
@@ -294,7 +340,11 @@ Schema::table('tickets', function (Blueprint $table) {
 
 ### 2. Register API Routes
 ```php
+<<<<<<< HEAD
 // Modules/App/routes/api.php
+=======
+// Modules/Fixcity/routes/api.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Route::prefix('v1')->group(function () {
     Route::apiResource('tickets', TicketController::class);
     Route::post('tickets/{id}/status', [TicketController::class, 'changeStatus']);
@@ -315,9 +365,15 @@ protected function getTableQuery(): Builder
 
 ### 4. Create Tests
 ```bash
+<<<<<<< HEAD
 php artisan make:test Modules/App/Tests/Feature/GeocodeTicketTest
 php artisan make:test Modules/App/Tests/Feature/TicketRepositoryTest
 php artisan make:test Modules/App/Tests/Feature/Api/TicketApiTest
+=======
+php artisan make:test Modules/Fixcity/Tests/Feature/GeocodeTicketTest
+php artisan make:test Modules/Fixcity/Tests/Feature/TicketRepositoryTest
+php artisan make:test Modules/Fixcity/Tests/Feature/Api/TicketApiTest
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### 5. Setup CI/CD
@@ -367,7 +423,11 @@ jobs:
 - **Caching**: 0% → **70%** (+70%)
 
 ### Moduli Status
+<<<<<<< HEAD
 - **App**: 90% → **93%** (Job, Repository, API)
+=======
+- **Fixcity**: 90% → **93%** (Job, Repository, API)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **User**: 92% (2FA/SSO documentati)
 - **UI**: 70% (da implementare)
 - **Geo**: 75% (da implementare)
@@ -384,7 +444,11 @@ jobs:
 
 ### Core Implementation
 ```
+<<<<<<< HEAD
 Modules/App/
+=======
+Modules/Fixcity/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Jobs/
 │   └── GeocodeTicketAddressJob.php          ✅ NEW
 ├── Repositories/
@@ -438,9 +502,15 @@ Modules/App/
 - **[quick-start.md](./quick-start.md)** - Guida sviluppatori
 
 ### Implementation
+<<<<<<< HEAD
 - **[GeocodeTicketAddressJob.php](./laravel/Modules/App/Jobs/GeocodeTicketAddressJob.php)**
 - **[TicketRepository.php](./laravel/Modules/App/Repositories/TicketRepository.php)**
 - **[TicketController.php](./laravel/Modules/App/Http/Controllers/Api/V1/TicketController.php)**
+=======
+- **[GeocodeTicketAddressJob.php](./laravel/Modules/Fixcity/Jobs/GeocodeTicketAddressJob.php)**
+- **[TicketRepository.php](./laravel/Modules/Fixcity/Repositories/TicketRepository.php)**
+- **[TicketController.php](./laravel/Modules/Fixcity/Http/Controllers/Api/V1/TicketController.php)**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -472,6 +542,12 @@ Completata con successo l'implementazione delle features critiche:
 
 ---
 
+<<<<<<< HEAD
 *"From analysis to implementation - building enterprise-ready features for Notify 2025!"*
 
 **#Notify2025 #Implementation #Performance #API #Excellence**
+=======
+*"From analysis to implementation - building enterprise-ready features for FixCity 2025!"*
+
+**#FixCity2025 #Implementation #Performance #API #Excellence**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

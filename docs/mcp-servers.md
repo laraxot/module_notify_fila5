@@ -20,7 +20,11 @@ related:
 
 # MCP Servers - Master Index
 
+<<<<<<< HEAD
 **Project**: Notify Platform  
+=======
+**Project**: FixCity Platform  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Last Updated**: 2026-04-09  
 **Configuration**: `laravel/.mcp.json`  
 **Total Servers**: 10
@@ -62,7 +66,11 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 ### filesystem
 - **Type**: File operations
 - **Package**: `@modelcontextprotocol/server-filesystem`
+<<<<<<< HEAD
 - **Scope**: `/var/www/_bases/base_ptvx_fila5`
+=======
+- **Scope**: `/var/www/_bases/base_fixcity_fila5`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Use**: Read/write files, search directories, explore project structure
 
 ### sqlite
@@ -83,7 +91,11 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Package**: `@modelcontextprotocol/server-memory`
 - **Use**: Store project decisions, patterns, conventions
 - **Persistence**: Survives across sessions
+<<<<<<< HEAD
 - **Example**: "App uses XotBaseModel pattern"
+=======
+- **Example**: "Fixcity uses XotBaseModel pattern"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### github
 - **Type**: Version Control
@@ -109,7 +121,11 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Type**: AI Memory Infrastructure
 - **CLI**: `supermemory` (npm global)
 - **API Key**: Configured in `.mcp.json`
+<<<<<<< HEAD
 - **Container Tag**: `laraxot`
+=======
+- **Container Tag**: `fixcity`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Use**: 
   - Persistent project context across conversations
   - Semantic search across project documentation
@@ -127,10 +143,17 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **CLI**: `qmd` (npm global)
 - **Use**: Hybrid search over markdown files (BM25 + vector + reranking)
 - **Collections**:
+<<<<<<< HEAD
   - `laraxot-wiki` → `./docs/wiki`
   - `laraxot-docs` → `./docs`
   - `laraxot-modules` → `./Modules`
   - `laraxot-themes` → `./Themes`
+=======
+  - `fixcity-wiki` → `./docs/wiki`
+  - `fixcity-docs` → `./docs`
+  - `fixcity-modules` → `./Modules`
+  - `fixcity-themes` → `./Themes`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Commands**:
   - `qmd search "query"` - Full-text search
   - `qmd query "query"` - Hybrid search with reranking
@@ -173,17 +196,29 @@ supermemory whoami
 
 ### Add Project Context
 ```bash
+<<<<<<< HEAD
 supermemory add --tag laraxot --file .supermemory/laraxot-context.md
+=======
+supermemory add --tag fixcity --file .supermemory/fixcity-context.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Search Memories
 ```bash
+<<<<<<< HEAD
 supermemory search "Notify architecture" --tag laraxot
+=======
+supermemory search "FixCity architecture" --tag fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Get Profile
 ```bash
+<<<<<<< HEAD
 supermemory profile --tag laraxot --query "project preferences"
+=======
+supermemory profile --tag fixcity --query "project preferences"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Module-Specific Usage
@@ -191,7 +226,11 @@ supermemory profile --tag laraxot --query "project preferences"
 Each module has specific MCP usage guidelines. See module-specific docs:
 
 - **Xot**: [MCP Servers Guide](../Modules/Xot/docs/mcp-servers.md)
+<<<<<<< HEAD
 - **App**: Module-specific patterns for ticket system
+=======
+- **Fixcity**: Module-specific patterns for ticket system
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **User**: Authentication and user management
 - **Cms**: Content management patterns
 

@@ -35,7 +35,11 @@ Update/create/improve `docs/roadmap.md` for all 18 modules by:
 1. ✅ Xot (Core Foundation)
 2. ⏳ User (Authentication & Management)
 3. ⏳ AI (Artificial Intelligence)
+<<<<<<< HEAD
 4. ⏳ App (Main Application)
+=======
+4. ⏳ Fixcity (Main Application)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 5. ⏳ Cms (Content Management)
 6. ⏳ Media (Media Files)
 7. ⏳ Notify (Notifications)
@@ -75,7 +79,11 @@ Priority order based on module importance:
 1. Xot - Core foundation
 2. User - Authentication
 3. AI - AI integration
+<<<<<<< HEAD
 4. App - Main app
+=======
+4. Fixcity - Main app
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 5. Tenant - Multi-tenancy
 6. Cms - Content management
 7. Media - Media handling

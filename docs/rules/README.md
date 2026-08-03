@@ -26,7 +26,11 @@ related:
 
 ## 📋 Overview
 
+<<<<<<< HEAD
 This directory contains **mandatory rules** and governance documents for the Notify platform.
+=======
+This directory contains **mandatory rules** and governance documents for the FixCity platform.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -99,7 +103,11 @@ apache2ctl configtest
 ls -la /etc/apache2/sites-enabled/
 
 # Verify document root
+<<<<<<< HEAD
 grep -r "DocumentRoot" /etc/apache2/sites-available/laraxot.local.conf
+=======
+grep -r "DocumentRoot" /etc/apache2/sites-available/fixcity.local.conf
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Reporting Violations

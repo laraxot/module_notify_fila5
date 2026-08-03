@@ -29,7 +29,11 @@ related:
 
 ## 🎯 EXECUTIVE SUMMARY
 
+<<<<<<< HEAD
 Piano di azione immediato per completare le funzionalità core della piattaforma Notify nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.
+=======
+Piano di azione immediato per completare le funzionalità core della piattaforma FixCity nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 📊 Obiettivi Chiave
 - [ ] **API v1**: RESTful API completa e documentata
@@ -42,7 +46,11 @@ Piano di azione immediato per completare le funzionalità core della piattaforma
 ## 📅 TIMELINE DETTAGLIATA
 
 ### 🗓️ WEEK 1 (Jan 27 - Feb 2): API FOUNDATION
+<<<<<<< HEAD
 **Focus**: Sviluppo API RESTful per modulo App
+=======
+**Focus**: Sviluppo API RESTful per modulo Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 #### 🎯 Obiettivi Giornalieri
 

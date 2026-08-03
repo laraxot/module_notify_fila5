@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "📊 ANALISI COMPLETA PROGETTO NOTIFY"
+=======
+title: "📊 ANALISI COMPLETA PROGETTO FIXCITY"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [analisi, completa, 2025, 01.deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "analisi-completa-2025-10-01.deprecated 📊 analisi completa progetto laraxot"
+=======
+qmd: "analisi-completa-2025-10-01.deprecated 📊 analisi completa progetto fixcity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,14 +26,22 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 📊 ANALISI COMPLETA PROGETTO NOTIFY
+=======
+# 📊 ANALISI COMPLETA PROGETTO FIXCITY
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ## Data: 1 Ottobre 2025
 
 ---
 
 ## 🎯 EXECUTIVE SUMMARY
 
+<<<<<<< HEAD
 **Notify** è una piattaforma di segnalazione cittadina **enterprise-ready** con:
+=======
+**FixCity** è una piattaforma di segnalazione cittadina **enterprise-ready** con:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ **83% moduli** certificati PHPStan Level 9
 - ✅ **Core funzionale** completo al 90%
 - ⚠️ **Performance** ottimizzabile (+50% possibile)
@@ -34,7 +50,11 @@ related:
 
 ---
 
+<<<<<<< HEAD
 ## 📦 COSA È NOTIFY
+=======
+## 📦 COSA È FIXCITY
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Scopo Principale
 Piattaforma che **connette cittadini e amministrazioni comunali** per gestire segnalazioni urbane.
@@ -94,7 +114,11 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
    - User: 95 errori
    
 2. **Performance Fixes** ⏰ 3 giorni (4h)
+<<<<<<< HEAD
    - N+1 queries in App (3 trovati)
+=======
+   - N+1 queries in Fixcity (3 trovati)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    - Database indexes mancanti
    - CSS non purged (3MB → 400KB)
 
@@ -188,9 +212,15 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 | Issue | Modulo | Impact | Fix Time |
 |-------|--------|--------|----------|
+<<<<<<< HEAD
 | **N+1 Categories Count** | App | 200ms | 30min |
 | **Double Count Query** | App | 2 query extra | 15min |
 | **Lazy Load in Attribute** | App | N+1 su profiles | 20min |
+=======
+| **N+1 Categories Count** | Fixcity | 200ms | 30min |
+| **Double Count Query** | Fixcity | 2 query extra | 15min |
+| **Lazy Load in Attribute** | Fixcity | N+1 su profiles | 20min |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **CSS Not Purged** | Sixteen | 3MB → 400KB | 30min |
 | **Images Not Optimized** | Sixteen | Page load +40% | 2h |
 | **No Geocoding Cache** | Geo | API calls ripetuti | 1h |
@@ -202,8 +232,13 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### TODO nel Codice (2 trovati)
 
+<<<<<<< HEAD
 1. **Map Picker** - `App/TicketResource.php:17`
 2. **Delayed Notifications** - `App/NotificationService.php:217`
+=======
+1. **Map Picker** - `Fixcity/TicketResource.php:17`
+2. **Delayed Notifications** - `Fixcity/NotificationService.php:217`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Fix Time**: 3 ore totali
 
@@ -229,7 +264,11 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### Query Waste
 
+<<<<<<< HEAD
 1. **N+1 Queries** - 3 in App, potenziali in User
+=======
+1. **N+1 Queries** - 3 in Fixcity, potenziali in User
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. **DB:: Direct** - 5+ files (bypass ORM)
 3. **Missing Indexes** - Tickets table critical
 4. **No Query Caching** - Dashboard stats ricalcolati sempre
@@ -381,14 +420,22 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 - FixMyStreet (UK)
 - Municipium (IT)
 
+<<<<<<< HEAD
 ### Notify Advantages
+=======
+### FixCity Advantages
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ Modular architecture (scalable)
 - ✅ Multi-language out-of-box
 - ✅ AI-ready infrastructure
 - ✅ Modern tech stack
 - ✅ Open source base
 
+<<<<<<< HEAD
 ### Notify Gaps
+=======
+### FixCity Gaps
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ❌ Mobile app assente
 - ❌ Real-time limitato
 - ⚠️ Marketing/Awareness bassa
@@ -426,7 +473,11 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 ### 🎯 Module Roadmaps (Dettagliate)
 - [Xot - Core Framework](../Modules/Xot/docs/roadmap-and-issues.md) - 9 errori, 2.5h fix
 - [User - Auth & Profiles](../Modules/User/docs/roadmap-and-issues.md) - 95 errori, 6h fix
+<<<<<<< HEAD
 - [App - Business Logic](../Modules/App/docs/roadmap-and-issues.md) - N+1 queries, features
+=======
+- [Fixcity - Business Logic](../Modules/Fixcity/docs/roadmap-and-issues.md) - N+1 queries, features
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [AI - Artificial Intelligence](../Modules/AI/docs/roadmap-and-issues.md) - Auto-categorization
 - [Notify - Notifications](../Modules/Notify/docs/roadmap-and-issues.md) - Real-time, push
 - [Geo - Geographic](../Modules/Geo/docs/roadmap-and-issues.md) - Maps integration
@@ -486,7 +537,11 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 **Analisi Completata**: 1 Ottobre 2025, ore 21:00  
 **Prossima Revisione**: 1 Novembre 2025  
+<<<<<<< HEAD
 **Responsabile**: Team Notify
+=======
+**Responsabile**: Team FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

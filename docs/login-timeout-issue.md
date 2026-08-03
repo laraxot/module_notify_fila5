@@ -82,7 +82,11 @@ protected string $view = 'pub_theme::filament.widgets.auth.login';
 
 ```bash
 # Verificare configurazione tema
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5_mono/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 php artisan config:cache
 php artisan view:cache
 ```
@@ -131,7 +135,11 @@ public function mount(): void
 ### Soluzione 5: Cache Viste
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5_mono/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Clear tutti i cache
 php artisan cache:clear
@@ -153,7 +161,11 @@ php artisan view:cache
 
 ```bash
 # Verificare che esista
+<<<<<<< HEAD
 ls -la /var/www/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
+=======
+ls -la /var/www/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ✅ **File esiste**: Abbiamo verificato che c'è
@@ -162,7 +174,11 @@ ls -la /var/www/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen/resources/vie
 
 ```bash
 # Cercare dove è definito pub_theme
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5_mono/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 grep -r "pub_theme" config/ app/Providers/
 ```
 

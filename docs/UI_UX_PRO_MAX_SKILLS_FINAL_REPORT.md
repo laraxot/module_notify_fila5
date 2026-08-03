@@ -223,7 +223,11 @@ Each skill includes:
 ### Immediate (Today)
 1. ✅ Skills installate e configurate
 2. ⏳ Testare ogni skill
+<<<<<<< HEAD
 3. ⏳ Creare esempi pratici per Notify
+=======
+3. ⏳ Creare esempi pratici per FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 4. ⏳ Documentare usage patterns
 
 ### This Week
@@ -234,7 +238,11 @@ Each skill includes:
 
 ### Next Week
 9. Advanced usage patterns
+<<<<<<< HEAD
 10. Custom skill creation per Notify
+=======
+10. Custom skill creation per FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 11. Performance optimization
 12. Community contribution
 

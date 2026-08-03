@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🔒 Notify Security Checklist
+=======
+# 🔒 FixCity Security Checklist
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Status**: Production Ready
 
@@ -396,9 +400,15 @@ Overall Security Score: 92/100
 
 ## 📞 Security Contacts
 
+<<<<<<< HEAD
 **Security Team Lead**: security@laraxot.it  
 **Emergency Contact**: +39 06 1234 5678  
 **Incident Reporting**: incidents@laraxot.it
+=======
+**Security Team Lead**: security@fixcity.it  
+**Emergency Contact**: +39 06 1234 5678  
+**Incident Reporting**: incidents@fixcity.it
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

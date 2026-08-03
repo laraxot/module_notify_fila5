@@ -50,7 +50,11 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 
 ---
 
+<<<<<<< HEAD
 ### 🎫 **App** - 85% COMPLETATO
+=======
+### 🎫 **Fixcity** - 85% COMPLETATO
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Status**: 🚧 ACTIVE DEVELOPMENT  
 **Priority**: CRITICAL  
 **PHPStan**: ✅ 0 errori  
@@ -245,7 +249,11 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 ## 🎯 PRIORITÀ IMMEDIATE (Next 30 Days)
 
 ### 🚀 **Week 1-2: API Development**
+<<<<<<< HEAD
 - [ ] **App API v1**: RESTful API completa
+=======
+- [ ] **Fixcity API v1**: RESTful API completa
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] **Authentication**: JWT/Sanctum setup
 - [ ] **Documentation**: OpenAPI specs
 - [ ] **Testing**: API test suite
@@ -285,7 +293,11 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 ## 🛠️ IMPLEMENTATION STRATEGY
 
 ### 📅 **Q1 2025 Focus**
+<<<<<<< HEAD
 1. **API Development**: RESTful API per App
+=======
+1. **API Development**: RESTful API per Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. **Mobile Optimization**: Interfaccia mobile completa
 3. **AGID Compliance**: 100% conformità
 4. **Performance**: Ottimizzazione completa
@@ -306,7 +318,11 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 
 ## 🔗 INTEGRATION POINTS
 
+<<<<<<< HEAD
 ### 🎫 **App ↔ Sixteen**
+=======
+### 🎫 **Fixcity ↔ Sixteen**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Ticket creation interface
 - [ ] Dashboard widgets
 - [ ] Map integration
@@ -329,7 +345,11 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 ## 📋 NEXT ACTIONS
 
 ### 🎯 **Immediate (This Week)**
+<<<<<<< HEAD
 1. [ ] Start API development for App
+=======
+1. [ ] Start API development for Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. [ ] Begin mobile optimization for Sixteen
 3. [ ] Complete AGID compliance audit
 4. [ ] Update documentation

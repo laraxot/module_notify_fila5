@@ -63,7 +63,11 @@ Ogni modulo gestisce le proprie dipendenze:
 
 ```json
 {
+<<<<<<< HEAD
     "name": "laraxot/module-name",
+=======
+    "name": "fixcity/module-name",
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     "require": {
         "php": "^8.2",
         "filament/filament": "^5.0",
@@ -231,7 +235,11 @@ composer update
 
 ```json
 {
+<<<<<<< HEAD
     "name": "laraxot/cms-module",
+=======
+    "name": "fixcity/cms-module",
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     "require": {
         "php": "^8.2",
         "filament/filament": "^5.0",

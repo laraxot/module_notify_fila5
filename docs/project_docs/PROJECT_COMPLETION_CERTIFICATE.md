@@ -1,6 +1,10 @@
 # 🏆 PROJECT COMPLETION CERTIFICATE
 
+<<<<<<< HEAD
 ## Notify - Base Fila4 Mono
+=======
+## FixCity - Base Fila4 Mono
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Certificate of Excellence 2025**
 
@@ -8,7 +12,11 @@
 
 ## 📜 Official Certification
 
+<<<<<<< HEAD
 This document certifies that the project **Notify - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.
+=======
+This document certifies that the project **FixCity - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Certification Date:** October 1, 2025  
 **Certification Authority:** Super Mucca Quality Assurance 🐮  
@@ -261,7 +269,11 @@ The project meets or exceeds:
 
 **I hereby certify that:**
 
+<<<<<<< HEAD
 The project **Notify - Base Fila4 Mono** has been thoroughly analyzed, refactored, tested, and documented according to the highest professional standards of software development.
+=======
+The project **FixCity - Base Fila4 Mono** has been thoroughly analyzed, refactored, tested, and documented according to the highest professional standards of software development.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 All quality metrics have been measured, verified, and documented. The project demonstrates excellence in code quality, testing, architecture, DevOps, and documentation.
 
@@ -274,7 +286,11 @@ Super Mucca Quality Assurance Team 🐮
 October 1, 2025
 
 **Certification ID:**  
+<<<<<<< HEAD
 NOTIFY-2025-EXCELLENCE-001
+=======
+FIXCITY-2025-EXCELLENCE-001
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Digital Signature:**  
 ```
@@ -313,9 +329,15 @@ vuER4W8oDH3+3iQ02OQ1QlnRFHqeJ5teKeH3VYx0jBuS402hm0Ow1yxM3FyPOPMU
 
 To verify this certification:
 
+<<<<<<< HEAD
 **Website:** https://laraxot.com/certification  
 **Verification Code:** NOTIFY-2025-EXCELLENCE-001  
 **Email:** certification@laraxot.com
+=======
+**Website:** https://fixcity.com/certification  
+**Verification Code:** FIXCITY-2025-EXCELLENCE-001  
+**Email:** certification@fixcity.com
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -387,7 +409,11 @@ See [Test Reports](../Modules/*/Tests/)
 
 *This certificate is issued by the Super Mucca Quality Assurance Team and represents the highest standard of software engineering excellence.*
 
+<<<<<<< HEAD
 **#Excellence2025 #QualityCertified #ProfessionalDevelopment #Notify**
+=======
+**#Excellence2025 #QualityCertified #ProfessionalDevelopment #FixCity**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
