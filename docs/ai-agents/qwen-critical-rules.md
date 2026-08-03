@@ -1,6 +1,10 @@
 # QWEN Critical Rules
 
+<<<<<<< HEAD
 Regole critiche del progetto Base Forecast.
+=======
+Regole critiche del progetto Base Predict.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -22,21 +26,34 @@ Regole critiche del progetto Base Forecast.
 Themes/TwentyOne/Http/Livewire/*.php  ← FORBIDDEN!
 
 {{-- NO Controllers for lists --}}
+<<<<<<< HEAD
 ForecastController@index  ← FORBIDDEN!
+=======
+PredictController@index  ← FORBIDDEN!
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### ✅ SEMPRE Fare
 
 ```blade
 {{-- Filament Table Widget --}}
+<<<<<<< HEAD
 @livewire(\Modules\Forecast\Filament\Widgets\ForecastTableWidget::class)
+=======
+@livewire(\Modules\Predict\Filament\Widgets\PredictTableWidget::class)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 {{-- Or via CMS JSON --}}
 {
     "type": "widget",
     "data": {
+<<<<<<< HEAD
         "view": "pub_theme::filament.widgets.forecast-table",
         "widget": "Modules\\Forecast\\Filament\\Widgets\\ForecastTableWidget"
+=======
+        "view": "pub_theme::filament.widgets.predict-table",
+        "widget": "Modules\\Predict\\Filament\\Widgets\\PredictTableWidget"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     }
 }
 ```
@@ -97,10 +114,17 @@ ForecastController@index  ← FORBIDDEN!
 
 ```blade
 {{-- ✅ CORRETTO --}}
+<<<<<<< HEAD
 <a href="{{ url(app()->getLocale().'/forecasts') }}">Mercati</a>
 
 {{-- ❌ SBAGLIATO --}}
 <a href="/forecasts">Mercati</a>
+=======
+<a href="{{ url(app()->getLocale().'/predicts') }}">Mercati</a>
+
+{{-- ❌ SBAGLIATO --}}
+<a href="/predicts">Mercati</a>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -121,9 +145,15 @@ public function buildOrderBook(): array { ... }
 ### ✅ CORRETTO
 
 La logica specifica va in:
+<<<<<<< HEAD
 1. **Filament Widgets**: `Modules/Forecast/Filament/Widgets/`
 2. **Actions**: `Modules/Forecast/Actions/`
 3. **CMS Blocks**: `Modules/Forecast/resources/views/components/blocks/`
+=======
+1. **Filament Widgets**: `Modules/Predict/Filament/Widgets/`
+2. **Actions**: `Modules/Predict/Actions/`
+3. **CMS Blocks**: `Modules/Predict/resources/views/components/blocks/`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -136,8 +166,13 @@ namespace::context.collection.element.type
 ```
 
 ```blade
+<<<<<<< HEAD
 ✅ __('forecast::user.fields.first_name.label')
 ❌ __('forecast::fields.key')  // Missing type!
+=======
+✅ __('predict::user.fields.first_name.label')
+❌ __('predict::fields.key')  // Missing type!
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---

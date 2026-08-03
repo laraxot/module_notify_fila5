@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Pagine Create - Notify Sixteen Theme
+=======
+# Pagine Create - FixCity Sixteen Theme
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Data: {{ date('Y-m-d') }}
 

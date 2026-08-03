@@ -105,7 +105,11 @@ Created `bashscripts/ai/init-llm-wiki.sh`:
 
 - Initialize wiki structure for any module or theme
 - Usage: `bashscripts/ai/init-llm-wiki.sh {module|theme} {Name}`
+<<<<<<< HEAD
 - Example: `bashscripts/ai/init-llm-wiki.sh module App`
+=======
+- Example: `bashscripts/ai/init-llm-wiki.sh module Fixcity`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Creates complete directory structure with templates
 - Generates module-specific AGENTS.md
 
@@ -201,8 +205,13 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 3. **Initialize Module Wikis** (if not already done):
    ```bash
+<<<<<<< HEAD
    bashscripts/ai/init-llm-wiki.sh module App
    bashscripts/ai/init-llm-wiki.sh module Forecast
+=======
+   bashscripts/ai/init-llm-wiki.sh module Fixcity
+   bashscripts/ai/init-llm-wiki.sh module Predict
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    bashscripts/ai/init-llm-wiki.sh theme Sixteen
    ```
 

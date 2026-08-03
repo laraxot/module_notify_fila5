@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "📊 Report Finale - Notify Sixteen Theme"
+=======
+title: "📊 Report Finale - FixCity Sixteen Theme"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [report, finale]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "report-finale 📊 report finale - laraxot sixteen theme"
+=======
+qmd: "report-finale 📊 report finale - fixcity sixteen theme"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,10 +26,17 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 📊 Report Finale - Notify Sixteen Theme
 
 ## 🎯 Obiettivo Completato
 Creazione pagine mancanti per il tema Sixteen (Notify) utilizzando metodologie avanzate (GSD, Ralph Loop, BMAD, OpenVikings, NotebookLM).
+=======
+# 📊 Report Finale - FixCity Sixteen Theme
+
+## 🎯 Obiettivo Completato
+Creazione pagine mancanti per il tema Sixteen (FixCity) utilizzando metodologie avanzate (GSD, Ralph Loop, BMAD, OpenVikings, NotebookLM).
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -246,7 +261,11 @@ Themes/Sixteen/resources/views/pages/
 ## 📞 Contatti
 
 Per informazioni:
+<<<<<<< HEAD
 - **Repository**: `/var/www/_bases/base_ptvx_fila5`
+=======
+- **Repository**: `/var/www/_bases/base_fixcity_fila5`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Tema**: `Themes/Sixteen`
 - **Documentazione**: `docs/pagine-create.md`
 

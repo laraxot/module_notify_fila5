@@ -14,6 +14,10 @@ related:
 
 **File:** `2026_06_10_133000_create_notifications_table.php`  
 **Base:** `XotBaseMigration` (mai `Migration`)  
+<<<<<<< HEAD
 **model_class:** `Modules\User\Models\Notification` → DB `app_user`
+=======
+**model_class:** `Modules\User\Models\Notification` → DB `fixcity_user`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Contratto: [notifications-database-contract.md](../concepts/notifications-database-contract.md)

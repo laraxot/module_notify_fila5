@@ -2,7 +2,11 @@
 
 ## Panoramica
 
+<<<<<<< HEAD
 Questo documento riassume l'implementazione completa del design system per i comuni italiani nel progetto App, basato sui template di [design-comuni-pagine-statiche](https://github.com/italia/design-comuni-pagine-statiche) e [farmshops.eu](https://github.com/CodeforKarlsruhe/farmshops.eu).
+=======
+Questo documento riassume l'implementazione completa del design system per i comuni italiani nel progetto Fixcity, basato sui template di [design-comuni-pagine-statiche](https://github.com/italia/design-comuni-pagine-statiche) e [farmshops.eu](https://github.com/CodeforKarlsruhe/farmshops.eu).
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Componenti Implementate
 
@@ -14,7 +18,11 @@ Questo documento riassume l'implementazione completa del design system per i com
 - **Componenti Riutilizzabili**: Card, badge, button, form
 - **Styling Personalizzato**: CSS con variabili personalizzabili
 
+<<<<<<< HEAD
 ### 2. Modulo App
+=======
+### 2. Modulo Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Integrazione Design**: Collegamento con il tema comunale
 - **API RESTful**: Endpoint completi per segnalazioni
 - **Sistema Mappe**: Integrazione con OpenStreetMap e Leaflet
@@ -23,7 +31,11 @@ Questo documento riassume l'implementazione completa del design system per i com
 - **Workflow**: Gestione stati e priorità delle segnalazioni
 
 ### 3. Documentazione Completa
+<<<<<<< HEAD
 - **Modulo App**: Documentazione tecnica e utente
+=======
+- **Modulo Fixcity**: Documentazione tecnica e utente
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Tema Sixteen**: Guida implementazione e personalizzazione
 - **Integrazione Design Comuni**: Procedura completa di integrazione
 - **Configurazione**: File di configurazione dettagliati
@@ -52,9 +64,15 @@ themes/sixteen/
     └── README.md
 ```
 
+<<<<<<< HEAD
 ### Modulo App
 ```
 Modules/App/
+=======
+### Modulo Fixcity
+```
+Modules/Fixcity/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── docs/
 │   ├── design-comuni-integration.md
 │   ├── design-comuni-integration-complete.md
@@ -85,7 +103,11 @@ config/comune.php
 - ✅ Pagina documenti
 - ✅ Pagina eventi
 
+<<<<<<< HEAD
 ### 3. Integrazione App
+=======
+### 3. Integrazione Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ Collegamento diretto con segnalazioni
 - ✅ Visualizzazione geografica
 - ✅ Dashboard con statistiche
@@ -134,10 +156,17 @@ COMUNE_COLORE_ACCENTO="#ff6600"
 /comune/documenti          # Documenti
 /comune/eventi             # Eventi
 
+<<<<<<< HEAD
 // API App
 /api/laraxot/tickets       # Gestione ticket
 /api/laraxot/map/tickets   # Mappa ticket
 /api/laraxot/statistics    # Statistiche
+=======
+// API Fixcity
+/api/fixcity/tickets       # Gestione ticket
+/api/fixcity/map/tickets   # Mappa ticket
+/api/fixcity/statistics    # Statistiche
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Benefici dell'Implementazione
@@ -155,7 +184,11 @@ COMUNE_COLORE_ACCENTO="#ff6600"
 - Design professionale e affidabile
 
 ### 3. Integrazione Sistema
+<<<<<<< HEAD
 - Collegamento diretto con App
+=======
+- Collegamento diretto con Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - API per dati dinamici
 - Gestione centralizzata dei contenuti
 - Sistema di autenticazione unificato
@@ -201,7 +234,11 @@ L'implementazione del design system per i comuni italiani è stata completata co
 1. **Conformità Normativa**: Piena conformità alle linee guida AGID
 2. **Accessibilità**: Conformità WCAG 2.1 AA
 3. **Responsive Design**: Ottimizzazione per tutti i dispositivi
+<<<<<<< HEAD
 4. **Integrazione Completa**: Collegamento diretto con App
+=======
+4. **Integrazione Completa**: Collegamento diretto con Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 5. **Documentazione Completa**: Guide dettagliate per sviluppatori e utenti
 6. **Personalizzazione**: Facile adattamento alle esigenze specifiche
 

@@ -138,7 +138,11 @@ Section::make()
 use Filament\Schemas\Components\Text;
 use Illuminate\Support\HtmlString;
 
+<<<<<<< HEAD
 Text::make(new HtmlString((string) __('laraxot::privacy.notice.html')))
+=======
+Text::make(new HtmlString((string) __('fixcity::privacy.notice.html')))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Anti-pattern
@@ -171,4 +175,8 @@ TextInput::make('review_title')
 - Filament Schemas Overview: https://filamentphp.com/docs/5.x/schemas/overview
 - Filament Infolists Overview: https://filamentphp.com/docs/5.x/infolists/overview
 - Filament Schemas Prime Components: https://filamentphp.com/docs/5.x/schemas/primes
+<<<<<<< HEAD
 - Placeholder source locale: [Placeholder.php](/var/www/_bases/base_ptvx_fila5/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)
+=======
+- Placeholder source locale: [Placeholder.php](/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

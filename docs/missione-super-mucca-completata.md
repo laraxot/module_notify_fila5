@@ -66,7 +66,11 @@ related:
 | Gdpr | 74 | ✅ |
 | Job | 64 | ✅ |
 | Tenant | 45 | ✅ |
+<<<<<<< HEAD
 | App | 37 | ✅ |
+=======
+| Fixcity | 37 | ✅ |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | AI | 34 | ✅ |
 | Blog | 30 | ✅ |
 | Seo | 21 | ✅ |
@@ -114,7 +118,11 @@ related:
 ✅ Modules/Blog/docs/dry-kiss-analysis.md
 ✅ Modules/Cms/docs/dry-kiss-analysis.md
 ✅ Modules/Comment/docs/dry-kiss-analysis.md
+<<<<<<< HEAD
 ✅ Modules/App/docs/dry-kiss-analysis.md
+=======
+✅ Modules/Fixcity/docs/dry-kiss-analysis.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ✅ Modules/Gdpr/docs/dry-kiss-analysis.md
 ✅ Modules/Geo/docs/dry-kiss-analysis.md
 ✅ Modules/Job/docs/dry-kiss-analysis.md

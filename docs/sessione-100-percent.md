@@ -240,7 +240,11 @@ related:
 
 **URL Reference**:
 - Bootstrap Italia: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
+<<<<<<< HEAD
 - Notify: http://laraxot.local/it/tests/homepage
+=======
+- FixCity: http://fixcity.local/it/tests/homepage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

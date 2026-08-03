@@ -11,9 +11,15 @@ related:
   - ./coding-agent-manifests.md
 ---
 
+<<<<<<< HEAD
 # Notify Platform - AGENTS.md
 
 This file contains comprehensive guidelines and commands for AI agents working on the Notify Laravel application.
+=======
+# FixCity Platform - AGENTS.md
+
+This file contains comprehensive guidelines and commands for AI agents working on the FixCity Laravel application.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 🚨 CRITICAL ARCHITECTURAL RULES
 
@@ -141,7 +147,11 @@ The script `bashscripts/git/subtrees/sync_remote_repo.sh` MUST work in **TWO mod
 
 **1. CLI Mode (Local Development)**:
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 ```
 
@@ -797,7 +807,11 @@ php artisan test --coverage
 ### Trait Usage Rules
 - **MAI duplicare metodi nei modelli quando possono essere definiti nei trait**
 - Se un trait (es. `SushiToJsons`) può fornire un metodo (es. `getJsonFile()`), aggiungerlo **SOLO nel trait**
+<<<<<<< HEAD
 - I trait devono essere **self-contained** secondo base_app pattern
+=======
+- I trait devono essere **self-contained** secondo base_techplanner pattern
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Quando PHPStan non trova un metodo chiamato da un modello usando un trait, PRIMA verifica se può essere aggiunto al trait
 - Non aggiungere lo stesso metodo a modelli diversi - viola DRY e crea manutenzione difficoltosa
 
@@ -838,7 +852,11 @@ This project uses `wikimedia/composer-merge-plugin` for modular dependency manag
 #### Module composer.json Pattern
 ```json
 {
+<<<<<<< HEAD
     "name": "laraxot/module-name",
+=======
+    "name": "fixcity/module-name",
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     "type": "laravel-module",
     "require": {
         "php": "^8.2",
@@ -1693,7 +1711,11 @@ gh run list --limit 10
 ### Resources
 
 - **[docs/MULTI_AGENT_COLLABORATION.md](docs/MULTI_AGENT_COLLABORATION.md)** - Complete guide
+<<<<<<< HEAD
 - **[Issue #12](https://github.com/laraxot/platform/issues/12)** - AI Agent Collaboration
+=======
+- **[Issue #12](https://github.com/laraxot/base_fixcity_fila5/issues/12)** - AI Agent Collaboration
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **[docs/AI_AGENT_TEAMS.md](docs/AI_AGENT_TEAMS.md)** - Team organization
 
 ### Success Story: 2026-03-13 Sync Fix

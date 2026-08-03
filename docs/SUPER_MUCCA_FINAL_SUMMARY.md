@@ -159,7 +159,11 @@ class LoginWidget extends XotBaseWidget
 | **Job** | 83 | ✅ | 🟢 | Queue mgmt |
 | **Gdpr** | 79 | ✅ | 🟢 | Privacy |
 | **Tenant** | 57 | ✅ | 🟢 | Multi-tenant |
+<<<<<<< HEAD
 | **App** | 38 | ✅ | 🟢 | Ticketing |
+=======
+| **Fixcity** | 38 | ✅ | 🟢 | Ticketing |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **AI** | 34 | ✅ | 🟢 | MCP integration |
 | **Blog** | 34 | ✅ | 🟢 | Content mgmt |
 | **Seo** | 21 | ✅ | 🟢 | **README creato** |

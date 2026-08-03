@@ -1,6 +1,10 @@
 # Pattern Architetturali per le Notifiche
 
+<<<<<<< HEAD
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+=======
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Confronto tra Pattern Architetturali
 
@@ -28,7 +32,11 @@ $action = match ($driver) {
 public function getAction(): SmsActionInterface
 {
     $driver = Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -87,7 +95,11 @@ class SmsActionFactory
     public function create(?string $driver = null): SmsActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),

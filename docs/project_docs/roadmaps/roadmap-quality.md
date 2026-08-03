@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🏆 ROADMAP QUALITÀ - NOTIFY PLATFORM
+=======
+# 🏆 ROADMAP QUALITÀ - FIXCITY PLATFORM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Versione**: 1.0  
 **Data Creazione**: Gennaio 2025  
@@ -6,7 +10,11 @@
 **Priorità**: ALTA  
 
 ## 🎯 Obiettivo
+<<<<<<< HEAD
 Raggiungere e mantenere standard di qualità enterprise per il progetto Notify, garantendo affidabilità, sicurezza e manutenibilità del codice.
+=======
+Raggiungere e mantenere standard di qualità enterprise per il progetto FixCity, garantendo affidabilità, sicurezza e manutenibilità del codice.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 📊 Stato Attuale
 - **PHPStan Level 9**: ✅ COMPLETATO (0 errori)
@@ -394,7 +402,11 @@ jobs:
 #### Obiettivi
 - [ ] Advanced static analysis
 - [ ] Machine learning quality
+<<<<<<< HEAD
 - [ ] Forecasting quality
+=======
+- [ ] Predictive quality
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Quality automation
 
 #### Task Specifici
@@ -411,7 +423,11 @@ composer require --dev phpstan/phpstan-phpunit
 #### Deliverables
 - [ ] Advanced static analysis
 - [ ] ML quality tools
+<<<<<<< HEAD
 - [ ] Forecasting quality
+=======
+- [ ] Predictive quality
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Quality automation
 
 ## 📊 Quality Metrics Dashboard
@@ -522,7 +538,11 @@ composer require --dev phpstan/phpstan-phpunit
 ### Milestone 4: Quality Culture (Dicembre 2025)
 - ✅ Quality training
 - ✅ Advanced tools
+<<<<<<< HEAD
 - ✅ Forecasting quality
+=======
+- ✅ Predictive quality
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ Continuous improvement
 
 ## 🔄 Quality Process
@@ -570,8 +590,13 @@ composer require --dev phpstan/phpstan-phpunit
 **📞 Contatti Quality**
 - **Quality Lead**: Quality Assurance Team
 - **Email**: quality@laraxot.com
+<<<<<<< HEAD
 - **Slack**: #laraxot-quality
 - **GitHub**: [Notify Quality](https://github.com/laraxot/laraxot-quality)
+=======
+- **Slack**: #fixcity-quality
+- **GitHub**: [FixCity Quality](https://github.com/laraxot/fixcity-quality)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **🔄 Ultimo Aggiornamento**: Gennaio 2025  
 **📊 Progresso**: 60% → 100% (Target Dicembre 2025)  

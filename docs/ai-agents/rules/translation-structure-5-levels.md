@@ -15,6 +15,7 @@
 **Example**:
 ```php
 // ✅ CORRETTO - 5 livelli
+<<<<<<< HEAD
 __('forecast::user.fields.first_name.label')
 __('forecast::fields.outcome.title.label')
 __('forecast::labels.market.status.label')
@@ -23,6 +24,16 @@ __('forecast::labels.market.status.label')
 __('forecast::titles.outcomes')           // ❌ SOLO 2 livelli!
 __('forecast::labels.volume')             // ❌ SOLO 2 livelli!
 __('forecast::messages.success')          // ❌ SOLO 2 livelli!
+=======
+__('predict::user.fields.first_name.label')
+__('predict::fields.outcome.title.label')
+__('predict::labels.market.status.label')
+
+// ❌ SBAGLIATO - MENO di 5 livelli
+__('predict::titles.outcomes')           // ❌ SOLO 2 livelli!
+__('predict::labels.volume')             // ❌ SOLO 2 livelli!
+__('predict::messages.success')          // ❌ SOLO 2 livelli!
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -31,6 +42,7 @@ __('forecast::messages.success')          // ❌ SOLO 2 livelli!
 
 ### Level 1: Namespace
 ```
+<<<<<<< HEAD
 forecast::
 ```
 Il namespace del modulo (forecast, blog, user, etc.)
@@ -44,32 +56,67 @@ forecast::messages.
 forecast::titles.
 forecast::actions.
 forecast::validation.
+=======
+predict::
+```
+Il namespace del modulo (predict, blog, user, etc.)
+
+### Level 2: Context
+```
+predict::user.
+predict::fields.
+predict::labels.
+predict::messages.
+predict::titles.
+predict::actions.
+predict::validation.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 Il **CONTESTO** della traduzione.
 
 ### Level 3: Collection
 ```
+<<<<<<< HEAD
 forecast::user.fields.
 forecast::fields.outcome.
 forecast::labels.market.
 forecast::messages.bet.
+=======
+predict::user.fields.
+predict::fields.outcome.
+predict::labels.market.
+predict::messages.bet.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 La **COLLEZIONE** di elementi.
 
 ### Level 4: Element
 ```
+<<<<<<< HEAD
 forecast::user.fields.first_name.
 forecast::fields.outcome.title.
 forecast::labels.market.status.
+=======
+predict::user.fields.first_name.
+predict::fields.outcome.title.
+predict::labels.market.status.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 L'**ELEMENTO** specifico.
 
 ### Level 5: Type
 ```
+<<<<<<< HEAD
 forecast::user.fields.first_name.label
 forecast::fields.outcome.title.label
 forecast::labels.market.status.label
 forecast::messages.bet.success.message
+=======
+predict::user.fields.first_name.label
+predict::fields.outcome.title.label
+predict::labels.market.status.label
+predict::messages.bet.success.message
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 Il **TIPO** (label, placeholder, helper, message, etc.)
 
@@ -81,6 +128,7 @@ Il **TIPO** (label, placeholder, helper, message, etc.)
 
 ```php
 // User fields
+<<<<<<< HEAD
 __('forecast::user.fields.first_name.label')
 __('forecast::user.fields.last_name.label')
 __('forecast::user.fields.email.placeholder')
@@ -111,12 +159,45 @@ __('forecast::actions.bet.cancel.label')
 // Validation
 __('forecast::validation.outcome.required')
 __('forecast::validation.forecast.ends_at.after')
+=======
+__('predict::user.fields.first_name.label')
+__('predict::user.fields.last_name.label')
+__('predict::user.fields.email.placeholder')
+__('predict::user.fields.email.helper')
+
+// Fields
+__('predict::fields.outcome.title.label')
+__('predict::fields.outcome.probability.label')
+__('predict::fields.predict.ends_at.label')
+
+// Labels
+__('predict::labels.market.status.label')
+__('predict::labels.market.volume.label')
+__('predict::labels.outcome.probability.label')
+
+// Messages
+__('predict::messages.bet.success.message')
+__('predict::messages.bet.error.message')
+
+// Titles
+__('predict::titles.outcome.title.label')
+__('predict::titles.market.title.label')
+
+// Actions
+__('predict::actions.bet.submit.label')
+__('predict::actions.bet.cancel.label')
+
+// Validation
+__('predict::validation.outcome.required')
+__('predict::validation.predict.ends_at.after')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Wrong Examples ❌
 
 ```php
 // ❌ MENO di 5 livelli
+<<<<<<< HEAD
 __('forecast::titles.outcomes')           // ❌ SOLO 2!
 __('forecast::labels.volume')             // ❌ SOLO 2!
 __('forecast::messages.success')          // ❌ SOLO 2!
@@ -131,6 +212,22 @@ __('forecast::messages.bet.success')      // ❌ SOLO 3!
 // ❌ SOLO 4 livelli
 __('forecast::fields.outcome.title')      // ❌ SOLO 4! (manca .label)
 __('forecast::labels.market.status')      // ❌ SOLO 4! (manca .label)
+=======
+__('predict::titles.outcomes')           // ❌ SOLO 2!
+__('predict::labels.volume')             // ❌ SOLO 2!
+__('predict::messages.success')          // ❌ SOLO 2!
+__('predict::fields.title')              // ❌ SOLO 2!
+__('predict::user.first_name')           // ❌ SOLO 2!
+
+// ❌ SOLO 3 livelli
+__('predict::fields.outcome.title')      // ❌ SOLO 3!
+__('predict::labels.market.status')      // ❌ SOLO 3!
+__('predict::messages.bet.success')      // ❌ SOLO 3!
+
+// ❌ SOLO 4 livelli
+__('predict::fields.outcome.title')      // ❌ SOLO 4! (manca .label)
+__('predict::labels.market.status')      // ❌ SOLO 4! (manca .label)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -139,7 +236,11 @@ __('forecast::labels.market.status')      // ❌ SOLO 4! (manca .label)
 
 ### Level 1: Organization
 ```
+<<<<<<< HEAD
 forecast::  → Modulo Forecast
+=======
+predict::  → Modulo Predict
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 blog::     → Modulo Blog
 user::     → Modulo User
 ```
@@ -157,7 +258,11 @@ titles::   → Titoli
 ### Level 3: Collection
 ```
 outcome::  → Collezione outcome
+<<<<<<< HEAD
 forecast::  → Collezione forecast
+=======
+predict::  → Collezione predict
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 market::   → Collezione market
 ```
 **Why**: Raggruppare elementi correlati.
@@ -202,17 +307,29 @@ status::     → Elemento status
 
 ```php
 // 🚩 RED FLAG: MENO di 5 livelli
+<<<<<<< HEAD
 __('forecast::titles.outcomes')      // 🚩 SOLO 2!
 __('forecast::labels.volume')        // 🚩 SOLO 2!
 __('forecast::fields.title')         // 🚩 SOLO 2!
+=======
+__('predict::titles.outcomes')      // 🚩 SOLO 2!
+__('predict::labels.volume')        // 🚩 SOLO 2!
+__('predict::fields.title')         // 🚩 SOLO 2!
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Immediate Fix**:
 ```php
 // ✅ CORRETTO: 5 livelli
+<<<<<<< HEAD
 __('forecast::titles.outcome.title.label')
 __('forecast::labels.market.volume.label')
 __('forecast::fields.forecast.title.label')
+=======
+__('predict::titles.outcome.title.label')
+__('predict::labels.market.volume.label')
+__('predict::fields.predict.title.label')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -223,6 +340,7 @@ __('forecast::fields.forecast.title.label')
 
 ```php
 // ❌ 2 livelli
+<<<<<<< HEAD
 __('forecast::titles.outcomes')
 __('forecast::labels.volume')
 __('forecast::messages.success')
@@ -233,12 +351,25 @@ __('forecast::labels.market.volume')
 
 // ❌ 4 livelli
 __('forecast::fields.outcome.title')  // manca .label
+=======
+__('predict::titles.outcomes')
+__('predict::labels.volume')
+__('predict::messages.success')
+
+// ❌ 3 livelli
+__('predict::fields.outcome.title')
+__('predict::labels.market.volume')
+
+// ❌ 4 livelli
+__('predict::fields.outcome.title')  // manca .label
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### After (Correct) ✅
 
 ```php
 // ✅ 5 livelli
+<<<<<<< HEAD
 __('forecast::titles.outcome.title.label')
 __('forecast::labels.market.volume.label')
 __('forecast::messages.bet.success.message')
@@ -249,6 +380,18 @@ __('forecast::labels.market.volume.label')
 
 // ✅ 5 livelli
 __('forecast::fields.outcome.title.label')  // aggiunto .label
+=======
+__('predict::titles.outcome.title.label')
+__('predict::labels.market.volume.label')
+__('predict::messages.bet.success.message')
+
+// ✅ 5 livelli
+__('predict::fields.outcome.title.label')
+__('predict::labels.market.volume.label')
+
+// ✅ 5 livelli
+__('predict::fields.outcome.title.label')  // aggiunto .label
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -261,8 +404,13 @@ __('forecast::fields.outcome.title.label')  // aggiunto .label
 - **[Use Models Not DB::Table](use-models-not-db-table.md)** - Model usage
 
 ### Module Docs
+<<<<<<< HEAD
 - **[Translation Structure](../../laravel/Modules/Forecast/docs/translation-structure.md)** - Translation guide
 - **[ADR-003 Deprecate Binary Fields](../../laravel/Modules/Forecast/docs/ADR-003_DEPRECATE_BINARY_CREDIT_FIELDS.md)** - Deprecation plan
+=======
+- **[Translation Structure](../../laravel/Modules/Predict/docs/translation-structure.md)** - Translation guide
+- **[ADR-003 Deprecate Binary Fields](../../laravel/Modules/Predict/docs/ADR-003_DEPRECATE_BINARY_CREDIT_FIELDS.md)** - Deprecation plan
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

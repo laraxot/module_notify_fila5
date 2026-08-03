@@ -188,7 +188,11 @@ Themes/Sixteen/resources/views/
 ### Link Esterni
 - [Bootstrap Italia Reference](https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html)
 - [Bootstrap Italia Docs](https://italia.github.io/design-web-toolkit/)
+<<<<<<< HEAD
 - [Notify Homepage](http://laraxot.local/it/tests/homepage)
+=======
+- [FixCity Homepage](http://fixcity.local/it/tests/homepage)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Contributing to Notify
 
 First off, thank you for considering contributing to Notify! 🎉
+=======
+# Contributing to FixCity
+
+First off, thank you for considering contributing to FixCity! 🎉
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 📋 Table of Contents
 
@@ -33,8 +39,13 @@ This project adheres to a Code of Conduct that all contributors are expected to 
 
 ```bash
 # Clone the repository
+<<<<<<< HEAD
 git clone https://github.com/your-org/laraxot.git
 cd laraxot/laravel
+=======
+git clone https://github.com/your-org/fixcity.git
+cd fixcity/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Install PHP dependencies
 composer install
@@ -335,4 +346,8 @@ By contributing, you agree that your contributions will be licensed under the sa
 
 ---
 
+<<<<<<< HEAD
 **Thank you for contributing to Notify! 🚀**
+=======
+**Thank you for contributing to FixCity! 🚀**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

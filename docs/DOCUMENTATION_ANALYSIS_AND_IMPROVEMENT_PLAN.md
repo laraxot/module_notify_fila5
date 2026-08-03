@@ -10,7 +10,11 @@
 
 ### Current State
 
+<<<<<<< HEAD
 The Notify platform has extensive documentation across modules and themes, but suffers from:
+=======
+The FixCity platform has extensive documentation across modules and themes, but suffers from:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 1. **Inconsistent Structure**: Different modules use different organization
 2. **Duplicate Content**: Same topics documented multiple times

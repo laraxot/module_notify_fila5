@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "🏆 Notify Project Completion Summary – 2025-10-01"
+=======
+title: "🏆 FixCity Project Completion Summary – 2025-10-01"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [completion, summary, 2025, 01.deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "completion-summary-2025-10-01.deprecated 🏆 laraxot project completion summary – 2025-10-01"
+=======
+qmd: "completion-summary-2025-10-01.deprecated 🏆 fixcity project completion summary – 2025-10-01"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,11 +26,19 @@ related:
   - "./code-quality-improvements-1.md"
 ---
 
+<<<<<<< HEAD
 # 🏆 Notify Project Completion Summary – 2025-10-01
 
 ## Executive Summary
 
 Piano strategico di completamento del progetto Notify per posizionarlo come il migliore del 2025.
+=======
+# 🏆 FixCity Project Completion Summary – 2025-10-01
+
+## Executive Summary
+
+Piano strategico di completamento del progetto FixCity per posizionarlo come il migliore del 2025.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Focus su API Development, Test Coverage, AGID Compliance, e Code Quality Excellence.
 
 ## Obiettivi Completamento 2025
@@ -44,7 +60,11 @@ Diventare la piattaforma civic tech leader in Italia con:
 
 | Modulo | Completamento | PHPStan | Filament 4.x | Priorità |
 |--------|--------------|---------|--------------|----------|
+<<<<<<< HEAD
 | **App** | 80% | ✅ Level 9 | ✅ Compatible | CRITICAL |
+=======
+| **Fixcity** | 80% | ✅ Level 9 | ✅ Compatible | CRITICAL |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **User** | 90% | ✅ Level 9 | ✅ Compatible | HIGH |
 | **Blog** | 85% | ✅ Level 9 | ✅ Compatible | HIGH |
 | **Seo** | 80% | ✅ Level 9 | ✅ Compatible | HIGH |
@@ -65,7 +85,11 @@ Diventare la piattaforma civic tech leader in Italia con:
 
 ### 1. Code Quality Improvements
 
+<<<<<<< HEAD
 #### App Module
+=======
+#### Fixcity Module
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ **Fixed** `Ticket` model return type (`getMediaAttribute()`)
 - ✅ **Validated** with PHPStan Level 9 - 0 errors
 - ✅ **Added** test coverage for media attribute
@@ -74,7 +98,11 @@ Diventare la piattaforma civic tech leader in Italia con:
 - ✅ **Implemented** API Requests (StoreTicketRequest, UpdateTicketRequest)
 
 #### Configuration
+<<<<<<< HEAD
 - ✅ **Fixed** parse error in `config/it/appofficina/manager2/xra.php`
+=======
+- ✅ **Fixed** parse error in `config/it/quaerisofficina/manager2/xra.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ **Unblocked** PHPStan analysis across all modules
 
 ### 2. Documentation Updates
@@ -95,7 +123,11 @@ Diventare la piattaforma civic tech leader in Italia con:
 
 ### 3. API Development
 
+<<<<<<< HEAD
 #### RESTful Endpoints (App Tickets)
+=======
+#### RESTful Endpoints (Fixcity Tickets)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ `GET /api/tickets` - Lista ticket con filtri e paginazione
 - ✅ `POST /api/tickets` - Creazione ticket
 - ✅ `GET /api/tickets/{id}` - Dettaglio ticket
@@ -125,7 +157,11 @@ Diventare la piattaforma civic tech leader in Italia con:
 - [x] API Controller completo per Tickets
 - [x] API Resources e Requests
 - [x] Documentazione aggiornata con 2025 timelines
+<<<<<<< HEAD
 - [ ] Test Coverage >60% per App
+=======
+- [ ] Test Coverage >60% per Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Mobile optimization audit
 - [ ] AGID compliance audit
 
@@ -302,7 +338,11 @@ Diventare la piattaforma civic tech leader in Italia con:
 
 ## 📝 Conclusion
 
+<<<<<<< HEAD
 Il progetto Notify è posizionato eccellentemente per diventare la piattaforma civic tech leader in Italia nel 2025. Con:
+=======
+Il progetto FixCity è posizionato eccellentemente per diventare la piattaforma civic tech leader in Italia nel 2025. Con:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - ✅ **Fondamenta solide**: PHPStan Level 9, Filament 4.x, Laravel 11.x
 - ✅ **API moderne**: RESTful completo con autenticazione

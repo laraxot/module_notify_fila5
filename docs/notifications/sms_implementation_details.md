@@ -108,23 +108,39 @@ use NotificationChannels\Twilio\TwilioSmsMessage;
 class AppointmentReminder extends Notification
 {
     protected $appointment;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct($appointment)
     {
         $this->appointment = $appointment;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function via($notifiable)
     {
         return [TwilioChannel::class];
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function toTwilio($notifiable)
     {
         $formattedDate = $this->appointment->formatted_date;
         $formattedTime = $this->appointment->formatted_time;
         $doctor = $this->appointment->doctor->name;
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return (new TwilioSmsMessage())
             ->content("Promemoria: hai un appuntamento il {$formattedDate} alle {$formattedTime} con il Dr. {$doctor}. Conferma rispondendo SI o annulla con NO.");
     }
@@ -142,27 +158,48 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class User extends Authenticatable
 {
     use Notifiable;
+<<<<<<< HEAD
 
     // ...
 
+=======
+    
+    // ...
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function routeNotificationForTwilio()
     {
         // Garantisci che il numero sia in formato E.164 (es. +393331234567)
         $phoneNumber = $this->phone_number;
+<<<<<<< HEAD
 
         // Rimuovi eventuali spazi o caratteri non numerici
         $phoneNumber = preg_replace('/[^0-9]/', '', $phoneNumber);
 
+=======
+        
+        // Rimuovi eventuali spazi o caratteri non numerici
+        $phoneNumber = preg_replace('/[^0-9]/', '', $phoneNumber);
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Se inizia con 0, sostituisci con +39
         if (strpos($phoneNumber, '0') === 0) {
             $phoneNumber = '+39' . substr($phoneNumber, 1);
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Se non ha prefisso, aggiungi +39
         if (strpos($phoneNumber, '+') !== 0) {
             $phoneNumber = '+39' . $phoneNumber;
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return $phoneNumber;
     }
 }
@@ -199,9 +236,15 @@ use Illuminate\Support\Facades\Log;
 class SendSMSHostingAction
 {
     use QueueableAction;
+<<<<<<< HEAD
 
     protected $client;
 
+=======
+    
+    protected $client;
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct()
     {
         $this->client = new Client(
@@ -209,7 +252,11 @@ class SendSMSHostingAction
             config('sms.smshosting.password')
         );
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function execute(string $to, string $content, array $options = [])
     {
         try {
@@ -219,13 +266,21 @@ class SendSMSHostingAction
                 'from' => config('sms.smshosting.sender'),
                 'options' => $options,
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             Log::info('SMS inviato con successo', [
                 'to' => $to,
                 'provider' => 'SMSHosting',
                 'message_id' => $response->getId() ?? null,
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             return $response;
         } catch (\Exception $e) {
             Log::error('Errore invio SMS', [
@@ -233,7 +288,11 @@ class SendSMSHostingAction
                 'provider' => 'SMSHosting',
                 'error' => $e->getMessage(),
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             throw $e;
         }
     }
@@ -251,20 +310,34 @@ use Modules\Notify\Actions\SMS\SendSMSHostingAction;
 class SMSHostingChannel
 {
     protected $sendSMSAction;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct(SendSMSHostingAction $sendSMSAction)
     {
         $this->sendSMSAction = $sendSMSAction;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function send($notifiable, Notification $notification)
     {
         if (! $to = $notifiable->routeNotificationForSMSHosting()) {
             return;
         }
+<<<<<<< HEAD
 
         $message = $notification->toSMSHosting($notifiable);
 
+=======
+        
+        $message = $notification->toSMSHosting($notifiable);
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Esecuzione asincrona dell'azione
         return $this->sendSMSAction->onQueue('sms')
             ->execute($to, $message->content, $message->options);
@@ -281,7 +354,11 @@ return [
         'username' => env('SMSHOSTING_USERNAME'),
         'password' => env('SMSHOSTING_PASSWORD'),
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
+=======
+        'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     ],
 ];
 ```
@@ -295,11 +372,16 @@ class SMSHostingMessage
 {
     public $content;
     public $options = [];
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct($content = '')
     {
         $this->content = $content;
     }
+<<<<<<< HEAD
 
     public function content($content)
     {
@@ -319,6 +401,27 @@ class SMSHostingMessage
     {
         $this->options['flash'] = true;
 
+=======
+    
+    public function content($content)
+    {
+        $this->content = $content;
+        
+        return $this;
+    }
+    
+    public function unicode()
+    {
+        $this->options['unicode'] = true;
+        
+        return $this;
+    }
+    
+    public function flash()
+    {
+        $this->options['flash'] = true;
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return $this;
     }
 }
@@ -340,17 +443,29 @@ use Illuminate\Support\Facades\Log;
 class SendTelcobSMSAction
 {
     use QueueableAction;
+<<<<<<< HEAD
 
     protected $apiKey;
     protected $sender;
     protected $baseUrl = 'https://api.telcob.com/sms/v1';
 
+=======
+    
+    protected $apiKey;
+    protected $sender;
+    protected $baseUrl = 'https://api.telcob.com/sms/v1';
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct()
     {
         $this->apiKey = config('sms.telcob.api_key');
         $this->sender = config('sms.telcob.sender');
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function execute(string $to, string $message, array $options = [])
     {
         try {
@@ -363,7 +478,11 @@ class SendTelcobSMSAction
                 'from' => $this->sender,
                 'options' => $options,
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             if ($response->successful()) {
                 Log::info('SMS Telcob inviato con successo', [
                     'to' => $to,
@@ -376,14 +495,22 @@ class SendTelcobSMSAction
                     'body' => $response->json(),
                 ]);
             }
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             return $response;
         } catch (\Exception $e) {
             Log::error('Errore invio SMS Telcob', [
                 'to' => $to,
                 'error' => $e->getMessage(),
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             throw $e;
         }
     }
@@ -401,20 +528,34 @@ use Modules\Notify\Actions\SMS\SendTelcobSMSAction;
 class TelcobChannel
 {
     protected $sendSMSAction;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct(SendTelcobSMSAction $sendSMSAction)
     {
         $this->sendSMSAction = $sendSMSAction;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function send($notifiable, Notification $notification)
     {
         if (! $to = $notifiable->routeNotificationForTelcob()) {
             return;
         }
+<<<<<<< HEAD
 
         $message = $notification->toTelcob($notifiable);
 
+=======
+        
+        $message = $notification->toTelcob($notifiable);
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Esecuzione asincrona dell'azione
         return $this->sendSMSAction->onQueue('sms')
             ->execute($to, $message->content, $message->options ?? []);
@@ -451,21 +592,34 @@ class PhoneNumberFormatter
     {
         // Rimuovi tutti i caratteri non numerici
         $phoneNumber = preg_replace('/[^0-9+]/', '', $phoneNumber);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Se il numero inizia con + è già in formato internazionale
         if (strpos($phoneNumber, '+') === 0) {
             return $phoneNumber;
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Se inizia con 00, sostituisci con +
         if (strpos($phoneNumber, '00') === 0) {
             return '+' . substr($phoneNumber, 2);
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Se inizia con 0, assumi che sia un numero italiano e rimuovi lo 0
         if (strpos($phoneNumber, '0') === 0) {
             return '+' . $defaultCountryCode . substr($phoneNumber, 1);
         }
+<<<<<<< HEAD
 
         // Altrimenti aggiungi solo il prefisso
         return '+' . $defaultCountryCode . $phoneNumber;
@@ -475,6 +629,17 @@ class PhoneNumberFormatter
     {
         $e164 = self::formatToE164($phoneNumber);
 
+=======
+        
+        // Altrimenti aggiungi solo il prefisso
+        return '+' . $defaultCountryCode . $phoneNumber;
+    }
+    
+    public static function isValidItalianMobile($phoneNumber)
+    {
+        $e164 = self::formatToE164($phoneNumber);
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // I numeri di cellulare italiani iniziano con +393
         return preg_match('/^\+393\d{8,9}$/', $e164) === 1;
     }
@@ -494,17 +659,29 @@ use Modules\Notify\Channels\SMSHostingChannel;
 class MockSMSChannel extends SMSHostingChannel
 {
     public $messages = [];
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function send($notifiable, Notification $notification)
     {
         $to = $notifiable->routeNotificationForSMSHosting();
         $message = $notification->toSMSHosting($notifiable);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         $this->messages[] = [
             'to' => $to,
             'content' => $message->content,
         ];
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return true;
     }
 }
@@ -529,6 +706,7 @@ class SMSNotificationTest extends TestCase
         // Arrange
         $user = User::factory()->create(['phone_number' => '+393331234567']);
         $appointment = Appointment::factory()->create(['user_id' => $user->id]);
+<<<<<<< HEAD
 
         $mockChannel = new MockSMSChannel();
         $this->app->instance(SMSHostingChannel::class, $mockChannel);
@@ -536,22 +714,42 @@ class SMSNotificationTest extends TestCase
         // Act
         $user->notify(new AppointmentReminder($appointment));
 
+=======
+        
+        $mockChannel = new MockSMSChannel();
+        $this->app->instance(SMSHostingChannel::class, $mockChannel);
+        
+        // Act
+        $user->notify(new AppointmentReminder($appointment));
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Assert
         $this->assertCount(1, $mockChannel->messages);
         $this->assertEquals('+393331234567', $mockChannel->messages[0]['to']);
         $this->assertStringContainsString($appointment->formatted_date, $mockChannel->messages[0]['content']);
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function testSMSNotSentWhenPhoneInvalid()
     {
         // Arrange
         Notification::fake();
         $user = User::factory()->create(['phone_number' => 'invalid-number']);
         $appointment = Appointment::factory()->create(['user_id' => $user->id]);
+<<<<<<< HEAD
 
         // Act
         $user->notify(new AppointmentReminder($appointment));
 
+=======
+        
+        // Act
+        $user->notify(new AppointmentReminder($appointment));
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Assert
         Notification::assertNothingSent();
     }
@@ -574,21 +772,34 @@ class ImportantNotification extends Notification
 {
     protected $record;
     protected $slug;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct($record, $slug)
     {
         $this->record = $record;
         $this->slug = $slug;
     }
+<<<<<<< HEAD
 
     public function via($notifiable)
     {
         $channels = ['mail'];
 
+=======
+    
+    public function via($notifiable)
+    {
+        $channels = ['mail'];
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Aggiungi SMS solo se l'utente ha un numero di telefono valido
         if ($notifiable->phone_number && $notifiable->sms_notifications_enabled) {
             $channels[] = TwilioChannel::class;
         }
+<<<<<<< HEAD
 
         return $channels;
     }
@@ -597,14 +808,31 @@ class ImportantNotification extends Notification
     {
         $email = new SpatieEmail($this->record, $this->slug);
 
+=======
+        
+        return $channels;
+    }
+    
+    public function toMail($notifiable)
+    {
+        $email = new SpatieEmail($this->record, $this->slug);
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // IMPORTANTE: garantisci che ci sia sempre un destinatario
         if (method_exists($notifiable, 'routeNotificationFor')) {
             $email->to($notifiable->routeNotificationFor('mail'));
         }
+<<<<<<< HEAD
 
         return $email;
     }
 
+=======
+        
+        return $email;
+    }
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function toTwilio($notifiable)
     {
         return (new TwilioSmsMessage())
@@ -628,25 +856,41 @@ use Modules\Notify\Notifications\SMSFailureNotification;
 class SendNotificationWithRetryAction
 {
     use QueueableAction;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Configurazione della coda
     public $tries = 3;
     public $backoff = 60; // 1 minuto tra i tentativi
     public $queue = 'notifications';
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function execute($notifiable, $notification, array $options = [])
     {
         try {
             // Invio della notifica
             $notifiable->notify($notification);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             // Registrazione del successo
             Log::info('Notifica inviata con successo', [
                 'notifiable_type' => get_class($notifiable),
                 'notifiable_id' => $notifiable->id,
                 'notification_class' => get_class($notification),
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             return true;
         } catch (\Exception $e) {
             // Registrazione dell'errore
@@ -656,10 +900,17 @@ class SendNotificationWithRetryAction
                 'notification_class' => get_class($notification),
                 'attempt' => $options['attempt'] ?? 1,
             ]);
+<<<<<<< HEAD
 
             // Incrementa il contatore di tentativi
             $attempt = ($options['attempt'] ?? 1) + 1;
 
+=======
+            
+            // Incrementa il contatore di tentativi
+            $attempt = ($options['attempt'] ?? 1) + 1;
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             // Se non abbiamo superato il numero massimo di tentativi, ritenta
             if ($attempt <= $this->tries) {
                 // Pianifica un nuovo tentativo dopo il backoff
@@ -669,12 +920,20 @@ class SendNotificationWithRetryAction
                 // Invia notifica di fallimento via email se abbiamo esaurito i tentativi
                 $this->sendFailureNotification($notifiable, $notification);
             }
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             // Propaga l'eccezione per gestione esterna
             throw $e;
         }
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     protected function sendFailureNotification($notifiable, $notification)
     {
         // Controlla se il notifiable ha un indirizzo email
@@ -700,6 +959,7 @@ use Modules\Notify\Notifications\AppointmentReminder;
 class AppointmentService
 {
     public function sendReminders($appointments)
+<<<<<<< HEAD
     {
         $sendNotificationAction = app(SendNotificationWithRetryAction::class);
 
@@ -707,6 +967,15 @@ class AppointmentService
             // Crea la notifica
             $notification = new AppointmentReminder($appointment);
 
+=======
+    {   
+        $sendNotificationAction = app(SendNotificationWithRetryAction::class);
+        
+        foreach ($appointments as $appointment) {
+            // Crea la notifica
+            $notification = new AppointmentReminder($appointment);
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             // Invia la notifica con gestione tentativi via Queueable Action
             // L'esecuzione sarà asincrona sulla coda 'notifications'
             $sendNotificationAction->onQueue('notifications')
@@ -735,10 +1004,17 @@ Quando si inviano SMS, è necessario rispettare le normative GDPR:
 public function toTwilio($notifiable)
 {
     return (new TwilioSmsMessage())
+<<<<<<< HEAD
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}.
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}.
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
+=======
+        ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
+        ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: saluteora.it/privacy");
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 }
 ```
 
@@ -762,23 +1038,39 @@ class ConsentLog extends Model
         'consent_text',
         'revoked_at',
     ];
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     protected $casts = [
         'consented_at' => 'datetime',
         'revoked_at' => 'datetime',
     ];
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function user()
     {
         return $this->belongsTo(User::class);
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function scopeActive($query)
     {
         return $query->whereNotNull('consented_at')
             ->whereNull('revoked_at');
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function scopeForChannel($query, $channel)
     {
         return $query->where('channel', $channel);

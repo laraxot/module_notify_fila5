@@ -2,7 +2,11 @@
 
 ## Overview
 
+<<<<<<< HEAD
 `ContactTypeEnum` è il componente centrale per la gestione dei contatti nel sistema App. Fornisce una struttura unificata per tutti i tipi di contatto (telefono, email, PEC, WhatsApp, ecc.) seguendo i principi dell'architettura Laraxot.
+=======
+`ContactTypeEnum` è il componente centrale per la gestione dei contatti nel sistema TechPlanner. Fornisce una struttura unificata per tutti i tipi di contatto (telefono, email, PEC, WhatsApp, ecc.) seguendo i principi dell'architettura Laraxot.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Architettura
 

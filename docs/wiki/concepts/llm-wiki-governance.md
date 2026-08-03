@@ -6,7 +6,11 @@
 
 ## Purpose
 
+<<<<<<< HEAD
 This page defines how the Karpathy-style LLM wiki maps onto the Notify repository.
+=======
+This page defines how the Karpathy-style LLM wiki maps onto the FixCity repository.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Mapping
 

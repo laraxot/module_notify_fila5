@@ -1,15 +1,28 @@
+<<<<<<< HEAD
 # Notify Project Configuration
 
 **Last Updated**: 2026-03-30  
 **Source**: `laravel/.env` + `laravel/config/local/laraxot/xra.php`
+=======
+# FixCity Project Configuration
+
+**Last Updated**: 2026-03-30  
+**Source**: `laravel/.env` + `laravel/config/local/fixcity/xra.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Quick Reference
 
 | Setting | Value | Source |
 |---------|-------|--------|
+<<<<<<< HEAD
 | **APP_URL** | `http://laraxot.local` | `.env` |
 | **Domain** | `laraxot.local` | Derived |
 | **Config Path** | `config/local/laraxot/xra.php` | Derived |
+=======
+| **APP_URL** | `http://fixcity.local` | `.env` |
+| **Domain** | `fixcity.local` | Derived |
+| **Config Path** | `config/local/fixcity/xra.php` | Derived |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Active Theme** | `Sixteen` | Config |
 | **Document Root** | `public_html/` | Structure |
 | **Primary Lang** | `it` | Config |
@@ -27,8 +40,13 @@ The active theme is determined by this algorithm:
 function detectTheme(): string
 {
     // 1. Read APP_URL
+<<<<<<< HEAD
     $appUrl = env('APP_URL', 'http://laraxot.local');
     // Result: "http://laraxot.local"
+=======
+    $appUrl = env('APP_URL', 'http://fixcity.local');
+    // Result: "http://fixcity.local"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     
     // 2. Remove protocol and www
     $domain = str_replace(
@@ -36,6 +54,7 @@ function detectTheme(): string
         '', 
         $appUrl
     );
+<<<<<<< HEAD
     // Result: "laraxot.local"
     
     // 3. Explode by dot and reverse
@@ -45,6 +64,17 @@ function detectTheme(): string
     // 4. Join with slash
     $configPath = implode('/', $parts);
     // Result: "local/laraxot"
+=======
+    // Result: "fixcity.local"
+    
+    // 3. Explode by dot and reverse
+    $parts = array_reverse(explode('.', $domain));
+    // Result: ["local", "fixcity"]
+    
+    // 4. Join with slash
+    $configPath = implode('/', $parts);
+    // Result: "local/fixcity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     
     // 5. Read config file
     $config = include base_path("config/{$configPath}/xra.php");
@@ -57,7 +87,11 @@ function detectTheme(): string
 
 ## Configuration File
 
+<<<<<<< HEAD
 **Path**: `laravel/config/local/laraxot/xra.php`
+=======
+**Path**: `laravel/config/local/fixcity/xra.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```php
 <?php
@@ -67,7 +101,11 @@ declare(strict_types=1);
 return [
     'adm_home' => '01',
     'enable_ads' => '1',
+<<<<<<< HEAD
     'main_module' => 'App',
+=======
+    'main_module' => 'Fixcity',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     'primary_lang' => 'it',
     'pub_theme' => 'Sixteen',              // ← ACTIVE THEME
     'search_action' => 'it/videos',
@@ -82,7 +120,11 @@ return [
 ## Project Structure
 
 ```
+<<<<<<< HEAD
 base_ptvx_fila5/
+=======
+base_fixcity_fila5/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── public_html/                    # 📁 DOCUMENT ROOT
 │   ├── assets/                    # Theme assets (CSS, JS, images)
 │   ├── index.php                  # Entry point
@@ -91,7 +133,11 @@ base_ptvx_fila5/
 ├── laravel/                       # 🎂 LARAVEL APPLICATION
 │   ├── .env                       # Environment config (APP_URL)
 │   ├── config/
+<<<<<<< HEAD
 │   │   └── local/laraxot/xra.php # Theme config
+=======
+│   │   └── local/fixcity/xra.php # Theme config
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   ├── Modules/                   # Feature modules
 │   │   ├── AI/
 │   │   ├── Activity/
@@ -123,7 +169,11 @@ base_ptvx_fila5/
 
 | Path | Description | Example |
 |------|-------------|---------|
+<<<<<<< HEAD
 | `base_path()` | Project root | `/var/www/_bases/base_ptvx_fila5/` |
+=======
+| `base_path()` | Project root | `/var/www/_bases/base_fixcity_fila5/` |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | `base_path('public_html')` | Document root | `.../public_html/` |
 | `base_path('laravel')` | Laravel app | `.../laravel/` |
 | `base_path('laravel/Themes/Sixteen')` | Active theme | `.../laravel/Themes/Sixteen/` |
@@ -150,10 +200,17 @@ base_ptvx_fila5/
 APP_NAME=Laravel
 APP_ENV=local
 APP_DEBUG=true
+<<<<<<< HEAD
 APP_URL=http://laraxot.local          # ← Used for theme detection
 
 DB_CONNECTION=sqlite
 DB_DATABASE=app_data
+=======
+APP_URL=http://fixcity.local          # ← Used for theme detection
+
+DB_CONNECTION=sqlite
+DB_DATABASE=fixcity_data
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Theme-specific
 CACHE_DRIVER=file

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 📊 Quality Dashboard - Notify Project
+=======
+# 📊 Quality Dashboard - FixCity Project
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Last Updated:** 2025-10-01 21:35  
 **Status:** 🟢 Excellent
@@ -46,7 +50,11 @@ Coverage by Module:
 Xot      ████████████████████████████████████████ 90%
 Tenant   ████████████████████████████████████████ 88%
 User     ████████████████████████████████████████ 85%
+<<<<<<< HEAD
 App  ████████████████████████████████████████ 82%
+=======
+Fixcity  ████████████████████████████████████████ 82%
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Blog     ████████████████████████████████████████ 80%
 Others   ████████████████████████████████████████ 85%
 ```
@@ -87,7 +95,11 @@ Others   ███████████████████████�
 | Module | Score | Complexity | Tests | PHPStan |
 |--------|-------|------------|-------|---------|
 | Tenant | 94% | 🟢 0 | 🟢 88% | 🟢 Pass |
+<<<<<<< HEAD
 | App | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
+=======
+| Fixcity | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | UI | 91% | 🟢 0 | 🟢 85% | 🟢 Pass |
 | Cms | 90% | 🟢 0 | 🟢 80% | 🟢 Pass |
 
@@ -264,9 +276,15 @@ Overall Progress: ████████████████████�
 
 ## 📞 Quality Team Contacts
 
+<<<<<<< HEAD
 - **Quality Lead**: quality@laraxot.com
 - **Architecture**: architecture@laraxot.com
 - **Testing**: testing@laraxot.com
+=======
+- **Quality Lead**: quality@fixcity.com
+- **Architecture**: architecture@fixcity.com
+- **Testing**: testing@fixcity.com
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

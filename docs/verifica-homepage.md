@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "📸 Verifica Visiva Homepage Notify"
+=======
+title: "📸 Verifica Visiva Homepage FixCity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [verifica, homepage]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "verifica-homepage 📸 verifica visiva homepage laraxot"
+=======
+qmd: "verifica-homepage 📸 verifica visiva homepage fixcity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 📸 Verifica Visiva Homepage Notify
+=======
+# 📸 Verifica Visiva Homepage FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Confronto con Bootstrap Italia Reference
 
@@ -40,7 +52,11 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
+<<<<<<< HEAD
 <!-- Notify Implementation -->
+=======
+<!-- FixCity Implementation -->
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 <h2 id="evidenza-title">CONTENUTI IN EVIDENZA</h2>
 <article class="card card-teaser shadow-sm">
   <div class="card-body">
@@ -64,7 +80,11 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
+<<<<<<< HEAD
 <!-- Notify Implementation -->
+=======
+<!-- FixCity Implementation -->
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 <div class="col-lg-4 col-md-6">
   <div class="card card-teaser shadow-sm h-100">
     <div class="card-body">
@@ -90,7 +110,11 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </ul>
 </div>
 
+<<<<<<< HEAD
 <!-- Notify Implementation -->
+=======
+<!-- FixCity Implementation -->
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 <div class="calendar-event mb-3 pb-3 border-bottom">
   <div class="row">
     <div class="col-3 col-md-2">
@@ -121,7 +145,11 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
+<<<<<<< HEAD
 <!-- Notify Implementation -->
+=======
+<!-- FixCity Implementation -->
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 <div class="col-lg-3 col-md-6">
   <div class="card card-teaser shadow-sm h-100">
     <div class="card-body">
@@ -142,24 +170,40 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 
 ### 1. Card Date Format
 - **Bootstrap Italia**: `Notizie 18 mag 2022` (inline)
+<<<<<<< HEAD
 - **Notify**: `Notizie 18 mar 2026` (con classi Tailwind)
+=======
+- **FixCity**: `Notizie 18 mar 2026` (con classi Tailwind)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Impatto**: Minimo - formato corretto
 
 ### 2. Button Sizes
 - **Bootstrap Italia**: `btn btn-outline-primary`
+<<<<<<< HEAD
 - **Notify**: `btn btn-outline-primary btn-sm`
+=======
+- **FixCity**: `btn btn-outline-primary btn-sm`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Motivo**: Adattamento per responsive
 
 ### 3. Icon Usage
 - **Bootstrap Italia**: SVG inline
+<<<<<<< HEAD
 - **Notify**: SVG sprites con `<use>`
+=======
+- **FixCity**: SVG sprites con `<use>`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Motivo**: Performance e manutenzione
 
 ---
 
 ## 📊 Checklist Completa
 
+<<<<<<< HEAD
 | Sezione | Bootstrap Italia | Notify | Stato |
+=======
+| Sezione | Bootstrap Italia | FixCity | Stato |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 |---------|-----------------|---------|-------|
 | Skip Links | ✅ | ✅ | ✅ |
 | Header | ✅ | ✅ (via section) | ✅ |
@@ -193,7 +237,11 @@ Le differenze residue sono:
 Bootstrap Italia:  [H2] CONTENUTI IN EVIDENZA
                    [Card with image + text]
 
+<<<<<<< HEAD
 Notify:          [H2] CONTENUTI IN EVIDENZA  
+=======
+FixCity:          [H2] CONTENUTI IN EVIDENZA  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                    [Card with image + text]
                    ✅ MATCH
 ```
@@ -201,21 +249,33 @@ Notify:          [H2] CONTENUTI IN EVIDENZA
 ### Governance
 ```
 Bootstrap Italia:  [3 Cards: Sindaco, Giunta, Consiglio]
+<<<<<<< HEAD
 Notify:          [3 Cards: Sindaco, Giunta, Consiglio]
+=======
+FixCity:          [3 Cards: Sindaco, Giunta, Consiglio]
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                    ✅ MATCH
 ```
 
 ### Events
 ```
 Bootstrap Italia:  [Calendar with dates 15-21]
+<<<<<<< HEAD
 Notify:          [Calendar with dates 15-18]
+=======
+FixCity:          [Calendar with dates 15-18]
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                    ✅ MATCH (structure identical)
 ```
 
 ### Topics
 ```
 Bootstrap Italia:  [4 Cards + "Altri Argomenti"]
+<<<<<<< HEAD
 Notify:          [4 Cards + "Altri Argomenti"]
+=======
+FixCity:          [4 Cards + "Altri Argomenti"]
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                    ✅ MATCH
 ```
 
@@ -223,6 +283,12 @@ Notify:          [4 Cards + "Altri Argomenti"]
 
 ## ✅ Conclusione
 
+<<<<<<< HEAD
 La homepage Notify **È CONFORME** al design Bootstrap Italia.
 
 URL di test: http://laraxot.local/it/tests/homepage
+=======
+La homepage FixCity **È CONFORME** al design Bootstrap Italia.
+
+URL di test: http://fixcity.local/it/tests/homepage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

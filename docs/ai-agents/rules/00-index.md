@@ -29,7 +29,11 @@ related:
 
 ## 🎯 Rule #1: Filament Tables for Lists
 
+<<<<<<< HEAD
 > **MAI** creare blade personalizzati per liste di outcomes, forecast, o dati tabellari.
+=======
+> **MAI** creare blade personalizzati per liste di outcomes, predict, o dati tabellari.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 > **SEMPRE** usare Filament Table Widget che ha già:
 > - ✅ Search (debounce 400ms)
 > - ✅ Sorting (multi-column)
@@ -45,7 +49,11 @@ related:
 
 ```php
 // ✅ CORRETTO - Filament Table Widget
+<<<<<<< HEAD
 class ForecastTableWidget extends TableWidget
+=======
+class PredictTableWidget extends TableWidget
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 {
     public function table(Table $table): Table
     {
@@ -111,14 +119,22 @@ if ($isBinary) {
 ## 🎯 Rule #3: Container Agnostic
 
 > **MAI** logica specifica nel container blade
+<<<<<<< HEAD
 > Container deve essere **agnostico** (forecasts, articles, events, etc.)
+=======
+> Container deve essere **agnostico** (predicts, articles, events, etc.)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### ✅ CORRECT - Agnostic Container
 
 ```blade
 {{-- ✅ CORRETTO - Container agnostico --}}
 <div>
+<<<<<<< HEAD
     @livewire('view-forecast-widget', ['forecast' => $forecast])
+=======
+    @livewire('view-predict-widget', ['predict' => $predict])
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 </div>
 ```
 
@@ -126,7 +142,11 @@ if ($isBinary) {
 
 ```blade
 {{-- ❌ SBAGLIATO - Logica specifica nel container --}}
+<<<<<<< HEAD
 @if($container0 === 'forecasts')
+=======
+@if($container0 === 'predicts')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     {{-- domain logic --}}
 @endif
 ```
@@ -144,7 +164,11 @@ if ($isBinary) {
 // ✅ CORRETTO - Action class
 class BuildOutcomesAction extends Action
 {
+<<<<<<< HEAD
     public function execute(Forecast $forecast): array
+=======
+    public function execute(Predict $predict): array
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     {
         // Business logic here
     }

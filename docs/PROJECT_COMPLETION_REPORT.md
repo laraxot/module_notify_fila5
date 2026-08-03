@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Report di Completamento Progetto App
 
 ## Panoramica
@@ -7,6 +8,17 @@ Il progetto App è stato completato con successo, implementando un sistema compl
 ## Componenti Completati
 
 ### 1. Modulo App ✅
+=======
+# Report di Completamento Progetto Fixcity
+
+## Panoramica
+
+Il progetto Fixcity è stato completato con successo, implementando un sistema completo di gestione segnalazioni comunali con design system AGID e integrazione avanzata.
+
+## Componenti Completati
+
+### 1. Modulo Fixcity ✅
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **API RESTful Complete**: Endpoint per gestione ticket, mappe, statistiche
 - **Sistema di Workflow**: Gestione stati e priorità delle segnalazioni
 - **Notifiche**: Sistema email e push notifications
@@ -72,7 +84,11 @@ Il progetto App è stato completato con successo, implementando un sistema compl
 
 ```
 laravel/
+<<<<<<< HEAD
 ├── Modules/App/                 # Modulo principale
+=======
+├── Modules/Fixcity/                 # Modulo principale
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   ├── app/                        # Logica applicativa
 │   ├── database/                   # Migrazioni e seeder
 │   ├── resources/                  # Views e assets
@@ -113,6 +129,7 @@ COMUNE_COLORE_PRIMARIO="#0066cc"
 COMUNE_COLORE_SECONDARIO="#00cc66"
 COMUNE_COLORE_ACCENTO="#ff6600"
 
+<<<<<<< HEAD
 # Configurazione App
 NOTIFY_CACHE_ENABLED=true
 NOTIFY_EMAIL_NOTIFICATIONS=true
@@ -120,6 +137,15 @@ NOTIFY_PUSH_NOTIFICATIONS=true
 NOTIFY_MAP_ENABLED=true
 NOTIFY_SEARCH_ENABLED=true
 NOTIFY_ANALYTICS_ENABLED=true
+=======
+# Configurazione Fixcity
+FIXCITY_CACHE_ENABLED=true
+FIXCITY_EMAIL_NOTIFICATIONS=true
+FIXCITY_PUSH_NOTIFICATIONS=true
+FIXCITY_MAP_ENABLED=true
+FIXCITY_SEARCH_ENABLED=true
+FIXCITY_ANALYTICS_ENABLED=true
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Routes Disponibili
@@ -132,10 +158,17 @@ NOTIFY_ANALYTICS_ENABLED=true
 /comune/documenti          # Documenti
 /comune/eventi             # Eventi
 
+<<<<<<< HEAD
 // API App
 /api/laraxot/tickets       # Gestione ticket
 /api/laraxot/map/tickets   # Mappa ticket
 /api/laraxot/statistics    # Statistiche
+=======
+// API Fixcity
+/api/fixcity/tickets       # Gestione ticket
+/api/fixcity/map/tickets   # Mappa ticket
+/api/fixcity/statistics    # Statistiche
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Test Implementati
@@ -255,7 +288,11 @@ php artisan view:cache
 
 ## Conclusioni
 
+<<<<<<< HEAD
 Il progetto App è stato completato con successo, fornendo:
+=======
+Il progetto Fixcity è stato completato con successo, fornendo:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 1. **Sistema Completo**: Gestione segnalazioni end-to-end
 2. **Design AGID**: Conformità alle linee guida PA italiana
@@ -269,7 +306,11 @@ Il sistema è pronto per il deployment in produzione e può essere facilmente pe
 
 ## Team e Contributi
 
+<<<<<<< HEAD
 - **Sviluppo**: App Team
+=======
+- **Sviluppo**: Fixcity Team
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Design**: Bootstrap Italia + AGID
 - **Testing**: Pest + PHPUnit
 - **Documentazione**: Markdown + README

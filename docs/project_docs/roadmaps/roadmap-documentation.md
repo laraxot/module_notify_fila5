@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 📚 ROADMAP DOCUMENTAZIONE - NOTIFY PLATFORM
+=======
+# 📚 ROADMAP DOCUMENTAZIONE - FIXCITY PLATFORM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Versione**: 1.0  
 **Data Creazione**: Gennaio 2025  
@@ -6,7 +10,11 @@
 **Priorità**: ALTA  
 
 ## 🎯 Obiettivo
+<<<<<<< HEAD
 Creare un ecosistema di documentazione completo, accessibile e mantenibile per tutti gli stakeholder del progetto Notify.
+=======
+Creare un ecosistema di documentazione completo, accessibile e mantenibile per tutti gli stakeholder del progetto FixCity.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 📊 Stato Attuale
 - **Documentazione Moduli**: 60% completata
@@ -69,7 +77,11 @@ docs/
 #### Moduli da Documentare
 - [x] **Xot**: Framework base (completato)
 - [x] **User**: Gestione utenti (completato)
+<<<<<<< HEAD
 - [x] **App**: Core business (completato)
+=======
+- [x] **Fixcity**: Core business (completato)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] **UI**: Componenti interfaccia
 - [ ] **Geo**: Gestione geografica
 - [ ] **Media**: Gestione file
@@ -167,7 +179,11 @@ docs/
 # OpenAPI specification
 openapi: 3.0.0
 info:
+<<<<<<< HEAD
   title: Notify API
+=======
+  title: FixCity API
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   version: 1.0.0
   description: API per la gestione segnalazioni urbane
 paths:
@@ -371,7 +387,11 @@ paths:
 - [ ] **Profiles.md**: Gestione profili
 - [ ] **Roles.md**: Gestione ruoli e permessi
 
+<<<<<<< HEAD
 ### Modulo App (Core Business)
+=======
+### Modulo Fixcity (Core Business)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [x] **README.md**: Panoramica sistema ticket
 - [x] **API.md**: API per gestione ticket
 - [x] **Workflow.md**: Flusso di lavoro ticket
@@ -615,8 +635,13 @@ paths:
 **📞 Contatti Documentazione**
 - **Tech Writer**: Documentation Team
 - **Email**: docs@laraxot.com
+<<<<<<< HEAD
 - **Slack**: #laraxot-docs
 - **GitHub**: [Notify Docs](https://github.com/laraxot/laraxot-docs)
+=======
+- **Slack**: #fixcity-docs
+- **GitHub**: [FixCity Docs](https://github.com/laraxot/fixcity-docs)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **🔄 Ultimo Aggiornamento**: Gennaio 2025  
 **📊 Progresso**: 40% → 100% (Target Dicembre 2025)  

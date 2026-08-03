@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "Master Documentation Index - Notify Fila5"
+=======
+title: "Master Documentation Index - FixCity Fila5"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [module, docs, index]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "module-docs-index master documentation index - laraxot fila5"
+=======
+qmd: "module-docs-index master documentation index - fixcity fila5"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,9 +26,15 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # Master Documentation Index - Notify Fila5
 
 **Project:** Notify Fila5  
+=======
+# Master Documentation Index - FixCity Fila5
+
+**Project:** FixCity Fila5  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Date:** 2026-04-01  
 **Status:** ✅ **Active**  
 **Total Docs:** 7,137+ markdown files  
@@ -41,7 +55,11 @@ Questo documento crea un **sistema di indicizzazione centrale** con collegamenti
 ## 📚 Documentation Hierarchy
 
 ```
+<<<<<<< HEAD
 Notify Fila5 Documentation
+=======
+FixCity Fila5 Documentation
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── 📁 Master Index (THIS FILE)
 │
 ├── 📁 BMad Output (_bmad-output/)
@@ -65,7 +83,11 @@ Notify Fila5 Documentation
 │
 ├── 📁 Modules (laravel/Modules/*/docs/)
 │   ├── Xot (Core Framework) - 1,941 files
+<<<<<<< HEAD
 │   ├── App (Main Domain) - XXX files
+=======
+│   ├── Fixcity (Main Domain) - XXX files
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   ├── User (Authentication) - XXX files
 │   ├── Cms (Content) - XXX files
 │   ├── Blog (Articles) - XXX files
@@ -163,7 +185,11 @@ Notify Fila5 Documentation
 | Module | Files | Index | Key Topics |
 |--------|-------|-------|------------|
 | **Xot** | 1,941 | [00-index.md](Modules/Xot/docs/00-index.md) | Base classes, traits, PHPStan |
+<<<<<<< HEAD
 | **App** | XXX | [index.md](Modules/App/docs/README.md) | Tickets, categories |
+=======
+| **Fixcity** | XXX | [index.md](Modules/Fixcity/docs/README.md) | Tickets, categories |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **User** | XXX | [index.md](Modules/User/docs/README.md) | Auth, RBAC, OAuth |
 | **Cms** | XXX | [index.md](Modules/Cms/docs/README.md) | Pages, sections, blocks |
 | **Tenant** | XXX | [index.md](Modules/Tenant/docs/README.md) | Multi-tenancy |
@@ -240,7 +266,11 @@ Notify Fila5 Documentation
 | **Codebase Analysis** | `codebase/` | 3,170 | Technical analysis |
 
 **Cross-References:**
+<<<<<<< HEAD
 - ← [Master Index](#master-documentation-index---laraxot-fila5) - This document
+=======
+- ← [Master Index](#master-documentation-index---fixcity-fila5) - This document
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ← [Module Docs](#module-documentation-indexes) - Module documentation
 - ← [Theme Docs](#theme-documentation-indexes) - Theme documentation
 
@@ -320,7 +350,11 @@ Modules/
 │   ├── phpstan*.md (PHPStan docs)
 │   ├── testing/ (Testing guides)
 │   └── ...
+<<<<<<< HEAD
 ├── App/docs/
+=======
+├── Fixcity/docs/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   └── README.md
 ├── User/docs/
 │   └── README.md
@@ -391,7 +425,11 @@ Themes/Sixteen/docs/
 
 ### Project Resources
 
+<<<<<<< HEAD
 - [GitHub Repository](https://github.com/laraxot/fila5)
+=======
+- [GitHub Repository](https://github.com/fixcity/fila5)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [Laravel Docs](https://laravel.com/docs)
 - [Filament Docs](https://filamentphp.com/docs)
 - [Vite Docs](https://vitejs.dev/)
@@ -441,7 +479,11 @@ Main content here.
 
 ### Finding Documentation
 
+<<<<<<< HEAD
 1. Start at [Master Index](#master-documentation-index---laraxot-fila5)
+=======
+1. Start at [Master Index](#master-documentation-index---fixcity-fila5)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. Navigate to module/theme category
 3. Use search (Ctrl+F) for keywords
 4. Check cross-references in related docs

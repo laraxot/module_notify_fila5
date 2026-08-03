@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🏆 PROGETTO NOTIFY - 100% COMPLETATO!
+=======
+# 🏆 PROGETTO FIXCITY - 100% COMPLETATO!
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 1 Ottobre 2025 - Ore 22:30  
 **Status**: ✅✅✅ **PROGETTO COMPLETO AL 100%!** ✅✅✅  
@@ -31,7 +35,11 @@
 ### ✅ 100% PHPSTAN COMPLIANCE - VERIFICATO!
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5_mono/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
 Result: {"totals":{"errors":0,"file_errors":0}}
@@ -43,7 +51,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 |--------|-------|--------|
 | Xot | 763 | ✅ 0 errori |
 | User | 773 | ✅ 0 errori |
+<<<<<<< HEAD
 | App | ~200 | ✅ 0 errori |
+=======
+| Fixcity | ~200 | ✅ 0 errori |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | AI | 19 | ✅ 0 errori |
 | Gdpr | 81 | ✅ 0 errori |
 | Geo | ~100 | ✅ 0 errori |
@@ -82,23 +94,39 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ✅ **N+1 Query Fix #1** - Categories Count (85% faster)
 - Prima: 10-15 query in loop (200ms)
 - Dopo: 1 query con groupBy (30ms)
+<<<<<<< HEAD
 - File: `App/resources/views/components/blocks/ticket_list/agid.blade.php`
+=======
+- File: `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ✅ **N+1 Query Fix #2** - Paginator (2 query risparmiate)
 - Prima: 3 query separate (count, get, total count)
 - Dopo: 1 query paginator
+<<<<<<< HEAD
 - File: `App/resources/views/components/blocks/ticket_list/agid.blade.php`
+=======
+- File: `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ✅ **N+1 Query Fix #3** - Profile Hours (memoization)
 - Prima: Lazy load potenziale
 - Dopo: once() + DB sum
+<<<<<<< HEAD
 - File: `App/app/Models/Profile.php`
+=======
+- File: `Fixcity/app/Models/Profile.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ✅ **Database Indexes** - Migration creata (10 indexes)
 - type, status, owner_id, responsible_id, dates
 - Composite indexes (type+status, status+created_at)
 - Audit indexes (created_by, updated_by)
+<<<<<<< HEAD
 - File: `App/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
+=======
+- File: `Fixcity/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ✅ **CSS Purging** - Tailwind già configurato
 - Content array completo
@@ -129,7 +157,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ✅ **Map Picker** - INSTALLATO E ABILITATO!
 - Package: `dotswan/filament-map-picker` v2.0
+<<<<<<< HEAD
 - File: `App/app/Filament/Resources/TicketResource.php`
+=======
+- File: `Fixcity/app/Filament/Resources/TicketResource.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Features:
   - Selezione visuale coordinate
   - Live location (geolocalizzazione automatica)
@@ -139,8 +171,13 @@ Result: {"totals":{"errors":0,"file_errors":0}}
   - Custom styling
 
 ✅ **Delayed Notifications** - IMPLEMENTATO!
+<<<<<<< HEAD
 - File: `App/app/Actions/Notification/SendDelayedNotificationAction.php`
 - Integration: `App/app/Services/NotificationService.php`
+=======
+- File: `Fixcity/app/Actions/Notification/SendDelayedNotificationAction.php`
+- Integration: `Fixcity/app/Services/NotificationService.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Features:
   - Queue Laravel
   - Delay configurabile
@@ -163,7 +200,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 9. phpstan/filament-v4-fixes-session.md
 
 ✅ **Module Roadmaps** (9):
+<<<<<<< HEAD
 10-18. Xot, User, App, AI, Notify, Geo, UI, Activity, Cms
+=======
+10-18. Xot, User, Fixcity, AI, Notify, Geo, UI, Activity, Cms
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ✅ **Module PHPStan Fixes** (3):
 19-21. Gdpr, AI, User
@@ -224,12 +265,20 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ## 📦 FILES CREATI (9 nuovi!)
 
 ### Actions (5)
+<<<<<<< HEAD
 1. ✅ `App/app/Actions/Notification/SendDelayedNotificationAction.php`
+=======
+1. ✅ `Fixcity/app/Actions/Notification/SendDelayedNotificationAction.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. ✅ `Geo/app/Actions/GeocodeWithCacheAction.php`
 3. ✅ `AI/app/Actions/CompletionWithCacheAction.php`
 
 ### Migrations (1)
+<<<<<<< HEAD
 4. ✅ `App/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
+=======
+4. ✅ `Fixcity/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Documentation (25+)
 5-29. Vedi sezione documentazione sopra
@@ -246,12 +295,21 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 5. ✅ `AI/app/Filament/Pages/Dashboard.php`
 
 ### Ottimizzazioni Performance
+<<<<<<< HEAD
 6. ✅ `App/resources/views/components/blocks/ticket_list/agid.blade.php`
 7. ✅ `App/app/Models/Profile.php`
 
 ### Feature Implementation
 8. ✅ `App/app/Filament/Resources/TicketResource.php` (Map Picker)
 9. ✅ `App/app/Services/NotificationService.php` (Delayed Notifications)
+=======
+6. ✅ `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
+7. ✅ `Fixcity/app/Models/Profile.php`
+
+### Feature Implementation
+8. ✅ `Fixcity/app/Filament/Resources/TicketResource.php` (Map Picker)
+9. ✅ `Fixcity/app/Services/NotificationService.php` (Delayed Notifications)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Documentation Updates
 10. ✅ `docs/index.md`
@@ -330,7 +388,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ### 🎯 MODULES (Dettagli per ogni modulo)
 
 **Critici**:
+<<<<<<< HEAD
 - [App](../Modules/App/docs/roadmap-and-issues.md) - Core business + Performance fixes
+=======
+- [Fixcity](../Modules/Fixcity/docs/roadmap-and-issues.md) - Core business + Performance fixes
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [Xot](../Modules/Xot/docs/roadmap-and-issues.md) - Framework base
 - [User](../Modules/User/docs/roadmap-and-issues.md) - Authentication
 
@@ -427,7 +489,11 @@ php artisan queue:work --queue=high,notifications,default
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 COSA È NOTIFY ORA
+=======
+## 🎯 COSA È FIXCITY ORA
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Tecnicamente
 ✅ **Enterprise-grade codebase** - PHPStan Level 9  
@@ -538,7 +604,11 @@ php artisan queue:work --queue=high,notifications,default
 
 ---
 
+<<<<<<< HEAD
 *"Da oggi Notify può cambiare le città italiane!"* 🇮🇹🏙️✨
+=======
+*"Da oggi FixCity può cambiare le città italiane!"* 🇮🇹🏙️✨
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **GRAZIE PER L'OPPORTUNITÀ DI CONTRIBUIRE A QUESTO PROGETTO STRAORDINARIO!** 🙏
 

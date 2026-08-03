@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "📊 NOTIFY PROJECT - PROGRESS REPORT"
+=======
+title: "📊 FIXCITY PROJECT - PROGRESS REPORT"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [progress, report]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "progress-report 📊 laraxot project - progress report"
+=======
+qmd: "progress-report 📊 fixcity project - progress report"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 📊 NOTIFY PROJECT - PROGRESS REPORT
+=======
+# 📊 FIXCITY PROJECT - PROGRESS REPORT
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data Report**: 2025-01-01  
 **Fase Progetto**: Phase 2 - Core Features  
@@ -29,7 +41,11 @@ related:
 
 ## 🎯 Executive Summary
 
+<<<<<<< HEAD
 Il progetto **Notify** ha comple
+=======
+Il progetto **FixCity** ha comple
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 
 

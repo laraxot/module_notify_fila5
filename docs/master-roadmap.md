@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "🗺️ NOTIFY - MASTER ROADMAP 2025-2026"
+=======
+title: "🗺️ FIXCITY - MASTER ROADMAP 2025-2026"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [master, roadmap]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "master-roadmap 🗺️ laraxot - master roadmap 2025-2026"
+=======
+qmd: "master-roadmap 🗺️ fixcity - master roadmap 2025-2026"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 🗺️ NOTIFY - MASTER ROADMAP 2025-2026
+=======
+# 🗺️ FIXCITY - MASTER ROADMAP 2025-2026
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > **Roadmap strategica completa per il completamento e l'evoluzione della piattaforma**
 
@@ -26,7 +38,11 @@ related:
 
 ## 📊 Executive Summary
 
+<<<<<<< HEAD
 **Obiettivo**: Trasformare Notify da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.
+=======
+**Obiettivo**: Trasformare FixCity da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Timeline**: 18 mesi (Ottobre 2025 - Marzo 2027)
 **Budget stimato**: €250k (team di 3 dev full-time)
@@ -592,7 +608,11 @@ related:
 
 - [ ] Integration Laravel (32h)
   - OpenAI API / local model
+<<<<<<< HEAD
   - Forecast on ticket create
+=======
+  - Prediction on ticket create
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - Confidence score
   - Human review se confidence < 80%
 
@@ -604,7 +624,11 @@ related:
 **Acceptance Criteria**:
 - Accuracy ≥ 85%
 - Latency < 500ms
+<<<<<<< HEAD
 - Cost < €0.01/forecast
+=======
+- Cost < €0.01/prediction
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -633,7 +657,11 @@ related:
 
 ---
 
+<<<<<<< HEAD
 #### Epic 5.3: Forecasting Maintenance (120h)
+=======
+#### Epic 5.3: Predictive Maintenance (120h)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Tasks**:
 - [ ] Historical data analysis (40h)
@@ -641,7 +669,11 @@ related:
   - Seasonal trends
   - Hotspot identification
 
+<<<<<<< HEAD
 - [ ] Forecast model (48h)
+=======
+- [ ] Prediction model (48h)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - Time series forecasting
   - Risk scoring
   - Alert triggers
@@ -652,13 +684,21 @@ related:
   - Resource allocation optimization
 
 **Acceptance Criteria**:
+<<<<<<< HEAD
 - Forecast 70%+ problemi ricorrenti
+=======
+- Predict 70%+ problemi ricorrenti
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ROI +30% su manutenzione
 
 **Phase 5 Deliverables**:
 - ✅ AI auto-categorization live
 - ✅ Duplicate detection attivo
+<<<<<<< HEAD
 - ✅ Forecasting maintenance beta
+=======
+- ✅ Predictive maintenance beta
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

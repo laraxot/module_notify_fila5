@@ -17,18 +17,31 @@
 
 | Use Case | Component Type | File Pattern | Features |
 |----------|---------------|--------------|----------|
+<<<<<<< HEAD
 | **Lista di Mercati** (`/it/forecasts`) | ✅ Filament Table Widget | `Themes/*/resources/views/filament/widgets/forecast-table.blade.php` | Search, Filter, Sorting, Pagination |
 | **Dettaglio Mercato** (`/it/forecasts/{slug}`) | ✅ Mixed shell | `ViewForecastWidget` + Blade shell + widget Filament per sezioni list-like | Trading, charts, hero, list-like outcomes |
+=======
+| **Lista di Mercati** (`/it/predicts`) | ✅ Filament Table Widget | `Themes/*/resources/views/filament/widgets/predict-table.blade.php` | Search, Filter, Sorting, Pagination |
+| **Dettaglio Mercato** (`/it/predicts/{slug}`) | ✅ Mixed shell | `ViewPredictWidget` + Blade shell + widget Filament per sezioni list-like | Trading, charts, hero, list-like outcomes |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Lista Articoli** (`/it/articles`) | ✅ Filament Table Widget | `Themes/*/resources/views/filament/widgets/article-table.blade.php` | Search, Filter, Sorting |
 | **Dettaglio Articolo** (`/it/articles/{slug}`) | ✅ Mixed shell | Blade narrativa + widget Filament dove la sezione e list-like | Reading, comments, related content |
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 FORECAST LIST PAGE (Filament Table)
 
 ### URL: `/it/forecasts`
 
 **Componente**: `ForecastTableWidget` (Filament)
+=======
+## 🎯 PREDICT LIST PAGE (Filament Table)
+
+### URL: `/it/predicts`
+
+**Componente**: `PredictTableWidget` (Filament)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Perché Filament**:
 - Lista di mercati
@@ -37,15 +50,25 @@
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 FORECAST DETAIL PAGE (Mixed Shell)
 
 ### URL: `/it/forecasts/f1-world-champion-2026`
+=======
+## 🎯 PREDICT DETAIL PAGE (Mixed Shell)
+
+### URL: `/it/predicts/f1-world-champion-2026`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Componente**: Blade shell + widget Filament dove la sezione e list-like
 
 **Struttura corretta**:
 ```text
+<<<<<<< HEAD
 Modules/Forecast/resources/views/filament/widgets/view-forecast.blade.php
+=======
+Modules/Predict/resources/views/filament/widgets/view-predict.blade.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── header / hero / stats / trading-form / order-book / chart = Blade shell
 └── OutcomesTableWidget = Filament table per outcomes list-like
 ```
@@ -58,8 +81,13 @@ Modules/Forecast/resources/views/filament/widgets/view-forecast.blade.php
 **Esempio corretto**:
 ```blade
 @livewire(
+<<<<<<< HEAD
     \Modules\Forecast\Filament\Widgets\OutcomesTableWidget::class,
     ['forecast' => $forecast]
+=======
+    \Modules\Predict\Filament\Widgets\OutcomesTableWidget::class,
+    ['predict' => $predict]
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 )
 ```
 
@@ -83,8 +111,13 @@ Perché è sbagliato:
 ### ❌ SBAGLIATO: Custom Blade per LIST
 
 ```blade
+<<<<<<< HEAD
 @foreach($forecasts as $forecast)
     <div>{{ $forecast->title }}</div>
+=======
+@foreach($predicts as $predict)
+    <div>{{ $predict->title }}</div>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 @endforeach
 ```
 
@@ -97,6 +130,7 @@ Perché è sbagliato:
 
 ## ✅ CORRETTO: Architettura Attuale
 
+<<<<<<< HEAD
 ### Forecast Detail Page
 ```text
 URL: /it/forecasts/f1-world-champion-2026
@@ -104,6 +138,15 @@ URL: /it/forecasts/f1-world-champion-2026
 Folio Route -> [container0]/[slug0]/index.blade.php
 ↓
 Filament Widget: ViewForecastWidget
+=======
+### Predict Detail Page
+```text
+URL: /it/predicts/f1-world-champion-2026
+↓
+Folio Route -> [container0]/[slug0]/index.blade.php
+↓
+Filament Widget: ViewPredictWidget
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ↓
 Blade shell:
   - header

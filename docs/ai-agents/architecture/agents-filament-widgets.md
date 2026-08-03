@@ -17,12 +17,21 @@
 
 ### Blade Custom con foreach
 ```blade
+<<<<<<< HEAD
 {{-- ❌ VIETATO - Themes/TwentyOne/resources/views/pages/forecasts/index.blade.php --}}
 <div class="grid grid-cols-3">
     @foreach($forecasts as $forecast)
         <div class="card">
             <h3>{{ $forecast->title }}</h3>
             <p>{{ $forecast->volume }} CR</p>
+=======
+{{-- ❌ VIETATO - Themes/TwentyOne/resources/views/pages/predicts/index.blade.php --}}
+<div class="grid grid-cols-3">
+    @foreach($predicts as $predict)
+        <div class="card">
+            <h3>{{ $predict->title }}</h3>
+            <p>{{ $predict->volume }} CR</p>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         </div>
     @endforeach
 </div>
@@ -40,7 +49,11 @@
 ### Livewire in Themes
 ```
 ❌ VIETATO:
+<<<<<<< HEAD
 Themes/TwentyOne/Http/Livewire/ForecastComponent.php
+=======
+Themes/TwentyOne/Http/Livewire/PredictComponent.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -49,19 +62,32 @@ Themes/TwentyOne/Http/Livewire/ForecastComponent.php
 
 ### Filament Table Widget
 ```php
+<<<<<<< HEAD
 // ✅ CORRETTO - Modules/Forecast/Filament/Widgets/ForecastTableWidget.php
 namespace Modules\Forecast\Filament\Widgets;
+=======
+// ✅ CORRETTO - Modules/Predict/Filament/Widgets/PredictTableWidget.php
+namespace Modules\Predict\Filament\Widgets;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 use Filament\Tables;
 use Filament\Tables\Table;
 use Filament\Widgets\TableWidget as BaseWidget;
 
+<<<<<<< HEAD
 class ForecastTableWidget extends BaseWidget
+=======
+class PredictTableWidget extends BaseWidget
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 {
     public function table(Table $table): Table
     {
         return $table
+<<<<<<< HEAD
             ->query(Forecast::query()->where('status', 'active'))
+=======
+            ->query(Predict::query()->where('status', 'active'))
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             ->searchable()              // ✅ Search automatica
             ->filters([                 // ✅ Filters automatici
                 Tables\Filters\SelectFilter::make('category')
@@ -87,21 +113,35 @@ class ForecastTableWidget extends BaseWidget
 
 ### View Blade (Solo @livewire)
 ```blade
+<<<<<<< HEAD
 {{-- ✅ CORRETTO - Themes/TwentyOne/resources/views/filament/widgets/forecast-table.blade.php --}}
 @livewire(\Modules\Forecast\Filament\Widgets\ForecastTableWidget::class)
+=======
+{{-- ✅ CORRETTO - Themes/TwentyOne/resources/views/filament/widgets/predict-table.blade.php --}}
+@livewire(\Modules\Predict\Filament\Widgets\PredictTableWidget::class)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### JSON CMS
 ```json
 {
+<<<<<<< HEAD
     "slug": "forecasts.index",
+=======
+    "slug": "predicts.index",
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     "content_blocks": {
         "it": [
             {
                 "type": "widget",
                 "data": {
+<<<<<<< HEAD
                     "view": "pub_theme::filament.widgets.forecast-table",
                     "widget": "Modules\\Forecast\\Filament\\Widgets\\ForecastTableWidget"
+=======
+                    "view": "pub_theme::filament.widgets.predict-table",
+                    "widget": "Modules\\Predict\\Filament\\Widgets\\PredictTableWidget"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                 }
             }
         ]
@@ -133,35 +173,60 @@ class ForecastTableWidget extends BaseWidget
 ```
 laravel/
 ├── Modules/
+<<<<<<< HEAD
 │   └── Forecast/
 │       ├── Filament/
 │       │   └── Widgets/
 │       │       └── ForecastTableWidget.php  ✅ LOGICA
 │       └── Models/
 │           └── Forecast.php                  ✅ DATI
+=======
+│   └── Predict/
+│       ├── Filament/
+│       │   └── Widgets/
+│       │       └── PredictTableWidget.php  ✅ LOGICA
+│       └── Models/
+│           └── Predict.php                  ✅ DATI
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │
 └── Themes/
     └── TwentyOne/
         └── resources/views/
             └── filament/
                 └── widgets/
+<<<<<<< HEAD
                     └── forecast-table.blade.php  ✅ VISTA
+=======
+                    └── predict-table.blade.php  ✅ VISTA
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Flusso Dati
 
 ```
+<<<<<<< HEAD
 1. HTTP Request → forecasts.index
+=======
+1. HTTP Request → predicts.index
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    ↓
 2. Folio Route → [container0]/index.blade.php
    ↓
 3. CMS Action → ResolvePageAction
    ↓
+<<<<<<< HEAD
 4. JSON Config → forecasts.index.json
    ↓
 5. Widget Render → Modules/Forecast/Filament/Widgets/ForecastTableWidget.php
    ↓
 6. View Render → Themes/TwentyOne/resources/views/filament/widgets/forecast-table.blade.php
+=======
+4. JSON Config → predicts.index.json
+   ↓
+5. Widget Render → Modules/Predict/Filament/Widgets/PredictTableWidget.php
+   ↓
+6. View Render → Themes/TwentyOne/resources/views/filament/widgets/predict-table.blade.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    ↓
 7. HTML Response → Browser
 ```
@@ -214,9 +279,15 @@ Prima di commitare una pagina list/grid:
 - [Tables Overview](https://filamentphp.com/docs/5.x/tables/overview)
 
 ### Esempi Reali
+<<<<<<< HEAD
 - `Modules/Forecast/Filament/Widgets/ForecastTableWidget.php`
 - `Themes/TwentyOne/resources/views/filament/widgets/forecast-table.blade.php`
 - `config/local/forecast/database/content/pages/forecasts.index.json`
+=======
+- `Modules/Predict/Filament/Widgets/PredictTableWidget.php`
+- `Themes/TwentyOne/resources/views/filament/widgets/predict-table.blade.php`
+- `config/local/predict/database/content/pages/predicts.index.json`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

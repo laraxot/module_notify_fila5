@@ -133,7 +133,11 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 FAQ Page (/it/tests/domande-frequenti)
 │
 ├─ JSON Content
+<<<<<<< HEAD
 │  └─ laravel/config/local/laraxot/database/content/pages/tests.domande-frequenti.json
+=======
+│  └─ laravel/config/local/fixcity/database/content/pages/tests.domande-frequenti.json
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │
 ├─ Blade Templates (Tema Sixteen)
 │  ├─ components/blocks/accordion/default.blade.php

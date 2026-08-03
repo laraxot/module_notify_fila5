@@ -13,7 +13,11 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
+<<<<<<< HEAD
 │                        Notify Platform v2                          │
+=======
+│                        FixCity Platform v2                          │
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │                    Laravel 12 + Filament 5 + Livewire 3             │
 └─────────────────────────────────────────────────────────────────────┘
 
@@ -195,7 +199,11 @@ HTTP Request: /it/tests/homepage
 ┌──────────────────────────────────────┐
 │  PageSlugMiddleware                  │
 │  Load from JSON config               │
+<<<<<<< HEAD
 │  laravel/config/local/laraxot/       │
+=======
+│  laravel/config/local/fixcity/       │
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │  database/content/pages/[slug].json  │
 └───────┬──────────────────────────────┘
         │
@@ -271,7 +279,11 @@ Admin Panel
 
 ```
 1. HTTP Request
+<<<<<<< HEAD
    ├─ URL: http://laraxot.local/it/tests/homepage
+=======
+   ├─ URL: http://fixcity.local/it/tests/homepage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    └─ Method: GET
 
 2. Routing (Folio)
@@ -284,10 +296,17 @@ Admin Panel
 
 4. Middleware Chain
    ├─ PageSlugMiddleware
+<<<<<<< HEAD
    │  ├─ Read APP_URL → laraxot.local
    │  ├─ Extract domain → laraxot.local
    │  ├─ Reverse parts → [local, laraxot]
    │  ├─ Build config path → local/laraxot
+=======
+   │  ├─ Read APP_URL → fixcity.local
+   │  ├─ Extract domain → fixcity.local
+   │  ├─ Reverse parts → [local, fixcity]
+   │  ├─ Build config path → local/fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    │  ├─ Load theme: Sixteen
    │  └─ Load JSON: pages/homepage.json
    │

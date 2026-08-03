@@ -31,7 +31,11 @@
 Launch Cursor IDE and open your project:
 
 ```bash
+<<<<<<< HEAD
 cursor /var/www/_bases/base_ptvx_fila5
+=======
+cursor /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 Or use the GUI:
@@ -183,7 +187,11 @@ Create `.cursor/superpowers-config.json`:
 ### 1. Verify PHP Testing
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 php artisan test --version
 ```
 

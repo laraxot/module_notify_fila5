@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🔧 STRUMENTI QUALITÀ CODICE PHP - NOTIFY PLATFORM
+=======
+# 🔧 STRUMENTI QUALITÀ CODICE PHP - FIXCITY PLATFORM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Versione**: 1.0  
 **Data Creazione**: Gennaio 2025  
@@ -6,7 +10,11 @@
 **Priorità**: CRITICAL  
 
 ## 🎯 OBIETTIVO
+<<<<<<< HEAD
 Implementare un ecosistema completo di strumenti per la qualità del codice PHP nel progetto Notify, garantendo standard enterprise e manutenibilità del codice.
+=======
+Implementare un ecosistema completo di strumenti per la qualità del codice PHP nel progetto FixCity, garantendo standard enterprise e manutenibilità del codice.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 🛠️ STRUMENTI QUALITÀ CODICE
 
@@ -227,12 +235,20 @@ jobs:
 ### PHPMD Ruleset Personalizzato
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <ruleset name="Notify PHP Mess Detector Rules"
+=======
+<ruleset name="FixCity PHP Mess Detector Rules"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
          xmlns="http://pmd.sf.net/ruleset/1.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sf.net/ruleset/1.0.0 http://pmd.sf.net/ruleset_xml_schema.xsd">
 
+<<<<<<< HEAD
     <description>Regole personalizzate per Notify Platform</description>
+=======
+    <description>Regole personalizzate per FixCity Platform</description>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
     <!-- Clean Code Rules -->
     <rule ref="rulesets/cleancode.xml">
@@ -462,7 +478,11 @@ return (new PhpCsFixer\Config())
 
 ---
 
+<<<<<<< HEAD
 *Questo sistema garantisce la massima qualità del codice nel progetto Notify Platform.*
+=======
+*Questo sistema garantisce la massima qualità del codice nel progetto FixCity Platform.*
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 
 

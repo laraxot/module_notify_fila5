@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 📸 Analisi Visiva Header & Footer - Notify vs Bootstrap Italia
+=======
+# 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Data: {{ date('Y-m-d H:i:s') }}
 
@@ -7,7 +11,11 @@
 ## 🎯 Problema Identificato
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
+<<<<<<< HEAD
 **Notify**: http://laraxot.local/it/tests/homepage
+=======
+**FixCity**: http://fixcity.local/it/tests/homepage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Differenze Principali**:
 1. ❌ Header: Colori non corretti
@@ -158,9 +166,15 @@
 
 ---
 
+<<<<<<< HEAD
 ## 3. Notify - Differenze Attuali
 
 ### Header Notify (Errato)
+=======
+## 3. FixCity - Differenze Attuali
+
+### Header FixCity (Errato)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```
 ❌ Barra regione: Colore sbagliato
@@ -170,7 +184,11 @@
 ❌ Login: Stile non Bootstrap Italia
 ```
 
+<<<<<<< HEAD
 ### Footer Notify (Errato)
+=======
+### Footer FixCity (Errato)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```
 ❌ Feedback module: Assente o errato

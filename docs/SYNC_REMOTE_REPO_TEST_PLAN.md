@@ -236,8 +236,13 @@ Test is considered successful when:
 
 - [Script Documentation](../../../bashscripts/docs/git/subtrees/sync-remote-repo-guide.md)
 - [Workflow Configuration](../../../.github/workflows/sync-remote-repo.yml)
+<<<<<<< HEAD
 - [GitHub Issue #11](https://github.com/laraxot/platform/issues/11)
 - [GitHub Issue #12](https://github.com/laraxot/platform/issues/12)
+=======
+- [GitHub Issue #11](https://github.com/laraxot/base_fixcity_fila5/issues/11)
+- [GitHub Issue #12](https://github.com/laraxot/base_fixcity_fila5/issues/12)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

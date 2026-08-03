@@ -225,7 +225,11 @@ namespace Modules\Xot\Models;  // ✅ CORRETTO
 #### Problema 2: Nessun Modulo lo Estende
 
 **Moduli con BasePivot** (8 trovati):
+<<<<<<< HEAD
 - Blog, Cms, Comment, App, Gdpr, Geo, Notify, User
+=======
+- Blog, Cms, Comment, Fixcity, Gdpr, Geo, Notify, User
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **TUTTI estendono direttamente `Pivot`** invece di `XotBasePivot`:
 
@@ -267,7 +271,11 @@ abstract class BasePivot extends Pivot  // ❌ NON usa XotBasePivot
 | Geo | ~60 | 7 | 4 |
 | Gdpr | ~60 | 7 | 4 |
 | Comment | ~60 | 7 | 4 |
+<<<<<<< HEAD
 | App | ~60 | 7 | 4 |
+=======
+| Fixcity | ~60 | 7 | 4 |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Totale LOC Duplicato**: ~490 linee  
 **Potenziale Riduzione**: ~350 linee (71%)

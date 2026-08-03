@@ -43,7 +43,11 @@ laravel/Modules/{ModuleName}/resources/svg/
 8. **Job** - Gestione lavori e processi
 9. **Geo** - Geolocalizzazione
 10. **Gdpr** - Conformità GDPR
+<<<<<<< HEAD
 11. **App** - Modulo specifico progetto
+=======
+11. **Fixcity** - Modulo specifico progetto
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 12. **Comment** - Sistema commenti
 13. **Chart** - Grafici e statistiche
 14. **Blog** - Sistema blog

@@ -305,7 +305,11 @@ class User extends Model {
 ### File Structure
 
 ```
+<<<<<<< HEAD
 base_ptvx_fila5/
+=======
+base_fixcity_fila5/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── .cursor/
 │   ├── superpowers-config.json    ← Optional configuration
 │   └── skills/                     ← Custom skills (if any)

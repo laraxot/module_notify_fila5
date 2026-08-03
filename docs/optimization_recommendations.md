@@ -1,14 +1,21 @@
 # Raccomandazioni di Ottimizzazione - Modulo Notify
 
+<<<<<<< HEAD
 > ⚠️ **Historical Document**: Questo documento contiene riferimenti a progetti legacy (<nome progetto>) non più presenti nel codebase. Le raccomandazioni di ottimizzazione rimangono valide, ma adattare al contesto del progetto corrente (ptvx).
 
+=======
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ## 🎯 Stato Attuale e Problemi Critici
 
 ### ❌ PROBLEMI CRITICI IDENTIFICATI
 
 #### 1. Riusabilità Compromessa
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
+<<<<<<< HEAD
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
+=======
+- **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
 - **Email domains** hardcoded nei test
@@ -23,13 +30,21 @@
 - Test che utilizzano `User::factory()` invece di `XotData::make()->getUserClass()`
 - Configurazioni database hardcoded
 - Riferimenti diretti a modelli <nome progetto>
+<<<<<<< HEAD
 - Riferimenti diretti a modelli <nome progetto>
+=======
+- Riferimenti diretti a modelli SaluteOra
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
 
 ### Riusabilità
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
+<<<<<<< HEAD
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
+=======
+1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
 4. **Documentazione base**: Creata guida riusabilità
@@ -44,7 +59,11 @@
 // ❌ PRIMA
 $user = User::factory()->create();
 'database' => '<nome progetto>_test'
+<<<<<<< HEAD
 'database' => '<nome progetto>_test'
+=======
+'database' => 'saluteora_test'
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 // ✅ DOPO
 $userClass = XotData::make()->getUserClass();
@@ -54,7 +73,11 @@ $testDb = config('database.default') . '_test'
 
 #### File Specifici Prioritari
 1. `tests/Feature/MailTemplateVersionBusinessLogicTest.php` - ✅ COMPLETATO
+<<<<<<< HEAD
 2. `tests/Feature/ContactManagementBusinessLogicTest.php` - ✅ COMPLETATO
+=======
+2. `tests/Feature/ContactManagementBusinessLogicTest.php` - ✅ COMPLETATO  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 3. `tests/Feature/ThemeManagementBusinessLogicTest.php` - ✅ COMPLETATO
 4. `tests/Feature/NotifyThemeableBusinessLogicTest.php` - 🔄 IN CORSO
 5. `tests/Feature/TemplateManagementBusinessLogicTest.php` - ⏳ DA FARE
@@ -67,7 +90,11 @@ Notify/docs/
 ├── README.md (overview, max 50 righe)
 ├── core/
 │   ├── architecture.md
+<<<<<<< HEAD
 │   ├── configuration.md
+=======
+│   ├── configuration.md  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   └── best-practices.md
 ├── channels/
 │   ├── email.md
@@ -101,7 +128,11 @@ Notify/docs/
 
 #### File da Consolidare
 - **Email**: 15+ file → `channels/email.md`
+<<<<<<< HEAD
 - **SMS**: 10+ file → `channels/sms.md`
+=======
+- **SMS**: 10+ file → `channels/sms.md`  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Testing**: 8+ file → `testing/testing-guidelines.md`
 - **Filament**: 12+ file → `integration/filament-integration.md`
 
@@ -185,7 +216,11 @@ public function notifications(): HasMany
 2. **Aggiornare** tutti i file di traduzione
 3. **Verificare** script check passa senza errori
 
+<<<<<<< HEAD
 ### Sprint 2 (3 giorni) - IMPORTANTE
+=======
+### Sprint 2 (3 giorni) - IMPORTANTE  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 1. **Consolidare** documentazione in struttura target
 2. **Eliminare** file duplicati e obsoleti
 3. **Aggiornare** README con overview essenziale

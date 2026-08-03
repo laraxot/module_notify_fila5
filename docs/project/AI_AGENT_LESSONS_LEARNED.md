@@ -114,7 +114,11 @@ Creating transparent documentation of what went wrong.
    - Paste: `cat ~/.ssh/subtree_sync.pub`
 
 3. Add private key to secrets:
+<<<<<<< HEAD
    - Go to: https://github.com/laraxot/platform/settings/secrets/actions
+=======
+   - Go to: https://github.com/laraxot/base_fixcity_fila5/settings/secrets/actions
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    - Name: `SUBTREE_SSH_KEY`
    - Value: `cat ~/.ssh/subtree_sync`
 
@@ -125,7 +129,11 @@ Creating transparent documentation of what went wrong.
    ```
 
 5. Check on GitHub:
+<<<<<<< HEAD
    - Go to: https://github.com/laraxot/platform/actions
+=======
+   - Go to: https://github.com/laraxot/base_fixcity_fila5/actions
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    - Look for: "🔄 Sync Subtrees"
 
 ---

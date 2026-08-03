@@ -146,7 +146,11 @@ laravel/Themes/Sixteen/
 │   └── js/
 │
 └── config/
+<<<<<<< HEAD
     └── local/laraxot/database/content/
+=======
+    └── local/fixcity/database/content/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         └── pages/tests.homepage.json
 
 bashscripts/design-analysis/

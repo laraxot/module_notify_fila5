@@ -39,7 +39,11 @@ CRITICAL ❗
 ```
 #0 vendor/spatie/laravel-data/src/DataPipes/CastPropertiesDataPipe.php:113
 #1 vendor/spatie/laravel-data/src/Resolvers/DataFromArrayResolver.php:97
+<<<<<<< HEAD
 #2 Modules/App/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
+=======
+#2 Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Root Cause
@@ -65,7 +69,11 @@ return new AnswersChartData(
 ### Verification
 ```bash
 # Check for ChartData objects
+<<<<<<< HEAD
 grep -r "new ChartData" Modules/App/app/Actions/QuestionChart/Custom/
+=======
+grep -r "new ChartData" Modules/Quaeris/app/Actions/QuestionChart/Custom/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Should return: (empty)
 ```
@@ -81,7 +89,11 @@ grep -r "new ChartData" Modules/App/app/Actions/QuestionChart/Custom/
 ### Error Message
 ```
 SQLSTATE[42S02]: Base table or view not found: 1146
+<<<<<<< HEAD
 Table 'app_survey.contacts' doesn't exist
+=======
+Table 'quaeris_survey.contacts' doesn't exist
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Severity
@@ -93,7 +105,11 @@ CRITICAL ❗
 
 ### Database Map
 ```
+<<<<<<< HEAD
 app_data (Connection: 'this-project')
+=======
+quaeris_data (Connection: 'quaeris')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── contacts          ← This table
 ├── survey_pdfs
 └── customers
@@ -105,7 +121,11 @@ limesurvey (Connection: 'limesurvey')
 ```
 
 ### Root Cause
+<<<<<<< HEAD
 Query uses `limesurvey` connection, but `contacts` table is in `app_data`
+=======
+Query uses `limesurvey` connection, but `contacts` table is in `quaeris_data`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Solution
 ```php
@@ -129,7 +149,11 @@ public function getSmsAnswers(...) {
 ### Verification
 ```bash
 # Check for cross-database joins
+<<<<<<< HEAD
 grep -r "getConnection()->getDatabaseName()" Modules/App/app/Actions/QuestionChart/Custom/
+=======
+grep -r "getConnection()->getDatabaseName()" Modules/Quaeris/app/Actions/QuestionChart/Custom/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Should return: (empty)
 ```
@@ -147,7 +171,11 @@ grep -r "getConnection()->getDatabaseName()" Modules/App/app/Actions/QuestionCha
 ```
 SQLSTATE[42000]: Syntax error or access violation: 1055
 Expression #2 of SELECT list is not in GROUP BY clause
+<<<<<<< HEAD
 and contains nonaggregated column 'app_data.contacts.sms_sent_at'
+=======
+and contains nonaggregated column 'quaeris_data.contacts.sms_sent_at'
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 which is not functionally dependent on columns in GROUP BY clause;
 this is incompatible with sql_mode=only_full_group_by
 ```
@@ -195,7 +223,11 @@ GROUP BY
 ### Verification
 ```bash
 # Check groupByRaw usage
+<<<<<<< HEAD
 grep -n "groupByRaw" Modules/App/app/Actions/QuestionChart/Custom/SmsResponseRate.php
+=======
+grep -n "groupByRaw" Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Should show both expressions included
 ```
@@ -242,7 +274,11 @@ return new AnswersChartData(answers: $answersArray);
 ### Verification
 ```bash
 # Check for DataCollection usage
+<<<<<<< HEAD
 grep -n "AnswersChartData::from" Modules/App/app/Actions/QuestionChart/Custom/*.php
+=======
+grep -n "AnswersChartData::from" Modules/Quaeris/app/Actions/QuestionChart/Custom/*.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # All should use ->toArray()
 ```
@@ -460,7 +496,11 @@ Contact::query()->chunk(100, function ($contacts) {
 ### Run All Tests
 ```bash
 cd laravel
+<<<<<<< HEAD
 ./vendor/bin/pest Modules/App/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
+=======
+./vendor/bin/pest Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Run Single Test
@@ -471,6 +511,7 @@ cd laravel
 ### Check Code Quality
 ```bash
 # PHPStan
+<<<<<<< HEAD
 ./vendor/bin/phpstan analyse Modules/App/app/Actions/QuestionChart/Custom/
 
 # Pint (formatting)
@@ -478,6 +519,15 @@ cd laravel
 
 # Tests with coverage
 XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/App/tests/
+=======
+./vendor/bin/phpstan analyse Modules/Quaeris/app/Actions/QuestionChart/Custom/
+
+# Pint (formatting)
+./vendor/bin/pint Modules/Quaeris/app/Actions/QuestionChart/Custom/
+
+# Tests with coverage
+XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/Quaeris/tests/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Manual Testing URLs
@@ -506,7 +556,11 @@ echo "✅ All caches cleared"
 ### Check File Sizes
 ```bash
 #!/bin/bash
+<<<<<<< HEAD
 for file in Modules/App/app/Actions/QuestionChart/Custom/*.php; do
+=======
+for file in Modules/Quaeris/app/Actions/QuestionChart/Custom/*.php; do
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     lines=$(wc -l < "$file")
     if [ $lines -gt 200 ]; then
         echo "⚠️  $file has $lines lines (max 200)"
@@ -519,7 +573,11 @@ done
 ### Find ChartData Objects
 ```bash
 #!/bin/bash
+<<<<<<< HEAD
 grep -r "new ChartData" Modules/App/app/Actions/QuestionChart/Custom/
+=======
+grep -r "new ChartData" Modules/Quaeris/app/Actions/QuestionChart/Custom/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 if [ $? -eq 0 ]; then
     echo "❌ Found ChartData objects - replace with arrays!"
 else
@@ -537,7 +595,11 @@ fi
 - Session Memory: `.kilo/memories/session-2026-03-17-custom-charts-deep.md`
 
 ### GitHub
+<<<<<<< HEAD
 - Issue #97: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97
+=======
+- Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - All 8 comments with fixes
 
 ### Team Contacts

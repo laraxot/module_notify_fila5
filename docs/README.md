@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Notify Module Documentation"
 type: documentation
@@ -9,6 +10,11 @@ updated: 2026-08-02
 # Documentation
 
 This directory contains documentation for the Notify module.
+=======
+# Documentation
+
+This directory contains documentation for the module.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Structure
 
@@ -22,6 +28,7 @@ Documentation should be:
 - Example-driven
 - Updated with code changes
 - Use Markdown format (.md)
+<<<<<<< HEAD
 
 ## Sistemi di Notificazione
 
@@ -62,3 +69,5 @@ Modules\Notify\Models\NotificationTemplateVersion
 - [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
 - [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
+=======
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

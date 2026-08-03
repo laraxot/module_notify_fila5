@@ -1,6 +1,10 @@
 # QWEN Competitor Analysis
 
+<<<<<<< HEAD
 Analisi dei competitor di forecast market.
+=======
+Analisi dei competitor di prediction market.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -33,7 +37,11 @@ Analisi dei competitor di forecast market.
 
 ---
 
+<<<<<<< HEAD
 ### ForecastIt
+=======
+### PredictIt
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 | Feature | Presente |
 |---------|----------|
@@ -64,7 +72,11 @@ Analisi dei competitor di forecast market.
 |------------|----------------|
 | Polymarket | LMSR, order book |
 | Kalshi | Regulated, clean UX |
+<<<<<<< HEAD
 | ForecastIt | Academic, simple |
+=======
+| PredictIt | Academic, simple |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | FantaSanremo | Italian, gamification |
 | Prediki | European, mobile-first |
 | Metaculus | Forecasting, accuracy |

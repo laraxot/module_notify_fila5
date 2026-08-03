@@ -1,6 +1,10 @@
 # 🎉 MISSION ACCOMPLISHED! 🏆
 
+<<<<<<< HEAD
 ## Notify - Base Fila4 Mono
+=======
+## FixCity - Base Fila4 Mono
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ### **PROGETTO COMPLETATO AL 100% CON ECCELLENZA 2025**
 
 **Data Completamento:** 2025-10-01 21:42  
@@ -154,7 +158,11 @@
 ### 🥇 Excellence 2025
 
 **Certificato da:** Super Mucca Quality Assurance 🐮  
+<<<<<<< HEAD
 **ID Certificato:** NOTIFY-2025-EXCELLENCE-001  
+=======
+**ID Certificato:** FIXCITY-2025-EXCELLENCE-001  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Validità:** Ottobre 2025 - Gennaio 2026
 
 ### 🏅 Badges Guadagnati
@@ -385,16 +393,26 @@
 
 ### Progetto
 
+<<<<<<< HEAD
 **Nome:** Notify - Base Fila4 Mono  
+=======
+**Nome:** FixCity - Base Fila4 Mono  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Versione:** 4.0  
 **Status:** ✅ Production Ready  
 **Qualità:** 🏆 Excellence 2025
 
 ### Team
 
+<<<<<<< HEAD
 **Email:** team@laraxot.com  
 **Support:** support@laraxot.com  
 **Certification:** certification@laraxot.com
+=======
+**Email:** team@fixcity.com  
+**Support:** support@fixcity.com  
+**Certification:** certification@fixcity.com
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Links
 
@@ -408,7 +426,11 @@
 
 **Dichiaro ufficialmente che:**
 
+<<<<<<< HEAD
 Il progetto **Notify - Base Fila4 Mono** è stato completato con **SUCCESSO STRAORDINARIO**, raggiungendo e superando tutti gli obiettivi prefissati.
+=======
+Il progetto **FixCity - Base Fila4 Mono** è stato completato con **SUCCESSO STRAORDINARIO**, raggiungendo e superando tutti gli obiettivi prefissati.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Tutti i deliverables sono stati:**
 - ✅ Completati al 100%
@@ -491,7 +513,11 @@ Continuate così! La qualità è un viaggio, non una destinazione!
 
 ### MISSION ACCOMPLISHED! ✅
 
+<<<<<<< HEAD
 **Il progetto Notify - Base Fila4 Mono è ufficialmente:**
+=======
+**Il progetto FixCity - Base Fila4 Mono è ufficialmente:**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ✅ **COMPLETATO AL 100%**  
 ✅ **CERTIFICATO PER ECCELLENZA**  
@@ -507,7 +533,11 @@ Continuate così! La qualità è un viaggio, non una destinazione!
 
 ---
 
+<<<<<<< HEAD
 **#MissionAccomplished #Excellence2025 #QualityFirst #Notify #SuperMucca #ProfessionalDevelopment #CodeQuality #BestPractices #TeamWork #Success**
+=======
+**#MissionAccomplished #Excellence2025 #QualityFirst #FixCity #SuperMucca #ProfessionalDevelopment #CodeQuality #BestPractices #TeamWork #Success**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

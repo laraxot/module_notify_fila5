@@ -277,7 +277,11 @@ MODULE INDEX        THEME INDEX      ARCHITECTURE
 ### Documentation Metrics
 
 ```
+<<<<<<< HEAD
 PROJECT: Notify Fila5
+=======
+PROJECT: FixCity Fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ANALYSIS DATE: 2026-04-02
 
 DOCUMENTATION FILES
@@ -452,7 +456,11 @@ TASK: "Understand system architecture"
 
 ```
 Filesystem Server
+<<<<<<< HEAD
 └─ Reads: /var/www/_bases/base_ptvx_fila5/
+=======
+└─ Reads: /var/www/_bases/base_fixcity_fila5/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    └─ Indexes all docs
    └─ Enables fast file navigation
 
@@ -488,7 +496,11 @@ Memory Server
 
 ```
 ┌──────────────────────────────────────────────┐
+<<<<<<< HEAD
 │  Notify Documentation Health Dashboard      │
+=======
+│  FixCity Documentation Health Dashboard      │
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├──────────────────────────────────────────────┤
 │                                              │
 │ Overall Health:        ████████████ 95% ✅   │

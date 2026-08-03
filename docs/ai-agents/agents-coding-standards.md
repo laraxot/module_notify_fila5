@@ -68,8 +68,13 @@ use Modules\Blog\Http\Controllers\BlogController;
 
 ```php
 // Only routing and dispatch
+<<<<<<< HEAD
 if ($container0 === 'forecasts') {
     @include('forecast::pages.forecast-detail')
+=======
+if ($container0 === 'predicts') {
+    @include('predict::pages.predict-detail')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 } elseif ($container0 === 'events') {
     @include('events::pages.event-detail')
 } else {
@@ -81,9 +86,15 @@ if ($container0 === 'forecasts') {
 
 ```php
 // ❌ NEVER do this in the generic blade
+<<<<<<< HEAD
 private function getMarketData() { ... }  // Forecast-specific
 private function buildOrderBook() { ... } // Forecast-specific
 private function calculateQualityScore() { ... } // Forecast-specific
+=======
+private function getMarketData() { ... }  // Predict-specific
+private function buildOrderBook() { ... } // Predict-specific
+private function calculateQualityScore() { ... } // Predict-specific
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---

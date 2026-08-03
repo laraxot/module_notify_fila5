@@ -107,7 +107,11 @@ docs/
 
 ## Prossimi Passi
 
+<<<<<<< HEAD
 1. Configurare OpenViking context per Notify
+=======
+1. Configurare OpenViking context per FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. Creare BMAD stories per allineamento HTML
 3. Eseguire GSD phase per fix componenti
 4. Usare Ralph Loop per iterazioni rapide

@@ -32,7 +32,11 @@ All module README.md files have been updated with:
 15. `laravel/Modules/AI/docs/README.md`
 16. `laravel/Modules/Activity/docs/README.md`
 17. `laravel/Modules/Blog/docs/README.md`
+<<<<<<< HEAD
 18. `laravel/Modules/App/docs/README.md`
+=======
+18. `laravel/Modules/Fixcity/docs/README.md`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 2. Theme READMEs Updated (2 files)
 
@@ -75,7 +79,11 @@ These files were checked and found to already have correct paths:
 All documentation now consistently references this structure:
 
 ```
+<<<<<<< HEAD
 base_ptvx_fila5/
+=======
+base_fixcity_fila5/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── public_html/              # DOCUMENT ROOT (web accessible)
 │   ├── index.php            # Entry point
 │   ├── assets/              # Public assets

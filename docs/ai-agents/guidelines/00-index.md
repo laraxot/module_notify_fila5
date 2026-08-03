@@ -81,12 +81,21 @@ A differenza delle rules (obbligatorie), le guidelines sono **consigli** per scr
 - **[Workflows Index](workflows/00-index-1.md)** - BMAD, GSD workflows
 
 ### Module Docs
+<<<<<<< HEAD
 - **[Components Index](../../laravel/Modules/Forecast/resources/views/components/forecast-view/00-index-1.md)** - 14 components
 - **[Reusable Architecture](../../laravel/Modules/Forecast/docs/components/reusable-architecture.md)** - Design principles
 
 ### Theme Docs
 - **[Theme Zero Components](../../laravel/Themes/Zero/docs/components/00-index-1.md)** - Theme components
 - **[TwentyOne Integration](../../laravel/Themes/TwentyOne/docs/forecast-integration.md)** - Theme integration
+=======
+- **[Components Index](../../laravel/Modules/Predict/resources/views/components/predict-view/00-index-1.md)** - 14 components
+- **[Reusable Architecture](../../laravel/Modules/Predict/docs/components/reusable-architecture.md)** - Design principles
+
+### Theme Docs
+- **[Theme Zero Components](../../laravel/Themes/Zero/docs/components/00-index-1.md)** - Theme components
+- **[TwentyOne Integration](../../laravel/Themes/TwentyOne/docs/predict-integration.md)** - Theme integration
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

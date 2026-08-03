@@ -73,7 +73,11 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 
 ```php
 // ❌ ERRATO
+<<<<<<< HEAD
 'sender' => env('NETFUN_SENDER', 'App'),
+=======
+'sender' => env('NETFUN_SENDER', 'Quaeris'),
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),

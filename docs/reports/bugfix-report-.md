@@ -14,7 +14,11 @@ related:
   - "./documentation-update-complete.md"
   - "./final-documentation-report.md"
   - "./final-success-report.md"
+<<<<<<< HEAD
   - "./laraxot-improvement-progress-1.md"
+=======
+  - "./fixcity-improvement-progress-1.md"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ---
 
 > Questo file è stato rinominato in [bugfix-report-.deprecated.md](bugfix-report-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

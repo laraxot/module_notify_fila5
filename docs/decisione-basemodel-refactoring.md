@@ -36,7 +36,11 @@ related:
 | **Blog** | ✅ Sì | ❌ No | SoftDeletes, Media, casts() | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Cms** | ✅ Sì | ❌ No | casts() merge | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Comment** | ✅ Sì | ❌ No | Solo connection | ⭐⭐⭐⭐⭐ PERFETTO |
+<<<<<<< HEAD
 | **App** | ✅ Sì | ⚠️ Parziali | SoftDeletes, $fillable, $dates | ⭐⭐⭐⭐ BUONO |
+=======
+| **Fixcity** | ✅ Sì | ⚠️ Parziali | SoftDeletes, $fillable, $dates | ⭐⭐⭐⭐ BUONO |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Gdpr** | ✅ Sì | ❌ No | casts() merge | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Geo** | ✅ Sì | ❌ No | Solo connection | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Job** | ✅ Sì | ❌ No | Solo connection | ⭐⭐⭐⭐⭐ PERFETTO |
@@ -173,15 +177,26 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 
 ## ⚠️ CASI PROBLEMATICI
 
+<<<<<<< HEAD
 ### Problema 1: App (PARZIALMENTE DUPLICATO)
 
 ```php
 // Modules/App/app/Models/BaseModel.php
+=======
+### Problema 1: Fixcity (PARZIALMENTE DUPLICATO)
+
+```php
+// Modules/Fixcity/app/Models/BaseModel.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;  // ✅ Specifico
     
+<<<<<<< HEAD
     protected $connection = 'laraxot';
+=======
+    protected $connection = 'fixcity';
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     
     // ❌ DUPLICATO: già in XotBaseModel
     protected $fillable = ['id'];
@@ -203,7 +218,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;  // ✅ Specifico
     
+<<<<<<< HEAD
     protected $connection = 'laraxot';
+=======
+    protected $connection = 'fixcity';
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     
     // ✅ RIMOSSO: $fillable (eredita da parent)
     // ✅ RIMOSSO: $dates (deprecato)
@@ -415,7 +434,11 @@ php artisan test --filter Tenant
 
 ### Priorità ALTA ⚠️
 
+<<<<<<< HEAD
 #### 2. App Module
+=======
+#### 2. Fixcity Module
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Problema**: $fillable duplicato, $dates deprecato  
 **Impatto**: 41 linee → 25 linee (39% riduzione)  
 **Rischio**: MEDIO (SoftDeletes da testare)  
@@ -470,7 +493,11 @@ protected function casts(): array
 | Moduli conformi | 16/18 (89%) |
 | LOC totali BaseModel | 578 |
 | Duplicazioni critiche | 1 (Tenant) |
+<<<<<<< HEAD
 | Duplicazioni medie | 1 (App) |
+=======
+| Duplicazioni medie | 1 (Fixcity) |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | Duplicazioni minori | 6 (casts) |
 
 ### Dopo il Refactoring
@@ -510,7 +537,11 @@ protected function casts(): array
 #### 🎯 AZIONI IMMEDIATE:
 
 1. **CRITICO**: Refactoring Tenant (30 min)
+<<<<<<< HEAD
 2. **ALTO**: Refactoring App (20 min)
+=======
+2. **ALTO**: Refactoring Fixcity (20 min)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 3. **MEDIO**: Pulizia casts duplicati (60 min totale)
 
 **Tempo Totale**: ~2 ore  

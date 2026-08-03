@@ -377,5 +377,9 @@ find . -name "*[A-Z]*" -type d | grep -v node_modules | grep -v vendor
 ---
 
 **Maintainer**: @marco76tv  
+<<<<<<< HEAD
 **Contact**: dev @laraxot.example.com  
+=======
+**Contact**: dev @fixcity.example.com  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Last Review**: 2026-03-13

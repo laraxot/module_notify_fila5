@@ -39,7 +39,11 @@ Errori comuni:
 
 ---
 
+<<<<<<< HEAD
 ## Forecast List Page
+=======
+## Predict List Page
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Deve essere **BEST IN CLASS** per SEO e WCAG.
 
@@ -117,7 +121,11 @@ Discussion: apre alla community, chiede feedback
 
 - `config/database.php` allineato a Laravel 13.x
 - Produzione usa MySQL tramite .env
+<<<<<<< HEAD
 - Test usano MySQL (forecast_test) tramite phpunit.xml
+=======
+- Test usano MySQL (predict_test) tramite phpunit.xml
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **MAI** cambiare default in config/database.php
 
 ---
@@ -136,7 +144,11 @@ Con default null per prevenire errori.
 ## CMS JSON Architecture
 
 - Tema agnostico basato su JSON
+<<<<<<< HEAD
 - Blocchi configurati in `config/local/forecast/database/content/pages/home.json`
+=======
+- Blocchi configurati in `config/local/predict/database/content/pages/home.json`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Struttura: `type`, `enabled`, `order`, `data`, `view`
 
 ---
@@ -156,11 +168,19 @@ Con default null per prevenire errori.
 __('<namespace>::<context>.<collection>.<key>.<type>')
 ```
 
+<<<<<<< HEAD
 Esempio: `__('forecast::home.hero.cta_learn.label')`
 
 **MAI** usare 4 livelli (manca `.label`)
 
 **Eccezione**: `forecast::messages.*` valore diretto
+=======
+Esempio: `__('predict::home.hero.cta_learn.label')`
+
+**MAI** usare 4 livelli (manca `.label`)
+
+**Eccezione**: `predict::messages.*` valore diretto
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -169,7 +189,11 @@ Esempio: `__('forecast::home.hero.cta_learn.label')`
 - Footer caricato da JSON config via `<x-section slug="footer" />`
 - **NON** usare `GetFooterData` action (DEPRECATA)
 - **NON** aggiungere blocchi footer in `home.json`
+<<<<<<< HEAD
 - Config: `config/local/forecast/database/content/sections/footer.json`
+=======
+- Config: `config/local/predict/database/content/sections/footer.json`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -189,7 +213,11 @@ Esempio: `__('forecast::home.hero.cta_learn.label')`
 
 ---
 
+<<<<<<< HEAD
 ## Multi-Outcome Forecasts
+=======
+## Multi-Outcome Predictions
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Previsioni **DEVONO** avere **3-5+ esiti** (NON solo SI/NO).
 

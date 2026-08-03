@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # User Research - Notify Platform
+=======
+# User Research - FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > **Version**: 1.0.0
 > **Last Updated**: 2026-03-13
@@ -10,8 +14,13 @@
 - **End Users**: Richiedono interfacce intuitive, veloci e accessibili per la gestione dei servizi quotidiani.
 
 ## 2. Competitive Landscape
+<<<<<<< HEAD
 - **Laravel Ecosystem**: Analisi di pacchetti come *Laravel Spark* (billing), *October CMS* (modularità) e *Filament* (UI). Notify si differenzia per l'integrazione profonda di multi-tenancy e analisi statica Level 10 nativa.
 - **Enterprise Solutions**: Spesso troppo rigide o costose. Notify offre flessibilità open-source con qualità enterprise.
+=======
+- **Laravel Ecosystem**: Analisi di pacchetti come *Laravel Spark* (billing), *October CMS* (modularità) e *Filament* (UI). FixCity si differenzia per l'integrazione profonda di multi-tenancy e analisi statica Level 10 nativa.
+- **Enterprise Solutions**: Spesso troppo rigide o costose. FixCity offre flessibilità open-source con qualità enterprise.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 3. Technical Research
 - **Framework Trends**: Adozione di Laravel 12 e Livewire 4 per massimizzare le prestazioni frontend senza la complessità di una SPA.

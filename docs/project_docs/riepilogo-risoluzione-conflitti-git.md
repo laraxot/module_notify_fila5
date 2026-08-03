@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Riepilogo Risoluzione Conflitti Git - Progetto Base Notify Fila3 Mono
+=======
+# Riepilogo Risoluzione Conflitti Git - Progetto Base FixCity Fila3 Mono
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Stato Finale
 

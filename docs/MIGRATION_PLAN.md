@@ -2,7 +2,11 @@
 
 ## Executive Summary
 
+<<<<<<< HEAD
 **Problem**: Module and theme documentation contains **1,500+ project-specific references** (Notify) when it should be **project-agnostic** and reusable.
+=======
+**Problem**: Module and theme documentation contains **1,500+ project-specific references** (FixCity) when it should be **project-agnostic** and reusable.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Solution**: Implement governance rules, rename files, and replace content with generic placeholders.
 
@@ -19,12 +23,21 @@
 
 | Pattern | Occurrences | Priority |
 |---------|-------------|----------|
+<<<<<<< HEAD
 | `App` (in content) | 1,050 | 🔴 HIGH |
 | `Notify` (in content) | 259 | 🔴 HIGH |
 | `laraxot` (in content) | 220 | 🔴 HIGH |
 | `laraxot-` (in filenames) | TBD | 🟡 MEDIUM |
 | `laraxot.local` | 3 | 🟢 LOW |
 | `base_ptvx_fila5` | 11 | 🟢 LOW |
+=======
+| `Fixcity` (in content) | 1,050 | 🔴 HIGH |
+| `FixCity` (in content) | 259 | 🔴 HIGH |
+| `fixcity` (in content) | 220 | 🔴 HIGH |
+| `fixcity-` (in filenames) | TBD | 🟡 MEDIUM |
+| `fixcity.local` | 3 | 🟢 LOW |
+| `base_fixcity_fila5` | 11 | 🟢 LOW |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -43,12 +56,21 @@ Defines:
 ### ✅ 2. Example Conversions
 
 #### File Renamed
+<<<<<<< HEAD
 - **Before**: `laravel/Modules/Cms/docs/laraxot-pages-content-blocks.md`
 - **After**: `laravel/Modules/Cms/docs/pages-content-blocks.md`
 
 #### Content Updated
 - Replaced `Notify` → `[PROJECT_NAME]`
 - Replaced `laraxot` → `[project_name]`
+=======
+- **Before**: `laravel/Modules/Cms/docs/fixcity-pages-content-blocks.md`
+- **After**: `laravel/Modules/Cms/docs/pages-content-blocks.md`
+
+#### Content Updated
+- Replaced `FixCity` → `[PROJECT_NAME]`
+- Replaced `fixcity` → `[project_name]`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Added contextual notes for users
 - Made examples generic with placeholders
 
@@ -56,9 +78,15 @@ Defines:
 **File**: `laravel/Themes/docs/README.md`
 
 Changes:
+<<<<<<< HEAD
 - Removed "Notify PTVX ecosystem" → "PTVX ecosystem"
 - Replaced `base_ptvx_fila5/` → `<project_root>/`
 - Replaced `laraxot.local` → `[YOUR_DOMAIN]`
+=======
+- Removed "FixCity PTVX ecosystem" → "PTVX ecosystem"
+- Replaced `base_fixcity_fila5/` → `<project_root>/`
+- Replaced `fixcity.local` → `[YOUR_DOMAIN]`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Replaced GitHub repo reference → `your-org/your-repo`
 - Added placeholder guidance notes
 
@@ -164,7 +192,11 @@ git commit -m "docs(Cms): make documentation agnostic"
 ### Pre-Commit Checklist
 
 For each module/theme:
+<<<<<<< HEAD
 - [ ] No `Notify`, `App`, `laraxot` in content
+=======
+- [ ] No `FixCity`, `Fixcity`, `fixcity` in content
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] No project-specific filenames
 - [ ] Placeholders used consistently:
   - `[PROJECT_NAME]` for platform name
@@ -181,7 +213,11 @@ For each module/theme:
 Add to CI/CD:
 ```bash
 # Fail if project-specific refs found in docs
+<<<<<<< HEAD
 if grep -r "Notify" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
+=======
+if grep -r "FixCity" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   echo "❌ Project-specific references found in documentation"
   exit 1
 fi
@@ -193,7 +229,11 @@ Create `.git/hooks/pre-commit`:
 ```bash
 #!/bin/bash
 # Check for project-specific docs in staged changes
+<<<<<<< HEAD
 if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "Notify" 2>/dev/null; then
+=======
+if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "FixCity" 2>/dev/null; then
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   echo "❌ Commit blocked: Project-specific references in documentation"
   echo "Run: ./bashscripts/fix-docs-agnostic.sh --dry-run"
   exit 1
@@ -210,10 +250,17 @@ fi
 
 **Before**:
 ```markdown
+<<<<<<< HEAD
 # Notify Blog Module
 
 This module provides blog functionality for Notify platform.
 Access at: laraxot.local/blog
+=======
+# FixCity Blog Module
+
+This module provides blog functionality for FixCity platform.
+Access at: fixcity.local/blog
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **After**:
@@ -230,6 +277,7 @@ Access at: `[YOUR_DOMAIN]/blog`
 
 **Before**:
 ```markdown
+<<<<<<< HEAD
 ## Notify Integration
 
 1. Add to App config:
@@ -238,6 +286,16 @@ Access at: `[YOUR_DOMAIN]/blog`
    ```
 
 2. Routes available at laraxot.local/admin/blog
+=======
+## FixCity Integration
+
+1. Add to Fixcity config:
+   ```php
+   config('fixcity.blog.settings')
+   ```
+
+2. Routes available at fixcity.local/admin/blog
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **After**:
@@ -292,8 +350,13 @@ git revert <commit-hash>
 ## Success Metrics
 
 ### Quantitative
+<<<<<<< HEAD
 - ✅ 0 occurrences of "Notify" in module/theme docs
 - ✅ 0 occurrences of "laraxot" in module/theme docs
+=======
+- ✅ 0 occurrences of "FixCity" in module/theme docs
+- ✅ 0 occurrences of "fixcity" in module/theme docs
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ 100% of filenames are project-agnostic
 - ✅ 100% of cross-references use relative paths
 
@@ -365,10 +428,17 @@ A: In `docs/project/` at the project root, not in individual modules.
 A: Consider keeping it in the project root, not in the reusable Modules directory.
 
 **Q: How do I handle module-to-module references?**  
+<<<<<<< HEAD
 A: Use generic names: "Blog Module" instead of "Notify Blog Module".
 
 **Q: Can I still mention Notify in examples?**  
 A: Yes, but clearly mark them as examples: "e.g., 'laraxot' for a civic platform".
+=======
+A: Use generic names: "Blog Module" instead of "FixCity Blog Module".
+
+**Q: Can I still mention FixCity in examples?**  
+A: Yes, but clearly mark them as examples: "e.g., 'fixcity' for a civic platform".
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

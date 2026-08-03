@@ -43,7 +43,11 @@ Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 
 **Comando verifica**:
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5_mono/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ./vendor/bin/phpstan analyse Modules/Xot --memory-limit=-1
 ```
 
@@ -111,7 +115,11 @@ cd /var/www/_bases/base_ptvx_fila5_mono/laravel
 
 **Verifica Completa**:
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5_mono/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 ```
 
@@ -185,7 +193,11 @@ php artisan test --filter=BaseUserTest
 - ❌ Non usare `->label()`, `->placeholder()`, `->tooltip()`
 
 ### ✅ Sempre Fare
+<<<<<<< HEAD
 - ✅ Eseguire da `/var/www/_bases/base_ptvx_fila5_mono/laravel/`
+=======
+- ✅ Eseguire da `/var/www/_bases/base_fixcity_fila5_mono/laravel/`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ Verificare ogni fix con PHPStan
 - ✅ Usare sempre classi XotBase
 - ✅ Aggiornare docs dopo ogni correzione

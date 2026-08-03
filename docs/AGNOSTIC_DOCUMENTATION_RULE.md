@@ -19,8 +19,13 @@ Modules and themes are **reusable components** that should work across multiple 
 
 **❌ WRONG** (Project-specific):
 ```markdown
+<<<<<<< HEAD
 # Notify Pages Content Blocks
 This guide covers Notify platform pages...
+=======
+# FixCity Pages Content Blocks
+This guide covers FixCity platform pages...
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **✅ CORRECT** (Agnostic):
@@ -36,16 +41,28 @@ Replace specific names with placeholders:
 
 | Instead Of | Use |
 |------------|-----|
+<<<<<<< HEAD
 | `Notify` | `[PROJECT_NAME]` or `[Platform Name]` |
 | `laraxot.local` | `[DOMAIN]` or `your-project.local` |
 | `laraxot::` | `module_name::` or `your_module::` |
 | `laravel/Modules/App` | `laravel/Modules/[ModuleName]` |
+=======
+| `FixCity` | `[PROJECT_NAME]` or `[Platform Name]` |
+| `fixcity.local` | `[DOMAIN]` or `your-project.local` |
+| `fixcity::` | `module_name::` or `your_module::` |
+| `laravel/Modules/Fixcity` | `laravel/Modules/[ModuleName]` |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 3. File Naming
 
 **❌ WRONG**:
+<<<<<<< HEAD
 - `laraxot-pages-content-blocks.md`
 - `laraxot-integration.md`
+=======
+- `fixcity-pages-content-blocks.md`
+- `fixcity-integration.md`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `project-name-setup.md`
 
 **✅ CORRECT**:
@@ -57,9 +74,15 @@ Replace specific names with placeholders:
 
 **❌ WRONG**:
 ```php
+<<<<<<< HEAD
 namespace Modules\App\Models;
 route('laraxot.tickets.index')
 config('laraxot.settings')
+=======
+namespace Modules\Fixcity\Models;
+route('fixcity.tickets.index')
+config('fixcity.settings')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **✅ CORRECT**:
@@ -75,8 +98,13 @@ When linking to other docs, use **relative paths** without project names:
 
 **❌ WRONG**:
 ```markdown
+<<<<<<< HEAD
 - [Notify Integration](../../laraxot/docs/roadmap.md)
 - [See App Module](../../../Modules/App/docs/)
+=======
+- [FixCity Integration](../../fixcity/docs/roadmap.md)
+- [See Fixcity Module](../../../Modules/Fixcity/docs/)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **✅ CORRECT**:
@@ -112,7 +140,11 @@ For existing documentation:
 
 Before committing documentation changes, verify:
 
+<<<<<<< HEAD
 - [ ] No project-specific names (Notify, YourProject, etc.)
+=======
+- [ ] No project-specific names (FixCity, YourProject, etc.)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Generic placeholders used consistently
 - [ ] File names are project-agnostic
 - [ ] Examples use generic module/resource names
@@ -120,7 +152,11 @@ Before committing documentation changes, verify:
 
 ## Enforcement
 
+<<<<<<< HEAD
 - **Pre-commit check**: Run `grep -r "Notify" Modules/*/docs/ Themes/*/docs/` to catch violations
+=======
+- **Pre-commit check**: Run `grep -r "FixCity" Modules/*/docs/ Themes/*/docs/` to catch violations
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Code review**: Reject PRs with project-specific docs in generic modules
 - **Documentation audit**: Periodic review of module/theme docs
 
@@ -144,7 +180,11 @@ Modules/
 ├── Cms/
 │   └── docs/
 │       ├── README.md              # Generic CMS module docs
+<<<<<<< HEAD
 │       ├── pages-content-blocks.md  # No "Notify" references
+=======
+│       ├── pages-content-blocks.md  # No "FixCity" references
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │       └── content-management.md  # Project-agnostic
 └── User/
     └── docs/

@@ -48,7 +48,11 @@
 
 **SBAGLIATO**:
 ```
+<<<<<<< HEAD
 Leggi tutti i file del modulo App per capire il wizard
+=======
+Leggi tutti i file del modulo Fixcity per capire il wizard
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 → 50 file × 100 righe = 5000 righe = ~100K token
 ```
 
@@ -61,10 +65,17 @@ Grep "getWizardSteps" in CreateTicketWizardWidget.php
 **Comando**:
 ```bash
 # ❌ SBAGLIATO: trova tutti i file
+<<<<<<< HEAD
 find Modules/App -name "*.php"
 
 # ✅ CORRETTO: trova solo il blocco utile
 grep -n "getWizardSteps" Modules/App/app/Filament/Widgets/CreateTicketWizardWidget.php
+=======
+find Modules/Fixcity -name "*.php"
+
+# ✅ CORRETTO: trova solo il blocco utile
+grep -n "getWizardSteps" Modules/Fixcity/app/Filament/Widgets/CreateTicketWizardWidget.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Risparmiato**: 99.5% token

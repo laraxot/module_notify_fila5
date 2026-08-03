@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "✅ Header Notify Fixato - 100% Conforme Bootstrap Italia"
+=======
+title: "✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [header, fix, complete]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "header-fix-complete ✅ header laraxot fixato - 100% conforme bootstrap italia"
+=======
+qmd: "header-fix-complete ✅ header fixcity fixato - 100% conforme bootstrap italia"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # ✅ Header Notify Fixato - 100% Conforme Bootstrap Italia
+=======
+# ✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Data: 2026-03-31
 ## Status: ✅ Header Completamente Rifatto
@@ -145,7 +157,11 @@ related:
 
 ## 📊 Conformità Raggiunta
 
+<<<<<<< HEAD
 | Elemento | Reference | Notify | Status |
+=======
+| Elemento | Reference | FixCity | Status |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 |----------|-----------|---------|--------|
 | **Top Bar** | | | |
 | Background | `#0066CC` | `bg-[#0066CC]` | ✅ |

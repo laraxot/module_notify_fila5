@@ -4,7 +4,11 @@
 
 ## 🎯 Panoramica
 
+<<<<<<< HEAD
 Questa documentazione elenca tutte le skill AI installate e configurate per il progetto Notify Fila5. Le skill potenziano gli agenti AI con conoscenze specializzate per UI/UX design, sviluppo, e task specifici.
+=======
+Questa documentazione elenca tutte le skill AI installate e configurate per il progetto FixCity Fila5. Le skill potenziano gli agenti AI con conoscenze specializzate per UI/UX design, sviluppo, e task specifici.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -265,7 +269,11 @@ Skills activate automatically when the agent detects relevant tasks:
 ### Directory Structure
 
 ```
+<<<<<<< HEAD
 /var/www/_bases/base_ptvx_fila5/
+=======
+/var/www/_bases/base_fixcity_fila5/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── skills/
 │   ├── ui-ux-pro-max/
 │   │   └── SKILL.md
@@ -337,7 +345,11 @@ Context: "Make it beautiful"
 ### Install UI/UX Pro Max
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 mkdir -p skills/ui-ux-pro-max
 # SKILL.md already exists in skills/ui-ux-pro-max/
 ```
@@ -345,7 +357,11 @@ mkdir -p skills/ui-ux-pro-max
 ### Install Taste Skill
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 mkdir -p skills/taste
 # SKILL.md already exists in skills/taste/
 ```
@@ -353,7 +369,11 @@ mkdir -p skills/taste
 ### Install Anthropic Skills
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 mkdir -p skills/anthropic
 # SKILL.md already exists in skills/anthropic/
 ```
@@ -361,7 +381,11 @@ mkdir -p skills/anthropic
 ### Install Vercel Agent Skills (Optional)
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 npx skills add vercel-labs/agent-skills
 ```
 

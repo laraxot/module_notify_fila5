@@ -274,7 +274,11 @@ FAIL → $this->addError() + rimane su form
 ### 1. Avviare il Server
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5_mono/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 php artisan serve --host=127.0.0.1 --port=8000
 ```
 

@@ -447,7 +447,11 @@ new class extends Component {
 
 ```php
 use Livewire\Livewire;
+<<<<<<< HEAD
 use Modules\App\Filament\Widgets\SalesChartWidget;
+=======
+use Modules\Quaeris\Filament\Widgets\SalesChartWidget;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 it('renders chart widget', function (): void {
     Livewire::test(SalesChartWidget::class)

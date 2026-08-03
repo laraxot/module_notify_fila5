@@ -15,7 +15,11 @@ related:
   - "./documentation-update-complete.md"
   - "./final-documentation-report.md"
   - "./final-success-report.md"
+<<<<<<< HEAD
   - "./laraxot-improvement-progress-1.md"
+=======
+  - "./fixcity-improvement-progress-1.md"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ---
 
 # ✅ Design Comuni Replication - PROGRESS REPORT #1
@@ -32,7 +36,11 @@ Replicate all 38 static pages from [Design Comuni Pagine Statiche](https://githu
 
 **URL Mapping**:
 - Source: `https://italia.github.io/design-comuni-pagine-statiche/sito/[page].html`
+<<<<<<< HEAD
 - Target: `http://laraxot.local/it/tests/[page]`
+=======
+- Target: `http://fixcity.local/it/tests/[page]`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Example**:
 - `argomenti.html` → `/it/tests/argomenti` ✅ Working
@@ -85,9 +93,15 @@ laravel/Themes/Sixteen/
 
 **Usage**:
 ```
+<<<<<<< HEAD
 http://laraxot.local/it/tests/argomenti
 http://laraxot.local/it/tests/appuntamento-06-conferma
 http://laraxot.local/it/tests/servizi
+=======
+http://fixcity.local/it/tests/argomenti
+http://fixcity.local/it/tests/appuntamento-06-conferma
+http://fixcity.local/it/tests/servizi
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **DRY Compliance**: ✅ Single file handles ALL 38 pages

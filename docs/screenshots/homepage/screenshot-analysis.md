@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "📸 Screenshot Analysis - Homepage Notify"
+=======
+title: "📸 Screenshot Analysis - Homepage FixCity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [screenshot, analysis]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "screenshot-analysis 📸 screenshot analysis - homepage laraxot"
+=======
+qmd: "screenshot-analysis 📸 screenshot analysis - homepage fixcity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -13,7 +21,11 @@ related:
   - "./fix-plan.md"
 ---
 
+<<<<<<< HEAD
 # 📸 Screenshot Analysis - Homepage Notify
+=======
+# 📸 Screenshot Analysis - Homepage FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Reference: Bootstrap Italia
 
@@ -138,6 +150,7 @@ Screenshot: footer_bootstrap_italia.png
 
 ---
 
+<<<<<<< HEAD
 ## Notify Current State
 
 ### Screenshots
@@ -149,11 +162,28 @@ Screenshot: app_events_current.png
 Screenshot: app_topics_current.png
 Screenshot: app_footer_current.png
 URL: http://laraxot.local/it/tests/homepage
+=======
+## FixCity Current State
+
+### Screenshots
+```
+Screenshot: fixcity_header_current.png
+Screenshot: fixcity_hero_current.png
+Screenshot: fixcity_governance_current.png
+Screenshot: fixcity_events_current.png
+Screenshot: fixcity_topics_current.png
+Screenshot: fixcity_footer_current.png
+URL: http://fixcity.local/it/tests/homepage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Differenze Principali
 
+<<<<<<< HEAD
 | Elemento | Bootstrap Italia | Notify | Status |
+=======
+| Elemento | Bootstrap Italia | FixCity | Status |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 |----------|-----------------|---------|--------|
 | Header slim | ✅ Presente | ❌ Assente | 🔴 |
 | Hero card-teaser | ✅ Sì | ❌ No | 🔴 |

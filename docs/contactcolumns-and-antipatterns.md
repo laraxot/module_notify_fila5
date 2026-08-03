@@ -9,7 +9,11 @@
 ## 📋 **ERRORI IDENTIFICATI**
 
 ### **1. VIOLAZIONE ARCHITETTURA FILAMENT**
+<<<<<<< HEAD
 - ❌ **Errore**: Implementazione inconsistente tra App e Notify
+=======
+- ❌ **Errore**: Implementazione inconsistente tra TechPlanner e Notify
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ❌ **Problema**: Due versioni diverse dello stesso file
 - ❌ **Impatto**: Confusione architetturale, manutenzione impossibile
 

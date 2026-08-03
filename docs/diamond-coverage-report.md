@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "💎 NOTIFY - DIAMOND COVERAGE REPORT"
+=======
+title: "💎 FIXCITY - DIAMOND COVERAGE REPORT"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [diamond, coverage, report]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "diamond-coverage-report 💎 laraxot - diamond coverage report"
+=======
+qmd: "diamond-coverage-report 💎 fixcity - diamond coverage report"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 💎 NOTIFY - DIAMOND COVERAGE REPORT
+=======
+# 💎 FIXCITY - DIAMOND COVERAGE REPORT
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 2025-10-02  
 **Mode**: 🐄⚡💎 SUPER MUCCA DIAMOND  
@@ -35,7 +47,11 @@ Raggiungere il **100% di test coverage** su tutti i moduli critici con test comp
 
 ## 📊 TEST SUITES CREATE (8 totali)
 
+<<<<<<< HEAD
 ### Modulo App (4 suites)
+=======
+### Modulo Fixcity (4 suites)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 1. ✅ **GeocodeTicketJobTest.php** - 5 test cases
    - Geocoding success
    - Cache usage
@@ -114,7 +130,11 @@ Raggiungere il **100% di test coverage** su tutti i moduli critici con test comp
 
 | Modulo | Files Tested | Test Cases | Coverage | Status |
 |--------|--------------|------------|----------|--------|
+<<<<<<< HEAD
 | **App** | 4 | 50+ | ~85% | ✅ Eccellente |
+=======
+| **Fixcity** | 4 | 50+ | ~85% | ✅ Eccellente |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **User** | 2 | 25+ | ~80% | ✅ Ottimo |
 | **Geo** | 1 | 8 | ~75% | ✅ Buono |
 | **Media** | 1 | 30+ | ~85% | ✅ Eccellente |
@@ -182,7 +202,11 @@ php artisan test
 
 ### Run Specific Module
 ```bash
+<<<<<<< HEAD
 php artisan test --filter=App
+=======
+php artisan test --filter=Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 php artisan test --filter=User
 php artisan test --filter=Geo
 php artisan test --filter=Media
@@ -211,7 +235,11 @@ php artisan test --parallel
 ## 🎯 COVERAGE GOALS
 
 ### Short Term (Week 1)
+<<<<<<< HEAD
 - [ ] App: 85% → **95%**
+=======
+- [ ] Fixcity: 85% → **95%**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] User: 80% → **95%**
 - [ ] Geo: 75% → **90%**
 - [ ] Media: 85% → **95%**
@@ -340,6 +368,12 @@ php artisan test --parallel
 **Target**: 💎 **100% DIAMOND COVERAGE**  
 **Mode**: 🐄⚡💎 **SUPER MUCCA DIAMOND ACTIVE**  
 
+<<<<<<< HEAD
 *"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. Notify sarà il diamante più brillante del 2025!"*
 
 **#Notify2025 #DiamondCoverage #TestExcellence #100Percent**
+=======
+*"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. FixCity sarà il diamante più brillante del 2025!"*
+
+**#FixCity2025 #DiamondCoverage #TestExcellence #100Percent**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "Notify Documentation Ecosystem - Visual Map"
+=======
+title: "FixCity Documentation Ecosystem - Visual Map"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [documentation, ecosystem]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "documentation-ecosystem laraxot documentation ecosystem - visual map"
+=======
+qmd: "documentation-ecosystem fixcity documentation ecosystem - visual map"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # Notify Documentation Ecosystem - Visual Map
+=======
+# FixCity Documentation Ecosystem - Visual Map
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **📍 Complete Bidirectional Links & Cross-References**
 
@@ -28,7 +40,11 @@ related:
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
+<<<<<<< HEAD
 │            Notify Fila5 Documentation Ecosystem                 │
+=======
+│            FixCity Fila5 Documentation Ecosystem                 │
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │                   (7,137+ Connected Files)                       │
 └──────────────────────────────────────────────────────────────────┘
 
@@ -176,7 +192,11 @@ Theme: Sixteen
     │
     ├─→ Cms Module
     │   └─ Displays: Pages, blocks, content
+<<<<<<< HEAD
     │   └─ Via: config/local/laraxot/database/content/pages/
+=======
+    │   └─ Via: config/local/fixcity/database/content/pages/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     │   └─ Renders: Block components
     │
     ├─→ Media Module

@@ -45,7 +45,11 @@ Tutti i 17 moduli sono ora completamente type-safe.
 ## Modules Validated (0 Errors)
 
 ✅ User (362 files)
+<<<<<<< HEAD
 ✅ App (86 files)
+=======
+✅ Fixcity (86 files)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ✅ Blog (139 files)
 ✅ Xot (~200 files)
 ✅ Geo (155 files)

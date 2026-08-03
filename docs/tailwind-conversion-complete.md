@@ -228,7 +228,11 @@ Main Content
 
 ## 🏆 RISULTATO
 
+<<<<<<< HEAD
 **Homepage Notify è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
+=======
+**Homepage FixCity è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Differenze
 - ❌ Bootstrap Italia
@@ -247,6 +251,12 @@ Main Content
 **Quality**: 💎 **IDENTICO AL DESIGN COMUNI**  
 **Tech**: 🎨 **100% TAILWIND CSS**  
 
+<<<<<<< HEAD
 *"Notify ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
 
 **#Notify2025 #TailwindCSS #DesignComuni #AGID #Conversion**
+=======
+*"FixCity ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
+
+**#FixCity2025 #TailwindCSS #DesignComuni #AGID #Conversion**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

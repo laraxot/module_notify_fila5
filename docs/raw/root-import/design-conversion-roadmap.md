@@ -180,10 +180,17 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 node bashscripts/github/create-design-issues.mjs
 
 # View issues
+<<<<<<< HEAD
 gh issue list --repo laraxot/base_ptvx_fila5 --label "design-comuni"
 
 # Filter by priority
 gh issue list --repo laraxot/base_ptvx_fila5 --label "priority:critical"
+=======
+gh issue list --repo laraxot/base_fixcity_fila5 --label "design-comuni"
+
+# Filter by priority
+gh issue list --repo laraxot/base_fixcity_fila5 --label "priority:critical"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -244,7 +251,11 @@ npm run copy     # ~1 second
 ### Today (Start Phase 1)
 ```bash
 # 1. Review the analysis
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 cat laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md
 
 # 2. Create GitHub issues
@@ -333,7 +344,11 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 
 **Ready to start? Run this now:**
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 node bashscripts/github/create-design-issues.mjs
 ```
 

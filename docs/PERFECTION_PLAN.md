@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🎯 NOTIFY - PERFECTION PLAN
+=======
+# 🎯 FIXCITY - PERFECTION PLAN
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 2025-10-01  
 **Mode**: 🐄⚡ SUPER MUCCA PERFECTION  
@@ -21,7 +25,11 @@
 ## 📊 MODULI ANALIZZATI (20)
 
 ### Core (3) - Priority: CRITICAL
+<<<<<<< HEAD
 1. **App** - 95% ✅ (API, Repository, Job implementati)
+=======
+1. **Fixcity** - 95% ✅ (API, Repository, Job implementati)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. **User** - 93% ✅ (2FA Service implementato)
 3. **Xot** - 95% ✅ (Framework completo)
 
@@ -53,7 +61,11 @@
 ### FASE 1: Core Completion (Immediate)
 **Obiettivo**: Portare core al 100%
 
+<<<<<<< HEAD
 #### App (95% → 100%)
+=======
+#### Fixcity (95% → 100%)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [x] GeocodeTicketAddressJob ✅
 - [x] TicketRepository ✅
 - [x] REST API ✅
@@ -189,7 +201,11 @@ php artisan test --filter=[TestName]
 ### Per Modulo
 | Modulo | Current | Target | Priority |
 |--------|---------|--------|----------|
+<<<<<<< HEAD
 | App | 95% | 100% | CRITICAL |
+=======
+| Fixcity | 95% | 100% | CRITICAL |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | User | 93% | 100% | CRITICAL |
 | Xot | 95% | 100% | CRITICAL |
 | UI | 72% | 90% | HIGH |

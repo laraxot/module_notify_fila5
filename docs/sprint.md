@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Sprint Planning Meeting - Notify Platform
+=======
+# Sprint Planning Meeting - FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > **Version**: 1.0.0
 > **Last Updated**: 2026-03-13

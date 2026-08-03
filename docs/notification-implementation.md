@@ -16,7 +16,11 @@ We are adding a bulk action to trigger notifications using `RecordNotification`.
 - **Inputs**: Selection of records.
 
 ### 3. Integration
+<<<<<<< HEAD
 - Integrated into `app/Filament/Resources/ClientResource/Pages/ListClients.php`.
+=======
+- Integrated into `Modules/TechPlanner/app/Filament/Resources/ClientResource/Pages/ListClients.php`.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Data Flow
 Customer List -> Bulk Action -> Modal (Select Template + Channels) -> Submit -> Loop Records -> SendRecordNotificationAction -> Notification::route -> RecordNotification

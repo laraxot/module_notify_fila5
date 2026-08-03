@@ -33,13 +33,21 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 // Formato corretto - allegato da file su filesystem
 $attachments = [
     [
+<<<<<<< HEAD
 'path' => '/var/www/_bases/base_ptvx_fila5/public_html/images/avatars/default-3.svg',
+=======
+'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
+<<<<<<< HEAD
 'path' => '/var/www/_bases/base_ptvx_fila5/public_html/documents/terms.pdf',
+=======
+'path' => '/var/www/html/Quaeris/public_html/documents/terms.pdf',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],

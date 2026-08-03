@@ -26,7 +26,11 @@ related:
 
 ## 📋 Overview
 
+<<<<<<< HEAD
 Successfully installed and configured the **Superpowers** agentic skills framework for the Notify platform.
+=======
+Successfully installed and configured the **Superpowers** agentic skills framework for the FixCity platform.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # Implementazione di Notifiche Multi-Canale
 
 Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
 Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Indice
 
@@ -17,7 +24,11 @@ Questa documentazione descrive come implementare correttamente notifiche multi-c
 ## Introduzione
 
 <nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
 <nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Architettura delle Notifiche
 
@@ -61,12 +72,20 @@ Quando si utilizza `SpatieEmail` con le notifiche, è **fondamentale** impostare
 public function toMail($notifiable): SpatieEmail
 {
     $email = new SpatieEmail($this->record, $this->slug);
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // IMPORTANTE: garantisci che ci sia sempre un destinatario
     if (method_exists($notifiable, 'routeNotificationFor')) {
         $email->to($notifiable->routeNotificationFor('mail'));
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     return $email;
 }
 ```
@@ -87,7 +106,11 @@ public function toMail($notifiable): SpatieEmail
 ### Configurazione Provider SMS
 
 <nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
 <nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 1. Installazione del provider scelto:
    ```bash
@@ -192,17 +215,26 @@ class AppointmentNotification extends Notification
 {
     protected $record;
     protected $slug;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct($record, $slug)
     {
         $this->record = $record;
         $this->slug = $slug;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function via($notifiable)
     {
         // Determina dinamicamente i canali basandosi sulle preferenze dell'utente
         $channels = ['mail'];
+<<<<<<< HEAD
 
         if ($notifiable->sms_notifications_enabled) {
             $channels[] = TwilioChannel::class;
@@ -219,20 +251,49 @@ class AppointmentNotification extends Notification
     {
         $email = new SpatieEmail($this->record, $this->slug);
 
+=======
+        
+        if ($notifiable->sms_notifications_enabled) {
+            $channels[] = TwilioChannel::class;
+        }
+        
+        if ($notifiable->telegram_notifications_enabled) {
+            $channels[] = TelegramChannel::class;
+        }
+        
+        return $channels;
+    }
+    
+    public function toMail($notifiable)
+    {
+        $email = new SpatieEmail($this->record, $this->slug);
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // IMPORTANTE: imposta esplicitamente il destinatario
         if (method_exists($notifiable, 'routeNotificationFor')) {
             $email->to($notifiable->routeNotificationFor('mail'));
         }
+<<<<<<< HEAD
 
         return $email;
     }
 
+=======
+        
+        return $email;
+    }
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function toTwilio($notifiable)
     {
         return (new TwilioSmsMessage())
             ->content("Notifica: {$this->record->title}");
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function toTelegram($notifiable)
     {
         return TelegramMessage::create()
@@ -244,7 +305,11 @@ class AppointmentNotification extends Notification
 ## Implementazione Netfun SMS
 
 Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
 Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 1. Configurazione
 
@@ -254,12 +319,20 @@ Per prima cosa, aggiungiamo la configurazione nel file `config/sms.php`:
 // config/sms.php
 return [
     // Altre configurazioni...
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     'netfun' => [
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         'api_url' => env('NETFUN_API_URL', 'https://api.netfun.it/sms/v1/'),
     ],
 ];
@@ -271,7 +344,11 @@ Assicurati di aggiungere le corrispondenti variabili al tuo file `.env`:
 NETFUN_USERNAME=your_username
 NETFUN_PASSWORD=your_password
 NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
+=======
+NETFUN_SENDER=SaluteOra
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### 2. Creazione della Queueable Action
@@ -291,12 +368,20 @@ use Illuminate\Support\Str;
 class SendNetfunSMSAction
 {
     use QueueableAction;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     protected string $username;
     protected string $password;
     protected string $sender;
     protected string $apiUrl;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct()
     {
         $this->username = config('sms.netfun.username');
@@ -304,15 +389,26 @@ class SendNetfunSMSAction
         $this->sender = config('sms.netfun.sender');
         $this->apiUrl = config('sms.netfun.api_url');
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function execute(string $to, string $message, array $options = [])
     {
         // Normalizza il numero di telefono (formato E.164)
         $to = $this->normalizePhoneNumber($to);
+<<<<<<< HEAD
 
         // Genera un ID di riferimento univoco per il messaggio
         $reference = $options['reference'] ?? (string) Str::uuid();
 
+=======
+        
+        // Genera un ID di riferimento univoco per il messaggio
+        $reference = $options['reference'] ?? (string) Str::uuid();
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         try {
             $response = Http::post($this->apiUrl, [
                 'username' => $this->username,
@@ -324,16 +420,27 @@ class SendNetfunSMSAction
                 // Altri parametri opzionali
                 'date' => $options['scheduled_date'] ?? null, // Data pianificata di invio
             ]);
+<<<<<<< HEAD
 
             if ($response->successful()) {
                 $responseData = $response->json();
 
+=======
+            
+            if ($response->successful()) {
+                $responseData = $response->json();
+                
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                 Log::info('SMS Netfun inviato con successo', [
                     'to' => $to,
                     'reference' => $reference,
                     'message_id' => $responseData['message_id'] ?? null,
                 ]);
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                 return [
                     'success' => true,
                     'message_id' => $responseData['message_id'] ?? null,
@@ -346,7 +453,11 @@ class SendNetfunSMSAction
                     'status' => $response->status(),
                     'response' => $response->json(),
                 ]);
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
                 return [
                     'success' => false,
                     'error' => $response->json()['message'] ?? 'Errore sconosciuto',
@@ -359,6 +470,7 @@ class SendNetfunSMSAction
                 'reference' => $reference,
                 'error' => $e->getMessage(),
             ]);
+<<<<<<< HEAD
 
             throw $e;
         }
@@ -367,6 +479,16 @@ class SendNetfunSMSAction
     /**
      * Normalizza il numero di telefono nel formato E.164
      *
+=======
+            
+            throw $e;
+        }
+    }
+    
+    /**
+     * Normalizza il numero di telefono nel formato E.164
+     * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @param string $phoneNumber
      * @return string
      */
@@ -374,20 +496,32 @@ class SendNetfunSMSAction
     {
         // Rimuovi tutti i caratteri non numerici
         $digits = preg_replace('/[^0-9]/', '', $phoneNumber);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Se il numero non inizia con '+' e non ha un prefisso internazionale,
         // aggiungi il prefisso italiano per default
         if (!Str::startsWith($phoneNumber, '+')) {
             // Se il numero inizia con '00', sostituisci con '+'
             if (Str::startsWith($digits, '00')) {
                 $digits = '+' . substr($digits, 2);
+<<<<<<< HEAD
             }
+=======
+            } 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             // Se il numero inizia con '3' (cellulare italiano), aggiungi prefisso italiano
             elseif (Str::startsWith($digits, '3')) {
                 $digits = '+39' . $digits;
             }
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return $digits;
     }
 }
@@ -408,10 +542,17 @@ class NetfunSMSMessage
     public ?string $sender = null;
     public ?string $reference = null;
     public ?string $scheduledDate = null;
+<<<<<<< HEAD
 
     /**
      * Imposta il contenuto del messaggio
      *
+=======
+    
+    /**
+     * Imposta il contenuto del messaggio
+     * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @param string $content
      * @return $this
      */
@@ -420,10 +561,17 @@ class NetfunSMSMessage
         $this->content = $content;
         return $this;
     }
+<<<<<<< HEAD
 
     /**
      * Imposta il mittente del messaggio
      *
+=======
+    
+    /**
+     * Imposta il mittente del messaggio
+     * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @param string $sender
      * @return $this
      */
@@ -432,10 +580,17 @@ class NetfunSMSMessage
         $this->sender = $sender;
         return $this;
     }
+<<<<<<< HEAD
 
     /**
      * Imposta un riferimento personalizzato
      *
+=======
+    
+    /**
+     * Imposta un riferimento personalizzato
+     * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @param string $reference
      * @return $this
      */
@@ -444,10 +599,17 @@ class NetfunSMSMessage
         $this->reference = $reference;
         return $this;
     }
+<<<<<<< HEAD
 
     /**
      * Pianifica l'invio del messaggio
      *
+=======
+    
+    /**
+     * Pianifica l'invio del messaggio
+     * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @param string $date Formato: 'Y-m-d H:i:s'
      * @return $this
      */
@@ -456,10 +618,17 @@ class NetfunSMSMessage
         $this->scheduledDate = $date;
         return $this;
     }
+<<<<<<< HEAD
 
     /**
      * Converte l'oggetto in array di opzioni
      *
+=======
+    
+    /**
+     * Converte l'oggetto in array di opzioni
+     * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @return array
      */
     public function toArray(): array
@@ -489,15 +658,26 @@ use Modules\Notify\Datas\NetfunSMSMessage;
 class NetfunChannel
 {
     protected SendNetfunSMSAction $sendSMSAction;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct(SendNetfunSMSAction $sendSMSAction)
     {
         $this->sendSMSAction = $sendSMSAction;
     }
+<<<<<<< HEAD
 
     /**
      * Invia la notifica tramite Netfun SMS
      *
+=======
+    
+    /**
+     * Invia la notifica tramite Netfun SMS
+     * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @param mixed $notifiable
      * @param \Illuminate\Notifications\Notification $notification
      * @return array|null
@@ -508,6 +688,7 @@ class NetfunChannel
         if (!$to = $notifiable->routeNotificationForNetfun($notification)) {
             return null;
         }
+<<<<<<< HEAD
 
         // Ottieni il messaggio dalla notifica
         $message = $notification->toNetfun($notifiable);
@@ -516,6 +697,16 @@ class NetfunChannel
             throw new \Exception('Il metodo toNetfun() deve restituire un\'istanza di NetfunSMSMessage');
         }
 
+=======
+        
+        // Ottieni il messaggio dalla notifica
+        $message = $notification->toNetfun($notifiable);
+        
+        if (!$message instanceof NetfunSMSMessage) {
+            throw new \Exception('Il metodo toNetfun() deve restituire un\'istanza di NetfunSMSMessage');
+        }
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Esegui l'invio tramite la Queueable Action
         // L'esecuzione avverrà in modo asincrono (in background)
         return $this->sendSMSAction
@@ -542,12 +733,21 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use Notifiable;
+<<<<<<< HEAD
 
     // ... altri metodi e proprietà
 
     /**
      * Restituisce il numero di telefono per invio notifiche Netfun
      *
+=======
+    
+    // ... altri metodi e proprietà
+    
+    /**
+     * Restituisce il numero di telefono per invio notifiche Netfun
+     * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @param \Illuminate\Notifications\Notification $notification
      * @return string|null
      */
@@ -574,15 +774,26 @@ use Modules\Notify\Datas\NetfunSMSMessage;
 class AppointmentReminder extends Notification
 {
     protected $appointment;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function __construct($appointment)
     {
         $this->appointment = $appointment;
     }
+<<<<<<< HEAD
 
     /**
      * Definisci i canali su cui inviare la notifica
      *
+=======
+    
+    /**
+     * Definisci i canali su cui inviare la notifica
+     * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @param mixed $notifiable
      * @return array
      */
@@ -590,16 +801,24 @@ class AppointmentReminder extends Notification
     {
         return ['mail', NetfunChannel::class];
     }
+<<<<<<< HEAD
 
     /**
      * Formatta il messaggio per il canale Netfun
      *
+=======
+    
+    /**
+     * Formatta il messaggio per il canale Netfun
+     * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      * @param mixed $notifiable
      * @return \Modules\Notify\Datas\NetfunSMSMessage
      */
     public function toNetfun($notifiable)
     {
         $date = $this->appointment->date->format('d/m/Y H:i');
+<<<<<<< HEAD
 
         return (new NetfunSMSMessage())
             ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
@@ -607,6 +826,15 @@ class AppointmentReminder extends Notification
             ->reference('app_' . $this->appointment->id);
     }
 
+=======
+        
+        return (new NetfunSMSMessage())
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+            ->reference('app_' . $this->appointment->id);
+    }
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Altri metodi per altri canali (mail, ecc.)
 }
 ```
@@ -630,7 +858,11 @@ use Illuminate\Support\Facades\Http;
 class NetfunSMSTest extends TestCase
 {
     use DatabaseTransactions;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     public function testSendSMS()
     {
         // Mock della risposta HTTP
@@ -640,6 +872,7 @@ class NetfunSMSTest extends TestCase
                 'message_id' => '123456789',
             ], 200),
         ]);
+<<<<<<< HEAD
 
         $user = User::factory()->create([
             'phone_number' => '+393401234567',
@@ -652,12 +885,30 @@ class NetfunSMSTest extends TestCase
             ->content('Test SMS da <nome progetto>')
             ->reference('test_123');
 
+=======
+        
+        $user = User::factory()->create([
+            'phone_number' => '+393401234567',
+        ]);
+        
+        $action = app(SendNetfunSMSAction::class);
+        
+        $message = (new NetfunSMSMessage())
+            ->content('Test SMS da <nome progetto>')
+            ->content('Test SMS da SaluteOra')
+            ->reference('test_123');
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         $result = $action->execute(
             $user->phone_number,
             $message->content,
             $message->toArray()
         );
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         $this->assertTrue($result['success']);
         $this->assertEquals('123456789', $result['message_id']);
     }
@@ -683,12 +934,21 @@ class AppointmentReminderController extends Controller
     public function sendReminder(Request $request, Appointment $appointment)
     {
         $sendSMSAction = app(SendNetfunSMSAction::class);
+<<<<<<< HEAD
 
         $message = (new NetfunSMSMessage())
             ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
             ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
             ->reference('app_' . $appointment->id);
 
+=======
+        
+        $message = (new NetfunSMSMessage())
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+            ->reference('app_' . $appointment->id);
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Esecuzione asincrona
         $sendSMSAction->onQueue('sms')
             ->execute(
@@ -696,7 +956,11 @@ class AppointmentReminderController extends Controller
                 $message->content,
                 $message->toArray()
             );
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return response()->json([
             'message' => 'Promemoria inviato con successo',
         ]);

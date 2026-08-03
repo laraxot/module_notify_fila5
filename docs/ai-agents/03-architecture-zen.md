@@ -37,7 +37,11 @@ Themes/TwentyOne/Http/Livewire/
 Themes/Sixteen/Http/Livewire/
 
 ✅ CORRECT
+<<<<<<< HEAD
 Modules/Forecast/app/Filament/Widgets/
+=======
+Modules/Predict/app/Filament/Widgets/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Modules/UI/app/Filament/Widgets/
 ```
 
@@ -64,7 +68,11 @@ docs/                          # Only CROSS-MODULE documents
   ├── ARCHITECTURE_ZEN.md
   └── MULTI_AGENT_COORDINATION.md
 
+<<<<<<< HEAD
 Modules/Forecast/docs/          # Forecast-specific docs
+=======
+Modules/Predict/docs/          # Predict-specific docs
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   ├── PHILOSOPHY.md
   ├── WIDGETS.md
   └── SEEDERS.md
@@ -88,6 +96,7 @@ Themes/TwentyOne/docs/         # Theme-specific docs
 
 ```blade
 ❌ WRONG
+<<<<<<< HEAD
 @foreach($forecasts as $forecast)
     <div class="card">{{ $forecast->title }}</div>
 @endforeach
@@ -101,6 +110,21 @@ Themes/TwentyOne/docs/         # Theme-specific docs
   "data": {
     "view": "pub_theme::filament.widgets.forecast-table",
     "widget": "Modules\\Forecast\\Filament\\Widgets\\ForecastTableWidget"
+=======
+@foreach($predicts as $predict)
+    <div class="card">{{ $predict->title }}</div>
+@endforeach
+
+✅ CORRECT
+<x-page side="content" slug="predicts.index" />
+
+// JSON: predicts.index.json
+{
+  "type": "widget",
+  "data": {
+    "view": "pub_theme::filament.widgets.predict-table",
+    "widget": "Modules\\Predict\\Filament\\Widgets\\PredictTableWidget"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   }
 }
 ```
@@ -119,17 +143,30 @@ Themes/TwentyOne/docs/         # Theme-specific docs
 ```blade
 ❌ WRONG
 @php
+<<<<<<< HEAD
     $probability = $forecast->transactions()->sum('amount');
     $participants = $forecast->transactions()->distinct('user_id')->count();
+=======
+    $probability = $predict->transactions()->sum('amount');
+    $participants = $predict->transactions()->distinct('user_id')->count();
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 @endphp
 
 ✅ CORRECT
 // Action class
+<<<<<<< HEAD
 class CalculateForecastStatsAction {
     public function execute(Forecast $forecast): array {
         return [
             'probability' => $forecast->transactions()->sum('amount'),
             'participants' => $forecast->transactions()->distinct('user_id')->count(),
+=======
+class CalculatePredictStatsAction {
+    public function execute(Predict $predict): array {
+        return [
+            'probability' => $predict->transactions()->sum('amount'),
+            'participants' => $predict->transactions()->distinct('user_id')->count(),
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         ];
     }
 }
@@ -174,11 +211,19 @@ class CalculateForecastStatsAction {
 > **"One widget for all themes"**
 
 ```
+<<<<<<< HEAD
 Modules/Forecast/app/Filament/Widgets/ForecastTableWidget.php
     ↓
 pub_theme::filament.widgets.forecast-table (view namespace)
     ↓
 Themes/TwentyOne/resources/views/filament/widgets/forecast-table.blade.php
+=======
+Modules/Predict/app/Filament/Widgets/PredictTableWidget.php
+    ↓
+pub_theme::filament.widgets.predict-table (view namespace)
+    ↓
+Themes/TwentyOne/resources/views/filament/widgets/predict-table.blade.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Benefits**:
@@ -194,12 +239,20 @@ Themes/TwentyOne/resources/views/filament/widgets/forecast-table.blade.php
 > **"Documentation close to code = Treasure found"**
 
 ```
+<<<<<<< HEAD
 Modules/Forecast/
+=======
+Modules/Predict/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── app/
 │   ├── Models/
 │   ├── Filament/
 │   └── Actions/
+<<<<<<< HEAD
 ├── docs/              ← Treasure map of Forecast
+=======
+├── docs/              ← Treasure map of Predict
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   ├── PHILOSOPHY.md
 │   ├── WIDGETS.md
 │   └── SEEDERS.md
@@ -224,7 +277,11 @@ Themes/TwentyOne/Http/Livewire/
 
 **✅ CORRECT**:
 ```
+<<<<<<< HEAD
 Modules/Forecast/app/Filament/Widgets/
+=======
+Modules/Predict/app/Filament/Widgets/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
@@ -241,7 +298,11 @@ laravel/docs/
 docs/
   └── ARCHITECTURE_ZEN.md
 
+<<<<<<< HEAD
 Modules/Forecast/docs/
+=======
+Modules/Predict/docs/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   └── WIDGETS.md
 ```
 
@@ -250,19 +311,32 @@ Modules/Forecast/docs/
 ### 3. ❌ Foreach in blade
 
 ```blade
+<<<<<<< HEAD
 @foreach($forecasts as $forecast)
     <x-forecast.card :forecast="$forecast"/>
+=======
+@foreach($predicts as $predict)
+    <x-predict.card :predict="$predict"/>
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 @endforeach
 ```
 
 **✅ CORRECT**:
 ```blade
+<<<<<<< HEAD
 <x-page side="content" slug="forecasts.index" />
+=======
+<x-page side="content" slug="predicts.index" />
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 // JSON
 {
   "type": "widget",
+<<<<<<< HEAD
   "widget": "Modules\\Forecast\\Filament\\Widgets\\ForecastTableWidget"
+=======
+  "widget": "Modules\\Predict\\Filament\\Widgets\\PredictTableWidget"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 }
 ```
 
@@ -272,7 +346,11 @@ Modules/Forecast/docs/
 
 ```blade
 @php
+<<<<<<< HEAD
     $volume = $forecast->transactions()->sum('amount');
+=======
+    $volume = $predict->transactions()->sum('amount');
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 @endphp
 ```
 
@@ -280,8 +358,13 @@ Modules/Forecast/docs/
 ```php
 // Action
 class CalculateVolumeAction {
+<<<<<<< HEAD
     public function execute(Forecast $forecast) {
         return $forecast->transactions()->sum('amount');
+=======
+    public function execute(Predict $predict) {
+        return $predict->transactions()->sum('amount');
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     }
 }
 

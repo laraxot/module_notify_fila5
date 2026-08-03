@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "Errori Comuni da Evitare nelle Implementazioni di Moduli App"
+=======
+title: "Errori Comuni da Evitare nelle Implementazioni di Moduli Quaeris"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [errori, comuni, evitare]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "errori-comuni-da-evitare-1 errori comuni da evitare nelle implementazioni di moduli this-project"
+=======
+qmd: "errori-comuni-da-evitare-1 errori comuni da evitare nelle implementazioni di moduli quaeris"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,13 +26,22 @@ related:
   - "./notifications-implementation-guide-1.md"
 ---
 
+<<<<<<< HEAD
 # Errori Comuni da Evitare nelle Implementazioni di Moduli App
+=======
+# Errori Comuni da Evitare nelle Implementazioni di Moduli Quaeris
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Errori di Struttura Directory e Namespace
 
 1. **Errore di Case nelle Directory**
+<<<<<<< HEAD
 - ❌ ERRATO: `/var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/app/Actions/`
+=======
+- ❌ ERRATO: `/var/www/html/Quaeris/laravel/Modules/Notify/App/Actions/`
+   - ✅ CORRETTO: `/var/www/html/Quaeris/laravel/Modules/Notify/app/Actions/`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    
    > Le directory standard di Laravel sono sempre in lowercase (`app`, `config`, `resources`, ecc.)
 

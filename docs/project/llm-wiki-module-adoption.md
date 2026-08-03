@@ -5,7 +5,11 @@
 > Fonte originale: [gist Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 > Schema globale: [../../docs/.schema/WIKI_SCHEMA.md](../../docs/.schema/WIKI_SCHEMA.md)
 
+<<<<<<< HEAD
 ## Mapping Notify
+=======
+## Mapping FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Il pattern originale di Karpathy usa tre cartelle distinte alla root del progetto:
 
@@ -111,7 +115,11 @@ Non ogni modulo ha lo stesso volume documentale. Linea guida:
 
 | Modulo | Priorità wiki | Motivazione |
 |--------|--------------|-------------|
+<<<<<<< HEAD
 | App | Alta | Dominio principale, wizard complesso, ticket flow |
+=======
+| Fixcity | Alta | Dominio principale, wizard complesso, ticket flow |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | Geo | Alta | Molti pattern, integrazioni mappe, enums |
 | Xot | Alta | Base framework, pattern Laraxot fondamentali |
 | Cms | Media | Folio routing, componenti condivisi |

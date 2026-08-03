@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🏛️ NOTIFY - Civic Engagement Platform
+=======
+# 🏛️ FIXCITY - Civic Engagement Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 > **Piattaforma di segnalazione civica per la gestione intelligente dei disservizi urbani**
 
@@ -6,7 +10,11 @@
 
 ## 🎯 Project Purpose
 
+<<<<<<< HEAD
 **NOTIFY** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
+=======
+**FIXCITY** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Vision
 Trasformare il rapporto cittadino-amministrazione attraverso:
@@ -47,7 +55,11 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 
 ### Core Modules (22 attivi)
 
+<<<<<<< HEAD
 #### 1. **App** - Business Logic Core
+=======
+#### 1. **Fixcity** - Business Logic Core
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Scopo**: Sistema principale di gestione ticket
 **Componenti**:
 - Models: Ticket, TicketActivity, TicketWorkflowService
@@ -324,7 +336,11 @@ Team
 
 **Q4 2026** (Ott-Dic):
 - AI auto-categorization
+<<<<<<< HEAD
 - Forecasting maintenance
+=======
+- Predictive maintenance
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Duplicate detection AI
 
 ---
@@ -371,7 +387,11 @@ Team
 - **Query Count**: <5 (list), <3 (detail)
 - **Memory**: <8MB (list), <5MB (detail)
 
+<<<<<<< HEAD
 **Optimization Strategy**: See `/Modules/App/docs/performance-issues.md`
+=======
+**Optimization Strategy**: See `/Modules/Fixcity/docs/performance-issues.md`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -458,13 +478,21 @@ Team
 - Cache: File
 
 **Staging**:
+<<<<<<< HEAD
 - URL: https://staging.laraxot.it
+=======
+- URL: https://staging.fixcity.it
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - DB: PostgreSQL
 - Queue: Redis
 - Cache: Redis
 
 **Production**:
+<<<<<<< HEAD
 - URL: https://laraxot.it
+=======
+- URL: https://fixcity.it
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - DB: PostgreSQL (replicated)
 - Queue: Redis Cluster
 - Cache: Redis Cluster

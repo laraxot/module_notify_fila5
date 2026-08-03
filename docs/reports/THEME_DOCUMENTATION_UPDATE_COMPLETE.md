@@ -11,7 +11,11 @@
 - **Purpose**: Single source of truth for theme configuration
 - **Contents**:
   - Active theme: Sixteen
+<<<<<<< HEAD
   - Domain: laraxot.local
+=======
+  - Domain: fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - Config path: `laravel/config/localhost/xra.php`
   - Theme detection logic
   - Configuration change instructions
@@ -20,7 +24,11 @@
 - **File**: `laravel/Modules/docs/README.md`
 - **Added**: "Active Theme" section with:
   - Current theme name (Sixteen)
+<<<<<<< HEAD
   - Domain (laraxot.local)
+=======
+  - Domain (fixcity.local)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - Config reference
   - Links to theme documentation
 
@@ -39,7 +47,11 @@
 - **File**: `laravel/Themes/Sixteen/docs/README.md`
 - **Added**: "✅ STATO TEMA" section at top
   - Status: ✅ **TEMA ATTIVO**
+<<<<<<< HEAD
   - Domain: laraxot.local
+=======
+  - Domain: fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - Config: `laravel/config/localhost/xra.php` → `pub_theme`
   - Document root: `public_html/`
 
@@ -57,7 +69,11 @@ Each module README now includes:
 ## Active Theme
 
 **Current Theme**: **Sixteen** (AGID/Bootstrap Italia compliant)  
+<<<<<<< HEAD
 **Domain**: `laraxot.local`  
+=======
+**Domain**: `fixcity.local`  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Config**: `laravel/config/localhost/xra.php` → `pub_theme`
 
 **Theme Documentation**: [Themes Index](../../Themes/docs/README.md)  
@@ -70,7 +86,11 @@ Each module README now includes:
 3. ✅ Blog
 4. ✅ Cms
 5. ✅ Comment
+<<<<<<< HEAD
 6. ✅ App
+=======
+6. ✅ Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 7. ✅ Gdpr
 8. ✅ Geo
 9. ✅ Job
@@ -114,8 +134,13 @@ Each module README now includes:
 | Item | Value |
 |------|-------|
 | **Document Root** | `public_html/` |
+<<<<<<< HEAD
 | **APP_URL** | `http://laraxot.local` |
 | **Domain** | `laraxot.local` |
+=======
+| **APP_URL** | `http://fixcity.local` |
+| **Domain** | `fixcity.local` |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Config File** | `laravel/config/localhost/xra.php` |
 | **Active Theme** | `Sixteen` |
 | **Config Key** | `pub_theme` |
@@ -140,10 +165,17 @@ Each module README now includes:
 When OpenViking server is running, add these memories:
 
 ```bash
+<<<<<<< HEAD
 openviking add-memory "Active Theme: Sixteen (laraxot.local)"
 openviking add-memory "Theme Config: laravel/config/localhost/xra.php → pub_theme"
 openviking add-memory "Document Root: public_html/"
 openviking add-memory "Domain: laraxot.local"
+=======
+openviking add-memory "Active Theme: Sixteen (fixcity.local)"
+openviking add-memory "Theme Config: laravel/config/localhost/xra.php → pub_theme"
+openviking add-memory "Document Root: public_html/"
+openviking add-memory "Domain: fixcity.local"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Verification Checklist

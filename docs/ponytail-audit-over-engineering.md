@@ -27,7 +27,11 @@
 **Modulo:** notifiche multi-canale.  
 **Hub:** [../../../../docs/audit/ponytail-audit.md](../../../../docs/audit/ponytail-audit.md)  
 **Remediation:** [../../../../docs/project/ponytail-audit-remediation.md](../../../../docs/project/ponytail-audit-remediation.md)  
+<<<<<<< HEAD
 **GitHub monorepo:** [Issue #221](https://github.com/laraxot/base_ptvx_fila5/issues) · [Discussion #222](https://github.com/laraxot/base_ptvx_fila5/discussions) · [Discussion #228](https://github.com/laraxot/base_ptvx_fila5/discussions)
+=======
+**GitHub monorepo:** [Issue #221](https://github.com/laraxot/base_quaeris_fila5/issues) · [Discussion #222](https://github.com/laraxot/base_quaeris_fila5/discussions) · [Discussion #228](https://github.com/laraxot/base_quaeris_fila5/discussions)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Scopo business
 

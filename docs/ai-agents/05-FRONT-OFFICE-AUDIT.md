@@ -10,7 +10,11 @@
 ### 1. Routing Multilingual
 - [ ] ✅ URLs with language prefix (`/it/`, `/en/`)
 - [ ] ✅ Links use `url(app()->getLocale().'/path')`
+<<<<<<< HEAD
 - [ ] ✅ NO hardcoded links (`/forecasts`, `/register`)
+=======
+- [ ] ✅ NO hardcoded links (`/predicts`, `/register`)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 2. Filament Forms & Tables
 - [ ] ✅ Forms use Filament Form Widget (NOT custom blade)
@@ -56,12 +60,20 @@
 | **Feature Pages** | 10 | ⚠️ Audit |
 | **Legacy/Test** | 8 | ❌ Remove |
 
+<<<<<<< HEAD
 ### Forecast Components (50+)
+=======
+### Predict Components (50+)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 | Category | Count | Status |
 |----------|-------|--------|
 | **Home Blocks** | 10 | ⚠️ Audit |
+<<<<<<< HEAD
 | **Forecast Components** | 15 | ⚠️ Audit |
+=======
+| **Predict Components** | 15 | ⚠️ Audit |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Article List** | 20+ | ⚠️ Audit |
 | **Shared Components** | 10+ | ⚠️ Audit |
 

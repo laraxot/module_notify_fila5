@@ -2,14 +2,23 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 // This file references <nome progetto> models that do not exist in this project
+=======
+// This file references SaluteOra models that do not exist in this project
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 namespace Modules\Notify\Actions;
 
 use Exception;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 // use Modules\<nome progetto>\Models\Appointment;
 // use Modules\<nome progetto>\Models\Patient;
+=======
+// use Modules\SaluteOra\Models\Appointment;
+// use Modules\SaluteOra\Models\Patient;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 use Spatie\QueueableAction\QueueableAction;
 
 class SendAppointmentNotificationAction

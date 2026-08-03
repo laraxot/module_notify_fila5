@@ -61,4 +61,8 @@ Tutte le classi in `app/Actions/` DEVONO:
 
 - [no-app-support-queueable-actions](wiki/concepts/no-app-support-queueable-actions.md)
 - [claude-audit-static](wiki/concepts/claude-audit-static.md)
+<<<<<<< HEAD
 - Issue [#372](https://github.com/laraxot/platform/issues/372) · Discussion [#273](https://github.com/laraxot/platform/discussions/273)
+=======
+- Issue [#372](https://github.com/laraxot/base_fixcity_fila5/issues/372) · Discussion [#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

@@ -32,7 +32,11 @@ Quando un errore arriva da una pagina Filament/Livewire:
 - lintare anche i file della catena immediatamente caricata dalla pagina;
 - solo dopo passare a test applicativi, query, container o permessi.
 
+<<<<<<< HEAD
 Per i chart App la catena minima da controllare e`:
+=======
+Per i chart Quaeris la catena minima da controllare e`:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `QuestionChartChartData`
 - `BuildQuestionChartDatasetAction`
 - `BuildQuestionChartOptionsAction`

@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "REQUIREMENTS: Notify Platform"
+=======
+title: "REQUIREMENTS: FixCity Platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [requirements]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "requirements requirements: laraxot platform"
+=======
+qmd: "requirements requirements: fixcity platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./design-comuni-bmad-master-plan.md"
 ---
 
+<<<<<<< HEAD
 # REQUIREMENTS: Notify Platform
+=======
+# REQUIREMENTS: FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Phase 2: Feature Expansion (Q1 2026) - CURRENT
 
@@ -57,4 +69,8 @@ related:
 ## Phase 5: AI & Innovation (Q4 2026)
 - [ ] AI Auto-Categorization.
 - [ ] Duplicate Detection.
+<<<<<<< HEAD
 - [ ] Forecasting Maintenance.
+=======
+- [ ] Predictive Maintenance.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

@@ -16,7 +16,11 @@ npm run build
 php artisan serve
 ```
 
+<<<<<<< HEAD
 **Access:** http://localhost:8000/this-project/admin/{tenant}
+=======
+**Access:** http://localhost:8000/quaeris/admin/{tenant}
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Testing
 
@@ -41,7 +45,11 @@ php artisan test --coverage
 ./vendor/bin/pest --coverage --min=80
 
 # Per modulo
+<<<<<<< HEAD
 ./vendor/bin/pest Modules/App/tests --coverage
+=======
+./vendor/bin/pest Modules/Quaeris/tests --coverage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Report HTML → build/coverage/html/
 ./vendor/bin/pest --coverage

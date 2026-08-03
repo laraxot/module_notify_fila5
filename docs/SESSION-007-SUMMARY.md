@@ -3,7 +3,11 @@
 
 **Session Date**: 2026-04-08  
 **Agent Role**: Researcher (BMAD Mode C - Opzione C)  
+<<<<<<< HEAD
 **Scope**: Notify Sixteen Theme - Phase 1 HTML Parity (segnalazioni-elenco)  
+=======
+**Scope**: FixCity Sixteen Theme - Phase 1 HTML Parity (segnalazioni-elenco)  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Status**: 🟠 EXECUTION IN PROGRESS
 
 ---
@@ -274,7 +278,11 @@ Must achieve ALL criteria:
 - [ ] Filter checkboxes with `.form-check-input`/`.form-check-label`
 - [ ] Card grid with `.card.card-report` pattern
 - [ ] Bootstrap semantic classes (`.bg-light`, `.btn-primary`, etc.)
+<<<<<<< HEAD
 - [ ] All user-visible text using `trans('laraxot::...')`
+=======
+- [ ] All user-visible text using `trans('fixcity::...')`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] ARIA attributes present and correct
 - [ ] Comparison reports saved in docs/
 - [ ] Findings documented (PHASE-1-FINDINGS.md)
@@ -442,6 +450,10 @@ Must achieve ALL criteria:
 ---
 
 *Session 007 Summary - Researcher Agent (BMAD Mode C)*  
+<<<<<<< HEAD
 *Notify Sixteen Theme - Phase 1 HTML Structural Parity*  
+=======
+*FixCity Sixteen Theme - Phase 1 HTML Structural Parity*  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 *Monitoring Subtask 1... Awaiting comparison results...*
 

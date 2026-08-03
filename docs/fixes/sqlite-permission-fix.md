@@ -30,7 +30,11 @@ related:
 Illuminate\Database\QueryException
 SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
 
+<<<<<<< HEAD
 Database: /var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
+=======
+Database: /var/www/_bases/base_fixcity_fila5/laravel/database/fixcity_data.sqlite
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 SQL: insert or ignore into "cache" ("key", "value", "expiration") 
   values (laravel_cache_livewire-checksum-failures:172.23.16.1:timer, i:1774863199;, 1774863199)
 ```
@@ -38,7 +42,11 @@ SQL: insert or ignore into "cache" ("key", "value", "expiration")
 ### Root Cause
 
 Il file del database SQLite aveva permessi errati:
+<<<<<<< HEAD
 - **File**: `laravel/database/notify_data.sqlite`
+=======
+- **File**: `laravel/database/fixcity_data.sqlite`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Problema**: Il file era scrivibile (`rw-rw-rw-`) ma il processo web non poteva scrivere
 
 ---
@@ -48,7 +56,11 @@ Il file del database SQLite aveva permessi errati:
 ### Command Executed
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Fix permissions (775 = rwxrwxr-x)
 chmod -R 775 laravel/database/
@@ -61,14 +73,22 @@ chown -R zorin:zorin laravel/database/
 
 ```
 drwxrwxr-x  4 zorin zorin       4096 Mar 30 11:14 .
+<<<<<<< HEAD
 -rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 notify_data.sqlite
+=======
+-rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 fixcity_data.sqlite
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### After Fix
 
 ```
 drwxrwxr-x  4 zorin zorin    4096 Mar 30 11:14 .
+<<<<<<< HEAD
 -rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 notify_data.sqlite
+=======
+-rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 fixcity_data.sqlite
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Changes**:
@@ -84,11 +104,19 @@ drwxrwxr-x  4 zorin zorin    4096 Mar 30 11:14 .
 
 ```bash
 # Check permissions
+<<<<<<< HEAD
 ls -la laravel/database/notify_data.sqlite
 # Should show: -rwxrwxr-x
 
 # Test site
 firefox http://laraxot.local/it
+=======
+ls -la laravel/database/fixcity_data.sqlite
+# Should show: -rwxrwxr-x
+
+# Test site
+firefox http://fixcity.local/it
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 # Should load without database errors
 ```
 
@@ -171,7 +199,11 @@ Create `bashscripts/fix-permissions.sh`:
 #!/bin/bash
 # Fix Laravel permissions
 
+<<<<<<< HEAD
 PROJECT_ROOT="/var/www/_bases/base_ptvx_fila5"
+=======
+PROJECT_ROOT="/var/www/_bases/base_fixcity_fila5"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Database
 chmod -R 775 $PROJECT_ROOT/laravel/database/
@@ -200,9 +232,15 @@ bash bashscripts/fix-permissions.sh
 | Document | Location |
 |----------|----------|
 | **Vite Fix** | `vite-fix-and-execution-plan.md` |
+<<<<<<< HEAD
 | **Improvement Plan** | `.planning/improvements/NOTIFY_IT_IMPROVEMENT_PLAN.md` |
 | **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
 | **Start Here** | `laraxot-improvement-start-here.md` |
+=======
+| **Improvement Plan** | `.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md` |
+| **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
+| **Start Here** | `fixcity-improvement-start-here.md` |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -213,7 +251,11 @@ bash bashscripts/fix-permissions.sh
 - [x] Database permissions fixed (775)
 - [x] Ownership set to zorin:zorin
 - [x] OpenViking updated
+<<<<<<< HEAD
 - [ ] Site tested (http://laraxot.local/it)
+=======
+- [ ] Site tested (http://fixcity.local/it)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Livewire components working
 - [ ] Cache operations working
 
@@ -241,7 +283,11 @@ php artisan config:clear
 php artisan view:clear
 
 # Test site
+<<<<<<< HEAD
 firefox http://laraxot.local/it
+=======
+firefox http://fixcity.local/it
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Continue Improvement Plan
@@ -269,4 +315,8 @@ firefox http://laraxot.local/it
 **Next**: Test site + Continue P0 tasks  
 **ETA Phase 0**: 2026-04-13 (unchanged)
 
+<<<<<<< HEAD
 **Notify database ora scrivibile! 🚀**
+=======
+**FixCity database ora scrivibile! 🚀**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

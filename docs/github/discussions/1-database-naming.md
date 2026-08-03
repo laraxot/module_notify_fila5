@@ -35,7 +35,11 @@ Ho creato questi documenti:
 
 1. **[Database Naming Convention](docs/conventions/database-naming.md)** - Guida completa
 2. **[AGENTS.md Update](AGENTS.md)** - Rule aggiunta alle regole architetturali
+<<<<<<< HEAD
 3. **[GitHub Issue #5](https://github.com/laraxot/platform/issues/5)** - Tracking delle correzioni
+=======
+3. **[GitHub Issue #5](https://github.com/laraxot/base_fixcity_fila5/issues/5)** - Tracking delle correzioni
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 🔍 Perché è Importante
 
@@ -54,7 +58,11 @@ Ho creato questi documenti:
 - [ ] AI
 - [ ] Cms
 - [ ] Comment
+<<<<<<< HEAD
 - [ ] App
+=======
+- [ ] Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Gdpr
 - [ ] Geo
 - [ ] Job

@@ -2,7 +2,11 @@
 
 **Date**: 18 Dicembre 2025  
 **Status**: ✅ Completed  
+<<<<<<< HEAD
 **Module**: App → Notify  
+=======
+**Module**: TechPlanner → Notify  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Implementation Type**: Feature Addition
 
 ## Overview
@@ -34,7 +38,11 @@ The implementation leverages existing architecture components:
 
 ### ClientResource Integration
 
+<<<<<<< HEAD
 Updated `Modules\App/app/Filament/Resources/ClientResource/Pages/ListClients.php`:
+=======
+Updated `Modules\TechPlanner/app/Filament/Resources/ClientResource/Pages/ListClients.php`:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Added import for `SendNotificationBulkAction`
 - Integrated the action into `getTableBulkActions()` method
 - Maintained both existing coordinate update action and new notification action
@@ -124,7 +132,11 @@ After implementation, users can:
 - `Modules/Notify/docs/00-index.md` - Documentation index for Notify module
 
 ### Modified:
+<<<<<<< HEAD
 - `app/Filament/Resources/ClientResource/Pages/ListClients.php` - Integrated notification bulk action
+=======
+- `Modules/TechPlanner/app/Filament/Resources/ClientResource/Pages/ListClients.php` - Integrated notification bulk action
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Future Considerations
 

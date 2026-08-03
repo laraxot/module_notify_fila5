@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # NOTIFY ARCHITECTURE DEEP DIVE ANALYSIS
 **Generated**: 2025-10-01
 **Project**: Notify Civic Engagement Platform
+=======
+# FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS
+**Generated**: 2025-10-01
+**Project**: FixCity Civic Engagement Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Architecture**: Nwidart + Laraxot Modular Monolith
 **Status**: Production-Ready Foundation with Active Development
 
@@ -9,7 +15,11 @@
 ## 📋 EXECUTIVE SUMMARY
 
 ### Project Overview
+<<<<<<< HEAD
 Notify is a **mature civic engagement platform** built on a sophisticated modular architecture combining Nwidart's Laravel-Modules with Laraxot's framework extensions. The platform enables citizens to report urban issues while providing administrators with powerful workflow management tools.
+=======
+FixCity is a **mature civic engagement platform** built on a sophisticated modular architecture combining Nwidart's Laravel-Modules with Laraxot's framework extensions. The platform enables citizens to report urban issues while providing administrators with powerful workflow management tools.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Current State Assessment
 - **Architecture Maturity**: ⭐⭐⭐⭐⭐ (5/5) - Excellent
@@ -21,7 +31,11 @@ Notify is a **mature civic engagement platform** built on a sophisticated modula
 ### Key Metrics
 ```
 Total Modules:           22 active modules
+<<<<<<< HEAD
 Core Business Logic:     54 PHP files in App module
+=======
+Core Business Logic:     54 PHP files in Fixcity module
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Test Files:              23 comprehensive test files
 Test Code:               ~6,846 lines of test code
 Filament Resources:      9+ admin resources configured
@@ -51,7 +65,11 @@ BASE MODULES (Livello 1)
 └── Chart                   Data visualization
 
 DOMAIN MODULES (Livello 2)
+<<<<<<< HEAD
 ├── App ⭐              Core business logic (main module)
+=======
+├── Fixcity ⭐              Core business logic (main module)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Activity                Audit trail & event sourcing
 ├── Blog                    Content management
 ├── Cms                     Dynamic pages (JSON storage)
@@ -70,11 +88,19 @@ PRESENTATION LAYER
 #### Module Status (`modules_statuses.json`)
 All 22 modules are **currently active** and enabled. The system uses composer merge-plugin for automatic discovery.
 
+<<<<<<< HEAD
 ### 2. CORE MODULE: NOTIFY
 
 #### File Structure
 ```
 Modules/App/
+=======
+### 2. CORE MODULE: FIXCITY
+
+#### File Structure
+```
+Modules/Fixcity/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── app/
 │   ├── Models/
 │   │   ├── Ticket.php                      (507 LOC - Core entity)
@@ -619,8 +645,13 @@ PUBLIC PAGES
 /auth/register                      → auth/register.blade.php
 
 AUTHENTICATED PAGES
+<<<<<<< HEAD
 /tickets/create                     → App::tickets/create.blade.php
 /tickets/{slug}                     → App::tickets/[slug].blade.php
+=======
+/tickets/create                     → Fixcity::tickets/create.blade.php
+/tickets/{slug}                     → Fixcity::tickets/[slug].blade.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 /dashboard                          → dashboard/index.blade.php
 /profile/edit                       → profile/edit.blade.php
 
@@ -634,7 +665,11 @@ DYNAMIC PAGES (CMS)
 
 #### Example: Ticket Create Page
 ```php
+<<<<<<< HEAD
 // Modules/App/resources/views/pages/tickets/create.blade.php
+=======
+// Modules/Fixcity/resources/views/pages/tickets/create.blade.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 <?php
 use function Laravel\Folio\{middleware, name};
 
@@ -648,7 +683,11 @@ middleware(['auth']);
             Segnalazione disservizio
         </h1>
 
+<<<<<<< HEAD
         @livewire(\Modules\App\Filament\Widgets\CreateTicketWidget::class)
+=======
+        @livewire(\Modules\Fixcity\Filament\Widgets\CreateTicketWidget::class)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     </div>
 </x-layouts.marketing>
 ```
@@ -710,7 +749,11 @@ tests/Feature/
 ├── TicketTest.php
 ├── TicketWorkflowIntegrationTest.php
 ├── CategoryMigrationTest.php
+<<<<<<< HEAD
 ├── AppComponentsTest.php
+=======
+├── FixcityComponentsTest.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 └── Pages/
     └── TicketPagesTest.php
 ```
@@ -803,7 +846,11 @@ Modules/Notify/
 │   └── Multi-tenant aware
 ```
 
+<<<<<<< HEAD
 ### App Notifications
+=======
+### Fixcity Notifications
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 #### TicketAssigned
 ```php
@@ -1096,7 +1143,11 @@ The frontend follows Italian Public Administration design guidelines:
 <x-ui.marketing.breadcrumbs :crumbs="[...]" />
 
 // Ticket List (AGID-compliant)
+<<<<<<< HEAD
 <x-laraxot::blocks.ticket_list.agid />
+=======
+<x-fixcity::blocks.ticket_list.agid />
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 // Forms (Filament + Custom CSS)
 - Titillium Web font family
@@ -1179,7 +1230,11 @@ php artisan test --parallel
 
 ### Current Status
 ```
+<<<<<<< HEAD
 Files:              54 PHP files (App module only)
+=======
+Files:              54 PHP files (Fixcity module only)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Total Lines:        ~15,000+ LOC (including all modules)
 Test Coverage:      ~6,846 LOC of test code
 Test Files:         23 comprehensive test files
@@ -1336,7 +1391,11 @@ Filament Resources: 9+ resources configured
 #### Advanced Features
 - [ ] AI-powered ticket categorization
 - [ ] Image recognition for issue type
+<<<<<<< HEAD
 - [ ] Forecasting maintenance
+=======
+- [ ] Predictive maintenance
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] Chatbot for ticket creation
 - [ ] Voice-to-ticket functionality
 
@@ -1579,7 +1638,11 @@ Tasks:
 ```
 - Automatic ticket categorization
 - Image recognition for issue detection
+<<<<<<< HEAD
 - Forecasting analytics
+=======
+- Predictive analytics
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Chatbot for ticket creation
 ```
 
@@ -1971,7 +2034,11 @@ Quarterly:
 
 ### Overall Assessment
 
+<<<<<<< HEAD
 **Notify is a WELL-ARCHITECTED, PRODUCTION-READY civic engagement platform** built on solid foundations:
+=======
+**FixCity is a WELL-ARCHITECTED, PRODUCTION-READY civic engagement platform** built on solid foundations:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ✅ **Strengths:**
 - Excellent modular architecture (Nwidart + Laraxot)

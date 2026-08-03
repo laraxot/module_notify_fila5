@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # ✅ Notify Documentation Update - FINAL REPORT
+=======
+# ✅ FixCity Documentation Update - FINAL REPORT
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Date**: 2026-03-30  
 **Status**: ✅ **COMPLETE**  
@@ -10,10 +14,17 @@
 
 ### 1. Document Root Clarified ✅
 
+<<<<<<< HEAD
 **CRITICAL**: The document root for Notify is **`public_html/`**
 
 ```
 base_ptvx_fila5/
+=======
+**CRITICAL**: The document root for FixCity is **`public_html/`**
+
+```
+base_fixcity_fila5/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── public_html/          # ✅ DOCUMENT ROOT (web server points here)
 │   ├── index.php        # Entry point
 │   ├── assets/          # Public assets
@@ -80,7 +91,11 @@ base_ptvx_fila5/
 
 All 18 modules verified and indexed:
 
+<<<<<<< HEAD
 1. ✅ **App** - Ticket management
+=======
+1. ✅ **Fixcity** - Ticket management
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. ✅ **User** - Authentication
 3. ✅ **Cms** - Content management
 4. ✅ **Xot** - Base framework
@@ -149,7 +164,11 @@ Both themes verified and indexed:
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 Notify Improvement Plan Status
+=======
+## 🎯 FixCity Improvement Plan Status
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Phase 1: Foundation & Documentation
 
@@ -179,8 +198,13 @@ Both themes verified and indexed:
 |----------|----------|
 | **Project Overview** | `.planning/PROJECT.md` |
 | **16-Week Roadmap** | `.planning/config.json` |
+<<<<<<< HEAD
 | **Research Summary** | `.planning/research/NOTIFY_PROJECT_RESEARCH_SUMMARY.md` |
 | **Improvement Plan** | `NOTIFY_IMPROVEMENT_PLAN.md` |
+=======
+| **Research Summary** | `.planning/research/FIXCITY_PROJECT_RESEARCH_SUMMARY.md` |
+| **Improvement Plan** | `FIXCITY_IMPROVEMENT_PLAN.md` |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **Modules Index** | `laravel/Modules/docs/README.md` |
 | **Themes Index** | `laravel/Themes/docs/README.md` |
 
@@ -267,4 +291,8 @@ cat laravel/Themes/Sixteen/docs/README.md
 **Verified**: 2026-03-30  
 **Next Phase**: 1.2 - GitHub Actions & CI/CD  
 
+<<<<<<< HEAD
 **See**: `NOTIFY_IMPROVEMENT_PLAN.md` for complete 16-week roadmap
+=======
+**See**: `FIXCITY_IMPROVEMENT_PLAN.md` for complete 16-week roadmap
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # STATE: Notify Platform
+=======
+# STATE: FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Current Position
 - Date: 2026-03-30

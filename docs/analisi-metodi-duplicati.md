@@ -34,7 +34,11 @@ Questo documento analizza i metodi duplicati trovati all'interno dei moduli Lara
 - Blog
 - Cms
 - Comment
+<<<<<<< HEAD
 - App
+=======
+- Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Gdpr
 - Geo
 - Job

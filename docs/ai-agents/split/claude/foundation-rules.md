@@ -1,7 +1,11 @@
 # claudeMd
 Codebase and user instructions are shown below. Be sure to adhere to these instructions. IMPORTANT: These instructions OVERRIDE any default behavior and you MUST follow them exactly as written.
 
+<<<<<<< HEAD
 Contents of /var/www/html/_bases/base_ptvx_fila5_mono/laravel/../../../../docs/CLAUDE.md (project instructions, checked into the codebase):
+=======
+Contents of /var/www/html/_bases/base_fixcity_fila5_mono/laravel/../../../../docs/CLAUDE.md (project instructions, checked into the codebase):
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 <laravel-boost-guidelines>
 === foundation rules ===

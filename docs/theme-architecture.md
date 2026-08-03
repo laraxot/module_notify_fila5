@@ -82,7 +82,11 @@ class AppServiceProvider extends ServiceProvider
 
 ```json
 {
+<<<<<<< HEAD
     "name": "laraxot/theme-sixteen",
+=======
+    "name": "fixcity/theme-sixteen",
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     "extra": {
         "laravel": {
             "providers": [
@@ -262,7 +266,11 @@ class AppServiceProvider extends ServiceProvider
 ### 2. Theme composer.json Complete
 ```json
 {
+<<<<<<< HEAD
     "name": "laraxot/theme-sixteen",
+=======
+    "name": "fixcity/theme-sixteen",
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     "extra": {
         "laravel": {
             "providers": [

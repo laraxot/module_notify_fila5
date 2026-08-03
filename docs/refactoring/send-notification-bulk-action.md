@@ -34,7 +34,11 @@ No reusable BulkAction exists for this common pattern. Each resource would need 
 
 ```
 ┌──────────────────┐
+<<<<<<< HEAD
 │  App     │
+=======
+│  TechPlanner     │
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │  (Business)      │
 │                  │
 │  "I need to      │
@@ -93,7 +97,11 @@ Layer 2: UI Integration
                     │
 Layer 3: Resource Usage
 ┌─────────────────────────────────────────────────────┐
+<<<<<<< HEAD
 │ .../ListClients.php             │
+=======
+│ Modules/TechPlanner/.../ListClients.php             │
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │                                                     │
 │ getTableBulkActions(): array {                      │
 │   return [                                          │
@@ -226,7 +234,11 @@ public function execute(
 
 ### Step 5: Add to ListClients
 
+<<<<<<< HEAD
 **File**: `.../ListClients.php`
+=======
+**File**: `Modules/TechPlanner/.../ListClients.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Change**:
 ```php

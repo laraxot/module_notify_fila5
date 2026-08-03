@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "🎯 PIANO D'AZIONE IMMEDIATO - Notify Platform"
+=======
+title: "🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [action, plan, immediate]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "action-plan-immediate 🎯 piano d'azione immediato - laraxot platform"
+=======
+qmd: "action-plan-immediate 🎯 piano d'azione immediato - fixcity platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,11 +26,19 @@ related:
   - "./actions-calling-actions-pattern.md"
 ---
 
+<<<<<<< HEAD
 # 🎯 PIANO D'AZIONE IMMEDIATO - Notify Platform
 
 ## 📋 Sommario Esecutivo
 
 Questo documento identifica le **azioni immediate** da intraprendere per portare Notify alla versione 2.0.0 production-ready. Basato sull'analisi completa del progetto e le roadmap dei moduli.
+=======
+# 🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform
+
+## 📋 Sommario Esecutivo
+
+Questo documento identifica le **azioni immediate** da intraprendere per portare FixCity alla versione 2.0.0 production-ready. Basato sull'analisi completa del progetto e le roadmap dei moduli.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 2025-01-01  
 **Status Attuale**: 60% completo  
@@ -49,7 +65,11 @@ Questo documento identifica le **azioni immediate** da intraprendere per portare
   - [ ] Consolidare namespace (rimuovere `App`)
   - [ ] Completare factories per tutti i models
 
+<<<<<<< HEAD
 - [ ] **Modulo App**
+=======
+- [ ] **Modulo Fixcity**
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - [ ] Verificare tutti i metodi incompleti
   - [ ] Testare workflow completo
   - [ ] Aggiungere validation rules

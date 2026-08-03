@@ -96,7 +96,11 @@ AGENTS.md (updated)
 ### On GitHub
 
 ```
+<<<<<<< HEAD
 https://github.com/laraxot/platform/commits/dev
+=======
+https://github.com/laraxot/base_fixcity_fila5/commits/dev
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Using CLI
@@ -109,7 +113,11 @@ git log -n 5 --oneline
 git ls-tree -r dev --name-only | grep -E "(AI_AGENT|GITHUB_ACTION)"
 
 # Check workflow
+<<<<<<< HEAD
 gh run list --repo laraxot/base_ptvx_fila5
+=======
+gh run list --repo laraxot/base_fixcity_fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---

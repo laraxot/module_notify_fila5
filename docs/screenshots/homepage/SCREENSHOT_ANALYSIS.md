@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 📸 Screenshot Analysis - Homepage Notify
+=======
+# 📸 Screenshot Analysis - Homepage FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Reference: Bootstrap Italia
 
@@ -123,6 +127,7 @@ Screenshot: footer_bootstrap_italia.png
 
 ---
 
+<<<<<<< HEAD
 ## Notify Current State
 
 ### Screenshots
@@ -134,11 +139,28 @@ Screenshot: app_events_current.png
 Screenshot: app_topics_current.png
 Screenshot: app_footer_current.png
 URL: http://laraxot.local/it/tests/homepage
+=======
+## FixCity Current State
+
+### Screenshots
+```
+Screenshot: fixcity_header_current.png
+Screenshot: fixcity_hero_current.png
+Screenshot: fixcity_governance_current.png
+Screenshot: fixcity_events_current.png
+Screenshot: fixcity_topics_current.png
+Screenshot: fixcity_footer_current.png
+URL: http://fixcity.local/it/tests/homepage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### Differenze Principali
 
+<<<<<<< HEAD
 | Elemento | Bootstrap Italia | Notify | Status |
+=======
+| Elemento | Bootstrap Italia | FixCity | Status |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 |----------|-----------------|---------|--------|
 | Header slim | ✅ Presente | ❌ Assente | 🔴 |
 | Hero card-teaser | ✅ Sì | ❌ No | 🔴 |

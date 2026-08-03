@@ -352,7 +352,11 @@ ps aux | grep ollama
 
 ### Contacts
 - Lead: @marco76tv
+<<<<<<< HEAD
 - Email: dev @laraxot.example.com
+=======
+- Email: dev @fixcity.example.com
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Slack: #development
 
 ---

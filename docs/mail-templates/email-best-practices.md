@@ -15,7 +15,11 @@ Questo documento descrive le best practices per la creazione e gestione di email
 
 ### 2. Branding Coerente
 
+<<<<<<< HEAD
 - **Elementi visuali**: Utilizzare logo, colori e font App
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font Quaeris
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Voce e tono**: Mantenere un tono professionale ma amichevole
 - **Firma coerente**: Includere sempre lo stesso formato di firma e disclaimer
 
@@ -61,7 +65,11 @@ I template di [mailpace/templates](https://github.com/mailpace/templates) integr
 
 ### Directory `mail-layouts`
 
+<<<<<<< HEAD
 La directory `/var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+=======
+La directory `/var/www/html/Quaeris/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - **default.html**: Template base per la maggior parte delle comunicazioni
 - **main.html**: Alternativa minimalista
@@ -70,7 +78,11 @@ La directory `/var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/resources/m
 
 ### Integrazione con Spatie Mail Templates
 
+<<<<<<< HEAD
 Seguendo le regole di progetto App, ricordare di:
+=======
+Seguendo le regole di progetto Quaeris, ricordare di:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - NON creare controller personalizzati per gestire l'invio di email
 - Utilizzare il package `spatie/laravel-mail-templates`

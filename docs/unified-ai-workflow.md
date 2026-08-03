@@ -2,7 +2,11 @@
 
 ## Executive Summary
 
+<<<<<<< HEAD
 This document describes the complete integrated workflow for developing features in the Notify platform using four AI-powered methodologies:
+=======
+This document describes the complete integrated workflow for developing features in the FixCity platform using four AI-powered methodologies:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - **OpenViking**: Context management and knowledge preservation
 - **BMAD**: Requirements engineering and architecture
@@ -431,6 +435,7 @@ openviking add-memory \
 
 # With file reference
 openviking add-memory \
+<<<<<<< HEAD
   --title="PRD: Forecast Market" \
   --content="Requirements for forecast market. See _bmad/bmm/2-plan/prd.json"
 
@@ -438,19 +443,36 @@ openviking add-memory \
 openviking add-memory \
   --title="Implementation: Forecast Market" \
   --content="Implemented using Ralph Loop. Related: viking://memory/PRD: Forecast Market"
+=======
+  --title="PRD: Prediction Market" \
+  --content="Requirements for prediction market. See _bmad/bmm/2-plan/prd.json"
+
+# With viking:// URI
+openviking add-memory \
+  --title="Implementation: Prediction Market" \
+  --content="Implemented using Ralph Loop. Related: viking://memory/PRD: Prediction Market"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### How to Retrieve
 
 ```bash
 # Search
+<<<<<<< HEAD
 openviking search "forecast market"
+=======
+openviking search "prediction market"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # List memories
 openviking ls /memories/
 
 # Read specific memory
+<<<<<<< HEAD
 openviking read /memories/prd-forecast-market/
+=======
+openviking read /memories/prd-prediction-market/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Best Practices
@@ -468,7 +490,11 @@ openviking add-memory --title="Phase 1 Plan" --content="..."
 
 ✅ **DO**: Link contexts with URIs
 ```markdown
+<<<<<<< HEAD
 See [PRD](viking://memory/prd-forecast-market) for requirements.
+=======
+See [PRD](viking://memory/prd-prediction-market) for requirements.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ❌ **DON'T**: Duplicate content

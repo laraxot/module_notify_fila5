@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🔧 ECOSISTEMA STRUMENTI QUALITÀ - NOTIFY PLATFORM
+=======
+# 🔧 ECOSISTEMA STRUMENTI QUALITÀ - FIXCITY PLATFORM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Versione**: 1.0  
 **Data Creazione**: Gennaio 2025  
@@ -6,7 +10,11 @@
 **Priorità**: CRITICAL  
 
 ## 🎯 OBIETTIVO
+<<<<<<< HEAD
 Implementare un ecosistema completo di strumenti di qualità del codice per il progetto Notify, coprendo tutti gli aspetti: PHP, JavaScript, CSS, sicurezza, documentazione e CI/CD.
+=======
+Implementare un ecosistema completo di strumenti di qualità del codice per il progetto FixCity, coprendo tutti gli aspetti: PHP, JavaScript, CSS, sicurezza, documentazione e CI/CD.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 🛠️ STRUMENTI IMPLEMENTATI
 
@@ -710,7 +718,11 @@ jobs:
 
 ---
 
+<<<<<<< HEAD
 *Questo ecosistema garantisce la massima qualità del codice in tutti gli aspetti del progetto Notify Platform.*
+=======
+*Questo ecosistema garantisce la massima qualità del codice in tutti gli aspetti del progetto FixCity Platform.*
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 
 

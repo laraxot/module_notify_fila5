@@ -66,7 +66,11 @@ Folio (routing)
 
 ```
 Themes/*/Http/Livewire/  ← FORBIDDEN!
+<<<<<<< HEAD
 ForecastController@index   ← FORBIDDEN!
+=======
+PredictController@index   ← FORBIDDEN!
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---

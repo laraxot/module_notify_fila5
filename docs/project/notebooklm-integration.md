@@ -112,7 +112,11 @@ python scripts/run.py ask_question.py \
   --question "What does the docs say about [topic]?"
 ```
 
+<<<<<<< HEAD
 ## Usage Patterns for Notify Project
+=======
+## Usage Patterns for FixCity Project
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Pattern 1: Technical Research (BMAD Phase)
 
@@ -229,11 +233,19 @@ python scripts/run.py notebook_manager.py activate \
 python scripts/run.py notebook_manager.py stats
 ```
 
+<<<<<<< HEAD
 ## Configuration for Notify
 
 ### Recommended Notebooks
 
 Create these NotebookLM notebooks for Notify:
+=======
+## Configuration for FixCity
+
+### Recommended Notebooks
+
+Create these NotebookLM notebooks for FixCity:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 1. **Laraxot Framework Docs**
    - Upload: Laraxot documentation
@@ -251,8 +263,13 @@ Create these NotebookLM notebooks for Notify:
    - Use: Admin panel development
 
 4. **Project Documentation**
+<<<<<<< HEAD
    - Upload: Notify docs, AGENTS.md, .windsurfrules
    - Topics: laraxot, project, conventions
+=======
+   - Upload: FixCity docs, AGENTS.md, .windsurfrules
+   - Topics: fixcity, project, conventions
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    - Use: Project-specific queries
 
 ### Environment Configuration
@@ -269,8 +286,13 @@ STEALTH_ENABLED=true     # Human-like behavior
 TYPING_WPM_MIN=160
 TYPING_WPM_MAX=240
 
+<<<<<<< HEAD
 # Default notebook (Notify docs)
 DEFAULT_NOTEBOOK_ID=laraxot-project-docs
+=======
+# Default notebook (FixCity docs)
+DEFAULT_NOTEBOOK_ID=fixcity-project-docs
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Troubleshooting
@@ -354,7 +376,11 @@ python scripts/run.py ask_question.py \
 
 # Step 2: Verify with project docs
 python scripts/run.py ask_question.py \
+<<<<<<< HEAD
   --question "Check Notify project docs: what are the rules for Filament resources?"
+=======
+  --question "Check FixCity project docs: what are the rules for Filament resources?"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Step 3: Plan phase
 /gsd-plan-phase 1
@@ -388,7 +414,11 @@ python scripts/run.py ask_question.py \
 
 1. ✅ Skill installed and verified
 2. ⏳ Authenticate with Google account
+<<<<<<< HEAD
 3. ⏳ Create Notify NotebookLM notebooks
+=======
+3. ⏳ Create FixCity NotebookLM notebooks
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 4. ⏳ Upload project documentation
 5. ⏳ Integrate with BMAD workflow
 6. ⏳ Store insights in OpenViking

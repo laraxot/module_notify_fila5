@@ -80,7 +80,11 @@ Icona specifica del modulo che rappresenta la funzionalità principale.
 - `lang-icon.svg` per il modulo Lang
 - `form-icon.svg` per il modulo FormBuilder
 - `db-icon.svg` per il modulo DbForge
+<<<<<<< HEAD
 - `laraxot-icon.svg` per il modulo App
+=======
+- `fixcity-icon.svg` per il modulo Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Moduli Coperti
 
@@ -96,7 +100,11 @@ La struttura SVG è stata creata per i seguenti moduli:
 8. **Job** - Gestione lavori
 9. **Geo** - Geolocalizzazione
 10. **Gdpr** - Conformità GDPR
+<<<<<<< HEAD
 11. **App** - Modulo specifico progetto
+=======
+11. **Fixcity** - Modulo specifico progetto
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 12. **Comment** - Sistema commenti
 13. **Chart** - Grafici e statistiche
 14. **Blog** - Sistema blog

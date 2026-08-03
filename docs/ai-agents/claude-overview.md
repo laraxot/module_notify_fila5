@@ -1,6 +1,10 @@
 # CLAUDE Overview
 
+<<<<<<< HEAD
 Panoramica del progetto LaravelPizza/Base Forecast Fila5.
+=======
+Panoramica del progetto LaravelPizza/Base Predict Fila5.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Progetto
 

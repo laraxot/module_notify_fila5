@@ -8,7 +8,11 @@
 
 ## 🎯 Purpose
 
+<<<<<<< HEAD
 This document establishes the governance framework for all documentation in the Notify platform, ensuring consistency, quality, and maintainability across all modules and themes.
+=======
+This document establishes the governance framework for all documentation in the FixCity platform, ensuring consistency, quality, and maintainability across all modules and themes.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

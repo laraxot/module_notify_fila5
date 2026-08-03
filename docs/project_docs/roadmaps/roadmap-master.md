@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🎯 MASTER ROADMAP - NOTIFY PLATFORM
+=======
+# 🎯 MASTER ROADMAP - FIXCITY PLATFORM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Versione**: 1.0  
 **Data Creazione**: Gennaio 2025  
@@ -6,14 +10,22 @@
 **Priorità**: CRITICAL  
 
 ## 🎯 OBIETTIVO MASTER
+<<<<<<< HEAD
 Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di moduli e temi, mantenendo coerenza architetturale e qualità enterprise.
+=======
+Completare il progetto FixCity in ogni aspetto seguendo le roadmap specifiche di moduli e temi, mantenendo coerenza architetturale e qualità enterprise.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 📊 STATO GLOBALE PROGETTO
 
 ### 🏆 Moduli Completati (90%+)
 - ✅ **Xot**: Core framework (95% completato)
 - ✅ **User**: Authentication & Authorization (90% completato)
+<<<<<<< HEAD
 - ✅ **App**: Core business logic (80% completato)
+=======
+- ✅ **Fixcity**: Core business logic (80% completato)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 🚧 Moduli In Corso (60-89%)
 - 🚧 **Sixteen Theme**: AGID compliance (70% completato)
@@ -40,7 +52,11 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 **Obiettivo**: Completare i moduli core e raggiungere stabilità produzione
 
 #### Moduli Priority 1 (CRITICAL)
+<<<<<<< HEAD
 - [ ] **App**: Completare API e mobile optimization
+=======
+- [ ] **Fixcity**: Completare API e mobile optimization
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [ ] **User**: Completare social login e mobile auth
 - [ ] **Sixteen Theme**: Raggiungere 100% AGID compliance
 - [ ] **Xot**: Completare ottimizzazioni performance
@@ -213,7 +229,11 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 
 ## 📋 ROADMAP BY MODULE
 
+<<<<<<< HEAD
 ### 🎫 App Module
+=======
+### 🎫 Fixcity Module
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Status**: 80% → 100% (Q1 2025)
 - **Focus**: API development, mobile optimization
 - **Dependencies**: User, Xot, UI
@@ -228,7 +248,11 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 ### 🎨 Sixteen Theme
 - **Status**: 70% → 100% (Q1 2025)
 - **Focus**: AGID compliance, mobile optimization
+<<<<<<< HEAD
 - **Dependencies**: UI, App
+=======
+- **Dependencies**: UI, Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Critical Path**: AGID → Mobile → Performance
 
 ### 🧩 UI Module
@@ -258,13 +282,21 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 ### 💬 Comment Module
 - **Status**: 40% → 90% (Q2 2025)
 - **Focus**: Comment system, moderation
+<<<<<<< HEAD
 - **Dependencies**: User, App
+=======
+- **Dependencies**: User, Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Critical Path**: System → Moderation → Integration
 
 ### ⭐ Rating Module
 - **Status**: 30% → 90% (Q2 2025)
 - **Focus**: Rating system, analytics
+<<<<<<< HEAD
 - **Dependencies**: User, App
+=======
+- **Dependencies**: User, Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Critical Path**: System → Analytics → Integration
 
 ### 📊 Activity Module
@@ -312,7 +344,11 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 ### 🤖 AI Module
 - **Status**: 10% → 90% (Q4 2025)
 - **Focus**: AI features, machine learning
+<<<<<<< HEAD
 - **Dependencies**: App, Media
+=======
+- **Dependencies**: Fixcity, Media
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Critical Path**: ML → Integration → Optimization
 
 ## 🚨 RISK MANAGEMENT
@@ -344,7 +380,11 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 - **DevOps Lead**: Infrastructure
 
 ### Module Owners
+<<<<<<< HEAD
 - **App**: Core business logic
+=======
+- **Fixcity**: Core business logic
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **User**: Authentication & authorization
 - **Sixteen**: UI/UX e accessibility
 - **Xot**: Core framework

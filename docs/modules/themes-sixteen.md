@@ -27,7 +27,11 @@ Segui questi passaggi per risolvere:
 
 1. Vai nella cartella del tema:
    ```bash
+<<<<<<< HEAD
    cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
+=======
+   cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    ```
 2. Esegui il comando:
    ```bash

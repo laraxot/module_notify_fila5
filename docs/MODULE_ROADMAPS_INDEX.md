@@ -24,12 +24,21 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 
 ### Application Modules
 
+<<<<<<< HEAD
 #### App (Core Application)
 - **Status**: 75% Complete
 - **Path**: `Modules/App/docs/roadmap/`
 - **Purpose**: Main application logic for Notify platform
 - **Key Features**: Healthcare, municipality services, citizen reporting
 - **Read More**: [App Roadmap](../laravel/Modules/App/docs/roadmap/README.md)
+=======
+#### Fixcity (Core Application)
+- **Status**: 75% Complete
+- **Path**: `Modules/Fixcity/docs/roadmap/`
+- **Purpose**: Main application logic for FixCity platform
+- **Key Features**: Healthcare, municipality services, citizen reporting
+- **Read More**: [Fixcity Roadmap](../laravel/Modules/Fixcity/docs/roadmap/README.md)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Feature Modules
 
@@ -143,7 +152,11 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - **Status**: 50% Complete
 - **Path**: `Modules/AI/docs/roadmap/`
 - **Purpose**: AI and machine learning integration
+<<<<<<< HEAD
 - **Key Features**: AI models, NLP, image recognition, forecasting analytics
+=======
+- **Key Features**: AI models, NLP, image recognition, predictive analytics
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Read More**: [AI Roadmap](../laravel/Modules/AI/docs/roadmap/README.md)
 
 ## 📊 Overall Progress
@@ -154,7 +167,11 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 |--------|--------|----------|
 | Xot | 🔄 In Progress | 75% |
 | User | 🔄 In Progress | 70% |
+<<<<<<< HEAD
 | App | 🔄 In Progress | 75% |
+=======
+| Fixcity | 🔄 In Progress | 75% |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | Cms | 🔄 In Progress | 65% |
 | Media | 🔄 In Progress | 70% |
 | Notify | 🔄 In Progress | 60% |
@@ -180,7 +197,11 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - User: 70%
 
 #### Application Modules: 75% Average
+<<<<<<< HEAD
 - App: 75%
+=======
+- Fixcity: 75%
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 #### Feature Modules: 69% Average
 - Cms: 65%

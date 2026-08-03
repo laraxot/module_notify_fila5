@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Theme Detection System - Notify Fila5
 
 **Project:** Notify Fila5
+=======
+# Theme Detection System - FixCity Fila5
+
+**Project:** FixCity Fila5
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Date:** 2026-04-01
 **Status:** ✅ **Documented**
 **Priority:** 🔴 **Critical Architecture**
@@ -24,6 +30,7 @@ Questo documento spiega il sistema di rilevamento del tema basato su `APP_URL` e
   ↓
 2. Rimuovi www. (se presente)
   ↓
+<<<<<<< HEAD
 3. Estrai dominio (es: laraxot.local)
   ↓
 4. Explode da "." → ['laraxot', 'local']
@@ -33,6 +40,17 @@ Questo documento spiega il sistema di rilevamento del tema basato su `APP_URL` e
 6. Join con "/" → "local/laraxot"
   ↓
 7. Config path → base_path('config/local/laraxot/xra.php')
+=======
+3. Estrai dominio (es: fixcity.local)
+  ↓
+4. Explode da "." → ['fixcity', 'local']
+  ↓
+5. Inverti array → ['local', 'fixcity']
+  ↓
+6. Join con "/" → "local/fixcity"
+  ↓
+7. Config path → base_path('config/local/fixcity/xra.php')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   ↓
 8. Leggi pub_theme → 'Sixteen'
   ↓
@@ -45,6 +63,7 @@ Questo documento spiega il sistema di rilevamento del tema basato su `APP_URL` e
 
 ### Step-by-Step Example
 
+<<<<<<< HEAD
 **Input:** `APP_URL=http://laraxot.local`
 
 **Step 1: Rimuovi protocollo**
@@ -53,33 +72,62 @@ $appUrl = 'http://laraxot.local';
 $parsed = parse_url($appUrl);
 $host = $parsed['host'] ?? 'localhost';
 // Result: 'laraxot.local'
+=======
+**Input:** `APP_URL=http://fixcity.local`
+
+**Step 1: Rimuovi protocollo**
+```php
+$appUrl = 'http://fixcity.local';
+$parsed = parse_url($appUrl);
+$host = $parsed['host'] ?? 'localhost';
+// Result: 'fixcity.local'
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Step 2: Rimuovi www.**
 ```php
 $host = str_replace('www.', '', $host);
+<<<<<<< HEAD
 // Result: 'laraxot.local' (unchanged if no www)
+=======
+// Result: 'fixcity.local' (unchanged if no www)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Step 3: Explode e Inverti**
 ```php
 $parts = explode('.', $host);
+<<<<<<< HEAD
 // Result: ['laraxot', 'local']
 
 $reversed = array_reverse($parts);
 // Result: ['local', 'laraxot']
+=======
+// Result: ['fixcity', 'local']
+
+$reversed = array_reverse($parts);
+// Result: ['local', 'fixcity']
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Step 4: Join**
 ```php
 $configPath = implode('/', $reversed);
+<<<<<<< HEAD
 // Result: 'local/laraxot'
+=======
+// Result: 'local/fixcity'
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Step 5: Leggi Config**
 ```php
 $configFile = base_path("config/{$configPath}/xra.php");
+<<<<<<< HEAD
 // Result: base_path('config/local/laraxot/xra.php')
+=======
+// Result: base_path('config/local/fixcity/xra.php')
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 if (file_exists($configFile)) {
     $config = include $configFile;
@@ -96,7 +144,11 @@ if (file_exists($configFile)) {
 laravel/
 ├── config/
 │   └── local/
+<<<<<<< HEAD
 │       └── laraxot/
+=======
+│       └── fixcity/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │           └── xra.php              ← Theme configuration
 │               pub_theme => 'Sixteen'
 ├── Themes/
@@ -106,14 +158,22 @@ laravel/
 │       ├── vite.config.js
 │       └── package.json
 └── .env
+<<<<<<< HEAD
     APP_URL=http://laraxot.local
+=======
+    APP_URL=http://fixcity.local
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---
 
 ## 🔍 xra.php Configuration
 
+<<<<<<< HEAD
 **File:** `laravel/config/local/laraxot/xra.php`
+=======
+**File:** `laravel/config/local/fixcity/xra.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ```php
 <?php
@@ -123,7 +183,11 @@ declare(strict_types=1);
 return [
     'adm_home' => '01',
     'enable_ads' => '1',
+<<<<<<< HEAD
     'main_module' => 'App',
+=======
+    'main_module' => 'Fixcity',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     'primary_lang' => 'it',
     'pub_theme' => 'Sixteen',        // ← Theme name
     'search_action' => 'it/videos',

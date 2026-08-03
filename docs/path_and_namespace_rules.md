@@ -7,19 +7,33 @@
 ### ✅ Path Corretti
 
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/app/Actions/SMS
 [project-root]/laravel/Modules/Notify/app/Http/Controllers
 [project-root]/laravel/Modules/Notify/app/Providers
 [project-root]/laravel/Modules/Notify/app/Models
 [project-root]/laravel/Modules/Notify/app/Filament
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers
+/var/www/html/saluteora/laravel/Modules/Notify/app/Models
+/var/www/html/saluteora/laravel/Modules/Notify/app/Filament
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### ❌ Path Errati
 
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/App/Actions/SMS
 [project-root]/laravel/Modules/Notify/App/Http/Controllers
 [project-root]/laravel/Modules/Notify/App/Providers
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/saluteora/laravel/Modules/Notify/App/Providers
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Struttura Corretta dei Namespace
@@ -54,7 +68,11 @@ namespace Modules\Notify\App\Datas;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Namespace corretto:**
@@ -66,7 +84,11 @@ namespace Modules\Notify\Actions\SMS;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Namespace corretto:**
@@ -78,7 +100,11 @@ namespace Modules\Notify\Http\Controllers;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Namespace corretto:**
@@ -90,7 +116,11 @@ namespace Modules\Notify\Providers;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Namespace corretto:**
@@ -107,7 +137,11 @@ namespace Modules\Notify\App\Datas;
 
 ## Motivo di questa Regola
 
+<<<<<<< HEAD
 Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Esempio per Datas
 
@@ -139,7 +173,11 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Namespace corretto:**

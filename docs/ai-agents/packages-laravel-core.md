@@ -140,7 +140,11 @@ XDEBUG_MODE=off ./vendor/bin/pest --coverage         # con coverage
 XDEBUG_MODE=off ./vendor/bin/pest --coverage --min=80
 
 # Modulo specifico
+<<<<<<< HEAD
 XDEBUG_MODE=off ./vendor/bin/pest Modules/App/tests
+=======
+XDEBUG_MODE=off ./vendor/bin/pest Modules/Quaeris/tests
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Via composer
 composer coverage
@@ -287,7 +291,11 @@ Espone l'applicazione all'AI (Claude, ecc.) tramite MCP protocol.
 ```php
 use Laravel\Mcp\Server;
 
+<<<<<<< HEAD
 $server = new Server('this-project-surveys');
+=======
+$server = new Server('quaeris-surveys');
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 // Resources (dati che l'AI puo leggere)
 $server->resource('surveys', new Resource(

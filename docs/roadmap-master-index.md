@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # 🗺️ Notify - Master Roadmap Index
 
 **Progetto**: Notify - Piattaforma Segnalazione Cittadina  
+=======
+# 🗺️ FixCity - Master Roadmap Index
+
+**Progetto**: FixCity - Piattaforma Segnalazione Cittadina  
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 **Data Creazione**: 1 Ottobre 2025  
 **Stato PHPStan**: 83% completato (15/18 moduli a 0 errori)  
 **Completezza Funzionale**: 85%
@@ -24,7 +30,11 @@
 
 | Modulo | Files | PHPStan | Roadmap |
 |--------|-------|---------|---------|
+<<<<<<< HEAD
 | **App** | ~200 | ✅ 0 | [→ Roadmap](../Modules/App/docs/roadmap-and-issues.md) ⭐ |
+=======
+| **Fixcity** | ~200 | ✅ 0 | [→ Roadmap](../Modules/Fixcity/docs/roadmap-and-issues.md) ⭐ |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **UI** | 242 | ✅ 0 | [→ Roadmap](../Modules/UI/docs/roadmap-and-issues.md) |
 | **AI** | 19 | ✅ 0 | [→ Roadmap](../Modules/AI/docs/roadmap-and-issues.md) ⭐ |
 | **Geo** | ~100 | ✅ 0 | [→ Roadmap](../Modules/Geo/docs/roadmap-and-issues.md) |
@@ -59,14 +69,22 @@
 ### 1. 🔴 Performance: N+1 Queries
 
 **Moduli Affetti**:
+<<<<<<< HEAD
 - ✅ **App**: 3 N+1 identificati (vedi roadmap)
+=======
+- ✅ **Fixcity**: 3 N+1 identificati (vedi roadmap)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ⚠️ **User**: Potential issues da verificare
 - ⚠️ **Activity**: Large tables, optimizations needed
 
 **Impatto Totale**: 200ms-1s per request
 
 **Piano**:
+<<<<<<< HEAD
 1. Fix App N+1 (questa settimana)
+=======
+1. Fix Fixcity N+1 (questa settimana)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 2. Audit completo User queries (domani)
 3. Activity table partitioning (prossimo mese)
 
@@ -90,7 +108,11 @@
 **Aree Senza Caching**:
 - Geocoding results (Geo module)
 - AI Completions (AI module)
+<<<<<<< HEAD
 - Dashboard stats (App)
+=======
+- Dashboard stats (Fixcity)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - User permissions (User module)
 
 **Impatto**: API calls ripetuti, performance degradata
@@ -101,7 +123,11 @@
 
 ### 4. 🟢 TODO Code - 2 Trovati
 
+<<<<<<< HEAD
 **App Module**:
+=======
+**Fixcity Module**:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 1. Map Picker installation (ALTA priorità)
 2. Delayed notifications (MEDIA priorità)
 
@@ -115,7 +141,11 @@
 
 **Obiettivi**:
 1. ✅ PHPStan 100% (Xot + User) - 8.5h
+<<<<<<< HEAD
 2. 🎯 Fix App N+1 queries - 1h
+=======
+2. 🎯 Fix Fixcity N+1 queries - 1h
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 3. 🎯 Add database indexes - 1h
 4. 🎯 Install Map Picker - 1h
 5. 🎯 Cleanup code comments - 30min
@@ -226,7 +256,11 @@
 - [📖 PHPStan Index](./phpstan/phpstan.md)
 
 ### Module Roadmaps (Dettagliate)
+<<<<<<< HEAD
 - [🎯 App Roadmap](../Modules/App/docs/roadmap-and-issues.md) ⭐ CORE
+=======
+- [🎯 Fixcity Roadmap](../Modules/Fixcity/docs/roadmap-and-issues.md) ⭐ CORE
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [⚙️ Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md) ⭐ FRAMEWORK
 - [👥 User Roadmap](../Modules/User/docs/roadmap-and-issues.md) ⭐ AUTH
 - [🤖 AI Roadmap](../Modules/AI/docs/roadmap-and-issues.md) ⭐ AI FEATURES
@@ -294,7 +328,11 @@
 **Creato**: 1 Ottobre 2025  
 **Prossimo Review**: 1 Novembre 2025  
 **Status**: 📊 TRACCIAMENTO ATTIVO  
+<<<<<<< HEAD
 **Owner**: Team Notify
+=======
+**Owner**: Team FixCity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

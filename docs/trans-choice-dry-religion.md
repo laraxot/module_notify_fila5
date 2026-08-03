@@ -330,7 +330,11 @@ Amen.
 ## Riferimenti
 
 - [Laravel Localization - Pluralization](https://laravel.com/docs/localization#pluralization)
+<<<<<<< HEAD
 - [ticket.php (corretto)](../../Modules/App/lang/it/ticket.php)
+=======
+- [ticket.php (corretto)](../../Modules/Fixcity/lang/it/ticket.php)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [Translation Namespace Religion](../../docs/translation-namespace-religion.md)
 - [No Hardcoded Language Religion](../../docs/no-hardcoded-language-religion.md)
 

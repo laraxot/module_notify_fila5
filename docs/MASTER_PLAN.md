@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Notify Platform - Master Plan 🚀
+=======
+# FixCity Platform - Master Plan 🚀
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Livello di Confidenza: 🟢 MASSIMO**  
 **Data Analisi**: 2025-01-01  
@@ -8,7 +12,11 @@
 
 ## 🎯 EXECUTIVE SUMMARY
 
+<<<<<<< HEAD
 **Notify** è una **piattaforma SaaS di civic engagement** che rivoluziona il modo in cui cittadini e amministrazioni locali collaborano per migliorare la qualità della vita urbana. Il sistema trasforma i cittadini in "sensori urbani attivi", permettendo segnalazioni georeferenziate, gestione intelligente dei workflow e analytics avanzate.
+=======
+**FixCity** è una **piattaforma SaaS di civic engagement** che rivoluziona il modo in cui cittadini e amministrazioni locali collaborano per migliorare la qualità della vita urbana. Il sistema trasforma i cittadini in "sensori urbani attivi", permettendo segnalazioni georeferenziate, gestione intelligente dei workflow e analytics avanzate.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Value Proposition
 - **Per i Cittadini**: Voce diretta all'amministrazione, trasparenza, risoluzione rapida problemi
@@ -146,7 +154,11 @@ graph LR
 5. Generates reports for stakeholders
 6. Plans resource allocation
 7. Monitors team performance
+<<<<<<< HEAD
 8. Forecasts future demand (AI forecasts)
+=======
+8. Forecasts future demand (AI predictions)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## 🎯 ROADMAP STRATEGICA 2025-2026
@@ -186,7 +198,11 @@ graph LR
 #### Features
 - 📋 AI categorization & prioritization
 - 📋 Advanced analytics dashboard
+<<<<<<< HEAD
 - 📋 Forecasting maintenance
+=======
+- 📋 Predictive maintenance
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - 📋 Citizen engagement features
 - 📋 Gamification system
 
@@ -259,9 +275,15 @@ graph LR
 
 ### AI/ML Applications
 1. **Smart Categorization**: NLP per categorizzazione automatica
+<<<<<<< HEAD
 2. **Priority Forecast**: ML per priorità basata su impatto
 3. **Resource Optimization**: AI per assegnazione ottimale operatori
 4. **Forecasting Maintenance**: Predizione guasti infrastrutture
+=======
+2. **Priority Prediction**: ML per priorità basata su impatto
+3. **Resource Optimization**: AI per assegnazione ottimale operatori
+4. **Predictive Maintenance**: Predizione guasti infrastrutture
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 5. **Sentiment Analysis**: Analisi sentiment cittadini
 6. **Chatbot Assistant**: Supporto automatizzato 24/7
 7. **Image Recognition**: Identificazione automatica problemi da foto
@@ -271,7 +293,11 @@ graph LR
 1. **Smart Sensors**: Sensori per illuminazione, traffico, qualità aria
 2. **Automatic Reporting**: Segnalazioni automatiche da sensori
 3. **Real-time Monitoring**: Monitoraggio continuo infrastrutture
+<<<<<<< HEAD
 4. **Forecasting Analytics**: Analisi predittiva per manutenzione
+=======
+4. **Predictive Analytics**: Analisi predittiva per manutenzione
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 5. **Data Fusion**: Combinazione dati sensori + segnalazioni cittadini
 
 ### Blockchain Applications
@@ -427,7 +453,11 @@ docs/
 ├── API_REFERENCE.md (📋 API Documentation)
 ├── DEPLOYMENT.md (📋 Deployment Guide)
 └── modules/
+<<<<<<< HEAD
     ├── laraxot/ (✅ Business Logic + Roadmap)
+=======
+    ├── fixcity/ (✅ Business Logic + Roadmap)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     ├── user/ (✅ IAM + Roadmap)
     ├── notify/ (✅ Notifications + Roadmap)
     ├── geo/ (✅ Geolocation + Roadmap)
@@ -446,7 +476,11 @@ docs/
 
 ## 🎉 CONCLUSION
 
+<<<<<<< HEAD
 Notify è posizionata per diventare la **piattaforma leader europea** per il civic engagement e la gestione intelligente delle città. Con:
+=======
+FixCity è posizionata per diventare la **piattaforma leader europea** per il civic engagement e la gestione intelligente delle città. Con:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - ✅ **Solida base tecnica** (Laravel 12, Filament 4, architettura modulare)
 - ✅ **Business logic completa** (workflow, stati, automazioni)
@@ -459,7 +493,11 @@ Notify è posizionata per diventare la **piattaforma leader europea** per il civ
 1. **Quality First**: PHPStan Level 10, test coverage 90%+
 2. **User-Centric**: UX eccellente, mobile-first
 3. **Scalability**: Multi-tenant, performance, reliability
+<<<<<<< HEAD
 4. **Innovation**: AI, forecasting analytics, IoT
+=======
+4. **Innovation**: AI, predictive analytics, IoT
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 5. **Execution**: Agile, iterative, data-driven
 
 ### Next Milestone
@@ -482,5 +520,9 @@ Notify è posizionata per diventare la **piattaforma leader europea** per il civ
 - *Technical capabilities e constraints*
 - *Team composition e roadmap feasibility*
 
+<<<<<<< HEAD
 **Per domande o approfondimenti**: development@laraxot.io
+=======
+**Per domande o approfondimenti**: development@fixcity.io
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 

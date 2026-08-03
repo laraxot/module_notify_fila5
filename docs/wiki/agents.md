@@ -151,7 +151,11 @@ related:
 - One query synthesis = one commit (if creating new pages)
 - **Message format**: `docs: {action} {description}`
   - ✅ `docs: ingest karpathy-llm-wiki article`
+<<<<<<< HEAD
   - ✅ `docs: lint wiki - resolve contradictions in forecast market concepts`
+=======
+  - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - ✅ `docs: query synthesis - LLM wiki integration with Laraxot`
   - ❌ `updated wiki`
 
@@ -267,6 +271,7 @@ LLM Agent Actions:
 ### Example:
 
 ```
+<<<<<<< HEAD
 User: "How does LMSR work with forecast markets?"
 
 LLM Agent Actions:
@@ -279,6 +284,20 @@ LLM Agent Actions:
    "According to [lmsr-mechanics.md](concepts/lmsr-mechanics.md), LMSR uses
    logarithmic market scoring. The [Forecast module](entities/forecast-module.md)
    implements this with normalisation (see [forecast-lmsr-boundary skill])."
+=======
+User: "How does LMSR work with prediction markets?"
+
+LLM Agent Actions:
+1. Search wiki/index.md for "LMSR", "prediction markets"
+2. Read matching pages:
+   - wiki/concepts/lmsr-mechanics.md
+   - wiki/concepts/prediction-market-design.md
+   - wiki/entities/predict-module.md
+3. Synthesize answer with citations:
+   "According to [lmsr-mechanics.md](concepts/lmsr-mechanics.md), LMSR uses
+   logarithmic market scoring. The [Predict module](entities/predict-module.md)
+   implements this with normalisation (see [predict-lmsr-boundary skill])."
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 4. If synthesis reveals new insight:
    Create wiki/comparisons/lmsr-vs-order-book-mechanics.md
 5. Update cross-references between pages
@@ -339,7 +358,11 @@ LLM Agent Actions:
 
    ### Contradictions (1)
    ⚠️ concepts/lmsr-mechanics.md says "LMSR is linear"
+<<<<<<< HEAD
      vs concepts/forecast-markets.md says "LMSR is logarithmic"
+=======
+     vs concepts/prediction-markets.md says "LMSR is logarithmic"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
      → Action: Merge pages, resolve contradiction
 
    ### Orphan Pages (2)
@@ -394,7 +417,11 @@ When working with **module-specific** wikis (`Modules/{Name}/docs/llm-wiki/`):
 When module wiki references project wiki:
 
 ```markdown
+<<<<<<< HEAD
 # In Modules/App/docs/llm-wiki/concepts/ticket-lifecycle.md
+=======
+# In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 Related:
 - Project-wide: [[docs/wiki/concepts/laraxot-architecture]]
@@ -406,6 +433,7 @@ Related:
 Same workflow as project ingestion, but scoped to module:
 
 ```
+<<<<<<< HEAD
 User: "ingest docs/raw/articles/laraxot-ticket-patterns.md into App wiki"
 
 LLM Agent Actions:
@@ -413,6 +441,15 @@ LLM Agent Actions:
 2. Create/update pages in Modules/App/docs/llm-wiki/
 3. Update Modules/App/docs/llm-wiki/index.md
 4. Update Modules/App/docs/llm-wiki/log.md
+=======
+User: "ingest docs/raw/articles/fixcity-ticket-patterns.md into Fixcity wiki"
+
+LLM Agent Actions:
+1. Read source
+2. Create/update pages in Modules/Fixcity/docs/llm-wiki/
+3. Update Modules/Fixcity/docs/llm-wiki/index.md
+4. Update Modules/Fixcity/docs/llm-wiki/log.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 5. Commit changes
 ```
 
@@ -500,10 +537,17 @@ sources: ["raw/articles/karpathy-llm-wiki.md", "raw/papers/lmsr-original.pdf"]
 confidence: high
 created: 2026-04-15
 updated: 2026-04-15
+<<<<<<< HEAD
 tags: [forecast-market, lmsr, market-mechanics, algorithmic-trading]
 related:
   - concepts/forecast-market-design.md
   - entities/forecast-module.md
+=======
+tags: [prediction-market, lmsr, market-mechanics, algorithmic-trading]
+related:
+  - concepts/prediction-market-design.md
+  - entities/predict-module.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - sources/karpathy-llm-wiki.md
 ---
 
@@ -515,6 +559,7 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 
 [Content...]
 
+<<<<<<< HEAD
 ## Implementation in Forecast Module
 
 [Content with links to entities/forecast-module.md]
@@ -523,6 +568,16 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 
 - [[concepts/forecast-market-design]]
 - [[entities/forecast-module]]
+=======
+## Implementation in Predict Module
+
+[Content with links to entities/predict-module.md]
+
+## Related Concepts
+
+- [[concepts/prediction-market-design]]
+- [[entities/predict-module]]
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [[concepts/normalisation-patterns]]
 ```
 
@@ -535,12 +590,20 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 
 - [[llm-wiki-architecture]] - Three-layer model for persistent knowledge (raw/wiki/schema)
 - [[lmsr-mechanics]] - Logarithmic Market Scoring Rule pricing algorithm
+<<<<<<< HEAD
 - [[forecast-market-design]] - Market clarity, resolution trust, calibration principles
+=======
+- [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Entities
 
 - [[andrej-karpathy]] - Creator of LLM Wiki pattern
+<<<<<<< HEAD
 - [[forecast-module]] - Laraxot module for forecast markets
+=======
+- [[predict-module]] - Laraxot module for prediction markets
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Sources
 
@@ -568,12 +631,20 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 - Commit: docs: ingest karpathy-llm-wiki article
 
 ## [2026-04-15] query | LMSR mechanics explanation
+<<<<<<< HEAD
 - Read: concepts/lmsr-mechanics.md, entities/forecast-module.md
+=======
+- Read: concepts/lmsr-mechanics.md, entities/predict-module.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Created: comparisons/lmsr-vs-order-book-mechanics.md
 - Commit: docs: query synthesis - LMSR vs order book mechanics
 
 ## [2026-04-15] lint | Weekly health check
+<<<<<<< HEAD
 - Resolved: 1 contradiction in forecast market concepts
+=======
+- Resolved: 1 contradiction in prediction market concepts
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Added: 3 cross-references to orphan pages
 - Archived: 1 stale source (old-filament-guide.md)
 - Commit: docs: lint wiki - resolve contradictions and archive stale sources

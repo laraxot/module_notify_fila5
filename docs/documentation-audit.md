@@ -57,30 +57,53 @@ related:
 
 **Example 1: User Module - 5 duplicates**
 ```
+<<<<<<< HEAD
 KEEP: /var/www/_bases/base_ptvx_fila5/laravel/Modules/User/docs/volt-errors.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/User/docs/volt_errors.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/User/docs/volts.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/User/docs/archive/historical/volt-errors.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/User/docs/archive/volt_errors.md
+=======
+KEEP: /var/www/_bases/base_fixcity_fila5/laravel/Modules/User/docs/volt-errors.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/User/docs/volt_errors.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/User/docs/volts.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/User/docs/archive/historical/volt-errors.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/User/docs/archive/volt_errors.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 **Hash:** `00a518f226eb2ad83aeb1528ac1202db`
 
 **Example 2: Xot Module - 4 duplicates**
 ```
+<<<<<<< HEAD
 KEEP: /var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/archive/historical/general-rules.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/archive/historical/general-rules-1.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/archive/general-rules-1.md
+=======
+KEEP: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/archive/historical/general-rules.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/archive/historical/general-rules-1.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/archive/general-rules-1.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 **Hash:** `00730f253d3c86417e551745a1b50ad0`
 
 **Example 3: CMS Module - 8 duplicates**
 ```
+<<<<<<< HEAD
 KEEP: /var/www/_bases/base_ptvx_fila5/laravel/Modules/Cms/docs/migrations/theme-content-to-page-component.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/Cms/docs/migrations/02-theme-content-to-page-component.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/Cms/docs/migrations/02_theme_content_to_page_component.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/Cms/docs/migrations/archive/theme-content-to-page-component.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/Cms/docs/migrations/archive/02-theme-content-to-page-component.md
 DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/Cms/docs/migrations/archive/02_theme_content_to_page_component.md
+=======
+KEEP: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Cms/docs/migrations/theme-content-to-page-component.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Cms/docs/migrations/02-theme-content-to-page-component.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Cms/docs/migrations/02_theme_content_to_page_component.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Cms/docs/migrations/archive/theme-content-to-page-component.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Cms/docs/migrations/archive/02-theme-content-to-page-component.md
+DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Cms/docs/migrations/archive/02_theme_content_to_page_component.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 **Hash:** `010ec58cafd3ef4bf79c91566188ca13`
 
@@ -103,10 +126,17 @@ DELETE: /var/www/_bases/base_ptvx_fila5/laravel/Modules/Cms/docs/migrations/arch
 #### Pattern C: Case Sensitivity Duplicates
 
 ```
+<<<<<<< HEAD
 /var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/00-index-1.md
 /var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/00-index.md
 /var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/README.md
 /var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/readme.md
+=======
+/var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/00-index-1.md
+/var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/00-index.md
+/var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/README.md
+/var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/readme.md
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Recommendation:** Enforce lowercase filenames with hyphens as word separators.

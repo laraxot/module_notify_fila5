@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Architettura WhatsApp Provider per <nome progetto>
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS ed email.
+=======
+# Architettura WhatsApp Provider per SaluteOra
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Principi Architetturali Fondamentali
 
@@ -14,7 +20,11 @@ L'architettura dei provider WhatsApp segue gli stessi principi dei provider SMS 
 ## Struttura Directory e Namespace
 
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── app/
 │   ├── Actions/
 │   │   └── WhatsApp/
@@ -44,7 +54,11 @@ use Modules\Notify\Datas\WhatsAppData;
 
 /**
  * Interfaccia per tutte le azioni di invio WhatsApp.
+<<<<<<< HEAD
  *
+=======
+ * 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
  * Tutte le implementazioni di provider WhatsApp devono implementare questa interfaccia
  * per garantire una coerenza nel modo in cui vengono gestiti i messaggi
  * indipendentemente dal provider specifico utilizzato.
@@ -102,7 +116,11 @@ class WhatsAppData
 
 return [
     'default' => env('WHATSAPP_PROVIDER', 'twilio'),
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     'providers' => [
         'twilio' => [
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
@@ -110,7 +128,11 @@ return [
             'from_phone_number' => env('TWILIO_WHATSAPP_FROM'),
             'edge' => env('TWILIO_EDGE', 'frankfurt'),
         ],
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         'meta360' => [
             'app_id' => env('META_APP_ID'),
             'app_secret' => env('META_APP_SECRET'),
@@ -118,14 +140,22 @@ return [
             'phone_number_id' => env('META_PHONE_NUMBER_ID'),
             'access_token' => env('META_WHATSAPP_ACCESS_TOKEN'),
         ],
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         'vonage' => [
             'api_key' => env('VONAGE_API_KEY'),
             'api_secret' => env('VONAGE_API_SECRET'),
             'from_number' => env('VONAGE_WHATSAPP_FROM'),
         ],
     ],
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Configurazioni globali per tutti i provider
     'from' => env('WHATSAPP_FROM'),
     'debug' => (bool) env('WHATSAPP_DEBUG', false),
@@ -178,16 +208,28 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     {
         $accountSid = config('whatsapp.providers.twilio.account_sid');
         $authToken = config('whatsapp.providers.twilio.auth_token');
+<<<<<<< HEAD
 
         if (!is_string($accountSid) || !is_string($authToken)) {
             throw new Exception('Twilio Account SID e Auth Token devono essere configurati in config/whatsapp.php');
         }
 
+=======
+        
+        if (!is_string($accountSid) || !is_string($authToken)) {
+            throw new Exception('Twilio Account SID e Auth Token devono essere configurati in config/whatsapp.php');
+        }
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         $this->accountSid = $accountSid;
         $this->authToken = $authToken;
         $this->fromPhoneNumber = config('whatsapp.providers.twilio.from_phone_number') ?? config('whatsapp.from');
         $this->edge = config('whatsapp.providers.twilio.edge', 'frankfurt');
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Parametri globali
         $this->debug = (bool) config('whatsapp.debug', false);
         $this->timeout = (int) config('whatsapp.timeout', 30);
@@ -204,7 +246,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     {
         // Normalizza il numero di telefono
         $to = $this->normalizePhoneNumber($whatsAppData->to);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Crea il client Twilio
         $client = new Client([
             'base_uri' => "https://api.{$this->edge}.twilio.com/2010-04-01/",
@@ -212,11 +258,19 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
             'timeout' => $this->timeout,
             'http_errors' => false,
         ]);
+<<<<<<< HEAD
 
         // Prepara il payload del messaggio
         $from = "whatsapp:{$whatsAppData->from}";
         $to = "whatsapp:{$to}";
 
+=======
+        
+        // Prepara il payload del messaggio
+        $from = "whatsapp:{$whatsAppData->from}";
+        $to = "whatsapp:{$to}";
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         try {
             $payload = [
                 'form_params' => [
@@ -225,22 +279,38 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     'Body' => $whatsAppData->body,
                 ],
             ];
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             // Gestione degli allegati
             if (!empty($whatsAppData->attachments)) {
                 $payload['form_params']['MediaUrl'] = $whatsAppData->attachments[0];
             }
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             // Invia la richiesta
             $response = $client->post(
                 "Accounts/{$this->accountSid}/Messages.json",
                 $payload
             );
+<<<<<<< HEAD
 
             // Elabora la risposta
             $statusCode = $response->getStatusCode();
             $responseBody = json_decode((string) $response->getBody(), true);
 
+=======
+            
+            // Elabora la risposta
+            $statusCode = $response->getStatusCode();
+            $responseBody = json_decode((string) $response->getBody(), true);
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             if ($statusCode >= 200 && $statusCode < 300) {
                 return [
                     'success' => true,
@@ -249,7 +319,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     'data' => $responseBody,
                 ];
             }
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             // Log in caso di errore
             if ($this->debug) {
                 Log::error('Twilio WhatsApp error', [
@@ -257,7 +331,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     'response' => $responseBody,
                 ]);
             }
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             return [
                 'success' => false,
                 'error' => $responseBody['message'] ?? 'Unknown error',
@@ -273,7 +351,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     'response' => $e->getResponse() ? (string) $e->getResponse()->getBody() : null,
                 ]);
             }
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
             throw new Exception('Errore durante l\'invio del messaggio WhatsApp con Twilio: ' . $e->getMessage(), 0, $e);
         } catch (Exception $e) {
             // Log dell'errore generico
@@ -282,11 +364,19 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     'exception' => $e->getMessage(),
                 ]);
             }
+<<<<<<< HEAD
 
             throw new Exception('Errore durante l\'invio del messaggio WhatsApp con Twilio: ' . $e->getMessage(), 0, $e);
         }
     }
 
+=======
+            
+            throw new Exception('Errore durante l\'invio del messaggio WhatsApp con Twilio: ' . $e->getMessage(), 0, $e);
+        }
+    }
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     /**
      * Normalizza il numero di telefono nel formato internazionale E.164.
      *
@@ -297,17 +387,29 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     {
         // Rimuovi tutti i caratteri non numerici
         $phoneNumber = preg_replace('/[^0-9+]/', '', $phoneNumber);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Se il numero inizia con 00, sostituisci con +
         if (Str::startsWith($phoneNumber, '00')) {
             $phoneNumber = '+' . mb_substr($phoneNumber, 2);
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         // Se il numero non ha prefisso internazionale, aggiungi +39 (Italia)
         if (!Str::startsWith($phoneNumber, '+')) {
             $phoneNumber = '+39' . $phoneNumber;
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return $phoneNumber;
     }
 }
@@ -360,10 +462,17 @@ class WhatsAppNotification extends Notification implements ShouldQueue
     public function toWhatsApp(object $notifiable): WhatsAppData
     {
         $from = $this->options['from'] ?? config('whatsapp.from');
+<<<<<<< HEAD
 
         // Ottieni il numero dal notifiable
         $to = $notifiable->routeNotificationForWhatsApp($this);
 
+=======
+        
+        // Ottieni il numero dal notifiable
+        $to = $notifiable->routeNotificationForWhatsApp($this);
+        
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         return new WhatsAppData(
             to: $to,
             from: $from,

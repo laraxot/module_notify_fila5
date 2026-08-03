@@ -100,7 +100,11 @@ php artisan boost:install
 
 **Usage**:
 ```
+<<<<<<< HEAD
 "Create a Filament table widget for Forecast model"
+=======
+"Create a Filament table widget for Predict model"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 "Generate a Livewire component for market cards"
 "Add validation rules for user registration"
 ```
@@ -433,7 +437,11 @@ npx shadcn@latest mcp init --client claude
 ### 3. Use Skills
 ```
 "Create a hero section using Flowbite with purple brand color"
+<<<<<<< HEAD
 "Generate a Filament table widget for Forecast model"
+=======
+"Generate a Filament table widget for Predict model"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 "Add cinematic particles effect to homepage"
 ```
 

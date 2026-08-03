@@ -131,7 +131,11 @@ laravel/Themes/Sixteen/docs/
 
 **Subtask 4** (PARALLEL with Subtask 3):
 - 📝 Input: PHASE-1-FINDINGS.md from Researcher
+<<<<<<< HEAD
 - 🔧 File: `laravel/config/local/laraxot/database/content/pages/tests.segnalazioni-elenco.json`
+=======
+- 🔧 File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ Tasks: Verify all sections, check translation keys
 - 📤 Output: Verified JSON file
 
@@ -204,13 +208,21 @@ PHASE 1 WORKFLOW (as of 07:50 UTC)
 ## 🔗 KEY CROSS-REFERENCES
 
 **Translation Pattern** (CRITICAL):
+<<<<<<< HEAD
 - ✅ Correct: `laraxot::segnalazione.fields.title.label`
+=======
+- ✅ Correct: `fixcity::segnalazione.fields.title.label`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ❌ Wrong: `SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE`
 - See: PHASE-1-STRATEGY.md § Translation Patterns
 
 **File Locations**:
 - ✅ Blade: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
+<<<<<<< HEAD
 - ✅ JSON: `laravel/config/local/laraxot/database/content/pages/tests.segnalazioni-elenco.json`
+=======
+- ✅ JSON: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - ✅ Script: `./bashscripts/body/html-structure-compare.sh`
 - ❌ DON'T CREATE: `segnalazioni-elenco.blade.php` (use [slug].blade.php)
 
@@ -351,7 +363,11 @@ Before starting your subtask:
 | Tool Docs | bashscripts/docs/html/INDEX.md | bashscripts/docs/html/ | ✅ DONE |
 | Comparison Script | html-structure-compare.sh | bashscripts/body/ | ✅ READY |
 | Blade Fixes | [slug].blade.php | laravel/Themes/Sixteen/resources/views/pages/tests/ | ⏳ PENDING |
+<<<<<<< HEAD
 | JSON Verify | tests.segnalazioni-elenco.json | laravel/config/local/laraxot/database/content/pages/ | ⏳ PENDING |
+=======
+| JSON Verify | tests.segnalazioni-elenco.json | laravel/config/local/fixcity/database/content/pages/ | ⏳ PENDING |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | Analysis Results | PHASE-1-FINDINGS.md | laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio/ | ⏳ PENDING |
 | Completion | PHASE-1-COMPLETION-REPORT.md | laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio/ | ⏳ PENDING |
 

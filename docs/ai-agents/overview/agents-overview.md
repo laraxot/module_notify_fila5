@@ -72,7 +72,11 @@
 
 **✅ SEMPRE**:
 ```blade
+<<<<<<< HEAD
 @livewire(\Modules\Forecast\Filament\Widgets\ForecastTableWidget::class)
+=======
+@livewire(\Modules\Predict\Filament\Widgets\PredictTableWidget::class)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Perché**:

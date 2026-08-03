@@ -2,12 +2,20 @@
 
 ## Parametri Chiave per Ridurre i Token
 
+<<<<<<< HEAD
 ### 1. `num_forecast` - Limite Token Output
+=======
+### 1. `num_predict` - Limite Token Output
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Limita il numero massimo di token generati nella risposta.
 
 ```json
 {
+<<<<<<< HEAD
   "num_forecast": 256
+=======
+  "num_predict": 256
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 }
 ```
 **Impatto**: Direttamente proporzionale alla riduzione. Valori consigliati: 128-512 per risposte brevi.
@@ -85,7 +93,11 @@ curl http://localhost:11434/api/chat -d '{
     }
   ],
   "options": {
+<<<<<<< HEAD
     "num_forecast": 150,
+=======
+    "num_predict": 150,
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     "temperature": 0.3,
     "top_k": 20,
     "top_p": 0.7,
@@ -98,6 +110,10 @@ curl http://localhost:11434/api/chat -d '{
 ## Utilizzo in Laravel con QueueableActions
 
 ### Azioni Disponibili
+<<<<<<< HEAD
+=======
+Le azioni sono in `Modules\Xot\Actions\AI\Ollama\`:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `ChatOllamaAction` - Chat conversazionale
 - `GenerateOllamaAction` - Generazione testo
 
@@ -117,6 +133,10 @@ OLLAMA_THINKING=low
 ### Utilizzo
 
 ```php
+<<<<<<< HEAD
+=======
+use Modules\User\Actions\Ollama\ChatOllamaAction;
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 // Usage standard ottimizzato
 $result = (new ChatOllamaAction())->executeOptimized('tua domanda');
@@ -127,7 +147,11 @@ $result = (new ChatOllamaAction())->executeMinimal('tua domanda');
 // Usage con opzioni custom
 $result = (new ChatOllamaAction())->execute('tua domanda', [
     'options' => [
+<<<<<<< HEAD
         'num_forecast' => 128,
+=======
+        'num_predict' => 128,
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         'temperature' => 0.1,
     ],
     'think' => 'low',
@@ -142,7 +166,11 @@ echo $result['tokens']['total']; // Token totali usati
 
 | Parametro | Impatto Stimato |
 |-----------|-----------------|
+<<<<<<< HEAD
 | num_forecast: 256 | 50-70% riduzione output |
+=======
+| num_predict: 256 | 50-70% riduzione output |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | temperature: 0.3 | 10-20% riduzione |
 | think: "low" | 27-51% riduzione ragionamento |
 | top_k: 20 | 5-15% riduzione |

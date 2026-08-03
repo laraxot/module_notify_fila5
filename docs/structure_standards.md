@@ -16,10 +16,17 @@
 Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 [project-root]/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 [project-root]/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
 [project-root]/laravel/Modules/Notify/app/Datas/SmsData.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SmsData.php
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ### ❌ ERRATO: ALTERNATIVE COMUNI MA ERRATE
@@ -43,13 +50,22 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 ### Verificare Sempre le Directory Esistenti
 
 ```bash
+<<<<<<< HEAD
 find [project-root]/laravel/Modules/Notify/app -type d -name "Data*"
+=======
+find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 Questo restituirà:
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/Notify/app/Datas
 [project-root]/laravel/Modules/Notify/app/Datas/SMS
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Esempi di Importazioni Corrette

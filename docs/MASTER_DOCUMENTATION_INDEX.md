@@ -72,7 +72,11 @@
 | **User** | [Modules/User/docs/](../laravel/Modules/User/docs/) | ⚠️ Needs cleanup |
 | **Geo** | [Modules/Geo/docs/](../laravel/Modules/Geo/docs/) | ✅ Good |
 | **AI** | [Modules/AI/docs/](../laravel/Modules/AI/docs/) | ✅ Good |
+<<<<<<< HEAD
 | **App** | [Modules/App/docs/](../laravel/Modules/App/docs/) | ✅ Good |
+=======
+| **Fixcity** | [Modules/Fixcity/docs/](../laravel/Modules/Fixcity/docs/) | ✅ Good |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 

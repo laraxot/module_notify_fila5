@@ -10,7 +10,11 @@ Questo documento analizza l'approccio di risoluzione dinamica delle classi nei f
 public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -29,6 +33,7 @@ public function create(?string $driver = null): SmsActionInterface
 public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
+<<<<<<< HEAD
 
     // Normalizza il nome del driver
     $normalizedDriver = ucfirst(strtolower($driver));
@@ -36,16 +41,33 @@ public function create(?string $driver = null): SmsActionInterface
     // Costruisci il nome completo della classe
     $className = "\\Modules\\Notify\\Actions\\SMS\\Send{$normalizedDriver}SMSAction";
 
+=======
+    
+    // Normalizza il nome del driver
+    $normalizedDriver = ucfirst(strtolower($driver));
+    
+    // Costruisci il nome completo della classe
+    $className = "\\Modules\\Notify\\Actions\\SMS\\Send{$normalizedDriver}SMSAction";
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Verifica se la classe esiste
     if (!class_exists($className)) {
         throw new Exception("Unsupported SMS driver: {$driver}. Class {$className} not found.");
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     // Verifica se la classe implementa l'interfaccia richiesta
     if (!is_subclass_of($className, SmsActionInterface::class)) {
         throw new Exception("Class {$className} does not implement SmsActionInterface.");
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     return app($className);
 }
 ```
@@ -149,4 +171,8 @@ Per massimizzare i vantaggi della risoluzione dinamica:
 
 La risoluzione dinamica delle classi offre vantaggi significativi in termini di estensibilità, manutenibilità e coerenza del codice, con svantaggi minimi in termini di complessità e performance. È particolarmente adatta per sistemi che evolvono frequentemente con l'aggiunta di nuovi driver o implementazioni.
 
+<<<<<<< HEAD
 Per il sistema di notifiche di <nome progetto>, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
+=======
+Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

@@ -35,7 +35,11 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 **Solution**: Moved all dependencies from `require_comment` and `require-dev_comment` sections to active `require` and `require-dev` sections.
 
 **Files Modified**:
+<<<<<<< HEAD
 - `/var/www/_bases/base_ptvx_fila5/laravel/composer.json`
+=======
+- `/var/www/_bases/base_fixcity_fila5/laravel/composer.json`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 2. Version Conflicts (CRITICAL)
 **Problem**: Module composer.json files had conflicting version requirements:
@@ -50,6 +54,7 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 - Removed Pest version constraints from Rating module
 
 **Files Modified**:
+<<<<<<< HEAD
 - `/var/www/_bases/base_ptvx_fila5/laravel/composer.json`
 - `/var/www/_bases/base_ptvx_fila5/laravel/Modules/Rating/composer.json`
 
@@ -63,6 +68,21 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 **Files Modified**:
 - `/var/www/_bases/base_ptvx_fila5/laravel/Modules/App/app/Models/User.php`
 - `/var/www/_bases/base_ptvx_fila5/laravel/Modules/User/app/Models/BaseUser.php` (fixed return type)
+=======
+- `/var/www/_bases/base_fixcity_fila5/laravel/composer.json`
+- `/var/www/_bases/base_fixcity_fila5/laravel/Modules/Rating/composer.json`
+
+### 3. Method Conflict (CRITICAL)
+**Problem**: `Modules\Fixcity\Models\User` used `InteractsWithComments` trait which conflicted with `BaseUser::notifications()` method.
+
+**Error**: `Declaration of Spatie\Comments\Models\Concerns\InteractsWithComments::notifications() must be compatible with Modules\User\Models\BaseUser::notifications()`
+
+**Solution**: Temporarily disabled `InteractsWithComments` trait and `CanComment` interface in `Modules\Fixcity\Models\User`.
+
+**Files Modified**:
+- `/var/www/_bases/base_fixcity_fila5/laravel/Modules/Fixcity/app/Models/User.php`
+- `/var/www/_bases/base_fixcity_fila5/laravel/Modules/User/app/Models/BaseUser.php` (fixed return type)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### 4. Environment Configuration
 **Problem**: No `.env` file existed, causing Boost to be disabled.
@@ -72,7 +92,11 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 - `APP_DEBUG=true`
 
 **Files Created**:
+<<<<<<< HEAD
 - `/var/www/_bases/base_ptvx_fila5/laravel/.env`
+=======
+- `/var/www/_bases/base_fixcity_fila5/laravel/.env`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Installation Process
 
@@ -112,7 +136,11 @@ php artisan list | grep boost
 
 ### Skill Installation Location
 ```
+<<<<<<< HEAD
 /var/www/_bases/base_ptvx_fila5/laravel/.ai/skills/laravel-specialist/
+=======
+/var/www/_bases/base_fixcity_fila5/laravel/.ai/skills/laravel-specialist/
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ## Documentation Created
@@ -126,7 +154,11 @@ Created BOOST_SKILL_FIX_summary.md in:
 - `Modules/Xot/docs/`
 - `Modules/User/docs/`
 - `Modules/AI/docs/`
+<<<<<<< HEAD
 - `Modules/App/docs/`
+=======
+- `Modules/Fixcity/docs/`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - `Modules/Media/docs/`
 - `Modules/Notify/docs/`
 - `Modules/Activity/docs/`
@@ -158,14 +190,24 @@ Created BOOST_SKILL_FIX_summary.md in:
 
 ## Backup Files Created
 
+<<<<<<< HEAD
 - `/var/www/_bases/base_ptvx_fila5/laravel/composer.json.backup`
+=======
+- `/var/www/_bases/base_fixcity_fila5/laravel/composer.json.backup`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Known Issues
 
 ### 1. InteractsWithComments Trait Disabled
+<<<<<<< HEAD
 The `InteractsWithComments` trait is temporarily disabled in `Modules\App\Models\User` due to method signature conflict with `BaseUser::notifications()`.
 
 **Impact**: Comment functionality in App module may be affected.
+=======
+The `InteractsWithComments` trait is temporarily disabled in `Modules\Fixcity\Models\User` due to method signature conflict with `BaseUser::notifications()`.
+
+**Impact**: Comment functionality in Fixcity module may be affected.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Resolution Required**: Need to refactor the conflict, possibly by:
 - Using aliasing for the trait methods

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Notify - Architecture Documentation
+=======
+# FixCity - Architecture Documentation
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Version:** 4.0  
 **Date:** 2025-10-01  
@@ -52,7 +56,11 @@ Modules/
 ├── Xot/              # Core framework extensions
 ├── Tenant/           # Multi-tenancy support
 ├── User/             # User management & authentication
+<<<<<<< HEAD
 ├── App/          # Main application logic
+=======
+├── Fixcity/          # Main application logic
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ├── Blog/             # Content management
 ├── Cms/              # CMS functionality
 ├── Geo/              # Geographic services
@@ -76,7 +84,11 @@ graph TD
     A[Xot] --> B[Tenant]
     A --> C[User]
     A --> D[Lang]
+<<<<<<< HEAD
     B --> E[App]
+=======
+    B --> E[Fixcity]
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     C --> E
     E --> F[Blog]
     E --> G[Cms]

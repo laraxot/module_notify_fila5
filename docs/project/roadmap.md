@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "ROADMAP: Notify Platform"
+=======
+title: "ROADMAP: FixCity Platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [roadmap]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "roadmap roadmap: laraxot platform"
+=======
+qmd: "roadmap roadmap: fixcity platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./design-comuni-bmad-master-plan.md"
 ---
 
+<<<<<<< HEAD
 # ROADMAP: Notify Platform
+=======
+# ROADMAP: FixCity Platform
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Milestone 1: Performance & Stability (COMPLETED ✅)
 - Phase 0: Foundation

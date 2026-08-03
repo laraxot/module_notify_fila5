@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "📸 Analisi Visiva Homepage Notify vs Bootstrap Italia"
+=======
+title: "📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [analisi, visiva]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "analisi-visiva 📸 analisi visiva homepage laraxot vs bootstrap italia"
+=======
+qmd: "analisi-visiva 📸 analisi visiva homepage fixcity vs bootstrap italia"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -13,13 +21,21 @@ related:
   - "./screenshot-analysis.md"
 ---
 
+<<<<<<< HEAD
 # 📸 Analisi Visiva Homepage Notify vs Bootstrap Italia
+=======
+# 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Data: {{ date('Y-m-d H:i:s') }}
 
 ## Reference
 - **Bootstrap Italia**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
+<<<<<<< HEAD
 - **Notify**: http://laraxot.local/it/tests/homepage
+=======
+- **FixCity**: http://fixcity.local/it/tests/homepage
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -41,7 +57,11 @@ related:
 - Background: `#FFFFFF`
 - Text: `#1A1A1A`
 
+<<<<<<< HEAD
 ### Notify (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Header Component - XotBase]                                │
@@ -82,7 +102,11 @@ related:
 - Title H2: `text-center mb-5`
 - Card shadow: `shadow-sm`
 
+<<<<<<< HEAD
 ### Notify (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Hero Component - Tailwind classes]                         │
@@ -130,7 +154,11 @@ related:
 - Card: `card card-teaser shadow-sm h-100`
 - Button: `btn btn-outline-primary btn-sm mt-3`
 
+<<<<<<< HEAD
 ### Notify (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Governance Component - Tailwind Grid]                      │
@@ -182,7 +210,11 @@ related:
 - Date badge: `calendar-date text-primary h3`
 - Day abbr: `calendar-day text-muted small text-uppercase`
 
+<<<<<<< HEAD
 ### Notify (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Events Component - Flexbox Tailwind]                       │
@@ -237,7 +269,11 @@ related:
 - Card: `card card-teaser shadow-sm h-100`
 - Title: `h6 text-uppercase text-muted mb-3`
 
+<<<<<<< HEAD
 ### Notify (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Topics Component - Tailwind Cards]                         │
@@ -283,7 +319,11 @@ related:
 └─────────────────────────────────────────────────────────────┘
 ```
 
+<<<<<<< HEAD
 ### Notify (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [Footer Component - XotBase]                                │

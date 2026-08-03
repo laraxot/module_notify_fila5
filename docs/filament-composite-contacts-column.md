@@ -1,7 +1,11 @@
 # Colonna Contatti Composite per Filament - Modulo Notify
 
 ## Panoramica
+<<<<<<< HEAD
 Documentazione del pattern per implementare colonne contatti composite in Filament Tables, specificamente per il modulo Notify. Questo pattern è stato sviluppato inizialmente nel modulo App e ora viene generalizzato per riutilizzo.
+=======
+Documentazione del pattern per implementare colonne contatti composite in Filament Tables, specificamente per il modulo Notify. Questo pattern è stato sviluppato inizialmente nel modulo TechPlanner e ora viene generalizzato per riutilizzo.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## Pattern Architetturale
 
@@ -197,7 +201,11 @@ TextColumn::make('pec'),
 ## Riutilizzo in Altri Moduli
 
 Questo pattern può essere applicato a:
+<<<<<<< HEAD
 - **App**: Clienti, fornitori, partner
+=======
+- **TechPlanner**: Clienti, fornitori, partner
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **User**: Profili utente, contatti
 - **Cms**: Contatti pagine, form
 - **Qualsiasi modulo**: Con dati di contatto
@@ -215,14 +223,22 @@ Questo pattern può essere applicato a:
 - [UI/UX Standards](../../../../docs/ui-ux-standards.md)
 
 ### Altri Moduli
+<<<<<<< HEAD
 - [App Contacts Column](../../laraxot/docs/contacts-column-implementation-complete.md)
+=======
+- [TechPlanner Contacts Column](../../techplanner/docs/contacts-column-implementation-complete.md)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [UI Components](../../ui/docs/components.md)
 
 ## Changelog
 
 ### [DATE]
 - **Creazione**: Documentazione iniziale del pattern
+<<<<<<< HEAD
 - **Standardizzazione**: Pattern derivato da App
+=======
+- **Standardizzazione**: Pattern derivato da TechPlanner
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - **Best Practices**: Definite regole architetturali
 
 ---

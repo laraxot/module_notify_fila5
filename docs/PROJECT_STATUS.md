@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Notify Platform - Project Status Report
+=======
+# FixCity Platform - Project Status Report
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 2025-01-01  
 **Versione**: 1.0.0-alpha  
@@ -8,7 +12,11 @@
 
 | Modulo | Status | Completamento | Priorità | Owner |
 |--------|--------|---------------|----------|-------|
+<<<<<<< HEAD
 | **App** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
+=======
+| **Fixcity** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 | **User** | 🟢 Stable | 75% | 🔴 Critical | Security Team |
 | **Xot** | 🟢 Stable | 80% | 🔴 Critical | Core Team |
 | **Notify** | 🟡 In Progress | 50% | 🟠 High | Notification Team |
@@ -175,5 +183,9 @@
 
 **Report Generated**: 2025-01-01  
 **Next Update**: 2025-01-15  
+<<<<<<< HEAD
 **Contact**: development@laraxot.io
+=======
+**Contact**: development@fixcity.io
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 

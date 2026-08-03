@@ -20,7 +20,11 @@ Modules/
   Limesurvey/ — integrazione LimeSurvey
   Media/      — file e media
   Notify/     — notifiche (email, SMS, Telegram, WhatsApp)
+<<<<<<< HEAD
   App/    — survey management
+=======
+  Quaeris/    — survey management
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   Tenant/     — multi-tenancy
   UI/         — componenti UI
   User/       — autenticazione, Passport, Socialite

@@ -28,7 +28,11 @@
 
 ### What Are Custom Question Types?
 
+<<<<<<< HEAD
 Custom question types are specialized data processing actions for App survey analytics that handle complex business logic not covered by standard LimeSurvey queries. They enable:
+=======
+Custom question types are specialized data processing actions for Quaeris survey analytics that handle complex business logic not covered by standard LimeSurvey queries. They enable:
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 - **Response rate calculations** (email, SMS)
 - **Grouped analysis** (root grouped BF)
@@ -38,7 +42,11 @@ Custom question types are specialized data processing actions for App survey ana
 ### Why Custom Implementation?
 
 Standard LimeSurvey queries cannot handle:
+<<<<<<< HEAD
 - Cross-database operations (contacts in `app_data`, surveys in `limesurvey`)
+=======
+- Cross-database operations (contacts in `quaeris_data`, surveys in `limesurvey`)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Complex business logic (response rate calculations)
 - Custom grouping and aggregation
 - Multi-source data merging
@@ -128,13 +136,21 @@ WHERE parent_qid != 0
 GROUP BY gid
 ```
 
+<<<<<<< HEAD
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
+=======
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Lines**: 125
 
 **Complexity**: Medium
 
+<<<<<<< HEAD
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/234`
+=======
+**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/234`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -158,13 +174,21 @@ WHERE submitdate IS NOT NULL
 AND sent != 'N'
 ```
 
+<<<<<<< HEAD
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/MailResponseRate.php`
+=======
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Lines**: 173
 
 **Complexity**: High
 
+<<<<<<< HEAD
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/192`
+=======
+**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/192`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Footer Output**:
 ```
@@ -181,7 +205,11 @@ Totale Invitati: 100 - Rispondenti: 75 - Percentuale di risposta: 75.00%
 
 **Database Operations**:
 ```sql
+<<<<<<< HEAD
 -- Uses Contact model (app_data database)
+=======
+-- Uses Contact model (quaeris_data database)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 SELECT 
     DATE_FORMAT(sms_sent_at, '%Y-%b') as label,
     DATE_FORMAT(sms_sent_at, '%Y-%m') as _sort,
@@ -195,13 +223,21 @@ GROUP BY
 ORDER BY DATE_FORMAT(sms_sent_at, '%Y-%m')
 ```
 
+<<<<<<< HEAD
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
+=======
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Lines**: 150 (optimized from 473)
 
 **Complexity**: High
 
+<<<<<<< HEAD
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/191`
+=======
+**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/191`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Key Optimization**: No cross-database joins, uses Contact model directly
 
@@ -215,13 +251,21 @@ ORDER BY DATE_FORMAT(sms_sent_at, '%Y-%m')
 
 **Implementation**: Combines MailResponseRate + SmsResponseRate
 
+<<<<<<< HEAD
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
+=======
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Lines**: 122
 
 **Complexity**: Medium
 
+<<<<<<< HEAD
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/190`
+=======
+**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/190`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Calculation**:
 ```php
@@ -240,7 +284,11 @@ $responsePercentage = $totalInvited !== 0
 
 **Pattern**: `custom:contacts_completed_2`
 
+<<<<<<< HEAD
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
+=======
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Lines**: 128
 
@@ -254,7 +302,11 @@ $responsePercentage = $totalInvited !== 0
 
 **Pattern**: `custom:avg_group_2`
 
+<<<<<<< HEAD
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/AvgGroup2.php`
+=======
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/AvgGroup2.php`
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Lines**: 107
 
@@ -350,7 +402,11 @@ Argument #1 ($dataClass) must be of type string, null given
 **Stack Trace**:
 ```
 #0 vendor/spatie/laravel-data/src/DataPipes/CastPropertiesDataPipe.php:113
+<<<<<<< HEAD
 #1 Modules/App/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
+=======
+#1 Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 **Fix**:
@@ -476,12 +532,21 @@ return new AnswersChartData(answers: $answersArray);
 **Error Message**:
 ```
 SQLSTATE[42S02]: Base table or view not found: 1146
+<<<<<<< HEAD
 Table 'app_survey.contacts' doesn't exist
 ```
 
 **Root Cause**: 
 - `contacts` table exists in `app_data` database
 - Query was using `limesurvey` connection (aka `app_survey`)
+=======
+Table 'quaeris_survey.contacts' doesn't exist
+```
+
+**Root Cause**: 
+- `contacts` table exists in `quaeris_data` database
+- Query was using `limesurvey` connection (aka `quaeris_survey`)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Cross-database joins not supported without special config
 
 **Problematic Code**:
@@ -670,7 +735,11 @@ $footer = sprintf(
 
 ```
 ┌─────────────────────┐     ┌─────────────────────┐
+<<<<<<< HEAD
 │   app_data      │     │     limesurvey      │
+=======
+│   quaeris_data      │     │     limesurvey      │
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 │   (MySQL)           │     │     (MySQL)         │
 ├─────────────────────┤     ├─────────────────────┤
 │ contacts            │     │ lime_survey_{sid}   │
@@ -691,16 +760,26 @@ $footer = sprintf(
 ```php
 // config/database.php
 'connections' => [
+<<<<<<< HEAD
     'this-project' => [
         'driver' => 'mysql',
         'database' => 'app_data',
+=======
+    'quaeris' => [
+        'driver' => 'mysql',
+        'database' => 'quaeris_data',
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         'host' => '127.0.0.1',
         // ...
     ],
     
     'limesurvey' => [
         'driver' => 'mysql',
+<<<<<<< HEAD
         'database' => 'app_survey', // aka limesurvey
+=======
+        'database' => 'quaeris_survey', // aka limesurvey
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         'host' => '127.0.0.1',
         // ...
     ],
@@ -710,10 +789,17 @@ $footer = sprintf(
 ### Model Configuration
 
 ```php
+<<<<<<< HEAD
 // Modules/App/Models/Contact.php
 class Contact extends Model
 {
     protected $connection = 'this-project';
+=======
+// Modules/Quaeris/Models/Contact.php
+class Contact extends Model
+{
+    protected $connection = 'quaeris';
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     protected $table = 'contacts';
 }
 
@@ -887,7 +973,11 @@ it('calculates mail response rate correctly', function (): void {
 - `.kilo/memories/session-2026-03-17-custom-charts.md`
 
 ### GitHub
+<<<<<<< HEAD
 - Issue #97: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97
+=======
+- Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### External Resources
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)

@@ -86,7 +86,11 @@ Creare componenti compatibili Bootstrap Italia.
 ### Fase 3: Testing
 
 ```bash
+<<<<<<< HEAD
 curl http://laraxot.local/it/tests/homepage | grep -o '<section[^>]*>' | head -10
+=======
+curl http://fixcity.local/it/tests/homepage | grep -o '<section[^>]*>' | head -10
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 
 ---

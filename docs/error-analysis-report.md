@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 title: "🐛 ERROR ANALYSIS REPORT - NOTIFY"
+=======
+title: "🐛 ERROR ANALYSIS REPORT - FIXCITY"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 type: concept
 tags: [error, analysis, report]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "error-analysis-report 🐛 error analysis report - laraxot"
+=======
+qmd: "error-analysis-report 🐛 error analysis report - fixcity"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +26,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 # 🐛 ERROR ANALYSIS REPORT - NOTIFY
+=======
+# 🐛 ERROR ANALYSIS REPORT - FIXCITY
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Data**: 2025-10-02 20:50  
 **Errore Critico**: Type mismatch in Resource classes  
@@ -29,7 +41,11 @@ related:
 ## 🔴 ERRORE PRINCIPALE
 
 ```
+<<<<<<< HEAD
 Type of Modules\App\Filament\Resources\FaqCategoryResource::$navigationGroup 
+=======
+Type of Modules\Fixcity\Filament\Resources\FaqCategoryResource::$navigationGroup 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 must be UnitEnum|string|null (as in class Filament\Resources\Resource)
 ```
 
@@ -48,7 +64,11 @@ Il file `FaqCategoryResource.php` usa metodi Filament 3 invece di XotBase patter
 
 ## 📋 FILES CON ERRORI SIMILI
 
+<<<<<<< HEAD
 ### App Module (2 files)
+=======
+### Fixcity Module (2 files)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 1. ❌ `FaqCategoryResource.php` - Usa `form()` e `table()`
 2. ❌ `FaqResource.php` - Usa `form()` e `table()`
 

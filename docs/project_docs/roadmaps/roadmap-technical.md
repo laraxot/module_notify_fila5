@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🛠️ ROADMAP TECNICA - NOTIFY PLATFORM
+=======
+# 🛠️ ROADMAP TECNICA - FIXCITY PLATFORM
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **Versione**: 1.0  
 **Data Creazione**: Gennaio 2025  
@@ -6,7 +10,11 @@
 **Priorità**: ALTA  
 
 ## 🎯 Obiettivo
+<<<<<<< HEAD
 Completare l'evoluzione tecnica del progetto Notify per raggiungere la produzione con qualità enterprise e scalabilità.
+=======
+Completare l'evoluzione tecnica del progetto FixCity per raggiungere la produzione con qualità enterprise e scalabilità.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 📊 Stato Attuale
 - **PHPStan Level 9**: ✅ COMPLETATO (0 errori)
@@ -458,8 +466,13 @@ jobs:
 **📞 Contatti**
 - **Tech Lead**: Laraxot Development Team
 - **Email**: tech@laraxot.com
+<<<<<<< HEAD
 - **Slack**: #laraxot-tech
 - **GitHub**: [Notify Repository](https://github.com/laraxot/laraxot)
+=======
+- **Slack**: #fixcity-tech
+- **GitHub**: [FixCity Repository](https://github.com/laraxot/fixcity)
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 **🔄 Ultimo Aggiornamento**: Gennaio 2025  
 **📊 Progresso**: 40% → 100% (Target Dicembre 2025)  

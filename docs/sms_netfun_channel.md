@@ -115,7 +115,11 @@ Configurazione attuale con username/password nel modulo Notify:
 'netfun' => [
     'username' => env('NETFUN_USERNAME'),
     'password' => env('NETFUN_PASSWORD'),
+<<<<<<< HEAD
     'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+    'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
     // Parametri avanzati...
 ],
@@ -361,7 +365,11 @@ Notification::assertSentTo($user, OrderShipped::class);
 ## 9. Riferimenti
 - [Netfun SMS API](https://www.netfunitalia.it/)
 - [spatie/laravel-queueable-action](https://github.com/spatie/laravel-queueable-action)
+<<<<<<< HEAD
 - [Laravel Notifications](https://laravel.com/docs/notifications)
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications) 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ---
 
@@ -415,7 +423,11 @@ $payload = [
 - Validare i dati con regole custom (es. formato numero, lunghezza mittente)
 - Documentare ogni DTO e aggiornarlo in caso di modifiche API
 
+<<<<<<< HEAD
 ---
+=======
+--- 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Canale SMS Netfun
 
@@ -528,4 +540,8 @@ class NetfunSMSTest extends TestCase
 }
 ```
 
+<<<<<<< HEAD
 ---
+=======
+--- 
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
