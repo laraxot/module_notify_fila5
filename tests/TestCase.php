@@ -39,11 +39,7 @@ abstract class TestCase extends XotBaseTestCase
     {
         parent::setUp();
 
-<<<<<<< HEAD
         $database = database_path('notify_data.sqlite');
-=======
-        $database = database_path('fixcity_data.sqlite');
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
         /** @var array<string, array<string, mixed>> $connections */
         $connections = config('database.connections', []);

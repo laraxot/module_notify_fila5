@@ -17,11 +17,7 @@ const PAGES = [
 
 const BASE_REF = 'https://italia.github.io/design-comuni-pagine-statiche/sito';
 const BASE_LOCAL = 'http://127.0.0.1:8000/it/tests';
-<<<<<<< HEAD
 const DOCS_DIR = '/var/www/_bases/base_ptvx_fila5/laravel/Themes/Sixteen/docs/pages';
-=======
-const DOCS_DIR = '/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/pages';
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 async function screenshot(page, url, outPath) {
   try {

@@ -3,7 +3,6 @@
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
-<<<<<<< HEAD
 
 # Binary files (no git LFS)
 *.png binary
@@ -17,8 +16,6 @@ CHANGELOG.md export-ignore
 *.sqlite binary
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
-=======
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 *.jpg !text !filter !merge !diff
 *.jpeg !text !filter !merge !diff
 *.gif !text !filter !merge !diff

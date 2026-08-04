@@ -82,11 +82,7 @@ cat > reports/summary-report.md << EOF
 # Code Quality Analysis Summary
 
 **Generated:** $(date)
-<<<<<<< HEAD
 **Project:** Notify Platform
-=======
-**Project:** FixCity Platform
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## PHP Analysis
 - **PHPStan:** $(if [ -f reports/phpstan-report.json ]; then echo "✅ Completed"; else echo "❌ Failed"; fi)
