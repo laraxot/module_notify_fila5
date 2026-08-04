@@ -1,10 +1,6 @@
 #!/bin/bash
 
-<<<<<<< HEAD
 # 🔧 SCRIPT INSTALLAZIONE STRUMENTI QUALITÀ - NOTIFY PLATFORM
-=======
-# 🔧 SCRIPT INSTALLAZIONE STRUMENTI QUALITÀ - FIXCITY PLATFORM
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 # Versione: 1.0
 # Data: Gennaio 2025
 
@@ -35,17 +31,10 @@ error() {
 }
 
 # Directory base
-<<<<<<< HEAD
 BASE_DIR="/var/www/_bases/base_ptvx_fila5"
 LARAVEL_DIR="$BASE_DIR/laravel"
 
 log "🚀 Avvio installazione strumenti qualità Notify Platform"
-=======
-BASE_DIR="/var/www/_bases/base_fixcity_fila5_mono"
-LARAVEL_DIR="$BASE_DIR/laravel"
-
-log "🚀 Avvio installazione strumenti qualità FixCity Platform"
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # Verifica prerequisiti
 check_prerequisites() {
@@ -126,15 +115,9 @@ install_frontend_tools() {
         log "📦 Creazione package.json..."
         cat > package.json << EOF
 {
-<<<<<<< HEAD
   "name": "notify-platform",
   "version": "1.0.0",
   "description": "Notify Platform - Quality Tools",
-=======
-  "name": "fixcity-platform",
-  "version": "1.0.0",
-  "description": "FixCity Platform - Quality Tools",
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   "scripts": {
     "quality": "npm run quality:biome && npm run quality:eslint && npm run quality:htmlhint && npm run quality:markdownlint",
     "quality:biome": "biome check .",
@@ -498,11 +481,7 @@ create_quality_scripts() {
     cat > "$BASE_DIR/scripts/quality-check.sh" << 'EOF'
 #!/bin/bash
 
-<<<<<<< HEAD
 # 🔍 SCRIPT CONTROLLO QUALITÀ COMPLETO - NOTIFY PLATFORM
-=======
-# 🔍 SCRIPT CONTROLLO QUALITÀ COMPLETO - FIXCITY PLATFORM
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 set -e
 
@@ -525,11 +504,7 @@ error() {
     echo -e "${RED}❌ $1${NC}"
 }
 
-<<<<<<< HEAD
 BASE_DIR="/var/www/_bases/base_ptvx_fila5"
-=======
-BASE_DIR="/var/www/_bases/base_fixcity_fila5_mono"
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 LARAVEL_DIR="$BASE_DIR/laravel"
 
 log "🔍 Avvio controllo qualità completo..."
@@ -621,11 +596,7 @@ EOF
     cat > "$BASE_DIR/scripts/quality-fix.sh" << 'EOF'
 #!/bin/bash
 
-<<<<<<< HEAD
 # 🔧 SCRIPT FIX AUTOMATICO QUALITÀ - NOTIFY PLATFORM
-=======
-# 🔧 SCRIPT FIX AUTOMATICO QUALITÀ - FIXCITY PLATFORM
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 set -e
 
@@ -644,11 +615,7 @@ success() {
     echo -e "${GREEN}✅ $1${NC}"
 }
 
-<<<<<<< HEAD
 BASE_DIR="/var/www/_bases/base_ptvx_fila5"
-=======
-BASE_DIR="/var/www/_bases/base_fixcity_fila5_mono"
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 LARAVEL_DIR="$BASE_DIR/laravel"
 
 log "🔧 Avvio fix automatico qualità..."
@@ -685,11 +652,7 @@ create_pre_commit_hook() {
     cat > "$BASE_DIR/.git/hooks/pre-commit" << 'EOF'
 #!/bin/bash
 
-<<<<<<< HEAD
 # 🔍 PRE-COMMIT HOOK - NOTIFY PLATFORM
-=======
-# 🔍 PRE-COMMIT HOOK - FIXCITY PLATFORM
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 echo "🔍 Running quality checks..."
 

@@ -29,6 +29,9 @@ class MailTemplateResource extends LangBaseResource
     #[Override]
     public static function getFormSchema(): array
     {
+        /** @var view-string $paramsBadgesView */
+        $paramsBadgesView = 'notify::filament.components.params-badges';
+
         return [
             'mailable_slug_group' => Group::make()
                 ->schema([
@@ -67,7 +70,7 @@ class MailTemplateResource extends LangBaseResource
             'html_template' => RichEditor::make('html_template')
                 ->required()
                 ->columnSpanFull(),
-            'params_display' => View::make('notify::filament.components.params-badges')
+            'params_display' => View::make($paramsBadgesView)
                 ->viewData(fn ($record): array => [
                     'params' => is_object($record) && isset($record->params) ? $record->params : [],
                 ])

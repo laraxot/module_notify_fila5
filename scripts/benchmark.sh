@@ -1,11 +1,7 @@
 #!/bin/bash
 
 ###############################################################################
-<<<<<<< HEAD
 # Notify Performance Benchmark Script
-=======
-# FixCity Performance Benchmark Script
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 # 
 # Esegue test di performance per validare gli obiettivi di risposta
 ###############################################################################
@@ -19,19 +15,11 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Configuration
-<<<<<<< HEAD
 API_URL="${API_URL:-http://localhost/api/app}"
 ITERATIONS=100
 TARGET_RESPONSE_TIME=200 # ms
 
 echo "🚀 Notify Performance Benchmark"
-=======
-API_URL="${API_URL:-http://localhost/api/fixcity}"
-ITERATIONS=100
-TARGET_RESPONSE_TIME=200 # ms
-
-echo "🚀 FixCity Performance Benchmark"
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 echo "================================"
 echo ""
 
@@ -108,11 +96,7 @@ echo "Running database query benchmark..."
 
 php artisan tinker --execute="
 \$start = microtime(true);
-<<<<<<< HEAD
 Modules\\App\\Models\\Ticket::with(['user', 'profile'])->limit(100)->get();
-=======
-Modules\\Fixcity\\Models\\Ticket::with(['user', 'profile'])->limit(100)->get();
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 \$time = round((microtime(true) - \$start) * 1000, 2);
 echo \"Query with relationships: {\$time}ms\\n\";
 "

@@ -54,17 +54,9 @@
     "laravel-notification-channels/fcm": "^6.0",
     "laravel-notification-channels/telegram": "*",
     "phpdocumentor/type-resolver": "*",
-<<<<<<< HEAD
     "spatie/laravel-database-mail-templates": "*",
     "symfony/http-client": "*",
     "symfony/postmark-mailer": "*"
-=======
-    "spatie/laravel-data": "^4.0",
-    "spatie/laravel-database-mail-templates": "*",
-    "symfony/http-client": "*",
-    "symfony/postmark-mailer": "*",
-    "thecodingmachine/safe": "^2.5"
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   },
   "repositories": [
     {
