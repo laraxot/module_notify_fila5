@@ -4,9 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_split;
+=======
+use function Safe\preg_split;
+use Spatie\QueueableAction\QueueableAction;
+
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.

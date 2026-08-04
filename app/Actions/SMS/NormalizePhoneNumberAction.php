@@ -4,11 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match;
 use function Safe\preg_replace;
+=======
+use function Safe\preg_match;
+use function Safe\preg_replace;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.

@@ -256,6 +256,9 @@ git push laraxot dev
 - ✅ Working tree: CLEAN (nessun backlog di commit)
 - ⏸️ Push: BLOCKED (infrastruttura GitHub, non local issue)
 ✅ Atomic commits: 2 commit (4bb1a85 dirty file, 46c61f5 merge)
+<<<<<<< HEAD
 
 va nella cartella laravel/Modules/Notify e fa git push , capisci gli errori sistameli e documenta come hai risolto dentro laravel/Modules/UI/docs ti ricordo che con git andiamo solo in avanti, percio' non puoi fare checkout revert rollback, ma puoi anzi devi studiare le vecchie versioni e ti ricordo che il tuo lavoro non e' finito finche' non supera anche il controllo di phpstan phpmd, phpinisghts tutta la cartella laravel/Modules/Notify
 
+=======
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)

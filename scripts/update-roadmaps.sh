@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # 🔄 SCRIPT AGGIORNAMENTO ROADMAP AUTOMATIZZATO
+<<<<<<< HEAD
 # Notify Platform - Roadmap Update System
+=======
+# FixCity Platform - Roadmap Update System
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 # Versione: 1.0
 # Data: Gennaio 2025
 
@@ -32,11 +36,19 @@ error() {
 }
 
 # Directory base
+<<<<<<< HEAD
 BASE_DIR="/var/www/_bases/base_ptvx_fila5"
 LARAVEL_DIR="$BASE_DIR/laravel"
 PROJECT_DOCS_DIR="$BASE_DIR/project_docs"
 
 log "🚀 Avvio aggiornamento roadmap Notify Platform"
+=======
+BASE_DIR="/var/www/_bases/base_fixcity_fila5_mono"
+LARAVEL_DIR="$BASE_DIR/laravel"
+PROJECT_DOCS_DIR="$BASE_DIR/project_docs"
+
+log "🚀 Avvio aggiornamento roadmap FixCity Platform"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 # 1. Aggiorna metriche automatiche
 log "📊 Aggiornamento metriche automatiche..."
@@ -48,7 +60,11 @@ update_phpstan_metrics() {
     cd "$LARAVEL_DIR"
     
     # Lista moduli
+<<<<<<< HEAD
     modules=("Xot" "User" "App" "UI" "Geo" "Media" "Notify" "Comment" "Rating" "Activity" "Blog" "Cms" "Gdpr" "Tenant" "Seo" "Job" "AI")
+=======
+    modules=("Xot" "User" "Fixcity" "UI" "Geo" "Media" "Notify" "Comment" "Rating" "Activity" "Blog" "Cms" "Gdpr" "Tenant" "Seo" "Job" "AI")
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
     
     for module in "${modules[@]}"; do
         if [ -d "Modules/$module" ]; then
@@ -100,7 +116,11 @@ update_module_roadmaps() {
     declare -A module_priorities=(
         ["Xot"]="CRITICAL"
         ["User"]="HIGH"
+<<<<<<< HEAD
         ["App"]="CRITICAL"
+=======
+        ["Fixcity"]="CRITICAL"
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
         ["UI"]="HIGH"
         ["Geo"]="MEDIUM"
         ["Media"]="MEDIUM"
@@ -700,14 +720,22 @@ generate_consolidated_report() {
 # 📊 REPORT CONSOLIDATO ROADMAP - $(date +'%Y-%m-%d')
 
 ## 🎯 OVERVIEW
+<<<<<<< HEAD
 Report consolidato delle roadmap di tutti i moduli e temi del progetto Notify.
+=======
+Report consolidato delle roadmap di tutti i moduli e temi del progetto FixCity.
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ## 📋 MODULI
 
 ### Moduli Core (CRITICAL)
 - **Xot**: Core framework - Status: 95% COMPLETATO
 - **User**: Authentication & Authorization - Status: 90% COMPLETATO  
+<<<<<<< HEAD
 - **App**: Core business logic - Status: 80% COMPLETATO
+=======
+- **Fixcity**: Core business logic - Status: 80% COMPLETATO
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### Moduli Support (HIGH)
 - **UI**: Component library - Status: 60% COMPLETATO
@@ -752,8 +780,13 @@ Report consolidato delle roadmap di tutti i moduli e temi del progetto Notify.
 ## 🎯 PROSSIMI PASSI
 
 ### Q1 2025 (Gennaio-Marzo)
+<<<<<<< HEAD
 1. Completare moduli core (Xot, User, App)
 2. Implementare API v1 per App
+=======
+1. Completare moduli core (Xot, User, Fixcity)
+2. Implementare API v1 per Fixcity
+>>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 3. Ottimizzare mobile interface
 4. Raggiungere 100% AGID compliance per Sixteen
 
