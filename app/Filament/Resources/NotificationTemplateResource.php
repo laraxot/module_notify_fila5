@@ -13,13 +13,22 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\Preview
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Override;
-
+use Filament\Forms\Components\Field;
 class NotificationTemplateResource extends XotBaseResource
 {
     protected static ?string $model = NotificationTemplate::class;
 
-    #[Override]
-    public static function getFormSchema(): array
+    /**
+
+
+     * @return array<string, mixed>
+
+
+     */
+
+
+    //#[Override]
+    public static function getFormSchemaOld(): array
     {
         return [
             'name' => TextInput::make('name')

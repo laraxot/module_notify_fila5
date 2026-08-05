@@ -19,16 +19,16 @@ class ContactSection extends XotBaseSection
     protected function setUp(): void
     {
         parent::setUp();
-        $this->schema(fn (): array => $this->getFormSchema());
+        $this->schema(fn (): array => $this->getFormSchemaOld());
         $this->columns(2);
     }
 
     /**
      * @return array<int|string, TextInput>
      */
-    protected function getFormSchema(): array
+    protected function getFormSchemaOld(): array
     {
-        return ContactTypeEnum::getFormSchema();
+        return ContactTypeEnum::getFormSchemaOld();
     }
 
     /*

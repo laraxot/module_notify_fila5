@@ -58,7 +58,7 @@ function makePreviewNotificationTemplateTestProxy(): PreviewNotificationTemplate
 }
 
 test('contact resource form schema exposes expected fields', function (): void {
-    $schema = \assertNotifyArray(ContactResource::getFormSchema());
+    $schema = \assertNotifyArray(ContactResource::getFormSchemaOld());
 
     Assert::assertArrayHasKey('name', $schema);
     Assert::assertArrayHasKey('email', $schema);
@@ -153,7 +153,7 @@ test('mail template resource form schema exposes expected components', function 
         file_put_contents($fixture, '<html><body>layout</body></html>');
     }
 
-    $schema = \assertNotifyArray(MailTemplateResource::getFormSchema());
+    $schema = \assertNotifyArray(MailTemplateResource::getFormSchemaOld());
 
     Assert::assertArrayHasKey('mailable_slug_group', $schema);
     Assert::assertInstanceOf(Group::class, $schema['mailable_slug_group']);
@@ -168,7 +168,7 @@ test('mail template resource form schema exposes expected components', function 
 });
 
 test('notification resource form schema exposes expected components', function (): void {
-    $schema = \assertNotifyArray(NotificationResource::getFormSchema());
+    $schema = \assertNotifyArray(NotificationResource::getFormSchemaOld());
 
     Assert::assertArrayHasKey('type', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['type']);
@@ -179,7 +179,7 @@ test('notification resource form schema exposes expected components', function (
 });
 
 test('notification template resource form schema and pages are configured', function (): void {
-    $schema = \assertNotifyArray(NotificationTemplateResource::getFormSchema());
+    $schema = \assertNotifyArray(NotificationTemplateResource::getFormSchemaOld());
     $pages = \assertNotifyArray(NotificationTemplateResource::getPages());
 
     Assert::assertArrayHasKey('name', $schema);

@@ -15,7 +15,7 @@ class LinkableRelationManager extends XotBaseRelationManager
     protected static ?string $recordTitleAttribute = 'id';
 
     #[Override]
-    public function getFormSchema(): array
+    public function getFormSchemaOld(): array
     {
         return [
             TextInput::make('id')->required()->maxLength(255),

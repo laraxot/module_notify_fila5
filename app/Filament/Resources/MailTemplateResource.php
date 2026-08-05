@@ -13,7 +13,7 @@ use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Filament\Forms\Components\HtmlLayoutPathSelect;
 use Modules\Notify\Models\MailTemplate;
 use Override;
-
+use Filament\Forms\Components\Field;
 class MailTemplateResource extends LangBaseResource
 {
     protected static ?string $model = MailTemplate::class;
@@ -26,8 +26,14 @@ class MailTemplateResource extends LangBaseResource
      * - Le etichette, i placeholder e i testi di aiuto sono gestiti tramite LangServiceProvider
      * - File di traduzione: Modules/Notify/resources/lang/{locale}/mail_template.php
      */
-    #[Override]
-    public static function getFormSchema(): array
+    /**
+
+     * @return array<string, mixed>
+
+     */
+
+    //#[Override]
+    public static function getFormSchemaOld(): array
     {
         /** @var view-string $paramsBadgesView */
         $paramsBadgesView = 'notify::filament.components.params-badges';
