@@ -347,6 +347,6 @@ return [
 ## Riferimenti
 
 - [Responsive Email Templates](./responsive_email_templates.md)
-- [Email Best Practices](./mail-templates/email_best_practices.md)
+- [Email Best Practices](./mail-templates/email-best-practices.md)
 - [HTML Email Compatibility](./mail-templates/html_email_compatibility.md)
-- [Spatie Email Integration](./spatie_email_usage_guide.md)
+- [Spatie Email Integration](./spatie-email-usage-guide.md)

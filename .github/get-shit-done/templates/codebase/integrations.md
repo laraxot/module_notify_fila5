@@ -254,7 +254,7 @@ Template for `.planning/codebase/INTEGRATIONS.md` - captures external service de
 
 **What does NOT belong here:**
 - Actual API keys or secrets (NEVER write these)
-- Internal architecture (that's ARCHITECTURE.md)
+- Internal architecture (that's architecture.md)
 - Code patterns (that's PATTERNS.md)
 - Technology choices (that's STACK.md)
 - Performance issues (that's CONCERNS.md)

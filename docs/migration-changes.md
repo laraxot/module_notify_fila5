@@ -89,7 +89,7 @@
 
 ## Collegamenti Correlati
 
-- [Regole Migrazioni](./migration_rules.md)
+- [Regole Migrazioni](./migration-rules.md)
 - [Documentazione Template](./email_templates.md)
 - [Best Practices Database](../../../../docs/best-practices/database.md)
-- [Proposta Slug Template](./email_template_slug_proposal.md) 
+- [Proposta Slug Template](./email-template-slug-proposal.md) 

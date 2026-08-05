@@ -300,7 +300,7 @@ done
 1. ✅ `Modules/Xot/docs/architecture/xotbasepivot-analysis.md` (già fatto)
 2. ✅ `docs/architecture/xotbasepivot-strategy.md` (questo file)
 3. `Modules/Xot/README.md` → aggiungere sezione XotBasePivot
-4. `docs/CHANGELOG.md` → entry per breaking change
+4. `docs/changelog.md` → entry per breaking change
 5. Per ogni modulo: `Modules/{Module}/docs/models/pivot-migration.md`
 
 #### Esempio doc modulo:

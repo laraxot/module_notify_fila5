@@ -35,8 +35,8 @@ class CleanupNotificationLogsCommand extends Command
             return Command::FAILURE;
         }
 
-        $days = (int) ($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
-        $batchSize = (int) ($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
+        $days = (int) filter_var($this->option('days') ?? config('notify.cleanup.older_than_days', 30), FILTER_VALIDATE_INT);
+        $batchSize = (int) filter_var($this->option('batch') ?? config('notify.cleanup.batch_size', 1000), FILTER_VALIDATE_INT);
         $keepFailed = config('notify.cleanup.keep_failed', true);
 
         $this->info("Inizio pulizia dei log delle notifiche più vecchi di {$days} giorni...");

@@ -199,5 +199,5 @@ LIMIT 10
 ## Related Documentation
 
 - [LLM Wiki Integration Guide](../wiki/README.md)
-- [Agent Instructions](../wiki/AGENTS.md)
+- [Agent Instructions](../wiki/agents.md)
 - [Wiki Overview](../wiki/overview.md)

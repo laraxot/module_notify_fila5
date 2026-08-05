@@ -124,7 +124,7 @@ After optimization:
    - `.env`: LOG_LEVEL=warning (production), LOG_LEVEL=debug (development)
    - Reduces log writes by 90%, overhead from 20-30% to 5-10%
 
-### 3. AGENTS.md Updated
+### 3. agents.md Updated
 
 **New Section Added**: "🚨 LOGGING PERFORMANCE RULES (CRITICAL)"
 
@@ -402,7 +402,7 @@ LOG_LEVEL=debug
 
 1. ✅ Create documentation
 2. ✅ Update knowledge base
-3. ✅ Update AGENTS.md
+3. ✅ Update agents.md
 4. ⏭️ Update `config/logging.php`
 5. ⏭️ Update `.env.example`
 
@@ -474,7 +474,7 @@ This session successfully:
 2. ✅ Identified 58 excessive `Log::info()` calls
 3. ✅ Documented logging best practices
 4. ✅ Updated knowledge base with 3 key lessons
-5. ✅ Updated AGENTS.md with performance rules
+5. ✅ Updated agents.md with performance rules
 6. ✅ Created optimization plan (4 phases)
 7. ✅ Defined success metrics
 

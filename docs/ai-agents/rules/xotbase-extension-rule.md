@@ -283,7 +283,7 @@ class OutcomesTableWidget extends XotBaseTableWidget
 - **[XotBaseTableWidget](../../laravel/Modules/Xot/app/Filament/Widgets/XotBaseTableWidget.php)** - Base class
 
 ### AI Agents Docs
-- **[Rules Index](00-INDEX.md)** - All rules
+- **[Rules Index](00-index.md)** - All rules
 - **[Reusable Components](../guidelines/reusable-components-philosophy.md)** - DRY+KISS philosophy
 
 ---

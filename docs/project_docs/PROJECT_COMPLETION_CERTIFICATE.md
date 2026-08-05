@@ -376,7 +376,7 @@ See [Quality Dashboard](./QUALITY_DASHBOARD.md)
 
 ### Appendix B: Architecture Documentation
 
-See [Architecture](./ARCHITECTURE.md)
+See [Architecture](./architecture.md)
 
 ### Appendix C: Refactoring Report
 

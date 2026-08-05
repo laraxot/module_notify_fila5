@@ -40,7 +40,7 @@ This is a fundamental rule that must NEVER be forgotten when working with themes
 
 ## Cross-References
 
-- ← [CLAUDE Index](INDEX.md) — All Laravel Boost guidelines
-- ← [Main AI Docs Index](../INDEX.md) — Master index
+- ← [CLAUDE Index](index.md) — All Laravel Boost guidelines
+- ← [Main AI Docs Index](../index.md) — Master index
 - ← [../../../../docs/CLAUDE.md](../../../../docs/../../../../docs/CLAUDE.md) — Original source
 

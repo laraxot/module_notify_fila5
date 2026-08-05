@@ -195,7 +195,7 @@ Templates available:
 ## Related Documentation
 
 - [Complete Integration Guide](wiki/README.md)
-- [Agent Instructions](wiki/AGENTS.md)
+- [Agent Instructions](wiki/agents.md)
 - [Wiki Overview](wiki/overview.md)
 - [Obsidian Setup](.obsidian/README.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)

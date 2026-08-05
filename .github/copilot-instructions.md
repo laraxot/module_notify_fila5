@@ -365,8 +365,8 @@ GSD directories:
 - **Issue Tracking**: `.github/README.md` (Design Comuni project tracking)
 
 ### Module & Theme Documentation
-- **All Modules**: `laravel/Modules/{ModuleName}/docs/00-INDEX.md`
-- **All Themes**: `laravel/Themes/{ThemeName}/docs/00-INDEX.md`
+- **All Modules**: `laravel/Modules/{ModuleName}/docs/00-index.md`
+- **All Themes**: `laravel/Themes/{ThemeName}/docs/00-index.md`
 - **Component Catalog**: `laravel/Themes/Sixteen/docs/COMPONENT_CATALOG.md` (47 components, 38 pages)
 
 ---

@@ -99,7 +99,7 @@ The primary issue affecting 39+ errors is the incomplete `UserContract` interfac
 
 ## Documentation Updated
 
-### AGENTS.md
+### agents.md
 **Location**: `AGENTS.md`
 
 **New Sections Added**:

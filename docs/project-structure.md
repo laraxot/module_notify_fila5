@@ -31,13 +31,13 @@ related:
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
 │   ├── skills/                   # Skill progettuali
-│   │   ├── INDEX.md
+│   │   ├── index.md
 │   │   └── *.md
 │   ├── commands/                 # Comandi progettuali
-│   │   ├── INDEX.md
+│   │   ├── index.md
 │   │   └── *.md
 │   ├── memories/                 # Memorie progettuali
-│   │   ├── INDEX.md
+│   │   ├── index.md
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
 │   └── troubleshooting/          # Bug fixes, error resolutions
@@ -116,7 +116,7 @@ graph TD
 mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,troubleshooting}
 
 # 2. Crea INDEX files (già creati)
-cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+cp docs/wiki/rules/index.md docs/wiki/rules/
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

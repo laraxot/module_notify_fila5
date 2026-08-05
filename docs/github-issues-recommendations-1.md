@@ -344,7 +344,7 @@ While PHPStan Level 10 is achieved, there may be legacy code patterns that don't
 - [ ] Create refactoring plan for each violation
 - [ ] Prioritize by impact and effort
 - [ ] Track refactoring progress
-- [ ] Update AGENTS.md with new patterns
+- [ ] Update agents.md with new patterns
 
 **Expected Outcome**: Clean codebase following all Laraxot architectural rules.
 
@@ -704,7 +704,7 @@ Discuss CI/CD pipeline improvements. Topics include:
 
 - `/var/www/_bases/base_laravelpizza/laravel/Modules/Xot/docs/` - Comprehensive Xot documentation
 - `/var/www/_bases/base_techplanner_fila5/laravel/Modules/Xot/docs/` - Alternative Xot patterns
-- `/var/www/_bases/base_fixcity_fila5/AGENTS.md` - Current architectural rules
+- `/var/www/_bases/base_fixcity_fila5/agents.md` - Current architectural rules
 - `/var/www/_bases/base_fixcity_fila5/PHPSTAN_FINAL_REPORT.md` - PHPStan achievement
 - `/var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/LOGGING_BEST_PRACTICES_2026-03-02.md` - Logging patterns
 

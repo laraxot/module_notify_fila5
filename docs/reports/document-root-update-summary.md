@@ -95,7 +95,7 @@ New master index files created:
 
 These files were checked and found to already have correct paths:
 - ✅ `AGENTS.md` - No incorrect path references found
-- ✅ `laravel/AGENTS.md` - Laravel Boost guidelines (no path changes needed)
+- ✅ `laravel/agents.md` - Laravel Boost guidelines (no path changes needed)
 - ✅ `.windsurfrules` - No incorrect path references found
 
 ## Project Structure (Corrected)
@@ -200,7 +200,7 @@ Next Review: 2026-04-30
 - [x] All 2 theme READMEs updated
 - [x] Master module index created
 - [x] Master theme index created
-- [x] Project files verified (AGENTS.md, .windsurfrules)
+- [x] Project files verified (agents.md, .windsurfrules)
 - [x] No merge conflicts remaining
 - [x] No temporal strings
 - [x] All paths use `public_html/` correctly
@@ -235,7 +235,7 @@ Next Review: 2026-04-30
 - [Master Module Index](laravel/Modules/docs/README.md)
 - [Master Theme Index](laravel/Themes/docs/README.md)
 - [Project Documentation](docs/README.md)
-- [AGENTS.md](AGENTS.md)
+- [agents.md](agents.md)
 - [.windsurfrules](.windsurfrules)
 
 ---

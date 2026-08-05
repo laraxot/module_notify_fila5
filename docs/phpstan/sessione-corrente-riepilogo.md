@@ -107,7 +107,7 @@ Dettagli completi in: `docs/phpstan/tests-analysis-current.md`
 - `docs/`: 48 file
 - `Modules/*/docs/`: 60 file
 - `Modules/*/.github/`: 28 file (SECURITY.md, CONTRIBUTING.md)
-- `Modules/`: 16 file (CHANGELOG.md, LICENSE.md, ROADMAP.md)
+- `Modules/`: 16 file (changelog.md, LICENSE.md, ROADMAP.md)
 
 ---
 

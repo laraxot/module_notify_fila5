@@ -264,10 +264,10 @@ Create these NotebookLM notebooks for FixCity:
 
 4. **Project Documentation**
 <<<<<<< HEAD
-   - Upload: Notify docs, AGENTS.md, .windsurfrules
+   - Upload: Notify docs, agents.md, .windsurfrules
    - Topics: laraxot, project, conventions
 =======
-   - Upload: FixCity docs, AGENTS.md, .windsurfrules
+   - Upload: FixCity docs, agents.md, .windsurfrules
    - Topics: fixcity, project, conventions
 >>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
    - Use: Project-specific queries

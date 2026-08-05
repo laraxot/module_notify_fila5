@@ -256,7 +256,7 @@ EOF
 =======
 # Create: "FixCity Documentation"
 >>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
-# Upload: AGENTS.md, docs/**/*.md, .planning/**/*.md
+# Upload: agents.md, docs/**/*.md, .planning/**/*.md
 # Share → Copy link
 
 # 3. Add to library

@@ -40,4 +40,4 @@ Themes are decoupled from business logic.
 - Documentation: `docs/` (global) and `laravel/Modules/{Name}/docs/` (local).
 
 ---
-[Return to Documentation Index](../../AGENTS.md)
+[Return to Documentation Index](../../agents.md)

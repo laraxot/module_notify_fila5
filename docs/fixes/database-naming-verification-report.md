@@ -13,7 +13,7 @@
 La verifica ha confermato che:
 - ✅ 18/18 moduli hanno directory corrette
 - ✅ Documentazione del modulo Blog corretta
-- ✅ AGENTS.md aggiornato con la rule
+- ✅ agents.md aggiornato con la rule
 - ✅ GitHub Issue #5 creata per tracking
 - ✅ Documentazione di convenzione creata
 
@@ -154,7 +154,7 @@ Questi sono **accettabili** perché:
 
 ### 3. ✅ Created Preventive Documentation
 - Guida completa alla convenzione
-- Rule in AGENTS.md
+- Rule in agents.md
 - Esempi e best practices
 
 ### 4. ✅ Established GitHub Workflow
@@ -173,7 +173,7 @@ Questi sono **accettabili** perché:
 
 ### Immediate (Done ✅)
 - ✅ Fix Blog module documentation
-- ✅ Update AGENTS.md
+- ✅ Update agents.md
 - ✅ Create convention documentation
 - ✅ Create GitHub Issue #5
 
@@ -204,7 +204,7 @@ find laravel/Modules -type d \( -name "Factories" -o -name "Migrations" -o -name
 grep -r "database/Factories\|database/Migrations\|database/Seeders" \
   docs/ laravel/Modules/*/docs/ | \
   grep -v "database-naming.md" | \
-  grep -v "AGENTS.md" | \
+  grep -v "agents.md" | \
   grep -v "models/README.md"
 ```
 
@@ -223,7 +223,7 @@ find docs/ laravel/Modules/*/docs/ -type f -name "*.md" -exec sed -i \
 ## 📚 Related Documents
 
 - [Database Naming Convention](conventions/database-naming.md)
-- [AGENTS.md](../../AGENTS.md)
+- [agents.md](../../agents.md)
 - [Fix Summary](fixes/database-naming-fix-summary.md)
 <<<<<<< HEAD
 - [GitHub Issue #5](https://github.com/laraxot/platform/issues/5)

@@ -124,7 +124,7 @@ Expected at completion:  95%+ ✅ (TARGET)
 
 ### Quick Start (5 minutes)
 1. Read: `.planning/WAVE-2-EXECUTIVE-SUMMARY.txt`
-2. Read: `laravel/Themes/Sixteen/docs/visual-analysis/INDEX.md`
+2. Read: `laravel/Themes/Sixteen/docs/visual-analysis/index.md`
 3. Open: `laravel/Themes/Sixteen/docs/visual-analysis/GSD-IMPLEMENTATION-PLAN.md`
 
 ### What to Do Next (15 min per task)

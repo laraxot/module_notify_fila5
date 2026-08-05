@@ -40,7 +40,7 @@
 - Identified 6+ key patterns for PHPStan compliance
 
 ### 3. Documentation Created ✅
-- **Main report**: `docs/PHPSTAN_SOLUTIONS_FROM_BASELARAVERPIZZA.md`
+- **Main report**: `docs/phpstan-solutions-from-baselaraverpizza.md`
 - **Logging analysis**: `docs/LOGGING_OPTIMIZATION_SUMMARY_2026-03-02.md`
 - **Progress updates**: Multiple session summaries
 - **Module fix plans**: For App, Geo, Cms, Blog, User
@@ -351,7 +351,7 @@ php artisan test --compact
 ## 📚 Documentation Index
 
 ### Main Documents
-1. `docs/PHPSTAN_SOLUTIONS_FROM_BASELARAVERPIZZA.md` - Complete solutions from base_laravelpizza
+1. `docs/phpstan-solutions-from-baselaraverpizza.md` - Complete solutions from base_laravelpizza
 2. `docs/LOGGING_OPTIMIZATION_SUMMARY_2026-03-02.md` - Logging performance analysis
 3. `docs/PHPSTAN_PROGRESS_UPDATE_2026-03-02.md` - Progress tracking
 4. `docs/PHPSTAN_SESSION_SUMMARY_2026-03-02.md` - Initial session summary

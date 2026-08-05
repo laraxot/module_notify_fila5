@@ -73,7 +73,7 @@ docs/
 |----------|---------|------|
 | `raw/` | `./docs/` + ogni `Modules/*/docs/` | Documenti sorgente (immutabili) |
 | `wiki/` | `./docs/wiki/` + ogni `Modules/*/docs/wiki/` | Conoscenza compilata dall'LLM |
-| `AGENTS.md` | `./docs/wiki/AGENTS.md` | Schema multi-agent |
+| `AGENTS.md` | `./docs/wiki/agents.md` | Schema multi-agent |
 | `index.md` | `./docs/wiki/index.md` | Catalogo globale |
 | `log.md` | `./docs/wiki/log.md` | Log append-only |
 
@@ -159,7 +159,7 @@ LLM: Scans for contradictions, orphans, stale claims → reports findings → ap
 ## Related Resources
 
 - [Integration Guide](README.md) - Complete setup and usage guide
-- [Agent Instructions](AGENTS.md) - Schema file for LLM agents
+- [Agent Instructions](agents.md) - Schema file for LLM agents
 - [Activity Log](log.md) - Chronological record of wiki activity
 - [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 

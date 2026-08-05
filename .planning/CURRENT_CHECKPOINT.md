@@ -47,7 +47,7 @@
   7. Documentation & Commit (10-15 min)
 
 ### 5. Comprehensive INDEX ✅
-- **File**: `laravel/Themes/Sixteen/docs/visual-analysis/INDEX.md`
+- **File**: `laravel/Themes/Sixteen/docs/visual-analysis/index.md`
 - **Result**: Cross-referenced documentation with role-based navigation
 - **Features**: Quick navigation, phase timeline, cross-references, success criteria
 
@@ -82,7 +82,7 @@
 - ✅ `laravel/Themes/Sixteen/docs/visual-analysis/VISUAL-DIFFERENCES-ANALYSIS.md` (12 KB)
 - ✅ `laravel/Themes/Sixteen/docs/visual-analysis/BMAD-VISUAL-ALIGNMENT-DISCUSSION.md` (6.0 KB)
 - ✅ `laravel/Themes/Sixteen/docs/visual-analysis/GSD-IMPLEMENTATION-PLAN.md` (16 KB)
-- ✅ `laravel/Themes/Sixteen/docs/visual-analysis/INDEX.md` (14 KB)
+- ✅ `laravel/Themes/Sixteen/docs/visual-analysis/index.md` (14 KB)
 
 ### Screenshots
 - ✅ `/tmp/reference-homepage-1920.png` (Desktop reference)
@@ -142,7 +142,7 @@
 
 ## 📋 Execution Checklist (Before Starting Implementation)
 
-- [ ] Review `laravel/Themes/Sixteen/docs/visual-analysis/INDEX.md` (5 min)
+- [ ] Review `laravel/Themes/Sixteen/docs/visual-analysis/index.md` (5 min)
 - [ ] Review `laravel/Themes/Sixteen/docs/visual-analysis/GSD-IMPLEMENTATION-PLAN.md` (10 min)
 - [ ] Verify build environment ready (`npm run build` < 2s)
 - [ ] Clear browser cache

@@ -469,7 +469,7 @@ Brief description of the component
 ### New Documentation Files to Create
 
 #### Architecture Docs
-- `Themes/Sixteen/docs/ARCHITECTURE.md` - Overall architecture
+- `Themes/Sixteen/docs/architecture.md` - Overall architecture
 - `Themes/Sixteen/docs/BLOCK_SYSTEM.md` - JSON block system
 - `Themes/Sixteen/docs/COMPONENT_SYSTEM.md` - Component architecture
 - `Themes/Sixteen/docs/HEADER_FOOTER_ARCHITECTURE.md` - Header/footer patterns

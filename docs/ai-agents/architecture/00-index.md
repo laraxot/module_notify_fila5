@@ -43,4 +43,4 @@ related:
 ## Navigation
 
 - [../00-index-1.md](../00-index-1.md)
-- [../../../../AGENTS.md](../../../../AGENTS.md)
+- [../../../../agents.md](../../../../agents.md)

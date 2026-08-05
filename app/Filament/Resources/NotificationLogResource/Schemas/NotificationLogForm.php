@@ -14,7 +14,7 @@ class NotificationLogForm extends XotBaseResourceForm
      * @return array<int|string, \Filament\Schemas\Components\Component>
      */
 
-    public static function getFormSchemaOld(): array
+    public static function getFormSchema(): array
     {
         return [
             Section::make([

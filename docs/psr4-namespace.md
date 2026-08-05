@@ -1,7 +1,7 @@
 # Fix Namespace PSR-4 - Modulo Notify
 
 > **Versione**: 1.0  
-> **Ultima modifica**: Vedi [CHANGELOG.md](./changelog.md)
+> **Ultima modifica**: Vedi [changelog.md](./changelog.md)
 
 **Problema**: Namespace con `\App\` viola convenzione Laraxot  
 **Severità**: 🟡 Media (warning autoload, non blocca app)

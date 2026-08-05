@@ -195,7 +195,7 @@ parts: 1
 - SkillsMP: 400K skills, aggregator only, no curation
 - ClawHub: 3.2K curated, versioning, small
 - No-code platforms (Lindy, Copilot Studio, MindStudio, Make/Zapier): closed/siloed, no skill portability, business-only
-- Market: $7.84B (2025) → $52.62B (2030); Agent Skills spec ~4 months old, 351K+ skills; standards converging under Linux Foundation AAIF (MCP, AGENTS.md, A2A)
+- Market: $7.84B (2025) → $52.62B (2030); Agent Skills spec ~4 months old, 351K+ skills; standards converging under Linux Foundation AAIF (MCP, agents.md, A2A)
 
 ## Rejected Alternatives
 - Building own platform support matrix: unsustainable at 40+; delegate to Vercel ecosystem

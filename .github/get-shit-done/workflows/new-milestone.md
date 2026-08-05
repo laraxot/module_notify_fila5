@@ -151,7 +151,7 @@ Use template: .github/get-shit-done/templates/research-project/{FILE}
 | QUESTION | What stack additions/changes are needed for [new features]? | How do [target features] typically work? Expected behavior? | How do [target features] integrate with existing architecture? | Common mistakes when adding [target features] to [domain]? |
 | CONSUMER | Specific libraries with versions for NEW capabilities, integration points, what NOT to add | Table stakes vs differentiators vs anti-features, complexity noted, dependencies on existing | Integration points, new components, data flow changes, suggested build order | Warning signs, prevention strategy, which phase should address it |
 | GATES | Versions current (verify with Context7), rationale explains WHY, integration considered | Categories clear, complexity noted, dependencies identified | Integration points identified, new vs modified explicit, build order considers deps | Pitfalls specific to adding these features, integration pitfalls covered, prevention actionable |
-| FILE | STACK.md | FEATURES.md | ARCHITECTURE.md | PITFALLS.md |
+| FILE | STACK.md | FEATURES.md | architecture.md | PITFALLS.md |
 
 After all 4 complete, spawn synthesizer:
 
@@ -162,7 +162,7 @@ Synthesize research outputs into SUMMARY.md.
 <files_to_read>
 - .planning/research/STACK.md
 - .planning/research/FEATURES.md
-- .planning/research/ARCHITECTURE.md
+- .planning/research/architecture.md
 - .planning/research/PITFALLS.md
 </files_to_read>
 

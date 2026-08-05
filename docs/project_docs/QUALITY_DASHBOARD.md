@@ -290,7 +290,7 @@ Overall Progress: ████████████████████�
 
 ## 🔗 Related Resources
 
-- [Architecture Documentation](./ARCHITECTURE.md)
+- [Architecture Documentation](./architecture.md)
 - [Contributing Guidelines](../CONTRIBUTING.md)
 - [Testing Strategy](../Modules/Xot/docs/testing/testing-strategy.md)
 - [Refactoring Reports](./FINAL_REFACTORING_REPORT.md)

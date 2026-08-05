@@ -1,6 +1,6 @@
 # 🏛️ Architecture Zen Philosophy
 
-**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Part of**: [00-index.md](00-index.md) — AI Agents Coordination  
 **Related**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md) — Filament Widgets
 
 ---

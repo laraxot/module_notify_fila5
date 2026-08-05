@@ -725,7 +725,7 @@ BMAD (Plan) → GSD (Execute) → Ralph (Build) → OpenViking (Context)
 
 ### Documentation
 - [MASTER_ROADMAP.md](docs/MASTER_ROADMAP.md) - Complete 18-month roadmap
-- [AGENTS.md](AGENTS.md) - AI agent guidelines
+- [agents.md](agents.md) - AI agent guidelines
 - [AI_AGENT_TEAMS.md](docs/AI_AGENT_TEAMS.md) - Team coordination
 - [DOCUMENTATION_IMPROVEMENT_PLAN_MULTI_AGENT.md](docs/DOCUMENTATION_IMPROVEMENT_PLAN_MULTI_AGENT.md)
 - [OpenViking Integration](docs/openviking-integration.md)

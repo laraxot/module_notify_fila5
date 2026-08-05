@@ -122,7 +122,7 @@ themes/
 │
 ├── Sixteen/  ← ACTIVE THEME
 │   ├── docs/
-│   │   ├── 00-INDEX.md ◄────────────────┐
+│   │   ├── 00-index.md ◄────────────────┐
 │   │   ├── architecture/                │
 │   │   │   ├── layout-hierarchy.md      │
 │   │   │   └── component-structure.md   │
@@ -403,7 +403,7 @@ Modules/ModuleName/
 │       └── XxxSeeder.php
 │
 ├── docs/
-│   ├── 00-INDEX.md
+│   ├── 00-index.md
 │   ├── architecture/
 │   ├── guides/
 │   └── reference/

@@ -1,6 +1,6 @@
 # Architecture Template
 
-Template for `.planning/codebase/ARCHITECTURE.md` - captures conceptual code organization.
+Template for `.planning/codebase/architecture.md` - captures conceptual code organization.
 
 **Purpose:** Document how the code is organized at a conceptual level. Complements STRUCTURE.md (which shows physical file locations).
 
@@ -222,7 +222,7 @@ Template for `.planning/codebase/ARCHITECTURE.md` - captures conceptual code org
 </good_examples>
 
 <guidelines>
-**What belongs in ARCHITECTURE.md:**
+**What belongs in architecture.md:**
 - Overall architectural pattern (monolith, microservices, layered, etc.)
 - Conceptual layers and their relationships
 - Data flow / request lifecycle

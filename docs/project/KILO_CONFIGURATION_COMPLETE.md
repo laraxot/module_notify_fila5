@@ -54,8 +54,8 @@
   
   // Documentazione per contesto AI
   "instructions": [
-    "AGENTS.md",
-    "laravel/AGENTS.md"
+    "agents.md",
+    "laravel/agents.md"
   ],
   
   // Tool abilitati
@@ -101,7 +101,7 @@
 | `autoupdate` | boolean | Auto-update | `true` |
 | `snapshot` | boolean | Snapshot | `true` |
 | `mcp` | object | MCP servers | `{}` |
-| `instructions` | array | Docs contesto | `["AGENTS.md", ...]` |
+| `instructions` | array | Docs contesto | `["agents.md", ...]` |
 | `tools` | object | Tool abilitati | `{write, edit, bash...}` |
 | `permission` | object | Permessi | `{bash: "ask", ...}` |
 | `experimental` | object | Feature sperimentali | `{}` |
@@ -189,7 +189,7 @@ Ctrl+Q         - Esci
 Kilo legge automaticamente:
 
 1. **AGENTS.md** - Contesto principale
-2. **laravel/AGENTS.md** - Contesto Laravel
+2. **laravel/agents.md** - Contesto Laravel
 
 ### Per Aggiungere Altra Docs
 
@@ -198,8 +198,8 @@ Modifica `.kilo/kilo.jsonc`:
 ```jsonc
 {
   "instructions": [
-    "AGENTS.md",
-    "laravel/AGENTS.md",
+    "agents.md",
+    "laravel/agents.md",
     "docs/**/*.md",                    // Tutta la docs
     "laravel/Modules/docs/README.md",  // Index moduli
     "laravel/Themes/docs/README.md",   // Index temi

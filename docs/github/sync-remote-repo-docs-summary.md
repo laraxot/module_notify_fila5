@@ -142,7 +142,7 @@ All documents are cross-referenced:
 - Coordination Log → Guide
 - Issue Template → Guide + Coordination Log
 - Discussion Template → Coordination Log
-- AGENTS.md → All docs
+- agents.md → All docs
 
 ### External Links
 
@@ -194,7 +194,7 @@ All documents are cross-referenced:
 - Created GITHUB_WIKI_SYNC.md (wiki sync guide)
 - Created README.md (docs index)
 - Created GitHub Issue/Discussion templates
-- Updated AGENTS.md with coordination guidelines
+- Updated agents.md with coordination guidelines
 
 **Testing**:
 - ✅ CLI mode verified

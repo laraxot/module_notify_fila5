@@ -359,7 +359,7 @@ Phase 2 planning can begin
 - EXECUTOR-2-SUBTASKS-3-4.md (for Executor #2)
 
 **Tools** (5-10 min read):
-- bashscripts/docs/html/INDEX.md (comparison tools)
+- bashscripts/docs/html/index.md (comparison tools)
 
 ---
 

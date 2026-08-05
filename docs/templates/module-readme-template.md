@@ -173,5 +173,5 @@ composer test -- Modules/[ModuleName]
 
 ---
 
-Navigation: [Project Home](../../docs/INDEX.md) | [Modules](../../docs/modules/README.md)
+Navigation: [Project Home](../../docs/index.md) | [Modules](../../docs/modules/README.md)
 

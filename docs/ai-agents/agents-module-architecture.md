@@ -137,5 +137,5 @@ git rm path/to/submodule
 - [Indice AGENTS](./agents-split-index.md)
 - [module-dependencies.md](./module-dependencies.md) - Più dettagliato
 - [git-submodules.md](./git-submodules.md) - Dettagli git
-- [AGENTS.md originale](../../AGENTS.md)
+- [agents.md originale](../../agents.md)
 - [Index principale](./index.md)

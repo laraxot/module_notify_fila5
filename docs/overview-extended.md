@@ -236,7 +236,7 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 **Versione**: 1.1  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base  
-**Changelog**: [CHANGELOG.md](./CHANGELOG.md)
+**Changelog**: [changelog.md](./changelog.md)
 
 ## 🔗 Collegamenti
 

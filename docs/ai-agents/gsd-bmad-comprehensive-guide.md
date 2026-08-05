@@ -177,7 +177,7 @@ Ogni task: Contesto fresco (200k token) → Qualità costante ✅
 ├── research/
 │   ├── STACK.md         # Stack tecnologico
 │   ├── FEATURES.md      # Feature research
-│   ├── ARCHITECTURE.md  # Architettura
+│   ├── architecture.md  # Architettura
 │   └── PITFALLS.md      # Pitfalls da evitare
 ├── phase-1-PLAN.md      # Task atomici XML
 ├── phase-1-SUMMARY.md   # Cosa è successo

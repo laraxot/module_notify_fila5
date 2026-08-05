@@ -194,7 +194,7 @@ Total Documents: 5 (created Session 006)
 Total Characters: ~63,000
 - PHASE-1-STRATEGY.md (22,938 chars)
 - GSD-PHASE-1-EXECUTION.md (19,499 chars)
-- bashscripts/docs/html/INDEX.md (8,531 chars)
+- bashscripts/docs/html/index.md (8,531 chars)
 - bashscripts/html/extract-body-html.py (4,156 chars)
 - 00-index-1.md (12,926 chars)
 
@@ -388,7 +388,7 @@ Must achieve ALL criteria:
 - EXECUTOR-2-SUBTASKS-3-4.md (for Executor #2)
 
 **Tools**:
-- bashscripts/docs/html/INDEX.md (comparison tools)
+- bashscripts/docs/html/index.md (comparison tools)
 
 ---
 

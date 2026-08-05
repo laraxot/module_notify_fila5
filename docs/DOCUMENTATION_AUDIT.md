@@ -83,7 +83,7 @@ DELETE: /var/www/_bases/base_fixcity_fila5/laravel/Modules/Cms/docs/migrations/a
 #### Pattern C: Case Sensitivity Duplicates
 
 ```
-/var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/00-INDEX.md
+/var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/00-index.md
 /var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/00-index.md
 /var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/README.md
 /var/www/_bases/base_fixcity_fila5/laravel/Modules/Xot/docs/readme.md
@@ -208,7 +208,7 @@ Xot/docs/
 
 **Multiple index files serving same purpose:**
 ```
-Xot/docs/00-INDEX.md
+Xot/docs/00-index.md
 Xot/docs/00-index.md
 Xot/docs/index.md
 Xot/docs/README.md

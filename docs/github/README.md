@@ -100,7 +100,7 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 
 #### References
 - [Database Naming Convention](conventions/database-naming.md)
-- [AGENTS.md](../../AGENTS.md)
+- [agents.md](../../agents.md)
 
 ---
 

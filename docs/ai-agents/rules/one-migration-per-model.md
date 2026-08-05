@@ -188,7 +188,7 @@ Tutto il resto è **RUMORE**.
 ## 🔗 Related Documentation
 
 ### AI Agents Docs
-- **[Rules Index](00-INDEX.md)** - All rules
+- **[Rules Index](00-index.md)** - All rules
 - **[DRY Principle](../guidelines/dry-kiss.md)** - DRY + KISS
 - **[Translation Structure](translation-structure-5-levels.md)** - 5 levels rule
 

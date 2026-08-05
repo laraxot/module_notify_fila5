@@ -9,9 +9,9 @@
 | File | Scopo |
 |---|---|
 | [agents-overview.md](./agents-overview.md) | Preferenze utente stabili e orientamento generale |
-| [architecture/00-INDEX.md](./architecture/00-INDEX.md) | Decisioni architetturali canoniche |
+| [architecture/00-index.md](./architecture/00-index.md) | Decisioni architetturali canoniche |
 | [architecture/filament-table-vs-blade-component.md](./architecture/filament-table-vs-blade-component.md) | Regola su Blade bridge-only e `XotBaseTableWidget` |
-| [../ralph/00-INDEX.md](../ralph/00-INDEX.md) | Albero canonico Ralph locale: template, prompt e governance del loop |
+| [../ralph/00-index.md](../ralph/00-index.md) | Albero canonico Ralph locale: template, prompt e governance del loop |
 | [../../../../docs/project/gsd-and-bmad-workflow.md](../../../../docs/project/gsd-and-bmad-workflow.md) | Workflow canonico BMAD + GSD + Ralph a livello progetto |
 | [frontend/semantic-css.md](./frontend/semantic-css.md) | Semantic CSS principles da MaintainableCSS |
 | [../../../../docs/project/migration-philosophy-rule.md](../../../../docs/project/migration-philosophy-rule.md) | Regola canonica migrazioni: 1 modello = 1 migrazione |
@@ -39,17 +39,17 @@
 
 ## Riferimenti bidirezionali
 
-- [Architecture index](./architecture/00-INDEX.md)
+- [Architecture index](./architecture/00-index.md)
 - [Agents overview](./agents-overview.md)
-- [AGENTS.md](../../../AGENTS.md)
+- [agents.md](../../../agents.md)
 - [CLAUDE.md](../../../CLAUDE.md)
 - [GEMINI.md](../../../GEMINI.md)
 - [QWEN.md](../../../QWEN.md)
 <<<<<<< HEAD
-- [Forecast docs index](../../../laravel/Modules/Forecast/docs/00-INDEX.md)
+- [Forecast docs index](../../../laravel/Modules/Forecast/docs/00-index.md)
 =======
-- [Predict docs index](../../../laravel/Modules/Predict/docs/00-INDEX.md)
+- [Predict docs index](../../../laravel/Modules/Predict/docs/00-index.md)
 >>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
-- [TwentyOne docs index](../../../laravel/Themes/TwentyOne/docs/00-INDEX.md)
-- [Frontend rules index](../rules/frontend/00-INDEX.md)
+- [TwentyOne docs index](../../../laravel/Themes/TwentyOne/docs/00-index.md)
+- [Frontend rules index](../rules/frontend/00-index.md)
 - [Semantic CSS Rule](../rules/frontend/semantic-css-rule.md)

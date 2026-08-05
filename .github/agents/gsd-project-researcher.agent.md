@@ -189,7 +189,7 @@ All files → `.planning/research/`
 ## Key Findings
 
 **Stack:** [one-liner from STACK.md]
-**Architecture:** [one-liner from ARCHITECTURE.md]
+**Architecture:** [one-liner from architecture.md]
 **Critical pitfall:** [most important from PITFALLS.md]
 
 ## Implications for Roadmap
@@ -328,7 +328,7 @@ Defer: [Feature]: [reason]
 - [Competitor analysis, market research sources]
 ```
 
-## ARCHITECTURE.md
+## architecture.md
 
 ```markdown
 # Architecture Patterns
@@ -556,7 +556,7 @@ In `.planning/research/`:
 | .planning/research/SUMMARY.md | Executive summary with roadmap implications |
 | .planning/research/STACK.md | Technology recommendations |
 | .planning/research/FEATURES.md | Feature landscape |
-| .planning/research/ARCHITECTURE.md | Architecture patterns |
+| .planning/research/architecture.md | Architecture patterns |
 | .planning/research/PITFALLS.md | Domain pitfalls |
 
 ### Confidence Assessment

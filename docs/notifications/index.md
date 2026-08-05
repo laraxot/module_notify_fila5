@@ -45,14 +45,14 @@ related:
 - [Guida Notifiche Telegram](./telegram_notifications_guide.md) - Implementazione delle notifiche Telegram
 
 ## Architettura e Pattern
-- [Factory Pattern per Provider](../factory_pattern_analysis.md) - Analisi del pattern Factory per i provider
-- [Provider vs DTO](../channel_vs_dto_provider_selection.md) - Selezione tra provider e DTO
+- [Factory Pattern per Provider](../factory-pattern-analysis.md) - Analisi del pattern Factory per i provider
+- [Provider vs DTO](../channel-vs-dto-provider-selection.md) - Selezione tra provider e DTO
 - [Architettura Provider](../provider_actions_architecture.md) - Architettura delle azioni provider
 
 ## Documentazione Correlata
 - [Implementazione SMS](../sms_implementation.md) - Panoramica dell'implementazione SMS
 - [Canale WhatsApp](../whatsapp_channel.md) - Documentazione del canale WhatsApp
-- [Canale Telegram](../telegram_channel.md) - Documentazione del canale Telegram
+- [Canale Telegram](../telegram-channel.md) - Documentazione del canale Telegram
 
 ## Note Importanti
 <<<<<<< HEAD

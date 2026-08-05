@@ -330,27 +330,27 @@ it('displays F1 predict detail page', function () {
 
 ### Module Docs
 <<<<<<< HEAD
-- **[Components Index](laravel/Modules/Forecast/resources/views/components/forecast-view/00-INDEX.md)** - All components
+- **[Components Index](laravel/Modules/Forecast/resources/views/components/forecast-view/00-index.md)** - All components
 - **[Reusable Architecture](laravel/Modules/Forecast/docs/components/reusable-architecture.md)** - Design principles
 - **[Multi-Outcome Fundamental](laravel/Modules/Forecast/docs/MULTI-OUTCOME-FUNDAMENTAL.md)** - Core principle
 
 ### Theme Docs
-- **[Theme Zero Components](laravel/Themes/Zero/docs/components/00-INDEX.md)** - Theme components
+- **[Theme Zero Components](laravel/Themes/Zero/docs/components/00-index.md)** - Theme components
 - **[TwentyOne Integration](laravel/Themes/TwentyOne/docs/forecast-integration.md)** - Theme integration
 =======
-- **[Components Index](laravel/Modules/Predict/resources/views/components/predict-view/00-INDEX.md)** - All components
+- **[Components Index](laravel/Modules/Predict/resources/views/components/predict-view/00-index.md)** - All components
 - **[Reusable Architecture](laravel/Modules/Predict/docs/components/reusable-architecture.md)** - Design principles
 - **[Multi-Outcome Fundamental](laravel/Modules/Predict/docs/MULTI-OUTCOME-FUNDAMENTAL.md)** - Core principle
 
 ### Theme Docs
-- **[Theme Zero Components](laravel/Themes/Zero/docs/components/00-INDEX.md)** - Theme components
+- **[Theme Zero Components](laravel/Themes/Zero/docs/components/00-index.md)** - Theme components
 - **[TwentyOne Integration](laravel/Themes/TwentyOne/docs/predict-integration.md)** - Theme integration
 >>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
 ### AI Agents Docs
-- **[Rules Index](.agents/docs/rules/00-INDEX.md)** - Filament Tables rule
-- **[Skills Index](.agents/docs/skills/00-INDEX.md)** - Component skills
-- **[Guidelines Index](.agents/docs/guidelines/00-INDEX.md)** - Best practices
+- **[Rules Index](.agents/docs/rules/00-index.md)** - Filament Tables rule
+- **[Skills Index](.agents/docs/skills/00-index.md)** - Component skills
+- **[Guidelines Index](.agents/docs/guidelines/00-index.md)** - Best practices
 
 ---
 

@@ -121,8 +121,8 @@ Notebook Name: "Notify Documentation"
 Notebook Name: "FixCity Documentation"
 >>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 Sources:
-  - AGENTS.md
-  - laravel/AGENTS.md
+  - agents.md
+  - laravel/agents.md
   - docs/**/*.md
   - .planning/**/*.md
   - laravel/Modules/docs/README.md
@@ -223,8 +223,8 @@ Result: Gemini connects info from multiple docs
 >>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 ```
 Sources:
-  - AGENTS.md
-  - laravel/AGENTS.md
+  - agents.md
+  - laravel/agents.md
   - .planning/PROJECT.md
   - .planning/config.json
 <<<<<<< HEAD
@@ -457,7 +457,7 @@ claude
 "Set up NotebookLM authentication"
 
 # 4. Crea notebook su notebooklm.google.com
-#    - Upload AGENTS.md, docs/**/*.md
+#    - Upload agents.md, docs/**/*.md
 #    - Share → Copy link
 
 # 5. Aggiungi a library
@@ -499,7 +499,7 @@ claude
 - [x] Skill installato (`~/.claude/skills/notebooklm/`)
 - [ ] Autenticazione completata
 - [ ] Notebook creato su notebooklm.google.com
-- [ ] Documenti uploadati (AGENTS.md, docs/, etc.)
+- [ ] Documenti uploadati (agents.md, docs/, etc.)
 - [ ] Notebook condiviso pubblicamente
 - [ ] Link aggiunto a Claude library
 - [ ] Prima query testata

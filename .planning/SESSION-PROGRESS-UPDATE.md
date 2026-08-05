@@ -25,7 +25,7 @@
 - VISUAL-DIFFERENCES-ANALYSIS.md (10 components analyzed)
 - BMAD-VISUAL-ALIGNMENT-DISCUSSION.md (strategic planning)
 - GSD-IMPLEMENTATION-PLAN.md (7 waves, 22 tasks)
-- INDEX.md (cross-referenced documentation)
+- index.md (cross-referenced documentation)
 - QUICK-REFERENCE.md (quick start guide)
 
 **Implementation Documents** (3 files):
@@ -98,7 +98,7 @@ laravel/Themes/Sixteen/docs/visual-analysis/
 ├── VISUAL-DIFFERENCES-ANALYSIS.md ........................ 12 KB
 ├── BMAD-VISUAL-ALIGNMENT-DISCUSSION.md .................. 6.0 KB
 ├── GSD-IMPLEMENTATION-PLAN.md ........................... 15 KB
-├── INDEX.md ............................................ 14 KB
+├── index.md ............................................ 14 KB
 └── QUICK-REFERENCE.md .................................. 5.8 KB
 ```
 

@@ -142,5 +142,5 @@ FixCity è più di un progetto software. È un esperimento sociale tecnologico c
 ## Riferimenti
 
 - [PROJECT.md](./PROJECT.md) - Visione e obiettivi
-- [AGENTS.md](./AGENTS.md) - Regole per agenti AI
+- [agents.md](./agents.md) - Regole per agenti AI
 - [docs/](../docs/) - Documentazione completa

@@ -199,7 +199,7 @@ actions.trade.market.label      → Etichetta azione trade
 ## 🔗 Related Documentation
 
 ### AI Agents Docs
-- **[Rules Index](00-INDEX.md)** - All rules
+- **[Rules Index](00-index.md)** - All rules
 - **[Translation Structure](translation-structure-5-levels.md)** - Original rule
 
 ### Module Docs

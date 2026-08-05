@@ -367,7 +367,7 @@ php artisan tinker
 - [Configurazione Email](../../../../docs/project/email-configuration.md)
 - [Documentazione Traduzioni](./translations.md)
 - [Proposta Slug Template](./email-template-slug-proposal.md)
-- [Notify Module Index](./INDEX.md)
+- [Notify Module Index](./index.md)
 - [Architecture Overview](./architecture.md)
 - [Notification Channels Implementation](./notification-channels-implementation.md)
 - [SMS Implementation](./sms-implementation.md)

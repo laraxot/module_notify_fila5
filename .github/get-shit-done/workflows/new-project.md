@@ -290,7 +290,7 @@ All Active requirements are hypotheses until shipped and validated.
 
 Infer Validated requirements from existing code:
 
-1. Read `.planning/codebase/ARCHITECTURE.md` and `STACK.md`
+1. Read `.planning/codebase/architecture.md` and `STACK.md`
 2. Identify what the codebase already does
 3. These become the initial Validated set
 
@@ -646,7 +646,7 @@ How are [domain] systems typically structured? What are major components?
 </files_to_read>
 
 <downstream_consumer>
-Your ARCHITECTURE.md informs phase structure in roadmap. Include:
+Your architecture.md informs phase structure in roadmap. Include:
 - Component boundaries (what talks to what)
 - Data flow (how information moves)
 - Suggested build order (dependencies between components)
@@ -659,8 +659,8 @@ Your ARCHITECTURE.md informs phase structure in roadmap. Include:
 </quality_gate>
 
 <output>
-Write to: .planning/research/ARCHITECTURE.md
-Use template: .github/get-shit-done/templates/research-project/ARCHITECTURE.md
+Write to: .planning/research/architecture.md
+Use template: .github/get-shit-done/templates/research-project/architecture.md
 </output>
 ", subagent_type="general-purpose", model="{researcher_model}", description="Architecture research")
 
@@ -716,7 +716,7 @@ Synthesize research outputs into SUMMARY.md.
 <files_to_read>
 - .planning/research/STACK.md
 - .planning/research/FEATURES.md
-- .planning/research/ARCHITECTURE.md
+- .planning/research/architecture.md
 - .planning/research/PITFALLS.md
 </files_to_read>
 

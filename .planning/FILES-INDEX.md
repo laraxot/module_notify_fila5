@@ -98,7 +98,7 @@ Location: `bashscripts/component-inspection/`
 ### For Quick Status Update
 ```
 1. READ: .planning/WAVE-2-EXECUTIVE-SUMMARY.txt (2 min read)
-2. THEN: laravel/Themes/Sixteen/docs/visual-analysis/INDEX.md (for details)
+2. THEN: laravel/Themes/Sixteen/docs/visual-analysis/index.md (for details)
 ```
 
 ### For Implementation Details
@@ -170,7 +170,7 @@ Location: `bashscripts/component-inspection/`
 - [x] Visual differences identified (10 components, prioritized)
 - [x] Strategic plan created (BMAD discussion framework)
 - [x] Implementation roadmap created (GSD 7-wave plan)
-- [x] Documentation hub created (INDEX.md with cross-references)
+- [x] Documentation hub created (index.md with cross-references)
 
 ### Implementation Phase
 - [x] Critical gradient bug discovered
@@ -247,7 +247,7 @@ Target at Completion:    95%+ ✅
 
 ### For Next Developer
 1. **Read This**: `.planning/WAVE-2-EXECUTIVE-SUMMARY.txt` (2 min)
-2. **Then Read**: `laravel/Themes/Sixteen/docs/visual-analysis/INDEX.md` (5 min)
+2. **Then Read**: `laravel/Themes/Sixteen/docs/visual-analysis/index.md` (5 min)
 3. **Start With**: Wave 2 Task 2 (header spacing adjustment)
 4. **Reference**: `laravel/Themes/Sixteen/docs/visual-analysis/GSD-IMPLEMENTATION-PLAN.md` (tasks 2-3 details)
 
@@ -277,7 +277,7 @@ git commit -m "feat: Achieve 95%+ visual parity with Design Comuni reference"
 
 **Most Important Files** (read these first):
 1. `.planning/WAVE-2-EXECUTIVE-SUMMARY.txt` - Quick overview
-2. `laravel/Themes/Sixteen/docs/visual-analysis/INDEX.md` - Central hub
+2. `laravel/Themes/Sixteen/docs/visual-analysis/index.md` - Central hub
 3. `laravel/Themes/Sixteen/docs/visual-analysis/GSD-IMPLEMENTATION-PLAN.md` - What to do next
 
 **Reference Files** (for deep dives):

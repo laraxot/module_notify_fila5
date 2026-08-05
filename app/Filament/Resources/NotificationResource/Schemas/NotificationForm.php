@@ -15,7 +15,7 @@ class NotificationForm extends XotBaseResourceForm
     /**
      * @return array<int|string, SchemaComponent>
      */
-    public static function getFormSchemaOld(): array
+    public static function getFormSchema(): array
     {
         return [
             'type' => TextInput::make('type')->required()->label('Notification Type'),

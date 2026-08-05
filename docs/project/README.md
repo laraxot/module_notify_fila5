@@ -48,7 +48,7 @@ This directory contains project-wide configuration and setup documentation for t
 
 | File | Description | Category |
 |------|-------------|----------|
-| [`AGENTS.md`](AGENTS.md) | AI agents configuration | AI |
+| [`AGENTS.md`](agents.md) | AI agents configuration | AI |
 | [`AI_AGENT_LESSONS_LEARNED.md`](AI_AGENT_LESSONS_LEARNED.md) | AI agent learnings | AI |
 | [`AI_SKILLS_AND_PLUGINS_COMPLETE.md`](AI_SKILLS_AND_PLUGINS_COMPLETE.md) | AI skills setup | AI |
 | [`COMMIT_MESSAGE.md`](COMMIT_MESSAGE.md) | Commit message guidelines | Git |
@@ -170,7 +170,7 @@ echo "127.0.0.1 fixcity.local" | sudo tee -a /etc/hosts
 - [`vhost-configuration.md`](vhost-configuration.md) - Apache vhost setup
 
 **AI & Agents:**
-- [`AGENTS.md`](AGENTS.md)
+- [`AGENTS.md`](agents.md)
 - [`AI_AGENT_LESSONS_LEARNED.md`](AI_AGENT_LESSONS_LEARNED.md)
 - [`AI_SKILLS_AND_PLUGINS_COMPLETE.md`](AI_SKILLS_AND_PLUGINS_COMPLETE.md)
 - [`NOTEBOOKLM_SETUP_COMPLETE.md`](NOTEBOOKLM_SETUP_COMPLETE.md)

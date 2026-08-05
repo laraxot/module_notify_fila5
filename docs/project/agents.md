@@ -12,11 +12,11 @@ related:
 ---
 
 <<<<<<< HEAD
-# Notify Platform - AGENTS.md
+# Notify Platform - agents.md
 
 This file contains comprehensive guidelines and commands for AI agents working on the Notify Laravel application.
 =======
-# FixCity Platform - AGENTS.md
+# FixCity Platform - agents.md
 
 This file contains comprehensive guidelines and commands for AI agents working on the FixCity Laravel application.
 >>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
@@ -1498,7 +1498,7 @@ When creating or modifying features:
 1. **Update module README**: Describe the feature and usage
 2. **Create/update roadmap**: Track progress and future work
 3. **Document error fixes**: Record how PHPStan errors were resolved
-4. **Update AGENTS.md**: Add new patterns and best practices
+4. **Update agents.md**: Add new patterns and best practices
 5. **Create examples**: Show correct usage patterns
 
 ---

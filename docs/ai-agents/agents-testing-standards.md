@@ -80,5 +80,5 @@ Prima di ogni commit:
 - [Indice AGENTS](./agents-split-index.md)
 - [testing.md](./testing.md) - Più dettagliato
 - [pest-testing.md](./pest-testing.md) - Guida Pest
-- [AGENTS.md originale](../../AGENTS.md)
+- [agents.md originale](../../agents.md)
 - [Index principale](./index.md)

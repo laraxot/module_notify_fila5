@@ -45,4 +45,4 @@ return view((string) $view);
 ## Collegamenti
 
 - [phpstan_critical_rules](../.cursor/rules/phpstan_critical_rules.md)
-- [AGENTS.md](../AGENTS.md)
+- [agents.md](../agents.md)

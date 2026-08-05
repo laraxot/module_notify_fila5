@@ -27,8 +27,8 @@
 
 ## 🔗 Link
 
-**Precedente:** [INDEX](INDEX.md) | **Successivo:** [Module Architecture](module-architecture.md)
+**Precedente:** [INDEX](index.md) | **Successivo:** [Module Architecture](module-architecture.md)
 
 **Di ritorno:**
 - [CLAUDE.md](../../CLAUDE.md)
-- [AGENTS.md](../../AGENTS.md)
+- [agents.md](../../agents.md)

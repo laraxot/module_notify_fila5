@@ -114,14 +114,14 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Sistema Email Database](./database-mail-system.md) - Sistema di gestione delle email basato su database
 - [Code Email](./database_mail_queue.md) - Sistema di code per l'invio di email
 - [Template Email](./email_templates.md) - Struttura e utilizzo dei template email
-- [Best Practices Email](./email_best_practices.md) - Linee guida per le email
+- [Best Practices Email](./email-best-practices.md) - Linee guida per le email
 - [Template Responsivi](./responsive_email_templates.md) - Implementazione di template email responsivi
 
 ### Canali di Notifica
 - [Implementazione Canali](./notification_channels_implementation.md) - Implementazione dei canali di notifica
 - [SMS](./sms_implementation.md) - Implementazione del canale SMS
 - [WhatsApp](./whatsapp_channel.md) - Implementazione del canale WhatsApp
-- [Telegram](./telegram_channel.md) - Implementazione del canale Telegram
+- [Telegram](./telegram-channel.md) - Implementazione del canale Telegram
 
 ### Filament UI
 - [Risorse Filament](./filament-resources.md) - Componenti Filament Resources
@@ -131,10 +131,10 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ### Configurazione
 - [Struttura Config](./config_structure.md) - Struttura dei file di configurazione
 - [Configurazione SMS](./sms_config_structure.md) - Struttura della configurazione SMS
-- [Principi di Configurazione](./configurations_usage_principles.md) - Principi per l'utilizzo delle configurazioni
+- [Principi di Configurazione](./configurations-usage-principles.md) - Principi per l'utilizzo delle configurazioni
 
 ### Pattern e Architettura
-- [Pattern Factory](./factory_pattern_analysis.md) - Analisi del pattern Factory
+- [Pattern Factory](./factory-pattern-analysis.md) - Analisi del pattern Factory
 - [Risoluzione Dinamica delle Classi](./dynamic_class_resolution.md) - Pattern di risoluzione dinamica delle classi
 - [Queueable Actions](./queueable-action.md) - Utilizzo di Spatie Queueable Actions
 

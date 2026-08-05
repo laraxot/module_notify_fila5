@@ -385,7 +385,7 @@ docs/
 
 laravel/
 ├── claude.md                       ← Framework rules (38.7 KB)
-├── AGENTS.md
+├── agents.md
 └── .windsurfrules                 ← Windsurf rules
 ```
 

@@ -324,14 +324,14 @@ touch laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
 laravel/Themes/Sixteen/docs/design-comuni/
 ├── README.md                    # Overview
 ├── components/
-│   ├── 00-INDEX.md             # Component index
+│   ├── 00-index.md             # Component index
 │   ├── header.md               # Header components
 │   ├── footer.md               # Footer components
 │   ├── cards.md                # Card components
 │   ├── forms.md                # Form components
 │   └── blocks.md               # Block components
 ├── pages/
-│   ├── 00-INDEX.md             # Page index
+│   ├── 00-index.md             # Page index
 │   └── [page-name].md          # Individual page docs
 └── layouts/
     └── main.md                 # Layout documentation

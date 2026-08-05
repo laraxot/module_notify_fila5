@@ -42,7 +42,7 @@ related:
 
 1. [**README.md**](../README.md) - Project overview and quick start
 2. [**CONTRIBUTING.md**](../CONTRIBUTING.md) - How to contribute
-3. [**ARCHITECTURE.md**](./ARCHITECTURE.md) - System architecture
+3. [**ARCHITECTURE.md**](./architecture.md) - System architecture
 4. [**QUALITY_DASHBOARD.md**](./QUALITY_DASHBOARD.md) - Real-time metrics
 
 ### 📊 Reports & Analysis
@@ -79,7 +79,7 @@ related:
 - Commit guidelines
 - PR process
 
-### 3. ARCHITECTURE.md
+### 3. architecture.md
 **Purpose:** System architecture documentation  
 **Audience:** Developers, architects  
 **Content:**
@@ -241,7 +241,7 @@ Each module has a `docs/` directory containing:
 ### For Developers
 - README.md
 - CONTRIBUTING.md
-- ARCHITECTURE.md
+- architecture.md
 - Module documentation
 - Refactoring reports
 
@@ -289,7 +289,7 @@ Each module has a `docs/` directory containing:
 ### By Topic
 
 **Architecture & Design:**
-- ARCHITECTURE.md
+- architecture.md
 - Design patterns section
 - Module structure
 
@@ -422,14 +422,14 @@ All documents include:
 ## 📅 Recent Updates
 
 ### 2025-10-01
-- ✅ Created INDEX.md
+- ✅ Created index.md
 - ✅ Completed MISSION_ACCOMPLISHED.md
 - ✅ Finalized PROJECT_COMPLETION_CERTIFICATE.md
 - ✅ Updated all module reports
 - ✅ Enhanced README.md
 
 ### 2025-09-30
-- ✅ Created ARCHITECTURE.md
+- ✅ Created architecture.md
 - ✅ Created QUALITY_DASHBOARD.md
 - ✅ Created 2025_EXCELLENCE_ACHIEVEMENT.md
 

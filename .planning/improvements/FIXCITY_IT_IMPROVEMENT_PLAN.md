@@ -228,7 +228,7 @@ PWA: 45/100 (target: 80+)
 - [ ] Fix all PHP syntax errors in test files
 - [ ] Ensure all tests parse correctly
 - [ ] Run full test suite: `php artisan test`
-- [ ] Document test running in AGENTS.md
+- [ ] Document test running in agents.md
 
 **Success Metric**: All tests parse, 0 syntax errors
 

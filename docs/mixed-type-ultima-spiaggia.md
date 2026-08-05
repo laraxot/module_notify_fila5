@@ -15,4 +15,4 @@
 - [array-keys-mixed-property-exists.mdc](../.cursor/rules/array-keys-mixed-property-exists.mdc)
 - [filament-array-typing.mdc](../.cursor/rules/filament-array-typing.mdc)
 - [critical-rules-and-memories](../laravel/Modules/Xot/docs/critical-rules-and-memories.md)
-- [AGENTS.md](../AGENTS.md)
+- [agents.md](../agents.md)

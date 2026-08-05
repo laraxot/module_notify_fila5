@@ -3,7 +3,7 @@
 > Stato: adottato
 > Aggiornato: 2026-04-15
 > Fonte originale: [gist Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
-> Schema globale: [../../docs/.schema/WIKI_SCHEMA.md](../../docs/.schema/WIKI_SCHEMA.md)
+> Schema globale: [../../docs/.schema/wiki-schema.md](../../docs/.schema/wiki-schema.md)
 
 <<<<<<< HEAD
 ## Mapping Notify
@@ -17,7 +17,7 @@ Il pattern originale di Karpathy usa tre cartelle distinte alla root del progett
 project/
 ├── raw/     # fonti immutabili
 ├── wiki/    # conoscenza compilata dall'LLM
-└── schema/  # CLAUDE.md / AGENTS.md
+└── schema/  # CLAUDE.md / agents.md
 ```
 
 Nel nostro caso, ogni modulo e tema ha già una cartella `docs/`. Il mapping naturale è:
@@ -38,7 +38,7 @@ laravel/Modules/<Name>/docs/       ← l'intera docs/ = layer "raw"
 └── *.md                           # raw: tutta la documentazione esistente
 ```
 
-Lo **schema globale** è centralizzato: `docs/.schema/WIKI_SCHEMA.md`.
+Lo **schema globale** è centralizzato: `docs/.schema/wiki-schema.md`.
 Non serve uno schema locale per ogni modulo.
 
 ## Regola fondamentale
@@ -47,7 +47,7 @@ Non serve uno schema locale per ogni modulo.
 |-------|----------|-----------|-----------|
 | Raw | `docs/` (root + sottocartelle eccetto `wiki/`) | Umano + agente | Agente |
 | Wiki | `docs/wiki/` | Agente (LLM) | Umano + agente |
-| Schema | `docs/.schema/WIKI_SCHEMA.md` | Umano | Agente |
+| Schema | `docs/.schema/wiki-schema.md` | Umano | Agente |
 
 **I file in `docs/` (layer raw) non vengono riscritti per "migliorarli".**
 Se serve una sintesi, va in `docs/wiki/`, non nella fonte.
@@ -106,7 +106,7 @@ docs/
 │   └── log.md      # log append-only (obbligatorio)
 ├── raw/
 │   └── index.md    # lista fonti raw esplicite
-└── README.md       # o INDEX.md — entrypoint umano
+└── README.md       # o index.md — entrypoint umano
 ```
 
 ## Priorità wiki per modulo

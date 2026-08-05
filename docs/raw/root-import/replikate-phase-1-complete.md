@@ -133,7 +133,7 @@ laravel/Themes/Sixteen/
 │   ├── prompts/
 │   │   └── replikate.txt              ← PROTOCOL
 │   └── design-comuni/
-│       ├── 00-INDEX.md                ← HUB
+│       ├── 00-index.md                ← HUB
 │       ├── pages/
 │       │   └── homepage-structure-diff.md
 │       └── screenshots/
@@ -249,7 +249,7 @@ Next AI agent can immediately:
 
 - **Protocol**: `laravel/Themes/Sixteen/docs/prompts/replikate.txt`
 - **Analysis**: `laravel/Themes/Sixteen/docs/design-comuni/pages/homepage-structure-diff.md`
-- **Navigation**: `laravel/Themes/Sixteen/docs/design-comuni/00-INDEX.md`
+- **Navigation**: `laravel/Themes/Sixteen/docs/design-comuni/00-index.md`
 - **Automation**: `bashscripts/design-analysis/replikate-workflow.sh`
 
 ---

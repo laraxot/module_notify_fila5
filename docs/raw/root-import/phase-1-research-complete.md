@@ -34,7 +34,7 @@
    - Timeline (15-60 min per subtask)
    - Success criteria
 
-3. **bashscripts/docs/html/INDEX.md** (8.531 caratteri)
+3. **bashscripts/docs/html/index.md** (8.531 caratteri)
    - Documentazione strumenti HTML
    - Parity scoring (90%+ PASS, <90% WORK)
    - Troubleshooting guide
@@ -45,7 +45,7 @@
    - Rimuove scripts, styles, noscript
    - Preserva hierarchy, classes, attributes
 
-5. **laravel/Themes/Sixteen/docs/00-INDEX.md** (12.926 caratteri)
+5. **laravel/Themes/Sixteen/docs/00-index.md** (12.926 caratteri)
    - Master index documentazione
    - Navigazione per topic
    - Fase progression timeline
@@ -252,10 +252,10 @@ return [
 
 **Leggi in questo ordine**:
 
-1. **[00-INDEX.md](laravel/Themes/Sixteen/docs/00-INDEX.md)** - Master index (sei qui, ma online)
+1. **[00-index.md](laravel/Themes/Sixteen/docs/00-index.md)** - Master index (sei qui, ma online)
 2. **[PHASE-1-STRATEGY.md](laravel/Themes/Sixteen/docs/PHASE-1-STRATEGY.md)** - Strategia completa (22k chars)
 3. **[GSD-PHASE-1-EXECUTION.md](laravel/Themes/Sixteen/docs/GSD-PHASE-1-EXECUTION.md)** - Piano esecuzione (19k chars)
-4. **[bashscripts/docs/html/INDEX.md](bashscripts/docs/html/INDEX.md)** - Documentazione strumenti
+4. **[bashscripts/docs/html/index.md](bashscripts/docs/html/index.md)** - Documentazione strumenti
 
 ---
 

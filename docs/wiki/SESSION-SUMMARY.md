@@ -21,7 +21,7 @@ Created complete wiki structure in `./docs/wiki/`:
 ```
 docs/wiki/
 ├── README.md                 # Complete integration guide
-├── AGENTS.md                 # Schema file for LLM agents (16KB)
+├── agents.md                 # Schema file for LLM agents (16KB)
 ├── QUICK-REFERENCE.md        # Quick daily reference
 ├── overview.md               # High-level synthesis
 ├── index.md                  # Content catalog
@@ -49,7 +49,7 @@ docs/wiki/
     └── _archive/
 ```
 
-### 3. ✅ Agent Instructions (AGENTS.md)
+### 3. ✅ Agent Instructions (agents.md)
 
 Created comprehensive 16KB schema file with:
 
@@ -111,7 +111,7 @@ Created `bashscripts/ai/init-llm-wiki.sh`:
 - Example: `bashscripts/ai/init-llm-wiki.sh module Fixcity`
 >>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - Creates complete directory structure with templates
-- Generates module-specific AGENTS.md
+- Generates module-specific agents.md
 
 ### 8. ✅ Documentation Updates
 
@@ -139,7 +139,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 |-------|----------|---------|----------|
 | **raw/** | `docs/raw/` | Immutable sources | ❌ NEVER |
 | **wiki/** | `docs/wiki/` | LLM-generated knowledge | ✅ YES |
-| **schema** | `docs/wiki/AGENTS.md` | Agent instructions | ✅ YES |
+| **schema** | `docs/wiki/agents.md` | Agent instructions | ✅ YES |
 
 ### Module Wiki
 
@@ -147,7 +147,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 |-------|----------|---------|
 | **raw/** | `Modules/{Name}/docs/llm-wiki/raw/` | Module sources | ❌ NEVER |
 | **wiki/** | `Modules/{Name}/docs/llm-wiki/` | Module knowledge | ✅ YES |
-| **schema** | `Modules/{Name}/docs/llm-wiki/AGENTS.md` | Module agent rules | ✅ YES |
+| **schema** | `Modules/{Name}/docs/llm-wiki/agents.md` | Module agent rules | ✅ YES |
 
 ## Workflows
 
@@ -245,7 +245,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 ### Project Root (docs/)
 
 - ✅ `docs/wiki/README.md` - Integration guide
-- ✅ `docs/wiki/AGENTS.md` - Agent instructions (16KB)
+- ✅ `docs/wiki/agents.md` - Agent instructions (16KB)
 - ✅ `docs/wiki/QUICK-REFERENCE.md` - Quick reference
 - ✅ `docs/wiki/overview.md` - High-level synthesis
 - ✅ `docs/wiki/index.md` - Content catalog
@@ -286,7 +286,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 - [Karpathy's Original Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - [Complete Integration Guide](docs/wiki/README.md)
-- [Agent Instructions](docs/wiki/AGENTS.md)
+- [Agent Instructions](docs/wiki/agents.md)
 - [Quick Reference](docs/wiki/QUICK-REFERENCE.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)
 - [Obsidian Setup](docs/.obsidian/README.md)

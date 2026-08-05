@@ -35,7 +35,7 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 ---
 **See also:**
 - [claude.md](./claude.md)
-- [AGENTS.md](./AGENTS.md)
+- [agents.md](./agents.md)
 - [qwen.md](./qwen.md)
 
 *Ultimo aggiornamento: Aprile 2026*

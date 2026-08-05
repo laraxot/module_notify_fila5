@@ -25,6 +25,6 @@ Panoramica delle preferenze utente e del canone operativo del repository.
 
 ## Riferimenti
 
-- [Main docs index](./00-INDEX.md)
-- [Architecture index](./architecture/00-INDEX.md)
+- [Main docs index](./00-index.md)
+- [Architecture index](./architecture/00-index.md)
 - [Filament table vs blade component](./architecture/filament-table-vs-blade-component.md)

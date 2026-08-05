@@ -184,7 +184,7 @@ However, since bashscripts docs are gitignored, they need to be committed to bas
 | Issue Template | ✅ Committed | `.github/ISSUE_TEMPLATE/sync-remote-repo.md` |
 | Discussion Template | ✅ Committed | `.github/DISCUSSION_TEMPLATE/sync-script-coordination.md` |
 | Summary Doc | ✅ Committed | `docs/github/SYNC_REMOTE_REPO_DOCS_summary.md` |
-| AGENTS.md Update | ✅ Committed | Multi-agent coordination section |
+| agents.md Update | ✅ Committed | Multi-agent coordination section |
 
 ### Sync Status
 

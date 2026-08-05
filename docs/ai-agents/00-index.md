@@ -61,7 +61,7 @@ related:
 
 - [Architecture index](./architecture/00-index-1.md)
 - [Agents overview](./agents-overview.md)
-- [AGENTS.md](../../../AGENTS.md)
+- [agents.md](../../../agents.md)
 - [claude.md](../../../claude.md)
 - [gemini.md](../../../gemini.md)
 - [qwen.md](../../../qwen.md)

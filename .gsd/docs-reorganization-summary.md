@@ -40,9 +40,9 @@ http://fixcity.local → fixcity.local → ["fixcity", "local"] → "local/fixci
 3. `_bmad/bmm/2-plan/docs-reorganization-prd.json` - BMAD PRD
 4. `_bmad/bmm/3-solutioning/docs-reorganization-architecture.md` - Architecture
 5. `bashscripts/docs/find-doc-duplicates.sh` - Duplicate finder script
-6. `laravel/Modules/Blog/docs/00-INDEX.md` - Module index
-7. `laravel/Modules/Fixcity/docs/00-INDEX.md` - Module index
-8. `laravel/Themes/Sixteen/docs/00-INDEX.md` - Theme index (updated)
+6. `laravel/Modules/Blog/docs/00-index.md` - Module index
+7. `laravel/Modules/Fixcity/docs/00-index.md` - Module index
+8. `laravel/Themes/Sixteen/docs/00-index.md` - Theme index (updated)
 
 **Updated**:
 - `.windsurfrules` - Added project configuration
@@ -77,12 +77,12 @@ http://fixcity.local → fixcity.local → ["fixcity", "local"] → "local/fixci
 - Cross-reference instructions
 - Maintenance procedures
 
-**Module Index**: `laravel/Modules/*/docs/00-INDEX.md`
+**Module Index**: `laravel/Modules/*/docs/00-index.md`
 - Standardized index for all modules
 - Links to project docs
 - Module-specific sections
 
-**Theme Index**: `laravel/Themes/Sixteen/docs/00-INDEX.md`
+**Theme Index**: `laravel/Themes/Sixteen/docs/00-index.md`
 - Updated to reflect active theme status
 - Links to project docs
 - Theme-specific guides

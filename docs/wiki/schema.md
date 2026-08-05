@@ -4,7 +4,7 @@
 # LLM Wiki Schema — FixCity
 >>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 
-Questo file è il "AGENTS.md" della wiki: istruzioni per l'LLM su come mantenere la wiki.
+Questo file è il "agents.md" della wiki: istruzioni per l'LLM su come mantenere la wiki.
 
 ---
 

@@ -241,8 +241,8 @@ Docs       [██████████] 100% (3/3)
 
 ### To Create
 
-1. **Component Index** (`components/00-INDEX.md`)
-2. **Page Index** (`pages/00-INDEX.md`)
+1. **Component Index** (`components/00-index.md`)
+2. **Page Index** (`pages/00-index.md`)
 3. **Usage Examples** (per component)
 
 ---
