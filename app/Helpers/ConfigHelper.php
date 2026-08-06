@@ -6,6 +6,7 @@ namespace Modules\Notify\Helpers;
 
 use Illuminate\Support\Facades\Config;
 use Modules\Xot\Actions\Cast\SafeArrayCastAction;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 /**
  * Helper per la gestione delle configurazioni del modulo Notify.
@@ -17,7 +18,6 @@ class ConfigHelper
      * Sostituisce le variabili template nei dati di configurazione.
      *
      * @param  array<string, mixed>  $data
-     *
      * @return array<string, mixed>
      */
     public static function replaceTemplateVariables(array $data): array
@@ -133,7 +133,6 @@ class ConfigHelper
      *
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $variables
-     *
      * @return array<string, mixed>
      */
     private static function recursiveReplace(array $data, array $variables): array
@@ -163,7 +162,7 @@ class ConfigHelper
     {
         foreach ($variables as $variable => $value) {
             $placeholder = '{{'.$variable.'}}';
-            $string = str_replace($placeholder, (string) $value, $string);
+            $string = str_replace($placeholder, SafeStringCastAction::cast($value), $string);
         }
 
         return $string;

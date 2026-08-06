@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Traits;
 
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+
 use function Safe\preg_replace_callback;
 
 /** @phpstan-ignore trait.unused */
@@ -22,7 +25,7 @@ trait HasNotificationTracking
             return $html;
         }
 
-        $route = route((string) config('notify.tracking.pixel.route'), ['id' => $trackingId]);
+        $route = route(Config::string('notify.tracking.pixel.route'), ['id' => $trackingId]);
         $pixel = '<img src="'.$route.'" alt="" width="1" height="1" style="display:none">';
 
         return $html.$pixel;
@@ -42,23 +45,27 @@ trait HasNotificationTracking
 
         $result = preg_replace_callback(
             '/<a\s+(?:[^>]*?\s+)?href=(["\'])(.*?)\1/i',
+            // Il `@param` su una closure passata come argomento non viene applicato
+            // da PHPStan: i gruppi restano `mixed`. Si normalizza con la Cast Action
+            // di progetto, che è la conversione canonica e non un cast di comodo.
             function (array $matches) use ($trackingId): string {
-                $url = (string) $matches[2];
+                $original = SafeStringCastAction::cast($matches[0] ?? '');
+                $url = SafeStringCastAction::cast($matches[2] ?? '');
 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
                     Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
                         ! Str::startsWith($url, ['http://', 'https://'])
                 ) {
-                    return (string) $matches[0];
+                    return $original;
                 }
 
-                $trackingUrl = route((string) config('notify.tracking.links.route'), [
+                $trackingUrl = route(Config::string('notify.tracking.links.route'), [
                     'id' => $trackingId,
                     'url' => $url,
                 ]);
 
-                return str_replace($url, $trackingUrl, (string) $matches[0]);
+                return str_replace($url, $trackingUrl, $original);
             },
             $html,
         );

@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Datas\SendNotificationBulkResultData;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -39,7 +40,6 @@ class SendRecordsNotificationAction
      *
      * @param  Collection<int, Model>  $records  Selected records (e.g., Clients).
      * @param  array<int, string>  $channels  I canali selezionati: 'mail', 'sms', 'whatsapp'
-     *
      * @return SendNotificationBulkResultData Risultato con successCount, errorCount, errors, totalProcessed
      */
     public function execute(
@@ -107,6 +107,6 @@ class SendRecordsNotificationAction
             }
         }
 
-        return (string) $record->getKey();
+        return SafeStringCastAction::cast($record->getKey());
     }
 }

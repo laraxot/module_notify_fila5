@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 /**
  * Notifica generica configurabile per il sistema il progetto.
@@ -59,7 +60,6 @@ class GenericNotification extends Notification implements ShouldQueue
      * Ottiene i canali di consegna della notifica.
      *
      * @param  mixed  $_notifiable  L'entità da notificare (oggetto che riceverà la notifica)
-     *
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
@@ -72,14 +72,14 @@ class GenericNotification extends Notification implements ShouldQueue
      */
     public function toMail(mixed $notifiable): MailMessage
     {
-        $mail = (new MailMessage())
+        $mail = (new MailMessage)
             ->subject($this->title)
             ->greeting('Gentile '.$this->getRecipientName($notifiable))
             ->line($this->message);
 
         // Aggiungi eventuali azioni se specificate nei dati
         if (isset($this->data['action_text'], $this->data['action_url'])) {
-            $mail->action((string) $this->data['action_text'], (string) $this->data['action_url']);
+            $mail->action(SafeStringCastAction::cast($this->data['action_text']), SafeStringCastAction::cast($this->data['action_url']));
         }
 
         // Aggiungi eventuali linee aggiuntive
@@ -110,7 +110,7 @@ class GenericNotification extends Notification implements ShouldQueue
         $to = '';
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForTwilio')) {
             $routeResult = $notifiable->routeNotificationForTwilio($this);
-            $to = (string) ($routeResult ?? '');
+            $to = SafeStringCastAction::cast($routeResult ?? '');
         }
 
         return [

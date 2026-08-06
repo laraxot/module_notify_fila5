@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\SmsNotification;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Override;
 
@@ -113,9 +114,9 @@ class SendNetfunSmsPage extends XotBasePage
         $data = $this->smsForm->getState();
 
         $smsData = SmsData::from([
-            'recipient' => (string) ($data['recipient'] ?? ''),
-            'body' => (string) ($data['body'] ?? ''),
-            'from' => (string) ($data['from'] ?? ''),
+            'recipient' => SafeStringCastAction::cast($data['recipient'] ?? ''),
+            'body' => SafeStringCastAction::cast($data['body'] ?? ''),
+            'from' => SafeStringCastAction::cast($data['from'] ?? ''),
         ]);
         $provider = $data['provider'] ?? 'netfun';
 

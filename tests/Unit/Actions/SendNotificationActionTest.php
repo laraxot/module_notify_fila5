@@ -15,6 +15,7 @@ use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Notifications\GenericNotification;
 use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
@@ -40,12 +41,12 @@ function makeDummySendNotificationRecipient(array $attributes = []): Model
 
         public function routeNotificationForMail(): string
         {
-            return (string) $this->getAttribute('email');
+            return SafeStringCastAction::cast($this->getAttribute('email'));
         }
 
         public function routeNotificationForSms(): string
         {
-            return (string) $this->getAttribute('phone');
+            return SafeStringCastAction::cast($this->getAttribute('phone'));
         }
     };
 }

@@ -7,6 +7,7 @@ namespace Modules\Notify\Console\Commands;
 use Illuminate\Console\Command;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Models\NotificationLog;
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
 
 class CleanupNotificationLogsCommand extends Command
 {
@@ -35,8 +36,8 @@ class CleanupNotificationLogsCommand extends Command
             return Command::FAILURE;
         }
 
-        $days = (int) ($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
-        $batchSize = (int) ($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
+        $days = SafeIntCastAction::cast($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
+        $batchSize = SafeIntCastAction::cast($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
         $keepFailed = config('notify.cleanup.keep_failed', true);
 
         $this->info("Inizio pulizia dei log delle notifiche più vecchi di {$days} giorni...");
