@@ -1,19 +1,21 @@
 ---
 title: "Notify Module Architecture"
 type: architecture
-tags: [module, architecture, notify]
-created: 2026-08-04
-updated: 2026-08-04
+tags: [module, architecture, notifications]
+created: 2026-07-28
+updated: 2026-07-28
 ---
+
 # Notify Module — Architecture
 
 ## Purpose
-Notify module for Laraxot platform.
+Manages notifications and messaging via Laravel Notifications and Mailable. Supports email, Slack, SMS, in-app notifications.
 
 ## Core Components
-- Models, Actions, Resources
-- Standard Laraxot module structure
+- `Notification` classes for each notification type
+- `Mailable` classes for email templates
+- Filament notification UI
+- Queue integration
 
-## Quality Gates
-- PHPStan L10 compliance
-- Test coverage requirements
+## Database
+- `notifications` table: id, notifiable_id, notifiable_type, type, data, read_at, created_at
