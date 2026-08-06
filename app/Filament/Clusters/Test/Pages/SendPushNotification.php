@@ -20,6 +20,7 @@ use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\MessageData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
@@ -72,7 +73,7 @@ class SendPushNotification extends XotBasePage
             if (! is_object($profile)) {
                 return [];
             }
-            $fullName = (string) (data_get($profile, 'full_name') ?? 'Utente');
+            $fullName = SafeStringCastAction::cast(data_get($profile, 'full_name') ?? 'Utente');
 
             $tokenAttr = method_exists($item, 'getAttribute') ? $item->getAttribute('push_notifications_token') : null;
             $token = is_string($tokenAttr) ? $tokenAttr : '';
@@ -213,7 +214,7 @@ class SendPushNotification extends XotBasePage
         ];
     }
 
-    /** @return array<string, \Filament\Actions\Action> */
+    /** @return array<string, Action> */
     protected function getNotificationFormActions(): array
     {
         return [

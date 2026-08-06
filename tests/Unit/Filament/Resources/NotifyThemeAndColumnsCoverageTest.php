@@ -82,9 +82,9 @@ test('list notify themes columns and filters are configured', function (): void 
 
 test('linkable relation manager exposes text input form schema', function (): void {
     $manager = new LinkableRelationManager;
-    $schema = $manager->getFormSchema();
+    $schema = $manager->getFormSchemaOld();
     Assert::assertNotEmpty($schema);
-    Assert::assertInstanceOf(TextInput::class, $schema[0]);
+    Assert::assertInstanceOf(TextInput::class, $schema['id']);
 });
 
 test('contact column is a view column with expected name', function (): void {

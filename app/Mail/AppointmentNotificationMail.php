@@ -11,6 +11,7 @@ use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 // use Modules\SaluteOra\Models\Appointment;
 
@@ -53,7 +54,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 
         $appointmentId = is_object($appointment) && isset($appointment->id) ? $appointment->id : null;
         if ($appointmentId !== null && $appointmentId !== '') {
-            $subject .= ' #'.(string) $appointmentId;
+            $subject .= ' #'.SafeStringCastAction::cast($appointmentId);
         }
 
         return new Envelope(

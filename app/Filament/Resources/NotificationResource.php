@@ -9,14 +9,17 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Override;
 
 class NotificationResource extends XotBaseResource
 {
     protected static ?string $model = Notification::class;
 
-    #[Override]
-    public static function getFormSchema(): array
+    /**
+     * Schema legacy del form: la sorgente di verità è NotificationForm::getFormSchema().
+     *
+     * @return array<string, \Filament\Schemas\Components\Component>
+     */
+    public static function getFormSchemaOld(): array
     {
         return [
             'type' => TextInput::make('type')->required()->label('Notification Type'),

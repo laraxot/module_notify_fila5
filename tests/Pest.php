@@ -20,20 +20,23 @@ use function Safe\file_get_contents;
  * Bootstrap Pest — modulo Notify.
  * Ogni file test dichiara uses(\Modules\Notify\Tests\TestCase::class).
  * Vietato pest()->extend() e expect()->extend() qui (PHPStan method.internalClass).
+ *
+ * Gli helper generici (tabelle, reflection, throws, narrowing) vivono in
+ * XotBasePest e qui restano solo delegazioni con il nome storico, per non
+ * toccare le centinaia di call site esistenti. Sotto, solo ciò che è davvero
+ * specifico di Notify: factory e helper di dominio.
  */
+
+require_once __DIR__.'/../../Xot/tests/XotBasePest.php';
+
+require_once __DIR__.'/../../Xot/tests/XotBasePest.php';
 
 /**
  * @param  array<string, mixed>  $where
  */
 function assertNotifyTableHas(string $table, array $where): void
 {
-    $query = DB::connection('notify')->table($table);
-
-    foreach ($where as $column => $value) {
-        $query->where((string) $column, $value);
-    }
-
-    Assert::assertTrue($query->exists());
+    xotAssertTableHas('notify', $table, $where);
 }
 
 /**
@@ -41,13 +44,7 @@ function assertNotifyTableHas(string $table, array $where): void
  */
 function assertNotifyTableMissing(string $table, array $where): void
 {
-    $query = DB::connection('notify')->table($table);
-
-    foreach ($where as $column => $value) {
-        $query->where((string) $column, $value);
-    }
-
-    Assert::assertFalse($query->exists());
+    xotAssertTableMissing('notify', $table, $where);
 }
 
 /**
@@ -59,10 +56,7 @@ function assertNotifyTableMissing(string $table, array $where): void
  */
 function assertFreshModel(Model $model, string $class)
 {
-    $fresh = $model->fresh();
-    Assert::assertInstanceOf($class, $fresh);
-
-    return $fresh;
+    return xotAssertFreshModel($model, $class);
 }
 
 /**
@@ -74,11 +68,7 @@ function assertFreshModel(Model $model, string $class)
  */
 function assertFirstModel(EloquentCollection|Collection $collection, string $class)
 {
-    Assert::assertNotEmpty($collection);
-    $first = $collection->first();
-    Assert::assertInstanceOf($class, $first);
-
-    return $first;
+    return xotAssertFirstModel($collection, $class);
 }
 
 /**
@@ -86,23 +76,17 @@ function assertFirstModel(EloquentCollection|Collection $collection, string $cla
  */
 function assertNotifyArray(mixed $value): array
 {
-    Assert::assertIsArray($value);
-
-    /** @var array<string, mixed> $value */
-    return $value;
+    return xotAssertArray($value);
 }
 
 function assertReflectionNamedType(?\ReflectionType $type): \ReflectionNamedType
 {
-    Assert::assertNotNull($type);
-    Assert::assertInstanceOf(\ReflectionNamedType::class, $type);
-
-    return $type;
+    return xotAssertReflectionNamedType($type);
 }
 
 function assertReflectionTypeName(?\ReflectionType $type, string $expected): void
 {
-    Assert::assertSame($expected, assertReflectionNamedType($type)->getName());
+    xotAssertReflectionTypeName($type, $expected);
 }
 
 /**
@@ -110,7 +94,7 @@ function assertReflectionTypeName(?\ReflectionType $type, string $expected): voi
  */
 function assertListContains(string $needle, array $haystack): void
 {
-    Assert::assertTrue(in_array($needle, $haystack, true));
+    xotAssertListContains($needle, $haystack);
 }
 
 /**
@@ -118,15 +102,7 @@ function assertListContains(string $needle, array $haystack): void
  */
 function assertNotifyThrows(callable $callback, string $exceptionClass): void
 {
-    try {
-        $callback();
-    } catch (\Throwable $exception) {
-        Assert::assertInstanceOf($exceptionClass, $exception);
-
-        return;
-    }
-
-    Assert::fail(sprintf('Expected exception %s was not thrown.', $exceptionClass));
+    xotAssertThrows($callback, $exceptionClass);
 }
 
 /**

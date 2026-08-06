@@ -6,20 +6,14 @@ tags: [notify, wiki, index, qmd]
 created: 2026-04-15
 updated: 2026-06-05
 qmd: "notify module wiki index notifications qmd second brain"
-issues:
-<<<<<<< HEAD
-  - "https://github.com/laraxot/platform/issues/272"
-discussions:
-  - "https://github.com/laraxot/platform/discussions/273"
-related:
-  - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md
-=======
-  - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
-discussions:
-  - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
+# Da popolare con thread reali di git@github.com:laraxot/module_notify_fila5.git
+# (repo owner del modulo, vedi `git remote -v`). Le due voci precedenti puntavano
+# a `laraxot/platform` (repo inesistente) e a `laraxot/base_fixcity_fila5`
+# (progetto diverso): entrambe vietate dalla regola wiki-markdown-frontmatter-mandatory.
+issues: []
+discussions: []
 related:
   - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
   - ../../../../docs/wiki/bmad/architecture.md
   - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
   - ../../docs/wiki/concepts/ai-harness-module-discipline.md
@@ -29,11 +23,7 @@ related:
 
 ## AI / second brain
 
-<<<<<<< HEAD
-- [hackernoon-ai-coding-tips-laraxot-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md)
-=======
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
@@ -60,11 +50,7 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 | Collezione | Path | Files | Descrizione |
 |------------|------|-------|-------------|
 | `root-docs` | `docs/` | 710 | Documentazione root progetto |
-<<<<<<< HEAD
-| `mod-laraxot` | `Modules/App/docs/` | 69 | Ticket, wizard, segnalazioni |
-=======
-| `mod-fixcity` | `Modules/Fixcity/docs/` | 69 | Ticket, wizard, segnalazioni |
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
+| `mod-quaeris` | `Modules/Quaeris/docs/` | 83 | Survey, questionari, report |
 | `mod-xot` | `Modules/Xot/docs/` | 4409 | Core framework, modelli base |
 | `mod-cms` | `Modules/Cms/docs/` | 711 | Gestione contenuti, pagine |
 | `mod-user` | `Modules/User/docs/` | 1952 | Auth, profili, ruoli |
@@ -93,27 +79,16 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 # Ricerca keyword (BM25, veloce ~30ms)
 ## AI / second brain
 
-<<<<<<< HEAD
-- [hackernoon-ai-coding-tips-laraxot-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md)
-=======
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
 
-<<<<<<< HEAD
-qmd search "wizard ticket" -c mod-laraxot -n 5
+qmd search "wizard questionario" -c mod-quaeris -n 5
 
 # Ricerca semantica (vector, ~2s)
-qmd vsearch "come creare una segnalazione" -c mod-laraxot
-=======
-qmd search "wizard ticket" -c mod-fixcity -n 5
-
-# Ricerca semantica (vector, ~2s)
-qmd vsearch "come creare una segnalazione" -c mod-fixcity
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
+qmd vsearch "come creare un questionario" -c mod-quaeris
 
 # Ricerca ibrida + reranking (migliore qualità, ~10s)
 qmd query "architettura moduli Laravel" -n 10
@@ -145,11 +120,7 @@ Ogni modulo ha il suo wiki locale in `laravel/Modules/<Name>/docs/wiki/`:
 | UI | [wiki/index.md](../../laravel/Modules/UI/docs/wiki/index.md) | [ui-module](../../laravel/Modules/UI/docs/wiki/overviews/ui-module.md) |
 | Lang | [wiki/index.md](../../laravel/Modules/Lang/docs/wiki/index.md) | [lang-module](../../laravel/Modules/Lang/docs/wiki/overviews/lang-module.md) |
 | AI | [wiki/index.md](../../laravel/Modules/AI/docs/wiki/index.md) | [ai-module (root)](./modules/ai-module.md) |
-<<<<<<< HEAD
-| App, Geo, User, Media, Seo, Tenant, Blog, Activity, Comment, Rating, Notify, Job, Gdpr | wiki/ presenti | pending |
-=======
-| Fixcity, Geo, User, Media, Seo, Tenant, Blog, Activity, Comment, Rating, Notify, Job, Gdpr | wiki/ presenti | pending |
->>>>>>> b05b65f05 (Refactor NotifyThemeableBusinessLogicTest to simplify factory usage and improve readability)
+| Quaeris, Geo, User, Media, Tenant, Activity, Notify, Job, Gdpr, Chart, CloudStorage, DbForge, Limesurvey | wiki/ presenti | pending |
 
 ## Themes
 

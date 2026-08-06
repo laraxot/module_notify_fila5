@@ -7,12 +7,12 @@ namespace Modules\Notify\Tests\Feature;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Notify\Database\Factories\NotifyThemeableFactory;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
-use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
 use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
-uses(\Modules\Notify\Tests\TestCase::class);
+uses(TestCase::class);
 
 describe('Notify Themeable Business Logic', function () {
     it('can create notify themeable with basic information', function () {
@@ -22,8 +22,8 @@ describe('Notify Themeable Business Logic', function () {
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme->id,
-            'created_by' => 'admin@'.(string) config('app.domain', 'example.com'),
-            'updated_by' => 'admin@'.(string) config('app.domain', 'example.com'),
+            'created_by' => 'admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')),
+            'updated_by' => 'admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')),
         ];
 
         $themeable = NotifyThemeable::create($themeableData);
@@ -71,7 +71,7 @@ describe('Notify Themeable Business Logic', function () {
     });
 
     it('can manage theme relationships', function () {
-        $appName = (string) config('app.name', 'Platform');
+        $appName = SafeStringCastAction::cast(config('app.name', 'Platform'));
         $themeLabel = $appName.' Professional';
         $theme = NotifyThemeFactory::new()->createOne([
             'subject' => $themeLabel,
@@ -92,12 +92,12 @@ describe('Notify Themeable Business Logic', function () {
 
         $themeable = NotifyThemeableFactory::new()->createOne([
             'notify_theme_id' => $theme->id,
-            'created_by' => 'developer@'.(string) config('app.domain', 'example.com'),
-            'updated_by' => 'admin@'.(string) config('app.domain', 'example.com'),
+            'created_by' => 'developer@'.SafeStringCastAction::cast(config('app.domain', 'example.com')),
+            'updated_by' => 'admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')),
         ]);
 
-        Assert::assertSame('developer@'.(string) config('app.domain', 'example.com'), $themeable->created_by);
-        Assert::assertSame('admin@'.(string) config('app.domain', 'example.com'), $themeable->updated_by);
+        Assert::assertSame('developer@'.SafeStringCastAction::cast(config('app.domain', 'example.com')), $themeable->created_by);
+        Assert::assertSame('admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')), $themeable->updated_by);
         Assert::assertNotNull($themeable->created_at);
         Assert::assertNotNull($themeable->updated_at);
     });
@@ -140,12 +140,12 @@ describe('Notify Themeable Business Logic', function () {
         Assert::assertSame('Tema Vecchio', \notifyThemeForThemeable($themeable)->subject);
         $themeable->update([
             'notify_theme_id' => $newTheme->id,
-            'updated_by' => 'admin@'.(string) config('app.domain', 'example.com'),
+            'updated_by' => 'admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')),
         ]);
 
         Assert::assertSame($newTheme->id, $themeable->notify_theme_id);
         Assert::assertSame('Tema Nuovo', \notifyThemeForThemeable($themeable)->subject);
-        Assert::assertSame('admin@'.(string) config('app.domain', 'example.com'), $themeable->updated_by);
+        Assert::assertSame('admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')), $themeable->updated_by);
     });
 
     it('can handle empty or null values gracefully', function () {
@@ -230,11 +230,11 @@ describe('Notify Themeable Business Logic', function () {
         Assert::assertSame($theme->id, $themeable->notify_theme_id);
         $themeable->update([
             'notify_theme_id' => null,
-            'updated_by' => 'admin@'.(string) config('app.domain', 'example.com'),
+            'updated_by' => 'admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')),
         ]);
 
         Assert::assertNull($themeable->notify_theme_id);
-        Assert::assertSame('admin@'.(string) config('app.domain', 'example.com'), $themeable->updated_by);
+        Assert::assertSame('admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')), $themeable->updated_by);
     });
 
     it('can manage audit trail', function () {
@@ -242,16 +242,16 @@ describe('Notify Themeable Business Logic', function () {
 
         $themeable = NotifyThemeableFactory::new()->createOne([
             'notify_theme_id' => $theme->id,
-            'created_by' => 'developer@'.(string) config('app.domain', 'example.com'),
+            'created_by' => 'developer@'.SafeStringCastAction::cast(config('app.domain', 'example.com')),
         ]);
 
-        Assert::assertSame('developer@'.(string) config('app.domain', 'example.com'), $themeable->created_by);
+        Assert::assertSame('developer@'.SafeStringCastAction::cast(config('app.domain', 'example.com')), $themeable->created_by);
         Assert::assertNotNull($themeable->created_at);
         $themeable->update([
-            'updated_by' => 'admin@'.(string) config('app.domain', 'example.com'),
+            'updated_by' => 'admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')),
         ]);
 
-        Assert::assertSame('admin@'.(string) config('app.domain', 'example.com'), $themeable->updated_by);
+        Assert::assertSame('admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')), $themeable->updated_by);
         Assert::assertNotNull($themeable->updated_at);
         Assert::assertTrue($themeable->created_at->lte($themeable->updated_at));
     });
@@ -275,13 +275,13 @@ describe('Notify Themeable Business Logic', function () {
         Assert::assertCount(5, $theme1Assignments);
         NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
             'notify_theme_id' => $theme2->id,
-            'updated_by' => 'admin@'.(string) config('app.domain', 'example.com'),
+            'updated_by' => 'admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')),
         ]);
 
         $theme2Assignments = NotifyThemeable::where('notify_theme_id', $theme2->id)->get();
         Assert::assertCount(5, $theme2Assignments);
         foreach ($theme2Assignments as $assignment) {
-            Assert::assertSame('admin@'.(string) config('app.domain', 'example.com'), $assignment->updated_by);
+            Assert::assertSame('admin@'.SafeStringCastAction::cast(config('app.domain', 'example.com')), $assignment->updated_by);
         }
     });
 });

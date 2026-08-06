@@ -8,19 +8,17 @@ use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Override;
 
 class ContactResource extends XotBaseResource
 {
     protected static ?string $model = Contact::class;
 
     /**
-     * Get the form schema for the resource.
+     * Schema legacy del form: la sorgente di verità è ContactForm::getFormSchema().
      *
      * @return array<string, Component>
      */
-    #[Override]
-    public static function getFormSchema(): array
+    public static function getFormSchemaOld(): array
     {
         return [
             'name' => TextInput::make('name')
