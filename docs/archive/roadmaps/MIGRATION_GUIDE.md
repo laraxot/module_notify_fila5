@@ -14,6 +14,10 @@ When the 355+ scattered roadmap files were consolidated into a central hub, old 
 |--------------|--------------|--------|
 | `/docs/MASTER_ROADMAP.md` | `/docs/ROADMAP.md` | ✅ ARCHIVED |
 | `/docs/MASTER_ROADMAP_2025.md` | `/docs/ROADMAP.md` | ✅ ARCHIVED |
+<<<<<<< HEAD
+=======
+| `/docs/PROJECT-ROADMAP.md` | `/docs/ROADMAP.md` | ✅ ARCHIVED |
+>>>>>>> a988596b (first)
 | `/docs/project-roadmap.md` | `/docs/ROADMAP.md` | ✅ ARCHIVED |
 | `/docs/PROJECT_ROADMAP.md` | `/docs/ROADMAP.md` | ✅ ARCHIVED |
 | `/docs/roadmap.md` | `/docs/ROADMAP.md` | ✅ ARCHIVED |
@@ -74,6 +78,10 @@ docs/archive/roadmaps/
 ├── legacy-master-roadmaps/
 │   ├── MASTER_ROADMAP.md (original)
 │   ├── MASTER_ROADMAP_2025.md
+<<<<<<< HEAD
+=======
+│   ├── PROJECT-ROADMAP.md
+>>>>>>> a988596b (first)
 │   ├── project-roadmap.md
 │   ├── PROJECT_ROADMAP.md
 │   ├── roadmap.md

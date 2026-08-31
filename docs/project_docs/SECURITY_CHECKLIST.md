@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔒 FixCity Security Checklist
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+# 🔒 FixCity Security Checklist
+>>>>>>> a988596b (first)
 # 🔒 Notify Security Checklist
 
 **Status**: Production Ready
@@ -401,6 +405,7 @@ Overall Security Score: 92/100
 ## 📞 Security Contacts
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Security Team Lead**: security@fixcity.it  
 **Emergency Contact**: +39 06 1234 5678  
 **Incident Reporting**: incidents@fixcity.it
@@ -409,6 +414,11 @@ Overall Security Score: 92/100
 **Emergency Contact**: +39 06 1234 5678  
 **Incident Reporting**: incidents@laraxot.it
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Security Team Lead**: security@fixcity.it  
+**Emergency Contact**: +39 06 1234 5678  
+**Incident Reporting**: incidents@fixcity.it
+>>>>>>> a988596b (first)
 
 ---
 

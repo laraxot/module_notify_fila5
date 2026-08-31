@@ -49,9 +49,13 @@ related:
 | Lang | ❌ | ✅ | 0 | 🟢 Bassa |
 | Job | ❌ | ✅ | 0 | 🟢 Bassa |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Fixcity | ✅ | ❌ | 0 | 🟢 Bassa |
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| Fixcity | ✅ | ❌ | 0 | 🟢 Bassa |
+>>>>>>> a988596b (first)
 | App | ✅ | ❌ | 0 | 🟢 Bassa |
 | **Xot** | ❌ | ✅ | 0 | ⚡ **CORE** |
 
@@ -163,9 +167,13 @@ abstract class BasePivot extends XotBasePivot
 - Lang
 - Job
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Fixcity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- Fixcity
+>>>>>>> a988596b (first)
 - App
 
 **Script automatico:**
@@ -183,9 +191,13 @@ MODULES=(
     "Lang"
     "Job"
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Fixcity"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    "Fixcity"
+>>>>>>> a988596b (first)
     "App"
 )
 
@@ -280,9 +292,13 @@ php artisan benchmark:pivot-queries
 ```bash
 # Test ogni modulo singolarmente
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job Fixcity; do
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job Fixcity; do
+>>>>>>> a988596b (first)
 for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job App; do
     echo "Testing $module..."
     php artisan test --testsuite=$module || echo "❌ $module FAILED"
@@ -301,9 +317,13 @@ done
 2. ✅ `docs/architecture/xotbasepivot-strategy.md` (questo file)
 3. `Modules/Xot/README.md` → aggiungere sezione XotBasePivot
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. `docs/CHANGELOG.md` → entry per breaking change
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+4. `docs/CHANGELOG.md` → entry per breaking change
+>>>>>>> a988596b (first)
 4. `docs/changelog.md` → entry per breaking change
 5. Per ogni modulo: `Modules/{Module}/docs/models/pivot-migration.md`
 

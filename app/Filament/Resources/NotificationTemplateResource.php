@@ -23,6 +23,7 @@ class NotificationTemplateResource extends XotBaseResource
      * @return array<string, Field>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
     public static function getFormSchema(): array
 =======
@@ -30,6 +31,10 @@ class NotificationTemplateResource extends XotBaseResource
     // #[Override]
     public static function getFormSchemaOld(): array
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    #[Override]
+    public static function getFormSchema(): array
+>>>>>>> a988596b (first)
     {
         return [
             'name' => TextInput::make('name')
@@ -78,11 +83,15 @@ class NotificationTemplateResource extends XotBaseResource
                 ->acceptedFileTypes(['application/pdf', 'image/*'])
                 ->columnSpan(['lg' => 3])
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->helperText(__('notify::template.form.attachments.helper'))];
 =======
                 ->helperText(__('notify::template.form.attachments.helper')),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                ->helperText(__('notify::template.form.attachments.helper'))];
+>>>>>>> a988596b (first)
     }
 
     #[Override]
@@ -91,11 +100,15 @@ class NotificationTemplateResource extends XotBaseResource
         return [
             ...parent::getPages(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'preview' => PreviewNotificationTemplate::route('/{record}/preview')];
 =======
             'preview' => PreviewNotificationTemplate::route('/{record}/preview'),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'preview' => PreviewNotificationTemplate::route('/{record}/preview')];
+>>>>>>> a988596b (first)
     }
 
     /*

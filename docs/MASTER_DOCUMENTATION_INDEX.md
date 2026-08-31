@@ -20,10 +20,14 @@
 
 ### Per AI Agents
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Project Context](./project/PROJECT.md)
 =======
 - [Project Context](./project/project.md)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [Project Context](./project/PROJECT.md)
+>>>>>>> a988596b (first)
 - [Agent Coordination](./MULTI_AGENT_COLLABORATION.md)
 - [OpenViking Context](../bashscripts/ai/openviking.md)
 

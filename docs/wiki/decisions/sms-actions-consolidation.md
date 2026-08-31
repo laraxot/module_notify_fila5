@@ -1,10 +1,15 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "sms-actions-consolidation-2026-06-30.deprecated"
+=======
+title: "sms-actions-consolidation-2026-06-30"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "sms-actions-consolidation-2026-06-30.deprecated deprecated"
 status: deprecated
 related:
@@ -125,3 +130,13 @@ Eventuali ulteriori controlli (PHPStan/PHPMD/PHPInsights/Pest) potrebbero essere
 stati eseguiti in condizioni di spazio disco limitato: vedi report finale dell'agente
 per l'esito effettivo di ciascun tool.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+qmd: "sms-actions-consolidation-2026-06-30 deprecated"
+status: deprecated
+related:
+  - "./sms-actions-consolidation-.md"
+  - "./sms-actions-consolidation-1.md"
+---
+
+> Questo file è stato rinominato in [sms-actions-consolidation.md](sms-actions-consolidation.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

@@ -7,6 +7,9 @@ namespace Modules\Notify\Tests\Unit;
 use Filament\Facades\Filament;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Process;
@@ -16,6 +19,7 @@ use Modules\Notify\Filament\Clusters\Test\Pages\SendPushNotification;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendPushNotificationPage;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendTelegram;
 use Modules\Notify\Filament\Clusters\Test\Pages\TestSmtpPage;
+<<<<<<< HEAD
 use Modules\Notify\Actions\NotificationManager;
 =======
 use Illuminate\Support\Facades\Http;
@@ -29,6 +33,9 @@ use Modules\Notify\Filament\Clusters\Test\Pages\TestSmtpPage;
 use Modules\Notify\Services\NotificationManager;
 use Modules\Notify\Tests\TestCase;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Modules\Notify\Services\NotificationManager;
+>>>>>>> a988596b (first)
 use Modules\Notify\Tests\Unit\Traits\NotifyTenantDummyModel;
 use Modules\Tenant\Models\Tenant;
 use Modules\Xot\Tests\ModuleRemainingCoverage;
@@ -36,11 +43,14 @@ use PHPUnit\Framework\Assert;
 use ReflectionClass;
 use ReflectionMethod;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\User;
 =======
 
 uses(TestCase::class)->group('no-notify-db');
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 afterEach(function (): void {
     Mockery::close();
@@ -71,17 +81,26 @@ describe('Notify coverage 100 — final sweep', function (): void {
     });
 
     test('HasTenantNotifications espone relazioni scope e boot senza DB', function (): void {
+<<<<<<< HEAD
         $tenant = new Tenant;
         $tenant->setAttribute('id', 'tenant-cov');
         Filament::setTenant($tenant, isQuiet: true);
 
         $dummy = new NotifyTenantDummyModel;
+=======
+        $tenant = new Tenant();
+        $tenant->setAttribute('id', 'tenant-cov');
+        Filament::setTenant($tenant, isQuiet: true);
+
+        $dummy = new NotifyTenantDummyModel();
+>>>>>>> a988596b (first)
         $dummy->tenant_id = 'tenant-cov';
 
         Assert::assertTrue($dummy->belongsToTenant('tenant-cov'));
         Assert::assertFalse($dummy->belongsToTenant('altro'));
 
         try {
+<<<<<<< HEAD
 <<<<<<< HEAD
             Assert::assertInstanceOf(MorphMany::class, $dummy->notifications());
             Assert::assertInstanceOf(MorphMany::class, $dummy->unreadNotifications());
@@ -91,6 +110,11 @@ describe('Notify coverage 100 — final sweep', function (): void {
             Assert::assertInstanceOf(\Illuminate\Database\Eloquent\Relations\MorphMany::class, $dummy->unreadNotifications());
             Assert::assertInstanceOf(\Illuminate\Database\Eloquent\Relations\MorphMany::class, $dummy->readNotifications());
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            Assert::assertInstanceOf(MorphMany::class, $dummy->notifications());
+            Assert::assertInstanceOf(MorphMany::class, $dummy->unreadNotifications());
+            Assert::assertInstanceOf(MorphMany::class, $dummy->readNotifications());
+>>>>>>> a988596b (first)
 
             $query = NotifyTenantDummyModel::query();
             $scoped = $dummy->scopeForTenant($query, 'tenant-cov');
@@ -107,11 +131,15 @@ describe('Notify coverage 100 — final sweep', function (): void {
             SendTelegram::class,
             SendEmail::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
             TestSmtpPage::class] as $class) {
 =======
             TestSmtpPage::class,
         ] as $class) {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            TestSmtpPage::class] as $class) {
+>>>>>>> a988596b (first)
             $page = notifyPageWithoutConstructor($class);
             $ref = new ReflectionClass($class);
             foreach (['getForms', 'getNotificationFormActions', 'fillForms'] as $method) {
@@ -134,6 +162,7 @@ describe('Notify coverage 100 — final sweep', function (): void {
         config([
             'notify.default_channel' => 'mail',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'notify.channels.mail.driver' => 'log']);
 
         $manager = new NotificationManager;
@@ -144,6 +173,12 @@ describe('Notify coverage 100 — final sweep', function (): void {
         $manager = new NotificationManager();
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $recipient = new class extends Model
+=======
+            'notify.channels.mail.driver' => 'log']);
+
+        $manager = new NotificationManager();
+        $recipient = new class() extends Model
+>>>>>>> a988596b (first)
         {
             protected $guarded = [];
         };

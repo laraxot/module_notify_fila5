@@ -22,6 +22,7 @@ class NotifyThemeResource extends XotBaseResource
      * @return array<string, Field>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
     public static function getFormSchema(): array
 =======
@@ -29,6 +30,10 @@ class NotifyThemeResource extends XotBaseResource
     // #[Override]
     public static function getFormSchemaOld(): array
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    #[Override]
+    public static function getFormSchema(): array
+>>>>>>> a988596b (first)
     {
         return [
             'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
@@ -54,10 +59,14 @@ class NotifyThemeResource extends XotBaseResource
                     'minty' => 'minty',
                     'sunny' => 'sunny',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'widgets' => 'widgets'])
                 ->default('empty'),
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull()];
+<<<<<<< HEAD
 =======
                     'widgets' => 'widgets',
                 ])
@@ -66,6 +75,8 @@ class NotifyThemeResource extends XotBaseResource
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     }
 
     /**
@@ -77,6 +88,9 @@ class NotifyThemeResource extends XotBaseResource
             'lang' => [
                 'it' => 'Italiano',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                 'en' => 'English'],
             'type' => [
                 'email' => 'Email',
@@ -86,6 +100,7 @@ class NotifyThemeResource extends XotBaseResource
                 'page' => 'Page',
                 'post' => 'Post',
                 'product' => 'Product'],
+<<<<<<< HEAD
 =======
                 'en' => 'English',
             ],
@@ -100,6 +115,8 @@ class NotifyThemeResource extends XotBaseResource
                 'product' => 'Product',
             ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             default => [],
         };
     }

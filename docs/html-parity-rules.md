@@ -61,9 +61,13 @@ The reference HTML structure (tags, attributes, classes, IDs, nesting) MUST be r
         />
     @empty
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p>{{ trans('fixcity::common.no_content') }}</p>
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        <p>{{ trans('fixcity::common.no_content') }}</p>
+>>>>>>> a988596b (first)
         <p>{{ trans('ptv::common.no_content') }}</p>
     @endforelse
 </x-layouts.app>
@@ -86,9 +90,13 @@ The reference HTML structure (tags, attributes, classes, IDs, nesting) MUST be r
 #### ✅ CORRECT Pattern
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 fixcity::<module>.<context>.<key>.<type>
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+fixcity::<module>.<context>.<key>.<type>
+>>>>>>> a988596b (first)
 ptv::<module>.<context>.<key>.<type>
 ```
 
@@ -105,6 +113,9 @@ ptv::common.errors.not_found.message
 ```
 SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE     ← Namespace case, missing type
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 fixcity::segnalazione.heading.title_label   ← Underscore instead of dot
 segnalazione::segnalazione.fields.title     ← Module case, missing type
 fixcity::fields.title.label                 ← Missing module
@@ -118,6 +129,7 @@ fixcity::fields.title.label                 ← Missing module
 
 #### Rules
 - **Namespace**: Always `fixcity` (not module name)
+<<<<<<< HEAD
 =======
 ptv::segnalazione.heading.title_label   ← Underscore instead of dot
 segnalazione::segnalazione.fields.title     ← Module case, missing type
@@ -127,6 +139,8 @@ ptv::fields.title.label                 ← Missing module
 #### Rules
 - **Namespace**: Always `ptv` (not module name)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - **Module**: lowercase kebab-case (e.g., `segnalazione`)
 - **Context**: lowercase kebab-case (e.g., `fields`, `heading`, `actions`)
 - **Key**: lowercase kebab-case (e.g., `title`, `description`, `submit`)
@@ -267,11 +281,17 @@ docs/
 
 <!-- ✅ CORRECT -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h1>{{ trans('fixcity::segnalazione.heading.title.label') }}</h1>
 <label>{{ trans('fixcity::segnalazione.fields.title.label') }}</label>
 <button>{{ trans('fixcity::segnalazione.actions.submit.label') }}</button>
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+<h1>{{ trans('fixcity::segnalazione.heading.title.label') }}</h1>
+<label>{{ trans('fixcity::segnalazione.fields.title.label') }}</label>
+<button>{{ trans('fixcity::segnalazione.actions.submit.label') }}</button>
+>>>>>>> a988596b (first)
 <h1>{{ trans('ptv::segnalazione.heading.title.label') }}</h1>
 <label>{{ trans('ptv::segnalazione.fields.title.label') }}</label>
 <button>{{ trans('ptv::segnalazione.actions.submit.label') }}</button>
@@ -294,9 +314,13 @@ docs/
         <x-dynamic-component :component="$block->view" :data="$block->data" />
     @empty
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p>{{ trans('fixcity::common.no_content') }}</p>
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        <p>{{ trans('fixcity::common.no_content') }}</p>
+>>>>>>> a988596b (first)
         <p>{{ trans('ptv::common.no_content') }}</p>
     @endforelse
 </x-layouts.app>
@@ -338,9 +362,13 @@ bashscripts/html/html-structure-compare.sh              # In category
 ```bash
 # ❌ WRONG in bashscripts/html/script.sh
 <<<<<<< HEAD
+<<<<<<< HEAD
 OUTPUT_DIR="/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/..."
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+OUTPUT_DIR="/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/..."
+>>>>>>> a988596b (first)
 OUTPUT_DIR="/var/www/_bases/base_ptv_fila5/laravel/Themes/Sixteen/docs/..."
 
 # ✅ CORRECT
@@ -404,9 +432,13 @@ trans('ptv::segnalazione.heading.title.label')
 - [ ] Blade uses `<x-layouts.app>` only
 - [ ] NO hardcoded strings (all use `trans()`)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Translation keys follow pattern: `fixcity::<module>.<context>.<key>.<type>`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [ ] Translation keys follow pattern: `fixcity::<module>.<context>.<key>.<type>`
+>>>>>>> a988596b (first)
 - [ ] Translation keys follow pattern: `ptv::<module>.<context>.<key>.<type>`
 - [ ] Scripts in `bashscripts/<category>/`
 - [ ] Script outputs to theme docs (not hardcoded paths)

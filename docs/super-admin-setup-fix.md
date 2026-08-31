@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "super-admin-setup-fix-2025-10-15.deprecated"
+=======
+title: "super-admin-setup-fix-2025-10-15"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "super-admin-setup-fix-2025-10-15.deprecated deprecated"
+=======
+qmd: "super-admin-setup-fix-2025-10-15 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./00-index-1.md"
@@ -18,6 +26,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [super-admin-setup-fix-.deprecated.md](super-admin-setup-fix-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created: 2025-10-15
@@ -485,3 +494,6 @@ Il setup del super-admin è un passaggio critico per iniziare a utilizzare l'app
 > Script di setup per velocizzare il processo
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [super-admin-setup-fix.md](super-admin-setup-fix.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

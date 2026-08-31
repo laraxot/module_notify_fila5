@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "NotebookLM Skill - Guida Installazione e Utilizzo"
 type: concept
@@ -20,7 +23,10 @@ related:
   - "./07-mcp-tailwind-ui.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # NotebookLM Skill - Guida Installazione e Utilizzo
 
 **Skill**: `notebooklm`

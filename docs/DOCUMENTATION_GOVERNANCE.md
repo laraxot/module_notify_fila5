@@ -22,9 +22,13 @@ Modules/ModuleName/
 │   ├── README.md                    # Module overview and quick reference
 │   ├── 00-index.md                  # Alternative index (if needed)
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   ├── CHANGELOG.md                 # Module changelog
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+│   ├── CHANGELOG.md                 # Module changelog
+>>>>>>> a988596b (first)
 │   ├── changelog.md                 # Module changelog
 │   ├── architecture/                # Architecture decisions and patterns
 │   │   ├── overview.md
@@ -428,9 +432,13 @@ jobs:
 ## 📚 Related Documents
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [AGENTS.md](../../../AGENTS.md) - Agent guidelines
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [AGENTS.md](../../../AGENTS.md) - Agent guidelines
+>>>>>>> a988596b (first)
 - [agents.md](../../../agents.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 - [DOCUMENTATION_INDEX.md](../../../docs/DOCUMENTATION_INDEX.md) - Master index

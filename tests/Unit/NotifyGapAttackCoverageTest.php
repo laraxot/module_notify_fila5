@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
@@ -12,12 +15,15 @@ use Illuminate\Support\Facades\Notification;
 use Kreait\Firebase\Contract\Messaging;
 use Mockery;
 use Mockery\MockInterface;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
 use Mockery;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 use Modules\Notify\Actions\EsendexSendAction;
 use Modules\Notify\Actions\SMS\SendNexmoSMSAction;
 use Modules\Notify\Actions\SMS\SendPlivoSMSAction;
@@ -29,6 +35,7 @@ use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Notify\Actions\Push\SendPushToAllUsersAction;
 use Modules\Notify\Actions\Push\SendPushToDeviceAction;
@@ -60,6 +67,18 @@ use ReflectionClass;
 uses(TestCase::class)->group('no-notify-db');
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Modules\Notify\Emails\SpatieEmail;
+use Modules\Notify\Jobs\SendScheduledPushNotification;
+use Modules\Notify\Mail\AppointmentNotificationMail;
+use Modules\Notify\Notifications\Channels\FirebaseCloudMessagingChannel;
+use Modules\Notify\Notifications\RecordNotification;
+use Modules\Notify\Services\PushNotificationService;
+use Modules\Notify\Services\SmsService;
+use PHPUnit\Framework\Assert;
+use ReflectionClass;
+
+>>>>>>> a988596b (first)
 afterEach(function (): void {
     Mockery::close();
 });
@@ -68,11 +87,15 @@ describe('Notify gap attack — highest miss providers', function (): void {
     test('HTTP SMS WhatsApp Telegram actions con Http::fake', function (): void {
         Http::fake([
 <<<<<<< HEAD
+<<<<<<< HEAD
             '*' => Http::response(['ok' => true, 'sid' => 'SM123', 'message_id' => '1'], 200)]);
 =======
             '*' => Http::response(['ok' => true, 'sid' => 'SM123', 'message_id' => '1'], 200),
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            '*' => Http::response(['ok' => true, 'sid' => 'SM123', 'message_id' => '1'], 200)]);
+>>>>>>> a988596b (first)
 
         config([
             'notify.sms.twilio.sid' => 'AC123',
@@ -87,11 +110,15 @@ describe('Notify gap attack — highest miss providers', function (): void {
             'services.nexmo.secret' => 'secret',
             'services.plivo.auth_id' => 'id',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'services.plivo.auth_token' => 'token']);
 =======
             'services.plivo.auth_token' => 'token',
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'services.plivo.auth_token' => 'token']);
+>>>>>>> a988596b (first)
 
         $payload = [
             'to' => '+393331112233',
@@ -101,11 +128,15 @@ describe('Notify gap attack — highest miss providers', function (): void {
             'phone' => '+393331112233',
             'chat_id' => '123',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'text' => 'hello'];
 =======
             'text' => 'hello',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'text' => 'hello'];
+>>>>>>> a988596b (first)
 
         foreach ([
             SendTwilioSMSAction::class,
@@ -119,11 +150,15 @@ describe('Notify gap attack — highest miss providers', function (): void {
             SendNutgramTelegramAction::class,
             SendBotmanTelegramAction::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
             EsendexSendAction::class] as $class) {
 =======
             EsendexSendAction::class,
         ] as $class) {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            EsendexSendAction::class] as $class) {
+>>>>>>> a988596b (first)
             if (! class_exists($class)) {
                 continue;
             }
@@ -166,6 +201,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('Push actions SendSmsAction e FCM channel', function (): void {
         Http::fake(['*' => Http::response(['success' => 1], 200)]);
 
@@ -200,6 +236,8 @@ describe('Notify gap attack — highest miss providers', function (): void {
         /** @var Messaging&MockInterface $messaging */
         $messaging = Mockery::mock(Messaging::class);
 =======
+=======
+>>>>>>> a988596b (first)
     test('PushNotificationService SmsService e FCM channel', function (): void {
         Http::fake(['*' => Http::response(['success' => 1], 200)]);
 
@@ -250,8 +288,13 @@ describe('Notify gap attack — highest miss providers', function (): void {
             Assert::assertTrue(class_exists(SmsService::class));
         }
 
+<<<<<<< HEAD
         $messaging = $this->createStub(\Kreait\Firebase\Contract\Messaging::class);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        /** @var Messaging&MockInterface $messaging */
+        $messaging = Mockery::mock(Messaging::class);
+>>>>>>> a988596b (first)
         $channel = new FirebaseCloudMessagingChannel($messaging);
         Assert::assertInstanceOf(FirebaseCloudMessagingChannel::class, $channel);
     });
@@ -283,15 +326,23 @@ describe('Notify gap attack — highest miss providers', function (): void {
 
         try {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $recordModel = new class extends Model
 =======
             $recordModel = new class extends \Illuminate\Database\Eloquent\Model
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            $recordModel = new class() extends Model
+>>>>>>> a988596b (first)
             {
                 protected $guarded = [];
             };
             $record = new RecordNotification($recordModel, 'welcome');
+<<<<<<< HEAD
             $notifiable = new class
+=======
+            $notifiable = new class()
+>>>>>>> a988596b (first)
             {
                 public string $email = 'a@b.c';
 
@@ -314,6 +365,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
 
         try {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $action = new SendScheduledPushNotificationAction;
             $action->execute('job-cov-1');
             Assert::assertInstanceOf(SendScheduledPushNotificationAction::class, $action);
@@ -322,6 +374,11 @@ describe('Notify gap attack — highest miss providers', function (): void {
             $job->handle();
             Assert::assertInstanceOf(SendScheduledPushNotification::class, $job);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            $job = new SendScheduledPushNotification('job-cov-1');
+            $job->handle();
+            Assert::assertInstanceOf(SendScheduledPushNotification::class, $job);
+>>>>>>> a988596b (first)
         } catch (\Throwable $e) {
             Assert::assertNotSame('', $e->getMessage());
         }

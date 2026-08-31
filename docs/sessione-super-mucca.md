@@ -1,5 +1,8 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 title: "SESSIONE-2025-10-15-SUPER-MUCCA"
 type: concept
 tags: [deprecated]
@@ -19,6 +22,7 @@ related:
 ---
 
 > Questo file è stato rinominato in [sessione-super-mucca.md](sessione-super-mucca.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+<<<<<<< HEAD
 =======
 created: 2025-10-15
 updated: 2025-10-15
@@ -453,3 +457,5 @@ Per domande su questa sessione:
 **Ready for Team Review and Implementation! 🚀**
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

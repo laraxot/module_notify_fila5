@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "baseuser-dry-violation-2025-10-15.deprecated"
+=======
+title: "baseuser-dry-violation-2025-10-15"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "baseuser-dry-violation-2025-10-15.deprecated deprecated"
+=======
+qmd: "baseuser-dry-violation-2025-10-15 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./00-index-1.md"
@@ -18,6 +26,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [baseuser-dry-violation-.deprecated.md](baseuser-dry-violation-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created: 2025-10-15
@@ -408,3 +417,6 @@ Il refactoring di `BaseUser` per rimuovere i metodi duplicati è:
 **Procedere con implementazione!** 🚀
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [baseuser-dry-violation.md](baseuser-dry-violation.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

@@ -11,6 +11,7 @@ return [
             'singular' => 'Template Email',
             'icon' => 'heroicon-o-envelope',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sort' => '1'],
         'sections' => [
             'main' => 'Informazioni Principali'],
@@ -21,11 +22,19 @@ return [
             'main' => 'Informazioni Principali',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'sort' => '1'],
+        'sections' => [
+            'main' => 'Informazioni Principali'],
+>>>>>>> a988596b (first)
         'fields' => [
             'name' => [
                 'label' => 'Nome',
                 'placeholder' => 'Inserisci il nome del template',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                 'tooltip' => 'Il nome identificativo del template email'],
             'layout' => [
                 'label' => 'Layout',
@@ -55,6 +64,7 @@ return [
             'created' => 'Template email creato con successo',
             'updated' => 'Template email aggiornato con successo',
             'deleted' => 'Template email eliminato con successo']],
+<<<<<<< HEAD
 =======
                 'tooltip' => 'Il nome identificativo del template email',
             ],
@@ -97,25 +107,35 @@ return [
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
         'group' => 'Missing Group',
         'icon' => 'heroicon-o-puzzle-piece',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sort' => 100],
 =======
         'sort' => 100,
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'sort' => 100],
+>>>>>>> a988596b (first)
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
     'fields' => [
     ],
     'actions' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
     ]];
 =======
     ],
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    ]];
+>>>>>>> a988596b (first)

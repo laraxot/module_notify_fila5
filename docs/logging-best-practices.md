@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: "Logging Best Practices - Performance & Quality"
 module: notify
@@ -198,6 +199,8 @@ foreach ($items as $item) {
 }
 Log::info('Batch completed', ['count' => $count]); // ✅ ONE LOG
 =======
+=======
+>>>>>>> a988596b (first)
 # Logging Best Practices - Performance Critical
 
 ## Executive Summary
@@ -245,11 +248,15 @@ foreach ($items as $item) {
 Log::info('Task completed successfully');
 Log::info('Migration finished');
 Log::info('Cache cleared');
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 ```
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## 📈 Performance Metrics
 
@@ -285,6 +292,8 @@ Log::info('Cache cleared');
 - `AGENTS.md` - Project guidelines
 - Module-specific docs for implementation examples
 =======
+=======
+>>>>>>> a988596b (first)
 ## Rules: What TO Do
 
 ### ✅ CORRECT - Log Only Errors
@@ -446,4 +455,7 @@ time curl http://localhost:8000/api/endpoint
 **Priority:** CRITICAL  
 **Status:** Active & Enforced  
 **Performance Impact:** 30-50% degradation with excessive logging
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

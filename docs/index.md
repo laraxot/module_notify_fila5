@@ -66,18 +66,24 @@ This document serves as the central index for the Notify module, providing guida
 
 ## Links to Related Documentation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Architecture Overview](./ARCHITECTURE.md)
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
 =======
+=======
+>>>>>>> a988596b (first)
 - [Architecture Overview](./architecture.md)
 - [Notification Channels Implementation](./notification_channels_implementation.md)
 - [Email Templates](./email_templates.md)
 - [SMS Implementation](./sms_implementation.md)
 - [Troubleshooting](./troubleshooting.md)
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -95,6 +101,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 ## Collegamenti Correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 - [Documentazione Generale PTV](../../../../docs/README.md)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -107,6 +114,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Modulo Lang](../../Lang/docs/README.md)
 - [Modulo UI](../../UI/docs/README.md)
 =======
+=======
+>>>>>>> a988596b (first)
 - [Documentazione Generale SaluteOra](../../../../../docs/readme.md)
 - [Documentazione Generale PTV](../../../../../docs/readme.md)
 - [Documentazione Generale SaluteOra](../../../../../docs/readme.md)
@@ -118,7 +127,10 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Modulo Xot](../../xot/docs/readme.md)
 - [Modulo Lang](../../lang/docs/readme.md)
 - [Modulo UI](../../ui/docs/readme.md)
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 
 
@@ -126,12 +138,17 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ## Categorie Principali
 
 ### Architettura e Struttura
+<<<<<<< HEAD
 - [README](./README.md) - Panoramica generale del modulo
 <<<<<<< HEAD
 - [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
 =======
 - [Architettura](./architecture.md) - Architettura generale del modulo
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [README](./readme.md) - Panoramica generale del modulo
+- [Architettura](./architecture.md) - Architettura generale del modulo
+>>>>>>> a988596b (first)
 - [Struttura](./structure.md) - Struttura delle directory e dei componenti
 - [Modelli](./models.md) - Documentazione dei modelli Eloquent
 - [Eventi](./events.md) - Eventi e listeners
@@ -139,6 +156,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ### Sistema Email
 - [Sistema Email Database](./database-mail-system.md) - Sistema di gestione delle email basato su database
 - [Code Email](./database_mail_queue.md) - Sistema di code per l'invio di email
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Template Email](./EMAIL_TEMPLATES.md) - Struttura e utilizzo dei template email
 - [Best Practices Email](./EMAIL_BEST_PRACTICES.md) - Linee guida per le email
@@ -151,6 +169,10 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Telegram](./TELEGRAM_CHANNEL.md) - Implementazione del canale Telegram
 =======
 - [Template Email](./email_templates.md) - Struttura e utilizzo dei template email
+=======
+- [Template Email](./email_templates.md) - Struttura e utilizzo dei template email
+- [Best Practices Email](./email_best_practices.md) - Linee guida per le email
+>>>>>>> a988596b (first)
 - [Best Practices Email](./email-best-practices.md) - Linee guida per le email
 - [Template Responsivi](./responsive_email_templates.md) - Implementazione di template email responsivi
 
@@ -158,12 +180,18 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Implementazione Canali](./notification_channels_implementation.md) - Implementazione dei canali di notifica
 - [SMS](./sms_implementation.md) - Implementazione del canale SMS
 - [WhatsApp](./whatsapp_channel.md) - Implementazione del canale WhatsApp
+<<<<<<< HEAD
 - [Telegram](./telegram-channel.md) - Implementazione del canale Telegram
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [Telegram](./telegram_channel.md) - Implementazione del canale Telegram
+- [Telegram](./telegram-channel.md) - Implementazione del canale Telegram
+>>>>>>> a988596b (first)
 
 ### Filament UI
 - [Risorse Filament](./filament-resources.md) - Componenti Filament Resources
 - [Pagine Filament](./filament-pages.md) - Componenti Filament Pages
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Convenzioni Filament](./FILAMENT_EXTENSION_PATTERN.md) - Pattern di estensione per Filament
 
@@ -186,15 +214,24 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
 - [Testing](./TESTING.md) - Strategie e approcci per il testing
 =======
+=======
+>>>>>>> a988596b (first)
 - [Convenzioni Filament](./filament_extension_pattern.md) - Pattern di estensione per Filament
 
 ### Configurazione
 - [Struttura Config](./config_structure.md) - Struttura dei file di configurazione
 - [Configurazione SMS](./sms_config_structure.md) - Struttura della configurazione SMS
+<<<<<<< HEAD
 - [Principi di Configurazione](./configurations-usage-principles.md) - Principi per l'utilizzo delle configurazioni
 
 ### Pattern e Architettura
 - [Pattern Factory](./factory-pattern-analysis.md) - Analisi del pattern Factory
+=======
+- [Principi di Configurazione](./configurations_usage_principles.md) - Principi per l'utilizzo delle configurazioni
+
+### Pattern e Architettura
+- [Pattern Factory](./factory_pattern_analysis.md) - Analisi del pattern Factory
+>>>>>>> a988596b (first)
 - [Risoluzione Dinamica delle Classi](./dynamic_class_resolution.md) - Pattern di risoluzione dinamica delle classi
 - [Queueable Actions](./queueable-action.md) - Utilizzo di Spatie Queueable Actions
 
@@ -206,7 +243,10 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 ### Testing e Qualità
 - [PHPStan Level 10](./phpstan_level10_fixes.md) - Correzioni per PHPStan Level 10
 - [Testing](./testing.md) - Strategie e approcci per il testing
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 ## Linee Guida per l'Implementazione
 
@@ -256,6 +296,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 
 ### Mail Templates
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Index](./mail-templates/INDEX.md) - Indice della documentazione sui template email
 - [Implementazione Slug](./mail-templates/MAIL_TEMPLATE_SLUG_IMPLEMENTATION.md) - Implementazione del campo slug
 
@@ -265,6 +306,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
 =======
+=======
+>>>>>>> a988596b (first)
 - [Index](./mail-templates/index.md) - Indice della documentazione sui template email
 - [Implementazione Slug](./mail-templates/mail_template_slug_implementation.md) - Implementazione del campo slug
 
@@ -345,7 +388,10 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 
+=======
+>>>>>>> a988596b (first)
 ---
 
 <!-- Merged from INDEX.md, which collided with this file on case-insensitive filesystems. -->
@@ -554,7 +600,10 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./architecture.md)
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Template Email](./EMAIL_TEMPLATES.md)
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)

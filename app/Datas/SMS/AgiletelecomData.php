@@ -55,32 +55,44 @@ class AgiletelecomData extends Data
                 return [
                     'Authorization' => 'Api-Key '.$this->api_key,
 <<<<<<< HEAD
-                    'Content-Type' => 'application/json'];
-=======
-                    'Content-Type' => 'application/json',
-                ];
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-
-            case 'oauth':
-                return [
-                    'Authorization' => 'OAuth '.$this->oauth_token,
 <<<<<<< HEAD
                     'Content-Type' => 'application/json'];
 =======
                     'Content-Type' => 'application/json',
                 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'Content-Type' => 'application/json'];
+>>>>>>> a988596b (first)
+
+            case 'oauth':
+                return [
+                    'Authorization' => 'OAuth '.$this->oauth_token,
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    'Content-Type' => 'application/json'];
+=======
+                    'Content-Type' => 'application/json',
+                ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'Content-Type' => 'application/json'];
+>>>>>>> a988596b (first)
 
             case 'basic':
             default:
                 return [
                     'Authorization' => 'Basic '.base64_encode($this->username.':'.$this->password),
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Content-Type' => 'application/json'];
 =======
                     'Content-Type' => 'application/json',
                 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'Content-Type' => 'application/json'];
+>>>>>>> a988596b (first)
         }
     }
 }

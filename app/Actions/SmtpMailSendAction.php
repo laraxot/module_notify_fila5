@@ -14,9 +14,12 @@ class SmtpMailSendAction
     {
         throw new \RuntimeException('Removed debug dddx');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         /*
          * $smtpData = SmtpData::make();
          * $transport = $smtpData->getTransport();

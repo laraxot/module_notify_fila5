@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "AI agents docs index"
 type: concept
@@ -20,7 +23,10 @@ related:
   - "./08-verified-commit-governance.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # AI agents docs index
 
 **Path**: `bashscripts/ai/.agents/docs/`
@@ -33,6 +39,7 @@ related:
 |---|---|
 | [agents-overview.md](./agents-overview.md) | Preferenze utente stabili e orientamento generale |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | [architecture/00-INDEX.md](./architecture/00-INDEX.md) | Decisioni architetturali canoniche |
 | [architecture/filament-table-vs-blade-component.md](./architecture/filament-table-vs-blade-component.md) | Regola su Blade bridge-only e `XotBaseTableWidget` |
 | [../ralph/00-INDEX.md](../ralph/00-INDEX.md) | Albero canonico Ralph locale: template, prompt e governance del loop |
@@ -41,15 +48,24 @@ related:
 | [architecture/filament-table-vs-blade-component.md](./architecture/filament-table-vs-blade-component.md) | Regola su Blade bridge-only e `XotBaseTableWidget` |
 | [../ralph/00-index-1.md](../ralph/00-index-1.md) | Albero canonico Ralph locale: template, prompt e governance del loop |
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| [architecture/00-index-1.md](./architecture/00-index-1.md) | Decisioni architetturali canoniche |
+| [architecture/filament-table-vs-blade-component.md](./architecture/filament-table-vs-blade-component.md) | Regola su Blade bridge-only e `XotBaseTableWidget` |
+| [../ralph/00-index-1.md](../ralph/00-index-1.md) | Albero canonico Ralph locale: template, prompt e governance del loop |
+>>>>>>> a988596b (first)
 | [../../../../docs/project/gsd-and-bmad-workflow.md](../../../../docs/project/gsd-and-bmad-workflow.md) | Workflow canonico BMAD + GSD + Ralph a livello progetto |
 | [frontend/semantic-css.md](./frontend/semantic-css.md) | Semantic CSS principles da MaintainableCSS |
 | [../../../../docs/project/migration-philosophy-rule.md](../../../../docs/project/migration-philosophy-rule.md) | Regola canonica migrazioni: 1 modello = 1 migrazione |
 | [openviking-setup.md](./openviking-setup.md) | OpenViking context database: runtime globale, workspace progetto, comandi, MCP |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | [09-NOTEBOOKLM-SKILL.md](./09-NOTEBOOKLM-SKILL.md) | NotebookLM skill: query notebook Google con browser automation, zero allucinazioni |
 =======
 | [09-notebooklm-skill.md](./09-notebooklm-skill.md) | NotebookLM skill: query notebook Google con browser automation, zero allucinazioni |
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| [09-notebooklm-skill.md](./09-notebooklm-skill.md) | NotebookLM skill: query notebook Google con browser automation, zero allucinazioni |
+>>>>>>> a988596b (first)
 
 ## Regole vive di questa fase
 
@@ -73,6 +89,7 @@ related:
 ## Riferimenti bidirezionali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Architecture index](./architecture/00-INDEX.md)
 - [Agents overview](./agents-overview.md)
 - [AGENTS.md](../../../AGENTS.md)
@@ -83,6 +100,8 @@ related:
 - [TwentyOne docs index](../../../laravel/Themes/TwentyOne/docs/00-INDEX.md)
 - [Frontend rules index](../rules/frontend/00-INDEX.md)
 =======
+=======
+>>>>>>> a988596b (first)
 - [Architecture index](./architecture/00-index-1.md)
 - [Agents overview](./agents-overview.md)
 - [agents.md](../../../agents.md)
@@ -148,5 +167,8 @@ related:
 - [Forecast docs index](../../../laravel/Modules/Forecast/docs/00-index.md)
 - [TwentyOne docs index](../../../laravel/Themes/TwentyOne/docs/00-index.md)
 - [Frontend rules index](../rules/frontend/00-index.md)
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - [Semantic CSS Rule](../rules/frontend/semantic-css-rule.md)

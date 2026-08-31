@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "transaction-removal-fix-2025-10-15.deprecated"
+=======
+title: "transaction-removal-fix-2025-10-15"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "transaction-removal-fix-2025-10-15.deprecated deprecated"
+=======
+qmd: "transaction-removal-fix-2025-10-15 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./00-index-1.md"
@@ -18,6 +26,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [transaction-removal-fix-.deprecated.md](transaction-removal-fix-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created: 2025-10-15
@@ -307,3 +316,6 @@ Il progetto è ora pronto per migrazioni pulite e deploy production-ready! 🚀
 3. 💡 Documentazione pattern architetturali emersi
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [transaction-removal-fix.md](transaction-removal-fix.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

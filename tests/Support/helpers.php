@@ -3,10 +3,14 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Mockery\Expectation;
 =======
 use Mockery\CompositeExpectation;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Mockery\Expectation;
+>>>>>>> a988596b (first)
 use Mockery\MockInterface;
 
 if (! function_exists('typedMock')) {
@@ -53,6 +57,7 @@ if (! function_exists('mockExpectation')) {
      * sparsi in ogni test.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     function mockExpectation(MockInterface $mock, string $method): Expectation
     {
         /** @var Expectation $expectation */
@@ -61,6 +66,11 @@ if (! function_exists('mockExpectation')) {
     {
         /** @var CompositeExpectation $expectation */
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    function mockExpectation(MockInterface $mock, string $method): Expectation
+    {
+        /** @var Expectation $expectation */
+>>>>>>> a988596b (first)
         $expectation = $mock->shouldReceive($method);
 
         return $expectation;

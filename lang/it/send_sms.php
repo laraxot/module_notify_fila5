@@ -11,6 +11,9 @@ return [
         'label' => 'Invio SMS',
         'icon' => 'heroicon-o-chat-bubble-left-right',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         'sort' => 15],
     'fields' => [
         'driver' => [
@@ -56,6 +59,7 @@ return [
     'messages' => ['success' => 'SMS inviato con successo', 'error' => 'Si è verificato un errore durante l\'invio dell\'SMS', 'confirmation' => 'Sei sicuro di voler inviare questo SMS?'],
     'label' => 'Send Sms',
     'plural_label' => 'Send Sms (Plurale)'];
+<<<<<<< HEAD
 =======
         'sort' => 15,
     ],
@@ -78,3 +82,5 @@ return [
     'plural_label' => 'Send Sms (Plurale)',
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

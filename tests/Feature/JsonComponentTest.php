@@ -6,19 +6,26 @@ namespace Modules\Notify\Tests\Feature;
 
 use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 =======
 use Modules\Notify\Tests\TestCase;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Modules\Xot\Tests\XotBasePest;
+>>>>>>> a988596b (first)
 use PHPUnit\Framework\Assert;
 
 use function Safe\json_decode;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 uses(TestCase::class)->group('no-notify-db');
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 describe('Json Component', function (): void {
     test('_components_json_is_valid_and_contains_expected_components', function (): void {
         $filePath = base_path('Modules/Notify/app/Console/Commands/_components.json');
@@ -27,6 +34,9 @@ describe('Json Component', function (): void {
 
         $content = File::get($filePath);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         $decoded = json_decode($content, true);
         Assert::assertIsArray($decoded);
         Assert::assertCount(2, $decoded, 'Il file _components.json non contiene i 2 componenti attesi');
@@ -46,6 +56,7 @@ describe('Json Component', function (): void {
         Assert::assertContains('telegram-webhook', $names, 'Componente "telegram-webhook" non trovato');
         Assert::assertContains('SendMailCommand', $classes, 'Classe "SendMailCommand" non trovata');
         Assert::assertContains('TelegramWebhook', $classes, 'Classe "TelegramWebhook" non trovata');
+<<<<<<< HEAD
 =======
         /** @var array<int, array<string, string>>|null $json */
         $json = json_decode($content, true);
@@ -63,5 +74,7 @@ describe('Json Component', function (): void {
         Assert::assertContains('send-mail-command', $names);
         Assert::assertContains('telegram-webhook', $names);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     });
 });

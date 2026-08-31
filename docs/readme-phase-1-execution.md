@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "📖 README - PHASE 1 EXECUTION"
 type: concept
@@ -20,7 +23,10 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # 📖 README - PHASE 1 EXECUTION
 ## Entry Point for All Team Members
 
@@ -53,6 +59,7 @@ related:
 | Document | Purpose | Read Time |
 |----------|---------|-----------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **PHASE-1-EXECUTION-DASHBOARD.md** | Multi-agent coordination board | 5 min |
 | **PHASE-1-EXECUTION-STATUS.md** | Real-time progress tracking | 5 min |
 | **PHASE-1-RESEARCH-COMPLETE.md** | Session summary (Italian) | 10 min |
@@ -61,6 +68,11 @@ related:
 | **PHASE-1-EXECUTION-STATUS.md** | Real-time progress tracking | 5 min |
 | **phase-1-research-complete.md** | Session summary (Italian) | 10 min |
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| **phase-1-execution-dashboard.md** | Multi-agent coordination board | 5 min |
+| **PHASE-1-EXECUTION-STATUS.md** | Real-time progress tracking | 5 min |
+| **phase-1-research-complete.md** | Session summary (Italian) | 10 min |
+>>>>>>> a988596b (first)
 
 ### 📋 STRATEGY & PLANNING
 | Document | Purpose | Read Time |
@@ -68,19 +80,28 @@ related:
 | **PHASE-1-STRATEGY.md** | Complete research & strategy | 20 min |
 | **GSD-PHASE-1-EXECUTION.md** | Execution plan with all 6 subtasks | 15 min |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **00-INDEX.md** | Master documentation index | 10 min |
 =======
 | **00-index-1.md** | Master documentation index | 10 min |
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| **00-index-1.md** | Master documentation index | 10 min |
+>>>>>>> a988596b (first)
 
 ### 🔧 TOOLS & SCRIPTS
 | Document | Purpose | Read Time |
 |----------|---------|-----------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **bashscripts/docs/html/INDEX.md** | HTML comparison tools docs | 10 min |
 =======
 | **bashscripts/docs/html/index.md** | HTML comparison tools docs | 10 min |
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| **bashscripts/docs/html/INDEX.md** | HTML comparison tools docs | 10 min |
+| **bashscripts/docs/html/index.md** | HTML comparison tools docs | 10 min |
+>>>>>>> a988596b (first)
 
 ### 👥 TASK-SPECIFIC WORKFLOWS
 | Document | For | Purpose | Read Time |
@@ -95,10 +116,14 @@ laravel/Themes/Sixteen/docs/
 ├─ PHASE-1-STRATEGY.md                    (strategy)
 ├─ GSD-PHASE-1-EXECUTION.md               (execution plan)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├─ 00-INDEX.md                            (master index)
 =======
 ├─ 00-index-1.md                            (master index)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+├─ 00-index-1.md                            (master index)
+>>>>>>> a988596b (first)
 ├─ PHASE-1-EXECUTION-STATUS.md            (progress tracking)
 ├─ body-structure-comparison/
 │  └─ segnalazioni-elenco/
@@ -152,10 +177,14 @@ laravel/Themes/Sixteen/docs/
 - ⏳ Input: Final comparison results from Subtask 5
 - 📝 Create: PHASE-1-COMPLETION-REPORT.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - 🔄 Update: 00-INDEX.md with Phase 1 status
 =======
 - 🔄 Update: 00-index-1.md with Phase 1 status
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- 🔄 Update: 00-index-1.md with Phase 1 status
+>>>>>>> a988596b (first)
 
 **Read First**:
 1. PHASE-1-EXECUTION-STATUS.md (overview)
@@ -177,8 +206,12 @@ laravel/Themes/Sixteen/docs/
 **Subtask 4** (PARALLEL with Subtask 3):
 - 📝 Input: PHASE-1-FINDINGS.md from Researcher
 <<<<<<< HEAD
+<<<<<<< HEAD
 - 🔧 File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 =======
+=======
+- 🔧 File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> a988596b (first)
 - 🔧 File: `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
 - ✅ Tasks: Verify all sections, check translation keys
 - 📤 Output: Verified JSON file
@@ -252,12 +285,20 @@ PHASE 1 WORKFLOW (as of 07:50 UTC)
 ## 🔗 KEY CROSS-REFERENCES
 
 **Translation Pattern** (CRITICAL):
+<<<<<<< HEAD
+=======
+- ✅ Correct: `fixcity::segnalazione.fields.title.label`
+>>>>>>> a988596b (first)
 - ✅ Correct: `ptv::segnalazione.fields.title.label`
 - ❌ Wrong: `SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE`
 - See: PHASE-1-STRATEGY.md § Translation Patterns
 
 **File Locations**:
 - ✅ Blade: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
+<<<<<<< HEAD
+=======
+- ✅ JSON: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> a988596b (first)
 - ✅ JSON: `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
 - ✅ Script: `./bashscripts/body/html-structure-compare.sh`
 - ❌ DON'T CREATE: `segnalazioni-elenco.blade.php` (use [slug].blade.php)
@@ -320,6 +361,10 @@ Before starting your subtask:
 **For questions about**:
 - **Strategy**: PHASE-1-STRATEGY.md
 - **Execution**: GSD-PHASE-1-EXECUTION.md
+<<<<<<< HEAD
+=======
+- **Tools**: bashscripts/docs/html/INDEX.md
+>>>>>>> a988596b (first)
 - **Tools**: bashscripts/docs/html/index.md
 - **Blade fixes**: EXECUTOR-2-SUBTASKS-3-4.md
 - **Analysis**: SUBTASK-2-ANALYSIS-WORKFLOW.md
@@ -556,7 +601,10 @@ laravel/Themes/Sixteen/docs/
 **Subtask 4** (PARALLEL with Subtask 3):
 - 📝 Input: PHASE-1-FINDINGS.md from Researcher
 - 🔧 File: `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - ✅ Tasks: Verify all sections, check translation keys
 - 📤 Output: Verified JSON file
 
@@ -630,20 +678,28 @@ PHASE 1 WORKFLOW (as of 07:50 UTC)
 
 **Translation Pattern** (CRITICAL):
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Correct: `fixcity::segnalazione.fields.title.label`
 =======
 - ✅ Correct: `ptv::segnalazione.fields.title.label`
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ✅ Correct: `ptv::segnalazione.fields.title.label`
+>>>>>>> a988596b (first)
 - ❌ Wrong: `SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE`
 - See: PHASE-1-STRATEGY.md § Translation Patterns
 
 **File Locations**:
 - ✅ Blade: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ JSON: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 =======
 - ✅ JSON: `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ✅ JSON: `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> a988596b (first)
 - ✅ Script: `./bashscripts/body/html-structure-compare.sh`
 - ❌ DON'T CREATE: `segnalazioni-elenco.blade.php` (use [slug].blade.php)
 
@@ -706,10 +762,14 @@ Before starting your subtask:
 - **Strategy**: PHASE-1-STRATEGY.md
 - **Execution**: GSD-PHASE-1-EXECUTION.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Tools**: bashscripts/docs/html/INDEX.md
 =======
 - **Tools**: bashscripts/docs/html/index.md
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Tools**: bashscripts/docs/html/index.md
+>>>>>>> a988596b (first)
 - **Blade fixes**: EXECUTOR-2-SUBTASKS-3-4.md
 - **Analysis**: SUBTASK-2-ANALYSIS-WORKFLOW.md
 - **Status**: PHASE-1-EXECUTION-STATUS.md
@@ -785,18 +845,24 @@ Before starting your subtask:
 | Strategy | PHASE-1-STRATEGY.md | laravel/Themes/Sixteen/docs/ | ✅ DONE |
 | Execution Plan | GSD-PHASE-1-EXECUTION.md | laravel/Themes/Sixteen/docs/ | ✅ DONE |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Master Index | 00-INDEX.md | laravel/Themes/Sixteen/docs/ | ✅ DONE |
 | Tool Docs | bashscripts/docs/html/INDEX.md | bashscripts/docs/html/ | ✅ DONE |
 | Comparison Script | html-structure-compare.sh | bashscripts/body/ | ✅ READY |
 | Blade Fixes | [slug].blade.php | laravel/Themes/Sixteen/resources/views/pages/tests/ | ⏳ PENDING |
 | JSON Verify | tests.segnalazioni-elenco.json | laravel/config/local/fixcity/database/content/pages/ | ⏳ PENDING |
 =======
+=======
+>>>>>>> a988596b (first)
 | Master Index | 00-index.md | laravel/Themes/Sixteen/docs/ | ✅ DONE |
 | Tool Docs | bashscripts/docs/html/index.md | bashscripts/docs/html/ | ✅ DONE |
 | Comparison Script | html-structure-compare.sh | bashscripts/body/ | ✅ READY |
 | Blade Fixes | [slug].blade.php | laravel/Themes/Sixteen/resources/views/pages/tests/ | ⏳ PENDING |
 | JSON Verify | tests.segnalazioni-elenco.json | laravel/config/local/ptv/database/content/pages/ | ⏳ PENDING |
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 | Analysis Results | PHASE-1-FINDINGS.md | laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio/ | ⏳ PENDING |
 | Completion | PHASE-1-COMPLETION-REPORT.md | laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio/ | ⏳ PENDING |
 

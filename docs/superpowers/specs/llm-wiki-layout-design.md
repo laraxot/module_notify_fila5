@@ -1,5 +1,8 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 title: "2026-04-15-llm-wiki-layout-design"
 type: concept
 tags: [deprecated]
@@ -17,6 +20,7 @@ related:
 ---
 
 > Questo file è stato rinominato in [llm-wiki-layout-design.md](llm-wiki-layout-design.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+<<<<<<< HEAD
 =======
 created_at: '2026-04-15'
 ---
@@ -93,3 +97,5 @@ The bullet should be placed under the **“leggi prima”** section or a dedicat
 ---
 *Spec written according to the Superpowers brainstorming workflow. Please review and approve before proceeding to implementation.*
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

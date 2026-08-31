@@ -152,9 +152,13 @@ Use template: .github/get-shit-done/templates/research-project/{FILE}
 | CONSUMER | Specific libraries with versions for NEW capabilities, integration points, what NOT to add | Table stakes vs differentiators vs anti-features, complexity noted, dependencies on existing | Integration points, new components, data flow changes, suggested build order | Warning signs, prevention strategy, which phase should address it |
 | GATES | Versions current (verify with Context7), rationale explains WHY, integration considered | Categories clear, complexity noted, dependencies identified | Integration points identified, new vs modified explicit, build order considers deps | Pitfalls specific to adding these features, integration pitfalls covered, prevention actionable |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | FILE | STACK.md | FEATURES.md | ARCHITECTURE.md | PITFALLS.md |
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| FILE | STACK.md | FEATURES.md | ARCHITECTURE.md | PITFALLS.md |
+>>>>>>> a988596b (first)
 | FILE | STACK.md | FEATURES.md | architecture.md | PITFALLS.md |
 
 After all 4 complete, spawn synthesizer:
@@ -167,9 +171,13 @@ Synthesize research outputs into SUMMARY.md.
 - .planning/research/STACK.md
 - .planning/research/FEATURES.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - .planning/research/ARCHITECTURE.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- .planning/research/ARCHITECTURE.md
+>>>>>>> a988596b (first)
 - .planning/research/architecture.md
 - .planning/research/PITFALLS.md
 </files_to_read>

@@ -6,7 +6,10 @@ updated: 2026-05-11
 tags: [qmd, search, docs, performance]
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -77,7 +80,10 @@ qmd search "form" -c notify  # Solo questo modulo
 
 ---
 *Cache: ~/.cache/qmd-cache/ | Index: ~/.cache/qmd-cache/index*
+<<<<<<< HEAD
 
+=======
+>>>>>>> a988596b (first)
 ---
 
 <!-- Merged from QMD-SETUP.md, which collided with this file on case-insensitive filesystems. -->
@@ -89,7 +95,10 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [qmd, search, docs, performance]
 related:
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
   - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
 ---
 
@@ -150,10 +159,14 @@ qmd search "form" -c notify  # Solo questo modulo
 - [Global QMD Config](../qmd.md) (root docs)
 - [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
 =======
 - [On-Demand Pattern](./on-demand-pattern.md)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [On-Demand Pattern](./on-demand-pattern.md)
+>>>>>>> a988596b (first)
 
 ---
 *Cache: ~/.cache/qmd-cache/ | Index: ~/.cache/qmd-cache/index*

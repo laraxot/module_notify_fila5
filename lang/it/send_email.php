@@ -8,6 +8,9 @@ return [
         'group' => ['label' => 'Sistema', 'description' => 'Funzionalità per l\'invio di email attraverso il sistema di notifiche'],
         'icon' => 'heroicon-o-envelope',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         'sort' => 49],
     'sections' => [
         'email_details' => [
@@ -109,6 +112,7 @@ return [
             'description' => 'File da allegare all\'email',
             'tooltip' => 'Gli allegati verranno inviati insieme all\'email',
             'helper_text' => ''],
+<<<<<<< HEAD
 =======
         'sort' => 49,
     ],
@@ -134,6 +138,8 @@ return [
         'parameters' => ['label' => 'Parametri Template', 'placeholder' => '{"nome": "Mario", "cognome": "Rossi"}', 'help' => 'Parametri in formato JSON per personalizzare il template selezionato', 'description' => 'Parametri per personalizzare il template', 'tooltip' => 'I parametri sostituiscono i placeholder nel template', 'helper_text' => ''],
         'attachments' => ['label' => 'Allegati', 'placeholder' => 'Seleziona i file da allegare', 'help' => 'File da allegare all\'email (opzionale, max 10MB per file]', 'description' => 'File da allegare all\'email', 'tooltip' => 'Gli allegati verranno inviati insieme all\'email', 'helper_text' => ''],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         'priority' => [
             'label' => 'Priorità',
             'placeholder' => 'Seleziona la priorità dell\'email',
@@ -142,11 +148,15 @@ return [
             'tooltip' => 'La priorità influenza l\'ordine di invio delle email',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'options' => ['normal' => 'Normale', 'high' => 'Alta', 'urgent' => 'Urgente']],
 =======
             'options' => ['normal' => 'Normale', 'high' => 'Alta', 'urgent' => 'Urgente'],
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'options' => ['normal' => 'Normale', 'high' => 'Alta', 'urgent' => 'Urgente']],
+>>>>>>> a988596b (first)
         'scheduled_at' => ['label' => 'Data e Ora Programmate', 'placeholder' => 'Seleziona data e ora per l\'invio programmato', 'help' => 'Programma l\'invio dell\'email per una data e ora specifiche', 'description' => 'Data e ora per l\'invio programmato dell\'email', 'tooltip' => 'L\'email verrà inviata automaticamente all\'orario specificato', 'helper_text' => ''],
         'category' => [
             'label' => 'Categoria',
@@ -155,6 +165,7 @@ return [
             'description' => 'Categoria dell\'email per organizzazione',
             'tooltip' => 'La categoria aiuta a organizzare e filtrare le email',
             'helper_text' => '',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'options' => ['marketing' => 'Marketing', 'transactional' => 'Transazionale', 'notification' => 'Notifica', 'newsletter' => 'Newsletter', 'system' => 'Sistema']],
         'tracking_enabled' => ['label' => 'Abilita Tracking', 'placeholder' => 'Abilita il tracking dell\'email', 'help' => 'Traccia apertura e click dell\'email', 'description' => 'Abilita il tracking per monitorare l\'engagement', 'tooltip' => 'Il tracking permette di monitorare l\'apertura e i click', 'helper_text' => ''],
@@ -166,6 +177,11 @@ return [
         'recipient' => ['label' => 'recipient', 'placeholder' => 'recipient', 'helper_text' => 'recipient', 'description' => 'recipient'],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'options' => ['marketing' => 'Marketing', 'transactional' => 'Transazionale', 'notification' => 'Notifica', 'newsletter' => 'Newsletter', 'system' => 'Sistema']],
+        'tracking_enabled' => ['label' => 'Abilita Tracking', 'placeholder' => 'Abilita il tracking dell\'email', 'help' => 'Traccia apertura e click dell\'email', 'description' => 'Abilita il tracking per monitorare l\'engagement', 'tooltip' => 'Il tracking permette di monitorare l\'apertura e i click', 'helper_text' => ''],
+        'recipient' => ['label' => 'recipient', 'placeholder' => 'recipient', 'helper_text' => 'recipient', 'description' => 'recipient']],
+>>>>>>> a988596b (first)
     'actions' => [
         'send' => [
             'label' => 'Invia Email',
@@ -174,50 +190,69 @@ return [
             'confirmation' => 'Sei sicuro di voler inviare questa email?',
             'tooltip' => 'Invia l\'email al destinatario specificato',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'modal' => ['heading' => 'Conferma Invio Email', 'description' => 'Stai per inviare un\'email. Questa azione non può essere annullata.', 'confirm' => 'Invia Email', 'cancel' => 'Annulla']],
 =======
             'modal' => ['heading' => 'Conferma Invio Email', 'description' => 'Stai per inviare un\'email. Questa azione non può essere annullata.', 'confirm' => 'Invia Email', 'cancel' => 'Annulla'],
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'modal' => ['heading' => 'Conferma Invio Email', 'description' => 'Stai per inviare un\'email. Questa azione non può essere annullata.', 'confirm' => 'Invia Email', 'cancel' => 'Annulla']],
+>>>>>>> a988596b (first)
         'preview' => [
             'label' => 'Anteprima',
             'success' => 'Anteprima dell\'email generata correttamente',
             'error' => 'Errore nella generazione dell\'anteprima',
             'tooltip' => 'Visualizza l\'anteprima dell\'email prima dell\'invio',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'modal' => ['heading' => 'Anteprima Email', 'description' => 'Visualizza come apparirà l\'email al destinatario', 'close' => 'Chiudi']],
 =======
             'modal' => ['heading' => 'Anteprima Email', 'description' => 'Visualizza come apparirà l\'email al destinatario', 'close' => 'Chiudi'],
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'modal' => ['heading' => 'Anteprima Email', 'description' => 'Visualizza come apparirà l\'email al destinatario', 'close' => 'Chiudi']],
+>>>>>>> a988596b (first)
         'save_draft' => [
             'label' => 'Salva Bozza',
             'success' => 'Bozza salvata correttamente',
             'error' => 'Errore nel salvataggio della bozza',
             'tooltip' => 'Salva l\'email come bozza per inviarla successivamente',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'modal' => ['heading' => 'Salva Bozza', 'description' => 'Salva l\'email come bozza per inviarla successivamente', 'confirm' => 'Salva Bozza', 'cancel' => 'Annulla']],
 =======
             'modal' => ['heading' => 'Salva Bozza', 'description' => 'Salva l\'email come bozza per inviarla successivamente', 'confirm' => 'Salva Bozza', 'cancel' => 'Annulla'],
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'modal' => ['heading' => 'Salva Bozza', 'description' => 'Salva l\'email come bozza per inviarla successivamente', 'confirm' => 'Salva Bozza', 'cancel' => 'Annulla']],
+>>>>>>> a988596b (first)
         'schedule' => [
             'label' => 'Programma Invio',
             'success' => 'Email programmata per l\'invio',
             'error' => 'Errore nella programmazione dell\'invio',
             'tooltip' => 'Programma l\'invio dell\'email per una data e ora specifiche',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'modal' => ['heading' => 'Programma Invio Email', 'description' => 'Seleziona la data e l\'ora per l\'invio programmato', 'datetime_label' => 'Data e ora di invio', 'timezone' => 'Fuso orario', 'confirm' => 'Programma Invio', 'cancel' => 'Annulla']],
 =======
             'modal' => ['heading' => 'Programma Invio Email', 'description' => 'Seleziona la data e l\'ora per l\'invio programmato', 'datetime_label' => 'Data e ora di invio', 'timezone' => 'Fuso orario', 'confirm' => 'Programma Invio', 'cancel' => 'Annulla'],
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'modal' => ['heading' => 'Programma Invio Email', 'description' => 'Seleziona la data e l\'ora per l\'invio programmato', 'datetime_label' => 'Data e ora di invio', 'timezone' => 'Fuso orario', 'confirm' => 'Programma Invio', 'cancel' => 'Annulla']],
+>>>>>>> a988596b (first)
         'test_smtp' => [
             'label' => 'Test SMTP',
             'success' => 'Test SMTP completato con successo',
             'error' => 'Errore nel test SMTP',
             'tooltip' => 'Testa la configurazione SMTP prima dell\'invio',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
             'modal' => ['heading' => 'Test Configurazione SMTP', 'description' => 'Verifica la configurazione SMTP prima dell\'invio', 'confirm' => 'Esegui Test', 'cancel' => 'Annulla']],
         'emailFormActions' => ['label' => 'emailFormActions', 'icon' => 'emailFormActions', 'tooltip' => 'emailFormActions'],
         'logout' => ['tooltip' => 'logout'],
@@ -300,6 +335,7 @@ return [
         'text_content' => 'Contenuto testuale dell\'email in formato plain text'],
     'label' => 'Send Email',
     'plural_label' => 'Send Email (Plurale)'];
+<<<<<<< HEAD
 =======
             'modal' => ['heading' => 'Test Configurazione SMTP', 'description' => 'Verifica la configurazione SMTP prima dell\'invio', 'confirm' => 'Esegui Test', 'cancel' => 'Annulla'],
         ],
@@ -326,3 +362,5 @@ return [
     'plural_label' => 'Send Email (Plurale)',
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

@@ -8,13 +8,17 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Carbon;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 use Modules\Notify\Database\Factories\NotificationTypeFactory;
 use Override;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property int $id
  * @property string|null $name
@@ -26,10 +30,15 @@ use Override;
  * @property int $id
  * @property string $name
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+ * @property int $id
+ * @property string|null $name
+>>>>>>> a988596b (first)
  * @property string|null $slug
  * @property string|null $description
  * @property string|null $category
  * @property bool $is_active
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property array<string, mixed>|null $channels
  * @property array<string, mixed>|null $settings
@@ -71,6 +80,16 @@ use Override;
 =======
  *
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+ * @property array<string, mixed>|null $channels
+ * @property array<string, mixed>|null $settings
+ * @property string|null $template
+ *
+ * @method static Builder<static>|NotificationType newModelQuery()
+ * @method static Builder<static>|NotificationType newQuery()
+ * @method static Builder<static>|NotificationType query()
+ *
+>>>>>>> a988596b (first)
  * @mixin \Eloquent
  */
 class NotificationType extends Model
@@ -88,11 +107,15 @@ class NotificationType extends Model
         'channels',
         'settings',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'template'];
 =======
         'template',
     ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'template'];
+>>>>>>> a988596b (first)
 
     /** @return array<string, string> */
     #[Override]
@@ -102,10 +125,14 @@ class NotificationType extends Model
             'is_active' => 'boolean',
             'channels' => 'array',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'settings' => 'array'];
 =======
             'settings' => 'array',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'settings' => 'array'];
+>>>>>>> a988596b (first)
     }
 }

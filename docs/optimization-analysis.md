@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # notify module documentation optimization analysis
 
 ## current state analysis
@@ -110,6 +111,8 @@ docs/
 - **consistent quality**: uniform documentation standards
 - **faster onboarding**: streamlined learning path
 =======
+=======
+>>>>>>> a988596b (first)
 # Analisi di Ottimizzazione - Modulo Notify
 
 ## 🎯 Principi Applicati: DRY + KISS + SOLID + ROBUST + Laraxot
@@ -179,4 +182,7 @@ class NotificationTemplateCache
 ---
 *Stato: 🟡 Funzionale ma Necessita Reliability Enhancement*
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

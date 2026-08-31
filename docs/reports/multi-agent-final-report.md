@@ -229,9 +229,13 @@ fd4c8475 Add multi-agent collaboration issue template and docs
 - [Issue Template](docs/github/ISSUE_multi-agent-collaboration.md)
 - [Discussion Template](.github/DISCUSSION_TEMPLATE/sync-script-coordination.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
+>>>>>>> a988596b (first)
 - [Actions Tab](https://github.com/laraxot/platform/actions)
 
 ### Documentation

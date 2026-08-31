@@ -179,6 +179,7 @@ try {
 
 - [Documentazione Root](../../../../../docs/readme.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Modulo Notify](./readme.md)
 - [Documentazione Template Email](./email_templates.md)
 - [Guida all'utilizzo di SpatieEmail](./spatie_email_usage_guide.md)
@@ -187,4 +188,9 @@ try {
 - [Documentazione Template Email](./email_templates.md)
 - [Guida all'utilizzo di SpatieEmail](./spatie-email-usage-guide.md)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [Documentazione Modulo Notify](./readme.md)
+- [Documentazione Template Email](./email_templates.md)
+- [Guida all'utilizzo di SpatieEmail](./spatie_email_usage_guide.md)
+>>>>>>> a988596b (first)
 - [Documentazione Filament Resources](./filament-resources.md)

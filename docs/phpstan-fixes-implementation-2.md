@@ -133,10 +133,15 @@ protected function getProjectNamespace(): string
 # Test PHPStan
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_Quaeris/laravel
 cd /var/www/html/_bases/base_techplanner_fila5_mono/laravel
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cd /var/www/html/_bases/base_Quaeris/laravel
+cd /var/www/html/_bases/base_techplanner_fila5_mono/laravel
+>>>>>>> a988596b (first)
 cd /var/www/_bases/base_ptvx_fila5/laravel
 cd /var/www/html/_bases/base_ptvx_fila5/laravel
 ./vendor/bin/phpstan analyze Modules/Notify --level=9

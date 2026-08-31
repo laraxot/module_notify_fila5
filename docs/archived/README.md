@@ -9,9 +9,13 @@
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+>>>>>>> a988596b (first)
 [![Notify Platform](https://img.shields.io/badge/Platform-Notify-008758.svg)](#)
 
 > **Il cittadino sa cosa succede al suo ticket.** Email, template, canali — orchestrazione notifiche enterprise.
@@ -58,7 +62,11 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Modulo** `notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Modulo** `notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+>>>>>>> a988596b (first)
 **Modulo** `notify` · **Laraxot** · **Notify Platform** · PHPStan 10 · Filament 5

@@ -53,9 +53,13 @@
 ```blade
 {{-- Componenti piccoli si combinano —}}
 <<<<<<< HEAD
+<<<<<<< HEAD
 @livewire('view-predict-widget')
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+@livewire('view-predict-widget')
+>>>>>>> a988596b (first)
 @livewire('view-forecast-widget')
     ├── header.blade.php
     ├── stats-bar.blade.php
@@ -139,9 +143,13 @@ if ($isBinary) {
 | Component | File | Reusability |
 |-----------|------|-------------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Header | `header.blade.php` | All predict pages |
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| Header | `header.blade.php` | All predict pages |
+>>>>>>> a988596b (first)
 | Header | `header.blade.php` | All forecast pages |
 | Sidebar | `sidebar-enhanced.blade.php` | All detail pages |
 | Tabs | `tabs.blade.php` | All content types |
@@ -157,18 +165,26 @@ if ($isBinary) {
      * 
      * @var array $data Input data
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @var \Modules\Predict\Models\Predict $predict Model
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+     * @var \Modules\Predict\Models\Predict $predict Model
+>>>>>>> a988596b (first)
      * @var \Modules\Forecast\Models\Forecast $forecast Model
      */
     
     // Initialize with defaults
     $data = $data ?? [];
 <<<<<<< HEAD
+<<<<<<< HEAD
     $predict = $predict ?? null;
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    $predict = $predict ?? null;
+>>>>>>> a988596b (first)
     $forecast = $forecast ?? null;
     
     // Helper function for translations
@@ -182,9 +198,13 @@ if ($isBinary) {
     {{-- Header --}}
     <div class="header">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <h3>{{ $tx('predict::titles.component', 'Title') }}</h3>
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        <h3>{{ $tx('predict::titles.component', 'Title') }}</h3>
+>>>>>>> a988596b (first)
         <h3>{{ $tx('forecast::titles.component', 'Title') }}</h3>
     </div>
     
@@ -213,10 +233,15 @@ if ($isBinary) {
 ```blade
 {{-- Load heavy components last —}}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-predict-view.outcomes-grid :outcomes="$outcomes" />
 <x-predict-view.order-book :orderBook="$orderBook" />
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+<x-predict-view.outcomes-grid :outcomes="$outcomes" />
+<x-predict-view.order-book :orderBook="$orderBook" />
+>>>>>>> a988596b (first)
 <x-forecast-view.outcomes-grid :outcomes="$outcomes" />
 <x-forecast-view.order-book :orderBook="$orderBook" />
 @livewire('comments-widget') {{-- Lazy via Livewire —}}
@@ -262,9 +287,13 @@ it('renders outcomes grid with 6 outcomes', function () {
     ];
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     $html = Blade::render('<x-predict-view.outcomes-grid :outcomes="$outcomes" />', [
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    $html = Blade::render('<x-predict-view.outcomes-grid :outcomes="$outcomes" />', [
+>>>>>>> a988596b (first)
     $html = Blade::render('<x-forecast-view.outcomes-grid :outcomes="$outcomes" />', [
         'outcomes' => $outcomes
     ]);

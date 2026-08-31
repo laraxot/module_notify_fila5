@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione Conflitti Git e Correzione Errori PHPStan - Modulo Notify
 
 ## Data
@@ -327,6 +328,8 @@ I pattern di type safety implementati possono essere applicati a:
 *Metodologia: Type safety + Riusabilità*  
 *Risultato: 0 errori PHPStan Level 9*
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "Correzioni Phpstan Completate 3"
 type: concept
@@ -347,4 +350,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

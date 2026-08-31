@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "Architecture Diagrams & Visual Reference"
 type: concept
@@ -217,6 +220,10 @@ HTTP Request: /it/tests/homepage
 ┌──────────────────────────────────────┐
 │  PageSlugMiddleware                  │
 │  Load from JSON config               │
+<<<<<<< HEAD
+=======
+│  laravel/config/local/fixcity/       │
+>>>>>>> a988596b (first)
 │  laravel/config/local/ptv/       │
 │  database/content/pages/[slug].json  │
 └───────┬──────────────────────────────┘
@@ -293,6 +300,10 @@ Admin Panel
 
 ```
 1. HTTP Request
+<<<<<<< HEAD
+=======
+   ├─ URL: http://fixcity.local/it/tests/homepage
+>>>>>>> a988596b (first)
    ├─ URL: http://ptv.local/it/tests/homepage
    └─ Method: GET
 
@@ -457,12 +468,18 @@ Modules/ModuleName/
 **Diagram Type:** ASCII Architecture Diagrams  
 **Related Docs:** 15+ connected documentation files  
 **Cross-Module:** Xot, Cms, Tenant, Media, Filament, Themes
+<<<<<<< HEAD
 
+=======
+>>>>>>> a988596b (first)
 ---
 
 <!-- Merged from ARCHITECTURE-DIAGRAMS.md, which collided with this file on case-insensitive filesystems. -->
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # Architecture Diagrams & Visual Reference
 
 **📍 Cross-References:**
@@ -588,10 +605,14 @@ themes/
 ├── Sixteen/  ← ACTIVE THEME
 │   ├── docs/
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   │   ├── 00-INDEX.md ◄────────────────┐
 =======
 │   │   ├── 00-index.md ◄────────────────┐
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+│   │   ├── 00-index.md ◄────────────────┐
+>>>>>>> a988596b (first)
 │   │   ├── architecture/                │
 │   │   │   ├── layout-hierarchy.md      │
 │   │   │   └── component-structure.md   │
@@ -665,10 +686,14 @@ HTTP Request: /it/tests/homepage
 │  PageSlugMiddleware                  │
 │  Load from JSON config               │
 <<<<<<< HEAD
+<<<<<<< HEAD
 │  laravel/config/local/fixcity/       │
 =======
 │  laravel/config/local/ptv/       │
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+│  laravel/config/local/ptv/       │
+>>>>>>> a988596b (first)
 │  database/content/pages/[slug].json  │
 └───────┬──────────────────────────────┘
         │
@@ -745,10 +770,14 @@ Admin Panel
 ```
 1. HTTP Request
 <<<<<<< HEAD
+<<<<<<< HEAD
    ├─ URL: http://fixcity.local/it/tests/homepage
 =======
    ├─ URL: http://ptv.local/it/tests/homepage
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+   ├─ URL: http://ptv.local/it/tests/homepage
+>>>>>>> a988596b (first)
    └─ Method: GET
 
 2. Routing (Folio)
@@ -762,16 +791,22 @@ Admin Panel
 4. Middleware Chain
    ├─ PageSlugMiddleware
 <<<<<<< HEAD
+<<<<<<< HEAD
    │  ├─ Read APP_URL → fixcity.local
    │  ├─ Extract domain → fixcity.local
    │  ├─ Reverse parts → [local, fixcity]
    │  ├─ Build config path → local/fixcity
 =======
+=======
+>>>>>>> a988596b (first)
    │  ├─ Read APP_URL → ptv.local
    │  ├─ Extract domain → ptv.local
    │  ├─ Reverse parts → [local, ptv]
    │  ├─ Build config path → local/ptv
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
    │  ├─ Load theme: Sixteen
    │  └─ Load JSON: pages/homepage.json
    │
@@ -888,10 +923,14 @@ Modules/ModuleName/
 │
 ├── docs/
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   ├── 00-INDEX.md
 =======
 │   ├── 00-index.md
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+│   ├── 00-index.md
+>>>>>>> a988596b (first)
 │   ├── architecture/
 │   ├── guides/
 │   └── reference/

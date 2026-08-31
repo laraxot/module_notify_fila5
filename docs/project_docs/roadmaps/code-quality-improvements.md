@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "CODE_QUALITY_IMPROVEMENTS_2025-10-01.deprecated"
+=======
+title: "CODE_QUALITY_IMPROVEMENTS_2025-10-01"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "code_quality_improvements_2025-10-01.deprecated deprecated"
+=======
+qmd: "code_quality_improvements_2025-10-01 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./agid-analysis-implementation-.md"
@@ -14,6 +22,7 @@ related:
   - "./changelog-docs-update-.md"
   - "./changelog-docs-update-1.md"
   - "./changelog-docs-update.md"
+<<<<<<< HEAD
   - "./code-quality-improvements-1.md"
   - "./code-quality-improvements.md"
 ---
@@ -226,3 +235,10 @@ The codebase maintains **PHPStan Level 9 with 0 errors**, demonstrating excellen
 
 *This report is part of the ongoing code quality and documentation improvement initiative for the FixCity platform.*
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+  - "./code-quality-improvements-.md"
+  - "./code-quality-improvements-1.md"
+---
+
+> Questo file è stato rinominato in [code-quality-improvements.md](code-quality-improvements.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

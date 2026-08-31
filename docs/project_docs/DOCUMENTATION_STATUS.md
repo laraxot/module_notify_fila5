@@ -9,9 +9,13 @@
 ## 🎯 EXECUTIVE SUMMARY
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Stato della documentazione del progetto FixCity aggiornato a Ottobre 2025. La documentazione è in fase di
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Stato della documentazione del progetto FixCity aggiornato a Ottobre 2025. La documentazione è in fase di
+>>>>>>> a988596b (first)
 Stato della documentazione del progetto Notify aggiornato a Ottobre 2025. La documentazione è in fase di
 consolidamento seguendo le roadmap definite. Focus attuale: completamento documentazione moduli e temi.
 
@@ -37,9 +41,13 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### ✅ Fixcity (Core Business) - 85% COMPLETATO
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+#### ✅ Fixcity (Core Business) - 85% COMPLETATO
+>>>>>>> a988596b (first)
 #### ✅ App (Core Business) - 85% COMPLETATO
 **Documentazione Presente**:
 - [x] README.md completo
@@ -348,9 +356,13 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 
 ### Week 1-2: Moduli Core
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Completare API documentation Fixcity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [ ] Completare API documentation Fixcity
+>>>>>>> a988596b (first)
 - [ ] Completare API documentation App
 - [ ] Completare User guide 2FA/SSO
 - [ ] Aggiornare Xot migration guide
@@ -408,9 +420,13 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 
 ### Documentazione Moduli
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Fixcity Module](../laravel/Modules/Fixcity/docs/)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [Fixcity Module](../laravel/Modules/Fixcity/docs/)
+>>>>>>> a988596b (first)
 - [App Module](../laravel/Modules/App/docs/)
 - [User Module](../laravel/Modules/User/docs/)
 - [Xot Module](../laravel/Modules/Xot/docs/)

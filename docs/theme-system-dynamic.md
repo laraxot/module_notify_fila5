@@ -36,9 +36,13 @@ config/{environment}/{domain}/xra.php
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Example** (`config/localhost/fixcity/xra.php`):
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Example** (`config/localhost/fixcity/xra.php`):
+>>>>>>> a988596b (first)
 **Example** (`config/localhost/ptv/xra.php`):
 ```php
 <?php
@@ -145,9 +149,13 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 1. Edit config file:
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // config/localhost/fixcity/xra.php
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+// config/localhost/fixcity/xra.php
+>>>>>>> a988596b (first)
 // config/localhost/ptv/xra.php
 return [
     'pub_theme' => 'TwentyOne',  // Change theme
@@ -172,9 +180,13 @@ THEME_REGISTER_PUB=true
 2. Update config to read env:
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // config/localhost/fixcity/xra.php
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+// config/localhost/fixcity/xra.php
+>>>>>>> a988596b (first)
 // config/localhost/ptv/xra.php
 return [
     'pub_theme' => env('THEME_PUB', 'Sixteen'),
@@ -230,9 +242,13 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 ### Step 3: Register Theme
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // config/localhost/fixcity/xra.php
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+// config/localhost/fixcity/xra.php
+>>>>>>> a988596b (first)
 // config/localhost/ptv/xra.php
 return [
     'pub_theme' => 'MyTheme',

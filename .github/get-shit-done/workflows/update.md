@@ -187,9 +187,13 @@ Format completion message (changelog was already shown in confirmation step):
 ⚠️  Restart Claude Code to pick up the new commands.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [View full changelog](https://github.com/glittercowboy/get-shit-done/blob/main/CHANGELOG.md)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+[View full changelog](https://github.com/glittercowboy/get-shit-done/blob/main/CHANGELOG.md)
+>>>>>>> a988596b (first)
 [View full changelog](https://github.com/glittercowboy/get-shit-done/blob/main/changelog.md)
 ```
 </step>

@@ -24,10 +24,15 @@ related:
 1. **Open Obsidian**
 2. Click **"Open folder as vault"**
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. Select: `/var/www/_bases/base_fixcity_fila5/docs`
 4. Vault name: `base_fixcity_fila5-docs`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+3. Select: `/var/www/_bases/base_fixcity_fila5/docs`
+4. Vault name: `base_fixcity_fila5-docs`
+>>>>>>> a988596b (first)
 3. Select: `/var/www/_bases/base_ptvx_fila5/docs`
 4. Vault name: `base_ptvx_fila5-docs`
 5. Click **"Open"**
@@ -84,9 +89,13 @@ Install browser extension to capture web articles:
 
 **Configuration**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Clip destination: `/var/www/_bases/base_fixcity_fila5/docs/raw/articles/`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- Clip destination: `/var/www/_bases/base_fixcity_fila5/docs/raw/articles/`
+>>>>>>> a988596b (first)
 - Clip destination: `/var/www/_bases/base_ptvx_fila5/docs/raw/articles/`
 - Format: Markdown with YAML frontmatter
 - Tags: Auto-extract from article metadata
@@ -137,9 +146,13 @@ LLM scans for issues and reports findings.
 
 - **Filter by type**: `type:concept` to see only concept pages
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Filter by tags**: `tags:prediction-market` to see related pages
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Filter by tags**: `tags:prediction-market` to see related pages
+>>>>>>> a988596b (first)
 - **Filter by tags**: `tags:forecast-market` to see related pages
 - **Local graph**: Open on a page to see only its connections
 - **Groups**: Color-code by page type (concepts, entities, sources)

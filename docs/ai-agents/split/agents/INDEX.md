@@ -20,9 +20,13 @@ related:
 # BMad Agents Index
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Source**: [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md) (lines 40-904)  
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Source**: [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md) (lines 40-904)  
+>>>>>>> a988596b (first)
 **Source**: [`../../../../agents.md`](../../../../../../../../../../agents.md) (lines 40-904)  
 **Total Agents**: 10  
 **Last Updated**: 2026-04-11  
@@ -45,9 +49,13 @@ related:
 | 10 | Business Analyst | analyst | [business-analyst.md](business-analyst.md) | 85 | Market research, competitive analysis |
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Total Lines**: ~865 (split from ../../../../AGENTS.md lines 40-904)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Total Lines**: ~865 (split from ../../../../AGENTS.md lines 40-904)
+>>>>>>> a988596b (first)
 **Total Lines**: ~865 (split from ../../../../agents.md lines 40-904)
 
 ---
@@ -75,9 +83,13 @@ To activate an agent, mention their ID or name in your request:
 - "As dev, implement the story..."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 For full agent definitions, see the original [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md).
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+For full agent definitions, see the original [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md).
+>>>>>>> a988596b (first)
 For full agent definitions, see the original [`../../../../agents.md`](../../../../../../../../../../agents.md).
 
 ---

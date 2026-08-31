@@ -56,6 +56,7 @@ apposta. Il 100% qui non è un merito.
 È lì che il coverage va alzato, non nel middleware già al 100%.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## PHPStan / Jobs -> QueueableAction — 2026-09-04
 
 Vedi story `docs/stories/4.27.jobs-to-queueable-actions.story.md`. In sintesi:
@@ -134,6 +135,8 @@ verificava solo 2 componenti contro i 3 reali in `_components.json`). Nessun imp
 di rilievo sul numero di coverage: erano duplicati, non copertura aggiuntiva persa.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
+=======
+>>>>>>> a988596b (first)
 ## Nota sulla versione precedente di questo file
 
 Fino al 27 agosto 2026 questo documento dichiarava «comprehensive test coverage» e «all

@@ -100,9 +100,13 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 **Subtask 4 - Verify JSON Content** (parallel with Subtask 3):
 - Input: PHASE-1-FINDINGS.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> a988596b (first)
 - File: `laravel/config/local/laraxot/database/content/pages/tests.segnalazioni-elenco.json`
 - Tasks:
   - Verify all required sections present
@@ -117,9 +121,13 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 - [ ] Read GSD-PHASE-1-EXECUTION.md
 - [ ] Read EXECUTOR-2-SUBTASKS-3-4.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Understand translation pattern: `fixcity::segnalazione.fields.title.label`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [ ] Understand translation pattern: `fixcity::segnalazione.fields.title.label`
+>>>>>>> a988596b (first)
 - [ ] Understand translation pattern: `laraxot::segnalazione.fields.title.label`
 - [ ] Know NOT to create separate segnalazioni-elenco.blade.php
 - [ ] Have reference page ready: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html
@@ -309,9 +317,13 @@ Phase 2 planning can begin
 - [ ] Metrics documented
 - [ ] Lessons learned captured
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] 00-INDEX.md updated
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [ ] 00-INDEX.md updated
+>>>>>>> a988596b (first)
 - [ ] 00-index.md updated
 - [ ] Phase 2 strategy outlined
 
@@ -329,9 +341,13 @@ Phase 2 planning can begin
 
 **WILL VERIFY (Subtask 4):**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> a988596b (first)
 - `laravel/config/local/laraxot/database/content/pages/tests.segnalazioni-elenco.json`
 
 **WILL CREATE:**
@@ -356,9 +372,13 @@ Phase 2 planning can begin
 
 **Tools** (5-10 min read):
 <<<<<<< HEAD
+<<<<<<< HEAD
 - bashscripts/docs/html/INDEX.md (comparison tools)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- bashscripts/docs/html/INDEX.md (comparison tools)
+>>>>>>> a988596b (first)
 - bashscripts/docs/html/index.md (comparison tools)
 
 ---

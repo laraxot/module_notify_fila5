@@ -130,10 +130,15 @@ Section::make('Riepilogo Segnalazione')
 ```php
 // ✅ CORRETTO: usa chiavi traduzione
 <<<<<<< HEAD
+<<<<<<< HEAD
 Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
     ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
+    ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
+>>>>>>> a988596b (first)
 Section::make(__('ptv::create_ticket_wizard.sections.summary.label'))
     ->description(__('ptv::create_ticket_wizard.sections.summary.description'))
 ```
@@ -182,9 +187,13 @@ return [
 ->description(fn (Get $get): string =>
     trans_choice(
 <<<<<<< HEAD
+<<<<<<< HEAD
         'fixcity::create_ticket_wizard.sections.images.description',
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'fixcity::create_ticket_wizard.sections.images.description',
+>>>>>>> a988596b (first)
         'ptv::create_ticket_wizard.sections.images.description',
         count($get('images') ?? [])
     )
@@ -212,9 +221,13 @@ return [
 
 // ✅ CORRETTO
 <<<<<<< HEAD
+<<<<<<< HEAD
 ->limitMessage(__('fixcity::create_ticket_wizard.sections.images.limit_message'))
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+->limitMessage(__('fixcity::create_ticket_wizard.sections.images.limit_message'))
+>>>>>>> a988596b (first)
 ->limitMessage(__('ptv::create_ticket_wizard.sections.images.limit_message'))
 ```
 
@@ -230,9 +243,13 @@ Section::make('Riepilogo Segnalazione')
 
 // ✅ CORRETTO
 <<<<<<< HEAD
+<<<<<<< HEAD
 Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
+>>>>>>> a988596b (first)
 Section::make(__('ptv::create_ticket_wizard.sections.summary.label'))
 ```
 
@@ -246,9 +263,13 @@ Section::make(__('ptv::create_ticket_wizard.sections.summary.label'))
 
 // ✅ CORRETTO
 <<<<<<< HEAD
+<<<<<<< HEAD
 ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
+>>>>>>> a988596b (first)
 ->description(__('ptv::create_ticket_wizard.sections.summary.description'))
 ```
 
@@ -274,9 +295,13 @@ $this->addError('data.submit', 'Si è verificato un errore')
 
 // ✅ CORRETTO
 <<<<<<< HEAD
+<<<<<<< HEAD
 $this->addError('data.submit', __('fixcity::create_ticket_wizard.notifications.submit_failed.body'))
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+$this->addError('data.submit', __('fixcity::create_ticket_wizard.notifications.submit_failed.body'))
+>>>>>>> a988596b (first)
 $this->addError('data.submit', __('ptv::create_ticket_wizard.notifications.submit_failed.body'))
 ```
 
@@ -293,10 +318,15 @@ Notification::make()
 // ✅ CORRETTO
 Notification::make()
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->title(__('fixcity::create_ticket_wizard.notifications.success.title'))
     ->body(__('fixcity::create_ticket_wizard.notifications.success.body'))
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    ->title(__('fixcity::create_ticket_wizard.notifications.success.title'))
+    ->body(__('fixcity::create_ticket_wizard.notifications.success.body'))
+>>>>>>> a988596b (first)
     ->title(__('ptv::create_ticket_wizard.notifications.success.title'))
     ->body(__('ptv::create_ticket_wizard.notifications.success.body'))
 ```
@@ -311,9 +341,13 @@ echo count($items) . ' elementi trovati'
 
 // ✅ CORRETTO
 <<<<<<< HEAD
+<<<<<<< HEAD
 echo trans_choice('fixcity::messages.items_found', count($items))
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+echo trans_choice('fixcity::messages.items_found', count($items))
+>>>>>>> a988596b (first)
 echo trans_choice('ptv::messages.items_found', count($items))
 ```
 
@@ -328,10 +362,15 @@ Section::make('Riepilogo Segnalazione')
 
 // ✅ CORRETTO: tutto via translation keys
 <<<<<<< HEAD
+<<<<<<< HEAD
 Section::make(__('fixcity::sections.summary.label'))
     ->description(__('fixcity::sections.summary.description'))
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Section::make(__('fixcity::sections.summary.label'))
+    ->description(__('fixcity::sections.summary.description'))
+>>>>>>> a988596b (first)
 Section::make(__('ptv::sections.summary.label'))
     ->description(__('ptv::sections.summary.description'))
 ```
@@ -361,9 +400,13 @@ Modules/Fixcity/resources/lang/
 ```php
 // Aggiungi nuova UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 Section::make(__('fixcity::new_section.label'))
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Section::make(__('fixcity::new_section.label'))
+>>>>>>> a988596b (first)
 Section::make(__('ptv::new_section.label'))
 
 // IMMEDIATAMENTE aggiungi a TUTTI i file lang:
@@ -423,9 +466,13 @@ grep -rE "description\(['\"][A-ZÀ]" Modules/Fixcity/app/Filament/ --include="*.
 Per ogni violazione:
 - Identifica la stringa italiana
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Crea chiave: `fixcity::create_ticket_wizard.sections.xxx.label`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- Crea chiave: `fixcity::create_ticket_wizard.sections.xxx.label`
+>>>>>>> a988596b (first)
 - Crea chiave: `ptv::create_ticket_wizard.sections.xxx.label`
 - Aggiungi a TUTTI i file lang (en, it, fr, de, es)
 
@@ -440,10 +487,15 @@ Section::make('Riepilogo Segnalazione')
 
 // DOPO
 <<<<<<< HEAD
+<<<<<<< HEAD
 Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
     ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
+    ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
+>>>>>>> a988596b (first)
 Section::make(__('ptv::create_ticket_wizard.sections.summary.label'))
     ->description(__('ptv::create_ticket_wizard.sections.summary.description'))
 ```

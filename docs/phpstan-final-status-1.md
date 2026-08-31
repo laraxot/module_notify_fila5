@@ -34,9 +34,13 @@ Tutti i moduli `app/` sono **PERFETTI** al livello MAX di PHPStan!
 |--------|-------|--------|
 | ✅ User | 362 | **0** |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | ✅ Fixcity | 86 | **0** |
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| ✅ Fixcity | 86 | **0** |
+>>>>>>> a988596b (first)
 | ✅ App | 86 | **0** |
 | ✅ Blog | 139 | **0** |
 | ✅ Xot | ~200 | **0** |

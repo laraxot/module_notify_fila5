@@ -1,11 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "Base Fixcity Fila5 — project.md"
 type: concept
 tags: [project]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
+=======
+qmd: "project base fixcity fila5 — project.md"
+>>>>>>> a988596b (first)
 qmd: "project base ptv fila5 — project.md"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -52,13 +59,20 @@ Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segn
 - Filament Schemas = unified system (v5). Forms + Infolists coexist.
 - Widget → NO model binding (`getFormModel() → null`)
 - CSS scoped overrides → never mutate Filament markup
+<<<<<<< HEAD
+=======
+- Multilingual: all strings via `__('fixcity::ticket.*')`
+>>>>>>> a988596b (first)
 - Multilingual: all strings via `__('ptv::ticket.*')`
 
 ---
 
 <!-- Merged from PROJECT.md, which collided with this file on case-insensitive filesystems. -->
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # Base Fixcity Fila5 — PROJECT.md
 
 ## Context
@@ -92,7 +106,11 @@ Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segn
 - Widget → NO model binding (`getFormModel() → null`)
 - CSS scoped overrides → never mutate Filament markup
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Multilingual: all strings via `__('fixcity::ticket.*')`
 =======
 - Multilingual: all strings via `__('ptv::ticket.*')`
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- Multilingual: all strings via `__('ptv::ticket.*')`
+>>>>>>> a988596b (first)

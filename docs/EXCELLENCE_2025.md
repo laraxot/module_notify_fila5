@@ -371,9 +371,13 @@ Grazie a tutti i contributor che hanno reso possibile questo progetto:
 FixCity è orgogliosamente open source:
 - **License**: MIT
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Repository**: github.com/laraxot/fixcity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Repository**: github.com/laraxot/fixcity
+>>>>>>> a988596b (first)
 - **Repository**: github.com/laraxot/ptv
 - **Contributions**: Welcome!
 - **Code of Conduct**: Contributor Covenant

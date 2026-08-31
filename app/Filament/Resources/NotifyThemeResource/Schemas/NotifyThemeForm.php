@@ -43,10 +43,14 @@ class NotifyThemeForm extends XotBaseResourceForm
                     'minty' => 'minty',
                     'sunny' => 'sunny',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'widgets' => 'widgets'])
                 ->default('empty'),
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull()];
+<<<<<<< HEAD
 =======
                     'widgets' => 'widgets',
                 ])
@@ -55,6 +59,8 @@ class NotifyThemeForm extends XotBaseResourceForm
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     }
 
     /**
@@ -66,6 +72,9 @@ class NotifyThemeForm extends XotBaseResourceForm
             'lang' => [
                 'it' => 'Italiano',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                 'en' => 'English'],
             'type' => [
                 'email' => 'Email',
@@ -75,6 +84,7 @@ class NotifyThemeForm extends XotBaseResourceForm
                 'page' => 'Page',
                 'post' => 'Post',
                 'product' => 'Product'],
+<<<<<<< HEAD
 =======
                 'en' => 'English',
             ],
@@ -89,6 +99,8 @@ class NotifyThemeForm extends XotBaseResourceForm
                 'product' => 'Product',
             ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             default => [],
         };
     }

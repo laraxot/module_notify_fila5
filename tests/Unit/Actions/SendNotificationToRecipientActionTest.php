@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Notification;
 use InvalidArgumentException;
 use Modules\Notify\Actions\SendNotificationToRecipientAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 =======
@@ -23,6 +24,14 @@ uses(TestCase::class)->group('no-notify-db');
 function makeDummyNotificationForRecipient(): IlluminateNotification
 {
     return new class extends IlluminateNotification
+=======
+use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
+
+function makeDummyNotificationForRecipient(): IlluminateNotification
+{
+    return new class() extends IlluminateNotification
+>>>>>>> a988596b (first)
     {
         /** @return list<string> */
         public function via(object $notifiable): array

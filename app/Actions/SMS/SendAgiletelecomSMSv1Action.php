@@ -37,21 +37,29 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
             'smsGATEWAY' => 'H', // M = Qualità standard, H = Qualità Alta
             'smsUSER' => $agile->username,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'smsPASSWORD' => $agile->password];
 =======
             'smsPASSWORD' => $agile->password,
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'smsPASSWORD' => $agile->password];
+>>>>>>> a988596b (first)
 
         $headers = [
             'Accept-Encoding' => 'gzip, deflate',
             'Cache-Control' => 'no-cache',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
             'Connection' => 'keep-alive'];
 
         $client = new Client([
             'timeout' => 2.0,
             'headers' => $headers]);
+<<<<<<< HEAD
 =======
             'Connection' => 'keep-alive',
         ];
@@ -61,6 +69,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
             'headers' => $headers,
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
         $client->post($url, ['form_params' => $payload]);
 

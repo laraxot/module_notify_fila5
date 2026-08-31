@@ -243,9 +243,13 @@ class TicketDigest extends Notification implements ShouldQueue
 
 - [← Notify Module README](../readme.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [← Fixcity Integration](../../fixcity/docs/roadmap-and-issues.md)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [← Fixcity Integration](../../fixcity/docs/roadmap-and-issues.md)
+>>>>>>> a988596b (first)
 - [← App Integration](../../laraxot/docs/roadmap-and-issues.md)
 - [← Root Documentation](../../../../docs/index.md)
 

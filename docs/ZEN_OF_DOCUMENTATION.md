@@ -75,10 +75,14 @@ Ogni documento deve essere:
 ```bash
 # ❌ CATTIVO
 <<<<<<< HEAD
+<<<<<<< HEAD
 phpstan-analysis-2026-03-02.md
 =======
 phpstan-analysis.md
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+phpstan-analysis-2026-03-02.md
+>>>>>>> a988596b (first)
 session-report-january.md
 achievement-2025-10-10.md
 

@@ -1,9 +1,13 @@
 # Architecture Research Template
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Template for `.planning/research/ARCHITECTURE.md` — system structure patterns for the project domain.
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Template for `.planning/research/ARCHITECTURE.md` — system structure patterns for the project domain.
+>>>>>>> a988596b (first)
 Template for `.planning/research/architecture.md` — system structure patterns for the project domain.
 
 <template>

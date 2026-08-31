@@ -5,22 +5,30 @@ declare(strict_types=1);
 return [
     'resource' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'name' => 'Canale di Notifica'],
 =======
         'name' => 'Canale di Notifica',
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'name' => 'Canale di Notifica'],
+>>>>>>> a988596b (first)
     'navigation' => [
         'group' => 'Sistema',
         'label' => 'Canali di Notifica',
         'icon' => 'notify-channel-animated',
         'sort' => '47',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'description' => 'Gestione dei canali di comunicazione per le notifiche'],
 =======
         'description' => 'Gestione dei canali di comunicazione per le notifiche',
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'description' => 'Gestione dei canali di comunicazione per le notifiche'],
+>>>>>>> a988596b (first)
     'fields' => [
         'name' => [
             'label' => 'Nome',
@@ -29,11 +37,15 @@ return [
             'help' => 'Inserisci un nome univoco per identificare il canale',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'driver' => [
             'label' => 'Driver',
             'tooltip' => 'Tipo di servizio utilizzato per l\'invio',
@@ -42,6 +54,9 @@ return [
                 'mail' => [
                     'label' => 'Email',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'tooltip' => 'Invio tramite server SMTP'],
                 'database' => [
                     'label' => 'Database',
@@ -60,6 +75,7 @@ return [
                     'tooltip' => 'Invio tramite webhook Slack']],
             'helper_text' => '',
             'description' => ''],
+<<<<<<< HEAD
 =======
                     'tooltip' => 'Invio tramite server SMTP',
                 ],
@@ -88,6 +104,8 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         'configuration' => [
             'label' => 'Configurazione',
             'tooltip' => 'Parametri di configurazione del canale',
@@ -97,6 +115,9 @@ return [
                     'label' => 'Host',
                     'tooltip' => 'Indirizzo del server',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'placeholder' => 'es: smtp.gmail.com'],
                 'port' => [
                     'label' => 'Porta',
@@ -110,6 +131,7 @@ return [
                     'label' => 'Password',
                     'tooltip' => 'Password per l\'autenticazione',
                     'help' => 'La password verrà criptata prima del salvataggio'],
+<<<<<<< HEAD
 =======
                     'placeholder' => 'es: smtp.gmail.com',
                 ],
@@ -129,6 +151,8 @@ return [
                     'help' => 'La password verrà criptata prima del salvataggio',
                 ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
                 'encryption' => [
                     'label' => 'Crittografia',
                     'tooltip' => 'Metodo di crittografia',
@@ -136,6 +160,9 @@ return [
                         'tls' => [
                             'label' => 'TLS',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                             'tooltip' => 'Transport Layer Security'],
                         'ssl' => [
                             'label' => 'SSL',
@@ -170,6 +197,7 @@ return [
                     'placeholder' => 'es: https://hooks.slack.com/services/...']],
             'helper_text' => '',
             'description' => ''],
+<<<<<<< HEAD
 =======
                             'tooltip' => 'Transport Layer Security',
                         ],
@@ -219,22 +247,29 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         'is_default' => [
             'label' => 'Predefinito',
             'tooltip' => 'Imposta come canale predefinito',
             'help' => 'Il canale predefinito verrà utilizzato quando non specificato diversamente',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'is_enabled' => [
             'label' => 'Abilitato',
             'tooltip' => 'Stato di attivazione del canale',
             'help' => 'Disabilita temporaneamente il canale senza eliminarlo',
             'helper_text' => '',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'description' => '']],
 =======
@@ -242,17 +277,24 @@ return [
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => '']],
+>>>>>>> a988596b (first)
     'actions' => [
         'test_connection' => [
             'label' => 'Testa connessione',
             'tooltip' => 'Verifica la configurazione del canale',
             'icon' => 'heroicon-o-signal',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'color' => 'info'],
 =======
             'color' => 'info',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'color' => 'info'],
+>>>>>>> a988596b (first)
         'send_test' => [
             'label' => 'Invia test',
             'tooltip' => 'Invia un messaggio di test',
@@ -263,6 +305,9 @@ return [
                 'message' => 'Vuoi inviare un messaggio di test?',
                 'confirm' => 'Sì, invia',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                 'cancel' => 'No, annulla']]],
     'messages' => [
         'connection_success' => [
@@ -279,6 +324,7 @@ return [
             'message' => 'Impossibile inviare il messaggio di test: :error']],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label'];
+<<<<<<< HEAD
 =======
                 'cancel' => 'No, annulla',
             ],
@@ -306,3 +352,5 @@ return [
     'plural_label' => 'Missing Plural label',
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

@@ -5,9 +5,13 @@ tags: [report, finale]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "report-finale 📊 report finale - fixcity sixteen theme"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+qmd: "report-finale 📊 report finale - fixcity sixteen theme"
+>>>>>>> a988596b (first)
 qmd: "report-finale 📊 report finale - ptv sixteen theme"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -251,9 +255,13 @@ Themes/Sixteen/resources/views/pages/
 
 Per informazioni:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Repository**: `/var/www/_bases/base_fixcity_fila5`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Repository**: `/var/www/_bases/base_fixcity_fila5`
+>>>>>>> a988596b (first)
 - **Repository**: `/var/www/_bases/base_ptv_fila5`
 - **Tema**: `Themes/Sixteen`
 - **Documentazione**: `docs/pagine-create.md`

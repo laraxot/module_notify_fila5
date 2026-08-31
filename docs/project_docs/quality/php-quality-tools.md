@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔧 STRUMENTI QUALITÀ CODICE PHP - FIXCITY PLATFORM
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+# 🔧 STRUMENTI QUALITÀ CODICE PHP - FIXCITY PLATFORM
+>>>>>>> a988596b (first)
 # 🔧 STRUMENTI QUALITÀ CODICE PHP - NOTIFY PLATFORM
 
 **Versione**: 1.0  
@@ -11,9 +15,13 @@
 
 ## 🎯 OBIETTIVO
 <<<<<<< HEAD
+<<<<<<< HEAD
 Implementare un ecosistema completo di strumenti per la qualità del codice PHP nel progetto FixCity, garantendo standard enterprise e manutenibilità del codice.
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Implementare un ecosistema completo di strumenti per la qualità del codice PHP nel progetto FixCity, garantendo standard enterprise e manutenibilità del codice.
+>>>>>>> a988596b (first)
 Implementare un ecosistema completo di strumenti per la qualità del codice PHP nel progetto Notify, garantendo standard enterprise e manutenibilità del codice.
 
 ## 🛠️ STRUMENTI QUALITÀ CODICE
@@ -236,18 +244,26 @@ jobs:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <ruleset name="FixCity PHP Mess Detector Rules"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+<ruleset name="FixCity PHP Mess Detector Rules"
+>>>>>>> a988596b (first)
 <ruleset name="Notify PHP Mess Detector Rules"
          xmlns="http://pmd.sf.net/ruleset/1.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sf.net/ruleset/1.0.0 http://pmd.sf.net/ruleset_xml_schema.xsd">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <description>Regole personalizzate per FixCity Platform</description>
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    <description>Regole personalizzate per FixCity Platform</description>
+>>>>>>> a988596b (first)
     <description>Regole personalizzate per Notify Platform</description>
 
     <!-- Clean Code Rules -->
@@ -479,9 +495,13 @@ return (new PhpCsFixer\Config())
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Questo sistema garantisce la massima qualità del codice nel progetto FixCity Platform.*
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+*Questo sistema garantisce la massima qualità del codice nel progetto FixCity Platform.*
+>>>>>>> a988596b (first)
 *Questo sistema garantisce la massima qualità del codice nel progetto Notify Platform.*
 
 

@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
     'navigation' => [
         'label' => 'Invio Email (AWS]',
         'group' => 'Notifiche',
@@ -50,6 +53,7 @@ return [
             'tooltip' => '',
             'helper_text' => '',
             'description' => '']],
+<<<<<<< HEAD
 =======
     'navigation' => ['label' => 'Invio Email (AWS]', 'group' => 'Notifiche', 'icon' => 'heroicon-o-envelope', 'color' => 'primary', 'sort' => 10],
     'model' => ['label' => 'Email AWS', 'plural' => 'Email AWS', 'description' => 'Gestione invio email tramite servizio Amazon SES'],
@@ -62,15 +66,21 @@ return [
         'recipient' => ['label' => 'recipient', 'placeholder' => 'recipient', 'helper_text' => 'recipient', 'description' => 'recipient'],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     'actions' => [
         'send_email' => ['label' => 'Invia Email', 'icon' => 'heroicon-o-paper-airplane', 'color' => 'success', 'modal_heading' => 'Conferma invio email', 'modal_description' => 'Sei sicuro di voler inviare questa email?', 'success' => 'Email inviata con successo tramite AWS SES', 'error' => 'Errore durante l\'invio dell\'email', 'confirmation' => 'L\'email verrà inviata immediatamente'],
         'logout' => ['tooltip' => 'logout', 'icon' => 'logout', 'label' => 'logout'],
         'sendEmail' => ['label' => 'sendEmail', 'icon' => 'sendEmail', 'tooltip' => 'sendEmail'],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         'save' => ['label' => 'save', 'icon' => 'save', 'tooltip' => 'save']],
     'messages' => ['loading' => 'Preparazione email in corso...', 'sent' => 'Email inviata correttamente', 'queue' => 'Email aggiunta alla coda di invio', 'failed' => 'Invio email fallito'],
     'label' => 'Send Aws Email',
     'plural_label' => 'Send Aws Email (Plurale)'];
+<<<<<<< HEAD
 =======
         'save' => ['label' => 'save', 'icon' => 'save', 'tooltip' => 'save'],
     ],
@@ -79,3 +89,5 @@ return [
     'plural_label' => 'Send Aws Email (Plurale)',
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

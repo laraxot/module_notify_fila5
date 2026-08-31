@@ -153,9 +153,13 @@ Blade Template:
 
 JSON Content:
 <<<<<<< HEAD
+<<<<<<< HEAD
   laravel/config/local/fixcity/database/content/pages/tests.homepage.json
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+  laravel/config/local/fixcity/database/content/pages/tests.homepage.json
+>>>>>>> a988596b (first)
   laravel/config/local/laraxot/database/content/pages/tests.homepage.json
 
 CSS Files:
@@ -176,9 +180,13 @@ Local URL:
 ```bash
 # Go to project
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> a988596b (first)
 cd /var/www/_bases/base_ptvx_fila5
 
 # View analysis results

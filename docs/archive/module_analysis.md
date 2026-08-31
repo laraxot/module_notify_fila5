@@ -336,9 +336,13 @@ NotificationService::broadcast(new SystemMaintenance(
 **Versione**: v2.3.0-beta  
 **Stato**: Production Ready with AI Enhancement Roadmap
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Stato**: Production Ready with AI Enhancement Roadmap
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Stato**: Production Ready with AI Enhancement Roadmap
+>>>>>>> a988596b (first)
 
 
 ---

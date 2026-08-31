@@ -205,10 +205,15 @@ Modulo per l'intelligenza artificiale.
 - Automation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### fixcity/
 Modulo specifico per FixCity.
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+### fixcity/
+Modulo specifico per FixCity.
+>>>>>>> a988596b (first)
 ### laraxot/
 Modulo specifico per Notify.
 

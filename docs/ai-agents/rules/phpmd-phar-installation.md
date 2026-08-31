@@ -177,9 +177,13 @@ sudo mv phpmd.phar /usr/local/bin/phpmd
 
 ### AI Agents Docs
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[Rules Index](00-INDEX.md)** - All rules
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **[Rules Index](00-INDEX.md)** - All rules
+>>>>>>> a988596b (first)
 - **[Rules Index](00-index.md)** - All rules
 - **[Quality Gates](quality-gates.md)** - Quality gates
 - **[PHP Best Practices](php-best-practices.md)** - PHP best practices

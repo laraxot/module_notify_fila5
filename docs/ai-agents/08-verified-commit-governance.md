@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "Verified Commit Governance"
 type: concept
@@ -20,16 +23,24 @@ related:
   - "./07-mcp-tailwind-ui.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # Verified Commit Governance
 
 ## Regola
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Nel progetto Base Predict Fila5 `git commit` e `git push` NON sono azioni automatiche di fine task.
 =======
 Nel progetto Base Forecast Fila5 `git commit` e `git push` NON sono azioni automatiche di fine task.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Nel progetto Base Predict Fila5 `git commit` e `git push` NON sono azioni automatiche di fine task.
+Nel progetto Base Forecast Fila5 `git commit` e `git push` NON sono azioni automatiche di fine task.
+>>>>>>> a988596b (first)
 Si eseguono solo quando il lavoro e stato verificato in modo completo e tracciabile.
 
 ## Cosa significa verificato

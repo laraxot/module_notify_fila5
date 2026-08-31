@@ -5,7 +5,10 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [structure, architecture, module]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -33,6 +36,7 @@ related:
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
 │   ├── skills/                   # Skill progettuali
+<<<<<<< HEAD
 │   │   ├── index.md
 │   │   └── *.md
 │   ├── commands/                 # Comandi progettuali
@@ -40,6 +44,21 @@ related:
 │   │   └── *.md
 │   ├── memories/                 # Memorie progettuali
 │   │   ├── index.md
+=======
+│   │   ├── INDEX.md
+│   │   └── *.md
+│   ├── commands/                 # Comandi progettuali
+│   │   ├── INDEX.md
+│   │   └── *.md
+│   ├── memories/                 # Memorie progettuali
+│   │   ├── INDEX.md
+│   │   └── *.md
+│   ├── commands/                 # Comandi progettuali
+│   │   ├── INDEX.md
+│   │   └── *.md
+│   ├── memories/                 # Memorie progettuali
+│   │   ├── INDEX.md
+>>>>>>> a988596b (first)
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
 │   └── troubleshooting/          # Bug fixes, error resolutions
@@ -118,6 +137,10 @@ graph TD
 mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,troubleshooting}
 
 # 2. Crea INDEX files (già creati)
+<<<<<<< HEAD
+=======
+cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+>>>>>>> a988596b (first)
 cp docs/wiki/rules/index.md docs/wiki/rules/
 # ... etc
 
@@ -142,7 +165,10 @@ type: documentation
 created: 2026-05-11
 updated: 2026-05-11
 tags: [structure, architecture, module]
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 ---
 
 # Project Structure — Module **Notify**
@@ -158,6 +184,7 @@ tags: [structure, architecture, module]
 │   ├── entities/                 # Organization/person pages
 │   ├── rules/                    # ⚠️ 151+ regole progettuali
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   │   ├── 00-INDEX.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
@@ -170,6 +197,8 @@ tags: [structure, architecture, module]
 │   ├── memories/                 # Memorie progettuali
 │   │   ├── INDEX.md
 =======
+=======
+>>>>>>> a988596b (first)
 │   │   ├── 00-index.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
@@ -181,7 +210,10 @@ tags: [structure, architecture, module]
 │   │   └── *.md
 │   ├── memories/                 # Memorie progettuali
 │   │   ├── index.md
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
 │   └── troubleshooting/          # Bug fixes, error resolutions
@@ -189,10 +221,14 @@ tags: [structure, architecture, module]
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
 =======
 ├── architecture.md               # (opzionale) Architettura modulo
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+├── architecture.md               # (opzionale) Architettura modulo
+>>>>>>> a988596b (first)
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 
@@ -265,10 +301,14 @@ mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,t
 
 # 2. Crea INDEX files (già creati)
 <<<<<<< HEAD
+<<<<<<< HEAD
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 =======
 cp docs/wiki/rules/index.md docs/wiki/rules/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cp docs/wiki/rules/index.md docs/wiki/rules/
+>>>>>>> a988596b (first)
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Unit\Models\Traits;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Modules\Notify\Tests\Fixtures\HasContactDummyModel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
 =======
@@ -19,6 +20,13 @@ uses(TestCase::class)->group('no-notify-db');
 function makeHasContactDummyModel(): HasContactDummyModel
 {
     return new HasContactDummyModel;
+=======
+use PHPUnit\Framework\Assert;
+
+function makeHasContactDummyModel(): HasContactDummyModel
+{
+    return new HasContactDummyModel();
+>>>>>>> a988596b (first)
 }
 
 test('has contact trait appends contact type fields to fillable', function (): void {

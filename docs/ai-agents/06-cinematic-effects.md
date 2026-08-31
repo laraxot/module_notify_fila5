@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎨 Cinematic Effects & Particles
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
 **Related**: [06-CINEMATIC-EFFECTS.md](06-CINEMATIC-EFFECTS.md) — Full guide
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "🎨 Cinematic Effects & Particles"
 type: concept
@@ -138,7 +141,10 @@ Based on Berger+Team study (31 Italian sources):
 **Last Updated**: 2026-03-20  
 **Status**: ✅ Mandatory  
 **Enforcement**: Code Review + Pre-commit Hook
+<<<<<<< HEAD
 
+=======
+>>>>>>> a988596b (first)
 ---
 
 <!-- Merged from 06-CINEMATIC-EFFECTS.md, which collided with this file on case-insensitive filesystems. -->
@@ -147,7 +153,10 @@ Based on Berger+Team study (31 Italian sources):
 
 **Part of**: [00-index.md](00-index.md) — AI Agents Coordination  
 **Related**: [06-CINEMATIC-EFFECTS.md](06-cinematic-effects.md) — Full guide
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 ---
 

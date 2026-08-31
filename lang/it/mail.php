@@ -11,6 +11,7 @@ return [
             'singular' => 'Template Email',
             'icon' => 'heroicon-o-envelope',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sort' => 1],
         'sections' => [
             'main' => 'Informazioni Principali'],
@@ -21,11 +22,19 @@ return [
             'main' => 'Informazioni Principali',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'sort' => 1],
+        'sections' => [
+            'main' => 'Informazioni Principali'],
+>>>>>>> a988596b (first)
         'fields' => [
             'name' => [
                 'label' => 'Nome',
                 'placeholder' => 'Inserisci il nome del template',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                 'tooltip' => 'Il nome identificativo del template email'],
             'layout' => [
                 'label' => 'Layout',
@@ -55,6 +64,7 @@ return [
             'created' => 'Template email creato con successo',
             'updated' => 'Template email aggiornato con successo',
             'deleted' => 'Template email eliminato con successo']],
+<<<<<<< HEAD
 =======
                 'tooltip' => 'Il nome identificativo del template email',
             ],
@@ -97,6 +107,8 @@ return [
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     'label' => 'Mail',
     'plural_label' => 'Mail (Plurale)',
     'navigation' => [
@@ -105,10 +117,14 @@ return [
         'group' => [
             'name' => 'General',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
             'description' => 'General Settings'],
         'label' => 'Mail',
         'sort' => 1,
         'icon' => 'heroicon-o-collection'],
+<<<<<<< HEAD
 =======
             'description' => 'General Settings',
         ],
@@ -117,32 +133,45 @@ return [
         'icon' => 'heroicon-o-collection',
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     'fields' => [
         'id' => [
             'label' => 'Identificativo',
             'tooltip' => 'Identificativo univoco del record',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'created_at' => [
             'label' => 'Data Creazione',
             'tooltip' => '',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'updated_at' => [
             'label' => 'Ultima Modifica',
             'tooltip' => '',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
             'description' => '']],
     'actions' => [
         'create' => [
@@ -151,6 +180,7 @@ return [
             'label' => 'Modifica Mail'],
         'delete' => [
             'label' => 'Elimina Mail']]];
+<<<<<<< HEAD
 =======
             'description' => '',
         ],
@@ -168,3 +198,5 @@ return [
     ],
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

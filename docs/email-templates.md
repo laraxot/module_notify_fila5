@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Sistema di Email Template
 
 ## Introduzione
@@ -341,3 +342,8 @@ php artisan tinker
 
 We use standard Blade templates for all module emails, stored in `resources/views/emails`.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+# Email Templates
+
+We use standard Blade templates for all module emails, stored in `resources/views/emails`.
+>>>>>>> a988596b (first)

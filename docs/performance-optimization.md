@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "Analisi e Ottimizzazione delle Performance"
 module: notify
@@ -9,7 +12,10 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # Analisi e Ottimizzazione delle Performance
 
 ## Analisi delle Performance
@@ -252,7 +258,10 @@ return [
 - Ottimizzare continuamente
 - Testare su diversi ambienti 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 
 ---
 
@@ -379,4 +388,7 @@ context-mode ctx-stats
 
 ---
 *Status: Ottimizzato | Token risparmiati: ~48K per session*
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

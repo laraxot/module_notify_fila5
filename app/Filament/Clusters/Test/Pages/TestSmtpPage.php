@@ -84,6 +84,7 @@ class TestSmtpPage extends XotBasePage
                         ->default('test body')
                         ->required()
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ->columnSpanFull()])
                 ->columns(3)])->statePath('emailData');
 =======
@@ -92,6 +93,10 @@ class TestSmtpPage extends XotBasePage
                 ->columns(3),
         ])->statePath('emailData');
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                        ->columnSpanFull()])
+                ->columns(3)])->statePath('emailData');
+>>>>>>> a988596b (first)
     }
 
     public function sendEmail(): void
@@ -121,11 +126,15 @@ class TestSmtpPage extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'submit' => Action::make('emailFormActions')->submit('emailFormActions')];
 =======
             'submit' => Action::make('emailFormActions')->submit('emailFormActions'),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'submit' => Action::make('emailFormActions')->submit('emailFormActions')];
+>>>>>>> a988596b (first)
     }
 
     #[Override]

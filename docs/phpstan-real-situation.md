@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "phpstan-real-situation-2025-10-10.deprecated"
+=======
+title: "phpstan-real-situation-2025-10-10"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "phpstan-real-situation-2025-10-10.deprecated deprecated"
+=======
+qmd: "phpstan-real-situation-2025-10-10 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./00-index-1.md"
@@ -18,6 +26,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [phpstan-real-situation-.deprecated.md](phpstan-real-situation-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created_at: '2025-10-10'
@@ -191,3 +200,6 @@ private function unusedMethod(): string
 **Aggiornato**: 2025-10-10T09:39:07+02:00  
 **Tempo rimanente stimato**: 17-19 ore
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [phpstan-real-situation.md](phpstan-real-situation.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

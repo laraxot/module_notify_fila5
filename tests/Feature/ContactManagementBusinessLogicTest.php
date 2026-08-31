@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Feature;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Notify\Models\Contact;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 =======
@@ -16,6 +17,10 @@ use Modules\Xot\Tests\XotBasePest;
 
 uses(TestCase::class)->group('notify-db');
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
+>>>>>>> a988596b (first)
 
 describe('Contact Management Business Logic', function () {
     it('can create contact with basic information', function () {
@@ -26,11 +31,15 @@ describe('Contact Management Business Logic', function () {
             'value' => 'mario.rossi@example.com',
             'first_name' => 'Mario',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'last_name' => 'Rossi'];
 =======
             'last_name' => 'Rossi',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'last_name' => 'Rossi'];
+>>>>>>> a988596b (first)
 
         $contact = ContactFactory::new()->createOne($contactData);
 
@@ -45,11 +54,15 @@ describe('Contact Management Business Logic', function () {
             'value' => 'mario.rossi@example.com',
             'first_name' => 'Mario',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'last_name' => 'Rossi']);
 =======
             'last_name' => 'Rossi',
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'last_name' => 'Rossi']);
+>>>>>>> a988596b (first)
     });
 
     it('can update contact verification state', function () {
@@ -57,11 +70,15 @@ describe('Contact Management Business Logic', function () {
             'contact_type' => 'email',
             'value' => 'verify@example.com',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'verified_at' => null]);
 =======
             'verified_at' => null,
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'verified_at' => null]);
+>>>>>>> a988596b (first)
 
         $verifiedAt = now()->toDateTimeString();
         $contact->update(['verified_at' => $verifiedAt]);
@@ -73,11 +90,15 @@ describe('Contact Management Business Logic', function () {
         XotBasePest::assertTableHas('notify', 'contacts', [
             'id' => $contact->id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'verified_at' => $verifiedAt]);
 =======
             'verified_at' => $verifiedAt,
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'verified_at' => $verifiedAt]);
+>>>>>>> a988596b (first)
     });
 
     it('can track sms and mail counters', function () {
@@ -86,22 +107,30 @@ describe('Contact Management Business Logic', function () {
             'value' => '+393331234567',
             'sms_count' => 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'mail_count' => 0]);
 =======
             'mail_count' => 0,
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'mail_count' => 0]);
+>>>>>>> a988596b (first)
 
         $contact->update([
             'sms_count' => 2,
             'mail_count' => 1,
             'sms_status_code' => '200',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sms_status_txt' => 'Delivered']);
 =======
             'sms_status_txt' => 'Delivered',
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'sms_status_txt' => 'Delivered']);
+>>>>>>> a988596b (first)
 
         $fresh = XotBasePest::assertFreshModel($contact, Contact::class);
 
@@ -117,11 +146,15 @@ describe('Contact Management Business Logic', function () {
             'attribute_2' => 'Referente',
             'usesleft' => '3',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'order_column' => 10]);
 =======
             'order_column' => 10,
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'order_column' => 10]);
+>>>>>>> a988596b (first)
 
         $fresh = XotBasePest::assertFreshModel($contact, Contact::class);
 

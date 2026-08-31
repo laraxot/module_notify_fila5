@@ -6,17 +6,24 @@ return [
     'resource' => [
         'name' => 'Dashboard',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'plural' => 'Dashboard'],
 =======
         'plural' => 'Dashboard',
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'plural' => 'Dashboard'],
+>>>>>>> a988596b (first)
     'navigation' => [
         'name' => 'Dashboard',
         'plural' => 'Dashboard',
         'group' => [
             'name' => 'Notifiche',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
             'description' => 'Panoramica delle notifiche'],
         'label' => 'Dashboard',
         'sort' => '49',
@@ -57,6 +64,7 @@ return [
         'logs' => [
             'label' => 'Log',
             'description' => 'Registri delle attività di notifica']],
+<<<<<<< HEAD
 =======
             'description' => 'Panoramica delle notifiche',
         ],
@@ -114,21 +122,28 @@ return [
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     'actions' => [
         'refresh' => [
             'label' => 'Aggiorna',
             'tooltip' => 'Aggiorna i dati della dashboard',
             'success_message' => 'Dashboard aggiornata con successo',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'error_message' => 'Errore nell\'aggiornamento della dashboard'],
 =======
             'error_message' => 'Errore nell\'aggiornamento della dashboard',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'error_message' => 'Errore nell\'aggiornamento della dashboard'],
+>>>>>>> a988596b (first)
         'export' => [
             'label' => 'Esporta Dati',
             'tooltip' => 'Esporta i dati statistici in formato CSV',
             'success_message' => 'Dati esportati con successo',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'error_message' => 'Errore nell\'esportazione dei dati']],
 =======
@@ -136,16 +151,23 @@ return [
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'error_message' => 'Errore nell\'esportazione dei dati']],
+>>>>>>> a988596b (first)
     'messages' => [
         'success' => 'Operazione completata con successo',
         'error' => 'Si è verificato un errore durante l\'operazione',
         'no_data' => 'Nessun dato disponibile per il periodo selezionato',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         'loading' => 'Caricamento dati in corso...'],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
     'fields' => [
     ]];
+<<<<<<< HEAD
 =======
         'loading' => 'Caricamento dati in corso...',
     ],
@@ -155,3 +177,5 @@ return [
     ],
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

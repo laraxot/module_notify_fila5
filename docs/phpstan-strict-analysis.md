@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "phpstan-strict-analysis-2025-10-10.deprecated"
+=======
+title: "phpstan-strict-analysis-2025-10-10"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "phpstan-strict-analysis-2025-10-10.deprecated deprecated"
+=======
+qmd: "phpstan-strict-analysis-2025-10-10 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./00-index-1.md"
@@ -18,6 +26,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [phpstan-strict-analysis-.deprecated.md](phpstan-strict-analysis-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created_at: '2025-10-10'
@@ -348,3 +357,6 @@ $value = config('app.key');
 **Status**: 📋 PIANO PRONTO  
 **Obiettivo**: 0 errori in ~18-20 ore di lavoro
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [phpstan-strict-analysis.md](phpstan-strict-analysis.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

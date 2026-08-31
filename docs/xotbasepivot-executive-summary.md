@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "XotBasePivot - Executive Summary"
 type: concept
@@ -20,7 +23,10 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # XotBasePivot - Executive Summary
 
 ## 🎯 Decisione Strategica: APPROVATO
@@ -159,8 +165,11 @@ related:
 ### Per Decision Makers
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **[Questo documento](./XotBasePivot-Executive-Summary.md)** - Executive summary
 =======
+=======
+>>>>>>> a988596b (first)
 1. **[Questo documento](./xotbasepivot-executive-summary.md)** - Executive summary
 2. **[Architecture README](./architecture/README.md)** - Overview e quick links
 
@@ -524,7 +533,10 @@ Post-mortem meeting per lessons learned.
 ### Per Decision Makers
 
 1. **[Questo documento](./xotbasepivot-executive-summary.md)** - Executive summary
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 2. **[Architecture README](./architecture/README.md)** - Overview e quick links
 
 ### Per Developer

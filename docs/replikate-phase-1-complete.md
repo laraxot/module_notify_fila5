@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "🎉 REPLIKATE Phase 1 - COMPLETE"
 type: concept
@@ -168,6 +171,10 @@ laravel/Themes/Sixteen/
 │   └── js/
 │
 └── config/
+<<<<<<< HEAD
+=======
+    └── local/fixcity/database/content/
+>>>>>>> a988596b (first)
     └── local/ptv/database/content/
         └── pages/tests.homepage.json
 
@@ -294,12 +301,18 @@ All the information needed to fix the homepage is documented, prioritized, and e
 **Autonomy Level**: 🟢 Fully Autonomous
 **Documentation Quality**: 🟢 Excellent
 **Ready for Multi-AI Collaboration**: 🟢 Yes
+<<<<<<< HEAD
 
+=======
+>>>>>>> a988596b (first)
 ---
 
 <!-- Merged from REPLIKATE-PHASE-1-COMPLETE.md, which collided with this file on case-insensitive filesystems. -->
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # 🎉 REPLIKATE Phase 1 - COMPLETE
 
 **Date**: 2026-04-07  
@@ -436,10 +449,14 @@ laravel/Themes/Sixteen/
 │   │   └── replikate.txt              ← PROTOCOL
 │   └── design-comuni/
 <<<<<<< HEAD
+<<<<<<< HEAD
 │       ├── 00-INDEX.md                ← HUB
 =======
 │       ├── 00-index.md                ← HUB
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+│       ├── 00-index.md                ← HUB
+>>>>>>> a988596b (first)
 │       ├── pages/
 │       │   └── homepage-structure-diff.md
 │       └── screenshots/
@@ -453,10 +470,14 @@ laravel/Themes/Sixteen/
 │
 └── config/
 <<<<<<< HEAD
+<<<<<<< HEAD
     └── local/fixcity/database/content/
 =======
     └── local/ptv/database/content/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    └── local/ptv/database/content/
+>>>>>>> a988596b (first)
         └── pages/tests.homepage.json
 
 bashscripts/design-analysis/
@@ -556,10 +577,14 @@ Next AI agent can immediately:
 - **Protocol**: `laravel/Themes/Sixteen/docs/prompts/replikate.txt`
 - **Analysis**: `laravel/Themes/Sixteen/docs/design-comuni/pages/homepage-structure-diff.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Navigation**: `laravel/Themes/Sixteen/docs/design-comuni/00-INDEX.md`
 =======
 - **Navigation**: `laravel/Themes/Sixteen/docs/design-comuni/00-index.md`
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Navigation**: `laravel/Themes/Sixteen/docs/design-comuni/00-index.md`
+>>>>>>> a988596b (first)
 - **Automation**: `bashscripts/design-analysis/replikate-workflow.sh`
 
 ---

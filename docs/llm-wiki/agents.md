@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "Agent instructions"
 type: reference
@@ -13,7 +16,10 @@ related:
   - ./coding-agent-manifests.md
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # Notify {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** Notify

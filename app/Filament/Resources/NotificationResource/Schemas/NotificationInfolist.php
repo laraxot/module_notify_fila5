@@ -51,10 +51,14 @@ class NotificationInfolist extends XotBaseResourceInfolist
                 ->limit(120),
             'metadata' => TextEntry::make('metadata')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->limit(120)];
 =======
                 ->limit(120),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                ->limit(120)];
+>>>>>>> a988596b (first)
     }
 }

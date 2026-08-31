@@ -1,17 +1,25 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "📊 RIEPILOGO PROGRESSI - FIXCITY PLATFORM"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+title: "📊 RIEPILOGO PROGRESSI - FIXCITY PLATFORM"
+>>>>>>> a988596b (first)
 title: "📊 RIEPILOGO PROGRESSI - NOTIFY PLATFORM"
 type: concept
 tags: [progress, summary, 2025, 27.deprecated]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "progress-summary-2025-01-27.deprecated 📊 riepilogo progressi - fixcity platform"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+qmd: "progress-summary-2025-01-27.deprecated 📊 riepilogo progressi - fixcity platform"
+>>>>>>> a988596b (first)
 qmd: "progress-summary-2025-01-27.deprecated 📊 riepilogo progressi - laraxot platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -27,9 +35,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📊 RIEPILOGO PROGRESSI - FIXCITY PLATFORM
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+# 📊 RIEPILOGO PROGRESSI - FIXCITY PLATFORM
+>>>>>>> a988596b (first)
 # 📊 RIEPILOGO PROGRESSI - NOTIFY PLATFORM
 
 **Data**: 27 Gennaio 2025  
@@ -64,9 +76,13 @@ related:
 - [x] **Xot Module**: 95% completato, PHPStan Level 9
 - [x] **User Module**: 90% completato, PHPStan Level 9
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] **Fixcity Module**: 80% completato, PHPStan Level 9
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [x] **Fixcity Module**: 80% completato, PHPStan Level 9
+>>>>>>> a988596b (first)
 - [x] **App Module**: 80% completato, PHPStan Level 9
 
 ### ✅ Moduli Support (HIGH)
@@ -81,10 +97,15 @@ related:
 
 ### 🔧 Implementazione Roadmap
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **API Development**: Fixcity module (45% completato)
 - [ ] **Mobile Optimization**: Fixcity module (55% completato)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [ ] **API Development**: Fixcity module (45% completato)
+- [ ] **Mobile Optimization**: Fixcity module (55% completato)
+>>>>>>> a988596b (first)
 - [ ] **API Development**: App module (45% completato)
 - [ ] **Mobile Optimization**: App module (55% completato)
 - [ ] **AGID Compliance**: Sixteen theme (85% completato)
@@ -102,9 +123,13 @@ related:
 
 ### Week 1: API Development
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Completare API endpoints per Fixcity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [ ] Completare API endpoints per Fixcity
+>>>>>>> a988596b (first)
 - [ ] Completare API endpoints per App
 - [ ] Implementare autenticazione API
 - [ ] Documentare API con OpenAPI/Swagger
@@ -162,9 +187,13 @@ related:
 
 ### Febbraio 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Completare API Fixcity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [ ] Completare API Fixcity
+>>>>>>> a988596b (first)
 - [ ] Completare API App
 - [ ] Ottimizzare mobile interface
 - [ ] Raggiungere 100% AGID compliance
@@ -272,9 +301,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Questo documento riassume i progressi completati e le prossime azioni per il completamento del progetto FixCity Platform.*
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+*Questo documento riassume i progressi completati e le prossime azioni per il completamento del progetto FixCity Platform.*
+>>>>>>> a988596b (first)
 *Questo documento riassume i progressi completati e le prossime azioni per il completamento del progetto Notify Platform.*
 
 

@@ -6,6 +6,9 @@ return [
     'fields' => [
         'id' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
             'label' => 'id'],
         'type' => [
             'label' => 'type'],
@@ -23,6 +26,7 @@ return [
             'label' => 'is_read'],
         'is_unread' => [
             'label' => 'is_unread']],
+<<<<<<< HEAD
 =======
             'label' => 'id',
         ],
@@ -52,11 +56,16 @@ return [
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     'actions' => [
         'create' => [
             'label' => 'create',
             'icon' => 'create',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
             'tooltip' => 'create'],
         'layout' => [
             'label' => 'layout',
@@ -66,6 +75,7 @@ return [
             'label' => 'delete',
             'icon' => 'delete',
             'tooltip' => 'delete']]];
+<<<<<<< HEAD
 =======
             'tooltip' => 'create',
         ],
@@ -82,3 +92,5 @@ return [
     ],
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

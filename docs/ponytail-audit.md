@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "ponytail-audit-2026-07-02.deprecated"
+=======
+title: "ponytail-audit-2026-07-02"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "ponytail-audit-2026-07-02.deprecated deprecated"
+=======
+qmd: "ponytail-audit-2026-07-02 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./00-index-1.md"
@@ -18,6 +26,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [ponytail-audit-.deprecated.md](ponytail-audit-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created: 2026-07-02
@@ -90,3 +99,6 @@ Checked `app/Actions/{SMS,Telegram,WhatsApp}/` directly rather than trusting the
 
 Telegram and WhatsApp factories were left untouched because both genuinely have 2+ swappable runtime-selected drivers, which is exactly the case the Factory pattern exists for.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [ponytail-audit.md](ponytail-audit.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

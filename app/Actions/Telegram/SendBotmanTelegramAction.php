@@ -71,11 +71,15 @@ final class SendBotmanTelegramAction implements TelegramProviderActionInterface
         $client = new Client([
             'timeout' => $this->timeout,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'base_uri' => $this->apiUrl]);
 =======
             'base_uri' => $this->apiUrl,
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'base_uri' => $this->apiUrl]);
+>>>>>>> a988596b (first)
 
         // Determina l'endpoint in base al tipo di messaggio
         $endpoint = match ($telegramData->type) {
@@ -91,11 +95,15 @@ final class SendBotmanTelegramAction implements TelegramProviderActionInterface
         $payload = [
             'chat_id' => $telegramData->chatId,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'disable_notification' => $telegramData->disableNotification];
 =======
             'disable_notification' => $telegramData->disableNotification,
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'disable_notification' => $telegramData->disableNotification];
+>>>>>>> a988596b (first)
 
         if ($telegramData->replyToMessageId !== null) {
             $payload['reply_to_message_id'] = $telegramData->replyToMessageId;
@@ -123,11 +131,15 @@ final class SendBotmanTelegramAction implements TelegramProviderActionInterface
         try {
             $response = $client->post($endpoint, [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'json' => $payload]);
 =======
                 'json' => $payload,
             ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'json' => $payload]);
+>>>>>>> a988596b (first)
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
@@ -142,11 +154,15 @@ final class SendBotmanTelegramAction implements TelegramProviderActionInterface
             Log::debug('Telegram BotMan inviato con successo', [
                 'chat_id' => $telegramData->chatId,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'response_code' => $statusCode]);
 =======
                 'response_code' => $statusCode,
             ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'response_code' => $statusCode]);
+>>>>>>> a988596b (first)
 
             /** @var array<string, mixed> $result */
             $result = $responseData['result'] ?? [];
@@ -158,11 +174,15 @@ final class SendBotmanTelegramAction implements TelegramProviderActionInterface
                 'message_id' => $messageId,
                 'response' => $responseData,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'vars' => $this->vars];
 =======
                 'vars' => $this->vars,
             ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'vars' => $this->vars];
+>>>>>>> a988596b (first)
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
@@ -178,11 +198,15 @@ final class SendBotmanTelegramAction implements TelegramProviderActionInterface
                 'chat_id' => $telegramData->chatId,
                 'status' => $statusCode,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'response' => $responseBody]);
 =======
                 'response' => $responseBody,
             ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'response' => $responseBody]);
+>>>>>>> a988596b (first)
 
             return [
                 'success' => false,
@@ -194,11 +218,15 @@ final class SendBotmanTelegramAction implements TelegramProviderActionInterface
                     : null,
                 'status_code' => $statusCode,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'vars' => $this->vars];
 =======
                 'vars' => $this->vars,
             ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'vars' => $this->vars];
+>>>>>>> a988596b (first)
         }
     }
 }

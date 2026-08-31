@@ -12,11 +12,21 @@ use Modules\Xot\Contracts\ProfileContract;
  * Modules\Notify\Models\NotifyThemeable.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  * @method static Builder<static>|NotifyThemeable newModelQuery()
  * @method static Builder<static>|NotifyThemeable newQuery()
  * @method static Builder<static>|NotifyThemeable query()
+=======
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $updater
+ *
+ * @method static Builder<static>|NotifyThemeable newModelQuery()
+ * @method static Builder<static>|NotifyThemeable newQuery()
+ * @method static Builder<static>|NotifyThemeable query()
+ *
+>>>>>>> a988596b (first)
  * @property string $id
  * @property string|null $model_type
  * @property int|null $model_id
@@ -27,6 +37,10 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> a988596b (first)
  * @method static Builder<static>|NotifyThemeable whereCreatedAt($value)
  * @method static Builder<static>|NotifyThemeable whereCreatedBy($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
@@ -37,6 +51,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|NotifyThemeable whereNotifyThemeId($value)
  * @method static Builder<static>|NotifyThemeable whereUpdatedAt($value)
  * @method static Builder<static>|NotifyThemeable whereUpdatedBy($value)
+<<<<<<< HEAD
  * @property-read \Modules\User\Models\Profile|null $deleter
 =======
  * @property int $id
@@ -71,6 +86,9 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property-read ProfileContract|null $deleter
  *
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+ *
+>>>>>>> a988596b (first)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

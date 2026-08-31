@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Notify Module Roadmap 2026
 
 ## 📡 Sacred Philosophy: "One Message, Many Paths"
@@ -289,11 +290,21 @@ class SecurityManagerAction {
     public function detectAnomalousActivity(): SecurityAlert[];
 }
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "roadmap — puntatore"
 type: reference
 updated: 2026-05-21
 ---
+<<<<<<< HEAD
+=======
+# Policy globale (puntatore)
+
+Contenuto in wiki di progetto — non duplicare nei moduli ([#124](https://github.com/provtv/base_ptv_fila5_mono/issues/124)).
+
+→ [docs/wiki/rules/00-TRIGGER_MAP.md](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+>>>>>>> a988596b (first)
 
 # Policy globale (puntatore)
 
@@ -675,11 +686,15 @@ laravel/Themes/Sixteen/docs/
 ├── BLOCK_ARCHITECTURE.md - Block types and usage
 ├── homepage-visual-parity.md - Phase 10 verification
 └── screenshots/ - Visual comparisons
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 ```
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## 🏗️ Implementation Strategy
 
@@ -759,6 +774,8 @@ laravel/Themes/Sixteen/docs/
 - Performance Tests: High-volume scenarios
 - Security Tests: Data protection validation
 =======
+=======
+>>>>>>> a988596b (first)
 ## 📦 Archived Roadmap Files
 
 All old roadmap files have been archived to preserve history. See **[MIGRATION_GUIDE.md](./archive/roadmaps/MIGRATION_GUIDE.md)** for complete mapping.
@@ -795,11 +812,15 @@ Sep 2024          Q4 2025          Q1 2026          Q2 2026          2027+
                                                         ├─ Phase 12-13  ├─ Phase 14-15
                                                         │ (PLANNED)      │ (PLANNED)
                                                         └────────────────┘
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 ```
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## 📈 Success Metrics
 
@@ -1065,6 +1086,8 @@ Notify Module
 
 *Questa roadmap è specifica per il modulo Notify e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
 =======
+=======
+>>>>>>> a988596b (first)
 ## 🎯 Current Priorities
 
 **Week of April 3, 2026**:
@@ -1115,4 +1138,7 @@ Notify Module
 **Last Consolidated**: April 3, 2026  
 **Consolidation Agent**: GitHub Copilot CLI  
 **Next Review**: May 1, 2026
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

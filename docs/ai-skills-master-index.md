@@ -286,9 +286,13 @@ Skills activate automatically when the agent detects relevant tasks:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/_bases/base_fixcity_fila5/
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+/var/www/_bases/base_fixcity_fila5/
+>>>>>>> a988596b (first)
 /var/www/_bases/base_ptv_fila5/
 ├── skills/
 │   ├── ui-ux-pro-max/
@@ -362,9 +366,13 @@ Context: "Make it beautiful"
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> a988596b (first)
 cd /var/www/_bases/base_ptv_fila5
 mkdir -p skills/ui-ux-pro-max
 # SKILL.md already exists in skills/ui-ux-pro-max/
@@ -374,9 +382,13 @@ mkdir -p skills/ui-ux-pro-max
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> a988596b (first)
 cd /var/www/_bases/base_ptv_fila5
 mkdir -p skills/taste
 # SKILL.md already exists in skills/taste/
@@ -386,9 +398,13 @@ mkdir -p skills/taste
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> a988596b (first)
 cd /var/www/_bases/base_ptv_fila5
 mkdir -p skills/anthropic
 # SKILL.md already exists in skills/anthropic/
@@ -398,9 +414,13 @@ mkdir -p skills/anthropic
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> a988596b (first)
 cd /var/www/_bases/base_ptv_fila5
 npx skills add vercel-labs/agent-skills
 ```

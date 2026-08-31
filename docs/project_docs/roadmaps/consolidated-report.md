@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "consolidated-report-2025-10-01.deprecated"
+=======
+title: "consolidated-report-2025-10-01"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "consolidated-report-2025-10-01.deprecated deprecated"
+=======
+qmd: "consolidated-report-2025-10-01 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./agid-analysis-implementation-.md"
@@ -18,6 +26,7 @@ related:
   - "./code-quality-improvements-1.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [consolidated-report-.deprecated.md](consolidated-report-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created_at: '2025-10-01'
@@ -129,3 +138,6 @@ Report consolidato delle roadmap di tutti i moduli e temi del progetto FixCity.
 **Prossimo aggiornamento**: 2025-10-08  
 **Status**: 🚧 ACTIVE DEVELOPMENT  
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [consolidated-report.md](consolidated-report.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

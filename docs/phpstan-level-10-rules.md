@@ -298,10 +298,14 @@ These rules are enforced through:
 ## Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan Analysis Report 2026-03-02](./phpstan-analysis-2026-03-02.md)
 =======
 - [PHPStan Analysis Report 2026-03-02](./phpstan-analysis.md)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [PHPStan Analysis Report 2026-03-02](./phpstan-analysis-2026-03-02.md)
+>>>>>>> a988596b (first)
 - [Cms Module PHPStan Fixes](../laravel/Modules/Cms/docs/phpstan-fixes.md)
 - [Fixcity Module PHPStan Fixes](../laravel/Modules/Fixcity/docs/phpstan-level-10-fixes.md)
 - [PHPStan Official Documentation](https://phpstan.org/)

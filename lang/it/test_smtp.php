@@ -24,6 +24,9 @@ return [
         'recipient' => ['label' => 'recipient', 'placeholder' => 'recipient', 'helper_text' => 'recipient', 'description' => 'recipient'],
         'subject' => ['label' => 'subject', 'placeholder' => 'subject', 'helper_text' => 'subject', 'description' => 'subject'],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         'body_html' => ['placeholder' => 'body_html']],
     'actions' => [
         'send_test_email' => ['label' => 'Invia email di test'],
@@ -32,6 +35,7 @@ return [
     'sections' => [
         'SMTP' => ['label' => 'SMTP', 'heading' => 'SMTP'],
         'MAIL' => ['label' => 'MAIL', 'heading' => 'MAIL']]];
+<<<<<<< HEAD
 =======
         'body_html' => ['placeholder' => 'body_html'],
     ],
@@ -46,3 +50,5 @@ return [
     ],
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

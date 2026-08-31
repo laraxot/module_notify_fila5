@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Unit\Console\Commands;
 use Illuminate\Console\Command;
 use Modules\Notify\Console\Commands\AnalyzeTranslationFiles;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 =======
@@ -20,18 +21,34 @@ uses(TestCase::class)->group('no-notify-db');
 describe('AnalyzeTranslationFiles', function () {
     it('has correct signature', function () {
         $command = new AnalyzeTranslationFiles;
+=======
+use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
+
+describe('AnalyzeTranslationFiles', function () {
+    it('has correct signature', function () {
+        $command = new AnalyzeTranslationFiles();
+>>>>>>> a988596b (first)
 
         Assert::assertSame('notify:analyze-translations', $command->getName());
     });
 
     it('has description', function () {
+<<<<<<< HEAD
         $command = new AnalyzeTranslationFiles;
+=======
+        $command = new AnalyzeTranslationFiles();
+>>>>>>> a988596b (first)
 
         Assert::assertNotEmpty($command->getDescription());
     });
 
     it('extends command', function () {
+<<<<<<< HEAD
         $command = new AnalyzeTranslationFiles;
+=======
+        $command = new AnalyzeTranslationFiles();
+>>>>>>> a988596b (first)
 
         Assert::assertInstanceOf(Command::class, $command);
     });
@@ -73,7 +90,11 @@ describe('AnalyzeTranslationFiles', function () {
     });
 
     it('flatten array handles nested arrays', function () {
+<<<<<<< HEAD
         $command = new AnalyzeTranslationFiles;
+=======
+        $command = new AnalyzeTranslationFiles();
+>>>>>>> a988596b (first)
 
         $reflection = new \ReflectionClass($command);
         $method = $reflection->getMethod('flattenArray');
@@ -83,12 +104,16 @@ describe('AnalyzeTranslationFiles', function () {
             'parent' => [
                 'child1' => 'value1',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'child2' => 'value2']];
 =======
                 'child2' => 'value2',
             ],
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'child2' => 'value2']];
+>>>>>>> a988596b (first)
 
         $result = XotBasePest::assertArray($method->invoke($command, $input));
 
@@ -98,7 +123,11 @@ describe('AnalyzeTranslationFiles', function () {
     });
 
     it('flatten array handles empty array', function () {
+<<<<<<< HEAD
         $command = new AnalyzeTranslationFiles;
+=======
+        $command = new AnalyzeTranslationFiles();
+>>>>>>> a988596b (first)
 
         $reflection = new \ReflectionClass($command);
         $method = $reflection->getMethod('flattenArray');
@@ -110,7 +139,11 @@ describe('AnalyzeTranslationFiles', function () {
     });
 
     it('flatten array handles nested levels', function () {
+<<<<<<< HEAD
         $command = new AnalyzeTranslationFiles;
+=======
+        $command = new AnalyzeTranslationFiles();
+>>>>>>> a988596b (first)
 
         $reflection = new \ReflectionClass($command);
         $method = $reflection->getMethod('flattenArray');
@@ -120,6 +153,7 @@ describe('AnalyzeTranslationFiles', function () {
             'level1' => [
                 'level2' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'level3' => 'deep value']]];
 =======
                     'level3' => 'deep value',
@@ -127,6 +161,9 @@ describe('AnalyzeTranslationFiles', function () {
             ],
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'level3' => 'deep value']]];
+>>>>>>> a988596b (first)
 
         $result = XotBasePest::assertArray($method->invoke($command, $input));
 
@@ -135,7 +172,11 @@ describe('AnalyzeTranslationFiles', function () {
     });
 
     it('flatten array handles prefix parameter', function () {
+<<<<<<< HEAD
         $command = new AnalyzeTranslationFiles;
+=======
+        $command = new AnalyzeTranslationFiles();
+>>>>>>> a988596b (first)
 
         $reflection = new \ReflectionClass($command);
         $method = $reflection->getMethod('flattenArray');

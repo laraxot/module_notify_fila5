@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.deprecated"
+=======
+title: "GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "github_issues_recommendations_2026-03-02.deprecated deprecated"
+=======
+qmd: "github_issues_recommendations_2026-03-02 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./00-index-1.md"
@@ -18,6 +26,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [github-issues-recommendations-.deprecated.md](github-issues-recommendations-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created: 2026-03-02
@@ -720,3 +729,6 @@ Discuss CI/CD pipeline improvements. Topics include:
 **Last Updated**: 2026-03-02
 **Status**: Ready for Implementation
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [github-issues-recommendations.md](github-issues-recommendations.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

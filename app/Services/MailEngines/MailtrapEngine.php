@@ -34,10 +34,14 @@ class MailtrapEngine
     {
         if (! (self::$instance instanceof self)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             self::$instance = new self();
 =======
             self::$instance = new self;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            self::$instance = new self();
+>>>>>>> a988596b (first)
         }
 
         return self::$instance;

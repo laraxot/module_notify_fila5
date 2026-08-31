@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "📖 Guidelines Index"
 type: concept
@@ -14,7 +17,10 @@ related:
   - "./semantic-html-css.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # 📖 Guidelines Index
 
 **Path**: `.agents/docs/guidelines/`  
@@ -76,6 +82,7 @@ A differenza delle rules (obbligatorie), le guidelines sono **consigli** per scr
 
 ### Parent Index
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[Master Index](../00-INDEX.md)** - AI Agents documentation hub
 
 ### Related Indices
@@ -92,6 +99,8 @@ A differenza delle rules (obbligatorie), le guidelines sono **consigli** per scr
 - **[Theme Zero Components](../../laravel/Themes/Zero/docs/components/00-INDEX.md)** - Theme components
 - **[TwentyOne Integration](../../laravel/Themes/TwentyOne/docs/predict-integration.md)** - Theme integration
 =======
+=======
+>>>>>>> a988596b (first)
 - **[Master Index](../00-index-1.md)** - AI Agents documentation hub
 
 ### Related Indices
@@ -203,7 +212,10 @@ A differenza delle rules (obbligatorie), le guidelines sono **consigli** per scr
 ### Theme Docs
 - **[Theme Zero Components](../../laravel/Themes/Zero/docs/components/00-index.md)** - Theme components
 - **[TwentyOne Integration](../../laravel/Themes/TwentyOne/docs/forecast-integration.md)** - Theme integration
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 ---
 

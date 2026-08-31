@@ -1,9 +1,13 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Notify Module - Product Launch Plan"
 =======
 title: "Notify - Product Launch Plan"
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+title: "Notify - Product Launch Plan"
+>>>>>>> a988596b (first)
 module: notify
 type: integration
 tags: [integrations, modules, notify]
@@ -11,6 +15,7 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Notify Module - Product Launch Plan
 
@@ -96,6 +101,8 @@ updated: 2026-08-24
 
 *Last Updated: March 12, 2026*
 =======
+=======
+>>>>>>> a988596b (first)
 # Notify - Product Launch Plan
 
 > Piano di lancio. Modulo.
@@ -152,4 +159,7 @@ Rilasciare **Notify** in modo controllato, misurabile e coerente con il suo ruol
 - [PRD](prd.md)
 - [User Research](user-research.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

@@ -67,12 +67,16 @@ class SendEmailPage extends XotBasePage
                         ->required(),
                     'subject' => TextInput::make('subject')->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'body_html' => RichEditor::make('body_html')->required()])];
 =======
                     'body_html' => RichEditor::make('body_html')->required(),
                 ]),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'body_html' => RichEditor::make('body_html')->required()])];
+>>>>>>> a988596b (first)
     }
 
     public function sendEmail(): void
@@ -93,11 +97,15 @@ class SendEmailPage extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'emailForm'];
 =======
             'emailForm',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'emailForm'];
+>>>>>>> a988596b (first)
     }
 
     /** @return array<string, Action> */
@@ -107,11 +115,15 @@ class SendEmailPage extends XotBasePage
             'submit' => Action::make('emailFormActions')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->submit('emailFormActions')];
 =======
                 ->submit('emailFormActions'),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                ->submit('emailFormActions')];
+>>>>>>> a988596b (first)
     }
 
     #[Override]
