@@ -13,6 +13,7 @@ use Modules\Xot\Contracts\ProfileContract;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  * @method static Builder<static>|NotifyThemeable newModelQuery()
@@ -89,6 +90,14 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
  *
 >>>>>>> a988596b (first)
+=======
+ * @property-read \Modules\WorkOrder\Models\Profile|null $creator
+ * @property-read \Modules\WorkOrder\Models\Profile|null $deleter
+ * @property-read \Modules\WorkOrder\Models\Profile|null $updater
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotifyThemeable newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotifyThemeable newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotifyThemeable query()
+>>>>>>> 98d0a12c (.)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

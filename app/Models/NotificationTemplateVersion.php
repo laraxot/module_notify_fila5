@@ -28,6 +28,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int|null $template_id
 =======
  * @property int $id
@@ -83,6 +84,18 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+ * @property-read \Modules\WorkOrder\Models\Profile|null $creator
+ * @property-read \Modules\WorkOrder\Models\Profile|null $deleter
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
+ * @property-read \Modules\WorkOrder\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateVersionFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplateVersion newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplateVersion newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplateVersion query()
+>>>>>>> 98d0a12c (.)
  * @mixin \Eloquent
  */
 class NotificationTemplateVersion extends BaseModel

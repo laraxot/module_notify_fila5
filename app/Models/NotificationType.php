@@ -20,6 +20,7 @@ use Override;
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
  * @property string|null $name
 =======
@@ -90,6 +91,11 @@ use Override;
  * @method static Builder<static>|NotificationType query()
  *
 >>>>>>> a988596b (first)
+=======
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationType newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationType newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationType query()
+>>>>>>> 98d0a12c (.)
  * @mixin \Eloquent
  */
 class NotificationType extends Model

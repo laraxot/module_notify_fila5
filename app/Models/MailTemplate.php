@@ -31,6 +31,7 @@ use Spatie\Translatable\HasTranslations;
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read list<string> $translatable_columns_from
  * @property-read array<string, mixed> $variables
  * @property-read mixed $translations
@@ -158,6 +159,19 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereVersion($value)
  *
 >>>>>>> a988596b (first)
+=======
+ * @property-read array $translatable_columns_from
+ * @property-read array $variables
+ * @property-read mixed $translations
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplate forMailable(\Illuminate\Contracts\Mail\Mailable $mailable)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplate newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplate newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplate query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplate whereLocale(string $column, string $locale)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplate whereLocales(string $column, array $locales)
+>>>>>>> 98d0a12c (.)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface

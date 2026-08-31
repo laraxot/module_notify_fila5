@@ -16,6 +16,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
  * @property-read ProfileContract|null $creator
@@ -134,6 +135,22 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
  *
 >>>>>>> a988596b (first)
+=======
+ * @property-read \Modules\WorkOrder\Models\Profile|null $creator
+ * @property-read \Modules\WorkOrder\Models\Profile|null $deleter
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Illuminate\Database\Eloquent\Model $notifiable
+ * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
+ * @property-read \Modules\WorkOrder\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\NotificationLogFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationLog forChannel(string $channel)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationLog newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationLog newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationLog query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationLog withStatus(string $status)
+>>>>>>> 98d0a12c (.)
  * @mixin \Eloquent
  */
 class NotificationLog extends BaseModel

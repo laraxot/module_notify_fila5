@@ -7,9 +7,12 @@ namespace Modules\Notify\Models;
 use Eloquent;
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 >>>>>>> a988596b (first)
+=======
+>>>>>>> 98d0a12c (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
@@ -22,6 +25,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 /**
  * Modules\Notify\Models\NotifyTheme.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @method static NotifyThemeFactory factory($count = null, $state = [])
@@ -160,11 +164,23 @@ class NotifyTheme extends BaseModel
 =======
  *
  * @mixin Eloquent
+=======
+ * @property-read \Modules\WorkOrder\Models\Profile|null $creator
+ * @property-read \Modules\WorkOrder\Models\Profile|null $deleter
+ * @property-read \Modules\Notify\Models\array{path: $logo
+ * @property-read \Illuminate\Database\Eloquent\Model $linkable
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\WorkOrder\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\NotifyThemeFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotifyTheme newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotifyTheme newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotifyTheme query()
+ * @mixin \Eloquent
+>>>>>>> 98d0a12c (.)
  */
 class NotifyTheme extends BaseModel
 {
-    /** @use HasFactory<NotifyThemeFactory> */
-    use HasFactory;
 
 >>>>>>> a988596b (first)
     /** @var list<string> */

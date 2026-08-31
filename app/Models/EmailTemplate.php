@@ -7,6 +7,7 @@ namespace Modules\Notify\Models;
 use Illuminate\Database\Eloquent\Model;
 
 /**
+<<<<<<< HEAD
  * @method static \Illuminate\Database\Eloquent\Builder<static>|EmailTemplate newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|EmailTemplate newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|EmailTemplate query()
@@ -34,6 +35,11 @@ use Illuminate\Database\Eloquent\Model;
 =======
  *
 >>>>>>> a988596b (first)
+=======
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\EmailTemplate newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\EmailTemplate newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\EmailTemplate query()
+>>>>>>> 98d0a12c (.)
  * @mixin \Eloquent
  */
 class EmailTemplate extends Model

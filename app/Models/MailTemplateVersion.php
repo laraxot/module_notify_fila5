@@ -33,6 +33,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
@@ -135,6 +136,21 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
  *
 >>>>>>> a988596b (first)
+=======
+ * @property-read \Modules\WorkOrder\Models\Profile|null $creator
+ * @property-read \Modules\WorkOrder\Models\Profile|null $deleter
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\MailTemplate|null $template
+ * @property-read \Modules\WorkOrder\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\MailTemplateVersionFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplateVersion newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplateVersion newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplateVersion onlyTrashed()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplateVersion query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplateVersion withTrashed(bool $withTrashed = true)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplateVersion withoutTrashed()
+>>>>>>> 98d0a12c (.)
  * @mixin \Eloquent
  */
 class MailTemplateVersion extends BaseModel
