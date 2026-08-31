@@ -33,6 +33,7 @@ use Spatie\Translatable\HasTranslations;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
  * @property string|null $name
@@ -48,11 +49,17 @@ use Spatie\Translatable\HasTranslations;
  * @property array<string, mixed>|null $grapesjs_data
  * @property NotificationTypeEnum $type
  * @property-read ProfileContract|null $creator
+=======
+ * @property \Modules\Notify\Enums\NotificationTypeEnum $type
+ * @property-read \Modules\WorkOrder\Models\Profile|null $creator
+ * @property-read \Modules\WorkOrder\Models\Profile|null $deleter
+>>>>>>> 98d0a12c (.)
  * @property-read string $channels_label
- * @property-read list<string> $translatable_columns_from
- * @property-read MediaCollection<int, Media> $media
+ * @property-read array $translatable_columns_from
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
  * @property-read int|null $media_count
  * @property-read mixed $translations
+<<<<<<< HEAD
  * @property-read ProfileContract|null $updater
 <<<<<<< HEAD
  * @method static Builder<static>|NotificationTemplate active()
@@ -164,6 +171,20 @@ use Spatie\Translatable\HasTranslations;
 =======
  *
 >>>>>>> a988596b (first)
+=======
+ * @property-read \Modules\WorkOrder\Models\Profile|null $updater
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate active()
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate forCategory(string $category)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate forChannel(string $channel)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate whereLocale(string $column, string $locale)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate whereLocales(string $column, array $locales)
+>>>>>>> 98d0a12c (.)
  * @mixin \Eloquent
  */
 class NotificationTemplate extends BaseModel implements HasMedia

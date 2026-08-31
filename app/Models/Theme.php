@@ -7,6 +7,7 @@ namespace Modules\Notify\Models;
 use Illuminate\Database\Eloquent\Model;
 
 /**
+<<<<<<< HEAD
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Theme newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Theme newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Theme query()
@@ -18,6 +19,11 @@ use Illuminate\Database\Eloquent\Model;
 =======
  *
 >>>>>>> a988596b (first)
+=======
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\Theme newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\Theme newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\Theme query()
+>>>>>>> 98d0a12c (.)
  * @mixin \Eloquent
  */
 class Theme extends Model
