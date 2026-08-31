@@ -30,10 +30,15 @@
 ### 1. Clone Repository
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 git clone https://github.com/laraxot/fixcity.git
 cd fixcity/laravel
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+git clone https://github.com/laraxot/fixcity.git
+cd fixcity/laravel
+>>>>>>> a988596b (first)
 git clone https://github.com/laraxot/ptv.git
 cd ptv/laravel
 ```
@@ -61,9 +66,13 @@ DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
 <<<<<<< HEAD
+<<<<<<< HEAD
 DB_DATABASE=fixcity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+DB_DATABASE=fixcity
+>>>>>>> a988596b (first)
 DB_DATABASE=ptv
 DB_USERNAME=your_user
 DB_PASSWORD=your_password
@@ -236,9 +245,13 @@ return [
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 base_fixcity_fila5_mono/
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+base_fixcity_fila5_mono/
+>>>>>>> a988596b (first)
 base_ptv_fila5_mono/
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart

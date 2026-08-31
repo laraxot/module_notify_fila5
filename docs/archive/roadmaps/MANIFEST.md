@@ -28,6 +28,10 @@ During **Phase 11: Documentation Consolidation**, all scattered roadmap, timelin
 |------|----------|------|------------------|
 | MASTER_ROADMAP.md | `/docs/` | 724 lines | `archive/roadmaps/legacy-master-roadmaps/` |
 | MASTER_ROADMAP_2025.md | `/docs/` | 604 lines | `archive/roadmaps/legacy-master-roadmaps/` |
+<<<<<<< HEAD
+=======
+| PROJECT-ROADMAP.md | `/docs/` | 172 lines | `archive/roadmaps/legacy-master-roadmaps/` |
+>>>>>>> a988596b (first)
 | project-roadmap.md | `/docs/` | 172 lines | `archive/roadmaps/legacy-master-roadmaps/` |
 | PROJECT_ROADMAP.md | `/docs/` | 691 lines | `archive/roadmaps/legacy-master-roadmaps/` |
 | roadmap.md | `/docs/` | 40 lines | `archive/roadmaps/legacy-master-roadmaps/` |
@@ -213,6 +217,10 @@ docs/archive/roadmaps/
 ├── legacy-master-roadmaps/
 │   ├── MASTER_ROADMAP.md (original 724 lines)
 │   ├── MASTER_ROADMAP_2025.md (604 lines)
+<<<<<<< HEAD
+=======
+│   ├── PROJECT-ROADMAP.md (172 lines)
+>>>>>>> a988596b (first)
 │   ├── project-roadmap.md (172 lines)
 │   ├── PROJECT_ROADMAP.md (691 lines)
 │   ├── roadmap.md (40 lines)
@@ -304,6 +312,10 @@ docs/archive/roadmaps/
 - ✅ Created MANIFEST.md (THIS FILE)
 
 ### Wave 3: Cross-Linking 🟡 (IN PROGRESS)
+<<<<<<< HEAD
+=======
+- [ ] Update `/docs/INDEX.md` with roadmap link
+>>>>>>> a988596b (first)
 - [ ] Update `/docs/index.md` with roadmap link
 - [ ] Verify all internal links (no 404s)
 - [ ] Create MODULE_ROADMAPS.md index

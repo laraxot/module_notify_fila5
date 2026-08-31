@@ -45,10 +45,14 @@ class NotificationTemplateFactory extends Factory
             'is_active' => true,
             'version' => 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'type' => 'email'];
 =======
             'type' => 'email',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'type' => 'email'];
+>>>>>>> a988596b (first)
     }
 }

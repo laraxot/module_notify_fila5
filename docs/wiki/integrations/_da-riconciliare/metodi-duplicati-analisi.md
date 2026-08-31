@@ -117,9 +117,13 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### App/TicketResource/ListTickets.php (ECCELLENTE)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+#### App/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> a988596b (first)
 #### <nome progetto>/TicketResource/ListTickets.php (ECCELLENTE)
 ```php
 protected function getTableColumns(): array
@@ -482,9 +486,13 @@ public function getTableFilters(): array
 - Code review
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Settimana 2**: Moduli Business (App, Blog, Geo)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Settimana 2**: Moduli Business (App, Blog, Geo)
+>>>>>>> a988596b (first)
 **Settimana 2**: Moduli Business (<nome progetto>, Blog, Geo)
 - 20 List files
 - Test integrazione
@@ -524,9 +532,13 @@ public function getTableFilters(): array
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 4. Refactoring moduli business (App, Blog, Geo)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+4. Refactoring moduli business (App, Blog, Geo)
+>>>>>>> a988596b (first)
 4. Refactoring moduli business (<nome progetto>, Blog, Geo)
 5. ActionPresets per CRUD
 6. Documentazione completa
@@ -556,6 +568,7 @@ public function getTableFilters(): array
 3. Kick-off Fase 1
 4. Implementazione ColumnBuilder
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
 
@@ -1509,3 +1522,6 @@ _Report generato automaticamente — fonte: `/tmp/metodi_duplicati_domain_report
 =======
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Domande?** Chiedi alla Super Mucca! 🐄⚡
+>>>>>>> a988596b (first)

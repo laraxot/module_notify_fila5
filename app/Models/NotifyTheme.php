@@ -6,6 +6,10 @@ namespace Modules\Notify\Models;
 
 use Eloquent;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+>>>>>>> a988596b (first)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
@@ -19,13 +23,19 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * Modules\Notify\Models\NotifyTheme.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @method static NotifyThemeFactory factory($count = null, $state = [])
+=======
+ * @method static NotifyThemeFactory factory($count = null, $state = [])
+ *
+>>>>>>> a988596b (first)
  * @property-read ProfileContract|null $creator
  * @property-read array{path: string, width: int, height: int} $logo
  * @property-read Model $linkable
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read ProfileContract|null $updater
+<<<<<<< HEAD
  * @method static Builder<static>|NotifyTheme newModelQuery()
  * @method static Builder<static>|NotifyTheme newQuery()
  * @method static Builder<static>|NotifyTheme query()
@@ -33,11 +43,20 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
  * @property int $id
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+ *
+ * @method static Builder<static>|NotifyTheme newModelQuery()
+ * @method static Builder<static>|NotifyTheme newQuery()
+ * @method static Builder<static>|NotifyTheme query()
+ *
+ * @property string $id
+>>>>>>> a988596b (first)
  * @property string|null $lang
  * @property string|null $type
  * @property string|null $subject
  * @property string|null $body
  * @property string|null $from
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
  * @property Carbon|null $created_at
@@ -45,6 +64,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
  * @property string|null $post_type
  * @property int|null $post_id
  * @property string|null $body_html
@@ -54,6 +75,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property int|null $logo_width
  * @property int|null $logo_height
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
  * @property array<array-key, mixed>|null $view_params
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
@@ -61,6 +85,10 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> a988596b (first)
  * @method static Builder<static>|NotifyTheme whereBody($value)
  * @method static Builder<static>|NotifyTheme whereBodyHtml($value)
  * @method static Builder<static>|NotifyTheme whereCreatedAt($value)
@@ -82,6 +110,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotifyTheme whereUpdatedAt($value)
  * @method static Builder<static>|NotifyTheme whereUpdatedBy($value)
  * @method static Builder<static>|NotifyTheme whereViewParams($value)
+<<<<<<< HEAD
  * @property-read \Modules\User\Models\Profile|null $deleter
  * @mixin Eloquent
 =======
@@ -128,6 +157,16 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  */
 class NotifyTheme extends BaseModel
 {
+=======
+ *
+ * @mixin Eloquent
+ */
+class NotifyTheme extends BaseModel
+{
+    /** @use HasFactory<NotifyThemeFactory> */
+    use HasFactory;
+
+>>>>>>> a988596b (first)
     /** @var list<string> */
     protected $fillable = [
         'id',
@@ -145,11 +184,15 @@ class NotifyTheme extends BaseModel
         'logo_width',
         'logo_height',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         'view_params'];
 
     /** @var list<string> */
     protected $appends = [
         'logo'];
+<<<<<<< HEAD
 =======
         'view_params',
     ];
@@ -159,6 +202,8 @@ class NotifyTheme extends BaseModel
         'logo',
     ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
     /**
      * @param  array<string, mixed>|null  $value
@@ -171,11 +216,15 @@ class NotifyTheme extends BaseModel
             'path' => url($this->getFirstMediaUrl()),
             'width' => $this->logo_width ?? 50,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'height' => $this->logo_height ?? 50];
 =======
             'height' => $this->logo_height ?? 50,
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'height' => $this->logo_height ?? 50];
+>>>>>>> a988596b (first)
     }
 
     /**
@@ -202,10 +251,14 @@ class NotifyTheme extends BaseModel
             'deleted_by' => 'string',
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 <<<<<<< HEAD
+<<<<<<< HEAD
             'view_params' => 'array'];
 =======
             'view_params' => 'array',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'view_params' => 'array'];
+>>>>>>> a988596b (first)
     }
 }

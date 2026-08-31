@@ -256,9 +256,13 @@ get-shit-done/
 
 **What does NOT belong here:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Conceptual architecture (that's ARCHITECTURE.md)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- Conceptual architecture (that's ARCHITECTURE.md)
+>>>>>>> a988596b (first)
 - Conceptual architecture (that's architecture.md)
 - Technology stack (that's STACK.md)
 - Code implementation details (defer to code reading)

@@ -38,6 +38,9 @@ abstract class TestCase extends XotBaseTestCase
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
      * @return array<string, mixed>
      */
     public static function assertNotifyArray(mixed $value): array
@@ -49,8 +52,11 @@ abstract class TestCase extends XotBaseTestCase
     }
 
     /**
+<<<<<<< HEAD
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
      * @template T of object
      *
      * @param  ReflectionClass<T>  $reflection
@@ -270,11 +276,15 @@ abstract class TestCase extends XotBaseTestCase
             ...parent::getPackageProviders($app),
             UserServiceProvider::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
             NotifyServiceProvider::class];
 =======
             NotifyServiceProvider::class,
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            NotifyServiceProvider::class];
+>>>>>>> a988596b (first)
     }
 
     /**

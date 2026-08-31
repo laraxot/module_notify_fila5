@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 # antigravity e bmad method: integrazione e contesto fixcity
 
 ## scopo
 
 Chiarire la relazione tra **Google Antigravity** (IDE/agent-first), il template community **[antigravity-bmad-config](https://github.com/salacoste/antigravity-bmad-config)** e il modo in cui **FixCity** usa già BMAD (`_bmad/`, skill Cursor, artefatti in `_bmad-output/`).
+<<<<<<< HEAD
 =======
 # antigravity e bmad method: integrazione e contesto laraxot
 
@@ -11,6 +15,8 @@ Chiarire la relazione tra **Google Antigravity** (IDE/agent-first), il template 
 
 Chiarire la relazione tra **Google Antigravity** (IDE/agent-first), il template community **[antigravity-bmad-config](https://github.com/salacoste/antigravity-bmad-config)** e il modo in cui **Notify** usa già BMAD (`_bmad/`, skill Cursor, artefatti in `_bmad-output/`).
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 Evita confusione: **non sono due installazioni obbligatorie**; sono **due ambienti** (Antigravity vs Cursor/Windsurf) che possono condividere la stessa filosofia BMAD.
 
@@ -24,11 +30,17 @@ Evita confusione: **non sono due installazioni obbligatorie**; sono **due ambien
 **Fonte**: repository `salacoste/antigravity-bmad-config` (README ufficiale).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## cosa usa questo repository (fixcity)
 
 | Aspetto | FixCity |
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+## cosa usa questo repository (fixcity)
+
+| Aspetto | FixCity |
+>>>>>>> a988596b (first)
 ## cosa usa questo repository (laraxot)
 
 | Aspetto | Notify |

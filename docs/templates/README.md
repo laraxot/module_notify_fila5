@@ -161,9 +161,12 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../../../doc
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../../docs/readme_links.md). 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 ---
 
 <!-- Merged from readme.md, which collided with this file on case-insensitive filesystems. -->

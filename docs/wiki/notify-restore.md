@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "notify-restore-2026-04-21.deprecated"
+=======
+title: "notify-restore-2026-04-21"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "notify-restore-2026-04-21.deprecated deprecated"
+=======
+qmd: "notify-restore-2026-04-21 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./agents.md"
@@ -15,6 +23,7 @@ related:
   - "./notify-conflict-check-.md"
   - "./notify-conflict-check-1.md"
   - "./notify-conflict-check.md"
+<<<<<<< HEAD
   - "./notify-restore-1.md"
 ---
 
@@ -51,3 +60,9 @@ Inoltre `laravel/Modules/Notify/composer.json` descriveva erroneamente un modulo
 
 Il modulo Notify diretto contiene ancora molti file non tracciati gia' presenti prima dell'intervento. Questo ripristino ha rimosso solo la Laravel app annidata errata e corretto il composer del modulo.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+  - "./notify-restore-.md"
+---
+
+> Questo file è stato rinominato in [notify-restore.md](notify-restore.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

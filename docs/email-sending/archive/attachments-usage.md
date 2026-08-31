@@ -30,9 +30,13 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 $attachments = [
     [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> a988596b (first)
         'path' => '[project-root]/public_html/images/avatars/default-3.svg',
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
@@ -40,9 +44,13 @@ $attachments = [
     // Eventualmente altri allegati...
     [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> a988596b (first)
         'path' => '[project-root]/public_html/documents/terms.pdf',
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',

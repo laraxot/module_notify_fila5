@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "🎨 MCP Servers per Tailwind CSS & UI Frameworks"
 type: concept
@@ -20,7 +23,10 @@ related:
   - "./08-verified-commit-governance.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # 🎨 MCP Servers per Tailwind CSS & UI Frameworks
 
 **Data**: 2026-03-20  
@@ -104,10 +110,15 @@ php artisan boost:install
 **Usage**:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a Filament table widget for Predict model"
 =======
 "Create a Filament table widget for Forecast model"
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+"Create a Filament table widget for Predict model"
+"Create a Filament table widget for Forecast model"
+>>>>>>> a988596b (first)
 "Generate a Livewire component for market cards"
 "Add validation rules for user registration"
 ```
@@ -441,10 +452,15 @@ npx shadcn@latest mcp init --client claude
 ```
 "Create a hero section using Flowbite with purple brand color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Generate a Filament table widget for Predict model"
 =======
 "Generate a Filament table widget for Forecast model"
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+"Generate a Filament table widget for Predict model"
+"Generate a Filament table widget for Forecast model"
+>>>>>>> a988596b (first)
 "Add cinematic particles effect to homepage"
 ```
 

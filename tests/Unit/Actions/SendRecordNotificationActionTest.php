@@ -11,6 +11,7 @@ use Modules\Notify\Actions\SendRecordNotificationAction;
 use Modules\Notify\Enums\ChannelEnum;
 use Modules\Notify\Notifications\RecordNotification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 
 =======
@@ -20,6 +21,10 @@ use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 uses(TestCase::class)->group('no-notify-db');
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
+
+>>>>>>> a988596b (first)
 /**
  * @param  array<string, mixed>  $attributes
  */
@@ -40,7 +45,11 @@ function makeDummyRecordForNotify(array $attributes = []): Model
 }
 
 test('send record notification routes valid mail channel', function () {
+<<<<<<< HEAD
     app()->instance(SafeEloquentCastAction::class, new class
+=======
+    app()->instance(SafeEloquentCastAction::class, new class()
+>>>>>>> a988596b (first)
     {
         public function getStringAttribute(Model $record, string $attribute, string $default = ''): string
         {

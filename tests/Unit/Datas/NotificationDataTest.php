@@ -6,6 +6,7 @@ namespace Modules\Notify\Tests\Unit\Datas;
 
 use Modules\Notify\Datas\NotificationData;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
@@ -14,6 +15,11 @@ use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 use Modules\Xot\Tests\XotBasePest;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
+use Spatie\LaravelData\Data;
+>>>>>>> a988596b (first)
 
 describe('NotificationData', function () {
     it('can be referenced via reflection without instantiation', function () {

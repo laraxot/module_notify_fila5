@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🗺️ FIXCITY - PROJECT ROADMAP COMPLETA
 
 > **Data**: 2025-10-01
@@ -692,12 +693,18 @@ tests/Browser/AdminManageTicketTest.php
 **Ultimo aggiornamento**: 2025-10-01
 **Maintainer**: Development Team
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "ROADMAP PRINCIPALE - Progetto Fixcity"
 type: concept
 tags: [project, roadmap]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
+=======
+qmd: "project-roadmap roadmap principale - progetto fixcity"
+>>>>>>> a988596b (first)
 qmd: "project-roadmap roadmap principale - progetto ptv"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -884,4 +891,7 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 Il progetto Fixcity rappresenta un'opportunità unica per rivoluzionare la gestione della manutenzione urbana attraverso la tecnologia. Con un'architettura solida, un team dedicato e una roadmap chiara, il progetto è pronto per diventare il leader di mercato nel settore della smart city management.
 
 La combinazione di tecnologie moderne, user experience ottimizzata e business logic innovativa posiziona Fixcity come la soluzione ideale per amministrazioni pubbliche che vogliono migliorare la qualità dei servizi ai cittadini.
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

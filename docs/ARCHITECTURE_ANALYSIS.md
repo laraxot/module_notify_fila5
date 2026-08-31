@@ -1097,9 +1097,13 @@ The frontend follows Italian Public Administration design guidelines:
 
 // Ticket List (AGID-compliant)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-fixcity::blocks.ticket_list.agid />
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+<x-fixcity::blocks.ticket_list.agid />
+>>>>>>> a988596b (first)
 <x-ptv::blocks.ticket_list.agid />
 
 // Forms (Filament + Custom CSS)
@@ -1625,9 +1629,13 @@ Tasks:
 ### Recommended New Documentation
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. ARCHITECTURE.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+1. ARCHITECTURE.md
+>>>>>>> a988596b (first)
 1. architecture.md
    - System architecture diagrams
    - Module dependency graph

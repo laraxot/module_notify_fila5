@@ -6,7 +6,10 @@ updated: 2026-05-11
 tags: [on-demand, pattern, wiki, qmd]
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
   - "./00-index-1.md"
   - "./00-index-2.md"
   - "./00-index.md"
@@ -81,6 +84,10 @@ qmd search "<topic>"
 
 ## Regole Critiche per Module
 
+<<<<<<< HEAD
+=======
+1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o claude.md
+>>>>>>> a988596b (first)
 1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o claude.md
 2. **Carica only what you need** — Ogni task carica max 3-5 file
 3. **Mantieni la wiki aggiornata** — Dopo ogni task, aggiorna ./laravel/Modules/Notify/docs/wiki/log.md
@@ -107,7 +114,10 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [on-demand, pattern, wiki, qmd]
 related:
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
   - ../../docs/wiki/rules/on-demand-pattern.md
   - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
 ---
@@ -160,16 +170,22 @@ qmd search "<topic>"
 ./laravel/Modules/Notify/docs/
 └── wiki/                    # Knowledge base locale
 <<<<<<< HEAD
+<<<<<<< HEAD
     ├── rules/INDEX.md      # Indice rules modulo-specifiche
     ├── skills/INDEX.md     # Indice skills modulo-specifiche
     ├── commands/INDEX.md   # Indici commands
     └── memories/INDEX.md   # Indice memories
 =======
+=======
+>>>>>>> a988596b (first)
     ├── rules/index.md      # Indice rules modulo-specifiche
     ├── skills/index.md     # Indice skills modulo-specifiche
     ├── commands/index.md   # Indici commands
     └── memories/index.md   # Indice memories
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 \`\`\`
 
 ## Quick Reference
@@ -184,10 +200,14 @@ qmd search "<topic>"
 ## Regole Critiche per Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
 =======
 1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
+>>>>>>> a988596b (first)
 2. **Carica only what you need** — Ogni task carica max 3-5 file
 3. **Mantieni la wiki aggiornata** — Dopo ogni task, aggiorna ./laravel/Modules/Notify/docs/wiki/log.md
 4. **Rispetta la trigger map** — Se esiste, usala; altrimenti usa qmd search

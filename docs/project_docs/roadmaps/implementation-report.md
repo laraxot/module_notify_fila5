@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "IMPLEMENTATION_REPORT_2025-10-01.deprecated"
+=======
+title: "IMPLEMENTATION_REPORT_2025-10-01"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "implementation_report_2025-10-01.deprecated deprecated"
+=======
+qmd: "implementation_report_2025-10-01 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./agid-analysis-implementation-.md"
@@ -18,6 +26,7 @@ related:
   - "./code-quality-improvements-1.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [implementation-report-.deprecated.md](implementation-report-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created_at: '2025-10-01'
@@ -420,3 +429,6 @@ With sustained focus and execution, the project is on track to achieve all 2025 
 
 *"Quality is not an act, it is a habit." - Aristotle*
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [implementation-report.md](implementation-report.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

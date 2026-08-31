@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "phpstan-final-status-2025-10-10.deprecated"
+=======
+title: "phpstan-final-status-2025-10-10"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "phpstan-final-status-2025-10-10.deprecated deprecated"
+=======
+qmd: "phpstan-final-status-2025-10-10 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./00-index-1.md"
@@ -18,6 +26,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [phpstan-final-status-.deprecated.md](phpstan-final-status-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created_at: '2025-10-10'
@@ -351,3 +360,6 @@ Gli errori rimanenti (13,996) sono **SOLO nei test** e sono opzionali da corregg
 **Livello PHPStan**: MAX (9)  
 **Status**: ✅ ✅ ✅ **SUCCESSO COMPLETO** ✅ ✅ ✅
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [phpstan-final-status.md](phpstan-final-status.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

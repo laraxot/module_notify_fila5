@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "FINAL_IMPLEMENTATION_REPORT_2025-10-02.deprecated"
+=======
+title: "FINAL_IMPLEMENTATION_REPORT_2025-10-02"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "final_implementation_report_2025-10-02.deprecated deprecated"
+=======
+qmd: "final_implementation_report_2025-10-02 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./2025-excellence-achievement.md"
@@ -13,6 +21,7 @@ related:
   - "./architecture.md"
   - "./complete-refactoring-analysis.md"
   - "./documentation-status.md"
+<<<<<<< HEAD
   - "./final-implementation-report-1.md"
   - "./final-implementation-report.md"
   - "./final-refactoring-report.md"
@@ -247,3 +256,11 @@ Steps:
 **Tempo impiegato**: ~90 minuti di lavoro intensivo  
 **Status finale**: ✅ **SUCCESS - ZERO ERRORS**
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+  - "./final-implementation-report-.md"
+  - "./final-implementation-report-1.md"
+  - "./final-refactoring-report.md"
+---
+
+> Questo file è stato rinominato in [final-implementation-report.md](final-implementation-report.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

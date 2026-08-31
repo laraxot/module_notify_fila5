@@ -1,8 +1,12 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "PHPStan Configuration - Progetto Base FixCity Fila3 Mono"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+title: "PHPStan Configuration - Progetto Base FixCity Fila3 Mono"
+>>>>>>> a988596b (first)
 title: "PHPStan Configuration - Progetto Base Notify Fila3 Mono"
 type: index
 tags: [notify, docs, project_docs, development, phpstan]
@@ -10,9 +14,13 @@ module: Notify
 created: 2026-07-20
 updated: 2026-07-20
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "notify documentazione project_docs development phpstan readme phpstan configuration - progetto base fixcity fila3 mono index readme frontmatter qmd search"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+qmd: "notify documentazione project_docs development phpstan readme phpstan configuration - progetto base fixcity fila3 mono index readme frontmatter qmd search"
+>>>>>>> a988596b (first)
 qmd: "notify documentazione project_docs development phpstan readme phpstan configuration - progetto base laraxot fila3 mono index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
@@ -26,9 +34,13 @@ related:
   - ../../../templates/readme.md
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PHPStan Configuration - Progetto Base FixCity Fila3 Mono
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+# PHPStan Configuration - Progetto Base FixCity Fila3 Mono
+>>>>>>> a988596b (first)
 # PHPStan Configuration - Progetto Base Notify Fila3 Mono
 
 ## Panoramica

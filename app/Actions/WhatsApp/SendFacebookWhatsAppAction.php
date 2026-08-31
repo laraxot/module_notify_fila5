@@ -74,12 +74,16 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
             'headers' => [
                 'Authorization' => 'Bearer '.$this->accessToken,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'Content-Type' => 'application/json']]);
 =======
                 'Content-Type' => 'application/json',
             ],
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'Content-Type' => 'application/json']]);
+>>>>>>> a988596b (first)
 
         $endpoint = $this->baseUrl.'/'.$this->phoneNumberId.'/messages';
 
@@ -87,11 +91,15 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
             'messaging_product' => 'whatsapp',
             'recipient_type' => 'individual',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'to' => $whatsAppData->recipient];
 =======
             'to' => $whatsAppData->recipient,
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'to' => $whatsAppData->recipient];
+>>>>>>> a988596b (first)
 
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'text') {
@@ -99,11 +107,15 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
             $payload['text'] = [
                 'preview_url' => false,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'body' => $whatsAppData->body];
 =======
                 'body' => $whatsAppData->body,
             ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'body' => $whatsAppData->body];
+>>>>>>> a988596b (first)
         } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
@@ -111,21 +123,29 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
             $payload['type'] = 'image'; // o video, document, audio
             $payload['image'] = [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'link' => $whatsAppData->media[0]];
 =======
                 'link' => $whatsAppData->media[0],
             ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'link' => $whatsAppData->media[0]];
+>>>>>>> a988596b (first)
         }
 
         try {
             $response = $client->post($endpoint, [
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'json' => $payload]);
 =======
                 'json' => $payload,
             ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'json' => $payload]);
+>>>>>>> a988596b (first)
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
@@ -140,11 +160,15 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
             Log::debug('WhatsApp Facebook inviato con successo', [
                 'to' => $whatsAppData->recipient,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'response_code' => $statusCode]);
 =======
                 'response_code' => $statusCode,
             ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'response_code' => $statusCode]);
+>>>>>>> a988596b (first)
 
             /** @var array<string, mixed>|null $messages */
             $messages = $responseData['messages'] ?? null;
@@ -160,11 +184,15 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
                 'message_id' => $messageId,
                 'response' => $responseData,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'vars' => $this->vars];
 =======
                 'vars' => $this->vars,
             ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'vars' => $this->vars];
+>>>>>>> a988596b (first)
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
@@ -180,11 +208,15 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
                 'to' => $whatsAppData->recipient,
                 'status' => $statusCode,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'response' => $responseBody]);
 =======
                 'response' => $responseBody,
             ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'response' => $responseBody]);
+>>>>>>> a988596b (first)
 
             /** @var array<string, mixed>|null $error */
             $error = $responseBody['error'] ?? null;
@@ -198,11 +230,15 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
                 'error' => $errorMessage,
                 'status_code' => $statusCode,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'vars' => $this->vars];
 =======
                 'vars' => $this->vars,
             ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'vars' => $this->vars];
+>>>>>>> a988596b (first)
         }
     }
 }

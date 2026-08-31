@@ -59,6 +59,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
      * Get the notification's delivery channels.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  object  $_notifiable  L'entità da notificare
      * @return array<int, string>
      */
@@ -72,6 +73,13 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 =======
     public function via(object $_notifiable): array
 >>>>>>> bdc49995 (.)
+=======
+     * @param  mixed  $_notifiable  L'entità da notificare
+     *
+     * @return array<int, string>
+     */
+    public function via(mixed $_notifiable): array
+>>>>>>> a988596b (first)
     {
         // TODO: Implementare WhatsAppChannel quando disponibile
         return ['whatsapp'];
@@ -82,17 +90,21 @@ class WhatsAppNotification extends Notification implements ShouldQueue
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function toWhatsApp(object $notifiable): WhatsAppData
     {
         // If the notifiable entity has a routeNotificationForWhatsApp method,
         // we'll use that to get the destination phone number
         if (method_exists($notifiable, 'routeNotificationForWhatsApp')) {
 =======
+=======
+>>>>>>> a988596b (first)
     public function toWhatsApp(mixed $notifiable): WhatsAppData
     {
         // If the notifiable entity has a routeNotificationForWhatsApp method,
         // we'll use that to get the destination phone number
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForWhatsApp')) {
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
     public function toWhatsApp(object $notifiable): WhatsAppData
@@ -101,6 +113,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
         // we'll use that to get the destination phone number
         if (method_exists($notifiable, 'routeNotificationForWhatsApp')) {
 >>>>>>> bdc49995 (.)
+=======
+>>>>>>> a988596b (first)
             $routeResult = $notifiable->routeNotificationForWhatsApp($this);
             $this->whatsappData->recipient = app(SafeStringCastAction::class)->execute($routeResult);
         }

@@ -64,11 +64,15 @@ class SendTelegramPage extends XotBasePage
                 ->options([
                     'bot' => 'Bot API',
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'webhook' => 'Webhook'])
 =======
                     'webhook' => 'Webhook',
                 ])
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'webhook' => 'Webhook'])
+>>>>>>> a988596b (first)
                 ->default('bot')
                 ->required(),
             'parse_mode' => Select::make('parse_mode')
@@ -76,11 +80,15 @@ class SendTelegramPage extends XotBasePage
                     'HTML' => 'HTML',
                     'Markdown' => 'Markdown',
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'MarkdownV2' => 'MarkdownV2'])
 =======
                     'MarkdownV2' => 'MarkdownV2',
                 ])
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'MarkdownV2' => 'MarkdownV2'])
+>>>>>>> a988596b (first)
                 ->helperText('Formato del testo (opzionale)'),
             'disable_web_page_preview' => Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
             'disable_notification' => Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
@@ -94,6 +102,7 @@ class SendTelegramPage extends XotBasePage
                     'video' => 'Video',
                     'document' => 'Documento',
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'audio' => 'Audio'])
                 ->helperText('Tipo di media (opzionale)'),
             'caption' => TextInput::make('caption')->helperText('Didascalia per il media (opzionale)')];
@@ -104,6 +113,11 @@ class SendTelegramPage extends XotBasePage
             'caption' => TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'audio' => 'Audio'])
+                ->helperText('Tipo di media (opzionale)'),
+            'caption' => TextInput::make('caption')->helperText('Didascalia per il media (opzionale)')];
+>>>>>>> a988596b (first)
     }
 
     public function sendTelegram(): void
@@ -124,11 +138,15 @@ class SendTelegramPage extends XotBasePage
                     'media_url' => $data['media_url'] ?? null,
                     'media_type' => $data['media_type'] ?? null,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'caption' => $data['caption'] ?? null]),
 =======
                     'caption' => $data['caption'] ?? null,
                 ]),
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'caption' => $data['caption'] ?? null]),
+>>>>>>> a988596b (first)
             );
 
             FilamentNotification::make()
@@ -150,11 +168,15 @@ class SendTelegramPage extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'telegramForm'];
 =======
             'telegramForm',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'telegramForm'];
+>>>>>>> a988596b (first)
     }
 
     /** @return array<string, Action> */
@@ -162,11 +184,15 @@ class SendTelegramPage extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'submit' => Action::make('telegramFormActions')->submit('telegramFormActions')];
 =======
             'submit' => Action::make('telegramFormActions')->submit('telegramFormActions'),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'submit' => Action::make('telegramFormActions')->submit('telegramFormActions')];
+>>>>>>> a988596b (first)
     }
 
     protected function fillForms(): void

@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "riepilogo-risoluzione-conflitti-2025-09-30.deprecated"
+=======
+title: "riepilogo-risoluzione-conflitti-2025-09-30"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "riepilogo-risoluzione-conflitti-2025-09-30.deprecated deprecated"
+=======
+qmd: "riepilogo-risoluzione-conflitti-2025-09-30 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./2025-excellence-achievement.md"
@@ -18,6 +26,7 @@ related:
   - "./final-implementation-report.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [riepilogo-risoluzione-conflitti-.deprecated.md](riepilogo-risoluzione-conflitti-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created_at: '2025-09-30'
@@ -71,3 +80,6 @@ created_at: '2025-09-30'
 - Tipi di ritorno dichiarati e PHPDoc per metodi pubblici.
 - Coerenza namespace secondo convenzioni `Modules/*`.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [riepilogo-risoluzione-conflitti.md](riepilogo-risoluzione-conflitti.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

@@ -423,9 +423,13 @@ class SecurityManagerAction {
 ## 🎯 MODULE OVERVIEW
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modulo **Notify** gestisce tutto il sistema di notifiche della piattaforma FixCity, inclusa la gestione delle notifiche in-app, email, SMS, push notifications e l'integrazione con servizi di terze parti.
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Il modulo **Notify** gestisce tutto il sistema di notifiche della piattaforma FixCity, inclusa la gestione delle notifiche in-app, email, SMS, push notifications e l'integrazione con servizi di terze parti.
+>>>>>>> a988596b (first)
 Il modulo **Notify** gestisce tutto il sistema di notifiche della piattaforma Notify, inclusa la gestione delle notifiche in-app, email, SMS, push notifications e l'integrazione con servizi di terze parti.
 
 ### 🏗️ Architettura Modulo

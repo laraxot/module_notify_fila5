@@ -1,23 +1,37 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "notify-conflict-check-2026-04-21.deprecated"
+=======
+title: "notify-conflict-check-2026-04-21"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "notify-conflict-check-2026-04-21.deprecated deprecated"
+=======
+qmd: "notify-conflict-check-2026-04-21 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./agents.md"
   - "./bmad-method.md"
   - "./index.md"
   - "./log.md"
+<<<<<<< HEAD
   - "./notify-conflict-check-1.md"
   - "./notify-conflict-check.md"
+=======
+  - "./notify-conflict-check-.md"
+  - "./notify-conflict-check-1.md"
+>>>>>>> a988596b (first)
   - "./notify-restore-.md"
   - "./notify-restore-1.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [notify-conflict-check-.deprecated.md](notify-conflict-check-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created_at: '2026-04-21'
@@ -51,3 +65,6 @@ Sono stati trovati e risolti tre conflitti reali nella copia annidata del tema S
 
 Sotto `laravel/Modules/Notify` esiste una grande massa di file non tracciati e una copia annidata `laravel/Modules/...` con molti marker storici/documentali. Non e' stata normalizzata in blocco per evitare modifiche distruttive o non richieste.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [notify-conflict-check.md](notify-conflict-check.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

@@ -1,23 +1,37 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "CHANGELOG-docs-update-2025-10-01.deprecated"
+=======
+title: "CHANGELOG-docs-update-2025-10-01"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "changelog-docs-update-2025-10-01.deprecated deprecated"
+=======
+qmd: "changelog-docs-update-2025-10-01 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./agid-analysis-implementation-.md"
   - "./agid-analysis-implementation-1.md"
   - "./agid-analysis-implementation.md"
+<<<<<<< HEAD
   - "./changelog-docs-update-1.md"
   - "./changelog-docs-update.md"
+=======
+  - "./changelog-docs-update-.md"
+  - "./changelog-docs-update-1.md"
+>>>>>>> a988596b (first)
   - "./code-quality-improvements-.md"
   - "./code-quality-improvements-1.md"
   - "./code-quality-improvements.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [changelog-docs-update-.deprecated.md](changelog-docs-update-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created_at: '2025-10-01'
@@ -50,3 +64,6 @@ created_at: '2025-10-01'
 - Executed on: 2025-10-01
 - Scope: Documentation only (no code changes)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [changelog-docs-update.md](changelog-docs-update.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

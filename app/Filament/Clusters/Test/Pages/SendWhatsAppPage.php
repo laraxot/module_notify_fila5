@@ -56,11 +56,15 @@ class SendWhatsAppPage extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'whatsappForm'];
 =======
             'whatsappForm',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'whatsappForm'];
+>>>>>>> a988596b (first)
     }
 
     protected function fillForms(): void
@@ -101,6 +105,7 @@ class SendWhatsAppPage extends XotBasePage
                     'video' => 'Video',
                     'document' => 'Documento',
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'audio' => 'Audio'])
                 ->helperText('Tipo di media (opzionale)')];
 =======
@@ -109,6 +114,10 @@ class SendWhatsAppPage extends XotBasePage
                 ->helperText('Tipo di media (opzionale)'),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'audio' => 'Audio'])
+                ->helperText('Tipo di media (opzionale)')];
+>>>>>>> a988596b (first)
     }
 
     public function sendWhatsApp(): void
@@ -126,11 +135,15 @@ class SendWhatsAppPage extends XotBasePage
                     'parameters' => $data['parameters'] ?? null,
                     'media_url' => $data['media_url'] ?? null,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'media_type' => $data['media_type'] ?? null]),
 =======
                     'media_type' => $data['media_type'] ?? null,
                 ]),
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'media_type' => $data['media_type'] ?? null]),
+>>>>>>> a988596b (first)
             );
 
             FilamentNotification::make()
@@ -153,11 +166,15 @@ class SendWhatsAppPage extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'submit' => Action::make('whatsappFormActions')->submit('whatsappFormActions')];
 =======
             'submit' => Action::make('whatsappFormActions')->submit('whatsappFormActions'),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'submit' => Action::make('whatsappFormActions')->submit('whatsappFormActions')];
+>>>>>>> a988596b (first)
     }
 
     #[Override]

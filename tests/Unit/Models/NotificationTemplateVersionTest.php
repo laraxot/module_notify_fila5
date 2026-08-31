@@ -8,6 +8,7 @@ use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 =======
@@ -17,6 +18,10 @@ use Modules\Xot\Tests\XotBasePest;
 
 uses(TestCase::class)->group('notify-db');
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
+>>>>>>> a988596b (first)
 
 it('extends base model', function (): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
@@ -44,11 +49,15 @@ it('has correct fillable attributes', function (): void {
         'version',
         'created_by',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'change_notes'];
 =======
         'change_notes',
     ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'change_notes'];
+>>>>>>> a988596b (first)
 
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $instance = $reflection->newInstanceWithoutConstructor();
@@ -73,11 +82,19 @@ it('has correct casts', function (): void {
 it('has template relationship method', function (): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
+<<<<<<< HEAD
+=======
+
+>>>>>>> a988596b (first)
 });
 
 it('has restore method', function (): void {
     $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
+<<<<<<< HEAD
+=======
+
+>>>>>>> a988596b (first)
 });
 
 it('restore method returns NotificationTemplate', function (): void {
@@ -134,9 +151,19 @@ it('has media trait', function (): void {
 });
 
 it('has creator and updater relationships', function (): void {
+<<<<<<< HEAD
     $version = new NotificationTemplateVersion;
 });
 
 it('has media relationship', function (): void {
     $version = new NotificationTemplateVersion;
+=======
+    $version = new NotificationTemplateVersion();
+
+});
+
+it('has media relationship', function (): void {
+    $version = new NotificationTemplateVersion();
+
+>>>>>>> a988596b (first)
 });

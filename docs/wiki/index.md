@@ -8,6 +8,9 @@ updated: 2026-06-05
 qmd: "notify module wiki index notifications qmd second brain"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
   - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
@@ -17,6 +20,7 @@ discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
 related:
   - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
+<<<<<<< HEAD
 =======
   - "https://github.com/laraxot/platform/issues/272"
 discussions:
@@ -24,6 +28,8 @@ discussions:
 related:
   - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
   - ../../../../docs/wiki/bmad/architecture.md
   - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
   - ../../docs/wiki/concepts/ai-harness-module-discipline.md
@@ -34,9 +40,13 @@ related:
 ## AI / second brain
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+>>>>>>> a988596b (first)
 - [hackernoon-ai-coding-tips-laraxot-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
@@ -65,9 +75,13 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 |------------|------|-------|-------------|
 | `root-docs` | `docs/` | 710 | Documentazione root progetto |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `mod-fixcity` | `Modules/Fixcity/docs/` | 69 | Ticket, wizard, segnalazioni |
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| `mod-fixcity` | `Modules/Fixcity/docs/` | 69 | Ticket, wizard, segnalazioni |
+>>>>>>> a988596b (first)
 | `mod-laraxot` | `Modules/App/docs/` | 69 | Ticket, wizard, segnalazioni |
 | `mod-xot` | `Modules/Xot/docs/` | 4409 | Core framework, modelli base |
 | `mod-cms` | `Modules/Cms/docs/` | 711 | Gestione contenuti, pagine |
@@ -98,9 +112,13 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 ## AI / second brain
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+>>>>>>> a988596b (first)
 - [hackernoon-ai-coding-tips-laraxot-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-laraxot-map.md)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)

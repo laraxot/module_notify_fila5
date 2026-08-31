@@ -1,15 +1,27 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "AGID_ANALYSIS_IMPLEMENTATION_2025-10-02.deprecated"
+=======
+title: "AGID_ANALYSIS_IMPLEMENTATION_2025-10-02"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "agid_analysis_implementation_2025-10-02.deprecated deprecated"
 status: deprecated
 related:
   - "./agid-analysis-implementation-1.md"
   - "./agid-analysis-implementation.md"
+=======
+qmd: "agid_analysis_implementation_2025-10-02 deprecated"
+status: deprecated
+related:
+  - "./agid-analysis-implementation-.md"
+  - "./agid-analysis-implementation-1.md"
+>>>>>>> a988596b (first)
   - "./changelog-docs-update-.md"
   - "./changelog-docs-update-1.md"
   - "./changelog-docs-update.md"
@@ -18,6 +30,7 @@ related:
   - "./code-quality-improvements.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [agid-analysis-implementation-.deprecated.md](agid-analysis-implementation-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created_at: '2025-10-02'
@@ -523,3 +536,6 @@ Comprehensive analysis of AGID (Agenzia per l'Italia Digitale) design system for
 
 **END OF AGID ANALYSIS & IMPLEMENTATION REPORT** 🏆
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [agid-analysis-implementation.md](agid-analysis-implementation.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

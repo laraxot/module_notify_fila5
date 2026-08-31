@@ -127,34 +127,46 @@ class AppointmentReminder extends Notification
 {
     protected $appointment;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function __construct($appointment)
     {
         $this->appointment = $appointment;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function via($notifiable)
     {
         return [TwilioChannel::class];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function toTwilio($notifiable)
     {
         $formattedDate = $this->appointment->formatted_date;
         $formattedTime = $this->appointment->formatted_time;
         $doctor = $this->appointment->doctor->name;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         return (new TwilioSmsMessage())
             ->content("Promemoria: hai un appuntamento il {$formattedDate} alle {$formattedTime} con il Dr. {$doctor}. Conferma rispondendo SI o annulla con NO.");
     }
@@ -173,13 +185,19 @@ class User extends Authenticatable
 {
     use Notifiable;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
     // ...
     
     
     // ...
     
+<<<<<<< HEAD
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
     // ...
 
@@ -188,9 +206,12 @@ class User extends Authenticatable
         // Garantisci che il numero sia in formato E.164 (es. +393331234567)
         $phoneNumber = $this->phone_number;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         // Rimuovi eventuali spazi o caratteri non numerici
         $phoneNumber = preg_replace('/[^0-9]/', '', $phoneNumber);
 
@@ -199,17 +220,23 @@ class User extends Authenticatable
             $phoneNumber = '+39' . substr($phoneNumber, 1);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         // Se non ha prefisso, aggiungi +39
         if (strpos($phoneNumber, '+') !== 0) {
             $phoneNumber = '+39' . $phoneNumber;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         return $phoneNumber;
     }
 }
@@ -247,13 +274,19 @@ class SendSMSHostingAction
 {
     use QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
     protected $client;
     
     
     protected $client;
     
+<<<<<<< HEAD
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
     protected $client;
 
@@ -265,9 +298,12 @@ class SendSMSHostingAction
         );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function execute(string $to, string $content, array $options = [])
     {
         try {
@@ -278,18 +314,24 @@ class SendSMSHostingAction
                 'options' => $options,
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             Log::info('SMS inviato con successo', [
                 'to' => $to,
                 'provider' => 'SMSHosting',
                 'message_id' => $response->getId() ?? null,
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             return $response;
         } catch (\Exception $e) {
             Log::error('Errore invio SMS', [
@@ -298,9 +340,12 @@ class SendSMSHostingAction
                 'error' => $e->getMessage(),
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             throw $e;
         }
     }
@@ -319,30 +364,42 @@ class SMSHostingChannel
 {
     protected $sendSMSAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function __construct(SendSMSHostingAction $sendSMSAction)
     {
         $this->sendSMSAction = $sendSMSAction;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function send($notifiable, Notification $notification)
     {
         if (! $to = $notifiable->routeNotificationForSMSHosting()) {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         $message = $notification->toSMSHosting($notifiable);
         
         
         $message = $notification->toSMSHosting($notifiable);
         
+<<<<<<< HEAD
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
         $message = $notification->toSMSHosting($notifiable);
 
@@ -363,9 +420,13 @@ return [
         'password' => env('SMSHOSTING_PASSWORD'),
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
+>>>>>>> a988596b (first)
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
     ],
 ];
@@ -381,17 +442,23 @@ class SMSHostingMessage
     public $content;
     public $options = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function __construct($content = '')
     {
         $this->content = $content;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function content($content)
     {
         $this->content = $content;
@@ -432,9 +499,12 @@ class SendTelcobSMSAction
 {
     use QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     protected $apiKey;
     protected $sender;
     protected $baseUrl = 'https://api.telcob.com/sms/v1';
@@ -445,9 +515,12 @@ class SendTelcobSMSAction
         $this->sender = config('sms.telcob.sender');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function execute(string $to, string $message, array $options = [])
     {
         try {
@@ -461,9 +534,12 @@ class SendTelcobSMSAction
                 'options' => $options,
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             if ($response->successful()) {
                 Log::info('SMS Telcob inviato con successo', [
                     'to' => $to,
@@ -477,9 +553,12 @@ class SendTelcobSMSAction
                 ]);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             return $response;
         } catch (\Exception $e) {
             Log::error('Errore invio SMS Telcob', [
@@ -487,9 +566,12 @@ class SendTelcobSMSAction
                 'error' => $e->getMessage(),
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             throw $e;
         }
     }
@@ -508,30 +590,42 @@ class TelcobChannel
 {
     protected $sendSMSAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function __construct(SendTelcobSMSAction $sendSMSAction)
     {
         $this->sendSMSAction = $sendSMSAction;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function send($notifiable, Notification $notification)
     {
         if (! $to = $notifiable->routeNotificationForTelcob()) {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         $message = $notification->toTelcob($notifiable);
         
         
         $message = $notification->toTelcob($notifiable);
         
+<<<<<<< HEAD
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
         $message = $notification->toTelcob($notifiable);
 
@@ -572,33 +666,45 @@ class PhoneNumberFormatter
         // Rimuovi tutti i caratteri non numerici
         $phoneNumber = preg_replace('/[^0-9+]/', '', $phoneNumber);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         // Se il numero inizia con + è già in formato internazionale
         if (strpos($phoneNumber, '+') === 0) {
             return $phoneNumber;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         // Se inizia con 00, sostituisci con +
         if (strpos($phoneNumber, '00') === 0) {
             return '+' . substr($phoneNumber, 2);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         // Se inizia con 0, assumi che sia un numero italiano e rimuovi lo 0
         if (strpos($phoneNumber, '0') === 0) {
             return '+' . $defaultCountryCode . substr($phoneNumber, 1);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         // Altrimenti aggiungi solo il prefisso
         return '+' . $defaultCountryCode . $phoneNumber;
     }
@@ -627,25 +733,34 @@ class MockSMSChannel extends SMSHostingChannel
 {
     public $messages = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function send($notifiable, Notification $notification)
     {
         $to = $notifiable->routeNotificationForSMSHosting();
         $message = $notification->toSMSHosting($notifiable);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         $this->messages[] = [
             'to' => $to,
             'content' => $message->content,
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         return true;
     }
 }
@@ -671,9 +786,12 @@ class SMSNotificationTest extends TestCase
         $user = User::factory()->create(['phone_number' => '+393331234567']);
         $appointment = Appointment::factory()->create(['user_id' => $user->id]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         $mockChannel = new MockSMSChannel();
         $this->app->instance(SMSHostingChannel::class, $mockChannel);
 
@@ -686,9 +804,12 @@ class SMSNotificationTest extends TestCase
         $this->assertStringContainsString($appointment->formatted_date, $mockChannel->messages[0]['content']);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function testSMSNotSentWhenPhoneInvalid()
     {
         // Arrange
@@ -696,9 +817,12 @@ class SMSNotificationTest extends TestCase
         $user = User::factory()->create(['phone_number' => 'invalid-number']);
         $appointment = Appointment::factory()->create(['user_id' => $user->id]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         // Act
         $user->notify(new AppointmentReminder($appointment));
 
@@ -725,18 +849,24 @@ class ImportantNotification extends Notification
     protected $record;
     protected $slug;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function __construct($record, $slug)
     {
         $this->record = $record;
         $this->slug = $slug;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function via($notifiable)
     {
         $channels = ['mail'];
@@ -746,9 +876,12 @@ class ImportantNotification extends Notification
             $channels[] = TwilioChannel::class;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         return $channels;
     }
 
@@ -761,9 +894,12 @@ class ImportantNotification extends Notification
             $email->to($notifiable->routeNotificationFor('mail'));
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         return $email;
     }
 
@@ -791,26 +927,35 @@ class SendNotificationWithRetryAction
 {
     use QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     // Configurazione della coda
     public $tries = 3;
     public $backoff = 60; // 1 minuto tra i tentativi
     public $queue = 'notifications';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function execute($notifiable, $notification, array $options = [])
     {
         try {
             // Invio della notifica
             $notifiable->notify($notification);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             // Registrazione del successo
             Log::info('Notifica inviata con successo', [
                 'notifiable_type' => get_class($notifiable),
@@ -818,9 +963,12 @@ class SendNotificationWithRetryAction
                 'notification_class' => get_class($notification),
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             return true;
         } catch (\Exception $e) {
             // Registrazione dell'errore
@@ -831,9 +979,12 @@ class SendNotificationWithRetryAction
                 'attempt' => $options['attempt'] ?? 1,
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             // Incrementa il contatore di tentativi
             $attempt = ($options['attempt'] ?? 1) + 1;
 
@@ -847,17 +998,23 @@ class SendNotificationWithRetryAction
                 $this->sendFailureNotification($notifiable, $notification);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             // Propaga l'eccezione per gestione esterna
             throw $e;
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     protected function sendFailureNotification($notifiable, $notification)
     {
         // Controlla se il notifiable ha un indirizzo email
@@ -948,34 +1105,46 @@ class ConsentLog extends Model
         'revoked_at',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     protected $casts = [
         'consented_at' => 'datetime',
         'revoked_at' => 'datetime',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function user()
     {
         return $this->belongsTo(User::class);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function scopeActive($query)
     {
         return $query->whereNotNull('consented_at')
             ->whereNull('revoked_at');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function scopeForChannel($query, $channel)
     {
         return $query->where('channel', $channel);

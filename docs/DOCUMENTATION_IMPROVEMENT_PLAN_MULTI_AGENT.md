@@ -228,11 +228,15 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 - [ ] `README_ANALISI_DUPLICATI.md` → `readme-analisi-duplicati.md`
 - [ ] `ANALISI_METODI_DUPLICATI_MASTER.md` → `analisi-metodi-duplicati-master.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - [ ] `DOCUMENTATION_IMPROVEMENT_SUMMARY_2026-03-13.md` → `documentation-improvement-summary.md`
 - [ ] `PHPSTAN_GLOBAL_SUMMARY_2026-03-02.md` → `phpstan-global-summary.md`
 - [ ] `GITHUB_ISSUES_RECOMMENDATIONS_2026-03-02.md` → `github-issues-recommendations.md`
 - [ ] `SYSTEM_ADMIN_SUMMARY_2026-03-13.md` → `system-admin-summary.md`
 - [ ] `LOGGING_OPTIMIZATION_SUMMARY_2026-03-02.md` → `logging-optimization-summary.md`
+<<<<<<< HEAD
 =======
 - [ ] `documentation-improvement-summary.md` → `documentation-improvement-summary.md`
 - [ ] `phpstan-global-summary.md` → `phpstan-global-summary.md`
@@ -240,6 +244,8 @@ grep -r "Ultimo aggiornamento" docs/ --include="*.md"
 - [ ] `system-admin-summary.md` → `system-admin-summary.md`
 - [ ] `logging-optimization-summary.md` → `logging-optimization-summary.md`
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 **Remove dates from filenames**:
 - [ ] All files with `YYYY-MM-DD` pattern

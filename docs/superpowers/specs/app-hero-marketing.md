@@ -1,5 +1,8 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 title: "2026-03-30-laraxot-hero-marketing"
 type: concept
 tags: [deprecated]
@@ -15,6 +18,7 @@ related:
 ---
 
 > Questo file è stato rinominato in [laraxot-hero-marketing.md](laraxot-hero-marketing.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+<<<<<<< HEAD
 =======
 created_at: '2026-03-30'
 ---
@@ -99,3 +103,5 @@ gsap.to('.stat-number', {
 - FCP < 2s
 - Bounce rate ridotto del 10%
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

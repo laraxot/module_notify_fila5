@@ -31,11 +31,15 @@ class ViewNotification extends XotBaseViewRecord
                 TextEntry::make('read_at')->dateTime(),
                 TextEntry::make('created_at')->dateTime(),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 TextEntry::make('updated_at')->dateTime()])];
 =======
                 TextEntry::make('updated_at')->dateTime(),
             ]),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                TextEntry::make('updated_at')->dateTime()])];
+>>>>>>> a988596b (first)
     }
 }

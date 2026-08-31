@@ -42,6 +42,7 @@ class TelegramNotification extends Notification implements ShouldQueue
      * Get the notification's delivery channels.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  object  $_notifiable  The entity to be notified (l'entità da notificare)
      * @return array<int, class-string>
      */
@@ -55,6 +56,13 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
     public function via(object $_notifiable): array
 >>>>>>> bdc49995 (.)
+=======
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+     *
+     * @return array<int, class-string>
+     */
+    public function via(mixed $_notifiable): array
+>>>>>>> a988596b (first)
     {
         return [TelegramChannel::class];
     }
@@ -63,6 +71,10 @@ class TelegramNotification extends Notification implements ShouldQueue
      * Get the array representation of the notification.
      *
      * @param  object|null  $notifiable  The entity to be notified
+<<<<<<< HEAD
+=======
+     *
+>>>>>>> a988596b (first)
      * @return array<string, mixed>
      */
     public function toArray(?object $notifiable): array
@@ -76,6 +88,7 @@ class TelegramNotification extends Notification implements ShouldQueue
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function toTelegram(object $notifiable): string
 =======
     public function toTelegram(mixed $notifiable): string
@@ -83,6 +96,9 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
     public function toTelegram(object $notifiable): string
 >>>>>>> bdc49995 (.)
+=======
+    public function toTelegram(mixed $notifiable): string
+>>>>>>> a988596b (first)
     {
         return $this->message;
     }

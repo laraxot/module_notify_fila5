@@ -46,11 +46,15 @@ class NetfunSendAction
         $headers = [
             'Cache-Control' => 'no-cache',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'Content-Type' => 'application/json'];
 =======
             'Content-Type' => 'application/json',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'Content-Type' => 'application/json'];
+>>>>>>> a988596b (first)
 
         // dddx([ord($this->body[0]), $this->body]);
 
@@ -88,12 +92,16 @@ class NetfunSendAction
                      * ],
                      */
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]]];
 =======
                 ],
             ],
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                ]]];
+>>>>>>> a988596b (first)
 
         // dddx($body);
 

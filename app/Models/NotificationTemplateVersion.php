@@ -7,6 +7,7 @@ namespace Modules\Notify\Models;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Media\Models\Media;
 =======
 use Illuminate\Support\Carbon;
@@ -14,6 +15,9 @@ use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Modules\User\Models\Profile;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Modules\Media\Models\Media;
+>>>>>>> a988596b (first)
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
 use Override;
@@ -23,11 +27,15 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 // BaseModel in same namespace provides common behaviors
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int|null $template_id
 =======
  * @property int $id
  * @property int $template_id
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+ * @property int|null $template_id
+>>>>>>> a988596b (first)
  * @property string|null $subject
  * @property string|null $body_html
  * @property string|null $body_text
@@ -35,12 +43,16 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property array<string, mixed>|null $variables
  * @property array<string, mixed>|null $conditions
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
  * @property int|string|null $version
  * @property-read ProfileContract|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read NotificationTemplate|null $template
  * @property-read ProfileContract|null $updater
+<<<<<<< HEAD
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
@@ -58,13 +70,19 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read Profile|null $updater
  *
  * @method static NotificationTemplateVersionFactory factory($count = null, $state = [])
+=======
+ *
+>>>>>>> a988596b (first)
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
  *
+<<<<<<< HEAD
  * @property-read ProfileContract|null $deleter
  *
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
  * @mixin \Eloquent
  */
 class NotificationTemplateVersion extends BaseModel
@@ -82,11 +100,15 @@ class NotificationTemplateVersion extends BaseModel
         'version',
         'created_by',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'change_notes'];
 =======
         'change_notes',
     ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'change_notes'];
+>>>>>>> a988596b (first)
 
     /** @return BelongsTo<NotificationTemplate, $this> */
     public function template(): BelongsTo
@@ -109,11 +131,15 @@ class NotificationTemplateVersion extends BaseModel
             'channels' => $this->channels ?? null,
             'variables' => $this->variables ?? null,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'conditions' => $this->conditions ?? null]);
 =======
             'conditions' => $this->conditions ?? null,
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'conditions' => $this->conditions ?? null]);
+>>>>>>> a988596b (first)
 
         return $template;
     }
@@ -130,10 +156,14 @@ class NotificationTemplateVersion extends BaseModel
             'channels' => 'array',
             'variables' => 'array',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'conditions' => 'array'];
 =======
             'conditions' => 'array',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'conditions' => 'array'];
+>>>>>>> a988596b (first)
     }
 }

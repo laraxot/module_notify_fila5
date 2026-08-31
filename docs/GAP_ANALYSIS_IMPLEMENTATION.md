@@ -204,9 +204,13 @@ Modules/Fixcity/
 ```
 lang/en/
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── fixcity.php                               [NEW]
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+├── fixcity.php                               [NEW]
+>>>>>>> a988596b (first)
 ├── ptv.php                               [NEW]
 ├── user.php                                  [NEW]
 └── validation.php                            [NEW]

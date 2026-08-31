@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Prototipo .gitattributes per laravel/Modules/* e laravel/Themes/*
 # Canon: bashscripts/ai/wiki/rules/no-git-lfs.md
@@ -8,12 +9,17 @@
 # Mai: filter=lfs / diff=lfs / merge=lfs
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 * text=auto
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 # Binary files (no git LFS)
 *.png binary
 *.svg binary
@@ -24,6 +30,7 @@ CHANGELOG.md export-ignore
 *.zip binary
 *.db binary
 *.sqlite binary
+<<<<<<< HEAD
 =======
 # Binari come blob git normali — NIENTE git-lfs.
 # `binary` disattiva diff e normalizzazione di fine riga.
@@ -50,6 +57,8 @@ CHANGELOG.md export-ignore
 *.db binary !filter
 *.sqlite binary !filter
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
 *.jpg !text !filter !merge !diff

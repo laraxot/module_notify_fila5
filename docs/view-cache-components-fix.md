@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "view-cache-components-fix-2025-10-15.deprecated"
+=======
+title: "view-cache-components-fix-2025-10-15"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "view-cache-components-fix-2025-10-15.deprecated deprecated"
+=======
+qmd: "view-cache-components-fix-2025-10-15 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./00-index-1.md"
@@ -18,6 +26,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [view-cache-components-fix-.deprecated.md](view-cache-components-fix-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created: 2025-10-15
@@ -207,3 +216,6 @@ L'implementazione ha risolto con successo il problema della cache delle viste, c
 - [Architecture](./architecture/)
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [view-cache-components-fix.md](view-cache-components-fix.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

@@ -1,9 +1,13 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Notify Module - User Research"
 =======
 title: "User Research: Notify Module"
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+title: "User Research: Notify Module"
+>>>>>>> a988596b (first)
 module: notify
 type: integration
 tags: [integrations, modules, notify]
@@ -11,6 +15,7 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Notify Module - User Research
 
@@ -101,8 +106,13 @@ Irrelevant notifications lead to opt-out.
 
 *Last Updated: March 12, 2026*
 =======
+=======
+>>>>>>> a988596b (first)
 # User Research: Notify Module
 
 ## 🔬 Research Goals
 Identify user needs for Notify functionality.
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

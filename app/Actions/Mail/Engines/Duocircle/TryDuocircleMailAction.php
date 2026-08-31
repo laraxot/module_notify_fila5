@@ -87,11 +87,15 @@ class TryDuocircleMailAction
                     'attachments' => count($attachments),
                     'body' => is_scalar($body) ? (string) $body : '',
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'moved' => (bool) $this->invoke($message, 'move', 'INBOX.read')];
 =======
                     'moved' => (bool) $this->invoke($message, 'move', 'INBOX.read'),
                 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                    'moved' => (bool) $this->invoke($message, 'move', 'INBOX.read')];
+>>>>>>> a988596b (first)
             }
         }
 

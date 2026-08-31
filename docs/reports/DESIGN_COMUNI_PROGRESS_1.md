@@ -12,6 +12,10 @@ Replicate all 38 static pages from [Design Comuni Pagine Statiche](https://githu
 
 **URL Mapping**:
 - Source: `https://italia.github.io/design-comuni-pagine-statiche/sito/[page].html`
+<<<<<<< HEAD
+=======
+- Target: `http://fixcity.local/it/tests/[page]`
+>>>>>>> a988596b (first)
 - Target: `http://laraxot.local/it/tests/[page]`
 
 **Example**:
@@ -65,6 +69,12 @@ laravel/Themes/Sixteen/
 
 **Usage**:
 ```
+<<<<<<< HEAD
+=======
+http://fixcity.local/it/tests/argomenti
+http://fixcity.local/it/tests/appuntamento-06-conferma
+http://fixcity.local/it/tests/servizi
+>>>>>>> a988596b (first)
 http://laraxot.local/it/tests/argomenti
 http://laraxot.local/it/tests/appuntamento-06-conferma
 http://laraxot.local/it/tests/servizi
@@ -241,6 +251,11 @@ Docs       [██████████] 100% (3/3)
 
 ### To Create
 
+<<<<<<< HEAD
+=======
+1. **Component Index** (`components/00-INDEX.md`)
+2. **Page Index** (`pages/00-INDEX.md`)
+>>>>>>> a988596b (first)
 1. **Component Index** (`components/00-index.md`)
 2. **Page Index** (`pages/00-index.md`)
 3. **Usage Examples** (per component)

@@ -81,9 +81,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Fixcity Module (35 errors)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+### Fixcity Module (35 errors)
+>>>>>>> a988596b (first)
 ### App Module (35 errors)
 
 #### Missing Model Methods
@@ -105,9 +109,13 @@ related:
 - **File:** `ReportFactory.php`
 - **Issue:** `Report` model not found
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Solution:** Create `Modules/Fixcity/Models/Report.php` or update factory
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Solution:** Create `Modules/Fixcity/Models/Report.php` or update factory
+>>>>>>> a988596b (first)
 - **Solution:** Create `Modules/App/Models/Report.php` or update factory
 
 #### Seeder Issues
@@ -261,9 +269,13 @@ $value = $data['key'] ?? null;
 ### Module Documentation
 - [ ] `Modules/Cms/docs/models.md` - Document BlockData structure
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] `Modules/Fixcity/docs/models.md` - Document Ticket methods
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [ ] `Modules/Fixcity/docs/models.md` - Document Ticket methods
+>>>>>>> a988596b (first)
 - [ ] `Modules/App/docs/models.md` - Document Ticket methods
 - [ ] `Modules/Geo/docs/actions.md` - Document FilterCoordinatesInRadiusAction
 - [ ] `Modules/Tenant/docs/traits.md` - Document SushiToJson trait requirements

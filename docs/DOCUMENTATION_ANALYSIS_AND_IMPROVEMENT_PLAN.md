@@ -155,9 +155,13 @@ The FixCity platform has extensive documentation across modules and themes, but 
 3. **Update Governance**
    - Finalize documentation governance
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Add to AGENTS.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+   - Add to AGENTS.md
+>>>>>>> a988596b (first)
    - Add to agents.md
    - Add to .windsurfrules
 
@@ -247,9 +251,13 @@ done
 #### Day 15-16: Update Rules
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Update AGENTS.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+1. Update AGENTS.md
+>>>>>>> a988596b (first)
 1. Update agents.md
 2. Update .windsurfrules
 3. Create skills
@@ -401,9 +409,13 @@ echo "  snake_case: $(find laravel/Modules/*/docs/ -name '*_*.md' | wc -l)"
 
 - [DOCUMENTATION_GOVERNANCE.md](DOCUMENTATION_GOVERNANCE.md) - Governance framework
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [AGENTS.md](../../../AGENTS.md) - Agent guidelines
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [AGENTS.md](../../../AGENTS.md) - Agent guidelines
+>>>>>>> a988596b (first)
 - [agents.md](../../../agents.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 

@@ -17,9 +17,13 @@ php artisan serve
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Access:** http://localhost:8000/quaeris/admin/{tenant}
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Access:** http://localhost:8000/quaeris/admin/{tenant}
+>>>>>>> a988596b (first)
 **Access:** http://localhost:8000/this-project/admin/{tenant}
 
 ## Testing
@@ -46,9 +50,13 @@ php artisan test --coverage
 
 # Per modulo
 <<<<<<< HEAD
+<<<<<<< HEAD
 ./vendor/bin/pest Modules/Quaeris/tests --coverage
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+./vendor/bin/pest Modules/Quaeris/tests --coverage
+>>>>>>> a988596b (first)
 ./vendor/bin/pest Modules/App/tests --coverage
 
 # Report HTML → build/coverage/html/

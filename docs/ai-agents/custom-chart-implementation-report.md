@@ -12,9 +12,13 @@ Implementazione completa delle funzionalità di grafici custom da Fila4 a Fila5,
 
 **Directory Analizzate**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `./laravel/Modules/Quaeris/app/Actions/QuestionChart/`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `./laravel/Modules/Quaeris/app/Actions/QuestionChart/`
+>>>>>>> a988596b (first)
 - `./laravel/Modules/App/app/Actions/QuestionChart/`
 - `./laravel/Modules/Chart/app/Actions/`
 
@@ -71,9 +75,13 @@ foreach ($charts as $chart) {
 
 #### GetAnswersByQuestionChart
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
+>>>>>>> a988596b (first)
 **File**: `Modules/App/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
 
 **Features**:
@@ -94,9 +102,13 @@ foreach ($charts as $chart) {
 
 #### GetChartsDataByQuestionChart
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/GetChartsDataByQuestionChart.php`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/GetChartsDataByQuestionChart.php`
+>>>>>>> a988596b (first)
 **File**: `Modules/App/app/Actions/QuestionChart/GetChartsDataByQuestionChart.php`
 
 **Features**:
@@ -164,10 +176,15 @@ foreach ($charts as $chart) {
 
 #### Actions (4)
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. `Modules/Quaeris/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
 5. `Modules/Quaeris/app/Actions/QuestionChart/GetChartsDataByQuestionChart.php`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+4. `Modules/Quaeris/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
+5. `Modules/Quaeris/app/Actions/QuestionChart/GetChartsDataByQuestionChart.php`
+>>>>>>> a988596b (first)
 4. `Modules/App/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
 5. `Modules/App/app/Actions/QuestionChart/GetChartsDataByQuestionChart.php`
 6. `Modules/Chart/app/Actions/ExportChartToSvgAction.php`
@@ -175,9 +192,13 @@ foreach ($charts as $chart) {
 
 #### Documentation (3)
 <<<<<<< HEAD
+<<<<<<< HEAD
 8. `Modules/Quaeris/docs/custom-chart-implementation.md`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+8. `Modules/Quaeris/docs/custom-chart-implementation.md`
+>>>>>>> a988596b (first)
 8. `Modules/App/docs/custom-chart-implementation.md`
 9. `.kilo/docs/custom-chart-implementation-report.md` (this file)
 10. `.github/ISSUE_TEMPLATE/custom-chart-implementation.md`
@@ -195,9 +216,13 @@ foreach ($charts as $chart) {
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Quaeris\Actions\QuestionChart\GetChartsDataByQuestionChart;
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Modules\Quaeris\Actions\QuestionChart\GetChartsDataByQuestionChart;
+>>>>>>> a988596b (first)
 use Modules\App\Actions\QuestionChart\GetChartsDataByQuestionChart;
 use Modules\Chart\Actions\ExportChartToSvgAction;
 use Modules\Chart\Actions\ExportChartToPngAction;
@@ -238,9 +263,13 @@ class QuestionChartAnswersCompositeWidget extends Widget
         );
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         return view('quaeris::filament.widgets.question-chart-answers-composite-widget', [
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        return view('quaeris::filament.widgets.question-chart-answers-composite-widget', [
+>>>>>>> a988596b (first)
         return view('this-project::filament.widgets.question-chart-answers-composite-widget', [
             'chartsData' => $chartsData,
         ]);
@@ -433,6 +462,7 @@ $sort_by_expr = 'DATE_FORMAT(sms_sent_at, "%Y-%m")';
 
 ### Internal Documentation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Custom Chart Implementation Guide](Modules/Quaeris/docs/custom-chart-implementation.md)
 - [GitHub Issue Template](.github/ISSUE_TEMPLATE/custom-chart-implementation.md)
 - [Fila4 Source Code](file://./laravel/Modules/Quaeris/app/Actions/QuestionChart/)
@@ -441,6 +471,11 @@ $sort_by_expr = 'DATE_FORMAT(sms_sent_at, "%Y-%m")';
 - [GitHub Issue Template](.github/ISSUE_TEMPLATE/custom-chart-implementation.md)
 - [Fila4 Source Code](file://./laravel/Modules/App/app/Actions/QuestionChart/)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [Custom Chart Implementation Guide](Modules/Quaeris/docs/custom-chart-implementation.md)
+- [GitHub Issue Template](.github/ISSUE_TEMPLATE/custom-chart-implementation.md)
+- [Fila4 Source Code](file://./laravel/Modules/Quaeris/app/Actions/QuestionChart/)
+>>>>>>> a988596b (first)
 
 ### External Resources
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)

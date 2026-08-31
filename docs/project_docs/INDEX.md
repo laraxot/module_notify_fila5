@@ -1,8 +1,12 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "📚 Documentation Index - FixCity Project"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+title: "📚 Documentation Index - FixCity Project"
+>>>>>>> a988596b (first)
 title: "📚 Documentation Index - Notify Project"
 type: index
 tags: [notify, docs, project_docs]
@@ -10,9 +14,13 @@ module: Notify
 created: 2026-07-20
 updated: 2026-07-20
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "notify documentazione project_docs index 📚 documentation index - fixcity project index readme frontmatter qmd search"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+qmd: "notify documentazione project_docs index 📚 documentation index - fixcity project index readme frontmatter qmd search"
+>>>>>>> a988596b (first)
 qmd: "notify documentazione project_docs index 📚 documentation index - laraxot project index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
@@ -26,9 +34,13 @@ related:
   - ../templates/readme.md
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📚 Documentation Index - FixCity Project
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+# 📚 Documentation Index - FixCity Project
+>>>>>>> a988596b (first)
 # 📚 Documentation Index - Notify Project
 
 **Last Updated:** 2025-10-01 21:47  
@@ -43,9 +55,13 @@ related:
 1. [**README.md**](../README.md) - Project overview and quick start
 2. [**CONTRIBUTING.md**](../CONTRIBUTING.md) - How to contribute
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. [**ARCHITECTURE.md**](./ARCHITECTURE.md) - System architecture
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+3. [**ARCHITECTURE.md**](./ARCHITECTURE.md) - System architecture
+>>>>>>> a988596b (first)
 3. [**ARCHITECTURE.md**](./architecture.md) - System architecture
 4. [**QUALITY_DASHBOARD.md**](./QUALITY_DASHBOARD.md) - Real-time metrics
 
@@ -84,9 +100,13 @@ related:
 - PR process
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 3. ARCHITECTURE.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+### 3. ARCHITECTURE.md
+>>>>>>> a988596b (first)
 ### 3. architecture.md
 **Purpose:** System architecture documentation  
 **Audience:** Developers, architects  
@@ -186,9 +206,13 @@ Each module has a `docs/` directory containing:
 
 #### Other Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 - AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
+>>>>>>> a988596b (first)
 - AI, Activity, Blog, Cms, Comment, App, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
 - Each with cyclomatic complexity report
 
@@ -250,9 +274,13 @@ Each module has a `docs/` directory containing:
 - README.md
 - CONTRIBUTING.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ARCHITECTURE.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ARCHITECTURE.md
+>>>>>>> a988596b (first)
 - architecture.md
 - Module documentation
 - Refactoring reports
@@ -302,9 +330,13 @@ Each module has a `docs/` directory containing:
 
 **Architecture & Design:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ARCHITECTURE.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ARCHITECTURE.md
+>>>>>>> a988596b (first)
 - architecture.md
 - Design patterns section
 - Module structure
@@ -439,9 +471,13 @@ All documents include:
 
 ### 2025-10-01
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Created INDEX.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ✅ Created INDEX.md
+>>>>>>> a988596b (first)
 - ✅ Created index.md
 - ✅ Completed MISSION_ACCOMPLISHED.md
 - ✅ Finalized PROJECT_COMPLETION_CERTIFICATE.md
@@ -450,9 +486,13 @@ All documents include:
 
 ### 2025-09-30
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Created ARCHITECTURE.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ✅ Created ARCHITECTURE.md
+>>>>>>> a988596b (first)
 - ✅ Created architecture.md
 - ✅ Created QUALITY_DASHBOARD.md
 - ✅ Created 2025_EXCELLENCE_ACHIEVEMENT.md
@@ -481,9 +521,13 @@ All documents include:
 
 ### Documentation Team
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Email:** docs@fixcity.com
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Email:** docs@fixcity.com
+>>>>>>> a988596b (first)
 - **Email:** docs@laraxot.com
 - **GitHub:** Open an issue
 - **Slack:** #documentation

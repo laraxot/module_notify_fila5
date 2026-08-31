@@ -1,11 +1,19 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "LOGGING_OPTIMIZATION_SUMMARY_2026-03-02.deprecated"
+=======
+title: "LOGGING_OPTIMIZATION_SUMMARY_2026-03-02"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "logging_optimization_summary_2026-03-02.deprecated deprecated"
+=======
+qmd: "logging_optimization_summary_2026-03-02 deprecated"
+>>>>>>> a988596b (first)
 status: deprecated
 related:
   - "./00-index-1.md"
@@ -18,6 +26,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [logging-optimization-summary-.deprecated.md](logging-optimization-summary-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created: 2026-03-02
@@ -521,3 +530,6 @@ This session successfully:
 **Session Outcome**: SUCCESSFUL
 **Next Milestone**: Remove 50+ excessive Log::info() calls
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [logging-optimization-summary.md](logging-optimization-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

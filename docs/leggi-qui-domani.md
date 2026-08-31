@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "📖 LEGGI QUI DOMANI MATTINA - 2 Ottobre 2025"
 type: concept
@@ -20,7 +23,10 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # 📖 LEGGI QUI DOMANI MATTINA - 2 Ottobre 2025
 
 Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
@@ -67,10 +73,15 @@ Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 **Comando verifica**:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 =======
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
+>>>>>>> a988596b (first)
 ./vendor/bin/phpstan analyse Modules/Xot --memory-limit=-1
 ```
 
@@ -139,10 +150,15 @@ cd /var/www/_bases/base_ptv_fila5_mono/laravel
 **Verifica Completa**:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 =======
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
+>>>>>>> a988596b (first)
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 ```
 
@@ -159,10 +175,14 @@ cd /var/www/_bases/base_ptv_fila5_mono/laravel
 
 ### Prima di Iniziare (5 minuti)
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **[Session Summary](./phpstan/session-summary-2025-10-01.md)** - Recap ieri
 =======
 1. **[Session Summary](./phpstan/session-summary-.md.md)** - Recap ieri
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+1. **[Session Summary](./phpstan/session-summary-.md.md)** - Recap ieri
+>>>>>>> a988596b (first)
 
 ### Durante il Lavoro (reference)
 2. **[Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md)** - Errori dettagliati Xot
@@ -171,10 +191,14 @@ cd /var/www/_bases/base_ptv_fila5_mono/laravel
 ### Fine Giornata (update)
 4. **[Master Roadmap](./roadmap-master-index.md)** - Aggiornare status
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **[Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)** - Executive summary
 =======
 5. **[Analisi Completa](./analisi-completa.md)** - Executive summary
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+5. **[Analisi Completa](./analisi-completa.md)** - Executive summary
+>>>>>>> a988596b (first)
 
 ---
 
@@ -225,8 +249,12 @@ php artisan test --filter=BaseUserTest
 
 ### ✅ Sempre Fare
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Eseguire da `/var/www/_bases/base_fixcity_fila5_mono/laravel/`
 =======
+=======
+- ✅ Eseguire da `/var/www/_bases/base_fixcity_fila5_mono/laravel/`
+>>>>>>> a988596b (first)
 - ✅ Eseguire da `/var/www/_bases/base_ptv_fila5_mono/laravel/`
 - ✅ Verificare ogni fix con PHPStan
 - ✅ Usare sempre classi XotBase
@@ -424,7 +452,11 @@ cd /var/www/_bases/base_ptv_fila5_mono/laravel
 ## 📂 DOCUMENTI IMPORTANTI DA LEGGERE
 
 ### Prima di Iniziare (5 minuti)
+<<<<<<< HEAD
 1. **[Session Summary](./phpstan/session-summary.md)** - Recap ieri
+=======
+1. **[Session Summary](./phpstan/session-summary-2025-10-01.md)** - Recap ieri
+>>>>>>> a988596b (first)
 
 ### Durante il Lavoro (reference)
 2. **[Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md)** - Errori dettagliati Xot
@@ -432,7 +464,11 @@ cd /var/www/_bases/base_ptv_fila5_mono/laravel
 
 ### Fine Giornata (update)
 4. **[Master Roadmap](./roadmap-master-index.md)** - Aggiornare status
+<<<<<<< HEAD
 5. **[Analisi Completa](./analisi-completa-progetto-fixcity.md)** - Executive summary
+=======
+5. **[Analisi Completa](./ANALISI-COMPLETA-2025-10-01.md)** - Executive summary
+>>>>>>> a988596b (first)
 
 ---
 
@@ -483,7 +519,10 @@ php artisan test --filter=BaseUserTest
 
 ### ✅ Sempre Fare
 - ✅ Eseguire da `/var/www/_bases/base_ptv_fila5_mono/laravel/`
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - ✅ Verificare ogni fix con PHPStan
 - ✅ Usare sempre classi XotBase
 - ✅ Aggiornare docs dopo ogni correzione

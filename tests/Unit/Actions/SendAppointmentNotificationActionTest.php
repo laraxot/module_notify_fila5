@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Actions\SendAppointmentNotificationAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
 =======
@@ -20,6 +21,13 @@ uses(TestCase::class)->group('notify-db');
 function sendAppointmentNotificationTestModel(int $patientId = 1): Model
 {
     $appointment = new class extends Model
+=======
+use PHPUnit\Framework\Assert;
+
+function sendAppointmentNotificationTestModel(int $patientId = 1): Model
+{
+    $appointment = new class() extends Model
+>>>>>>> a988596b (first)
     {
         protected $guarded = [];
 

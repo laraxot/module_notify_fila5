@@ -35,9 +35,13 @@ Le Rules progettuali vivono qui, nel wiki del Module **Notify**, e vengono caric
 - La sorgente di verita' per le Rules e' sempre il wiki locale
 - Non embeddare Rules nei prompt di avvio
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
+>>>>>>> a988596b (first)
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/index.md)
 
 ## Aggiungere una Nuova RULES

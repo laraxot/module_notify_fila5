@@ -32,6 +32,7 @@ class SmsChannel
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function send(object $notifiable, Notification $notification): ?array
 =======
     public function send(mixed $notifiable, Notification $notification): ?array
@@ -39,6 +40,9 @@ class SmsChannel
 =======
     public function send(object $notifiable, Notification $notification): ?array
 >>>>>>> bdc49995 (.)
+=======
+    public function send(mixed $notifiable, Notification $notification): ?array
+>>>>>>> a988596b (first)
     {
         if (! method_exists($notification, 'toSms')) {
             throw new Exception('Notification does not have toSms method');

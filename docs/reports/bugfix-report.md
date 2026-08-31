@@ -1,15 +1,27 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "BUGFIX_REPORT_2025-01-14.deprecated"
+=======
+title: "BUGFIX_REPORT_2025-01-14"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "bugfix_report_2025-01-14.deprecated deprecated"
 status: deprecated
 related:
   - "./bugfix-report-1.md"
   - "./bugfix-report.md"
+=======
+qmd: "bugfix_report_2025-01-14 deprecated"
+status: deprecated
+related:
+  - "./bugfix-report-.md"
+  - "./bugfix-report-1.md"
+>>>>>>> a988596b (first)
   - "./design-comuni-progress-1.md"
   - "./document-root-update-summary.md"
   - "./documentation-update-complete.md"
@@ -19,6 +31,7 @@ related:
   - "./laraxot-improvement-progress-1.md"
 ---
 
+<<<<<<< HEAD
 > Questo file è stato rinominato in [bugfix-report-.deprecated.md](bugfix-report-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 =======
 created_at: '2025-01-14'
@@ -360,3 +373,6 @@ Il bug è stato completamente risolto con una soluzione elegante che:
 
 *Questo report documenta completamente l'analisi, la soluzione e il testing del bug.*
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Questo file è stato rinominato in [bugfix-report.md](bugfix-report.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

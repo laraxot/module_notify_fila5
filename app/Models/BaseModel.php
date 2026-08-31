@@ -33,10 +33,14 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     protected $hidden = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
     protected function casts(): array
     {
         return array_merge(parent::casts(), [
             'published_at' => 'datetime']);
+<<<<<<< HEAD
 =======
     /** @return array<string, string> */
     protected function casts(): array
@@ -45,5 +49,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
             'published_at' => 'datetime',
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     }
 }

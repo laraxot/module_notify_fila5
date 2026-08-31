@@ -11,6 +11,9 @@ return [
         'label' => 'Template Email',
         'icon' => 'heroicon-o-envelope',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         'sort' => 1],
     'sections' => ['main' => 'Informazioni Principali', 'content' => 'Contenuto', 'styling' => 'Stile', 'settings' => 'Impostazioni', 'variables' => 'Variabili'],
     'fields' => [
@@ -165,6 +168,7 @@ return [
             'label' => '',
             'tooltip' => '',
             'helper_text' => '']],
+<<<<<<< HEAD
 =======
         'sort' => 1,
     ],
@@ -200,6 +204,8 @@ return [
         'html_layout_path' => ['description' => 'html_layout_path', 'label' => '', 'tooltip' => '', 'helper_text' => ''],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     'actions' => [
         'preview' => ['label' => 'Anteprima', 'tooltip' => 'Visualizza anteprima dell\'email', 'success_message' => 'Anteprima generata con successo', 'error_message' => 'Errore nella generazione dell\'anteprima'],
         'test' => ['label' => 'Invia test', 'tooltip' => 'Invia un\'email di test', 'success_message' => 'Email di test inviata con successo', 'error_message' => 'Errore nell\'invio dell\'email di test'],
@@ -213,18 +219,26 @@ return [
         'save' => ['label' => 'save', 'icon' => 'save', 'tooltip' => 'save'],
         'view' => ['label' => 'view', 'icon' => 'view', 'tooltip' => 'view'],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'edit' => ['icon' => 'edit', 'tooltip' => 'edit']],
 =======
         'edit' => ['icon' => 'edit', 'tooltip' => 'edit'],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'edit' => ['icon' => 'edit', 'tooltip' => 'edit']],
+>>>>>>> a988596b (first)
     'messages' => ['success' => 'Operazione completata con successo', 'error' => 'Si è verificato un errore durante l\'operazione', 'confirmation' => 'Sei sicuro di voler procedere con questa operazione?', 'template_created' => 'Il template email è stato creato con successo', 'template_updated' => 'Il template email è stato aggiornato con successo', 'template_deleted' => 'Il template email è stato eliminato con successo'],
     'status' => ['sent' => 'Inviata', 'delivered' => 'Consegnata', 'failed' => 'Fallita', 'opened' => 'Aperta', 'clicked' => 'Cliccata', 'bounced' => 'Respinta', 'spam' => 'Segnalata come spam'],
     'model' => ['label' => 'mail template.model'],
     'label' => 'Mail Template',
+<<<<<<< HEAD
 <<<<<<< HEAD
     'plural_label' => 'Mail Template (Plurale)'];
 =======
     'plural_label' => 'Mail Template (Plurale)',
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    'plural_label' => 'Mail Template (Plurale)'];
+>>>>>>> a988596b (first)

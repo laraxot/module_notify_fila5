@@ -255,9 +255,13 @@ Template for `.planning/codebase/INTEGRATIONS.md` - captures external service de
 **What does NOT belong here:**
 - Actual API keys or secrets (NEVER write these)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Internal architecture (that's ARCHITECTURE.md)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- Internal architecture (that's ARCHITECTURE.md)
+>>>>>>> a988596b (first)
 - Internal architecture (that's architecture.md)
 - Code patterns (that's PATTERNS.md)
 - Technology choices (that's STACK.md)

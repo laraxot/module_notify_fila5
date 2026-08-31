@@ -31,6 +31,7 @@ use Modules\Notify\Tests\Fixtures\PreviewMailTemplateTestProxy;
 use Modules\Notify\Tests\Fixtures\ViewNotificationTestProxy;
 use Modules\Notify\Tests\TestCase;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 =======
@@ -46,20 +47,37 @@ uses(TestCase::class)->group('no-notify-db');
 function makeEditContactTestProxy(): EditContactTestProxy
 {
     return new EditContactTestProxy;
+=======
+use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
+
+function makeEditContactTestProxy(): EditContactTestProxy
+{
+    return new EditContactTestProxy();
+>>>>>>> a988596b (first)
 }
 
 function makePreviewMailTemplateTestProxy(): PreviewMailTemplateTestProxy
 {
+<<<<<<< HEAD
     return new PreviewMailTemplateTestProxy;
+=======
+    return new PreviewMailTemplateTestProxy();
+>>>>>>> a988596b (first)
 }
 
 function makeViewNotificationTestProxy(): ViewNotificationTestProxy
 {
+<<<<<<< HEAD
     return new ViewNotificationTestProxy;
+=======
+    return new ViewNotificationTestProxy();
+>>>>>>> a988596b (first)
 }
 
 function makePreviewNotificationTemplateTestProxy(): PreviewNotificationTemplate
 {
+<<<<<<< HEAD
     return new class extends PreviewNotificationTemplate {};
 }
 
@@ -69,6 +87,13 @@ test('contact resource form schema exposes expected fields', function (): void {
 =======
     $schema = XotBasePest::assertArray(ContactResource::getFormSchemaOld());
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    return new class() extends PreviewNotificationTemplate {};
+}
+
+test('contact resource form schema exposes expected fields', function (): void {
+    $schema = TestCase::assertNotifyArray(ContactResource::getFormSchema());
+>>>>>>> a988596b (first)
 
     Assert::assertArrayHasKey('name', $schema);
     Assert::assertArrayHasKey('email', $schema);
@@ -99,10 +124,14 @@ test('list contacts page exposes expected table columns and filters', function (
 
 test('list mail templates page exposes expected table columns', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $columns = \assertNotifyArray(ListMailTemplates::mailTemplateTableColumns());
 =======
     $columns = XotBasePest::assertArray(ListMailTemplates::mailTemplateTableColumns());
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    $columns = \assertNotifyArray(ListMailTemplates::mailTemplateTableColumns());
+>>>>>>> a988596b (first)
 
     Assert::assertArrayHasKey('slug', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['slug']);
@@ -157,10 +186,14 @@ test('mail template resource form schema exposes expected components', function 
     // XotData::make()->getMailHtmlLayoutPath(), cioe' Themes/<pub_theme>/resources/mail-layouts,
     // e in questo progetto pub_theme e' 'Zero', che i suoi layout ce li ha gia'.
 <<<<<<< HEAD
+<<<<<<< HEAD
     $schema = XotBasePest::assertArray(MailTemplateResource::getFormSchema());
 =======
     $schema = XotBasePest::assertArray(MailTemplateResource::getFormSchemaOld());
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    $schema = XotBasePest::assertArray(MailTemplateResource::getFormSchema());
+>>>>>>> a988596b (first)
 
     Assert::assertArrayHasKey('mailable_slug_group', $schema);
     Assert::assertInstanceOf(Group::class, $schema['mailable_slug_group']);
@@ -176,10 +209,14 @@ test('mail template resource form schema exposes expected components', function 
 
 test('notification resource form schema exposes expected components', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $schema = TestCase::assertNotifyArray(NotificationResource::getFormSchema());
 =======
     $schema = XotBasePest::assertArray(NotificationResource::getFormSchemaOld());
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    $schema = TestCase::assertNotifyArray(NotificationResource::getFormSchema());
+>>>>>>> a988596b (first)
 
     Assert::assertArrayHasKey('type', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['type']);
@@ -191,12 +228,17 @@ test('notification resource form schema exposes expected components', function (
 
 test('notification template resource form schema and pages are configured', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $schema = TestCase::assertNotifyArray(NotificationTemplateResource::getFormSchema());
     $pages = TestCase::assertNotifyArray(NotificationTemplateResource::getPages());
 =======
     $schema = XotBasePest::assertArray(NotificationTemplateResource::getFormSchemaOld());
     $pages = XotBasePest::assertArray(NotificationTemplateResource::getPages());
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    $schema = TestCase::assertNotifyArray(NotificationTemplateResource::getFormSchema());
+    $pages = TestCase::assertNotifyArray(NotificationTemplateResource::getPages());
+>>>>>>> a988596b (first)
 
     Assert::assertArrayHasKey('name', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['name']);

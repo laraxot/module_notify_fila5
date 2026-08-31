@@ -1,5 +1,8 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 title: "2026-04-08-fase1-html-parity-segnalazioni-elenco"
 type: concept
 tags: [deprecated]
@@ -12,6 +15,7 @@ related:
 ---
 
 > Questo file è stato rinominato in [fase1-html-parity-segnalazioni-elenco.md](fase1-html-parity-segnalazioni-elenco.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+<<<<<<< HEAD
 =======
 created_at: '2026-04-08'
 ---
@@ -295,3 +299,5 @@ Nessuna stringa letterale in blade. Ogni testo visibile passa da `__()` o `$t()`
 ### Regola git
 Nessun commit finché FASE 1 non è completata al 100% (parity ≥ 90% + docs aggiornate).
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
@@ -15,6 +16,11 @@ use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Facades\Blade;
+use Modules\Media\Models\Media;
+>>>>>>> a988596b (first)
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Xot\Contracts\ProfileContract;
 use Override;
@@ -26,6 +32,9 @@ use Spatie\Translatable\HasTranslations;
  * Class NotificationTemplate.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
  * @property string|null $name
  * @property string|null $code
  * @property string|null $subject
@@ -45,6 +54,7 @@ use Spatie\Translatable\HasTranslations;
  * @property-read int|null $media_count
  * @property-read mixed $translations
  * @property-read ProfileContract|null $updater
+<<<<<<< HEAD
  * @method static Builder<static>|NotificationTemplate active()
 =======
  * @property int $id
@@ -80,16 +90,24 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate active()
  * @method static NotificationTemplateFactory factory($count = null, $state = [])
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+ *
+ * @method static Builder<static>|NotificationTemplate active()
+>>>>>>> a988596b (first)
  * @method static Builder<static>|NotificationTemplate forCategory(string $category)
  * @method static Builder<static>|NotificationTemplate forChannel(string $channel)
  * @method static Builder<static>|NotificationTemplate newModelQuery()
  * @method static Builder<static>|NotificationTemplate newQuery()
  * @method static Builder<static>|NotificationTemplate query()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array<int, string> $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array<int, string> $locales)
+<<<<<<< HEAD
  * @property string $id
  * @property string|null $description
  * @property array<array-key, mixed>|null $metadata
@@ -143,6 +161,9 @@ use Spatie\Translatable\HasTranslations;
 =======
  *
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+ *
+>>>>>>> a988596b (first)
  * @mixin \Eloquent
  */
 class NotificationTemplate extends BaseModel implements HasMedia
@@ -154,11 +175,15 @@ class NotificationTemplate extends BaseModel implements HasMedia
         'subject',
         'body_text',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'body_html'];
 =======
         'body_html',
     ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'body_html'];
+>>>>>>> a988596b (first)
 
     protected $fillable = [
         'name',
@@ -178,11 +203,15 @@ class NotificationTemplate extends BaseModel implements HasMedia
         'tenant_id',
         'grapesjs_data',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'type'];
 =======
         'type',
     ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'type'];
+>>>>>>> a988596b (first)
 
     public function registerMediaCollections(): void
     {
@@ -242,11 +271,15 @@ class NotificationTemplate extends BaseModel implements HasMedia
             'subject' => $subject ?? '',
             'body_html' => $bodyHtml,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'body_text' => $bodyText];
 =======
             'body_text' => $bodyText,
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'body_text' => $bodyText];
+>>>>>>> a988596b (first)
     }
 
     /**
@@ -416,11 +449,15 @@ class NotificationTemplate extends BaseModel implements HasMedia
             'metadata' => 'array',
             'is_active' => 'boolean',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'grapesjs_data' => 'array'];
 =======
             'grapesjs_data' => 'array',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'grapesjs_data' => 'array'];
+>>>>>>> a988596b (first)
     }
 
     /**

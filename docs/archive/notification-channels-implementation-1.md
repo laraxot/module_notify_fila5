@@ -148,10 +148,15 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 
 ## Collegamenti a Documentazione Correlata
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo di Notifica](./INDEX.md)
 - [Panoramica dell'Architettura](./ARCHITECTURE.md)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [Modulo di Notifica](./INDEX.md)
+- [Panoramica dell'Architettura](./ARCHITECTURE.md)
+>>>>>>> a988596b (first)
 - [Modulo di Notifica](./index.md)
 - [Panoramica dell'Architettura](./architecture.md)
 - [Modelli di Email](./EMAIL_TEMPLATES.md)

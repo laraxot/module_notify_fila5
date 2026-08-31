@@ -9,18 +9,25 @@ return [
         'smsfactor' => [
             'token' => null,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'base_url' => 'https://api.smsfactor.com']],
 =======
             'base_url' => 'https://api.smsfactor.com',
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'base_url' => 'https://api.smsfactor.com']],
+>>>>>>> a988596b (first)
 
     'debug' => false,
     'queue' => 'default',
     'retry' => [
         'attempts' => 3,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         'delay' => 60],
     'rate_limit' => [
         'enabled' => true,
@@ -37,6 +44,7 @@ return [
     'validation' => [
         'enabled' => true,
         'pattern' => '/^\+[1-9]\d{1,14}$/']];
+<<<<<<< HEAD
 =======
         'delay' => 60,
     ],
@@ -61,3 +69,5 @@ return [
     ],
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

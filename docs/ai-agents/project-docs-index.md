@@ -22,11 +22,17 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `AGENTS.md` — AGENTS.MD - Development Guidelines
 - `CLAUDE.md` — CLAUDE.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `GEMINI.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
 - `IFLOW.md` — Quaeris Fila4 Mono - 项目指南
 - `README.md` — Quaeris Fila4 Mono - Laravel Survey Management System
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `GEMINI.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
+- `IFLOW.md` — Quaeris Fila4 Mono - 项目指南
+- `README.md` — Quaeris Fila4 Mono - Laravel Survey Management System
+>>>>>>> a988596b (first)
 - `GEMINI.md` — Gemini Project Context: App Fila4 Mono - Laravel Survey Management System
 - `IFLOW.md` — App Fila4 Mono - 项目指南
 - `README.md` — App Fila4 Mono - Laravel Survey Management System
@@ -80,10 +86,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/bottlenecks_and_solutions.md` — Bottleneck e Soluzioni
 - `bashscripts/docs/bottlenecks_detailed.md` — Analisi Dettagliata dei Colli di Bottiglia - Modulo Job
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `bashscripts/docs/case-duplicates-analysis-report.md` — 🔍 Report Analisi File Duplicati (Case-Insensitive) - FixCity
 - `bashscripts/docs/changestatus-class-not-found-fix.md` — 🔧 Correzione Errore "Class ChangeStatus not found" - FixCity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `bashscripts/docs/case-duplicates-analysis-report.md` — 🔍 Report Analisi File Duplicati (Case-Insensitive) - FixCity
+- `bashscripts/docs/changestatus-class-not-found-fix.md` — 🔧 Correzione Errore "Class ChangeStatus not found" - FixCity
+>>>>>>> a988596b (first)
 - `bashscripts/docs/case-duplicates-analysis-report.md` — 🔍 Report Analisi File Duplicati (Case-Insensitive) - Notify
 - `bashscripts/docs/changestatus-class-not-found-fix.md` — 🔧 Correzione Errore "Class ChangeStatus not found" - Notify
 - `bashscripts/docs/code-quality.md` — Script di Verifica della Qualità del Codice
@@ -154,9 +165,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/git_conflict_resolution_with_rector.md` — Git Conflict Resolution with Rector
 - `bashscripts/docs/git_conflicts_elenco.md` — Elenco File con Marcatori di Conflitto Git
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `bashscripts/docs/git_conflicts_resolution.md` — Risoluzione Conflitti Git - Modulo Predict
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `bashscripts/docs/git_conflicts_resolution.md` — Risoluzione Conflitti Git - Modulo Predict
+>>>>>>> a988596b (first)
 - `bashscripts/docs/git_conflicts_resolution.md` — Risoluzione Conflitti Git - Modulo Forecast
 - `bashscripts/docs/git_scripts.md` — 📝 Documentazione Script Git
 - `bashscripts/docs/git_subtree_conflicts.md` — Risoluzione dei Conflitti negli Script Git Subtree
@@ -177,9 +192,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/links.md` — links
 - `bashscripts/docs/localization-guide.md` — Guida alla Localizzazione nel Framework Laraxot PTVX
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `bashscripts/docs/login_test_implementation_summary.md` — Login Test Implementation Summary - SaluteOra Project
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `bashscripts/docs/login_test_implementation_summary.md` — Login Test Implementation Summary - SaluteOra Project
+>>>>>>> a988596b (first)
 - `bashscripts/docs/login_test_implementation_summary.md` — Login Test Implementation Summary - <nome progetto> Project
 - `bashscripts/docs/markdown-conflicts-cleanup-complete.md` — Pulizia Completa Marker Conflitti Git nei File Markdown
 - `bashscripts/docs/markdown-conflicts-cleanup-summary.md` — Pulizia Marker Conflitti Git nei File Markdown
@@ -244,9 +263,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/phpstan_progress.md` — PHPStan Progress Report - Performance Module
 - `bashscripts/docs/phpstan_report.md` — Report PHPStan - Analisi del Codice
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `bashscripts/docs/phpstan_usage.md` — Esecuzione Corretta di PHPStan in Laraxot PTVX
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `bashscripts/docs/phpstan_usage.md` — Esecuzione Corretta di PHPStan in Laraxot PTVX
+>>>>>>> a988596b (first)
 - `bashscripts/docs/phpstan-usage.md` — Esecuzione Corretta di PHPStan in Laraxot PTVX
 - `bashscripts/docs/project.md` — Project
 - `bashscripts/docs/project_notes.md` — Project Notes
@@ -293,9 +316,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/roadmap.md` — Roadmap
 - `bashscripts/docs/route-service-provider.md` — RouteServiceProvider nei Moduli PTVX
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `bashscripts/docs/schema_conventions.md` — Schema Conventions in Notify Module
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `bashscripts/docs/schema_conventions.md` — Schema Conventions in Notify Module
+>>>>>>> a988596b (first)
 - `bashscripts/docs/schema-conventions.md` — Schema Conventions in Notify Module
 - `bashscripts/docs/scripts-conflict-resolution.md` — Risoluzione Conflitti negli Script Bash
 - `bashscripts/docs/scripts-index.md` — Bashscripts Scripts Index
@@ -352,25 +379,35 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/AI_CODING_MEMORY.md` — AI Coding Memory - Critical Rules & Patterns
 - `docs/BUGFIX_SUMMARY_2025-10-22_HasXotFactory.md` — 🐛 Bugfix Summary - HasXotFactory Trait Restoration
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/BUGFIX_SUMMARY_2025-10-22_Quaeris_Dashboard.md` — 🐛 Bugfix Summary - Quaeris Dashboard & Chart Widgets
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `docs/BUGFIX_SUMMARY_2025-10-22_Quaeris_Dashboard.md` — 🐛 Bugfix Summary - Quaeris Dashboard & Chart Widgets
+>>>>>>> a988596b (first)
 - `docs/BUGFIX_SUMMARY_2025-10-22_App_Dashboard.md` — 🐛 Bugfix Summary - App Dashboard & Chart Widgets
 - `docs/DRY-KISS-VIOLATIONS-SUMMARY.md` — DRY and KISS Violations Analysis Report
 - `docs/DRY_KISS_ANALYSIS_2025-10-15.md` — Analisi DRY & KISS - Tutti i Moduli
 - `docs/DRY_KISS_COMPLETE_IMPLEMENTATION_2025-10-15.md` — DRY & KISS - Implementazione Completa
 - `docs/DRY_KISS_IMPLEMENTATION_GUIDE.md` — Guida Implementazione DRY & KISS - Progetto Laraxot
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `docs/ECOSYSTEM_ANALYSIS.md` — Quaeris Fila4 Mono - Comprehensive Ecosystem Analysis
 - `docs/ELOQUENT-MAGIC-PROPERTIES.md` — Eloquent Magic Properties - Regola Progetto
 - `docs/FILAMENT_5X_GUIDE.md` — GUIDE LINEE GUIDA PER SVILUPPO QUAEERIS
 - `docs/FILAMENT_NESTING_ANALYSIS.md` — Filament Nesting Analysis - Quaeris Module
+<<<<<<< HEAD
 =======
 - `docs/ECOSYSTEM_ANALYSIS.md` — App Fila4 Mono - Comprehensive Ecosystem Analysis
 - `docs/ELOQUENT-MAGIC-PROPERTIES.md` — Eloquent Magic Properties - Regola Progetto
 - `docs/FILAMENT_5X_GUIDE.md` — GUIDE LINEE GUIDA PER SVILUPPO QUAEERIS
 - `docs/FILAMENT_NESTING_ANALYSIS.md` — Filament Nesting Analysis - App Module
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `docs/FINAL_DRY_KISS_SUMMARY.md` — Riepilogo Finale - Analisi e Correzioni DRY/KISS
 - `docs/GIT_CONFLICTS_RESOLUTION_PLAN.md` — 📋 Piano Risoluzione Conflitti Git - Approccio Pragmatico
 - `docs/IMPLEMENTATION_SUMMARY_2025-10-21.md` — Implementation Summary - 2025-10-21
@@ -384,9 +421,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/PHPSTAN_PROGRESS.md` — PHPStan Correzioni - Progress Report
 - `docs/PHPSTAN_README.md` — PHPStan Error Analysis Report - Index
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/PHPSTAN_SESSION_REPORT.md` — PHPStan Livello 10 - Report Sessione
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `docs/PHPSTAN_SESSION_REPORT.md` — PHPStan Livello 10 - Report Sessione
+>>>>>>> a988596b (first)
 - `docs/phpstan-session-report.md` — PHPStan Livello 10 - Report Sessione
 - `docs/PHPSTAN_SESSION_SUMMARY.md` — 🎯 Sessione PHPStan Completa - Riepilogo Finale
 - `docs/PHPStan_Level10_Completion_Report_2026-01-30.md` — PHPStan Level 10 - Completamento Rapporto
@@ -394,9 +435,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/QUALITY-IMPROVEMENT-SESSION-2025-11-12.md` — Quality Improvement Session - 2025-11-12
 - `docs/QUALITY_IMPROVEMENT_SUMMARY.md` — Quality Improvement Summary
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/README.md` — Quaeris Fila4 Mono - Documentazione Operativa
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `docs/README.md` — Quaeris Fila4 Mono - Documentazione Operativa
+>>>>>>> a988596b (first)
 - `docs/README.md` — App Fila4 Mono - Documentazione Operativa
 - `docs/README_DRY_KISS.md` — DRY & KISS - Indice Documentazione
 - `docs/README_FINAL_VERIFICATION.md` — ✅ Verifica Finale README.md - Super Mucca Completion Report
@@ -410,16 +455,22 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/SUPER-MUCCA-FINAL-REPORT.md` — 🐮⚡ SUPER MUCCA MODE - Final Report
 - `docs/achievement-report.md` — 🏆 Achievement Report - Supermucca Session 2025-11-05
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `docs/advanced-architecture-insights-limesurvey.md` — Advanced Architecture Insights: Lessons from LimeSurvey for Quaeris Fila5
 - `docs/ai-folders-configuration.md` — Configurazione Cartelle AI - Guida Completa
 - `docs/ai-ide-configurations.md` — AI/IDE Configuration Folders - Complete Guide
 - `docs/all-agents-mcp-configuration.md` — All AI Agents MCP Configuration - Quaeris Fila5 Mono
+<<<<<<< HEAD
 =======
 - `docs/advanced-architecture-insights-limesurvey.md` — Advanced Architecture Insights: Lessons from LimeSurvey for App Fila5
 - `docs/ai-folders-configuration.md` — Configurazione Cartelle AI - Guida Completa
 - `docs/ai-ide-configurations.md` — AI/IDE Configuration Folders - Complete Guide
 - `docs/all-agents-mcp-configuration.md` — All AI Agents MCP Configuration - App Fila5 Mono
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `docs/architecture/dry-kiss-principles.md` — Principi DRY & KISS - Architettura Progetto
 - `docs/cache-path-fix-solution.md` — Cache Path Fix - Soluzione Definitiva
 - `docs/chart-widget-fix-summary.md` — 🎯 CHART WIDGET SYSTEMATIC FIX SUMMARY
@@ -453,10 +504,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/gemini-getting-started.md` — Gemini Project Context: Building and Running
 - `docs/gemini-key-technologies.md` — Gemini Project Context: Key Technologies
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/gemini-mcp-overview.md` — MCP Configuration for Quaeris Fila5 Mono
 - `docs/gemini-project-overview.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `docs/gemini-mcp-overview.md` — MCP Configuration for Quaeris Fila5 Mono
+- `docs/gemini-project-overview.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
+>>>>>>> a988596b (first)
 - `docs/gemini-mcp-overview.md` — MCP Configuration for App Fila5 Mono
 - `docs/gemini-project-overview.md` — Gemini Project Context: App Fila4 Mono - Laravel Survey Management System
 - `docs/git-forward-only-rule.md` — Git Forward-Only Rule
@@ -475,6 +531,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/jpgraph-service-examples.md` — JpGraph Service Implementation Examples
 - `docs/jpgraph-vs-chartjs-comparison.md` — JpGraph vs Chart.js - Comprehensive Comparison Guide
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `docs/laravel-boost-and-mcp-best-practices.md` — Laravel Boost and MCP Best Practices for Quaeris Fila5 Mono
 - `docs/laravel-boost-implementation-guide.md` — Laravel Boost Implementation Guide for Quaeris Fila5 Mono
 - `docs/laravel-boost-mcp.md` — Laravel Boost MCP – Configurazione progetto
@@ -495,6 +554,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/model-architecture.md` — Model Architecture in Laraxot
 - `docs/modern-chart-implementation-roadmap.md` — Modern Chart Implementation Roadmap
 - `docs/moduli-scopo.md` — Scopo dei moduli - Quaeris Fila5 Mono
+<<<<<<< HEAD
 =======
 - `docs/laravel-boost-and-mcp-best-practices.md` — Laravel Boost and MCP Best Practices for App Fila5 Mono
 - `docs/laravel-boost-implementation-guide.md` — Laravel Boost Implementation Guide for App Fila5 Mono
@@ -508,6 +568,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/modern-chart-implementation-roadmap.md` — Modern Chart Implementation Roadmap
 - `docs/moduli-scopo.md` — Scopo dei moduli - App Fila5 Mono
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `docs/mysql-testing-configuration.md` — MySQL Testing Configuration - Laraxot Database Standard
 - `docs/operational-rules/README.md` — Operational Rules - Regole Operative Assolute
 - `docs/operational-rules/action-classes-purity-rule.md` — Action Classes Purity Rule - Regola Fondamentale
@@ -530,10 +592,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/phpstan-fixes-session-february-2026.md` — PHPStan Fixes Session - February 5, 2026
 - `docs/phpstan-fixes-session.md` — PHPStan Fixes - Sessione 5 Novembre 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/phpstan-master-roadmap-fila5.md` — PHPStan Error Resolution Master Roadmap - Quaeris Fila5 Mono
 - `docs/phpstan-master-roadmap.md` — PHPStan Error Resolution Master Roadmap - Quaeris Fila4 Mono
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `docs/phpstan-master-roadmap-fila5.md` — PHPStan Error Resolution Master Roadmap - Quaeris Fila5 Mono
+- `docs/phpstan-master-roadmap.md` — PHPStan Error Resolution Master Roadmap - Quaeris Fila4 Mono
+>>>>>>> a988596b (first)
 - `docs/phpstan-master-roadmap-fila5.md` — PHPStan Error Resolution Master Roadmap - App Fila5 Mono
 - `docs/phpstan-master-roadmap.md` — PHPStan Error Resolution Master Roadmap - App Fila4 Mono
 - `docs/phpstan-phpmd-phpinsights-improvements.md` — PHPStan, PHPMD, and PHPInsights Improvements Report
@@ -544,11 +611,17 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/profile-duplicate-issue-resolution.md` — Profile Duplicate Issue - Risoluzione Completa
 - `docs/progress-report-2025-11-15.md` — Quality Improvement Progress - Session 2 (November 15, 2025)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/project-overview.md` — 🎯 Quaeris Fila4 Mono - Panoramica Progetto
 - `docs/quaeris-widget-week-complete-summary.md` — Quaeris Widget Settimana - Implementazione Completa Finale
 - `docs/quaeris-widget-week-final-summary.md` — Quaeris - Widget Settimana e Ottimizzazione Query: Implementazione Completa
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `docs/project-overview.md` — 🎯 Quaeris Fila4 Mono - Panoramica Progetto
+- `docs/quaeris-widget-week-complete-summary.md` — Quaeris Widget Settimana - Implementazione Completa Finale
+- `docs/quaeris-widget-week-final-summary.md` — Quaeris - Widget Settimana e Ottimizzazione Query: Implementazione Completa
+>>>>>>> a988596b (first)
 - `docs/project-overview.md` — 🎯 App Fila4 Mono - Panoramica Progetto
 - `docs/this-project-widget-week-complete-summary.md` — App Widget Settimana - Implementazione Completa Finale
 - `docs/this-project-widget-week-final-summary.md` — App - Widget Settimana e Ottimizzazione Query: Implementazione Completa
@@ -573,9 +646,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/victory-report.md` — 🏆 victory report - sessione 5 novembre 2025
 - `docs/viral-skills-implementation-summary.md` — 📋 **Aggiornamento Documentazione Moduli e Temi**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/widgets/quaeris-week-widget-complete-implementation.md` — Implementazione Completa Widget Settimana - Modulo Quaeris
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `docs/widgets/quaeris-week-widget-complete-implementation.md` — Implementazione Completa Widget Settimana - Modulo Quaeris
+>>>>>>> a988596b (first)
 - `docs/widgets/this-project-week-widget-complete-implementation.md` — Implementazione Completa Widget Settimana - Modulo App
 - `docs/widgets/week-aggregation-widget-summary.md` — Widget Aggregazione Settimanale - Riepilogo Implementazione
 - `docs/work-summary-jan.md` — Work Summary - 2025-01-22
@@ -584,9 +661,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/00-index-1.md` — Documentation Index
 - `laravel/Modules/Activity/docs/00-index.md` — 📚 **Indice Documentazione Modulo Activity**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Activity/docs/CHANGELOG.md` — Changelog
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Activity/docs/CHANGELOG.md` — Changelog
+>>>>>>> a988596b (first)
 - `laravel/Modules/Activity/docs/changelog.md` — Changelog
 - `laravel/Modules/Activity/docs/README.md` — Activity Module - Spatie Laravel Activity Log Integration
 - `laravel/Modules/Activity/docs/_integration/filament.md` — filament
@@ -663,9 +744,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/filament/filament-v4-upgrade.md` — Filament v4 Upgrade Documentation
 - `laravel/Modules/Activity/docs/filament/filament_v4_icon_size_fix.md` — Filament v4 Icon Size Attribute Fix
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Activity/docs/filament/filament_v4_upgrade.md` — Filament v4 Upgrade Documentation
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Activity/docs/filament/filament_v4_upgrade.md` — Filament v4 Upgrade Documentation
+>>>>>>> a988596b (first)
 - `laravel/Modules/Activity/docs/filament/filament-v4-upgrade.md` — Filament v4 Upgrade Documentation
 - `laravel/Modules/Activity/docs/filament-5-nested-resources-complete-guide.md` — 🎯 Filament 5.x Nested Resources - Guida Completa 2024
 - `laravel/Modules/Activity/docs/filament-5-nested-resources.md` — Filament 5.x Nested Resources Guide
@@ -687,9 +772,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/guida-migrazione-step-by-step.md` — Activity Module - Guida Step-by-Step Migrazione Filament 5
 - `laravel/Modules/Activity/docs/guides/event-sourcing.md` — event sourcing comprehensive guide
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Activity/docs/guides/event_sourcing.md` — event sourcing comprehensive guide
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Activity/docs/guides/event_sourcing.md` — event sourcing comprehensive guide
+>>>>>>> a988596b (first)
 - `laravel/Modules/Activity/docs/guides/event-sourcing.md` — event sourcing comprehensive guide
 - `laravel/Modules/Activity/docs/html2pdf/advanced.md` — Funzionalità Avanzate
 - `laravel/Modules/Activity/docs/html2pdf/index.md` — Html2Pdf - Panoramica e Installazione
@@ -705,9 +794,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/lang-link-duplicate.md` — Collegamento alle Traduzioni del Modulo Activity
 - `laravel/Modules/Activity/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Activity
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Activity/docs/lang_link.md` — lang_link
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Activity/docs/lang_link.md` — lang_link
+>>>>>>> a988596b (first)
 - `laravel/Modules/Activity/docs/lang-link.md` — lang_link
 - `laravel/Modules/Activity/docs/list-log-activities-improvements.md` — ListLogActivities UI/UX Improvements - [DATE]
 - `laravel/Modules/Activity/docs/login-test-implementation-summary-1.md` — Login Test Implementation Summary - <nome progetto> Project
@@ -718,9 +811,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/mcp-configuration.md` — MCP Server Configuration - Activity Module
 - `laravel/Modules/Activity/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Activity
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Activity/docs/mcp_server_recommended.md` — mcp_server_recommended
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Activity/docs/mcp_server_recommended.md` — mcp_server_recommended
+>>>>>>> a988596b (first)
 - `laravel/Modules/Activity/docs/mcp-server-recommended.md` — mcp_server_recommended
 - `laravel/Modules/Activity/docs/metodi-duplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Activity/docs/metodi_duplicati_analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
@@ -846,9 +943,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/tasks/testing/security-tests.md` — Security Tests - Activity
 - `laravel/Modules/Activity/docs/tecnico/laraxot/module-activity.md` — Modulo Activity
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Activity/docs/tecnico/laraxot/module_activity.md` — Modulo Activity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Activity/docs/tecnico/laraxot/module_activity.md` — Modulo Activity
+>>>>>>> a988596b (first)
 - `laravel/Modules/Activity/docs/tecnico/laraxot/module-activity.md` — Modulo Activity
 - `laravel/Modules/Activity/docs/test-errors.md` — Activity Module - Errori Test e Configurazione
 - `laravel/Modules/Activity/docs/testcase-sqlite-to-mysql-fix.md` — TestCase SQLite to MySQL Fix - Activity Module
@@ -952,9 +1053,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/use_cases/shop/comparison.md` — Confronto tra Implementazioni del Carrello della Spesa
 - `laravel/Modules/Activity/docs/use_cases/shop/console-commands.md` — Guida Completa ai Console Commands per il Modulo Shop
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Activity/docs/use_cases/shop/console_commands.md` — console_commands
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Activity/docs/use_cases/shop/console_commands.md` — console_commands
+>>>>>>> a988596b (first)
 - `laravel/Modules/Activity/docs/use_cases/shop/console-commands.md` — console_commands
 - `laravel/Modules/Activity/docs/use_cases/shop/domain-vs-modules.md` — Confronto tra Struttura a Domain e Struttura a Moduli
 - `laravel/Modules/Activity/docs/use_cases/shop/event-sourcing-cnastasi.md` — Event Sourcing con Laravel: Analisi del Repository di cnastasi
@@ -1002,9 +1107,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Chart/docs/architecture/technical-architecture.md` — Architettura Tecnica del Sistema
 - `laravel/Modules/Chart/docs/architecture/themes-structure.md` — Struttura dei Temi
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Chart/docs/assets/presentazioni/oral-health-portal-markdown.md` — Portale Salute Orale - Documentazione Completa
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Chart/docs/assets/presentazioni/oral-health-portal-markdown.md` — Portale Salute Orale - Documentazione Completa
+>>>>>>> a988596b (first)
 - `laravel/Modules/Chart/docs/assets/presentazioni/oral-health-portal-markdown.md` — Portale <slogan> - Documentazione Completa
 - `laravel/Modules/Chart/docs/assets/presentazioni/presentazione.md` — Presentazione del portale
 - `laravel/Modules/Chart/docs/authentication/auth-pages-implementation.md` — Implementazione delle Pagine di Autenticazione
@@ -1140,11 +1249,17 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Chart/docs/images/4.md` — Immagine 4
 - `laravel/Modules/Chart/docs/images/5.md` — Immagine 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Chart/docs/images/6.md` — Analisi dell'Interfaccia "Salute Orale" - Informazioni Preventive alla Visita
 - `laravel/Modules/Chart/docs/images/7.md` — Salute Orale - GDPR Privacy Page Analysis
 - `laravel/Modules/Chart/docs/images/8.md` — Salute Orale - Registration Confirmation Page Analysis
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Chart/docs/images/6.md` — Analisi dell'Interfaccia "Salute Orale" - Informazioni Preventive alla Visita
+- `laravel/Modules/Chart/docs/images/7.md` — Salute Orale - GDPR Privacy Page Analysis
+- `laravel/Modules/Chart/docs/images/8.md` — Salute Orale - Registration Confirmation Page Analysis
+>>>>>>> a988596b (first)
 - `laravel/Modules/Chart/docs/images/6.md` — Analisi dell'Interfaccia "<slogan>" - Informazioni Preventive alla Visita
 - `laravel/Modules/Chart/docs/images/7.md` — <slogan> - GDPR Privacy Page Analysis
 - `laravel/Modules/Chart/docs/images/8.md` — <slogan> - Registration Confirmation Page Analysis
@@ -1184,9 +1299,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Chart/docs/jpgraph-complete-guide.md` — JpGraph - Guida Completa per Generazione Grafici
 - `laravel/Modules/Chart/docs/models/README.md` — Modelli - Modulo Chart
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Chart/docs/module_analysis.md` — Modulo Chart - Grafici e Visualizzazioni
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Chart/docs/module_analysis.md` — Modulo Chart - Grafici e Visualizzazioni
+>>>>>>> a988596b (first)
 - `laravel/Modules/Chart/docs/module-analysis.md` — Modulo Chart - Grafici e Visualizzazioni
 - `laravel/Modules/Chart/docs/modules/README.md` — Documentazione Moduli
 - `laravel/Modules/Chart/docs/modules/lang-service-provider-improvements.md` — LangServiceProvider: Analisi e Proposte di Miglioramento
@@ -1221,9 +1340,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Chart/docs/performance/general-optimizations.md` — Ottimizzazioni Performance
 - `laravel/Modules/Chart/docs/performance/priority-bottlenecks.md` — Priorità Colli di Bottiglia
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Chart/docs/performance/quaeris-bottlenecks.md` — Colli di Bottiglia nel Modulo Quaeris
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Chart/docs/performance/quaeris-bottlenecks.md` — Colli di Bottiglia nel Modulo Quaeris
+>>>>>>> a988596b (first)
 - `laravel/Modules/Chart/docs/performance/this-project-bottlenecks.md` — Colli di Bottiglia nel Modulo App
 - `laravel/Modules/Chart/docs/performance/verified-bottlenecks.md` — Colli di Bottiglia Verificati
 - `laravel/Modules/Chart/docs/philosophy.md` — Modulo Chart - Filosofia, Religione, Politica, Zen
@@ -1626,9 +1749,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Chart/docs/tecnico/moduli.md` — Struttura dei Moduli
 - `laravel/Modules/Chart/docs/tecnico/namespace-structure.md` — Analisi della Discrepanza tra Namespace e Struttura Directory nei Moduli Laraxot
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Chart/docs/tecnico/oral-health-portal-markdown.md` — Portale Salute Orale - Documentazione Completa
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Chart/docs/tecnico/oral-health-portal-markdown.md` — Portale Salute Orale - Documentazione Completa
+>>>>>>> a988596b (first)
 - `laravel/Modules/Chart/docs/tecnico/oral-health-portal-markdown.md` — Portale <slogan> - Documentazione Completa
 - `laravel/Modules/Chart/docs/tecnico/packages/composer.md` — Composer
 - `laravel/Modules/Chart/docs/tecnico/packages/laravel-modules.md` — Laravel Modules
@@ -1993,9 +2120,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/json-content-system-architecture.md` — JSON Content System Architecture - CMS Module
 - `laravel/Modules/Cms/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Cms
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Cms/docs/lang_link.md` — Collegamento alle Traduzioni del Modulo Cms
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Cms/docs/lang_link.md` — Collegamento alle Traduzioni del Modulo Cms
+>>>>>>> a988596b (first)
 - `laravel/Modules/Cms/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Cms
 - `laravel/Modules/Cms/docs/leggi-ux.md` — Leggi di User Experience (UX)
 - `laravel/Modules/Cms/docs/leggi_ux.md` — Leggi di User Experience (UX)
@@ -2009,10 +2140,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Cms
 - `laravel/Modules/Cms/docs/mcp-ui-ux.md` — MCP Servers per UI/UX - Modulo Cms
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Cms/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Cms
 - `laravel/Modules/Cms/docs/metatag-population-strategy-1.md` — Strategia di Popolamento Metatag - SaluteOra
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Cms/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Cms
+- `laravel/Modules/Cms/docs/metatag-population-strategy-1.md` — Strategia di Popolamento Metatag - SaluteOra
+>>>>>>> a988596b (first)
 - `laravel/Modules/Cms/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Cms
 - `laravel/Modules/Cms/docs/metatag-population-strategy-1.md` — Strategia di Popolamento Metatag - <nome progetto>
 - `laravel/Modules/Cms/docs/metatag-population-strategy.md` — Strategia di Popolamento Metatag - <main module>
@@ -2162,9 +2298,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/seo-keting-integration.md` — SEO & Marketing Integration - Module Roadmap
 - `laravel/Modules/Cms/docs/serializable-closure-error-resolution-.md` — Serializable Closure Error Resolution - Complete Guide
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Cms/docs/site-replication-report.md` — Site Replication Report: Marco Sottana TechPlanner
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Cms/docs/site-replication-report.md` — Site Replication Report: Marco Sottana TechPlanner
+>>>>>>> a988596b (first)
 - `laravel/Modules/Cms/docs/site-replication-report.md` — Site Replication Report: Marco Sottana App
 - `laravel/Modules/Cms/docs/siti-ispirazioni-web-design.md` — Ispirazioni di Web Design per il progetto
 - `laravel/Modules/Cms/docs/siti-ispirazioni-webesign.md` — Ispirazioni di Web Design per il progetto
@@ -2246,10 +2386,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/user-link.md` — Collegamento al Modulo User
 - `laravel/Modules/Cms/docs/user_link.md` — Collegamento al Modulo User
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Cms/docs/utilizzo-modelli-user-in-saluteora.md` — Utilizzo Corretto dei Modelli User in il progetto
 - `laravel/Modules/Cms/docs/utilizzo_modelli_user_in_saluteora.md` — Utilizzo Corretto dei Modelli User in il progetto
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Cms/docs/utilizzo-modelli-user-in-saluteora.md` — Utilizzo Corretto dei Modelli User in il progetto
+- `laravel/Modules/Cms/docs/utilizzo_modelli_user_in_saluteora.md` — Utilizzo Corretto dei Modelli User in il progetto
+>>>>>>> a988596b (first)
 - `laravel/Modules/Cms/docs/utilizzo-modelli-user-in-<nome progetto>.md` — Utilizzo Corretto dei Modelli User in il progetto
 - `laravel/Modules/Cms/docs/utilizzo_modelli_user_in_<nome progetto>.md` — Utilizzo Corretto dei Modelli User in il progetto
 - `laravel/Modules/Cms/docs/ux-wizard-registrazione-paziente.md` — Applicazione delle Leggi UX al Wizard di Registrazione Paziente
@@ -2281,9 +2426,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/xot_link.md` — Collegamenti al Modulo Xot
 - `laravel/Modules/DbForge/README.md` — DbForge Module
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/DbForge/docs/CHANGELOG.md` — Changelog
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/DbForge/docs/CHANGELOG.md` — Changelog
+>>>>>>> a988596b (first)
 - `laravel/Modules/DbForge/docs/changelog.md` — Changelog
 - `laravel/Modules/DbForge/docs/README.md` — 🛠️ **DbForge Module** - Schema Automation & Intelligence
 - `laravel/Modules/DbForge/docs/adminpanelprovider-implementation.md` — Implementazione AdminPanelProvider - Modulo DbForge
@@ -2317,9 +2466,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/README.md` — GDPR Module
 - `laravel/Modules/Gdpr/docs/00-index.md` — 📚 **Indice Documentazione Modulo Gdpr**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Gdpr/docs/CHANGELOG.md` — Changelog
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Gdpr/docs/CHANGELOG.md` — Changelog
+>>>>>>> a988596b (first)
 - `laravel/Modules/Gdpr/docs/changelog.md` — Changelog
 - `laravel/Modules/Gdpr/docs/README.md` — 🛡️ **Gdpr Module** - Privacy, Compliance & Data Sovereignty
 - `laravel/Modules/Gdpr/docs/_integration/cloudflare.md` — cloudflare
@@ -2407,20 +2560,28 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/implementation-guide.md` — GDPR Consent Implementation Guide
 - `laravel/Modules/Gdpr/docs/implementation.md` — GDPR Consent Implementation Guide
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Gdpr/docs/implementation_guide.md` — GDPR Consent Implementation Guide
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Gdpr/docs/implementation_guide.md` — GDPR Consent Implementation Guide
+>>>>>>> a988596b (first)
 - `laravel/Modules/Gdpr/docs/implementation-guide.md` — GDPR Consent Implementation Guide
 - `laravel/Modules/Gdpr/docs/index.md` — GDPR Module Documentation
 - `laravel/Modules/Gdpr/docs/integration.md` — integration
 - `laravel/Modules/Gdpr/docs/lang-link-1.md` — Collegamento alle Traduzioni del Modulo Gdpr
 - `laravel/Modules/Gdpr/docs/lang-link.md` — lang-link
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Gdpr/docs/lang_link.md` — lang_link
 - `laravel/Modules/Gdpr/docs/links.md` — links
 - `laravel/Modules/Gdpr/docs/mcp-configuration.md` — MCP Server Configuration - Gdpr Module
 - `laravel/Modules/Gdpr/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Gdpr
 - `laravel/Modules/Gdpr/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Gdpr
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Gdpr/docs/lang-link.md` — lang_link
 - `laravel/Modules/Gdpr/docs/links.md` — links
@@ -2428,6 +2589,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Gdpr
 - `laravel/Modules/Gdpr/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Gdpr
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Gdpr/docs/metodi-duplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Gdpr/docs/metodi_duplicati_analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Gdpr/docs/metodiuplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
@@ -2788,9 +2951,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/mcp-server-recommended-uppercase.md` — MCP Server Consigliati per il Modulo Geo
 - `laravel/Modules/Geo/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Geo
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Geo/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Geo
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Geo/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Geo
+>>>>>>> a988596b (first)
 - `laravel/Modules/Geo/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Geo
 - `laravel/Modules/Geo/docs/mcp_server_recommended_uppercase.md` — MCP Server Consigliati per il Modulo Geo
 - `laravel/Modules/Geo/docs/merge-conflicts-analysis.md` — Analisi Conflitti di Merge - Modulo Geo
@@ -2840,9 +3007,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/module-testing-analysis.md` — Analisi Completa Testing e Factory Moduli - <nome progetto>
 - `laravel/Modules/Geo/docs/module.md` — Modulo Geo - Geolocalizzazione e Mappe
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Geo/docs/module_analysis.md` — Modulo Geo - Geolocalizzazione e Mappe
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Geo/docs/module_analysis.md` — Modulo Geo - Geolocalizzazione e Mappe
+>>>>>>> a988596b (first)
 - `laravel/Modules/Geo/docs/module-analysis.md` — Modulo Geo - Geolocalizzazione e Mappe
 - `laravel/Modules/Geo/docs/module_geo.md` — Modulo Geo
 - `laravel/Modules/Geo/docs/modules-analysis-and-optimization.md` — Analisi e Ottimizzazioni Moduli Laraxot - <nome progetto>
@@ -2890,9 +3061,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/phpstan-fixes-notify-module.md` — PHPStan Fixes for Notify Module
 - `laravel/Modules/Geo/docs/phpstan-fixes-roadmap.md` — PHPStan Level 10 Fixes Roadmap - Modulo Geo
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Geo/docs/phpstan-fixes-saluteora.md` — Correzioni PHPStan <nome progetto> - Uso Azioni Cast Xot
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Geo/docs/phpstan-fixes-saluteora.md` — Correzioni PHPStan <nome progetto> - Uso Azioni Cast Xot
+>>>>>>> a988596b (first)
 - `laravel/Modules/Geo/docs/phpstan-fixes-<nome progetto>.md` — Correzioni PHPStan <nome progetto> - Uso Azioni Cast Xot
 - `laravel/Modules/Geo/docs/phpstan-fixes-uppercase.md` — PHPStan Fixes for Geo Module
 - `laravel/Modules/Geo/docs/phpstan-fixes.md` — PHPStan Fixes for Geo Module
@@ -3009,9 +3184,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/.github/links.md` — links
 - `laravel/Modules/Job/docs/00-index.md` — 📚 **Indice Documentazione Modulo Job**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Job/docs/CHANGELOG.md` — Changelog
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Job/docs/CHANGELOG.md` — Changelog
+>>>>>>> a988596b (first)
 - `laravel/Modules/Job/docs/changelog.md` — Changelog
 - `laravel/Modules/Job/docs/README.md` — ⚡ **Job Module** - Enterprise Queue & Schedule Management
 - `laravel/Modules/Job/docs/_integration/artisan.md` — artisan
@@ -3025,9 +3204,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/_integration/soketi.md` — soketi
 - `laravel/Modules/Job/docs/_integration/storage-server.md` — storage-server
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Job/docs/_integration/storage_server.md` — storage_server
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Job/docs/_integration/storage_server.md` — storage_server
+>>>>>>> a988596b (first)
 - `laravel/Modules/Job/docs/_integration/storage-server.md` — storage_server
 - `laravel/Modules/Job/docs/_integration/tips.md` — tips
 - `laravel/Modules/Job/docs/analysis/code-quality-analysis-.md` — ⚙️ Job Module - Code Quality Analysis Report
@@ -3083,11 +3266,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/lang-link-1.md` — Collegamento alle Traduzioni del Modulo Job
 - `laravel/Modules/Job/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Job
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Job/docs/lang_link.md` — lang_link
 - `laravel/Modules/Job/docs/links.md` — links
 - `laravel/Modules/Job/docs/mcp-configuration.md` — MCP Server Configuration - Job Module
 - `laravel/Modules/Job/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Job
 - `laravel/Modules/Job/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Job
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Job/docs/lang-link.md` — lang_link
 - `laravel/Modules/Job/docs/links.md` — links
@@ -3095,6 +3282,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Job
 - `laravel/Modules/Job/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Job
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Job/docs/metodi-duplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Job/docs/migration-filament-4.md` — migration-filament-4
 - `laravel/Modules/Job/docs/migration-patterns.md` — migration-patterns
@@ -3193,9 +3382,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/.github/links.md` — links
 - `laravel/Modules/Lang/docs/00-index.md` — 📚 **Indice Documentazione Modulo Lang**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Lang/docs/CHANGELOG.md` — Changelog
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Lang/docs/CHANGELOG.md` — Changelog
+>>>>>>> a988596b (first)
 - `laravel/Modules/Lang/docs/changelog.md` — Changelog
 - `laravel/Modules/Lang/docs/README.md` — Module Documentation
 - `laravel/Modules/Lang/docs/_integration/README.md` — readme
@@ -3642,9 +3835,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Limesurvey/docs/filament-charts-optimization.md` — Optimized Filament Charts for LimeSurvey Data
 - `laravel/Modules/Limesurvey/docs/filament-nesting-opportunities.md` — Filament 5.x Nested Resources - Opportunità di Applicazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Limesurvey/docs/final-assessment.md` — Project Status Assessment - Quaeris Fila4 Mono
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Limesurvey/docs/final-assessment.md` — Project Status Assessment - Quaeris Fila4 Mono
+>>>>>>> a988596b (first)
 - `laravel/Modules/Limesurvey/docs/final-assessment.md` — Project Status Assessment - App Fila4 Mono
 - `laravel/Modules/Limesurvey/docs/gap-analysis-2026-01.md` — Gap Analysis: Modulo Limesurvey
 - `laravel/Modules/Limesurvey/docs/gap-analysis.md` — Gap Analysis: Modulo Limesurvey
@@ -3653,10 +3850,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Limesurvey/docs/index-consolidated.md` — LimeSurvey Module Documentation Index
 - `laravel/Modules/Limesurvey/docs/index.md` — LimeSurvey Module Documentation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Limesurvey/docs/integration-issues-action-plan.md` — Limesurvey-Quaeris Integration Issues - Action Plan
 - `laravel/Modules/Limesurvey/docs/integration-summary.md` — Project Integration Summary: LimeSurvey + MCP in Quaeris Fila4 Mono
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Limesurvey/docs/integration-issues-action-plan.md` — Limesurvey-Quaeris Integration Issues - Action Plan
+- `laravel/Modules/Limesurvey/docs/integration-summary.md` — Project Integration Summary: LimeSurvey + MCP in Quaeris Fila4 Mono
+>>>>>>> a988596b (first)
 - `laravel/Modules/Limesurvey/docs/integration-issues-action-plan.md` — Limesurvey-App Integration Issues - Action Plan
 - `laravel/Modules/Limesurvey/docs/integration-summary.md` — Project Integration Summary: LimeSurvey + MCP in App Fila4 Mono
 - `laravel/Modules/Limesurvey/docs/italian-chart-system-ultimate-template.md` — 🎯 Italian Chart System - Ultimate Template & Guide
@@ -3748,9 +3950,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/-competitors.md` — -competitors
 - `laravel/Modules/Media/docs/00-index.md` — 📚 **Indice Documentazione Modulo Media**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Media/docs/CHANGELOG.md` — Changelog
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Media/docs/CHANGELOG.md` — Changelog
+>>>>>>> a988596b (first)
 - `laravel/Modules/Media/docs/changelog.md` — Changelog
 - `laravel/Modules/Media/docs/README.md` — 🎞️ **Media Module** - High-Performance Asset Management
 - `laravel/Modules/Media/docs/_integration/--stream.md` — --stream
@@ -3792,10 +3998,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/conflict-resolution-subtitleservice.md` — Risoluzione Conflitti Git - SubtitleService.php
 - `laravel/Modules/Media/docs/conflict-resolution-video-entry.md` — Risoluzione Conflitto in VideoEntry
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Media/docs/conflict_resolution_convertvideobymediaconvertaction.md` — Risoluzione Conflitti ConvertVideoByMediaConvertAction.php
 - `laravel/Modules/Media/docs/conflict_resolution_iconmediacolumn.md` — Risoluzione Conflitto IconMediaColumn.php
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Media/docs/conflict_resolution_convertvideobymediaconvertaction.md` — Risoluzione Conflitti ConvertVideoByMediaConvertAction.php
+- `laravel/Modules/Media/docs/conflict_resolution_iconmediacolumn.md` — Risoluzione Conflitto IconMediaColumn.php
+>>>>>>> a988596b (first)
 - `laravel/Modules/Media/docs/conflict-resolution-convertvideobymediaconvertaction.md` — Risoluzione Conflitti ConvertVideoByMediaConvertAction.php
 - `laravel/Modules/Media/docs/conflict-resolution-iconmediacolumn.md` — Risoluzione Conflitto IconMediaColumn.php
 - `laravel/Modules/Media/docs/conflicts-analysis-1.md` — Analisi Conflitti - README.md
@@ -3813,9 +4024,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/corrections-sumy.md` — Riepilogo Correzioni S3Test.php - Modulo Media
 - `laravel/Modules/Media/docs/corrections.md` — Riepilogo Correzioni S3Test.php - Modulo Media
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Media/docs/corrections_summary.md` — Riepilogo Correzioni S3Test.php - Modulo Media
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Media/docs/corrections_summary.md` — Riepilogo Correzioni S3Test.php - Modulo Media
+>>>>>>> a988596b (first)
 - `laravel/Modules/Media/docs/corrections-summary.md` — Riepilogo Correzioni S3Test.php - Modulo Media
 - `laravel/Modules/Media/docs/coverage.md` — Media Module Test Coverage
 - `laravel/Modules/Media/docs/custom-properties-guide.md` — Custom Properties — spatie/laravel-medialibrary
@@ -3846,9 +4061,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/file-management.md` — Gestione dei File in <nome progetto>
 - `laravel/Modules/Media/docs/file-naming-rules.md` — Regole di Naming per File
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Media/docs/file_management_architecture.md` — Media Module - File Management Architecture
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Media/docs/file_management_architecture.md` — Media Module - File Management Architecture
+>>>>>>> a988596b (first)
 - `laravel/Modules/Media/docs/file-management-architecture.md` — Media Module - File Management Architecture
 - `laravel/Modules/Media/docs/fileupload-foreach-error-fix.md` — FileUpload foreach Error Fix - Internal Server Error
 - `laravel/Modules/Media/docs/folio-volt-best-practices.md` — Laravel Folio + Volt - Best Practices and Patterns Analysis
@@ -3864,9 +4083,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/lang-link-1.md` — Collegamento alle Traduzioni del Modulo Media
 - `laravel/Modules/Media/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo Media
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Media/docs/lang_link.md` — lang_link
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Media/docs/lang_link.md` — lang_link
+>>>>>>> a988596b (first)
 - `laravel/Modules/Media/docs/lang-link.md` — lang_link
 - `laravel/Modules/Media/docs/mcp-configuration.md` — MCP Server Configuration - Media Module
 - `laravel/Modules/Media/docs/mcp-server-consigliati-1.md` — Server MCP consigliati per il modulo Media
@@ -3874,10 +4097,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/mcp-server-recommended-1.md` — MCP Server Consigliati per il Modulo Media
 - `laravel/Modules/Media/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Media
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Media/docs/mcp_server_consigliati.md` — Server MCP consigliati per il modulo Media
 - `laravel/Modules/Media/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Media
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Media/docs/mcp_server_consigliati.md` — Server MCP consigliati per il modulo Media
+- `laravel/Modules/Media/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Media
+>>>>>>> a988596b (first)
 - `laravel/Modules/Media/docs/mcp-server-consigliati.md` — Server MCP consigliati per il modulo Media
 - `laravel/Modules/Media/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Media
 - `laravel/Modules/Media/docs/metodi-duplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
@@ -3904,9 +4132,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/performance/media-optimizations-1.md` — Ottimizzazioni Performance Modulo Media
 - `laravel/Modules/Media/docs/performance/media-optimizations.md` — Ottimizzazioni Performance Modulo Media
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Media/docs/performance/media_optimizations.md` — Ottimizzazioni Performance Modulo Media
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Media/docs/performance/media_optimizations.md` — Ottimizzazioni Performance Modulo Media
+>>>>>>> a988596b (first)
 - `laravel/Modules/Media/docs/performance/media-optimizations.md` — Ottimizzazioni Performance Modulo Media
 - `laravel/Modules/Media/docs/philosophy-complete.md` — Media - Filosofia Completa: Logica, Religione, Politica, Zen
 - `laravel/Modules/Media/docs/philosophy.md` — Media Module: Philosophy, Purpose, and Design Principles
@@ -3927,9 +4159,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/player.md` — player
 - `laravel/Modules/Media/docs/prevention-guidelines.md` — Linee Guida Prevenzione Problemi - Modulo Media
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Media/docs/prevention_guidelines.md` — Linee Guida Prevenzione Problemi - Modulo Media
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Media/docs/prevention_guidelines.md` — Linee Guida Prevenzione Problemi - Modulo Media
+>>>>>>> a988596b (first)
 - `laravel/Modules/Media/docs/prevention-guidelines.md` — Linee Guida Prevenzione Problemi - Modulo Media
 - `laravel/Modules/Media/docs/preventionlines.md` — Linee Guida Prevenzione Problemi - Modulo Media
 - `laravel/Modules/Media/docs/quality-analysis-.md` — Quality Analysis Report - Media Module
@@ -4007,12 +4243,16 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/00-index.md` — 📚 **Indice Documentazione Modulo Notify**
 - `laravel/Modules/Notify/docs/CHANGELOG.MD` — Changelog - Modulo Notify
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/CHANGELOG.md` — Changelog - Modulo Notify
 - `laravel/Modules/Notify/docs/README.md` — 🔔 **Notify Module** - Sistema Avanzato di Comunicazione
 - `laravel/Modules/Notify/docs/_integration/-repos.md` — _repos
 - `laravel/Modules/Notify/docs/_integration/-todo.md` — _todo
 - `laravel/Modules/Notify/docs/_integration/_repos.md` — _repos
 - `laravel/Modules/Notify/docs/_integration/_todo.md` — _todo
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/changelog.md` — Changelog - Modulo Notify
 - `laravel/Modules/Notify/docs/README.md` — 🔔 **Notify Module** - Sistema Avanzato di Comunicazione
@@ -4021,6 +4261,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/_integration/-repos.md` — _repos
 - `laravel/Modules/Notify/docs/_integration/-todo.md` — _todo
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/_integration/firebase.md` — firebase
 - `laravel/Modules/Notify/docs/_integration/links.md` — links
 - `laravel/Modules/Notify/docs/_integration/login.md` — login
@@ -4033,10 +4275,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/_integration/todo.md` — _todo
 - `laravel/Modules/Notify/docs/_integration/whatsapp.md` — whatsapp
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/_repos.md` — _repos
 - `laravel/Modules/Notify/docs/_todo.md` — _todo
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/_repos.md` — _repos
+- `laravel/Modules/Notify/docs/_todo.md` — _todo
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/-repos.md` — _repos
 - `laravel/Modules/Notify/docs/-todo.md` — _todo
 - `laravel/Modules/Notify/docs/acronym-naming-conventions-1.md` — Convenzioni di Naming per Acronimi
@@ -4136,9 +4383,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/base-templates.md` — Template Email di Base
 - `laravel/Modules/Notify/docs/base_model.md` — BaseModel del Modulo Notify
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/base_templates.md` — Template Email di Base
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/base_templates.md` — Template Email di Base
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/base-templates.md` — Template Email di Base
 - `laravel/Modules/Notify/docs/basemodel.md` — BaseModel: Regola obbligatoria e motivazione
 - `laravel/Modules/Notify/docs/best-practices/acronym-naming-conventions.md` — Convenzioni di Naming per Acronimi
@@ -4166,9 +4417,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/channel-vs-dto-provider-selection.md` — Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects
 - `laravel/Modules/Notify/docs/channel-vsto-provider-selection.md` — Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/channel_vs_dto_provider_selection.md` — Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/channel_vs_dto_provider_selection.md` — Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/channel-vs-dto-provider-selection.md` — Analisi Architetturale: Selezione Provider nei Canali vs Data Transfer Objects
 - `laravel/Modules/Notify/docs/christmas-email-templates-v4-implementation.md` — Christmas Email Templates v4.0 - Implementation Report
 - `laravel/Modules/Notify/docs/class-inheritance-best-practices-1.md` — Best Practices per l'Ereditarietà delle Classi
@@ -4182,11 +4437,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/codebrisk-tools-analysis.md` — Analisi Tool CodeBrisk per Email in Laravel
 - `laravel/Modules/Notify/docs/codebrisk-tools.md` — Analisi Tool CodeBrisk per Email in Laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/codebrisk_tools_analysis.md` — Analisi Tool CodeBrisk per Email in Laravel
 - `laravel/Modules/Notify/docs/codees.md` — Notify Module - Code Fixes & Improvements (2025)
 - `laravel/Modules/Notify/docs/collegamenti.md` — Collegamenti Documentazione Notify
 - `laravel/Modules/Notify/docs/communication-systems-architecture.md` — Notify Module - Communication Systems Architecture
 - `laravel/Modules/Notify/docs/communication_systems_architecture.md` — Notify Module - Communication Systems Architecture
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/codebrisk-tools-analysis.md` — Analisi Tool CodeBrisk per Email in Laravel
 - `laravel/Modules/Notify/docs/codees.md` — Notify Module - Code Fixes & Improvements (2025)
@@ -4194,6 +4453,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/communication-systems-architecture.md` — Notify Module - Communication Systems Architecture
 - `laravel/Modules/Notify/docs/communication-systems-architecture.md` — Notify Module - Communication Systems Architecture
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/composer-dependencies.md` — Composer Dependencies - Modulo Notify
 - `laravel/Modules/Notify/docs/composer-update-fixes.md` — Composer Update Fixes - 24 Novembre 2025
 - `laravel/Modules/Notify/docs/composer-updatees.md` — Composer Update Fixes - 24 Novembre 2025
@@ -4239,16 +4500,22 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/correzioni-phpstan-completate-3.md` — correzioni-phpstan-completate-3
 - `laravel/Modules/Notify/docs/correzioni-phpstan-completate.md` — ✅ CORREZIONI PHPSTAN COMPLETATE - Modulo Notify
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/correzioni_phpstan_completate.md` — correzioni_phpstan_completate
 - `laravel/Modules/Notify/docs/coverage.md` — Notify Module Test Coverage
 - `laravel/Modules/Notify/docs/crud-template-email-filament.md` — Proposta Architetturale: CRUD Template Email in Notify (Filament)
 - `laravel/Modules/Notify/docs/crud_template_email_filament.md` — Proposta Architetturale: CRUD Template Email in Notify (Filament)
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/correzioni-phpstan-completate.md` — correzioni_phpstan_completate
 - `laravel/Modules/Notify/docs/coverage.md` — Notify Module Test Coverage
 - `laravel/Modules/Notify/docs/crud-template-email-filament.md` — Proposta Architetturale: CRUD Template Email in Notify (Filament)
 - `laravel/Modules/Notify/docs/crud-template-email-filament.md` — Proposta Architetturale: CRUD Template Email in Notify (Filament)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/current-work-status-1.md` — Stato Attuale del Lavoro - 12 Maggio 2025
 - `laravel/Modules/Notify/docs/current-work-status.md` — Stato Attuale del Lavoro - 12 Maggio 2025
 - `laravel/Modules/Notify/docs/current-work.md` — Stato Attuale del Lavoro - 12 Maggio 2025
@@ -4267,9 +4534,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/database-mail.md` — Database Mail System
 - `laravel/Modules/Notify/docs/database_mail.md` — Database Mail System
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/database_mail_enhancement.md` — Database Mail Enhancement (Open Source)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/database_mail_enhancement.md` — Database Mail Enhancement (Open Source)
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/database-mail-enhancement.md` — Database Mail Enhancement (Open Source)
 - `laravel/Modules/Notify/docs/database_mail_queue.md` — Sistema di Code per Email - il progetto
 - `laravel/Modules/Notify/docs/database_mail_system.md` — Sistema di Gestione Email Basato su Database - il progetto
@@ -4281,9 +4552,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/development/roadmap.md` — Notify Module Roadmap
 - `laravel/Modules/Notify/docs/doctor-emails.md` — Email per i Dottori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/doctor_emails.md` — Email per i Dottori
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/doctor_emails.md` — Email per i Dottori
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/doctor-emails.md` — Email per i Dottori
 - `laravel/Modules/Notify/docs/dor-emails.md` — Email per i Dottori
 - `laravel/Modules/Notify/docs/dry-composition-pattern.md` — Pattern DRY: Composizione Actions Bulk → Single
@@ -4302,10 +4577,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/dto-vs-factory.md` — Analisi: Logica di Selezione del Driver nel DTO vs Factory vs Canale
 - `laravel/Modules/Notify/docs/dto_structure_conventions.md` — Convenzioni per la Struttura dei DTO nel Modulo Notify
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/dto_structure_rules.md` — Regole per la Struttura dei DTO
 - `laravel/Modules/Notify/docs/dto_vs_factory_analysis.md` — Analisi: Logica di Selezione del Driver nel DTO vs Factory vs Canale
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/dto_structure_rules.md` — Regole per la Struttura dei DTO
+- `laravel/Modules/Notify/docs/dto_vs_factory_analysis.md` — Analisi: Logica di Selezione del Driver nel DTO vs Factory vs Canale
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/dto-structure-rules.md` — Regole per la Struttura dei DTO
 - `laravel/Modules/Notify/docs/dto-vs-factory-analysis.md` — Analisi: Logica di Selezione del Driver nel DTO vs Factory vs Canale
 - `laravel/Modules/Notify/docs/duplicate-files-to-remove.md` — File Duplicati da Eliminare - Modulo Notify
@@ -4365,6 +4645,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/email-wysiwyg-editor-tests.md` — Test Editor WYSIWYG Email - il progetto
 - `laravel/Modules/Notify/docs/email-wysiwyg-editor.md` — Editor WYSIWYG per Email - il progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/email_analytics.md` — Analytics Email - il progetto
 - `laravel/Modules/Notify/docs/email_backup.md` — Sistema Backup Email
 - `laravel/Modules/Notify/docs/email_best_practices.md` — Best Practices per il Sistema Email
@@ -4374,6 +4657,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/email_best_practices.md` — Best Practices per il Sistema Email
 - `laravel/Modules/Notify/docs/email_cache.md` — Sistema Cache Email
 - `laravel/Modules/Notify/docs/email_html_best_practices.md` — Best Practices HTML per Email
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/email-analytics.md` — Analytics Email - il progetto
 - `laravel/Modules/Notify/docs/email_backup.md` — Sistema Backup Email
@@ -4381,6 +4665,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/email_cache.md` — Sistema Cache Email
 - `laravel/Modules/Notify/docs/email-html-best-practices.md` — Best Practices HTML per Email
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/email_logs.md` — Sistema Log Email
 - `laravel/Modules/Notify/docs/email_migrations.md` — Sistema Migrazione Email
 - `laravel/Modules/Notify/docs/email_monitoring.md` — Sistema Monitoraggio Email
@@ -4390,6 +4676,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/email_sending_troubleshooting.md` — Troubleshooting: Sistema di Invio Email in Notify
 - `laravel/Modules/Notify/docs/email_template_landscape.md` — Panoramica e Analisi dei Template Email in Laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/email_template_slug_proposal.md` — Proposta: Aggiunta del Parametro Slug per Email Template
 - `laravel/Modules/Notify/docs/email_templates.md` — Sistema di Email Template
 - `laravel/Modules/Notify/docs/email_templates_analysis.md` — Analisi Approfondita: Email Templates in Laravel per <nome progetto>
@@ -4399,6 +4688,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/email_templates_laravel_mailables_notifications.md` — Approfondimento: Mailables & Notifications Laravel
 - `laravel/Modules/Notify/docs/email_templates_simplepleb.md` — Approfondimento: simplepleb/laravel-email-templates
 - `laravel/Modules/Notify/docs/email_templates_spatie.md` — Approfondimento: spatie/laravel-database-mail-templates
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/email-template-slug-proposal.md` — Proposta: Aggiunta del Parametro Slug per Email Template
 - `laravel/Modules/Notify/docs/email_templates.md` — Sistema di Email Template
@@ -4410,14 +4700,20 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/email-templates-simplepleb.md` — Approfondimento: simplepleb/laravel-email-templates
 - `laravel/Modules/Notify/docs/email-templates-spatie.md` — Approfondimento: spatie/laravel-database-mail-templates
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/email_testing_analysis.md` — Analisi delle Pagine di Test Email
 - `laravel/Modules/Notify/docs/email_testing_rules.md` — Regole per il Testing delle Email
 - `laravel/Modules/Notify/docs/email_tests.md` — Test Sistema Email - il progetto
 - `laravel/Modules/Notify/docs/email_translations.md` — Integrazione Traduzioni Email - il progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/email_wysiwyg_editor.md` — Editor WYSIWYG per Email - il progetto
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/email_wysiwyg_editor.md` — Editor WYSIWYG per Email - il progetto
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/email-wysiwyg-editor.md` — Editor WYSIWYG per Email - il progetto
 - `laravel/Modules/Notify/docs/email_wysiwyg_editor_tests.md` — Test Editor WYSIWYG Email - il progetto
 - `laravel/Modules/Notify/docs/emails/spatie-email.md` — SpatieEmail Documentation
@@ -4431,9 +4727,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/errori/plugin-spatie-translatable-not-registered.md` — Errore: Plugin spatie-translatable Not Registered
 - `laravel/Modules/Notify/docs/errori-azione-netfun.md` — Analisi degli Errori in SendNetfunSMSAction
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/errori_azione_netfun.md` — Analisi degli Errori in SendNetfunSMSAction
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/errori_azione_netfun.md` — Analisi degli Errori in SendNetfunSMSAction
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/errori-azione-netfun.md` — Analisi degli Errori in SendNetfunSMSAction
 - `laravel/Modules/Notify/docs/events.md` — Email Events
 - `laravel/Modules/Notify/docs/factory-advantages.md` — Analisi del Pattern Factory per la Selezione dei Provider SMS
@@ -4443,9 +4743,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/factory.md` — Analisi del Pattern Factory per le Notifiche
 - `laravel/Modules/Notify/docs/factory_pattern_advantages.md` — Analisi del Pattern Factory per la Selezione dei Provider SMS
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/factory_pattern_analysis.md` — Analisi del Pattern Factory per le Notifiche
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/factory_pattern_analysis.md` — Analisi del Pattern Factory per le Notifiche
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/factory-pattern-analysis.md` — Analisi del Pattern Factory per le Notifiche
 - `laravel/Modules/Notify/docs/filament-4-migration-fixes.md` — Filament 3 to 4 Migration - Component Fixes
 - `laravel/Modules/Notify/docs/filament-4-migrationes.md` — Filament 3 to 4 Migration - Component Fixes
@@ -4488,11 +4792,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/filament_extension_pattern_analysis.md` — Analisi del Pattern di Estensione per Componenti Filament
 - `laravel/Modules/Notify/docs/filament_extension_rules.md` — Regole di Estensione delle Classi Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/filament_grapesjs.md` — Abilitare il plugin `gjs-blocks-basic` in GrapesJS
 - `laravel/Modules/Notify/docs/filament_naming_conventions.md` — Convenzioni di Naming per Filament
 - `laravel/Modules/Notify/docs/filament_page_naming_convention.md` — Convenzioni di Naming per Pagine Filament
 - `laravel/Modules/Notify/docs/filament_pages.md` — Pagine Filament del Modulo Notify
 - `laravel/Modules/Notify/docs/filament_pages_convention.md` — Convenzioni per le Pagine Filament
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/filament-grapesjs.md` — Abilitare il plugin `gjs-blocks-basic` in GrapesJS
 - `laravel/Modules/Notify/docs/filament_naming_conventions.md` — Convenzioni di Naming per Filament
@@ -4500,6 +4808,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/filament_pages.md` — Pagine Filament del Modulo Notify
 - `laravel/Modules/Notify/docs/filament-pages-convention.md` — Convenzioni per le Pagine Filament
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/filament_resource_pages_architecture.md` — Architettura delle Pagine di Risorse Filament
 - `laravel/Modules/Notify/docs/filament_resources.md` — Risorse Filament del Modulo Notify
 - `laravel/Modules/Notify/docs/filament_template_conventions.md` — Convenzioni per Template Blade di Filament
@@ -4532,6 +4842,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/implementation-pratica.md` — Implementazione Pratica del Modulo Notify
 - `laravel/Modules/Notify/docs/implementation.md` — Guida all'Implementazione dei Template Email
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/implementation_guide.md` — Guida all'Implementazione dei Template Email
 - `laravel/Modules/Notify/docs/implementazione-pratica.md` — Implementazione Pratica del Modulo Notify
 - `laravel/Modules/Notify/docs/implementazione_pratica.md` — Implementazione Pratica del Modulo Notify
@@ -4547,6 +4860,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/improvements-roadmap.md` — Notify Module - Improvements Roadmap
 - `laravel/Modules/Notify/docs/improvements.md` — Notify Module - Improvements Roadmap
 - `laravel/Modules/Notify/docs/inbound-keting-strategy.md` — Strategia Inbound Marketing - TechPlanner
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/implementation-guide.md` — Guida all'Implementazione dei Template Email
 - `laravel/Modules/Notify/docs/implementazione-pratica.md` — Implementazione Pratica del Modulo Notify
@@ -4557,14 +4871,20 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/improvements.md` — Notify Module - Improvements Roadmap
 - `laravel/Modules/Notify/docs/inbound-keting-strategy.md` — Strategia Inbound Marketing - App
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/index-1.md` — Notify Module Documentation
 - `laravel/Modules/Notify/docs/index-conflict.md` — Notify Module Documentation
 - `laravel/Modules/Notify/docs/index.md` — Notify Module Documentation
 - `laravel/Modules/Notify/docs/inheritance-conventions.md` — Convenzioni di Ereditarietà
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/inheritance_conventions.md` — Convenzioni di Ereditarietà
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/inheritance_conventions.md` — Convenzioni di Ereditarietà
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/inheritance-conventions.md` — Convenzioni di Ereditarietà
 - `laravel/Modules/Notify/docs/integrations/README.md` — Integrazioni
 - `laravel/Modules/Notify/docs/integrations/readme.md` — Integrazioni
@@ -4614,6 +4934,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail-templates/email-templates-guide.md` — Guida ai Template Email Responsive
 - `laravel/Modules/Notify/docs/mail-templates/email-templates-update.md` — Email Templates Update Guide
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/mail-templates/email_best_practices.md` — Best Practices per Email Transazionali
 - `laravel/Modules/Notify/docs/mail-templates/email_layouts_best_practices.md` — Email Layouts Best Practices
 - `laravel/Modules/Notify/docs/mail-templates/email_templates_best_practices.md` — Best Practices per Template Email
@@ -4623,6 +4946,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail-templates/email_templates_best_practices.md` — Best Practices per Template Email
 - `laravel/Modules/Notify/docs/mail-templates/email_templates_guide.md` — Guida ai Template Email Responsive
 - `laravel/Modules/Notify/docs/mail-templates/email_templates_update.md` — Email Templates Update Guide
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/mail-templates/email-best-practices.md` — Best Practices per Email Transazionali
 - `laravel/Modules/Notify/docs/mail-templates/email_layouts_best_practices.md` — Email Layouts Best Practices
@@ -4630,6 +4954,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail-templates/email_templates_guide.md` — Guida ai Template Email Responsive
 - `laravel/Modules/Notify/docs/mail-templates/email-templates-update.md` — Email Templates Update Guide
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/mail-templates/filament-slug-generation-1.md` — Generazione di Slug in Filament
 - `laravel/Modules/Notify/docs/mail-templates/filament-slug-generation.md` — Generazione di Slug in Filament
 - `laravel/Modules/Notify/docs/mail-templates/filament-ui-enhancements-1.md` — Miglioramenti UI/UX per MailTemplateResource
@@ -4647,6 +4973,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail-templates/json_migration_fixes.md` — Correzioni per le Migrazioni JSON in Laravel
 - `laravel/Modules/Notify/docs/mail-templates/layout-structure.md` — Struttura Layout Email
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/mail-templates/layout_structure.md` — Struttura Layout Email
 - `laravel/Modules/Notify/docs/mail-templates/mailpace-templates-analysis.md` — Analisi Mailpace Templates
 - `laravel/Modules/Notify/docs/mail-templates/mailpace-templates-integration.md` — Integrazione MailPace Templates
@@ -4670,6 +4999,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail-templates/model-mail-template-changes.md` — Modifiche Tecniche al Modello MailTemplate
 - `laravel/Modules/Notify/docs/mail-templates/model-slug-implementation.md` — Implementazione del Campo `slug` nel Modello MailTemplate
 - `laravel/Modules/Notify/docs/mail-templates/model_mail_template_changes.md` — Modifiche Tecniche al Modello MailTemplate
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/mail-templates/layout-structure.md` — Struttura Layout Email
 - `laravel/Modules/Notify/docs/mail-templates/mailpace-templates-analysis.md` — Analisi Mailpace Templates
@@ -4684,6 +5014,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail-templates/model-slug-implementation.md` — Implementazione del Campo `slug` nel Modello MailTemplate
 - `laravel/Modules/Notify/docs/mail-templates/model-mail-template-changes.md` — Modifiche Tecniche al Modello MailTemplate
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/mail-templates/model_slug_implementation.md` — Implementazione del Campo `slug` nel Modello MailTemplate
 - `laravel/Modules/Notify/docs/mail-templates/params-badges-feature.md` — Visualizzazione Parametri come Badge - Mail Templates
 - `laravel/Modules/Notify/docs/mail-templates/resource-slug-implementation.md` — Implementazione del Campo `slug` in MailTemplateResource
@@ -4695,14 +5027,19 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail-templates/spatie-database-mail-templates.md` — Spatie Laravel Database Mail Templates
 - `laravel/Modules/Notify/docs/mail-templates/spatie-mail-templates-structure.md` — Spatie Mail Templates: Struttura Corretta
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/mail-templates/spatie_mail_templates_structure.md` — Spatie Mail Templates: Struttura Corretta
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/mail-templates/spatie_mail_templates_structure.md` — Spatie Mail Templates: Struttura Corretta
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/mail-templates/spatie-mail-templates-structure.md` — Spatie Mail Templates: Struttura Corretta
 - `laravel/Modules/Notify/docs/mail-templates/st-slug-generation.md` — Generazione Intelligente di Slug in Filament
 - `laravel/Modules/Notify/docs/mail-templates/template-content-examples.md` — Esempi di Contenuto per Template Email
 - `laravel/Modules/Notify/docs/mail-templates/template-content-more-examples.md` — Esempi Aggiuntivi di Contenuto per Template Email
 - `laravel/Modules/Notify/docs/mail-templates/template-examples.md` — Esempi di Template Email
+<<<<<<< HEAD
 <<<<<<< HEAD
 - `laravel/Modules/Notify/docs/mail-templates/template_content_examples.md` — Esempi di Contenuto per Template Email
 - `laravel/Modules/Notify/docs/mail-templates/template_content_more_examples.md` — Esempi Aggiuntivi di Contenuto per Template Email
@@ -4712,6 +5049,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail-templates/template_content_more_examples.md` — Esempi Aggiuntivi di Contenuto per Template Email
 - `laravel/Modules/Notify/docs/mail-templates/template-examples.md` — Esempi di Template Email
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/mail-templates/template_content_examples.md` — Esempi di Contenuto per Template Email
+- `laravel/Modules/Notify/docs/mail-templates/template_content_more_examples.md` — Esempi Aggiuntivi di Contenuto per Template Email
+- `laravel/Modules/Notify/docs/mail-templates/template_examples.md` — Esempi di Template Email
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/mail-templates/title-with-slug-analysis-1.md` — Analisi del Pacchetto Filament Title With Slug
 - `laravel/Modules/Notify/docs/mail-templates/title-with-slug-analysis.md` — Analisi del Pacchetto Filament Title With Slug
 - `laravel/Modules/Notify/docs/mail-templates/title-with-slug-component.md` — Analisi del Componente TitleWithSlugInput per Filament
@@ -4725,6 +5067,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail-templates-structure.md` — Struttura Template Email
 - `laravel/Modules/Notify/docs/mail-templates.md` — Mail Templates in Notify Module
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/mail_layouts.md` — Layout delle Email
 - `laravel/Modules/Notify/docs/mail_layouts_guide.md` — Guida ai Layout Email nel Modulo Notify
 - `laravel/Modules/Notify/docs/mail_template_migration_guide.md` — Guida alla Migrazione di MailTemplate
@@ -4740,6 +5085,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail_template_slug_proposal.md` — Proposta: Implementazione Campo Slug nei Template Email
 - `laravel/Modules/Notify/docs/mail_template_ui_improvements.md` — Miglioramenti UI/UX per MailTemplateResource
 - `laravel/Modules/Notify/docs/mail_templates.md` — Mail Templates in Notify Module
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/mail-layouts.md` — Layout delle Email
 - `laravel/Modules/Notify/docs/mail_layouts_guide.md` — Guida ai Layout Email nel Modulo Notify
@@ -4750,6 +5096,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mail_template_ui_improvements.md` — Miglioramenti UI/UX per MailTemplateResource
 - `laravel/Modules/Notify/docs/mail-templates.md` — Mail Templates in Notify Module
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/mail_templates_structure.md` — Struttura Template Email
 - `laravel/Modules/Notify/docs/maintenance.md` — Manutenzione del Modulo Notify
 - `laravel/Modules/Notify/docs/markdown-linking-conventions-1.md` — Convenzioni per i Collegamenti nei File Markdown
@@ -4758,9 +5106,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/mcp-configuration.md` — MCP Server Configuration - Notify Module
 - `laravel/Modules/Notify/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Notify
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Notify
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Notify
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Notify
 - `laravel/Modules/Notify/docs/messaging/sms.md` — SMS Integration
 - `laravel/Modules/Notify/docs/messaging/telegram.md` — Telegram Bot Integration
@@ -4774,9 +5126,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/migration.md` — Regole per le Migrazioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/migration_changes.md` — Modifiche alla Migrazione Mail Templates
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/migration_rules.md` — Regole per le Migrazioni nel Modulo Notify
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/migration_rules.md` — Regole per le Migrazioni nel Modulo Notify
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/migration-rules.md` — Regole per le Migrazioni nel Modulo Notify
 - `laravel/Modules/Notify/docs/migrations-changelog.md` — Changelog Migrazioni Notify Module
 - `laravel/Modules/Notify/docs/migrations.md` — Database Migrations
@@ -4844,6 +5200,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/notification-system.md` — Notification System
 - `laravel/Modules/Notify/docs/notification-templates.md` — Template delle Notifiche
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/notification_behavior.md` — Notification System Behavior
 - `laravel/Modules/Notify/docs/notification_channels_implementation.md` — Implementazione dei Canali di Notifica
 - `laravel/Modules/Notify/docs/notification_errors.md` — Errori Comuni nelle Notifiche
@@ -4852,16 +5209,26 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/notification_channels_implementation.md` — Implementazione dei Canali di Notifica
 - `laravel/Modules/Notify/docs/notification-errors.md` — Errori Comuni nelle Notifiche
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/notification_behavior.md` — Notification System Behavior
+- `laravel/Modules/Notify/docs/notification_channels_implementation.md` — Implementazione dei Canali di Notifica
+- `laravel/Modules/Notify/docs/notification_errors.md` — Errori Comuni nelle Notifiche
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/notification_providers_guide.md` — Guida Completa ai Provider di Notifiche
 - `laravel/Modules/Notify/docs/notification_templates.md` — Template delle Notifiche
 - `laravel/Modules/Notify/docs/notifications/README.md` — Notifiche
 - `laravel/Modules/Notify/docs/notifications/channels/sms-channel.md` — `SmsChannel`
 - `laravel/Modules/Notify/docs/notifications/channels/whatsapp-channel.md` — `WhatsAppChannel`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/notifications/errori-comuni-da-evitare.md` — Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
 - `laravel/Modules/Notify/docs/notifications/errori_comuni_da_evitare.md` — Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/notifications/errori-comuni-da-evitare.md` — Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
+- `laravel/Modules/Notify/docs/notifications/errori_comuni_da_evitare.md` — Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/notifications/errori-comuni-da-evitare.md` — Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
 - `laravel/Modules/Notify/docs/notifications/errori_comuni_da_evitare.md` — Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
 - `laravel/Modules/Notify/docs/notifications/index.md` — Indice Documentazione Notifiche
@@ -4948,11 +5315,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/phpstan.md` — PHPStan Roadmap - Notify Module
 - `laravel/Modules/Notify/docs/phpstan_fixes.md` — PHPStan Fixes - Modulo Notify
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/phpstan_fixes_critical.md` — Correzioni PHPStan Critiche - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan_fixes_implementation.md` — Implementazione Correzioni PHPStan - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan_level10_fixes.md` — PHPStan Level 10 Fixes - Notify Module
 - `laravel/Modules/Notify/docs/phpstan_usage.md` — Utilizzo di PHPStan nel Progetto <nome progetto>
 - `laravel/Modules/Notify/docs/phpstan_usage_root_symlink.md` — phpstan_usage_root_symlink
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/phpstan-fixes-critical.md` — Correzioni PHPStan Critiche - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstan_fixes_implementation.md` — Implementazione Correzioni PHPStan - Modulo Notify
@@ -4960,6 +5331,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/phpstan-usage.md` — Utilizzo di PHPStan nel Progetto <nome progetto>
 - `laravel/Modules/Notify/docs/phpstan-usage-root-symlink.md` — phpstan_usage_root_symlink
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/phpstanes-critical.md` — Correzioni PHPStan Critiche - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstanes-implementation.md` — Implementazione Correzioni PHPStan - Modulo Notify
 - `laravel/Modules/Notify/docs/phpstanes.md` — 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
@@ -4982,10 +5355,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/queueable-action.md` — Spatie Laravel Queueable Action
 - `laravel/Modules/Notify/docs/queueable-actions.md` — Queueable Actions con Spatie in Notify
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/queueable_action.md` — Spatie Laravel Queueable Action
 - `laravel/Modules/Notify/docs/queueable_actions.md` — Queueable Actions con Spatie in Notify
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/queueable_action.md` — Spatie Laravel Queueable Action
+- `laravel/Modules/Notify/docs/queueable_actions.md` — Queueable Actions con Spatie in Notify
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/queueable-action.md` — Spatie Laravel Queueable Action
 - `laravel/Modules/Notify/docs/queueable-actions.md` — Queueable Actions con Spatie in Notify
 - `laravel/Modules/Notify/docs/readme.md` — 🔔 **Notify Module** - Sistema Avanzato di Comunicazione
@@ -5034,9 +5412,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/rules.md` — Regole per lo Sviluppo
 - `laravel/Modules/Notify/docs/schema-conventions.md` — Schema Conventions in Notify Module
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/schema_conventions.md` — Schema Conventions in Notify Module
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/schema_conventions.md` — Schema Conventions in Notify Module
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/schema-conventions.md` — Schema Conventions in Notify Module
 - `laravel/Modules/Notify/docs/seasonal-email-system-implementation-report.md` — Report di Revisione Sistema Email Stagionali - Dicembre 2025
 - `laravel/Modules/Notify/docs/seasonal-email-system-implementation.md` — Report di Revisione Sistema Email Stagionali - Dicembre 2025
@@ -5046,16 +5428,22 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/seasonal-email-zen.md` — The Zen of Seasonal Emails
 - `laravel/Modules/Notify/docs/seasonal_email_templates_report.md` — Seasonal Email Templates Implementation Report
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/seasonal_email_zen.md` — The Zen of Seasonal Emails
 - `laravel/Modules/Notify/docs/security-analysis.md` — Analisi della Sicurezza
 - `laravel/Modules/Notify/docs/security.md` — Analisi della Sicurezza
 - `laravel/Modules/Notify/docs/security_analysis.md` — Analisi della Sicurezza
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/seasonal-email-zen.md` — The Zen of Seasonal Emails
 - `laravel/Modules/Notify/docs/security-analysis.md` — Analisi della Sicurezza
 - `laravel/Modules/Notify/docs/security.md` — Analisi della Sicurezza
 - `laravel/Modules/Notify/docs/security-analysis.md` — Analisi della Sicurezza
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/send-email-fix.md` — Guida alla Correzione di SendEmail.php
 - `laravel/Modules/Notify/docs/send-email-translation-fix-1.md` — Fix Traduzioni File send_email.php - Modulo Notify
 - `laravel/Modules/Notify/docs/send-email-translation-fix.md` — Fix Traduzioni File send_email.php - Modulo Notify
@@ -5072,9 +5460,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` — Miglioramento File Traduzione send_email.php
 - `laravel/Modules/Notify/docs/sendemail-troubleshooting.md` — Troubleshooting SendEmail
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/sendemail_troubleshooting.md` — Troubleshooting SendEmail
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/sendemail_troubleshooting.md` — Troubleshooting SendEmail
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/sendemail-troubleshooting.md` — Troubleshooting SendEmail
 - `laravel/Modules/Notify/docs/service-provider-xotbase.md` — XotBaseServiceProvider: Analisi, Regole e Best Practice
 - `laravel/Modules/Notify/docs/service-provider.md` — Service Provider del Modulo Notify
@@ -5085,9 +5477,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/slug-solutions-analysis.md` — Analisi Soluzioni per Slug in Filament
 - `laravel/Modules/Notify/docs/slug-solutions.md` — Analisi Soluzioni per Slug in Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/slug_solutions_analysis.md` — Analisi Soluzioni per Slug in Filament
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/slug_solutions_analysis.md` — Analisi Soluzioni per Slug in Filament
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/slug-solutions-analysis.md` — Analisi Soluzioni per Slug in Filament
 - `laravel/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md` — SmsFactorData Class Documentation
 - `laravel/Modules/Notify/docs/sms-action-factory-analysis.md` — Analisi: Sostituzione Match con Formula nel SmsActionFactory
@@ -5123,6 +5519,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/sms-troubleshooting.md` — Troubleshooting SMS
 - `laravel/Modules/Notify/docs/sms.md` — sms
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/sms_action_factory_analysis.md` — Analisi: Sostituzione Match con Formula nel SmsActionFactory
 - `laravel/Modules/Notify/docs/sms_action_factory_resolution.md` — Risoluzione dinamica vs match esplicito in SmsActionFactory
 - `laravel/Modules/Notify/docs/sms_actions.md` — Azioni SMS
@@ -5143,6 +5542,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/sms_driver_enum_translations.md` — Traduzioni SmsDriverEnum - Modulo Notify
 - `laravel/Modules/Notify/docs/sms_driver_selection_analysis.md` — Analisi: Spostamento Logica Selezione Driver in SmsData
 - `laravel/Modules/Notify/docs/sms_driver_selection_specific_analysis.md` — Analisi Specifica: Validazione e Selezione Driver in SmsData
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/sms-action-factory-analysis.md` — Analisi: Sostituzione Match con Formula nel SmsActionFactory
 - `laravel/Modules/Notify/docs/sms-action-factory-resolution.md` — Risoluzione dinamica vs match esplicito in SmsActionFactory
@@ -5156,14 +5556,20 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/sms-driver-selection-analysis.md` — Analisi: Spostamento Logica Selezione Driver in SmsData
 - `laravel/Modules/Notify/docs/sms-driver-selection-specific-analysis.md` — Analisi Specifica: Validazione e Selezione Driver in SmsData
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/sms_factor_data_implementation.md` — SmsFactorData Implementation Summary
 - `laravel/Modules/Notify/docs/sms_global_vs_specific_params.md` — Parametri a Livello di Root vs Specifici per Provider nella Configurazione SMS
 - `laravel/Modules/Notify/docs/sms_implementation.md` — Implementazione SMS in Laravel
 - `laravel/Modules/Notify/docs/sms_netfun_channel.md` — Integrazione Netfun SMS Channel in Laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/sms_provider_architecture.md` — Architettura dei Provider SMS
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/sms_provider_architecture.md` — Architettura dei Provider SMS
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/sms-provider-architecture.md` — Architettura dei Provider SMS
 - `laravel/Modules/Notify/docs/sms_provider_configuration.md` — Configurazione Corretta dei Provider SMS
 - `laravel/Modules/Notify/docs/sms_provider_configuration_best_practices.md` — Best Practices per la Configurazione dei Provider SMS
@@ -5174,9 +5580,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/smtp-testing-analysis.md` — Analisi del Sistema di Test SMTP
 - `laravel/Modules/Notify/docs/smtp-testing.md` — Analisi del Sistema di Test SMTP
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/smtp_testing_analysis.md` — Analisi del Sistema di Test SMTP
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/smtp_testing_analysis.md` — Analisi del Sistema di Test SMTP
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/smtp-testing-analysis.md` — Analisi del Sistema di Test SMTP
 - `laravel/Modules/Notify/docs/spatie-database-mail-templates-deep-dive.md` — Spatie Laravel Database Mail Templates - Analisi Approfondita
 - `laravel/Modules/Notify/docs/spatie-database-mail-templates.md` — Integrazione con Spatie Laravel Database Mail Templates
@@ -5187,11 +5597,17 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/spatie-email-usage.md` — Guida all'utilizzo di SpatieEmail
 - `laravel/Modules/Notify/docs/spatie-translatable-integration.md` — Integrazione Spatie Translatable nel Modulo Notify
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/spatie_database_mail_templates.md` — Integrazione con Spatie Laravel Database Mail Templates
 - `laravel/Modules/Notify/docs/spatie_email_slug_proposal.md` — Proposta: Aggiunta Slug a SpatieEmail e MailTemplate
 - `laravel/Modules/Notify/docs/spatie_email_usage_guide.md` — Guida all'utilizzo di SpatieEmail
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/spatie_database_mail_templates.md` — Integrazione con Spatie Laravel Database Mail Templates
+- `laravel/Modules/Notify/docs/spatie_email_slug_proposal.md` — Proposta: Aggiunta Slug a SpatieEmail e MailTemplate
+- `laravel/Modules/Notify/docs/spatie_email_usage_guide.md` — Guida all'utilizzo di SpatieEmail
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/spatie-database-mail-templates.md` — Integrazione con Spatie Laravel Database Mail Templates
 - `laravel/Modules/Notify/docs/spatie-email-slug-proposal.md` — Proposta: Aggiunta Slug a SpatieEmail e MailTemplate
 - `laravel/Modules/Notify/docs/spatie-email-usage-guide.md` — Guida all'utilizzo di SpatieEmail
@@ -5220,9 +5636,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/tailwind_best_practices.md` — Best Practices Implementazione Tailwind CSS nel Modulo Notify
 - `laravel/Modules/Notify/docs/tailwind_blade_components.md` — Esempi Pratici: Blade Components Tailwind per <nome progetto>
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/tailwind_css_webcrunch.md` — Tailwind CSS: Approfondimento Collezione Webcrunch
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/tailwind_css_webcrunch.md` — Tailwind CSS: Approfondimento Collezione Webcrunch
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/tailwind-css-webcrunch.md` — Tailwind CSS: Approfondimento Collezione Webcrunch
 - `laravel/Modules/Notify/docs/tailwind_css_webcrunch_approfondimento.md` — Approfondimento Completo: Tailwind CSS su Webcrunch
 - `laravel/Modules/Notify/docs/tailwind_implementation.md` — Implementazione Tailwind CSS nel Modulo Notify
@@ -5308,15 +5728,20 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/translations.md` — Traduzioni del Modulo Notify
 - `laravel/Modules/Notify/docs/translations_implementation_status.md` — Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/translations_structure_template.md` — Template di Struttura per le Traduzioni
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/translations_structure_template.md` — Template di Struttura per le Traduzioni
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/translations-structure-template.md` — Template di Struttura per le Traduzioni
 - `laravel/Modules/Notify/docs/troubleshooting.md` — Troubleshooting Notification Issues in Laravel Modules
 - `laravel/Modules/Notify/docs/tutorials.md` — tutorials
 - `laravel/Modules/Notify/docs/valori.md` — Politica, Filosofia, Religione, Etica, Zen – Modulo Notify
 - `laravel/Modules/Notify/docs/verification-report.md` — Verification Report - Compliance and XotBase Refactoring
 - `laravel/Modules/Notify/docs/verification.md` — Verification Report - Compliance and XotBase Refactoring
+<<<<<<< HEAD
 <<<<<<< HEAD
 - `laravel/Modules/Notify/docs/verification_report.md` — Verification Report - Compliance and XotBase Refactoring
 - `laravel/Modules/Notify/docs/webcrunch-tailwind-collection.md` — Analisi collezione Tailwind CSS (Webcrunch)
@@ -5326,6 +5751,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/webcrunch-tailwind-collection.md` — Analisi collezione Tailwind CSS (Webcrunch)
 - `laravel/Modules/Notify/docs/webcrunch-tailwind-collection.md` — Analisi collezione Tailwind CSS (Webcrunch)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/verification_report.md` — Verification Report - Compliance and XotBase Refactoring
+- `laravel/Modules/Notify/docs/webcrunch-tailwind-collection.md` — Analisi collezione Tailwind CSS (Webcrunch)
+- `laravel/Modules/Notify/docs/webcrunch_tailwind_collection.md` — Analisi collezione Tailwind CSS (Webcrunch)
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/whatsapp-channel-1.md` — Implementazione Canale WhatsApp
 - `laravel/Modules/Notify/docs/whatsapp-channel.md` — Implementazione Canale WhatsApp
 - `laravel/Modules/Notify/docs/whatsapp-integration-1.md` — Integrazione WhatsApp
@@ -5337,9 +5767,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/whatsapp_channel.md` — Implementazione Canale WhatsApp
 - `laravel/Modules/Notify/docs/whatsapp_integration.md` — Integrazione WhatsApp
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/whatsapp_provider_architecture.md` — Architettura WhatsApp Provider per SaluteOra
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Notify/docs/whatsapp_provider_architecture.md` — Architettura WhatsApp Provider per SaluteOra
+>>>>>>> a988596b (first)
 - `laravel/Modules/Notify/docs/whatsapp_provider_architecture.md` — Architettura WhatsApp Provider per <nome progetto>
 - `laravel/Modules/Notify/docs/whatsapp_sending_standard.md` — Standard per Invio Messaggi WhatsApp nel Modulo Notify
 - `laravel/Modules/Notify/docs/xot-base-classes-analysis.md` — Analisi: Utilizzo delle Classi Base Xot
@@ -5656,9 +6090,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Tenant/README.md` — Tenant Module
 - `laravel/Modules/Tenant/docs/00-index.md` — 📚 **Indice Documentazione Modulo Tenant**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Tenant/docs/CHANGELOG.md` — Changelog
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Tenant/docs/CHANGELOG.md` — Changelog
+>>>>>>> a988596b (first)
 - `laravel/Modules/Tenant/docs/changelog.md` — Changelog
 - `laravel/Modules/Tenant/docs/README.md` — 🏢 **Tenant Module** - Multi-Tenancy & Isolamento Dati
 - `laravel/Modules/Tenant/docs/_integration/links.md` — links
@@ -5869,9 +6307,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/UI/README.md` — UI Module
 - `laravel/Modules/UI/docs/00-index.md` — 📚 **Indice Documentazione Modulo UI**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/UI/docs/CHANGELOG.md` — Changelog
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/UI/docs/CHANGELOG.md` — Changelog
+>>>>>>> a988596b (first)
 - `laravel/Modules/UI/docs/changelog.md` — Changelog
 - `laravel/Modules/UI/docs/README.md` — 🎨 UI Module - Componenti e Interfaccia Utente
 - `laravel/Modules/UI/docs/_integration/api.md` — api
@@ -6365,9 +6807,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/BUSINESS_LOGIC_DEEP_DIVE.md` — User Module - Business Logic Deep Dive
 - `laravel/Modules/User/docs/CODE_QUALITY_ANALYSIS.md` — Code Quality Analysis - User Module
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/INDEX.md` — User Module Documentation
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/User/docs/INDEX.md` — User Module Documentation
+>>>>>>> a988596b (first)
 - `laravel/Modules/User/docs/index.md` — User Module Documentation
 - `laravel/Modules/User/docs/QUERY_OPTIMIZATION_ANALYSIS.md` — User Module - Query Optimization Analysis
 - `laravel/Modules/User/docs/README.md` — Module Documentation
@@ -6444,9 +6890,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/auth_widgets_view_namespaces.md` — Widget di Autenticazione: Namespace delle View
 - `laravel/Modules/User/docs/authentication-troubleshooting.md` — Debug Autenticazione - Login Widget
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/authentication.md` — Autenticazione in Predict
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/User/docs/authentication.md` — Autenticazione in Predict
+>>>>>>> a988596b (first)
 - `laravel/Modules/User/docs/authentication.md` — Autenticazione in Forecast
 - `laravel/Modules/User/docs/avatar-implementation-1.md` — Implementazione degli Avatar
 - `laravel/Modules/User/docs/avatar-implementation.md` — Implementazione degli Avatar
@@ -6455,10 +6905,14 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/baseuser-dry-violation-analysis.md` — BaseUser - Analisi Violazione Principio DRY
 - `laravel/Modules/User/docs/baseuser-refactoring-completed-.md` — BaseUser Refactoring - Completato
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/baseuser-refactoring-completed-2025-10-15.md` — BaseUser Refactoring - Completato
 =======
 - `laravel/Modules/User/docs/baseuser-refactoring-completed.md` — BaseUser Refactoring - Completato
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/User/docs/baseuser-refactoring-completed-2025-10-15.md` — BaseUser Refactoring - Completato
+>>>>>>> a988596b (first)
 - `laravel/Modules/User/docs/baseuser-refactoring-completed.md` — BaseUser Refactoring - Completato
 - `laravel/Modules/User/docs/baseuser-refactoringd.md` — BaseUser Refactoring - Completato
 - `laravel/Modules/User/docs/baseuser-spatie-duplicates-analysis.md` — Analisi Metodi Duplicati in BaseUser.php
@@ -6498,10 +6952,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/best-practices/translation-keys-rules.md` — Regole per le Chiavi di Traduzione
 - `laravel/Modules/User/docs/best-practices/translation-keys.md` — Regole per le Chiavi di Traduzione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/best-practices/widget-translation-rules.md` — Widget Translation Rules - FixCity Project
 - `laravel/Modules/User/docs/best-practices/widget-translation.md` — Widget Translation Rules - FixCity Project
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/User/docs/best-practices/widget-translation-rules.md` — Widget Translation Rules - FixCity Project
+- `laravel/Modules/User/docs/best-practices/widget-translation.md` — Widget Translation Rules - FixCity Project
+>>>>>>> a988596b (first)
 - `laravel/Modules/User/docs/best-practices/widget-translation-rules.md` — Widget Translation Rules - Notify Project
 - `laravel/Modules/User/docs/best-practices/widget-translation.md` — Widget Translation Rules - Notify Project
 - `laravel/Modules/User/docs/best-practices.md` — Best Practices Migrazioni XotBaseMigration
@@ -6628,10 +7087,14 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/dry-kiss-analysis-.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-1.md` — 🐄✨ DRY & KISS Analysis - Modulo User
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/dry-kiss-analysis-2025-10-15.md` — DRY & KISS Analysis - Modulo User
 =======
 - `laravel/Modules/User/docs/dry-kiss-analysis.md` — DRY & KISS Analysis - Modulo User
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/User/docs/dry-kiss-analysis-2025-10-15.md` — DRY & KISS Analysis - Modulo User
+>>>>>>> a988596b (first)
 - `laravel/Modules/User/docs/dry-kiss-analysis-conflict-018b09.md` — DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis-conflict.md` — 🐄✨ DRY & KISS Analysis - Modulo User
 - `laravel/Modules/User/docs/dry-kiss-analysis.md` — 🐄✨ DRY & KISS Analysis - Modulo User
@@ -6805,9 +7268,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/lang-link-1.md` — Collegamento alle Traduzioni del Modulo User
 - `laravel/Modules/User/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo User
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/lang_link.md` — Collegamento alle Traduzioni del Modulo User
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/User/docs/lang_link.md` — Collegamento alle Traduzioni del Modulo User
+>>>>>>> a988596b (first)
 - `laravel/Modules/User/docs/lang-link.md` — Collegamento alle Traduzioni del Modulo User
 - `laravel/Modules/User/docs/laraxot-migration-philosophy.md` — Filosofia, Religione e Politica di Laraxot: Regole di Migrazione
 - `laravel/Modules/User/docs/laraxot-migration-policy.md` — Laraxot Migration Policy
@@ -6903,9 +7370,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo User
 - `laravel/Modules/User/docs/mcp_integration.md` — Integrazione dei Server MCP con il Modulo User
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo User
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/User/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo User
+>>>>>>> a988596b (first)
 - `laravel/Modules/User/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo User
 - `laravel/Modules/User/docs/mcpatabase-tools.md` — MCP (Management Control Panel) Tools for Database Analysis
 - `laravel/Modules/User/docs/membership-autoincrement-fix.md` — Fix: Duplicate Entry Error in team_user Table - Conversione UUID a Autoincrement
@@ -7466,10 +7937,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/widget-rendering.md` — 🔍 Analisi Rendering LoginWidget - Docs.Italia.it Style
 - `laravel/Modules/User/docs/widget-translation-rules-1.md` — Widget Translation Rules - <nome progetto> Project
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/widget-translation-rules.md` — Widget Translation Rules - FixCity Project
 - `laravel/Modules/User/docs/widget-translation.md` — Widget Translation Rules - FixCity Project
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/User/docs/widget-translation-rules.md` — Widget Translation Rules - FixCity Project
+- `laravel/Modules/User/docs/widget-translation.md` — Widget Translation Rules - FixCity Project
+>>>>>>> a988596b (first)
 - `laravel/Modules/User/docs/widget-translation-rules.md` — Widget Translation Rules - Notify Project
 - `laravel/Modules/User/docs/widget-translation.md` — Widget Translation Rules - Notify Project
 - `laravel/Modules/User/docs/widget_rendering_analysis.md` — 🔍 Analisi Rendering LoginWidget - Docs.Italia.it Style
@@ -7659,9 +8135,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/01-indexetails.md` — Xot Module Documentation Index
 - `laravel/Modules/Xot/docs/CHANGELOG.MD` — Changelog - Modulo Xot
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/CHANGELOG.md` — Changelog - Modulo Xot
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Xot/docs/CHANGELOG.md` — Changelog - Modulo Xot
+>>>>>>> a988596b (first)
 - `laravel/Modules/Xot/docs/changelog.md` — Changelog - Modulo Xot
 - `laravel/Modules/Xot/docs/CODE_QUALITY_STANDARDS.md` — Code Quality Standards - Xot Module
 - `laravel/Modules/Xot/docs/COMMON_ANTI_PATTERNS.md` — Common Anti-Patterns - Xot Module
@@ -7966,9 +8446,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/bugfix-session.md` — Bugfix Session - 4 Gennaio 2025
 - `laravel/Modules/Xot/docs/bugfix_carbon_timezone_error.md` — bugfix_carbon_timezone_error
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/business-logic-understanding.md` — 🧠 Comprensione Business Logic dei Moduli TechPlanner
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Xot/docs/business-logic-understanding.md` — 🧠 Comprensione Business Logic dei Moduli TechPlanner
+>>>>>>> a988596b (first)
 - `laravel/Modules/Xot/docs/business-logic-understanding.md` — 🧠 Comprensione Business Logic dei Moduli App
 - `laravel/Modules/Xot/docs/cache-configuration.md` — cache-configuration
 - `laravel/Modules/Xot/docs/cache-path.md` — Errore Cache Path Mancante
@@ -8089,9 +8573,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/conflict-resolution-fixes.md` — Risoluzione Conflitti Git - Modulo Xot
 - `laravel/Modules/Xot/docs/conflict-resolution-january.md` — Conflict Resolution January 2026
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/conflict-resolution-report-1.md` — Report Risoluzione Conflitti Git - FixCity Project
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Xot/docs/conflict-resolution-report-1.md` — Report Risoluzione Conflitti Git - FixCity Project
+>>>>>>> a988596b (first)
 - `laravel/Modules/Xot/docs/conflict-resolution-report-1.md` — Report Risoluzione Conflitti Git - Notify Project
 - `laravel/Modules/Xot/docs/conflict-resolution-report.md` — Report Risoluzione Conflitti Git - Develop Branch
 - `laravel/Modules/Xot/docs/conflict-resolution-serviceprovider.md` — Risoluzione Conflitto: XotBaseServiceProvider
@@ -8779,10 +9267,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament-components-methods.md` — Metodi dei Componenti Filament
 - `laravel/Modules/Xot/docs/filament-components.md` — Componenti Filament - Guida di Riferimento
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/filament-composite-contacts-column-analysis.md` — Analisi e Implementazione Colonna Composita "Contatti" - TechPlanner
 - `laravel/Modules/Xot/docs/filament-composite-contacts-column.md` — Analisi e Implementazione Colonna Composita "Contatti" - TechPlanner
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Xot/docs/filament-composite-contacts-column-analysis.md` — Analisi e Implementazione Colonna Composita "Contatti" - TechPlanner
+- `laravel/Modules/Xot/docs/filament-composite-contacts-column.md` — Analisi e Implementazione Colonna Composita "Contatti" - TechPlanner
+>>>>>>> a988596b (first)
 - `laravel/Modules/Xot/docs/filament-composite-contacts-column-analysis.md` — Analisi e Implementazione Colonna Composita "Contatti" - App
 - `laravel/Modules/Xot/docs/filament-composite-contacts-column.md` — Analisi e Implementazione Colonna Composita "Contatti" - App
 - `laravel/Modules/Xot/docs/filament-consolidated.md` — Filament - Guida Completa Consolidata
@@ -8796,9 +9289,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament-extension-rules-complete.md` — Filament Class Extension Rules - Regole Complete
 - `laravel/Modules/Xot/docs/filament-extension-rules-implementation-report.md` — Filament Extension Rules Implementation Report
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules - base_techplanner_fila4_mono
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules - base_techplanner_fila4_mono
+>>>>>>> a988596b (first)
 - `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules - base_ptvx_fila5
 - `laravel/Modules/Xot/docs/filament-extension-violations-fix-plan.md` — Filament Extension Rules - Correzioni Violazioni Critiche
 - `laravel/Modules/Xot/docs/filament-extension-violations-plan.md` — Filament Extension Rules - Correzioni Violazioni Critiche
@@ -9125,6 +9622,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/mcp-commands-deprecation.md` — Deprecazione Comandi MCP e Migrazione Azioni Database
 - `laravel/Modules/Xot/docs/mcp-commandseprecation.md` — Deprecazione Comandi MCP e Migrazione Azioni Database
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/mcp-configuration-optimized.md` — Configurazione MCP Ottimizzata per base_techplanner_fila4_mono
 - `laravel/Modules/Xot/docs/mcp-configuration-ptvx.md` — Configurazione MCP per base_ptvx_fila4_mono
 - `laravel/Modules/Xot/docs/mcp-configuration-techplanner.md` — 🤖 Configurazione MCP per TechPlanner Fila4 Mono
@@ -9133,6 +9631,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/mcp-configuration-ptvx.md` — Configurazione MCP per base_ptvx_fila4_mono
 - `laravel/Modules/Xot/docs/mcp-configuration-laraxot.md` — 🤖 Configurazione MCP per App Fila4 Mono
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Xot/docs/mcp-configuration-optimized.md` — Configurazione MCP Ottimizzata per base_techplanner_fila4_mono
+- `laravel/Modules/Xot/docs/mcp-configuration-ptvx.md` — Configurazione MCP per base_ptvx_fila4_mono
+- `laravel/Modules/Xot/docs/mcp-configuration-techplanner.md` — 🤖 Configurazione MCP per TechPlanner Fila4 Mono
+>>>>>>> a988596b (first)
 - `laravel/Modules/Xot/docs/mcp-configuration-updated.md` — MCP Server Configuration - Xot Module (Updated)
 - `laravel/Modules/Xot/docs/mcp-configuration.md` — MCP Server Configuration - Xot Module
 - `laravel/Modules/Xot/docs/mcp-database-tools.md` — MCP (Management Control Panel) Tools for Database Analysis
@@ -9624,9 +10127,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/project-best-practices.md` — Best Practices Progetto Laraxot PTVX - 2025
 - `laravel/Modules/Xot/docs/project-conventions.md` — Project Conventions and Standards
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/project-overview-comprehensive.md` — 🏗️ TechPlanner Fila4 Mono - Panoramica Completa del Progetto
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Xot/docs/project-overview-comprehensive.md` — 🏗️ TechPlanner Fila4 Mono - Panoramica Completa del Progetto
+>>>>>>> a988596b (first)
 - `laravel/Modules/Xot/docs/project-overview-comprehensive.md` — 🏗️ App Fila4 Mono - Panoramica Completa del Progetto
 - `laravel/Modules/Xot/docs/project-philosophy-religion-politics-zen.md` — Filosofia, Religione, Politica e Zen del Progetto Laravel Pizza
 - `laravel/Modules/Xot/docs/project-religion-politics-zen.md` — Filosofia, Religione, Politica e Zen del Progetto Laravel Pizza
@@ -9801,9 +10308,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/scrape.md` — scrape
 - `laravel/Modules/Xot/docs/scraping.md` — _scraping
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/script-risoluzione-conflitti-conflict.md` — Script di Risoluzione Conflitti Git - FixCity Project
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Xot/docs/script-risoluzione-conflitti-conflict.md` — Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> a988596b (first)
 - `laravel/Modules/Xot/docs/script-risoluzione-conflitti-conflict.md` — Script di Risoluzione Conflitti Git - Notify Project
 - `laravel/Modules/Xot/docs/script-risoluzione-conflitti.md` — 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 - `laravel/Modules/Xot/docs/scrutinizer.md` — scrutinizer
@@ -9973,9 +10484,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/theme-management.md` — Gestione del Tema
 - `laravel/Modules/Xot/docs/theme-testing.md` — Testing del Tema
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/theme-two-implementation-notes.md` — TechPlanner Theme Two - Implementazione Notes
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/Xot/docs/theme-two-implementation-notes.md` — TechPlanner Theme Two - Implementazione Notes
+>>>>>>> a988596b (first)
 - `laravel/Modules/Xot/docs/theme-two-implementation-notes.md` — App Theme Two - Implementazione Notes
 - `laravel/Modules/Xot/docs/theme-vestito-philosophy.md` — Theme System: The "Vestito" (Clothing) Philosophy
 - `laravel/Modules/Xot/docs/theme-vestito.md` — Theme System: The "Vestito" (Clothing) Philosophy
@@ -10153,10 +10668,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/packages/coolsam/panel-modules/README.md` — For each of these commands, the package will ask for the Model and Panel.
 - `laravel/Modules/docs/anti-pattern-question-chart-answers-triple-widget.md` — Anti-Pattern: QuestionChartAnswersTripleChartWidget
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/docs/online-skills-research.md` — Ricerca Online su Skills Utili per Quaeris
 - `laravel/Modules/docs/skills-implementation-guide.md` — Guida all'Implementazione delle Skills per Quaeris
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Modules/docs/online-skills-research.md` — Ricerca Online su Skills Utili per Quaeris
+- `laravel/Modules/docs/skills-implementation-guide.md` — Guida all'Implementazione delle Skills per Quaeris
+>>>>>>> a988596b (first)
 - `laravel/Modules/docs/online-skills-research.md` — Ricerca Online su Skills Utili per App
 - `laravel/Modules/docs/skills-implementation-guide.md` — Guida all'Implementazione delle Skills per App
 - `laravel/Modules/docs/skills-overview.md` — Skills e Agent Capabilities - Panoramica
@@ -10167,9 +10687,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Themes/Zero/README.md` — base_healthcare_app_fila4_mono
 - `laravel/Themes/Zero/docs/00-index.md` — Zero Theme - Documentation Index
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Themes/Zero/docs/CHANGELOG.md` — Changelog
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/Themes/Zero/docs/CHANGELOG.md` — Changelog
+>>>>>>> a988596b (first)
 - `laravel/Themes/Zero/docs/changelog.md` — Changelog
 - `laravel/Themes/Zero/docs/README.md` — Documentazione del Tema Zero
 - `laravel/Themes/Zero/docs/ai-development-guide.md` — AI-Assisted Development Guide - Zero Theme
@@ -10233,6 +10757,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Themes/Zero/docs/themes-system-complete-guide.md` — 🎨 THEMES SYSTEM - IL VESTITO DI LARAXOT
 - `laravel/Themes/Zero/docs/troubleshooting.md` — Zero Theme Troubleshooting Guide
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/docs/00-index.md` — 🏛️ **Quaeris Fila5 Master Documentation Index**
 - `laravel/docs/JPGRAPH_IMPLEMENTATION.md` — 📚 GUIDA JpGraph PDF Generation - COMPLETO IMPLEMENTAZIONE
 - `laravel/docs/README.md` — Testing Documentation Index
@@ -10254,6 +10781,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/complete-project-philosophy.md` — Quaeris - Filosofia Completa del Progetto: Logica, Religione, Politica, Zen
 - `laravel/docs/composer-merge-plugin.md` — Composer Merge Plugin Configuration
 - `laravel/docs/comprehensive-module-analysis-2026.md` — Quaeris Fila5 Mono - Complete Module Analysis & Documentation
+<<<<<<< HEAD
 =======
 - `laravel/docs/00-index.md` — 🏛️ **App Fila5 Master Documentation Index**
 - `laravel/docs/JPGRAPH_IMPLEMENTATION.md` — 📚 GUIDA JpGraph PDF Generation - COMPLETO IMPLEMENTAZIONE
@@ -10267,6 +10795,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/composer-merge-plugin.md` — Composer Merge Plugin Configuration
 - `laravel/docs/comprehensive-module-analysis-2026.md` — App Fila5 Mono - Complete Module Analysis & Documentation
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/docs/config/database-standard-laravel-12.md` — Config Database Standard Laravel 12.x - 2026-01-21
 - `laravel/docs/config/database-standard-summary-2026-01-21.md` — Riepilogo: Database Config Standard Laravel 12.x - 2026-01-21
 - `laravel/docs/config/database-standard-verification-2026-01-21.md` — Verifica: Database Config Standard Laravel 12.x - 2026-01-21
@@ -10282,9 +10812,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/database-testing.md` — Database Testing Rule - MySQL Only with Test Suffix
 - `laravel/docs/database-zen-complete-solution.md` — Database Environment Management - Laraxot Zen Complete Solution
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/docs/deployment/deployment-guide.md` — Deployment del Progetto Quaeris
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/docs/deployment/deployment-guide.md` — Deployment del Progetto Quaeris
+>>>>>>> a988596b (first)
 - `laravel/docs/deployment/deployment-guide.md` — Deployment del Progetto App
 - `laravel/docs/development/workflow.md` — Workflow di Sviluppo
 - `laravel/docs/docs-enhancement-strategy-complete.md` — 📚 Docs Enhancement Strategy - Complete Documentation System
@@ -10300,9 +10834,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/gemini-mcp-recommendations.md` — Recommended MCP Configuration
 - `laravel/docs/git-forward-only-rule.md` — 🔥 REGOLA GIT ASSOLUTA - FORWARD ONLY
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/docs/index.md` — Documentazione del Progetto Quaeris
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/docs/index.md` — Documentazione del Progetto Quaeris
+>>>>>>> a988596b (first)
 - `laravel/docs/index.md` — Documentazione del Progetto App
 - `laravel/docs/laraxot-boost-mcp-guide.md` — 🚀 **Laraxot Boost & MCP Integration Guide**
 - `laravel/docs/laraxot-complete-doctrine.md` — 🏛️ LARAXOT - LA DOTTRINA COMPLETA DEL PROGETTO
@@ -10324,15 +10862,22 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/php-syntax-error-fixing-rules.md` — Regole per la correzione di errori di sintassi in PHP
 - `laravel/docs/phpdoc-annotation-corrections.md` — PHPDoc Annotation Corrections
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/docs/phpstan-analysis-complete-2026-01-30.md` — PHPStan Level 10 Analysis Complete - Quaeris Fila5 Mono
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/docs/phpstan-analysis-complete-2026-01-30.md` — PHPStan Level 10 Analysis Complete - Quaeris Fila5 Mono
+>>>>>>> a988596b (first)
 - `laravel/docs/phpstan-analysis-complete-2026-01-30.md` — PHPStan Level 10 Analysis Complete - App Fila5 Mono
 - `laravel/docs/phpstan-errors-resolution-roadmap.md` — PHPStan Level 10 Errors Resolution Roadmap - All Modules
 - `laravel/docs/phpstan-level-10-cross-module-fixes.md` — PHPStan Level 10 Improvements - Cross-Module Fixes
 - `laravel/docs/phpstan-level-10-improvements.md` — PHPStan Level 10 Improvements - November 2025
 - `laravel/docs/phpstan-minor-modules-roadmap.md` — PHPStan Level 10 Errors Resolution Roadmap - Minor Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - `laravel/docs/phpstan-project-status.md` — PHPStan Project Status - Base Quaeris Fila5 Mono
 - `laravel/docs/phpstan-roadmap-overview.md` — PHPStan Level 10 Compliance Roadmap
 - `laravel/docs/project-master-analysis.md` — Quaeris Fila5 Mono - Analisi Master Completa del Progetto
@@ -10360,6 +10905,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/standards/large-data-processing.md` — Large Data Processing Standards
 - `laravel/docs/standards/security-standards.md` — Standard di Sicurezza per il Progetto Quaeris
 - `laravel/docs/standards/testing-standards.md` — Standard di Testing per il Progetto Quaeris
+<<<<<<< HEAD
 =======
 - `laravel/docs/phpstan-project-status.md` — PHPStan Project Status - Base App Fila5 Mono
 - `laravel/docs/phpstan-roadmap-overview.md` — PHPStan Level 10 Compliance Roadmap
@@ -10376,6 +10922,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/standards/security-standards.md` — Standard di Sicurezza per il Progetto App
 - `laravel/docs/standards/testing-standards.md` — Standard di Testing per il Progetto App
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - `laravel/docs/test-configuration-analysis-2026-01-30.md` — Test Configuration Analysis Report
 - `laravel/docs/testing/autoload-configuration.md` — Autoloading Configuration for Testing
 - `laravel/docs/testing/composer-merge-plugin.md` — Wikimedia Composer Merge Plugin
@@ -10395,9 +10943,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/testing-with-pest.md` — Testing with Pest in Laraxot
 - `laravel/docs/testing-workflow.md` — Testing Implementation Summary
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/docs/testing.md` — Testing nel Progetto Quaeris
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/docs/testing.md` — Testing nel Progetto Quaeris
+>>>>>>> a988596b (first)
 - `laravel/docs/testing.md` — Testing nel Progetto App
 - `laravel/docs/troubleshooting.md` — Troubleshooting Guide
 - `laravel/docs/type-contravariance-fixes.md` — Type Contravariance Fixes

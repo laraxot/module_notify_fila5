@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Notify Module - Product Roadmap
 
 **Module:** Notify  
@@ -104,6 +105,8 @@ To build a **unified notification system** that delivers the right message to th
 
 *Last Updated: March 12, 2026*
 =======
+=======
+>>>>>>> a988596b (first)
 # Notify - Product Roadmap
 
 > Documento vivente. Modulo.
@@ -150,4 +153,7 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **Notify**, che nel pr
 - [Product Strategy](product-strategy.md)
 - [Sprint Planning Meeting](sprint-planning-meeting.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

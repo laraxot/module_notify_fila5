@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎨 Filament Forms & Tables Philosophy
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
 **Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "🎨 Filament Forms & Tables Philosophy"
 type: concept
@@ -28,7 +31,10 @@ related:
 
 **Part of**: [00-index-1.md](00-index-1.md) — AI Agents Coordination  
 **Related**: [03-architecture-zen.md](03-architecture-zen.md) — Architecture
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 ---
 
@@ -136,10 +142,15 @@ Filament is designed to **work with Eloquent**.
 {{-- Manual query in blade --}}
 @php
 <<<<<<< HEAD
+<<<<<<< HEAD
     $items = DB::table('predicts')
 =======
     $items = DB::table('forecasts')
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    $items = DB::table('predicts')
+    $items = DB::table('forecasts')
+>>>>>>> a988596b (first)
         ->where('status', 'active')
         ->orderBy('created_at', 'desc')
         ->paginate(10);
@@ -157,10 +168,15 @@ public function table(Table $table): Table
 {
     return $table
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->query(Predict::query()->where('status', 'active'))
 =======
         ->query(Forecast::query()->where('status', 'active'))
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        ->query(Predict::query()->where('status', 'active'))
+        ->query(Forecast::query()->where('status', 'active'))
+>>>>>>> a988596b (first)
         ->columns([
             TextColumn::make('title')->sortable()->searchable(),
         ])
@@ -372,9 +388,12 @@ Before approving a PR:
 ## 🔗 Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Architecture Zen**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
 - **Front Office Audit**: [05-FRONT-OFFICE-AUDIT.md](05-FRONT-OFFICE-AUDIT.md)
 =======
+=======
+>>>>>>> a988596b (first)
 - **Architecture Zen**: [03-architecture-zen.md](03-architecture-zen.md)
 - **Front Office Audit**: [05-front-office-audit.md](05-front-office-audit.md)
 - **External**: https://filamentphp.com/docs/5.x/tables/overview
@@ -384,7 +403,10 @@ Before approving a PR:
 **Last Updated**: 2026-03-20  
 **Status**: ✅ Mandatory  
 **Enforcement**: PHPStan + Code Review
+<<<<<<< HEAD
 
+=======
+>>>>>>> a988596b (first)
 ---
 
 <!-- Merged from 04-FILAMENT-PHILOSOPHY.md, which collided with this file on case-insensitive filesystems. -->
@@ -729,7 +751,10 @@ Before approving a PR:
 
 - **Architecture Zen**: [03-ARCHITECTURE-ZEN.md](03-architecture-zen.md)
 - **Front Office Audit**: [05-FRONT-OFFICE-AUDIT.md](05-front-office-audit.md)
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - **External**: https://filamentphp.com/docs/5.x/tables/overview
 
 ---

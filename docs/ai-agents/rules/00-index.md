@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔴 CRITICAL RULES - AI Agents
 
 **Path**: `./.agents/docs/rules/00-INDEX.md`  
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "🔴 CRITICAL RULES - AI Agents"
 type: concept
@@ -26,7 +29,10 @@ related:
 # 🔴 CRITICAL RULES - AI Agents
 
 **Path**: `./.agents/docs/rules/00-index-1.md`  
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 **Last Updated**: 2026-03-26  
 **Status**: ✅ ALWAYS ACTIVE  
 **Priority**: BLOCKER (violation = STOP immediately)
@@ -36,10 +42,15 @@ related:
 ## 🎯 Rule #1: Filament Tables for Lists
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **MAI** creare blade personalizzati per liste di outcomes, predict, o dati tabellari.
 =======
 > **MAI** creare blade personalizzati per liste di outcomes, forecast, o dati tabellari.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> **MAI** creare blade personalizzati per liste di outcomes, predict, o dati tabellari.
+> **MAI** creare blade personalizzati per liste di outcomes, forecast, o dati tabellari.
+>>>>>>> a988596b (first)
 > **SEMPRE** usare Filament Table Widget che ha già:
 > - ✅ Search (debounce 400ms)
 > - ✅ Sorting (multi-column)
@@ -56,10 +67,15 @@ related:
 ```php
 // ✅ CORRETTO - Filament Table Widget
 <<<<<<< HEAD
+<<<<<<< HEAD
 class PredictTableWidget extends TableWidget
 =======
 class ForecastTableWidget extends TableWidget
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+class PredictTableWidget extends TableWidget
+class ForecastTableWidget extends TableWidget
+>>>>>>> a988596b (first)
 {
     public function table(Table $table): Table
     {
@@ -126,10 +142,15 @@ if ($isBinary) {
 
 > **MAI** logica specifica nel container blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Container deve essere **agnostico** (predicts, articles, events, etc.)
 =======
 > Container deve essere **agnostico** (forecasts, articles, events, etc.)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+> Container deve essere **agnostico** (predicts, articles, events, etc.)
+> Container deve essere **agnostico** (forecasts, articles, events, etc.)
+>>>>>>> a988596b (first)
 
 ### ✅ CORRECT - Agnostic Container
 
@@ -137,10 +158,15 @@ if ($isBinary) {
 {{-- ✅ CORRETTO - Container agnostico --}}
 <div>
 <<<<<<< HEAD
+<<<<<<< HEAD
     @livewire('view-predict-widget', ['predict' => $predict])
 =======
     @livewire('view-forecast-widget', ['forecast' => $forecast])
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    @livewire('view-predict-widget', ['predict' => $predict])
+    @livewire('view-forecast-widget', ['forecast' => $forecast])
+>>>>>>> a988596b (first)
 </div>
 ```
 
@@ -149,10 +175,15 @@ if ($isBinary) {
 ```blade
 {{-- ❌ SBAGLIATO - Logica specifica nel container --}}
 <<<<<<< HEAD
+<<<<<<< HEAD
 @if($container0 === 'predicts')
 =======
 @if($container0 === 'forecasts')
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+@if($container0 === 'predicts')
+@if($container0 === 'forecasts')
+>>>>>>> a988596b (first)
     {{-- domain logic --}}
 @endif
 ```
@@ -171,10 +202,15 @@ if ($isBinary) {
 class BuildOutcomesAction extends Action
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Predict $predict): array
 =======
     public function execute(Forecast $forecast): array
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    public function execute(Predict $predict): array
+    public function execute(Forecast $forecast): array
+>>>>>>> a988596b (first)
     {
         // Business logic here
     }
@@ -227,18 +263,25 @@ composer phpstan
 
 ### Project Rules
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[00-INDEX.md](00-INDEX.md)** - Master rules index
 =======
 - **[00-index-1.md](00-index-1.md)** - Master rules index
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **[00-index-1.md](00-index-1.md)** - Master rules index
+>>>>>>> a988596b (first)
 - **[multi-outcome-universal.md](multi-outcome-universal.md)** - Multi-outcome principle
 - **[container-agnostic.md](container-agnostic.md)** - Container agnostic rule
 - **[actions-over-services.md](actions-over-services.md)** - Actions over services
 
 ### Guidelines
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[../guidelines/00-INDEX.md](../guidelines/00-INDEX.md)** - Guidelines index
 =======
+=======
+>>>>>>> a988596b (first)
 - **[../guidelines/00-index-1.md](../guidelines/00-index-1.md)** - Guidelines index
 - **[../guidelines/filament-tables.md](../guidelines/filament-tables.md)** - Filament tables guide
 
@@ -261,7 +304,10 @@ composer phpstan
 **Review Cycle**: Per-release  
 **Next Review**: 2026-04-02  
 **Enforcement**: 🔴 CRITICAL rules are BLOCKERS
+<<<<<<< HEAD
 
+=======
+>>>>>>> a988596b (first)
 ---
 
 <!-- Merged from 00-INDEX.md, which collided with this file on case-insensitive filesystems. -->
@@ -451,7 +497,10 @@ composer phpstan
 
 ### Guidelines
 - **[../guidelines/00-index.md](../guidelines/00-index.md)** - Guidelines index
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - **[../guidelines/filament-tables.md](../guidelines/filament-tables.md)** - Filament tables guide
 
 ### Skills

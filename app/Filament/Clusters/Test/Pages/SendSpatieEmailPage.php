@@ -50,11 +50,15 @@ class SendSpatieEmailPage extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'emailForm'];
 =======
             'emailForm',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'emailForm'];
+>>>>>>> a988596b (first)
     }
 
     protected function fillForms(): void
@@ -85,11 +89,15 @@ class SendSpatieEmailPage extends XotBasePage
                 ->options(MailTemplate::all()->pluck('slug', 'slug'))
                 ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'body_html' => RichEditor::make('body_html')->required()];
 =======
             'body_html' => RichEditor::make('body_html')->required(),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'body_html' => RichEditor::make('body_html')->required()];
+>>>>>>> a988596b (first)
     }
 
     public function sendEmail(): void
@@ -109,11 +117,15 @@ class SendSpatieEmailPage extends XotBasePage
                 'path' => public_path('images/avatars/default-3.svg'),
                 'as' => 'logo.png',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                 'mime' => 'image/png'],
             [
                 'path' => public_path('images/avatars/default-3.svg'),
                 'as' => 'logo.png',
                 'mime' => 'image/png']];
+<<<<<<< HEAD
 =======
                 'mime' => 'image/png',
             ],
@@ -124,6 +136,8 @@ class SendSpatieEmailPage extends XotBasePage
             ],
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         // Mail::to($data['recipient'])->locale('it')->send((new SpatieEmail($user,'due'))->addAttachments($attachments));
         /*
          * // Create and send the email
@@ -156,11 +170,15 @@ class SendSpatieEmailPage extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'submit' => Action::make('emailFormActions')->submit('emailFormActions')];
 =======
             'submit' => Action::make('emailFormActions')->submit('emailFormActions'),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'submit' => Action::make('emailFormActions')->submit('emailFormActions')];
+>>>>>>> a988596b (first)
     }
 
     #[Override]

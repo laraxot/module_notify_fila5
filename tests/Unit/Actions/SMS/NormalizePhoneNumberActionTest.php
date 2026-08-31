@@ -7,12 +7,16 @@ namespace Modules\Notify\Tests\Unit\Actions\SMS;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Notify\Tests\TestCase;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\class_uses;
 
+<<<<<<< HEAD
 =======
 use PHPUnit\Framework\Assert;
 use Spatie\QueueableAction\QueueableAction;
@@ -23,6 +27,8 @@ use function Safe\class_uses;
 uses(TestCase::class);
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 describe('SMS\NormalizePhoneNumberAction', function () {
     it('can be instantiated', function () {
         Assert::assertTrue(class_exists(NormalizePhoneNumberAction::class));
@@ -75,9 +81,13 @@ describe('SMS\NormalizePhoneNumberAction', function () {
         $traits = class_uses(NormalizePhoneNumberAction::class);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::assertArrayNotHasKey(QueueableAction::class, $traits);
 =======
         Assert::assertArrayHasKey(QueueableAction::class, $traits);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        Assert::assertArrayNotHasKey(QueueableAction::class, $traits);
+>>>>>>> a988596b (first)
     });
 });

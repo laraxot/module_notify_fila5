@@ -12,12 +12,15 @@ use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\View;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> bdc49995 (.)
+=======
+>>>>>>> a988596b (first)
 use Modules\Notify\Filament\Forms\Components\HtmlLayoutPathSelect;
 use Modules\Xot\Filament\Resources\Schemas\XotBaseResourceForm;
 
@@ -42,11 +45,15 @@ class MailTemplateForm extends XotBaseResourceForm
                     'slug' => TextInput::make('slug')
                         ->required()
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ->unique(ignoreRecord: true)])
 =======
                         ->unique(ignoreRecord: true),
                 ])
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                        ->unique(ignoreRecord: true)])
+>>>>>>> a988596b (first)
                 ->columns(2),
             /*
             'name_slug_group' => Group::make()
@@ -61,11 +68,15 @@ class MailTemplateForm extends XotBaseResourceForm
                         ->label('Slug')
                         ->required()
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ->unique(ignoreRecord: true)])
 =======
                         ->unique(ignoreRecord: true),
                 ])
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                        ->unique(ignoreRecord: true)])
+>>>>>>> a988596b (first)
                 ->columns(2),
             */
 
@@ -77,6 +88,7 @@ class MailTemplateForm extends XotBaseResourceForm
             'html_template' => RichEditor::make('html_template')
                 ->required()
                 ->columnSpanFull(),
+<<<<<<< HEAD
             'params_display' => View::make($paramsBadgesView)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,15 +111,26 @@ class MailTemplateForm extends XotBaseResourceForm
                 ->columnSpanFull()
                 ->visible(static fn (?Model $record): bool => $record !== null && isset($record->params) && ! empty($record->params)),
 >>>>>>> bdc49995 (.)
+=======
+            'params_display' => View::make('notify::filament.components.params-badges')
+                ->viewData(fn (mixed $record): array => [
+                    'params' => is_object($record) && isset($record->params) ? $record->params : []])
+                ->columnSpanFull()
+                ->visible(fn (mixed $record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
+>>>>>>> a988596b (first)
             'text_template' => Textarea::make('text_template')
                 ->maxLength(65535)
                 ->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')
+<<<<<<< HEAD
 <<<<<<< HEAD
                 ->columnSpanFull()];
 =======
                 ->columnSpanFull(),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                ->columnSpanFull()];
+>>>>>>> a988596b (first)
     }
 }

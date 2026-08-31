@@ -73,9 +73,13 @@ mkdir -p .planning/codebase
 - STACK.md (from tech mapper)
 - INTEGRATIONS.md (from tech mapper)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ARCHITECTURE.md (from arch mapper)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ARCHITECTURE.md (from arch mapper)
+>>>>>>> a988596b (first)
 - architecture.md (from arch mapper)
 - STRUCTURE.md (from arch mapper)
 - CONVENTIONS.md (from quality mapper)
@@ -126,9 +130,13 @@ Analyze this codebase architecture and directory structure.
 
 Write these documents to .planning/codebase/:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ARCHITECTURE.md - Pattern, layers, data flow, abstractions, entry points
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ARCHITECTURE.md - Pattern, layers, data flow, abstractions, entry points
+>>>>>>> a988596b (first)
 - architecture.md - Pattern, layers, data flow, abstractions, entry points
 - STRUCTURE.md - Directory layout, key locations, naming conventions
 
@@ -280,9 +288,13 @@ Codebase mapping complete.
 Created .planning/codebase/:
 - STACK.md ([N] lines) - Technologies and dependencies
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ARCHITECTURE.md ([N] lines) - System design and patterns
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ARCHITECTURE.md ([N] lines) - System design and patterns
+>>>>>>> a988596b (first)
 - architecture.md ([N] lines) - System design and patterns
 - STRUCTURE.md ([N] lines) - Directory layout and organization
 - CONVENTIONS.md ([N] lines) - Code style and patterns

@@ -14,10 +14,14 @@
 - ✅ **DOCUMENTATION_INDEX.md** - Indice generale completo
 - ✅ **QUICK_START.md** - Guida rapida sviluppatori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
 =======
 - ✅ **work-completed.md** - Riepilogo aggiornamenti
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ✅ **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
+>>>>>>> a988596b (first)
 
 ### 🎫 Modulo Fixcity (85% → 90%)
 - ✅ **ROADMAP_2025.md** - Aggiornato timeline Q4 2025-Q2 2026
@@ -158,10 +162,14 @@
 2. **DOCUMENTATION_INDEX.md** - Indice generale navigabile
 3. **QUICK_START.md** - Guida rapida sviluppatori
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
 =======
 4. **work-completed.md** - Riepilogo aggiornamenti
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+4. **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
+>>>>>>> a988596b (first)
 5. **PROJECT_COMPLETION_STATUS.md** - Questo documento
 
 ### Modulo Fixcity (3 documenti)
@@ -183,9 +191,13 @@
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 base_fixcity_fila5_mono/
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+base_fixcity_fila5_mono/
+>>>>>>> a988596b (first)
 base_ptv_fila5_mono/
 ├── DOCUMENTATION_INDEX.md          # ✅ Indice generale
 ├── QUICK_START.md                  # ✅ Guida rapida
@@ -257,11 +269,17 @@ base_ptv_fila5_mono/
 
 ### Supporto
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Email**: dev@fixcity.it
 - **Docs**: docs@fixcity.it
 - **Slack**: #fixcity-dev
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Email**: dev@fixcity.it
+- **Docs**: docs@fixcity.it
+- **Slack**: #fixcity-dev
+>>>>>>> a988596b (first)
 - **Email**: dev@ptv.it
 - **Docs**: docs@ptv.it
 - **Slack**: #ptv-dev

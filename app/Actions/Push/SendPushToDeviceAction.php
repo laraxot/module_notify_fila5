@@ -40,11 +40,15 @@ class SendPushToDeviceAction
                     'error' => $e->getMessage(),
                     'token' => $token,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'notification' => $notification->toArray()]);
 
                 $results[$platform] = [
                     'success' => false,
                     'error' => $e->getMessage()];
+<<<<<<< HEAD
 =======
                     'notification' => $notification->toArray(),
                 ]);
@@ -54,6 +58,8 @@ class SendPushToDeviceAction
                     'error' => $e->getMessage(),
                 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
             }
         }
 

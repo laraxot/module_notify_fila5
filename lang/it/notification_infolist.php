@@ -28,9 +28,13 @@ return [
         'subject' => ['label' => 'subject'],
         'error_message' => ['label' => 'error_message'],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'metadata' => ['label' => 'metadata']]];
 =======
         'metadata' => ['label' => 'metadata'],
     ],
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'metadata' => ['label' => 'metadata']]];
+>>>>>>> a988596b (first)

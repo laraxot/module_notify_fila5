@@ -1,10 +1,15 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "phpstan-pest-patterns-2026-07-06.deprecated"
+=======
+title: "phpstan-pest-patterns-2026-07-06"
+>>>>>>> a988596b (first)
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "phpstan-pest-patterns-2026-07-06.deprecated deprecated"
 status: deprecated
 related:
@@ -98,3 +103,14 @@ I test dei file `Send*SMSActionTest.php` devono seguire questo pattern:
 - `\Safe\class_uses($action)` (FQCN)
 - `/** @phpstan-ignore method.internalClass */` prima di ogni `expect()`
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+qmd: "phpstan-pest-patterns-2026-07-06 deprecated"
+status: deprecated
+related:
+  - "./merge-collision-notify-lessons.md"
+  - "./phpstan-pest-patterns-.md"
+  - "./phpstan-pest-patterns-1.md"
+---
+
+> Questo file è stato rinominato in [phpstan-pest-patterns.md](phpstan-pest-patterns.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> a988596b (first)

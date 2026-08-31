@@ -16,6 +16,7 @@ use Modules\Notify\Datas\SmsMessageData;
 use Modules\Notify\Datas\TelegramData;
 use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 =======
@@ -25,11 +26,16 @@ use Modules\Xot\Tests\XotBasePest;
 
 uses(TestCase::class);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Modules\Xot\Tests\XotBasePest;
+use PHPUnit\Framework\Assert;
+>>>>>>> a988596b (first)
 
 test('netfun sms request and response data can be created from arrays', function () {
     $request = NetfunSmsRequestData::fromArray([
         'token' => 'abc-token',
         'messages' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
             ['recipient' => '+391234', 'text' => 'hello']]]);
 =======
@@ -37,11 +43,15 @@ test('netfun sms request and response data can be created from arrays', function
         ],
     ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            ['recipient' => '+391234', 'text' => 'hello']]]);
+>>>>>>> a988596b (first)
 
     $response = NetfunSmsResponseData::fromArray([
         'status' => 'ok',
         'batchId' => 'batch-1',
         'messages' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
             ['id' => 'm1', 'status' => 'queued']]]);
 =======
@@ -49,6 +59,9 @@ test('netfun sms request and response data can be created from arrays', function
         ],
     ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            ['id' => 'm1', 'status' => 'queued']]]);
+>>>>>>> a988596b (first)
 
     Assert::assertSame('abc-token', $request->token);
     Assert::assertCount(1, XotBasePest::assertArray($request->messages));
@@ -81,11 +94,15 @@ test('netfun sms message-style data objects keep values', function () {
 test('sms driver data classes expose auth headers and defaults', function () {
     config()->set('sms.drivers.smsfactor', [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'token' => 'tok']);
 =======
         'token' => 'tok',
     ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'token' => 'tok']);
+>>>>>>> a988596b (first)
 
     $smsfactor = SmsFactorData::make();
 
@@ -108,11 +125,15 @@ test('telegram, whatsapp and sms message datas keep payload', function () {
 test('send notification bulk result data keeps counters and errors collection', function () {
     $errors = collect([
 <<<<<<< HEAD
+<<<<<<< HEAD
         ['record' => 'r1', 'channel' => 'sms', 'error' => 'fail']]);
 =======
         ['record' => 'r1', 'channel' => 'sms', 'error' => 'fail'],
     ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        ['record' => 'r1', 'channel' => 'sms', 'error' => 'fail']]);
+>>>>>>> a988596b (first)
 
     $result = new SendNotificationBulkResultData(
         successCount: 3,
@@ -136,8 +157,12 @@ test('firebase notification data fromType fills type and translations structure'
     Assert::assertNotSame('', $data->title);
     Assert::assertNotSame('', $data->body);
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertNotEmpty($data->data);
 =======
     Assert::assertSame([], $data->data);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    Assert::assertNotEmpty($data->data);
+>>>>>>> a988596b (first)
 });

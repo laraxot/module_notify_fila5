@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📊 Quality Dashboard - FixCity Project
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+# 📊 Quality Dashboard - FixCity Project
+>>>>>>> a988596b (first)
 # 📊 Quality Dashboard - Notify Project
 
 **Last Updated:** 2025-10-01 21:35  
@@ -51,9 +55,13 @@ Xot      ███████████████████████�
 Tenant   ████████████████████████████████████████ 88%
 User     ████████████████████████████████████████ 85%
 <<<<<<< HEAD
+<<<<<<< HEAD
 Fixcity  ████████████████████████████████████████ 82%
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Fixcity  ████████████████████████████████████████ 82%
+>>>>>>> a988596b (first)
 App  ████████████████████████████████████████ 82%
 Blog     ████████████████████████████████████████ 80%
 Others   ████████████████████████████████████████ 85%
@@ -96,9 +104,13 @@ Others   ███████████████████████�
 |--------|-------|------------|-------|---------|
 | Tenant | 94% | 🟢 0 | 🟢 88% | 🟢 Pass |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Fixcity | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| Fixcity | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
+>>>>>>> a988596b (first)
 | App | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
 | UI | 91% | 🟢 0 | 🟢 85% | 🟢 Pass |
 | Cms | 90% | 🟢 0 | 🟢 80% | 🟢 Pass |
@@ -277,11 +289,17 @@ Overall Progress: ████████████████████�
 ## 📞 Quality Team Contacts
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Quality Lead**: quality@fixcity.com
 - **Architecture**: architecture@fixcity.com
 - **Testing**: testing@fixcity.com
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Quality Lead**: quality@fixcity.com
+- **Architecture**: architecture@fixcity.com
+- **Testing**: testing@fixcity.com
+>>>>>>> a988596b (first)
 - **Quality Lead**: quality@laraxot.com
 - **Architecture**: architecture@laraxot.com
 - **Testing**: testing@laraxot.com
@@ -291,9 +309,13 @@ Overall Progress: ████████████████████�
 ## 🔗 Related Resources
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Architecture Documentation](./ARCHITECTURE.md)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [Architecture Documentation](./ARCHITECTURE.md)
+>>>>>>> a988596b (first)
 - [Architecture Documentation](./architecture.md)
 - [Contributing Guidelines](../CONTRIBUTING.md)
 - [Testing Strategy](../Modules/Xot/docs/testing/testing-strategy.md)

@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Template Email"
 type: index
 tags: [notify, docs, templates]
@@ -168,6 +169,8 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 ---
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 title: "Readme"
 type: concept
 tags: [readme]

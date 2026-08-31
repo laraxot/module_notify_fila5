@@ -1,8 +1,12 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "GitHub Issues & Discussions - FixCity Platform"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+title: "GitHub Issues & Discussions - FixCity Platform"
+>>>>>>> a988596b (first)
 title: "GitHub Issues & Discussions - Notify Platform"
 type: index
 tags: [notify, docs, github]
@@ -10,9 +14,13 @@ module: Notify
 created: 2026-07-20
 updated: 2026-07-20
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "notify documentazione github readme github issues & discussions - fixcity platform index readme frontmatter qmd search"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+qmd: "notify documentazione github readme github issues & discussions - fixcity platform index readme frontmatter qmd search"
+>>>>>>> a988596b (first)
 qmd: "notify documentazione github readme github issues & discussions - laraxot platform index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
@@ -26,25 +34,35 @@ related:
   - ../templates/readme.md
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 # GitHub Issues & Discussions - FixCity Platform
 
 > **Last Updated**: 2026-03-13  
 > **Repository**: https://github.com/laraxot/base_fixcity_fila5
+<<<<<<< HEAD
 =======
 # GitHub Issues & Discussions - Notify Platform
 
 > **Last Updated**: 2026-03-13  
 > **Repository**: https://github.com/laraxot/platform
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 ---
 
 ## 📋 Overview
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento traccia tutte le GitHub Issues e Discussions create per il progetto FixCity.
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Questo documento traccia tutte le GitHub Issues e Discussions create per il progetto FixCity.
+>>>>>>> a988596b (first)
 Questo documento traccia tutte le GitHub Issues e Discussions create per il progetto Notify.
 
 ---
@@ -54,9 +72,13 @@ Questo documento traccia tutte le GitHub Issues e Discussions create per il prog
 ### Issue #5: 📁 Fix Database Directory Naming Convention
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/5  
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**URL**: https://github.com/laraxot/base_fixcity_fila5/issues/5  
+>>>>>>> a988596b (first)
 **URL**: https://github.com/laraxot/platform/issues/5  
 **Created**: 2026-03-13  
 **Author**: @marco76tv  
@@ -81,9 +103,13 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 - [ ] Cms
 - [ ] Comment
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Fixcity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [ ] Fixcity
+>>>>>>> a988596b (first)
 - [ ] App
 - [ ] Gdpr
 - [ ] Geo
@@ -101,9 +127,13 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 #### References
 - [Database Naming Convention](conventions/database-naming.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [AGENTS.md](../../AGENTS.md)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [AGENTS.md](../../AGENTS.md)
+>>>>>>> a988596b (first)
 - [agents.md](../../agents.md)
 
 ---
@@ -113,9 +143,13 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 ### Discussion #1: 📁 Database Directory Naming Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **URL**: https://github.com/laraxot/base_fixcity_fila5/discussions/1  
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**URL**: https://github.com/laraxot/base_fixcity_fila5/discussions/1  
+>>>>>>> a988596b (first)
 **URL**: https://github.com/laraxot/platform/discussions/1  
 **Created**: 2026-03-13  
 **Author**: @marco76tv  
@@ -220,9 +254,13 @@ Discussion per standardizzare la convention delle directory del database in tutt
 - `module:blog` - Blog module
 - `module:cms` - Cms module
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `module:fixcity` - Fixcity module
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `module:fixcity` - Fixcity module
+>>>>>>> a988596b (first)
 - `module:laraxot` - App module
 - `module:user` - User module
 - `module:xot` - Xot module
@@ -307,7 +345,11 @@ For questions about GitHub usage:
 
 **Maintainer**: @marco76tv  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Contact**: dev @fixcity.example.com
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Contact**: dev @fixcity.example.com
+>>>>>>> a988596b (first)
 **Contact**: dev @laraxot.example.com

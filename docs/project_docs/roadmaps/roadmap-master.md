@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎯 MASTER ROADMAP - FIXCITY PLATFORM
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+# 🎯 MASTER ROADMAP - FIXCITY PLATFORM
+>>>>>>> a988596b (first)
 # 🎯 MASTER ROADMAP - NOTIFY PLATFORM
 
 **Versione**: 1.0  
@@ -11,9 +15,13 @@
 
 ## 🎯 OBIETTIVO MASTER
 <<<<<<< HEAD
+<<<<<<< HEAD
 Completare il progetto FixCity in ogni aspetto seguendo le roadmap specifiche di moduli e temi, mantenendo coerenza architetturale e qualità enterprise.
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Completare il progetto FixCity in ogni aspetto seguendo le roadmap specifiche di moduli e temi, mantenendo coerenza architetturale e qualità enterprise.
+>>>>>>> a988596b (first)
 Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di moduli e temi, mantenendo coerenza architetturale e qualità enterprise.
 
 ## 📊 STATO GLOBALE PROGETTO
@@ -22,9 +30,13 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 - ✅ **Xot**: Core framework (95% completato)
 - ✅ **User**: Authentication & Authorization (90% completato)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **Fixcity**: Core business logic (80% completato)
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ✅ **Fixcity**: Core business logic (80% completato)
+>>>>>>> a988596b (first)
 - ✅ **App**: Core business logic (80% completato)
 
 ### 🚧 Moduli In Corso (60-89%)
@@ -53,9 +65,13 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 
 #### Moduli Priority 1 (CRITICAL)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **Fixcity**: Completare API e mobile optimization
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [ ] **Fixcity**: Completare API e mobile optimization
+>>>>>>> a988596b (first)
 - [ ] **App**: Completare API e mobile optimization
 - [ ] **User**: Completare social login e mobile auth
 - [ ] **Sixteen Theme**: Raggiungere 100% AGID compliance
@@ -230,9 +246,13 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 ## 📋 ROADMAP BY MODULE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 🎫 Fixcity Module
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+### 🎫 Fixcity Module
+>>>>>>> a988596b (first)
 ### 🎫 App Module
 - **Status**: 80% → 100% (Q1 2025)
 - **Focus**: API development, mobile optimization
@@ -249,9 +269,13 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 - **Status**: 70% → 100% (Q1 2025)
 - **Focus**: AGID compliance, mobile optimization
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Dependencies**: UI, Fixcity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Dependencies**: UI, Fixcity
+>>>>>>> a988596b (first)
 - **Dependencies**: UI, App
 - **Critical Path**: AGID → Mobile → Performance
 
@@ -283,9 +307,13 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 - **Status**: 40% → 90% (Q2 2025)
 - **Focus**: Comment system, moderation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Dependencies**: User, Fixcity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Dependencies**: User, Fixcity
+>>>>>>> a988596b (first)
 - **Dependencies**: User, App
 - **Critical Path**: System → Moderation → Integration
 
@@ -293,9 +321,13 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 - **Status**: 30% → 90% (Q2 2025)
 - **Focus**: Rating system, analytics
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Dependencies**: User, Fixcity
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Dependencies**: User, Fixcity
+>>>>>>> a988596b (first)
 - **Dependencies**: User, App
 - **Critical Path**: System → Analytics → Integration
 
@@ -345,9 +377,13 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 - **Status**: 10% → 90% (Q4 2025)
 - **Focus**: AI features, machine learning
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Dependencies**: Fixcity, Media
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Dependencies**: Fixcity, Media
+>>>>>>> a988596b (first)
 - **Dependencies**: App, Media
 - **Critical Path**: ML → Integration → Optimization
 
@@ -381,9 +417,13 @@ Completare il progetto Notify in ogni aspetto seguendo le roadmap specifiche di 
 
 ### Module Owners
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Fixcity**: Core business logic
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **Fixcity**: Core business logic
+>>>>>>> a988596b (first)
 - **App**: Core business logic
 - **User**: Authentication & authorization
 - **Sixteen**: UI/UX e accessibility

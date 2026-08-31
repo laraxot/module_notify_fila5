@@ -7,10 +7,14 @@ namespace Modules\Notify\Models;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 use Modules\Media\Models\Media;
 use Modules\Xot\Contracts\ProfileContract;
 use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+<<<<<<< HEAD
 =======
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Xot\Contracts\ProfileContract;
@@ -18,15 +22,21 @@ use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 /**
  * Modules\Notify\Models\Contact.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
  * @property-read ProfileContract|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read ProfileContract|null $updater
+<<<<<<< HEAD
  * @method static Builder<static>|Contact newModelQuery()
  * @method static Builder<static>|Contact newQuery()
  * @method static Builder<static>|Contact query()
@@ -34,11 +44,22 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
  * @property int $id
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+ *
+ * @method static Builder<static>|Contact newModelQuery()
+ * @method static Builder<static>|Contact newQuery()
+ * @method static Builder<static>|Contact query()
+ *
+ * @property string $id
+>>>>>>> a988596b (first)
  * @property string $model_type
  * @property string $model_id
  * @property string|null $contact_type
  * @property string|null $value
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
  * @property string|null $first_name
  * @property string|null $last_name
  * @property string|null $user_id
@@ -56,17 +77,26 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @property string|null $attribute_1
  * @property string|null $attribute_2
  * @property string|null $attribute_3
+<<<<<<< HEAD
 =======
  * @property string|null $user_id
  * @property string|null $verified_at
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_by
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+=======
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ *
+>>>>>>> a988596b (first)
  * @method static Builder<static>|Contact whereContactType($value)
  * @method static Builder<static>|Contact whereCreatedAt($value)
  * @method static Builder<static>|Contact whereCreatedBy($value)
@@ -81,6 +111,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @method static Builder<static>|Contact whereUserId($value)
  * @method static Builder<static>|Contact whereValue($value)
  * @method static Builder<static>|Contact whereVerifiedAt($value)
+<<<<<<< HEAD
  * @property string|null $email
  * @property string|null $mobile_phone
  * @property string|null $survey_pdf_id
@@ -215,6 +246,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @property-read ProfileContract|null $deleter
  *
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+ *
+>>>>>>> a988596b (first)
  * @mixin \Eloquent
  */
 class Contact extends BaseModel
@@ -257,11 +291,15 @@ class Contact extends BaseModel
         'attribute_12',
         'attribute_13',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'attribute_14'];
 =======
         'attribute_14',
     ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'attribute_14'];
+>>>>>>> a988596b (first)
 
     /** @return array<string, string> */
     #[Override]
@@ -281,10 +319,15 @@ class Contact extends BaseModel
             'model_id' => 'string',
             'user_id' => 'string',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'mail_sent_at' => 'datetime',
             'sms_sent_at' => 'datetime'];
 =======
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'mail_sent_at' => 'datetime',
+            'sms_sent_at' => 'datetime'];
+>>>>>>> a988596b (first)
     }
 }

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 # 📬 Notify
 
 [![Domain-Notify](https://img.shields.io/badge/Domain-Notifications-E65100.svg)](#)
@@ -16,6 +19,7 @@
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_lkaMEP
 ## Scopo e confini
 
@@ -87,6 +91,9 @@ di qui, non attraverso un `Mail::send()` scritto ad hoc dentro un controller.
 =======
 ## Perché esiste
 >>>>>>> .merge_file_Bt5am7
+=======
+## Perché esiste
+>>>>>>> a988596b (first)
 
 Chiude il loop feedback: ogni cambio stato può diventare messaggio tracciabile.
 
@@ -125,6 +132,7 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_lkaMEP
 **Modulo** `notify` · **Laraxot / FixCity Platform** · licenza MIT
 
@@ -236,3 +244,7 @@ cd laravel
 Perche' esiste, come raggiungere meglio il suo scopo e cosa **non** gli appartiene:
 [`docs/purpose.md`](./docs/purpose.md).
 >>>>>>> bdc49995 (.)
+=======
+**Modulo** `notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+**Modulo** `notify` · **Laraxot** · **Notify Platform** · PHPStan 10 · Filament 5
+>>>>>>> a988596b (first)

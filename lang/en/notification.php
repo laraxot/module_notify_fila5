@@ -6,21 +6,29 @@ return [
     'resource' => [
         'name' => 'Notifica',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'plural' => 'Notifiche'],
 =======
         'plural' => 'Notifiche',
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'plural' => 'Notifiche'],
+>>>>>>> a988596b (first)
     'navigation' => [
         'name' => 'Gestione Notifiche',
         'plural' => 'Gestione Notifiche',
         'group' => [
             'name' => 'Sistema',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
             'description' => 'Gestione centralizzata delle notifiche di sistema'],
         'label' => 'Gestione Notifiche',
         'icon' => 'notify-notification-animated',
         'sort' => '46'],
+<<<<<<< HEAD
 =======
             'description' => 'Gestione centralizzata delle notifiche di sistema',
         ],
@@ -29,6 +37,8 @@ return [
         'sort' => '46',
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     'fields' => [
         'title' => [
             'label' => 'Titolo',
@@ -36,22 +46,30 @@ return [
             'placeholder' => 'Inserisci il titolo',
             'tooltip' => '',
 <<<<<<< HEAD
-            'description' => ''],
-=======
-            'description' => '',
-        ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-        'message' => [
-            'label' => 'Messaggio',
-            'helper_text' => 'Contenuto della notifica',
-            'placeholder' => 'Inserisci il messaggio',
-            'tooltip' => '',
 <<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
+        'message' => [
+            'label' => 'Messaggio',
+            'helper_text' => 'Contenuto della notifica',
+            'placeholder' => 'Inserisci il messaggio',
+            'tooltip' => '',
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'description' => ''],
+=======
+            'description' => '',
+        ],
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'type' => [
             'label' => 'Tipo',
             'helper_text' => 'Tipologia di notifica',
@@ -63,6 +81,7 @@ return [
                 'success' => 'Successo',
                 'warning' => 'Attenzione',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'error' => 'Errore'],
             'tooltip' => '',
             'description' => ''],
@@ -73,6 +92,11 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'error' => 'Errore'],
+            'tooltip' => '',
+            'description' => ''],
+>>>>>>> a988596b (first)
         'status' => [
             'label' => 'Stato',
             'helper_text' => 'Stato corrente della notifica',
@@ -80,6 +104,7 @@ return [
             'options' => [
                 'unread' => 'Non letta',
                 'read' => 'Letta',
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'archived' => 'Archiviata'],
             'tooltip' => '',
@@ -91,47 +116,68 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'archived' => 'Archiviata'],
+            'tooltip' => '',
+            'description' => ''],
+>>>>>>> a988596b (first)
         'recipient' => [
             'label' => 'Destinatario',
             'helper_text' => 'Utente destinatario della notifica',
             'placeholder' => 'Seleziona il destinatario',
             'tooltip' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'sent_at' => [
             'label' => 'Inviata il',
             'helper_text' => 'Data e ora di invio della notifica',
             'tooltip' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'read_at' => [
             'label' => 'Letta il',
             'helper_text' => 'Data e ora di lettura della notifica',
             'tooltip' => '',
 <<<<<<< HEAD
-            'description' => ''],
-=======
-            'description' => '',
-        ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-        'archived_at' => [
-            'label' => 'Archiviata il',
-            'helper_text' => 'Data e ora di archiviazione della notifica',
-            'tooltip' => '',
 <<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
+        'archived_at' => [
+            'label' => 'Archiviata il',
+            'helper_text' => 'Data e ora di archiviazione della notifica',
+            'tooltip' => '',
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'description' => ''],
+=======
+            'description' => '',
+        ],
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'channel' => [
             'label' => 'Canale',
             'tooltip' => 'Canale di invio della notifica',
@@ -141,6 +187,9 @@ return [
                 'email' => [
                     'label' => 'Email',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'tooltip' => 'Invia tramite email'],
                 'sms' => [
                     'label' => 'SMS',
@@ -152,6 +201,7 @@ return [
                     'label' => 'Telegram',
                     'tooltip' => 'Invia tramite Telegram']],
             'description' => ''],
+<<<<<<< HEAD
 =======
                     'tooltip' => 'Invia tramite email',
                 ],
@@ -171,6 +221,8 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         'template' => [
             'label' => 'Template',
             'tooltip' => 'Template da utilizzare per la notifica',
@@ -181,6 +233,9 @@ return [
                     'label' => 'Oggetto',
                     'tooltip' => 'Oggetto della notifica',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'placeholder' => 'es: Notifica importante'],
                 'body' => [
                     'label' => 'Corpo',
@@ -191,6 +246,7 @@ return [
                     'tooltip' => 'Variabili che possono essere utilizzate nel template',
                     'helper_text' => 'Usa {variable} per inserire valori dinamici']],
             'description' => ''],
+<<<<<<< HEAD
 =======
                     'placeholder' => 'es: Notifica importante',
                 ],
@@ -208,6 +264,8 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         'schedule' => [
             'label' => 'Programmazione',
             'tooltip' => 'Quando inviare la notifica',
@@ -217,6 +275,9 @@ return [
                 'immediate' => [
                     'label' => 'Immediata',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'tooltip' => 'Invia subito la notifica'],
                 'scheduled' => [
                     'label' => 'Programmata',
@@ -230,6 +291,7 @@ return [
                     'tooltip' => 'Ora di invio programmato',
                     'placeholder' => 'es: 14:30']],
             'description' => ''],
+<<<<<<< HEAD
 =======
                     'tooltip' => 'Invia subito la notifica',
                 ],
@@ -251,10 +313,13 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         'applyFilters' => [
             'label' => 'applyFilters',
             'tooltip' => '',
             'helper_text' => '',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'description' => '']],
 =======
@@ -262,72 +327,100 @@ return [
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => '']],
+>>>>>>> a988596b (first)
     'actions' => [
         'mark_as_read' => [
             'label' => 'Segna come letta',
             'tooltip' => 'Marca la notifica come letta',
             'success_message' => 'Notifica segnata come letta',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'error_message' => 'Errore nel segnare la notifica come letta'],
 =======
             'error_message' => 'Errore nel segnare la notifica come letta',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'error_message' => 'Errore nel segnare la notifica come letta'],
+>>>>>>> a988596b (first)
         'mark_as_unread' => [
             'label' => 'Segna come non letta',
             'tooltip' => 'Marca la notifica come non letta',
             'success_message' => 'Notifica segnata come non letta',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'error_message' => 'Errore nel segnare la notifica come non letta'],
 =======
             'error_message' => 'Errore nel segnare la notifica come non letta',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'error_message' => 'Errore nel segnare la notifica come non letta'],
+>>>>>>> a988596b (first)
         'archive' => [
             'label' => 'Archivia',
             'tooltip' => 'Archivia la notifica',
             'success_message' => 'Notifica archiviata con successo',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'error_message' => 'Errore nell\'archiviazione della notifica'],
 =======
             'error_message' => 'Errore nell\'archiviazione della notifica',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'error_message' => 'Errore nell\'archiviazione della notifica'],
+>>>>>>> a988596b (first)
         'unarchive' => [
             'label' => 'Ripristina',
             'tooltip' => 'Ripristina la notifica archiviata',
             'success_message' => 'Notifica ripristinata con successo',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'error_message' => 'Errore nel ripristino della notifica'],
 =======
             'error_message' => 'Errore nel ripristino della notifica',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'error_message' => 'Errore nel ripristino della notifica'],
+>>>>>>> a988596b (first)
         'send' => [
             'label' => 'Invia',
             'tooltip' => 'Invia la notifica',
             'success_message' => 'Notifica inviata con successo',
 <<<<<<< HEAD
-            'error_message' => 'Errore nell\'invio della notifica'],
-=======
-            'error_message' => 'Errore nell\'invio della notifica',
-        ],
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-        'resend' => [
-            'label' => 'Invia nuovamente',
-            'tooltip' => 'Invia nuovamente la notifica',
-            'success_message' => 'Notifica inviata nuovamente con successo',
 <<<<<<< HEAD
             'error_message' => 'Errore nell\'invio della notifica'],
 =======
             'error_message' => 'Errore nell\'invio della notifica',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'error_message' => 'Errore nell\'invio della notifica'],
+>>>>>>> a988596b (first)
+        'resend' => [
+            'label' => 'Invia nuovamente',
+            'tooltip' => 'Invia nuovamente la notifica',
+            'success_message' => 'Notifica inviata nuovamente con successo',
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'error_message' => 'Errore nell\'invio della notifica'],
+=======
+            'error_message' => 'Errore nell\'invio della notifica',
+        ],
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'error_message' => 'Errore nell\'invio della notifica'],
+>>>>>>> a988596b (first)
         'delete' => [
             'label' => 'Elimina',
             'tooltip' => 'Elimina definitivamente la notifica',
             'success_message' => 'Notifica eliminata con successo',
             'error_message' => 'Errore nell\'eliminazione della notifica',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'confirmation' => 'Sei sicuro di voler eliminare questa notifica? Questa azione non può essere annullata.']],
 =======
@@ -335,6 +428,9 @@ return [
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'confirmation' => 'Sei sicuro di voler eliminare questa notifica? Questa azione non può essere annullata.']],
+>>>>>>> a988596b (first)
     'messages' => [
         'no_notifications' => 'Non hai notifiche',
         'all_read' => 'Tutte le notifiche sono state lette',
@@ -344,6 +440,7 @@ return [
         'delete_confirmation' => 'Sei sicuro di voler eliminare questa notifica?',
         'batch_action_confirmation' => 'Sei sicuro di voler eseguire questa azione su tutte le notifiche selezionate?',
         'success' => 'Operazione completata con successo',
+<<<<<<< HEAD
 <<<<<<< HEAD
         'error' => 'Si è verificato un errore durante l\'operazione'],
     'label' => 'Missing Label',
@@ -355,3 +452,8 @@ return [
     'plural_label' => 'Missing Plural label',
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'error' => 'Si è verificato un errore durante l\'operazione'],
+    'label' => 'Missing Label',
+    'plural_label' => 'Missing Plural label'];
+>>>>>>> a988596b (first)

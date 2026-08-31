@@ -1,9 +1,13 @@
 # QWEN Competitor Analysis
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Analisi dei competitor di prediction market.
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Analisi dei competitor di prediction market.
+>>>>>>> a988596b (first)
 Analisi dei competitor di forecast market.
 
 ---
@@ -38,9 +42,13 @@ Analisi dei competitor di forecast market.
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### PredictIt
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+### PredictIt
+>>>>>>> a988596b (first)
 ### ForecastIt
 
 | Feature | Presente |
@@ -73,9 +81,13 @@ Analisi dei competitor di forecast market.
 | Polymarket | LMSR, order book |
 | Kalshi | Regulated, clean UX |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | PredictIt | Academic, simple |
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| PredictIt | Academic, simple |
+>>>>>>> a988596b (first)
 | ForecastIt | Academic, simple |
 | FantaSanremo | Italian, gamification |
 | Prediki | European, mobile-first |

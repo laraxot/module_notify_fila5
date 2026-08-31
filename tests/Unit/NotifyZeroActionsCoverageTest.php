@@ -13,11 +13,15 @@ use Modules\Notify\Actions\SMS\SendAgiletelecomSMSAction;
 use Modules\Notify\Actions\SMS\SendAgiletelecomSMSv1Action;
 use Modules\Notify\Actions\SMS\SendAgiletelecomSMSv2Action;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Notifications\FirebaseAndroidNotification;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
 =======
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Notifications\FirebaseAndroidNotification;
@@ -27,6 +31,8 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class)->group('no-notify-db');
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 afterEach(function (): void {
     Mockery::close();
 });
@@ -40,31 +46,43 @@ describe('Notify zero-coverage actions boost', function (): void {
             'notify.sms.agiletelecom.user' => 'user',
             'notify.sms.agiletelecom.password' => 'pass',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'notify.sms.agiletelecom.timeout' => 5]);
 =======
             'notify.sms.agiletelecom.timeout' => 5,
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'notify.sms.agiletelecom.timeout' => 5]);
+>>>>>>> a988596b (first)
 
         $sms = SmsData::from([
             'from' => 'Test',
             'recipient' => '+393331112233',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'body' => 'hello agile']);
 =======
             'body' => 'hello agile',
         ]);
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'body' => 'hello agile']);
+>>>>>>> a988596b (first)
 
         foreach ([
             SendAgiletelecomSMSAction::class,
             SendAgiletelecomSMSv1Action::class,
+<<<<<<< HEAD
 <<<<<<< HEAD
             SendAgiletelecomSMSv2Action::class] as $class) {
 =======
             SendAgiletelecomSMSv2Action::class,
         ] as $class) {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            SendAgiletelecomSMSv2Action::class] as $class) {
+>>>>>>> a988596b (first)
             try {
                 $result = app($class)->execute($sms);
                 Assert::assertIsArray($result);
@@ -75,7 +93,11 @@ describe('Notify zero-coverage actions boost', function (): void {
     });
 
     test('notification manager action throws when template missing', function (): void {
+<<<<<<< HEAD
         $recipient = new class extends Model
+=======
+        $recipient = new class() extends Model
+>>>>>>> a988596b (first)
         {
             use Notifiable;
 
@@ -92,11 +114,15 @@ describe('Notify zero-coverage actions boost', function (): void {
 
     test('firebase android notification exposes channels and payload', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         $data = FirebaseNotificationData::from([
             'type' => 'test',
             'title' => 'Hello',
             'body' => 'World',
             'data' => ['k' => 'v']]);
+<<<<<<< HEAD
 =======
         $data = \Modules\Notify\Datas\FirebaseNotificationData::from([
             'type' => 'test',
@@ -107,6 +133,10 @@ describe('Notify zero-coverage actions boost', function (): void {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $notification = new FirebaseAndroidNotification($data);
         $notifiable = new class
+=======
+        $notification = new FirebaseAndroidNotification($data);
+        $notifiable = new class()
+>>>>>>> a988596b (first)
         {
             public function routeNotificationForFcm(): string
             {

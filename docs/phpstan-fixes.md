@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PHPStan Errori Modulo Notify - 2025-01-22
 
 ## Analisi Completa
@@ -191,6 +192,8 @@ $message = "Using driver: {$driverString}";
 - [Type Narrowing Patterns](../xot/docs/type-narrowing.md)
 - [SMS Configuration](./sms_global_vs_specific_params.md)
 =======
+=======
+>>>>>>> a988596b (first)
 # Notify Module - PHPStan Level 10 Fixes - Marzo 2026
 
 ## ✅ **Stato Completato**
@@ -260,5 +263,9 @@ class SendNotificationAction
 
 ---
 *Ultimo aggiornamento: Marzo 2026*
+<<<<<<< HEAD
 *Stato: ✅ Completato - 0 errori PHPStan*
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+*Stato: ✅ Completato - 0 errori PHPStan*
+>>>>>>> a988596b (first)

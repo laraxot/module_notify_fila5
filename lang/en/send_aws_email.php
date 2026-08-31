@@ -9,11 +9,15 @@ return [
         'icon' => 'heroicon-o-envelope',
         'color' => 'primary',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
         'sort' => '10'],
     'model' => [
         'label' => 'Email AWS',
         'plural' => 'Email AWS',
         'description' => 'Gestione invio email tramite servizio Amazon SES'],
+<<<<<<< HEAD
 =======
         'sort' => '10',
     ],
@@ -23,6 +27,8 @@ return [
         'description' => 'Gestione invio email tramite servizio Amazon SES',
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     'fields' => [
         'to' => [
             'label' => 'Destinatario Email',
@@ -31,11 +37,15 @@ return [
             'tooltip' => '',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'subject' => [
             'label' => 'Oggetto Email',
             'placeholder' => 'Inserisci l\'oggetto del messaggio',
@@ -43,11 +53,15 @@ return [
             'tooltip' => '',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'body_html' => [
             'label' => 'Corpo HTML',
             'placeholder' => 'Inserisci il contenuto HTML dell\'email',
@@ -55,11 +69,15 @@ return [
             'tooltip' => '',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'template' => [
             'label' => 'Template Email',
             'placeholder' => 'Seleziona un template predefinito',
@@ -67,11 +85,15 @@ return [
             'tooltip' => '',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'add_attachments' => [
             'label' => 'Allegati Email',
             'placeholder' => 'Carica file da allegare al messaggio',
@@ -79,12 +101,16 @@ return [
             'tooltip' => '',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => '']],
 =======
             'description' => '',
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => '']],
+>>>>>>> a988596b (first)
     'actions' => [
         'send_email' => [
             'label' => 'Invia Email',
@@ -95,16 +121,21 @@ return [
             'success' => 'Email inviata con successo tramite AWS SES',
             'error' => 'Errore durante l\'invio dell\'email',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'confirmation' => 'L\'email verrà inviata immediatamente']],
 =======
             'confirmation' => 'L\'email verrà inviata immediatamente',
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'confirmation' => 'L\'email verrà inviata immediatamente']],
+>>>>>>> a988596b (first)
     'messages' => [
         'loading' => 'Preparazione email in corso...',
         'sent' => 'Email inviata correttamente',
         'queue' => 'Email aggiunta alla coda di invio',
+<<<<<<< HEAD
 <<<<<<< HEAD
         'failed' => 'Invio email fallito'],
     'label' => 'Missing Label',
@@ -116,3 +147,8 @@ return [
     'plural_label' => 'Missing Plural label',
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'failed' => 'Invio email fallito'],
+    'label' => 'Missing Label',
+    'plural_label' => 'Missing Plural label'];
+>>>>>>> a988596b (first)

@@ -14,9 +14,13 @@ La verifica ha confermato che:
 - ✅ 18/18 moduli hanno directory corrette
 - ✅ Documentazione del modulo Blog corretta
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ AGENTS.md aggiornato con la rule
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ✅ AGENTS.md aggiornato con la rule
+>>>>>>> a988596b (first)
 - ✅ agents.md aggiornato con la rule
 - ✅ GitHub Issue #5 creata per tracking
 - ✅ Documentazione di convenzione creata
@@ -44,9 +48,13 @@ Tutti i 18 moduli hanno le directory corrette:
 | Cms | ✅ | ✅ | ✅ | ✅ Pass |
 | Comment | ✅ | ✅ | ✅ | ✅ Pass |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Fixcity | ✅ | ✅ | ✅ | ✅ Pass |
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| Fixcity | ✅ | ✅ | ✅ | ✅ Pass |
+>>>>>>> a988596b (first)
 | App | ✅ | ✅ | ✅ | ✅ Pass |
 | Gdpr | ✅ | ✅ | ✅ | ✅ Pass |
 | Geo | ✅ | ✅ | ✅ | ✅ Pass |
@@ -159,9 +167,13 @@ Questi sono **accettabili** perché:
 ### 3. ✅ Created Preventive Documentation
 - Guida completa alla convenzione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Rule in AGENTS.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- Rule in AGENTS.md
+>>>>>>> a988596b (first)
 - Rule in agents.md
 - Esempi e best practices
 
@@ -182,9 +194,13 @@ Questi sono **accettabili** perché:
 ### Immediate (Done ✅)
 - ✅ Fix Blog module documentation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Update AGENTS.md
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- ✅ Update AGENTS.md
+>>>>>>> a988596b (first)
 - ✅ Update agents.md
 - ✅ Create convention documentation
 - ✅ Create GitHub Issue #5
@@ -217,9 +233,13 @@ grep -r "database/Factories\|database/Migrations\|database/Seeders" \
   docs/ laravel/Modules/*/docs/ | \
   grep -v "database-naming.md" | \
 <<<<<<< HEAD
+<<<<<<< HEAD
   grep -v "AGENTS.md" | \
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+  grep -v "AGENTS.md" | \
+>>>>>>> a988596b (first)
   grep -v "agents.md" | \
   grep -v "models/README.md"
 ```
@@ -240,6 +260,7 @@ find docs/ laravel/Modules/*/docs/ -type f -name "*.md" -exec sed -i \
 
 - [Database Naming Convention](conventions/database-naming.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [AGENTS.md](../../AGENTS.md)
 - [Fix Summary](fixes/database-naming-fix-summary.md)
 - [GitHub Issue #5](https://github.com/laraxot/base_fixcity_fila5/issues/5)
@@ -248,6 +269,11 @@ find docs/ laravel/Modules/*/docs/ -type f -name "*.md" -exec sed -i \
 - [Fix Summary](fixes/database-naming-fix-summary.md)
 - [GitHub Issue #5](https://github.com/laraxot/platform/issues/5)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- [AGENTS.md](../../AGENTS.md)
+- [Fix Summary](fixes/database-naming-fix-summary.md)
+- [GitHub Issue #5](https://github.com/laraxot/base_fixcity_fila5/issues/5)
+>>>>>>> a988596b (first)
 - [Laravel Directory Structure](https://laravel.com/docs/structure)
 
 ---

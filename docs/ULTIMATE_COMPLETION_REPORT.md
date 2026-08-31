@@ -91,9 +91,13 @@ Trasformato FixCity da MVP documentato a piattaforma enterprise-ready con implem
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 base_fixcity_fila5_mono/
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+base_fixcity_fila5_mono/
+>>>>>>> a988596b (first)
 base_ptv_fila5_mono/
 │
 ├── 📊 ROOT DOCS (13 files)
@@ -104,10 +108,14 @@ base_ptv_fila5_mono/
 │   ├── PROJECT_COMPLETION_STATUS.md    ✅ Tracking
 │   ├── FINAL_SUMMARY.md                ✅ Summary sessione 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   ├── WORK_COMPLETED_2025-10-01.md    ✅ Riepilogo tecnico
 =======
 │   ├── work-completed.md    ✅ Riepilogo tecnico
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+│   ├── WORK_COMPLETED_2025-10-01.md    ✅ Riepilogo tecnico
+>>>>>>> a988596b (first)
 │   ├── GAP_ANALYSIS_IMPLEMENTATION.md  ✅ Gap analysis
 │   ├── IMPLEMENTATIONS_COMPLETED.md    ✅ Implementazioni
 │   ├── SUPER_MUCCA_COMPLETION.md       ✅ Super Mucca mode

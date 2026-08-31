@@ -65,12 +65,16 @@ class SendTelegram extends XotBasePage
                     ->schema([
                         TextInput::make('recipient')->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
                         RichEditor::make('body')->required()])])
 =======
                         RichEditor::make('body')->required(),
                     ]),
             ])
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                        RichEditor::make('body')->required()])])
+>>>>>>> a988596b (first)
             ->model($this->getUser())
             ->statePath('emailData');
     }
@@ -112,11 +116,15 @@ class SendTelegram extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'emailForm'];
 =======
             'emailForm',
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'emailForm'];
+>>>>>>> a988596b (first)
     }
 
     /** @return array<string, Action> */
@@ -126,11 +134,15 @@ class SendTelegram extends XotBasePage
             'submit' => Action::make('emailFormActions')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->submit('emailFormActions')];
 =======
                 ->submit('emailFormActions'),
         ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                ->submit('emailFormActions')];
+>>>>>>> a988596b (first)
     }
 
     protected function getUser(): Authenticatable&Model

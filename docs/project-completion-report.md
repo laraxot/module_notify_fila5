@@ -5,9 +5,13 @@ tags: [project, completion, report]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "project-completion-report report di completamento progetto fixcity"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+qmd: "project-completion-report report di completamento progetto fixcity"
+>>>>>>> a988596b (first)
 qmd: "project-completion-report report di completamento progetto ptv"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -158,11 +162,17 @@ FIXCITY_ANALYTICS_ENABLED=true
 
 // API Fixcity
 <<<<<<< HEAD
+<<<<<<< HEAD
 /api/fixcity/tickets       # Gestione ticket
 /api/fixcity/map/tickets   # Mappa ticket
 /api/fixcity/statistics    # Statistiche
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+/api/fixcity/tickets       # Gestione ticket
+/api/fixcity/map/tickets   # Mappa ticket
+/api/fixcity/statistics    # Statistiche
+>>>>>>> a988596b (first)
 /api/ptv/tickets       # Gestione ticket
 /api/ptv/map/tickets   # Mappa ticket
 /api/ptv/statistics    # Statistiche

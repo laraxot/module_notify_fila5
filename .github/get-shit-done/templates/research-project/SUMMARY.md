@@ -49,9 +49,13 @@ Template for `.planning/research/SUMMARY.md` — executive summary of project re
 ### Architecture Approach
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Summary from ARCHITECTURE.md — 1 paragraph]
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+[Summary from ARCHITECTURE.md — 1 paragraph]
+>>>>>>> a988596b (first)
 [Summary from architecture.md — 1 paragraph]
 
 **Major components:**

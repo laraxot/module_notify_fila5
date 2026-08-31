@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Notify Module Documentation"
 type: documentation
 tags: [module, documentation]
@@ -71,6 +72,8 @@ Modules\Notify\Models\NotificationTemplateVersion
 ---
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 title: "Modulo Notify - Documentazione"
 type: index
 tags: [notify, docs]
@@ -328,10 +331,14 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Changelog**: [changelog.md](./CHANGELOG.md)
 =======
 **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+**Changelog**: [CHANGELOG.md](./CHANGELOG.md)
+>>>>>>> a988596b (first)
 
 ## 🔗 Collegamenti
 
@@ -500,10 +507,14 @@ Log::channel('email')->info('Email sent', [
 - **Xot Module** - PDF generation support
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Documentation
 =======
 ---
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+---
+>>>>>>> a988596b (first)
 
 **Ultimo aggiornamento:** 2025-01-22  
 **Versione:** 2.1.0  

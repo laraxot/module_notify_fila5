@@ -9,11 +9,15 @@ return [
         'icon' => 'notify-theme-animated',
         'sort' => '50',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'description' => 'Gestione dei temi per le notifiche'],
 =======
         'description' => 'Gestione dei temi per le notifiche',
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        'description' => 'Gestione dei temi per le notifiche'],
+>>>>>>> a988596b (first)
     'fields' => [
         'name' => [
             'label' => 'Nome',
@@ -22,11 +26,15 @@ return [
             'help' => 'Inserisci un nome descrittivo per il tema',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'description' => [
             'label' => 'Descrizione',
             'tooltip' => 'Descrizione del tema',
@@ -34,11 +42,15 @@ return [
             'help' => 'Breve descrizione dello scopo del tema',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'colors' => [
             'label' => 'Colori',
             'tooltip' => 'Schema colori del tema',
@@ -48,6 +60,9 @@ return [
                     'label' => 'Primario',
                     'tooltip' => 'Colore principale del tema',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'placeholder' => 'es: #4A90E2'],
                 'secondary' => [
                     'label' => 'Secondario',
@@ -71,6 +86,7 @@ return [
                     'placeholder' => 'es: #D0021B']],
             'helper_text' => '',
             'description' => ''],
+<<<<<<< HEAD
 =======
                     'placeholder' => 'es: #4A90E2',
                 ],
@@ -104,6 +120,8 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         'typography' => [
             'label' => 'Tipografia',
             'tooltip' => 'Impostazioni tipografiche',
@@ -113,11 +131,15 @@ return [
                     'label' => 'Font principale',
                     'tooltip' => 'Font utilizzato per il testo principale',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'placeholder' => 'es: Arial, sans-serif'],
                 'heading_font' => [
                     'label' => 'Font titoli',
                     'tooltip' => 'Font utilizzato per i titoli',
                     'placeholder' => 'es: Helvetica, Arial, sans-serif'],
+<<<<<<< HEAD
 =======
                     'placeholder' => 'es: Arial, sans-serif',
                 ],
@@ -127,6 +149,8 @@ return [
                     'placeholder' => 'es: Helvetica, Arial, sans-serif',
                 ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
                 'font_sizes' => [
                     'label' => 'Dimensioni font',
                     'tooltip' => 'Dimensioni dei caratteri',
@@ -134,6 +158,9 @@ return [
                         'small' => [
                             'label' => 'Piccolo',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                             'tooltip' => 'Testo piccolo (es: note)'],
                         'normal' => [
                             'label' => 'Normale',
@@ -143,6 +170,7 @@ return [
                             'tooltip' => 'Testo grande (es: titoli)']]]],
             'helper_text' => '',
             'description' => ''],
+<<<<<<< HEAD
 =======
                             'tooltip' => 'Testo piccolo (es: note)',
                         ],
@@ -161,6 +189,8 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         'layout' => [
             'label' => 'Layout',
             'tooltip' => 'Impostazioni del layout',
@@ -169,6 +199,9 @@ return [
                 'header' => [
                     'label' => 'Intestazione',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'tooltip' => 'Stile dell\'intestazione'],
                 'footer' => [
                     'label' => 'Piè di pagina',
@@ -178,6 +211,7 @@ return [
                     'tooltip' => 'Spaziatura tra gli elementi']],
             'helper_text' => '',
             'description' => ''],
+<<<<<<< HEAD
 =======
                     'tooltip' => 'Stile dell\'intestazione',
                 ],
@@ -194,6 +228,8 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         'assets' => [
             'label' => 'Risorse',
             'tooltip' => 'Risorse del tema',
@@ -202,6 +238,9 @@ return [
                 'logo' => [
                     'label' => 'Logo',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                     'tooltip' => 'Logo da utilizzare nelle notifiche'],
                 'background' => [
                     'label' => 'Sfondo',
@@ -211,6 +250,7 @@ return [
                     'tooltip' => 'Set di icone del tema']],
             'helper_text' => '',
             'description' => ''],
+<<<<<<< HEAD
 =======
                     'tooltip' => 'Logo da utilizzare nelle notifiche',
                 ],
@@ -227,22 +267,29 @@ return [
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
         'is_default' => [
             'label' => 'Predefinito',
             'tooltip' => 'Imposta come tema predefinito',
             'help' => 'Il tema predefinito verrà utilizzato per tutte le notifiche senza tema specifico',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'description' => ''],
 =======
             'description' => '',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => ''],
+>>>>>>> a988596b (first)
         'is_active' => [
             'label' => 'Attivo',
             'tooltip' => 'Stato di attivazione del tema',
             'help' => 'Solo i temi attivi possono essere utilizzati',
             'helper_text' => '',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'description' => '']],
 =======
@@ -250,17 +297,24 @@ return [
         ],
     ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'description' => '']],
+>>>>>>> a988596b (first)
     'actions' => [
         'preview' => [
             'label' => 'Anteprima',
             'tooltip' => 'Visualizza anteprima del tema',
             'icon' => 'heroicon-o-eye',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'color' => 'primary'],
 =======
             'color' => 'primary',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'color' => 'primary'],
+>>>>>>> a988596b (first)
         'duplicate' => [
             'label' => 'Duplica',
             'tooltip' => 'Crea una copia del tema',
@@ -271,32 +325,44 @@ return [
                 'message' => 'Vuoi creare una copia di questo tema?',
                 'confirm' => 'Sì, duplica',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'cancel' => 'No, annulla']],
 =======
                 'cancel' => 'No, annulla',
             ],
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                'cancel' => 'No, annulla']],
+>>>>>>> a988596b (first)
         'export' => [
             'label' => 'Esporta',
             'tooltip' => 'Esporta configurazione del tema',
             'icon' => 'heroicon-o-arrow-down-tray',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'color' => 'success'],
 =======
             'color' => 'success',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'color' => 'success'],
+>>>>>>> a988596b (first)
         'import' => [
             'label' => 'Importa',
             'tooltip' => 'Importa configurazione del tema',
             'icon' => 'heroicon-o-arrow-up-tray',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'color' => 'warning'],
 =======
             'color' => 'warning',
         ],
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+            'color' => 'warning'],
+>>>>>>> a988596b (first)
         'set_default' => [
             'label' => 'Imposta predefinito',
             'tooltip' => 'Imposta questo tema come predefinito',
@@ -307,6 +373,9 @@ return [
                 'message' => 'Vuoi impostare questo tema come predefinito?',
                 'confirm' => 'Sì, imposta',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
                 'cancel' => 'No, annulla']]],
     'messages' => [
         'preview_title' => [
@@ -333,6 +402,7 @@ return [
             'tooltip' => 'Filtra per tipo di tema']],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label'];
+<<<<<<< HEAD
 =======
                 'cancel' => 'No, annulla',
             ],
@@ -374,3 +444,5 @@ return [
     'plural_label' => 'Missing Plural label',
 ];
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)

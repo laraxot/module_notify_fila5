@@ -31,9 +31,13 @@ related:
 | `bashscripts/html/compare-html-body.py` | Read-only | Engine Python confronto HTML |
 | `laravel/Themes/Sixteen/resources/views/components/blocks/segnalazioni/layout.blade.php` | Modify | Block principale segnalazioni-elenco |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json` | Modify se necessario | Dati JSON pagina |
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+| `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json` | Modify se necessario | Dati JSON pagina |
+>>>>>>> a988596b (first)
 | `laravel/config/local/laraxot/database/content/pages/tests.segnalazioni-elenco.json` | Modify se necessario | Dati JSON pagina |
 | `laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/report.md` | Generated | Output script (sovrascrittura auto) |
 | `laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/summary.json` | Generated | Parity score reale |
@@ -52,9 +56,13 @@ related:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> a988596b (first)
 cd /var/www/_bases/base_ptvx_fila5
 
 bash bashscripts/html/html-structure-compare.sh \
@@ -129,12 +137,18 @@ Nel `report.md` cerca:
 **Regole critiche:**
 - ❌ Nessun testo hardcoded in italiano o inglese
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - ✅ Tutte le stringhe via `__('fixcity::segnalazione.x.y.z.type')`
 - ✅ Formato chiave: `namespace::context.collection.key.type` (es. `fixcity::segnalazione.card.expand.button.label`)
 - ✅ Tutte le stringhe via `__('fixcity::segnalazione.x.y.z.type')`
 - ✅ Formato chiave: `namespace::context.collection.key.type` (es. `fixcity::segnalazione.card.expand.button.label`)
+<<<<<<< HEAD
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - ✅ Tutte le stringhe via `__('laraxot::segnalazione.x.y.z.type')`
 - ✅ Formato chiave: `namespace::context.collection.key.type` (es. `laraxot::segnalazione.card.expand.button.label`)
 - ❌ Non usare formato `_label`, `_text` (underscore) → usare `.label`, `.text` (punto)
@@ -148,9 +162,13 @@ Esempio per un bottone primary mancante:
 {{-- Se nel reference c'è un btn-primary extra nel CTA map --}}
 <a href="{{ $cta['url'] ?? '#' }}" class="btn btn-primary mobile-full py-3 mt-2 mb-4 mb-lg-0">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <span>{{ __('fixcity::segnalazione.map.cta.link.label') }}</span>
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    <span>{{ __('fixcity::segnalazione.map.cta.link.label') }}</span>
+>>>>>>> a988596b (first)
     <span>{{ __('laraxot::segnalazione.map.cta.link.label') }}</span>
 </a>
 ```
@@ -227,9 +245,13 @@ Dal reference, dopo il rating c'è spesso una sezione `id="rating-feedback"`. Co
 {{-- Rating feedback (visibile dopo voto) --}}
 <div class="cmp-rating__answer d-none" id="rating-feedback" aria-live="polite">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <p class="title-medium-2-semi-bold mb-0">{{ __('fixcity::segnalazione.rating.feedback.text') }}</p>
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    <p class="title-medium-2-semi-bold mb-0">{{ __('fixcity::segnalazione.rating.feedback.text') }}</p>
+>>>>>>> a988596b (first)
     <p class="title-medium-2-semi-bold mb-0">{{ __('laraxot::segnalazione.rating.feedback.text') }}</p>
 </div>
 ```
@@ -245,9 +267,13 @@ Dal reference, dopo il rating c'è spesso una sezione `id="rating-feedback"`. Co
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> a988596b (first)
 cd /var/www/_bases/base_ptvx_fila5
 
 bash bashscripts/html/html-structure-compare.sh \
@@ -275,9 +301,13 @@ Rileggi il nuovo `report.md`, identifica ulteriori diff, correggi, ri-esegui.
 **Files:**
 - Modify: `laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/FASE1-FINAL-REPORT.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Modify: `laravel/Themes/Sixteen/docs/body-structure-comparison/INDEX.md`
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- Modify: `laravel/Themes/Sixteen/docs/body-structure-comparison/INDEX.md`
+>>>>>>> a988596b (first)
 - Modify: `laravel/Themes/Sixteen/docs/body-structure-comparison/index.md`
 - Read: `laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/summary.json`
 
@@ -290,14 +320,20 @@ Apri `FASE1-FINAL-REPORT.md` e aggiorna:
 - Checklist completamento
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
 - [ ] **Step 5.2: Aggiorna INDEX.md**
 
 In `laravel/Themes/Sixteen/docs/body-structure-comparison/INDEX.md`, aggiorna la riga di `segnalazioni-elenco` con il parity score reale e la data odierna.
 - [ ] **Step 5.2: Aggiorna INDEX.md**
 
 In `laravel/Themes/Sixteen/docs/body-structure-comparison/INDEX.md`, aggiorna la riga di `segnalazioni-elenco` con il parity score reale e la data odierna.
+<<<<<<< HEAD
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 - [ ] **Step 5.2: Aggiorna index.md**
 
 In `laravel/Themes/Sixteen/docs/body-structure-comparison/index.md`, aggiorna la riga di `segnalazioni-elenco` con il parity score reale e la data odierna.

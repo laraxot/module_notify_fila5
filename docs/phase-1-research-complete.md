@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a988596b (first)
 ---
 title: "✅ PHASE 1 - RICERCA COMPLETATA"
 type: concept
@@ -20,7 +23,10 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 # ✅ PHASE 1 - RICERCA COMPLETATA
 
 **Data**: 2026-04-08  
@@ -40,10 +46,15 @@ related:
    - 6 gap critici identificati
    - Strategia esecuzione multi-agente
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Pattern traduzioni (corretto: `fixcity::segnalazione.fields.title.label`)
 =======
    - Pattern traduzioni (corretto: `ptv::segnalazione.fields.title.label`)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+   - Pattern traduzioni (corretto: `fixcity::segnalazione.fields.title.label`)
+   - Pattern traduzioni (corretto: `ptv::segnalazione.fields.title.label`)
+>>>>>>> a988596b (first)
    - Criteri successo e checklist
 
 2. **GSD-PHASE-1-EXECUTION.md** (19.499 caratteri)
@@ -55,10 +66,15 @@ related:
    - Success criteria
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. **bashscripts/docs/html/INDEX.md** (8.531 caratteri)
 =======
 3. **bashscripts/docs/html/index.md** (8.531 caratteri)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+3. **bashscripts/docs/html/INDEX.md** (8.531 caratteri)
+3. **bashscripts/docs/html/index.md** (8.531 caratteri)
+>>>>>>> a988596b (first)
    - Documentazione strumenti HTML
    - Parity scoring (90%+ PASS, <90% WORK)
    - Troubleshooting guide
@@ -70,10 +86,14 @@ related:
    - Preserva hierarchy, classes, attributes
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **laravel/Themes/Sixteen/docs/00-INDEX.md** (12.926 caratteri)
 =======
 5. **laravel/Themes/Sixteen/docs/00-index-1.md** (12.926 caratteri)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+5. **laravel/Themes/Sixteen/docs/00-index-1.md** (12.926 caratteri)
+>>>>>>> a988596b (first)
    - Master index documentazione
    - Navigazione per topic
    - Fase progression timeline
@@ -205,10 +225,15 @@ Crea: `PHASE-1-FINDINGS.md` con gap list dettagliato
 Modifica:
 - `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 =======
 - `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+- `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> a988596b (first)
 ⏱️ ~40-60 min
 
 ### PASSO 4: Executor #1 re-verifica (Subtask 5)
@@ -221,10 +246,14 @@ Verifica: parity ≥ 90%
 ### PASSO 5: Researcher documenta (Subtask 6)
 Crea: `PHASE-1-COMPLETION-REPORT.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 Aggiorna: `00-INDEX.md`
 =======
 Aggiorna: `00-index-1.md`
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+Aggiorna: `00-index-1.md`
+>>>>>>> a988596b (first)
 ⏱️ ~20-25 min
 
 **TOTAL TIME**: 90-150 minuti (120-150 sequenziale, ~90 parallelizzato)
@@ -236,6 +265,7 @@ Aggiorna: `00-index-1.md`
 ### ✅ CORRETTO
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 {{ trans('fixcity::segnalazione.fields.title.label') }}
 {{ trans('fixcity::segnalazione.filters.category.placeholder') }}
 {{ trans('fixcity::segnalazione.actions.submit.label') }}
@@ -244,6 +274,14 @@ Aggiorna: `00-index-1.md`
 {{ trans('ptv::segnalazione.filters.category.placeholder') }}
 {{ trans('ptv::segnalazione.actions.submit.label') }}
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+{{ trans('fixcity::segnalazione.fields.title.label') }}
+{{ trans('fixcity::segnalazione.filters.category.placeholder') }}
+{{ trans('fixcity::segnalazione.actions.submit.label') }}
+{{ trans('ptv::segnalazione.fields.title.label') }}
+{{ trans('ptv::segnalazione.filters.category.placeholder') }}
+{{ trans('ptv::segnalazione.actions.submit.label') }}
+>>>>>>> a988596b (first)
 ```
 
 ### ❌ SBAGLIATO (DO NOT USE)
@@ -256,10 +294,15 @@ Aggiorna: `00-index-1.md`
 ### Struttura file traduzioni
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // laravel/lang/it/fixcity.php
 =======
 // laravel/lang/it/ptv.php
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+// laravel/lang/it/fixcity.php
+// laravel/lang/it/ptv.php
+>>>>>>> a988596b (first)
 return [
     'segnalazione' => [
         'fields' => [
@@ -281,6 +324,7 @@ return [
 **Leggi in questo ordine**:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **[00-INDEX.md](laravel/Themes/Sixteen/docs/00-INDEX.md)** - Master index (sei qui, ma online)
 2. **[PHASE-1-STRATEGY.md](laravel/Themes/Sixteen/docs/PHASE-1-STRATEGY.md)** - Strategia completa (22k chars)
 3. **[GSD-PHASE-1-EXECUTION.md](laravel/Themes/Sixteen/docs/GSD-PHASE-1-EXECUTION.md)** - Piano esecuzione (19k chars)
@@ -289,6 +333,12 @@ return [
 1. **[00-index-1.md](laravel/Themes/Sixteen/docs/00-index-1.md)** - Master index (sei qui, ma online)
 2. **[PHASE-1-STRATEGY.md](laravel/Themes/Sixteen/docs/PHASE-1-STRATEGY.md)** - Strategia completa (22k chars)
 3. **[GSD-PHASE-1-EXECUTION.md](laravel/Themes/Sixteen/docs/GSD-PHASE-1-EXECUTION.md)** - Piano esecuzione (19k chars)
+=======
+1. **[00-index-1.md](laravel/Themes/Sixteen/docs/00-index-1.md)** - Master index (sei qui, ma online)
+2. **[PHASE-1-STRATEGY.md](laravel/Themes/Sixteen/docs/PHASE-1-STRATEGY.md)** - Strategia completa (22k chars)
+3. **[GSD-PHASE-1-EXECUTION.md](laravel/Themes/Sixteen/docs/GSD-PHASE-1-EXECUTION.md)** - Piano esecuzione (19k chars)
+4. **[bashscripts/docs/html/INDEX.md](bashscripts/docs/html/INDEX.md)** - Documentazione strumenti
+>>>>>>> a988596b (first)
 4. **[bashscripts/docs/html/index.md](bashscripts/docs/html/index.md)** - Documentazione strumenti
 
 ---
@@ -580,7 +630,10 @@ return [
 2. **[PHASE-1-STRATEGY.md](laravel/Themes/Sixteen/docs/PHASE-1-STRATEGY.md)** - Strategia completa (22k chars)
 3. **[GSD-PHASE-1-EXECUTION.md](laravel/Themes/Sixteen/docs/GSD-PHASE-1-EXECUTION.md)** - Piano esecuzione (19k chars)
 4. **[bashscripts/docs/html/index.md](bashscripts/docs/html/index.md)** - Documentazione strumenti
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
 
 ---
 

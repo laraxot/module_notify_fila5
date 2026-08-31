@@ -16,9 +16,13 @@ related:
   - "./final-documentation-report.md"
   - "./final-success-report.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./fixcity-improvement-progress-1.md"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+  - "./fixcity-improvement-progress-1.md"
+>>>>>>> a988596b (first)
   - "./laraxot-improvement-progress-1.md"
 ---
 

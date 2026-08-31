@@ -41,9 +41,12 @@ Netfun utilizza un API token configurato in `config/services.php`:
 return [
     // Altre configurazioni...
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     'netfun' => [
         'token' => env('NETFUN_TOKEN'),
         'sender' => env('NETFUN_SENDER'), // Senza valore predefinito
@@ -72,18 +75,24 @@ return [
         // Vari provider...
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     // Configurazione generica per retry - usata per tutti i provider
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => env('SMS_RETRY_DELAY', 60), // secondi
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     // Configurazione generica per rate limiting - usata per tutti i provider
     'rate_limit' => [
         'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
@@ -91,9 +100,12 @@ return [
         'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     // Altre configurazioni generiche
 ];
 ```
@@ -141,9 +153,12 @@ class SendNetfunSmsAction
 {
     use QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function execute(NetfunSmsData $smsData)
     {
         $config = config('sms.drivers.netfun');
@@ -185,25 +200,34 @@ class AppointmentReminder extends Notification
 {
     protected $appointment;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function __construct($appointment)
     {
         $this->appointment = $appointment;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function via($notifiable)
     {
         return ['mail', 'database', 'netfun'];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
     public function toNetfun($notifiable)
     {
         $phoneNumber = $notifiable->routeNotificationForSms($this);

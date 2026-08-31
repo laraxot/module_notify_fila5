@@ -5,9 +5,13 @@ tags: [architecture, analysis]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "architecture-analysis fixcity architecture deep dive analysis"
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+qmd: "architecture-analysis fixcity architecture deep dive analysis"
+>>>>>>> a988596b (first)
 qmd: "architecture-analysis ptv architecture deep dive analysis"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -1121,9 +1125,13 @@ The frontend follows Italian Public Administration design guidelines:
 
 // Ticket List (AGID-compliant)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-fixcity::blocks.ticket_list.agid />
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+<x-fixcity::blocks.ticket_list.agid />
+>>>>>>> a988596b (first)
 <x-ptv::blocks.ticket_list.agid />
 
 // Forms (Filament + Custom CSS)
