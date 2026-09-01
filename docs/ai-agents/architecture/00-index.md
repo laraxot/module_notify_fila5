@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -22,6 +23,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # Architecture Documentation Index
 
 **Path**: `.agents/docs/architecture/`
@@ -39,6 +42,7 @@ related:
 - [../../../../docs/project/gsd-and-bmad-workflow.md](../../../../docs/project/gsd-and-bmad-workflow.md) — ordine canonico BMAD -> GSD -> Ralph
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [../../ralph/00-INDEX.md](../../ralph/00-INDEX.md) — albero Ralph locale, senza duplicare template nel root del repository
 =======
 - [../../ralph/00-index-1.md](../../ralph/00-index-1.md) — albero Ralph locale, senza duplicare template nel root del repository
@@ -46,6 +50,9 @@ related:
 =======
 - [../../ralph/00-index-1.md](../../ralph/00-index-1.md) — albero Ralph locale, senza duplicare template nel root del repository
 >>>>>>> a988596b (first)
+=======
+- [../../ralph/00-INDEX.md](../../ralph/00-INDEX.md) — albero Ralph locale, senza duplicare template nel root del repository
+>>>>>>> a377e9e6 (.)
 
 ## Quick Decision Guide
 
@@ -59,6 +66,7 @@ related:
 
 ## Navigation
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [../00-INDEX.md](../00-INDEX.md)
@@ -110,3 +118,7 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+- [../00-INDEX.md](../00-INDEX.md)
+- [../../../../AGENTS.md](../../../../AGENTS.md)
+>>>>>>> a377e9e6 (.)

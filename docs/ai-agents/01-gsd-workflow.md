@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🚀 GSD Workflow (Get Shit Done)
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
@@ -226,6 +227,12 @@ GSD maintains these files always loaded in context:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+# 🚀 GSD Workflow (Get Shit Done)
+
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Related**: [02-BMAD-WORKFLOW.md](02-BMAD-WORKFLOW.md) — BMAD Method
+>>>>>>> a377e9e6 (.)
 
 ---
 
@@ -398,6 +405,7 @@ GSD maintains these files always loaded in context:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **BMAD Method**: [02-BMAD-WORKFLOW.md](02-BMAD-WORKFLOW.md)
 - **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
 =======
@@ -408,6 +416,10 @@ GSD maintains these files always loaded in context:
 - **BMAD Method**: [02-BMAD-WORKFLOW.md](02-bmad-workflow.md)
 - **Architecture**: [03-ARCHITECTURE-ZEN.md](03-architecture-zen.md)
 >>>>>>> a988596b (first)
+=======
+- **BMAD Method**: [02-BMAD-WORKFLOW.md](02-BMAD-WORKFLOW.md)
+- **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
+>>>>>>> a377e9e6 (.)
 - **External**: https://github.com/gsd-build/get-shit-done
 
 ---

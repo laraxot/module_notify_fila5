@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -27,6 +28,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # 🚀 START HERE - REPLIKATE Phase 2
 
 **Status**: Phase 1 Analysis Complete ✅  
@@ -189,8 +192,11 @@ JSON Content:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
   laravel/config/local/fixcity/database/content/pages/tests.homepage.json
+<<<<<<< HEAD
   laravel/config/local/ptv/database/content/pages/tests.homepage.json
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 
 CSS Files:
   laravel/Themes/Sixteen/resources/css/
@@ -217,8 +223,11 @@ cd /var/www/_bases/base_ptv_fila5
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 cd /var/www/_bases/base_fixcity_fila5
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptv_fila5
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 
 # View analysis results
 cat /tmp/replikate_analysis_homepage/structure-analysis.txt

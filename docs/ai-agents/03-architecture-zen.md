@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏛️ Architecture Zen Philosophy
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
@@ -35,6 +36,12 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+# 🏛️ Architecture Zen Philosophy
+
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Related**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md) — Filament Widgets
+>>>>>>> a377e9e6 (.)
 
 ---
 
@@ -58,8 +65,11 @@ Modules/Forecast/app/Filament/Widgets/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 Modules/Predict/app/Filament/Widgets/
+<<<<<<< HEAD
 Modules/Forecast/app/Filament/Widgets/
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 Modules/UI/app/Filament/Widgets/
 ```
 
@@ -94,8 +104,11 @@ Modules/Forecast/docs/          # Forecast-specific docs
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 Modules/Predict/docs/          # Predict-specific docs
+<<<<<<< HEAD
 Modules/Forecast/docs/          # Forecast-specific docs
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
   ├── PHILOSOPHY.md
   ├── WIDGETS.md
   └── SEEDERS.md
@@ -121,6 +134,7 @@ Themes/TwentyOne/docs/         # Theme-specific docs
 ❌ WRONG
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @foreach($predicts as $predict)
     <div class="card">{{ $predict->title }}</div>
 @endforeach
@@ -139,21 +153,30 @@ Themes/TwentyOne/docs/         # Theme-specific docs
 >>>>>>> a988596b (first)
 @foreach($forecasts as $forecast)
     <div class="card">{{ $forecast->title }}</div>
+=======
+@foreach($predicts as $predict)
+    <div class="card">{{ $predict->title }}</div>
+>>>>>>> a377e9e6 (.)
 @endforeach
 
 ✅ CORRECT
-<x-page side="content" slug="forecasts.index" />
+<x-page side="content" slug="predicts.index" />
 
-// JSON: forecasts.index.json
+// JSON: predicts.index.json
 {
   "type": "widget",
   "data": {
+<<<<<<< HEAD
     "view": "pub_theme::filament.widgets.forecast-table",
     "widget": "Modules\\Forecast\\Filament\\Widgets\\ForecastTableWidget"
 <<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+    "view": "pub_theme::filament.widgets.predict-table",
+    "widget": "Modules\\Predict\\Filament\\Widgets\\PredictTableWidget"
+>>>>>>> a377e9e6 (.)
   }
 }
 ```
@@ -183,13 +206,17 @@ Themes/TwentyOne/docs/         # Theme-specific docs
 =======
     $probability = $predict->transactions()->sum('amount');
     $participants = $predict->transactions()->distinct('user_id')->count();
+<<<<<<< HEAD
     $probability = $forecast->transactions()->sum('amount');
     $participants = $forecast->transactions()->distinct('user_id')->count();
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 @endphp
 
 ✅ CORRECT
 // Action class
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class CalculatePredictStatsAction {
@@ -209,6 +236,13 @@ class CalculateForecastStatsAction {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+class CalculatePredictStatsAction {
+    public function execute(Predict $predict): array {
+        return [
+            'probability' => $predict->transactions()->sum('amount'),
+            'participants' => $predict->transactions()->distinct('user_id')->count(),
+>>>>>>> a377e9e6 (.)
         ];
     }
 }
@@ -255,6 +289,7 @@ class CalculateForecastStatsAction {
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/Predict/app/Filament/Widgets/PredictTableWidget.php
     ↓
 pub_theme::filament.widgets.predict-table (view namespace)
@@ -264,14 +299,21 @@ Themes/TwentyOne/resources/views/filament/widgets/predict-table.blade.php
 =======
 >>>>>>> a988596b (first)
 Modules/Forecast/app/Filament/Widgets/ForecastTableWidget.php
+=======
+Modules/Predict/app/Filament/Widgets/PredictTableWidget.php
+>>>>>>> a377e9e6 (.)
     ↓
-pub_theme::filament.widgets.forecast-table (view namespace)
+pub_theme::filament.widgets.predict-table (view namespace)
     ↓
+<<<<<<< HEAD
 Themes/TwentyOne/resources/views/filament/widgets/forecast-table.blade.php
 <<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+Themes/TwentyOne/resources/views/filament/widgets/predict-table.blade.php
+>>>>>>> a377e9e6 (.)
 ```
 
 **Benefits**:
@@ -295,8 +337,11 @@ Modules/Forecast/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 Modules/Predict/
+<<<<<<< HEAD
 Modules/Forecast/
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 ├── app/
 │   ├── Models/
 │   ├── Filament/
@@ -309,8 +354,11 @@ Modules/Forecast/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 ├── docs/              ← Treasure map of Predict
+<<<<<<< HEAD
 ├── docs/              ← Treasure map of Forecast
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 │   ├── PHILOSOPHY.md
 │   ├── WIDGETS.md
 │   └── SEEDERS.md
@@ -343,8 +391,11 @@ Modules/Forecast/app/Filament/Widgets/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 Modules/Predict/app/Filament/Widgets/
+<<<<<<< HEAD
 Modules/Forecast/app/Filament/Widgets/
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 ```
 
 ---
@@ -369,8 +420,11 @@ Modules/Forecast/docs/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 Modules/Predict/docs/
+<<<<<<< HEAD
 Modules/Forecast/docs/
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
   └── WIDGETS.md
 ```
 
@@ -390,9 +444,12 @@ Modules/Forecast/docs/
 =======
 @foreach($predicts as $predict)
     <x-predict.card :predict="$predict"/>
+<<<<<<< HEAD
 @foreach($forecasts as $forecast)
     <x-forecast.card :forecast="$forecast"/>
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 @endforeach
 ```
 
@@ -406,8 +463,11 @@ Modules/Forecast/docs/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 <x-page side="content" slug="predicts.index" />
+<<<<<<< HEAD
 <x-page side="content" slug="forecasts.index" />
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 
 // JSON
 {
@@ -420,8 +480,11 @@ Modules/Forecast/docs/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
   "widget": "Modules\\Predict\\Filament\\Widgets\\PredictTableWidget"
+<<<<<<< HEAD
   "widget": "Modules\\Forecast\\Filament\\Widgets\\ForecastTableWidget"
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 }
 ```
 
@@ -439,8 +502,11 @@ Modules/Forecast/docs/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
     $volume = $predict->transactions()->sum('amount');
+<<<<<<< HEAD
     $volume = $forecast->transactions()->sum('amount');
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 @endphp
 ```
 
@@ -459,9 +525,12 @@ class CalculateVolumeAction {
 =======
     public function execute(Predict $predict) {
         return $predict->transactions()->sum('amount');
+<<<<<<< HEAD
     public function execute(Forecast $forecast) {
         return $forecast->transactions()->sum('amount');
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
     }
 }
 
@@ -498,6 +567,7 @@ Before committing:
 
 ## 🔗 Related Documentation
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - **Filament Philosophy**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md)
@@ -828,6 +898,10 @@ Before committing:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+- **Filament Philosophy**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md)
+- **Front Office Audit**: [05-FRONT-OFFICE-AUDIT.md](05-FRONT-OFFICE-AUDIT.md)
+>>>>>>> a377e9e6 (.)
 - **External**: https://github.com/nWidart/laravel-modules
 
 ---

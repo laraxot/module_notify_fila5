@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -27,6 +28,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # 🎯 PHASE 1 EXECUTION DASHBOARD
 ## Multi-Agent Coordination Board
 
@@ -136,8 +139,11 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 - File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+<<<<<<< HEAD
 - File: `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 - Tasks:
   - Verify all required sections present
   - Check translation keys are correct
@@ -158,8 +164,11 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 - [ ] Understand translation pattern: `fixcity::segnalazione.fields.title.label`
+<<<<<<< HEAD
 - [ ] Understand translation pattern: `ptv::segnalazione.fields.title.label`
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 - [ ] Know NOT to create separate segnalazioni-elenco.blade.php
 - [ ] Have reference page ready: https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazioni-elenco.html
 
@@ -349,6 +358,7 @@ Phase 2 planning can begin
 - [ ] Lessons learned captured
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] 00-INDEX.md updated
 =======
 - [ ] 00-index-1.md updated
@@ -356,6 +366,9 @@ Phase 2 planning can begin
 =======
 - [ ] 00-index-1.md updated
 >>>>>>> a988596b (first)
+=======
+- [ ] 00-INDEX.md updated
+>>>>>>> a377e9e6 (.)
 - [ ] Phase 2 strategy outlined
 
 ---
@@ -379,6 +392,7 @@ Phase 2 planning can begin
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 - `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+<<<<<<< HEAD
 - `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
 >>>>>>> a988596b (first)
 
@@ -811,6 +825,8 @@ Phase 2 planning can begin
 
 **WILL VERIFY (Subtask 4):**
 - `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
+=======
+>>>>>>> a377e9e6 (.)
 
 **WILL CREATE:**
 - `laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio/PHASE-1-FINDINGS.md`
@@ -833,11 +849,15 @@ Phase 2 planning can begin
 - EXECUTOR-2-SUBTASKS-3-4.md (for Executor #2)
 
 **Tools** (5-10 min read):
+<<<<<<< HEAD
 - bashscripts/docs/html/index.md (comparison tools)
 <<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+- bashscripts/docs/html/INDEX.md (comparison tools)
+>>>>>>> a377e9e6 (.)
 
 ---
 

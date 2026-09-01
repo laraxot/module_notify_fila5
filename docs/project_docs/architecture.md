@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # FixCity - Architecture Documentation
 =======
 ---
@@ -37,6 +38,9 @@ related:
 # FixCity - Architecture Documentation
 # Notify - Architecture Documentation
 >>>>>>> a988596b (first)
+=======
+# FixCity - Architecture Documentation
+>>>>>>> a377e9e6 (.)
 
 **Version:** 4.0  
 **Date:** 2025-10-01  
@@ -98,8 +102,11 @@ Modules/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 ├── Fixcity/          # Main application logic
+<<<<<<< HEAD
 ├── App/          # Main application logic
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 ├── Blog/             # Content management
 ├── Cms/              # CMS functionality
 ├── Geo/              # Geographic services
@@ -131,8 +138,11 @@ graph TD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
     B --> E[Fixcity]
+<<<<<<< HEAD
     B --> E[App]
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
     C --> E
     E --> F[Blog]
     E --> G[Cms]

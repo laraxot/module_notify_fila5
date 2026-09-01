@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🗺️ FIXCITY - PROJECT ROADMAP COMPLETA
 
 > **Data**: 2025-10-01
@@ -719,6 +720,8 @@ related:
   - "./action-plan-immediate.md"
 ---
 
+=======
+>>>>>>> a377e9e6 (.)
 # ROADMAP PRINCIPALE - Progetto Fixcity
 
 ## Scopo del Progetto

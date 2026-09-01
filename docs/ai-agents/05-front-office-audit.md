@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📋 Front Office Pages Audit Checklist
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
@@ -35,6 +36,12 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+# 📋 Front Office Pages Audit Checklist
+
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
+>>>>>>> a377e9e6 (.)
 
 ---
 
@@ -51,8 +58,11 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 - [ ] ✅ NO hardcoded links (`/predicts`, `/register`)
+<<<<<<< HEAD
 - [ ] ✅ NO hardcoded links (`/forecasts`, `/register`)
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 
 ### 2. Filament Forms & Tables
 - [ ] ✅ Forms use Filament Form Widget (NOT custom blade)
@@ -106,8 +116,11 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 ### Predict Components (50+)
+<<<<<<< HEAD
 ### Forecast Components (50+)
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 
 | Category | Count | Status |
 |----------|-------|--------|
@@ -120,8 +133,11 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 | **Predict Components** | 15 | ⚠️ Audit |
+<<<<<<< HEAD
 | **Forecast Components** | 15 | ⚠️ Audit |
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 | **Article List** | 20+ | ⚠️ Audit |
 | **Shared Components** | 10+ | ⚠️ Audit |
 
@@ -147,6 +163,7 @@ related:
 
 ## 🔗 Related Documentation
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
@@ -269,6 +286,11 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+- **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
+- **Filament**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md)
+- **Cinematic**: [06-CINEMATIC-EFFECTS.md](06-CINEMATIC-EFFECTS.md)
+>>>>>>> a377e9e6 (.)
 - **Full Audit**: `docs/project/FRONT_OFFICE_PAGES_AUDIT.md`
 
 ---

@@ -21,6 +21,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
  * @property string|null $name
 =======
@@ -35,10 +36,15 @@ use Override;
  * @property int $id
  * @property string|null $name
 >>>>>>> a988596b (first)
+=======
+ * @property int $id
+ * @property string|null $name
+>>>>>>> a377e9e6 (.)
  * @property string|null $slug
  * @property string|null $description
  * @property string|null $category
  * @property bool $is_active
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @property array<string, mixed>|null $channels
@@ -82,6 +88,8 @@ use Override;
  *
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
+=======
+>>>>>>> a377e9e6 (.)
  * @property array<string, mixed>|null $channels
  * @property array<string, mixed>|null $settings
  * @property string|null $template
@@ -90,12 +98,15 @@ use Override;
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
  *
+<<<<<<< HEAD
 >>>>>>> a988596b (first)
 =======
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationType newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationType newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationType query()
 >>>>>>> 98d0a12c (.)
+=======
+>>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
 class NotificationType extends Model

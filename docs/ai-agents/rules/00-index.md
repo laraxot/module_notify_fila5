@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔴 CRITICAL RULES - AI Agents
 
 **Path**: `./.agents/docs/rules/00-INDEX.md`  
@@ -33,6 +34,11 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+# 🔴 CRITICAL RULES - AI Agents
+
+**Path**: `./.agents/docs/rules/00-INDEX.md`  
+>>>>>>> a377e9e6 (.)
 **Last Updated**: 2026-03-26  
 **Status**: ✅ ALWAYS ACTIVE  
 **Priority**: BLOCKER (violation = STOP immediately)
@@ -49,8 +55,11 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 > **MAI** creare blade personalizzati per liste di outcomes, predict, o dati tabellari.
+<<<<<<< HEAD
 > **MAI** creare blade personalizzati per liste di outcomes, forecast, o dati tabellari.
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 > **SEMPRE** usare Filament Table Widget che ha già:
 > - ✅ Search (debounce 400ms)
 > - ✅ Sorting (multi-column)
@@ -74,8 +83,11 @@ class ForecastTableWidget extends TableWidget
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 class PredictTableWidget extends TableWidget
+<<<<<<< HEAD
 class ForecastTableWidget extends TableWidget
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 {
     public function table(Table $table): Table
     {
@@ -149,8 +161,11 @@ if ($isBinary) {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 > Container deve essere **agnostico** (predicts, articles, events, etc.)
+<<<<<<< HEAD
 > Container deve essere **agnostico** (forecasts, articles, events, etc.)
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 
 ### ✅ CORRECT - Agnostic Container
 
@@ -165,8 +180,11 @@ if ($isBinary) {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
     @livewire('view-predict-widget', ['predict' => $predict])
+<<<<<<< HEAD
     @livewire('view-forecast-widget', ['forecast' => $forecast])
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 </div>
 ```
 
@@ -182,8 +200,11 @@ if ($isBinary) {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 @if($container0 === 'predicts')
+<<<<<<< HEAD
 @if($container0 === 'forecasts')
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
     {{-- domain logic --}}
 @endif
 ```
@@ -209,8 +230,11 @@ class BuildOutcomesAction extends Action
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
     public function execute(Predict $predict): array
+<<<<<<< HEAD
     public function execute(Forecast $forecast): array
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
     {
         // Business logic here
     }
@@ -264,6 +288,7 @@ composer phpstan
 ### Project Rules
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[00-INDEX.md](00-INDEX.md)** - Master rules index
 =======
 - **[00-index-1.md](00-index-1.md)** - Master rules index
@@ -271,11 +296,15 @@ composer phpstan
 =======
 - **[00-index-1.md](00-index-1.md)** - Master rules index
 >>>>>>> a988596b (first)
+=======
+- **[00-INDEX.md](00-INDEX.md)** - Master rules index
+>>>>>>> a377e9e6 (.)
 - **[multi-outcome-universal.md](multi-outcome-universal.md)** - Multi-outcome principle
 - **[container-agnostic.md](container-agnostic.md)** - Container agnostic rule
 - **[actions-over-services.md](actions-over-services.md)** - Actions over services
 
 ### Guidelines
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - **[../guidelines/00-INDEX.md](../guidelines/00-INDEX.md)** - Guidelines index
@@ -501,6 +530,9 @@ composer phpstan
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+- **[../guidelines/00-INDEX.md](../guidelines/00-INDEX.md)** - Guidelines index
+>>>>>>> a377e9e6 (.)
 - **[../guidelines/filament-tables.md](../guidelines/filament-tables.md)** - Filament tables guide
 
 ### Skills

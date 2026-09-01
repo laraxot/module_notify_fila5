@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -27,6 +28,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # 📖 LEGGI QUI DOMANI MATTINA - 2 Ottobre 2025
 
 Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
@@ -80,8 +83,11 @@ cd /var/www/_bases/base_ptv_fila5_mono/laravel
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 ./vendor/bin/phpstan analyse Modules/Xot --memory-limit=-1
 ```
 
@@ -157,6 +163,7 @@ cd /var/www/_bases/base_ptv_fila5_mono/laravel
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
 >>>>>>> a988596b (first)
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
@@ -437,6 +444,8 @@ cd /var/www/_bases/base_ptv_fila5_mono/laravel
 **Verifica Completa**:
 ```bash
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
+=======
+>>>>>>> a377e9e6 (.)
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 ```
 
@@ -518,11 +527,15 @@ php artisan test --filter=BaseUserTest
 - ❌ Non usare `->label()`, `->placeholder()`, `->tooltip()`
 
 ### ✅ Sempre Fare
+<<<<<<< HEAD
 - ✅ Eseguire da `/var/www/_bases/base_ptv_fila5_mono/laravel/`
 <<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+- ✅ Eseguire da `/var/www/_bases/base_fixcity_fila5_mono/laravel/`
+>>>>>>> a377e9e6 (.)
 - ✅ Verificare ogni fix con PHPStan
 - ✅ Usare sempre classi XotBase
 - ✅ Aggiornare docs dopo ogni correzione

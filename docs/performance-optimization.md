@@ -4,6 +4,7 @@
 =======
 >>>>>>> a988596b (first)
 ---
+<<<<<<< HEAD
 title: "Analisi e Ottimizzazione delle Performance"
 module: notify
 type: integration
@@ -268,6 +269,8 @@ return [
 <!-- Merged from PERFORMANCE-OPTIMIZATION.md, which collided with this file on case-insensitive filesystems. -->
 
 ---
+=======
+>>>>>>> a377e9e6 (.)
 title: "Performance Optimization — Module Notify"
 type: documentation
 created: 2026-05-11
@@ -287,7 +290,7 @@ related:
 **Dopo**: Carico solo what's needed (~2K startup)
 
 \`\`\`diff
-- 150+ rules embeddate in agents.md
+- 150+ rules embeddate in AGENTS.md
 + 0 rules embeddate — tutte on-demand
 \`\`\`
 
@@ -312,7 +315,7 @@ related:
 
 ### 4. Wiki Indici Locali
 
-Ogni modulo ha i propri `rules/skills/commands/memories/index.md`:
+Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
 - Ricerca più rapida (scope limitato)
 - Context rilevante per il modulo
 - Non mischia contenuti eterogenei
@@ -383,8 +386,8 @@ context-mode ctx-stats
 ## Riferimenti
 
 - [Global Performance Guide](../../docs/wiki/concepts/performance-optimization.md)
-- [On-Demand Pattern](./on-demand-pattern.md)
-- [QMD Setup](./qmd-setup.md)
+- [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
+- [QMD Setup](./QMD-SETUP.md)
 
 ---
 *Status: Ottimizzato | Token risparmiati: ~48K per session*

@@ -25,16 +25,20 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * @property int|string $id
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
  * @property int|null $template_id
  * @property string|null $mailable_type
  * @property int|string|null $mailable_id
  * @property string|null $status
  * @property string|null $status_message
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @property array<string, mixed>|null $data
@@ -47,11 +51,16 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property array<string, mixed>|null $data
  * @property array<string, mixed>|null $metadata
 >>>>>>> a988596b (first)
+=======
+ * @property array<string, mixed>|null $data
+ * @property array<string, mixed>|null $metadata
+>>>>>>> a377e9e6 (.)
  * @property Carbon|null $sent_at
  * @property Carbon|null $delivered_at
  * @property Carbon|null $failed_at
  * @property Carbon|null $opened_at
  * @property Carbon|null $clicked_at
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read ProfileContract|null $creator
@@ -105,6 +114,19 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplateLog newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplateLog query()
 >>>>>>> 98d0a12c (.)
+=======
+ * @property-read ProfileContract|null $creator
+ * @property-read Model $mailable
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read MailTemplate|null $template
+ * @property-read ProfileContract|null $updater
+ *
+ * @method static Builder<static>|MailTemplateLog newModelQuery()
+ * @method static Builder<static>|MailTemplateLog newQuery()
+ * @method static Builder<static>|MailTemplateLog query()
+ *
+>>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
 class MailTemplateLog extends BaseModel

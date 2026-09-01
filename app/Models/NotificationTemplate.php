@@ -34,8 +34,11 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
  * @property string|null $name
  * @property string|null $code
  * @property string|null $subject
@@ -49,16 +52,20 @@ use Spatie\Translatable\HasTranslations;
  * @property array<string, mixed>|null $grapesjs_data
  * @property NotificationTypeEnum $type
  * @property-read ProfileContract|null $creator
+<<<<<<< HEAD
 =======
  * @property \Modules\Notify\Enums\NotificationTypeEnum $type
  * @property-read \Modules\WorkOrder\Models\Profile|null $creator
  * @property-read \Modules\WorkOrder\Models\Profile|null $deleter
 >>>>>>> 98d0a12c (.)
+=======
+>>>>>>> a377e9e6 (.)
  * @property-read string $channels_label
- * @property-read array $translatable_columns_from
- * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read list<string> $translatable_columns_from
+ * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read mixed $translations
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read ProfileContract|null $updater
 <<<<<<< HEAD
@@ -101,6 +108,11 @@ use Spatie\Translatable\HasTranslations;
  *
  * @method static Builder<static>|NotificationTemplate active()
 >>>>>>> a988596b (first)
+=======
+ * @property-read ProfileContract|null $updater
+ *
+ * @method static Builder<static>|NotificationTemplate active()
+>>>>>>> a377e9e6 (.)
  * @method static Builder<static>|NotificationTemplate forCategory(string $category)
  * @method static Builder<static>|NotificationTemplate forChannel(string $channel)
  * @method static Builder<static>|NotificationTemplate newModelQuery()
@@ -108,12 +120,16 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate query()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array<int, string> $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array<int, string> $locales)
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property string $id
  * @property string|null $description
@@ -185,6 +201,9 @@ use Spatie\Translatable\HasTranslations;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate whereLocale(string $column, string $locale)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplate whereLocales(string $column, array $locales)
 >>>>>>> 98d0a12c (.)
+=======
+ *
+>>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
 class NotificationTemplate extends BaseModel implements HasMedia

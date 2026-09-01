@@ -14,12 +14,15 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  * @method static Builder<static>|NotifyThemeable newModelQuery()
  * @method static Builder<static>|NotifyThemeable newQuery()
  * @method static Builder<static>|NotifyThemeable query()
 =======
+=======
+>>>>>>> a377e9e6 (.)
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
@@ -27,7 +30,10 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|NotifyThemeable newQuery()
  * @method static Builder<static>|NotifyThemeable query()
  *
+<<<<<<< HEAD
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
  * @property string $id
  * @property string|null $model_type
  * @property int|null $model_id
@@ -39,9 +45,13 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  *
 >>>>>>> a988596b (first)
+=======
+ *
+>>>>>>> a377e9e6 (.)
  * @method static Builder<static>|NotifyThemeable whereCreatedAt($value)
  * @method static Builder<static>|NotifyThemeable whereCreatedBy($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
@@ -52,6 +62,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|NotifyThemeable whereNotifyThemeId($value)
  * @method static Builder<static>|NotifyThemeable whereUpdatedAt($value)
  * @method static Builder<static>|NotifyThemeable whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read \Modules\User\Models\Profile|null $deleter
 =======
@@ -98,6 +109,9 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotifyThemeable newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotifyThemeable query()
 >>>>>>> 98d0a12c (.)
+=======
+ *
+>>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

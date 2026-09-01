@@ -7,6 +7,7 @@ tags: [on-demand, pattern, wiki, qmd]
 related:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -118,6 +119,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
   - ../../docs/wiki/rules/on-demand-pattern.md
   - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
 ---
@@ -171,10 +174,14 @@ qmd search "<topic>"
 └── wiki/                    # Knowledge base locale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a377e9e6 (.)
     ├── rules/INDEX.md      # Indice rules modulo-specifiche
     ├── skills/INDEX.md     # Indice skills modulo-specifiche
     ├── commands/INDEX.md   # Indici commands
     └── memories/INDEX.md   # Indice memories
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -186,6 +193,8 @@ qmd search "<topic>"
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 \`\`\`
 
 ## Quick Reference
@@ -201,6 +210,7 @@ qmd search "<topic>"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
 =======
 1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
@@ -208,6 +218,9 @@ qmd search "<topic>"
 =======
 1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
 >>>>>>> a988596b (first)
+=======
+1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
+>>>>>>> a377e9e6 (.)
 2. **Carica only what you need** — Ogni task carica max 3-5 file
 3. **Mantieni la wiki aggiornata** — Dopo ogni task, aggiorna ./laravel/Modules/Notify/docs/wiki/log.md
 4. **Rispetta la trigger map** — Se esiste, usala; altrimenti usa qmd search

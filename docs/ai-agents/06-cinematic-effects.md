@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎨 Cinematic Effects & Particles
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
@@ -157,6 +158,12 @@ Based on Berger+Team study (31 Italian sources):
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+# 🎨 Cinematic Effects & Particles
+
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Related**: [06-CINEMATIC-EFFECTS.md](06-CINEMATIC-EFFECTS.md) — Full guide
+>>>>>>> a377e9e6 (.)
 
 ---
 

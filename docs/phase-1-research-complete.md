@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -27,6 +28,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # ✅ PHASE 1 - RICERCA COMPLETATA
 
 **Data**: 2026-04-08  
@@ -53,8 +56,11 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
    - Pattern traduzioni (corretto: `fixcity::segnalazione.fields.title.label`)
+<<<<<<< HEAD
    - Pattern traduzioni (corretto: `ptv::segnalazione.fields.title.label`)
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
    - Criteri successo e checklist
 
 2. **GSD-PHASE-1-EXECUTION.md** (19.499 caratteri)
@@ -73,8 +79,11 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 3. **bashscripts/docs/html/INDEX.md** (8.531 caratteri)
+<<<<<<< HEAD
 3. **bashscripts/docs/html/index.md** (8.531 caratteri)
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
    - Documentazione strumenti HTML
    - Parity scoring (90%+ PASS, <90% WORK)
    - Troubleshooting guide
@@ -87,6 +96,7 @@ related:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **laravel/Themes/Sixteen/docs/00-INDEX.md** (12.926 caratteri)
 =======
 5. **laravel/Themes/Sixteen/docs/00-index-1.md** (12.926 caratteri)
@@ -94,6 +104,9 @@ related:
 =======
 5. **laravel/Themes/Sixteen/docs/00-index-1.md** (12.926 caratteri)
 >>>>>>> a988596b (first)
+=======
+5. **laravel/Themes/Sixteen/docs/00-INDEX.md** (12.926 caratteri)
+>>>>>>> a377e9e6 (.)
    - Master index documentazione
    - Navigazione per topic
    - Fase progression timeline
@@ -232,6 +245,7 @@ Modifica:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 - `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+<<<<<<< HEAD
 - `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
 >>>>>>> a988596b (first)
 ⏱️ ~40-60 min
@@ -569,6 +583,8 @@ Crea: `PHASE-1-FINDINGS.md` con gap list dettagliato
 Modifica:
 - `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
 - `laravel/config/local/ptv/database/content/pages/tests.segnalazioni-elenco.json`
+=======
+>>>>>>> a377e9e6 (.)
 ⏱️ ~40-60 min
 
 ### PASSO 4: Executor #1 re-verifica (Subtask 5)
@@ -591,9 +607,9 @@ Aggiorna: `00-INDEX.md`
 
 ### ✅ CORRETTO
 ```blade
-{{ trans('ptv::segnalazione.fields.title.label') }}
-{{ trans('ptv::segnalazione.filters.category.placeholder') }}
-{{ trans('ptv::segnalazione.actions.submit.label') }}
+{{ trans('fixcity::segnalazione.fields.title.label') }}
+{{ trans('fixcity::segnalazione.filters.category.placeholder') }}
+{{ trans('fixcity::segnalazione.actions.submit.label') }}
 ```
 
 ### ❌ SBAGLIATO (DO NOT USE)
@@ -605,7 +621,7 @@ Aggiorna: `00-INDEX.md`
 
 ### Struttura file traduzioni
 ```php
-// laravel/lang/it/ptv.php
+// laravel/lang/it/fixcity.php
 return [
     'segnalazione' => [
         'fields' => [
@@ -626,14 +642,18 @@ return [
 
 **Leggi in questo ordine**:
 
-1. **[00-index.md](laravel/Themes/Sixteen/docs/00-index.md)** - Master index (sei qui, ma online)
+1. **[00-INDEX.md](laravel/Themes/Sixteen/docs/00-INDEX.md)** - Master index (sei qui, ma online)
 2. **[PHASE-1-STRATEGY.md](laravel/Themes/Sixteen/docs/PHASE-1-STRATEGY.md)** - Strategia completa (22k chars)
 3. **[GSD-PHASE-1-EXECUTION.md](laravel/Themes/Sixteen/docs/GSD-PHASE-1-EXECUTION.md)** - Piano esecuzione (19k chars)
+<<<<<<< HEAD
 4. **[bashscripts/docs/html/index.md](bashscripts/docs/html/index.md)** - Documentazione strumenti
 <<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+4. **[bashscripts/docs/html/INDEX.md](bashscripts/docs/html/INDEX.md)** - Documentazione strumenti
+>>>>>>> a377e9e6 (.)
 
 ---
 

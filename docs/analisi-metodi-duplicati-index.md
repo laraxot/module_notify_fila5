@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -27,6 +28,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # 📚 INDICE COMPLETO - Analisi Metodi Duplicati
 
 > 🐄✨ **Navigazione Completa dei Documenti di Analisi**
@@ -36,6 +39,7 @@ related:
 ## 🎯 Documenti Principali (START HERE!)
 
 ### 1. 🏆 MASTER EDITION - Il Documento Definitivo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 📄 **File:** [analisi-metodi-duplicati-MASTER.md](./analisi-metodi-duplicati-MASTER.md)
@@ -304,6 +308,9 @@ Che questo indice ti guidi verso la saggezza del refactoring perfetto!
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+📄 **File:** [analisi-metodi-duplicati-MASTER.md](./analisi-metodi-duplicati-MASTER.md)
+>>>>>>> a377e9e6 (.)
 
 **Contenuto:**
 - ✅ Dati REALI dal codebase (non stime!)
@@ -437,6 +444,7 @@ Che questo indice ti guidi verso la saggezza del refactoring perfetto!
 ### Per Developer che Inizia il Refactoring
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-MASTER.md) - Leggere TUTTO (2-3 ore)
 =======
 1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-master.md) - Leggere TUTTO (2-3 ore)
@@ -444,6 +452,9 @@ Che questo indice ti guidi verso la saggezza del refactoring perfetto!
 =======
 1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-master.md) - Leggere TUTTO (2-3 ore)
 >>>>>>> a988596b (first)
+=======
+1. 📖 [MASTER EDITION](./analisi-metodi-duplicati-MASTER.md) - Leggere TUTTO (2-3 ore)
+>>>>>>> a377e9e6 (.)
 2. 📖 [Xot Module](../Modules/Xot/docs/analisi-metodi-duplicati.md) - Capire modulo base
 3. 📖 [Comment Module - METODI_DUPLICATI_ANALISI](../Modules/Comment/docs/METODI_DUPLICATI_ANALISI.md) - Primo test migration
 4. 🚀 Iniziare implementazione seguendo MASTER guide

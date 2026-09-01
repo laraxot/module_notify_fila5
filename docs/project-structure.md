@@ -6,6 +6,7 @@ updated: 2026-05-11
 tags: [structure, architecture, module]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -169,6 +170,8 @@ tags: [structure, architecture, module]
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 ---
 
 # Project Structure — Module **Notify**
@@ -183,6 +186,7 @@ tags: [structure, architecture, module]
 │   ├── concepts/                 # Topic/theme pages
 │   ├── entities/                 # Organization/person pages
 │   ├── rules/                    # ⚠️ 151+ regole progettuali
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 │   │   ├── 00-INDEX.md          # Indice regole
@@ -200,26 +204,34 @@ tags: [structure, architecture, module]
 =======
 >>>>>>> a988596b (first)
 │   │   ├── 00-index.md          # Indice regole
+=======
+│   │   ├── 00-INDEX.md          # Indice regole
+>>>>>>> a377e9e6 (.)
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
 │   ├── skills/                   # Skill progettuali
-│   │   ├── index.md
+│   │   ├── INDEX.md
 │   │   └── *.md
 │   ├── commands/                 # Comandi progettuali
-│   │   ├── index.md
+│   │   ├── INDEX.md
 │   │   └── *.md
 │   ├── memories/                 # Memorie progettuali
+<<<<<<< HEAD
 │   │   ├── index.md
 <<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+│   │   ├── INDEX.md
+>>>>>>> a377e9e6 (.)
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
 │   └── troubleshooting/          # Bug fixes, error resolutions
 ├── ON-DEMAND-PATTERN.md          # 🌟 QUESTO FILE — Pattern on-demand
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
@@ -229,6 +241,9 @@ tags: [structure, architecture, module]
 =======
 ├── architecture.md               # (opzionale) Architettura modulo
 >>>>>>> a988596b (first)
+=======
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+>>>>>>> a377e9e6 (.)
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 
@@ -302,6 +317,7 @@ mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,t
 # 2. Crea INDEX files (già creati)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 =======
 cp docs/wiki/rules/index.md docs/wiki/rules/
@@ -309,6 +325,9 @@ cp docs/wiki/rules/index.md docs/wiki/rules/
 =======
 cp docs/wiki/rules/index.md docs/wiki/rules/
 >>>>>>> a988596b (first)
+=======
+cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+>>>>>>> a377e9e6 (.)
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

@@ -29,6 +29,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int|null $template_id
 =======
  * @property int $id
@@ -37,12 +38,16 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
  * @property int|null $template_id
 >>>>>>> a988596b (first)
+=======
+ * @property int|null $template_id
+>>>>>>> a377e9e6 (.)
  * @property string|null $subject
  * @property string|null $body_html
  * @property string|null $body_text
  * @property array<int, string>|null $channels
  * @property array<string, mixed>|null $variables
  * @property array<string, mixed>|null $conditions
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -96,6 +101,19 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplateVersion newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationTemplateVersion query()
 >>>>>>> 98d0a12c (.)
+=======
+ * @property int|string|null $version
+ * @property-read ProfileContract|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read NotificationTemplate|null $template
+ * @property-read ProfileContract|null $updater
+ *
+ * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
+ * @method static Builder<static>|NotificationTemplateVersion newQuery()
+ * @method static Builder<static>|NotificationTemplateVersion query()
+ *
+>>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
 class NotificationTemplateVersion extends BaseModel

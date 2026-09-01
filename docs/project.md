@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -73,6 +74,8 @@ Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segn
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # Base Fixcity Fila5 — PROJECT.md
 
 ## Context
@@ -107,6 +110,7 @@ Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segn
 - CSS scoped overrides → never mutate Filament markup
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Multilingual: all strings via `__('fixcity::ticket.*')`
 =======
 - Multilingual: all strings via `__('ptv::ticket.*')`
@@ -114,3 +118,6 @@ Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segn
 =======
 - Multilingual: all strings via `__('ptv::ticket.*')`
 >>>>>>> a988596b (first)
+=======
+- Multilingual: all strings via `__('fixcity::ticket.*')`
+>>>>>>> a377e9e6 (.)

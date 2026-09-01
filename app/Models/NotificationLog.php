@@ -17,6 +17,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
  * @property-read ProfileContract|null $creator
@@ -151,6 +152,62 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationLog query()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationLog withStatus(string $status)
 >>>>>>> 98d0a12c (.)
+=======
+ * @property-read ProfileContract|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read Model $notifiable
+ * @property-read NotificationTemplate|null $template
+ * @property-read ProfileContract|null $updater
+ *
+ * @method static Builder<static>|NotificationLog forChannel(string $channel)
+ * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
+ * @method static Builder<static>|NotificationLog newModelQuery()
+ * @method static Builder<static>|NotificationLog newQuery()
+ * @method static Builder<static>|NotificationLog query()
+ * @method static Builder<static>|NotificationLog withStatus(string $status)
+ *
+ * @property string $id
+ * @property string|null $template_id
+ * @property string $notifiable_type
+ * @property string $notifiable_id
+ * @property string $channel
+ * @property string $status
+ * @property string|null $status_message
+ * @property array<array-key, mixed>|null $data
+ * @property array<array-key, mixed>|null $metadata
+ * @property string|null $tenant_id
+ * @property Carbon|null $sent_at
+ * @property Carbon|null $delivered_at
+ * @property Carbon|null $failed_at
+ * @property Carbon|null $opened_at
+ * @property Carbon|null $clicked_at
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ *
+ * @method static Builder<static>|NotificationLog whereChannel($value)
+ * @method static Builder<static>|NotificationLog whereClickedAt($value)
+ * @method static Builder<static>|NotificationLog whereCreatedAt($value)
+ * @method static Builder<static>|NotificationLog whereCreatedBy($value)
+ * @method static Builder<static>|NotificationLog whereData($value)
+ * @method static Builder<static>|NotificationLog whereDeliveredAt($value)
+ * @method static Builder<static>|NotificationLog whereFailedAt($value)
+ * @method static Builder<static>|NotificationLog whereId($value)
+ * @method static Builder<static>|NotificationLog whereMetadata($value)
+ * @method static Builder<static>|NotificationLog whereNotifiableId($value)
+ * @method static Builder<static>|NotificationLog whereNotifiableType($value)
+ * @method static Builder<static>|NotificationLog whereOpenedAt($value)
+ * @method static Builder<static>|NotificationLog whereSentAt($value)
+ * @method static Builder<static>|NotificationLog whereStatus($value)
+ * @method static Builder<static>|NotificationLog whereStatusMessage($value)
+ * @method static Builder<static>|NotificationLog whereTemplateId($value)
+ * @method static Builder<static>|NotificationLog whereTenantId($value)
+ * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
+ * @method static Builder<static>|NotificationLog whereUpdatedBy($value)
+ *
+>>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
 class NotificationLog extends BaseModel

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -27,6 +28,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # LLM Wiki Quick Reference
 
 > **Based on**: Karpathy's LLM Wiki pattern
@@ -152,8 +155,11 @@ bashscripts/ai/init-llm-wiki.sh module App
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 bashscripts/ai/init-llm-wiki.sh module Fixcity
+<<<<<<< HEAD
 bashscripts/ai/init-llm-wiki.sh module App
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 bashscripts/ai/init-llm-wiki.sh theme Sixteen
 ```
 
@@ -187,8 +193,11 @@ qmd serve ./docs/wiki
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 2. Select: `/var/www/_bases/base_fixcity_fila5/docs`
+<<<<<<< HEAD
 2. Select: `/var/www/_bases/base_ptvx_fila5/docs`
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 3. Configuration already in `.obsidian/`
 
 ## Quality Checklist
@@ -234,8 +243,11 @@ Templates available:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 - [Agent Instructions](wiki/AGENTS.md)
+<<<<<<< HEAD
 - [Agent Instructions](wiki/agents.md)
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 - [Wiki Overview](wiki/overview.md)
 - [Obsidian Setup](.obsidian/README.md)
 - [Module Wiki Guide](Modules/Xot/docs/llm-wiki-integration.md)

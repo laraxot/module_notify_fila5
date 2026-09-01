@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -480,6 +481,8 @@ Modules/ModuleName/
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # Architecture Diagrams & Visual Reference
 
 **📍 Cross-References:**
@@ -606,6 +609,7 @@ themes/
 │   ├── docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   │   ├── 00-INDEX.md ◄────────────────┐
 =======
 │   │   ├── 00-index.md ◄────────────────┐
@@ -613,6 +617,9 @@ themes/
 =======
 │   │   ├── 00-index.md ◄────────────────┐
 >>>>>>> a988596b (first)
+=======
+│   │   ├── 00-INDEX.md ◄────────────────┐
+>>>>>>> a377e9e6 (.)
 │   │   ├── architecture/                │
 │   │   │   ├── layout-hierarchy.md      │
 │   │   │   └── component-structure.md   │
@@ -687,6 +694,7 @@ HTTP Request: /it/tests/homepage
 │  Load from JSON config               │
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 │  laravel/config/local/fixcity/       │
 =======
 │  laravel/config/local/ptv/       │
@@ -694,6 +702,9 @@ HTTP Request: /it/tests/homepage
 =======
 │  laravel/config/local/ptv/       │
 >>>>>>> a988596b (first)
+=======
+│  laravel/config/local/fixcity/       │
+>>>>>>> a377e9e6 (.)
 │  database/content/pages/[slug].json  │
 └───────┬──────────────────────────────┘
         │
@@ -771,6 +782,7 @@ Admin Panel
 1. HTTP Request
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    ├─ URL: http://fixcity.local/it/tests/homepage
 =======
    ├─ URL: http://ptv.local/it/tests/homepage
@@ -778,6 +790,9 @@ Admin Panel
 =======
    ├─ URL: http://ptv.local/it/tests/homepage
 >>>>>>> a988596b (first)
+=======
+   ├─ URL: http://fixcity.local/it/tests/homepage
+>>>>>>> a377e9e6 (.)
    └─ Method: GET
 
 2. Routing (Folio)
@@ -792,10 +807,14 @@ Admin Panel
    ├─ PageSlugMiddleware
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a377e9e6 (.)
    │  ├─ Read APP_URL → fixcity.local
    │  ├─ Extract domain → fixcity.local
    │  ├─ Reverse parts → [local, fixcity]
    │  ├─ Build config path → local/fixcity
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -807,6 +826,8 @@ Admin Panel
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
    │  ├─ Load theme: Sixteen
    │  └─ Load JSON: pages/homepage.json
    │
@@ -924,6 +945,7 @@ Modules/ModuleName/
 ├── docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   ├── 00-INDEX.md
 =======
 │   ├── 00-index.md
@@ -931,6 +953,9 @@ Modules/ModuleName/
 =======
 │   ├── 00-index.md
 >>>>>>> a988596b (first)
+=======
+│   ├── 00-INDEX.md
+>>>>>>> a377e9e6 (.)
 │   ├── architecture/
 │   ├── guides/
 │   └── reference/

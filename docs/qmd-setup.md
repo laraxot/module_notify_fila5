@@ -7,6 +7,7 @@ tags: [qmd, search, docs, performance]
 related:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -99,6 +100,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
   - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
 ---
 
@@ -160,6 +163,7 @@ qmd search "form" -c notify  # Solo questo modulo
 - [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
 =======
 - [On-Demand Pattern](./on-demand-pattern.md)
@@ -167,6 +171,9 @@ qmd search "form" -c notify  # Solo questo modulo
 =======
 - [On-Demand Pattern](./on-demand-pattern.md)
 >>>>>>> a988596b (first)
+=======
+- [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
+>>>>>>> a377e9e6 (.)
 
 ---
 *Cache: ~/.cache/qmd-cache/ | Index: ~/.cache/qmd-cache/index*

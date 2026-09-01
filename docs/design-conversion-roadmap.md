@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -400,6 +401,8 @@ Then pick issue #1 and get coding! 🚀
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # Design Comuni Conversion Roadmap
 
 **Status**: 🟢 Phase 1 Complete - Visual Parity Assessment Done
@@ -529,6 +532,7 @@ laravel/Themes/Sixteen/docs/pages/<page-name>/
 laravel/Themes/Sixteen/docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── INDEX.md                                    # Main index
 =======
 ├── index.md                                    # Main index
@@ -536,6 +540,9 @@ laravel/Themes/Sixteen/docs/
 =======
 ├── index.md                                    # Main index
 >>>>>>> a988596b (first)
+=======
+├── INDEX.md                                    # Main index
+>>>>>>> a377e9e6 (.)
 ├── COMPLETE-VISUAL-PARITY-REPORT.md          # All 54 pages
 ├── PRIORITY-MATRIX.json                       # Workload planning
 ├── visual-parity-data.json                    # Machine-readable data
@@ -549,6 +556,7 @@ laravel/Themes/Sixteen/docs/
 bashscripts/docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── INDEX.md                    # Tools overview
 =======
 ├── index.md                    # Tools overview
@@ -556,6 +564,9 @@ bashscripts/docs/
 =======
 ├── index.md                    # Tools overview
 >>>>>>> a988596b (first)
+=======
+├── INDEX.md                    # Tools overview
+>>>>>>> a377e9e6 (.)
 └── github-issues-batch.md      # GitHub CLI guide
 ```
 
@@ -600,6 +611,7 @@ node bashscripts/github/create-design-issues.mjs
 # View issues
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 gh issue list --repo laraxot/base_fixcity_fila5 --label "design-comuni"
 
 # Filter by priority
@@ -615,6 +627,12 @@ gh issue list --repo laraxot/base_ptv_fila5 --label "priority:critical"
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+gh issue list --repo laraxot/base_fixcity_fila5 --label "design-comuni"
+
+# Filter by priority
+gh issue list --repo laraxot/base_fixcity_fila5 --label "priority:critical"
+>>>>>>> a377e9e6 (.)
 ```
 
 ---
@@ -677,6 +695,7 @@ npm run copy     # ~1 second
 # 1. Review the analysis
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
 =======
 cd /var/www/_bases/base_ptv_fila5
@@ -684,6 +703,9 @@ cd /var/www/_bases/base_ptv_fila5
 =======
 cd /var/www/_bases/base_ptv_fila5
 >>>>>>> a988596b (first)
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> a377e9e6 (.)
 cat laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md
 
 # 2. Create GitHub issues
@@ -767,6 +789,7 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 - **Alpine.js**: https://alpinejs.dev/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Internal Docs**: `laravel/Themes/Sixteen/docs/INDEX.md`
 - **Tools Guide**: `bashscripts/docs/INDEX.md`
 =======
@@ -777,11 +800,16 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 - **Internal Docs**: `laravel/Themes/Sixteen/docs/index.md`
 - **Tools Guide**: `bashscripts/docs/index.md`
 >>>>>>> a988596b (first)
+=======
+- **Internal Docs**: `laravel/Themes/Sixteen/docs/INDEX.md`
+- **Tools Guide**: `bashscripts/docs/INDEX.md`
+>>>>>>> a377e9e6 (.)
 
 ---
 
 **Ready to start? Run this now:**
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5
@@ -791,6 +819,9 @@ cd /var/www/_bases/base_ptv_fila5
 =======
 cd /var/www/_bases/base_ptv_fila5
 >>>>>>> a988596b (first)
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> a377e9e6 (.)
 node bashscripts/github/create-design-issues.mjs
 ```
 
