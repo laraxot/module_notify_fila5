@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -22,6 +23,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # 📋 10 file patterns Index
 
 **Path**: `docs/agents-guide/10-file-patterns/`
@@ -54,6 +57,7 @@ related:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [📋 Parent Directory](bashscripts/ai/.agents/docs/agents-guide/00-INDEX.md)
 - [📋 Master Index](bashscripts/ai/.agents/00-MASTER-INDEX.md)
 - [📋 Rules Index](../rules/00-INDEX.md)
@@ -65,9 +69,13 @@ related:
 =======
 >>>>>>> a988596b (first)
 - [📋 Parent Directory](bashscripts/ai/.agents/docs/agents-guide/00-index-1.md)
+=======
+- [📋 Parent Directory](bashscripts/ai/.agents/docs/agents-guide/00-INDEX.md)
+>>>>>>> a377e9e6 (.)
 - [📋 Master Index](bashscripts/ai/.agents/00-MASTER-INDEX.md)
-- [📋 Rules Index](../rules/00-index-1.md)
+- [📋 Rules Index](../rules/00-INDEX.md)
 - [📋 Skills Index](../skills/00-MASTER-INDEX.md)
+<<<<<<< HEAD
 - [📋 Workflows Index](../workflows/00-index-1.md)
 - [📋 Guidelines Index](../guidelines/00-index-1.md)
 - [📋 Memories Index](../memories/00-index-1.md)
@@ -126,6 +134,11 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+- [📋 Workflows Index](../workflows/00-INDEX.md)
+- [📋 Guidelines Index](../guidelines/00-INDEX.md)
+- [📋 Memories Index](../memories/00-INDEX.md)
+>>>>>>> a377e9e6 (.)
 
 ---
 

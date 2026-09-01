@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Theme newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Theme newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Theme query()
@@ -24,6 +25,12 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\Theme newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\Theme query()
 >>>>>>> 98d0a12c (.)
+=======
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Theme newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Theme newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Theme query()
+ *
+>>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
 class Theme extends Model

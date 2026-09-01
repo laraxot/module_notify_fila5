@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -21,6 +22,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # 📖 Guidelines Index
 
 **Path**: `.agents/docs/guidelines/`  
@@ -83,6 +86,7 @@ A differenza delle rules (obbligatorie), le guidelines sono **consigli** per scr
 ### Parent Index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[Master Index](../00-INDEX.md)** - AI Agents documentation hub
 
 ### Related Indices
@@ -102,18 +106,22 @@ A differenza delle rules (obbligatorie), le guidelines sono **consigli** per scr
 =======
 >>>>>>> a988596b (first)
 - **[Master Index](../00-index-1.md)** - AI Agents documentation hub
+=======
+- **[Master Index](../00-INDEX.md)** - AI Agents documentation hub
+>>>>>>> a377e9e6 (.)
 
 ### Related Indices
-- **[Rules Index](rules/00-index-1.md)** - CRITICAL rules (BLOCKER)
-- **[Skills Index](skills/00-index-1.md)** - AI capabilities
-- **[Memories Index](memories/00-index-1.md)** - Project context
-- **[Workflows Index](workflows/00-index-1.md)** - BMAD, GSD workflows
+- **[Rules Index](rules/00-INDEX.md)** - CRITICAL rules (BLOCKER)
+- **[Skills Index](skills/00-INDEX.md)** - AI capabilities
+- **[Memories Index](memories/00-INDEX.md)** - Project context
+- **[Workflows Index](workflows/00-INDEX.md)** - BMAD, GSD workflows
 
 ### Module Docs
-- **[Components Index](../../laravel/Modules/Forecast/resources/views/components/forecast-view/00-index-1.md)** - 14 components
-- **[Reusable Architecture](../../laravel/Modules/Forecast/docs/components/reusable-architecture.md)** - Design principles
+- **[Components Index](../../laravel/Modules/Predict/resources/views/components/predict-view/00-INDEX.md)** - 14 components
+- **[Reusable Architecture](../../laravel/Modules/Predict/docs/components/reusable-architecture.md)** - Design principles
 
 ### Theme Docs
+<<<<<<< HEAD
 - **[Theme Zero Components](../../laravel/Themes/Zero/docs/components/00-index-1.md)** - Theme components
 - **[TwentyOne Integration](../../laravel/Themes/TwentyOne/docs/forecast-integration.md)** - Theme integration
 
@@ -216,6 +224,10 @@ A differenza delle rules (obbligatorie), le guidelines sono **consigli** per scr
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+- **[Theme Zero Components](../../laravel/Themes/Zero/docs/components/00-INDEX.md)** - Theme components
+- **[TwentyOne Integration](../../laravel/Themes/TwentyOne/docs/predict-integration.md)** - Theme integration
+>>>>>>> a377e9e6 (.)
 
 ---
 

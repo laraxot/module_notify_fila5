@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎨 BMAD Workflow (Breakthrough Method for Agile AI-Driven Development)
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
@@ -176,6 +177,12 @@ Agents discuss together and reach consensus.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+# 🎨 BMAD Workflow (Breakthrough Method for Agile AI-Driven Development)
+
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Related**: [01-GSD-WORKFLOW.md](01-GSD-WORKFLOW.md) — GSD Method
+>>>>>>> a377e9e6 (.)
 
 ---
 
@@ -297,6 +304,7 @@ Agents discuss together and reach consensus.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **GSD Method**: [01-GSD-WORKFLOW.md](01-GSD-WORKFLOW.md)
 - **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
 =======
@@ -307,6 +315,10 @@ Agents discuss together and reach consensus.
 - **GSD Method**: [01-GSD-WORKFLOW.md](01-gsd-workflow.md)
 - **Architecture**: [03-ARCHITECTURE-ZEN.md](03-architecture-zen.md)
 >>>>>>> a988596b (first)
+=======
+- **GSD Method**: [01-GSD-WORKFLOW.md](01-GSD-WORKFLOW.md)
+- **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
+>>>>>>> a377e9e6 (.)
 - **External**: https://github.com/bmad-code-org/BMAD-METHOD
 - **Docs**: https://docs.bmad-method.org
 

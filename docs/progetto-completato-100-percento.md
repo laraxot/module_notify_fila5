@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a988596b (first)
@@ -31,6 +32,8 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
 # 🏆 PROGETTO FIXCITY - 100% COMPLETATO!
 
 **Data**: 1 Ottobre 2025 - Ore 22:30  
@@ -72,6 +75,7 @@ cd /var/www/_bases/base_ptv_fila5_mono/laravel
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
 >>>>>>> a988596b (first)
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
@@ -661,6 +665,8 @@ php artisan queue:work --queue=high,notifications,default
 
 ```bash
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
+=======
+>>>>>>> a377e9e6 (.)
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
 Result: {"totals":{"errors":0,"file_errors":0}}

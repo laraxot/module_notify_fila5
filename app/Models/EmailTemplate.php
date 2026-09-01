@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @method static \Illuminate\Database\Eloquent\Builder<static>|EmailTemplate newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|EmailTemplate newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|EmailTemplate query()
@@ -40,6 +41,12 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\EmailTemplate newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\EmailTemplate query()
 >>>>>>> 98d0a12c (.)
+=======
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|EmailTemplate newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|EmailTemplate newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|EmailTemplate query()
+ *
+>>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
 class EmailTemplate extends Model

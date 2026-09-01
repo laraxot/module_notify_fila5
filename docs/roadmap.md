@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Notify Module Roadmap 2026
 
 ## 📡 Sacred Philosophy: "One Message, Many Paths"
@@ -316,6 +317,8 @@ Contenuto in wiki di progetto — non duplicare nei moduli ([#124](https://githu
 
 <!-- Merged from ROADMAP.md, which collided with this file on case-insensitive filesystems. -->
 
+=======
+>>>>>>> a377e9e6 (.)
 # 🗺️ FixCity Design System - Product Roadmap
 
 > **Central hub consolidating 355+ scattered planning files into unified vision**  
@@ -488,7 +491,7 @@ Level 3: Themes
 
 **Deliverables**:
 - ✅ `/laravel/Themes/Sixteen/resources/views/components/blocks/` (header, footer, content blocks)
-- ✅ `/laravel/config/local/ptv/database/content/pages/tests.homepage.json`
+- ✅ `/laravel/config/local/fixcity/database/content/pages/tests.homepage.json`
 - ✅ Screenshot comparison analysis: `Themes/Sixteen/docs/homepage-visual-parity.md`
 - ✅ Header/Footer architecture documentation
 
@@ -527,7 +530,7 @@ Level 3: Themes
 
 #### Wave 2: Core Structure 🟡 IN PROGRESS
 - 🟡 Create central ROADMAP.md (THIS FILE)
-- [ ] Create unified index.md
+- [ ] Create unified INDEX.md
 - [ ] Create MODULE_ROADMAPS.md
 - [ ] Create TIMELINE.md
 - [ ] Archive old roadmap variants
@@ -656,11 +659,11 @@ Each of the 18 modules has its own documentation:
 ```
 docs/
 ├── ROADMAP.md (THIS FILE) - Central hub, all phases
-├── index.md - Master navigation, updated with links
+├── INDEX.md - Master navigation, updated with links
 ├── PROJECT/ - Project metadata
 │   ├── README.md
-│   ├── architecture.md
-│   └── changelog.md
+│   ├── ARCHITECTURE.md
+│   └── CHANGELOG.md
 └── archive/
     └── roadmaps/
         ├── ANALYSIS.md - Consolidation analysis
@@ -1094,7 +1097,7 @@ Notify Module
 
 1. **Phase 11 Wave 2**: Complete core documentation structure
    - ✅ Create central ROADMAP.md (THIS FILE)
-   - 🟡 Update index.md with navigation
+   - 🟡 Update INDEX.md with navigation
    - 🟡 Create MODULE_ROADMAPS.md
    - 🟡 Create TIMELINE.md
 
@@ -1120,7 +1123,7 @@ Notify Module
 - 🟡 Phase 12+ outlined with objectives and timelines
 - 📅 Old roadmap files archived (not deleted)
 - 📅 Migration guide created for old locations
-- 📅 index.md updated with roadmap link
+- 📅 INDEX.md updated with roadmap link
 - 📅 All internal links verified (no 404s)
 - 📅 Module-specific roadmaps linked from central hub
 
@@ -1128,7 +1131,7 @@ Notify Module
 
 ## 📞 Getting Help
 
-- **Questions about phases?** → Check [ROADMAP.md](./roadmap.md)
+- **Questions about phases?** → Check [ROADMAP.md](./ROADMAP.md)
 - **Can't find a document?** → See [MIGRATION_GUIDE.md](./archive/roadmaps/MIGRATION_GUIDE.md)
 - **Module specific?** → See [Module-Specific Roadmaps](#-module-specific-roadmaps)
 - **Need history?** → Check [Archive Manifest](./archive/roadmaps/MANIFEST.md)

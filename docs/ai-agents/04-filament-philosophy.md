@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎨 Filament Forms & Tables Philosophy
 
 **Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
@@ -35,6 +36,12 @@ related:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+# 🎨 Filament Forms & Tables Philosophy
+
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
+>>>>>>> a377e9e6 (.)
 
 ---
 
@@ -149,8 +156,11 @@ Filament is designed to **work with Eloquent**.
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
     $items = DB::table('predicts')
+<<<<<<< HEAD
     $items = DB::table('forecasts')
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
         ->where('status', 'active')
         ->orderBy('created_at', 'desc')
         ->paginate(10);
@@ -175,8 +185,11 @@ public function table(Table $table): Table
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
         ->query(Predict::query()->where('status', 'active'))
+<<<<<<< HEAD
         ->query(Forecast::query()->where('status', 'active'))
 >>>>>>> a988596b (first)
+=======
+>>>>>>> a377e9e6 (.)
         ->columns([
             TextColumn::make('title')->sortable()->searchable(),
         ])
@@ -387,6 +400,7 @@ Before approving a PR:
 
 ## 🔗 Related Documentation
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - **Architecture Zen**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
@@ -755,6 +769,10 @@ Before approving a PR:
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+- **Architecture Zen**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
+- **Front Office Audit**: [05-FRONT-OFFICE-AUDIT.md](05-FRONT-OFFICE-AUDIT.md)
+>>>>>>> a377e9e6 (.)
 - **External**: https://filamentphp.com/docs/5.x/tables/overview
 
 ---

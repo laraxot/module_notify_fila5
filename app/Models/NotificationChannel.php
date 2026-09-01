@@ -10,6 +10,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string|null $name
  * @property string|null $driver
  * @property array<string, mixed>|null $config
@@ -17,10 +18,16 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
+=======
+ * @property string|null $name
+ * @property string|null $driver
+ * @property array<string, mixed>|null $config
+>>>>>>> a377e9e6 (.)
  * @property bool $is_enabled
  * @property int|null $priority
  * @property-read ProfileContract|null $creator
  * @property-read MediaCollection<int, Media> $media
+<<<<<<< HEAD
  * @property-read int|null $media_count
  * @property-read ProfileContract|null $updater
 <<<<<<< HEAD
@@ -60,6 +67,15 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationChannel newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\NotificationChannel query()
 >>>>>>> 98d0a12c (.)
+=======
+ * @property-read int|null $media_count
+ * @property-read ProfileContract|null $updater
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationChannel newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationChannel newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationChannel query()
+ *
+>>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
 class NotificationChannel extends BaseModel

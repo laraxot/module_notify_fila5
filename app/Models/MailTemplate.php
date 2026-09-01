@@ -32,6 +32,7 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read list<string> $translatable_columns_from
  * @property-read array<string, mixed> $variables
  * @property-read mixed $translations
@@ -172,6 +173,59 @@ use Spatie\Translatable\HasTranslations;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplate whereLocale(string $column, string $locale)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\Notify\Models\MailTemplate whereLocales(string $column, array $locales)
 >>>>>>> 98d0a12c (.)
+=======
+ * @property-read list<string> $translatable_columns_from
+ * @property-read array<string, mixed> $variables
+ * @property-read mixed $translations
+ *
+ * @method static Builder<static>|MailTemplate forMailable(\Illuminate\Contracts\Mail\Mailable $mailable)
+ * @method static Builder<static>|MailTemplate newModelQuery()
+ * @method static Builder<static>|MailTemplate newQuery()
+ * @method static Builder<static>|MailTemplate query()
+ * @method static Builder<static>|MailTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
+ * @method static Builder<static>|MailTemplate whereJsonContainsLocales(string $column, array<int, string> $locales, ?mixed $value, string $operand = '=')
+ * @method static Builder<static>|MailTemplate whereLocale(string $column, string $locale)
+ * @method static Builder<static>|MailTemplate whereLocales(string $column, array<int, string> $locales)
+ *
+ * @property int $id
+ * @property string|null $name
+ * @property string|null $mailable
+ * @property string|null $slug
+ * @property string|array<array-key, mixed>|null $subject
+ * @property string|array<array-key, mixed>|null $html_template
+ * @property string|array<array-key, mixed>|null $text_template
+ * @property string|int $version
+ * @property string|null $params
+ * @property array<array-key, mixed>|null $sms_template
+ * @property int $counter
+ * @property string|null $html_layout_path
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ *
+ * @method static Builder<static>|MailTemplate whereCounter($value)
+ * @method static Builder<static>|MailTemplate whereCreatedAt($value)
+ * @method static Builder<static>|MailTemplate whereCreatedBy($value)
+ * @method static Builder<static>|MailTemplate whereDeletedAt($value)
+ * @method static Builder<static>|MailTemplate whereDeletedBy($value)
+ * @method static Builder<static>|MailTemplate whereHtmlLayoutPath($value)
+ * @method static Builder<static>|MailTemplate whereHtmlTemplate($value)
+ * @method static Builder<static>|MailTemplate whereId($value)
+ * @method static Builder<static>|MailTemplate whereMailable($value)
+ * @method static Builder<static>|MailTemplate whereName($value)
+ * @method static Builder<static>|MailTemplate whereParams($value)
+ * @method static Builder<static>|MailTemplate whereSlug($value)
+ * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
+ * @method static Builder<static>|MailTemplate whereSubject($value)
+ * @method static Builder<static>|MailTemplate whereTextTemplate($value)
+ * @method static Builder<static>|MailTemplate whereUpdatedAt($value)
+ * @method static Builder<static>|MailTemplate whereUpdatedBy($value)
+ * @method static Builder<static>|MailTemplate whereVersion($value)
+ *
+>>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
