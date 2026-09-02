@@ -119,10 +119,14 @@ Complete Obsidian setup in `docs/.obsidian/`:
 ### 6. ✅ Tool Installation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **qmd**: Installed globally (`npm install -g --prefix "$HOME/.npm-global" @tobilu/qmd`)
 =======
 - **qmd**: Installed globally (`npm install -g qmd`)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **qmd**: Installed globally (`npm install -g --prefix "$HOME/.npm-global" @tobilu/qmd`)
+>>>>>>> bdc49995 (.)
   - Local markdown search engine
   - Hybrid BM25 + vector + LLM re-ranking
   - Usage: `qmd serve ./docs/wiki`
@@ -440,10 +444,14 @@ Complete Obsidian setup in `docs/.obsidian/`:
 ### 6. ✅ Tool Installation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **qmd**: Installed globally (`npm install -g --prefix "$HOME/.npm-global" @tobilu/qmd`)
 =======
 - **qmd**: Installed globally (`npm install -g qmd`)
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+- **qmd**: Installed globally (`npm install -g --prefix "$HOME/.npm-global" @tobilu/qmd`)
+>>>>>>> bdc49995 (.)
   - Local markdown search engine
   - Hybrid BM25 + vector + LLM re-ranking
   - Usage: `qmd serve ./docs/wiki`

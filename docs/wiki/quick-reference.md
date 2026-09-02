@@ -150,10 +150,14 @@ bashscripts/ai/init-llm-wiki.sh theme Sixteen
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 npm install -g --prefix "$HOME/.npm-global" @tobilu/qmd
 =======
 npm install -g qmd
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+npm install -g --prefix "$HOME/.npm-global" @tobilu/qmd
+>>>>>>> bdc49995 (.)
 qmd serve ./docs/wiki
 ```
 

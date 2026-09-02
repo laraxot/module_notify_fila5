@@ -11,9 +11,13 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\View;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> bdc49995 (.)
 use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Filament\Forms\Components\HtmlLayoutPathSelect;
 use Modules\Notify\Models\MailTemplate;
@@ -94,6 +98,7 @@ class MailTemplateResource extends LangBaseResource
                 ->columnSpanFull(),
             'params_display' => View::make($paramsBadgesView)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->viewData(static fn (?Model $record): array => [
                     'params' => $record !== null && isset($record->params) ? $record->params : [],
                 ])
@@ -106,6 +111,13 @@ class MailTemplateResource extends LangBaseResource
                 ->columnSpanFull()
                 ->visible(static fn (mixed $record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+                ->viewData(static fn (?Model $record): array => [
+                    'params' => $record !== null && isset($record->params) ? $record->params : [],
+                ])
+                ->columnSpanFull()
+                ->visible(static fn (?Model $record): bool => $record !== null && isset($record->params) && ! empty($record->params)),
+>>>>>>> bdc49995 (.)
             'text_template' => Textarea::make('text_template')
                 ->maxLength(65535)
                 ->columnSpanFull(),

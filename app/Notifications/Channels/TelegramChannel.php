@@ -14,20 +14,28 @@ class TelegramChannel
      * Invia la notifica tramite Telegram.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function send(object $notifiable, Notification $notification): void
 =======
     public function send(mixed $notifiable, Notification $notification): void
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    public function send(object $notifiable, Notification $notification): void
+>>>>>>> bdc49995 (.)
     {
         if (! method_exists($notification, 'toTelegram')) {
             throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! method_exists($notifiable, 'routeNotificationForTelegram')) {
 =======
         if (! is_object($notifiable) || ! method_exists($notifiable, 'routeNotificationForTelegram')) {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+        if (! method_exists($notifiable, 'routeNotificationForTelegram')) {
+>>>>>>> bdc49995 (.)
             throw new Exception('Il metodo routeNotificationForTelegram() non è definito nel notifiable.');
         }
 

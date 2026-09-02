@@ -35,12 +35,12 @@ class TicketAssignedNotification extends Notification
     /**
      * @return array<int, string>
      */
-    public function via(mixed $notifiable): array
+    public function via(object $notifiable): array
     {
         return ['mail', 'database'];
     }
 
-    public function toMail(mixed $notifiable): MailMessage
+    public function toMail(object $notifiable): MailMessage
     {
 <<<<<<< HEAD
         $name = $this->assignedBy instanceof User ? ($this->assignedBy->name ?? null) : null;
@@ -74,7 +74,7 @@ class TicketAssignedNotification extends Notification
 =======
      * @return array{assigned_by: string}
      */
-    public function toArray(mixed $notifiable): array
+    public function toArray(object $notifiable): array
     {
         return [
             'assigned_by' => $this->assignedBy->id,
