@@ -66,8 +66,12 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 =======
      * @return array<int, string>
      */
+<<<<<<< HEAD
     public function via(mixed $_notifiable): array
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    public function via(object $_notifiable): array
+>>>>>>> bdc49995 (.)
     {
         // TODO: Implementare WhatsAppChannel quando disponibile
         return ['whatsapp'];
@@ -76,6 +80,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
     /**
      * Get the WhatsApp representation of the notification.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function toWhatsApp(object $notifiable): WhatsAppData
     {
@@ -89,6 +94,13 @@ class WhatsAppNotification extends Notification implements ShouldQueue
         // we'll use that to get the destination phone number
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForWhatsApp')) {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    public function toWhatsApp(object $notifiable): WhatsAppData
+    {
+        // If the notifiable entity has a routeNotificationForWhatsApp method,
+        // we'll use that to get the destination phone number
+        if (method_exists($notifiable, 'routeNotificationForWhatsApp')) {
+>>>>>>> bdc49995 (.)
             $routeResult = $notifiable->routeNotificationForWhatsApp($this);
             $this->whatsappData->recipient = app(SafeStringCastAction::class)->execute($routeResult);
         }

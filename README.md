@@ -55,6 +55,25 @@ con `-c` o `--level`). Rilanciabile: `cd laravel && ./vendor/bin/phpstan analyse
 
 ---
 
+## Scopo e confini
+
+Notify è il livello di **trasporto** delle comunicazioni verso l'esterno: 46 Action, tutte
+`QueueableAction`, organizzate per corriere (11 provider SMS, 8 push FCM, 4 WhatsApp,
+4 mail, 3 Telegram) e non per contenuto. Sa come si consegna un messaggio; non sa perché
+esista. Sei moduli lo consumano — IndennitaResponsabilita (9 file), Progressioni (6),
+Xot (4), Ptv (3), Pdnd (2), User (1).
+
+Il confine da non superare: **la decisione di notificare non è di Notify.** Nasce dove
+sta lo stato (`Xot\States\Transitions\XotBaseTransition`, `Ptv\Actions\Scheda\SendMailByRecord`).
+Oggi il confine interno più rotto è un altro: 3 modelli su 14 estendono
+`Illuminate\...\Model` invece di `BaseModel` e finiscono fuori dalla connection `notify`,
+e `docs/` pesa 804.192 righe contro 17.341 di `app/` — 46 a 1, con 83 gruppi di file
+`.md` byte-identici.
+
+Scopo esteso, misure e mosse: [docs/scopo.md](docs/scopo.md).
+
+---
+
 ## Perché
 
 Un sistema che cambia stato in silenzio genera ticket duplicati, telefonate
@@ -206,4 +225,14 @@ cd laravel
 ---
 
 **Modulo** `notify` · **Laraxot / FixCity Platform** · licenza MIT
+<<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+
+---
+
+## Scopo del modulo
+
+Perche' esiste, come raggiungere meglio il suo scopo e cosa **non** gli appartiene:
+[`docs/purpose.md`](./docs/purpose.md).
+>>>>>>> bdc49995 (.)

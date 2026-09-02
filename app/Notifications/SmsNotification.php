@@ -70,19 +70,23 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
      * @return array<int, string>
      */
-    public function via(mixed $notifiable): array
+    public function via(object $notifiable): array
     {
+<<<<<<< HEAD
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationFor')) {
             return ['sms'];
         }
 
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> bdc49995 (.)
         return ['sms'];
     }
 
     /**
      * Get the SMS representation of the notification.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function toSms(object $notifiable): SmsData
     {
@@ -96,6 +100,13 @@ class SmsNotification extends Notification implements ShouldQueue
         // we'll use that to get the destination phone number
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForSms')) {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+    public function toSms(object $notifiable): SmsData
+    {
+        // If the notifiable entity has a routeNotificationForSms method,
+        // we'll use that to get the destination phone number
+        if (method_exists($notifiable, 'routeNotificationForSms')) {
+>>>>>>> bdc49995 (.)
             $routeResult = $notifiable->routeNotificationForSms($this);
             $this->smsData->recipient = is_scalar($routeResult) ? (string) $routeResult : '';
         }
