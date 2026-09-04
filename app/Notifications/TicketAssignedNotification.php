@@ -6,18 +6,17 @@ namespace Modules\Notify\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
+use Modules\User\Models\User;
 
 class TicketAssignedNotification extends Notification
 {
     use Queueable;
 
-    /**
-     * @return void
-     */
     public function __construct(
-        public mixed $ticket, // Using mixed type since Ticket model doesn't exist
+        public Model $ticket,
         public Authenticatable $assignedBy
     ) {}
 
@@ -31,7 +30,7 @@ class TicketAssignedNotification extends Notification
 
     public function toMail(mixed $notifiable): MailMessage
     {
-        $name = property_exists($this->assignedBy, 'name') ? $this->assignedBy->name : null;
+        $name = $this->assignedBy instanceof User ? ($this->assignedBy->name ?? null) : null;
         $displayName = is_string($name) ? $name : 'Unknown';
 
         return (new MailMessage)
