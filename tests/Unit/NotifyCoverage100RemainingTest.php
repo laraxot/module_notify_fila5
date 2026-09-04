@@ -6,24 +6,22 @@ namespace Modules\Notify\Tests\Unit;
 
 use Filament\Facades\Filament;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Process;
 use Mockery;
+use Modules\Notify\Filament\Clusters\Test\Pages\SendEmail;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendPushNotification;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendPushNotificationPage;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendTelegram;
-use Modules\Notify\Filament\Clusters\Test\Pages\SendEmail;
 use Modules\Notify\Filament\Clusters\Test\Pages\TestSmtpPage;
-use Modules\Notify\Services\NotificationManager;
-use Modules\Notify\Tests\TestCase;
+use Modules\Notify\Actions\NotificationManager;
 use Modules\Notify\Tests\Unit\Traits\NotifyTenantDummyModel;
 use Modules\Tenant\Models\Tenant;
 use Modules\Xot\Tests\ModuleRemainingCoverage;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 use ReflectionMethod;
-
-uses(TestCase::class)->group('no-notify-db');
 
 afterEach(function (): void {
     Mockery::close();
@@ -65,9 +63,9 @@ describe('Notify coverage 100 — final sweep', function (): void {
         Assert::assertFalse($dummy->belongsToTenant('altro'));
 
         try {
-            Assert::assertInstanceOf(\Illuminate\Database\Eloquent\Relations\MorphMany::class, $dummy->notifications());
-            Assert::assertInstanceOf(\Illuminate\Database\Eloquent\Relations\MorphMany::class, $dummy->unreadNotifications());
-            Assert::assertInstanceOf(\Illuminate\Database\Eloquent\Relations\MorphMany::class, $dummy->readNotifications());
+            Assert::assertInstanceOf(MorphMany::class, $dummy->notifications());
+            Assert::assertInstanceOf(MorphMany::class, $dummy->unreadNotifications());
+            Assert::assertInstanceOf(MorphMany::class, $dummy->readNotifications());
 
             $query = NotifyTenantDummyModel::query();
             $scoped = $dummy->scopeForTenant($query, 'tenant-cov');
@@ -83,8 +81,7 @@ describe('Notify coverage 100 — final sweep', function (): void {
             SendPushNotificationPage::class,
             SendTelegram::class,
             SendEmail::class,
-            TestSmtpPage::class,
-        ] as $class) {
+            TestSmtpPage::class] as $class) {
             $page = notifyPageWithoutConstructor($class);
             $ref = new ReflectionClass($class);
             foreach (['getForms', 'getNotificationFormActions', 'fillForms'] as $method) {
@@ -106,10 +103,9 @@ describe('Notify coverage 100 — final sweep', function (): void {
         Http::fake(['*' => Http::response(['ok' => true], 200)]);
         config([
             'notify.default_channel' => 'mail',
-            'notify.channels.mail.driver' => 'log',
-        ]);
+            'notify.channels.mail.driver' => 'log']);
 
-        $manager = new NotificationManager();
+        $manager = new NotificationManager;
         $recipient = new class extends Model
         {
             protected $guarded = [];

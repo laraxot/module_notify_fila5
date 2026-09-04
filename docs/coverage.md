@@ -95,6 +95,35 @@ un falso positivo del grep). `phpstan analyse Modules/Notify`: 0 errori prima
 e dopo. Pest: stesso pattern preesistente 417/396 gia' documentato sopra
 (2026-09-04, story 4.27) — non causato da questo diff.
 
+## `app/Services` -> `app/Actions` (QueueableAction) — 2026-09-04
+
+Vedi story `docs/stories/4.29.notify-services-to-actions.story.md` per il
+dettaglio file-per-file. In sintesi: 4 classi `.php` sotto `app/Services/`
+(più 2 `.test` e 1 `.to_action`, artefatti morti non autoloadabili), tutte
+Kind A (god-facade), due già completamente sostituite da Actions esistenti
+in `Actions/Push/*` e `Actions/NotificationManager.php` (bastava cancellare
+il Service e ripuntare i chiamanti-test), una (`MailtrapEngine`) morta con
+zero caller e già superata da `Actions/Mail/SendMailtrapMailAction.php`, una
+(`SmsService`) migrata in una nuova `Actions/SMS/SendSmsAction.php` con
+`execute()` singolo (dispatch dinamico per riflessione preservato as-is,
+comportamento invariato — lanciava già sempre `RuntimeException` prima
+della migrazione, nessun engine concreto è mai esistito nel namespace di
+destinazione). `app/Services/` ora contiene solo `.gitkeep`.
+
+Nessun caller applicativo trovato repo-wide (solo test). 4 file di test
+aggiornati, 1 cancellato (duplicato ridondante di un test già esistente su
+`Actions\NotificationManager`).
+
+**Collisione con sessione concorrente**: durante questa story un'altra
+sessione stava eseguendo lo stesso task in tempo reale sugli stessi file,
+lasciando file non tracciati con sintassi PHP non valida sotto
+`app/Actions/{Sms,SMS,}/*` (non toccati, per rispetto del WIP altrui). Questo
+ha impedito un run PHPStan pulito a modulo intero (bloccato da errori fatali
+di parsing pre/post, non causati da questa story) — verifica sostitutiva
+scoped ai file toccati qui: **0 errori**. Pest: stesso fallimento
+pre-esistente e non attribuibile già documentato in `env-sqlite-manca-suite-
+non-eseguibile` (verificato riproducendolo su un file mai toccato).
+
 ## Nota sulla versione precedente di questo file
 
 Fino al 27 agosto 2026 questo documento dichiarava «comprehensive test coverage» e «all
