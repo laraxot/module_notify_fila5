@@ -14,13 +14,13 @@ use function Safe\class_uses;
 
 describe('FormatSmsMessageAction', function () {
     it('can be instantiated', function () {
-        $action = new FormatSmsMessageAction();
+        $action = new FormatSmsMessageAction;
 
         Assert::assertInstanceOf(FormatSmsMessageAction::class, $action);
     });
 
     it('has execute method with correct signature', function () {
-        $action = new FormatSmsMessageAction();
+        $action = new FormatSmsMessageAction;
 
         $reflection = new \ReflectionClass($action);
         $method = $reflection->getMethod('execute');
@@ -30,7 +30,7 @@ describe('FormatSmsMessageAction', function () {
     });
 
     it('execute accepts string parameter', function () {
-        $action = new FormatSmsMessageAction();
+        $action = new FormatSmsMessageAction;
 
         $reflection = new \ReflectionClass($action);
         $method = $reflection->getMethod('execute');
@@ -40,7 +40,7 @@ describe('FormatSmsMessageAction', function () {
     });
 
     it('execute returns array', function () {
-        $action = new FormatSmsMessageAction();
+        $action = new FormatSmsMessageAction;
 
         $reflection = new \ReflectionClass($action);
         $method = $reflection->getMethod('execute');
@@ -50,7 +50,7 @@ describe('FormatSmsMessageAction', function () {
     });
 
     it('uses strict types', function () {
-        $action = new FormatSmsMessageAction();
+        $action = new FormatSmsMessageAction;
 
         $reflection = new \ReflectionClass($action);
         $content = TestCase::notifyReflectionSource($reflection);
@@ -58,7 +58,7 @@ describe('FormatSmsMessageAction', function () {
     });
 
     it('has correct namespace', function () {
-        $action = new FormatSmsMessageAction();
+        $action = new FormatSmsMessageAction;
 
         $reflection = new \ReflectionClass($action);
 
@@ -66,7 +66,7 @@ describe('FormatSmsMessageAction', function () {
     });
 
     it('has required imports', function () {
-        $action = new FormatSmsMessageAction();
+        $action = new FormatSmsMessageAction;
 
         $reflection = new \ReflectionClass($action);
         $content = TestCase::notifyReflectionSource($reflection);
@@ -74,7 +74,7 @@ describe('FormatSmsMessageAction', function () {
     });
 
     it('is not using QueueableAction trait', function () {
-        $action = new FormatSmsMessageAction();
+        $action = new FormatSmsMessageAction;
 
         $traits = class_uses(FormatSmsMessageAction::class);
 

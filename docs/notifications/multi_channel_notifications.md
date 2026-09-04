@@ -621,7 +621,7 @@ Per testare l'invio di un SMS tramite Netfun con la nostra implementazione:
 namespace Modules\Notify\Tests\Feature;
 
 use Tests\TestCase;
-use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
 use Modules\Notify\Datas\NetfunSMSMessage;
 use Modules\Notify\Actions\SMS\SendNetfunSMSAction;
 use Illuminate\Foundation\Testing\DatabaseTransactions;

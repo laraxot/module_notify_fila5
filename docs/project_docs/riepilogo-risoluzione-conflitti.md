@@ -1,10 +1,10 @@
 ---
-title: "riepilogo-risoluzione-conflitti-2025-09-30"
+title: "riepilogo-risoluzione-conflitti-2025-09-30.deprecated"
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "riepilogo-risoluzione-conflitti-2025-09-30 deprecated"
+qmd: "riepilogo-risoluzione-conflitti-2025-09-30.deprecated deprecated"
 status: deprecated
 related:
   - "./2025-excellence-achievement.md"
@@ -17,4 +17,4 @@ related:
   - "./final-implementation-report.md"
 ---
 
-> Questo file è stato rinominato in [riepilogo-risoluzione-conflitti.md](riepilogo-risoluzione-conflitti.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [riepilogo-risoluzione-conflitti-.deprecated.md](riepilogo-risoluzione-conflitti-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

@@ -6,7 +6,6 @@ namespace Modules\Notify\Models;
 
 use Eloquent;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
@@ -20,18 +19,15 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * Modules\Notify\Models\NotifyTheme.
  *
  * @method static NotifyThemeFactory factory($count = null, $state = [])
- *
  * @property-read ProfileContract|null $creator
  * @property-read array{path: string, width: int, height: int} $logo
  * @property-read Model $linkable
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read ProfileContract|null $updater
- *
  * @method static Builder<static>|NotifyTheme newModelQuery()
  * @method static Builder<static>|NotifyTheme newQuery()
  * @method static Builder<static>|NotifyTheme query()
- *
  * @property string $id
  * @property string|null $lang
  * @property string|null $type
@@ -53,7 +49,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
- *
  * @method static Builder<static>|NotifyTheme whereBody($value)
  * @method static Builder<static>|NotifyTheme whereBodyHtml($value)
  * @method static Builder<static>|NotifyTheme whereCreatedAt($value)
@@ -75,14 +70,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotifyTheme whereUpdatedAt($value)
  * @method static Builder<static>|NotifyTheme whereUpdatedBy($value)
  * @method static Builder<static>|NotifyTheme whereViewParams($value)
- *
+ * @property-read \Modules\User\Models\Profile|null $deleter
  * @mixin Eloquent
  */
 class NotifyTheme extends BaseModel
 {
-    /** @use HasFactory<NotifyThemeFactory> */
-    use HasFactory;
-
     /** @var list<string> */
     protected $fillable = [
         'id',

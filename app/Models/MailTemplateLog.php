@@ -33,11 +33,10 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
  * @property-read ProfileContract|null $updater
- *
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
- *
+ * @property-read \Modules\User\Models\Profile|null $deleter
  * @mixin \Eloquent
  */
 class MailTemplateLog extends BaseModel

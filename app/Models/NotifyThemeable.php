@@ -13,11 +13,9 @@ use Modules\Xot\Contracts\ProfileContract;
  *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
- *
  * @method static Builder<static>|NotifyThemeable newModelQuery()
  * @method static Builder<static>|NotifyThemeable newQuery()
  * @method static Builder<static>|NotifyThemeable query()
- *
  * @property string $id
  * @property string|null $model_type
  * @property int|null $model_id
@@ -28,7 +26,6 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
- *
  * @method static Builder<static>|NotifyThemeable whereCreatedAt($value)
  * @method static Builder<static>|NotifyThemeable whereCreatedBy($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
@@ -39,7 +36,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|NotifyThemeable whereNotifyThemeId($value)
  * @method static Builder<static>|NotifyThemeable whereUpdatedAt($value)
  * @method static Builder<static>|NotifyThemeable whereUpdatedBy($value)
- *
+ * @property-read \Modules\User\Models\Profile|null $deleter
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

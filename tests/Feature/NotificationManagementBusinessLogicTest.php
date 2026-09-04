@@ -22,6 +22,7 @@ use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 use function Safe\json_encode;
+use Modules\User\Models\User;
 
 describe('Notification Management Business Logic', function () {
     it('can create notification with core fields', function () {

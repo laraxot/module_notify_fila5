@@ -29,7 +29,7 @@ return new class extends XotBaseMigration
         ) {
             $connection = $this->model->getConnectionName() ?? 'user';
 
-            if (0 === DB::connection($connection)->table($this->getTable())->count()) {
+            if (DB::connection($connection)->table($this->getTable())->count() === 0) {
                 $this->dropTableIfExists($this->getTable());
             }
         }

@@ -23,7 +23,7 @@ use PHPUnit\Framework\Assert;
 
 function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 {
-    return new EditNotifyThemeTestProxy();
+    return new EditNotifyThemeTestProxy;
 }
 
 test('list notification templates page returns empty table columns array', function (): void {
@@ -38,7 +38,7 @@ test('notify theme resource field options are configured', function (): void {
 });
 
 test('notify theme resource form schema exposes expected components', function (): void {
-    $schema = NotifyThemeResource::getFormSchemaOld();
+    $schema = NotifyThemeResource::getFormSchema();
     Assert::assertArrayHasKey('post_id', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['post_id']);
     Assert::assertArrayHasKey('logo', $schema);
@@ -76,7 +76,7 @@ test('list notify themes columns and filters are configured', function (): void 
 });
 
 test('linkable relation manager exposes text input form schema', function (): void {
-    $manager = new LinkableRelationManager();
+    $manager = new LinkableRelationManager;
     $schema = $manager->getFormSchema();
     Assert::assertNotEmpty($schema);
     Assert::assertInstanceOf(TextInput::class, $schema[0]);

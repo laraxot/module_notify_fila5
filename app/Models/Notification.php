@@ -15,12 +15,10 @@ use Override;
  *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
- *
  * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
  * @method static Builder<static>|Notification query()
- *
  * @property string $id
  * @property string|null $message
  * @property string $type
@@ -41,7 +39,6 @@ use Override;
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
- *
  * @method static Builder<static>|Notification whereCreatedAt($value)
  * @method static Builder<static>|Notification whereCreatedBy($value)
  * @method static Builder<static>|Notification whereData($value)
@@ -54,7 +51,7 @@ use Override;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
- *
+ * @property-read \Modules\User\Models\Profile|null $deleter
  * @mixin \Eloquent
  */
 class Notification extends BaseModel

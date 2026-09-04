@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
 use Kreait\Firebase\Contract\Messaging;
 use Mockery;
+use Mockery\MockInterface;
 use Modules\Notify\Actions\EsendexSendAction;
 use Modules\Notify\Actions\SMS\SendNexmoSMSAction;
 use Modules\Notify\Actions\SMS\SendPlivoSMSAction;
@@ -21,14 +22,18 @@ use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
+use Modules\Notify\Actions\Push\SendPushToAllUsersAction;
+use Modules\Notify\Actions\Push\SendPushToDeviceAction;
+use Modules\Notify\Actions\Push\SendPushToDevicesAction;
+use Modules\Notify\Actions\Push\SendPushToTopicAction;
+use Modules\Notify\Actions\Push\SendPushWithTemplateAction;
+use Modules\Notify\Actions\Push\SendScheduledPushNotificationAction;
+use Modules\Notify\Actions\SMS\SendSmsAction;
+use Modules\Notify\Datas\PushNotificationData;
 use Modules\Notify\Emails\SpatieEmail;
-use Modules\Notify\Jobs\SendScheduledPushNotification;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 use Modules\Notify\Notifications\Channels\FirebaseCloudMessagingChannel;
 use Modules\Notify\Notifications\RecordNotification;
-use Modules\Notify\Services\PushNotificationService;
-use Modules\Notify\Services\SmsService;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
@@ -117,64 +122,44 @@ describe('Notify gap attack — highest miss providers', function (): void {
         }
     });
 
-    test('PushNotificationService SmsService e FCM channel', function (): void {
-        /** @var TestCase $this */
+    test('Push actions SendSmsAction e FCM channel', function (): void {
         Http::fake(['*' => Http::response(['success' => 1], 200)]);
 
-        try {
-            $push = app(PushNotificationService::class);
-            $ref = new ReflectionClass($push);
-            foreach ($ref->getMethods(\ReflectionMethod::IS_PUBLIC) as $method) {
-                if ($method->getDeclaringClass()->getName() !== PushNotificationService::class) {
-                    continue;
-                }
-                if (str_starts_with($method->getName(), '__') || $method->getNumberOfRequiredParameters() > 4) {
-                    continue;
-                }
-                try {
-                    $args = [];
-                    foreach ($method->getParameters() as $i => $param) {
-                        if ($i >= max($method->getNumberOfRequiredParameters(), min(2, $method->getNumberOfParameters()))) {
-                            break;
-                        }
-                        $type = $param->getType();
-                        $n = $type instanceof \ReflectionNamedType ? $type->getName() : '';
-                        $args[] = match (true) {
-                            $n === 'string' => 'token-1',
-                            $n === 'array' => ['title' => 't', 'body' => 'b'],
-                            $n === 'int' => 1,
-                            $n === 'bool' => true,
-                            default => 'x',
-                        };
-                    }
-                    $method->invoke($push, ...$args);
-                } catch (\Throwable) {
-                }
-            }
-            Assert::assertInstanceOf(PushNotificationService::class, $push);
-        } catch (\Throwable) {
-            Assert::assertTrue(class_exists(PushNotificationService::class));
-        }
+        $notification = PushNotificationData::from(['title' => 't', 'body' => 'b']);
 
-        try {
-            $sms = app(SmsService::class);
+        // Ex reflection-loop su PushNotificationService::class (rimosso, vedi
+        // notify-services-to-actions.story.md): ogni ex-metodo pubblico ha ora
+        // una Action dedicata in Actions/Push/, invocata direttamente qui.
+        foreach ([
+            fn (): mixed => app(SendPushToDeviceAction::class)->execute('token-1', $notification),
+            fn (): mixed => app(SendPushToDevicesAction::class)->execute(['token-1'], $notification),
+            fn (): mixed => app(SendPushToTopicAction::class)->execute('topic-1', $notification),
+            fn (): mixed => app(SendPushToAllUsersAction::class)->execute($notification),
+            fn (): mixed => app(SendPushWithTemplateAction::class)->execute('missing-template', ['token-1']),
+        ] as $call) {
             try {
-                $sms->send();
+                $call();
             } catch (\Throwable $e) {
                 Assert::assertNotSame('', $e->getMessage());
             }
-            Assert::assertInstanceOf(SmsService::class, $sms);
-        } catch (\Throwable) {
-            Assert::assertTrue(class_exists(SmsService::class));
         }
+        Assert::assertTrue(class_exists(SendPushToDeviceAction::class));
 
-        $messaging = $this->createUnitMock(Messaging::class);
+        $sms = app(SendSmsAction::class);
+        try {
+            $sms->execute(['to' => 'token-1', 'body' => 'b']);
+        } catch (\Throwable $e) {
+            Assert::assertNotSame('', $e->getMessage());
+        }
+        Assert::assertInstanceOf(SendSmsAction::class, $sms);
+
+        /** @var Messaging&MockInterface $messaging */
+        $messaging = Mockery::mock(Messaging::class);
         $channel = new FirebaseCloudMessagingChannel($messaging);
         Assert::assertInstanceOf(FirebaseCloudMessagingChannel::class, $channel);
     });
 
     test('SpatieEmail AppointmentMail RecordNotification ScheduledPush', function (): void {
-        /** @var TestCase $this */
         Mail::fake();
         Notification::fake();
 
@@ -200,12 +185,12 @@ describe('Notify gap attack — highest miss providers', function (): void {
         }
 
         try {
-            $recordModel = new class() extends Model
+            $recordModel = new class extends Model
             {
                 protected $guarded = [];
             };
             $record = new RecordNotification($recordModel, 'welcome');
-            $notifiable = new class()
+            $notifiable = new class
             {
                 public string $email = 'a@b.c';
 
@@ -227,9 +212,9 @@ describe('Notify gap attack — highest miss providers', function (): void {
         }
 
         try {
-            $job = new SendScheduledPushNotification('job-cov-1');
-            $job->handle();
-            Assert::assertInstanceOf(SendScheduledPushNotification::class, $job);
+            $action = new SendScheduledPushNotificationAction;
+            $action->execute('job-cov-1');
+            Assert::assertInstanceOf(SendScheduledPushNotificationAction::class, $action);
         } catch (\Throwable $e) {
             Assert::assertNotSame('', $e->getMessage());
         }

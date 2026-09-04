@@ -18,11 +18,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read ProfileContract|null $updater
- *
  * @method static Builder<static>|Contact newModelQuery()
  * @method static Builder<static>|Contact newQuery()
  * @method static Builder<static>|Contact query()
- *
  * @property string $id
  * @property string $model_type
  * @property string $model_id
@@ -51,7 +49,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
- *
  * @method static Builder<static>|Contact whereContactType($value)
  * @method static Builder<static>|Contact whereCreatedAt($value)
  * @method static Builder<static>|Contact whereCreatedBy($value)
@@ -66,7 +63,53 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|Contact whereUserId($value)
  * @method static Builder<static>|Contact whereValue($value)
  * @method static Builder<static>|Contact whereVerifiedAt($value)
- *
+ * @property string|null $email
+ * @property string|null $mobile_phone
+ * @property string|null $survey_pdf_id
+ * @property string|null $attribute_4
+ * @property string|null $attribute_5
+ * @property string|null $attribute_6
+ * @property string|null $attribute_7
+ * @property string|null $attribute_8
+ * @property string|null $attribute_9
+ * @property string|null $attribute_10
+ * @property string|null $attribute_11
+ * @property string|null $attribute_12
+ * @property string|null $attribute_13
+ * @property string|null $attribute_14
+ * @property string|null $language
+ * @property string|null $survey_id
+ * @property-read \Modules\User\Models\Profile|null $deleter
+ * @method static Builder<static>|Contact whereAttribute1($value)
+ * @method static Builder<static>|Contact whereAttribute10($value)
+ * @method static Builder<static>|Contact whereAttribute11($value)
+ * @method static Builder<static>|Contact whereAttribute12($value)
+ * @method static Builder<static>|Contact whereAttribute13($value)
+ * @method static Builder<static>|Contact whereAttribute14($value)
+ * @method static Builder<static>|Contact whereAttribute2($value)
+ * @method static Builder<static>|Contact whereAttribute3($value)
+ * @method static Builder<static>|Contact whereAttribute4($value)
+ * @method static Builder<static>|Contact whereAttribute5($value)
+ * @method static Builder<static>|Contact whereAttribute6($value)
+ * @method static Builder<static>|Contact whereAttribute7($value)
+ * @method static Builder<static>|Contact whereAttribute8($value)
+ * @method static Builder<static>|Contact whereAttribute9($value)
+ * @method static Builder<static>|Contact whereDuplicateCount($value)
+ * @method static Builder<static>|Contact whereEmail($value)
+ * @method static Builder<static>|Contact whereFirstName($value)
+ * @method static Builder<static>|Contact whereLanguage($value)
+ * @method static Builder<static>|Contact whereLastName($value)
+ * @method static Builder<static>|Contact whereMailCount($value)
+ * @method static Builder<static>|Contact whereMailSentAt($value)
+ * @method static Builder<static>|Contact whereMobilePhone($value)
+ * @method static Builder<static>|Contact whereOrderColumn($value)
+ * @method static Builder<static>|Contact whereSmsCount($value)
+ * @method static Builder<static>|Contact whereSmsSentAt($value)
+ * @method static Builder<static>|Contact whereSmsStatusCode($value)
+ * @method static Builder<static>|Contact whereSmsStatusTxt($value)
+ * @method static Builder<static>|Contact whereSurveyId($value)
+ * @method static Builder<static>|Contact whereSurveyPdfId($value)
+ * @method static Builder<static>|Contact whereUsesleft($value)
  * @mixin \Eloquent
  */
 class Contact extends BaseModel

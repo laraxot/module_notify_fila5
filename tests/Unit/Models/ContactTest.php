@@ -6,18 +6,18 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Notify\Models\Contact;
-use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
+use function Pest\Laravel\withoutExceptionHandling;
+use Modules\User\Models\User;
+
 beforeEach(function (): void {
-    /** @var TestCase $this */
-    $this->disableExceptionHandling();
+    withoutExceptionHandling();
 });
 
 describe('Contact', function (): void {
     test('_can_create_contact', function (): void {
-        /** @var TestCase $this */
         $contact = ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -72,7 +72,7 @@ describe('Contact', function (): void {
     });
 
     test('_has_correct_fillable_fields', function (): void {
-        $contact = new Contact();
+        $contact = new Contact;
 
         $expectedFillable = [
             'model_id',
@@ -91,7 +91,7 @@ describe('Contact', function (): void {
     });
 
     test('_has_correct_casts', function (): void {
-        $contact = new Contact();
+        $contact = new Contact;
 
         $expectedCasts = [
             'id' => 'string',
@@ -194,7 +194,6 @@ describe('Contact', function (): void {
     });
 
     test('_can_update_contact', function (): void {
-        /** @var TestCase $this */
         $contact = ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -221,8 +220,8 @@ describe('Contact', function (): void {
             'email' => 'new.email@example.com',
             'mobile_phone' => '+393331111111']);
 
-        Assert::assertNotNull($this->freshModel($contact, Contact::class)->verified_at);
-        Assert::assertEquals('new-token-123', $this->freshModel($contact, Contact::class)->token);
+        Assert::assertNotNull(assertFreshModel($contact, Contact::class)->verified_at);
+        Assert::assertEquals('new-token-123', assertFreshModel($contact, Contact::class)->token);
     });
 
     test('_can_find_by_model_type_and_id', function (): void {
@@ -241,7 +240,6 @@ describe('Contact', function (): void {
     });
 
     test('_can_find_by_contact_type', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -265,12 +263,11 @@ describe('Contact', function (): void {
 
         Assert::assertCount(2, $emailContacts);
         Assert::assertCount(1, $phoneContacts);
-        Assert::assertEquals('email', $this->firstModel($emailContacts, Contact::class)->contact_type);
-        Assert::assertEquals('phone', $this->firstModel($phoneContacts, Contact::class)->contact_type);
+        Assert::assertEquals('email', assertFirstModel($emailContacts, Contact::class)->contact_type);
+        Assert::assertEquals('phone', assertFirstModel($phoneContacts, Contact::class)->contact_type);
     });
 
     test('_can_find_by_user_id', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -297,11 +294,11 @@ describe('Contact', function (): void {
 
         Assert::assertCount(2, $user456Contacts);
         Assert::assertCount(1, $user789Contacts);
-        Assert::assertEquals('456', $this->firstModel($user456Contacts, Contact::class)->user_id);
+        Assert::assertEquals('456', assertFirstModel($user456Contacts, Contact::class)->user_id);
         $secondUserContact = $user456Contacts->get(1);
         Assert::assertInstanceOf(Contact::class, $secondUserContact);
         Assert::assertEquals('456', $secondUserContact->user_id);
-        Assert::assertEquals('789', $this->firstModel($user789Contacts, Contact::class)->user_id);
+        Assert::assertEquals('789', assertFirstModel($user789Contacts, Contact::class)->user_id);
     });
 
     test('_can_find_by_email', function (): void {
@@ -337,7 +334,6 @@ describe('Contact', function (): void {
     });
 
     test('_can_find_by_name_pattern', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -369,8 +365,8 @@ describe('Contact', function (): void {
         Assert::assertCount(1, $johnContacts);
         Assert::assertCount(1, $doeContacts);
         Assert::assertCount(2, $jContacts); // John and Jane
-        Assert::assertEquals('John', $this->firstModel($johnContacts, Contact::class)->first_name);
-        Assert::assertEquals('Doe', $this->firstModel($doeContacts, Contact::class)->last_name);
+        Assert::assertEquals('John', assertFirstModel($johnContacts, Contact::class)->first_name);
+        Assert::assertEquals('Doe', assertFirstModel($doeContacts, Contact::class)->last_name);
     });
 
     test('_can_find_by_token', function (): void {
@@ -389,7 +385,6 @@ describe('Contact', function (): void {
     });
 
     test('_can_find_by_verification_status', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -409,12 +404,11 @@ describe('Contact', function (): void {
 
         Assert::assertCount(1, $verifiedContacts);
         Assert::assertCount(1, $unverifiedContacts);
-        Assert::assertNotNull($this->firstModel($verifiedContacts, Contact::class)->verified_at);
-        Assert::assertNull($this->firstModel($unverifiedContacts, Contact::class)->verified_at);
+        Assert::assertNotNull(assertFirstModel($verifiedContacts, Contact::class)->verified_at);
+        Assert::assertNull(assertFirstModel($unverifiedContacts, Contact::class)->verified_at);
     });
 
     test('_can_find_by_sms_status', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -436,14 +430,13 @@ describe('Contact', function (): void {
 
         Assert::assertCount(1, $deliveredSms);
         Assert::assertCount(1, $failedSms);
-        Assert::assertEquals('200', $this->firstModel($deliveredSms, Contact::class)->sms_status_code);
-        Assert::assertEquals('400', $this->firstModel($failedSms, Contact::class)->sms_status_code);
-        Assert::assertEquals('Delivered', $this->firstModel($deliveredSms, Contact::class)->sms_status_txt);
-        Assert::assertEquals('Failed', $this->firstModel($failedSms, Contact::class)->sms_status_txt);
+        Assert::assertEquals('200', assertFirstModel($deliveredSms, Contact::class)->sms_status_code);
+        Assert::assertEquals('400', assertFirstModel($failedSms, Contact::class)->sms_status_code);
+        Assert::assertEquals('Delivered', assertFirstModel($deliveredSms, Contact::class)->sms_status_txt);
+        Assert::assertEquals('Failed', assertFirstModel($failedSms, Contact::class)->sms_status_txt);
     });
 
     test('_can_find_by_counters', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -465,12 +458,11 @@ describe('Contact', function (): void {
 
         Assert::assertCount(1, $lowSmsContacts);
         Assert::assertCount(1, $highMailContacts);
-        Assert::assertEquals(1, $this->firstModel($lowSmsContacts, Contact::class)->sms_count);
-        Assert::assertEquals(25, $this->firstModel($highMailContacts, Contact::class)->mail_count);
+        Assert::assertEquals(1, assertFirstModel($lowSmsContacts, Contact::class)->sms_count);
+        Assert::assertEquals(25, assertFirstModel($highMailContacts, Contact::class)->mail_count);
     });
 
     test('_can_find_by_attributes', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -494,15 +486,14 @@ describe('Contact', function (): void {
 
         Assert::assertCount(1, $managers);
         Assert::assertCount(2, $itDepartment);
-        Assert::assertEquals('Manager', $this->firstModel($managers, Contact::class)->attribute_2);
-        Assert::assertEquals('IT Department', $this->firstModel($itDepartment, Contact::class)->attribute_3);
+        Assert::assertEquals('Manager', assertFirstModel($managers, Contact::class)->attribute_2);
+        Assert::assertEquals('IT Department', assertFirstModel($itDepartment, Contact::class)->attribute_3);
         $secondItContact = $itDepartment->get(1);
         Assert::assertInstanceOf(Contact::class, $secondItContact);
         Assert::assertEquals('IT Department', $secondItContact->attribute_3);
     });
 
     test('_can_find_by_multiple_criteria', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -527,7 +518,7 @@ describe('Contact', function (): void {
             ->get();
 
         Assert::assertCount(1, $verifiedManagers);
-        $verifiedManager = $this->firstModel($verifiedManagers, Contact::class);
+        $verifiedManager = assertFirstModel($verifiedManagers, Contact::class);
         Assert::assertEquals('verified@example.com', $verifiedManager->value);
         Assert::assertEquals('Manager', $verifiedManager->attribute_1);
         Assert::assertEquals(5, $verifiedManager->sms_count);
@@ -553,7 +544,6 @@ describe('Contact', function (): void {
     });
 
     test('_can_order_by_order_column', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -578,10 +568,10 @@ describe('Contact', function (): void {
         $orderedContacts = Contact::orderBy('order_column')->get();
 
         Assert::assertCount(3, $orderedContacts);
-        Assert::assertEquals('first@example.com', $this->firstModel($orderedContacts, Contact::class)->value);
+        Assert::assertEquals('first@example.com', assertFirstModel($orderedContacts, Contact::class)->value);
         Assert::assertEquals('second@example.com', $orderedContacts->get(1)?->value);
         Assert::assertEquals('third@example.com', $orderedContacts->get(2)?->value);
-        Assert::assertEquals(1, $this->firstModel($orderedContacts, Contact::class)->order_column);
+        Assert::assertEquals(1, assertFirstModel($orderedContacts, Contact::class)->order_column);
         Assert::assertEquals(2, $orderedContacts->get(1)?->order_column);
         Assert::assertEquals(3, $orderedContacts->get(2)?->order_column);
     });

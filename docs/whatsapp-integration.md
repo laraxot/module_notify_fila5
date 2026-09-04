@@ -2,7 +2,7 @@
 
 ## Panoramica
 
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di Quaeris, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
+Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
 
 ## Architettura
 
@@ -197,7 +197,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 
     private string $accountSid;
     private string $authToken;
-    private string $baseUrl = 'https://api.twilio.com/[DATE]';
+    private string $baseUrl = 'https://api.twilio.com/2010-04-01';
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
@@ -399,7 +399,7 @@ $action = app(SendTwilioWhatsAppAction::class);
 
 $whatsAppData = new WhatsAppData(
     to: '+393401234567',
-body: 'Questo è un messaggio di test da Quaeris',
+    body: 'Questo è un messaggio di test da SaluteOra',
 );
 
 $result = $action->execute($whatsAppData);
@@ -532,7 +532,8 @@ L'integrazione WhatsApp  segue gli stessi pattern e standard utilizzati per l'in
 3. **Estensibilità**: È facile aggiungere nuovi provider WhatsApp
 4. **Testabilità**: Le azioni sono facilmente testabili grazie all'interfaccia comune
 
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di Quaeris, mantenendo la coerenza con le altre modalità di comunicazione.
+Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
 
 ---
 
+*Ultimo aggiornamento: 2023-05-12*

@@ -25,18 +25,18 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Notify\Models\Contact;
-use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
+use function Pest\Laravel\withoutExceptionHandling;
+use Modules\User\Models\User;
+
 beforeEach(function (): void {
-    /** @var TestCase $this */
-    $this->disableExceptionHandling();
+    withoutExceptionHandling();
 });
 
 describe('Contact PartOne', function (): void {
     test('_can_create_contact', function (): void {
-        /** @var TestCase $this */
         $contact = ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -91,7 +91,7 @@ describe('Contact PartOne', function (): void {
     });
 
     test('_has_correct_fillable_fields', function (): void {
-        $contact = new Contact();
+        $contact = new Contact;
 
         $expectedFillable = [
             'model_id',
@@ -110,7 +110,7 @@ describe('Contact PartOne', function (): void {
     });
 
     test('_has_correct_casts', function (): void {
-        $contact = new Contact();
+        $contact = new Contact;
 
         $expectedCasts = [
             'id' => 'string',
@@ -213,7 +213,6 @@ describe('Contact PartOne', function (): void {
     });
 
     test('_can_update_contact', function (): void {
-        /** @var TestCase $this */
         $contact = ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -240,8 +239,8 @@ describe('Contact PartOne', function (): void {
             'email' => 'new.email@example.com',
             'mobile_phone' => '+393331111111']);
 
-        Assert::assertNotNull($this->freshModel($contact, Contact::class)->verified_at);
-        Assert::assertEquals('new-token-123', $this->freshModel($contact, Contact::class)->token);
+        Assert::assertNotNull(assertFreshModel($contact, Contact::class)->verified_at);
+        Assert::assertEquals('new-token-123', assertFreshModel($contact, Contact::class)->token);
     });
 
     test('_can_find_by_model_type_and_id', function (): void {
@@ -260,7 +259,6 @@ describe('Contact PartOne', function (): void {
     });
 
     test('_can_find_by_contact_type', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -284,12 +282,11 @@ describe('Contact PartOne', function (): void {
 
         Assert::assertCount(2, $emailContacts);
         Assert::assertCount(1, $phoneContacts);
-        Assert::assertEquals('email', $this->firstModel($emailContacts, Contact::class)->contact_type);
-        Assert::assertEquals('phone', $this->firstModel($phoneContacts, Contact::class)->contact_type);
+        Assert::assertEquals('email', assertFirstModel($emailContacts, Contact::class)->contact_type);
+        Assert::assertEquals('phone', assertFirstModel($phoneContacts, Contact::class)->contact_type);
     });
 
     test('_can_find_by_user_id', function (): void {
-        /** @var TestCase $this */
         ContactFactory::new()->createOne([
             'model_type' => 'App\Models\User',
             'model_id' => '123',
@@ -316,11 +313,11 @@ describe('Contact PartOne', function (): void {
 
         Assert::assertCount(2, $user456Contacts);
         Assert::assertCount(1, $user789Contacts);
-        Assert::assertEquals('456', $this->firstModel($user456Contacts, Contact::class)->user_id);
+        Assert::assertEquals('456', assertFirstModel($user456Contacts, Contact::class)->user_id);
         $secondUserContact = $user456Contacts->get(1);
         Assert::assertInstanceOf(Contact::class, $secondUserContact);
         Assert::assertEquals('456', $secondUserContact->user_id);
-        Assert::assertEquals('789', $this->firstModel($user789Contacts, Contact::class)->user_id);
+        Assert::assertEquals('789', assertFirstModel($user789Contacts, Contact::class)->user_id);
     });
 
     test('_can_find_by_email', function (): void {
@@ -338,5 +335,4 @@ describe('Contact PartOne', function (): void {
         Assert::assertEquals($contact->id, $foundContact->id);
         Assert::assertEquals('test@example.com', $foundContact->value);
     });
-
 });

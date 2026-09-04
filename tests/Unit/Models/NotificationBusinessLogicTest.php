@@ -7,10 +7,11 @@ namespace Modules\Notify\Tests\Unit\Models;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
+use Modules\User\Models\User;
 
 describe('Notification Business Logic', function () {
     test('notification extends xot base model', function () {
-        $notification = new Notification();
+        $notification = new Notification;
 
         Assert::assertInstanceOf(Notification::class, $notification);
     });

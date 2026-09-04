@@ -35,22 +35,22 @@ use PHPUnit\Framework\Assert;
 
 function makeEditContactTestProxy(): EditContactTestProxy
 {
-    return new EditContactTestProxy();
+    return new EditContactTestProxy;
 }
 
 function makePreviewMailTemplateTestProxy(): PreviewMailTemplateTestProxy
 {
-    return new PreviewMailTemplateTestProxy();
+    return new PreviewMailTemplateTestProxy;
 }
 
 function makeViewNotificationTestProxy(): ViewNotificationTestProxy
 {
-    return new ViewNotificationTestProxy();
+    return new ViewNotificationTestProxy;
 }
 
 function makePreviewNotificationTemplateTestProxy(): PreviewNotificationTemplate
 {
-    return new class() extends PreviewNotificationTemplate {};
+    return new class extends PreviewNotificationTemplate {};
 }
 
 test('contact resource form schema exposes expected fields', function (): void {
@@ -138,7 +138,7 @@ test('mail template resource form schema exposes expected components', function 
     // Nessuna fixture da creare: HtmlLayoutPathSelect legge
     // XotData::make()->getMailHtmlLayoutPath(), cioe' Themes/<pub_theme>/resources/mail-layouts,
     // e in questo progetto pub_theme e' 'Zero', che i suoi layout ce li ha gia'.
-    $schema = XotBasePest::assertArray(MailTemplateResource::getFormSchemaOld());
+    $schema = XotBasePest::assertArray(MailTemplateResource::getFormSchema());
 
     Assert::assertArrayHasKey('mailable_slug_group', $schema);
     Assert::assertInstanceOf(Group::class, $schema['mailable_slug_group']);

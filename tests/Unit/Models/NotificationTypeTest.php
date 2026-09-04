@@ -6,18 +6,17 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Database\Factories\NotificationTypeFactory;
 use Modules\Notify\Models\NotificationType;
-use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
+use function Pest\Laravel\withoutExceptionHandling;
+
 beforeEach(function (): void {
-    /** @var TestCase $this */
-    $this->disableExceptionHandling();
+    withoutExceptionHandling();
 });
 
 describe('Notification Type', function (): void {
     test('_can_create_notification_type', function (): void {
-        /** @var TestCase $this */
         $notificationType = NotificationTypeFactory::new()->createOne([
             'name' => 'Email Notification',
             'description' => 'Email notification type for sending emails',
@@ -32,7 +31,7 @@ describe('Notification Type', function (): void {
     });
 
     test('_has_correct_fillable_fields', function (): void {
-        $notificationType = new NotificationType();
+        $notificationType = new NotificationType;
 
         $expectedFillable = [
             'name',
@@ -43,7 +42,6 @@ describe('Notification Type', function (): void {
     });
 
     test('_can_update_notification_type', function (): void {
-        /** @var TestCase $this */
         $notificationType = NotificationTypeFactory::new()->createOne([
             'name' => 'Original Name',
             'description' => 'Original description',
@@ -59,7 +57,7 @@ describe('Notification Type', function (): void {
             'description' => 'Updated description',
             'template' => 'updated_template']);
 
-        $fresh = $this->freshModel($notificationType, NotificationType::class);
+        $fresh = assertFreshModel($notificationType, NotificationType::class);
         Assert::assertEquals('Updated Name', $fresh->name);
         Assert::assertEquals('Updated description', $fresh->description);
         Assert::assertEquals('updated_template', $fresh->template);

@@ -1,10 +1,10 @@
 ---
-title: "MODULES_VALIDATION_REPORT_2025-10-02"
+title: "MODULES_VALIDATION_REPORT_2025-10-02.deprecated"
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "modules_validation_report_2025-10-02 deprecated"
+qmd: "modules_validation_report_2025-10-02.deprecated deprecated"
 status: deprecated
 related:
   - "./agid-analysis-implementation-.md"
@@ -17,4 +17,4 @@ related:
   - "./code-quality-improvements-1.md"
 ---
 
-> Questo file è stato rinominato in [modules-validation-report.md](modules-validation-report.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [modules-validation-report-.deprecated.md](modules-validation-report-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

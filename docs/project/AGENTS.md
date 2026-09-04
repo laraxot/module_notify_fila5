@@ -323,7 +323,7 @@ class ExampleClass extends XotBaseClass
 ```php
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Permission\Traits\HasRoles;
-use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use function Safe\glob;
 use Webmozart\Assert\Assert;
@@ -714,7 +714,7 @@ $name = $profile?->name ?? 'Guest';
 <?php
 
 use Tests\TestCase;
-use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 uses(TestCase::class, RefreshDatabase::class)->in('Feature');
@@ -1186,7 +1186,7 @@ namespace Modules\Example\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
 
 class Example extends XotBaseModel
 {
@@ -1408,7 +1408,7 @@ namespace Modules\Example\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
 
 /**
  * Example Model

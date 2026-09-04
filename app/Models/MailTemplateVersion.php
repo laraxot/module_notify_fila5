@@ -21,14 +21,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
  * @property-read ProfileContract|null $updater
- *
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
  * @method static Builder<static>|MailTemplateVersion onlyTrashed()
  * @method static Builder<static>|MailTemplateVersion query()
  * @method static Builder<static>|MailTemplateVersion withTrashed(bool $withTrashed = true)
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
- *
  * @property string $id
  * @property int $mail_template_id
  * @property int $version
@@ -43,7 +41,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $updated_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
- *
  * @method static Builder<static>|MailTemplateVersion whereChangeNotes($value)
  * @method static Builder<static>|MailTemplateVersion whereCreatedAt($value)
  * @method static Builder<static>|MailTemplateVersion whereCreatedBy($value)
@@ -58,7 +55,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateVersion whereUpdatedAt($value)
  * @method static Builder<static>|MailTemplateVersion whereUpdatedBy($value)
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
- *
+ * @property-read \Modules\User\Models\Profile|null $deleter
  * @mixin \Eloquent
  */
 class MailTemplateVersion extends BaseModel

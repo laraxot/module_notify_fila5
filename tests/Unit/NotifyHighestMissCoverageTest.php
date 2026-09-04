@@ -17,14 +17,20 @@ use Illuminate\Testing\PendingCommand;
 use Modules\Notify\Actions\EsendexSendAction;
 use Modules\Notify\Actions\Mail\Engines\Duocircle\TryDuocircleMailAction;
 use Modules\Notify\Actions\NetfunSendAction;
+use Modules\Notify\Actions\Push\SchedulePushNotificationAction;
+use Modules\Notify\Actions\Push\SendPushToAllUsersAction;
+use Modules\Notify\Actions\Push\SendPushToDeviceAction;
 use Modules\Notify\Actions\Push\SendPushToDevicesAction;
 use Modules\Notify\Actions\Push\SendPushToPlatformAction;
 use Modules\Notify\Actions\Push\SendPushToTopicAction;
+use Modules\Notify\Actions\Push\SendPushWithTargetingAction;
+use Modules\Notify\Actions\Push\SendPushWithTemplateAction;
 use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Actions\SMS\SendGammuSMSAction;
 use Modules\Notify\Actions\SMS\SendNetfunSMSAction;
 use Modules\Notify\Actions\SMS\SendNexmoSMSAction;
 use Modules\Notify\Actions\SMS\SendPlivoSMSAction;
+use Modules\Notify\Actions\SMS\SendSmsAction;
 use Modules\Notify\Actions\SMS\SendTwilioSMSAction;
 use Modules\Notify\Actions\Telegram\SendBotmanTelegramAction;
 use Modules\Notify\Actions\Telegram\SendNutgramTelegramAction;
@@ -34,6 +40,7 @@ use Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Modules\Notify\Datas\PushCriteriaData;
 use Modules\Notify\Datas\PushNotificationData;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Datas\TelegramData;
@@ -60,14 +67,13 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Notifications\GenericNotification;
-use Modules\Notify\Services\PushNotificationService;
-use Modules\Notify\Services\SmsService;
 use Modules\Notify\Tests\Unit\Traits\NotifyTrackingDummy;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 use ReflectionMethod;
 use Safe\DateTime;
 
+use function Pest\Laravel\artisan;
 use function Safe\file_put_contents;
 use function Safe\unlink;
 
@@ -173,26 +179,26 @@ describe('Notify highest-miss coverage', function (): void {
 
     test('resources expose model pages and legacy form schema', function (): void {
         Assert::assertSame(NotificationTemplate::class, NotificationTemplateResource::getModel());
-        Assert::assertArrayHasKey('name', NotificationTemplateResource::getFormSchemaOld());
+        Assert::assertArrayHasKey('name', NotificationTemplateResource::getFormSchema());
         Assert::assertNotEmpty(NotificationTemplateResource::getPages());
 
         Assert::assertSame(NotifyTheme::class, NotifyThemeResource::getModel());
-        Assert::assertArrayHasKey('subject', NotifyThemeResource::getFormSchemaOld());
+        Assert::assertArrayHasKey('subject', NotifyThemeResource::getFormSchema());
         Assert::assertNotEmpty(NotifyThemeResource::getPages());
 
         Assert::assertSame(MailTemplate::class, MailTemplateResource::getModel());
-        Assert::assertNotEmpty(MailTemplateResource::getFormSchemaOld());
+        Assert::assertNotEmpty(MailTemplateResource::getFormSchema());
         Assert::assertNotEmpty(MailTemplateResource::getPages());
 
         Assert::assertSame(\Modules\Notify\Models\Notification::class, NotificationResource::getModel());
-        Assert::assertNotEmpty(NotificationResource::getFormSchemaOld());
+        Assert::assertNotEmpty(NotificationResource::getFormSchema());
 
         Assert::assertSame(Contact::class, ContactResource::getModel());
-        Assert::assertNotEmpty(ContactResource::getFormSchemaOld());
+        Assert::assertNotEmpty(ContactResource::getFormSchema());
         Assert::assertNotEmpty(ContactResource::getPages());
     });
 
-    test('PushNotificationService sends fakes schedules and guards empty targets', function (): void {
+    test('Push actions send fakes schedules and guards empty targets', function (): void {
         config([
             'notify.fcm.server_key' => 'test-key',
             'notify.apns.certificate' => null,
@@ -206,33 +212,34 @@ describe('Notify highest-miss coverage', function (): void {
         Queue::fake();
         config(['cache.default' => 'array']);
 
-        $service = new PushNotificationService();
-        $notification = ['title' => 'Ciao', 'body' => 'Test'];
+        // Ex `PushNotificationService` (rimosso, vedi notify-services-to-actions.story.md):
+        // ogni ex-metodo pubblico e' ora una Action dedicata in Actions/Push/.
+        $notification = PushNotificationData::from(['title' => 'Ciao', 'body' => 'Test']);
         $fcmToken = str_repeat('a', 80).':'.str_repeat('b', 40);
         $apnsToken = str_repeat('ab', 32);
 
-        $one = $service->sendToDevice($fcmToken, $notification, ['k' => 'v']);
+        $one = app(SendPushToDeviceAction::class)->execute($fcmToken, $notification, ['k' => 'v']);
         Assert::assertArrayHasKey('fcm', $one);
         Assert::assertTrue($one['fcm']['success']);
         Assert::assertTrue($one['apns']['success']);
         Assert::assertTrue($one['webpush']['success']);
 
-        $batch = $service->sendToDevices([$fcmToken, $apnsToken, 'web-token'], $notification);
+        $batch = app(SendPushToDevicesAction::class)->execute([$fcmToken, $apnsToken, 'web-token'], $notification);
         Assert::assertArrayHasKey('fcm', $batch);
 
-        $topic = $service->sendToTopic('news', $notification);
+        $topic = app(SendPushToTopicAction::class)->execute('news', $notification);
         Assert::assertArrayHasKey('fcm', $topic);
 
-        $emptyAll = $service->sendToAll($notification);
+        $emptyAll = app(SendPushToAllUsersAction::class)->execute($notification);
         Assert::assertFalse($emptyAll['success']);
 
-        $emptyTarget = $service->sendWithTargeting(['platform' => 'unknown'], $notification);
+        $emptyTarget = app(SendPushWithTargetingAction::class)->execute(PushCriteriaData::from(['platform' => 'unknown']), $notification);
         Assert::assertFalse($emptyTarget['success']);
 
-        expect(fn (): mixed => $service->sendWithTemplate('missing', ['t']))
+        expect(fn (): mixed => app(SendPushWithTemplateAction::class)->execute('missing', ['t']))
             ->toThrow(\Exception::class);
 
-        $jobId = $service->scheduleNotification(['t1'], $notification, [], new DateTime('+1 hour'));
+        $jobId = app(SchedulePushNotificationAction::class)->execute(['t1'], $notification, [], new DateTime('+1 hour'));
         Assert::assertStringStartsWith('push_', $jobId);
     });
 
@@ -255,7 +262,7 @@ describe('Notify highest-miss coverage', function (): void {
     });
 
     test('analyze translations artisan command runs against module lang', function (): void {
-        $pending = $this->artisan('notify:analyze-translations');
+        $pending = artisan('notify:analyze-translations');
         if ($pending instanceof PendingCommand) {
             $pending->assertExitCode(0);
 
@@ -278,15 +285,15 @@ describe('Notify highest-miss coverage', function (): void {
         $fcmToken = str_repeat('a', 80).':'.str_repeat('b', 40);
         $apnsToken = str_repeat('ab', 32);
 
-        $platform = (new SendPushToPlatformAction())->execute('fcm', $fcmToken, $notification);
+        $platform = (new SendPushToPlatformAction)->execute('fcm', $fcmToken, $notification);
         Assert::assertTrue($platform['success']);
-        Assert::assertTrue((new SendPushToPlatformAction())->execute('apns', $apnsToken, $notification)['success']);
-        Assert::assertTrue((new SendPushToPlatformAction())->execute('webpush', 'web-token', $notification)['success']);
+        Assert::assertTrue((new SendPushToPlatformAction)->execute('apns', $apnsToken, $notification)['success']);
+        Assert::assertTrue((new SendPushToPlatformAction)->execute('webpush', 'web-token', $notification)['success']);
 
-        $devices = (new SendPushToDevicesAction())->execute([$fcmToken, $apnsToken], $notification);
+        $devices = (new SendPushToDevicesAction)->execute([$fcmToken, $apnsToken], $notification);
         Assert::assertArrayHasKey('fcm', $devices);
 
-        $topic = (new SendPushToTopicAction())->execute('news', $notification);
+        $topic = (new SendPushToTopicAction)->execute('news', $notification);
         Assert::assertArrayHasKey('fcm', $topic);
     });
 
@@ -316,7 +323,7 @@ describe('Notify highest-miss coverage', function (): void {
             SendNutgramTelegramAction::class,
             SendOfficialTelegramAction::class] as $class) {
             try {
-                $action = new $class();
+                $action = new $class;
                 $data = str_contains($class, 'Telegram') ? $telegramData : $whatsappData;
                 $result = $action->execute($data);
                 Assert::assertNotEmpty($result);
@@ -326,15 +333,18 @@ describe('Notify highest-miss coverage', function (): void {
         }
     });
 
-    test('SmsService validates missing engine and accepts local vars', function (): void {
-        $service = SmsService::make()
-            ->setLocalVars(['to' => '+390000000000', 'body' => 'Test'])
-            ->mergeVars(['foo' => 'bar']);
-        Assert::assertSame('+390000000000', $service->to);
-        Assert::assertSame('bar', $service->vars['foo']);
+    test('SendSmsAction validates missing engine and accepts local vars', function (): void {
+        // Ex `SmsService::make()->setLocalVars()->mergeVars()->send()` (rimosso, vedi
+        // notify-services-to-actions.story.md): un solo execute() sostituisce la catena
+        // fluente, impostando prima le proprieta' e poi tentando (senza successo, per
+        // design invariato) il dispatch verso il motore configurato.
+        $action = new SendSmsAction;
 
-        expect(fn (): SmsService => $service->send())
+        expect(fn (): array => $action->execute(['to' => '+390000000000', 'body' => 'Test', 'foo' => 'bar']))
             ->toThrow(\RuntimeException::class);
+
+        Assert::assertSame('+390000000000', $action->to);
+        Assert::assertSame('bar', $action->vars['foo']);
     });
 
     test('sms actions normalize recipients before provider call', function (): void {
@@ -359,7 +369,7 @@ describe('Notify highest-miss coverage', function (): void {
             SendPlivoSMSAction::class,
             SendGammuSMSAction::class] as $class) {
             try {
-                $action = new $class();
+                $action = new $class;
                 $action->execute($sms);
             } catch (\Throwable $e) {
                 Assert::assertNotSame('', $e->getMessage());
@@ -397,7 +407,7 @@ describe('Notify highest-miss coverage', function (): void {
         $recipient = notifyDummyRecipient(['email' => 'user@example.test']);
         Notification::fake();
 
-        $result = (new SendNotificationAction())->handle(
+        $result = (new SendNotificationAction)->handle(
             $recipient,
             'welcome-template',
         );
@@ -405,7 +415,7 @@ describe('Notify highest-miss coverage', function (): void {
         Assert::assertNull($result);
         Notification::assertSentTo($recipient, GenericNotification::class);
 
-        expect(fn (): mixed => (new SendNotificationAction())->handle(
+        expect(fn (): mixed => (new SendNotificationAction)->handle(
             $recipient,
             'missing-template',
         ))->toThrow(\Exception::class);
@@ -430,7 +440,7 @@ describe('Notify highest-miss coverage', function (): void {
         $recipient = notifyDummyRecipient(['phone' => '+393331112233']);
         Notification::fake();
 
-        (new SendNotificationAction())->handle(
+        (new SendNotificationAction)->handle(
             $recipient,
             'sms-template',
         );
@@ -439,7 +449,7 @@ describe('Notify highest-miss coverage', function (): void {
     });
 
     test('notification template compiles previews and conditions in memory', function (): void {
-        $template = new NotificationTemplate();
+        $template = new NotificationTemplate;
         $template->forceFill([
             'subject' => 'Ciao Marco',
             'body_text' => 'Testo Marco',
@@ -501,7 +511,7 @@ describe('Notify highest-miss coverage', function (): void {
             'notify.tracking.links.enabled' => false,
             'notify.tracking.pixel.route' => 'login']);
 
-        $dummy = new NotifyTrackingDummy();
+        $dummy = new NotifyTrackingDummy;
         $html = '<p>Newsletter</p>';
         $tracked = $dummy->addTrackingPublic($html, 'track-uuid');
 
@@ -523,7 +533,7 @@ describe('Notify highest-miss coverage', function (): void {
 
         foreach ($cases as $payload) {
             try {
-                $result = (new SendFacebookWhatsAppAction())->execute(
+                $result = (new SendFacebookWhatsAppAction)->execute(
                     WhatsAppData::from($payload),
                 );
                 Assert::assertNotEmpty($result);
@@ -545,12 +555,12 @@ describe('Notify highest-miss coverage', function (): void {
             'from' => 'APP']);
 
         try {
-            (new EsendexSendAction())->execute($sms);
+            (new EsendexSendAction)->execute($sms);
         } catch (\Throwable $e) {
             Assert::assertNotSame('', $e->getMessage());
         }
 
-        expect(fn (): array => (new TryDuocircleMailAction())->execute([
+        expect(fn (): array => (new TryDuocircleMailAction)->execute([
             'to' => 'user@example.test']))->toThrow(\Exception::class);
     });
 });

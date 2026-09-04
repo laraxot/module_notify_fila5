@@ -22,16 +22,16 @@ use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
+use function Pest\Laravel\withoutExceptionHandling;
 use function Safe\json_encode;
+use Modules\User\Models\User;
 
 beforeEach(function (): void {
-    /** @var TestCase $this */
-    $this->disableExceptionHandling();
+    withoutExceptionHandling();
 });
 
 describe('Notify Theme PartOne', function (): void {
     test('_can_create_notify_theme', function (): void {
-        /** @var TestCase $this */
         $theme = NotifyTheme::create([
             'lang' => 'it',
             'type' => 'email',
@@ -74,7 +74,7 @@ describe('Notify Theme PartOne', function (): void {
     });
 
     test('_has_correct_fillable_fields', function (): void {
-        $theme = new NotifyTheme();
+        $theme = new NotifyTheme;
 
         $expectedFillable = [
             'id',
@@ -97,7 +97,7 @@ describe('Notify Theme PartOne', function (): void {
     });
 
     test('_has_correct_casts', function (): void {
-        $theme = new NotifyTheme();
+        $theme = new NotifyTheme;
 
         $expectedCasts = [
             'id' => 'string',
@@ -114,7 +114,7 @@ describe('Notify Theme PartOne', function (): void {
     });
 
     test('_has_logo_appended_attribute', function (): void {
-        $theme = new NotifyTheme();
+        $theme = new NotifyTheme;
 
         $expectedAppends = ['logo'];
 
