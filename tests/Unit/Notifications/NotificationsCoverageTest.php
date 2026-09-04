@@ -226,7 +226,7 @@ test('ticket notifications expose channels and array payload', function () {
     $user->id = 'user-1';
     $user->name = 'Assigner User';
 
-    $assigned = new TicketAssignedNotification((object) ['id' => 10], $user);
+    $assigned = new TicketAssignedNotification(notificationsCoverageTicketModel(), $user);
     $changed = new TicketStatusChangedNotification(notificationsCoverageTicketModel(), 'open', 'closed');
 
     Assert::assertSame(['mail', 'database'], $assigned->via(new \stdClass));
