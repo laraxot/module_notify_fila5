@@ -19,7 +19,7 @@ class NetfunChannel
 
         $action = app(SendSmsFactorSMSAction::class);
 
-        /** @var array<string, mixed> $data */
+        /** @var array{status_code: int, status_txt: string} $data */
         $data = $action->execute($smsData);
 
         $notifiable->increase('sms', $data);

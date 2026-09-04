@@ -71,6 +71,30 @@ questo diff (un file di test mai toccato fallisce nello stesso identico modo,
 sia dentro la suite intera sia da solo). Vedi memoria second-brain
 `env-sqlite-manca-suite-non-eseguibile.md`.
 
+## Riduzione uso di `mixed` — 2026-09-04
+
+Vedi story `docs/stories/4.28.mixed-type-reduction.story.md`. In sintesi: 125
+file del modulo usano `mixed`; all'avvio 100 erano gia' "dirty" per lavoro
+concorrente di un'altra sessione (non toccati, per non collidere). Sui 26
+file puliti, 6 avevano una shape reale deducibile con certezza dal codice
+circostante (return type di un'Action gia' tipizzata, o docblock del metodo
+genitore Filament) e sono stati resi piu' specifici:
+`array<string, mixed>` -> `array{status_code: int, status_txt: string}` in
+`NetfunChannel.php` (matcha `SendSmsFactorSMSAction::execute()`);
+`array<string, mixed>` -> `array<string, Action|ActionGroup>` in
+`EditContactTestProxy.php`/`EditNotifyThemeTestProxy.php` (matcha
+`XotBaseEditRecord::getHeaderActions()`); `array<int|string, mixed>` ->
+`array<int|string, TextInput>` in `ContactSectionTestProxy.php` (matcha
+`ContactSection::getFormSchema()`); `array<int, mixed>` -> `array<int,
+Component>` in `ViewNotificationTestProxy.php` (matcha
+`ViewNotification::getInfolistSchema()`); `array<int, mixed>` -> `array<int,
+Action>` in `PreviewMailTemplateTestProxy.php`. Gli altri 20 file puliti sono
+stati lasciati `mixed` con motivazione (bag di config/vars genuinamente
+polimorfe, contratti multi-provider, firme idiomatiche `Factory::definition()`,
+un falso positivo del grep). `phpstan analyse Modules/Notify`: 0 errori prima
+e dopo. Pest: stesso pattern preesistente 417/396 gia' documentato sopra
+(2026-09-04, story 4.27) — non causato da questo diff.
+
 ## Nota sulla versione precedente di questo file
 
 Fino al 27 agosto 2026 questo documento dichiarava «comprehensive test coverage» e «all
