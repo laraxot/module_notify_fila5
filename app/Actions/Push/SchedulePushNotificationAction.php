@@ -7,7 +7,7 @@ namespace Modules\Notify\Actions\Push;
 use DateTime;
 use Illuminate\Support\Facades\Cache;
 use Modules\Notify\Datas\PushNotificationData;
-use Modules\Notify\Jobs\SendScheduledPushNotification;
+use Spatie\QueueableAction\ActionJob;
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -29,10 +29,14 @@ class SchedulePushNotificationAction
             'tokens' => $tokens,
             'notification' => $notification->toArray(),
             'data' => $data,
-            'schedule_time' => $scheduleTime->getTimestamp(),
-        ], $scheduleTime);
+            'schedule_time' => $scheduleTime->getTimestamp()], $scheduleTime);
 
-        SendScheduledPushNotification::dispatch($jobId)
+        // ActionJob::dispatch(...) invece di onQueue()->execute(...): il docblock
+        // `@return static` di QueueableAction::onQueue() e' impreciso (ritorna una
+        // classe anonima, non $this), PHPStan crede che ->execute() richiami di
+        // nuovo il nostro metodo (void) e boccia ->delay() su null. Dispatchable::
+        // dispatch() di Laravel e' tipizzato correttamente e supporta ->delay().
+        ActionJob::dispatch(app(SendScheduledPushNotificationAction::class), [$jobId])
             ->delay($scheduleTime);
 
         return $jobId;

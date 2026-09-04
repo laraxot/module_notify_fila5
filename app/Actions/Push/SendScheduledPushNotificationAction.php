@@ -2,52 +2,34 @@
 
 declare(strict_types=1);
 
-namespace Modules\Notify\Jobs;
+namespace Modules\Notify\Actions\Push;
 
 use Exception;
-use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Foundation\Bus\Dispatchable;
-use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
-use Modules\Notify\Actions\Push\SendPushToDevicesAction;
 use Modules\Notify\Datas\PushNotificationData;
+use Spatie\QueueableAction\QueueableAction;
 use Throwable;
 use Webmozart\Assert\Assert;
 
 /**
- * Job per l'invio di notifiche push programmate
+ * Invia una notifica push programmata, letta dalla cache tramite il suo job id.
  *
- * Gestisce l'invio di notifiche push in base
- * a una programmazione temporale.
+ * Coppia di `SchedulePushNotificationAction`, che scrive la cache e mette in coda
+ * questa action con `Spatie\QueueableAction\ActionJob::dispatch($action, [$jobId])->delay(...)`.
  */
-class SendScheduledPushNotification implements ShouldQueue
+class SendScheduledPushNotificationAction
 {
-    use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+    use QueueableAction;
 
-    /**
-     * @return void
-     */
-    public function __construct(
-        private string $jobId
-    ) {
-    }
-
-    /**
-     * Execute the job.
-     */
-    public function handle(): void
+    public function execute(string $jobId): void
     {
         try {
-            // Recupera dati notifica programmata
-            $notificationData = Cache::get("scheduled_push:{$this->jobId}");
+            $notificationData = Cache::get("scheduled_push:{$jobId}");
 
             if (! $notificationData) {
                 Log::warning('Scheduled push notification not found', [
-                    'job_id' => $this->jobId,
-                ]);
+                    'job_id' => $jobId]);
 
                 return;
             }
@@ -74,36 +56,30 @@ class SendScheduledPushNotification implements ShouldQueue
                 $data
             );
 
-            // Log risultato
             Log::debug('Scheduled push notification sent', [
-                'job_id' => $this->jobId,
-                'result' => $result,
-            ]);
+                'job_id' => $jobId,
+                'result' => $result]);
 
-            // Rimuovi notifica programmata
-            Cache::forget("scheduled_push:{$this->jobId}");
+            Cache::forget("scheduled_push:{$jobId}");
         } catch (Exception $e) {
             Log::error('Scheduled push notification failed', [
-                'job_id' => $this->jobId,
-                'error' => $e->getMessage(),
-            ]);
+                'job_id' => $jobId,
+                'error' => $e->getMessage()]);
 
-            // Rilancia l'eccezione per il retry
+            Cache::forget("scheduled_push:{$jobId}");
+
             throw $e;
         }
     }
 
     /**
-     * Handle a job failure.
+     * Wired automaticamente da `Spatie\QueueableAction\ActionJob` quando l'esecuzione
+     * in coda fallisce in modo definitivo (nessun accesso a `$jobId`: la cache e' gia'
+     * stata ripulita dal catch di `execute()`, qui resta solo il log).
      */
     public function failed(Throwable $exception): void
     {
         Log::error('Scheduled push notification job failed permanently', [
-            'job_id' => $this->jobId,
-            'error' => $exception->getMessage(),
-        ]);
-
-        // Rimuovi notifica programmata anche in caso di fallimento
-        Cache::forget("scheduled_push:{$this->jobId}");
+            'error' => $exception->getMessage()]);
     }
 }

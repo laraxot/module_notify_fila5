@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit;
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
+use Kreait\Firebase\Contract\Messaging;
 use Mockery;
+use Mockery\MockInterface;
 use Modules\Notify\Actions\EsendexSendAction;
 use Modules\Notify\Actions\SMS\SendNexmoSMSAction;
 use Modules\Notify\Actions\SMS\SendPlivoSMSAction;
@@ -19,18 +22,15 @@ use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
-use Modules\Notify\Notifications\Channels\FirebaseCloudMessagingChannel;
+use Modules\Notify\Actions\Push\SendScheduledPushNotificationAction;
 use Modules\Notify\Emails\SpatieEmail;
-use Modules\Notify\Jobs\SendScheduledPushNotification;
 use Modules\Notify\Mail\AppointmentNotificationMail;
+use Modules\Notify\Notifications\Channels\FirebaseCloudMessagingChannel;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Notify\Services\PushNotificationService;
 use Modules\Notify\Services\SmsService;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
-
-uses(TestCase::class)->group('no-notify-db');
 
 afterEach(function (): void {
     Mockery::close();
@@ -39,8 +39,7 @@ afterEach(function (): void {
 describe('Notify gap attack — highest miss providers', function (): void {
     test('HTTP SMS WhatsApp Telegram actions con Http::fake', function (): void {
         Http::fake([
-            '*' => Http::response(['ok' => true, 'sid' => 'SM123', 'message_id' => '1'], 200),
-        ]);
+            '*' => Http::response(['ok' => true, 'sid' => 'SM123', 'message_id' => '1'], 200)]);
 
         config([
             'notify.sms.twilio.sid' => 'AC123',
@@ -54,8 +53,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
             'services.nexmo.key' => 'key',
             'services.nexmo.secret' => 'secret',
             'services.plivo.auth_id' => 'id',
-            'services.plivo.auth_token' => 'token',
-        ]);
+            'services.plivo.auth_token' => 'token']);
 
         $payload = [
             'to' => '+393331112233',
@@ -64,8 +62,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
             'message' => 'test message',
             'phone' => '+393331112233',
             'chat_id' => '123',
-            'text' => 'hello',
-        ];
+            'text' => 'hello'];
 
         foreach ([
             SendTwilioSMSAction::class,
@@ -78,8 +75,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
             SendOfficialTelegramAction::class,
             SendNutgramTelegramAction::class,
             SendBotmanTelegramAction::class,
-            EsendexSendAction::class,
-        ] as $class) {
+            EsendexSendAction::class] as $class) {
             if (! class_exists($class)) {
                 continue;
             }
@@ -171,7 +167,8 @@ describe('Notify gap attack — highest miss providers', function (): void {
             Assert::assertTrue(class_exists(SmsService::class));
         }
 
-        $messaging = $this->createStub(\Kreait\Firebase\Contract\Messaging::class);
+        /** @var Messaging&MockInterface $messaging */
+        $messaging = Mockery::mock(Messaging::class);
         $channel = new FirebaseCloudMessagingChannel($messaging);
         Assert::assertInstanceOf(FirebaseCloudMessagingChannel::class, $channel);
     });
@@ -202,7 +199,7 @@ describe('Notify gap attack — highest miss providers', function (): void {
         }
 
         try {
-            $recordModel = new class extends \Illuminate\Database\Eloquent\Model
+            $recordModel = new class extends Model
             {
                 protected $guarded = [];
             };
@@ -229,9 +226,9 @@ describe('Notify gap attack — highest miss providers', function (): void {
         }
 
         try {
-            $job = new SendScheduledPushNotification('job-cov-1');
-            $job->handle();
-            Assert::assertInstanceOf(SendScheduledPushNotification::class, $job);
+            $action = new SendScheduledPushNotificationAction;
+            $action->execute('job-cov-1');
+            Assert::assertInstanceOf(SendScheduledPushNotificationAction::class, $action);
         } catch (\Throwable $e) {
             Assert::assertNotSame('', $e->getMessage());
         }
