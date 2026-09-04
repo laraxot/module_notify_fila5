@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Filament\Resources;
+
 use Filament\Actions\Action;
-use Filament\Actions\ActionGroup;
 use Filament\Actions\DeleteAction;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\RichEditor;
@@ -30,26 +30,22 @@ use Modules\Notify\Tests\Fixtures\EditContactTestProxy;
 use Modules\Notify\Tests\Fixtures\PreviewMailTemplateTestProxy;
 use Modules\Notify\Tests\Fixtures\ViewNotificationTestProxy;
 use Modules\Notify\Tests\TestCase;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
-
-use function Safe\file_put_contents;
-use function Safe\mkdir;
-
-uses(\Modules\Notify\Tests\TestCase::class);
 
 function makeEditContactTestProxy(): EditContactTestProxy
 {
-    return new EditContactTestProxy();
+    return new EditContactTestProxy;
 }
 
 function makePreviewMailTemplateTestProxy(): PreviewMailTemplateTestProxy
 {
-    return new PreviewMailTemplateTestProxy();
+    return new PreviewMailTemplateTestProxy;
 }
 
 function makeViewNotificationTestProxy(): ViewNotificationTestProxy
 {
-    return new ViewNotificationTestProxy();
+    return new ViewNotificationTestProxy;
 }
 
 function makePreviewNotificationTemplateTestProxy(): PreviewNotificationTemplate
@@ -58,7 +54,7 @@ function makePreviewNotificationTemplateTestProxy(): PreviewNotificationTemplate
 }
 
 test('contact resource form schema exposes expected fields', function (): void {
-    $schema = \assertNotifyArray(ContactResource::getFormSchema());
+    $schema = TestCase::assertNotifyArray(ContactResource::getFormSchema());
 
     Assert::assertArrayHasKey('name', $schema);
     Assert::assertArrayHasKey('email', $schema);
@@ -67,17 +63,15 @@ test('contact resource form schema exposes expected fields', function (): void {
 
 test('edit contact page exposes delete header action', function (): void {
     $page = makeEditContactTestProxy();
-    $actions = \assertNotifyArray($page->exposedHeaderActions());
+    $actions = XotBasePest::assertArray($page->exposedHeaderActions());
 
     Assert::assertArrayHasKey('delete', $actions);
     Assert::assertInstanceOf(DeleteAction::class, $actions['delete']);
 });
 
 test('list contacts page exposes expected table columns and filters', function (): void {
-    $page = new ListContacts;
-
-    $columns = \assertNotifyArray($page->getTableColumns()); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
-    $filters = \assertNotifyArray($page->getTableFilters()); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+    $columns = XotBasePest::assertArray(ListContacts::contactTableColumns());
+    $filters = XotBasePest::assertArray(ListContacts::contactTableFilters());
 
     Assert::assertArrayHasKey('id', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['id']);
@@ -90,8 +84,7 @@ test('list contacts page exposes expected table columns and filters', function (
 });
 
 test('list mail templates page exposes expected table columns', function (): void {
-    $page = new ListMailTemplates;
-    $columns = \assertNotifyArray($page->getTableColumns()); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+    $columns = \assertNotifyArray(ListMailTemplates::mailTemplateTableColumns());
 
     Assert::assertArrayHasKey('slug', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['slug']);
@@ -105,16 +98,14 @@ test('preview mail template page title and header actions are configured', funct
     $page = makePreviewMailTemplateTestProxy();
     $actions = $page->exposedHeaderActions();
 
-    $actions = array_values(\assertNotifyArray($actions));
+    $actions = array_values(XotBasePest::assertArray($actions));
     Assert::assertCount(1, $actions);
     Assert::assertInstanceOf(Action::class, $actions[0]);
 });
 
 test('list notifications page exposes expected columns and filters', function (): void {
-    $page = new ListNotifications;
-
-    $columns = \assertNotifyArray($page->getTableColumns()); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
-    $filters = \assertNotifyArray($page->getTableFilters()); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+    $columns = XotBasePest::assertArray(ListNotifications::notificationTableColumns());
+    $filters = XotBasePest::assertArray(ListNotifications::notificationTableFilters());
 
     Assert::assertArrayHasKey('id', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['id']);
@@ -138,22 +129,16 @@ test('view notification page infolist schema contains section with text entries'
     $reflection = new \ReflectionClass($schema[0]);
     $prop = $reflection->getProperty('childComponents');
     $prop->setAccessible(true);
-    $components = \assertNotifyArray($prop->getValue($schema[0]));
+    $components = XotBasePest::assertArray($prop->getValue($schema[0]));
 
     Assert::assertNotEmpty($components);
 });
 
 test('mail template resource form schema exposes expected components', function (): void {
-    $mailLayoutsPath = base_path('Themes/Meetup/resources/mail-layouts');
-    if (! is_dir($mailLayoutsPath)) {
-        mkdir($mailLayoutsPath, 0777, true);
-    }
-    $fixture = $mailLayoutsPath.'/test-layout.html';
-    if (! file_exists($fixture)) {
-        file_put_contents($fixture, '<html><body>layout</body></html>');
-    }
-
-    $schema = \assertNotifyArray(MailTemplateResource::getFormSchema());
+    // Nessuna fixture da creare: HtmlLayoutPathSelect legge
+    // XotData::make()->getMailHtmlLayoutPath(), cioe' Themes/<pub_theme>/resources/mail-layouts,
+    // e in questo progetto pub_theme e' 'Zero', che i suoi layout ce li ha gia'.
+    $schema = XotBasePest::assertArray(MailTemplateResource::getFormSchema());
 
     Assert::assertArrayHasKey('mailable_slug_group', $schema);
     Assert::assertInstanceOf(Group::class, $schema['mailable_slug_group']);
@@ -168,7 +153,7 @@ test('mail template resource form schema exposes expected components', function 
 });
 
 test('notification resource form schema exposes expected components', function (): void {
-    $schema = \assertNotifyArray(NotificationResource::getFormSchema());
+    $schema = TestCase::assertNotifyArray(NotificationResource::getFormSchema());
 
     Assert::assertArrayHasKey('type', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['type']);
@@ -179,8 +164,8 @@ test('notification resource form schema exposes expected components', function (
 });
 
 test('notification template resource form schema and pages are configured', function (): void {
-    $schema = \assertNotifyArray(NotificationTemplateResource::getFormSchema());
-    $pages = \assertNotifyArray(NotificationTemplateResource::getPages());
+    $schema = TestCase::assertNotifyArray(NotificationTemplateResource::getFormSchema());
+    $pages = TestCase::assertNotifyArray(NotificationTemplateResource::getPages());
 
     Assert::assertArrayHasKey('name', $schema);
     Assert::assertInstanceOf(TextInput::class, $schema['name']);
@@ -197,4 +182,3 @@ test('preview notification template page exposes title and subheading', function
     Assert::assertNotSame('', $page->getTitle());
     Assert::assertNotSame('', $page->getSubheading());
 });
-

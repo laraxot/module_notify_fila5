@@ -10,39 +10,33 @@ use Modules\Notify\Database\Factories\MailTemplateFactory;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
+use Modules\Notify\Models\NotificationType;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
-use Modules\Xot\Tests\XotBasePest;
+use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
 
 /*
  * Bootstrap Pest — modulo Notify.
- * Ogni file test dichiara uses(\Modules\Notify\Tests\TestCase::class).
- * Per estendere si usa l'API idiomatica di Pest — `pest()->extend(...)`, in fondo
- * a questo file — senza nessuna annotazione di soppressione: con
- * `pestphp/pest-plugin-phpstan 5.2.0` installato, `method.internalClass` non
- * viene piu' segnalato. Misurato il 2026-08-25 su tutti i bootstrap dei moduli:
- * `phpstan analyse Modules/<Modulo>/tests/Pest.php` = 0 errori.
- * Se ricomparisse, verificare che il plugin sia ancora caricato da
- * `phpstan/extension-installer`, non reintrodurre il divieto.
- * Vedi story XOT-5.41 e ROOT-17.6.
- *
- * Gli helper generici (tabelle, reflection, throws, narrowing) vivono nella
- * classe Modules\Xot\Tests\XotBasePest, risolta dall'autoload PSR-4: qui
- * restano solo delegazioni con il nome storico, per non toccare le centinaia
- * di call site esistenti. Sotto, solo ciò che è davvero specifico di Notify:
- * factory e helper di dominio.
+ * `pest()->extend(TestCase::class)->in(...)` è la forma **consigliata** (XOT-5.41).
+ * Non duplicare `uses(\Modules\Notify\Tests\TestCase::class)` nei file: XOR → TestCaseAlreadyInUse.
+ * Il divieto storico per method.internalClass è decaduto con pest-plugin-phpstan.
  */
-
 
 /**
  * @param  array<string, mixed>  $where
  */
 function assertNotifyTableHas(string $table, array $where): void
 {
-    XotBasePest::assertTableHas('notify', $table, $where);
+    $query = DB::connection('notify')->table($table);
+
+    foreach ($where as $column => $value) {
+        $query->where((string) $column, $value);
+    }
+
+    Assert::assertTrue($query->exists());
 }
 
 /**
@@ -50,7 +44,13 @@ function assertNotifyTableHas(string $table, array $where): void
  */
 function assertNotifyTableMissing(string $table, array $where): void
 {
-    XotBasePest::assertTableMissing('notify', $table, $where);
+    $query = DB::connection('notify')->table($table);
+
+    foreach ($where as $column => $value) {
+        $query->where((string) $column, $value);
+    }
+
+    Assert::assertFalse($query->exists());
 }
 
 /**
@@ -62,7 +62,10 @@ function assertNotifyTableMissing(string $table, array $where): void
  */
 function assertFreshModel(Model $model, string $class)
 {
-    return XotBasePest::assertFreshModel($model, $class);
+    $fresh = $model->fresh();
+    Assert::assertInstanceOf($class, $fresh);
+
+    return $fresh;
 }
 
 /**
@@ -74,7 +77,11 @@ function assertFreshModel(Model $model, string $class)
  */
 function assertFirstModel(EloquentCollection|Collection $collection, string $class)
 {
-    return XotBasePest::assertFirstModel($collection, $class);
+    Assert::assertNotEmpty($collection);
+    $first = $collection->first();
+    Assert::assertInstanceOf($class, $first);
+
+    return $first;
 }
 
 /**
@@ -82,17 +89,23 @@ function assertFirstModel(EloquentCollection|Collection $collection, string $cla
  */
 function assertNotifyArray(mixed $value): array
 {
-    return XotBasePest::assertArray($value);
+    Assert::assertIsArray($value);
+
+    /** @var array<string, mixed> $value */
+    return $value;
 }
 
-function assertReflectionNamedType(?\ReflectionType $type): \ReflectionNamedType
+function assertReflectionNamedType(?ReflectionType $type): ReflectionNamedType
 {
-    return XotBasePest::assertReflectionNamedType($type);
+    Assert::assertNotNull($type);
+    Assert::assertInstanceOf(ReflectionNamedType::class, $type);
+
+    return $type;
 }
 
-function assertReflectionTypeName(?\ReflectionType $type, string $expected): void
+function assertReflectionTypeName(?ReflectionType $type, string $expected): void
 {
-    XotBasePest::assertReflectionTypeName($type, $expected);
+    Assert::assertSame($expected, assertReflectionNamedType($type)->getName());
 }
 
 /**
@@ -100,28 +113,35 @@ function assertReflectionTypeName(?\ReflectionType $type, string $expected): voi
  */
 function assertListContains(string $needle, array $haystack): void
 {
-    XotBasePest::assertListContains($needle, $haystack);
+    Assert::assertTrue(in_array($needle, $haystack, true));
 }
 
 /**
- * @param  class-string<\Throwable>  $exceptionClass
+ * @param  class-string<Throwable>  $exceptionClass
  */
 function assertNotifyThrows(callable $callback, string $exceptionClass): void
 {
-    XotBasePest::assertThrows($callback, $exceptionClass);
+    try {
+        $callback();
+    } catch (Throwable $exception) {
+        Assert::assertInstanceOf($exceptionClass, $exception);
+
+        return;
+    }
+
+    Assert::fail(sprintf('Expected exception %s was not thrown.', $exceptionClass));
 }
 
 /**
  * @template T of object
  *
  * @param  ReflectionClass<T>  $reflection
- *
  * @return list<string>
  */
-function notifyReflectionPropertyNames(\ReflectionClass $reflection): array
+function notifyReflectionPropertyNames(ReflectionClass $reflection): array
 {
     return array_map(
-        static fn (\ReflectionProperty $property): string => $property->getName(),
+        static fn (ReflectionProperty $property): string => $property->getName(),
         $reflection->getProperties(),
     );
 }
@@ -131,7 +151,7 @@ function notifyReflectionPropertyNames(\ReflectionClass $reflection): array
  *
  * @param  ReflectionClass<T>  $reflection
  */
-function assertReflectionFilename(\ReflectionClass $reflection): string
+function assertReflectionFilename(ReflectionClass $reflection): string
 {
     $filename = $reflection->getFileName();
     Assert::assertNotFalse($filename);
@@ -144,7 +164,7 @@ function assertReflectionFilename(\ReflectionClass $reflection): string
  *
  * @param  ReflectionClass<T>  $reflection
  */
-function notifyReflectionSource(\ReflectionClass $reflection): string
+function notifyReflectionSource(ReflectionClass $reflection): string
 {
     return file_get_contents(assertReflectionFilename($reflection));
 }
@@ -181,9 +201,10 @@ function notifyArrayGet(?array $array, int|string ...$keys): mixed
 /**
  * @return array<string, array<string, mixed>>
  */
-function notifyFreshTypeChannels(\Modules\Notify\Models\NotificationType $type): array
+function notifyFreshTypeChannels(NotificationType $type): array
 {
-    $channels = assertFreshModel($type, \Modules\Notify\Models\NotificationType::class)->channels;
+    $channels = assertFreshModel($type, NotificationType::class)->channels;
+
     /** @var array<string, array<string, mixed>> $channels */
     return $channels;
 }
@@ -191,9 +212,10 @@ function notifyFreshTypeChannels(\Modules\Notify\Models\NotificationType $type):
 /**
  * @return array<string, mixed>
  */
-function notifyFreshTypeSettings(\Modules\Notify\Models\NotificationType $type): array
+function notifyFreshTypeSettings(NotificationType $type): array
 {
-    $settings = assertFreshModel($type, \Modules\Notify\Models\NotificationType::class)->settings;
+    $settings = assertFreshModel($type, NotificationType::class)->settings;
+
     /** @var array<string, mixed> $settings */
     return $settings;
 }
@@ -240,4 +262,4 @@ function notifyThemeForThemeable(NotifyThemeable $themeable): NotifyTheme
     return $theme;
 }
 
-pest()->extend(\Modules\Notify\Tests\TestCase::class)->in(__DIR__.'/Unit', __DIR__.'/Feature');
+pest()->extend(TestCase::class)->in(__DIR__.'/Unit', __DIR__.'/Feature');

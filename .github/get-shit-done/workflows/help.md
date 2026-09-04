@@ -369,6 +369,7 @@ Usage: `/gsd-join-discord`
 ├── codebase/             # Codebase map (brownfield projects)
 │   ├── STACK.md          # Languages, frameworks, dependencies
 │   ├── ARCHITECTURE.md   # Patterns, layers, data flow
+│   ├── architecture.md   # Patterns, layers, data flow
 │   ├── STRUCTURE.md      # Directory layout, key files
 │   ├── CONVENTIONS.md    # Coding standards, naming
 │   ├── TESTING.md        # Test setup, patterns

@@ -367,6 +367,8 @@ Manages calendar interactions, date selection, event display, and navigation bet
 
 ### Component State
 
+```
+
 ```javascript
 {
   currentMonth: Date,           // Currently displayed month
@@ -451,6 +453,8 @@ Manages calendar interactions, date selection, event display, and navigation bet
 ### Data Models
 
 **Event Model:**
+
+```
 
 ```typescript
 interface Event {
@@ -614,6 +618,8 @@ notification-system.feature.md
 
 Reference components and features:
 
+```
+
 ```markdown
 ### Main Content Section
 
@@ -622,11 +628,15 @@ Reference components and features:
 **Configuration:**
 - View: Month
 - Disable past dates: true
+```
+
 ````
 
 ### In Component Files
 
 Reference required features:
+
+```
 
 ```markdown
 ## Dependencies

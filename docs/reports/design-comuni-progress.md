@@ -16,6 +16,7 @@ related:
   - "./final-documentation-report.md"
   - "./final-success-report.md"
   - "./fixcity-improvement-progress-1.md"
+  - "./laraxot-improvement-progress-1.md"
 ---
 
 # ✅ Design Comuni Replication - PROGRESS REPORT #1
@@ -33,6 +34,7 @@ Replicate all 38 static pages from [Design Comuni Pagine Statiche](https://githu
 **URL Mapping**:
 - Source: `https://italia.github.io/design-comuni-pagine-statiche/sito/[page].html`
 - Target: `http://fixcity.local/it/tests/[page]`
+- Target: `http://laraxot.local/it/tests/[page]`
 
 **Example**:
 - `argomenti.html` → `/it/tests/argomenti` ✅ Working
@@ -88,6 +90,9 @@ laravel/Themes/Sixteen/
 http://fixcity.local/it/tests/argomenti
 http://fixcity.local/it/tests/appuntamento-06-conferma
 http://fixcity.local/it/tests/servizi
+http://laraxot.local/it/tests/argomenti
+http://laraxot.local/it/tests/appuntamento-06-conferma
+http://laraxot.local/it/tests/servizi
 ```
 
 **DRY Compliance**: ✅ Single file handles ALL 38 pages

@@ -79,6 +79,8 @@ Designer chose to create new component
 
 I'll update your page spec to reference the existing component.
 
+```
+
 ````
 </output>
 
@@ -93,11 +95,15 @@ From complete specification, extract:
 </action>
 
 **Example:**
+```
+
 ```yaml
 Page-Specific Content:
 - label: "Continue"
 - why: "Navigate to next step in onboarding"
 - context: "Multi-step form navigation"
+```
+
 ````
 
 ### Step 3: Create Reference
@@ -110,6 +116,8 @@ Create reference to existing component:
 </action>
 
 **Output:**
+
+```
 
 ```yaml
 # C-UX-Scenarios/onboarding-page.md
@@ -167,6 +175,8 @@ Component usage tracked.
 
 I'll update the component definition and create the reference.
 
+```
+
 ````
 </output>
 
@@ -180,11 +190,15 @@ From complete specification, extract:
 </action>
 
 **Example:**
+```
+
 ```yaml
 Navigation Variant:
 - icon: arrow-right
 - loading_state: true
 - hover_animation: icon_shift
+```
+
 ````
 
 ### Step 3: Update Component Definition
@@ -197,6 +211,8 @@ Add variant to existing component:
 </action>
 
 **Update:**
+
+```
 
 ```yaml
 # D-Design-System/components/button.md
@@ -297,6 +313,8 @@ Generate unique component ID:
 Existing Button IDs: btn-001
 New ID: btn-002
 
+```
+
 ````
 
 ### Step 3: Extract Component-Level Info
@@ -310,6 +328,8 @@ From complete specification, extract:
 </action>
 
 **Example:**
+```
+
 ```yaml
 Component-Level Info:
   type: Button
@@ -320,6 +340,8 @@ Component-Level Info:
   color: blue
   shape: rounded
   hover_animation: icon_shift
+```
+
 ````
 
 ### Step 4: Create Component File
@@ -331,6 +353,8 @@ Create new component file using template:
 **Route to:** `step-08b-create-new-component.md`
 
 **Output:**
+
+```
 
 ```yaml
 # D-Design-System/components/navigation-button.md
@@ -405,6 +429,8 @@ Component file created: D-Design-System/components/navigation-button.md
 Page spec created with reference.
 Design system index updated.
 
+```
+
 ````
 </output>
 
@@ -424,6 +450,8 @@ Update project tracking:
 </action>
 
 **Example:**
+```
+
 ```yaml
 # A-Project-Brief/design-system-log.md
 
@@ -431,6 +459,8 @@ Update project tracking:
 - Reason: Semantic distinction from submit buttons
 - Decision: Create new vs variant
 - Designer: Chose clarity over consistency
+```
+
 ````
 
 ### Notify Designer

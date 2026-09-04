@@ -568,6 +568,8 @@ This will go in:
 - `Pages/02-calendar-page.md`
 
 **Example Page Content:**
+```
+
 ```markdown
 ### Calendar Section
 
@@ -587,6 +589,8 @@ This will go in:
 - API Endpoint: GET /api/families/:currentFamilyId/walks?week=:weekNumber
 - Dogs Displayed: All dogs in current user's family
 - Family Members: All members in current user's family
+```
+
 ````
 
 ---
@@ -839,4 +843,6 @@ Feature File (Content Same Everywhere):
 - ✅ Easy to maintain and update
 - ✅ Design system integrity preserved
 - ✅ Clear separation of page-specific vs generic content
+```
+
 ```

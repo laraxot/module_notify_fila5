@@ -12,7 +12,6 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 use Modules\Notify\Actions\DetermineSeasonalContentViewPathAction;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 class ChristmasGreetingMailable extends Mailable
 {
@@ -32,8 +31,11 @@ class ChristmasGreetingMailable extends Mailable
      */
     public function envelope(): Envelope
     {
+        $fromAddress = config('mail.from.address', 'hello@example.com');
+        $fromAddress = is_string($fromAddress) ? $fromAddress : 'hello@example.com';
+
         return new Envelope(
-            from: new Address(SafeStringCastAction::cast(config('mail.from.address', 'hello@example.com')), $this->senderName),
+            from: new Address($fromAddress, $this->senderName),
             subject: 'Auguri di Buone Feste e Informazioni Importanti!',
         );
     }
@@ -50,8 +52,7 @@ class ChristmasGreetingMailable extends Mailable
             view: $seasonalContentViewPath, // Use the determined content view
             with: [
                 'recipientName' => $this->recipientName,
-                'senderName' => $this->senderName,
-            ],
+                'senderName' => $this->senderName],
         );
     }
 

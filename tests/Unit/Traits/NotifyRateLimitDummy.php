@@ -6,17 +6,11 @@ namespace Modules\Notify\Tests\Unit\Traits;
 
 use Modules\Notify\Traits\HasNotificationRateLimiting;
 
-/**
- * Test double per `HasNotificationRateLimiting`.
- *
- * Il trait espone metodi protetti: questa classe li rende invocabili dal test senza
- * ricorrere alla reflection, che nasconderebbe le firme all'analizzatore statico.
- */
 final class NotifyRateLimitDummy
 {
     use HasNotificationRateLimiting;
 
-    public function key(string $type, mixed $identifier): string
+    public function key(string $type, int|string $identifier): string
     {
         return $this->getNotificationRateLimitKey($type, $identifier);
     }

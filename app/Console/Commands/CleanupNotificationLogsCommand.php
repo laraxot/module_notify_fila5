@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
+use Illuminate\Database\Eloquent\Collection;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Models\NotificationLog;
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
 
 class CleanupNotificationLogsCommand extends Command
 {
@@ -36,8 +36,8 @@ class CleanupNotificationLogsCommand extends Command
             return Command::FAILURE;
         }
 
-        $days = SafeIntCastAction::cast($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
-        $batchSize = SafeIntCastAction::cast($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
+        $days = (int) filter_var($this->option('days') ?? config('notify.cleanup.older_than_days', 30), FILTER_VALIDATE_INT);
+        $batchSize = (int) filter_var($this->option('batch') ?? config('notify.cleanup.batch_size', 1000), FILTER_VALIDATE_INT);
         $keepFailed = config('notify.cleanup.keep_failed', true);
 
         $this->info("Inizio pulizia dei log delle notifiche più vecchi di {$days} giorni...");
@@ -50,7 +50,7 @@ class CleanupNotificationLogsCommand extends Command
         }
 
         $totalDeleted = 0;
-        $query->chunkById($batchSize, function (mixed $logs) use (&$totalDeleted) {
+        $query->chunkById($batchSize, function (Collection $logs) use (&$totalDeleted): void {
             $count = $logs->count();
             $logs->each->delete();
             $totalDeleted += $count;

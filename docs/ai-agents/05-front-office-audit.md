@@ -1,27 +1,7 @@
----
-title: "📋 Front Office Pages Audit Checklist"
-type: concept
-tags: [front, office, audit]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "05-front-office-audit 📋 front office pages audit checklist"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./00-index.md"
-  - "./01-gsd-workflow.md"
-  - "./02-bmad-workflow.md"
-  - "./03-architecture-zen.md"
-  - "./04-filament-philosophy.md"
-  - "./06-cinematic-effects.md"
-  - "./07-mcp-tailwind-ui.md"
-  - "./08-verified-commit-governance.md"
----
-
 # 📋 Front Office Pages Audit Checklist
 
-**Part of**: [00-index-1.md](00-index-1.md) — AI Agents Coordination  
-**Related**: [03-architecture-zen.md](03-architecture-zen.md) — Architecture
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Related**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md) — Architecture
 
 ---
 
@@ -107,9 +87,9 @@ related:
 
 ## 🔗 Related Documentation
 
-- **Architecture**: [03-architecture-zen.md](03-architecture-zen.md)
-- **Filament**: [04-filament-philosophy.md](04-filament-philosophy.md)
-- **Cinematic**: [06-cinematic-effects.md](06-cinematic-effects.md)
+- **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
+- **Filament**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md)
+- **Cinematic**: [06-CINEMATIC-EFFECTS.md](06-CINEMATIC-EFFECTS.md)
 - **Full Audit**: `docs/project/FRONT_OFFICE_PAGES_AUDIT.md`
 
 ---

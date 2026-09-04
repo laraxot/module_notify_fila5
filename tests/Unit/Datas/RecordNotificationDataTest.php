@@ -6,11 +6,9 @@ namespace Modules\Notify\Tests\Unit\Datas;
 
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Notify\Datas\RecordNotificationData;
-use Modules\Notify\Tests\TestCase;
 use Modules\User\Models\User;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
-
-uses(\Modules\Notify\Tests\TestCase::class);
 
 test('record notification data returns mail route', function (): void {
     $user = new User;
@@ -18,8 +16,7 @@ test('record notification data returns mail route', function (): void {
 
     $data = RecordNotificationData::from([
         'record' => $user,
-        'channel' => 'mail',
-    ]);
+        'channel' => 'mail']);
 
     Assert::assertSame('mail', $data->getChannel());
     Assert::assertSame('recipient@example.test', $data->getRoute());
@@ -39,8 +36,7 @@ test('record notification data returns normalized sms route', function (): void 
 
     $data = RecordNotificationData::from([
         'record' => $user,
-        'channel' => 'sms',
-    ]);
+        'channel' => 'sms']);
 
     Assert::assertSame('+393331234567', $data->getRoute());
 });
@@ -51,10 +47,9 @@ test('record notification data throws for unsupported channel', function (): voi
 
     $data = RecordNotificationData::from([
         'record' => $user,
-        'channel' => 'telegram',
-    ]);
+        'channel' => 'telegram']);
 
-    \assertNotifyThrows(
+    XotBasePest::assertThrows(
         fn () => $data->getRoute(),
         \Exception::class,
     );

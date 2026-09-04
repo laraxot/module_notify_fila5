@@ -37,6 +37,7 @@ Oggi ho completato un'ampia opera di miglioramento della documentazione, pulizia
 - Corretta documentazione del modulo Blog
 - Creata guida completa alle convenzioni
 - Aggiornato AGENTS.md con la rule
+- Aggiornato agents.md con la rule
 
 **Files Modified**:
 - `laravel/Modules/Blog/docs/structure.md`
@@ -353,6 +354,7 @@ ps aux | grep ollama
 ### Contacts
 - Lead: @marco76tv
 - Email: dev @fixcity.example.com
+- Email: dev @laraxot.example.com
 - Slack: #development
 
 ---

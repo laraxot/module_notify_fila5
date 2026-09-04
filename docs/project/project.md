@@ -1,10 +1,10 @@
 ---
-title: "PROJECT: FixCity Platform"
+title: "PROJECT: Notify Platform"
 type: concept
 tags: [project]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "project project: fixcity platform"
+qmd: "project project: laraxot platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,10 +18,10 @@ related:
   - "./design-comuni-bmad-master-plan.md"
 ---
 
-# PROJECT: FixCity Platform
+# PROJECT: Notify Platform
 
 ## Vision
-Transform FixCity from a functional MVP to a national-scale enterprise-ready platform for managing urban disservices.
+Transform Notify from a functional MVP to a national-scale enterprise-ready platform for managing urban disservices.
 
 ## Objectives
 - Scalable modular architecture (Laraxot).
@@ -40,7 +40,7 @@ Transform FixCity from a functional MVP to a national-scale enterprise-ready pla
 - BMAD & GSD Methodologies
 
 ## Context
-- Project: base_fixcity_fila5
+- Project: base_ptvx_fila5
 - Language: PHP 8.3
 - Date: March 2026
 
@@ -48,4 +48,4 @@ Transform FixCity from a functional MVP to a national-scale enterprise-ready pla
 - [Filosofia del Progetto](./philosophy.md) - Logica, religione, politica, zen dello sviluppo
 
 ## Content Blocks
-- [FixCity Pages Content Blocks](./fixcity-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli
+- [Notify Pages Content Blocks](./laraxot-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli

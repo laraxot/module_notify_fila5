@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Datas;
 
 use Modules\Notify\Datas\SmsData;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
 describe('SmsData', function () {
@@ -22,14 +23,18 @@ describe('SmsData', function () {
         $reflection = new \ReflectionClass(SmsData::class);
         $properties = $reflection->getProperties();
 
-        $propertyNames = array_map(fn (mixed $p) => $p->getName(), $properties);
+        $propertyNames = array_map(static fn (\ReflectionProperty $p): string => $p->getName(), $properties);
 
-        \assertListContains('from', $propertyNames);
-        \assertListContains('recipient', $propertyNames);
-        \assertListContains('body', $propertyNames);
+        XotBasePest::assertListContains('from', $propertyNames);
+        XotBasePest::assertListContains('recipient', $propertyNames);
+        XotBasePest::assertListContains('body', $propertyNames);
     });
 
-    it('has from method', function () {})->todo('Serve una asserzione di comportamento: l\'esistenza di un metodo su una classe nota e\' decidibile staticamente, quindi non prova niente.');
+    it('has from method', function () {
+        $reflection = new \ReflectionClass(SmsData::class);
+
+        Assert::assertTrue($reflection->hasMethod('from'));
+    });
 
     it('from method is static', function () {
         $reflection = new \ReflectionClass(SmsData::class);
@@ -52,7 +57,6 @@ describe('SmsData', function () {
 
         Assert::assertCount(1, $params);
         Assert::assertSame('data', $params[0]->getName());
-        // `ReflectionParameter::isArray()` e' deprecato: il tipo si legge da `getType()`.
         $type = $params[0]->getType();
         Assert::assertInstanceOf(\ReflectionNamedType::class, $type);
         Assert::assertSame('array', $type->getName());

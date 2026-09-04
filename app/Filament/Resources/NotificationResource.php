@@ -5,21 +5,22 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources;
 
 use Filament\Forms\Components\DateTimePicker;
+use Filament\Forms\Components\Field;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+use Override;
 
 class NotificationResource extends XotBaseResource
 {
     protected static ?string $model = Notification::class;
 
     /**
-     * Schema legacy del form: la sorgente di verità è NotificationForm::getFormSchema().
-     *
-     * @return array<string, \Filament\Schemas\Components\Component>
+     * @return array<string, Field>
      */
-    public static function getFormSchemaOld(): array
+    #[Override]
+    public static function getFormSchema(): array
     {
         return [
             'type' => TextInput::make('type')->required()->label('Notification Type'),
@@ -31,7 +32,6 @@ class NotificationResource extends XotBaseResource
             'data' => Textarea::make('data')->label('Notification Data')->columnSpanFull(),
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
-            'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled(),
-        ];
+            'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled()];
     }
 }

@@ -1,26 +1,6 @@
----
-title: "🔴 CRITICAL RULES - AI Agents"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 🔴 critical rules - ai agents"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./bash-commands-auto-allow.md"
-  - "./llm-wiki-rule.md"
-  - "./multi-outcome-no-binary-fields.md"
-  - "./one-migration-per-model.md"
-  - "./phpmd-phar-installation.md"
-  - "./translation-structure-5-levels-mandatory.md"
-  - "./translation-structure-5-levels.md"
-  - "./use-models-not-db-table.md"
----
-
 # 🔴 CRITICAL RULES - AI Agents
 
-**Path**: `./.agents/docs/rules/00-index-1.md`  
+**Path**: `./.agents/docs/rules/00-INDEX.md`  
 **Last Updated**: 2026-03-26  
 **Status**: ✅ ALWAYS ACTIVE  
 **Priority**: BLOCKER (violation = STOP immediately)
@@ -196,13 +176,13 @@ composer phpstan
 ## 🔗 Related Documentation
 
 ### Project Rules
-- **[00-index-1.md](00-index-1.md)** - Master rules index
+- **[00-INDEX.md](00-INDEX.md)** - Master rules index
 - **[multi-outcome-universal.md](multi-outcome-universal.md)** - Multi-outcome principle
 - **[container-agnostic.md](container-agnostic.md)** - Container agnostic rule
 - **[actions-over-services.md](actions-over-services.md)** - Actions over services
 
 ### Guidelines
-- **[../guidelines/00-index-1.md](../guidelines/00-index-1.md)** - Guidelines index
+- **[../guidelines/00-INDEX.md](../guidelines/00-INDEX.md)** - Guidelines index
 - **[../guidelines/filament-tables.md](../guidelines/filament-tables.md)** - Filament tables guide
 
 ### Skills

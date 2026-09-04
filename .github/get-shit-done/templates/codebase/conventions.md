@@ -279,6 +279,7 @@ Template for `.planning/codebase/CONVENTIONS.md` - captures coding style and pat
 
 **What does NOT belong here:**
 - Architecture decisions (that's ARCHITECTURE.md)
+- Architecture decisions (that's architecture.md)
 - Technology choices (that's STACK.md)
 - Test patterns (that's TESTING.md)
 - File organization (that's STRUCTURE.md)

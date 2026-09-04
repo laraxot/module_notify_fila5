@@ -641,5 +641,4 @@ class MaintainTemplatesCommand extends Command
         return 0;
     }
 } 
-
 ```

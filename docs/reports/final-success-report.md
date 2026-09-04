@@ -16,6 +16,7 @@ related:
   - "./documentation-update-complete.md"
   - "./final-documentation-report.md"
   - "./fixcity-improvement-progress-1.md"
+  - "./laraxot-improvement-progress-1.md"
 ---
 
 # ✅ FINAL SUCCESS REPORT - All GitHub Actions Fixed
@@ -182,6 +183,9 @@ test -f bashscripts/git/subtrees/sync_remote_repo.sh || { echo "sync_remote_repo
 - [Sync Remote Repo Action](https://github.com/laraxot/base_fixcity_fila5/actions/workflows/sync-remote-repo.yml)
 - [Sync Subtrees Action](https://github.com/laraxot/base_fixcity_fila5/actions/workflows/sync-subtrees.yml)
 - [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
+- [Sync Remote Repo Action](https://github.com/laraxot/platform/actions/workflows/sync-remote-repo.yml)
+- [Sync Subtrees Action](https://github.com/laraxot/platform/actions/workflows/sync-subtrees.yml)
+- [Actions Tab](https://github.com/laraxot/platform/actions)
 
 ### Documentation
 - [Bashscripts Gitignore Workaround](docs/bashscripts-gitignore-workaround.md)

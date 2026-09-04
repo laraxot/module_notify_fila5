@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Datas;
 
 use Modules\Notify\Datas\SmtpData;
+use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
@@ -29,22 +30,42 @@ describe('SmtpData', function () {
         $reflection = new \ReflectionClass(SmtpData::class);
         $properties = $reflection->getProperties();
 
-        $propertyNames = array_map(fn (mixed $p) => $p->getName(), $properties);
+        $propertyNames = array_map(static fn (\ReflectionProperty $p): string => $p->getName(), $properties);
 
-        \assertListContains('transport', $propertyNames);
-        \assertListContains('host', $propertyNames);
-        \assertListContains('port', $propertyNames);
-        \assertListContains('username', $propertyNames);
-        \assertListContains('password', $propertyNames);
+        XotBasePest::assertListContains('transport', $propertyNames);
+        XotBasePest::assertListContains('host', $propertyNames);
+        XotBasePest::assertListContains('port', $propertyNames);
+        XotBasePest::assertListContains('username', $propertyNames);
+        XotBasePest::assertListContains('password', $propertyNames);
     });
 
-    it('has make static method', function () {})->todo('Serve una asserzione di comportamento: l\'esistenza di un metodo su una classe nota e\' decidibile staticamente, quindi non prova niente.');
+    it('has make static method', function () {
+        $reflection = new \ReflectionClass(SmtpData::class);
 
-    it('has toArray method', function () {})->todo('Serve una asserzione di comportamento: l\'esistenza di un metodo su una classe nota e\' decidibile staticamente, quindi non prova niente.');
+        Assert::assertTrue($reflection->hasMethod('make'));
+    });
 
-    it('has getTransport method', function () {})->todo('Serve una asserzione di comportamento: l\'esistenza di un metodo su una classe nota e\' decidibile staticamente, quindi non prova niente.');
+    it('has toArray method', function () {
+        $reflection = new \ReflectionClass(SmtpData::class);
 
-    it('has send method', function () {})->todo('Serve una asserzione di comportamento: l\'esistenza di un metodo su una classe nota e\' decidibile staticamente, quindi non prova niente.');
+        Assert::assertTrue($reflection->hasMethod('toArray'));
+    });
 
-    it('has getMailer method', function () {})->todo('Serve una asserzione di comportamento: l\'esistenza di un metodo su una classe nota e\' decidibile staticamente, quindi non prova niente.');
+    it('has getTransport method', function () {
+        $reflection = new \ReflectionClass(SmtpData::class);
+
+        Assert::assertTrue($reflection->hasMethod('getTransport'));
+    });
+
+    it('has send method', function () {
+        $reflection = new \ReflectionClass(SmtpData::class);
+
+        Assert::assertTrue($reflection->hasMethod('send'));
+    });
+
+    it('has getMailer method', function () {
+        $reflection = new \ReflectionClass(SmtpData::class);
+
+        Assert::assertTrue($reflection->hasMethod('getMailer'));
+    });
 });

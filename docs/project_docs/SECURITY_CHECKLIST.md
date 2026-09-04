@@ -1,4 +1,4 @@
-# 🔒 FixCity Security Checklist
+# 🔒 Notify Security Checklist
 
 **Status**: Production Ready
 
@@ -396,9 +396,9 @@ Overall Security Score: 92/100
 
 ## 📞 Security Contacts
 
-**Security Team Lead**: security@fixcity.it  
+**Security Team Lead**: security@laraxot.it  
 **Emergency Contact**: +39 06 1234 5678  
-**Incident Reporting**: incidents@fixcity.it
+**Incident Reporting**: incidents@laraxot.it
 
 ---
 

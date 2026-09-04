@@ -1,10 +1,10 @@
 ---
-title: "REQUIREMENTS: FixCity Platform"
+title: "REQUIREMENTS: Notify Platform"
 type: concept
 tags: [requirements]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "requirements requirements: fixcity platform"
+qmd: "requirements requirements: laraxot platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -18,7 +18,7 @@ related:
   - "./design-comuni-bmad-master-plan.md"
 ---
 
-# REQUIREMENTS: FixCity Platform
+# REQUIREMENTS: Notify Platform
 
 ## Phase 2: Feature Expansion (Q1 2026) - CURRENT
 
@@ -57,4 +57,4 @@ related:
 ## Phase 5: AI & Innovation (Q4 2026)
 - [ ] AI Auto-Categorization.
 - [ ] Duplicate Detection.
-- [ ] Predictive Maintenance.
+- [ ] Forecasting Maintenance.

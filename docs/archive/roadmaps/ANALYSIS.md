@@ -50,7 +50,7 @@ Created **central ROADMAP.md** that consolidates all phases 1-15+ while preservi
 - **Status**: Redundant with MASTER_ROADMAP.md
 - **Action**: Consolidated → `/docs/ROADMAP.md`
 
-#### 3. `/docs/PROJECT-ROADMAP.md` (172 lines)
+#### 3. `/docs/project-roadmap.md` (172 lines)
 - **Content**: High-level project roadmap
 - **Format**: Markdown with phase summaries
 - **Phases**: 0-3 outline
@@ -245,7 +245,7 @@ Trade-off: Larger single file but:
 ### Finding 1: Redundant Master Roadmaps
 **Issue**: 6 different master roadmaps with overlapping content
 - MASTER_ROADMAP.md and MASTER_ROADMAP_2025.md (~70% overlap)
-- PROJECT-ROADMAP.md, PROJECT_ROADMAP.md, roadmap.md (~80% overlap)
+- project-roadmap.md, PROJECT_ROADMAP.md, roadmap.md (~80% overlap)
 - roadmap_project.md (alternative naming)
 
 **Recommendation**: ✅ IMPLEMENTED
@@ -361,7 +361,7 @@ Trade-off: Larger single file but:
 ## Next Steps (Wave 3 & 4)
 
 ### Wave 3: Cross-Linking (NEXT)
-- [ ] Update `/docs/INDEX.md` with ROADMAP.md link
+- [ ] Update `/docs/index.md` with ROADMAP.md link
 - [ ] Create `/docs/MODULE_ROADMAPS.md` (module index)
 - [ ] Create `/docs/TIMELINE.md` (phase timeline)
 - [ ] Verify all 50+ internal links work

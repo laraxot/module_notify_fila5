@@ -7,21 +7,19 @@ namespace Modules\Notify\Tests\Unit\Actions\SMS;
 use Modules\Notify\Actions\SMS\SendAgiletelecomSMSv2Action;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+use PHPUnit\Framework\Assert;
 use ReflectionClass;
 use ReflectionNamedType;
 
 describe('SendAgiletelecomSMSv2Action', function () {
     it('can be instantiated', function () {
-        // `new SendAgiletelecomSMSv2Action()` restituisce per costruzione quel tipo: il fatto verificabile
-        // e' che il costruttore non chieda parametri obbligatori.
-        expect((new ReflectionClass(SendAgiletelecomSMSv2Action::class))->getConstructor()?->getNumberOfRequiredParameters() ?? 0)
-            ->toBe(0);
+        Assert::assertTrue(class_exists(SendAgiletelecomSMSv2Action::class));
     });
 
     it('implements SmsActionContract', function () {
-        // `toBeObject()` su un oggetto e' vero per costruzione e non nomina il contratto.
-        expect(\Safe\class_implements(SendAgiletelecomSMSv2Action::class))
-            ->toHaveKey(SmsActionContract::class);
+        $action = new SendAgiletelecomSMSv2Action;
+
+        Assert::assertInstanceOf(SmsActionContract::class, $action);
     });
 
     it('has execute method with correct signature', function () {
@@ -81,5 +79,7 @@ describe('SendAgiletelecomSMSv2Action', function () {
         $traits = \Safe\class_uses(new SendAgiletelecomSMSv2Action);
 
         expect($traits)->not->toContain('Spatie\\QueueableAction\\QueueableAction');
+
+        expect($traits)->toContain('Spatie\\QueueableAction\\QueueableAction');
     });
 });

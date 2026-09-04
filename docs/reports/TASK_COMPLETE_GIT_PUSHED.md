@@ -96,7 +96,7 @@ AGENTS.md (updated)
 ### On GitHub
 
 ```
-https://github.com/laraxot/base_fixcity_fila5/commits/dev
+https://github.com/laraxot/platform/commits/dev
 ```
 
 ### Using CLI
@@ -109,7 +109,7 @@ git log -n 5 --oneline
 git ls-tree -r dev --name-only | grep -E "(AI_AGENT|GITHUB_ACTION)"
 
 # Check workflow
-gh run list --repo laraxot/base_fixcity_fila5
+gh run list --repo laraxot/base_ptvx_fila5
 ```
 
 ---

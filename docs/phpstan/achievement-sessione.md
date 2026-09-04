@@ -139,12 +139,12 @@ myfeaturetest.pest.php
 ### Root Progetto (/docs/)
 - README.md ✅
 - phpstan/README.md ✅
-- phpstan/lezioni-apprese-2025-10-10.md ✅
+- phpstan/lezioni-apprese.md ✅
 - phpstan/pattern-comuni.md ✅
 - phpstan/riepilogo-generale.md ✅
 - phpstan/xot-module-achievement.md ✅
-- phpstan/sessione-2025-10-10-riepilogo-finale.md ✅
-- phpstan/achievement-sessione-2025-10-10.md ✅ ⬅️ questo file
+- phpstan/sessioneriepilogo-finale.md ✅
+- phpstan/achievement-sessione.md ✅ ⬅️ questo file
 - regole-critiche/phpstan-test-mai-escludere.md ✅
 - regole-critiche/test-naming-pascalcase.md ✅
 

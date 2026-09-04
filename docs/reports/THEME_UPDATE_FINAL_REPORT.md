@@ -1,9 +1,9 @@
-# ✅ FixCity Theme & Documentation Update - COMPLETE
+# ✅ Notify Theme & Documentation Update - COMPLETE
 
 **Date**: 2026-03-30  
 **Status**: ✅ **COMPLETE** (conflicts da risolvere)  
 **Theme**: Sixteen ✅  
-**Domain**: fixcity.local  
+**Domain**: laraxot.local  
 
 ---
 
@@ -12,11 +12,11 @@
 ### Theme Detection Logic
 
 ```
-APP_URL: http://fixcity.local
+APP_URL: http://laraxot.local
     ↓ (remove protocol, www)
-Domain: fixcity.local
+Domain: laraxot.local
     ↓ (explode by ".", reverse, join by "/")
-Config: local/fixcity/xra.php
+Config: local/laraxot/xra.php
     ↓ (read pub_theme key)
 Theme: Sixteen ✅
 ```
@@ -32,7 +32,7 @@ declare(strict_types=1);
 return [
     'pub_theme' => 'Sixteen',        // ✅ TEMA ATTIVO
     'adm_theme' => 'AdminLTE',       // ⚠️ Legacy (non usato)
-    'main_module' => 'Fixcity',
+    'main_module' => 'App',
     'primary_lang' => 'it',
 ];
 ```
@@ -40,7 +40,7 @@ return [
 ### Project Structure
 
 ```
-base_fixcity_fila5/
+base_ptvx_fila5/
 ├── public_html/                    # DOCUMENT ROOT
 │   ├── index.php                  # Entry point
 │   ├── themes/
@@ -78,7 +78,7 @@ base_fixcity_fila5/
 ### Files Updated
 
 **Module READMEs** (18 files):
-- ✅ AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, Tenant, UI, User, Xot
+- ✅ AI, Activity, Blog, Cms, Comment, App, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, Tenant, UI, User, Xot
 
 **Theme READMEs** (2 files):
 - ✅ Sixteen (marked as ACTIVE)
@@ -146,7 +146,7 @@ See: [Theme Context](../../../.planning/THEME_CONTEXT.md) for config.
 |----------|-------|
 | **Theme Name** | Sixteen |
 | **Status** | ✅ ACTIVE |
-| **Domain** | fixcity.local |
+| **Domain** | laraxot.local |
 | **Config File** | `laravel/config/localhost/xra.php` |
 | **Config Key** | `pub_theme` |
 | **Document Root** | `public_html/` |
@@ -185,7 +185,7 @@ docs: Update all documentation with theme info (DRY + KISS)
 **Conflicting Files** (6):
 1. `laravel/Modules/Cms/docs/README.md`
 2. `laravel/Modules/Comment/docs/README.md`
-3. `laravel/Modules/Fixcity/docs/README.md`
+3. `laravel/Modules/App/docs/README.md`
 4. `laravel/Modules/Geo/docs/README.md`
 5. `laravel/Modules/Media/docs/README.md`
 6. `laravel/Modules/Seo/docs/README.md`
@@ -224,10 +224,10 @@ git rebase --continue
 
 ```bash
 # Option 1: Accept all local changes (recommended)
-cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
 for file in laravel/Modules/Cms/docs/README.md \
             laravel/Modules/Comment/docs/README.md \
-            laravel/Modules/Fixcity/docs/README.md \
+            laravel/Modules/App/docs/README.md \
             laravel/Modules/Geo/docs/README.md \
             laravel/Modules/Media/docs/README.md \
             laravel/Modules/Seo/docs/README.md \
@@ -255,14 +255,14 @@ git push origin dev
 | **Theme Context** | `.planning/THEME_CONTEXT.md` |
 | **Modules Index** | `laravel/Modules/docs/README.md` |
 | **Themes Index** | `laravel/Themes/docs/README.md` |
-| **Improvement Plan** | `FIXCITY_IMPROVEMENT_PLAN.md` |
+| **Improvement Plan** | `NOTIFY_IMPROVEMENT_PLAN.md` |
 | **Project Overview** | `.planning/PROJECT.md` |
 
 ---
 
 ## 💡 Key Takeaways
 
-1. **Theme**: Sixteen è il tema attivo per `fixcity.local`
+1. **Theme**: Sixteen è il tema attivo per `laraxot.local`
 2. **Config**: `laravel/config/localhost/xra.php` → `pub_theme`
 3. **Document Root**: `public_html/` è la root del web server
 4. **DRY**: Singola fonte di verità per il tema

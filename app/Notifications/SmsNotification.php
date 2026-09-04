@@ -8,7 +8,6 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
 use Modules\Notify\Datas\SmsData;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 /**
  * Class SmsNotification
@@ -47,9 +46,8 @@ class SmsNotification extends Notification implements ShouldQueue
 
             $this->smsData = SmsData::from([
                 'body' => $content,
-                'recipient' => SafeStringCastAction::cast($recipient),
-                'from' => SafeStringCastAction::cast($from),
-            ]);
+                'recipient' => is_scalar($recipient) ? (string) $recipient : '',
+                'from' => is_scalar($from) ? (string) $from : '']);
         }
 
         $this->config = $config;
@@ -58,28 +56,24 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Get the notification's delivery channels.
      *
-     * @param  mixed  $notifiable  The entity to be notified (l'entità da notificare)
+     * @param  object  $notifiable  The entity to be notified (l'entità da notificare)
      * @return array<int, string>
      */
-    public function via(mixed $notifiable): array
+    public function via(object $notifiable): array
     {
-        if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationFor')) {
-            return ['sms'];
-        }
-
         return ['sms'];
     }
 
     /**
      * Get the SMS representation of the notification.
      */
-    public function toSms(mixed $notifiable): SmsData
+    public function toSms(object $notifiable): SmsData
     {
         // If the notifiable entity has a routeNotificationForSms method,
         // we'll use that to get the destination phone number
-        if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForSms')) {
+        if (method_exists($notifiable, 'routeNotificationForSms')) {
             $routeResult = $notifiable->routeNotificationForSms($this);
-            $this->smsData->recipient = SafeStringCastAction::cast($routeResult ?? '');
+            $this->smsData->recipient = is_scalar($routeResult) ? (string) $routeResult : '';
         }
 
         return $this->smsData;

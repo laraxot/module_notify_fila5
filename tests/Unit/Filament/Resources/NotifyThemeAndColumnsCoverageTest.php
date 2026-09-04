@@ -16,22 +16,18 @@ use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\ListNotificationTemplates;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
-use Modules\Notify\Tests\Fixtures\EditNotifyThemeTestProxy;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers\LinkableRelationManager;
 use Modules\Notify\Filament\Tables\Columns\ContactColumn;
-use Modules\Notify\Tests\TestCase;
+use Modules\Notify\Tests\Fixtures\EditNotifyThemeTestProxy;
 use PHPUnit\Framework\Assert;
-
-uses(\Modules\Notify\Tests\TestCase::class);
 
 function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 {
-    return new EditNotifyThemeTestProxy();
+    return new EditNotifyThemeTestProxy;
 }
 
 test('list notification templates page returns empty table columns array', function (): void {
-    $page = new ListNotificationTemplates;
-    $columns = $page->getTableColumns(); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+    $columns = ListNotificationTemplates::notificationTemplateTableColumns();
     Assert::assertSame([], $columns);
 });
 
@@ -65,8 +61,7 @@ test('edit notify theme page exposes delete header action', function (): void {
 
 test('list notify themes columns and filters are configured', function (): void {
     $columns = ListNotifyThemes::getNotifyThemeTableColumns();
-    $page = new ListNotifyThemes;
-    $filters = $page->getTableFilters(); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+    $filters = ListNotifyThemes::getNotifyThemeTableFilters();
     Assert::assertArrayHasKey('id', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['id']);
     Assert::assertArrayHasKey('lang', $columns);
@@ -82,9 +77,9 @@ test('list notify themes columns and filters are configured', function (): void 
 
 test('linkable relation manager exposes text input form schema', function (): void {
     $manager = new LinkableRelationManager;
-    $schema = $manager->getFormSchemaOld();
+    $schema = $manager->getFormSchema();
     Assert::assertNotEmpty($schema);
-    Assert::assertInstanceOf(TextInput::class, $schema['id']);
+    Assert::assertInstanceOf(TextInput::class, $schema[0]);
 });
 
 test('contact column is a view column with expected name', function (): void {

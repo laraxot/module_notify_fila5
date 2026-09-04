@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Datas\SendNotificationBulkResultData;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -69,8 +68,7 @@ class SendRecordsNotificationAction
                     $errors->push([
                         'record' => $recordName,
                         'channel' => $channelItem,
-                        'error' => $e->getMessage(),
-                    ]);
+                        'error' => $e->getMessage()]);
                 }
                 /*
                 logger()->error('Errore invio notifica bulk', [
@@ -78,8 +76,7 @@ class SendRecordsNotificationAction
                     'record_id' => $record->getKey(),
                     'channels' => array_map(fn (ChannelEnum $ce) => $ce->value, $channels),
                     'template_slug' => $templateSlug,
-                    'error' => $e->getMessage(),
-                ]);
+                    'error' => $e->getMessage()]);
                 */
             }
         }
@@ -107,6 +104,8 @@ class SendRecordsNotificationAction
             }
         }
 
-        return SafeStringCastAction::cast($record->getKey());
+        $key = $record->getKey();
+
+        return is_scalar($key) ? (string) $key : '';
     }
 }

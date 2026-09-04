@@ -7,11 +7,14 @@ namespace Modules\Notify\Filament\Resources;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\View;
+use Illuminate\Database\Eloquent\Model;
 use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Filament\Forms\Components\HtmlLayoutPathSelect;
 use Modules\Notify\Models\MailTemplate;
+use Override;
 
 class MailTemplateResource extends LangBaseResource
 {
@@ -25,7 +28,11 @@ class MailTemplateResource extends LangBaseResource
      * - Le etichette, i placeholder e i testi di aiuto sono gestiti tramite LangServiceProvider
      * - File di traduzione: Modules/Notify/resources/lang/{locale}/mail_template.php
      */
-    public static function getFormSchemaOld(): array
+    /**
+     * @return array<string, Component>
+     */
+    #[Override]
+    public static function getFormSchema(): array
     {
         /** @var view-string $paramsBadgesView */
         $paramsBadgesView = 'notify::filament.components.params-badges';
@@ -40,8 +47,7 @@ class MailTemplateResource extends LangBaseResource
                         ->maxLength(255),
                     'slug' => TextInput::make('slug')
                         ->required()
-                        ->unique(ignoreRecord: true),
-                ])
+                        ->unique(ignoreRecord: true)])
                 ->columns(2),
             /*
             'name_slug_group' => Group::make()
@@ -55,8 +61,7 @@ class MailTemplateResource extends LangBaseResource
                     TextInput::make('slug')
                         ->label('Slug')
                         ->required()
-                        ->unique(ignoreRecord: true),
-                ])
+                        ->unique(ignoreRecord: true)])
                 ->columns(2),
             */
 
@@ -69,16 +74,15 @@ class MailTemplateResource extends LangBaseResource
                 ->required()
                 ->columnSpanFull(),
             'params_display' => View::make($paramsBadgesView)
-                ->viewData(fn (mixed $record): array => [
-                    'params' => is_object($record) && isset($record->params) ? $record->params : [],
+                ->viewData(static fn (?Model $record): array => [
+                    'params' => $record !== null && isset($record->params) ? $record->params : [],
                 ])
                 ->columnSpanFull()
-                ->visible(fn (mixed $record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
+                ->visible(static fn (?Model $record): bool => $record !== null && isset($record->params) && ! empty($record->params)),
             'text_template' => Textarea::make('text_template')
                 ->maxLength(65535)
                 ->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')
-                ->columnSpanFull(),
-        ];
+                ->columnSpanFull()];
     }
 }

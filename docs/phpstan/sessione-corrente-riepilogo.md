@@ -98,7 +98,7 @@ Dettagli completi in: `docs/phpstan/tests-analysis-current.md`
 ❌ phpstan-fixes-2025-10-10.md    → ✅ phpstan-fixes.md
 ❌ ROADMAP.md                     → ✅ roadmap.md
 ❌ CONTRIBUTING.md                → ✅ contributing.md (tranne in root)
-❌ achievement-sessione-2025-10-10.md → ✅ achievement-sessione.md
+❌ achievement-sessione.md → ✅ achievement-sessione.md
 ```
 
 #### Distribuzione Violazioni
@@ -107,7 +107,7 @@ Dettagli completi in: `docs/phpstan/tests-analysis-current.md`
 - `docs/`: 48 file
 - `Modules/*/docs/`: 60 file
 - `Modules/*/.github/`: 28 file (SECURITY.md, CONTRIBUTING.md)
-- `Modules/`: 16 file (CHANGELOG.md, LICENSE.md, ROADMAP.md)
+- `Modules/`: 16 file (changelog.md, LICENSE.md, ROADMAP.md)
 
 ---
 

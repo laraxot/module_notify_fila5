@@ -79,6 +79,8 @@ Current Variants:
 Current variants: 2 (primary, secondary)
 Adding new variant: navigation
 
+```
+
 ````
 </output>
 
@@ -96,6 +98,8 @@ From new component specification, extract:
 </action>
 
 **Example:**
+```
+
 ```yaml
 Shared with existing:
   - Size: medium
@@ -107,6 +111,8 @@ Different from existing:
   - Has loading state
   - Icon animation on hover
   - Purpose: navigation vs submission
+```
+
 ````
 
 ---
@@ -162,14 +168,20 @@ Add variant to component definition:
 ### Update Variants Section
 
 **Before:**
+```
+
 ```markdown
 ## Variants
 
 - **primary** - Main call-to-action (submit, save, continue)
 - **secondary** - Secondary actions (cancel, back)
+```
+
 ````
 
 **After:**
+
+```
 
 ```markdown
 ## Variants
@@ -572,3 +584,5 @@ ONLY WHEN [variant is added, component file updated, and usage tracked], will yo
 - Proceeding without user confirmation
 
 **Master Rule:** Skipping steps, optimizing sequences, or not following exact instructions is FORBIDDEN and constitutes SYSTEM FAILURE.
+
+```

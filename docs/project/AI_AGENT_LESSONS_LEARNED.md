@@ -16,7 +16,7 @@ Create GitHub Action to sync git subtrees automatically on push to `dev` branch.
 
 1. ✅ Created workflow file: `.github/workflows/sync-subtrees.yml`
 2. ✅ Created documentation: 3 files
-3. ✅ Updated AGENTS.md
+3. ✅ Updated agents.md
 4. ✅ Committed and pushed to dev
 5. ❌ **Did NOT verify on GitHub**
 6. ❌ **Marked task as complete without testing**
@@ -114,7 +114,7 @@ Creating transparent documentation of what went wrong.
    - Paste: `cat ~/.ssh/subtree_sync.pub`
 
 3. Add private key to secrets:
-   - Go to: https://github.com/laraxot/base_fixcity_fila5/settings/secrets/actions
+   - Go to: https://github.com/laraxot/platform/settings/secrets/actions
    - Name: `SUBTREE_SSH_KEY`
    - Value: `cat ~/.ssh/subtree_sync`
 
@@ -125,7 +125,7 @@ Creating transparent documentation of what went wrong.
    ```
 
 5. Check on GitHub:
-   - Go to: https://github.com/laraxot/base_fixcity_fila5/actions
+   - Go to: https://github.com/laraxot/platform/actions
    - Look for: "🔄 Sync Subtrees"
 
 ---
@@ -185,7 +185,7 @@ Documentation should reflect **reality**, not what we wish was true.
 |------|-------|--------|
 | 11:25 | Created workflow | ✅ Done |
 | 11:27 | Created docs | ✅ Done |
-| 11:28 | Updated AGENTS.md | ✅ Done |
+| 11:28 | Updated agents.md | ✅ Done |
 | 11:29 | Pushed to dev | ✅ Done |
 | 11:30 | Said "task complete" | ❌ WRONG |
 | 11:35 | User asked to test | ✅ Right |

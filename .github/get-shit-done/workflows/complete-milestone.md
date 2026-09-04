@@ -761,3 +761,4 @@ Milestone completion is successful when:
 - [ ] User knows next step (/gsd-new-milestone)
 
 </success_criteria>
+```

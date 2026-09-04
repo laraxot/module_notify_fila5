@@ -229,6 +229,7 @@ fd4c8475 Add multi-agent collaboration issue template and docs
 - [Issue Template](docs/github/ISSUE_multi-agent-collaboration.md)
 - [Discussion Template](.github/DISCUSSION_TEMPLATE/sync-script-coordination.md)
 - [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
+- [Actions Tab](https://github.com/laraxot/platform/actions)
 
 ### Documentation
 - [Multi-Agent Guide](docs/multi-agent-collaboration-guide.md)

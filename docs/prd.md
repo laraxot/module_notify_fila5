@@ -11,7 +11,6 @@ Specialized logic for Notify needs a dedicated, type-safe Module to ensure maint
 ## 🎯 Goals & Success Metrics
 - **Goal 1:** 100% PHPStan L10 compliance.
 - **Goal 2:** Seamless integration with XotBase.
-
 ---
 
 <!-- Merged from PRD.md, which collided with this file on case-insensitive filesystems. -->

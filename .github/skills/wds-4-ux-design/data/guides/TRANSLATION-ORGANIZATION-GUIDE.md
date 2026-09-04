@@ -70,10 +70,14 @@ This guide explains how to organize text content and translations in WDS specifi
 ````
 
 **Content (Translations):**
+```
+
 ```markdown
 - **Content**:
   - EN: "Every walk. on time. Every time."
   - SE: "Varje promenad. i tid. Varje gång."
+```
+
 ````
 
 **Why:** Structure rarely changes, content often does. Keeps specs clean.
@@ -83,6 +87,8 @@ This guide explains how to organize text content and translations in WDS specifi
 ### 3. Group Related Translations
 
 **❌ WRONG (Scattered):**
+
+```
 
 ```markdown
 #### Headline EN

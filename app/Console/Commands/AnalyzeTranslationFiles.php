@@ -6,7 +6,6 @@ namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Symfony\Component\Console\Helper\Table;
 use Webmozart\Assert\Assert;
 
@@ -37,8 +36,7 @@ class AnalyzeTranslationFiles extends Command
 
         // Collect all files and their keys
         foreach ($languages as $langDir) {
-            /** @var string $langDirPath */
-            $langDirPath = is_string($langDir) ? $langDir : SafeStringCastAction::cast($langDir);
+            $langDirPath = is_scalar($langDir) ? (string) $langDir : '';
             $lang = basename($langDirPath);
             $files = File::files($langDirPath);
 
@@ -140,8 +138,7 @@ class AnalyzeTranslationFiles extends Command
         foreach ($patterns as $pattern => $files) {
             $table->addRow([
                 $pattern,
-                implode(PHP_EOL, $files),
-            ]);
+                implode(PHP_EOL, $files)]);
         }
 
         $table->render();
@@ -257,8 +254,7 @@ class AnalyzeTranslationFiles extends Command
         foreach ($navigationStructures as $structure => $files) {
             $table->addRow([
                 $structure,
-                implode(PHP_EOL, $files),
-            ]);
+                implode(PHP_EOL, $files)]);
         }
 
         $table->render();

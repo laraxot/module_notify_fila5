@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
+use Filament\Forms\Components\Field;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -11,17 +12,17 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+use Override;
 
 class NotifyThemeResource extends XotBaseResource
 {
     protected static ?string $model = NotifyTheme::class;
 
     /**
-     * Schema legacy del form: la sorgente di verità è NotifyThemeForm::getFormSchema().
-     *
-     * @return array<string, \Filament\Schemas\Components\Component>
+     * @return array<string, Field>
      */
-    public static function getFormSchemaOld(): array
+    #[Override]
+    public static function getFormSchema(): array
     {
         return [
             'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
@@ -46,12 +47,10 @@ class NotifyThemeResource extends XotBaseResource
                     'ark' => 'ark',
                     'minty' => 'minty',
                     'sunny' => 'sunny',
-                    'widgets' => 'widgets',
-                ])
+                    'widgets' => 'widgets'])
                 ->default('empty'),
             'body' => Textarea::make('body')->columnSpanFull(),
-            'body_html' => RichEditor::make('body_html')->columnSpanFull(),
-        ];
+            'body_html' => RichEditor::make('body_html')->columnSpanFull()];
     }
 
     /**
@@ -62,18 +61,15 @@ class NotifyThemeResource extends XotBaseResource
         return match ($field) {
             'lang' => [
                 'it' => 'Italiano',
-                'en' => 'English',
-            ],
+                'en' => 'English'],
             'type' => [
                 'email' => 'Email',
                 'sms' => 'SMS',
-                'push' => 'Push Notification',
-            ],
+                'push' => 'Push Notification'],
             'post_type' => [
                 'page' => 'Page',
                 'post' => 'Post',
-                'product' => 'Product',
-            ],
+                'product' => 'Product'],
             default => [],
         };
     }

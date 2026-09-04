@@ -322,10 +322,14 @@ Brand inconsistency, doesn't match design system
 
 Update button background color to use design token:
 
+```
+
 ```tsx
 backgroundColor: tokens.button.primary.background; // #2563EB
 ```
 ````
+
+```
 
 ````
 
@@ -342,6 +346,8 @@ backgroundColor: tokens.button.primary.background; // #2563EB
 **File:** `test-reports/TR-XXX-YYYY-MM-DD.md`
 
 **Template:**
+```
+
 ```markdown
 # Test Report: TS-001 Login & Onboarding
 
@@ -390,6 +396,8 @@ backgroundColor: tokens.button.primary.background; // #2563EB
 **Status:** NOT APPROVED
 **Reason:** High severity issue + design system compliance below threshold
 **Retest Required:** Yes
+```
+
 ````
 
 ---
@@ -680,3 +688,5 @@ Date: ________________
 ---
 
 **Acceptance Testing is where you ensure quality! Test thoroughly, communicate clearly, and sign off with confidence!** ✅✨
+
+```

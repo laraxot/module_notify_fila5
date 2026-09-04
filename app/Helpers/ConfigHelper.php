@@ -6,7 +6,6 @@ namespace Modules\Notify\Helpers;
 
 use Illuminate\Support\Facades\Config;
 use Modules\Xot\Actions\Cast\SafeArrayCastAction;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 /**
  * Helper per la gestione delle configurazioni del modulo Notify.
@@ -162,7 +161,8 @@ class ConfigHelper
     {
         foreach ($variables as $variable => $value) {
             $placeholder = '{{'.$variable.'}}';
-            $string = str_replace($placeholder, SafeStringCastAction::cast($value), $string);
+            $replacement = is_scalar($value) ? (string) $value : '';
+            $string = str_replace($placeholder, $replacement, $string);
         }
 
         return $string;

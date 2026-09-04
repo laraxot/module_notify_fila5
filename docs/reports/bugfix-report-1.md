@@ -16,6 +16,7 @@ related:
   - "./final-documentation-report.md"
   - "./final-success-report.md"
   - "./fixcity-improvement-progress-1.md"
+  - "./laraxot-improvement-progress-1.md"
 ---
 
 # Bug Fix Report - 2025-01-14

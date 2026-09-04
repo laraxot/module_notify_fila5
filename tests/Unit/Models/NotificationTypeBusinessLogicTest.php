@@ -6,16 +6,15 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Models\NotificationType;
-use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
-uses(TestCase::class);
 
 describe('NotificationType Business Logic', function () {
     test('notification type extends eloquent model', function () {
-        Assert::assertTrue(
-            (new \ReflectionClass(NotificationType::class))->isSubclassOf(Model::class),
-        );
+        $reflection = new \ReflectionClass(NotificationType::class);
+        $parent = $reflection->getParentClass();
+
+        Assert::assertInstanceOf(\ReflectionClass::class, $parent);
+        Assert::assertSame(Model::class, $parent->getName());
     });
 
     test('notification type has expected fillable fields', function () {
@@ -26,8 +25,7 @@ describe('NotificationType Business Logic', function () {
         $expectedFillable = [
             'name',
             'description',
-            'template',
-        ];
+            'template'];
 
         Assert::assertEquals($expectedFillable, $property->getValue($reflection->newInstanceWithoutConstructor()));
     });

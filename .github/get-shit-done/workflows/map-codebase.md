@@ -73,6 +73,7 @@ mkdir -p .planning/codebase
 - STACK.md (from tech mapper)
 - INTEGRATIONS.md (from tech mapper)
 - ARCHITECTURE.md (from arch mapper)
+- architecture.md (from arch mapper)
 - STRUCTURE.md (from arch mapper)
 - CONVENTIONS.md (from quality mapper)
 - TESTING.md (from quality mapper)
@@ -122,6 +123,7 @@ Analyze this codebase architecture and directory structure.
 
 Write these documents to .planning/codebase/:
 - ARCHITECTURE.md - Pattern, layers, data flow, abstractions, entry points
+- architecture.md - Pattern, layers, data flow, abstractions, entry points
 - STRUCTURE.md - Directory layout, key locations, naming conventions
 
 Explore thoroughly. Write documents directly using templates. Return confirmation only."
@@ -272,6 +274,7 @@ Codebase mapping complete.
 Created .planning/codebase/:
 - STACK.md ([N] lines) - Technologies and dependencies
 - ARCHITECTURE.md ([N] lines) - System design and patterns
+- architecture.md ([N] lines) - System design and patterns
 - STRUCTURE.md ([N] lines) - Directory layout and organization
 - CONVENTIONS.md ([N] lines) - Code style and patterns
 - TESTING.md ([N] lines) - Test structure and practices

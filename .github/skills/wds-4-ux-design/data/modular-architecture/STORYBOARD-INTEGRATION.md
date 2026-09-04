@@ -496,6 +496,8 @@ Include:
 
 ## Feature File Template with Storyboard
 
+```
+
 ```markdown
 # {Feature Name} Feature
 
@@ -575,6 +577,8 @@ Include:
 ## Error Handling
 
 {Error states, recovery flows, etc.}
+```
+
 ````
 
 ---
@@ -667,6 +671,8 @@ Features/Storyboards/{component-name}-{type}.jpg
 ```
 
 ### Step 3: Reference in Feature File
+
+```
 
 ```markdown
 ## Visual Storyboard

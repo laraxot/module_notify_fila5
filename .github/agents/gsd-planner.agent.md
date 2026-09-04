@@ -965,13 +965,13 @@ If exists, load relevant documents by phase type:
 | Phase Keywords | Load These |
 |----------------|------------|
 | UI, frontend, components | CONVENTIONS.md, STRUCTURE.md |
-| API, backend, endpoints | ARCHITECTURE.md, CONVENTIONS.md |
-| database, schema, models | ARCHITECTURE.md, STACK.md |
+| API, backend, endpoints | architecture.md, CONVENTIONS.md |
+| database, schema, models | architecture.md, STACK.md |
 | testing, tests | TESTING.md, CONVENTIONS.md |
 | integration, external API | INTEGRATIONS.md, STACK.md |
-| refactor, cleanup | CONCERNS.md, ARCHITECTURE.md |
+| refactor, cleanup | CONCERNS.md, architecture.md |
 | setup, config | STACK.md, STRUCTURE.md |
-| (default) | STACK.md, ARCHITECTURE.md |
+| (default) | STACK.md, architecture.md |
 </step>
 
 <step name="identify_phase">

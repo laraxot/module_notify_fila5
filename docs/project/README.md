@@ -26,7 +26,7 @@ related:
 
 ## 📋 Overview
 
-This directory contains project-wide configuration and setup documentation for the FixCity platform.
+This directory contains project-wide configuration and setup documentation for the Notify platform.
 
 ---
 
@@ -54,26 +54,26 @@ This directory contains project-wide configuration and setup documentation for t
 
 | File | Description | Category |
 |------|-------------|----------|
-| [`vhost-configuration.md`](vhost-configuration.md) | **Apache vhost for fixcity.local** | 🌐 **VHost** |
+| [`vhost-configuration.md`](vhost-configuration.md) | **Apache vhost for laraxot.local** | 🌐 **VHost** |
 
 ### Planning
 
 | File | Description | Category |
 |------|-------------|----------|
-| [`2-1-1-PLAN.md`](2-1-1-PLAN.md) | Sprint planning | Planning |
-| [`2-1-CONTEXT.md`](2-1-CONTEXT.md) | Project context | Planning |
-| [`PROJECT.md`](PROJECT.md) | Project overview | Planning |
-| [`REQUIREMENTS.md`](REQUIREMENTS.md) | Requirements | Planning |
-| [`ROADMAP.md`](ROADMAP.md) | Project roadmap | Planning |
-| [`STATE.md`](STATE.md) | Current state | Planning |
+| [`2-1-1-PLAN.md`](2-1-1-plan.md) | Sprint planning | Planning |
+| [`2-1-CONTEXT.md`](2-1-context.md) | Project context | Planning |
+| [`PROJECT.md`](project.md) | Project overview | Planning |
+| [`REQUIREMENTS.md`](requirements.md) | Requirements | Planning |
+| [`ROADMAP.md`](roadmap.md) | Project roadmap | Planning |
+| [`STATE.md`](state.md) | Current state | Planning |
 
 ### Philosophy
 
 | File | Description | Category |
 |------|-------------|----------|
 | [`philosophy.md`](philosophy.md) | Project philosophy | Guidelines |
-| [`FIXCITY_IMPROVEMENT_PLAN.md`](FIXCITY_IMPROVEMENT_PLAN.md) | Improvement plan | Planning |
-| [`FIXCITY_IMPROVEMENT_START_HERE.md`](FIXCITY_IMPROVEMENT_START_HERE.md) | Where to start | Planning |
+| [`NOTIFY_IMPROVEMENT_PLAN.md`](NOTIFY_IMPROVEMENT_PLAN.md) | Improvement plan | Planning |
+| [`NOTIFY_IMPROVEMENT_START_HERE.md`](NOTIFY_IMPROVEMENT_START_HERE.md) | Where to start | Planning |
 
 ### Integrations
 
@@ -88,24 +88,24 @@ This directory contains project-wide configuration and setup documentation for t
 
 ### Quick Reference
 
-**Domain**: `fixcity.local`  
+**Domain**: `laraxot.local`  
 **Document Root**: `public_html/`  
-**Configuration File**: [`../../laravel/config/vhost/fixcity.local.conf`](../../laravel/config/vhost/fixcity.local.conf)
+**Configuration File**: [`../../laravel/config/vhost/laraxot.local.conf`](../../laravel/config/vhost/laraxot.local.conf)
 
 ### Setup Steps
 
 ```bash
 # 1. Copy vhost config to Apache
-sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/
+sudo cp laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/
 
 # 2. Enable site
-sudo a2ensite fixcity.local.conf
+sudo a2ensite laraxot.local.conf
 
 # 3. Reload Apache
 sudo systemctl reload apache2
 
 # 4. Update /etc/hosts
-echo "127.0.0.1 fixcity.local" | sudo tee -a /etc/hosts
+echo "127.0.0.1 laraxot.local" | sudo tee -a /etc/hosts
 ```
 
 ### Full Documentation
@@ -151,12 +151,12 @@ echo "127.0.0.1 fixcity.local" | sudo tee -a /etc/hosts
 - [`kilo-configuration.md`](kilo-configuration.md)
 
 **Planning:**
-- [`PROJECT.md`](PROJECT.md)
-- [`REQUIREMENTS.md`](REQUIREMENTS.md)
-- [`ROADMAP.md`](ROADMAP.md)
-- [`STATE.md`](STATE.md)
-- [`2-1-1-PLAN.md`](2-1-1-PLAN.md)
-- [`2-1-CONTEXT.md`](2-1-CONTEXT.md)
+- [`PROJECT.md`](project.md)
+- [`REQUIREMENTS.md`](requirements.md)
+- [`ROADMAP.md`](roadmap.md)
+- [`STATE.md`](state.md)
+- [`2-1-1-PLAN.md`](2-1-1-plan.md)
+- [`2-1-CONTEXT.md`](2-1-context.md)
 
 **Development:**
 - [`COMMIT_MESSAGE.md`](COMMIT_MESSAGE.md)
@@ -164,8 +164,8 @@ echo "127.0.0.1 fixcity.local" | sudo tee -a /etc/hosts
 
 **Philosophy:**
 - [`philosophy.md`](philosophy.md)
-- [`FIXCITY_IMPROVEMENT_PLAN.md`](FIXCITY_IMPROVEMENT_PLAN.md)
-- [`FIXCITY_IMPROVEMENT_START_HERE.md`](FIXCITY_IMPROVEMENT_START_HERE.md)
+- [`NOTIFY_IMPROVEMENT_PLAN.md`](NOTIFY_IMPROVEMENT_PLAN.md)
+- [`NOTIFY_IMPROVEMENT_START_HERE.md`](NOTIFY_IMPROVEMENT_START_HERE.md)
 
 ---
 

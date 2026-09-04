@@ -9,12 +9,9 @@ use Modules\Notify\Models\Policies\ContactPolicy;
 use Modules\Notify\Models\Policies\MailTemplatePolicy;
 use Modules\Notify\Models\Policies\NotificationPolicy;
 use Modules\Notify\Models\Policies\NotificationTemplatePolicy;
-use Modules\Notify\Models\Policies\NotifyBasePolicy;
-use Modules\Notify\Tests\TestCase;
+use Modules\Notify\Tests\Fixtures\NotifyPolicyBehaviorConcretePolicy;
 use Modules\Xot\Contracts\UserContract;
 use PHPUnit\Framework\Assert;
-
-uses(TestCase::class)->group('no-notify-db');
 
 /**
  * @param  list<string>  $roles
@@ -24,14 +21,14 @@ function notifyBehaviorUser(array $roles = []): UserContract
 {
     /** @var Mockery\MockInterface&UserContract $user */
     $user = Mockery::mock(UserContract::class);
-    $user->shouldReceive('hasRole')
+    mockExpectation($user, 'hasRole')
         ->andReturnUsing(static function (array|string $richiesti) use ($roles): bool {
             /** @var list<string> $normalizzati */
             $normalizzati = is_array($richiesti) ? $richiesti : [$richiesti];
 
             return array_intersect($normalizzati, $roles) !== [];
         });
-    $user->shouldReceive('hasPermissionTo')->andReturn(false);
+    mockExpectation($user, 'hasPermissionTo')->andReturn(false);
 
     return $user;
 }
@@ -41,7 +38,7 @@ afterEach(function (): void {
 });
 
 test('NotifyBasePolicy before: super-admin bypass, altri passano a viewAny false', function (): void {
-    $policy = new NotifyPolicyBehaviorConcretePolicy();
+    $policy = new NotifyPolicyBehaviorConcretePolicy;
     $super = notifyBehaviorUser(['super-admin']);
     Assert::assertTrue($policy->before($super, 'viewAny'));
 
@@ -52,14 +49,11 @@ test('NotifyBasePolicy before: super-admin bypass, altri passano a viewAny false
 
 test('policy Notify vuote ereditano before super-admin da XotBasePolicy', function (): void {
     foreach ([
-        new ContactPolicy(),
-        new NotificationPolicy(),
-        new MailTemplatePolicy(),
-        new NotificationTemplatePolicy(),
-    ] as $policy) {
+        new ContactPolicy,
+        new NotificationPolicy,
+        new MailTemplatePolicy,
+        new NotificationTemplatePolicy] as $policy) {
         Assert::assertTrue($policy->before(notifyBehaviorUser(['super-admin']), 'viewAny'));
         Assert::assertNull($policy->before(notifyBehaviorUser(), 'viewAny'));
     }
 });
-
-final class NotifyPolicyBehaviorConcretePolicy extends NotifyBasePolicy {}

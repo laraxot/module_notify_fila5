@@ -191,6 +191,8 @@ This will:
 
 Proceed with update? (y/n)
 
+```
+
 ````
 </ask>
 
@@ -207,6 +209,8 @@ Update component file based on type:
 **Update States Section:**
 
 **Before:**
+```
+
 ```markdown
 ## States
 
@@ -215,9 +219,13 @@ Update component file based on type:
 - hover
 - active
 - disabled
+```
+
 ````
 
 **After:**
+
+```
 
 ```markdown
 ## States
@@ -426,6 +434,8 @@ Optional: Consider using loading state for async actions
 
 Documentation: See Button component for loading state usage
 
+```
+
 ````
 </output>
 
@@ -439,10 +449,14 @@ Update design system metadata:
 
 **Update:** `D-Design-System/README.md`
 
+```
+
 ```markdown
 **Last Updated:** 2024-12-09
 **Recent Changes:**
 - Button [btn-001]: Added loading state
+```
+
 ````
 
 ---
@@ -565,6 +579,8 @@ Create migration checklist:
 </action>
 
 **Output:**
+```
+
 ```markdown
 # Migration Checklist: Button [btn-001] Update
 
@@ -593,6 +609,8 @@ If issues arise:
 1. Revert component file to previous version
 2. Restore page specifications
 3. Document issues encountered
+```
+
 ````
 
 ### If Major Update

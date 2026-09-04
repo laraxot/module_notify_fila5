@@ -73,6 +73,8 @@ Before completing discovery, verify:
 <output_structure>
 Create `.planning/phases/XX-name/DISCOVERY.md`:
 
+```
+
 ```markdown
 # [Topic] Discovery
 

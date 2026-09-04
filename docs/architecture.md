@@ -59,6 +59,7 @@ This document outlines the architectural design of the Notify module, focusing o
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+- [Troubleshooting](./TROUBLESHOOTING.md)
 
 ---
 

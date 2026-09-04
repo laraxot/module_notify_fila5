@@ -32,6 +32,7 @@ related:
 - **Contents**:
   - Active theme: Sixteen
   - Domain: fixcity.local
+  - Domain: laraxot.local
   - Config path: `laravel/config/localhost/xra.php`
   - Theme detection logic
   - Configuration change instructions
@@ -41,6 +42,7 @@ related:
 - **Added**: "Active Theme" section with:
   - Current theme name (Sixteen)
   - Domain (fixcity.local)
+  - Domain (laraxot.local)
   - Config reference
   - Links to theme documentation
 
@@ -60,6 +62,7 @@ related:
 - **Added**: "✅ STATO TEMA" section at top
   - Status: ✅ **TEMA ATTIVO**
   - Domain: fixcity.local
+  - Domain: laraxot.local
   - Config: `laravel/config/localhost/xra.php` → `pub_theme`
   - Document root: `public_html/`
 
@@ -78,6 +81,7 @@ Each module README now includes:
 
 **Current Theme**: **Sixteen** (AGID/Bootstrap Italia compliant)  
 **Domain**: `fixcity.local`  
+**Domain**: `laraxot.local`  
 **Config**: `laravel/config/localhost/xra.php` → `pub_theme`
 
 **Theme Documentation**: [Themes Index](../../Themes/docs/README.md)  
@@ -91,6 +95,7 @@ Each module README now includes:
 4. ✅ Cms
 5. ✅ Comment
 6. ✅ Fixcity
+6. ✅ App
 7. ✅ Gdpr
 8. ✅ Geo
 9. ✅ Job
@@ -136,6 +141,8 @@ Each module README now includes:
 | **Document Root** | `public_html/` |
 | **APP_URL** | `http://fixcity.local` |
 | **Domain** | `fixcity.local` |
+| **APP_URL** | `http://laraxot.local` |
+| **Domain** | `laraxot.local` |
 | **Config File** | `laravel/config/localhost/xra.php` |
 | **Active Theme** | `Sixteen` |
 | **Config Key** | `pub_theme` |
@@ -160,10 +167,10 @@ Each module README now includes:
 When OpenViking server is running, add these memories:
 
 ```bash
-openviking add-memory "Active Theme: Sixteen (fixcity.local)"
+openviking add-memory "Active Theme: Sixteen (laraxot.local)"
 openviking add-memory "Theme Config: laravel/config/localhost/xra.php → pub_theme"
 openviking add-memory "Document Root: public_html/"
-openviking add-memory "Domain: fixcity.local"
+openviking add-memory "Domain: laraxot.local"
 ```
 
 ## Verification Checklist

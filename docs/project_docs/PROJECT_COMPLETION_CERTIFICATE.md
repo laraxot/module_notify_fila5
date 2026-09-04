@@ -1,6 +1,6 @@
 # 🏆 PROJECT COMPLETION CERTIFICATE
 
-## FixCity - Base Fila4 Mono
+## Notify - Base Fila4 Mono
 
 **Certificate of Excellence 2025**
 
@@ -8,7 +8,7 @@
 
 ## 📜 Official Certification
 
-This document certifies that the project **FixCity - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.
+This document certifies that the project **Notify - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.
 
 **Certification Date:** October 1, 2025  
 **Certification Authority:** Super Mucca Quality Assurance 🐮  
@@ -261,7 +261,7 @@ The project meets or exceeds:
 
 **I hereby certify that:**
 
-The project **FixCity - Base Fila4 Mono** has been thoroughly analyzed, refactored, tested, and documented according to the highest professional standards of software development.
+The project **Notify - Base Fila4 Mono** has been thoroughly analyzed, refactored, tested, and documented according to the highest professional standards of software development.
 
 All quality metrics have been measured, verified, and documented. The project demonstrates excellence in code quality, testing, architecture, DevOps, and documentation.
 
@@ -274,7 +274,7 @@ Super Mucca Quality Assurance Team 🐮
 October 1, 2025
 
 **Certification ID:**  
-FIXCITY-2025-EXCELLENCE-001
+NOTIFY-2025-EXCELLENCE-001
 
 **Digital Signature:**  
 ```
@@ -313,9 +313,9 @@ vuER4W8oDH3+3iQ02OQ1QlnRFHqeJ5teKeH3VYx0jBuS402hm0Ow1yxM3FyPOPMU
 
 To verify this certification:
 
-**Website:** https://fixcity.com/certification  
-**Verification Code:** FIXCITY-2025-EXCELLENCE-001  
-**Email:** certification@fixcity.com
+**Website:** https://laraxot.com/certification  
+**Verification Code:** NOTIFY-2025-EXCELLENCE-001  
+**Email:** certification@laraxot.com
 
 ---
 
@@ -354,7 +354,7 @@ See [Quality Dashboard](./QUALITY_DASHBOARD.md)
 
 ### Appendix B: Architecture Documentation
 
-See [Architecture](./ARCHITECTURE.md)
+See [Architecture](./architecture.md)
 
 ### Appendix C: Refactoring Report
 
@@ -387,7 +387,7 @@ See [Test Reports](../Modules/*/Tests/)
 
 *This certificate is issued by the Super Mucca Quality Assurance Team and represents the highest standard of software engineering excellence.*
 
-**#Excellence2025 #QualityCertified #ProfessionalDevelopment #FixCity**
+**#Excellence2025 #QualityCertified #ProfessionalDevelopment #Notify**
 
 ---
 

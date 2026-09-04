@@ -15,6 +15,7 @@ related:
   - "./final-documentation-report.md"
   - "./final-success-report.md"
   - "./fixcity-improvement-progress-1.md"
+  - "./laraxot-improvement-progress-1.md"
 ---
 
 > Questo file è stato rinominato in [bugfix-report-.deprecated.md](bugfix-report-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

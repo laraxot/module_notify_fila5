@@ -4,7 +4,7 @@
 
 | Story | Gate attuale | Suite offline | Note |
 |-------|--------------|---------------|------|
-| 5.26 | **47.1%** (target 100%) | 416 pass / 381 skip | Unit `no-notify-db`; skip `notify-db`/Feature su fixcity; floor100; override `NOTIFY_DB_TESTS=1` |
+| 5.26 | **47.1%** (target 100%) | 416 pass / 381 skip | Unit `no-notify-db`; skip `notify-db`/Feature su ptv; floor100; override `NOTIFY_DB_TESTS=1` |
 
 ```bash
 cd laravel

@@ -1,4 +1,4 @@
-# 🌐 FixCity Local VHost Configuration
+# 🌐 Notify Local VHost Configuration
 
 > **Last Updated**: 2026-03-31
 > **Status**: ✅ Installato e Attivo
@@ -9,15 +9,15 @@
 
 ## 🎯 Overview
 
-This document describes the Apache VirtualHost configuration for local development of the FixCity platform using the domain `fixcity.local`.
+This document describes the Apache VirtualHost configuration for local development of the Notify platform using the domain `laraxot.local`.
 
 ### Key Points
 
-- **Domain**: `fixcity.local`
-- **Document Root**: `/var/www/_bases/base_fixcity_fila5/public_html`
-- **Config sorgente**: `laravel/config/vhost/fixcity.local.conf`
-- **Config Apache**: `/etc/apache2/sites-available/fixcity.local.conf` ✅ abilitato
-- **Hosts (Windows)**: `172.27.106.41 fixcity.local` in `C:\Windows\System32\drivers\etc\hosts`
+- **Domain**: `laraxot.local`
+- **Document Root**: `/var/www/_bases/base_ptvx_fila5/public_html`
+- **Config sorgente**: `laravel/config/vhost/laraxot.local.conf`
+- **Config Apache**: `/etc/apache2/sites-available/laraxot.local.conf` ✅ abilitato
+- **Hosts (Windows)**: `172.27.106.41 laraxot.local` in `C:\Windows\System32\drivers\etc\hosts`
 - **Port**: 80 (HTTP)
 
 ---
@@ -25,11 +25,11 @@ This document describes the Apache VirtualHost configuration for local developme
 ## 📁 File Locations
 
 ```
-/var/www/_bases/base_fixcity_fila5/
+/var/www/_bases/base_ptvx_fila5/
 ├── laravel/
 │   └── config/
 │       └── vhost/
-│           └── fixcity.local.conf    # Apache vhost configuration
+│           └── laraxot.local.conf    # Apache vhost configuration
 └── public_html/                      # Document root (web accessible)
     └── index.php                     # Laravel entry point
 ```
@@ -42,10 +42,10 @@ This document describes the Apache VirtualHost configuration for local developme
 
 ```bash
 # Copy configuration to Apache sites-available
-sudo cp /var/www/_bases/base_fixcity_fila5/laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/fixcity.local.conf
+sudo cp /var/www/_bases/base_ptvx_fila5/laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/laraxot.local.conf
 
 # Enable the site
-sudo a2ensite fixcity.local
+sudo a2ensite laraxot.local
 
 # Reload Apache
 sudo systemctl reload apache2
@@ -60,7 +60,7 @@ In ambiente WSL2 il file `/etc/hosts` è auto-generato. Aggiungere l'entry nel f
 `C:\Windows\System32\drivers\etc\hosts`
 
 ```
-172.27.106.41 fixcity.local
+172.27.106.41 laraxot.local
 ```
 
 > **Stato attuale**: ✅ Già presente nel file hosts Windows
@@ -72,14 +72,14 @@ In ambiente WSL2 il file `/etc/hosts` è auto-generato. Aggiungere l'entry nel f
 sudo apache2ctl configtest
 
 # Check if vhost is enabled
-apache2ctl -S | grep fixcity
+apache2ctl -S | grep laraxot
 ```
 
 ### 4. Access the Application
 
 Open your browser and navigate to:
-- `http://fixcity.local`
-- `http://www.fixcity.local`
+- `http://laraxot.local`
+- `http://www.laraxot.local`
 
 ---
 
@@ -90,20 +90,20 @@ Open your browser and navigate to:
 ```apache
 <VirtualHost *:80>
     # Server Configuration
-    ServerName fixcity.local
-    ServerAlias www.fixcity.local
+    ServerName laraxot.local
+    ServerAlias www.laraxot.local
     
     # Document Root - MUST point to public_html
-    DocumentRoot /var/www/_bases/base_fixcity_fila5/public_html
+    DocumentRoot /var/www/_bases/base_ptvx_fila5/public_html
     
     # Directory Permissions
-    <Directory /var/www/_bases/base_fixcity_fila5>
+    <Directory /var/www/_bases/base_ptvx_fila5>
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
     </Directory>
     
-    <Directory /var/www/_bases/base_fixcity_fila5/public_html>
+    <Directory /var/www/_bases/base_ptvx_fila5/public_html>
         Options -Indexes +FollowSymLinks +MultiViews
         AllowOverride All
         Require all granted
@@ -118,8 +118,8 @@ Open your browser and navigate to:
     </Directory>
     
     # Logging Configuration
-    ErrorLog ${APACHE_LOG_DIR}/fixcity_local_error.log
-    CustomLog ${APACHE_LOG_DIR}/fixcity_local_access.log combined
+    ErrorLog ${APACHE_LOG_DIR}/app_local_error.log
+    CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
 </VirtualHost>
 ```
 
@@ -127,8 +127,8 @@ Open your browser and navigate to:
 
 | Directive | Purpose | Value |
 |-----------|---------|-------|
-| `ServerName` | Primary domain | `fixcity.local` |
-| `ServerAlias` | Additional domains | `www.fixcity.local` |
+| `ServerName` | Primary domain | `laraxot.local` |
+| `ServerAlias` | Additional domains | `www.laraxot.local` |
 | `DocumentRoot` | Web root directory | `public_html/` |
 | `AllowOverride All` | Enable .htaccess | Required for Laravel |
 | `mod_rewrite` | URL rewriting | Laravel routing |
@@ -141,13 +141,13 @@ Open your browser and navigate to:
 
 **Check Apache Error Log:**
 ```bash
-sudo tail -f /var/log/apache2/fixcity_local_error.log
+sudo tail -f /var/log/apache2/app_local_error.log
 ```
 
 **Verify Permissions:**
 ```bash
-sudo chown -R www-data:www-data /var/www/_bases/base_fixcity_fila5/public_html
-sudo chmod -R 755 /var/www/_bases/base_fixcity_fila5/public_html
+sudo chown -R www-data:www-data /var/www/_bases/base_ptvx_fila5/public_html
+sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5/public_html
 ```
 
 ### Issue: 403 Forbidden
@@ -155,24 +155,24 @@ sudo chmod -R 755 /var/www/_bases/base_fixcity_fila5/public_html
 **Solution:**
 ```bash
 # Check directory permissions
-ls -la /var/www/_bases/base_fixcity_fila5/public_html
+ls -la /var/www/_bases/base_ptvx_fila5/public_html
 
 # Fix permissions if needed
-sudo chmod -R 755 /var/www/_bases/base_fixcity_fila5
+sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5
 ```
 
 ### Issue: 500 Internal Server Error
 
 **Check Laravel Logs:**
 ```bash
-tail -f /var/www/_bases/base_fixcity_fila5/laravel/storage/logs/laravel.log
+tail -f /var/www/_bases/base_ptvx_fila5/laravel/storage/logs/laravel.log
 ```
 
 **Verify .env Configuration:**
 ```bash
-cd /var/www/_bases/base_fixcity_fila5/laravel
+cd /var/www/_bases/base_ptvx_fila5/laravel
 cat .env | grep APP_URL
-# Should be: APP_URL=http://fixcity.local
+# Should be: APP_URL=http://laraxot.local
 ```
 
 ### Issue: mod_rewrite Not Working
@@ -243,7 +243,7 @@ For production environments:
 ```
 Browser Request
     ↓
-Apache VirtualHost (fixcity.local:80)
+Apache VirtualHost (laraxot.local:80)
     ↓
 DocumentRoot (public_html/)
     ↓
@@ -259,7 +259,7 @@ Response
 ### Directory Structure
 
 ```
-base_fixcity_fila5/
+base_ptvx_fila5/
 ├── public_html/              ← Document Root (web accessible)
 │   ├── index.php            ← Entry point
 │   ├── .htaccess            ← URL rewriting rules
@@ -289,7 +289,7 @@ For Nginx users, see: `docs/project/vhost-nginx-configuration.md`
 
 For quick testing:
 ```bash
-cd /var/www/_bases/base_fixcity_fila5/public_html
+cd /var/www/_bases/base_ptvx_fila5/public_html
 php -S localhost:8000
 ```
 
@@ -303,16 +303,16 @@ For Docker-based development, see: `docker/docker-compose.yml`
 
 ### Update VHost Configuration
 
-1. Edit `laravel/config/vhost/fixcity.local.conf`
-2. Copy to Apache: `sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/`
+1. Edit `laravel/config/vhost/laraxot.local.conf`
+2. Copy to Apache: `sudo cp laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/`
 3. Reload Apache: `sudo systemctl reload apache2`
 
 ### Backup Configuration
 
 ```bash
 # Backup current vhost
-sudo cp /etc/apache2/sites-available/fixcity.local.conf \
-        /etc/apache2/sites-available/fixcity.local.conf.backup.$(date +%Y%m%d)
+sudo cp /etc/apache2/sites-available/laraxot.local.conf \
+        /etc/apache2/sites-available/laraxot.local.conf.backup.$(date +%Y%m%d)
 ```
 
 ---
@@ -329,25 +329,25 @@ apache2ctl -S
 apache2ctl configtest
 
 # Check if site is enabled
-ls -la /etc/apache2/sites-enabled/ | grep fixcity
+ls -la /etc/apache2/sites-enabled/ | grep laraxot
 ```
 
 ### Test Domain Resolution
 
 ```bash
 # Check hosts file entry
-ping fixcity.local
+ping laraxot.local
 # Should resolve to 127.0.0.1
 
 # Or use getent
-getent hosts fixcity.local
+getent hosts laraxot.local
 ```
 
 ### Test Application
 
 ```bash
 # Test with curl
-curl -I http://fixcity.local
+curl -I http://laraxot.local
 
 # Should return HTTP/1.1 200 OK
 ```

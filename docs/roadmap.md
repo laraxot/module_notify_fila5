@@ -1,19 +1,3 @@
----
-title: "roadmap — puntatore"
-type: reference
-updated: 2026-05-21
----
-
-# Policy globale (puntatore)
-
-Contenuto in wiki di progetto — non duplicare nei moduli ([#124](https://github.com/provtv/base_ptv_fila5_mono/issues/124)).
-
-→ [docs/wiki/rules/00-TRIGGER_MAP.md](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-
----
-
-<!-- Merged from ROADMAP.md, which collided with this file on case-insensitive filesystems. -->
-
 # 🗺️ FixCity Design System - Product Roadmap
 
 > **Central hub consolidating 355+ scattered planning files into unified vision**  
@@ -225,7 +209,7 @@ Level 3: Themes
 
 #### Wave 2: Core Structure 🟡 IN PROGRESS
 - 🟡 Create central ROADMAP.md (THIS FILE)
-- [ ] Create unified index.md
+- [ ] Create unified INDEX.md
 - [ ] Create MODULE_ROADMAPS.md
 - [ ] Create TIMELINE.md
 - [ ] Archive old roadmap variants
@@ -354,11 +338,11 @@ Each of the 18 modules has its own documentation:
 ```
 docs/
 ├── ROADMAP.md (THIS FILE) - Central hub, all phases
-├── index.md - Master navigation, updated with links
+├── INDEX.md - Master navigation, updated with links
 ├── PROJECT/ - Project metadata
 │   ├── README.md
-│   ├── architecture.md
-│   └── changelog.md
+│   ├── ARCHITECTURE.md
+│   └── CHANGELOG.md
 └── archive/
     └── roadmaps/
         ├── ANALYSIS.md - Consolidation analysis
@@ -434,7 +418,7 @@ Sep 2024          Q4 2025          Q1 2026          Q2 2026          2027+
 
 1. **Phase 11 Wave 2**: Complete core documentation structure
    - ✅ Create central ROADMAP.md (THIS FILE)
-   - 🟡 Update index.md with navigation
+   - 🟡 Update INDEX.md with navigation
    - 🟡 Create MODULE_ROADMAPS.md
    - 🟡 Create TIMELINE.md
 
@@ -460,7 +444,7 @@ Sep 2024          Q4 2025          Q1 2026          Q2 2026          2027+
 - 🟡 Phase 12+ outlined with objectives and timelines
 - 📅 Old roadmap files archived (not deleted)
 - 📅 Migration guide created for old locations
-- 📅 index.md updated with roadmap link
+- 📅 INDEX.md updated with roadmap link
 - 📅 All internal links verified (no 404s)
 - 📅 Module-specific roadmaps linked from central hub
 

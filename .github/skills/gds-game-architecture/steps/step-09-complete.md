@@ -110,6 +110,8 @@ No engine-specific MCP servers were selected. You can add them later by searchin
 
 ### Setup Commands
 
+```
+
 ```bash
 {{setup_commands}}
 ```
@@ -121,6 +123,8 @@ No engine-specific MCP servers were selected. You can add them later by searchin
 2. {{second_step}}
 3. Configure MCP servers (if selected) per the AI Tooling instructions above
 4. {{third_step}}
+
+```
 
 ````
 
@@ -137,6 +141,8 @@ Does this capture the setup process correctly?"
 
 **Final frontmatter:**
 
+```
+
 ```yaml
 ---
 title: 'Game Architecture'
@@ -149,6 +155,8 @@ status: 'complete'
 engine: '{{engine}}'
 platform: '{{platform}}'
 ---
+```
+
 ````
 
 ### 4. Update Workflow Status
@@ -373,3 +381,5 @@ The Game Architecture workflow transforms a GDD into a comprehensive architectur
 9. **Complete** - Finalize and provide handoff
 
 This step-file architecture ensures consistent, thorough architecture creation with user collaboration at every step.
+
+```

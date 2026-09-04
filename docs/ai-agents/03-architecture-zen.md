@@ -1,27 +1,7 @@
----
-title: "🏛️ Architecture Zen Philosophy"
-type: concept
-tags: [architecture, zen]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "03-architecture-zen 🏛️ architecture zen philosophy"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./00-index.md"
-  - "./01-gsd-workflow.md"
-  - "./02-bmad-workflow.md"
-  - "./04-filament-philosophy.md"
-  - "./05-front-office-audit.md"
-  - "./06-cinematic-effects.md"
-  - "./07-mcp-tailwind-ui.md"
-  - "./08-verified-commit-governance.md"
----
-
 # 🏛️ Architecture Zen Philosophy
 
-**Part of**: [00-index-1.md](00-index-1.md) — AI Agents Coordination  
-**Related**: [04-filament-philosophy.md](04-filament-philosophy.md) — Filament Widgets
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Related**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md) — Filament Widgets
 
 ---
 
@@ -318,8 +298,8 @@ Before committing:
 
 ## 🔗 Related Documentation
 
-- **Filament Philosophy**: [04-filament-philosophy.md](04-filament-philosophy.md)
-- **Front Office Audit**: [05-front-office-audit.md](05-front-office-audit.md)
+- **Filament Philosophy**: [04-FILAMENT-PHILOSOPHY.md](04-FILAMENT-PHILOSOPHY.md)
+- **Front Office Audit**: [05-FRONT-OFFICE-AUDIT.md](05-FRONT-OFFICE-AUDIT.md)
 - **External**: https://github.com/nWidart/laravel-modules
 
 ---

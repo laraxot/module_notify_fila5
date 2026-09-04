@@ -1,27 +1,7 @@
----
-title: "🚀 GSD Workflow (Get Shit Done)"
-type: concept
-tags: [gsd, workflow]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "01-gsd-workflow 🚀 gsd workflow (get shit done)"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./00-index.md"
-  - "./02-bmad-workflow.md"
-  - "./03-architecture-zen.md"
-  - "./04-filament-philosophy.md"
-  - "./05-front-office-audit.md"
-  - "./06-cinematic-effects.md"
-  - "./07-mcp-tailwind-ui.md"
-  - "./08-verified-commit-governance.md"
----
-
 # 🚀 GSD Workflow (Get Shit Done)
 
-**Part of**: [00-index-1.md](00-index-1.md) — AI Agents Coordination  
-**Related**: [02-bmad-workflow.md](02-bmad-workflow.md) — BMAD Method
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Related**: [02-BMAD-WORKFLOW.md](02-BMAD-WORKFLOW.md) — BMAD Method
 
 ---
 
@@ -149,13 +129,13 @@ GSD maintains these files always loaded in context:
 
 | File | Purpose |
 |------|---------|
-| `project.md` | Project vision |
+| `PROJECT.md` | Project vision |
 | `research/` | Ecosystem knowledge |
-| `requirements.md` | Scoped requirements v1/v2 |
-| `roadmap.md` | Where you're going |
-| `state.md` | Decisions, blockers, memory |
+| `REQUIREMENTS.md` | Scoped requirements v1/v2 |
+| `ROADMAP.md` | Where you're going |
+| `STATE.md` | Decisions, blockers, memory |
 | `PLAN.md` | Atomic task with XML structure |
-| `summary.md` | What happened, commit history |
+| `SUMMARY.md` | What happened, commit history |
 
 ---
 
@@ -180,7 +160,7 @@ GSD maintains these files always loaded in context:
 - ✅ Use `/gsd:discuss-phase` before planning
 - ✅ Verify with `/gsd:verify-work` before shipping
 - ✅ Create atomic commits per task
-- ✅ Update state.md after each session
+- ✅ Update STATE.md after each session
 
 ### DON'T
 - ❌ Skip discussion phase
@@ -192,8 +172,8 @@ GSD maintains these files always loaded in context:
 
 ## 🔗 Related Documentation
 
-- **BMAD Method**: [02-bmad-workflow.md](02-bmad-workflow.md)
-- **Architecture**: [03-architecture-zen.md](03-architecture-zen.md)
+- **BMAD Method**: [02-BMAD-WORKFLOW.md](02-BMAD-WORKFLOW.md)
+- **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
 - **External**: https://github.com/gsd-build/get-shit-done
 
 ---

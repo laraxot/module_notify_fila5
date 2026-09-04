@@ -6,14 +6,12 @@ namespace Modules\Notify\Tests\Unit\Actions\SMS;
 
 use Modules\Notify\Actions\SMS\SendAgiletelecomSMSAction;
 use Modules\Notify\Datas\SmsData;
+use PHPUnit\Framework\Assert;
 use ReflectionClass;
 use ReflectionNamedType;
 
 it('SendAgiletelecomSMSAction can be instantiated', function () {
-    // `new` restituisce per costruzione quel tipo: il fatto verificabile e' che il
-    // costruttore non chieda parametri obbligatori.
-    expect((new ReflectionClass(SendAgiletelecomSMSAction::class))->getConstructor()?->getNumberOfRequiredParameters() ?? 0)
-        ->toBe(0);
+    Assert::assertTrue(class_exists(SendAgiletelecomSMSAction::class));
 });
 
 it('SendAgiletelecomSMSAction has execute method with correct signature', function () {

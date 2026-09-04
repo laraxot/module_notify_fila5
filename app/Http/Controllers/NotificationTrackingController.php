@@ -39,7 +39,6 @@ class NotificationTrackingController extends Controller
     public function trackClick(Request $request, string $id): RedirectResponse
     {
         $log = NotificationLog::find($id);
-        /** @var mixed $urlParam */
         $urlParam = $request->input('url', '');
         $url = is_string($urlParam) ? $urlParam : '';
 

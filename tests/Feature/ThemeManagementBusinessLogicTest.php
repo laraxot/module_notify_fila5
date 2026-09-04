@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
-use Modules\Notify\Tests\TestCase;
-
-uses(TestCase::class);
-
 /**
  * Theme Management Business Logic Tests.
  *
@@ -16,4 +12,4 @@ uses(TestCase::class);
  *
  * When the Theme model is implemented, uncomment and update these tests.
  */
-test('theme management tests are skipped', function () {})->todo('Modules\\Notify\\Models\\Theme non esiste: il test nasce quando nasce il model.');
+it('theme management tests are skipped')->skip('Theme model not implemented');

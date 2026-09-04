@@ -108,8 +108,8 @@ public function boot(): void
 
 After fixes:
 
-- [ ] `http://fixcity.local/it/tests/argomenti` loads correctly
-- [ ] `http://fixcity.local/it/tests/appuntamento-06-conferma` loads correctly
+- [ ] `http://ptv.local/it/tests/argomenti` loads correctly
+- [ ] `http://ptv.local/it/tests/appuntamento-06-conferma` loads correctly
 - [ ] All Tailwind classes render correctly
 - [ ] No Bootstrap Italia errors in console
 - [ ] Components render with correct styling

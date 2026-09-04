@@ -1,18 +1,3 @@
----
-title: "Notify — indice della documentazione"
-description: "Documentazione del modulo Notify: funzionalita del modulo."
-module: Notify
-tags: [notify, documentazione, modulo, laraxot]
-status: active
-repository: https://github.com/laraxot/module_notify_fila5
-related:
-  - ./00-index.md
-  - ./index.md
-  - ../../../../docs/wiki/audits/docs-redundancy-audit.md
-issues: https://github.com/laraxot/module_notify_fila5/issues
-discussions: https://github.com/laraxot/module_notify_fila5/discussions
----
-
 # 📚 **Indice Documentazione Modulo Notify**
 
 **Status**: ✅ PHPStan Level 10 Compliant
@@ -44,6 +29,10 @@ discussions: https://github.com/laraxot/module_notify_fila5/discussions
 - 🔬 **[Testing Guidelines](./testing.md)** - Mocking dei canali e verifica invio.
 - 📘 **[Docs-First Workflow](./docs-first-workflow.md)** - Sequenza obbligatoria docs -> codice -> tracking GitHub.
 - 🧪 **PSR-4 Test Helpers** - Nei file Pest usare helper anonimi o support file dedicati; evitare classi top-level extra che rompono `composer dump-autoload`.
+
+## 🪮 **Ponytail audit**
+- 📋 **[Over-engineering audit](./ponytail-audit-over-engineering.md)** - SMS multi-driver, policy stub, remediation `.bak`.
+- 🧾 **[SMS Actions consolidation decision](./wiki/decisions/sms-actions-consolidation-2026-06-30.md)** - Cosa è stato consolidato in `.bak`, cosa resta attivo (netfun/smsfactor raggiungibili da Filament `SendSmsPage`) e perché.
 
 ## 🧹 **Manutenzione**
 - 🗑️ **[Cleanup Plan](./translation-cleanup-plan.md)** - Rimozione dei 500+ file obsoleti accumulati.

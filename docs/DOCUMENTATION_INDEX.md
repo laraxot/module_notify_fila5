@@ -276,8 +276,8 @@
 ## 📞 Support & Community
 
 ### Support Channels
-- **📧 Email**: support@fixcity.com
-- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)
+- **📧 Email**: support@ptv.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/ptv/issues)
 - **💬 Discord**: [Laraxot Community](https://discord.gg/laraxot)
 - **📚 Docs**: [Documentation Portal](https://docs.laraxot.com)
 

@@ -7,36 +7,26 @@ namespace Modules\Notify\Models;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\NotificationTypeFactory;
 use Override;
 
 /**
- * @method static Builder<static>|NotificationType newModelQuery()
- * @method static Builder<static>|NotificationType newQuery()
- * @method static Builder<static>|NotificationType query()
- *
  * @property int $id
- * @property string $name
+ * @property string|null $name
  * @property string|null $slug
  * @property string|null $description
  * @property string|null $category
  * @property bool $is_active
- * @property array<string, array<string, mixed>>|null $channels
+ * @property array<string, mixed>|null $channels
  * @property array<string, mixed>|null $settings
- * @property array<string, mixed>|null $metrics
- * @property array<string, mixed>|null $scheduling
- * @property array<string, mixed>|null $rules
- * @property array<string, mixed>|null $permissions
- * @property string|null $display_name
- * @property array<string, mixed>|null $templates
- * @property array<string, mixed>|null $integrations
- * @property array<string, mixed>|null $delivery_rules
  * @property string|null $template
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
+ * @method static Builder<static>|NotificationType newModelQuery()
+ * @method static Builder<static>|NotificationType newQuery()
+ * @method static Builder<static>|NotificationType query()
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_by
- *
  * @method static Builder<static>|NotificationType whereCreatedAt($value)
  * @method static Builder<static>|NotificationType whereCreatedBy($value)
  * @method static Builder<static>|NotificationType whereDescription($value)
@@ -45,12 +35,11 @@ use Override;
  * @method static Builder<static>|NotificationType whereTemplate($value)
  * @method static Builder<static>|NotificationType whereUpdatedAt($value)
  * @method static Builder<static>|NotificationType whereUpdatedBy($value)
- *
  * @mixin \Eloquent
  */
 class NotificationType extends Model
 {
-    /** @use HasFactory<\Modules\Notify\Database\Factories\NotificationTypeFactory> */
+    /** @use HasFactory<NotificationTypeFactory> */
     use HasFactory;
 
     /** @var list<string> */
@@ -62,8 +51,7 @@ class NotificationType extends Model
         'is_active',
         'channels',
         'settings',
-        'template',
-    ];
+        'template'];
 
     /** @return array<string, string> */
     #[Override]
@@ -72,7 +60,6 @@ class NotificationType extends Model
         return [
             'is_active' => 'boolean',
             'channels' => 'array',
-            'settings' => 'array',
-        ];
+            'settings' => 'array'];
     }
 }

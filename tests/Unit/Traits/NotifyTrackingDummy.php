@@ -6,12 +6,6 @@ namespace Modules\Notify\Tests\Unit\Traits;
 
 use Modules\Notify\Traits\HasNotificationTracking;
 
-/**
- * Test double per `HasNotificationTracking`.
- *
- * Conserva l'ultimo tracking id passato, cosi' il test puo' verificare che il trait lo
- * usi davvero invece di limitarsi a controllare l'HTML restituito.
- */
 final class NotifyTrackingDummy
 {
     use HasNotificationTracking;
@@ -33,5 +27,20 @@ final class NotifyTrackingDummy
     public function trackingEnabled(): bool
     {
         return $this->isTrackingEnabled();
+    }
+
+    public function pixelTrackingEnabled(): bool
+    {
+        return $this->isPixelTrackingEnabled();
+    }
+
+    public function linkTrackingEnabled(): bool
+    {
+        return $this->isLinkTrackingEnabled();
+    }
+
+    public function generatedTrackingId(): string
+    {
+        return $this->generateTrackingId();
     }
 }

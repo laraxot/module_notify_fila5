@@ -1,17 +1,3 @@
----
-title: "📖 Guidelines Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "00-index 📖 guidelines index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./reusable-components-philosophy.md"
-  - "./semantic-html-css.md"
----
-
 # 📖 Guidelines Index
 
 **Path**: `.agents/docs/guidelines/`  
@@ -72,20 +58,20 @@ A differenza delle rules (obbligatorie), le guidelines sono **consigli** per scr
 ## 🔗 Cross-References
 
 ### Parent Index
-- **[Master Index](../00-index-1.md)** - AI Agents documentation hub
+- **[Master Index](../00-INDEX.md)** - AI Agents documentation hub
 
 ### Related Indices
-- **[Rules Index](rules/00-index-1.md)** - CRITICAL rules (BLOCKER)
-- **[Skills Index](skills/00-index-1.md)** - AI capabilities
-- **[Memories Index](memories/00-index-1.md)** - Project context
-- **[Workflows Index](workflows/00-index-1.md)** - BMAD, GSD workflows
+- **[Rules Index](rules/00-INDEX.md)** - CRITICAL rules (BLOCKER)
+- **[Skills Index](skills/00-INDEX.md)** - AI capabilities
+- **[Memories Index](memories/00-INDEX.md)** - Project context
+- **[Workflows Index](workflows/00-INDEX.md)** - BMAD, GSD workflows
 
 ### Module Docs
-- **[Components Index](../../laravel/Modules/Predict/resources/views/components/predict-view/00-index-1.md)** - 14 components
+- **[Components Index](../../laravel/Modules/Predict/resources/views/components/predict-view/00-INDEX.md)** - 14 components
 - **[Reusable Architecture](../../laravel/Modules/Predict/docs/components/reusable-architecture.md)** - Design principles
 
 ### Theme Docs
-- **[Theme Zero Components](../../laravel/Themes/Zero/docs/components/00-index-1.md)** - Theme components
+- **[Theme Zero Components](../../laravel/Themes/Zero/docs/components/00-INDEX.md)** - Theme components
 - **[TwentyOne Integration](../../laravel/Themes/TwentyOne/docs/predict-integration.md)** - Theme integration
 
 ---

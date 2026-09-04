@@ -27,7 +27,7 @@ related:
 
 ### 🎯 Essenziali (Leggi Prima!)
 1. [**Riepilogo Generale**](./riepilogo-generale.md) - Overview completa progetto ⭐
-2. [**Lezioni Apprese**](./lezioni-apprese-2025-10-10.md) - Tutte le lezioni dalla correzione ⭐
+2. [**Lezioni Apprese**](./lezioni-apprese.md) - Tutte le lezioni dalla correzione ⭐
 3. [**Pattern Comuni**](./pattern-comuni.md) - Pattern riutilizzabili per tutti i moduli ⭐
 
 ### 🚨 Regole Critiche

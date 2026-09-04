@@ -1,4 +1,4 @@
-# FixCity Translation Audit - Execution Summary
+# Notify Translation Audit - Execution Summary
 
 **Date:** 2026-03-30  
 **Status:** ✅ Complete  
@@ -8,7 +8,7 @@
 
 ## Mission Accomplished
 
-Comprehensive Italian translation audit completed for FixCity urban issue management platform.
+Comprehensive Italian translation audit completed for Notify urban issue management platform.
 
 ---
 
@@ -52,7 +52,7 @@ Comprehensive Italian translation audit completed for FixCity urban issue manage
 bash bashscripts/translations/extract-english-strings.sh ALL
 
 # Single module
-bash bashscripts/translations/extract-english-strings.sh Fixcity
+bash bashscripts/translations/extract-english-strings.sh App
 ```
 
 ### 3. Script Documentation ✅
@@ -98,7 +98,7 @@ bash bashscripts/translations/extract-english-strings.sh Fixcity
 | 3 | Blog | 26 | 15 | Dual |
 | 4 | Cms | 45 | 26 | Dual |
 | 5 | Comment | 1 | 0 | Legacy only |
-| 6 | Fixcity | 21 | 0 | **Critical** |
+| 6 | App | 21 | 0 | **Critical** |
 | 7 | Gdpr | 9 | 2 | Dual |
 | 8 | Geo | 57 | 0 | Legacy only |
 | 9 | Job | 13 | 13 | Duplicate |
@@ -116,7 +116,7 @@ bash bashscripts/translations/extract-english-strings.sh Fixcity
 
 **Critical (P0):**
 - Structure inconsistency across 18 modules
-- Fixcity and User modules using legacy structure
+- App and User modules using legacy structure
 - Seo module has NO translations
 
 **High (P1):**
@@ -179,14 +179,14 @@ bash bashscripts/translations/extract-english-strings.sh Fixcity
    bash bashscripts/translations/extract-english-strings.sh ALL
    ```
 
-2. Migrate Fixcity module
+2. Migrate App module
    - Copy `lang/it/*` → `resources/lang/it/*`
    - Update any hardcoded paths
-   - Test at http://fixcity.local/it
+   - Test at http://laraxot.local/it
    - Remove legacy `lang/it/`
 
 3. Migrate User module
-   - Same process as Fixcity
+   - Same process as App
    - Fix placeholder strings
    - Test authentication flow
 

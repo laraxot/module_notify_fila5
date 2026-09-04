@@ -1,27 +1,7 @@
----
-title: "🎨 BMAD Workflow (Breakthrough Method for Agile AI-Driven Development)"
-type: concept
-tags: [bmad, workflow]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "02-bmad-workflow 🎨 bmad workflow (breakthrough method for agile ai-driven development)"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./00-index.md"
-  - "./01-gsd-workflow.md"
-  - "./03-architecture-zen.md"
-  - "./04-filament-philosophy.md"
-  - "./05-front-office-audit.md"
-  - "./06-cinematic-effects.md"
-  - "./07-mcp-tailwind-ui.md"
-  - "./08-verified-commit-governance.md"
----
-
 # 🎨 BMAD Workflow (Breakthrough Method for Agile AI-Driven Development)
 
-**Part of**: [00-index-1.md](00-index-1.md) — AI Agents Coordination  
-**Related**: [01-gsd-workflow.md](01-gsd-workflow.md) — GSD Method
+**Part of**: [00-INDEX.md](00-INDEX.md) — AI Agents Coordination  
+**Related**: [01-GSD-WORKFLOW.md](01-GSD-WORKFLOW.md) — GSD Method
 
 ---
 
@@ -128,7 +108,7 @@ Agents discuss together and reach consensus.
 ### DO
 - ✅ Use specialized agents for their domain
 - ✅ Engage in structured discussions
-- ✅ Document decisions in state.md
+- ✅ Document decisions in STATE.md
 - ✅ Update requirements as you learn
 
 ### DON'T
@@ -141,8 +121,8 @@ Agents discuss together and reach consensus.
 
 ## 🔗 Related Documentation
 
-- **GSD Method**: [01-gsd-workflow.md](01-gsd-workflow.md)
-- **Architecture**: [03-architecture-zen.md](03-architecture-zen.md)
+- **GSD Method**: [01-GSD-WORKFLOW.md](01-GSD-WORKFLOW.md)
+- **Architecture**: [03-ARCHITECTURE-ZEN.md](03-ARCHITECTURE-ZEN.md)
 - **External**: https://github.com/bmad-code-org/BMAD-METHOD
 - **Docs**: https://docs.bmad-method.org
 

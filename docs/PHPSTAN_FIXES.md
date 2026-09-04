@@ -1,12 +1,3 @@
----
-title: "PHPStan Error Fixes - Notify Module"
-module: notify
-type: integration
-tags: [integrations, modules, notify]
-created: 2026-08-24
-updated: 2026-08-24
----
-
 # PHPStan Error Fixes - Notify Module
 
 ## Error: Method Name Mismatch in Actions

@@ -31,6 +31,7 @@ Quando esegui un'operazione:
 
 ## [2026-04-15] bootstrap | Initial Wiki Setup
 
+- Creato schema [[.schema/WIKI_SCHEMA.md]]
 - Creato schema [[.schema/wiki-schema.md]]
 - Creato [[wiki/index.md]] con struttura
 - Create cartelle `wiki/` e `raw/` per:

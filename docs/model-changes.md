@@ -126,9 +126,9 @@ public static function generateUniqueSlug(string $subject): string
 - Facile utilizzo
 
 ## Collegamenti Correlati
-- [Proposta Slug](./spatie-email-slug-proposal.md)
+- [Proposta Slug](./spatie_email_slug_proposal.md)
 - [Changelog Migrazioni](./migrations_changelog.md)
-- [Best Practices Email](./email-best-practices.md)
+- [Best Practices Email](./email_best_practices.md)
 
 ## Note di Implementazione
 

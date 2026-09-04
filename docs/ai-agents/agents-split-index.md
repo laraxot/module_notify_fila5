@@ -19,6 +19,7 @@
 
 ## 🔗 Collegamento all'Originale
 
+- [AGENTS.md originale](../../AGENTS.md) - File completo (deprecato)
 - [agents.md originale](../../agents.md) - File completo (deprecato)
 - [Index principale](./index.md) - Torna all'indice
 

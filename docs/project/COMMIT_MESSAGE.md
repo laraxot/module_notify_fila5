@@ -45,7 +45,7 @@ Tutti i 17 moduli sono ora completamente type-safe.
 ## Modules Validated (0 Errors)
 
 ✅ User (362 files)
-✅ Fixcity (86 files)
+✅ App (86 files)
 ✅ Blog (139 files)
 ✅ Xot (~200 files)
 ✅ Geo (155 files)
@@ -85,8 +85,8 @@ Tutti i 17 moduli sono ora completamente type-safe.
 ## Documentation
 
 - `/PHPSTAN_SUCCESS_REPORT.md` - Quick summary
-- `/docs/phpstan-final-status-2025-10-10.md` - Detailed report
-- `/docs/phpstan-progress-report-2025-10-10.md` - Progress tracking
+- `/docs/phpstan-final-status.md` - Detailed report
+- `/docs/phpstan-progress-report.md` - Progress tracking
 - Module-specific findings in `/Modules/*/docs/`
 
 ## Breaking Changes

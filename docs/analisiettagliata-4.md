@@ -683,5 +683,4 @@ class TemplateTestPage extends Page
         $this->notify('success', 'Email inviata con successo');
     }
 } 
-
 ```

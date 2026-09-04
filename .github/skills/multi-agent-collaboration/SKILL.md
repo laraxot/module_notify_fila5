@@ -340,7 +340,7 @@ gh api graphql -F query='...'
 - [docs/MULTI_AGENT_COLLABORATION.md](../../../docs/MULTI_AGENT_COLLABORATION.md) - Complete guide
 - [docs/AI_AGENT_TEAMS.md](../../../docs/AI_AGENT_TEAMS.md) - Team organization
 - [Issue #12](https://github.com/laraxot/platform/issues/12) - AI Agent Collaboration
-- [AGENTS.md](../../../AGENTS.md) - Agent guidelines
+- [agents.md](../../../agents.md) - Agent guidelines
 - [.windsurfrules](../../../.windsurfrules) - IDE rules
 
 ## Common Pitfalls

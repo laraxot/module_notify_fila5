@@ -20,7 +20,6 @@ use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\MessageData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
@@ -62,8 +61,7 @@ class SendPushNotification extends XotBasePage
         /**
          * Callback per mappare i dispositivi in opzioni per il select.
          */
-        $callback = function (mixed $item) {
-            /** @var mixed $item */
+        $callback = static function (mixed $item): array {
             if (! is_object($item)) {
                 return [];
             }
@@ -73,7 +71,8 @@ class SendPushNotification extends XotBasePage
             if (! is_object($profile)) {
                 return [];
             }
-            $fullName = SafeStringCastAction::cast(data_get($profile, 'full_name') ?? 'Utente');
+            $fullNameRaw = data_get($profile, 'full_name');
+            $fullName = is_scalar($fullNameRaw) ? (string) $fullNameRaw : 'Utente';
 
             $tokenAttr = method_exists($item, 'getAttribute') ? $item->getAttribute('push_notifications_token') : null;
             $token = is_string($tokenAttr) ? $tokenAttr : '';
@@ -95,7 +94,7 @@ class SendPushNotification extends XotBasePage
         /**
          * Callback per filtrare i dispositivi.
          */
-        $filterCallback = function (mixed $item): bool {
+        $filterCallback = static function (mixed $item): bool {
             if (! is_object($item)) {
                 return false;
             }
@@ -116,9 +115,7 @@ class SendPushNotification extends XotBasePage
                 TextInput::make('body')->required(),
                 Repeater::make('data')->schema([
                     TextInput::make('name')->required(),
-                    TextInput::make('value')->required(),
-                ]),
-            ])
+                    TextInput::make('value')->required()])])
             // ->model($this->getUser())
             ->statePath('notificationData');
     }
@@ -194,10 +191,7 @@ class SendPushNotification extends XotBasePage
 
             $messaging->send($message);
         } catch (Exception $e) {
-            dddx([
-                'message' => $e->getMessage(),
-                'deviceToken' => $deviceToken,
-            ]);
+            throw new \RuntimeException('Removed debug dddx');
         }
 
         Notification::make()
@@ -210,8 +204,7 @@ class SendPushNotification extends XotBasePage
     protected function getForms(): array
     {
         return [
-            'notificationForm',
-        ];
+            'notificationForm'];
     }
 
     /** @return array<string, Action> */
@@ -220,8 +213,7 @@ class SendPushNotification extends XotBasePage
         return [
             'submit' => Action::make('notificationFormActions')
 
-                ->submit('notificationFormActions'),
-        ];
+                ->submit('notificationFormActions')];
     }
 
     protected function getUser(): Authenticatable&Model
