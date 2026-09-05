@@ -1,50 +1,29 @@
----
-title: "Documentazione Moduli"
-type: index
-tags: [notify, docs, project_docs, modules]
-module: Notify
-created: 2026-07-20
-updated: 2026-07-20
-qmd: "notify documentazione project_docs modules readme documentazione moduli index readme frontmatter qmd search"
-issues:
-  - "https://github.com/laraxot/module_notify_fila5/issues/56"
-discussions:
-  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
-related:
-  - ../../README.md
-  - ../../wiki/index.md
-  - ../../notifications/readme.md
-  - ../../integrations/readme.md
-  - ../../templates/readme.md
----
-# Documentazione Moduli
+# Notify
 
-## Panoramica
-Questa sezione contiene la documentazione specifica di ogni modulo del sistema Laraxot.
+[![Module](https://img.shields.io/badge/Module-Notify-8B0000.svg)]()
+[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
+[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://php.net/)
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://phpstan.org/)
+[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue?style=for-the-badge)](https://www.php-fig.org/psr/psr-12/)](https://www.php-fig.org/psr/psr-12/)
+[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=for-the-badge)](https://martinfowler.com/articles/paradigm-shifts.html)]()
+]()
 
-## Moduli Disponibili
+> **Core module for the FixCity Platform.**
 
-### xot/
-Modulo core del sistema Laraxot.
+## Perché esiste
 
-**Contenuti:**
-- Classi base
-- Service Provider
-- Helper e utilities
-- Pattern comuni
+Core module for the FixCity Platform.
 
-### user/
-Modulo per la gestione utenti e autenticazione.
+## Superpoteri
 
-**Contenuti:**
-- Autenticazione
-- Autorizzazioni
-- Profili utente
-- Team e tenant
+- Modular component with XotBase patterns
+- Professional-grade implementation
+- Integrated with FixCity Platform
 
-### ui/
-Modulo per i componenti dell'interfaccia utente.
+## Documentazione
 
+<<<<<<< HEAD
 **Contenuti:**
 - Componenti Blade
 - Widget Filament
@@ -228,7 +207,14 @@ Modulo specifico per Notify.
 - [Architettura](../architecture/)
 - [Sviluppo](../development/)
 - [Troubleshooting](../troubleshooting/)
+=======
+| Lingua | Link |
+|--------|------|
+| 🇮🇹 Presentazione | Questo file (`README.md`) |
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+>>>>>>> d822d97f (.)
 
 ---
 
-*Ultimo aggiornamento: Agosto 2025* 
+**Modulo** `Notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
