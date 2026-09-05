@@ -1,60 +1,29 @@
----
-title: "Integrazioni"
-type: index
-tags: [notify, docs, integrations]
-module: Notify
-created: 2026-07-20
-updated: 2026-07-20
-qmd: "notify documentazione integrations readme integrazioni index readme frontmatter qmd search"
-issues:
-  - "https://github.com/laraxot/module_notify_fila5/issues/56"
-discussions:
-  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
-related:
-  - ../README.md
-  - ../wiki/index.md
-  - ../notifications/readme.md
-  - readme.md
-  - ../templates/readme.md
----
-# Integrazioni
+# Notify
 
-## Panoramica
-Questo documento descrive le integrazioni con servizi esterni utilizzate nel modulo Notify.
+[![Module](https://img.shields.io/badge/Module-Notify-8B0000.svg)]()
+[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
+[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://php.net/)
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://phpstan.org/)
+[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue?style=for-the-badge)](https://www.php-fig.org/psr/psr-12/)](https://www.php-fig.org/psr/psr-12/)
+[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=for-the-badge)](https://martinfowler.com/articles/paradigm-shifts.html)]()
+]()
 
-## Mailgun
+> **Core module for the FixCity Platform.**
 
-### Configurazione
-```php
-// config/services.php
-return [
-    'mailgun' => [
-        'domain' => env('MAILGUN_DOMAIN'),
-        'secret' => env('MAILGUN_SECRET'),
-        'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
-    ],
-];
-```
+## Perché esiste
 
-### Utilizzo
-```php
-// app/Services/MailgunService.php
-namespace App\Services;
+Core module for the FixCity Platform.
 
-use Mailgun\Mailgun;
+## Superpoteri
 
-class MailgunService
-{
-    protected $mailgun;
+- Modular component with XotBase patterns
+- Professional-grade implementation
+- Integrated with FixCity Platform
 
-    public function __construct()
-    {
-        $this->mailgun = Mailgun::create(
-            config('services.mailgun.secret'),
-            config('services.mailgun.endpoint')
-        );
-    }
+## Documentazione
 
+<<<<<<< HEAD
     public function send($to, $subject, $html)
     {
         return $this->mailgun->messages()->send(
@@ -150,16 +119,14 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 ---
 
 <!-- Merged from readme.md, which collided with this file on case-insensitive filesystems. -->
+=======
+| Lingua | Link |
+|--------|------|
+| 🇮🇹 Presentazione | Questo file (`README.md`) |
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+>>>>>>> d822d97f (.)
 
 ---
-title: "Readme"
-type: concept
-tags: [readme]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "readme readme"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
----
 
+**Modulo** `Notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5

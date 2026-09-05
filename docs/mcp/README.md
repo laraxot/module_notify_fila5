@@ -1,24 +1,6 @@
----
-title: "MCP (Model Context Protocol) Configuration"
-type: index
-tags: [notify, docs, mcp]
-module: Notify
-created: 2026-07-20
-updated: 2026-07-20
-qmd: "notify documentazione mcp readme mcp (model context protocol) configuration index readme frontmatter qmd search"
-issues:
-  - "https://github.com/laraxot/module_notify_fila5/issues/56"
-discussions:
-  - "https://github.com/laraxot/module_notify_fila5/discussions/57"
-related:
-  - ../README.md
-  - ../wiki/index.md
-  - ../notifications/readme.md
-  - ../integrations/readme.md
-  - ../templates/readme.md
----
-# MCP (Model Context Protocol) Configuration
+# Notify
 
+<<<<<<< HEAD
 > **Last Updated**: 2026-03-13  
 > **Status**: 🔄 In Progress  
 <<<<<<< HEAD
@@ -342,3 +324,37 @@ To contribute to MCP configuration:
 >>>>>>> a988596b (first)
 **Contact**: dev @laraxot.example.com  
 **Last Tested**: 2026-03-13
+=======
+[![Module](https://img.shields.io/badge/Module-Notify-8B0000.svg)]()
+[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
+[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://php.net/)
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://phpstan.org/)
+[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue?style=for-the-badge)](https://www.php-fig.org/psr/psr-12/)](https://www.php-fig.org/psr/psr-12/)
+[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=for-the-badge)](https://martinfowler.com/articles/paradigm-shifts.html)]()
+]()
+
+> ****Last Updated**: 2026-03-13**
+
+## Perché esiste
+
+**Last Updated**: 2026-03-13
+
+## Superpoteri
+
+- Modular component with XotBase patterns
+- Professional-grade implementation
+- Integrated with FixCity Platform
+
+## Documentazione
+
+| Lingua | Link |
+|--------|------|
+| 🇮🇹 Presentazione | Questo file (`README.md`) |
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+
+---
+
+**Modulo** `Notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+>>>>>>> d822d97f (.)
