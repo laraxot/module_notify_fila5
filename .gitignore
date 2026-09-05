@@ -178,6 +178,7 @@ reports/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 graphify-out/
 =======
 >>>>>>> laraxot/dev
@@ -189,3 +190,6 @@ docs/root-txt-files/
 =======
 graphify-out/
 >>>>>>> c87c72f6 (chore: rimuove graphify-out/ dall'indice git (cache generata, story 5.82))
+=======
+graphify-out
+>>>>>>> 474f34e9 (docs: consolidate root documentation to 6-file maximum)
