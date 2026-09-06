@@ -1,9 +1,8 @@
 ---
 title: [Module Name]
 module: [module-slug]
+related: [module1, module2]
 status: production
-related:
-  - "./readme.md"
 ---
 
 # [Module Name] Module
@@ -79,6 +78,7 @@ Key settings:
 │   └── [module-slug].php
 ├── docs/
 │   ├── README.md (this file)
+│   ├── ARCHITECTURE.md
 │   ├── architecture.md
 │   ├── guides/
 │   └── api/
@@ -165,6 +165,7 @@ composer test -- Modules/[ModuleName]
 ## Related Documentation
 
 ### Within Module
+- [ARCHITECTURE.md](./ARCHITECTURE.md) - Design details
 - [architecture.md](./architecture.md) - Design details
 - [Guides](./guides/) - How-to guides
 

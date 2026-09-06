@@ -1,5 +1,5 @@
 ---
-title: "Divergenza da riconciliare: openviking-bmad-gsd-ralph-complete.md"
+title: "Divergenza da riconciliare: OPENVIKING_BMAD_GSD_RALPH_COMPLETE.md"
 module: Notify
 type: note
 tags: [xot-5.39, riconciliazione, docs-ownership]
@@ -7,12 +7,12 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-# Divergenza: `openviking-bmad-gsd-ralph-complete.md`
+# Divergenza: `OPENVIKING_BMAD_GSD_RALPH_COMPLETE.md`
 
-Questo file veniva da `docs/wiki/integrations/modules/notify/openviking-bmad-gsd-ralph-complete.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
+Questo file veniva da `docs/wiki/integrations/modules/notify/OPENVIKING_BMAD_GSD_RALPH_COMPLETE.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 
-- versione del modulo: `laravel/Modules/Notify/docs/openviking-bmad-gsd-ralph-complete.md`
-- versione recuperata: `laravel/Modules/Notify/docs/wiki/integrations/_da-riconciliare/openviking-bmad-gsd-ralph-complete.md`
+- versione del modulo: `laravel/Modules/Notify/docs/OPENVIKING_BMAD_GSD_RALPH_COMPLETE.md`
+- versione recuperata: `laravel/Modules/Notify/docs/wiki/integrations/_da-riconciliare/OPENVIKING_BMAD_GSD_RALPH_COMPLETE.md`
 
 Vanno confrontate e fuse a mano. Quando la fusione e' fatta, questo file e la nota vanno rimossi.
 

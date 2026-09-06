@@ -1,10 +1,10 @@
 ---
-title: "IMPLEMENTATION_STATUS_2025-10-02"
+title: "IMPLEMENTATION_STATUS_2025-10-02.deprecated"
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "implementation_status_2025-10-02 deprecated"
+qmd: "implementation_status_2025-10-02.deprecated deprecated"
 status: deprecated
 related:
   - "./2025-excellence-achievement.md"
@@ -17,4 +17,4 @@ related:
   - "./final-implementation-report.md"
 ---
 
-> Questo file è stato rinominato in [implementation-status.md](implementation-status.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [implementation-status-.deprecated.md](implementation-status-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.

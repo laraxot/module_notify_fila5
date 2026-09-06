@@ -1,10 +1,10 @@
 ---
-title: "COMPLETION_SUMMARY_2025-10-01"
+title: "COMPLETION_SUMMARY_2025-10-01.deprecated"
 type: concept
 tags: [deprecated]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "completion_summary_2025-10-01 deprecated"
+qmd: "completion_summary_2025-10-01.deprecated deprecated"
 status: deprecated
 related:
   - "./agid-analysis-implementation-.md"
@@ -17,4 +17,4 @@ related:
   - "./code-quality-improvements-1.md"
 ---
 
-> Questo file è stato rinominato in [completion-summary.md](completion-summary.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+> Questo file è stato rinominato in [completion-summary-.deprecated.md](completion-summary-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
