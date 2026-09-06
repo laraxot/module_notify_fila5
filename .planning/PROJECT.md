@@ -11,7 +11,7 @@ Replicate the Italian Design Comuni template (https://italia.github.io/design-co
 - **Tailwind CSS**: No Bootstrap Italia CDN - replicate design with Tailwind @apply
 
 ## Technical Stack
-- **Framework**: Laravel 12 + Folio (file-based routing) + Volt (Livewire)
+- **Framework**: Laravel 13 + Folio (file-based routing) + Volt (Livewire)
 - **Frontend**: Tailwind CSS v4 + Alpine.js
 - **Design System**: DaisyUI + Custom Bootstrap Italia design tokens
 - **Block System**: Filament Forms Builder-compatible JSON blocks
