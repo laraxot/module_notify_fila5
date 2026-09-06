@@ -1,12 +1,3 @@
----
-title: "Architecture Diagrams & Visual Reference"
-module: notify
-type: integration
-tags: [integrations, modules, notify]
-created: 2026-08-24
-updated: 2026-08-24
----
-
 # Architecture Diagrams & Visual Reference
 
 **📍 Cross-References:**
@@ -22,8 +13,7 @@ updated: 2026-08-24
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                        Notify Platform v2                          │
-│                        <nome progetto> Platform v2                          │
+│                        FixCity Platform v2                          │
 │                    Laravel 13 + Filament 5 + Livewire 3             │
 └─────────────────────────────────────────────────────────────────────┘
 
@@ -132,7 +122,7 @@ themes/
 │
 ├── Sixteen/  ← ACTIVE THEME
 │   ├── docs/
-│   │   ├── 00-index.md ◄────────────────┐
+│   │   ├── 00-INDEX.md ◄────────────────┐
 │   │   ├── architecture/                │
 │   │   │   ├── layout-hierarchy.md      │
 │   │   │   └── component-structure.md   │
@@ -205,8 +195,7 @@ HTTP Request: /it/tests/homepage
 ┌──────────────────────────────────────┐
 │  PageSlugMiddleware                  │
 │  Load from JSON config               │
-│  laravel/config/local/laraxot/       │
-│  laravel/config/local/<nome progetto>/       │
+│  laravel/config/local/fixcity/       │
 │  database/content/pages/[slug].json  │
 └───────┬──────────────────────────────┘
         │
@@ -282,8 +271,7 @@ Admin Panel
 
 ```
 1. HTTP Request
-   ├─ URL: http://laraxot.local/it/tests/homepage
-   ├─ URL: http://<nome progetto>.local/it/tests/homepage
+   ├─ URL: http://fixcity.local/it/tests/homepage
    └─ Method: GET
 
 2. Routing (Folio)
@@ -296,14 +284,10 @@ Admin Panel
 
 4. Middleware Chain
    ├─ PageSlugMiddleware
-   │  ├─ Read APP_URL → laraxot.local
-   │  ├─ Extract domain → laraxot.local
-   │  ├─ Reverse parts → [local, laraxot]
-   │  ├─ Build config path → local/laraxot
-   │  ├─ Read APP_URL → <nome progetto>.local
-   │  ├─ Extract domain → <nome progetto>.local
-   │  ├─ Reverse parts → [local, <nome progetto>]
-   │  ├─ Build config path → local/<nome progetto>
+   │  ├─ Read APP_URL → fixcity.local
+   │  ├─ Extract domain → fixcity.local
+   │  ├─ Reverse parts → [local, fixcity]
+   │  ├─ Build config path → local/fixcity
    │  ├─ Load theme: Sixteen
    │  └─ Load JSON: pages/homepage.json
    │
@@ -419,7 +403,7 @@ Modules/ModuleName/
 │       └── XxxSeeder.php
 │
 ├── docs/
-│   ├── 00-index.md
+│   ├── 00-INDEX.md
 │   ├── architecture/
 │   ├── guides/
 │   └── reference/
