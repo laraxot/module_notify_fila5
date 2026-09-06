@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> a988596b (first)
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
-use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
 
 class TicketAssignedNotification extends Notification
 {
@@ -33,26 +33,36 @@ class TicketAssignedNotification extends Notification
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         public mixed $ticket, // Using mixed type since Ticket model doesn't exist
         public User $assignedBy
 <<<<<<< HEAD
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+        public object $ticket, // No Ticket model in this module; callers pass a Model or a plain object.
+        public UserContract $assignedBy
+>>>>>>> f67f5638 (fix(notify): UserContract narrowing + stale test assert fix, PHPStan L10 verified clean)
     ) {}
 
     /**
      * @return array<int, string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function via(object $notifiable): array
 =======
     public function via(mixed $notifiable): array
 >>>>>>> a988596b (first)
+=======
+    public function via(object $notifiable): array
+>>>>>>> f67f5638 (fix(notify): UserContract narrowing + stale test assert fix, PHPStan L10 verified clean)
     {
         return ['mail', 'database'];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function toMail(object $notifiable): MailMessage
     {
@@ -70,6 +80,9 @@ class TicketAssignedNotification extends Notification
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
     public function toMail(mixed $notifiable): MailMessage
+=======
+    public function toMail(object $notifiable): MailMessage
+>>>>>>> f67f5638 (fix(notify): UserContract narrowing + stale test assert fix, PHPStan L10 verified clean)
     {
         return (new MailMessage())
             ->subject('New Ticket Assigned')
@@ -79,6 +92,7 @@ class TicketAssignedNotification extends Notification
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array{assigned_by: int|string}
@@ -106,11 +120,15 @@ class TicketAssignedNotification extends Notification
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
      * @return array{assigned_by: string}
+=======
+     * @return array{assigned_by: string|null}
+>>>>>>> f67f5638 (fix(notify): UserContract narrowing + stale test assert fix, PHPStan L10 verified clean)
      */
-    public function toArray(mixed $notifiable): array
+    public function toArray(object $notifiable): array
     {
         return [
-            'assigned_by' => $this->assignedBy->id];
+            'assigned_by' => $this->assignedBy->id,
+        ];
     }
 }
 >>>>>>> a988596b (first)

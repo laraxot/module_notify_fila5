@@ -8,12 +8,15 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Carbon;
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
 use Modules\Notify\Database\Factories\NotificationTypeFactory;
+=======
+>>>>>>> f67f5638 (fix(notify): UserContract narrowing + stale test assert fix, PHPStan L10 verified clean)
 use Override;
 
 /**
@@ -110,7 +113,6 @@ use Override;
  */
 class NotificationType extends Model
 {
-
     /** @var list<string> */
     protected $fillable = [
         'name',
