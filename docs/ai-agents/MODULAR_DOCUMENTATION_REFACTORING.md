@@ -93,7 +93,10 @@ TOTALE: ~2,500 righe  ✅ Organizzate, navigabili, mantenibili
 
 ### Da File Originali a Moduli
 ```markdown
+<<<<<<< HEAD
 # AGENTS.md (compatto)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # agents.md (compatto)
 ## Contenuto Diviso
 | Sezione | File |
@@ -107,7 +110,10 @@ TOTALE: ~2,500 righe  ✅ Organizzate, navigabili, mantenibili
 ```markdown
 # .agents/docs/overview/agents-overview.md
 ## Riferimenti
+<<<<<<< HEAD
 - [AGENTS.md](../../AGENTS.md) - File originale compatto
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [agents.md](../../agents.md) - File originale compatto
 - [QWEN.md](../../QWEN.md) - Contesto Qwen Code
 ```

@@ -56,7 +56,10 @@ notebooklm create "FixCity Research"
 # Add sources
 notebooklm use <notebook_id>
 notebooklm source add "https://laravel.com/docs/11.x"
+<<<<<<< HEAD
 notebooklm source add "./docs/ARCHITECTURE.md"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 notebooklm source add "./docs/architecture.md"
 
 # Chat with sources
@@ -81,7 +84,10 @@ Once authenticated, you can ask Claude Code to:
 
 Recommended notebooks to create:
 
+<<<<<<< HEAD
 1. **FixCity Architecture** - AGENTS.md, docs/architecture/*
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 1. **FixCity Architecture** - agents.md, docs/architecture/*
 2. **FixCity Modules** - laravel/Modules/*/docs/README.md
 3. **FixCity API** - API documentation, Swagger specs

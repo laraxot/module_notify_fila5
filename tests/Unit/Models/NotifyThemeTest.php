@@ -6,6 +6,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Tests\TestCase;
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
@@ -15,6 +16,18 @@ use Modules\User\Models\User;
 
 beforeEach(function (): void {
     withoutExceptionHandling();
+=======
+use PHPUnit\Framework\Assert;
+use Modules\Xot\Tests\XotBasePest;
+
+use function Safe\json_encode;
+
+uses(TestCase::class)->group('notify-db');
+
+beforeEach(function (): void {
+    /** @var TestCase $this */
+    $this->disableExceptionHandling();
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 });
 
 describe('Notify Theme', function (): void {
@@ -140,8 +153,13 @@ describe('Notify Theme', function (): void {
             'id' => $theme->id,
             'view_params' => json_encode($viewParams),
         ]);
+<<<<<<< HEAD
         Assert::assertEquals('Test Company', TestCase::notifyArrayGet($theme->view_params, 'company_name'));
         Assert::assertEquals('#ef4444', TestCase::notifyArrayGet($theme->view_params, 'primary_color'));
+=======
+        Assert::assertEquals('Test Company', $theme->view_params['company_name']);
+        Assert::assertEquals('#ef4444', $theme->view_params['primary_color']);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         Assert::assertEquals('Inter', TestCase::notifyArrayGet($theme->view_params, 'fonts', 'primary'));
         Assert::assertEquals('1200px', TestCase::notifyArrayGet($theme->view_params, 'layout', 'max_width'));
     });
@@ -431,8 +449,13 @@ describe('Notify Theme', function (): void {
 
         Assert::assertCount(1, $highPriorityThemes);
         Assert::assertCount(1, $securityThemes);
+<<<<<<< HEAD
         Assert::assertEquals('high', TestCase::notifyArrayGet(XotBasePest::assertFirstModel($highPriorityThemes, NotifyTheme::class)->view_params, 'priority'));
         Assert::assertEquals('security', TestCase::notifyArrayGet(XotBasePest::assertFirstModel($securityThemes, NotifyTheme::class)->view_params, 'category'));
+=======
+        Assert::assertEquals('high', XotBasePest::assertFirstModel($highPriorityThemes, NotifyTheme::class)->view_params['priority']);
+        Assert::assertEquals('security', XotBasePest::assertFirstModel($securityThemes, NotifyTheme::class)->view_params['category']);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     });
 
     test('_can_find_by_multiple_criteria', function (): void {

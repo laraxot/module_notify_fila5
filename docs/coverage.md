@@ -55,6 +55,7 @@ apposta. Il 100% qui non è un merito.
 36 aree a 0%, fra cui tutti i `View/Components/*` (`GuestLayout`, `Header`, `Input`).
 È lì che il coverage va alzato, non nel middleware già al 100%.
 
+<<<<<<< HEAD
 ## PHPStan / Jobs -> QueueableAction — 2026-09-04
 
 Vedi story `docs/stories/4.27.jobs-to-queueable-actions.story.md`. In sintesi:
@@ -123,6 +124,15 @@ di parsing pre/post, non causati da questa story) — verifica sostitutiva
 scoped ai file toccati qui: **0 errori**. Pest: stesso fallimento
 pre-esistente e non attribuibile già documentato in `env-sqlite-manca-suite-
 non-eseguibile` (verificato riproducendolo su un file mai toccato).
+=======
+## Nota 2026-09-01
+
+Rimossi due file di test duplicati/stantii che collidevano di case con un gemello
+corretto e più aggiornato (`emailtemplatestest.php`→`EmailTemplatesTest.php`,
+`jsoncomponentstest.php`→`JsonComponentsTest.php`, confermato: il gemello minuscolo
+verificava solo 2 componenti contro i 3 reali in `_components.json`). Nessun impatto
+di rilievo sul numero di coverage: erano duplicati, non copertura aggiuntiva persa.
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ## Nota sulla versione precedente di questo file
 

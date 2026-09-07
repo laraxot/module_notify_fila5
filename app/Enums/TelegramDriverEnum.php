@@ -30,7 +30,12 @@ enum TelegramDriverEnum: string
         return [
             self::TELEGRAM->value => 'Telegram',
             self::BOTAPI->value => 'Bot API',
+<<<<<<< HEAD
             self::LARAVEL_TELEGRAM->value => 'Laravel Telegram'];
+=======
+            self::LARAVEL_TELEGRAM->value => 'Laravel Telegram',
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -43,7 +48,12 @@ enum TelegramDriverEnum: string
         return [
             self::TELEGRAM->value => __('notify::telegram.drivers.telegram'),
             self::BOTAPI->value => __('notify::telegram.drivers.botapi'),
+<<<<<<< HEAD
             self::LARAVEL_TELEGRAM->value => __('notify::telegram.drivers.laravel_telegram')];
+=======
+            self::LARAVEL_TELEGRAM->value => __('notify::telegram.drivers.laravel_telegram'),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**

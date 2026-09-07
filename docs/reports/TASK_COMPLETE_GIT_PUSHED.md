@@ -96,7 +96,10 @@ AGENTS.md (updated)
 ### On GitHub
 
 ```
+<<<<<<< HEAD
 https://github.com/laraxot/base_fixcity_fila5/commits/dev
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 https://github.com/laraxot/platform/commits/dev
 ```
 
@@ -110,7 +113,10 @@ git log -n 5 --oneline
 git ls-tree -r dev --name-only | grep -E "(AI_AGENT|GITHUB_ACTION)"
 
 # Check workflow
+<<<<<<< HEAD
 gh run list --repo laraxot/base_fixcity_fila5
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 gh run list --repo laraxot/base_ptvx_fila5
 ```
 

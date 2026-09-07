@@ -92,7 +92,10 @@ Verificare che:
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 
 *Ultimo aggiornamento: giugno 2025*
+<<<<<<< HEAD
 - [Notify Module Documentation](readme.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [Notify Module Documentation](README.md)
 - [SMS Implementation Guide](sms-implementation-1.md)
 - [Mail Templates Structure](mail-templates-structure-1.md)

@@ -62,7 +62,12 @@ final class SendNexmoSMSAction implements SmsActionContract
     public function execute(SmsData $smsData): array
     {
         $headers = [
+<<<<<<< HEAD
             'Content-Type' => 'application/x-www-form-urlencoded'];
+=======
+            'Content-Type' => 'application/x-www-form-urlencoded',
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         // Normalizza il numero di telefono
         $to = (string) $smsData->recipient;
@@ -78,7 +83,12 @@ final class SendNexmoSMSAction implements SmsActionContract
 
         $client = new Client([
             'timeout' => $this->nexmoData->getTimeout(),
+<<<<<<< HEAD
             'headers' => $headers]);
+=======
+            'headers' => $headers,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         try {
             $response = $client->post($this->nexmoData->getBaseUrl().'/sms/json', [
@@ -88,7 +98,13 @@ final class SendNexmoSMSAction implements SmsActionContract
                     'to' => $to,
                     'from' => $from,
                     'text' => $smsData->body,
+<<<<<<< HEAD
                     'type' => 'unicode']]);
+=======
+                    'type' => 'unicode',
+                ],
+            ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             $this->vars['status_code'] = $response->getStatusCode();
             $this->vars['status_txt'] = $response->getBody()->getContents();

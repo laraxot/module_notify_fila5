@@ -21,7 +21,10 @@ related:
 # 📊 REPORT CONSOLIDATO ROADMAP - 2025-10-01
 
 ## 🎯 OVERVIEW
+<<<<<<< HEAD
 Report consolidato delle roadmap di tutti i moduli e temi del progetto FixCity.
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Report consolidato delle roadmap di tutti i moduli e temi del progetto Notify.
 
 ## 📋 MODULI
@@ -29,7 +32,10 @@ Report consolidato delle roadmap di tutti i moduli e temi del progetto Notify.
 ### Moduli Core (CRITICAL)
 - **Xot**: Core framework - Status: 95% COMPLETATO
 - **User**: Authentication & Authorization - Status: 90% COMPLETATO  
+<<<<<<< HEAD
 - **Fixcity**: Core business logic - Status: 80% COMPLETATO
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **App**: Core business logic - Status: 80% COMPLETATO
 
 ### Moduli Support (HIGH)
@@ -75,10 +81,13 @@ Report consolidato delle roadmap di tutti i moduli e temi del progetto Notify.
 ## 🎯 PROSSIMI PASSI
 
 ### Q1 2025 (Gennaio-Marzo)
+<<<<<<< HEAD
 1. Completare moduli core (Xot, User, Fixcity)
 2. Implementare API v1 per Fixcity
 1. Completare moduli core (Xot, User, Fixcity)
 2. Implementare API v1 per Fixcity
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 1. Completare moduli core (Xot, User, App)
 2. Implementare API v1 per App
 3. Ottimizzare mobile interface

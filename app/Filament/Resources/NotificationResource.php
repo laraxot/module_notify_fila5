@@ -19,8 +19,14 @@ class NotificationResource extends XotBaseResource
     /**
      * @return array<string, Field>
      */
+<<<<<<< HEAD
     #[Override]
     public static function getFormSchema(): array
+=======
+
+    // #[Override]
+    public static function getFormSchemaOld(): array
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     {
         return [
             'type' => TextInput::make('type')->required()->label('Notification Type'),
@@ -32,6 +38,11 @@ class NotificationResource extends XotBaseResource
             'data' => Textarea::make('data')->label('Notification Data')->columnSpanFull(),
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
+<<<<<<< HEAD
             'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled()];
+=======
+            'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled(),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 }

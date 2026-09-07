@@ -368,7 +368,10 @@ Usage: `/gsd-join-discord`
 │       └── 02-core-features/
 ├── codebase/             # Codebase map (brownfield projects)
 │   ├── STACK.md          # Languages, frameworks, dependencies
+<<<<<<< HEAD
 │   ├── ARCHITECTURE.md   # Patterns, layers, data flow
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │   ├── architecture.md   # Patterns, layers, data flow
 │   ├── STRUCTURE.md      # Directory layout, key files
 │   ├── CONVENTIONS.md    # Coding standards, naming

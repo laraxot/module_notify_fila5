@@ -119,7 +119,10 @@ return [
 ```
 
 **File corretti:**
+<<<<<<< HEAD
 - `Modules/Fixcity/app/Filament/Widgets/CreateTicketWidget.php`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - `Modules/App/app/Filament/Widgets/CreateTicketWidget.php`
 - `Modules/UI/app/Filament/Blocks/Navigation.php`
 - `Modules/UI/app/Filament/Widgets/UserCalendarWidget.php`
@@ -214,7 +217,10 @@ return /** @phpstan-ignore-line property.notFound */ $this->media->path . '/' . 
 - Altri: ~986 errori (25%)
 
 **Moduli con più errori nei test:**
+<<<<<<< HEAD
 1. Fixcity: 1171 errori
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 1. App: 1171 errori
 2. Notify: 776 errori
 3. User: 647 errori
@@ -251,7 +257,10 @@ return /** @phpstan-ignore-line property.notFound */ $this->media->path . '/' . 
    - Migliorare type hints per Pest Expectations
 
 ### Priorità Media
+<<<<<<< HEAD
 4. **Pulire modulo Fixcity tests (1171 errori)**
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 4. **Pulire modulo App tests (1171 errori)**
    - Seguire il pattern del modulo Xot
    - Obiettivo: sotto 500 errori

@@ -115,7 +115,13 @@ class SendPushNotification extends XotBasePage
                 TextInput::make('body')->required(),
                 Repeater::make('data')->schema([
                     TextInput::make('name')->required(),
+<<<<<<< HEAD
                     TextInput::make('value')->required()])])
+=======
+                    TextInput::make('value')->required(),
+                ]),
+            ])
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             // ->model($this->getUser())
             ->statePath('notificationData');
     }
@@ -204,7 +210,12 @@ class SendPushNotification extends XotBasePage
     protected function getForms(): array
     {
         return [
+<<<<<<< HEAD
             'notificationForm'];
+=======
+            'notificationForm',
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /** @return array<string, Action> */
@@ -213,7 +224,12 @@ class SendPushNotification extends XotBasePage
         return [
             'submit' => Action::make('notificationFormActions')
 
+<<<<<<< HEAD
                 ->submit('notificationFormActions')];
+=======
+                ->submit('notificationFormActions'),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     protected function getUser(): Authenticatable&Model

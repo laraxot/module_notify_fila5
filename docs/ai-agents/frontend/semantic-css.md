@@ -27,7 +27,10 @@
 </div>
 
 <div class="outcomes-grid">
+<<<<<<< HEAD
   <x-predict.outcome-card />
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
   <x-forecast.outcome-card />
 </div>
 ```
@@ -50,8 +53,11 @@
 
 ```blade
 {{-- ✅ CORRETTO: Semantic Blade --}}
+<<<<<<< HEAD
 <x-predict.hero :title="$title" :tagline="$tagline" />
 <x-predict.outcomes-grid :outcomes="$outcomes" />
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 <x-forecast.hero :title="$title" :tagline="$tagline" />
 <x-forecast.outcomes-grid :outcomes="$outcomes" />
 
@@ -86,8 +92,11 @@ class OutcomesTableWidget extends XotBaseTableWidget
 
 ### For Module Developers
 
+<<<<<<< HEAD
 - [Semantic CSS Principles](../../../../laravel/Modules/Predict/docs/SEMANTIC_CSS_PRINCIPLES.md) - Complete guide
 - [Blade Minimal Logic](../../../../laravel/Modules/Predict/docs/BLADE_MINIMAL_LOGIC_BEST_PRACTICES.md) - Blade patterns
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [Semantic CSS Principles](../../../../laravel/Modules/Forecast/docs/SEMANTIC_CSS_PRINCIPLES.md) - Complete guide
 - [Blade Minimal Logic](../../../../laravel/Modules/Forecast/docs/BLADE_MINIMAL_LOGIC_BEST_PRACTICES.md) - Blade patterns
 
@@ -98,7 +107,10 @@ class OutcomesTableWidget extends XotBaseTableWidget
 ### Rules & Enforcement
 
 - [Semantic CSS Rule](../../rules/frontend/semantic-css-rule.md) - **MANDATORY** rule
+<<<<<<< HEAD
 - [Frontend Rules Index](../../rules/frontend/00-INDEX.md) - All frontend rules
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [Frontend Rules Index](../../rules/frontend/00-index.md) - All frontend rules
 
 ---
@@ -151,7 +163,10 @@ class OutcomesTableWidget extends XotBaseTableWidget
 
 - [Rule 005: Filament Table for Lists](../../rules/filament/005-filament-table-for-lists.md)
 - [Container Blade Agnostic Rule](../../rules/frontend/container-blade/agnostic-rule.md)
+<<<<<<< HEAD
 - [Component-First Architecture](../../../../laravel/Modules/Predict/docs/PHILOSOPHY_AND_VISION.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [Component-First Architecture](../../../../laravel/Modules/Forecast/docs/PHILOSOPHY_AND_VISION.md)
 
 ---

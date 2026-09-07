@@ -189,7 +189,10 @@ All files → `.planning/research/`
 ## Key Findings
 
 **Stack:** [one-liner from STACK.md]
+<<<<<<< HEAD
 **Architecture:** [one-liner from ARCHITECTURE.md]
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Architecture:** [one-liner from architecture.md]
 **Critical pitfall:** [most important from PITFALLS.md]
 
@@ -329,7 +332,10 @@ Defer: [Feature]: [reason]
 - [Competitor analysis, market research sources]
 ```
 
+<<<<<<< HEAD
 ## ARCHITECTURE.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## architecture.md
 
 ```markdown
@@ -558,7 +564,10 @@ In `.planning/research/`:
 | .planning/research/SUMMARY.md | Executive summary with roadmap implications |
 | .planning/research/STACK.md | Technology recommendations |
 | .planning/research/FEATURES.md | Feature landscape |
+<<<<<<< HEAD
 | .planning/research/ARCHITECTURE.md | Architecture patterns |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | .planning/research/architecture.md | Architecture patterns |
 | .planning/research/PITFALLS.md | Domain pitfalls |
 

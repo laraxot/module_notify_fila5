@@ -33,7 +33,10 @@ related:
 | Modulo | Errori | % Totale |
 |--------|--------|----------|
 | User | 4,810 | 24.4% |
+<<<<<<< HEAD
 | Fixcity | 3,909 | 19.8% |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | App | 3,909 | 19.8% |
 | Notify | 2,766 | 14.0% |
 | Cms | 1,704 | 8.6% |
@@ -204,7 +207,10 @@ Function json_encode is unsafe to use
 1. ✅ Installata Pest extension per PHPStan
 2. ⏳ Creare script automatizzati per correzioni comuni
 3. ⏳ Iniziare correzioni modulo User (4,810 errori)
+<<<<<<< HEAD
 4. ⏳ Proseguire con Fixcity (3,909 errori)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 4. ⏳ Proseguire con App (3,909 errori)
 5. ⏳ Continuare con altri moduli
 6. ⏳ Aggiornare documentazione moduli

@@ -19,7 +19,10 @@ Your job: Create a unified research summary that informs roadmap creation. Extra
 If the prompt contains a `<files_to_read>` block, you MUST use the `Read` tool to load every file listed there before performing any other actions. This is your primary context.
 
 **Core responsibilities:**
+<<<<<<< HEAD
 - Read all 4 research files (STACK.md, FEATURES.md, ARCHITECTURE.md, PITFALLS.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Read all 4 research files (STACK.md, FEATURES.md, architecture.md, PITFALLS.md)
 - Synthesize findings into executive summary
 - Derive roadmap implications from combined research
@@ -51,7 +54,10 @@ Read all 4 research files:
 ```bash
 cat .planning/research/STACK.md
 cat .planning/research/FEATURES.md
+<<<<<<< HEAD
 cat .planning/research/ARCHITECTURE.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 cat .planning/research/architecture.md
 cat .planning/research/PITFALLS.md
 
@@ -86,7 +92,10 @@ For each research file, pull out the most important points:
 - Should-have features (differentiators)
 - What to defer to v2+
 
+<<<<<<< HEAD
 **From ARCHITECTURE.md:**
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **From architecture.md:**
 - Major components and their responsibilities
 - Key patterns to follow
@@ -119,7 +128,10 @@ This is the most important section. Based on combined research:
 |------|------------|-------|
 | Stack | [level] | [based on source quality from STACK.md] |
 | Features | [level] | [based on source quality from FEATURES.md] |
+<<<<<<< HEAD
 | Architecture | [level] | [based on source quality from ARCHITECTURE.md] |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | Architecture | [level] | [based on source quality from architecture.md] |
 | Pitfalls | [level] | [based on source quality from PITFALLS.md] |
 
@@ -170,7 +182,10 @@ When SUMMARY.md is written and committed:
 **Files synthesized:**
 - .planning/research/STACK.md
 - .planning/research/FEATURES.md
+<<<<<<< HEAD
 - .planning/research/ARCHITECTURE.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - .planning/research/architecture.md
 - .planning/research/PITFALLS.md
 

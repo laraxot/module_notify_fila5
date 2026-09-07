@@ -8,7 +8,11 @@ use Modules\User\Models\Notification as UserDatabaseNotification;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 /*
+<<<<<<< HEAD
  * Owner Notify — UNICA migrazione per `notifications` (connessione user / fixcity_user).
+=======
+ * Owner Notify — UNICA migrazione per `notifications` (connessione user).
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
  * Runtime Eloquent: Modules\User\Models\Notification (DatabaseNotification).
  * Schema: uuid PK + uuidMorphs — users.id è UUID/ULID string.
  * Evoluzione: edit QUESTO file + bump timestamp — vietato secondo create_* in User/.

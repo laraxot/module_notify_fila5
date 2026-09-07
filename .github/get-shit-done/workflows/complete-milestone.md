@@ -761,4 +761,8 @@ Milestone completion is successful when:
 - [ ] User knows next step (/gsd-new-milestone)
 
 </success_criteria>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ```

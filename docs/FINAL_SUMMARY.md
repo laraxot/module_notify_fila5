@@ -21,7 +21,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 3. ✅ **QUICK_START.md** - Guida rapida sviluppatori con regole Laraxot
 4. ✅ **PROJECT_COMPLETION_STATUS.md** - Tracking avanzamento progetto
 5. ✅ **EXCELLENCE_2025.md** - Visione eccellenza e obiettivi
+<<<<<<< HEAD
 6. ✅ **WORK_COMPLETED_2025-10-01.md** - Riepilogo tecnico aggiornamenti
+=======
+6. ✅ **work-completed.md** - Riepilogo tecnico aggiornamenti
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ### 🎫 Modulo Fixcity (4)
 7. ✅ **API.md** - REST API completa (15+ endpoints, auth, examples)
@@ -100,7 +104,10 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ## 🏗️ STRUTTURA DOCUMENTAZIONE FINALE
 
 ```
+<<<<<<< HEAD
 base_fixcity_fila5_mono/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 base_ptv_fila5_mono/
 │
 ├── 📊 ROOT LEVEL (11 docs strategici)
@@ -110,7 +117,11 @@ base_ptv_fila5_mono/
 │   ├── EXCELLENCE_2025.md              ✅ Visione eccellenza
 │   ├── PROJECT_COMPLETION_STATUS.md    ✅ Tracking progetto
 │   ├── FINAL_SUMMARY.md                ✅ Questo file
+<<<<<<< HEAD
 │   └── WORK_COMPLETED_2025-10-01.md    ✅ Riepilogo tecnico
+=======
+│   └── work-completed.md    ✅ Riepilogo tecnico
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │
 ├── 📁 project_docs/
 │   ├── DOCUMENTATION_STATUS.md         ✅ Stato docs
@@ -273,13 +284,19 @@ base_ptv_fila5_mono/
 ### Per Sviluppatori
 - **Quick Start**: [QUICK_START.md](./QUICK_START.md)
 - **Documentation Index**: [DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md)
+<<<<<<< HEAD
 - **Slack**: #fixcity-dev
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Slack**: #ptv-dev
 
 ### Per Utenti
 - **User Guide**: [USER_GUIDE.md](./laravel/Modules/Fixcity/docs/USER_GUIDE.md)
 - **Admin Guide**: [ADMIN_GUIDE.md](./laravel/Modules/Fixcity/docs/ADMIN_GUIDE.md)
+<<<<<<< HEAD
 - **Support**: support@fixcity.it
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Support**: support@ptv.it
 
 ### Per API Developers
@@ -382,9 +399,12 @@ php artisan test --coverage
 ## 📞 CONTATTI
 
 **Team FixCity**
+<<<<<<< HEAD
 - Email: dev@fixcity.it
 - Slack: #fixcity-dev
 - GitHub: github.com/laraxot/fixcity
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - Email: dev@ptv.it
 - Slack: #ptv-dev
 - GitHub: github.com/laraxot/ptv

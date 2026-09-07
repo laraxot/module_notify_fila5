@@ -181,7 +181,10 @@ cp /path/to/backup/.gitattributes laravel/Modules/Blog/
 - [x] Remove all `.gitattributes` files
 - [x] Update root `.gitignore`
 - [x] Create module `.gitignore` files
+<<<<<<< HEAD
 - [x] Update AGENTS.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [x] Update agents.md
 - [x] Document cleanup
 - [x] Verify with git check-ignore

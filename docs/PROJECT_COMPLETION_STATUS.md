@@ -13,7 +13,11 @@
 - ✅ **DOCUMENTATION_STATUS.md** - Stato completo documentazione
 - ✅ **DOCUMENTATION_INDEX.md** - Indice generale completo
 - ✅ **QUICK_START.md** - Guida rapida sviluppatori
+<<<<<<< HEAD
 - ✅ **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
+=======
+- ✅ **work-completed.md** - Riepilogo aggiornamenti
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ### 🎫 Modulo Fixcity (85% → 90%)
 - ✅ **ROADMAP_2025.md** - Aggiornato timeline Q4 2025-Q2 2026
@@ -153,7 +157,11 @@
 1. **DOCUMENTATION_STATUS.md** - Stato documentazione completo
 2. **DOCUMENTATION_INDEX.md** - Indice generale navigabile
 3. **QUICK_START.md** - Guida rapida sviluppatori
+<<<<<<< HEAD
 4. **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
+=======
+4. **work-completed.md** - Riepilogo aggiornamenti
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 5. **PROJECT_COMPLETION_STATUS.md** - Questo documento
 
 ### Modulo Fixcity (3 documenti)
@@ -174,7 +182,10 @@
 ## 🔗 STRUTTURA DOCUMENTAZIONE
 
 ```
+<<<<<<< HEAD
 base_fixcity_fila5_mono/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 base_ptv_fila5_mono/
 ├── DOCUMENTATION_INDEX.md          # ✅ Indice generale
 ├── QUICK_START.md                  # ✅ Guida rapida
@@ -245,9 +256,12 @@ base_ptv_fila5_mono/
 - **Doc Lead**: Documentazione
 
 ### Supporto
+<<<<<<< HEAD
 - **Email**: dev@fixcity.it
 - **Docs**: docs@fixcity.it
 - **Slack**: #fixcity-dev
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Email**: dev@ptv.it
 - **Docs**: docs@ptv.it
 - **Slack**: #ptv-dev

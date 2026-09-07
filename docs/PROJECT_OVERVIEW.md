@@ -458,14 +458,20 @@ Team
 - Cache: File
 
 **Staging**:
+<<<<<<< HEAD
 - URL: https://staging.fixcity.it
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - URL: https://staging.ptv.it
 - DB: PostgreSQL
 - Queue: Redis
 - Cache: Redis
 
 **Production**:
+<<<<<<< HEAD
 - URL: https://fixcity.it
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - URL: https://ptv.it
 - DB: PostgreSQL (replicated)
 - Queue: Redis Cluster

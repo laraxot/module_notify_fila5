@@ -46,7 +46,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
     protected function getForms(): array
     {
         return [
+<<<<<<< HEAD
             'pushForm'];
+=======
+            'pushForm',
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     protected function fillForms(): void
@@ -87,7 +92,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
                     'message' => 'Message',
                     'alert' => 'Alert',
                     'reminder' => 'Reminder',
+<<<<<<< HEAD
                     'update' => 'Update'])
+=======
+                    'update' => 'Update',
+                ])
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
                 ->default('message')
                 ->required(),
             'high_priority' => Toggle::make('high_priority')
@@ -98,7 +108,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->label(__('notify::push.form.custom_data.label'))
                 ->keyLabel(__('notify::push.form.custom_data.key_label'))
                 ->valueLabel(__('notify::push.form.custom_data.value_label'))
+<<<<<<< HEAD
                 ->helperText(__('notify::push.form.custom_data.helper'))];
+=======
+                ->helperText(__('notify::push.form.custom_data.helper')),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     public function sendPushNotification(): void
@@ -111,7 +126,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 'type' => $data['notification_type'] ?? 'message',
                 'title' => $data['title'] ?? '',
                 'body' => $data['body'] ?? '',
+<<<<<<< HEAD
                 'data' => $data['custom_data'] ?? []]);
+=======
+                'data' => $data['custom_data'] ?? [],
+            ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             // TODO: Implementare PushNotification class
             // Inviare la notifica push
@@ -129,12 +149,22 @@ class SendFirebasePushNotificationPage extends XotBasePage
             Log::debug('Notifica push inviata con successo', [
                 'token' => $data['token'],
                 'title' => $data['title'],
+<<<<<<< HEAD
                 'type' => $data['notification_type']]);
+=======
+                'type' => $data['notification_type'],
+            ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         } catch (Exception $e) {
             // Loggare l'errore
             Log::error('Errore durante l\'invio della notifica push', [
                 'error' => $e->getMessage(),
+<<<<<<< HEAD
                 'token' => $data['token']]);
+=======
+                'token' => $data['token'],
+            ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
             // Notificare l'errore
             FilamentNotification::make()
@@ -151,7 +181,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
         return [
             'submit' => Action::make('sendPushNotification')
                 ->label(__('notify::push.actions.send'))
+<<<<<<< HEAD
                 ->submit('sendPushNotification')];
+=======
+                ->submit('sendPushNotification'),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     #[Override]

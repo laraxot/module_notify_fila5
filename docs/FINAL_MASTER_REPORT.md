@@ -16,7 +16,11 @@
 4. PROJECT_COMPLETION_STATUS.md
 5. EXCELLENCE_2025.md
 6. FINAL_SUMMARY.md
+<<<<<<< HEAD
 7. WORK_COMPLETED_2025-10-01.md
+=======
+7. work-completed.md
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 8. GAP_ANALYSIS_IMPLEMENTATION.md
 9. IMPLEMENTATIONS_COMPLETED.md
 10. SUPER_MUCCA_COMPLETION.md
@@ -214,7 +218,10 @@
 ## 📚 STRUTTURA FINALE PROGETTO
 
 ```
+<<<<<<< HEAD
 base_fixcity_fila5_mono/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 base_ptv_fila5_mono/
 │
 ├── 📊 ROOT DOCS (14 files)

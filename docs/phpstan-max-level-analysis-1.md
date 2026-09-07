@@ -40,7 +40,10 @@ related:
 | Modulo | Errori | % Totale | Priorità |
 |--------|--------|----------|----------|
 | User | 4,539 | 23.5% | 🔴 CRITICA |
+<<<<<<< HEAD
 | Fixcity | 3,540 | 18.3% | 🔴 CRITICA |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | App | 3,540 | 18.3% | 🔴 CRITICA |
 | Notify | 2,727 | 14.1% | 🔴 CRITICA |
 | Cms | 1,696 | 8.8% | 🟠 ALTA |
@@ -189,7 +192,10 @@ public function create(string $class): Model
 2. **Correggere method.notFound (612 errori)**
    - Errori critici
    - Correzione manuale necessaria
+<<<<<<< HEAD
    - Priorità: User, Fixcity, Notify
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
    - Priorità: User, App, Notify
 
 3. **Aggiungere null-safe operators**
@@ -247,14 +253,20 @@ public function create(string $class): Model
   - Actions
 - **Documentazione**: `/Modules/User/docs/`
 
+<<<<<<< HEAD
 #### 2. Fixcity Module (3,540 errori)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 #### 2. App Module (3,540 errori)
 - **Focus**: method.nonObject, property.nonObject
 - **File critici**:
   - Filament Resources
   - Services
   - Models
+<<<<<<< HEAD
 - **Documentazione**: `/Modules/Fixcity/docs/`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Documentazione**: `/Modules/App/docs/`
 
 #### 3. Notify Module (2,727 errori)
