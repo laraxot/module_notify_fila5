@@ -71,6 +71,7 @@ use Modules\Notify\Filament\Clusters\Test\Pages\SendSpatieEmailPage;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendTelegramPage;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendWhatsAppPage;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Safe\DateTime;
 use Illuminate\Database\Eloquent\Model;
@@ -91,8 +92,9 @@ use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> dabf035f (fix(notify): fix static calls to instance-only getFormSchema/getInfolistSchema)
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Schemas\NotificationTemplateForm;
-use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Schemas\NotifyThemeForm;
 =======
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
@@ -103,14 +105,15 @@ use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Schemas\NotifyThemeForm;
 >>>>>>> a988596b (first)
 use Modules\Notify\Helpers\ConfigHelper;
-use Modules\Notify\Models\Contact;
-use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\NotificationTemplate;
+<<<<<<< HEAD
 use Modules\Notify\Models\NotifyTheme;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Notify\Notifications\GenericNotification;
 =======
+=======
+>>>>>>> dabf035f (fix(notify): fix static calls to instance-only getFormSchema/getInfolistSchema)
 use Modules\Notify\Notifications\GenericNotification;
 use Modules\Notify\Services\PushNotificationService;
 use Modules\Notify\Services\SmsService;
@@ -262,6 +265,7 @@ describe('Notify highest-miss coverage', function (): void {
         }
     });
 
+<<<<<<< HEAD
     test('resources expose model pages and legacy form schema', function (): void {
         Assert::assertSame(NotificationTemplate::class, NotificationTemplateResource::getModel());
 <<<<<<< HEAD
@@ -309,6 +313,8 @@ describe('Notify highest-miss coverage', function (): void {
         Assert::assertNotEmpty(ContactResource::getPages());
     });
 
+=======
+>>>>>>> dabf035f (fix(notify): fix static calls to instance-only getFormSchema/getInfolistSchema)
     test('PushNotificationService sends fakes schedules and guards empty targets', function (): void {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
@@ -691,6 +697,7 @@ describe('Notify highest-miss coverage', function (): void {
             'name',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
             NotificationTemplateForm::getFormSchema(),
@@ -708,6 +715,13 @@ describe('Notify highest-miss coverage', function (): void {
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
 >>>>>>> a988596b (first)
+=======
+            app(NotificationTemplateForm::class)->getFormSchema(),
+        );
+        Assert::assertArrayHasKey(
+            'subject',
+            app(NotifyThemeForm::class)->getFormSchema(),
+>>>>>>> dabf035f (fix(notify): fix static calls to instance-only getFormSchema/getInfolistSchema)
         );
     });
 
