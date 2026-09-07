@@ -14,6 +14,7 @@ class ContactResource extends XotBaseResource
 {
     protected static ?string $model = Contact::class;
 
+<<<<<<< HEAD
     /**
      * Get the form schema for the resource.
      *
@@ -53,4 +54,8 @@ class ContactResource extends XotBaseResource
                 ->maxLength(255)];
 >>>>>>> a988596b (first)
     }
+=======
+    
+
+>>>>>>> 48f28c29 (.)
 }

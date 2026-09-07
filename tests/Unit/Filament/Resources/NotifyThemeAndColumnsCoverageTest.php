@@ -53,6 +53,7 @@ test('notify theme resource field options are configured', function (): void {
     Assert::assertArrayHasKey('page', NotifyThemeResource::fieldOptions('post_type'));
 });
 
+<<<<<<< HEAD
 test('notify theme resource form schema exposes expected components', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +75,9 @@ test('notify theme resource form schema exposes expected components', function (
     Assert::assertArrayHasKey('lang', $schema);
     Assert::assertInstanceOf(Select::class, $schema['lang']);
 });
+=======
+
+>>>>>>> 48f28c29 (.)
 
 test('edit notify theme page exposes delete header action', function (): void {
     $page = makeEditNotifyThemeTestProxy();

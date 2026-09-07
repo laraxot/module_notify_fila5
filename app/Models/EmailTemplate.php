@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+use Illuminate\Database\Eloquent\Model;
+
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,7 +49,7 @@ namespace Modules\Notify\Models;
 >>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
-class EmailTemplate extends BaseModel
+class EmailTemplate extends Model
 {
     /**
      * @var list<string>

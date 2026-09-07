@@ -30,6 +30,7 @@ class MailTemplateResource extends LangBaseResource
 {
     protected static ?string $model = MailTemplate::class;
 
+<<<<<<< HEAD
     /**
      * Restituisce lo schema del form per Filament.
      *
@@ -156,4 +157,7 @@ class MailTemplateResource extends LangBaseResource
                 ->columnSpanFull()];
 >>>>>>> a988596b (first)
     }
+=======
+   
+>>>>>>> 48f28c29 (.)
 }
