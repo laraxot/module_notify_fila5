@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17,6 +18,8 @@ use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\NotificationTypeFactory;
 =======
 >>>>>>> f67f5638 (fix(notify): UserContract narrowing + stale test assert fix, PHPStan L10 verified clean)
+=======
+>>>>>>> ab6a976d (fix(notify): Theme/EmailTemplate/NotificationType extend BaseModel, not Model directly)
 use Override;
 
 /**
@@ -111,7 +114,7 @@ use Override;
 >>>>>>> a377e9e6 (.)
  * @mixin \Eloquent
  */
-class NotificationType extends Model
+class NotificationType extends BaseModel
 {
     /** @var list<string> */
     protected $fillable = [

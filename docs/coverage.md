@@ -229,4 +229,21 @@ completate.
 - `app/Models/NotificationType.php` (cleanup import residuo)
 - `tests/Unit/Actions/BuildMailMessageActionTest.php` (fix assert stale)
 - `docs/stories/01.Notify-phpstan-fix.story.md`
+
+## No model estende Model direttamente
+
+`Theme`, `EmailTemplate`, `NotificationType` estendevano
+`Illuminate\Database\Eloquent\Model` direttamente invece di
+`Modules\Notify\Models\BaseModel` (che gia' esisteva con
+`$connection = 'notify'`). Stessa regola gia' applicata a Catalog/Comment
+lo stesso giorno: nessun modello del monorepo deve estendere Eloquent
+direttamente, sempre attraverso il `BaseModel`/`BasePivot` del proprio
+modulo. Story: `docs/stories/no-model-extends-eloquent-directly.story.md`.
+
+`phpstan analyse Modules/Notify`: 0 errori (cache pulita). Pest: suite
+completa non eseguibile in modo affidabile in questo momento (ambiente
+fortemente conteso da altri agenti, `NotificationTypeTest.php` fallisce
+con `Unknown column 'slug'` — drift schema DB di test pre-esistente,
+scorrelato da questo fix, stesso limite gia' documentato sopra per la
+connessione `notify`).
 - `docs/coverage.md` (questa sezione)
