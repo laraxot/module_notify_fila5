@@ -1,11 +1,17 @@
 ---
+<<<<<<< HEAD
 title: "🔒 FixCity Security Checklist"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 title: "🔒 Notify Security Checklist"
 type: concept
 tags: [security, checklist]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "security-checklist 🔒 fixcity security checklist"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 qmd: "security-checklist 🔒 laraxot security checklist"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -20,7 +26,10 @@ related:
   - "./final-implementation-report.md"
 ---
 
+<<<<<<< HEAD
 # 🔒 FixCity Security Checklist
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # 🔒 Notify Security Checklist
 
 **Status**: Production Ready
@@ -419,9 +428,15 @@ Overall Security Score: 92/100
 
 ## 📞 Security Contacts
 
+<<<<<<< HEAD
 **Security Team Lead**: security@fixcity.it  
 **Emergency Contact**: +39 06 1234 5678  
 **Incident Reporting**: incidents@fixcity.it
+=======
+**Security Team Lead**: security@laraxot.it  
+**Emergency Contact**: +39 06 1234 5678  
+**Incident Reporting**: incidents@laraxot.it
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ---
 

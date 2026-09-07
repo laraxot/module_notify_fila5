@@ -28,6 +28,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Tests\TestCase;
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
@@ -37,6 +38,18 @@ use Modules\User\Models\User;
 
 beforeEach(function (): void {
     withoutExceptionHandling();
+=======
+use PHPUnit\Framework\Assert;
+use Modules\Xot\Tests\XotBasePest;
+
+use function Safe\json_encode;
+
+uses(TestCase::class)->group('notify-db');
+
+beforeEach(function (): void {
+    /** @var TestCase $this */
+    $this->disableExceptionHandling();
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 });
 
 describe('Notify Theme PartTwo', function (): void {
@@ -44,17 +57,32 @@ describe('Notify Theme PartTwo', function (): void {
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Email Theme',
+<<<<<<< HEAD
             'lang' => 'it']);
+=======
+            'lang' => 'it',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'sms',
             'subject' => 'SMS Theme',
+<<<<<<< HEAD
             'lang' => 'it']);
+=======
+            'lang' => 'it',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'push',
             'subject' => 'Push Theme',
+<<<<<<< HEAD
             'lang' => 'it']);
+=======
+            'lang' => 'it',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $emailThemes = NotifyTheme::where('type', 'email')->get();
         $smsThemes = NotifyTheme::where('type', 'sms')->get();
@@ -72,17 +100,32 @@ describe('Notify Theme PartTwo', function (): void {
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Default Theme',
+<<<<<<< HEAD
             'theme' => 'default']);
+=======
+            'theme' => 'default',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Dark Theme',
+<<<<<<< HEAD
             'theme' => 'dark']);
+=======
+            'theme' => 'dark',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Custom Theme',
+<<<<<<< HEAD
             'theme' => 'custom']);
+=======
+            'theme' => 'custom',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $defaultThemes = NotifyTheme::where('theme', 'default')->get();
         $darkThemes = NotifyTheme::where('theme', 'dark')->get();
@@ -101,19 +144,34 @@ describe('Notify Theme PartTwo', function (): void {
             'type' => 'email',
             'subject' => 'User Welcome',
             'post_type' => 'App\Models\User',
+<<<<<<< HEAD
             'post_id' => 123]);
+=======
+            'post_id' => 123,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Company Welcome',
             'post_type' => 'App\Models\Company',
+<<<<<<< HEAD
             'post_id' => 456]);
+=======
+            'post_id' => 456,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Order Confirmation',
             'post_type' => 'App\Models\Order',
+<<<<<<< HEAD
             'post_id' => 789]);
+=======
+            'post_id' => 789,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $userThemes = NotifyTheme::where('post_type', 'App\Models\User')->get();
         $companyThemes = NotifyTheme::where('post_type', 'App\Models\Company')->get();
@@ -131,17 +189,32 @@ describe('Notify Theme PartTwo', function (): void {
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Welcome to our platform',
+<<<<<<< HEAD
             'lang' => 'it']);
+=======
+            'lang' => 'it',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Welcome to our service',
+<<<<<<< HEAD
             'lang' => 'en']);
+=======
+            'lang' => 'en',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Order confirmation',
+<<<<<<< HEAD
             'lang' => 'it']);
+=======
+            'lang' => 'it',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $welcomeThemes = NotifyTheme::where('subject', 'like', '%Welcome%')->get();
         $orderThemes = NotifyTheme::where('subject', 'like', '%Order%')->get();
@@ -161,19 +234,34 @@ describe('Notify Theme PartTwo', function (): void {
             'type' => 'email',
             'subject' => 'System Notification',
             'from' => 'System',
+<<<<<<< HEAD
             'from_email' => 'system@example.com']);
+=======
+            'from_email' => 'system@example.com',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Marketing Email',
             'from' => 'Marketing',
+<<<<<<< HEAD
             'from_email' => 'marketing@example.com']);
+=======
+            'from_email' => 'marketing@example.com',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Support Email',
             'from' => 'Support',
+<<<<<<< HEAD
             'from_email' => 'support@example.com']);
+=======
+            'from_email' => 'support@example.com',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $systemThemes = NotifyTheme::where('from_email', 'system@example.com')->get();
         $marketingThemes = NotifyTheme::where('from_email', 'marketing@example.com')->get();
@@ -193,29 +281,52 @@ describe('Notify Theme PartTwo', function (): void {
             'subject' => 'High Priority Theme',
             'view_params' => [
                 'priority' => 'high',
+<<<<<<< HEAD
                 'category' => 'security']]);
+=======
+                'category' => 'security',
+            ],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Low Priority Theme',
             'view_params' => [
                 'priority' => 'low',
+<<<<<<< HEAD
                 'category' => 'general']]);
+=======
+                'category' => 'general',
+            ],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Medium Priority Theme',
             'view_params' => [
                 'priority' => 'medium',
+<<<<<<< HEAD
                 'category' => 'maintenance']]);
+=======
+                'category' => 'maintenance',
+            ],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $highPriorityThemes = NotifyTheme::whereJsonPath('view_params.priority', 'high')->get();
         $securityThemes = NotifyTheme::whereJsonPath('view_params.category', 'security')->get();
 
         Assert::assertCount(1, $highPriorityThemes);
         Assert::assertCount(1, $securityThemes);
+<<<<<<< HEAD
         Assert::assertEquals('high', TestCase::notifyArrayGet(XotBasePest::assertFirstModel($highPriorityThemes, NotifyTheme::class)->view_params, 'priority'));
         Assert::assertEquals('security', TestCase::notifyArrayGet(XotBasePest::assertFirstModel($securityThemes, NotifyTheme::class)->view_params, 'category'));
+=======
+        Assert::assertEquals('high', XotBasePest::assertFirstModel($highPriorityThemes, NotifyTheme::class)->view_params['priority']);
+        Assert::assertEquals('security', XotBasePest::assertFirstModel($securityThemes, NotifyTheme::class)->view_params['category']);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     });
 
     test('_can_find_by_multiple_criteria', function (): void {
@@ -226,7 +337,13 @@ describe('Notify Theme PartTwo', function (): void {
             'theme' => 'default',
             'view_params' => [
                 'priority' => 'high',
+<<<<<<< HEAD
                 'category' => 'security']]);
+=======
+                'category' => 'security',
+            ],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'email',
@@ -235,7 +352,13 @@ describe('Notify Theme PartTwo', function (): void {
             'theme' => 'dark',
             'view_params' => [
                 'priority' => 'low',
+<<<<<<< HEAD
                 'category' => 'general']]);
+=======
+                'category' => 'general',
+            ],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotifyTheme::create([
             'type' => 'sms',
@@ -244,7 +367,13 @@ describe('Notify Theme PartTwo', function (): void {
             'theme' => 'custom',
             'view_params' => [
                 'priority' => 'medium',
+<<<<<<< HEAD
                 'category' => 'maintenance']]);
+=======
+                'category' => 'maintenance',
+            ],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $italianEmailHighPriority = NotifyTheme::where('lang', 'it')
             ->where('type', 'email')
@@ -273,7 +402,12 @@ describe('Notify Theme PartTwo', function (): void {
             'logo_src' => null,
             'logo_width' => null,
             'logo_height' => null,
+<<<<<<< HEAD
             'view_params' => null]);
+=======
+            'view_params' => null,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         Assert::assertNull($theme->lang);
         Assert::assertNull($theme->body);
@@ -293,10 +427,19 @@ describe('Notify Theme PartTwo', function (): void {
         $theme = NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Empty Params Theme',
+<<<<<<< HEAD
             'view_params' => []]);
         XotBasePest::assertTableHas('notify', 'notify_themes', [
             'id' => $theme->id,
             'view_params' => json_encode([])]);
+=======
+            'view_params' => [],
+        ]);
+        XotBasePest::assertTableHas('notify', 'notify_themes', [
+            'id' => $theme->id,
+            'view_params' => json_encode([]),
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         Assert::assertEmpty($theme->view_params);
     });
 
@@ -307,47 +450,94 @@ describe('Notify Theme PartTwo', function (): void {
                     'url' => '/images/logo.png',
                     'alt' => 'Company Logo',
                     'width' => 200,
+<<<<<<< HEAD
                     'height' => 80],
+=======
+                    'height' => 80,
+                ],
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
                 'colors' => [
                     'primary' => '#3b82f6',
                     'secondary' => '#64748b',
                     'accent' => '#f59e0b',
                     'success' => '#10b981',
                     'warning' => '#f59e0b',
+<<<<<<< HEAD
                     'error' => '#ef4444'],
                 'fonts' => [
                     'heading' => 'Inter',
                     'body' => 'Roboto',
                     'mono' => 'JetBrains Mono']],
+=======
+                    'error' => '#ef4444',
+                ],
+                'fonts' => [
+                    'heading' => 'Inter',
+                    'body' => 'Roboto',
+                    'mono' => 'JetBrains Mono',
+                ],
+            ],
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             'layout' => [
                 'container' => [
                     'max_width' => '1200px',
                     'padding' => '20px',
+<<<<<<< HEAD
                     'margin' => '0 auto'],
+=======
+                    'margin' => '0 auto',
+                ],
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
                 'spacing' => [
                     'xs' => '4px',
                     'sm' => '8px',
                     'md' => '16px',
                     'lg' => '24px',
+<<<<<<< HEAD
                     'xl' => '32px'],
+=======
+                    'xl' => '32px',
+                ],
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
                 'border_radius' => [
                     'sm' => '4px',
                     'md' => '8px',
                     'lg' => '12px',
+<<<<<<< HEAD
                     'xl' => '16px']],
+=======
+                    'xl' => '16px',
+                ],
+            ],
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             'features' => [
                 'dark_mode' => true,
                 'responsive' => true,
                 'accessibility' => true,
+<<<<<<< HEAD
                 'animations' => false]];
+=======
+                'animations' => false,
+            ],
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $theme = NotifyTheme::create([
             'type' => 'email',
             'subject' => 'Complex Params Theme',
+<<<<<<< HEAD
             'view_params' => $complexParams]);
         XotBasePest::assertTableHas('notify', 'notify_themes', [
             'id' => $theme->id,
             'view_params' => json_encode($complexParams)]);
+=======
+            'view_params' => $complexParams,
+        ]);
+        XotBasePest::assertTableHas('notify', 'notify_themes', [
+            'id' => $theme->id,
+            'view_params' => json_encode($complexParams),
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         Assert::assertEquals('/images/logo.png', TestCase::notifyArrayGet($theme->view_params, 'branding', 'logo', 'url'));
         Assert::assertEquals('#3b82f6', TestCase::notifyArrayGet($theme->view_params, 'branding', 'colors', 'primary'));

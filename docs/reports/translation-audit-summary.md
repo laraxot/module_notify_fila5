@@ -1,11 +1,17 @@
 ---
+<<<<<<< HEAD
 title: "FixCity Translation Audit - Execution Summary"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 title: "Notify Translation Audit - Execution Summary"
 type: concept
 tags: [translation, audit, summary]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "translation-audit-summary fixcity translation audit - execution summary"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 qmd: "translation-audit-summary laraxot translation audit - execution summary"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -20,7 +26,10 @@ related:
   - "./final-success-report.md"
 ---
 
+<<<<<<< HEAD
 # FixCity Translation Audit - Execution Summary
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # Notify Translation Audit - Execution Summary
 
 **Date:** 2026-03-30  
@@ -31,7 +40,10 @@ related:
 
 ## Mission Accomplished
 
+<<<<<<< HEAD
 Comprehensive Italian translation audit completed for FixCity urban issue management platform.
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Comprehensive Italian translation audit completed for Notify urban issue management platform.
 
 ---
@@ -76,7 +88,10 @@ Comprehensive Italian translation audit completed for Notify urban issue managem
 bash bashscripts/translations/extract-english-strings.sh ALL
 
 # Single module
+<<<<<<< HEAD
 bash bashscripts/translations/extract-english-strings.sh Fixcity
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 bash bashscripts/translations/extract-english-strings.sh App
 ```
 
@@ -123,7 +138,10 @@ bash bashscripts/translations/extract-english-strings.sh App
 | 3 | Blog | 26 | 15 | Dual |
 | 4 | Cms | 45 | 26 | Dual |
 | 5 | Comment | 1 | 0 | Legacy only |
+<<<<<<< HEAD
 | 6 | Fixcity | 21 | 0 | **Critical** |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | 6 | App | 21 | 0 | **Critical** |
 | 7 | Gdpr | 9 | 2 | Dual |
 | 8 | Geo | 57 | 0 | Legacy only |
@@ -142,7 +160,10 @@ bash bashscripts/translations/extract-english-strings.sh App
 
 **Critical (P0):**
 - Structure inconsistency across 18 modules
+<<<<<<< HEAD
 - Fixcity and User modules using legacy structure
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - App and User modules using legacy structure
 - Seo module has NO translations
 

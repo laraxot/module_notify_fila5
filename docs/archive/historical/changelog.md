@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Rimando a changelog.md"
 description: "Documento unificato: il contenuto canonico vive in changelog.md."
@@ -14,6 +15,8 @@ Questo file era un duplicato esatto che differiva solo per maiuscole/minuscole, 
 
 ## Contenuto assorbito da `changelog.md`
 
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # Changelog - Modulo Notify
 
 Tutte le modifiche significative al modulo Notify saranno documentate in questo file.

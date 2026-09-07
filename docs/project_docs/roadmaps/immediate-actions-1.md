@@ -1,11 +1,17 @@
 ---
+<<<<<<< HEAD
 title: "🎯 AZIONI IMMEDIATE - FIXCITY PLATFORM"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 title: "🎯 AZIONI IMMEDIATE - NOTIFY PLATFORM"
 type: concept
 tags: [immediate, actions, 2025, 27.deprecated]
 created: 2026-07-14
 updated: 2026-07-14
+<<<<<<< HEAD
 qmd: "immediate-actions-2025-01-27.deprecated 🎯 azioni immediate - fixcity platform"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 qmd: "immediate-actions-2025-01-27.deprecated 🎯 azioni immediate - laraxot platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -20,7 +26,10 @@ related:
   - "./code-quality-improvements-1.md"
 ---
 
+<<<<<<< HEAD
 # 🎯 AZIONI IMMEDIATE - FIXCITY PLATFORM
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # 🎯 AZIONI IMMEDIATE - NOTIFY PLATFORM
 
 **Data**: 27 Gennaio 2025  
@@ -35,7 +44,10 @@ related:
 **Status**: 0% - **BLOCCANTE PER PRODUZIONE**
 
 #### Azioni Immediate
+<<<<<<< HEAD
 - [ ] **Week 1**: Implementare test per moduli core (Xot, User, Fixcity)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [ ] **Week 1**: Implementare test per moduli core (Xot, User, App)
 - [ ] **Week 2**: Implementare test per moduli support (UI, Geo, Media, Notify)
 - [ ] **Week 3**: Implementare test per moduli features (Comment, Rating, Activity)
@@ -47,7 +59,10 @@ related:
 - **Q3 2025**: Test coverage > 90%
 
 ### 2. API Development Completion (HIGH)
+<<<<<<< HEAD
 **Status**: 45% - **FIXCITY MODULE**
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Status**: 45% - **NOTIFY MODULE**
 
 #### Azioni Immediate
@@ -61,7 +76,10 @@ related:
 - **Q2 2025**: API v2 with advanced features
 
 ### 3. Mobile Optimization (HIGH)
+<<<<<<< HEAD
 **Status**: 55% - **FIXCITY MODULE**
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Status**: 55% - **NOTIFY MODULE**
 
 #### Azioni Immediate
@@ -252,7 +270,10 @@ related:
 
 ---
 
+<<<<<<< HEAD
 *Questo documento definisce le azioni immediate per completare il progetto FixCity Platform nei prossimi 30 giorni.*
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 *Questo documento definisce le azioni immediate per completare il progetto Notify Platform nei prossimi 30 giorni.*
 
 

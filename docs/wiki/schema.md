@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # LLM Wiki Schema — FixCity
 
 Questo file è il "AGENTS.md" della wiki: istruzioni per l'LLM su come mantenere la wiki.
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # LLM Wiki Schema — Notify
 
 Questo file è il "agents.md" della wiki: istruzioni per l'LLM su come mantenere la wiki.
@@ -141,7 +144,10 @@ Per wiki di **modulo** (`Modules/<Name>/docs/wiki/`):
 
 ---
 
+<<<<<<< HEAD
 ## Stack FixCity — Vocabolario Wiki
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## Stack Notify — Vocabolario Wiki
 
 Termini specifici del progetto da usare consistentemente:
@@ -161,7 +167,10 @@ Termini specifici del progetto da usare consistentemente:
 
 ---
 
+<<<<<<< HEAD
 ## Note sul Contesto FixCity
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## Note sul Contesto Notify
 
 - **13.174+ file raw** nei moduli — non si leggono tutti in una sessione

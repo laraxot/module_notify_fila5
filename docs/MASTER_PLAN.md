@@ -423,11 +423,19 @@ docs/
 ├── README.md (✅ Project Overview)
 ├── MASTER_PLAN.md (✅ This document)
 ├── PROJECT_STATUS.md (✅ Status Report)
+<<<<<<< HEAD
 ├── ARCHITECTURE.md (📋 Technical Architecture)
 ├── API_REFERENCE.md (📋 API Documentation)
 ├── DEPLOYMENT.md (📋 Deployment Guide)
 └── modules/
     ├── fixcity/ (✅ Business Logic + Roadmap)
+=======
+├── architecture.md (📋 Technical Architecture)
+├── API_REFERENCE.md (📋 API Documentation)
+├── DEPLOYMENT.md (📋 Deployment Guide)
+└── modules/
+    ├── ptv/ (✅ Business Logic + Roadmap)
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     ├── user/ (✅ IAM + Roadmap)
     ├── notify/ (✅ Notifications + Roadmap)
     ├── geo/ (✅ Geolocation + Roadmap)
@@ -482,6 +490,9 @@ FixCity è posizionata per diventare la **piattaforma leader europea** per il ci
 - *Technical capabilities e constraints*
 - *Team composition e roadmap feasibility*
 
+<<<<<<< HEAD
 **Per domande o approfondimenti**: development@fixcity.io
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Per domande o approfondimenti**: development@ptv.io
 

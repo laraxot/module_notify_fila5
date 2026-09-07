@@ -15,7 +15,10 @@ related:
   - "./document-root-update-summary.md"
   - "./documentation-update-complete.md"
   - "./final-documentation-report.md"
+<<<<<<< HEAD
   - "./fixcity-improvement-progress-1.md"
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
   - "./laraxot-improvement-progress-1.md"
 ---
 
@@ -180,9 +183,12 @@ test -f bashscripts/git/subtrees/sync_remote_repo.sh || { echo "sync_remote_repo
 ## 🔗 Resources
 
 ### GitHub Links
+<<<<<<< HEAD
 - [Sync Remote Repo Action](https://github.com/laraxot/base_fixcity_fila5/actions/workflows/sync-remote-repo.yml)
 - [Sync Subtrees Action](https://github.com/laraxot/base_fixcity_fila5/actions/workflows/sync-subtrees.yml)
 - [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [Sync Remote Repo Action](https://github.com/laraxot/platform/actions/workflows/sync-remote-repo.yml)
 - [Sync Subtrees Action](https://github.com/laraxot/platform/actions/workflows/sync-subtrees.yml)
 - [Actions Tab](https://github.com/laraxot/platform/actions)

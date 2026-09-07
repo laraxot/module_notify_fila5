@@ -21,7 +21,10 @@ related:
 # 🏆 MODULES VALIDATION REPORT - Multi-Module PHPStan Level 9
 
 **Date**: 2025-10-02T20:14:00+02:00  
+<<<<<<< HEAD
 **Scope**: Fixcity + Cms Modules  
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Scope**: App + Cms Modules  
 **Validation Level**: PHPStan Level 9 (Maximum)  
 **Status**: ✅ **ALL MODULES VALIDATED**
@@ -36,7 +39,10 @@ This report documents the comprehensive validation of multiple Laravel modules a
 
 | Module | Files | PHPStan L9 | Type Safety | Status | Quality Score |
 |--------|-------|------------|-------------|--------|---------------|
+<<<<<<< HEAD
 | **Fixcity** | 25+ | ✅ 0 errors | 100% | Production Ready | **98/100** 🏆 |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | **App** | 25+ | ✅ 0 errors | 100% | Production Ready | **98/100** 🏆 |
 | **Cms** | 101 | ✅ 0 errors | 100% | Production Ready | **96/100** 🏆 |
 
@@ -44,14 +50,20 @@ This report documents the comprehensive validation of multiple Laravel modules a
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 Module 1: Fixcity - Civic Reporting System
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## 🎯 Module 1: App - Civic Reporting System
 
 ### Validation Results ✅
 
 #### PHPStan Level 9
 ```bash
+<<<<<<< HEAD
 ✅ 0 errors in all Fixcity files
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ✅ 0 errors in all App files
 ✅ Controllers validated
 ✅ Services validated  
@@ -378,10 +390,13 @@ PHPStan Level 9 is the **maximum** static analysis level and requires:
 ### Commands Used
 
 ```bash
+<<<<<<< HEAD
 # Fixcity validation
 ./vendor/bin/phpstan analyze --level=9 Modules/Fixcity/app/
 # Fixcity validation
 ./vendor/bin/phpstan analyze --level=9 Modules/Fixcity/app/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # App validation
 ./vendor/bin/phpstan analyze --level=9 Modules/App/app/
 
@@ -389,7 +404,10 @@ PHPStan Level 9 is the **maximum** static analysis level and requires:
 ./vendor/bin/phpstan analyze --level=9 Modules/Cms/app/
 
 # PHPMD validation
+<<<<<<< HEAD
 ./vendor/bin/phpmd Modules/Fixcity/app/ text phpmd.ruleset.xml
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ./vendor/bin/phpmd Modules/App/app/ text phpmd.ruleset.xml
 ./vendor/bin/phpmd Modules/Cms/app/ text phpmd.ruleset.xml
 ```
@@ -518,7 +536,10 @@ public function calculateStats(array $filters = []): array
 
 ## 🚀 Production Readiness Checklist
 
+<<<<<<< HEAD
 ### Fixcity Module - ✅ 100%
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ### App Module - ✅ 100%
 
 - [x] PHPStan Level 9 - 0 errors
@@ -549,7 +570,10 @@ public function calculateStats(array $filters = []): array
 
 ## 📊 Technical Debt Assessment
 
+<<<<<<< HEAD
 ### Fixcity Module
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ### App Module
 
 **Technical Debt**: **Minimal** (5%)
@@ -645,7 +669,10 @@ The upfront investment in strict typing and PHPStan Level 9 pays off **4x** in r
 │                                                         │
 │              🏆 PHPSTAN LEVEL 9 - 2 MODULES 🏆         │
 │                                                         │
+<<<<<<< HEAD
 │         FIXCITY (98/100) + CMS (96/100) = 97/100       │
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 │         NOTIFY (98/100) + CMS (96/100) = 97/100       │
 │                                                         │
 │              ✅ 0 ERRORS | 100% TYPE SAFE ✅           │

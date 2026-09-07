@@ -22,7 +22,10 @@ related:
 
 ## Panoramica
 
+<<<<<<< HEAD
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 
 ## Template Disponibili
@@ -44,13 +47,19 @@ MailPace offre i seguenti template transazionali:
 - **Performance** - Ottimizzati per caricamento veloce
 - **Personalizzazione** - Facilmente personalizzabili con Maizzle
 
+<<<<<<< HEAD
 ## Integrazione 
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## Integrazione
 
 ### Struttura della Directory
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 [project-root]/laravel/Modules/Notify/resources/mail-layouts/
 ├── default.html       # Layout base per la maggior parte delle email
 ├── main.html          # Alternativa semplificata
@@ -102,7 +111,10 @@ use Modules\Notify\Models\MailTemplate;
 
 $mailTemplate = MailTemplate::findBySlug('welcome-email');
 $mailTemplate->send($user->email, [
+<<<<<<< HEAD
     'name' => $user->name, 
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     'name' => $user->name,
     'action_url' => $actionUrl
 ]);
@@ -113,7 +125,10 @@ $mailTemplate->send($user->email, [
 1. **Mantieni la Struttura Base** - Non modificare la struttura HTML base per garantire compatibilità
 2. **Usa Variabili** - Utilizza variabili Blade per contenuti dinamici
 3. **Test Cross-Client** - Testa i template su diversi client email
+<<<<<<< HEAD
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
 
 ## Riferimenti

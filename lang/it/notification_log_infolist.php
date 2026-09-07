@@ -6,4 +6,10 @@ return [
     'fields' => [
         'id' => ['label' => 'id'],
         'name' => ['label' => 'name'],
+<<<<<<< HEAD
         'created_at' => ['label' => 'created_at']]];
+=======
+        'created_at' => ['label' => 'created_at'],
+    ],
+];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])

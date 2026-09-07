@@ -290,7 +290,10 @@ All Active requirements are hypotheses until shipped and validated.
 
 Infer Validated requirements from existing code:
 
+<<<<<<< HEAD
 1. Read `.planning/codebase/ARCHITECTURE.md` and `STACK.md`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 1. Read `.planning/codebase/architecture.md` and `STACK.md`
 2. Identify what the codebase already does
 3. These become the initial Validated set
@@ -647,7 +650,10 @@ How are [domain] systems typically structured? What are major components?
 </files_to_read>
 
 <downstream_consumer>
+<<<<<<< HEAD
 Your ARCHITECTURE.md informs phase structure in roadmap. Include:
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Your architecture.md informs phase structure in roadmap. Include:
 - Component boundaries (what talks to what)
 - Data flow (how information moves)
@@ -661,8 +667,11 @@ Your architecture.md informs phase structure in roadmap. Include:
 </quality_gate>
 
 <output>
+<<<<<<< HEAD
 Write to: .planning/research/ARCHITECTURE.md
 Use template: .github/get-shit-done/templates/research-project/ARCHITECTURE.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Write to: .planning/research/architecture.md
 Use template: .github/get-shit-done/templates/research-project/architecture.md
 </output>
@@ -720,7 +729,10 @@ Synthesize research outputs into SUMMARY.md.
 <files_to_read>
 - .planning/research/STACK.md
 - .planning/research/FEATURES.md
+<<<<<<< HEAD
 - .planning/research/ARCHITECTURE.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - .planning/research/architecture.md
 - .planning/research/PITFALLS.md
 </files_to_read>

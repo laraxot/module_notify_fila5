@@ -229,7 +229,10 @@ Level 3: Themes
 
 #### Wave 2: Core Structure 🟡 IN PROGRESS
 - 🟡 Create central roadmap.md (THIS FILE)
+<<<<<<< HEAD
 - [ ] Create unified INDEX.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [ ] Create unified index.md
 - [ ] Create MODULE_ROADMAPS.md
 - [ ] Create TIMELINE.md
@@ -439,7 +442,10 @@ Sep 2024          Q4 2025          Q1 2026          Q2 2026          2027+
 
 1. **Phase 11 Wave 2**: Complete core documentation structure
    - ✅ Create central roadmap.md (THIS FILE)
+<<<<<<< HEAD
    - 🟡 Update INDEX.md with navigation
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
    - 🟡 Update index.md with navigation
    - 🟡 Create MODULE_ROADMAPS.md
    - 🟡 Create TIMELINE.md
@@ -466,7 +472,10 @@ Sep 2024          Q4 2025          Q1 2026          Q2 2026          2027+
 - 🟡 Phase 12+ outlined with objectives and timelines
 - 📅 Old roadmap files archived (not deleted)
 - 📅 Migration guide created for old locations
+<<<<<<< HEAD
 - 📅 INDEX.md updated with roadmap link
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - 📅 index.md updated with roadmap link
 - 📅 All internal links verified (no 404s)
 - 📅 Module-specific roadmaps linked from central hub

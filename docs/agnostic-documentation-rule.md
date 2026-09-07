@@ -57,8 +57,11 @@ Replace specific names with placeholders:
 | Instead Of | Use |
 |------------|-----|
 | `FixCity` | `[PROJECT_NAME]` or `[Platform Name]` |
+<<<<<<< HEAD
 | `fixcity.local` | `[DOMAIN]` or `your-project.local` |
 | `fixcity::` | `module_name::` or `your_module::` |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | `ptv.local` | `[DOMAIN]` or `your-project.local` |
 | `ptv::` | `module_name::` or `your_module::` |
 | `laravel/Modules/Fixcity` | `laravel/Modules/[ModuleName]` |
@@ -66,8 +69,11 @@ Replace specific names with placeholders:
 ### 3. File Naming
 
 **❌ WRONG**:
+<<<<<<< HEAD
 - `fixcity-pages-content-blocks.md`
 - `fixcity-integration.md`
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - `ptv-pages-content-blocks.md`
 - `ptv-integration.md`
 - `project-name-setup.md`
@@ -82,8 +88,11 @@ Replace specific names with placeholders:
 **❌ WRONG**:
 ```php
 namespace Modules\Fixcity\Models;
+<<<<<<< HEAD
 route('fixcity.tickets.index')
 config('fixcity.settings')
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 route('ptv.tickets.index')
 config('ptv.settings')
 ```
@@ -101,7 +110,10 @@ When linking to other docs, use **relative paths** without project names:
 
 **❌ WRONG**:
 ```markdown
+<<<<<<< HEAD
 - [FixCity Integration](../../fixcity/docs/roadmap.md)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [FixCity Integration](../../ptv/docs/roadmap.md)
 - [See Fixcity Module](../../../Modules/Fixcity/docs/)
 ```

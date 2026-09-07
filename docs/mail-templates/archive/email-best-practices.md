@@ -35,7 +35,10 @@ Questo documento descrive le best practices per la creazione e gestione di email
 
 ### 2. Branding Coerente
 
+<<<<<<< HEAD
 - **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
 - **Voce e tono**: Mantenere un tono professionale ma amichevole
 - **Firma coerente**: Includere sempre lo stesso formato di firma e disclaimer
@@ -69,7 +72,10 @@ Questo documento descrive le best practices per la creazione e gestione di email
 - Separare il contenuto dalla presentazione per facilitare le traduzioni
 - Supportare lingue RTL quando necessario
 
+<<<<<<< HEAD
 ## Template e Layout 
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## Template e Layout
 
 ### Utilizzo di MailPace Templates
@@ -83,7 +89,10 @@ I template di [mailpace/templates](https://github.com/mailpace/templates) integr
 
 ### Directory `mail-layouts`
 
+<<<<<<< HEAD
 La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 La directory `[project-root]/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 
 - **default.html**: Template base per la maggior parte delle comunicazioni
@@ -93,7 +102,10 @@ La directory `[project-root]/laravel/Modules/Notify/resources/mail-layouts/` con
 
 ### Integrazione con Spatie Mail Templates
 
+<<<<<<< HEAD
 Seguendo le regole di progetto SaluteOra, ricordare di:
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Seguendo le regole di progetto <nome progetto>, ricordare di:
 
 - NON creare controller personalizzati per gestire l'invio di email

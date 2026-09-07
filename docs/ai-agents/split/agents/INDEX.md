@@ -19,7 +19,10 @@ related:
 ---
 # BMad Agents Index
 
+<<<<<<< HEAD
 **Source**: [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md) (lines 40-904)  
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Source**: [`../../../../agents.md`](../../../../../../../../../../agents.md) (lines 40-904)  
 **Total Agents**: 10  
 **Last Updated**: 2026-04-11  
@@ -41,7 +44,10 @@ related:
 | 9 | Architect | architect | [architect.md](architect.md) | 82 | System design, architecture docs |
 | 10 | Business Analyst | analyst | [business-analyst.md](business-analyst.md) | 85 | Market research, competitive analysis |
 
+<<<<<<< HEAD
 **Total Lines**: ~865 (split from ../../../../AGENTS.md lines 40-904)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Total Lines**: ~865 (split from ../../../../agents.md lines 40-904)
 
 ---
@@ -68,7 +74,10 @@ To activate an agent, mention their ID or name in your request:
 - "Use Product Manager to create a PRD..."
 - "As dev, implement the story..."
 
+<<<<<<< HEAD
 For full agent definitions, see the original [`../../../../AGENTS.md`](../../../../../../../../../../AGENTS.md).
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 For full agent definitions, see the original [`../../../../agents.md`](../../../../../../../../../../agents.md).
 
 ---

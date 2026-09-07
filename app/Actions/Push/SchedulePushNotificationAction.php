@@ -7,7 +7,11 @@ namespace Modules\Notify\Actions\Push;
 use DateTime;
 use Illuminate\Support\Facades\Cache;
 use Modules\Notify\Datas\PushNotificationData;
+<<<<<<< HEAD
 use Spatie\QueueableAction\ActionJob;
+=======
+use Modules\Notify\Jobs\SendScheduledPushNotification;
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -29,6 +33,7 @@ class SchedulePushNotificationAction
             'tokens' => $tokens,
             'notification' => $notification->toArray(),
             'data' => $data,
+<<<<<<< HEAD
             'schedule_time' => $scheduleTime->getTimestamp()], $scheduleTime);
 
         // ActionJob::dispatch(...) invece di onQueue()->execute(...): il docblock
@@ -37,6 +42,12 @@ class SchedulePushNotificationAction
         // nuovo il nostro metodo (void) e boccia ->delay() su null. Dispatchable::
         // dispatch() di Laravel e' tipizzato correttamente e supporta ->delay().
         ActionJob::dispatch(app(SendScheduledPushNotificationAction::class), [$jobId])
+=======
+            'schedule_time' => $scheduleTime->getTimestamp(),
+        ], $scheduleTime);
+
+        SendScheduledPushNotification::dispatch($jobId)
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             ->delay($scheduleTime);
 
         return $jobId;

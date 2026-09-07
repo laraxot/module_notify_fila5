@@ -64,10 +64,18 @@ if(in_array($this->getColumnType('subject'), ['text', 'string'])) {
     DB::table('mail_templates')->whereNotNull('subject')->update([
         'subject' => DB::raw("JSON_OBJECT('it', subject)")
     ]);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     // Passo 2: Gestire i valori NULL (opzionale)
     DB::table('mail_templates')->whereNull('subject')->update([
         'subject' => DB::raw("JSON_OBJECT('it', '')")
     ]);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     // Passo 3: Ora è sicuro cambiare il tipo di colonna
     $table->json('subject')->nullable()->change();
 }
@@ -91,7 +99,10 @@ MailTemplate::whereNotNull('subject')->each(function ($template) {
 
 Un'altra strategia sicura è:
 
+<<<<<<< HEAD
 1. **Creare una nuova colonna** JSON 
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 1. **Creare una nuova colonna** JSON
 2. **Migrare i dati** dalla vecchia colonna a quella nuova, convertendoli
 3. **Eliminare la vecchia colonna**
@@ -102,10 +113,18 @@ Un'altra strategia sicura è:
 if(in_array($this->getColumnType('subject'), ['text', 'string'])) {
     // Passo 1: Aggiungi colonna temporanea
     $table->json('subject_json')->nullable()->after('subject');
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     // Passo 2: Migra i dati (da eseguire dopo la modifica dello schema)
     Schema::table('mail_templates', function (Blueprint $table) {
         DB::statement("UPDATE mail_templates SET subject_json = JSON_OBJECT('it', subject) WHERE subject IS NOT NULL");
     });
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     // Passo 3: Elimina vecchia colonna
     $table->dropColumn('subject');
 
@@ -136,9 +155,12 @@ if(!$this->hasColumn('subject')) {
 }
 ```
 
+<<<<<<< HEAD
 ## Applicazione a SaluteOra
 
 Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## Applicazione a <nome progetto>
 
 Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
@@ -152,7 +174,10 @@ Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversi
 È necessario esaminare tutte le migrazioni esistenti per identificare pattern simili di conversione diretta a JSON:
 
 ```bash
+<<<<<<< HEAD
 grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 grep -r "json.*change" [project-root]/laravel/Modules/*/database/migrations/
 ```
 

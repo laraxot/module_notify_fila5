@@ -29,7 +29,12 @@ class ListContacts extends XotBaseListRecords
             'message' => TextColumn::make('message')->searchable()->sortable(),
             'is_read' => IconColumn::make('is_read')->boolean(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
+<<<<<<< HEAD
             'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()];
+=======
+            'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable(),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -41,7 +46,12 @@ class ListContacts extends XotBaseListRecords
             'active' => Filter::make('active')->query(fn (Builder $query): Builder => $query->where('active', true)),
             'inactive' => Filter::make('inactive')->query(
                 fn (Builder $query): Builder => $query->where('active', false),
+<<<<<<< HEAD
             )];
+=======
+            ),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     #[Override]
@@ -49,10 +59,13 @@ class ListContacts extends XotBaseListRecords
     {
         return self::contactTableColumns();
     }
+<<<<<<< HEAD
 
     #[Override]
     public function getTableFilters(): array
     {
         return self::contactTableFilters();
     }
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 }

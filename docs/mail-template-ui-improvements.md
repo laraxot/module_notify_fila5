@@ -158,8 +158,13 @@ Section::make('Informazioni Template')
 ## Collegamenti Correlati
 
 - [Documentazione Filament](https://filamentphp.com/docs)
+<<<<<<< HEAD
 - [Best Practices UI/UX](./BEST-PRACTICES.md)
 - [Componenti Filament](./FILAMENT_COMPONENTS.md)
+=======
+- [Best Practices UI/UX](./best-practices.md)
+- [Componenti Filament](./filament_components.md)
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ## Note Importanti
 

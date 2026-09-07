@@ -46,7 +46,10 @@ related:
 Tutti i moduli `app/` sono **PERFETTI** al livello MAX di PHPStan:
 
 - ✅ User (362 file) - 0 errori
+<<<<<<< HEAD
 - ✅ Fixcity (86 file) - 0 errori  
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - ✅ App (86 file) - 0 errori  
 - ✅ Notify (0 file analizzati) - 0 errori
 - ✅ Cms (0 file analizzati) - 0 errori

@@ -5,10 +5,17 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 // use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
+<<<<<<< HEAD
 use Exception;
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
+=======
+use Carbon\Carbon;
+use Exception;
+use Illuminate\Contracts\Mail\Mailable;
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 use Spatie\Sluggable\HasSlug;
@@ -16,6 +23,7 @@ use Spatie\Sluggable\SlugOptions;
 use Spatie\Translatable\HasTranslations;
 
 /**
+<<<<<<< HEAD
  * @property-read list<string> $translatable_columns_from
  * @property-read array<string, mixed> $variables
  * @property-read mixed $translations
@@ -46,10 +54,35 @@ use Spatie\Translatable\HasTranslations;
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  * @method static Builder<static>|MailTemplate whereCounter($value)
+=======
+ * @property int $id
+ * @property string $mailable
+ * @property string|null $subject
+ * @property string|null $html_layout_path
+ * @property string $html_template
+ * @property string|null $text_template
+ * @property int $version
+ * @property Carbon $created_at
+ * @property Carbon $updated_at
+ * @property Carbon|null $deleted_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property string|null $deleted_by
+ * @property string $name
+ * @property string $slug
+ * @property array<string, mixed> $variables
+ * @property array<string, array<string, mixed>> $translations
+ *
+ * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
+ * @method static Builder<static>|MailTemplate newModelQuery()
+ * @method static Builder<static>|MailTemplate newQuery()
+ * @method static Builder<static>|MailTemplate query()
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
  * @method static Builder<static>|MailTemplate whereCreatedAt($value)
  * @method static Builder<static>|MailTemplate whereCreatedBy($value)
  * @method static Builder<static>|MailTemplate whereDeletedAt($value)
  * @method static Builder<static>|MailTemplate whereDeletedBy($value)
+<<<<<<< HEAD
  * @method static Builder<static>|MailTemplate whereHtmlLayoutPath($value)
  * @method static Builder<static>|MailTemplate whereHtmlTemplate($value)
  * @method static Builder<static>|MailTemplate whereId($value)
@@ -58,11 +91,40 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereParams($value)
  * @method static Builder<static>|MailTemplate whereSlug($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
+=======
+ * @method static Builder<static>|MailTemplate whereHtmlTemplate($value)
+ * @method static Builder<static>|MailTemplate whereId($value)
+ * @method static Builder<static>|MailTemplate whereJsonContainsLocale(string $column, string $locale, mixed $value, string $operand = '=')
+ * @method static Builder<static>|MailTemplate whereJsonContainsLocales(string $column, array<int, string> $locales, mixed $value, string $operand = '=')
+ * @method static Builder<static>|MailTemplate whereLocale(string $column, string $locale)
+ * @method static Builder<static>|MailTemplate whereLocales(string $column, array<int, string> $locales)
+ * @method static Builder<static>|MailTemplate whereMailable($value)
+ * @method static Builder<static>|MailTemplate whereName($value)
+ * @method static Builder<static>|MailTemplate whereSlug($value)
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
  * @method static Builder<static>|MailTemplate whereSubject($value)
  * @method static Builder<static>|MailTemplate whereTextTemplate($value)
  * @method static Builder<static>|MailTemplate whereUpdatedAt($value)
  * @method static Builder<static>|MailTemplate whereUpdatedBy($value)
+<<<<<<< HEAD
  * @method static Builder<static>|MailTemplate whereVersion($value)
+=======
+ *
+ * @property array<int, string>|null $params
+ *
+ * @method static Builder<static>|MailTemplate whereParams($value)
+ *
+ * @property array<string, mixed>|null $sms_template
+ * @property array<string, mixed>|null $whatsapp_template
+ * @property int $counter
+ *
+ * @method static Builder<static>|MailTemplate whereCounter($value)
+ * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
+ * @method static Builder<static>|MailTemplate whereWhatsappTemplate($value)
+ * @method static Builder<static>|MailTemplate whereHtmlLayoutPath($value)
+ * @method static Builder<static>|MailTemplate whereVersion($value)
+ *
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
@@ -90,7 +152,12 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         'whatsapp_template',
         // 'version',  //under development
         'params',
+<<<<<<< HEAD
         'counter'];
+=======
+        'counter',
+    ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
     /**
      * Get the options for generating the slug.
@@ -126,6 +193,11 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         return [
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
+<<<<<<< HEAD
             'deleted_at' => 'datetime'];
+=======
+            'deleted_at' => 'datetime',
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 }

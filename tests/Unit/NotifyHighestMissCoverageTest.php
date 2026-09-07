@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Mail\Mailables\Address;
@@ -54,18 +55,35 @@ use Modules\Notify\Filament\Clusters\Test\Pages\SendSmsPage;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendSpatieEmailPage;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendTelegramPage;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendWhatsAppPage;
+=======
+use Safe\DateTime;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Facades\Notification;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Queue;
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
+<<<<<<< HEAD
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Schemas\NotificationTemplateForm;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Schemas\NotifyThemeForm;
+=======
+use Modules\Notify\Filament\Resources\NotifyThemeResource;
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 use Modules\Notify\Helpers\ConfigHelper;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotifyTheme;
+<<<<<<< HEAD
 use Modules\Notify\Notifications\GenericNotification;
 use Modules\Notify\Tests\Unit\Traits\NotifyTrackingDummy;
 use PHPUnit\Framework\Assert;
@@ -77,6 +95,22 @@ use function Pest\Laravel\artisan;
 use function Safe\file_put_contents;
 use function Safe\unlink;
 
+=======
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Modules\Notify\Notifications\GenericNotification;
+use Modules\Notify\Services\PushNotificationService;
+use Modules\Notify\Tests\Unit\Traits\NotifyTrackingDummy;
+use Modules\Notify\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+use ReflectionClass;
+use ReflectionMethod;
+
+use function Safe\file_put_contents;
+use function Safe\unlink;
+
+uses(TestCase::class)->group('no-notify-db');
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 /**
  * @param  class-string  $class
  */
@@ -158,6 +192,7 @@ function notifyEnsureTemplateTable(): void
 describe('Notify highest-miss coverage', function (): void {
     test('cluster test pages expose form schemas', function (): void {
         $pages = [
+<<<<<<< HEAD
             SendEmailPage::class => ['getEmailFormSchema'],
             SendNetfunSmsPage::class => ['getSmsFormSchema'],
             SendWhatsAppPage::class => ['getWhatsAppFormSchema'],
@@ -166,6 +201,17 @@ describe('Notify highest-miss coverage', function (): void {
             SendAwsEmailPage::class => ['getEmailFormSchema'],
             SendSpatieEmailPage::class => ['getEmailFormSchema'],
             SendSmsPage::class => ['getSmsFormSchema']];
+=======
+            \Modules\Notify\Filament\Clusters\Test\Pages\SendEmailPage::class => ['getEmailFormSchema'],
+            \Modules\Notify\Filament\Clusters\Test\Pages\SendNetfunSmsPage::class => ['getSmsFormSchema'],
+            \Modules\Notify\Filament\Clusters\Test\Pages\SendWhatsAppPage::class => ['getWhatsAppFormSchema'],
+            \Modules\Notify\Filament\Clusters\Test\Pages\SendTelegramPage::class => ['getTelegramFormSchema'],
+            \Modules\Notify\Filament\Clusters\Test\Pages\SendFirebasePushNotificationPage::class => ['getPushFormSchema'],
+            \Modules\Notify\Filament\Clusters\Test\Pages\SendAwsEmailPage::class => ['getEmailFormSchema'],
+            \Modules\Notify\Filament\Clusters\Test\Pages\SendSpatieEmailPage::class => ['getEmailFormSchema'],
+            \Modules\Notify\Filament\Clusters\Test\Pages\SendSmsPage::class => ['getSmsFormSchema'],
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         foreach ($pages as $class => $methods) {
             $page = notifyPageWithoutLivewire($class);
@@ -179,6 +225,7 @@ describe('Notify highest-miss coverage', function (): void {
 
     test('resources expose model pages and legacy form schema', function (): void {
         Assert::assertSame(NotificationTemplate::class, NotificationTemplateResource::getModel());
+<<<<<<< HEAD
         Assert::assertArrayHasKey('name', NotificationTemplateResource::getFormSchema());
         Assert::assertNotEmpty(NotificationTemplateResource::getPages());
 
@@ -199,6 +246,28 @@ describe('Notify highest-miss coverage', function (): void {
     });
 
     test('Push actions send fakes schedules and guards empty targets', function (): void {
+=======
+        Assert::assertArrayHasKey('name', NotificationTemplateResource::getFormSchemaOld());
+        Assert::assertNotEmpty(NotificationTemplateResource::getPages());
+
+        Assert::assertSame(NotifyTheme::class, NotifyThemeResource::getModel());
+        Assert::assertArrayHasKey('subject', NotifyThemeResource::getFormSchemaOld());
+        Assert::assertNotEmpty(NotifyThemeResource::getPages());
+
+        Assert::assertSame(MailTemplate::class, MailTemplateResource::getModel());
+        Assert::assertNotEmpty(MailTemplateResource::getFormSchemaOld());
+        Assert::assertNotEmpty(MailTemplateResource::getPages());
+
+        Assert::assertSame(\Modules\Notify\Models\Notification::class, NotificationResource::getModel());
+        Assert::assertNotEmpty(NotificationResource::getFormSchemaOld());
+
+        Assert::assertSame(Contact::class, ContactResource::getModel());
+        Assert::assertNotEmpty(ContactResource::getFormSchemaOld());
+        Assert::assertNotEmpty(ContactResource::getPages());
+    });
+
+    test('PushNotificationService sends fakes schedules and guards empty targets', function (): void {
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         config([
             'notify.fcm.server_key' => 'test-key',
             'notify.apns.certificate' => null,
@@ -206,6 +275,7 @@ describe('Notify highest-miss coverage', function (): void {
             'notify.apns.url' => 'https://api.push.apple.com',
             'notify.webpush.vapid_public' => 'pub',
             'notify.webpush.vapid_private' => 'priv',
+<<<<<<< HEAD
             'notify.webpush.vapid_subject' => 'mailto:test@example.com']);
         Http::fake([
             'https://fcm.googleapis.com/*' => Http::response(['message_id' => 'mid-1'], 200)]);
@@ -219,11 +289,28 @@ describe('Notify highest-miss coverage', function (): void {
         $apnsToken = str_repeat('ab', 32);
 
         $one = app(SendPushToDeviceAction::class)->execute($fcmToken, $notification, ['k' => 'v']);
+=======
+            'notify.webpush.vapid_subject' => 'mailto:test@example.com',
+        ]);
+        Http::fake([
+            'https://fcm.googleapis.com/*' => Http::response(['message_id' => 'mid-1'], 200),
+        ]);
+        Queue::fake();
+        config(['cache.default' => 'array']);
+
+        $service = new PushNotificationService();
+        $notification = ['title' => 'Ciao', 'body' => 'Test'];
+        $fcmToken = str_repeat('a', 80).':'.str_repeat('b', 40);
+        $apnsToken = str_repeat('ab', 32);
+
+        $one = $service->sendToDevice($fcmToken, $notification, ['k' => 'v']);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         Assert::assertArrayHasKey('fcm', $one);
         Assert::assertTrue($one['fcm']['success']);
         Assert::assertTrue($one['apns']['success']);
         Assert::assertTrue($one['webpush']['success']);
 
+<<<<<<< HEAD
         $batch = app(SendPushToDevicesAction::class)->execute([$fcmToken, $apnsToken, 'web-token'], $notification);
         Assert::assertArrayHasKey('fcm', $batch);
 
@@ -240,6 +327,24 @@ describe('Notify highest-miss coverage', function (): void {
             ->toThrow(\Exception::class);
 
         $jobId = app(SchedulePushNotificationAction::class)->execute(['t1'], $notification, [], new DateTime('+1 hour'));
+=======
+        $batch = $service->sendToDevices([$fcmToken, $apnsToken, 'web-token'], $notification);
+        Assert::assertArrayHasKey('fcm', $batch);
+
+        $topic = $service->sendToTopic('news', $notification);
+        Assert::assertArrayHasKey('fcm', $topic);
+
+        $emptyAll = $service->sendToAll($notification);
+        Assert::assertFalse($emptyAll['success']);
+
+        $emptyTarget = $service->sendWithTargeting(['platform' => 'unknown'], $notification);
+        Assert::assertFalse($emptyTarget['success']);
+
+        expect(fn (): mixed => $service->sendWithTemplate('missing', ['t']))
+            ->toThrow(\Exception::class);
+
+        $jobId = $service->scheduleNotification(['t1'], $notification, [], new DateTime('+1 hour'));
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         Assert::assertStringStartsWith('push_', $jobId);
     });
 
@@ -249,7 +354,12 @@ describe('Notify highest-miss coverage', function (): void {
             'notify.template_variables' => ['year' => '2026'],
             'notify.test_data' => ['hello' => 'Hi {{name}}'],
             'notify.webhooks' => ['url' => 'https://example.test'],
+<<<<<<< HEAD
             'notify.email' => ['from' => 'noreply@example.test']]);
+=======
+            'notify.email' => ['from' => 'noreply@example.test'],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $replaced = ConfigHelper::replaceTemplateVariables(['msg' => 'Anno {{year}}']);
         Assert::assertSame('Anno 2026', $replaced['msg']);
@@ -262,8 +372,13 @@ describe('Notify highest-miss coverage', function (): void {
     });
 
     test('analyze translations artisan command runs against module lang', function (): void {
+<<<<<<< HEAD
         $pending = artisan('notify:analyze-translations');
         if ($pending instanceof PendingCommand) {
+=======
+        $pending = $this->artisan('notify:analyze-translations');
+        if ($pending instanceof \Illuminate\Testing\PendingCommand) {
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             $pending->assertExitCode(0);
 
             return;
@@ -275,6 +390,7 @@ describe('Notify highest-miss coverage', function (): void {
     test('push actions send across fcm apns and webpush with fakes', function (): void {
         config([
             'notify.fcm.server_key' => 'test-key',
+<<<<<<< HEAD
             'notify.fcm.url' => 'https://fcm.googleapis.com/fcm/send']);
         Http::fake([
             'https://fcm.googleapis.com/*' => Http::response(['message_id' => 'mid-2'], 200)]);
@@ -294,6 +410,30 @@ describe('Notify highest-miss coverage', function (): void {
         Assert::assertArrayHasKey('fcm', $devices);
 
         $topic = (new SendPushToTopicAction)->execute('news', $notification);
+=======
+            'notify.fcm.url' => 'https://fcm.googleapis.com/fcm/send',
+        ]);
+        Http::fake([
+            'https://fcm.googleapis.com/*' => Http::response(['message_id' => 'mid-2'], 200),
+        ]);
+
+        $notification = \Modules\Notify\Datas\PushNotificationData::from([
+            'title' => 'Titolo',
+            'body' => 'Corpo',
+        ]);
+        $fcmToken = str_repeat('a', 80).':'.str_repeat('b', 40);
+        $apnsToken = str_repeat('ab', 32);
+
+        $platform = (new \Modules\Notify\Actions\Push\SendPushToPlatformAction())->execute('fcm', $fcmToken, $notification);
+        Assert::assertTrue($platform['success']);
+        Assert::assertTrue((new \Modules\Notify\Actions\Push\SendPushToPlatformAction())->execute('apns', $apnsToken, $notification)['success']);
+        Assert::assertTrue((new \Modules\Notify\Actions\Push\SendPushToPlatformAction())->execute('webpush', 'web-token', $notification)['success']);
+
+        $devices = (new \Modules\Notify\Actions\Push\SendPushToDevicesAction())->execute([$fcmToken, $apnsToken], $notification);
+        Assert::assertArrayHasKey('fcm', $devices);
+
+        $topic = (new \Modules\Notify\Actions\Push\SendPushToTopicAction())->execute('news', $notification);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         Assert::assertArrayHasKey('fcm', $topic);
     });
 
@@ -305,6 +445,7 @@ describe('Notify highest-miss coverage', function (): void {
             'services.telegram.token' => 'telegram-token',
             'whatsapp.debug' => false,
             'whatsapp.timeout' => 5,
+<<<<<<< HEAD
             'whatsapp.from' => '+390000000000']);
 
         $whatsappData = WhatsAppData::from([
@@ -324,6 +465,31 @@ describe('Notify highest-miss coverage', function (): void {
             SendOfficialTelegramAction::class] as $class) {
             try {
                 $action = new $class;
+=======
+            'whatsapp.from' => '+390000000000',
+        ]);
+
+        $whatsappData = \Modules\Notify\Datas\WhatsAppData::from([
+            'recipient' => '+393331112233',
+            'body' => 'Ciao',
+        ]);
+        $telegramData = \Modules\Notify\Datas\TelegramData::from([
+            'chatId' => '12345',
+            'text' => 'Ciao',
+        ]);
+
+        foreach ([
+            \Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction::class,
+            \Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction::class,
+            \Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction::class,
+            \Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction::class,
+            \Modules\Notify\Actions\Telegram\SendBotmanTelegramAction::class,
+            \Modules\Notify\Actions\Telegram\SendNutgramTelegramAction::class,
+            \Modules\Notify\Actions\Telegram\SendOfficialTelegramAction::class,
+        ] as $class) {
+            try {
+                $action = new $class();
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
                 $data = str_contains($class, 'Telegram') ? $telegramData : $whatsappData;
                 $result = $action->execute($data);
                 Assert::assertNotEmpty($result);
@@ -333,6 +499,7 @@ describe('Notify highest-miss coverage', function (): void {
         }
     });
 
+<<<<<<< HEAD
     test('SendSmsAction validates missing engine and accepts local vars', function (): void {
         // Ex `SmsService::make()->setLocalVars()->mergeVars()->send()` (rimosso, vedi
         // notify-services-to-actions.story.md): un solo execute() sostituisce la catena
@@ -345,6 +512,17 @@ describe('Notify highest-miss coverage', function (): void {
 
         Assert::assertSame('+390000000000', $action->to);
         Assert::assertSame('bar', $action->vars['foo']);
+=======
+    test('SmsService validates missing engine and accepts local vars', function (): void {
+        $service = \Modules\Notify\Services\SmsService::make()
+            ->setLocalVars(['to' => '+390000000000', 'body' => 'Test'])
+            ->mergeVars(['foo' => 'bar']);
+        Assert::assertSame('+390000000000', $service->to);
+        Assert::assertSame('bar', $service->vars['foo']);
+
+        expect(fn (): \Modules\Notify\Services\SmsService => $service->send())
+            ->toThrow(\RuntimeException::class);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     });
 
     test('sms actions normalize recipients before provider call', function (): void {
@@ -354,6 +532,7 @@ describe('Notify highest-miss coverage', function (): void {
             'sms.drivers.netfun.api_url' => 'https://example.test/sms',
             'sms.drivers.twilio.sid' => 'sid',
             'sms.drivers.twilio.token' => 'token',
+<<<<<<< HEAD
             'sms.drivers.twilio.from' => '+390000000000']);
 
         $sms = SmsData::from([
@@ -370,6 +549,27 @@ describe('Notify highest-miss coverage', function (): void {
             SendGammuSMSAction::class] as $class) {
             try {
                 $action = new $class;
+=======
+            'sms.drivers.twilio.from' => '+390000000000',
+        ]);
+
+        $sms = \Modules\Notify\Datas\SmsData::from([
+            'recipient' => '0039333123456',
+            'body' => 'Test',
+            'from' => 'APP',
+        ]);
+
+        foreach ([
+            \Modules\Notify\Actions\NetfunSendAction::class,
+            \Modules\Notify\Actions\SMS\SendNetfunSMSAction::class,
+            \Modules\Notify\Actions\SMS\SendTwilioSMSAction::class,
+            \Modules\Notify\Actions\SMS\SendNexmoSMSAction::class,
+            \Modules\Notify\Actions\SMS\SendPlivoSMSAction::class,
+            \Modules\Notify\Actions\SMS\SendGammuSMSAction::class,
+        ] as $class) {
+            try {
+                $action = new $class();
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
                 $action->execute($sms);
             } catch (\Throwable $e) {
                 Assert::assertNotSame('', $e->getMessage());
@@ -380,11 +580,19 @@ describe('Notify highest-miss coverage', function (): void {
     test('notification template and theme forms expose keyed schema', function (): void {
         Assert::assertArrayHasKey(
             'name',
+<<<<<<< HEAD
             NotificationTemplateForm::getFormSchema(),
         );
         Assert::assertArrayHasKey(
             'subject',
             NotifyThemeForm::getFormSchema(),
+=======
+            \Modules\Notify\Filament\Resources\NotificationTemplateResource\Schemas\NotificationTemplateForm::getFormSchema(),
+        );
+        Assert::assertArrayHasKey(
+            'subject',
+            \Modules\Notify\Filament\Resources\NotifyThemeResource\Schemas\NotifyThemeForm::getFormSchema(),
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         );
     });
 
@@ -402,12 +610,21 @@ describe('Notify highest-miss coverage', function (): void {
             'variables' => [],
             'is_active' => true,
             'conditions' => null,
+<<<<<<< HEAD
             'type' => 'email']);
+=======
+            'type' => 'email',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $recipient = notifyDummyRecipient(['email' => 'user@example.test']);
         Notification::fake();
 
+<<<<<<< HEAD
         $result = (new SendNotificationAction)->handle(
+=======
+        $result = (new \Modules\Notify\Actions\SendNotificationAction())->handle(
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             $recipient,
             'welcome-template',
         );
@@ -415,7 +632,11 @@ describe('Notify highest-miss coverage', function (): void {
         Assert::assertNull($result);
         Notification::assertSentTo($recipient, GenericNotification::class);
 
+<<<<<<< HEAD
         expect(fn (): mixed => (new SendNotificationAction)->handle(
+=======
+        expect(fn (): mixed => (new \Modules\Notify\Actions\SendNotificationAction())->handle(
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             $recipient,
             'missing-template',
         ))->toThrow(\Exception::class);
@@ -435,12 +656,21 @@ describe('Notify highest-miss coverage', function (): void {
             'variables' => [],
             'is_active' => true,
             'conditions' => null,
+<<<<<<< HEAD
             'type' => 'sms']);
+=======
+            'type' => 'sms',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $recipient = notifyDummyRecipient(['phone' => '+393331112233']);
         Notification::fake();
 
+<<<<<<< HEAD
         (new SendNotificationAction)->handle(
+=======
+        (new \Modules\Notify\Actions\SendNotificationAction())->handle(
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             $recipient,
             'sms-template',
         );
@@ -449,7 +679,11 @@ describe('Notify highest-miss coverage', function (): void {
     });
 
     test('notification template compiles previews and conditions in memory', function (): void {
+<<<<<<< HEAD
         $template = new NotificationTemplate;
+=======
+        $template = new NotificationTemplate();
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $template->forceFill([
             'subject' => 'Ciao Marco',
             'body_text' => 'Testo Marco',
@@ -457,7 +691,12 @@ describe('Notify highest-miss coverage', function (): void {
             'channels' => ['mail', 'database'],
             'conditions' => ['send' => true],
             'preview_data' => ['name' => 'Marco'],
+<<<<<<< HEAD
             'grapesjs_data' => ['blocks' => []]]);
+=======
+            'grapesjs_data' => ['blocks' => []],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $compiled = $template->compile(['name' => 'Marco']);
         Assert::assertSame('Ciao Marco', $compiled['subject']);
@@ -470,8 +709,13 @@ describe('Notify highest-miss coverage', function (): void {
     });
 
     test('SpatieEmail attachment helpers work without constructor bootstrap', function (): void {
+<<<<<<< HEAD
         $ref = new ReflectionClass(SpatieEmail::class);
         /** @var SpatieEmail $email */
+=======
+        $ref = new ReflectionClass(\Modules\Notify\Emails\SpatieEmail::class);
+        /** @var \Modules\Notify\Emails\SpatieEmail $email */
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $email = $ref->newInstanceWithoutConstructor();
         $email->slug = 'welcome-mail';
         $email->data = ['first_name' => 'Marco'];
@@ -482,7 +726,11 @@ describe('Notify highest-miss coverage', function (): void {
         $to = $envelope->to;
         Assert::assertNotEmpty($to);
         $firstAddress = $to[0];
+<<<<<<< HEAD
         Assert::assertInstanceOf(Address::class, $firstAddress);
+=======
+        Assert::assertInstanceOf(\Illuminate\Mail\Mailables\Address::class, $firstAddress);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         Assert::assertSame('recipient@example.test', $firstAddress->address);
         Assert::assertSame($email, $email->embedLogo('/tmp/missing-logo.png'));
 
@@ -494,12 +742,22 @@ describe('Notify highest-miss coverage', function (): void {
         $fromData = $email->getAttachmentFromData([
             'data' => 'inline-data',
             'as' => 'inline.txt',
+<<<<<<< HEAD
             'mime' => 'text/plain']);
+=======
+            'mime' => 'text/plain',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         Assert::assertSame('inline.txt', $fromData->as);
 
         $email->addAttachments([
             ['path' => $path],
+<<<<<<< HEAD
             ['data' => 'payload', 'as' => 'payload.bin']]);
+=======
+            ['data' => 'payload', 'as' => 'payload.bin'],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         Assert::assertCount(2, $email->attachments());
         unlink($path);
     });
@@ -509,9 +767,16 @@ describe('Notify highest-miss coverage', function (): void {
             'notify.tracking.enabled' => true,
             'notify.tracking.pixel.enabled' => true,
             'notify.tracking.links.enabled' => false,
+<<<<<<< HEAD
             'notify.tracking.pixel.route' => 'login']);
 
         $dummy = new NotifyTrackingDummy;
+=======
+            'notify.tracking.pixel.route' => 'login',
+        ]);
+
+        $dummy = new NotifyTrackingDummy();
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $html = '<p>Newsletter</p>';
         $tracked = $dummy->addTrackingPublic($html, 'track-uuid');
 
@@ -524,17 +789,32 @@ describe('Notify highest-miss coverage', function (): void {
             'services.facebook.access_token' => 'fb-token',
             'services.facebook.phone_number_id' => '123456',
             'whatsapp.debug' => false,
+<<<<<<< HEAD
             'whatsapp.timeout' => 1]);
+=======
+            'whatsapp.timeout' => 1,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $cases = [
             ['recipient' => '+393331112233', 'body' => 'Ciao', 'type' => 'text'],
             ['recipient' => '+393331112233', 'body' => '', 'type' => 'template', 'template' => ['name' => 'hello']],
+<<<<<<< HEAD
             ['recipient' => '+393331112233', 'body' => '', 'type' => 'media', 'media' => ['https://example.test/a.jpg']]];
 
         foreach ($cases as $payload) {
             try {
                 $result = (new SendFacebookWhatsAppAction)->execute(
                     WhatsAppData::from($payload),
+=======
+            ['recipient' => '+393331112233', 'body' => '', 'type' => 'media', 'media' => ['https://example.test/a.jpg']],
+        ];
+
+        foreach ($cases as $payload) {
+            try {
+                $result = (new \Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction())->execute(
+                    \Modules\Notify\Datas\WhatsAppData::from($payload),
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
                 );
                 Assert::assertNotEmpty($result);
             } catch (\Throwable $e) {
@@ -547,6 +827,7 @@ describe('Notify highest-miss coverage', function (): void {
         config([
             'esendex.username' => 'user',
             'esendex.password' => 'pass',
+<<<<<<< HEAD
             'esendex.sender' => 'APP']);
 
         $sms = SmsData::from([
@@ -556,11 +837,30 @@ describe('Notify highest-miss coverage', function (): void {
 
         try {
             (new EsendexSendAction)->execute($sms);
+=======
+            'esendex.sender' => 'APP',
+        ]);
+
+        $sms = \Modules\Notify\Datas\SmsData::from([
+            'recipient' => '+393331112233',
+            'body' => 'Test',
+            'from' => 'APP',
+        ]);
+
+        try {
+            (new \Modules\Notify\Actions\EsendexSendAction())->execute($sms);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         } catch (\Throwable $e) {
             Assert::assertNotSame('', $e->getMessage());
         }
 
+<<<<<<< HEAD
         expect(fn (): array => (new TryDuocircleMailAction)->execute([
             'to' => 'user@example.test']))->toThrow(\Exception::class);
+=======
+        expect(fn (): array => (new \Modules\Notify\Actions\Mail\Engines\Duocircle\TryDuocircleMailAction())->execute([
+            'to' => 'user@example.test',
+        ]))->toThrow(\Exception::class);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     });
 });

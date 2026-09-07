@@ -83,7 +83,10 @@ related:
 |---------|----|----|----|
 | Pennant Rules | [pennant-rules.md](pennant-rules.md) | 8 | Laravel Pennant feature flags |
 | Theme Build | [theme-build-rules.md](theme-build-rules.md) | 33 | Theme build process (CRITICAL) |
+<<<<<<< HEAD
 | Project Architecture | [project-architecture.md](project-architecture.md) | 130 | FixCity project architecture |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | Project Architecture | [project-architecture.md](project-architecture.md) | 130 | Notify project architecture |
 
 ---

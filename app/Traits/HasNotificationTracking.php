@@ -14,7 +14,10 @@ use function Safe\preg_replace_callback;
  *
  * Fornisce funzionalità per la gestione del tracking delle notifiche.
  *
+<<<<<<< HEAD
  * @phpstan-ignore trait.unused (Trait composable: consumer in app/ futuri; coverage via test doubles in tests/Unit/Traits/)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
  */
 trait HasNotificationTracking
 {
@@ -83,7 +86,11 @@ trait HasNotificationTracking
             $html,
         );
 
+<<<<<<< HEAD
         return $result ?? $html;
+=======
+        return $result;
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**

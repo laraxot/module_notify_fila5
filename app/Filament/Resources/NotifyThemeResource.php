@@ -21,8 +21,14 @@ class NotifyThemeResource extends XotBaseResource
     /**
      * @return array<string, Field>
      */
+<<<<<<< HEAD
     #[Override]
     public static function getFormSchema(): array
+=======
+
+    // #[Override]
+    public static function getFormSchemaOld(): array
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     {
         return [
             'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
@@ -47,10 +53,19 @@ class NotifyThemeResource extends XotBaseResource
                     'ark' => 'ark',
                     'minty' => 'minty',
                     'sunny' => 'sunny',
+<<<<<<< HEAD
                     'widgets' => 'widgets'])
                 ->default('empty'),
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull()];
+=======
+                    'widgets' => 'widgets',
+                ])
+                ->default('empty'),
+            'body' => Textarea::make('body')->columnSpanFull(),
+            'body_html' => RichEditor::make('body_html')->columnSpanFull(),
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     }
 
     /**
@@ -61,6 +76,7 @@ class NotifyThemeResource extends XotBaseResource
         return match ($field) {
             'lang' => [
                 'it' => 'Italiano',
+<<<<<<< HEAD
                 'en' => 'English'],
             'type' => [
                 'email' => 'Email',
@@ -70,6 +86,20 @@ class NotifyThemeResource extends XotBaseResource
                 'page' => 'Page',
                 'post' => 'Post',
                 'product' => 'Product'],
+=======
+                'en' => 'English',
+            ],
+            'type' => [
+                'email' => 'Email',
+                'sms' => 'SMS',
+                'push' => 'Push Notification',
+            ],
+            'post_type' => [
+                'page' => 'Page',
+                'post' => 'Post',
+                'product' => 'Product',
+            ],
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             default => [],
         };
     }

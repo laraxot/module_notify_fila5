@@ -16,7 +16,10 @@ related:
   - "./telegram-notifications-guide.md"
 ---
 
+<<<<<<< HEAD
 # Guida all'Implementazione delle Notifiche 
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 # Guida all'Implementazione delle Notifiche
 
 Questa documentazione descrive come implementare correttamente le notifiche utilizzando Laravel Notifications nel modulo Notify.
@@ -37,6 +40,10 @@ use Illuminate\Database\Eloquent\Model;
 class RecordNotification extends Notification implements ShouldQueue
 {
     use Queueable;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     protected Model $record;
     protected string $templateSlug;
 
@@ -48,6 +55,10 @@ class RecordNotification extends Notification implements ShouldQueue
         $this->record = $record;
         $this->templateSlug = $templateSlug;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     /**
      * Get the notification's delivery channels.
      */
@@ -55,13 +66,20 @@ class RecordNotification extends Notification implements ShouldQueue
     {
         return ['mail'];
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     /**
      * Get the mail representation of the notification.
      */
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
+<<<<<<< HEAD
             ->subject('Notifica da SaluteOra')
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
             ->subject('Notifica da <nome progetto>')
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')
@@ -82,10 +100,18 @@ Per utilizzare la classe SpatieEmail all'interno di una notifica, implementa il 
 public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 {
     $email = new SpatieEmail($this->record, $this->templateSlug);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     // Aggiungi eventuali allegati
     if ($this->attachments) {
         $email->addAttachments($this->attachments);
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     return $email;
 }
 ```
@@ -145,10 +171,18 @@ $user->notify($notification);
 public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 {
     $email = new SpatieEmail($this->record, $this->templateSlug);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     // Imposta esplicitamente il destinatario
     // Questo non è necessario se si usa $notifiable->routeNotificationFor('mail')
     // ma è una buona pratica per la chiarezza
     $email->to($notifiable->email);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     return $email;
 }
 ```

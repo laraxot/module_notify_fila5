@@ -7,7 +7,10 @@ This project uses a **custom Laravel public path architecture** where the web-ac
 ## Architecture
 
 ```
+<<<<<<< HEAD
 /var/www/_bases/base_fixcity_fila5/
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 /var/www/_bases/base_ptvx_fila5/
 ├── public_html/                    ← ACTUAL DocumentRoot (Apache serves from here)
 │   ├── index.php                   ← Entry point
@@ -84,10 +87,17 @@ The entry point defines `LARAVEL_DIR` constant pointing to the Laravel installat
 
 ### 4. Apache Configuration
 
+<<<<<<< HEAD
 **Active VHost**: `/etc/apache2/sites-enabled/fixcity.local.conf`
 
 ```apache
 DocumentRoot /var/www/_bases/base_fixcity_fila5/public_html
+=======
+**Active VHost**: `/etc/apache2/sites-enabled/laraxot.local.conf`
+
+```apache
+DocumentRoot /var/www/_bases/base_ptvx_fila5/public_html
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ```
 
 ## Verification
@@ -95,11 +105,19 @@ DocumentRoot /var/www/_bases/base_fixcity_fila5/public_html
 Test that `public_path()` resolves correctly:
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_fixcity_fila5/laravel
 php -r "require 'vendor/autoload.php'; \$app = require 'bootstrap/app.php'; echo public_path() . PHP_EOL;"
 ```
 
 **Expected output**: `/var/www/_bases/base_fixcity_fila5/public_html`
+=======
+cd /var/www/_bases/base_ptvx_fila5/laravel
+php -r "require 'vendor/autoload.php'; \$app = require 'bootstrap/app.php'; echo public_path() . PHP_EOL;"
+```
+
+**Expected output**: `/var/www/_bases/base_ptvx_fila5/public_html`
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
 ## Why Both Directories Exist
 

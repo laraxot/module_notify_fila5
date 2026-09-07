@@ -1,6 +1,10 @@
 # Collegamenti Documentazione Notify
 
+<<<<<<< HEAD
 - [README Notify](readme.md)
+=======
+- [README Notify](README.md)
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [Architettura del modulo](architecture.md)
 - [CRUD Template Email Filament](crud-template-email-filament.md)
 - [Panoramica Template Email](email-template-landscape.md)

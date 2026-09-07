@@ -23,6 +23,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Tests\TestCase;
+<<<<<<< HEAD
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
@@ -32,6 +33,18 @@ use Modules\User\Models\User;
 
 beforeEach(function (): void {
     withoutExceptionHandling();
+=======
+use PHPUnit\Framework\Assert;
+use Modules\Xot\Tests\XotBasePest;
+
+use function Safe\json_encode;
+
+uses(TestCase::class)->group('notify-db');
+
+beforeEach(function (): void {
+    /** @var TestCase $this */
+    $this->disableExceptionHandling();
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 });
 
 describe('Notification PartOne', function (): void {
@@ -50,7 +63,13 @@ describe('Notification PartOne', function (): void {
                 'title' => 'Test Title',
                 'body' => 'Test Body',
                 'action_url' => 'https://example.com',
+<<<<<<< HEAD
                 'priority' => 'high']]);
+=======
+                'priority' => 'high',
+            ],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         XotBasePest::assertTableHas('notify', 'notifications', [
             'id' => $notification->id,
             'message' => 'Test notification message',
@@ -59,7 +78,12 @@ describe('Notification PartOne', function (): void {
             'user_id' => 123,
             'subject_type' => 'App\Models\User',
             'subject_id' => 456,
+<<<<<<< HEAD
             'status' => 'pending']);
+=======
+            'status' => 'pending',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         Assert::assertInstanceOf(Notification::class, $notification);
     });
@@ -78,7 +102,12 @@ describe('Notification PartOne', function (): void {
             'channels',
             'status',
             'sent_at',
+<<<<<<< HEAD
             'data'];
+=======
+            'data',
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         Assert::assertEquals($expectedFillable, $notification->getFillable());
     });
@@ -93,7 +122,12 @@ describe('Notification PartOne', function (): void {
             'channels' => 'array',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
+<<<<<<< HEAD
             'deleted_at' => 'datetime'];
+=======
+            'deleted_at' => 'datetime',
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         Assert::assertEquals($expectedCasts, $notification->getCasts());
     });
@@ -108,15 +142,30 @@ describe('Notification PartOne', function (): void {
             'metadata' => [
                 'source' => 'registration',
                 'campaign' => 'new_users_2024',
+<<<<<<< HEAD
                 'tags' => ['welcome', 'onboarding']]];
+=======
+                'tags' => ['welcome', 'onboarding'],
+            ],
+        ];
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $notification = NotificationFactory::new()->createOne([
             'message' => 'Welcome notification',
             'type' => 'welcome',
+<<<<<<< HEAD
             'data' => $data]);
         XotBasePest::assertTableHas('notify', 'notifications', [
             'id' => $notification->id,
             'data' => json_encode($data)]);
+=======
+            'data' => $data,
+        ]);
+        XotBasePest::assertTableHas('notify', 'notifications', [
+            'id' => $notification->id,
+            'data' => json_encode($data),
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         Assert::assertEquals('Welcome to our platform', $notification->data['title']);
         Assert::assertEquals('Thank you for joining us!', $notification->data['body']);
         Assert::assertEquals('high', $notification->data['priority']);
@@ -130,10 +179,19 @@ describe('Notification PartOne', function (): void {
         $notification = NotificationFactory::new()->createOne([
             'message' => 'Multi-channel notification',
             'type' => 'alert',
+<<<<<<< HEAD
             'channels' => $channels]);
         XotBasePest::assertTableHas('notify', 'notifications', [
             'id' => $notification->id,
             'channels' => json_encode($channels)]);
+=======
+            'channels' => $channels,
+        ]);
+        XotBasePest::assertTableHas('notify', 'notifications', [
+            'id' => $notification->id,
+            'channels' => json_encode($channels),
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         $storedChannels = XotBasePest::assertArray($notification->channels);
         Assert::assertCount(4, $storedChannels);
         Assert::assertContains('mail', $storedChannels);
@@ -145,7 +203,12 @@ describe('Notification PartOne', function (): void {
     test('_can_mark_as_read', function (): void {
         $notification = NotificationFactory::new()->createOne([
             'message' => 'Unread notification',
+<<<<<<< HEAD
             'type' => 'info']);
+=======
+            'type' => 'info',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         Assert::assertNull($notification->read_at);
 
@@ -154,45 +217,80 @@ describe('Notification PartOne', function (): void {
         Assert::assertNotNull(XotBasePest::assertFreshModel($notification, Notification::class)->read_at);
         XotBasePest::assertTableHas('notify', 'notifications', [
             'id' => $notification->id,
+<<<<<<< HEAD
             'read_at' => XotBasePest::assertFreshModel($notification, Notification::class)->read_at]);
+=======
+            'read_at' => XotBasePest::assertFreshModel($notification, Notification::class)->read_at,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     });
 
     test('_can_mark_as_sent', function (): void {
         $notification = NotificationFactory::new()->createOne([
             'message' => 'Pending notification',
             'type' => 'info',
+<<<<<<< HEAD
             'status' => 'pending']);
+=======
+            'status' => 'pending',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         Assert::assertNull($notification->sent_at);
 
         $notification->update([
             'sent_at' => now(),
+<<<<<<< HEAD
             'status' => 'sent']);
+=======
+            'status' => 'sent',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         Assert::assertNotNull(XotBasePest::assertFreshModel($notification, Notification::class)->sent_at);
         Assert::assertEquals('sent', XotBasePest::assertFreshModel($notification, Notification::class)->status);
         XotBasePest::assertTableHas('notify', 'notifications', [
             'id' => $notification->id,
             'sent_at' => XotBasePest::assertFreshModel($notification, Notification::class)->sent_at,
+<<<<<<< HEAD
             'status' => 'sent']);
+=======
+            'status' => 'sent',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
     });
 
     test('_can_update_notification', function (): void {
         $notification = NotificationFactory::new()->createOne([
             'message' => 'Original message',
             'type' => 'info',
+<<<<<<< HEAD
             'status' => 'pending']);
+=======
+            'status' => 'pending',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $notification->update([
             'message' => 'Updated message',
             'type' => 'warning',
             'status' => 'sent',
+<<<<<<< HEAD
             'data' => ['updated' => true]]);
+=======
+            'data' => ['updated' => true],
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         XotBasePest::assertTableHas('notify', 'notifications', [
             'id' => $notification->id,
             'message' => 'Updated message',
             'type' => 'warning',
+<<<<<<< HEAD
             'status' => 'sent']);
+=======
+            'status' => 'sent',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         Assert::assertEquals('Updated message', XotBasePest::assertFreshModel($notification, Notification::class)->message);
         Assert::assertEquals('warning', XotBasePest::assertFreshModel($notification, Notification::class)->type);
@@ -203,6 +301,7 @@ describe('Notification PartOne', function (): void {
     test('_can_find_by_type', function (): void {
         NotificationFactory::new()->createOne([
             'message' => 'Info notification',
+<<<<<<< HEAD
             'type' => 'info']);
 
         NotificationFactory::new()->createOne([
@@ -212,6 +311,20 @@ describe('Notification PartOne', function (): void {
         NotificationFactory::new()->createOne([
             'message' => 'Error notification',
             'type' => 'error']);
+=======
+            'type' => 'info',
+        ]);
+
+        NotificationFactory::new()->createOne([
+            'message' => 'Warning notification',
+            'type' => 'warning',
+        ]);
+
+        NotificationFactory::new()->createOne([
+            'message' => 'Error notification',
+            'type' => 'error',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $infoNotifications = Notification::where('type', 'info')->get();
         $warningNotifications = Notification::where('type', 'warning')->get();
@@ -229,17 +342,32 @@ describe('Notification PartOne', function (): void {
         NotificationFactory::new()->createOne([
             'message' => 'Pending notification',
             'type' => 'info',
+<<<<<<< HEAD
             'status' => 'pending']);
+=======
+            'status' => 'pending',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotificationFactory::new()->createOne([
             'message' => 'Sent notification',
             'type' => 'info',
+<<<<<<< HEAD
             'status' => 'sent']);
+=======
+            'status' => 'sent',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotificationFactory::new()->createOne([
             'message' => 'Failed notification',
             'type' => 'info',
+<<<<<<< HEAD
             'status' => 'failed']);
+=======
+            'status' => 'failed',
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $pendingNotifications = Notification::where('status', 'pending')->get();
         $sentNotifications = Notification::where('status', 'sent')->get();
@@ -257,17 +385,32 @@ describe('Notification PartOne', function (): void {
         NotificationFactory::new()->createOne([
             'message' => 'Tenant 1 notification',
             'type' => 'info',
+<<<<<<< HEAD
             'tenant_id' => 1]);
+=======
+            'tenant_id' => 1,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotificationFactory::new()->createOne([
             'message' => 'Tenant 2 notification',
             'type' => 'info',
+<<<<<<< HEAD
             'tenant_id' => 2]);
+=======
+            'tenant_id' => 2,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         NotificationFactory::new()->createOne([
             'message' => 'Tenant 1 another notification',
             'type' => 'warning',
+<<<<<<< HEAD
             'tenant_id' => 1]);
+=======
+            'tenant_id' => 1,
+        ]);
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 
         $tenant1Notifications = Notification::where('tenant_id', 1)->get();
         $tenant2Notifications = Notification::where('tenant_id', 2)->get();

@@ -129,7 +129,10 @@ I seguenti moduli sono stati analizzati senza errori di sintassi bloccanti:
 - ✅ **Job**: Import conflicts risolti
 - ✅ **Cms**: Nessun syntax error
 - ✅ **Geo**: Nessun syntax error
+<<<<<<< HEAD
 - ✅ **Fixcity**: Nessun syntax error
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - ✅ **App**: Nessun syntax error
 - ✅ **Blog**: Nessun syntax error
 - ✅ **Rating**: Nessun syntax error

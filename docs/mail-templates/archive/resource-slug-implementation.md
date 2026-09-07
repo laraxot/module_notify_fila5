@@ -22,7 +22,10 @@ related:
 
 ## Panoramica
 
+<<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
 
 ## Implementazione nel Form Schema
@@ -39,6 +42,10 @@ public static function getFormSchema(): array
         'name' => Forms\Components\TextInput::make('name')
             ->required()
             ->maxLength(255),
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         'slug' => Forms\Components\TextInput::make('slug')
             ->required()
             ->unique(ignoreRecord: true)
@@ -62,7 +69,10 @@ public static function getFormSchema(): array
 3. **Validazione Unicità**: L'opzione `unique(ignoreRecord: true)` garantisce unicità, escludendo il record corrente durante l'aggiornamento.
 4. **Generazione Automatica**: La callback `afterStateUpdated()` genera automaticamente lo slug dal nome quando si crea un nuovo record.
 
+<<<<<<< HEAD
 ## Conformità con gli Standard SaluteOra
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 ## Conformità con gli Standard <nome progetto>
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
@@ -88,6 +98,10 @@ public static function getListTableColumns(): array
     return [
         'id' => Tables\Columns\TextColumn::make('id')
             ->sortable(),
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         'name' => Tables\Columns\TextColumn::make('name')
             ->searchable()
             ->sortable(),
@@ -96,6 +110,10 @@ public static function getListTableColumns(): array
             ->searchable()
             ->sortable()
             ->copyable(),
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         // Altri campi...
     ];
 }
@@ -123,6 +141,10 @@ public static function getTableFilters(): array
 {
     return [
         // Altri filtri...
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
         'slug' => Tables\Filters\TextFilter::make('slug')
     ];
 }
@@ -166,6 +188,10 @@ return [
    ```php
    // Ordinare i template per slug
    MailTemplate::query()->orderBy('slug')->get();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
    // Cercare template per slug parziale
    MailTemplate::query()->where('slug', 'like', 'welcome-%')->get();
    ```

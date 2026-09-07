@@ -19,7 +19,10 @@ related:
 ---
 # AI Agents Documentation Index
 
+<<<<<<< HEAD
 **Project**: FixCity Platform  
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 **Project**: Notify Platform  
 **Purpose**: Centralized documentation for all AI assistant configurations  
 **Last Updated**: 2026-04-11  
@@ -28,10 +31,17 @@ related:
 
 ## Overview
 
+<<<<<<< HEAD
 This directory contains split documentation files for AI assistants used in the FixCity project. Each file is focused on a specific area to improve readability and maintainability.
 
 **Original Files** (kept for backward compatibility):
 - [`AGENTS.md`](../../../../AGENTS.md) — 5349 lines, comprehensive BMad agents + tasks
+=======
+This directory contains split documentation files for AI assistants used in the Notify project. Each file is focused on a specific area to improve readability and maintainability.
+
+**Original Files** (kept for backward compatibility):
+- [`AGENTS.md`](../../../../agents.md) — 5349 lines, comprehensive BMad agents + tasks
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - [`docs/CLAUDE.md`](../../../../docs/CLAUDE.md) — 833 lines, Laravel Boost guidelines
 - [`QWEN.md`](../../../../QWEN.md) — 47 lines, Qwen output language rules
 - [`laravel/GEMINI.md`](../../../../laravel/GEMINI.md) — 581 lines, Gemini-specific rules
@@ -145,7 +155,10 @@ Split from [`laravel/GEMINI.md`](../../../../laravel/GEMINI.md):
 ### Bidirectional Links
 - ← Back to [Project Root](../../)
 - ← Back to [Docs Index](../../docs/README.md)
+<<<<<<< HEAD
 - ← Back to [AGENTS.md](../../../../AGENTS.md) (original)
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 - ← Back to [agents.md](../../../../agents.md) (original)
 - ← Back to [CLAUDE.md](../../../../docs/CLAUDE.md) (original)
 - ← Back to [GEMINI.md](../../../../laravel/GEMINI.md) (original)
@@ -157,20 +170,29 @@ Split from [`laravel/GEMINI.md`](../../../../laravel/GEMINI.md):
 
 ### Adding New Split Files
 1. Create file in appropriate subdirectory (`agents/`, `tasks/`, `claude/`, `gemini/`)
+<<<<<<< HEAD
 2. Add entry to this INDEX.md table
 3. Add bidirectional link back to this INDEX.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 2. Add entry to this index.md table
 3. Add bidirectional link back to this index.md
 4. Update original file to reference split version
 
 ### Updating Split Files
 1. Update the split file
+<<<<<<< HEAD
 2. Update line count in this INDEX.md
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 2. Update line count in this index.md
 3. Add changelog entry below
 
 ### Changelog
 | Date | Change | Author |
 |------|--------|--------|
+<<<<<<< HEAD
 | 2026-04-11 | Initial split of AGENTS.md, CLAUDE.md, GEMINI.md | Qwen |
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 | 2026-04-11 | Initial split of agents.md, CLAUDE.md, GEMINI.md | Qwen |
