@@ -91,14 +91,13 @@ test('contact resource form schema exposes expected fields', function (): void {
     return new class() extends PreviewNotificationTemplate {};
 }
 
+<<<<<<< HEAD
 test('contact resource form schema exposes expected fields', function (): void {
     $schema = TestCase::assertNotifyArray(ContactResource::getFormSchema());
 >>>>>>> a988596b (first)
+=======
+>>>>>>> 48f28c29 (.)
 
-    Assert::assertArrayHasKey('name', $schema);
-    Assert::assertArrayHasKey('email', $schema);
-    Assert::assertArrayHasKey('phone', $schema);
-});
 
 test('edit contact page exposes delete header action', function (): void {
     $page = makeEditContactTestProxy();
@@ -166,21 +165,16 @@ test('list notifications page exposes expected columns and filters', function ()
     Assert::assertInstanceOf(SelectFilter::class, $filters['type']);
 });
 
-test('view notification page infolist schema contains section with text entries', function (): void {
-    $page = makeViewNotificationTestProxy();
-    $schema = $page->exposedInfolistSchema();
+test('notification infolist schema exposes its resource fields', function (): void {
+    $schema = makeViewNotificationTestProxy()->exposedInfolistSchema();
 
-    Assert::assertCount(1, $schema);
-    Assert::assertInstanceOf(Section::class, $schema[0]);
-
-    $reflection = new \ReflectionClass($schema[0]);
-    $prop = $reflection->getProperty('childComponents');
-    $prop->setAccessible(true);
-    $components = XotBasePest::assertArray($prop->getValue($schema[0]));
-
-    Assert::assertNotEmpty($components);
+    foreach (['id', 'type', 'data', 'read_at', 'created_at'] as $field) {
+        Assert::assertArrayHasKey($field, $schema);
+        Assert::assertInstanceOf(\Filament\Infolists\Components\TextEntry::class, $schema[$field]);
+    }
 });
 
+<<<<<<< HEAD
 test('mail template resource form schema exposes expected components', function (): void {
     // Nessuna fixture da creare: HtmlLayoutPathSelect legge
     // XotData::make()->getMailHtmlLayoutPath(), cioe' Themes/<pub_theme>/resources/mail-layouts,
@@ -248,6 +242,9 @@ test('notification template resource form schema and pages are configured', func
     Assert::assertInstanceOf(SpatieMediaLibraryFileUpload::class, $schema['attachments']);
     Assert::assertArrayHasKey('preview', $pages);
 });
+=======
+
+>>>>>>> 48f28c29 (.)
 
 test('preview notification template page exposes title and subheading', function (): void {
     $page = makePreviewNotificationTemplateTestProxy();

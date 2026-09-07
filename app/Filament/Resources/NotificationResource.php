@@ -16,6 +16,7 @@ class NotificationResource extends XotBaseResource
 {
     protected static ?string $model = Notification::class;
 
+<<<<<<< HEAD
     /**
      * @return array<string, Field>
      */
@@ -54,4 +55,8 @@ class NotificationResource extends XotBaseResource
             'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled()];
 >>>>>>> a988596b (first)
     }
+=======
+    
+
+>>>>>>> 48f28c29 (.)
 }

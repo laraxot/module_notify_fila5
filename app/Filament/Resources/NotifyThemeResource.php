@@ -19,6 +19,7 @@ class NotifyThemeResource extends XotBaseResource
     protected static ?string $model = NotifyTheme::class;
 
     /**
+<<<<<<< HEAD
      * @return array<string, Field>
      */
 <<<<<<< HEAD
@@ -80,6 +81,8 @@ class NotifyThemeResource extends XotBaseResource
     }
 
     /**
+=======
+>>>>>>> 48f28c29 (.)
      * @return array<string, string>
      */
     public static function fieldOptions(string $field): array
