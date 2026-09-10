@@ -8,7 +8,7 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Str;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Models\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\SmsFactorData;
 use Modules\Notify\Datas\SmsData;
 use Override;
@@ -71,7 +71,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 
         $body = [
             'text' => $smsData->body,
-            'sender' => $smsData->from ?? $this->defaultSender,
+            'sender' => $smsData->from ?: $this->defaultSender,
             'recipients' => [
                 [
                     'phone' => $to]],

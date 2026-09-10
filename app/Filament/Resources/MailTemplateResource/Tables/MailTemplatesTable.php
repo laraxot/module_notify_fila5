@@ -25,4 +25,16 @@ class MailTemplatesTable extends XotBaseResourceTable
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
             'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()->toggleable(isToggledHiddenByDefault: true)];
     }
+
+     /**
+     * @return array<string, TextColumn>
+     */
+    public static function mailTemplateTableColumns(): array
+    {
+        return [
+            'slug' => TextColumn::make('slug')->searchable()->sortable(),
+            // TextColumn::make('mailable')->searchable()->sortable(),
+            'subject' => TextColumn::make('subject')->searchable()->sortable(),
+            'counter' => TextColumn::make('counter')->searchable()->sortable()];
+    }
 }

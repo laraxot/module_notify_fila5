@@ -51,13 +51,7 @@ class ListNotifications extends XotBaseListRecords
                     'error' => 'Error'])
                 ->multiple()];
     }
-
-    #[Override]
-    public function getTableColumns(): array
-    {
-        return self::notificationTableColumns();
-    }
-
+    
     #[Override]
     public function getTableFilters(): array
     {

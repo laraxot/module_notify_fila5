@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 use GuzzleHttp\Client;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Models\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 use Override;

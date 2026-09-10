@@ -38,12 +38,6 @@ class ListNotifyThemes extends XotBaseListRecords
                 ->toggleable(isToggledHiddenByDefault: true)];
     }
 
-    #[Override]
-    public function getTableColumns(): array
-    {
-        return self::getNotifyThemeTableColumns();
-    }
-
     /**
      * @return array<string, SelectFilter>
      */
