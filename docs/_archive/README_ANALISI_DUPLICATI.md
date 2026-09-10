@@ -20,7 +20,7 @@ Ogni modulo ha una copia in `Modules/{ModuleName}/docs/METODI_DUPLICATI_ANALISI.
 - `Modules/Blog/docs/METODI_DUPLICATI_ANALISI.md`
 - `Modules/Cms/docs/METODI_DUPLICATI_ANALISI.md`
 - `Modules/Comment/docs/METODI_DUPLICATI_ANALISI.md`
-- `Modules/Fixcity/docs/METODI_DUPLICATI_ANALISI.md`
+- `Modules/<nome progetto>/docs/METODI_DUPLICATI_ANALISI.md`
 - `Modules/Gdpr/docs/METODI_DUPLICATI_ANALISI.md`
 - `Modules/Geo/docs/METODI_DUPLICATI_ANALISI.md`
 - `Modules/Job/docs/METODI_DUPLICATI_ANALISI.md`
@@ -86,7 +86,7 @@ Il documento contiene dati VERIFICATI:
 
 ### Fase 2: Refactoring (3 settimane)
 - Settimana 1: Core (Xot, User, Cms) - 15 files
-- Settimana 2: Business (Fixcity, Blog, Geo) - 20 files
+- Settimana 2: Business (<nome progetto>, Blog, Geo) - 20 files
 - Settimana 3: Support (Job, Media, Notify, etc.) - 29 files
 
 ### Fase 3: Validazione (1 settimana)
@@ -133,7 +133,7 @@ public function getTableColumns(): array
 ### Documenti Esistenti (Precedenti)
 Alcuni moduli hanno già documenti di analisi precedenti:
 - `Modules/Cms/docs/analisi-metodi-duplicati.md` (versione precedente)
-- `Modules/Fixcity/docs/analisi-metodi-duplicati.md` (versione precedente)
+- `Modules/<nome progetto>/docs/analisi-metodi-duplicati.md` (versione precedente)
 - `Modules/AI/docs/duplicate-methods-analysis.md` (analisi automatica)
 
 Questi documenti sono stati **SUPERATI** dal nuovo documento master che contiene:

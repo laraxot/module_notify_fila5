@@ -8,7 +8,7 @@
 
 ## 🎯 Why Agent Teams?
 
-Multiple AI agents (Qwen, Claude, Cursor, etc.) are working on the same FixCity platform. Without coordination:
+Multiple AI agents (Qwen, Claude, Cursor, etc.) are working on the same <nome progetto> platform. Without coordination:
 - ❌ Duplicate work
 - ❌ Conflicting changes
 - ❌ Wasted effort

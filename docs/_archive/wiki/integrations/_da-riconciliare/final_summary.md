@@ -114,7 +114,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ```
 <nome repository>/
-<nome repitory>_mono/
+<nome repitory>/
 │
 ├── 📊 ROOT LEVEL (11 docs strategici)
 │   ├── DOCUMENTATION_INDEX.md          ✅ Indice generale
@@ -231,7 +231,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ### Qualità
 - **PHPStan Level 9**: ✅ 0 errori (100%)
-- **Filament 4.x**: ✅ Compatible (100%)
+- **Filament 5.x**: ✅ Compatible (100%)
 - **Type Safety**: ✅ Strict types (100%)
 - **AGID Compliance**: 🚧 90% (target 100%)
 - **Test Coverage**: 🚧 65% (target 80%)
@@ -274,7 +274,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ### 🥇 Quality Champion
 - PHPStan Level 9 - 0 errori
-- Filament 4.x compatible
+- Filament 5.x compatible
 - Type-safe everywhere
 - Best practices documented
 

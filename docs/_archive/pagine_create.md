@@ -1,4 +1,4 @@
-# Pagine Create - FixCity Sixteen Theme
+# Pagine Create - <nome progetto> Sixteen Theme
 
 ## Data: {{ date('Y-m-d') }}
 

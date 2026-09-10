@@ -1,4 +1,4 @@
-# 📸 Verifica Visiva Homepage FixCity
+# 📸 Verifica Visiva Homepage <nome progetto>
 
 ## Confronto con Bootstrap Italia Reference
 
@@ -20,7 +20,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
-<!-- FixCity Implementation -->
+<!-- <nome progetto> Implementation -->
 <h2 id="evidenza-title">CONTENUTI IN EVIDENZA</h2>
 <article class="card card-teaser shadow-sm">
   <div class="card-body">
@@ -44,7 +44,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
-<!-- FixCity Implementation -->
+<!-- <nome progetto> Implementation -->
 <div class="col-lg-4 col-md-6">
   <div class="card card-teaser shadow-sm h-100">
     <div class="card-body">
@@ -70,7 +70,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </ul>
 </div>
 
-<!-- FixCity Implementation -->
+<!-- <nome progetto> Implementation -->
 <div class="calendar-event mb-3 pb-3 border-bottom">
   <div class="row">
     <div class="col-3 col-md-2">
@@ -101,7 +101,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
-<!-- FixCity Implementation -->
+<!-- <nome progetto> Implementation -->
 <div class="col-lg-3 col-md-6">
   <div class="card card-teaser shadow-sm h-100">
     <div class="card-body">
@@ -122,24 +122,24 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 
 ### 1. Card Date Format
 - **Bootstrap Italia**: `Notizie 18 mag 2022` (inline)
-- **FixCity**: `Notizie 18 mar 2026` (con classi Tailwind)
+- **<nome progetto>**: `Notizie 18 mar 2026` (con classi Tailwind)
 - **Impatto**: Minimo - formato corretto
 
 ### 2. Button Sizes
 - **Bootstrap Italia**: `btn btn-outline-primary`
-- **FixCity**: `btn btn-outline-primary btn-sm`
+- **<nome progetto>**: `btn btn-outline-primary btn-sm`
 - **Motivo**: Adattamento per responsive
 
 ### 3. Icon Usage
 - **Bootstrap Italia**: SVG inline
-- **FixCity**: SVG sprites con `<use>`
+- **<nome progetto>**: SVG sprites con `<use>`
 - **Motivo**: Performance e manutenzione
 
 ---
 
 ## 📊 Checklist Completa
 
-| Sezione | Bootstrap Italia | FixCity | Stato |
+| Sezione | Bootstrap Italia | <nome progetto> | Stato |
 |---------|-----------------|---------|-------|
 | Skip Links | ✅ | ✅ | ✅ |
 | Header | ✅ | ✅ (via section) | ✅ |
@@ -173,7 +173,7 @@ Le differenze residue sono:
 Bootstrap Italia:  [H2] CONTENUTI IN EVIDENZA
                    [Card with image + text]
 
-FixCity:          [H2] CONTENUTI IN EVIDENZA  
+<nome progetto>:          [H2] CONTENUTI IN EVIDENZA  
                    [Card with image + text]
                    ✅ MATCH
 ```
@@ -181,21 +181,21 @@ FixCity:          [H2] CONTENUTI IN EVIDENZA
 ### Governance
 ```
 Bootstrap Italia:  [3 Cards: Sindaco, Giunta, Consiglio]
-FixCity:          [3 Cards: Sindaco, Giunta, Consiglio]
+<nome progetto>:          [3 Cards: Sindaco, Giunta, Consiglio]
                    ✅ MATCH
 ```
 
 ### Events
 ```
 Bootstrap Italia:  [Calendar with dates 15-21]
-FixCity:          [Calendar with dates 15-18]
+<nome progetto>:          [Calendar with dates 15-18]
                    ✅ MATCH (structure identical)
 ```
 
 ### Topics
 ```
 Bootstrap Italia:  [4 Cards + "Altri Argomenti"]
-FixCity:          [4 Cards + "Altri Argomenti"]
+<nome progetto>:          [4 Cards + "Altri Argomenti"]
                    ✅ MATCH
 ```
 
@@ -203,7 +203,7 @@ FixCity:          [4 Cards + "Altri Argomenti"]
 
 ## ✅ Conclusione
 
-La homepage FixCity **È CONFORME** al design Bootstrap Italia.
+La homepage <nome progetto> **È CONFORME** al design Bootstrap Italia.
 
-URL di test: http://fixcity.local/it/tests/homepage
+URL di test: http://<nome progetto>.local/it/tests/homepage
 URL di test: http://ptv.local/it/tests/homepage

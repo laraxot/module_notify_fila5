@@ -46,7 +46,7 @@
 | Gdpr | 74 | ✅ |
 | Job | 64 | ✅ |
 | Tenant | 45 | ✅ |
-| Fixcity | 37 | ✅ |
+| <nome progetto> | 37 | ✅ |
 | AI | 34 | ✅ |
 | Blog | 30 | ✅ |
 | Seo | 21 | ✅ |
@@ -94,7 +94,7 @@
 ✅ Modules/Blog/docs/dry-kiss-analysis.md
 ✅ Modules/Cms/docs/dry-kiss-analysis.md
 ✅ Modules/Comment/docs/dry-kiss-analysis.md
-✅ Modules/Fixcity/docs/dry-kiss-analysis.md
+✅ Modules/<nome progetto>/docs/dry-kiss-analysis.md
 ✅ Modules/Gdpr/docs/dry-kiss-analysis.md
 ✅ Modules/Geo/docs/dry-kiss-analysis.md
 ✅ Modules/Job/docs/dry-kiss-analysis.md

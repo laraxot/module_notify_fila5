@@ -1,9 +1,9 @@
 # SuperMemory - AI Memory Infrastructure
 
-**Project**: FixCity Platform  
+**Project**: <nome progetto> Platform  
 **Last Updated**: 2026-04-09  
 **API Key**: Configured (sm_BzH3Cugxk1hMDm5V1EHC2N_...)  
-**Container Tag**: `fixcity`  
+**Container Tag**: `<nome progetto>`  
 **Container Tag**: `ptv`  
 **User**: marco.sottana@gmail.com (Xot org)
 
@@ -30,25 +30,25 @@ Auth:  api-key (sm_BzH3Cugxk1hMDm5V1EHC2N_Jr9N****)
 
 ### Add Project Context
 ```bash
-cd /var/www/_bases/base_fixcity_fila5
-supermemory add --tag fixcity --file .supermemory/fixcity-context.md
-cd /var/www/_bases/base_ptv_fila5
+cd /var/www/_bases/<repo progetto>
+supermemory add --tag <nome progetto> --file .supermemory/<nome progetto>-context.md
+cd /var/www/_bases/<repo progetto>
 supermemory add --tag ptv --file .supermemory/ptv-context.md
 ```
 
 ### Search Memories
 ```bash
-supermemory search "FixCity architecture" --tag fixcity
-supermemory search "Laravel Filament patterns" --tag fixcity
-supermemory search "theme build process" --tag fixcity
-supermemory search "FixCity architecture" --tag ptv
+supermemory search "<nome progetto> architecture" --tag <nome progetto>
+supermemory search "Laravel Filament patterns" --tag <nome progetto>
+supermemory search "theme build process" --tag <nome progetto>
+supermemory search "<nome progetto> architecture" --tag ptv
 supermemory search "Laravel Filament patterns" --tag ptv
 supermemory search "theme build process" --tag ptv
 ```
 
 ### Get Profile
 ```bash
-supermemory profile --tag fixcity --query "project preferences"
+supermemory profile --tag <nome progetto> --query "project preferences"
 supermemory profile --tag ptv --query "project preferences"
 ```
 
@@ -56,49 +56,49 @@ supermemory profile --tag ptv --query "project preferences"
 
 | Command | Description | Example |
 |---------|-------------|---------|
-| `add` | Ingest content and extract memories | `supermemory add --tag fixcity --file docs/MCP_SERVERS.md` |
-| `search` | Search memories semantically | `supermemory search "ticket workflow" --tag fixcity` |
-| `remember` | Store a specific memory | `supermemory remember "All models extend XotBaseModel" --tag fixcity` |
+| `add` | Ingest content and extract memories | `supermemory add --tag <nome progetto> --file docs/MCP_SERVERS.md` |
+| `search` | Search memories semantically | `supermemory search "ticket workflow" --tag <nome progetto>` |
+| `remember` | Store a specific memory | `supermemory remember "All models extend XotBaseModel" --tag <nome progetto>` |
 | `forget` | Remove a specific memory | `supermemory forget <memory-id>` |
 | `update` | Update an existing memory | `supermemory update <memory-id> --content "..."` |
-| `profile` | Get user/project profile | `supermemory profile --tag fixcity --query "preferences"` |
+| `profile` | Get user/project profile | `supermemory profile --tag <nome progetto> --query "preferences"` |
 | `tags` | Manage container tags | `supermemory tags list` |
 | `docs` | Manage documents | `supermemory docs list` |
 
-## FixCity Use Cases
+## <nome progetto> Use Cases
 
 ### 1. Project Context Persistence
 Store project architecture decisions:
 ```bash
-supermemory add --tag fixcity --content "FixCity uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
-supermemory add --tag ptv --content "FixCity uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
+supermemory add --tag <nome progetto> --content "<nome progetto> uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
+supermemory add --tag ptv --content "<nome progetto> uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
 ```
 
 ### 2. Module-Specific Knowledge
 Store module patterns:
 ```bash
-supermemory add --tag fixcity --content "Fixcity module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
-supermemory add --tag ptv --content "Fixcity module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
+supermemory add --tag <nome progetto> --content "<nome progetto> module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
+supermemory add --tag ptv --content "<nome progetto> module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
 ```
 
 ### 3. Theme Conventions
 Store theme development patterns:
 ```bash
-supermemory add --tag fixcity --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then npm run copy to public_html/themes/Sixteen/."
+supermemory add --tag <nome progetto> --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then npm run copy to public_html/themes/Sixteen/."
 supermemory add --tag ptv --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then npm run copy to public_html/themes/Sixteen/."
 ```
 
 ### 4. Development Workflows
 Store build processes:
 ```bash
-supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build && npm run copy" --tag fixcity
+supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build && npm run copy" --tag <nome progetto>
 supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build && npm run copy" --tag ptv
 ```
 
 ### 5. Architectural Decisions
 Store reasoning behind decisions:
 ```bash
-supermemory add --tag fixcity --content "Decision: Use Actions over Services for business logic. Rationale: Queueable, testable, reusable. Spatie/laravel-queueable-action package."
+supermemory add --tag <nome progetto> --content "Decision: Use Actions over Services for business logic. Rationale: Queueable, testable, reusable. Spatie/laravel-queueable-action package."
 supermemory add --tag ptv --content "Decision: Use Actions over Services for business logic. Rationale: Queueable, testable, reusable. Spatie/laravel-queueable-action package."
 ```
 
@@ -107,25 +107,25 @@ supermemory add --tag ptv --content "Decision: Use Actions over Services for bus
 ### Before Starting Work
 ```bash
 # Get project context
-supermemory profile --tag fixcity --query "FixCity project architecture and conventions"
+supermemory profile --tag <nome progetto> --query "<nome progetto> project architecture and conventions"
 
 # Search for relevant patterns
-supermemory search "Filament widget patterns" --tag fixcity
+supermemory search "Filament widget patterns" --tag <nome progetto>
 ```
 
 ### During Development
 ```bash
 # Store decisions
-supermemory remember "Added file upload component to CreateTicketWizardWidget using wire:change" --tag fixcity
+supermemory remember "Added file upload component to CreateTicketWizardWidget using wire:change" --tag <nome progetto>
 
 # Search for similar patterns
-supermemory search "file upload Livewire" --tag fixcity
+supermemory search "file upload Livewire" --tag <nome progetto>
 ```
 
 ### After Completion
 ```bash
 # Store completed work summary
-supermemory add --tag fixcity --file path/to/session-summary.md
+supermemory add --tag <nome progetto> --file path/to/session-summary.md
 supermemory add --tag ptv --file path/to/session-summary.md
 
 # Update project context if needed
@@ -144,13 +144,13 @@ supermemory update <context-memory-id> --content "Updated architecture..."
 ## Best Practices
 
 1. **Use Descriptive Content**: Be specific about what you're storing
-2. **Tag Consistently**: Always use `fixcity` as base tag
+2. **Tag Consistently**: Always use `<nome progetto>` as base tag
 2. **Tag Consistently**: Always use `ptv` as base tag
 3. **Update Regularly**: Keep memories current with project evolution
 4. **Search Before Adding**: Avoid duplicate memories
 5. **Use Metadata**: Add metadata for better filtering:
    ```bash
-   supermemory add --tag fixcity --content "..." --metadata '{"type":"architecture","module":"Xot"}'
+   supermemory add --tag <nome progetto> --content "..." --metadata '{"type":"architecture","module":"Xot"}'
    supermemory add --tag ptv --content "..." --metadata '{"type":"architecture","module":"Xot"}'
    ```
 
@@ -171,11 +171,11 @@ Located in `laravel/.mcp.json`:
 ```
 
 ### CLI Configuration
-Located in `~/.supermemory/projects/-var-www-_bases-base_fixcity_fila5/config.json`:
+Located in `~/.supermemory/projects/-var-www-_bases-<repo progetto>/config.json`:
 ```json
 {
   "apiKey": "sm_BzH3Cugxk1hMDm5V1EHC2N_...",
-  "containerTag": "fixcity"
+  "containerTag": "<nome progetto>"
 }
 ```
 
@@ -187,13 +187,13 @@ Located in `~/.supermemory/projects/-var-www-_bases-base_fixcity_fila5/config.js
 supermemory whoami
 
 # Re-authenticate if needed
-supermemory init --api-key YOUR_KEY --container-tag fixcity --scope project
+supermemory init --api-key YOUR_KEY --container-tag <nome progetto> --scope project
 supermemory init --api-key YOUR_KEY --container-tag ptv --scope project
 ```
 
 ### No Results from Search
 - Try broader search terms
-- Verify container tag: `--tag fixcity`
+- Verify container tag: `--tag <nome progetto>`
 - Verify container tag: `--tag ptv`
 - Wait 1-2 minutes after adding content for processing
 

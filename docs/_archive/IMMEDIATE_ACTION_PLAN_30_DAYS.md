@@ -9,7 +9,7 @@
 
 ## 🎯 EXECUTIVE SUMMARY
 
-Piano di azione immediato per completare le funzionalità core della piattaforma FixCity nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.
+Piano di azione immediato per completare le funzionalità core della piattaforma <nome progetto> nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.
 
 ### 📊 Obiettivi Chiave
 - [ ] **API v1**: RESTful API completa e documentata
@@ -22,7 +22,7 @@ Piano di azione immediato per completare le funzionalità core della piattaforma
 ## 📅 TIMELINE DETTAGLIATA
 
 ### 🗓️ WEEK 1 (Jan 27 - Feb 2): API FOUNDATION
-**Focus**: Sviluppo API RESTful per modulo Fixcity
+**Focus**: Sviluppo API RESTful per modulo <nome progetto>
 
 #### 🎯 Obiettivi Giornalieri
 

@@ -174,7 +174,6 @@ reports
 .devcontainer/
 .vscode/
 reports/
-<<<<<<< HEAD
 graphify-out/
-=======
->>>>>>> laraxot/dev
+docs/_archive
+docs/archived

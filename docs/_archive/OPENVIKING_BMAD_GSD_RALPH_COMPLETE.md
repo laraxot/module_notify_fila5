@@ -59,7 +59,7 @@ All documentation, scripts, and configuration files have been created successful
 ## File Structure
 
 ```
-base_ptv_fila5/
+<repo progetto>/
 ├── docs/
 │   ├── openviking-integration.md          ✅ NEW
 │   ├── bmad-gsd-ralph-integration.md      ✅ NEW
@@ -94,7 +94,7 @@ sudo systemctl start openviking
 
 ```bash
 # Navigate to project
-cd /var/www/_bases/base_ptv_fila5
+cd /var/www/_bases/<repo progetto>
 
 # Run initialization
 bash bashscripts/ai/openviking-init.sh

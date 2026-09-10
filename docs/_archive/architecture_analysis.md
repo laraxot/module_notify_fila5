@@ -1,6 +1,6 @@
-# FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS
+# <nome progetto> ARCHITECTURE DEEP DIVE ANALYSIS
 **Generated**: 2025-10-01
-**Project**: FixCity Civic Engagement Platform
+**Project**: <nome progetto> Civic Engagement Platform
 **Architecture**: Nwidart + Laraxot Modular Monolith
 **Status**: Production-Ready Foundation with Active Development
 
@@ -9,7 +9,7 @@
 ## 📋 EXECUTIVE SUMMARY
 
 ### Project Overview
-FixCity is a **mature civic engagement platform** built on a sophisticated modular architecture combining Nwidart's Laravel-Modules with Laraxot's framework extensions. The platform enables citizens to report urban issues while providing administrators with powerful workflow management tools.
+<nome progetto> is a **mature civic engagement platform** built on a sophisticated modular architecture combining Nwidart's Laravel-Modules with Laraxot's framework extensions. The platform enables citizens to report urban issues while providing administrators with powerful workflow management tools.
 
 ### Current State Assessment
 - **Architecture Maturity**: ⭐⭐⭐⭐⭐ (5/5) - Excellent
@@ -21,7 +21,7 @@ FixCity is a **mature civic engagement platform** built on a sophisticated modul
 ### Key Metrics
 ```
 Total Modules:           22 active modules
-Core Business Logic:     54 PHP files in Fixcity module
+Core Business Logic:     54 PHP files in <nome progetto> module
 Test Files:              23 comprehensive test files
 Test Code:               ~6,846 lines of test code
 Filament Resources:      9+ admin resources configured
@@ -51,7 +51,7 @@ BASE MODULES (Livello 1)
 └── Chart                   Data visualization
 
 DOMAIN MODULES (Livello 2)
-├── Fixcity ⭐              Core business logic (main module)
+├── <nome progetto> ⭐              Core business logic (main module)
 ├── Activity                Audit trail & event sourcing
 ├── Blog                    Content management
 ├── Cms                     Dynamic pages (JSON storage)
@@ -70,11 +70,11 @@ PRESENTATION LAYER
 #### Module Status (`modules_statuses.json`)
 All 22 modules are **currently active** and enabled. The system uses composer merge-plugin for automatic discovery.
 
-### 2. CORE MODULE: FIXCITY
+### 2. CORE MODULE: <nome progetto>
 
 #### File Structure
 ```
-Modules/Fixcity/
+Modules/<nome progetto>/
 ├── app/
 │   ├── Models/
 │   │   ├── Ticket.php                      (507 LOC - Core entity)
@@ -452,7 +452,7 @@ Methods:
 
 #### Form Schema
 ```php
-public static function getFormSchema(): array
+public function getFormSchema(): array
 {
     return [
         Section::make()->schema([
@@ -619,8 +619,8 @@ PUBLIC PAGES
 /auth/register                      → auth/register.blade.php
 
 AUTHENTICATED PAGES
-/tickets/create                     → Fixcity::tickets/create.blade.php
-/tickets/{slug}                     → Fixcity::tickets/[slug].blade.php
+/tickets/create                     → <nome progetto>::tickets/create.blade.php
+/tickets/{slug}                     → <nome progetto>::tickets/[slug].blade.php
 /dashboard                          → dashboard/index.blade.php
 /profile/edit                       → profile/edit.blade.php
 
@@ -634,7 +634,7 @@ DYNAMIC PAGES (CMS)
 
 #### Example: Ticket Create Page
 ```php
-// Modules/Fixcity/resources/views/pages/tickets/create.blade.php
+// Modules/<nome progetto>/resources/views/pages/tickets/create.blade.php
 <?php
 use function Laravel\Folio\{middleware, name};
 
@@ -648,7 +648,7 @@ middleware(['auth']);
             Segnalazione disservizio
         </h1>
 
-        @livewire(\Modules\Fixcity\Filament\Widgets\CreateTicketWidget::class)
+        @livewire(\Modules\<nome progetto>\Filament\Widgets\CreateTicketWidget::class)
     </div>
 </x-layouts.marketing>
 ```
@@ -710,7 +710,7 @@ tests/Feature/
 ├── TicketTest.php
 ├── TicketWorkflowIntegrationTest.php
 ├── CategoryMigrationTest.php
-├── FixcityComponentsTest.php
+├── <nome progetto>ComponentsTest.php
 └── Pages/
     └── TicketPagesTest.php
 ```
@@ -803,7 +803,7 @@ Modules/Notify/
 │   └── Multi-tenant aware
 ```
 
-### Fixcity Notifications
+### <nome progetto> Notifications
 
 #### TicketAssigned
 ```php
@@ -1096,7 +1096,7 @@ The frontend follows Italian Public Administration design guidelines:
 <x-ui.marketing.breadcrumbs :crumbs="[...]" />
 
 // Ticket List (AGID-compliant)
-<x-fixcity::blocks.ticket_list.agid />
+<x-<nome progetto>::blocks.ticket_list.agid />
 <x-ptv::blocks.ticket_list.agid />
 
 // Forms (Filament + Custom CSS)
@@ -1180,7 +1180,7 @@ php artisan test --parallel
 
 ### Current Status
 ```
-Files:              54 PHP files (Fixcity module only)
+Files:              54 PHP files (<nome progetto> module only)
 Total Lines:        ~15,000+ LOC (including all modules)
 Test Coverage:      ~6,846 LOC of test code
 Test Files:         23 comprehensive test files
@@ -1973,7 +1973,7 @@ Quarterly:
 
 ### Overall Assessment
 
-**FixCity is a WELL-ARCHITECTED, PRODUCTION-READY civic engagement platform** built on solid foundations:
+**<nome progetto> is a WELL-ARCHITECTED, PRODUCTION-READY civic engagement platform** built on solid foundations:
 
 ✅ **Strengths:**
 - Excellent modular architecture (Nwidart + Laraxot)

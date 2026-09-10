@@ -33,12 +33,12 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 ### Tech Stack
 
 **Backend**:
-- Laravel 12.24.0 + PHP 8.3.20
+- Laravel 13.24.0 + PHP 8.3.20
 - SQLite (development) / PostgreSQL (production ready)
 - Nwidart Modules + Laraxot Extensions
 
 **Frontend Backoffice**:
-- Filament 4.x (Admin Panels)
+- Filament 5.x (Admin Panels)
 - Livewire 3.x (Interattività)
 - Tailwind CSS 4.0
 

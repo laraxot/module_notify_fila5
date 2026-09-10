@@ -48,7 +48,7 @@ ls -la ~/.claude/skills/notebooklm/
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│              AI Tool Stack - FixCity                    │
+│              AI Tool Stack - <nome progetto>                    │
 ├─────────────────────────────────────────────────────────┤
 │                                                          │
 │  📚 NotebookLM Skill                                    │
@@ -158,14 +158,14 @@ python scripts/run.py ask_question.py \
   --question "What does the docs say about [topic]?"
 ```
 
-## Usage Examples for FixCity
+## Usage Examples for <nome progetto>
 
 ### Example 1: Technical Research (BMAD)
 
 ```bash
 # Research Laravel patterns
 python scripts/run.py ask_question.py \
-  --question "What are Laravel 12 best practices for service architecture?"
+  --question "What are Laravel 13 best practices for service architecture?"
 
 # Research Filament v5
 python scripts/run.py ask_question.py \
@@ -216,7 +216,7 @@ Every NotebookLM answer ends with: **"Is that ALL you need to know?"**
 4. **REPEAT** - Until information is complete
 5. **SYNTHESIZE** - Combine all answers before responding
 
-## Recommended Notebooks for FixCity
+## Recommended Notebooks for <nome progetto>
 
 Create these NotebookLM notebooks:
 
@@ -236,7 +236,7 @@ Create these NotebookLM notebooks:
 - **Use**: Admin panel development
 
 ### 4. Project Documentation
-- **Upload**: FixCity docs, module docs, theme docs
+- **Upload**: <nome progetto> docs, module docs, theme docs
 - **Topics**: ptv, project, conventions, documentation
 - **Use**: Project-specific queries
 
@@ -297,7 +297,7 @@ STEALTH_ENABLED=true     # Human-like behavior
 TYPING_WPM_MIN=160
 TYPING_WPM_MAX=240
 
-# Default notebook (FixCity docs)
+# Default notebook (<nome progetto> docs)
 DEFAULT_NOTEBOOK_ID=ptv-project-docs
 ```
 
@@ -335,7 +335,7 @@ DEFAULT_NOTEBOOK_ID=ptv-project-docs
 
 1. ✅ Skill installed and verified
 2. ⏳ Authenticate with Google account
-3. ⏳ Create FixCity NotebookLM notebooks
+3. ⏳ Create <nome progetto> NotebookLM notebooks
 4. ⏳ Upload project documentation
 5. ⏳ Integrate with BMAD workflow
 6. ⏳ Store insights in OpenViking

@@ -26,7 +26,7 @@
 
 **Error**:
 ```
-Vite manifest not found at: /var/www/_bases/base_ptvx_fila5/public_html/themes/<nome tema>/manifest.json
+Vite manifest not found at: /var/www/_bases/<repo progetto>/public_html/themes/<nome tema>/manifest.json
 ```
 
 **Root Cause Analysis**:
@@ -121,7 +121,7 @@ See: `.planning/improvements/NOTIFY_IT_IMPROVEMENT_PLAN.md`
 
 ```bash
 # Navigate to project
-cd /var/www/_bases/base_ptvx_fila5
+cd /var/www/_bases/<repo progetto>
 
 # Fix Sixteen theme
 cd laravel/Themes/Sixteen

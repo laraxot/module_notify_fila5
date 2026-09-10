@@ -14,9 +14,9 @@ use Modules\Notify\Actions\Telegram\SendOfficialTelegramAction;
 use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
-use Modules\Notify\Actions\Push\SendScheduledPushNotificationAction;
 use Modules\Notify\Datas\TelegramData;
 use Modules\Notify\Datas\WhatsAppData;
+use Modules\Notify\Jobs\SendScheduledPushNotification;
 use Modules\Notify\Notifications\Channels\FirebaseCloudMessagingChannel;
 use PHPUnit\Framework\Assert;
 
@@ -73,8 +73,8 @@ describe('Notify coverage 100 — extended provider paths', function (): void {
         $channel = new FirebaseCloudMessagingChannel($messaging);
         Assert::assertInstanceOf(FirebaseCloudMessagingChannel::class, $channel);
 
-        $action = new SendScheduledPushNotificationAction;
-        $action->execute('job-cov-extended');
-        Assert::assertInstanceOf(SendScheduledPushNotificationAction::class, $action);
+        $job = new SendScheduledPushNotification('job-cov-extended');
+        $job->handle();
+        Assert::assertInstanceOf(SendScheduledPushNotification::class, $job);
     });
 });

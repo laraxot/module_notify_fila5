@@ -52,7 +52,7 @@ Tu hai chiesto:
 ✅ Activity: 72→45 LOC (-37%)
 ✅ Blog: 76→45 LOC (-41%)
 ✅ Cms: 70→37 LOC (-47%)
-✅ Fixcity: 72→43 LOC (-40%)
+✅ <nome progetto>: 72→43 LOC (-40%)
 ✅ Geo: 78→31 LOC (-60%) 🏆
 ✅ Job: 89→72 LOC (-19%)
 ✅ Lang: 73→44 LOC (-40%)
@@ -101,7 +101,7 @@ Tu hai chiesto:
 **Moduli (18):**
 ```
 ✅ Activity, AI, Blog, Cms, Comment
-✅ Fixcity, Gdpr, Geo, Job, Lang
+✅ <nome progetto>, Gdpr, Geo, Job, Lang
 ✅ Media, Notify, Rating, Seo, Tenant
 ✅ UI, User, Xot
 ```
@@ -226,7 +226,7 @@ Ogni file contiene:
 ✅ Modules/Activity/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Blog/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Cms/app/Models/BaseModel.php (refactorato)
-✅ Modules/Fixcity/app/Models/BaseModel.php (refactorato)
+✅ Modules/<nome progetto>/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Geo/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Job/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Lang/app/Models/BaseModel.php (refactorato)

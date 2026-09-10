@@ -141,13 +141,13 @@ Instead of logging routine operations, use proper monitoring tools:
 ## Files to Audit
 
 ### Service Classes (High Priority)
-- `Modules/Fixcity/app/Services/NotificationService.php`
-- `Modules/Fixcity/app/Services/TicketService.php`
-- `Modules/Fixcity/app/Services/WorkflowService.php`
+- `Modules/<nome progetto>/app/Services/NotificationService.php`
+- `Modules/<nome progetto>/app/Services/TicketService.php`
+- `Modules/<nome progetto>/app/Services/WorkflowService.php`
 - All other Service classes in all modules
 
 ### Actions (Medium Priority)
-- `Modules/Fixcity/app/Actions/*.php`
+- `Modules/<nome progetto>/app/Actions/*.php`
 - All Spatie QueueableActions
 
 ### Controllers (Medium Priority)

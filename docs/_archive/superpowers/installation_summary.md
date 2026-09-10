@@ -9,7 +9,7 @@
 
 ## 📋 Overview
 
-Successfully installed and configured the **Superpowers** agentic skills framework for the FixCity platform.
+Successfully installed and configured the **Superpowers** agentic skills framework for the <nome progetto> platform.
 Successfully installed and configured the **Superpowers** agentic skills framework for the Notify platform.
 
 ---

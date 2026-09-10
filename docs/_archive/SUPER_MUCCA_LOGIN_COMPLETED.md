@@ -49,7 +49,7 @@ updated: 2026-08-24
 ✓ Card bianca con shadow-xl e rounded-lg
 ```
 
-### ✅ Form Widget Filament 4
+### ✅ Form Widget Filament 5
 ```html
 ✓ Titolo form "Accedi al tuo account"
 ✓ Sottotitolo "Inserisci le tue credenziali per accedere"
@@ -132,7 +132,7 @@ Vista Widget: Themes/Sixteen/.../auth/login.blade.php
   - {{ $this->form }} → Rende i campi
   - <button type="submit">Accedi</button>
     ↓
-Filament 4 Processing:
+Filament 5 Processing:
   - Validazione automatica
   - Error handling
   - Loading states
@@ -228,7 +228,7 @@ Fail: Error message + rimane su form
 - [x] Submit button reattivo
 - [x] Loading spinner durante submit
 
-#### Filament 4 Integration ✅
+#### Filament 5 Integration ✅
 - [x] Widget renderizza
 - [x] Campi form appaiono
 - [x] Validazione attiva
@@ -308,7 +308,7 @@ Premi **CTRL+F5** (hard refresh) per svuotare cache browser
 
 ## 💡 Cosa Ho Capito e Documentato
 
-### Architettura Filament 4 Widgets
+### Architettura Filament 5 Widgets
 
 **Pattern Completo**:
 
@@ -386,7 +386,7 @@ Premi **CTRL+F5** (hard refresh) per svuotare cache browser
 - ✅ **Guide troubleshooting** complete
 
 ### Conoscenza Acquisita
-- ✅ **Filament 4 Widgets** - Pattern completo documentato
+- ✅ **Filament 5 Widgets** - Pattern completo documentato
 - ✅ **XotBase Architecture** - Estensione classi corretta
 - ✅ **pub_theme System** - Vista configurabile tema
 - ✅ **Translation System** - Namespace e path corretti
@@ -498,7 +498,7 @@ Password: password
 
 ## 🎓 Lezioni Apprese
 
-### Pattern Filament 4 Widgets
+### Pattern Filament 5 Widgets
 
 1. **XotBaseWidget** fornisce:
    - `InteractsWithForms` trait
@@ -547,7 +547,7 @@ Password: password
 **Deliverables**:
 - ✅ Login funzionante
 - ✅ Design Docs.Italia.it
-- ✅ Widget Filament 4 integrato
+- ✅ Widget Filament 5 integrato
 - ✅ Traduzioni complete
 - ✅ 13 file documentazione
 - ✅ 3,023 file analizzati

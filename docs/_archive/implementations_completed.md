@@ -1,4 +1,4 @@
-# ✅ FIXCITY - IMPLEMENTAZIONI COMPLETATE
+# ✅ <nome progetto> - IMPLEMENTAZIONI COMPLETATE
 
 **Data**: 2025-10-01  
 **Sessione**: Gap Analysis & Core Implementation  
@@ -8,14 +8,14 @@
 
 ## 🎯 OBIETTIVO RAGGIUNTO
 
-Analizzato lo scopo del progetto, identificate le features mancanti e implementate le funzionalità critiche per trasformare FixCity da MVP a piattaforma enterprise-ready.
+Analizzato lo scopo del progetto, identificate le features mancanti e implementate le funzionalità critiche per trasformare <nome progetto> da MVP a piattaforma enterprise-ready.
 
 ---
 
 ## 📊 SCOPO DEL PROGETTO (Analizzato)
 
 ### Business Goal
-**FixCity** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette:
+**<nome progetto>** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette:
 - 👥 **Cittadini**: Segnalare problemi urbani (buche, illuminazione, rifiuti, verde pubblico)
 - 🔧 **Operatori**: Gestire e risolvere segnalazioni con workflow ottimizzati
 - 📊 **Amministratori**: Monitorare performance e analytics
@@ -34,7 +34,7 @@ Analizzato lo scopo del progetto, identificate le features mancanti e implementa
 ### 📊 Analisi e Planning (1)
 1. ✅ **GAP_ANALYSIS_IMPLEMENTATION.md** - Analisi completa gap e piano implementazione
 
-### 🎫 Modulo Fixcity - Core Implementation (4)
+### 🎫 Modulo <nome progetto> - Core Implementation (4)
 2. ✅ **Jobs/GeocodeTicketAddressJob.php** - Async geocoding con cache
 3. ✅ **Repositories/TicketRepository.php** - Query optimization con cache layer
 4. ✅ **Http/Controllers/Api/V1/TicketController.php** - REST API completa
@@ -50,9 +50,9 @@ Analizzato lo scopo del progetto, identificate le features mancanti e implementa
 12. ✅ **FINAL_SUMMARY.md**
 
 ### 📖 Guide Complete (3 - da sessione precedente)
-13. ✅ **Fixcity/docs/API.md**
-14. ✅ **Fixcity/docs/USER_GUIDE.md**
-15. ✅ **Fixcity/docs/ADMIN_GUIDE.md**
+13. ✅ **<nome progetto>/docs/API.md**
+14. ✅ **<nome progetto>/docs/USER_GUIDE.md**
+15. ✅ **<nome progetto>/docs/ADMIN_GUIDE.md**
 
 ### 🔐 Security Implementation (2 - da sessione precedente)
 16. ✅ **User/docs/2FA_GUIDE.md**
@@ -60,7 +60,7 @@ Analizzato lo scopo del progetto, identificate le features mancanti e implementa
 
 ### 🗺️ Roadmap (3 - da sessione precedente)
 18. ✅ **ROADMAP_STATUS_SUMMARY.md**
-19. ✅ **Fixcity/ROADMAP_2025.md**
+19. ✅ **<nome progetto>/ROADMAP_2025.md**
 20. ✅ **User/ROADMAP.md**
 
 ---
@@ -89,7 +89,7 @@ GeocodeTicketAddressJob::dispatch($ticket);
 - 🔄 Resilienza: Fallback automatico
 - 📊 Scalabilità: Queue-based
 
-**File**: `Modules/Fixcity/Jobs/GeocodeTicketAddressJob.php`
+**File**: `Modules/<nome progetto>/Jobs/GeocodeTicketAddressJob.php`
 
 ---
 
@@ -117,7 +117,7 @@ $stats = $repository->getStatistics();
 - 💾 Memory usage: -40%
 - 🔍 Nearby search ottimizzato
 
-**File**: `Modules/Fixcity/Repositories/TicketRepository.php`
+**File**: `Modules/<nome progetto>/Repositories/TicketRepository.php`
 
 **Metodi Principali**:
 - `findById()` - Con cache
@@ -262,7 +262,7 @@ GET    /api/v1/tickets/nearby       // Nearby search
 
 ### 1. Database Migration
 ```bash
-php artisan make:migration add_address_to_tickets_table --path=Modules/Fixcity/database/migrations
+php artisan make:migration add_address_to_tickets_table --path=Modules/<nome progetto>/database/migrations
 ```
 
 ```php
@@ -274,7 +274,7 @@ Schema::table('tickets', function (Blueprint $table) {
 
 ### 2. Register API Routes
 ```php
-// Modules/Fixcity/routes/api.php
+// Modules/<nome progetto>/routes/api.php
 Route::prefix('v1')->group(function () {
     Route::apiResource('tickets', TicketController::class);
     Route::post('tickets/{id}/status', [TicketController::class, 'changeStatus']);
@@ -295,9 +295,9 @@ protected function getTableQuery(): Builder
 
 ### 4. Create Tests
 ```bash
-php artisan make:test Modules/Fixcity/Tests/Feature/GeocodeTicketTest
-php artisan make:test Modules/Fixcity/Tests/Feature/TicketRepositoryTest
-php artisan make:test Modules/Fixcity/Tests/Feature/Api/TicketApiTest
+php artisan make:test Modules/<nome progetto>/Tests/Feature/GeocodeTicketTest
+php artisan make:test Modules/<nome progetto>/Tests/Feature/TicketRepositoryTest
+php artisan make:test Modules/<nome progetto>/Tests/Feature/Api/TicketApiTest
 ```
 
 ### 5. Setup CI/CD
@@ -347,7 +347,7 @@ jobs:
 - **Caching**: 0% → **70%** (+70%)
 
 ### Moduli Status
-- **Fixcity**: 90% → **93%** (Job, Repository, API)
+- **<nome progetto>**: 90% → **93%** (Job, Repository, API)
 - **User**: 92% (2FA/SSO documentati)
 - **UI**: 70% (da implementare)
 - **Geo**: 75% (da implementare)
@@ -364,7 +364,7 @@ jobs:
 
 ### Core Implementation
 ```
-Modules/Fixcity/
+Modules/<nome progetto>/
 ├── Jobs/
 │   └── GeocodeTicketAddressJob.php          ✅ NEW
 ├── Repositories/
@@ -418,9 +418,9 @@ Modules/Fixcity/
 - **[QUICK_START.md](./QUICK_START.md)** - Guida sviluppatori
 
 ### Implementation
-- **[GeocodeTicketAddressJob.php](./laravel/Modules/Fixcity/Jobs/GeocodeTicketAddressJob.php)**
-- **[TicketRepository.php](./laravel/Modules/Fixcity/Repositories/TicketRepository.php)**
-- **[TicketController.php](./laravel/Modules/Fixcity/Http/Controllers/Api/V1/TicketController.php)**
+- **[GeocodeTicketAddressJob.php](./laravel/Modules/<nome progetto>/Jobs/GeocodeTicketAddressJob.php)**
+- **[TicketRepository.php](./laravel/Modules/<nome progetto>/Repositories/TicketRepository.php)**
+- **[TicketController.php](./laravel/Modules/<nome progetto>/Http/Controllers/Api/V1/TicketController.php)**
 
 ---
 
@@ -452,6 +452,6 @@ Completata con successo l'implementazione delle features critiche:
 
 ---
 
-*"From analysis to implementation - building enterprise-ready features for FixCity 2025!"*
+*"From analysis to implementation - building enterprise-ready features for <nome progetto> 2025!"*
 
-**#FixCity2025 #Implementation #Performance #API #Excellence**
+**#<nome progetto>2025 #Implementation #Performance #API #Excellence**

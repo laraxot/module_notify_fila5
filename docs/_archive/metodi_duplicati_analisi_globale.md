@@ -1,5 +1,5 @@
 # 🐮 ANALISI GLOBALE METODI DUPLICATI
-## Super Cow Edition - FixCity Project
+## Super Cow Edition - <nome progetto> Project
 
 **Powered by Super Cow** 🐮⚡
 **Data Generazione**: 2025-10-15 06:50:01
@@ -58,7 +58,7 @@
 | Geo | 38 | 95132.2% | 873 | 55h | [📄 Vedi](Modules/Geo/docs/METODI_DUPLICATI_ANALISI.md) |
 | UI | 2 | 75641.9% | 31 | 4h | [📄 Vedi](Modules/UI/docs/METODI_DUPLICATI_ANALISI.md) |
 | AI | 4 | 75640.0% | 62 | 4h | [📄 Vedi](Modules/AI/docs/METODI_DUPLICATI_ANALISI.md) |
-| Fixcity | 72 | 69279.0% | 773 | 148h | [📄 Vedi](Modules/Fixcity/docs/METODI_DUPLICATI_ANALISI.md) |
+| <nome progetto> | 72 | 69279.0% | 773 | 148h | [📄 Vedi](Modules/<nome progetto>/docs/METODI_DUPLICATI_ANALISI.md) |
 | Seo | 1 | 55.0% | 3 | 3h | [📄 Vedi](Modules/Seo/docs/METODI_DUPLICATI_ANALISI.md) |
 
 ## 🎨 Distribuzione Strategie

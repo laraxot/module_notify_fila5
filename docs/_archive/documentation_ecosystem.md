@@ -1,4 +1,4 @@
-# FixCity Documentation Ecosystem - Visual Map
+# <nome progetto> Documentation Ecosystem - Visual Map
 
 **📍 Complete Bidirectional Links & Cross-References**
 
@@ -8,7 +8,7 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│            FixCity Fila5 Documentation Ecosystem                 │
+│            <nome progetto> Fila5 Documentation Ecosystem                 │
 │                   (7,137+ Connected Files)                       │
 └──────────────────────────────────────────────────────────────────┘
 
@@ -156,7 +156,7 @@ Theme: Sixteen
     │
     ├─→ Cms Module
     │   └─ Displays: Pages, blocks, content
-    │   └─ Via: config/local/fixcity/database/content/pages/
+    │   └─ Via: config/local/<nome progetto>/database/content/pages/
     │   └─ Via: config/local/ptv/database/content/pages/
     │   └─ Renders: Block components
     │

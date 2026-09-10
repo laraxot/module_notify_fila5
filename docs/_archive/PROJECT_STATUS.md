@@ -1,4 +1,4 @@
-# FixCity Platform - Project Status Report
+# <nome progetto> Platform - Project Status Report
 
 **Data**: 2025-01-01  
 **Versione**: 1.0.0-alpha  
@@ -8,7 +8,7 @@
 
 | Modulo | Status | Completamento | Priorità | Owner |
 |--------|--------|---------------|----------|-------|
-| **Fixcity** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
+| **<nome progetto>** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
 | **User** | 🟢 Stable | 75% | 🔴 Critical | Security Team |
 | **Xot** | 🟢 Stable | 80% | 🔴 Critical | Core Team |
 | **Notify** | 🟡 In Progress | 50% | 🟠 High | Notification Team |
@@ -92,8 +92,8 @@
 - ✅ Master Plan strategico 2025-2026 creato
 
 ### Dicembre 2024
-- ✅ Upgraded to Laravel 12
-- ✅ Migrated to Filament 4
+- ✅ Upgraded to Laravel 13
+- ✅ Migrated to Filament 5
 - ✅ Implemented OAuth2 with Passport
 - ✅ Enhanced geolocation features
 

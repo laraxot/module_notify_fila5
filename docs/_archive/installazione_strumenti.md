@@ -87,7 +87,7 @@ docs/
 
 ## Prossimi Passi
 
-1. Configurare OpenViking context per FixCity
+1. Configurare OpenViking context per <nome progetto>
 2. Creare BMAD stories per allineamento HTML
 3. Eseguire GSD phase per fix componenti
 4. Usare Ralph Loop per iterazioni rapide

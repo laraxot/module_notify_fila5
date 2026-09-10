@@ -6,10 +6,10 @@
 
 ## Repository
 
-- **URL**: https://github.com/laraxot/base_predict_fila5
-- **Remote**: `origin` (git@github.com:laraxot/base_predict_fila5.git)
-- **URL**: https://github.com/laraxot/base_ptvx_fila5
-- **Remote**: `origin` (git@github.com:laraxot/base_ptvx_fila5.git)
+- **URL**: https://github.com/laraxot/<repo progetto>
+- **Remote**: `origin` (git@github.com:laraxot/<repo progetto>.git)
+- **URL**: https://github.com/laraxot/<repo progetto>
+- **Remote**: `origin` (git@github.com:laraxot/<repo progetto>.git)
 
 ---
 
@@ -18,8 +18,8 @@
 ### Method 1: GitHub Web Interface
 
 ```
-1. Vai su: https://github.com/laraxot/base_predict_fila5/issues
-1. Vai su: https://github.com/laraxot/base_ptvx_fila5/issues
+1. Vai su: https://github.com/laraxot/<repo progetto>/issues
+1. Vai su: https://github.com/laraxot/<repo progetto>/issues
 2. Clicca "New issue"
 3. Scegli template
 4. Compili e invii
@@ -104,8 +104,8 @@ gh pr create --title "Fix: ..." --body "Fixes #123"
 3. 💬 **Comments Section** - HIGH priority
 4. 📤 **Share Buttons** - MEDIUM priority
 
-**Create issues on GitHub**: https://github.com/laraxot/base_predict_fila5/issues
-**Create issues on GitHub**: https://github.com/laraxot/base_ptvx_fila5/issues
+**Create issues on GitHub**: https://github.com/laraxot/<repo progetto>/issues
+**Create issues on GitHub**: https://github.com/laraxot/<repo progetto>/issues
 
 ---
 

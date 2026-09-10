@@ -1,6 +1,6 @@
-# ✅ FixCity Improvement Plan - START HERE
+# ✅ <nome progetto> Improvement Plan - START HERE
 
-**URL**: http://fixcity.local/it  
+**URL**: http://<nome progetto>.local/it  
 **Date**: 2026-03-30  
 **Status**: ✅ **READY TO START**  
 **Timeline**: 17 settimane (4 mesi)
@@ -13,7 +13,7 @@
 
 ```bash
 # Master plan (1,555 righe)
-cat .planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md
+cat .planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md
 
 # Execution plan (515 righe)
 cat .planning/improvements/EXECUTION_PLAN.md
@@ -35,7 +35,7 @@ cat .planning/improvements/RESEARCH_SUMMARY.md
 /gsd-plan-phase 0.1
 
 # Esegui con Ralph Loop
-cp .planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md .ralph/prd.json
+cp .planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md .ralph/prd.json
 ./.ralph/ralph-loop.sh 10 true
 ```
 
@@ -43,7 +43,7 @@ cp .planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md .ralph/prd.json
 
 ```bash
 openviking init
-openviking add-memory "FixCity Improvement Plan started 2026-03-30"
+openviking add-memory "<nome progetto> Improvement Plan started 2026-03-30"
 ```
 
 ---
@@ -112,7 +112,7 @@ openviking add-memory "FixCity Improvement Plan started 2026-03-30"
 
 ### Created Today
 
-1. **`.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md`** (1,555 righe)
+1. **`.planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md`** (1,555 righe)
    - Complete improvement plan
    - All priorities P0-P3
    - Detailed breakdowns
@@ -230,7 +230,7 @@ openviking add-memory "P0.1 complete"
 
 ### Improvement Docs
 
-- [Master Plan](.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md)
+- [Master Plan](.planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md)
 - [Execution Plan](.planning/improvements/EXECUTION_PLAN.md)
 - [Research Summary](.planning/improvements/RESEARCH_SUMMARY.md)
 - [NotebookLM Guide](.planning/improvements/NOTEBOOK_LM_GUIDE.md)
@@ -279,4 +279,4 @@ openviking add-memory "P0.1 complete"
 **Next Action**: `/gsd-discuss-phase 0.1`  
 **ETA Production**: 2026-10-26 (17 settimane)
 
-**Let's improve FixCity! 🚀**
+**Let's improve <nome progetto>! 🚀**

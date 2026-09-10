@@ -15,13 +15,13 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 **Solution**: Moved all dependencies from `require_comment` and `require-dev_comment` sections to active `require` and `require-dev` sections.
 
 **Files Modified**:
-- `/var/www/_bases/base_ptv_fila5/laravel/composer.json`
+- `/var/www/_bases/<repo progetto>/laravel/composer.json`
 
 ### 2. Version Conflicts (CRITICAL)
 **Problem**: Module composer.json files had conflicting version requirements:
 - Xot module required `laravel/boost: ^2.0` vs root `^1.0`
-- Rating module required `pestphp/pest-plugin-laravel: ^2.0` (Laravel 10.x/11.x only) vs Laravel 12.x
-- dotswan/filament-map-picker required Filament 4.x vs Filament 5.x
+- Rating module required `pestphp/pest-plugin-laravel: ^2.0` (Laravel 10.x/11.x only) vs Laravel 13.x
+- dotswan/filament-map-picker required Filament 5.x vs Filament 5.x
 
 **Solution**:
 - Updated root composer.json to use `laravel/boost: ^2.0`
@@ -30,19 +30,19 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 - Removed Pest version constraints from Rating module
 
 **Files Modified**:
-- `/var/www/_bases/base_ptv_fila5/laravel/composer.json`
-- `/var/www/_bases/base_ptv_fila5/laravel/Modules/Rating/composer.json`
+- `/var/www/_bases/<repo progetto>/laravel/composer.json`
+- `/var/www/_bases/<repo progetto>/laravel/Modules/Rating/composer.json`
 
 ### 3. Method Conflict (CRITICAL)
-**Problem**: `Modules\Fixcity\Models\User` used `InteractsWithComments` trait which conflicted with `BaseUser::notifications()` method.
+**Problem**: `Modules\<nome progetto>\Models\User` used `InteractsWithComments` trait which conflicted with `BaseUser::notifications()` method.
 
 **Error**: `Declaration of Spatie\Comments\Models\Concerns\InteractsWithComments::notifications() must be compatible with Modules\User\Models\BaseUser::notifications()`
 
-**Solution**: Temporarily disabled `InteractsWithComments` trait and `CanComment` interface in `Modules\Fixcity\Models\User`.
+**Solution**: Temporarily disabled `InteractsWithComments` trait and `CanComment` interface in `Modules\<nome progetto>\Models\User`.
 
 **Files Modified**:
-- `/var/www/_bases/base_ptv_fila5/laravel/Modules/Fixcity/app/Models/User.php`
-- `/var/www/_bases/base_ptv_fila5/laravel/Modules/User/app/Models/BaseUser.php` (fixed return type)
+- `/var/www/_bases/<repo progetto>/laravel/Modules/<nome progetto>/app/Models/User.php`
+- `/var/www/_bases/<repo progetto>/laravel/Modules/User/app/Models/BaseUser.php` (fixed return type)
 
 ### 4. Environment Configuration
 **Problem**: No `.env` file existed, causing Boost to be disabled.
@@ -52,7 +52,7 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 - `APP_DEBUG=true`
 
 **Files Created**:
-- `/var/www/_bases/base_ptv_fila5/laravel/.env`
+- `/var/www/_bases/<repo progetto>/laravel/.env`
 
 ## Installation Process
 
@@ -92,7 +92,7 @@ php artisan list | grep boost
 
 ### Skill Installation Location
 ```
-/var/www/_bases/base_ptv_fila5/laravel/.ai/skills/laravel-specialist/
+/var/www/_bases/<repo progetto>/laravel/.ai/skills/laravel-specialist/
 ```
 
 ## Documentation Created
@@ -106,7 +106,7 @@ Created BOOST_SKILL_FIX_SUMMARY.md in:
 - `Modules/Xot/docs/`
 - `Modules/User/docs/`
 - `Modules/AI/docs/`
-- `Modules/Fixcity/docs/`
+- `Modules/<nome progetto>/docs/`
 - `Modules/Media/docs/`
 - `Modules/Notify/docs/`
 - `Modules/Activity/docs/`
@@ -138,14 +138,14 @@ Created BOOST_SKILL_FIX_SUMMARY.md in:
 
 ## Backup Files Created
 
-- `/var/www/_bases/base_ptv_fila5/laravel/composer.json.backup`
+- `/var/www/_bases/<repo progetto>/laravel/composer.json.backup`
 
 ## Known Issues
 
 ### 1. InteractsWithComments Trait Disabled
-The `InteractsWithComments` trait is temporarily disabled in `Modules\Fixcity\Models\User` due to method signature conflict with `BaseUser::notifications()`.
+The `InteractsWithComments` trait is temporarily disabled in `Modules\<nome progetto>\Models\User` due to method signature conflict with `BaseUser::notifications()`.
 
-**Impact**: Comment functionality in Fixcity module may be affected.
+**Impact**: Comment functionality in <nome progetto> module may be affected.
 
 **Resolution Required**: Need to refactor the conflict, possibly by:
 - Using aliasing for the trait methods
@@ -156,7 +156,7 @@ The `InteractsWithComments` trait is temporarily disabled in `Modules\Fixcity\Mo
 
 ✅ composer.json has all dependencies in active sections  
 ✅ composer install completed without errors (328 packages)  
-✅ php artisan --version returns Laravel 12.53.0  
+✅ php artisan --version returns Laravel 13.53.0  
 ✅ boost:add-skill command executes successfully  
 ✅ laravel-specialist skill installed in .ai/skills/  
 ✅ All module documentation updated  

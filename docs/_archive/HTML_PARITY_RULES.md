@@ -283,7 +283,7 @@ bashscripts/html/html-structure-compare.sh              # In category
 ### Mistake #6: Direct Theme Refs in Scripts
 ```bash
 # ❌ WRONG in bashscripts/html/script.sh
-OUTPUT_DIR="/var/www/_bases/base_ptv_fila5/laravel/Themes/Sixteen/docs/..."
+OUTPUT_DIR="/var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/docs/..."
 
 # ✅ CORRECT
 OUTPUT_DIR="${PROJECT_ROOT}/laravel/Themes/${THEME_NAME}/docs/..."

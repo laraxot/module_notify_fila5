@@ -187,6 +187,6 @@ body {
 ---
 
 **Cache**: ✅ Pulita  
-**URL Test**: http://fixcity.local/it/tests/homepage  
+**URL Test**: http://<nome progetto>.local/it/tests/homepage  
 **URL Test**: http://ptv.local/it/tests/homepage  
 **Status**: Header e Footer 100% conformi

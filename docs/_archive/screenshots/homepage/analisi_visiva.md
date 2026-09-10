@@ -1,11 +1,11 @@
-# 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia
+# 📸 Analisi Visiva Homepage <nome progetto> vs Bootstrap Italia
 # 📸 Analisi Visiva Homepage Notify vs Bootstrap Italia
 
 ## Data: {{ date('Y-m-d H:i:s') }}
 
 ## Reference
 - **Bootstrap Italia**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
-- **FixCity**: http://fixcity.local/it/tests/homepage
+- **<nome progetto>**: http://<nome progetto>.local/it/tests/homepage
 - **Notify**: http://laraxot.local/it/tests/homepage
 
 ---
@@ -28,7 +28,7 @@
 - Background: `#FFFFFF`
 - Text: `#1A1A1A`
 
-### FixCity (Attuale)
+### <nome progetto> (Attuale)
 ### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -70,7 +70,7 @@
 - Title H2: `text-center mb-5`
 - Card shadow: `shadow-sm`
 
-### FixCity (Attuale)
+### <nome progetto> (Attuale)
 ### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -119,7 +119,7 @@
 - Card: `card card-teaser shadow-sm h-100`
 - Button: `btn btn-outline-primary btn-sm mt-3`
 
-### FixCity (Attuale)
+### <nome progetto> (Attuale)
 ### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -172,7 +172,7 @@
 - Date badge: `calendar-date text-primary h3`
 - Day abbr: `calendar-day text-muted small text-uppercase`
 
-### FixCity (Attuale)
+### <nome progetto> (Attuale)
 ### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -228,7 +228,7 @@
 - Card: `card card-teaser shadow-sm h-100`
 - Title: `h6 text-uppercase text-muted mb-3`
 
-### FixCity (Attuale)
+### <nome progetto> (Attuale)
 ### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -275,7 +275,7 @@
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### FixCity (Attuale)
+### <nome progetto> (Attuale)
 ### Notify (Attuale)
 ```
 ┌─────────────────────────────────────────────────────────────┐

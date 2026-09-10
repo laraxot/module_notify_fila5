@@ -20,12 +20,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read Model $notifiable
  * @property-read NotificationTemplate|null $template
  * @property-read ProfileContract|null $updater
+ *
  * @method static Builder<static>|NotificationLog forChannel(string $channel)
  * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
  * @method static Builder<static>|NotificationLog newModelQuery()
  * @method static Builder<static>|NotificationLog newQuery()
  * @method static Builder<static>|NotificationLog query()
  * @method static Builder<static>|NotificationLog withStatus(string $status)
+ *
  * @property string $id
  * @property string|null $template_id
  * @property string $notifiable_type
@@ -45,6 +47,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_by
+ *
  * @method static Builder<static>|NotificationLog whereChannel($value)
  * @method static Builder<static>|NotificationLog whereClickedAt($value)
  * @method static Builder<static>|NotificationLog whereCreatedAt($value)
@@ -64,7 +67,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotificationLog whereTenantId($value)
  * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
  * @method static Builder<static>|NotificationLog whereUpdatedBy($value)
- * @property-read \Modules\Quaeris\Models\Profile|null $deleter
+ *
  * @mixin \Eloquent
  */
 class NotificationLog extends BaseModel

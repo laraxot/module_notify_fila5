@@ -1,4 +1,4 @@
-# 🗺️ FIXCITY - PROJECT ROADMAP COMPLETA
+# 🗺️ <nome progetto> - PROJECT ROADMAP COMPLETA
 
 > **Data**: 2025-10-01
 > **Versione**: 2.0.0
@@ -8,7 +8,7 @@
 
 ## 📊 EXECUTIVE SUMMARY
 
-**FixCity** è una piattaforma di civic engagement per la gestione delle segnalazioni urbane. Architettura **modular monolith** basata su Nwidart + Laraxot, con backend Filament 3.x e frontend Folio + Volt + Livewire 3.x.
+**<nome progetto>** è una piattaforma di civic engagement per la gestione delle segnalazioni urbane. Architettura **modular monolith** basata su Nwidart + Laraxot, con backend Filament 3.x e frontend Folio + Volt + Livewire 3.x.
 
 ### Stato Attuale
 - ✅ **Backend Admin**: Filament Resource completo per gestione ticket
@@ -116,7 +116,7 @@ Responsabilità:
 - XotData (configurazioni centralizzate)
 ```
 
-#### **Fixcity** - Core Business Logic
+#### **<nome progetto>** - Core Business Logic
 ```
 Models:
 ├── Ticket (core entity)
@@ -257,8 +257,8 @@ Funzionalità:
 - [ ] Documentare requisiti browser (geolocation API)
 
 **File coinvolti**:
-- `Modules/Fixcity/app/Filament/Resources/TicketResource.php:125-154`
-- `Modules/Fixcity/app/Rules/FilterCoordinatesInRadius.php`
+- `Modules/<nome progetto>/app/Filament/Resources/TicketResource.php:125-154`
+- `Modules/<nome progetto>/app/Rules/FilterCoordinatesInRadius.php`
 
 **Acceptance Criteria**:
 - ✅ Mappa interattiva funzionante
@@ -282,9 +282,9 @@ Funzionalità:
 - [ ] Testare eliminazione media
 
 **File coinvolti**:
-- `Modules/Fixcity/app/Filament/Resources/TicketResource.php:169-180`
-- `Modules/Fixcity/app/Models/Ticket.php:500-505` (registerMediaCollections)
-- `Modules/Fixcity/resources/views/pages/tickets/[slug].blade.php:112-121`
+- `Modules/<nome progetto>/app/Filament/Resources/TicketResource.php:169-180`
+- `Modules/<nome progetto>/app/Models/Ticket.php:500-505` (registerMediaCollections)
+- `Modules/<nome progetto>/resources/views/pages/tickets/[slug].blade.php:112-121`
 
 **Acceptance Criteria**:
 - ✅ Upload fino a 5 immagini
@@ -311,10 +311,10 @@ Funzionalità:
 - [ ] Aggiungere metriche performance
 
 **File da creare**:
-- `Modules/Fixcity/app/Services/TicketWorkflowService.php`
-- `Modules/Fixcity/app/Jobs/AutoAssignTicketJob.php`
-- `Modules/Fixcity/app/Jobs/EscalateUrgentTicketJob.php`
-- `Modules/Fixcity/app/Jobs/SendTicketReminderJob.php`
+- `Modules/<nome progetto>/app/Services/TicketWorkflowService.php`
+- `Modules/<nome progetto>/app/Jobs/AutoAssignTicketJob.php`
+- `Modules/<nome progetto>/app/Jobs/EscalateUrgentTicketJob.php`
+- `Modules/<nome progetto>/app/Jobs/SendTicketReminderJob.php`
 
 **Transizioni di Stato Valide**:
 ```php
@@ -347,12 +347,12 @@ Funzionalità:
 - [ ] Implementare digest giornaliero/settimanale
 
 **File coinvolti**:
-- `Modules/Fixcity/app/Notifications/TicketCreated.php`
-- `Modules/Fixcity/app/Notifications/TicketStatusUpdated.php`
+- `Modules/<nome progetto>/app/Notifications/TicketCreated.php`
+- `Modules/<nome progetto>/app/Notifications/TicketStatusUpdated.php`
 
 **File da creare**:
-- `Modules/Fixcity/app/Notifications/TicketAssigned.php`
-- `Modules/Fixcity/app/Notifications/TicketResolved.php`
+- `Modules/<nome progetto>/app/Notifications/TicketAssigned.php`
+- `Modules/<nome progetto>/app/Notifications/TicketResolved.php`
 - `resources/views/emails/ticket/*.blade.php`
 
 **Acceptance Criteria**:
@@ -383,8 +383,8 @@ Funzionalità:
 - [ ] Ottimizzare per mobile
 
 **File coinvolti**:
-- `Modules/Fixcity/resources/views/pages/tickets/create.blade.php`
-- `Modules/Fixcity/app/Filament/Widgets/CreateTicketWidget.php`
+- `Modules/<nome progetto>/resources/views/pages/tickets/create.blade.php`
+- `Modules/<nome progetto>/app/Filament/Widgets/CreateTicketWidget.php`
 
 ---
 
@@ -402,7 +402,7 @@ Funzionalità:
 
 **File da creare**:
 - `Themes/Sixteen/resources/views/pages/my-tickets/index.blade.php`
-- `Modules/Fixcity/app/Livewire/MyTicketsTable.php`
+- `Modules/<nome progetto>/app/Livewire/MyTicketsTable.php`
 
 ---
 
@@ -419,11 +419,11 @@ Funzionalità:
 - [ ] Dashboard satisfaction score
 
 **File coinvolti**:
-- `Modules/Fixcity/app/Models/Ticket.php:489-492` (comments relation)
-- `Modules/Fixcity/app/Models/TicketComment.php`
+- `Modules/<nome progetto>/app/Models/Ticket.php:489-492` (comments relation)
+- `Modules/<nome progetto>/app/Models/TicketComment.php`
 
 **File da creare**:
-- `Modules/Fixcity/app/Livewire/TicketComments.php`
+- `Modules/<nome progetto>/app/Livewire/TicketComments.php`
 - Component per rating system
 
 ---
@@ -445,9 +445,9 @@ Funzionalità:
 - [ ] Report esportabili (PDF, Excel)
 
 **File da creare**:
-- `Modules/Fixcity/app/Filament/Widgets/TicketStatsWidget.php`
-- `Modules/Fixcity/app/Filament/Widgets/TicketHeatmapWidget.php`
-- `Modules/Fixcity/app/Filament/Widgets/PerformanceMetricsWidget.php`
+- `Modules/<nome progetto>/app/Filament/Widgets/TicketStatsWidget.php`
+- `Modules/<nome progetto>/app/Filament/Widgets/TicketHeatmapWidget.php`
+- `Modules/<nome progetto>/app/Filament/Widgets/PerformanceMetricsWidget.php`
 
 ---
 
@@ -465,8 +465,8 @@ Funzionalità:
 - [ ] Tracking carico lavoro tecnici
 
 **File da creare**:
-- `Modules/Fixcity/app/Services/AutoAssignmentService.php`
-- `Modules/Fixcity/app/Policies/AssignmentPolicy.php`
+- `Modules/<nome progetto>/app/Services/AutoAssignmentService.php`
+- `Modules/<nome progetto>/app/Policies/AssignmentPolicy.php`
 
 ---
 
@@ -490,8 +490,8 @@ Funzionalità:
 
 **File da creare**:
 - `config/ptv-sla.php`
-- `Modules/Fixcity/app/Services/SlaTrackingService.php`
-- `Modules/Fixcity/app/Jobs/CheckSlaViolationsJob.php`
+- `Modules/<nome progetto>/app/Services/SlaTrackingService.php`
+- `Modules/<nome progetto>/app/Jobs/CheckSlaViolationsJob.php`
 
 ---
 
@@ -513,8 +513,8 @@ Funzionalità:
 
 **File da creare**:
 - `routes/api.php` (attualmente vuoto)
-- `Modules/Fixcity/app/Http/Controllers/Api/V1/TicketController.php`
-- `Modules/Fixcity/app/Http/Resources/TicketResource.php`
+- `Modules/<nome progetto>/app/Http/Controllers/Api/V1/TicketController.php`
+- `Modules/<nome progetto>/app/Http/Resources/TicketResource.php`
 - `docs/openapi.yaml`
 
 ---
@@ -559,23 +559,23 @@ Funzionalità:
 ### Unit Tests
 ```bash
 # Test modelli
-tests/Unit/Fixcity/Models/TicketTest.php
-tests/Unit/Fixcity/Enums/TicketStatusEnumTest.php
+tests/Unit/<nome progetto>/Models/TicketTest.php
+tests/Unit/<nome progetto>/Enums/TicketStatusEnumTest.php
 
 # Test services
-tests/Unit/Fixcity/Services/TicketWorkflowServiceTest.php
-tests/Unit/Fixcity/Services/AutoAssignmentServiceTest.php
+tests/Unit/<nome progetto>/Services/TicketWorkflowServiceTest.php
+tests/Unit/<nome progetto>/Services/AutoAssignmentServiceTest.php
 ```
 
 ### Feature Tests
 ```bash
 # Test workflow completo
-tests/Feature/Fixcity/TicketCreationFlowTest.php
-tests/Feature/Fixcity/TicketAssignmentFlowTest.php
-tests/Feature/Fixcity/TicketResolutionFlowTest.php
+tests/Feature/<nome progetto>/TicketCreationFlowTest.php
+tests/Feature/<nome progetto>/TicketAssignmentFlowTest.php
+tests/Feature/<nome progetto>/TicketResolutionFlowTest.php
 
 # Test authorization
-tests/Feature/Fixcity/TicketAuthorizationTest.php
+tests/Feature/<nome progetto>/TicketAuthorizationTest.php
 ```
 
 ### Integration Tests
@@ -584,7 +584,7 @@ tests/Feature/Fixcity/TicketAuthorizationTest.php
 tests/Feature/Api/V1/TicketApiTest.php
 
 # Test notifiche
-tests/Feature/Fixcity/NotificationTest.php
+tests/Feature/<nome progetto>/NotificationTest.php
 ```
 
 ### Browser Tests (Pest + Playwright)
@@ -674,8 +674,8 @@ tests/Browser/AdminManageTicketTest.php
 ## 📚 DOCUMENTAZIONE CORRELATA
 
 ### Moduli
-- [Fixcity ROADMAP](Modules/Fixcity/docs/ROADMAP.md)
-- [Fixcity README](Modules/Fixcity/docs/README.md)
+- [<nome progetto> ROADMAP](Modules/<nome progetto>/docs/ROADMAP.md)
+- [<nome progetto> README](Modules/<nome progetto>/docs/README.md)
 - [Cms ROADMAP](Modules/Cms/docs/development/roadmap.md)
 
 ### Temi

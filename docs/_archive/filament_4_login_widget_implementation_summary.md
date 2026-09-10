@@ -1,5 +1,5 @@
 ---
-title: "Riepilogo Implementazione Login Widget Filament 4"
+title: "Riepilogo Implementazione Login Widget Filament 5"
 module: notify
 type: integration
 tags: [integrations, modules, notify]
@@ -7,7 +7,7 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-# 🎯 Riepilogo Implementazione Login Widget Filament 4
+# 🎯 Riepilogo Implementazione Login Widget Filament 5
 
 **Data**: 14 Ottobre 2025  
 **Status**: ✅ COMPLETATO  
@@ -24,7 +24,7 @@ File: Themes/Sixteen/resources/views/pages/auth/login.blade.php:190
 
 ### Causa Root
 1. **Commento Blade Malformato**: `--}}` senza apertura `{{--`
-2. **Widget Non Renderizzato**: Il form Filament 4 non appariva
+2. **Widget Non Renderizzato**: Il form Filament 5 non appariva
 3. **Mancanza Wrapper**: View senza componenti Filament obbligatori
 
 ## ✅ Soluzioni Implementate
@@ -79,7 +79,7 @@ File: Themes/Sixteen/resources/views/pages/auth/login.blade.php:190
 ## 📚 Documentazione Creata
 
 ### 1. Tema Sixteen
-**File**: `laravel/Themes/Sixteen/docs/filament-4-login-widget-implementation.md`
+**File**: `laravel/Themes/Sixteen/docs/Filament-5-login-widget-implementation.md`
 
 **Contenuto**:
 - Analisi problema completa
@@ -89,10 +89,10 @@ File: Themes/Sixteen/resources/views/pages/auth/login.blade.php:190
 - Troubleshooting guide
 
 ### 2. Modulo User
-**File**: `laravel/Modules/User/docs/filament-4-widget-rendering-guide.md`
+**File**: `laravel/Modules/User/docs/Filament-5-widget-rendering-guide.md`
 
 **Contenuto**:
-- Spiegazione architettura Filament 4
+- Spiegazione architettura Filament 5
 - Perché servono i wrapper
 - Come funziona `{{ $this->form }}`
 - Best practices
@@ -105,7 +105,7 @@ File: Themes/Sixteen/resources/views/pages/auth/login.blade.php:190
 
 ## 🔑 Concetti Chiave Appresi
 
-### 1. Architettura Filament 4 Widget
+### 1. Architettura Filament 5 Widget
 
 ```
 Widget PHP Class
@@ -125,7 +125,7 @@ wire:submit="methodName" → Gestisce submit
 
 ### 2. Differenze Filament 3 vs 4
 
-| Aspetto | Filament 3 | Filament 4 |
+| Aspetto | Filament 3 | Filament 5 |
 |---------|-----------|-----------|
 | Widget Wrapper | Opzionale | **Obbligatorio** |
 | Form Rendering | Automatico | **Esplicito con `{{ $this->form }}`** |
@@ -221,21 +221,21 @@ TextInput::make('email') // Label da user::fields.email.label
 ## 📚 Riferimenti Documentazione
 
 ### Interna
-- [Filament 4 Login Widget Implementation](../laravel/Themes/Sixteen/docs/filament-4-login-widget-implementation.md)
-- [Filament 4 Widget Rendering Guide](../laravel/Modules/User/docs/filament-4-widget-rendering-guide.md)
+- [Filament 5 Login Widget Implementation](../laravel/Themes/Sixteen/docs/Filament-5-login-widget-implementation.md)
+- [Filament 5 Widget Rendering Guide](../laravel/Modules/User/docs/Filament-5-widget-rendering-guide.md)
 - [Auth Widget Rules](../laravel/Modules/User/docs/auth_widget_rules.md)
 - [Laraxot Architecture Rules](../laravel/Modules/Xot/docs/laraxot-architecture-rules.md)
 
 ### Esterna
-- [Filament 4 Widgets](https://filamentphp.com/docs/4.x/widgets)
-- [Filament 4 Forms](https://filamentphp.com/docs/4.x/forms)
+- [Filament 5 Widgets](https://filamentphp.com/docs/4.x/widgets)
+- [Filament 5 Forms](https://filamentphp.com/docs/4.x/forms)
 - [AGID Design System](https://designers.italia.it/)
 - [Bootstrap Italia](https://italia.github.io/bootstrap-italia/)
 - [Docs Italia Login](https://docs.italia.it/accounts/login/)
 
 ## 🎓 Lezioni Apprese
 
-### 1. Filament 4 è Diverso
+### 1. Filament 5 è Diverso
 Non è un semplice upgrade da Filament 3. Richiede:
 - Wrapper espliciti
 - Form rendering esplicito
@@ -262,9 +262,9 @@ AGID richiede:
 
 ## 🏆 Conclusione
 
-L'implementazione del LoginWidget Filament 4 è stata completata con successo, seguendo:
+L'implementazione del LoginWidget Filament 5 è stata completata con successo, seguendo:
 
-1. ✅ **Best Practices Filament 4**: Wrapper, form rendering, Livewire 3
+1. ✅ **Best Practices Filament 5**: Wrapper, form rendering, Livewire 3
 2. ✅ **Laraxot Framework Rules**: XotBase classes, traduzioni, structure
 3. ✅ **AGID Compliance**: Design PA, accessibilità, responsive
 4. ✅ **Documentazione Completa**: Guide, esempi, troubleshooting

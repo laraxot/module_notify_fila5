@@ -153,7 +153,7 @@ ae920e7c Add AI lessons learned and GitHub Action setup guide
 
 ```bash
 # Option 1: Via GitHub UI
-1. Go to: https://github.com/laraxot/base_fixcity_fila5/discussions
+1. Go to: https://github.com/laraxot/<repo progetto>/discussions
 1. Go to: https://github.com/laraxot/platform/discussions
 2. Click "New discussion"
 3. Copy content from docs/github/DISCUSSION_AI_WORK_SUMMARY.md
@@ -243,7 +243,7 @@ ae920e7c Add AI lessons learned and GitHub Action setup guide
 ### Files on GitHub
 
 All files are pushed and accessible on:
-https://github.com/laraxot/base_fixcity_fila5/commits/dev
+https://github.com/laraxot/<repo progetto>/commits/dev
 https://github.com/laraxot/platform/commits/dev
 
 ---

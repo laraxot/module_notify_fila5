@@ -1,6 +1,6 @@
 # MCP Servers - Master Index
 
-**Project**: FixCity Platform  
+**Project**: <nome progetto> Platform  
 **Last Updated**: 2026-04-09  
 **Configuration**: `laravel/.mcp.json`  
 **Total Servers**: 10
@@ -30,7 +30,7 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 ### laravel-boost
 - **Type**: Laravel-specific
 - **Command**: `php artisan boost:mcp`
-- **Use**: Laravel 12, Filament, Livewire documentation and best practices
+- **Use**: Laravel 13, Filament, Livewire documentation and best practices
 - **Module Docs**: [Xot MCP Guide](../Modules/Xot/docs/MCP_SERVERS.md) | [Theme MCP Guide](../Themes/Sixteen/docs/MCP_SERVERS.md)
 
 ### fetch
@@ -42,7 +42,7 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 ### filesystem
 - **Type**: File operations
 - **Package**: `@modelcontextprotocol/server-filesystem`
-- **Scope**: `/var/www/_bases/base_ptv_fila5`
+- **Scope**: `/var/www/_bases/<repo progetto>`
 - **Use**: Read/write files, search directories, explore project structure
 
 ### sqlite
@@ -63,7 +63,7 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Package**: `@modelcontextprotocol/server-memory`
 - **Use**: Store project decisions, patterns, conventions
 - **Persistence**: Survives across sessions
-- **Example**: "Fixcity uses XotBaseModel pattern"
+- **Example**: "<nome progetto> uses XotBaseModel pattern"
 
 ### github
 - **Type**: Version Control
@@ -158,7 +158,7 @@ supermemory add --tag ptv --file .supermemory/ptv-context.md
 
 ### Search Memories
 ```bash
-supermemory search "FixCity architecture" --tag ptv
+supermemory search "<nome progetto> architecture" --tag ptv
 ```
 
 ### Get Profile
@@ -171,7 +171,7 @@ supermemory profile --tag ptv --query "project preferences"
 Each module has specific MCP usage guidelines. See module-specific docs:
 
 - **Xot**: [MCP Servers Guide](../Modules/Xot/docs/MCP_SERVERS.md)
-- **Fixcity**: Module-specific patterns for ticket system
+- **<nome progetto>**: Module-specific patterns for ticket system
 - **User**: Authentication and user management
 - **Cms**: Content management patterns
 

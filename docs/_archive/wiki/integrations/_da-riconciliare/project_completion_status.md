@@ -114,7 +114,7 @@ updated: 2026-08-24
 
 ### Qualità Codice
 - **PHPStan Level 9**: ✅ 0 errori
-- **Filament 4.x**: ✅ Compatibile
+- **Filament 5.x**: ✅ Compatibile
 - **Test Coverage**: 🚧 65% (target 80%)
 - **AGID Compliance**: 🚧 90% (target 100%)
 
@@ -190,7 +190,7 @@ updated: 2026-08-24
 
 ```
 <nome repository>/
-<nome repitory>_mono/
+<nome repitory>/
 ├── DOCUMENTATION_INDEX.md          # ✅ Indice generale
 ├── QUICK_START.md                  # ✅ Guida rapida
 ├── ROADMAP_STATUS_SUMMARY.md       # ✅ Status master

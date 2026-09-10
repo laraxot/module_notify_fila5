@@ -1,4 +1,4 @@
-# 📚 Indice Generale Documentazione - Fixcity
+# 📚 Indice Generale Documentazione - <nome progetto>
 
 > **Navigazione Completa della Documentazione del Progetto**
 
@@ -68,11 +68,11 @@
 
 ### Moduli Business
 
-#### **Fixcity Module** - Ticketing System
-- [README](../laravel/Modules/Fixcity/docs/README.md) - Gestione ticket
+#### **<nome progetto> Module** - Ticketing System
+- [README](../laravel/Modules/<nome progetto>/docs/README.md) - Gestione ticket
 - File docs: 38 files
 - **Funzionalità**: Ticket, segnalazioni, supporto
-- **Status**: ✅ Operativo (Filament 4.x)
+- **Status**: ✅ Operativo (Filament 5.x)
 
 #### **Notify Module** - Notifiche
 - [README](../laravel/Modules/Notify/docs/README.md) - Sistema notifiche
@@ -172,7 +172,7 @@
 
 ### Theme TwentyOne - Modern Design
 - [README](../laravel/Themes/TwentyOne/docs/README.md) - Tema moderno
-- **Funzionalità**: Filament 4.x integration, Livewire
+- **Funzionalità**: Filament 5.x integration, Livewire
 - **Status**: ✅ Operativo
 - **Componenti**: 50+ componenti custom
 
@@ -276,8 +276,8 @@
 ## 📞 Support & Community
 
 ### Support Channels
-- **📧 Email**: support@fixcity.com
-- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)
+- **📧 Email**: support@<nome progetto>.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/<nome progetto>/issues)
 - **📧 Email**: support@ptv.com
 - **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/ptv/issues)
 - **💬 Discord**: [Laraxot Community](https://discord.gg/laraxot)

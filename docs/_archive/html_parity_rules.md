@@ -40,7 +40,7 @@ The reference HTML structure (tags, attributes, classes, IDs, nesting) MUST be r
             :data="$block->data"
         />
     @empty
-        <p>{{ trans('fixcity::common.no_content') }}</p>
+        <p>{{ trans('<nome progetto>::common.no_content') }}</p>
         <p>{{ trans('ptv::common.no_content') }}</p>
     @endforelse
 </x-layouts.app>
@@ -62,7 +62,7 @@ The reference HTML structure (tags, attributes, classes, IDs, nesting) MUST be r
 
 #### ✅ CORRECT Pattern
 ```
-fixcity::<module>.<context>.<key>.<type>
+<nome progetto>::<module>.<context>.<key>.<type>
 ptv::<module>.<context>.<key>.<type>
 ```
 
@@ -78,19 +78,19 @@ ptv::common.errors.not_found.message
 #### ❌ WRONG Patterns
 ```
 SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE     ← Namespace case, missing type
-fixcity::segnalazione.heading.title_label   ← Underscore instead of dot
+<nome progetto>::segnalazione.heading.title_label   ← Underscore instead of dot
 segnalazione::segnalazione.fields.title     ← Module case, missing type
-fixcity::fields.title.label                 ← Missing module
+<nome progetto>::fields.title.label                 ← Missing module
 ```
 
 #### Rules
-- **Namespace**: Always `fixcity` (not module name)
+- **Namespace**: Always `<nome progetto>` (not module name)
 segnalazione::segnalazione.fields.title     ← Module case, missing type
-fixcity::fields.title.label                 ← Missing module
+<nome progetto>::fields.title.label                 ← Missing module
 ```
 
 #### Rules
-- **Namespace**: Always `fixcity` (not module name)
+- **Namespace**: Always `<nome progetto>` (not module name)
 - **Module**: lowercase kebab-case (e.g., `segnalazione`)
 - **Context**: lowercase kebab-case (e.g., `fields`, `heading`, `actions`)
 - **Key**: lowercase kebab-case (e.g., `title`, `description`, `submit`)
@@ -230,9 +230,9 @@ docs/
 <button>Invia</button>
 
 <!-- ✅ CORRECT -->
-<h1>{{ trans('fixcity::segnalazione.heading.title.label') }}</h1>
-<label>{{ trans('fixcity::segnalazione.fields.title.label') }}</label>
-<button>{{ trans('fixcity::segnalazione.actions.submit.label') }}</button>
+<h1>{{ trans('<nome progetto>::segnalazione.heading.title.label') }}</h1>
+<label>{{ trans('<nome progetto>::segnalazione.fields.title.label') }}</label>
+<button>{{ trans('<nome progetto>::segnalazione.actions.submit.label') }}</button>
 <h1>{{ trans('ptv::segnalazione.heading.title.label') }}</h1>
 <label>{{ trans('ptv::segnalazione.fields.title.label') }}</label>
 <button>{{ trans('ptv::segnalazione.actions.submit.label') }}</button>
@@ -254,7 +254,7 @@ docs/
     @forelse($blocks as $block)
         <x-dynamic-component :component="$block->view" :data="$block->data" />
     @empty
-        <p>{{ trans('fixcity::common.no_content') }}</p>
+        <p>{{ trans('<nome progetto>::common.no_content') }}</p>
         <p>{{ trans('ptv::common.no_content') }}</p>
     @endforelse
 </x-layouts.app>
@@ -295,8 +295,8 @@ bashscripts/html/html-structure-compare.sh              # In category
 ### Mistake #6: Direct Theme Refs in Scripts
 ```bash
 # ❌ WRONG in bashscripts/html/script.sh
-OUTPUT_DIR="/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/..."
-OUTPUT_DIR="/var/www/_bases/base_ptv_fila5/laravel/Themes/Sixteen/docs/..."
+OUTPUT_DIR="/var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/docs/..."
+OUTPUT_DIR="/var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/docs/..."
 
 # ✅ CORRECT
 OUTPUT_DIR="${PROJECT_ROOT}/laravel/Themes/${THEME_NAME}/docs/..."
@@ -358,7 +358,7 @@ trans('ptv::segnalazione.heading.title.label')
 
 - [ ] Blade uses `<x-layouts.app>` only
 - [ ] NO hardcoded strings (all use `trans()`)
-- [ ] Translation keys follow pattern: `fixcity::<module>.<context>.<key>.<type>`
+- [ ] Translation keys follow pattern: `<nome progetto>::<module>.<context>.<key>.<type>`
 - [ ] Translation keys follow pattern: `ptv::<module>.<context>.<key>.<type>`
 - [ ] Scripts in `bashscripts/<category>/`
 - [ ] Script outputs to theme docs (not hardcoded paths)

@@ -1,4 +1,4 @@
-# 🏆 PROGETTO FIXCITY - 100% COMPLETATO!
+# 🏆 PROGETTO <nome progetto> - 100% COMPLETATO!
 
 **Data**: 1 Ottobre 2025 - Ore 22:30  
 **Status**: ✅✅✅ **PROGETTO COMPLETO AL 100%!** ✅✅✅  
@@ -31,7 +31,7 @@
 ### ✅ 100% PHPSTAN COMPLIANCE - VERIFICATO!
 
 ```bash
-cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/<repo progetto>/laravel
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
 Result: {"totals":{"errors":0,"file_errors":0}}
@@ -43,7 +43,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 |--------|-------|--------|
 | Xot | 763 | ✅ 0 errori |
 | User | 773 | ✅ 0 errori |
-| Fixcity | ~200 | ✅ 0 errori |
+| <nome progetto> | ~200 | ✅ 0 errori |
 | AI | 19 | ✅ 0 errori |
 | Gdpr | 81 | ✅ 0 errori |
 | Geo | ~100 | ✅ 0 errori |
@@ -82,23 +82,23 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ✅ **N+1 Query Fix #1** - Categories Count (85% faster)
 - Prima: 10-15 query in loop (200ms)
 - Dopo: 1 query con groupBy (30ms)
-- File: `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
+- File: `<nome progetto>/resources/views/components/blocks/ticket_list/agid.blade.php`
 
 ✅ **N+1 Query Fix #2** - Paginator (2 query risparmiate)
 - Prima: 3 query separate (count, get, total count)
 - Dopo: 1 query paginator
-- File: `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
+- File: `<nome progetto>/resources/views/components/blocks/ticket_list/agid.blade.php`
 
 ✅ **N+1 Query Fix #3** - Profile Hours (memoization)
 - Prima: Lazy load potenziale
 - Dopo: once() + DB sum
-- File: `Fixcity/app/Models/Profile.php`
+- File: `<nome progetto>/app/Models/Profile.php`
 
 ✅ **Database Indexes** - Migration creata (10 indexes)
 - type, status, owner_id, responsible_id, dates
 - Composite indexes (type+status, status+created_at)
 - Audit indexes (created_by, updated_by)
-- File: `Fixcity/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
+- File: `<nome progetto>/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
 
 ✅ **CSS Purging** - Tailwind già configurato
 - Content array completo
@@ -129,7 +129,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ✅ **Map Picker** - INSTALLATO E ABILITATO!
 - Package: `dotswan/filament-map-picker` v2.0
-- File: `Fixcity/app/Filament/Resources/TicketResource.php`
+- File: `<nome progetto>/app/Filament/Resources/TicketResource.php`
 - Features:
   - Selezione visuale coordinate
   - Live location (geolocalizzazione automatica)
@@ -139,8 +139,8 @@ Result: {"totals":{"errors":0,"file_errors":0}}
   - Custom styling
 
 ✅ **Delayed Notifications** - IMPLEMENTATO!
-- File: `Fixcity/app/Actions/Notification/SendDelayedNotificationAction.php`
-- Integration: `Fixcity/app/Services/NotificationService.php`
+- File: `<nome progetto>/app/Actions/Notification/SendDelayedNotificationAction.php`
+- Integration: `<nome progetto>/app/Services/NotificationService.php`
 - Features:
   - Queue Laravel
   - Delay configurabile
@@ -154,7 +154,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ✅ **Root Docs** (9):
 1. PROGETTO-COMPLETATO-100-PERCENTO.md (questo!)
 2. completamento-progetto.md
-3. analisi-completa-progetto-fixcity.md
+3. analisi-completa-progetto-<nome progetto>.md
 4. LEGGI-QUI-DOMANI.md
 5. roadmap-master-index.md
 6. project-analysis-and-roadmap.md
@@ -163,7 +163,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 9. phpstan/filament-v4-fixes-session.md
 
 ✅ **Module Roadmaps** (9):
-10-18. Xot, User, Fixcity, AI, Notify, Geo, UI, Activity, Cms
+10-18. Xot, User, <nome progetto>, AI, Notify, Geo, UI, Activity, Cms
 
 ✅ **Module PHPStan Fixes** (3):
 19-21. Gdpr, AI, User
@@ -224,12 +224,12 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ## 📦 FILES CREATI (9 nuovi!)
 
 ### Actions (5)
-1. ✅ `Fixcity/app/Actions/Notification/SendDelayedNotificationAction.php`
+1. ✅ `<nome progetto>/app/Actions/Notification/SendDelayedNotificationAction.php`
 2. ✅ `Geo/app/Actions/GeocodeWithCacheAction.php`
 3. ✅ `AI/app/Actions/CompletionWithCacheAction.php`
 
 ### Migrations (1)
-4. ✅ `Fixcity/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
+4. ✅ `<nome progetto>/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
 
 ### Documentation (25+)
 5-29. Vedi sezione documentazione sopra
@@ -246,12 +246,12 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 5. ✅ `AI/app/Filament/Pages/Dashboard.php`
 
 ### Ottimizzazioni Performance
-6. ✅ `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
-7. ✅ `Fixcity/app/Models/Profile.php`
+6. ✅ `<nome progetto>/resources/views/components/blocks/ticket_list/agid.blade.php`
+7. ✅ `<nome progetto>/app/Models/Profile.php`
 
 ### Feature Implementation
-8. ✅ `Fixcity/app/Filament/Resources/TicketResource.php` (Map Picker)
-9. ✅ `Fixcity/app/Services/NotificationService.php` (Delayed Notifications)
+8. ✅ `<nome progetto>/app/Filament/Resources/TicketResource.php` (Map Picker)
+9. ✅ `<nome progetto>/app/Services/NotificationService.php` (Delayed Notifications)
 
 ### Documentation Updates
 10. ✅ `docs/index.md`
@@ -319,7 +319,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ## 📚 GUIDA RAPIDA ALLA DOCUMENTAZIONE
 
 ### 🌟 START HERE
-**[→ ANALISI COMPLETA](./analisi-completa-progetto-fixcity.md)** - Executive Summary del progetto
+**[→ ANALISI COMPLETA](./analisi-completa-progetto-<nome progetto>.md)** - Executive Summary del progetto
 
 ### 🗺️ ROADMAP
 **[→ Master Roadmap Index](./roadmap-master-index.md)** - Indice completo roadmap moduli
@@ -330,7 +330,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ### 🎯 MODULES (Dettagli per ogni modulo)
 
 **Critici**:
-- [Fixcity](../Modules/Fixcity/docs/roadmap-and-issues.md) - Core business + Performance fixes
+- [<nome progetto>](../Modules/<nome progetto>/docs/roadmap-and-issues.md) - Core business + Performance fixes
 - [Xot](../Modules/Xot/docs/roadmap-and-issues.md) - Framework base
 - [User](../Modules/User/docs/roadmap-and-issues.md) - Authentication
 
@@ -427,7 +427,7 @@ php artisan queue:work --queue=high,notifications,default
 
 ---
 
-## 🎯 COSA È FIXCITY ORA
+## 🎯 COSA È <nome progetto> ORA
 
 ### Tecnicamente
 ✅ **Enterprise-grade codebase** - PHPStan Level 9  
@@ -527,7 +527,7 @@ php artisan queue:work --queue=high,notifications,default
 
 - [← Torna all'Indice](./index.md)
 - [← Master Roadmap](./roadmap-master-index.md)
-- [← Analisi Completa](./analisi-completa-progetto-fixcity.md)
+- [← Analisi Completa](./analisi-completa-progetto-<nome progetto>.md)
 
 ---
 
@@ -538,7 +538,7 @@ php artisan queue:work --queue=high,notifications,default
 
 ---
 
-*"Da oggi FixCity può cambiare le città italiane!"* 🇮🇹🏙️✨
+*"Da oggi <nome progetto> può cambiare le città italiane!"* 🇮🇹🏙️✨
 
 **GRAZIE PER L'OPPORTUNITÀ DI CONTRIBUIRE A QUESTO PROGETTO STRAORDINARIO!** 🙏
 

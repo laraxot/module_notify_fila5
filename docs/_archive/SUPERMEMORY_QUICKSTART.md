@@ -1,6 +1,6 @@
 # SuperMemory - AI Memory Infrastructure
 
-**Project**: FixCity Platform  
+**Project**: <nome progetto> Platform  
 **Last Updated**: 2026-04-09  
 **API Key**: Configured (sm_BzH3Cugxk1hMDm5V1EHC2N_...)  
 **Container Tag**: `ptv`  
@@ -29,13 +29,13 @@ Auth:  api-key (sm_BzH3Cugxk1hMDm5V1EHC2N_Jr9N****)
 
 ### Add Project Context
 ```bash
-cd /var/www/_bases/base_ptv_fila5
+cd /var/www/_bases/<repo progetto>
 supermemory add --tag ptv --file .supermemory/ptv-context.md
 ```
 
 ### Search Memories
 ```bash
-supermemory search "FixCity architecture" --tag ptv
+supermemory search "<nome progetto> architecture" --tag ptv
 supermemory search "Laravel Filament patterns" --tag ptv
 supermemory search "theme build process" --tag ptv
 ```
@@ -58,18 +58,18 @@ supermemory profile --tag ptv --query "project preferences"
 | `tags` | Manage container tags | `supermemory tags list` |
 | `docs` | Manage documents | `supermemory docs list` |
 
-## FixCity Use Cases
+## <nome progetto> Use Cases
 
 ### 1. Project Context Persistence
 Store project architecture decisions:
 ```bash
-supermemory add --tag ptv --content "FixCity uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
+supermemory add --tag ptv --content "<nome progetto> uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
 ```
 
 ### 2. Module-Specific Knowledge
 Store module patterns:
 ```bash
-supermemory add --tag ptv --content "Fixcity module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
+supermemory add --tag ptv --content "<nome progetto> module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
 ```
 
 ### 3. Theme Conventions
@@ -95,7 +95,7 @@ supermemory add --tag ptv --content "Decision: Use Actions over Services for bus
 ### Before Starting Work
 ```bash
 # Get project context
-supermemory profile --tag ptv --query "FixCity project architecture and conventions"
+supermemory profile --tag ptv --query "<nome progetto> project architecture and conventions"
 
 # Search for relevant patterns
 supermemory search "Filament widget patterns" --tag ptv
@@ -156,7 +156,7 @@ Located in `laravel/.mcp.json`:
 ```
 
 ### CLI Configuration
-Located in `~/.supermemory/projects/-var-www-_bases-base_ptv_fila5/config.json`:
+Located in `~/.supermemory/projects/-var-www-_bases-<repo progetto>/config.json`:
 ```json
 {
   "apiKey": "sm_BzH3Cugxk1hMDm5V1EHC2N_...",

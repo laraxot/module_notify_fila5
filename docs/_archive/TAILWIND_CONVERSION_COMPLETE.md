@@ -208,7 +208,7 @@ Main Content
 
 ## 🏆 RISULTATO
 
-**Homepage FixCity è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
+**Homepage <nome progetto> è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
 
 ### Differenze
 - ❌ Bootstrap Italia
@@ -227,6 +227,6 @@ Main Content
 **Quality**: 💎 **IDENTICO AL DESIGN COMUNI**  
 **Tech**: 🎨 **100% TAILWIND CSS**  
 
-*"FixCity ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
+*"<nome progetto> ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
 
-**#FixCity2025 #TailwindCSS #DesignComuni #AGID #Conversion**
+**#<nome progetto>2025 #TailwindCSS #DesignComuni #AGID #Conversion**

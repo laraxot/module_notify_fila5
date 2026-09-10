@@ -146,7 +146,7 @@ export GOOGLE_API_KEY="your-key-here"
 ### 3. Avvia Kilo
 
 ```bash
-cd /var/www/_bases/base_ptvx_fila5
+cd /var/www/_bases/<repo progetto>
 
 # Avvia TUI
 opencode

@@ -1,4 +1,4 @@
-# 🏛️ FIXCITY - Civic Engagement Platform
+# 🏛️ <nome progetto> - Civic Engagement Platform
 
 > **Piattaforma di segnalazione civica per la gestione intelligente dei disservizi urbani**
 
@@ -6,7 +6,7 @@
 
 ## 🎯 Project Purpose
 
-**FIXCITY** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
+**<nome progetto>** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
 
 ### Vision
 Trasformare il rapporto cittadino-amministrazione attraverso:
@@ -22,12 +22,12 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 ### Tech Stack
 
 **Backend**:
-- Laravel 12.24.0 + PHP 8.3.20
+- Laravel 13.24.0 + PHP 8.3.20
 - SQLite (development) / PostgreSQL (production ready)
 - Nwidart Modules + Laraxot Extensions
 
 **Frontend Backoffice**:
-- Filament 4.x (Admin Panels)
+- Filament 5.x (Admin Panels)
 - Livewire 3.x (Interattività)
 - Tailwind CSS 4.0
 
@@ -47,7 +47,7 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 
 ### Core Modules (22 attivi)
 
-#### 1. **Fixcity** - Business Logic Core
+#### 1. **<nome progetto>** - Business Logic Core
 **Scopo**: Sistema principale di gestione ticket
 **Componenti**:
 - Models: Ticket, TicketActivity, TicketWorkflowService
@@ -371,7 +371,7 @@ Team
 - **Query Count**: <5 (list), <3 (detail)
 - **Memory**: <8MB (list), <5MB (detail)
 
-**Optimization Strategy**: See `/Modules/Fixcity/docs/performance-issues.md`
+**Optimization Strategy**: See `/Modules/<nome progetto>/docs/performance-issues.md`
 
 ---
 
@@ -458,14 +458,14 @@ Team
 - Cache: File
 
 **Staging**:
-- URL: https://staging.fixcity.it
+- URL: https://staging.<nome progetto>.it
 - URL: https://staging.ptv.it
 - DB: PostgreSQL
 - Queue: Redis
 - Cache: Redis
 
 **Production**:
-- URL: https://fixcity.it
+- URL: https://<nome progetto>.it
 - URL: https://ptv.it
 - DB: PostgreSQL (replicated)
 - Queue: Redis Cluster

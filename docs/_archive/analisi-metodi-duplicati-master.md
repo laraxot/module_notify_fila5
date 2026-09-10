@@ -21,7 +21,7 @@
 | **LOC Models** | 2,777 | Conteggio file reali |
 | **Namespace Unici** | 753 | Grep `namespace Modules\\` |
 | **Modulo GIÀ Corretto** | UI (0 duplicazioni) | Estende XotBaseModel |
-| **Moduli da Refactoring** | 15 (93.75%) | Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Tenant, User, Xot (bootstrap) |
+| **Moduli da Refactoring** | 15 (93.75%) | Activity, Blog, Cms, Comment, <nome progetto>, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Tenant, User, Xot (bootstrap) |
 
 ### Duplicazione QUANTIFICATA
 
@@ -76,7 +76,7 @@ TOTALE METODI: 252 occorrenze duplicate
 | Blog | `app/Models/BaseModel.php` | 8 | ~76 | 85% |
 | Cms | `app/Models/BaseModel.php` | 8 | ~70 | 85% |
 | Comment | `app/Models/BaseModel.php` | 7 | ~65 | 80% |
-| Fixcity | `app/Models/BaseModel.php` | 9 | ~72 | 87% |
+| <nome progetto> | `app/Models/BaseModel.php` | 9 | ~72 | 87% |
 | Gdpr | `app/Models/BaseModel.php` | 9 | ~70 | 87% |
 | Geo | `app/Models/BaseModel.php` | 8 | ~68 | 85% |
 | Job | `app/Models/BaseModel.php` | 10 | ~75 | 90% |
@@ -131,7 +131,7 @@ protected function casts(): array
 ```
 
 **Varianti (2/15 moduli):**
-- **Fixcity:** Ha `casts()` vuoto (errore?)
+- **<nome progetto>:** Ha `casts()` vuoto (errore?)
 - **User:** Aggiunge `verified_at` (corretto, caso specifico)
 
 ### 1.4 Trait Comuni
@@ -140,7 +140,7 @@ protected function casts(): array
 |-------|------------|-------------|------|
 | `HasXotFactory` | 16/16 | 100% | Tutti i moduli |
 | `Updater` | 16/16 | 100% | Tutti i moduli |
-| `SoftDeletes` | 3/16 | 19% | Fixcity, Blog, Gdpr |
+| `SoftDeletes` | 3/16 | 19% | <nome progetto>, Blog, Gdpr |
 | `InteractsWithMedia` | 1/16 | 6% | Solo Blog |
 | `RelationX` | 1/16 | 6% | Solo User |
 
@@ -161,7 +161,7 @@ protected function casts(): array
 | Blog | 5 | 2 | 1 | ? | 10 | 18+ |
 | Cms | 5 | 0 | 0 | ? | 6 | 11+ |
 | Comment | ? | ? | ? | ? | ? | ? |
-| Fixcity | 8 | 0 | 0 | ? | 4 | 12+ |
+| <nome progetto> | 8 | 0 | 0 | ? | 4 | 12+ |
 | Gdpr | 4 | 0 | 0 | ? | 2 | 6+ |
 | Geo | 6 | 0 | 0 | ? | 7 | 13+ |
 | Job | 9 | 2 | 2 | ? | 5 | 18+ |
@@ -730,7 +730,7 @@ git push --tags
 #### Step 1.2: Aumento Test Coverage
 ```bash
 # Generare test per ogni BaseModel
-for module in Activity Blog Cms Comment Fixcity Gdpr Geo Job Lang Media Notify Rating Tenant User; do
+for module in Activity Blog Cms Comment <nome progetto> Gdpr Geo Job Lang Media Notify Rating Tenant User; do
     php artisan make:test "Modules/${module}/Tests/Unit/BaseModelTest" --unit --module=${module}
 done
 
@@ -1098,7 +1098,7 @@ echo ""
 
 FAILED=0
 
-for module in Activity Blog Cms Comment Fixcity Gdpr Geo Job Lang Media Notify Rating Tenant User; do
+for module in Activity Blog Cms Comment <nome progetto> Gdpr Geo Job Lang Media Notify Rating Tenant User; do
     echo "Testing $module..."
     
     if php artisan test --filter="${module}" --stop-on-failure; then

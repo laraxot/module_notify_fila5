@@ -1,8 +1,8 @@
-# 🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform
+# 🎯 PIANO D'AZIONE IMMEDIATO - <nome progetto> Platform
 
 ## 📋 Sommario Esecutivo
 
-Questo documento identifica le **azioni immediate** da intraprendere per portare FixCity alla versione 2.0.0 production-ready. Basato sull'analisi completa del progetto e le roadmap dei moduli.
+Questo documento identifica le **azioni immediate** da intraprendere per portare <nome progetto> alla versione 2.0.0 production-ready. Basato sull'analisi completa del progetto e le roadmap dei moduli.
 
 **Data**: 2025-01-01  
 **Status Attuale**: 60% completo  
@@ -29,7 +29,7 @@ Questo documento identifica le **azioni immediate** da intraprendere per portare
   - [ ] Consolidare namespace (rimuovere `App`)
   - [ ] Completare factories per tutti i models
 
-- [ ] **Modulo Fixcity**
+- [ ] **Modulo <nome progetto>**
   - [ ] Verificare tutti i metodi incompleti
   - [ ] Testare workflow completo
   - [ ] Aggiungere validation rules

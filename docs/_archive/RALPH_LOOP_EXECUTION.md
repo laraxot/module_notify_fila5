@@ -1,7 +1,7 @@
 # 🚀 Ralph Loop Execution Log - Homepage Bootstrap Italia Fix
 
 ## Session: 2026-03-31
-## Goal: Allineare homepage FixCity a Bootstrap Italia reference
+## Goal: Allineare homepage <nome progetto> a Bootstrap Italia reference
 
 ---
 
@@ -311,7 +311,7 @@ Aggiungere feedback module con stelle
 
 ### Clear Cache
 ```bash
-cd /var/www/_bases/base_ptv_fila5/laravel
+cd /var/www/_bases/<repo progetto>/laravel
 rm -rf storage/framework/views/* bootstrap/cache/*.php
 php artisan view:clear
 ```

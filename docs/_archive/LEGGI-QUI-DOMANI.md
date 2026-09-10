@@ -37,13 +37,13 @@ Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 4. `MainDashboard.php:44,48` - Fix property access (15 min)
 5. `XotBasePage.php:127` - Fix getModel() type (10 min)
 6. `XotBaseRelationManager.php:107` - Type narrowing (15 min)
-7. `XotBaseResource.php:98` - Filament 4 compatibility (45 min)
+7. `XotBaseResource.php:98` - Filament 5 compatibility (45 min)
 
 **Guida**: [Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md)
 
 **Comando verifica**:
 ```bash
-cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/<repo progetto>/laravel
 ./vendor/bin/phpstan analyse Modules/Xot --memory-limit=-1
 ```
 
@@ -111,7 +111,7 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 **Verifica Completa**:
 ```bash
-cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/<repo progetto>/laravel
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 ```
 
@@ -135,7 +135,7 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 ### Fine Giornata (update)
 4. **[Master Roadmap](./roadmap-master-index.md)** - Aggiornare status
-5. **[Analisi Completa](./analisi-completa-progetto-fixcity.md)** - Executive summary
+5. **[Analisi Completa](./analisi-completa-progetto-<nome progetto>.md)** - Executive summary
 
 ---
 
@@ -185,7 +185,7 @@ php artisan test --filter=BaseUserTest
 - ❌ Non usare `->label()`, `->placeholder()`, `->tooltip()`
 
 ### ✅ Sempre Fare
-- ✅ Eseguire da `/var/www/_bases/base_fixcity_fila5_mono/laravel/`
+- ✅ Eseguire da `/var/www/_bases/<repo progetto>/laravel/`
 - ✅ Verificare ogni fix con PHPStan
 - ✅ Usare sempre classi XotBase
 - ✅ Aggiornare docs dopo ogni correzione

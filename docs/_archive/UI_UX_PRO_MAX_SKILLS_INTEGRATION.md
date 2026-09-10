@@ -224,7 +224,7 @@ Build a landing page with:
 4. ⏳ Documentare best practices
 
 ### This Week
-5. Integrare con FixCity project
+5. Integrare con <nome progetto> project
 6. Creare template riutilizzabili
 7. Training team
 8. Feedback loop

@@ -188,7 +188,7 @@ Themes/Sixteen/resources/views/
 ### Link Esterni
 - [Bootstrap Italia Reference](https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html)
 - [Bootstrap Italia Docs](https://italia.github.io/design-web-toolkit/)
-- [FixCity Homepage](http://ptv.local/it/tests/homepage)
+- [<nome progetto> Homepage](http://ptv.local/it/tests/homepage)
 
 ---
 

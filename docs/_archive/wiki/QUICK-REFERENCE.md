@@ -115,7 +115,7 @@ related:                               # Optional (array of paths)
 ### Initialize Module Wiki
 
 ```bash
-bashscripts/ai/init-llm-wiki.sh module Fixcity
+bashscripts/ai/init-llm-wiki.sh module <nome progetto>
 bashscripts/ai/init-llm-wiki.sh theme Sixteen
 ```
 
@@ -129,7 +129,7 @@ qmd serve ./docs/wiki
 ### Configure Obsidian
 
 1. Open Obsidian → "Open folder as vault"
-2. Select: `/var/www/_bases/base_fixcity_fila5/docs`
+2. Select: `/var/www/_bases/<repo progetto>/docs`
 3. Configuration already in `.obsidian/`
 
 ## Quality Checklist

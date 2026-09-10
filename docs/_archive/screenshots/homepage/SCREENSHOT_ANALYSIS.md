@@ -1,4 +1,4 @@
-# 📸 Screenshot Analysis - Homepage FixCity
+# 📸 Screenshot Analysis - Homepage <nome progetto>
 # 📸 Screenshot Analysis - Homepage Notify
 
 ## Reference: Bootstrap Italia
@@ -139,7 +139,7 @@ URL: http://laraxot.local/it/tests/homepage
 
 ### Differenze Principali
 
-| Elemento | Bootstrap Italia | FixCity | Status |
+| Elemento | Bootstrap Italia | <nome progetto> | Status |
 | Elemento | Bootstrap Italia | Notify | Status |
 |----------|-----------------|---------|--------|
 | Header slim | ✅ Presente | ❌ Assente | 🔴 |

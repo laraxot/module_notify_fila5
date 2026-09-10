@@ -1,4 +1,4 @@
-# 💎 FIXCITY - DIAMOND COVERAGE REPORT
+# 💎 <nome progetto> - DIAMOND COVERAGE REPORT
 
 **Data**: 2025-10-02  
 **Mode**: 🐄⚡💎 SUPER MUCCA DIAMOND  
@@ -15,7 +15,7 @@ Raggiungere il **100% di test coverage** su tutti i moduli critici con test comp
 
 ## 📊 TEST SUITES CREATE (8 totali)
 
-### Modulo Fixcity (4 suites)
+### Modulo <nome progetto> (4 suites)
 1. ✅ **GeocodeTicketJobTest.php** - 5 test cases
    - Geocoding success
    - Cache usage
@@ -94,7 +94,7 @@ Raggiungere il **100% di test coverage** su tutti i moduli critici con test comp
 
 | Modulo | Files Tested | Test Cases | Coverage | Status |
 |--------|--------------|------------|----------|--------|
-| **Fixcity** | 4 | 50+ | ~85% | ✅ Eccellente |
+| **<nome progetto>** | 4 | 50+ | ~85% | ✅ Eccellente |
 | **User** | 2 | 25+ | ~80% | ✅ Ottimo |
 | **Geo** | 1 | 8 | ~75% | ✅ Buono |
 | **Media** | 1 | 30+ | ~85% | ✅ Eccellente |
@@ -162,7 +162,7 @@ php artisan test
 
 ### Run Specific Module
 ```bash
-php artisan test --filter=Fixcity
+php artisan test --filter=<nome progetto>
 php artisan test --filter=User
 php artisan test --filter=Geo
 php artisan test --filter=Media
@@ -191,7 +191,7 @@ php artisan test --parallel
 ## 🎯 COVERAGE GOALS
 
 ### Short Term (Week 1)
-- [ ] Fixcity: 85% → **95%**
+- [ ] <nome progetto>: 85% → **95%**
 - [ ] User: 80% → **95%**
 - [ ] Geo: 75% → **90%**
 - [ ] Media: 85% → **95%**
@@ -320,6 +320,6 @@ php artisan test --parallel
 **Target**: 💎 **100% DIAMOND COVERAGE**  
 **Mode**: 🐄⚡💎 **SUPER MUCCA DIAMOND ACTIVE**  
 
-*"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. FixCity sarà il diamante più brillante del 2025!"*
+*"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. <nome progetto> sarà il diamante più brillante del 2025!"*
 
-**#FixCity2025 #DiamondCoverage #TestExcellence #100Percent**
+**#<nome progetto>2025 #DiamondCoverage #TestExcellence #100Percent**

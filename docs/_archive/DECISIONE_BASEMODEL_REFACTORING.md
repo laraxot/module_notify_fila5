@@ -16,7 +16,7 @@
 | **Blog** | ✅ Sì | ❌ No | SoftDeletes, Media, casts() | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Cms** | ✅ Sì | ❌ No | casts() merge | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Comment** | ✅ Sì | ❌ No | Solo connection | ⭐⭐⭐⭐⭐ PERFETTO |
-| **Fixcity** | ✅ Sì | ⚠️ Parziali | SoftDeletes, $fillable, $dates | ⭐⭐⭐⭐ BUONO |
+| **<nome progetto>** | ✅ Sì | ⚠️ Parziali | SoftDeletes, $fillable, $dates | ⭐⭐⭐⭐ BUONO |
 | **Gdpr** | ✅ Sì | ❌ No | casts() merge | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Geo** | ✅ Sì | ❌ No | Solo connection | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Job** | ✅ Sì | ❌ No | Solo connection | ⭐⭐⭐⭐⭐ PERFETTO |
@@ -153,10 +153,10 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 
 ## ⚠️ CASI PROBLEMATICI
 
-### Problema 1: Fixcity (PARZIALMENTE DUPLICATO)
+### Problema 1: <nome progetto> (PARZIALMENTE DUPLICATO)
 
 ```php
-// Modules/Fixcity/app/Models/BaseModel.php
+// Modules/<nome progetto>/app/Models/BaseModel.php
 abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;  // ✅ Specifico
@@ -395,7 +395,7 @@ php artisan test --filter Tenant
 
 ### Priorità ALTA ⚠️
 
-#### 2. Fixcity Module
+#### 2. <nome progetto> Module
 **Problema**: $fillable duplicato, $dates deprecato  
 **Impatto**: 41 linee → 25 linee (39% riduzione)  
 **Rischio**: MEDIO (SoftDeletes da testare)  
@@ -450,7 +450,7 @@ protected function casts(): array
 | Moduli conformi | 16/18 (89%) |
 | LOC totali BaseModel | 578 |
 | Duplicazioni critiche | 1 (Tenant) |
-| Duplicazioni medie | 1 (Fixcity) |
+| Duplicazioni medie | 1 (<nome progetto>) |
 | Duplicazioni minori | 6 (casts) |
 
 ### Dopo il Refactoring
@@ -490,7 +490,7 @@ protected function casts(): array
 #### 🎯 AZIONI IMMEDIATE:
 
 1. **CRITICO**: Refactoring Tenant (30 min)
-2. **ALTO**: Refactoring Fixcity (20 min)
+2. **ALTO**: Refactoring <nome progetto> (20 min)
 3. **MEDIO**: Pulizia casts duplicati (60 min totale)
 
 **Tempo Totale**: ~2 ore  

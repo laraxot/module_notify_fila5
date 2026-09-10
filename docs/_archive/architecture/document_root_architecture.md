@@ -7,8 +7,8 @@ This project uses a **custom Laravel public path architecture** where the web-ac
 ## Architecture
 
 ```
-/var/www/_bases/base_fixcity_fila5/
-/var/www/_bases/base_ptvx_fila5/
+/var/www/_bases/<repo progetto>/
+/var/www/_bases/<repo progetto>/
 ├── public_html/                    ← ACTUAL DocumentRoot (Apache serves from here)
 │   ├── index.php                   ← Entry point
 │   ├── .htaccess
@@ -84,10 +84,10 @@ The entry point defines `LARAVEL_DIR` constant pointing to the Laravel installat
 
 ### 4. Apache Configuration
 
-**Active VHost**: `/etc/apache2/sites-enabled/fixcity.local.conf`
+**Active VHost**: `/etc/apache2/sites-enabled/<nome progetto>.local.conf`
 
 ```apache
-DocumentRoot /var/www/_bases/base_fixcity_fila5/public_html
+DocumentRoot /var/www/_bases/<repo progetto>/public_html
 ```
 
 ## Verification
@@ -95,11 +95,11 @@ DocumentRoot /var/www/_bases/base_fixcity_fila5/public_html
 Test that `public_path()` resolves correctly:
 
 ```bash
-cd /var/www/_bases/base_fixcity_fila5/laravel
+cd /var/www/_bases/<repo progetto>/laravel
 php -r "require 'vendor/autoload.php'; \$app = require 'bootstrap/app.php'; echo public_path() . PHP_EOL;"
 ```
 
-**Expected output**: `/var/www/_bases/base_fixcity_fila5/public_html`
+**Expected output**: `/var/www/_bases/<repo progetto>/public_html`
 
 ## Why Both Directories Exist
 

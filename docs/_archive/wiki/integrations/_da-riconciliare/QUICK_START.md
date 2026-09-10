@@ -32,7 +32,7 @@ updated: 2026-08-24
 
 ### Conoscenze Richieste
 - Laravel 11.x
-- Filament 4.x
+- Filament 5.x
 - Livewire 3.x
 - TailwindCSS
 - Architettura modulare (Nwidart)
@@ -141,7 +141,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 class MyResource extends XotBaseResource
 {
     // Usa getFormSchema() invece di form()
-    public static function getFormSchema(): array
+    public function getFormSchema(): array
     {
         return [
             // schema fields
@@ -247,7 +247,7 @@ return [
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
 │   │   ├── App/          # Core business logic
-<nome repitory>_mono/
+<nome repitory>/
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
 │   │   ├── <nome progetto>/          # Core business logic

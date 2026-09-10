@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-**Problem**: Module and theme documentation contains **1,500+ project-specific references** (FixCity) when it should be **project-agnostic** and reusable.
+**Problem**: Module and theme documentation contains **1,500+ project-specific references** (<nome progetto>) when it should be **project-agnostic** and reusable.
 
 **Solution**: Implement governance rules, rename files, and replace content with generic placeholders.
 
@@ -19,12 +19,12 @@
 
 | Pattern | Occurrences | Priority |
 |---------|-------------|----------|
-| `Fixcity` (in content) | 1,050 | 🔴 HIGH |
-| `FixCity` (in content) | 259 | 🔴 HIGH |
+| `<nome progetto>` (in content) | 1,050 | 🔴 HIGH |
+| `<nome progetto>` (in content) | 259 | 🔴 HIGH |
 | `ptv` (in content) | 220 | 🔴 HIGH |
 | `ptv-` (in filenames) | TBD | 🟡 MEDIUM |
 | `ptv.local` | 3 | 🟢 LOW |
-| `base_ptv_fila5` | 11 | 🟢 LOW |
+| `<repo progetto>` | 11 | 🟢 LOW |
 
 ---
 
@@ -47,7 +47,7 @@ Defines:
 - **After**: `laravel/Modules/Cms/docs/pages-content-blocks.md`
 
 #### Content Updated
-- Replaced `FixCity` → `[PROJECT_NAME]`
+- Replaced `<nome progetto>` → `[PROJECT_NAME]`
 - Replaced `ptv` → `[project_name]`
 - Added contextual notes for users
 - Made examples generic with placeholders
@@ -56,8 +56,8 @@ Defines:
 **File**: `laravel/Themes/docs/README.md`
 
 Changes:
-- Removed "FixCity PTVX ecosystem" → "PTVX ecosystem"
-- Replaced `base_ptv_fila5/` → `<project_root>/`
+- Removed "<nome progetto> PTVX ecosystem" → "PTVX ecosystem"
+- Replaced `<repo progetto>/` → `<project_root>/`
 - Replaced `ptv.local` → `[YOUR_DOMAIN]`
 - Replaced GitHub repo reference → `your-org/your-repo`
 - Added placeholder guidance notes
@@ -164,7 +164,7 @@ git commit -m "docs(Cms): make documentation agnostic"
 ### Pre-Commit Checklist
 
 For each module/theme:
-- [ ] No `FixCity`, `Fixcity`, `ptv` in content
+- [ ] No `<nome progetto>`, `<nome progetto>`, `ptv` in content
 - [ ] No project-specific filenames
 - [ ] Placeholders used consistently:
   - `[PROJECT_NAME]` for platform name
@@ -181,7 +181,7 @@ For each module/theme:
 Add to CI/CD:
 ```bash
 # Fail if project-specific refs found in docs
-if grep -r "FixCity" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
+if grep -r "<nome progetto>" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
   echo "❌ Project-specific references found in documentation"
   exit 1
 fi
@@ -193,7 +193,7 @@ Create `.git/hooks/pre-commit`:
 ```bash
 #!/bin/bash
 # Check for project-specific docs in staged changes
-if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "FixCity" 2>/dev/null; then
+if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "<nome progetto>" 2>/dev/null; then
   echo "❌ Commit blocked: Project-specific references in documentation"
   echo "Run: ./bashscripts/fix-docs-agnostic.sh --dry-run"
   exit 1
@@ -210,9 +210,9 @@ fi
 
 **Before**:
 ```markdown
-# FixCity Blog Module
+# <nome progetto> Blog Module
 
-This module provides blog functionality for FixCity platform.
+This module provides blog functionality for <nome progetto> platform.
 Access at: ptv.local/blog
 ```
 
@@ -230,9 +230,9 @@ Access at: `[YOUR_DOMAIN]/blog`
 
 **Before**:
 ```markdown
-## FixCity Integration
+## <nome progetto> Integration
 
-1. Add to Fixcity config:
+1. Add to <nome progetto> config:
    ```php
    config('ptv.blog.settings')
    ```
@@ -292,7 +292,7 @@ git revert <commit-hash>
 ## Success Metrics
 
 ### Quantitative
-- ✅ 0 occurrences of "FixCity" in module/theme docs
+- ✅ 0 occurrences of "<nome progetto>" in module/theme docs
 - ✅ 0 occurrences of "ptv" in module/theme docs
 - ✅ 100% of filenames are project-agnostic
 - ✅ 100% of cross-references use relative paths
@@ -365,9 +365,9 @@ A: In `docs/project/` at the project root, not in individual modules.
 A: Consider keeping it in the project root, not in the reusable Modules directory.
 
 **Q: How do I handle module-to-module references?**  
-A: Use generic names: "Blog Module" instead of "FixCity Blog Module".
+A: Use generic names: "Blog Module" instead of "<nome progetto> Blog Module".
 
-**Q: Can I still mention FixCity in examples?**  
+**Q: Can I still mention <nome progetto> in examples?**  
 A: Yes, but clearly mark them as examples: "e.g., 'ptv' for a civic platform".
 
 ---

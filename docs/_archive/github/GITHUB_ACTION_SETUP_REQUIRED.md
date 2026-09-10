@@ -61,7 +61,7 @@ ssh-keygen -t ed25519 -C "actions@github.com" -f ~/.ssh/subtree_sync
 
 ```bash
 # Go to project root
-cd /var/www/_bases/base_ptvx_fila5
+cd /var/www/_bases/<repo progetto>
 
 # Create empty commit to trigger workflow
 git commit --allow-empty -m "Test subtree sync workflow"
@@ -116,7 +116,7 @@ Full documentation is available at:
 
 ```bash
 # Using GitHub CLI
-gh run list --repo laraxot/base_ptvx_fila5
+gh run list --repo laraxot/<repo progetto>
 gh run view <run-id> --log
 ```
 

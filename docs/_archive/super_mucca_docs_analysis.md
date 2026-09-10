@@ -55,7 +55,7 @@
 | **Job** | 83 | ✅ | 🟢 Buono | Queue management |
 | **Gdpr** | 79 | ✅ | 🟢 Buono | Compliance GDPR |
 | **Tenant** | 57 | ✅ | 🟢 Buono | Multi-tenancy |
-| **Fixcity** | 38 | ✅ | 🟢 Buono | Ticketing system |
+| **<nome progetto>** | 38 | ✅ | 🟢 Buono | Ticketing system |
 | **AI** | 34 | ✅ | 🟢 Buono | MCP integration |
 | **Blog** | 34 | ✅ | 🟢 Buono | Content management |
 | **Seo** | 21 | ❌ | 🔴 Mancante | **README mancante** |

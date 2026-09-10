@@ -14,7 +14,7 @@
 Illuminate\Database\QueryException
 SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
 
-Database: /var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
+Database: /var/www/_bases/<repo progetto>/laravel/database/notify_data.sqlite
 SQL: insert or ignore into "cache" ("key", "value", "expiration") 
   values (laravel_cache_livewire-checksum-failures:172.23.16.1:timer, i:1774863199;, 1774863199)
 ```
@@ -32,7 +32,7 @@ Il file del database SQLite aveva permessi errati:
 ### Command Executed
 
 ```bash
-cd /var/www/_bases/base_ptvx_fila5
+cd /var/www/_bases/<repo progetto>
 
 # Fix permissions (775 = rwxrwxr-x)
 chmod -R 775 laravel/database/
@@ -155,7 +155,7 @@ Create `bashscripts/fix-permissions.sh`:
 #!/bin/bash
 # Fix Laravel permissions
 
-PROJECT_ROOT="/var/www/_bases/base_ptvx_fila5"
+PROJECT_ROOT="/var/www/_bases/<repo progetto>"
 
 # Database
 chmod -R 775 $PROJECT_ROOT/laravel/database/

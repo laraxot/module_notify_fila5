@@ -171,7 +171,7 @@ However, since bashscripts docs are gitignored, they need to be committed to bas
 
 | Repo | Status | Next Step |
 |------|--------|-----------|
-| Main Repo (base_ptvx_fila5) | ✅ Committed & Pushed | - |
+| Main Repo (<repo progetto>) | ✅ Committed & Pushed | - |
 | Bashscripts Repo (bashscripts_fila5) | ⏳ Pending | Commit docs to bashscripts repo |
 
 ---

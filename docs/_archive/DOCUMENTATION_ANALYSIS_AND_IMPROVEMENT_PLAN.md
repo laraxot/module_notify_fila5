@@ -10,7 +10,7 @@
 
 ### Current State
 
-The FixCity platform has extensive documentation across modules and themes, but suffers from:
+The <nome progetto> platform has extensive documentation across modules and themes, but suffers from:
 
 1. **Inconsistent Structure**: Different modules use different organization
 2. **Duplicate Content**: Same topics documented multiple times

@@ -1,4 +1,4 @@
-# 🎯 FIXCITY - PERFECTION PLAN
+# 🎯 <nome progetto> - PERFECTION PLAN
 
 **Data**: 2025-10-01  
 **Mode**: 🐄⚡ SUPER MUCCA PERFECTION  
@@ -21,7 +21,7 @@
 ## 📊 MODULI ANALIZZATI (20)
 
 ### Core (3) - Priority: CRITICAL
-1. **Fixcity** - 95% ✅ (API, Repository, Job implementati)
+1. **<nome progetto>** - 95% ✅ (API, Repository, Job implementati)
 2. **User** - 93% ✅ (2FA Service implementato)
 3. **Xot** - 95% ✅ (Framework completo)
 
@@ -53,7 +53,7 @@
 ### FASE 1: Core Completion (Immediate)
 **Obiettivo**: Portare core al 100%
 
-#### Fixcity (95% → 100%)
+#### <nome progetto> (95% → 100%)
 - [x] GeocodeTicketAddressJob ✅
 - [x] TicketRepository ✅
 - [x] REST API ✅
@@ -189,7 +189,7 @@ php artisan test --filter=[TestName]
 ### Per Modulo
 | Modulo | Current | Target | Priority |
 |--------|---------|--------|----------|
-| Fixcity | 95% | 100% | CRITICAL |
+| <nome progetto> | 95% | 100% | CRITICAL |
 | User | 93% | 100% | CRITICAL |
 | Xot | 95% | 100% | CRITICAL |
 | UI | 72% | 90% | HIGH |

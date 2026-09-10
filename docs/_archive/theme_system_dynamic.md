@@ -15,7 +15,7 @@ The active theme is configured in:
 config/{environment}/{domain}/xra.php
 ```
 
-**Example** (`config/localhost/fixcity/xra.php`):
+**Example** (`config/localhost/<nome progetto>/xra.php`):
 **Example** (`config/localhost/ptv/xra.php`):
 ```php
 <?php
@@ -121,7 +121,7 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 
 1. Edit config file:
 ```php
-// config/localhost/fixcity/xra.php
+// config/localhost/<nome progetto>/xra.php
 // config/localhost/ptv/xra.php
 return [
     'pub_theme' => 'TwentyOne',  // Change theme
@@ -145,7 +145,7 @@ THEME_REGISTER_PUB=true
 
 2. Update config to read env:
 ```php
-// config/localhost/fixcity/xra.php
+// config/localhost/<nome progetto>/xra.php
 // config/localhost/ptv/xra.php
 return [
     'pub_theme' => env('THEME_PUB', 'Sixteen'),
@@ -200,7 +200,7 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 
 ### Step 3: Register Theme
 ```php
-// config/localhost/fixcity/xra.php
+// config/localhost/<nome progetto>/xra.php
 // config/localhost/ptv/xra.php
 return [
     'pub_theme' => 'MyTheme',

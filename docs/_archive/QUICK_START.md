@@ -1,8 +1,8 @@
-# 🚀 FIXCITY - GUIDA RAPIDA SVILUPPATORI
+# 🚀 <nome progetto> - GUIDA RAPIDA SVILUPPATORI
 
 **Versione**: 1.0  
 **Data**: 2025-10-01  
-**Target**: Sviluppatori che iniziano a lavorare su FixCity  
+**Target**: Sviluppatori che iniziano a lavorare su <nome progetto>  
 
 ---
 
@@ -18,7 +18,7 @@
 
 ### Conoscenze Richieste
 - Laravel 11.x
-- Filament 4.x
+- Filament 5.x
 - Livewire 3.x
 - TailwindCSS
 - Architettura modulare (Nwidart)
@@ -124,7 +124,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 class MyResource extends XotBaseResource
 {
     // Usa getFormSchema() invece di form()
-    public static function getFormSchema(): array
+    public function getFormSchema(): array
     {
         return [
             // schema fields
@@ -226,10 +226,10 @@ return [
 ## 📁 STRUTTURA PROGETTO
 
 ```
-base_ptv_fila5_mono/
+<repo progetto>/
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
-│   │   ├── Fixcity/          # Core business logic
+│   │   ├── <nome progetto>/          # Core business logic
 │   │   ├── User/             # Authentication
 │   │   ├── Xot/              # Framework base
 │   │   ├── UI/               # Component library
@@ -283,13 +283,13 @@ php artisan module:publish ModuleName
 ### Filament
 ```bash
 # Crea resource
-php artisan make:filament-resource TicketResource --module=Fixcity
+php artisan make:filament-resource TicketResource --module=<nome progetto>
 
 # Crea page
-php artisan make:filament-page Dashboard --module=Fixcity
+php artisan make:filament-page Dashboard --module=<nome progetto>
 
 # Crea widget
-php artisan make:filament-widget StatsWidget --module=Fixcity
+php artisan make:filament-widget StatsWidget --module=<nome progetto>
 ```
 
 ---
@@ -438,7 +438,7 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 - **structure.md**: Struttura file
 - **technical.md**: Dettagli tecnici
 
-**Esempio**: [Fixcity Module Docs](./laravel/Modules/Fixcity/docs/)
+**Esempio**: [<nome progetto> Module Docs](./laravel/Modules/<nome progetto>/docs/)
 
 ---
 

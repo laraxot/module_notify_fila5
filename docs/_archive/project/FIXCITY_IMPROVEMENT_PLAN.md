@@ -1,14 +1,14 @@
-# FixCity Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop
+# <nome progetto> Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop
 
 **Created**: 2026-03-30  
 **Status**: ✅ **READY TO EXECUTE**  
-**Project**: FixCity Platform Improvement  
+**Project**: <nome progetto> Platform Improvement  
 
 ---
 
 ## 🎯 Executive Summary
 
-I've created a comprehensive **16-week improvement plan** for FixCity using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).
+I've created a comprehensive **16-week improvement plan** for <nome progetto> using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).
 
 ### Current State → Target State
 
@@ -92,7 +92,7 @@ I've created a comprehensive **16-week improvement plan** for FixCity using the 
 
 #### 2.2 Unit Tests - Critical Modules (45h)
 **Modules**:
-- Fixcity (ticket logic): 90% coverage
+- <nome progetto> (ticket logic): 90% coverage
 - User (authentication): 90% coverage
 - Cms (content): 85% coverage
 - Geo (geocoding): 85% coverage
@@ -363,8 +363,8 @@ cp .planning/phase-1.1.json .ralph/prd.json
 |------|---------|------|
 | `.planning/PROJECT.md` | Project context & overview | 8KB |
 | `.planning/config.json` | Roadmap & configuration | 9KB |
-| `.planning/research/FIXCITY_PROJECT_RESEARCH_SUMMARY.md` | Research summary | 47KB |
-| `FIXCITY_IMPROVEMENT_PLAN.md` | This document | 12KB |
+| `.planning/research/<nome progetto>_PROJECT_RESEARCH_SUMMARY.md` | Research summary | 47KB |
+| `<nome progetto>_IMPROVEMENT_PLAN.md` | This document | 12KB |
 
 ---
 
@@ -432,7 +432,7 @@ cp .planning/phase-1.1.json .ralph/prd.json
 - **OpenViking**: `docs/openviking-integration.md`
 - **BMAD/GSD/Ralph**: `docs/bmad-gsd-ralph-integration.md`
 - **Unified Workflow**: `docs/unified-ai-workflow.md`
-- **Project Research**: `.planning/research/FIXCITY_PROJECT_RESEARCH_SUMMARY.md`
+- **Project Research**: `.planning/research/<nome progetto>_PROJECT_RESEARCH_SUMMARY.md`
 
 ### Commands
 - **OpenViking**: `openviking --help`

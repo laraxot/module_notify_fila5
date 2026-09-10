@@ -15,7 +15,7 @@ use Modules\Notify\Filament\Clusters\Test\Pages\SendPushNotification;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendPushNotificationPage;
 use Modules\Notify\Filament\Clusters\Test\Pages\SendTelegram;
 use Modules\Notify\Filament\Clusters\Test\Pages\TestSmtpPage;
-use Modules\Notify\Actions\NotificationManager;
+use Modules\Notify\Services\NotificationManager;
 use Modules\Notify\Tests\Unit\Traits\NotifyTenantDummyModel;
 use Modules\Tenant\Models\Tenant;
 use Modules\Xot\Tests\ModuleRemainingCoverage;

@@ -1,5 +1,5 @@
 
-# Compatibilità Filament 4.x - Modulo Notify
+# Compatibilità Filament 5.x - Modulo Notify
 
 **Data**: 2025-01-27
 **Status**: ✅ COMPLETATO
@@ -19,7 +19,7 @@ $tpl->increment('counter');
 $tpl->update(['counter' => $tpl->counter + 1]);
 ```
 
-## 📋 Modifiche Filament 4.x
+## 📋 Modifiche Filament 5.x
 
 ### Breaking Changes Applicati
 1. **Metodi Protetti**: Alcuni metodi Eloquent ora sono protetti
@@ -35,7 +35,7 @@ $tpl->update(['counter' => $tpl->counter + 1]);
 
 ### Problema Originale
 ```php
-// ❌ ERRORE: increment() è metodo protetto in Filament 4.x
+// ❌ ERRORE: increment() è metodo protetto in Filament 5.x
 $tpl->increment('counter');
 ```
 
@@ -70,7 +70,7 @@ $tpl->update(['counter' => $tpl->counter + 1]);
 UPDATE templates SET counter = counter + 1 WHERE id = ?
 ```
 
-### Dopo (Filament 4.x)
+### Dopo (Filament 5.x)
 ```sql
 UPDATE templates SET counter = ? WHERE id = ?
 ```
@@ -79,8 +79,8 @@ UPDATE templates SET counter = ? WHERE id = ?
 
 ## 🔗 Collegamenti
 
-- [Rapporto Aggiornamento Filament 4.x](../../../docs/filament_4x_upgrade_report.md)
-- [Guida Ufficiale Filament 4.x](https://filamentphp.com/docs/4.x/upgrade-guide)
+- [Rapporto Aggiornamento Filament 5.x](../../../docs/filament_4x_upgrade_report.md)
+- [Guida Ufficiale Filament 5.x](https://filamentphp.com/docs/4.x/upgrade-guide)
 - [Documentazione Eloquent](https://laravel.com/docs/eloquent)
 
 *Ultimo aggiornamento: 2025-01-27*

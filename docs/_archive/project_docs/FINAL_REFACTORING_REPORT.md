@@ -1,6 +1,6 @@
 # 🐮 Super Mucca - Final Refactoring Report
 
-**Project:** base_ptvx_fila5_mono  
+**Project:** <repo progetto>  
 **Date:** 2025-10-01  
 **Analyzer:** Super Mucca 🐮  
 **Status:** ✅ **SUCCESSFULLY COMPLETED**

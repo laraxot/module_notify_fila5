@@ -24,7 +24,7 @@ Monitorare costantemente tutte le cartelle `docs` dei moduli e temi per:
 | Modulo | Docs Count | Last Updated | Status | Priority |
 |--------|------------|--------------|--------|----------|
 | **Xot** | 95+ files | 2025-01-27 | ✅ UPDATED | CRITICAL |
-| **Fixcity** | 8 files | 2025-01-27 | ✅ UPDATED | CRITICAL |
+| **<nome progetto>** | 8 files | 2025-01-27 | ✅ UPDATED | CRITICAL |
 | **User** | 12 files | 2025-01-27 | ✅ UPDATED | HIGH |
 | **Geo** | 3 files | 2025-01-27 | ✅ UPDATED | HIGH |
 | **Notify** | 3 files | 2025-01-27 | ✅ UPDATED | MEDIUM |
@@ -134,14 +134,14 @@ find . -name "*.md" -exec sed -i 's/[0-9]\+ errori rimanenti/0 errori rimanenti 
 
 #### **Filament Version Updates**
 ```bash
-# Pattern: "Filament 3.x" → "Filament 4.x"
-find . -name "*.md" -exec sed -i 's/Filament 3\.x/Filament 4.x/g' {} \;
+# Pattern: "Filament 3.x" → "Filament 5.x"
+find . -name "*.md" -exec sed -i 's/Filament 3\.x/Filament 5.x/g' {} \;
 ```
 
 #### **Laravel Version Updates**
 ```bash
-# Pattern: "Laravel 11" → "Laravel 12"
-find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 12/g' {} \;
+# Pattern: "Laravel 11" → "Laravel 13"
+find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 13/g' {} \;
 ```
 
 #### **Status Updates**
@@ -157,12 +157,12 @@ find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 12/g' {} \;
 ### 🔥 **Critical Priority**
 1. **ROADMAP_2025.md** (tutti i moduli)
 2. **README.md** (moduli principali)
-3. **performance-issues.md** (Fixcity, User)
-4. **phpstan-fixes-report.md** (Fixcity, User)
+3. **performance-issues.md** (<nome progetto>, User)
+4. **phpstan-fixes-report.md** (<nome progetto>, User)
 5. **filament_4x_upgrade_report.md** (tutti i moduli)
 
 ### ⚡ **High Priority**
-1. **API Documentation** (Fixcity, User, Geo)
+1. **API Documentation** (<nome progetto>, User, Geo)
 2. **Implementation Guides** (tutti i moduli)
 3. **Troubleshooting Guides** (Xot, Sixteen, TwentyOne)
 4. **Best Practices** (Xot, moduli core)

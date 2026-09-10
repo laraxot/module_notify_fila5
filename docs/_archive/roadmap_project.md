@@ -1,8 +1,8 @@
-# 🚀 ROADMAP GENERALE - FixCity Platform
+# 🚀 ROADMAP GENERALE - <nome progetto> Platform
 
 ## 📋 Sommario Esecutivo
 
-**FixCity** è una piattaforma completa di civic engagement per la gestione delle segnalazioni urbane. I cittadini possono segnalare problemi nella loro città, e le amministrazioni gestirle con workflow avanzati.
+**<nome progetto>** è una piattaforma completa di civic engagement per la gestione delle segnalazioni urbane. I cittadini possono segnalare problemi nella loro città, e le amministrazioni gestirle con workflow avanzati.
 
 ### Versione Attuale: 1.0.0 (Base Funzionante)
 ### Target Versione: 2.0.0 (Produzione Completa)
@@ -56,7 +56,7 @@
 - **Lang**: Multi-language support ✓
 
 ### 🚧 Funzionali ma da Completare
-- **Fixcity**: Core business logic (80% completo)
+- **<nome progetto>**: Core business logic (80% completo)
   - Manca: API pubblica, analytics avanzate, automazione
 - **Geo**: Geolocalizzazione (70% completo)
   - Manca: Heatmap, zone management, routing ottimizzato
@@ -328,7 +328,7 @@
 ## 🎓 Knowledge Base
 
 ### Link Documentazione Moduli
-- [Modulo Fixcity](../Modules/Fixcity/docs/README.md)
+- [Modulo <nome progetto>](../Modules/<nome progetto>/docs/README.md)
 - [Modulo User](../Modules/User/docs/README.md)
 - [Modulo Cms](../Modules/Cms/docs/README.md)
 - [Modulo Geo](../Modules/Geo/docs/README.md)

@@ -1,4 +1,4 @@
-# 🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO
+# 🎯 <nome progetto> - STATO COMPLETAMENTO PROGETTO
 
 **Data**: 2025-10-01  
 **Status**: 🚧 IN CORSO - Documentazione 75% completata  
@@ -15,7 +15,7 @@
 - ✅ **QUICK_START.md** - Guida rapida sviluppatori
 - ✅ **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
 
-### 🎫 Modulo Fixcity (85% → 90%)
+### 🎫 Modulo <nome progetto> (85% → 90%)
 - ✅ **ROADMAP_2025.md** - Aggiornato timeline Q4 2025-Q2 2026
 - ✅ **API.md** - Documentazione API completa (NEW)
 - ✅ **USER_GUIDE.md** - Guida utente cittadini completa (NEW)
@@ -32,7 +32,7 @@
 ## 📊 STATO DOCUMENTAZIONE MODULI
 
 ### ✅ Completati (90%+)
-- **Fixcity**: 90% - API, User Guide, Admin Guide completate
+- **<nome progetto>**: 90% - API, User Guide, Admin Guide completate
 - **User**: 92% - Roadmap aggiornata
 - **Xot**: 95% - Documentazione completa
 
@@ -102,7 +102,7 @@
 
 ### Qualità Codice
 - **PHPStan Level 9**: ✅ 0 errori
-- **Filament 4.x**: ✅ Compatibile
+- **Filament 5.x**: ✅ Compatibile
 - **Test Coverage**: 🚧 65% (target 80%)
 - **AGID Compliance**: 🚧 90% (target 100%)
 
@@ -122,7 +122,7 @@
 
 ### Week 1 (Ottobre 2025) - CURRENT
 - [x] Aggiornare roadmap principali
-- [x] Creare documentazione API Fixcity
+- [x] Creare documentazione API <nome progetto>
 - [x] Creare guide utente e admin
 - [ ] Completare docs modulo User
 - [ ] Completare docs modulo UI
@@ -156,14 +156,14 @@
 4. **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
 5. **PROJECT_COMPLETION_STATUS.md** - Questo documento
 
-### Modulo Fixcity (3 documenti)
+### Modulo <nome progetto> (3 documenti)
 1. **API.md** - Documentazione API RESTful completa
 2. **USER_GUIDE.md** - Guida utente cittadini (15 sezioni)
 3. **ADMIN_GUIDE.md** - Guida amministratori (18 sezioni)
 
 ### Roadmap Aggiornate (3 documenti)
 1. **ROADMAP_STATUS_SUMMARY.md** - Master roadmap
-2. **Fixcity/ROADMAP_2025.md** - Roadmap modulo
+2. **<nome progetto>/ROADMAP_2025.md** - Roadmap modulo
 3. **User/ROADMAP.md** - Roadmap modulo
 4. **Sixteen/ROADMAP_2025.md** - Roadmap tema
 
@@ -174,8 +174,8 @@
 ## 🔗 STRUTTURA DOCUMENTAZIONE
 
 ```
-base_fixcity_fila5_mono/
-base_ptv_fila5_mono/
+<repo progetto>/
+<repo progetto>/
 ├── DOCUMENTATION_INDEX.md          # ✅ Indice generale
 ├── QUICK_START.md                  # ✅ Guida rapida
 ├── ROADMAP_STATUS_SUMMARY.md       # ✅ Status master
@@ -187,7 +187,7 @@ base_ptv_fila5_mono/
 │
 └── laravel/
     ├── Modules/
-    │   ├── Fixcity/docs/
+    │   ├── <nome progetto>/docs/
     │   │   ├── README.md           # ✅ Completo
     │   │   ├── ROADMAP_2025.md     # ✅ Aggiornato
     │   │   ├── API.md              # ✅ NEW
@@ -245,9 +245,9 @@ base_ptv_fila5_mono/
 - **Doc Lead**: Documentazione
 
 ### Supporto
-- **Email**: dev@fixcity.it
-- **Docs**: docs@fixcity.it
-- **Slack**: #fixcity-dev
+- **Email**: dev@<nome progetto>.it
+- **Docs**: docs@<nome progetto>.it
+- **Slack**: #<nome progetto>-dev
 - **Email**: dev@ptv.it
 - **Docs**: docs@ptv.it
 - **Slack**: #ptv-dev

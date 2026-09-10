@@ -1,6 +1,6 @@
-# Master Documentation Index - FixCity Fila5
+# Master Documentation Index - <nome progetto> Fila5
 
-**Project:** FixCity Fila5  
+**Project:** <nome progetto> Fila5  
 **Date:** 2026-04-01  
 **Status:** ✅ **Active**  
 **Total Docs:** 7,137+ markdown files  
@@ -21,7 +21,7 @@ Questo documento crea un **sistema di indicizzazione centrale** con collegamenti
 ## 📚 Documentation Hierarchy
 
 ```
-FixCity Fila5 Documentation
+<nome progetto> Fila5 Documentation
 ├── 📁 Master Index (THIS FILE)
 │
 ├── 📁 BMad Output (_bmad-output/)
@@ -45,7 +45,7 @@ FixCity Fila5 Documentation
 │
 ├── 📁 Modules (laravel/Modules/*/docs/)
 │   ├── Xot (Core Framework) - 1,941 files
-│   ├── Fixcity (Main Domain) - XXX files
+│   ├── <nome progetto> (Main Domain) - XXX files
 │   ├── User (Authentication) - XXX files
 │   ├── Cms (Content) - XXX files
 │   ├── Blog (Articles) - XXX files
@@ -143,7 +143,7 @@ FixCity Fila5 Documentation
 | Module | Files | Index | Key Topics |
 |--------|-------|-------|------------|
 | **Xot** | 1,941 | [00-index.md](Modules/Xot/docs/00-index.md) | Base classes, traits, PHPStan |
-| **Fixcity** | XXX | [index.md](Modules/Fixcity/docs/README.md) | Tickets, categories |
+| **<nome progetto>** | XXX | [index.md](Modules/<nome progetto>/docs/README.md) | Tickets, categories |
 | **User** | XXX | [index.md](Modules/User/docs/README.md) | Auth, RBAC, OAuth |
 | **Cms** | XXX | [index.md](Modules/Cms/docs/README.md) | Pages, sections, blocks |
 | **Tenant** | XXX | [index.md](Modules/Tenant/docs/README.md) | Multi-tenancy |
@@ -300,7 +300,7 @@ Modules/
 │   ├── phpstan*.md (PHPStan docs)
 │   ├── testing/ (Testing guides)
 │   └── ...
-├── Fixcity/docs/
+├── <nome progetto>/docs/
 │   └── README.md
 ├── User/docs/
 │   └── README.md

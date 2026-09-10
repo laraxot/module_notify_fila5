@@ -1,7 +1,7 @@
-# ROADMAP PRINCIPALE - Progetto Fixcity
+# ROADMAP PRINCIPALE - Progetto <nome progetto>
 
 ## Scopo del Progetto
-Fixcity è un sistema completo di gestione dei ticket per la manutenzione urbana, progettato per migliorare la qualità della vita cittadina attraverso un sistema di segnalazioni efficiente e trasparente.
+<nome progetto> è un sistema completo di gestione dei ticket per la manutenzione urbana, progettato per migliorare la qualità della vita cittadina attraverso un sistema di segnalazioni efficiente e trasparente.
 
 ## Visione del Progetto
 Creare una piattaforma digitale che connetta cittadini, amministrazioni pubbliche e tecnici per risolvere rapidamente i problemi urbani, migliorando la qualità della vita e la soddisfazione dei cittadini.
@@ -29,7 +29,7 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 ## Architettura del Sistema
 
 ### Moduli Core
-- **Fixcity**: Gestione ticket e workflow
+- **<nome progetto>**: Gestione ticket e workflow
 - **User**: Autenticazione e gestione utenti
 - **Notify**: Sistema notifiche multi-canale
 - **Geo**: Geolocalizzazione e mappe
@@ -167,6 +167,6 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 - [Financial Projections](./financial-projections.md)
 
 ## Conclusioni
-Il progetto Fixcity rappresenta un'opportunità unica per rivoluzionare la gestione della manutenzione urbana attraverso la tecnologia. Con un'architettura solida, un team dedicato e una roadmap chiara, il progetto è pronto per diventare il leader di mercato nel settore della smart city management.
+Il progetto <nome progetto> rappresenta un'opportunità unica per rivoluzionare la gestione della manutenzione urbana attraverso la tecnologia. Con un'architettura solida, un team dedicato e una roadmap chiara, il progetto è pronto per diventare il leader di mercato nel settore della smart city management.
 
-La combinazione di tecnologie moderne, user experience ottimizzata e business logic innovativa posiziona Fixcity come la soluzione ideale per amministrazioni pubbliche che vogliono migliorare la qualità dei servizi ai cittadini.
+La combinazione di tecnologie moderne, user experience ottimizzata e business logic innovativa posiziona <nome progetto> come la soluzione ideale per amministrazioni pubbliche che vogliono migliorare la qualità dei servizi ai cittadini.

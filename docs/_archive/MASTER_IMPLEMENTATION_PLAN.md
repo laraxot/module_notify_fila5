@@ -1,8 +1,8 @@
-# 🎯 FIXCITY - MASTER IMPLEMENTATION PLAN
+# 🎯 <nome progetto> - MASTER IMPLEMENTATION PLAN
 **Data Creazione**: 2025-10-01
 **Status**: 🚀 ATTIVO
 **Priorità**: CRITICA
-**Obiettivo**: Completare il progetto FixCity al 100%
+**Obiettivo**: Completare il progetto <nome progetto> al 100%
 
 ---
 
@@ -15,7 +15,7 @@ Overall Progress: ████████████░░░░░░░░ 6
 Modules:
 ├── Xot Framework:     ████████████████████ 100% ✅
 ├── User Management:   ████████████████████ 100% ✅
-├── Fixcity Core:      ████████████████░░░░  80% 🚧
+├── <nome progetto> Core:      ████████████████░░░░  80% 🚧
 ├── UI Components:     ██████████████████░░  90% 🚧
 ├── Geo Integration:   ████████████████░░░░  85% 🚧
 ├── Notify System:     ██████████████░░░░░░  70% 🚧

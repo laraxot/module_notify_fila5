@@ -8,12 +8,12 @@ updated: 2026-06-05
 qmd: "notify module wiki index notifications qmd second brain"
 # Da popolare con thread reali di git@github.com:laraxot/module_notify_fila5.git
 # (repo owner del modulo, vedi `git remote -v`). Le due voci precedenti puntavano
-# a `laraxot/platform` (repo inesistente) e a `laraxot/base_fixcity_fila5`
+# a `laraxot/platform` (repo inesistente) e a `laraxot/<repo progetto>`
 # (progetto diverso): entrambe vietate dalla regola wiki-markdown-frontmatter-mandatory.
 issues: []
 discussions: []
 related:
-  - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
+  - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md
   - ../../../../docs/wiki/bmad/architecture.md
   - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
   - ../../docs/wiki/concepts/ai-harness-module-discipline.md
@@ -23,7 +23,7 @@ related:
 
 ## AI / second brain
 
-- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+- [hackernoon-ai-coding-tips-<nome progetto>-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
@@ -50,7 +50,7 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 | Collezione | Path | Files | Descrizione |
 |------------|------|-------|-------------|
 | `root-docs` | `docs/` | 710 | Documentazione root progetto |
-| `mod-quaeris` | `Modules/Quaeris/docs/` | 83 | Survey, questionari, report |
+| `mod-<nome progetto>` | `Modules/<nome progetto>/docs/` | 83 | Survey, questionari, report |
 | `mod-xot` | `Modules/Xot/docs/` | 4409 | Core framework, modelli base |
 | `mod-cms` | `Modules/Cms/docs/` | 711 | Gestione contenuti, pagine |
 | `mod-user` | `Modules/User/docs/` | 1952 | Auth, profili, ruoli |
@@ -79,16 +79,16 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 # Ricerca keyword (BM25, veloce ~30ms)
 ## AI / second brain
 
-- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+- [hackernoon-ai-coding-tips-<nome progetto>-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
 
-qmd search "wizard questionario" -c mod-quaeris -n 5
+qmd search "wizard questionario" -c mod-<nome progetto> -n 5
 
 # Ricerca semantica (vector, ~2s)
-qmd vsearch "come creare un questionario" -c mod-quaeris
+qmd vsearch "come creare un questionario" -c mod-<nome progetto>
 
 # Ricerca ibrida + reranking (migliore qualità, ~10s)
 qmd query "architettura moduli Laravel" -n 10
@@ -120,7 +120,7 @@ Ogni modulo ha il suo wiki locale in `laravel/Modules/<Name>/docs/wiki/`:
 | UI | [wiki/index.md](../../laravel/Modules/UI/docs/wiki/index.md) | [ui-module](../../laravel/Modules/UI/docs/wiki/overviews/ui-module.md) |
 | Lang | [wiki/index.md](../../laravel/Modules/Lang/docs/wiki/index.md) | [lang-module](../../laravel/Modules/Lang/docs/wiki/overviews/lang-module.md) |
 | AI | [wiki/index.md](../../laravel/Modules/AI/docs/wiki/index.md) | [ai-module (root)](./modules/ai-module.md) |
-| Quaeris, Geo, User, Media, Tenant, Activity, Notify, Job, Gdpr, Chart, CloudStorage, DbForge, Limesurvey | wiki/ presenti | pending |
+| <nome progetto>, Geo, User, Media, Tenant, Activity, Notify, Job, Gdpr, Chart, CloudStorage, DbForge, Limesurvey | wiki/ presenti | pending |
 
 ## Themes
 

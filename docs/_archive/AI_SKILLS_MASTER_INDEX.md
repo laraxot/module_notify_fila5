@@ -4,7 +4,7 @@
 
 ## 🎯 Panoramica
 
-Questa documentazione elenca tutte le skill AI installate e configurate per il progetto FixCity Fila5. Le skill potenziano gli agenti AI con conoscenze specializzate per UI/UX design, sviluppo, e task specifici.
+Questa documentazione elenca tutte le skill AI installate e configurate per il progetto <nome progetto> Fila5. Le skill potenziano gli agenti AI con conoscenze specializzate per UI/UX design, sviluppo, e task specifici.
 
 ---
 
@@ -265,7 +265,7 @@ Skills activate automatically when the agent detects relevant tasks:
 ### Directory Structure
 
 ```
-/var/www/_bases/base_ptv_fila5/
+/var/www/_bases/<repo progetto>/
 ├── skills/
 │   ├── ui-ux-pro-max/
 │   │   └── SKILL.md
@@ -337,7 +337,7 @@ Context: "Make it beautiful"
 ### Install UI/UX Pro Max
 
 ```bash
-cd /var/www/_bases/base_ptv_fila5
+cd /var/www/_bases/<repo progetto>
 mkdir -p skills/ui-ux-pro-max
 # SKILL.md already exists in skills/ui-ux-pro-max/
 ```
@@ -345,7 +345,7 @@ mkdir -p skills/ui-ux-pro-max
 ### Install Taste Skill
 
 ```bash
-cd /var/www/_bases/base_ptv_fila5
+cd /var/www/_bases/<repo progetto>
 mkdir -p skills/taste
 # SKILL.md already exists in skills/taste/
 ```
@@ -353,7 +353,7 @@ mkdir -p skills/taste
 ### Install Anthropic Skills
 
 ```bash
-cd /var/www/_bases/base_ptv_fila5
+cd /var/www/_bases/<repo progetto>
 mkdir -p skills/anthropic
 # SKILL.md already exists in skills/anthropic/
 ```
@@ -361,7 +361,7 @@ mkdir -p skills/anthropic
 ### Install Vercel Agent Skills (Optional)
 
 ```bash
-cd /var/www/_bases/base_ptv_fila5
+cd /var/www/_bases/<repo progetto>
 npx skills add vercel-labs/agent-skills
 ```
 

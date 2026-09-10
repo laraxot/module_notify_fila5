@@ -1,4 +1,4 @@
-# 🗺️ FIXCITY - MASTER ROADMAP 2025-2026
+# 🗺️ <nome progetto> - MASTER ROADMAP 2025-2026
 
 > **Roadmap strategica completa per il completamento e l'evoluzione della piattaforma**
 
@@ -6,7 +6,7 @@
 
 ## 📊 Executive Summary
 
-**Obiettivo**: Trasformare FixCity da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.
+**Obiettivo**: Trasformare <nome progetto> da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.
 
 **Timeline**: 18 mesi (Ottobre 2025 - Marzo 2027)
 **Budget stimato**: €250k (team di 3 dev full-time)

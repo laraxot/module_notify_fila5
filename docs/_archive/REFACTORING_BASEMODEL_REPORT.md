@@ -13,13 +13,13 @@
 | Modulo | Prima | Dopo | Riduzione | Status |
 |--------|-------|------|-----------|--------|
 | **Tenant** | 77 linee | 48 linee | -38% | ✅ CRITICO RISOLTO |
-| **Fixcity** | 41 linee | 47 linee | +15%* | ✅ PULITO |
+| **<nome progetto>** | 41 linee | 47 linee | +15%* | ✅ PULITO |
 | **Blog** | 46 linee | 46 linee | 0% | ✅ OTTIMIZZATO |
 | **Cms** | 38 linee | 38 linee | 0% | ✅ OTTIMIZZATO |
 | **User** | 38 linee | 35 linee | -8% | ✅ OTTIMIZZATO |
 | **Notify** | 44 linee | 42 linee | -5% | ✅ OTTIMIZZATO |
 
-*Fixcity: Aumento linee dovuto a documentazione migliorata, ma rimozione duplicazioni
+*<nome progetto>: Aumento linee dovuto a documentazione migliorata, ma rimozione duplicazioni
 
 ### Metriche Globali
 
@@ -27,7 +27,7 @@
 |---------|-------|------|---------------|
 | **Moduli Conformi** | 16/18 (89%) | 18/18 (100%) | +11% |
 | **Duplicazioni Critiche** | 1 (Tenant) | 0 | -100% |
-| **Duplicazioni Medie** | 1 (Fixcity) | 0 | -100% |
+| **Duplicazioni Medie** | 1 (<nome progetto>) | 0 | -100% |
 | **Duplicazioni Minori** | 6 (casts) | 0 | -100% |
 | **Conformità Pattern** | 89% | 100% | +11% |
 
@@ -92,7 +92,7 @@ abstract class BaseModel extends XotBaseModel  // ✅ Corretto
 
 ---
 
-### 2. Fixcity Module
+### 2. <nome progetto> Module
 
 #### Prima
 ```php
@@ -167,7 +167,7 @@ protected function casts(): array
 ### 1. Syntax Check (PHP Lint)
 ```bash
 ✅ Tenant/BaseModel.php - No syntax errors
-✅ Fixcity/BaseModel.php - No syntax errors
+✅ <nome progetto>/BaseModel.php - No syntax errors
 ✅ Blog/BaseModel.php - No syntax errors
 ✅ Cms/BaseModel.php - No syntax errors
 ✅ User/BaseModel.php - No syntax errors
@@ -177,7 +177,7 @@ protected function casts(): array
 ### 2. Backup Files
 ```bash
 ✅ Tenant/BaseModel.php.backup - Created
-✅ Fixcity/BaseModel.php.backup - Created
+✅ <nome progetto>/BaseModel.php.backup - Created
 ```
 
 ### 3. Environment
@@ -291,9 +291,9 @@ abstract class BaseModel extends XotBaseModel
 cp laravel/Modules/Tenant/app/Models/BaseModel.php.backup \
    laravel/Modules/Tenant/app/Models/BaseModel.php
 
-# Fixcity
-cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
-   laravel/Modules/Fixcity/app/Models/BaseModel.php
+# <nome progetto>
+cp laravel/Modules/<nome progetto>/app/Models/BaseModel.php.backup \
+   laravel/Modules/<nome progetto>/app/Models/BaseModel.php
 ```
 
 **Nota**: Blog, Cms, User, Notify non hanno backup perché modifiche minori (solo pulizia casts)
@@ -313,7 +313,7 @@ cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
 ### Immediati (Opzionali)
 1. ✅ Test funzionali sui moduli modificati
 2. ✅ Verifica relazioni Eloquent
-3. ✅ Test SoftDeletes su Fixcity
+3. ✅ Test SoftDeletes su <nome progetto>
 
 ### Breve Termine
 1. 📝 Aggiornare documentazione moduli
@@ -331,7 +331,7 @@ cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
 
 ### Obiettivi Raggiunti
 - ✅ **Tenant refactorato** (CRITICO risolto)
-- ✅ **Fixcity pulito** (duplicazioni rimosse)
+- ✅ **<nome progetto> pulito** (duplicazioni rimosse)
 - ✅ **6 moduli ottimizzati** (casts puliti)
 - ✅ **100% conformità** pattern XotBaseModel
 - ✅ **0 errori sintassi** PHP

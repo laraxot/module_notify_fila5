@@ -144,14 +144,14 @@ find . -name "*.md" -exec sed -i 's/[0-9]\+ errori rimanenti/0 errori rimanenti 
 
 #### **Filament Version Updates**
 ```bash
-# Pattern: "Filament 3.x" → "Filament 4.x"
-find . -name "*.md" -exec sed -i 's/Filament 3\.x/Filament 4.x/g' {} \;
+# Pattern: "Filament 3.x" → "Filament 5.x"
+find . -name "*.md" -exec sed -i 's/Filament 3\.x/Filament 5.x/g' {} \;
 ```
 
 #### **Laravel Version Updates**
 ```bash
-# Pattern: "Laravel 11" → "Laravel 12"
-find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 12/g' {} \;
+# Pattern: "Laravel 11" → "Laravel 13"
+find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 13/g' {} \;
 ```
 
 #### **Status Updates**

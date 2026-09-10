@@ -1,4 +1,4 @@
-# 🗺️ FixCity Design System - Product Roadmap
+# 🗺️ <nome progetto> Design System - Product Roadmap
 
 > **Central hub consolidating 355+ scattered planning files into unified vision**  
 > Last Updated: April 3, 2026  
@@ -8,7 +8,7 @@
 
 ## 📊 Roadmap Overview
 
-FixCity is a civic technology platform connecting citizens and municipalities to improve urban services. The project follows a **modular, phased approach** using Laravel + Filament 4.x + Tailwind CSS + Alpine.js.
+<nome progetto> is a civic technology platform connecting citizens and municipalities to improve urban services. The project follows a **modular, phased approach** using Laravel + Filament 5.x + Tailwind CSS + Alpine.js.
 
 **Current State**:
 - ✅ **Phase 10**: COMPLETE - Homepage design replica (100% HTML parity with AGID Design Comuni)
@@ -18,7 +18,7 @@ FixCity is a civic technology platform connecting citizens and municipalities to
 **Key Metrics**:
 - 📦 18 modular Laravel components
 - ✅ PHPStan Level 9 compliance (0 errors)
-- ✅ Filament 4.x fully compatible
+- ✅ Filament 5.x fully compatible
 - 📊 60%+ documentation completed
 
 ---
@@ -54,7 +54,7 @@ Level 1: Foundation Modules
 └── Notify (notifications)
 
 Level 2: Business Modules
-├── Fixcity (core ticketing) ⭐
+├── <nome progetto> (core ticketing) ⭐
 ├── Comment (discussions)
 ├── Rating (feedback)
 ├── Activity (audit trail)
@@ -107,7 +107,7 @@ Level 3: Themes
 - ✅ OpenAPI documentation
 
 **Technical Stack Verified**:
-- ✅ Laravel 12 + Folio routing
+- ✅ Laravel 13 + Folio routing
 - ✅ Livewire 3.x for dynamic components
 - ✅ Tailwind CSS v4 with @apply directives
 - ✅ Alpine.js for interactive elements
@@ -170,7 +170,7 @@ Level 3: Themes
 
 **Deliverables**:
 - ✅ `/laravel/Themes/Sixteen/resources/views/components/blocks/` (header, footer, content blocks)
-- ✅ `/laravel/config/local/fixcity/database/content/pages/tests.homepage.json`
+- ✅ `/laravel/config/local/<nome progetto>/database/content/pages/tests.homepage.json`
 - ✅ Screenshot comparison analysis: `Themes/Sixteen/docs/homepage-visual-parity.md`
 - ✅ Header/Footer architecture documentation
 
@@ -315,7 +315,7 @@ Each of the 18 modules has its own documentation:
 - **[Notify Module](../laravel/Modules/Notify/docs/)** - Notifications
 
 ### Business Modules
-- **[FixCity Module](../laravel/Modules/Fixcity/docs/)** - Core ticketing system ⭐
+- **[<nome progetto> Module](../laravel/Modules/<nome progetto>/docs/)** - Core ticketing system ⭐
 - **[Comment Module](../laravel/Modules/Comment/docs/)** - Discussion threads
 - **[Rating Module](../laravel/Modules/Rating/docs/)** - User feedback
 - **[Activity Module](../laravel/Modules/Activity/docs/product-roadmap.md)** - Audit trail

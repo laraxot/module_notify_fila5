@@ -51,7 +51,7 @@ notebooklm auth check --test
 notebooklm list
 
 # Create a notebook
-notebooklm create "FixCity Research"
+notebooklm create "<nome progetto> Research"
 
 # Add sources
 notebooklm use <notebook_id>
@@ -72,17 +72,17 @@ Once authenticated, you can ask Claude Code to:
 
 ```
 "NotebookLM: Create a podcast about Laravel Actions patterns"
-"NotebookLM: What's in my FixCity Research notebook?"
+"NotebookLM: What's in my <nome progetto> Research notebook?"
 "NotebookLM: Generate a quiz about Filament Forms"
 ```
 
-## FixCity-Specific Notebooks
+## <nome progetto>-Specific Notebooks
 
 Recommended notebooks to create:
 
-1. **FixCity Architecture** - agents.md, docs/architecture/*
-2. **FixCity Modules** - laravel/Modules/*/docs/README.md
-3. **FixCity API** - API documentation, Swagger specs
+1. **<nome progetto> Architecture** - agents.md, docs/architecture/*
+2. **<nome progetto> Modules** - laravel/Modules/*/docs/README.md
+3. **<nome progetto> API** - API documentation, Swagger specs
 
 ## Configuration
 

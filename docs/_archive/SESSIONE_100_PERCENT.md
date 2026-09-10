@@ -220,7 +220,7 @@
 
 **URL Reference**:
 - Bootstrap Italia: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
-- FixCity: http://ptv.local/it/tests/homepage
+- <nome progetto>: http://ptv.local/it/tests/homepage
 
 ---
 

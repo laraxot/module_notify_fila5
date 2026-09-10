@@ -1,4 +1,4 @@
-# 🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025
+# 🗺️ <nome progetto> PLATFORM - MASTER ROADMAP 2025
 
 **Data Creazione**: 2025-01-27  
 **Versione**: 2.0.0  
@@ -10,11 +10,11 @@
 
 ## 🎯 EXECUTIVE SUMMARY
 
-**FixCity** è una piattaforma **Civic Tech** per il civic engagement urbano che connette cittadini e amministrazioni per rendere le città più vivibili, efficienti e responsive. Il progetto è basato su un'architettura modulare Laravel con Filament 4.x e segue i principi AGID per l'accessibilità.
+**<nome progetto>** è una piattaforma **Civic Tech** per il civic engagement urbano che connette cittadini e amministrazioni per rendere le città più vivibili, efficienti e responsive. Il progetto è basato su un'architettura modulare Laravel con Filament 5.x e segue i principi AGID per l'accessibilità.
 
 ### 🏆 ACHIEVEMENTS COMPLETATI
 - ✅ **PHPStan Level 9**: 0 errori (da 53 errori iniziali)
-- ✅ **Filament 4.x**: Compatibilità completa
+- ✅ **Filament 5.x**: Compatibilità completa
 - ✅ **Architettura Modulare**: 18 moduli funzionanti
 - ✅ **Documentazione**: 60% completata
 - ✅ **Code Quality**: Eccellente
@@ -25,7 +25,7 @@
 
 ### 📊 Business Logic Core
 ```
-FixCity Platform
+<nome progetto> Platform
 ├── 🎫 TICKET MANAGEMENT (Core Business)
 │   ├── Segnalazioni cittadine
 │   ├── Workflow di risoluzione
@@ -38,7 +38,7 @@ FixCity Platform
 │   ├── Profili cittadini
 │   └── Social login
 │
-├── 🏛️ ADMIN PANEL (Filament 4.x)
+├── 🏛️ ADMIN PANEL (Filament 5.x)
 │   ├── Dashboard analytics
 │   ├── Gestione ticket
 │   ├── Gestione utenti
@@ -65,7 +65,7 @@ Livello 1: MODULI FOUNDATION
 └── Notify (notifications)
 
 Livello 2: MODULI BUSINESS
-├── Fixcity (core ticketing) ⭐
+├── <nome progetto> (core ticketing) ⭐
 ├── Comment (discussions)
 ├── Rating (feedback)
 ├── Activity (audit trail)
@@ -90,7 +90,7 @@ Livello 3: TEMI
 #### ✅ Achievements
 - [x] **Architettura Modulare**: 18 moduli funzionanti
 - [x] **PHPStan Level 9**: 0 errori (da 53 iniziali)
-- [x] **Filament 4.x**: Compatibilità completa
+- [x] **Filament 5.x**: Compatibilità completa
 - [x] **Code Quality**: Eccellente
 - [x] **Documentation**: 60% completata
 - [x] **Testing Setup**: Pest 3.x configurato
@@ -113,7 +113,7 @@ Filament: 3.x → 4.x (100% compatible)
 #### 🎯 Obiettivi Chiave
 - [x] **Ticket Workflow**: Sistema completo di gestione ticket
 - [x] **User Management**: Autenticazione e autorizzazione
-- [x] **Admin Panel**: Filament 4.x completamente funzionale
+- [x] **Admin Panel**: Filament 5.x completamente funzionale
 - [ ] **API RESTful**: API pubbliche per cittadini
 - [ ] **Mobile Responsive**: Interfaccia mobile ottimizzata
 - [ ] **Notifications**: Sistema notifiche avanzato
@@ -271,7 +271,7 @@ Filament: 3.x → 4.x (100% compatible)
 
 ## 📊 MODULE-SPECIFIC ROADMAPS
 
-### 🎫 Fixcity Module (Core Business)
+### 🎫 <nome progetto> Module (Core Business)
 **Status**: 80% COMPLETATO  
 **Priority**: CRITICAL
 
@@ -280,7 +280,7 @@ Filament: 3.x → 4.x (100% compatible)
 - [x] Workflow service
 - [x] Filament resources
 - [x] PHPStan Level 9 compliance
-- [x] Filament 4.x compatibility
+- [x] Filament 5.x compatibility
 
 #### 🚧 In Progress
 - [ ] **API Endpoints** (Priority: HIGH)
@@ -311,7 +311,7 @@ Filament: 3.x → 4.x (100% compatible)
 - [x] Role-based authorization
 - [x] Profile management
 - [x] PHPStan Level 9 compliance
-- [x] Filament 4.x compatibility
+- [x] Filament 5.x compatibility
 
 #### 🚧 In Progress
 - [ ] **Social Login** (Priority: MEDIUM)
@@ -382,7 +382,7 @@ Filament: 3.x → 4.x (100% compatible)
 #### ✅ Completed
 - [x] Basic theme structure
 - [x] AGID compliance base
-- [x] Filament 4.x integration
+- [x] Filament 5.x integration
 - [x] Component library foundation
 
 #### 🚧 In Progress
@@ -468,7 +468,7 @@ Filament: 3.x → 4.x (100% compatible)
 
 ### 📊 Technical KPIs
 - [x] **PHPStan Level 9**: 0 errori ✅
-- [x] **Filament 4.x**: Compatibilità completa ✅
+- [x] **Filament 5.x**: Compatibilità completa ✅
 - [ ] **Code Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms (p95)
 - [ ] **Uptime**: > 99.9%

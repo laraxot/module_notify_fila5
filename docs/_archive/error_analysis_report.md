@@ -1,15 +1,15 @@
-# 🐛 ERROR ANALYSIS REPORT - FIXCITY
+# 🐛 ERROR ANALYSIS REPORT - <nome progetto>
 
 **Data**: 2025-10-02 20:50  
 **Errore Critico**: Type mismatch in Resource classes  
-**Causa**: Violazione regole XotBase + Filament 4  
+**Causa**: Violazione regole XotBase + Filament 5  
 
 ---
 
 ## 🔴 ERRORE PRINCIPALE
 
 ```
-Type of Modules\Fixcity\Filament\Resources\FaqCategoryResource::$navigationGroup 
+Type of Modules\<nome progetto>\Filament\Resources\FaqCategoryResource::$navigationGroup 
 must be UnitEnum|string|null (as in class Filament\Resources\Resource)
 ```
 
@@ -28,7 +28,7 @@ Il file `FaqCategoryResource.php` usa metodi Filament 3 invece di XotBase patter
 
 ## 📋 FILES CON ERRORI SIMILI
 
-### Fixcity Module (2 files)
+### <nome progetto> Module (2 files)
 1. ❌ `FaqCategoryResource.php` - Usa `form()` e `table()`
 2. ❌ `FaqResource.php` - Usa `form()` e `table()`
 

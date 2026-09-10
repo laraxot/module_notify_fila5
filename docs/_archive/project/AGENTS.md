@@ -128,7 +128,7 @@ The script `bashscripts/git/subtrees/sync_remote_repo.sh` MUST work in **TWO mod
 
 **1. CLI Mode (Local Development)**:
 ```bash
-cd /var/www/_bases/base_ptvx_fila5
+cd /var/www/_bases/<repo progetto>
 bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 ```
 
@@ -757,7 +757,7 @@ php artisan test --coverage
 
 ### Migration Steps
 1. **Study Documentation**: Review all docs/ folders
-2. **Backup Current State**: Create branch `filament-4-backup`
+2. **Backup Current State**: Create branch `Filament-5-backup`
 3. **Run Upgrade Script**: Use `filament/upgrade` package
 4. **Update Dependencies**: Follow script-generated commands
 5. **Test Thoroughly**: Run all tests and quality checks

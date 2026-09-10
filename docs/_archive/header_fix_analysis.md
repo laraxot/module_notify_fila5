@@ -1,4 +1,4 @@
-# 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
+# 📸 Header <nome progetto> vs Bootstrap Italia - Analisi e Fix
 
 ## Data: 2026-03-31
 ## Problema: Header non conforme al reference
@@ -9,15 +9,15 @@
 
 ### 1. Logo non visibile ❌
 **Reference**: Logo PA visibile (80x80px)  
-**FixCity**: Logo mancante o non visibile
+**<nome progetto>**: Logo mancante o non visibile
 
 ### 2. Nome del Comune non leggibile ❌
 **Reference**: "NOME DEL COMUNE" - text-2xl/3xl font-bold  
-**FixCity**: Testo troppo piccolo o colore errato
+**<nome progetto>**: Testo troppo piccolo o colore errato
 
 ### 3. Slogan non leggibile ❌
 **Reference**: "Un comune da vivere" - text-base text-gray-600  
-**FixCity**: Slogan mancante o illeggibile
+**<nome progetto>**: Slogan mancante o illeggibile
 
 ### 4. Colori diversi ❌
 **Reference**: 
@@ -25,7 +25,7 @@
 - Text: `#FFFFFF` (White)
 - Hover: `#0066CC` on gray
 
-**FixCity**: Colori CSS variables non corretti
+**<nome progetto>**: Colori CSS variables non corretti
 
 ### 5. Spaziature diverse ❌
 **Reference**:
@@ -33,7 +33,7 @@
 - Main header: `py-6` (24px)
 - Nav: `py-3` (12px)
 
-**FixCity**: Spaziature non conformi
+**<nome progetto>**: Spaziature non conformi
 
 ---
 
@@ -100,7 +100,7 @@
 
 ## 📊 Conformità Raggiunta
 
-| Elemento | Reference | FixCity | Status |
+| Elemento | Reference | <nome progetto> | Status |
 |----------|-----------|---------|--------|
 | Top bar color | `#0066CC` | `#0066CC` | ✅ |
 | Logo visible | 80x80px | 80x80px | ✅ |

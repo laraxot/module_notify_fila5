@@ -4,15 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Fixtures;
 
-use Filament\Actions\Action;
 use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\PreviewMailTemplate;
 
 final class PreviewMailTemplateTestProxy extends PreviewMailTemplate
 {
-    /** @return array<int, Action> */
+    /** @return array<int, mixed> */
     public function exposedHeaderActions(): array
     {
-        /** @var array<int, Action> $actions */
+        /** @var array<int, mixed> $actions */
         $actions = $this->getHeaderActions();
 
         return $actions;

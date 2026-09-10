@@ -72,7 +72,7 @@
 | **User** | [Modules/User/docs/](../laravel/Modules/User/docs/) | ⚠️ Needs cleanup |
 | **Geo** | [Modules/Geo/docs/](../laravel/Modules/Geo/docs/) | ✅ Good |
 | **AI** | [Modules/AI/docs/](../laravel/Modules/AI/docs/) | ✅ Good |
-| **Fixcity** | [Modules/Fixcity/docs/](../laravel/Modules/Fixcity/docs/) | ✅ Good |
+| **<nome progetto>** | [Modules/<nome progetto>/docs/](../laravel/Modules/<nome progetto>/docs/) | ✅ Good |
 
 ---
 

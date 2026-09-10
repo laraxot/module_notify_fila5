@@ -17,20 +17,14 @@ use Illuminate\Testing\PendingCommand;
 use Modules\Notify\Actions\EsendexSendAction;
 use Modules\Notify\Actions\Mail\Engines\Duocircle\TryDuocircleMailAction;
 use Modules\Notify\Actions\NetfunSendAction;
-use Modules\Notify\Actions\Push\SchedulePushNotificationAction;
-use Modules\Notify\Actions\Push\SendPushToAllUsersAction;
-use Modules\Notify\Actions\Push\SendPushToDeviceAction;
 use Modules\Notify\Actions\Push\SendPushToDevicesAction;
 use Modules\Notify\Actions\Push\SendPushToPlatformAction;
 use Modules\Notify\Actions\Push\SendPushToTopicAction;
-use Modules\Notify\Actions\Push\SendPushWithTargetingAction;
-use Modules\Notify\Actions\Push\SendPushWithTemplateAction;
 use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Actions\SMS\SendGammuSMSAction;
 use Modules\Notify\Actions\SMS\SendNetfunSMSAction;
 use Modules\Notify\Actions\SMS\SendNexmoSMSAction;
 use Modules\Notify\Actions\SMS\SendPlivoSMSAction;
-use Modules\Notify\Actions\SMS\SendSmsAction;
 use Modules\Notify\Actions\SMS\SendTwilioSMSAction;
 use Modules\Notify\Actions\Telegram\SendBotmanTelegramAction;
 use Modules\Notify\Actions\Telegram\SendNutgramTelegramAction;
@@ -40,7 +34,6 @@ use Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
-use Modules\Notify\Datas\PushCriteriaData;
 use Modules\Notify\Datas\PushNotificationData;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Datas\TelegramData;
@@ -67,6 +60,8 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Notifications\GenericNotification;
+use Modules\Notify\Services\PushNotificationService;
+use Modules\Notify\Services\SmsService;
 use Modules\Notify\Tests\Unit\Traits\NotifyTrackingDummy;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
@@ -179,26 +174,26 @@ describe('Notify highest-miss coverage', function (): void {
 
     test('resources expose model pages and legacy form schema', function (): void {
         Assert::assertSame(NotificationTemplate::class, NotificationTemplateResource::getModel());
-        Assert::assertArrayHasKey('name', NotificationTemplateResource::getFormSchema());
+        Assert::assertArrayHasKey('name', app(NotificationTemplateResource::class)->getFormSchema());
         Assert::assertNotEmpty(NotificationTemplateResource::getPages());
 
         Assert::assertSame(NotifyTheme::class, NotifyThemeResource::getModel());
-        Assert::assertArrayHasKey('subject', NotifyThemeResource::getFormSchema());
+        Assert::assertArrayHasKey('subject', app(NotifyThemeResource::class)->getFormSchema());
         Assert::assertNotEmpty(NotifyThemeResource::getPages());
 
         Assert::assertSame(MailTemplate::class, MailTemplateResource::getModel());
-        Assert::assertNotEmpty(MailTemplateResource::getFormSchema());
+        Assert::assertNotEmpty(app(MailTemplateResource::class)->getFormSchema());
         Assert::assertNotEmpty(MailTemplateResource::getPages());
 
         Assert::assertSame(\Modules\Notify\Models\Notification::class, NotificationResource::getModel());
-        Assert::assertNotEmpty(NotificationResource::getFormSchema());
+        Assert::assertNotEmpty(app(NotificationResource::class)->getFormSchema());
 
         Assert::assertSame(Contact::class, ContactResource::getModel());
-        Assert::assertNotEmpty(ContactResource::getFormSchema());
+        Assert::assertNotEmpty(app(ContactResource::class)->getFormSchema());
         Assert::assertNotEmpty(ContactResource::getPages());
     });
 
-    test('Push actions send fakes schedules and guards empty targets', function (): void {
+    test('PushNotificationService sends fakes schedules and guards empty targets', function (): void {
         config([
             'notify.fcm.server_key' => 'test-key',
             'notify.apns.certificate' => null,
@@ -212,34 +207,33 @@ describe('Notify highest-miss coverage', function (): void {
         Queue::fake();
         config(['cache.default' => 'array']);
 
-        // Ex `PushNotificationService` (rimosso, vedi notify-services-to-actions.story.md):
-        // ogni ex-metodo pubblico e' ora una Action dedicata in Actions/Push/.
-        $notification = PushNotificationData::from(['title' => 'Ciao', 'body' => 'Test']);
+        $service = new PushNotificationService;
+        $notification = ['title' => 'Ciao', 'body' => 'Test'];
         $fcmToken = str_repeat('a', 80).':'.str_repeat('b', 40);
         $apnsToken = str_repeat('ab', 32);
 
-        $one = app(SendPushToDeviceAction::class)->execute($fcmToken, $notification, ['k' => 'v']);
+        $one = $service->sendToDevice($fcmToken, $notification, ['k' => 'v']);
         Assert::assertArrayHasKey('fcm', $one);
         Assert::assertTrue($one['fcm']['success']);
         Assert::assertTrue($one['apns']['success']);
         Assert::assertTrue($one['webpush']['success']);
 
-        $batch = app(SendPushToDevicesAction::class)->execute([$fcmToken, $apnsToken, 'web-token'], $notification);
+        $batch = $service->sendToDevices([$fcmToken, $apnsToken, 'web-token'], $notification);
         Assert::assertArrayHasKey('fcm', $batch);
 
-        $topic = app(SendPushToTopicAction::class)->execute('news', $notification);
+        $topic = $service->sendToTopic('news', $notification);
         Assert::assertArrayHasKey('fcm', $topic);
 
-        $emptyAll = app(SendPushToAllUsersAction::class)->execute($notification);
+        $emptyAll = $service->sendToAll($notification);
         Assert::assertFalse($emptyAll['success']);
 
-        $emptyTarget = app(SendPushWithTargetingAction::class)->execute(PushCriteriaData::from(['platform' => 'unknown']), $notification);
+        $emptyTarget = $service->sendWithTargeting(['platform' => 'unknown'], $notification);
         Assert::assertFalse($emptyTarget['success']);
 
-        expect(fn (): mixed => app(SendPushWithTemplateAction::class)->execute('missing', ['t']))
+        expect(fn (): mixed => $service->sendWithTemplate('missing', ['t']))
             ->toThrow(\Exception::class);
 
-        $jobId = app(SchedulePushNotificationAction::class)->execute(['t1'], $notification, [], new DateTime('+1 hour'));
+        $jobId = $service->scheduleNotification(['t1'], $notification, [], new DateTime('+1 hour'));
         Assert::assertStringStartsWith('push_', $jobId);
     });
 
@@ -333,18 +327,15 @@ describe('Notify highest-miss coverage', function (): void {
         }
     });
 
-    test('SendSmsAction validates missing engine and accepts local vars', function (): void {
-        // Ex `SmsService::make()->setLocalVars()->mergeVars()->send()` (rimosso, vedi
-        // notify-services-to-actions.story.md): un solo execute() sostituisce la catena
-        // fluente, impostando prima le proprieta' e poi tentando (senza successo, per
-        // design invariato) il dispatch verso il motore configurato.
-        $action = new SendSmsAction;
+    test('SmsService validates missing engine and accepts local vars', function (): void {
+        $service = SmsService::make()
+            ->setLocalVars(['to' => '+390000000000', 'body' => 'Test'])
+            ->mergeVars(['foo' => 'bar']);
+        Assert::assertSame('+390000000000', $service->to);
+        Assert::assertSame('bar', $service->vars['foo']);
 
-        expect(fn (): array => $action->execute(['to' => '+390000000000', 'body' => 'Test', 'foo' => 'bar']))
+        expect(fn (): SmsService => $service->send())
             ->toThrow(\RuntimeException::class);
-
-        Assert::assertSame('+390000000000', $action->to);
-        Assert::assertSame('bar', $action->vars['foo']);
     });
 
     test('sms actions normalize recipients before provider call', function (): void {
@@ -380,11 +371,11 @@ describe('Notify highest-miss coverage', function (): void {
     test('notification template and theme forms expose keyed schema', function (): void {
         Assert::assertArrayHasKey(
             'name',
-            NotificationTemplateForm::getFormSchema(),
+            app(NotificationTemplateForm::class)->getFormSchema(),
         );
         Assert::assertArrayHasKey(
             'subject',
-            NotifyThemeForm::getFormSchema(),
+            app(NotifyThemeForm::class)->getFormSchema(),
         );
     });
 
