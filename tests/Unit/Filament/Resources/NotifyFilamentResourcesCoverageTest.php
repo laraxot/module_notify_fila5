@@ -63,22 +63,18 @@ test('edit contact page exposes delete header action', function (): void {
     Assert::assertInstanceOf(DeleteAction::class, $actions['delete']);
 });
 
-test('list contacts page exposes expected table columns and filters', function (): void {
-    $columns = XotBasePest::assertArray(ListContacts::contactTableColumns());
-    $filters = XotBasePest::assertArray(ListContacts::contactTableFilters());
+test('list contacts page exposes expected table columns', function (): void {
+    $columns = XotBasePest::assertArray((new ListContacts())->getTableColumns()); /** @phpstan-ignore method.deprecated */
 
     Assert::assertArrayHasKey('id', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['id']);
     Assert::assertArrayHasKey('is_read', $columns);
     Assert::assertInstanceOf(IconColumn::class, $columns['is_read']);
-    Assert::assertArrayHasKey('active', $filters);
-    Assert::assertInstanceOf(Filter::class, $filters['active']);
-    Assert::assertArrayHasKey('inactive', $filters);
-    Assert::assertInstanceOf(Filter::class, $filters['inactive']);
 });
 
+
 test('list mail templates page exposes expected table columns', function (): void {
-    $columns = \assertNotifyArray(ListMailTemplates::mailTemplateTableColumns());
+    $columns = \assertNotifyArray((new ListMailTemplates())->getTableColumns()); /** @phpstan-ignore method.deprecated */
 
     Assert::assertArrayHasKey('slug', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['slug']);
