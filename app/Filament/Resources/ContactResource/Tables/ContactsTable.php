@@ -30,14 +30,16 @@ class ContactsTable extends XotBaseResourceTable
         return [
             'id' => TextColumn::make('id')->sortable(),
             'contact_type' => TextColumn::make('contact_type')->sortable(),
-            'value' => TextColumn::make('value')->searchable(),
+            'value' => TextColumn::make('value')->searchable()->sortable()->copyable()->wrap(),
+            'first_name' => TextColumn::make('first_name')->searchable()->sortable(),
+            'last_name' => TextColumn::make('last_name')->searchable()->sortable(),
             'user_id' => TextColumn::make('user_id')->sortable(),
             'verified_at' => TextColumn::make('verified_at')->dateTime()->sortable(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
             'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()->toggleable(isToggledHiddenByDefault: true)];
     }
 
-     /**
+    /**
      * @return array<string, IconColumn|TextColumn>
      */
     public static function contactTableColumns(): array
@@ -64,8 +66,4 @@ class ContactsTable extends XotBaseResourceTable
                 fn (Builder $query): Builder => $query->where('active', false),
             )];
     }
-
-   
-
-  
 }

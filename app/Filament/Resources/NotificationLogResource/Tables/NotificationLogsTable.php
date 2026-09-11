@@ -16,8 +16,13 @@ class NotificationLogsTable extends XotBaseResourceTable
     public function getTableColumns(): array
     {
         return [
-            'id' => TextColumn::make('id')->sortable(),
-            'name' => TextColumn::make('name')->searchable(),
-            'created_at' => TextColumn::make('created_at')->dateTime()->sortable()];
+            'channel' => TextColumn::make('channel')->searchable()->sortable()->badge(),
+            'status' => TextColumn::make('status')->searchable()->sortable()->badge(),
+            'notifiable_type' => TextColumn::make('notifiable_type')->searchable()->sortable()->toggleable(isToggledHiddenByDefault: true),
+            'notifiable_id' => TextColumn::make('notifiable_id')->searchable()->sortable(),
+            'status_message' => TextColumn::make('status_message')->wrap()->limit(100),
+            'sent_at' => TextColumn::make('sent_at')->dateTime()->sortable(),
+            'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
+        ];
     }
 }
