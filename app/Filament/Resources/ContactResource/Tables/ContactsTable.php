@@ -35,7 +35,7 @@ class ContactsTable extends XotBaseResourceTable
     {
         return [
             'id' => TextColumn::make('id')->sortable(),
-            'contact_type' => TextColumn::make('contact_type')->sortable(),
+            'contact_type' => TextColumn::make('contact_type')->searchable()->sortable(),
             'value' => TextColumn::make('value')->searchable()->sortable()->copyable()->wrap(),
             'first_name' => TextColumn::make('first_name')->searchable()->sortable(),
             'last_name' => TextColumn::make('last_name')->searchable()->sortable(),

@@ -25,7 +25,7 @@ class MailTemplatesTable extends XotBaseResourceTable
             'id' => TextColumn::make('id')->sortable(),
             'name' => TextColumn::make('name')->searchable()->sortable(),
             'mailable' => TextColumn::make('mailable')->searchable()->sortable(),
-            'slug' => TextColumn::make('slug')->searchable()->sortable()->copyable()->searchable(),
+            'slug' => TextColumn::make('slug')->searchable()->sortable()->copyable(),
             'counter' => TextColumn::make('counter')->numeric()->sortable(),
             'version' => TextColumn::make('version')->sortable(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
