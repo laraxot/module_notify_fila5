@@ -43,7 +43,7 @@ class NotificationsTable extends XotBaseResourceTable
     public function getTableColumns(): array
     {
         return [
-            'type' => TextColumn::make('type')->searchable()->sortable()->wrap(),
+            'type' => TextColumn::make('type')->searchable()->sortable()->badge()->wrap(),
             'notifiable_type' => TextColumn::make('notifiable_type')->searchable()->sortable()->toggleable(isToggledHiddenByDefault: true),
             'notifiable_id' => TextColumn::make('notifiable_id')->searchable()->sortable(),
             'read_at' => TextColumn::make('read_at')->dateTime()->sortable(),
