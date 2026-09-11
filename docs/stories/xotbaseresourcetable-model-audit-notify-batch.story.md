@@ -213,7 +213,96 @@ per Filament 5) o rimuovere il ramo.
 - `app/Filament/Resources/NotifyThemeResource/Tables/NotifyThemesTable.php` (`$model` gia' presente +
   `subject` sortable + `theme` searchable + `from_email` sortable)
 
-## Perche' niente `github_issue`/`epic`/`story_id`
+### File List — addendum 2026-09-11 (completamento NotificationLogResource)
+
+- `app/Filament/Resources/NotificationLogResource.php` (nuovo)
+- `app/Filament/Resources/NotificationLogResource/Pages/ListNotificationLogs.php` (nuovo, da `.test` orfano)
+- `app/Filament/Resources/NotificationLogResource/Pages/CreateNotificationLog.php` (nuovo, da `.test` orfano)
+- `app/Filament/Resources/NotificationLogResource/Pages/EditNotificationLog.php` (nuovo, da `.php.test` orfano)
+- `app/Filament/Resources/NotificationLogResource/Pages/ViewNotificationLog.php` (nuovo, da `.php.test` orfano)
+- `app/Filament/Resources/NotificationLogResource/Schemas/NotificationLogForm.php` (campi reali, prima placeholder `name`)
+- `app/Filament/Resources/NotificationLogResource/Schemas/NotificationLogInfolist.php` (campi reali, prima placeholder `name`)
+- `lang/it/notification_logs.php`, `notification_log_form.php`, `notification_log_infolist.php` (testo IT reale, prima placeholder autogenerati)
+- `tests/Unit/Filament/Resources/NotifyFilamentResourcesCoverageTest.php` (+4 test)
+- `docs/coverage.md` (addendum con misura isolata)
+- Cancellati con `git rm`: `app/Filament/Resources/NotificationLogResource.test`,
+  `notificationlogresource.test`, e le 8 varianti `.test`/`.php.test` in
+  `NotificationLogResource/Pages/` (elenco completo nell'addendum sopra).
+
+## Addendum 2026-09-11 — NotificationLogResource completato (non rimosso)
+
+Fase BMAD: sviluppo (completamento di scaffold orfano), a valle della segnalazione lasciata
+sopra ("Segnalazione aggiuntiva"). Task assegnato separatamente: decidere se
+`NotificationLogResource` (i `.test` orfani) va completato o rimosso, verificando se il
+model `NotificationLog` e' davvero usato al di fuori del pannello Filament mancante.
+
+**Decisione: completato, non rimosso.** Evidenza raccolta prima di agire:
+
+- `Modules\Notify\Models\NotificationLog` e' usato in produzione, non solo nello scaffold
+  orfano: `Http/Controllers/NotificationTrackingController.php` (tracking pixel apertura +
+  redirect click, endpoint HTTP reali), `Console/Commands/CleanupNotificationLogsCommand.php`
+  (comando schedulabile reale), `Traits/HasTenantNotifications.php` (relazione
+  `morphMany` usata da model tenant-aware).
+- I file di traduzione IT gia' esistevano, **non creati da questo turno**:
+  `lang/it/notification_logs.php`, `notification_log_form.php`, `notification_log_infolist.php`
+  (placeholder autogenerati, valori self-referenziali tipo `'label' => 'channel'`) e
+  `notification_log_status_enum.php` (gia' completo, professionale, non placeholder — label
+  colore icona descrizione per ogni stato). Le chiavi dei placeholder combaciano esattamente
+  con `GetTransKeyAction` applicato a `NotificationLogsTable`/`NotificationLogForm`/
+  `NotificationLogInfolist` (verificato leggendo l'action, non assunto): prova indipendente che
+  qualcuno aveva gia' iniziato a costruire questa Resource sul serio, non uno scaffold usa e
+  getta.
+- `Tables/NotificationLogsTable.php` (gia' corretto dal batch precedente in questa stessa
+  story) usa le colonne reali della tabella `notification_logs`: nessuna invenzione necessaria
+  li'.
+
+Completato secondo la convenzione gia' in uso nel modulo (sorella diretta:
+`NotificationTemplateResource`, stesso pattern Resource minimale + `Schemas/{Model}Form` +
+`Schemas/{Model}Infolist` + 4 Pages): `NotificationLogResource.php`, 4 Pages
+(`List`/`Create`/`Edit`/`ViewNotificationLog.php`), `Schemas/NotificationLogForm.php` e
+`Schemas/NotificationLogInfolist.php` riscritti con i campi reali dello schema (prima erano
+placeholder col solo campo `name`, che su `NotificationLog` non esiste), lang IT riscritte con
+testo reale. Enum gia' esistenti riusati senza reinventarli: `ChannelEnum` (mail/sms/whatsapp)
+per il campo `channel`, `NotificationLogStatusEnum` per `status` — entrambi passati a
+`->options(Enum::class)` come impone
+`Modules/Xot/tests/Unit/Filament/EnumOptionsArePassedAsClassTest.php` (mai ricostruiti a
+mano). I `.test`/`.php.test` orfani cancellati con `git rm` (non semplice `rm`), erano
+duplicati byte-per-byte fra la variante corretta e quella minuscola (verificato con `diff`
+prima di cancellare) tranne `NotificationLogResource.test`/`notificationlogresource.test` che
+avevano meta' del contenuto ciascuno (uno col solo `form()`, l'altro col solo `infolist()`
+della vecchia API Filament pre-migrazione Schemas) — nessuno dei due riusabile cosi' com'era,
+riscritti da zero seguendo il pattern Schemas gia' in uso nel modulo.
+
+Non toccato: `lang/it/notification_log_status.php` (altro placeholder, chiavi
+pending/sent/delivered/... non nel formato `fields.<colonna>`) — non referenziato da nessun
+codice che ho scritto (uso `NotificationLogStatusEnum::class` via `EnumOptionsArePassedAsClass`,
+che legge da `notification_log_status_enum.php`, gia' corretto); lasciato per chi deciderà se è
+dead code scaffold o va rimosso in un turno successivo, fuori scope qui.
+
+**Verifica**: `vendor/bin/phpstan analyse Modules/Notify --no-progress` → `[OK] No errors]`
+(confermato con `--error-format=json`, `file_errors: 0`, 8 file analizzati per la sola
+Resource). PHPMD sui file nuovi (ruleset del modulo, `StaticAccess` escluso come da
+convenzione preesistente): 0 violazioni. 4 test Pest nuovi aggiunti in
+`tests/Unit/Filament/Resources/NotifyFilamentResourcesCoverageTest.php` (pagine risolte,
+form/infolist/table espongono i campi attesi), **4/4 passano isolati**. La suite completa del
+modulo ha 400 test falliti **preesistenti** (bootstrap rotto: `Container::basePath()`,
+`BindingResolutionException` su `config`/`translator`, facade root non settato) — verificato
+spostando temporaneamente i file nuovi fuori dal modulo e rilanciando: stesso identico numero
+di falliti prima e dopo, quindi non causati da questo turno. Dettagli in `docs/coverage.md`.
+
+Non creata una story separata: questo e' il completamento diretto del punto lasciato aperto
+dalla "Segnalazione aggiuntiva" sopra, nello stesso batch/story.
+
+## GitHub — addendum 2026-09-11
+
+Issue collegato: `laraxot/module_notify_fila5#67` (aperto lo stesso giorno per l'audit del
+batch Notify). Commentato con il riassunto della decisione "completato, non rimosso" e link a
+questo addendum. `gh issue view`/`gh issue comment` falliscono con un errore GraphQL non
+correlato (`Projects (classic) is being deprecated ... repository.issue.projectCards`, bug
+noto lato API GitHub su repo con project board legacy); bypassato con `gh api
+repos/laraxot/module_notify_fila5/issues/67/comments -f body=...` (REST, stesso risultato).
+
+## Perche' niente `github_issue`/`epic`/`story_id` (parte originale del batch)
 
 Batch di audit meccanico trasversale a piu' moduli, assegnato direttamente (non tramite epic/PRD di
 prodotto in `docs/planning-artifacts/epics.md`, che copre solo Epic 1-3 Quaeris). Coerente con la stessa
