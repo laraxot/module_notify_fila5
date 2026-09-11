@@ -4,17 +4,16 @@ declare(strict_types=1);
 
 return [
     'fields' => [
-        'id' => ['label' => 'id'],
-        'name' => ['label' => 'name'],
-        'created_at' => ['label' => 'created_at'],
-        'channel' => ['label' => 'channel'],
-        'status' => ['label' => 'status'],
-        'notifiable_type' => ['label' => 'notifiable_type'],
-        'notifiable_id' => ['label' => 'notifiable_id'],
-        'status_message' => ['label' => 'status_message'],
-        'sent_at' => ['label' => 'sent_at'],
+        'id' => ['label' => 'ID'],
+        'created_at' => ['label' => 'Creato il'],
+        'channel' => ['label' => 'Canale'],
+        'status' => ['label' => 'Stato'],
+        'notifiable_type' => ['label' => 'Tipo destinatario'],
+        'notifiable_id' => ['label' => 'ID destinatario'],
+        'status_message' => ['label' => 'Messaggio di stato'],
+        'sent_at' => ['label' => 'Inviata il'],
     ],
     'actions' => [
-        'create' => ['label' => 'create', 'icon' => 'create', 'tooltip' => 'create'],
+        'create' => ['label' => 'Nuovo log', 'icon' => 'create', 'tooltip' => 'Crea un nuovo log di notifica'],
     ],
 ];
