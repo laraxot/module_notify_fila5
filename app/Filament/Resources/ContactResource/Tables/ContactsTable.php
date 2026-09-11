@@ -9,10 +9,16 @@ use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Models\Contact;
 use Modules\Xot\Filament\Resources\Tables\XotBaseResourceTable;
 
 class ContactsTable extends XotBaseResourceTable
 {
+    /**
+     * @var class-string<Contact>
+     */
+    protected static string $model = Contact::class;
+
     public function getTableFilters(): array
     {
         return [

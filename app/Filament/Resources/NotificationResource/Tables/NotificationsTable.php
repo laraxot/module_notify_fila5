@@ -9,10 +9,16 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
 use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\Tables\XotBaseResourceTable;
 
 class NotificationsTable extends XotBaseResourceTable
 {
+    /**
+     * @var class-string<Notification>
+     */
+    protected static string $model = Notification::class;
+
     public function getTableFilters(): array
     {
         return [

@@ -8,10 +8,16 @@ use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
+use Modules\Notify\Models\NotifyTheme;
 use Modules\Xot\Filament\Resources\Tables\XotBaseResourceTable;
 
 class NotifyThemesTable extends XotBaseResourceTable
 {
+    /**
+     * @var class-string<NotifyTheme>
+     */
+    protected static string $model = NotifyTheme::class;
+
     public function getTableFilters(): array
     {
         return [

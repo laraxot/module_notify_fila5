@@ -6,10 +6,16 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Tables;
 
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
+use Modules\Notify\Models\MailTemplate;
 use Modules\Xot\Filament\Resources\Tables\XotBaseResourceTable;
 
 class MailTemplatesTable extends XotBaseResourceTable
 {
+    /**
+     * @var class-string<MailTemplate>
+     */
+    protected static string $model = MailTemplate::class;
+
     /**
      * @return array<string, Column>
      */

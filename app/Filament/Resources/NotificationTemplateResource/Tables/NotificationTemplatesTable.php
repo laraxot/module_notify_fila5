@@ -7,10 +7,16 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Tables;
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
+use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\Tables\XotBaseResourceTable;
 
 class NotificationTemplatesTable extends XotBaseResourceTable
 {
+    /**
+     * @var class-string<NotificationTemplate>
+     */
+    protected static string $model = NotificationTemplate::class;
+
     /**
      * @return array<string, Column>
      */
