@@ -15,7 +15,6 @@
 
 ---
 
-<<<<<<< .merge_file_lkaMEP
 ## Scopo e confini
 
 Notify è il livello di **trasporto** delle comunicazioni verso l'esterno: 46 Action, tutte
@@ -44,9 +43,7 @@ impossibile: ogni evento di dominio che dichiara "questo va comunicato" passa
 di qui, non attraverso un `Mail::send()` scritto ad hoc dentro un controller.
 
 ## Logica
-=======
 ## Perché esiste
->>>>>>> .merge_file_Bt5am7
 
 Chiude il loop feedback: ogni cambio stato può diventare messaggio tracciabile.
 
@@ -85,7 +82,6 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 ---
 
-<<<<<<< .merge_file_lkaMEP
 **Modulo** `notify` · **Laraxot / FixCity Platform** · licenza MIT
 
 ---
@@ -94,7 +90,5 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 Perche' esiste, come raggiungere meglio il suo scopo e cosa **non** gli appartiene:
 [`docs/purpose.md`](./docs/purpose.md).
-=======
 **Modulo** `notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 **Modulo** `notify` · **Laraxot** · **Notify Platform** · PHPStan 10 · Filament 5
->>>>>>> .merge_file_Bt5am7
