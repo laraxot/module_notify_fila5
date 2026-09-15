@@ -1,0 +1,49 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'fields' => [
+        'recipient' => [
+            'label' => 'recipient',
+            'placeholder' => 'recipient',
+            'helper_text' => '',
+            'description' => 'recipient',
+            'tooltip' => ''],
+        'subject' => [
+            'helper_text' => '',
+            'description' => 'subject',
+            'label' => '',
+            'tooltip' => ''],
+        'body_html' => [
+            'helper_text' => '',
+            'description' => 'body_html',
+            'label' => '',
+            'tooltip' => ''],
+        'template' => [
+            'helper_text' => '',
+            'description' => 'template',
+            'label' => '',
+            'tooltip' => ''],
+        'add_attachments' => [
+            'helper_text' => '',
+            'description' => 'add_attachments',
+            'label' => '',
+            'tooltip' => '']],
+    'actions' => [
+        'sendEmail' => [
+            'label' => 'sendEmail',
+            'icon' => 'sendEmail',
+            'tooltip' => 'sendEmail'],
+        'profile' => [
+            'label' => 'profile',
+            'icon' => 'profile',
+            'tooltip' => 'profile']],
+    'navigation' => [
+        'label' => 'Missing Navigation Label',
+        'plural_label' => 'Missing Navigation Plural Label',
+        'group' => 'Missing Group',
+        'icon' => 'heroicon-o-puzzle-piece',
+        'sort' => 100],
+    'label' => 'Missing Label',
+    'plural_label' => 'Missing Plural label'];
