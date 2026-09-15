@@ -175,3 +175,6 @@ reports
 .vscode/
 reports/
 graphify-out/
+
+# Laraxot — quality tool config forbidden in module root (2026-09-15)
+phpinsights.php
