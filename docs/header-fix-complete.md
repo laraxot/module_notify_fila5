@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "✅ Header <nome progetto> Fixato - 100% Conforme Bootstrap Italia"
-=======
 title: "✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia"
->>>>>>> laraxot/dev
-=======
-title: "✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia"
->>>>>>> laraxot/dev
 type: concept
 tags: [header, fix, complete]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "header-fix-complete ✅ header <nome progetto> fixato - 100% conforme bootstrap italia"
-qmd: "header-fix-complete ✅ header ptv fixato - 100% conforme bootstrap italia"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "header-fix-complete ✅ header fixcity fixato - 100% conforme bootstrap italia"
 qmd: "header-fix-complete ✅ header ptv fixato - 100% conforme bootstrap italia"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# ✅ Header <nome progetto> Fixato - 100% Conforme Bootstrap Italia
-=======
 # ✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia
->>>>>>> laraxot/dev
-=======
-# ✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia
->>>>>>> laraxot/dev
 
 ## Data: 2026-03-31
 ## Status: ✅ Header Completamente Rifatto
@@ -175,15 +146,7 @@ related:
 
 ## 📊 Conformità Raggiunta
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-| Elemento | Reference | <nome progetto> | Status |
-=======
 | Elemento | Reference | FixCity | Status |
->>>>>>> laraxot/dev
-=======
-| Elemento | Reference | FixCity | Status |
->>>>>>> laraxot/dev
 |----------|-----------|---------|--------|
 | **Top Bar** | | | |
 | Background | `#0066CC` | `bg-[#0066CC]` | ✅ |

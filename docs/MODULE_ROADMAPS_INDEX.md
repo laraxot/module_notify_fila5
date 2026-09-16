@@ -24,27 +24,12 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 
 ### Application Modules
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### <nome progetto> (Core Application)
-- **Status**: 75% Complete
-- **Path**: `Modules/<nome progetto>/docs/roadmap/`
-- **Purpose**: Main application logic for <nome progetto> platform
-- **Key Features**: Healthcare, municipality services, citizen reporting
-- **Read More**: [<nome progetto> Roadmap](../laravel/Modules/<nome progetto>/docs/roadmap/README.md)
-=======
-=======
->>>>>>> laraxot/dev
 #### Fixcity (Core Application)
 - **Status**: 75% Complete
 - **Path**: `Modules/Fixcity/docs/roadmap/`
 - **Purpose**: Main application logic for FixCity platform
 - **Key Features**: Healthcare, municipality services, citizen reporting
 - **Read More**: [Fixcity Roadmap](../laravel/Modules/Fixcity/docs/roadmap/README.md)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ### Feature Modules
 
@@ -169,15 +154,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 |--------|--------|----------|
 | Xot | 🔄 In Progress | 75% |
 | User | 🔄 In Progress | 70% |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| <nome progetto> | 🔄 In Progress | 75% |
-=======
 | Fixcity | 🔄 In Progress | 75% |
->>>>>>> laraxot/dev
-=======
-| Fixcity | 🔄 In Progress | 75% |
->>>>>>> laraxot/dev
 | Cms | 🔄 In Progress | 65% |
 | Media | 🔄 In Progress | 70% |
 | Notify | 🔄 In Progress | 60% |
@@ -203,15 +180,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 - User: 70%
 
 #### Application Modules: 75% Average
-<<<<<<< HEAD
-<<<<<<< HEAD
-- <nome progetto>: 75%
-=======
 - Fixcity: 75%
->>>>>>> laraxot/dev
-=======
-- Fixcity: 75%
->>>>>>> laraxot/dev
 
 #### Feature Modules: 69% Average
 - Cms: 65%
@@ -242,15 +211,7 @@ This document provides an index of all module roadmaps in the Laraxot ecosystem.
 
 ### Completed Features
 - ✅ PHPStan Level 10: All modules compliant
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ Laravel 13: Full compatibility
-=======
 - ✅ Laravel 12: Full compatibility
->>>>>>> laraxot/dev
-=======
-- ✅ Laravel 12: Full compatibility
->>>>>>> laraxot/dev
 - ✅ Filament 5: Complete migration
 - ✅ Base Classes: Comprehensive system
 - ✅ Type Safety: 100% typed codebase

@@ -600,61 +600,25 @@ grep -r "interface.*Interface" --include="*.php" /var/www/_bases/<nome repositor
 
 # Cerca interfacce con naming corretto
 grep -r "interface.*Contract" --include="*.php" /var/www/_bases/<nome repository>/laravel/Modules
-<<<<<<< HEAD
-<<<<<<< HEAD
-grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila5/laravel/Modules
-
-# Cerca interfacce con naming corretto
-grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techplanner_fila5/laravel/Modules
-=======
-=======
->>>>>>> laraxot/dev
 grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
 
 # Cerca interfacce con naming corretto
 grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 grep -r "interface.*Interface" --include="*.php" /var/www/html/saluteora/laravel/Modules
 
 # Cerca interfacce con naming corretto
 grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/Modules
-<<<<<<< HEAD
-<<<<<<< HEAD
-grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila5/laravel/Modules
-
-# Cerca interfacce con naming corretto
-grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techplanner_fila5/laravel/Modules
-=======
-=======
->>>>>>> laraxot/dev
 grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
 
 # Cerca interfacce con naming corretto
 grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 ## Riferimenti
 
 - [Laravel Contracts Documentation](https://laravel.com/docs/contracts)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [PTVX Code Quality Guidelines](/var/www/html/_bases/<repo progetto>/laravel/docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/_bases/<repo progetto>/laravel/Modules/Xot/app/Contracts/)
-=======
 - [PTVX Code Quality Guidelines](/var/www/html/_bases/base_ptvx_fila5/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/_bases/base_ptvx_fila5/laravel/Modules/Xot/app/Contracts/)
->>>>>>> laraxot/dev
-=======
-- [PTVX Code Quality Guidelines](/var/www/html/_bases/base_ptvx_fila5/laravel/docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/_bases/base_ptvx_fila5/laravel/Modules/Xot/app/Contracts/)
->>>>>>> laraxot/dev
 - [<nome progetto> Code Quality Guidelines]([project-root]/laravel/docs/code-quality.md)
 - [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
 - [<nome progetto> Code Quality Guidelines]([project-root]/laravel/project_docs/code-quality.md)
@@ -666,21 +630,9 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 - [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
 - [SaluteOra Code Quality Guidelines](/var/www/html/saluteora/laravel/project_docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/saluteora/laravel/Modules/Xot/app/Contracts/)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [SaluteOra Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila5/laravel/docs/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [SaluteOra Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila5/laravel/project_docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Xot/app/Contracts/)
-=======
 - [SaluteOra Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
 - [SaluteOra Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/project_docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Contracts/)
->>>>>>> laraxot/dev
-=======
-- [SaluteOra Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [SaluteOra Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/project_docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Contracts/)
->>>>>>> laraxot/dev
 
 ---
 

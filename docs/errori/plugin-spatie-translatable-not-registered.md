@@ -80,15 +80,7 @@ Il plugin `SpatieTranslatablePlugin` è **commentato** in `Notify\Providers\Fila
 public function panel(Panel $panel): Panel
 {
     // ❌ PLUGIN COMMENTATO
-<<<<<<< HEAD
-<<<<<<< HEAD
-    // Temporaneamente commentato per compatibilità Filament 5.x
-=======
     // Temporaneamente commentato per compatibilità Filament 4.x
->>>>>>> laraxot/dev
-=======
-    // Temporaneamente commentato per compatibilità Filament 4.x
->>>>>>> laraxot/dev
     // $panel->plugins([
     //     SpatieTranslatablePlugin::make(),
     // ]);

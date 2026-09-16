@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Token Optimization — <repo progetto>
-=======
 # Token Optimization — base_ptv_fila5
->>>>>>> laraxot/dev
-=======
-# Token Optimization — base_ptv_fila5
->>>>>>> laraxot/dev
 
 ## 🔴 Documento Aggiornato: [token-efficiency-religion.md](./token-efficiency-religion.md)
 

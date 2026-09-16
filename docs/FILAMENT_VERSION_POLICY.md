@@ -114,15 +114,7 @@ composer update "filament/*" -W
 - ✅ Community help
 
 ### 4. Compatibility
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ Laravel 13 compatible
-=======
 - ✅ Laravel 12 compatible
->>>>>>> laraxot/dev
-=======
-- ✅ Laravel 12 compatible
->>>>>>> laraxot/dev
 - ✅ PHP 8.2+ compatible
 - ✅ Other packages compatible
 

@@ -5,18 +5,8 @@ tags: [2025, excellence, achievement]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "2025-excellence-achievement 🏆 2025 excellence achievement report"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./agid-implementation-guide.md"
   - "./architecture.md"
@@ -30,15 +20,7 @@ related:
 
 # 🏆 2025 Excellence Achievement Report
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Project:** <nome progetto> - Base Fila4 Mono  
-=======
 **Project:** FixCity - Base Fila4 Mono  
->>>>>>> laraxot/dev
-=======
-**Project:** FixCity - Base Fila4 Mono  
->>>>>>> laraxot/dev
 **Project:** Notify - Base Fila4 Mono  
 **Achievement Date:** 2025-10-01  
 **Status:** ✅ **EXCELLENCE ACHIEVED**
@@ -47,21 +29,9 @@ related:
 
 ## 🎉 Executive Summary
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto> has achieved EXCELLENCE status for 2025!**
-
-This comprehensive report documents the transformation of the <nome progetto> codebase into a world-class, production-ready application that sets the standard for quality, maintainability, and professional development practices.
-=======
 **FixCity has achieved EXCELLENCE status for 2025!**
 
 This comprehensive report documents the transformation of the FixCity codebase into a world-class, production-ready application that sets the standard for quality, maintainability, and professional development practices.
->>>>>>> laraxot/dev
-=======
-**FixCity has achieved EXCELLENCE status for 2025!**
-
-This comprehensive report documents the transformation of the FixCity codebase into a world-class, production-ready application that sets the standard for quality, maintainability, and professional development practices.
->>>>>>> laraxot/dev
 **Notify has achieved EXCELLENCE status for 2025!**
 
 This comprehensive report documents the transformation of the Notify codebase into a world-class, production-ready application that sets the standard for quality, maintainability, and professional development practices.
@@ -415,15 +385,7 @@ Potential contributions back to community:
 
 ## 🎯 Conclusion
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto> has achieved EXCELLENCE status for 2025!**
-=======
 **FixCity has achieved EXCELLENCE status for 2025!**
->>>>>>> laraxot/dev
-=======
-**FixCity has achieved EXCELLENCE status for 2025!**
->>>>>>> laraxot/dev
 **Notify has achieved EXCELLENCE status for 2025!**
 
 Through systematic refactoring, comprehensive testing, excellent documentation, and robust DevOps practices, the project now stands as a model of professional software development.
@@ -481,21 +443,9 @@ Thanks to the open-source community for:
 
 ## 📞 Contact
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Project Lead**: lead@<nome progetto>.com  
-**Quality Team**: quality@<nome progetto>.com  
-**Architecture**: architecture@<nome progetto>.com
-=======
 **Project Lead**: lead@fixcity.com  
 **Quality Team**: quality@fixcity.com  
 **Architecture**: architecture@fixcity.com
->>>>>>> laraxot/dev
-=======
-**Project Lead**: lead@fixcity.com  
-**Quality Team**: quality@fixcity.com  
-**Architecture**: architecture@fixcity.com
->>>>>>> laraxot/dev
 **Project Lead**: lead@laraxot.com  
 **Quality Team**: quality@laraxot.com  
 **Architecture**: architecture@laraxot.com
@@ -506,15 +456,7 @@ Thanks to the open-source community for:
 
 **This document certifies that:**
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto> - Base Fila4 Mono**
-=======
 **FixCity - Base Fila4 Mono**
->>>>>>> laraxot/dev
-=======
-**FixCity - Base Fila4 Mono**
->>>>>>> laraxot/dev
 **Notify - Base Fila4 Mono**
 
 Has achieved **EXCELLENCE** status for 2025 by meeting and exceeding all quality, testing, documentation, and DevOps standards.
@@ -535,13 +477,5 @@ Has achieved **EXCELLENCE** status for 2025 by meeting and exceeding all quality
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**#Excellence2025 #CodeQuality #BestPractices #<nome progetto>**
-=======
 **#Excellence2025 #CodeQuality #BestPractices #FixCity**
->>>>>>> laraxot/dev
-=======
-**#Excellence2025 #CodeQuality #BestPractices #FixCity**
->>>>>>> laraxot/dev
 **#Excellence2025 #CodeQuality #BestPractices #Notify**

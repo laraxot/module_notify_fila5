@@ -175,15 +175,7 @@ TIER 4-5 - Specialized
 ```json
 {
   "type": "hero",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "title": "Welcome to <nome progetto>",
-=======
   "title": "Welcome to FixCity",
->>>>>>> laraxot/dev
-=======
-  "title": "Welcome to FixCity",
->>>>>>> laraxot/dev
   "subtitle": "Manage your city, digitally",
   "image": "https://...",
   "cta": {
@@ -237,15 +229,7 @@ Request: GET /it/tests/homepage
    @mount('tests.homepage')
    
 4. Middleware loads JSON:
-<<<<<<< HEAD
-<<<<<<< HEAD
-   config/local/<nome progetto>/database/content/pages/homepage.json
-=======
    config/local/fixcity/database/content/pages/homepage.json
->>>>>>> laraxot/dev
-=======
-   config/local/fixcity/database/content/pages/homepage.json
->>>>>>> laraxot/dev
    config/local/ptv/database/content/pages/homepage.json
 
 5. Data passed to view:
@@ -400,33 +384,15 @@ Integrates with:
 
 **Via .env:**
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-APP_URL=http://<nome progetto>.local
-# Theme detected from APP_URL → <nome progetto> → Sixteen (or override via config)
-=======
 APP_URL=http://fixcity.local
 # Theme detected from APP_URL → fixcity → Sixteen (or override via config)
->>>>>>> laraxot/dev
-=======
-APP_URL=http://fixcity.local
-# Theme detected from APP_URL → fixcity → Sixteen (or override via config)
->>>>>>> laraxot/dev
 APP_URL=http://ptv.local
 # Theme detected from APP_URL → ptv → Sixteen (or override via config)
 ```
 
 **Via Config:**
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-// laravel/config/local/<nome progetto>/xra.php
-=======
 // laravel/config/local/fixcity/xra.php
->>>>>>> laraxot/dev
-=======
-// laravel/config/local/fixcity/xra.php
->>>>>>> laraxot/dev
 // laravel/config/local/ptv/xra.php
 'pub_theme' => 'Sixteen',  // or 'TwentyOne'
 ```

@@ -242,18 +242,8 @@ class TicketDigest extends Notification implements ShouldQueue
 ## 🔗 Collegamenti
 
 - [← Notify Module README](../readme.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [← <nome progetto> Integration](../../<nome progetto>/docs/roadmap-and-issues.md)
-- [← <nome progetto> Integration](../../ptv/docs/roadmap-and-issues.md)
-=======
 - [← Fixcity Integration](../../fixcity/docs/roadmap-and-issues.md)
 - [← Fixcity Integration](../../ptv/docs/roadmap-and-issues.md)
->>>>>>> laraxot/dev
-=======
-- [← Fixcity Integration](../../fixcity/docs/roadmap-and-issues.md)
-- [← Fixcity Integration](../../ptv/docs/roadmap-and-issues.md)
->>>>>>> laraxot/dev
 - [← Root Documentation](../../../../docs/index.md)
 
 ---

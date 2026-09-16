@@ -286,15 +286,7 @@ ralph-loop run \
 ```bash
 # Crea source dalla documentazione
 python scripts/notebooklm/create_source.py \
-<<<<<<< HEAD
-<<<<<<< HEAD
-  --name="<nome progetto> Documentation" \
-=======
   --name="FixCity Documentation" \
->>>>>>> laraxot/dev
-=======
-  --name="FixCity Documentation" \
->>>>>>> laraxot/dev
   --files="docs/**/*.md"
 
 # Fai domande contestuali

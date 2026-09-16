@@ -4,15 +4,7 @@
 **Last Updated**: 2026-03-17  
 **Status**: ✅ Production Ready  
 **Complexity**: Advanced  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Prerequisites**: Laravel 13, Filament 5, Spatie Laravel Data, MySQL 8.0+
-=======
 **Prerequisites**: Laravel 12, Filament 5, Spatie Laravel Data, MySQL 8.0+
->>>>>>> laraxot/dev
-=======
-**Prerequisites**: Laravel 12, Filament 5, Spatie Laravel Data, MySQL 8.0+
->>>>>>> laraxot/dev
 
 ---
 
@@ -36,15 +28,7 @@
 
 ### What Are Custom Question Types?
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Custom question types are specialized data processing actions for <nome progetto> survey analytics that handle complex business logic not covered by standard LimeSurvey queries. They enable:
-=======
 Custom question types are specialized data processing actions for Quaeris survey analytics that handle complex business logic not covered by standard LimeSurvey queries. They enable:
->>>>>>> laraxot/dev
-=======
-Custom question types are specialized data processing actions for Quaeris survey analytics that handle complex business logic not covered by standard LimeSurvey queries. They enable:
->>>>>>> laraxot/dev
 Custom question types are specialized data processing actions for App survey analytics that handle complex business logic not covered by standard LimeSurvey queries. They enable:
 
 - **Response rate calculations** (email, SMS)
@@ -55,15 +39,7 @@ Custom question types are specialized data processing actions for App survey ana
 ### Why Custom Implementation?
 
 Standard LimeSurvey queries cannot handle:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Cross-database operations (contacts in `<nome progetto>_data`, surveys in `limesurvey`)
-=======
 - Cross-database operations (contacts in `quaeris_data`, surveys in `limesurvey`)
->>>>>>> laraxot/dev
-=======
-- Cross-database operations (contacts in `quaeris_data`, surveys in `limesurvey`)
->>>>>>> laraxot/dev
 - Cross-database operations (contacts in `app_data`, surveys in `limesurvey`)
 - Complex business logic (response rate calculations)
 - Custom grouping and aggregation
@@ -154,30 +130,14 @@ WHERE parent_qid != 0
 GROUP BY gid
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
 
 **Lines**: 125
 
 **Complexity**: Medium
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Test URL**: `/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/234`
-=======
 **Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/234`
->>>>>>> laraxot/dev
-=======
-**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/234`
->>>>>>> laraxot/dev
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/234`
 
 ---
@@ -202,30 +162,14 @@ WHERE submitdate IS NOT NULL
 AND sent != 'N'
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/MailResponseRate.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/MailResponseRate.php`
 
 **Lines**: 173
 
 **Complexity**: High
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Test URL**: `/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/192`
-=======
 **Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/192`
->>>>>>> laraxot/dev
-=======
-**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/192`
->>>>>>> laraxot/dev
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/192`
 
 **Footer Output**:
@@ -243,15 +187,7 @@ Totale Invitati: 100 - Rispondenti: 75 - Percentuale di risposta: 75.00%
 
 **Database Operations**:
 ```sql
-<<<<<<< HEAD
-<<<<<<< HEAD
--- Uses Contact model (<nome progetto>_data database)
-=======
 -- Uses Contact model (quaeris_data database)
->>>>>>> laraxot/dev
-=======
--- Uses Contact model (quaeris_data database)
->>>>>>> laraxot/dev
 -- Uses Contact model (app_data database)
 SELECT 
     DATE_FORMAT(sms_sent_at, '%Y-%b') as label,
@@ -266,30 +202,14 @@ GROUP BY
 ORDER BY DATE_FORMAT(sms_sent_at, '%Y-%m')
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
 
 **Lines**: 150 (optimized from 473)
 
 **Complexity**: High
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Test URL**: `/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/191`
-=======
 **Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/191`
->>>>>>> laraxot/dev
-=======
-**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/191`
->>>>>>> laraxot/dev
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/191`
 
 **Key Optimization**: No cross-database joins, uses Contact model directly
@@ -304,30 +224,14 @@ ORDER BY DATE_FORMAT(sms_sent_at, '%Y-%m')
 
 **Implementation**: Combines MailResponseRate + SmsResponseRate
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
 
 **Lines**: 122
 
 **Complexity**: Medium
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Test URL**: `/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/190`
-=======
 **Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/190`
->>>>>>> laraxot/dev
-=======
-**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/190`
->>>>>>> laraxot/dev
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/190`
 
 **Calculation**:
@@ -347,15 +251,7 @@ $responsePercentage = $totalInvited !== 0
 
 **Pattern**: `custom:contacts_completed_2`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
 
 **Lines**: 128
@@ -370,15 +266,7 @@ $responsePercentage = $totalInvited !== 0
 
 **Pattern**: `custom:avg_group_2`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/AvgGroup2.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/AvgGroup2.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/AvgGroup2.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/AvgGroup2.php`
 
 **Lines**: 107
@@ -475,15 +363,7 @@ Argument #1 ($dataClass) must be of type string, null given
 **Stack Trace**:
 ```
 #0 vendor/spatie/laravel-data/src/DataPipes/CastPropertiesDataPipe.php:113
-<<<<<<< HEAD
-<<<<<<< HEAD
-#1 Modules/<nome progetto>/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
-=======
 #1 Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
->>>>>>> laraxot/dev
-=======
-#1 Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
->>>>>>> laraxot/dev
 #1 Modules/App/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
 ```
 
@@ -610,27 +490,12 @@ return new AnswersChartData(answers: $answersArray);
 **Error Message**:
 ```
 SQLSTATE[42S02]: Base table or view not found: 1146
-<<<<<<< HEAD
-<<<<<<< HEAD
-Table '<nome progetto>_survey.contacts' doesn't exist
-```
-
-**Root Cause**: 
-- `contacts` table exists in `<nome progetto>_data` database
-- Query was using `limesurvey` connection (aka `<nome progetto>_survey`)
-=======
-=======
->>>>>>> laraxot/dev
 Table 'quaeris_survey.contacts' doesn't exist
 ```
 
 **Root Cause**: 
 - `contacts` table exists in `quaeris_data` database
 - Query was using `limesurvey` connection (aka `quaeris_survey`)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - Cross-database joins not supported without special config
 
 **Problematic Code**:
@@ -819,15 +684,7 @@ $footer = sprintf(
 
 ```
 ┌─────────────────────┐     ┌─────────────────────┐
-<<<<<<< HEAD
-<<<<<<< HEAD
-│   <nome progetto>_data      │     │     limesurvey      │
-=======
 │   quaeris_data      │     │     limesurvey      │
->>>>>>> laraxot/dev
-=======
-│   quaeris_data      │     │     limesurvey      │
->>>>>>> laraxot/dev
 │   app_data      │     │     limesurvey      │
 │   (MySQL)           │     │     (MySQL)         │
 ├─────────────────────┤     ├─────────────────────┤
@@ -858,15 +715,7 @@ $footer = sprintf(
     
     'limesurvey' => [
         'driver' => 'mysql',
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'database' => '<nome progetto>_survey', // aka limesurvey
-=======
         'database' => 'quaeris_survey', // aka limesurvey
->>>>>>> laraxot/dev
-=======
-        'database' => 'quaeris_survey', // aka limesurvey
->>>>>>> laraxot/dev
         'database' => 'app_survey', // aka limesurvey
         'host' => '127.0.0.1',
         // ...
@@ -1054,18 +903,8 @@ it('calculates mail response rate correctly', function (): void {
 - `.kilo/memories/session-2026-03-17-custom-charts.md`
 
 ### GitHub
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Issue #97: https://github.com/laraxot/<repo progetto>/issues/97
-- Issue #97: https://github.com/laraxot/<repo progetto>/issues/97
-=======
 - Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
 - Issue #97: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97
->>>>>>> laraxot/dev
-=======
-- Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
-- Issue #97: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97
->>>>>>> laraxot/dev
 
 ### External Resources
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)

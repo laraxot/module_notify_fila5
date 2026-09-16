@@ -46,15 +46,7 @@
 | Gdpr | 74 | ✅ |
 | Job | 64 | ✅ |
 | Tenant | 45 | ✅ |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| <nome progetto> | 37 | ✅ |
-=======
 | Fixcity | 37 | ✅ |
->>>>>>> laraxot/dev
-=======
-| Fixcity | 37 | ✅ |
->>>>>>> laraxot/dev
 | AI | 34 | ✅ |
 | Blog | 30 | ✅ |
 | Seo | 21 | ✅ |
@@ -102,15 +94,7 @@
 ✅ Modules/Blog/docs/dry-kiss-analysis.md
 ✅ Modules/Cms/docs/dry-kiss-analysis.md
 ✅ Modules/Comment/docs/dry-kiss-analysis.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-✅ Modules/<nome progetto>/docs/dry-kiss-analysis.md
-=======
 ✅ Modules/Fixcity/docs/dry-kiss-analysis.md
->>>>>>> laraxot/dev
-=======
-✅ Modules/Fixcity/docs/dry-kiss-analysis.md
->>>>>>> laraxot/dev
 ✅ Modules/Gdpr/docs/dry-kiss-analysis.md
 ✅ Modules/Geo/docs/dry-kiss-analysis.md
 ✅ Modules/Job/docs/dry-kiss-analysis.md

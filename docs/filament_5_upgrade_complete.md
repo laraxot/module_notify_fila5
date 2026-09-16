@@ -94,18 +94,8 @@ composer show livewire/livewire
 ### 1. Clear Cache
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>/laravel
-cd /var/www/_bases/<repo progetto>/laravel
-=======
 cd /var/www/_bases/base_fixcity_fila5/laravel
 cd /var/www/_bases/base_ptv_fila5/laravel
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5/laravel
-cd /var/www/_bases/base_ptv_fila5/laravel
->>>>>>> laraxot/dev
 php artisan config:clear
 php artisan cache:clear
 php artisan view:clear
@@ -116,23 +106,10 @@ php artisan route:clear
 
 ```bash
 # Test homepage
-<<<<<<< HEAD
-<<<<<<< HEAD
-http://<nome progetto>.local/it/tests/homepage
-
-# Test Filament admin
-http://<nome progetto>.local/admin
-=======
-=======
->>>>>>> laraxot/dev
 http://fixcity.local/it/tests/homepage
 
 # Test Filament admin
 http://fixcity.local/admin
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 ### 3. Check for Breaking Changes

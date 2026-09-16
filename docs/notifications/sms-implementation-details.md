@@ -281,15 +281,7 @@ return [
         'username' => env('SMSHOSTING_USERNAME'),
         'password' => env('SMSHOSTING_PASSWORD'),
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
-=======
 'sender' => env('SMSHOSTING_SENDER', 'Quaeris'),
->>>>>>> laraxot/dev
-=======
-'sender' => env('SMSHOSTING_SENDER', 'Quaeris'),
->>>>>>> laraxot/dev
 'sender' => env('SMSHOSTING_SENDER', 'App'),
     ],
 ];
@@ -748,18 +740,8 @@ public function toTwilio($notifiable)
     return (new TwilioSmsMessage())
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
-<<<<<<< HEAD
-<<<<<<< HEAD
-->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
-        Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
-=======
 ->content("Quaeris: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: Quaeris.it/privacy");
->>>>>>> laraxot/dev
-=======
-->content("Quaeris: Promemoria appuntamento {$this->appointment->formatted_date}. 
-        Per annullare rispondere NO. Per info: Quaeris.it/privacy");
->>>>>>> laraxot/dev
 ->content("App: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: App.it/privacy");
 }

@@ -152,15 +152,7 @@ Blade Template:
   laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php
 
 JSON Content:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  laravel/config/local/<nome progetto>/database/content/pages/tests.homepage.json
-=======
   laravel/config/local/fixcity/database/content/pages/tests.homepage.json
->>>>>>> laraxot/dev
-=======
-  laravel/config/local/fixcity/database/content/pages/tests.homepage.json
->>>>>>> laraxot/dev
 
 CSS Files:
   laravel/Themes/Sixteen/resources/css/
@@ -179,15 +171,7 @@ Local URL:
 
 ```bash
 # Go to project
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_fixcity_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5
->>>>>>> laraxot/dev
 
 # View analysis results
 cat /tmp/replikate_analysis_homepage/structure-analysis.txt

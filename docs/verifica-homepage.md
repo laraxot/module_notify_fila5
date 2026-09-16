@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "📸 Verifica Visiva Homepage <nome progetto>"
-=======
 title: "📸 Verifica Visiva Homepage FixCity"
->>>>>>> laraxot/dev
-=======
-title: "📸 Verifica Visiva Homepage FixCity"
->>>>>>> laraxot/dev
 type: concept
 tags: [verifica, homepage]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "verifica-homepage 📸 verifica visiva homepage <nome progetto>"
-qmd: "verifica-homepage 📸 verifica visiva homepage ptv"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "verifica-homepage 📸 verifica visiva homepage fixcity"
 qmd: "verifica-homepage 📸 verifica visiva homepage ptv"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 📸 Verifica Visiva Homepage <nome progetto>
-=======
 # 📸 Verifica Visiva Homepage FixCity
->>>>>>> laraxot/dev
-=======
-# 📸 Verifica Visiva Homepage FixCity
->>>>>>> laraxot/dev
 
 ## Confronto con Bootstrap Italia Reference
 
@@ -70,15 +41,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<!-- <nome progetto> Implementation -->
-=======
 <!-- FixCity Implementation -->
->>>>>>> laraxot/dev
-=======
-<!-- FixCity Implementation -->
->>>>>>> laraxot/dev
 <h2 id="evidenza-title">CONTENUTI IN EVIDENZA</h2>
 <article class="card card-teaser shadow-sm">
   <div class="card-body">
@@ -102,15 +65,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<!-- <nome progetto> Implementation -->
-=======
 <!-- FixCity Implementation -->
->>>>>>> laraxot/dev
-=======
-<!-- FixCity Implementation -->
->>>>>>> laraxot/dev
 <div class="col-lg-4 col-md-6">
   <div class="card card-teaser shadow-sm h-100">
     <div class="card-body">
@@ -136,15 +91,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </ul>
 </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<!-- <nome progetto> Implementation -->
-=======
 <!-- FixCity Implementation -->
->>>>>>> laraxot/dev
-=======
-<!-- FixCity Implementation -->
->>>>>>> laraxot/dev
 <div class="calendar-event mb-3 pb-3 border-bottom">
   <div class="row">
     <div class="col-3 col-md-2">
@@ -175,15 +122,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<!-- <nome progetto> Implementation -->
-=======
 <!-- FixCity Implementation -->
->>>>>>> laraxot/dev
-=======
-<!-- FixCity Implementation -->
->>>>>>> laraxot/dev
 <div class="col-lg-3 col-md-6">
   <div class="card card-teaser shadow-sm h-100">
     <div class="card-body">
@@ -204,56 +143,24 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 
 ### 1. Card Date Format
 - **Bootstrap Italia**: `Notizie 18 mag 2022` (inline)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: `Notizie 18 mar 2026` (con classi Tailwind)
-=======
 - **FixCity**: `Notizie 18 mar 2026` (con classi Tailwind)
->>>>>>> laraxot/dev
-=======
-- **FixCity**: `Notizie 18 mar 2026` (con classi Tailwind)
->>>>>>> laraxot/dev
 - **Impatto**: Minimo - formato corretto
 
 ### 2. Button Sizes
 - **Bootstrap Italia**: `btn btn-outline-primary`
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: `btn btn-outline-primary btn-sm`
-=======
 - **FixCity**: `btn btn-outline-primary btn-sm`
->>>>>>> laraxot/dev
-=======
-- **FixCity**: `btn btn-outline-primary btn-sm`
->>>>>>> laraxot/dev
 - **Motivo**: Adattamento per responsive
 
 ### 3. Icon Usage
 - **Bootstrap Italia**: SVG inline
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: SVG sprites con `<use>`
-=======
 - **FixCity**: SVG sprites con `<use>`
->>>>>>> laraxot/dev
-=======
-- **FixCity**: SVG sprites con `<use>`
->>>>>>> laraxot/dev
 - **Motivo**: Performance e manutenzione
 
 ---
 
 ## 📊 Checklist Completa
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-| Sezione | Bootstrap Italia | <nome progetto> | Stato |
-=======
 | Sezione | Bootstrap Italia | FixCity | Stato |
->>>>>>> laraxot/dev
-=======
-| Sezione | Bootstrap Italia | FixCity | Stato |
->>>>>>> laraxot/dev
 |---------|-----------------|---------|-------|
 | Skip Links | ✅ | ✅ | ✅ |
 | Header | ✅ | ✅ (via section) | ✅ |
@@ -287,15 +194,7 @@ Le differenze residue sono:
 Bootstrap Italia:  [H2] CONTENUTI IN EVIDENZA
                    [Card with image + text]
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto>:          [H2] CONTENUTI IN EVIDENZA  
-=======
 FixCity:          [H2] CONTENUTI IN EVIDENZA  
->>>>>>> laraxot/dev
-=======
-FixCity:          [H2] CONTENUTI IN EVIDENZA  
->>>>>>> laraxot/dev
                    [Card with image + text]
                    ✅ MATCH
 ```
@@ -303,45 +202,21 @@ FixCity:          [H2] CONTENUTI IN EVIDENZA
 ### Governance
 ```
 Bootstrap Italia:  [3 Cards: Sindaco, Giunta, Consiglio]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto>:          [3 Cards: Sindaco, Giunta, Consiglio]
-=======
 FixCity:          [3 Cards: Sindaco, Giunta, Consiglio]
->>>>>>> laraxot/dev
-=======
-FixCity:          [3 Cards: Sindaco, Giunta, Consiglio]
->>>>>>> laraxot/dev
                    ✅ MATCH
 ```
 
 ### Events
 ```
 Bootstrap Italia:  [Calendar with dates 15-21]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto>:          [Calendar with dates 15-18]
-=======
 FixCity:          [Calendar with dates 15-18]
->>>>>>> laraxot/dev
-=======
-FixCity:          [Calendar with dates 15-18]
->>>>>>> laraxot/dev
                    ✅ MATCH (structure identical)
 ```
 
 ### Topics
 ```
 Bootstrap Italia:  [4 Cards + "Altri Argomenti"]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto>:          [4 Cards + "Altri Argomenti"]
-=======
 FixCity:          [4 Cards + "Altri Argomenti"]
->>>>>>> laraxot/dev
-=======
-FixCity:          [4 Cards + "Altri Argomenti"]
->>>>>>> laraxot/dev
                    ✅ MATCH
 ```
 
@@ -349,19 +224,7 @@ FixCity:          [4 Cards + "Altri Argomenti"]
 
 ## ✅ Conclusione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-La homepage <nome progetto> **È CONFORME** al design Bootstrap Italia.
-
-URL di test: http://<nome progetto>.local/it/tests/homepage
-=======
 La homepage FixCity **È CONFORME** al design Bootstrap Italia.
 
 URL di test: http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
-=======
-La homepage FixCity **È CONFORME** al design Bootstrap Italia.
-
-URL di test: http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
 URL di test: http://ptv.local/it/tests/homepage

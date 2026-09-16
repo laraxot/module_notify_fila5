@@ -291,15 +291,7 @@ protected function createApplication()
     $app = parent::createApplication();
     
     $app['config']->set([
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'database.connections.notify.database' => '<nome progetto>_data_test',
-=======
         'database.connections.notify.database' => 'quaeris_data_test',
->>>>>>> laraxot/dev
-=======
-        'database.connections.notify.database' => 'quaeris_data_test',
->>>>>>> laraxot/dev
     ]);
     
     return $app;
@@ -379,15 +371,7 @@ protected function createApplication()
 
 ### External Resources
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
-=======
 - [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
->>>>>>> laraxot/dev
-=======
-- [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
->>>>>>> laraxot/dev
 - [Pest Installation Guide](https://pestphp.com/docs/installation)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
 

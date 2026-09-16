@@ -27,15 +27,7 @@ related:
 
 ## 📋 Overview
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This document defines the **mandatory rules** for Apache VirtualHost configuration in the <nome progetto> platform.
-=======
 This document defines the **mandatory rules** for Apache VirtualHost configuration in the FixCity platform.
->>>>>>> laraxot/dev
-=======
-This document defines the **mandatory rules** for Apache VirtualHost configuration in the FixCity platform.
->>>>>>> laraxot/dev
 This document defines the **mandatory rules** for Apache VirtualHost configuration in the Notify platform.
 
 ---
@@ -48,23 +40,10 @@ This document defines the **mandatory rules** for Apache VirtualHost configurati
 
 ```apache
 # ✅ CORRECT
-<<<<<<< HEAD
-<<<<<<< HEAD
-DocumentRoot /var/www/_bases/<repo progetto>/public_html
-
-# ❌ WRONG - Never point to laravel/ directly
-DocumentRoot /var/www/_bases/<repo progetto>/laravel
-=======
-=======
->>>>>>> laraxot/dev
 DocumentRoot /var/www/_bases/base_fixcity_fila5/public_html
 
 # ❌ WRONG - Never point to laravel/ directly
 DocumentRoot /var/www/_bases/base_fixcity_fila5/laravel
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 **Rationale**: 
@@ -80,22 +59,6 @@ DocumentRoot /var/www/_bases/base_fixcity_fila5/laravel
 
 ```
 ✅ CORRECT:
-<<<<<<< HEAD
-<<<<<<< HEAD
-laravel/config/vhost/<nome progetto>.local.conf
-
-❌ WRONG:
-- /etc/apache2/sites-available/<nome progetto>.local.conf (not versioned)
-- docs/vhost.conf (wrong location)
-- config/<nome progetto>.local.conf (wrong directory)
-
-❌ WRONG:
-- /etc/apache2/sites-available/<nome progetto>.local.conf (not versioned)
-- docs/vhost.conf (wrong location)
-- config/<nome progetto>.local.conf (wrong directory)
-=======
-=======
->>>>>>> laraxot/dev
 laravel/config/vhost/fixcity.local.conf
 
 ❌ WRONG:
@@ -107,10 +70,6 @@ laravel/config/vhost/fixcity.local.conf
 - /etc/apache2/sites-available/fixcity.local.conf (not versioned)
 - docs/vhost.conf (wrong location)
 - config/fixcity.local.conf (wrong directory)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 **Rationale**:
@@ -148,18 +107,8 @@ ServerName localhost/laraxot
 
 ```apache
 # ✅ CORRECT
-<<<<<<< HEAD
-<<<<<<< HEAD
-ErrorLog ${APACHE_LOG_DIR}/<nome progetto>_local_error.log
-CustomLog ${APACHE_LOG_DIR}/<nome progetto>_local_access.log combined
-=======
 ErrorLog ${APACHE_LOG_DIR}/fixcity_local_error.log
 CustomLog ${APACHE_LOG_DIR}/fixcity_local_access.log combined
->>>>>>> laraxot/dev
-=======
-ErrorLog ${APACHE_LOG_DIR}/fixcity_local_error.log
-CustomLog ${APACHE_LOG_DIR}/fixcity_local_access.log combined
->>>>>>> laraxot/dev
 ErrorLog ${APACHE_LOG_DIR}/app_local_error.log
 CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
 
@@ -180,18 +129,8 @@ CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
 
 ```apache
 # ✅ CORRECT
-<<<<<<< HEAD
-<<<<<<< HEAD
-<Directory /var/www/_bases/<repo progetto>/public_html>
-<Directory /var/www/_bases/<repo progetto>/public_html>
-=======
 <Directory /var/www/_bases/base_fixcity_fila5/public_html>
 <Directory /var/www/_bases/base_ptvx_fila5/public_html>
->>>>>>> laraxot/dev
-=======
-<Directory /var/www/_bases/base_fixcity_fila5/public_html>
-<Directory /var/www/_bases/base_ptvx_fila5/public_html>
->>>>>>> laraxot/dev
     Options -Indexes +FollowSymLinks +MultiViews
     AllowOverride All
     Require all granted
@@ -219,29 +158,13 @@ CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
 
 ```
 ✅ CORRECT:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- <nome progetto>.local.conf
-=======
 - fixcity.local.conf
->>>>>>> laraxot/dev
-=======
-- fixcity.local.conf
->>>>>>> laraxot/dev
 - laraxot.local.conf
 - staging.local.conf
 
 ❌ WRONG:
 - vhost.conf (too generic)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- <nome progetto>.conf (missing .local)
-=======
 - fixcity.conf (missing .local)
->>>>>>> laraxot/dev
-=======
-- fixcity.conf (missing .local)
->>>>>>> laraxot/dev
 - laraxot.conf (missing .local)
 - 000-default.conf (Apache default)
 ```
@@ -297,21 +220,9 @@ apache2ctl -M | grep rewrite
 
 ```bash
 # ✅ CORRECT WORKFLOW
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. Edit: laravel/config/vhost/<nome progetto>.local.conf
-2. Copy: sudo cp laravel/config/vhost/<nome progetto>.local.conf /etc/apache2/sites-available/
-3. Enable: sudo a2ensite <nome progetto>.local.conf
-=======
 1. Edit: laravel/config/vhost/fixcity.local.conf
 2. Copy: sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/
 3. Enable: sudo a2ensite fixcity.local.conf
->>>>>>> laraxot/dev
-=======
-1. Edit: laravel/config/vhost/fixcity.local.conf
-2. Copy: sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/
-3. Enable: sudo a2ensite fixcity.local.conf
->>>>>>> laraxot/dev
 1. Edit: laravel/config/vhost/laraxot.local.conf
 2. Copy: sudo cp laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/
 3. Enable: sudo a2ensite laraxot.local.conf
@@ -346,18 +257,8 @@ php artisan migrate:rollback
 
 ```apache
 # ❌ CRITICAL SECURITY ISSUE
-<<<<<<< HEAD
-<<<<<<< HEAD
-DocumentRoot /var/www/_bases/<repo progetto>/laravel
-DocumentRoot /var/www/_bases/<repo progetto>/laravel
-=======
 DocumentRoot /var/www/_bases/base_fixcity_fila5/laravel
 DocumentRoot /var/www/_bases/base_ptvx_fila5/laravel
->>>>>>> laraxot/dev
-=======
-DocumentRoot /var/www/_bases/base_fixcity_fila5/laravel
-DocumentRoot /var/www/_bases/base_ptvx_fila5/laravel
->>>>>>> laraxot/dev
 
 # This exposes:
 # - .env file
@@ -418,18 +319,8 @@ AllowOverride None
 ```env
 # ✅ DEVELOPMENT
 DB_CONNECTION=sqlite
-<<<<<<< HEAD
-<<<<<<< HEAD
-DB_DATABASE=/var/www/_bases/<repo progetto>/laravel/database/<nome progetto>_data.sqlite
-DB_DATABASE=/var/www/_bases/<repo progetto>/laravel/database/notify_data.sqlite
-=======
 DB_DATABASE=/var/www/_bases/base_fixcity_fila5/laravel/database/fixcity_data.sqlite
 DB_DATABASE=/var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
->>>>>>> laraxot/dev
-=======
-DB_DATABASE=/var/www/_bases/base_fixcity_fila5/laravel/database/fixcity_data.sqlite
-DB_DATABASE=/var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
->>>>>>> laraxot/dev
 
 # ❌ WRONG
 DB_HOST=production-db.example.com
@@ -455,21 +346,9 @@ Before committing vhost changes:
 - [ ] `apache2ctl configtest` passes
 - [ ] Site enabled: `a2ensite`
 - [ ] Apache reloaded: `systemctl reload apache2`
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] Domain resolves: `ping <nome progetto>.local`
-- [ ] Application accessible: `curl -I http://<nome progetto>.local`
-- [ ] Logs created: `ls -la /var/log/apache2/<nome progetto>_*`
-=======
 - [ ] Domain resolves: `ping fixcity.local`
 - [ ] Application accessible: `curl -I http://fixcity.local`
 - [ ] Logs created: `ls -la /var/log/apache2/fixcity_*`
->>>>>>> laraxot/dev
-=======
-- [ ] Domain resolves: `ping fixcity.local`
-- [ ] Application accessible: `curl -I http://fixcity.local`
-- [ ] Logs created: `ls -la /var/log/apache2/fixcity_*`
->>>>>>> laraxot/dev
 - [ ] Domain resolves: `ping laraxot.local`
 - [ ] Application accessible: `curl -I http://laraxot.local`
 - [ ] Logs created: `ls -la /var/log/apache2/app_*`

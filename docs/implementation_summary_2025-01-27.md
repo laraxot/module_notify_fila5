@@ -1,14 +1,6 @@
 # 🚀 IMPLEMENTATION SUMMARY - 27 Gennaio 2025
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-> **Sessione di implementazione priorità critiche <nome progetto> Module**
-=======
 > **Sessione di implementazione priorità critiche Fixcity Module**
->>>>>>> laraxot/dev
-=======
-> **Sessione di implementazione priorità critiche Fixcity Module**
->>>>>>> laraxot/dev
 
 ---
 
@@ -27,15 +19,7 @@
   - Added `address` TEXT NULL field to `tickets` table after `longitude`
   - Proper up/down methods for reversibility
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Job**: `Modules/<nome progetto>/app/Jobs/GeocodeTicketAddressJob.php`
-=======
 - **Job**: `Modules/Fixcity/app/Jobs/GeocodeTicketAddressJob.php`
->>>>>>> laraxot/dev
-=======
-- **Job**: `Modules/Fixcity/app/Jobs/GeocodeTicketAddressJob.php`
->>>>>>> laraxot/dev
   - Implements `ShouldQueue` interface
   - 30-day caching strategy (Cache::remember)
   - Retry logic: 3 attempts, 60s backoff
@@ -70,15 +54,7 @@
 **Pest Tests**: N/A (Filament resource)
 
 #### Implementation Details:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **File**: `Modules/<nome progetto>/app/Filament/Resources/TicketResource/Pages/ListTickets.php`
-=======
 - **File**: `Modules/Fixcity/app/Filament/Resources/TicketResource/Pages/ListTickets.php`
->>>>>>> laraxot/dev
-=======
-- **File**: `Modules/Fixcity/app/Filament/Resources/TicketResource/Pages/ListTickets.php`
->>>>>>> laraxot/dev
 - **Method**: `getTableQuery(): Builder|Relation|null`
 
 ```php
@@ -118,15 +94,7 @@ protected function getTableQuery(): Builder|Relation|null
 **Files Modified**: 1
 
 #### Implementation Details:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **File**: `Modules/<nome progetto>/docs/roadmap.md`
-=======
 - **File**: `Modules/Fixcity/docs/roadmap.md`
->>>>>>> laraxot/dev
-=======
-- **File**: `Modules/Fixcity/docs/roadmap.md`
->>>>>>> laraxot/dev
 - Updated priority section with completion status
 - Added implementation dates
 - Added technical details for completed tasks
@@ -135,15 +103,7 @@ protected function getTableQuery(): Builder|Relation|null
 
 ## 📊 OVERALL PROGRESS
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### <nome progetto> Module - Immediate Priorities
-=======
 ### Fixcity Module - Immediate Priorities
->>>>>>> laraxot/dev
-=======
-### Fixcity Module - Immediate Priorities
->>>>>>> laraxot/dev
 **Overall**: 66% COMPLETATO (2/3 tasks)
 
 | Task | Status | Date |
@@ -208,15 +168,7 @@ protected function getTableQuery(): Builder|Relation|null
 ## 📋 NEXT STEPS
 
 ### Immediate (Next Session)
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. 🔴 **Refactor AGID Component** (<nome progetto> CRITICAL #3)
-=======
 1. 🔴 **Refactor AGID Component** (Fixcity CRITICAL #3)
->>>>>>> laraxot/dev
-=======
-1. 🔴 **Refactor AGID Component** (Fixcity CRITICAL #3)
->>>>>>> laraxot/dev
    - Replace `DB::table()` with Eloquent
    - Implement caching (5 min TTL)
    - Eager load media relationships
@@ -242,15 +194,7 @@ protected function getTableQuery(): Builder|Relation|null
    - Refactor large classes
 
 ### Mid-Term (This Month)
-<<<<<<< HEAD
-<<<<<<< HEAD
-6. 🟢 **Complete <nome progetto> Roadmap Q1 Tasks**
-=======
 6. 🟢 **Complete Fixcity Roadmap Q1 Tasks**
->>>>>>> laraxot/dev
-=======
-6. 🟢 **Complete Fixcity Roadmap Q1 Tasks**
->>>>>>> laraxot/dev
    - Dashboard cittadino
    - Multi-channel notifications
    - Auto-assignment by zone
@@ -295,23 +239,10 @@ protected function getTableQuery(): Builder|Relation|null
 
 ## 📚 DOCUMENTATION UPDATED
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. ✅ `Modules/<nome progetto>/docs/roadmap.md` - Progress tracking
-2. ✅ `IMPLEMENTATION_SUMMARY_2025-01-27.md` - This file
-3. 🔄 `Modules/<nome progetto>/docs/performance-issues.md` - Needs update with results
-4. 🔄 `MASTER_ROADMAP.md` - Needs sync with <nome progetto> progress
-=======
-=======
->>>>>>> laraxot/dev
 1. ✅ `Modules/Fixcity/docs/roadmap.md` - Progress tracking
 2. ✅ `IMPLEMENTATION_SUMMARY_2025-01-27.md` - This file
 3. 🔄 `Modules/Fixcity/docs/performance-issues.md` - Needs update with results
 4. 🔄 `MASTER_ROADMAP.md` - Needs sync with Fixcity progress
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ---
 

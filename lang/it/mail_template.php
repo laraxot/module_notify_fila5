@@ -113,15 +113,7 @@ return [
         'slug' => [
             'label' => 'slug',
             'description' => 'slug',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'slug',
->>>>>>> laraxot/dev
-=======
-            'helper_text' => 'slug',
->>>>>>> laraxot/dev
             'placeholder' => 'slug',
             'tooltip' => ''],
         'name' => [
@@ -143,14 +135,6 @@ return [
             'description' => ''],
         'sms_template' => [
             'description' => 'sms_template',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'helper_text' => '',
-            'placeholder' => 'sms_template',
-            'label' => 'sms_template',
-=======
-=======
->>>>>>> laraxot/dev
             'helper_text' => 'Testo del messaggio SMS di invito',
             'placeholder' => 'Inserisci il testo del messaggio SMS',
             'label' => 'Testo SMS',
@@ -160,10 +144,6 @@ return [
             'helper_text' => 'Mittente SMS per questo template (max 11 caratteri, alfanumerico). Se vuoto usa il mittente globale (config sms.from).',
             'placeholder' => 'es. VIVASERVIZI',
             'label' => 'Mittente SMS',
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
             'tooltip' => ''],
         'edit' => [
             'label' => 'edit',
@@ -187,21 +167,9 @@ return [
             'description' => ''],
         'html_layout_path' => [
             'description' => 'html_layout_path',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'label' => '',
-            'tooltip' => '',
-            'helper_text' => '']],
-=======
             'label' => 'Layout HTML',
             'tooltip' => '',
             'helper_text' => 'Layout HTML in cui viene inserito il contenuto del template email']],
->>>>>>> laraxot/dev
-=======
-            'label' => 'Layout HTML',
-            'tooltip' => '',
-            'helper_text' => 'Layout HTML in cui viene inserito il contenuto del template email']],
->>>>>>> laraxot/dev
     'actions' => [
         'preview' => ['label' => 'Anteprima', 'tooltip' => 'Visualizza anteprima dell\'email', 'success_message' => 'Anteprima generata con successo', 'error_message' => 'Errore nella generazione dell\'anteprima'],
         'test' => ['label' => 'Invia test', 'tooltip' => 'Invia un\'email di test', 'success_message' => 'Email di test inviata con successo', 'error_message' => 'Errore nell\'invio dell\'email di test'],

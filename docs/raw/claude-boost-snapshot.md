@@ -1,18 +1,8 @@
 # claudeMd
 Codebase and user instructions are shown below. Be sure to adhere to these instructions. IMPORTANT: These instructions OVERRIDE any default behavior and you MUST follow them exactly as written.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Contents of /var/www/html/_bases/<repo progetto>/laravel/CLAUDE.md (project instructions, checked into the codebase):
-Contents of /var/www/html/_bases/<repo progetto>/laravel/CLAUDE.md (project instructions, checked into the codebase):
-=======
 Contents of /var/www/html/_bases/base_fixcity_fila5_mono/laravel/CLAUDE.md (project instructions, checked into the codebase):
 Contents of /var/www/html/_bases/base_ptvx_fila5_mono/laravel/CLAUDE.md (project instructions, checked into the codebase):
->>>>>>> laraxot/dev
-=======
-Contents of /var/www/html/_bases/base_fixcity_fila5_mono/laravel/CLAUDE.md (project instructions, checked into the codebase):
-Contents of /var/www/html/_bases/base_ptvx_fila5_mono/laravel/CLAUDE.md (project instructions, checked into the codebase):
->>>>>>> laraxot/dev
 
 <laravel-boost-guidelines>
 === foundation rules ===
@@ -86,15 +76,7 @@ This application is a Laravel application and its main Laravel ecosystems packag
 - You must use this tool to search for Laravel-ecosystem documentation before falling back to other approaches.
 - Search the documentation before making code changes to ensure we are taking the correct approach.
 - Use multiple, broad, simple, topic based queries to start. For example: `['rate limiting', 'routing rate limiting', 'routing']`.
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Do not add package names to queries - package information is already shared. For example, use `test resource table`, not `Filament 5 test resource table`.
-=======
 - Do not add package names to queries - package information is already shared. For example, use `test resource table`, not `filament 4 test resource table`.
->>>>>>> laraxot/dev
-=======
-- Do not add package names to queries - package information is already shared. For example, use `test resource table`, not `filament 4 test resource table`.
->>>>>>> laraxot/dev
 
 ### Available Search Syntax
 - You can and should pass multiple queries at once. The most relevant results will be returned first.
@@ -695,18 +677,8 @@ it('has emails', function (string $email) {
 
 ### Required Commands (ALWAYS):
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/html/_bases/<repo progetto>/laravel/Themes/Sixteen
-cd /var/www/html/_bases/<repo progetto>/laravel/Themes/Sixteen
-=======
 cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
 cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
->>>>>>> laraxot/dev
-=======
-cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
-cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
->>>>>>> laraxot/dev
 npm run build
 npm run copy
 ```
@@ -733,19 +705,6 @@ This is a fundamental rule that must NEVER be forgotten when working with themes
 
 === project architecture rules ===
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## <nome progetto> PROJECT ARCHITECTURE
-
-### Core Understanding
-This is **<nome progetto>**, a **citizen reporting platform** for urban issue management. Citizens report problems, administrators manage them.
-
-### System Architecture - NWIDART + LARAXOT ECOSYSTEM
-- **Modular Monolith** using Nwidart/Laravel-Modules + Laraxot extensions
-- **Backend**: Laravel 13.24.0 + PHP 8.3.20 + SQLite
-=======
-=======
->>>>>>> laraxot/dev
 ## FIXCITY PROJECT ARCHITECTURE
 
 ### Core Understanding
@@ -754,10 +713,6 @@ This is **FixCity**, a **citizen reporting platform** for urban issue management
 ### System Architecture - NWIDART + LARAXOT ECOSYSTEM
 - **Modular Monolith** using Nwidart/Laravel-Modules + Laraxot extensions
 - **Backend**: Laravel 12.24.0 + PHP 8.3.20 + SQLite
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - **Backoffice**: Filament 3.x + Laraxot (admin panels)
 - **Frontoffice**: Folio + Volt + Livewire 3.x (citizen interface)
 - **Module System**: Nwidart base + Laraxot enhancements
@@ -780,15 +735,7 @@ Modules/
 
 ### Module Status Management
 - `modules_statuses.json` - Controls which modules are active
-<<<<<<< HEAD
-<<<<<<< HEAD
-- All 22 modules currently active (Activity, Geo, Blog, Cms, Gdpr, Job, Media, Notify, Rating, Tenant, UI, User, Xot, Lang, Chart, <nome progetto>, Ticket, AI, Comment, Seo)
-=======
 - All 22 modules currently active (Activity, Geo, Blog, Cms, Gdpr, Job, Media, Notify, Rating, Tenant, UI, User, Xot, Lang, Chart, Fixcity, Ticket, AI, Comment, Seo)
->>>>>>> laraxot/dev
-=======
-- All 22 modules currently active (Activity, Geo, Blog, Cms, Gdpr, Job, Media, Notify, Rating, Tenant, UI, User, Xot, Lang, Chart, Fixcity, Ticket, AI, Comment, Seo)
->>>>>>> laraxot/dev
 - All 22 modules currently active (Activity, Geo, Blog, Cms, Gdpr, Job, Media, Notify, Rating, Tenant, UI, User, Xot, Lang, Chart, App, Ticket, AI, Comment, Seo)
 - Automatic discovery via composer merge-plugin
 
@@ -807,15 +754,7 @@ Themes/Sixteen/
 
 ### Critical Modules
 - **Xot**: Framework base (XotBaseModel, XotBaseServiceProvider, core patterns)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: Core ticket system (main business logic)
-=======
 - **Fixcity**: Core ticket system (main business logic)
->>>>>>> laraxot/dev
-=======
-- **Fixcity**: Core ticket system (main business logic)
->>>>>>> laraxot/dev
 - **App**: Core ticket system (main business logic)
 - **User**: Authentication, profiles, permissions
 - **Cms**: Content management, pages (JSON storage)
@@ -847,23 +786,10 @@ Ticket (core entity):
 // ACTUAL ROUTING:
 // 1. Folio Frontend (citizen-facing)
 /it/tickets/create → Themes/Sixteen/resources/views/pages/tickets/create.blade.php
-<<<<<<< HEAD
-<<<<<<< HEAD
-/it/tickets/{slug} → Modules/<nome progetto>/resources/views/pages/tickets/[slug].blade.php
-
-// 2. Filament Admin Panels (staff-facing)
-/<nome progetto>/admin/tickets → Auto-generated by TicketResource
-=======
-=======
->>>>>>> laraxot/dev
 /it/tickets/{slug} → Modules/Fixcity/resources/views/pages/tickets/[slug].blade.php
 
 // 2. Filament Admin Panels (staff-facing)
 /fixcity/admin/tickets → Auto-generated by TicketResource
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 /user/admin/users → Auto-generated by UserResource
 ```
 
@@ -892,15 +818,7 @@ Ticket (core entity):
 - **Updater Trait**: Automatic created_by/updated_by tracking
 
 ### Business Logic
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto> enables:
-=======
 FixCity enables:
->>>>>>> laraxot/dev
-=======
-FixCity enables:
->>>>>>> laraxot/dev
 Notify enables:
 - Citizens to report urban issues (potholes, broken lights, etc.)
 - Automatic geolocation and photo attachments

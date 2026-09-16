@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "<nome progetto> Documentation Ecosystem - Visual Map"
-=======
 title: "FixCity Documentation Ecosystem - Visual Map"
->>>>>>> laraxot/dev
-=======
-title: "FixCity Documentation Ecosystem - Visual Map"
->>>>>>> laraxot/dev
 type: concept
 tags: [documentation, ecosystem]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "documentation-ecosystem <nome progetto> documentation ecosystem - visual map"
-qmd: "documentation-ecosystem ptv documentation ecosystem - visual map"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "documentation-ecosystem fixcity documentation ecosystem - visual map"
 qmd: "documentation-ecosystem ptv documentation ecosystem - visual map"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome progetto> Documentation Ecosystem - Visual Map
-=======
 # FixCity Documentation Ecosystem - Visual Map
->>>>>>> laraxot/dev
-=======
-# FixCity Documentation Ecosystem - Visual Map
->>>>>>> laraxot/dev
 
 **📍 Complete Bidirectional Links & Cross-References**
 
@@ -58,15 +29,7 @@ related:
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-<<<<<<< HEAD
-<<<<<<< HEAD
-│            <nome progetto> Fila5 Documentation Ecosystem                 │
-=======
 │            FixCity Fila5 Documentation Ecosystem                 │
->>>>>>> laraxot/dev
-=======
-│            FixCity Fila5 Documentation Ecosystem                 │
->>>>>>> laraxot/dev
 │                   (7,137+ Connected Files)                       │
 └──────────────────────────────────────────────────────────────────┘
 
@@ -214,15 +177,7 @@ Theme: Sixteen
     │
     ├─→ Cms Module
     │   └─ Displays: Pages, blocks, content
-<<<<<<< HEAD
-<<<<<<< HEAD
-    │   └─ Via: config/local/<nome progetto>/database/content/pages/
-=======
     │   └─ Via: config/local/fixcity/database/content/pages/
->>>>>>> laraxot/dev
-=======
-    │   └─ Via: config/local/fixcity/database/content/pages/
->>>>>>> laraxot/dev
     │   └─ Via: config/local/ptv/database/content/pages/
     │   └─ Renders: Block components
     │

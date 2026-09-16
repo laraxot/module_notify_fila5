@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "<nome progetto> Platform - Master Plan 🚀"
-=======
 title: "FixCity Platform - Master Plan 🚀"
->>>>>>> laraxot/dev
-=======
-title: "FixCity Platform - Master Plan 🚀"
->>>>>>> laraxot/dev
 type: concept
 tags: [master, plan]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "master-plan <nome progetto> platform - master plan 🚀"
-qmd: "master-plan ptv platform - master plan 🚀"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "master-plan fixcity platform - master plan 🚀"
 qmd: "master-plan ptv platform - master plan 🚀"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome progetto> Platform - Master Plan 🚀
-=======
 # FixCity Platform - Master Plan 🚀
->>>>>>> laraxot/dev
-=======
-# FixCity Platform - Master Plan 🚀
->>>>>>> laraxot/dev
 
 **Livello di Confidenza: 🟢 MASSIMO**  
 **Data Analisi**: 2025-01-01  
@@ -58,15 +29,7 @@ related:
 
 ## 🎯 EXECUTIVE SUMMARY
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto>** è una **piattaforma SaaS di civic engagement** che rivoluziona il modo in cui cittadini e amministrazioni locali collaborano per migliorare la qualità della vita urbana. Il sistema trasforma i cittadini in "sensori urbani attivi", permettendo segnalazioni georeferenziate, gestione intelligente dei workflow e analytics avanzate.
-=======
 **FixCity** è una **piattaforma SaaS di civic engagement** che rivoluziona il modo in cui cittadini e amministrazioni locali collaborano per migliorare la qualità della vita urbana. Il sistema trasforma i cittadini in "sensori urbani attivi", permettendo segnalazioni georeferenziate, gestione intelligente dei workflow e analytics avanzate.
->>>>>>> laraxot/dev
-=======
-**FixCity** è una **piattaforma SaaS di civic engagement** che rivoluziona il modo in cui cittadini e amministrazioni locali collaborano per migliorare la qualità della vita urbana. Il sistema trasforma i cittadini in "sensori urbani attivi", permettendo segnalazioni georeferenziate, gestione intelligente dei workflow e analytics avanzate.
->>>>>>> laraxot/dev
 
 ### Value Proposition
 - **Per i Cittadini**: Voce diretta all'amministrazione, trasparenza, risoluzione rapida problemi
@@ -83,18 +46,8 @@ related:
 ### Stack Tecnologico
 ```
 Frontend:          Blade + Livewire 3 + Alpine.js + Tailwind CSS
-<<<<<<< HEAD
-<<<<<<< HEAD
-Backend:           Laravel 13.x + PHP 8.3
-Admin Panel:       Filament 5.x (Server-Driven UI)
-=======
 Backend:           Laravel 12.x + PHP 8.3
 Admin Panel:       Filament 4.x (Server-Driven UI)
->>>>>>> laraxot/dev
-=======
-Backend:           Laravel 12.x + PHP 8.3
-Admin Panel:       Filament 4.x (Server-Driven UI)
->>>>>>> laraxot/dev
 Database:          MySQL/PostgreSQL (multi-database)
 Cache:             Redis
 Queue:             Redis/Database
@@ -495,15 +448,7 @@ docs/
 ├── API_REFERENCE.md (📋 API Documentation)
 ├── DEPLOYMENT.md (📋 Deployment Guide)
 └── modules/
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ├── <nome progetto>/ (✅ Business Logic + Roadmap)
-=======
     ├── fixcity/ (✅ Business Logic + Roadmap)
->>>>>>> laraxot/dev
-=======
-    ├── fixcity/ (✅ Business Logic + Roadmap)
->>>>>>> laraxot/dev
     ├── ptv/ (✅ Business Logic + Roadmap)
     ├── user/ (✅ IAM + Roadmap)
     ├── notify/ (✅ Notifications + Roadmap)
@@ -523,21 +468,9 @@ docs/
 
 ## 🎉 CONCLUSION
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto> è posizionata per diventare la **piattaforma leader europea** per il civic engagement e la gestione intelligente delle città. Con:
-
-- ✅ **Solida base tecnica** (Laravel 13, Filament 5, architettura modulare)
-=======
 FixCity è posizionata per diventare la **piattaforma leader europea** per il civic engagement e la gestione intelligente delle città. Con:
 
 - ✅ **Solida base tecnica** (Laravel 12, Filament 4, architettura modulare)
->>>>>>> laraxot/dev
-=======
-FixCity è posizionata per diventare la **piattaforma leader europea** per il civic engagement e la gestione intelligente delle città. Con:
-
-- ✅ **Solida base tecnica** (Laravel 12, Filament 4, architettura modulare)
->>>>>>> laraxot/dev
 - ✅ **Business logic completa** (workflow, stati, automazioni)
 - ✅ **Roadmap chiara** (18 moduli, 60+ sprint pianificati)
 - ✅ **Visione innovativa** (AI, IoT, Blockchain)
@@ -571,14 +504,6 @@ FixCity è posizionata per diventare la **piattaforma leader europea** per il ci
 - *Technical capabilities e constraints*
 - *Team composition e roadmap feasibility*
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Per domande o approfondimenti**: development@<nome progetto>.io
-=======
 **Per domande o approfondimenti**: development@fixcity.io
->>>>>>> laraxot/dev
-=======
-**Per domande o approfondimenti**: development@fixcity.io
->>>>>>> laraxot/dev
 **Per domande o approfondimenti**: development@ptv.io
 

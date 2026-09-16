@@ -1,14 +1,6 @@
 # 🏆 PROJECT COMPLETION CERTIFICATE
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## <nome progetto> - Base Fila4 Mono
-=======
 ## FixCity - Base Fila4 Mono
->>>>>>> laraxot/dev
-=======
-## FixCity - Base Fila4 Mono
->>>>>>> laraxot/dev
 ## Notify - Base Fila4 Mono
 
 **Certificate of Excellence 2025**
@@ -17,15 +9,7 @@
 
 ## 📜 Official Certification
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This document certifies that the project **<nome progetto> - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.
-=======
 This document certifies that the project **FixCity - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.
->>>>>>> laraxot/dev
-=======
-This document certifies that the project **FixCity - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.
->>>>>>> laraxot/dev
 This document certifies that the project **Notify - Base Fila4 Mono** has successfully achieved **EXCELLENCE STATUS** for 2025 by meeting and exceeding all professional software development standards.
 
 **Certification Date:** October 1, 2025  
@@ -279,15 +263,7 @@ The project meets or exceeds:
 
 **I hereby certify that:**
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-The project **<nome progetto> - Base Fila4 Mono** has been thoroughly analyzed, refactored, tested, and documented according to the highest professional standards of software development.
-=======
 The project **FixCity - Base Fila4 Mono** has been thoroughly analyzed, refactored, tested, and documented according to the highest professional standards of software development.
->>>>>>> laraxot/dev
-=======
-The project **FixCity - Base Fila4 Mono** has been thoroughly analyzed, refactored, tested, and documented according to the highest professional standards of software development.
->>>>>>> laraxot/dev
 The project **Notify - Base Fila4 Mono** has been thoroughly analyzed, refactored, tested, and documented according to the highest professional standards of software development.
 
 All quality metrics have been measured, verified, and documented. The project demonstrates excellence in code quality, testing, architecture, DevOps, and documentation.
@@ -301,15 +277,7 @@ Super Mucca Quality Assurance Team 🐮
 October 1, 2025
 
 **Certification ID:**  
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto>-2025-EXCELLENCE-001
-=======
 FIXCITY-2025-EXCELLENCE-001
->>>>>>> laraxot/dev
-=======
-FIXCITY-2025-EXCELLENCE-001
->>>>>>> laraxot/dev
 NOTIFY-2025-EXCELLENCE-001
 
 **Digital Signature:**  
@@ -349,21 +317,9 @@ vuER4W8oDH3+3iQ02OQ1QlnRFHqeJ5teKeH3VYx0jBuS402hm0Ow1yxM3FyPOPMU
 
 To verify this certification:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Website:** https://<nome progetto>.com/certification  
-**Verification Code:** <nome progetto>-2025-EXCELLENCE-001  
-**Email:** certification@<nome progetto>.com
-=======
 **Website:** https://fixcity.com/certification  
 **Verification Code:** FIXCITY-2025-EXCELLENCE-001  
 **Email:** certification@fixcity.com
->>>>>>> laraxot/dev
-=======
-**Website:** https://fixcity.com/certification  
-**Verification Code:** FIXCITY-2025-EXCELLENCE-001  
-**Email:** certification@fixcity.com
->>>>>>> laraxot/dev
 **Website:** https://laraxot.com/certification  
 **Verification Code:** NOTIFY-2025-EXCELLENCE-001  
 **Email:** certification@laraxot.com
@@ -439,15 +395,7 @@ See [Test Reports](../Modules/*/Tests/)
 
 *This certificate is issued by the Super Mucca Quality Assurance Team and represents the highest standard of software engineering excellence.*
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**#Excellence2025 #QualityCertified #ProfessionalDevelopment #<nome progetto>**
-=======
 **#Excellence2025 #QualityCertified #ProfessionalDevelopment #FixCity**
->>>>>>> laraxot/dev
-=======
-**#Excellence2025 #QualityCertified #ProfessionalDevelopment #FixCity**
->>>>>>> laraxot/dev
 **#Excellence2025 #QualityCertified #ProfessionalDevelopment #Notify**
 
 ---

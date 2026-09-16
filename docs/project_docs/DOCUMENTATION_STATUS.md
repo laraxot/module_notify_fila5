@@ -41,15 +41,7 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 - [x] CODE_QUALITY_TOOLS.md
 - [x] Performance issues documentation
 - [x] PHPStan fixes report
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Filament 5.x upgrade report
-=======
 - [x] Filament 4.x upgrade report
->>>>>>> laraxot/dev
-=======
-- [x] Filament 4.x upgrade report
->>>>>>> laraxot/dev
 
 **Da Completare**:
 - [ ] API documentation completa
@@ -291,15 +283,7 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 - [x] Accessibility documentation
 - [x] Component reorganization
 - [x] Translation system
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Filament 5.x integration
-=======
 - [x] Filament 4.x integration
->>>>>>> laraxot/dev
-=======
-- [x] Filament 4.x integration
->>>>>>> laraxot/dev
 - [x] Build system guide
 - [x] Vite configuration
 

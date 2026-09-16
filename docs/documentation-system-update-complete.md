@@ -5,18 +5,8 @@ tags: [documentation, system, update, complete]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "documentation-system-update-complete documentation system update - complete"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -38,15 +28,7 @@ related:
 
 ## Executive Summary
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Ho aggiornato l'intero sistema di documentazione del progetto <nome progetto> Fila5 con:
-=======
 Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:
->>>>>>> laraxot/dev
-=======
-Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:
->>>>>>> laraxot/dev
 
 1. ✅ **Master Documentation Index** - Indice centrale con 7,299+ file
 2. ✅ **Bidirectional Links** - Collegamenti incrociati tra tutti i documenti
@@ -84,15 +66,7 @@ Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:
 ## 🗺️ Documentation Hierarchy
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto> Fila5 Documentation (7,299 files)
-=======
 FixCity Fila5 Documentation (7,299 files)
->>>>>>> laraxot/dev
-=======
-FixCity Fila5 Documentation (7,299 files)
->>>>>>> laraxot/dev
 │
 ├── 📄 Master Index
 │   └── docs/module-docs-index.md (THIS FILE)
@@ -117,15 +91,7 @@ FixCity Fila5 Documentation (7,299 files)
 │   │   ├── phpstan*.md (100+ files)
 │   │   ├── testing/
 │   │   └── ...
-<<<<<<< HEAD
-<<<<<<< HEAD
-│   ├── <nome progetto>/docs/
-=======
 │   ├── Fixcity/docs/
->>>>>>> laraxot/dev
-=======
-│   ├── Fixcity/docs/
->>>>>>> laraxot/dev
 │   ├── User/docs/
 │   ├── Cms/docs/
 │   ├── Blog/docs/
@@ -325,15 +291,7 @@ Every documentation file should have:
 
 Start at module index:
 - `Modules/Xot/docs/00-index.md` (1,941 files)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `Modules/<nome progetto>/docs/README.md`
-=======
 - `Modules/Fixcity/docs/README.md`
->>>>>>> laraxot/dev
-=======
-- `Modules/Fixcity/docs/README.md`
->>>>>>> laraxot/dev
 - `Modules/User/docs/README.md`
 - etc.
 

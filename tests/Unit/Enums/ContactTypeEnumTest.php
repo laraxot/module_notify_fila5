@@ -50,15 +50,7 @@ it('getSearchable returns all values', function (): void {
 });
 
 it('getFormSchema returns TextInput components', function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $schema = ContactTypeEnum::getFormSchema();
-=======
     $schema = ContactTypeEnum::PHONE->getFormSchema();
->>>>>>> laraxot/dev
-=======
-    $schema = ContactTypeEnum::PHONE->getFormSchema();
->>>>>>> laraxot/dev
     Assert::assertCount(6, $schema);
     foreach ($schema as $component) {
         Assert::assertInstanceOf(TextInput::class, $component);

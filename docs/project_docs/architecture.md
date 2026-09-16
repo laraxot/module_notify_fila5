@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome progetto> - Architecture Documentation
-=======
 # FixCity - Architecture Documentation
->>>>>>> laraxot/dev
-=======
-# FixCity - Architecture Documentation
->>>>>>> laraxot/dev
 
 **Version:** 4.0  
 **Date:** 2025-10-01  
@@ -60,15 +52,7 @@ Modules/
 ├── Xot/              # Core framework extensions
 ├── Tenant/           # Multi-tenancy support
 ├── User/             # User management & authentication
-<<<<<<< HEAD
-<<<<<<< HEAD
-├── <nome progetto>/          # Main application logic
-=======
 ├── Fixcity/          # Main application logic
->>>>>>> laraxot/dev
-=======
-├── Fixcity/          # Main application logic
->>>>>>> laraxot/dev
 ├── Blog/             # Content management
 ├── Cms/              # CMS functionality
 ├── Geo/              # Geographic services
@@ -92,15 +76,7 @@ graph TD
     A[Xot] --> B[Tenant]
     A --> C[User]
     A --> D[Lang]
-<<<<<<< HEAD
-<<<<<<< HEAD
-    B --> E[<nome progetto>]
-=======
     B --> E[Fixcity]
->>>>>>> laraxot/dev
-=======
-    B --> E[Fixcity]
->>>>>>> laraxot/dev
     C --> E
     E --> F[Blog]
     E --> G[Cms]

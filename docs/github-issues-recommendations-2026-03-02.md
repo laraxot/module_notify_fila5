@@ -1,31 +1,13 @@
 # GitHub Issues and Discussions Recommendations
 **Generated**: 2026-03-02
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Based on**: Analysis of base_laravelpizza and <repo progetto> reference projects
-**Current State**: <nome progetto> platform achieved 0 PHPStan errors (Level 10)
-=======
 **Based on**: Analysis of base_laravelpizza and base_techplanner_fila5 reference projects
 **Current State**: FixCity platform achieved 0 PHPStan errors (Level 10)
->>>>>>> laraxot/dev
-=======
-**Based on**: Analysis of base_laravelpizza and base_techplanner_fila5 reference projects
-**Current State**: FixCity platform achieved 0 PHPStan errors (Level 10)
->>>>>>> laraxot/dev
 
 ---
 
 ## Executive Summary
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-After studying the reference projects (base_laravelpizza and <repo progetto>) and analyzing the current state of the <nome progetto> platform, I've identified key areas where documentation, best practices, and technical debt should be tracked through GitHub issues and discussions.
-=======
 After studying the reference projects (base_laravelpizza and base_techplanner_fila5) and analyzing the current state of the FixCity platform, I've identified key areas where documentation, best practices, and technical debt should be tracked through GitHub issues and discussions.
->>>>>>> laraxot/dev
-=======
-After studying the reference projects (base_laravelpizza and base_techplanner_fila5) and analyzing the current state of the FixCity platform, I've identified key areas where documentation, best practices, and technical debt should be tracked through GitHub issues and discussions.
->>>>>>> laraxot/dev
 
 ### Key Findings:
 - **PHPStan Level 10**: ✅ **ACHIEVED** - 0 errors in production code
@@ -45,15 +27,7 @@ After studying the reference projects (base_laravelpizza and base_techplanner_fi
 **Labels**: documentation, enhancement, good first issue
 
 **Description**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-Create a centralized documentation index that links to all module documentation, similar to base_laravelpizza and <repo progetto> patterns. Currently, documentation is scattered across modules without a unified navigation structure.
-=======
 Create a centralized documentation index that links to all module documentation, similar to base_laravelpizza and base_techplanner_fila5 patterns. Currently, documentation is scattered across modules without a unified navigation structure.
->>>>>>> laraxot/dev
-=======
-Create a centralized documentation index that links to all module documentation, similar to base_laravelpizza and base_techplanner_fila5 patterns. Currently, documentation is scattered across modules without a unified navigation structure.
->>>>>>> laraxot/dev
 
 **Related Modules**: All modules
 **Reference**: `/var/www/_bases/base_laravelpizza/laravel/Modules/Xot/docs/00-index.md`
@@ -134,15 +108,7 @@ Not all modules have comprehensive README files. Standardize README structure ac
 **Description**:
 Create roadmap documents for each module outlining planned features, improvements, and technical debt. Reference projects show comprehensive roadmaps for major modules.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Related Modules**: All modules, especially <nome progetto>, Blog, Cms
-=======
 **Related Modules**: All modules, especially Fixcity, Blog, Cms
->>>>>>> laraxot/dev
-=======
-**Related Modules**: All modules, especially Fixcity, Blog, Cms
->>>>>>> laraxot/dev
 **Reference**: `/var/www/_bases/base_laravelpizza/laravel/Modules/Job/docs/roadmap/`
 
 **Roadmap Template**:
@@ -187,30 +153,14 @@ Create roadmap documents for each module outlining planned features, improvement
 **Labels**: documentation, filament, migration
 
 **Description**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-The platform uses Filament 5 but lacks comprehensive migration documentation. Reference projects have detailed Filament 5 migration guides that should be adapted for <nome progetto>.
-=======
 The platform uses Filament 5 but lacks comprehensive migration documentation. Reference projects have detailed Filament 5 migration guides that should be adapted for FixCity.
->>>>>>> laraxot/dev
-=======
-The platform uses Filament 5 but lacks comprehensive migration documentation. Reference projects have detailed Filament 5 migration guides that should be adapted for FixCity.
->>>>>>> laraxot/dev
 
 **Related Modules**: All modules with Filament resources
 **Reference**: `/var/www/_bases/base_laravelpizza/laravel/Modules/Xot/docs/01-filament-5-migration-guide.md`
 
 **Content Requirements**:
 - Migration checklist
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Breaking changes from Filament 5
-=======
 - Breaking changes from Filament 4
->>>>>>> laraxot/dev
-=======
-- Breaking changes from Filament 4
->>>>>>> laraxot/dev
 - Code pattern changes (form() → getFormSchema())
 - Action array string keys requirement
 - Widget changes
@@ -235,23 +185,10 @@ The platform uses Filament 5 but lacks comprehensive migration documentation. Re
 **Labels**: documentation, performance, best-practices
 
 **Description**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-Reference projects emphasize logging performance optimization. <nome progetto> has some logging documentation (LOGGING_BEST_PRACTICES_2026-03-02.md) but needs comprehensive coverage across all modules.
-
-**Related Modules**: All modules
-**Reference**: <nome progetto>'s own `LOGGING_BEST_PRACTICES_2026-03-02.md` and reference project patterns
-=======
-=======
->>>>>>> laraxot/dev
 Reference projects emphasize logging performance optimization. FixCity has some logging documentation (LOGGING_BEST_PRACTICES_2026-03-02.md) but needs comprehensive coverage across all modules.
 
 **Related Modules**: All modules
 **Reference**: FixCity's own `LOGGING_BEST_PRACTICES_2026-03-02.md` and reference project patterns
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 **Key Points to Document**:
 - NEVER use Log::info() for routine operations (30-50% performance impact)
@@ -280,18 +217,8 @@ Reference projects emphasize logging performance optimization. FixCity has some 
 AGENTS.md emphasizes DRY principle for trait methods, but this needs comprehensive documentation with examples and anti-patterns.
 
 **Related Modules**: All modules, especially Cms (HasBlocks, SushiToJsons traits)
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Reference**: `/var/www/_bases/<repo progetto>/docs/DryTraitMethods.md`
-**Reference**: `/var/www/_bases/<repo progetto>/docs/DryTraitMethods.md`
-=======
 **Reference**: `/var/www/_bases/base_fixcity_fila5/docs/DryTraitMethods.md`
 **Reference**: `/var/www/_bases/base_ptv_fila5/docs/DryTraitMethods.md`
->>>>>>> laraxot/dev
-=======
-**Reference**: `/var/www/_bases/base_fixcity_fila5/docs/DryTraitMethods.md`
-**Reference**: `/var/www/_bases/base_ptv_fila5/docs/DryTraitMethods.md`
->>>>>>> laraxot/dev
 
 **Content Requirements**:
 - Trait method ownership principles
@@ -317,25 +244,11 @@ AGENTS.md emphasizes DRY principle for trait methods, but this needs comprehensi
 **Labels**: documentation, phpstan, quality
 
 **Description**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-While <nome progetto> achieved 0 PHPStan errors, the patterns and solutions should be thoroughly documented for future development and maintenance.
-
-**Related Modules**: All modules
-**Reference**: `/var/www/_bases/<repo progetto>/PHPSTAN_FINAL_REPORT.md`
-**Reference**: `/var/www/_bases/<repo progetto>/PHPSTAN_FINAL_REPORT.md`
-=======
-=======
->>>>>>> laraxot/dev
 While FixCity achieved 0 PHPStan errors, the patterns and solutions should be thoroughly documented for future development and maintenance.
 
 **Related Modules**: All modules
 **Reference**: `/var/www/_bases/base_fixcity_fila5/PHPSTAN_FINAL_REPORT.md`
 **Reference**: `/var/www/_bases/base_ptv_fila5/PHPSTAN_FINAL_REPORT.md`
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 **Content Requirements**:
 - Common PHPStan errors and solutions
@@ -429,18 +342,8 @@ While PHPStan Level 10 is achieved, there may be legacy code patterns that don't
 PHPStan tests configuration shows 13,982 errors in tests (from reference project pattern). Need systematic test improvement plan.
 
 **Related Modules**: All modules
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Reference**: `/var/www/_bases/<repo progetto>/PHPSTAN_FINAL_REPORT.md`
-**Reference**: `/var/www/_bases/<repo progetto>/PHPSTAN_FINAL_REPORT.md`
-=======
 **Reference**: `/var/www/_bases/base_fixcity_fila5/PHPSTAN_FINAL_REPORT.md`
 **Reference**: `/var/www/_bases/base_ptv_fila5/PHPSTAN_FINAL_REPORT.md`
->>>>>>> laraxot/dev
-=======
-**Reference**: `/var/www/_bases/base_fixcity_fila5/PHPSTAN_FINAL_REPORT.md`
-**Reference**: `/var/www/_bases/base_ptv_fila5/PHPSTAN_FINAL_REPORT.md`
->>>>>>> laraxot/dev
 
 **Test Areas to Improve**:
 - Test type safety
@@ -467,15 +370,7 @@ PHPStan tests configuration shows 13,982 errors in tests (from reference project
 **Labels**: performance, documentation, optimization
 
 **Description**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-Reference projects show comprehensive performance documentation. <nome progetto> needs similar coverage for performance patterns and optimization strategies.
-=======
 Reference projects show comprehensive performance documentation. FixCity needs similar coverage for performance patterns and optimization strategies.
->>>>>>> laraxot/dev
-=======
-Reference projects show comprehensive performance documentation. FixCity needs similar coverage for performance patterns and optimization strategies.
->>>>>>> laraxot/dev
 
 **Related Modules**: All modules, especially Cms and Xot
 **Reference**: `/var/www/_bases/base_laravelpizza/laravel/Modules/Xot/docs/memory-optimization-filament.md`
@@ -792,18 +687,6 @@ Discuss CI/CD pipeline improvements. Topics include:
 ## References
 
 - `/var/www/_bases/base_laravelpizza/laravel/Modules/Xot/docs/` - Comprehensive Xot documentation
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `/var/www/_bases/<repo progetto>/laravel/Modules/Xot/docs/` - Alternative Xot patterns
-- `/var/www/_bases/<repo progetto>/AGENTS.md` - Current architectural rules
-- `/var/www/_bases/<repo progetto>/PHPSTAN_FINAL_REPORT.md` - PHPStan achievement
-- `/var/www/_bases/<repo progetto>/laravel/Modules/Xot/docs/LOGGING_BEST_PRACTICES_2026-03-02.md` - Logging patterns
-- `/var/www/_bases/<repo progetto>/agents.md` - Current architectural rules
-- `/var/www/_bases/<repo progetto>/PHPSTAN_FINAL_REPORT.md` - PHPStan achievement
-- `/var/www/_bases/<repo progetto>/laravel/Modules/Xot/docs/LOGGING_BEST_PRACTICES_2026-03-02.md` - Logging patterns
-=======
-=======
->>>>>>> laraxot/dev
 - `/var/www/_bases/base_techplanner_fila5/laravel/Modules/Xot/docs/` - Alternative Xot patterns
 - `/var/www/_bases/base_fixcity_fila5/AGENTS.md` - Current architectural rules
 - `/var/www/_bases/base_fixcity_fila5/PHPSTAN_FINAL_REPORT.md` - PHPStan achievement
@@ -811,10 +694,6 @@ Discuss CI/CD pipeline improvements. Topics include:
 - `/var/www/_bases/base_ptv_fila5/agents.md` - Current architectural rules
 - `/var/www/_bases/base_ptv_fila5/PHPSTAN_FINAL_REPORT.md` - PHPStan achievement
 - `/var/www/_bases/base_ptv_fila5/laravel/Modules/Xot/docs/LOGGING_BEST_PRACTICES_2026-03-02.md` - Logging patterns
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ---
 

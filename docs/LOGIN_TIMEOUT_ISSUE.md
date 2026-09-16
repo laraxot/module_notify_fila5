@@ -62,15 +62,7 @@ protected string $view = 'pub_theme::filament.widgets.auth.login';
 
 ```bash
 # Verificare configurazione tema
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>/laravel
-=======
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptv_fila5_mono/laravel
->>>>>>> laraxot/dev
 php artisan config:cache
 php artisan view:cache
 ```
@@ -119,15 +111,7 @@ public function mount(): void
 ### Soluzione 5: Cache Viste
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>/laravel
-=======
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptv_fila5_mono/laravel
->>>>>>> laraxot/dev
 
 # Clear tutti i cache
 php artisan cache:clear
@@ -149,15 +133,7 @@ php artisan view:cache
 
 ```bash
 # Verificare che esista
-<<<<<<< HEAD
-<<<<<<< HEAD
-ls -la /var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
-=======
 ls -la /var/www/_bases/base_ptv_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
->>>>>>> laraxot/dev
-=======
-ls -la /var/www/_bases/base_ptv_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
->>>>>>> laraxot/dev
 ```
 
 ✅ **File esiste**: Abbiamo verificato che c'è
@@ -166,15 +142,7 @@ ls -la /var/www/_bases/base_ptv_fila5_mono/laravel/Themes/Sixteen/resources/view
 
 ```bash
 # Cercare dove è definito pub_theme
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>/laravel
-=======
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptv_fila5_mono/laravel
->>>>>>> laraxot/dev
 grep -r "pub_theme" config/ app/Providers/
 ```
 

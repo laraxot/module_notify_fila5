@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "🎯 <nome progetto> - PERFECTION PLAN"
-=======
 title: "🎯 FIXCITY - PERFECTION PLAN"
->>>>>>> laraxot/dev
-=======
-title: "🎯 FIXCITY - PERFECTION PLAN"
->>>>>>> laraxot/dev
 type: concept
 tags: [perfection, plan]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "perfection-plan 🎯 <nome progetto> - perfection plan"
-qmd: "perfection-plan 🎯 ptv - perfection plan"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "perfection-plan 🎯 fixcity - perfection plan"
 qmd: "perfection-plan 🎯 ptv - perfection plan"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🎯 <nome progetto> - PERFECTION PLAN
-=======
 # 🎯 FIXCITY - PERFECTION PLAN
->>>>>>> laraxot/dev
-=======
-# 🎯 FIXCITY - PERFECTION PLAN
->>>>>>> laraxot/dev
 
 **Data**: 2025-10-01  
 **Mode**: 🐄⚡ SUPER MUCCA PERFECTION  
@@ -71,15 +42,7 @@ related:
 ## 📊 MODULI ANALIZZATI (20)
 
 ### Core (3) - Priority: CRITICAL
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. **<nome progetto>** - 95% ✅ (API, Repository, Job implementati)
-=======
 1. **Fixcity** - 95% ✅ (API, Repository, Job implementati)
->>>>>>> laraxot/dev
-=======
-1. **Fixcity** - 95% ✅ (API, Repository, Job implementati)
->>>>>>> laraxot/dev
 2. **User** - 93% ✅ (2FA Service implementato)
 3. **Xot** - 95% ✅ (Framework completo)
 
@@ -111,15 +74,7 @@ related:
 ### FASE 1: Core Completion (Immediate)
 **Obiettivo**: Portare core al 100%
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### <nome progetto> (95% → 100%)
-=======
 #### Fixcity (95% → 100%)
->>>>>>> laraxot/dev
-=======
-#### Fixcity (95% → 100%)
->>>>>>> laraxot/dev
 - [x] GeocodeTicketAddressJob ✅
 - [x] TicketRepository ✅
 - [x] REST API ✅
@@ -255,15 +210,7 @@ php artisan test --filter=[TestName]
 ### Per Modulo
 | Modulo | Current | Target | Priority |
 |--------|---------|--------|----------|
-<<<<<<< HEAD
-<<<<<<< HEAD
-| <nome progetto> | 95% | 100% | CRITICAL |
-=======
 | Fixcity | 95% | 100% | CRITICAL |
->>>>>>> laraxot/dev
-=======
-| Fixcity | 95% | 100% | CRITICAL |
->>>>>>> laraxot/dev
 | User | 93% | 100% | CRITICAL |
 | Xot | 95% | 100% | CRITICAL |
 | UI | 72% | 90% | HIGH |

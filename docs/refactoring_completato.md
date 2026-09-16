@@ -54,15 +54,7 @@ TEMPO SPESO: 62 minuti
 - **Mantenuto:** connection, casts specifici
 - **PHPStan:** ✅ Clean
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 4. <nome progetto> Module
-=======
 ### 4. Fixcity Module
->>>>>>> laraxot/dev
-=======
-### 4. Fixcity Module
->>>>>>> laraxot/dev
 - **LOC:** 72 → 43 (-40%)
 - **Rimosso:** 8 proprietà, 2 trait
 - **Mantenuto:** connection, SoftDeletes, $dates
@@ -143,15 +135,7 @@ abstract class BaseModel extends EloquentModel  // ❌ NON XotBaseModel!
 Modules/Activity/app/Models/BaseModel.php
 Modules/Blog/app/Models/BaseModel.php
 Modules/Cms/app/Models/BaseModel.php
-<<<<<<< HEAD
-<<<<<<< HEAD
-Modules/<nome progetto>/app/Models/BaseModel.php
-=======
 Modules/Fixcity/app/Models/BaseModel.php
->>>>>>> laraxot/dev
-=======
-Modules/Fixcity/app/Models/BaseModel.php
->>>>>>> laraxot/dev
 Modules/Geo/app/Models/BaseModel.php
 Modules/Job/app/Models/BaseModel.php
 Modules/Lang/app/Models/BaseModel.php
@@ -167,15 +151,7 @@ docs/REFACTORING_COMPLETATO.md (questo file)
 Modules/Xot/docs/analisi-metodi-duplicati.md
 Modules/User/docs/analisi-metodi-duplicati.md
 Modules/Cms/docs/analisi-metodi-duplicati.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-Modules/<nome progetto>/docs/analisi-metodi-duplicati.md
-=======
 Modules/Fixcity/docs/analisi-metodi-duplicati.md
->>>>>>> laraxot/dev
-=======
-Modules/Fixcity/docs/analisi-metodi-duplicati.md
->>>>>>> laraxot/dev
 Themes/Sixteen/docs/analisi-metodi-duplicati.md
 Themes/TwentyOne/docs/analisi-metodi-duplicati.md
 

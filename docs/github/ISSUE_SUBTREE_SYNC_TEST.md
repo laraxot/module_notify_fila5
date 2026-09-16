@@ -70,15 +70,7 @@ Verify that changes made in module repositories sync correctly to the main repos
 
 ```bash
 # 1. Go to project root
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
 
 # 2. Run sync script
 ./bashscripts/git/subtrees/sync_remote_repo.sh laraxot

@@ -305,18 +305,8 @@ class User extends Model {
 ### File Structure
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<repo progetto>/
-<repo progetto>/
-=======
 base_fixcity_fila5/
 base_ptvx_fila5/
->>>>>>> laraxot/dev
-=======
-base_fixcity_fila5/
-base_ptvx_fila5/
->>>>>>> laraxot/dev
 ├── .cursor/
 │   ├── superpowers-config.json    ← Optional configuration
 │   └── skills/                     ← Custom skills (if any)

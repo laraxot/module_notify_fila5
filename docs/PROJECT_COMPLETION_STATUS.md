@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🎯 <nome progetto> - STATO COMPLETAMENTO PROGETTO
-=======
 # 🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO
->>>>>>> laraxot/dev
-=======
-# 🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO
->>>>>>> laraxot/dev
 
 **Data**: 2025-10-01  
 **Status**: 🚧 IN CORSO - Documentazione 75% completata  
@@ -23,15 +15,7 @@
 - ✅ **QUICK_START.md** - Guida rapida sviluppatori
 - ✅ **work-completed.md** - Riepilogo aggiornamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 🎫 Modulo <nome progetto> (85% → 90%)
-=======
 ### 🎫 Modulo Fixcity (85% → 90%)
->>>>>>> laraxot/dev
-=======
-### 🎫 Modulo Fixcity (85% → 90%)
->>>>>>> laraxot/dev
 - ✅ **ROADMAP_2025.md** - Aggiornato timeline Q4 2025-Q2 2026
 - ✅ **API.md** - Documentazione API completa (NEW)
 - ✅ **USER_GUIDE.md** - Guida utente cittadini completa (NEW)
@@ -48,15 +32,7 @@
 ## 📊 STATO DOCUMENTAZIONE MODULI
 
 ### ✅ Completati (90%+)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: 90% - API, User Guide, Admin Guide completate
-=======
 - **Fixcity**: 90% - API, User Guide, Admin Guide completate
->>>>>>> laraxot/dev
-=======
-- **Fixcity**: 90% - API, User Guide, Admin Guide completate
->>>>>>> laraxot/dev
 - **User**: 92% - Roadmap aggiornata
 - **Xot**: 95% - Documentazione completa
 
@@ -126,15 +102,7 @@
 
 ### Qualità Codice
 - **PHPStan Level 9**: ✅ 0 errori
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Filament 5.x**: ✅ Compatibile
-=======
 - **Filament 4.x**: ✅ Compatibile
->>>>>>> laraxot/dev
-=======
-- **Filament 4.x**: ✅ Compatibile
->>>>>>> laraxot/dev
 - **Test Coverage**: 🚧 65% (target 80%)
 - **AGID Compliance**: 🚧 90% (target 100%)
 
@@ -154,15 +122,7 @@
 
 ### Week 1 (Ottobre 2025) - CURRENT
 - [x] Aggiornare roadmap principali
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Creare documentazione API <nome progetto>
-=======
 - [x] Creare documentazione API Fixcity
->>>>>>> laraxot/dev
-=======
-- [x] Creare documentazione API Fixcity
->>>>>>> laraxot/dev
 - [x] Creare guide utente e admin
 - [ ] Completare docs modulo User
 - [ ] Completare docs modulo UI
@@ -196,30 +156,14 @@
 4. **work-completed.md** - Riepilogo aggiornamenti
 5. **PROJECT_COMPLETION_STATUS.md** - Questo documento
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Modulo <nome progetto> (3 documenti)
-=======
 ### Modulo Fixcity (3 documenti)
->>>>>>> laraxot/dev
-=======
-### Modulo Fixcity (3 documenti)
->>>>>>> laraxot/dev
 1. **API.md** - Documentazione API RESTful completa
 2. **USER_GUIDE.md** - Guida utente cittadini (15 sezioni)
 3. **ADMIN_GUIDE.md** - Guida amministratori (18 sezioni)
 
 ### Roadmap Aggiornate (3 documenti)
 1. **ROADMAP_STATUS_SUMMARY.md** - Master roadmap
-<<<<<<< HEAD
-<<<<<<< HEAD
-2. **<nome progetto>/ROADMAP_2025.md** - Roadmap modulo
-=======
 2. **Fixcity/ROADMAP_2025.md** - Roadmap modulo
->>>>>>> laraxot/dev
-=======
-2. **Fixcity/ROADMAP_2025.md** - Roadmap modulo
->>>>>>> laraxot/dev
 3. **User/ROADMAP.md** - Roadmap modulo
 4. **Sixteen/ROADMAP_2025.md** - Roadmap tema
 
@@ -230,15 +174,7 @@
 ## 🔗 STRUTTURA DOCUMENTAZIONE
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<repo progetto>/
-=======
 base_ptv_fila5_mono/
->>>>>>> laraxot/dev
-=======
-base_ptv_fila5_mono/
->>>>>>> laraxot/dev
 ├── DOCUMENTATION_INDEX.md          # ✅ Indice generale
 ├── QUICK_START.md                  # ✅ Guida rapida
 ├── ROADMAP_STATUS_SUMMARY.md       # ✅ Status master
@@ -250,15 +186,7 @@ base_ptv_fila5_mono/
 │
 └── laravel/
     ├── Modules/
-<<<<<<< HEAD
-<<<<<<< HEAD
-    │   ├── <nome progetto>/docs/
-=======
     │   ├── Fixcity/docs/
->>>>>>> laraxot/dev
-=======
-    │   ├── Fixcity/docs/
->>>>>>> laraxot/dev
     │   │   ├── README.md           # ✅ Completo
     │   │   ├── ROADMAP_2025.md     # ✅ Aggiornato
     │   │   ├── API.md              # ✅ NEW

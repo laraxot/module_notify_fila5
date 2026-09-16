@@ -5,18 +5,8 @@ tags: [super, mucca, login, completed]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "super-mucca-login-completed 🐄 super mucca - login page completata!"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -70,15 +60,7 @@ related:
 ✓ Card bianca con shadow-xl e rounded-lg
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### ✅ Form Widget Filament 5
-=======
 ### ✅ Form Widget Filament 4
->>>>>>> laraxot/dev
-=======
-### ✅ Form Widget Filament 4
->>>>>>> laraxot/dev
 ```html
 ✓ Titolo form "Accedi al tuo account"
 ✓ Sottotitolo "Inserisci le tue credenziali per accedere"
@@ -161,15 +143,7 @@ Vista Widget: Themes/Sixteen/.../auth/login.blade.php
   - {{ $this->form }} → Rende i campi
   - <button type="submit">Accedi</button>
     ↓
-<<<<<<< HEAD
-<<<<<<< HEAD
-Filament 5 Processing:
-=======
 Filament 4 Processing:
->>>>>>> laraxot/dev
-=======
-Filament 4 Processing:
->>>>>>> laraxot/dev
   - Validazione automatica
   - Error handling
   - Loading states
@@ -265,15 +239,7 @@ Fail: Error message + rimane su form
 - [x] Submit button reattivo
 - [x] Loading spinner durante submit
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Filament 5 Integration ✅
-=======
 #### Filament 4 Integration ✅
->>>>>>> laraxot/dev
-=======
-#### Filament 4 Integration ✅
->>>>>>> laraxot/dev
 - [x] Widget renderizza
 - [x] Campi form appaiono
 - [x] Validazione attiva
@@ -353,15 +319,7 @@ Premi **CTRL+F5** (hard refresh) per svuotare cache browser
 
 ## 💡 Cosa Ho Capito e Documentato
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Architettura Filament 5 Widgets
-=======
 ### Architettura Filament 4 Widgets
->>>>>>> laraxot/dev
-=======
-### Architettura Filament 4 Widgets
->>>>>>> laraxot/dev
 
 **Pattern Completo**:
 
@@ -439,15 +397,7 @@ Premi **CTRL+F5** (hard refresh) per svuotare cache browser
 - ✅ **Guide troubleshooting** complete
 
 ### Conoscenza Acquisita
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ **Filament 5 Widgets** - Pattern completo documentato
-=======
 - ✅ **Filament 4 Widgets** - Pattern completo documentato
->>>>>>> laraxot/dev
-=======
-- ✅ **Filament 4 Widgets** - Pattern completo documentato
->>>>>>> laraxot/dev
 - ✅ **XotBase Architecture** - Estensione classi corretta
 - ✅ **pub_theme System** - Vista configurabile tema
 - ✅ **Translation System** - Namespace e path corretti
@@ -559,15 +509,7 @@ Password: password
 
 ## 🎓 Lezioni Apprese
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Pattern Filament 5 Widgets
-=======
 ### Pattern Filament 4 Widgets
->>>>>>> laraxot/dev
-=======
-### Pattern Filament 4 Widgets
->>>>>>> laraxot/dev
 
 1. **XotBaseWidget** fornisce:
    - `InteractsWithForms` trait
@@ -616,15 +558,7 @@ Password: password
 **Deliverables**:
 - ✅ Login funzionante
 - ✅ Design Docs.Italia.it
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ Widget Filament 5 integrato
-=======
 - ✅ Widget Filament 4 integrato
->>>>>>> laraxot/dev
-=======
-- ✅ Widget Filament 4 integrato
->>>>>>> laraxot/dev
 - ✅ Traduzioni complete
 - ✅ 13 file documentazione
 - ✅ 3,023 file analizzati

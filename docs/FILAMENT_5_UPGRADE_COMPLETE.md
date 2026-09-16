@@ -94,15 +94,7 @@ composer show livewire/livewire
 ### 1. Clear Cache
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>/laravel
-=======
 cd /var/www/_bases/base_ptv_fila5/laravel
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptv_fila5/laravel
->>>>>>> laraxot/dev
 php artisan config:clear
 php artisan cache:clear
 php artisan view:clear

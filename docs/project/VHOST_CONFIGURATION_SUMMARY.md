@@ -104,15 +104,7 @@ This document summarizes the complete VHost configuration implementation for the
 ## 📁 File Structure
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<repo progetto>/
-=======
 base_ptvx_fila5/
->>>>>>> laraxot/dev
-=======
-base_ptvx_fila5/
->>>>>>> laraxot/dev
 ├── laravel/
 │   └── config/
 │       └── vhost/

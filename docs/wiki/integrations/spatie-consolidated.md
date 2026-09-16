@@ -1734,15 +1734,7 @@ Schema::table('mail_templates', function (Blueprint $table) {
 
 **Ultimo aggiornamento**: 27 Ottobre 2025  
 **Status**: ✅ PLUGIN REGISTRATO  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Compatibilità**: Filament 5.x
-=======
 **Compatibilità**: Filament 4.x
->>>>>>> laraxot/dev
-=======
-**Compatibilità**: Filament 4.x
->>>>>>> laraxot/dev
 
 
 

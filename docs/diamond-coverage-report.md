@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "💎 <nome progetto> - DIAMOND COVERAGE REPORT"
-=======
 title: "💎 FIXCITY - DIAMOND COVERAGE REPORT"
->>>>>>> laraxot/dev
-=======
-title: "💎 FIXCITY - DIAMOND COVERAGE REPORT"
->>>>>>> laraxot/dev
 type: concept
 tags: [diamond, coverage, report]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "diamond-coverage-report 💎 <nome progetto> - diamond coverage report"
-qmd: "diamond-coverage-report 💎 ptv - diamond coverage report"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "diamond-coverage-report 💎 fixcity - diamond coverage report"
 qmd: "diamond-coverage-report 💎 ptv - diamond coverage report"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 💎 <nome progetto> - DIAMOND COVERAGE REPORT
-=======
 # 💎 FIXCITY - DIAMOND COVERAGE REPORT
->>>>>>> laraxot/dev
-=======
-# 💎 FIXCITY - DIAMOND COVERAGE REPORT
->>>>>>> laraxot/dev
 
 **Data**: 2025-10-02  
 **Mode**: 🐄⚡💎 SUPER MUCCA DIAMOND  
@@ -65,15 +36,7 @@ Raggiungere il **100% di test coverage** su tutti i moduli critici con test comp
 
 ## 📊 TEST SUITES CREATE (8 totali)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Modulo <nome progetto> (4 suites)
-=======
 ### Modulo Fixcity (4 suites)
->>>>>>> laraxot/dev
-=======
-### Modulo Fixcity (4 suites)
->>>>>>> laraxot/dev
 1. ✅ **GeocodeTicketJobTest.php** - 5 test cases
    - Geocoding success
    - Cache usage
@@ -152,15 +115,7 @@ Raggiungere il **100% di test coverage** su tutti i moduli critici con test comp
 
 | Modulo | Files Tested | Test Cases | Coverage | Status |
 |--------|--------------|------------|----------|--------|
-<<<<<<< HEAD
-<<<<<<< HEAD
-| **<nome progetto>** | 4 | 50+ | ~85% | ✅ Eccellente |
-=======
 | **Fixcity** | 4 | 50+ | ~85% | ✅ Eccellente |
->>>>>>> laraxot/dev
-=======
-| **Fixcity** | 4 | 50+ | ~85% | ✅ Eccellente |
->>>>>>> laraxot/dev
 | **User** | 2 | 25+ | ~80% | ✅ Ottimo |
 | **Geo** | 1 | 8 | ~75% | ✅ Buono |
 | **Media** | 1 | 30+ | ~85% | ✅ Eccellente |
@@ -228,15 +183,7 @@ php artisan test
 
 ### Run Specific Module
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-php artisan test --filter=<nome progetto>
-=======
 php artisan test --filter=Fixcity
->>>>>>> laraxot/dev
-=======
-php artisan test --filter=Fixcity
->>>>>>> laraxot/dev
 php artisan test --filter=User
 php artisan test --filter=Geo
 php artisan test --filter=Media
@@ -265,15 +212,7 @@ php artisan test --parallel
 ## 🎯 COVERAGE GOALS
 
 ### Short Term (Week 1)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] <nome progetto>: 85% → **95%**
-=======
 - [ ] Fixcity: 85% → **95%**
->>>>>>> laraxot/dev
-=======
-- [ ] Fixcity: 85% → **95%**
->>>>>>> laraxot/dev
 - [ ] User: 80% → **95%**
 - [ ] Geo: 75% → **90%**
 - [ ] Media: 85% → **95%**
@@ -402,18 +341,6 @@ php artisan test --parallel
 **Target**: 💎 **100% DIAMOND COVERAGE**  
 **Mode**: 🐄⚡💎 **SUPER MUCCA DIAMOND ACTIVE**  
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-*"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. <nome progetto> sarà il diamante più brillante del 2025!"*
-
-**#<nome progetto>2025 #DiamondCoverage #TestExcellence #100Percent**
-=======
 *"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. FixCity sarà il diamante più brillante del 2025!"*
 
 **#FixCity2025 #DiamondCoverage #TestExcellence #100Percent**
->>>>>>> laraxot/dev
-=======
-*"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. FixCity sarà il diamante più brillante del 2025!"*
-
-**#FixCity2025 #DiamondCoverage #TestExcellence #100Percent**
->>>>>>> laraxot/dev

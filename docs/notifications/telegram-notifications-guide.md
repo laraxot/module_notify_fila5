@@ -1,14 +1,6 @@
 # Notifiche Telegram 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di <nome progetto>.
-=======
 Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di Quaeris.
->>>>>>> laraxot/dev
-=======
-Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di Quaeris.
->>>>>>> laraxot/dev
 Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di App.
 
 ## Indice
@@ -24,15 +16,7 @@ Questa documentazione descrive come implementare notifiche Telegram nel modulo N
 
 ## Introduzione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. <nome progetto> integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
-=======
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. Quaeris integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
->>>>>>> laraxot/dev
-=======
-Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. Quaeris integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
->>>>>>> laraxot/dev
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. App integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
 
 ## Setup del Bot Telegram
@@ -46,38 +30,17 @@ Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua AP
 
 ### Funzionalità del Bot
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il bot di <nome progetto> deve avere:
-- Privacy Mode disattivata (per leggere messaggi nei gruppi)
-- Comandi personalizzati configurati
-- Immagine del profilo con logo <nome progetto>
-=======
-=======
->>>>>>> laraxot/dev
 Il bot di Quaeris deve avere:
 - Privacy Mode disattivata (per leggere messaggi nei gruppi)
 - Comandi personalizzati configurati
 - Immagine del profilo con logo Quaeris
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ### Comandi Consigliati
 
 Configura i seguenti comandi per il tuo bot:
 ```
 start - Inizia l'interazione con il bot
-<<<<<<< HEAD
-<<<<<<< HEAD
-register - Collega il tuo account Telegram a <nome progetto>
-=======
 register - Collega il tuo account Telegram a Quaeris
->>>>>>> laraxot/dev
-=======
-register - Collega il tuo account Telegram a Quaeris
->>>>>>> laraxot/dev
 register - Collega il tuo account Telegram a App
 unregister - Scollega il tuo account Telegram
 settings - Gestisci le tue preferenze di notifica
@@ -199,23 +162,10 @@ public function toTelegram($notifiable)
 
 ### Collegamento Account Telegram
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Per collegare un account Telegram a un utente <nome progetto>:
-
-1. Implementa un comando `/register` nel bot che generi un token univoco.
-2. L'utente inserisce questo token nel proprio profilo nell'app <nome progetto>.
-=======
-=======
->>>>>>> laraxot/dev
 Per collegare un account Telegram a un utente Quaeris:
 
 1. Implementa un comando `/register` nel bot che generi un token univoco.
 2. L'utente inserisce questo token nel proprio profilo nell'app Quaeris.
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 3. Salva il `chat_id` Telegram dell'utente nel database.
 
 ```php
@@ -228,15 +178,7 @@ use Modules\Notify\Models\TelegramToken;
 class RegisterCommand extends Command
 {
     protected $name = 'register';
-<<<<<<< HEAD
-<<<<<<< HEAD
-protected $description = 'Collega il tuo account Telegram a <nome progetto>';
-=======
 protected $description = 'Collega il tuo account Telegram a Quaeris';
->>>>>>> laraxot/dev
-=======
-protected $description = 'Collega il tuo account Telegram a Quaeris';
->>>>>>> laraxot/dev
 protected $description = 'Collega il tuo account Telegram a App';
     
     public function handle()
@@ -252,15 +194,7 @@ protected $description = 'Collega il tuo account Telegram a App';
         ]);
         
         $this->replyWithMessage([
-<<<<<<< HEAD
-<<<<<<< HEAD
-'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo <nome progetto> per completare il collegamento."
-=======
 'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo Quaeris per completare il collegamento."
->>>>>>> laraxot/dev
-=======
-'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo Quaeris per completare il collegamento."
->>>>>>> laraxot/dev
 'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo App per completare il collegamento."
         ]);
     }

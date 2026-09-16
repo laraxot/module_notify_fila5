@@ -111,13 +111,6 @@ class Contact extends BaseModel
         'attribute_14'];
 
     /** @return array<string, string> */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     protected function casts(): array
     {
         return [

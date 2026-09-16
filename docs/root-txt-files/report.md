@@ -8,21 +8,6 @@
          function Safe\error_log;' at the beginning of the file to use the variant provided by the                   
          'thecodingmachine/safe' library.                                                                            
          🪪  theCodingMachineSafe.class                                                                              
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\AI\app\Actions\SentimentAction.php:82\AI\app\Actions\SentimentAction.php]8;;\                                                                      
-  107    Variable $transformers in PHPDoc tag @var does not exist.                                                   
-         🪪  varTag.variableNotFound                                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\AI\app\Actions\SentimentAction.php:107\AI\app\Actions\SentimentAction.php]8;;\                                                                      
-  117    Cannot call method apply() on mixed.                                                                        
-         🪪  method.nonObject                                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\AI\app\Actions\SentimentAction.php:117\AI\app\Actions\SentimentAction.php]8;;\                                                                      
-  117    Cannot call method setCacheDir() on mixed.                                                                  
-         🪪  method.nonObject                                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\AI\app\Actions\SentimentAction.php:117\AI\app\Actions\SentimentAction.php]8;;\                                                                      
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\AI\app\Actions\SentimentAction.php:82\AI\app\Actions\SentimentAction.php]8;;\                                                                      
   107    Variable $transformers in PHPDoc tag @var does not exist.                                                   
          🪪  varTag.variableNotFound                                                                                 
@@ -33,23 +18,11 @@
   117    Cannot call method setCacheDir() on mixed.                                                                  
          🪪  method.nonObject                                                                                        
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\AI\app\Actions\SentimentAction.php:117\AI\app\Actions\SentimentAction.php]8;;\                                                                      
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
   134    Function error_log is unsafe to use. It can return FALSE instead of throwing an exception. Please add 'use  
          function Safe\error_log;' at the beginning of the file to use the variant provided by the                   
          'thecodingmachine/safe' library.                                                                            
          🪪  theCodingMachineSafe.class                                                                              
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\AI\app\Actions\SentimentAction.php:134\AI\app\Actions\SentimentAction.php]8;;\                                                                      
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\AI\app\Actions\SentimentAction.php:134\AI\app\Actions\SentimentAction.php]8;;\                                                                      
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\AI\app\Actions\SentimentAction.php:134\AI\app\Actions\SentimentAction.php]8;;\                                                                      
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ ---------------------------------------------------------------------------------------------------------- 
@@ -57,15 +30,7 @@
  ------ ---------------------------------------------------------------------------------------------------------- 
   11     Called 'env' outside of the config directory which returns null when the config is cached, use 'config'.  
          🪪  larastan.noEnvCallsOutsideOfConfig                                                                    
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\AI\config\config.php:11\AI\config\config.php]8;;\                                                                                  
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\AI\config\config.php:11\AI\config\config.php]8;;\                                                                                  
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\AI\config\config.php:11\AI\config\config.php]8;;\                                                                                  
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------- 
@@ -75,15 +40,7 @@
          should return array<string, Filament\Tables\Columns\Column> but returns array<int,                       
          Filament\Tables\Columns\TextColumn>.                                                                     
          🪪  return.type                                                                                          
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Filament\Resources\ActivityResource\Pages\ListActivities.php:17\Activity\app\Filament\Resources\ActivityResource\Pages\ListActivities.php]8;;\                            
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Filament\Resources\ActivityResource\Pages\ListActivities.php:17\Activity\app\Filament\Resources\ActivityResource\Pages\ListActivities.php]8;;\                            
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Filament\Resources\ActivityResource\Pages\ListActivities.php:17\Activity\app\Filament\Resources\ActivityResource\Pages\ListActivities.php]8;;\                            
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------- 
 
  ------ ---------------------------------------------------------------------------------------------------------- 
@@ -92,15 +49,7 @@
   29     Parameter #1 $view of method Filament\Support\Components\ViewComponent::view() expects view-string|null,  
          string given.                                                                                             
          🪪  argument.type                                                                                         
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Filament\Resources\SnapshotResource\Pages\ListSnapshots.php:29\Activity\app\Filament\Resources\SnapshotResource\Pages\ListSnapshots.php]8;;\                              
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Filament\Resources\SnapshotResource\Pages\ListSnapshots.php:29\Activity\app\Filament\Resources\SnapshotResource\Pages\ListSnapshots.php]8;;\                              
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Filament\Resources\SnapshotResource\Pages\ListSnapshots.php:29\Activity\app\Filament\Resources\SnapshotResource\Pages\ListSnapshots.php]8;;\                              
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------------------------------------- 
 
  ------ -------------------------------------------------------------------------------------------------------------- 
@@ -110,15 +59,7 @@
          should return array<string, Filament\Tables\Columns\Column> but returns array<int,                            
          Filament\Tables\Columns\TextColumn|Filament\Tables\Columns\ViewColumn>.                                       
          🪪  return.type                                                                                               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Filament\Resources\StoredEventResource\Pages\ListStoredEvents.php:17\Activity\app\Filament\Resources\StoredEventResource\Pages\ListStoredEvents.php]8;;\                            
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Filament\Resources\StoredEventResource\Pages\ListStoredEvents.php:17\Activity\app\Filament\Resources\StoredEventResource\Pages\ListStoredEvents.php]8;;\                            
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Filament\Resources\StoredEventResource\Pages\ListStoredEvents.php:17\Activity\app\Filament\Resources\StoredEventResource\Pages\ListStoredEvents.php]8;;\                            
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------- 
@@ -130,23 +71,10 @@
          💡 You can fix 3rd party PHPDoc types with stub files:                                                   
          💡 [36mhttps://phpstan.org/user-guide/stub-files[39m                                                             
                                                                                                                   
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\Activity.php:17\Activity\app\Models\Activity.php]8;;\                                                                     
-  32     Property Modules\Activity\Models\Activity::$connection (string) overriding property                      
-         Illuminate\Database\Eloquent\Model::$connection should not have a native type.                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\Activity.php:32\Activity\app\Models\Activity.php]8;;\                                                                     
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\Activity.php:17\Activity\app\Models\Activity.php]8;;\                                                                     
   32     Property Modules\Activity\Models\Activity::$connection (string) overriding property                      
          Illuminate\Database\Eloquent\Model::$connection should not have a native type.                           
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\Activity.php:32\Activity\app\Models\Activity.php]8;;\                                                                     
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------------- 
@@ -154,27 +82,6 @@
  ------ --------------------------------------------------------------------------------------------------------------- 
   35     Property Modules\Activity\Models\BaseModel::$incrementing (bool) overriding property                           
          Illuminate\Database\Eloquent\Model::$incrementing should not have a native type.                               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\BaseModel.php:35\Activity\app\Models\BaseModel.php]8;;\                                                                          
-  36     Property Modules\Activity\Models\BaseModel::$timestamps (bool) overriding property                             
-         Illuminate\Database\Eloquent\Model::$timestamps should not have a native type.                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\BaseModel.php:36\Activity\app\Models\BaseModel.php]8;;\                                                                          
-  37     Property Modules\Activity\Models\BaseModel::$perPage (int) overriding property                                 
-         Illuminate\Database\Eloquent\Model::$perPage should not have a native type.                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\BaseModel.php:37\Activity\app\Models\BaseModel.php]8;;\                                                                          
-  38     Property Modules\Activity\Models\BaseModel::$connection (string) overriding property                           
-         Illuminate\Database\Eloquent\Model::$connection should not have a native type.                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\BaseModel.php:38\Activity\app\Models\BaseModel.php]8;;\                                                                          
-  39     Property Modules\Activity\Models\BaseModel::$primaryKey (string) overriding property                           
-         Illuminate\Database\Eloquent\Model::$primaryKey should not have a native type.                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\BaseModel.php:39\Activity\app\Models\BaseModel.php]8;;\                                                                          
-  40     Property Modules\Activity\Models\BaseModel::$keyType (string) overriding property                              
-         Illuminate\Database\Eloquent\Model::$keyType should not have a native type.                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\BaseModel.php:40\Activity\app\Models\BaseModel.php]8;;\                                                                          
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\BaseModel.php:35\Activity\app\Models\BaseModel.php]8;;\                                                                          
   36     Property Modules\Activity\Models\BaseModel::$timestamps (bool) overriding property                             
          Illuminate\Database\Eloquent\Model::$timestamps should not have a native type.                                 
@@ -191,40 +98,20 @@
   40     Property Modules\Activity\Models\BaseModel::$keyType (string) overriding property                              
          Illuminate\Database\Eloquent\Model::$keyType should not have a native type.                                    
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\BaseModel.php:40\Activity\app\Models\BaseModel.php]8;;\                                                                          
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
   43     PHPDoc type array<string> of property Modules\Activity\Models\BaseModel::$hidden is not covariant with PHPDoc  
          type list<string> of overridden property Illuminate\Database\Eloquent\Model::$hidden.                          
          🪪  property.phpDocType                                                                                        
          💡 You can fix 3rd party PHPDoc types with stub files:                                                         
          💡 [36mhttps://phpstan.org/user-guide/stub-files[39m                                                                   
                                                                                                                         
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\BaseModel.php:43\Activity\app\Models\BaseModel.php]8;;\                                                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\BaseModel.php:43\Activity\app\Models\BaseModel.php]8;;\                                                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\BaseModel.php:43\Activity\app\Models\BaseModel.php]8;;\                                                                          
->>>>>>> laraxot/dev
   48     PHPDoc type array<string> of property Modules\Activity\Models\BaseModel::$fillable is not covariant with       
          PHPDoc type list<string> of overridden property Illuminate\Database\Eloquent\Model::$fillable.                 
          🪪  property.phpDocType                                                                                        
          💡 You can fix 3rd party PHPDoc types with stub files:                                                         
          💡 [36mhttps://phpstan.org/user-guide/stub-files[39m                                                                   
                                                                                                                         
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\BaseModel.php:48\Activity\app\Models\BaseModel.php]8;;\                                                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\BaseModel.php:48\Activity\app\Models\BaseModel.php]8;;\                                                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\BaseModel.php:48\Activity\app\Models\BaseModel.php]8;;\                                                                          
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------- 
@@ -236,23 +123,10 @@
          💡 You can fix 3rd party PHPDoc types with stub files:                                                   
          💡 [36mhttps://phpstan.org/user-guide/stub-files[39m                                                             
                                                                                                                   
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\Snapshot.php:37\Activity\app\Models\Snapshot.php]8;;\                                                                     
-  39     Property Modules\Activity\Models\Snapshot::$connection (string) overriding property                      
-         Modules\Activity\Models\BaseSnapshot::$connection should not have a native type.                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\Snapshot.php:39\Activity\app\Models\Snapshot.php]8;;\                                                                     
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\Snapshot.php:37\Activity\app\Models\Snapshot.php]8;;\                                                                     
   39     Property Modules\Activity\Models\Snapshot::$connection (string) overriding property                      
          Modules\Activity\Models\BaseSnapshot::$connection should not have a native type.                         
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\Snapshot.php:39\Activity\app\Models\Snapshot.php]8;;\                                                                     
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
@@ -264,23 +138,10 @@
          💡 You can fix 3rd party PHPDoc types with stub files:                                                      
          💡 [36mhttps://phpstan.org/user-guide/stub-files[39m                                                                
                                                                                                                      
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\StoredEvent.php:17\Activity\app\Models\StoredEvent.php]8;;\                                                                     
-  30     Property Modules\Activity\Models\StoredEvent::$connection (string) overriding property                      
-         Modules\Activity\Models\BaseStoredEvent::$connection should not have a native type.                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Activity\app\Models\StoredEvent.php:30\Activity\app\Models\StoredEvent.php]8;;\                                                                     
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\StoredEvent.php:17\Activity\app\Models\StoredEvent.php]8;;\                                                                     
   30     Property Modules\Activity\Models\StoredEvent::$connection (string) overriding property                      
          Modules\Activity\Models\BaseStoredEvent::$connection should not have a native type.                         
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Activity\app\Models\StoredEvent.php:30\Activity\app\Models\StoredEvent.php]8;;\                                                                     
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ ------------------------------------------------------------------------------------------------------------- 
@@ -289,49 +150,6 @@
   34     Parameter #1 $data of static method Modules\Blog\DataObjects\ArticleData::fromArray() expects array<string,  
          mixed>, array given.                                                                                         
          🪪  argument.type                                                                                            
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:34\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  59     Property Modules\Blog\Models\Article::$status_display (int) does not accept string.                          
-         🪪  assign.propertyType                                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:59\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  60     Property Modules\Blog\Models\Article::$bet_end_date (string|null) does not accept                            
-         Illuminate\Support\Carbon|null.                                                                              
-         🪪  assign.propertyType                                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:60\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  61     Property Modules\Blog\Models\Article::$event_start_date (string|null) does not accept                        
-         Illuminate\Support\Carbon|null.                                                                              
-         🪪  assign.propertyType                                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:61\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  62     Property Modules\Blog\Models\Article::$event_end_date (string|null) does not accept                          
-         Illuminate\Support\Carbon|null.                                                                              
-         🪪  assign.propertyType                                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:62\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  63     Property Modules\Blog\Models\Article::$is_wagerable (int) does not accept bool.                              
-         🪪  assign.propertyType                                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:63\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  64     Property Modules\Blog\Models\Article::$brier_score (string|null) does not accept float.                      
-         🪪  assign.propertyType                                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:64\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  65     Property Modules\Blog\Models\Article::$brier_score_play_money (string|null) does not accept float.           
-         🪪  assign.propertyType                                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:65\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  66     Property Modules\Blog\Models\Article::$brier_score_real_money (string|null) does not accept float.           
-         🪪  assign.propertyType                                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:66\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  70     Property Modules\Blog\Models\Article::$wagers (int|null) does not accept array<int, array<string, mixed>>.   
-         🪪  assign.propertyType                                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:70\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  84     Cannot cast mixed to string.                                                                                 
-         🪪  cast.string                                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:84\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-  85     Access to an undefined property Modules\Rating\Models\Rating::$disabled.                                     
-         🪪  property.notFound                                                                                        
-         💡 Learn more: [36mhttps://phpstan.org/blog/solving-phpstan-access-to-undefined-property[39m                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:85\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:34\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
   59     Property Modules\Blog\Models\Article::$status_display (int) does not accept string.                          
          🪪  assign.propertyType                                                                                      
@@ -370,10 +188,6 @@
          🪪  property.notFound                                                                                        
          💡 Learn more: [36mhttps://phpstan.org/blog/solving-phpstan-access-to-undefined-property[39m                         
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php:85\Blog\app\Actions\Article\ImportArticlesFromByJsonTextAction.php]8;;\                                          
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
@@ -382,39 +196,6 @@
   18     Parameter #2 $class of static method Webmozart\Assert\Assert::isInstanceOf() expects class-string<object>,  
          mixed given.                                                                                                
          🪪  argument.type                                                                                           
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:18\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-  27     Cannot access offset mixed on mixed.                                                                        
-         🪪  offsetAccess.nonOffsetAccessible                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:27\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-  28     Cannot access offset 'it' on mixed.                                                                         
-         🪪  offsetAccess.nonOffsetAccessible                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:28\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-  28     Cannot access offset mixed on mixed.                                                                        
-         🪪  offsetAccess.nonOffsetAccessible                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:28\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-  40     Cannot access offset mixed on mixed.                                                                        
-         🪪  offsetAccess.nonOffsetAccessible                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:40\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-  41     Cannot access offset 'it' on mixed.                                                                         
-         🪪  offsetAccess.nonOffsetAccessible                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:41\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-  41     Cannot access offset mixed on mixed.                                                                        
-         🪪  offsetAccess.nonOffsetAccessible                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:41\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-  53     Cannot access offset mixed on mixed.                                                                        
-         🪪  offsetAccess.nonOffsetAccessible                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:53\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-  54     Cannot access offset 'it' on mixed.                                                                         
-         🪪  offsetAccess.nonOffsetAccessible                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:54\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-  54     Cannot access offset mixed on mixed.                                                                        
-         🪪  offsetAccess.nonOffsetAccessible                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:54\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:18\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
   27     Cannot access offset mixed on mixed.                                                                        
          🪪  offsetAccess.nonOffsetAccessible                                                                        
@@ -443,10 +224,6 @@
   54     Cannot access offset mixed on mixed.                                                                        
          🪪  offsetAccess.nonOffsetAccessible                                                                        
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Actions\Article\TranslateContentAction.php:54\Blog\app\Actions\Article\TranslateContentAction.php]8;;\                                                     
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ -------------------------------------------------------------------------------------------------------- 
@@ -454,57 +231,6 @@
  ------ -------------------------------------------------------------------------------------------------------- 
   25     Cannot access offset 'start_date' on mixed.                                                             
          🪪  offsetAccess.nonOffsetAccessible                                                                    
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:25\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  29     Cannot access offset 'end_date' on mixed.                                                               
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:29\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  34     Cannot access offset 'category_dict' on mixed.                                                          
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:34\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  37     Cannot access offset 'title' on mixed.                                                                  
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:37\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  38     Cannot access offset 'slug' on mixed.                                                                   
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:38\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  46     Cannot access offset 'title' on mixed.                                                                  
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:46\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  47     Cannot access offset 'action_text' on mixed.                                                            
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:47\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  50     Cannot access offset 'title' on mixed.                                                                  
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:50\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  51     Cannot access offset 'short_description' on mixed.                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:51\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  52     Cannot access offset 'action_text' on mixed.                                                            
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:52\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  53     Cannot access offset 'link' on mixed.                                                                   
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:53\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  56     Cannot access offset 'hot_topic' on mixed.                                                              
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:56\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  57     Cannot access offset 'open_markets_count' on mixed.                                                     
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:57\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  58     Cannot access offset 'landing_banner' on mixed.                                                         
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:58\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  63     Cannot access offset 'desktop_thumbnail' on mixed.                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:63\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-  63     Parameter #1 $url of method Modules\Blog\Models\Banner::addMediaFromUrl() expects string, mixed given.  
-         🪪  argument.type                                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:63\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:25\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
   29     Cannot access offset 'end_date' on mixed.                                                               
          🪪  offsetAccess.nonOffsetAccessible                                                                    
@@ -551,10 +277,6 @@
   63     Parameter #1 $url of method Modules\Blog\Models\Banner::addMediaFromUrl() expects string, mixed given.  
          🪪  argument.type                                                                                       
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php:63\Blog\app\Actions\Banner\ImportBannerFromByJsonTextAction.php]8;;\                                        
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------- 
@@ -562,69 +284,6 @@
  ------ --------------------------------------------------------------------------------------- 
   17     Cannot call method get() on mixed.                                                     
          🪪  method.nonObject                                                                   
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:17\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  17     Cannot call method toTree() on mixed.                                                  
-         🪪  method.nonObject                                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:17\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  19     Argument of an invalid type mixed supplied for foreach, only iterables are supported.  
-         🪪  foreach.nonIterable                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:19\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  20     Cannot access property $id on mixed.                                                   
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:20\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  20     Cannot access property $title on mixed.                                                
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:20\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  21     Argument of an invalid type mixed supplied for foreach, only iterables are supported.  
-         🪪  foreach.nonIterable                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:21\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  21     Cannot access property $children on mixed.                                             
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:21\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  22     Binary operation "." between '--------->' and mixed results in an error.               
-         🪪  binaryOp.invalid                                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:22\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  22     Cannot access property $id on mixed.                                                   
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:22\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  22     Cannot access property $title on mixed.                                                
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:22\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  23     Argument of an invalid type mixed supplied for foreach, only iterables are supported.  
-         🪪  foreach.nonIterable                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:23\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  23     Cannot access property $children on mixed.                                             
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:23\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  24     Binary operation "." between '----------------->' and mixed results in an error.       
-         🪪  binaryOp.invalid                                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:24\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  24     Cannot access property $id on mixed.                                                   
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:24\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  24     Cannot access property $title on mixed.                                                
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:24\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  25     Argument of an invalid type mixed supplied for foreach, only iterables are supported.  
-         🪪  foreach.nonIterable                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:25\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  25     Cannot access property $children on mixed.                                             
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:25\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  26     Binary operation "." between '-------------------…' and mixed results in an error.     
-         🪪  binaryOp.invalid                                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:26\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  26     Cannot access property $id on mixed.                                                   
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:26\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-  26     Cannot access property $title on mixed.                                                
-         🪪  property.nonObject                                                                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:26\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:17\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
   17     Cannot call method toTree() on mixed.                                                  
          🪪  method.nonObject                                                                   
@@ -683,10 +342,6 @@
   26     Cannot access property $title on mixed.                                                
          🪪  property.nonObject                                                                 
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Actions\ParentChilds\GetTreeOptions.php:26\Blog\app\Actions\ParentChilds\GetTreeOptions.php]8;;\                                   
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------- 
@@ -694,18 +349,6 @@
  ------ ------------------------------------------------------------------------- 
   70     Binary operation "*" between mixed and 100 results in an error.          
          🪪  binaryOp.invalid                                                     
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Console\Commands\ShowArticleCommand.php:70\Blog\app\Console\Commands\ShowArticleCommand.php]8;;\                     
-  70     Binary operation "/" between (float|int) and mixed results in an error.  
-         🪪  binaryOp.invalid                                                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Console\Commands\ShowArticleCommand.php:70\Blog\app\Console\Commands\ShowArticleCommand.php]8;;\                     
-  76     Cannot access property $is_winner on mixed.                              
-         🪪  property.nonObject                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Console\Commands\ShowArticleCommand.php:76\Blog\app\Console\Commands\ShowArticleCommand.php]8;;\                     
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Console\Commands\ShowArticleCommand.php:70\Blog\app\Console\Commands\ShowArticleCommand.php]8;;\                     
   70     Binary operation "/" between (float|int) and mixed results in an error.  
          🪪  binaryOp.invalid                                                     
@@ -713,10 +356,6 @@
   76     Cannot access property $is_winner on mixed.                              
          🪪  property.nonObject                                                   
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Console\Commands\ShowArticleCommand.php:76\Blog\app\Console\Commands\ShowArticleCommand.php]8;;\                     
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------- 
 
  ------ -------------------------------------------------------------------------------------------------------------- 
@@ -725,72 +364,6 @@
   62     Parameter #1 $time of static method Carbon\Carbon::parse() expects                                            
          Carbon\Month|Carbon\WeekDay|DateTimeInterface|float|int|string|null, mixed given.                             
          🪪  argument.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:62\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  63     Parameter #1 $time of static method Carbon\Carbon::parse() expects                                            
-         Carbon\Month|Carbon\WeekDay|DateTimeInterface|float|int|string|null, mixed given.                             
-         🪪  argument.type                                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:63\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  64     Parameter #1 $time of static method Carbon\Carbon::parse() expects                                            
-         Carbon\Month|Carbon\WeekDay|DateTimeInterface|float|int|string|null, mixed given.                             
-         🪪  argument.type                                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:64\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  65     Parameter $category of class Modules\Blog\DataObjects\ArticleData constructor expects array<int,              
-         array<string, mixed>>, mixed given.                                                                           
-         🪪  argument.type                                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:65\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  66     Cannot cast mixed to string.                                                                                  
-         🪪  cast.string                                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:66\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  67     Cannot cast mixed to string.                                                                                  
-         🪪  cast.string                                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:67\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  68     Cannot cast mixed to string.                                                                                  
-         🪪  cast.string                                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:68\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  69     Cannot cast mixed to string.                                                                                  
-         🪪  cast.string                                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:69\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  71     Cannot cast mixed to float.                                                                                   
-         🪪  cast.double                                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:71\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  72     Cannot cast mixed to float.                                                                                   
-         🪪  cast.double                                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:72\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  73     Cannot cast mixed to float.                                                                                   
-         🪪  cast.double                                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:73\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  74     Cannot cast mixed to int.                                                                                     
-         🪪  cast.int                                                                                                  
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:74\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  75     Cannot cast mixed to int.                                                                                     
-         🪪  cast.int                                                                                                  
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:75\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  76     Cannot cast mixed to int.                                                                                     
-         🪪  cast.int                                                                                                  
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:76\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  77     Parameter $wagers of class Modules\Blog\DataObjects\ArticleData constructor expects array<int, array<string,  
-         mixed>>, mixed given.                                                                                         
-         🪪  argument.type                                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:77\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  78     Cannot cast mixed to float.                                                                                   
-         🪪  cast.double                                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:78\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  79     Cannot cast mixed to float.                                                                                   
-         🪪  cast.double                                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:79\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  80     Parameter $outcomes of class Modules\Blog\DataObjects\ArticleData constructor expects array<int,              
-         array<string, mixed>>, mixed given.                                                                           
-         🪪  argument.type                                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:80\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-  81     Parameter $thumbnail_2x of class Modules\Blog\DataObjects\ArticleData constructor expects string|null, mixed  
-         given.                                                                                                        
-         🪪  argument.type                                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\DataObjects\ArticleData.php:81\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\DataObjects\ArticleData.php:62\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
   63     Parameter #1 $time of static method Carbon\Carbon::parse() expects                                            
          Carbon\Month|Carbon\WeekDay|DateTimeInterface|float|int|string|null, mixed given.                             
@@ -852,10 +425,6 @@
          given.                                                                                                        
          🪪  argument.type                                                                                             
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\DataObjects\ArticleData.php:81\Blog\app\DataObjects\ArticleData.php]8;;\                                                                      
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------------- 
@@ -864,122 +433,6 @@
   162    Missing parameter $categories (Illuminate\Support\Collection|null) in call to Modules\Blog\Datas\ArticleData   
          constructor.                                                                                                   
          🪪  argument.missing                                                                                           
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $category_id (int|null) in call to Modules\Blog\Datas\ArticleData constructor.               
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $closed_at (string|null) in call to Modules\Blog\Datas\ArticleData constructor.              
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $closed_at_date (string|null) in call to Modules\Blog\Datas\ArticleData constructor.         
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $content_blocks (array|null) in call to Modules\Blog\Datas\ArticleData constructor.          
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $footer_blocks (array|null) in call to Modules\Blog\Datas\ArticleData constructor.           
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $id (string) in call to Modules\Blog\Datas\ArticleData constructor.                          
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $published_at (string|null) in call to Modules\Blog\Datas\ArticleData constructor.           
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $ratings (array|null) in call to Modules\Blog\Datas\ArticleData constructor.                 
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $show_on_homepage (bool) in call to Modules\Blog\Datas\ArticleData constructor.              
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $sidebar_blocks (array|null) in call to Modules\Blog\Datas\ArticleData constructor.          
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $tags (Illuminate\Support\Collection|null) in call to Modules\Blog\Datas\ArticleData         
-         constructor.                                                                                                   
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $time_left_for_humans (string|null) in call to Modules\Blog\Datas\ArticleData constructor.   
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $url (string|null) in call to Modules\Blog\Datas\ArticleData constructor.                    
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  162    Missing parameter $uuid (string) in call to Modules\Blog\Datas\ArticleData constructor.                        
-         🪪  argument.missing                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  163    Parameter #1 $time of static method Carbon\Carbon::parse() expects                                             
-         Carbon\Month|Carbon\WeekDay|DateTimeInterface|float|int|string|null, mixed given.                              
-         🪪  argument.type                                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:163\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  164    Parameter #1 $time of static method Carbon\Carbon::parse() expects                                             
-         Carbon\Month|Carbon\WeekDay|DateTimeInterface|float|int|string|null, mixed given.                              
-         🪪  argument.type                                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:164\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  165    Parameter #1 $time of static method Carbon\Carbon::parse() expects                                             
-         Carbon\Month|Carbon\WeekDay|DateTimeInterface|float|int|string|null, mixed given.                              
-         🪪  argument.type                                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:165\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  166    Parameter $category of class Modules\Blog\Datas\ArticleData constructor expects array<int, array<string,       
-         mixed>>, mixed given.                                                                                          
-         🪪  argument.type                                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:166\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  167    Cannot cast mixed to string.                                                                                   
-         🪪  cast.string                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:167\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  168    Cannot cast mixed to string.                                                                                   
-         🪪  cast.string                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:168\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  169    Cannot cast mixed to string.                                                                                   
-         🪪  cast.string                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:169\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  169    Parameter $status of class Modules\Blog\Datas\ArticleData constructor expects string|null,                     
-         Modules\Blog\Enums\ArticleStatus given.                                                                        
-         🪪  argument.type                                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:169\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  170    Cannot cast mixed to string.                                                                                   
-         🪪  cast.string                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:170\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  172    Cannot cast mixed to float.                                                                                    
-         🪪  cast.double                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:172\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  173    Cannot cast mixed to float.                                                                                    
-         🪪  cast.double                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:173\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  174    Cannot cast mixed to float.                                                                                    
-         🪪  cast.double                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:174\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  175    Cannot cast mixed to int.                                                                                      
-         🪪  cast.int                                                                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:175\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  176    Cannot cast mixed to int.                                                                                      
-         🪪  cast.int                                                                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:176\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  177    Cannot cast mixed to int.                                                                                      
-         🪪  cast.int                                                                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:177\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  178    Parameter $wagers of class Modules\Blog\Datas\ArticleData constructor expects array<int, array<string,         
-         mixed>>, mixed given.                                                                                          
-         🪪  argument.type                                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:178\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  179    Cannot cast mixed to float.                                                                                    
-         🪪  cast.double                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:179\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  180    Cannot cast mixed to float.                                                                                    
-         🪪  cast.double                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:180\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  181    Parameter $outcomes of class Modules\Blog\Datas\ArticleData constructor expects array<int, array<string,       
-         mixed>>, mixed given.                                                                                          
-         🪪  argument.type                                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:181\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-  182    Parameter $thumbnail_2x of class Modules\Blog\Datas\ArticleData constructor expects string|null, mixed given.  
-         🪪  argument.type                                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Datas\ArticleData.php:182\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Datas\ArticleData.php:162\Blog\app\Datas\ArticleData.php]8;;\                                                                             
   162    Missing parameter $category_id (int|null) in call to Modules\Blog\Datas\ArticleData constructor.               
          🪪  argument.missing                                                                                           
@@ -1091,10 +544,6 @@
   182    Parameter $thumbnail_2x of class Modules\Blog\Datas\ArticleData constructor expects string|null, mixed given.  
          🪪  argument.type                                                                                              
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Datas\ArticleData.php:182\Blog\app\Datas\ArticleData.php]8;;\                                                                             
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
@@ -1102,23 +551,10 @@
  ------ ------------------------------------------------------------------------------------------------------------ 
   29     Missing parameter $name (string) in call to static method Filament\Forms\Components\Builder\Block::make().  
          🪪  argument.missing                                                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Fields\ArticleContent.php:29\Blog\app\Filament\Fields\ArticleContent.php]8;;\                                                             
-  29     Unknown parameter $context in call to static method Filament\Forms\Components\Builder\Block::make().        
-         🪪  argument.unknown                                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Fields\ArticleContent.php:29\Blog\app\Filament\Fields\ArticleContent.php]8;;\                                                             
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Fields\ArticleContent.php:29\Blog\app\Filament\Fields\ArticleContent.php]8;;\                                                             
   29     Unknown parameter $context in call to static method Filament\Forms\Components\Builder\Block::make().        
          🪪  argument.unknown                                                                                        
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Fields\ArticleContent.php:29\Blog\app\Filament\Fields\ArticleContent.php]8;;\                                                             
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
@@ -1126,23 +562,10 @@
  ------ ------------------------------------------------------------------------------------------------------------ 
   29     Missing parameter $name (string) in call to static method Filament\Forms\Components\Builder\Block::make().  
          🪪  argument.missing                                                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Fields\ArticleSidebar.php:29\Blog\app\Filament\Fields\ArticleSidebar.php]8;;\                                                             
-  29     Unknown parameter $context in call to static method Filament\Forms\Components\Builder\Block::make().        
-         🪪  argument.unknown                                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Fields\ArticleSidebar.php:29\Blog\app\Filament\Fields\ArticleSidebar.php]8;;\                                                             
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Fields\ArticleSidebar.php:29\Blog\app\Filament\Fields\ArticleSidebar.php]8;;\                                                             
   29     Unknown parameter $context in call to static method Filament\Forms\Components\Builder\Block::make().        
          🪪  argument.unknown                                                                                        
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Fields\ArticleSidebar.php:29\Blog\app\Filament\Fields\ArticleSidebar.php]8;;\                                                             
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ ------------------------------------------------------------------------------------------------------ 
@@ -1151,20 +574,6 @@
   91     Parameter #1 $options of method Filament\Forms\Components\Select::options() expects                   
          array<array<string>|string>|Closure|Illuminate\Contracts\Support\Arrayable|string|null, array given.  
          🪪  argument.type                                                                                     
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\ArticleResource.php:91\Blog\app\Filament\Resources\ArticleResource.php]8;;\                                                   
-  92     Parameter #1 $schema of method Filament\Forms\Components\Select::createOptionForm() expects           
-         array<Filament\Forms\Components\Component>|Closure|null, array given.                                 
-         🪪  argument.type                                                                                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\ArticleResource.php:92\Blog\app\Filament\Resources\ArticleResource.php]8;;\                                                   
-  174    Parameter #1 $components of method Filament\Forms\ComponentContainer::schema() expects                
-         array<Filament\Forms\Components\Component>|Closure, array given.                                      
-         🪪  argument.type                                                                                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\ArticleResource.php:174\Blog\app\Filament\Resources\ArticleResource.php]8;;\                                                   
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\ArticleResource.php:91\Blog\app\Filament\Resources\ArticleResource.php]8;;\                                                   
   92     Parameter #1 $schema of method Filament\Forms\Components\Select::createOptionForm() expects           
          array<Filament\Forms\Components\Component>|Closure|null, array given.                                 
@@ -1174,10 +583,6 @@
          array<Filament\Forms\Components\Component>|Closure, array given.                                      
          🪪  argument.type                                                                                     
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\ArticleResource.php:174\Blog\app\Filament\Resources\ArticleResource.php]8;;\                                                   
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------ 
 
  ------ -------------------------------------------------------------------------------------------------------------- 
@@ -1187,60 +592,22 @@
          return array<string, Filament\Tables\Columns\Column> but returns array<int,                                   
          Filament\Tables\Columns\IconColumn|Filament\Tables\Columns\TextColumn>.                                       
          🪪  return.type                                                                                               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:29\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:29\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:29\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
->>>>>>> laraxot/dev
   92     Method Modules\Blog\Filament\Resources\ArticleResource\Pages\ListArticles::getTableActions() should return    
          array<string, Filament\Tables\Actions\Action|Filament\Tables\Actions\ActionGroup> but returns                 
          array{Filament\Tables\Actions\EditAction, Filament\Tables\Actions\ViewAction,                                 
          Filament\Tables\Actions\DeleteAction}.                                                                        
          🪪  return.type                                                                                               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:92\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:92\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:92\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
->>>>>>> laraxot/dev
   108    Method Modules\Blog\Filament\Resources\ArticleResource\Pages\ListArticles::getTableBulkActions() should       
          return array<string, Filament\Tables\Actions\BulkAction> but returns array<int,                               
          Filament\Tables\Actions\DeleteBulkAction>.                                                                    
          🪪  return.type                                                                                               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:108\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:108\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:108\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
->>>>>>> laraxot/dev
   115    Method Modules\Blog\Filament\Resources\ArticleResource\Pages\ListArticles::getTableFilters() should return    
          array<string, Filament\Tables\Filters\BaseFilter> but returns array<int,                                      
          Filament\Tables\Filters\Filter|Filament\Tables\Filters\SelectFilter>.                                         
          🪪  return.type                                                                                               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:115\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
-  118    Parameter #1 $options of method Filament\Tables\Filters\SelectFilter::options() expects                       
-         array<array<string>|string>|class-string|Closure|Illuminate\Contracts\Support\Arrayable|null, array given.    
-         🪪  argument.type                                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:118\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
-  156    Parameter #1 $json_text of method Modules\Blog\Actions\Article\ImportArticlesFromByJsonTextAction::execute()  
-         expects string, mixed given.                                                                                  
-         🪪  argument.type                                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:156\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:115\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
   118    Parameter #1 $options of method Filament\Tables\Filters\SelectFilter::options() expects                       
          array<array<string>|string>|class-string|Closure|Illuminate\Contracts\Support\Arrayable|null, array given.    
@@ -1250,10 +617,6 @@
          expects string, mixed given.                                                                                  
          🪪  argument.type                                                                                             
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php:156\Blog\app\Filament\Resources\ArticleResource\Pages\ListArticles.php]8;;\                                        
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------ 
@@ -1262,15 +625,7 @@
   48     Parameter #1 $options of method Filament\Forms\Components\Select::options() expects                   
          array<array<string>|string>|Closure|Illuminate\Contracts\Support\Arrayable|string|null, array given.  
          🪪  argument.type                                                                                     
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\BannerResource.php:48\Blog\app\Filament\Resources\BannerResource.php]8;;\                                                    
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\BannerResource.php:48\Blog\app\Filament\Resources\BannerResource.php]8;;\                                                    
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\BannerResource.php:48\Blog\app\Filament\Resources\BannerResource.php]8;;\                                                    
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------ 
 
  ------ -------------------------------------------------------------------------------------------------------------- 
@@ -1279,28 +634,12 @@
   44     Parameter #1 $json_text of method Modules\Blog\Actions\Banner\ImportBannerFromByJsonTextAction::execute()     
          expects string, mixed given.                                                                                  
          🪪  argument.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php:44\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php:44\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php:44\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php]8;;\                                          
->>>>>>> laraxot/dev
   50     Method Modules\Blog\Filament\Resources\BannerResource\Pages\ListBanners::getListTableColumns() should return  
          array<string, Filament\Tables\Columns\Column> but returns array<int,                                          
          Filament\Tables\Columns\SpatieMediaLibraryImageColumn|Filament\Tables\Columns\TextColumn>.                    
          🪪  return.type                                                                                               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php:50\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php:50\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php:50\Blog\app\Filament\Resources\BannerResource\Pages\ListBanners.php]8;;\                                          
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------ 
@@ -1308,20 +647,6 @@
  ------ ------------------------------------------------------------------------------------------------------ 
   41     Parameter #1 $title of static method Illuminate\Support\Str::slug() expects string, mixed given.      
          🪪  argument.type                                                                                     
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\CategoryResource.php:41\Blog\app\Filament\Resources\CategoryResource.php]8;;\                                                  
-  51     Parameter #1 $options of method Filament\Forms\Components\Select::options() expects                   
-         array<array<string>|string>|Closure|Illuminate\Contracts\Support\Arrayable|string|null, array given.  
-         🪪  argument.type                                                                                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\CategoryResource.php:51\Blog\app\Filament\Resources\CategoryResource.php]8;;\                                                  
-  79     Parameter #1 $components of method Filament\Forms\ComponentContainer::schema() expects                
-         array<Filament\Forms\Components\Component>|Closure, array given.                                      
-         🪪  argument.type                                                                                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\CategoryResource.php:79\Blog\app\Filament\Resources\CategoryResource.php]8;;\                                                  
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\CategoryResource.php:41\Blog\app\Filament\Resources\CategoryResource.php]8;;\                                                  
   51     Parameter #1 $options of method Filament\Forms\Components\Select::options() expects                   
          array<array<string>|string>|Closure|Illuminate\Contracts\Support\Arrayable|string|null, array given.  
@@ -1331,10 +656,6 @@
          array<Filament\Forms\Components\Component>|Closure, array given.                                      
          🪪  argument.type                                                                                     
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\CategoryResource.php:79\Blog\app\Filament\Resources\CategoryResource.php]8;;\                                                  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------ 
 
  ------ ------------------------------------------------------------------------------------------------------------------------------- 
@@ -1344,15 +665,7 @@
          return array<string, Filament\Tables\Columns\Column> but returns array<int,                                                    
          Filament\Tables\Columns\IconColumn|Filament\Tables\Columns\SpatieMediaLibraryImageColumn|Filament\Tables\Columns\TextColumn>.  
          🪪  return.type                                                                                                                
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\CategoryResource\Pages\ListCategories.php:20\Blog\app\Filament\Resources\CategoryResource\Pages\ListCategories.php]8;;\                                                      
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\CategoryResource\Pages\ListCategories.php:20\Blog\app\Filament\Resources\CategoryResource\Pages\ListCategories.php]8;;\                                                      
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\CategoryResource\Pages\ListCategories.php:20\Blog\app\Filament\Resources\CategoryResource\Pages\ListCategories.php]8;;\                                                      
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------------------------- 
 
  ------ ----------------------------------------------------------------------------------------------------------- 
@@ -1361,15 +674,7 @@
   16     Method Modules\Blog\Filament\Resources\TextWidgetResource\Pages\CreateTextWidget::getRedirectUrl() should  
          return string but returns mixed.                                                                           
          🪪  return.type                                                                                            
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\TextWidgetResource\Pages\CreateTextWidget.php:16\Blog\app\Filament\Resources\TextWidgetResource\Pages\CreateTextWidget.php]8;;\                              
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\TextWidgetResource\Pages\CreateTextWidget.php:16\Blog\app\Filament\Resources\TextWidgetResource\Pages\CreateTextWidget.php]8;;\                              
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\TextWidgetResource\Pages\CreateTextWidget.php:16\Blog\app\Filament\Resources\TextWidgetResource\Pages\CreateTextWidget.php]8;;\                              
->>>>>>> laraxot/dev
  ------ ----------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------- 
@@ -1378,15 +683,7 @@
   25     Method Modules\Blog\Filament\Resources\TextWidgetResource\Pages\EditTextWidget::getRedirectUrl() should  
          return string but returns mixed.                                                                         
          🪪  return.type                                                                                          
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Filament\Resources\TextWidgetResource\Pages\EditTextWidget.php:25\Blog\app\Filament\Resources\TextWidgetResource\Pages\EditTextWidget.php]8;;\                              
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\TextWidgetResource\Pages\EditTextWidget.php:25\Blog\app\Filament\Resources\TextWidgetResource\Pages\EditTextWidget.php]8;;\                              
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Filament\Resources\TextWidgetResource\Pages\EditTextWidget.php:25\Blog\app\Filament\Resources\TextWidgetResource\Pages\EditTextWidget.php]8;;\                              
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
@@ -1395,25 +692,11 @@
   69     Parameter #1 $state of method Filament\Forms\ComponentContainer::fill() expects array<string, mixed>|null,  
          array<mixed, mixed> given.                                                                                  
          🪪  argument.type                                                                                           
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Http\Livewire\Profile.php:69\Blog\app\Http\Livewire\Profile.php]8;;\                                                                      
-  100    Parameter #1 $label of method Filament\Forms\Components\Component::label() expects                          
-         Closure|Illuminate\Contracts\Support\Htmlable|string|null, mixed given.                                     
-         🪪  argument.type                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Http\Livewire\Profile.php:100\Blog\app\Http\Livewire\Profile.php]8;;\                                                                      
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Http\Livewire\Profile.php:69\Blog\app\Http\Livewire\Profile.php]8;;\                                                                      
   100    Parameter #1 $label of method Filament\Forms\Components\Component::label() expects                          
          Closure|Illuminate\Contracts\Support\Htmlable|string|null, mixed given.                                     
          🪪  argument.type                                                                                           
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Http\Livewire\Profile.php:100\Blog\app\Http\Livewire\Profile.php]8;;\                                                                      
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
@@ -1422,23 +705,10 @@
   48     Parameter #1 $state of method Filament\Forms\ComponentContainer::fill() expects array<string, mixed>|null,  
          array given.                                                                                                
          🪪  argument.type                                                                                           
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Http\Livewire\Profile\Setting.php:48\Blog\app\Http\Livewire\Profile\Setting.php]8;;\                                                              
-  144    Parameter #1 $value of function bcrypt expects string, mixed given.                                         
-         🪪  argument.type                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Http\Livewire\Profile\Setting.php:144\Blog\app\Http\Livewire\Profile\Setting.php]8;;\                                                              
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Http\Livewire\Profile\Setting.php:48\Blog\app\Http\Livewire\Profile\Setting.php]8;;\                                                              
   144    Parameter #1 $value of function bcrypt expects string, mixed given.                                         
          🪪  argument.type                                                                                           
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Http\Livewire\Profile\Setting.php:144\Blog\app\Http\Livewire\Profile\Setting.php]8;;\                                                              
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ ------------------------------------------------------------ 
@@ -1446,30 +716,6 @@
  ------ ------------------------------------------------------------ 
   341    Cannot cast mixed to string.                                
          🪪  cast.string                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Article.php:341\Blog\app\Models\Article.php]8;;\                             
-  396    Anonymous function should return string but returns mixed.  
-         🪪  return.type                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Article.php:396\Blog\app\Models\Article.php]8;;\                             
-  396    Cannot access offset 'main_image_upload' on mixed.          
-         🪪  offsetAccess.nonOffsetAccessible                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Article.php:396\Blog\app\Models\Article.php]8;;\                             
-  396    Cannot access offset 'main_image_url' on mixed.             
-         🪪  offsetAccess.nonOffsetAccessible                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Article.php:396\Blog\app\Models\Article.php]8;;\                             
-  602    Cannot call method where() on mixed.                        
-         🪪  method.nonObject                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Article.php:602\Blog\app\Models\Article.php]8;;\                             
-  616    Cannot call method where() on mixed.                        
-         🪪  method.nonObject                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Article.php:616\Blog\app\Models\Article.php]8;;\                             
-  630    Cannot call method where() on mixed.                        
-         🪪  method.nonObject                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Article.php:630\Blog\app\Models\Article.php]8;;\                             
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Article.php:341\Blog\app\Models\Article.php]8;;\                             
   396    Anonymous function should return string but returns mixed.  
          🪪  return.type                                             
@@ -1489,10 +735,6 @@
   630    Cannot call method where() on mixed.                        
          🪪  method.nonObject                                        
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Article.php:630\Blog\app\Models\Article.php]8;;\                             
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------ 
 
  ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
@@ -1502,15 +744,7 @@
          Illuminate\Database\Eloquent\Relations\BelongsTo<static(Modules\Blog\Models\BaseTreeModel),$this(Modules\Blog\Models\BaseTreeModel)>::associate()  
          expects int|static(Modules\Blog\Models\BaseTreeModel)|string|null, Illuminate\Database\Eloquent\Model given.                                       
          🪪  argument.type                                                                                                                                  
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\BaseTreeModel.php:42\Blog\app\Models\BaseTreeModel.php]8;;\                                                                                                              
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\BaseTreeModel.php:42\Blog\app\Models\BaseTreeModel.php]8;;\                                                                                                              
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\BaseTreeModel.php:42\Blog\app\Models\BaseTreeModel.php]8;;\                                                                                                              
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
@@ -1520,56 +754,24 @@
          @return does not specify all template types of class Illuminate\Database\Eloquent\Relations\HasMany:        
          TRelatedModel, TDeclaringModel                                                                              
          🪪  generics.lessTypes                                                                                      
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Profile.php:131\Blog\app\Models\Profile.php]8;;\                                                                             
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Profile.php:131\Blog\app\Models\Profile.php]8;;\                                                                             
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Profile.php:131\Blog\app\Models\Profile.php]8;;\                                                                             
->>>>>>> laraxot/dev
   133    Method Modules\Blog\Models\Profile::articles() should return                                                
          Illuminate\Database\Eloquent\Relations\HasMany<Modules\Blog\Models\Article> but returns                     
          Illuminate\Database\Eloquent\Relations\HasMany<TRelatedModel of Illuminate\Database\Eloquent\Model,         
          $this(Modules\Blog\Models\Profile)>.                                                                        
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Profile.php:133\Blog\app\Models\Profile.php]8;;\                                                                             
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Profile.php:133\Blog\app\Models\Profile.php]8;;\                                                                             
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Profile.php:133\Blog\app\Models\Profile.php]8;;\                                                                             
->>>>>>> laraxot/dev
   139    Generic type Illuminate\Database\Eloquent\Relations\HasMany<Modules\Blog\Models\Transaction> in PHPDoc tag  
          @return does not specify all template types of class Illuminate\Database\Eloquent\Relations\HasMany:        
          TRelatedModel, TDeclaringModel                                                                              
          🪪  generics.lessTypes                                                                                      
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Profile.php:139\Blog\app\Models\Profile.php]8;;\                                                                             
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Profile.php:139\Blog\app\Models\Profile.php]8;;\                                                                             
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Profile.php:139\Blog\app\Models\Profile.php]8;;\                                                                             
->>>>>>> laraxot/dev
   141    Method Modules\Blog\Models\Profile::transanctions() should return                                           
          Illuminate\Database\Eloquent\Relations\HasMany<Modules\Blog\Models\Transaction> but returns                 
          Illuminate\Database\Eloquent\Relations\HasMany<TRelatedModel of Illuminate\Database\Eloquent\Model,         
          $this(Modules\Blog\Models\Profile)>.                                                                        
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Profile.php:141\Blog\app\Models\Profile.php]8;;\                                                                             
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Profile.php:141\Blog\app\Models\Profile.php]8;;\                                                                             
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Profile.php:141\Blog\app\Models\Profile.php]8;;\                                                                             
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ ----------------------------------------------------------------------------------------------------------- 
@@ -1581,15 +783,7 @@
          💡 You can fix 3rd party PHPDoc types with stub files:                                                     
          💡 [36mhttps://phpstan.org/user-guide/stub-files[39m                                                               
                                                                                                                     
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\Models\Taggable.php:73\Blog\app\Models\Taggable.php]8;;\                                                                           
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Taggable.php:73\Blog\app\Models\Taggable.php]8;;\                                                                           
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\Models\Taggable.php:73\Blog\app\Models\Taggable.php]8;;\                                                                           
->>>>>>> laraxot/dev
  ------ ----------------------------------------------------------------------------------------------------------- 
 
  ------ ----------------------------------------------------------------------------------- 
@@ -1598,19 +792,6 @@
   53     Method Modules\Blog\View\Composers\ThemeComposer::getArticlesType() should return  
          Illuminate\Support\Collection but returns mixed.                                   
          🪪  return.type                                                                    
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\View\Composers\ThemeComposer.php:53\Blog\app\View\Composers\ThemeComposer.php]8;;\                                      
-  178    Method Modules\Blog\View\Composers\ThemeComposer::getMethodData() should return    
-         array|Illuminate\Contracts\Pagination\Paginator but returns mixed.                 
-         🪪  return.type                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\View\Composers\ThemeComposer.php:178\Blog\app\View\Composers\ThemeComposer.php]8;;\                                      
-  333    Cannot call method withCount() on mixed.                                           
-         🪪  method.nonObject                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\app\View\Composers\ThemeComposer.php:333\Blog\app\View\Composers\ThemeComposer.php]8;;\                                      
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\View\Composers\ThemeComposer.php:53\Blog\app\View\Composers\ThemeComposer.php]8;;\                                      
   178    Method Modules\Blog\View\Composers\ThemeComposer::getMethodData() should return    
          array|Illuminate\Contracts\Pagination\Paginator but returns mixed.                 
@@ -1619,10 +800,6 @@
   333    Cannot call method withCount() on mixed.                                           
          🪪  method.nonObject                                                               
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\app\View\Composers\ThemeComposer.php:333\Blog\app\View\Composers\ThemeComposer.php]8;;\                                      
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ----------------------------------------------------------------------------------- 
 
  ------ -------------------------------------------------------------------------------------------------- 
@@ -1630,22 +807,6 @@
  ------ -------------------------------------------------------------------------------------------------- 
   34     Parameter #1 $title of static method Illuminate\Support\Str::slug() expects string, mixed given.  
          🪪  argument.type                                                                                 
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\database\Seeders\ArticleSeeder.php:34\Blog\database\Seeders\ArticleSeeder.php]8;;\                                                       
-  68     Cannot access offset 'image' on mixed.                                                            
-         🪪  offsetAccess.nonOffsetAccessible                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\database\Seeders\ArticleSeeder.php:68\Blog\database\Seeders\ArticleSeeder.php]8;;\                                                       
-  73     Cannot call method create() on mixed.                                                             
-         🪪  method.nonObject                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\database\Seeders\ArticleSeeder.php:73\Blog\database\Seeders\ArticleSeeder.php]8;;\                                                       
-  73     Method Modules\Blog\Database\Seeders\ArticleSeeder::createArticle() should return                 
-         Illuminate\Database\Eloquent\Collection&iterable<Modules\Blog\Models\Article> but returns mixed.  
-         🪪  return.type                                                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\database\Seeders\ArticleSeeder.php:73\Blog\database\Seeders\ArticleSeeder.php]8;;\                                                       
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\database\Seeders\ArticleSeeder.php:34\Blog\database\Seeders\ArticleSeeder.php]8;;\                                                       
   68     Cannot access offset 'image' on mixed.                                                            
          🪪  offsetAccess.nonOffsetAccessible                                                              
@@ -1657,10 +818,6 @@
          Illuminate\Database\Eloquent\Collection&iterable<Modules\Blog\Models\Article> but returns mixed.  
          🪪  return.type                                                                                   
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\database\Seeders\ArticleSeeder.php:73\Blog\database\Seeders\ArticleSeeder.php]8;;\                                                       
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------- 
 
  ------ ----------------------------------------- 
@@ -1668,23 +825,10 @@
  ------ ----------------------------------------- 
   15     Cannot call method create() on mixed.    
          🪪  method.nonObject                     
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\database\Seeders\SiteSeeder.php:15\Blog\database\Seeders\SiteSeeder.php]8;;\  
-  20     Cannot call method create() on mixed.    
-         🪪  method.nonObject                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Blog\database\Seeders\SiteSeeder.php:20\Blog\database\Seeders\SiteSeeder.php]8;;\  
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\database\Seeders\SiteSeeder.php:15\Blog\database\Seeders\SiteSeeder.php]8;;\  
   20     Cannot call method create() on mixed.    
          🪪  method.nonObject                     
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Blog\database\Seeders\SiteSeeder.php:20\Blog\database\Seeders\SiteSeeder.php]8;;\  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ----------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
@@ -1694,42 +838,18 @@
          should return array<string, Filament\Tables\Columns\Column> but returns array<int,                          
          Filament\Tables\Columns\TextColumn>.                                                                        
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php:39\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php]8;;\                               
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php:39\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php]8;;\                               
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php:39\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php]8;;\                               
->>>>>>> laraxot/dev
   57     Method Modules\Cms\Filament\Resources\PageContentResource\Pages\ListPageContents::getTableActions() should  
          return array<string, Filament\Tables\Actions\Action|Filament\Tables\Actions\ActionGroup> but returns        
          array{Filament\Tables\Actions\ViewAction, Filament\Tables\Actions\EditAction,                               
          Filament\Tables\Actions\DeleteAction}.                                                                      
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php:57\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php]8;;\                               
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php:57\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php]8;;\                               
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php:57\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php]8;;\                               
->>>>>>> laraxot/dev
   70     Method Modules\Cms\Filament\Resources\PageContentResource\Pages\ListPageContents::getTableBulkActions()     
          should return array<string, Filament\Tables\Actions\BulkAction> but returns array<int,                      
          Filament\Tables\Actions\DeleteBulkAction>.                                                                  
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php:70\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php]8;;\                               
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php:70\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php]8;;\                               
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php:70\Cms\app\Filament\Resources\PageContentResource\Pages\ListPageContents.php]8;;\                               
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ ----------------------------------------------------------------------------------------------------------- 
@@ -1738,42 +858,18 @@
   62     Method Modules\Cms\Filament\Resources\PageResource\Pages\ListPages::getListTableColumns() should return    
          array<string, Filament\Tables\Columns\Column> but returns array<int, Filament\Tables\Columns\TextColumn>.  
          🪪  return.type                                                                                            
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php:62\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php]8;;\                                            
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php:62\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php]8;;\                                            
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php:62\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php]8;;\                                            
->>>>>>> laraxot/dev
   80     Method Modules\Cms\Filament\Resources\PageResource\Pages\ListPages::getTableActions() should return        
          array<string, Filament\Tables\Actions\Action|Filament\Tables\Actions\ActionGroup> but returns              
          array{Filament\Tables\Actions\ViewAction, Filament\Tables\Actions\EditAction,                              
          Filament\Tables\Actions\DeleteAction}.                                                                     
          🪪  return.type                                                                                            
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php:80\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php]8;;\                                            
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php:80\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php]8;;\                                            
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php:80\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php]8;;\                                            
->>>>>>> laraxot/dev
   93     Method Modules\Cms\Filament\Resources\PageResource\Pages\ListPages::getTableBulkActions() should return    
          array<string, Filament\Tables\Actions\BulkAction> but returns array<int,                                   
          Filament\Tables\Actions\DeleteBulkAction>.                                                                 
          🪪  return.type                                                                                            
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php:93\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php]8;;\                                            
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php:93\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php]8;;\                                            
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php:93\Cms\app\Filament\Resources\PageResource\Pages\ListPages.php]8;;\                                            
->>>>>>> laraxot/dev
  ------ ----------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------------- 
@@ -1784,71 +880,31 @@
          Modules\Comment\Models\Comment::$comments is not subtype of template type TModel of                            
          Illuminate\Database\Eloquent\Model of class Illuminate\Database\Eloquent\Collection.                           
          🪪  generics.notSubtype                                                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
->>>>>>> laraxot/dev
   76     Type Spatie\Comments\Models\Comment in generic type Illuminate\Database\Eloquent\Collection<int,               
          Spatie\Comments\Models\Comment> in PHPDoc tag @property for property                                           
          Modules\Comment\Models\Comment::$nestedComments is not subtype of template type TModel of                      
          Illuminate\Database\Eloquent\Model of class Illuminate\Database\Eloquent\Collection.                           
          🪪  generics.notSubtype                                                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
->>>>>>> laraxot/dev
   76     Type static(Modules\Comment\Models\Comment) in generic type                                                    
          Illuminate\Database\Eloquent\Builder<static(Modules\Comment\Models\Comment)> in PHPDoc tag @method for method  
          Modules\Comment\Models\Comment::approved() return type is not subtype of template type TModel of               
          Illuminate\Database\Eloquent\Model of class Illuminate\Database\Eloquent\Builder.                              
          🪪  generics.notSubtype                                                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
->>>>>>> laraxot/dev
   76     Type static(Modules\Comment\Models\Comment) in generic type                                                    
          Illuminate\Database\Eloquent\Builder<static(Modules\Comment\Models\Comment)> in PHPDoc tag @method for method  
          Modules\Comment\Models\Comment::pending() return type is not subtype of template type TModel of                
          Illuminate\Database\Eloquent\Model of class Illuminate\Database\Eloquent\Builder.                              
          🪪  generics.notSubtype                                                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
->>>>>>> laraxot/dev
   76     Type static(Modules\Comment\Models\Comment) in generic type                                                    
          Illuminate\Database\Eloquent\Builder<static(Modules\Comment\Models\Comment)> in PHPDoc tag @method for method  
          Modules\Comment\Models\Comment::topLevel() return type is not subtype of template type TModel of               
          Illuminate\Database\Eloquent\Model of class Illuminate\Database\Eloquent\Builder.                              
          🪪  generics.notSubtype                                                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\app\Models\Comment.php:76\Comment\app\Models\Comment.php]8;;\                                                                             
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------------- 
 
  ------ -------------------------------------------------------------------------------------------------- 
@@ -1857,34 +913,6 @@
   12     Property Modules\Comment\Database\Factories\CommentFactory::$model                                
          (class-string<Illuminate\Database\Eloquent\Model>) does not accept default value of type string.  
          🪪  property.defaultValue                                                                         
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Comment\database\Factories\CommentFactory.php:12\Comment\database\Factories\CommentFactory.php]8;;\                                                 
- ------ -------------------------------------------------------------------------------------------------- 
-
- ------ -------------------------------------------------------------------------------------------------- 
-  [32mLine[39m   [32m<nome progetto>\app\Models\Profile.php[39m                                                                    
- ------ -------------------------------------------------------------------------------------------------- 
-  93     Type Spatie\Comments\Models\Comment in generic type Illuminate\Database\Eloquent\Collection<int,  
-         Spatie\Comments\Models\Comment> in PHPDoc tag @property for property                              
-         Modules\<nome progetto>\Models\Profile::$commentatorComments is not subtype of template type TModel of    
-         Illuminate\Database\Eloquent\Model of class Illuminate\Database\Eloquent\Collection.              
-         🪪  generics.notSubtype                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\<nome progetto>\app\Models\Profile.php:93\<nome progetto>\app\Models\Profile.php]8;;\                                                                
- ------ -------------------------------------------------------------------------------------------------- 
-
- ------ -------------------------------------------------------------------------------------------------- 
-  [32mLine[39m   [32m<nome progetto>\app\Models\User.php[39m                                                                       
- ------ -------------------------------------------------------------------------------------------------- 
-  92     Type Spatie\Comments\Models\Comment in generic type Illuminate\Database\Eloquent\Collection<int,  
-         Spatie\Comments\Models\Comment> in PHPDoc tag @property for property                              
-         Modules\<nome progetto>\Models\User::$commentatorComments is not subtype of template type TModel of       
-         Illuminate\Database\Eloquent\Model of class Illuminate\Database\Eloquent\Collection.              
-         🪪  generics.notSubtype                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\<nome progetto>\app\Models\User.php:92\<nome progetto>\app\Models\User.php]8;;\                                                                   
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Comment\database\Factories\CommentFactory.php:12\Comment\database\Factories\CommentFactory.php]8;;\                                                 
  ------ -------------------------------------------------------------------------------------------------- 
 
@@ -1908,10 +936,6 @@
          Illuminate\Database\Eloquent\Model of class Illuminate\Database\Eloquent\Collection.              
          🪪  generics.notSubtype                                                                           
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Fixcity\app\Models\User.php:92\Fixcity\app\Models\User.php]8;;\                                                                   
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
@@ -1920,41 +944,17 @@
   19     Method Modules\Gdpr\Filament\Resources\EventResource\Pages\ListEvents::getListTableColumns() should return  
          array<string, Filament\Tables\Columns\Column> but returns array<int, Filament\Tables\Columns\TextColumn>.   
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php:19\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php:19\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php:19\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php]8;;\                                          
->>>>>>> laraxot/dev
   46     Method Modules\Gdpr\Filament\Resources\EventResource\Pages\ListEvents::getTableActions() should return      
          array<string, Filament\Tables\Actions\Action|Filament\Tables\Actions\ActionGroup> but returns               
          array{Filament\Tables\Actions\EditAction}.                                                                  
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php:46\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php:46\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php:46\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php]8;;\                                          
->>>>>>> laraxot/dev
   54     Method Modules\Gdpr\Filament\Resources\EventResource\Pages\ListEvents::getTableBulkActions() should return  
          array<string, Filament\Tables\Actions\BulkAction> but returns array<int,                                    
          Filament\Tables\Actions\DeleteBulkAction>.                                                                  
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php:54\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php:54\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php:54\Gdpr\app\Filament\Resources\EventResource\Pages\ListEvents.php]8;;\                                          
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ ------------------------------------------------------------------------------------------------------------ 
@@ -1964,41 +964,17 @@
          return array<string, Filament\Tables\Columns\Column> but returns array<int,                                 
          Filament\Tables\Columns\IconColumn|Filament\Tables\Columns\TextColumn>.                                     
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php:19\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php]8;;\                                      
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php:19\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php]8;;\                                      
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php:19\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php]8;;\                                      
->>>>>>> laraxot/dev
   60     Method Modules\Gdpr\Filament\Resources\ProfileResource\Pages\ListProfiles::getTableActions() should return  
          array<string, Filament\Tables\Actions\Action|Filament\Tables\Actions\ActionGroup> but returns               
          array{Filament\Tables\Actions\EditAction}.                                                                  
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php:60\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php]8;;\                                      
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php:60\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php]8;;\                                      
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php:60\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php]8;;\                                      
->>>>>>> laraxot/dev
   68     Method Modules\Gdpr\Filament\Resources\ProfileResource\Pages\ListProfiles::getTableBulkActions() should     
          return array<string, Filament\Tables\Actions\BulkAction> but returns array<int,                             
          Filament\Tables\Actions\DeleteBulkAction>.                                                                  
          🪪  return.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php:68\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php]8;;\                                      
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php:68\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php]8;;\                                      
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php:68\Gdpr\app\Filament\Resources\ProfileResource\Pages\ListProfiles.php]8;;\                                      
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------ 
 
  ------ --------------------------------------------------------------------------------------------------------------- 
@@ -2007,15 +983,7 @@
   25     Parameter #1 $path of method Illuminate\Support\ServiceProvider::loadTranslationsFrom() expects string, mixed  
          given.                                                                                                         
          🪪  argument.type                                                                                              
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Gdpr\app\Providers\GdprServiceProvider.php:25\Gdpr\app\Providers\GdprServiceProvider.php]8;;\                                                                 
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Providers\GdprServiceProvider.php:25\Gdpr\app\Providers\GdprServiceProvider.php]8;;\                                                                 
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\app\Providers\GdprServiceProvider.php:25\Gdpr\app\Providers\GdprServiceProvider.php]8;;\                                                                 
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------------- 
 
  ------ ---------------------------------------------------------------------------------------------------------- 
@@ -2023,23 +991,10 @@
  ------ ---------------------------------------------------------------------------------------------------------- 
   20     Called 'env' outside of the config directory which returns null when the config is cached, use 'config'.  
          🪪  larastan.noEnvCallsOutsideOfConfig                                                                    
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Gdpr\config\consent.php:20\Gdpr\config\consent.php]8;;\                                                                               
-  46     Called 'env' outside of the config directory which returns null when the config is cached, use 'config'.  
-         🪪  larastan.noEnvCallsOutsideOfConfig                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Gdpr\config\consent.php:46\Gdpr\config\consent.php]8;;\                                                                               
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\config\consent.php:20\Gdpr\config\consent.php]8;;\                                                                               
   46     Called 'env' outside of the config directory which returns null when the config is cached, use 'config'.  
          🪪  larastan.noEnvCallsOutsideOfConfig                                                                    
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Gdpr\config\consent.php:46\Gdpr\config\consent.php]8;;\                                                                               
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------- 
@@ -2047,15 +1002,7 @@
  ------ --------------------------------------------------------------------------------------- 
   35     Method Modules\Geo\Providers\GeoServiceProvider::boot() has no return type specified.  
          🪪  missingType.return                                                                 
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\Providers\GeoServiceProvider.php:35\Geo\Providers\GeoServiceProvider.php]8;;\                                               
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\Providers\GeoServiceProvider.php:35\Geo\Providers\GeoServiceProvider.php]8;;\                                               
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\Providers\GeoServiceProvider.php:35\Geo\Providers\GeoServiceProvider.php]8;;\                                               
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------- 
@@ -2064,52 +1011,6 @@
   19     Method Modules\Geo\Actions\CalculateDistanceAction::execute() has parameter $destination with no type        
          specified.                                                                                                   
          🪪  missingType.parameter                                                                                    
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:19\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  19     Method Modules\Geo\Actions\CalculateDistanceAction::execute() has parameter $origin with no type specified.  
-         🪪  missingType.parameter                                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:19\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  21     Cannot access property $latitude on mixed.                                                                   
-         🪪  property.nonObject                                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:21\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  22     Cannot access property $latitude on mixed.                                                                   
-         🪪  property.nonObject                                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:22\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  27     Part $origin->latitude (mixed) of encapsed string cannot be cast to string.                                  
-         🪪  encapsedStringPart.nonString                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:27\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  27     Part $origin->longitude (mixed) of encapsed string cannot be cast to string.                                 
-         🪪  encapsedStringPart.nonString                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:27\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  28     Part $destination->latitude (mixed) of encapsed string cannot be cast to string.                             
-         🪪  encapsedStringPart.nonString                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:28\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  28     Part $destination->longitude (mixed) of encapsed string cannot be cast to string.                            
-         🪪  encapsedStringPart.nonString                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:28\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  31     Cannot access offset 'distance' on mixed.                                                                    
-         🪪  offsetAccess.nonOffsetAccessible                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:31\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  31     Cannot access offset 'elements' on mixed.                                                                    
-         🪪  offsetAccess.nonOffsetAccessible                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:31\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  31     Cannot access offset 0 on mixed.                                                                             
-         🪪  offsetAccess.nonOffsetAccessible                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:31\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  31     Cannot access offset 0 on mixed.                                                                             
-         🪪  offsetAccess.nonOffsetAccessible                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:31\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  35     Cannot access offset 'value' on mixed.                                                                       
-         🪪  offsetAccess.nonOffsetAccessible                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:35\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-  35     Parameter #1 $meters of method Modules\Geo\Actions\CalculateDistanceAction::formatDistance() expects int,    
-         mixed given.                                                                                                 
-         🪪  argument.type                                                                                            
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:35\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:19\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
   19     Method Modules\Geo\Actions\CalculateDistanceAction::execute() has parameter $origin with no type specified.  
          🪪  missingType.parameter                                                                                    
@@ -2151,10 +1052,6 @@
          mixed given.                                                                                                 
          🪪  argument.type                                                                                            
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\CalculateDistanceAction.php:35\Geo\app\Actions\CalculateDistanceAction.php]8;;\                                                              
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------------- 
@@ -2163,52 +1060,6 @@
   19     Method Modules\Geo\Actions\CalculateTravelTimeAction::execute() has parameter $destination with no type        
          specified.                                                                                                     
          🪪  missingType.parameter                                                                                      
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:19\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  19     Method Modules\Geo\Actions\CalculateTravelTimeAction::execute() has parameter $origin with no type specified.  
-         🪪  missingType.parameter                                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:19\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  21     Cannot access property $latitude on mixed.                                                                     
-         🪪  property.nonObject                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:21\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  22     Cannot access property $latitude on mixed.                                                                     
-         🪪  property.nonObject                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:22\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  27     Part $origin->latitude (mixed) of encapsed string cannot be cast to string.                                    
-         🪪  encapsedStringPart.nonString                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:27\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  27     Part $origin->longitude (mixed) of encapsed string cannot be cast to string.                                   
-         🪪  encapsedStringPart.nonString                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:27\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  28     Part $destination->latitude (mixed) of encapsed string cannot be cast to string.                               
-         🪪  encapsedStringPart.nonString                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:28\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  28     Part $destination->longitude (mixed) of encapsed string cannot be cast to string.                              
-         🪪  encapsedStringPart.nonString                                                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:28\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  31     Cannot access offset 'duration' on mixed.                                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:31\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  31     Cannot access offset 'elements' on mixed.                                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:31\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  31     Cannot access offset 0 on mixed.                                                                               
-         🪪  offsetAccess.nonOffsetAccessible                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:31\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  31     Cannot access offset 0 on mixed.                                                                               
-         🪪  offsetAccess.nonOffsetAccessible                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:31\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  35     Cannot access offset 'value' on mixed.                                                                         
-         🪪  offsetAccess.nonOffsetAccessible                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:35\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-  35     Parameter #1 $seconds of method Modules\Geo\Actions\CalculateTravelTimeAction::formatDuration() expects int,   
-         mixed given.                                                                                                   
-         🪪  argument.type                                                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:35\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:19\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
   19     Method Modules\Geo\Actions\CalculateTravelTimeAction::execute() has parameter $origin with no type specified.  
          🪪  missingType.parameter                                                                                      
@@ -2250,10 +1101,6 @@
          mixed given.                                                                                                   
          🪪  argument.type                                                                                              
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\CalculateTravelTimeAction.php:35\Geo\app\Actions\CalculateTravelTimeAction.php]8;;\                                                              
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------------- 
 
  ------ ----------------------------------------------------------------------------- 
@@ -2261,33 +1108,6 @@
  ------ ----------------------------------------------------------------------------- 
   18     Cannot call method execute() on mixed.                                       
          🪪  method.nonObject                                                         
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\ClusterLocationsAction.php:18\Geo\app\Actions\ClusterLocationsAction.php]8;;\                               
-  19     Cannot access offset 'latitude' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\ClusterLocationsAction.php:19\Geo\app\Actions\ClusterLocationsAction.php]8;;\                               
-  20     Cannot access offset 'longitude' on mixed.                                   
-         🪪  offsetAccess.nonOffsetAccessible                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\ClusterLocationsAction.php:20\Geo\app\Actions\ClusterLocationsAction.php]8;;\                               
-  21     Cannot access offset 'latitude' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\ClusterLocationsAction.php:21\Geo\app\Actions\ClusterLocationsAction.php]8;;\                               
-  22     Cannot access offset 'longitude' on mixed.                                   
-         🪪  offsetAccess.nonOffsetAccessible                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\ClusterLocationsAction.php:22\Geo\app\Actions\ClusterLocationsAction.php]8;;\                               
-  46     Parameter #1 $array of function array_column expects array, mixed given.     
-         🪪  argument.type                                                            
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\ClusterLocationsAction.php:46\Geo\app\Actions\ClusterLocationsAction.php]8;;\                               
-  47     Parameter #1 $array of function array_column expects array, mixed given.     
-         🪪  argument.type                                                            
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\ClusterLocationsAction.php:47\Geo\app\Actions\ClusterLocationsAction.php]8;;\                               
-  48     Parameter #1 $value of function count expects array|Countable, mixed given.  
-         🪪  argument.type                                                            
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\ClusterLocationsAction.php:48\Geo\app\Actions\ClusterLocationsAction.php]8;;\                               
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\ClusterLocationsAction.php:18\Geo\app\Actions\ClusterLocationsAction.php]8;;\                               
   19     Cannot access offset 'latitude' on mixed.                                    
          🪪  offsetAccess.nonOffsetAccessible                                         
@@ -2310,10 +1130,6 @@
   48     Parameter #1 $value of function count expects array|Countable, mixed given.  
          🪪  argument.type                                                            
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\ClusterLocationsAction.php:48\Geo\app\Actions\ClusterLocationsAction.php]8;;\                               
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ----------------------------------------------------------------------------- 
 
  ------ ----------------------------------------------------- 
@@ -2321,24 +1137,6 @@
  ------ ----------------------------------------------------- 
   26     Cannot access offset 'results' on mixed.             
          🪪  offsetAccess.nonOffsetAccessible                 
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Elevation\GetElevationAction.php:26\Geo\app\Actions\Elevation\GetElevationAction.php]8;;\  
-  26     Cannot access offset 0 on mixed.                     
-         🪪  offsetAccess.nonOffsetAccessible                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Elevation\GetElevationAction.php:26\Geo\app\Actions\Elevation\GetElevationAction.php]8;;\  
-  29     Cannot access offset 'elevation' on mixed.           
-         🪪  offsetAccess.nonOffsetAccessible                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Elevation\GetElevationAction.php:29\Geo\app\Actions\Elevation\GetElevationAction.php]8;;\  
-  30     Cannot access offset 'latitude' on mixed.            
-         🪪  offsetAccess.nonOffsetAccessible                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Elevation\GetElevationAction.php:30\Geo\app\Actions\Elevation\GetElevationAction.php]8;;\  
-  31     Cannot access offset 'longitude' on mixed.           
-         🪪  offsetAccess.nonOffsetAccessible                 
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Elevation\GetElevationAction.php:31\Geo\app\Actions\Elevation\GetElevationAction.php]8;;\  
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\Elevation\GetElevationAction.php:26\Geo\app\Actions\Elevation\GetElevationAction.php]8;;\  
   26     Cannot access offset 0 on mixed.                     
          🪪  offsetAccess.nonOffsetAccessible                 
@@ -2352,10 +1150,6 @@
   31     Cannot access offset 'longitude' on mixed.           
          🪪  offsetAccess.nonOffsetAccessible                 
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\Elevation\GetElevationAction.php:31\Geo\app\Actions\Elevation\GetElevationAction.php]8;;\  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ----------------------------------------------------- 
 
  ------ ---------------------------------------------------------------------------------------------------------- 
@@ -2363,109 +1157,6 @@
  ------ ---------------------------------------------------------------------------------------------------------- 
   57     Cannot access offset 'results' on mixed.                                                                  
          🪪  offsetAccess.nonOffsetAccessible                                                                      
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:57\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  61     Cannot access offset 'geometry' on mixed.                                                                 
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:61\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  61     Cannot access offset 'location' on mixed.                                                                 
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:61\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  61     Cannot access offset 0 on mixed.                                                                          
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:61\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  63     Class Modules\Geo\Datas\CoordinatesData does not have a constructor and must be instantiated without any  
-         parameters.                                                                                               
-         🪪  new.noConstructor                                                                                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:63\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  64     Cannot access offset 'lat' on mixed.                                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:64\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  65     Cannot access offset 'lng' on mixed.                                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:65\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  78     Cannot access offset 'resourceSets' on mixed.                                                             
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:78\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  78     Cannot access offset 'resources' on mixed.                                                                
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:78\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  78     Cannot access offset 0 on mixed.                                                                          
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:78\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  84     Cannot access offset 'coordinates' on mixed.                                                              
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:84\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  84     Cannot access offset 'point' on mixed.                                                                    
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:84\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  84     Cannot access offset 0 on mixed.                                                                          
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:84\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  88     Cannot access offset 0 on mixed.                                                                          
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:88\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  89     Cannot access offset 1 on mixed.                                                                          
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:89\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  101    Cannot access offset 'results' on mixed.                                                                  
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:101\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  105    Cannot access offset 'geometry' on mixed.                                                                 
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:105\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  105    Cannot access offset 0 on mixed.                                                                          
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:105\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  107    Class Modules\Geo\Datas\CoordinatesData does not have a constructor and must be instantiated without any  
-         parameters.                                                                                               
-         🪪  new.noConstructor                                                                                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:107\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  108    Cannot access offset 'lat' on mixed.                                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:108\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  109    Cannot access offset 'lng' on mixed.                                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:109\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  124    Cannot access offset 0 on mixed.                                                                          
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:124\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  126    Class Modules\Geo\Datas\CoordinatesData does not have a constructor and must be instantiated without any  
-         parameters.                                                                                               
-         🪪  new.noConstructor                                                                                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:126\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  127    Cannot access offset 'lat' on mixed.                                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:127\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  127    Cannot cast mixed to float.                                                                               
-         🪪  cast.double                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:127\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  128    Cannot access offset 'lon' on mixed.                                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:128\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  128    Cannot cast mixed to float.                                                                               
-         🪪  cast.double                                                                                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:128\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  139    Cannot access offset 'results' on mixed.                                                                  
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:139\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  143    Cannot access offset 0 on mixed.                                                                          
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:143\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  145    Class Modules\Geo\Datas\CoordinatesData does not have a constructor and must be instantiated without any  
-         parameters.                                                                                               
-         🪪  new.noConstructor                                                                                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:145\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  146    Cannot access offset 'latitude' on mixed.                                                                 
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:146\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-  147    Cannot access offset 'longitude' on mixed.                                                                
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:147\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:57\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
   61     Cannot access offset 'geometry' on mixed.                                                                 
          🪪  offsetAccess.nonOffsetAccessible                                                                      
@@ -2564,10 +1255,6 @@
   147    Cannot access offset 'longitude' on mixed.                                                                
          🪪  offsetAccess.nonOffsetAccessible                                                                      
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\GetCoordinatesByAddressAction.php:147\Geo\app\Actions\GetCoordinatesByAddressAction.php]8;;\                                                     
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------------------------------------- 
 
  ------ ----------------------------------------------------------- 
@@ -2575,23 +1262,10 @@
  ------ ----------------------------------------------------------- 
   23     Cannot access offset 'lat' on mixed.                       
          🪪  offsetAccess.nonOffsetAccessible                       
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesFromGoogleMapsAction.php:23\Geo\app\Actions\GetCoordinatesFromGoogleMapsAction.php]8;;\  
-  24     Cannot access offset 'lng' on mixed.                       
-         🪪  offsetAccess.nonOffsetAccessible                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesFromGoogleMapsAction.php:24\Geo\app\Actions\GetCoordinatesFromGoogleMapsAction.php]8;;\  
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\GetCoordinatesFromGoogleMapsAction.php:23\Geo\app\Actions\GetCoordinatesFromGoogleMapsAction.php]8;;\  
   24     Cannot access offset 'lng' on mixed.                       
          🪪  offsetAccess.nonOffsetAccessible                       
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\GetCoordinatesFromGoogleMapsAction.php:24\Geo\app\Actions\GetCoordinatesFromGoogleMapsAction.php]8;;\  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ----------------------------------------------------------- 
 
  ------ ---------------------------------------------------------------------------- 
@@ -2599,27 +1273,6 @@
  ------ ---------------------------------------------------------------------------- 
   17     Binary operation "." between mixed and ' Application' results in an error.  
          🪪  binaryOp.invalid                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php:17\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php]8;;\               
-  25     Cannot access offset 0 on mixed.                                            
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php:25\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php]8;;\               
-  28     Cannot access offset 'lat' on mixed.                                        
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php:28\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php]8;;\               
-  28     Cannot cast mixed to float.                                                 
-         🪪  cast.double                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php:28\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php]8;;\               
-  29     Cannot access offset 'lon' on mixed.                                        
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php:29\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php]8;;\               
-  29     Cannot cast mixed to float.                                                 
-         🪪  cast.double                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php:29\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php]8;;\               
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php:17\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php]8;;\               
   25     Cannot access offset 0 on mixed.                                            
          🪪  offsetAccess.nonOffsetAccessible                                        
@@ -2636,10 +1289,6 @@
   29     Cannot cast mixed to float.                                                 
          🪪  cast.double                                                             
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php:29\Geo\app\Actions\GetCoordinatesFromOpenStreetMapAction.php]8;;\               
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------- 
 
  ------ -------------------------------------------------------------- 
@@ -2647,39 +1296,6 @@
  ------ -------------------------------------------------------------- 
   23     Cannot access offset 'ip' on mixed.                           
          🪪  offsetAccess.nonOffsetAccessible                          
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:23\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-  24     Cannot access offset 'city' on mixed.                         
-         🪪  offsetAccess.nonOffsetAccessible                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:24\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-  25     Cannot access offset 'region' on mixed.                       
-         🪪  offsetAccess.nonOffsetAccessible                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:25\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-  26     Cannot access offset 'country_name' on mixed.                 
-         🪪  offsetAccess.nonOffsetAccessible                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:26\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-  27     Cannot access offset 'latitude' on mixed.                     
-         🪪  offsetAccess.nonOffsetAccessible                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:27\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-  28     Cannot access offset 'longitude' on mixed.                    
-         🪪  offsetAccess.nonOffsetAccessible                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:28\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-  29     Cannot access offset 'timezone' on mixed.                     
-         🪪  offsetAccess.nonOffsetAccessible                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:29\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-  30     Cannot access offset 'postal' on mixed.                       
-         🪪  offsetAccess.nonOffsetAccessible                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:30\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-  31     Cannot access offset 'asn' on mixed.                          
-         🪪  offsetAccess.nonOffsetAccessible                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:31\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-  32     Cannot access offset 'org' on mixed.                          
-         🪪  offsetAccess.nonOffsetAccessible                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:32\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:23\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
   24     Cannot access offset 'city' on mixed.                         
          🪪  offsetAccess.nonOffsetAccessible                          
@@ -2708,10 +1324,6 @@
   32     Cannot access offset 'org' on mixed.                          
          🪪  offsetAccess.nonOffsetAccessible                          
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php:32\Geo\app\Actions\IPGeolocation\GetLocationFromIPAction.php]8;;\  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------- 
 
  ------ ---------------------------------------------------------------------------- 
@@ -2719,45 +1331,6 @@
  ------ ---------------------------------------------------------------------------- 
   17     Binary operation "." between mixed and ' Application' results in an error.  
          🪪  binaryOp.invalid                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:17\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  26     Cannot access offset 0 on mixed.                                            
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:26\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  29     Cannot access offset 'display_name' on mixed.                               
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:29\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  30     Cannot access offset 'lat' on mixed.                                        
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:30\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  30     Cannot cast mixed to float.                                                 
-         🪪  cast.double                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:30\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  31     Cannot access offset 'lon' on mixed.                                        
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:31\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  31     Cannot cast mixed to float.                                                 
-         🪪  cast.double                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:31\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  32     Cannot access offset 'address' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:32\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  33     Cannot access offset 'osm_type' on mixed.                                   
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:33\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  34     Cannot access offset 'osm_id' on mixed.                                     
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:34\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  35     Cannot access offset 'class' on mixed.                                      
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:35\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-  36     Cannot access offset 'type' on mixed.                                       
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:36\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:17\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
   26     Cannot access offset 0 on mixed.                                            
          🪪  offsetAccess.nonOffsetAccessible                                        
@@ -2792,10 +1365,6 @@
   36     Cannot access offset 'type' on mixed.                                       
          🪪  offsetAccess.nonOffsetAccessible                                        
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\Nominatim\LookupPlaceAction.php:36\Geo\app\Actions\Nominatim\LookupPlaceAction.php]8;;\                         
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------- 
 
  ------ ---------------------------------------------------------------------------- 
@@ -2803,69 +1372,6 @@
  ------ ---------------------------------------------------------------------------- 
   17     Binary operation "." between mixed and ' Application' results in an error.  
          🪪  binaryOp.invalid                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:17\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  30     Cannot access offset 'display_name' on mixed.                               
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:30\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  32     Cannot access offset 'address' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:32\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  32     Cannot access offset 'road' on mixed.                                       
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:32\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  33     Cannot access offset 'address' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:33\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  33     Cannot access offset 'house_number' on mixed.                               
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:33\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  34     Cannot access offset 'address' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:34\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  34     Cannot access offset 'postcode' on mixed.                                   
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:34\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  35     Cannot access offset 'address' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:35\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  35     Cannot access offset 'address' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:35\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  35     Cannot access offset 'address' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:35\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  35     Cannot access offset 'city' on mixed.                                       
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:35\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  35     Cannot access offset 'town' on mixed.                                       
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:35\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  35     Cannot access offset 'village' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:35\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  36     Cannot access offset 'address' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:36\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  36     Cannot access offset 'state' on mixed.                                      
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:36\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  37     Cannot access offset 'address' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:37\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  37     Cannot access offset 'country' on mixed.                                    
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:37\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  39     Cannot access offset 'osm_type' on mixed.                                   
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:39\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-  40     Cannot access offset 'osm_id' on mixed.                                     
-         🪪  offsetAccess.nonOffsetAccessible                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:40\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:17\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
   30     Cannot access offset 'display_name' on mixed.                               
          🪪  offsetAccess.nonOffsetAccessible                                        
@@ -2924,10 +1430,6 @@
   40     Cannot access offset 'osm_id' on mixed.                                     
          🪪  offsetAccess.nonOffsetAccessible                                        
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php:40\Geo\app\Actions\Nominatim\ReverseGeocodeAction.php]8;;\                      
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------ 
@@ -2935,48 +1437,6 @@
  ------ ------------------------------------------------------------------------------------------------------ 
   32     Binary operation "." between mixed and ' Application' results in an error.                            
          🪪  binaryOp.invalid                                                                                  
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:32\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  36     Parameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string),  
-         mixed>|iterable<(int|string), mixed>|null, mixed given.                                               
-         🪪  argument.type                                                                                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:36\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  36     Unable to resolve the template type TKey in call to function collect                                  
-         🪪  argument.templateType                                                                             
-         💡 See: https://phpstan.org/blog/solving-phpstan-error-unable-to-resolve-template-type                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:36\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  36     Unable to resolve the template type TValue in call to function collect                                
-         🪪  argument.templateType                                                                             
-         💡 See: https://phpstan.org/blog/solving-phpstan-error-unable-to-resolve-template-type                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:36\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  38     Cannot access offset 'display_name' on mixed.                                                         
-         🪪  offsetAccess.nonOffsetAccessible                                                                  
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:38\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  39     Cannot access offset 'lat' on mixed.                                                                  
-         🪪  offsetAccess.nonOffsetAccessible                                                                  
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:39\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  39     Cannot cast mixed to float.                                                                           
-         🪪  cast.double                                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:39\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  40     Cannot access offset 'lon' on mixed.                                                                  
-         🪪  offsetAccess.nonOffsetAccessible                                                                  
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:40\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  40     Cannot cast mixed to float.                                                                           
-         🪪  cast.double                                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:40\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  41     Cannot access offset 'type' on mixed.                                                                 
-         🪪  offsetAccess.nonOffsetAccessible                                                                  
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:41\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  42     Cannot access offset 'importance' on mixed.                                                           
-         🪪  offsetAccess.nonOffsetAccessible                                                                  
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:42\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-  43     Cannot access offset 'address' on mixed.                                                              
-         🪪  offsetAccess.nonOffsetAccessible                                                                  
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:43\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:32\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
   36     Parameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string),  
          mixed>|iterable<(int|string), mixed>|null, mixed given.                                               
@@ -3014,10 +1474,6 @@
   43     Cannot access offset 'address' on mixed.                                                              
          🪪  offsetAccess.nonOffsetAccessible                                                                  
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\Nominatim\SearchPlacesAction.php:43\Geo\app\Actions\Nominatim\SearchPlacesAction.php]8;;\                                                  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------ 
 
  ------ ----------------------------------------------------------------------------------------------------------- 
@@ -3026,30 +1482,6 @@
   21     Parameter #1 $point of method Modules\Geo\Actions\OptimizeRouteAction::findNearest() expects array, mixed  
          given.                                                                                                     
          🪪  argument.type                                                                                          
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\OptimizeRouteAction.php:21\Geo\app\Actions\OptimizeRouteAction.php]8;;\                                                                
-  25     Cannot access offset 'latitude' on mixed.                                                                  
-         🪪  offsetAccess.nonOffsetAccessible                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\OptimizeRouteAction.php:25\Geo\app\Actions\OptimizeRouteAction.php]8;;\                                                                
-  26     Cannot access offset 'longitude' on mixed.                                                                 
-         🪪  offsetAccess.nonOffsetAccessible                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\OptimizeRouteAction.php:26\Geo\app\Actions\OptimizeRouteAction.php]8;;\                                                                
-  42     Cannot call method execute() on mixed.                                                                     
-         🪪  method.nonObject                                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\OptimizeRouteAction.php:42\Geo\app\Actions\OptimizeRouteAction.php]8;;\                                                                
-  45     Cannot access offset 'latitude' on mixed.                                                                  
-         🪪  offsetAccess.nonOffsetAccessible                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\OptimizeRouteAction.php:45\Geo\app\Actions\OptimizeRouteAction.php]8;;\                                                                
-  46     Cannot access offset 'longitude' on mixed.                                                                 
-         🪪  offsetAccess.nonOffsetAccessible                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\OptimizeRouteAction.php:46\Geo\app\Actions\OptimizeRouteAction.php]8;;\                                                                
-  55     Method Modules\Geo\Actions\OptimizeRouteAction::findNearest() should return array but returns mixed.       
-         🪪  return.type                                                                                            
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\OptimizeRouteAction.php:55\Geo\app\Actions\OptimizeRouteAction.php]8;;\                                                                
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\OptimizeRouteAction.php:21\Geo\app\Actions\OptimizeRouteAction.php]8;;\                                                                
   25     Cannot access offset 'latitude' on mixed.                                                                  
          🪪  offsetAccess.nonOffsetAccessible                                                                       
@@ -3069,10 +1501,6 @@
   55     Method Modules\Geo\Actions\OptimizeRouteAction::findNearest() should return array but returns mixed.       
          🪪  return.type                                                                                            
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\OptimizeRouteAction.php:55\Geo\app\Actions\OptimizeRouteAction.php]8;;\                                                                
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ----------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------- 
@@ -3080,33 +1508,6 @@
  ------ --------------------------------------------------- 
   26     Cannot access offset 'timezoneId' on mixed.        
          🪪  offsetAccess.nonOffsetAccessible               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\TimeZone\GetTimeZoneAction.php:26\Geo\app\Actions\TimeZone\GetTimeZoneAction.php]8;;\  
-  27     Cannot access offset 'timeZoneName' on mixed.      
-         🪪  offsetAccess.nonOffsetAccessible               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\TimeZone\GetTimeZoneAction.php:27\Geo\app\Actions\TimeZone\GetTimeZoneAction.php]8;;\  
-  28     Cannot access offset 'dstOffset' on mixed.         
-         🪪  offsetAccess.nonOffsetAccessible               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\TimeZone\GetTimeZoneAction.php:28\Geo\app\Actions\TimeZone\GetTimeZoneAction.php]8;;\  
-  29     Cannot access offset 'gmtOffset' on mixed.         
-         🪪  offsetAccess.nonOffsetAccessible               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\TimeZone\GetTimeZoneAction.php:29\Geo\app\Actions\TimeZone\GetTimeZoneAction.php]8;;\  
-  30     Cannot access offset 'rawOffset' on mixed.         
-         🪪  offsetAccess.nonOffsetAccessible               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\TimeZone\GetTimeZoneAction.php:30\Geo\app\Actions\TimeZone\GetTimeZoneAction.php]8;;\  
-  31     Cannot access offset 'time' on mixed.              
-         🪪  offsetAccess.nonOffsetAccessible               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\TimeZone\GetTimeZoneAction.php:31\Geo\app\Actions\TimeZone\GetTimeZoneAction.php]8;;\  
-  32     Cannot access offset 'sunrise' on mixed.           
-         🪪  offsetAccess.nonOffsetAccessible               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\TimeZone\GetTimeZoneAction.php:32\Geo\app\Actions\TimeZone\GetTimeZoneAction.php]8;;\  
-  33     Cannot access offset 'sunset' on mixed.            
-         🪪  offsetAccess.nonOffsetAccessible               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\TimeZone\GetTimeZoneAction.php:33\Geo\app\Actions\TimeZone\GetTimeZoneAction.php]8;;\  
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\TimeZone\GetTimeZoneAction.php:26\Geo\app\Actions\TimeZone\GetTimeZoneAction.php]8;;\  
   27     Cannot access offset 'timeZoneName' on mixed.      
          🪪  offsetAccess.nonOffsetAccessible               
@@ -3129,10 +1530,6 @@
   33     Cannot access offset 'sunset' on mixed.            
          🪪  offsetAccess.nonOffsetAccessible               
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\TimeZone\GetTimeZoneAction.php:33\Geo\app\Actions\TimeZone\GetTimeZoneAction.php]8;;\  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------------- 
 
  ------ --------------------------------------------------------- 
@@ -3140,81 +1537,6 @@
  ------ --------------------------------------------------------- 
   28     Cannot access offset 'main' on mixed.                    
          🪪  offsetAccess.nonOffsetAccessible                     
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:28\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  28     Cannot access offset 'temp' on mixed.                    
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:28\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  29     Cannot access offset 'feels_like' on mixed.              
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:29\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  29     Cannot access offset 'main' on mixed.                    
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:29\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  30     Cannot access offset 'humidity' on mixed.                
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:30\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  30     Cannot access offset 'main' on mixed.                    
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:30\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  31     Cannot access offset 'main' on mixed.                    
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:31\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  31     Cannot access offset 'pressure' on mixed.                
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:31\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  33     Cannot access offset 'main' on mixed.                    
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:33\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  33     Cannot access offset 'weather' on mixed.                 
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:33\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  33     Cannot access offset 0 on mixed.                         
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:33\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  34     Cannot access offset 'description' on mixed.             
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:34\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  34     Cannot access offset 'weather' on mixed.                 
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:34\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  34     Cannot access offset 0 on mixed.                         
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:34\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  35     Cannot access offset 'icon' on mixed.                    
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:35\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  35     Cannot access offset 'weather' on mixed.                 
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:35\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  35     Cannot access offset 0 on mixed.                         
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:35\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  38     Cannot access offset 'speed' on mixed.                   
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:38\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  38     Cannot access offset 'wind' on mixed.                    
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:38\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  39     Cannot access offset 'deg' on mixed.                     
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:39\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  39     Cannot access offset 'wind' on mixed.                    
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:39\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  41     Cannot access offset 'all' on mixed.                     
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:41\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  41     Cannot access offset 'clouds' on mixed.                  
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:41\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-  42     Cannot access offset 'dt' on mixed.                      
-         🪪  offsetAccess.nonOffsetAccessible                     
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:42\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:28\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
   28     Cannot access offset 'temp' on mixed.                    
          🪪  offsetAccess.nonOffsetAccessible                     
@@ -3285,10 +1607,6 @@
   42     Cannot access offset 'dt' on mixed.                      
          🪪  offsetAccess.nonOffsetAccessible                     
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php:42\Geo\app\Actions\Weather\GetOpenWeatherDataAction.php]8;;\  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------- 
 
  ------ --------------------------------------------- 
@@ -3296,23 +1614,10 @@
  ------ --------------------------------------------- 
   51     Cannot access property $latitude on mixed.   
          🪪  property.nonObject                       
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Pages\DotswanMap.php:51\Geo\app\Filament\Pages\DotswanMap.php]8;;\    
-  51     Cannot access property $longitude on mixed.  
-         🪪  property.nonObject                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Pages\DotswanMap.php:51\Geo\app\Filament\Pages\DotswanMap.php]8;;\    
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Filament\Pages\DotswanMap.php:51\Geo\app\Filament\Pages\DotswanMap.php]8;;\    
   51     Cannot access property $longitude on mixed.  
          🪪  property.nonObject                       
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Filament\Pages\DotswanMap.php:51\Geo\app\Filament\Pages\DotswanMap.php]8;;\    
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------- 
 
  ------ ---------------------------------------------------------------------------------------------------------- 
@@ -3320,27 +1625,6 @@
  ------ ---------------------------------------------------------------------------------------------------------- 
   37     Parameter #1 $value of function floatval expects array|bool|float|int|resource|string|null, mixed given.  
          🪪  argument.type                                                                                         
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Resources\LocationResource.php:37\Geo\app\Filament\Resources\LocationResource.php]8;;\                                                       
-  38     Parameter #1 $value of function floatval expects array|bool|float|int|resource|string|null, mixed given.  
-         🪪  argument.type                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Resources\LocationResource.php:38\Geo\app\Filament\Resources\LocationResource.php]8;;\                                                       
-  46     Parameter #1 $value of function floatval expects array|bool|float|int|resource|string|null, mixed given.  
-         🪪  argument.type                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Resources\LocationResource.php:46\Geo\app\Filament\Resources\LocationResource.php]8;;\                                                       
-  47     Parameter #1 $value of function floatval expects array|bool|float|int|resource|string|null, mixed given.  
-         🪪  argument.type                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Resources\LocationResource.php:47\Geo\app\Filament\Resources\LocationResource.php]8;;\                                                       
-  82     Cannot access offset 'lat' on mixed.                                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Resources\LocationResource.php:82\Geo\app\Filament\Resources\LocationResource.php]8;;\                                                       
-  83     Cannot access offset 'lng' on mixed.                                                                      
-         🪪  offsetAccess.nonOffsetAccessible                                                                      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Resources\LocationResource.php:83\Geo\app\Filament\Resources\LocationResource.php]8;;\                                                       
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Filament\Resources\LocationResource.php:37\Geo\app\Filament\Resources\LocationResource.php]8;;\                                                       
   38     Parameter #1 $value of function floatval expects array|bool|float|int|resource|string|null, mixed given.  
          🪪  argument.type                                                                                         
@@ -3357,10 +1641,6 @@
   83     Cannot access offset 'lng' on mixed.                                                                      
          🪪  offsetAccess.nonOffsetAccessible                                                                      
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Filament\Resources\LocationResource.php:83\Geo\app\Filament\Resources\LocationResource.php]8;;\                                                       
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------------------------------------- 
 
  ------ ---------------------------------------------------------------------------------------------------------- 
@@ -3368,36 +1648,6 @@
  ------ ---------------------------------------------------------------------------------------------------------- 
   162    Argument of an invalid type mixed supplied for foreach, only iterables are supported.                     
          🪪  foreach.nonIterable                                                                                   
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:162\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
-  165    Cannot access property $lat on mixed.                                                                     
-         🪪  property.nonObject                                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:165\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
-  165    Cannot access property $lat on mixed.                                                                     
-         🪪  property.nonObject                                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:165\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
-  165    Parameter #1 $value of function floatval expects array|bool|float|int|resource|string|null, mixed given.  
-         🪪  argument.type                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:165\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
-  166    Cannot access property $lng on mixed.                                                                     
-         🪪  property.nonObject                                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:166\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
-  166    Cannot access property $lng on mixed.                                                                     
-         🪪  property.nonObject                                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:166\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
-  166    Parameter #1 $value of function floatval expects array|bool|float|int|resource|string|null, mixed given.  
-         🪪  argument.type                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:166\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
-  168    Cannot access property $formatted_address on mixed.                                                       
-         🪪  property.nonObject                                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:168\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
-  169    Cannot access property $id on mixed.                                                                      
-         🪪  property.nonObject                                                                                    
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:169\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:162\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
   165    Cannot access property $lat on mixed.                                                                     
          🪪  property.nonObject                                                                                    
@@ -3423,10 +1673,6 @@
   169    Cannot access property $id on mixed.                                                                      
          🪪  property.nonObject                                                                                    
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Filament\Widgets\LocationMapTableWidget.php:169\Geo\app\Filament\Widgets\LocationMapTableWidget.php]8;;\                                                   
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------- 
@@ -3434,15 +1680,7 @@
  ------ --------------------------------------------------- 
   89     Cannot access offset 'styles' on mixed.            
          🪪  offsetAccess.nonOffsetAccessible               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\LocationMapWidget.php:89\Geo\app\Filament\Widgets\LocationMapWidget.php]8;;\  
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Filament\Widgets\LocationMapWidget.php:89\Geo\app\Filament\Widgets\LocationMapWidget.php]8;;\  
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Filament\Widgets\LocationMapWidget.php:89\Geo\app\Filament\Widgets\LocationMapWidget.php]8;;\  
->>>>>>> laraxot/dev
  ------ --------------------------------------------------- 
 
  ------ ---------------------------------------------------------------------------------------------------------- 
@@ -3450,22 +1688,6 @@
  ------ ---------------------------------------------------------------------------------------------------------- 
   57     Parameter #1 $value of static method Illuminate\Support\Str::camel() expects string, mixed given.         
          🪪  argument.type                                                                                         
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\OSMMapWidget.php:57\Geo\app\Filament\Widgets\OSMMapWidget.php]8;;\                                                             
-  58     Parameter #1 $value of function floatval expects array|bool|float|int|resource|string|null, mixed given.  
-         🪪  argument.type                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\OSMMapWidget.php:58\Geo\app\Filament\Widgets\OSMMapWidget.php]8;;\                                                             
-  59     Parameter #1 $value of function floatval expects array|bool|float|int|resource|string|null, mixed given.  
-         🪪  argument.type                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\OSMMapWidget.php:59\Geo\app\Filament\Widgets\OSMMapWidget.php]8;;\                                                             
-  60     Parameter #1 $popup of method Webbingbrasil\FilamentMaps\Marker::popup() expects                          
-         string|Webbingbrasil\FilamentMaps\Concerns\Closure|null, mixed given.                                     
-         🪪  argument.type                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Filament\Widgets\OSMMapWidget.php:60\Geo\app\Filament\Widgets\OSMMapWidget.php]8;;\                                                             
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Filament\Widgets\OSMMapWidget.php:57\Geo\app\Filament\Widgets\OSMMapWidget.php]8;;\                                                             
   58     Parameter #1 $value of function floatval expects array|bool|float|int|resource|string|null, mixed given.  
          🪪  argument.type                                                                                         
@@ -3477,10 +1699,6 @@
          string|Webbingbrasil\FilamentMaps\Concerns\Closure|null, mixed given.                                     
          🪪  argument.type                                                                                         
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Filament\Widgets\OSMMapWidget.php:60\Geo\app\Filament\Widgets\OSMMapWidget.php]8;;\                                                             
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------- 
@@ -3488,21 +1706,6 @@
  ------ --------------------------------------------------------------------------------------------------------- 
   105    Cannot cast mixed to string.                                                                             
          🪪  cast.string                                                                                          
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Models\Place.php:105\Geo\app\Models\Place.php]8;;\                                                                             
-  106    Cannot cast mixed to string.                                                                             
-         🪪  cast.string                                                                                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Models\Place.php:106\Geo\app\Models\Place.php]8;;\                                                                             
-  126    Property Illuminate\Database\Eloquent\Model::$attributes (array<string, mixed>) does not accept array.   
-         🪪  assign.propertyType                                                                                  
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Models\Place.php:126\Geo\app\Models\Place.php]8;;\                                                                             
-  162    Method Modules\Geo\Models\Place::getFormattedAddressAttribute() should return string but returns mixed.  
-         🪪  return.type                                                                                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Models\Place.php:162\Geo\app\Models\Place.php]8;;\                                                                             
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Models\Place.php:105\Geo\app\Models\Place.php]8;;\                                                                             
   106    Cannot cast mixed to string.                                                                             
          🪪  cast.string                                                                                          
@@ -3513,10 +1716,6 @@
   162    Method Modules\Geo\Models\Place::getFormattedAddressAttribute() should return string but returns mixed.  
          🪪  return.type                                                                                          
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Models\Place.php:162\Geo\app\Models\Place.php]8;;\                                                                             
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------- 
@@ -3525,25 +1724,11 @@
   21     Parameter #1 $latPartenza of method Modules\Geo\Actions\FilterCoordinatesInRadius::execute() expects float,  
          mixed given.                                                                                                 
          🪪  argument.type                                                                                            
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Rules\FilterCoordinatesInRadius.php:21\Geo\app\Rules\FilterCoordinatesInRadius.php]8;;\                                                              
-  21     Parameter #2 $lonPartenza of method Modules\Geo\Actions\FilterCoordinatesInRadius::execute() expects float,  
-         mixed given.                                                                                                 
-         🪪  argument.type                                                                                            
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Rules\FilterCoordinatesInRadius.php:21\Geo\app\Rules\FilterCoordinatesInRadius.php]8;;\                                                              
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Rules\FilterCoordinatesInRadius.php:21\Geo\app\Rules\FilterCoordinatesInRadius.php]8;;\                                                              
   21     Parameter #2 $lonPartenza of method Modules\Geo\Actions\FilterCoordinatesInRadius::execute() expects float,  
          mixed given.                                                                                                 
          🪪  argument.type                                                                                            
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Rules\FilterCoordinatesInRadius.php:21\Geo\app\Rules\FilterCoordinatesInRadius.php]8;;\                                                              
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------- 
@@ -3551,36 +1736,6 @@
  ------ ------------------------------------------------------------------- 
   153    Cannot access property $lat on mixed.                              
          🪪  property.nonObject                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GeoService.php:153\Geo\app\Services\GeoService.php]8;;\                                
-  154    Binary operation "+" between float and mixed results in an error.  
-         🪪  binaryOp.invalid                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GeoService.php:154\Geo\app\Services\GeoService.php]8;;\                                
-  154    Binary operation "-" between float and mixed results in an error.  
-         🪪  binaryOp.invalid                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GeoService.php:154\Geo\app\Services\GeoService.php]8;;\                                
-  154    Binary operation "-" between mixed and mixed results in an error.  
-         🪪  binaryOp.invalid                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GeoService.php:154\Geo\app\Services\GeoService.php]8;;\                                
-  154    Binary operation "-" between mixed and mixed results in an error.  
-         🪪  binaryOp.invalid                                               
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GeoService.php:154\Geo\app\Services\GeoService.php]8;;\                                
-  154    Cannot access property $lat on mixed.                              
-         🪪  property.nonObject                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GeoService.php:154\Geo\app\Services\GeoService.php]8;;\                                
-  154    Cannot access property $lat on mixed.                              
-         🪪  property.nonObject                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GeoService.php:154\Geo\app\Services\GeoService.php]8;;\                                
-  154    Cannot access property $lng on mixed.                              
-         🪪  property.nonObject                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GeoService.php:154\Geo\app\Services\GeoService.php]8;;\                                
-  154    Cannot access property $lng on mixed.                              
-         🪪  property.nonObject                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GeoService.php:154\Geo\app\Services\GeoService.php]8;;\                                
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Services\GeoService.php:153\Geo\app\Services\GeoService.php]8;;\                                
   154    Binary operation "+" between float and mixed results in an error.  
          🪪  binaryOp.invalid                                               
@@ -3606,10 +1761,6 @@
   154    Cannot access property $lng on mixed.                              
          🪪  property.nonObject                                             
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Services\GeoService.php:154\Geo\app\Services\GeoService.php]8;;\                                
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------------- 
@@ -3617,20 +1768,6 @@
  ------ --------------------------------------------------------------------------------------------------------------- 
   22     Property Modules\Geo\Services\GoogleMapsService::$apiKey (string) does not accept mixed.                       
          🪪  assign.propertyType                                                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GoogleMapsService.php:22\Geo\app\Services\GoogleMapsService.php]8;;\                                                                     
-  29     Method Modules\Geo\Services\GoogleMapsService::getDistanceMatrix() should return array|null but returns        
-         mixed.                                                                                                         
-         🪪  return.type                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GoogleMapsService.php:29\Geo\app\Services\GoogleMapsService.php]8;;\                                                                     
-  48     Method Modules\Geo\Services\GoogleMapsService::getCoordinatesByAddress() should return array|null but returns  
-         mixed.                                                                                                         
-         🪪  return.type                                                                                                
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\GoogleMapsService.php:48\Geo\app\Services\GoogleMapsService.php]8;;\                                                                     
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Services\GoogleMapsService.php:22\Geo\app\Services\GoogleMapsService.php]8;;\                                                                     
   29     Method Modules\Geo\Services\GoogleMapsService::getDistanceMatrix() should return array|null but returns        
          mixed.                                                                                                         
@@ -3640,10 +1777,6 @@
          mixed.                                                                                                         
          🪪  return.type                                                                                                
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Services\GoogleMapsService.php:48\Geo\app\Services\GoogleMapsService.php]8;;\                                                                     
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------ 
@@ -3651,24 +1784,6 @@
  ------ ------------------------------------------ 
   24     Cannot access offset 0 on mixed.          
          🪪  offsetAccess.nonOffsetAccessible      
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\NominatimService.php:24\Geo\app\Services\NominatimService.php]8;;\  
-  27     Cannot access offset 'lat' on mixed.      
-         🪪  offsetAccess.nonOffsetAccessible      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\NominatimService.php:27\Geo\app\Services\NominatimService.php]8;;\  
-  27     Cannot cast mixed to float.               
-         🪪  cast.double                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\NominatimService.php:27\Geo\app\Services\NominatimService.php]8;;\  
-  28     Cannot access offset 'lon' on mixed.      
-         🪪  offsetAccess.nonOffsetAccessible      
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\NominatimService.php:28\Geo\app\Services\NominatimService.php]8;;\  
-  28     Cannot cast mixed to float.               
-         🪪  cast.double                           
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\NominatimService.php:28\Geo\app\Services\NominatimService.php]8;;\  
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Services\NominatimService.php:24\Geo\app\Services\NominatimService.php]8;;\  
   27     Cannot access offset 'lat' on mixed.      
          🪪  offsetAccess.nonOffsetAccessible      
@@ -3682,10 +1797,6 @@
   28     Cannot cast mixed to float.               
          🪪  cast.double                           
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Services\NominatimService.php:28\Geo\app\Services\NominatimService.php]8;;\  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------ 
 
  ------ -------------------------------------------------------------------------------------------------- 
@@ -3693,30 +1804,6 @@
  ------ -------------------------------------------------------------------------------------------------- 
   18     Property Modules\Geo\Services\PositionStackService::$apiKey (string|null) does not accept mixed.  
          🪪  assign.propertyType                                                                           
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\PositionStackService.php:18\Geo\app\Services\PositionStackService.php]8;;\                                                     
-  34     Cannot access offset 'data' on mixed.                                                             
-         🪪  offsetAccess.nonOffsetAccessible                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\PositionStackService.php:34\Geo\app\Services\PositionStackService.php]8;;\                                                     
-  35     Cannot access offset 0 on mixed.                                                                  
-         🪪  offsetAccess.nonOffsetAccessible                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\PositionStackService.php:35\Geo\app\Services\PositionStackService.php]8;;\                                                     
-  38     Cannot access offset 'latitude' on mixed.                                                         
-         🪪  offsetAccess.nonOffsetAccessible                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\PositionStackService.php:38\Geo\app\Services\PositionStackService.php]8;;\                                                     
-  38     Cannot cast mixed to float.                                                                       
-         🪪  cast.double                                                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\PositionStackService.php:38\Geo\app\Services\PositionStackService.php]8;;\                                                     
-  39     Cannot access offset 'longitude' on mixed.                                                        
-         🪪  offsetAccess.nonOffsetAccessible                                                              
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\PositionStackService.php:39\Geo\app\Services\PositionStackService.php]8;;\                                                     
-  39     Cannot cast mixed to float.                                                                       
-         🪪  cast.double                                                                                   
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Geo\app\Services\PositionStackService.php:39\Geo\app\Services\PositionStackService.php]8;;\                                                     
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Services\PositionStackService.php:18\Geo\app\Services\PositionStackService.php]8;;\                                                     
   34     Cannot access offset 'data' on mixed.                                                             
          🪪  offsetAccess.nonOffsetAccessible                                                              
@@ -3736,10 +1823,6 @@
   39     Cannot cast mixed to float.                                                                       
          🪪  cast.double                                                                                   
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Geo\app\Services\PositionStackService.php:39\Geo\app\Services\PositionStackService.php]8;;\                                                     
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------- 
 
  ------ -------------------------------------------------------------------------------------------------------- 
@@ -3751,15 +1834,7 @@
          🪪  argument.type                                                                                       
          💡 Type #2 from the union: Type Symfony\Component\Console\Command\Command of parameter #1 $command of   
             passed callable needs to be same or wider than parameter type mixed of accepting callable.           
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Actions\GetTaskCommandsAction.php:38\Job\app\Actions\GetTaskCommandsAction.php]8;;\                                                           
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Actions\GetTaskCommandsAction.php:38\Job\app\Actions\GetTaskCommandsAction.php]8;;\                                                           
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Actions\GetTaskCommandsAction.php:38\Job\app\Actions\GetTaskCommandsAction.php]8;;\                                                           
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------ 
@@ -3767,27 +1842,6 @@
  ------ ------------------------------------------------------------------------------ 
   56     Cannot access offset 'value' on mixed.                                        
          🪪  offsetAccess.nonOffsetAccessible                                          
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Columns\ScheduleArguments.php:56\Job\app\Filament\Columns\ScheduleArguments.php]8;;\                            
-  57     Binary operation "." between mixed and '=' results in an error.               
-         🪪  binaryOp.invalid                                                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Columns\ScheduleArguments.php:57\Job\app\Filament\Columns\ScheduleArguments.php]8;;\                            
-  57     Binary operation "." between non-falsy-string and mixed results in an error.  
-         🪪  binaryOp.invalid                                                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Columns\ScheduleArguments.php:57\Job\app\Filament\Columns\ScheduleArguments.php]8;;\                            
-  57     Binary operation "." between non-falsy-string and mixed results in an error.  
-         🪪  binaryOp.invalid                                                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Columns\ScheduleArguments.php:57\Job\app\Filament\Columns\ScheduleArguments.php]8;;\                            
-  57     Cannot access offset 'name' on mixed.                                         
-         🪪  offsetAccess.nonOffsetAccessible                                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Columns\ScheduleArguments.php:57\Job\app\Filament\Columns\ScheduleArguments.php]8;;\                            
-  57     Cannot access offset 'value' on mixed.                                        
-         🪪  offsetAccess.nonOffsetAccessible                                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Columns\ScheduleArguments.php:57\Job\app\Filament\Columns\ScheduleArguments.php]8;;\                            
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Columns\ScheduleArguments.php:56\Job\app\Filament\Columns\ScheduleArguments.php]8;;\                            
   57     Binary operation "." between mixed and '=' results in an error.               
          🪪  binaryOp.invalid                                                          
@@ -3804,10 +1858,6 @@
   57     Cannot access offset 'value' on mixed.                                        
          🪪  offsetAccess.nonOffsetAccessible                                          
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Columns\ScheduleArguments.php:57\Job\app\Filament\Columns\ScheduleArguments.php]8;;\                            
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------ 
 
  ------ ------------------------------------------------------------------------------------------------------------- 
@@ -3816,41 +1866,17 @@
   19     Method Modules\Job\Filament\Resources\ExportResource\Pages\ListExports::getListTableColumns() should return  
          array<string, Filament\Tables\Columns\Column> but returns array<int, Filament\Tables\Columns\TextColumn>.    
          🪪  return.type                                                                                              
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php:19\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php:19\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php:19\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php]8;;\                                          
->>>>>>> laraxot/dev
   56     Method Modules\Job\Filament\Resources\ExportResource\Pages\ListExports::getTableActions() should return      
          array<string, Filament\Tables\Actions\Action|Filament\Tables\Actions\ActionGroup> but returns                
          array{Filament\Tables\Actions\EditAction}.                                                                   
          🪪  return.type                                                                                              
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php:56\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php:56\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php:56\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php]8;;\                                          
->>>>>>> laraxot/dev
   64     Method Modules\Job\Filament\Resources\ExportResource\Pages\ListExports::getTableBulkActions() should return  
          array<string, Filament\Tables\Actions\BulkAction> but returns array<int,                                     
          Filament\Tables\Actions\DeleteBulkAction>.                                                                   
          🪪  return.type                                                                                              
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php:64\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php:64\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php:64\Job\app\Filament\Resources\ExportResource\Pages\ListExports.php]8;;\                                          
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------------- 
@@ -3860,28 +1886,12 @@
          array<string, Filament\Tables\Actions\Action|Filament\Tables\Actions\ActionGroup> but returns                
          array{Filament\Tables\Actions\EditAction}.                                                                   
          🪪  return.type                                                                                              
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php:58\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php:58\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php:58\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php]8;;\                                          
->>>>>>> laraxot/dev
   65     Method Modules\Job\Filament\Resources\ImportResource\Pages\ListImports::getTableBulkActions() should return  
          array<string, Filament\Tables\Actions\BulkAction> but returns array<int,                                     
          Filament\Tables\Actions\DeleteBulkAction>.                                                                   
          🪪  return.type                                                                                              
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php:65\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php:65\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php:65\Job\app\Filament\Resources\ImportResource\Pages\ListImports.php]8;;\                                          
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------------- 
 
  ------ ----------------------------------------------------------------------------------------------------------- 
@@ -3891,18 +1901,6 @@
          return array<string, Filament\Tables\Columns\Column> but returns array<int,                                
          Filament\Tables\Columns\TextColumn>.                                                                       
          🪪  return.type                                                                                            
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php:28\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php]8;;\                                   
-  47     Binary operation "." between mixed and '%' results in an error.                                            
-         🪪  binaryOp.invalid                                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php:47\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php]8;;\                                   
-  47     Cannot call method progress() on mixed.                                                                    
-         🪪  method.nonObject                                                                                       
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php:47\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php]8;;\                                   
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php:28\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php]8;;\                                   
   47     Binary operation "." between mixed and '%' results in an error.                                            
          🪪  binaryOp.invalid                                                                                       
@@ -3910,23 +1908,11 @@
   47     Cannot call method progress() on mixed.                                                                    
          🪪  method.nonObject                                                                                       
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php:47\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php]8;;\                                   
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
   72     Method Modules\Job\Filament\Resources\JobBatchResource\Pages\ListJobBatches::getTableBulkActions() should  
          return array<string, Filament\Tables\Actions\BulkAction> but returns array<int,                            
          Filament\Tables\Actions\DeleteBulkAction>.                                                                 
          🪪  return.type                                                                                            
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php:72\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php]8;;\                                   
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php:72\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php]8;;\                                   
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php:72\Job\app\Filament\Resources\JobBatchResource\Pages\ListJobBatches.php]8;;\                                   
->>>>>>> laraxot/dev
  ------ ----------------------------------------------------------------------------------------------------------- 
 
  ------ -------------------------------------------------------------------------------------------------------------- 
@@ -3936,18 +1922,6 @@
          return array<string, Filament\Tables\Columns\Column> but returns array<int,                                   
          Filament\Tables\Columns\TextColumn>.                                                                          
          🪪  return.type                                                                                               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php:22\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php]8;;\                                   
-  51     Binary operation "." between mixed and '%' results in an error.                                               
-         🪪  binaryOp.invalid                                                                                          
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php:51\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php]8;;\                                   
-  58     Cannot access property $failed on mixed.                                                                      
-         🪪  property.nonObject                                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php:58\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php]8;;\                                   
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php:22\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php]8;;\                                   
   51     Binary operation "." between mixed and '%' results in an error.                                               
          🪪  binaryOp.invalid                                                                                          
@@ -3955,23 +1929,11 @@
   58     Cannot access property $failed on mixed.                                                                      
          🪪  property.nonObject                                                                                        
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php:58\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php]8;;\                                   
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
   82     Method Modules\Job\Filament\Resources\JobManagerResource\Pages\ListJobManagers::getTableBulkActions() should  
          return array<string, Filament\Tables\Actions\BulkAction> but returns array<int,                               
          Filament\Tables\Actions\DeleteBulkAction>.                                                                    
          🪪  return.type                                                                                               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php:82\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php]8;;\                                   
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php:82\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php]8;;\                                   
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php:82\Job\app\Filament\Resources\JobManagerResource\Pages\ListJobManagers.php]8;;\                                   
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------------------- 
 
  ------ ---------------------------------------------------------------------------------------------------------- 
@@ -3979,38 +1941,16 @@
  ------ ---------------------------------------------------------------------------------------------------------- 
   34     Cannot cast mixed to float.                                                                               
          🪪  cast.double                                                                                           
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php:34\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php]8;;\                            
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php:34\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php]8;;\                            
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php:34\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php]8;;\                            
->>>>>>> laraxot/dev
   35     Parameter #1 $seconds of method                                                                           
          Modules\Job\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview::formatSeconds() expects int,  
          mixed given.                                                                                              
          🪪  argument.type                                                                                         
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php:35\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php]8;;\                            
-  42     Parameter #2 $value of static method Filament\Widgets\StatsOverviewWidget\Stat::make() expects            
-         bool|Closure|float|Illuminate\Contracts\Support\Htmlable|int|string, mixed given.                         
-         🪪  argument.type                                                                                         
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php:42\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php]8;;\                            
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php:35\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php]8;;\                            
   42     Parameter #2 $value of static method Filament\Widgets\StatsOverviewWidget\Stat::make() expects            
          bool|Closure|float|Illuminate\Contracts\Support\Htmlable|int|string, mixed given.                         
          🪪  argument.type                                                                                         
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php:42\Job\app\Filament\Resources\JobManagerResource\Widgets\JobStatsOverview.php]8;;\                            
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ ---------------------------------------------------------------------------------------------------------- 
 
  ------ ------------------------------------------------------------------------------------------------------- 
@@ -4020,15 +1960,7 @@
          array<string, Filament\Tables\Columns\Column> but returns array<int,                                   
          Filament\Tables\Columns\TextColumn|Filament\Tables\Columns\ViewColumn>.                                
          🪪  return.type                                                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobResource\Pages\ListJobs.php:18\Job\app\Filament\Resources\JobResource\Pages\ListJobs.php]8;;\                                          
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobResource\Pages\ListJobs.php:18\Job\app\Filament\Resources\JobResource\Pages\ListJobs.php]8;;\                                          
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobResource\Pages\ListJobs.php:18\Job\app\Filament\Resources\JobResource\Pages\ListJobs.php]8;;\                                          
->>>>>>> laraxot/dev
  ------ ------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------- 
@@ -4036,38 +1968,16 @@
  ------ --------------------------------------------------------------------------------------------------------- 
   34     Cannot cast mixed to float.                                                                              
          🪪  cast.double                                                                                          
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php:34\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php]8;;\                                  
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php:34\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php]8;;\                                  
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php:34\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php]8;;\                                  
->>>>>>> laraxot/dev
   35     Parameter #1 $seconds of method                                                                          
          Modules\Job\Filament\Resources\JobResource\Widgets\JobStatsOverview::formatSeconds() expects int, mixed  
          given.                                                                                                   
          🪪  argument.type                                                                                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php:35\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php]8;;\                                  
-  42     Parameter #2 $value of static method Filament\Widgets\StatsOverviewWidget\Stat::make() expects           
-         bool|Closure|float|Illuminate\Contracts\Support\Htmlable|int|string, mixed given.                        
-         🪪  argument.type                                                                                        
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php:42\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php]8;;\                                  
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php:35\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php]8;;\                                  
   42     Parameter #2 $value of static method Filament\Widgets\StatsOverviewWidget\Stat::make() expects           
          bool|Closure|float|Illuminate\Contracts\Support\Htmlable|int|string, mixed given.                        
          🪪  argument.type                                                                                        
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php:42\Job\app\Filament\Resources\JobResource\Widgets\JobStatsOverview.php]8;;\                                  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------- 
 
  ------ --------------------------------------------------------------------------------------------------------------- 
@@ -4077,28 +1987,12 @@
          return array<string, Filament\Tables\Actions\BulkAction> but returns array<int,                                
          Filament\Tables\Actions\DeleteBulkAction>.                                                                     
          🪪  return.type                                                                                                
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php:45\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php]8;;\                                   
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php:45\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php]8;;\                                   
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php:45\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php]8;;\                                   
->>>>>>> laraxot/dev
   57     Method Modules\Job\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting::getListTableColumns() should  
          return array<string, Filament\Tables\Columns\Column> but returns array<int,                                    
          Filament\Tables\Columns\TextColumn>.                                                                           
          🪪  return.type                                                                                                
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php:57\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php]8;;\                                   
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php:57\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php]8;;\                                   
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php:57\Job\app\Filament\Resources\JobsWaitingResource\Pages\ListJobsWaiting.php]8;;\                                   
->>>>>>> laraxot/dev
  ------ --------------------------------------------------------------------------------------------------------------- 
 
  ------ -------------------------------------------------------------------------------------------------------------- 
@@ -4106,37 +2000,15 @@
  ------ -------------------------------------------------------------------------------------------------------------- 
   41     Cannot cast mixed to float.                                                                                   
          🪪  cast.double                                                                                               
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php:41\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php]8;;\                            
-=======
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php:41\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php]8;;\                            
->>>>>>> laraxot/dev
-=======
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php:41\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php]8;;\                            
->>>>>>> laraxot/dev
   42     Parameter #1 $seconds of method                                                                               
          Modules\Job\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview::formatSeconds() expects int,  
          mixed given.                                                                                                  
          🪪  argument.type                                                                                             
-<<<<<<< HEAD
-<<<<<<< HEAD
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php:42\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php]8;;\                            
-  49     Parameter #2 $value of static method Filament\Widgets\StatsOverviewWidget\Stat::make() expects                
-         bool|Closure|float|Illuminate\Contracts\Support\Htmlable|int|string, mixed given.                             
-         🪪  argument.type                                                                                             
-         ✏️  ]8;;vscode://file/F:\var\www\_bases\<repo progetto>\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php:49\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php]8;;\                            
-=======
-=======
->>>>>>> laraxot/dev
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php:42\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php]8;;\                            
   49     Parameter #2 $value of static method Filament\Widgets\StatsOverviewWidget\Stat::make() expects                
          bool|Closure|float|Illuminate\Contracts\Support\Htmlable|int|string, mixed given.                             
          🪪  argument.type                                                                                             
          ✏️  ]8;;vscode://file/F:\var\www\_bases\base_fixcity_fila5\laravel\Modules\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php:49\Job\app\Filament\Resources\JobsWaitingResource\Widgets\JobsWaitingOverview.php]8;;\                            
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  ------ -------------------------------------------------------------------------------------------------------------- 
 ```

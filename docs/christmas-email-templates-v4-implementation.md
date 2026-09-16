@@ -500,15 +500,7 @@ Gli errori PHPStan sono in file PHP esistenti:
 **Project**: Sottana Service Christmas Email Templates v4.0
 **Date**: 2025-12-19
 **Framework**: Laravel + Spatie Mail Templates + Mustache
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Theme**: Sixteen (Filament 5)
-=======
 **Theme**: Sixteen (Filament 4)
->>>>>>> laraxot/dev
-=======
-**Theme**: Sixteen (Filament 4)
->>>>>>> laraxot/dev
 
 ---
 

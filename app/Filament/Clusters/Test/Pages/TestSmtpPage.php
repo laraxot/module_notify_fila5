@@ -115,14 +115,6 @@ class TestSmtpPage extends XotBasePage
         return [
             'submit' => Action::make('emailFormActions')->submit('emailFormActions')];
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    #[Override]
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

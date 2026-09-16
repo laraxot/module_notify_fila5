@@ -5,18 +5,8 @@ tags: [support, actions, philosophy]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "support-to-actions-philosophy da support a actions — filosofia"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -71,15 +61,5 @@ Tutte le classi in `app/Actions/` DEVONO:
 
 - [no-app-support-queueable-actions](wiki/concepts/no-app-support-queueable-actions.md)
 - [claude-audit-static](wiki/concepts/claude-audit-static.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Issue [#372](https://github.com/laraxot/<repo progetto>/issues/372) · Discussion [#273](https://github.com/laraxot/<repo progetto>/discussions/273)
-- Issue [#372](https://github.com/laraxot/<repo progetto>/discussions/273)
-=======
 - Issue [#372](https://github.com/laraxot/base_fixcity_fila5/issues/372) · Discussion [#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
 - Issue [#372](https://github.com/laraxot/base_ptv_fila5/issues/372) · Discussion [#273](https://github.com/laraxot/base_ptv_fila5/discussions/273)
->>>>>>> laraxot/dev
-=======
-- Issue [#372](https://github.com/laraxot/base_fixcity_fila5/issues/372) · Discussion [#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
-- Issue [#372](https://github.com/laraxot/base_ptv_fila5/issues/372) · Discussion [#273](https://github.com/laraxot/base_ptv_fila5/discussions/273)
->>>>>>> laraxot/dev

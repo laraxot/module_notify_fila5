@@ -1,27 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 📊 ANALISI COMPLETA PROGETTO <nome progetto>
-=======
 # 📊 ANALISI COMPLETA PROGETTO FIXCITY
->>>>>>> laraxot/dev
-=======
-# 📊 ANALISI COMPLETA PROGETTO FIXCITY
->>>>>>> laraxot/dev
 ## Data: 1 Ottobre 2025
 
 ---
 
 ## 🎯 EXECUTIVE SUMMARY
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto>** è una piattaforma di segnalazione cittadina **enterprise-ready** con:
-=======
 **FixCity** è una piattaforma di segnalazione cittadina **enterprise-ready** con:
->>>>>>> laraxot/dev
-=======
-**FixCity** è una piattaforma di segnalazione cittadina **enterprise-ready** con:
->>>>>>> laraxot/dev
 - ✅ **83% moduli** certificati PHPStan Level 9
 - ✅ **Core funzionale** completo al 90%
 - ⚠️ **Performance** ottimizzabile (+50% possibile)
@@ -30,15 +14,7 @@
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## 📦 COSA È <nome progetto>
-=======
 ## 📦 COSA È FIXCITY
->>>>>>> laraxot/dev
-=======
-## 📦 COSA È FIXCITY
->>>>>>> laraxot/dev
 
 ### Scopo Principale
 Piattaforma che **connette cittadini e amministrazioni comunali** per gestire segnalazioni urbane.
@@ -98,15 +74,7 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
    - User: 95 errori
    
 2. **Performance Fixes** ⏰ 3 giorni (4h)
-<<<<<<< HEAD
-<<<<<<< HEAD
-   - N+1 queries in <nome progetto> (3 trovati)
-=======
    - N+1 queries in Fixcity (3 trovati)
->>>>>>> laraxot/dev
-=======
-   - N+1 queries in Fixcity (3 trovati)
->>>>>>> laraxot/dev
    - Database indexes mancanti
    - CSS non purged (3MB → 400KB)
 
@@ -200,21 +168,9 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 | Issue | Modulo | Impact | Fix Time |
 |-------|--------|--------|----------|
-<<<<<<< HEAD
-<<<<<<< HEAD
-| **N+1 Categories Count** | <nome progetto> | 200ms | 30min |
-| **Double Count Query** | <nome progetto> | 2 query extra | 15min |
-| **Lazy Load in Attribute** | <nome progetto> | N+1 su profiles | 20min |
-=======
 | **N+1 Categories Count** | Fixcity | 200ms | 30min |
 | **Double Count Query** | Fixcity | 2 query extra | 15min |
 | **Lazy Load in Attribute** | Fixcity | N+1 su profiles | 20min |
->>>>>>> laraxot/dev
-=======
-| **N+1 Categories Count** | Fixcity | 200ms | 30min |
-| **Double Count Query** | Fixcity | 2 query extra | 15min |
-| **Lazy Load in Attribute** | Fixcity | N+1 su profiles | 20min |
->>>>>>> laraxot/dev
 | **CSS Not Purged** | Sixteen | 3MB → 400KB | 30min |
 | **Images Not Optimized** | Sixteen | Page load +40% | 2h |
 | **No Geocoding Cache** | Geo | API calls ripetuti | 1h |
@@ -226,18 +182,8 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### TODO nel Codice (2 trovati)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. **Map Picker** - `<nome progetto>/TicketResource.php:17`
-2. **Delayed Notifications** - `<nome progetto>/NotificationService.php:217`
-=======
 1. **Map Picker** - `Fixcity/TicketResource.php:17`
 2. **Delayed Notifications** - `Fixcity/NotificationService.php:217`
->>>>>>> laraxot/dev
-=======
-1. **Map Picker** - `Fixcity/TicketResource.php:17`
-2. **Delayed Notifications** - `Fixcity/NotificationService.php:217`
->>>>>>> laraxot/dev
 
 **Fix Time**: 3 ore totali
 
@@ -263,15 +209,7 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### Query Waste
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. **N+1 Queries** - 3 in <nome progetto>, potenziali in User
-=======
 1. **N+1 Queries** - 3 in Fixcity, potenziali in User
->>>>>>> laraxot/dev
-=======
-1. **N+1 Queries** - 3 in Fixcity, potenziali in User
->>>>>>> laraxot/dev
 2. **DB:: Direct** - 5+ files (bypass ORM)
 3. **Missing Indexes** - Tickets table critical
 4. **No Query Caching** - Dashboard stats ricalcolati sempre
@@ -423,30 +361,14 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 - FixMyStreet (UK)
 - Municipium (IT)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### <nome progetto> Advantages
-=======
 ### FixCity Advantages
->>>>>>> laraxot/dev
-=======
-### FixCity Advantages
->>>>>>> laraxot/dev
 - ✅ Modular architecture (scalable)
 - ✅ Multi-language out-of-box
 - ✅ AI-ready infrastructure
 - ✅ Modern tech stack
 - ✅ Open source base
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### <nome progetto> Gaps
-=======
 ### FixCity Gaps
->>>>>>> laraxot/dev
-=======
-### FixCity Gaps
->>>>>>> laraxot/dev
 - ❌ Mobile app assente
 - ❌ Real-time limitato
 - ⚠️ Marketing/Awareness bassa
@@ -479,28 +401,12 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 - **[Project Analysis & Roadmap](./project-analysis-and-roadmap.md)** ⭐ BUSINESS VIEW
 - **[Session Summary 2025-10-01](./phpstan/session-summary.md)** ⭐ TECHNICAL
 - **[Final Report 2025-10-01](./phpstan/final-report-session.md)**
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **[Questo Documento](./analisi-completa-progetto-<nome progetto>.md)** ⭐ EXECUTIVE
-=======
 - **[Questo Documento](./analisi-completa-progetto-fixcity.md)** ⭐ EXECUTIVE
->>>>>>> laraxot/dev
-=======
-- **[Questo Documento](./analisi-completa-progetto-fixcity.md)** ⭐ EXECUTIVE
->>>>>>> laraxot/dev
 
 ### 🎯 Module Roadmaps (Dettagliate)
 - [Xot - Core Framework](../Modules/Xot/docs/roadmap-and-issues.md) - 9 errori, 2.5h fix
 - [User - Auth & Profiles](../Modules/User/docs/roadmap-and-issues.md) - 95 errori, 6h fix
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [<nome progetto> - Business Logic](../Modules/<nome progetto>/docs/roadmap-and-issues.md) - N+1 queries, features
-=======
 - [Fixcity - Business Logic](../Modules/Fixcity/docs/roadmap-and-issues.md) - N+1 queries, features
->>>>>>> laraxot/dev
-=======
-- [Fixcity - Business Logic](../Modules/Fixcity/docs/roadmap-and-issues.md) - N+1 queries, features
->>>>>>> laraxot/dev
 - [AI - Artificial Intelligence](../Modules/AI/docs/roadmap-and-issues.md) - Auto-categorization
 - [Notify - Notifications](../Modules/Notify/docs/roadmap-and-issues.md) - Real-time, push
 - [Geo - Geographic](../Modules/Geo/docs/roadmap-and-issues.md) - Maps integration
@@ -521,15 +427,7 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 ### Punti di Forza ⭐⭐⭐⭐⭐
 1. **Architettura Modulare** - Scalabile, manutenibile, estendibile
-<<<<<<< HEAD
-<<<<<<< HEAD
-2. **Tech Stack Moderno** - Laravel 13, Filament 3, Livewire 3
-=======
 2. **Tech Stack Moderno** - Laravel 12, Filament 3, Livewire 3
->>>>>>> laraxot/dev
-=======
-2. **Tech Stack Moderno** - Laravel 12, Filament 3, Livewire 3
->>>>>>> laraxot/dev
 3. **Multi-Language** - 50+ lingue già supportate
 4. **Quality Mindset** - PHPStan Level 9, strict types
 5. **Documentation** - Completa e ben strutturata
@@ -568,15 +466,7 @@ Manutenzione Stradale • Illuminazione • Rifiuti • Verde Pubblico • Fogna
 
 **Analisi Completata**: 1 Ottobre 2025, ore 21:00  
 **Prossima Revisione**: 1 Novembre 2025  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Responsabile**: Team <nome progetto>
-=======
 **Responsabile**: Team FixCity
->>>>>>> laraxot/dev
-=======
-**Responsabile**: Team FixCity
->>>>>>> laraxot/dev
 
 ---
 

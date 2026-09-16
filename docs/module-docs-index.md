@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "Master Documentation Index - <nome progetto> Fila5"
-=======
 title: "Master Documentation Index - FixCity Fila5"
->>>>>>> laraxot/dev
-=======
-title: "Master Documentation Index - FixCity Fila5"
->>>>>>> laraxot/dev
 type: concept
 tags: [module, docs, index]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "module-docs-index master documentation index - <nome progetto> fila5"
-qmd: "module-docs-index master documentation index - ptv fila5"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "module-docs-index master documentation index - fixcity fila5"
 qmd: "module-docs-index master documentation index - ptv fila5"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,21 +19,9 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Master Documentation Index - <nome progetto> Fila5
-
-**Project:** <nome progetto> Fila5  
-=======
 # Master Documentation Index - FixCity Fila5
 
 **Project:** FixCity Fila5  
->>>>>>> laraxot/dev
-=======
-# Master Documentation Index - FixCity Fila5
-
-**Project:** FixCity Fila5  
->>>>>>> laraxot/dev
 **Date:** 2026-04-01  
 **Status:** ✅ **Active**  
 **Total Docs:** 7,137+ markdown files  
@@ -75,15 +42,7 @@ Questo documento crea un **sistema di indicizzazione centrale** con collegamenti
 ## 📚 Documentation Hierarchy
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto> Fila5 Documentation
-=======
 FixCity Fila5 Documentation
->>>>>>> laraxot/dev
-=======
-FixCity Fila5 Documentation
->>>>>>> laraxot/dev
 ├── 📁 Master Index (THIS FILE)
 │
 ├── 📁 BMad Output (_bmad-output/)
@@ -107,15 +66,7 @@ FixCity Fila5 Documentation
 │
 ├── 📁 Modules (laravel/Modules/*/docs/)
 │   ├── Xot (Core Framework) - 1,941 files
-<<<<<<< HEAD
-<<<<<<< HEAD
-│   ├── <nome progetto> (Main Domain) - XXX files
-=======
 │   ├── Fixcity (Main Domain) - XXX files
->>>>>>> laraxot/dev
-=======
-│   ├── Fixcity (Main Domain) - XXX files
->>>>>>> laraxot/dev
 │   ├── User (Authentication) - XXX files
 │   ├── Cms (Content) - XXX files
 │   ├── Blog (Articles) - XXX files
@@ -213,15 +164,7 @@ FixCity Fila5 Documentation
 | Module | Files | Index | Key Topics |
 |--------|-------|-------|------------|
 | **Xot** | 1,941 | [00-index.md](Modules/Xot/docs/00-index.md) | Base classes, traits, PHPStan |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| **<nome progetto>** | XXX | [index.md](Modules/<nome progetto>/docs/README.md) | Tickets, categories |
-=======
 | **Fixcity** | XXX | [index.md](Modules/Fixcity/docs/README.md) | Tickets, categories |
->>>>>>> laraxot/dev
-=======
-| **Fixcity** | XXX | [index.md](Modules/Fixcity/docs/README.md) | Tickets, categories |
->>>>>>> laraxot/dev
 | **User** | XXX | [index.md](Modules/User/docs/README.md) | Auth, RBAC, OAuth |
 | **Cms** | XXX | [index.md](Modules/Cms/docs/README.md) | Pages, sections, blocks |
 | **Tenant** | XXX | [index.md](Modules/Tenant/docs/README.md) | Multi-tenancy |
@@ -298,15 +241,7 @@ FixCity Fila5 Documentation
 | **Codebase Analysis** | `codebase/` | 3,170 | Technical analysis |
 
 **Cross-References:**
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ← [Master Index](#master-documentation-index---<nome progetto>-fila5) - This document
-=======
 - ← [Master Index](#master-documentation-index---fixcity-fila5) - This document
->>>>>>> laraxot/dev
-=======
-- ← [Master Index](#master-documentation-index---fixcity-fila5) - This document
->>>>>>> laraxot/dev
 - ← [Master Index](#master-documentation-index---ptv-fila5) - This document
 - ← [Module Docs](#module-documentation-indexes) - Module documentation
 - ← [Theme Docs](#theme-documentation-indexes) - Theme documentation
@@ -387,15 +322,7 @@ Modules/
 │   ├── phpstan*.md (PHPStan docs)
 │   ├── testing/ (Testing guides)
 │   └── ...
-<<<<<<< HEAD
-<<<<<<< HEAD
-├── <nome progetto>/docs/
-=======
 ├── Fixcity/docs/
->>>>>>> laraxot/dev
-=======
-├── Fixcity/docs/
->>>>>>> laraxot/dev
 │   └── README.md
 ├── User/docs/
 │   └── README.md
@@ -466,15 +393,7 @@ Themes/Sixteen/docs/
 
 ### Project Resources
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [GitHub Repository](https://github.com/<nome progetto>/fila5)
-=======
 - [GitHub Repository](https://github.com/fixcity/fila5)
->>>>>>> laraxot/dev
-=======
-- [GitHub Repository](https://github.com/fixcity/fila5)
->>>>>>> laraxot/dev
 - [GitHub Repository](https://github.com/ptv/fila5)
 - [Laravel Docs](https://laravel.com/docs)
 - [Filament Docs](https://filamentphp.com/docs)
@@ -525,15 +444,7 @@ Main content here.
 
 ### Finding Documentation
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. Start at [Master Index](#master-documentation-index---<nome progetto>-fila5)
-=======
 1. Start at [Master Index](#master-documentation-index---fixcity-fila5)
->>>>>>> laraxot/dev
-=======
-1. Start at [Master Index](#master-documentation-index---fixcity-fila5)
->>>>>>> laraxot/dev
 1. Start at [Master Index](#master-documentation-index---ptv-fila5)
 2. Navigate to module/theme category
 3. Use search (Ctrl+F) for keywords

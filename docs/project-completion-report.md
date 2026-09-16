@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "Report di Completamento Progetto <nome progetto>"
-=======
 title: "Report di Completamento Progetto Fixcity"
->>>>>>> laraxot/dev
-=======
-title: "Report di Completamento Progetto Fixcity"
->>>>>>> laraxot/dev
 type: concept
 tags: [project, completion, report]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "project-completion-report report di completamento progetto <nome progetto>"
-qmd: "project-completion-report report di completamento progetto ptv"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "project-completion-report report di completamento progetto fixcity"
 qmd: "project-completion-report report di completamento progetto ptv"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,20 +19,6 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Report di Completamento Progetto <nome progetto>
-
-## Panoramica
-
-Il progetto <nome progetto> è stato completato con successo, implementando un sistema completo di gestione segnalazioni comunali con design system AGID e integrazione avanzata.
-
-## Componenti Completati
-
-### 1. Modulo <nome progetto> ✅
-=======
-=======
->>>>>>> laraxot/dev
 # Report di Completamento Progetto Fixcity
 
 ## Panoramica
@@ -63,10 +28,6 @@ Il progetto Fixcity è stato completato con successo, implementando un sistema c
 ## Componenti Completati
 
 ### 1. Modulo Fixcity ✅
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - **API RESTful Complete**: Endpoint per gestione ticket, mappe, statistiche
 - **Sistema di Workflow**: Gestione stati e priorità delle segnalazioni
 - **Notifiche**: Sistema email e push notifications
@@ -132,15 +93,7 @@ Il progetto Fixcity è stato completato con successo, implementando un sistema c
 
 ```
 laravel/
-<<<<<<< HEAD
-<<<<<<< HEAD
-├── Modules/<nome progetto>/                 # Modulo principale
-=======
 ├── Modules/Fixcity/                 # Modulo principale
->>>>>>> laraxot/dev
-=======
-├── Modules/Fixcity/                 # Modulo principale
->>>>>>> laraxot/dev
 │   ├── app/                        # Logica applicativa
 │   ├── database/                   # Migrazioni e seeder
 │   ├── resources/                  # Views e assets
@@ -181,18 +134,6 @@ COMUNE_COLORE_PRIMARIO="#0066cc"
 COMUNE_COLORE_SECONDARIO="#00cc66"
 COMUNE_COLORE_ACCENTO="#ff6600"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Configurazione <nome progetto>
-<nome progetto>_CACHE_ENABLED=true
-<nome progetto>_EMAIL_NOTIFICATIONS=true
-<nome progetto>_PUSH_NOTIFICATIONS=true
-<nome progetto>_MAP_ENABLED=true
-<nome progetto>_SEARCH_ENABLED=true
-<nome progetto>_ANALYTICS_ENABLED=true
-=======
-=======
->>>>>>> laraxot/dev
 # Configurazione Fixcity
 FIXCITY_CACHE_ENABLED=true
 FIXCITY_EMAIL_NOTIFICATIONS=true
@@ -200,10 +141,6 @@ FIXCITY_PUSH_NOTIFICATIONS=true
 FIXCITY_MAP_ENABLED=true
 FIXCITY_SEARCH_ENABLED=true
 FIXCITY_ANALYTICS_ENABLED=true
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 ### Routes Disponibili
@@ -216,23 +153,10 @@ FIXCITY_ANALYTICS_ENABLED=true
 /comune/documenti          # Documenti
 /comune/eventi             # Eventi
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-// API <nome progetto>
-/api/<nome progetto>/tickets       # Gestione ticket
-/api/<nome progetto>/map/tickets   # Mappa ticket
-/api/<nome progetto>/statistics    # Statistiche
-=======
-=======
->>>>>>> laraxot/dev
 // API Fixcity
 /api/fixcity/tickets       # Gestione ticket
 /api/fixcity/map/tickets   # Mappa ticket
 /api/fixcity/statistics    # Statistiche
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 /api/ptv/tickets       # Gestione ticket
 /api/ptv/map/tickets   # Mappa ticket
 /api/ptv/statistics    # Statistiche
@@ -298,15 +222,7 @@ FIXCITY_ANALYTICS_ENABLED=true
 
 ### Prerequisiti
 - PHP 8.1+
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Laravel 13.x
-=======
 - Laravel 12.x
->>>>>>> laraxot/dev
-=======
-- Laravel 12.x
->>>>>>> laraxot/dev
 - MySQL 8.0+
 - Redis 6.0+
 - Node.js 18+
@@ -363,15 +279,7 @@ php artisan view:cache
 
 ## Conclusioni
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il progetto <nome progetto> è stato completato con successo, fornendo:
-=======
 Il progetto Fixcity è stato completato con successo, fornendo:
->>>>>>> laraxot/dev
-=======
-Il progetto Fixcity è stato completato con successo, fornendo:
->>>>>>> laraxot/dev
 
 1. **Sistema Completo**: Gestione segnalazioni end-to-end
 2. **Design AGID**: Conformità alle linee guida PA italiana
@@ -385,15 +293,7 @@ Il sistema è pronto per il deployment in produzione e può essere facilmente pe
 
 ## Team e Contributi
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Sviluppo**: <nome progetto> Team
-=======
 - **Sviluppo**: Fixcity Team
->>>>>>> laraxot/dev
-=======
-- **Sviluppo**: Fixcity Team
->>>>>>> laraxot/dev
 - **Design**: Bootstrap Italia + AGID
 - **Testing**: Pest + PHPUnit
 - **Documentazione**: Markdown + README

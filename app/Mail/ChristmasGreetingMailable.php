@@ -48,14 +48,7 @@ class ChristmasGreetingMailable extends Mailable
         // Dynamically determine the seasonal content view path using the action
         $seasonalContentViewPath = app(DetermineSeasonalContentViewPathAction::class)->execute('base-content');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         /** @var view-string $seasonalContentViewPath */
->>>>>>> laraxot/dev
-=======
-        /** @var view-string $seasonalContentViewPath */
->>>>>>> laraxot/dev
         return new Content(
             view: $seasonalContentViewPath, // Use the determined content view
             with: [

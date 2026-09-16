@@ -5,18 +5,8 @@ tags: [sessione, analisi, homepage]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "sessione-analisi-homepage ✅ sessione completata - homepage analysis & documentation"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -218,18 +208,8 @@ Themes/Sixteen/resources/views/
 ### Link Esterni
 - [Bootstrap Italia Reference](https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html)
 - [Bootstrap Italia Docs](https://italia.github.io/design-web-toolkit/)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [<nome progetto> Homepage](http://<nome progetto>.local/it/tests/homepage)
-- [<nome progetto> Homepage](http://ptv.local/it/tests/homepage)
-=======
 - [FixCity Homepage](http://fixcity.local/it/tests/homepage)
 - [FixCity Homepage](http://ptv.local/it/tests/homepage)
->>>>>>> laraxot/dev
-=======
-- [FixCity Homepage](http://fixcity.local/it/tests/homepage)
-- [FixCity Homepage](http://ptv.local/it/tests/homepage)
->>>>>>> laraxot/dev
 
 ---
 

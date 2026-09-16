@@ -265,11 +265,6 @@ class SpatieEmail extends TemplateMailable
 
         return $mustache->render($smsTemplateString, $this->data);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
 
     /**
      * Mittente dell'SMS per questo template.
@@ -293,8 +288,4 @@ class SpatieEmail extends TemplateMailable
 
         return \is_string($configFrom) && $configFrom !== '' ? $configFrom : null;
     }
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 }

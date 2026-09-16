@@ -1,23 +1,10 @@
 # 🚀 Fix Homepage Bootstrap Italia - Piano Esecutivo
 
 ## Panoramica
-<<<<<<< HEAD
-<<<<<<< HEAD
-Allineare la homepage <nome progetto> (`/it/tests/homepage`) al design Bootstrap Italia reference.
-
-**Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
-**Target**: http://<nome progetto>.local/it/tests/homepage
-=======
-=======
->>>>>>> laraxot/dev
 Allineare la homepage FixCity (`/it/tests/homepage`) al design Bootstrap Italia reference.
 
 **Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
 **Target**: http://fixcity.local/it/tests/homepage
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ---
 

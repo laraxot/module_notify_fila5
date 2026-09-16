@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "<nome progetto> Platform - Project Status Report"
-=======
 title: "FixCity Platform - Project Status Report"
->>>>>>> laraxot/dev
-=======
-title: "FixCity Platform - Project Status Report"
->>>>>>> laraxot/dev
 type: concept
 tags: [project, status]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "project-status <nome progetto> platform - project status report"
-qmd: "project-status ptv platform - project status report"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "project-status fixcity platform - project status report"
 qmd: "project-status ptv platform - project status report"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome progetto> Platform - Project Status Report
-=======
 # FixCity Platform - Project Status Report
->>>>>>> laraxot/dev
-=======
-# FixCity Platform - Project Status Report
->>>>>>> laraxot/dev
 
 **Data**: 2025-01-01  
 **Versione**: 1.0.0-alpha  
@@ -58,15 +29,7 @@ related:
 
 | Modulo | Status | Completamento | Priorità | Owner |
 |--------|--------|---------------|----------|-------|
-<<<<<<< HEAD
-<<<<<<< HEAD
-| **<nome progetto>** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
-=======
 | **Fixcity** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
->>>>>>> laraxot/dev
-=======
-| **Fixcity** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
->>>>>>> laraxot/dev
 | **User** | 🟢 Stable | 75% | 🔴 Critical | Security Team |
 | **Xot** | 🟢 Stable | 80% | 🔴 Critical | Core Team |
 | **Notify** | 🟡 In Progress | 50% | 🟠 High | Notification Team |
@@ -150,18 +113,8 @@ related:
 - ✅ Master Plan strategico 2025-2026 creato
 
 ### Dicembre 2024
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ Upgraded to Laravel 13
-- ✅ Migrated to Filament 5
-=======
 - ✅ Upgraded to Laravel 12
 - ✅ Migrated to Filament 4
->>>>>>> laraxot/dev
-=======
-- ✅ Upgraded to Laravel 12
-- ✅ Migrated to Filament 4
->>>>>>> laraxot/dev
 - ✅ Implemented OAuth2 with Passport
 - ✅ Enhanced geolocation features
 
@@ -243,14 +196,6 @@ related:
 
 **Report Generated**: 2025-01-01  
 **Next Update**: 2025-01-15  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Contact**: development@<nome progetto>.io
-=======
 **Contact**: development@fixcity.io
->>>>>>> laraxot/dev
-=======
-**Contact**: development@fixcity.io
->>>>>>> laraxot/dev
 **Contact**: development@ptv.io
 

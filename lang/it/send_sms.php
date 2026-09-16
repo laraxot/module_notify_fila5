@@ -38,29 +38,13 @@ return [
             'tooltip' => ''],
         'to' => [
             'description' => 'to',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'to',
->>>>>>> laraxot/dev
-=======
-            'helper_text' => 'to',
->>>>>>> laraxot/dev
             'placeholder' => 'to',
             'label' => 'to',
             'tooltip' => ''],
         'template_slug' => [
             'description' => 'template_slug',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'template_slug',
->>>>>>> laraxot/dev
-=======
-            'helper_text' => 'template_slug',
->>>>>>> laraxot/dev
             'placeholder' => 'template_slug',
             'label' => 'template_slug',
             'tooltip' => '']],

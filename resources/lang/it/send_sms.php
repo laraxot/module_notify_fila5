@@ -7,15 +7,7 @@ return [
         'recipient' => [
             'label' => 'recipient',
             'placeholder' => 'recipient',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'recipient',
->>>>>>> laraxot/dev
-=======
-            'helper_text' => 'recipient',
->>>>>>> laraxot/dev
             'description' => 'recipient',
             'tooltip' => '']],
     'actions' => [

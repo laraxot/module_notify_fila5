@@ -17,15 +17,7 @@ Benvenuto nel sistema di tracking delle issue per il progetto **Design Comuni Re
 Replicating **38 Design Comuni static pages** using **Tailwind CSS + Alpine.js** with **JSON-driven content blocks**.
 
 **Source**: https://italia.github.io/design-comuni-pagine-statiche/  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Target**: http://<nome progetto>.local/it/tests/[page-slug]  
-=======
 **Target**: http://fixcity.local/it/tests/[page-slug]  
->>>>>>> laraxot/dev
-=======
-**Target**: http://fixcity.local/it/tests/[page-slug]  
->>>>>>> laraxot/dev
 **Target**: http://ptv.local/it/tests/[page-slug]  
 **Timeline**: 12 weeks (April 1 - June 30, 2026)
 

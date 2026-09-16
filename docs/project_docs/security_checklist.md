@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🔒 <nome progetto> Security Checklist
-=======
 # 🔒 FixCity Security Checklist
->>>>>>> laraxot/dev
-=======
-# 🔒 FixCity Security Checklist
->>>>>>> laraxot/dev
 # 🔒 Notify Security Checklist
 
 **Status**: Production Ready
@@ -405,21 +397,9 @@ Overall Security Score: 92/100
 
 ## 📞 Security Contacts
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Security Team Lead**: security@<nome progetto>.it  
-**Emergency Contact**: +39 06 1234 5678  
-**Incident Reporting**: incidents@<nome progetto>.it
-=======
 **Security Team Lead**: security@fixcity.it  
 **Emergency Contact**: +39 06 1234 5678  
 **Incident Reporting**: incidents@fixcity.it
->>>>>>> laraxot/dev
-=======
-**Security Team Lead**: security@fixcity.it  
-**Emergency Contact**: +39 06 1234 5678  
-**Incident Reporting**: incidents@fixcity.it
->>>>>>> laraxot/dev
 
 ---
 

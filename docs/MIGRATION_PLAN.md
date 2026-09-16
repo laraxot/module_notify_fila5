@@ -2,15 +2,7 @@
 
 ## Executive Summary
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Problem**: Module and theme documentation contains **1,500+ project-specific references** (<nome progetto>) when it should be **project-agnostic** and reusable.
-=======
 **Problem**: Module and theme documentation contains **1,500+ project-specific references** (FixCity) when it should be **project-agnostic** and reusable.
->>>>>>> laraxot/dev
-=======
-**Problem**: Module and theme documentation contains **1,500+ project-specific references** (FixCity) when it should be **project-agnostic** and reusable.
->>>>>>> laraxot/dev
 
 **Solution**: Implement governance rules, rename files, and replace content with generic placeholders.
 
@@ -27,27 +19,12 @@
 
 | Pattern | Occurrences | Priority |
 |---------|-------------|----------|
-<<<<<<< HEAD
-<<<<<<< HEAD
-| `<nome progetto>` (in content) | 1,050 | 🔴 HIGH |
-| `<nome progetto>` (in content) | 259 | 🔴 HIGH |
-| `ptv` (in content) | 220 | 🔴 HIGH |
-| `ptv-` (in filenames) | TBD | 🟡 MEDIUM |
-| `ptv.local` | 3 | 🟢 LOW |
-| `<repo progetto>` | 11 | 🟢 LOW |
-=======
-=======
->>>>>>> laraxot/dev
 | `Fixcity` (in content) | 1,050 | 🔴 HIGH |
 | `FixCity` (in content) | 259 | 🔴 HIGH |
 | `ptv` (in content) | 220 | 🔴 HIGH |
 | `ptv-` (in filenames) | TBD | 🟡 MEDIUM |
 | `ptv.local` | 3 | 🟢 LOW |
 | `base_ptv_fila5` | 11 | 🟢 LOW |
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ---
 
@@ -70,15 +47,7 @@ Defines:
 - **After**: `laravel/Modules/Cms/docs/pages-content-blocks.md`
 
 #### Content Updated
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Replaced `<nome progetto>` → `[PROJECT_NAME]`
-=======
 - Replaced `FixCity` → `[PROJECT_NAME]`
->>>>>>> laraxot/dev
-=======
-- Replaced `FixCity` → `[PROJECT_NAME]`
->>>>>>> laraxot/dev
 - Replaced `ptv` → `[project_name]`
 - Added contextual notes for users
 - Made examples generic with placeholders
@@ -87,18 +56,8 @@ Defines:
 **File**: `laravel/Themes/docs/README.md`
 
 Changes:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Removed "<nome progetto> PTVX ecosystem" → "PTVX ecosystem"
-- Replaced `<repo progetto>/` → `<project_root>/`
-=======
 - Removed "FixCity PTVX ecosystem" → "PTVX ecosystem"
 - Replaced `base_ptv_fila5/` → `<project_root>/`
->>>>>>> laraxot/dev
-=======
-- Removed "FixCity PTVX ecosystem" → "PTVX ecosystem"
-- Replaced `base_ptv_fila5/` → `<project_root>/`
->>>>>>> laraxot/dev
 - Replaced `ptv.local` → `[YOUR_DOMAIN]`
 - Replaced GitHub repo reference → `your-org/your-repo`
 - Added placeholder guidance notes
@@ -205,15 +164,7 @@ git commit -m "docs(Cms): make documentation agnostic"
 ### Pre-Commit Checklist
 
 For each module/theme:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] No `<nome progetto>`, `<nome progetto>`, `ptv` in content
-=======
 - [ ] No `FixCity`, `Fixcity`, `ptv` in content
->>>>>>> laraxot/dev
-=======
-- [ ] No `FixCity`, `Fixcity`, `ptv` in content
->>>>>>> laraxot/dev
 - [ ] No project-specific filenames
 - [ ] Placeholders used consistently:
   - `[PROJECT_NAME]` for platform name
@@ -230,15 +181,7 @@ For each module/theme:
 Add to CI/CD:
 ```bash
 # Fail if project-specific refs found in docs
-<<<<<<< HEAD
-<<<<<<< HEAD
-if grep -r "<nome progetto>" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
-=======
 if grep -r "FixCity" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
->>>>>>> laraxot/dev
-=======
-if grep -r "FixCity" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
->>>>>>> laraxot/dev
   echo "❌ Project-specific references found in documentation"
   exit 1
 fi
@@ -250,15 +193,7 @@ Create `.git/hooks/pre-commit`:
 ```bash
 #!/bin/bash
 # Check for project-specific docs in staged changes
-<<<<<<< HEAD
-<<<<<<< HEAD
-if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "<nome progetto>" 2>/dev/null; then
-=======
 if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "FixCity" 2>/dev/null; then
->>>>>>> laraxot/dev
-=======
-if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "FixCity" 2>/dev/null; then
->>>>>>> laraxot/dev
   echo "❌ Commit blocked: Project-specific references in documentation"
   echo "Run: ./bashscripts/fix-docs-agnostic.sh --dry-run"
   exit 1
@@ -275,21 +210,9 @@ fi
 
 **Before**:
 ```markdown
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome progetto> Blog Module
-
-This module provides blog functionality for <nome progetto> platform.
-=======
 # FixCity Blog Module
 
 This module provides blog functionality for FixCity platform.
->>>>>>> laraxot/dev
-=======
-# FixCity Blog Module
-
-This module provides blog functionality for FixCity platform.
->>>>>>> laraxot/dev
 Access at: ptv.local/blog
 ```
 
@@ -307,21 +230,9 @@ Access at: `[YOUR_DOMAIN]/blog`
 
 **Before**:
 ```markdown
-<<<<<<< HEAD
-<<<<<<< HEAD
-## <nome progetto> Integration
-
-1. Add to <nome progetto> config:
-=======
 ## FixCity Integration
 
 1. Add to Fixcity config:
->>>>>>> laraxot/dev
-=======
-## FixCity Integration
-
-1. Add to Fixcity config:
->>>>>>> laraxot/dev
    ```php
    config('ptv.blog.settings')
    ```
@@ -381,15 +292,7 @@ git revert <commit-hash>
 ## Success Metrics
 
 ### Quantitative
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ 0 occurrences of "<nome progetto>" in module/theme docs
-=======
 - ✅ 0 occurrences of "FixCity" in module/theme docs
->>>>>>> laraxot/dev
-=======
-- ✅ 0 occurrences of "FixCity" in module/theme docs
->>>>>>> laraxot/dev
 - ✅ 0 occurrences of "ptv" in module/theme docs
 - ✅ 100% of filenames are project-agnostic
 - ✅ 100% of cross-references use relative paths
@@ -462,21 +365,9 @@ A: In `docs/project/` at the project root, not in individual modules.
 A: Consider keeping it in the project root, not in the reusable Modules directory.
 
 **Q: How do I handle module-to-module references?**  
-<<<<<<< HEAD
-<<<<<<< HEAD
-A: Use generic names: "Blog Module" instead of "<nome progetto> Blog Module".
-
-**Q: Can I still mention <nome progetto> in examples?**  
-=======
 A: Use generic names: "Blog Module" instead of "FixCity Blog Module".
 
 **Q: Can I still mention FixCity in examples?**  
->>>>>>> laraxot/dev
-=======
-A: Use generic names: "Blog Module" instead of "FixCity Blog Module".
-
-**Q: Can I still mention FixCity in examples?**  
->>>>>>> laraxot/dev
 A: Yes, but clearly mark them as examples: "e.g., 'ptv' for a civic platform".
 
 ---

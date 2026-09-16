@@ -1,50 +1,21 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "📸 Screenshot Analysis - Homepage <nome progetto>"
-=======
 title: "📸 Screenshot Analysis - Homepage FixCity"
->>>>>>> laraxot/dev
-=======
-title: "📸 Screenshot Analysis - Homepage FixCity"
->>>>>>> laraxot/dev
 title: "📸 Screenshot Analysis - Homepage Notify"
 type: concept
 tags: [screenshot, analysis]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "screenshot-analysis 📸 screenshot analysis - homepage <nome progetto>"
-qmd: "screenshot-analysis 📸 screenshot analysis - homepage laraxot"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "screenshot-analysis 📸 screenshot analysis - homepage fixcity"
 qmd: "screenshot-analysis 📸 screenshot analysis - homepage laraxot"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./analisi-colori-header-footer.md"
   - "./analisi-visiva.md"
   - "./fix-plan.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 📸 Screenshot Analysis - Homepage <nome progetto>
-=======
 # 📸 Screenshot Analysis - Homepage FixCity
->>>>>>> laraxot/dev
-=======
-# 📸 Screenshot Analysis - Homepage FixCity
->>>>>>> laraxot/dev
 # 📸 Screenshot Analysis - Homepage Notify
 
 ## Reference: Bootstrap Italia
@@ -185,15 +156,7 @@ URL: http://laraxot.local/it/tests/homepage
 
 ### Differenze Principali
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-| Elemento | Bootstrap Italia | <nome progetto> | Status |
-=======
 | Elemento | Bootstrap Italia | FixCity | Status |
->>>>>>> laraxot/dev
-=======
-| Elemento | Bootstrap Italia | FixCity | Status |
->>>>>>> laraxot/dev
 | Elemento | Bootstrap Italia | Notify | Status |
 |----------|-----------------|---------|--------|
 | Header slim | ✅ Presente | ❌ Assente | 🔴 |

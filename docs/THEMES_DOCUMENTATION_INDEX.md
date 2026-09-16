@@ -173,15 +173,7 @@ TIER 4-5 - Specialized
 ```json
 {
   "type": "hero",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "title": "Welcome to <nome progetto>",
-=======
   "title": "Welcome to FixCity",
->>>>>>> laraxot/dev
-=======
-  "title": "Welcome to FixCity",
->>>>>>> laraxot/dev
   "subtitle": "Manage your city, digitally",
   "image": "https://...",
   "cta": {

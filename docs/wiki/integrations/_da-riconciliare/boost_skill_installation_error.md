@@ -54,15 +54,7 @@ Because `laravel/framework` is not installed, the `Illuminate\Foundation\Applica
 ## Architecture Context
 
 This project uses:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Laravel 13.x** framework
-=======
 - **Laravel 12.x** framework
->>>>>>> laraxot/dev
-=======
-- **Laravel 12.x** framework
->>>>>>> laraxot/dev
 - **nwidart/laravel-modules** for modular architecture
 - **Filament 5.x** for admin panels
 - **Laravel Boost** for AI skill management

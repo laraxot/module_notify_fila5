@@ -5,18 +5,8 @@ tags: [report, finale, super, mucca]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "report-finale-super-mucca 🐄✨ report finale - super mucca livello infinito ✨🐄"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -82,15 +72,7 @@ Tu hai chiesto:
 ✅ Activity: 72→45 LOC (-37%)
 ✅ Blog: 76→45 LOC (-41%)
 ✅ Cms: 70→37 LOC (-47%)
-<<<<<<< HEAD
-<<<<<<< HEAD
-✅ <nome progetto>: 72→43 LOC (-40%)
-=======
 ✅ Fixcity: 72→43 LOC (-40%)
->>>>>>> laraxot/dev
-=======
-✅ Fixcity: 72→43 LOC (-40%)
->>>>>>> laraxot/dev
 ✅ Geo: 78→31 LOC (-60%) 🏆
 ✅ Job: 89→72 LOC (-19%)
 ✅ Lang: 73→44 LOC (-40%)
@@ -139,15 +121,7 @@ Tu hai chiesto:
 **Moduli (18):**
 ```
 ✅ Activity, AI, Blog, Cms, Comment
-<<<<<<< HEAD
-<<<<<<< HEAD
-✅ <nome progetto>, Gdpr, Geo, Job, Lang
-=======
 ✅ Fixcity, Gdpr, Geo, Job, Lang
->>>>>>> laraxot/dev
-=======
-✅ Fixcity, Gdpr, Geo, Job, Lang
->>>>>>> laraxot/dev
 ✅ Media, Notify, Rating, Seo, Tenant
 ✅ UI, User, Xot
 ```
@@ -272,15 +246,7 @@ Ogni file contiene:
 ✅ Modules/Activity/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Blog/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Cms/app/Models/BaseModel.php (refactorato)
-<<<<<<< HEAD
-<<<<<<< HEAD
-✅ Modules/<nome progetto>/app/Models/BaseModel.php (refactorato)
-=======
 ✅ Modules/Fixcity/app/Models/BaseModel.php (refactorato)
->>>>>>> laraxot/dev
-=======
-✅ Modules/Fixcity/app/Models/BaseModel.php (refactorato)
->>>>>>> laraxot/dev
 ✅ Modules/Geo/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Job/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Lang/app/Models/BaseModel.php (refactorato)

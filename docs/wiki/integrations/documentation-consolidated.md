@@ -2604,15 +2604,7 @@ related:
 - [README](../laravel/Modules/<nome progetto>/docs/README.md) - Gestione ticket
 - File docs: 38 files
 - **Funzionalità**: Ticket, segnalazioni, supporto
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Status**: ✅ Operativo (Filament 5.x)
-=======
 - **Status**: ✅ Operativo (Filament 4.x)
->>>>>>> laraxot/dev
-=======
-- **Status**: ✅ Operativo (Filament 4.x)
->>>>>>> laraxot/dev
 
 #### **Notify Module** - Notifiche
 - [README](../laravel/Modules/Notify/docs/README.md) - Sistema notifiche
@@ -2712,15 +2704,7 @@ related:
 
 ### Theme TwentyOne - Modern Design
 - [README](../laravel/Themes/TwentyOne/docs/README.md) - Tema moderno
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Funzionalità**: Filament 5.x integration, Livewire
-=======
 - **Funzionalità**: Filament 4.x integration, Livewire
->>>>>>> laraxot/dev
-=======
-- **Funzionalità**: Filament 4.x integration, Livewire
->>>>>>> laraxot/dev
 - **Status**: ✅ Operativo
 - **Componenti**: 50+ componenti custom
 

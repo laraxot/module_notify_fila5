@@ -19,15 +19,7 @@ related:
 ---
 # AI Agents Documentation Index
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Project**: <nome progetto> Platform  
-=======
 **Project**: FixCity Platform  
->>>>>>> laraxot/dev
-=======
-**Project**: FixCity Platform  
->>>>>>> laraxot/dev
 **Project**: Notify Platform  
 **Purpose**: Centralized documentation for all AI assistant configurations  
 **Last Updated**: 2026-04-11  
@@ -36,15 +28,7 @@ related:
 
 ## Overview
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This directory contains split documentation files for AI assistants used in the <nome progetto> project. Each file is focused on a specific area to improve readability and maintainability.
-=======
 This directory contains split documentation files for AI assistants used in the FixCity project. Each file is focused on a specific area to improve readability and maintainability.
->>>>>>> laraxot/dev
-=======
-This directory contains split documentation files for AI assistants used in the FixCity project. Each file is focused on a specific area to improve readability and maintainability.
->>>>>>> laraxot/dev
 
 **Original Files** (kept for backward compatibility):
 - [`AGENTS.md`](../../../../AGENTS.md) — 5349 lines, comprehensive BMad agents + tasks

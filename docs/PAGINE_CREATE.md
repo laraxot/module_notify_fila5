@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Pagine Create - <nome progetto> Sixteen Theme
-=======
 # Pagine Create - FixCity Sixteen Theme
->>>>>>> laraxot/dev
-=======
-# Pagine Create - FixCity Sixteen Theme
->>>>>>> laraxot/dev
 
 ## Data: {{ date('Y-m-d') }}
 

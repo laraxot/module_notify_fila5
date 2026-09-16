@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# STATE: <nome progetto> Platform
-=======
 # STATE: FixCity Platform
->>>>>>> laraxot/dev
-=======
-# STATE: FixCity Platform
->>>>>>> laraxot/dev
 
 ## Current Position
 - Date: 2026-03-30

@@ -35,12 +35,6 @@ class SendRecordNotificationAction
                 continue;
             }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $laravelChannel = $channelEnum->getNotificationChannel();
-=======
-=======
->>>>>>> laraxot/dev
             // Chiave di routing per Notification::route(): deve combaciare con
             // quella che il canale interroga via routeNotificationFor(). Sia
             // RecordNotification::via() sia SmsChannel::send() cercano il
@@ -50,10 +44,6 @@ class SendRecordNotificationAction
             // di route non verrebbe mai trovata e via() tornerebbe [] — l'SMS
             // sparirebbe in silenzio. Il canale effettivo resta deciso da via().
             $laravelChannel = $channelEnum->value;
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
             // Determine recipient based on channel and record
             $to = $channelEnum->getRecipient($record);
@@ -62,15 +52,6 @@ class SendRecordNotificationAction
                 continue;
             }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-            // $to = 'marco.sottana@gmail.com';//4 debug
-            // $to = 'e_ele88@hotmail.it';//4 debug
-            // $to = 'studio@sottana.com';//4 debug
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
             // Use Notification::route() for both standard and custom channels
             // This is the Laravel-recommended way to send notifications to specific addresses/numbers
             Notification::route($laravelChannel, $to)->notify($notification);

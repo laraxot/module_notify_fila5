@@ -1,14 +1,6 @@
 # Standard per le Traduzioni 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
-=======
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di Quaeris, con particolare attenzione al modulo Notify.
->>>>>>> laraxot/dev
-=======
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di Quaeris, con particolare attenzione al modulo Notify.
->>>>>>> laraxot/dev
 
 ## Struttura delle Cartelle
 

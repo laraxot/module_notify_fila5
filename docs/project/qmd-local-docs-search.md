@@ -57,21 +57,9 @@ Esecuzione senza install globale: `npx @tobilu/qmd` / `bunx @tobilu/qmd`.
 In ambienti con `~/.config` in sola lettura, usa percorsi locali scrivibili:
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-export XDG_CONFIG_HOME=/var/www/_bases/<repo progetto>/.cache/qmd-config
-export XDG_CACHE_HOME=/var/www/_bases/<repo progetto>/.cache/qmd-cache
-export HOME=/var/www/_bases/<repo progetto>/.cache/qmd-home
-=======
 export XDG_CONFIG_HOME=/var/www/_bases/base_ptvx_fila5/.cache/qmd-config
 export XDG_CACHE_HOME=/var/www/_bases/base_ptvx_fila5/.cache/qmd-cache
 export HOME=/var/www/_bases/base_ptvx_fila5/.cache/qmd-home
->>>>>>> laraxot/dev
-=======
-export XDG_CONFIG_HOME=/var/www/_bases/base_ptvx_fila5/.cache/qmd-config
-export XDG_CACHE_HOME=/var/www/_bases/base_ptvx_fila5/.cache/qmd-cache
-export HOME=/var/www/_bases/base_ptvx_fila5/.cache/qmd-home
->>>>>>> laraxot/dev
 ```
 
 Con questa configurazione, l'indice attivo vive sotto `.cache/qmd-cache/qmd/index.sqlite` invece che nella home utente.

@@ -5,18 +5,8 @@ tags: [discussion, work, summary]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "discussion-ai-work-summary 🤖 ai agent work summary - github actions & documentation"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./fix-is-ci-context-not-found.md"
   - "./github-action-setup-required.md"
@@ -37,15 +27,7 @@ related:
 
 ## 📋 Overview
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This discussion tracks the AI agent's work on improving GitHub Actions, documentation, and development workflows for the <nome progetto> platform.
-=======
 This discussion tracks the AI agent's work on improving GitHub Actions, documentation, and development workflows for the FixCity platform.
->>>>>>> laraxot/dev
-=======
-This discussion tracks the AI agent's work on improving GitHub Actions, documentation, and development workflows for the FixCity platform.
->>>>>>> laraxot/dev
 This discussion tracks the AI agent's work on improving GitHub Actions, documentation, and development workflows for the Notify platform.
 
 ---
@@ -209,18 +191,8 @@ ssh-keygen -t ed25519 -C "actions@github.com"
 - [Sync Subtrees Docs](bashscripts/docs/github/actions/sync-subtrees.md)
 
 ### GitHub Links
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Actions Tab](https://github.com/laraxot/<repo progetto>/actions)
-- [Settings > Secrets](https://github.com/laraxot/<repo progetto>/settings/secrets/actions)
-=======
 - [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
 - [Settings > Secrets](https://github.com/laraxot/base_fixcity_fila5/settings/secrets/actions)
->>>>>>> laraxot/dev
-=======
-- [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
-- [Settings > Secrets](https://github.com/laraxot/base_fixcity_fila5/settings/secrets/actions)
->>>>>>> laraxot/dev
 - [Actions Tab](https://github.com/laraxot/platform/actions)
 - [Settings > Secrets](https://github.com/laraxot/platform/settings/secrets/actions)
 - [Settings > SSH Keys](https://github.com/settings/keys)

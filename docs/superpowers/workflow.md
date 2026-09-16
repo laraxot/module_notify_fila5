@@ -339,18 +339,8 @@ git push origin feature/user-activity-tracking
 
 ```bash
 # Return to main worktree
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5
-cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
 
 # Remove feature worktree
 git worktree remove ../worktrees/activity-tracking

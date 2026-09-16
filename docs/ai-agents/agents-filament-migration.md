@@ -7,15 +7,7 @@ Guida alla migrazione da Filament v3/v4 a v5.
 | Requisito | Stato Attuale | Necessario |
 |-----------|---------------|------------|
 | PHP 8.2+ | ✅ Soddisfatto | ✅ |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| Laravel 11.28+ | ✅ Soddisfatto (Laravel 13) | ✅ |
-=======
 | Laravel 11.28+ | ✅ Soddisfatto (Laravel 12) | ✅ |
->>>>>>> laraxot/dev
-=======
-| Laravel 11.28+ | ✅ Soddisfatto (Laravel 12) | ✅ |
->>>>>>> laraxot/dev
 | Livewire v4.0+ | ❌ v3 - DA AGGIORNARE | ✅ |
 | Tailwind CSS v4.0+ | ❌ v3 - DA AGGIORNARE | ✅ |
 

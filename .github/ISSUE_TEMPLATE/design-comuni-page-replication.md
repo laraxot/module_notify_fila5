@@ -41,15 +41,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### 5. Screenshot Comparison
 - [ ] Screenshot originale
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] Screenshot <nome progetto>
-=======
 - [ ] Screenshot FixCity
->>>>>>> laraxot/dev
-=======
-- [ ] Screenshot FixCity
->>>>>>> laraxot/dev
 - [ ] Analisi differenze
 - [ ] Save in `laravel/Themes/Sixteen/docs/design-comuni/screenshots/[pagina-name]/`
 - [ ] Creare `[pagina-name]-comparison.md` con analisi e fix
@@ -83,15 +75,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### Header
 - **Originale**: [Link]
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: [Link]
-=======
 - **FixCity**: [Link]
->>>>>>> laraxot/dev
-=======
-- **FixCity**: [Link]
->>>>>>> laraxot/dev
 - **Differenze**:
   - Colori: ❌ Diversi
   - Logo: ❌ Non visibile
@@ -100,15 +84,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### Footer
 - **Originale**: [Link]
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: [Link]
-=======
 - **FixCity**: [Link]
->>>>>>> laraxot/dev
-=======
-- **FixCity**: [Link]
->>>>>>> laraxot/dev
 - **Differenze**:
   - Layout: ❌ Diverso
   - Link: ❌ Mancanti
@@ -116,15 +92,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### Content
 - **Originale**: [Link]
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: [Link]
-=======
 - **FixCity**: [Link]
->>>>>>> laraxot/dev
-=======
-- **FixCity**: [Link]
->>>>>>> laraxot/dev
 - **Differenze**: ...
 - **Fix Richiesti**: ...
 

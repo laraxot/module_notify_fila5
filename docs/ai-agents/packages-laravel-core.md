@@ -1,18 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Laravel 13 + Qualita Codice — Pacchetti Core
-
-Riferimento per Laravel 13, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP.
-=======
 # Laravel 12 + Qualita Codice — Pacchetti Core
 
 Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP.
->>>>>>> laraxot/dev
-=======
-# Laravel 12 + Qualita Codice — Pacchetti Core
-
-Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP.
->>>>>>> laraxot/dev
 
 ## Stack versioni
 
@@ -35,15 +23,7 @@ Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Laravel 13 — Principali novita
-=======
 ## Laravel 12 — Principali novita
->>>>>>> laraxot/dev
-=======
-## Laravel 12 — Principali novita
->>>>>>> laraxot/dev
 
 - PHP 8.2+ minimo, pieno supporto PHP 8.4
 - `Concurrency` namespace per pattern lottery/feature-flag
@@ -52,15 +32,7 @@ Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP
 - Enum nativi nei cast Eloquent
 - Piena integrazione Pest 4 come framework di test primario
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Pattern model Laravel 13
-=======
 ### Pattern model Laravel 12
->>>>>>> laraxot/dev
-=======
-### Pattern model Laravel 12
->>>>>>> laraxot/dev
 
 ```php
 namespace Modules\Job\Models;
@@ -73,15 +45,7 @@ class Task extends BaseModel
         return array_merge(parent::casts(), [
             'is_active' => 'boolean',
             'parameters' => 'json',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'status' => TaskStatus::class, // Enum nativo Laravel 13
-=======
             'status' => TaskStatus::class, // Enum nativo Laravel 12
->>>>>>> laraxot/dev
-=======
-            'status' => TaskStatus::class, // Enum nativo Laravel 12
->>>>>>> laraxot/dev
         ]);
     }
 }
@@ -176,15 +140,7 @@ XDEBUG_MODE=off ./vendor/bin/pest --coverage         # con coverage
 XDEBUG_MODE=off ./vendor/bin/pest --coverage --min=80
 
 # Modulo specifico
-<<<<<<< HEAD
-<<<<<<< HEAD
-XDEBUG_MODE=off ./vendor/bin/pest Modules/<nome progetto>/tests
-=======
 XDEBUG_MODE=off ./vendor/bin/pest Modules/Quaeris/tests
->>>>>>> laraxot/dev
-=======
-XDEBUG_MODE=off ./vendor/bin/pest Modules/Quaeris/tests
->>>>>>> laraxot/dev
 XDEBUG_MODE=off ./vendor/bin/pest Modules/App/tests
 
 # Via composer
@@ -332,15 +288,7 @@ Espone l'applicazione all'AI (Claude, ecc.) tramite MCP protocol.
 ```php
 use Laravel\Mcp\Server;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-$server = new Server('<nome progetto>-surveys');
-=======
 $server = new Server('quaeris-surveys');
->>>>>>> laraxot/dev
-=======
-$server = new Server('quaeris-surveys');
->>>>>>> laraxot/dev
 $server = new Server('this-project-surveys');
 
 // Resources (dati che l'AI puo leggere)

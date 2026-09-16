@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome progetto> Platform - Master Plan 🚀
-=======
 # FixCity Platform - Master Plan 🚀
->>>>>>> laraxot/dev
-=======
-# FixCity Platform - Master Plan 🚀
->>>>>>> laraxot/dev
 
 **Livello di Confidenza: 🟢 MASSIMO**  
 **Data Analisi**: 2025-01-01  
@@ -16,15 +8,7 @@
 
 ## 🎯 EXECUTIVE SUMMARY
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto>** è una **piattaforma SaaS di civic engagement** che rivoluziona il modo in cui cittadini e amministrazioni locali collaborano per migliorare la qualità della vita urbana. Il sistema trasforma i cittadini in "sensori urbani attivi", permettendo segnalazioni georeferenziate, gestione intelligente dei workflow e analytics avanzate.
-=======
 **FixCity** è una **piattaforma SaaS di civic engagement** che rivoluziona il modo in cui cittadini e amministrazioni locali collaborano per migliorare la qualità della vita urbana. Il sistema trasforma i cittadini in "sensori urbani attivi", permettendo segnalazioni georeferenziate, gestione intelligente dei workflow e analytics avanzate.
->>>>>>> laraxot/dev
-=======
-**FixCity** è una **piattaforma SaaS di civic engagement** che rivoluziona il modo in cui cittadini e amministrazioni locali collaborano per migliorare la qualità della vita urbana. Il sistema trasforma i cittadini in "sensori urbani attivi", permettendo segnalazioni georeferenziate, gestione intelligente dei workflow e analytics avanzate.
->>>>>>> laraxot/dev
 
 ### Value Proposition
 - **Per i Cittadini**: Voce diretta all'amministrazione, trasparenza, risoluzione rapida problemi
@@ -41,18 +25,8 @@
 ### Stack Tecnologico
 ```
 Frontend:          Blade + Livewire 3 + Alpine.js + Tailwind CSS
-<<<<<<< HEAD
-<<<<<<< HEAD
-Backend:           Laravel 13.x + PHP 8.3
-Admin Panel:       Filament 5.x (Server-Driven UI)
-=======
 Backend:           Laravel 12.x + PHP 8.3
 Admin Panel:       Filament 4.x (Server-Driven UI)
->>>>>>> laraxot/dev
-=======
-Backend:           Laravel 12.x + PHP 8.3
-Admin Panel:       Filament 4.x (Server-Driven UI)
->>>>>>> laraxot/dev
 Database:          MySQL/PostgreSQL (multi-database)
 Cache:             Redis
 Queue:             Redis/Database
@@ -472,21 +446,9 @@ docs/
 
 ## 🎉 CONCLUSION
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto> è posizionata per diventare la **piattaforma leader europea** per il civic engagement e la gestione intelligente delle città. Con:
-
-- ✅ **Solida base tecnica** (Laravel 13, Filament 5, architettura modulare)
-=======
 FixCity è posizionata per diventare la **piattaforma leader europea** per il civic engagement e la gestione intelligente delle città. Con:
 
 - ✅ **Solida base tecnica** (Laravel 12, Filament 4, architettura modulare)
->>>>>>> laraxot/dev
-=======
-FixCity è posizionata per diventare la **piattaforma leader europea** per il civic engagement e la gestione intelligente delle città. Con:
-
-- ✅ **Solida base tecnica** (Laravel 12, Filament 4, architettura modulare)
->>>>>>> laraxot/dev
 - ✅ **Business logic completa** (workflow, stati, automazioni)
 - ✅ **Roadmap chiara** (18 moduli, 60+ sprint pianificati)
 - ✅ **Visione innovativa** (AI, IoT, Blockchain)

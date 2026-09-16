@@ -844,15 +844,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 grep -r --include="*.php" "extends XotBasePage implements HasForms" [project-root]/laravel/Modules/
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/_bases/<nome repository>/laravel/Modules/
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
-<<<<<<< HEAD
-<<<<<<< HEAD
-grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/
-=======
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
->>>>>>> laraxot/dev
-=======
-grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
->>>>>>> laraxot/dev
 ```
 
 ## Riferimenti

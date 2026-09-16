@@ -43,15 +43,7 @@ Ogni modulo gestisce le proprie dipendenze:
 
 ```json
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "name": "<nome progetto>/module-name",
-=======
     "name": "fixcity/module-name",
->>>>>>> laraxot/dev
-=======
-    "name": "fixcity/module-name",
->>>>>>> laraxot/dev
     "name": "ptv/module-name",
     "require": {
         "php": "^8.2",
@@ -220,15 +212,7 @@ composer update
 
 ```json
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "name": "<nome progetto>/cms-module",
-=======
     "name": "fixcity/cms-module",
->>>>>>> laraxot/dev
-=======
-    "name": "fixcity/cms-module",
->>>>>>> laraxot/dev
     "name": "ptv/cms-module",
     "require": {
         "php": "^8.2",

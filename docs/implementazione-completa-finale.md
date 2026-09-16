@@ -5,18 +5,8 @@ tags: [implementazione, completa, finale]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "implementazione-completa-finale 🐄✨ implementazione completa - report finale ✨🐄"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -50,15 +40,7 @@ related:
 - [x] Analizzato 18 moduli
 - [x] Identificato 120 proprietà duplicate
 - [x] Creato XotBaseModel con proprietà comuni
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Refactorato 10 moduli (Activity, Blog, Cms, <nome progetto>, Geo, Job, Lang, Media, Notify, User)
-=======
 - [x] Refactorato 10 moduli (Activity, Blog, Cms, Fixcity, Geo, Job, Lang, Media, Notify, User)
->>>>>>> laraxot/dev
-=======
-- [x] Refactorato 10 moduli (Activity, Blog, Cms, Fixcity, Geo, Job, Lang, Media, Notify, User)
->>>>>>> laraxot/dev
 - [x] Ridotto 310 LOC (41% riduzione)
 - [x] Verificato con PHPStan (0 errori)
 - [x] Formattato con Pint
@@ -133,15 +115,7 @@ related:
 - [x] Creato `docs/refactoring-completato.md`
 - [x] Creato `docs/implementazione-completa-finale.md` (questo file)
 - [x] Aggiornati **18 file** `metodi-duplicati-analisi-1.md` con sezione implementazione
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Aggiornati documenti per moduli specifici (Xot, User, Cms, <nome progetto>)
-=======
 - [x] Aggiornati documenti per moduli specifici (Xot, User, Cms, Fixcity)
->>>>>>> laraxot/dev
-=======
-- [x] Aggiornati documenti per moduli specifici (Xot, User, Cms, Fixcity)
->>>>>>> laraxot/dev
 - [x] Aggiornati documenti per temi (Sixteen, TwentyOne)
 
 **Risultato:** ✅ **COMPLETATO AL 100%**
@@ -255,15 +229,7 @@ Themes/*/docs/
 Modules/Activity/app/Models/BaseModel.php    ✅ 72→45 LOC (-37%)
 Modules/Blog/app/Models/BaseModel.php        ✅ 76→45 LOC (-41%)
 Modules/Cms/app/Models/BaseModel.php         ✅ 70→37 LOC (-47%)
-<<<<<<< HEAD
-<<<<<<< HEAD
-Modules/<nome progetto>/app/Models/BaseModel.php     ✅ 72→43 LOC (-40%)
-=======
 Modules/Fixcity/app/Models/BaseModel.php     ✅ 72→43 LOC (-40%)
->>>>>>> laraxot/dev
-=======
-Modules/Fixcity/app/Models/BaseModel.php     ✅ 72→43 LOC (-40%)
->>>>>>> laraxot/dev
 Modules/Geo/app/Models/BaseModel.php         ✅ 78→31 LOC (-60%)
 Modules/Job/app/Models/BaseModel.php         ✅ 89→72 LOC (-19%)
 Modules/Lang/app/Models/BaseModel.php        ✅ 73→44 LOC (-40%)
@@ -473,15 +439,7 @@ I documenti `metodi-duplicati-analisi-1.md` contenevano 4 proposte principali:
 ✅ Modules/Blog/docs/metodi-duplicati-analisi-1.md
 ✅ Modules/Cms/docs/metodi-duplicati-analisi-1.md
 ✅ Modules/Comment/docs/metodi-duplicati-analisi-1.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-✅ Modules/<nome progetto>/docs/metodi-duplicati-analisi-1.md
-=======
 ✅ Modules/Fixcity/docs/metodi-duplicati-analisi-1.md
->>>>>>> laraxot/dev
-=======
-✅ Modules/Fixcity/docs/metodi-duplicati-analisi-1.md
->>>>>>> laraxot/dev
 ✅ Modules/Gdpr/docs/metodi-duplicati-analisi-1.md
 ✅ Modules/Geo/docs/metodi-duplicati-analisi-1.md
 ✅ Modules/Job/docs/metodi-duplicati-analisi-1.md
@@ -514,15 +472,7 @@ I documenti `metodi-duplicati-analisi-1.md` contenevano 4 proposte principali:
 | Blog | ✅ Fatto | ✅ Sì (5 resources) | ✅ Sì (5 resources) | ✅ Sì | 🟢 Ready |
 | Cms | ✅ Fatto | ✅ Sì (5 resources) | ✅ Sì (5 resources) | ✅ Sì | 🟢 Ready |
 | Comment | ✅ OK | ✅ Sì | ✅ Sì | ✅ Sì | 🟢 Ready |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| <nome progetto> | ✅ Fatto | ✅ Sì (8 resources) | ✅ Sì (8 resources) | ✅ Sì | 🟢 Ready |
-=======
 | Fixcity | ✅ Fatto | ✅ Sì (8 resources) | ✅ Sì (8 resources) | ✅ Sì | 🟢 Ready |
->>>>>>> laraxot/dev
-=======
-| Fixcity | ✅ Fatto | ✅ Sì (8 resources) | ✅ Sì (8 resources) | ✅ Sì | 🟢 Ready |
->>>>>>> laraxot/dev
 | Gdpr | ✅ OK | ✅ Sì (4 resources) | ✅ Sì (4 resources) | ✅ Sì | 🟢 Ready |
 | Geo | ✅ Fatto | ✅ Sì (6 resources) | ✅ Sì (6 resources) | ✅ Sì | 🟢 Ready |
 | Job | ✅ Fatto | ✅ Sì (9 resources) | ✅ Sì (9 resources) | ✅ Sì | 🟢 Ready |

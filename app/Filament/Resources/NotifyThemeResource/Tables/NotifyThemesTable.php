@@ -8,32 +8,16 @@ use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Modules\Notify\Models\NotifyTheme;
->>>>>>> laraxot/dev
-=======
-use Modules\Notify\Models\NotifyTheme;
->>>>>>> laraxot/dev
 use Modules\Xot\Filament\Resources\Tables\XotBaseResourceTable;
 
 class NotifyThemesTable extends XotBaseResourceTable
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
     /**
      * @var class-string<NotifyTheme>
      */
     protected static string $model = NotifyTheme::class;
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     public function getTableFilters(): array
     {
         return [
@@ -57,29 +41,10 @@ class NotifyThemesTable extends XotBaseResourceTable
             'id' => TextColumn::make('id')->sortable(),
             'lang' => TextColumn::make('lang')->sortable(),
             'type' => TextColumn::make('type')->sortable(),
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'post_id' => TextColumn::make('post_id')->sortable(),
-            'post_type' => TextColumn::make('post_type')->sortable(),
-            'logo_src' => TextColumn::make('logo_src')->sortable(),
-            'subject' => TextColumn::make('subject')->searchable(),
-            'theme' => TextColumn::make('theme')->sortable(),
-            'from_email' => TextColumn::make('from_email')->searchable(),
-            'created_at' => TextColumn::make('created_at')
-                ->dateTime()
-                ->sortable()
-                ->toggleable(isToggledHiddenByDefault: true),
-=======
-=======
->>>>>>> laraxot/dev
             'subject' => TextColumn::make('subject')->searchable()->sortable()->wrap(),
             'theme' => TextColumn::make('theme')->searchable()->sortable(),
             'from_email' => TextColumn::make('from_email')->searchable()->sortable(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
             'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()->toggleable(isToggledHiddenByDefault: true)];
     }
 }

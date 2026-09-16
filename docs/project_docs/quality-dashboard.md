@@ -1,35 +1,14 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "📊 Quality Dashboard - <nome progetto> Project"
-=======
 title: "📊 Quality Dashboard - FixCity Project"
->>>>>>> laraxot/dev
-=======
-title: "📊 Quality Dashboard - FixCity Project"
->>>>>>> laraxot/dev
 title: "📊 Quality Dashboard - Notify Project"
 type: concept
 tags: [quality, dashboard]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "quality-dashboard 📊 quality dashboard - <nome progetto> project"
-qmd: "quality-dashboard 📊 quality dashboard - laraxot project"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "quality-dashboard 📊 quality dashboard - fixcity project"
 qmd: "quality-dashboard 📊 quality dashboard - laraxot project"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./2025-excellence-achievement.md"
   - "./agid-implementation-guide.md"
@@ -41,15 +20,7 @@ related:
   - "./final-implementation-report.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 📊 Quality Dashboard - <nome progetto> Project
-=======
 # 📊 Quality Dashboard - FixCity Project
->>>>>>> laraxot/dev
-=======
-# 📊 Quality Dashboard - FixCity Project
->>>>>>> laraxot/dev
 # 📊 Quality Dashboard - Notify Project
 
 **Last Updated:** 2025-10-01 21:35  
@@ -98,15 +69,7 @@ Coverage by Module:
 Xot      ████████████████████████████████████████ 90%
 Tenant   ████████████████████████████████████████ 88%
 User     ████████████████████████████████████████ 85%
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto>  ████████████████████████████████████████ 82%
-=======
 Fixcity  ████████████████████████████████████████ 82%
->>>>>>> laraxot/dev
-=======
-Fixcity  ████████████████████████████████████████ 82%
->>>>>>> laraxot/dev
 App  ████████████████████████████████████████ 82%
 Blog     ████████████████████████████████████████ 80%
 Others   ████████████████████████████████████████ 85%
@@ -148,15 +111,7 @@ Others   ███████████████████████�
 | Module | Score | Complexity | Tests | PHPStan |
 |--------|-------|------------|-------|---------|
 | Tenant | 94% | 🟢 0 | 🟢 88% | 🟢 Pass |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| <nome progetto> | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
-=======
 | Fixcity | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
->>>>>>> laraxot/dev
-=======
-| Fixcity | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
->>>>>>> laraxot/dev
 | App | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
 | UI | 91% | 🟢 0 | 🟢 85% | 🟢 Pass |
 | Cms | 90% | 🟢 0 | 🟢 80% | 🟢 Pass |
@@ -334,21 +289,9 @@ Overall Progress: ████████████████████�
 
 ## 📞 Quality Team Contacts
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Quality Lead**: quality@<nome progetto>.com
-- **Architecture**: architecture@<nome progetto>.com
-- **Testing**: testing@<nome progetto>.com
-=======
 - **Quality Lead**: quality@fixcity.com
 - **Architecture**: architecture@fixcity.com
 - **Testing**: testing@fixcity.com
->>>>>>> laraxot/dev
-=======
-- **Quality Lead**: quality@fixcity.com
-- **Architecture**: architecture@fixcity.com
-- **Testing**: testing@fixcity.com
->>>>>>> laraxot/dev
 - **Quality Lead**: quality@laraxot.com
 - **Architecture**: architecture@laraxot.com
 - **Testing**: testing@laraxot.com

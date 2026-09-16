@@ -176,15 +176,7 @@ python scripts/run.py ask_question.py \
 ```bash
 # Research Laravel patterns
 python scripts/run.py ask_question.py \
-<<<<<<< HEAD
-<<<<<<< HEAD
-  --question "What are Laravel 13 best practices for service architecture?"
-=======
   --question "What are Laravel 12 best practices for service architecture?"
->>>>>>> laraxot/dev
-=======
-  --question "What are Laravel 12 best practices for service architecture?"
->>>>>>> laraxot/dev
 
 # Research Filament v5
 python scripts/run.py ask_question.py \

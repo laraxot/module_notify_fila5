@@ -16,15 +16,7 @@ $attachments = [
     [
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
         'path' => '[project-root]/public_html/images/avatars/default.svg',
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'path' => '/var/www/_bases/<repo progetto>/public_html/images/avatars/default.svg',
-=======
         'path' => '/var/www/_bases/base_ptvx_fila5/public_html/images/avatars/default.svg',
->>>>>>> laraxot/dev
-=======
-        'path' => '/var/www/_bases/base_ptvx_fila5/public_html/images/avatars/default.svg',
->>>>>>> laraxot/dev
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],

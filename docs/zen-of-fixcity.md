@@ -1,17 +1,4 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "🧘 Zen of <nome progetto> - Complete Philosophy"
-type: concept
-tags: [zen, <nome progetto>]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "zen-of-<nome progetto> 🧘 zen of <nome progetto> - complete philosophy"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 title: "🧘 Zen of FixCity - Complete Philosophy"
 type: concept
 tags: [zen, fixcity]
@@ -20,10 +7,6 @@ updated: 2026-07-14
 qmd: "zen-of-fixcity 🧘 zen of fixcity - complete philosophy"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -35,15 +18,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🧘 Zen of <nome progetto> - Complete Philosophy
-=======
 # 🧘 Zen of FixCity - Complete Philosophy
->>>>>>> laraxot/dev
-=======
-# 🧘 Zen of FixCity - Complete Philosophy
->>>>>>> laraxot/dev
 
 **Version**: 2.0  
 **Created**: 2026-03-30  
@@ -366,15 +341,7 @@ fi
 
 ```bash
 openviking add-memory \
-<<<<<<< HEAD
-<<<<<<< HEAD
-  --title="Zen of <nome progetto>" \
-=======
   --title="Zen of FixCity" \
->>>>>>> laraxot/dev
-=======
-  --title="Zen of FixCity" \
->>>>>>> laraxot/dev
   --content="5 pillars: Git Forward-Only, DRY+KISS, Universal Blocks, Folio+Volt, Multi-Agent"
 ```
 

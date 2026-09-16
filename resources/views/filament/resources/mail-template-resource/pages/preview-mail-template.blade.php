@@ -21,9 +21,7 @@ declare(strict_types=1);
                         {{ __('notify::mail.template.preview.html_version') }}
                     </h4>
                     <div class="mt-2 prose dark:prose-invert max-w-none">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        {cat << 'EOF' > /var/www/_bases/<repo progetto>/laravel/Modules/Notify/resources/svg/logo.svg
+                        {cat << 'EOF' > /var/www/_bases/base_<nome progetto>_fila5_mono/laravel/Modules/Notify/resources/svg/logo.svg
 <?xml version="1.0" encoding="UTF-8"?>
 <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -98,12 +96,6 @@ declare(strict_types=1);
     </g>
 </svg>
 EOF $this->record->body_html !!}
-=======
-                        {!! $this->record->body_html !!}
->>>>>>> laraxot/dev
-=======
-                        {!! $this->record->body_html !!}
->>>>>>> laraxot/dev
                     </div>
                 </div>
 

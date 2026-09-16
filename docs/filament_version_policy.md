@@ -30,15 +30,7 @@ Filament è gestito dai moduli.
 
 ```json
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "name": "<nome progetto>/module-name",
-=======
     "name": "fixcity/module-name",
->>>>>>> laraxot/dev
-=======
-    "name": "fixcity/module-name",
->>>>>>> laraxot/dev
     "name": "ptv/module-name",
     "require": {
         "php": "^8.2",
@@ -123,15 +115,7 @@ composer update "filament/*" -W
 - ✅ Community help
 
 ### 4. Compatibility
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ Laravel 13 compatible
-=======
 - ✅ Laravel 12 compatible
->>>>>>> laraxot/dev
-=======
-- ✅ Laravel 12 compatible
->>>>>>> laraxot/dev
 - ✅ PHP 8.2+ compatible
 - ✅ Other packages compatible
 

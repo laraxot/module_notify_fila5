@@ -169,15 +169,7 @@ Each module's docs folder will receive:
 
 1. ✅ composer.json has all dependencies in active sections
 2. ✅ `composer install` completes without errors
-<<<<<<< HEAD
-<<<<<<< HEAD
-3. ✅ `php artisan --version` returns Laravel 13.x
-=======
 3. ✅ `php artisan --version` returns Laravel 12.x
->>>>>>> laraxot/dev
-=======
-3. ✅ `php artisan --version` returns Laravel 12.x
->>>>>>> laraxot/dev
 4. ✅ `boost:add-skill` command executes successfully
 5. ✅ All module documentation updated
 

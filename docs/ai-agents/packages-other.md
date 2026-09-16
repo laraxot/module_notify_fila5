@@ -20,15 +20,7 @@ Modules/
   Limesurvey/ — integrazione LimeSurvey
   Media/      — file e media
   Notify/     — notifiche (email, SMS, Telegram, WhatsApp)
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <nome progetto>/    — survey management
-=======
   Quaeris/    — survey management
->>>>>>> laraxot/dev
-=======
-  Quaeris/    — survey management
->>>>>>> laraxot/dev
   App/    — survey management
   Tenant/     — multi-tenancy
   UI/         — componenti UI

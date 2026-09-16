@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# ROADMAP: <nome progetto> Platform
-=======
 # ROADMAP: FixCity Platform
->>>>>>> laraxot/dev
-=======
-# ROADMAP: FixCity Platform
->>>>>>> laraxot/dev
 
 ## Milestone 1: Performance & Stability (COMPLETED ✅)
 - Phase 0: Foundation

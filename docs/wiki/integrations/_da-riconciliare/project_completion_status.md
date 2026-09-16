@@ -114,15 +114,7 @@ updated: 2026-08-24
 
 ### Qualità Codice
 - **PHPStan Level 9**: ✅ 0 errori
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Filament 5.x**: ✅ Compatibile
-=======
 - **Filament 4.x**: ✅ Compatibile
->>>>>>> laraxot/dev
-=======
-- **Filament 4.x**: ✅ Compatibile
->>>>>>> laraxot/dev
 - **Test Coverage**: 🚧 65% (target 80%)
 - **AGID Compliance**: 🚧 90% (target 100%)
 
@@ -198,15 +190,7 @@ updated: 2026-08-24
 
 ```
 <nome repository>/
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome repitory>/
-=======
 <nome repitory>_mono/
->>>>>>> laraxot/dev
-=======
-<nome repitory>_mono/
->>>>>>> laraxot/dev
 ├── DOCUMENTATION_INDEX.md          # ✅ Indice generale
 ├── QUICK_START.md                  # ✅ Guida rapida
 ├── ROADMAP_STATUS_SUMMARY.md       # ✅ Status master

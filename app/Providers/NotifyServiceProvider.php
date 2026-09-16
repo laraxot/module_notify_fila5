@@ -21,27 +21,11 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    #[Override]
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     public function register(): void
     {
         parent::register();
         $this->mergeNotifyModuleConfigFromEnv();
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    #[Override]
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     public function boot(): void
     {
         parent::boot();

@@ -218,15 +218,7 @@ public function execute(
 ])
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**⚠️ Nota Filament 5**: Il metodo `->form()` è deprecato. Usare sempre `->schema()` per definire lo schema del form nelle Actions e BulkActions.
-=======
 **⚠️ Nota Filament 4**: Il metodo `->form()` è deprecato. Usare sempre `->schema()` per definire lo schema del form nelle Actions e BulkActions.
->>>>>>> laraxot/dev
-=======
-**⚠️ Nota Filament 4**: Il metodo `->form()` è deprecato. Usare sempre `->schema()` per definire lo schema del form nelle Actions e BulkActions.
->>>>>>> laraxot/dev
 
 **✅ Componenti Riutilizzabili**: Usare `MailTemplateSelect` e `ChannelCheckboxList` invece di configurare `Select`/`CheckboxList` inline. Vedi [Componenti Form Riutilizzabili](./forms/components-reusable.md).
 

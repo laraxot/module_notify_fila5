@@ -149,13 +149,5 @@ GET /it/tests/amministrazione → tests.view (slug=amministrazione)
 
 **Status**: ✅ COMPLETATO  
 **Data**: 2026-03-31  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**URL Test**: http://<nome progetto>.local/it/tests/homepage
-=======
 **URL Test**: http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
-=======
-**URL Test**: http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
 **URL Test**: http://ptv.local/it/tests/homepage

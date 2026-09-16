@@ -1,28 +1,12 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "MCP Server Index - <nome progetto> Project"
-=======
 title: "MCP Server Index - FixCity Project"
->>>>>>> laraxot/dev
-=======
-title: "MCP Server Index - FixCity Project"
->>>>>>> laraxot/dev
 title: "MCP Server Index - Notify Project"
 type: index
 tags: [notify, docs, mcp]
 module: Notify
 created: 2026-07-20
 updated: 2026-07-20
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "notify documentazione mcp index mcp server index - <nome progetto> project index readme frontmatter qmd search"
-=======
 qmd: "notify documentazione mcp index mcp server index - fixcity project index readme frontmatter qmd search"
->>>>>>> laraxot/dev
-=======
-qmd: "notify documentazione mcp index mcp server index - fixcity project index readme frontmatter qmd search"
->>>>>>> laraxot/dev
 qmd: "notify documentazione mcp index mcp server index - laraxot project index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
@@ -35,15 +19,7 @@ related:
   - ../integrations/readme.md
   - ../templates/readme.md
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-# MCP Server Index - <nome progetto> Project
-=======
 # MCP Server Index - FixCity Project
->>>>>>> laraxot/dev
-=======
-# MCP Server Index - FixCity Project
->>>>>>> laraxot/dev
 # MCP Server Index - Notify Project
 
 **Purpose**: Central index for all MCP server documentation  

@@ -2,15 +2,7 @@
 
 ## Overview
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This guide describes how to integrate **BMAD** (requirements & architecture), **GSD** (planning & execution), and **Ralph Loop** (autonomous implementation) for the <nome progetto> platform.
-=======
 This guide describes how to integrate **BMAD** (requirements & architecture), **GSD** (planning & execution), and **Ralph Loop** (autonomous implementation) for the FixCity platform.
->>>>>>> laraxot/dev
-=======
-This guide describes how to integrate **BMAD** (requirements & architecture), **GSD** (planning & execution), and **Ralph Loop** (autonomous implementation) for the FixCity platform.
->>>>>>> laraxot/dev
 
 ## Methodology Comparison
 

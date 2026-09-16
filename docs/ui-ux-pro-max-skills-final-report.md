@@ -5,18 +5,8 @@ tags: [pro, max, skills, final]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-ux-pro-max-skills-final-report 🎨 ui/ux pro max skills - final report"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -253,15 +243,7 @@ Each skill includes:
 ### Immediate (Today)
 1. ✅ Skills installate e configurate
 2. ⏳ Testare ogni skill
-<<<<<<< HEAD
-<<<<<<< HEAD
-3. ⏳ Creare esempi pratici per <nome progetto>
-=======
 3. ⏳ Creare esempi pratici per FixCity
->>>>>>> laraxot/dev
-=======
-3. ⏳ Creare esempi pratici per FixCity
->>>>>>> laraxot/dev
 4. ⏳ Documentare usage patterns
 
 ### This Week
@@ -272,15 +254,7 @@ Each skill includes:
 
 ### Next Week
 9. Advanced usage patterns
-<<<<<<< HEAD
-<<<<<<< HEAD
-10. Custom skill creation per <nome progetto>
-=======
 10. Custom skill creation per FixCity
->>>>>>> laraxot/dev
-=======
-10. Custom skill creation per FixCity
->>>>>>> laraxot/dev
 11. Performance optimization
 12. Community contribution
 

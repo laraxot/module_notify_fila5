@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🔍 <nome progetto> - GAP ANALYSIS & IMPLEMENTATION PLAN
-=======
 # 🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN
->>>>>>> laraxot/dev
-=======
-# 🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN
->>>>>>> laraxot/dev
 
 **Data**: 2025-10-01  
 **Scopo**: Identificare e implementare tutte le features mancanti per eccellenza 2025  
@@ -17,15 +9,7 @@
 ## 🎯 SCOPO DEL PROGETTO
 
 ### Business Goal
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto>** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette ai cittadini di segnalare problemi (buche, illuminazione, rifiuti, etc.) e agli amministratori comunali di gestirle efficacemente.
-=======
 **FixCity** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette ai cittadini di segnalare problemi (buche, illuminazione, rifiuti, etc.) e agli amministratori comunali di gestirle efficacemente.
->>>>>>> laraxot/dev
-=======
-**FixCity** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette ai cittadini di segnalare problemi (buche, illuminazione, rifiuti, etc.) e agli amministratori comunali di gestirle efficacemente.
->>>>>>> laraxot/dev
 
 ### Target Users
 1. **Cittadini** - Segnalano problemi urbani
@@ -57,15 +41,7 @@
 
 **Files da creare/modificare**:
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Modules/<nome progetto>/
-=======
 Modules/Fixcity/
->>>>>>> laraxot/dev
-=======
-Modules/Fixcity/
->>>>>>> laraxot/dev
 ├── Jobs/GeocodeTicketAddressJob.php          [NEW]
 ├── Repositories/TicketRepository.php         [NEW]
 ├── Filament/Resources/Pages/ListTickets.php  [MODIFY]
@@ -84,15 +60,7 @@ Modules/Fixcity/
 
 **Files da creare**:
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Modules/<nome progetto>/
-=======
 Modules/Fixcity/
->>>>>>> laraxot/dev
-=======
-Modules/Fixcity/
->>>>>>> laraxot/dev
 ├── Http/Controllers/Api/V1/
 │   ├── TicketController.php                  [NEW]
 │   ├── CategoryController.php                [NEW]
@@ -114,15 +82,7 @@ Modules/Fixcity/
 
 **Files da creare**:
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Modules/<nome progetto>/Tests/Feature/
-=======
 Modules/Fixcity/Tests/Feature/
->>>>>>> laraxot/dev
-=======
-Modules/Fixcity/Tests/Feature/
->>>>>>> laraxot/dev
 ├── CreateTicketTest.php                      [NEW]
 ├── UpdateTicketTest.php                      [NEW]
 ├── AssignTicketTest.php                      [NEW]
@@ -206,15 +166,7 @@ laravel/Themes/Sixteen/
 
 **Files da creare**:
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Modules/<nome progetto>/Filament/Widgets/
-=======
 Modules/Fixcity/Filament/Widgets/
->>>>>>> laraxot/dev
-=======
-Modules/Fixcity/Filament/Widgets/
->>>>>>> laraxot/dev
 ├── TicketTrendsWidget.php                    [NEW]
 ├── GeographicHeatmapWidget.php               [NEW]
 ├── PerformanceMetricsWidget.php              [NEW]
@@ -232,15 +184,7 @@ Modules/Fixcity/Filament/Widgets/
 
 **Files da creare**:
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Modules/<nome progetto>/
-=======
 Modules/Fixcity/
->>>>>>> laraxot/dev
-=======
-Modules/Fixcity/
->>>>>>> laraxot/dev
 ├── Jobs/AutoAssignTicketJob.php              [NEW]
 ├── Jobs/EscalateOverdueTicketsJob.php        [NEW]
 ├── Models/Zone.php                           [NEW]

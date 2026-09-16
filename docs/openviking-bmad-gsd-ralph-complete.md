@@ -5,18 +5,8 @@ tags: [openviking, bmad, gsd, ralph]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "openviking-bmad-gsd-ralph-complete openviking + bmad + gsd + ralph loop - setup complete report"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -89,18 +79,8 @@ All documentation, scripts, and configuration files have been created successful
 ## File Structure
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<repo progetto>/
-<repo progetto>/
-=======
 base_fixcity_fila5/
 base_ptv_fila5/
->>>>>>> laraxot/dev
-=======
-base_fixcity_fila5/
-base_ptv_fila5/
->>>>>>> laraxot/dev
 ├── docs/
 │   ├── openviking-integration.md          ✅ NEW
 │   ├── bmad-gsd-ralph-integration.md      ✅ NEW
@@ -135,18 +115,8 @@ sudo systemctl start openviking
 
 ```bash
 # Navigate to project
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5
-cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
 
 # Run initialization
 bash bashscripts/ai/openviking-init.sh

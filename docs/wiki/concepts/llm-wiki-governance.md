@@ -6,15 +6,7 @@
 
 ## Purpose
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This page defines how the Karpathy-style LLM wiki maps onto the <nome progetto> repository.
-=======
 This page defines how the Karpathy-style LLM wiki maps onto the FixCity repository.
->>>>>>> laraxot/dev
-=======
-This page defines how the Karpathy-style LLM wiki maps onto the FixCity repository.
->>>>>>> laraxot/dev
 This page defines how the Karpathy-style LLM wiki maps onto the Notify repository.
 
 ## Mapping

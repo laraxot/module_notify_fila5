@@ -5,18 +5,8 @@ tags: [sessione, 100, percent]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "sessione-100-percent 🎉 sessione 100% completata - homepage bootstrap italia"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -250,18 +240,8 @@ related:
 
 **URL Reference**:
 - Bootstrap Italia: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
-<<<<<<< HEAD
-<<<<<<< HEAD
-- <nome progetto>: http://<nome progetto>.local/it/tests/homepage
-- <nome progetto>: http://ptv.local/it/tests/homepage
-=======
 - FixCity: http://fixcity.local/it/tests/homepage
 - FixCity: http://ptv.local/it/tests/homepage
->>>>>>> laraxot/dev
-=======
-- FixCity: http://fixcity.local/it/tests/homepage
-- FixCity: http://ptv.local/it/tests/homepage
->>>>>>> laraxot/dev
 
 ---
 

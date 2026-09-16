@@ -9,15 +9,7 @@
 
 ## 📋 Overview
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Successfully installed and configured the **Superpowers** agentic skills framework for the <nome progetto> platform.
-=======
 Successfully installed and configured the **Superpowers** agentic skills framework for the FixCity platform.
->>>>>>> laraxot/dev
-=======
-Successfully installed and configured the **Superpowers** agentic skills framework for the FixCity platform.
->>>>>>> laraxot/dev
 Successfully installed and configured the **Superpowers** agentic skills framework for the Notify platform.
 
 ---

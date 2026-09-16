@@ -224,15 +224,7 @@ Build a landing page with:
 4. ⏳ Documentare best practices
 
 ### This Week
-<<<<<<< HEAD
-<<<<<<< HEAD
-5. Integrare con <nome progetto> project
-=======
 5. Integrare con FixCity project
->>>>>>> laraxot/dev
-=======
-5. Integrare con FixCity project
->>>>>>> laraxot/dev
 6. Creare template riutilizzabili
 7. Training team
 8. Feedback loop

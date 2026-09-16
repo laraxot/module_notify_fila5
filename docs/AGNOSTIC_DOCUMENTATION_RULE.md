@@ -19,18 +19,8 @@ Modules and themes are **reusable components** that should work across multiple 
 
 **❌ WRONG** (Project-specific):
 ```markdown
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome progetto> Pages Content Blocks
-This guide covers <nome progetto> platform pages...
-=======
 # FixCity Pages Content Blocks
 This guide covers FixCity platform pages...
->>>>>>> laraxot/dev
-=======
-# FixCity Pages Content Blocks
-This guide covers FixCity platform pages...
->>>>>>> laraxot/dev
 ```
 
 **✅ CORRECT** (Agnostic):
@@ -46,23 +36,10 @@ Replace specific names with placeholders:
 
 | Instead Of | Use |
 |------------|-----|
-<<<<<<< HEAD
-<<<<<<< HEAD
-| `<nome progetto>` | `[PROJECT_NAME]` or `[Platform Name]` |
-| `ptv.local` | `[DOMAIN]` or `your-project.local` |
-| `ptv::` | `module_name::` or `your_module::` |
-| `laravel/Modules/<nome progetto>` | `laravel/Modules/[ModuleName]` |
-=======
-=======
->>>>>>> laraxot/dev
 | `FixCity` | `[PROJECT_NAME]` or `[Platform Name]` |
 | `ptv.local` | `[DOMAIN]` or `your-project.local` |
 | `ptv::` | `module_name::` or `your_module::` |
 | `laravel/Modules/Fixcity` | `laravel/Modules/[ModuleName]` |
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ### 3. File Naming
 
@@ -80,15 +57,7 @@ Replace specific names with placeholders:
 
 **❌ WRONG**:
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-namespace Modules\<nome progetto>\Models;
-=======
 namespace Modules\Fixcity\Models;
->>>>>>> laraxot/dev
-=======
-namespace Modules\Fixcity\Models;
->>>>>>> laraxot/dev
 route('ptv.tickets.index')
 config('ptv.settings')
 ```
@@ -106,18 +75,8 @@ When linking to other docs, use **relative paths** without project names:
 
 **❌ WRONG**:
 ```markdown
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [<nome progetto> Integration](../../ptv/docs/roadmap.md)
-- [See <nome progetto> Module](../../../Modules/<nome progetto>/docs/)
-=======
 - [FixCity Integration](../../ptv/docs/roadmap.md)
 - [See Fixcity Module](../../../Modules/Fixcity/docs/)
->>>>>>> laraxot/dev
-=======
-- [FixCity Integration](../../ptv/docs/roadmap.md)
-- [See Fixcity Module](../../../Modules/Fixcity/docs/)
->>>>>>> laraxot/dev
 ```
 
 **✅ CORRECT**:
@@ -153,15 +112,7 @@ For existing documentation:
 
 Before committing documentation changes, verify:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] No project-specific names (<nome progetto>, YourProject, etc.)
-=======
 - [ ] No project-specific names (FixCity, YourProject, etc.)
->>>>>>> laraxot/dev
-=======
-- [ ] No project-specific names (FixCity, YourProject, etc.)
->>>>>>> laraxot/dev
 - [ ] Generic placeholders used consistently
 - [ ] File names are project-agnostic
 - [ ] Examples use generic module/resource names
@@ -169,15 +120,7 @@ Before committing documentation changes, verify:
 
 ## Enforcement
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Pre-commit check**: Run `grep -r "<nome progetto>" Modules/*/docs/ Themes/*/docs/` to catch violations
-=======
 - **Pre-commit check**: Run `grep -r "FixCity" Modules/*/docs/ Themes/*/docs/` to catch violations
->>>>>>> laraxot/dev
-=======
-- **Pre-commit check**: Run `grep -r "FixCity" Modules/*/docs/ Themes/*/docs/` to catch violations
->>>>>>> laraxot/dev
 - **Code review**: Reject PRs with project-specific docs in generic modules
 - **Documentation audit**: Periodic review of module/theme docs
 
@@ -201,15 +144,7 @@ Modules/
 ├── Cms/
 │   └── docs/
 │       ├── README.md              # Generic CMS module docs
-<<<<<<< HEAD
-<<<<<<< HEAD
-│       ├── pages-content-blocks.md  # No "<nome progetto>" references
-=======
 │       ├── pages-content-blocks.md  # No "FixCity" references
->>>>>>> laraxot/dev
-=======
-│       ├── pages-content-blocks.md  # No "FixCity" references
->>>>>>> laraxot/dev
 │       └── content-management.md  # Project-agnostic
 └── User/
     └── docs/

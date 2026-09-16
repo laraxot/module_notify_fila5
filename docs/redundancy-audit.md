@@ -5,18 +5,8 @@ module: Notify
 tags: [redundancy, email, config, casing]
 created: 2026-05-21
 related:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - https://github.com/laraxot/<repo progetto>/issues/89
-  - https://github.com/laraxot/<repo progetto>/issues/89
-=======
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
   - https://github.com/laraxot/base_ptv_fila5/issues/89
->>>>>>> laraxot/dev
-=======
-  - https://github.com/laraxot/base_fixcity_fila5/issues/89
-  - https://github.com/laraxot/base_ptv_fila5/issues/89
->>>>>>> laraxot/dev
 ---
 
 # Notify redundancy audit 2026-05-21

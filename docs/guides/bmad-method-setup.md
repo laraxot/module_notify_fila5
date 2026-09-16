@@ -2,15 +2,7 @@
 
 **Versione:** 6.2.2  
 **Data Setup:** 2026-04-07  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Progetto:** <nome progetto> Fila5 (Laraxot)
-=======
 **Progetto:** FixCity Fila5 (Laraxot)
->>>>>>> laraxot/dev
-=======
-**Progetto:** FixCity Fila5 (Laraxot)
->>>>>>> laraxot/dev
 **Progetto:** Notify Fila5 (Laraxot)
 
 ---
@@ -56,18 +48,8 @@ Un framework open-source (MIT) per lo sviluppo software guidato da AI che fornis
 ### Installazione Interattiva (consigliata la prima volta)
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5
-cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
 npx bmad-method install
 ```
 
@@ -75,18 +57,8 @@ npx bmad-method install
 
 ```bash
 npx bmad-method install \
-<<<<<<< HEAD
-<<<<<<< HEAD
-  --directory /var/www/_bases/<repo progetto> \
-  --directory /var/www/_bases/<repo progetto> \
-=======
   --directory /var/www/_bases/base_fixcity_fila5 \
   --directory /var/www/_bases/base_ptvx_fila5 \
->>>>>>> laraxot/dev
-=======
-  --directory /var/www/_bases/base_fixcity_fila5 \
-  --directory /var/www/_bases/base_ptvx_fila5 \
->>>>>>> laraxot/dev
   --modules bmm \
   --tools windsurf \
   --yes
@@ -96,18 +68,8 @@ npx bmad-method install \
 
 ```bash
 npx bmad-method install \
-<<<<<<< HEAD
-<<<<<<< HEAD
-  --directory /var/www/_bases/<repo progetto> \
-  --directory /var/www/_bases/<repo progetto> \
-=======
   --directory /var/www/_bases/base_fixcity_fila5 \
   --directory /var/www/_bases/base_ptvx_fila5 \
->>>>>>> laraxot/dev
-=======
-  --directory /var/www/_bases/base_fixcity_fila5 \
-  --directory /var/www/_bases/base_ptvx_fila5 \
->>>>>>> laraxot/dev
   --modules bmm \
   --tools windsurf \
   --action update \
@@ -118,18 +80,8 @@ npx bmad-method install \
 
 ```bash
 npx bmad-method install \
-<<<<<<< HEAD
-<<<<<<< HEAD
-  --directory /var/www/_bases/<repo progetto> \
-  --directory /var/www/_bases/<repo progetto> \
-=======
   --directory /var/www/_bases/base_fixcity_fila5 \
   --directory /var/www/_bases/base_ptvx_fila5 \
->>>>>>> laraxot/dev
-=======
-  --directory /var/www/_bases/base_fixcity_fila5 \
-  --directory /var/www/_bases/base_ptvx_fila5 \
->>>>>>> laraxot/dev
   --action quick-update \
   --yes
 ```

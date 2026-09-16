@@ -1,14 +1,6 @@
 # 5. Database & Models
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Database Config (Laravel 13 Standard)
-=======
 ### Database Config (Laravel 12 Standard)
->>>>>>> laraxot/dev
-=======
-### Database Config (Laravel 12 Standard)
->>>>>>> laraxot/dev
 - Base config: `config/database.php`
 - Tenant config: `config/local/{tenant}/database.php`
 - **NEVER add module connections to tenant configs** - TenantServiceProvider creates them automatically!

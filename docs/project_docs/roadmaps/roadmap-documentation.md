@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 📚 ROADMAP DOCUMENTAZIONE - <nome progetto> PLATFORM
-=======
 # 📚 ROADMAP DOCUMENTAZIONE - FIXCITY PLATFORM
->>>>>>> laraxot/dev
-=======
-# 📚 ROADMAP DOCUMENTAZIONE - FIXCITY PLATFORM
->>>>>>> laraxot/dev
 # 📚 ROADMAP DOCUMENTAZIONE - NOTIFY PLATFORM
 
 **Versione**: 1.0  
@@ -15,15 +7,7 @@
 **Priorità**: ALTA  
 
 ## 🎯 Obiettivo
-<<<<<<< HEAD
-<<<<<<< HEAD
-Creare un ecosistema di documentazione completo, accessibile e mantenibile per tutti gli stakeholder del progetto <nome progetto>.
-=======
 Creare un ecosistema di documentazione completo, accessibile e mantenibile per tutti gli stakeholder del progetto FixCity.
->>>>>>> laraxot/dev
-=======
-Creare un ecosistema di documentazione completo, accessibile e mantenibile per tutti gli stakeholder del progetto FixCity.
->>>>>>> laraxot/dev
 Creare un ecosistema di documentazione completo, accessibile e mantenibile per tutti gli stakeholder del progetto Notify.
 
 ## 📊 Stato Attuale
@@ -87,15 +71,7 @@ docs/
 #### Moduli da Documentare
 - [x] **Xot**: Framework base (completato)
 - [x] **User**: Gestione utenti (completato)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] **<nome progetto>**: Core business (completato)
-=======
 - [x] **Fixcity**: Core business (completato)
->>>>>>> laraxot/dev
-=======
-- [x] **Fixcity**: Core business (completato)
->>>>>>> laraxot/dev
 - [x] **App**: Core business (completato)
 - [ ] **UI**: Componenti interfaccia
 - [ ] **Geo**: Gestione geografica
@@ -194,15 +170,7 @@ docs/
 # OpenAPI specification
 openapi: 3.0.0
 info:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  title: <nome progetto> API
-=======
   title: FixCity API
->>>>>>> laraxot/dev
-=======
-  title: FixCity API
->>>>>>> laraxot/dev
   title: Notify API
   version: 1.0.0
   description: API per la gestione segnalazioni urbane
@@ -407,15 +375,7 @@ paths:
 - [ ] **Profiles.md**: Gestione profili
 - [ ] **Roles.md**: Gestione ruoli e permessi
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Modulo <nome progetto> (Core Business)
-=======
 ### Modulo Fixcity (Core Business)
->>>>>>> laraxot/dev
-=======
-### Modulo Fixcity (Core Business)
->>>>>>> laraxot/dev
 ### Modulo App (Core Business)
 - [x] **README.md**: Panoramica sistema ticket
 - [x] **API.md**: API per gestione ticket
@@ -660,18 +620,8 @@ paths:
 **📞 Contatti Documentazione**
 - **Tech Writer**: Documentation Team
 - **Email**: docs@laraxot.com
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Slack**: #<nome progetto>-docs
-- **GitHub**: [<nome progetto> Docs](https://github.com/laraxot/<nome progetto>-docs)
-=======
 - **Slack**: #fixcity-docs
 - **GitHub**: [FixCity Docs](https://github.com/laraxot/fixcity-docs)
->>>>>>> laraxot/dev
-=======
-- **Slack**: #fixcity-docs
-- **GitHub**: [FixCity Docs](https://github.com/laraxot/fixcity-docs)
->>>>>>> laraxot/dev
 - **Slack**: #laraxot-docs
 - **GitHub**: [Notify Docs](https://github.com/laraxot/laraxot-docs)
 

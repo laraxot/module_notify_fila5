@@ -11,15 +11,7 @@ milestone: 'v1.0 - Design Comuni Replication'
 Replicate the Design Comuni homepage achieving 100% HTML and visual parity with the original template.
 
 **Source**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Target**: http://<nome progetto>.local/it/tests/homepage  
-=======
 **Target**: http://fixcity.local/it/tests/homepage  
->>>>>>> laraxot/dev
-=======
-**Target**: http://fixcity.local/it/tests/homepage  
->>>>>>> laraxot/dev
 **Target**: http://ptv.local/it/tests/homepage  
 **Timeline**: Weeks 1-2 (April 1-14, 2026)  
 **Status**: 🟡 IN PROGRESS
@@ -31,15 +23,7 @@ Replicate the Design Comuni homepage achieving 100% HTML and visual parity with 
 ### Primary Goal
 Achieve 100% HTML parity (inside `<body>` tag, excluding scripts) between:
 - ✅ Source: `view-source:https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html`
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ Target: `view-source:http://<nome progetto>.local/it/tests/homepage`
-=======
 - ✅ Target: `view-source:http://fixcity.local/it/tests/homepage`
->>>>>>> laraxot/dev
-=======
-- ✅ Target: `view-source:http://fixcity.local/it/tests/homepage`
->>>>>>> laraxot/dev
 - ✅ Target: `view-source:http://ptv.local/it/tests/homepage`
 
 ### Secondary Goals
@@ -92,32 +76,14 @@ laravel/Themes/Sixteen/
 ```json
 {
   "slug": "tests.homepage",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "title": "Homepage - Comune di <nome progetto>",
-  "meta_description": "Sito ufficiale del Comune di <nome progetto>",
-=======
   "title": "Homepage - Comune di FixCity",
   "meta_description": "Sito ufficiale del Comune di FixCity",
->>>>>>> laraxot/dev
-=======
-  "title": "Homepage - Comune di FixCity",
-  "meta_description": "Sito ufficiale del Comune di FixCity",
->>>>>>> laraxot/dev
   "blocks": [
     {
       "type": "header",
       "view": "pub_theme::components.blocks.header.main",
       "data": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "institution_name": "Comune di <nome progetto>",
-=======
         "institution_name": "Comune di FixCity",
->>>>>>> laraxot/dev
-=======
-        "institution_name": "Comune di FixCity",
->>>>>>> laraxot/dev
         "tagline": "Un comune da vivere",
         "logo_url": "/themes/sixteen/images/logo.svg"
       }
@@ -126,15 +92,7 @@ laravel/Themes/Sixteen/
       "type": "hero",
       "view": "pub_theme::components.blocks.hero.default",
       "data": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "title": "Benvenuto nel Comune di <nome progetto>",
-=======
         "title": "Benvenuto nel Comune di FixCity",
->>>>>>> laraxot/dev
-=======
-        "title": "Benvenuto nel Comune di FixCity",
->>>>>>> laraxot/dev
         "subtitle": "Scopri i servizi, le novità e le opportunità",
         "background_image": "/images/hero-bg.jpg"
       }

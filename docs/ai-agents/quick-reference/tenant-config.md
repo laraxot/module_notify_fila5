@@ -5,15 +5,7 @@
 ```php
 config('app.url');
 app(\Modules\Tenant\Actions\GetTenantNameAction::class)->execute();
-<<<<<<< HEAD
-<<<<<<< HEAD
-config('it.<nome progetto>.manager.morph_map');
-=======
 config('it.quaeris.manager.morph_map');
->>>>>>> laraxot/dev
-=======
-config('it.quaeris.manager.morph_map');
->>>>>>> laraxot/dev
 \Illuminate\Database\Eloquent\Relations\Relation::morphMap();
 ```
 

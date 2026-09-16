@@ -86,15 +86,7 @@ Creare componenti compatibili Bootstrap Italia.
 ### Fase 3: Testing
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-curl http://<nome progetto>.local/it/tests/homepage | grep -o '<section[^>]*>' | head -10
-=======
 curl http://fixcity.local/it/tests/homepage | grep -o '<section[^>]*>' | head -10
->>>>>>> laraxot/dev
-=======
-curl http://fixcity.local/it/tests/homepage | grep -o '<section[^>]*>' | head -10
->>>>>>> laraxot/dev
 curl http://ptv.local/it/tests/homepage | grep -o '<section[^>]*>' | head -10
 ```
 

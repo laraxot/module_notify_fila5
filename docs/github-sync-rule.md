@@ -5,18 +5,8 @@ tags: [github, sync, rule]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "github-sync-rule 🔄 sync .github with bashscripts/ai/.github"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -67,18 +57,8 @@ related:
 
 ```bash
 # After updating .github/workflows/
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5
-cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
 
 # Create directory if needed
 mkdir -p bashscripts/ai/.github/workflows

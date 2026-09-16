@@ -6,15 +6,7 @@ labels: ['design-comuni', 'architecture', 'decision-record']
 
 # Design Comuni Italia - Architectural Decisions
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This discussion documents the key architectural decisions for replicating the 38 static pages from [Design Comuni Italia](https://italia.github.io/design-comuni-pagine-statiche/) in the <nome progetto> project.
-=======
 This discussion documents the key architectural decisions for replicating the 38 static pages from [Design Comuni Italia](https://italia.github.io/design-comuni-pagine-statiche/) in the FixCity project.
->>>>>>> laraxot/dev
-=======
-This discussion documents the key architectural decisions for replicating the 38 static pages from [Design Comuni Italia](https://italia.github.io/design-comuni-pagine-statiche/) in the FixCity project.
->>>>>>> laraxot/dev
 
 ---
 
@@ -63,15 +55,7 @@ Replicate **EXACTLY** 38 static pages with:
 
 **Decision**: Content stored in JSON files, structure in Blade.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Files**: `laravel/config/local/<nome progetto>/database/content/pages/tests.[slug].json`
-=======
 **Files**: `laravel/config/local/fixcity/database/content/pages/tests.[slug].json`
->>>>>>> laraxot/dev
-=======
-**Files**: `laravel/config/local/fixcity/database/content/pages/tests.[slug].json`
->>>>>>> laraxot/dev
 **Files**: `laravel/config/local/ptv/database/content/pages/tests.[slug].json`
 
 **Rationale**:
@@ -316,15 +300,7 @@ npm run copy
   <footer class="it-footer">...</footer>
 </body>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<!-- <nome progetto>: MUST BE IDENTICAL -->
-=======
 <!-- FIXCITY: MUST BE IDENTICAL -->
->>>>>>> laraxot/dev
-=======
-<!-- FIXCITY: MUST BE IDENTICAL -->
->>>>>>> laraxot/dev
 <body>
   <div class="skiplink">...</div>
   <header class="it-header-wrapper">...</header>

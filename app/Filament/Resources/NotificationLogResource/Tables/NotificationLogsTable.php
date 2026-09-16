@@ -6,46 +6,22 @@ namespace Modules\Notify\Filament\Resources\NotificationLogResource\Tables;
 
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Modules\Notify\Models\NotificationLog;
->>>>>>> laraxot/dev
-=======
-use Modules\Notify\Models\NotificationLog;
->>>>>>> laraxot/dev
 use Modules\Xot\Filament\Resources\Tables\XotBaseResourceTable;
 
 class NotificationLogsTable extends XotBaseResourceTable
 {
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
      * @var class-string<NotificationLog>
      */
     protected static string $model = NotificationLog::class;
 
     /**
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
      * @return array<string, Column>
      */
     public function getTableColumns(): array
     {
         return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'id' => TextColumn::make('id')->sortable(),
-            'name' => TextColumn::make('name')->searchable(),
-            'created_at' => TextColumn::make('created_at')->dateTime()->sortable()];
-=======
-=======
->>>>>>> laraxot/dev
             'channel' => TextColumn::make('channel')->searchable()->sortable()->badge(),
             'status' => TextColumn::make('status')->searchable()->sortable()->badge(),
             'notifiable_type' => TextColumn::make('notifiable_type')->searchable()->sortable()->toggleable(isToggledHiddenByDefault: true),
@@ -54,9 +30,5 @@ class NotificationLogsTable extends XotBaseResourceTable
             'sent_at' => TextColumn::make('sent_at')->dateTime()->sortable(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
         ];
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     }
 }

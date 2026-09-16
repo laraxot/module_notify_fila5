@@ -23,23 +23,10 @@ related:
 
 1. **Open Obsidian**
 2. Click **"Open folder as vault"**
-<<<<<<< HEAD
-<<<<<<< HEAD
-3. Select: `/var/www/_bases/<repo progetto>/docs`
-4. Vault name: `<repo progetto>-docs`
-3. Select: `/var/www/_bases/<repo progetto>/docs`
-4. Vault name: `<repo progetto>-docs`
-=======
-=======
->>>>>>> laraxot/dev
 3. Select: `/var/www/_bases/base_fixcity_fila5/docs`
 4. Vault name: `base_fixcity_fila5-docs`
 3. Select: `/var/www/_bases/base_ptvx_fila5/docs`
 4. Vault name: `base_ptvx_fila5-docs`
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 5. Click **"Open"**
 
 ## Configuration
@@ -93,18 +80,8 @@ Install browser extension to capture web articles:
 2. **Firefox**: [Obsidian Web Clipper](https://addons.mozilla.org/en-US/firefox/addon/obsidian-web-clipper/)
 
 **Configuration**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Clip destination: `/var/www/_bases/<repo progetto>/docs/raw/articles/`
-- Clip destination: `/var/www/_bases/<repo progetto>/docs/raw/articles/`
-=======
 - Clip destination: `/var/www/_bases/base_fixcity_fila5/docs/raw/articles/`
 - Clip destination: `/var/www/_bases/base_ptvx_fila5/docs/raw/articles/`
->>>>>>> laraxot/dev
-=======
-- Clip destination: `/var/www/_bases/base_fixcity_fila5/docs/raw/articles/`
-- Clip destination: `/var/www/_bases/base_ptvx_fila5/docs/raw/articles/`
->>>>>>> laraxot/dev
 - Format: Markdown with YAML frontmatter
 - Tags: Auto-extract from article metadata
 

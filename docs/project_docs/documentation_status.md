@@ -8,15 +8,7 @@
 
 ## 🎯 EXECUTIVE SUMMARY
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Stato della documentazione del progetto <nome progetto> aggiornato a Ottobre 2025. La documentazione è in fase di
-=======
 Stato della documentazione del progetto FixCity aggiornato a Ottobre 2025. La documentazione è in fase di
->>>>>>> laraxot/dev
-=======
-Stato della documentazione del progetto FixCity aggiornato a Ottobre 2025. La documentazione è in fase di
->>>>>>> laraxot/dev
 Stato della documentazione del progetto Notify aggiornato a Ottobre 2025. La documentazione è in fase di
 consolidamento seguendo le roadmap definite. Focus attuale: completamento documentazione moduli e temi.
 
@@ -41,15 +33,7 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### ✅ <nome progetto> (Core Business) - 85% COMPLETATO
-=======
 #### ✅ Fixcity (Core Business) - 85% COMPLETATO
->>>>>>> laraxot/dev
-=======
-#### ✅ Fixcity (Core Business) - 85% COMPLETATO
->>>>>>> laraxot/dev
 #### ✅ App (Core Business) - 85% COMPLETATO
 **Documentazione Presente**:
 - [x] README.md completo
@@ -59,15 +43,7 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 - [x] CODE_QUALITY_TOOLS.md
 - [x] Performance issues documentation
 - [x] PHPStan fixes report
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Filament 5.x upgrade report
-=======
 - [x] Filament 4.x upgrade report
->>>>>>> laraxot/dev
-=======
-- [x] Filament 4.x upgrade report
->>>>>>> laraxot/dev
 
 **Da Completare**:
 - [ ] API documentation completa
@@ -309,15 +285,7 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 - [x] Accessibility documentation
 - [x] Component reorganization
 - [x] Translation system
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Filament 5.x integration
-=======
 - [x] Filament 4.x integration
->>>>>>> laraxot/dev
-=======
-- [x] Filament 4.x integration
->>>>>>> laraxot/dev
 - [x] Build system guide
 - [x] Vite configuration
 
@@ -373,15 +341,7 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 ## 🎯 PRIORITÀ IMMEDIATE (Next 30 Days)
 
 ### Week 1-2: Moduli Core
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] Completare API documentation <nome progetto>
-=======
 - [ ] Completare API documentation Fixcity
->>>>>>> laraxot/dev
-=======
-- [ ] Completare API documentation Fixcity
->>>>>>> laraxot/dev
 - [ ] Completare API documentation App
 - [ ] Completare User guide 2FA/SSO
 - [ ] Aggiornare Xot migration guide
@@ -438,15 +398,7 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 - [Roadmap Documentation](./roadmaps/roadmap-documentation.md)
 
 ### Documentazione Moduli
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [<nome progetto> Module](../laravel/Modules/<nome progetto>/docs/)
-=======
 - [Fixcity Module](../laravel/Modules/Fixcity/docs/)
->>>>>>> laraxot/dev
-=======
-- [Fixcity Module](../laravel/Modules/Fixcity/docs/)
->>>>>>> laraxot/dev
 - [App Module](../laravel/Modules/App/docs/)
 - [User Module](../laravel/Modules/User/docs/)
 - [Xot Module](../laravel/Modules/Xot/docs/)

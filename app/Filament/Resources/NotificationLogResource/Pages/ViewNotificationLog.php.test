@@ -11,22 +11,12 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 
 class ViewNotificationLog extends XotBaseViewRecord
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected static string $resource = NotificationLogResource::class;
-=======
-=======
->>>>>>> laraxot/dev
     protected static string $resource = ViewNotificationLog.php.test::class;
 
     protected function getInfolistSchema(): array
     {
         return [];
     }
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     
     /**
      * {@inheritdoc}

@@ -24,13 +24,5 @@
 ```bash
 cd laravel
 php artisan optimize:clear
-<<<<<<< HEAD
-<<<<<<< HEAD
-vendor/bin/phpstan analyse Modules/Xot Modules/<nome progetto>
-=======
 vendor/bin/phpstan analyse Modules/Xot Modules/Quaeris
->>>>>>> laraxot/dev
-=======
-vendor/bin/phpstan analyse Modules/Xot Modules/Quaeris
->>>>>>> laraxot/dev
 ```

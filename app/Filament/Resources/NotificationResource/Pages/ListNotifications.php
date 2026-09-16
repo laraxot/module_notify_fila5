@@ -51,14 +51,6 @@ class ListNotifications extends XotBaseListRecords
                     'error' => 'Error'])
                 ->multiple()];
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    #[Override]
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     public function getTableFilters(): array
     {
         return self::notificationTableFilters();

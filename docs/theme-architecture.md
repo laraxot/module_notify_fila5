@@ -5,18 +5,8 @@ tags: [theme, architecture]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme-architecture 🎨 theme architecture - "il tema è un vestito""
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -92,15 +82,7 @@ class AppServiceProvider extends ServiceProvider
 
 ```json
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "name": "<nome progetto>/theme-sixteen",
-=======
     "name": "fixcity/theme-sixteen",
->>>>>>> laraxot/dev
-=======
-    "name": "fixcity/theme-sixteen",
->>>>>>> laraxot/dev
     "name": "ptv/theme-sixteen",
     "extra": {
         "laravel": {
@@ -281,15 +263,7 @@ class AppServiceProvider extends ServiceProvider
 ### 2. Theme composer.json Complete
 ```json
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "name": "<nome progetto>/theme-sixteen",
-=======
     "name": "fixcity/theme-sixteen",
->>>>>>> laraxot/dev
-=======
-    "name": "fixcity/theme-sixteen",
->>>>>>> laraxot/dev
     "name": "ptv/theme-sixteen",
     "extra": {
         "laravel": {

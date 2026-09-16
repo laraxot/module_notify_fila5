@@ -8,15 +8,7 @@ use Illuminate\Notifications\Notification;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Actions\SMS\SendSmsFactorSMSAction;
 use Modules\Notify\Contracts\CanThemeNotificationContract;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Notify\Contracts\SMS\SmsActionContract;
-=======
 use Modules\Notify\Models\Contracts\SmsActionContract;
->>>>>>> laraxot/dev
-=======
-use Modules\Notify\Models\Contracts\SmsActionContract;
->>>>>>> laraxot/dev
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Notifications\Channels\NetfunChannel;
 use Modules\Notify\Notifications\Channels\TelegramChannel;

@@ -88,18 +88,8 @@ docs/
 <claude-mem-context>
 # Memory Context
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# [<repo progetto>] recent context, 2026-04-15 10:19pm GMT+2
-# [<repo progetto>] recent context, 2026-04-15 10:19pm GMT+2
-=======
 # [base_fixcity_fila5] recent context, 2026-04-15 10:19pm GMT+2
 # [base_ptvx_fila5] recent context, 2026-04-15 10:19pm GMT+2
->>>>>>> laraxot/dev
-=======
-# [base_fixcity_fila5] recent context, 2026-04-15 10:19pm GMT+2
-# [base_ptvx_fila5] recent context, 2026-04-15 10:19pm GMT+2
->>>>>>> laraxot/dev
 
 No previous sessions found.
 </claude-mem-context>

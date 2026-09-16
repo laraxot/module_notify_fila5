@@ -8,15 +8,7 @@
 
 ## 🎯 Purpose
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This document establishes the governance framework for all documentation in the <nome progetto> platform, ensuring consistency, quality, and maintainability across all modules and themes.
-=======
 This document establishes the governance framework for all documentation in the FixCity platform, ensuring consistency, quality, and maintainability across all modules and themes.
->>>>>>> laraxot/dev
-=======
-This document establishes the governance framework for all documentation in the FixCity platform, ensuring consistency, quality, and maintainability across all modules and themes.
->>>>>>> laraxot/dev
 
 ---
 

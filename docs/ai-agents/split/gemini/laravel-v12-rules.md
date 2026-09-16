@@ -1,33 +1,13 @@
 === laravel/v12 rules ===
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Laravel 13
-=======
 # Laravel 12
->>>>>>> laraxot/dev
-=======
-# Laravel 12
->>>>>>> laraxot/dev
 
 - CRITICAL: ALWAYS use `search-docs` tool for version-specific Laravel documentation and updated code examples.
 - Since Laravel 11, Laravel has a new streamlined file structure which this project uses.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Laravel 13 Structure
-
-- In Laravel 13, middleware are no longer registered in `app/Http/Kernel.php`.
-=======
 ## Laravel 12 Structure
 
 - In Laravel 12, middleware are no longer registered in `app/Http/Kernel.php`.
->>>>>>> laraxot/dev
-=======
-## Laravel 12 Structure
-
-- In Laravel 12, middleware are no longer registered in `app/Http/Kernel.php`.
->>>>>>> laraxot/dev
 - Middleware are configured declaratively in `bootstrap/app.php` using `Application::configure()->withMiddleware()`.
 - `bootstrap/app.php` is the file to register middleware, exceptions, and routing files.
 - `bootstrap/providers.php` contains application specific service providers.
@@ -37,15 +17,7 @@
 ## Database
 
 - When modifying a column, the migration must include all of the attributes that were previously defined on the column. Otherwise, they will be dropped and lost.
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Laravel 13 allows limiting eagerly loaded records natively, without external packages: `$query->latest()->limit(10);`.
-=======
 - Laravel 12 allows limiting eagerly loaded records natively, without external packages: `$query->latest()->limit(10);`.
->>>>>>> laraxot/dev
-=======
-- Laravel 12 allows limiting eagerly loaded records natively, without external packages: `$query->latest()->limit(10);`.
->>>>>>> laraxot/dev
 
 ### Models
 

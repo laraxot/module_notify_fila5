@@ -19,15 +19,7 @@ use Modules\Notify\Channels\NetfunChannel;
 use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Channels\TelegramChannel;
 use Modules\Notify\Channels\WhatsAppChannel;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Notify\Contracts\SMS\SmsActionContract;
-=======
 use Modules\Notify\Models\Contracts\SmsActionContract;
->>>>>>> laraxot/dev
-=======
-use Modules\Notify\Models\Contracts\SmsActionContract;
->>>>>>> laraxot/dev
 use Modules\Notify\Contracts\TelegramProviderActionInterface;
 use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Datas\NotificationData;

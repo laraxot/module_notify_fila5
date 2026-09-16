@@ -37,15 +37,7 @@
 
 ```bash
 # After updating .github/workflows/
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
 
 # Create directory if needed
 mkdir -p bashscripts/ai/.github/workflows

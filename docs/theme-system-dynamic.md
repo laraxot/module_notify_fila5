@@ -5,18 +5,8 @@ tags: [theme, system, dynamic]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme-system-dynamic 🎨 theme system - dynamic theme registration"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -45,15 +35,7 @@ The active theme is configured in:
 config/{environment}/{domain}/xra.php
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Example** (`config/localhost/<nome progetto>/xra.php`):
-=======
 **Example** (`config/localhost/fixcity/xra.php`):
->>>>>>> laraxot/dev
-=======
-**Example** (`config/localhost/fixcity/xra.php`):
->>>>>>> laraxot/dev
 **Example** (`config/localhost/ptv/xra.php`):
 ```php
 <?php
@@ -159,15 +141,7 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 
 1. Edit config file:
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-// config/localhost/<nome progetto>/xra.php
-=======
 // config/localhost/fixcity/xra.php
->>>>>>> laraxot/dev
-=======
-// config/localhost/fixcity/xra.php
->>>>>>> laraxot/dev
 // config/localhost/ptv/xra.php
 return [
     'pub_theme' => 'TwentyOne',  // Change theme
@@ -191,15 +165,7 @@ THEME_REGISTER_PUB=true
 
 2. Update config to read env:
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-// config/localhost/<nome progetto>/xra.php
-=======
 // config/localhost/fixcity/xra.php
->>>>>>> laraxot/dev
-=======
-// config/localhost/fixcity/xra.php
->>>>>>> laraxot/dev
 // config/localhost/ptv/xra.php
 return [
     'pub_theme' => env('THEME_PUB', 'Sixteen'),
@@ -254,15 +220,7 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 
 ### Step 3: Register Theme
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-// config/localhost/<nome progetto>/xra.php
-=======
 // config/localhost/fixcity/xra.php
->>>>>>> laraxot/dev
-=======
-// config/localhost/fixcity/xra.php
->>>>>>> laraxot/dev
 // config/localhost/ptv/xra.php
 return [
     'pub_theme' => 'MyTheme',

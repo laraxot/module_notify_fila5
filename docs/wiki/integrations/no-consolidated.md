@@ -933,15 +933,7 @@ python scripts/run.py ask_question.py \
 ```bash
 # Research Laravel patterns
 python scripts/run.py ask_question.py \
-<<<<<<< HEAD
-<<<<<<< HEAD
-  --question "What are Laravel 13 best practices for service architecture?"
-=======
   --question "What are Laravel 12 best practices for service architecture?"
->>>>>>> laraxot/dev
-=======
-  --question "What are Laravel 12 best practices for service architecture?"
->>>>>>> laraxot/dev
 
 # Research Filament v5
 python scripts/run.py ask_question.py \
@@ -3195,15 +3187,7 @@ Per implementazioni specifiche, vedere i documenti:
 
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di App.
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
-=======
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di Quaeris.
->>>>>>> laraxot/dev
-=======
-Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di Quaeris.
->>>>>>> laraxot/dev
 
 ## Principi Architetturali per Tutti i Provider
 

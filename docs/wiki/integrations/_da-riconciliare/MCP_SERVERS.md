@@ -40,15 +40,7 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 ### laravel-boost
 - **Type**: Laravel-specific
 - **Command**: `php artisan boost:mcp`
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Use**: Laravel 13, Filament, Livewire documentation and best practices
-=======
 - **Use**: Laravel 12, Filament, Livewire documentation and best practices
->>>>>>> laraxot/dev
-=======
-- **Use**: Laravel 12, Filament, Livewire documentation and best practices
->>>>>>> laraxot/dev
 - **Module Docs**: [Xot MCP Guide](../Modules/Xot/docs/MCP_SERVERS.md) | [Theme MCP Guide](../Themes/Sixteen/docs/MCP_SERVERS.md)
 
 ### fetch

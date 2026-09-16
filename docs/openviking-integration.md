@@ -2,15 +2,7 @@
 
 ## Overview
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This guide documents the integration of **OpenViking** (globally installed) with **BMAD**, **GSD**, and **Ralph Loop** for the <nome progetto> platform.
-=======
 This guide documents the integration of **OpenViking** (globally installed) with **BMAD**, **GSD**, and **Ralph Loop** for the FixCity platform.
->>>>>>> laraxot/dev
-=======
-This guide documents the integration of **OpenViking** (globally installed) with **BMAD**, **GSD**, and **Ralph Loop** for the FixCity platform.
->>>>>>> laraxot/dev
 
 ## Installation Status
 
@@ -32,18 +24,8 @@ OpenViking is an AI-powered context management and documentation system that hel
 ### 1. Initialize OpenViking Context
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5
-cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
 openviking init
 ```
 
@@ -109,25 +91,11 @@ Use `viking://` URIs in BMAD documentation:
 
 ```bash
 # 1. Start GSD project
-<<<<<<< HEAD
-<<<<<<< HEAD
-/gsd-new-project <nome progetto>
-
-# 2. Store project context
-openviking add --type=project \
-  --title="<nome progetto> Platform" \
-=======
-=======
->>>>>>> laraxot/dev
 /gsd-new-project FixCity
 
 # 2. Store project context
 openviking add --type=project \
   --title="FixCity Platform" \
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
   --file="PROJECT.md"
 
 # 3. During phase execution
@@ -169,15 +137,7 @@ mkdir -p .ralph
 # Create PRD for Ralph
 cat > .ralph/prd.json << 'EOF'
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "project": "<nome progetto>",
-=======
   "project": "FixCity",
->>>>>>> laraxot/dev
-=======
-  "project": "FixCity",
->>>>>>> laraxot/dev
   "goal": "Implement feature X",
   "stories": [
     {
@@ -298,15 +258,7 @@ openviking add --type=retrospective --file="_bmad/bmm/5-retro/retro.md"
 openviking init
 
 # Configure project
-<<<<<<< HEAD
-<<<<<<< HEAD
-openviking config set project.name "<nome progetto>"
-=======
 openviking config set project.name "FixCity"
->>>>>>> laraxot/dev
-=======
-openviking config set project.name "FixCity"
->>>>>>> laraxot/dev
 openviking config set project.version "1.0.0"
 ```
 

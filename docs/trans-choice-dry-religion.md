@@ -330,15 +330,7 @@ Amen.
 ## Riferimenti
 
 - [Laravel Localization - Pluralization](https://laravel.com/docs/localization#pluralization)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ticket.php (corretto)](../../Modules/<nome progetto>/lang/it/ticket.php)
-=======
 - [ticket.php (corretto)](../../Modules/Fixcity/lang/it/ticket.php)
->>>>>>> laraxot/dev
-=======
-- [ticket.php (corretto)](../../Modules/Fixcity/lang/it/ticket.php)
->>>>>>> laraxot/dev
 - [Translation Namespace Religion](../../docs/translation-namespace-religion.md)
 - [No Hardcoded Language Religion](../../docs/no-hardcoded-language-religion.md)
 
