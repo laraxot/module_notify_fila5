@@ -22,6 +22,10 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Notify\Notifications\SmsNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 /**
@@ -144,7 +148,10 @@ class SendSmsPage extends XotBasePage
                 ->color('primary')
                 ->action('sendSMS')];
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

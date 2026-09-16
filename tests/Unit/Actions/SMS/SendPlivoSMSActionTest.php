@@ -5,8 +5,13 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Actions\SMS;
 
 use Modules\Notify\Actions\SMS\SendPlivoSMSAction;
+<<<<<<< HEAD
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Models\Contracts\SmsActionContract;
+=======
+use Modules\Notify\Models\Contracts\SmsActionContract;
+use Modules\Notify\Datas\SmsData;
+>>>>>>> laraxot/dev
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 use ReflectionNamedType;

@@ -18,6 +18,10 @@ use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\FirebaseNotificationData;
 use NotificationChannels\Fcm\FcmChannel;
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> laraxot/dev
 
 /**
  * Class for sending notifications via Firebase Cloud Messaging to Android devices.

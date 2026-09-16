@@ -11,11 +11,18 @@ use Illuminate\Support\Facades\Blade;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> laraxot/dev
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
     public function panel(Panel $panel): Panel
     {
         $panel = parent::panel($panel);
