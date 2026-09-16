@@ -21,10 +21,7 @@ use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\SmsNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-<<<<<<< HEAD
-=======
 use Override;
->>>>>>> laraxot/dev
 
 /**
  * @property Schema $smsForm
@@ -154,10 +151,6 @@ class SendNetfunSmsPage extends XotBasePage
         return [
             Action::make('sendSMS')->label(__('notify::sms.actions.send'))->submit('sendSMS')];
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

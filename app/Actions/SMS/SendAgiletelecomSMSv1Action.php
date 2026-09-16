@@ -5,16 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 use GuzzleHttp\Client;
-<<<<<<< HEAD
-use Modules\Notify\Datas\SMS\AgiletelecomData;
-use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Models\Contracts\SmsActionContract;
-=======
 use Modules\Notify\Models\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 use Override;
->>>>>>> laraxot/dev
 use Spatie\QueueableAction\QueueableAction;
 
 /**
