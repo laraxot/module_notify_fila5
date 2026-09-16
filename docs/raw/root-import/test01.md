@@ -1,0 +1,25 @@
+---
+title: "Test01"
+type: concept
+tags: [test01]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "test01 test01"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
+discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
+related:
+  - "./agents.md"
+  - "./changelog.md"
+  - "./claude.md"
+  - "./design-conversion-roadmap-1.md"
+  - "./design-conversion-roadmap.md"
+  - "./files-created-session-007-1.md"
+  - "./files-created-session-007.md"
+  - "./files-created-session-replikate.md"
+---
+
