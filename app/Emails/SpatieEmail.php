@@ -55,6 +55,14 @@ class SpatieEmail extends TemplateMailable
                 'slug' => $this->slug],
             [
                 'subject' => 'Benvenuto, {{ first_name }}',
+                // Story quaeris-send-invite-migrate-to-record-notification.md, AC9
+                // (vincolo noto dal 2026-09-08, riprodotto dal vivo il 2026-09-15):
+                // senza questo campo il template creato qui e' inservibile al primo
+                // invio reale — getHtmlLayout() fa Assert::string() su un valore che
+                // qui restava NULL, e lancia. 'base.html' e' lo stesso default usato
+                // da MigrateNotifyThemesToMailTemplateCommand ed e' il valore che
+                // hanno gia' 39 template su 42 in produzione.
+                'html_layout_path' => 'base.html',
                 'html_template' => '<p>Gentile {{ first_name }} {{ last_name }},</p><p>La tua registrazione  è in attesa di approvazione. Ti contatteremo presto.</p>['.
                         $this->slug.
                         ']',
