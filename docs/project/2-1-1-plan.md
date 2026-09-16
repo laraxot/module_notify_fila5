@@ -5,8 +5,8 @@ tags: [plan]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "2-1-1-plan phase 2 - epic 2.1 - task 1: create /my-tickets folio page"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2-1-context.md"
   - "./agents.md"

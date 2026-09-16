@@ -5,8 +5,8 @@ tags: [database, directory, naming, fix]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "database-directory-naming-fix database directory naming convention fix"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./critical-bug-sync-script-deleted.md"
   - "./database-naming-fix-summary.md"
@@ -135,7 +135,7 @@ php artisan test
 
 ## Related
 
-- **GitHub Issue**: https://github.com/laraxot/<repo progetto>/issues/4
+- **GitHub Issue**: https://github.com/laraxot/base_fixcity_fila5/issues/4
 - **GitHub Issue**: https://github.com/laraxot/platform/issues/4
 - **Laravel Directory Structure**: https://laravel.com/docs/structure
 

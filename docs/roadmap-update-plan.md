@@ -5,8 +5,8 @@ tags: [roadmap, update, plan]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "roadmap-update-plan roadmap update plan - all modules"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -35,7 +35,7 @@ Update/create/improve `docs/roadmap.md` for all 18 modules by:
 1. ✅ Xot (Core Foundation)
 2. ⏳ User (Authentication & Management)
 3. ⏳ AI (Artificial Intelligence)
-4. ⏳ <nome progetto> (Main Application)
+4. ⏳ Fixcity (Main Application)
 5. ⏳ Cms (Content Management)
 6. ⏳ Media (Media Files)
 7. ⏳ Notify (Notifications)
@@ -75,7 +75,7 @@ Priority order based on module importance:
 1. Xot - Core foundation
 2. User - Authentication
 3. AI - AI integration
-4. <nome progetto> - Main app
+4. Fixcity - Main app
 5. Tenant - Multi-tenancy
 6. Cms - Content management
 7. Media - Media handling

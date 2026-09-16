@@ -1,4 +1,4 @@
-# 🧘 Zen of <nome progetto> - Complete Philosophy
+# 🧘 Zen of FixCity - Complete Philosophy
 
 **Version**: 2.0  
 **Created**: 2026-03-30  
@@ -321,7 +321,7 @@ fi
 
 ```bash
 openviking add-memory \
-  --title="Zen of <nome progetto>" \
+  --title="Zen of FixCity" \
   --content="5 pillars: Git Forward-Only, DRY+KISS, Universal Blocks, Folio+Volt, Multi-Agent"
 ```
 

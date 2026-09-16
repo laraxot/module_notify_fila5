@@ -27,7 +27,7 @@ related:
 
 ## 📋 Overview
 
-This document defines the **mandatory rules** for Apache VirtualHost configuration in the <nome progetto> platform.
+This document defines the **mandatory rules** for Apache VirtualHost configuration in the FixCity platform.
 This document defines the **mandatory rules** for Apache VirtualHost configuration in the Notify platform.
 
 ---
@@ -40,10 +40,10 @@ This document defines the **mandatory rules** for Apache VirtualHost configurati
 
 ```apache
 # ✅ CORRECT
-DocumentRoot /var/www/_bases/<repo progetto>/public_html
+DocumentRoot /var/www/_bases/base_fixcity_fila5/public_html
 
 # ❌ WRONG - Never point to laravel/ directly
-DocumentRoot /var/www/_bases/<repo progetto>/laravel
+DocumentRoot /var/www/_bases/base_fixcity_fila5/laravel
 ```
 
 **Rationale**: 
@@ -59,17 +59,17 @@ DocumentRoot /var/www/_bases/<repo progetto>/laravel
 
 ```
 ✅ CORRECT:
-laravel/config/vhost/<nome progetto>.local.conf
+laravel/config/vhost/fixcity.local.conf
 
 ❌ WRONG:
-- /etc/apache2/sites-available/<nome progetto>.local.conf (not versioned)
+- /etc/apache2/sites-available/fixcity.local.conf (not versioned)
 - docs/vhost.conf (wrong location)
-- config/<nome progetto>.local.conf (wrong directory)
+- config/fixcity.local.conf (wrong directory)
 
 ❌ WRONG:
-- /etc/apache2/sites-available/<nome progetto>.local.conf (not versioned)
+- /etc/apache2/sites-available/fixcity.local.conf (not versioned)
 - docs/vhost.conf (wrong location)
-- config/<nome progetto>.local.conf (wrong directory)
+- config/fixcity.local.conf (wrong directory)
 ```
 
 **Rationale**:
@@ -107,8 +107,8 @@ ServerName localhost/laraxot
 
 ```apache
 # ✅ CORRECT
-ErrorLog ${APACHE_LOG_DIR}/<nome progetto>_local_error.log
-CustomLog ${APACHE_LOG_DIR}/<nome progetto>_local_access.log combined
+ErrorLog ${APACHE_LOG_DIR}/fixcity_local_error.log
+CustomLog ${APACHE_LOG_DIR}/fixcity_local_access.log combined
 ErrorLog ${APACHE_LOG_DIR}/app_local_error.log
 CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
 
@@ -129,8 +129,8 @@ CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
 
 ```apache
 # ✅ CORRECT
-<Directory /var/www/_bases/<repo progetto>/public_html>
-<Directory /var/www/_bases/<repo progetto>/public_html>
+<Directory /var/www/_bases/base_fixcity_fila5/public_html>
+<Directory /var/www/_bases/base_ptvx_fila5/public_html>
     Options -Indexes +FollowSymLinks +MultiViews
     AllowOverride All
     Require all granted
@@ -158,13 +158,13 @@ CustomLog ${APACHE_LOG_DIR}/app_local_access.log combined
 
 ```
 ✅ CORRECT:
-- <nome progetto>.local.conf
+- fixcity.local.conf
 - laraxot.local.conf
 - staging.local.conf
 
 ❌ WRONG:
 - vhost.conf (too generic)
-- <nome progetto>.conf (missing .local)
+- fixcity.conf (missing .local)
 - laraxot.conf (missing .local)
 - 000-default.conf (Apache default)
 ```
@@ -220,9 +220,9 @@ apache2ctl -M | grep rewrite
 
 ```bash
 # ✅ CORRECT WORKFLOW
-1. Edit: laravel/config/vhost/<nome progetto>.local.conf
-2. Copy: sudo cp laravel/config/vhost/<nome progetto>.local.conf /etc/apache2/sites-available/
-3. Enable: sudo a2ensite <nome progetto>.local.conf
+1. Edit: laravel/config/vhost/fixcity.local.conf
+2. Copy: sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/
+3. Enable: sudo a2ensite fixcity.local.conf
 1. Edit: laravel/config/vhost/laraxot.local.conf
 2. Copy: sudo cp laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/
 3. Enable: sudo a2ensite laraxot.local.conf
@@ -257,8 +257,8 @@ php artisan migrate:rollback
 
 ```apache
 # ❌ CRITICAL SECURITY ISSUE
-DocumentRoot /var/www/_bases/<repo progetto>/laravel
-DocumentRoot /var/www/_bases/<repo progetto>/laravel
+DocumentRoot /var/www/_bases/base_fixcity_fila5/laravel
+DocumentRoot /var/www/_bases/base_ptvx_fila5/laravel
 
 # This exposes:
 # - .env file
@@ -319,8 +319,8 @@ AllowOverride None
 ```env
 # ✅ DEVELOPMENT
 DB_CONNECTION=sqlite
-DB_DATABASE=/var/www/_bases/<repo progetto>/laravel/database/<nome progetto>_data.sqlite
-DB_DATABASE=/var/www/_bases/<repo progetto>/laravel/database/notify_data.sqlite
+DB_DATABASE=/var/www/_bases/base_fixcity_fila5/laravel/database/fixcity_data.sqlite
+DB_DATABASE=/var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
 
 # ❌ WRONG
 DB_HOST=production-db.example.com
@@ -346,9 +346,9 @@ Before committing vhost changes:
 - [ ] `apache2ctl configtest` passes
 - [ ] Site enabled: `a2ensite`
 - [ ] Apache reloaded: `systemctl reload apache2`
-- [ ] Domain resolves: `ping <nome progetto>.local`
-- [ ] Application accessible: `curl -I http://<nome progetto>.local`
-- [ ] Logs created: `ls -la /var/log/apache2/<nome progetto>_*`
+- [ ] Domain resolves: `ping fixcity.local`
+- [ ] Application accessible: `curl -I http://fixcity.local`
+- [ ] Logs created: `ls -la /var/log/apache2/fixcity_*`
 - [ ] Domain resolves: `ping laraxot.local`
 - [ ] Application accessible: `curl -I http://laraxot.local`
 - [ ] Logs created: `ls -la /var/log/apache2/app_*`

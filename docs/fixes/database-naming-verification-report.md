@@ -40,7 +40,7 @@ Tutti i 18 moduli hanno le directory corrette:
 | Blog | ✅ | ✅ | ✅ | ✅ Pass |
 | Cms | ✅ | ✅ | ✅ | ✅ Pass |
 | Comment | ✅ | ✅ | ✅ | ✅ Pass |
-| <nome progetto> | ✅ | ✅ | ✅ | ✅ Pass |
+| Fixcity | ✅ | ✅ | ✅ | ✅ Pass |
 | App | ✅ | ✅ | ✅ | ✅ Pass |
 | Gdpr | ✅ | ✅ | ✅ | ✅ Pass |
 | Geo | ✅ | ✅ | ✅ | ✅ Pass |
@@ -226,7 +226,7 @@ find docs/ laravel/Modules/*/docs/ -type f -name "*.md" -exec sed -i \
 - [Database Naming Convention](conventions/database-naming.md)
 - [AGENTS.md](../../AGENTS.md)
 - [Fix Summary](fixes/database-naming-fix-summary.md)
-- [GitHub Issue #5](https://github.com/laraxot/<repo progetto>/issues/5)
+- [GitHub Issue #5](https://github.com/laraxot/base_fixcity_fila5/issues/5)
 - [Laravel Directory Structure](https://laravel.com/docs/structure)
 
 ---

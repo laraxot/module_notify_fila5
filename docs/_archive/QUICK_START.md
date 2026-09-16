@@ -1,8 +1,8 @@
-# 🚀 <nome progetto> - GUIDA RAPIDA SVILUPPATORI
+# 🚀 FIXCITY - GUIDA RAPIDA SVILUPPATORI
 
 **Versione**: 1.0  
 **Data**: 2025-10-01  
-**Target**: Sviluppatori che iniziano a lavorare su <nome progetto>  
+**Target**: Sviluppatori che iniziano a lavorare su FixCity  
 
 ---
 
@@ -18,7 +18,7 @@
 
 ### Conoscenze Richieste
 - Laravel 11.x
-- Filament 5.x
+- Filament 4.x
 - Livewire 3.x
 - TailwindCSS
 - Architettura modulare (Nwidart)
@@ -124,7 +124,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 class MyResource extends XotBaseResource
 {
     // Usa getFormSchema() invece di form()
-    public function getFormSchema(): array
+    public static function getFormSchema(): array
     {
         return [
             // schema fields
@@ -226,10 +226,10 @@ return [
 ## 📁 STRUTTURA PROGETTO
 
 ```
-<repo progetto>/
+base_ptv_fila5_mono/
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
-│   │   ├── <nome progetto>/          # Core business logic
+│   │   ├── Fixcity/          # Core business logic
 │   │   ├── User/             # Authentication
 │   │   ├── Xot/              # Framework base
 │   │   ├── UI/               # Component library
@@ -283,13 +283,13 @@ php artisan module:publish ModuleName
 ### Filament
 ```bash
 # Crea resource
-php artisan make:filament-resource TicketResource --module=<nome progetto>
+php artisan make:filament-resource TicketResource --module=Fixcity
 
 # Crea page
-php artisan make:filament-page Dashboard --module=<nome progetto>
+php artisan make:filament-page Dashboard --module=Fixcity
 
 # Crea widget
-php artisan make:filament-widget StatsWidget --module=<nome progetto>
+php artisan make:filament-widget StatsWidget --module=Fixcity
 ```
 
 ---
@@ -438,7 +438,7 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 - **structure.md**: Struttura file
 - **technical.md**: Dettagli tecnici
 
-**Esempio**: [<nome progetto> Module Docs](./laravel/Modules/<nome progetto>/docs/)
+**Esempio**: [Fixcity Module Docs](./laravel/Modules/Fixcity/docs/)
 
 ---
 

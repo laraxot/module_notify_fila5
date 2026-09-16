@@ -5,8 +5,8 @@ tags: [filament, version, policy]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-version-policy 🎯 filament version policy - always latest"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -50,7 +50,7 @@ Filament è gestito dai moduli.
 
 ```json
 {
-    "name": "<nome progetto>/module-name",
+    "name": "fixcity/module-name",
     "name": "ptv/module-name",
     "require": {
         "php": "^8.2",
@@ -135,7 +135,7 @@ composer update "filament/*" -W
 - ✅ Community help
 
 ### 4. Compatibility
-- ✅ Laravel 13 compatible
+- ✅ Laravel 12 compatible
 - ✅ PHP 8.2+ compatible
 - ✅ Other packages compatible
 

@@ -39,7 +39,7 @@ CRITICAL ❗
 ```
 #0 vendor/spatie/laravel-data/src/DataPipes/CastPropertiesDataPipe.php:113
 #1 vendor/spatie/laravel-data/src/Resolvers/DataFromArrayResolver.php:97
-#2 Modules/<nome progetto>/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
+#2 Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
 #2 Modules/App/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
 ```
 
@@ -66,7 +66,7 @@ return new AnswersChartData(
 ### Verification
 ```bash
 # Check for ChartData objects
-grep -r "new ChartData" Modules/<nome progetto>/app/Actions/QuestionChart/Custom/
+grep -r "new ChartData" Modules/Quaeris/app/Actions/QuestionChart/Custom/
 grep -r "new ChartData" Modules/App/app/Actions/QuestionChart/Custom/
 
 # Should return: (empty)
@@ -83,7 +83,7 @@ grep -r "new ChartData" Modules/App/app/Actions/QuestionChart/Custom/
 ### Error Message
 ```
 SQLSTATE[42S02]: Base table or view not found: 1146
-Table '<nome progetto>_survey.contacts' doesn't exist
+Table 'quaeris_survey.contacts' doesn't exist
 Table 'app_survey.contacts' doesn't exist
 ```
 
@@ -96,7 +96,7 @@ CRITICAL ❗
 
 ### Database Map
 ```
-<nome progetto>_data (Connection: '<nome progetto>')
+quaeris_data (Connection: 'quaeris')
 app_data (Connection: 'this-project')
 ├── contacts          ← This table
 ├── survey_pdfs
@@ -109,7 +109,7 @@ limesurvey (Connection: 'limesurvey')
 ```
 
 ### Root Cause
-Query uses `limesurvey` connection, but `contacts` table is in `<nome progetto>_data`
+Query uses `limesurvey` connection, but `contacts` table is in `quaeris_data`
 Query uses `limesurvey` connection, but `contacts` table is in `app_data`
 
 ### Solution
@@ -134,7 +134,7 @@ public function getSmsAnswers(...) {
 ### Verification
 ```bash
 # Check for cross-database joins
-grep -r "getConnection()->getDatabaseName()" Modules/<nome progetto>/app/Actions/QuestionChart/Custom/
+grep -r "getConnection()->getDatabaseName()" Modules/Quaeris/app/Actions/QuestionChart/Custom/
 grep -r "getConnection()->getDatabaseName()" Modules/App/app/Actions/QuestionChart/Custom/
 
 # Should return: (empty)
@@ -153,7 +153,7 @@ grep -r "getConnection()->getDatabaseName()" Modules/App/app/Actions/QuestionCha
 ```
 SQLSTATE[42000]: Syntax error or access violation: 1055
 Expression #2 of SELECT list is not in GROUP BY clause
-and contains nonaggregated column '<nome progetto>_data.contacts.sms_sent_at'
+and contains nonaggregated column 'quaeris_data.contacts.sms_sent_at'
 and contains nonaggregated column 'app_data.contacts.sms_sent_at'
 which is not functionally dependent on columns in GROUP BY clause;
 this is incompatible with sql_mode=only_full_group_by
@@ -202,7 +202,7 @@ GROUP BY
 ### Verification
 ```bash
 # Check groupByRaw usage
-grep -n "groupByRaw" Modules/<nome progetto>/app/Actions/QuestionChart/Custom/SmsResponseRate.php
+grep -n "groupByRaw" Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php
 grep -n "groupByRaw" Modules/App/app/Actions/QuestionChart/Custom/SmsResponseRate.php
 
 # Should show both expressions included
@@ -250,7 +250,7 @@ return new AnswersChartData(answers: $answersArray);
 ### Verification
 ```bash
 # Check for DataCollection usage
-grep -n "AnswersChartData::from" Modules/<nome progetto>/app/Actions/QuestionChart/Custom/*.php
+grep -n "AnswersChartData::from" Modules/Quaeris/app/Actions/QuestionChart/Custom/*.php
 grep -n "AnswersChartData::from" Modules/App/app/Actions/QuestionChart/Custom/*.php
 
 # All should use ->toArray()
@@ -469,7 +469,7 @@ Contact::query()->chunk(100, function ($contacts) {
 ### Run All Tests
 ```bash
 cd laravel
-./vendor/bin/pest Modules/<nome progetto>/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
+./vendor/bin/pest Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
 ./vendor/bin/pest Modules/App/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
 ```
 
@@ -481,19 +481,19 @@ cd laravel
 ### Check Code Quality
 ```bash
 # PHPStan
-./vendor/bin/phpstan analyse Modules/<nome progetto>/app/Actions/QuestionChart/Custom/
+./vendor/bin/phpstan analyse Modules/Quaeris/app/Actions/QuestionChart/Custom/
 
 # Pint (formatting)
-./vendor/bin/pint Modules/<nome progetto>/app/Actions/QuestionChart/Custom/
+./vendor/bin/pint Modules/Quaeris/app/Actions/QuestionChart/Custom/
 
 # Tests with coverage
-XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/<nome progetto>/tests/
+XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/Quaeris/tests/
 
 # Pint (formatting)
-./vendor/bin/pint Modules/<nome progetto>/app/Actions/QuestionChart/Custom/
+./vendor/bin/pint Modules/Quaeris/app/Actions/QuestionChart/Custom/
 
 # Tests with coverage
-XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/<nome progetto>/tests/
+XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/Quaeris/tests/
 ```
 
 ### Manual Testing URLs
@@ -522,7 +522,7 @@ echo "✅ All caches cleared"
 ### Check File Sizes
 ```bash
 #!/bin/bash
-for file in Modules/<nome progetto>/app/Actions/QuestionChart/Custom/*.php; do
+for file in Modules/Quaeris/app/Actions/QuestionChart/Custom/*.php; do
 for file in Modules/App/app/Actions/QuestionChart/Custom/*.php; do
     lines=$(wc -l < "$file")
     if [ $lines -gt 200 ]; then
@@ -536,7 +536,7 @@ done
 ### Find ChartData Objects
 ```bash
 #!/bin/bash
-grep -r "new ChartData" Modules/<nome progetto>/app/Actions/QuestionChart/Custom/
+grep -r "new ChartData" Modules/Quaeris/app/Actions/QuestionChart/Custom/
 grep -r "new ChartData" Modules/App/app/Actions/QuestionChart/Custom/
 if [ $? -eq 0 ]; then
     echo "❌ Found ChartData objects - replace with arrays!"
@@ -555,8 +555,8 @@ fi
 - Session Memory: `.kilo/memories/session-2026-03-17-custom-charts-deep.md`
 
 ### GitHub
-- Issue #97: https://github.com/laraxot/<repo progetto>/issues/97
-- Issue #97: https://github.com/laraxot/<repo progetto>/issues/97
+- Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
+- Issue #97: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97
 - All 8 comments with fixes
 
 ### Team Contacts

@@ -5,8 +5,8 @@ tags: [issue, subtree, sync, test]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "issue-subtree-sync-test 🧪 test: git subtree synchronization"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./discussion-ai-work-summary.md"
   - "./fix-is-ci-context-not-found.md"
@@ -89,8 +89,8 @@ Verify that changes made in module repositories sync correctly to the main repos
 
 ```bash
 # 1. Go to project root
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
 
 # 2. Run sync script
 ./bashscripts/git/subtrees/sync_remote_repo.sh laraxot
@@ -111,7 +111,7 @@ git commit -m "test: subtree sync test"
 git push origin dev
 
 # 2. Wait for GitHub Action
-# 3. Check: https://github.com/laraxot/<repo progetto>/actions
+# 3. Check: https://github.com/laraxot/base_fixcity_fila5/actions
 # 3. Check: https://github.com/laraxot/platform/actions
 # 4. Verify sync completed
 ```

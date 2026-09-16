@@ -7,7 +7,7 @@ return [
         'channels' => [
             'label' => 'channels',
             'placeholder' => 'channels',
-            'helper_text' => '',
+            'helper_text' => 'channels',
             'description' => 'channels',
             'tooltip' => '']],
     'label' => 'Channel Checkbox List',

@@ -1,13 +1,13 @@
 ---
-title: "📊 <nome progetto> - RIEPILOGO FINALE COMPLETAMENTO"
+title: "📊 FIXCITY - RIEPILOGO FINALE COMPLETAMENTO"
 type: concept
 tags: [final, summary]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "final-summary 📊 <nome progetto> - riepilogo finale completamento"
+qmd: "final-summary 📊 fixcity - riepilogo finale completamento"
 qmd: "final-summary 📊 ptv - riepilogo finale completamento"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -19,7 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-# 📊 <nome progetto> - RIEPILOGO FINALE COMPLETAMENTO
+# 📊 FIXCITY - RIEPILOGO FINALE COMPLETAMENTO
 
 **Data Completamento**: 2025-10-01  
 **Sessione**: Aggiornamento Roadmap & Documentazione Completa  
@@ -29,7 +29,7 @@ related:
 
 ## 🎯 OBIETTIVO RAGGIUNTO
 
-Completamento sistematico della documentazione e delle roadmap del progetto <nome progetto> per renderlo la piattaforma
+Completamento sistematico della documentazione e delle roadmap del progetto FixCity per renderlo la piattaforma
 di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ---
@@ -44,7 +44,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 5. ✅ **excellence-2025.md** - Visione eccellenza e obiettivi
 6. ✅ **WORK-COMPLETED-.md.md** - Riepilogo tecnico aggiornamenti
 
-### 🎫 Modulo <nome progetto> (4)
+### 🎫 Modulo Fixcity (4)
 7. ✅ **API.md** - REST API completa (15+ endpoints, auth, examples)
 8. ✅ **USER_GUIDE.md** - Guida cittadini (15 sezioni, FAQ, best practices)
 9. ✅ **ADMIN_GUIDE.md** - Guida amministratori (18 sezioni, troubleshooting)
@@ -90,7 +90,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ## 🎯 MODULI AGGIORNATI
 
 ### ✅ Completati al 90%+
-1. **<nome progetto>** - 85% → **90%**
+1. **Fixcity** - 85% → **90%**
    - API documentation completa
    - User guide completa
    - Admin guide completa
@@ -121,8 +121,8 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ## 🏗️ STRUTTURA DOCUMENTAZIONE FINALE
 
 ```
-<repo progetto>/
-<repo progetto>/
+base_fixcity_fila5_mono/
+base_ptv_fila5_mono/
 │
 ├── 📊 ROOT LEVEL (11 docs strategici)
 │   ├── documentation-index.md          ✅ Indice generale
@@ -139,7 +139,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 │
 └── 📁 laravel/
     │
-    ├── Modules/<nome progetto>/docs/           ✅ 90% COMPLETO
+    ├── Modules/Fixcity/docs/           ✅ 90% COMPLETO
     │   ├── README.md                   ✅ Completo
     │   ├── ROADMAP_2025.md             ✅ Aggiornato
     │   ├── API.md                      ✅ NEW - Completo
@@ -176,14 +176,14 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ## 🎓 CONTENUTI DOCUMENTAZIONE
 
 ### Guide Utente (2)
-- ✅ **USER_GUIDE.md** (<nome progetto>) - 15 sezioni
+- ✅ **USER_GUIDE.md** (Fixcity) - 15 sezioni
   - Registrazione e login
   - Creare segnalazioni
   - Seguire segnalazioni
   - Dashboard personale
   - FAQ e troubleshooting
 
-- ✅ **ADMIN_GUIDE.md** (<nome progetto>) - 18 sezioni
+- ✅ **ADMIN_GUIDE.md** (Fixcity) - 18 sezioni
   - Gestione segnalazioni
   - Gestione utenti
   - Configurazione sistema
@@ -205,7 +205,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
   - Testing
 
 ### API Documentation (1)
-- ✅ **API.md** (<nome progetto>) - REST API completa
+- ✅ **API.md** (Fixcity) - REST API completa
   - 15+ endpoints documentati
   - Authentication (Sanctum)
   - Rate limiting
@@ -214,7 +214,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ### Roadmap (4 aggiornate)
 - ✅ **roadmap-status-summary.md** - Master status
-- ✅ **<nome progetto>/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
+- ✅ **Fixcity/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
 - ✅ **User/roadmap.md** - Timeline Q4 2025-Q1 2026
 - ✅ **Sixteen/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
 
@@ -234,7 +234,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ### Qualità
 - **PHPStan Level 9**: ✅ 0 errori (100%)
-- **Filament 5.x**: ✅ Compatible (100%)
+- **Filament 4.x**: ✅ Compatible (100%)
 - **Type Safety**: ✅ Strict types (100%)
 - **AGID Compliance**: 🚧 90% (target 100%)
 - **Test Coverage**: 🚧 65% (target 80%)
@@ -277,7 +277,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ### 🥇 Quality Champion
 - PHPStan Level 9 - 0 errori
-- Filament 5.x compatible
+- Filament 4.x compatible
 - Type-safe everywhere
 - Best practices documented
 
@@ -294,17 +294,17 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ### Per Sviluppatori
 - **Quick Start**: [quick-start.md](./quick-start.md)
 - **Documentation Index**: [documentation-index.md](./documentation-index.md)
-- **Slack**: #<nome progetto>-dev
+- **Slack**: #fixcity-dev
 - **Slack**: #ptv-dev
 
 ### Per Utenti
-- **User Guide**: [USER_GUIDE.md](./laravel/Modules/<nome progetto>/docs/USER_GUIDE.md)
-- **Admin Guide**: [ADMIN_GUIDE.md](./laravel/Modules/<nome progetto>/docs/ADMIN_GUIDE.md)
-- **Support**: support@<nome progetto>.it
+- **User Guide**: [USER_GUIDE.md](./laravel/Modules/Fixcity/docs/USER_GUIDE.md)
+- **Admin Guide**: [ADMIN_GUIDE.md](./laravel/Modules/Fixcity/docs/ADMIN_GUIDE.md)
+- **Support**: support@fixcity.it
 - **Support**: support@ptv.it
 
 ### Per API Developers
-- **API Documentation**: [API.md](./laravel/Modules/<nome progetto>/docs/API.md)
+- **API Documentation**: [API.md](./laravel/Modules/Fixcity/docs/API.md)
 - **2FA Guide**: [2FA_GUIDE.md](./laravel/Modules/User/docs/2FA_GUIDE.md)
 - **SSO Guide**: [SSO_GUIDE.md](./laravel/Modules/User/docs/SSO_GUIDE.md)
 
@@ -312,7 +312,7 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ## 🎉 CONCLUSIONE
 
-Il progetto <nome progetto> ha raggiunto un livello di documentazione e organizzazione eccellente:
+Il progetto FixCity ha raggiunto un livello di documentazione e organizzazione eccellente:
 
 ✅ **15 documenti** creati/aggiornati  
 ✅ **400+ pagine** di documentazione  
@@ -335,7 +335,7 @@ Il progetto <nome progetto> ha raggiunto un livello di documentazione e organizz
 - [x] excellence-2025.md creato
 - [x] project-completion-status.md creato
 
-### Modulo <nome progetto>
+### Modulo Fixcity
 - [x] API.md creato
 - [x] USER_GUIDE.md creato
 - [x] ADMIN_GUIDE.md creato
@@ -402,10 +402,10 @@ php artisan test --coverage
 
 ## 📞 CONTATTI
 
-**Team <nome progetto>**
-- Email: dev@<nome progetto>.it
-- Slack: #<nome progetto>-dev
-- GitHub: github.com/laraxot/<nome progetto>
+**Team FixCity**
+- Email: dev@fixcity.it
+- Slack: #fixcity-dev
+- GitHub: github.com/laraxot/fixcity
 - Email: dev@ptv.it
 - Slack: #ptv-dev
 - GitHub: github.com/laraxot/ptv
@@ -421,6 +421,6 @@ php artisan test --coverage
 
 ---
 
-*"La documentazione è il fondamento dell'eccellenza. Oggi abbiamo costruito solide fondamenta per il successo di <nome progetto> nel 2025 e oltre."* 🏆
+*"La documentazione è il fondamento dell'eccellenza. Oggi abbiamo costruito solide fondamenta per il successo di FixCity nel 2025 e oltre."* 🏆
 
-**#<nome progetto>2025 #Documentation #Excellence #OpenSource**
+**#FixCity2025 #Documentation #Excellence #OpenSource**

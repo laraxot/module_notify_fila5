@@ -7,13 +7,13 @@ return [
         'template_slug' => [
             'label' => 'template_slug',
             'placeholder' => 'template_slug',
-            'helper_text' => '',
+            'helper_text' => 'template_slug',
             'description' => 'template_slug',
             'tooltip' => ''],
         'channels' => [
             'label' => 'channels',
             'placeholder' => 'channels',
-            'helper_text' => '',
+            'helper_text' => 'channels',
             'description' => 'channels',
             'tooltip' => '']],
     'actions' => [

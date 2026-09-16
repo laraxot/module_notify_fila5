@@ -5,8 +5,8 @@ tags: [laravel, debugbar, troubleshooting]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "laravel-debugbar-troubleshooting laravel debugbar troubleshooting guide"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2-1-1-plan.md"
   - "./2-1-context.md"

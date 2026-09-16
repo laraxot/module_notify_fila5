@@ -13,7 +13,7 @@ return [
         'preview_data' => ['label' => 'Dati di Anteprima', 'helper' => 'Dati JSON per l\'anteprima', 'tooltip' => '', 'helper_text' => '', 'description' => '', 'placeholder' => 'preview_data'],
         'resetFilters' => ['label' => 'resetFilters', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'applyFilters' => ['label' => 'applyFilters', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
-        'attachments' => ['label' => 'attachments', 'placeholder' => 'attachments', 'helper_text' => '', 'description' => 'attachments']],
+        'attachments' => ['label' => 'attachments', 'placeholder' => 'attachments', 'helper_text' => 'attachments', 'description' => 'attachments']],
     'columns' => ['name' => 'Nome', 'subject' => 'Oggetto', 'type' => 'Tipo', 'created_at' => 'Creato il', 'updated_at' => 'Aggiornato il'],
     'actions' => [
         'preview' => 'Anteprima',

@@ -4,7 +4,7 @@
 **Last Updated**: 2026-03-17  
 **Status**: ✅ Production Ready  
 **Complexity**: Advanced  
-**Prerequisites**: Laravel 13, Filament 5, Spatie Laravel Data, MySQL 8.0+
+**Prerequisites**: Laravel 12, Filament 5, Spatie Laravel Data, MySQL 8.0+
 
 ---
 
@@ -28,7 +28,7 @@
 
 ### What Are Custom Question Types?
 
-Custom question types are specialized data processing actions for <nome progetto> survey analytics that handle complex business logic not covered by standard LimeSurvey queries. They enable:
+Custom question types are specialized data processing actions for Quaeris survey analytics that handle complex business logic not covered by standard LimeSurvey queries. They enable:
 Custom question types are specialized data processing actions for App survey analytics that handle complex business logic not covered by standard LimeSurvey queries. They enable:
 
 - **Response rate calculations** (email, SMS)
@@ -39,7 +39,7 @@ Custom question types are specialized data processing actions for App survey ana
 ### Why Custom Implementation?
 
 Standard LimeSurvey queries cannot handle:
-- Cross-database operations (contacts in `<nome progetto>_data`, surveys in `limesurvey`)
+- Cross-database operations (contacts in `quaeris_data`, surveys in `limesurvey`)
 - Cross-database operations (contacts in `app_data`, surveys in `limesurvey`)
 - Complex business logic (response rate calculations)
 - Custom grouping and aggregation
@@ -130,14 +130,14 @@ WHERE parent_qid != 0
 GROUP BY gid
 ```
 
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
 
 **Lines**: 125
 
 **Complexity**: Medium
 
-**Test URL**: `/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/234`
+**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/234`
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/234`
 
 ---
@@ -162,14 +162,14 @@ WHERE submitdate IS NOT NULL
 AND sent != 'N'
 ```
 
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/MailResponseRate.php`
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php`
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/MailResponseRate.php`
 
 **Lines**: 173
 
 **Complexity**: High
 
-**Test URL**: `/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/192`
+**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/192`
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/192`
 
 **Footer Output**:
@@ -187,7 +187,7 @@ Totale Invitati: 100 - Rispondenti: 75 - Percentuale di risposta: 75.00%
 
 **Database Operations**:
 ```sql
--- Uses Contact model (<nome progetto>_data database)
+-- Uses Contact model (quaeris_data database)
 -- Uses Contact model (app_data database)
 SELECT 
     DATE_FORMAT(sms_sent_at, '%Y-%b') as label,
@@ -202,14 +202,14 @@ GROUP BY
 ORDER BY DATE_FORMAT(sms_sent_at, '%Y-%m')
 ```
 
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
 
 **Lines**: 150 (optimized from 473)
 
 **Complexity**: High
 
-**Test URL**: `/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/191`
+**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/191`
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/191`
 
 **Key Optimization**: No cross-database joins, uses Contact model directly
@@ -224,14 +224,14 @@ ORDER BY DATE_FORMAT(sms_sent_at, '%Y-%m')
 
 **Implementation**: Combines MailResponseRate + SmsResponseRate
 
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
 
 **Lines**: 122
 
 **Complexity**: Medium
 
-**Test URL**: `/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/190`
+**Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/190`
 **Test URL**: `/this-project/admin/ats/survey-pdfs/16/question-charts/190`
 
 **Calculation**:
@@ -251,7 +251,7 @@ $responsePercentage = $totalInvited !== 0
 
 **Pattern**: `custom:contacts_completed_2`
 
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
 
 **Lines**: 128
@@ -266,7 +266,7 @@ $responsePercentage = $totalInvited !== 0
 
 **Pattern**: `custom:avg_group_2`
 
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/AvgGroup2.php`
+**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/AvgGroup2.php`
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/AvgGroup2.php`
 
 **Lines**: 107
@@ -363,7 +363,7 @@ Argument #1 ($dataClass) must be of type string, null given
 **Stack Trace**:
 ```
 #0 vendor/spatie/laravel-data/src/DataPipes/CastPropertiesDataPipe.php:113
-#1 Modules/<nome progetto>/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
+#1 Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
 #1 Modules/App/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
 ```
 
@@ -490,12 +490,12 @@ return new AnswersChartData(answers: $answersArray);
 **Error Message**:
 ```
 SQLSTATE[42S02]: Base table or view not found: 1146
-Table '<nome progetto>_survey.contacts' doesn't exist
+Table 'quaeris_survey.contacts' doesn't exist
 ```
 
 **Root Cause**: 
-- `contacts` table exists in `<nome progetto>_data` database
-- Query was using `limesurvey` connection (aka `<nome progetto>_survey`)
+- `contacts` table exists in `quaeris_data` database
+- Query was using `limesurvey` connection (aka `quaeris_survey`)
 - Cross-database joins not supported without special config
 
 **Problematic Code**:
@@ -684,7 +684,7 @@ $footer = sprintf(
 
 ```
 ┌─────────────────────┐     ┌─────────────────────┐
-│   <nome progetto>_data      │     │     limesurvey      │
+│   quaeris_data      │     │     limesurvey      │
 │   app_data      │     │     limesurvey      │
 │   (MySQL)           │     │     (MySQL)         │
 ├─────────────────────┤     ├─────────────────────┤
@@ -715,7 +715,7 @@ $footer = sprintf(
     
     'limesurvey' => [
         'driver' => 'mysql',
-        'database' => '<nome progetto>_survey', // aka limesurvey
+        'database' => 'quaeris_survey', // aka limesurvey
         'database' => 'app_survey', // aka limesurvey
         'host' => '127.0.0.1',
         // ...
@@ -903,8 +903,8 @@ it('calculates mail response rate correctly', function (): void {
 - `.kilo/memories/session-2026-03-17-custom-charts.md`
 
 ### GitHub
-- Issue #97: https://github.com/laraxot/<repo progetto>/issues/97
-- Issue #97: https://github.com/laraxot/<repo progetto>/issues/97
+- Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
+- Issue #97: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97
 
 ### External Resources
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)

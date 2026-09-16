@@ -7,7 +7,6 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-use Override;
 
 class LinkableRelationManager extends XotBaseRelationManager
 {
@@ -18,7 +17,6 @@ class LinkableRelationManager extends XotBaseRelationManager
     /**
      * @return array<int|string, Component>
      */
-    #[Override]
     public function getFormSchema(): array
     {
         return [

@@ -22,7 +22,7 @@
                 <h1>Accedi ai servizi</h1>
             </div>
             
-            <!-- LoginWidget Filament 5 -->
+            <!-- LoginWidget Filament 4 -->
             <div class="bg-white shadow-xl rounded-lg">
                 @livewire(\Modules\User\Filament\Widgets\Auth\LoginWidget::class)
             </div>
@@ -41,7 +41,7 @@
 **Caratteristiche**:
 - ✅ Design AGID/Bootstrap Italia
 - ✅ Responsive (mobile-first)
-- ✅ Widget Filament 5 integrato correttamente
+- ✅ Widget Filament 4 integrato correttamente
 - ✅ Accessibilità WCAG 2.1
 - ✅ Placeholder per SPID/CIE (commentati)
 
@@ -193,7 +193,7 @@ La pagina implementa lo stesso design professionale di https://docs.italia.it/ac
 - [x] Submit button reattivo
 - [x] Loading state durante submit
 
-#### Filament 5 Integration
+#### Filament 4 Integration
 - [x] Widget renderizza correttamente
 - [x] Campi form appaiono
 - [x] Validazione Filament attiva
@@ -215,7 +215,7 @@ La pagina implementa lo stesso design professionale di https://docs.italia.it/ac
 
 ## 📝 Note Tecniche
 
-### Architettura Filament 5
+### Architettura Filament 4
 
 Il widget funziona perché:
 
@@ -254,7 +254,7 @@ FAIL → $this->addError() + rimane su form
 ### 1. Avviare il Server
 
 ```bash
-cd /var/www/_bases/<repo progetto>/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
 php artisan serve --host=127.0.0.1 --port=8000
 ```
 
@@ -306,7 +306,7 @@ Password: password
 **Status Pagina Login**: ✅ **FUNZIONANTE**
 
 - ParseError risolto
-- Widget Filament 5 integrato correttamente
+- Widget Filament 4 integrato correttamente
 - Design AGID implementato
 - Pronto per produzione
 

@@ -5,8 +5,8 @@ tags: [visual, analysis, report]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "visual-analysis-report documentation visual analysis report"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -277,7 +277,7 @@ MODULE INDEX        THEME INDEX      ARCHITECTURE
 ### Documentation Metrics
 
 ```
-PROJECT: <nome progetto> Fila5
+PROJECT: FixCity Fila5
 ANALYSIS DATE: 2026-04-02
 
 DOCUMENTATION FILES
@@ -452,8 +452,8 @@ TASK: "Understand system architecture"
 
 ```
 Filesystem Server
-└─ Reads: /var/www/_bases/<repo progetto>/
-└─ Reads: /var/www/_bases/<repo progetto>/
+└─ Reads: /var/www/_bases/base_fixcity_fila5/
+└─ Reads: /var/www/_bases/base_ptv_fila5/
    └─ Indexes all docs
    └─ Enables fast file navigation
 
@@ -489,7 +489,7 @@ Memory Server
 
 ```
 ┌──────────────────────────────────────────────┐
-│  <nome progetto> Documentation Health Dashboard      │
+│  FixCity Documentation Health Dashboard      │
 ├──────────────────────────────────────────────┤
 │                                              │
 │ Overall Health:        ████████████ 95% ✅   │

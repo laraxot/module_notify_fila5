@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\Mail;
 use Modules\Notify\Providers\Concerns\MergesNotifyConfigFromEnv;
 use Modules\Tenant\Actions\Config\ResolveTenantConfigValueAction;
 use Modules\Xot\Providers\XotBaseServiceProvider;
-use Override;
 use Webmozart\Assert\Assert;
 
 class NotifyServiceProvider extends XotBaseServiceProvider
@@ -22,14 +21,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
-    #[Override]
     public function register(): void
     {
         parent::register();
         $this->mergeNotifyModuleConfigFromEnv();
     }
 
-    #[Override]
     public function boot(): void
     {
         parent::boot();

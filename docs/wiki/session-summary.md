@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_AJqkFi
 ---
 title: "LLM Wiki Integration - Session Summary"
 type: concept
@@ -322,6 +323,8 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 <!-- Merged from SESSION-SUMMARY.md, which collided with this file on case-insensitive filesystems. -->
 
+=======
+>>>>>>> .merge_file_SIMIXa
 # LLM Wiki Integration - Session Summary
 
 > **Date**: 2026-04-15
@@ -429,7 +432,7 @@ Created `bashscripts/ai/init-llm-wiki.sh`:
 
 - Initialize wiki structure for any module or theme
 - Usage: `bashscripts/ai/init-llm-wiki.sh {module|theme} {Name}`
-- Example: `bashscripts/ai/init-llm-wiki.sh module <nome progetto>`
+- Example: `bashscripts/ai/init-llm-wiki.sh module Fixcity`
 - Creates complete directory structure with templates
 - Generates module-specific AGENTS.md
 
@@ -525,7 +528,7 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 
 3. **Initialize Module Wikis** (if not already done):
    ```bash
-   bashscripts/ai/init-llm-wiki.sh module <nome progetto>
+   bashscripts/ai/init-llm-wiki.sh module Fixcity
    bashscripts/ai/init-llm-wiki.sh module Predict
    bashscripts/ai/init-llm-wiki.sh theme Sixteen
    ```

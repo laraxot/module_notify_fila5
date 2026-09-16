@@ -323,7 +323,7 @@ If you find incorrect directory names:
 
 ---
 
-**Maintainer**: <nome progetto> Dev Team  
-**Contact**: dev @<nome progetto>.example.com
+**Maintainer**: FixCity Dev Team  
+**Contact**: dev @fixcity.example.com
 **Maintainer**: Notify Dev Team  
 **Contact**: dev @laraxot.example.com

@@ -5,8 +5,8 @@ tags: [allineamento, bootstrap, italia]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "allineamento-bootstrap-italia 🎯 allineamento html con bootstrap italia"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -106,7 +106,7 @@ Creare componenti compatibili Bootstrap Italia.
 ### Fase 3: Testing
 
 ```bash
-curl http://<nome progetto>.local/it/tests/homepage | grep -o '<section[^>]*>' | head -10
+curl http://fixcity.local/it/tests/homepage | grep -o '<section[^>]*>' | head -10
 curl http://ptv.local/it/tests/homepage | grep -o '<section[^>]*>' | head -10
 ```
 

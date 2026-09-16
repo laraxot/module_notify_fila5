@@ -204,8 +204,8 @@ Modulo per l'intelligenza artificiale.
 - Chatbots
 - Automation
 
-### <nome progetto>/
-Modulo specifico per <nome progetto>.
+### fixcity/
+Modulo specifico per FixCity.
 ### laraxot/
 Modulo specifico per Notify.
 

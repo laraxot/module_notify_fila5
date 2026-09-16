@@ -1,4 +1,4 @@
-# REQUIREMENTS: <nome progetto> Platform
+# REQUIREMENTS: FixCity Platform
 
 ## Phase 2: Feature Expansion (Q1 2026) - CURRENT
 

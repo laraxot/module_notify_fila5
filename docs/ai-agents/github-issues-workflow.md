@@ -5,8 +5,8 @@ tags: [github, issues, workflow]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "github-issues-workflow github issues - correct workflow"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index.md"
   - "./01-gsd-workflow.md"
@@ -26,10 +26,10 @@ related:
 
 ## Repository
 
-- **URL**: https://github.com/laraxot/<repo progetto>
-- **Remote**: `origin` (git@github.com:laraxot/<repo progetto>.git)
-- **URL**: https://github.com/laraxot/<repo progetto>
-- **Remote**: `origin` (git@github.com:laraxot/<repo progetto>.git)
+- **URL**: https://github.com/laraxot/base_predict_fila5
+- **Remote**: `origin` (git@github.com:laraxot/base_predict_fila5.git)
+- **URL**: https://github.com/laraxot/base_ptvx_fila5
+- **Remote**: `origin` (git@github.com:laraxot/base_ptvx_fila5.git)
 
 ---
 
@@ -38,8 +38,8 @@ related:
 ### Method 1: GitHub Web Interface
 
 ```
-1. Vai su: https://github.com/laraxot/<repo progetto>/issues
-1. Vai su: https://github.com/laraxot/<repo progetto>/issues
+1. Vai su: https://github.com/laraxot/base_predict_fila5/issues
+1. Vai su: https://github.com/laraxot/base_ptvx_fila5/issues
 2. Clicca "New issue"
 3. Scegli template
 4. Compili e invii
@@ -124,8 +124,8 @@ gh pr create --title "Fix: ..." --body "Fixes #123"
 3. 💬 **Comments Section** - HIGH priority
 4. 📤 **Share Buttons** - MEDIUM priority
 
-**Create issues on GitHub**: https://github.com/laraxot/<repo progetto>/issues
-**Create issues on GitHub**: https://github.com/laraxot/<repo progetto>/issues
+**Create issues on GitHub**: https://github.com/laraxot/base_predict_fila5/issues
+**Create issues on GitHub**: https://github.com/laraxot/base_ptvx_fila5/issues
 
 ---
 

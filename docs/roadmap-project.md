@@ -1,13 +1,13 @@
 ---
-title: "🚀 ROADMAP GENERALE - <nome progetto> Platform"
+title: "🚀 ROADMAP GENERALE - FixCity Platform"
 type: concept
 tags: [roadmap, project]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "roadmap-project 🚀 roadmap generale - <nome progetto> platform"
+qmd: "roadmap-project 🚀 roadmap generale - fixcity platform"
 qmd: "roadmap-project 🚀 roadmap generale - ptv platform"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -19,11 +19,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-# 🚀 ROADMAP GENERALE - <nome progetto> Platform
+# 🚀 ROADMAP GENERALE - FixCity Platform
 
 ## 📋 Sommario Esecutivo
 
-**<nome progetto>** è una piattaforma completa di civic engagement per la gestione delle segnalazioni urbane. I cittadini possono segnalare problemi nella loro città, e le amministrazioni gestirle con workflow avanzati.
+**FixCity** è una piattaforma completa di civic engagement per la gestione delle segnalazioni urbane. I cittadini possono segnalare problemi nella loro città, e le amministrazioni gestirle con workflow avanzati.
 
 ### Versione Attuale: 1.0.0 (Base Funzionante)
 ### Target Versione: 2.0.0 (Produzione Completa)
@@ -77,7 +77,7 @@ related:
 - **Lang**: Multi-language support ✓
 
 ### 🚧 Funzionali ma da Completare
-- **<nome progetto>**: Core business logic (80% completo)
+- **Fixcity**: Core business logic (80% completo)
   - Manca: API pubblica, analytics avanzate, automazione
 - **Geo**: Geolocalizzazione (70% completo)
   - Manca: Heatmap, zone management, routing ottimizzato
@@ -349,7 +349,7 @@ related:
 ## 🎓 Knowledge Base
 
 ### Link Documentazione Moduli
-- [Modulo <nome progetto>](../Modules/<nome progetto>/docs/README.md)
+- [Modulo Fixcity](../Modules/Fixcity/docs/README.md)
 - [Modulo User](../Modules/User/docs/README.md)
 - [Modulo Cms](../Modules/Cms/docs/README.md)
 - [Modulo Geo](../Modules/Geo/docs/README.md)

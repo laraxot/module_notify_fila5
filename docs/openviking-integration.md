@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide documents the integration of **OpenViking** (globally installed) with **BMAD**, **GSD**, and **Ralph Loop** for the <nome progetto> platform.
+This guide documents the integration of **OpenViking** (globally installed) with **BMAD**, **GSD**, and **Ralph Loop** for the FixCity platform.
 
 ## Installation Status
 
@@ -24,8 +24,8 @@ OpenViking is an AI-powered context management and documentation system that hel
 ### 1. Initialize OpenViking Context
 
 ```bash
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptv_fila5
 openviking init
 ```
 
@@ -91,11 +91,11 @@ Use `viking://` URIs in BMAD documentation:
 
 ```bash
 # 1. Start GSD project
-/gsd-new-project <nome progetto>
+/gsd-new-project FixCity
 
 # 2. Store project context
 openviking add --type=project \
-  --title="<nome progetto> Platform" \
+  --title="FixCity Platform" \
   --file="PROJECT.md"
 
 # 3. During phase execution
@@ -137,7 +137,7 @@ mkdir -p .ralph
 # Create PRD for Ralph
 cat > .ralph/prd.json << 'EOF'
 {
-  "project": "<nome progetto>",
+  "project": "FixCity",
   "goal": "Implement feature X",
   "stories": [
     {
@@ -258,7 +258,7 @@ openviking add --type=retrospective --file="_bmad/bmm/5-retro/retro.md"
 openviking init
 
 # Configure project
-openviking config set project.name "<nome progetto>"
+openviking config set project.name "FixCity"
 openviking config set project.version "1.0.0"
 ```
 

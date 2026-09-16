@@ -13,7 +13,8 @@ return [
         'updated_at' => ['label' => 'updated_at'],
         'is_read' => ['label' => 'is_read'],
         'is_unread' => ['label' => 'is_unread'],
-        'data' => ['label' => 'data'],
+        'notifiable_type' => ['label' => 'notifiable_type'],
+        'notifiable_id' => ['label' => 'notifiable_id'],
     ],
     'actions' => [
         'create' => ['label' => 'create', 'icon' => 'create', 'tooltip' => 'create'],

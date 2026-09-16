@@ -23,9 +23,9 @@ assignees: ''
 **View Source**: `view-source:https://italia.github.io/design-comuni-pagine-statiche/sito/[page].html`
 
 ### Target Page
-**<nome progetto>**: http://<nome progetto>.local/it/tests/[slug]  
-**View Source**: `view-source:http://<nome progetto>.local/it/tests/[slug]`
-**<nome progetto>**: http://ptv.local/it/tests/[slug]  
+**FixCity**: http://fixcity.local/it/tests/[slug]  
+**View Source**: `view-source:http://fixcity.local/it/tests/[slug]`
+**FixCity**: http://ptv.local/it/tests/[slug]  
 **View Source**: `view-source:http://ptv.local/it/tests/[slug]`
 
 ### Screenshots
@@ -39,20 +39,20 @@ assignees: ''
 ## Implementation Plan
 
 ### 1. Create JSON Content File
-**File**: `laravel/config/local/<nome progetto>/database/content/pages/tests.[slug].json`
+**File**: `laravel/config/local/fixcity/database/content/pages/tests.[slug].json`
 **File**: `laravel/config/local/ptv/database/content/pages/tests.[slug].json`
 
 ```json
 {
   "slug": "tests.[slug]",
-  "title": "[Page Title] - Comune di <nome progetto>",
+  "title": "[Page Title] - Comune di FixCity",
   "meta_description": "[Meta description]",
   "blocks": [
     {
       "type": "header",
       "view": "pub_theme::components.blocks.header.main",
       "data": {
-        "institution_name": "Comune di <nome progetto>",
+        "institution_name": "Comune di FixCity",
         "tagline": "Un comune da vivere"
       }
     },
@@ -68,9 +68,9 @@ assignees: ''
       "type": "footer",
       "view": "pub_theme::components.blocks.footer.full",
       "data": {
-        "address": "Via Roma 1, <nome progetto>",
+        "address": "Via Roma 1, FixCity",
         "phone": "+39 0123 456789",
-        "email": "info@comune.<nome progetto>.it"
+        "email": "info@comune.fixcity.it"
         "email": "info@comune.ptv.it"
       }
     }

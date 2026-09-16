@@ -1,13 +1,13 @@
 ---
-title: "📸 Header <nome progetto> vs Bootstrap Italia - Analisi e Fix"
+title: "📸 Header FixCity vs Bootstrap Italia - Analisi e Fix"
 type: concept
 tags: [header, fix, analysis]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "header-fix-analysis 📸 header <nome progetto> vs bootstrap italia - analisi e fix"
+qmd: "header-fix-analysis 📸 header fixcity vs bootstrap italia - analisi e fix"
 qmd: "header-fix-analysis 📸 header ptv vs bootstrap italia - analisi e fix"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -19,7 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-# 📸 Header <nome progetto> vs Bootstrap Italia - Analisi e Fix
+# 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
 
 ## Data: 2026-03-31
 ## Problema: Header non conforme al reference
@@ -30,15 +30,15 @@ related:
 
 ### 1. Logo non visibile ❌
 **Reference**: Logo PA visibile (80x80px)  
-**<nome progetto>**: Logo mancante o non visibile
+**FixCity**: Logo mancante o non visibile
 
 ### 2. Nome del Comune non leggibile ❌
 **Reference**: "NOME DEL COMUNE" - text-2xl/3xl font-bold  
-**<nome progetto>**: Testo troppo piccolo o colore errato
+**FixCity**: Testo troppo piccolo o colore errato
 
 ### 3. Slogan non leggibile ❌
 **Reference**: "Un comune da vivere" - text-base text-gray-600  
-**<nome progetto>**: Slogan mancante o illeggibile
+**FixCity**: Slogan mancante o illeggibile
 
 ### 4. Colori diversi ❌
 **Reference**: 
@@ -46,7 +46,7 @@ related:
 - Text: `#FFFFFF` (White)
 - Hover: `#0066CC` on gray
 
-**<nome progetto>**: Colori CSS variables non corretti
+**FixCity**: Colori CSS variables non corretti
 
 ### 5. Spaziature diverse ❌
 **Reference**:
@@ -54,7 +54,7 @@ related:
 - Main header: `py-6` (24px)
 - Nav: `py-3` (12px)
 
-**<nome progetto>**: Spaziature non conformi
+**FixCity**: Spaziature non conformi
 
 ---
 
@@ -121,7 +121,7 @@ related:
 
 ## 📊 Conformità Raggiunta
 
-| Elemento | Reference | <nome progetto> | Status |
+| Elemento | Reference | FixCity | Status |
 |----------|-----------|---------|--------|
 | Top bar color | `#0066CC` | `#0066CC` | ✅ |
 | Logo visible | 80x80px | 80x80px | ✅ |

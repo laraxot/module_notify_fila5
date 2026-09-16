@@ -8,10 +8,9 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Str;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\SmsFactorData;
 use Modules\Notify\Datas\SmsData;
-use Override;
+use Modules\Notify\Models\Contracts\SmsActionContract;
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendSmsFactorSMSAction implements SmsActionContract
@@ -54,7 +53,6 @@ final class SendSmsFactorSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
-    #[Override]
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();
@@ -71,7 +69,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 
         $body = [
             'text' => $smsData->body,
-            'sender' => $smsData->from ?? $this->defaultSender,
+            'sender' => $smsData->from ?: $this->defaultSender,
             'recipients' => [
                 [
                     'phone' => $to]],

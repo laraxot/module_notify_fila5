@@ -5,8 +5,8 @@ tags: [implementation, summary]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "implementation-summary riepilogo implementazione design comuni"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -22,7 +22,7 @@ related:
 
 ## Panoramica
 
-Questo documento riassume l'implementazione completa del design system per i comuni italiani nel progetto <nome progetto>, basato sui template di [design-comuni-pagine-statiche](https://github.com/italia/design-comuni-pagine-statiche) e [farmshops.eu](https://github.com/CodeforKarlsruhe/farmshops.eu).
+Questo documento riassume l'implementazione completa del design system per i comuni italiani nel progetto Fixcity, basato sui template di [design-comuni-pagine-statiche](https://github.com/italia/design-comuni-pagine-statiche) e [farmshops.eu](https://github.com/CodeforKarlsruhe/farmshops.eu).
 
 ## Componenti Implementate
 
@@ -34,7 +34,7 @@ Questo documento riassume l'implementazione completa del design system per i com
 - **Componenti Riutilizzabili**: Card, badge, button, form
 - **Styling Personalizzato**: CSS con variabili personalizzabili
 
-### 2. Modulo <nome progetto>
+### 2. Modulo Fixcity
 - **Integrazione Design**: Collegamento con il tema comunale
 - **API RESTful**: Endpoint completi per segnalazioni
 - **Sistema Mappe**: Integrazione con OpenStreetMap e Leaflet
@@ -43,7 +43,7 @@ Questo documento riassume l'implementazione completa del design system per i com
 - **Workflow**: Gestione stati e priorità delle segnalazioni
 
 ### 3. Documentazione Completa
-- **Modulo <nome progetto>**: Documentazione tecnica e utente
+- **Modulo Fixcity**: Documentazione tecnica e utente
 - **Tema Sixteen**: Guida implementazione e personalizzazione
 - **Integrazione Design Comuni**: Procedura completa di integrazione
 - **Configurazione**: File di configurazione dettagliati
@@ -72,9 +72,9 @@ themes/sixteen/
     └── README.md
 ```
 
-### Modulo <nome progetto>
+### Modulo Fixcity
 ```
-Modules/<nome progetto>/
+Modules/Fixcity/
 ├── docs/
 │   ├── design-comuni-integration.md
 │   ├── design-comuni-integration-complete.md
@@ -105,7 +105,7 @@ config/comune.php
 - ✅ Pagina documenti
 - ✅ Pagina eventi
 
-### 3. Integrazione <nome progetto>
+### 3. Integrazione Fixcity
 - ✅ Collegamento diretto con segnalazioni
 - ✅ Visualizzazione geografica
 - ✅ Dashboard con statistiche
@@ -154,10 +154,10 @@ COMUNE_COLORE_ACCENTO="#ff6600"
 /comune/documenti          # Documenti
 /comune/eventi             # Eventi
 
-// API <nome progetto>
-/api/<nome progetto>/tickets       # Gestione ticket
-/api/<nome progetto>/map/tickets   # Mappa ticket
-/api/<nome progetto>/statistics    # Statistiche
+// API Fixcity
+/api/fixcity/tickets       # Gestione ticket
+/api/fixcity/map/tickets   # Mappa ticket
+/api/fixcity/statistics    # Statistiche
 /api/ptv/tickets       # Gestione ticket
 /api/ptv/map/tickets   # Mappa ticket
 /api/ptv/statistics    # Statistiche
@@ -178,7 +178,7 @@ COMUNE_COLORE_ACCENTO="#ff6600"
 - Design professionale e affidabile
 
 ### 3. Integrazione Sistema
-- Collegamento diretto con <nome progetto>
+- Collegamento diretto con Fixcity
 - API per dati dinamici
 - Gestione centralizzata dei contenuti
 - Sistema di autenticazione unificato
@@ -224,7 +224,7 @@ L'implementazione del design system per i comuni italiani è stata completata co
 1. **Conformità Normativa**: Piena conformità alle linee guida AGID
 2. **Accessibilità**: Conformità WCAG 2.1 AA
 3. **Responsive Design**: Ottimizzazione per tutti i dispositivi
-4. **Integrazione Completa**: Collegamento diretto con <nome progetto>
+4. **Integrazione Completa**: Collegamento diretto con Fixcity
 5. **Documentazione Completa**: Guide dettagliate per sviluppatori e utenti
 6. **Personalizzazione**: Facile adattamento alle esigenze specifiche
 

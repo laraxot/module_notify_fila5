@@ -1,6 +1,6 @@
 # Email Layouts Best Practices 
 
-Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di <nome progetto>.
+Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di Quaeris.
 Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di App.
 
 ## Indice
@@ -16,7 +16,7 @@ Questa documentazione descrive le best practices da seguire per i layout email q
 
 ## Introduzione
 
-<nome progetto> utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
+Quaeris utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
 App utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
 
 1. **Layout HTML base**: Struttura generale dell'email (`resources/mail-layouts/*.html`)

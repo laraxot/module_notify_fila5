@@ -5,8 +5,8 @@ tags: [sync, remote, repo, test]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "sync-remote-repo-test-plan sync remote repo - test plan"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -256,10 +256,10 @@ Test is considered successful when:
 
 - [Script Documentation](../../../bashscripts/docs/git/subtrees/sync-remote-repo-guide.md)
 - [Workflow Configuration](../../../.github/workflows/sync-remote-repo.yml)
-- [GitHub Issue #11](https://github.com/laraxot/<repo progetto>/issues/11)
-- [GitHub Issue #12](https://github.com/laraxot/<repo progetto>/issues/12)
-- [GitHub Issue #11](https://github.com/laraxot/<repo progetto>/issues/11)
-- [GitHub Issue #12](https://github.com/laraxot/<repo progetto>/issues/12)
+- [GitHub Issue #11](https://github.com/laraxot/base_fixcity_fila5/issues/11)
+- [GitHub Issue #12](https://github.com/laraxot/base_fixcity_fila5/issues/12)
+- [GitHub Issue #11](https://github.com/laraxot/base_ptv_fila5/issues/11)
+- [GitHub Issue #12](https://github.com/laraxot/base_ptv_fila5/issues/12)
 
 ---
 

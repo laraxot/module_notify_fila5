@@ -13,8 +13,8 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                        <nome progetto> Platform v2                          │
-│                    Laravel 13 + Filament 5 + Livewire 3             │
+│                        FixCity Platform v2                          │
+│                    Laravel 12 + Filament 5 + Livewire 3             │
 └─────────────────────────────────────────────────────────────────────┘
 
 ┌──────────────────┐         ┌──────────────────┐        ┌──────────────┐
@@ -195,7 +195,7 @@ HTTP Request: /it/tests/homepage
 ┌──────────────────────────────────────┐
 │  PageSlugMiddleware                  │
 │  Load from JSON config               │
-│  laravel/config/local/<nome progetto>/       │
+│  laravel/config/local/fixcity/       │
 │  database/content/pages/[slug].json  │
 └───────┬──────────────────────────────┘
         │
@@ -271,7 +271,7 @@ Admin Panel
 
 ```
 1. HTTP Request
-   ├─ URL: http://<nome progetto>.local/it/tests/homepage
+   ├─ URL: http://fixcity.local/it/tests/homepage
    └─ Method: GET
 
 2. Routing (Folio)
@@ -284,10 +284,10 @@ Admin Panel
 
 4. Middleware Chain
    ├─ PageSlugMiddleware
-   │  ├─ Read APP_URL → <nome progetto>.local
-   │  ├─ Extract domain → <nome progetto>.local
-   │  ├─ Reverse parts → [local, <nome progetto>]
-   │  ├─ Build config path → local/<nome progetto>
+   │  ├─ Read APP_URL → fixcity.local
+   │  ├─ Extract domain → fixcity.local
+   │  ├─ Reverse parts → [local, fixcity]
+   │  ├─ Build config path → local/fixcity
    │  ├─ Load theme: Sixteen
    │  └─ Load JSON: pages/homepage.json
    │

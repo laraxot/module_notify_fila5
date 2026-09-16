@@ -32,7 +32,7 @@ Quando un errore arriva da una pagina Filament/Livewire:
 - lintare anche i file della catena immediatamente caricata dalla pagina;
 - solo dopo passare a test applicativi, query, container o permessi.
 
-Per i chart <nome progetto> la catena minima da controllare e`:
+Per i chart Quaeris la catena minima da controllare e`:
 Per i chart App la catena minima da controllare e`:
 - `QuestionChartChartData`
 - `BuildQuestionChartDatasetAction`
@@ -268,10 +268,10 @@ Quando c'è un errore/issue da correggere, CREARE SEMPRE:
 
 ```bash
 # Creare issue
-gh issue create --repo provtv/<repo progetto> --title "..." --body "..."
+gh issue create --repo provtv/base_ptv_fila5_mono --title "..." --body "..."
 
 # Creare discussion
-gh api repos/provtv/<repo progetto>/discussions --method POST -f category_id=... --field body="..."
+gh api repos/provtv/base_ptv_fila5_mono/discussions --method POST -f category_id=... --field body="..."
 ```
 
 ## 9. Chaos Monkey Incident Response

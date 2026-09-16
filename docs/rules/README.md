@@ -26,7 +26,7 @@ related:
 
 ## 📋 Overview
 
-This directory contains **mandatory rules** and governance documents for the <nome progetto> platform.
+This directory contains **mandatory rules** and governance documents for the FixCity platform.
 This directory contains **mandatory rules** and governance documents for the Notify platform.
 
 ---
@@ -100,7 +100,7 @@ apache2ctl configtest
 ls -la /etc/apache2/sites-enabled/
 
 # Verify document root
-grep -r "DocumentRoot" /etc/apache2/sites-available/<nome progetto>.local.conf
+grep -r "DocumentRoot" /etc/apache2/sites-available/fixcity.local.conf
 grep -r "DocumentRoot" /etc/apache2/sites-available/laraxot.local.conf
 ```
 

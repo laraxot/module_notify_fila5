@@ -1,4 +1,4 @@
-# <nome progetto> - Analisi Completa del Progetto e Roadmap
+# FixCity - Analisi Completa del Progetto e Roadmap
 
 **Data Analisi**: 1 Ottobre 2025  
 **Analista**: AI Assistant  
@@ -8,9 +8,9 @@
 
 ## 🎯 SCOPO DEL PROGETTO
 
-### Cos'è <nome progetto>?
+### Cos'è FixCity?
 
-**<nome progetto>** è una **piattaforma di segnalazione cittadina (Civic Reporting)** che permette ai cittadini di:
+**FixCity** è una **piattaforma di segnalazione cittadina (Civic Reporting)** che permette ai cittadini di:
 1. **Segnalare problemi urbani** alla propria amministrazione comunale
 2. **Tracciare lo stato** delle segnalazioni in tempo reale
 3. **Collaborare** con l'amministrazione per migliorare la città
@@ -48,7 +48,7 @@ Frontend Cittadini:
 └── Alpine.js (interattività)
 
 Backend Admin:
-├── Laravel 13.24.0
+├── Laravel 12.24.0
 ├── PHP 8.3.20
 ├── Filament 3.x (admin panel)
 ├── SQLite (database)
@@ -69,11 +69,11 @@ Moduli Supporto:
 ### Architettura Modulare
 
 ```
-/var/www/_bases/<repo progetto>/
-/var/www/_bases/<repo progetto>/
+/var/www/_bases/base_fixcity_fila5_mono/
+/var/www/_bases/base_ptv_fila5_mono/
 ├── laravel/                    # Root Laravel
 │   ├── Modules/               # Moduli business
-│   │   ├── <nome progetto>/          # Core segnalazioni
+│   │   ├── Fixcity/          # Core segnalazioni
 │   │   ├── User/             # Gestione utenti
 │   │   ├── Xot/              # Framework base
 │   │   └── [altri moduli]/
@@ -323,7 +323,7 @@ Moduli Supporto:
 
 4. **Core Framework Issues** (Xot module: 9 errori)
    - Contract methods mancanti
-   - Type mismatches Filament 5
+   - Type mismatches Filament 4
    - Dead code
 
 ---
@@ -494,7 +494,7 @@ Moduli Supporto:
 
 ---
 
-**Conclusione**: <nome progetto> è un progetto **solido e ben architettato** con un **core funzionale completo** (90%). Le aree di miglioramento principali sono **qualità del codice (quasi completa)**, **test coverage**, **API standardization** e **feature avanzate** (mobile, real-time, AI).
+**Conclusione**: FixCity è un progetto **solido e ben architettato** con un **core funzionale completo** (90%). Le aree di miglioramento principali sono **qualità del codice (quasi completa)**, **test coverage**, **API standardization** e **feature avanzate** (mobile, real-time, AI).
 
 **Potenziale commerciale**: ⭐⭐⭐⭐⭐ (5/5)  
 **Qualità tecnica**: ⭐⭐⭐⭐ (4/5 → 5/5 dopo PHPStan completion)  
@@ -505,7 +505,7 @@ Moduli Supporto:
 
 **Documento creato**: 1 Ottobre 2025  
 **Prossimo review**: 1 Novembre 2025  
-**Maintainer**: [Team <nome progetto>]
+**Maintainer**: [Team FixCity]
 
 
 

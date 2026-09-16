@@ -1,4 +1,4 @@
-# 📸 Analisi Visiva Header & Footer - <nome progetto> vs Bootstrap Italia
+# 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
 # 📸 Analisi Visiva Header & Footer - Notify vs Bootstrap Italia
 
 ## Data: {{ date('Y-m-d H:i:s') }}
@@ -8,7 +8,7 @@
 ## 🎯 Problema Identificato
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
-**<nome progetto>**: http://<nome progetto>.local/it/tests/homepage
+**FixCity**: http://fixcity.local/it/tests/homepage
 **Notify**: http://laraxot.local/it/tests/homepage
 
 **Differenze Principali**:
@@ -160,9 +160,9 @@
 
 ---
 
-## 3. <nome progetto> - Differenze Attuali
+## 3. FixCity - Differenze Attuali
 
-### Header <nome progetto> (Errato)
+### Header FixCity (Errato)
 ## 3. Notify - Differenze Attuali
 
 ### Header Notify (Errato)
@@ -175,7 +175,7 @@
 ❌ Login: Stile non Bootstrap Italia
 ```
 
-### Footer <nome progetto> (Errato)
+### Footer FixCity (Errato)
 ### Footer Notify (Errato)
 
 ```

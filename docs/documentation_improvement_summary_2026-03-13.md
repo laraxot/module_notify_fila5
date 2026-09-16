@@ -174,23 +174,23 @@ Saved **4 global memories** for AI assistants:
 ## 🐙 GitHub Issues Created
 
 ### Issue #6: Documentation Governance Framework Implementation
-- **URL**: https://github.com/laraxot/<repo progetto>/issues/6
-- **URL**: https://github.com/laraxot/<repo progetto>/issues/6
+- **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/6
+- **URL**: https://github.com/laraxot/base_ptv_fila5/issues/6
 - **Status**: Open
 - **Focus**: Track governance framework rollout
 - **Next Steps**: Duplicate consolidation, link audit, automation
 
 ### Issue #7: Xot Module Documentation Audit
-- **URL**: https://github.com/laraxot/<repo progetto>/issues/7
-- **URL**: https://github.com/laraxot/<repo progetto>/issues/7
+- **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/7
+- **URL**: https://github.com/laraxot/base_ptv_fila5/issues/7
 - **Status**: Open
 - **Focus**: Reduce Xot docs from 3,256 → 1,500 files
 - **Timeline**: 2-3 weeks
 - **Impact**: 54% reduction, easier navigation
 
 ### Related Issue #4: Database Directory Naming
-- **URL**: https://github.com/laraxot/<repo progetto>/issues/4
-- **URL**: https://github.com/laraxot/<repo progetto>/issues/4
+- **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/4
+- **URL**: https://github.com/laraxot/base_ptv_fila5/issues/4
 - **Status**: Completed ✅
 - **Focus**: Fixed Factories→factories, etc.
 

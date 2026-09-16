@@ -24,7 +24,7 @@
 ### Local Implementation
 - Base URL: http://127.0.0.1:8000/it/tests/
 - Blade template: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
-- Config system: JSON-driven content in `laravel/config/local/<nome progetto>/database/content/pages/`
+- Config system: JSON-driven content in `laravel/config/local/fixcity/database/content/pages/`
 - Config system: JSON-driven content in `laravel/config/local/ptv/database/content/pages/`
 
 ---

@@ -241,7 +241,7 @@ Notify è la piattaforma enterprise leader per la gestione delle segnalazioni ur
 
 ### Technology Stack
 - ✅ **Laravel 11.x**: Framework
-- ✅ **Filament 5.x**: Admin panel
+- ✅ **Filament 4.x**: Admin panel
 - ✅ **Livewire 3.x**: Frontend
 - ✅ **TailwindCSS**: Styling
 - ✅ **PostgreSQL**: Database
@@ -315,7 +315,7 @@ public function createTicket(
 
 ### Technical Excellence
 - [x] PHPStan Level 9 - 0 errors
-- [x] Filament 5.x compatibility
+- [x] Filament 4.x compatibility
 - [ ] Test coverage 80%
 - [ ] Performance < 200ms
 - [ ] Lighthouse score 95+

@@ -42,7 +42,7 @@ return [
             'tooltip' => ''],
         'notes' => [
             'description' => 'notes',
-            'helper_text' => '',
+            'helper_text' => 'notes',
             'placeholder' => 'notes',
             'label' => 'notes',
             'tooltip' => '']],

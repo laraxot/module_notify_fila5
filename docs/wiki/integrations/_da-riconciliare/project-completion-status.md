@@ -127,7 +127,7 @@ related:
 
 ### Qualità Codice
 - **PHPStan Level 9**: ✅ 0 errori
-- **Filament 5.x**: ✅ Compatibile
+- **Filament 4.x**: ✅ Compatibile
 - **Test Coverage**: 🚧 65% (target 80%)
 - **AGID Compliance**: 🚧 90% (target 100%)
 
@@ -203,7 +203,7 @@ related:
 
 ```
 <nome repository>/
-<nome repitory>/
+<nome repitory>_mono/
 ├── documentation-index.md          # ✅ Indice generale
 ├── quick-start.md                  # ✅ Guida rapida
 ├── roadmap-status-summary.md       # ✅ Status master

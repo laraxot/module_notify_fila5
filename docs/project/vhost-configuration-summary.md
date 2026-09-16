@@ -5,8 +5,8 @@ tags: [vhost, configuration, summary]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "vhost-configuration-summary 🌐 vhost configuration summary"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2-1-1-plan.md"
   - "./2-1-context.md"
@@ -124,7 +124,7 @@ This document summarizes the complete VHost configuration implementation for the
 ## 📁 File Structure
 
 ```
-<repo progetto>/
+base_ptvx_fila5/
 ├── laravel/
 │   └── config/
 │       └── vhost/

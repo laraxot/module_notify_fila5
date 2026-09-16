@@ -1734,7 +1734,7 @@ Schema::table('mail_templates', function (Blueprint $table) {
 
 **Ultimo aggiornamento**: 27 Ottobre 2025  
 **Status**: ✅ PLUGIN REGISTRATO  
-**Compatibilità**: Filament 5.x
+**Compatibilità**: Filament 4.x
 
 
 

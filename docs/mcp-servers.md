@@ -5,8 +5,8 @@ tags: [mcp, servers]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "mcp-servers mcp servers - master index"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -20,7 +20,7 @@ related:
 
 # MCP Servers - Master Index
 
-**Project**: <nome progetto> Platform  
+**Project**: FixCity Platform  
 **Last Updated**: 2026-04-09  
 **Configuration**: `laravel/.mcp.json`  
 **Total Servers**: 10
@@ -50,7 +50,7 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 ### laravel-boost
 - **Type**: Laravel-specific
 - **Command**: `php artisan boost:mcp`
-- **Use**: Laravel 13, Filament, Livewire documentation and best practices
+- **Use**: Laravel 12, Filament, Livewire documentation and best practices
 - **Module Docs**: [Xot MCP Guide](../Modules/Xot/docs/mcp-servers.md) | [Theme MCP Guide](../Themes/Sixteen/docs/mcp-servers.md)
 
 ### fetch
@@ -62,8 +62,8 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 ### filesystem
 - **Type**: File operations
 - **Package**: `@modelcontextprotocol/server-filesystem`
-- **Scope**: `/var/www/_bases/<repo progetto>`
-- **Scope**: `/var/www/_bases/<repo progetto>`
+- **Scope**: `/var/www/_bases/base_fixcity_fila5`
+- **Scope**: `/var/www/_bases/base_ptv_fila5`
 - **Use**: Read/write files, search directories, explore project structure
 
 ### sqlite
@@ -84,7 +84,7 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Package**: `@modelcontextprotocol/server-memory`
 - **Use**: Store project decisions, patterns, conventions
 - **Persistence**: Survives across sessions
-- **Example**: "<nome progetto> uses XotBaseModel pattern"
+- **Example**: "Fixcity uses XotBaseModel pattern"
 
 ### github
 - **Type**: Version Control
@@ -110,7 +110,7 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Type**: AI Memory Infrastructure
 - **CLI**: `supermemory` (npm global)
 - **API Key**: Configured in `.mcp.json`
-- **Container Tag**: `<nome progetto>`
+- **Container Tag**: `fixcity`
 - **Container Tag**: `ptv`
 - **Use**: 
   - Persistent project context across conversations
@@ -175,19 +175,19 @@ supermemory whoami
 
 ### Add Project Context
 ```bash
-supermemory add --tag <nome progetto> --file .supermemory/<nome progetto>-context.md
+supermemory add --tag fixcity --file .supermemory/fixcity-context.md
 supermemory add --tag ptv --file .supermemory/ptv-context.md
 ```
 
 ### Search Memories
 ```bash
-supermemory search "<nome progetto> architecture" --tag <nome progetto>
-supermemory search "<nome progetto> architecture" --tag ptv
+supermemory search "FixCity architecture" --tag fixcity
+supermemory search "FixCity architecture" --tag ptv
 ```
 
 ### Get Profile
 ```bash
-supermemory profile --tag <nome progetto> --query "project preferences"
+supermemory profile --tag fixcity --query "project preferences"
 supermemory profile --tag ptv --query "project preferences"
 ```
 
@@ -196,7 +196,7 @@ supermemory profile --tag ptv --query "project preferences"
 Each module has specific MCP usage guidelines. See module-specific docs:
 
 - **Xot**: [MCP Servers Guide](../Modules/Xot/docs/mcp-servers.md)
-- **<nome progetto>**: Module-specific patterns for ticket system
+- **Fixcity**: Module-specific patterns for ticket system
 - **User**: Authentication and user management
 - **Cms**: Content management patterns
 

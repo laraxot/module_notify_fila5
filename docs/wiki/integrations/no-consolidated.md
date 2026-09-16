@@ -933,7 +933,7 @@ python scripts/run.py ask_question.py \
 ```bash
 # Research Laravel patterns
 python scripts/run.py ask_question.py \
-  --question "What are Laravel 13 best practices for service architecture?"
+  --question "What are Laravel 12 best practices for service architecture?"
 
 # Research Filament v5
 python scripts/run.py ask_question.py \
@@ -3187,7 +3187,7 @@ Per implementazioni specifiche, vedere i documenti:
 
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di App.
-Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
+Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di Quaeris.
 
 ## Principi Architetturali per Tutti i Provider
 

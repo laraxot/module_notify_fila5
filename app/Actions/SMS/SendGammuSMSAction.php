@@ -6,10 +6,9 @@ namespace Modules\Notify\Actions\SMS;
 
 use Exception;
 use Illuminate\Support\Str;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
-use Override;
+use Modules\Notify\Models\Contracts\SmsActionContract;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Process\Process;
 
@@ -61,7 +60,6 @@ final class SendGammuSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
-    #[Override]
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono

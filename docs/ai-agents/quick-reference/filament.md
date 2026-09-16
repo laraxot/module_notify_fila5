@@ -24,5 +24,5 @@
 ```bash
 cd laravel
 php artisan optimize:clear
-vendor/bin/phpstan analyse Modules/Xot Modules/<nome progetto>
+vendor/bin/phpstan analyse Modules/Xot Modules/Quaeris
 ```

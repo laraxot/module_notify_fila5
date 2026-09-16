@@ -1,12 +1,12 @@
 ---
-title: "✅ <nome progetto> Improvement Plan - START HERE"
+title: "✅ FixCity Improvement Plan - START HERE"
 type: concept
-tags: [<nome progetto>, improvement, start, here]
+tags: [fixcity, improvement, start, here]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "<nome progetto>-improvement-start-here ✅ <nome progetto> improvement plan - start here"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+qmd: "fixcity-improvement-start-here ✅ fixcity improvement plan - start here"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2-1-1-plan.md"
   - "./2-1-context.md"
@@ -18,9 +18,9 @@ related:
   - "./design-comuni-bmad-master-plan.md"
 ---
 
-# ✅ <nome progetto> Improvement Plan - START HERE
+# ✅ FixCity Improvement Plan - START HERE
 
-**URL**: http://<nome progetto>.local/it  
+**URL**: http://fixcity.local/it  
 **Date**: 2026-03-30  
 **Status**: ✅ **READY TO START**  
 **Timeline**: 17 settimane (4 mesi)
@@ -33,7 +33,7 @@ related:
 
 ```bash
 # Master plan (1,555 righe)
-cat .planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md
+cat .planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md
 
 # Execution plan (515 righe)
 cat .planning/improvements/EXECUTION_PLAN.md
@@ -55,7 +55,7 @@ cat .planning/improvements/RESEARCH_summary.md
 /gsd-plan-phase 0.1
 
 # Esegui con Ralph Loop
-cp .planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md .ralph/prd.json
+cp .planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md .ralph/prd.json
 ./.ralph/ralph-loop.sh 10 true
 ```
 
@@ -63,7 +63,7 @@ cp .planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md .ralph/prd.json
 
 ```bash
 openviking init
-openviking add-memory "<nome progetto> Improvement Plan started 2026-03-30"
+openviking add-memory "FixCity Improvement Plan started 2026-03-30"
 ```
 
 ---
@@ -132,7 +132,7 @@ openviking add-memory "<nome progetto> Improvement Plan started 2026-03-30"
 
 ### Created Today
 
-1. **`.planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md`** (1,555 righe)
+1. **`.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md`** (1,555 righe)
    - Complete improvement plan
    - All priorities P0-P3
    - Detailed breakdowns
@@ -250,7 +250,7 @@ openviking add-memory "P0.1 complete"
 
 ### Improvement Docs
 
-- [Master Plan](.planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md)
+- [Master Plan](.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md)
 - [Execution Plan](.planning/improvements/EXECUTION_PLAN.md)
 - [Research Summary](.planning/improvements/RESEARCH_summary.md)
 - [NotebookLM Guide](.planning/improvements/NOTEBOOK_LM_GUIDE.md)
@@ -299,4 +299,4 @@ openviking add-memory "P0.1 complete"
 **Next Action**: `/gsd-discuss-phase 0.1`  
 **ETA Production**: 2026-10-26 (17 settimane)
 
-**Let's improve <nome progetto>! 🚀**
+**Let's improve FixCity! 🚀**

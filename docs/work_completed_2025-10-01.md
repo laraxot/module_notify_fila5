@@ -8,7 +8,7 @@
 
 ## 🎯 OBIETTIVO
 
-Aggiornare e sincronizzare tutte le roadmap e la documentazione dei moduli e temi del progetto <nome progetto>,
+Aggiornare e sincronizzare tutte le roadmap e la documentazione dei moduli e temi del progetto FixCity,
 portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi del progetto.
 
 ---
@@ -86,9 +86,9 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 
 ---
 
-### 4. 🎫 Aggiornamento Roadmap Modulo <nome progetto>
+### 4. 🎫 Aggiornamento Roadmap Modulo Fixcity
 
-**File**: `/laravel/Modules/<nome progetto>/docs/ROADMAP_2025.md`
+**File**: `/laravel/Modules/Fixcity/docs/ROADMAP_2025.md`
 
 **Modifiche**:
 - ✅ Aggiornato status API Development: 20% → 45%
@@ -148,7 +148,7 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 
 ### Documenti Aggiornati
 - ✅ 1 roadmap master aggiornata
-- ✅ 3 roadmap moduli aggiornate (<nome progetto>, User, Sixteen)
+- ✅ 3 roadmap moduli aggiornate (Fixcity, User, Sixteen)
 - ✅ 3 nuovi documenti creati
 
 ### Documenti Creati
@@ -181,7 +181,7 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 
 ### Metriche Chiave
 - **PHPStan Level 9**: ✅ 0 errori
-- **Filament 5.x**: ✅ Compatibile
+- **Filament 4.x**: ✅ Compatibile
 - **Test Coverage**: 🚧 65% (target 80%)
 - **AGID Compliance**: 🚧 90% (target 100%)
 - **Documentation**: 🚧 65% (target 95%)
@@ -197,13 +197,13 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 4. 📋 Pianificazione sprint ottobre
 
 ### Short Term (Prossimi 30 giorni)
-1. 📋 Completare API documentation <nome progetto>
+1. 📋 Completare API documentation Fixcity
 2. 📋 Completare User guide 2FA/SSO
 3. 📋 Completare UI component documentation
 4. 📋 Raggiungere AGID compliance 100%
 
 ### Medium Term (Q4 2025)
-1. 📋 API v1 <nome progetto> completa
+1. 📋 API v1 Fixcity completa
 2. 📋 Mobile interface ottimizzata
 3. 📋 Test coverage 70%
 4. 📋 Documentation 75%
@@ -223,7 +223,7 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 - **[QUICK_START.md](./QUICK_START.md)** - Guida rapida sviluppatori
 
 ### Moduli Principali
-- **[<nome progetto> ROADMAP_2025.md](./laravel/Modules/<nome progetto>/docs/ROADMAP_2025.md)**
+- **[Fixcity ROADMAP_2025.md](./laravel/Modules/Fixcity/docs/ROADMAP_2025.md)**
 - **[User ROADMAP.md](./laravel/Modules/User/docs/ROADMAP.md)**
 - **[Sixteen ROADMAP_2025.md](./laravel/Themes/Sixteen/docs/ROADMAP_2025.md)**
 
@@ -238,7 +238,7 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 
 ### Aggiornamenti
 - [x] ROADMAP_STATUS_SUMMARY.md aggiornato
-- [x] <nome progetto> ROADMAP_2025.md aggiornato
+- [x] Fixcity ROADMAP_2025.md aggiornato
 - [x] User ROADMAP.md aggiornato
 - [x] Sixteen ROADMAP_2025.md aggiornato
 
@@ -259,9 +259,9 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ## 📞 CONTATTI
 
 Per domande su questo aggiornamento:
-- **Email**: dev@<nome progetto>.it
-- **Slack**: #<nome progetto>-dev
-- **GitHub**: [laraxot/<nome progetto>](https://github.com/laraxot/<nome progetto>)
+- **Email**: dev@fixcity.it
+- **Slack**: #fixcity-dev
+- **GitHub**: [laraxot/fixcity](https://github.com/laraxot/fixcity)
 - **Email**: dev@ptv.it
 - **Slack**: #ptv-dev
 - **GitHub**: [laraxot/ptv](https://github.com/laraxot/ptv)

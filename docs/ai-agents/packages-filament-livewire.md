@@ -130,7 +130,7 @@ public function getTableHeading(): ?string { ... }
 
 ---
 
-## Filament 5 — Novita rispetto a Filament 5
+## Filament 5 — Novita rispetto a Filament 4
 
 ### 1. Pacchetto Schemas (nuovo)
 
@@ -160,7 +160,7 @@ protected function getOptions(): array | RawJs | null
 
 ### 4. Colonne tabella con chiavi stringa (obbligatorio)
 
-In Filament 5 erano accettate anche chiavi numeriche. In Filament 5 le chiavi stringa sono obbligatorie per il lookup colonne.
+In Filament 4 erano accettate anche chiavi numeriche. In Filament 5 le chiavi stringa sono obbligatorie per il lookup colonne.
 
 ---
 
@@ -447,7 +447,7 @@ new class extends Component {
 
 ```php
 use Livewire\Livewire;
-use Modules\<nome progetto>\Filament\Widgets\SalesChartWidget;
+use Modules\Quaeris\Filament\Widgets\SalesChartWidget;
 use Modules\App\Filament\Widgets\SalesChartWidget;
 
 it('renders chart widget', function (): void {

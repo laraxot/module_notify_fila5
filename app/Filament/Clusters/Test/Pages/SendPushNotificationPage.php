@@ -22,7 +22,6 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Override;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
@@ -217,7 +216,6 @@ class SendPushNotificationPage extends XotBasePage
                 ->submit('notificationFormActions')];
     }
 
-    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

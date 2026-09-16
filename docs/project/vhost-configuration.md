@@ -14,7 +14,7 @@ This document describes the Apache VirtualHost configuration for local developme
 ### Key Points
 
 - **Domain**: `laraxot.local`
-- **Document Root**: `/var/www/_bases/<repo progetto>/public_html`
+- **Document Root**: `/var/www/_bases/base_ptvx_fila5/public_html`
 - **Config sorgente**: `laravel/config/vhost/laraxot.local.conf`
 - **Config Apache**: `/etc/apache2/sites-available/laraxot.local.conf` ✅ abilitato
 - **Hosts (Windows)**: `172.27.106.41 laraxot.local` in `C:\Windows\System32\drivers\etc\hosts`
@@ -25,7 +25,7 @@ This document describes the Apache VirtualHost configuration for local developme
 ## 📁 File Locations
 
 ```
-/var/www/_bases/<repo progetto>/
+/var/www/_bases/base_ptvx_fila5/
 ├── laravel/
 │   └── config/
 │       └── vhost/
@@ -42,7 +42,7 @@ This document describes the Apache VirtualHost configuration for local developme
 
 ```bash
 # Copy configuration to Apache sites-available
-sudo cp /var/www/_bases/<repo progetto>/laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/laraxot.local.conf
+sudo cp /var/www/_bases/base_ptvx_fila5/laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/laraxot.local.conf
 
 # Enable the site
 sudo a2ensite laraxot.local
@@ -94,16 +94,16 @@ Open your browser and navigate to:
     ServerAlias www.laraxot.local
     
     # Document Root - MUST point to public_html
-    DocumentRoot /var/www/_bases/<repo progetto>/public_html
+    DocumentRoot /var/www/_bases/base_ptvx_fila5/public_html
     
     # Directory Permissions
-    <Directory /var/www/_bases/<repo progetto>>
+    <Directory /var/www/_bases/base_ptvx_fila5>
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
     </Directory>
     
-    <Directory /var/www/_bases/<repo progetto>/public_html>
+    <Directory /var/www/_bases/base_ptvx_fila5/public_html>
         Options -Indexes +FollowSymLinks +MultiViews
         AllowOverride All
         Require all granted
@@ -146,8 +146,8 @@ sudo tail -f /var/log/apache2/app_local_error.log
 
 **Verify Permissions:**
 ```bash
-sudo chown -R www-data:www-data /var/www/_bases/<repo progetto>/public_html
-sudo chmod -R 755 /var/www/_bases/<repo progetto>/public_html
+sudo chown -R www-data:www-data /var/www/_bases/base_ptvx_fila5/public_html
+sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5/public_html
 ```
 
 ### Issue: 403 Forbidden
@@ -155,22 +155,22 @@ sudo chmod -R 755 /var/www/_bases/<repo progetto>/public_html
 **Solution:**
 ```bash
 # Check directory permissions
-ls -la /var/www/_bases/<repo progetto>/public_html
+ls -la /var/www/_bases/base_ptvx_fila5/public_html
 
 # Fix permissions if needed
-sudo chmod -R 755 /var/www/_bases/<repo progetto>
+sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5
 ```
 
 ### Issue: 500 Internal Server Error
 
 **Check Laravel Logs:**
 ```bash
-tail -f /var/www/_bases/<repo progetto>/laravel/storage/logs/laravel.log
+tail -f /var/www/_bases/base_ptvx_fila5/laravel/storage/logs/laravel.log
 ```
 
 **Verify .env Configuration:**
 ```bash
-cd /var/www/_bases/<repo progetto>/laravel
+cd /var/www/_bases/base_ptvx_fila5/laravel
 cat .env | grep APP_URL
 # Should be: APP_URL=http://laraxot.local
 ```
@@ -259,7 +259,7 @@ Response
 ### Directory Structure
 
 ```
-<repo progetto>/
+base_ptvx_fila5/
 ├── public_html/              ← Document Root (web accessible)
 │   ├── index.php            ← Entry point
 │   ├── .htaccess            ← URL rewriting rules
@@ -289,7 +289,7 @@ For Nginx users, see: `docs/project/vhost-nginx-configuration.md`
 
 For quick testing:
 ```bash
-cd /var/www/_bases/<repo progetto>/public_html
+cd /var/www/_bases/base_ptvx_fila5/public_html
 php -S localhost:8000
 ```
 

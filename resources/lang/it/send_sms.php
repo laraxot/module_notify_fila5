@@ -7,7 +7,7 @@ return [
         'recipient' => [
             'label' => 'recipient',
             'placeholder' => 'recipient',
-            'helper_text' => '',
+            'helper_text' => 'recipient',
             'description' => 'recipient',
             'tooltip' => '']],
     'actions' => [

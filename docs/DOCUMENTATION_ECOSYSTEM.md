@@ -1,4 +1,4 @@
-# <nome progetto> Documentation Ecosystem - Visual Map
+# FixCity Documentation Ecosystem - Visual Map
 
 **📍 Complete Bidirectional Links & Cross-References**
 
@@ -8,7 +8,7 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│            <nome progetto> Fila5 Documentation Ecosystem                 │
+│            FixCity Fila5 Documentation Ecosystem                 │
 │                   (7,137+ Connected Files)                       │
 └──────────────────────────────────────────────────────────────────┘
 

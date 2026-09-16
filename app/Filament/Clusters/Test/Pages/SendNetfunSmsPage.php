@@ -21,7 +21,6 @@ use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\SmsNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Override;
 
 /**
  * @property Schema $smsForm
@@ -105,7 +104,7 @@ class SendNetfunSmsPage extends XotBasePage
                 ->required()];
     }
 
-    public function sendSms(): void
+    public function sendSMS(): void
     {
         $data = $this->smsForm->getState();
 
@@ -149,10 +148,9 @@ class SendNetfunSmsPage extends XotBasePage
     protected function getSmsFormActions(): array
     {
         return [
-            Action::make('sendSms')->label(__('notify::sms.actions.send'))->submit('sendSms')];
+            Action::make('sendSMS')->label(__('notify::sms.actions.send'))->submit('sendSMS')];
     }
 
-    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

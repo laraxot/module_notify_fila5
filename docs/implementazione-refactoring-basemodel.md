@@ -15,7 +15,7 @@
 | **Activity** | 72 | 45 | **37%** | ✅ Clean | ✅ FATTO |
 | **Blog** | 76 | 45 | **41%** | ✅ Clean | ✅ FATTO |
 | **Cms** | 70 | 37 | **47%** | ✅ Clean | ✅ FATTO |
-| **<nome progetto>** | 72 | 43 | **40%** | ✅ Clean | ✅ FATTO |
+| **Fixcity** | 72 | 43 | **40%** | ✅ Clean | ✅ FATTO |
 | **Geo** | 78 | 31 | **60%** | ✅ Clean | ✅ FATTO |
 | **Job** | 89 | 72 | **19%** | ✅ Clean | ✅ FATTO |
 | **Lang** | 73 | 44 | **40%** | ✅ Clean | ✅ FATTO |
@@ -150,7 +150,7 @@ abstract class BaseModel extends XotBaseModel
 - ✅ Mantenuto: connection, casts con array_merge
 - ✅ LOC: 70 → 37 (47% riduzione)
 
-### <nome progetto>
+### Fixcity
 - ✅ Rimosso: 8 proprietà duplicate, 2 trait ridichiarati
 - ✅ Mantenuto: connection, SoftDeletes, $fillable, $dates
 - ✅ LOC: 72 → 43 (40% riduzione)
@@ -198,7 +198,7 @@ abstract class BaseModel extends XotBaseModel
   Modules/Activity/app/Models/BaseModel.php \
   Modules/Blog/app/Models/BaseModel.php \
   Modules/Cms/app/Models/BaseModel.php \
-  Modules/<nome progetto>/app/Models/BaseModel.php \
+  Modules/Fixcity/app/Models/BaseModel.php \
   Modules/Geo/app/Models/BaseModel.php \
   Modules/Job/app/Models/BaseModel.php \
   Modules/Lang/app/Models/BaseModel.php \
@@ -251,7 +251,7 @@ Modules/*/app/Models/BaseModel.php.backup-20251015-*
 | Modulo | Trait Mantenuto | Motivazione |
 |--------|-----------------|-------------|
 | Blog | `InteractsWithMedia`, `SoftDeletes` | Spatie Media Library + soft delete |
-| <nome progetto> | `SoftDeletes` | Gestione segnalazioni con soft delete |
+| Fixcity | `SoftDeletes` | Gestione segnalazioni con soft delete |
 | Notify | `InteractsWithMedia` | Gestione media per notifiche |
 | User | `RelationX` | Relazioni complesse utente |
 
@@ -278,7 +278,7 @@ public function __construct(array $attributes = [])
 
 **Motivazione:** Table prefix dinamico per Job scheduler
 
-### 2. <nome progetto> Module - $dates Property
+### 2. Fixcity Module - $dates Property
 ```php
 // ✅ MANTENUTO: Necessario per SoftDeletes
 protected $dates = ['published_at', 'created_at', 'updated_at', 'deleted_at'];
@@ -330,7 +330,7 @@ abstract class BaseModel extends EloquentModel
 1. ✅ `Modules/Xot/docs/analisi-metodi-duplicati.md`
 2. ✅ `Modules/User/docs/analisi-metodi-duplicati.md`
 3. ✅ `Modules/Cms/docs/analisi-metodi-duplicati.md`
-4. ✅ `Modules/<nome progetto>/docs/analisi-metodi-duplicati.md`
+4. ✅ `Modules/Fixcity/docs/analisi-metodi-duplicati.md`
 
 ---
 
@@ -420,7 +420,7 @@ abstract class BaseModel extends XotBaseModel
 - Activity: Clean
 - Blog: Clean
 - Cms: Clean
-- <nome progetto>: Clean
+- Fixcity: Clean
 - Geo: Clean
 - Job: Clean
 - Lang: Clean
@@ -491,7 +491,7 @@ Abbiamo completato il refactoring di 10 BaseModel eliminando duplicazioni:
 - PHPStan clean su tutti i moduli
 
 ✅ MODULI COMPLETATI:
-Activity, Blog, Cms, <nome progetto>, Geo, Job, Lang, Media, Notify, User
+Activity, Blog, Cms, Fixcity, Geo, Job, Lang, Media, Notify, User
 
 🔍 VALIDAZIONE:
 - PHPStan Level 3: ✅ No errors

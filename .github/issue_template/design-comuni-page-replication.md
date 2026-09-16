@@ -11,7 +11,7 @@ assignees: ''
 Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 **Source**: https://italia.github.io/design-comuni-pagine-statiche/sito/[pagina-name].html  
-**Target**: http://<nome progetto>.local/it/tests/[pagina-name]  
+**Target**: http://fixcity.local/it/tests/[pagina-name]  
 **Target**: http://ptv.local/it/tests/[pagina-name]  
 **HTML Parity**: 100% match dentro `<body>` (esclusi scripts)
 
@@ -20,7 +20,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 ## ✅ Checklist
 
 ### 1. JSON Content
-- [ ] Creare `laravel/config/local/<nome progetto>/database/content/pages/tests.[pagina-name].json`
+- [ ] Creare `laravel/config/local/fixcity/database/content/pages/tests.[pagina-name].json`
 - [ ] Creare `laravel/config/local/ptv/database/content/pages/tests.[pagina-name].json`
 - [ ] Definire blocchi con type generici (hero, card, navigation, etc.)
 - [ ] Set weight per ordinamento
@@ -32,7 +32,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 - [ ] Assicurarsi che blocchi siano universali (NOT page-specific)
 
 ### 3. Test Pagina
-- [ ] Visitare `http://<nome progetto>.local/it/tests/[pagina-name]`
+- [ ] Visitare `http://fixcity.local/it/tests/[pagina-name]`
 - [ ] Visitare `http://ptv.local/it/tests/[pagina-name]`
 - [ ] Verificare rendering corretto
 - [ ] Controllare header e footer
@@ -44,7 +44,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### 5. Screenshot Comparison
 - [ ] Screenshot originale
-- [ ] Screenshot <nome progetto>
+- [ ] Screenshot FixCity
 - [ ] Analisi differenze
 - [ ] Save in `laravel/Themes/Sixteen/docs/design-comuni/screenshots/[pagina-name]/`
 - [ ] Creare `[pagina-name]-comparison.md` con analisi e fix
@@ -78,7 +78,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### Header
 - **Originale**: [Link]
-- **<nome progetto>**: [Link]
+- **FixCity**: [Link]
 - **Differenze**:
   - Colori: ❌ Diversi
   - Logo: ❌ Non visibile
@@ -87,7 +87,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### Footer
 - **Originale**: [Link]
-- **<nome progetto>**: [Link]
+- **FixCity**: [Link]
 - **Differenze**:
   - Layout: ❌ Diverso
   - Link: ❌ Mancanti
@@ -95,7 +95,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### Content
 - **Originale**: [Link]
-- **<nome progetto>**: [Link]
+- **FixCity**: [Link]
 - **Differenze**: ...
 - **Fix Richiesti**: ...
 

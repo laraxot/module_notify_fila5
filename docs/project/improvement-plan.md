@@ -1,12 +1,12 @@
 ---
-title: "<nome progetto> Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop"
+title: "FixCity Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop"
 type: concept
 tags: [ptv, improvement, plan]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ptv-improvement-plan ptv improvement plan - openviking + bmad + gsd + ralph loop"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2-1-1-plan.md"
   - "./2-1-context.md"
@@ -18,17 +18,17 @@ related:
   - "./design-comuni-bmad-master-plan.md"
 ---
 
-# <nome progetto> Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop
+# FixCity Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop
 
 **Created**: 2026-03-30  
 **Status**: ✅ **READY TO EXECUTE**  
-**Project**: <nome progetto> Platform Improvement  
+**Project**: FixCity Platform Improvement  
 
 ---
 
 ## 🎯 Executive Summary
 
-I've created a comprehensive **16-week improvement plan** for <nome progetto> using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).
+I've created a comprehensive **16-week improvement plan** for FixCity using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).
 
 ### Current State → Target State
 
@@ -112,7 +112,7 @@ I've created a comprehensive **16-week improvement plan** for <nome progetto> us
 
 #### 2.2 Unit Tests - Critical Modules (45h)
 **Modules**:
-- <nome progetto> (ticket logic): 90% coverage
+- Fixcity (ticket logic): 90% coverage
 - User (authentication): 90% coverage
 - Cms (content): 85% coverage
 - Geo (geocoding): 85% coverage
@@ -383,7 +383,7 @@ cp .planning/phase-1.1.json .ralph/prd.json
 |------|---------|------|
 | `.planning/project.md` | Project context & overview | 8KB |
 | `.planning/config.json` | Roadmap & configuration | 9KB |
-| `.planning/research/<nome progetto>_PROJECT_RESEARCH_summary.md` | Research summary | 47KB |
+| `.planning/research/FIXCITY_PROJECT_RESEARCH_summary.md` | Research summary | 47KB |
 | `ptv-improvement-plan.md` | This document | 12KB |
 
 ---
@@ -452,7 +452,7 @@ cp .planning/phase-1.1.json .ralph/prd.json
 - **OpenViking**: `docs/openviking-integration.md`
 - **BMAD/GSD/Ralph**: `docs/bmad-gsd-ralph-integration.md`
 - **Unified Workflow**: `docs/unified-ai-workflow.md`
-- **Project Research**: `.planning/research/<nome progetto>_PROJECT_RESEARCH_summary.md`
+- **Project Research**: `.planning/research/FIXCITY_PROJECT_RESEARCH_summary.md`
 
 ### Commands
 - **OpenViking**: `openviking --help`

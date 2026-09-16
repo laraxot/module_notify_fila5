@@ -5,8 +5,8 @@ tags: [master, index]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "master-index design comuni italia - master documentation index"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./documentazione-report-finale.md"
   - "./index.md"
@@ -133,7 +133,7 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 FAQ Page (/it/tests/domande-frequenti)
 │
 ├─ JSON Content
-│  └─ laravel/config/local/<nome progetto>/database/content/pages/tests.domande-frequenti.json
+│  └─ laravel/config/local/fixcity/database/content/pages/tests.domande-frequenti.json
 │  └─ laravel/config/local/laraxot/database/content/pages/tests.domande-frequenti.json
 │
 ├─ Blade Templates (Tema Sixteen)

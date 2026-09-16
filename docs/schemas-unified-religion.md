@@ -138,7 +138,7 @@ Section::make()
 use Filament\Schemas\Components\Text;
 use Illuminate\Support\HtmlString;
 
-Text::make(new HtmlString((string) __('<nome progetto>::privacy.notice.html')))
+Text::make(new HtmlString((string) __('fixcity::privacy.notice.html')))
 Text::make(new HtmlString((string) __('ptv::privacy.notice.html')))
 ```
 
@@ -172,5 +172,5 @@ TextInput::make('review_title')
 - Filament Schemas Overview: https://filamentphp.com/docs/5.x/schemas/overview
 - Filament Infolists Overview: https://filamentphp.com/docs/5.x/infolists/overview
 - Filament Schemas Prime Components: https://filamentphp.com/docs/5.x/schemas/primes
-- Placeholder source locale: [Placeholder.php](/var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)
-- Placeholder source locale: [Placeholder.php](/var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)
+- Placeholder source locale: [Placeholder.php](/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)
+- Placeholder source locale: [Placeholder.php](/var/www/_bases/base_ptv_fila5/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)

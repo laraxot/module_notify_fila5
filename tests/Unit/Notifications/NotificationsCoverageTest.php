@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Unit\Notifications;
 use Illuminate\Bus\Queueable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Messages\MailMessage;
+use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Contracts\CanThemeNotificationContract;
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\NotificationData;
@@ -125,7 +126,7 @@ test('sms notification builds sms payload and provider config', function () {
     $sms = $notification->toSms(new \stdClass);
 
     Assert::assertInstanceOf(SmsData::class, $sms);
-    Assert::assertSame(['sms'], $notification->via(new \stdClass));
+    Assert::assertSame([SmsChannel::class], $notification->via(new \stdClass));
     Assert::assertSame('+39123', $sms->recipient);
     Assert::assertSame('netfun', $notification->getProvider());
     Assert::assertArrayHasKey('provider', $notification->getConfig());

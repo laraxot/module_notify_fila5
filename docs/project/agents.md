@@ -11,9 +11,9 @@ related:
   - ./coding-agent-manifests.md
 ---
 
-# <nome progetto> Platform - AGENTS.md
+# FixCity Platform - AGENTS.md
 
-This file contains comprehensive guidelines and commands for AI agents working on the <nome progetto> Laravel application.
+This file contains comprehensive guidelines and commands for AI agents working on the FixCity Laravel application.
 
 ## 🚨 CRITICAL ARCHITECTURAL RULES
 
@@ -141,7 +141,7 @@ The script `bashscripts/git/subtrees/sync_remote_repo.sh` MUST work in **TWO mod
 
 **1. CLI Mode (Local Development)**:
 ```bash
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
 bashscripts/git/subtrees/sync_remote_repo.sh laraxot
 ```
 
@@ -770,7 +770,7 @@ php artisan test --coverage
 
 ### Migration Steps
 1. **Study Documentation**: Review all docs/ folders
-2. **Backup Current State**: Create branch `Filament-5-backup`
+2. **Backup Current State**: Create branch `filament-4-backup`
 3. **Run Upgrade Script**: Use `filament/upgrade` package
 4. **Update Dependencies**: Follow script-generated commands
 5. **Test Thoroughly**: Run all tests and quality checks
@@ -838,7 +838,7 @@ This project uses `wikimedia/composer-merge-plugin` for modular dependency manag
 #### Module composer.json Pattern
 ```json
 {
-    "name": "<nome progetto>/module-name",
+    "name": "fixcity/module-name",
     "type": "laravel-module",
     "require": {
         "php": "^8.2",
@@ -1693,7 +1693,7 @@ gh run list --limit 10
 ### Resources
 
 - **[docs/MULTI_AGENT_COLLABORATION.md](docs/MULTI_AGENT_COLLABORATION.md)** - Complete guide
-- **[Issue #12](https://github.com/laraxot/<repo progetto>/issues/12)** - AI Agent Collaboration
+- **[Issue #12](https://github.com/laraxot/base_fixcity_fila5/issues/12)** - AI Agent Collaboration
 - **[docs/AI_AGENT_TEAMS.md](docs/AI_AGENT_TEAMS.md)** - Team organization
 
 ### Success Story: 2026-03-13 Sync Fix

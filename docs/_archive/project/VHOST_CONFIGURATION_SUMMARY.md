@@ -104,7 +104,7 @@ This document summarizes the complete VHost configuration implementation for the
 ## 📁 File Structure
 
 ```
-<repo progetto>/
+base_ptvx_fila5/
 ├── laravel/
 │   └── config/
 │       └── vhost/

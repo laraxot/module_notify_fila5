@@ -1,12 +1,12 @@
-# Report di Completamento Progetto <nome progetto>
+# Report di Completamento Progetto Fixcity
 
 ## Panoramica
 
-Il progetto <nome progetto> è stato completato con successo, implementando un sistema completo di gestione segnalazioni comunali con design system AGID e integrazione avanzata.
+Il progetto Fixcity è stato completato con successo, implementando un sistema completo di gestione segnalazioni comunali con design system AGID e integrazione avanzata.
 
 ## Componenti Completati
 
-### 1. Modulo <nome progetto> ✅
+### 1. Modulo Fixcity ✅
 - **API RESTful Complete**: Endpoint per gestione ticket, mappe, statistiche
 - **Sistema di Workflow**: Gestione stati e priorità delle segnalazioni
 - **Notifiche**: Sistema email e push notifications
@@ -72,7 +72,7 @@ Il progetto <nome progetto> è stato completato con successo, implementando un s
 
 ```
 laravel/
-├── Modules/<nome progetto>/                 # Modulo principale
+├── Modules/Fixcity/                 # Modulo principale
 │   ├── app/                        # Logica applicativa
 │   ├── database/                   # Migrazioni e seeder
 │   ├── resources/                  # Views e assets
@@ -113,13 +113,13 @@ COMUNE_COLORE_PRIMARIO="#0066cc"
 COMUNE_COLORE_SECONDARIO="#00cc66"
 COMUNE_COLORE_ACCENTO="#ff6600"
 
-# Configurazione <nome progetto>
-<nome progetto>_CACHE_ENABLED=true
-<nome progetto>_EMAIL_NOTIFICATIONS=true
-<nome progetto>_PUSH_NOTIFICATIONS=true
-<nome progetto>_MAP_ENABLED=true
-<nome progetto>_SEARCH_ENABLED=true
-<nome progetto>_ANALYTICS_ENABLED=true
+# Configurazione Fixcity
+FIXCITY_CACHE_ENABLED=true
+FIXCITY_EMAIL_NOTIFICATIONS=true
+FIXCITY_PUSH_NOTIFICATIONS=true
+FIXCITY_MAP_ENABLED=true
+FIXCITY_SEARCH_ENABLED=true
+FIXCITY_ANALYTICS_ENABLED=true
 ```
 
 ### Routes Disponibili
@@ -132,7 +132,7 @@ COMUNE_COLORE_ACCENTO="#ff6600"
 /comune/documenti          # Documenti
 /comune/eventi             # Eventi
 
-// API <nome progetto>
+// API Fixcity
 /api/ptv/tickets       # Gestione ticket
 /api/ptv/map/tickets   # Mappa ticket
 /api/ptv/statistics    # Statistiche
@@ -198,7 +198,7 @@ COMUNE_COLORE_ACCENTO="#ff6600"
 
 ### Prerequisiti
 - PHP 8.1+
-- Laravel 13.x
+- Laravel 12.x
 - MySQL 8.0+
 - Redis 6.0+
 - Node.js 18+
@@ -255,7 +255,7 @@ php artisan view:cache
 
 ## Conclusioni
 
-Il progetto <nome progetto> è stato completato con successo, fornendo:
+Il progetto Fixcity è stato completato con successo, fornendo:
 
 1. **Sistema Completo**: Gestione segnalazioni end-to-end
 2. **Design AGID**: Conformità alle linee guida PA italiana
@@ -269,7 +269,7 @@ Il sistema è pronto per il deployment in produzione e può essere facilmente pe
 
 ## Team e Contributi
 
-- **Sviluppo**: <nome progetto> Team
+- **Sviluppo**: Fixcity Team
 - **Design**: Bootstrap Italia + AGID
 - **Testing**: Pest + PHPUnit
 - **Documentazione**: Markdown + README

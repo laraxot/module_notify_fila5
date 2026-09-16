@@ -209,11 +209,11 @@ Questo documento descrive il piano di pulizia e standardizzazione delle traduzio
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/_bases/<nome repository>/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
-Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
+Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di Quaeris.
 
 ## Analisi della Situazione Attuale
 
-Dall'analisi dei file di traduzione nella cartella `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+Dall'analisi dei file di traduzione nella cartella `/var/www/html/Quaeris/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`
@@ -4438,7 +4438,7 @@ Modules/Notify/lang/it/create_mail_template.php
 
 
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di App, con particolare attenzione al modulo Notify.
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di Quaeris, con particolare attenzione al modulo Notify.
 
 ## Struttura delle Cartelle
 
@@ -5046,7 +5046,7 @@ touch /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_corretto
 touch [project-root]/laravel/Modules/Notify/lang/it/nome_corretto.php
 touch /var/www/_bases/<nome repository>/laravel/Modules/Notify/lang/it/nome_corretto.php
 touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
-touch /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/nome_corretto.php
+touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_corretto.php
 
 # 2. Copiare e correggere il contenuto
 
@@ -5069,10 +5069,10 @@ grep -r "nome_errato" /var/www/html/saluteora/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
 rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
-grep -r "nome_errato" /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify
+grep -r "nome_errato" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
-rm /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/nome_errato.php
+rm /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_errato.php
 ```
 
 ## Passo 3: Correzione della Struttura del File
@@ -5123,7 +5123,7 @@ ls /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/en/nome_file.php
 ls [project-root]/laravel/Modules/Notify/lang/en/nome_file.php
 ls /var/www/_bases/<nome repository>/laravel/Modules/Notify/lang/en/nome_file.php
 ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
-ls /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/en/nome_file.php
+ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/en/nome_file.php
 
 # 2. Se esiste, aggiornarlo con la stessa struttura
 
@@ -5507,13 +5507,13 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_s_m_s.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
-rm -f /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
-rm -f /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/send_s_m_s.php
-rm -f /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
-rm -f /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/send_whats_app.php
-rm -f /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_s_m_s.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_whats_app.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
 ```
 
 ### Template Standard per i File di Traduzione

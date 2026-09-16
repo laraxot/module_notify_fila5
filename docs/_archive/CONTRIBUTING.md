@@ -1,6 +1,6 @@
-# Contributing to <nome progetto>
+# Contributing to FixCity
 
-First off, thank you for considering contributing to <nome progetto>! 🎉
+First off, thank you for considering contributing to FixCity! 🎉
 
 ## 📋 Table of Contents
 
@@ -335,4 +335,4 @@ By contributing, you agree that your contributions will be licensed under the sa
 
 ---
 
-**Thank you for contributing to <nome progetto>! 🚀**
+**Thank you for contributing to FixCity! 🚀**

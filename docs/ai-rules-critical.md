@@ -5,8 +5,8 @@ tags: [rules, critical]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ai-rules-critical 🤖 ai agent rules - critical update"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -43,8 +43,8 @@ related:
 
 ```bash
 # After creating/modifying files
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptv_fila5
 
 # 1. Add all changes
 git add .
@@ -63,8 +63,8 @@ git commit -m "Add feature X with documentation
 git push origin dev
 
 # 5. Verify on GitHub
-gh run list --repo laraxot/<repo progetto>
-gh run list --repo laraxot/<repo progetto>
+gh run list --repo laraxot/base_fixcity_fila5
+gh run list --repo laraxot/base_ptv_fila5
 ```
 
 ---
@@ -89,8 +89,8 @@ gh run list --repo laraxot/<repo progetto>
 sleep 120
 
 # Check workflow status
-gh run list --repo laraxot/<repo progetto>
-gh run list --repo laraxot/<repo progetto>
+gh run list --repo laraxot/base_fixcity_fila5
+gh run list --repo laraxot/base_ptv_fila5
 
 # View logs
 gh run view <run-id> --log
@@ -296,8 +296,8 @@ git push origin dev
 git log -n 3 --oneline
 
 # Compare with:
-# https://github.com/laraxot/<repo progetto>/commits/dev
-# https://github.com/laraxot/<repo progetto>/commits/dev
+# https://github.com/laraxot/base_fixcity_fila5/commits/dev
+# https://github.com/laraxot/base_ptv_fila5/commits/dev
 ```
 
 ---

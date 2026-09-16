@@ -1,14 +1,14 @@
 ---
-title: "📊 Quality Dashboard - <nome progetto> Project"
+title: "📊 Quality Dashboard - FixCity Project"
 title: "📊 Quality Dashboard - Notify Project"
 type: concept
 tags: [quality, dashboard]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "quality-dashboard 📊 quality dashboard - <nome progetto> project"
+qmd: "quality-dashboard 📊 quality dashboard - fixcity project"
 qmd: "quality-dashboard 📊 quality dashboard - laraxot project"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2025-excellence-achievement.md"
   - "./agid-implementation-guide.md"
@@ -20,7 +20,7 @@ related:
   - "./final-implementation-report.md"
 ---
 
-# 📊 Quality Dashboard - <nome progetto> Project
+# 📊 Quality Dashboard - FixCity Project
 # 📊 Quality Dashboard - Notify Project
 
 **Last Updated:** 2025-10-01 21:35  
@@ -69,7 +69,7 @@ Coverage by Module:
 Xot      ████████████████████████████████████████ 90%
 Tenant   ████████████████████████████████████████ 88%
 User     ████████████████████████████████████████ 85%
-<nome progetto>  ████████████████████████████████████████ 82%
+Fixcity  ████████████████████████████████████████ 82%
 App  ████████████████████████████████████████ 82%
 Blog     ████████████████████████████████████████ 80%
 Others   ████████████████████████████████████████ 85%
@@ -111,7 +111,7 @@ Others   ███████████████████████�
 | Module | Score | Complexity | Tests | PHPStan |
 |--------|-------|------------|-------|---------|
 | Tenant | 94% | 🟢 0 | 🟢 88% | 🟢 Pass |
-| <nome progetto> | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
+| Fixcity | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
 | App | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
 | UI | 91% | 🟢 0 | 🟢 85% | 🟢 Pass |
 | Cms | 90% | 🟢 0 | 🟢 80% | 🟢 Pass |
@@ -289,9 +289,9 @@ Overall Progress: ████████████████████�
 
 ## 📞 Quality Team Contacts
 
-- **Quality Lead**: quality@<nome progetto>.com
-- **Architecture**: architecture@<nome progetto>.com
-- **Testing**: testing@<nome progetto>.com
+- **Quality Lead**: quality@fixcity.com
+- **Architecture**: architecture@fixcity.com
+- **Testing**: testing@fixcity.com
 - **Quality Lead**: quality@laraxot.com
 - **Architecture**: architecture@laraxot.com
 - **Testing**: testing@laraxot.com

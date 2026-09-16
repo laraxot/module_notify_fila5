@@ -1,4 +1,4 @@
-# LLM Wiki Schema — <nome progetto>
+# LLM Wiki Schema — FixCity
 
 Questo file è il "AGENTS.md" della wiki: istruzioni per l'LLM su come mantenere la wiki.
 # LLM Wiki Schema — Notify
@@ -141,7 +141,7 @@ Per wiki di **modulo** (`Modules/<Name>/docs/wiki/`):
 
 ---
 
-## Stack <nome progetto> — Vocabolario Wiki
+## Stack FixCity — Vocabolario Wiki
 ## Stack Notify — Vocabolario Wiki
 
 Termini specifici del progetto da usare consistentemente:
@@ -161,7 +161,7 @@ Termini specifici del progetto da usare consistentemente:
 
 ---
 
-## Note sul Contesto <nome progetto>
+## Note sul Contesto FixCity
 ## Note sul Contesto Notify
 
 - **13.174+ file raw** nei moduli — non si leggono tutti in una sessione

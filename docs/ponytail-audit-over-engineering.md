@@ -27,7 +27,7 @@
 **Modulo:** notifiche multi-canale.  
 **Hub:** [../../../../docs/audit/ponytail-audit.md](../../../../docs/audit/ponytail-audit.md)  
 **Remediation:** [../../../../docs/project/ponytail-audit-remediation.md](../../../../docs/project/ponytail-audit-remediation.md)  
-**GitHub monorepo:** [Issue #221](https://github.com/laraxot/<repo progetto>/issues) · [Discussion #222](https://github.com/laraxot/<repo progetto>/discussions) · [Discussion #228](https://github.com/laraxot/<repo progetto>/discussions)
+**GitHub monorepo:** [Issue #221](https://github.com/laraxot/base_quaeris_fila5/issues) · [Discussion #222](https://github.com/laraxot/base_quaeris_fila5/discussions) · [Discussion #228](https://github.com/laraxot/base_quaeris_fila5/discussions)
 
 ## Scopo business
 

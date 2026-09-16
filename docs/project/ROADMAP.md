@@ -1,4 +1,4 @@
-# ROADMAP: <nome progetto> Platform
+# ROADMAP: FixCity Platform
 
 ## Milestone 1: Performance & Stability (COMPLETED ✅)
 - Phase 0: Foundation

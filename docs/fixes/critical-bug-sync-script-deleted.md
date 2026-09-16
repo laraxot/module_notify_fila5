@@ -5,8 +5,8 @@ tags: [critical, bug, sync, script]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "critical-bug-sync-script-deleted 🚨 critical bug: sync_remote_repo.sh deleted"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./database-directory-naming-fix.md"
   - "./database-naming-fix-summary.md"
@@ -85,8 +85,8 @@ export -f is_interactive_shell
 
 ```bash
 # Clona il repo separato
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
 rm -rf bashscripts
 git clone git@github.com:laraxot/bashscripts_fila5.git bashscripts
 

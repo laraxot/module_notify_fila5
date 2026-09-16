@@ -5,8 +5,8 @@ tags: [farmshops, integration, complete]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "farmshops-integration-complete 🗺️ farmshops.eu integration - complete"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -28,7 +28,7 @@ related:
 
 ## 🎯 OBIETTIVO RAGGIUNTO
 
-Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecnologie in <nome progetto> per creare una mappa interattiva di livello mondiale per la visualizzazione delle segnalazioni.
+Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecnologie in FixCity per creare una mappa interattiva di livello mondiale per la visualizzazione delle segnalazioni.
 
 ---
 
@@ -66,7 +66,7 @@ Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecno
 ### 1. Documentazione Completa (1 file)
 ✅ **FARMSHOPS_INTEGRATION.md** - Guida completa integrazione
    - Analisi progetto farmshops.eu
-   - Features applicabili a <nome progetto>
+   - Features applicabili a FixCity
    - Package dependencies
    - Implementation plan
    - Code examples
@@ -159,7 +159,7 @@ Map Render → User Feedback
 4. **Geolocation** - UX mobile-first
 5. **Sidebar Pattern** - Navigazione efficace
 
-### Migliorie <nome progetto>
+### Migliorie FixCity
 6. **Livewire Integration** - Reactive updates
 7. **Dynamic Data** - Database invece di static JSON
 8. **CRUD Operations** - Non solo visualizzazione
@@ -193,21 +193,21 @@ Map Render → User Feedback
 
 ---
 
-## 🎯 UTILIZZO IN <nome progetto>
+## 🎯 UTILIZZO IN FIXCITY
 
 ### Casi d'Uso Principali
 
 #### 1. Visualizzazione Segnalazioni
 ```php
 // Homepage con mappa
-<livewire:<nome progetto>::ticket-map />
+<livewire:fixcity::ticket-map />
 <livewire:ptv::ticket-map />
 ```
 
 #### 2. Ricerca Geografica
 ```php
 // Trova segnalazioni vicine
-<livewire:<nome progetto>::ticket-map 
+<livewire:fixcity::ticket-map 
 <livewire:ptv::ticket-map 
     :center="[$userLat, $userLng]" 
     :zoom="15" 
@@ -217,7 +217,7 @@ Map Render → User Feedback
 #### 3. Dashboard Operatori
 ```php
 // Mappa con filtri per operatori
-<livewire:<nome progetto>::ticket-map 
+<livewire:fixcity::ticket-map 
 <livewire:ptv::ticket-map 
     :filters="['status' => 'open']" 
 />
@@ -226,7 +226,7 @@ Map Render → User Feedback
 #### 4. Reporting
 ```php
 // Mappa per report geografici
-<livewire:<nome progetto>::ticket-map 
+<livewire:fixcity::ticket-map 
 <livewire:ptv::ticket-map 
     :filters="['priority' => 'urgent']" 
 />
@@ -296,8 +296,8 @@ Map Render → User Feedback
 - **Geo/docs/FARMSHOPS_INTEGRATION.md** - Complete guide
 
 ### Code (2)
-- **<nome progetto>/Livewire/TicketMap.php** - Livewire component
-- **<nome progetto>/Resources/js/ticket-map.js** - JavaScript library
+- **Fixcity/Livewire/TicketMap.php** - Livewire component
+- **Fixcity/Resources/js/ticket-map.js** - JavaScript library
 
 ### Total Files: 3
 
@@ -351,6 +351,6 @@ Map Render → User Feedback
 **Quality**: 💎 **DIAMOND LEVEL**  
 **Ready**: 🚀 **FOR IMPLEMENTATION**  
 
-*"Integrando le migliori pratiche da farmshops.eu, <nome progetto> ha ora una base solida per una mappa interattiva di livello mondiale!"*
+*"Integrando le migliori pratiche da farmshops.eu, FixCity ha ora una base solida per una mappa interattiva di livello mondiale!"*
 
-**#<nome progetto>2025 #FarmshopsIntegration #LeafletJS #OpenSource #Innovation**
+**#FixCity2025 #FarmshopsIntegration #LeafletJS #OpenSource #Innovation**

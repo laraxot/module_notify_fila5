@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Xot\Contracts\ProfileContract;
-use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\Translatable\HasTranslations;
@@ -292,7 +291,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
      *
      * @return array<string, string>
      */
-    #[Override]
     protected function casts(): array
     {
         return [

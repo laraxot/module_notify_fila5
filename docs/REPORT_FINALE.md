@@ -1,7 +1,7 @@
-# 📊 Report Finale - <nome progetto> Sixteen Theme
+# 📊 Report Finale - FixCity Sixteen Theme
 
 ## 🎯 Obiettivo Completato
-Creazione pagine mancanti per il tema Sixteen (<nome progetto>) utilizzando metodologie avanzate (GSD, Ralph Loop, BMAD, OpenVikings, NotebookLM).
+Creazione pagine mancanti per il tema Sixteen (FixCity) utilizzando metodologie avanzate (GSD, Ralph Loop, BMAD, OpenVikings, NotebookLM).
 
 ---
 
@@ -215,7 +215,7 @@ Themes/Sixteen/resources/views/pages/
 - NotebookLM - Pattern recognition
 
 **Tecnologie:**
-- Laravel 13
+- Laravel 12
 - Filament 5
 - Livewire 4
 - Tailwind CSS
@@ -226,7 +226,7 @@ Themes/Sixteen/resources/views/pages/
 ## 📞 Contatti
 
 Per informazioni:
-- **Repository**: `/var/www/_bases/<repo progetto>`
+- **Repository**: `/var/www/_bases/base_ptv_fila5`
 - **Tema**: `Themes/Sixteen`
 - **Documentazione**: `docs/PAGINE_CREATE.md`
 

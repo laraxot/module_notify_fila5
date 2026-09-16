@@ -173,7 +173,7 @@ TIER 4-5 - Specialized
 ```json
 {
   "type": "hero",
-  "title": "Welcome to <nome progetto>",
+  "title": "Welcome to FixCity",
   "subtitle": "Manage your city, digitally",
   "image": "https://...",
   "cta": {

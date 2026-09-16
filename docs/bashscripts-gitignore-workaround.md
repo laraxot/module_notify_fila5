@@ -5,8 +5,8 @@ tags: [bashscripts, gitignore, workaround]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "bashscripts-gitignore-workaround 🚨 critical: bashscripts/ in .gitignore"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -42,8 +42,8 @@ Questo significa che:
 ### Opzione 1: Commit Forzato
 
 ```bash
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptv_fila5
 
 # Aggiungi forzatamente bashscripts
 git add -f bashscripts/git/subtrees/sync_remote_repo.sh
@@ -157,8 +157,8 @@ git commit -m "fix: Description of fix"
 git push origin dev
 
 # 6. Monitora
-gh run list --repo laraxot/<repo progetto>
-gh run list --repo laraxot/<repo progetto>
+gh run list --repo laraxot/base_fixcity_fila5
+gh run list --repo laraxot/base_ptv_fila5
 ```
 
 ---

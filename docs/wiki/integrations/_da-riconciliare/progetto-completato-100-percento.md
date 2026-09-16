@@ -51,7 +51,7 @@ related:
 ### ✅ 100% PHPSTAN COMPLIANCE - VERIFICATO!
 
 ```bash
-cd /var/www/_bases/<nome repitory>/laravel
+cd /var/www/_bases/<nome repitory>_mono/laravel
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
 Result: {"totals":{"errors":0,"file_errors":0}}
@@ -601,7 +601,7 @@ php artisan queue:work --queue=high,notifications,default
 
 ```bash
 cd /var/www/_bases/<nome repository>/laravel
-cd /var/www/_bases/<nome repitory>/laravel
+cd /var/www/_bases/<nome repitory>_mono/laravel
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
 Result: {"totals":{"errors":0,"file_errors":0}}

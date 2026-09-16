@@ -12,11 +12,12 @@ return [
         'version' => ['label' => 'version'],
         'created_at' => ['label' => 'created_at'],
         'updated_at' => ['label' => 'updated_at'],
-        'subject' => ['label' => 'subject'],
     ],
     'actions' => [
         'create' => ['label' => 'create', 'icon' => 'create', 'tooltip' => 'create'],
         'layout' => ['label' => 'layout', 'icon' => 'layout', 'tooltip' => 'layout'],
         'delete' => ['label' => 'delete', 'icon' => 'delete', 'tooltip' => 'delete'],
+        'view' => ['label' => 'view', 'icon' => 'view', 'tooltip' => 'view'],
+        'edit' => ['label' => 'edit', 'icon' => 'edit', 'tooltip' => 'edit'],
     ],
 ];

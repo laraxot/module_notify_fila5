@@ -1,4 +1,4 @@
-# 💼 ROADMAP BUSINESS - <nome progetto> PLATFORM
+# 💼 ROADMAP BUSINESS - FIXCITY PLATFORM
 # 💼 ROADMAP BUSINESS - NOTIFY PLATFORM
 
 **Versione**: 1.0  
@@ -9,7 +9,7 @@
 ## 🎯 Vision & Mission
 
 ### Vision
-**<nome progetto>** diventa la piattaforma leader in Italia per il civic engagement urbano, connettendo 100+ città e 1M+ cittadini per rendere le città più vivibili, efficienti e responsive.
+**FixCity** diventa la piattaforma leader in Italia per il civic engagement urbano, connettendo 100+ città e 1M+ cittadini per rendere le città più vivibili, efficienti e responsive.
 **Notify** diventa la piattaforma leader in Italia per il civic engagement urbano, connettendo 100+ città e 1M+ cittadini per rendere le città più vivibili, efficienti e responsive.
 
 ### Mission
@@ -475,7 +475,7 @@ EBITDA: €0 (Break-even Q4 2025)
 ## 🏆 Competitive Advantages
 
 ### Technology
-- **Modern Stack**: Laravel 11, Filament 5, PHP 8.3
+- **Modern Stack**: Laravel 11, Filament 4, PHP 8.3
 - **Mobile-First**: PWA e app native
 - **AI Integration**: Machine learning per categorizzazione
 - **API-First**: Integrazioni facili
@@ -497,8 +497,8 @@ EBITDA: €0 (Break-even Q4 2025)
 **📞 Contatti Business**
 - **CEO**: Business Development Team
 - **Email**: business@laraxot.com
-- **LinkedIn**: [<nome progetto> Business](https://linkedin.com/company/<nome progetto>)
-- **Website**: [www.<nome progetto>.it](https://www.<nome progetto>.it)
+- **LinkedIn**: [FixCity Business](https://linkedin.com/company/fixcity)
+- **Website**: [www.fixcity.it](https://www.fixcity.it)
 - **LinkedIn**: [Notify Business](https://linkedin.com/company/laraxot)
 - **Website**: [www.laraxot.it](https://www.laraxot.it)
 

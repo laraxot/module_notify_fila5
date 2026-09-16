@@ -5,8 +5,8 @@ tags: [final, statistics]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "final-statistics 📊 final project statistics"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2025-excellence-achievement.md"
   - "./agid-implementation-guide.md"
@@ -20,7 +20,7 @@ related:
 
 # 📊 Final Project Statistics
 
-**Project:** <nome progetto> - Base Fila4 Mono  
+**Project:** FixCity - Base Fila4 Mono  
 **Project:** Notify - Base Fila4 Mono  
 **Date:** 2025-10-01 21:47  
 **Status:** ✅ COMPLETED WITH EXCELLENCE
@@ -123,7 +123,7 @@ related:
 
 ### Modules (18)
 - AI, Activity, Blog, Cms, Comment
-- <nome progetto>, Gdpr, Geo, Job, Lang
+- Fixcity, Gdpr, Geo, Job, Lang
 - App, Gdpr, Geo, Job, Lang
 - Media, Notify, Rating, Seo, Tenant
 - UI, User, Xot
