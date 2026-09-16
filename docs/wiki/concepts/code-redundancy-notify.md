@@ -43,7 +43,11 @@ Nove file `*.php.up` — backup pre-migrazione Filament 3/5, **duplicano** class
 
 - Coppie `filament-pages.md` / `filament_pages.md`, `index.md` / `INDEX.md`.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Decine di guide migrazione Filament (`migrazione-Filament-5.md`, `filament4-migration.md`, …).
+=======
+- Decine di guide migrazione Filament (`migrazione-filament-4.md`, `filament4-migration.md`, …).
+>>>>>>> laraxot/dev
 =======
 - Decine di guide migrazione Filament (`migrazione-filament-4.md`, `filament4-migration.md`, …).
 >>>>>>> laraxot/dev

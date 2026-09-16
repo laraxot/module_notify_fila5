@@ -46,7 +46,11 @@ class RecordNotification extends Notification implements ShouldQueue
     {
         return (new MailMessage)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ->subject('Notifica da <nome progetto>')
+=======
+->subject('Notifica da Quaeris')
+>>>>>>> laraxot/dev
 =======
 ->subject('Notifica da Quaeris')
 >>>>>>> laraxot/dev

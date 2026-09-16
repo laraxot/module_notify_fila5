@@ -16,7 +16,11 @@ config/{environment}/{domain}/xra.php
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Example** (`config/localhost/<nome progetto>/xra.php`):
+=======
+**Example** (`config/localhost/fixcity/xra.php`):
+>>>>>>> laraxot/dev
 =======
 **Example** (`config/localhost/fixcity/xra.php`):
 >>>>>>> laraxot/dev
@@ -126,7 +130,11 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 1. Edit config file:
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // config/localhost/<nome progetto>/xra.php
+=======
+// config/localhost/fixcity/xra.php
+>>>>>>> laraxot/dev
 =======
 // config/localhost/fixcity/xra.php
 >>>>>>> laraxot/dev
@@ -154,7 +162,11 @@ THEME_REGISTER_PUB=true
 2. Update config to read env:
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // config/localhost/<nome progetto>/xra.php
+=======
+// config/localhost/fixcity/xra.php
+>>>>>>> laraxot/dev
 =======
 // config/localhost/fixcity/xra.php
 >>>>>>> laraxot/dev
@@ -213,7 +225,11 @@ class ThemeServiceProvider extends XotBaseThemeServiceProvider
 ### Step 3: Register Theme
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // config/localhost/<nome progetto>/xra.php
+=======
+// config/localhost/fixcity/xra.php
+>>>>>>> laraxot/dev
 =======
 // config/localhost/fixcity/xra.php
 >>>>>>> laraxot/dev

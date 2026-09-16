@@ -35,7 +35,11 @@ Questo documento analizza i metodi duplicati trovati all'interno dei moduli Lara
 - Cms
 - Comment
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto>
+=======
+- Fixcity
+>>>>>>> laraxot/dev
 =======
 - Fixcity
 >>>>>>> laraxot/dev

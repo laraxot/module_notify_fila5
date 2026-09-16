@@ -32,7 +32,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
 #### Step 1: Update Ticket Creation Form
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/<nome progetto>/resources/views/tickets/create.blade.php`
+=======
+**File**: `Modules/Fixcity/resources/views/tickets/create.blade.php`
+>>>>>>> laraxot/dev
 =======
 **File**: `Modules/Fixcity/resources/views/tickets/create.blade.php`
 >>>>>>> laraxot/dev
@@ -43,7 +47,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     <div class="container mx-auto px-4 py-8">
         <h1 class="text-3xl font-bold mb-6">
 <<<<<<< HEAD
+<<<<<<< HEAD
             {{ __('<nome progetto>::ticket.create.title') }}
+=======
+            {{ __('fixcity::ticket.create.title') }}
+>>>>>>> laraxot/dev
 =======
             {{ __('fixcity::ticket.create.title') }}
 >>>>>>> laraxot/dev
@@ -72,9 +80,15 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 <x-ui::stepper-step 
                     :number="1" 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     :title="__('<nome progetto>::ticket.create.privacy_title')"
                 >
                     @include('<nome progetto>::tickets.steps.privacy')
+=======
+                    :title="__('fixcity::ticket.create.privacy_title')"
+                >
+                    @include('fixcity::tickets.steps.privacy')
+>>>>>>> laraxot/dev
 =======
                     :title="__('fixcity::ticket.create.privacy_title')"
                 >
@@ -86,9 +100,15 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 <x-ui::stepper-step 
                     :number="2" 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     :title="__('<nome progetto>::ticket.create.data_title')"
                 >
                     @include('<nome progetto>::tickets.steps.data')
+=======
+                    :title="__('fixcity::ticket.create.data_title')"
+                >
+                    @include('fixcity::tickets.steps.data')
+>>>>>>> laraxot/dev
 =======
                     :title="__('fixcity::ticket.create.data_title')"
                 >
@@ -100,9 +120,15 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 <x-ui::stepper-step 
                     :number="3" 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     :title="__('<nome progetto>::ticket.create.summary_title')"
                 >
                     @include('<nome progetto>::tickets.steps.summary')
+=======
+                    :title="__('fixcity::ticket.create.summary_title')"
+                >
+                    @include('fixcity::tickets.steps.summary')
+>>>>>>> laraxot/dev
 =======
                     :title="__('fixcity::ticket.create.summary_title')"
                 >
@@ -114,9 +140,15 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 <x-ui::stepper-step 
                     :number="4" 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     :title="__('<nome progetto>::ticket.create.confirmation_title')"
                 >
                     @include('<nome progetto>::tickets.steps.confirmation')
+=======
+                    :title="__('fixcity::ticket.create.confirmation_title')"
+                >
+                    @include('fixcity::tickets.steps.confirmation')
+>>>>>>> laraxot/dev
 =======
                     :title="__('fixcity::ticket.create.confirmation_title')"
                 >
@@ -149,7 +181,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                     // Validate all steps
                     if (!this.validateAllSteps()) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         alert('{{ __("<nome progetto>::ticket.create.validation_error") }}');
+=======
+                        alert('{{ __("fixcity::ticket.create.validation_error") }}');
+>>>>>>> laraxot/dev
 =======
                         alert('{{ __("fixcity::ticket.create.validation_error") }}');
 >>>>>>> laraxot/dev
@@ -177,7 +213,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
 #### Step 2: Create Step Partials
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/<nome progetto>/resources/views/tickets/steps/privacy.blade.php`
+=======
+**File**: `Modules/Fixcity/resources/views/tickets/steps/privacy.blade.php`
+>>>>>>> laraxot/dev
 =======
 **File**: `Modules/Fixcity/resources/views/tickets/steps/privacy.blade.php`
 >>>>>>> laraxot/dev
@@ -188,9 +228,15 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     <div class="alert alert-info mb-4">
         <h3 class="alert-heading">
 <<<<<<< HEAD
+<<<<<<< HEAD
             {{ __('<nome progetto>::ticket.privacy.heading') }}
         </h3>
         <p>{{ __('<nome progetto>::ticket.privacy.intro') }}</p>
+=======
+            {{ __('fixcity::ticket.privacy.heading') }}
+        </h3>
+        <p>{{ __('fixcity::ticket.privacy.intro') }}</p>
+>>>>>>> laraxot/dev
 =======
             {{ __('fixcity::ticket.privacy.heading') }}
         </h3>
@@ -202,17 +248,23 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         <div class="card-body">
             <h4 class="card-title">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {{ __('<nome progetto>::ticket.privacy.policy_title') }}
             </h4>
             
             <div class="privacy-policy-text" style="max-height: 300px; overflow-y: auto;">
                 {!! __('<nome progetto>::ticket.privacy.policy_content') !!}
 =======
+=======
+>>>>>>> laraxot/dev
                 {{ __('fixcity::ticket.privacy.policy_title') }}
             </h4>
             
             <div class="privacy-policy-text" style="max-height: 300px; overflow-y: auto;">
                 {!! __('fixcity::ticket.privacy.policy_content') !!}
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             </div>
         </div>
@@ -228,7 +280,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         >
         <label class="form-check-label" for="privacy_consent">
 <<<<<<< HEAD
+<<<<<<< HEAD
             {{ __('<nome progetto>::ticket.privacy.consent_label') }}
+=======
+            {{ __('fixcity::ticket.privacy.consent_label') }}
+>>>>>>> laraxot/dev
 =======
             {{ __('fixcity::ticket.privacy.consent_label') }}
 >>>>>>> laraxot/dev
@@ -239,7 +295,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     
     <p class="text-muted small mt-2">
 <<<<<<< HEAD
+<<<<<<< HEAD
         {{ __('<nome progetto>::ticket.privacy.required_info') }}
+=======
+        {{ __('fixcity::ticket.privacy.required_info') }}
+>>>>>>> laraxot/dev
 =======
         {{ __('fixcity::ticket.privacy.required_info') }}
 >>>>>>> laraxot/dev
@@ -249,7 +309,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/<nome progetto>/resources/views/tickets/steps/data.blade.php`
+=======
+**File**: `Modules/Fixcity/resources/views/tickets/steps/data.blade.php`
+>>>>>>> laraxot/dev
 =======
 **File**: `Modules/Fixcity/resources/views/tickets/steps/data.blade.php`
 >>>>>>> laraxot/dev
@@ -261,7 +325,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     <fieldset class="mb-4">
         <legend class="h5">
 <<<<<<< HEAD
+<<<<<<< HEAD
             {{ __('<nome progetto>::ticket.fields.category.label') }}
+=======
+            {{ __('fixcity::ticket.fields.category.label') }}
+>>>>>>> laraxot/dev
 =======
             {{ __('fixcity::ticket.fields.category.label') }}
 >>>>>>> laraxot/dev
@@ -277,8 +345,13 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             required
         >
 <<<<<<< HEAD
+<<<<<<< HEAD
             <option value="">{{ __('<nome progetto>::ticket.fields.category.placeholder') }}</option>
             @foreach(\Modules\<nome progetto>\Enums\TicketTypeEnum::cases() as $type)
+=======
+            <option value="">{{ __('fixcity::ticket.fields.category.placeholder') }}</option>
+            @foreach(\Modules\Fixcity\Enums\TicketTypeEnum::cases() as $type)
+>>>>>>> laraxot/dev
 =======
             <option value="">{{ __('fixcity::ticket.fields.category.placeholder') }}</option>
             @foreach(\Modules\Fixcity\Enums\TicketTypeEnum::cases() as $type)
@@ -293,6 +366,7 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     {{-- Location --}}
     <fieldset class="mb-4">
         <legend class="h5">
+<<<<<<< HEAD
 <<<<<<< HEAD
             {{ __('<nome progetto>::ticket.fields.location.label') }}
             <span class="text-danger">*</span>
@@ -310,6 +384,8 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         
         <x-<nome progetto>::map-picker
 =======
+=======
+>>>>>>> laraxot/dev
             {{ __('fixcity::ticket.fields.location.label') }}
             <span class="text-danger">*</span>
         </legend>
@@ -325,6 +401,9 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         </p>
         
         <x-fixcity::map-picker
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             name="location"
             :center="[41.9028, 12.4964]"
@@ -343,7 +422,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     <fieldset class="mb-4">
         <legend class="h5">
 <<<<<<< HEAD
+<<<<<<< HEAD
             {{ __('<nome progetto>::ticket.fields.details.label') }}
+=======
+            {{ __('fixcity::ticket.fields.details.label') }}
+>>>>>>> laraxot/dev
 =======
             {{ __('fixcity::ticket.fields.details.label') }}
 >>>>>>> laraxot/dev
@@ -353,7 +436,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         <div class="mb-3">
             <label for="title" class="form-label">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {{ __('<nome progetto>::ticket.fields.title.label') }}
+=======
+                {{ __('fixcity::ticket.fields.title.label') }}
+>>>>>>> laraxot/dev
 =======
                 {{ __('fixcity::ticket.fields.title.label') }}
 >>>>>>> laraxot/dev
@@ -367,7 +454,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 name="title"
                 x-model="formData.title"
 <<<<<<< HEAD
+<<<<<<< HEAD
                 :placeholder="__('<nome progetto>::ticket.fields.title.placeholder')"
+=======
+                :placeholder="__('fixcity::ticket.fields.title.placeholder')"
+>>>>>>> laraxot/dev
 =======
                 :placeholder="__('fixcity::ticket.fields.title.placeholder')"
 >>>>>>> laraxot/dev
@@ -380,7 +471,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         <div class="mb-3">
             <label for="description" class="form-label">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {{ __('<nome progetto>::ticket.fields.description.label') }}
+=======
+                {{ __('fixcity::ticket.fields.description.label') }}
+>>>>>>> laraxot/dev
 =======
                 {{ __('fixcity::ticket.fields.description.label') }}
 >>>>>>> laraxot/dev
@@ -394,17 +489,23 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
                 rows="5"
                 x-model="formData.description"
 <<<<<<< HEAD
+<<<<<<< HEAD
                 :placeholder="__('<nome progetto>::ticket.fields.description.placeholder')"
                 required
             ></textarea>
             <div class="form-text">
                 {{ __('<nome progetto>::ticket.fields.description.help') }}
 =======
+=======
+>>>>>>> laraxot/dev
                 :placeholder="__('fixcity::ticket.fields.description.placeholder')"
                 required
             ></textarea>
             <div class="form-text">
                 {{ __('fixcity::ticket.fields.description.help') }}
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             </div>
         </div>
@@ -412,7 +513,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         <div class="mb-3">
             <label for="photos" class="form-label">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {{ __('<nome progetto>::ticket.fields.photos.label') }}
+=======
+                {{ __('fixcity::ticket.fields.photos.label') }}
+>>>>>>> laraxot/dev
 =======
                 {{ __('fixcity::ticket.fields.photos.label') }}
 >>>>>>> laraxot/dev
@@ -429,7 +534,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             >
             <div class="form-text">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {{ __('<nome progetto>::ticket.fields.photos.help') }}
+=======
+                {{ __('fixcity::ticket.fields.photos.help') }}
+>>>>>>> laraxot/dev
 =======
                 {{ __('fixcity::ticket.fields.photos.help') }}
 >>>>>>> laraxot/dev
@@ -442,7 +551,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     <fieldset class="mb-4">
         <legend class="h5">
 <<<<<<< HEAD
+<<<<<<< HEAD
             {{ __('<nome progetto>::ticket.fields.reporter.label') }}
+=======
+            {{ __('fixcity::ticket.fields.reporter.label') }}
+>>>>>>> laraxot/dev
 =======
             {{ __('fixcity::ticket.fields.reporter.label') }}
 >>>>>>> laraxot/dev
@@ -453,7 +566,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             <div class="col-md-6 mb-3">
                 <label for="name" class="form-label">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {{ __('<nome progetto>::ticket.fields.name.label') }}
+=======
+                    {{ __('fixcity::ticket.fields.name.label') }}
+>>>>>>> laraxot/dev
 =======
                     {{ __('fixcity::ticket.fields.name.label') }}
 >>>>>>> laraxot/dev
@@ -473,7 +590,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             <div class="col-md-6 mb-3">
                 <label for="email" class="form-label">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {{ __('<nome progetto>::ticket.fields.email.label') }}
+=======
+                    {{ __('fixcity::ticket.fields.email.label') }}
+>>>>>>> laraxot/dev
 =======
                     {{ __('fixcity::ticket.fields.email.label') }}
 >>>>>>> laraxot/dev
@@ -494,7 +615,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         <div class="mb-3">
             <label for="phone" class="form-label">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {{ __('<nome progetto>::ticket.fields.phone.label') }}
+=======
+                {{ __('fixcity::ticket.fields.phone.label') }}
+>>>>>>> laraxot/dev
 =======
                 {{ __('fixcity::ticket.fields.phone.label') }}
 >>>>>>> laraxot/dev
@@ -509,7 +634,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             >
             <div class="form-text">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {{ __('<nome progetto>::ticket.fields.phone.help') }}
+=======
+                {{ __('fixcity::ticket.fields.phone.help') }}
+>>>>>>> laraxot/dev
 =======
                 {{ __('fixcity::ticket.fields.phone.help') }}
 >>>>>>> laraxot/dev
@@ -521,7 +650,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/<nome progetto>/resources/views/tickets/steps/summary.blade.php`
+=======
+**File**: `Modules/Fixcity/resources/views/tickets/steps/summary.blade.php`
+>>>>>>> laraxot/dev
 =======
 **File**: `Modules/Fixcity/resources/views/tickets/steps/summary.blade.php`
 >>>>>>> laraxot/dev
@@ -530,6 +663,7 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
 ```blade
 <div class="summary-step">
     <div class="alert alert-warning">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <strong>{{ __('<nome progetto>::ticket.summary.review_heading') }}</strong>
         <p>{{ __('<nome progetto>::ticket.summary.review_text') }}</p>
@@ -584,6 +718,8 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         
         <dt class="col-sm-3">{{ __('<nome progetto>::ticket.fields.phone.label') }}</dt>
 =======
+=======
+>>>>>>> laraxot/dev
         <strong>{{ __('fixcity::ticket.summary.review_heading') }}</strong>
         <p>{{ __('fixcity::ticket.summary.review_text') }}</p>
     </div>
@@ -636,6 +772,9 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
         <dd class="col-sm-9" x-text="formData.email"></dd>
         
         <dt class="col-sm-3">{{ __('fixcity::ticket.fields.phone.label') }}</dt>
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         <dd class="col-sm-9" x-text="formData.phone || 'N/A'"></dd>
     </dl>
@@ -645,8 +784,13 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             <use href="#it-info-circle"></use>
         </svg>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <strong>{{ __('<nome progetto>::ticket.summary.notification_heading') }}</strong>
         <p>{{ __('<nome progetto>::ticket.summary.notification_text', ['email' => '']) }}</p>
+=======
+        <strong>{{ __('fixcity::ticket.summary.notification_heading') }}</strong>
+        <p>{{ __('fixcity::ticket.summary.notification_text', ['email' => '']) }}</p>
+>>>>>>> laraxot/dev
 =======
         <strong>{{ __('fixcity::ticket.summary.notification_heading') }}</strong>
         <p>{{ __('fixcity::ticket.summary.notification_text', ['email' => '']) }}</p>
@@ -658,7 +802,11 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/<nome progetto>/resources/views/tickets/steps/confirmation.blade.php`
+=======
+**File**: `Modules/Fixcity/resources/views/tickets/steps/confirmation.blade.php`
+>>>>>>> laraxot/dev
 =======
 **File**: `Modules/Fixcity/resources/views/tickets/steps/confirmation.blade.php`
 >>>>>>> laraxot/dev
@@ -673,20 +821,27 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
     </div>
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     <h2 class="mb-3">{{ __('<nome progetto>::ticket.confirmation.success_heading') }}</h2>
     
     <p class="lead text-muted">
         {{ __('<nome progetto>::ticket.confirmation.success_text') }}
 =======
+=======
+>>>>>>> laraxot/dev
     <h2 class="mb-3">{{ __('fixcity::ticket.confirmation.success_heading') }}</h2>
     
     <p class="lead text-muted">
         {{ __('fixcity::ticket.confirmation.success_text') }}
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     </p>
     
     <div class="alert alert-success my-4">
         <p class="mb-0">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <strong>{{ __('<nome progetto>::ticket.confirmation.next_steps_heading') }}</strong>
         </p>
@@ -695,12 +850,17 @@ Transform the single-page ticket creation form into a 4-step AGID-compliant wiza
             <li>{{ __('<nome progetto>::ticket.confirmation.step_2') }}</li>
             <li>{{ __('<nome progetto>::ticket.confirmation.step_3') }}</li>
 =======
+=======
+>>>>>>> laraxot/dev
             <strong>{{ __('fixcity::ticket.confirmation.next_steps_heading') }}</strong>
         </p>
         <ol class="text-start mt-3">
             <li>{{ __('fixcity::ticket.confirmation.step_1') }}</li>
             <li>{{ __('fixcity::ticket.confirmation.step_2') }}</li>
             <li>{{ __('fixcity::ticket.confirmation.step_3') }}</li>
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         </ol>
     </div>
@@ -730,7 +890,11 @@ Create FAQ pages with AGID-compliant accordion UI.
 ### 💻 Implementation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/<nome progetto>/resources/views/faq/index.blade.php`
+=======
+**File**: `Modules/Fixcity/resources/views/faq/index.blade.php`
+>>>>>>> laraxot/dev
 =======
 **File**: `Modules/Fixcity/resources/views/faq/index.blade.php`
 >>>>>>> laraxot/dev
@@ -741,15 +905,21 @@ Create FAQ pages with AGID-compliant accordion UI.
     <div class="container mx-auto px-4 py-8">
         <h1 class="text-3xl font-bold mb-2">
 <<<<<<< HEAD
+<<<<<<< HEAD
             {{ __('<nome progetto>::faq.title') }}
         </h1>
         <p class="text-lg text-gray-600 mb-8">
             {{ __('<nome progetto>::faq.subtitle') }}
 =======
+=======
+>>>>>>> laraxot/dev
             {{ __('fixcity::faq.title') }}
         </h1>
         <p class="text-lg text-gray-600 mb-8">
             {{ __('fixcity::faq.subtitle') }}
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         </p>
         
@@ -760,7 +930,11 @@ Create FAQ pages with AGID-compliant accordion UI.
                     type="search" 
                     class="form-control"
 <<<<<<< HEAD
+<<<<<<< HEAD
                     placeholder="{{ __('<nome progetto>::faq.search_placeholder') }}"
+=======
+                    placeholder="{{ __('fixcity::faq.search_placeholder') }}"
+>>>>>>> laraxot/dev
 =======
                     placeholder="{{ __('fixcity::faq.search_placeholder') }}"
 >>>>>>> laraxot/dev
@@ -793,7 +967,11 @@ Create FAQ pages with AGID-compliant accordion UI.
                             @if($faq->related_links)
                                 <div class="related-links mt-3">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <strong>{{ __('<nome progetto>::faq.related_links') }}:</strong>
+=======
+                                    <strong>{{ __('fixcity::faq.related_links') }}:</strong>
+>>>>>>> laraxot/dev
 =======
                                     <strong>{{ __('fixcity::faq.related_links') }}:</strong>
 >>>>>>> laraxot/dev
@@ -820,6 +998,7 @@ Create FAQ pages with AGID-compliant accordion UI.
             <div class="card-body text-center">
                 <h3 class="card-title">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {{ __('<nome progetto>::faq.need_help_title') }}
                 </h3>
                 <p class="card-text">
@@ -834,6 +1013,8 @@ Create FAQ pages with AGID-compliant accordion UI.
                 <a href="{{ route('contact') }}" class="btn btn-primary">
                     {{ __('<nome progetto>::faq.contact_button') }}
 =======
+=======
+>>>>>>> laraxot/dev
                     {{ __('fixcity::faq.need_help_title') }}
                 </h3>
                 <p class="card-text">
@@ -847,6 +1028,9 @@ Create FAQ pages with AGID-compliant accordion UI.
                 </p>
                 <a href="{{ route('contact') }}" class="btn btn-primary">
                     {{ __('fixcity::faq.contact_button') }}
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
                 </a>
             </div>
@@ -856,7 +1040,11 @@ Create FAQ pages with AGID-compliant accordion UI.
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Model**: `Modules/<nome progetto>/app/Models/Faq.php`
+=======
+**Model**: `Modules/Fixcity/app/Models/Faq.php`
+>>>>>>> laraxot/dev
 =======
 **Model**: `Modules/Fixcity/app/Models/Faq.php`
 >>>>>>> laraxot/dev
@@ -868,7 +1056,11 @@ Create FAQ pages with AGID-compliant accordion UI.
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Models;
+=======
+namespace Modules\Fixcity\Models;
+>>>>>>> laraxot/dev
 =======
 namespace Modules\Fixcity\Models;
 >>>>>>> laraxot/dev
@@ -908,7 +1100,11 @@ class Faq extends Model
 **Migration**:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 php artisan make:migration create_faqs_table --path=Modules/<nome progetto>/database/Migrations
+=======
+php artisan make:migration create_faqs_table --path=Modules/Fixcity/database/Migrations
+>>>>>>> laraxot/dev
 =======
 php artisan make:migration create_faqs_table --path=Modules/Fixcity/database/Migrations
 >>>>>>> laraxot/dev
@@ -957,7 +1153,11 @@ MEILISEARCH_KEY=your-master-key
 ### 💻 Implementation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Model**: `Modules/<nome progetto>/app/Models/Ticket.php`
+=======
+**Model**: `Modules/Fixcity/app/Models/Ticket.php`
+>>>>>>> laraxot/dev
 =======
 **Model**: `Modules/Fixcity/app/Models/Ticket.php`
 >>>>>>> laraxot/dev
@@ -998,7 +1198,11 @@ class Ticket extends Model
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Controller**: `Modules/<nome progetto>/app/Http/Controllers/SearchController.php`
+=======
+**Controller**: `Modules/Fixcity/app/Http/Controllers/SearchController.php`
+>>>>>>> laraxot/dev
 =======
 **Controller**: `Modules/Fixcity/app/Http/Controllers/SearchController.php`
 >>>>>>> laraxot/dev
@@ -1010,15 +1214,21 @@ class Ticket extends Model
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Modules\<nome progetto>\Models\Ticket;
 =======
+=======
+>>>>>>> laraxot/dev
 namespace Modules\Fixcity\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Modules\Fixcity\Models\Ticket;
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 class SearchController
@@ -1029,7 +1239,11 @@ class SearchController
         
         if (empty($query)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             return view('<nome progetto>::search.index', [
+=======
+            return view('fixcity::search.index', [
+>>>>>>> laraxot/dev
 =======
             return view('fixcity::search.index', [
 >>>>>>> laraxot/dev
@@ -1045,7 +1259,11 @@ class SearchController
             ->paginate(20);
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         return view('<nome progetto>::search.index', [
+=======
+        return view('fixcity::search.index', [
+>>>>>>> laraxot/dev
 =======
         return view('fixcity::search.index', [
 >>>>>>> laraxot/dev
@@ -1064,7 +1282,11 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **View**: `Modules/<nome progetto>/resources/views/search/index.blade.php`
+=======
+**View**: `Modules/Fixcity/resources/views/search/index.blade.php`
+>>>>>>> laraxot/dev
 =======
 **View**: `Modules/Fixcity/resources/views/search/index.blade.php`
 >>>>>>> laraxot/dev
@@ -1075,7 +1297,11 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
     <div class="container mx-auto px-4 py-8">
         <h1 class="text-3xl font-bold mb-6">
 <<<<<<< HEAD
+<<<<<<< HEAD
             {{ __('<nome progetto>::search.title') }}
+=======
+            {{ __('fixcity::search.title') }}
+>>>>>>> laraxot/dev
 =======
             {{ __('fixcity::search.title') }}
 >>>>>>> laraxot/dev
@@ -1091,7 +1317,11 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
                     class="form-control form-control-lg"
                     value="{{ $query }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
                     placeholder="{{ __('<nome progetto>::search.placeholder') }}"
+=======
+                    placeholder="{{ __('fixcity::search.placeholder') }}"
+>>>>>>> laraxot/dev
 =======
                     placeholder="{{ __('fixcity::search.placeholder') }}"
 >>>>>>> laraxot/dev
@@ -1103,7 +1333,11 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
                         <use href="#it-search"></use>
                     </svg>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {{ __('<nome progetto>::search.button') }}
+=======
+                    {{ __('fixcity::search.button') }}
+>>>>>>> laraxot/dev
 =======
                     {{ __('fixcity::search.button') }}
 >>>>>>> laraxot/dev
@@ -1116,7 +1350,11 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
             <div class="search-results">
                 <p class="text-muted mb-4">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {{ trans_choice('<nome progetto>::search.results_count', $total, ['count' => $total, 'query' => $query]) }}
+=======
+                    {{ trans_choice('fixcity::search.results_count', $total, ['count' => $total, 'query' => $query]) }}
+>>>>>>> laraxot/dev
 =======
                     {{ trans_choice('fixcity::search.results_count', $total, ['count' => $total, 'query' => $query]) }}
 >>>>>>> laraxot/dev
@@ -1126,6 +1364,7 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
                 @if($results->isEmpty())
                     <div class="alert alert-info">
                         <h3 class="alert-heading">
+<<<<<<< HEAD
 <<<<<<< HEAD
                             {{ __('<nome progetto>::search.no_results_heading') }}
                         </h3>
@@ -1141,6 +1380,8 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
                             <li>{{ __('<nome progetto>::search.tip_2') }}</li>
                             <li>{{ __('<nome progetto>::search.tip_3') }}</li>
 =======
+=======
+>>>>>>> laraxot/dev
                             {{ __('fixcity::search.no_results_heading') }}
                         </h3>
                         <p>{{ __('fixcity::search.no_results_text') }}</p>
@@ -1154,6 +1395,9 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
                             <li>{{ __('fixcity::search.tip_1') }}</li>
                             <li>{{ __('fixcity::search.tip_2') }}</li>
                             <li>{{ __('fixcity::search.tip_3') }}</li>
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
                         </ul>
                     </div>
@@ -1197,7 +1441,11 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
 **Index tickets**:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 php artisan scout:import "Modules\\<nome progetto>\\Models\\Ticket"
+=======
+php artisan scout:import "Modules\\Fixcity\\Models\\Ticket"
+>>>>>>> laraxot/dev
 =======
 php artisan scout:import "Modules\\Fixcity\\Models\\Ticket"
 >>>>>>> laraxot/dev

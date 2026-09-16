@@ -13,7 +13,10 @@ return [
         'created_at' => ['label' => 'created_at'],
         'updated_at' => ['label' => 'updated_at'],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'subject' => ['label' => 'subject'],
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ],
@@ -22,6 +25,11 @@ return [
         'layout' => ['label' => 'layout', 'icon' => 'layout', 'tooltip' => 'layout'],
         'delete' => ['label' => 'delete', 'icon' => 'delete', 'tooltip' => 'delete'],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'view' => ['label' => 'view', 'icon' => 'view', 'tooltip' => 'view'],
+        'edit' => ['label' => 'edit', 'icon' => 'edit', 'tooltip' => 'edit'],
+>>>>>>> laraxot/dev
 =======
         'view' => ['label' => 'view', 'icon' => 'view', 'tooltip' => 'view'],
         'edit' => ['label' => 'edit', 'icon' => 'edit', 'tooltip' => 'edit'],

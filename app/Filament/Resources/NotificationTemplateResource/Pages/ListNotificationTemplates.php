@@ -5,8 +5,11 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\Layout\Component as LayoutComponent;
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
@@ -16,6 +19,7 @@ class ListNotificationTemplates extends XotBaseListRecords
 {
     protected static string $resource = NotificationTemplateResource::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     /**
      * @return array<string, Column|LayoutComponent>
@@ -24,6 +28,8 @@ class ListNotificationTemplates extends XotBaseListRecords
     {
         return [];
     }
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }

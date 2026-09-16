@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "super-mucca-final-summary 🐄 super mucca - missione completata"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -97,7 +102,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### ✅ 5. Analisi LoginWidget Filament 5
+=======
+### ✅ 5. Analisi LoginWidget Filament 4
+>>>>>>> laraxot/dev
 =======
 ### ✅ 5. Analisi LoginWidget Filament 4
 >>>>>>> laraxot/dev
@@ -143,7 +152,11 @@ class LoginWidget extends XotBaseWidget
 #### 🔑 Perché Funziona
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **1. Widget Pattern Filament 5**:
+=======
+**1. Widget Pattern Filament 4**:
+>>>>>>> laraxot/dev
 =======
 **1. Widget Pattern Filament 4**:
 >>>>>>> laraxot/dev
@@ -165,7 +178,11 @@ class LoginWidget extends XotBaseWidget
 ```
 - Rende TUTTI i campi definiti in `getFormSchema()`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Styling automatico Filament 5
+=======
+- Styling automatico Filament 4
+>>>>>>> laraxot/dev
 =======
 - Styling automatico Filament 4
 >>>>>>> laraxot/dev
@@ -197,7 +214,11 @@ class LoginWidget extends XotBaseWidget
 | **Gdpr** | 79 | ✅ | 🟢 | Privacy |
 | **Tenant** | 57 | ✅ | 🟢 | Multi-tenant |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | 38 | ✅ | 🟢 | Ticketing |
+=======
+| **Fixcity** | 38 | ✅ | 🟢 | Ticketing |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | 38 | ✅ | 🟢 | Ticketing |
 >>>>>>> laraxot/dev
@@ -255,7 +276,11 @@ class LoginWidget extends XotBaseWidget
 ## 🎓 Conoscenze Acquisite
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Architettura Filament 5 Widgets
+=======
+### Architettura Filament 4 Widgets
+>>>>>>> laraxot/dev
 =======
 ### Architettura Filament 4 Widgets
 >>>>>>> laraxot/dev
@@ -354,7 +379,11 @@ wire:submit="method" → Azione submit
 - **🥉 3 README Creati**: Comment, Seo, Theme One
 - **🏅 Indice Generale**: Navigazione documentazione completa
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **🎖️ Analisi LoginWidget**: Architettura Filament 5 documentata
+=======
+- **🎖️ Analisi LoginWidget**: Architettura Filament 4 documentata
+>>>>>>> laraxot/dev
 =======
 - **🎖️ Analisi LoginWidget**: Architettura Filament 4 documentata
 >>>>>>> laraxot/dev

@@ -47,7 +47,11 @@
 | Job | 64 | ✅ |
 | Tenant | 45 | ✅ |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | 37 | ✅ |
+=======
+| Fixcity | 37 | ✅ |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | 37 | ✅ |
 >>>>>>> laraxot/dev
@@ -99,7 +103,11 @@
 ✅ Modules/Cms/docs/dry-kiss-analysis.md
 ✅ Modules/Comment/docs/dry-kiss-analysis.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ Modules/<nome progetto>/docs/dry-kiss-analysis.md
+=======
+✅ Modules/Fixcity/docs/dry-kiss-analysis.md
+>>>>>>> laraxot/dev
 =======
 ✅ Modules/Fixcity/docs/dry-kiss-analysis.md
 >>>>>>> laraxot/dev

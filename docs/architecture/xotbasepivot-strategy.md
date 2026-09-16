@@ -49,7 +49,11 @@ related:
 | Lang | ❌ | ✅ | 0 | 🟢 Bassa |
 | Job | ❌ | ✅ | 0 | 🟢 Bassa |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | ✅ | ❌ | 0 | 🟢 Bassa |
+=======
+| Fixcity | ✅ | ❌ | 0 | 🟢 Bassa |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | ✅ | ❌ | 0 | 🟢 Bassa |
 >>>>>>> laraxot/dev
@@ -164,7 +168,11 @@ abstract class BasePivot extends XotBasePivot
 - Lang
 - Job
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto>
+=======
+- Fixcity
+>>>>>>> laraxot/dev
 =======
 - Fixcity
 >>>>>>> laraxot/dev
@@ -185,7 +193,11 @@ MODULES=(
     "Lang"
     "Job"
 <<<<<<< HEAD
+<<<<<<< HEAD
     "<nome progetto>"
+=======
+    "Fixcity"
+>>>>>>> laraxot/dev
 =======
     "Fixcity"
 >>>>>>> laraxot/dev
@@ -283,7 +295,11 @@ php artisan benchmark:pivot-queries
 ```bash
 # Test ogni modulo singolarmente
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job <nome progetto>; do
+=======
+for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job Fixcity; do
+>>>>>>> laraxot/dev
 =======
 for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job Fixcity; do
 >>>>>>> laraxot/dev

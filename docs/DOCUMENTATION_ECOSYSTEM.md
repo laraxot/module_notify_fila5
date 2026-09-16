@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto> Documentation Ecosystem - Visual Map
+=======
+# FixCity Documentation Ecosystem - Visual Map
+>>>>>>> laraxot/dev
 =======
 # FixCity Documentation Ecosystem - Visual Map
 >>>>>>> laraxot/dev
@@ -13,7 +17,11 @@
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 <<<<<<< HEAD
+<<<<<<< HEAD
 │            <nome progetto> Fila5 Documentation Ecosystem                 │
+=======
+│            FixCity Fila5 Documentation Ecosystem                 │
+>>>>>>> laraxot/dev
 =======
 │            FixCity Fila5 Documentation Ecosystem                 │
 >>>>>>> laraxot/dev

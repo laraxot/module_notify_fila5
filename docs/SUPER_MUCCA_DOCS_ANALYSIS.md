@@ -56,7 +56,11 @@
 | **Gdpr** | 79 | ✅ | 🟢 Buono | Compliance GDPR |
 | **Tenant** | 57 | ✅ | 🟢 Buono | Multi-tenancy |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | 38 | ✅ | 🟢 Buono | Ticketing system |
+=======
+| **Fixcity** | 38 | ✅ | 🟢 Buono | Ticketing system |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | 38 | ✅ | 🟢 Buono | Ticketing system |
 >>>>>>> laraxot/dev

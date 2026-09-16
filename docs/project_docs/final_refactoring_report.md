@@ -1,8 +1,13 @@
 # 🐮 Super Mucca - Final Refactoring Report
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Project:** <repo progetto>  
 **Project:** <repo progetto>  
+=======
+**Project:** base_fixcity_fila5_mono  
+**Project:** base_ptvx_fila5_mono  
+>>>>>>> laraxot/dev
 =======
 **Project:** base_fixcity_fila5_mono  
 **Project:** base_ptvx_fila5_mono  
@@ -99,7 +104,11 @@ Successfully analyzed and refactored the entire codebase, reducing cyclomatic co
 3. **Cms** - 0 high-complexity methods
 4. **Comment** - 0 high-complexity methods
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **<nome progetto>** - 0 high-complexity methods
+=======
+5. **Fixcity** - 0 high-complexity methods
+>>>>>>> laraxot/dev
 =======
 5. **Fixcity** - 0 high-complexity methods
 >>>>>>> laraxot/dev

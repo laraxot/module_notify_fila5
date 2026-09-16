@@ -81,7 +81,11 @@ updated: 2026-08-24
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### ✅ 5. Analisi LoginWidget Filament 5
+=======
+### ✅ 5. Analisi LoginWidget Filament 4
+>>>>>>> laraxot/dev
 =======
 ### ✅ 5. Analisi LoginWidget Filament 4
 >>>>>>> laraxot/dev
@@ -127,7 +131,11 @@ class LoginWidget extends XotBaseWidget
 #### 🔑 Perché Funziona
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **1. Widget Pattern Filament 5**:
+=======
+**1. Widget Pattern Filament 4**:
+>>>>>>> laraxot/dev
 =======
 **1. Widget Pattern Filament 4**:
 >>>>>>> laraxot/dev
@@ -149,7 +157,11 @@ class LoginWidget extends XotBaseWidget
 ```
 - Rende TUTTI i campi definiti in `getFormSchema()`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Styling automatico Filament 5
+=======
+- Styling automatico Filament 4
+>>>>>>> laraxot/dev
 =======
 - Styling automatico Filament 4
 >>>>>>> laraxot/dev
@@ -236,7 +248,11 @@ class LoginWidget extends XotBaseWidget
 ## 🎓 Conoscenze Acquisite
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Architettura Filament 5 Widgets
+=======
+### Architettura Filament 4 Widgets
+>>>>>>> laraxot/dev
 =======
 ### Architettura Filament 4 Widgets
 >>>>>>> laraxot/dev
@@ -335,7 +351,11 @@ wire:submit="method" → Azione submit
 - **🥉 3 README Creati**: Comment, Seo, Theme One
 - **🏅 Indice Generale**: Navigazione documentazione completa
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **🎖️ Analisi LoginWidget**: Architettura Filament 5 documentata
+=======
+- **🎖️ Analisi LoginWidget**: Architettura Filament 4 documentata
+>>>>>>> laraxot/dev
 =======
 - **🎖️ Analisi LoginWidget**: Architettura Filament 4 documentata
 >>>>>>> laraxot/dev

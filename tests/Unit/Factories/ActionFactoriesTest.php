@@ -6,7 +6,11 @@ namespace Modules\Notify\Tests\Unit\Factories;
 
 use Modules\Notify\Actions\SMS\SendSmsFactorSMSAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SMS\SmsActionContract;
+=======
+use Modules\Notify\Models\Contracts\SmsActionContract;
+>>>>>>> laraxot/dev
 =======
 use Modules\Notify\Models\Contracts\SmsActionContract;
 >>>>>>> laraxot/dev

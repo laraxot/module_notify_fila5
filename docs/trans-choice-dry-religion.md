@@ -331,7 +331,11 @@ Amen.
 
 - [Laravel Localization - Pluralization](https://laravel.com/docs/localization#pluralization)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ticket.php (corretto)](../../Modules/<nome progetto>/lang/it/ticket.php)
+=======
+- [ticket.php (corretto)](../../Modules/Fixcity/lang/it/ticket.php)
+>>>>>>> laraxot/dev
 =======
 - [ticket.php (corretto)](../../Modules/Fixcity/lang/it/ticket.php)
 >>>>>>> laraxot/dev

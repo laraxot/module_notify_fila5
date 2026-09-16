@@ -154,7 +154,11 @@ ae920e7c Add AI lessons learned and GitHub Action setup guide
 ```bash
 # Option 1: Via GitHub UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Go to: https://github.com/laraxot/<repo progetto>/discussions
+=======
+1. Go to: https://github.com/laraxot/base_fixcity_fila5/discussions
+>>>>>>> laraxot/dev
 =======
 1. Go to: https://github.com/laraxot/base_fixcity_fila5/discussions
 >>>>>>> laraxot/dev
@@ -248,7 +252,11 @@ ae920e7c Add AI lessons learned and GitHub Action setup guide
 
 All files are pushed and accessible on:
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://github.com/laraxot/<repo progetto>/commits/dev
+=======
+https://github.com/laraxot/base_fixcity_fila5/commits/dev
+>>>>>>> laraxot/dev
 =======
 https://github.com/laraxot/base_fixcity_fila5/commits/dev
 >>>>>>> laraxot/dev

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📸 Screenshot Analysis - Homepage <nome progetto>
+=======
+# 📸 Screenshot Analysis - Homepage FixCity
+>>>>>>> laraxot/dev
 =======
 # 📸 Screenshot Analysis - Homepage FixCity
 >>>>>>> laraxot/dev
@@ -144,7 +148,11 @@ URL: http://laraxot.local/it/tests/homepage
 ### Differenze Principali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Elemento | Bootstrap Italia | <nome progetto> | Status |
+=======
+| Elemento | Bootstrap Italia | FixCity | Status |
+>>>>>>> laraxot/dev
 =======
 | Elemento | Bootstrap Italia | FixCity | Status |
 >>>>>>> laraxot/dev

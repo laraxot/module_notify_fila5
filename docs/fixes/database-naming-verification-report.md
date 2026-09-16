@@ -41,7 +41,11 @@ Tutti i 18 moduli hanno le directory corrette:
 | Cms | ✅ | ✅ | ✅ | ✅ Pass |
 | Comment | ✅ | ✅ | ✅ | ✅ Pass |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | ✅ | ✅ | ✅ | ✅ Pass |
+=======
+| Fixcity | ✅ | ✅ | ✅ | ✅ Pass |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | ✅ | ✅ | ✅ | ✅ Pass |
 >>>>>>> laraxot/dev
@@ -231,7 +235,11 @@ find docs/ laravel/Modules/*/docs/ -type f -name "*.md" -exec sed -i \
 - [AGENTS.md](../../AGENTS.md)
 - [Fix Summary](fixes/database-naming-fix-summary.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [GitHub Issue #5](https://github.com/laraxot/<repo progetto>/issues/5)
+=======
+- [GitHub Issue #5](https://github.com/laraxot/base_fixcity_fila5/issues/5)
+>>>>>>> laraxot/dev
 =======
 - [GitHub Issue #5](https://github.com/laraxot/base_fixcity_fila5/issues/5)
 >>>>>>> laraxot/dev

@@ -55,7 +55,11 @@ TEMPO SPESO: 62 minuti
 - **PHPStan:** ✅ Clean
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 4. <nome progetto> Module
+=======
+### 4. Fixcity Module
+>>>>>>> laraxot/dev
 =======
 ### 4. Fixcity Module
 >>>>>>> laraxot/dev
@@ -140,7 +144,11 @@ Modules/Activity/app/Models/BaseModel.php
 Modules/Blog/app/Models/BaseModel.php
 Modules/Cms/app/Models/BaseModel.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/<nome progetto>/app/Models/BaseModel.php
+=======
+Modules/Fixcity/app/Models/BaseModel.php
+>>>>>>> laraxot/dev
 =======
 Modules/Fixcity/app/Models/BaseModel.php
 >>>>>>> laraxot/dev
@@ -160,7 +168,11 @@ Modules/Xot/docs/analisi-metodi-duplicati.md
 Modules/User/docs/analisi-metodi-duplicati.md
 Modules/Cms/docs/analisi-metodi-duplicati.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/<nome progetto>/docs/analisi-metodi-duplicati.md
+=======
+Modules/Fixcity/docs/analisi-metodi-duplicati.md
+>>>>>>> laraxot/dev
 =======
 Modules/Fixcity/docs/analisi-metodi-duplicati.md
 >>>>>>> laraxot/dev

@@ -8,7 +8,11 @@ return [
             'label' => 'lang',
             'placeholder' => 'lang',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'lang',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'lang',
 >>>>>>> laraxot/dev
@@ -17,7 +21,11 @@ return [
             'label' => 'type',
             'placeholder' => 'type',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'type',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'type',
 >>>>>>> laraxot/dev
@@ -26,7 +34,11 @@ return [
             'label' => 'post_type',
             'placeholder' => 'post_type',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'post_type',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'post_type',
 >>>>>>> laraxot/dev
@@ -35,7 +47,11 @@ return [
             'label' => 'post_id',
             'placeholder' => 'post_id',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'post_id',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'post_id',
 >>>>>>> laraxot/dev
@@ -44,7 +60,11 @@ return [
             'label' => 'subject',
             'placeholder' => 'subject',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'subject',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'subject',
 >>>>>>> laraxot/dev
@@ -53,7 +73,11 @@ return [
             'label' => 'from',
             'placeholder' => 'from',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'from',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'from',
 >>>>>>> laraxot/dev
@@ -62,7 +86,11 @@ return [
             'label' => 'from_email',
             'placeholder' => 'from_email',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'from_email',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'from_email',
 >>>>>>> laraxot/dev
@@ -71,7 +99,11 @@ return [
             'label' => 'logo_src',
             'placeholder' => 'logo_src',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'logo_src',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'logo_src',
 >>>>>>> laraxot/dev
@@ -80,7 +112,11 @@ return [
             'label' => 'logo_width',
             'placeholder' => 'logo_width',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'logo_width',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'logo_width',
 >>>>>>> laraxot/dev
@@ -89,7 +125,11 @@ return [
             'label' => 'logo_height',
             'placeholder' => 'logo_height',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'logo_height',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'logo_height',
 >>>>>>> laraxot/dev
@@ -98,7 +138,11 @@ return [
             'label' => 'theme',
             'placeholder' => 'theme',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'theme',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'theme',
 >>>>>>> laraxot/dev
@@ -107,7 +151,11 @@ return [
             'label' => 'body',
             'placeholder' => 'body',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'body',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'body',
 >>>>>>> laraxot/dev
@@ -116,7 +164,11 @@ return [
             'label' => 'body_html',
             'placeholder' => 'body_html',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'body_html',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'body_html',
 >>>>>>> laraxot/dev

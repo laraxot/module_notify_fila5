@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📊 Quality Dashboard - <nome progetto> Project
+=======
+# 📊 Quality Dashboard - FixCity Project
+>>>>>>> laraxot/dev
 =======
 # 📊 Quality Dashboard - FixCity Project
 >>>>>>> laraxot/dev
@@ -52,7 +56,11 @@ Xot      ███████████████████████�
 Tenant   ████████████████████████████████████████ 88%
 User     ████████████████████████████████████████ 85%
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto>  ████████████████████████████████████████ 82%
+=======
+Fixcity  ████████████████████████████████████████ 82%
+>>>>>>> laraxot/dev
 =======
 Fixcity  ████████████████████████████████████████ 82%
 >>>>>>> laraxot/dev
@@ -98,7 +106,11 @@ Others   ███████████████████████�
 |--------|-------|------------|-------|---------|
 | Tenant | 94% | 🟢 0 | 🟢 88% | 🟢 Pass |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
+=======
+| Fixcity | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | 92% | 🟢 0 | 🟢 82% | 🟢 Pass |
 >>>>>>> laraxot/dev
@@ -280,9 +292,15 @@ Overall Progress: ████████████████████�
 ## 📞 Quality Team Contacts
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Quality Lead**: quality@<nome progetto>.com
 - **Architecture**: architecture@<nome progetto>.com
 - **Testing**: testing@<nome progetto>.com
+=======
+- **Quality Lead**: quality@fixcity.com
+- **Architecture**: architecture@fixcity.com
+- **Testing**: testing@fixcity.com
+>>>>>>> laraxot/dev
 =======
 - **Quality Lead**: quality@fixcity.com
 - **Architecture**: architecture@fixcity.com

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🧘 Zen of <nome progetto> - Complete Philosophy
+=======
+# 🧘 Zen of FixCity - Complete Philosophy
+>>>>>>> laraxot/dev
 =======
 # 🧘 Zen of FixCity - Complete Philosophy
 >>>>>>> laraxot/dev
@@ -326,7 +330,11 @@ fi
 ```bash
 openviking add-memory \
 <<<<<<< HEAD
+<<<<<<< HEAD
   --title="Zen of <nome progetto>" \
+=======
+  --title="Zen of FixCity" \
+>>>>>>> laraxot/dev
 =======
   --title="Zen of FixCity" \
 >>>>>>> laraxot/dev

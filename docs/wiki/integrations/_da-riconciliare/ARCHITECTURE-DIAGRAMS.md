@@ -25,7 +25,11 @@ updated: 2026-08-24
 │                        Notify Platform v2                          │
 │                        <nome progetto> Platform v2                          │
 <<<<<<< HEAD
+<<<<<<< HEAD
 │                    Laravel 13 + Filament 5 + Livewire 3             │
+=======
+│                    Laravel 12 + Filament 5 + Livewire 3             │
+>>>>>>> laraxot/dev
 =======
 │                    Laravel 12 + Filament 5 + Livewire 3             │
 >>>>>>> laraxot/dev

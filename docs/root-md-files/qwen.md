@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "qwen qwen"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -36,7 +41,11 @@ related:
 - **Design Comuni Replication Rules:** Use Tailwind @apply (NOT Bootstrap imports), single [slug].blade.php for ALL pages, JSON content blocks (NOT hardcoded HTML), universal reusable blocks (NOT page-specific), <x-layouts.app> (NOT custom layouts), <x-section slug="header" /> (NOT inline HTML), <x-pub_theme:: namespace (NOT <x-sixteen::). Block types: hero, topics-grid, card, etc. (NOT tests.argomenti). Implement 47 components in 5 phases based on usage frequency.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Theme Detection:** APP_URL from .env → remove protocol → remove www → explode by "." → reverse array → join with "/" → config path. Example: http://<nome progetto>.local → local/<nome progetto> → laravel/config/local/<nome progetto>/xra.php → pub_theme = "Sixteen" → Theme folder: laravel/Themes/Sixteen/
+=======
+- **Theme Detection:** APP_URL from .env → remove protocol → remove www → explode by "." → reverse array → join with "/" → config path. Example: http://fixcity.local → local/fixcity → laravel/config/local/fixcity/xra.php → pub_theme = "Sixteen" → Theme folder: laravel/Themes/Sixteen/
+>>>>>>> laraxot/dev
 =======
 - **Theme Detection:** APP_URL from .env → remove protocol → remove www → explode by "." → reverse array → join with "/" → config path. Example: http://fixcity.local → local/fixcity → laravel/config/local/fixcity/xra.php → pub_theme = "Sixteen" → Theme folder: laravel/Themes/Sixteen/
 >>>>>>> laraxot/dev

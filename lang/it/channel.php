@@ -53,9 +53,15 @@ return [
         'is_default' => ['label' => 'Predefinito', 'tooltip' => 'Imposta come canale predefinito', 'help' => 'Il canale predefinito verrà utilizzato quando non specificato diversamente', 'helper_text' => '', 'description' => ''],
         'is_enabled' => ['label' => 'Abilitato', 'tooltip' => 'Stato di attivazione del canale', 'help' => 'Disabilita temporaneamente il canale senza eliminarlo', 'helper_text' => '', 'description' => ''],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'mail' => ['label' => 'mail', 'placeholder' => 'mail', 'helper_text' => '', 'description' => 'mail'],
         'sms' => ['label' => 'sms', 'placeholder' => 'sms', 'helper_text' => '', 'description' => 'sms'],
         'whatsapp' => ['label' => 'whatsapp', 'placeholder' => 'whatsapp', 'helper_text' => '', 'description' => 'whatsapp']],
+=======
+        'mail' => ['label' => 'mail', 'placeholder' => 'mail', 'helper_text' => 'mail', 'description' => 'mail'],
+        'sms' => ['label' => 'sms', 'placeholder' => 'sms', 'helper_text' => 'sms', 'description' => 'sms'],
+        'whatsapp' => ['label' => 'whatsapp', 'placeholder' => 'whatsapp', 'helper_text' => 'whatsapp', 'description' => 'whatsapp']],
+>>>>>>> laraxot/dev
 =======
         'mail' => ['label' => 'mail', 'placeholder' => 'mail', 'helper_text' => 'mail', 'description' => 'mail'],
         'sms' => ['label' => 'sms', 'placeholder' => 'sms', 'helper_text' => 'sms', 'description' => 'sms'],

@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "🎯 <nome progetto> - MASTER IMPLEMENTATION PLAN"
+=======
+title: "🎯 FIXCITY - MASTER IMPLEMENTATION PLAN"
+>>>>>>> laraxot/dev
 =======
 title: "🎯 FIXCITY - MASTER IMPLEMENTATION PLAN"
 >>>>>>> laraxot/dev
@@ -9,15 +13,21 @@ tags: [master, implementation, plan]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "master-implementation-plan 🎯 <nome progetto> - master implementation plan"
 qmd: "master-implementation-plan 🎯 ptv - master implementation plan"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "master-implementation-plan 🎯 fixcity - master implementation plan"
 qmd: "master-implementation-plan 🎯 ptv - master implementation plan"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
@@ -31,17 +41,23 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎯 <nome progetto> - MASTER IMPLEMENTATION PLAN
 **Data Creazione**: 2025-10-01
 **Status**: 🚀 ATTIVO
 **Priorità**: CRITICA
 **Obiettivo**: Completare il progetto <nome progetto> al 100%
 =======
+=======
+>>>>>>> laraxot/dev
 # 🎯 FIXCITY - MASTER IMPLEMENTATION PLAN
 **Data Creazione**: 2025-10-01
 **Status**: 🚀 ATTIVO
 **Priorità**: CRITICA
 **Obiettivo**: Completare il progetto FixCity al 100%
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -56,7 +72,11 @@ Modules:
 ├── Xot Framework:     ████████████████████ 100% ✅
 ├── User Management:   ████████████████████ 100% ✅
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── <nome progetto> Core:      ████████████████░░░░  80% 🚧
+=======
+├── Fixcity Core:      ████████████████░░░░  80% 🚧
+>>>>>>> laraxot/dev
 =======
 ├── Fixcity Core:      ████████████████░░░░  80% 🚧
 >>>>>>> laraxot/dev

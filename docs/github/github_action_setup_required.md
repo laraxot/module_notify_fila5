@@ -46,7 +46,11 @@ ssh-keygen -t ed25519 -C "actions@github.com" -f ~/.ssh/subtree_sync
 ### Step 3: Add Private Key to Repo Secrets
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Go to: **https://github.com/laraxot/<repo progetto>/settings/secrets/actions**
+=======
+1. Go to: **https://github.com/laraxot/base_fixcity_fila5/settings/secrets/actions**
+>>>>>>> laraxot/dev
 =======
 1. Go to: **https://github.com/laraxot/base_fixcity_fila5/settings/secrets/actions**
 >>>>>>> laraxot/dev
@@ -67,8 +71,13 @@ ssh-keygen -t ed25519 -C "actions@github.com" -f ~/.ssh/subtree_sync
 ```bash
 # Go to project root
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptvx_fila5
@@ -82,7 +91,11 @@ git push origin dev
 
 # Wait 1-2 minutes, then check:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # https://github.com/laraxot/<repo progetto>/actions
+=======
+# https://github.com/laraxot/base_fixcity_fila5/actions
+>>>>>>> laraxot/dev
 =======
 # https://github.com/laraxot/base_fixcity_fila5/actions
 >>>>>>> laraxot/dev
@@ -133,17 +146,23 @@ Full documentation is available at:
 ```bash
 # Using GitHub CLI
 <<<<<<< HEAD
+<<<<<<< HEAD
 gh run list --repo laraxot/<repo progetto>
 gh run view <run-id> --log
 ```
 
 Or visit: **https://github.com/laraxot/<repo progetto>/actions**
 =======
+=======
+>>>>>>> laraxot/dev
 gh run list --repo laraxot/base_fixcity_fila5
 gh run view <run-id> --log
 ```
 
 Or visit: **https://github.com/laraxot/base_fixcity_fila5/actions**
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -155,7 +174,11 @@ If you have questions about the setup:
 1. Check documentation in `bashscripts/docs/github/actions/`
 2. Review error logs on GitHub Actions
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. Contact: dev @<nome progetto>.example.com
+=======
+3. Contact: dev @fixcity.example.com
+>>>>>>> laraxot/dev
 =======
 3. Contact: dev @fixcity.example.com
 >>>>>>> laraxot/dev

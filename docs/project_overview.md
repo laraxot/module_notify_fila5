@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏛️ <nome progetto> - Civic Engagement Platform
+=======
+# 🏛️ FIXCITY - Civic Engagement Platform
+>>>>>>> laraxot/dev
 =======
 # 🏛️ FIXCITY - Civic Engagement Platform
 >>>>>>> laraxot/dev
@@ -11,7 +15,11 @@
 ## 🎯 Project Purpose
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
+=======
+**FIXCITY** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
+>>>>>>> laraxot/dev
 =======
 **FIXCITY** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
 >>>>>>> laraxot/dev
@@ -31,7 +39,11 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 
 **Backend**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Laravel 13.24.0 + PHP 8.3.20
+=======
+- Laravel 12.24.0 + PHP 8.3.20
+>>>>>>> laraxot/dev
 =======
 - Laravel 12.24.0 + PHP 8.3.20
 >>>>>>> laraxot/dev
@@ -40,7 +52,11 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 
 **Frontend Backoffice**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Filament 5.x (Admin Panels)
+=======
+- Filament 4.x (Admin Panels)
+>>>>>>> laraxot/dev
 =======
 - Filament 4.x (Admin Panels)
 >>>>>>> laraxot/dev
@@ -64,7 +80,11 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 ### Core Modules (22 attivi)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### 1. **<nome progetto>** - Business Logic Core
+=======
+#### 1. **Fixcity** - Business Logic Core
+>>>>>>> laraxot/dev
 =======
 #### 1. **Fixcity** - Business Logic Core
 >>>>>>> laraxot/dev
@@ -392,7 +412,11 @@ Team
 - **Memory**: <8MB (list), <5MB (detail)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Optimization Strategy**: See `/Modules/<nome progetto>/docs/performance-issues.md`
+=======
+**Optimization Strategy**: See `/Modules/Fixcity/docs/performance-issues.md`
+>>>>>>> laraxot/dev
 =======
 **Optimization Strategy**: See `/Modules/Fixcity/docs/performance-issues.md`
 >>>>>>> laraxot/dev
@@ -483,7 +507,11 @@ Team
 
 **Staging**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - URL: https://staging.<nome progetto>.it
+=======
+- URL: https://staging.fixcity.it
+>>>>>>> laraxot/dev
 =======
 - URL: https://staging.fixcity.it
 >>>>>>> laraxot/dev
@@ -494,7 +522,11 @@ Team
 
 **Production**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - URL: https://<nome progetto>.it
+=======
+- URL: https://fixcity.it
+>>>>>>> laraxot/dev
 =======
 - URL: https://fixcity.it
 >>>>>>> laraxot/dev

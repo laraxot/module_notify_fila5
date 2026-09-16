@@ -9,7 +9,11 @@ qmd: "notify module wiki index notifications qmd second brain"
 # Da popolare con thread reali di git@github.com:laraxot/module_notify_fila5.git
 # (repo owner del modulo, vedi `git remote -v`). Le due voci precedenti puntavano
 <<<<<<< HEAD
+<<<<<<< HEAD
 # a `laraxot/platform` (repo inesistente) e a `laraxot/<repo progetto>`
+=======
+# a `laraxot/platform` (repo inesistente) e a `laraxot/base_fixcity_fila5`
+>>>>>>> laraxot/dev
 =======
 # a `laraxot/platform` (repo inesistente) e a `laraxot/base_fixcity_fila5`
 >>>>>>> laraxot/dev
@@ -18,7 +22,11 @@ issues: []
 discussions: []
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md
+=======
+  - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
+>>>>>>> laraxot/dev
 =======
   - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
 >>>>>>> laraxot/dev
@@ -32,7 +40,11 @@ related:
 ## AI / second brain
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [hackernoon-ai-coding-tips-<nome progetto>-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md)
+=======
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+>>>>>>> laraxot/dev
 =======
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
 >>>>>>> laraxot/dev
@@ -63,7 +75,11 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 |------------|------|-------|-------------|
 | `root-docs` | `docs/` | 710 | Documentazione root progetto |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `mod-<nome progetto>` | `Modules/<nome progetto>/docs/` | 83 | Survey, questionari, report |
+=======
+| `mod-quaeris` | `Modules/Quaeris/docs/` | 83 | Survey, questionari, report |
+>>>>>>> laraxot/dev
 =======
 | `mod-quaeris` | `Modules/Quaeris/docs/` | 83 | Survey, questionari, report |
 >>>>>>> laraxot/dev
@@ -96,7 +112,11 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 ## AI / second brain
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [hackernoon-ai-coding-tips-<nome progetto>-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md)
+=======
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+>>>>>>> laraxot/dev
 =======
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
 >>>>>>> laraxot/dev
@@ -106,15 +126,21 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd search "wizard questionario" -c mod-<nome progetto> -n 5
 
 # Ricerca semantica (vector, ~2s)
 qmd vsearch "come creare un questionario" -c mod-<nome progetto>
 =======
+=======
+>>>>>>> laraxot/dev
 qmd search "wizard questionario" -c mod-quaeris -n 5
 
 # Ricerca semantica (vector, ~2s)
 qmd vsearch "come creare un questionario" -c mod-quaeris
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 # Ricerca ibrida + reranking (migliore qualità, ~10s)
@@ -148,7 +174,11 @@ Ogni modulo ha il suo wiki locale in `laravel/Modules/<Name>/docs/wiki/`:
 | Lang | [wiki/index.md](../../laravel/Modules/Lang/docs/wiki/index.md) | [lang-module](../../laravel/Modules/Lang/docs/wiki/overviews/lang-module.md) |
 | AI | [wiki/index.md](../../laravel/Modules/AI/docs/wiki/index.md) | [ai-module (root)](./modules/ai-module.md) |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto>, Geo, User, Media, Tenant, Activity, Notify, Job, Gdpr, Chart, CloudStorage, DbForge, Limesurvey | wiki/ presenti | pending |
+=======
+| Quaeris, Geo, User, Media, Tenant, Activity, Notify, Job, Gdpr, Chart, CloudStorage, DbForge, Limesurvey | wiki/ presenti | pending |
+>>>>>>> laraxot/dev
 =======
 | Quaeris, Geo, User, Media, Tenant, Activity, Notify, Job, Gdpr, Chart, CloudStorage, DbForge, Limesurvey | wiki/ presenti | pending |
 >>>>>>> laraxot/dev

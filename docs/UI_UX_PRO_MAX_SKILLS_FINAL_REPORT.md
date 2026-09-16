@@ -224,7 +224,11 @@ Each skill includes:
 1. ✅ Skills installate e configurate
 2. ⏳ Testare ogni skill
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. ⏳ Creare esempi pratici per <nome progetto>
+=======
+3. ⏳ Creare esempi pratici per FixCity
+>>>>>>> laraxot/dev
 =======
 3. ⏳ Creare esempi pratici per FixCity
 >>>>>>> laraxot/dev
@@ -239,7 +243,11 @@ Each skill includes:
 ### Next Week
 9. Advanced usage patterns
 <<<<<<< HEAD
+<<<<<<< HEAD
 10. Custom skill creation per <nome progetto>
+=======
+10. Custom skill creation per FixCity
+>>>>>>> laraxot/dev
 =======
 10. Custom skill creation per FixCity
 >>>>>>> laraxot/dev

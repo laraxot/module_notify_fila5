@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ROADMAP: <nome progetto> Platform
+=======
+# ROADMAP: FixCity Platform
+>>>>>>> laraxot/dev
 =======
 # ROADMAP: FixCity Platform
 >>>>>>> laraxot/dev

@@ -9,7 +9,11 @@
 ## 🎯 OBIETTIVO
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Aggiornare e sincronizzare tutte le roadmap e la documentazione dei moduli e temi del progetto <nome progetto>,
+=======
+Aggiornare e sincronizzare tutte le roadmap e la documentazione dei moduli e temi del progetto FixCity,
+>>>>>>> laraxot/dev
 =======
 Aggiornare e sincronizzare tutte le roadmap e la documentazione dei moduli e temi del progetto FixCity,
 >>>>>>> laraxot/dev
@@ -91,9 +95,15 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 4. 🎫 Aggiornamento Roadmap Modulo <nome progetto>
 
 **File**: `/laravel/Modules/<nome progetto>/docs/ROADMAP_2025.md`
+=======
+### 4. 🎫 Aggiornamento Roadmap Modulo Fixcity
+
+**File**: `/laravel/Modules/Fixcity/docs/ROADMAP_2025.md`
+>>>>>>> laraxot/dev
 =======
 ### 4. 🎫 Aggiornamento Roadmap Modulo Fixcity
 
@@ -159,7 +169,11 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ### Documenti Aggiornati
 - ✅ 1 roadmap master aggiornata
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ 3 roadmap moduli aggiornate (<nome progetto>, User, Sixteen)
+=======
+- ✅ 3 roadmap moduli aggiornate (Fixcity, User, Sixteen)
+>>>>>>> laraxot/dev
 =======
 - ✅ 3 roadmap moduli aggiornate (Fixcity, User, Sixteen)
 >>>>>>> laraxot/dev
@@ -196,7 +210,11 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ### Metriche Chiave
 - **PHPStan Level 9**: ✅ 0 errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Filament 5.x**: ✅ Compatibile
+=======
+- **Filament 4.x**: ✅ Compatibile
+>>>>>>> laraxot/dev
 =======
 - **Filament 4.x**: ✅ Compatibile
 >>>>>>> laraxot/dev
@@ -216,7 +234,11 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 
 ### Short Term (Prossimi 30 giorni)
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. 📋 Completare API documentation <nome progetto>
+=======
+1. 📋 Completare API documentation Fixcity
+>>>>>>> laraxot/dev
 =======
 1. 📋 Completare API documentation Fixcity
 >>>>>>> laraxot/dev
@@ -226,7 +248,11 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 
 ### Medium Term (Q4 2025)
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. 📋 API v1 <nome progetto> completa
+=======
+1. 📋 API v1 Fixcity completa
+>>>>>>> laraxot/dev
 =======
 1. 📋 API v1 Fixcity completa
 >>>>>>> laraxot/dev
@@ -250,7 +276,11 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 
 ### Moduli Principali
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[<nome progetto> ROADMAP_2025.md](./laravel/Modules/<nome progetto>/docs/ROADMAP_2025.md)**
+=======
+- **[Fixcity ROADMAP_2025.md](./laravel/Modules/Fixcity/docs/ROADMAP_2025.md)**
+>>>>>>> laraxot/dev
 =======
 - **[Fixcity ROADMAP_2025.md](./laravel/Modules/Fixcity/docs/ROADMAP_2025.md)**
 >>>>>>> laraxot/dev
@@ -269,7 +299,11 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 ### Aggiornamenti
 - [x] ROADMAP_STATUS_SUMMARY.md aggiornato
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] <nome progetto> ROADMAP_2025.md aggiornato
+=======
+- [x] Fixcity ROADMAP_2025.md aggiornato
+>>>>>>> laraxot/dev
 =======
 - [x] Fixcity ROADMAP_2025.md aggiornato
 >>>>>>> laraxot/dev
@@ -294,9 +328,15 @@ portandole allo stato attuale (Q4 2025) e allineandole con i progressi effettivi
 
 Per domande su questo aggiornamento:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Email**: dev@<nome progetto>.it
 - **Slack**: #<nome progetto>-dev
 - **GitHub**: [laraxot/<nome progetto>](https://github.com/laraxot/<nome progetto>)
+=======
+- **Email**: dev@fixcity.it
+- **Slack**: #fixcity-dev
+- **GitHub**: [laraxot/fixcity](https://github.com/laraxot/fixcity)
+>>>>>>> laraxot/dev
 =======
 - **Email**: dev@fixcity.it
 - **Slack**: #fixcity-dev

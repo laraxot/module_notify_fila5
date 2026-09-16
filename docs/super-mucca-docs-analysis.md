@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "super-mucca-docs-analysis 🐄 super mucca - analisi completa documentazione"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -81,7 +86,11 @@ related:
 | **Gdpr** | 79 | ✅ | 🟢 Buono | Compliance GDPR |
 | **Tenant** | 57 | ✅ | 🟢 Buono | Multi-tenancy |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | 38 | ✅ | 🟢 Buono | Ticketing system |
+=======
+| **Fixcity** | 38 | ✅ | 🟢 Buono | Ticketing system |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | 38 | ✅ | 🟢 Buono | Ticketing system |
 >>>>>>> laraxot/dev

@@ -27,7 +27,11 @@
 **Error**:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vite manifest not found at: /var/www/_bases/<repo progetto>/public_html/themes/<nome tema>/manifest.json
+=======
+Vite manifest not found at: /var/www/_bases/base_ptvx_fila5/public_html/themes/<nome tema>/manifest.json
+>>>>>>> laraxot/dev
 =======
 Vite manifest not found at: /var/www/_bases/base_ptvx_fila5/public_html/themes/<nome tema>/manifest.json
 >>>>>>> laraxot/dev
@@ -126,7 +130,11 @@ See: `.planning/improvements/NOTIFY_IT_IMPROVEMENT_PLAN.md`
 ```bash
 # Navigate to project
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptvx_fila5
 >>>>>>> laraxot/dev

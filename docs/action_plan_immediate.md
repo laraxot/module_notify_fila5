@@ -1,15 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎯 PIANO D'AZIONE IMMEDIATO - <nome progetto> Platform
 
 ## 📋 Sommario Esecutivo
 
 Questo documento identifica le **azioni immediate** da intraprendere per portare <nome progetto> alla versione 2.0.0 production-ready. Basato sull'analisi completa del progetto e le roadmap dei moduli.
 =======
+=======
+>>>>>>> laraxot/dev
 # 🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform
 
 ## 📋 Sommario Esecutivo
 
 Questo documento identifica le **azioni immediate** da intraprendere per portare FixCity alla versione 2.0.0 production-ready. Basato sull'analisi completa del progetto e le roadmap dei moduli.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 **Data**: 2025-01-01  
@@ -38,7 +44,11 @@ Questo documento identifica le **azioni immediate** da intraprendere per portare
   - [ ] Completare factories per tutti i models
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **Modulo <nome progetto>**
+=======
+- [ ] **Modulo Fixcity**
+>>>>>>> laraxot/dev
 =======
 - [ ] **Modulo Fixcity**
 >>>>>>> laraxot/dev

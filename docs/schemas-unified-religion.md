@@ -139,7 +139,11 @@ use Filament\Schemas\Components\Text;
 use Illuminate\Support\HtmlString;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Text::make(new HtmlString((string) __('<nome progetto>::privacy.notice.html')))
+=======
+Text::make(new HtmlString((string) __('fixcity::privacy.notice.html')))
+>>>>>>> laraxot/dev
 =======
 Text::make(new HtmlString((string) __('fixcity::privacy.notice.html')))
 >>>>>>> laraxot/dev
@@ -177,8 +181,13 @@ TextInput::make('review_title')
 - Filament Infolists Overview: https://filamentphp.com/docs/5.x/infolists/overview
 - Filament Schemas Prime Components: https://filamentphp.com/docs/5.x/schemas/primes
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Placeholder source locale: [Placeholder.php](/var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)
 - Placeholder source locale: [Placeholder.php](/var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)
+=======
+- Placeholder source locale: [Placeholder.php](/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)
+- Placeholder source locale: [Placeholder.php](/var/www/_bases/base_ptv_fila5/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)
+>>>>>>> laraxot/dev
 =======
 - Placeholder source locale: [Placeholder.php](/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)
 - Placeholder source locale: [Placeholder.php](/var/www/_bases/base_ptv_fila5/laravel/Themes/Sixteen/vendor/filament/forms/src/Components/Placeholder.php)

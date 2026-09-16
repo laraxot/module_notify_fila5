@@ -3,7 +3,11 @@
 ## Executive Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 This document describes the complete integrated workflow for developing features in the <nome progetto> platform using four AI-powered methodologies:
+=======
+This document describes the complete integrated workflow for developing features in the FixCity platform using four AI-powered methodologies:
+>>>>>>> laraxot/dev
 =======
 This document describes the complete integrated workflow for developing features in the FixCity platform using four AI-powered methodologies:
 >>>>>>> laraxot/dev

@@ -66,7 +66,11 @@ Because `laravel/framework` is not installed, the `Illuminate\Foundation\Applica
 
 This project uses:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Laravel 13.x** framework
+=======
+- **Laravel 12.x** framework
+>>>>>>> laraxot/dev
 =======
 - **Laravel 12.x** framework
 >>>>>>> laraxot/dev

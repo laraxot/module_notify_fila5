@@ -188,7 +188,11 @@ body {
 
 **Cache**: ✅ Pulita  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **URL Test**: http://<nome progetto>.local/it/tests/homepage  
+=======
+**URL Test**: http://fixcity.local/it/tests/homepage  
+>>>>>>> laraxot/dev
 =======
 **URL Test**: http://fixcity.local/it/tests/homepage  
 >>>>>>> laraxot/dev

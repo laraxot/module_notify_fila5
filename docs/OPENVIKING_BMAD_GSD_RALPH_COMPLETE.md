@@ -60,7 +60,11 @@ All documentation, scripts, and configuration files have been created successful
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>/
+=======
+base_ptv_fila5/
+>>>>>>> laraxot/dev
 =======
 base_ptv_fila5/
 >>>>>>> laraxot/dev
@@ -99,7 +103,11 @@ sudo systemctl start openviking
 ```bash
 # Navigate to project
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptv_fila5
 >>>>>>> laraxot/dev

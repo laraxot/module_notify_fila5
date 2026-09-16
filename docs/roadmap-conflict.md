@@ -11,7 +11,11 @@
 ## 🎯 MODULE OVERVIEW
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modulo **Notify** gestisce tutto il sistema di notifiche della piattaforma <nome progetto>, inclusa la gestione delle notifiche in-app, email, SMS, push notifications e l'integrazione con servizi di terze parti.
+=======
+Il modulo **Notify** gestisce tutto il sistema di notifiche della piattaforma FixCity, inclusa la gestione delle notifiche in-app, email, SMS, push notifications e l'integrazione con servizi di terze parti.
+>>>>>>> laraxot/dev
 =======
 Il modulo **Notify** gestisce tutto il sistema di notifiche della piattaforma FixCity, inclusa la gestione delle notifiche in-app, email, SMS, push notifications e l'integrazione con servizi di terze parti.
 >>>>>>> laraxot/dev
@@ -61,7 +65,11 @@ Notify Module
 ### 🛠️ Technical Excellence
 - [ ] **PHPStan level 10**: 0 errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **Filament 5.x**: Compatibilità completa
+=======
+- [ ] **Filament 4.x**: Compatibilità completa
+>>>>>>> laraxot/dev
 =======
 - [ ] **Filament 4.x**: Compatibilità completa
 >>>>>>> laraxot/dev
@@ -139,7 +147,11 @@ Notify Module
 ### 📊 Technical Metrics
 - [ ] **PHPStan level 10**: 0 errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **Filament 5.x**: Compatibile
+=======
+- [ ] **Filament 4.x**: Compatibile
+>>>>>>> laraxot/dev
 =======
 - [ ] **Filament 4.x**: Compatibile
 >>>>>>> laraxot/dev

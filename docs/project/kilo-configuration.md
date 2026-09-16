@@ -192,7 +192,11 @@ npm run lint, npm run format
 "project": {
   "type": "laravel",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "framework": "Laravel-13",
+=======
+  "framework": "laravel-12",
+>>>>>>> laraxot/dev
 =======
   "framework": "laravel-12",
 >>>>>>> laraxot/dev

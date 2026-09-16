@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Sprint Planning Meeting - <nome progetto> Platform
+=======
+# Sprint Planning Meeting - FixCity Platform
+>>>>>>> laraxot/dev
 =======
 # Sprint Planning Meeting - FixCity Platform
 >>>>>>> laraxot/dev

@@ -100,7 +100,11 @@ return [
             'label' => 'isActive',
             'placeholder' => 'isActive',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'isActive',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'isActive',
 >>>>>>> laraxot/dev

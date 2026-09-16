@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📚 Indice Generale Documentazione - <nome progetto>
+=======
+# 📚 Indice Generale Documentazione - Fixcity
+>>>>>>> laraxot/dev
 =======
 # 📚 Indice Generale Documentazione - Fixcity
 >>>>>>> laraxot/dev
@@ -73,17 +77,23 @@
 ### Moduli Business
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### **<nome progetto> Module** - Ticketing System
 - [README](../laravel/Modules/<nome progetto>/docs/README.md) - Gestione ticket
 - File docs: 38 files
 - **Funzionalità**: Ticket, segnalazioni, supporto
 - **Status**: ✅ Operativo (Filament 5.x)
 =======
+=======
+>>>>>>> laraxot/dev
 #### **Fixcity Module** - Ticketing System
 - [README](../laravel/Modules/Fixcity/docs/README.md) - Gestione ticket
 - File docs: 38 files
 - **Funzionalità**: Ticket, segnalazioni, supporto
 - **Status**: ✅ Operativo (Filament 4.x)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 #### **Notify Module** - Notifiche
@@ -185,7 +195,11 @@
 ### Theme TwentyOne - Modern Design
 - [README](../laravel/Themes/TwentyOne/docs/README.md) - Tema moderno
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Funzionalità**: Filament 5.x integration, Livewire
+=======
+- **Funzionalità**: Filament 4.x integration, Livewire
+>>>>>>> laraxot/dev
 =======
 - **Funzionalità**: Filament 4.x integration, Livewire
 >>>>>>> laraxot/dev
@@ -293,8 +307,13 @@
 
 ### Support Channels
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **📧 Email**: support@<nome progetto>.com
 - **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/<nome progetto>/issues)
+=======
+- **📧 Email**: support@fixcity.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)
+>>>>>>> laraxot/dev
 =======
 - **📧 Email**: support@fixcity.com
 - **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)

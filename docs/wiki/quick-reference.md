@@ -116,7 +116,11 @@ related:                               # Optional (array of paths)
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 bashscripts/ai/init-llm-wiki.sh module <nome progetto>
+=======
+bashscripts/ai/init-llm-wiki.sh module Fixcity
+>>>>>>> laraxot/dev
 =======
 bashscripts/ai/init-llm-wiki.sh module Fixcity
 >>>>>>> laraxot/dev
@@ -134,7 +138,11 @@ qmd serve ./docs/wiki
 
 1. Open Obsidian → "Open folder as vault"
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. Select: `/var/www/_bases/<repo progetto>/docs`
+=======
+2. Select: `/var/www/_bases/base_fixcity_fila5/docs`
+>>>>>>> laraxot/dev
 =======
 2. Select: `/var/www/_bases/base_fixcity_fila5/docs`
 >>>>>>> laraxot/dev

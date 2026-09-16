@@ -8,7 +8,11 @@ return [
             'label' => 'recipient',
             'placeholder' => 'recipient',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'recipient',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'recipient',
 >>>>>>> laraxot/dev

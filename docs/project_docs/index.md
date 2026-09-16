@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "📚 Documentation Index - <nome progetto> Project"
+=======
+title: "📚 Documentation Index - FixCity Project"
+>>>>>>> laraxot/dev
 =======
 title: "📚 Documentation Index - FixCity Project"
 >>>>>>> laraxot/dev
@@ -11,7 +15,11 @@ module: Notify
 created: 2026-07-20
 updated: 2026-07-20
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "notify documentazione project_docs index 📚 documentation index - <nome progetto> project index readme frontmatter qmd search"
+=======
+qmd: "notify documentazione project_docs index 📚 documentation index - fixcity project index readme frontmatter qmd search"
+>>>>>>> laraxot/dev
 =======
 qmd: "notify documentazione project_docs index 📚 documentation index - fixcity project index readme frontmatter qmd search"
 >>>>>>> laraxot/dev
@@ -28,7 +36,11 @@ related:
   - ../templates/readme.md
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📚 Documentation Index - <nome progetto> Project
+=======
+# 📚 Documentation Index - FixCity Project
+>>>>>>> laraxot/dev
 =======
 # 📚 Documentation Index - FixCity Project
 >>>>>>> laraxot/dev
@@ -183,7 +195,11 @@ Each module has a `docs/` directory containing:
 
 #### Other Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 - AI, Activity, Blog, Cms, Comment, <nome progetto>, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
+=======
+- AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
+>>>>>>> laraxot/dev
 =======
 - AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
 >>>>>>> laraxot/dev
@@ -467,7 +483,11 @@ All documents include:
 
 ### Documentation Team
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Email:** docs@<nome progetto>.com
+=======
+- **Email:** docs@fixcity.com
+>>>>>>> laraxot/dev
 =======
 - **Email:** docs@fixcity.com
 >>>>>>> laraxot/dev

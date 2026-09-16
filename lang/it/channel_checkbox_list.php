@@ -8,7 +8,11 @@ return [
             'label' => 'channels',
             'placeholder' => 'channels',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'channels',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'channels',
 >>>>>>> laraxot/dev

@@ -146,8 +146,11 @@ class SendSmsPage extends XotBasePage
                 ->action('sendSMS')];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model

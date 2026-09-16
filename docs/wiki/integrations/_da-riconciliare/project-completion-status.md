@@ -128,7 +128,11 @@ related:
 ### Qualità Codice
 - **PHPStan Level 9**: ✅ 0 errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Filament 5.x**: ✅ Compatibile
+=======
+- **Filament 4.x**: ✅ Compatibile
+>>>>>>> laraxot/dev
 =======
 - **Filament 4.x**: ✅ Compatibile
 >>>>>>> laraxot/dev
@@ -208,7 +212,11 @@ related:
 ```
 <nome repository>/
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome repitory>/
+=======
+<nome repitory>_mono/
+>>>>>>> laraxot/dev
 =======
 <nome repitory>_mono/
 >>>>>>> laraxot/dev

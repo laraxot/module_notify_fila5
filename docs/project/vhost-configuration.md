@@ -15,7 +15,11 @@ This document describes the Apache VirtualHost configuration for local developme
 
 - **Domain**: `laraxot.local`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Document Root**: `/var/www/_bases/<repo progetto>/public_html`
+=======
+- **Document Root**: `/var/www/_bases/base_ptvx_fila5/public_html`
+>>>>>>> laraxot/dev
 =======
 - **Document Root**: `/var/www/_bases/base_ptvx_fila5/public_html`
 >>>>>>> laraxot/dev
@@ -30,7 +34,11 @@ This document describes the Apache VirtualHost configuration for local developme
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/_bases/<repo progetto>/
+=======
+/var/www/_bases/base_ptvx_fila5/
+>>>>>>> laraxot/dev
 =======
 /var/www/_bases/base_ptvx_fila5/
 >>>>>>> laraxot/dev
@@ -51,7 +59,11 @@ This document describes the Apache VirtualHost configuration for local developme
 ```bash
 # Copy configuration to Apache sites-available
 <<<<<<< HEAD
+<<<<<<< HEAD
 sudo cp /var/www/_bases/<repo progetto>/laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/laraxot.local.conf
+=======
+sudo cp /var/www/_bases/base_ptvx_fila5/laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/laraxot.local.conf
+>>>>>>> laraxot/dev
 =======
 sudo cp /var/www/_bases/base_ptvx_fila5/laravel/config/vhost/laraxot.local.conf /etc/apache2/sites-available/laraxot.local.conf
 >>>>>>> laraxot/dev
@@ -107,15 +119,21 @@ Open your browser and navigate to:
     
     # Document Root - MUST point to public_html
 <<<<<<< HEAD
+<<<<<<< HEAD
     DocumentRoot /var/www/_bases/<repo progetto>/public_html
     
     # Directory Permissions
     <Directory /var/www/_bases/<repo progetto>>
 =======
+=======
+>>>>>>> laraxot/dev
     DocumentRoot /var/www/_bases/base_ptvx_fila5/public_html
     
     # Directory Permissions
     <Directory /var/www/_bases/base_ptvx_fila5>
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         Options Indexes FollowSymLinks
         AllowOverride All
@@ -123,7 +141,11 @@ Open your browser and navigate to:
     </Directory>
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Directory /var/www/_bases/<repo progetto>/public_html>
+=======
+    <Directory /var/www/_bases/base_ptvx_fila5/public_html>
+>>>>>>> laraxot/dev
 =======
     <Directory /var/www/_bases/base_ptvx_fila5/public_html>
 >>>>>>> laraxot/dev
@@ -170,8 +192,13 @@ sudo tail -f /var/log/apache2/app_local_error.log
 **Verify Permissions:**
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 sudo chown -R www-data:www-data /var/www/_bases/<repo progetto>/public_html
 sudo chmod -R 755 /var/www/_bases/<repo progetto>/public_html
+=======
+sudo chown -R www-data:www-data /var/www/_bases/base_ptvx_fila5/public_html
+sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5/public_html
+>>>>>>> laraxot/dev
 =======
 sudo chown -R www-data:www-data /var/www/_bases/base_ptvx_fila5/public_html
 sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5/public_html
@@ -184,15 +211,21 @@ sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5/public_html
 ```bash
 # Check directory permissions
 <<<<<<< HEAD
+<<<<<<< HEAD
 ls -la /var/www/_bases/<repo progetto>/public_html
 
 # Fix permissions if needed
 sudo chmod -R 755 /var/www/_bases/<repo progetto>
 =======
+=======
+>>>>>>> laraxot/dev
 ls -la /var/www/_bases/base_ptvx_fila5/public_html
 
 # Fix permissions if needed
 sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -201,7 +234,11 @@ sudo chmod -R 755 /var/www/_bases/base_ptvx_fila5
 **Check Laravel Logs:**
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 tail -f /var/www/_bases/<repo progetto>/laravel/storage/logs/laravel.log
+=======
+tail -f /var/www/_bases/base_ptvx_fila5/laravel/storage/logs/laravel.log
+>>>>>>> laraxot/dev
 =======
 tail -f /var/www/_bases/base_ptvx_fila5/laravel/storage/logs/laravel.log
 >>>>>>> laraxot/dev
@@ -210,7 +247,11 @@ tail -f /var/www/_bases/base_ptvx_fila5/laravel/storage/logs/laravel.log
 **Verify .env Configuration:**
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>/laravel
+=======
+cd /var/www/_bases/base_ptvx_fila5/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptvx_fila5/laravel
 >>>>>>> laraxot/dev
@@ -303,7 +344,11 @@ Response
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>/
+=======
+base_ptvx_fila5/
+>>>>>>> laraxot/dev
 =======
 base_ptvx_fila5/
 >>>>>>> laraxot/dev
@@ -337,7 +382,11 @@ For Nginx users, see: `docs/project/vhost-nginx-configuration.md`
 For quick testing:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>/public_html
+=======
+cd /var/www/_bases/base_ptvx_fila5/public_html
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptvx_fila5/public_html
 >>>>>>> laraxot/dev

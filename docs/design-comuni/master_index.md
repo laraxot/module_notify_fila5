@@ -120,7 +120,11 @@ FAQ Page (/it/tests/domande-frequenti)
 │
 ├─ JSON Content
 <<<<<<< HEAD
+<<<<<<< HEAD
 │  └─ laravel/config/local/<nome progetto>/database/content/pages/tests.domande-frequenti.json
+=======
+│  └─ laravel/config/local/fixcity/database/content/pages/tests.domande-frequenti.json
+>>>>>>> laraxot/dev
 =======
 │  └─ laravel/config/local/fixcity/database/content/pages/tests.domande-frequenti.json
 >>>>>>> laraxot/dev

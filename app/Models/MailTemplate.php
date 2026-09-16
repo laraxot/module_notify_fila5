@@ -40,6 +40,10 @@ use Spatie\Translatable\HasTranslations;
  * @property string|null $params
  * @property array<array-key, mixed>|null $sms_template
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @property string|null $sms_from
+>>>>>>> laraxot/dev
 =======
  * @property string|null $sms_from
 >>>>>>> laraxot/dev
@@ -65,6 +69,10 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereParams($value)
  * @method static Builder<static>|MailTemplate whereSlug($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @method static Builder<static>|MailTemplate whereSmsFrom($value)
+>>>>>>> laraxot/dev
 =======
  * @method static Builder<static>|MailTemplate whereSmsFrom($value)
 >>>>>>> laraxot/dev
@@ -100,6 +108,10 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         'text_template',
         'sms_template',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'sms_from',
+>>>>>>> laraxot/dev
 =======
         'sms_from',
 >>>>>>> laraxot/dev
@@ -111,7 +123,10 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     /**
      * Get the options for generating the slug.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
      *
      * `preventOverwrite()`: senza, HasSlug rigenera lo slug da `subject` ad ogni
      * save/update — anche il `$tpl->update(['counter' => ...])` che
@@ -121,6 +136,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
      * subject-slug, e il lookup successivo `findForMailable()` non lo trovava più
      * (story quaeris-send-invite-migrate-to-record-notification.md, Difetto 10).
      * Con `preventOverwrite()` lo slug si genera solo se il campo è vuoto.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
      */
     public function getSlugOptions(): SlugOptions
@@ -128,7 +146,12 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         return SlugOptions::create()
             ->generateSlugsFrom('subject')
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->saveSlugsTo('slug');
+=======
+            ->saveSlugsTo('slug')
+            ->preventOverwrite();
+>>>>>>> laraxot/dev
 =======
             ->saveSlugsTo('slug')
             ->preventOverwrite();

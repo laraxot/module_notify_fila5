@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "supermemory-quickstart supermemory - ai memory infrastructure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -26,15 +31,21 @@ related:
 # SuperMemory - AI Memory Infrastructure
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Project**: <nome progetto> Platform  
 **Last Updated**: 2026-04-09  
 **API Key**: Configured (sm_BzH3Cugxk1hMDm5V1EHC2N_...)  
 **Container Tag**: `<nome progetto>`  
 =======
+=======
+>>>>>>> laraxot/dev
 **Project**: FixCity Platform  
 **Last Updated**: 2026-04-09  
 **API Key**: Configured (sm_BzH3Cugxk1hMDm5V1EHC2N_...)  
 **Container Tag**: `fixcity`  
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 **Container Tag**: `ptv`  
 **User**: marco.sottana@gmail.com (Xot org)
@@ -63,9 +74,15 @@ Auth:  api-key (sm_BzH3Cugxk1hMDm5V1EHC2N_Jr9N****)
 ### Add Project Context
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
 supermemory add --tag <nome progetto> --file .supermemory/<nome progetto>-context.md
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_fixcity_fila5
+supermemory add --tag fixcity --file .supermemory/fixcity-context.md
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5
 supermemory add --tag fixcity --file .supermemory/fixcity-context.md
@@ -77,15 +94,21 @@ supermemory add --tag ptv --file .supermemory/ptv-context.md
 ### Search Memories
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory search "<nome progetto> architecture" --tag <nome progetto>
 supermemory search "Laravel Filament patterns" --tag <nome progetto>
 supermemory search "theme build process" --tag <nome progetto>
 supermemory search "<nome progetto> architecture" --tag ptv
 =======
+=======
+>>>>>>> laraxot/dev
 supermemory search "FixCity architecture" --tag fixcity
 supermemory search "Laravel Filament patterns" --tag fixcity
 supermemory search "theme build process" --tag fixcity
 supermemory search "FixCity architecture" --tag ptv
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 supermemory search "Laravel Filament patterns" --tag ptv
 supermemory search "theme build process" --tag ptv
@@ -94,7 +117,11 @@ supermemory search "theme build process" --tag ptv
 ### Get Profile
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory profile --tag <nome progetto> --query "project preferences"
+=======
+supermemory profile --tag fixcity --query "project preferences"
+>>>>>>> laraxot/dev
 =======
 supermemory profile --tag fixcity --query "project preferences"
 >>>>>>> laraxot/dev
@@ -105,6 +132,7 @@ supermemory profile --tag ptv --query "project preferences"
 
 | Command | Description | Example |
 |---------|-------------|---------|
+<<<<<<< HEAD
 <<<<<<< HEAD
 | `add` | Ingest content and extract memories | `supermemory add --tag <nome progetto> --file docs/mcp-servers.md` |
 | `search` | Search memories semantically | `supermemory search "ticket workflow" --tag <nome progetto>` |
@@ -117,6 +145,8 @@ supermemory profile --tag ptv --query "project preferences"
 
 ## <nome progetto> Use Cases
 =======
+=======
+>>>>>>> laraxot/dev
 | `add` | Ingest content and extract memories | `supermemory add --tag fixcity --file docs/mcp-servers.md` |
 | `search` | Search memories semantically | `supermemory search "ticket workflow" --tag fixcity` |
 | `remember` | Store a specific memory | `supermemory remember "All models extend XotBaseModel" --tag fixcity` |
@@ -127,14 +157,22 @@ supermemory profile --tag ptv --query "project preferences"
 | `docs` | Manage documents | `supermemory docs list` |
 
 ## FixCity Use Cases
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### 1. Project Context Persistence
 Store project architecture decisions:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory add --tag <nome progetto> --content "<nome progetto> uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
 supermemory add --tag ptv --content "<nome progetto> uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
+=======
+supermemory add --tag fixcity --content "FixCity uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
+supermemory add --tag ptv --content "FixCity uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
+>>>>>>> laraxot/dev
 =======
 supermemory add --tag fixcity --content "FixCity uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
 supermemory add --tag ptv --content "FixCity uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
@@ -145,8 +183,13 @@ supermemory add --tag ptv --content "FixCity uses Nwidart modules + Laraxot exte
 Store module patterns:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory add --tag <nome progetto> --content "<nome progetto> module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
 supermemory add --tag ptv --content "<nome progetto> module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
+=======
+supermemory add --tag fixcity --content "Fixcity module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
+supermemory add --tag ptv --content "Fixcity module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
+>>>>>>> laraxot/dev
 =======
 supermemory add --tag fixcity --content "Fixcity module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
 supermemory add --tag ptv --content "Fixcity module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
@@ -157,7 +200,11 @@ supermemory add --tag ptv --content "Fixcity module: Ticket model extends XotBas
 Store theme development patterns:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory add --tag <nome progetto> --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then npm run copy to public_html/themes/Sixteen/."
+=======
+supermemory add --tag fixcity --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then npm run copy to public_html/themes/Sixteen/."
+>>>>>>> laraxot/dev
 =======
 supermemory add --tag fixcity --content "Sixteen theme: Bootstrap Italia classes replicated with Tailwind @apply. Vite outDir: './public', then npm run copy to public_html/themes/Sixteen/."
 >>>>>>> laraxot/dev
@@ -168,7 +215,11 @@ supermemory add --tag ptv --content "Sixteen theme: Bootstrap Italia classes rep
 Store build processes:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build && npm run copy" --tag <nome progetto>
+=======
+supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build && npm run copy" --tag fixcity
+>>>>>>> laraxot/dev
 =======
 supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm run build && npm run copy" --tag fixcity
 >>>>>>> laraxot/dev
@@ -179,7 +230,11 @@ supermemory remember "After ANY CSS/JS change in theme: cd Themes/Sixteen && npm
 Store reasoning behind decisions:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory add --tag <nome progetto> --content "Decision: Use Actions over Services for business logic. Rationale: Queueable, testable, reusable. Spatie/laravel-queueable-action package."
+=======
+supermemory add --tag fixcity --content "Decision: Use Actions over Services for business logic. Rationale: Queueable, testable, reusable. Spatie/laravel-queueable-action package."
+>>>>>>> laraxot/dev
 =======
 supermemory add --tag fixcity --content "Decision: Use Actions over Services for business logic. Rationale: Queueable, testable, reusable. Spatie/laravel-queueable-action package."
 >>>>>>> laraxot/dev
@@ -192,15 +247,21 @@ supermemory add --tag ptv --content "Decision: Use Actions over Services for bus
 ```bash
 # Get project context
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory profile --tag <nome progetto> --query "<nome progetto> project architecture and conventions"
 
 # Search for relevant patterns
 supermemory search "Filament widget patterns" --tag <nome progetto>
 =======
+=======
+>>>>>>> laraxot/dev
 supermemory profile --tag fixcity --query "FixCity project architecture and conventions"
 
 # Search for relevant patterns
 supermemory search "Filament widget patterns" --tag fixcity
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -208,15 +269,21 @@ supermemory search "Filament widget patterns" --tag fixcity
 ```bash
 # Store decisions
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory remember "Added file upload component to CreateTicketWizardWidget using wire:change" --tag <nome progetto>
 
 # Search for similar patterns
 supermemory search "file upload Livewire" --tag <nome progetto>
 =======
+=======
+>>>>>>> laraxot/dev
 supermemory remember "Added file upload component to CreateTicketWizardWidget using wire:change" --tag fixcity
 
 # Search for similar patterns
 supermemory search "file upload Livewire" --tag fixcity
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -224,7 +291,11 @@ supermemory search "file upload Livewire" --tag fixcity
 ```bash
 # Store completed work summary
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory add --tag <nome progetto> --file path/to/session-summary.md
+=======
+supermemory add --tag fixcity --file path/to/session-summary.md
+>>>>>>> laraxot/dev
 =======
 supermemory add --tag fixcity --file path/to/session-summary.md
 >>>>>>> laraxot/dev
@@ -247,7 +318,11 @@ supermemory update <context-memory-id> --content "Updated architecture..."
 
 1. **Use Descriptive Content**: Be specific about what you're storing
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **Tag Consistently**: Always use `<nome progetto>` as base tag
+=======
+2. **Tag Consistently**: Always use `fixcity` as base tag
+>>>>>>> laraxot/dev
 =======
 2. **Tag Consistently**: Always use `fixcity` as base tag
 >>>>>>> laraxot/dev
@@ -257,7 +332,11 @@ supermemory update <context-memory-id> --content "Updated architecture..."
 5. **Use Metadata**: Add metadata for better filtering:
    ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
    supermemory add --tag <nome progetto> --content "..." --metadata '{"type":"architecture","module":"Xot"}'
+=======
+   supermemory add --tag fixcity --content "..." --metadata '{"type":"architecture","module":"Xot"}'
+>>>>>>> laraxot/dev
 =======
    supermemory add --tag fixcity --content "..." --metadata '{"type":"architecture","module":"Xot"}'
 >>>>>>> laraxot/dev
@@ -282,17 +361,23 @@ Located in `laravel/.mcp.json`:
 
 ### CLI Configuration
 <<<<<<< HEAD
+<<<<<<< HEAD
 Located in `~/.supermemory/projects/-var-www-_bases-<repo progetto>/config.json`:
 ```json
 {
   "apiKey": "sm_BzH3Cugxk1hMDm5V1EHC2N_...",
   "containerTag": "<nome progetto>"
 =======
+=======
+>>>>>>> laraxot/dev
 Located in `~/.supermemory/projects/-var-www-_bases-base_fixcity_fila5/config.json`:
 ```json
 {
   "apiKey": "sm_BzH3Cugxk1hMDm5V1EHC2N_...",
   "containerTag": "fixcity"
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 }
 ```
@@ -306,7 +391,11 @@ supermemory whoami
 
 # Re-authenticate if needed
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory init --api-key YOUR_KEY --container-tag <nome progetto> --scope project
+=======
+supermemory init --api-key YOUR_KEY --container-tag fixcity --scope project
+>>>>>>> laraxot/dev
 =======
 supermemory init --api-key YOUR_KEY --container-tag fixcity --scope project
 >>>>>>> laraxot/dev
@@ -316,7 +405,11 @@ supermemory init --api-key YOUR_KEY --container-tag ptv --scope project
 ### No Results from Search
 - Try broader search terms
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Verify container tag: `--tag <nome progetto>`
+=======
+- Verify container tag: `--tag fixcity`
+>>>>>>> laraxot/dev
 =======
 - Verify container tag: `--tag fixcity`
 >>>>>>> laraxot/dev

@@ -23,7 +23,11 @@ related:
 - [Indice Documentazione Notify](../index.md)
 - [README Modulo Notify](../readme.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../../docs/readme.md)
+=======
+- [Documentazione Generale Quaeris](../../../../../../docs/readme.md)
+>>>>>>> laraxot/dev
 =======
 - [Documentazione Generale Quaeris](../../../../../../docs/readme.md)
 >>>>>>> laraxot/dev
@@ -58,7 +62,11 @@ related:
 
 ## Note Importanti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+=======
+- Quaeris utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> laraxot/dev
 =======
 - Quaeris utilizza il pattern Factory per la creazione delle azioni di invio messaggi
 >>>>>>> laraxot/dev

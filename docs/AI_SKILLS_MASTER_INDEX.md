@@ -5,7 +5,11 @@
 ## 🎯 Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione elenca tutte le skill AI installate e configurate per il progetto <nome progetto> Fila5. Le skill potenziano gli agenti AI con conoscenze specializzate per UI/UX design, sviluppo, e task specifici.
+=======
+Questa documentazione elenca tutte le skill AI installate e configurate per il progetto FixCity Fila5. Le skill potenziano gli agenti AI con conoscenze specializzate per UI/UX design, sviluppo, e task specifici.
+>>>>>>> laraxot/dev
 =======
 Questa documentazione elenca tutte le skill AI installate e configurate per il progetto FixCity Fila5. Le skill potenziano gli agenti AI con conoscenze specializzate per UI/UX design, sviluppo, e task specifici.
 >>>>>>> laraxot/dev
@@ -270,7 +274,11 @@ Skills activate automatically when the agent detects relevant tasks:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/_bases/<repo progetto>/
+=======
+/var/www/_bases/base_ptv_fila5/
+>>>>>>> laraxot/dev
 =======
 /var/www/_bases/base_ptv_fila5/
 >>>>>>> laraxot/dev
@@ -346,7 +354,11 @@ Context: "Make it beautiful"
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptv_fila5
 >>>>>>> laraxot/dev
@@ -358,7 +370,11 @@ mkdir -p skills/ui-ux-pro-max
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptv_fila5
 >>>>>>> laraxot/dev
@@ -370,7 +386,11 @@ mkdir -p skills/taste
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptv_fila5
 >>>>>>> laraxot/dev
@@ -382,7 +402,11 @@ mkdir -p skills/anthropic
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptv_fila5
 >>>>>>> laraxot/dev

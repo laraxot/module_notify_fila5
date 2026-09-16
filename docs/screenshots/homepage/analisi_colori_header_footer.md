@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📸 Analisi Visiva Header & Footer - <nome progetto> vs Bootstrap Italia
+=======
+# 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
+>>>>>>> laraxot/dev
 =======
 # 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
 >>>>>>> laraxot/dev
@@ -13,7 +17,11 @@
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>**: http://<nome progetto>.local/it/tests/homepage
+=======
+**FixCity**: http://fixcity.local/it/tests/homepage
+>>>>>>> laraxot/dev
 =======
 **FixCity**: http://fixcity.local/it/tests/homepage
 >>>>>>> laraxot/dev
@@ -169,9 +177,15 @@
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 3. <nome progetto> - Differenze Attuali
 
 ### Header <nome progetto> (Errato)
+=======
+## 3. FixCity - Differenze Attuali
+
+### Header FixCity (Errato)
+>>>>>>> laraxot/dev
 =======
 ## 3. FixCity - Differenze Attuali
 
@@ -190,7 +204,11 @@
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Footer <nome progetto> (Errato)
+=======
+### Footer FixCity (Errato)
+>>>>>>> laraxot/dev
 =======
 ### Footer FixCity (Errato)
 >>>>>>> laraxot/dev

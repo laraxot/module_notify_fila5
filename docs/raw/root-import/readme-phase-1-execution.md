@@ -135,7 +135,11 @@ laravel/Themes/Sixteen/docs/
 **Subtask 4** (PARALLEL with Subtask 3):
 - 📝 Input: PHASE-1-FINDINGS.md from Researcher
 <<<<<<< HEAD
+<<<<<<< HEAD
 - 🔧 File: `laravel/config/local/<nome progetto>/database/content/pages/tests.segnalazioni-elenco.json`
+=======
+- 🔧 File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> laraxot/dev
 =======
 - 🔧 File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 >>>>>>> laraxot/dev
@@ -213,7 +217,11 @@ PHASE 1 WORKFLOW (as of 07:50 UTC)
 
 **Translation Pattern** (CRITICAL):
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Correct: `<nome progetto>::segnalazione.fields.title.label`
+=======
+- ✅ Correct: `fixcity::segnalazione.fields.title.label`
+>>>>>>> laraxot/dev
 =======
 - ✅ Correct: `fixcity::segnalazione.fields.title.label`
 >>>>>>> laraxot/dev
@@ -224,7 +232,11 @@ PHASE 1 WORKFLOW (as of 07:50 UTC)
 **File Locations**:
 - ✅ Blade: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ JSON: `laravel/config/local/<nome progetto>/database/content/pages/tests.segnalazioni-elenco.json`
+=======
+- ✅ JSON: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> laraxot/dev
 =======
 - ✅ JSON: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 >>>>>>> laraxot/dev
@@ -371,7 +383,11 @@ Before starting your subtask:
 | Comparison Script | html-structure-compare.sh | bashscripts/body/ | ✅ READY |
 | Blade Fixes | [slug].blade.php | laravel/Themes/Sixteen/resources/views/pages/tests/ | ⏳ PENDING |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | JSON Verify | tests.segnalazioni-elenco.json | laravel/config/local/<nome progetto>/database/content/pages/ | ⏳ PENDING |
+=======
+| JSON Verify | tests.segnalazioni-elenco.json | laravel/config/local/fixcity/database/content/pages/ | ⏳ PENDING |
+>>>>>>> laraxot/dev
 =======
 | JSON Verify | tests.segnalazioni-elenco.json | laravel/config/local/fixcity/database/content/pages/ | ⏳ PENDING |
 >>>>>>> laraxot/dev

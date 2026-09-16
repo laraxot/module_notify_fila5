@@ -42,7 +42,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 ### 5. Screenshot Comparison
 - [ ] Screenshot originale
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Screenshot <nome progetto>
+=======
+- [ ] Screenshot FixCity
+>>>>>>> laraxot/dev
 =======
 - [ ] Screenshot FixCity
 >>>>>>> laraxot/dev
@@ -80,7 +84,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 ### Header
 - **Originale**: [Link]
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: [Link]
+=======
+- **FixCity**: [Link]
+>>>>>>> laraxot/dev
 =======
 - **FixCity**: [Link]
 >>>>>>> laraxot/dev
@@ -93,7 +101,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 ### Footer
 - **Originale**: [Link]
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: [Link]
+=======
+- **FixCity**: [Link]
+>>>>>>> laraxot/dev
 =======
 - **FixCity**: [Link]
 >>>>>>> laraxot/dev
@@ -105,7 +117,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 ### Content
 - **Originale**: [Link]
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: [Link]
+=======
+- **FixCity**: [Link]
+>>>>>>> laraxot/dev
 =======
 - **FixCity**: [Link]
 >>>>>>> laraxot/dev

@@ -21,7 +21,11 @@ Modules/
   Media/      — file e media
   Notify/     — notifiche (email, SMS, Telegram, WhatsApp)
 <<<<<<< HEAD
+<<<<<<< HEAD
   <nome progetto>/    — survey management
+=======
+  Quaeris/    — survey management
+>>>>>>> laraxot/dev
 =======
   Quaeris/    — survey management
 >>>>>>> laraxot/dev

@@ -174,7 +174,11 @@ TIER 4-5 - Specialized
 {
   "type": "hero",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "title": "Welcome to <nome progetto>",
+=======
+  "title": "Welcome to FixCity",
+>>>>>>> laraxot/dev
 =======
   "title": "Welcome to FixCity",
 >>>>>>> laraxot/dev

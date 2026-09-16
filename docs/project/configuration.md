@@ -83,7 +83,11 @@ return [
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>/
+=======
+base_ptvx_fila5/
+>>>>>>> laraxot/dev
 =======
 base_ptvx_fila5/
 >>>>>>> laraxot/dev
@@ -128,7 +132,11 @@ base_ptvx_fila5/
 | Path | Description | Example |
 |------|-------------|---------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `<repo progetto>/` |
+=======
+| `base_path()` | Project root | `/var/www/_bases/base_ptvx_fila5/` |
+>>>>>>> laraxot/dev
 =======
 | `base_path()` | Project root | `/var/www/_bases/base_ptvx_fila5/` |
 >>>>>>> laraxot/dev

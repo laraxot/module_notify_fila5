@@ -138,8 +138,11 @@ class SendWhatsAppPage extends XotBasePage
             'submit' => Action::make('whatsappFormActions')->submit('whatsappFormActions')];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model

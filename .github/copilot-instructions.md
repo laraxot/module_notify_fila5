@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Copilot Instructions for <nome progetto>
+=======
+# Copilot Instructions for FixCity
+>>>>>>> laraxot/dev
 =======
 # Copilot Instructions for FixCity
 >>>>>>> laraxot/dev
@@ -55,7 +59,11 @@ npm run quality:eslint       # JavaScript/TypeScript only
 ### Project Structure
 - **Document Root**: `public_html/` (NOT `public/`)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Laravel App**: `laravel/` (Laravel 13, Filament 5, Livewire 3)
+=======
+- **Laravel App**: `laravel/` (Laravel 12, Filament 5, Livewire 3)
+>>>>>>> laraxot/dev
 =======
 - **Laravel App**: `laravel/` (Laravel 12, Filament 5, Livewire 3)
 >>>>>>> laraxot/dev
@@ -81,7 +89,11 @@ The theme detection algorithm reads `.env` to determine the active theme:
 - **Media**: File management
 - **Activity**: Activity logging
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **AI**, **Job**, **Notify**, **Lang**, **Geo**, **Gdpr**, **Rating**, **Blog**, **<nome progetto>**, **Comment**, **Seo**
+=======
+- **AI**, **Job**, **Notify**, **Lang**, **Geo**, **Gdpr**, **Rating**, **Blog**, **Fixcity**, **Comment**, **Seo**
+>>>>>>> laraxot/dev
 =======
 - **AI**, **Job**, **Notify**, **Lang**, **Geo**, **Gdpr**, **Rating**, **Blog**, **Fixcity**, **Comment**, **Seo**
 >>>>>>> laraxot/dev
@@ -431,7 +443,11 @@ This project supports **simultaneous work by multiple AI agents**. When working:
 **Last Updated**: See git history for changelog  
 **Version**: Copilot-native  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Framework**: Laravel 13 + Filament 5 + Livewire 3 + nwidart/laravel-modules
+=======
+**Framework**: Laravel 12 + Filament 5 + Livewire 3 + nwidart/laravel-modules
+>>>>>>> laraxot/dev
 =======
 **Framework**: Laravel 12 + Filament 5 + Livewire 3 + nwidart/laravel-modules
 >>>>>>> laraxot/dev

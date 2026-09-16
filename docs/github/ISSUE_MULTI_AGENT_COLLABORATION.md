@@ -172,7 +172,11 @@ However, since bashscripts docs are gitignored, they need to be committed to bas
 | Repo | Status | Next Step |
 |------|--------|-----------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Main Repo (<repo progetto>) | ✅ Committed & Pushed | - |
+=======
+| Main Repo (base_ptvx_fila5) | ✅ Committed & Pushed | - |
+>>>>>>> laraxot/dev
 =======
 | Main Repo (base_ptvx_fila5) | ✅ Committed & Pushed | - |
 >>>>>>> laraxot/dev

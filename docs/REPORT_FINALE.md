@@ -1,13 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📊 Report Finale - <nome progetto> Sixteen Theme
 
 ## 🎯 Obiettivo Completato
 Creazione pagine mancanti per il tema Sixteen (<nome progetto>) utilizzando metodologie avanzate (GSD, Ralph Loop, BMAD, OpenVikings, NotebookLM).
 =======
+=======
+>>>>>>> laraxot/dev
 # 📊 Report Finale - FixCity Sixteen Theme
 
 ## 🎯 Obiettivo Completato
 Creazione pagine mancanti per il tema Sixteen (FixCity) utilizzando metodologie avanzate (GSD, Ralph Loop, BMAD, OpenVikings, NotebookLM).
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -223,7 +229,11 @@ Themes/Sixteen/resources/views/pages/
 
 **Tecnologie:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Laravel 13
+=======
+- Laravel 12
+>>>>>>> laraxot/dev
 =======
 - Laravel 12
 >>>>>>> laraxot/dev
@@ -238,7 +248,11 @@ Themes/Sixteen/resources/views/pages/
 
 Per informazioni:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Repository**: `/var/www/_bases/<repo progetto>`
+=======
+- **Repository**: `/var/www/_bases/base_ptv_fila5`
+>>>>>>> laraxot/dev
 =======
 - **Repository**: `/var/www/_bases/base_ptv_fila5`
 >>>>>>> laraxot/dev

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 final class SmsData
@@ -38,6 +39,8 @@ final class SmsData
         return new self($data);
     }
 =======
+=======
+>>>>>>> laraxot/dev
 use Spatie\LaravelData\Data;
 
 /**
@@ -54,5 +57,8 @@ final class SmsData extends Data
         public string $recipient = '',
         public string $body = '',
     ) {}
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 }

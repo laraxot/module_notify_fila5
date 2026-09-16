@@ -142,6 +142,7 @@ Instead of logging routine operations, use proper monitoring tools:
 
 ### Service Classes (High Priority)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/<nome progetto>/app/Services/NotificationService.php`
 - `Modules/<nome progetto>/app/Services/TicketService.php`
 - `Modules/<nome progetto>/app/Services/WorkflowService.php`
@@ -150,6 +151,8 @@ Instead of logging routine operations, use proper monitoring tools:
 ### Actions (Medium Priority)
 - `Modules/<nome progetto>/app/Actions/*.php`
 =======
+=======
+>>>>>>> laraxot/dev
 - `Modules/Fixcity/app/Services/NotificationService.php`
 - `Modules/Fixcity/app/Services/TicketService.php`
 - `Modules/Fixcity/app/Services/WorkflowService.php`
@@ -157,6 +160,9 @@ Instead of logging routine operations, use proper monitoring tools:
 
 ### Actions (Medium Priority)
 - `Modules/Fixcity/app/Actions/*.php`
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - All Spatie QueueableActions
 

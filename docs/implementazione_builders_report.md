@@ -206,7 +206,11 @@ namespace Modules\Xot\Models;  // ✅ CORRETTO
 
 **Moduli con BasePivot** (8 trovati):
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Blog, Cms, Comment, <nome progetto>, Gdpr, Geo, Notify, User
+=======
+- Blog, Cms, Comment, Fixcity, Gdpr, Geo, Notify, User
+>>>>>>> laraxot/dev
 =======
 - Blog, Cms, Comment, Fixcity, Gdpr, Geo, Notify, User
 >>>>>>> laraxot/dev
@@ -252,7 +256,11 @@ abstract class BasePivot extends Pivot  // ❌ NON usa XotBasePivot
 | Gdpr | ~60 | 7 | 4 |
 | Comment | ~60 | 7 | 4 |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | ~60 | 7 | 4 |
+=======
+| Fixcity | ~60 | 7 | 4 |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | ~60 | 7 | 4 |
 >>>>>>> laraxot/dev

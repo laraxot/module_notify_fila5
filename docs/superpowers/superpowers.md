@@ -142,8 +142,13 @@ Semplicemente aprire Claude Code in qualsiasi progetto. Le skills si attivano au
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptvx_fila5

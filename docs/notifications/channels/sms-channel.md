@@ -1,6 +1,7 @@
 # `SmsChannel`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 This document describes the `SmsChannel`, a custom Laravel Notification Channel designed to send SMS messages. It integrates with the application's phone number normalization logic and provides a placeholder for actual SMS gateway integration.
 
 ## Location
@@ -57,6 +58,8 @@ This channel is typically referenced in `ChannelEnum` and used by `RecordNotific
 *   [`NormalizePhoneNumberAction` Documentation](`../../actions/normalize-phone-number-action.md`)
 *   [Laravel Notifications Documentation](https://laravel.com/docs/master/notifications#custom-channels)
 =======
+=======
+>>>>>>> laraxot/dev
 Canale di notifica Laravel per l'invio di SMS. Non contiene la logica di
 trasporto: sceglie il **driver** e delega alla sua `Send{Provider}SMSAction`.
 
@@ -112,4 +115,7 @@ Nessuna modifica al codice — vale anche per gli SMS di invito survey
 - [`RecordNotification`](../record-notification.md)
 - `NormalizePhoneNumberAction` — la normalizzazione E.164 vive dentro le
   `Send*SMSAction`, non in `SmsChannel`.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

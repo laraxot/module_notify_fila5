@@ -44,7 +44,11 @@ laravel/Modules/{ModuleName}/resources/svg/
 9. **Geo** - Geolocalizzazione
 10. **Gdpr** - Conformità GDPR
 <<<<<<< HEAD
+<<<<<<< HEAD
 11. **<nome progetto>** - Modulo specifico progetto
+=======
+11. **Fixcity** - Modulo specifico progetto
+>>>>>>> laraxot/dev
 =======
 11. **Fixcity** - Modulo specifico progetto
 >>>>>>> laraxot/dev

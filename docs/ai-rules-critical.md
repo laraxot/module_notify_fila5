@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ai-rules-critical 🤖 ai agent rules - critical update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -49,8 +54,13 @@ related:
 ```bash
 # After creating/modifying files
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptv_fila5
@@ -74,8 +84,13 @@ git push origin dev
 
 # 5. Verify on GitHub
 <<<<<<< HEAD
+<<<<<<< HEAD
 gh run list --repo laraxot/<repo progetto>
 gh run list --repo laraxot/<repo progetto>
+=======
+gh run list --repo laraxot/base_fixcity_fila5
+gh run list --repo laraxot/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 gh run list --repo laraxot/base_fixcity_fila5
 gh run list --repo laraxot/base_ptv_fila5
@@ -105,8 +120,13 @@ sleep 120
 
 # Check workflow status
 <<<<<<< HEAD
+<<<<<<< HEAD
 gh run list --repo laraxot/<repo progetto>
 gh run list --repo laraxot/<repo progetto>
+=======
+gh run list --repo laraxot/base_fixcity_fila5
+gh run list --repo laraxot/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 gh run list --repo laraxot/base_fixcity_fila5
 gh run list --repo laraxot/base_ptv_fila5
@@ -317,8 +337,13 @@ git log -n 3 --oneline
 
 # Compare with:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # https://github.com/laraxot/<repo progetto>/commits/dev
 # https://github.com/laraxot/<repo progetto>/commits/dev
+=======
+# https://github.com/laraxot/base_fixcity_fila5/commits/dev
+# https://github.com/laraxot/base_ptv_fila5/commits/dev
+>>>>>>> laraxot/dev
 =======
 # https://github.com/laraxot/base_fixcity_fila5/commits/dev
 # https://github.com/laraxot/base_ptv_fila5/commits/dev

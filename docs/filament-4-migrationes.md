@@ -7,7 +7,11 @@
 ## Problem
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The application was using deprecated Filament 3 components that don't exist in Filament 5:
+=======
+The application was using deprecated Filament 3 components that don't exist in Filament 4:
+>>>>>>> laraxot/dev
 =======
 The application was using deprecated Filament 3 components that don't exist in Filament 4:
 >>>>>>> laraxot/dev
@@ -24,7 +28,11 @@ The application was using deprecated Filament 3 components that don't exist in F
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Filament 5 (Correct):**
+=======
+**Filament 4 (Correct):**
+>>>>>>> laraxot/dev
 =======
 **Filament 4 (Correct):**
 >>>>>>> laraxot/dev
@@ -44,7 +52,11 @@ The application was using deprecated Filament 3 components that don't exist in F
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Filament 5 (Correct):**
+=======
+**Filament 4 (Correct):**
+>>>>>>> laraxot/dev
 =======
 **Filament 4 (Correct):**
 >>>>>>> laraxot/dev
@@ -72,8 +84,13 @@ php artisan optimize        # ✅ Config, Events, Routes cached successfully
 ## Reference
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament 5 Actions Documentation](https://filamentphp.com/docs/4.x/components/action)
 - In Filament 5, actions are rendered directly using `{{ $this->actionName }}` or by iterating over action arrays
+=======
+- [Filament 4 Actions Documentation](https://filamentphp.com/docs/4.x/components/action)
+- In Filament 4, actions are rendered directly using `{{ $this->actionName }}` or by iterating over action arrays
+>>>>>>> laraxot/dev
 =======
 - [Filament 4 Actions Documentation](https://filamentphp.com/docs/4.x/components/action)
 - In Filament 4, actions are rendered directly using `{{ $this->actionName }}` or by iterating over action arrays

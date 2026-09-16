@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto> - Architecture Documentation
+=======
+# FixCity - Architecture Documentation
+>>>>>>> laraxot/dev
 =======
 # FixCity - Architecture Documentation
 >>>>>>> laraxot/dev
@@ -57,7 +61,11 @@ Modules/
 ├── Tenant/           # Multi-tenancy support
 ├── User/             # User management & authentication
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── <nome progetto>/          # Main application logic
+=======
+├── Fixcity/          # Main application logic
+>>>>>>> laraxot/dev
 =======
 ├── Fixcity/          # Main application logic
 >>>>>>> laraxot/dev
@@ -85,7 +93,11 @@ graph TD
     A --> C[User]
     A --> D[Lang]
 <<<<<<< HEAD
+<<<<<<< HEAD
     B --> E[<nome progetto>]
+=======
+    B --> E[Fixcity]
+>>>>>>> laraxot/dev
 =======
     B --> E[Fixcity]
 >>>>>>> laraxot/dev

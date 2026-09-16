@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 💎 <nome progetto> - DIAMOND COVERAGE REPORT
+=======
+# 💎 FIXCITY - DIAMOND COVERAGE REPORT
+>>>>>>> laraxot/dev
 =======
 # 💎 FIXCITY - DIAMOND COVERAGE REPORT
 >>>>>>> laraxot/dev
@@ -20,7 +24,11 @@ Raggiungere il **100% di test coverage** su tutti i moduli critici con test comp
 ## 📊 TEST SUITES CREATE (8 totali)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Modulo <nome progetto> (4 suites)
+=======
+### Modulo Fixcity (4 suites)
+>>>>>>> laraxot/dev
 =======
 ### Modulo Fixcity (4 suites)
 >>>>>>> laraxot/dev
@@ -103,7 +111,11 @@ Raggiungere il **100% di test coverage** su tutti i moduli critici con test comp
 | Modulo | Files Tested | Test Cases | Coverage | Status |
 |--------|--------------|------------|----------|--------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | 4 | 50+ | ~85% | ✅ Eccellente |
+=======
+| **Fixcity** | 4 | 50+ | ~85% | ✅ Eccellente |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | 4 | 50+ | ~85% | ✅ Eccellente |
 >>>>>>> laraxot/dev
@@ -175,7 +187,11 @@ php artisan test
 ### Run Specific Module
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 php artisan test --filter=<nome progetto>
+=======
+php artisan test --filter=Fixcity
+>>>>>>> laraxot/dev
 =======
 php artisan test --filter=Fixcity
 >>>>>>> laraxot/dev
@@ -208,7 +224,11 @@ php artisan test --parallel
 
 ### Short Term (Week 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] <nome progetto>: 85% → **95%**
+=======
+- [ ] Fixcity: 85% → **95%**
+>>>>>>> laraxot/dev
 =======
 - [ ] Fixcity: 85% → **95%**
 >>>>>>> laraxot/dev
@@ -341,9 +361,15 @@ php artisan test --parallel
 **Mode**: 🐄⚡💎 **SUPER MUCCA DIAMOND ACTIVE**  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. <nome progetto> sarà il diamante più brillante del 2025!"*
 
 **#<nome progetto>2025 #DiamondCoverage #TestExcellence #100Percent**
+=======
+*"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. FixCity sarà il diamante più brillante del 2025!"*
+
+**#FixCity2025 #DiamondCoverage #TestExcellence #100Percent**
+>>>>>>> laraxot/dev
 =======
 *"Ogni test ci avvicina alla perfezione. Il diamante si forma sotto pressione. FixCity sarà il diamante più brillante del 2025!"*
 

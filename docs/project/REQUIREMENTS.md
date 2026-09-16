@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # REQUIREMENTS: <nome progetto> Platform
+=======
+# REQUIREMENTS: FixCity Platform
+>>>>>>> laraxot/dev
 =======
 # REQUIREMENTS: FixCity Platform
 >>>>>>> laraxot/dev

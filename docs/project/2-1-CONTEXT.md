@@ -14,7 +14,11 @@ Provide a centralized area for citizens to manage their reports (tickets), see s
 
 ## Technical Details
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Model**: `Modules\<nome progetto>\Models\Ticket` (need to verify this).
+=======
+- **Model**: `Modules\Fixcity\Models\Ticket` (need to verify this).
+>>>>>>> laraxot/dev
 =======
 - **Model**: `Modules\Fixcity\Models\Ticket` (need to verify this).
 >>>>>>> laraxot/dev
@@ -23,7 +27,11 @@ Provide a centralized area for citizens to manage their reports (tickets), see s
 
 ## Questions to Resolve
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Is there already a `Ticket` model in the `<nome progetto>` module?
+=======
+- [ ] Is there already a `Ticket` model in the `Fixcity` module?
+>>>>>>> laraxot/dev
 =======
 - [ ] Is there already a `Ticket` model in the `Fixcity` module?
 >>>>>>> laraxot/dev

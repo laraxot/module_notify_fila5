@@ -98,8 +98,11 @@ class SendEmailPage extends XotBasePage
                 ->submit('emailFormActions')];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model

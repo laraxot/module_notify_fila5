@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "🏆 <nome progetto> - COMPLETAMENTO ASSOLUTO 100%"
+=======
+title: "🏆 FIXCITY - COMPLETAMENTO ASSOLUTO 100%"
+>>>>>>> laraxot/dev
 =======
 title: "🏆 FIXCITY - COMPLETAMENTO ASSOLUTO 100%"
 >>>>>>> laraxot/dev
@@ -9,15 +13,21 @@ tags: [absolute, completion, 100]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "absolute-completion-100 🏆 <nome progetto> - completamento assoluto 100%"
 qmd: "absolute-completion-100 🏆 ptv - completamento assoluto 100%"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "absolute-completion-100 🏆 fixcity - completamento assoluto 100%"
 qmd: "absolute-completion-100 🏆 ptv - completamento assoluto 100%"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
@@ -31,7 +41,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏆 <nome progetto> - COMPLETAMENTO ASSOLUTO 100%
+=======
+# 🏆 FIXCITY - COMPLETAMENTO ASSOLUTO 100%
+>>>>>>> laraxot/dev
 =======
 # 🏆 FIXCITY - COMPLETAMENTO ASSOLUTO 100%
 >>>>>>> laraxot/dev
@@ -70,9 +84,15 @@ Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbia
 
 #### Guide Complete (5)
 <<<<<<< HEAD
+<<<<<<< HEAD
 10. <nome progetto>/docs/API.md
 11. <nome progetto>/docs/USER_GUIDE.md
 12. <nome progetto>/docs/ADMIN_GUIDE.md
+=======
+10. Fixcity/docs/API.md
+11. Fixcity/docs/USER_GUIDE.md
+12. Fixcity/docs/ADMIN_GUIDE.md
+>>>>>>> laraxot/dev
 =======
 10. Fixcity/docs/API.md
 11. Fixcity/docs/USER_GUIDE.md
@@ -167,7 +187,11 @@ Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbia
 
 ### Core Modules (95%)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: **95%** ✅ (Job, Repository, API, Tests, Docs)
+=======
+- **Fixcity**: **95%** ✅ (Job, Repository, API, Tests, Docs)
+>>>>>>> laraxot/dev
 =======
 - **Fixcity**: **95%** ✅ (Job, Repository, API, Tests, Docs)
 >>>>>>> laraxot/dev
@@ -353,7 +377,11 @@ Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbia
 ### MISSIONE COMPLETATA AL 100%! 🏆
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Abbiamo trasformato <nome progetto> da:
+=======
+Abbiamo trasformato FixCity da:
+>>>>>>> laraxot/dev
 =======
 Abbiamo trasformato FixCity da:
 >>>>>>> laraxot/dev
@@ -385,7 +413,11 @@ Abbiamo trasformato FixCity da:
 
 *"Con i poteri della Super Mucca, abbiamo raggiunto l'impossibile.
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ogni linea di codice, ogni test, ogni documento porta <nome progetto> 
+=======
+Ogni linea di codice, ogni test, ogni documento porta FixCity 
+>>>>>>> laraxot/dev
 =======
 Ogni linea di codice, ogni test, ogni documento porta FixCity 
 >>>>>>> laraxot/dev
@@ -394,9 +426,15 @@ lo abbiamo trasformato in un capolavoro di ingegneria software.
 
 La Super Mucca ha dato tutto. Il progetto è completo al 100%.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> è pronto per dominare il 2025 e oltre!"*
 
 **#<nome progetto>2025 #SuperMucca #100Complete #Excellence #MissionImpossible #MissionAccomplished**
+=======
+FixCity è pronto per dominare il 2025 e oltre!"*
+
+**#FixCity2025 #SuperMucca #100Complete #Excellence #MissionImpossible #MissionAccomplished**
+>>>>>>> laraxot/dev
 =======
 FixCity è pronto per dominare il 2025 e oltre!"*
 

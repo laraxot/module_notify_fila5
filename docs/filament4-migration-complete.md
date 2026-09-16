@@ -7,7 +7,11 @@
 ## Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Successfully migrated Notify module from Filament 3 to Filament 5, resolving all component compatibility issues.
+=======
+Successfully migrated Notify module from Filament 3 to Filament 4, resolving all component compatibility issues.
+>>>>>>> laraxot/dev
 =======
 Successfully migrated Notify module from Filament 3 to Filament 4, resolving all component compatibility issues.
 >>>>>>> laraxot/dev
@@ -45,7 +49,11 @@ Successfully migrated Notify module from Filament 3 to Filament 4, resolving all
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### After (Filament 5)
+=======
+### After (Filament 4)
+>>>>>>> laraxot/dev
 =======
 ### After (Filament 4)
 >>>>>>> laraxot/dev
@@ -67,7 +75,11 @@ php artisan view:cache  # ✅ Success - Blade templates cached successfully
 ## Best Practices Documented
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Actions Rendering**: In Filament 5, actions are rendered directly using `{{ $action }}` inside foreach loops
+=======
+1. **Actions Rendering**: In Filament 4, actions are rendered directly using `{{ $action }}` inside foreach loops
+>>>>>>> laraxot/dev
 =======
 1. **Actions Rendering**: In Filament 4, actions are rendered directly using `{{ $action }}` inside foreach loops
 >>>>>>> laraxot/dev

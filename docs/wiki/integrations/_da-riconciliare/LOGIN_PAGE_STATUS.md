@@ -32,7 +32,11 @@ updated: 2026-08-24
             </div>
             
 <<<<<<< HEAD
+<<<<<<< HEAD
             <!-- LoginWidget Filament 5 -->
+=======
+            <!-- LoginWidget Filament 4 -->
+>>>>>>> laraxot/dev
 =======
             <!-- LoginWidget Filament 4 -->
 >>>>>>> laraxot/dev
@@ -55,7 +59,11 @@ updated: 2026-08-24
 - ✅ Design AGID/Bootstrap Italia
 - ✅ Responsive (mobile-first)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Widget Filament 5 integrato correttamente
+=======
+- ✅ Widget Filament 4 integrato correttamente
+>>>>>>> laraxot/dev
 =======
 - ✅ Widget Filament 4 integrato correttamente
 >>>>>>> laraxot/dev
@@ -211,7 +219,11 @@ La pagina implementa lo stesso design professionale di https://docs.italia.it/ac
 - [x] Loading state durante submit
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Filament 5 Integration
+=======
+#### Filament 4 Integration
+>>>>>>> laraxot/dev
 =======
 #### Filament 4 Integration
 >>>>>>> laraxot/dev
@@ -237,7 +249,11 @@ La pagina implementa lo stesso design professionale di https://docs.italia.it/ac
 ## 📝 Note Tecniche
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Architettura Filament 5
+=======
+### Architettura Filament 4
+>>>>>>> laraxot/dev
 =======
 ### Architettura Filament 4
 >>>>>>> laraxot/dev
@@ -281,7 +297,11 @@ FAIL → $this->addError() + rimane su form
 ```bash
 cd /var/www/_bases/<nome repository>/laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<nome repitory>/laravel
+=======
+cd /var/www/_bases/<nome repitory>_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/<nome repitory>_mono/laravel
 >>>>>>> laraxot/dev
@@ -337,7 +357,11 @@ Password: password
 
 - ParseError risolto
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Widget Filament 5 integrato correttamente
+=======
+- Widget Filament 4 integrato correttamente
+>>>>>>> laraxot/dev
 =======
 - Widget Filament 4 integrato correttamente
 >>>>>>> laraxot/dev

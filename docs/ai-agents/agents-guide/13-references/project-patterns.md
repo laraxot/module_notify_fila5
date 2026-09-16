@@ -28,7 +28,11 @@ app(MyAction::class)->createPersonalAccessClient();
 - For PHPMD use PHAR only: `bash laravel/tools/phpmd.sh ...` (never composer package).
 - Never use `RefreshDatabase`, `migrate:fresh`, or `migrate --force` in tests.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Central discussion for shared agent learning: `https://github.com/provtv/<repo progetto>/discussions/18`
+=======
+- Central discussion for shared agent learning: `https://github.com/provtv/base_ptv_fila5_mono/discussions/18`
+>>>>>>> laraxot/dev
 =======
 - Central discussion for shared agent learning: `https://github.com/provtv/base_ptv_fila5_mono/discussions/18`
 >>>>>>> laraxot/dev

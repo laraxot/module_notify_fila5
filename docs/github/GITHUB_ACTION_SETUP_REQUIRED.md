@@ -62,7 +62,11 @@ ssh-keygen -t ed25519 -C "actions@github.com" -f ~/.ssh/subtree_sync
 ```bash
 # Go to project root
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptvx_fila5
 >>>>>>> laraxot/dev
@@ -121,7 +125,11 @@ Full documentation is available at:
 ```bash
 # Using GitHub CLI
 <<<<<<< HEAD
+<<<<<<< HEAD
 gh run list --repo laraxot/<repo progetto>
+=======
+gh run list --repo laraxot/base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 gh run list --repo laraxot/base_ptvx_fila5
 >>>>>>> laraxot/dev

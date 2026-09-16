@@ -7576,7 +7576,11 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 // ❌ ERRATO
 'sender' => env('NETFUN_SENDER', 'App'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+'sender' => env('NETFUN_SENDER', 'Quaeris'),
+>>>>>>> laraxot/dev
 =======
 'sender' => env('NETFUN_SENDER', 'Quaeris'),
 >>>>>>> laraxot/dev

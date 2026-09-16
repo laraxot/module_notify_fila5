@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "decisione-basemodel-refactoring 🎯 decisione: basemodel refactoring - analisi approfondita"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -42,7 +47,11 @@ related:
 | **Cms** | ✅ Sì | ❌ No | casts() merge | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Comment** | ✅ Sì | ❌ No | Solo connection | ⭐⭐⭐⭐⭐ PERFETTO |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | ✅ Sì | ⚠️ Parziali | SoftDeletes, $fillable, $dates | ⭐⭐⭐⭐ BUONO |
+=======
+| **Fixcity** | ✅ Sì | ⚠️ Parziali | SoftDeletes, $fillable, $dates | ⭐⭐⭐⭐ BUONO |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | ✅ Sì | ⚠️ Parziali | SoftDeletes, $fillable, $dates | ⭐⭐⭐⭐ BUONO |
 >>>>>>> laraxot/dev
@@ -183,22 +192,32 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 ## ⚠️ CASI PROBLEMATICI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Problema 1: <nome progetto> (PARZIALMENTE DUPLICATO)
 
 ```php
 // Modules/<nome progetto>/app/Models/BaseModel.php
 =======
+=======
+>>>>>>> laraxot/dev
 ### Problema 1: Fixcity (PARZIALMENTE DUPLICATO)
 
 ```php
 // Modules/Fixcity/app/Models/BaseModel.php
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;  // ✅ Specifico
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $connection = '<nome progetto>';
+=======
+    protected $connection = 'fixcity';
+>>>>>>> laraxot/dev
 =======
     protected $connection = 'fixcity';
 >>>>>>> laraxot/dev
@@ -225,7 +244,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
     use SoftDeletes;  // ✅ Specifico
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $connection = '<nome progetto>';
+=======
+    protected $connection = 'fixcity';
+>>>>>>> laraxot/dev
 =======
     protected $connection = 'fixcity';
 >>>>>>> laraxot/dev
@@ -442,7 +465,11 @@ php artisan test --filter Tenant
 ### Priorità ALTA ⚠️
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### 2. <nome progetto> Module
+=======
+#### 2. Fixcity Module
+>>>>>>> laraxot/dev
 =======
 #### 2. Fixcity Module
 >>>>>>> laraxot/dev
@@ -501,7 +528,11 @@ protected function casts(): array
 | LOC totali BaseModel | 578 |
 | Duplicazioni critiche | 1 (Tenant) |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Duplicazioni medie | 1 (<nome progetto>) |
+=======
+| Duplicazioni medie | 1 (Fixcity) |
+>>>>>>> laraxot/dev
 =======
 | Duplicazioni medie | 1 (Fixcity) |
 >>>>>>> laraxot/dev
@@ -545,7 +576,11 @@ protected function casts(): array
 
 1. **CRITICO**: Refactoring Tenant (30 min)
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **ALTO**: Refactoring <nome progetto> (20 min)
+=======
+2. **ALTO**: Refactoring Fixcity (20 min)
+>>>>>>> laraxot/dev
 =======
 2. **ALTO**: Refactoring Fixcity (20 min)
 >>>>>>> laraxot/dev

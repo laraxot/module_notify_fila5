@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "📸 Analisi Visiva Header & Footer - <nome progetto> vs Bootstrap Italia"
+=======
+title: "📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia"
+>>>>>>> laraxot/dev
 =======
 title: "📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia"
 >>>>>>> laraxot/dev
@@ -10,15 +14,21 @@ tags: [analisi, colori, header, footer]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "analisi-colori-header-footer 📸 analisi visiva header & footer - <nome progetto> vs bootstrap italia"
 qmd: "analisi-colori-header-footer 📸 analisi visiva header & footer - laraxot vs bootstrap italia"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "analisi-colori-header-footer 📸 analisi visiva header & footer - fixcity vs bootstrap italia"
 qmd: "analisi-colori-header-footer 📸 analisi visiva header & footer - laraxot vs bootstrap italia"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./analisi-visiva.md"
@@ -27,7 +37,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📸 Analisi Visiva Header & Footer - <nome progetto> vs Bootstrap Italia
+=======
+# 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
+>>>>>>> laraxot/dev
 =======
 # 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
 >>>>>>> laraxot/dev
@@ -41,7 +55,11 @@ related:
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>**: http://<nome progetto>.local/it/tests/homepage
+=======
+**FixCity**: http://fixcity.local/it/tests/homepage
+>>>>>>> laraxot/dev
 =======
 **FixCity**: http://fixcity.local/it/tests/homepage
 >>>>>>> laraxot/dev
@@ -197,9 +215,15 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 3. <nome progetto> - Differenze Attuali
 
 ### Header <nome progetto> (Errato)
+=======
+## 3. FixCity - Differenze Attuali
+
+### Header FixCity (Errato)
+>>>>>>> laraxot/dev
 =======
 ## 3. FixCity - Differenze Attuali
 
@@ -218,7 +242,11 @@ related:
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Footer <nome progetto> (Errato)
+=======
+### Footer FixCity (Errato)
+>>>>>>> laraxot/dev
 =======
 ### Footer FixCity (Errato)
 >>>>>>> laraxot/dev

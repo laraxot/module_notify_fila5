@@ -22,9 +22,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `AGENTS.md` — AGENTS.MD - Development Guidelines
 - `CLAUDE.md` — CLAUDE.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `GEMINI.md` — Gemini Project Context: <nome progetto> Fila4 Mono - Laravel Survey Management System
 - `IFLOW.md` — <nome progetto> Fila4 Mono - 项目指南
 - `README.md` — <nome progetto> Fila4 Mono - Laravel Survey Management System
+=======
+- `GEMINI.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
+- `IFLOW.md` — Quaeris Fila4 Mono - 项目指南
+- `README.md` — Quaeris Fila4 Mono - Laravel Survey Management System
+>>>>>>> laraxot/dev
 =======
 - `GEMINI.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
 - `IFLOW.md` — Quaeris Fila4 Mono - 项目指南
@@ -83,8 +89,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `bashscripts/docs/bottlenecks_and_solutions.md` — Bottleneck e Soluzioni
 - `bashscripts/docs/bottlenecks_detailed.md` — Analisi Dettagliata dei Colli di Bottiglia - Modulo Job
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `bashscripts/docs/case-duplicates-analysis-report.md` — 🔍 Report Analisi File Duplicati (Case-Insensitive) - <nome progetto>
 - `bashscripts/docs/changestatus-class-not-found-fix.md` — 🔧 Correzione Errore "Class ChangeStatus not found" - <nome progetto>
+=======
+- `bashscripts/docs/case-duplicates-analysis-report.md` — 🔍 Report Analisi File Duplicati (Case-Insensitive) - FixCity
+- `bashscripts/docs/changestatus-class-not-found-fix.md` — 🔧 Correzione Errore "Class ChangeStatus not found" - FixCity
+>>>>>>> laraxot/dev
 =======
 - `bashscripts/docs/case-duplicates-analysis-report.md` — 🔍 Report Analisi File Duplicati (Case-Insensitive) - FixCity
 - `bashscripts/docs/changestatus-class-not-found-fix.md` — 🔧 Correzione Errore "Class ChangeStatus not found" - FixCity
@@ -345,7 +356,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/AI_CODING_MEMORY.md` — AI Coding Memory - Critical Rules & Patterns
 - `docs/BUGFIX_SUMMARY_2025-10-22_HasXotFactory.md` — 🐛 Bugfix Summary - HasXotFactory Trait Restoration
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/BUGFIX_SUMMARY_2025-10-22_<nome progetto>_Dashboard.md` — 🐛 Bugfix Summary - <nome progetto> Dashboard & Chart Widgets
+=======
+- `docs/BUGFIX_SUMMARY_2025-10-22_Quaeris_Dashboard.md` — 🐛 Bugfix Summary - Quaeris Dashboard & Chart Widgets
+>>>>>>> laraxot/dev
 =======
 - `docs/BUGFIX_SUMMARY_2025-10-22_Quaeris_Dashboard.md` — 🐛 Bugfix Summary - Quaeris Dashboard & Chart Widgets
 >>>>>>> laraxot/dev
@@ -355,15 +370,21 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/DRY_KISS_COMPLETE_IMPLEMENTATION_2025-10-15.md` — DRY & KISS - Implementazione Completa
 - `docs/DRY_KISS_IMPLEMENTATION_GUIDE.md` — Guida Implementazione DRY & KISS - Progetto Laraxot
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/ECOSYSTEM_ANALYSIS.md` — <nome progetto> Fila4 Mono - Comprehensive Ecosystem Analysis
 - `docs/ELOQUENT-MAGIC-PROPERTIES.md` — Eloquent Magic Properties - Regola Progetto
 - `docs/FILAMENT_5X_GUIDE.md` — GUIDE LINEE GUIDA PER SVILUPPO QUAEERIS
 - `docs/FILAMENT_NESTING_ANALYSIS.md` — Filament Nesting Analysis - <nome progetto> Module
 =======
+=======
+>>>>>>> laraxot/dev
 - `docs/ECOSYSTEM_ANALYSIS.md` — Quaeris Fila4 Mono - Comprehensive Ecosystem Analysis
 - `docs/ELOQUENT-MAGIC-PROPERTIES.md` — Eloquent Magic Properties - Regola Progetto
 - `docs/FILAMENT_5X_GUIDE.md` — GUIDE LINEE GUIDA PER SVILUPPO QUAEERIS
 - `docs/FILAMENT_NESTING_ANALYSIS.md` — Filament Nesting Analysis - Quaeris Module
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - `docs/FINAL_DRY_KISS_SUMMARY.md` — Riepilogo Finale - Analisi e Correzioni DRY/KISS
 - `docs/GIT_CONFLICTS_RESOLUTION_PLAN.md` — 📋 Piano Risoluzione Conflitti Git - Approccio Pragmatico
@@ -385,7 +406,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/QUALITY-IMPROVEMENT-SESSION-2025-11-12.md` — Quality Improvement Session - 2025-11-12
 - `docs/QUALITY_IMPROVEMENT_SUMMARY.md` — Quality Improvement Summary
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/README.md` — <nome progetto> Fila4 Mono - Documentazione Operativa
+=======
+- `docs/README.md` — Quaeris Fila4 Mono - Documentazione Operativa
+>>>>>>> laraxot/dev
 =======
 - `docs/README.md` — Quaeris Fila4 Mono - Documentazione Operativa
 >>>>>>> laraxot/dev
@@ -402,15 +427,21 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/SUPER-MUCCA-FINAL-REPORT.md` — 🐮⚡ SUPER MUCCA MODE - Final Report
 - `docs/achievement-report.md` — 🏆 Achievement Report - Supermucca Session 2025-11-05
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/advanced-architecture-insights-limesurvey.md` — Advanced Architecture Insights: Lessons from LimeSurvey for <nome progetto> Fila5
 - `docs/ai-folders-configuration.md` — Configurazione Cartelle AI - Guida Completa
 - `docs/ai-ide-configurations.md` — AI/IDE Configuration Folders - Complete Guide
 - `docs/all-agents-mcp-configuration.md` — All AI Agents MCP Configuration - <nome progetto> Fila5 Mono
 =======
+=======
+>>>>>>> laraxot/dev
 - `docs/advanced-architecture-insights-limesurvey.md` — Advanced Architecture Insights: Lessons from LimeSurvey for Quaeris Fila5
 - `docs/ai-folders-configuration.md` — Configurazione Cartelle AI - Guida Completa
 - `docs/ai-ide-configurations.md` — AI/IDE Configuration Folders - Complete Guide
 - `docs/all-agents-mcp-configuration.md` — All AI Agents MCP Configuration - Quaeris Fila5 Mono
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - `docs/architecture/dry-kiss-principles.md` — Principi DRY & KISS - Architettura Progetto
 - `docs/cache-path-fix-solution.md` — Cache Path Fix - Soluzione Definitiva
@@ -445,8 +476,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/gemini-getting-started.md` — Gemini Project Context: Building and Running
 - `docs/gemini-key-technologies.md` — Gemini Project Context: Key Technologies
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/gemini-mcp-overview.md` — MCP Configuration for <nome progetto> Fila5 Mono
 - `docs/gemini-project-overview.md` — Gemini Project Context: <nome progetto> Fila4 Mono - Laravel Survey Management System
+=======
+- `docs/gemini-mcp-overview.md` — MCP Configuration for Quaeris Fila5 Mono
+- `docs/gemini-project-overview.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
+>>>>>>> laraxot/dev
 =======
 - `docs/gemini-mcp-overview.md` — MCP Configuration for Quaeris Fila5 Mono
 - `docs/gemini-project-overview.md` — Gemini Project Context: Quaeris Fila4 Mono - Laravel Survey Management System
@@ -469,6 +505,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/jpgraph-service-examples.md` — JpGraph Service Implementation Examples
 - `docs/jpgraph-vs-chartjs-comparison.md` — JpGraph vs Chart.js - Comprehensive Comparison Guide
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/laravel-boost-and-mcp-best-practices.md` — Laravel Boost and MCP Best Practices for <nome progetto> Fila5 Mono
 - `docs/laravel-boost-implementation-guide.md` — Laravel Boost Implementation Guide for <nome progetto> Fila5 Mono
 - `docs/laravel-boost-mcp.md` — Laravel Boost MCP – Configurazione progetto
@@ -490,6 +527,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/modern-chart-implementation-roadmap.md` — Modern Chart Implementation Roadmap
 - `docs/moduli-scopo.md` — Scopo dei moduli - <nome progetto> Fila5 Mono
 =======
+=======
+>>>>>>> laraxot/dev
 - `docs/laravel-boost-and-mcp-best-practices.md` — Laravel Boost and MCP Best Practices for Quaeris Fila5 Mono
 - `docs/laravel-boost-implementation-guide.md` — Laravel Boost Implementation Guide for Quaeris Fila5 Mono
 - `docs/laravel-boost-mcp.md` — Laravel Boost MCP – Configurazione progetto
@@ -510,6 +549,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/model-architecture.md` — Model Architecture in Laraxot
 - `docs/modern-chart-implementation-roadmap.md` — Modern Chart Implementation Roadmap
 - `docs/moduli-scopo.md` — Scopo dei moduli - Quaeris Fila5 Mono
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - `docs/mysql-testing-configuration.md` — MySQL Testing Configuration - Laraxot Database Standard
 - `docs/operational-rules/README.md` — Operational Rules - Regole Operative Assolute
@@ -519,7 +561,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/operational-rules/documentation-standards.md` — Documentation Standards - Regole Documentazione
 - `docs/operational-rules/dry-principle-action-duplication.md` — DRY Principle - Eliminazione Action Classes Duplicate
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/operational-rules/env-baseline-rule.md` — Env baseline rule (Laravel 13.x)
+=======
+- `docs/operational-rules/env-baseline-rule.md` — Env baseline rule (Laravel 12.x)
+>>>>>>> laraxot/dev
 =======
 - `docs/operational-rules/env-baseline-rule.md` — Env baseline rule (Laravel 12.x)
 >>>>>>> laraxot/dev
@@ -537,8 +583,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/phpstan-fixes-session-february-2026.md` — PHPStan Fixes Session - February 5, 2026
 - `docs/phpstan-fixes-session.md` — PHPStan Fixes - Sessione 5 Novembre 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/phpstan-master-roadmap-fila5.md` — PHPStan Error Resolution Master Roadmap - <nome progetto> Fila5 Mono
 - `docs/phpstan-master-roadmap.md` — PHPStan Error Resolution Master Roadmap - <nome progetto> Fila4 Mono
+=======
+- `docs/phpstan-master-roadmap-fila5.md` — PHPStan Error Resolution Master Roadmap - Quaeris Fila5 Mono
+- `docs/phpstan-master-roadmap.md` — PHPStan Error Resolution Master Roadmap - Quaeris Fila4 Mono
+>>>>>>> laraxot/dev
 =======
 - `docs/phpstan-master-roadmap-fila5.md` — PHPStan Error Resolution Master Roadmap - Quaeris Fila5 Mono
 - `docs/phpstan-master-roadmap.md` — PHPStan Error Resolution Master Roadmap - Quaeris Fila4 Mono
@@ -553,9 +604,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/profile-duplicate-issue-resolution.md` — Profile Duplicate Issue - Risoluzione Completa
 - `docs/progress-report-2025-11-15.md` — Quality Improvement Progress - Session 2 (November 15, 2025)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/project-overview.md` — 🎯 <nome progetto> Fila4 Mono - Panoramica Progetto
 - `docs/<nome progetto>-widget-week-complete-summary.md` — <nome progetto> Widget Settimana - Implementazione Completa Finale
 - `docs/<nome progetto>-widget-week-final-summary.md` — <nome progetto> - Widget Settimana e Ottimizzazione Query: Implementazione Completa
+=======
+- `docs/project-overview.md` — 🎯 Quaeris Fila4 Mono - Panoramica Progetto
+- `docs/quaeris-widget-week-complete-summary.md` — Quaeris Widget Settimana - Implementazione Completa Finale
+- `docs/quaeris-widget-week-final-summary.md` — Quaeris - Widget Settimana e Ottimizzazione Query: Implementazione Completa
+>>>>>>> laraxot/dev
 =======
 - `docs/project-overview.md` — 🎯 Quaeris Fila4 Mono - Panoramica Progetto
 - `docs/quaeris-widget-week-complete-summary.md` — Quaeris Widget Settimana - Implementazione Completa Finale
@@ -585,7 +642,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `docs/victory-report.md` — 🏆 victory report - sessione 5 novembre 2025
 - `docs/viral-skills-implementation-summary.md` — 📋 **Aggiornamento Documentazione Moduli e Temi**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `docs/widgets/<nome progetto>-week-widget-complete-implementation.md` — Implementazione Completa Widget Settimana - Modulo <nome progetto>
+=======
+- `docs/widgets/quaeris-week-widget-complete-implementation.md` — Implementazione Completa Widget Settimana - Modulo Quaeris
+>>>>>>> laraxot/dev
 =======
 - `docs/widgets/quaeris-week-widget-complete-implementation.md` — Implementazione Completa Widget Settimana - Modulo Quaeris
 >>>>>>> laraxot/dev
@@ -724,8 +785,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Activity/docs/metodi_duplicati_analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Activity/docs/metodiuplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Activity/docs/migration-Filament-5.md` — migration-Filament-5
 - `laravel/Modules/Activity/docs/migrazione-Filament-5.md` — Activity Module - Migrazione a Filament 5
+=======
+- `laravel/Modules/Activity/docs/migration-filament-4.md` — migration-filament-4
+- `laravel/Modules/Activity/docs/migrazione-filament-4.md` — Activity Module - Migrazione a Filament 5
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Activity/docs/migration-filament-4.md` — migration-filament-4
 - `laravel/Modules/Activity/docs/migrazione-filament-4.md` — Activity Module - Migrazione a Filament 5
@@ -1010,7 +1076,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Chart/docs/backend/framework/filament.md` — Filament Admin Panel
 - `laravel/Modules/Chart/docs/backend/framework/folio-volt.md` — Folio e Volt
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Chart/docs/backend/framework/laravel.md` — Laravel 13.x
+=======
+- `laravel/Modules/Chart/docs/backend/framework/laravel.md` — Laravel 12.x
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Chart/docs/backend/framework/laravel.md` — Laravel 12.x
 >>>>>>> laraxot/dev
@@ -1213,7 +1283,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Chart/docs/performance/general-optimizations.md` — Ottimizzazioni Performance
 - `laravel/Modules/Chart/docs/performance/priority-bottlenecks.md` — Priorità Colli di Bottiglia
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Chart/docs/performance/<nome progetto>-bottlenecks.md` — Colli di Bottiglia nel Modulo <nome progetto>
+=======
+- `laravel/Modules/Chart/docs/performance/quaeris-bottlenecks.md` — Colli di Bottiglia nel Modulo Quaeris
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Chart/docs/performance/quaeris-bottlenecks.md` — Colli di Bottiglia nel Modulo Quaeris
 >>>>>>> laraxot/dev
@@ -1582,7 +1656,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Chart/docs/tecnico/05-bashscripts-strumenti-automazione.md` — Importanza degli Script Bash nel Progetto il progetto
 - `laravel/Modules/Chart/docs/tecnico/06-struttura-namespace-moduli-laraxot.md` — Struttura dei Namespace nei Moduli Laraxot
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Chart/docs/tecnico/07-compatibilita-laravel12-moduli-laraxot.md` — Compatibilità tra Laravel 13 e Moduli Laraxot
+=======
+- `laravel/Modules/Chart/docs/tecnico/07-compatibilita-laravel12-moduli-laraxot.md` — Compatibilità tra Laravel 12 e Moduli Laraxot
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Chart/docs/tecnico/07-compatibilita-laravel12-moduli-laraxot.md` — Compatibilità tra Laravel 12 e Moduli Laraxot
 >>>>>>> laraxot/dev
@@ -1868,7 +1946,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Cms/docs/filament/class-extension-rules.md` — Filament Class Extension Rules
 - `laravel/Modules/Cms/docs/filament/componenti-blade.md` — Componenti Blade di Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Cms/docs/Filament-5x-compatibility.md` — Compatibilità Filament 5.x - Modulo Cms
+=======
+- `laravel/Modules/Cms/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo Cms
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Cms/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo Cms
 >>>>>>> laraxot/dev
@@ -2403,7 +2485,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Gdpr/docs/migration-patterns.md` — migration-patterns
 - `laravel/Modules/Gdpr/docs/migrations.md` — Migrazioni Modulo GDPR
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Gdpr/docs/migrazione-Filament-5.md` — migrazione-Filament-5
+=======
+- `laravel/Modules/Gdpr/docs/migrazione-filament-4.md` — migrazione-filament-4
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Gdpr/docs/migrazione-filament-4.md` — migrazione-filament-4
 >>>>>>> laraxot/dev
@@ -2665,7 +2751,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Geo/docs/filament/actions/update-coordinates-bulk-action.md` — `UpdateCoordinatesBulkAction` (Filament Bulk Action)
 - `laravel/Modules/Geo/docs/filament/address-resource.md` — AddressResource
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Geo/docs/Filament-5x-compatibility.md` — Compatibilità Filament 5.x - Modulo Geo
+=======
+- `laravel/Modules/Geo/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo Geo
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Geo/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo Geo
 >>>>>>> laraxot/dev
@@ -3023,7 +3113,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/duplicate-methods-analysis.md` — Analisi Metodi Duplicati - Modulo Job
 - `laravel/Modules/Job/docs/enterprise-job-system-roadmap.md` — Job Module - Comprehensive Job Management System
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Job/docs/Filament-5x-compatibility.md` — Filament-5x-compatibility
+=======
+- `laravel/Modules/Job/docs/filament-4x-compatibility.md` — filament-4x-compatibility
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Job/docs/filament-4x-compatibility.md` — filament-4x-compatibility
 >>>>>>> laraxot/dev
@@ -3055,9 +3149,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Job/docs/mcp_server_recommended.md` — MCP Server Consigliati per il Modulo Job
 - `laravel/Modules/Job/docs/metodi-duplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Job/docs/migration-Filament-5.md` — migration-Filament-5
 - `laravel/Modules/Job/docs/migration-patterns.md` — migration-patterns
 - `laravel/Modules/Job/docs/migrazione-Filament-5.md` — migrazione-Filament-5
+=======
+- `laravel/Modules/Job/docs/migration-filament-4.md` — migration-filament-4
+- `laravel/Modules/Job/docs/migration-patterns.md` — migration-patterns
+- `laravel/Modules/Job/docs/migrazione-filament-4.md` — migrazione-filament-4
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Job/docs/migration-filament-4.md` — migration-filament-4
 - `laravel/Modules/Job/docs/migration-patterns.md` — migration-patterns
@@ -3350,15 +3450,21 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Lang/docs/migration-corrections-sumy.md` — Correzioni Migrazione - Modulo Lang
 - `laravel/Modules/Lang/docs/migration-corrections.md` — Correzioni Migrazione - Modulo Lang
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Lang/docs/migration-Filament-5.md` — migration-Filament-5
 - `laravel/Modules/Lang/docs/migration-patterns.md` — Migration Patterns for Lang Module
 - `laravel/Modules/Lang/docs/migrations.md` — Migration Patterns for Lang Module
 - `laravel/Modules/Lang/docs/migrazione-Filament-5.md` — migrazione-Filament-5
 =======
+=======
+>>>>>>> laraxot/dev
 - `laravel/Modules/Lang/docs/migration-filament-4.md` — migration-filament-4
 - `laravel/Modules/Lang/docs/migration-patterns.md` — Migration Patterns for Lang Module
 - `laravel/Modules/Lang/docs/migrations.md` — Migration Patterns for Lang Module
 - `laravel/Modules/Lang/docs/migrazione-filament-4.md` — migrazione-filament-4
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - `laravel/Modules/Lang/docs/model-factory-seeder-audit.md` — Model/Factory/Seeder Audit
 - `laravel/Modules/Lang/docs/model-factory-seeder.md` — Model/Factory/Seeder Audit
@@ -3610,7 +3716,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Limesurvey/docs/filament-charts-optimization.md` — Optimized Filament Charts for LimeSurvey Data
 - `laravel/Modules/Limesurvey/docs/filament-nesting-opportunities.md` — Filament 5.x Nested Resources - Opportunità di Applicazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Limesurvey/docs/final-assessment.md` — Project Status Assessment - <nome progetto> Fila4 Mono
+=======
+- `laravel/Modules/Limesurvey/docs/final-assessment.md` — Project Status Assessment - Quaeris Fila4 Mono
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Limesurvey/docs/final-assessment.md` — Project Status Assessment - Quaeris Fila4 Mono
 >>>>>>> laraxot/dev
@@ -3622,8 +3732,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Limesurvey/docs/index-consolidated.md` — LimeSurvey Module Documentation Index
 - `laravel/Modules/Limesurvey/docs/index.md` — LimeSurvey Module Documentation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Limesurvey/docs/integration-issues-action-plan.md` — Limesurvey-<nome progetto> Integration Issues - Action Plan
 - `laravel/Modules/Limesurvey/docs/integration-summary.md` — Project Integration Summary: LimeSurvey + MCP in <nome progetto> Fila4 Mono
+=======
+- `laravel/Modules/Limesurvey/docs/integration-issues-action-plan.md` — Limesurvey-Quaeris Integration Issues - Action Plan
+- `laravel/Modules/Limesurvey/docs/integration-summary.md` — Project Integration Summary: LimeSurvey + MCP in Quaeris Fila4 Mono
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Limesurvey/docs/integration-issues-action-plan.md` — Limesurvey-Quaeris Integration Issues - Action Plan
 - `laravel/Modules/Limesurvey/docs/integration-summary.md` — Project Integration Summary: LimeSurvey + MCP in Quaeris Fila4 Mono
@@ -3835,9 +3950,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Media/docs/mcp-server-recommended.md` — MCP Server Consigliati per il Modulo Media
 - `laravel/Modules/Media/docs/metodi-duplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Media/docs/migration-Filament-5.md` — migration-Filament-5
 - `laravel/Modules/Media/docs/migration-patterns.md` — Migration Patterns
 - `laravel/Modules/Media/docs/migrazione-Filament-5.md` — migrazione-Filament-5
+=======
+- `laravel/Modules/Media/docs/migration-filament-4.md` — migration-filament-4
+- `laravel/Modules/Media/docs/migration-patterns.md` — Migration Patterns
+- `laravel/Modules/Media/docs/migrazione-filament-4.md` — migrazione-filament-4
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Media/docs/migration-filament-4.md` — migration-filament-4
 - `laravel/Modules/Media/docs/migration-patterns.md` — Migration Patterns
@@ -4330,9 +4451,15 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/factory_pattern_analysis.md` — Analisi del Pattern Factory per le Notifiche
 - `laravel/Modules/Notify/docs/factory-pattern-analysis.md` — Analisi del Pattern Factory per le Notifiche
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/Filament-5-migration-fixes.md` — Filament 3 to 4 Migration - Component Fixes
 - `laravel/Modules/Notify/docs/Filament-5-migrationes.md` — Filament 3 to 4 Migration - Component Fixes
 - `laravel/Modules/Notify/docs/Filament-5x-compatibility.md` — Compatibilità Filament 5.x - Modulo Notify
+=======
+- `laravel/Modules/Notify/docs/filament-4-migration-fixes.md` — Filament 3 to 4 Migration - Component Fixes
+- `laravel/Modules/Notify/docs/filament-4-migrationes.md` — Filament 3 to 4 Migration - Component Fixes
+- `laravel/Modules/Notify/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo Notify
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Notify/docs/filament-4-migration-fixes.md` — Filament 3 to 4 Migration - Component Fixes
 - `laravel/Modules/Notify/docs/filament-4-migrationes.md` — Filament 3 to 4 Migration - Component Fixes
@@ -4590,7 +4717,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/metodiuplicati-analisi.md` — 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 - `laravel/Modules/Notify/docs/migration-changes.md` — Modifiche alla Migrazione Mail Templates
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/migration-Filament-5.md` — migration-Filament-5
+=======
+- `laravel/Modules/Notify/docs/migration-filament-4.md` — migration-filament-4
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Notify/docs/migration-filament-4.md` — migration-filament-4
 >>>>>>> laraxot/dev
@@ -4603,7 +4734,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Notify/docs/migrations.md` — Database Migrations
 - `laravel/Modules/Notify/docs/migrations_changelog.md` — Changelog Migrazioni Notify Module
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/migrazione-Filament-5.md` — Notify Module - Migrazione a Filament 5
+=======
+- `laravel/Modules/Notify/docs/migrazione-filament-4.md` — Notify Module - Migrazione a Filament 5
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Notify/docs/migrazione-filament-4.md` — Notify Module - Migrazione a Filament 5
 >>>>>>> laraxot/dev
@@ -5192,7 +5327,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/App/docs/filament/question-charts-fixes.md` — Question Charts Fixes
 - `laravel/Modules/App/docs/filament/widgets/chart-widgets-getoptions-fix.md` — Bugfix: Chart Widgets getOptions() Type Compatibility
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/App/docs/Filament-5-implementation-guide.md` — Filament 5 Implementation Guide - App Module
+=======
+- `laravel/Modules/App/docs/filament-4-implementation-guide.md` — Filament 5 Implementation Guide - App Module
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/App/docs/filament-4-implementation-guide.md` — Filament 5 Implementation Guide - App Module
 >>>>>>> laraxot/dev
@@ -5312,7 +5451,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/App/docs/project-analysis-summary.md` — App Platform - Comprehensive Analysis Summary
 - `laravel/Modules/App/docs/property-conflict-resolution-filament-traits.md` — Property Conflict Resolution - Filament Traits
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/App/docs/this-project-business-complete-guide.md` — 📊  - IL CUORE BUSINESS DI LARAXOT
+=======
+- `laravel/Modules/App/docs/this-project-business-complete-guide.md` — 📊 QUERIS - IL CUORE BUSINESS DI LARAXOT
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/App/docs/this-project-business-complete-guide.md` — 📊 QUERIS - IL CUORE BUSINESS DI LARAXOT
 >>>>>>> laraxot/dev
@@ -5450,7 +5593,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Tenant/docs/cyclomatic-complexity-report.md` — Cyclomatic Complexity Report - Module: Tenant
 - `laravel/Modules/Tenant/docs/data-models.md` — data-models
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Tenant/docs/database-config-standard.md` — Database config standard (Laravel 13.x)
+=======
+- `laravel/Modules/Tenant/docs/database-config-standard.md` — Database config standard (Laravel 12.x)
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Tenant/docs/database-config-standard.md` — Database config standard (Laravel 12.x)
 >>>>>>> laraxot/dev
@@ -5805,15 +5952,21 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/UI/docs/filament/errors/dropdown-list-item-tag.md` — Errore: Tag Mancante nei Dropdown List Items
 - `laravel/Modules/UI/docs/filament/errors/static-instance-method-incompatibility.md` — Errore di incompatibilità tra metodi statici e di istanza in Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/UI/docs/filament/Filament-5-components-guide.md` — Filament 5 Components Development Guide
 - `laravel/Modules/UI/docs/filament/Filament-5-migration-guide.md` — Filament 5 Migration Guide
 - `laravel/Modules/UI/docs/filament/Filament-5-migration-summary.md` — Filament 5 Migration Summary
 - `laravel/Modules/UI/docs/filament/Filament-5-migration-sumy.md` — Filament 5 Migration Summary
 =======
+=======
+>>>>>>> laraxot/dev
 - `laravel/Modules/UI/docs/filament/filament-4-components-guide.md` — Filament 5 Components Development Guide
 - `laravel/Modules/UI/docs/filament/filament-4-migration-guide.md` — Filament 5 Migration Guide
 - `laravel/Modules/UI/docs/filament/filament-4-migration-summary.md` — Filament 5 Migration Summary
 - `laravel/Modules/UI/docs/filament/filament-4-migration-sumy.md` — Filament 5 Migration Summary
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - `laravel/Modules/UI/docs/filament/file-upload-component.md` — Componente FileUpload in Filament
 - `laravel/Modules/UI/docs/filament/installation.md` — Installazione Filament {#installazione-filament}
@@ -5831,8 +5984,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/UI/docs/filament/wizard-best-practices.md` — Best Practices per i Wizard in Filament
 - `laravel/Modules/UI/docs/filament/wizard-step-naming.md` — Convenzioni di Naming per i Wizard Step in Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/UI/docs/Filament-5x-upgrade-report.md` — Rapporto Aggiornamento Filament 5.x - Modulo UI
 - `laravel/Modules/UI/docs/Filament-5x-upgrade.md` — Filament 5.x Upgrade - Modulo UI
+=======
+- `laravel/Modules/UI/docs/filament-4x-upgrade-report.md` — Rapporto Aggiornamento Filament 5.x - Modulo UI
+- `laravel/Modules/UI/docs/filament-4x-upgrade.md` — Filament 5.x Upgrade - Modulo UI
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/UI/docs/filament-4x-upgrade-report.md` — Rapporto Aggiornamento Filament 5.x - Modulo UI
 - `laravel/Modules/UI/docs/filament-4x-upgrade.md` — Filament 5.x Upgrade - Modulo UI
@@ -6257,8 +6415,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/best-practices/translation-keys-rules.md` — Regole per le Chiavi di Traduzione
 - `laravel/Modules/User/docs/best-practices/translation-keys.md` — Regole per le Chiavi di Traduzione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/best-practices/widget-translation-rules.md` — Widget Translation Rules - <nome progetto> Project
 - `laravel/Modules/User/docs/best-practices/widget-translation.md` — Widget Translation Rules - <nome progetto> Project
+=======
+- `laravel/Modules/User/docs/best-practices/widget-translation-rules.md` — Widget Translation Rules - FixCity Project
+- `laravel/Modules/User/docs/best-practices/widget-translation.md` — Widget Translation Rules - FixCity Project
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/User/docs/best-practices/widget-translation-rules.md` — Widget Translation Rules - FixCity Project
 - `laravel/Modules/User/docs/best-practices/widget-translation.md` — Widget Translation Rules - FixCity Project
@@ -6427,6 +6590,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/filament/widgets/registration-widget.md` — RegistrationWidget: Widget generico per la registrazione utente
 - `laravel/Modules/User/docs/filament/widgets-responsive-layout.md` — Widget Responsivi per Form di Registrazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/Filament-5-actions-namespace.md` — Filament 5: Namespace Actions - Filosofia Laraxot
 - `laravel/Modules/User/docs/Filament-5-widget-rendering-guide.md` — Guida Rendering Widget Filament 5 - Modulo User
 - `laravel/Modules/User/docs/Filament-5-widget-rendering.md` — Guida Rendering Widget Filament 5 - Modulo User
@@ -6434,12 +6598,17 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/Filament-5x-compatibility-conflict.md` — Compatibilità Filament 5.x - Modulo User
 - `laravel/Modules/User/docs/Filament-5x-compatibility.md` — Compatibilità Filament 5.x - Modulo User
 =======
+=======
+>>>>>>> laraxot/dev
 - `laravel/Modules/User/docs/filament-4-actions-namespace.md` — Filament 5: Namespace Actions - Filosofia Laraxot
 - `laravel/Modules/User/docs/filament-4-widget-rendering-guide.md` — Guida Rendering Widget Filament 5 - Modulo User
 - `laravel/Modules/User/docs/filament-4-widget-rendering.md` — Guida Rendering Widget Filament 5 - Modulo User
 - `laravel/Modules/User/docs/filament-4x-compatibility-1.md` — Compatibilità Filament 5.x - Modulo User
 - `laravel/Modules/User/docs/filament-4x-compatibility-conflict.md` — Compatibilità Filament 5.x - Modulo User
 - `laravel/Modules/User/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo User
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - `laravel/Modules/User/docs/filament-5x-compatibility.md` — Filament 5.x compatibility - modulo User
 - `laravel/Modules/User/docs/filament-auth-pages-exceptions.md` — Eccezioni Regola XotBase - Pagine Autenticazione
@@ -6688,7 +6857,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/migration-dry-violations-report.md` — User Module Migration Policy - DRY Violations Report
 - `laravel/Modules/User/docs/migration-duplicate-resolution.md` — 📋 RISOLUZIONE COMPLETA DUPLICATI MIGRATION ROLES
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/migration-Filament-5.md` — User Module - Migrazione a Filament 5
+=======
+- `laravel/Modules/User/docs/migration-filament-4.md` — User Module - Migrazione a Filament 5
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/User/docs/migration-filament-4.md` — User Module - Migrazione a Filament 5
 >>>>>>> laraxot/dev
@@ -6713,7 +6886,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/migrationry-violations.md` — User Module Migration Policy - DRY Violations Report
 - `laravel/Modules/User/docs/migrationuplicate-resolution.md` — 📋 RISOLUZIONE COMPLETA DUPLICATI MIGRATION ROLES
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/migrazione-Filament-5.md` — User Module - Migrazione a Filament 5
+=======
+- `laravel/Modules/User/docs/migrazione-filament-4.md` — User Module - Migrazione a Filament 5
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/User/docs/migrazione-filament-4.md` — User Module - Migrazione a Filament 5
 >>>>>>> laraxot/dev
@@ -7234,8 +7411,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/User/docs/widget-rendering.md` — 🔍 Analisi Rendering LoginWidget - Docs.Italia.it Style
 - `laravel/Modules/User/docs/widget-translation-rules-1.md` — Widget Translation Rules - <nome progetto> Project
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/User/docs/widget-translation-rules.md` — Widget Translation Rules - <nome progetto> Project
 - `laravel/Modules/User/docs/widget-translation.md` — Widget Translation Rules - <nome progetto> Project
+=======
+- `laravel/Modules/User/docs/widget-translation-rules.md` — Widget Translation Rules - FixCity Project
+- `laravel/Modules/User/docs/widget-translation.md` — Widget Translation Rules - FixCity Project
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/User/docs/widget-translation-rules.md` — Widget Translation Rules - FixCity Project
 - `laravel/Modules/User/docs/widget-translation.md` — Widget Translation Rules - FixCity Project
@@ -7853,7 +8035,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/conflict-resolution-fixes.md` — Risoluzione Conflitti Git - Modulo Xot
 - `laravel/Modules/Xot/docs/conflict-resolution-january.md` — Conflict Resolution January 2026
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/conflict-resolution-report-1.md` — Report Risoluzione Conflitti Git - <nome progetto> Project
+=======
+- `laravel/Modules/Xot/docs/conflict-resolution-report-1.md` — Report Risoluzione Conflitti Git - FixCity Project
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Xot/docs/conflict-resolution-report-1.md` — Report Risoluzione Conflitti Git - FixCity Project
 >>>>>>> laraxot/dev
@@ -8503,6 +8689,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament/xotbaseresource-violations-fixes.md` — Correzioni Violazioni XotBaseResource - Gennaio 2026
 - `laravel/Modules/Xot/docs/filament/xotbaseresource.md` — XotBaseResource Pattern
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/Filament-5-laraxot-e5a872.md` — Filament 5 + Laraxot Rules - Xot Module
 - `laravel/Modules/Xot/docs/Filament-5-laraxot-rules-conflict-e5a872.md` — Filament 5 + Laraxot Rules - Xot Module
 - `laravel/Modules/Xot/docs/Filament-5-laraxot-rules-conflict.md` — Filament 5 + Laraxot Rules - Xot Module
@@ -8514,6 +8701,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/Filament-5x-compatibility-conflict.md` — Compatibilità Filament 5.x - Modulo Xot
 - `laravel/Modules/Xot/docs/Filament-5x-compatibility.md` — Compatibilità Filament 5.x - Modulo Xot
 =======
+=======
+>>>>>>> laraxot/dev
 - `laravel/Modules/Xot/docs/filament-4-laraxot-e5a872.md` — Filament 5 + Laraxot Rules - Xot Module
 - `laravel/Modules/Xot/docs/filament-4-laraxot-rules-conflict-e5a872.md` — Filament 5 + Laraxot Rules - Xot Module
 - `laravel/Modules/Xot/docs/filament-4-laraxot-rules-conflict.md` — Filament 5 + Laraxot Rules - Xot Module
@@ -8524,6 +8713,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament-4x-compatibility-1.md` — Compatibilità Filament 5.x - Modulo Xot
 - `laravel/Modules/Xot/docs/filament-4x-compatibility-conflict.md` — Compatibilità Filament 5.x - Modulo Xot
 - `laravel/Modules/Xot/docs/filament-4x-compatibility.md` — Compatibilità Filament 5.x - Modulo Xot
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - `laravel/Modules/Xot/docs/filament-5-laraxot-rules.md` — Filament 5 + Laraxot Rules - Xot Module
 - `laravel/Modules/Xot/docs/filament-5-livewire-4-complete-guide.md` — Guida Completa: Upgrade Filament 5 + Livewire 4 - Modulo Xot
@@ -8571,8 +8763,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/filament-extension-rules-complete.md` — Filament Class Extension Rules - Regole Complete
 - `laravel/Modules/Xot/docs/filament-extension-rules-implementation-report.md` — Filament Extension Rules Implementation Report
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules - base_techplanner_fila5
 - `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules - <repo progetto>
+=======
+- `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules - base_techplanner_fila4_mono
+- `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules - base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules - base_techplanner_fila4_mono
 - `laravel/Modules/Xot/docs/filament-extension-rules.md` — Filament Class Extension Rules - base_ptvx_fila5
@@ -8806,7 +9003,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/laravel-modules-namespace-critical-rule.md` — ⚠️ REGOLA CRITICA - Namespace Laravel Modules OBBLIGATORIA
 - `laravel/Modules/Xot/docs/laravel.md` — Integrazione con Laravel e Best Practices
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/laravel12/property-promotion.md` — Da Proprietà a Metodi in Laravel 13
+=======
+- `laravel/Modules/Xot/docs/laravel12/property-promotion.md` — Da Proprietà a Metodi in Laravel 12
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Xot/docs/laravel12/property-promotion.md` — Da Proprietà a Metodi in Laravel 12
 >>>>>>> laraxot/dev
@@ -8906,8 +9107,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/mcp-commands-deprecation.md` — Deprecazione Comandi MCP e Migrazione Azioni Database
 - `laravel/Modules/Xot/docs/mcp-commandseprecation.md` — Deprecazione Comandi MCP e Migrazione Azioni Database
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/mcp-configuration-optimized.md` — Configurazione MCP Ottimizzata per base_techplanner_fila5
 - `laravel/Modules/Xot/docs/mcp-configuration-ptvx.md` — Configurazione MCP per base_ptvx_fila5
+=======
+- `laravel/Modules/Xot/docs/mcp-configuration-optimized.md` — Configurazione MCP Ottimizzata per base_techplanner_fila4_mono
+- `laravel/Modules/Xot/docs/mcp-configuration-ptvx.md` — Configurazione MCP per base_ptvx_fila4_mono
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Xot/docs/mcp-configuration-optimized.md` — Configurazione MCP Ottimizzata per base_techplanner_fila4_mono
 - `laravel/Modules/Xot/docs/mcp-configuration-ptvx.md` — Configurazione MCP per base_ptvx_fila4_mono
@@ -8974,7 +9180,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/migrations-consolidated.md` — Migrations - Documentazione Consolidata DRY + KISS
 - `laravel/Modules/Xot/docs/migrations.md` — Migrazioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/migrazione-Filament-5.md` — migrazione-Filament-5
+=======
+- `laravel/Modules/Xot/docs/migrazione-filament-4.md` — migrazione-filament-4
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Xot/docs/migrazione-filament-4.md` — migrazione-filament-4
 >>>>>>> laraxot/dev
@@ -9582,7 +9792,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/scrape.md` — scrape
 - `laravel/Modules/Xot/docs/scraping.md` — _scraping
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/script-risoluzione-conflitti-conflict.md` — Script di Risoluzione Conflitti Git - <nome progetto> Project
+=======
+- `laravel/Modules/Xot/docs/script-risoluzione-conflitti-conflict.md` — Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Xot/docs/script-risoluzione-conflitti-conflict.md` — Script di Risoluzione Conflitti Git - FixCity Project
 >>>>>>> laraxot/dev
@@ -9731,7 +9945,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/docs/testing-consolidated.md` — Testing - Documentazione Consolidata DRY + KISS
 - `laravel/Modules/Xot/docs/testing-fixes-roadmap.md` — Testing Fixes Roadmap - Correzione Test Falliti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Xot/docs/testing-fixes.md` — 🧪 Fix Testing Issues - Laravel 13 Migration
+=======
+- `laravel/Modules/Xot/docs/testing-fixes.md` — 🧪 Fix Testing Issues - Laravel 12 Migration
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Xot/docs/testing-fixes.md` — 🧪 Fix Testing Issues - Laravel 12 Migration
 >>>>>>> laraxot/dev
@@ -9936,8 +10154,13 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Modules/Xot/packages/coolsam/panel-modules/README.md` — For each of these commands, the package will ask for the Model and Panel.
 - `laravel/Modules/docs/anti-pattern-question-chart-answers-triple-widget.md` — Anti-Pattern: QuestionChartAnswersTripleChartWidget
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/docs/online-skills-research.md` — Ricerca Online su Skills Utili per <nome progetto>
 - `laravel/Modules/docs/skills-implementation-guide.md` — Guida all'Implementazione delle Skills per <nome progetto>
+=======
+- `laravel/Modules/docs/online-skills-research.md` — Ricerca Online su Skills Utili per Quaeris
+- `laravel/Modules/docs/skills-implementation-guide.md` — Guida all'Implementazione delle Skills per Quaeris
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/docs/online-skills-research.md` — Ricerca Online su Skills Utili per Quaeris
 - `laravel/Modules/docs/skills-implementation-guide.md` — Guida all'Implementazione delle Skills per Quaeris
@@ -9950,7 +10173,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/README.md` — escalade [![CI](https://github.com/lukeed/escalade/workflows/CI/badge.svg)](https://github.com/lukeed/escalade/actions) [![licenses](https://licenses.dev/b/npm/escalade)](https://licenses.dev/npm/escalade) [![codecov](https://badgen.now.sh/codecov/c/github/lukeed/escalade)](https://codecov.io/gh/lukeed/escalade)
 - `laravel/Themes/Zero/.devcontainer/README.md` — README
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Themes/Zero/README.md` — base_healthcare_app_fila5
+=======
+- `laravel/Themes/Zero/README.md` — base_healthcare_app_fila4_mono
+>>>>>>> laraxot/dev
 =======
 - `laravel/Themes/Zero/README.md` — base_healthcare_app_fila4_mono
 >>>>>>> laraxot/dev
@@ -10019,6 +10246,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/Themes/Zero/docs/themes-system-complete-guide.md` — 🎨 THEMES SYSTEM - IL VESTITO DI LARAXOT
 - `laravel/Themes/Zero/docs/troubleshooting.md` — Zero Theme Troubleshooting Guide
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/docs/00-index.md` — 🏛️ **<nome progetto> Fila5 Master Documentation Index**
 - `laravel/docs/JPGRAPH_IMPLEMENTATION.md` — 📚 GUIDA JpGraph PDF Generation - COMPLETO IMPLEMENTAZIONE
 - `laravel/docs/README.md` — Testing Documentation Index
@@ -10047,6 +10275,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/config/env-standard-Laravel-13.md` — Standardizzazione .env con Laravel 13.x
 - `laravel/docs/config/env-standard-summary-2026-01-22.md` — Standardizzazione .env con Laravel 13.x - Riepilogo
 =======
+=======
+>>>>>>> laraxot/dev
 - `laravel/docs/00-index.md` — 🏛️ **Quaeris Fila5 Master Documentation Index**
 - `laravel/docs/JPGRAPH_IMPLEMENTATION.md` — 📚 GUIDA JpGraph PDF Generation - COMPLETO IMPLEMENTAZIONE
 - `laravel/docs/README.md` — Testing Documentation Index
@@ -10074,6 +10304,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/config/debugbar-enabled-rule-2026-01-22.md` — Regola Critica: DEBUGBAR_ENABLED dopo APP_DEBUG
 - `laravel/docs/config/env-standard-laravel-12.md` — Standardizzazione .env con Laravel 12.x
 - `laravel/docs/config/env-standard-summary-2026-01-22.md` — Standardizzazione .env con Laravel 12.x - Riepilogo
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - `laravel/docs/config/index.md` — Database Configuration Standards
 - `laravel/docs/coverage_summary.md` — Coverage Summary
@@ -10081,15 +10314,21 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/database/large-sql-import-guide.md` — Guida Import File SQL Grandi
 - `laravel/docs/database-architecture.md` — Database Architecture Overview
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/docs/database-laravel12-compatibility.md` — Configurazione Database Laravel 13.x - Compatibilità e Regole
 - `laravel/docs/database-testing.md` — Database Testing Rule - MySQL Only with Test Suffix
 - `laravel/docs/database-zen-complete-solution.md` — Database Environment Management - Laraxot Zen Complete Solution
 - `laravel/docs/deployment/deployment-guide.md` — Deployment del Progetto <nome progetto>
 =======
+=======
+>>>>>>> laraxot/dev
 - `laravel/docs/database-laravel12-compatibility.md` — Configurazione Database Laravel 12.x - Compatibilità e Regole
 - `laravel/docs/database-testing.md` — Database Testing Rule - MySQL Only with Test Suffix
 - `laravel/docs/database-zen-complete-solution.md` — Database Environment Management - Laraxot Zen Complete Solution
 - `laravel/docs/deployment/deployment-guide.md` — Deployment del Progetto Quaeris
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - `laravel/docs/deployment/deployment-guide.md` — Deployment del Progetto App
 - `laravel/docs/development/workflow.md` — Workflow di Sviluppo
@@ -10099,7 +10338,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/documentation-status.md` — Status Documentazione - Report Completo
 - `laravel/docs/dry-kiss-improvements.md` — DRY and KISS Improvements in Modular Architecture
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/docs/env-compliance-laravel12.md` — .env Configuration Compliance - Laravel 13.x Standard
+=======
+- `laravel/docs/env-compliance-laravel12.md` — .env Configuration Compliance - Laravel 12.x Standard
+>>>>>>> laraxot/dev
 =======
 - `laravel/docs/env-compliance-laravel12.md` — .env Configuration Compliance - Laravel 12.x Standard
 >>>>>>> laraxot/dev
@@ -10110,7 +10353,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/gemini-mcp-recommendations.md` — Recommended MCP Configuration
 - `laravel/docs/git-forward-only-rule.md` — 🔥 REGOLA GIT ASSOLUTA - FORWARD ONLY
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/docs/index.md` — Documentazione del Progetto <nome progetto>
+=======
+- `laravel/docs/index.md` — Documentazione del Progetto Quaeris
+>>>>>>> laraxot/dev
 =======
 - `laravel/docs/index.md` — Documentazione del Progetto Quaeris
 >>>>>>> laraxot/dev
@@ -10135,7 +10382,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/php-syntax-error-fixing-rules.md` — Regole per la correzione di errori di sintassi in PHP
 - `laravel/docs/phpdoc-annotation-corrections.md` — PHPDoc Annotation Corrections
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/docs/phpstan-analysis-complete-2026-01-30.md` — PHPStan Level 10 Analysis Complete - <nome progetto> Fila5 Mono
+=======
+- `laravel/docs/phpstan-analysis-complete-2026-01-30.md` — PHPStan Level 10 Analysis Complete - Quaeris Fila5 Mono
+>>>>>>> laraxot/dev
 =======
 - `laravel/docs/phpstan-analysis-complete-2026-01-30.md` — PHPStan Level 10 Analysis Complete - Quaeris Fila5 Mono
 >>>>>>> laraxot/dev
@@ -10144,6 +10395,7 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/phpstan-level-10-cross-module-fixes.md` — PHPStan Level 10 Improvements - Cross-Module Fixes
 - `laravel/docs/phpstan-level-10-improvements.md` — PHPStan Level 10 Improvements - November 2025
 - `laravel/docs/phpstan-minor-modules-roadmap.md` — PHPStan Level 10 Errors Resolution Roadmap - Minor Modules
+<<<<<<< HEAD
 <<<<<<< HEAD
 - `laravel/docs/phpstan-project-status.md` — PHPStan Project Status - Base <nome progetto> Fila5 Mono
 - `laravel/docs/phpstan-roadmap-overview.md` — PHPStan Level 10 Compliance Roadmap
@@ -10173,6 +10425,8 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/standards/security-standards.md` — Standard di Sicurezza per il Progetto <nome progetto>
 - `laravel/docs/standards/testing-standards.md` — Standard di Testing per il Progetto <nome progetto>
 =======
+=======
+>>>>>>> laraxot/dev
 - `laravel/docs/phpstan-project-status.md` — PHPStan Project Status - Base Quaeris Fila5 Mono
 - `laravel/docs/phpstan-roadmap-overview.md` — PHPStan Level 10 Compliance Roadmap
 - `laravel/docs/project-master-analysis.md` — Quaeris Fila5 Mono - Analisi Master Completa del Progetto
@@ -10200,6 +10454,9 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/standards/large-data-processing.md` — Large Data Processing Standards
 - `laravel/docs/standards/security-standards.md` — Standard di Sicurezza per il Progetto Quaeris
 - `laravel/docs/standards/testing-standards.md` — Standard di Testing per il Progetto Quaeris
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - `laravel/docs/test-configuration-analysis-2026-01-30.md` — Test Configuration Analysis Report
 - `laravel/docs/testing/autoload-configuration.md` — Autoloading Configuration for Testing
@@ -10220,7 +10477,11 @@ Indice generato automaticamente da file markdown in cartelle docs (esclusi vendo
 - `laravel/docs/testing-with-pest.md` — Testing with Pest in Laraxot
 - `laravel/docs/testing-workflow.md` — Testing Implementation Summary
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/docs/testing.md` — Testing nel Progetto <nome progetto>
+=======
+- `laravel/docs/testing.md` — Testing nel Progetto Quaeris
+>>>>>>> laraxot/dev
 =======
 - `laravel/docs/testing.md` — Testing nel Progetto Quaeris
 >>>>>>> laraxot/dev

@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "MCP Server Index - <nome progetto> Project"
+=======
+title: "MCP Server Index - FixCity Project"
+>>>>>>> laraxot/dev
 =======
 title: "MCP Server Index - FixCity Project"
 >>>>>>> laraxot/dev
@@ -11,7 +15,11 @@ module: Notify
 created: 2026-07-20
 updated: 2026-07-20
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "notify documentazione mcp index mcp server index - <nome progetto> project index readme frontmatter qmd search"
+=======
+qmd: "notify documentazione mcp index mcp server index - fixcity project index readme frontmatter qmd search"
+>>>>>>> laraxot/dev
 =======
 qmd: "notify documentazione mcp index mcp server index - fixcity project index readme frontmatter qmd search"
 >>>>>>> laraxot/dev
@@ -28,7 +36,11 @@ related:
   - ../templates/readme.md
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 # MCP Server Index - <nome progetto> Project
+=======
+# MCP Server Index - FixCity Project
+>>>>>>> laraxot/dev
 =======
 # MCP Server Index - FixCity Project
 >>>>>>> laraxot/dev

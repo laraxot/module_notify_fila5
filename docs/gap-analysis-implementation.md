@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "🔍 <nome progetto> - GAP ANALYSIS & IMPLEMENTATION PLAN"
+=======
+title: "🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN"
+>>>>>>> laraxot/dev
 =======
 title: "🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN"
 >>>>>>> laraxot/dev
@@ -9,15 +13,21 @@ tags: [gap, analysis, implementation]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "gap-analysis-implementation 🔍 <nome progetto> - gap analysis & implementation plan"
 qmd: "gap-analysis-implementation 🔍 ptv - gap analysis & implementation plan"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "gap-analysis-implementation 🔍 fixcity - gap analysis & implementation plan"
 qmd: "gap-analysis-implementation 🔍 ptv - gap analysis & implementation plan"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
@@ -31,7 +41,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔍 <nome progetto> - GAP ANALYSIS & IMPLEMENTATION PLAN
+=======
+# 🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN
+>>>>>>> laraxot/dev
 =======
 # 🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN
 >>>>>>> laraxot/dev
@@ -46,7 +60,11 @@ related:
 
 ### Business Goal
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette ai cittadini di segnalare problemi (buche, illuminazione, rifiuti, etc.) e agli amministratori comunali di gestirle efficacemente.
+=======
+**FixCity** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette ai cittadini di segnalare problemi (buche, illuminazione, rifiuti, etc.) e agli amministratori comunali di gestirle efficacemente.
+>>>>>>> laraxot/dev
 =======
 **FixCity** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette ai cittadini di segnalare problemi (buche, illuminazione, rifiuti, etc.) e agli amministratori comunali di gestirle efficacemente.
 >>>>>>> laraxot/dev
@@ -82,7 +100,11 @@ related:
 **Files da creare/modificare**:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/<nome progetto>/
+=======
+Modules/Fixcity/
+>>>>>>> laraxot/dev
 =======
 Modules/Fixcity/
 >>>>>>> laraxot/dev
@@ -105,7 +127,11 @@ Modules/Fixcity/
 **Files da creare**:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/<nome progetto>/
+=======
+Modules/Fixcity/
+>>>>>>> laraxot/dev
 =======
 Modules/Fixcity/
 >>>>>>> laraxot/dev
@@ -131,7 +157,11 @@ Modules/Fixcity/
 **Files da creare**:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/<nome progetto>/Tests/Feature/
+=======
+Modules/Fixcity/Tests/Feature/
+>>>>>>> laraxot/dev
 =======
 Modules/Fixcity/Tests/Feature/
 >>>>>>> laraxot/dev
@@ -219,7 +249,11 @@ laravel/Themes/Sixteen/
 **Files da creare**:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/<nome progetto>/Filament/Widgets/
+=======
+Modules/Fixcity/Filament/Widgets/
+>>>>>>> laraxot/dev
 =======
 Modules/Fixcity/Filament/Widgets/
 >>>>>>> laraxot/dev
@@ -241,7 +275,11 @@ Modules/Fixcity/Filament/Widgets/
 **Files da creare**:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/<nome progetto>/
+=======
+Modules/Fixcity/
+>>>>>>> laraxot/dev
 =======
 Modules/Fixcity/
 >>>>>>> laraxot/dev
@@ -264,7 +302,11 @@ Modules/Fixcity/
 ```
 lang/en/
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── <nome progetto>.php                               [NEW]
+=======
+├── fixcity.php                               [NEW]
+>>>>>>> laraxot/dev
 =======
 ├── fixcity.php                               [NEW]
 >>>>>>> laraxot/dev

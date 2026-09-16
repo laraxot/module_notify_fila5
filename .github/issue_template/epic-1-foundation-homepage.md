@@ -12,7 +12,11 @@ Replicate the Design Comuni homepage achieving 100% HTML and visual parity with 
 
 **Source**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Target**: http://<nome progetto>.local/it/tests/homepage  
+=======
+**Target**: http://fixcity.local/it/tests/homepage  
+>>>>>>> laraxot/dev
 =======
 **Target**: http://fixcity.local/it/tests/homepage  
 >>>>>>> laraxot/dev
@@ -28,7 +32,11 @@ Replicate the Design Comuni homepage achieving 100% HTML and visual parity with 
 Achieve 100% HTML parity (inside `<body>` tag, excluding scripts) between:
 - ✅ Source: `view-source:https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Target: `view-source:http://<nome progetto>.local/it/tests/homepage`
+=======
+- ✅ Target: `view-source:http://fixcity.local/it/tests/homepage`
+>>>>>>> laraxot/dev
 =======
 - ✅ Target: `view-source:http://fixcity.local/it/tests/homepage`
 >>>>>>> laraxot/dev
@@ -85,8 +93,13 @@ laravel/Themes/Sixteen/
 {
   "slug": "tests.homepage",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "title": "Homepage - Comune di <nome progetto>",
   "meta_description": "Sito ufficiale del Comune di <nome progetto>",
+=======
+  "title": "Homepage - Comune di FixCity",
+  "meta_description": "Sito ufficiale del Comune di FixCity",
+>>>>>>> laraxot/dev
 =======
   "title": "Homepage - Comune di FixCity",
   "meta_description": "Sito ufficiale del Comune di FixCity",
@@ -97,7 +110,11 @@ laravel/Themes/Sixteen/
       "view": "pub_theme::components.blocks.header.main",
       "data": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "institution_name": "Comune di <nome progetto>",
+=======
+        "institution_name": "Comune di FixCity",
+>>>>>>> laraxot/dev
 =======
         "institution_name": "Comune di FixCity",
 >>>>>>> laraxot/dev
@@ -110,7 +127,11 @@ laravel/Themes/Sixteen/
       "view": "pub_theme::components.blocks.hero.default",
       "data": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "title": "Benvenuto nel Comune di <nome progetto>",
+=======
+        "title": "Benvenuto nel Comune di FixCity",
+>>>>>>> laraxot/dev
 =======
         "title": "Benvenuto nel Comune di FixCity",
 >>>>>>> laraxot/dev

@@ -144,7 +144,11 @@ php artisan event:cache
 ✅ 193 pacchetti installati/aggiornati
 ✅ Nessuna vulnerabilità di sicurezza trovata
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ Laravel 13.39.0 + PHP 8.3.27 + Filament v4.2.3 funzionanti
+=======
+✅ Laravel 12.39.0 + PHP 8.3.27 + Filament v4.2.3 funzionanti
+>>>>>>> laraxot/dev
 =======
 ✅ Laravel 12.39.0 + PHP 8.3.27 + Filament v4.2.3 funzionanti
 >>>>>>> laraxot/dev

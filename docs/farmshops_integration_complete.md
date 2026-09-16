@@ -9,7 +9,11 @@
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecnologie in <nome progetto> per creare una mappa interattiva di livello mondiale per la visualizzazione delle segnalazioni.
+=======
+Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecnologie in FixCity per creare una mappa interattiva di livello mondiale per la visualizzazione delle segnalazioni.
+>>>>>>> laraxot/dev
 =======
 Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecnologie in FixCity per creare una mappa interattiva di livello mondiale per la visualizzazione delle segnalazioni.
 >>>>>>> laraxot/dev
@@ -51,7 +55,11 @@ Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecno
 ✅ **FARMSHOPS_INTEGRATION.md** - Guida completa integrazione
    - Analisi progetto farmshops.eu
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Features applicabili a <nome progetto>
+=======
+   - Features applicabili a FixCity
+>>>>>>> laraxot/dev
 =======
    - Features applicabili a FixCity
 >>>>>>> laraxot/dev
@@ -148,7 +156,11 @@ Map Render → User Feedback
 5. **Sidebar Pattern** - Navigazione efficace
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Migliorie <nome progetto>
+=======
+### Migliorie FixCity
+>>>>>>> laraxot/dev
 =======
 ### Migliorie FixCity
 >>>>>>> laraxot/dev
@@ -186,7 +198,11 @@ Map Render → User Feedback
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🎯 UTILIZZO IN <nome progetto>
+=======
+## 🎯 UTILIZZO IN FIXCITY
+>>>>>>> laraxot/dev
 =======
 ## 🎯 UTILIZZO IN FIXCITY
 >>>>>>> laraxot/dev
@@ -197,7 +213,11 @@ Map Render → User Feedback
 ```php
 // Homepage con mappa
 <<<<<<< HEAD
+<<<<<<< HEAD
 <livewire:<nome progetto>::ticket-map />
+=======
+<livewire:fixcity::ticket-map />
+>>>>>>> laraxot/dev
 =======
 <livewire:fixcity::ticket-map />
 >>>>>>> laraxot/dev
@@ -208,7 +228,11 @@ Map Render → User Feedback
 ```php
 // Trova segnalazioni vicine
 <<<<<<< HEAD
+<<<<<<< HEAD
 <livewire:<nome progetto>::ticket-map 
+=======
+<livewire:fixcity::ticket-map 
+>>>>>>> laraxot/dev
 =======
 <livewire:fixcity::ticket-map 
 >>>>>>> laraxot/dev
@@ -222,7 +246,11 @@ Map Render → User Feedback
 ```php
 // Mappa con filtri per operatori
 <<<<<<< HEAD
+<<<<<<< HEAD
 <livewire:<nome progetto>::ticket-map 
+=======
+<livewire:fixcity::ticket-map 
+>>>>>>> laraxot/dev
 =======
 <livewire:fixcity::ticket-map 
 >>>>>>> laraxot/dev
@@ -235,7 +263,11 @@ Map Render → User Feedback
 ```php
 // Mappa per report geografici
 <<<<<<< HEAD
+<<<<<<< HEAD
 <livewire:<nome progetto>::ticket-map 
+=======
+<livewire:fixcity::ticket-map 
+>>>>>>> laraxot/dev
 =======
 <livewire:fixcity::ticket-map 
 >>>>>>> laraxot/dev
@@ -309,8 +341,13 @@ Map Render → User Feedback
 
 ### Code (2)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>/Livewire/TicketMap.php** - Livewire component
 - **<nome progetto>/Resources/js/ticket-map.js** - JavaScript library
+=======
+- **Fixcity/Livewire/TicketMap.php** - Livewire component
+- **Fixcity/Resources/js/ticket-map.js** - JavaScript library
+>>>>>>> laraxot/dev
 =======
 - **Fixcity/Livewire/TicketMap.php** - Livewire component
 - **Fixcity/Resources/js/ticket-map.js** - JavaScript library
@@ -369,9 +406,15 @@ Map Render → User Feedback
 **Ready**: 🚀 **FOR IMPLEMENTATION**  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *"Integrando le migliori pratiche da farmshops.eu, <nome progetto> ha ora una base solida per una mappa interattiva di livello mondiale!"*
 
 **#<nome progetto>2025 #FarmshopsIntegration #LeafletJS #OpenSource #Innovation**
+=======
+*"Integrando le migliori pratiche da farmshops.eu, FixCity ha ora una base solida per una mappa interattiva di livello mondiale!"*
+
+**#FixCity2025 #FarmshopsIntegration #LeafletJS #OpenSource #Innovation**
+>>>>>>> laraxot/dev
 =======
 *"Integrando le migliori pratiche da farmshops.eu, FixCity ha ora una base solida per una mappa interattiva di livello mondiale!"*
 

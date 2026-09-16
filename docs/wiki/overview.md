@@ -48,6 +48,7 @@ docs/
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Progetto: <nome progetto> (<repo progetto>)
 
 **Stack**: Laravel 11 + Filament 5 + Laraxot pattern  
@@ -59,6 +60,8 @@ docs/
 
 | Karpathy | <nome progetto> | Note |
 =======
+=======
+>>>>>>> laraxot/dev
 ## Progetto: FixCity (base_fixcity_fila5)
 
 **Stack**: Laravel 11 + Filament 5 + Laraxot pattern  
@@ -69,6 +72,9 @@ docs/
 ### Mapping Karpathy → FixCity
 
 | Karpathy | FixCity | Note |
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 |----------|---------|------|
 | `raw/` | `./docs/` + ogni `Modules/*/docs/` | Documenti sorgente (immutabili) |
@@ -76,6 +82,7 @@ docs/
 | `AGENTS.md` | `./docs/wiki/AGENTS.md` | Schema multi-agent |
 
 **Stack**: Laravel 11 + Filament 5 + Laraxot pattern  
+<<<<<<< HEAD
 <<<<<<< HEAD
 **Moduli**: 18 (Xot, Cms, UI, Lang, User, <nome progetto>, Blog, Geo, Media, Notify, Activity, Comment, Rating, Seo, Tenant, Job, Gdpr, AI)  
 **Temi**: 2 (Sixteen — Design Comuni/Bootstrap Italia, TwentyOne — cinematic/prediction market)  
@@ -85,6 +92,8 @@ docs/
 
 | Karpathy | <nome progetto> | Note |
 =======
+=======
+>>>>>>> laraxot/dev
 **Moduli**: 18 (Xot, Cms, UI, Lang, User, Fixcity, Blog, Geo, Media, Notify, Activity, Comment, Rating, Seo, Tenant, Job, Gdpr, AI)  
 **Temi**: 2 (Sixteen — Design Comuni/Bootstrap Italia, TwentyOne — cinematic/prediction market)  
 **Raw docs totali**: ~14.000 file  
@@ -92,6 +101,9 @@ docs/
 ### Mapping Karpathy → FixCity
 
 | Karpathy | FixCity | Note |
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 |----------|---------|------|
 | `raw/` | `./docs/` + ogni `Modules/*/docs/` | Documenti sorgente (immutabili) |
@@ -133,7 +145,11 @@ docs/
 
 1. **User** — autenticazione, profilo, GDPR compliance
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **<nome progetto>** — ticket system, segnalazioni civiche, workflow
+=======
+2. **Fixcity** — ticket system, segnalazioni civiche, workflow
+>>>>>>> laraxot/dev
 =======
 2. **Fixcity** — ticket system, segnalazioni civiche, workflow
 >>>>>>> laraxot/dev

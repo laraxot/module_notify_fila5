@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🗺️ <nome progetto> Design System - Product Roadmap
+=======
+# 🗺️ FixCity Design System - Product Roadmap
+>>>>>>> laraxot/dev
 =======
 # 🗺️ FixCity Design System - Product Roadmap
 >>>>>>> laraxot/dev
@@ -13,7 +17,11 @@
 ## 📊 Roadmap Overview
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> is a civic technology platform connecting citizens and municipalities to improve urban services. The project follows a **modular, phased approach** using Laravel + Filament 5.x + Tailwind CSS + Alpine.js.
+=======
+FixCity is a civic technology platform connecting citizens and municipalities to improve urban services. The project follows a **modular, phased approach** using Laravel + Filament 4.x + Tailwind CSS + Alpine.js.
+>>>>>>> laraxot/dev
 =======
 FixCity is a civic technology platform connecting citizens and municipalities to improve urban services. The project follows a **modular, phased approach** using Laravel + Filament 4.x + Tailwind CSS + Alpine.js.
 >>>>>>> laraxot/dev
@@ -27,7 +35,11 @@ FixCity is a civic technology platform connecting citizens and municipalities to
 - 📦 18 modular Laravel components
 - ✅ PHPStan Level 9 compliance (0 errors)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Filament 5.x fully compatible
+=======
+- ✅ Filament 4.x fully compatible
+>>>>>>> laraxot/dev
 =======
 - ✅ Filament 4.x fully compatible
 >>>>>>> laraxot/dev
@@ -67,7 +79,11 @@ Level 1: Foundation Modules
 
 Level 2: Business Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── <nome progetto> (core ticketing) ⭐
+=======
+├── Fixcity (core ticketing) ⭐
+>>>>>>> laraxot/dev
 =======
 ├── Fixcity (core ticketing) ⭐
 >>>>>>> laraxot/dev
@@ -124,7 +140,11 @@ Level 3: Themes
 
 **Technical Stack Verified**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Laravel 13 + Folio routing
+=======
+- ✅ Laravel 12 + Folio routing
+>>>>>>> laraxot/dev
 =======
 - ✅ Laravel 12 + Folio routing
 >>>>>>> laraxot/dev
@@ -191,7 +211,11 @@ Level 3: Themes
 **Deliverables**:
 - ✅ `/laravel/Themes/Sixteen/resources/views/components/blocks/` (header, footer, content blocks)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ `/laravel/config/local/<nome progetto>/database/content/pages/tests.homepage.json`
+=======
+- ✅ `/laravel/config/local/fixcity/database/content/pages/tests.homepage.json`
+>>>>>>> laraxot/dev
 =======
 - ✅ `/laravel/config/local/fixcity/database/content/pages/tests.homepage.json`
 >>>>>>> laraxot/dev
@@ -340,7 +364,11 @@ Each of the 18 modules has its own documentation:
 
 ### Business Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[<nome progetto> Module](../laravel/Modules/<nome progetto>/docs/)** - Core ticketing system ⭐
+=======
+- **[FixCity Module](../laravel/Modules/Fixcity/docs/)** - Core ticketing system ⭐
+>>>>>>> laraxot/dev
 =======
 - **[FixCity Module](../laravel/Modules/Fixcity/docs/)** - Core ticketing system ⭐
 >>>>>>> laraxot/dev

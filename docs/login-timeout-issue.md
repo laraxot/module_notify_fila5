@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "login-timeout-issue 🚨 problema timeout pagina login - diagnosi e soluzione"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -88,8 +93,13 @@ protected string $view = 'pub_theme::filament.widgets.auth.login';
 ```bash
 # Verificare configurazione tema
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>/laravel
 cd /var/www/_bases/<repo progetto>/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
@@ -143,8 +153,13 @@ public function mount(): void
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>/laravel
 cd /var/www/_bases/<repo progetto>/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
@@ -171,8 +186,13 @@ php artisan view:cache
 ```bash
 # Verificare che esista
 <<<<<<< HEAD
+<<<<<<< HEAD
 ls -la /var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
 ls -la /var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
+=======
+ls -la /var/www/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
+ls -la /var/www/_bases/base_ptv_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
+>>>>>>> laraxot/dev
 =======
 ls -la /var/www/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
 ls -la /var/www/_bases/base_ptv_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
@@ -186,8 +206,13 @@ ls -la /var/www/_bases/base_ptv_fila5_mono/laravel/Themes/Sixteen/resources/view
 ```bash
 # Cercare dove è definito pub_theme
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>/laravel
 cd /var/www/_bases/<repo progetto>/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 cd /var/www/_bases/base_ptv_fila5_mono/laravel

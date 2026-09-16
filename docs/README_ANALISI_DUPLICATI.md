@@ -21,7 +21,11 @@ Ogni modulo ha una copia in `Modules/{ModuleName}/docs/METODI_DUPLICATI_ANALISI.
 - `Modules/Cms/docs/METODI_DUPLICATI_ANALISI.md`
 - `Modules/Comment/docs/METODI_DUPLICATI_ANALISI.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/<nome progetto>/docs/METODI_DUPLICATI_ANALISI.md`
+=======
+- `Modules/Fixcity/docs/METODI_DUPLICATI_ANALISI.md`
+>>>>>>> laraxot/dev
 =======
 - `Modules/Fixcity/docs/METODI_DUPLICATI_ANALISI.md`
 >>>>>>> laraxot/dev
@@ -91,7 +95,11 @@ Il documento contiene dati VERIFICATI:
 ### Fase 2: Refactoring (3 settimane)
 - Settimana 1: Core (Xot, User, Cms) - 15 files
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Settimana 2: Business (<nome progetto>, Blog, Geo) - 20 files
+=======
+- Settimana 2: Business (Fixcity, Blog, Geo) - 20 files
+>>>>>>> laraxot/dev
 =======
 - Settimana 2: Business (Fixcity, Blog, Geo) - 20 files
 >>>>>>> laraxot/dev
@@ -142,7 +150,11 @@ public function getTableColumns(): array
 Alcuni moduli hanno già documenti di analisi precedenti:
 - `Modules/Cms/docs/analisi-metodi-duplicati.md` (versione precedente)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/<nome progetto>/docs/analisi-metodi-duplicati.md` (versione precedente)
+=======
+- `Modules/Fixcity/docs/analisi-metodi-duplicati.md` (versione precedente)
+>>>>>>> laraxot/dev
 =======
 - `Modules/Fixcity/docs/analisi-metodi-duplicati.md` (versione precedente)
 >>>>>>> laraxot/dev

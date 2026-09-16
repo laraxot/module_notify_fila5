@@ -8,6 +8,7 @@ Questa mappa e una vista operativa "figlia" della documentazione ufficiale del p
 - `.agents/docs/filament-patterns.md`
 - `.agents/docs/critical-rules.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/<nome progetto>/docs/index.md`
 - `laravel/Modules/Xot/docs/README.md`
 
@@ -24,6 +25,8 @@ Questa mappa e una vista operativa "figlia" della documentazione ufficiale del p
 - `laravel/Modules/<nome progetto>/docs/widget-property-initialization-pattern.md`
 - `laravel/Modules/<nome progetto>/docs/Filament-5-implementation-guide.md`
 =======
+=======
+>>>>>>> laraxot/dev
 - `laravel/Modules/Quaeris/docs/index.md`
 - `laravel/Modules/Xot/docs/README.md`
 
@@ -39,13 +42,20 @@ Questa mappa e una vista operativa "figlia" della documentazione ufficiale del p
 - `laravel/Modules/Quaeris/docs/livewire-filament-widget-parameters.md`
 - `laravel/Modules/Quaeris/docs/widget-property-initialization-pattern.md`
 - `laravel/Modules/Quaeris/docs/filament-4-implementation-guide.md`
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Area chart plugin/frontend
 
 - `laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/<nome progetto>/docs/chartjs-datalabels-dual-label-fix.md`
+=======
+- `laravel/Modules/Quaeris/docs/chartjs-datalabels-dual-label-fix.md`
+>>>>>>> laraxot/dev
 =======
 - `laravel/Modules/Quaeris/docs/chartjs-datalabels-dual-label-fix.md`
 >>>>>>> laraxot/dev

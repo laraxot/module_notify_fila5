@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # User Research - <nome progetto> Platform
+=======
+# User Research - FixCity Platform
+>>>>>>> laraxot/dev
 =======
 # User Research - FixCity Platform
 >>>>>>> laraxot/dev
@@ -15,17 +19,23 @@
 
 ## 2. Competitive Landscape
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Laravel Ecosystem**: Analisi di pacchetti come *Laravel Spark* (billing), *October CMS* (modularità) e *Filament* (UI). <nome progetto> si differenzia per l'integrazione profonda di multi-tenancy e analisi statica Level 10 nativa.
 - **Enterprise Solutions**: Spesso troppo rigide o costose. <nome progetto> offre flessibilità open-source con qualità enterprise.
 
 ## 3. Technical Research
 - **Framework Trends**: Adozione di Laravel 13 e Livewire 4 per massimizzare le prestazioni frontend senza la complessità di una SPA.
 =======
+=======
+>>>>>>> laraxot/dev
 - **Laravel Ecosystem**: Analisi di pacchetti come *Laravel Spark* (billing), *October CMS* (modularità) e *Filament* (UI). FixCity si differenzia per l'integrazione profonda di multi-tenancy e analisi statica Level 10 nativa.
 - **Enterprise Solutions**: Spesso troppo rigide o costose. FixCity offre flessibilità open-source con qualità enterprise.
 
 ## 3. Technical Research
 - **Framework Trends**: Adozione di Laravel 12 e Livewire 4 per massimizzare le prestazioni frontend senza la complessità di una SPA.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - **Code Quality**: Studio sull'impatto di PHPStan Level 10 nella riduzione dei bug a runtime del 40% in contesti modulari complessi.
 

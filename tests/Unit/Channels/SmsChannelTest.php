@@ -11,7 +11,11 @@ use PHPUnit\Framework\Assert;
 describe('SmsChannel', function () {
     it('can be instantiated', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         // SmsChannel requires SendSmsFactorSMSAction in constructor
+=======
+        // SmsChannel requires SmsActionFactory in constructor
+>>>>>>> laraxot/dev
 =======
         // SmsChannel requires SmsActionFactory in constructor
 >>>>>>> laraxot/dev
@@ -40,6 +44,7 @@ describe('SmsChannel', function () {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     it('has private action property', function () {
         $reflection = new \ReflectionClass(SmsChannel::class);
         $property = $reflection->getProperty('action');
@@ -47,6 +52,8 @@ describe('SmsChannel', function () {
         Assert::assertTrue($property->isPrivate());
     });
 =======
+=======
+>>>>>>> laraxot/dev
     it('has private factory property', function () {
         $reflection = new \ReflectionClass(SmsChannel::class);
         $property = $reflection->getProperty('factory');
@@ -64,5 +71,8 @@ describe('SmsChannel', function () {
             $param->getType() instanceof \ReflectionNamedType ? $param->getType()->getName() : null,
         );
     });
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 });

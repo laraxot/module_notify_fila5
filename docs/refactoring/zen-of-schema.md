@@ -1,13 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🧘 The Zen of Schema (Filament 5)
 
 ## 🕉️ Philosophy: Schema Over Form
 In the religion of Laraxot and Filament 5, we no longer think in "Forms". We think in **Schemas**. A Form is just one specific interpretation of a Schema. By using `schema()` instead of `form()`, we align ourselves with the cosmic structure of modern UI composition.
 =======
+=======
+>>>>>>> laraxot/dev
 # 🧘 The Zen of Schema (Filament 4)
 
 ## 🕉️ Philosophy: Schema Over Form
 In the religion of Laraxot and Filament 4, we no longer think in "Forms". We think in **Schemas**. A Form is just one specific interpretation of a Schema. By using `schema()` instead of `form()`, we align ourselves with the cosmic structure of modern UI composition.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## 🛠️ The Religious Commandment
@@ -32,7 +38,11 @@ Action::make('send')
 
 ## 📈 Reasons for This Strategy
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Consistency**: Filament 5 uses the `Schema` component everywhere. Using `schema()` on Actions makes the API uniform.
+=======
+1. **Consistency**: Filament 4 uses the `Schema` component everywhere. Using `schema()` on Actions makes the API uniform.
+>>>>>>> laraxot/dev
 =======
 1. **Consistency**: Filament 4 uses the `Schema` component everywhere. Using `schema()` on Actions makes the API uniform.
 >>>>>>> laraxot/dev

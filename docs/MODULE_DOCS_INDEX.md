@@ -1,7 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Master Documentation Index - <nome progetto> Fila5
 
 **Project:** <nome progetto> Fila5  
+=======
+# Master Documentation Index - FixCity Fila5
+
+**Project:** FixCity Fila5  
+>>>>>>> laraxot/dev
 =======
 # Master Documentation Index - FixCity Fila5
 
@@ -28,7 +34,11 @@ Questo documento crea un **sistema di indicizzazione centrale** con collegamenti
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> Fila5 Documentation
+=======
+FixCity Fila5 Documentation
+>>>>>>> laraxot/dev
 =======
 FixCity Fila5 Documentation
 >>>>>>> laraxot/dev
@@ -56,7 +66,11 @@ FixCity Fila5 Documentation
 ├── 📁 Modules (laravel/Modules/*/docs/)
 │   ├── Xot (Core Framework) - 1,941 files
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   ├── <nome progetto> (Main Domain) - XXX files
+=======
+│   ├── Fixcity (Main Domain) - XXX files
+>>>>>>> laraxot/dev
 =======
 │   ├── Fixcity (Main Domain) - XXX files
 >>>>>>> laraxot/dev
@@ -158,7 +172,11 @@ FixCity Fila5 Documentation
 |--------|-------|-------|------------|
 | **Xot** | 1,941 | [00-index.md](Modules/Xot/docs/00-index.md) | Base classes, traits, PHPStan |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | XXX | [index.md](Modules/<nome progetto>/docs/README.md) | Tickets, categories |
+=======
+| **Fixcity** | XXX | [index.md](Modules/Fixcity/docs/README.md) | Tickets, categories |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | XXX | [index.md](Modules/Fixcity/docs/README.md) | Tickets, categories |
 >>>>>>> laraxot/dev
@@ -319,7 +337,11 @@ Modules/
 │   ├── testing/ (Testing guides)
 │   └── ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── <nome progetto>/docs/
+=======
+├── Fixcity/docs/
+>>>>>>> laraxot/dev
 =======
 ├── Fixcity/docs/
 >>>>>>> laraxot/dev

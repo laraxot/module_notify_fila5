@@ -9,6 +9,10 @@ use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
 use Illuminate\Support\Facades\Blade;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
+>>>>>>> laraxot/dev
 =======
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> laraxot/dev
@@ -20,8 +24,11 @@ class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     public function panel(Panel $panel): Panel
@@ -29,11 +36,14 @@ class AdminPanelProvider extends XotBasePanelProvider
         $panel = parent::panel($panel);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Temporaneamente commentato per compatibilità Filament 5.x
         // $panel->plugins([
         //     SpatieTranslatablePlugin::make(),
         // ]);
 =======
+=======
+>>>>>>> laraxot/dev
         // Richiesto da MailTemplateResource (estende LangBaseResource → pagine
         // LangBaseListRecords/LangBaseEditRecord). Il pacchetto ufficiale
         // lara-zeus/spatie-translatable 2.0.1 supporta Filament 5 — il vecchio
@@ -42,6 +52,9 @@ class AdminPanelProvider extends XotBasePanelProvider
         $panel->plugins([
             SpatieTranslatablePlugin::make()->defaultLocales(['en', 'it']),
         ]);
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
         if (! XotData::make()->disable_database_notifications) {

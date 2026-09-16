@@ -15,7 +15,11 @@ return [
         'body_html' => [
             'description' => 'body_html',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'body_html',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'body_html',
 >>>>>>> laraxot/dev
@@ -25,7 +29,11 @@ return [
         'subject' => [
             'description' => 'subject',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'subject',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'subject',
 >>>>>>> laraxot/dev
@@ -35,7 +43,11 @@ return [
         'to' => [
             'description' => 'to',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'to',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'to',
 >>>>>>> laraxot/dev
@@ -45,7 +57,11 @@ return [
         'mail_templates' => [
             'description' => 'mail_templates',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'mail_templates',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'mail_templates',
 >>>>>>> laraxot/dev
@@ -55,7 +71,11 @@ return [
         'mail_template_slug' => [
             'description' => 'mail_template_slug',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'mail_template_slug',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'mail_template_slug',
 >>>>>>> laraxot/dev
@@ -65,7 +85,11 @@ return [
         'recipient' => [
             'description' => 'recipient',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'recipient',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'recipient',
 >>>>>>> laraxot/dev

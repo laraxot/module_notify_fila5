@@ -20,7 +20,11 @@ related:
 # AI Assistant Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Purpose**: Centralized documentation for all AI assistants used in the <nome progetto> project  
+=======
+**Purpose**: Centralized documentation for all AI assistants used in the FixCity project  
+>>>>>>> laraxot/dev
 =======
 **Purpose**: Centralized documentation for all AI assistants used in the FixCity project  
 >>>>>>> laraxot/dev

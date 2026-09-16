@@ -16,7 +16,11 @@ Update/create/improve `docs/roadmap.md` for all 18 modules by:
 2. ⏳ User (Authentication & Management)
 3. ⏳ AI (Artificial Intelligence)
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. ⏳ <nome progetto> (Main Application)
+=======
+4. ⏳ Fixcity (Main Application)
+>>>>>>> laraxot/dev
 =======
 4. ⏳ Fixcity (Main Application)
 >>>>>>> laraxot/dev
@@ -60,7 +64,11 @@ Priority order based on module importance:
 2. User - Authentication
 3. AI - AI integration
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. <nome progetto> - Main app
+=======
+4. Fixcity - Main app
+>>>>>>> laraxot/dev
 =======
 4. Fixcity - Main app
 >>>>>>> laraxot/dev

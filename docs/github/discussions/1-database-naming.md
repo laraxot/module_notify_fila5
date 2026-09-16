@@ -36,7 +36,11 @@ Ho creato questi documenti:
 1. **[Database Naming Convention](docs/conventions/database-naming.md)** - Guida completa
 2. **[AGENTS.md Update](AGENTS.md)** - Rule aggiunta alle regole architetturali
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. **[GitHub Issue #5](https://github.com/laraxot/<repo progetto>/issues/5)** - Tracking delle correzioni
+=======
+3. **[GitHub Issue #5](https://github.com/laraxot/base_fixcity_fila5/issues/5)** - Tracking delle correzioni
+>>>>>>> laraxot/dev
 =======
 3. **[GitHub Issue #5](https://github.com/laraxot/base_fixcity_fila5/issues/5)** - Tracking delle correzioni
 >>>>>>> laraxot/dev
@@ -61,7 +65,11 @@ Ho creato questi documenti:
 - [ ] Cms
 - [ ] Comment
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] <nome progetto>
+=======
+- [ ] Fixcity
+>>>>>>> laraxot/dev
 =======
 - [ ] Fixcity
 >>>>>>> laraxot/dev

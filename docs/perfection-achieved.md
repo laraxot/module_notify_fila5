@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "🏆 <nome progetto> - PERFEZIONE RAGGIUNTA"
+=======
+title: "🏆 FIXCITY - PERFEZIONE RAGGIUNTA"
+>>>>>>> laraxot/dev
 =======
 title: "🏆 FIXCITY - PERFEZIONE RAGGIUNTA"
 >>>>>>> laraxot/dev
@@ -9,15 +13,21 @@ tags: [perfection, achieved]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "perfection-achieved 🏆 <nome progetto> - perfezione raggiunta"
 qmd: "perfection-achieved 🏆 ptv - perfezione raggiunta"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "perfection-achieved 🏆 fixcity - perfezione raggiunta"
 qmd: "perfection-achieved 🏆 ptv - perfezione raggiunta"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
@@ -31,7 +41,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏆 <nome progetto> - PERFEZIONE RAGGIUNTA
+=======
+# 🏆 FIXCITY - PERFEZIONE RAGGIUNTA
+>>>>>>> laraxot/dev
 =======
 # 🏆 FIXCITY - PERFEZIONE RAGGIUNTA
 >>>>>>> laraxot/dev
@@ -129,7 +143,11 @@ Implementare OGNI feature mancante con:
 
 ### Core (98%)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: 95% → **98%** ✅
+=======
+- **Fixcity**: 95% → **98%** ✅
+>>>>>>> laraxot/dev
 =======
 - **Fixcity**: 95% → **98%** ✅
 >>>>>>> laraxot/dev
@@ -167,7 +185,11 @@ Implementare OGNI feature mancante con:
 #### PHPStan Level 9
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 ./vendor/bin/phpstan analyse --level=9 Modules/<nome progetto>/Jobs/AutoAssignTicketJob.php
+=======
+./vendor/bin/phpstan analyse --level=9 Modules/Fixcity/Jobs/AutoAssignTicketJob.php
+>>>>>>> laraxot/dev
 =======
 ./vendor/bin/phpstan analyse --level=9 Modules/Fixcity/Jobs/AutoAssignTicketJob.php
 >>>>>>> laraxot/dev
@@ -177,7 +199,11 @@ Implementare OGNI feature mancante con:
 #### PHPMD
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 ./vendor/bin/phpmd Modules/<nome progetto>/Jobs/AutoAssignTicketJob.php text cleancode,codesize,design,naming
+=======
+./vendor/bin/phpmd Modules/Fixcity/Jobs/AutoAssignTicketJob.php text cleancode,codesize,design,naming
+>>>>>>> laraxot/dev
 =======
 ./vendor/bin/phpmd Modules/Fixcity/Jobs/AutoAssignTicketJob.php text cleancode,codesize,design,naming
 >>>>>>> laraxot/dev
@@ -347,7 +373,11 @@ php artisan test --filter=AutoAssignTicketJobTest
 *"La perfezione non è un punto di arrivo, è un viaggio continuo. Ogni feature implementata ci avvicina all'eccellenza assoluta!"*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **#<nome progetto>2025 #Perfection #Quality #Excellence #SuperMucca**
+=======
+**#FixCity2025 #Perfection #Quality #Excellence #SuperMucca**
+>>>>>>> laraxot/dev
 =======
 **#FixCity2025 #Perfection #Quality #Excellence #SuperMucca**
 >>>>>>> laraxot/dev

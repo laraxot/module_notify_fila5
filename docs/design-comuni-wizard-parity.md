@@ -5,7 +5,11 @@
 **Last Updated**: 2026-04-14  
 **Category**: Frontend / Filament / Design Comuni  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Module**: <nome progetto>  
+=======
+**Module**: Fixcity  
+>>>>>>> laraxot/dev
 =======
 **Module**: Fixcity  
 >>>>>>> laraxot/dev
@@ -67,7 +71,11 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/segnalazione-02-dati
 
 ### PHP Widget
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/<nome progetto>/app/Filament/Widgets/CreateTicketWizardWidget.php`
+=======
+**File**: `Modules/Fixcity/app/Filament/Widgets/CreateTicketWizardWidget.php`
+>>>>>>> laraxot/dev
 =======
 **File**: `Modules/Fixcity/app/Filament/Widgets/CreateTicketWizardWidget.php`
 >>>>>>> laraxot/dev
@@ -78,8 +86,13 @@ public function getDataSchema(): array
     return [
         // Sezione LUOGO
 <<<<<<< HEAD
+<<<<<<< HEAD
         Section::make(__('<nome progetto>::segnalazione.sections.place.label'))
             ->description(__('<nome progetto>::segnalazione.sections.place.description'))
+=======
+        Section::make(__('fixcity::segnalazione.sections.place.label'))
+            ->description(__('fixcity::segnalazione.sections.place.description'))
+>>>>>>> laraxot/dev
 =======
         Section::make(__('fixcity::segnalazione.sections.place.label'))
             ->description(__('fixcity::segnalazione.sections.place.description'))
@@ -92,7 +105,11 @@ public function getDataSchema(): array
 
         // Sezione DISSERVIZIO
 <<<<<<< HEAD
+<<<<<<< HEAD
         Section::make(__('<nome progetto>::segnalazione.sections.inefficiency.label'))
+=======
+        Section::make(__('fixcity::segnalazione.sections.inefficiency.label'))
+>>>>>>> laraxot/dev
 =======
         Section::make(__('fixcity::segnalazione.sections.inefficiency.label'))
 >>>>>>> laraxot/dev
@@ -102,8 +119,13 @@ public function getDataSchema(): array
 
         // Sezione AUTORE
 <<<<<<< HEAD
+<<<<<<< HEAD
         Section::make(__('<nome progetto>::segnalazione.sections.author.label'))
             ->description(__('<nome progetto>::segnalazione.sections.author.description'))
+=======
+        Section::make(__('fixcity::segnalazione.sections.author.label'))
+            ->description(__('fixcity::segnalazione.sections.author.description'))
+>>>>>>> laraxot/dev
 =======
         Section::make(__('fixcity::segnalazione.sections.author.label'))
             ->description(__('fixcity::segnalazione.sections.author.description'))
@@ -119,7 +141,11 @@ public function getDataSchema(): array
 
 ### Blade View
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/<nome progetto>/resources/views/filament/widgets/ticket-create-wizard.blade.php`
+=======
+**File**: `Modules/Fixcity/resources/views/filament/widgets/ticket-create-wizard.blade.php`
+>>>>>>> laraxot/dev
 =======
 **File**: `Modules/Fixcity/resources/views/filament/widgets/ticket-create-wizard.blade.php`
 >>>>>>> laraxot/dev
@@ -166,7 +192,11 @@ Stili custom per match Design Comuni:
 
 ## Traduzioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `Modules/<nome progetto>/lang/it/segnalazione.php`
+=======
+**File**: `Modules/Fixcity/lang/it/segnalazione.php`
+>>>>>>> laraxot/dev
 =======
 **File**: `Modules/Fixcity/lang/it/segnalazione.php`
 >>>>>>> laraxot/dev

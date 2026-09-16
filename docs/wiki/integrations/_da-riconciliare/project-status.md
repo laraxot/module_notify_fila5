@@ -117,8 +117,13 @@ related:
 
 ### Dicembre 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Upgraded to Laravel 13
 - ✅ Migrated to Filament 5
+=======
+- ✅ Upgraded to Laravel 12
+- ✅ Migrated to Filament 4
+>>>>>>> laraxot/dev
 =======
 - ✅ Upgraded to Laravel 12
 - ✅ Migrated to Filament 4

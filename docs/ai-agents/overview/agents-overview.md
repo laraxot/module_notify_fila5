@@ -11,7 +11,11 @@
 ### Core Technology
 - **PHP 8.3+** - Strict typing, latest features
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Laravel 13** - Latest LTS version
+=======
+- **Laravel 12** - Latest LTS version
+>>>>>>> laraxot/dev
 =======
 - **Laravel 12** - Latest LTS version
 >>>>>>> laraxot/dev

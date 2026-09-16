@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Report di Completamento Progetto <nome progetto>
 
 ## Panoramica
@@ -9,6 +10,8 @@ Il progetto <nome progetto> è stato completato con successo, implementando un s
 
 ### 1. Modulo <nome progetto> ✅
 =======
+=======
+>>>>>>> laraxot/dev
 # Report di Completamento Progetto Fixcity
 
 ## Panoramica
@@ -18,6 +21,9 @@ Il progetto Fixcity è stato completato con successo, implementando un sistema c
 ## Componenti Completati
 
 ### 1. Modulo Fixcity ✅
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - **API RESTful Complete**: Endpoint per gestione ticket, mappe, statistiche
 - **Sistema di Workflow**: Gestione stati e priorità delle segnalazioni
@@ -85,7 +91,11 @@ Il progetto Fixcity è stato completato con successo, implementando un sistema c
 ```
 laravel/
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── Modules/<nome progetto>/                 # Modulo principale
+=======
+├── Modules/Fixcity/                 # Modulo principale
+>>>>>>> laraxot/dev
 =======
 ├── Modules/Fixcity/                 # Modulo principale
 >>>>>>> laraxot/dev
@@ -130,6 +140,7 @@ COMUNE_COLORE_SECONDARIO="#00cc66"
 COMUNE_COLORE_ACCENTO="#ff6600"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Configurazione <nome progetto>
 <nome progetto>_CACHE_ENABLED=true
 <nome progetto>_EMAIL_NOTIFICATIONS=true
@@ -138,6 +149,8 @@ COMUNE_COLORE_ACCENTO="#ff6600"
 <nome progetto>_SEARCH_ENABLED=true
 <nome progetto>_ANALYTICS_ENABLED=true
 =======
+=======
+>>>>>>> laraxot/dev
 # Configurazione Fixcity
 FIXCITY_CACHE_ENABLED=true
 FIXCITY_EMAIL_NOTIFICATIONS=true
@@ -145,6 +158,9 @@ FIXCITY_PUSH_NOTIFICATIONS=true
 FIXCITY_MAP_ENABLED=true
 FIXCITY_SEARCH_ENABLED=true
 FIXCITY_ANALYTICS_ENABLED=true
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -159,7 +175,11 @@ FIXCITY_ANALYTICS_ENABLED=true
 /comune/eventi             # Eventi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // API <nome progetto>
+=======
+// API Fixcity
+>>>>>>> laraxot/dev
 =======
 // API Fixcity
 >>>>>>> laraxot/dev
@@ -229,7 +249,11 @@ FIXCITY_ANALYTICS_ENABLED=true
 ### Prerequisiti
 - PHP 8.1+
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Laravel 13.x
+=======
+- Laravel 12.x
+>>>>>>> laraxot/dev
 =======
 - Laravel 12.x
 >>>>>>> laraxot/dev
@@ -290,7 +314,11 @@ php artisan view:cache
 ## Conclusioni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto <nome progetto> è stato completato con successo, fornendo:
+=======
+Il progetto Fixcity è stato completato con successo, fornendo:
+>>>>>>> laraxot/dev
 =======
 Il progetto Fixcity è stato completato con successo, fornendo:
 >>>>>>> laraxot/dev
@@ -308,7 +336,11 @@ Il sistema è pronto per il deployment in produzione e può essere facilmente pe
 ## Team e Contributi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Sviluppo**: <nome progetto> Team
+=======
+- **Sviluppo**: Fixcity Team
+>>>>>>> laraxot/dev
 =======
 - **Sviluppo**: Fixcity Team
 >>>>>>> laraxot/dev

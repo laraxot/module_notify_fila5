@@ -143,7 +143,11 @@ MailTemplate::create([
 **Ultimo aggiornamento**: [DATE]  
 **Versione**: 1.0  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Laravel 13.x, Filament 3.x, Spatie Mail Templates
+=======
+**Compatibilità**: Laravel 12.x, Filament 3.x, Spatie Mail Templates
+>>>>>>> laraxot/dev
 =======
 **Compatibilità**: Laravel 12.x, Filament 3.x, Spatie Mail Templates
 >>>>>>> laraxot/dev

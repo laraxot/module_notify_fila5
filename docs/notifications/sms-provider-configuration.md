@@ -2,7 +2,11 @@
 
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+=======
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di Quaeris, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> laraxot/dev
 =======
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di Quaeris, con focus sui diversi provider e sulla loro configurazione.
 >>>>>>> laraxot/dev
@@ -114,7 +118,11 @@ VONAGE_KEY=abcd1234
 VONAGE_SECRET=xyz789...
 VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
+=======
+VONAGE_SMS_FROM=Quaeris
+>>>>>>> laraxot/dev
 =======
 VONAGE_SMS_FROM=Quaeris
 >>>>>>> laraxot/dev

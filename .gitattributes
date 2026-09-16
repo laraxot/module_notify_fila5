@@ -1,15 +1,22 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 # Canon: docs/wiki/rules/no-git-lfs.md
 #
 # Git LFS VIETATO. Binari = blob git normali.
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 * text=auto
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Binary files (no git LFS)
 *.png binary
@@ -22,6 +29,8 @@ CHANGELOG.md export-ignore
 *.db binary
 *.sqlite binary
 =======
+=======
+>>>>>>> laraxot/dev
 # Binary files (regular git blobs — NO git-lfs)
 # `binary` + `!filter` azzera eventuali filtri LFS ereditati
 *.png binary !filter
@@ -42,6 +51,9 @@ CHANGELOG.md export-ignore
 *.phar binary !filter
 *.db binary !filter
 *.sqlite binary !filter
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff

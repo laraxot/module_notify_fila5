@@ -32,7 +32,11 @@ error() {
 
 # Directory base
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>"
+=======
+BASE_DIR="/var/www/_bases/base_ptvx_fila5"
+>>>>>>> laraxot/dev
 =======
 BASE_DIR="/var/www/_bases/base_ptvx_fila5"
 >>>>>>> laraxot/dev
@@ -509,7 +513,11 @@ error() {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>"
+=======
+BASE_DIR="/var/www/_bases/base_ptvx_fila5"
+>>>>>>> laraxot/dev
 =======
 BASE_DIR="/var/www/_bases/base_ptvx_fila5"
 >>>>>>> laraxot/dev
@@ -624,7 +632,11 @@ success() {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>"
+=======
+BASE_DIR="/var/www/_bases/base_ptvx_fila5"
+>>>>>>> laraxot/dev
 =======
 BASE_DIR="/var/www/_bases/base_ptvx_fila5"
 >>>>>>> laraxot/dev

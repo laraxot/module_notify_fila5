@@ -24,7 +24,11 @@
 ```bash
 # After creating/modifying files
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptv_fila5
 >>>>>>> laraxot/dev
@@ -47,7 +51,11 @@ git push origin dev
 
 # 5. Verify on GitHub
 <<<<<<< HEAD
+<<<<<<< HEAD
 gh run list --repo laraxot/<repo progetto>
+=======
+gh run list --repo laraxot/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 gh run list --repo laraxot/base_ptv_fila5
 >>>>>>> laraxot/dev
@@ -76,7 +84,11 @@ sleep 120
 
 # Check workflow status
 <<<<<<< HEAD
+<<<<<<< HEAD
 gh run list --repo laraxot/<repo progetto>
+=======
+gh run list --repo laraxot/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 gh run list --repo laraxot/base_ptv_fila5
 >>>>>>> laraxot/dev
@@ -286,7 +298,11 @@ git log -n 3 --oneline
 
 # Compare with:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # https://github.com/laraxot/<repo progetto>/commits/dev
+=======
+# https://github.com/laraxot/base_ptv_fila5/commits/dev
+>>>>>>> laraxot/dev
 =======
 # https://github.com/laraxot/base_ptv_fila5/commits/dev
 >>>>>>> laraxot/dev

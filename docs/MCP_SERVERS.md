@@ -1,7 +1,11 @@
 # MCP Servers - Master Index
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Project**: <nome progetto> Platform  
+=======
+**Project**: FixCity Platform  
+>>>>>>> laraxot/dev
 =======
 **Project**: FixCity Platform  
 >>>>>>> laraxot/dev
@@ -35,7 +39,11 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Type**: Laravel-specific
 - **Command**: `php artisan boost:mcp`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Use**: Laravel 13, Filament, Livewire documentation and best practices
+=======
+- **Use**: Laravel 12, Filament, Livewire documentation and best practices
+>>>>>>> laraxot/dev
 =======
 - **Use**: Laravel 12, Filament, Livewire documentation and best practices
 >>>>>>> laraxot/dev
@@ -51,7 +59,11 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Type**: File operations
 - **Package**: `@modelcontextprotocol/server-filesystem`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Scope**: `/var/www/_bases/<repo progetto>`
+=======
+- **Scope**: `/var/www/_bases/base_ptv_fila5`
+>>>>>>> laraxot/dev
 =======
 - **Scope**: `/var/www/_bases/base_ptv_fila5`
 >>>>>>> laraxot/dev
@@ -76,7 +88,11 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Use**: Store project decisions, patterns, conventions
 - **Persistence**: Survives across sessions
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Example**: "<nome progetto> uses XotBaseModel pattern"
+=======
+- **Example**: "Fixcity uses XotBaseModel pattern"
+>>>>>>> laraxot/dev
 =======
 - **Example**: "Fixcity uses XotBaseModel pattern"
 >>>>>>> laraxot/dev
@@ -175,7 +191,11 @@ supermemory add --tag ptv --file .supermemory/ptv-context.md
 ### Search Memories
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory search "<nome progetto> architecture" --tag ptv
+=======
+supermemory search "FixCity architecture" --tag ptv
+>>>>>>> laraxot/dev
 =======
 supermemory search "FixCity architecture" --tag ptv
 >>>>>>> laraxot/dev
@@ -192,7 +212,11 @@ Each module has specific MCP usage guidelines. See module-specific docs:
 
 - **Xot**: [MCP Servers Guide](../Modules/Xot/docs/MCP_SERVERS.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: Module-specific patterns for ticket system
+=======
+- **Fixcity**: Module-specific patterns for ticket system
+>>>>>>> laraxot/dev
 =======
 - **Fixcity**: Module-specific patterns for ticket system
 >>>>>>> laraxot/dev

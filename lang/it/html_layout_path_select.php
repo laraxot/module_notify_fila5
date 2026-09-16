@@ -8,7 +8,11 @@ return [
             'label' => 'html_layout_path',
             'placeholder' => 'html_layout_path',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'html_layout_path',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'html_layout_path',
 >>>>>>> laraxot/dev

@@ -9,7 +9,11 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Convenzioni](./.agents/docs/main-rules/gemini-conventions.md)
 - [Best Practices Laravel](./.agents/docs/main-rules/gemini-laravel-best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Specifiche Laravel 13](./.agents/docs/main-rules/gemini-v12.md)
+=======
+- [Specifiche Laravel 12](./.agents/docs/main-rules/gemini-v12.md)
+>>>>>>> laraxot/dev
 =======
 - [Specifiche Laravel 12](./.agents/docs/main-rules/gemini-v12.md)
 >>>>>>> laraxot/dev
@@ -36,8 +40,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "gemini gemini rules (modular)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -64,7 +73,11 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Convenzioni](./.agents/docs/main-rules/gemini-conventions.md)
 - [Best Practices Laravel](./.agents/docs/main-rules/gemini-laravel-best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Specifiche Laravel 13](./.agents/docs/main-rules/gemini-v12.md)
+=======
+- [Specifiche Laravel 12](./.agents/docs/main-rules/gemini-v12.md)
+>>>>>>> laraxot/dev
 =======
 - [Specifiche Laravel 12](./.agents/docs/main-rules/gemini-v12.md)
 >>>>>>> laraxot/dev

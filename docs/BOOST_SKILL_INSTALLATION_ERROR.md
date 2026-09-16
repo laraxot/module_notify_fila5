@@ -14,7 +14,11 @@ The command fails with:
 ```
 PHP Fatal error: Uncaught Error: Class "Illuminate\Foundation\Application" not found
 <<<<<<< HEAD
+<<<<<<< HEAD
 in /var/www/_bases/<repo progetto>/laravel/app/Application.php:9
+=======
+in /var/www/_bases/base_ptv_fila5/laravel/app/Application.php:9
+>>>>>>> laraxot/dev
 =======
 in /var/www/_bases/base_ptv_fila5/laravel/app/Application.php:9
 >>>>>>> laraxot/dev
@@ -49,7 +53,11 @@ Because `laravel/framework` is not installed, the `Illuminate\Foundation\Applica
 
 This project uses:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Laravel 13.x** framework
+=======
+- **Laravel 12.x** framework
+>>>>>>> laraxot/dev
 =======
 - **Laravel 12.x** framework
 >>>>>>> laraxot/dev
@@ -74,9 +82,15 @@ Retry the `boost:add-skill` command.
 ## Files Affected
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. `/var/www/_bases/<repo progetto>/laravel/composer.json` - **NEEDS FIX**
 2. `/var/www/_bases/<repo progetto>/laravel/app/Application.php` - depends on Illuminate
 3. `/var/www/_bases/<repo progetto>/laravel/bootstrap/app.php` - bootstrap process
+=======
+1. `/var/www/_bases/base_ptv_fila5/laravel/composer.json` - **NEEDS FIX**
+2. `/var/www/_bases/base_ptv_fila5/laravel/app/Application.php` - depends on Illuminate
+3. `/var/www/_bases/base_ptv_fila5/laravel/bootstrap/app.php` - bootstrap process
+>>>>>>> laraxot/dev
 =======
 1. `/var/www/_bases/base_ptv_fila5/laravel/composer.json` - **NEEDS FIX**
 2. `/var/www/_bases/base_ptv_fila5/laravel/app/Application.php` - depends on Illuminate

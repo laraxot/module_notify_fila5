@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "documentation-system-update-complete documentation system update - complete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -34,7 +39,11 @@ related:
 ## Executive Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ho aggiornato l'intero sistema di documentazione del progetto <nome progetto> Fila5 con:
+=======
+Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:
+>>>>>>> laraxot/dev
 =======
 Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:
 >>>>>>> laraxot/dev
@@ -76,7 +85,11 @@ Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> Fila5 Documentation (7,299 files)
+=======
+FixCity Fila5 Documentation (7,299 files)
+>>>>>>> laraxot/dev
 =======
 FixCity Fila5 Documentation (7,299 files)
 >>>>>>> laraxot/dev
@@ -105,7 +118,11 @@ FixCity Fila5 Documentation (7,299 files)
 │   │   ├── testing/
 │   │   └── ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   ├── <nome progetto>/docs/
+=======
+│   ├── Fixcity/docs/
+>>>>>>> laraxot/dev
 =======
 │   ├── Fixcity/docs/
 >>>>>>> laraxot/dev
@@ -309,7 +326,11 @@ Every documentation file should have:
 Start at module index:
 - `Modules/Xot/docs/00-index.md` (1,941 files)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/<nome progetto>/docs/README.md`
+=======
+- `Modules/Fixcity/docs/README.md`
+>>>>>>> laraxot/dev
 =======
 - `Modules/Fixcity/docs/README.md`
 >>>>>>> laraxot/dev

@@ -85,7 +85,11 @@ updated: 2026-08-24
 - File docs: 38 files
 - **Funzionalità**: Ticket, segnalazioni, supporto
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Status**: ✅ Operativo (Filament 5.x)
+=======
+- **Status**: ✅ Operativo (Filament 4.x)
+>>>>>>> laraxot/dev
 =======
 - **Status**: ✅ Operativo (Filament 4.x)
 >>>>>>> laraxot/dev
@@ -189,7 +193,11 @@ updated: 2026-08-24
 ### Theme TwentyOne - Modern Design
 - [README](../laravel/Themes/TwentyOne/docs/README.md) - Tema moderno
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Funzionalità**: Filament 5.x integration, Livewire
+=======
+- **Funzionalità**: Filament 4.x integration, Livewire
+>>>>>>> laraxot/dev
 =======
 - **Funzionalità**: Filament 4.x integration, Livewire
 >>>>>>> laraxot/dev

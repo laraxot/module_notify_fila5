@@ -62,7 +62,11 @@ Usare `MakePdf2Action` con `AnswersFilterData`.
 - [Professional Charts Guide](../../laravel/Modules/Chart/docs/filament-charts-professional-guide.md)
 - [JpGraph 4.4.3 Reference](../../laravel/Modules/Chart/docs/jpgraph-4-4-3-reference.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PDF Generation Guide](../../laravel/Modules/<nome progetto>/docs/pdf-generation-with-charts.md)
+=======
+- [PDF Generation Guide](../../laravel/Modules/Quaeris/docs/pdf-generation-with-charts.md)
+>>>>>>> laraxot/dev
 =======
 - [PDF Generation Guide](../../laravel/Modules/Quaeris/docs/pdf-generation-with-charts.md)
 >>>>>>> laraxot/dev

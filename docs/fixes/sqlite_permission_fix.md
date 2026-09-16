@@ -15,8 +15,13 @@ Illuminate\Database\QueryException
 SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Database: /var/www/_bases/<repo progetto>/laravel/database/<nome progetto>_data.sqlite
 Database: /var/www/_bases/<repo progetto>/laravel/database/notify_data.sqlite
+=======
+Database: /var/www/_bases/base_fixcity_fila5/laravel/database/fixcity_data.sqlite
+Database: /var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
+>>>>>>> laraxot/dev
 =======
 Database: /var/www/_bases/base_fixcity_fila5/laravel/database/fixcity_data.sqlite
 Database: /var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
@@ -29,7 +34,11 @@ SQL: insert or ignore into "cache" ("key", "value", "expiration")
 
 Il file del database SQLite aveva permessi errati:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **File**: `laravel/database/<nome progetto>_data.sqlite`
+=======
+- **File**: `laravel/database/fixcity_data.sqlite`
+>>>>>>> laraxot/dev
 =======
 - **File**: `laravel/database/fixcity_data.sqlite`
 >>>>>>> laraxot/dev
@@ -44,8 +53,13 @@ Il file del database SQLite aveva permessi errati:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptvx_fila5
@@ -63,7 +77,11 @@ chown -R zorin:zorin laravel/database/
 ```
 drwxrwxr-x  4 zorin zorin       4096 Mar 30 11:14 .
 <<<<<<< HEAD
+<<<<<<< HEAD
 -rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 <nome progetto>_data.sqlite
+=======
+-rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 fixcity_data.sqlite
+>>>>>>> laraxot/dev
 =======
 -rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 fixcity_data.sqlite
 >>>>>>> laraxot/dev
@@ -75,7 +93,11 @@ drwxrwxr-x  4 zorin zorin       4096 Mar 30 11:14 .
 ```
 drwxrwxr-x  4 zorin zorin    4096 Mar 30 11:14 .
 <<<<<<< HEAD
+<<<<<<< HEAD
 -rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 <nome progetto>_data.sqlite
+=======
+-rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 fixcity_data.sqlite
+>>>>>>> laraxot/dev
 =======
 -rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 fixcity_data.sqlite
 >>>>>>> laraxot/dev
@@ -96,17 +118,23 @@ drwxrwxr-x  4 zorin zorin    4096 Mar 30 11:14 .
 ```bash
 # Check permissions
 <<<<<<< HEAD
+<<<<<<< HEAD
 ls -la laravel/database/<nome progetto>_data.sqlite
 # Should show: -rwxrwxr-x
 
 # Test site
 firefox http://<nome progetto>.local/it
 =======
+=======
+>>>>>>> laraxot/dev
 ls -la laravel/database/fixcity_data.sqlite
 # Should show: -rwxrwxr-x
 
 # Test site
 firefox http://fixcity.local/it
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Should load without database errors
 ```
@@ -191,8 +219,13 @@ Create `bashscripts/fix-permissions.sh`:
 # Fix Laravel permissions
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 PROJECT_ROOT="/var/www/_bases/<repo progetto>"
 PROJECT_ROOT="/var/www/_bases/<repo progetto>"
+=======
+PROJECT_ROOT="/var/www/_bases/base_fixcity_fila5"
+PROJECT_ROOT="/var/www/_bases/base_ptvx_fila5"
+>>>>>>> laraxot/dev
 =======
 PROJECT_ROOT="/var/www/_bases/base_fixcity_fila5"
 PROJECT_ROOT="/var/www/_bases/base_ptvx_fila5"
@@ -226,9 +259,15 @@ bash bashscripts/fix-permissions.sh
 |----------|----------|
 | **Vite Fix** | `VITE_FIX_AND_EXECUTION_PLAN.md` |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **Improvement Plan** | `.planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md` |
 | **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
 | **Start Here** | `<nome progetto>_IMPROVEMENT_START_HERE.md` |
+=======
+| **Improvement Plan** | `.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md` |
+| **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
+| **Start Here** | `FIXCITY_IMPROVEMENT_START_HERE.md` |
+>>>>>>> laraxot/dev
 =======
 | **Improvement Plan** | `.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md` |
 | **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
@@ -245,7 +284,11 @@ bash bashscripts/fix-permissions.sh
 - [x] Ownership set to zorin:zorin
 - [x] OpenViking updated
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Site tested (http://<nome progetto>.local/it)
+=======
+- [ ] Site tested (http://fixcity.local/it)
+>>>>>>> laraxot/dev
 =======
 - [ ] Site tested (http://fixcity.local/it)
 >>>>>>> laraxot/dev
@@ -279,7 +322,11 @@ php artisan view:clear
 
 # Test site
 <<<<<<< HEAD
+<<<<<<< HEAD
 firefox http://<nome progetto>.local/it
+=======
+firefox http://fixcity.local/it
+>>>>>>> laraxot/dev
 =======
 firefox http://fixcity.local/it
 >>>>>>> laraxot/dev
@@ -312,7 +359,11 @@ firefox http://laraxot.local/it
 **ETA Phase 0**: 2026-04-13 (unchanged)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto> database ora scrivibile! 🚀**
+=======
+**FixCity database ora scrivibile! 🚀**
+>>>>>>> laraxot/dev
 =======
 **FixCity database ora scrivibile! 🚀**
 >>>>>>> laraxot/dev

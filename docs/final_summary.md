@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📊 <nome progetto> - RIEPILOGO FINALE COMPLETAMENTO
+=======
+# 📊 FIXCITY - RIEPILOGO FINALE COMPLETAMENTO
+>>>>>>> laraxot/dev
 =======
 # 📊 FIXCITY - RIEPILOGO FINALE COMPLETAMENTO
 >>>>>>> laraxot/dev
@@ -13,7 +17,11 @@
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Completamento sistematico della documentazione e delle roadmap del progetto <nome progetto> per renderlo la piattaforma
+=======
+Completamento sistematico della documentazione e delle roadmap del progetto FixCity per renderlo la piattaforma
+>>>>>>> laraxot/dev
 =======
 Completamento sistematico della documentazione e delle roadmap del progetto FixCity per renderlo la piattaforma
 >>>>>>> laraxot/dev
@@ -32,7 +40,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 6. ✅ **WORK_COMPLETED_2025-10-01.md** - Riepilogo tecnico aggiornamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 🎫 Modulo <nome progetto> (4)
+=======
+### 🎫 Modulo Fixcity (4)
+>>>>>>> laraxot/dev
 =======
 ### 🎫 Modulo Fixcity (4)
 >>>>>>> laraxot/dev
@@ -82,7 +94,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ### ✅ Completati al 90%+
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **<nome progetto>** - 85% → **90%**
+=======
+1. **Fixcity** - 85% → **90%**
+>>>>>>> laraxot/dev
 =======
 1. **Fixcity** - 85% → **90%**
 >>>>>>> laraxot/dev
@@ -117,8 +133,13 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>/
 <repo progetto>/
+=======
+base_fixcity_fila5_mono/
+base_ptv_fila5_mono/
+>>>>>>> laraxot/dev
 =======
 base_fixcity_fila5_mono/
 base_ptv_fila5_mono/
@@ -140,7 +161,11 @@ base_ptv_fila5_mono/
 └── 📁 laravel/
     │
 <<<<<<< HEAD
+<<<<<<< HEAD
     ├── Modules/<nome progetto>/docs/           ✅ 90% COMPLETO
+=======
+    ├── Modules/Fixcity/docs/           ✅ 90% COMPLETO
+>>>>>>> laraxot/dev
 =======
     ├── Modules/Fixcity/docs/           ✅ 90% COMPLETO
 >>>>>>> laraxot/dev
@@ -181,7 +206,11 @@ base_ptv_fila5_mono/
 
 ### Guide Utente (2)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **USER_GUIDE.md** (<nome progetto>) - 15 sezioni
+=======
+- ✅ **USER_GUIDE.md** (Fixcity) - 15 sezioni
+>>>>>>> laraxot/dev
 =======
 - ✅ **USER_GUIDE.md** (Fixcity) - 15 sezioni
 >>>>>>> laraxot/dev
@@ -192,7 +221,11 @@ base_ptv_fila5_mono/
   - FAQ e troubleshooting
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **ADMIN_GUIDE.md** (<nome progetto>) - 18 sezioni
+=======
+- ✅ **ADMIN_GUIDE.md** (Fixcity) - 18 sezioni
+>>>>>>> laraxot/dev
 =======
 - ✅ **ADMIN_GUIDE.md** (Fixcity) - 18 sezioni
 >>>>>>> laraxot/dev
@@ -218,7 +251,11 @@ base_ptv_fila5_mono/
 
 ### API Documentation (1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **API.md** (<nome progetto>) - REST API completa
+=======
+- ✅ **API.md** (Fixcity) - REST API completa
+>>>>>>> laraxot/dev
 =======
 - ✅ **API.md** (Fixcity) - REST API completa
 >>>>>>> laraxot/dev
@@ -231,7 +268,11 @@ base_ptv_fila5_mono/
 ### Roadmap (4 aggiornate)
 - ✅ **ROADMAP_STATUS_SUMMARY.md** - Master status
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **<nome progetto>/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
+=======
+- ✅ **Fixcity/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
+>>>>>>> laraxot/dev
 =======
 - ✅ **Fixcity/ROADMAP_2025.md** - Timeline Q4 2025-Q2 2026
 >>>>>>> laraxot/dev
@@ -255,7 +296,11 @@ base_ptv_fila5_mono/
 ### Qualità
 - **PHPStan Level 9**: ✅ 0 errori (100%)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Filament 5.x**: ✅ Compatible (100%)
+=======
+- **Filament 4.x**: ✅ Compatible (100%)
+>>>>>>> laraxot/dev
 =======
 - **Filament 4.x**: ✅ Compatible (100%)
 >>>>>>> laraxot/dev
@@ -302,7 +347,11 @@ base_ptv_fila5_mono/
 ### 🥇 Quality Champion
 - PHPStan Level 9 - 0 errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Filament 5.x compatible
+=======
+- Filament 4.x compatible
+>>>>>>> laraxot/dev
 =======
 - Filament 4.x compatible
 >>>>>>> laraxot/dev
@@ -323,6 +372,7 @@ base_ptv_fila5_mono/
 - **Quick Start**: [QUICK_START.md](./QUICK_START.md)
 - **Documentation Index**: [DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Slack**: #<nome progetto>-dev
 - **Slack**: #ptv-dev
 
@@ -335,6 +385,8 @@ base_ptv_fila5_mono/
 ### Per API Developers
 - **API Documentation**: [API.md](./laravel/Modules/<nome progetto>/docs/API.md)
 =======
+=======
+>>>>>>> laraxot/dev
 - **Slack**: #fixcity-dev
 - **Slack**: #ptv-dev
 
@@ -346,6 +398,9 @@ base_ptv_fila5_mono/
 
 ### Per API Developers
 - **API Documentation**: [API.md](./laravel/Modules/Fixcity/docs/API.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - **2FA Guide**: [2FA_GUIDE.md](./laravel/Modules/User/docs/2FA_GUIDE.md)
 - **SSO Guide**: [SSO_GUIDE.md](./laravel/Modules/User/docs/SSO_GUIDE.md)
@@ -355,7 +410,11 @@ base_ptv_fila5_mono/
 ## 🎉 CONCLUSIONE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto <nome progetto> ha raggiunto un livello di documentazione e organizzazione eccellente:
+=======
+Il progetto FixCity ha raggiunto un livello di documentazione e organizzazione eccellente:
+>>>>>>> laraxot/dev
 =======
 Il progetto FixCity ha raggiunto un livello di documentazione e organizzazione eccellente:
 >>>>>>> laraxot/dev
@@ -382,7 +441,11 @@ Il progetto FixCity ha raggiunto un livello di documentazione e organizzazione e
 - [x] PROJECT_COMPLETION_STATUS.md creato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Modulo <nome progetto>
+=======
+### Modulo Fixcity
+>>>>>>> laraxot/dev
 =======
 ### Modulo Fixcity
 >>>>>>> laraxot/dev
@@ -453,15 +516,21 @@ php artisan test --coverage
 ## 📞 CONTATTI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Team <nome progetto>**
 - Email: dev@<nome progetto>.it
 - Slack: #<nome progetto>-dev
 - GitHub: github.com/laraxot/<nome progetto>
 =======
+=======
+>>>>>>> laraxot/dev
 **Team FixCity**
 - Email: dev@fixcity.it
 - Slack: #fixcity-dev
 - GitHub: github.com/laraxot/fixcity
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Email: dev@ptv.it
 - Slack: #ptv-dev
@@ -479,9 +548,15 @@ php artisan test --coverage
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *"La documentazione è il fondamento dell'eccellenza. Oggi abbiamo costruito solide fondamenta per il successo di <nome progetto> nel 2025 e oltre."* 🏆
 
 **#<nome progetto>2025 #Documentation #Excellence #OpenSource**
+=======
+*"La documentazione è il fondamento dell'eccellenza. Oggi abbiamo costruito solide fondamenta per il successo di FixCity nel 2025 e oltre."* 🏆
+
+**#FixCity2025 #Documentation #Excellence #OpenSource**
+>>>>>>> laraxot/dev
 =======
 *"La documentazione è il fondamento dell'eccellenza. Oggi abbiamo costruito solide fondamenta per il successo di FixCity nel 2025 e oltre."* 🏆
 

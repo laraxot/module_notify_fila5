@@ -39,7 +39,11 @@ return [
         'to' => [
             'description' => 'to',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'to',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'to',
 >>>>>>> laraxot/dev
@@ -49,7 +53,11 @@ return [
         'template_slug' => [
             'description' => 'template_slug',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'template_slug',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'template_slug',
 >>>>>>> laraxot/dev

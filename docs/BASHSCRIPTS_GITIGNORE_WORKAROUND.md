@@ -23,7 +23,11 @@ Questo significa che:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptv_fila5
 >>>>>>> laraxot/dev
@@ -141,7 +145,11 @@ git push origin dev
 
 # 6. Monitora
 <<<<<<< HEAD
+<<<<<<< HEAD
 gh run list --repo laraxot/<repo progetto>
+=======
+gh run list --repo laraxot/base_ptv_fila5
+>>>>>>> laraxot/dev
 =======
 gh run list --repo laraxot/base_ptv_fila5
 >>>>>>> laraxot/dev

@@ -258,7 +258,11 @@ MODULE INDEX        THEME INDEX      ARCHITECTURE
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 PROJECT: <nome progetto> Fila5
+=======
+PROJECT: FixCity Fila5
+>>>>>>> laraxot/dev
 =======
 PROJECT: FixCity Fila5
 >>>>>>> laraxot/dev
@@ -437,7 +441,11 @@ TASK: "Understand system architecture"
 ```
 Filesystem Server
 <<<<<<< HEAD
+<<<<<<< HEAD
 └─ Reads: /var/www/_bases/<repo progetto>/
+=======
+└─ Reads: /var/www/_bases/base_ptv_fila5/
+>>>>>>> laraxot/dev
 =======
 └─ Reads: /var/www/_bases/base_ptv_fila5/
 >>>>>>> laraxot/dev
@@ -477,7 +485,11 @@ Memory Server
 ```
 ┌──────────────────────────────────────────────┐
 <<<<<<< HEAD
+<<<<<<< HEAD
 │  <nome progetto> Documentation Health Dashboard      │
+=======
+│  FixCity Documentation Health Dashboard      │
+>>>>>>> laraxot/dev
 =======
 │  FixCity Documentation Health Dashboard      │
 >>>>>>> laraxot/dev

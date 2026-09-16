@@ -3,7 +3,11 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di Quaeris. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> laraxot/dev
 =======
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di Quaeris. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 >>>>>>> laraxot/dev
@@ -34,8 +38,13 @@ MailPace offre i seguenti template transazionali:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
 /var/www/_bases/<repo progetto>/laravel/Modules/Notify/resources/mail-layouts/
+=======
+/var/www/html/Quaeris/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> laraxot/dev
 =======
 /var/www/html/Quaeris/laravel/Modules/Notify/resources/mail-layouts/
 /var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/resources/mail-layouts/
@@ -101,7 +110,11 @@ $mailTemplate->send($user->email, [
 2. **Usa Variabili** - Utilizza variabili Blade per contenuti dinamici
 3. **Test Cross-Client** - Testa i template su diversi client email
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per Quaeris
+>>>>>>> laraxot/dev
 =======
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per Quaeris
 >>>>>>> laraxot/dev

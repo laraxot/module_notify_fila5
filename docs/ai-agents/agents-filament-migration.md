@@ -8,7 +8,11 @@ Guida alla migrazione da Filament v3/v4 a v5.
 |-----------|---------------|------------|
 | PHP 8.2+ | ✅ Soddisfatto | ✅ |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Laravel 11.28+ | ✅ Soddisfatto (Laravel 13) | ✅ |
+=======
+| Laravel 11.28+ | ✅ Soddisfatto (Laravel 12) | ✅ |
+>>>>>>> laraxot/dev
 =======
 | Laravel 11.28+ | ✅ Soddisfatto (Laravel 12) | ✅ |
 >>>>>>> laraxot/dev

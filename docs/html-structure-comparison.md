@@ -35,7 +35,11 @@ bashscripts/html/html-structure-compare.sh \
 - Le blade di test usano `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`.
 - La layout corretta e `<x-layouts.app>`.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Le stringhe nelle blade devono passare da traduzioni a 5 livelli: `<nome progetto>::contesto.collezione.chiave.tipo`.
+=======
+- Le stringhe nelle blade devono passare da traduzioni a 5 livelli: `fixcity::contesto.collezione.chiave.tipo`.
+>>>>>>> laraxot/dev
 =======
 - Le stringhe nelle blade devono passare da traduzioni a 5 livelli: `fixcity::contesto.collezione.chiave.tipo`.
 >>>>>>> laraxot/dev

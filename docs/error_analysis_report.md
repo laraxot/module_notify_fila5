@@ -1,15 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🐛 ERROR ANALYSIS REPORT - <nome progetto>
 
 **Data**: 2025-10-02 20:50  
 **Errore Critico**: Type mismatch in Resource classes  
 **Causa**: Violazione regole XotBase + Filament 5  
 =======
+=======
+>>>>>>> laraxot/dev
 # 🐛 ERROR ANALYSIS REPORT - FIXCITY
 
 **Data**: 2025-10-02 20:50  
 **Errore Critico**: Type mismatch in Resource classes  
 **Causa**: Violazione regole XotBase + Filament 4  
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -18,7 +24,11 @@
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Type of Modules\<nome progetto>\Filament\Resources\FaqCategoryResource::$navigationGroup 
+=======
+Type of Modules\Fixcity\Filament\Resources\FaqCategoryResource::$navigationGroup 
+>>>>>>> laraxot/dev
 =======
 Type of Modules\Fixcity\Filament\Resources\FaqCategoryResource::$navigationGroup 
 >>>>>>> laraxot/dev
@@ -41,7 +51,11 @@ Il file `FaqCategoryResource.php` usa metodi Filament 3 invece di XotBase patter
 ## 📋 FILES CON ERRORI SIMILI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> Module (2 files)
+=======
+### Fixcity Module (2 files)
+>>>>>>> laraxot/dev
 =======
 ### Fixcity Module (2 files)
 >>>>>>> laraxot/dev

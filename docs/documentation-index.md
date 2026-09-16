@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "📚 Indice Generale Documentazione - <nome progetto>"
+=======
+title: "📚 Indice Generale Documentazione - Fixcity"
+>>>>>>> laraxot/dev
 =======
 title: "📚 Indice Generale Documentazione - Fixcity"
 >>>>>>> laraxot/dev
@@ -9,15 +13,21 @@ tags: [documentation, index]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "documentation-index 📚 indice generale documentazione - <nome progetto>"
 qmd: "documentation-index 📚 indice generale documentazione - ptv"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "documentation-index 📚 indice generale documentazione - fixcity"
 qmd: "documentation-index 📚 indice generale documentazione - ptv"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
@@ -31,7 +41,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📚 Indice Generale Documentazione - <nome progetto>
+=======
+# 📚 Indice Generale Documentazione - Fixcity
+>>>>>>> laraxot/dev
 =======
 # 📚 Indice Generale Documentazione - Fixcity
 >>>>>>> laraxot/dev
@@ -105,17 +119,23 @@ related:
 ### Moduli Business
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### **<nome progetto> Module** - Ticketing System
 - [README](../laravel/Modules/<nome progetto>/docs/README.md) - Gestione ticket
 - File docs: 38 files
 - **Funzionalità**: Ticket, segnalazioni, supporto
 - **Status**: ✅ Operativo (Filament 5.x)
 =======
+=======
+>>>>>>> laraxot/dev
 #### **Fixcity Module** - Ticketing System
 - [README](../laravel/Modules/Fixcity/docs/README.md) - Gestione ticket
 - File docs: 38 files
 - **Funzionalità**: Ticket, segnalazioni, supporto
 - **Status**: ✅ Operativo (Filament 4.x)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 #### **Notify Module** - Notifiche
@@ -217,7 +237,11 @@ related:
 ### Theme TwentyOne - Modern Design
 - [README](../laravel/Themes/TwentyOne/docs/README.md) - Tema moderno
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Funzionalità**: Filament 5.x integration, Livewire
+=======
+- **Funzionalità**: Filament 4.x integration, Livewire
+>>>>>>> laraxot/dev
 =======
 - **Funzionalità**: Filament 4.x integration, Livewire
 >>>>>>> laraxot/dev
@@ -325,8 +349,13 @@ related:
 
 ### Support Channels
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **📧 Email**: support@<nome progetto>.com
 - **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/<nome progetto>/issues)
+=======
+- **📧 Email**: support@fixcity.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)
+>>>>>>> laraxot/dev
 =======
 - **📧 Email**: support@fixcity.com
 - **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/fixcity/issues)

@@ -1,15 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🚀 ROADMAP GENERALE - <nome progetto> Platform
 
 ## 📋 Sommario Esecutivo
 
 **<nome progetto>** è una piattaforma completa di civic engagement per la gestione delle segnalazioni urbane. I cittadini possono segnalare problemi nella loro città, e le amministrazioni gestirle con workflow avanzati.
 =======
+=======
+>>>>>>> laraxot/dev
 # 🚀 ROADMAP GENERALE - FixCity Platform
 
 ## 📋 Sommario Esecutivo
 
 **FixCity** è una piattaforma completa di civic engagement per la gestione delle segnalazioni urbane. I cittadini possono segnalare problemi nella loro città, e le amministrazioni gestirle con workflow avanzati.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### Versione Attuale: 1.0.0 (Base Funzionante)
@@ -65,7 +71,11 @@
 
 ### 🚧 Funzionali ma da Completare
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: Core business logic (80% completo)
+=======
+- **Fixcity**: Core business logic (80% completo)
+>>>>>>> laraxot/dev
 =======
 - **Fixcity**: Core business logic (80% completo)
 >>>>>>> laraxot/dev
@@ -341,7 +351,11 @@
 
 ### Link Documentazione Moduli
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo <nome progetto>](../Modules/<nome progetto>/docs/README.md)
+=======
+- [Modulo Fixcity](../Modules/Fixcity/docs/README.md)
+>>>>>>> laraxot/dev
 =======
 - [Modulo Fixcity](../Modules/Fixcity/docs/README.md)
 >>>>>>> laraxot/dev

@@ -126,7 +126,11 @@ test('sms notification builds sms payload and provider config', function () {
 
     Assert::assertInstanceOf(SmsData::class, $sms);
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertSame(['sms'], $notification->via(new \stdClass));
+=======
+    Assert::assertSame([\Modules\Notify\Channels\SmsChannel::class], $notification->via(new \stdClass));
+>>>>>>> laraxot/dev
 =======
     Assert::assertSame([\Modules\Notify\Channels\SmsChannel::class], $notification->via(new \stdClass));
 >>>>>>> laraxot/dev

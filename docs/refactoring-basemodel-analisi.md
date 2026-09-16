@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "refactoring-basemodel-analisi 📋 analisi refactoring basemodel - eliminazione duplicazioni"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -56,7 +61,11 @@ XotBaseModel (Modules/Xot)
     ├── UI\BaseModel          ✅
     ├── Job\BaseModel         ✅
 <<<<<<< HEAD
+<<<<<<< HEAD
     ├── <nome progetto>\BaseModel     ✅
+=======
+    ├── Fixcity\BaseModel     ✅
+>>>>>>> laraxot/dev
 =======
     ├── Fixcity\BaseModel     ✅
 >>>>>>> laraxot/dev
@@ -212,15 +221,21 @@ protected function casts(): array {
 
 ### Rischio 1: Breaking Changes in casts()
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Problema**: <nome progetto>\BaseModel ha `casts()` quasi vuoto intenzionalmente.
 
 ```php
 // <nome progetto>\BaseModel attuale
 =======
+=======
+>>>>>>> laraxot/dev
 **Problema**: Fixcity\BaseModel ha `casts()` quasi vuoto intenzionalmente.
 
 ```php
 // Fixcity\BaseModel attuale
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 protected function casts(): array {
     return [
@@ -238,7 +253,11 @@ protected function casts(): array {
 
 ### Rischio 2: $dates Deprecato
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Problema**: <nome progetto> usa `$dates` (deprecato Laravel 11)
+=======
+**Problema**: Fixcity usa `$dates` (deprecato Laravel 11)
+>>>>>>> laraxot/dev
 =======
 **Problema**: Fixcity usa `$dates` (deprecato Laravel 11)
 >>>>>>> laraxot/dev
@@ -326,7 +345,11 @@ protected function casts(): array
 | 13 | Blog | 28 | Alta | 1h 30min |
 | 14 | User | 54 | Alta | 2h |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | 15 | <nome progetto> | 72 | **Critica** ⚠️ | 2h |
+=======
+| 15 | Fixcity | 72 | **Critica** ⚠️ | 2h |
+>>>>>>> laraxot/dev
 =======
 | 15 | Fixcity | 72 | **Critica** ⚠️ | 2h |
 >>>>>>> laraxot/dev
@@ -470,7 +493,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel implements Has
 ## 🔍 Casi Speciali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 1. <nome progetto>\BaseModel - ATTENZIONE
+=======
+### 1. Fixcity\BaseModel - ATTENZIONE
+>>>>>>> laraxot/dev
 =======
 ### 1. Fixcity\BaseModel - ATTENZIONE
 >>>>>>> laraxot/dev

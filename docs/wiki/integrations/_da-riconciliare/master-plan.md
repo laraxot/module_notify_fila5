@@ -50,8 +50,13 @@ related:
 ```
 Frontend:          Blade + Livewire 3 + Alpine.js + Tailwind CSS
 <<<<<<< HEAD
+<<<<<<< HEAD
 Backend:           Laravel 13.x + PHP 8.3
 Admin Panel:       Filament 5.x (Server-Driven UI)
+=======
+Backend:           Laravel 12.x + PHP 8.3
+Admin Panel:       Filament 4.x (Server-Driven UI)
+>>>>>>> laraxot/dev
 =======
 Backend:           Laravel 12.x + PHP 8.3
 Admin Panel:       Filament 4.x (Server-Driven UI)
@@ -486,7 +491,11 @@ Notify è posizionata per diventare la **piattaforma leader europea** per il civ
 <nome progetto> è posizionata per diventare la **piattaforma leader europea** per il civic engagement e la gestione intelligente delle città. Con:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **Solida base tecnica** (Laravel 13, Filament 5, architettura modulare)
+=======
+- ✅ **Solida base tecnica** (Laravel 12, Filament 4, architettura modulare)
+>>>>>>> laraxot/dev
 =======
 - ✅ **Solida base tecnica** (Laravel 12, Filament 4, architettura modulare)
 >>>>>>> laraxot/dev

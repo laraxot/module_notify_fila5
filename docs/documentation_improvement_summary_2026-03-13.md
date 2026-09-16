@@ -175,8 +175,13 @@ Saved **4 global memories** for AI assistants:
 
 ### Issue #6: Documentation Governance Framework Implementation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **URL**: https://github.com/laraxot/<repo progetto>/issues/6
 - **URL**: https://github.com/laraxot/<repo progetto>/issues/6
+=======
+- **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/6
+- **URL**: https://github.com/laraxot/base_ptv_fila5/issues/6
+>>>>>>> laraxot/dev
 =======
 - **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/6
 - **URL**: https://github.com/laraxot/base_ptv_fila5/issues/6
@@ -187,8 +192,13 @@ Saved **4 global memories** for AI assistants:
 
 ### Issue #7: Xot Module Documentation Audit
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **URL**: https://github.com/laraxot/<repo progetto>/issues/7
 - **URL**: https://github.com/laraxot/<repo progetto>/issues/7
+=======
+- **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/7
+- **URL**: https://github.com/laraxot/base_ptv_fila5/issues/7
+>>>>>>> laraxot/dev
 =======
 - **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/7
 - **URL**: https://github.com/laraxot/base_ptv_fila5/issues/7
@@ -200,8 +210,13 @@ Saved **4 global memories** for AI assistants:
 
 ### Related Issue #4: Database Directory Naming
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **URL**: https://github.com/laraxot/<repo progetto>/issues/4
 - **URL**: https://github.com/laraxot/<repo progetto>/issues/4
+=======
+- **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/4
+- **URL**: https://github.com/laraxot/base_ptv_fila5/issues/4
+>>>>>>> laraxot/dev
 =======
 - **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/4
 - **URL**: https://github.com/laraxot/base_ptv_fila5/issues/4

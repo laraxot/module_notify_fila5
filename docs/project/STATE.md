@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # STATE: <nome progetto> Platform
+=======
+# STATE: FixCity Platform
+>>>>>>> laraxot/dev
 =======
 # STATE: FixCity Platform
 >>>>>>> laraxot/dev

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎯 <nome progetto> - STATO COMPLETAMENTO PROGETTO
+=======
+# 🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO
+>>>>>>> laraxot/dev
 =======
 # 🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO
 >>>>>>> laraxot/dev
@@ -20,7 +24,11 @@
 - ✅ **WORK_COMPLETED_2025-10-01.md** - Riepilogo aggiornamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 🎫 Modulo <nome progetto> (85% → 90%)
+=======
+### 🎫 Modulo Fixcity (85% → 90%)
+>>>>>>> laraxot/dev
 =======
 ### 🎫 Modulo Fixcity (85% → 90%)
 >>>>>>> laraxot/dev
@@ -41,7 +49,11 @@
 
 ### ✅ Completati (90%+)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: 90% - API, User Guide, Admin Guide completate
+=======
+- **Fixcity**: 90% - API, User Guide, Admin Guide completate
+>>>>>>> laraxot/dev
 =======
 - **Fixcity**: 90% - API, User Guide, Admin Guide completate
 >>>>>>> laraxot/dev
@@ -115,7 +127,11 @@
 ### Qualità Codice
 - **PHPStan Level 9**: ✅ 0 errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Filament 5.x**: ✅ Compatibile
+=======
+- **Filament 4.x**: ✅ Compatibile
+>>>>>>> laraxot/dev
 =======
 - **Filament 4.x**: ✅ Compatibile
 >>>>>>> laraxot/dev
@@ -139,7 +155,11 @@
 ### Week 1 (Ottobre 2025) - CURRENT
 - [x] Aggiornare roadmap principali
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Creare documentazione API <nome progetto>
+=======
+- [x] Creare documentazione API Fixcity
+>>>>>>> laraxot/dev
 =======
 - [x] Creare documentazione API Fixcity
 >>>>>>> laraxot/dev
@@ -177,7 +197,11 @@
 5. **PROJECT_COMPLETION_STATUS.md** - Questo documento
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Modulo <nome progetto> (3 documenti)
+=======
+### Modulo Fixcity (3 documenti)
+>>>>>>> laraxot/dev
 =======
 ### Modulo Fixcity (3 documenti)
 >>>>>>> laraxot/dev
@@ -188,7 +212,11 @@
 ### Roadmap Aggiornate (3 documenti)
 1. **ROADMAP_STATUS_SUMMARY.md** - Master roadmap
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **<nome progetto>/ROADMAP_2025.md** - Roadmap modulo
+=======
+2. **Fixcity/ROADMAP_2025.md** - Roadmap modulo
+>>>>>>> laraxot/dev
 =======
 2. **Fixcity/ROADMAP_2025.md** - Roadmap modulo
 >>>>>>> laraxot/dev
@@ -203,8 +231,13 @@
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>/
 <repo progetto>/
+=======
+base_fixcity_fila5_mono/
+base_ptv_fila5_mono/
+>>>>>>> laraxot/dev
 =======
 base_fixcity_fila5_mono/
 base_ptv_fila5_mono/
@@ -221,7 +254,11 @@ base_ptv_fila5_mono/
 └── laravel/
     ├── Modules/
 <<<<<<< HEAD
+<<<<<<< HEAD
     │   ├── <nome progetto>/docs/
+=======
+    │   ├── Fixcity/docs/
+>>>>>>> laraxot/dev
 =======
     │   ├── Fixcity/docs/
 >>>>>>> laraxot/dev
@@ -283,9 +320,15 @@ base_ptv_fila5_mono/
 
 ### Supporto
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Email**: dev@<nome progetto>.it
 - **Docs**: docs@<nome progetto>.it
 - **Slack**: #<nome progetto>-dev
+=======
+- **Email**: dev@fixcity.it
+- **Docs**: docs@fixcity.it
+- **Slack**: #fixcity-dev
+>>>>>>> laraxot/dev
 =======
 - **Email**: dev@fixcity.it
 - **Docs**: docs@fixcity.it

@@ -129,7 +129,11 @@ The following modules have documentation folders that need updates:
 - ⏳ `Modules/Activity/docs/` - Activity tracking
 - ⏳ `Modules/Seo/docs/` - SEO
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ⏳ `Modules/<nome progetto>/docs/` - Main app module
+=======
+- ⏳ `Modules/Fixcity/docs/` - Main app module
+>>>>>>> laraxot/dev
 =======
 - ⏳ `Modules/Fixcity/docs/` - Main app module
 >>>>>>> laraxot/dev
@@ -164,7 +168,11 @@ Each module's docs folder will receive:
 1. ✅ composer.json has all dependencies in active sections
 2. ✅ `composer install` completes without errors
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. ✅ `php artisan --version` returns Laravel 13.x
+=======
+3. ✅ `php artisan --version` returns Laravel 12.x
+>>>>>>> laraxot/dev
 =======
 3. ✅ `php artisan --version` returns Laravel 12.x
 >>>>>>> laraxot/dev

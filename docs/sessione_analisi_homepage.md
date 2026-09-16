@@ -189,8 +189,13 @@ Themes/Sixteen/resources/views/
 - [Bootstrap Italia Reference](https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html)
 - [Bootstrap Italia Docs](https://italia.github.io/design-web-toolkit/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto> Homepage](http://<nome progetto>.local/it/tests/homepage)
 - [<nome progetto> Homepage](http://ptv.local/it/tests/homepage)
+=======
+- [FixCity Homepage](http://fixcity.local/it/tests/homepage)
+- [FixCity Homepage](http://ptv.local/it/tests/homepage)
+>>>>>>> laraxot/dev
 =======
 - [FixCity Homepage](http://fixcity.local/it/tests/homepage)
 - [FixCity Homepage](http://ptv.local/it/tests/homepage)

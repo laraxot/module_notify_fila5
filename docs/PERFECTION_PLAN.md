@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎯 <nome progetto> - PERFECTION PLAN
+=======
+# 🎯 FIXCITY - PERFECTION PLAN
+>>>>>>> laraxot/dev
 =======
 # 🎯 FIXCITY - PERFECTION PLAN
 >>>>>>> laraxot/dev
@@ -26,7 +30,11 @@
 
 ### Core (3) - Priority: CRITICAL
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **<nome progetto>** - 95% ✅ (API, Repository, Job implementati)
+=======
+1. **Fixcity** - 95% ✅ (API, Repository, Job implementati)
+>>>>>>> laraxot/dev
 =======
 1. **Fixcity** - 95% ✅ (API, Repository, Job implementati)
 >>>>>>> laraxot/dev
@@ -62,7 +70,11 @@
 **Obiettivo**: Portare core al 100%
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### <nome progetto> (95% → 100%)
+=======
+#### Fixcity (95% → 100%)
+>>>>>>> laraxot/dev
 =======
 #### Fixcity (95% → 100%)
 >>>>>>> laraxot/dev
@@ -202,7 +214,11 @@ php artisan test --filter=[TestName]
 | Modulo | Current | Target | Priority |
 |--------|---------|--------|----------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | 95% | 100% | CRITICAL |
+=======
+| Fixcity | 95% | 100% | CRITICAL |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | 95% | 100% | CRITICAL |
 >>>>>>> laraxot/dev

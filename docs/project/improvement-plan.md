@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "<nome progetto> Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop"
+=======
+title: "FixCity Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop"
+>>>>>>> laraxot/dev
 =======
 title: "FixCity Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop"
 >>>>>>> laraxot/dev
@@ -10,8 +14,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ptv-improvement-plan ptv improvement plan - openviking + bmad + gsd + ralph loop"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,17 +37,23 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto> Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop
 
 **Created**: 2026-03-30  
 **Status**: ✅ **READY TO EXECUTE**  
 **Project**: <nome progetto> Platform Improvement  
 =======
+=======
+>>>>>>> laraxot/dev
 # FixCity Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop
 
 **Created**: 2026-03-30  
 **Status**: ✅ **READY TO EXECUTE**  
 **Project**: FixCity Platform Improvement  
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -46,7 +61,11 @@ related:
 ## 🎯 Executive Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 I've created a comprehensive **16-week improvement plan** for <nome progetto> using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).
+=======
+I've created a comprehensive **16-week improvement plan** for FixCity using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).
+>>>>>>> laraxot/dev
 =======
 I've created a comprehensive **16-week improvement plan** for FixCity using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).
 >>>>>>> laraxot/dev
@@ -134,7 +153,11 @@ I've created a comprehensive **16-week improvement plan** for FixCity using the 
 #### 2.2 Unit Tests - Critical Modules (45h)
 **Modules**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto> (ticket logic): 90% coverage
+=======
+- Fixcity (ticket logic): 90% coverage
+>>>>>>> laraxot/dev
 =======
 - Fixcity (ticket logic): 90% coverage
 >>>>>>> laraxot/dev
@@ -409,7 +432,11 @@ cp .planning/phase-1.1.json .ralph/prd.json
 | `.planning/project.md` | Project context & overview | 8KB |
 | `.planning/config.json` | Roadmap & configuration | 9KB |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `.planning/research/<nome progetto>_PROJECT_RESEARCH_summary.md` | Research summary | 47KB |
+=======
+| `.planning/research/FIXCITY_PROJECT_RESEARCH_summary.md` | Research summary | 47KB |
+>>>>>>> laraxot/dev
 =======
 | `.planning/research/FIXCITY_PROJECT_RESEARCH_summary.md` | Research summary | 47KB |
 >>>>>>> laraxot/dev
@@ -482,7 +509,11 @@ cp .planning/phase-1.1.json .ralph/prd.json
 - **BMAD/GSD/Ralph**: `docs/bmad-gsd-ralph-integration.md`
 - **Unified Workflow**: `docs/unified-ai-workflow.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Project Research**: `.planning/research/<nome progetto>_PROJECT_RESEARCH_summary.md`
+=======
+- **Project Research**: `.planning/research/FIXCITY_PROJECT_RESEARCH_summary.md`
+>>>>>>> laraxot/dev
 =======
 - **Project Research**: `.planning/research/FIXCITY_PROJECT_RESEARCH_summary.md`
 >>>>>>> laraxot/dev

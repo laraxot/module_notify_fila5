@@ -9,7 +9,11 @@
 ## Overview
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Implementazione completa delle custom question types per <nome progetto> Fila5, basata sul pattern di Fila4 ma con ottimizzazioni moderne.
+=======
+Implementazione completa delle custom question types per Quaeris Fila5, basata sul pattern di Fila4 ma con ottimizzazioni moderne.
+>>>>>>> laraxot/dev
 =======
 Implementazione completa delle custom question types per Quaeris Fila5, basata sul pattern di Fila4 ma con ottimizzazioni moderne.
 >>>>>>> laraxot/dev
@@ -21,6 +25,7 @@ Implementazione completa delle custom question types per App Fila5, basata sul p
 
 ### 1. RootGroupedBf
 - **Pattern**: `custom:root_grouped_bf`
+<<<<<<< HEAD
 <<<<<<< HEAD
 - **File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
 - **Scopo**: Raggruppa domande per gid, calcola valutazioni 1-5 vs 6-10
@@ -80,6 +85,8 @@ Implementazione completa delle custom question types per App Fila5, basata sul p
 - **Pattern**: `custom:avg_group_2`
 - **File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/AvgGroup2.php`
 =======
+=======
+>>>>>>> laraxot/dev
 - **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
 - **Scopo**: Raggruppa domande per gid, calcola valutazioni 1-5 vs 6-10
 - **Test URL**: `/quaeris/admin/ats/survey-pdfs/16/question-charts/234`
@@ -137,6 +144,9 @@ Implementazione completa delle custom question types per App Fila5, basata sul p
 ### 6. AvgGroup2
 - **Pattern**: `custom:avg_group_2`
 - **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/AvgGroup2.php`
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -277,7 +287,11 @@ return new AnswersChartData(
 ```bash
 cd laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 ./vendor/bin/pest Modules/<nome progetto>/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
+=======
+./vendor/bin/pest Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
+>>>>>>> laraxot/dev
 =======
 ./vendor/bin/pest Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
 >>>>>>> laraxot/dev
@@ -330,8 +344,13 @@ cd laravel
 ## GitHub Resources
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Issue #97**: https://github.com/laraxot/<repo progetto>/issues/97
 - **Issue #97**: https://github.com/laraxot/<repo progetto>/issues/97
+=======
+- **Issue #97**: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
+- **Issue #97**: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97
+>>>>>>> laraxot/dev
 =======
 - **Issue #97**: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
 - **Issue #97**: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97

@@ -6,8 +6,13 @@ status: active
 tags: [coverage, testing, pest, notify]
 created: 2026-08-24
 <<<<<<< HEAD
+<<<<<<< HEAD
 updated: 2026-08-27
 qmd: "notify coverage pest unit 6.3 percento misurato xdebug db irraggiungibile"
+=======
+updated: 2026-09-11
+qmd: "notify coverage pest unit 6.3 percento misurato xdebug db irraggiungibile; notificationlogresource completato 2026-09-11"
+>>>>>>> laraxot/dev
 =======
 updated: 2026-09-11
 qmd: "notify coverage pest unit 6.3 percento misurato xdebug db irraggiungibile; notificationlogresource completato 2026-09-11"
@@ -17,8 +22,11 @@ qmd: "notify coverage pest unit 6.3 percento misurato xdebug db irraggiungibile;
 # Notify — copertura dei test
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Misura
 =======
+=======
+>>>>>>> laraxot/dev
 ## Aggiornamento 2026-09-11 — NotificationLogResource completato
 
 Contesto: `NotificationLogResource` era orfano (solo file `.test`/`.php.test`, mai caricati
@@ -58,6 +66,9 @@ analizzati per la sola Resource, verificato con `--error-format=json` e contando
 da convenzione del modulo): 0 violazioni sui file nuovi/modificati.
 
 ## Misura storica (Unit only, DB irraggiungibile)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ```bash

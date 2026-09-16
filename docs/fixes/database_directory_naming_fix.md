@@ -120,7 +120,11 @@ php artisan test
 ## Related
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **GitHub Issue**: https://github.com/laraxot/<repo progetto>/issues/4
+=======
+- **GitHub Issue**: https://github.com/laraxot/base_fixcity_fila5/issues/4
+>>>>>>> laraxot/dev
 =======
 - **GitHub Issue**: https://github.com/laraxot/base_fixcity_fila5/issues/4
 >>>>>>> laraxot/dev

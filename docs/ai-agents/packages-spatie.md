@@ -1,7 +1,11 @@
 # Spatie Packages Reference
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Pacchetti Spatie installati in <nome progetto> Fila5 Mono.
+=======
+Pacchetti Spatie installati in Quaeris Fila5 Mono.
+>>>>>>> laraxot/dev
 =======
 Pacchetti Spatie installati in Quaeris Fila5 Mono.
 >>>>>>> laraxot/dev

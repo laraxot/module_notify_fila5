@@ -120,7 +120,11 @@ python scripts/run.py ask_question.py \
 # Research Laravel patterns
 python scripts/run.py ask_question.py \
 <<<<<<< HEAD
+<<<<<<< HEAD
   --question "What are Laravel 13 best practices for service architecture?"
+=======
+  --question "What are Laravel 12 best practices for service architecture?"
+>>>>>>> laraxot/dev
 =======
   --question "What are Laravel 12 best practices for service architecture?"
 >>>>>>> laraxot/dev
@@ -199,9 +203,15 @@ openviking add-memory \
 # Query multiple notebooks
 python scripts/run.py ask_question.py \
 <<<<<<< HEAD
+<<<<<<< HEAD
   --question "Compare Laravel 11 vs Laravel 13 architecture changes" \
   --notebook-id "laravel-11-docs" \
   --notebook-id "Laravel-13-docs"
+=======
+  --question "Compare Laravel 11 vs Laravel 12 architecture changes" \
+  --notebook-id "laravel-11-docs" \
+  --notebook-id "laravel-12-docs"
+>>>>>>> laraxot/dev
 =======
   --question "Compare Laravel 11 vs Laravel 12 architecture changes" \
   --notebook-id "laravel-11-docs" \

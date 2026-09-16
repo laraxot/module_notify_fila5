@@ -24,9 +24,15 @@ assignees: ''
 
 ### Target Page
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>**: http://<nome progetto>.local/it/tests/[slug]  
 **View Source**: `view-source:http://<nome progetto>.local/it/tests/[slug]`
 **<nome progetto>**: http://ptv.local/it/tests/[slug]  
+=======
+**FixCity**: http://fixcity.local/it/tests/[slug]  
+**View Source**: `view-source:http://fixcity.local/it/tests/[slug]`
+**FixCity**: http://ptv.local/it/tests/[slug]  
+>>>>>>> laraxot/dev
 =======
 **FixCity**: http://fixcity.local/it/tests/[slug]  
 **View Source**: `view-source:http://fixcity.local/it/tests/[slug]`
@@ -46,7 +52,11 @@ assignees: ''
 
 ### 1. Create JSON Content File
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `laravel/config/local/<nome progetto>/database/content/pages/tests.[slug].json`
+=======
+**File**: `laravel/config/local/fixcity/database/content/pages/tests.[slug].json`
+>>>>>>> laraxot/dev
 =======
 **File**: `laravel/config/local/fixcity/database/content/pages/tests.[slug].json`
 >>>>>>> laraxot/dev
@@ -56,7 +66,11 @@ assignees: ''
 {
   "slug": "tests.[slug]",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "title": "[Page Title] - Comune di <nome progetto>",
+=======
+  "title": "[Page Title] - Comune di FixCity",
+>>>>>>> laraxot/dev
 =======
   "title": "[Page Title] - Comune di FixCity",
 >>>>>>> laraxot/dev
@@ -67,7 +81,11 @@ assignees: ''
       "view": "pub_theme::components.blocks.header.main",
       "data": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "institution_name": "Comune di <nome progetto>",
+=======
+        "institution_name": "Comune di FixCity",
+>>>>>>> laraxot/dev
 =======
         "institution_name": "Comune di FixCity",
 >>>>>>> laraxot/dev
@@ -87,9 +105,15 @@ assignees: ''
       "view": "pub_theme::components.blocks.footer.full",
       "data": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "address": "Via Roma 1, <nome progetto>",
         "phone": "+39 0123 456789",
         "email": "info@comune.<nome progetto>.it"
+=======
+        "address": "Via Roma 1, FixCity",
+        "phone": "+39 0123 456789",
+        "email": "info@comune.fixcity.it"
+>>>>>>> laraxot/dev
 =======
         "address": "Via Roma 1, FixCity",
         "phone": "+39 0123 456789",

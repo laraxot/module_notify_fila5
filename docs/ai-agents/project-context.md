@@ -6,7 +6,11 @@
 
 - **Project**: PTVX Fila5 Mono
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Stack**: Laravel 13 | Filament v5 | Pest v4 | PHPStan Level 10 | PHP 8.3+
+=======
+- **Stack**: Laravel 12 | Filament v5 | Pest v4 | PHPStan Level 10 | PHP 8.3+
+>>>>>>> laraxot/dev
 =======
 - **Stack**: Laravel 12 | Filament v5 | Pest v4 | PHPStan Level 10 | PHP 8.3+
 >>>>>>> laraxot/dev

@@ -7,8 +7,13 @@
 ### Required Commands (ALWAYS):
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/<repo progetto>/laravel/Themes/Sixteen
 cd /var/www/html/_bases/<repo progetto>/laravel/Themes/Sixteen
+=======
+cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
+cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
+>>>>>>> laraxot/dev
 =======
 cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
 cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen

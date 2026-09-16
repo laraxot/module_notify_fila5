@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📚 ROADMAP DOCUMENTAZIONE - <nome progetto> PLATFORM
+=======
+# 📚 ROADMAP DOCUMENTAZIONE - FIXCITY PLATFORM
+>>>>>>> laraxot/dev
 =======
 # 📚 ROADMAP DOCUMENTAZIONE - FIXCITY PLATFORM
 >>>>>>> laraxot/dev
@@ -12,7 +16,11 @@
 
 ## 🎯 Obiettivo
 <<<<<<< HEAD
+<<<<<<< HEAD
 Creare un ecosistema di documentazione completo, accessibile e mantenibile per tutti gli stakeholder del progetto <nome progetto>.
+=======
+Creare un ecosistema di documentazione completo, accessibile e mantenibile per tutti gli stakeholder del progetto FixCity.
+>>>>>>> laraxot/dev
 =======
 Creare un ecosistema di documentazione completo, accessibile e mantenibile per tutti gli stakeholder del progetto FixCity.
 >>>>>>> laraxot/dev
@@ -80,7 +88,11 @@ docs/
 - [x] **Xot**: Framework base (completato)
 - [x] **User**: Gestione utenti (completato)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] **<nome progetto>**: Core business (completato)
+=======
+- [x] **Fixcity**: Core business (completato)
+>>>>>>> laraxot/dev
 =======
 - [x] **Fixcity**: Core business (completato)
 >>>>>>> laraxot/dev
@@ -183,7 +195,11 @@ docs/
 openapi: 3.0.0
 info:
 <<<<<<< HEAD
+<<<<<<< HEAD
   title: <nome progetto> API
+=======
+  title: FixCity API
+>>>>>>> laraxot/dev
 =======
   title: FixCity API
 >>>>>>> laraxot/dev
@@ -392,7 +408,11 @@ paths:
 - [ ] **Roles.md**: Gestione ruoli e permessi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Modulo <nome progetto> (Core Business)
+=======
+### Modulo Fixcity (Core Business)
+>>>>>>> laraxot/dev
 =======
 ### Modulo Fixcity (Core Business)
 >>>>>>> laraxot/dev
@@ -641,8 +661,13 @@ paths:
 - **Tech Writer**: Documentation Team
 - **Email**: docs@laraxot.com
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Slack**: #<nome progetto>-docs
 - **GitHub**: [<nome progetto> Docs](https://github.com/laraxot/<nome progetto>-docs)
+=======
+- **Slack**: #fixcity-docs
+- **GitHub**: [FixCity Docs](https://github.com/laraxot/fixcity-docs)
+>>>>>>> laraxot/dev
 =======
 - **Slack**: #fixcity-docs
 - **GitHub**: [FixCity Docs](https://github.com/laraxot/fixcity-docs)

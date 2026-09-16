@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "tailwind-conversion-complete 🎨 tailwind conversion complete - design comuni"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -234,7 +239,11 @@ Main Content
 ## 🏆 RISULTATO
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Homepage <nome progetto> è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
+=======
+**Homepage FixCity è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
+>>>>>>> laraxot/dev
 =======
 **Homepage FixCity è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
 >>>>>>> laraxot/dev
@@ -257,9 +266,15 @@ Main Content
 **Tech**: 🎨 **100% TAILWIND CSS**  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *"<nome progetto> ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
 
 **#<nome progetto>2025 #TailwindCSS #DesignComuni #AGID #Conversion**
+=======
+*"FixCity ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
+
+**#FixCity2025 #TailwindCSS #DesignComuni #AGID #Conversion**
+>>>>>>> laraxot/dev
 =======
 *"FixCity ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
 

@@ -154,8 +154,11 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->submit('sendPushNotification')];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model

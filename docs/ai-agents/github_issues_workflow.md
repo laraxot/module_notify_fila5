@@ -7,15 +7,21 @@
 ## Repository
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **URL**: https://github.com/laraxot/<repo progetto>
 - **Remote**: `origin` (git@github.com:laraxot/<repo progetto>.git)
 - **URL**: https://github.com/laraxot/<repo progetto>
 - **Remote**: `origin` (git@github.com:laraxot/<repo progetto>.git)
 =======
+=======
+>>>>>>> laraxot/dev
 - **URL**: https://github.com/laraxot/base_predict_fila5
 - **Remote**: `origin` (git@github.com:laraxot/base_predict_fila5.git)
 - **URL**: https://github.com/laraxot/base_ptvx_fila5
 - **Remote**: `origin` (git@github.com:laraxot/base_ptvx_fila5.git)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -26,8 +32,13 @@
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Vai su: https://github.com/laraxot/<repo progetto>/issues
 1. Vai su: https://github.com/laraxot/<repo progetto>/issues
+=======
+1. Vai su: https://github.com/laraxot/base_predict_fila5/issues
+1. Vai su: https://github.com/laraxot/base_ptvx_fila5/issues
+>>>>>>> laraxot/dev
 =======
 1. Vai su: https://github.com/laraxot/base_predict_fila5/issues
 1. Vai su: https://github.com/laraxot/base_ptvx_fila5/issues
@@ -117,8 +128,13 @@ gh pr create --title "Fix: ..." --body "Fixes #123"
 4. 📤 **Share Buttons** - MEDIUM priority
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Create issues on GitHub**: https://github.com/laraxot/<repo progetto>/issues
 **Create issues on GitHub**: https://github.com/laraxot/<repo progetto>/issues
+=======
+**Create issues on GitHub**: https://github.com/laraxot/base_predict_fila5/issues
+**Create issues on GitHub**: https://github.com/laraxot/base_ptvx_fila5/issues
+>>>>>>> laraxot/dev
 =======
 **Create issues on GitHub**: https://github.com/laraxot/base_predict_fila5/issues
 **Create issues on GitHub**: https://github.com/laraxot/base_ptvx_fila5/issues

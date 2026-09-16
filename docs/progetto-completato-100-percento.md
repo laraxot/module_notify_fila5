@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏆 PROGETTO <nome progetto> - 100% COMPLETATO!
+=======
+# 🏆 PROGETTO FIXCITY - 100% COMPLETATO!
+>>>>>>> laraxot/dev
 =======
 # 🏆 PROGETTO FIXCITY - 100% COMPLETATO!
 >>>>>>> laraxot/dev
@@ -36,7 +40,11 @@
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 >>>>>>> laraxot/dev
@@ -52,7 +60,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 | Xot | 763 | ✅ 0 errori |
 | User | 773 | ✅ 0 errori |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | ~200 | ✅ 0 errori |
+=======
+| Fixcity | ~200 | ✅ 0 errori |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | ~200 | ✅ 0 errori |
 >>>>>>> laraxot/dev
@@ -95,7 +107,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 - Prima: 10-15 query in loop (200ms)
 - Dopo: 1 query con groupBy (30ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - File: `<nome progetto>/resources/views/components/blocks/ticket_list/agid.blade.php`
+=======
+- File: `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
+>>>>>>> laraxot/dev
 =======
 - File: `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
 >>>>>>> laraxot/dev
@@ -104,7 +120,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 - Prima: 3 query separate (count, get, total count)
 - Dopo: 1 query paginator
 <<<<<<< HEAD
+<<<<<<< HEAD
 - File: `<nome progetto>/resources/views/components/blocks/ticket_list/agid.blade.php`
+=======
+- File: `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
+>>>>>>> laraxot/dev
 =======
 - File: `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
 >>>>>>> laraxot/dev
@@ -113,7 +133,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 - Prima: Lazy load potenziale
 - Dopo: once() + DB sum
 <<<<<<< HEAD
+<<<<<<< HEAD
 - File: `<nome progetto>/app/Models/Profile.php`
+=======
+- File: `Fixcity/app/Models/Profile.php`
+>>>>>>> laraxot/dev
 =======
 - File: `Fixcity/app/Models/Profile.php`
 >>>>>>> laraxot/dev
@@ -123,7 +147,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 - Composite indexes (type+status, status+created_at)
 - Audit indexes (created_by, updated_by)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - File: `<nome progetto>/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
+=======
+- File: `Fixcity/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
+>>>>>>> laraxot/dev
 =======
 - File: `Fixcity/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
 >>>>>>> laraxot/dev
@@ -158,7 +186,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 ✅ **Map Picker** - INSTALLATO E ABILITATO!
 - Package: `dotswan/filament-map-picker` v2.0
 <<<<<<< HEAD
+<<<<<<< HEAD
 - File: `<nome progetto>/app/Filament/Resources/TicketResource.php`
+=======
+- File: `Fixcity/app/Filament/Resources/TicketResource.php`
+>>>>>>> laraxot/dev
 =======
 - File: `Fixcity/app/Filament/Resources/TicketResource.php`
 >>>>>>> laraxot/dev
@@ -172,8 +204,13 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ✅ **Delayed Notifications** - IMPLEMENTATO!
 <<<<<<< HEAD
+<<<<<<< HEAD
 - File: `<nome progetto>/app/Actions/Notification/SendDelayedNotificationAction.php`
 - Integration: `<nome progetto>/app/Services/NotificationService.php`
+=======
+- File: `Fixcity/app/Actions/Notification/SendDelayedNotificationAction.php`
+- Integration: `Fixcity/app/Services/NotificationService.php`
+>>>>>>> laraxot/dev
 =======
 - File: `Fixcity/app/Actions/Notification/SendDelayedNotificationAction.php`
 - Integration: `Fixcity/app/Services/NotificationService.php`
@@ -201,7 +238,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ✅ **Module Roadmaps** (9):
 <<<<<<< HEAD
+<<<<<<< HEAD
 10-18. Xot, User, <nome progetto>, AI, Notify, Geo, UI, Activity, Cms
+=======
+10-18. Xot, User, Fixcity, AI, Notify, Geo, UI, Activity, Cms
+>>>>>>> laraxot/dev
 =======
 10-18. Xot, User, Fixcity, AI, Notify, Geo, UI, Activity, Cms
 >>>>>>> laraxot/dev
@@ -266,7 +307,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ### Actions (5)
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. ✅ `<nome progetto>/app/Actions/Notification/SendDelayedNotificationAction.php`
+=======
+1. ✅ `Fixcity/app/Actions/Notification/SendDelayedNotificationAction.php`
+>>>>>>> laraxot/dev
 =======
 1. ✅ `Fixcity/app/Actions/Notification/SendDelayedNotificationAction.php`
 >>>>>>> laraxot/dev
@@ -275,7 +320,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ### Migrations (1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. ✅ `<nome progetto>/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
+=======
+4. ✅ `Fixcity/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
+>>>>>>> laraxot/dev
 =======
 4. ✅ `Fixcity/database/migrations/2025_10_01_101941_add_performance_indexes_to_tickets_table.php`
 >>>>>>> laraxot/dev
@@ -296,6 +345,7 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 ### Ottimizzazioni Performance
 <<<<<<< HEAD
+<<<<<<< HEAD
 6. ✅ `<nome progetto>/resources/views/components/blocks/ticket_list/agid.blade.php`
 7. ✅ `<nome progetto>/app/Models/Profile.php`
 
@@ -303,12 +353,17 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 8. ✅ `<nome progetto>/app/Filament/Resources/TicketResource.php` (Map Picker)
 9. ✅ `<nome progetto>/app/Services/NotificationService.php` (Delayed Notifications)
 =======
+=======
+>>>>>>> laraxot/dev
 6. ✅ `Fixcity/resources/views/components/blocks/ticket_list/agid.blade.php`
 7. ✅ `Fixcity/app/Models/Profile.php`
 
 ### Feature Implementation
 8. ✅ `Fixcity/app/Filament/Resources/TicketResource.php` (Map Picker)
 9. ✅ `Fixcity/app/Services/NotificationService.php` (Delayed Notifications)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### Documentation Updates
@@ -389,7 +444,11 @@ Result: {"totals":{"errors":0,"file_errors":0}}
 
 **Critici**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto>](../Modules/<nome progetto>/docs/roadmap-and-issues.md) - Core business + Performance fixes
+=======
+- [Fixcity](../Modules/Fixcity/docs/roadmap-and-issues.md) - Core business + Performance fixes
+>>>>>>> laraxot/dev
 =======
 - [Fixcity](../Modules/Fixcity/docs/roadmap-and-issues.md) - Core business + Performance fixes
 >>>>>>> laraxot/dev
@@ -490,7 +549,11 @@ php artisan queue:work --queue=high,notifications,default
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🎯 COSA È <nome progetto> ORA
+=======
+## 🎯 COSA È FIXCITY ORA
+>>>>>>> laraxot/dev
 =======
 ## 🎯 COSA È FIXCITY ORA
 >>>>>>> laraxot/dev
@@ -605,7 +668,11 @@ php artisan queue:work --queue=high,notifications,default
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *"Da oggi <nome progetto> può cambiare le città italiane!"* 🇮🇹🏙️✨
+=======
+*"Da oggi FixCity può cambiare le città italiane!"* 🇮🇹🏙️✨
+>>>>>>> laraxot/dev
 =======
 *"Da oggi FixCity può cambiare le città italiane!"* 🇮🇹🏙️✨
 >>>>>>> laraxot/dev

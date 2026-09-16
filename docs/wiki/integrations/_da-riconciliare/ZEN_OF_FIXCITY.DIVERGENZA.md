@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Divergenza da riconciliare: ZEN_OF_<nome progetto>.md"
+=======
+title: "Divergenza da riconciliare: ZEN_OF_FIXCITY.md"
+>>>>>>> laraxot/dev
 =======
 title: "Divergenza da riconciliare: ZEN_OF_FIXCITY.md"
 >>>>>>> laraxot/dev
@@ -12,6 +16,7 @@ updated: 2026-08-24
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Divergenza: `ZEN_OF_<nome progetto>.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/ZEN_OF_<nome progetto>.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
@@ -19,12 +24,17 @@ Questo file veniva da `docs/wiki/integrations/modules/notify/ZEN_OF_<nome proget
 - versione del modulo: `laravel/Modules/Notify/docs/ZEN_OF_<nome progetto>.md`
 - versione recuperata: `laravel/Modules/Notify/docs/wiki/integrations/_da-riconciliare/ZEN_OF_<nome progetto>.md`
 =======
+=======
+>>>>>>> laraxot/dev
 # Divergenza: `ZEN_OF_FIXCITY.md`
 
 Questo file veniva da `docs/wiki/integrations/modules/notify/ZEN_OF_FIXCITY.md`, cancellato dal working tree senza migrazione. Il modulo ha gia' un file con lo stesso nome, ma con **corpo diverso**:
 
 - versione del modulo: `laravel/Modules/Notify/docs/ZEN_OF_FIXCITY.md`
 - versione recuperata: `laravel/Modules/Notify/docs/wiki/integrations/_da-riconciliare/ZEN_OF_FIXCITY.md`
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 Vanno confrontate e fuse a mano. Quando la fusione e' fatta, questo file e la nota vanno rimossi.

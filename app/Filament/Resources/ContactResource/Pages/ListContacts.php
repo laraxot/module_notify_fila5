@@ -17,6 +17,7 @@ class ListContacts extends XotBaseListRecords
     protected static string $resource = ContactResource::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, IconColumn|TextColumn>
      */
@@ -50,6 +51,9 @@ class ListContacts extends XotBaseListRecords
     {
         return self::contactTableFilters();
     }
+=======
+   
+>>>>>>> laraxot/dev
 =======
    
 >>>>>>> laraxot/dev

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Analisi Globale Metodi Duplicati - <nome progetto>
+=======
+# Analisi Globale Metodi Duplicati - FixCity
+>>>>>>> laraxot/dev
 =======
 # Analisi Globale Metodi Duplicati - FixCity
 >>>>>>> laraxot/dev
@@ -41,7 +45,11 @@ Questa analisi identifica opportunità di refactoring cross-module per ridurre l
 | Modulo | Metodi Duplicati | Report |
 |--------|------------------|--------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | 76 | [Visualizza](Modules/<nome progetto>/docs/duplicate-methods-analysis.md) |
+=======
+| Fixcity | 76 | [Visualizza](Modules/Fixcity/docs/duplicate-methods-analysis.md) |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | 76 | [Visualizza](Modules/Fixcity/docs/duplicate-methods-analysis.md) |
 >>>>>>> laraxot/dev

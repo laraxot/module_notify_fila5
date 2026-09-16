@@ -137,8 +137,11 @@ class SendSpatieEmailPage extends XotBasePage
             'submit' => Action::make('emailFormActions')->submit('emailFormActions')];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model

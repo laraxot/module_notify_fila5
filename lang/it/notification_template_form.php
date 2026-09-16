@@ -8,7 +8,11 @@ return [
             'label' => 'name',
             'placeholder' => 'name',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'name',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'name',
 >>>>>>> laraxot/dev
@@ -17,7 +21,11 @@ return [
             'label' => 'subject',
             'placeholder' => 'subject',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'subject',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'subject',
 >>>>>>> laraxot/dev
@@ -26,7 +34,11 @@ return [
             'label' => 'type',
             'placeholder' => 'type',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'type',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'type',
 >>>>>>> laraxot/dev
@@ -35,7 +47,11 @@ return [
             'label' => 'body_text',
             'placeholder' => 'body_text',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'body_text',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'body_text',
 >>>>>>> laraxot/dev
@@ -44,7 +60,11 @@ return [
             'label' => 'body_html',
             'placeholder' => 'body_html',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'body_html',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'body_html',
 >>>>>>> laraxot/dev
@@ -53,7 +73,11 @@ return [
             'label' => 'preview_data',
             'placeholder' => 'preview_data',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'preview_data',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'preview_data',
 >>>>>>> laraxot/dev
@@ -62,7 +86,11 @@ return [
             'label' => 'attachments',
             'placeholder' => 'attachments',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'attachments',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'attachments',
 >>>>>>> laraxot/dev

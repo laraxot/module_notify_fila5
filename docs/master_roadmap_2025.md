@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🗺️ <nome progetto> PLATFORM - MASTER ROADMAP 2025
+=======
+# 🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025
+>>>>>>> laraxot/dev
 =======
 # 🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025
 >>>>>>> laraxot/dev
@@ -15,17 +19,23 @@
 ## 🎯 EXECUTIVE SUMMARY
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>** è una piattaforma **Civic Tech** per il civic engagement urbano che connette cittadini e amministrazioni per rendere le città più vivibili, efficienti e responsive. Il progetto è basato su un'architettura modulare Laravel con Filament 5.x e segue i principi AGID per l'accessibilità.
 
 ### 🏆 ACHIEVEMENTS COMPLETATI
 - ✅ **PHPStan Level 9**: 0 errori (da 53 errori iniziali)
 - ✅ **Filament 5.x**: Compatibilità completa
 =======
+=======
+>>>>>>> laraxot/dev
 **FixCity** è una piattaforma **Civic Tech** per il civic engagement urbano che connette cittadini e amministrazioni per rendere le città più vivibili, efficienti e responsive. Il progetto è basato su un'architettura modulare Laravel con Filament 4.x e segue i principi AGID per l'accessibilità.
 
 ### 🏆 ACHIEVEMENTS COMPLETATI
 - ✅ **PHPStan Level 9**: 0 errori (da 53 errori iniziali)
 - ✅ **Filament 4.x**: Compatibilità completa
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - ✅ **Architettura Modulare**: 18 moduli funzionanti
 - ✅ **Documentazione**: 60% completata
@@ -38,7 +48,11 @@
 ### 📊 Business Logic Core
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> Platform
+=======
+FixCity Platform
+>>>>>>> laraxot/dev
 =======
 FixCity Platform
 >>>>>>> laraxot/dev
@@ -55,7 +69,11 @@ FixCity Platform
 │   └── Social login
 │
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── 🏛️ ADMIN PANEL (Filament 5.x)
+=======
+├── 🏛️ ADMIN PANEL (Filament 4.x)
+>>>>>>> laraxot/dev
 =======
 ├── 🏛️ ADMIN PANEL (Filament 4.x)
 >>>>>>> laraxot/dev
@@ -86,7 +104,11 @@ Livello 1: MODULI FOUNDATION
 
 Livello 2: MODULI BUSINESS
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── <nome progetto> (core ticketing) ⭐
+=======
+├── Fixcity (core ticketing) ⭐
+>>>>>>> laraxot/dev
 =======
 ├── Fixcity (core ticketing) ⭐
 >>>>>>> laraxot/dev
@@ -115,7 +137,11 @@ Livello 3: TEMI
 - [x] **Architettura Modulare**: 18 moduli funzionanti
 - [x] **PHPStan Level 9**: 0 errori (da 53 iniziali)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] **Filament 5.x**: Compatibilità completa
+=======
+- [x] **Filament 4.x**: Compatibilità completa
+>>>>>>> laraxot/dev
 =======
 - [x] **Filament 4.x**: Compatibilità completa
 >>>>>>> laraxot/dev
@@ -142,7 +168,11 @@ Filament: 3.x → 4.x (100% compatible)
 - [x] **Ticket Workflow**: Sistema completo di gestione ticket
 - [x] **User Management**: Autenticazione e autorizzazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] **Admin Panel**: Filament 5.x completamente funzionale
+=======
+- [x] **Admin Panel**: Filament 4.x completamente funzionale
+>>>>>>> laraxot/dev
 =======
 - [x] **Admin Panel**: Filament 4.x completamente funzionale
 >>>>>>> laraxot/dev
@@ -304,7 +334,11 @@ Filament: 3.x → 4.x (100% compatible)
 ## 📊 MODULE-SPECIFIC ROADMAPS
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 🎫 <nome progetto> Module (Core Business)
+=======
+### 🎫 Fixcity Module (Core Business)
+>>>>>>> laraxot/dev
 =======
 ### 🎫 Fixcity Module (Core Business)
 >>>>>>> laraxot/dev
@@ -317,7 +351,11 @@ Filament: 3.x → 4.x (100% compatible)
 - [x] Filament resources
 - [x] PHPStan Level 9 compliance
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Filament 5.x compatibility
+=======
+- [x] Filament 4.x compatibility
+>>>>>>> laraxot/dev
 =======
 - [x] Filament 4.x compatibility
 >>>>>>> laraxot/dev
@@ -352,7 +390,11 @@ Filament: 3.x → 4.x (100% compatible)
 - [x] Profile management
 - [x] PHPStan Level 9 compliance
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Filament 5.x compatibility
+=======
+- [x] Filament 4.x compatibility
+>>>>>>> laraxot/dev
 =======
 - [x] Filament 4.x compatibility
 >>>>>>> laraxot/dev
@@ -427,7 +469,11 @@ Filament: 3.x → 4.x (100% compatible)
 - [x] Basic theme structure
 - [x] AGID compliance base
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Filament 5.x integration
+=======
+- [x] Filament 4.x integration
+>>>>>>> laraxot/dev
 =======
 - [x] Filament 4.x integration
 >>>>>>> laraxot/dev
@@ -517,7 +563,11 @@ Filament: 3.x → 4.x (100% compatible)
 ### 📊 Technical KPIs
 - [x] **PHPStan Level 9**: 0 errori ✅
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] **Filament 5.x**: Compatibilità completa ✅
+=======
+- [x] **Filament 4.x**: Compatibilità completa ✅
+>>>>>>> laraxot/dev
 =======
 - [x] **Filament 4.x**: Compatibilità completa ✅
 >>>>>>> laraxot/dev

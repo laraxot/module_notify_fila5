@@ -17,8 +17,13 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 $attachments = [
     [
 <<<<<<< HEAD
+<<<<<<< HEAD
 'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 'path' => '/var/www/_bases/<repo progetto>/public_html/images/avatars/default-3.svg',
+=======
+'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
+'path' => '/var/www/_bases/base_ptvx_fila5/public_html/images/avatars/default-3.svg',
+>>>>>>> laraxot/dev
 =======
 'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
 'path' => '/var/www/_bases/base_ptvx_fila5/public_html/images/avatars/default-3.svg',
@@ -29,8 +34,13 @@ $attachments = [
     // Eventualmente altri allegati...
     [
 <<<<<<< HEAD
+<<<<<<< HEAD
 'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 'path' => '/var/www/_bases/<repo progetto>/public_html/documents/terms.pdf',
+=======
+'path' => '/var/www/html/Quaeris/public_html/documents/terms.pdf',
+'path' => '/var/www/_bases/base_ptvx_fila5/public_html/documents/terms.pdf',
+>>>>>>> laraxot/dev
 =======
 'path' => '/var/www/html/Quaeris/public_html/documents/terms.pdf',
 'path' => '/var/www/_bases/base_ptvx_fila5/public_html/documents/terms.pdf',

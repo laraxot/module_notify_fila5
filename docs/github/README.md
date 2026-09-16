@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "GitHub Issues & Discussions - <nome progetto> Platform"
+=======
+title: "GitHub Issues & Discussions - FixCity Platform"
+>>>>>>> laraxot/dev
 =======
 title: "GitHub Issues & Discussions - FixCity Platform"
 >>>>>>> laraxot/dev
@@ -11,7 +15,11 @@ module: Notify
 created: 2026-07-20
 updated: 2026-07-20
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "notify documentazione github readme github issues & discussions - <nome progetto> platform index readme frontmatter qmd search"
+=======
+qmd: "notify documentazione github readme github issues & discussions - fixcity platform index readme frontmatter qmd search"
+>>>>>>> laraxot/dev
 =======
 qmd: "notify documentazione github readme github issues & discussions - fixcity platform index readme frontmatter qmd search"
 >>>>>>> laraxot/dev
@@ -28,15 +36,21 @@ related:
   - ../templates/readme.md
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 # GitHub Issues & Discussions - <nome progetto> Platform
 
 > **Last Updated**: 2026-03-13  
 > **Repository**: https://github.com/laraxot/<repo progetto>
 =======
+=======
+>>>>>>> laraxot/dev
 # GitHub Issues & Discussions - FixCity Platform
 
 > **Last Updated**: 2026-03-13  
 > **Repository**: https://github.com/laraxot/base_fixcity_fila5
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -44,7 +58,11 @@ related:
 ## 📋 Overview
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento traccia tutte le GitHub Issues e Discussions create per il progetto <nome progetto>.
+=======
+Questo documento traccia tutte le GitHub Issues e Discussions create per il progetto FixCity.
+>>>>>>> laraxot/dev
 =======
 Questo documento traccia tutte le GitHub Issues e Discussions create per il progetto FixCity.
 >>>>>>> laraxot/dev
@@ -57,7 +75,11 @@ Questo documento traccia tutte le GitHub Issues e Discussions create per il prog
 ### Issue #5: 📁 Fix Database Directory Naming Convention
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **URL**: https://github.com/laraxot/<repo progetto>/issues/5  
+=======
+**URL**: https://github.com/laraxot/base_fixcity_fila5/issues/5  
+>>>>>>> laraxot/dev
 =======
 **URL**: https://github.com/laraxot/base_fixcity_fila5/issues/5  
 >>>>>>> laraxot/dev
@@ -85,7 +107,11 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 - [ ] Cms
 - [ ] Comment
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] <nome progetto>
+=======
+- [ ] Fixcity
+>>>>>>> laraxot/dev
 =======
 - [ ] Fixcity
 >>>>>>> laraxot/dev
@@ -115,7 +141,11 @@ Alcuni file di documentazione facevano riferimento a directory del database con 
 ### Discussion #1: 📁 Database Directory Naming Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **URL**: https://github.com/laraxot/<repo progetto>/discussions/1  
+=======
+**URL**: https://github.com/laraxot/base_fixcity_fila5/discussions/1  
+>>>>>>> laraxot/dev
 =======
 **URL**: https://github.com/laraxot/base_fixcity_fila5/discussions/1  
 >>>>>>> laraxot/dev
@@ -223,7 +253,11 @@ Discussion per standardizzare la convention delle directory del database in tutt
 - `module:blog` - Blog module
 - `module:cms` - Cms module
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `module:<nome progetto>` - <nome progetto> module
+=======
+- `module:fixcity` - Fixcity module
+>>>>>>> laraxot/dev
 =======
 - `module:fixcity` - Fixcity module
 >>>>>>> laraxot/dev
@@ -311,7 +345,11 @@ For questions about GitHub usage:
 
 **Maintainer**: @marco76tv  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Contact**: dev @<nome progetto>.example.com
+=======
+**Contact**: dev @fixcity.example.com
+>>>>>>> laraxot/dev
 =======
 **Contact**: dev @fixcity.example.com
 >>>>>>> laraxot/dev

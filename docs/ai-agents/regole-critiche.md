@@ -33,7 +33,11 @@ Quando un errore arriva da una pagina Filament/Livewire:
 - solo dopo passare a test applicativi, query, container o permessi.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per i chart <nome progetto> la catena minima da controllare e`:
+=======
+Per i chart Quaeris la catena minima da controllare e`:
+>>>>>>> laraxot/dev
 =======
 Per i chart Quaeris la catena minima da controllare e`:
 >>>>>>> laraxot/dev
@@ -273,15 +277,21 @@ Quando c'è un errore/issue da correggere, CREARE SEMPRE:
 ```bash
 # Creare issue
 <<<<<<< HEAD
+<<<<<<< HEAD
 gh issue create --repo provtv/<repo progetto> --title "..." --body "..."
 
 # Creare discussion
 gh api repos/provtv/<repo progetto>/discussions --method POST -f category_id=... --field body="..."
 =======
+=======
+>>>>>>> laraxot/dev
 gh issue create --repo provtv/base_ptv_fila5_mono --title "..." --body "..."
 
 # Creare discussion
 gh api repos/provtv/base_ptv_fila5_mono/discussions --method POST -f category_id=... --field body="..."
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 

@@ -1951,7 +1951,11 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 
 Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di App, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di <nome progetto>, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
+=======
+Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di Quaeris, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
+>>>>>>> laraxot/dev
 =======
 Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di Quaeris, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
 >>>>>>> laraxot/dev
@@ -2353,7 +2357,11 @@ $whatsAppData = new WhatsAppData(
     to: '+393401234567',
 body: 'Questo è un messaggio di test da App',
 <<<<<<< HEAD
+<<<<<<< HEAD
 body: 'Questo è un messaggio di test da <nome progetto>',
+=======
+body: 'Questo è un messaggio di test da Quaeris',
+>>>>>>> laraxot/dev
 =======
 body: 'Questo è un messaggio di test da Quaeris',
 >>>>>>> laraxot/dev
@@ -2491,7 +2499,11 @@ L'integrazione WhatsApp  segue gli stessi pattern e standard utilizzati per l'in
 
 Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di App, mantenendo la coerenza con le altre modalità di comunicazione.
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di <nome progetto>, mantenendo la coerenza con le altre modalità di comunicazione.
+=======
+Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di Quaeris, mantenendo la coerenza con le altre modalità di comunicazione.
+>>>>>>> laraxot/dev
 =======
 Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di Quaeris, mantenendo la coerenza con le altre modalità di comunicazione.
 >>>>>>> laraxot/dev

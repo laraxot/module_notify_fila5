@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zen-of-documentation 🧘 zen of documentation - complete philosophy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -389,7 +394,11 @@ _bmad/threads/zen-documentation.md
 ## Contenuto assorbito da `ZEN.md`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🧘 Zen of <nome progetto> - Complete Philosophy
+=======
+# 🧘 Zen of FixCity - Complete Philosophy
+>>>>>>> laraxot/dev
 =======
 # 🧘 Zen of FixCity - Complete Philosophy
 >>>>>>> laraxot/dev
@@ -716,7 +725,11 @@ fi
 ```bash
 openviking add-memory \
 <<<<<<< HEAD
+<<<<<<< HEAD
   --title="Zen of <nome progetto>" \
+=======
+  --title="Zen of FixCity" \
+>>>>>>> laraxot/dev
 =======
   --title="Zen of FixCity" \
 >>>>>>> laraxot/dev

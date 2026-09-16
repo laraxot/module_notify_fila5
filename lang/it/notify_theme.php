@@ -47,6 +47,7 @@ return [
         'is_default' => ['label' => 'Predefinito', 'tooltip' => 'Imposta come tema predefinito', 'help' => 'Il tema predefinito verrà utilizzato per tutte le notifiche senza tema specifico', 'helper_text' => '', 'description' => ''],
         'is_active' => ['label' => 'Attivo', 'tooltip' => 'Stato di attivazione del tema', 'help' => 'Solo i temi attivi possono essere utilizzati', 'helper_text' => '', 'description' => ''],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'lang' => ['label' => 'lang', 'placeholder' => 'lang', 'helper_text' => '', 'description' => 'lang'],
         'type' => ['label' => 'type', 'placeholder' => 'type', 'helper_text' => '', 'description' => 'type'],
         'post_type' => ['label' => 'post_type', 'placeholder' => 'post_type', 'helper_text' => '', 'description' => 'post_type'],
@@ -61,6 +62,8 @@ return [
         'body' => ['label' => 'body', 'placeholder' => 'body', 'helper_text' => '', 'description' => 'body'],
         'body_html' => ['label' => 'body_html', 'placeholder' => 'body_html', 'helper_text' => '', 'description' => 'body_html'],
 =======
+=======
+>>>>>>> laraxot/dev
         'lang' => ['label' => 'lang', 'placeholder' => 'lang', 'helper_text' => 'lang', 'description' => 'lang'],
         'type' => ['label' => 'type', 'placeholder' => 'type', 'helper_text' => 'type', 'description' => 'type'],
         'post_type' => ['label' => 'post_type', 'placeholder' => 'post_type', 'helper_text' => 'post_type', 'description' => 'post_type'],
@@ -74,6 +77,9 @@ return [
         'theme' => ['label' => 'theme', 'placeholder' => 'theme', 'helper_text' => 'theme', 'description' => 'theme'],
         'body' => ['label' => 'body', 'placeholder' => 'body', 'helper_text' => 'body', 'description' => 'body'],
         'body_html' => ['label' => 'body_html', 'placeholder' => 'body_html', 'helper_text' => 'body_html', 'description' => 'body_html'],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         'id' => ['label' => 'id'],
         'created_at' => ['label' => 'created_at'],

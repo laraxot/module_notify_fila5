@@ -22,7 +22,11 @@
 | **Namespace Unici** | 753 | Grep `namespace Modules\\` |
 | **Modulo GIÀ Corretto** | UI (0 duplicazioni) | Estende XotBaseModel |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **Moduli da Refactoring** | 15 (93.75%) | Activity, Blog, Cms, Comment, <nome progetto>, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Tenant, User, Xot (bootstrap) |
+=======
+| **Moduli da Refactoring** | 15 (93.75%) | Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Tenant, User, Xot (bootstrap) |
+>>>>>>> laraxot/dev
 =======
 | **Moduli da Refactoring** | 15 (93.75%) | Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Tenant, User, Xot (bootstrap) |
 >>>>>>> laraxot/dev
@@ -81,7 +85,11 @@ TOTALE METODI: 252 occorrenze duplicate
 | Cms | `app/Models/BaseModel.php` | 8 | ~70 | 85% |
 | Comment | `app/Models/BaseModel.php` | 7 | ~65 | 80% |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | `app/Models/BaseModel.php` | 9 | ~72 | 87% |
+=======
+| Fixcity | `app/Models/BaseModel.php` | 9 | ~72 | 87% |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | `app/Models/BaseModel.php` | 9 | ~72 | 87% |
 >>>>>>> laraxot/dev
@@ -140,7 +148,11 @@ protected function casts(): array
 
 **Varianti (2/15 moduli):**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>:** Ha `casts()` vuoto (errore?)
+=======
+- **Fixcity:** Ha `casts()` vuoto (errore?)
+>>>>>>> laraxot/dev
 =======
 - **Fixcity:** Ha `casts()` vuoto (errore?)
 >>>>>>> laraxot/dev
@@ -153,7 +165,11 @@ protected function casts(): array
 | `HasXotFactory` | 16/16 | 100% | Tutti i moduli |
 | `Updater` | 16/16 | 100% | Tutti i moduli |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `SoftDeletes` | 3/16 | 19% | <nome progetto>, Blog, Gdpr |
+=======
+| `SoftDeletes` | 3/16 | 19% | Fixcity, Blog, Gdpr |
+>>>>>>> laraxot/dev
 =======
 | `SoftDeletes` | 3/16 | 19% | Fixcity, Blog, Gdpr |
 >>>>>>> laraxot/dev
@@ -178,7 +194,11 @@ protected function casts(): array
 | Cms | 5 | 0 | 0 | ? | 6 | 11+ |
 | Comment | ? | ? | ? | ? | ? | ? |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | 8 | 0 | 0 | ? | 4 | 12+ |
+=======
+| Fixcity | 8 | 0 | 0 | ? | 4 | 12+ |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | 8 | 0 | 0 | ? | 4 | 12+ |
 >>>>>>> laraxot/dev
@@ -751,7 +771,11 @@ git push --tags
 ```bash
 # Generare test per ogni BaseModel
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in Activity Blog Cms Comment <nome progetto> Gdpr Geo Job Lang Media Notify Rating Tenant User; do
+=======
+for module in Activity Blog Cms Comment Fixcity Gdpr Geo Job Lang Media Notify Rating Tenant User; do
+>>>>>>> laraxot/dev
 =======
 for module in Activity Blog Cms Comment Fixcity Gdpr Geo Job Lang Media Notify Rating Tenant User; do
 >>>>>>> laraxot/dev
@@ -1123,7 +1147,11 @@ echo ""
 FAILED=0
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in Activity Blog Cms Comment <nome progetto> Gdpr Geo Job Lang Media Notify Rating Tenant User; do
+=======
+for module in Activity Blog Cms Comment Fixcity Gdpr Geo Job Lang Media Notify Rating Tenant User; do
+>>>>>>> laraxot/dev
 =======
 for module in Activity Blog Cms Comment Fixcity Gdpr Geo Job Lang Media Notify Rating Tenant User; do
 >>>>>>> laraxot/dev

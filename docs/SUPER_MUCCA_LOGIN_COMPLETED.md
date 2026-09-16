@@ -50,7 +50,11 @@ updated: 2026-08-24
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### ✅ Form Widget Filament 5
+=======
+### ✅ Form Widget Filament 4
+>>>>>>> laraxot/dev
 =======
 ### ✅ Form Widget Filament 4
 >>>>>>> laraxot/dev
@@ -137,7 +141,11 @@ Vista Widget: Themes/Sixteen/.../auth/login.blade.php
   - <button type="submit">Accedi</button>
     ↓
 <<<<<<< HEAD
+<<<<<<< HEAD
 Filament 5 Processing:
+=======
+Filament 4 Processing:
+>>>>>>> laraxot/dev
 =======
 Filament 4 Processing:
 >>>>>>> laraxot/dev
@@ -237,7 +245,11 @@ Fail: Error message + rimane su form
 - [x] Loading spinner durante submit
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Filament 5 Integration ✅
+=======
+#### Filament 4 Integration ✅
+>>>>>>> laraxot/dev
 =======
 #### Filament 4 Integration ✅
 >>>>>>> laraxot/dev
@@ -321,7 +333,11 @@ Premi **CTRL+F5** (hard refresh) per svuotare cache browser
 ## 💡 Cosa Ho Capito e Documentato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Architettura Filament 5 Widgets
+=======
+### Architettura Filament 4 Widgets
+>>>>>>> laraxot/dev
 =======
 ### Architettura Filament 4 Widgets
 >>>>>>> laraxot/dev
@@ -403,7 +419,11 @@ Premi **CTRL+F5** (hard refresh) per svuotare cache browser
 
 ### Conoscenza Acquisita
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **Filament 5 Widgets** - Pattern completo documentato
+=======
+- ✅ **Filament 4 Widgets** - Pattern completo documentato
+>>>>>>> laraxot/dev
 =======
 - ✅ **Filament 4 Widgets** - Pattern completo documentato
 >>>>>>> laraxot/dev
@@ -519,7 +539,11 @@ Password: password
 ## 🎓 Lezioni Apprese
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Pattern Filament 5 Widgets
+=======
+### Pattern Filament 4 Widgets
+>>>>>>> laraxot/dev
 =======
 ### Pattern Filament 4 Widgets
 >>>>>>> laraxot/dev
@@ -572,7 +596,11 @@ Password: password
 - ✅ Login funzionante
 - ✅ Design Docs.Italia.it
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Widget Filament 5 integrato
+=======
+- ✅ Widget Filament 4 integrato
+>>>>>>> laraxot/dev
 =======
 - ✅ Widget Filament 4 integrato
 >>>>>>> laraxot/dev

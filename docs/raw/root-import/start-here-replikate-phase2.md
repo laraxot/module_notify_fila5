@@ -153,7 +153,11 @@ Blade Template:
 
 JSON Content:
 <<<<<<< HEAD
+<<<<<<< HEAD
   laravel/config/local/<nome progetto>/database/content/pages/tests.homepage.json
+=======
+  laravel/config/local/fixcity/database/content/pages/tests.homepage.json
+>>>>>>> laraxot/dev
 =======
   laravel/config/local/fixcity/database/content/pages/tests.homepage.json
 >>>>>>> laraxot/dev
@@ -177,8 +181,13 @@ Local URL:
 ```bash
 # Go to project
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptvx_fila5

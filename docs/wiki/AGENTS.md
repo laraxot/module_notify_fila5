@@ -139,10 +139,13 @@ related:
 - **Message format**: `docs: {action} {description}`
   - ✅ `docs: ingest karpathy-llm-wiki article`
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
   - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
   - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
 =======
@@ -150,6 +153,9 @@ related:
 =======
   - ✅ `docs: lint wiki - resolve contradictions in prediction market concepts`
 >>>>>>> a988596b (first)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   - ✅ `docs: lint wiki - resolve contradictions in forecast market concepts`
   - ✅ `docs: query synthesis - LLM wiki integration with Laraxot`
@@ -268,8 +274,14 @@ LLM Agent Actions:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a988596b (first)
+>>>>>>> laraxot/dev
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
@@ -296,6 +308,9 @@ LLM Agent Actions:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 User: "How does LMSR work with forecast markets?"
@@ -307,6 +322,12 @@ LLM Agent Actions:
    - wiki/concepts/forecast-market-design.md
    - wiki/entities/forecast-module.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
+>>>>>>> laraxot/dev
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
@@ -377,10 +398,13 @@ LLM Agent Actions:
    ### Contradictions (1)
    ⚠️ concepts/lmsr-mechanics.md says "LMSR is linear"
 <<<<<<< HEAD
+<<<<<<< HEAD
      vs concepts/prediction-markets.md says "LMSR is logarithmic"
      vs concepts/prediction-markets.md says "LMSR is logarithmic"
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
      vs concepts/prediction-markets.md says "LMSR is logarithmic"
 =======
@@ -388,6 +412,9 @@ LLM Agent Actions:
 =======
      vs concepts/prediction-markets.md says "LMSR is logarithmic"
 >>>>>>> a988596b (first)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
      vs concepts/forecast-markets.md says "LMSR is logarithmic"
      → Action: Merge pages, resolve contradiction
@@ -445,10 +472,13 @@ When module wiki references project wiki:
 
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 # In Modules/<nome progetto>/docs/llm-wiki/concepts/ticket-lifecycle.md
 # In Modules/<nome progetto>/docs/llm-wiki/concepts/ticket-lifecycle.md
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 # In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
 =======
@@ -456,6 +486,9 @@ When module wiki references project wiki:
 =======
 # In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
 >>>>>>> a988596b (first)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # In Modules/App/docs/llm-wiki/concepts/ticket-lifecycle.md
 
@@ -470,6 +503,7 @@ Same workflow as project ingestion, but scoped to module:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 User: "ingest docs/raw/articles/<nome progetto>-ticket-patterns.md into <nome progetto> wiki"
 
 LLM Agent Actions:
@@ -479,6 +513,8 @@ LLM Agent Actions:
 4. Update Modules/<nome progetto>/docs/llm-wiki/log.md
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> a988596b (first)
@@ -491,6 +527,9 @@ LLM Agent Actions:
 4. Update Modules/Fixcity/docs/llm-wiki/log.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 User: "ingest docs/raw/articles/laraxot-ticket-patterns.md into App wiki"
 
@@ -500,6 +539,12 @@ LLM Agent Actions:
 3. Update Modules/App/docs/llm-wiki/index.md
 4. Update Modules/App/docs/llm-wiki/log.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
+=======
+>>>>>>> a988596b (first)
+>>>>>>> laraxot/dev
 =======
 >>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
 =======
@@ -628,10 +673,13 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 - [[llm-wiki-architecture]] - Three-layer model for persistent knowledge (raw/wiki/schema)
 - [[lmsr-mechanics]] - Logarithmic Market Scoring Rule pricing algorithm
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
 - [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 - [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
 =======
@@ -639,6 +687,9 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 =======
 - [[prediction-market-design]] - Market clarity, resolution trust, calibration principles
 >>>>>>> a988596b (first)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [[forecast-market-design]] - Market clarity, resolution trust, calibration principles
 
@@ -646,10 +697,13 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 
 - [[andrej-karpathy]] - Creator of LLM Wiki pattern
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [[predict-module]] - Laraxot module for prediction markets
 - [[predict-module]] - Laraxot module for prediction markets
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 - [[predict-module]] - Laraxot module for prediction markets
 =======
@@ -657,6 +711,9 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 =======
 - [[predict-module]] - Laraxot module for prediction markets
 >>>>>>> a988596b (first)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [[forecast-module]] - Laraxot module for forecast markets
 
@@ -687,10 +744,13 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 
 ## [2026-04-15] query | LMSR mechanics explanation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Read: concepts/lmsr-mechanics.md, entities/predict-module.md
 - Read: concepts/lmsr-mechanics.md, entities/predict-module.md
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 - Read: concepts/lmsr-mechanics.md, entities/predict-module.md
 =======
@@ -698,6 +758,9 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 =======
 - Read: concepts/lmsr-mechanics.md, entities/predict-module.md
 >>>>>>> a988596b (first)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Read: concepts/lmsr-mechanics.md, entities/forecast-module.md
 - Created: comparisons/lmsr-vs-order-book-mechanics.md
@@ -705,10 +768,13 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 
 ## [2026-04-15] lint | Weekly health check
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Resolved: 1 contradiction in prediction market concepts
 - Resolved: 1 contradiction in prediction market concepts
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 - Resolved: 1 contradiction in prediction market concepts
 =======
@@ -716,6 +782,9 @@ Logarithmic Market Scoring Rule (LMSR) is the core pricing mechanism...
 =======
 - Resolved: 1 contradiction in prediction market concepts
 >>>>>>> a988596b (first)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Resolved: 1 contradiction in forecast market concepts
 - Added: 3 cross-references to orphan pages

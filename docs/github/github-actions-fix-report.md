@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "github-actions-fix-report 🤖 github actions & discussions - final report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -178,7 +183,11 @@ ae920e7c Add AI lessons learned and GitHub Action setup guide
 ```bash
 # Option 1: Via GitHub UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Go to: https://github.com/laraxot/<repo progetto>/discussions
+=======
+1. Go to: https://github.com/laraxot/base_fixcity_fila5/discussions
+>>>>>>> laraxot/dev
 =======
 1. Go to: https://github.com/laraxot/base_fixcity_fila5/discussions
 >>>>>>> laraxot/dev
@@ -272,7 +281,11 @@ ae920e7c Add AI lessons learned and GitHub Action setup guide
 
 All files are pushed and accessible on:
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://github.com/laraxot/<repo progetto>/commits/dev
+=======
+https://github.com/laraxot/base_fixcity_fila5/commits/dev
+>>>>>>> laraxot/dev
 =======
 https://github.com/laraxot/base_fixcity_fila5/commits/dev
 >>>>>>> laraxot/dev

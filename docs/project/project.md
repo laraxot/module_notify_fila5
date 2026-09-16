@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "project project: laraxot platform"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -37,7 +42,11 @@ Transform Notify from a functional MVP to a national-scale enterprise-ready plat
 
 ## Stack
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Laravel 13
+=======
+- Laravel 12
+>>>>>>> laraxot/dev
 =======
 - Laravel 12
 >>>>>>> laraxot/dev
@@ -50,7 +59,11 @@ Transform Notify from a functional MVP to a national-scale enterprise-ready plat
 
 ## Context
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Project: <repo progetto>
+=======
+- Project: base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 - Project: base_ptvx_fila5
 >>>>>>> laraxot/dev

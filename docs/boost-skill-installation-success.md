@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "boost-skill-installation-success boost skill installation - success report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -41,8 +46,13 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 
 **Files Modified**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `/var/www/_bases/<repo progetto>/laravel/composer.json`
 - `/var/www/_bases/<repo progetto>/laravel/composer.json`
+=======
+- `/var/www/_bases/base_fixcity_fila5/laravel/composer.json`
+- `/var/www/_bases/base_ptv_fila5/laravel/composer.json`
+>>>>>>> laraxot/dev
 =======
 - `/var/www/_bases/base_fixcity_fila5/laravel/composer.json`
 - `/var/www/_bases/base_ptv_fila5/laravel/composer.json`
@@ -52,8 +62,13 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 **Problem**: Module composer.json files had conflicting version requirements:
 - Xot module required `laravel/boost: ^2.0` vs root `^1.0`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Rating module required `pestphp/pest-plugin-laravel: ^2.0` (Laravel 10.x/11.x only) vs Laravel 13.x
 - dotswan/filament-map-picker required Filament 5.x vs Filament 5.x
+=======
+- Rating module required `pestphp/pest-plugin-laravel: ^2.0` (Laravel 10.x/11.x only) vs Laravel 12.x
+- dotswan/filament-map-picker required Filament 4.x vs Filament 5.x
+>>>>>>> laraxot/dev
 =======
 - Rating module required `pestphp/pest-plugin-laravel: ^2.0` (Laravel 10.x/11.x only) vs Laravel 12.x
 - dotswan/filament-map-picker required Filament 4.x vs Filament 5.x
@@ -66,6 +81,7 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 - Removed Pest version constraints from Rating module
 
 **Files Modified**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 - `/var/www/_bases/<repo progetto>/laravel/composer.json`
 - `/var/www/_bases/<repo progetto>/laravel/Modules/Rating/composer.json`
@@ -85,6 +101,8 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 - `/var/www/_bases/<repo progetto>/laravel/Modules/<nome progetto>/app/Models/User.php`
 - `/var/www/_bases/<repo progetto>/laravel/Modules/User/app/Models/BaseUser.php` (fixed return type)
 =======
+=======
+>>>>>>> laraxot/dev
 - `/var/www/_bases/base_fixcity_fila5/laravel/composer.json`
 - `/var/www/_bases/base_fixcity_fila5/laravel/Modules/Rating/composer.json`
 - `/var/www/_bases/base_ptv_fila5/laravel/composer.json`
@@ -102,6 +120,9 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 - `/var/www/_bases/base_fixcity_fila5/laravel/Modules/User/app/Models/BaseUser.php` (fixed return type)
 - `/var/www/_bases/base_ptv_fila5/laravel/Modules/Fixcity/app/Models/User.php`
 - `/var/www/_bases/base_ptv_fila5/laravel/Modules/User/app/Models/BaseUser.php` (fixed return type)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### 4. Environment Configuration
@@ -113,8 +134,13 @@ The `boost:add-skill jeffallan/claude-skills --skill laravel-specialist` command
 
 **Files Created**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `/var/www/_bases/<repo progetto>/laravel/.env`
 - `/var/www/_bases/<repo progetto>/laravel/.env`
+=======
+- `/var/www/_bases/base_fixcity_fila5/laravel/.env`
+- `/var/www/_bases/base_ptv_fila5/laravel/.env`
+>>>>>>> laraxot/dev
 =======
 - `/var/www/_bases/base_fixcity_fila5/laravel/.env`
 - `/var/www/_bases/base_ptv_fila5/laravel/.env`
@@ -159,8 +185,13 @@ php artisan list | grep boost
 ### Skill Installation Location
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/_bases/<repo progetto>/laravel/.ai/skills/laravel-specialist/
 /var/www/_bases/<repo progetto>/laravel/.ai/skills/laravel-specialist/
+=======
+/var/www/_bases/base_fixcity_fila5/laravel/.ai/skills/laravel-specialist/
+/var/www/_bases/base_ptv_fila5/laravel/.ai/skills/laravel-specialist/
+>>>>>>> laraxot/dev
 =======
 /var/www/_bases/base_fixcity_fila5/laravel/.ai/skills/laravel-specialist/
 /var/www/_bases/base_ptv_fila5/laravel/.ai/skills/laravel-specialist/
@@ -179,7 +210,11 @@ Created BOOST_SKILL_FIX_summary.md in:
 - `Modules/User/docs/`
 - `Modules/AI/docs/`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/<nome progetto>/docs/`
+=======
+- `Modules/Fixcity/docs/`
+>>>>>>> laraxot/dev
 =======
 - `Modules/Fixcity/docs/`
 >>>>>>> laraxot/dev
@@ -215,8 +250,13 @@ Created BOOST_SKILL_FIX_summary.md in:
 ## Backup Files Created
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `/var/www/_bases/<repo progetto>/laravel/composer.json.backup`
 - `/var/www/_bases/<repo progetto>/laravel/composer.json.backup`
+=======
+- `/var/www/_bases/base_fixcity_fila5/laravel/composer.json.backup`
+- `/var/www/_bases/base_ptv_fila5/laravel/composer.json.backup`
+>>>>>>> laraxot/dev
 =======
 - `/var/www/_bases/base_fixcity_fila5/laravel/composer.json.backup`
 - `/var/www/_bases/base_ptv_fila5/laravel/composer.json.backup`
@@ -226,9 +266,15 @@ Created BOOST_SKILL_FIX_summary.md in:
 
 ### 1. InteractsWithComments Trait Disabled
 <<<<<<< HEAD
+<<<<<<< HEAD
 The `InteractsWithComments` trait is temporarily disabled in `Modules\<nome progetto>\Models\User` due to method signature conflict with `BaseUser::notifications()`.
 
 **Impact**: Comment functionality in <nome progetto> module may be affected.
+=======
+The `InteractsWithComments` trait is temporarily disabled in `Modules\Fixcity\Models\User` due to method signature conflict with `BaseUser::notifications()`.
+
+**Impact**: Comment functionality in Fixcity module may be affected.
+>>>>>>> laraxot/dev
 =======
 The `InteractsWithComments` trait is temporarily disabled in `Modules\Fixcity\Models\User` due to method signature conflict with `BaseUser::notifications()`.
 
@@ -245,7 +291,11 @@ The `InteractsWithComments` trait is temporarily disabled in `Modules\Fixcity\Mo
 ✅ composer.json has all dependencies in active sections  
 ✅ composer install completed without errors (328 packages)  
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ php artisan --version returns Laravel 13.53.0  
+=======
+✅ php artisan --version returns Laravel 12.53.0  
+>>>>>>> laraxot/dev
 =======
 ✅ php artisan --version returns Laravel 12.53.0  
 >>>>>>> laraxot/dev
