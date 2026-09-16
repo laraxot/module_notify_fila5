@@ -24,6 +24,10 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 /**
@@ -135,7 +139,10 @@ class SendSpatieEmailPage extends XotBasePage
         return [
             'submit' => Action::make('emailFormActions')->submit('emailFormActions')];
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
