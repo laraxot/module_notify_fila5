@@ -1,18 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Contributing to <nome progetto>
-
-First off, thank you for considering contributing to <nome progetto>! 🎉
-=======
 # Contributing to FixCity
 
 First off, thank you for considering contributing to FixCity! 🎉
->>>>>>> laraxot/dev
-=======
-# Contributing to FixCity
-
-First off, thank you for considering contributing to FixCity! 🎉
->>>>>>> laraxot/dev
 
 ## 📋 Table of Contents
 
@@ -45,18 +33,8 @@ This project adheres to a Code of Conduct that all contributors are expected to 
 
 ```bash
 # Clone the repository
-<<<<<<< HEAD
-<<<<<<< HEAD
-git clone https://github.com/your-org/<nome progetto>.git
-cd <nome progetto>/laravel
-=======
 git clone https://github.com/your-org/fixcity.git
 cd fixcity/laravel
->>>>>>> laraxot/dev
-=======
-git clone https://github.com/your-org/fixcity.git
-cd fixcity/laravel
->>>>>>> laraxot/dev
 git clone https://github.com/your-org/ptv.git
 cd ptv/laravel
 
@@ -359,12 +337,4 @@ By contributing, you agree that your contributions will be licensed under the sa
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Thank you for contributing to <nome progetto>! 🚀**
-=======
 **Thank you for contributing to FixCity! 🚀**
->>>>>>> laraxot/dev
-=======
-**Thank you for contributing to FixCity! 🚀**
->>>>>>> laraxot/dev

@@ -37,29 +37,13 @@ Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 4. `MainDashboard.php:44,48` - Fix property access (15 min)
 5. `XotBasePage.php:127` - Fix getModel() type (10 min)
 6. `XotBaseRelationManager.php:107` - Type narrowing (15 min)
-<<<<<<< HEAD
-<<<<<<< HEAD
-7. `XotBaseResource.php:98` - Filament 5 compatibility (45 min)
-=======
 7. `XotBaseResource.php:98` - Filament 4 compatibility (45 min)
->>>>>>> laraxot/dev
-=======
-7. `XotBaseResource.php:98` - Filament 4 compatibility (45 min)
->>>>>>> laraxot/dev
 
 **Guida**: [Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md)
 
 **Comando verifica**:
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>/laravel
-=======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5_mono/laravel
->>>>>>> laraxot/dev
 ./vendor/bin/phpstan analyse Modules/Xot --memory-limit=-1
 ```
 
@@ -127,15 +111,7 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 **Verifica Completa**:
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>/laravel
-=======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5_mono/laravel
->>>>>>> laraxot/dev
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 ```
 
@@ -159,15 +135,7 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 
 ### Fine Giornata (update)
 4. **[Master Roadmap](./roadmap-master-index.md)** - Aggiornare status
-<<<<<<< HEAD
-<<<<<<< HEAD
-5. **[Analisi Completa](./analisi-completa-progetto-<nome progetto>.md)** - Executive summary
-=======
 5. **[Analisi Completa](./analisi-completa-progetto-fixcity.md)** - Executive summary
->>>>>>> laraxot/dev
-=======
-5. **[Analisi Completa](./analisi-completa-progetto-fixcity.md)** - Executive summary
->>>>>>> laraxot/dev
 
 ---
 
@@ -217,15 +185,7 @@ php artisan test --filter=BaseUserTest
 - ❌ Non usare `->label()`, `->placeholder()`, `->tooltip()`
 
 ### ✅ Sempre Fare
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ Eseguire da `/var/www/_bases/<repo progetto>/laravel/`
-=======
 - ✅ Eseguire da `/var/www/_bases/base_fixcity_fila5_mono/laravel/`
->>>>>>> laraxot/dev
-=======
-- ✅ Eseguire da `/var/www/_bases/base_fixcity_fila5_mono/laravel/`
->>>>>>> laraxot/dev
 - ✅ Verificare ogni fix con PHPStan
 - ✅ Usare sempre classi XotBase
 - ✅ Aggiornare docs dopo ogni correzione

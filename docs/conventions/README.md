@@ -313,14 +313,7 @@ Modules/ModuleName/
 ✅ ### H3 Header
 ❌ H1 Header
 ❌ H1 Header
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
    ==========
->>>>>>> laraxot/dev
-=======
-   ==========
->>>>>>> laraxot/dev
 ```
 
 **Code Blocks**: Always specify language
@@ -384,14 +377,6 @@ find . -name "*[A-Z]*" -type d | grep -v node_modules | grep -v vendor
 ---
 
 **Maintainer**: @marco76tv  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Contact**: dev @<nome progetto>.example.com  
-=======
 **Contact**: dev @fixcity.example.com  
->>>>>>> laraxot/dev
-=======
-**Contact**: dev @fixcity.example.com  
->>>>>>> laraxot/dev
 **Contact**: dev @laraxot.example.com  
 **Last Review**: 2026-03-13

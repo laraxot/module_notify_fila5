@@ -105,15 +105,7 @@ class SendNetfunSmsPage extends XotBasePage
                 ->required()];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function sendSms(): void
-=======
     public function sendSMS(): void
->>>>>>> laraxot/dev
-=======
-    public function sendSMS(): void
->>>>>>> laraxot/dev
     {
         $data = $this->smsForm->getState();
 
@@ -157,20 +149,8 @@ class SendNetfunSmsPage extends XotBasePage
     protected function getSmsFormActions(): array
     {
         return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-            Action::make('sendSms')->label(__('notify::sms.actions.send'))->submit('sendSms')];
-    }
-
-    #[Override]
-=======
             Action::make('sendSMS')->label(__('notify::sms.actions.send'))->submit('sendSMS')];
     }
->>>>>>> laraxot/dev
-=======
-            Action::make('sendSMS')->label(__('notify::sms.actions.send'))->submit('sendSMS')];
-    }
->>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

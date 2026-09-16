@@ -4,14 +4,6 @@ declare(strict_types=1);
 
 return [
     'fields' => [
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'id' => ['label' => 'id'],
-        'name' => ['label' => 'name'],
-        'created_at' => ['label' => 'created_at']]];
-=======
-=======
->>>>>>> laraxot/dev
         'id' => ['label' => 'ID'],
         'channel' => ['label' => 'Canale'],
         'status' => ['label' => 'Stato'],
@@ -29,7 +21,3 @@ return [
         'created_at' => ['label' => 'Creato il'],
     ],
 ];
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev

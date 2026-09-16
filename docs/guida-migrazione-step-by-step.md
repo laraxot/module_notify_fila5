@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Guida Migrazione Step-by-Step: Modulo Notify - Filament 5
-=======
 # Guida Migrazione Step-by-Step: Modulo Notify - Filament 4
->>>>>>> laraxot/dev
-=======
-# Guida Migrazione Step-by-Step: Modulo Notify - Filament 4
->>>>>>> laraxot/dev
 
 ## Panoramica Migrazione
 **Modulo**: Notify  
@@ -18,18 +10,8 @@
 ## Pre-requisiti
 - [x] Completata migrazione modulo User (autenticazione MFA)
 - [x] Completata migrazione modulo Xot (XotBaseResource)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Laravel 13+ installato
-- [x] Filament 5 beta installato
-=======
 - [x] Laravel 12+ installato
 - [x] Filament 4 beta installato
->>>>>>> laraxot/dev
-=======
-- [x] Laravel 12+ installato
-- [x] Filament 4 beta installato
->>>>>>> laraxot/dev
 - [x] Testing environment isolato
 
 ## Fase 1: Backup e Preparazione (Giorni 1-2)
@@ -224,15 +206,7 @@ abstract class NotifyBaseResource extends XotBaseResource
 }
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 2.2 NotificationTemplateResource con Filament 5
-=======
 ### 2.2 NotificationTemplateResource con Filament 4
->>>>>>> laraxot/dev
-=======
-### 2.2 NotificationTemplateResource con Filament 4
->>>>>>> laraxot/dev
 ```php
 // app/Filament/Resources/NotificationTemplateResource.php
 <?php
@@ -569,15 +543,7 @@ class UnifiedSendAction
 
 ## Fase 4: Dashboard Comunicazioni Real-time (Giorni 15-18)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 3.3 Widget Dashboard con Filament 5
-=======
 ### 3.3 Widget Dashboard con Filament 4
->>>>>>> laraxot/dev
-=======
-### 3.3 Widget Dashboard con Filament 4
->>>>>>> laraxot/dev
 ```php
 // app/Filament/Widgets/NotificationStatsWidget.php
 <?php
@@ -741,15 +707,7 @@ class QueueMonitorWidget extends BaseWidget
 }
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Fase 5: Test Pages con Filament 5 (Giorni 19-21)
-=======
 ## Fase 5: Test Pages con Filament 4 (Giorni 19-21)
->>>>>>> laraxot/dev
-=======
-## Fase 5: Test Pages con Filament 4 (Giorni 19-21)
->>>>>>> laraxot/dev
 
 ### 5.1 Pagina Test Unificata
 ```php
@@ -1008,29 +966,13 @@ use Modules\Notify\Models\{NotificationTemplate, Contact};
 class MigrateNotifyToFilament4Command extends Command
 {
     protected $signature = 'notify:migrate-filament4 {--dry-run : Solo simulazione}';
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected $description = 'Migra dati Notify per compatibilità Filament 5';
-=======
     protected $description = 'Migra dati Notify per compatibilità Filament 4';
->>>>>>> laraxot/dev
-=======
-    protected $description = 'Migra dati Notify per compatibilità Filament 4';
->>>>>>> laraxot/dev
     
     public function handle()
     {
         $dryRun = $this->option('dry-run');
         
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->info('Inizio migrazione dati Notify per Filament 5...');
-=======
         $this->info('Inizio migrazione dati Notify per Filament 4...');
->>>>>>> laraxot/dev
-=======
-        $this->info('Inizio migrazione dati Notify per Filament 4...');
->>>>>>> laraxot/dev
         
         // Migrazione template
         $this->migrateTemplates($dryRun);
@@ -1368,15 +1310,7 @@ return [
 #!/bin/bash
 # deploy-notify-filament4.sh
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-echo "🚀 Deploy Notify Module - Filament 5"
-=======
 echo "🚀 Deploy Notify Module - Filament 4"
->>>>>>> laraxot/dev
-=======
-echo "🚀 Deploy Notify Module - Filament 4"
->>>>>>> laraxot/dev
 
 # 1. Backup
 php artisan down

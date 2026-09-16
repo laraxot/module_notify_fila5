@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Product Launch Plan - <nome progetto> Platform
-=======
 # Product Launch Plan - FixCity Platform
->>>>>>> laraxot/dev
-=======
-# Product Launch Plan - FixCity Platform
->>>>>>> laraxot/dev
 
 > **Version**: 1.0.0
 > **Last Updated**: 2026-03-13

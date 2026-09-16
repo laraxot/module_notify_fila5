@@ -5,18 +5,8 @@ tags: [refactoring, basemodel, report]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "refactoring-basemodel-report 🎉 refactoring basemodel - report finale"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -43,29 +33,13 @@ related:
 | Modulo | Prima | Dopo | Riduzione | Status |
 |--------|-------|------|-----------|--------|
 | **Tenant** | 77 linee | 48 linee | -38% | ✅ CRITICO RISOLTO |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| **<nome progetto>** | 41 linee | 47 linee | +15%* | ✅ PULITO |
-=======
 | **Fixcity** | 41 linee | 47 linee | +15%* | ✅ PULITO |
->>>>>>> laraxot/dev
-=======
-| **Fixcity** | 41 linee | 47 linee | +15%* | ✅ PULITO |
->>>>>>> laraxot/dev
 | **Blog** | 46 linee | 46 linee | 0% | ✅ OTTIMIZZATO |
 | **Cms** | 38 linee | 38 linee | 0% | ✅ OTTIMIZZATO |
 | **User** | 38 linee | 35 linee | -8% | ✅ OTTIMIZZATO |
 | **Notify** | 44 linee | 42 linee | -5% | ✅ OTTIMIZZATO |
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-*<nome progetto>: Aumento linee dovuto a documentazione migliorata, ma rimozione duplicazioni
-=======
 *Fixcity: Aumento linee dovuto a documentazione migliorata, ma rimozione duplicazioni
->>>>>>> laraxot/dev
-=======
-*Fixcity: Aumento linee dovuto a documentazione migliorata, ma rimozione duplicazioni
->>>>>>> laraxot/dev
 
 ### Metriche Globali
 
@@ -73,15 +47,7 @@ related:
 |---------|-------|------|---------------|
 | **Moduli Conformi** | 16/18 (89%) | 18/18 (100%) | +11% |
 | **Duplicazioni Critiche** | 1 (Tenant) | 0 | -100% |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| **Duplicazioni Medie** | 1 (<nome progetto>) | 0 | -100% |
-=======
 | **Duplicazioni Medie** | 1 (Fixcity) | 0 | -100% |
->>>>>>> laraxot/dev
-=======
-| **Duplicazioni Medie** | 1 (Fixcity) | 0 | -100% |
->>>>>>> laraxot/dev
 | **Duplicazioni Minori** | 6 (casts) | 0 | -100% |
 | **Conformità Pattern** | 89% | 100% | +11% |
 
@@ -146,15 +112,7 @@ abstract class BaseModel extends XotBaseModel  // ✅ Corretto
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 2. <nome progetto> Module
-=======
 ### 2. Fixcity Module
->>>>>>> laraxot/dev
-=======
-### 2. Fixcity Module
->>>>>>> laraxot/dev
 
 #### Prima
 ```php
@@ -162,15 +120,7 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;
     
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected $connection = '<nome progetto>';
-=======
     protected $connection = 'fixcity';
->>>>>>> laraxot/dev
-=======
-    protected $connection = 'fixcity';
->>>>>>> laraxot/dev
     protected $connection = 'ptv';
     
     // ❌ DUPLICATO
@@ -187,15 +137,7 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;  // ✅ Specifico
     
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected $connection = '<nome progetto>';
-=======
     protected $connection = 'fixcity';
->>>>>>> laraxot/dev
-=======
-    protected $connection = 'fixcity';
->>>>>>> laraxot/dev
     protected $connection = 'ptv';
     
     // ✅ RIMOSSO: $fillable (eredita da parent)
@@ -247,15 +189,7 @@ protected function casts(): array
 ### 1. Syntax Check (PHP Lint)
 ```bash
 ✅ Tenant/BaseModel.php - No syntax errors
-<<<<<<< HEAD
-<<<<<<< HEAD
-✅ <nome progetto>/BaseModel.php - No syntax errors
-=======
 ✅ Fixcity/BaseModel.php - No syntax errors
->>>>>>> laraxot/dev
-=======
-✅ Fixcity/BaseModel.php - No syntax errors
->>>>>>> laraxot/dev
 ✅ Blog/BaseModel.php - No syntax errors
 ✅ Cms/BaseModel.php - No syntax errors
 ✅ User/BaseModel.php - No syntax errors
@@ -265,15 +199,7 @@ protected function casts(): array
 ### 2. Backup Files
 ```bash
 ✅ Tenant/BaseModel.php.backup - Created
-<<<<<<< HEAD
-<<<<<<< HEAD
-✅ <nome progetto>/BaseModel.php.backup - Created
-=======
 ✅ Fixcity/BaseModel.php.backup - Created
->>>>>>> laraxot/dev
-=======
-✅ Fixcity/BaseModel.php.backup - Created
->>>>>>> laraxot/dev
 ```
 
 ### 3. Environment
@@ -387,21 +313,9 @@ abstract class BaseModel extends XotBaseModel
 cp laravel/Modules/Tenant/app/Models/BaseModel.php.backup \
    laravel/Modules/Tenant/app/Models/BaseModel.php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome progetto>
-cp laravel/Modules/<nome progetto>/app/Models/BaseModel.php.backup \
-   laravel/Modules/<nome progetto>/app/Models/BaseModel.php
-=======
 # Fixcity
 cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
    laravel/Modules/Fixcity/app/Models/BaseModel.php
->>>>>>> laraxot/dev
-=======
-# Fixcity
-cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
-   laravel/Modules/Fixcity/app/Models/BaseModel.php
->>>>>>> laraxot/dev
 ```
 
 **Nota**: Blog, Cms, User, Notify non hanno backup perché modifiche minori (solo pulizia casts)
@@ -421,15 +335,7 @@ cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
 ### Immediati (Opzionali)
 1. ✅ Test funzionali sui moduli modificati
 2. ✅ Verifica relazioni Eloquent
-<<<<<<< HEAD
-<<<<<<< HEAD
-3. ✅ Test SoftDeletes su <nome progetto>
-=======
 3. ✅ Test SoftDeletes su Fixcity
->>>>>>> laraxot/dev
-=======
-3. ✅ Test SoftDeletes su Fixcity
->>>>>>> laraxot/dev
 
 ### Breve Termine
 1. 📝 Aggiornare documentazione moduli
@@ -447,15 +353,7 @@ cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
 
 ### Obiettivi Raggiunti
 - ✅ **Tenant refactorato** (CRITICO risolto)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ **<nome progetto> pulito** (duplicazioni rimosse)
-=======
 - ✅ **Fixcity pulito** (duplicazioni rimosse)
->>>>>>> laraxot/dev
-=======
-- ✅ **Fixcity pulito** (duplicazioni rimosse)
->>>>>>> laraxot/dev
 - ✅ **6 moduli ottimizzati** (casts puliti)
 - ✅ **100% conformità** pattern XotBaseModel
 - ✅ **0 errori sintassi** PHP

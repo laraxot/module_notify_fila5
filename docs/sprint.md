@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Sprint Planning Meeting - <nome progetto> Platform
-=======
 # Sprint Planning Meeting - FixCity Platform
->>>>>>> laraxot/dev
-=======
-# Sprint Planning Meeting - FixCity Platform
->>>>>>> laraxot/dev
 
 > **Version**: 1.0.0
 > **Last Updated**: 2026-03-13

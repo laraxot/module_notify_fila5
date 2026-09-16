@@ -42,15 +42,7 @@ return [
             'tooltip' => ''],
         'notes' => [
             'description' => 'notes',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'notes',
->>>>>>> laraxot/dev
-=======
-            'helper_text' => 'notes',
->>>>>>> laraxot/dev
             'placeholder' => 'notes',
             'label' => 'notes',
             'tooltip' => '']],

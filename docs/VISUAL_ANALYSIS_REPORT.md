@@ -257,15 +257,7 @@ MODULE INDEX        THEME INDEX      ARCHITECTURE
 ### Documentation Metrics
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-PROJECT: <nome progetto> Fila5
-=======
 PROJECT: FixCity Fila5
->>>>>>> laraxot/dev
-=======
-PROJECT: FixCity Fila5
->>>>>>> laraxot/dev
 ANALYSIS DATE: 2026-04-02
 
 DOCUMENTATION FILES
@@ -440,15 +432,7 @@ TASK: "Understand system architecture"
 
 ```
 Filesystem Server
-<<<<<<< HEAD
-<<<<<<< HEAD
-└─ Reads: /var/www/_bases/<repo progetto>/
-=======
 └─ Reads: /var/www/_bases/base_ptv_fila5/
->>>>>>> laraxot/dev
-=======
-└─ Reads: /var/www/_bases/base_ptv_fila5/
->>>>>>> laraxot/dev
    └─ Indexes all docs
    └─ Enables fast file navigation
 
@@ -484,15 +468,7 @@ Memory Server
 
 ```
 ┌──────────────────────────────────────────────┐
-<<<<<<< HEAD
-<<<<<<< HEAD
-│  <nome progetto> Documentation Health Dashboard      │
-=======
 │  FixCity Documentation Health Dashboard      │
->>>>>>> laraxot/dev
-=======
-│  FixCity Documentation Health Dashboard      │
->>>>>>> laraxot/dev
 ├──────────────────────────────────────────────┤
 │                                              │
 │ Overall Health:        ████████████ 95% ✅   │

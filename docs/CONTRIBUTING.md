@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Contributing to $MOD
-
-## Development
-
-```bash
-cd laravel
-composer dev
-./vendor/bin/pest Modules/$MOD/tests
-./vendor/bin/phpstan analyse Modules/$MOD --memory-limit=-1
-```
-
-## Before Submitting
-
-- [ ] Tests pass
-- [ ] PHPStan L10 passes
-- [ ] Code style (Pint) applied
-- [ ] Documentation updated
-
-See ARCHITECTURE.md for design decisions.
-=======
-=======
->>>>>>> laraxot/dev
 # Contributing to FixCity
 
 First off, thank you for considering contributing to FixCity! 🎉
@@ -360,7 +336,3 @@ By contributing, you agree that your contributions will be licensed under the sa
 ---
 
 **Thank you for contributing to FixCity! 🚀**
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev

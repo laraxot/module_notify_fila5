@@ -62,15 +62,7 @@ class AppServiceProvider extends ServiceProvider
 
 ```json
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "name": "<nome progetto>/theme-sixteen",
-=======
     "name": "fixcity/theme-sixteen",
->>>>>>> laraxot/dev
-=======
-    "name": "fixcity/theme-sixteen",
->>>>>>> laraxot/dev
     "name": "ptv/theme-sixteen",
     "extra": {
         "laravel": {
@@ -251,15 +243,7 @@ class AppServiceProvider extends ServiceProvider
 ### 2. Theme composer.json Complete
 ```json
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "name": "<nome progetto>/theme-sixteen",
-=======
     "name": "fixcity/theme-sixteen",
->>>>>>> laraxot/dev
-=======
-    "name": "fixcity/theme-sixteen",
->>>>>>> laraxot/dev
     "name": "ptv/theme-sixteen",
     "extra": {
         "laravel": {

@@ -74,32 +74,14 @@ laravel/Themes/Sixteen/
 ```json
 {
   "slug": "tests.homepage",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "title": "Homepage - Comune di <nome progetto>",
-  "meta_description": "Sito ufficiale del Comune di <nome progetto>",
-=======
   "title": "Homepage - Comune di FixCity",
   "meta_description": "Sito ufficiale del Comune di FixCity",
->>>>>>> laraxot/dev
-=======
-  "title": "Homepage - Comune di FixCity",
-  "meta_description": "Sito ufficiale del Comune di FixCity",
->>>>>>> laraxot/dev
   "blocks": [
     {
       "type": "header",
       "view": "pub_theme::components.blocks.header.main",
       "data": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "institution_name": "Comune di <nome progetto>",
-=======
         "institution_name": "Comune di FixCity",
->>>>>>> laraxot/dev
-=======
-        "institution_name": "Comune di FixCity",
->>>>>>> laraxot/dev
         "tagline": "Un comune da vivere",
         "logo_url": "/themes/sixteen/images/logo.svg"
       }
@@ -108,15 +90,7 @@ laravel/Themes/Sixteen/
       "type": "hero",
       "view": "pub_theme::components.blocks.hero.default",
       "data": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "title": "Benvenuto nel Comune di <nome progetto>",
-=======
         "title": "Benvenuto nel Comune di FixCity",
->>>>>>> laraxot/dev
-=======
-        "title": "Benvenuto nel Comune di FixCity",
->>>>>>> laraxot/dev
         "subtitle": "Scopri i servizi, le novità e le opportunità",
         "background_image": "/images/hero-bg.jpg"
       }

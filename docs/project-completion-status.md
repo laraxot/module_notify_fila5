@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "🎯 <nome progetto> - STATO COMPLETAMENTO PROGETTO"
-=======
 title: "🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO"
->>>>>>> laraxot/dev
-=======
-title: "🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO"
->>>>>>> laraxot/dev
 type: concept
 tags: [project, completion, status]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "project-completion-status 🎯 <nome progetto> - stato completamento progetto"
-qmd: "project-completion-status 🎯 ptv - stato completamento progetto"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "project-completion-status 🎯 fixcity - stato completamento progetto"
 qmd: "project-completion-status 🎯 ptv - stato completamento progetto"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🎯 <nome progetto> - STATO COMPLETAMENTO PROGETTO
-=======
 # 🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO
->>>>>>> laraxot/dev
-=======
-# 🎯 FIXCITY - STATO COMPLETAMENTO PROGETTO
->>>>>>> laraxot/dev
 
 **Data**: 2025-10-01  
 **Status**: 🚧 IN CORSO - Documentazione 75% completata  
@@ -65,15 +36,7 @@ related:
 - ✅ **quick-start.md** - Guida rapida sviluppatori
 - ✅ **WORK-COMPLETED-.md.md** - Riepilogo aggiornamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 🎫 Modulo <nome progetto> (85% → 90%)
-=======
 ### 🎫 Modulo Fixcity (85% → 90%)
->>>>>>> laraxot/dev
-=======
-### 🎫 Modulo Fixcity (85% → 90%)
->>>>>>> laraxot/dev
 - ✅ **ROADMAP_2025.md** - Aggiornato timeline Q4 2025-Q2 2026
 - ✅ **API.md** - Documentazione API completa (NEW)
 - ✅ **USER_GUIDE.md** - Guida utente cittadini completa (NEW)
@@ -90,15 +53,7 @@ related:
 ## 📊 STATO DOCUMENTAZIONE MODULI
 
 ### ✅ Completati (90%+)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: 90% - API, User Guide, Admin Guide completate
-=======
 - **Fixcity**: 90% - API, User Guide, Admin Guide completate
->>>>>>> laraxot/dev
-=======
-- **Fixcity**: 90% - API, User Guide, Admin Guide completate
->>>>>>> laraxot/dev
 - **User**: 92% - Roadmap aggiornata
 - **Xot**: 95% - Documentazione completa
 
@@ -168,15 +123,7 @@ related:
 
 ### Qualità Codice
 - **PHPStan Level 9**: ✅ 0 errori
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Filament 5.x**: ✅ Compatibile
-=======
 - **Filament 4.x**: ✅ Compatibile
->>>>>>> laraxot/dev
-=======
-- **Filament 4.x**: ✅ Compatibile
->>>>>>> laraxot/dev
 - **Test Coverage**: 🚧 65% (target 80%)
 - **AGID Compliance**: 🚧 90% (target 100%)
 
@@ -196,15 +143,7 @@ related:
 
 ### Week 1 (Ottobre 2025) - CURRENT
 - [x] Aggiornare roadmap principali
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Creare documentazione API <nome progetto>
-=======
 - [x] Creare documentazione API Fixcity
->>>>>>> laraxot/dev
-=======
-- [x] Creare documentazione API Fixcity
->>>>>>> laraxot/dev
 - [x] Creare guide utente e admin
 - [ ] Completare docs modulo User
 - [ ] Completare docs modulo UI
@@ -238,30 +177,14 @@ related:
 4. **WORK-COMPLETED-.md.md** - Riepilogo aggiornamenti
 5. **project-completion-status.md** - Questo documento
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Modulo <nome progetto> (3 documenti)
-=======
 ### Modulo Fixcity (3 documenti)
->>>>>>> laraxot/dev
-=======
-### Modulo Fixcity (3 documenti)
->>>>>>> laraxot/dev
 1. **API.md** - Documentazione API RESTful completa
 2. **USER_GUIDE.md** - Guida utente cittadini (15 sezioni)
 3. **ADMIN_GUIDE.md** - Guida amministratori (18 sezioni)
 
 ### Roadmap Aggiornate (3 documenti)
 1. **roadmap-status-summary.md** - Master roadmap
-<<<<<<< HEAD
-<<<<<<< HEAD
-2. **<nome progetto>/ROADMAP_2025.md** - Roadmap modulo
-=======
 2. **Fixcity/ROADMAP_2025.md** - Roadmap modulo
->>>>>>> laraxot/dev
-=======
-2. **Fixcity/ROADMAP_2025.md** - Roadmap modulo
->>>>>>> laraxot/dev
 3. **User/roadmap.md** - Roadmap modulo
 4. **Sixteen/ROADMAP_2025.md** - Roadmap tema
 
@@ -272,18 +195,8 @@ related:
 ## 🔗 STRUTTURA DOCUMENTAZIONE
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<repo progetto>/
-<repo progetto>/
-=======
 base_fixcity_fila5_mono/
 base_ptv_fila5_mono/
->>>>>>> laraxot/dev
-=======
-base_fixcity_fila5_mono/
-base_ptv_fila5_mono/
->>>>>>> laraxot/dev
 ├── documentation-index.md          # ✅ Indice generale
 ├── quick-start.md                  # ✅ Guida rapida
 ├── roadmap-status-summary.md       # ✅ Status master
@@ -295,15 +208,7 @@ base_ptv_fila5_mono/
 │
 └── laravel/
     ├── Modules/
-<<<<<<< HEAD
-<<<<<<< HEAD
-    │   ├── <nome progetto>/docs/
-=======
     │   ├── Fixcity/docs/
->>>>>>> laraxot/dev
-=======
-    │   ├── Fixcity/docs/
->>>>>>> laraxot/dev
     │   │   ├── README.md           # ✅ Completo
     │   │   ├── ROADMAP_2025.md     # ✅ Aggiornato
     │   │   ├── API.md              # ✅ NEW
@@ -361,21 +266,9 @@ base_ptv_fila5_mono/
 - **Doc Lead**: Documentazione
 
 ### Supporto
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Email**: dev@<nome progetto>.it
-- **Docs**: docs@<nome progetto>.it
-- **Slack**: #<nome progetto>-dev
-=======
 - **Email**: dev@fixcity.it
 - **Docs**: docs@fixcity.it
 - **Slack**: #fixcity-dev
->>>>>>> laraxot/dev
-=======
-- **Email**: dev@fixcity.it
-- **Docs**: docs@fixcity.it
-- **Slack**: #fixcity-dev
->>>>>>> laraxot/dev
 - **Email**: dev@ptv.it
 - **Docs**: docs@ptv.it
 - **Slack**: #ptv-dev

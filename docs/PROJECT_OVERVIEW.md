@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🏛️ <nome progetto> - Civic Engagement Platform
-=======
 # 🏛️ FIXCITY - Civic Engagement Platform
->>>>>>> laraxot/dev
-=======
-# 🏛️ FIXCITY - Civic Engagement Platform
->>>>>>> laraxot/dev
 
 > **Piattaforma di segnalazione civica per la gestione intelligente dei disservizi urbani**
 
@@ -14,15 +6,7 @@
 
 ## 🎯 Project Purpose
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto>** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
-=======
 **FIXCITY** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
->>>>>>> laraxot/dev
-=======
-**FIXCITY** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
->>>>>>> laraxot/dev
 
 ### Vision
 Trasformare il rapporto cittadino-amministrazione attraverso:
@@ -38,28 +22,12 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 ### Tech Stack
 
 **Backend**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Laravel 13.24.0 + PHP 8.3.20
-=======
 - Laravel 12.24.0 + PHP 8.3.20
->>>>>>> laraxot/dev
-=======
-- Laravel 12.24.0 + PHP 8.3.20
->>>>>>> laraxot/dev
 - SQLite (development) / PostgreSQL (production ready)
 - Nwidart Modules + Laraxot Extensions
 
 **Frontend Backoffice**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Filament 5.x (Admin Panels)
-=======
 - Filament 4.x (Admin Panels)
->>>>>>> laraxot/dev
-=======
-- Filament 4.x (Admin Panels)
->>>>>>> laraxot/dev
 - Livewire 3.x (Interattività)
 - Tailwind CSS 4.0
 
@@ -79,15 +47,7 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 
 ### Core Modules (22 attivi)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### 1. **<nome progetto>** - Business Logic Core
-=======
 #### 1. **Fixcity** - Business Logic Core
->>>>>>> laraxot/dev
-=======
-#### 1. **Fixcity** - Business Logic Core
->>>>>>> laraxot/dev
 **Scopo**: Sistema principale di gestione ticket
 **Componenti**:
 - Models: Ticket, TicketActivity, TicketWorkflowService
@@ -411,15 +371,7 @@ Team
 - **Query Count**: <5 (list), <3 (detail)
 - **Memory**: <8MB (list), <5MB (detail)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Optimization Strategy**: See `/Modules/<nome progetto>/docs/performance-issues.md`
-=======
 **Optimization Strategy**: See `/Modules/Fixcity/docs/performance-issues.md`
->>>>>>> laraxot/dev
-=======
-**Optimization Strategy**: See `/Modules/Fixcity/docs/performance-issues.md`
->>>>>>> laraxot/dev
 
 ---
 

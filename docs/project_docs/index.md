@@ -1,28 +1,12 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "📚 Documentation Index - <nome progetto> Project"
-=======
 title: "📚 Documentation Index - FixCity Project"
->>>>>>> laraxot/dev
-=======
-title: "📚 Documentation Index - FixCity Project"
->>>>>>> laraxot/dev
 title: "📚 Documentation Index - Notify Project"
 type: index
 tags: [notify, docs, project_docs]
 module: Notify
 created: 2026-07-20
 updated: 2026-07-20
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "notify documentazione project_docs index 📚 documentation index - <nome progetto> project index readme frontmatter qmd search"
-=======
 qmd: "notify documentazione project_docs index 📚 documentation index - fixcity project index readme frontmatter qmd search"
->>>>>>> laraxot/dev
-=======
-qmd: "notify documentazione project_docs index 📚 documentation index - fixcity project index readme frontmatter qmd search"
->>>>>>> laraxot/dev
 qmd: "notify documentazione project_docs index 📚 documentation index - laraxot project index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
@@ -35,15 +19,7 @@ related:
   - ../integrations/readme.md
   - ../templates/readme.md
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 📚 Documentation Index - <nome progetto> Project
-=======
 # 📚 Documentation Index - FixCity Project
->>>>>>> laraxot/dev
-=======
-# 📚 Documentation Index - FixCity Project
->>>>>>> laraxot/dev
 # 📚 Documentation Index - Notify Project
 
 **Last Updated:** 2025-10-01 21:47  
@@ -194,15 +170,7 @@ Each module has a `docs/` directory containing:
 - [Extensive documentation](../Modules/User/docs/)
 
 #### Other Modules
-<<<<<<< HEAD
-<<<<<<< HEAD
-- AI, Activity, Blog, Cms, Comment, <nome progetto>, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
-=======
 - AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
->>>>>>> laraxot/dev
-=======
-- AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
->>>>>>> laraxot/dev
 - AI, Activity, Blog, Cms, Comment, App, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
 - Each with cyclomatic complexity report
 
@@ -482,15 +450,7 @@ All documents include:
 ## 📞 Contact
 
 ### Documentation Team
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Email:** docs@<nome progetto>.com
-=======
 - **Email:** docs@fixcity.com
->>>>>>> laraxot/dev
-=======
-- **Email:** docs@fixcity.com
->>>>>>> laraxot/dev
 - **Email:** docs@laraxot.com
 - **GitHub:** Open an issue
 - **Slack:** #documentation

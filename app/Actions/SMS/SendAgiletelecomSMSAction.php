@@ -4,15 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Notify\Contracts\SMS\SmsActionContract;
-=======
 use Modules\Notify\Models\Contracts\SmsActionContract;
->>>>>>> laraxot/dev
-=======
-use Modules\Notify\Models\Contracts\SmsActionContract;
->>>>>>> laraxot/dev
 use Modules\Notify\Datas\SmsData;
 use Override;
 use Spatie\QueueableAction\QueueableAction;
@@ -27,13 +19,6 @@ class SendAgiletelecomSMSAction implements SmsActionContract
     /**
      * @return array<string, mixed>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     public function execute(SmsData $data): array
     {
         return app(SendAgiletelecomSMSv2Action::class)->execute($data);

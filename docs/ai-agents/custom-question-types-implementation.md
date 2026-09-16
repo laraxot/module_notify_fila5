@@ -10,30 +10,14 @@ Implementazione completa delle custom question types da Fila4 a Fila5, con integ
 
 ### 1. RootGroupedBf ✅
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/RootGroupedBf.php`
 
 **Scopo**: Raggruppa domande per `gid` e calcola valutazioni 1-5 vs 6-10
 
 **Pattern**: `custom:root_grouped_bf`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Esempio URL**: http://127.0.0.1:8000/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/234
-=======
 **Esempio URL**: http://127.0.0.1:8000/quaeris/admin/ats/survey-pdfs/16/question-charts/234
->>>>>>> laraxot/dev
-=======
-**Esempio URL**: http://127.0.0.1:8000/quaeris/admin/ats/survey-pdfs/16/question-charts/234
->>>>>>> laraxot/dev
 **Esempio URL**: http://127.0.0.1:8000/this-project/admin/ats/survey-pdfs/16/question-charts/234
 
 **Logica**:
@@ -58,30 +42,14 @@ AnswersChartData {
 
 ### 2. MailResponseRate ✅
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/MailResponseRate.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/MailResponseRate.php`
 
 **Scopo**: Calcola tasso di risposta email
 
 **Pattern**: `custom:mail_response_rate`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Esempio URL**: http://127.0.0.1:8000/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/192
-=======
 **Esempio URL**: http://127.0.0.1:8000/quaeris/admin/ats/survey-pdfs/16/question-charts/192
->>>>>>> laraxot/dev
-=======
-**Esempio URL**: http://127.0.0.1:8000/quaeris/admin/ats/survey-pdfs/16/question-charts/192
->>>>>>> laraxot/dev
 **Esempio URL**: http://127.0.0.1:8000/this-project/admin/ats/survey-pdfs/16/question-charts/192
 
 **Logica**:
@@ -104,30 +72,14 @@ AnswersChartData {
 
 ### 3. SmsResponseRate ✅
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/SmsResponseRate.php`
 
 **Scopo**: Calcola tasso di risposta SMS
 
 **Pattern**: `custom:sms_response_rate`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Esempio URL**: http://127.0.0.1:8000/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/191
-=======
 **Esempio URL**: http://127.0.0.1:8000/quaeris/admin/ats/survey-pdfs/16/question-charts/191
->>>>>>> laraxot/dev
-=======
-**Esempio URL**: http://127.0.0.1:8000/quaeris/admin/ats/survey-pdfs/16/question-charts/191
->>>>>>> laraxot/dev
 **Esempio URL**: http://127.0.0.1:8000/this-project/admin/ats/survey-pdfs/16/question-charts/191
 
 **Logica**:
@@ -138,30 +90,14 @@ AnswersChartData {
 
 ### 4. ContactsCompleted ✅
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/ContactsCompleted.php`
 
 **Scopo**: Conta contatti completati
 
 **Pattern**: `custom:contacts_completed`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Esempio URL**: http://127.0.0.1:8000/<nome progetto>/admin/ats/survey-pdfs/16/question-charts/190
-=======
 **Esempio URL**: http://127.0.0.1:8000/quaeris/admin/ats/survey-pdfs/16/question-charts/190
->>>>>>> laraxot/dev
-=======
-**Esempio URL**: http://127.0.0.1:8000/quaeris/admin/ats/survey-pdfs/16/question-charts/190
->>>>>>> laraxot/dev
 **Esempio URL**: http://127.0.0.1:8000/this-project/admin/ats/survey-pdfs/16/question-charts/190
 
 **Logica**:
@@ -173,15 +109,7 @@ AnswersChartData {
 
 ### 5. ContactsCompleted2 ✅
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/ContactsCompleted2.php`
 
 **Scopo**: Variante di ContactsCompleted
@@ -192,15 +120,7 @@ AnswersChartData {
 
 ### 6. AvgGroup2 ✅
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/AvgGroup2.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/AvgGroup2.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/Custom/AvgGroup2.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/Custom/AvgGroup2.php`
 
 **Scopo**: Calcola medie per gruppo
@@ -213,15 +133,7 @@ AnswersChartData {
 
 ### GetAnswersByQuestionChart
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
-=======
 **File**: `Modules/Quaeris/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
 
 **Custom Action Map**:
@@ -256,15 +168,7 @@ private function handleCustomQuestionType(...): AnswersChartData
 
 ### Pest Test Suite
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php`
-=======
 **File**: `Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php`
->>>>>>> laraxot/dev
 **File**: `Modules/App/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php`
 
 **Test Cases**: 10+
@@ -292,23 +196,10 @@ it('can handle RootGroupedBf custom question', function (): void {
 cd ./laravel
 
 # Esegui test custom questions
-<<<<<<< HEAD
-<<<<<<< HEAD
-./vendor/bin/pest Modules/<nome progetto>/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
-
-# Con coverage
-XDEBUG_MODE=off ./vendor/bin/pest Modules/<nome progetto>/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php --coverage
-=======
-=======
->>>>>>> laraxot/dev
 ./vendor/bin/pest Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
 
 # Con coverage
 XDEBUG_MODE=off ./vendor/bin/pest Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php --coverage
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 ---
@@ -343,18 +234,8 @@ XDEBUG_MODE=off ./vendor/bin/pest Modules/Quaeris/tests/Unit/Actions/QuestionCha
 ### Example: RootGroupedBf
 
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\<nome progetto>\Actions\QuestionChart\Custom\RootGroupedBf;
-use Modules\<nome progetto>\Models\QuestionChart;
-=======
 use Modules\Quaeris\Actions\QuestionChart\Custom\RootGroupedBf;
 use Modules\Quaeris\Models\QuestionChart;
->>>>>>> laraxot/dev
-=======
-use Modules\Quaeris\Actions\QuestionChart\Custom\RootGroupedBf;
-use Modules\Quaeris\Models\QuestionChart;
->>>>>>> laraxot/dev
 use Modules\App\Actions\QuestionChart\Custom\RootGroupedBf;
 use Modules\App\Models\QuestionChart;
 
@@ -374,18 +255,8 @@ foreach ($result->answers as $answer) {
 ### Example: MailResponseRate
 
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\<nome progetto>\Actions\QuestionChart\Custom\MailResponseRate;
-use Modules\<nome progetto>\Datas\AnswersFilterData;
-=======
 use Modules\Quaeris\Actions\QuestionChart\Custom\MailResponseRate;
 use Modules\Quaeris\Datas\AnswersFilterData;
->>>>>>> laraxot/dev
-=======
-use Modules\Quaeris\Actions\QuestionChart\Custom\MailResponseRate;
-use Modules\Quaeris\Datas\AnswersFilterData;
->>>>>>> laraxot/dev
 use Modules\App\Actions\QuestionChart\Custom\MailResponseRate;
 use Modules\App\Datas\AnswersFilterData;
 
@@ -499,26 +370,6 @@ return AnswersChartData::from([
 ## References
 
 ### Fila4 Source
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `./laravel/Modules/<nome progetto>/app/Actions/QuestionChart/Custom/`
-
-### Fila5 Implementation
-- `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/`
-- `Modules/<nome progetto>/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
-
-### Tests
-- `Modules/<nome progetto>/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php`
-
-### Fila5 Implementation
-- `Modules/<nome progetto>/app/Actions/QuestionChart/Custom/`
-- `Modules/<nome progetto>/app/Actions/QuestionChart/GetAnswersByQuestionChart.php`
-
-### Tests
-- `Modules/<nome progetto>/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php`
-=======
-=======
->>>>>>> laraxot/dev
 - `./laravel/Modules/Quaeris/app/Actions/QuestionChart/Custom/`
 
 ### Fila5 Implementation
@@ -534,10 +385,6 @@ return AnswersChartData::from([
 
 ### Tests
 - `Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php`
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ### GitHub
 - [Custom Chart Implementation Issue](.github/ISSUE_TEMPLATE/custom-chart-implementation.md)

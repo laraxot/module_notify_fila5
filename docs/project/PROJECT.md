@@ -1,20 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# PROJECT: <nome progetto> Platform
-
-## Vision
-Transform <nome progetto> from a functional MVP to a national-scale enterprise-ready platform for managing urban disservices.
-=======
-=======
->>>>>>> laraxot/dev
 # PROJECT: FixCity Platform
 
 ## Vision
 Transform FixCity from a functional MVP to a national-scale enterprise-ready platform for managing urban disservices.
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ## Objectives
 - Scalable modular architecture (Laraxot).
@@ -33,15 +20,7 @@ Transform FixCity from a functional MVP to a national-scale enterprise-ready pla
 - BMAD & GSD Methodologies
 
 ## Context
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Project: <repo progetto>
-=======
 - Project: base_fixcity_fila5
->>>>>>> laraxot/dev
-=======
-- Project: base_fixcity_fila5
->>>>>>> laraxot/dev
 - Language: PHP 8.3
 - Date: March 2026
 
@@ -49,12 +28,4 @@ Transform FixCity from a functional MVP to a national-scale enterprise-ready pla
 - [Filosofia del Progetto](./philosophy.md) - Logica, religione, politica, zen dello sviluppo
 
 ## Content Blocks
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [<nome progetto> Pages Content Blocks](./<nome progetto>-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli
-=======
 - [FixCity Pages Content Blocks](./fixcity-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli
->>>>>>> laraxot/dev
-=======
-- [FixCity Pages Content Blocks](./fixcity-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli
->>>>>>> laraxot/dev

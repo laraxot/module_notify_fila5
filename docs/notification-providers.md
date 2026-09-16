@@ -1,14 +1,6 @@
 # Guida Completa ai Provider di Notifiche 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
-=======
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di Quaeris.
->>>>>>> laraxot/dev
-=======
-Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di Quaeris.
->>>>>>> laraxot/dev
 
 ## Principi Architetturali per Tutti i Provider
 

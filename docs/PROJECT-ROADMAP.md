@@ -1,20 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# ROADMAP PRINCIPALE - Progetto <nome progetto>
-
-## Scopo del Progetto
-<nome progetto> è un sistema completo di gestione dei ticket per la manutenzione urbana, progettato per migliorare la qualità della vita cittadina attraverso un sistema di segnalazioni efficiente e trasparente.
-=======
-=======
->>>>>>> laraxot/dev
 # ROADMAP PRINCIPALE - Progetto Fixcity
 
 ## Scopo del Progetto
 Fixcity è un sistema completo di gestione dei ticket per la manutenzione urbana, progettato per migliorare la qualità della vita cittadina attraverso un sistema di segnalazioni efficiente e trasparente.
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ## Visione del Progetto
 Creare una piattaforma digitale che connetta cittadini, amministrazioni pubbliche e tecnici per risolvere rapidamente i problemi urbani, migliorando la qualità della vita e la soddisfazione dei cittadini.
@@ -42,15 +29,7 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 ## Architettura del Sistema
 
 ### Moduli Core
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: Gestione ticket e workflow
-=======
 - **Fixcity**: Gestione ticket e workflow
->>>>>>> laraxot/dev
-=======
-- **Fixcity**: Gestione ticket e workflow
->>>>>>> laraxot/dev
 - **User**: Autenticazione e gestione utenti
 - **Notify**: Sistema notifiche multi-canale
 - **Geo**: Geolocalizzazione e mappe
@@ -188,18 +167,6 @@ Creare una piattaforma digitale che connetta cittadini, amministrazioni pubblich
 - [Financial Projections](./financial-projections.md)
 
 ## Conclusioni
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il progetto <nome progetto> rappresenta un'opportunità unica per rivoluzionare la gestione della manutenzione urbana attraverso la tecnologia. Con un'architettura solida, un team dedicato e una roadmap chiara, il progetto è pronto per diventare il leader di mercato nel settore della smart city management.
-
-La combinazione di tecnologie moderne, user experience ottimizzata e business logic innovativa posiziona <nome progetto> come la soluzione ideale per amministrazioni pubbliche che vogliono migliorare la qualità dei servizi ai cittadini.
-=======
 Il progetto Fixcity rappresenta un'opportunità unica per rivoluzionare la gestione della manutenzione urbana attraverso la tecnologia. Con un'architettura solida, un team dedicato e una roadmap chiara, il progetto è pronto per diventare il leader di mercato nel settore della smart city management.
 
 La combinazione di tecnologie moderne, user experience ottimizzata e business logic innovativa posiziona Fixcity come la soluzione ideale per amministrazioni pubbliche che vogliono migliorare la qualità dei servizi ai cittadini.
->>>>>>> laraxot/dev
-=======
-Il progetto Fixcity rappresenta un'opportunità unica per rivoluzionare la gestione della manutenzione urbana attraverso la tecnologia. Con un'architettura solida, un team dedicato e una roadmap chiara, il progetto è pronto per diventare il leader di mercato nel settore della smart city management.
-
-La combinazione di tecnologie moderne, user experience ottimizzata e business logic innovativa posiziona Fixcity come la soluzione ideale per amministrazioni pubbliche che vogliono migliorare la qualità dei servizi ai cittadini.
->>>>>>> laraxot/dev

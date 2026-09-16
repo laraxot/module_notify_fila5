@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🔧 STRUMENTI QUALITÀ CODICE PHP - <nome progetto> PLATFORM
-=======
 # 🔧 STRUMENTI QUALITÀ CODICE PHP - FIXCITY PLATFORM
->>>>>>> laraxot/dev
-=======
-# 🔧 STRUMENTI QUALITÀ CODICE PHP - FIXCITY PLATFORM
->>>>>>> laraxot/dev
 # 🔧 STRUMENTI QUALITÀ CODICE PHP - NOTIFY PLATFORM
 
 **Versione**: 1.0  
@@ -15,15 +7,7 @@
 **Priorità**: CRITICAL  
 
 ## 🎯 OBIETTIVO
-<<<<<<< HEAD
-<<<<<<< HEAD
-Implementare un ecosistema completo di strumenti per la qualità del codice PHP nel progetto <nome progetto>, garantendo standard enterprise e manutenibilità del codice.
-=======
 Implementare un ecosistema completo di strumenti per la qualità del codice PHP nel progetto FixCity, garantendo standard enterprise e manutenibilità del codice.
->>>>>>> laraxot/dev
-=======
-Implementare un ecosistema completo di strumenti per la qualità del codice PHP nel progetto FixCity, garantendo standard enterprise e manutenibilità del codice.
->>>>>>> laraxot/dev
 Implementare un ecosistema completo di strumenti per la qualità del codice PHP nel progetto Notify, garantendo standard enterprise e manutenibilità del codice.
 
 ## 🛠️ STRUMENTI QUALITÀ CODICE
@@ -245,29 +229,13 @@ jobs:
 ### PHPMD Ruleset Personalizzato
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<ruleset name="<nome progetto> PHP Mess Detector Rules"
-=======
 <ruleset name="FixCity PHP Mess Detector Rules"
->>>>>>> laraxot/dev
-=======
-<ruleset name="FixCity PHP Mess Detector Rules"
->>>>>>> laraxot/dev
 <ruleset name="Notify PHP Mess Detector Rules"
          xmlns="http://pmd.sf.net/ruleset/1.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sf.net/ruleset/1.0.0 http://pmd.sf.net/ruleset_xml_schema.xsd">
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <description>Regole personalizzate per <nome progetto> Platform</description>
-=======
     <description>Regole personalizzate per FixCity Platform</description>
->>>>>>> laraxot/dev
-=======
-    <description>Regole personalizzate per FixCity Platform</description>
->>>>>>> laraxot/dev
     <description>Regole personalizzate per Notify Platform</description>
 
     <!-- Clean Code Rules -->
@@ -498,15 +466,7 @@ return (new PhpCsFixer\Config())
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Questo sistema garantisce la massima qualità del codice nel progetto <nome progetto> Platform.*
-=======
 *Questo sistema garantisce la massima qualità del codice nel progetto FixCity Platform.*
->>>>>>> laraxot/dev
-=======
-*Questo sistema garantisce la massima qualità del codice nel progetto FixCity Platform.*
->>>>>>> laraxot/dev
 *Questo sistema garantisce la massima qualità del codice nel progetto Notify Platform.*
 
 

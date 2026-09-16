@@ -6,15 +6,7 @@
 
 ## Problem
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-The application was using deprecated Filament 3 components that don't exist in Filament 5:
-=======
 The application was using deprecated Filament 3 components that don't exist in Filament 4:
->>>>>>> laraxot/dev
-=======
-The application was using deprecated Filament 3 components that don't exist in Filament 4:
->>>>>>> laraxot/dev
 - `<x-filament-panels::form.actions>`
 - `<x-filament-panels::form>`
 
@@ -27,15 +19,7 @@ The application was using deprecated Filament 3 components that don't exist in F
 <x-filament-panels::form.actions :actions="$this->getEmailFormActions()" />
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Filament 5 (Correct):**
-=======
 **Filament 4 (Correct):**
->>>>>>> laraxot/dev
-=======
-**Filament 4 (Correct):**
->>>>>>> laraxot/dev
 ```blade
 @foreach($this->getEmailFormActions() as $action)
     {{ $action }}
@@ -51,15 +35,7 @@ The application was using deprecated Filament 3 components that don't exist in F
 </x-filament-panels::form>
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Filament 5 (Correct):**
-=======
 **Filament 4 (Correct):**
->>>>>>> laraxot/dev
-=======
-**Filament 4 (Correct):**
->>>>>>> laraxot/dev
 ```blade
 <form wire:submit="sendEmail()">
     {{ $this->emailForm }}
@@ -83,18 +59,8 @@ php artisan optimize        # ✅ Config, Events, Routes cached successfully
 
 ## Reference
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Filament 5 Actions Documentation](https://filamentphp.com/docs/4.x/components/action)
-- In Filament 5, actions are rendered directly using `{{ $this->actionName }}` or by iterating over action arrays
-=======
 - [Filament 4 Actions Documentation](https://filamentphp.com/docs/4.x/components/action)
 - In Filament 4, actions are rendered directly using `{{ $this->actionName }}` or by iterating over action arrays
->>>>>>> laraxot/dev
-=======
-- [Filament 4 Actions Documentation](https://filamentphp.com/docs/4.x/components/action)
-- In Filament 4, actions are rendered directly using `{{ $this->actionName }}` or by iterating over action arrays
->>>>>>> laraxot/dev
 - Form components should use standard HTML `<form>` tags with Livewire directives
 
 ## Known Issues

@@ -28,15 +28,7 @@ class ContactSection extends XotBaseSection
      */
     protected function getFormSchema(): array
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return ContactTypeEnum::getFormSchema();
-=======
         return ContactTypeEnum::PHONE->getFormSchema();
->>>>>>> laraxot/dev
-=======
-        return ContactTypeEnum::PHONE->getFormSchema();
->>>>>>> laraxot/dev
     }
 
     /*

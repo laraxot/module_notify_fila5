@@ -45,15 +45,7 @@ class RecordNotification extends Notification implements ShouldQueue
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
-<<<<<<< HEAD
-<<<<<<< HEAD
-->subject('Notifica da <nome progetto>')
-=======
 ->subject('Notifica da Quaeris')
->>>>>>> laraxot/dev
-=======
-->subject('Notifica da Quaeris')
->>>>>>> laraxot/dev
 ->subject('Notifica da App')
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')

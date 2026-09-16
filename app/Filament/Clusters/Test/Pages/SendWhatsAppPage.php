@@ -137,14 +137,6 @@ class SendWhatsAppPage extends XotBasePage
         return [
             'submit' => Action::make('whatsappFormActions')->submit('whatsappFormActions')];
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    #[Override]
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

@@ -22,15 +22,7 @@ Questo significa che:
 ### Opzione 1: Commit Forzato
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
 
 # Aggiungi forzatamente bashscripts
 git add -f bashscripts/git/subtrees/sync_remote_repo.sh
@@ -144,15 +136,7 @@ git commit -m "fix: Description of fix"
 git push origin dev
 
 # 6. Monitora
-<<<<<<< HEAD
-<<<<<<< HEAD
-gh run list --repo laraxot/<repo progetto>
-=======
 gh run list --repo laraxot/base_ptv_fila5
->>>>>>> laraxot/dev
-=======
-gh run list --repo laraxot/base_ptv_fila5
->>>>>>> laraxot/dev
 ```
 
 ---

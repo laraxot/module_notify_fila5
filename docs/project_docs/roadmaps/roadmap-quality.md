@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🏆 ROADMAP QUALITÀ - <nome progetto> PLATFORM
-=======
 # 🏆 ROADMAP QUALITÀ - FIXCITY PLATFORM
->>>>>>> laraxot/dev
-=======
-# 🏆 ROADMAP QUALITÀ - FIXCITY PLATFORM
->>>>>>> laraxot/dev
 # 🏆 ROADMAP QUALITÀ - NOTIFY PLATFORM
 
 **Versione**: 1.0  
@@ -15,15 +7,7 @@
 **Priorità**: ALTA  
 
 ## 🎯 Obiettivo
-<<<<<<< HEAD
-<<<<<<< HEAD
-Raggiungere e mantenere standard di qualità enterprise per il progetto <nome progetto>, garantendo affidabilità, sicurezza e manutenibilità del codice.
-=======
 Raggiungere e mantenere standard di qualità enterprise per il progetto FixCity, garantendo affidabilità, sicurezza e manutenibilità del codice.
->>>>>>> laraxot/dev
-=======
-Raggiungere e mantenere standard di qualità enterprise per il progetto FixCity, garantendo affidabilità, sicurezza e manutenibilità del codice.
->>>>>>> laraxot/dev
 Raggiungere e mantenere standard di qualità enterprise per il progetto Notify, garantendo affidabilità, sicurezza e manutenibilità del codice.
 
 ## 📊 Stato Attuale
@@ -591,18 +575,8 @@ composer require --dev phpstan/phpstan-phpunit
 **📞 Contatti Quality**
 - **Quality Lead**: Quality Assurance Team
 - **Email**: quality@laraxot.com
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Slack**: #<nome progetto>-quality
-- **GitHub**: [<nome progetto> Quality](https://github.com/laraxot/<nome progetto>-quality)
-=======
 - **Slack**: #fixcity-quality
 - **GitHub**: [FixCity Quality](https://github.com/laraxot/fixcity-quality)
->>>>>>> laraxot/dev
-=======
-- **Slack**: #fixcity-quality
-- **GitHub**: [FixCity Quality](https://github.com/laraxot/fixcity-quality)
->>>>>>> laraxot/dev
 - **Slack**: #laraxot-quality
 - **GitHub**: [Notify Quality](https://github.com/laraxot/laraxot-quality)
 

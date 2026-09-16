@@ -5,18 +5,8 @@ tags: [installation, summary]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "installation-summary 🦸 superpowers installation summary"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./installation.md"
   - "./installazione.md"
@@ -36,15 +26,7 @@ related:
 
 ## 📋 Overview
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Successfully installed and configured the **Superpowers** agentic skills framework for the <nome progetto> platform.
-=======
 Successfully installed and configured the **Superpowers** agentic skills framework for the FixCity platform.
->>>>>>> laraxot/dev
-=======
-Successfully installed and configured the **Superpowers** agentic skills framework for the FixCity platform.
->>>>>>> laraxot/dev
 Successfully installed and configured the **Superpowers** agentic skills framework for the Notify platform.
 
 ---

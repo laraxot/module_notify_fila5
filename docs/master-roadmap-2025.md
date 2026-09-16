@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "🗺️ <nome progetto> PLATFORM - MASTER ROADMAP 2025"
-=======
 title: "🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025"
->>>>>>> laraxot/dev
-=======
-title: "🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025"
->>>>>>> laraxot/dev
 type: concept
 tags: [master, roadmap, 2025]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "master-roadmap-2025 🗺️ <nome progetto> platform - master roadmap 2025"
-qmd: "master-roadmap-2025 🗺️ ptv platform - master roadmap 2025"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "master-roadmap-2025 🗺️ fixcity platform - master roadmap 2025"
 qmd: "master-roadmap-2025 🗺️ ptv platform - master roadmap 2025"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🗺️ <nome progetto> PLATFORM - MASTER ROADMAP 2025
-=======
 # 🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025
->>>>>>> laraxot/dev
-=======
-# 🗺️ FIXCITY PLATFORM - MASTER ROADMAP 2025
->>>>>>> laraxot/dev
 
 **Data Creazione**: 2025-01-27  
 **Versione**: 2.0.0  
@@ -60,25 +31,11 @@ related:
 
 ## 🎯 EXECUTIVE SUMMARY
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto>** è una piattaforma **Civic Tech** per il civic engagement urbano che connette cittadini e amministrazioni per rendere le città più vivibili, efficienti e responsive. Il progetto è basato su un'architettura modulare Laravel con Filament 5.x e segue i principi AGID per l'accessibilità.
-
-### 🏆 ACHIEVEMENTS COMPLETATI
-- ✅ **PHPStan Level 9**: 0 errori (da 53 errori iniziali)
-- ✅ **Filament 5.x**: Compatibilità completa
-=======
-=======
->>>>>>> laraxot/dev
 **FixCity** è una piattaforma **Civic Tech** per il civic engagement urbano che connette cittadini e amministrazioni per rendere le città più vivibili, efficienti e responsive. Il progetto è basato su un'architettura modulare Laravel con Filament 4.x e segue i principi AGID per l'accessibilità.
 
 ### 🏆 ACHIEVEMENTS COMPLETATI
 - ✅ **PHPStan Level 9**: 0 errori (da 53 errori iniziali)
 - ✅ **Filament 4.x**: Compatibilità completa
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - ✅ **Architettura Modulare**: 18 moduli funzionanti
 - ✅ **Documentazione**: 60% completata
 - ✅ **Code Quality**: Eccellente
@@ -89,15 +46,7 @@ related:
 
 ### 📊 Business Logic Core
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto> Platform
-=======
 FixCity Platform
->>>>>>> laraxot/dev
-=======
-FixCity Platform
->>>>>>> laraxot/dev
 ├── 🎫 TICKET MANAGEMENT (Core Business)
 │   ├── Segnalazioni cittadine
 │   ├── Workflow di risoluzione
@@ -110,15 +59,7 @@ FixCity Platform
 │   ├── Profili cittadini
 │   └── Social login
 │
-<<<<<<< HEAD
-<<<<<<< HEAD
-├── 🏛️ ADMIN PANEL (Filament 5.x)
-=======
 ├── 🏛️ ADMIN PANEL (Filament 4.x)
->>>>>>> laraxot/dev
-=======
-├── 🏛️ ADMIN PANEL (Filament 4.x)
->>>>>>> laraxot/dev
 │   ├── Dashboard analytics
 │   ├── Gestione ticket
 │   ├── Gestione utenti
@@ -145,15 +86,7 @@ Livello 1: MODULI FOUNDATION
 └── Notify (notifications)
 
 Livello 2: MODULI BUSINESS
-<<<<<<< HEAD
-<<<<<<< HEAD
-├── <nome progetto> (core ticketing) ⭐
-=======
 ├── Fixcity (core ticketing) ⭐
->>>>>>> laraxot/dev
-=======
-├── Fixcity (core ticketing) ⭐
->>>>>>> laraxot/dev
 ├── Comment (discussions)
 ├── Rating (feedback)
 ├── Activity (audit trail)
@@ -178,15 +111,7 @@ Livello 3: TEMI
 #### ✅ Achievements
 - [x] **Architettura Modulare**: 18 moduli funzionanti
 - [x] **PHPStan Level 9**: 0 errori (da 53 iniziali)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] **Filament 5.x**: Compatibilità completa
-=======
 - [x] **Filament 4.x**: Compatibilità completa
->>>>>>> laraxot/dev
-=======
-- [x] **Filament 4.x**: Compatibilità completa
->>>>>>> laraxot/dev
 - [x] **Code Quality**: Eccellente
 - [x] **Documentation**: 60% completata
 - [x] **Testing Setup**: Pest 3.x configurato
@@ -209,15 +134,7 @@ Filament: 3.x → 4.x (100% compatible)
 #### 🎯 Obiettivi Chiave
 - [x] **Ticket Workflow**: Sistema completo di gestione ticket
 - [x] **User Management**: Autenticazione e autorizzazione
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] **Admin Panel**: Filament 5.x completamente funzionale
-=======
 - [x] **Admin Panel**: Filament 4.x completamente funzionale
->>>>>>> laraxot/dev
-=======
-- [x] **Admin Panel**: Filament 4.x completamente funzionale
->>>>>>> laraxot/dev
 - [ ] **API RESTful**: API pubbliche per cittadini
 - [ ] **Mobile Responsive**: Interfaccia mobile ottimizzata
 - [ ] **Notifications**: Sistema notifiche avanzato
@@ -375,15 +292,7 @@ Filament: 3.x → 4.x (100% compatible)
 
 ## 📊 MODULE-SPECIFIC ROADMAPS
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 🎫 <nome progetto> Module (Core Business)
-=======
 ### 🎫 Fixcity Module (Core Business)
->>>>>>> laraxot/dev
-=======
-### 🎫 Fixcity Module (Core Business)
->>>>>>> laraxot/dev
 **Status**: 80% COMPLETATO  
 **Priority**: CRITICAL
 
@@ -392,15 +301,7 @@ Filament: 3.x → 4.x (100% compatible)
 - [x] Workflow service
 - [x] Filament resources
 - [x] PHPStan Level 9 compliance
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Filament 5.x compatibility
-=======
 - [x] Filament 4.x compatibility
->>>>>>> laraxot/dev
-=======
-- [x] Filament 4.x compatibility
->>>>>>> laraxot/dev
 
 #### 🚧 In Progress
 - [ ] **API Endpoints** (Priority: HIGH)
@@ -431,15 +332,7 @@ Filament: 3.x → 4.x (100% compatible)
 - [x] Role-based authorization
 - [x] Profile management
 - [x] PHPStan Level 9 compliance
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Filament 5.x compatibility
-=======
 - [x] Filament 4.x compatibility
->>>>>>> laraxot/dev
-=======
-- [x] Filament 4.x compatibility
->>>>>>> laraxot/dev
 
 #### 🚧 In Progress
 - [ ] **Social Login** (Priority: MEDIUM)
@@ -510,15 +403,7 @@ Filament: 3.x → 4.x (100% compatible)
 #### ✅ Completed
 - [x] Basic theme structure
 - [x] AGID compliance base
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Filament 5.x integration
-=======
 - [x] Filament 4.x integration
->>>>>>> laraxot/dev
-=======
-- [x] Filament 4.x integration
->>>>>>> laraxot/dev
 - [x] Component library foundation
 
 #### 🚧 In Progress
@@ -604,15 +489,7 @@ Filament: 3.x → 4.x (100% compatible)
 
 ### 📊 Technical KPIs
 - [x] **PHPStan Level 9**: 0 errori ✅
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] **Filament 5.x**: Compatibilità completa ✅
-=======
 - [x] **Filament 4.x**: Compatibilità completa ✅
->>>>>>> laraxot/dev
-=======
-- [x] **Filament 4.x**: Compatibilità completa ✅
->>>>>>> laraxot/dev
 - [ ] **Code Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms (p95)
 - [ ] **Uptime**: > 99.9%

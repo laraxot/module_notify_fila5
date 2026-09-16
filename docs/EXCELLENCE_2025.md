@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🏆 <nome progetto> - ECCELLENZA 2025
-=======
 # 🏆 FIXCITY - ECCELLENZA 2025
->>>>>>> laraxot/dev
-=======
-# 🏆 FIXCITY - ECCELLENZA 2025
->>>>>>> laraxot/dev
 
 **Data**: 2025-10-01  
 **Status**: 🚀 BEST IN CLASS  
@@ -16,15 +8,7 @@
 
 ## 🎯 VISIONE
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto> è la piattaforma enterprise leader per la gestione delle segnalazioni urbane, progettata per essere:
-=======
 FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni urbane, progettata per essere:
->>>>>>> laraxot/dev
-=======
-FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni urbane, progettata per essere:
->>>>>>> laraxot/dev
 - **La più accessibile**: 100% AGID compliant
 - **La più sicura**: PHPStan Level 9, 2FA, SSO
 - **La più scalabile**: Architettura modulare, API-first
@@ -42,15 +26,7 @@ FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni u
 4. ✅ **PROJECT_COMPLETION_STATUS.md** - Tracking avanzamento
 5. ✅ **EXCELLENCE_2025.md** - Questo documento
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 🎫 Modulo <nome progetto> - ECCELLENZA (90%)
-=======
 ### 🎫 Modulo Fixcity - ECCELLENZA (90%)
->>>>>>> laraxot/dev
-=======
-### 🎫 Modulo Fixcity - ECCELLENZA (90%)
->>>>>>> laraxot/dev
 - ✅ **API.md** - REST API completa con 15+ endpoints
 - ✅ **USER_GUIDE.md** - Guida cittadini 15 sezioni
 - ✅ **ADMIN_GUIDE.md** - Guida admin 18 sezioni
@@ -82,15 +58,7 @@ FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni u
 
 ### Documentazione
 - **Coverage Globale**: 75% → Target 90%
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Moduli Core**: 92% (<nome progetto>, User, Xot)
-=======
 - **Moduli Core**: 92% (Fixcity, User, Xot)
->>>>>>> laraxot/dev
-=======
-- **Moduli Core**: 92% (Fixcity, User, Xot)
->>>>>>> laraxot/dev
 - **API Docs**: 60% → Target 100%
 - **User Guides**: 40% → Target 90%
 - **Video Tutorials**: 0% → Target 20+
@@ -159,15 +127,7 @@ FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni u
 
 #### Settimana 1-2 (Ottobre)
 - [x] Documentazione strategica completa
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] API documentation <nome progetto>
-=======
 - [x] API documentation Fixcity
->>>>>>> laraxot/dev
-=======
-- [x] API documentation Fixcity
->>>>>>> laraxot/dev
 - [x] User guides complete
 - [x] 2FA implementation guide
 - [x] SSO implementation guide
@@ -250,15 +210,7 @@ FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni u
 
 ### Technology Stack
 - ✅ **Laravel 11.x**: Framework
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ **Filament 5.x**: Admin panel
-=======
 - ✅ **Filament 4.x**: Admin panel
->>>>>>> laraxot/dev
-=======
-- ✅ **Filament 4.x**: Admin panel
->>>>>>> laraxot/dev
 - ✅ **Livewire 3.x**: Frontend
 - ✅ **TailwindCSS**: Styling
 - ✅ **PostgreSQL**: Database
@@ -302,15 +254,7 @@ public function createTicket(
 ### 4. Modular Architecture
 ```
 18 Independent Modules
-<<<<<<< HEAD
-<<<<<<< HEAD
-├── Core (Xot, User, <nome progetto>)
-=======
 ├── Core (Xot, User, Fixcity)
->>>>>>> laraxot/dev
-=======
-├── Core (Xot, User, Fixcity)
->>>>>>> laraxot/dev
 ├── Support (UI, Geo, Media, Notify)
 ├── Features (Comment, Rating, Activity)
 └── Enterprise (Gdpr, Tenant, Seo, AI)
@@ -320,15 +264,7 @@ public function createTicket(
 
 ## 📊 COMPARAZIONE COMPETITORS
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-| Feature | <nome progetto> | Competitor A | Competitor B |
-=======
 | Feature | FixCity | Competitor A | Competitor B |
->>>>>>> laraxot/dev
-=======
-| Feature | FixCity | Competitor A | Competitor B |
->>>>>>> laraxot/dev
 |---------|---------|--------------|--------------|
 | **AGID Compliance** | 90% ✅ | 60% | 40% |
 | **PHPStan Level** | 9 ✅ | 5 | 3 |
@@ -346,15 +282,7 @@ public function createTicket(
 
 ### Technical Excellence
 - [x] PHPStan Level 9 - 0 errors
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Filament 5.x compatibility
-=======
 - [x] Filament 4.x compatibility
->>>>>>> laraxot/dev
-=======
-- [x] Filament 4.x compatibility
->>>>>>> laraxot/dev
 - [ ] Test coverage 80%
 - [ ] Performance < 200ms
 - [ ] Lighthouse score 95+
@@ -440,15 +368,7 @@ Grazie a tutti i contributor che hanno reso possibile questo progetto:
 - **Documentation Writers** - Guide e tutorial
 
 ### Open Source
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto> è orgogliosamente open source:
-=======
 FixCity è orgogliosamente open source:
->>>>>>> laraxot/dev
-=======
-FixCity è orgogliosamente open source:
->>>>>>> laraxot/dev
 - **License**: MIT
 - **Repository**: github.com/laraxot/ptv
 - **Contributions**: Welcome!
@@ -482,28 +402,12 @@ FixCity è orgogliosamente open source:
 - **[PROJECT_COMPLETION_STATUS.md](./PROJECT_COMPLETION_STATUS.md)** - Status
 
 ### Moduli Principali
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **[<nome progetto> Docs](./laravel/Modules/<nome progetto>/docs/)** - Core business
-=======
 - **[Fixcity Docs](./laravel/Modules/Fixcity/docs/)** - Core business
->>>>>>> laraxot/dev
-=======
-- **[Fixcity Docs](./laravel/Modules/Fixcity/docs/)** - Core business
->>>>>>> laraxot/dev
 - **[User Docs](./laravel/Modules/User/docs/)** - Authentication
 - **[Sixteen Docs](./laravel/Themes/Sixteen/docs/)** - Frontend theme
 
 ### API
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **[<nome progetto> API](./laravel/Modules/<nome progetto>/docs/API.md)** - REST API
-=======
 - **[Fixcity API](./laravel/Modules/Fixcity/docs/API.md)** - REST API
->>>>>>> laraxot/dev
-=======
-- **[Fixcity API](./laravel/Modules/Fixcity/docs/API.md)** - REST API
->>>>>>> laraxot/dev
 - **[User 2FA](./laravel/Modules/User/docs/2FA_GUIDE.md)** - 2FA Guide
 - **[User SSO](./laravel/Modules/User/docs/SSO_GUIDE.md)** - SSO Guide
 
@@ -511,15 +415,7 @@ FixCity è orgogliosamente open source:
 
 ## 🏆 CONCLUSIONE
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto> rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
-=======
 FixCity rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
->>>>>>> laraxot/dev
-=======
-FixCity rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
->>>>>>> laraxot/dev
 
 ✅ **Tecnicamente superiore** - PHPStan Level 9, Type-safe, Modular  
 ✅ **Altamente accessibile** - AGID 90%, WCAG 2.1 AA  
@@ -538,12 +434,4 @@ FixCity rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
 
 *"Building the future of civic engagement, one line of code at a time."*
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**#<nome progetto>2025 #Excellence #OpenSource #AGID #Laravel #Filament**
-=======
 **#FixCity2025 #Excellence #OpenSource #AGID #Laravel #Filament**
->>>>>>> laraxot/dev
-=======
-**#FixCity2025 #Excellence #OpenSource #AGID #Laravel #Filament**
->>>>>>> laraxot/dev

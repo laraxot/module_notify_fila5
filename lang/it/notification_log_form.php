@@ -4,14 +4,6 @@ declare(strict_types=1);
 
 return [
     'fields' => [
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'name' => ['label' => 'name', 'placeholder' => 'name', 'helper_text' => '', 'description' => 'name']],
-    'sections' => [
-        'empty' => ['label' => 'empty', 'heading' => 'empty']]];
-=======
-=======
->>>>>>> laraxot/dev
         'template_id' => [
             'label' => 'Template',
             'placeholder' => 'Seleziona un template',
@@ -65,7 +57,3 @@ return [
         'empty' => ['label' => 'empty', 'heading' => 'empty'],
     ],
 ];
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev

@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "🏛️ <nome progetto> - Civic Engagement Platform"
-=======
 title: "🏛️ FIXCITY - Civic Engagement Platform"
->>>>>>> laraxot/dev
-=======
-title: "🏛️ FIXCITY - Civic Engagement Platform"
->>>>>>> laraxot/dev
 type: concept
 tags: [project, overview]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "project-overview 🏛️ <nome progetto> - civic engagement platform"
-qmd: "project-overview 🏛️ ptv - civic engagement platform"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "project-overview 🏛️ fixcity - civic engagement platform"
 qmd: "project-overview 🏛️ ptv - civic engagement platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🏛️ <nome progetto> - Civic Engagement Platform
-=======
 # 🏛️ FIXCITY - Civic Engagement Platform
->>>>>>> laraxot/dev
-=======
-# 🏛️ FIXCITY - Civic Engagement Platform
->>>>>>> laraxot/dev
 
 > **Piattaforma di segnalazione civica per la gestione intelligente dei disservizi urbani**
 
@@ -56,15 +27,7 @@ related:
 
 ## 🎯 Project Purpose
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto>** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
-=======
 **FIXCITY** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
->>>>>>> laraxot/dev
-=======
-**FIXCITY** è una piattaforma web modulare costruita su Laravel che permette ai cittadini di segnalare problemi urbani (buche, illuminazione rotta, graffiti, rifiuti abbandonati, ecc.) e agli amministratori pubblici di gestirle efficacemente tramite workflow strutturati.
->>>>>>> laraxot/dev
 
 ### Vision
 Trasformare il rapporto cittadino-amministrazione attraverso:
@@ -80,28 +43,12 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 ### Tech Stack
 
 **Backend**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Laravel 13.24.0 + PHP 8.3.20
-=======
 - Laravel 12.24.0 + PHP 8.3.20
->>>>>>> laraxot/dev
-=======
-- Laravel 12.24.0 + PHP 8.3.20
->>>>>>> laraxot/dev
 - SQLite (development) / PostgreSQL (production ready)
 - Nwidart Modules + Laraxot Extensions
 
 **Frontend Backoffice**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Filament 5.x (Admin Panels)
-=======
 - Filament 4.x (Admin Panels)
->>>>>>> laraxot/dev
-=======
-- Filament 4.x (Admin Panels)
->>>>>>> laraxot/dev
 - Livewire 3.x (Interattività)
 - Tailwind CSS 4.0
 
@@ -121,15 +68,7 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 
 ### Core Modules (22 attivi)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### 1. **<nome progetto>** - Business Logic Core
-=======
 #### 1. **Fixcity** - Business Logic Core
->>>>>>> laraxot/dev
-=======
-#### 1. **Fixcity** - Business Logic Core
->>>>>>> laraxot/dev
 **Scopo**: Sistema principale di gestione ticket
 **Componenti**:
 - Models: Ticket, TicketActivity, TicketWorkflowService
@@ -453,15 +392,7 @@ Team
 - **Query Count**: <5 (list), <3 (detail)
 - **Memory**: <8MB (list), <5MB (detail)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Optimization Strategy**: See `/Modules/<nome progetto>/docs/performance-issues.md`
-=======
 **Optimization Strategy**: See `/Modules/Fixcity/docs/performance-issues.md`
->>>>>>> laraxot/dev
-=======
-**Optimization Strategy**: See `/Modules/Fixcity/docs/performance-issues.md`
->>>>>>> laraxot/dev
 
 ---
 
@@ -548,30 +479,14 @@ Team
 - Cache: File
 
 **Staging**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- URL: https://staging.<nome progetto>.it
-=======
 - URL: https://staging.fixcity.it
->>>>>>> laraxot/dev
-=======
-- URL: https://staging.fixcity.it
->>>>>>> laraxot/dev
 - URL: https://staging.ptv.it
 - DB: PostgreSQL
 - Queue: Redis
 - Cache: Redis
 
 **Production**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- URL: https://<nome progetto>.it
-=======
 - URL: https://fixcity.it
->>>>>>> laraxot/dev
-=======
-- URL: https://fixcity.it
->>>>>>> laraxot/dev
 - URL: https://ptv.it
 - DB: PostgreSQL (replicated)
 - Queue: Redis Cluster

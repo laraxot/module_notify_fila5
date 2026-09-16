@@ -8,25 +8,11 @@ return [
         'phone_number' => ['label' => 'Numero Telefono', 'placeholder' => 'Inserisci numero WhatsApp', 'helper_text' => 'Numero di telefono per l\'invio WhatsApp', 'tooltip' => '', 'description' => ''],
         'message' => ['label' => 'Messaggio', 'placeholder' => 'Inserisci messaggio WhatsApp', 'helper_text' => 'Testo del messaggio da inviare', 'tooltip' => '', 'description' => ''],
         'template' => ['label' => 'Template', 'placeholder' => 'Seleziona template', 'help' => 'Template predefinito per il messaggio', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'recipient' => ['label' => 'recipient', 'placeholder' => 'recipient', 'helper_text' => '', 'description' => 'recipient'],
-        'driver' => ['label' => 'driver', 'placeholder' => 'driver', 'helper_text' => '', 'description' => 'driver'],
-        'parameters' => ['label' => 'parameters', 'placeholder' => 'parameters', 'helper_text' => '', 'description' => 'parameters'],
-        'media_url' => ['label' => 'media_url', 'placeholder' => 'media_url', 'helper_text' => '', 'description' => 'media_url'],
-        'media_type' => ['label' => 'media_type', 'placeholder' => 'media_type', 'helper_text' => '', 'description' => 'media_type']],
-=======
-=======
->>>>>>> laraxot/dev
         'recipient' => ['label' => 'recipient', 'placeholder' => 'recipient', 'helper_text' => 'recipient', 'description' => 'recipient'],
         'driver' => ['label' => 'driver', 'placeholder' => 'driver', 'helper_text' => 'driver', 'description' => 'driver'],
         'parameters' => ['label' => 'parameters', 'placeholder' => 'parameters', 'helper_text' => 'parameters', 'description' => 'parameters'],
         'media_url' => ['label' => 'media_url', 'placeholder' => 'media_url', 'helper_text' => 'media_url', 'description' => 'media_url'],
         'media_type' => ['label' => 'media_type', 'placeholder' => 'media_type', 'helper_text' => 'media_type', 'description' => 'media_type']],
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     'actions' => [
         'send' => ['label' => 'Invia WhatsApp', 'tooltip' => 'Invia messaggio WhatsApp', 'success' => 'Messaggio WhatsApp inviato con successo', 'error' => 'Errore nell\'invio del messaggio WhatsApp'],
         'whatsappFormActions' => ['label' => 'whatsappFormActions', 'icon' => 'whatsappFormActions', 'tooltip' => 'whatsappFormActions'],

@@ -129,31 +129,13 @@ Section::make('Riepilogo Segnalazione')
 
 ```php
 // ✅ CORRETTO: usa chiavi traduzione
-<<<<<<< HEAD
-<<<<<<< HEAD
-Section::make(__('<nome progetto>::create_ticket_wizard.sections.summary.label'))
-    ->description(__('<nome progetto>::create_ticket_wizard.sections.summary.description'))
-=======
 Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
     ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
->>>>>>> laraxot/dev
-=======
-Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
-    ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
->>>>>>> laraxot/dev
 Section::make(__('ptv::create_ticket_wizard.sections.summary.label'))
     ->description(__('ptv::create_ticket_wizard.sections.summary.description'))
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File traduzione**: `Modules/<nome progetto>/resources/lang/en/create_ticket_wizard.php`
-=======
 **File traduzione**: `Modules/Fixcity/resources/lang/en/create_ticket_wizard.php`
->>>>>>> laraxot/dev
-=======
-**File traduzione**: `Modules/Fixcity/resources/lang/en/create_ticket_wizard.php`
->>>>>>> laraxot/dev
 ```php
 return [
     'sections' => [
@@ -165,15 +147,7 @@ return [
 ];
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File traduzione**: `Modules/<nome progetto>/resources/lang/it/create_ticket_wizard.php`
-=======
 **File traduzione**: `Modules/Fixcity/resources/lang/it/create_ticket_wizard.php`
->>>>>>> laraxot/dev
-=======
-**File traduzione**: `Modules/Fixcity/resources/lang/it/create_ticket_wizard.php`
->>>>>>> laraxot/dev
 ```php
 return [
     'sections' => [
@@ -204,15 +178,7 @@ return [
 // ✅ CORRETTO: translation key con pluralizzazione
 ->description(fn (Get $get): string =>
     trans_choice(
-<<<<<<< HEAD
-<<<<<<< HEAD
-        '<nome progetto>::create_ticket_wizard.sections.images.description',
-=======
         'fixcity::create_ticket_wizard.sections.images.description',
->>>>>>> laraxot/dev
-=======
-        'fixcity::create_ticket_wizard.sections.images.description',
->>>>>>> laraxot/dev
         'ptv::create_ticket_wizard.sections.images.description',
         count($get('images') ?? [])
     )
@@ -239,15 +205,7 @@ return [
 ->limitMessage('E altre :count immagini')
 
 // ✅ CORRETTO
-<<<<<<< HEAD
-<<<<<<< HEAD
-->limitMessage(__('<nome progetto>::create_ticket_wizard.sections.images.limit_message'))
-=======
 ->limitMessage(__('fixcity::create_ticket_wizard.sections.images.limit_message'))
->>>>>>> laraxot/dev
-=======
-->limitMessage(__('fixcity::create_ticket_wizard.sections.images.limit_message'))
->>>>>>> laraxot/dev
 ->limitMessage(__('ptv::create_ticket_wizard.sections.images.limit_message'))
 ```
 
@@ -262,15 +220,7 @@ return [
 Section::make('Riepilogo Segnalazione')
 
 // ✅ CORRETTO
-<<<<<<< HEAD
-<<<<<<< HEAD
-Section::make(__('<nome progetto>::create_ticket_wizard.sections.summary.label'))
-=======
 Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
->>>>>>> laraxot/dev
-=======
-Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
->>>>>>> laraxot/dev
 Section::make(__('ptv::create_ticket_wizard.sections.summary.label'))
 ```
 
@@ -283,15 +233,7 @@ Section::make(__('ptv::create_ticket_wizard.sections.summary.label'))
 ->description('Verifica i dati prima dell\'invio')
 
 // ✅ CORRETTO
-<<<<<<< HEAD
-<<<<<<< HEAD
-->description(__('<nome progetto>::create_ticket_wizard.sections.summary.description'))
-=======
 ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
->>>>>>> laraxot/dev
-=======
-->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
->>>>>>> laraxot/dev
 ->description(__('ptv::create_ticket_wizard.sections.summary.description'))
 ```
 
@@ -316,15 +258,7 @@ Section::make(__('ptv::create_ticket_wizard.sections.summary.label'))
 $this->addError('data.submit', 'Si è verificato un errore')
 
 // ✅ CORRETTO
-<<<<<<< HEAD
-<<<<<<< HEAD
-$this->addError('data.submit', __('<nome progetto>::create_ticket_wizard.notifications.submit_failed.body'))
-=======
 $this->addError('data.submit', __('fixcity::create_ticket_wizard.notifications.submit_failed.body'))
->>>>>>> laraxot/dev
-=======
-$this->addError('data.submit', __('fixcity::create_ticket_wizard.notifications.submit_failed.body'))
->>>>>>> laraxot/dev
 $this->addError('data.submit', __('ptv::create_ticket_wizard.notifications.submit_failed.body'))
 ```
 
@@ -340,18 +274,8 @@ Notification::make()
 
 // ✅ CORRETTO
 Notification::make()
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ->title(__('<nome progetto>::create_ticket_wizard.notifications.success.title'))
-    ->body(__('<nome progetto>::create_ticket_wizard.notifications.success.body'))
-=======
     ->title(__('fixcity::create_ticket_wizard.notifications.success.title'))
     ->body(__('fixcity::create_ticket_wizard.notifications.success.body'))
->>>>>>> laraxot/dev
-=======
-    ->title(__('fixcity::create_ticket_wizard.notifications.success.title'))
-    ->body(__('fixcity::create_ticket_wizard.notifications.success.body'))
->>>>>>> laraxot/dev
     ->title(__('ptv::create_ticket_wizard.notifications.success.title'))
     ->body(__('ptv::create_ticket_wizard.notifications.success.body'))
 ```
@@ -365,15 +289,7 @@ Notification::make()
 echo count($items) . ' elementi trovati'
 
 // ✅ CORRETTO
-<<<<<<< HEAD
-<<<<<<< HEAD
-echo trans_choice('<nome progetto>::messages.items_found', count($items))
-=======
 echo trans_choice('fixcity::messages.items_found', count($items))
->>>>>>> laraxot/dev
-=======
-echo trans_choice('fixcity::messages.items_found', count($items))
->>>>>>> laraxot/dev
 echo trans_choice('ptv::messages.items_found', count($items))
 ```
 
@@ -387,18 +303,8 @@ Section::make('Riepilogo Segnalazione')
     ->description('Verify your data')  // MISTO!
 
 // ✅ CORRETTO: tutto via translation keys
-<<<<<<< HEAD
-<<<<<<< HEAD
-Section::make(__('<nome progetto>::sections.summary.label'))
-    ->description(__('<nome progetto>::sections.summary.description'))
-=======
 Section::make(__('fixcity::sections.summary.label'))
     ->description(__('fixcity::sections.summary.description'))
->>>>>>> laraxot/dev
-=======
-Section::make(__('fixcity::sections.summary.label'))
-    ->description(__('fixcity::sections.summary.description'))
->>>>>>> laraxot/dev
 Section::make(__('ptv::sections.summary.label'))
     ->description(__('ptv::sections.summary.description'))
 ```
@@ -408,15 +314,7 @@ Section::make(__('ptv::sections.summary.label'))
 ### 8. CREERAI file traduzione per ogni lingua supportata
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Modules/<nome progetto>/resources/lang/
-=======
 Modules/Fixcity/resources/lang/
->>>>>>> laraxot/dev
-=======
-Modules/Fixcity/resources/lang/
->>>>>>> laraxot/dev
 ├── en/
 │   └── create_ticket_wizard.php
 ├── it/
@@ -435,15 +333,7 @@ Modules/Fixcity/resources/lang/
 
 ```php
 // Aggiungi nuova UI
-<<<<<<< HEAD
-<<<<<<< HEAD
-Section::make(__('<nome progetto>::new_section.label'))
-=======
 Section::make(__('fixcity::new_section.label'))
->>>>>>> laraxot/dev
-=======
-Section::make(__('fixcity::new_section.label'))
->>>>>>> laraxot/dev
 Section::make(__('ptv::new_section.label'))
 
 // IMMEDIATAMENTE aggiungi a TUTTI i file lang:
@@ -492,18 +382,8 @@ exit 0
 
 ```bash
 # Cerca italiano hardcoded in Filament
-<<<<<<< HEAD
-<<<<<<< HEAD
-grep -rE "make\(['\"][A-ZÀ]" Modules/<nome progetto>/app/Filament/ --include="*.php"
-grep -rE "description\(['\"][A-ZÀ]" Modules/<nome progetto>/app/Filament/ --include="*.php"
-=======
 grep -rE "make\(['\"][A-ZÀ]" Modules/Fixcity/app/Filament/ --include="*.php"
 grep -rE "description\(['\"][A-ZÀ]" Modules/Fixcity/app/Filament/ --include="*.php"
->>>>>>> laraxot/dev
-=======
-grep -rE "make\(['\"][A-ZÀ]" Modules/Fixcity/app/Filament/ --include="*.php"
-grep -rE "description\(['\"][A-ZÀ]" Modules/Fixcity/app/Filament/ --include="*.php"
->>>>>>> laraxot/dev
 ```
 
 ---
@@ -512,15 +392,7 @@ grep -rE "description\(['\"][A-ZÀ]" Modules/Fixcity/app/Filament/ --include="*.
 
 Per ogni violazione:
 - Identifica la stringa italiana
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Crea chiave: `<nome progetto>::create_ticket_wizard.sections.xxx.label`
-=======
 - Crea chiave: `fixcity::create_ticket_wizard.sections.xxx.label`
->>>>>>> laraxot/dev
-=======
-- Crea chiave: `fixcity::create_ticket_wizard.sections.xxx.label`
->>>>>>> laraxot/dev
 - Crea chiave: `ptv::create_ticket_wizard.sections.xxx.label`
 - Aggiungi a TUTTI i file lang (en, it, fr, de, es)
 
@@ -534,18 +406,8 @@ Section::make('Riepilogo Segnalazione')
     ->description('Verifica i dati prima dell\'invio')
 
 // DOPO
-<<<<<<< HEAD
-<<<<<<< HEAD
-Section::make(__('<nome progetto>::create_ticket_wizard.sections.summary.label'))
-    ->description(__('<nome progetto>::create_ticket_wizard.sections.summary.description'))
-=======
 Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
     ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
->>>>>>> laraxot/dev
-=======
-Section::make(__('fixcity::create_ticket_wizard.sections.summary.label'))
-    ->description(__('fixcity::create_ticket_wizard.sections.summary.description'))
->>>>>>> laraxot/dev
 Section::make(__('ptv::create_ticket_wizard.sections.summary.label'))
     ->description(__('ptv::create_ticket_wizard.sections.summary.description'))
 ```
@@ -630,15 +492,7 @@ Amen.
 
 - [Laravel Localization Docs](https://laravel.com/docs/localization)
 - [LangServiceProvider](../../Lang/app/Providers/LangServiceProvider.php)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Translation Files](../../Modules/<nome progetto>/resources/lang/)
-=======
 - [Translation Files](../../Modules/Fixcity/resources/lang/)
->>>>>>> laraxot/dev
-=======
-- [Translation Files](../../Modules/Fixcity/resources/lang/)
->>>>>>> laraxot/dev
 - [Pre-Commit Hook](../../bashscripts/check-hardcoded-language.sh)
 
 ---

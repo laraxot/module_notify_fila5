@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "🐛 ERROR ANALYSIS REPORT - <nome progetto>"
-=======
 title: "🐛 ERROR ANALYSIS REPORT - FIXCITY"
->>>>>>> laraxot/dev
-=======
-title: "🐛 ERROR ANALYSIS REPORT - FIXCITY"
->>>>>>> laraxot/dev
 type: concept
 tags: [error, analysis, report]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "error-analysis-report 🐛 error analysis report - <nome progetto>"
-qmd: "error-analysis-report 🐛 error analysis report - ptv"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "error-analysis-report 🐛 error analysis report - fixcity"
 qmd: "error-analysis-report 🐛 error analysis report - ptv"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,40 +19,18 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🐛 ERROR ANALYSIS REPORT - <nome progetto>
-
-**Data**: 2025-10-02 20:50  
-**Errore Critico**: Type mismatch in Resource classes  
-**Causa**: Violazione regole XotBase + Filament 5  
-=======
-=======
->>>>>>> laraxot/dev
 # 🐛 ERROR ANALYSIS REPORT - FIXCITY
 
 **Data**: 2025-10-02 20:50  
 **Errore Critico**: Type mismatch in Resource classes  
 **Causa**: Violazione regole XotBase + Filament 4  
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ---
 
 ## 🔴 ERRORE PRINCIPALE
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Type of Modules\<nome progetto>\Filament\Resources\FaqCategoryResource::$navigationGroup 
-=======
 Type of Modules\Fixcity\Filament\Resources\FaqCategoryResource::$navigationGroup 
->>>>>>> laraxot/dev
-=======
-Type of Modules\Fixcity\Filament\Resources\FaqCategoryResource::$navigationGroup 
->>>>>>> laraxot/dev
 must be UnitEnum|string|null (as in class Filament\Resources\Resource)
 ```
 
@@ -92,15 +49,7 @@ Il file `FaqCategoryResource.php` usa metodi Filament 3 invece di XotBase patter
 
 ## 📋 FILES CON ERRORI SIMILI
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### <nome progetto> Module (2 files)
-=======
 ### Fixcity Module (2 files)
->>>>>>> laraxot/dev
-=======
-### Fixcity Module (2 files)
->>>>>>> laraxot/dev
 1. ❌ `FaqCategoryResource.php` - Usa `form()` e `table()`
 2. ❌ `FaqResource.php` - Usa `form()` e `table()`
 

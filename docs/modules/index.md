@@ -34,25 +34,11 @@ related:
 - `UpdaterTrait` - Tracking automatico created_by/updated_by
 - Pattern architetturali comuni
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### <nome progetto> - Business Logic
-**Path**: `Modules/<nome progetto>/`  
-**Responsabilità**: Core della piattaforma di segnalazioni  
-**Status**: ✅ Attivo - Modulo principale  
-**Docs**: [📖 <nome progetto> Docs](../../Modules/<nome progetto>/docs/links.md)
-=======
-=======
->>>>>>> laraxot/dev
 ### Fixcity - Business Logic
 **Path**: `Modules/Fixcity/`  
 **Responsabilità**: Core della piattaforma di segnalazioni  
 **Status**: ✅ Attivo - Modulo principale  
 **Docs**: [📖 Fixcity Docs](../../Modules/Fixcity/docs/links.md)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 - Gestione segnalazioni cittadini
 - Workflow amministrativo
@@ -256,15 +242,7 @@ related:
 | Modulo | Status | PHPStan | Tests | Docs |
 |--------|---------|---------|-------|------|
 | Xot | ✅ Active | Level 9 | ✅ 80% | ✅ Complete |  
-<<<<<<< HEAD
-<<<<<<< HEAD
-| <nome progetto> | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
-=======
 | Fixcity | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
->>>>>>> laraxot/dev
-=======
-| Fixcity | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
->>>>>>> laraxot/dev
 | App | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
 | User | ✅ Active | Level 8 | ✅ 75% | ✅ Complete |
 | UI | ✅ Active | Level 8 | ✅ 70% | ✅ Complete |

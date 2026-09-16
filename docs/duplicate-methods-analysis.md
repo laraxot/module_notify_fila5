@@ -132,18 +132,8 @@ public function notifiable(): MorphTo
 
 **Trovato in  file4 file**:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `Category::scopeActive` - [Modules/<nome progetto>/app/Models/Category.php:155](Modules/<nome progetto>/app/Models/Category.php) (Modulo: <nome progetto>)
-- `FaqCategory::scopeActive` - [Modules/<nome progetto>/app/Models/FaqCategory.php:94](Modules/<nome progetto>/app/Models/FaqCategory.php) (Modulo: <nome progetto>)
-=======
 - `Category::scopeActive` - [Modules/Fixcity/app/Models/Category.php:155](Modules/Fixcity/app/Models/Category.php) (Modulo: Fixcity)
 - `FaqCategory::scopeActive` - [Modules/Fixcity/app/Models/FaqCategory.php:94](Modules/Fixcity/app/Models/FaqCategory.php) (Modulo: Fixcity)
->>>>>>> laraxot/dev
-=======
-- `Category::scopeActive` - [Modules/Fixcity/app/Models/Category.php:155](Modules/Fixcity/app/Models/Category.php) (Modulo: Fixcity)
-- `FaqCategory::scopeActive` - [Modules/Fixcity/app/Models/FaqCategory.php:94](Modules/Fixcity/app/Models/FaqCategory.php) (Modulo: Fixcity)
->>>>>>> laraxot/dev
 - `Schedule::scopeActive` - [Modules/Job/app/Models/Schedule.php:254](Modules/Job/app/Models/Schedule.php) (Modulo: Job)
 - `NotificationTemplate::scopeActive` - [Modules/Notify/app/Models/NotificationTemplate.php:239](Modules/Notify/app/Models/NotificationTemplate.php)
 
@@ -215,15 +205,7 @@ public function login(User $user): Activity
 
 **Trovato in  file4 file**:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `Ticket::getSlugOptions` - [Modules/<nome progetto>/app/Models/Ticket.php:234](Modules/<nome progetto>/app/Models/Ticket.php) (Modulo: <nome progetto>)
-=======
 - `Ticket::getSlugOptions` - [Modules/Fixcity/app/Models/Ticket.php:234](Modules/Fixcity/app/Models/Ticket.php) (Modulo: Fixcity)
->>>>>>> laraxot/dev
-=======
-- `Ticket::getSlugOptions` - [Modules/Fixcity/app/Models/Ticket.php:234](Modules/Fixcity/app/Models/Ticket.php) (Modulo: Fixcity)
->>>>>>> laraxot/dev
 - `Post::getSlugOptions` - [Modules/Lang/app/Models/Post.php:174](Modules/Lang/app/Models/Post.php) (Modulo: Lang)
 - `MailTemplate::getSlugOptions` - [Modules/Notify/app/Models/MailTemplate.php:112](Modules/Notify/app/Models/MailTemplate.php)
 - `BaseTenant::getSlugOptions` - [Modules/User/app/Models/BaseTenant.php:59](Modules/User/app/Models/BaseTenant.php) (Modulo: User)
@@ -438,20 +420,6 @@ public function send(
 - `BaseModel::casts` - [Modules/Comment/app/Models/BaseModel.php:44](Modules/Comment/app/Models/BaseModel.php) (Modulo: Comment)
 - `BaseMorphPivot::casts` - [Modules/Comment/app/Models/BaseMorphPivot.php:54](Modules/Comment/app/Models/BaseMorphPivot.php) (Modulo: Comment)
 - `BasePivot::casts` - [Modules/Comment/app/Models/BasePivot.php:41](Modules/Comment/app/Models/BasePivot.php) (Modulo: Comment)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `Activity::casts` - [Modules/<nome progetto>/app/Models/Activity.php:50](Modules/<nome progetto>/app/Models/Activity.php) (Modulo: <nome progetto>)
-- `BaseModel::casts` - [Modules/<nome progetto>/app/Models/BaseModel.php:47](Modules/<nome progetto>/app/Models/BaseModel.php) (Modulo: <nome progetto>)
-- `BasePivot::casts` - [Modules/<nome progetto>/app/Models/BasePivot.php:49](Modules/<nome progetto>/app/Models/BasePivot.php) (Modulo: <nome progetto>)
-- `Category::casts` - [Modules/<nome progetto>/app/Models/Category.php:117](Modules/<nome progetto>/app/Models/Category.php) (Modulo: <nome progetto>)
-- `Faq::casts` - [Modules/<nome progetto>/app/Models/Faq.php:63](Modules/<nome progetto>/app/Models/Faq.php) (Modulo: <nome progetto>)
-- `FaqCategory::casts` - [Modules/<nome progetto>/app/Models/FaqCategory.php:67](Modules/<nome progetto>/app/Models/FaqCategory.php) (Modulo: <nome progetto>)
-- `PushSubscription::casts` - [Modules/<nome progetto>/app/Models/PushSubscription.php:58](Modules/<nome progetto>/app/Models/PushSubscription.php) (Modulo: <nome progetto>)
-- `Ticket::casts` - [Modules/<nome progetto>/app/Models/Ticket.php:188](Modules/<nome progetto>/app/Models/Ticket.php) (Modulo: <nome progetto>)
-- `TicketCategory::casts` - [Modules/<nome progetto>/app/Models/TicketCategory.php:51](Modules/<nome progetto>/app/Models/TicketCategory.php) (Modulo: <nome progetto>)
-=======
-=======
->>>>>>> laraxot/dev
 - `Activity::casts` - [Modules/Fixcity/app/Models/Activity.php:50](Modules/Fixcity/app/Models/Activity.php) (Modulo: Fixcity)
 - `BaseModel::casts` - [Modules/Fixcity/app/Models/BaseModel.php:47](Modules/Fixcity/app/Models/BaseModel.php) (Modulo: Fixcity)
 - `BasePivot::casts` - [Modules/Fixcity/app/Models/BasePivot.php:49](Modules/Fixcity/app/Models/BasePivot.php) (Modulo: Fixcity)
@@ -461,10 +429,6 @@ public function send(
 - `PushSubscription::casts` - [Modules/Fixcity/app/Models/PushSubscription.php:58](Modules/Fixcity/app/Models/PushSubscription.php) (Modulo: Fixcity)
 - `Ticket::casts` - [Modules/Fixcity/app/Models/Ticket.php:188](Modules/Fixcity/app/Models/Ticket.php) (Modulo: Fixcity)
 - `TicketCategory::casts` - [Modules/Fixcity/app/Models/TicketCategory.php:51](Modules/Fixcity/app/Models/TicketCategory.php) (Modulo: Fixcity)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - `BaseModel::casts` - [Modules/Gdpr/app/Models/BaseModel.php:58](Modules/Gdpr/app/Models/BaseModel.php) (Modulo: Gdpr)
 - `BaseMorphPivot::casts` - [Modules/Gdpr/app/Models/BaseMorphPivot.php:67](Modules/Gdpr/app/Models/BaseMorphPivot.php) (Modulo: Gdpr)
 - `BasePivot::casts` - [Modules/Gdpr/app/Models/BasePivot.php:47](Modules/Gdpr/app/Models/BasePivot.php) (Modulo: Gdpr)
@@ -573,15 +537,7 @@ protected function casts(): array
 **Trovato in  file3 file**:
 
 - `Attachment::registerMediaCollections` - [Modules/Cms/app/Models/Attachment.php:158](Modules/Cms/app/Models/Attachment.php) (Modulo: Cms)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `Ticket::registerMediaCollections` - [Modules/<nome progetto>/app/Models/Ticket.php:526](Modules/<nome progetto>/app/Models/Ticket.php) (Modulo: <nome progetto>)
-=======
 - `Ticket::registerMediaCollections` - [Modules/Fixcity/app/Models/Ticket.php:526](Modules/Fixcity/app/Models/Ticket.php) (Modulo: Fixcity)
->>>>>>> laraxot/dev
-=======
-- `Ticket::registerMediaCollections` - [Modules/Fixcity/app/Models/Ticket.php:526](Modules/Fixcity/app/Models/Ticket.php) (Modulo: Fixcity)
->>>>>>> laraxot/dev
 - `NotificationTemplate::registerMediaCollections` - [Modules/Notify/app/Models/NotificationTemplate.php:141](Modules/Notify/app/Models/NotificationTemplate.php)
 
 **Signature**:
@@ -629,18 +585,8 @@ public function registerMediaCollections(): void
 - `GetViewThemeByViewAction::execute` - [Modules/Cms/app/Actions/GetViewThemeByViewAction.php:13](Modules/Cms/app/Actions/GetViewThemeByViewAction.php) (Modulo: Cms)
 - `SaveFooterConfigAction::execute` - [Modules/Cms/app/Actions/SaveFooterConfigAction.php:14](Modules/Cms/app/Actions/SaveFooterConfigAction.php) (Modulo: Cms)
 - `SaveHeadernavConfigAction::execute` - [Modules/Cms/app/Actions/SaveHeadernavConfigAction.php:12](Modules/Cms/app/Actions/SaveHeadernavConfigAction.php) (Modulo: Cms)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `ChangeStatus::execute` - [Modules/<nome progetto>/app/Actions/ChangeStatus.php:12](Modules/<nome progetto>/app/Actions/ChangeStatus.php) (Modulo: <nome progetto>)
-- `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
-=======
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
->>>>>>> laraxot/dev
-=======
-- `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
-- `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
->>>>>>> laraxot/dev
 - `CalculateDistanceAction::execute` - [Modules/Geo/app/Actions/CalculateDistanceAction.php:47](Modules/Geo/app/Actions/CalculateDistanceAction.php) (Modulo: Geo)
 - `ClusterLocationsAction::execute` - [Modules/Geo/app/Actions/ClusterLocationsAction.php:25](Modules/Geo/app/Actions/ClusterLocationsAction.php) (Modulo: Geo)
 - `FilterCoordinatesAction::execute` - [Modules/Geo/app/Actions/FilterCoordinatesAction.php:29](Modules/Geo/app/Actions/FilterCoordinatesAction.php) (Modulo: Geo)

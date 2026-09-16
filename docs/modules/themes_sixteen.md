@@ -10,15 +10,7 @@ Segui questi passaggi per risolvere:
 
 1. Vai nella cartella del tema:
    ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-   cd /var/www/html/_bases/<repo progetto>/laravel/Themes/Sixteen
-=======
    cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
->>>>>>> laraxot/dev
-=======
-   cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
->>>>>>> laraxot/dev
    ```
 2. Esegui il comando:
    ```bash

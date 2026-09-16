@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "🗺️ <nome progetto> - MASTER ROADMAP 2025-2026"
-=======
 title: "🗺️ FIXCITY - MASTER ROADMAP 2025-2026"
->>>>>>> laraxot/dev
-=======
-title: "🗺️ FIXCITY - MASTER ROADMAP 2025-2026"
->>>>>>> laraxot/dev
 type: concept
 tags: [master, roadmap]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "master-roadmap 🗺️ <nome progetto> - master roadmap 2025-2026"
-qmd: "master-roadmap 🗺️ ptv - master roadmap 2025-2026"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "master-roadmap 🗺️ fixcity - master roadmap 2025-2026"
 qmd: "master-roadmap 🗺️ ptv - master roadmap 2025-2026"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🗺️ <nome progetto> - MASTER ROADMAP 2025-2026
-=======
 # 🗺️ FIXCITY - MASTER ROADMAP 2025-2026
->>>>>>> laraxot/dev
-=======
-# 🗺️ FIXCITY - MASTER ROADMAP 2025-2026
->>>>>>> laraxot/dev
 
 > **Roadmap strategica completa per il completamento e l'evoluzione della piattaforma**
 
@@ -56,15 +27,7 @@ related:
 
 ## 📊 Executive Summary
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Obiettivo**: Trasformare <nome progetto> da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.
-=======
 **Obiettivo**: Trasformare FixCity da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.
->>>>>>> laraxot/dev
-=======
-**Obiettivo**: Trasformare FixCity da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.
->>>>>>> laraxot/dev
 
 **Timeline**: 18 mesi (Ottobre 2025 - Marzo 2027)
 **Budget stimato**: €250k (team di 3 dev full-time)

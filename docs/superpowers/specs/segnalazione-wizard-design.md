@@ -18,25 +18,11 @@ Unificare le 4 pagine di creazione ticket in un singolo Filament Wizard Widget:
 
 ### File da modificare/creare
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. **`laravel/Modules/<nome progetto>/app/Filament/Widgets/CreateTicketWidget.php`**
-   - Aggiungere Step 3 (Riepilogo) e Step 4 (Conferma)
-   - Aggiornare `getFormSchema()` con 4 step
-
-2. **`laravel/config/local/<nome progetto>/database/content/pages/tests.ticket-create.json`**
-=======
-=======
->>>>>>> laraxot/dev
 1. **`laravel/Modules/Fixcity/app/Filament/Widgets/CreateTicketWidget.php`**
    - Aggiungere Step 3 (Riepilogo) e Step 4 (Conferma)
    - Aggiornare `getFormSchema()` con 4 step
 
 2. **`laravel/config/local/fixcity/database/content/pages/tests.ticket-create.json`**
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
    - Nuovo file JSON per la pagina
    - Definisce i blocchi della pagina
 
@@ -45,15 +31,7 @@ Unificare le 4 pagine di creazione ticket in un singolo Filament Wizard Widget:
 
 ### Traduzioni
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Pattern: `<nome progetto>::ticket.steps.<item>.<tipo>`
-=======
 Pattern: `fixcity::ticket.steps.<item>.<tipo>`
->>>>>>> laraxot/dev
-=======
-Pattern: `fixcity::ticket.steps.<item>.<tipo>`
->>>>>>> laraxot/dev
 Pattern: `laraxot::ticket.steps.<item>.<tipo>`
 
 ```json
@@ -94,15 +72,7 @@ Pattern: `laraxot::ticket.steps.<item>.<tipo>`
 
 Il widget viene esposto come blocco CMS:
 - **Tipo**: `filament-widget`
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Widget**: `Modules\<nome progetto>\Filament\Widgets\CreateTicketWidget`
-=======
 - **Widget**: `Modules\Fixcity\Filament\Widgets\CreateTicketWidget`
->>>>>>> laraxot/dev
-=======
-- **Widget**: `Modules\Fixcity\Filament\Widgets\CreateTicketWidget`
->>>>>>> laraxot/dev
 - **Widget**: `Modules\App\Filament\Widgets\CreateTicketWidget`
 - **Posizionamento**: Main content area
 

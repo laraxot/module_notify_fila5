@@ -8,15 +8,7 @@
 
 ## 📋 Overview
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This discussion tracks the AI agent's work on improving GitHub Actions, documentation, and development workflows for the <nome progetto> platform.
-=======
 This discussion tracks the AI agent's work on improving GitHub Actions, documentation, and development workflows for the FixCity platform.
->>>>>>> laraxot/dev
-=======
-This discussion tracks the AI agent's work on improving GitHub Actions, documentation, and development workflows for the FixCity platform.
->>>>>>> laraxot/dev
 This discussion tracks the AI agent's work on improving GitHub Actions, documentation, and development workflows for the Notify platform.
 
 ---
@@ -180,18 +172,8 @@ ssh-keygen -t ed25519 -C "actions@github.com"
 - [Sync Subtrees Docs](bashscripts/docs/github/actions/sync-subtrees.md)
 
 ### GitHub Links
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Actions Tab](https://github.com/laraxot/<repo progetto>/actions)
-- [Settings > Secrets](https://github.com/laraxot/<repo progetto>/settings/secrets/actions)
-=======
 - [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
 - [Settings > Secrets](https://github.com/laraxot/base_fixcity_fila5/settings/secrets/actions)
->>>>>>> laraxot/dev
-=======
-- [Actions Tab](https://github.com/laraxot/base_fixcity_fila5/actions)
-- [Settings > Secrets](https://github.com/laraxot/base_fixcity_fila5/settings/secrets/actions)
->>>>>>> laraxot/dev
 - [Actions Tab](https://github.com/laraxot/platform/actions)
 - [Settings > Secrets](https://github.com/laraxot/platform/settings/secrets/actions)
 - [Settings > SSH Keys](https://github.com/settings/keys)

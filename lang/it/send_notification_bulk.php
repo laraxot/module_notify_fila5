@@ -7,29 +7,13 @@ return [
         'template_slug' => [
             'label' => 'template_slug',
             'placeholder' => 'template_slug',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'template_slug',
->>>>>>> laraxot/dev
-=======
-            'helper_text' => 'template_slug',
->>>>>>> laraxot/dev
             'description' => 'template_slug',
             'tooltip' => ''],
         'channels' => [
             'label' => 'channels',
             'placeholder' => 'channels',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'channels',
->>>>>>> laraxot/dev
-=======
-            'helper_text' => 'channels',
->>>>>>> laraxot/dev
             'description' => 'channels',
             'tooltip' => '']],
     'actions' => [

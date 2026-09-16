@@ -8,15 +8,7 @@
 
 ## 🎯 OBIETTIVO RAGGIUNTO
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecnologie in <nome progetto> per creare una mappa interattiva di livello mondiale per la visualizzazione delle segnalazioni.
-=======
 Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecnologie in FixCity per creare una mappa interattiva di livello mondiale per la visualizzazione delle segnalazioni.
->>>>>>> laraxot/dev
-=======
-Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecnologie in FixCity per creare una mappa interattiva di livello mondiale per la visualizzazione delle segnalazioni.
->>>>>>> laraxot/dev
 
 ---
 
@@ -54,15 +46,7 @@ Analizzato il progetto farmshops.eu e integrato le sue migliori pratiche e tecno
 ### 1. Documentazione Completa (1 file)
 ✅ **FARMSHOPS_INTEGRATION.md** - Guida completa integrazione
    - Analisi progetto farmshops.eu
-<<<<<<< HEAD
-<<<<<<< HEAD
-   - Features applicabili a <nome progetto>
-=======
    - Features applicabili a FixCity
->>>>>>> laraxot/dev
-=======
-   - Features applicabili a FixCity
->>>>>>> laraxot/dev
    - Package dependencies
    - Implementation plan
    - Code examples
@@ -155,15 +139,7 @@ Map Render → User Feedback
 4. **Geolocation** - UX mobile-first
 5. **Sidebar Pattern** - Navigazione efficace
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Migliorie <nome progetto>
-=======
 ### Migliorie FixCity
->>>>>>> laraxot/dev
-=======
-### Migliorie FixCity
->>>>>>> laraxot/dev
 6. **Livewire Integration** - Reactive updates
 7. **Dynamic Data** - Database invece di static JSON
 8. **CRUD Operations** - Non solo visualizzazione
@@ -197,45 +173,21 @@ Map Render → User Feedback
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## 🎯 UTILIZZO IN <nome progetto>
-=======
 ## 🎯 UTILIZZO IN FIXCITY
->>>>>>> laraxot/dev
-=======
-## 🎯 UTILIZZO IN FIXCITY
->>>>>>> laraxot/dev
 
 ### Casi d'Uso Principali
 
 #### 1. Visualizzazione Segnalazioni
 ```php
 // Homepage con mappa
-<<<<<<< HEAD
-<<<<<<< HEAD
-<livewire:<nome progetto>::ticket-map />
-=======
 <livewire:fixcity::ticket-map />
->>>>>>> laraxot/dev
-=======
-<livewire:fixcity::ticket-map />
->>>>>>> laraxot/dev
 <livewire:ptv::ticket-map />
 ```
 
 #### 2. Ricerca Geografica
 ```php
 // Trova segnalazioni vicine
-<<<<<<< HEAD
-<<<<<<< HEAD
-<livewire:<nome progetto>::ticket-map 
-=======
 <livewire:fixcity::ticket-map 
->>>>>>> laraxot/dev
-=======
-<livewire:fixcity::ticket-map 
->>>>>>> laraxot/dev
 <livewire:ptv::ticket-map 
     :center="[$userLat, $userLng]" 
     :zoom="15" 
@@ -245,15 +197,7 @@ Map Render → User Feedback
 #### 3. Dashboard Operatori
 ```php
 // Mappa con filtri per operatori
-<<<<<<< HEAD
-<<<<<<< HEAD
-<livewire:<nome progetto>::ticket-map 
-=======
 <livewire:fixcity::ticket-map 
->>>>>>> laraxot/dev
-=======
-<livewire:fixcity::ticket-map 
->>>>>>> laraxot/dev
 <livewire:ptv::ticket-map 
     :filters="['status' => 'open']" 
 />
@@ -262,15 +206,7 @@ Map Render → User Feedback
 #### 4. Reporting
 ```php
 // Mappa per report geografici
-<<<<<<< HEAD
-<<<<<<< HEAD
-<livewire:<nome progetto>::ticket-map 
-=======
 <livewire:fixcity::ticket-map 
->>>>>>> laraxot/dev
-=======
-<livewire:fixcity::ticket-map 
->>>>>>> laraxot/dev
 <livewire:ptv::ticket-map 
     :filters="['priority' => 'urgent']" 
 />
@@ -340,18 +276,8 @@ Map Render → User Feedback
 - **Geo/docs/FARMSHOPS_INTEGRATION.md** - Complete guide
 
 ### Code (2)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>/Livewire/TicketMap.php** - Livewire component
-- **<nome progetto>/Resources/js/ticket-map.js** - JavaScript library
-=======
 - **Fixcity/Livewire/TicketMap.php** - Livewire component
 - **Fixcity/Resources/js/ticket-map.js** - JavaScript library
->>>>>>> laraxot/dev
-=======
-- **Fixcity/Livewire/TicketMap.php** - Livewire component
-- **Fixcity/Resources/js/ticket-map.js** - JavaScript library
->>>>>>> laraxot/dev
 
 ### Total Files: 3
 
@@ -405,18 +331,6 @@ Map Render → User Feedback
 **Quality**: 💎 **DIAMOND LEVEL**  
 **Ready**: 🚀 **FOR IMPLEMENTATION**  
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-*"Integrando le migliori pratiche da farmshops.eu, <nome progetto> ha ora una base solida per una mappa interattiva di livello mondiale!"*
-
-**#<nome progetto>2025 #FarmshopsIntegration #LeafletJS #OpenSource #Innovation**
-=======
 *"Integrando le migliori pratiche da farmshops.eu, FixCity ha ora una base solida per una mappa interattiva di livello mondiale!"*
 
 **#FixCity2025 #FarmshopsIntegration #LeafletJS #OpenSource #Innovation**
->>>>>>> laraxot/dev
-=======
-*"Integrando le migliori pratiche da farmshops.eu, FixCity ha ora una base solida per una mappa interattiva di livello mondiale!"*
-
-**#FixCity2025 #FarmshopsIntegration #LeafletJS #OpenSource #Innovation**
->>>>>>> laraxot/dev

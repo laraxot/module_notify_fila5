@@ -5,18 +5,8 @@ tags: [immediate, action, plan, days]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "immediate-action-plan-30-days 🚀 immediate action plan - 30 days"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -39,15 +29,7 @@ related:
 
 ## 🎯 EXECUTIVE SUMMARY
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Piano di azione immediato per completare le funzionalità core della piattaforma <nome progetto> nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.
-=======
 Piano di azione immediato per completare le funzionalità core della piattaforma FixCity nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.
->>>>>>> laraxot/dev
-=======
-Piano di azione immediato per completare le funzionalità core della piattaforma FixCity nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.
->>>>>>> laraxot/dev
 
 ### 📊 Obiettivi Chiave
 - [ ] **API v1**: RESTful API completa e documentata
@@ -60,15 +42,7 @@ Piano di azione immediato per completare le funzionalità core della piattaforma
 ## 📅 TIMELINE DETTAGLIATA
 
 ### 🗓️ WEEK 1 (Jan 27 - Feb 2): API FOUNDATION
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Focus**: Sviluppo API RESTful per modulo <nome progetto>
-=======
 **Focus**: Sviluppo API RESTful per modulo Fixcity
->>>>>>> laraxot/dev
-=======
-**Focus**: Sviluppo API RESTful per modulo Fixcity
->>>>>>> laraxot/dev
 
 #### 🎯 Obiettivi Giornalieri
 

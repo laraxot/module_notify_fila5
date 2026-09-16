@@ -147,15 +147,7 @@ laravel/Themes/Sixteen/
 │   └── js/
 │
 └── config/
-<<<<<<< HEAD
-<<<<<<< HEAD
-    └── local/<nome progetto>/database/content/
-=======
     └── local/fixcity/database/content/
->>>>>>> laraxot/dev
-=======
-    └── local/fixcity/database/content/
->>>>>>> laraxot/dev
     └── local/laraxot/database/content/
         └── pages/tests.homepage.json
 

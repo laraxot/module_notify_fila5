@@ -285,21 +285,6 @@ Priority: P1
 ## Examples
 
 ### Good Epic Issue
-<<<<<<< HEAD
-<<<<<<< HEAD
-https://github.com/laraxot/<repo progetto>/issues/1
-
-### Good Component Issue
-https://github.com/laraxot/<repo progetto>/issues/2
-
-### Good Page Issue
-https://github.com/laraxot/<repo progetto>/issues/9
-
-### Good ADR
-https://github.com/laraxot/<repo progetto>/discussions/1
-=======
-=======
->>>>>>> laraxot/dev
 https://github.com/laraxot/base_fixcity_fila5/issues/1
 
 ### Good Component Issue
@@ -310,10 +295,6 @@ https://github.com/laraxot/base_fixcity_fila5/issues/9
 
 ### Good ADR
 https://github.com/laraxot/base_fixcity_fila5/discussions/1
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ---
 

@@ -1,14 +1,6 @@
 # SuperMemory - AI Memory Infrastructure
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Project**: <nome progetto> Platform  
-=======
 **Project**: FixCity Platform  
->>>>>>> laraxot/dev
-=======
-**Project**: FixCity Platform  
->>>>>>> laraxot/dev
 **Last Updated**: 2026-04-09  
 **API Key**: Configured (sm_BzH3Cugxk1hMDm5V1EHC2N_...)  
 **Container Tag**: `ptv`  
@@ -37,29 +29,13 @@ Auth:  api-key (sm_BzH3Cugxk1hMDm5V1EHC2N_Jr9N****)
 
 ### Add Project Context
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptv_fila5
->>>>>>> laraxot/dev
 supermemory add --tag ptv --file .supermemory/ptv-context.md
 ```
 
 ### Search Memories
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-supermemory search "<nome progetto> architecture" --tag ptv
-=======
 supermemory search "FixCity architecture" --tag ptv
->>>>>>> laraxot/dev
-=======
-supermemory search "FixCity architecture" --tag ptv
->>>>>>> laraxot/dev
 supermemory search "Laravel Filament patterns" --tag ptv
 supermemory search "theme build process" --tag ptv
 ```
@@ -82,42 +58,18 @@ supermemory profile --tag ptv --query "project preferences"
 | `tags` | Manage container tags | `supermemory tags list` |
 | `docs` | Manage documents | `supermemory docs list` |
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## <nome progetto> Use Cases
-=======
 ## FixCity Use Cases
->>>>>>> laraxot/dev
-=======
-## FixCity Use Cases
->>>>>>> laraxot/dev
 
 ### 1. Project Context Persistence
 Store project architecture decisions:
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-supermemory add --tag ptv --content "<nome progetto> uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
-=======
 supermemory add --tag ptv --content "FixCity uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
->>>>>>> laraxot/dev
-=======
-supermemory add --tag ptv --content "FixCity uses Nwidart modules + Laraxot extensions. All models extend XotBaseModel. Service providers extend XotBaseServiceProvider."
->>>>>>> laraxot/dev
 ```
 
 ### 2. Module-Specific Knowledge
 Store module patterns:
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-supermemory add --tag ptv --content "<nome progetto> module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
-=======
 supermemory add --tag ptv --content "Fixcity module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
->>>>>>> laraxot/dev
-=======
-supermemory add --tag ptv --content "Fixcity module: Ticket model extends XotBaseModel, uses Filament resources for admin, Folio+Volt for frontoffice."
->>>>>>> laraxot/dev
 ```
 
 ### 3. Theme Conventions
@@ -143,15 +95,7 @@ supermemory add --tag ptv --content "Decision: Use Actions over Services for bus
 ### Before Starting Work
 ```bash
 # Get project context
-<<<<<<< HEAD
-<<<<<<< HEAD
-supermemory profile --tag ptv --query "<nome progetto> project architecture and conventions"
-=======
 supermemory profile --tag ptv --query "FixCity project architecture and conventions"
->>>>>>> laraxot/dev
-=======
-supermemory profile --tag ptv --query "FixCity project architecture and conventions"
->>>>>>> laraxot/dev
 
 # Search for relevant patterns
 supermemory search "Filament widget patterns" --tag ptv
@@ -212,15 +156,7 @@ Located in `laravel/.mcp.json`:
 ```
 
 ### CLI Configuration
-<<<<<<< HEAD
-<<<<<<< HEAD
-Located in `~/.supermemory/projects/-var-www-_bases-<repo progetto>/config.json`:
-=======
 Located in `~/.supermemory/projects/-var-www-_bases-base_ptv_fila5/config.json`:
->>>>>>> laraxot/dev
-=======
-Located in `~/.supermemory/projects/-var-www-_bases-base_ptv_fila5/config.json`:
->>>>>>> laraxot/dev
 ```json
 {
   "apiKey": "sm_BzH3Cugxk1hMDm5V1EHC2N_...",

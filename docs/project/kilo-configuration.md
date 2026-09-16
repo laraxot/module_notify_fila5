@@ -191,15 +191,7 @@ npm run lint, npm run format
 ```jsonc
 "project": {
   "type": "laravel",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "framework": "Laravel-13",
-=======
   "framework": "laravel-12",
->>>>>>> laraxot/dev
-=======
-  "framework": "laravel-12",
->>>>>>> laraxot/dev
   "frontend": "filament-v5",
   "architecture": "modular-monolith",
   "activeTheme": "Sixteen"

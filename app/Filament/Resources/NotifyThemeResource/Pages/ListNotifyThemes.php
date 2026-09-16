@@ -54,14 +54,6 @@ class ListNotifyThemes extends XotBaseListRecords
                 fn (): array => NotifyThemeResource::fieldOptions('type'),
             )];
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    #[Override]
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     public function getTableFilters(): array
     {
         return self::getNotifyThemeTableFilters();

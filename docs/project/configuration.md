@@ -82,15 +82,7 @@ return [
 ## Project Structure
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<repo progetto>/
-=======
 base_ptvx_fila5/
->>>>>>> laraxot/dev
-=======
-base_ptvx_fila5/
->>>>>>> laraxot/dev
 ├── public_html/                    # 📁 DOCUMENT ROOT
 │   ├── assets/                    # Theme assets (CSS, JS, images)
 │   ├── index.php                  # Entry point
@@ -131,15 +123,7 @@ base_ptvx_fila5/
 
 | Path | Description | Example |
 |------|-------------|---------|
-<<<<<<< HEAD
-<<<<<<< HEAD
-| `<repo progetto>/` |
-=======
 | `base_path()` | Project root | `/var/www/_bases/base_ptvx_fila5/` |
->>>>>>> laraxot/dev
-=======
-| `base_path()` | Project root | `/var/www/_bases/base_ptvx_fila5/` |
->>>>>>> laraxot/dev
 | `base_path('public_html')` | Document root | `.../public_html/` |
 | `base_path('laravel')` | Laravel app | `.../laravel/` |
 | `base_path('laravel/Themes/Sixteen')` | Active theme | `.../laravel/Themes/Sixteen/` |

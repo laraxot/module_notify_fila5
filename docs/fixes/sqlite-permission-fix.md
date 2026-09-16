@@ -5,18 +5,8 @@ tags: [sqlite, permission, fix]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "sqlite-permission-fix ✅ sqlite database permission fix - complete"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./critical-bug-sync-script-deleted.md"
   - "./database-directory-naming-fix.md"
@@ -40,18 +30,8 @@ related:
 Illuminate\Database\QueryException
 SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Database: /var/www/_bases/<repo progetto>/laravel/database/<nome progetto>_data.sqlite
-Database: /var/www/_bases/<repo progetto>/laravel/database/notify_data.sqlite
-=======
 Database: /var/www/_bases/base_fixcity_fila5/laravel/database/fixcity_data.sqlite
 Database: /var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
->>>>>>> laraxot/dev
-=======
-Database: /var/www/_bases/base_fixcity_fila5/laravel/database/fixcity_data.sqlite
-Database: /var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
->>>>>>> laraxot/dev
 SQL: insert or ignore into "cache" ("key", "value", "expiration") 
   values (laravel_cache_livewire-checksum-failures:172.23.16.1:timer, i:1774863199;, 1774863199)
 ```
@@ -59,15 +39,7 @@ SQL: insert or ignore into "cache" ("key", "value", "expiration")
 ### Root Cause
 
 Il file del database SQLite aveva permessi errati:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **File**: `laravel/database/<nome progetto>_data.sqlite`
-=======
 - **File**: `laravel/database/fixcity_data.sqlite`
->>>>>>> laraxot/dev
-=======
-- **File**: `laravel/database/fixcity_data.sqlite`
->>>>>>> laraxot/dev
 - **File**: `laravel/database/notify_data.sqlite`
 - **Problema**: Il file era scrivibile (`rw-rw-rw-`) ma il processo web non poteva scrivere
 
@@ -78,18 +50,8 @@ Il file del database SQLite aveva permessi errati:
 ### Command Executed
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5
-cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
 
 # Fix permissions (775 = rwxrwxr-x)
 chmod -R 775 laravel/database/
@@ -102,15 +64,7 @@ chown -R zorin:zorin laravel/database/
 
 ```
 drwxrwxr-x  4 zorin zorin       4096 Mar 30 11:14 .
-<<<<<<< HEAD
-<<<<<<< HEAD
--rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 <nome progetto>_data.sqlite
-=======
 -rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 fixcity_data.sqlite
->>>>>>> laraxot/dev
-=======
--rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 fixcity_data.sqlite
->>>>>>> laraxot/dev
 -rw-rw-rw-  1 zorin www-data 1044480 Mar 30 11:14 notify_data.sqlite
 ```
 
@@ -118,15 +72,7 @@ drwxrwxr-x  4 zorin zorin       4096 Mar 30 11:14 .
 
 ```
 drwxrwxr-x  4 zorin zorin    4096 Mar 30 11:14 .
-<<<<<<< HEAD
-<<<<<<< HEAD
--rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 <nome progetto>_data.sqlite
-=======
 -rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 fixcity_data.sqlite
->>>>>>> laraxot/dev
-=======
--rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 fixcity_data.sqlite
->>>>>>> laraxot/dev
 -rwxrwxr-x  1 zorin zorin 1044480 Mar 30 11:14 notify_data.sqlite
 ```
 
@@ -143,25 +89,11 @@ drwxrwxr-x  4 zorin zorin    4096 Mar 30 11:14 .
 
 ```bash
 # Check permissions
-<<<<<<< HEAD
-<<<<<<< HEAD
-ls -la laravel/database/<nome progetto>_data.sqlite
-# Should show: -rwxrwxr-x
-
-# Test site
-firefox http://<nome progetto>.local/it
-=======
-=======
->>>>>>> laraxot/dev
 ls -la laravel/database/fixcity_data.sqlite
 # Should show: -rwxrwxr-x
 
 # Test site
 firefox http://fixcity.local/it
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 # Should load without database errors
 ```
 
@@ -244,18 +176,8 @@ Create `bashscripts/fix-permissions.sh`:
 #!/bin/bash
 # Fix Laravel permissions
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-PROJECT_ROOT="/var/www/_bases/<repo progetto>"
-PROJECT_ROOT="/var/www/_bases/<repo progetto>"
-=======
 PROJECT_ROOT="/var/www/_bases/base_fixcity_fila5"
 PROJECT_ROOT="/var/www/_bases/base_ptvx_fila5"
->>>>>>> laraxot/dev
-=======
-PROJECT_ROOT="/var/www/_bases/base_fixcity_fila5"
-PROJECT_ROOT="/var/www/_bases/base_ptvx_fila5"
->>>>>>> laraxot/dev
 
 # Database
 chmod -R 775 $PROJECT_ROOT/laravel/database/
@@ -284,21 +206,9 @@ bash bashscripts/fix-permissions.sh
 | Document | Location |
 |----------|----------|
 | **Vite Fix** | `vite-fix-and-execution-plan.md` |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| **Improvement Plan** | `.planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md` |
-| **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
-| **Start Here** | `<nome progetto>-improvement-start-here.md` |
-=======
 | **Improvement Plan** | `.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md` |
 | **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
 | **Start Here** | `fixcity-improvement-start-here.md` |
->>>>>>> laraxot/dev
-=======
-| **Improvement Plan** | `.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md` |
-| **Execution Plan** | `.planning/improvements/EXECUTION_PLAN.md` |
-| **Start Here** | `fixcity-improvement-start-here.md` |
->>>>>>> laraxot/dev
 
 ---
 
@@ -309,15 +219,7 @@ bash bashscripts/fix-permissions.sh
 - [x] Database permissions fixed (775)
 - [x] Ownership set to zorin:zorin
 - [x] OpenViking updated
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] Site tested (http://<nome progetto>.local/it)
-=======
 - [ ] Site tested (http://fixcity.local/it)
->>>>>>> laraxot/dev
-=======
-- [ ] Site tested (http://fixcity.local/it)
->>>>>>> laraxot/dev
 - [ ] Site tested (http://laraxot.local/it)
 - [ ] Livewire components working
 - [ ] Cache operations working
@@ -347,15 +249,7 @@ php artisan config:clear
 php artisan view:clear
 
 # Test site
-<<<<<<< HEAD
-<<<<<<< HEAD
-firefox http://<nome progetto>.local/it
-=======
 firefox http://fixcity.local/it
->>>>>>> laraxot/dev
-=======
-firefox http://fixcity.local/it
->>>>>>> laraxot/dev
 firefox http://laraxot.local/it
 ```
 
@@ -384,13 +278,5 @@ firefox http://laraxot.local/it
 **Next**: Test site + Continue P0 tasks  
 **ETA Phase 0**: 2026-04-13 (unchanged)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto> database ora scrivibile! 🚀**
-=======
 **FixCity database ora scrivibile! 🚀**
->>>>>>> laraxot/dev
-=======
-**FixCity database ora scrivibile! 🚀**
->>>>>>> laraxot/dev
 **Notify database ora scrivibile! 🚀**

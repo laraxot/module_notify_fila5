@@ -7,14 +7,7 @@ namespace Modules\Notify\Notifications;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Modules\Notify\Channels\SmsChannel;
->>>>>>> laraxot/dev
-=======
-use Modules\Notify\Channels\SmsChannel;
->>>>>>> laraxot/dev
 use Modules\Notify\Datas\SmsData;
 
 /**
@@ -65,25 +58,11 @@ class SmsNotification extends Notification implements ShouldQueue
      * Get the notification's delivery channels.
      *
      * @param  object  $notifiable  The entity to be notified (l'entità da notificare)
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @return array<int, string>
-     */
-    public function via(object $notifiable): array
-    {
-        return ['sms'];
-=======
-=======
->>>>>>> laraxot/dev
      * @return array<int, class-string>
      */
     public function via(object $notifiable): array
     {
         return [SmsChannel::class];
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     }
 
     /**

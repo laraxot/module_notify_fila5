@@ -32,15 +32,7 @@ updated: 2026-08-24
 
 ### Conoscenze Richieste
 - Laravel 11.x
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Filament 5.x
-=======
 - Filament 4.x
->>>>>>> laraxot/dev
-=======
-- Filament 4.x
->>>>>>> laraxot/dev
 - Livewire 3.x
 - TailwindCSS
 - Architettura modulare (Nwidart)
@@ -255,15 +247,7 @@ return [
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
 │   │   ├── App/          # Core business logic
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome repitory>/
-=======
 <nome repitory>_mono/
->>>>>>> laraxot/dev
-=======
-<nome repitory>_mono/
->>>>>>> laraxot/dev
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
 │   │   ├── <nome progetto>/          # Core business logic

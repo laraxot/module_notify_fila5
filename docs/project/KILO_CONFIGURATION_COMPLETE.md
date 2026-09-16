@@ -146,15 +146,7 @@ export GOOGLE_API_KEY="your-key-here"
 ### 3. Avvia Kilo
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
 
 # Avvia TUI
 opencode

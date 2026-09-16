@@ -67,15 +67,7 @@ it('SendAgiletelecomSMSAction has required imports', function () {
     /** @var string $filename */
     $content = \Safe\file_get_contents($filename);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    expect($content)->toContain('use Modules\\Notify\\Contracts\\SMS\\SmsActionContract;');
-=======
     expect($content)->toContain('use Modules\\Notify\\Models\\Contracts\\SmsActionContract;');
->>>>>>> laraxot/dev
-=======
-    expect($content)->toContain('use Modules\\Notify\\Models\\Contracts\\SmsActionContract;');
->>>>>>> laraxot/dev
     expect($content)->toContain('use Modules\\Notify\\Datas\\SmsData;');
 });
 

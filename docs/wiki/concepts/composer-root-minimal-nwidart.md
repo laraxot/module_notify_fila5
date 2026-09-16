@@ -6,21 +6,9 @@ created: 2026-06-29
 updated: 2026-06-29
 qmd: "Notify composer dependencies root minimal nwidart merge-plugin"
 issues:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - "https://github.com/laraxot/<repo progetto>/issues/214"
-discussions:
-  - "https://github.com/laraxot/<repo progetto>/discussions/215"
-=======
   - "https://github.com/laraxot/base_predict_fila5/issues/214"
 discussions:
   - "https://github.com/laraxot/base_predict_fila5/discussions/215"
->>>>>>> laraxot/dev
-=======
-  - "https://github.com/laraxot/base_predict_fila5/issues/214"
-discussions:
-  - "https://github.com/laraxot/base_predict_fila5/discussions/215"
->>>>>>> laraxot/dev
 related:
   - ../../../Xot/docs/wiki/concepts/composer-root-skeleton-modular.md
   - ../../../../../../docs/wiki/concepts/composer-root-minimal-nwidart.md
@@ -31,18 +19,8 @@ related:
 
 ## Regola
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Dipendenze del dominio **Notify** in `Modules/Notify/composer.json`. Il root `laravel/composer.json` resta skeleton come [<repo progetto>](https://github.com/laraxot/<repo progetto>/blob/dev/laravel/composer.json).
-Dipendenze del dominio **Notify** in `Modules/Notify/composer.json`. Il root `laravel/composer.json` resta skeleton come [<repo progetto>](https://github.com/laraxot/platform/blob/dev/laravel/composer.json).
-=======
 Dipendenze del dominio **Notify** in `Modules/Notify/composer.json`. Il root `laravel/composer.json` resta skeleton come [base_fixcity_fila5](https://github.com/laraxot/base_fixcity_fila5/blob/dev/laravel/composer.json).
 Dipendenze del dominio **Notify** in `Modules/Notify/composer.json`. Il root `laravel/composer.json` resta skeleton come [base_ptvx_fila5](https://github.com/laraxot/platform/blob/dev/laravel/composer.json).
->>>>>>> laraxot/dev
-=======
-Dipendenze del dominio **Notify** in `Modules/Notify/composer.json`. Il root `laravel/composer.json` resta skeleton come [base_fixcity_fila5](https://github.com/laraxot/base_fixcity_fila5/blob/dev/laravel/composer.json).
-Dipendenze del dominio **Notify** in `Modules/Notify/composer.json`. Il root `laravel/composer.json` resta skeleton come [base_ptvx_fila5](https://github.com/laraxot/platform/blob/dev/laravel/composer.json).
->>>>>>> laraxot/dev
 
 
 

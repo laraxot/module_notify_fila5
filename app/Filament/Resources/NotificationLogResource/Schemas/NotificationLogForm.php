@@ -4,14 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotificationLogResource\Schemas;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Forms\Components\TextInput;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Section;
-=======
-=======
->>>>>>> laraxot/dev
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\Select;
@@ -20,10 +12,6 @@ use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Enums\ChannelEnum;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 use Modules\Xot\Filament\Resources\Schemas\XotBaseResourceForm;
 
 class NotificationLogForm extends XotBaseResourceForm
@@ -34,13 +22,6 @@ class NotificationLogForm extends XotBaseResourceForm
     public function getFormSchema(): array
     {
         return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-            Section::make([
-                'name' => TextInput::make('name')])];
-=======
-=======
->>>>>>> laraxot/dev
             'template_id' => Select::make('template_id')
                 ->relationship('template', 'name')
                 ->searchable()
@@ -67,9 +48,5 @@ class NotificationLogForm extends XotBaseResourceForm
             'opened_at' => DateTimePicker::make('opened_at'),
             'clicked_at' => DateTimePicker::make('clicked_at'),
         ];
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     }
 }

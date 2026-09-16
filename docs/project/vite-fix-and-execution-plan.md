@@ -5,18 +5,8 @@ tags: [vite, fix, execution, plan]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "vite-fix-and-execution-plan 🚀 laraxot improvement + vite fix - execution plan"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./2-1-1-plan.md"
   - "./2-1-context.md"
@@ -56,15 +46,7 @@ related:
 
 **Error**:
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Vite manifest not found at: /var/www/_bases/<repo progetto>/public_html/themes/<nome tema>/manifest.json
-=======
 Vite manifest not found at: /var/www/_bases/base_ptvx_fila5/public_html/themes/<nome tema>/manifest.json
->>>>>>> laraxot/dev
-=======
-Vite manifest not found at: /var/www/_bases/base_ptvx_fila5/public_html/themes/<nome tema>/manifest.json
->>>>>>> laraxot/dev
 ```
 
 **Root Cause Analysis**:
@@ -159,15 +141,7 @@ See: `.planning/improvements/NOTIFY_IT_IMPROVEMENT_PLAN.md`
 
 ```bash
 # Navigate to project
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>
-=======
 cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptvx_fila5
->>>>>>> laraxot/dev
 
 # Fix Sixteen theme
 cd laravel/Themes/Sixteen

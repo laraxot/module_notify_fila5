@@ -4,25 +4,11 @@
 
 ## Stato compatibilità
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il modulo Notify è **compatibile** con Filament 5.x. Nessun breaking change funzionale rispetto a Filament 5.x.
-
-## Note specifiche modulo
-
-- Il fix precedente (Filament 5.x) per `SpatieEmail` — uso di `update()` al posto di `increment()` — resta valido
-=======
-=======
->>>>>>> laraxot/dev
 Il modulo Notify è **compatibile** con Filament 5.x. Nessun breaking change funzionale rispetto a Filament 4.x.
 
 ## Note specifiche modulo
 
 - Il fix precedente (Filament 4.x) per `SpatieEmail` — uso di `update()` al posto di `increment()` — resta valido
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - Le email stagionali tramite layout Blade non sono impattate dall'upgrade Filament
 
 ## Regole architetturali
@@ -53,15 +39,7 @@ Questo evita errori di `ComponentNotFoundException` nelle architetture modulari.
 ## Checklist modulo
 
 - [x] Nessun import diretto da `Filament\*` base classes
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [x] Fix `SpatieEmail` (da Filament 5.x) confermato compatibile
-=======
 - [x] Fix `SpatieEmail` (da Filament 4.x) confermato compatibile
->>>>>>> laraxot/dev
-=======
-- [x] Fix `SpatieEmail` (da Filament 4.x) confermato compatibile
->>>>>>> laraxot/dev
 - [ ] Verificare compatibilità con Livewire 4.x dopo upgrade
 - [ ] Verificare Tailwind CSS 4.1+ dopo upgrade
 

@@ -6,21 +6,9 @@ created: 2026-06-05
 updated: 2026-06-13
 qmd: "Notify testing Pest notificationManager test doubles PHPStan"
 issues:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - "https://github.com/laraxot/module_<nome progetto>_fila5/issues/52"
-discussions:
-  - "https://github.com/laraxot/module_<nome progetto>_fila5/discussions/53"
-=======
   - "https://github.com/laraxot/module_fixcity_fila5/issues/52"
 discussions:
   - "https://github.com/laraxot/module_fixcity_fila5/discussions/53"
->>>>>>> laraxot/dev
-=======
-  - "https://github.com/laraxot/module_fixcity_fila5/issues/52"
-discussions:
-  - "https://github.com/laraxot/module_fixcity_fila5/discussions/53"
->>>>>>> laraxot/dev
 related:
   - ./phpstan-pest-test-doubles.md
   - ../../phpstan-compliance-status.md

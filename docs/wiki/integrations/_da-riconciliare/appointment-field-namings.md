@@ -13,15 +13,7 @@ updated: 2026-08-24
 
 The Appointment model in <nome progetto> module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 The Appointment model in App module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
-<<<<<<< HEAD
-<<<<<<< HEAD
-The Appointment model in <nome progetto> module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
-=======
 The Appointment model in Quaeris module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
->>>>>>> laraxot/dev
-=======
-The Appointment model in Quaeris module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
->>>>>>> laraxot/dev
 
 ## Issues Detected
 
@@ -30,15 +22,7 @@ The Appointment model in Quaeris module defines both legacy field names (`start_
 **File Path**: `/var/www/html/_bases/base_<nome progetto>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 **File Path**: `/var/www/_bases/<nome repository>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 **File Path**: `/var/www/html/_bases/<nome repository>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File Path**: `/var/www/html/_bases/base_<nome progetto>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
-=======
 **File Path**: `/var/www/html/_bases/base_Quaeris/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
->>>>>>> laraxot/dev
-=======
-**File Path**: `/var/www/html/_bases/base_Quaeris/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
->>>>>>> laraxot/dev
 **File Path**: `/var/www/html/_bases/<nome repository>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 
 **Line 120**:

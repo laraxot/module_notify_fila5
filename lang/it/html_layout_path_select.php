@@ -7,15 +7,7 @@ return [
         'html_layout_path' => [
             'label' => 'html_layout_path',
             'placeholder' => 'html_layout_path',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'html_layout_path',
->>>>>>> laraxot/dev
-=======
-            'helper_text' => 'html_layout_path',
->>>>>>> laraxot/dev
             'description' => 'html_layout_path',
             'tooltip' => '']],
     'label' => 'Html Layout Path Select',

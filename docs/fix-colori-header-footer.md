@@ -5,18 +5,8 @@ tags: [fix, colori, header, footer]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "fix-colori-header-footer 🎨 fix colori header e footer - bootstrap italia"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -217,14 +207,6 @@ body {
 ---
 
 **Cache**: ✅ Pulita  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**URL Test**: http://<nome progetto>.local/it/tests/homepage  
-=======
 **URL Test**: http://fixcity.local/it/tests/homepage  
->>>>>>> laraxot/dev
-=======
-**URL Test**: http://fixcity.local/it/tests/homepage  
->>>>>>> laraxot/dev
 **URL Test**: http://ptv.local/it/tests/homepage  
 **Status**: Header e Footer 100% conformi

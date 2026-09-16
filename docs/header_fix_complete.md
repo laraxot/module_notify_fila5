@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# ✅ Header <nome progetto> Fixato - 100% Conforme Bootstrap Italia
-=======
 # ✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia
->>>>>>> laraxot/dev
-=======
-# ✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia
->>>>>>> laraxot/dev
 
 ## Data: 2026-03-31
 ## Status: ✅ Header Completamente Rifatto
@@ -133,15 +125,7 @@
 
 ## 📊 Conformità Raggiunta
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-| Elemento | Reference | <nome progetto> | Status |
-=======
 | Elemento | Reference | FixCity | Status |
->>>>>>> laraxot/dev
-=======
-| Elemento | Reference | FixCity | Status |
->>>>>>> laraxot/dev
 |----------|-----------|---------|--------|
 | **Top Bar** | | | |
 | Background | `#0066CC` | `bg-[#0066CC]` | ✅ |

@@ -13,18 +13,8 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-<<<<<<< HEAD
-<<<<<<< HEAD
-│                        <nome progetto> Platform v2                          │
-│                    Laravel 13 + Filament 5 + Livewire 3             │
-=======
 │                        FixCity Platform v2                          │
 │                    Laravel 12 + Filament 5 + Livewire 3             │
->>>>>>> laraxot/dev
-=======
-│                        FixCity Platform v2                          │
-│                    Laravel 12 + Filament 5 + Livewire 3             │
->>>>>>> laraxot/dev
 └─────────────────────────────────────────────────────────────────────┘
 
 ┌──────────────────┐         ┌──────────────────┐        ┌──────────────┐
@@ -205,15 +195,7 @@ HTTP Request: /it/tests/homepage
 ┌──────────────────────────────────────┐
 │  PageSlugMiddleware                  │
 │  Load from JSON config               │
-<<<<<<< HEAD
-<<<<<<< HEAD
-│  laravel/config/local/<nome progetto>/       │
-=======
 │  laravel/config/local/fixcity/       │
->>>>>>> laraxot/dev
-=======
-│  laravel/config/local/fixcity/       │
->>>>>>> laraxot/dev
 │  database/content/pages/[slug].json  │
 └───────┬──────────────────────────────┘
         │
@@ -289,15 +271,7 @@ Admin Panel
 
 ```
 1. HTTP Request
-<<<<<<< HEAD
-<<<<<<< HEAD
-   ├─ URL: http://<nome progetto>.local/it/tests/homepage
-=======
    ├─ URL: http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
-=======
-   ├─ URL: http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
    └─ Method: GET
 
 2. Routing (Folio)
@@ -310,23 +284,10 @@ Admin Panel
 
 4. Middleware Chain
    ├─ PageSlugMiddleware
-<<<<<<< HEAD
-<<<<<<< HEAD
-   │  ├─ Read APP_URL → <nome progetto>.local
-   │  ├─ Extract domain → <nome progetto>.local
-   │  ├─ Reverse parts → [local, <nome progetto>]
-   │  ├─ Build config path → local/<nome progetto>
-=======
-=======
->>>>>>> laraxot/dev
    │  ├─ Read APP_URL → fixcity.local
    │  ├─ Extract domain → fixcity.local
    │  ├─ Reverse parts → [local, fixcity]
    │  ├─ Build config path → local/fixcity
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
    │  ├─ Load theme: Sixteen
    │  └─ Load JSON: pages/homepage.json
    │

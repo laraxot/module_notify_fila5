@@ -153,14 +153,6 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->label(__('notify::push.actions.send'))
                 ->submit('sendPushNotification')];
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    #[Override]
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

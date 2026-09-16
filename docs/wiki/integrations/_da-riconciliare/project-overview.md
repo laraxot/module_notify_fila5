@@ -46,28 +46,12 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 ### Tech Stack
 
 **Backend**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Laravel 13.24.0 + PHP 8.3.20
-=======
 - Laravel 12.24.0 + PHP 8.3.20
->>>>>>> laraxot/dev
-=======
-- Laravel 12.24.0 + PHP 8.3.20
->>>>>>> laraxot/dev
 - SQLite (development) / PostgreSQL (production ready)
 - Nwidart Modules + Laraxot Extensions
 
 **Frontend Backoffice**:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Filament 5.x (Admin Panels)
-=======
 - Filament 4.x (Admin Panels)
->>>>>>> laraxot/dev
-=======
-- Filament 4.x (Admin Panels)
->>>>>>> laraxot/dev
 - Livewire 3.x (Interattività)
 - Tailwind CSS 4.0
 

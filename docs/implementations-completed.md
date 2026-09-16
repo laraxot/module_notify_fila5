@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "✅ <nome progetto> - IMPLEMENTAZIONI COMPLETATE"
-=======
 title: "✅ FIXCITY - IMPLEMENTAZIONI COMPLETATE"
->>>>>>> laraxot/dev
-=======
-title: "✅ FIXCITY - IMPLEMENTAZIONI COMPLETATE"
->>>>>>> laraxot/dev
 type: concept
 tags: [implementations, completed]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "implementations-completed ✅ <nome progetto> - implementazioni completate"
-qmd: "implementations-completed ✅ ptv - implementazioni completate"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "implementations-completed ✅ fixcity - implementazioni completate"
 qmd: "implementations-completed ✅ ptv - implementazioni completate"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# ✅ <nome progetto> - IMPLEMENTAZIONI COMPLETATE
-=======
 # ✅ FIXCITY - IMPLEMENTAZIONI COMPLETATE
->>>>>>> laraxot/dev
-=======
-# ✅ FIXCITY - IMPLEMENTAZIONI COMPLETATE
->>>>>>> laraxot/dev
 
 **Data**: 2025-10-01  
 **Sessione**: Gap Analysis & Core Implementation  
@@ -58,30 +29,14 @@ related:
 
 ## 🎯 OBIETTIVO RAGGIUNTO
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Analizzato lo scopo del progetto, identificate le features mancanti e implementate le funzionalità critiche per trasformare <nome progetto> da MVP a piattaforma enterprise-ready.
-=======
 Analizzato lo scopo del progetto, identificate le features mancanti e implementate le funzionalità critiche per trasformare FixCity da MVP a piattaforma enterprise-ready.
->>>>>>> laraxot/dev
-=======
-Analizzato lo scopo del progetto, identificate le features mancanti e implementate le funzionalità critiche per trasformare FixCity da MVP a piattaforma enterprise-ready.
->>>>>>> laraxot/dev
 
 ---
 
 ## 📊 SCOPO DEL PROGETTO (Analizzato)
 
 ### Business Goal
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto>** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette:
-=======
 **FixCity** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette:
->>>>>>> laraxot/dev
-=======
-**FixCity** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette:
->>>>>>> laraxot/dev
 - 👥 **Cittadini**: Segnalare problemi urbani (buche, illuminazione, rifiuti, verde pubblico)
 - 🔧 **Operatori**: Gestire e risolvere segnalazioni con workflow ottimizzati
 - 📊 **Amministratori**: Monitorare performance e analytics
@@ -100,15 +55,7 @@ Analizzato lo scopo del progetto, identificate le features mancanti e implementa
 ### 📊 Analisi e Planning (1)
 1. ✅ **gap-analysis-implementation.md** - Analisi completa gap e piano implementazione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 🎫 Modulo <nome progetto> - Core Implementation (4)
-=======
 ### 🎫 Modulo Fixcity - Core Implementation (4)
->>>>>>> laraxot/dev
-=======
-### 🎫 Modulo Fixcity - Core Implementation (4)
->>>>>>> laraxot/dev
 2. ✅ **Jobs/GeocodeTicketAddressJob.php** - Async geocoding con cache
 3. ✅ **Repositories/TicketRepository.php** - Query optimization con cache layer
 4. ✅ **Http/Controllers/Api/V1/TicketController.php** - REST API completa
@@ -124,21 +71,9 @@ Analizzato lo scopo del progetto, identificate le features mancanti e implementa
 12. ✅ **final-summary.md**
 
 ### 📖 Guide Complete (3 - da sessione precedente)
-<<<<<<< HEAD
-<<<<<<< HEAD
-13. ✅ **<nome progetto>/docs/API.md**
-14. ✅ **<nome progetto>/docs/USER_GUIDE.md**
-15. ✅ **<nome progetto>/docs/ADMIN_GUIDE.md**
-=======
 13. ✅ **Fixcity/docs/API.md**
 14. ✅ **Fixcity/docs/USER_GUIDE.md**
 15. ✅ **Fixcity/docs/ADMIN_GUIDE.md**
->>>>>>> laraxot/dev
-=======
-13. ✅ **Fixcity/docs/API.md**
-14. ✅ **Fixcity/docs/USER_GUIDE.md**
-15. ✅ **Fixcity/docs/ADMIN_GUIDE.md**
->>>>>>> laraxot/dev
 
 ### 🔐 Security Implementation (2 - da sessione precedente)
 16. ✅ **User/docs/2FA_GUIDE.md**
@@ -146,15 +81,7 @@ Analizzato lo scopo del progetto, identificate le features mancanti e implementa
 
 ### 🗺️ Roadmap (3 - da sessione precedente)
 18. ✅ **roadmap-status-summary.md**
-<<<<<<< HEAD
-<<<<<<< HEAD
-19. ✅ **<nome progetto>/ROADMAP_2025.md**
-=======
 19. ✅ **Fixcity/ROADMAP_2025.md**
->>>>>>> laraxot/dev
-=======
-19. ✅ **Fixcity/ROADMAP_2025.md**
->>>>>>> laraxot/dev
 20. ✅ **User/roadmap.md**
 
 ---
@@ -183,15 +110,7 @@ GeocodeTicketAddressJob::dispatch($ticket);
 - 🔄 Resilienza: Fallback automatico
 - 📊 Scalabilità: Queue-based
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/Jobs/GeocodeTicketAddressJob.php`
-=======
 **File**: `Modules/Fixcity/Jobs/GeocodeTicketAddressJob.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Fixcity/Jobs/GeocodeTicketAddressJob.php`
->>>>>>> laraxot/dev
 
 ---
 
@@ -219,15 +138,7 @@ $stats = $repository->getStatistics();
 - 💾 Memory usage: -40%
 - 🔍 Nearby search ottimizzato
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**File**: `Modules/<nome progetto>/Repositories/TicketRepository.php`
-=======
 **File**: `Modules/Fixcity/Repositories/TicketRepository.php`
->>>>>>> laraxot/dev
-=======
-**File**: `Modules/Fixcity/Repositories/TicketRepository.php`
->>>>>>> laraxot/dev
 
 **Metodi Principali**:
 - `findById()` - Con cache
@@ -372,15 +283,7 @@ GET    /api/v1/tickets/nearby       // Nearby search
 
 ### 1. Database Migration
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-php artisan make:migration add_address_to_tickets_table --path=Modules/<nome progetto>/database/migrations
-=======
 php artisan make:migration add_address_to_tickets_table --path=Modules/Fixcity/database/migrations
->>>>>>> laraxot/dev
-=======
-php artisan make:migration add_address_to_tickets_table --path=Modules/Fixcity/database/migrations
->>>>>>> laraxot/dev
 ```
 
 ```php
@@ -392,15 +295,7 @@ Schema::table('tickets', function (Blueprint $table) {
 
 ### 2. Register API Routes
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-// Modules/<nome progetto>/routes/api.php
-=======
 // Modules/Fixcity/routes/api.php
->>>>>>> laraxot/dev
-=======
-// Modules/Fixcity/routes/api.php
->>>>>>> laraxot/dev
 Route::prefix('v1')->group(function () {
     Route::apiResource('tickets', TicketController::class);
     Route::post('tickets/{id}/status', [TicketController::class, 'changeStatus']);
@@ -421,21 +316,9 @@ protected function getTableQuery(): Builder
 
 ### 4. Create Tests
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-php artisan make:test Modules/<nome progetto>/Tests/Feature/GeocodeTicketTest
-php artisan make:test Modules/<nome progetto>/Tests/Feature/TicketRepositoryTest
-php artisan make:test Modules/<nome progetto>/Tests/Feature/Api/TicketApiTest
-=======
 php artisan make:test Modules/Fixcity/Tests/Feature/GeocodeTicketTest
 php artisan make:test Modules/Fixcity/Tests/Feature/TicketRepositoryTest
 php artisan make:test Modules/Fixcity/Tests/Feature/Api/TicketApiTest
->>>>>>> laraxot/dev
-=======
-php artisan make:test Modules/Fixcity/Tests/Feature/GeocodeTicketTest
-php artisan make:test Modules/Fixcity/Tests/Feature/TicketRepositoryTest
-php artisan make:test Modules/Fixcity/Tests/Feature/Api/TicketApiTest
->>>>>>> laraxot/dev
 ```
 
 ### 5. Setup CI/CD
@@ -485,15 +368,7 @@ jobs:
 - **Caching**: 0% → **70%** (+70%)
 
 ### Moduli Status
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: 90% → **93%** (Job, Repository, API)
-=======
 - **Fixcity**: 90% → **93%** (Job, Repository, API)
->>>>>>> laraxot/dev
-=======
-- **Fixcity**: 90% → **93%** (Job, Repository, API)
->>>>>>> laraxot/dev
 - **User**: 92% (2FA/SSO documentati)
 - **UI**: 70% (da implementare)
 - **Geo**: 75% (da implementare)
@@ -510,15 +385,7 @@ jobs:
 
 ### Core Implementation
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Modules/<nome progetto>/
-=======
 Modules/Fixcity/
->>>>>>> laraxot/dev
-=======
-Modules/Fixcity/
->>>>>>> laraxot/dev
 ├── Jobs/
 │   └── GeocodeTicketAddressJob.php          ✅ NEW
 ├── Repositories/
@@ -572,21 +439,9 @@ Modules/Fixcity/
 - **[quick-start.md](./quick-start.md)** - Guida sviluppatori
 
 ### Implementation
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **[GeocodeTicketAddressJob.php](./laravel/Modules/<nome progetto>/Jobs/GeocodeTicketAddressJob.php)**
-- **[TicketRepository.php](./laravel/Modules/<nome progetto>/Repositories/TicketRepository.php)**
-- **[TicketController.php](./laravel/Modules/<nome progetto>/Http/Controllers/Api/V1/TicketController.php)**
-=======
 - **[GeocodeTicketAddressJob.php](./laravel/Modules/Fixcity/Jobs/GeocodeTicketAddressJob.php)**
 - **[TicketRepository.php](./laravel/Modules/Fixcity/Repositories/TicketRepository.php)**
 - **[TicketController.php](./laravel/Modules/Fixcity/Http/Controllers/Api/V1/TicketController.php)**
->>>>>>> laraxot/dev
-=======
-- **[GeocodeTicketAddressJob.php](./laravel/Modules/Fixcity/Jobs/GeocodeTicketAddressJob.php)**
-- **[TicketRepository.php](./laravel/Modules/Fixcity/Repositories/TicketRepository.php)**
-- **[TicketController.php](./laravel/Modules/Fixcity/Http/Controllers/Api/V1/TicketController.php)**
->>>>>>> laraxot/dev
 
 ---
 
@@ -618,18 +473,6 @@ Completata con successo l'implementazione delle features critiche:
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-*"From analysis to implementation - building enterprise-ready features for <nome progetto> 2025!"*
-
-**#<nome progetto>2025 #Implementation #Performance #API #Excellence**
-=======
 *"From analysis to implementation - building enterprise-ready features for FixCity 2025!"*
 
 **#FixCity2025 #Implementation #Performance #API #Excellence**
->>>>>>> laraxot/dev
-=======
-*"From analysis to implementation - building enterprise-ready features for FixCity 2025!"*
-
-**#FixCity2025 #Implementation #Performance #API #Excellence**
->>>>>>> laraxot/dev

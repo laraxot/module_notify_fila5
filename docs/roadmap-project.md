@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "🚀 ROADMAP GENERALE - <nome progetto> Platform"
-=======
 title: "🚀 ROADMAP GENERALE - FixCity Platform"
->>>>>>> laraxot/dev
-=======
-title: "🚀 ROADMAP GENERALE - FixCity Platform"
->>>>>>> laraxot/dev
 type: concept
 tags: [roadmap, project]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "roadmap-project 🚀 roadmap generale - <nome progetto> platform"
-qmd: "roadmap-project 🚀 roadmap generale - ptv platform"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "roadmap-project 🚀 roadmap generale - fixcity platform"
 qmd: "roadmap-project 🚀 roadmap generale - ptv platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,25 +19,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🚀 ROADMAP GENERALE - <nome progetto> Platform
-
-## 📋 Sommario Esecutivo
-
-**<nome progetto>** è una piattaforma completa di civic engagement per la gestione delle segnalazioni urbane. I cittadini possono segnalare problemi nella loro città, e le amministrazioni gestirle con workflow avanzati.
-=======
-=======
->>>>>>> laraxot/dev
 # 🚀 ROADMAP GENERALE - FixCity Platform
 
 ## 📋 Sommario Esecutivo
 
 **FixCity** è una piattaforma completa di civic engagement per la gestione delle segnalazioni urbane. I cittadini possono segnalare problemi nella loro città, e le amministrazioni gestirle con workflow avanzati.
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ### Versione Attuale: 1.0.0 (Base Funzionante)
 ### Target Versione: 2.0.0 (Produzione Completa)
@@ -112,15 +77,7 @@ related:
 - **Lang**: Multi-language support ✓
 
 ### 🚧 Funzionali ma da Completare
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: Core business logic (80% completo)
-=======
 - **Fixcity**: Core business logic (80% completo)
->>>>>>> laraxot/dev
-=======
-- **Fixcity**: Core business logic (80% completo)
->>>>>>> laraxot/dev
   - Manca: API pubblica, analytics avanzate, automazione
 - **Geo**: Geolocalizzazione (70% completo)
   - Manca: Heatmap, zone management, routing ottimizzato
@@ -392,15 +349,7 @@ related:
 ## 🎓 Knowledge Base
 
 ### Link Documentazione Moduli
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Modulo <nome progetto>](../Modules/<nome progetto>/docs/README.md)
-=======
 - [Modulo Fixcity](../Modules/Fixcity/docs/README.md)
->>>>>>> laraxot/dev
-=======
-- [Modulo Fixcity](../Modules/Fixcity/docs/README.md)
->>>>>>> laraxot/dev
 - [Modulo User](../Modules/User/docs/README.md)
 - [Modulo Cms](../Modules/Cms/docs/README.md)
 - [Modulo Geo](../Modules/Geo/docs/README.md)

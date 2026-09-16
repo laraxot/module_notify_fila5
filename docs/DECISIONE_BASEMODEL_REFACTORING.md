@@ -16,15 +16,7 @@
 | **Blog** | ✅ Sì | ❌ No | SoftDeletes, Media, casts() | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Cms** | ✅ Sì | ❌ No | casts() merge | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Comment** | ✅ Sì | ❌ No | Solo connection | ⭐⭐⭐⭐⭐ PERFETTO |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| **<nome progetto>** | ✅ Sì | ⚠️ Parziali | SoftDeletes, $fillable, $dates | ⭐⭐⭐⭐ BUONO |
-=======
 | **Fixcity** | ✅ Sì | ⚠️ Parziali | SoftDeletes, $fillable, $dates | ⭐⭐⭐⭐ BUONO |
->>>>>>> laraxot/dev
-=======
-| **Fixcity** | ✅ Sì | ⚠️ Parziali | SoftDeletes, $fillable, $dates | ⭐⭐⭐⭐ BUONO |
->>>>>>> laraxot/dev
 | **Gdpr** | ✅ Sì | ❌ No | casts() merge | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Geo** | ✅ Sì | ❌ No | Solo connection | ⭐⭐⭐⭐⭐ PERFETTO |
 | **Job** | ✅ Sì | ❌ No | Solo connection | ⭐⭐⭐⭐⭐ PERFETTO |
@@ -161,23 +153,10 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 
 ## ⚠️ CASI PROBLEMATICI
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Problema 1: <nome progetto> (PARZIALMENTE DUPLICATO)
-
-```php
-// Modules/<nome progetto>/app/Models/BaseModel.php
-=======
-=======
->>>>>>> laraxot/dev
 ### Problema 1: Fixcity (PARZIALMENTE DUPLICATO)
 
 ```php
 // Modules/Fixcity/app/Models/BaseModel.php
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 {
     use SoftDeletes;  // ✅ Specifico
@@ -416,15 +395,7 @@ php artisan test --filter Tenant
 
 ### Priorità ALTA ⚠️
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### 2. <nome progetto> Module
-=======
 #### 2. Fixcity Module
->>>>>>> laraxot/dev
-=======
-#### 2. Fixcity Module
->>>>>>> laraxot/dev
 **Problema**: $fillable duplicato, $dates deprecato  
 **Impatto**: 41 linee → 25 linee (39% riduzione)  
 **Rischio**: MEDIO (SoftDeletes da testare)  
@@ -479,15 +450,7 @@ protected function casts(): array
 | Moduli conformi | 16/18 (89%) |
 | LOC totali BaseModel | 578 |
 | Duplicazioni critiche | 1 (Tenant) |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| Duplicazioni medie | 1 (<nome progetto>) |
-=======
 | Duplicazioni medie | 1 (Fixcity) |
->>>>>>> laraxot/dev
-=======
-| Duplicazioni medie | 1 (Fixcity) |
->>>>>>> laraxot/dev
 | Duplicazioni minori | 6 (casts) |
 
 ### Dopo il Refactoring
@@ -527,15 +490,7 @@ protected function casts(): array
 #### 🎯 AZIONI IMMEDIATE:
 
 1. **CRITICO**: Refactoring Tenant (30 min)
-<<<<<<< HEAD
-<<<<<<< HEAD
-2. **ALTO**: Refactoring <nome progetto> (20 min)
-=======
 2. **ALTO**: Refactoring Fixcity (20 min)
->>>>>>> laraxot/dev
-=======
-2. **ALTO**: Refactoring Fixcity (20 min)
->>>>>>> laraxot/dev
 3. **MEDIO**: Pulizia casts duplicati (60 min totale)
 
 **Tempo Totale**: ~2 ore  

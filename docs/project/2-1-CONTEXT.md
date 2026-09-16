@@ -13,27 +13,11 @@ Provide a centralized area for citizens to manage their reports (tickets), see s
   - Search/Filter by status.
 
 ## Technical Details
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Model**: `Modules\<nome progetto>\Models\Ticket` (need to verify this).
-=======
 - **Model**: `Modules\Fixcity\Models\Ticket` (need to verify this).
->>>>>>> laraxot/dev
-=======
-- **Model**: `Modules\Fixcity\Models\Ticket` (need to verify this).
->>>>>>> laraxot/dev
 - **Filtering**: Eager loading to optimize queries.
 - **Auth**: Required `auth` middleware.
 
 ## Questions to Resolve
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] Is there already a `Ticket` model in the `<nome progetto>` module?
-=======
 - [ ] Is there already a `Ticket` model in the `Fixcity` module?
->>>>>>> laraxot/dev
-=======
-- [ ] Is there already a `Ticket` model in the `Fixcity` module?
->>>>>>> laraxot/dev
 - [ ] What are the ticket statuses available?
 - [ ] How is the relation between User and Ticket defined?

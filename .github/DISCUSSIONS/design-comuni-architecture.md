@@ -6,15 +6,7 @@ labels: ['design-comuni', 'architecture', 'decision-record']
 
 # Design Comuni Italia - Architectural Decisions
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This discussion documents the key architectural decisions for replicating the 38 static pages from [Design Comuni Italia](https://italia.github.io/design-comuni-pagine-statiche/) in the <nome progetto> project.
-=======
 This discussion documents the key architectural decisions for replicating the 38 static pages from [Design Comuni Italia](https://italia.github.io/design-comuni-pagine-statiche/) in the FixCity project.
->>>>>>> laraxot/dev
-=======
-This discussion documents the key architectural decisions for replicating the 38 static pages from [Design Comuni Italia](https://italia.github.io/design-comuni-pagine-statiche/) in the FixCity project.
->>>>>>> laraxot/dev
 
 ---
 
@@ -307,15 +299,7 @@ npm run copy
   <footer class="it-footer">...</footer>
 </body>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<!-- <nome progetto>: MUST BE IDENTICAL -->
-=======
 <!-- FIXCITY: MUST BE IDENTICAL -->
->>>>>>> laraxot/dev
-=======
-<!-- FIXCITY: MUST BE IDENTICAL -->
->>>>>>> laraxot/dev
 <body>
   <div class="skiplink">...</div>
   <header class="it-header-wrapper">...</header>

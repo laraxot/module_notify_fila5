@@ -119,15 +119,7 @@ Replicazione delle 38 pagine statiche del progetto [Design Comuni Italia](https:
 FAQ Page (/it/tests/domande-frequenti)
 │
 ├─ JSON Content
-<<<<<<< HEAD
-<<<<<<< HEAD
-│  └─ laravel/config/local/<nome progetto>/database/content/pages/tests.domande-frequenti.json
-=======
 │  └─ laravel/config/local/fixcity/database/content/pages/tests.domande-frequenti.json
->>>>>>> laraxot/dev
-=======
-│  └─ laravel/config/local/fixcity/database/content/pages/tests.domande-frequenti.json
->>>>>>> laraxot/dev
 │  └─ laravel/config/local/laraxot/database/content/pages/tests.domande-frequenti.json
 │
 ├─ Blade Templates (Tema Sixteen)

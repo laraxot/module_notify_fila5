@@ -80,15 +80,7 @@ Icona specifica del modulo che rappresenta la funzionalità principale.
 - `lang-icon.svg` per il modulo Lang
 - `form-icon.svg` per il modulo FormBuilder
 - `db-icon.svg` per il modulo DbForge
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `<nome progetto>-icon.svg` per il modulo <nome progetto>
-=======
 - `fixcity-icon.svg` per il modulo Fixcity
->>>>>>> laraxot/dev
-=======
-- `fixcity-icon.svg` per il modulo Fixcity
->>>>>>> laraxot/dev
 - `laraxot-icon.svg` per il modulo App
 
 ## Moduli Coperti
@@ -105,15 +97,7 @@ La struttura SVG è stata creata per i seguenti moduli:
 8. **Job** - Gestione lavori
 9. **Geo** - Geolocalizzazione
 10. **Gdpr** - Conformità GDPR
-<<<<<<< HEAD
-<<<<<<< HEAD
-11. **<nome progetto>** - Modulo specifico progetto
-=======
 11. **Fixcity** - Modulo specifico progetto
->>>>>>> laraxot/dev
-=======
-11. **Fixcity** - Modulo specifico progetto
->>>>>>> laraxot/dev
 11. **App** - Modulo specifico progetto
 12. **Comment** - Sistema commenti
 13. **Chart** - Grafici e statistiche

@@ -5,18 +5,8 @@ tags: [implementazione, builders, report]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "implementazione-builders-report 🎉 implementazione builders & analisi pivot - report finale"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -235,15 +225,7 @@ namespace Modules\Xot\Models;  // ✅ CORRETTO
 #### Problema 2: Nessun Modulo lo Estende
 
 **Moduli con BasePivot** (8 trovati):
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Blog, Cms, Comment, <nome progetto>, Gdpr, Geo, Notify, User
-=======
 - Blog, Cms, Comment, Fixcity, Gdpr, Geo, Notify, User
->>>>>>> laraxot/dev
-=======
-- Blog, Cms, Comment, Fixcity, Gdpr, Geo, Notify, User
->>>>>>> laraxot/dev
 
 **TUTTI estendono direttamente `Pivot`** invece di `XotBasePivot`:
 
@@ -285,15 +267,7 @@ abstract class BasePivot extends Pivot  // ❌ NON usa XotBasePivot
 | Geo | ~60 | 7 | 4 |
 | Gdpr | ~60 | 7 | 4 |
 | Comment | ~60 | 7 | 4 |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| <nome progetto> | ~60 | 7 | 4 |
-=======
 | Fixcity | ~60 | 7 | 4 |
->>>>>>> laraxot/dev
-=======
-| Fixcity | ~60 | 7 | 4 |
->>>>>>> laraxot/dev
 
 **Totale LOC Duplicato**: ~490 linee  
 **Potenziale Riduzione**: ~350 linee (71%)

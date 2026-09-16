@@ -1,15 +1,7 @@
 # 🚀 Ralph Loop Execution Log - Homepage Bootstrap Italia Fix
 
 ## Session: 2026-03-31
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Goal: Allineare homepage <nome progetto> a Bootstrap Italia reference
-=======
 ## Goal: Allineare homepage FixCity a Bootstrap Italia reference
->>>>>>> laraxot/dev
-=======
-## Goal: Allineare homepage FixCity a Bootstrap Italia reference
->>>>>>> laraxot/dev
 
 ---
 
@@ -319,15 +311,7 @@ Aggiungere feedback module con stelle
 
 ### Clear Cache
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>/laravel
-=======
 cd /var/www/_bases/base_ptv_fila5/laravel
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_ptv_fila5/laravel
->>>>>>> laraxot/dev
 rm -rf storage/framework/views/* bootstrap/cache/*.php
 php artisan view:clear
 ```

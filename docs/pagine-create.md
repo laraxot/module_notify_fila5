@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "Pagine Create - <nome progetto> Sixteen Theme"
-=======
 title: "Pagine Create - FixCity Sixteen Theme"
->>>>>>> laraxot/dev
-=======
-title: "Pagine Create - FixCity Sixteen Theme"
->>>>>>> laraxot/dev
 type: concept
 tags: [pagine, create]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "pagine-create pagine create - <nome progetto> sixteen theme"
-qmd: "pagine-create pagine create - ptv sixteen theme"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "pagine-create pagine create - fixcity sixteen theme"
 qmd: "pagine-create pagine create - ptv sixteen theme"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,15 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Pagine Create - <nome progetto> Sixteen Theme
-=======
 # Pagine Create - FixCity Sixteen Theme
->>>>>>> laraxot/dev
-=======
-# Pagine Create - FixCity Sixteen Theme
->>>>>>> laraxot/dev
 
 ## Data: {{ date('Y-m-d') }}
 

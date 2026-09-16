@@ -121,15 +121,7 @@ Usato SOLO per:
 
 ### Verifica Classi
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-curl http://<nome progetto>.local/it/tests/homepage | grep -o 'class="[^"]*"' | sort | uniq
-=======
 curl http://fixcity.local/it/tests/homepage | grep -o 'class="[^"]*"' | sort | uniq
->>>>>>> laraxot/dev
-=======
-curl http://fixcity.local/it/tests/homepage | grep -o 'class="[^"]*"' | sort | uniq
->>>>>>> laraxot/dev
 curl http://ptv.local/it/tests/homepage | grep -o 'class="[^"]*"' | sort | uniq
 ```
 

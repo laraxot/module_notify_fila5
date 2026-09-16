@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome progetto> Platform - Project Status Report
-=======
 # FixCity Platform - Project Status Report
->>>>>>> laraxot/dev
-=======
-# FixCity Platform - Project Status Report
->>>>>>> laraxot/dev
 
 **Data**: 2025-01-01  
 **Versione**: 1.0.0-alpha  
@@ -16,15 +8,7 @@
 
 | Modulo | Status | Completamento | Priorità | Owner |
 |--------|--------|---------------|----------|-------|
-<<<<<<< HEAD
-<<<<<<< HEAD
-| **<nome progetto>** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
-=======
 | **Fixcity** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
->>>>>>> laraxot/dev
-=======
-| **Fixcity** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
->>>>>>> laraxot/dev
 | **User** | 🟢 Stable | 75% | 🔴 Critical | Security Team |
 | **Xot** | 🟢 Stable | 80% | 🔴 Critical | Core Team |
 | **Notify** | 🟡 In Progress | 50% | 🟠 High | Notification Team |
@@ -108,18 +92,8 @@
 - ✅ Master Plan strategico 2025-2026 creato
 
 ### Dicembre 2024
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ Upgraded to Laravel 13
-- ✅ Migrated to Filament 5
-=======
 - ✅ Upgraded to Laravel 12
 - ✅ Migrated to Filament 4
->>>>>>> laraxot/dev
-=======
-- ✅ Upgraded to Laravel 12
-- ✅ Migrated to Filament 4
->>>>>>> laraxot/dev
 - ✅ Implemented OAuth2 with Passport
 - ✅ Enhanced geolocation features
 
@@ -201,14 +175,6 @@
 
 **Report Generated**: 2025-01-01  
 **Next Update**: 2025-01-15  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Contact**: development@<nome progetto>.io
-=======
 **Contact**: development@fixcity.io
->>>>>>> laraxot/dev
-=======
-**Contact**: development@fixcity.io
->>>>>>> laraxot/dev
 **Contact**: development@ptv.io
 

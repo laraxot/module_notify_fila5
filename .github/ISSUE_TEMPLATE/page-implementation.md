@@ -23,15 +23,7 @@ assignees: ''
 **View Source**: `view-source:https://italia.github.io/design-comuni-pagine-statiche/sito/[page].html`
 
 ### Target Page
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto>**: http://ptv.local/it/tests/[slug]  
-=======
 **FixCity**: http://ptv.local/it/tests/[slug]  
->>>>>>> laraxot/dev
-=======
-**FixCity**: http://ptv.local/it/tests/[slug]  
->>>>>>> laraxot/dev
 **View Source**: `view-source:http://ptv.local/it/tests/[slug]`
 
 ### Screenshots
@@ -50,30 +42,14 @@ assignees: ''
 ```json
 {
   "slug": "tests.[slug]",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "title": "[Page Title] - Comune di <nome progetto>",
-=======
   "title": "[Page Title] - Comune di FixCity",
->>>>>>> laraxot/dev
-=======
-  "title": "[Page Title] - Comune di FixCity",
->>>>>>> laraxot/dev
   "meta_description": "[Meta description]",
   "blocks": [
     {
       "type": "header",
       "view": "pub_theme::components.blocks.header.main",
       "data": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "institution_name": "Comune di <nome progetto>",
-=======
         "institution_name": "Comune di FixCity",
->>>>>>> laraxot/dev
-=======
-        "institution_name": "Comune di FixCity",
->>>>>>> laraxot/dev
         "tagline": "Un comune da vivere"
       }
     },
@@ -89,15 +65,7 @@ assignees: ''
       "type": "footer",
       "view": "pub_theme::components.blocks.footer.full",
       "data": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "address": "Via Roma 1, <nome progetto>",
-=======
         "address": "Via Roma 1, FixCity",
->>>>>>> laraxot/dev
-=======
-        "address": "Via Roma 1, FixCity",
->>>>>>> laraxot/dev
         "phone": "+39 0123 456789",
         "email": "info@comune.ptv.it"
       }

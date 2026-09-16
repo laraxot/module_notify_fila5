@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🏆 <nome progetto> - PERFEZIONE RAGGIUNTA
-=======
 # 🏆 FIXCITY - PERFEZIONE RAGGIUNTA
->>>>>>> laraxot/dev
-=======
-# 🏆 FIXCITY - PERFEZIONE RAGGIUNTA
->>>>>>> laraxot/dev
 
 **Data**: 2025-10-01  
 **Mode**: 🐄⚡ SUPER MUCCA PERFECTION MODE  
@@ -100,15 +92,7 @@ Implementare OGNI feature mancante con:
 ## 🎯 MODULI STATUS AGGIORNATO
 
 ### Core (98%)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **<nome progetto>**: 95% → **98%** ✅
-=======
 - **Fixcity**: 95% → **98%** ✅
->>>>>>> laraxot/dev
-=======
-- **Fixcity**: 95% → **98%** ✅
->>>>>>> laraxot/dev
   - [x] GeocodeTicketAddressJob
   - [x] TicketRepository
   - [x] REST API
@@ -142,29 +126,13 @@ Implementare OGNI feature mancante con:
 
 #### PHPStan Level 9
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-./vendor/bin/phpstan analyse --level=9 Modules/<nome progetto>/Jobs/AutoAssignTicketJob.php
-=======
 ./vendor/bin/phpstan analyse --level=9 Modules/Fixcity/Jobs/AutoAssignTicketJob.php
->>>>>>> laraxot/dev
-=======
-./vendor/bin/phpstan analyse --level=9 Modules/Fixcity/Jobs/AutoAssignTicketJob.php
->>>>>>> laraxot/dev
 ```
 **Result**: ✅ 0 errors, 0 warnings
 
 #### PHPMD
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-./vendor/bin/phpmd Modules/<nome progetto>/Jobs/AutoAssignTicketJob.php text cleancode,codesize,design,naming
-=======
 ./vendor/bin/phpmd Modules/Fixcity/Jobs/AutoAssignTicketJob.php text cleancode,codesize,design,naming
->>>>>>> laraxot/dev
-=======
-./vendor/bin/phpmd Modules/Fixcity/Jobs/AutoAssignTicketJob.php text cleancode,codesize,design,naming
->>>>>>> laraxot/dev
 ```
 **Result**: ✅ 0 violations
 
@@ -330,12 +298,4 @@ php artisan test --filter=AutoAssignTicketJobTest
 
 *"La perfezione non è un punto di arrivo, è un viaggio continuo. Ogni feature implementata ci avvicina all'eccellenza assoluta!"*
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**#<nome progetto>2025 #Perfection #Quality #Excellence #SuperMucca**
-=======
 **#FixCity2025 #Perfection #Quality #Excellence #SuperMucca**
->>>>>>> laraxot/dev
-=======
-**#FixCity2025 #Perfection #Quality #Excellence #SuperMucca**
->>>>>>> laraxot/dev

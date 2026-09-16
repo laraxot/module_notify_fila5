@@ -7,15 +7,7 @@
 > `.old` il 2026-07-24 per deduplicazione — contenuto preservato per
 > riferimento, non cancellato. `token-optimization-strategy.md.old`
 > conteneva un riferimento GitHub errato di un altro progetto
-<<<<<<< HEAD
-<<<<<<< HEAD
-> (`provtv/<repo progetto>`), copiato per errore.
-=======
 > (`provtv/base_ptv_fila5`), copiato per errore.
->>>>>>> laraxot/dev
-=======
-> (`provtv/base_ptv_fila5`), copiato per errore.
->>>>>>> laraxot/dev
 
 **Status**: Active  
 **Created**: 2026-04-14  
@@ -65,15 +57,7 @@
 
 **SBAGLIATO**:
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Leggi tutti i file del modulo <nome progetto> per capire il wizard
-=======
 Leggi tutti i file del modulo Fixcity per capire il wizard
->>>>>>> laraxot/dev
-=======
-Leggi tutti i file del modulo Fixcity per capire il wizard
->>>>>>> laraxot/dev
 → 50 file × 100 righe = 5000 righe = ~100K token
 ```
 
@@ -86,23 +70,10 @@ Grep "getWizardSteps" in CreateTicketWizardWidget.php
 **Comando**:
 ```bash
 # ❌ SBAGLIATO: trova tutti i file
-<<<<<<< HEAD
-<<<<<<< HEAD
-find Modules/<nome progetto> -name "*.php"
-
-# ✅ CORRETTO: trova solo il blocco utile
-grep -n "getWizardSteps" Modules/<nome progetto>/app/Filament/Widgets/CreateTicketWizardWidget.php
-=======
-=======
->>>>>>> laraxot/dev
 find Modules/Fixcity -name "*.php"
 
 # ✅ CORRETTO: trova solo il blocco utile
 grep -n "getWizardSteps" Modules/Fixcity/app/Filament/Widgets/CreateTicketWizardWidget.php
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 **Risparmiato**: 99.5% token

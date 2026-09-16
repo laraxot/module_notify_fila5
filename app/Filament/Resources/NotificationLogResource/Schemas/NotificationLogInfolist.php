@@ -6,16 +6,8 @@ namespace Modules\Notify\Filament\Resources\NotificationLogResource\Schemas;
 
 use Filament\Infolists\Components\TextEntry;
 use Filament\Schemas\Components\Component;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Modules\Notify\Enums\ChannelEnum;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
->>>>>>> laraxot/dev
-=======
-use Modules\Notify\Enums\ChannelEnum;
-use Modules\Notify\Enums\NotificationLogStatusEnum;
->>>>>>> laraxot/dev
 use Modules\Xot\Filament\Resources\Schemas\XotBaseResourceInfolist;
 
 class NotificationLogInfolist extends XotBaseResourceInfolist
@@ -27,13 +19,6 @@ class NotificationLogInfolist extends XotBaseResourceInfolist
     {
         return [
             'id' => TextEntry::make('id'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'name' => TextEntry::make('name'),
-            'created_at' => TextEntry::make('created_at')->dateTime()];
-=======
-=======
->>>>>>> laraxot/dev
             'channel' => TextEntry::make('channel')
                 ->badge()
                 ->formatStateUsing(fn (string $state): string => ChannelEnum::from($state)->getLabel() ?? $state),
@@ -70,9 +55,5 @@ class NotificationLogInfolist extends XotBaseResourceInfolist
         }
 
         return '';
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     }
 }

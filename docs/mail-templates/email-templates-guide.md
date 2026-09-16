@@ -14,15 +14,7 @@ Questa guida descrive i template email responsive disponibili nel modulo Notify,
 
 ## Introduzione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
-=======
 I template email responsive di Quaeris sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
->>>>>>> laraxot/dev
-=======
-I template email responsive di Quaeris sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
->>>>>>> laraxot/dev
 I template email responsive di App sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
 
 - **Responsive**: ottimizzati per qualsiasi dispositivo (desktop, tablet, mobile)
@@ -130,15 +122,7 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 | `$name` | Nome destinatario | "Utente" |
 | `$intro_text` | Testo introduttivo | Varia per template |
 | `$outro_text` | Testo conclusivo | Varia per template |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
-=======
 | `$contact_email` | Email di contatto | "supporto@Quaeris.it" |
->>>>>>> laraxot/dev
-=======
-| `$contact_email` | Email di contatto | "supporto@Quaeris.it" |
->>>>>>> laraxot/dev
 | `$contact_email` | Email di contatto | "support@example.test" |
 | `$contact_phone` | Telefono di contatto | "+39 06 1234567" |
 | `$office_hours` | Orari ufficio | "Lun-Ven: 9:00-19:00, Sab: 9:00-13:00" |

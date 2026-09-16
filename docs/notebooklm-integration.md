@@ -5,18 +5,8 @@ tags: [notebooklm, integration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "notebooklm-integration notebooklm integration"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -81,15 +71,7 @@ notebooklm auth check --test
 notebooklm list
 
 # Create a notebook
-<<<<<<< HEAD
-<<<<<<< HEAD
-notebooklm create "<nome progetto> Research"
-=======
 notebooklm create "FixCity Research"
->>>>>>> laraxot/dev
-=======
-notebooklm create "FixCity Research"
->>>>>>> laraxot/dev
 
 # Add sources
 notebooklm use <notebook_id>
@@ -110,23 +92,6 @@ Once authenticated, you can ask Claude Code to:
 
 ```
 "NotebookLM: Create a podcast about Laravel Actions patterns"
-<<<<<<< HEAD
-<<<<<<< HEAD
-"NotebookLM: What's in my <nome progetto> Research notebook?"
-"NotebookLM: Generate a quiz about Filament Forms"
-```
-
-## <nome progetto>-Specific Notebooks
-
-Recommended notebooks to create:
-
-1. **<nome progetto> Architecture** - AGENTS.md, docs/architecture/*
-1. **<nome progetto> Architecture** - agents.md, docs/architecture/*
-2. **<nome progetto> Modules** - laravel/Modules/*/docs/README.md
-3. **<nome progetto> API** - API documentation, Swagger specs
-=======
-=======
->>>>>>> laraxot/dev
 "NotebookLM: What's in my FixCity Research notebook?"
 "NotebookLM: Generate a quiz about Filament Forms"
 ```
@@ -139,10 +104,6 @@ Recommended notebooks to create:
 1. **FixCity Architecture** - agents.md, docs/architecture/*
 2. **FixCity Modules** - laravel/Modules/*/docs/README.md
 3. **FixCity API** - API documentation, Swagger specs
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ## Configuration
 

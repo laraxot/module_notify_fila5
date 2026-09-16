@@ -1,34 +1,13 @@
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "<nome progetto> ARCHITECTURE DEEP DIVE ANALYSIS"
-=======
 title: "FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS"
->>>>>>> laraxot/dev
-=======
-title: "FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS"
->>>>>>> laraxot/dev
 type: concept
 tags: [architecture, analysis]
 created: 2026-07-14
 updated: 2026-07-14
-<<<<<<< HEAD
-<<<<<<< HEAD
-qmd: "architecture-analysis <nome progetto> architecture deep dive analysis"
-qmd: "architecture-analysis ptv architecture deep dive analysis"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
-=======
->>>>>>> laraxot/dev
 qmd: "architecture-analysis fixcity architecture deep dive analysis"
 qmd: "architecture-analysis ptv architecture deep dive analysis"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -40,21 +19,9 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome progetto> ARCHITECTURE DEEP DIVE ANALYSIS
-**Generated**: 2025-10-01
-**Project**: <nome progetto> Civic Engagement Platform
-=======
 # FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS
 **Generated**: 2025-10-01
 **Project**: FixCity Civic Engagement Platform
->>>>>>> laraxot/dev
-=======
-# FIXCITY ARCHITECTURE DEEP DIVE ANALYSIS
-**Generated**: 2025-10-01
-**Project**: FixCity Civic Engagement Platform
->>>>>>> laraxot/dev
 **Architecture**: Nwidart + Laraxot Modular Monolith
 **Status**: Production-Ready Foundation with Active Development
 
@@ -63,15 +30,7 @@ related:
 ## 📋 EXECUTIVE SUMMARY
 
 ### Project Overview
-<<<<<<< HEAD
-<<<<<<< HEAD
-<nome progetto> is a **mature civic engagement platform** built on a sophisticated modular architecture combining Nwidart's Laravel-Modules with Laraxot's framework extensions. The platform enables citizens to report urban issues while providing administrators with powerful workflow management tools.
-=======
 FixCity is a **mature civic engagement platform** built on a sophisticated modular architecture combining Nwidart's Laravel-Modules with Laraxot's framework extensions. The platform enables citizens to report urban issues while providing administrators with powerful workflow management tools.
->>>>>>> laraxot/dev
-=======
-FixCity is a **mature civic engagement platform** built on a sophisticated modular architecture combining Nwidart's Laravel-Modules with Laraxot's framework extensions. The platform enables citizens to report urban issues while providing administrators with powerful workflow management tools.
->>>>>>> laraxot/dev
 
 ### Current State Assessment
 - **Architecture Maturity**: ⭐⭐⭐⭐⭐ (5/5) - Excellent
@@ -83,15 +42,7 @@ FixCity is a **mature civic engagement platform** built on a sophisticated modul
 ### Key Metrics
 ```
 Total Modules:           22 active modules
-<<<<<<< HEAD
-<<<<<<< HEAD
-Core Business Logic:     54 PHP files in <nome progetto> module
-=======
 Core Business Logic:     54 PHP files in Fixcity module
->>>>>>> laraxot/dev
-=======
-Core Business Logic:     54 PHP files in Fixcity module
->>>>>>> laraxot/dev
 Test Files:              23 comprehensive test files
 Test Code:               ~6,846 lines of test code
 Filament Resources:      9+ admin resources configured
@@ -121,15 +72,7 @@ BASE MODULES (Livello 1)
 └── Chart                   Data visualization
 
 DOMAIN MODULES (Livello 2)
-<<<<<<< HEAD
-<<<<<<< HEAD
-├── <nome progetto> ⭐              Core business logic (main module)
-=======
 ├── Fixcity ⭐              Core business logic (main module)
->>>>>>> laraxot/dev
-=======
-├── Fixcity ⭐              Core business logic (main module)
->>>>>>> laraxot/dev
 ├── Activity                Audit trail & event sourcing
 ├── Blog                    Content management
 ├── Cms                     Dynamic pages (JSON storage)
@@ -148,25 +91,11 @@ PRESENTATION LAYER
 #### Module Status (`modules_statuses.json`)
 All 22 modules are **currently active** and enabled. The system uses composer merge-plugin for automatic discovery.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 2. CORE MODULE: <nome progetto>
-
-#### File Structure
-```
-Modules/<nome progetto>/
-=======
-=======
->>>>>>> laraxot/dev
 ### 2. CORE MODULE: FIXCITY
 
 #### File Structure
 ```
 Modules/Fixcity/
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ├── app/
 │   ├── Models/
 │   │   ├── Ticket.php                      (507 LOC - Core entity)
@@ -711,18 +640,8 @@ PUBLIC PAGES
 /auth/register                      → auth/register.blade.php
 
 AUTHENTICATED PAGES
-<<<<<<< HEAD
-<<<<<<< HEAD
-/tickets/create                     → <nome progetto>::tickets/create.blade.php
-/tickets/{slug}                     → <nome progetto>::tickets/[slug].blade.php
-=======
 /tickets/create                     → Fixcity::tickets/create.blade.php
 /tickets/{slug}                     → Fixcity::tickets/[slug].blade.php
->>>>>>> laraxot/dev
-=======
-/tickets/create                     → Fixcity::tickets/create.blade.php
-/tickets/{slug}                     → Fixcity::tickets/[slug].blade.php
->>>>>>> laraxot/dev
 /dashboard                          → dashboard/index.blade.php
 /profile/edit                       → profile/edit.blade.php
 
@@ -736,15 +655,7 @@ DYNAMIC PAGES (CMS)
 
 #### Example: Ticket Create Page
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-// Modules/<nome progetto>/resources/views/pages/tickets/create.blade.php
-=======
 // Modules/Fixcity/resources/views/pages/tickets/create.blade.php
->>>>>>> laraxot/dev
-=======
-// Modules/Fixcity/resources/views/pages/tickets/create.blade.php
->>>>>>> laraxot/dev
 <?php
 use function Laravel\Folio\{middleware, name};
 
@@ -758,15 +669,7 @@ middleware(['auth']);
             Segnalazione disservizio
         </h1>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        @livewire(\Modules\<nome progetto>\Filament\Widgets\CreateTicketWidget::class)
-=======
         @livewire(\Modules\Fixcity\Filament\Widgets\CreateTicketWidget::class)
->>>>>>> laraxot/dev
-=======
-        @livewire(\Modules\Fixcity\Filament\Widgets\CreateTicketWidget::class)
->>>>>>> laraxot/dev
     </div>
 </x-layouts.marketing>
 ```
@@ -828,15 +731,7 @@ tests/Feature/
 ├── TicketTest.php
 ├── TicketWorkflowIntegrationTest.php
 ├── CategoryMigrationTest.php
-<<<<<<< HEAD
-<<<<<<< HEAD
-├── <nome progetto>ComponentsTest.php
-=======
 ├── FixcityComponentsTest.php
->>>>>>> laraxot/dev
-=======
-├── FixcityComponentsTest.php
->>>>>>> laraxot/dev
 └── Pages/
     └── TicketPagesTest.php
 ```
@@ -929,15 +824,7 @@ Modules/Notify/
 │   └── Multi-tenant aware
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### <nome progetto> Notifications
-=======
 ### Fixcity Notifications
->>>>>>> laraxot/dev
-=======
-### Fixcity Notifications
->>>>>>> laraxot/dev
 
 #### TicketAssigned
 ```php
@@ -1230,15 +1117,7 @@ The frontend follows Italian Public Administration design guidelines:
 <x-ui.marketing.breadcrumbs :crumbs="[...]" />
 
 // Ticket List (AGID-compliant)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<x-<nome progetto>::blocks.ticket_list.agid />
-=======
 <x-fixcity::blocks.ticket_list.agid />
->>>>>>> laraxot/dev
-=======
-<x-fixcity::blocks.ticket_list.agid />
->>>>>>> laraxot/dev
 <x-ptv::blocks.ticket_list.agid />
 
 // Forms (Filament + Custom CSS)
@@ -1322,15 +1201,7 @@ php artisan test --parallel
 
 ### Current Status
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-Files:              54 PHP files (<nome progetto> module only)
-=======
 Files:              54 PHP files (Fixcity module only)
->>>>>>> laraxot/dev
-=======
-Files:              54 PHP files (Fixcity module only)
->>>>>>> laraxot/dev
 Total Lines:        ~15,000+ LOC (including all modules)
 Test Coverage:      ~6,846 LOC of test code
 Test Files:         23 comprehensive test files
@@ -2122,15 +1993,7 @@ Quarterly:
 
 ### Overall Assessment
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto> is a WELL-ARCHITECTED, PRODUCTION-READY civic engagement platform** built on solid foundations:
-=======
 **FixCity is a WELL-ARCHITECTED, PRODUCTION-READY civic engagement platform** built on solid foundations:
->>>>>>> laraxot/dev
-=======
-**FixCity is a WELL-ARCHITECTED, PRODUCTION-READY civic engagement platform** built on solid foundations:
->>>>>>> laraxot/dev
 
 ✅ **Strengths:**
 - Excellent modular architecture (Nwidart + Laraxot)

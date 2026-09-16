@@ -5,18 +5,8 @@ tags: [login, page, status]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "login-page-status 📊 status pagina login - verifica tecnica"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -52,15 +42,7 @@ related:
                 <h1>Accedi ai servizi</h1>
             </div>
             
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <!-- LoginWidget Filament 5 -->
-=======
             <!-- LoginWidget Filament 4 -->
->>>>>>> laraxot/dev
-=======
-            <!-- LoginWidget Filament 4 -->
->>>>>>> laraxot/dev
             <div class="bg-white shadow-xl rounded-lg">
                 @livewire(\Modules\User\Filament\Widgets\Auth\LoginWidget::class)
             </div>
@@ -79,15 +61,7 @@ related:
 **Caratteristiche**:
 - ✅ Design AGID/Bootstrap Italia
 - ✅ Responsive (mobile-first)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ Widget Filament 5 integrato correttamente
-=======
 - ✅ Widget Filament 4 integrato correttamente
->>>>>>> laraxot/dev
-=======
-- ✅ Widget Filament 4 integrato correttamente
->>>>>>> laraxot/dev
 - ✅ Accessibilità WCAG 2.1
 - ✅ Placeholder per SPID/CIE (commentati)
 
@@ -239,15 +213,7 @@ La pagina implementa lo stesso design professionale di https://docs.italia.it/ac
 - [x] Submit button reattivo
 - [x] Loading state durante submit
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Filament 5 Integration
-=======
 #### Filament 4 Integration
->>>>>>> laraxot/dev
-=======
-#### Filament 4 Integration
->>>>>>> laraxot/dev
 - [x] Widget renderizza correttamente
 - [x] Campi form appaiono
 - [x] Validazione Filament attiva
@@ -269,15 +235,7 @@ La pagina implementa lo stesso design professionale di https://docs.italia.it/ac
 
 ## 📝 Note Tecniche
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Architettura Filament 5
-=======
 ### Architettura Filament 4
->>>>>>> laraxot/dev
-=======
-### Architettura Filament 4
->>>>>>> laraxot/dev
 
 Il widget funziona perché:
 
@@ -316,18 +274,8 @@ FAIL → $this->addError() + rimane su form
 ### 1. Avviare il Server
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/<repo progetto>/laravel
-cd /var/www/_bases/<repo progetto>/laravel
-=======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
->>>>>>> laraxot/dev
-=======
-cd /var/www/_bases/base_fixcity_fila5_mono/laravel
-cd /var/www/_bases/base_ptv_fila5_mono/laravel
->>>>>>> laraxot/dev
 php artisan serve --host=127.0.0.1 --port=8000
 ```
 
@@ -379,15 +327,7 @@ Password: password
 **Status Pagina Login**: ✅ **FUNZIONANTE**
 
 - ParseError risolto
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Widget Filament 5 integrato correttamente
-=======
 - Widget Filament 4 integrato correttamente
->>>>>>> laraxot/dev
-=======
-- Widget Filament 4 integrato correttamente
->>>>>>> laraxot/dev
 - Design AGID implementato
 - Pronto per produzione
 

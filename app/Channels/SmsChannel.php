@@ -6,29 +6,12 @@ namespace Modules\Notify\Channels;
 
 use Exception;
 use Illuminate\Notifications\Notification;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Notify\Actions\SMS\SendSmsFactorSMSAction;
-use Modules\Notify\Datas\SmsData;
-=======
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Factories\SmsActionFactory;
->>>>>>> laraxot/dev
-=======
-use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Factories\SmsActionFactory;
->>>>>>> laraxot/dev
 
 /**
  * Canale di notifica per l'invio di messaggi SMS.
  *
-<<<<<<< HEAD
-<<<<<<< HEAD
- * Questo canale utilizza il driver SMS configurato in config/sms.php
- * per inviare messaggi SMS attraverso il provider selezionato.
-=======
-=======
->>>>>>> laraxot/dev
  * Il driver effettivo è scelto da `SmsActionFactory` in base a
  * `config('sms.default')` (env `SMS_DRIVER`), oppure a un override
  * per-notifica se la notifica espone `getProvider(): ?string`
@@ -36,43 +19,21 @@ use Modules\Notify\Factories\SmsActionFactory;
  * `config('sms.drivers.netfun')` valorizzato fa passare gli SMS da Netfun,
  * senza toccare codice — vedi
  * `Modules/Notify/docs/wiki/concepts/sms-channel-driver-selection.md`.
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  */
 class SmsChannel
 {
     /**
      * Crea una nuova istanza del canale.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function __construct(private readonly SendSmsFactorSMSAction $action) {}
-=======
     public function __construct(private readonly SmsActionFactory $factory) {}
->>>>>>> laraxot/dev
-=======
-    public function __construct(private readonly SmsActionFactory $factory) {}
->>>>>>> laraxot/dev
 
     /**
      * Invia la notifica attraverso il canale SMS.
      *
      * @param  Notification  $notification  Notifica da inviare
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @return array{status_code: int, status_txt: string} Risultato dell'invio restituito da SendSmsFactorSMSAction
-=======
      * @return array<string, mixed>|null Risultato dell'invio restituito dall'azione del driver
      *                                   (`SmsActionContract::execute()`); di norma
      *                                   `array{status_code: int, status_txt: string}`
->>>>>>> laraxot/dev
-=======
-     * @return array<string, mixed>|null Risultato dell'invio restituito dall'azione del driver
-     *                                   (`SmsActionContract::execute()`); di norma
-     *                                   `array{status_code: int, status_txt: string}`
->>>>>>> laraxot/dev
      *
      * @throws Exception Se la notifica non ha il metodo toSms o il driver non è supportato
      */
@@ -88,12 +49,6 @@ class SmsChannel
             throw new Exception('toSms method must return an instance of SmsData');
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $this->action->execute($smsData);
-=======
-=======
->>>>>>> laraxot/dev
         // Override del driver per-notifica se la notifica lo espone (es.
         // SmsNotification::getProvider()); altrimenti null e SmsActionFactory
         // usa config('sms.default').
@@ -104,9 +59,5 @@ class SmsChannel
         }
 
         return $this->factory->create($driver)->execute($smsData);
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     }
 }

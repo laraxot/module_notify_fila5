@@ -36,15 +36,7 @@ npm run copy  # OBbligatorio per vedere modifiche CSS/JS
 
 ## 3. Database Config - CRITICAL
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**`config/database.php`** (base) e **`config/local/{tenant}/database.php`** devono seguire lo standard Laravel 13.
-=======
 **`config/database.php`** (base) e **`config/local/{tenant}/database.php`** devono seguire lo standard Laravel 12.
->>>>>>> laraxot/dev
-=======
-**`config/database.php`** (base) e **`config/local/{tenant}/database.php`** devono seguire lo standard Laravel 12.
->>>>>>> laraxot/dev
 
 **NESSUNA** connessione per-modulo hardcoded:
 - ❌ `notify`, `geo`, `media`, `job`, `xot`, `activity`, `cms`

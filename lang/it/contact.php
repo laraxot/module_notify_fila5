@@ -99,15 +99,7 @@ return [
         'isActive' => [
             'label' => 'isActive',
             'placeholder' => 'isActive',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'isActive',
->>>>>>> laraxot/dev
-=======
-            'helper_text' => 'isActive',
->>>>>>> laraxot/dev
             'description' => 'isActive']],
     'actions' => [
         'import' => [

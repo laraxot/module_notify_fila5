@@ -48,15 +48,7 @@ related:
 | Gdpr | ✅ | ✅ | 0 | 🟢 Bassa |
 | Lang | ❌ | ✅ | 0 | 🟢 Bassa |
 | Job | ❌ | ✅ | 0 | 🟢 Bassa |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| <nome progetto> | ✅ | ❌ | 0 | 🟢 Bassa |
-=======
 | Fixcity | ✅ | ❌ | 0 | 🟢 Bassa |
->>>>>>> laraxot/dev
-=======
-| Fixcity | ✅ | ❌ | 0 | 🟢 Bassa |
->>>>>>> laraxot/dev
 | App | ✅ | ❌ | 0 | 🟢 Bassa |
 | **Xot** | ❌ | ✅ | 0 | ⚡ **CORE** |
 
@@ -167,15 +159,7 @@ abstract class BasePivot extends XotBasePivot
 - Gdpr
 - Lang
 - Job
-<<<<<<< HEAD
-<<<<<<< HEAD
-- <nome progetto>
-=======
 - Fixcity
->>>>>>> laraxot/dev
-=======
-- Fixcity
->>>>>>> laraxot/dev
 - App
 
 **Script automatico:**
@@ -192,15 +176,7 @@ MODULES=(
     "Gdpr"
     "Lang"
     "Job"
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "<nome progetto>"
-=======
     "Fixcity"
->>>>>>> laraxot/dev
-=======
-    "Fixcity"
->>>>>>> laraxot/dev
     "App"
 )
 
@@ -294,15 +270,7 @@ php artisan benchmark:pivot-queries
 
 ```bash
 # Test ogni modulo singolarmente
-<<<<<<< HEAD
-<<<<<<< HEAD
-for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job <nome progetto>; do
-=======
 for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job Fixcity; do
->>>>>>> laraxot/dev
-=======
-for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job Fixcity; do
->>>>>>> laraxot/dev
 for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job App; do
     echo "Testing $module..."
     php artisan test --testsuite=$module || echo "❌ $module FAILED"

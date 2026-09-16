@@ -2,15 +2,7 @@
 
 ## Requisiti
 - PHP 8.2+
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Laravel 13.x
-=======
 - Laravel 12.x
->>>>>>> laraxot/dev
-=======
-- Laravel 12.x
->>>>>>> laraxot/dev
 - Database MySQL/PostgreSQL
 - Composer
 

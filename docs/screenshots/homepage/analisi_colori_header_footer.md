@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 📸 Analisi Visiva Header & Footer - <nome progetto> vs Bootstrap Italia
-=======
 # 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
->>>>>>> laraxot/dev
-=======
-# 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
->>>>>>> laraxot/dev
 # 📸 Analisi Visiva Header & Footer - Notify vs Bootstrap Italia
 
 ## Data: {{ date('Y-m-d H:i:s') }}
@@ -16,15 +8,7 @@
 ## 🎯 Problema Identificato
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
-<<<<<<< HEAD
-<<<<<<< HEAD
-**<nome progetto>**: http://<nome progetto>.local/it/tests/homepage
-=======
 **FixCity**: http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
-=======
-**FixCity**: http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
 **Notify**: http://laraxot.local/it/tests/homepage
 
 **Differenze Principali**:
@@ -176,21 +160,9 @@
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## 3. <nome progetto> - Differenze Attuali
-
-### Header <nome progetto> (Errato)
-=======
 ## 3. FixCity - Differenze Attuali
 
 ### Header FixCity (Errato)
->>>>>>> laraxot/dev
-=======
-## 3. FixCity - Differenze Attuali
-
-### Header FixCity (Errato)
->>>>>>> laraxot/dev
 ## 3. Notify - Differenze Attuali
 
 ### Header Notify (Errato)
@@ -203,15 +175,7 @@
 ❌ Login: Stile non Bootstrap Italia
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Footer <nome progetto> (Errato)
-=======
 ### Footer FixCity (Errato)
->>>>>>> laraxot/dev
-=======
-### Footer FixCity (Errato)
->>>>>>> laraxot/dev
 ### Footer Notify (Errato)
 
 ```

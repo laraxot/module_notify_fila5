@@ -5,15 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Factories;
 
 use Modules\Notify\Actions\SMS\SendSmsFactorSMSAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Notify\Contracts\SMS\SmsActionContract;
-=======
 use Modules\Notify\Models\Contracts\SmsActionContract;
->>>>>>> laraxot/dev
-=======
-use Modules\Notify\Models\Contracts\SmsActionContract;
->>>>>>> laraxot/dev
 use Modules\Notify\Contracts\TelegramProviderActionInterface;
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 use Modules\Notify\Factories\TelegramActionFactory;
