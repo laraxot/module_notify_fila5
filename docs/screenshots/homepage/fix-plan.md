@@ -5,8 +5,8 @@ tags: [fix, plan]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "fix-plan 🚀 fix homepage bootstrap italia - piano esecutivo"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./analisi-colori-header-footer.md"
   - "./analisi-visiva.md"
@@ -16,10 +16,10 @@ related:
 # 🚀 Fix Homepage Bootstrap Italia - Piano Esecutivo
 
 ## Panoramica
-Allineare la homepage <nome progetto> (`/it/tests/homepage`) al design Bootstrap Italia reference.
+Allineare la homepage FixCity (`/it/tests/homepage`) al design Bootstrap Italia reference.
 
 **Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
-**Target**: http://<nome progetto>.local/it/tests/homepage
+**Target**: http://fixcity.local/it/tests/homepage
 
 ---
 

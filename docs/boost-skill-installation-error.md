@@ -5,8 +5,8 @@ tags: [boost, skill, installation, error]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "boost-skill-installation-error boost skill installation error analysis"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -33,8 +33,8 @@ php laravel/artisan boost:add-skill jeffallan/claude-skills --skill laravel-spec
 The command fails with:
 ```
 PHP Fatal error: Uncaught Error: Class "Illuminate\Foundation\Application" not found
-in /var/www/_bases/<repo progetto>/laravel/app/Application.php:9
-in /var/www/_bases/<repo progetto>/laravel/app/Application.php:9
+in /var/www/_bases/base_fixcity_fila5/laravel/app/Application.php:9
+in /var/www/_bases/base_ptv_fila5/laravel/app/Application.php:9
 ```
 
 ## Root Cause Analysis
@@ -65,7 +65,7 @@ Because `laravel/framework` is not installed, the `Illuminate\Foundation\Applica
 ## Architecture Context
 
 This project uses:
-- **Laravel 13.x** framework
+- **Laravel 12.x** framework
 - **nwidart/laravel-modules** for modular architecture
 - **Filament 5.x** for admin panels
 - **Laravel Boost** for AI skill management
@@ -86,12 +86,12 @@ Retry the `boost:add-skill` command.
 
 ## Files Affected
 
-1. `/var/www/_bases/<repo progetto>/laravel/composer.json` - **NEEDS FIX**
-2. `/var/www/_bases/<repo progetto>/laravel/app/Application.php` - depends on Illuminate
-3. `/var/www/_bases/<repo progetto>/laravel/bootstrap/app.php` - bootstrap process
-1. `/var/www/_bases/<repo progetto>/laravel/composer.json` - **NEEDS FIX**
-2. `/var/www/_bases/<repo progetto>/laravel/app/Application.php` - depends on Illuminate
-3. `/var/www/_bases/<repo progetto>/laravel/bootstrap/app.php` - bootstrap process
+1. `/var/www/_bases/base_fixcity_fila5/laravel/composer.json` - **NEEDS FIX**
+2. `/var/www/_bases/base_fixcity_fila5/laravel/app/Application.php` - depends on Illuminate
+3. `/var/www/_bases/base_fixcity_fila5/laravel/bootstrap/app.php` - bootstrap process
+1. `/var/www/_bases/base_ptv_fila5/laravel/composer.json` - **NEEDS FIX**
+2. `/var/www/_bases/base_ptv_fila5/laravel/app/Application.php` - depends on Illuminate
+3. `/var/www/_bases/base_ptv_fila5/laravel/bootstrap/app.php` - bootstrap process
 
 ## Next Steps
 

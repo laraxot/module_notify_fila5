@@ -1,21 +1,21 @@
 ---
-title: "📸 Analisi Visiva Header & Footer - <nome progetto> vs Bootstrap Italia"
+title: "📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia"
 title: "📸 Analisi Visiva Header & Footer - Notify vs Bootstrap Italia"
 type: concept
 tags: [analisi, colori, header, footer]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "analisi-colori-header-footer 📸 analisi visiva header & footer - <nome progetto> vs bootstrap italia"
+qmd: "analisi-colori-header-footer 📸 analisi visiva header & footer - fixcity vs bootstrap italia"
 qmd: "analisi-colori-header-footer 📸 analisi visiva header & footer - laraxot vs bootstrap italia"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./analisi-visiva.md"
   - "./fix-plan.md"
   - "./screenshot-analysis.md"
 ---
 
-# 📸 Analisi Visiva Header & Footer - <nome progetto> vs Bootstrap Italia
+# 📸 Analisi Visiva Header & Footer - FixCity vs Bootstrap Italia
 # 📸 Analisi Visiva Header & Footer - Notify vs Bootstrap Italia
 
 ## Data: {{ date('Y-m-d H:i:s') }}
@@ -25,7 +25,7 @@ related:
 ## 🎯 Problema Identificato
 
 **URL Reference**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
-**<nome progetto>**: http://<nome progetto>.local/it/tests/homepage
+**FixCity**: http://fixcity.local/it/tests/homepage
 **Notify**: http://laraxot.local/it/tests/homepage
 
 **Differenze Principali**:
@@ -177,9 +177,9 @@ related:
 
 ---
 
-## 3. <nome progetto> - Differenze Attuali
+## 3. FixCity - Differenze Attuali
 
-### Header <nome progetto> (Errato)
+### Header FixCity (Errato)
 ## 3. Notify - Differenze Attuali
 
 ### Header Notify (Errato)
@@ -192,7 +192,7 @@ related:
 ❌ Login: Stile non Bootstrap Italia
 ```
 
-### Footer <nome progetto> (Errato)
+### Footer FixCity (Errato)
 ### Footer Notify (Errato)
 
 ```

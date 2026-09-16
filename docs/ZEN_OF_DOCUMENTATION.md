@@ -286,7 +286,7 @@ ralph-loop run \
 ```bash
 # Crea source dalla documentazione
 python scripts/notebooklm/create_source.py \
-  --name="<nome progetto> Documentation" \
+  --name="FixCity Documentation" \
   --files="docs/**/*.md"
 
 # Fai domande contestuali

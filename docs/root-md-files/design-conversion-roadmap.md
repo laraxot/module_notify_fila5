@@ -5,8 +5,8 @@ tags: [design, conversion, roadmap]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "design-conversion-roadmap design comuni conversion roadmap"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./changelog.md"
   - "./files-created-session-007.md"
@@ -202,10 +202,10 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 node bashscripts/github/create-design-issues.mjs
 
 # View issues
-gh issue list --repo laraxot/<repo progetto> --label "design-comuni"
+gh issue list --repo laraxot/base_fixcity_fila5 --label "design-comuni"
 
 # Filter by priority
-gh issue list --repo laraxot/<repo progetto> --label "priority:critical"
+gh issue list --repo laraxot/base_fixcity_fila5 --label "priority:critical"
 ```
 
 ---
@@ -266,8 +266,8 @@ npm run copy     # ~1 second
 ### Today (Start Phase 1)
 ```bash
 # 1. Review the analysis
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
 cat laravel/Themes/Sixteen/docs/COMPLETE-VISUAL-PARITY-REPORT.md
 
 # 2. Create GitHub issues
@@ -358,8 +358,8 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 
 **Ready to start? Run this now:**
 ```bash
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
 node bashscripts/github/create-design-issues.mjs
 ```
 

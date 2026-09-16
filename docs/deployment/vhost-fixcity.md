@@ -1,4 +1,4 @@
-# Apache VirtualHost - <nome progetto>.local
+# Apache VirtualHost - fixcity.local
 
 **Status**: ✅ Active  
 **Last Updated**: 2026-03-31  
@@ -10,9 +10,9 @@
 
 | Parametro | Valore |
 |-----------|--------|
-| **ServerName** | `<nome progetto>.local` |
-| **ServerAlias** | `www.<nome progetto>.local` |
-| **DocumentRoot** | `/var/www/_bases/<repo progetto>/public_html` |
+| **ServerName** | `fixcity.local` |
+| **ServerAlias** | `www.fixcity.local` |
+| **DocumentRoot** | `/var/www/_bases/base_fixcity_fila5/public_html` |
 | **Port** | 80 (HTTP) |
 | **mod_rewrite** | ✅ Enabled |
 | **mod_headers** | ✅ Enabled |
@@ -23,12 +23,12 @@
 
 | File | Path |
 |------|------|
-| **VHost config** | `/etc/apache2/sites-available/<nome progetto>.local.conf` |
-| **Enabled symlink** | `/etc/apache2/sites-enabled/<nome progetto>.local.conf` |
-| **Project copy** | `docs/deployment/<nome progetto>.local.conf` |
-| **Error log** | `/var/log/apache2/<nome progetto>.local-error.log` |
-| **Access log** | `/var/log/apache2/<nome progetto>.local-access.log` |
-| **/etc/hosts** | `127.0.0.1 <nome progetto>.local www.<nome progetto>.local` |
+| **VHost config** | `/etc/apache2/sites-available/fixcity.local.conf` |
+| **Enabled symlink** | `/etc/apache2/sites-enabled/fixcity.local.conf` |
+| **Project copy** | `docs/deployment/fixcity.local.conf` |
+| **Error log** | `/var/log/apache2/fixcity.local-error.log` |
+| **Access log** | `/var/log/apache2/fixcity.local-access.log` |
+| **/etc/hosts** | `127.0.0.1 fixcity.local www.fixcity.local` |
 
 ---
 
@@ -59,19 +59,19 @@ public_html/
 ### 1. Copiare il file di configurazione
 
 ```bash
-sudo cp docs/deployment/<nome progetto>.local.conf /etc/apache2/sites-available/
+sudo cp docs/deployment/fixcity.local.conf /etc/apache2/sites-available/
 ```
 
 ### 2. Abilitare il sito
 
 ```bash
-sudo a2ensite <nome progetto>.local.conf
+sudo a2ensite fixcity.local.conf
 ```
 
 ### 3. Aggiungere a /etc/hosts
 
 ```bash
-echo "127.0.0.1 <nome progetto>.local www.<nome progetto>.local" | sudo tee -a /etc/hosts
+echo "127.0.0.1 fixcity.local www.fixcity.local" | sudo tee -a /etc/hosts
 ```
 
 ### 4. Verificare e ricaricare Apache
@@ -109,15 +109,15 @@ Il file `public_html/.htaccess` gestisce il routing Laravel:
 ### 403 Forbidden
 ```bash
 # Verifica permessi
-ls -la /var/www/_bases/<repo progetto>/public_html/
+ls -la /var/www/_bases/base_fixcity_fila5/public_html/
 # Deve essere leggibile da www-data
-sudo chown -R www-data:www-data /var/www/_bases/<repo progetto>/public_html/
+sudo chown -R www-data:www-data /var/www/_bases/base_fixcity_fila5/public_html/
 ```
 
 ### 500 Internal Server Error
 ```bash
 # Controlla error log
-tail -f /var/log/apache2/<nome progetto>.local-error.log
+tail -f /var/log/apache2/fixcity.local-error.log
 ```
 
 ### mod_rewrite non funziona

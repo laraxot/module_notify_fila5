@@ -57,12 +57,12 @@
 🎯 **Priorità:** ALTA - Modulo critico  
 ⚠️ **Note:** Testing intensivo necessario (auth)
 
-#### <nome progetto> (Gestione Segnalazioni)
-📄 **File:** [../Modules/<nome progetto>/docs/analisi-metodi-duplicati.md](../Modules/<nome progetto>/docs/analisi-metodi-duplicati.md)  
+#### Fixcity (Gestione Segnalazioni)
+📄 **File:** [../Modules/Fixcity/docs/analisi-metodi-duplicati.md](../Modules/Fixcity/docs/analisi-metodi-duplicati.md)  
 📊 **Dati:** 9 proprietà duplicate, 72 LOC, 79% riduzione  
 🎯 **Priorità:** ALTA - Business core  
 ⚠️ **Note:** Usa SoftDeletes (trait specifico da mantenere)  
-📝 **Alternative:** [METODI_DUPLICATI_ANALISI.md](../Modules/<nome progetto>/docs/METODI_DUPLICATI_ANALISI.md)
+📝 **Alternative:** [METODI_DUPLICATI_ANALISI.md](../Modules/Fixcity/docs/METODI_DUPLICATI_ANALISI.md)
 
 #### Cms (Content Management)
 📄 **File:** [../Modules/Cms/docs/analisi-metodi-duplicati.md](../Modules/Cms/docs/analisi-metodi-duplicati.md)  

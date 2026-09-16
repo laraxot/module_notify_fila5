@@ -5,8 +5,8 @@ tags: [laravel, skills, installation, report]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "laravel-skills-installation-report laravel skills installation report"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -65,16 +65,16 @@ Laravel Boost v2.2.1 includes 14 built-in skills in the package:
 
 ### Built-in Skills Location
 ```
-/var/www/_bases/<repo progetto>/laravel/vendor/laravel/boost/.ai/
-/var/www/_bases/<repo progetto>/laravel/vendor/laravel/boost/.ai/
+/var/www/_bases/base_fixcity_fila5/laravel/vendor/laravel/boost/.ai/
+/var/www/_bases/base_ptv_fila5/laravel/vendor/laravel/boost/.ai/
 ```
 
 ## Successfully Installed Skills
 
 ### laravel-specialist
 - **Package**: jeffallan/claude-skills
-- **Location**: `/var/www/_bases/<repo progetto>/laravel/.ai/skills/laravel-specialist/`
-- **Location**: `/var/www/_bases/<repo progetto>/laravel/.ai/skills/laravel-specialist/`
+- **Location**: `/var/www/_bases/base_fixcity_fila5/laravel/.ai/skills/laravel-specialist/`
+- **Location**: `/var/www/_bases/base_ptv_fila5/laravel/.ai/skills/laravel-specialist/`
 - **Files**:
   - SKILL.md
   - references/routing.md

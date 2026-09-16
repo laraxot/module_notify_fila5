@@ -16,15 +16,15 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 // Formato corretto - allegato da file su filesystem
 $attachments = [
     [
-'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
-'path' => '/var/www/_bases/<repo progetto>/public_html/images/avatars/default-3.svg',
+'path' => '/var/www/html/Quaeris/public_html/images/avatars/default-3.svg',
+'path' => '/var/www/_bases/base_ptvx_fila5/public_html/images/avatars/default-3.svg',
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
-'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
-'path' => '/var/www/_bases/<repo progetto>/public_html/documents/terms.pdf',
+'path' => '/var/www/html/Quaeris/public_html/documents/terms.pdf',
+'path' => '/var/www/_bases/base_ptvx_fila5/public_html/documents/terms.pdf',
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],

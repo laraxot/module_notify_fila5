@@ -1,4 +1,4 @@
-# Risoluzione Conflitti Git - Progetto Base <nome progetto> Fila3 Mono
+# Risoluzione Conflitti Git - Progetto Base FixCity Fila3 Mono
 # Risoluzione Conflitti Git - Progetto Base Notify Fila3 Mono
 
 ## Panoramica

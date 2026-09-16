@@ -1,4 +1,4 @@
-# <nome progetto> - Architecture Documentation
+# FixCity - Architecture Documentation
 
 **Version:** 4.0  
 **Date:** 2025-10-01  
@@ -52,7 +52,7 @@ Modules/
 ├── Xot/              # Core framework extensions
 ├── Tenant/           # Multi-tenancy support
 ├── User/             # User management & authentication
-├── <nome progetto>/          # Main application logic
+├── Fixcity/          # Main application logic
 ├── Blog/             # Content management
 ├── Cms/              # CMS functionality
 ├── Geo/              # Geographic services
@@ -76,7 +76,7 @@ graph TD
     A[Xot] --> B[Tenant]
     A --> C[User]
     A --> D[Lang]
-    B --> E[<nome progetto>]
+    B --> E[Fixcity]
     C --> E
     E --> F[Blog]
     E --> G[Cms]

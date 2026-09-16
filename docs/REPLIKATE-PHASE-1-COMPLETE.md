@@ -146,7 +146,7 @@ laravel/Themes/Sixteen/
 │   └── js/
 │
 └── config/
-    └── local/<nome progetto>/database/content/
+    └── local/fixcity/database/content/
         └── pages/tests.homepage.json
 
 bashscripts/design-analysis/

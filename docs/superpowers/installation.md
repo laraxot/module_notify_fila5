@@ -31,8 +31,8 @@
 Launch Cursor IDE and open your project:
 
 ```bash
-cursor /var/www/_bases/<repo progetto>
-cursor /var/www/_bases/<repo progetto>
+cursor /var/www/_bases/base_fixcity_fila5
+cursor /var/www/_bases/base_ptvx_fila5
 ```
 
 Or use the GUI:
@@ -184,8 +184,8 @@ Create `.cursor/superpowers-config.json`:
 ### 1. Verify PHP Testing
 
 ```bash
-cd /var/www/_bases/<repo progetto>/laravel
-cd /var/www/_bases/<repo progetto>/laravel
+cd /var/www/_bases/base_fixcity_fila5/laravel
+cd /var/www/_bases/base_ptvx_fila5/laravel
 php artisan test --version
 ```
 

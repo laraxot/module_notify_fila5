@@ -32,7 +32,7 @@ updated: 2026-08-24
 
 ### Conoscenze Richieste
 - Laravel 11.x
-- Filament 5.x
+- Filament 4.x
 - Livewire 3.x
 - TailwindCSS
 - Architettura modulare (Nwidart)
@@ -247,7 +247,7 @@ return [
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
 │   │   ├── App/          # Core business logic
-<nome repitory>/
+<nome repitory>_mono/
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
 │   │   ├── <nome progetto>/          # Core business logic

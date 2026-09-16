@@ -4,7 +4,7 @@
 **Module Name**: Notify  
 **Type**: Notification & Communication Module  
 **Status**: ✅ Active  
-**Framework**: Laravel 13.x + Filament 5.x  
+**Framework**: Laravel 12.x + Filament 4.x  
 **Notification Channels**: Email, SMS, Database, Push  
 **Language**: Multi-language (IT/EN/DE)  
 
@@ -66,7 +66,7 @@ The Notify module provides comprehensive notification and communication function
 - Laravel notification system
 - Mail and SMS providers
 - Queue system for delivery
-- Filament 5.x (management interface)
+- Filament 4.x (management interface)
 
 ## Key Metrics
 | Aspect | Status | Details |

@@ -34,11 +34,11 @@ related:
 - `UpdaterTrait` - Tracking automatico created_by/updated_by
 - Pattern architetturali comuni
 
-### <nome progetto> - Business Logic
-**Path**: `Modules/<nome progetto>/`  
+### Fixcity - Business Logic
+**Path**: `Modules/Fixcity/`  
 **Responsabilità**: Core della piattaforma di segnalazioni  
 **Status**: ✅ Attivo - Modulo principale  
-**Docs**: [📖 <nome progetto> Docs](../../Modules/<nome progetto>/docs/links.md)
+**Docs**: [📖 Fixcity Docs](../../Modules/Fixcity/docs/links.md)
 
 - Gestione segnalazioni cittadini
 - Workflow amministrativo
@@ -242,7 +242,7 @@ related:
 | Modulo | Status | PHPStan | Tests | Docs |
 |--------|---------|---------|-------|------|
 | Xot | ✅ Active | Level 9 | ✅ 80% | ✅ Complete |  
-| <nome progetto> | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
+| Fixcity | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
 | App | ✅ Active | Level 7 | ⚠️ 60% | 📝 Updating |
 | User | ✅ Active | Level 8 | ✅ 75% | ✅ Complete |
 | UI | ✅ Active | Level 8 | ✅ 70% | ✅ Complete |

@@ -131,7 +131,7 @@ laravel/Themes/Sixteen/docs/
 
 **Subtask 4** (PARALLEL with Subtask 3):
 - 📝 Input: PHASE-1-FINDINGS.md from Researcher
-- 🔧 File: `laravel/config/local/<nome progetto>/database/content/pages/tests.segnalazioni-elenco.json`
+- 🔧 File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 - ✅ Tasks: Verify all sections, check translation keys
 - 📤 Output: Verified JSON file
 
@@ -204,13 +204,13 @@ PHASE 1 WORKFLOW (as of 07:50 UTC)
 ## 🔗 KEY CROSS-REFERENCES
 
 **Translation Pattern** (CRITICAL):
-- ✅ Correct: `<nome progetto>::segnalazione.fields.title.label`
+- ✅ Correct: `fixcity::segnalazione.fields.title.label`
 - ❌ Wrong: `SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE`
 - See: PHASE-1-STRATEGY.md § Translation Patterns
 
 **File Locations**:
 - ✅ Blade: `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
-- ✅ JSON: `laravel/config/local/<nome progetto>/database/content/pages/tests.segnalazioni-elenco.json`
+- ✅ JSON: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 - ✅ Script: `./bashscripts/body/html-structure-compare.sh`
 - ❌ DON'T CREATE: `segnalazioni-elenco.blade.php` (use [slug].blade.php)
 
@@ -351,7 +351,7 @@ Before starting your subtask:
 | Tool Docs | bashscripts/docs/html/INDEX.md | bashscripts/docs/html/ | ✅ DONE |
 | Comparison Script | html-structure-compare.sh | bashscripts/body/ | ✅ READY |
 | Blade Fixes | [slug].blade.php | laravel/Themes/Sixteen/resources/views/pages/tests/ | ⏳ PENDING |
-| JSON Verify | tests.segnalazioni-elenco.json | laravel/config/local/<nome progetto>/database/content/pages/ | ⏳ PENDING |
+| JSON Verify | tests.segnalazioni-elenco.json | laravel/config/local/fixcity/database/content/pages/ | ⏳ PENDING |
 | Analysis Results | PHASE-1-FINDINGS.md | laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio/ | ⏳ PENDING |
 | Completion | PHASE-1-COMPLETION-REPORT.md | laravel/Themes/Sixteen/docs/prompts/segnalazione_disservizio/ | ⏳ PENDING |
 

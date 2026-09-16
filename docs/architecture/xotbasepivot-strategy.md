@@ -48,7 +48,7 @@ related:
 | Gdpr | ✅ | ✅ | 0 | 🟢 Bassa |
 | Lang | ❌ | ✅ | 0 | 🟢 Bassa |
 | Job | ❌ | ✅ | 0 | 🟢 Bassa |
-| <nome progetto> | ✅ | ❌ | 0 | 🟢 Bassa |
+| Fixcity | ✅ | ❌ | 0 | 🟢 Bassa |
 | App | ✅ | ❌ | 0 | 🟢 Bassa |
 | **Xot** | ❌ | ✅ | 0 | ⚡ **CORE** |
 
@@ -159,7 +159,7 @@ abstract class BasePivot extends XotBasePivot
 - Gdpr
 - Lang
 - Job
-- <nome progetto>
+- Fixcity
 - App
 
 **Script automatico:**
@@ -176,7 +176,7 @@ MODULES=(
     "Gdpr"
     "Lang"
     "Job"
-    "<nome progetto>"
+    "Fixcity"
     "App"
 )
 
@@ -270,7 +270,7 @@ php artisan benchmark:pivot-queries
 
 ```bash
 # Test ogni modulo singolarmente
-for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job <nome progetto>; do
+for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job Fixcity; do
 for module in User Blog Rating Notify Geo Comment Cms Gdpr Lang Job App; do
     echo "Testing $module..."
     php artisan test --testsuite=$module || echo "❌ $module FAILED"

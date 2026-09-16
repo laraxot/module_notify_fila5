@@ -1,4 +1,4 @@
-# STATE: <nome progetto> Platform
+# STATE: FixCity Platform
 
 ## Current Position
 - Date: 2026-03-30

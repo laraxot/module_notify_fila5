@@ -1,4 +1,4 @@
-# 🛠️ ROADMAP TECNICA - <nome progetto> PLATFORM
+# 🛠️ ROADMAP TECNICA - FIXCITY PLATFORM
 # 🛠️ ROADMAP TECNICA - NOTIFY PLATFORM
 
 **Versione**: 1.0  
@@ -7,12 +7,12 @@
 **Priorità**: ALTA  
 
 ## 🎯 Obiettivo
-Completare l'evoluzione tecnica del progetto <nome progetto> per raggiungere la produzione con qualità enterprise e scalabilità.
+Completare l'evoluzione tecnica del progetto FixCity per raggiungere la produzione con qualità enterprise e scalabilità.
 Completare l'evoluzione tecnica del progetto Notify per raggiungere la produzione con qualità enterprise e scalabilità.
 
 ## 📊 Stato Attuale
 - **PHPStan Level 9**: ✅ COMPLETATO (0 errori)
-- **Filament 5.x**: ✅ COMPATIBILE
+- **Filament 4.x**: ✅ COMPATIBILE
 - **Architettura**: ✅ SOLIDA
 - **Core Features**: 🚧 60% completato
 - **Documentazione**: 🚧 60% completata
@@ -363,7 +363,7 @@ jobs:
 
 ### Development
 - **PHP**: 8.3+ con strict types
-- **Laravel**: 11.x con Filament 5.x
+- **Laravel**: 11.x con Filament 4.x
 - **Testing**: Pest/PHPUnit con coverage
 - **Code Quality**: PHPStan Level 8+
 
@@ -460,8 +460,8 @@ jobs:
 **📞 Contatti**
 - **Tech Lead**: Laraxot Development Team
 - **Email**: tech@laraxot.com
-- **Slack**: #<nome progetto>-tech
-- **GitHub**: [<nome progetto> Repository](https://github.com/laraxot/<nome progetto>)
+- **Slack**: #fixcity-tech
+- **GitHub**: [FixCity Repository](https://github.com/laraxot/fixcity)
 - **Slack**: #laraxot-tech
 - **GitHub**: [Notify Repository](https://github.com/laraxot/laraxot)
 

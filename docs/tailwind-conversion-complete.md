@@ -5,8 +5,8 @@ tags: [tailwind, conversion, complete]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "tailwind-conversion-complete 🎨 tailwind conversion complete - design comuni"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -228,7 +228,7 @@ Main Content
 
 ## 🏆 RISULTATO
 
-**Homepage <nome progetto> è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
+**Homepage FixCity è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
 
 ### Differenze
 - ❌ Bootstrap Italia
@@ -247,6 +247,6 @@ Main Content
 **Quality**: 💎 **IDENTICO AL DESIGN COMUNI**  
 **Tech**: 🎨 **100% TAILWIND CSS**  
 
-*"<nome progetto> ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
+*"FixCity ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
 
-**#<nome progetto>2025 #TailwindCSS #DesignComuni #AGID #Conversion**
+**#FixCity2025 #TailwindCSS #DesignComuni #AGID #Conversion**

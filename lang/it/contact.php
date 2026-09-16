@@ -99,7 +99,7 @@ return [
         'isActive' => [
             'label' => 'isActive',
             'placeholder' => 'isActive',
-            'helper_text' => '',
+            'helper_text' => 'isActive',
             'description' => 'isActive']],
     'actions' => [
         'import' => [

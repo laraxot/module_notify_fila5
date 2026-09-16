@@ -6,7 +6,7 @@
 
 ## Summary
 
-Successfully migrated Notify module from Filament 3 to Filament 5, resolving all component compatibility issues.
+Successfully migrated Notify module from Filament 3 to Filament 4, resolving all component compatibility issues.
 
 ## Issues Fixed
 
@@ -40,7 +40,7 @@ Successfully migrated Notify module from Filament 3 to Filament 5, resolving all
 </x-filament-panels::form>
 ```
 
-### After (Filament 5)
+### After (Filament 4)
 ```blade
 <form wire:submit="methodName()">
     {{ $this->form }}
@@ -58,7 +58,7 @@ php artisan view:cache  # ✅ Success - Blade templates cached successfully
 
 ## Best Practices Documented
 
-1. **Actions Rendering**: In Filament 5, actions are rendered directly using `{{ $action }}` inside foreach loops
+1. **Actions Rendering**: In Filament 4, actions are rendered directly using `{{ $action }}` inside foreach loops
 2. **Form Components**: Use standard HTML `<form>` tags with Livewire directives
 3. **Testing**: Always run `php artisan view:cache` after migration to verify success
 

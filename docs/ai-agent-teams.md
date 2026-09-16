@@ -5,8 +5,8 @@ tags: [agent, teams]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ai-agent-teams ai agent teams - coordination hub"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -28,7 +28,7 @@ related:
 
 ## 🎯 Why Agent Teams?
 
-Multiple AI agents (Qwen, Claude, Cursor, etc.) are working on the same <nome progetto> platform. Without coordination:
+Multiple AI agents (Qwen, Claude, Cursor, etc.) are working on the same FixCity platform. Without coordination:
 - ❌ Duplicate work
 - ❌ Conflicting changes
 - ❌ Wasted effort

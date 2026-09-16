@@ -5,8 +5,8 @@ tags: [final, refactoring, report]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "final-refactoring-report 🐮 super mucca - final refactoring report"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2025-excellence-achievement.md"
   - "./agid-implementation-guide.md"
@@ -20,8 +20,8 @@ related:
 
 # 🐮 Super Mucca - Final Refactoring Report
 
-**Project:** <repo progetto>  
-**Project:** <repo progetto>  
+**Project:** base_fixcity_fila5_mono  
+**Project:** base_ptvx_fila5_mono  
 **Date:** 2025-10-01  
 **Analyzer:** Super Mucca 🐮  
 **Status:** ✅ **SUCCESSFULLY COMPLETED**
@@ -113,7 +113,7 @@ Successfully analyzed and refactored the entire codebase, reducing cyclomatic co
 2. **Activity** - 0 high-complexity methods
 3. **Cms** - 0 high-complexity methods
 4. **Comment** - 0 high-complexity methods
-5. **<nome progetto>** - 0 high-complexity methods
+5. **Fixcity** - 0 high-complexity methods
 5. **App** - 0 high-complexity methods
 6. **Gdpr** - 0 high-complexity methods
 7. **Job** - 0 high-complexity methods

@@ -6,8 +6,8 @@
 
 ### Required Commands (ALWAYS):
 ```bash
-cd /var/www/html/_bases/<repo progetto>/laravel/Themes/Sixteen
-cd /var/www/html/_bases/<repo progetto>/laravel/Themes/Sixteen
+cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
+cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
 npm run build
 npm run copy
 ```

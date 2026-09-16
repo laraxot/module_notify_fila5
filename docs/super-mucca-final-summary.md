@@ -5,8 +5,8 @@ tags: [super, mucca, final, summary]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "super-mucca-final-summary 🐄 super mucca - missione completata"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -91,7 +91,7 @@ related:
 
 ---
 
-### ✅ 5. Analisi LoginWidget Filament 5
+### ✅ 5. Analisi LoginWidget Filament 4
 
 **File Creato**: `laravel/Modules/User/docs/WIDGET_RENDERING_analysis.md`
 
@@ -133,7 +133,7 @@ class LoginWidget extends XotBaseWidget
 
 #### 🔑 Perché Funziona
 
-**1. Widget Pattern Filament 5**:
+**1. Widget Pattern Filament 4**:
 - Widget estende `XotBaseWidget` (implementa `InteractsWithForms`)
 - `getFormSchema()` definisce i campi del form
 - Vista configurabile per tema: `pub_theme::`
@@ -151,7 +151,7 @@ class LoginWidget extends XotBaseWidget
 {{ $this->form }}
 ```
 - Rende TUTTI i campi definiti in `getFormSchema()`
-- Styling automatico Filament 5
+- Styling automatico Filament 4
 - Validazione integrata
 
 **4. Design Docs.Italia**:
@@ -179,7 +179,7 @@ class LoginWidget extends XotBaseWidget
 | **Job** | 83 | ✅ | 🟢 | Queue mgmt |
 | **Gdpr** | 79 | ✅ | 🟢 | Privacy |
 | **Tenant** | 57 | ✅ | 🟢 | Multi-tenant |
-| **<nome progetto>** | 38 | ✅ | 🟢 | Ticketing |
+| **Fixcity** | 38 | ✅ | 🟢 | Ticketing |
 | **AI** | 34 | ✅ | 🟢 | MCP integration |
 | **Blog** | 34 | ✅ | 🟢 | Content mgmt |
 | **Seo** | 21 | ✅ | 🟢 | **README creato** |
@@ -233,7 +233,7 @@ class LoginWidget extends XotBaseWidget
 
 ## 🎓 Conoscenze Acquisite
 
-### Architettura Filament 5 Widgets
+### Architettura Filament 4 Widgets
 
 **Pattern Corretto**:
 
@@ -328,7 +328,7 @@ wire:submit="method" → Azione submit
 - **🥈 36 Conflitti Git**: Puliti completamente
 - **🥉 3 README Creati**: Comment, Seo, Theme One
 - **🏅 Indice Generale**: Navigazione documentazione completa
-- **🎖️ Analisi LoginWidget**: Architettura Filament 5 documentata
+- **🎖️ Analisi LoginWidget**: Architettura Filament 4 documentata
 - **⭐ 3,023 Files**: Analizzati e categorizzati
 - **💎 Report Qualità**: Metriche e statistiche complete
 

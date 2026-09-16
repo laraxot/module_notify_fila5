@@ -1,13 +1,13 @@
 ---
-title: "🚀 <nome progetto> - GUIDA RAPIDA SVILUPPATORI"
+title: "🚀 FIXCITY - GUIDA RAPIDA SVILUPPATORI"
 type: concept
 tags: [quick, start]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "quick-start 🚀 <nome progetto> - guida rapida sviluppatori"
+qmd: "quick-start 🚀 fixcity - guida rapida sviluppatori"
 qmd: "quick-start 🚀 ptv - guida rapida sviluppatori"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -19,11 +19,11 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-# 🚀 <nome progetto> - GUIDA RAPIDA SVILUPPATORI
+# 🚀 FIXCITY - GUIDA RAPIDA SVILUPPATORI
 
 **Versione**: 1.0  
 **Data**: 2025-10-01  
-**Target**: Sviluppatori che iniziano a lavorare su <nome progetto>  
+**Target**: Sviluppatori che iniziano a lavorare su FixCity  
 
 ---
 
@@ -39,7 +39,7 @@ related:
 
 ### Conoscenze Richieste
 - Laravel 11.x
-- Filament 5.x
+- Filament 4.x
 - Livewire 3.x
 - TailwindCSS
 - Architettura modulare (Nwidart)
@@ -50,8 +50,8 @@ related:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/laraxot/<nome progetto>.git
-cd <nome progetto>/laravel
+git clone https://github.com/laraxot/fixcity.git
+cd fixcity/laravel
 git clone https://github.com/laraxot/ptv.git
 cd ptv/laravel
 ```
@@ -78,7 +78,7 @@ php artisan key:generate
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
-DB_DATABASE=<nome progetto>
+DB_DATABASE=fixcity
 DB_DATABASE=ptv
 DB_USERNAME=your_user
 DB_PASSWORD=your_password
@@ -250,11 +250,11 @@ return [
 ## 📁 STRUTTURA PROGETTO
 
 ```
-<repo progetto>/
-<repo progetto>/
+base_fixcity_fila5_mono/
+base_ptv_fila5_mono/
 ├── laravel/                    # Applicazione Laravel
 │   ├── Modules/               # Moduli Nwidart
-│   │   ├── <nome progetto>/          # Core business logic
+│   │   ├── Fixcity/          # Core business logic
 │   │   ├── User/             # Authentication
 │   │   ├── Xot/              # Framework base
 │   │   ├── UI/               # Component library
@@ -308,13 +308,13 @@ php artisan module:publish ModuleName
 ### Filament
 ```bash
 # Crea resource
-php artisan make:filament-resource TicketResource --module=<nome progetto>
+php artisan make:filament-resource TicketResource --module=Fixcity
 
 # Crea page
-php artisan make:filament-page Dashboard --module=<nome progetto>
+php artisan make:filament-page Dashboard --module=Fixcity
 
 # Crea widget
-php artisan make:filament-widget StatsWidget --module=<nome progetto>
+php artisan make:filament-widget StatsWidget --module=Fixcity
 ```
 
 ---
@@ -463,7 +463,7 @@ Ogni modulo ha la sua documentazione in `Modules/ModuleName/docs/`:
 - **structure.md**: Struttura file
 - **technical.md**: Dettagli tecnici
 
-**Esempio**: [<nome progetto> Module Docs](./laravel/Modules/<nome progetto>/docs/)
+**Esempio**: [Fixcity Module Docs](./laravel/Modules/Fixcity/docs/)
 
 ---
 

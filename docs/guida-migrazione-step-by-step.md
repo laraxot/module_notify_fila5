@@ -1,4 +1,4 @@
-# Guida Migrazione Step-by-Step: Modulo Notify - Filament 5
+# Guida Migrazione Step-by-Step: Modulo Notify - Filament 4
 
 ## Panoramica Migrazione
 **Modulo**: Notify  
@@ -10,8 +10,8 @@
 ## Pre-requisiti
 - [x] Completata migrazione modulo User (autenticazione MFA)
 - [x] Completata migrazione modulo Xot (XotBaseResource)
-- [x] Laravel 13+ installato
-- [x] Filament 5 beta installato
+- [x] Laravel 12+ installato
+- [x] Filament 4 beta installato
 - [x] Testing environment isolato
 
 ## Fase 1: Backup e Preparazione (Giorni 1-2)
@@ -206,7 +206,7 @@ abstract class NotifyBaseResource extends XotBaseResource
 }
 ```
 
-### 2.2 NotificationTemplateResource con Filament 5
+### 2.2 NotificationTemplateResource con Filament 4
 ```php
 // app/Filament/Resources/NotificationTemplateResource.php
 <?php
@@ -543,7 +543,7 @@ class UnifiedSendAction
 
 ## Fase 4: Dashboard Comunicazioni Real-time (Giorni 15-18)
 
-### 3.3 Widget Dashboard con Filament 5
+### 3.3 Widget Dashboard con Filament 4
 ```php
 // app/Filament/Widgets/NotificationStatsWidget.php
 <?php
@@ -707,7 +707,7 @@ class QueueMonitorWidget extends BaseWidget
 }
 ```
 
-## Fase 5: Test Pages con Filament 5 (Giorni 19-21)
+## Fase 5: Test Pages con Filament 4 (Giorni 19-21)
 
 ### 5.1 Pagina Test Unificata
 ```php
@@ -966,13 +966,13 @@ use Modules\Notify\Models\{NotificationTemplate, Contact};
 class MigrateNotifyToFilament4Command extends Command
 {
     protected $signature = 'notify:migrate-filament4 {--dry-run : Solo simulazione}';
-    protected $description = 'Migra dati Notify per compatibilità Filament 5';
+    protected $description = 'Migra dati Notify per compatibilità Filament 4';
     
     public function handle()
     {
         $dryRun = $this->option('dry-run');
         
-        $this->info('Inizio migrazione dati Notify per Filament 5...');
+        $this->info('Inizio migrazione dati Notify per Filament 4...');
         
         // Migrazione template
         $this->migrateTemplates($dryRun);
@@ -1310,7 +1310,7 @@ return [
 #!/bin/bash
 # deploy-notify-filament4.sh
 
-echo "🚀 Deploy Notify Module - Filament 5"
+echo "🚀 Deploy Notify Module - Filament 4"
 
 # 1. Backup
 php artisan down

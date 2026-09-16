@@ -1,6 +1,6 @@
-# Laravel 13 + Qualita Codice — Pacchetti Core
+# Laravel 12 + Qualita Codice — Pacchetti Core
 
-Riferimento per Laravel 13, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP.
+Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP.
 
 ## Stack versioni
 
@@ -23,7 +23,7 @@ Riferimento per Laravel 13, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP
 
 ---
 
-## Laravel 13 — Principali novita
+## Laravel 12 — Principali novita
 
 - PHP 8.2+ minimo, pieno supporto PHP 8.4
 - `Concurrency` namespace per pattern lottery/feature-flag
@@ -32,7 +32,7 @@ Riferimento per Laravel 13, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP
 - Enum nativi nei cast Eloquent
 - Piena integrazione Pest 4 come framework di test primario
 
-### Pattern model Laravel 13
+### Pattern model Laravel 12
 
 ```php
 namespace Modules\Job\Models;
@@ -45,7 +45,7 @@ class Task extends BaseModel
         return array_merge(parent::casts(), [
             'is_active' => 'boolean',
             'parameters' => 'json',
-            'status' => TaskStatus::class, // Enum nativo Laravel 13
+            'status' => TaskStatus::class, // Enum nativo Laravel 12
         ]);
     }
 }
@@ -140,7 +140,7 @@ XDEBUG_MODE=off ./vendor/bin/pest --coverage         # con coverage
 XDEBUG_MODE=off ./vendor/bin/pest --coverage --min=80
 
 # Modulo specifico
-XDEBUG_MODE=off ./vendor/bin/pest Modules/<nome progetto>/tests
+XDEBUG_MODE=off ./vendor/bin/pest Modules/Quaeris/tests
 XDEBUG_MODE=off ./vendor/bin/pest Modules/App/tests
 
 # Via composer
@@ -288,7 +288,7 @@ Espone l'applicazione all'AI (Claude, ecc.) tramite MCP protocol.
 ```php
 use Laravel\Mcp\Server;
 
-$server = new Server('<nome progetto>-surveys');
+$server = new Server('quaeris-surveys');
 $server = new Server('this-project-surveys');
 
 // Resources (dati che l'AI puo leggere)

@@ -19,7 +19,7 @@ related:
 ---
 # AI Assistant Documentation
 
-**Purpose**: Centralized documentation for all AI assistants used in the <nome progetto> project  
+**Purpose**: Centralized documentation for all AI assistants used in the FixCity project  
 **Purpose**: Centralized documentation for all AI assistants used in the Notify project  
 **Last Updated**: 2026-04-11  
 

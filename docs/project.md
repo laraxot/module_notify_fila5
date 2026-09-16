@@ -1,4 +1,4 @@
-# Base <nome progetto> Fila5 — PROJECT.md
+# Base Fixcity Fila5 — PROJECT.md
 
 ## Context
 Laravel + Filament v5 modular monolith (Laraxot architecture).
@@ -6,7 +6,7 @@ Theme: Sixteen (Bootstrap Italia → Tailwind parity).
 Frontend wizard: Ticket creation wizard via `CreateTicketWizardWidget` (Filament v5 Schemas).
 
 ## Current Milestone
-**M0: <nome progetto> Ticket Wizard — Visual & HTML Parity** ✅ DONE
+**M0: Fixcity Ticket Wizard — Visual & HTML Parity** ✅ DONE
 
 Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segnalazione-02-dati.html`
 
@@ -30,4 +30,4 @@ Target: `segnalazione-crea` wizard page → 90%+ parity with Design Comuni `segn
 - Filament Schemas = unified system (v5). Forms + Infolists coexist.
 - Widget → NO model binding (`getFormModel() → null`)
 - CSS scoped overrides → never mutate Filament markup
-- Multilingual: all strings via `__('<nome progetto>::ticket.*')`
+- Multilingual: all strings via `__('fixcity::ticket.*')`

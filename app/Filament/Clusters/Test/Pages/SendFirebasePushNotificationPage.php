@@ -22,7 +22,6 @@ use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\PushNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Override;
 
 /**
  * @property Schema $pushForm
@@ -154,7 +153,6 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->submit('sendPushNotification')];
     }
 
-    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

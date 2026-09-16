@@ -5,8 +5,8 @@ tags: [missione, super, mucca, completata]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "missione-super-mucca-completata 🐄✨ missione super mucca - completamento totale ✨🐄"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -66,7 +66,7 @@ related:
 | Gdpr | 74 | ✅ |
 | Job | 64 | ✅ |
 | Tenant | 45 | ✅ |
-| <nome progetto> | 37 | ✅ |
+| Fixcity | 37 | ✅ |
 | AI | 34 | ✅ |
 | Blog | 30 | ✅ |
 | Seo | 21 | ✅ |
@@ -114,7 +114,7 @@ related:
 ✅ Modules/Blog/docs/dry-kiss-analysis.md
 ✅ Modules/Cms/docs/dry-kiss-analysis.md
 ✅ Modules/Comment/docs/dry-kiss-analysis.md
-✅ Modules/<nome progetto>/docs/dry-kiss-analysis.md
+✅ Modules/Fixcity/docs/dry-kiss-analysis.md
 ✅ Modules/Gdpr/docs/dry-kiss-analysis.md
 ✅ Modules/Geo/docs/dry-kiss-analysis.md
 ✅ Modules/Job/docs/dry-kiss-analysis.md

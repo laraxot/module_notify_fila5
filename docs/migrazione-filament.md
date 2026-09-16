@@ -1,14 +1,14 @@
-# Notify Module - Migrazione a Filament 5
+# Notify Module - Migrazione a Filament 4
 
 ## Panoramica Notify Module
-Il modulo Notify gestisce comunicazioni multi-canale (email, SMS, push, WhatsApp, Telegram, Slack). La migrazione a Filament 5 offre **enormi opportunità** per migliorare UX e performance delle notifiche.
+Il modulo Notify gestisce comunicazioni multi-canale (email, SMS, push, WhatsApp, Telegram, Slack). La migrazione a Filament 4 offre **enormi opportunità** per migliorare UX e performance delle notifiche.
 
 ## 🔄 Modifiche Richieste per la Migrazione
 
 ### 1. NotificationTemplateResource - Schema Unificato
 **Problema attuale**: Resource eliminato dal git status, funzionalità mancante
 
-**Filament 5 - NotificationTemplateResource Completo:**
+**Filament 4 - NotificationTemplateResource Completo:**
 
 ```php
 <?php
@@ -281,7 +281,7 @@ class NotificationTemplateResource extends Resource
 ```
 
 ### 2. Real-time Notification Dashboard
-**Filament 5 - Static Table Data per monitoring:**
+**Filament 4 - Static Table Data per monitoring:**
 ```php
 class NotificationDashboardWidget extends Widget
 {
@@ -521,7 +521,7 @@ NotificationScheduler::make()
 3. 🔧 Audit database consistency
 4. 🔧 Backup complete notification data
 
-### Fase 2: Filament 5 Core Migration (4-5 giorni)
+### Fase 2: Filament 4 Core Migration (4-5 giorni)
 1. 🔄 Convert a unified Schema system
 2. 🔄 Implement enhanced template management
 3. 🔄 Setup nested resources structure
@@ -567,7 +567,7 @@ NotificationScheduler::make()
 ## 🕐 Timeline Stimato Notify Module
 
 - **Foundation recovery**: 3-4 giorni
-- **Core Filament 5 migration**: 5-6 giorni  
+- **Core Filament 4 migration**: 5-6 giorni  
 - **Advanced features**: 4-5 giorni
 - **Integration testing**: 4-5 giorni
 - **Performance optimization**: 2-3 giorni
@@ -576,7 +576,7 @@ NotificationScheduler::make()
 
 ## 🔮 Conclusioni Notify Module
 
-**MIGRAZIONE PRIORITY ALTA** - Il modulo Notify ha **perso componenti critici** e la migrazione a Filament 5 è un'opportunità perfetta per:
+**MIGRAZIONE PRIORITY ALTA** - Il modulo Notify ha **perso componenti critici** e la migrazione a Filament 4 è un'opportunità perfetta per:
 
 ✅ **Ricostruire funzionalità mancanti** con architettura moderna  
 ✅ **Implementare real-time monitoring** essenziale per notifications

@@ -5,8 +5,8 @@ tags: [pro, max, skills, integration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-ux-pro-max-skills-integration 🎨 ui/ux pro max skills - integration guide"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -244,7 +244,7 @@ Build a landing page with:
 4. ⏳ Documentare best practices
 
 ### This Week
-5. Integrare con <nome progetto> project
+5. Integrare con FixCity project
 6. Creare template riutilizzabili
 7. Training team
 8. Feedback loop

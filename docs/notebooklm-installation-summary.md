@@ -5,8 +5,8 @@ tags: [notebooklm, installation, summary]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "notebooklm-installation-summary notebooklm skill - installation & integration summary"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -69,7 +69,7 @@ ls -la ~/.claude/skills/notebooklm/
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│              AI Tool Stack - <nome progetto>                    │
+│              AI Tool Stack - FixCity                    │
 ├─────────────────────────────────────────────────────────┤
 │                                                          │
 │  📚 NotebookLM Skill                                    │
@@ -179,14 +179,14 @@ python scripts/run.py ask_question.py \
   --question "What does the docs say about [topic]?"
 ```
 
-## Usage Examples for <nome progetto>
+## Usage Examples for FixCity
 
 ### Example 1: Technical Research (BMAD)
 
 ```bash
 # Research Laravel patterns
 python scripts/run.py ask_question.py \
-  --question "What are Laravel 13 best practices for service architecture?"
+  --question "What are Laravel 12 best practices for service architecture?"
 
 # Research Filament v5
 python scripts/run.py ask_question.py \
@@ -237,7 +237,7 @@ Every NotebookLM answer ends with: **"Is that ALL you need to know?"**
 4. **REPEAT** - Until information is complete
 5. **SYNTHESIZE** - Combine all answers before responding
 
-## Recommended Notebooks for <nome progetto>
+## Recommended Notebooks for FixCity
 
 Create these NotebookLM notebooks:
 
@@ -258,8 +258,8 @@ Create these NotebookLM notebooks:
 - **Use**: Admin panel development
 
 ### 4. Project Documentation
-- **Upload**: <nome progetto> docs, module docs, theme docs
-- **Topics**: <nome progetto>, project, conventions, documentation
+- **Upload**: FixCity docs, module docs, theme docs
+- **Topics**: fixcity, project, conventions, documentation
 - **Topics**: ptv, project, conventions, documentation
 - **Use**: Project-specific queries
 
@@ -320,8 +320,8 @@ STEALTH_ENABLED=true     # Human-like behavior
 TYPING_WPM_MIN=160
 TYPING_WPM_MAX=240
 
-# Default notebook (<nome progetto> docs)
-DEFAULT_NOTEBOOK_ID=<nome progetto>-project-docs
+# Default notebook (FixCity docs)
+DEFAULT_NOTEBOOK_ID=fixcity-project-docs
 DEFAULT_NOTEBOOK_ID=ptv-project-docs
 ```
 
@@ -359,7 +359,7 @@ DEFAULT_NOTEBOOK_ID=ptv-project-docs
 
 1. ✅ Skill installed and verified
 2. ⏳ Authenticate with Google account
-3. ⏳ Create <nome progetto> NotebookLM notebooks
+3. ⏳ Create FixCity NotebookLM notebooks
 4. ⏳ Upload project documentation
 5. ⏳ Integrate with BMAD workflow
 6. ⏳ Store insights in OpenViking

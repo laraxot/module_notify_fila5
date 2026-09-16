@@ -3,7 +3,7 @@
 
 **Session Date**: 2026-04-08  
 **Agent Role**: Researcher (BMAD Mode C - Opzione C)  
-**Scope**: <nome progetto> Sixteen Theme - Phase 1 HTML Parity (segnalazioni-elenco)  
+**Scope**: FixCity Sixteen Theme - Phase 1 HTML Parity (segnalazioni-elenco)  
 **Status**: 🟠 EXECUTION IN PROGRESS
 
 ---
@@ -274,7 +274,7 @@ Must achieve ALL criteria:
 - [ ] Filter checkboxes with `.form-check-input`/`.form-check-label`
 - [ ] Card grid with `.card.card-report` pattern
 - [ ] Bootstrap semantic classes (`.bg-light`, `.btn-primary`, etc.)
-- [ ] All user-visible text using `trans('<nome progetto>::...')`
+- [ ] All user-visible text using `trans('fixcity::...')`
 - [ ] ARIA attributes present and correct
 - [ ] Comparison reports saved in docs/
 - [ ] Findings documented (PHASE-1-FINDINGS.md)
@@ -442,6 +442,6 @@ Must achieve ALL criteria:
 ---
 
 *Session 007 Summary - Researcher Agent (BMAD Mode C)*  
-*<nome progetto> Sixteen Theme - Phase 1 HTML Structural Parity*  
+*FixCity Sixteen Theme - Phase 1 HTML Structural Parity*  
 *Monitoring Subtask 1... Awaiting comparison results...*
 

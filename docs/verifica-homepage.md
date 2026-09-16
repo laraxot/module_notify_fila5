@@ -1,13 +1,13 @@
 ---
-title: "📸 Verifica Visiva Homepage <nome progetto>"
+title: "📸 Verifica Visiva Homepage FixCity"
 type: concept
 tags: [verifica, homepage]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "verifica-homepage 📸 verifica visiva homepage <nome progetto>"
+qmd: "verifica-homepage 📸 verifica visiva homepage fixcity"
 qmd: "verifica-homepage 📸 verifica visiva homepage ptv"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -19,7 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-# 📸 Verifica Visiva Homepage <nome progetto>
+# 📸 Verifica Visiva Homepage FixCity
 
 ## Confronto con Bootstrap Italia Reference
 
@@ -41,7 +41,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
-<!-- <nome progetto> Implementation -->
+<!-- FixCity Implementation -->
 <h2 id="evidenza-title">CONTENUTI IN EVIDENZA</h2>
 <article class="card card-teaser shadow-sm">
   <div class="card-body">
@@ -65,7 +65,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
-<!-- <nome progetto> Implementation -->
+<!-- FixCity Implementation -->
 <div class="col-lg-4 col-md-6">
   <div class="card card-teaser shadow-sm h-100">
     <div class="card-body">
@@ -91,7 +91,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </ul>
 </div>
 
-<!-- <nome progetto> Implementation -->
+<!-- FixCity Implementation -->
 <div class="calendar-event mb-3 pb-3 border-bottom">
   <div class="row">
     <div class="col-3 col-md-2">
@@ -122,7 +122,7 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
   </div>
 </div>
 
-<!-- <nome progetto> Implementation -->
+<!-- FixCity Implementation -->
 <div class="col-lg-3 col-md-6">
   <div class="card card-teaser shadow-sm h-100">
     <div class="card-body">
@@ -143,24 +143,24 @@ https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 
 ### 1. Card Date Format
 - **Bootstrap Italia**: `Notizie 18 mag 2022` (inline)
-- **<nome progetto>**: `Notizie 18 mar 2026` (con classi Tailwind)
+- **FixCity**: `Notizie 18 mar 2026` (con classi Tailwind)
 - **Impatto**: Minimo - formato corretto
 
 ### 2. Button Sizes
 - **Bootstrap Italia**: `btn btn-outline-primary`
-- **<nome progetto>**: `btn btn-outline-primary btn-sm`
+- **FixCity**: `btn btn-outline-primary btn-sm`
 - **Motivo**: Adattamento per responsive
 
 ### 3. Icon Usage
 - **Bootstrap Italia**: SVG inline
-- **<nome progetto>**: SVG sprites con `<use>`
+- **FixCity**: SVG sprites con `<use>`
 - **Motivo**: Performance e manutenzione
 
 ---
 
 ## 📊 Checklist Completa
 
-| Sezione | Bootstrap Italia | <nome progetto> | Stato |
+| Sezione | Bootstrap Italia | FixCity | Stato |
 |---------|-----------------|---------|-------|
 | Skip Links | ✅ | ✅ | ✅ |
 | Header | ✅ | ✅ (via section) | ✅ |
@@ -194,7 +194,7 @@ Le differenze residue sono:
 Bootstrap Italia:  [H2] CONTENUTI IN EVIDENZA
                    [Card with image + text]
 
-<nome progetto>:          [H2] CONTENUTI IN EVIDENZA  
+FixCity:          [H2] CONTENUTI IN EVIDENZA  
                    [Card with image + text]
                    ✅ MATCH
 ```
@@ -202,21 +202,21 @@ Bootstrap Italia:  [H2] CONTENUTI IN EVIDENZA
 ### Governance
 ```
 Bootstrap Italia:  [3 Cards: Sindaco, Giunta, Consiglio]
-<nome progetto>:          [3 Cards: Sindaco, Giunta, Consiglio]
+FixCity:          [3 Cards: Sindaco, Giunta, Consiglio]
                    ✅ MATCH
 ```
 
 ### Events
 ```
 Bootstrap Italia:  [Calendar with dates 15-21]
-<nome progetto>:          [Calendar with dates 15-18]
+FixCity:          [Calendar with dates 15-18]
                    ✅ MATCH (structure identical)
 ```
 
 ### Topics
 ```
 Bootstrap Italia:  [4 Cards + "Altri Argomenti"]
-<nome progetto>:          [4 Cards + "Altri Argomenti"]
+FixCity:          [4 Cards + "Altri Argomenti"]
                    ✅ MATCH
 ```
 
@@ -224,7 +224,7 @@ Bootstrap Italia:  [4 Cards + "Altri Argomenti"]
 
 ## ✅ Conclusione
 
-La homepage <nome progetto> **È CONFORME** al design Bootstrap Italia.
+La homepage FixCity **È CONFORME** al design Bootstrap Italia.
 
-URL di test: http://<nome progetto>.local/it/tests/homepage
+URL di test: http://fixcity.local/it/tests/homepage
 URL di test: http://ptv.local/it/tests/homepage

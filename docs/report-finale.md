@@ -1,13 +1,13 @@
 ---
-title: "📊 Report Finale - <nome progetto> Sixteen Theme"
+title: "📊 Report Finale - FixCity Sixteen Theme"
 type: concept
 tags: [report, finale]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "report-finale 📊 report finale - <nome progetto> sixteen theme"
+qmd: "report-finale 📊 report finale - fixcity sixteen theme"
 qmd: "report-finale 📊 report finale - ptv sixteen theme"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -19,10 +19,10 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-# 📊 Report Finale - <nome progetto> Sixteen Theme
+# 📊 Report Finale - FixCity Sixteen Theme
 
 ## 🎯 Obiettivo Completato
-Creazione pagine mancanti per il tema Sixteen (<nome progetto>) utilizzando metodologie avanzate (GSD, Ralph Loop, BMAD, OpenVikings, NotebookLM).
+Creazione pagine mancanti per il tema Sixteen (FixCity) utilizzando metodologie avanzate (GSD, Ralph Loop, BMAD, OpenVikings, NotebookLM).
 
 ---
 
@@ -236,7 +236,7 @@ Themes/Sixteen/resources/views/pages/
 - NotebookLM - Pattern recognition
 
 **Tecnologie:**
-- Laravel 13
+- Laravel 12
 - Filament 5
 - Livewire 4
 - Tailwind CSS
@@ -247,8 +247,8 @@ Themes/Sixteen/resources/views/pages/
 ## 📞 Contatti
 
 Per informazioni:
-- **Repository**: `/var/www/_bases/<repo progetto>`
-- **Repository**: `/var/www/_bases/<repo progetto>`
+- **Repository**: `/var/www/_bases/base_fixcity_fila5`
+- **Repository**: `/var/www/_bases/base_ptv_fila5`
 - **Tema**: `Themes/Sixteen`
 - **Documentazione**: `docs/pagine-create.md`
 

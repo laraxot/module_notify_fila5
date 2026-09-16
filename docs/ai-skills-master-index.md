@@ -5,8 +5,8 @@ tags: [skills, master, index]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ai-skills-master-index ai skills master index"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -24,7 +24,7 @@ related:
 
 ## 🎯 Panoramica
 
-Questa documentazione elenca tutte le skill AI installate e configurate per il progetto <nome progetto> Fila5. Le skill potenziano gli agenti AI con conoscenze specializzate per UI/UX design, sviluppo, e task specifici.
+Questa documentazione elenca tutte le skill AI installate e configurate per il progetto FixCity Fila5. Le skill potenziano gli agenti AI con conoscenze specializzate per UI/UX design, sviluppo, e task specifici.
 
 ---
 
@@ -285,8 +285,8 @@ Skills activate automatically when the agent detects relevant tasks:
 ### Directory Structure
 
 ```
-/var/www/_bases/<repo progetto>/
-/var/www/_bases/<repo progetto>/
+/var/www/_bases/base_fixcity_fila5/
+/var/www/_bases/base_ptv_fila5/
 ├── skills/
 │   ├── ui-ux-pro-max/
 │   │   └── SKILL.md
@@ -358,8 +358,8 @@ Context: "Make it beautiful"
 ### Install UI/UX Pro Max
 
 ```bash
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptv_fila5
 mkdir -p skills/ui-ux-pro-max
 # SKILL.md already exists in skills/ui-ux-pro-max/
 ```
@@ -367,8 +367,8 @@ mkdir -p skills/ui-ux-pro-max
 ### Install Taste Skill
 
 ```bash
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptv_fila5
 mkdir -p skills/taste
 # SKILL.md already exists in skills/taste/
 ```
@@ -376,8 +376,8 @@ mkdir -p skills/taste
 ### Install Anthropic Skills
 
 ```bash
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptv_fila5
 mkdir -p skills/anthropic
 # SKILL.md already exists in skills/anthropic/
 ```
@@ -385,8 +385,8 @@ mkdir -p skills/anthropic
 ### Install Vercel Agent Skills (Optional)
 
 ```bash
-cd /var/www/_bases/<repo progetto>
-cd /var/www/_bases/<repo progetto>
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptv_fila5
 npx skills add vercel-labs/agent-skills
 ```
 

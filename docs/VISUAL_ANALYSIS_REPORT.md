@@ -257,7 +257,7 @@ MODULE INDEX        THEME INDEX      ARCHITECTURE
 ### Documentation Metrics
 
 ```
-PROJECT: <nome progetto> Fila5
+PROJECT: FixCity Fila5
 ANALYSIS DATE: 2026-04-02
 
 DOCUMENTATION FILES
@@ -432,7 +432,7 @@ TASK: "Understand system architecture"
 
 ```
 Filesystem Server
-└─ Reads: /var/www/_bases/<repo progetto>/
+└─ Reads: /var/www/_bases/base_ptv_fila5/
    └─ Indexes all docs
    └─ Enables fast file navigation
 
@@ -468,7 +468,7 @@ Memory Server
 
 ```
 ┌──────────────────────────────────────────────┐
-│  <nome progetto> Documentation Health Dashboard      │
+│  FixCity Documentation Health Dashboard      │
 ├──────────────────────────────────────────────┤
 │                                              │
 │ Overall Health:        ████████████ 95% ✅   │

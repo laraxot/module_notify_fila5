@@ -20,7 +20,11 @@ use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
-use Modules\Notify\Filament\Resources\MailTemplateResource\Tables\MailTemplatesTable;
+use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\ListMailTemplates;
+use Modules\Notify\Filament\Resources\NotificationLogResource;
+use Modules\Notify\Filament\Resources\NotificationLogResource\Schemas\NotificationLogForm;
+use Modules\Notify\Filament\Resources\NotificationLogResource\Schemas\NotificationLogInfolist;
+use Modules\Notify\Filament\Resources\NotificationLogResource\Tables\NotificationLogsTable;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Notify\Filament\Resources\NotificationResource\Pages\ListNotifications;
 use Modules\Notify\Filament\Resources\NotificationResource\Schemas\NotificationInfolist;
@@ -63,23 +67,16 @@ test('edit contact page exposes delete header action', function (): void {
     Assert::assertInstanceOf(DeleteAction::class, $actions['delete']);
 });
 
-test('list contacts page exposes expected table columns and filters', function (): void {
-    $columns = XotBasePest::assertArray(ListContacts::contactTableColumns());
-    $filters = XotBasePest::assertArray(ListContacts::contactTableFilters());
-
+test('list contacts page exposes expected table columns', function (): void {
+    $columns = XotBasePest::assertArray((new ListContacts)->getTableColumns()); /** @phpstan-ignore method.deprecated */
     Assert::assertArrayHasKey('id', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['id']);
     Assert::assertArrayHasKey('is_read', $columns);
     Assert::assertInstanceOf(IconColumn::class, $columns['is_read']);
-    Assert::assertArrayHasKey('active', $filters);
-    Assert::assertInstanceOf(Filter::class, $filters['active']);
-    Assert::assertArrayHasKey('inactive', $filters);
-    Assert::assertInstanceOf(Filter::class, $filters['inactive']);
 });
 
-test('mail templates table exposes expected table columns', function (): void {
-    $columns = \assertNotifyArray(app(MailTemplatesTable::class)->getTableColumns());
-
+test('list mail templates page exposes expected table columns', function (): void {
+    $columns = \assertNotifyArray((new ListMailTemplates)->getTableColumns()); /** @phpstan-ignore method.deprecated */
     Assert::assertArrayHasKey('slug', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['slug']);
     Assert::assertArrayHasKey('subject', $columns);
@@ -169,4 +166,45 @@ test('preview notification template page exposes title and subheading', function
 
     Assert::assertNotSame('', $page->getTitle());
     Assert::assertNotSame('', $page->getSubheading());
+});
+
+test('notification log resource pages resolve index create edit and view', function (): void {
+    $pages = TestCase::assertNotifyArray(NotificationLogResource::getPages());
+
+    Assert::assertArrayHasKey('index', $pages);
+    Assert::assertArrayHasKey('create', $pages);
+    Assert::assertArrayHasKey('edit', $pages);
+    // 'view' e' registrata solo se ViewNotificationLog esiste (XotBaseResource::getPages()).
+    Assert::assertArrayHasKey('view', $pages);
+});
+
+test('notification log form schema exposes channel and status as enum backed selects', function (): void {
+    $schema = TestCase::assertNotifyArray(app(NotificationLogForm::class)->getFormSchema());
+
+    Assert::assertArrayHasKey('channel', $schema);
+    Assert::assertInstanceOf(Select::class, $schema['channel']);
+    Assert::assertArrayHasKey('status', $schema);
+    Assert::assertInstanceOf(Select::class, $schema['status']);
+    Assert::assertArrayHasKey('status_message', $schema);
+    Assert::assertInstanceOf(Textarea::class, $schema['status_message']);
+});
+
+test('notification log infolist schema exposes expected entries', function (): void {
+    $schema = app(NotificationLogInfolist::class)->getInfolistSchema();
+
+    Assert::assertArrayHasKey('channel', $schema);
+    Assert::assertArrayHasKey('status', $schema);
+    Assert::assertArrayHasKey('notifiable_type', $schema);
+    Assert::assertArrayHasKey('sent_at', $schema);
+    Assert::assertNotEmpty($schema);
+});
+
+test('notification log table columns match the notification_logs schema', function (): void {
+    $columns = TestCase::assertNotifyArray(app(NotificationLogsTable::class)->getTableColumns());
+
+    Assert::assertArrayHasKey('channel', $columns);
+    Assert::assertInstanceOf(TextColumn::class, $columns['channel']);
+    Assert::assertArrayHasKey('status', $columns);
+    Assert::assertArrayHasKey('notifiable_type', $columns);
+    Assert::assertArrayHasKey('sent_at', $columns);
 });

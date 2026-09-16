@@ -1,4 +1,4 @@
-# Copilot Instructions for <nome progetto>
+# Copilot Instructions for FixCity
 
 This file helps Copilot sessions work effectively in this repository. It captures essential commands, architecture, conventions, and critical patterns to maintain code quality and consistency.
 
@@ -50,7 +50,7 @@ npm run quality:eslint       # JavaScript/TypeScript only
 
 ### Project Structure
 - **Document Root**: `public_html/` (NOT `public/`)
-- **Laravel App**: `laravel/` (Laravel 13, Filament 5, Livewire 3)
+- **Laravel App**: `laravel/` (Laravel 12, Filament 5, Livewire 3)
 - **Modules**: `laravel/Modules/*/` (19 modules using nwidart/laravel-modules)
 - **Themes**: `laravel/Themes/*/` (Active: "Sixteen", alt: "TwentyOne")
 - **Bash Scripts**: `bashscripts/<category>/` (organized by function)
@@ -72,7 +72,7 @@ The theme detection algorithm reads `.env` to determine the active theme:
 - **Tenant**: Multi-tenancy support
 - **Media**: File management
 - **Activity**: Activity logging
-- **AI**, **Job**, **Notify**, **Lang**, **Geo**, **Gdpr**, **Rating**, **Blog**, **<nome progetto>**, **Comment**, **Seo**
+- **AI**, **Job**, **Notify**, **Lang**, **Geo**, **Gdpr**, **Rating**, **Blog**, **Fixcity**, **Comment**, **Seo**
 
 ### Filament + Folio + Volt Architecture
 - **Folio**: File-based routing (pages directory)
@@ -418,4 +418,4 @@ This project supports **simultaneous work by multiple AI agents**. When working:
 
 **Last Updated**: See git history for changelog  
 **Version**: Copilot-native  
-**Framework**: Laravel 13 + Filament 5 + Livewire 3 + nwidart/laravel-modules
+**Framework**: Laravel 12 + Filament 5 + Livewire 3 + nwidart/laravel-modules

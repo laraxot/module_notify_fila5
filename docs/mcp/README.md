@@ -21,7 +21,7 @@ related:
 
 > **Last Updated**: 2026-03-13  
 > **Status**: 🔄 In Progress  
-> **Repository**: <nome progetto> Platform
+> **Repository**: FixCity Platform
 > **Repository**: Notify Platform
 
 ---
@@ -325,6 +325,6 @@ To contribute to MCP configuration:
 ---
 
 **Maintainer**: @marco76tv  
-**Contact**: dev @<nome progetto>.example.com  
+**Contact**: dev @fixcity.example.com  
 **Contact**: dev @laraxot.example.com  
 **Last Tested**: 2026-03-13

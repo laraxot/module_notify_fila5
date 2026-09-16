@@ -41,7 +41,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### 5. Screenshot Comparison
 - [ ] Screenshot originale
-- [ ] Screenshot <nome progetto>
+- [ ] Screenshot FixCity
 - [ ] Analisi differenze
 - [ ] Save in `laravel/Themes/Sixteen/docs/design-comuni/screenshots/[pagina-name]/`
 - [ ] Creare `[pagina-name]-comparison.md` con analisi e fix
@@ -75,7 +75,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### Header
 - **Originale**: [Link]
-- **<nome progetto>**: [Link]
+- **FixCity**: [Link]
 - **Differenze**:
   - Colori: ❌ Diversi
   - Logo: ❌ Non visibile
@@ -84,7 +84,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### Footer
 - **Originale**: [Link]
-- **<nome progetto>**: [Link]
+- **FixCity**: [Link]
 - **Differenze**:
   - Layout: ❌ Diverso
   - Link: ❌ Mancanti
@@ -92,7 +92,7 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### Content
 - **Originale**: [Link]
-- **<nome progetto>**: [Link]
+- **FixCity**: [Link]
 - **Differenze**: ...
 - **Fix Richiesti**: ...
 

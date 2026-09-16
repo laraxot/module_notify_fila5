@@ -1,6 +1,6 @@
-# 🗺️ <nome progetto> - Master Roadmap Index
+# 🗺️ FixCity - Master Roadmap Index
 
-**Progetto**: <nome progetto> - Piattaforma Segnalazione Cittadina  
+**Progetto**: FixCity - Piattaforma Segnalazione Cittadina  
 **Data Creazione**: 1 Ottobre 2025  
 **Stato PHPStan**: 83% completato (15/18 moduli a 0 errori)  
 **Completezza Funzionale**: 85%
@@ -24,7 +24,7 @@
 
 | Modulo | Files | PHPStan | Roadmap |
 |--------|-------|---------|---------|
-| **<nome progetto>** | ~200 | ✅ 0 | [→ Roadmap](../Modules/<nome progetto>/docs/roadmap-and-issues.md) ⭐ |
+| **Fixcity** | ~200 | ✅ 0 | [→ Roadmap](../Modules/Fixcity/docs/roadmap-and-issues.md) ⭐ |
 | **UI** | 242 | ✅ 0 | [→ Roadmap](../Modules/UI/docs/roadmap-and-issues.md) |
 | **AI** | 19 | ✅ 0 | [→ Roadmap](../Modules/AI/docs/roadmap-and-issues.md) ⭐ |
 | **Geo** | ~100 | ✅ 0 | [→ Roadmap](../Modules/Geo/docs/roadmap-and-issues.md) |
@@ -59,14 +59,14 @@
 ### 1. 🔴 Performance: N+1 Queries
 
 **Moduli Affetti**:
-- ✅ **<nome progetto>**: 3 N+1 identificati (vedi roadmap)
+- ✅ **Fixcity**: 3 N+1 identificati (vedi roadmap)
 - ⚠️ **User**: Potential issues da verificare
 - ⚠️ **Activity**: Large tables, optimizations needed
 
 **Impatto Totale**: 200ms-1s per request
 
 **Piano**:
-1. Fix <nome progetto> N+1 (questa settimana)
+1. Fix Fixcity N+1 (questa settimana)
 2. Audit completo User queries (domani)
 3. Activity table partitioning (prossimo mese)
 
@@ -90,7 +90,7 @@
 **Aree Senza Caching**:
 - Geocoding results (Geo module)
 - AI Completions (AI module)
-- Dashboard stats (<nome progetto>)
+- Dashboard stats (Fixcity)
 - User permissions (User module)
 
 **Impatto**: API calls ripetuti, performance degradata
@@ -101,7 +101,7 @@
 
 ### 4. 🟢 TODO Code - 2 Trovati
 
-**<nome progetto> Module**:
+**Fixcity Module**:
 1. Map Picker installation (ALTA priorità)
 2. Delayed notifications (MEDIA priorità)
 
@@ -115,7 +115,7 @@
 
 **Obiettivi**:
 1. ✅ PHPStan 100% (Xot + User) - 8.5h
-2. 🎯 Fix <nome progetto> N+1 queries - 1h
+2. 🎯 Fix Fixcity N+1 queries - 1h
 3. 🎯 Add database indexes - 1h
 4. 🎯 Install Map Picker - 1h
 5. 🎯 Cleanup code comments - 30min
@@ -226,7 +226,7 @@
 - [📖 PHPStan Index](./phpstan/phpstan.md)
 
 ### Module Roadmaps (Dettagliate)
-- [🎯 <nome progetto> Roadmap](../Modules/<nome progetto>/docs/roadmap-and-issues.md) ⭐ CORE
+- [🎯 Fixcity Roadmap](../Modules/Fixcity/docs/roadmap-and-issues.md) ⭐ CORE
 - [⚙️ Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md) ⭐ FRAMEWORK
 - [👥 User Roadmap](../Modules/User/docs/roadmap-and-issues.md) ⭐ AUTH
 - [🤖 AI Roadmap](../Modules/AI/docs/roadmap-and-issues.md) ⭐ AI FEATURES
@@ -294,7 +294,7 @@
 **Creato**: 1 Ottobre 2025  
 **Prossimo Review**: 1 Novembre 2025  
 **Status**: 📊 TRACCIAMENTO ATTIVO  
-**Owner**: Team <nome progetto>
+**Owner**: Team FixCity
 
 ---
 

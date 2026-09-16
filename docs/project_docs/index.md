@@ -1,12 +1,12 @@
 ---
-title: "📚 Documentation Index - <nome progetto> Project"
+title: "📚 Documentation Index - FixCity Project"
 title: "📚 Documentation Index - Notify Project"
 type: index
 tags: [notify, docs, project_docs]
 module: Notify
 created: 2026-07-20
 updated: 2026-07-20
-qmd: "notify documentazione project_docs index 📚 documentation index - <nome progetto> project index readme frontmatter qmd search"
+qmd: "notify documentazione project_docs index 📚 documentation index - fixcity project index readme frontmatter qmd search"
 qmd: "notify documentazione project_docs index 📚 documentation index - laraxot project index readme frontmatter qmd search"
 issues:
   - "https://github.com/laraxot/module_notify_fila5/issues/56"
@@ -19,7 +19,7 @@ related:
   - ../integrations/readme.md
   - ../templates/readme.md
 ---
-# 📚 Documentation Index - <nome progetto> Project
+# 📚 Documentation Index - FixCity Project
 # 📚 Documentation Index - Notify Project
 
 **Last Updated:** 2025-10-01 21:47  
@@ -170,7 +170,7 @@ Each module has a `docs/` directory containing:
 - [Extensive documentation](../Modules/User/docs/)
 
 #### Other Modules
-- AI, Activity, Blog, Cms, Comment, <nome progetto>, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
+- AI, Activity, Blog, Cms, Comment, Fixcity, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
 - AI, Activity, Blog, Cms, Comment, App, Gdpr, Geo, Job, Lang, Media, Notify, Rating, Seo, UI
 - Each with cyclomatic complexity report
 
@@ -450,7 +450,7 @@ All documents include:
 ## 📞 Contact
 
 ### Documentation Team
-- **Email:** docs@<nome progetto>.com
+- **Email:** docs@fixcity.com
 - **Email:** docs@laraxot.com
 - **GitHub:** Open an issue
 - **Slack:** #documentation

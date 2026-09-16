@@ -23,7 +23,7 @@ return view($viewName, $viewParams);
 
 ```php
 /** @phpstan-var view-string $viewName */
-$viewName = '<nome progetto>::components.blocks.ticket-list';
+$viewName = 'fixcity::components.blocks.ticket-list';
 $viewName = 'ptv::components.blocks.ticket-list';
 $viewParams = [
     'tickets' => $this->tickets,

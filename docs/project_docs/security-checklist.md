@@ -1,14 +1,14 @@
 ---
-title: "🔒 <nome progetto> Security Checklist"
+title: "🔒 FixCity Security Checklist"
 title: "🔒 Notify Security Checklist"
 type: concept
 tags: [security, checklist]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "security-checklist 🔒 <nome progetto> security checklist"
+qmd: "security-checklist 🔒 fixcity security checklist"
 qmd: "security-checklist 🔒 laraxot security checklist"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2025-excellence-achievement.md"
   - "./agid-implementation-guide.md"
@@ -20,7 +20,7 @@ related:
   - "./final-implementation-report.md"
 ---
 
-# 🔒 <nome progetto> Security Checklist
+# 🔒 FixCity Security Checklist
 # 🔒 Notify Security Checklist
 
 **Status**: Production Ready
@@ -419,9 +419,9 @@ Overall Security Score: 92/100
 
 ## 📞 Security Contacts
 
-**Security Team Lead**: security@<nome progetto>.it  
+**Security Team Lead**: security@fixcity.it  
 **Emergency Contact**: +39 06 1234 5678  
-**Incident Reporting**: incidents@<nome progetto>.it
+**Incident Reporting**: incidents@fixcity.it
 
 ---
 

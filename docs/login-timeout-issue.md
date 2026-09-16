@@ -5,8 +5,8 @@ tags: [login, timeout, issue]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "login-timeout-issue 🚨 problema timeout pagina login - diagnosi e soluzione"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -82,8 +82,8 @@ protected string $view = 'pub_theme::filament.widgets.auth.login';
 
 ```bash
 # Verificare configurazione tema
-cd /var/www/_bases/<repo progetto>/laravel
-cd /var/www/_bases/<repo progetto>/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
 php artisan config:cache
 php artisan view:cache
 ```
@@ -132,8 +132,8 @@ public function mount(): void
 ### Soluzione 5: Cache Viste
 
 ```bash
-cd /var/www/_bases/<repo progetto>/laravel
-cd /var/www/_bases/<repo progetto>/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
 
 # Clear tutti i cache
 php artisan cache:clear
@@ -155,8 +155,8 @@ php artisan view:cache
 
 ```bash
 # Verificare che esista
-ls -la /var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
-ls -la /var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
+ls -la /var/www/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
+ls -la /var/www/_bases/base_ptv_fila5_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
 ```
 
 ✅ **File esiste**: Abbiamo verificato che c'è
@@ -165,8 +165,8 @@ ls -la /var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/resources/views/fi
 
 ```bash
 # Cercare dove è definito pub_theme
-cd /var/www/_bases/<repo progetto>/laravel
-cd /var/www/_bases/<repo progetto>/laravel
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
 grep -r "pub_theme" config/ app/Providers/
 ```
 

@@ -19,8 +19,8 @@ Modules and themes are **reusable components** that should work across multiple 
 
 **❌ WRONG** (Project-specific):
 ```markdown
-# <nome progetto> Pages Content Blocks
-This guide covers <nome progetto> platform pages...
+# FixCity Pages Content Blocks
+This guide covers FixCity platform pages...
 ```
 
 **✅ CORRECT** (Agnostic):
@@ -36,18 +36,18 @@ Replace specific names with placeholders:
 
 | Instead Of | Use |
 |------------|-----|
-| `<nome progetto>` | `[PROJECT_NAME]` or `[Platform Name]` |
-| `<nome progetto>.local` | `[DOMAIN]` or `your-project.local` |
-| `<nome progetto>::` | `module_name::` or `your_module::` |
+| `FixCity` | `[PROJECT_NAME]` or `[Platform Name]` |
+| `fixcity.local` | `[DOMAIN]` or `your-project.local` |
+| `fixcity::` | `module_name::` or `your_module::` |
 | `ptv.local` | `[DOMAIN]` or `your-project.local` |
 | `ptv::` | `module_name::` or `your_module::` |
-| `laravel/Modules/<nome progetto>` | `laravel/Modules/[ModuleName]` |
+| `laravel/Modules/Fixcity` | `laravel/Modules/[ModuleName]` |
 
 ### 3. File Naming
 
 **❌ WRONG**:
-- `<nome progetto>-pages-content-blocks.md`
-- `<nome progetto>-integration.md`
+- `fixcity-pages-content-blocks.md`
+- `fixcity-integration.md`
 - `ptv-pages-content-blocks.md`
 - `ptv-integration.md`
 - `project-name-setup.md`
@@ -61,9 +61,9 @@ Replace specific names with placeholders:
 
 **❌ WRONG**:
 ```php
-namespace Modules\<nome progetto>\Models;
-route('<nome progetto>.tickets.index')
-config('<nome progetto>.settings')
+namespace Modules\Fixcity\Models;
+route('fixcity.tickets.index')
+config('fixcity.settings')
 route('ptv.tickets.index')
 config('ptv.settings')
 ```
@@ -81,9 +81,9 @@ When linking to other docs, use **relative paths** without project names:
 
 **❌ WRONG**:
 ```markdown
-- [<nome progetto> Integration](../../<nome progetto>/docs/roadmap.md)
-- [<nome progetto> Integration](../../ptv/docs/roadmap.md)
-- [See <nome progetto> Module](../../../Modules/<nome progetto>/docs/)
+- [FixCity Integration](../../fixcity/docs/roadmap.md)
+- [FixCity Integration](../../ptv/docs/roadmap.md)
+- [See Fixcity Module](../../../Modules/Fixcity/docs/)
 ```
 
 **✅ CORRECT**:
@@ -119,7 +119,7 @@ For existing documentation:
 
 Before committing documentation changes, verify:
 
-- [ ] No project-specific names (<nome progetto>, YourProject, etc.)
+- [ ] No project-specific names (FixCity, YourProject, etc.)
 - [ ] Generic placeholders used consistently
 - [ ] File names are project-agnostic
 - [ ] Examples use generic module/resource names
@@ -127,7 +127,7 @@ Before committing documentation changes, verify:
 
 ## Enforcement
 
-- **Pre-commit check**: Run `grep -r "<nome progetto>" Modules/*/docs/ Themes/*/docs/` to catch violations
+- **Pre-commit check**: Run `grep -r "FixCity" Modules/*/docs/ Themes/*/docs/` to catch violations
 - **Code review**: Reject PRs with project-specific docs in generic modules
 - **Documentation audit**: Periodic review of module/theme docs
 
@@ -151,7 +151,7 @@ Modules/
 ├── Cms/
 │   └── docs/
 │       ├── README.md              # Generic CMS module docs
-│       ├── pages-content-blocks.md  # No "<nome progetto>" references
+│       ├── pages-content-blocks.md  # No "FixCity" references
 │       └── content-management.md  # Project-agnostic
 └── User/
     └── docs/

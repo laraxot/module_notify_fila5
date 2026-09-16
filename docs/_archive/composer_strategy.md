@@ -43,7 +43,7 @@ Ogni modulo gestisce le proprie dipendenze:
 
 ```json
 {
-    "name": "<nome progetto>/module-name",
+    "name": "fixcity/module-name",
     "name": "ptv/module-name",
     "require": {
         "php": "^8.2",
@@ -212,7 +212,7 @@ composer update
 
 ```json
 {
-    "name": "<nome progetto>/cms-module",
+    "name": "fixcity/cms-module",
     "name": "ptv/cms-module",
     "require": {
         "php": "^8.2",

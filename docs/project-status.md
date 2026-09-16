@@ -1,13 +1,13 @@
 ---
-title: "<nome progetto> Platform - Project Status Report"
+title: "FixCity Platform - Project Status Report"
 type: concept
 tags: [project, status]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "project-status <nome progetto> platform - project status report"
+qmd: "project-status fixcity platform - project status report"
 qmd: "project-status ptv platform - project status report"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -19,7 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-# <nome progetto> Platform - Project Status Report
+# FixCity Platform - Project Status Report
 
 **Data**: 2025-01-01  
 **Versione**: 1.0.0-alpha  
@@ -29,7 +29,7 @@ related:
 
 | Modulo | Status | Completamento | Priorità | Owner |
 |--------|--------|---------------|----------|-------|
-| **<nome progetto>** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
+| **Fixcity** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
 | **User** | 🟢 Stable | 75% | 🔴 Critical | Security Team |
 | **Xot** | 🟢 Stable | 80% | 🔴 Critical | Core Team |
 | **Notify** | 🟡 In Progress | 50% | 🟠 High | Notification Team |
@@ -113,8 +113,8 @@ related:
 - ✅ Master Plan strategico 2025-2026 creato
 
 ### Dicembre 2024
-- ✅ Upgraded to Laravel 13
-- ✅ Migrated to Filament 5
+- ✅ Upgraded to Laravel 12
+- ✅ Migrated to Filament 4
 - ✅ Implemented OAuth2 with Passport
 - ✅ Enhanced geolocation features
 
@@ -196,6 +196,6 @@ related:
 
 **Report Generated**: 2025-01-01  
 **Next Update**: 2025-01-15  
-**Contact**: development@<nome progetto>.io
+**Contact**: development@fixcity.io
 **Contact**: development@ptv.io
 

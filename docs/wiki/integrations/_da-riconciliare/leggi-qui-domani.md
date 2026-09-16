@@ -57,13 +57,13 @@ Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 4. `MainDashboard.php:44,48` - Fix property access (15 min)
 5. `XotBasePage.php:127` - Fix getModel() type (10 min)
 6. `XotBaseRelationManager.php:107` - Type narrowing (15 min)
-7. `XotBaseResource.php:98` - Filament 5 compatibility (45 min)
+7. `XotBaseResource.php:98` - Filament 4 compatibility (45 min)
 
 **Guida**: [Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md)
 
 **Comando verifica**:
 ```bash
-cd /var/www/_bases/<nome repitory>/laravel
+cd /var/www/_bases/<nome repitory>_mono/laravel
 ./vendor/bin/phpstan analyse Modules/Xot --memory-limit=-1
 ```
 
@@ -131,7 +131,7 @@ cd /var/www/_bases/<nome repitory>/laravel
 
 **Verifica Completa**:
 ```bash
-cd /var/www/_bases/<nome repitory>/laravel
+cd /var/www/_bases/<nome repitory>_mono/laravel
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 ```
 
@@ -205,7 +205,7 @@ php artisan test --filter=BaseUserTest
 - ❌ Non usare `->label()`, `->placeholder()`, `->tooltip()`
 
 ### ✅ Sempre Fare
-- ✅ Eseguire da `/var/www/_bases/<nome repitory>/laravel/`
+- ✅ Eseguire da `/var/www/_bases/<nome repitory>_mono/laravel/`
 - ✅ Verificare ogni fix con PHPStan
 - ✅ Usare sempre classi XotBase
 - ✅ Aggiornare docs dopo ogni correzione
@@ -312,14 +312,14 @@ Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 4. `MainDashboard.php:44,48` - Fix property access (15 min)
 5. `XotBasePage.php:127` - Fix getModel() type (10 min)
 6. `XotBaseRelationManager.php:107` - Type narrowing (15 min)
-7. `XotBaseResource.php:98` - Filament 5 compatibility (45 min)
+7. `XotBaseResource.php:98` - Filament 4 compatibility (45 min)
 
 **Guida**: [Xot Roadmap](../Modules/Xot/docs/roadmap-and-issues.md)
 
 **Comando verifica**:
 ```bash
 cd /var/www/_bases/<nome repository>/laravel
-cd /var/www/_bases/<nome repitory>/laravel
+cd /var/www/_bases/<nome repitory>_mono/laravel
 ./vendor/bin/phpstan analyse Modules/Xot --memory-limit=-1
 ```
 
@@ -388,7 +388,7 @@ cd /var/www/_bases/<nome repitory>/laravel
 **Verifica Completa**:
 ```bash
 cd /var/www/_bases/<nome repository>/laravel
-cd /var/www/_bases/<nome repitory>/laravel
+cd /var/www/_bases/<nome repitory>_mono/laravel
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 ```
 
@@ -463,7 +463,7 @@ php artisan test --filter=BaseUserTest
 
 ### ✅ Sempre Fare
 - ✅ Eseguire da `/var/www/_bases/<nome repository>/laravel/`
-- ✅ Eseguire da `/var/www/_bases/<nome repitory>/laravel/`
+- ✅ Eseguire da `/var/www/_bases/<nome repitory>_mono/laravel/`
 - ✅ Verificare ogni fix con PHPStan
 - ✅ Usare sempre classi XotBase
 - ✅ Aggiornare docs dopo ogni correzione

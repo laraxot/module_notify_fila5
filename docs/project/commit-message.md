@@ -5,8 +5,8 @@ tags: [commit, message]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "commit-message feat: phpstan max level - codice produzione a 0 errori"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2-1-1-plan.md"
   - "./2-1-context.md"

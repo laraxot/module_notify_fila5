@@ -4333,7 +4333,7 @@ return [
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/_bases/<nome repository>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila5/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected

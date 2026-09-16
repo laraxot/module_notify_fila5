@@ -12,7 +12,6 @@ use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Modules\Xot\Contracts\ProfileContract;
-use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
@@ -124,7 +123,6 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
-    #[Override]
     protected function casts(): array
     {
         return [

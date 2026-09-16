@@ -5,8 +5,8 @@ tags: [project]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "project project: laraxot platform"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./2-1-1-plan.md"
   - "./2-1-context.md"
@@ -31,7 +31,7 @@ Transform Notify from a functional MVP to a national-scale enterprise-ready plat
 - AI-powered automation for categorization and duplicate detection.
 
 ## Stack
-- Laravel 13
+- Laravel 12
 - Filament v5
 - Folio (Routing)
 - Volt (Livewire Components)
@@ -40,7 +40,7 @@ Transform Notify from a functional MVP to a national-scale enterprise-ready plat
 - BMAD & GSD Methodologies
 
 ## Context
-- Project: <repo progetto>
+- Project: base_ptvx_fila5
 - Language: PHP 8.3
 - Date: March 2026
 

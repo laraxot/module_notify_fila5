@@ -1,4 +1,4 @@
-# 🔍 <nome progetto> - GAP ANALYSIS & IMPLEMENTATION PLAN
+# 🔍 FIXCITY - GAP ANALYSIS & IMPLEMENTATION PLAN
 
 **Data**: 2025-10-01  
 **Scopo**: Identificare e implementare tutte le features mancanti per eccellenza 2025  
@@ -9,7 +9,7 @@
 ## 🎯 SCOPO DEL PROGETTO
 
 ### Business Goal
-**<nome progetto>** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette ai cittadini di segnalare problemi (buche, illuminazione, rifiuti, etc.) e agli amministratori comunali di gestirle efficacemente.
+**FixCity** è una piattaforma enterprise per la gestione delle segnalazioni urbane che permette ai cittadini di segnalare problemi (buche, illuminazione, rifiuti, etc.) e agli amministratori comunali di gestirle efficacemente.
 
 ### Target Users
 1. **Cittadini** - Segnalano problemi urbani
@@ -41,7 +41,7 @@
 
 **Files da creare/modificare**:
 ```
-Modules/<nome progetto>/
+Modules/Fixcity/
 ├── Jobs/GeocodeTicketAddressJob.php          [NEW]
 ├── Repositories/TicketRepository.php         [NEW]
 ├── Filament/Resources/Pages/ListTickets.php  [MODIFY]
@@ -60,7 +60,7 @@ Modules/<nome progetto>/
 
 **Files da creare**:
 ```
-Modules/<nome progetto>/
+Modules/Fixcity/
 ├── Http/Controllers/Api/V1/
 │   ├── TicketController.php                  [NEW]
 │   ├── CategoryController.php                [NEW]
@@ -82,7 +82,7 @@ Modules/<nome progetto>/
 
 **Files da creare**:
 ```
-Modules/<nome progetto>/Tests/Feature/
+Modules/Fixcity/Tests/Feature/
 ├── CreateTicketTest.php                      [NEW]
 ├── UpdateTicketTest.php                      [NEW]
 ├── AssignTicketTest.php                      [NEW]
@@ -166,7 +166,7 @@ laravel/Themes/Sixteen/
 
 **Files da creare**:
 ```
-Modules/<nome progetto>/Filament/Widgets/
+Modules/Fixcity/Filament/Widgets/
 ├── TicketTrendsWidget.php                    [NEW]
 ├── GeographicHeatmapWidget.php               [NEW]
 ├── PerformanceMetricsWidget.php              [NEW]
@@ -184,7 +184,7 @@ Modules/<nome progetto>/Filament/Widgets/
 
 **Files da creare**:
 ```
-Modules/<nome progetto>/
+Modules/Fixcity/
 ├── Jobs/AutoAssignTicketJob.php              [NEW]
 ├── Jobs/EscalateOverdueTicketsJob.php        [NEW]
 ├── Models/Zone.php                           [NEW]
@@ -203,7 +203,7 @@ Modules/<nome progetto>/
 **Files da creare/modificare**:
 ```
 lang/en/
-├── <nome progetto>.php                               [NEW]
+├── fixcity.php                               [NEW]
 ├── ptv.php                               [NEW]
 ├── user.php                                  [NEW]
 └── validation.php                            [NEW]

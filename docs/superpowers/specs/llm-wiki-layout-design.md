@@ -7,8 +7,8 @@ updated: 2026-07-14
 qmd: "2026-04-15-llm-wiki-layout-design deprecated"
 status: deprecated
 related:
-  - "./<nome progetto>-hero-marketing-1.md"
-  - "./<nome progetto>-hero-marketing.md"
+  - "./fixcity-hero-marketing-1.md"
+  - "./fixcity-hero-marketing.md"
   - "./ptv-hero-marketing-1.md"
   - "./ptv-hero-marketing.md"
   - "./llm-wiki-layout-design-1.md"

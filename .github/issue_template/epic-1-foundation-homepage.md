@@ -11,7 +11,7 @@ milestone: 'v1.0 - Design Comuni Replication'
 Replicate the Design Comuni homepage achieving 100% HTML and visual parity with the original template.
 
 **Source**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html  
-**Target**: http://<nome progetto>.local/it/tests/homepage  
+**Target**: http://fixcity.local/it/tests/homepage  
 **Target**: http://ptv.local/it/tests/homepage  
 **Timeline**: Weeks 1-2 (April 1-14, 2026)  
 **Status**: 🟡 IN PROGRESS
@@ -23,7 +23,7 @@ Replicate the Design Comuni homepage achieving 100% HTML and visual parity with 
 ### Primary Goal
 Achieve 100% HTML parity (inside `<body>` tag, excluding scripts) between:
 - ✅ Source: `view-source:https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html`
-- ✅ Target: `view-source:http://<nome progetto>.local/it/tests/homepage`
+- ✅ Target: `view-source:http://fixcity.local/it/tests/homepage`
 - ✅ Target: `view-source:http://ptv.local/it/tests/homepage`
 
 ### Secondary Goals
@@ -76,14 +76,14 @@ laravel/Themes/Sixteen/
 ```json
 {
   "slug": "tests.homepage",
-  "title": "Homepage - Comune di <nome progetto>",
-  "meta_description": "Sito ufficiale del Comune di <nome progetto>",
+  "title": "Homepage - Comune di FixCity",
+  "meta_description": "Sito ufficiale del Comune di FixCity",
   "blocks": [
     {
       "type": "header",
       "view": "pub_theme::components.blocks.header.main",
       "data": {
-        "institution_name": "Comune di <nome progetto>",
+        "institution_name": "Comune di FixCity",
         "tagline": "Un comune da vivere",
         "logo_url": "/themes/sixteen/images/logo.svg"
       }
@@ -92,7 +92,7 @@ laravel/Themes/Sixteen/
       "type": "hero",
       "view": "pub_theme::components.blocks.hero.default",
       "data": {
-        "title": "Benvenuto nel Comune di <nome progetto>",
+        "title": "Benvenuto nel Comune di FixCity",
         "subtitle": "Scopri i servizi, le novità e le opportunità",
         "background_image": "/images/hero-bg.jpg"
       }

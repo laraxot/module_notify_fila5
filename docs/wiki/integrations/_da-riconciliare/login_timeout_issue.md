@@ -72,7 +72,7 @@ protected string $view = 'pub_theme::filament.widgets.auth.login';
 ```bash
 # Verificare configurazione tema
 cd /var/www/_bases/<nome repository>/laravel
-cd /var/www/_bases/<nome repitory>/laravel
+cd /var/www/_bases/<nome repitory>_mono/laravel
 php artisan config:cache
 php artisan view:cache
 ```
@@ -122,7 +122,7 @@ public function mount(): void
 
 ```bash
 cd /var/www/_bases/<nome repository>/laravel
-cd /var/www/_bases/<nome repitory>/laravel
+cd /var/www/_bases/<nome repitory>_mono/laravel
 
 # Clear tutti i cache
 php artisan cache:clear
@@ -145,7 +145,7 @@ php artisan view:cache
 ```bash
 # Verificare che esista
 ls -la /var/www/_bases/<nome repository>/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
-ls -la /var/www/_bases/<nome repitory>/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
+ls -la /var/www/_bases/<nome repitory>_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
 ```
 
 ✅ **File esiste**: Abbiamo verificato che c'è
@@ -155,7 +155,7 @@ ls -la /var/www/_bases/<nome repitory>/laravel/Themes/Sixteen/resources/views/fi
 ```bash
 # Cercare dove è definito pub_theme
 cd /var/www/_bases/<nome repository>/laravel
-cd /var/www/_bases/<nome repitory>/laravel
+cd /var/www/_bases/<nome repitory>_mono/laravel
 grep -r "pub_theme" config/ app/Providers/
 ```
 

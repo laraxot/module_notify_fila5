@@ -1,13 +1,13 @@
 ---
-title: "📊 <nome progetto> PROJECT - PROGRESS REPORT"
+title: "📊 FIXCITY PROJECT - PROGRESS REPORT"
 type: concept
 tags: [progress, report]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "progress-report 📊 <nome progetto> project - progress report"
+qmd: "progress-report 📊 fixcity project - progress report"
 qmd: "progress-report 📊 ptv project - progress report"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -19,7 +19,7 @@ related:
   - "./action-plan-immediate.md"
 ---
 
-# 📊 <nome progetto> PROJECT - PROGRESS REPORT
+# 📊 FIXCITY PROJECT - PROGRESS REPORT
 
 **Data Report**: 2025-01-01  
 **Fase Progetto**: Phase 2 - Core Features  
@@ -30,7 +30,7 @@ related:
 
 ## 🎯 Executive Summary
 
-Il progetto **<nome progetto>** ha comple
+Il progetto **FixCity** ha comple
 
 
 

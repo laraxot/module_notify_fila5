@@ -5,8 +5,8 @@ tags: [sessione, completa]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "sessione-completa ✅ sessione completata - allineamento bootstrap italia"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -169,5 +169,5 @@ GET /it/tests/amministrazione → tests.view (slug=amministrazione)
 
 **Status**: ✅ COMPLETATO  
 **Data**: 2026-03-31  
-**URL Test**: http://<nome progetto>.local/it/tests/homepage
+**URL Test**: http://fixcity.local/it/tests/homepage
 **URL Test**: http://ptv.local/it/tests/homepage

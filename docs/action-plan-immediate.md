@@ -1,13 +1,13 @@
 ---
-title: "🎯 PIANO D'AZIONE IMMEDIATO - <nome progetto> Platform"
+title: "🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform"
 type: concept
 tags: [action, plan, immediate]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "action-plan-immediate 🎯 piano d'azione immediato - <nome progetto> platform"
+qmd: "action-plan-immediate 🎯 piano d'azione immediato - fixcity platform"
 qmd: "action-plan-immediate 🎯 piano d'azione immediato - ptv platform"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -19,11 +19,11 @@ related:
   - "./actions-calling-actions-pattern.md"
 ---
 
-# 🎯 PIANO D'AZIONE IMMEDIATO - <nome progetto> Platform
+# 🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform
 
 ## 📋 Sommario Esecutivo
 
-Questo documento identifica le **azioni immediate** da intraprendere per portare <nome progetto> alla versione 2.0.0 production-ready. Basato sull'analisi completa del progetto e le roadmap dei moduli.
+Questo documento identifica le **azioni immediate** da intraprendere per portare FixCity alla versione 2.0.0 production-ready. Basato sull'analisi completa del progetto e le roadmap dei moduli.
 
 **Data**: 2025-01-01  
 **Status Attuale**: 60% completo  
@@ -50,7 +50,7 @@ Questo documento identifica le **azioni immediate** da intraprendere per portare
   - [ ] Consolidare namespace (rimuovere `App`)
   - [ ] Completare factories per tutti i models
 
-- [ ] **Modulo <nome progetto>**
+- [ ] **Modulo Fixcity**
   - [ ] Verificare tutti i metodi incompleti
   - [ ] Testare workflow completo
   - [ ] Aggiungere validation rules

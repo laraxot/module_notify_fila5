@@ -1,4 +1,4 @@
-# 🔧 Console Commands <nome progetto>
+# 🔧 Console Commands FixCity
 # 🔧 Console Commands Notify
 
 > **Laravel 11**: Comandi auto-registrati da `app/Console/Commands/`
@@ -181,31 +181,31 @@ php artisan migrate --force
 php artisan queue:restart
 ```
 
-## 🔧 Comandi Personalizzati <nome progetto>
+## 🔧 Comandi Personalizzati FixCity
 ## 🔧 Comandi Personalizzati Notify
 
 ### Template Base
 ```php
 <?php
-// app/Console/Commands/<nome progetto>Command.php
+// app/Console/Commands/FixCityCommand.php
 // app/Console/Commands/NotifyCommand.php
 
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-class <nome progetto>Command extends Command
+class FixCityCommand extends Command
 {
-    protected $signature = '<nome progetto>:example 
+    protected $signature = 'fixcity:example 
                            {argument : Argomento richiesto}
                            {--option=default : Opzione con default}
                            {--flag : Boolean flag}';
 
-    protected $description = 'Comando esempio per <nome progetto>';
+    protected $description = 'Comando esempio per FixCity';
 
     public function handle(): int
     {
-        $this->info('🚀 Esecuzione comando <nome progetto>...');
+        $this->info('🚀 Esecuzione comando FixCity...');
         
         if ($this->confirm('Continuare con l\'operazione?')) {
             // Business logic
@@ -253,7 +253,7 @@ php artisan health:check
 ### Struttura Comandi (Laravel 11)
 ```
 app/Console/Commands/
-├── <nome progetto>/           # Comandi business logic
+├── FixCity/           # Comandi business logic
 ├── Notify/           # Comandi business logic
 │   ├── ProcessTickets.php
 │   └── GenerateReports.php
@@ -268,8 +268,8 @@ app/Console/Commands/
 ### Convenzioni Naming
 ```bash
 # Gruppo comando con namespace
-<nome progetto>:process-tickets
-<nome progetto>:generate-reports
+fixcity:process-tickets
+fixcity:generate-reports
 laraxot:process-tickets
 laraxot:generate-reports
 

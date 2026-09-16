@@ -5,8 +5,8 @@ tags: [roadmap, status, summary]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "roadmap-status-summary 📊 roadmap status summary - ottobre 2025"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -36,7 +36,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 
 ### 📈 Progressi Chiave
 - ✅ **PHPStan Level 9**: 0 errori (da 53 iniziali)
-- ✅ **Filament 5.x**: Compatibilità completa
+- ✅ **Filament 4.x**: Compatibilità completa
 - ✅ **Documentazione**: 80% completata
 - 🔄 **API Development**: In corso
 - 🔄 **Mobile Optimization**: In corso
@@ -57,7 +57,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 - [x] Actions system
 - [x] Services core
 - [x] PHPStan Level 9 (0 errori)
-- [x] Filament 5.x compatibility
+- [x] Filament 4.x compatibility
 
 #### 🔄 In Corso
 - [ ] Performance optimization
@@ -70,7 +70,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 
 ---
 
-### 🎫 **<nome progetto>** - 85% COMPLETATO
+### 🎫 **Fixcity** - 85% COMPLETATO
 **Status**: 🚧 ACTIVE DEVELOPMENT  
 **Priority**: CRITICAL  
 **PHPStan**: ✅ 0 errori  
@@ -81,7 +81,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 - [x] Workflow engine
 - [x] Status management
 - [x] PHPStan Level 9 (0 errori)
-- [x] Filament 5.x compatibility
+- [x] Filament 4.x compatibility
 
 #### 🔄 In Corso
 - [ ] API development
@@ -106,7 +106,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 - [x] Profile system
 - [x] Role management
 - [x] PHPStan Level 9 (0 errori)
-- [x] Filament 5.x compatibility
+- [x] Filament 4.x compatibility
 
 #### 🔄 In Corso
 - [ ] Social authentication
@@ -175,7 +175,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 
 #### ✅ Completato
 - [x] PHPStan Level 9 (0 errori)
-- [x] Filament 5.x compatibility
+- [x] Filament 4.x compatibility
 - [x] Basic AI integration
 
 #### 🔄 In Corso
@@ -225,7 +225,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 - [x] Authentication pages
 - [x] Basic components
 - [x] Responsive design
-- [x] Filament 5.x compatibility
+- [x] Filament 4.x compatibility
 
 #### 🔄 In Corso
 - [ ] AGID compliance completion
@@ -245,7 +245,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 **Filament**: ✅ 4.x Compatibile  
 
 #### ✅ Completato
-- [x] Filament 5.x integration
+- [x] Filament 4.x integration
 - [x] Basic admin components
 - [x] Design tokens
 - [x] ARIA compliance
@@ -265,7 +265,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 ## 🎯 PRIORITÀ IMMEDIATE (Next 30 Days)
 
 ### 🚀 **Week 1-2: API Development**
-- [ ] **<nome progetto> API v1**: RESTful API completa
+- [ ] **Fixcity API v1**: RESTful API completa
 - [ ] **Authentication**: JWT/Sanctum setup
 - [ ] **Documentation**: OpenAPI specs
 - [ ] **Testing**: API test suite
@@ -282,7 +282,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 
 ### ✅ **Completate**
 - [x] **PHPStan Level 9**: 0 errori (da 53 iniziali)
-- [x] **Filament 5.x**: Compatibilità completa
+- [x] **Filament 4.x**: Compatibilità completa
 - [x] **Documentation**: 80% completata
 - [x] **Code Quality**: PSR-12 compliant
 
@@ -305,7 +305,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 ## 🛠️ IMPLEMENTATION STRATEGY
 
 ### 📅 **Q1 2025 Focus**
-1. **API Development**: RESTful API per <nome progetto>
+1. **API Development**: RESTful API per Fixcity
 2. **Mobile Optimization**: Interfaccia mobile completa
 3. **AGID Compliance**: 100% conformità
 4. **Performance**: Ottimizzazione completa
@@ -326,7 +326,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 
 ## 🔗 INTEGRATION POINTS
 
-### 🎫 **<nome progetto> ↔ Sixteen**
+### 🎫 **Fixcity ↔ Sixteen**
 - [ ] Ticket creation interface
 - [ ] Dashboard widgets
 - [ ] Map integration
@@ -349,7 +349,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 ## 📋 NEXT ACTIONS
 
 ### 🎯 **Immediate (This Week)**
-1. [ ] Start API development for <nome progetto>
+1. [ ] Start API development for Fixcity
 2. [ ] Begin mobile optimization for Sixteen
 3. [ ] Complete AGID compliance audit
 4. [ ] Update documentation
@@ -372,7 +372,7 @@ con successo. Focus attuale: Feature Expansion con API development, mobile optim
 
 ### ✅ **Technical Excellence**
 - [x] Code quality (PHPStan Level 9)
-- [x] Framework compatibility (Filament 5.x)
+- [x] Framework compatibility (Filament 4.x)
 - [x] Architecture (Modular monolith)
 - [x] Documentation (80% complete)
 

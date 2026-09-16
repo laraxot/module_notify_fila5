@@ -1,7 +1,7 @@
-# PROJECT: <nome progetto> Platform
+# PROJECT: FixCity Platform
 
 ## Vision
-Transform <nome progetto> from a functional MVP to a national-scale enterprise-ready platform for managing urban disservices.
+Transform FixCity from a functional MVP to a national-scale enterprise-ready platform for managing urban disservices.
 
 ## Objectives
 - Scalable modular architecture (Laraxot).
@@ -11,7 +11,7 @@ Transform <nome progetto> from a functional MVP to a national-scale enterprise-r
 - AI-powered automation for categorization and duplicate detection.
 
 ## Stack
-- Laravel 13
+- Laravel 12
 - Filament v5
 - Folio (Routing)
 - Volt (Livewire Components)
@@ -20,7 +20,7 @@ Transform <nome progetto> from a functional MVP to a national-scale enterprise-r
 - BMAD & GSD Methodologies
 
 ## Context
-- Project: <repo progetto>
+- Project: base_fixcity_fila5
 - Language: PHP 8.3
 - Date: March 2026
 
@@ -28,4 +28,4 @@ Transform <nome progetto> from a functional MVP to a national-scale enterprise-r
 - [Filosofia del Progetto](./philosophy.md) - Logica, religione, politica, zen dello sviluppo
 
 ## Content Blocks
-- [<nome progetto> Pages Content Blocks](./<nome progetto>-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli
+- [FixCity Pages Content Blocks](./fixcity-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli

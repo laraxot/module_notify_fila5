@@ -1,11 +1,11 @@
 # Architecture Principles
 
-Key architectural rules for <nome progetto> Fila5 Mono (Laraxot / Laravel 13 / Filament 5).
-Key architectural rules for App Fila5 Mono (Laraxot / Laravel 13 / Filament 5).
+Key architectural rules for Quaeris Fila5 Mono (Laraxot / Laravel 12 / Filament 5).
+Key architectural rules for App Fila5 Mono (Laraxot / Laravel 12 / Filament 5).
 
 ## 0. Database Configuration (CRITICAL)
 
-**REGOLA ASSOLUTA**: `laravel/config/database.php` deve essere identico alla versione ufficiale Laravel 13.x.
+**REGOLA ASSOLUTA**: `laravel/config/database.php` deve essere identico alla versione ufficiale Laravel 12.x.
 
 **Perche**:
 - Compatibilita con aggiornamenti Laravel
@@ -131,7 +131,7 @@ Ref: `.claude/docs/spatie-queueable-action.md`
 
 ```php
 // WRONG - Service class FORBIDDEN
-namespace Modules\<nome progetto>\Services;
+namespace Modules\Quaeris\Services;
 namespace Modules\App\Services;
 class ReportService
 {
@@ -139,7 +139,7 @@ class ReportService
 }
 
 // CORRECT - QueueableAction obbligatorio
-namespace Modules\<nome progetto>\Actions;
+namespace Modules\Quaeris\Actions;
 namespace Modules\App\Actions;
 use Spatie\QueueableAction\QueueableAction;
 

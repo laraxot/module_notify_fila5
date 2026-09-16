@@ -5,8 +5,8 @@ tags: [design, comuni, integration, complete]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "design-comuni-integration-complete 🏛️ design comuni italiani - integration complete"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -29,7 +29,7 @@ related:
 
 ## 🎯 OBIETTIVO RAGGIUNTO
 
-Analizzato il design system ufficiale dei comuni italiani e integrato i suoi pattern, componenti e best practices in <nome progetto> per garantire la conformità AGID 100%.
+Analizzato il design system ufficiale dei comuni italiani e integrato i suoi pattern, componenti e best practices in FixCity per garantire la conformità AGID 100%.
 
 ---
 
@@ -143,7 +143,7 @@ $h2-font-size: 2rem;   // 32px
 
 ### Segnalazione Disservizio = Ticket System
 
-| Design Comuni | <nome progetto> | Match |
+| Design Comuni | FixCity | Match |
 |---------------|---------|-------|
 | **Scheda Servizio** | Ticket Detail | ✅ 100% |
 | **Step 1 - Privacy** | GDPR Consent | ✅ 100% |
@@ -163,7 +163,7 @@ $h2-font-size: 2rem;   // 32px
 
 ---
 
-## 🎯 BENEFITS FOR <nome progetto>
+## 🎯 BENEFITS FOR FIXCITY
 
 ### Compliance
 ✅ **AGID 100%** - Design system ufficiale  
@@ -319,7 +319,7 @@ $h2-font-size: 2rem;   // 32px
 
 ---
 
-## 📊 TOTALE PROGETTO <nome progetto>
+## 📊 TOTALE PROGETTO FIXCITY
 
 ### Files Totali Creati: 50+
 - Documentazione: 20+
@@ -342,6 +342,6 @@ $h2-font-size: 2rem;   // 32px
 **AGID**: 🏛️ **95% COMPLIANT**  
 **Ready**: 🚀 **FOR PRODUCTION**  
 
-*"Integrando il design system ufficiale dei comuni italiani, <nome progetto> è ora pronto per essere adottato da qualsiasi comune italiano con la garanzia di conformità AGID 100%!"*
+*"Integrando il design system ufficiale dei comuni italiani, FixCity è ora pronto per essere adottato da qualsiasi comune italiano con la garanzia di conformità AGID 100%!"*
 
-**#<nome progetto>2025 #DesignComuni #AGID #BootstrapItalia #Accessibility #PA**
+**#FixCity2025 #DesignComuni #AGID #BootstrapItalia #Accessibility #PA**

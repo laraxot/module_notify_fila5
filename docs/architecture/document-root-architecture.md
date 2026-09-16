@@ -5,8 +5,8 @@ tags: [document, root, architecture]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "document-root-architecture document root architecture"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./config-structure.md"
   - "./dto-structure-conventions.md"
@@ -27,8 +27,8 @@ This project uses a **custom Laravel public path architecture** where the web-ac
 ## Architecture
 
 ```
-/var/www/_bases/<repo progetto>/
-/var/www/_bases/<repo progetto>/
+/var/www/_bases/base_fixcity_fila5/
+/var/www/_bases/base_ptvx_fila5/
 ├── public_html/                    ← ACTUAL DocumentRoot (Apache serves from here)
 │   ├── index.php                   ← Entry point
 │   ├── .htaccess
@@ -104,10 +104,10 @@ The entry point defines `LARAVEL_DIR` constant pointing to the Laravel installat
 
 ### 4. Apache Configuration
 
-**Active VHost**: `/etc/apache2/sites-enabled/<nome progetto>.local.conf`
+**Active VHost**: `/etc/apache2/sites-enabled/fixcity.local.conf`
 
 ```apache
-DocumentRoot /var/www/_bases/<repo progetto>/public_html
+DocumentRoot /var/www/_bases/base_fixcity_fila5/public_html
 ```
 
 ## Verification
@@ -115,11 +115,11 @@ DocumentRoot /var/www/_bases/<repo progetto>/public_html
 Test that `public_path()` resolves correctly:
 
 ```bash
-cd /var/www/_bases/<repo progetto>/laravel
+cd /var/www/_bases/base_fixcity_fila5/laravel
 php -r "require 'vendor/autoload.php'; \$app = require 'bootstrap/app.php'; echo public_path() . PHP_EOL;"
 ```
 
-**Expected output**: `/var/www/_bases/<repo progetto>/public_html`
+**Expected output**: `/var/www/_bases/base_fixcity_fila5/public_html`
 
 ## Why Both Directories Exist
 

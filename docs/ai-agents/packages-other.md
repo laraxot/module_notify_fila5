@@ -20,7 +20,7 @@ Modules/
   Limesurvey/ — integrazione LimeSurvey
   Media/      — file e media
   Notify/     — notifiche (email, SMS, Telegram, WhatsApp)
-  <nome progetto>/    — survey management
+  Quaeris/    — survey management
   App/    — survey management
   Tenant/     — multi-tenancy
   UI/         — componenti UI

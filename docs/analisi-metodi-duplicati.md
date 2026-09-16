@@ -34,7 +34,7 @@ Questo documento analizza i metodi duplicati trovati all'interno dei moduli Lara
 - Blog
 - Cms
 - Comment
-- <nome progetto>
+- Fixcity
 - Gdpr
 - Geo
 - Job

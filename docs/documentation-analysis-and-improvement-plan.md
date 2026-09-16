@@ -5,8 +5,8 @@ tags: [documentation, analysis, improvement, plan]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "documentation-analysis-and-improvement-plan documentation analysis and improvement plan"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -30,7 +30,7 @@ related:
 
 ### Current State
 
-The <nome progetto> platform has extensive documentation across modules and themes, but suffers from:
+The FixCity platform has extensive documentation across modules and themes, but suffers from:
 
 1. **Inconsistent Structure**: Different modules use different organization
 2. **Duplicate Content**: Same topics documented multiple times

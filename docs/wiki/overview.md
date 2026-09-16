@@ -47,29 +47,29 @@ docs/
     └── overview.md      # This file
 ```
 
-## Progetto: <nome progetto> (<repo progetto>)
+## Progetto: FixCity (base_fixcity_fila5)
 
 **Stack**: Laravel 11 + Filament 5 + Laraxot pattern  
-**Moduli**: 18 (Xot, Cms, UI, Lang, User, <nome progetto>, Blog, Geo, Media, Notify, Activity, Comment, Rating, Seo, Tenant, Job, Gdpr, AI)  
+**Moduli**: 18 (Xot, Cms, UI, Lang, User, Fixcity, Blog, Geo, Media, Notify, Activity, Comment, Rating, Seo, Tenant, Job, Gdpr, AI)  
 **Temi**: 2 (Sixteen — Design Comuni/Bootstrap Italia, TwentyOne — cinematic/prediction market)  
 **Raw docs totali**: ~14.000 file  
 
-### Mapping Karpathy → <nome progetto>
+### Mapping Karpathy → FixCity
 
-| Karpathy | <nome progetto> | Note |
+| Karpathy | FixCity | Note |
 |----------|---------|------|
 | `raw/` | `./docs/` + ogni `Modules/*/docs/` | Documenti sorgente (immutabili) |
 | `wiki/` | `./docs/wiki/` + ogni `Modules/*/docs/wiki/` | Conoscenza compilata dall'LLM |
 | `AGENTS.md` | `./docs/wiki/AGENTS.md` | Schema multi-agent |
 
 **Stack**: Laravel 11 + Filament 5 + Laraxot pattern  
-**Moduli**: 18 (Xot, Cms, UI, Lang, User, <nome progetto>, Blog, Geo, Media, Notify, Activity, Comment, Rating, Seo, Tenant, Job, Gdpr, AI)  
+**Moduli**: 18 (Xot, Cms, UI, Lang, User, Fixcity, Blog, Geo, Media, Notify, Activity, Comment, Rating, Seo, Tenant, Job, Gdpr, AI)  
 **Temi**: 2 (Sixteen — Design Comuni/Bootstrap Italia, TwentyOne — cinematic/prediction market)  
 **Raw docs totali**: ~14.000 file  
 
-### Mapping Karpathy → <nome progetto>
+### Mapping Karpathy → FixCity
 
-| Karpathy | <nome progetto> | Note |
+| Karpathy | FixCity | Note |
 |----------|---------|------|
 | `raw/` | `./docs/` + ogni `Modules/*/docs/` | Documenti sorgente (immutabili) |
 | `wiki/` | `./docs/wiki/` + ogni `Modules/*/docs/wiki/` | Conoscenza compilata dall'LLM |
@@ -109,7 +109,7 @@ docs/
 ### Priorità 1: Moduli rimanenti
 
 1. **User** — autenticazione, profilo, GDPR compliance
-2. **<nome progetto>** — ticket system, segnalazioni civiche, workflow
+2. **Fixcity** — ticket system, segnalazioni civiche, workflow
 2. **App** — ticket system, segnalazioni civiche, workflow
 3. **Geo** — geolocalizzazione, mappe, OpenStreetMap
 4. **Media** — gestione file, upload, storage S3

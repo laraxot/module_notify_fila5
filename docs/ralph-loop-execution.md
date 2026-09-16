@@ -5,8 +5,8 @@ tags: [ralph, loop, execution]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ralph-loop-execution 🚀 ralph loop execution log - homepage bootstrap italia fix"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -21,7 +21,7 @@ related:
 # 🚀 Ralph Loop Execution Log - Homepage Bootstrap Italia Fix
 
 ## Session: 2026-03-31
-## Goal: Allineare homepage <nome progetto> a Bootstrap Italia reference
+## Goal: Allineare homepage FixCity a Bootstrap Italia reference
 
 ---
 
@@ -331,8 +331,8 @@ Aggiungere feedback module con stelle
 
 ### Clear Cache
 ```bash
-cd /var/www/_bases/<repo progetto>/laravel
-cd /var/www/_bases/<repo progetto>/laravel
+cd /var/www/_bases/base_fixcity_fila5/laravel
+cd /var/www/_bases/base_ptv_fila5/laravel
 rm -rf storage/framework/views/* bootstrap/cache/*.php
 php artisan view:clear
 ```

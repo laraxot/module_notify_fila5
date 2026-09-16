@@ -8,12 +8,12 @@
 
 ## 📋 Overview
 
-This guide covers the Apache VirtualHost configuration for <nome progetto> local development environments.
+This guide covers the Apache VirtualHost configuration for FixCity local development environments.
 
 ### Primary Domain
 
-- **Domain**: `<nome progetto>.local`
-- **Alias**: `www.<nome progetto>.local`
+- **Domain**: `fixcity.local`
+- **Alias**: `www.fixcity.local`
 - **Domain**: `ptv.local`
 - **Alias**: `www.ptv.local`
 - **Document Root**: `public_html/`
@@ -25,7 +25,7 @@ This guide covers the Apache VirtualHost configuration for <nome progetto> local
 
 ### Master Configuration
 
-**Location**: `laravel/config/vhost/<nome progetto>.local.conf`
+**Location**: `laravel/config/vhost/fixcity.local.conf`
 **Location**: `laravel/config/vhost/ptv.local.conf`
 
 This is the **Single Source of Truth (SSOT)** for vhost configuration.
@@ -43,10 +43,10 @@ This is the **Single Source of Truth (SSOT)** for vhost configuration.
 
 ```bash
 # Copy to Apache sites-available
-sudo cp laravel/config/vhost/<nome progetto>.local.conf /etc/apache2/sites-available/
+sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/
 
 # Enable site
-sudo a2ensite <nome progetto>.local.conf
+sudo a2ensite fixcity.local.conf
 
 # Reload Apache
 sudo systemctl reload apache2
@@ -57,8 +57,8 @@ sudo systemctl reload apache2
 Edit `/etc/hosts`:
 
 ```bash
-127.0.0.1    <nome progetto>.local
-127.0.0.1    www.<nome progetto>.local
+127.0.0.1    fixcity.local
+127.0.0.1    www.fixcity.local
 127.0.0.1    ptv.local
 127.0.0.1    www.ptv.local
 ```
@@ -70,7 +70,7 @@ Edit `/etc/hosts`:
 sudo apache2ctl configtest
 
 # Check vhost is enabled
-apache2ctl -S | grep <nome progetto>
+apache2ctl -S | grep fixcity
 apache2ctl -S | grep ptv
 ```
 
@@ -81,15 +81,15 @@ apache2ctl -S | grep ptv
 ### Directory Structure
 
 ```
-<repo progetto>/
-<repo progetto>/
+base_fixcity_fila5/
+base_ptv_fila5/
 ├── public_html/              ← Document Root
 │   ├── index.php            ← Entry point
 │   └── .htaccess            ← URL rewriting
 ├── laravel/                  ← Application code
 │   ├── config/
 │   │   └── vhost/
-│   │       └── <nome progetto>.local.conf  ← VHost config
+│   │       └── fixcity.local.conf  ← VHost config
 │   │       └── ptv.local.conf  ← VHost config
 │   ├── Modules/             ← All modules
 │   └── Themes/              ← All themes
@@ -101,7 +101,7 @@ apache2ctl -S | grep ptv
 ### Request Flow
 
 ```
-Browser → Apache vhost (<nome progetto>.local:80)
+Browser → Apache vhost (fixcity.local:80)
 Browser → Apache vhost (ptv.local:80)
     ↓
 DocumentRoot (public_html/)
@@ -125,9 +125,9 @@ Modules/ + Themes/
 <VirtualHost *:80>
     ServerName ptv.local
     ServerAlias www.ptv.local
-    DocumentRoot /var/www/_bases/<repo progetto>/public_html
+    DocumentRoot /var/www/_bases/base_ptv_fila5/public_html
     
-    <Directory /var/www/_bases/<repo progetto>/public_html>
+    <Directory /var/www/_bases/base_ptv_fila5/public_html>
         Options -Indexes +FollowSymLinks +MultiViews
         AllowOverride All
         Require all granted
@@ -141,8 +141,8 @@ Modules/ + Themes/
         </IfModule>
     </Directory>
     
-    ErrorLog ${APACHE_LOG_DIR}/<nome progetto>_local_error.log
-    CustomLog ${APACHE_LOG_DIR}/<nome progetto>_local_access.log combined
+    ErrorLog ${APACHE_LOG_DIR}/fixcity_local_error.log
+    CustomLog ${APACHE_LOG_DIR}/fixcity_local_access.log combined
     ErrorLog ${APACHE_LOG_DIR}/ptv_local_error.log
     CustomLog ${APACHE_LOG_DIR}/ptv_local_access.log combined
 </VirtualHost>
@@ -172,7 +172,7 @@ Modules/ + Themes/
 
 ```bash
 # Apache error log
-tail -f /var/log/apache2/<nome progetto>_local_error.log
+tail -f /var/log/apache2/fixcity_local_error.log
 tail -f /var/log/apache2/ptv_local_error.log
 
 # Laravel log
@@ -191,7 +191,7 @@ Every module in `laravel/Modules/` is accessible through the same vhost:
 - **User**: `ptv.local/login`, `ptv.local/register`
 - **Cms**: `ptv.local/pages/*` (CMS pages)
 - **Blog**: `ptv.local/blog/*`
-- **<nome progetto>**: `ptv.local/tickets/*`
+- **Fixcity**: `ptv.local/tickets/*`
 - **All others**: Via their respective routes
 
 ### Theme Selection
@@ -235,8 +235,8 @@ For production:
 
 ### Update VHost Config
 
-1. Edit `laravel/config/vhost/<nome progetto>.local.conf`
-2. Copy to Apache: `sudo cp laravel/config/vhost/<nome progetto>.local.conf /etc/apache2/sites-available/`
+1. Edit `laravel/config/vhost/fixcity.local.conf`
+2. Copy to Apache: `sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/`
 1. Edit `laravel/config/vhost/ptv.local.conf`
 2. Copy to Apache: `sudo cp laravel/config/vhost/ptv.local.conf /etc/apache2/sites-available/`
 3. Reload: `sudo systemctl reload apache2`
@@ -244,8 +244,8 @@ For production:
 ### Backup
 
 ```bash
-sudo cp /etc/apache2/sites-available/<nome progetto>.local.conf \
-        /etc/apache2/sites-available/<nome progetto>.local.conf.backup.$(date +%Y%m%d)
+sudo cp /etc/apache2/sites-available/fixcity.local.conf \
+        /etc/apache2/sites-available/fixcity.local.conf.backup.$(date +%Y%m%d)
 sudo cp /etc/apache2/sites-available/ptv.local.conf \
         /etc/apache2/sites-available/ptv.local.conf.backup.$(date +%Y%m%d)
 ```
@@ -264,7 +264,7 @@ apache2ctl -S
 apache2ctl configtest
 
 # Check enabled sites
-ls -la /etc/apache2/sites-enabled/ | grep <nome progetto>
+ls -la /etc/apache2/sites-enabled/ | grep fixcity
 ls -la /etc/apache2/sites-enabled/ | grep ptv
 ```
 
@@ -272,10 +272,10 @@ ls -la /etc/apache2/sites-enabled/ | grep ptv
 
 ```bash
 # Ping test
-ping <nome progetto>.local
+ping fixcity.local
 
 # Curl test
-curl -I http://<nome progetto>.local
+curl -I http://fixcity.local
 ```
 
 ---

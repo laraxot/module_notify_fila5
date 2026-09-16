@@ -299,7 +299,7 @@ Il modulo Notify è il sistema di gestione notifiche e comunicazioni riutilizzab
 **Module Name**: Notify  
 **Type**: Notification & Communication Module  
 **Status**: ✅ Active  
-**Framework**: Laravel 13.x + Filament 5.x  
+**Framework**: Laravel 12.x + Filament 4.x  
 **Notification Channels**: Email, SMS, Database, Push  
 **Language**: Multi-language (IT/EN/DE)  
 
@@ -361,7 +361,7 @@ The Notify module provides comprehensive notification and communication function
 - Laravel notification system
 - Mail and SMS providers
 - Queue system for delivery
-- Filament 5.x (management interface)
+- Filament 4.x (management interface)
 
 ## Key Metrics
 | Aspect | Status | Details |
@@ -1020,7 +1020,7 @@ Le modifiche vengono tracciate nel repository GitHub.
 **Module Name**: Notify  
 **Type**: Notification & Communication Module  
 **Status**: ✅ Active  
-**Framework**: Laravel 13.x + Filament 5.x  
+**Framework**: Laravel 12.x + Filament 4.x  
 **Notification Channels**: Email, SMS, Database, Push  
 **Language**: Multi-language (IT/EN/DE)  
 
@@ -1073,7 +1073,7 @@ The Notify module provides comprehensive notification and communication function
 ## Integration with Other Modules
 - **User**: Communication with system users
 - **App**: Survey participant notifications
-- **<nome progetto>**: Survey participant notifications
+- **Quaeris**: Survey participant notifications
 - **Limesurvey**: Survey response notifications
 - **Xot**: Base notification infrastructure
 - **Filament**: Management interface
@@ -1083,7 +1083,7 @@ The Notify module provides comprehensive notification and communication function
 - Laravel notification system
 - Mail and SMS providers
 - Queue system for delivery
-- Filament 5.x (management interface)
+- Filament 4.x (management interface)
 
 ## Key Metrics
 | Aspect | Status | Details |

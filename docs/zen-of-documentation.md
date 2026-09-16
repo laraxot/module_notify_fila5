@@ -5,8 +5,8 @@ tags: [zen, documentation]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "zen-of-documentation 🧘 zen of documentation - filosofia unificata"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -306,7 +306,7 @@ ralph-loop run \
 ```bash
 # Crea source dalla documentazione
 python scripts/notebooklm/create_source.py \
-  --name="<nome progetto> Documentation" \
+  --name="FixCity Documentation" \
   --files="docs/**/*.md"
 
 # Fai domande contestuali

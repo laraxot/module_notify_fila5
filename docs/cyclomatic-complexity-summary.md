@@ -42,7 +42,7 @@
 | ✅ Activity | 100 | 8,664 | 249 |  0 | 1.07 | 3 |
 | ✅ Cms | 427 | 29,897 | 811 |  0 | 1.35 | 6 |
 | ✅ Comment | 137 | 4,978 | 259 |  0 | 1.25 | 9 |
-| ✅ <nome progetto> | 533 | 67,319 | 1,098 |  0 | 1.23 | 10 |
+| ✅ Fixcity | 533 | 67,319 | 1,098 |  0 | 1.23 | 10 |
 | ✅ Gdpr | 98 | 4,886 | 143 |  0 | 1.11 | 5 |
 | ✅ Job | 250 | 19,350 | 516 |  0 | 1.19 | 5 |
 | ✅ Lang | 146 | 11,751 | 281 |  0 | 1.59 | 9 |
@@ -134,7 +134,7 @@ Keep nesting levels below 3-4 levels.
 - [Activity](../Modules/Activity/docs/cyclomatic-complexity-report.md)
 - [Cms](../Modules/Cms/docs/cyclomatic-complexity-report.md)
 - [Comment](../Modules/Comment/docs/cyclomatic-complexity-report.md)
-- [<nome progetto>](../Modules/<nome progetto>/docs/cyclomatic-complexity-report.md)
+- [Fixcity](../Modules/Fixcity/docs/cyclomatic-complexity-report.md)
 - [Gdpr](../Modules/Gdpr/docs/cyclomatic-complexity-report.md)
 - [Job](../Modules/Job/docs/cyclomatic-complexity-report.md)
 - [Lang](../Modules/Lang/docs/cyclomatic-complexity-report.md)

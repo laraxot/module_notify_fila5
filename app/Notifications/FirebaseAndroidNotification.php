@@ -18,7 +18,6 @@ use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\FirebaseNotificationData;
 use NotificationChannels\Fcm\FcmChannel;
-use Override;
 
 /**
  * Class for sending notifications via Firebase Cloud Messaging to Android devices.
@@ -96,7 +95,6 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * @param  object|null  $notifiable  The entity to be notified
      * @return array<string, mixed>
      */
-    #[Override]
     public function toArray(?object $notifiable): array
     {
         // return $this->data->toArray();
@@ -106,7 +104,6 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     /**
      * Convert to a Firebase Cloud message (Converti in un messaggio Cloud Firebase).
      */
-    #[Override]
     public function toCloudMessage(): Message
     {
         $notificationData = $this->data->data;

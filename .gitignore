@@ -175,18 +175,5 @@ reports
 .vscode/
 reports/
 graphify-out/
-
-# Laraxot — quality tool config forbidden in module root (2026-09-15)
-phpinsights.php
-
-# Laraxot — forbidden at module/theme root (rector.php, phpinsights.php, .cursor, .windsurf, .vscode)
-/rector.php
-/phpinsights.php
-/.cursor
-/.cursor/
-/.windsurf
-/.windsurf/
-/.vscode
-/.vscode/
-.cursor~*
-.windsurf~*
+docs/_archive
+docs/archived

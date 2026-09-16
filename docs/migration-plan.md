@@ -5,8 +5,8 @@ tags: [migration, plan]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "migration-plan documentation agnostic migration plan"
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index-2.md"
@@ -22,7 +22,7 @@ related:
 
 ## Executive Summary
 
-**Problem**: Module and theme documentation contains **1,500+ project-specific references** (<nome progetto>) when it should be **project-agnostic** and reusable.
+**Problem**: Module and theme documentation contains **1,500+ project-specific references** (FixCity) when it should be **project-agnostic** and reusable.
 
 **Solution**: Implement governance rules, rename files, and replace content with generic placeholders.
 
@@ -39,12 +39,12 @@ related:
 
 | Pattern | Occurrences | Priority |
 |---------|-------------|----------|
-| `<nome progetto>` (in content) | 1,050 | 🔴 HIGH |
-| `<nome progetto>` (in content) | 259 | 🔴 HIGH |
+| `Fixcity` (in content) | 1,050 | 🔴 HIGH |
+| `FixCity` (in content) | 259 | 🔴 HIGH |
 | `ptv` (in content) | 220 | 🔴 HIGH |
 | `ptv-` (in filenames) | TBD | 🟡 MEDIUM |
 | `ptv.local` | 3 | 🟢 LOW |
-| `<repo progetto>` | 11 | 🟢 LOW |
+| `base_ptv_fila5` | 11 | 🟢 LOW |
 
 ---
 
@@ -63,13 +63,13 @@ Defines:
 ### ✅ 2. Example Conversions
 
 #### File Renamed
-- **Before**: `laravel/Modules/Cms/docs/<nome progetto>-pages-content-blocks.md`
+- **Before**: `laravel/Modules/Cms/docs/fixcity-pages-content-blocks.md`
 - **Before**: `laravel/Modules/Cms/docs/ptv-pages-content-blocks.md`
 - **After**: `laravel/Modules/Cms/docs/pages-content-blocks.md`
 
 #### Content Updated
-- Replaced `<nome progetto>` → `[PROJECT_NAME]`
-- Replaced `<nome progetto>` → `[project_name]`
+- Replaced `FixCity` → `[PROJECT_NAME]`
+- Replaced `fixcity` → `[project_name]`
 - Replaced `ptv` → `[project_name]`
 - Added contextual notes for users
 - Made examples generic with placeholders
@@ -78,10 +78,10 @@ Defines:
 **File**: `laravel/Themes/docs/README.md`
 
 Changes:
-- Removed "<nome progetto> PTVX ecosystem" → "PTVX ecosystem"
-- Replaced `<repo progetto>/` → `<project_root>/`
-- Replaced `<nome progetto>.local` → `[YOUR_DOMAIN]`
-- Replaced `<repo progetto>/` → `<project_root>/`
+- Removed "FixCity PTVX ecosystem" → "PTVX ecosystem"
+- Replaced `base_fixcity_fila5/` → `<project_root>/`
+- Replaced `fixcity.local` → `[YOUR_DOMAIN]`
+- Replaced `base_ptv_fila5/` → `<project_root>/`
 - Replaced `ptv.local` → `[YOUR_DOMAIN]`
 - Replaced GitHub repo reference → `your-org/your-repo`
 - Added placeholder guidance notes
@@ -188,8 +188,8 @@ git commit -m "docs(Cms): make documentation agnostic"
 ### Pre-Commit Checklist
 
 For each module/theme:
-- [ ] No `<nome progetto>`, `<nome progetto>`, `<nome progetto>` in content
-- [ ] No `<nome progetto>`, `<nome progetto>`, `ptv` in content
+- [ ] No `FixCity`, `Fixcity`, `fixcity` in content
+- [ ] No `FixCity`, `Fixcity`, `ptv` in content
 - [ ] No project-specific filenames
 - [ ] Placeholders used consistently:
   - `[PROJECT_NAME]` for platform name
@@ -206,7 +206,7 @@ For each module/theme:
 Add to CI/CD:
 ```bash
 # Fail if project-specific refs found in docs
-if grep -r "<nome progetto>" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
+if grep -r "FixCity" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
   echo "❌ Project-specific references found in documentation"
   exit 1
 fi
@@ -218,7 +218,7 @@ Create `.git/hooks/pre-commit`:
 ```bash
 #!/bin/bash
 # Check for project-specific docs in staged changes
-if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "<nome progetto>" 2>/dev/null; then
+if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "FixCity" 2>/dev/null; then
   echo "❌ Commit blocked: Project-specific references in documentation"
   echo "Run: ./bashscripts/fix-docs-agnostic.sh --dry-run"
   exit 1
@@ -235,10 +235,10 @@ fi
 
 **Before**:
 ```markdown
-# <nome progetto> Blog Module
+# FixCity Blog Module
 
-This module provides blog functionality for <nome progetto> platform.
-Access at: <nome progetto>.local/blog
+This module provides blog functionality for FixCity platform.
+Access at: fixcity.local/blog
 Access at: ptv.local/blog
 ```
 
@@ -256,14 +256,14 @@ Access at: `[YOUR_DOMAIN]/blog`
 
 **Before**:
 ```markdown
-## <nome progetto> Integration
+## FixCity Integration
 
-1. Add to <nome progetto> config:
+1. Add to Fixcity config:
    ```php
-   config('<nome progetto>.blog.settings')
+   config('fixcity.blog.settings')
    ```
 
-2. Routes available at <nome progetto>.local/admin/blog
+2. Routes available at fixcity.local/admin/blog
 ```
 
 **After**:
@@ -318,8 +318,8 @@ git revert <commit-hash>
 ## Success Metrics
 
 ### Quantitative
-- ✅ 0 occurrences of "<nome progetto>" in module/theme docs
-- ✅ 0 occurrences of "<nome progetto>" in module/theme docs
+- ✅ 0 occurrences of "FixCity" in module/theme docs
+- ✅ 0 occurrences of "fixcity" in module/theme docs
 - ✅ 0 occurrences of "ptv" in module/theme docs
 - ✅ 100% of filenames are project-agnostic
 - ✅ 100% of cross-references use relative paths
@@ -392,10 +392,10 @@ A: In `docs/project/` at the project root, not in individual modules.
 A: Consider keeping it in the project root, not in the reusable Modules directory.
 
 **Q: How do I handle module-to-module references?**  
-A: Use generic names: "Blog Module" instead of "<nome progetto> Blog Module".
+A: Use generic names: "Blog Module" instead of "FixCity Blog Module".
 
-**Q: Can I still mention <nome progetto> in examples?**  
-A: Yes, but clearly mark them as examples: "e.g., '<nome progetto>' for a civic platform".
+**Q: Can I still mention FixCity in examples?**  
+A: Yes, but clearly mark them as examples: "e.g., 'fixcity' for a civic platform".
 A: Yes, but clearly mark them as examples: "e.g., 'ptv' for a civic platform".
 
 ---

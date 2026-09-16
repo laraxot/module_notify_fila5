@@ -1,4 +1,4 @@
-# 🔄 SISTEMA AGGIORNAMENTO ROADMAP - <nome progetto> PLATFORM
+# 🔄 SISTEMA AGGIORNAMENTO ROADMAP - FIXCITY PLATFORM
 # 🔄 SISTEMA AGGIORNAMENTO ROADMAP - NOTIFY PLATFORM
 
 **Versione**: 1.0  
@@ -21,7 +21,7 @@ project_docs/roadmaps/
 ├── roadmap-quality.md            # Roadmap qualità
 ├── roadmap-update-system.md      # Questo file
 └── modules/                      # Roadmap specifiche moduli
-    ├── <nome progetto>-roadmap.md
+    ├── fixcity-roadmap.md
     ├── laraxot-roadmap.md
     ├── user-roadmap.md
     ├── xot-roadmap.md
@@ -473,5 +473,5 @@ class ProgressReportGenerator
 
 ---
 
-*Questo sistema garantisce l'aggiornamento costante e coerente di tutte le roadmap del progetto <nome progetto>.*
+*Questo sistema garantisce l'aggiornamento costante e coerente di tutte le roadmap del progetto FixCity.*
 *Questo sistema garantisce l'aggiornamento costante e coerente di tutte le roadmap del progetto Notify.*
