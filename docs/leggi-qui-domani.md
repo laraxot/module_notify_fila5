@@ -38,7 +38,11 @@ Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 5. `XotBasePage.php:127` - Fix getModel() type (10 min)
 6. `XotBaseRelationManager.php:107` - Type narrowing (15 min)
 <<<<<<< HEAD
+<<<<<<< HEAD
 7. `XotBaseResource.php:98` - Filament 5 compatibility (45 min)
+=======
+7. `XotBaseResource.php:98` - Filament 4 compatibility (45 min)
+>>>>>>> laraxot/dev
 =======
 7. `XotBaseResource.php:98` - Filament 4 compatibility (45 min)
 >>>>>>> laraxot/dev
@@ -48,7 +52,11 @@ Buongiorno! Ecco tutto quello che abbiamo fatto ieri e cosa fare oggi.
 **Comando verifica**:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 >>>>>>> laraxot/dev
@@ -120,7 +128,11 @@ cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 **Verifica Completa**:
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 >>>>>>> laraxot/dev
@@ -198,7 +210,11 @@ php artisan test --filter=BaseUserTest
 
 ### ✅ Sempre Fare
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Eseguire da `/var/www/_bases/<repo progetto>/laravel/`
+=======
+- ✅ Eseguire da `/var/www/_bases/base_fixcity_fila5_mono/laravel/`
+>>>>>>> laraxot/dev
 =======
 - ✅ Eseguire da `/var/www/_bases/base_fixcity_fila5_mono/laravel/`
 >>>>>>> laraxot/dev

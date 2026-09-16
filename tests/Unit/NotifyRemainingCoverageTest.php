@@ -20,7 +20,11 @@ use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Channels\TelegramChannel;
 use Modules\Notify\Channels\WhatsAppChannel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SMS\SmsActionContract;
+=======
+use Modules\Notify\Models\Contracts\SmsActionContract;
+>>>>>>> laraxot/dev
 =======
 use Modules\Notify\Models\Contracts\SmsActionContract;
 >>>>>>> laraxot/dev

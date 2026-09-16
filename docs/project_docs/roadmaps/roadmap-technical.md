@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🛠️ ROADMAP TECNICA - <nome progetto> PLATFORM
+=======
+# 🛠️ ROADMAP TECNICA - FIXCITY PLATFORM
+>>>>>>> laraxot/dev
 =======
 # 🛠️ ROADMAP TECNICA - FIXCITY PLATFORM
 >>>>>>> laraxot/dev
@@ -12,7 +16,11 @@
 
 ## 🎯 Obiettivo
 <<<<<<< HEAD
+<<<<<<< HEAD
 Completare l'evoluzione tecnica del progetto <nome progetto> per raggiungere la produzione con qualità enterprise e scalabilità.
+=======
+Completare l'evoluzione tecnica del progetto FixCity per raggiungere la produzione con qualità enterprise e scalabilità.
+>>>>>>> laraxot/dev
 =======
 Completare l'evoluzione tecnica del progetto FixCity per raggiungere la produzione con qualità enterprise e scalabilità.
 >>>>>>> laraxot/dev
@@ -21,7 +29,11 @@ Completare l'evoluzione tecnica del progetto Notify per raggiungere la produzion
 ## 📊 Stato Attuale
 - **PHPStan Level 9**: ✅ COMPLETATO (0 errori)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Filament 5.x**: ✅ COMPATIBILE
+=======
+- **Filament 4.x**: ✅ COMPATIBILE
+>>>>>>> laraxot/dev
 =======
 - **Filament 4.x**: ✅ COMPATIBILE
 >>>>>>> laraxot/dev
@@ -376,7 +388,11 @@ jobs:
 ### Development
 - **PHP**: 8.3+ con strict types
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Laravel**: 11.x con Filament 5.x
+=======
+- **Laravel**: 11.x con Filament 4.x
+>>>>>>> laraxot/dev
 =======
 - **Laravel**: 11.x con Filament 4.x
 >>>>>>> laraxot/dev
@@ -477,8 +493,13 @@ jobs:
 - **Tech Lead**: Laraxot Development Team
 - **Email**: tech@laraxot.com
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Slack**: #<nome progetto>-tech
 - **GitHub**: [<nome progetto> Repository](https://github.com/laraxot/<nome progetto>)
+=======
+- **Slack**: #fixcity-tech
+- **GitHub**: [FixCity Repository](https://github.com/laraxot/fixcity)
+>>>>>>> laraxot/dev
 =======
 - **Slack**: #fixcity-tech
 - **GitHub**: [FixCity Repository](https://github.com/laraxot/fixcity)

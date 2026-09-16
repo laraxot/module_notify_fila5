@@ -100,7 +100,11 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 **Subtask 4 - Verify JSON Content** (parallel with Subtask 3):
 - Input: PHASE-1-FINDINGS.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - File: `laravel/config/local/<nome progetto>/database/content/pages/tests.segnalazioni-elenco.json`
+=======
+- File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> laraxot/dev
 =======
 - File: `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 >>>>>>> laraxot/dev
@@ -118,7 +122,11 @@ laravel/Themes/Sixteen/docs/body-structure-comparison/segnalazioni-elenco/
 - [ ] Read GSD-PHASE-1-EXECUTION.md
 - [ ] Read EXECUTOR-2-SUBTASKS-3-4.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Understand translation pattern: `<nome progetto>::segnalazione.fields.title.label`
+=======
+- [ ] Understand translation pattern: `fixcity::segnalazione.fields.title.label`
+>>>>>>> laraxot/dev
 =======
 - [ ] Understand translation pattern: `fixcity::segnalazione.fields.title.label`
 >>>>>>> laraxot/dev
@@ -328,7 +336,11 @@ Phase 2 planning can begin
 
 **WILL VERIFY (Subtask 4):**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/config/local/<nome progetto>/database/content/pages/tests.segnalazioni-elenco.json`
+=======
+- `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> laraxot/dev
 =======
 - `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 >>>>>>> laraxot/dev

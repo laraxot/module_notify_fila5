@@ -105,7 +105,11 @@ This document summarizes the complete VHost configuration implementation for the
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>/
+=======
+base_ptvx_fila5/
+>>>>>>> laraxot/dev
 =======
 base_ptvx_fila5/
 >>>>>>> laraxot/dev

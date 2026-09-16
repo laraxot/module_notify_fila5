@@ -1,7 +1,11 @@
 # 📊 Final Project Statistics
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Project:** <nome progetto> - Base Fila4 Mono  
+=======
+**Project:** FixCity - Base Fila4 Mono  
+>>>>>>> laraxot/dev
 =======
 **Project:** FixCity - Base Fila4 Mono  
 >>>>>>> laraxot/dev
@@ -108,7 +112,11 @@
 ### Modules (18)
 - AI, Activity, Blog, Cms, Comment
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto>, Gdpr, Geo, Job, Lang
+=======
+- Fixcity, Gdpr, Geo, Job, Lang
+>>>>>>> laraxot/dev
 =======
 - Fixcity, Gdpr, Geo, Job, Lang
 >>>>>>> laraxot/dev

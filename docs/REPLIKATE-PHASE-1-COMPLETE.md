@@ -147,7 +147,11 @@ laravel/Themes/Sixteen/
 │
 └── config/
 <<<<<<< HEAD
+<<<<<<< HEAD
     └── local/<nome progetto>/database/content/
+=======
+    └── local/fixcity/database/content/
+>>>>>>> laraxot/dev
 =======
     └── local/fixcity/database/content/
 >>>>>>> laraxot/dev

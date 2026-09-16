@@ -52,7 +52,11 @@ notebooklm list
 
 # Create a notebook
 <<<<<<< HEAD
+<<<<<<< HEAD
 notebooklm create "<nome progetto> Research"
+=======
+notebooklm create "FixCity Research"
+>>>>>>> laraxot/dev
 =======
 notebooklm create "FixCity Research"
 >>>>>>> laraxot/dev
@@ -78,6 +82,7 @@ Once authenticated, you can ask Claude Code to:
 ```
 "NotebookLM: Create a podcast about Laravel Actions patterns"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "NotebookLM: What's in my <nome progetto> Research notebook?"
 "NotebookLM: Generate a quiz about Filament Forms"
 ```
@@ -91,6 +96,8 @@ Recommended notebooks to create:
 2. **<nome progetto> Modules** - laravel/Modules/*/docs/README.md
 3. **<nome progetto> API** - API documentation, Swagger specs
 =======
+=======
+>>>>>>> laraxot/dev
 "NotebookLM: What's in my FixCity Research notebook?"
 "NotebookLM: Generate a quiz about Filament Forms"
 ```
@@ -103,6 +110,9 @@ Recommended notebooks to create:
 1. **FixCity Architecture** - agents.md, docs/architecture/*
 2. **FixCity Modules** - laravel/Modules/*/docs/README.md
 3. **FixCity API** - API documentation, Swagger specs
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Configuration

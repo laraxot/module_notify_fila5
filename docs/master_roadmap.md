@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🗺️ <nome progetto> - MASTER ROADMAP 2025-2026
+=======
+# 🗺️ FIXCITY - MASTER ROADMAP 2025-2026
+>>>>>>> laraxot/dev
 =======
 # 🗺️ FIXCITY - MASTER ROADMAP 2025-2026
 >>>>>>> laraxot/dev
@@ -11,7 +15,11 @@
 ## 📊 Executive Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Obiettivo**: Trasformare <nome progetto> da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.
+=======
+**Obiettivo**: Trasformare FixCity da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.
+>>>>>>> laraxot/dev
 =======
 **Obiettivo**: Trasformare FixCity da MVP funzionale a piattaforma enterprise-ready per gestione disservizi urbani scalabile a livello nazionale.
 >>>>>>> laraxot/dev

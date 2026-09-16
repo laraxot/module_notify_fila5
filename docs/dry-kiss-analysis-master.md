@@ -308,7 +308,11 @@ abstract class BaseModel extends XotBaseModel  // ✅ Standard
 #### Mese 6: Service/Action Consolidation
 - [ ] Xot: 31 Services → 25 (-6)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] <nome progetto>: Service→Action conversion
+=======
+- [ ] Fixcity: Service→Action conversion
+>>>>>>> laraxot/dev
 =======
 - [ ] Fixcity: Service→Action conversion
 >>>>>>> laraxot/dev
@@ -381,7 +385,11 @@ abstract class BaseModel extends XotBaseModel  // ✅ Standard
 10. Blog (7/10)
 11. Media (7/10)
 <<<<<<< HEAD
+<<<<<<< HEAD
 12. <nome progetto> (6.5/10)
+=======
+12. Fixcity (6.5/10)
+>>>>>>> laraxot/dev
 =======
 12. Fixcity (6.5/10)
 >>>>>>> laraxot/dev
@@ -642,7 +650,11 @@ Modules/
 ├── Cms/docs/dry-kiss-analysis.md
 ├── Comment/docs/dry-kiss-analysis.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── <nome progetto>/docs/dry-kiss-analysis.md
+=======
+├── Fixcity/docs/dry-kiss-analysis.md
+>>>>>>> laraxot/dev
 =======
 ├── Fixcity/docs/dry-kiss-analysis.md
 >>>>>>> laraxot/dev

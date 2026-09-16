@@ -29,7 +29,11 @@ body:
         ✅ [2026-03-13 13:58:45] Configurazione git completata con successo
         ℹ️ [2026-03-13 13:58:45] CI environment detected, skipping backup
 <<<<<<< HEAD
+<<<<<<< HEAD
         ✅ Found gitmodules.ini at: /var/www/_bases/<repo progetto>/gitmodules.ini
+=======
+        ✅ Found gitmodules.ini at: /var/www/_bases/base_ptv_fila5/gitmodules.ini
+>>>>>>> laraxot/dev
 =======
         ✅ Found gitmodules.ini at: /var/www/_bases/base_ptv_fila5/gitmodules.ini
 >>>>>>> laraxot/dev

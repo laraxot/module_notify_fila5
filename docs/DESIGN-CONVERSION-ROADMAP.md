@@ -181,15 +181,21 @@ node bashscripts/github/create-design-issues.mjs
 
 # View issues
 <<<<<<< HEAD
+<<<<<<< HEAD
 gh issue list --repo laraxot/<repo progetto> --label "design-comuni"
 
 # Filter by priority
 gh issue list --repo laraxot/<repo progetto> --label "priority:critical"
 =======
+=======
+>>>>>>> laraxot/dev
 gh issue list --repo laraxot/base_fixcity_fila5 --label "design-comuni"
 
 # Filter by priority
 gh issue list --repo laraxot/base_fixcity_fila5 --label "priority:critical"
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -252,7 +258,11 @@ npm run copy     # ~1 second
 ```bash
 # 1. Review the analysis
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5
 >>>>>>> laraxot/dev
@@ -345,7 +355,11 @@ cat laravel/Themes/Sixteen/docs/visual-parity-data.json
 **Ready to start? Run this now:**
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_fixcity_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5
 >>>>>>> laraxot/dev

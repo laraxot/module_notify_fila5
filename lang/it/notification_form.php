@@ -8,7 +8,11 @@ return [
             'label' => 'type',
             'placeholder' => 'type',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'type',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'type',
 >>>>>>> laraxot/dev
@@ -17,7 +21,11 @@ return [
             'label' => 'notifiable_type',
             'placeholder' => 'notifiable_type',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'notifiable_type',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'notifiable_type',
 >>>>>>> laraxot/dev
@@ -26,7 +34,11 @@ return [
             'label' => 'notifiable_id',
             'placeholder' => 'notifiable_id',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'notifiable_id',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'notifiable_id',
 >>>>>>> laraxot/dev
@@ -35,7 +47,11 @@ return [
             'label' => 'data',
             'placeholder' => 'data',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'data',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'data',
 >>>>>>> laraxot/dev
@@ -44,7 +60,11 @@ return [
             'label' => 'read_at',
             'placeholder' => 'read_at',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'read_at',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'read_at',
 >>>>>>> laraxot/dev
@@ -53,7 +73,11 @@ return [
             'label' => 'created_by',
             'placeholder' => 'created_by',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'created_by',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'created_by',
 >>>>>>> laraxot/dev
@@ -62,7 +86,11 @@ return [
             'label' => 'updated_by',
             'placeholder' => 'updated_by',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'updated_by',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'updated_by',
 >>>>>>> laraxot/dev

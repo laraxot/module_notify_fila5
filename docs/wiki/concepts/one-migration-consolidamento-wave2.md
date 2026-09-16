@@ -5,6 +5,7 @@ status: canonical
 module: Notify
 created: 2026-09-01
 <<<<<<< HEAD
+<<<<<<< HEAD
 updated: 2026-09-01
 tags: [migrations, notify, one-migration-per-model]
 qmd: "notify mail_templates notifications one migration git delete"
@@ -12,6 +13,8 @@ related:
   - ./notifications-database-contract.md
   - ../../../Xot/docs/wiki/concepts/one-migration-per-model.md
 =======
+=======
+>>>>>>> laraxot/dev
 updated: 2026-09-10
 tags: [migrations, notify, one-migration-per-model, mail-templates]
 qmd: "notify mail_templates notifications one migration git delete sms_from bump timestamp owner"
@@ -20,6 +23,9 @@ related:
   - ../../../Xot/docs/wiki/concepts/one-migration-per-model.md
   - ../../../../../../bashscripts/ai/wiki/memories/one-migration-per-model-bump-timestamp.md
   - ../../../../Quaeris/docs/stories/quaeris-send-invite-migrate-to-record-notification.md
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 
@@ -28,7 +34,10 @@ related:
 Un owner attivo per `mail_templates`, `notifications`, `notify_contacts`,
 `notification_logs`, `mail_template_versions`. Duplicati: **`git rm`** (storia in git).
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 
 ## Owner file attivi
 
@@ -72,4 +81,7 @@ essere migrati.
 4. `php artisan migrate --path=Modules/Notify/database/migrations/2026_09_10_150101_create_mail_templates_table.php`
    (mai `--force`/`--fresh`/`--refresh`). In produzione la stessa migration va
    rilanciata a parte (i DB non sono ricreati, sono ripristinati da backup).
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

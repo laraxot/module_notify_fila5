@@ -9,7 +9,11 @@
 ## Executive Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ho aggiornato l'intero sistema di documentazione del progetto <nome progetto> Fila5 con:
+=======
+Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:
+>>>>>>> laraxot/dev
 =======
 Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:
 >>>>>>> laraxot/dev
@@ -51,7 +55,11 @@ Ho aggiornato l'intero sistema di documentazione del progetto FixCity Fila5 con:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> Fila5 Documentation (7,299 files)
+=======
+FixCity Fila5 Documentation (7,299 files)
+>>>>>>> laraxot/dev
 =======
 FixCity Fila5 Documentation (7,299 files)
 >>>>>>> laraxot/dev
@@ -80,7 +88,11 @@ FixCity Fila5 Documentation (7,299 files)
 │   │   ├── testing/
 │   │   └── ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   ├── <nome progetto>/docs/
+=======
+│   ├── Fixcity/docs/
+>>>>>>> laraxot/dev
 =======
 │   ├── Fixcity/docs/
 >>>>>>> laraxot/dev
@@ -284,7 +296,11 @@ Every documentation file should have:
 Start at module index:
 - `Modules/Xot/docs/00-index.md` (1,941 files)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/<nome progetto>/docs/README.md`
+=======
+- `Modules/Fixcity/docs/README.md`
+>>>>>>> laraxot/dev
 =======
 - `Modules/Fixcity/docs/README.md`
 >>>>>>> laraxot/dev

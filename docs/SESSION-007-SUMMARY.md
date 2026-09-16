@@ -4,7 +4,11 @@
 **Session Date**: 2026-04-08  
 **Agent Role**: Researcher (BMAD Mode C - Opzione C)  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Scope**: <nome progetto> Sixteen Theme - Phase 1 HTML Parity (segnalazioni-elenco)  
+=======
+**Scope**: FixCity Sixteen Theme - Phase 1 HTML Parity (segnalazioni-elenco)  
+>>>>>>> laraxot/dev
 =======
 **Scope**: FixCity Sixteen Theme - Phase 1 HTML Parity (segnalazioni-elenco)  
 >>>>>>> laraxot/dev
@@ -279,7 +283,11 @@ Must achieve ALL criteria:
 - [ ] Card grid with `.card.card-report` pattern
 - [ ] Bootstrap semantic classes (`.bg-light`, `.btn-primary`, etc.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] All user-visible text using `trans('<nome progetto>::...')`
+=======
+- [ ] All user-visible text using `trans('fixcity::...')`
+>>>>>>> laraxot/dev
 =======
 - [ ] All user-visible text using `trans('fixcity::...')`
 >>>>>>> laraxot/dev
@@ -451,7 +459,11 @@ Must achieve ALL criteria:
 
 *Session 007 Summary - Researcher Agent (BMAD Mode C)*  
 <<<<<<< HEAD
+<<<<<<< HEAD
 *<nome progetto> Sixteen Theme - Phase 1 HTML Structural Parity*  
+=======
+*FixCity Sixteen Theme - Phase 1 HTML Structural Parity*  
+>>>>>>> laraxot/dev
 =======
 *FixCity Sixteen Theme - Phase 1 HTML Structural Parity*  
 >>>>>>> laraxot/dev

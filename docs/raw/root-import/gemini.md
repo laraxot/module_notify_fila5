@@ -9,7 +9,11 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Convenzioni](./.agents/docs/main-rules/gemini-conventions.md)
 - [Best Practices Laravel](./.agents/docs/main-rules/gemini-laravel-best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Specifiche Laravel 13](./.agents/docs/main-rules/gemini-v12.md)
+=======
+- [Specifiche Laravel 12](./.agents/docs/main-rules/gemini-v12.md)
+>>>>>>> laraxot/dev
 =======
 - [Specifiche Laravel 12](./.agents/docs/main-rules/gemini-v12.md)
 >>>>>>> laraxot/dev

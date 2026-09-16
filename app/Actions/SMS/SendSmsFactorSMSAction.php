@@ -9,7 +9,11 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SMS\SmsActionContract;
+=======
+use Modules\Notify\Models\Contracts\SmsActionContract;
+>>>>>>> laraxot/dev
 =======
 use Modules\Notify\Models\Contracts\SmsActionContract;
 >>>>>>> laraxot/dev
@@ -59,7 +63,10 @@ final class SendSmsFactorSMSAction implements SmsActionContract
      * @throws Exception In caso di errore durante l'invio
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     public function execute(SmsData $smsData): array
@@ -79,7 +86,11 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         $body = [
             'text' => $smsData->body,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => $smsData->from ?? $this->defaultSender,
+=======
+            'sender' => $smsData->from ?: $this->defaultSender,
+>>>>>>> laraxot/dev
 =======
             'sender' => $smsData->from ?: $this->defaultSender,
 >>>>>>> laraxot/dev

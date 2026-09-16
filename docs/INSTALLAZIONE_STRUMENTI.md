@@ -88,7 +88,11 @@ docs/
 ## Prossimi Passi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Configurare OpenViking context per <nome progetto>
+=======
+1. Configurare OpenViking context per FixCity
+>>>>>>> laraxot/dev
 =======
 1. Configurare OpenViking context per FixCity
 >>>>>>> laraxot/dev

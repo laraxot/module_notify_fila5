@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "issue-subtree-sync-test 🧪 test: git subtree synchronization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -95,8 +100,13 @@ Verify that changes made in module repositories sync correctly to the main repos
 ```bash
 # 1. Go to project root
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_fixcity_fila5
+cd /var/www/_bases/base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5
 cd /var/www/_bases/base_ptvx_fila5
@@ -122,7 +132,11 @@ git push origin dev
 
 # 2. Wait for GitHub Action
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 3. Check: https://github.com/laraxot/<repo progetto>/actions
+=======
+# 3. Check: https://github.com/laraxot/base_fixcity_fila5/actions
+>>>>>>> laraxot/dev
 =======
 # 3. Check: https://github.com/laraxot/base_fixcity_fila5/actions
 >>>>>>> laraxot/dev

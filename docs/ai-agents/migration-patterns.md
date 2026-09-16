@@ -112,7 +112,11 @@ Modules/{ModuleName}/database/
 - Always verify with `ls -la database/` before placing migration files
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Issue: https://github.com/provtv/<repo progetto>/issues/71
+=======
+Issue: https://github.com/provtv/base_ptv_fila5_mono/issues/71
+>>>>>>> laraxot/dev
 =======
 Issue: https://github.com/provtv/base_ptv_fila5_mono/issues/71
 >>>>>>> laraxot/dev

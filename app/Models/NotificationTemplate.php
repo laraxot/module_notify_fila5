@@ -293,7 +293,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @return array<string, string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     protected function casts(): array

@@ -1,7 +1,11 @@
 # 5. Database & Models
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Database Config (Laravel 13 Standard)
+=======
+### Database Config (Laravel 12 Standard)
+>>>>>>> laraxot/dev
 =======
 ### Database Config (Laravel 12 Standard)
 >>>>>>> laraxot/dev

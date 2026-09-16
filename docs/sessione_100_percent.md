@@ -221,8 +221,13 @@
 **URL Reference**:
 - Bootstrap Italia: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto>: http://<nome progetto>.local/it/tests/homepage
 - <nome progetto>: http://ptv.local/it/tests/homepage
+=======
+- FixCity: http://fixcity.local/it/tests/homepage
+- FixCity: http://ptv.local/it/tests/homepage
+>>>>>>> laraxot/dev
 =======
 - FixCity: http://fixcity.local/it/tests/homepage
 - FixCity: http://ptv.local/it/tests/homepage

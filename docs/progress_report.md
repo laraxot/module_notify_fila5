@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📊 <nome progetto> PROJECT - PROGRESS REPORT
+=======
+# 📊 FIXCITY PROJECT - PROGRESS REPORT
+>>>>>>> laraxot/dev
 =======
 # 📊 FIXCITY PROJECT - PROGRESS REPORT
 >>>>>>> laraxot/dev
@@ -14,7 +18,11 @@
 ## 🎯 Executive Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto **<nome progetto>** ha comple
+=======
+Il progetto **FixCity** ha comple
+>>>>>>> laraxot/dev
 =======
 Il progetto **FixCity** ha comple
 >>>>>>> laraxot/dev

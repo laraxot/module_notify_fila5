@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "html-parity-rules html parity analysis rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -66,7 +71,11 @@ The reference HTML structure (tags, attributes, classes, IDs, nesting) MUST be r
         />
     @empty
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p>{{ trans('<nome progetto>::common.no_content') }}</p>
+=======
+        <p>{{ trans('fixcity::common.no_content') }}</p>
+>>>>>>> laraxot/dev
 =======
         <p>{{ trans('fixcity::common.no_content') }}</p>
 >>>>>>> laraxot/dev
@@ -92,7 +101,11 @@ The reference HTML structure (tags, attributes, classes, IDs, nesting) MUST be r
 #### ✅ CORRECT Pattern
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto>::<module>.<context>.<key>.<type>
+=======
+fixcity::<module>.<context>.<key>.<type>
+>>>>>>> laraxot/dev
 =======
 fixcity::<module>.<context>.<key>.<type>
 >>>>>>> laraxot/dev
@@ -112,6 +125,7 @@ ptv::common.errors.not_found.message
 ```
 SEGNALAZIONE::SEGNALAZIONE.ELENCO.TITLE     ← Namespace case, missing type
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto>::segnalazione.heading.title_label   ← Underscore instead of dot
 segnalazione::segnalazione.fields.title     ← Module case, missing type
 <nome progetto>::fields.title.label                 ← Missing module
@@ -126,6 +140,8 @@ segnalazione::segnalazione.fields.title     ← Module case, missing type
 #### Rules
 - **Namespace**: Always `<nome progetto>` (not module name)
 =======
+=======
+>>>>>>> laraxot/dev
 fixcity::segnalazione.heading.title_label   ← Underscore instead of dot
 segnalazione::segnalazione.fields.title     ← Module case, missing type
 fixcity::fields.title.label                 ← Missing module
@@ -139,6 +155,9 @@ fixcity::fields.title.label                 ← Missing module
 
 #### Rules
 - **Namespace**: Always `fixcity` (not module name)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - **Module**: lowercase kebab-case (e.g., `segnalazione`)
 - **Context**: lowercase kebab-case (e.g., `fields`, `heading`, `actions`)
@@ -280,9 +299,15 @@ docs/
 
 <!-- ✅ CORRECT -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h1>{{ trans('<nome progetto>::segnalazione.heading.title.label') }}</h1>
 <label>{{ trans('<nome progetto>::segnalazione.fields.title.label') }}</label>
 <button>{{ trans('<nome progetto>::segnalazione.actions.submit.label') }}</button>
+=======
+<h1>{{ trans('fixcity::segnalazione.heading.title.label') }}</h1>
+<label>{{ trans('fixcity::segnalazione.fields.title.label') }}</label>
+<button>{{ trans('fixcity::segnalazione.actions.submit.label') }}</button>
+>>>>>>> laraxot/dev
 =======
 <h1>{{ trans('fixcity::segnalazione.heading.title.label') }}</h1>
 <label>{{ trans('fixcity::segnalazione.fields.title.label') }}</label>
@@ -310,7 +335,11 @@ docs/
         <x-dynamic-component :component="$block->view" :data="$block->data" />
     @empty
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p>{{ trans('<nome progetto>::common.no_content') }}</p>
+=======
+        <p>{{ trans('fixcity::common.no_content') }}</p>
+>>>>>>> laraxot/dev
 =======
         <p>{{ trans('fixcity::common.no_content') }}</p>
 >>>>>>> laraxot/dev
@@ -355,8 +384,13 @@ bashscripts/html/html-structure-compare.sh              # In category
 ```bash
 # ❌ WRONG in bashscripts/html/script.sh
 <<<<<<< HEAD
+<<<<<<< HEAD
 OUTPUT_DIR="/var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/docs/..."
 OUTPUT_DIR="/var/www/_bases/<repo progetto>/laravel/Themes/Sixteen/docs/..."
+=======
+OUTPUT_DIR="/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/..."
+OUTPUT_DIR="/var/www/_bases/base_ptv_fila5/laravel/Themes/Sixteen/docs/..."
+>>>>>>> laraxot/dev
 =======
 OUTPUT_DIR="/var/www/_bases/base_fixcity_fila5/laravel/Themes/Sixteen/docs/..."
 OUTPUT_DIR="/var/www/_bases/base_ptv_fila5/laravel/Themes/Sixteen/docs/..."
@@ -423,7 +457,11 @@ trans('ptv::segnalazione.heading.title.label')
 - [ ] Blade uses `<x-layouts.app>` only
 - [ ] NO hardcoded strings (all use `trans()`)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Translation keys follow pattern: `<nome progetto>::<module>.<context>.<key>.<type>`
+=======
+- [ ] Translation keys follow pattern: `fixcity::<module>.<context>.<key>.<type>`
+>>>>>>> laraxot/dev
 =======
 - [ ] Translation keys follow pattern: `fixcity::<module>.<context>.<key>.<type>`
 >>>>>>> laraxot/dev

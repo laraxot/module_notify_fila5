@@ -77,7 +77,11 @@ The Notify module provides a comprehensive notification system for the Laraxot s
 ### 7. Customer Communication History
 **Parent Resource:** CustomerResource (from App module)
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Parent Resource:** CustomerResource (from <nome progetto> module)
+=======
+**Parent Resource:** CustomerResource (from Quaeris module)
+>>>>>>> laraxot/dev
 =======
 **Parent Resource:** CustomerResource (from Quaeris module)
 >>>>>>> laraxot/dev
@@ -88,7 +92,11 @@ The Notify module provides a comprehensive notification system for the Laraxot s
 ### 8. Survey Communication Logs
 **Parent Resource:** SurveyPdfResource (from App module)
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Parent Resource:** SurveyPdfResource (from <nome progetto> module)
+=======
+**Parent Resource:** SurveyPdfResource (from Quaeris module)
+>>>>>>> laraxot/dev
 =======
 **Parent Resource:** SurveyPdfResource (from Quaeris module)
 >>>>>>> laraxot/dev
@@ -200,7 +208,11 @@ Following the documented approach in `Modules/UI/docs/filament/nested-resource.m
 ### 4. Integration with Other Modules
 - Handle relationships with App module (surveys and contacts)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Handle relationships with <nome progetto> module (surveys and contacts)
+=======
+- Handle relationships with Quaeris module (surveys and contacts)
+>>>>>>> laraxot/dev
 =======
 - Handle relationships with Quaeris module (surveys and contacts)
 >>>>>>> laraxot/dev

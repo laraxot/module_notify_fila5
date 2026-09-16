@@ -114,7 +114,11 @@ return [
             'label' => 'slug',
             'description' => 'slug',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'slug',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'slug',
 >>>>>>> laraxot/dev
@@ -140,10 +144,13 @@ return [
         'sms_template' => [
             'description' => 'sms_template',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
             'placeholder' => 'sms_template',
             'label' => 'sms_template',
 =======
+=======
+>>>>>>> laraxot/dev
             'helper_text' => 'Testo del messaggio SMS di invito',
             'placeholder' => 'Inserisci il testo del messaggio SMS',
             'label' => 'Testo SMS',
@@ -153,6 +160,9 @@ return [
             'helper_text' => 'Mittente SMS per questo template (max 11 caratteri, alfanumerico). Se vuoto usa il mittente globale (config sms.from).',
             'placeholder' => 'es. VIVASERVIZI',
             'label' => 'Mittente SMS',
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             'tooltip' => ''],
         'edit' => [
@@ -178,9 +188,15 @@ return [
         'html_layout_path' => [
             'description' => 'html_layout_path',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'label' => '',
             'tooltip' => '',
             'helper_text' => '']],
+=======
+            'label' => 'Layout HTML',
+            'tooltip' => '',
+            'helper_text' => 'Layout HTML in cui viene inserito il contenuto del template email']],
+>>>>>>> laraxot/dev
 =======
             'label' => 'Layout HTML',
             'tooltip' => '',

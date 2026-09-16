@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "visual-analysis-report documentation visual analysis report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -283,7 +288,11 @@ MODULE INDEX        THEME INDEX      ARCHITECTURE
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 PROJECT: <nome progetto> Fila5
+=======
+PROJECT: FixCity Fila5
+>>>>>>> laraxot/dev
 =======
 PROJECT: FixCity Fila5
 >>>>>>> laraxot/dev
@@ -462,8 +471,13 @@ TASK: "Understand system architecture"
 ```
 Filesystem Server
 <<<<<<< HEAD
+<<<<<<< HEAD
 └─ Reads: /var/www/_bases/<repo progetto>/
 └─ Reads: /var/www/_bases/<repo progetto>/
+=======
+└─ Reads: /var/www/_bases/base_fixcity_fila5/
+└─ Reads: /var/www/_bases/base_ptv_fila5/
+>>>>>>> laraxot/dev
 =======
 └─ Reads: /var/www/_bases/base_fixcity_fila5/
 └─ Reads: /var/www/_bases/base_ptv_fila5/
@@ -504,7 +518,11 @@ Memory Server
 ```
 ┌──────────────────────────────────────────────┐
 <<<<<<< HEAD
+<<<<<<< HEAD
 │  <nome progetto> Documentation Health Dashboard      │
+=======
+│  FixCity Documentation Health Dashboard      │
+>>>>>>> laraxot/dev
 =======
 │  FixCity Documentation Health Dashboard      │
 >>>>>>> laraxot/dev

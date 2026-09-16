@@ -15,7 +15,11 @@ Illuminate\Database\QueryException
 SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Database: /var/www/_bases/<repo progetto>/laravel/database/notify_data.sqlite
+=======
+Database: /var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
+>>>>>>> laraxot/dev
 =======
 Database: /var/www/_bases/base_ptvx_fila5/laravel/database/notify_data.sqlite
 >>>>>>> laraxot/dev
@@ -37,7 +41,11 @@ Il file del database SQLite aveva permessi errati:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptvx_fila5
 >>>>>>> laraxot/dev
@@ -164,7 +172,11 @@ Create `bashscripts/fix-permissions.sh`:
 # Fix Laravel permissions
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 PROJECT_ROOT="/var/www/_bases/<repo progetto>"
+=======
+PROJECT_ROOT="/var/www/_bases/base_ptvx_fila5"
+>>>>>>> laraxot/dev
 =======
 PROJECT_ROOT="/var/www/_bases/base_ptvx_fila5"
 >>>>>>> laraxot/dev

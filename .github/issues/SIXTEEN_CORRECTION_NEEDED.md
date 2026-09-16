@@ -109,8 +109,13 @@ public function boot(): void
 After fixes:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] `http://<nome progetto>.local/it/tests/argomenti` loads correctly
 - [ ] `http://<nome progetto>.local/it/tests/appuntamento-06-conferma` loads correctly
+=======
+- [ ] `http://fixcity.local/it/tests/argomenti` loads correctly
+- [ ] `http://fixcity.local/it/tests/appuntamento-06-conferma` loads correctly
+>>>>>>> laraxot/dev
 =======
 - [ ] `http://fixcity.local/it/tests/argomenti` loads correctly
 - [ ] `http://fixcity.local/it/tests/appuntamento-06-conferma` loads correctly

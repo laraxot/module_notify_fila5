@@ -1006,7 +1006,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### ✅ 5. Analisi LoginWidget Filament 5
+=======
+### ✅ 5. Analisi LoginWidget Filament 4
+>>>>>>> laraxot/dev
 =======
 ### ✅ 5. Analisi LoginWidget Filament 4
 >>>>>>> laraxot/dev
@@ -1052,7 +1056,11 @@ class LoginWidget extends XotBaseWidget
 #### 🔑 Perché Funziona
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **1. Widget Pattern Filament 5**:
+=======
+**1. Widget Pattern Filament 4**:
+>>>>>>> laraxot/dev
 =======
 **1. Widget Pattern Filament 4**:
 >>>>>>> laraxot/dev
@@ -1074,7 +1082,11 @@ class LoginWidget extends XotBaseWidget
 ```
 - Rende TUTTI i campi definiti in `getFormSchema()`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Styling automatico Filament 5
+=======
+- Styling automatico Filament 4
+>>>>>>> laraxot/dev
 =======
 - Styling automatico Filament 4
 >>>>>>> laraxot/dev
@@ -1161,7 +1173,11 @@ class LoginWidget extends XotBaseWidget
 ## 🎓 Conoscenze Acquisite
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Architettura Filament 5 Widgets
+=======
+### Architettura Filament 4 Widgets
+>>>>>>> laraxot/dev
 =======
 ### Architettura Filament 4 Widgets
 >>>>>>> laraxot/dev
@@ -1260,7 +1276,11 @@ wire:submit="method" → Azione submit
 - **🥉 3 README Creati**: Comment, Seo, Theme One
 - **🏅 Indice Generale**: Navigazione documentazione completa
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **🎖️ Analisi LoginWidget**: Architettura Filament 5 documentata
+=======
+- **🎖️ Analisi LoginWidget**: Architettura Filament 4 documentata
+>>>>>>> laraxot/dev
 =======
 - **🎖️ Analisi LoginWidget**: Architettura Filament 4 documentata
 >>>>>>> laraxot/dev
@@ -1393,7 +1413,11 @@ related:
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### ✅ Form Widget Filament 5
+=======
+### ✅ Form Widget Filament 4
+>>>>>>> laraxot/dev
 =======
 ### ✅ Form Widget Filament 4
 >>>>>>> laraxot/dev
@@ -1480,7 +1504,11 @@ Vista Widget: Themes/Sixteen/.../auth/login.blade.php
   - <button type="submit">Accedi</button>
     ↓
 <<<<<<< HEAD
+<<<<<<< HEAD
 Filament 5 Processing:
+=======
+Filament 4 Processing:
+>>>>>>> laraxot/dev
 =======
 Filament 4 Processing:
 >>>>>>> laraxot/dev
@@ -1580,7 +1608,11 @@ Fail: Error message + rimane su form
 - [x] Loading spinner durante submit
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Filament 5 Integration ✅
+=======
+#### Filament 4 Integration ✅
+>>>>>>> laraxot/dev
 =======
 #### Filament 4 Integration ✅
 >>>>>>> laraxot/dev
@@ -1664,7 +1696,11 @@ Premi **CTRL+F5** (hard refresh) per svuotare cache browser
 ## 💡 Cosa Ho Capito e Documentato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Architettura Filament 5 Widgets
+=======
+### Architettura Filament 4 Widgets
+>>>>>>> laraxot/dev
 =======
 ### Architettura Filament 4 Widgets
 >>>>>>> laraxot/dev
@@ -1746,7 +1782,11 @@ Premi **CTRL+F5** (hard refresh) per svuotare cache browser
 
 ### Conoscenza Acquisita
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **Filament 5 Widgets** - Pattern completo documentato
+=======
+- ✅ **Filament 4 Widgets** - Pattern completo documentato
+>>>>>>> laraxot/dev
 =======
 - ✅ **Filament 4 Widgets** - Pattern completo documentato
 >>>>>>> laraxot/dev
@@ -1862,7 +1902,11 @@ Password: password
 ## 🎓 Lezioni Apprese
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Pattern Filament 5 Widgets
+=======
+### Pattern Filament 4 Widgets
+>>>>>>> laraxot/dev
 =======
 ### Pattern Filament 4 Widgets
 >>>>>>> laraxot/dev
@@ -1915,7 +1959,11 @@ Password: password
 - ✅ Login funzionante
 - ✅ Design Docs.Italia.it
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Widget Filament 5 integrato
+=======
+- ✅ Widget Filament 4 integrato
+>>>>>>> laraxot/dev
 =======
 - ✅ Widget Filament 4 integrato
 >>>>>>> laraxot/dev

@@ -95,7 +95,11 @@ composer show livewire/livewire
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>/laravel
+=======
+cd /var/www/_bases/base_ptv_fila5/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptv_fila5/laravel
 >>>>>>> laraxot/dev

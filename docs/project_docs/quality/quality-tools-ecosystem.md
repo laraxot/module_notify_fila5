@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔧 ECOSISTEMA STRUMENTI QUALITÀ - <nome progetto> PLATFORM
+=======
+# 🔧 ECOSISTEMA STRUMENTI QUALITÀ - FIXCITY PLATFORM
+>>>>>>> laraxot/dev
 =======
 # 🔧 ECOSISTEMA STRUMENTI QUALITÀ - FIXCITY PLATFORM
 >>>>>>> laraxot/dev
@@ -12,7 +16,11 @@
 
 ## 🎯 OBIETTIVO
 <<<<<<< HEAD
+<<<<<<< HEAD
 Implementare un ecosistema completo di strumenti di qualità del codice per il progetto <nome progetto>, coprendo tutti gli aspetti: PHP, JavaScript, CSS, sicurezza, documentazione e CI/CD.
+=======
+Implementare un ecosistema completo di strumenti di qualità del codice per il progetto FixCity, coprendo tutti gli aspetti: PHP, JavaScript, CSS, sicurezza, documentazione e CI/CD.
+>>>>>>> laraxot/dev
 =======
 Implementare un ecosistema completo di strumenti di qualità del codice per il progetto FixCity, coprendo tutti gli aspetti: PHP, JavaScript, CSS, sicurezza, documentazione e CI/CD.
 >>>>>>> laraxot/dev
@@ -721,7 +729,11 @@ jobs:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Questo ecosistema garantisce la massima qualità del codice in tutti gli aspetti del progetto <nome progetto> Platform.*
+=======
+*Questo ecosistema garantisce la massima qualità del codice in tutti gli aspetti del progetto FixCity Platform.*
+>>>>>>> laraxot/dev
 =======
 *Questo ecosistema garantisce la massima qualità del codice in tutti gli aspetti del progetto FixCity Platform.*
 >>>>>>> laraxot/dev

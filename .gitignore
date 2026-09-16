@@ -176,6 +176,7 @@ reports
 reports/
 graphify-out/
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Laraxot — quality tool config forbidden in module root (2026-09-15)
 phpinsights.php
@@ -191,6 +192,10 @@ phpinsights.php
 /.vscode/
 .cursor~*
 .windsurf~*
+=======
+docs/_archive
+docs/archived
+>>>>>>> laraxot/dev
 =======
 docs/_archive
 docs/archived

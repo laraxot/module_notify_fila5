@@ -26,7 +26,11 @@ Il modulo **Notify** è il motore di comunicazione dell'applicazione, fornendo:
 
 **Architettura**: Modulo infrastrutturale per comunicazioni; utilizzato da App per distribuzione survey.
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Architettura**: Modulo infrastrutturale per comunicazioni; utilizzato da <nome progetto> per distribuzione survey.
+=======
+**Architettura**: Modulo infrastrutturale per comunicazioni; utilizzato da Quaeris per distribuzione survey.
+>>>>>>> laraxot/dev
 =======
 **Architettura**: Modulo infrastrutturale per comunicazioni; utilizzato da Quaeris per distribuzione survey.
 >>>>>>> laraxot/dev
@@ -244,7 +248,11 @@ Nessuna funzionalità critica mancante - il modulo Notify è ben implementato
 
 - [Modulo App](../App/docs/readme.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo <nome progetto>](../<nome progetto>/docs/readme.md)
+=======
+- [Modulo Quaeris](../Quaeris/docs/readme.md)
+>>>>>>> laraxot/dev
 =======
 - [Modulo Quaeris](../Quaeris/docs/readme.md)
 >>>>>>> laraxot/dev

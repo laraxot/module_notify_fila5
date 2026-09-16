@@ -10,7 +10,11 @@
 ## 🎯 OBIETTIVO RAGGIUNTO
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Analizzato il design system ufficiale dei comuni italiani e integrato i suoi pattern, componenti e best practices in <nome progetto> per garantire la conformità AGID 100%.
+=======
+Analizzato il design system ufficiale dei comuni italiani e integrato i suoi pattern, componenti e best practices in FixCity per garantire la conformità AGID 100%.
+>>>>>>> laraxot/dev
 =======
 Analizzato il design system ufficiale dei comuni italiani e integrato i suoi pattern, componenti e best practices in FixCity per garantire la conformità AGID 100%.
 >>>>>>> laraxot/dev
@@ -128,7 +132,11 @@ $h2-font-size: 2rem;   // 32px
 ### Segnalazione Disservizio = Ticket System
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Design Comuni | <nome progetto> | Match |
+=======
+| Design Comuni | FixCity | Match |
+>>>>>>> laraxot/dev
 =======
 | Design Comuni | FixCity | Match |
 >>>>>>> laraxot/dev
@@ -152,7 +160,11 @@ $h2-font-size: 2rem;   // 32px
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🎯 BENEFITS FOR <nome progetto>
+=======
+## 🎯 BENEFITS FOR FIXCITY
+>>>>>>> laraxot/dev
 =======
 ## 🎯 BENEFITS FOR FIXCITY
 >>>>>>> laraxot/dev
@@ -312,7 +324,11 @@ $h2-font-size: 2rem;   // 32px
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 📊 TOTALE PROGETTO <nome progetto>
+=======
+## 📊 TOTALE PROGETTO FIXCITY
+>>>>>>> laraxot/dev
 =======
 ## 📊 TOTALE PROGETTO FIXCITY
 >>>>>>> laraxot/dev
@@ -339,9 +355,15 @@ $h2-font-size: 2rem;   // 32px
 **Ready**: 🚀 **FOR PRODUCTION**  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *"Integrando il design system ufficiale dei comuni italiani, <nome progetto> è ora pronto per essere adottato da qualsiasi comune italiano con la garanzia di conformità AGID 100%!"*
 
 **#<nome progetto>2025 #DesignComuni #AGID #BootstrapItalia #Accessibility #PA**
+=======
+*"Integrando il design system ufficiale dei comuni italiani, FixCity è ora pronto per essere adottato da qualsiasi comune italiano con la garanzia di conformità AGID 100%!"*
+
+**#FixCity2025 #DesignComuni #AGID #BootstrapItalia #Accessibility #PA**
+>>>>>>> laraxot/dev
 =======
 *"Integrando il design system ufficiale dei comuni italiani, FixCity è ora pronto per essere adottato da qualsiasi comune italiano con la garanzia di conformità AGID 100%!"*
 

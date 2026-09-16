@@ -16,7 +16,11 @@ Questo documento descrive le best practices per la creazione e gestione di email
 ### 2. Branding Coerente
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font Quaeris
+>>>>>>> laraxot/dev
 =======
 - **Elementi visuali**: Utilizzare logo, colori e font Quaeris
 >>>>>>> laraxot/dev
@@ -67,8 +71,13 @@ I template di [mailpace/templates](https://github.com/mailpace/templates) integr
 ### Directory `mail-layouts`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 La directory `/var/www/_bases/<repo progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+=======
+La directory `/var/www/html/Quaeris/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+La directory `/var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> laraxot/dev
 =======
 La directory `/var/www/html/Quaeris/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 La directory `/var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/resources/mail-layouts/` contiene:
@@ -82,7 +91,11 @@ La directory `/var/www/_bases/base_ptvx_fila5/laravel/Modules/Notify/resources/m
 ### Integrazione con Spatie Mail Templates
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo le regole di progetto <nome progetto>, ricordare di:
+=======
+Seguendo le regole di progetto Quaeris, ricordare di:
+>>>>>>> laraxot/dev
 =======
 Seguendo le regole di progetto Quaeris, ricordare di:
 >>>>>>> laraxot/dev

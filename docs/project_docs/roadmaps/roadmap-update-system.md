@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔄 SISTEMA AGGIORNAMENTO ROADMAP - <nome progetto> PLATFORM
+=======
+# 🔄 SISTEMA AGGIORNAMENTO ROADMAP - FIXCITY PLATFORM
+>>>>>>> laraxot/dev
 =======
 # 🔄 SISTEMA AGGIORNAMENTO ROADMAP - FIXCITY PLATFORM
 >>>>>>> laraxot/dev
@@ -26,7 +30,11 @@ project_docs/roadmaps/
 ├── roadmap-update-system.md      # Questo file
 └── modules/                      # Roadmap specifiche moduli
 <<<<<<< HEAD
+<<<<<<< HEAD
     ├── <nome progetto>-roadmap.md
+=======
+    ├── fixcity-roadmap.md
+>>>>>>> laraxot/dev
 =======
     ├── fixcity-roadmap.md
 >>>>>>> laraxot/dev
@@ -482,7 +490,11 @@ class ProgressReportGenerator
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Questo sistema garantisce l'aggiornamento costante e coerente di tutte le roadmap del progetto <nome progetto>.*
+=======
+*Questo sistema garantisce l'aggiornamento costante e coerente di tutte le roadmap del progetto FixCity.*
+>>>>>>> laraxot/dev
 =======
 *Questo sistema garantisce l'aggiornamento costante e coerente di tutte le roadmap del progetto FixCity.*
 >>>>>>> laraxot/dev

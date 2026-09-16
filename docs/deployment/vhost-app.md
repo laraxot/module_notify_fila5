@@ -13,7 +13,11 @@
 | **ServerName** | `laraxot.local` |
 | **ServerAlias** | `www.laraxot.local` |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **DocumentRoot** | `/var/www/_bases/<repo progetto>/public_html` |
+=======
+| **DocumentRoot** | `/var/www/_bases/base_ptvx_fila5/public_html` |
+>>>>>>> laraxot/dev
 =======
 | **DocumentRoot** | `/var/www/_bases/base_ptvx_fila5/public_html` |
 >>>>>>> laraxot/dev
@@ -114,9 +118,15 @@ Il file `public_html/.htaccess` gestisce il routing Laravel:
 ```bash
 # Verifica permessi
 <<<<<<< HEAD
+<<<<<<< HEAD
 ls -la /var/www/_bases/<repo progetto>/public_html/
 # Deve essere leggibile da www-data
 sudo chown -R www-data:www-data /var/www/_bases/<repo progetto>/public_html/
+=======
+ls -la /var/www/_bases/base_ptvx_fila5/public_html/
+# Deve essere leggibile da www-data
+sudo chown -R www-data:www-data /var/www/_bases/base_ptvx_fila5/public_html/
+>>>>>>> laraxot/dev
 =======
 ls -la /var/www/_bases/base_ptvx_fila5/public_html/
 # Deve essere leggibile da www-data

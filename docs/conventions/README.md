@@ -314,6 +314,10 @@ Modules/ModuleName/
 ❌ H1 Header
 ❌ H1 Header
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   ==========
+>>>>>>> laraxot/dev
 =======
    ==========
 >>>>>>> laraxot/dev
@@ -381,7 +385,11 @@ find . -name "*[A-Z]*" -type d | grep -v node_modules | grep -v vendor
 
 **Maintainer**: @marco76tv  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Contact**: dev @<nome progetto>.example.com  
+=======
+**Contact**: dev @fixcity.example.com  
+>>>>>>> laraxot/dev
 =======
 **Contact**: dev @fixcity.example.com  
 >>>>>>> laraxot/dev

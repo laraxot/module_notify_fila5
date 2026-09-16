@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "📊 <nome progetto> PROJECT - PROGRESS REPORT"
+=======
+title: "📊 FIXCITY PROJECT - PROGRESS REPORT"
+>>>>>>> laraxot/dev
 =======
 title: "📊 FIXCITY PROJECT - PROGRESS REPORT"
 >>>>>>> laraxot/dev
@@ -9,15 +13,21 @@ tags: [progress, report]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "progress-report 📊 <nome progetto> project - progress report"
 qmd: "progress-report 📊 ptv project - progress report"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "progress-report 📊 fixcity project - progress report"
 qmd: "progress-report 📊 ptv project - progress report"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
@@ -31,7 +41,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📊 <nome progetto> PROJECT - PROGRESS REPORT
+=======
+# 📊 FIXCITY PROJECT - PROGRESS REPORT
+>>>>>>> laraxot/dev
 =======
 # 📊 FIXCITY PROJECT - PROGRESS REPORT
 >>>>>>> laraxot/dev
@@ -46,7 +60,11 @@ related:
 ## 🎯 Executive Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto **<nome progetto>** ha comple
+=======
+Il progetto **FixCity** ha comple
+>>>>>>> laraxot/dev
 =======
 Il progetto **FixCity** ha comple
 >>>>>>> laraxot/dev

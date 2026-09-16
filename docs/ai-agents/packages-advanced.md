@@ -503,7 +503,11 @@ Code quality analysis: complexity, style, architecture.
 | google/cloud-storage | 1.49.2 | (infra) | GCS client |
 | spatie/laravel-google-cloud-storage | 2.3.4 | (infra) | GCS filesystem driver |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | spipu/html2pdf | 5.3.3 | Xot, <nome progetto> | HTML to PDF |
+=======
+| spipu/html2pdf | 5.3.3 | Xot, Quaeris | HTML to PDF |
+>>>>>>> laraxot/dev
 =======
 | spipu/html2pdf | 5.3.3 | Xot, Quaeris | HTML to PDF |
 >>>>>>> laraxot/dev

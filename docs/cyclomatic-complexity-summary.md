@@ -43,7 +43,11 @@
 | ✅ Cms | 427 | 29,897 | 811 |  0 | 1.35 | 6 |
 | ✅ Comment | 137 | 4,978 | 259 |  0 | 1.25 | 9 |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | ✅ <nome progetto> | 533 | 67,319 | 1,098 |  0 | 1.23 | 10 |
+=======
+| ✅ Fixcity | 533 | 67,319 | 1,098 |  0 | 1.23 | 10 |
+>>>>>>> laraxot/dev
 =======
 | ✅ Fixcity | 533 | 67,319 | 1,098 |  0 | 1.23 | 10 |
 >>>>>>> laraxot/dev
@@ -139,7 +143,11 @@ Keep nesting levels below 3-4 levels.
 - [Cms](../Modules/Cms/docs/cyclomatic-complexity-report.md)
 - [Comment](../Modules/Comment/docs/cyclomatic-complexity-report.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto>](../Modules/<nome progetto>/docs/cyclomatic-complexity-report.md)
+=======
+- [Fixcity](../Modules/Fixcity/docs/cyclomatic-complexity-report.md)
+>>>>>>> laraxot/dev
 =======
 - [Fixcity](../Modules/Fixcity/docs/cyclomatic-complexity-report.md)
 >>>>>>> laraxot/dev

@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "📸 Analisi Visiva Homepage <nome progetto> vs Bootstrap Italia"
+=======
+title: "📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia"
+>>>>>>> laraxot/dev
 =======
 title: "📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia"
 >>>>>>> laraxot/dev
@@ -10,15 +14,21 @@ tags: [analisi, visiva]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "analisi-visiva 📸 analisi visiva homepage <nome progetto> vs bootstrap italia"
 qmd: "analisi-visiva 📸 analisi visiva homepage laraxot vs bootstrap italia"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "analisi-visiva 📸 analisi visiva homepage fixcity vs bootstrap italia"
 qmd: "analisi-visiva 📸 analisi visiva homepage laraxot vs bootstrap italia"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./analisi-colori-header-footer.md"
@@ -27,7 +37,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📸 Analisi Visiva Homepage <nome progetto> vs Bootstrap Italia
+=======
+# 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia
+>>>>>>> laraxot/dev
 =======
 # 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia
 >>>>>>> laraxot/dev
@@ -38,7 +52,11 @@ related:
 ## Reference
 - **Bootstrap Italia**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: http://<nome progetto>.local/it/tests/homepage
+=======
+- **FixCity**: http://fixcity.local/it/tests/homepage
+>>>>>>> laraxot/dev
 =======
 - **FixCity**: http://fixcity.local/it/tests/homepage
 >>>>>>> laraxot/dev
@@ -65,7 +83,11 @@ related:
 - Text: `#1A1A1A`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev
@@ -111,7 +133,11 @@ related:
 - Card shadow: `shadow-sm`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev
@@ -164,7 +190,11 @@ related:
 - Button: `btn btn-outline-primary btn-sm mt-3`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev
@@ -221,7 +251,11 @@ related:
 - Day abbr: `calendar-day text-muted small text-uppercase`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev
@@ -281,7 +315,11 @@ related:
 - Title: `h6 text-uppercase text-muted mb-3`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev
@@ -332,7 +370,11 @@ related:
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev

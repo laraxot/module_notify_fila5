@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📸 Header <nome progetto> vs Bootstrap Italia - Analisi e Fix
+=======
+# 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
+>>>>>>> laraxot/dev
 =======
 # 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
 >>>>>>> laraxot/dev
@@ -14,6 +18,7 @@
 ### 1. Logo non visibile ❌
 **Reference**: Logo PA visibile (80x80px)  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>**: Logo mancante o non visibile
 
 ### 2. Nome del Comune non leggibile ❌
@@ -24,6 +29,8 @@
 **Reference**: "Un comune da vivere" - text-base text-gray-600  
 **<nome progetto>**: Slogan mancante o illeggibile
 =======
+=======
+>>>>>>> laraxot/dev
 **FixCity**: Logo mancante o non visibile
 
 ### 2. Nome del Comune non leggibile ❌
@@ -33,6 +40,9 @@
 ### 3. Slogan non leggibile ❌
 **Reference**: "Un comune da vivere" - text-base text-gray-600  
 **FixCity**: Slogan mancante o illeggibile
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### 4. Colori diversi ❌
@@ -42,7 +52,11 @@
 - Hover: `#0066CC` on gray
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>**: Colori CSS variables non corretti
+=======
+**FixCity**: Colori CSS variables non corretti
+>>>>>>> laraxot/dev
 =======
 **FixCity**: Colori CSS variables non corretti
 >>>>>>> laraxot/dev
@@ -54,7 +68,11 @@
 - Nav: `py-3` (12px)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>**: Spaziature non conformi
+=======
+**FixCity**: Spaziature non conformi
+>>>>>>> laraxot/dev
 =======
 **FixCity**: Spaziature non conformi
 >>>>>>> laraxot/dev
@@ -125,7 +143,11 @@
 ## 📊 Conformità Raggiunta
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Elemento | Reference | <nome progetto> | Status |
+=======
+| Elemento | Reference | FixCity | Status |
+>>>>>>> laraxot/dev
 =======
 | Elemento | Reference | FixCity | Status |
 >>>>>>> laraxot/dev

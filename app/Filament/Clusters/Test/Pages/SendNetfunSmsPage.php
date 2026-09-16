@@ -106,7 +106,11 @@ class SendNetfunSmsPage extends XotBasePage
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function sendSms(): void
+=======
+    public function sendSMS(): void
+>>>>>>> laraxot/dev
 =======
     public function sendSMS(): void
 >>>>>>> laraxot/dev
@@ -154,10 +158,15 @@ class SendNetfunSmsPage extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             Action::make('sendSms')->label(__('notify::sms.actions.send'))->submit('sendSms')];
     }
 
     #[Override]
+=======
+            Action::make('sendSMS')->label(__('notify::sms.actions.send'))->submit('sendSMS')];
+    }
+>>>>>>> laraxot/dev
 =======
             Action::make('sendSMS')->label(__('notify::sms.actions.send'))->submit('sendSMS')];
     }

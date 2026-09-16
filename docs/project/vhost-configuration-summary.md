@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "vhost-configuration-summary 🌐 vhost configuration summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -130,7 +135,11 @@ This document summarizes the complete VHost configuration implementation for the
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>/
+=======
+base_ptvx_fila5/
+>>>>>>> laraxot/dev
 =======
 base_ptvx_fila5/
 >>>>>>> laraxot/dev

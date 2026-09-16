@@ -21,7 +21,11 @@ Panoramica del progetto LaravelPizza/Base Forecast Fila5.
 |-----------|-------------|
 | PHP 8.3+ | Strict typing |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Laravel 13 | Latest |
+=======
+| Laravel 12 | Latest |
+>>>>>>> laraxot/dev
 =======
 | Laravel 12 | Latest |
 >>>>>>> laraxot/dev

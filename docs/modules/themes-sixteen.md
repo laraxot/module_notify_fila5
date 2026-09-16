@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "themes-sixteen gestione asset vite per il tema sixteen"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -33,8 +38,13 @@ Segui questi passaggi per risolvere:
 1. Vai nella cartella del tema:
    ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
    cd /var/www/html/_bases/<repo progetto>/laravel/Themes/Sixteen
    cd /var/www/html/_bases/<repo progetto>/laravel/Themes/Sixteen
+=======
+   cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
+   cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen
+>>>>>>> laraxot/dev
 =======
    cd /var/www/html/_bases/base_fixcity_fila5_mono/laravel/Themes/Sixteen
    cd /var/www/html/_bases/base_ptvx_fila5_mono/laravel/Themes/Sixteen

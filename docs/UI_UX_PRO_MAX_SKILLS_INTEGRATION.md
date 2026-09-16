@@ -225,7 +225,11 @@ Build a landing page with:
 
 ### This Week
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. Integrare con <nome progetto> project
+=======
+5. Integrare con FixCity project
+>>>>>>> laraxot/dev
 =======
 5. Integrare con FixCity project
 >>>>>>> laraxot/dev

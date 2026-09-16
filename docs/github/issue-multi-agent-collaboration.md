@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "issue-multi-agent-collaboration multi-agent collaboration: sync remote repo documentation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -197,8 +202,13 @@ However, since bashscripts docs are gitignored, they need to be committed to bas
 | Repo | Status | Next Step |
 |------|--------|-----------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Main Repo (<repo progetto>) | ✅ Committed & Pushed | - |
 | Main Repo (<repo progetto>) | ✅ Committed & Pushed | - |
+=======
+| Main Repo (base_fixcity_fila5) | ✅ Committed & Pushed | - |
+| Main Repo (base_ptvx_fila5) | ✅ Committed & Pushed | - |
+>>>>>>> laraxot/dev
 =======
 | Main Repo (base_fixcity_fila5) | ✅ Committed & Pushed | - |
 | Main Repo (base_ptvx_fila5) | ✅ Committed & Pushed | - |

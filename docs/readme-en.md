@@ -2,7 +2,11 @@
 
 [![Domain-Notify](https://img.shields.io/badge/Domain-Notifications-E65100.svg)](#)
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![Laravel 13](https://img.shields.io/badge/Laravel-13-red.svg)](https://laravel.com/)
+=======
+[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+>>>>>>> laraxot/dev
 =======
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
 >>>>>>> laraxot/dev
@@ -13,7 +17,11 @@
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
+=======
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+>>>>>>> laraxot/dev
 =======
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 >>>>>>> laraxot/dev
@@ -62,7 +70,11 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Module** `notify` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
+=======
+**Module** `notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+>>>>>>> laraxot/dev
 =======
 **Module** `notify` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 >>>>>>> laraxot/dev

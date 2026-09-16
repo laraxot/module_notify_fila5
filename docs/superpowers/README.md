@@ -306,8 +306,13 @@ class User extends Model {
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>/
 <repo progetto>/
+=======
+base_fixcity_fila5/
+base_ptvx_fila5/
+>>>>>>> laraxot/dev
 =======
 base_fixcity_fila5/
 base_ptvx_fila5/

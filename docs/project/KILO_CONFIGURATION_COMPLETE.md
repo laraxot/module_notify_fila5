@@ -147,7 +147,11 @@ export GOOGLE_API_KEY="your-key-here"
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>
+=======
+cd /var/www/_bases/base_ptvx_fila5
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_ptvx_fila5
 >>>>>>> laraxot/dev

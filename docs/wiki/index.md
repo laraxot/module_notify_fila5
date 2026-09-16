@@ -8,6 +8,7 @@ updated: 2026-06-05
 qmd: "notify module wiki index notifications qmd second brain"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "https://github.com/laraxot/<repo progetto>/issues/272"
 discussions:
   - "https://github.com/laraxot/<repo progetto>/discussions/273"
@@ -18,6 +19,8 @@ discussions:
 related:
   - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md
 =======
+=======
+>>>>>>> laraxot/dev
   - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
@@ -27,6 +30,9 @@ discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
 related:
   - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   - ../../../../docs/wiki/bmad/architecture.md
   - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
@@ -38,7 +44,11 @@ related:
 ## AI / second brain
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [hackernoon-ai-coding-tips-<nome progetto>-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md)
+=======
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+>>>>>>> laraxot/dev
 =======
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
 >>>>>>> laraxot/dev
@@ -70,7 +80,11 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 |------------|------|-------|-------------|
 | `root-docs` | `docs/` | 710 | Documentazione root progetto |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `mod-<nome progetto>` | `Modules/<nome progetto>/docs/` | 69 | Ticket, wizard, segnalazioni |
+=======
+| `mod-fixcity` | `Modules/Fixcity/docs/` | 69 | Ticket, wizard, segnalazioni |
+>>>>>>> laraxot/dev
 =======
 | `mod-fixcity` | `Modules/Fixcity/docs/` | 69 | Ticket, wizard, segnalazioni |
 >>>>>>> laraxot/dev
@@ -104,7 +118,11 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 ## AI / second brain
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [hackernoon-ai-coding-tips-<nome progetto>-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md)
+=======
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+>>>>>>> laraxot/dev
 =======
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
 >>>>>>> laraxot/dev
@@ -236,7 +254,11 @@ QMD è configurato per ricerca locale su tutto il corpus markdown (14.177+ file 
 |------------|------|-------|-------------|
 | `root-docs` | `docs/` | 710 | Documentazione root progetto |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `mod-ptv` | `Modules/<nome progetto>/docs/` | 69 | Ticket, wizard, segnalazioni |
+=======
+| `mod-ptv` | `Modules/Fixcity/docs/` | 69 | Ticket, wizard, segnalazioni |
+>>>>>>> laraxot/dev
 =======
 | `mod-ptv` | `Modules/Fixcity/docs/` | 69 | Ticket, wizard, segnalazioni |
 >>>>>>> laraxot/dev
@@ -310,7 +332,11 @@ Ogni modulo ha il suo wiki locale in `laravel/Modules/<Name>/docs/wiki/`:
 | Lang | [wiki/index.md](../../laravel/Modules/Lang/docs/wiki/index.md) | [lang-module](../../laravel/Modules/Lang/docs/wiki/overviews/lang-module.md) |
 | AI | [wiki/index.md](../../laravel/Modules/AI/docs/wiki/index.md) | [ai-module (root)](./modules/ai-module.md) |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto>, Geo, User, Media, Seo, Tenant, Blog, Activity, Comment, Rating, Notify, Job, Gdpr | wiki/ presenti | pending |
+=======
+| Fixcity, Geo, User, Media, Seo, Tenant, Blog, Activity, Comment, Rating, Notify, Job, Gdpr | wiki/ presenti | pending |
+>>>>>>> laraxot/dev
 =======
 | Fixcity, Geo, User, Media, Seo, Tenant, Blog, Activity, Comment, Rating, Notify, Job, Gdpr | wiki/ presenti | pending |
 >>>>>>> laraxot/dev

@@ -205,8 +205,13 @@ Modulo per l'intelligenza artificiale.
 - Automation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto>/
 Modulo specifico per <nome progetto>.
+=======
+### fixcity/
+Modulo specifico per FixCity.
+>>>>>>> laraxot/dev
 =======
 ### fixcity/
 Modulo specifico per FixCity.

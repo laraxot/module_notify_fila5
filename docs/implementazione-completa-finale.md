@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "implementazione-completa-finale 🐄✨ implementazione completa - report finale ✨🐄"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -46,7 +51,11 @@ related:
 - [x] Identificato 120 proprietà duplicate
 - [x] Creato XotBaseModel con proprietà comuni
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Refactorato 10 moduli (Activity, Blog, Cms, <nome progetto>, Geo, Job, Lang, Media, Notify, User)
+=======
+- [x] Refactorato 10 moduli (Activity, Blog, Cms, Fixcity, Geo, Job, Lang, Media, Notify, User)
+>>>>>>> laraxot/dev
 =======
 - [x] Refactorato 10 moduli (Activity, Blog, Cms, Fixcity, Geo, Job, Lang, Media, Notify, User)
 >>>>>>> laraxot/dev
@@ -125,7 +134,11 @@ related:
 - [x] Creato `docs/implementazione-completa-finale.md` (questo file)
 - [x] Aggiornati **18 file** `metodi-duplicati-analisi-1.md` con sezione implementazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Aggiornati documenti per moduli specifici (Xot, User, Cms, <nome progetto>)
+=======
+- [x] Aggiornati documenti per moduli specifici (Xot, User, Cms, Fixcity)
+>>>>>>> laraxot/dev
 =======
 - [x] Aggiornati documenti per moduli specifici (Xot, User, Cms, Fixcity)
 >>>>>>> laraxot/dev
@@ -243,7 +256,11 @@ Modules/Activity/app/Models/BaseModel.php    ✅ 72→45 LOC (-37%)
 Modules/Blog/app/Models/BaseModel.php        ✅ 76→45 LOC (-41%)
 Modules/Cms/app/Models/BaseModel.php         ✅ 70→37 LOC (-47%)
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/<nome progetto>/app/Models/BaseModel.php     ✅ 72→43 LOC (-40%)
+=======
+Modules/Fixcity/app/Models/BaseModel.php     ✅ 72→43 LOC (-40%)
+>>>>>>> laraxot/dev
 =======
 Modules/Fixcity/app/Models/BaseModel.php     ✅ 72→43 LOC (-40%)
 >>>>>>> laraxot/dev
@@ -457,7 +474,11 @@ I documenti `metodi-duplicati-analisi-1.md` contenevano 4 proposte principali:
 ✅ Modules/Cms/docs/metodi-duplicati-analisi-1.md
 ✅ Modules/Comment/docs/metodi-duplicati-analisi-1.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ Modules/<nome progetto>/docs/metodi-duplicati-analisi-1.md
+=======
+✅ Modules/Fixcity/docs/metodi-duplicati-analisi-1.md
+>>>>>>> laraxot/dev
 =======
 ✅ Modules/Fixcity/docs/metodi-duplicati-analisi-1.md
 >>>>>>> laraxot/dev
@@ -494,7 +515,11 @@ I documenti `metodi-duplicati-analisi-1.md` contenevano 4 proposte principali:
 | Cms | ✅ Fatto | ✅ Sì (5 resources) | ✅ Sì (5 resources) | ✅ Sì | 🟢 Ready |
 | Comment | ✅ OK | ✅ Sì | ✅ Sì | ✅ Sì | 🟢 Ready |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | ✅ Fatto | ✅ Sì (8 resources) | ✅ Sì (8 resources) | ✅ Sì | 🟢 Ready |
+=======
+| Fixcity | ✅ Fatto | ✅ Sì (8 resources) | ✅ Sì (8 resources) | ✅ Sì | 🟢 Ready |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | ✅ Fatto | ✅ Sì (8 resources) | ✅ Sì (8 resources) | ✅ Sì | 🟢 Ready |
 >>>>>>> laraxot/dev

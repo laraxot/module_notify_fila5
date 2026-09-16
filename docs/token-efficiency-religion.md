@@ -8,7 +8,11 @@
 > riferimento, non cancellato. `token-optimization-strategy.md.old`
 > conteneva un riferimento GitHub errato di un altro progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 > (`provtv/<repo progetto>`), copiato per errore.
+=======
+> (`provtv/base_ptv_fila5`), copiato per errore.
+>>>>>>> laraxot/dev
 =======
 > (`provtv/base_ptv_fila5`), copiato per errore.
 >>>>>>> laraxot/dev
@@ -62,7 +66,11 @@
 **SBAGLIATO**:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Leggi tutti i file del modulo <nome progetto> per capire il wizard
+=======
+Leggi tutti i file del modulo Fixcity per capire il wizard
+>>>>>>> laraxot/dev
 =======
 Leggi tutti i file del modulo Fixcity per capire il wizard
 >>>>>>> laraxot/dev
@@ -79,15 +87,21 @@ Grep "getWizardSteps" in CreateTicketWizardWidget.php
 ```bash
 # ❌ SBAGLIATO: trova tutti i file
 <<<<<<< HEAD
+<<<<<<< HEAD
 find Modules/<nome progetto> -name "*.php"
 
 # ✅ CORRETTO: trova solo il blocco utile
 grep -n "getWizardSteps" Modules/<nome progetto>/app/Filament/Widgets/CreateTicketWizardWidget.php
 =======
+=======
+>>>>>>> laraxot/dev
 find Modules/Fixcity -name "*.php"
 
 # ✅ CORRETTO: trova solo il blocco utile
 grep -n "getWizardSteps" Modules/Fixcity/app/Filament/Widgets/CreateTicketWizardWidget.php
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 

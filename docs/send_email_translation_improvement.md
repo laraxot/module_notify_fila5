@@ -255,7 +255,11 @@ return [
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_techplanner_fila5/laravel
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📬 Notify
 
 [![Domain-Notify](https://img.shields.io/badge/Domain-Notifications-E65100.svg)](#)
@@ -94,6 +95,8 @@ Perche' esiste, come raggiungere meglio il suo scopo e cosa **non** gli appartie
 **Modulo** `notify` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
 **Modulo** `notify` · **Laraxot** · **Notify Platform** · PHPStan 10 · Filament 5
 =======
+=======
+>>>>>>> laraxot/dev
 ---
 id: module-notify-readme
 title: "Notify — Consegna delle Comunicazioni Applicative"
@@ -158,4 +161,7 @@ Le modifiche devono mantenere `declare(strict_types=1);` nel codice PHP, rispett
 ---
 
 **Modulo** `notify` · **Laraxot ecosystem** · **Project-agnostic**
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

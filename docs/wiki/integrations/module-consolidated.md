@@ -300,7 +300,11 @@ Il modulo Notify è il sistema di gestione notifiche e comunicazioni riutilizzab
 **Type**: Notification & Communication Module  
 **Status**: ✅ Active  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Framework**: Laravel 13.x + Filament 5.x  
+=======
+**Framework**: Laravel 12.x + Filament 4.x  
+>>>>>>> laraxot/dev
 =======
 **Framework**: Laravel 12.x + Filament 4.x  
 >>>>>>> laraxot/dev
@@ -366,7 +370,11 @@ The Notify module provides comprehensive notification and communication function
 - Mail and SMS providers
 - Queue system for delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Filament 5.x (management interface)
+=======
+- Filament 4.x (management interface)
+>>>>>>> laraxot/dev
 =======
 - Filament 4.x (management interface)
 >>>>>>> laraxot/dev
@@ -1029,7 +1037,11 @@ Le modifiche vengono tracciate nel repository GitHub.
 **Type**: Notification & Communication Module  
 **Status**: ✅ Active  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Framework**: Laravel 13.x + Filament 5.x  
+=======
+**Framework**: Laravel 12.x + Filament 4.x  
+>>>>>>> laraxot/dev
 =======
 **Framework**: Laravel 12.x + Filament 4.x  
 >>>>>>> laraxot/dev
@@ -1086,7 +1098,11 @@ The Notify module provides comprehensive notification and communication function
 - **User**: Communication with system users
 - **App**: Survey participant notifications
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: Survey participant notifications
+=======
+- **Quaeris**: Survey participant notifications
+>>>>>>> laraxot/dev
 =======
 - **Quaeris**: Survey participant notifications
 >>>>>>> laraxot/dev
@@ -1100,7 +1116,11 @@ The Notify module provides comprehensive notification and communication function
 - Mail and SMS providers
 - Queue system for delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Filament 5.x (management interface)
+=======
+- Filament 4.x (management interface)
+>>>>>>> laraxot/dev
 =======
 - Filament 4.x (management interface)
 >>>>>>> laraxot/dev

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ✅ <nome progetto> Improvement Plan - START HERE
+=======
+# ✅ FixCity Improvement Plan - START HERE
+>>>>>>> laraxot/dev
 =======
 # ✅ FixCity Improvement Plan - START HERE
 >>>>>>> laraxot/dev
@@ -18,7 +22,11 @@
 ```bash
 # Master plan (1,555 righe)
 <<<<<<< HEAD
+<<<<<<< HEAD
 cat .planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md
+=======
+cat .planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md
+>>>>>>> laraxot/dev
 =======
 cat .planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md
 >>>>>>> laraxot/dev
@@ -44,7 +52,11 @@ cat .planning/improvements/RESEARCH_SUMMARY.md
 
 # Esegui con Ralph Loop
 <<<<<<< HEAD
+<<<<<<< HEAD
 cp .planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md .ralph/prd.json
+=======
+cp .planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md .ralph/prd.json
+>>>>>>> laraxot/dev
 =======
 cp .planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md .ralph/prd.json
 >>>>>>> laraxot/dev
@@ -56,7 +68,11 @@ cp .planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md .ralph/prd.json
 ```bash
 openviking init
 <<<<<<< HEAD
+<<<<<<< HEAD
 openviking add-memory "<nome progetto> Improvement Plan started 2026-03-30"
+=======
+openviking add-memory "FixCity Improvement Plan started 2026-03-30"
+>>>>>>> laraxot/dev
 =======
 openviking add-memory "FixCity Improvement Plan started 2026-03-30"
 >>>>>>> laraxot/dev
@@ -129,7 +145,11 @@ openviking add-memory "FixCity Improvement Plan started 2026-03-30"
 ### Created Today
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **`.planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md`** (1,555 righe)
+=======
+1. **`.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md`** (1,555 righe)
+>>>>>>> laraxot/dev
 =======
 1. **`.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md`** (1,555 righe)
 >>>>>>> laraxot/dev
@@ -251,7 +271,11 @@ openviking add-memory "P0.1 complete"
 ### Improvement Docs
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Master Plan](.planning/improvements/<nome progetto>_IT_IMPROVEMENT_PLAN.md)
+=======
+- [Master Plan](.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md)
+>>>>>>> laraxot/dev
 =======
 - [Master Plan](.planning/improvements/FIXCITY_IT_IMPROVEMENT_PLAN.md)
 >>>>>>> laraxot/dev
@@ -304,7 +328,11 @@ openviking add-memory "P0.1 complete"
 **ETA Production**: 2026-10-26 (17 settimane)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Let's improve <nome progetto>! 🚀**
+=======
+**Let's improve FixCity! 🚀**
+>>>>>>> laraxot/dev
 =======
 **Let's improve FixCity! 🚀**
 >>>>>>> laraxot/dev

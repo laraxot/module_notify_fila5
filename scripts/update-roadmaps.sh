@@ -33,7 +33,11 @@ error() {
 
 # Directory base
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>"
+=======
+BASE_DIR="/var/www/_bases/base_ptvx_fila5"
+>>>>>>> laraxot/dev
 =======
 BASE_DIR="/var/www/_bases/base_ptvx_fila5"
 >>>>>>> laraxot/dev
@@ -218,7 +222,11 @@ $module Module
 ### 🛠️ Technical Excellence
 - [ ] **PHPStan Level 9**: 0 errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **Filament 5.x**: Compatibilità completa
+=======
+- [ ] **Filament 4.x**: Compatibilità completa
+>>>>>>> laraxot/dev
 =======
 - [ ] **Filament 4.x**: Compatibilità completa
 >>>>>>> laraxot/dev
@@ -296,7 +304,11 @@ $module Module
 ### 📊 Technical Metrics
 - [ ] **PHPStan Level 9**: 0 errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **Filament 5.x**: Compatibile
+=======
+- [ ] **Filament 4.x**: Compatibile
+>>>>>>> laraxot/dev
 =======
 - [ ] **Filament 4.x**: Compatibile
 >>>>>>> laraxot/dev
@@ -752,7 +764,11 @@ Report consolidato delle roadmap di tutti i moduli e temi del progetto Notify.
 ### Technical KPIs
 - **PHPStan Level 9**: 3/18 moduli (17%)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Filament 5.x**: 18/18 moduli (100%)
+=======
+- **Filament 4.x**: 18/18 moduli (100%)
+>>>>>>> laraxot/dev
 =======
 - **Filament 4.x**: 18/18 moduli (100%)
 >>>>>>> laraxot/dev

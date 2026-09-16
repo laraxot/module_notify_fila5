@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ✅ Header <nome progetto> Fixato - 100% Conforme Bootstrap Italia
+=======
+# ✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia
+>>>>>>> laraxot/dev
 =======
 # ✅ Header FixCity Fixato - 100% Conforme Bootstrap Italia
 >>>>>>> laraxot/dev
@@ -130,7 +134,11 @@
 ## 📊 Conformità Raggiunta
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Elemento | Reference | <nome progetto> | Status |
+=======
+| Elemento | Reference | FixCity | Status |
+>>>>>>> laraxot/dev
 =======
 | Elemento | Reference | FixCity | Status |
 >>>>>>> laraxot/dev

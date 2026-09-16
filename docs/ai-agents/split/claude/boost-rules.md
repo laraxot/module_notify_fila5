@@ -24,7 +24,11 @@
 - Search the documentation before making code changes to ensure we are taking the correct approach.
 - Use multiple, broad, simple, topic based queries to start. For example: `['rate limiting', 'routing rate limiting', 'routing']`.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Do not add package names to queries - package information is already shared. For example, use `test resource table`, not `Filament 5 test resource table`.
+=======
+- Do not add package names to queries - package information is already shared. For example, use `test resource table`, not `filament 4 test resource table`.
+>>>>>>> laraxot/dev
 =======
 - Do not add package names to queries - package information is already shared. For example, use `test resource table`, not `filament 4 test resource table`.
 >>>>>>> laraxot/dev

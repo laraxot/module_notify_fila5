@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "boost-skill-solution-plan boost skill installation - solution plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -154,7 +159,11 @@ The following modules have documentation folders that need updates:
 - ⏳ `Modules/Activity/docs/` - Activity tracking
 - ⏳ `Modules/Seo/docs/` - SEO
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ⏳ `Modules/<nome progetto>/docs/` - Main app module
+=======
+- ⏳ `Modules/Fixcity/docs/` - Main app module
+>>>>>>> laraxot/dev
 =======
 - ⏳ `Modules/Fixcity/docs/` - Main app module
 >>>>>>> laraxot/dev
@@ -189,7 +198,11 @@ Each module's docs folder will receive:
 1. ✅ composer.json has all dependencies in active sections
 2. ✅ `composer install` completes without errors
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. ✅ `php artisan --version` returns Laravel 13.x
+=======
+3. ✅ `php artisan --version` returns Laravel 12.x
+>>>>>>> laraxot/dev
 =======
 3. ✅ `php artisan --version` returns Laravel 12.x
 >>>>>>> laraxot/dev

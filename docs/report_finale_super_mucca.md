@@ -53,7 +53,11 @@ Tu hai chiesto:
 ✅ Blog: 76→45 LOC (-41%)
 ✅ Cms: 70→37 LOC (-47%)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ <nome progetto>: 72→43 LOC (-40%)
+=======
+✅ Fixcity: 72→43 LOC (-40%)
+>>>>>>> laraxot/dev
 =======
 ✅ Fixcity: 72→43 LOC (-40%)
 >>>>>>> laraxot/dev
@@ -106,7 +110,11 @@ Tu hai chiesto:
 ```
 ✅ Activity, AI, Blog, Cms, Comment
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ <nome progetto>, Gdpr, Geo, Job, Lang
+=======
+✅ Fixcity, Gdpr, Geo, Job, Lang
+>>>>>>> laraxot/dev
 =======
 ✅ Fixcity, Gdpr, Geo, Job, Lang
 >>>>>>> laraxot/dev
@@ -235,7 +243,11 @@ Ogni file contiene:
 ✅ Modules/Blog/app/Models/BaseModel.php (refactorato)
 ✅ Modules/Cms/app/Models/BaseModel.php (refactorato)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ Modules/<nome progetto>/app/Models/BaseModel.php (refactorato)
+=======
+✅ Modules/Fixcity/app/Models/BaseModel.php (refactorato)
+>>>>>>> laraxot/dev
 =======
 ✅ Modules/Fixcity/app/Models/BaseModel.php (refactorato)
 >>>>>>> laraxot/dev

@@ -13,9 +13,15 @@ $user = \Modules\<nome progetto>\Models\User::factory()->create();
 'database' => '<nome progetto>_test',
 $this->app['config']->set('database.connections.<nome progetto>_test', [
 <<<<<<< HEAD
+<<<<<<< HEAD
 $user = \Modules\<nome progetto>\Models\User::factory()->create();
 'database' => '<nome progetto>_test',
 $this->app['config']->set('database.connections.<nome progetto>_test', [
+=======
+$user = \Modules\Quaeris\Models\User::factory()->create();
+'database' => 'Quaeris_test',
+$this->app['config']->set('database.connections.Quaeris_test', [
+>>>>>>> laraxot/dev
 =======
 $user = \Modules\Quaeris\Models\User::factory()->create();
 'database' => 'Quaeris_test',
@@ -39,7 +45,11 @@ use Modules\Xot\Datas\XotData;
 
 // Invece di: \Modules\<nome progetto>\Models\User::class
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Invece di: \Modules\<nome progetto>\Models\User::class
+=======
+// Invece di: \Modules\Quaeris\Models\User::class
+>>>>>>> laraxot/dev
 =======
 // Invece di: \Modules\Quaeris\Models\User::class
 >>>>>>> laraxot/dev
@@ -53,7 +63,11 @@ Per i test che richiedono configurazioni database specifiche:
 ```php
 // Invece di: '<nome progetto>_test'
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Invece di: '<nome progetto>_test'
+=======
+// Invece di: 'Quaeris_test'
+>>>>>>> laraxot/dev
 =======
 // Invece di: 'Quaeris_test'
 >>>>>>> laraxot/dev
@@ -82,15 +96,21 @@ use Modules\<nome progetto>\Models\Patient;
 'database' => '<nome progetto>_test'
 $this->artisan('migrate', ['--database' => '<nome progetto>_test']);
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\User;
 use Modules\<nome progetto>\Models\Patient;
 'database' => '<nome progetto>_test'
 $this->artisan('migrate', ['--database' => '<nome progetto>_test']);
 =======
+=======
+>>>>>>> laraxot/dev
 use Modules\Quaeris\Models\User;
 use Modules\Quaeris\Models\Patient;
 'database' => 'Quaeris_test'
 $this->artisan('migrate', ['--database' => 'Quaeris_test']);
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -100,8 +120,13 @@ $this->artisan('migrate', ['--database' => 'Quaeris_test']);
 'app_name' => '<nome progetto>',
 'tenant_model' => \Modules\<nome progetto>\Models\Studio::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
 'app_name' => '<nome progetto>',
 'tenant_model' => \Modules\<nome progetto>\Models\Studio::class,
+=======
+'app_name' => 'Quaeris',
+'tenant_model' => \Modules\Quaeris\Models\Studio::class,
+>>>>>>> laraxot/dev
 =======
 'app_name' => 'Quaeris',
 'tenant_model' => \Modules\Quaeris\Models\Studio::class,
@@ -155,7 +180,11 @@ Prima di committare modifiche al modulo Notify:
 
 - [ ] Nessun riferimento hardcoded a "<nome progetto>" o altri nomi di progetti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Nessun riferimento hardcoded a "<nome progetto>" o altri nomi di progetti
+=======
+- [ ] Nessun riferimento hardcoded a "Quaeris" o altri nomi di progetti
+>>>>>>> laraxot/dev
 =======
 - [ ] Nessun riferimento hardcoded a "Quaeris" o altri nomi di progetti
 >>>>>>> laraxot/dev
@@ -174,7 +203,11 @@ Per verificare che il modulo sia veramente riutilizzabile:
 # Cerca hardcoding di nomi progetti
 grep -r -i "<nome progetto>\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=vendor
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r -i "<nome progetto>\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=vendor
+=======
+grep -r -i "Quaeris\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=vendor
+>>>>>>> laraxot/dev
 =======
 grep -r -i "Quaeris\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=vendor
 >>>>>>> laraxot/dev
@@ -185,7 +218,11 @@ grep -r "use Modules\\\\[^N][^o][^t][^i][^f][^y]" Modules/Notify/
 # Cerca configurazioni hardcoded
 grep -r "database.*<nome progetto>\|app.*<nome progetto>" Modules/Notify/
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "database.*<nome progetto>\|app.*<nome progetto>" Modules/Notify/
+=======
+grep -r "database.*Quaeris\|app.*Quaeris" Modules/Notify/
+>>>>>>> laraxot/dev
 =======
 grep -r "database.*Quaeris\|app.*Quaeris" Modules/Notify/
 >>>>>>> laraxot/dev

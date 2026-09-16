@@ -84,7 +84,11 @@ Tailwind @apply è usato SOLO per:
 ```bash
 # Verifica che le classi siano presenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 curl http://<nome progetto>.local/it/tests/homepage | grep -o 'class="[^"]*"' | sort | uniq
+=======
+curl http://fixcity.local/it/tests/homepage | grep -o 'class="[^"]*"' | sort | uniq
+>>>>>>> laraxot/dev
 =======
 curl http://fixcity.local/it/tests/homepage | grep -o 'class="[^"]*"' | sort | uniq
 >>>>>>> laraxot/dev

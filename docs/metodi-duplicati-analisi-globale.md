@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "metodi-duplicati-analisi-globale 🐮 analisi globale metodi duplicati"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -25,7 +30,11 @@ related:
 
 # 🐮 ANALISI GLOBALE METODI DUPLICATI
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Super Cow Edition - <nome progetto> Project
+=======
+## Super Cow Edition - FixCity Project
+>>>>>>> laraxot/dev
 =======
 ## Super Cow Edition - FixCity Project
 >>>>>>> laraxot/dev
@@ -88,7 +97,11 @@ related:
 | UI | 2 | 75641.9% | 31 | 4h | [📄 Vedi](Modules/UI/docs/metodi-duplicati-analisi-1.md) |
 | AI | 4 | 75640.0% | 62 | 4h | [📄 Vedi](Modules/AI/docs/metodi-duplicati-analisi-1.md) |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | 72 | 69279.0% | 773 | 148h | [📄 Vedi](Modules/<nome progetto>/docs/metodi-duplicati-analisi-1.md) |
+=======
+| Fixcity | 72 | 69279.0% | 773 | 148h | [📄 Vedi](Modules/Fixcity/docs/metodi-duplicati-analisi-1.md) |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | 72 | 69279.0% | 773 | 148h | [📄 Vedi](Modules/Fixcity/docs/metodi-duplicati-analisi-1.md) |
 >>>>>>> laraxot/dev

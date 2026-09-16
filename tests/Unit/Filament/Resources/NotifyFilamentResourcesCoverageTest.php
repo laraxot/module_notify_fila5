@@ -21,11 +21,14 @@ use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Filament\Resources\MailTemplateResource\Tables\MailTemplatesTable;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Notify\Filament\Resources\NotificationResource\Pages\ListNotifications;
 use Modules\Notify\Filament\Resources\NotificationResource\Schemas\NotificationInfolist;
 =======
+=======
+>>>>>>> laraxot/dev
 use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\ListMailTemplates;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Notify\Filament\Resources\NotificationResource\Pages\ListNotifications;
@@ -34,6 +37,9 @@ use Modules\Notify\Filament\Resources\NotificationLogResource;
 use Modules\Notify\Filament\Resources\NotificationLogResource\Schemas\NotificationLogForm;
 use Modules\Notify\Filament\Resources\NotificationLogResource\Schemas\NotificationLogInfolist;
 use Modules\Notify\Filament\Resources\NotificationLogResource\Tables\NotificationLogsTable;
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
@@ -75,9 +81,14 @@ test('edit contact page exposes delete header action', function (): void {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('list contacts page exposes expected table columns and filters', function (): void {
     $columns = XotBasePest::assertArray(ListContacts::contactTableColumns());
     $filters = XotBasePest::assertArray(ListContacts::contactTableFilters());
+=======
+test('list contacts page exposes expected table columns', function (): void {
+    $columns = XotBasePest::assertArray((new ListContacts())->getTableColumns()); /** @phpstan-ignore method.deprecated */
+>>>>>>> laraxot/dev
 =======
 test('list contacts page exposes expected table columns', function (): void {
     $columns = XotBasePest::assertArray((new ListContacts())->getTableColumns()); /** @phpstan-ignore method.deprecated */
@@ -88,6 +99,7 @@ test('list contacts page exposes expected table columns', function (): void {
     Assert::assertArrayHasKey('is_read', $columns);
     Assert::assertInstanceOf(IconColumn::class, $columns['is_read']);
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertArrayHasKey('active', $filters);
     Assert::assertInstanceOf(Filter::class, $filters['active']);
     Assert::assertArrayHasKey('inactive', $filters);
@@ -97,11 +109,16 @@ test('list contacts page exposes expected table columns', function (): void {
 test('mail templates table exposes expected table columns', function (): void {
     $columns = \assertNotifyArray(app(MailTemplatesTable::class)->getTableColumns());
 =======
+=======
+>>>>>>> laraxot/dev
 });
 
 
 test('list mail templates page exposes expected table columns', function (): void {
     $columns = \assertNotifyArray((new ListMailTemplates())->getTableColumns()); /** @phpstan-ignore method.deprecated */
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
     Assert::assertArrayHasKey('slug', $columns);
@@ -195,7 +212,10 @@ test('preview notification template page exposes title and subheading', function
     Assert::assertNotSame('', $page->getSubheading());
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 
 test('notification log resource pages resolve index create edit and view', function (): void {
     $pages = TestCase::assertNotifyArray(NotificationLogResource::getPages());
@@ -237,4 +257,7 @@ test('notification log table columns match the notification_logs schema', functi
     Assert::assertArrayHasKey('notifiable_type', $columns);
     Assert::assertArrayHasKey('sent_at', $columns);
 });
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

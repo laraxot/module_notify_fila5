@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔧 Console Commands <nome progetto>
+=======
+# 🔧 Console Commands FixCity
+>>>>>>> laraxot/dev
 =======
 # 🔧 Console Commands FixCity
 >>>>>>> laraxot/dev
@@ -186,7 +190,11 @@ php artisan queue:restart
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🔧 Comandi Personalizzati <nome progetto>
+=======
+## 🔧 Comandi Personalizzati FixCity
+>>>>>>> laraxot/dev
 =======
 ## 🔧 Comandi Personalizzati FixCity
 >>>>>>> laraxot/dev
@@ -196,7 +204,11 @@ php artisan queue:restart
 ```php
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // app/Console/Commands/<nome progetto>Command.php
+=======
+// app/Console/Commands/FixCityCommand.php
+>>>>>>> laraxot/dev
 =======
 // app/Console/Commands/FixCityCommand.php
 >>>>>>> laraxot/dev
@@ -207,9 +219,15 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class <nome progetto>Command extends Command
 {
     protected $signature = '<nome progetto>:example 
+=======
+class FixCityCommand extends Command
+{
+    protected $signature = 'fixcity:example 
+>>>>>>> laraxot/dev
 =======
 class FixCityCommand extends Command
 {
@@ -220,17 +238,23 @@ class FixCityCommand extends Command
                            {--flag : Boolean flag}';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $description = 'Comando esempio per <nome progetto>';
 
     public function handle(): int
     {
         $this->info('🚀 Esecuzione comando <nome progetto>...');
 =======
+=======
+>>>>>>> laraxot/dev
     protected $description = 'Comando esempio per FixCity';
 
     public function handle(): int
     {
         $this->info('🚀 Esecuzione comando FixCity...');
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         
         if ($this->confirm('Continuare con l\'operazione?')) {
@@ -280,7 +304,11 @@ php artisan health:check
 ```
 app/Console/Commands/
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── <nome progetto>/           # Comandi business logic
+=======
+├── FixCity/           # Comandi business logic
+>>>>>>> laraxot/dev
 =======
 ├── FixCity/           # Comandi business logic
 >>>>>>> laraxot/dev
@@ -299,8 +327,13 @@ app/Console/Commands/
 ```bash
 # Gruppo comando con namespace
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto>:process-tickets
 <nome progetto>:generate-reports
+=======
+fixcity:process-tickets
+fixcity:generate-reports
+>>>>>>> laraxot/dev
 =======
 fixcity:process-tickets
 fixcity:generate-reports

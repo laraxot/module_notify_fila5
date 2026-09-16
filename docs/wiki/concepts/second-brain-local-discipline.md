@@ -8,6 +8,7 @@ updated: 2026-06-05
 qmd: "notify second brain stub canonical xot harness hackernoon llm-wiki"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "https://github.com/laraxot/<repo progetto>/issues/272"
 discussions:
   - "https://github.com/laraxot/<repo progetto>/discussions/273"
@@ -22,6 +23,8 @@ related:
   - ../../../../docs/wiki/concepts/ai-harness-module-discipline.md
   - ../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md
 =======
+=======
+>>>>>>> laraxot/dev
   - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
@@ -35,6 +38,9 @@ related:
   - ../../../../Xot/docs/wiki/concepts/second-brain-local-discipline.md
   - ../../../../docs/wiki/concepts/ai-harness-module-discipline.md
   - ../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   - ../../../../../../bashscripts/tools/prompts/llm-wiki.txt
 ---
@@ -46,7 +52,11 @@ related:
 | **Canon** | [Xot second-brain-local-discipline.md](../../../../Xot/docs/wiki/concepts/second-brain-local-discipline.md) |
 | **Harness moduli** | [ai-harness-module-discipline.md](../../../../docs/wiki/concepts/ai-harness-module-discipline.md) |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md) |
+=======
+| **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
+>>>>>>> laraxot/dev
 =======
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
 >>>>>>> laraxot/dev

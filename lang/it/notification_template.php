@@ -14,7 +14,11 @@ return [
         'resetFilters' => ['label' => 'resetFilters', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'applyFilters' => ['label' => 'applyFilters', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'attachments' => ['label' => 'attachments', 'placeholder' => 'attachments', 'helper_text' => '', 'description' => 'attachments']],
+=======
+        'attachments' => ['label' => 'attachments', 'placeholder' => 'attachments', 'helper_text' => 'attachments', 'description' => 'attachments']],
+>>>>>>> laraxot/dev
 =======
         'attachments' => ['label' => 'attachments', 'placeholder' => 'attachments', 'helper_text' => 'attachments', 'description' => 'attachments']],
 >>>>>>> laraxot/dev

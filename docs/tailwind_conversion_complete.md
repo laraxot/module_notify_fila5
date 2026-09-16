@@ -209,7 +209,11 @@ Main Content
 ## 🏆 RISULTATO
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Homepage <nome progetto> è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
+=======
+**Homepage FixCity è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
+>>>>>>> laraxot/dev
 =======
 **Homepage FixCity è ora IDENTICA al Design Comuni ma in Tailwind CSS!**
 >>>>>>> laraxot/dev
@@ -232,9 +236,15 @@ Main Content
 **Tech**: 🎨 **100% TAILWIND CSS**  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *"<nome progetto> ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
 
 **#<nome progetto>2025 #TailwindCSS #DesignComuni #AGID #Conversion**
+=======
+*"FixCity ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
+
+**#FixCity2025 #TailwindCSS #DesignComuni #AGID #Conversion**
+>>>>>>> laraxot/dev
 =======
 *"FixCity ha ora lo stesso design dei Comuni italiani ma con Tailwind CSS!"* 🏛️💚
 

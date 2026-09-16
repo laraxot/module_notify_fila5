@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "roadmap-update-plan roadmap update plan - all modules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -41,7 +46,11 @@ Update/create/improve `docs/roadmap.md` for all 18 modules by:
 2. ⏳ User (Authentication & Management)
 3. ⏳ AI (Artificial Intelligence)
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. ⏳ <nome progetto> (Main Application)
+=======
+4. ⏳ Fixcity (Main Application)
+>>>>>>> laraxot/dev
 =======
 4. ⏳ Fixcity (Main Application)
 >>>>>>> laraxot/dev
@@ -85,7 +94,11 @@ Priority order based on module importance:
 2. User - Authentication
 3. AI - AI integration
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. <nome progetto> - Main app
+=======
+4. Fixcity - Main app
+>>>>>>> laraxot/dev
 =======
 4. Fixcity - Main app
 >>>>>>> laraxot/dev

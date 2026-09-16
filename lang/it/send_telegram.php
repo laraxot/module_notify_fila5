@@ -35,6 +35,7 @@ return [
                 'markdown' => 'Markdown'],
             'tooltip' => ''],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'text' => ['label' => 'text', 'placeholder' => 'text', 'helper_text' => '', 'description' => 'text'],
         'driver' => ['label' => 'driver', 'placeholder' => 'driver', 'helper_text' => '', 'description' => 'driver'],
         'disable_web_page_preview' => ['label' => 'disable_web_page_preview', 'placeholder' => 'disable_web_page_preview', 'helper_text' => '', 'description' => 'disable_web_page_preview'],
@@ -46,6 +47,8 @@ return [
         'recipient' => ['label' => 'recipient', 'placeholder' => 'recipient', 'helper_text' => '', 'description' => 'recipient'],
         'body' => ['label' => 'body', 'placeholder' => 'body', 'helper_text' => '', 'description' => 'body']],
 =======
+=======
+>>>>>>> laraxot/dev
         'text' => ['label' => 'text', 'placeholder' => 'text', 'helper_text' => 'text', 'description' => 'text'],
         'driver' => ['label' => 'driver', 'placeholder' => 'driver', 'helper_text' => 'driver', 'description' => 'driver'],
         'disable_web_page_preview' => ['label' => 'disable_web_page_preview', 'placeholder' => 'disable_web_page_preview', 'helper_text' => 'disable_web_page_preview', 'description' => 'disable_web_page_preview'],
@@ -56,6 +59,9 @@ return [
         'caption' => ['label' => 'caption', 'placeholder' => 'caption', 'helper_text' => 'caption', 'description' => 'caption'],
         'recipient' => ['label' => 'recipient', 'placeholder' => 'recipient', 'helper_text' => 'recipient', 'description' => 'recipient'],
         'body' => ['label' => 'body', 'placeholder' => 'body', 'helper_text' => 'body', 'description' => 'body']],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     'actions' => [
         'send' => ['label' => 'Invia Messaggio', 'tooltip' => 'Invia un messaggio tramite Telegram', 'success_message' => 'Messaggio inviato con successo', 'error_message' => 'Errore nell\'invio del messaggio', 'success' => 'Messaggio inviato con successo', 'error' => 'Errore durante l\'invio del messaggio'],

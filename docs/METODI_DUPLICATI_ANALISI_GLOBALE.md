@@ -1,6 +1,10 @@
 # 🐮 ANALISI GLOBALE METODI DUPLICATI
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Super Cow Edition - <nome progetto> Project
+=======
+## Super Cow Edition - FixCity Project
+>>>>>>> laraxot/dev
 =======
 ## Super Cow Edition - FixCity Project
 >>>>>>> laraxot/dev
@@ -63,7 +67,11 @@
 | UI | 2 | 75641.9% | 31 | 4h | [📄 Vedi](Modules/UI/docs/METODI_DUPLICATI_ANALISI.md) |
 | AI | 4 | 75640.0% | 62 | 4h | [📄 Vedi](Modules/AI/docs/METODI_DUPLICATI_ANALISI.md) |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | 72 | 69279.0% | 773 | 148h | [📄 Vedi](Modules/<nome progetto>/docs/METODI_DUPLICATI_ANALISI.md) |
+=======
+| Fixcity | 72 | 69279.0% | 773 | 148h | [📄 Vedi](Modules/Fixcity/docs/METODI_DUPLICATI_ANALISI.md) |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | 72 | 69279.0% | 773 | 148h | [📄 Vedi](Modules/Fixcity/docs/METODI_DUPLICATI_ANALISI.md) |
 >>>>>>> laraxot/dev

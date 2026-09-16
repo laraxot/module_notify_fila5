@@ -18,7 +18,11 @@ Replicating **38 Design Comuni static pages** using **Tailwind CSS + Alpine.js**
 
 **Source**: https://italia.github.io/design-comuni-pagine-statiche/  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Target**: http://<nome progetto>.local/it/tests/[page-slug]  
+=======
+**Target**: http://fixcity.local/it/tests/[page-slug]  
+>>>>>>> laraxot/dev
 =======
 **Target**: http://fixcity.local/it/tests/[page-slug]  
 >>>>>>> laraxot/dev

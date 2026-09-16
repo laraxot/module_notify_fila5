@@ -1,13 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PROJECT: <nome progetto> Platform
 
 ## Vision
 Transform <nome progetto> from a functional MVP to a national-scale enterprise-ready platform for managing urban disservices.
 =======
+=======
+>>>>>>> laraxot/dev
 # PROJECT: FixCity Platform
 
 ## Vision
 Transform FixCity from a functional MVP to a national-scale enterprise-ready platform for managing urban disservices.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Objectives
@@ -28,7 +34,11 @@ Transform FixCity from a functional MVP to a national-scale enterprise-ready pla
 
 ## Context
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Project: <repo progetto>
+=======
+- Project: base_fixcity_fila5
+>>>>>>> laraxot/dev
 =======
 - Project: base_fixcity_fila5
 >>>>>>> laraxot/dev
@@ -40,7 +50,11 @@ Transform FixCity from a functional MVP to a national-scale enterprise-ready pla
 
 ## Content Blocks
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto> Pages Content Blocks](./<nome progetto>-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli
+=======
+- [FixCity Pages Content Blocks](./fixcity-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli
+>>>>>>> laraxot/dev
 =======
 - [FixCity Pages Content Blocks](./fixcity-pages-content-blocks.md) - Guida alla conversione JSON in blocchi multipli
 >>>>>>> laraxot/dev

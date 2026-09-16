@@ -64,7 +64,11 @@ Ho corretto tutti i riferimenti errati alle directory del database nel modulo **
 **Created**:
 - ✅ **Issue #5**: "📁 Fix Database Directory Naming Convention"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - URL: https://github.com/laraxot/<repo progetto>/issues/5
+=======
+  - URL: https://github.com/laraxot/base_fixcity_fila5/issues/5
+>>>>>>> laraxot/dev
 =======
   - URL: https://github.com/laraxot/base_fixcity_fila5/issues/5
 >>>>>>> laraxot/dev
@@ -144,7 +148,11 @@ grep -A 5 "autoload" laravel/Modules/*/composer.json | grep -i "database"
 | Cms | ✅ | ⏳ | ⏳ | 📋 To Verify |
 | Comment | ✅ | ⏳ | ⏳ | 📋 To Verify |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | ✅ | ⏳ | ⏳ | 📋 To Verify |
+=======
+| Fixcity | ✅ | ⏳ | ⏳ | 📋 To Verify |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | ✅ | ⏳ | ⏳ | 📋 To Verify |
 >>>>>>> laraxot/dev
@@ -244,9 +252,15 @@ echo "Fixed documentation references"
 ## 📞 Questions?
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **GitHub Issue**: https://github.com/laraxot/<repo progetto>/issues/5
 - **Documentation**: docs/conventions/database-naming.md
 - **Contact**: dev @<nome progetto>.example.com
+=======
+- **GitHub Issue**: https://github.com/laraxot/base_fixcity_fila5/issues/5
+- **Documentation**: docs/conventions/database-naming.md
+- **Contact**: dev @fixcity.example.com
+>>>>>>> laraxot/dev
 =======
 - **GitHub Issue**: https://github.com/laraxot/base_fixcity_fila5/issues/5
 - **Documentation**: docs/conventions/database-naming.md

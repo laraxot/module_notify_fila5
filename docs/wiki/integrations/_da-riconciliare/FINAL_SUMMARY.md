@@ -115,7 +115,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ```
 <nome repository>/
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome repitory>/
+=======
+<nome repitory>_mono/
+>>>>>>> laraxot/dev
 =======
 <nome repitory>_mono/
 >>>>>>> laraxot/dev
@@ -236,7 +240,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ### Qualità
 - **PHPStan Level 9**: ✅ 0 errori (100%)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Filament 5.x**: ✅ Compatible (100%)
+=======
+- **Filament 4.x**: ✅ Compatible (100%)
+>>>>>>> laraxot/dev
 =======
 - **Filament 4.x**: ✅ Compatible (100%)
 >>>>>>> laraxot/dev
@@ -283,7 +291,11 @@ di eccellenza 2025 per la gestione delle segnalazioni urbane in Italia.
 ### 🥇 Quality Champion
 - PHPStan Level 9 - 0 errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Filament 5.x compatible
+=======
+- Filament 4.x compatible
+>>>>>>> laraxot/dev
 =======
 - Filament 4.x compatible
 >>>>>>> laraxot/dev

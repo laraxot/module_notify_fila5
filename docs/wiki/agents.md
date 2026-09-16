@@ -395,7 +395,11 @@ When module wiki references project wiki:
 
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 # In Modules/<nome progetto>/docs/llm-wiki/concepts/ticket-lifecycle.md
+=======
+# In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
+>>>>>>> laraxot/dev
 =======
 # In Modules/Fixcity/docs/llm-wiki/concepts/ticket-lifecycle.md
 >>>>>>> laraxot/dev
@@ -412,6 +416,7 @@ Same workflow as project ingestion, but scoped to module:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 User: "ingest docs/raw/articles/<nome progetto>-ticket-patterns.md into <nome progetto> wiki"
 
 LLM Agent Actions:
@@ -420,6 +425,8 @@ LLM Agent Actions:
 3. Update Modules/<nome progetto>/docs/llm-wiki/index.md
 4. Update Modules/<nome progetto>/docs/llm-wiki/log.md
 =======
+=======
+>>>>>>> laraxot/dev
 User: "ingest docs/raw/articles/fixcity-ticket-patterns.md into Fixcity wiki"
 
 LLM Agent Actions:
@@ -427,6 +434,9 @@ LLM Agent Actions:
 2. Create/update pages in Modules/Fixcity/docs/llm-wiki/
 3. Update Modules/Fixcity/docs/llm-wiki/index.md
 4. Update Modules/Fixcity/docs/llm-wiki/log.md
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 5. Commit changes
 ```

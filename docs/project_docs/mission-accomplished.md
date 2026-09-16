@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "mission-accomplished 🎉 mission accomplished! 🏆"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -26,7 +31,11 @@ related:
 # 🎉 MISSION ACCOMPLISHED! 🏆
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## <nome progetto> - Base Fila4 Mono
+=======
+## FixCity - Base Fila4 Mono
+>>>>>>> laraxot/dev
 =======
 ## FixCity - Base Fila4 Mono
 >>>>>>> laraxot/dev
@@ -185,7 +194,11 @@ related:
 
 **Certificato da:** Super Mucca Quality Assurance 🐮  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **ID Certificato:** <nome progetto>-2025-EXCELLENCE-001  
+=======
+**ID Certificato:** FIXCITY-2025-EXCELLENCE-001  
+>>>>>>> laraxot/dev
 =======
 **ID Certificato:** FIXCITY-2025-EXCELLENCE-001  
 >>>>>>> laraxot/dev
@@ -421,7 +434,11 @@ related:
 ### Progetto
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Nome:** <nome progetto> - Base Fila4 Mono  
+=======
+**Nome:** FixCity - Base Fila4 Mono  
+>>>>>>> laraxot/dev
 =======
 **Nome:** FixCity - Base Fila4 Mono  
 >>>>>>> laraxot/dev
@@ -433,9 +450,15 @@ related:
 ### Team
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Email:** team@<nome progetto>.com  
 **Support:** support@<nome progetto>.com  
 **Certification:** certification@<nome progetto>.com
+=======
+**Email:** team@fixcity.com  
+**Support:** support@fixcity.com  
+**Certification:** certification@fixcity.com
+>>>>>>> laraxot/dev
 =======
 **Email:** team@fixcity.com  
 **Support:** support@fixcity.com  
@@ -458,7 +481,11 @@ related:
 **Dichiaro ufficialmente che:**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto **<nome progetto> - Base Fila4 Mono** è stato completato con **SUCCESSO STRAORDINARIO**, raggiungendo e superando tutti gli obiettivi prefissati.
+=======
+Il progetto **FixCity - Base Fila4 Mono** è stato completato con **SUCCESSO STRAORDINARIO**, raggiungendo e superando tutti gli obiettivi prefissati.
+>>>>>>> laraxot/dev
 =======
 Il progetto **FixCity - Base Fila4 Mono** è stato completato con **SUCCESSO STRAORDINARIO**, raggiungendo e superando tutti gli obiettivi prefissati.
 >>>>>>> laraxot/dev
@@ -546,7 +573,11 @@ Continuate così! La qualità è un viaggio, non una destinazione!
 ### MISSION ACCOMPLISHED! ✅
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Il progetto <nome progetto> - Base Fila4 Mono è ufficialmente:**
+=======
+**Il progetto FixCity - Base Fila4 Mono è ufficialmente:**
+>>>>>>> laraxot/dev
 =======
 **Il progetto FixCity - Base Fila4 Mono è ufficialmente:**
 >>>>>>> laraxot/dev
@@ -567,7 +598,11 @@ Continuate così! La qualità è un viaggio, non una destinazione!
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **#MissionAccomplished #Excellence2025 #QualityFirst #<nome progetto> #SuperMucca #ProfessionalDevelopment #CodeQuality #BestPractices #TeamWork #Success**
+=======
+**#MissionAccomplished #Excellence2025 #QualityFirst #FixCity #SuperMucca #ProfessionalDevelopment #CodeQuality #BestPractices #TeamWork #Success**
+>>>>>>> laraxot/dev
 =======
 **#MissionAccomplished #Excellence2025 #QualityFirst #FixCity #SuperMucca #ProfessionalDevelopment #CodeQuality #BestPractices #TeamWork #Success**
 >>>>>>> laraxot/dev

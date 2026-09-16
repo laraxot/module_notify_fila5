@@ -7,6 +7,10 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Tables;
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> laraxot/dev
 =======
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> laraxot/dev
@@ -16,12 +20,18 @@ class MailTemplatesTable extends XotBaseResourceTable
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
      * @var class-string<MailTemplate>
      */
     protected static string $model = MailTemplate::class;
 
     /**
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
      * @return array<string, Column>
      */
@@ -32,9 +42,14 @@ class MailTemplatesTable extends XotBaseResourceTable
             'name' => TextColumn::make('name')->searchable()->sortable(),
             'mailable' => TextColumn::make('mailable')->searchable()->sortable(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'slug' => TextColumn::make('slug')->searchable()->sortable(),
             'subject' => TextColumn::make('subject')->searchable()->sortable(),
             'counter' => TextColumn::make('counter')->searchable()->sortable(),
+=======
+            'slug' => TextColumn::make('slug')->searchable()->sortable()->copyable(),
+            'counter' => TextColumn::make('counter')->numeric()->sortable(),
+>>>>>>> laraxot/dev
 =======
             'slug' => TextColumn::make('slug')->searchable()->sortable()->copyable(),
             'counter' => TextColumn::make('counter')->numeric()->sortable(),
@@ -44,7 +59,10 @@ class MailTemplatesTable extends XotBaseResourceTable
             'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable()->toggleable(isToggledHiddenByDefault: true)];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 
     /**
      * @return array<string, TextColumn>
@@ -57,5 +75,8 @@ class MailTemplatesTable extends XotBaseResourceTable
             'subject' => TextColumn::make('subject')->searchable()->sortable(),
             'counter' => TextColumn::make('counter')->searchable()->sortable()];
     }
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 }

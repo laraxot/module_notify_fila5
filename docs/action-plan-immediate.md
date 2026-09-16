@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "🎯 PIANO D'AZIONE IMMEDIATO - <nome progetto> Platform"
+=======
+title: "🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform"
+>>>>>>> laraxot/dev
 =======
 title: "🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform"
 >>>>>>> laraxot/dev
@@ -9,15 +13,21 @@ tags: [action, plan, immediate]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "action-plan-immediate 🎯 piano d'azione immediato - <nome progetto> platform"
 qmd: "action-plan-immediate 🎯 piano d'azione immediato - ptv platform"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "action-plan-immediate 🎯 piano d'azione immediato - fixcity platform"
 qmd: "action-plan-immediate 🎯 piano d'azione immediato - ptv platform"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
@@ -31,17 +41,23 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎯 PIANO D'AZIONE IMMEDIATO - <nome progetto> Platform
 
 ## 📋 Sommario Esecutivo
 
 Questo documento identifica le **azioni immediate** da intraprendere per portare <nome progetto> alla versione 2.0.0 production-ready. Basato sull'analisi completa del progetto e le roadmap dei moduli.
 =======
+=======
+>>>>>>> laraxot/dev
 # 🎯 PIANO D'AZIONE IMMEDIATO - FixCity Platform
 
 ## 📋 Sommario Esecutivo
 
 Questo documento identifica le **azioni immediate** da intraprendere per portare FixCity alla versione 2.0.0 production-ready. Basato sull'analisi completa del progetto e le roadmap dei moduli.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 **Data**: 2025-01-01  
@@ -70,7 +86,11 @@ Questo documento identifica le **azioni immediate** da intraprendere per portare
   - [ ] Completare factories per tutti i models
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **Modulo <nome progetto>**
+=======
+- [ ] **Modulo Fixcity**
+>>>>>>> laraxot/dev
 =======
 - [ ] **Modulo Fixcity**
 >>>>>>> laraxot/dev

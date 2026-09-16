@@ -14,15 +14,21 @@
    - Analisi architettura Design Comuni
    - Breakdown pagina segnalazioni-elenco
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Assessment stato <nome progetto> attuale
    - 6 gap critici identificati
    - Strategia esecuzione multi-agente
    - Pattern traduzioni (corretto: `<nome progetto>::segnalazione.fields.title.label`)
 =======
+=======
+>>>>>>> laraxot/dev
    - Assessment stato FixCity attuale
    - 6 gap critici identificati
    - Strategia esecuzione multi-agente
    - Pattern traduzioni (corretto: `fixcity::segnalazione.fields.title.label`)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
    - Criteri successo e checklist
 
@@ -89,7 +95,11 @@ Data Flow: JSON → Handlebars → Static HTML
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> Sixteen - Stato Attuale (Assessment)
+=======
+### FixCity Sixteen - Stato Attuale (Assessment)
+>>>>>>> laraxot/dev
 =======
 ### FixCity Sixteen - Stato Attuale (Assessment)
 >>>>>>> laraxot/dev
@@ -181,7 +191,11 @@ Crea: `PHASE-1-FINDINGS.md` con gap list dettagliato
 Modifica:
 - `laravel/Themes/Sixteen/resources/views/pages/tests/[slug].blade.php`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/config/local/<nome progetto>/database/content/pages/tests.segnalazioni-elenco.json`
+=======
+- `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
+>>>>>>> laraxot/dev
 =======
 - `laravel/config/local/fixcity/database/content/pages/tests.segnalazioni-elenco.json`
 >>>>>>> laraxot/dev
@@ -208,9 +222,15 @@ Aggiorna: `00-INDEX.md`
 ### ✅ CORRETTO
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 {{ trans('<nome progetto>::segnalazione.fields.title.label') }}
 {{ trans('<nome progetto>::segnalazione.filters.category.placeholder') }}
 {{ trans('<nome progetto>::segnalazione.actions.submit.label') }}
+=======
+{{ trans('fixcity::segnalazione.fields.title.label') }}
+{{ trans('fixcity::segnalazione.filters.category.placeholder') }}
+{{ trans('fixcity::segnalazione.actions.submit.label') }}
+>>>>>>> laraxot/dev
 =======
 {{ trans('fixcity::segnalazione.fields.title.label') }}
 {{ trans('fixcity::segnalazione.filters.category.placeholder') }}
@@ -228,7 +248,11 @@ Aggiorna: `00-INDEX.md`
 ### Struttura file traduzioni
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // laravel/lang/it/<nome progetto>.php
+=======
+// laravel/lang/it/fixcity.php
+>>>>>>> laraxot/dev
 =======
 // laravel/lang/it/fixcity.php
 >>>>>>> laraxot/dev
@@ -308,7 +332,11 @@ Buona fortuna! 🚀
 *Created: 2026-04-08*  
 *Researcher Agent - BMAD Mode C (Opzione C)*  
 <<<<<<< HEAD
+<<<<<<< HEAD
 *<nome progetto> Sixteen Theme - Phase 1*
+=======
+*FixCity Sixteen Theme - Phase 1*
+>>>>>>> laraxot/dev
 =======
 *FixCity Sixteen Theme - Phase 1*
 >>>>>>> laraxot/dev

@@ -47,7 +47,11 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 
 **Backend**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Laravel 13.24.0 + PHP 8.3.20
+=======
+- Laravel 12.24.0 + PHP 8.3.20
+>>>>>>> laraxot/dev
 =======
 - Laravel 12.24.0 + PHP 8.3.20
 >>>>>>> laraxot/dev
@@ -56,7 +60,11 @@ Trasformare il rapporto cittadino-amministrazione attraverso:
 
 **Frontend Backoffice**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Filament 5.x (Admin Panels)
+=======
+- Filament 4.x (Admin Panels)
+>>>>>>> laraxot/dev
 =======
 - Filament 4.x (Admin Panels)
 >>>>>>> laraxot/dev

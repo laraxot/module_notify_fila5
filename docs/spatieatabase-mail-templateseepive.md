@@ -932,7 +932,11 @@ test('welcome email is sent', function () {
 **Ultimo aggiornamento**: 27 Ottobre 2025  
 **Versione Pacchetto**: spatie/laravel-database-mail-templates 3.7.1  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Laravel 13.x, PHP 8.3+
+=======
+**Compatibilità**: Laravel 12.x, PHP 8.3+
+>>>>>>> laraxot/dev
 =======
 **Compatibilità**: Laravel 12.x, PHP 8.3+
 >>>>>>> laraxot/dev

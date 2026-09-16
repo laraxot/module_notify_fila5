@@ -8,6 +8,7 @@ return [
         'group' => ['label' => 'Sistema', 'description' => 'Funzionalità per l\'invio di email attraverso il sistema di notifiche'],
         'icon' => 'heroicon-o-envelope',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sort' => 49],
     'sections' => [
         'email_details' => [
@@ -110,6 +111,8 @@ return [
             'tooltip' => 'Gli allegati verranno inviati insieme all\'email',
             'helper_text' => ''],
 =======
+=======
+>>>>>>> laraxot/dev
         'sort' => 49,
     ],
     'sections' => [
@@ -133,6 +136,9 @@ return [
         'body_html' => ['label' => 'Contenuto HTML', 'placeholder' => '<h1>Titolo</h1><p>Contenuto dell\'email in formato HTML</p>', 'help' => 'Contenuto HTML formattato dell\'email (opzionale]', 'description' => 'Contenuto HTML formattato dell\'email', 'tooltip' => 'Il contenuto HTML permette formattazione avanzata', 'helper_text' => ''],
         'parameters' => ['label' => 'Parametri Template', 'placeholder' => '{"nome": "Mario", "cognome": "Rossi"}', 'help' => 'Parametri in formato JSON per personalizzare il template selezionato', 'description' => 'Parametri per personalizzare il template', 'tooltip' => 'I parametri sostituiscono i placeholder nel template', 'helper_text' => ''],
         'attachments' => ['label' => 'Allegati', 'placeholder' => 'Seleziona i file da allegare', 'help' => 'File da allegare all\'email (opzionale, max 10MB per file]', 'description' => 'File da allegare all\'email', 'tooltip' => 'Gli allegati verranno inviati insieme all\'email', 'helper_text' => ''],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         'priority' => [
             'label' => 'Priorità',
@@ -142,7 +148,12 @@ return [
             'tooltip' => 'La priorità influenza l\'ordine di invio delle email',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'options' => ['normal' => 'Normale', 'high' => 'Alta', 'urgent' => 'Urgente']],
+=======
+            'options' => ['normal' => 'Normale', 'high' => 'Alta', 'urgent' => 'Urgente'],
+        ],
+>>>>>>> laraxot/dev
 =======
             'options' => ['normal' => 'Normale', 'high' => 'Alta', 'urgent' => 'Urgente'],
         ],
@@ -156,15 +167,21 @@ return [
             'tooltip' => 'La categoria aiuta a organizzare e filtrare le email',
             'helper_text' => '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'options' => ['marketing' => 'Marketing', 'transactional' => 'Transazionale', 'notification' => 'Notifica', 'newsletter' => 'Newsletter', 'system' => 'Sistema']],
         'tracking_enabled' => ['label' => 'Abilita Tracking', 'placeholder' => 'Abilita il tracking dell\'email', 'help' => 'Traccia apertura e click dell\'email', 'description' => 'Abilita il tracking per monitorare l\'engagement', 'tooltip' => 'Il tracking permette di monitorare l\'apertura e i click', 'helper_text' => ''],
         'recipient' => ['label' => 'recipient', 'placeholder' => 'recipient', 'helper_text' => '', 'description' => 'recipient']],
 =======
+=======
+>>>>>>> laraxot/dev
             'options' => ['marketing' => 'Marketing', 'transactional' => 'Transazionale', 'notification' => 'Notifica', 'newsletter' => 'Newsletter', 'system' => 'Sistema'],
         ],
         'tracking_enabled' => ['label' => 'Abilita Tracking', 'placeholder' => 'Abilita il tracking dell\'email', 'help' => 'Traccia apertura e click dell\'email', 'description' => 'Abilita il tracking per monitorare l\'engagement', 'tooltip' => 'Il tracking permette di monitorare l\'apertura e i click', 'helper_text' => ''],
         'recipient' => ['label' => 'recipient', 'placeholder' => 'recipient', 'helper_text' => 'recipient', 'description' => 'recipient'],
     ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     'actions' => [
         'send' => [
@@ -174,7 +191,12 @@ return [
             'confirmation' => 'Sei sicuro di voler inviare questa email?',
             'tooltip' => 'Invia l\'email al destinatario specificato',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'modal' => ['heading' => 'Conferma Invio Email', 'description' => 'Stai per inviare un\'email. Questa azione non può essere annullata.', 'confirm' => 'Invia Email', 'cancel' => 'Annulla']],
+=======
+            'modal' => ['heading' => 'Conferma Invio Email', 'description' => 'Stai per inviare un\'email. Questa azione non può essere annullata.', 'confirm' => 'Invia Email', 'cancel' => 'Annulla'],
+        ],
+>>>>>>> laraxot/dev
 =======
             'modal' => ['heading' => 'Conferma Invio Email', 'description' => 'Stai per inviare un\'email. Questa azione non può essere annullata.', 'confirm' => 'Invia Email', 'cancel' => 'Annulla'],
         ],
@@ -185,7 +207,12 @@ return [
             'error' => 'Errore nella generazione dell\'anteprima',
             'tooltip' => 'Visualizza l\'anteprima dell\'email prima dell\'invio',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'modal' => ['heading' => 'Anteprima Email', 'description' => 'Visualizza come apparirà l\'email al destinatario', 'close' => 'Chiudi']],
+=======
+            'modal' => ['heading' => 'Anteprima Email', 'description' => 'Visualizza come apparirà l\'email al destinatario', 'close' => 'Chiudi'],
+        ],
+>>>>>>> laraxot/dev
 =======
             'modal' => ['heading' => 'Anteprima Email', 'description' => 'Visualizza come apparirà l\'email al destinatario', 'close' => 'Chiudi'],
         ],
@@ -196,7 +223,12 @@ return [
             'error' => 'Errore nel salvataggio della bozza',
             'tooltip' => 'Salva l\'email come bozza per inviarla successivamente',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'modal' => ['heading' => 'Salva Bozza', 'description' => 'Salva l\'email come bozza per inviarla successivamente', 'confirm' => 'Salva Bozza', 'cancel' => 'Annulla']],
+=======
+            'modal' => ['heading' => 'Salva Bozza', 'description' => 'Salva l\'email come bozza per inviarla successivamente', 'confirm' => 'Salva Bozza', 'cancel' => 'Annulla'],
+        ],
+>>>>>>> laraxot/dev
 =======
             'modal' => ['heading' => 'Salva Bozza', 'description' => 'Salva l\'email come bozza per inviarla successivamente', 'confirm' => 'Salva Bozza', 'cancel' => 'Annulla'],
         ],
@@ -207,7 +239,12 @@ return [
             'error' => 'Errore nella programmazione dell\'invio',
             'tooltip' => 'Programma l\'invio dell\'email per una data e ora specifiche',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'modal' => ['heading' => 'Programma Invio Email', 'description' => 'Seleziona la data e l\'ora per l\'invio programmato', 'datetime_label' => 'Data e ora di invio', 'timezone' => 'Fuso orario', 'confirm' => 'Programma Invio', 'cancel' => 'Annulla']],
+=======
+            'modal' => ['heading' => 'Programma Invio Email', 'description' => 'Seleziona la data e l\'ora per l\'invio programmato', 'datetime_label' => 'Data e ora di invio', 'timezone' => 'Fuso orario', 'confirm' => 'Programma Invio', 'cancel' => 'Annulla'],
+        ],
+>>>>>>> laraxot/dev
 =======
             'modal' => ['heading' => 'Programma Invio Email', 'description' => 'Seleziona la data e l\'ora per l\'invio programmato', 'datetime_label' => 'Data e ora di invio', 'timezone' => 'Fuso orario', 'confirm' => 'Programma Invio', 'cancel' => 'Annulla'],
         ],
@@ -217,6 +254,7 @@ return [
             'success' => 'Test SMTP completato con successo',
             'error' => 'Errore nel test SMTP',
             'tooltip' => 'Testa la configurazione SMTP prima dell\'invio',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'modal' => ['heading' => 'Test Configurazione SMTP', 'description' => 'Verifica la configurazione SMTP prima dell\'invio', 'confirm' => 'Esegui Test', 'cancel' => 'Annulla']],
         'emailFormActions' => ['label' => 'emailFormActions', 'icon' => 'emailFormActions', 'tooltip' => 'emailFormActions'],
@@ -301,6 +339,8 @@ return [
     'label' => 'Send Email',
     'plural_label' => 'Send Email (Plurale)'];
 =======
+=======
+>>>>>>> laraxot/dev
             'modal' => ['heading' => 'Test Configurazione SMTP', 'description' => 'Verifica la configurazione SMTP prima dell\'invio', 'confirm' => 'Esegui Test', 'cancel' => 'Annulla'],
         ],
         'emailFormActions' => ['label' => 'emailFormActions', 'icon' => 'emailFormActions', 'tooltip' => 'emailFormActions'],
@@ -326,4 +366,7 @@ return [
     'label' => 'Send Email',
     'plural_label' => 'Send Email (Plurale)',
 ];
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

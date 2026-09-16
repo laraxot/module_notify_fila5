@@ -3,7 +3,11 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento riassume l'implementazione completa del design system per i comuni italiani nel progetto <nome progetto>, basato sui template di [design-comuni-pagine-statiche](https://github.com/italia/design-comuni-pagine-statiche) e [farmshops.eu](https://github.com/CodeforKarlsruhe/farmshops.eu).
+=======
+Questo documento riassume l'implementazione completa del design system per i comuni italiani nel progetto Fixcity, basato sui template di [design-comuni-pagine-statiche](https://github.com/italia/design-comuni-pagine-statiche) e [farmshops.eu](https://github.com/CodeforKarlsruhe/farmshops.eu).
+>>>>>>> laraxot/dev
 =======
 Questo documento riassume l'implementazione completa del design system per i comuni italiani nel progetto Fixcity, basato sui template di [design-comuni-pagine-statiche](https://github.com/italia/design-comuni-pagine-statiche) e [farmshops.eu](https://github.com/CodeforKarlsruhe/farmshops.eu).
 >>>>>>> laraxot/dev
@@ -19,7 +23,11 @@ Questo documento riassume l'implementazione completa del design system per i com
 - **Styling Personalizzato**: CSS con variabili personalizzabili
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 2. Modulo <nome progetto>
+=======
+### 2. Modulo Fixcity
+>>>>>>> laraxot/dev
 =======
 ### 2. Modulo Fixcity
 >>>>>>> laraxot/dev
@@ -32,7 +40,11 @@ Questo documento riassume l'implementazione completa del design system per i com
 
 ### 3. Documentazione Completa
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Modulo <nome progetto>**: Documentazione tecnica e utente
+=======
+- **Modulo Fixcity**: Documentazione tecnica e utente
+>>>>>>> laraxot/dev
 =======
 - **Modulo Fixcity**: Documentazione tecnica e utente
 >>>>>>> laraxot/dev
@@ -65,9 +77,15 @@ themes/sixteen/
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Modulo <nome progetto>
 ```
 Modules/<nome progetto>/
+=======
+### Modulo Fixcity
+```
+Modules/Fixcity/
+>>>>>>> laraxot/dev
 =======
 ### Modulo Fixcity
 ```
@@ -104,7 +122,11 @@ config/comune.php
 - ✅ Pagina eventi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 3. Integrazione <nome progetto>
+=======
+### 3. Integrazione Fixcity
+>>>>>>> laraxot/dev
 =======
 ### 3. Integrazione Fixcity
 >>>>>>> laraxot/dev
@@ -157,15 +179,21 @@ COMUNE_COLORE_ACCENTO="#ff6600"
 /comune/eventi             # Eventi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // API <nome progetto>
 /api/<nome progetto>/tickets       # Gestione ticket
 /api/<nome progetto>/map/tickets   # Mappa ticket
 /api/<nome progetto>/statistics    # Statistiche
 =======
+=======
+>>>>>>> laraxot/dev
 // API Fixcity
 /api/fixcity/tickets       # Gestione ticket
 /api/fixcity/map/tickets   # Mappa ticket
 /api/fixcity/statistics    # Statistiche
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 /api/ptv/tickets       # Gestione ticket
 /api/ptv/map/tickets   # Mappa ticket
@@ -188,7 +216,11 @@ COMUNE_COLORE_ACCENTO="#ff6600"
 
 ### 3. Integrazione Sistema
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Collegamento diretto con <nome progetto>
+=======
+- Collegamento diretto con Fixcity
+>>>>>>> laraxot/dev
 =======
 - Collegamento diretto con Fixcity
 >>>>>>> laraxot/dev
@@ -238,7 +270,11 @@ L'implementazione del design system per i comuni italiani è stata completata co
 2. **Accessibilità**: Conformità WCAG 2.1 AA
 3. **Responsive Design**: Ottimizzazione per tutti i dispositivi
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. **Integrazione Completa**: Collegamento diretto con <nome progetto>
+=======
+4. **Integrazione Completa**: Collegamento diretto con Fixcity
+>>>>>>> laraxot/dev
 =======
 4. **Integrazione Completa**: Collegamento diretto con Fixcity
 >>>>>>> laraxot/dev

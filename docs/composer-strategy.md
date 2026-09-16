@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "composer-strategy 🎯 laravel-modules composer strategy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -69,7 +74,11 @@ Ogni modulo gestisce le proprie dipendenze:
 ```json
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "<nome progetto>/module-name",
+=======
+    "name": "fixcity/module-name",
+>>>>>>> laraxot/dev
 =======
     "name": "fixcity/module-name",
 >>>>>>> laraxot/dev
@@ -242,7 +251,11 @@ composer update
 ```json
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "<nome progetto>/cms-module",
+=======
+    "name": "fixcity/cms-module",
+>>>>>>> laraxot/dev
 =======
     "name": "fixcity/cms-module",
 >>>>>>> laraxot/dev

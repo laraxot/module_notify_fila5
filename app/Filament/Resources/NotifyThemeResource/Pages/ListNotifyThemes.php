@@ -55,8 +55,11 @@ class ListNotifyThemes extends XotBaseListRecords
             )];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     public function getTableFilters(): array

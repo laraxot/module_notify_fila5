@@ -12,7 +12,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 **Source**: https://italia.github.io/design-comuni-pagine-statiche/sito/[pagina-name].html  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Target**: http://<nome progetto>.local/it/tests/[pagina-name]  
+=======
+**Target**: http://fixcity.local/it/tests/[pagina-name]  
+>>>>>>> laraxot/dev
 =======
 **Target**: http://fixcity.local/it/tests/[pagina-name]  
 >>>>>>> laraxot/dev
@@ -25,7 +29,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### 1. JSON Content
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Creare `laravel/config/local/<nome progetto>/database/content/pages/tests.[pagina-name].json`
+=======
+- [ ] Creare `laravel/config/local/fixcity/database/content/pages/tests.[pagina-name].json`
+>>>>>>> laraxot/dev
 =======
 - [ ] Creare `laravel/config/local/fixcity/database/content/pages/tests.[pagina-name].json`
 >>>>>>> laraxot/dev
@@ -41,7 +49,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 
 ### 3. Test Pagina
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Visitare `http://<nome progetto>.local/it/tests/[pagina-name]`
+=======
+- [ ] Visitare `http://fixcity.local/it/tests/[pagina-name]`
+>>>>>>> laraxot/dev
 =======
 - [ ] Visitare `http://fixcity.local/it/tests/[pagina-name]`
 >>>>>>> laraxot/dev
@@ -57,7 +69,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 ### 5. Screenshot Comparison
 - [ ] Screenshot originale
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Screenshot <nome progetto>
+=======
+- [ ] Screenshot FixCity
+>>>>>>> laraxot/dev
 =======
 - [ ] Screenshot FixCity
 >>>>>>> laraxot/dev
@@ -95,7 +111,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 ### Header
 - **Originale**: [Link]
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: [Link]
+=======
+- **FixCity**: [Link]
+>>>>>>> laraxot/dev
 =======
 - **FixCity**: [Link]
 >>>>>>> laraxot/dev
@@ -108,7 +128,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 ### Footer
 - **Originale**: [Link]
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: [Link]
+=======
+- **FixCity**: [Link]
+>>>>>>> laraxot/dev
 =======
 - **FixCity**: [Link]
 >>>>>>> laraxot/dev
@@ -120,7 +144,11 @@ Replicare la pagina **[pagina-name].html** da Design Comuni Italia.
 ### Content
 - **Originale**: [Link]
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: [Link]
+=======
+- **FixCity**: [Link]
+>>>>>>> laraxot/dev
 =======
 - **FixCity**: [Link]
 >>>>>>> laraxot/dev

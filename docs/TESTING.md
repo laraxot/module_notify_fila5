@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Testing $MOD
 
 ## Quick Start
@@ -16,6 +17,8 @@ Target: ≥85% coverage.
 
 See Xot module (TESTING.md) for base test patterns.
 =======
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Notify Module Testing"
 type: guide
@@ -35,4 +38,7 @@ test('sends welcome notification', function () {
     Notification::assertSentTo($user, WelcomeNotification::class);
 });
 ```
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

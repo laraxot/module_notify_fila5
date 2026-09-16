@@ -9,6 +9,7 @@
 ## 📋 Overview
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 This guide covers the Apache VirtualHost configuration for <nome progetto> local development environments.
 
 ### Primary Domain
@@ -16,12 +17,17 @@ This guide covers the Apache VirtualHost configuration for <nome progetto> local
 - **Domain**: `<nome progetto>.local`
 - **Alias**: `www.<nome progetto>.local`
 =======
+=======
+>>>>>>> laraxot/dev
 This guide covers the Apache VirtualHost configuration for FixCity local development environments.
 
 ### Primary Domain
 
 - **Domain**: `fixcity.local`
 - **Alias**: `www.fixcity.local`
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - **Domain**: `ptv.local`
 - **Alias**: `www.ptv.local`
@@ -35,7 +41,11 @@ This guide covers the Apache VirtualHost configuration for FixCity local develop
 ### Master Configuration
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Location**: `laravel/config/vhost/<nome progetto>.local.conf`
+=======
+**Location**: `laravel/config/vhost/fixcity.local.conf`
+>>>>>>> laraxot/dev
 =======
 **Location**: `laravel/config/vhost/fixcity.local.conf`
 >>>>>>> laraxot/dev
@@ -57,15 +67,21 @@ This is the **Single Source of Truth (SSOT)** for vhost configuration.
 ```bash
 # Copy to Apache sites-available
 <<<<<<< HEAD
+<<<<<<< HEAD
 sudo cp laravel/config/vhost/<nome progetto>.local.conf /etc/apache2/sites-available/
 
 # Enable site
 sudo a2ensite <nome progetto>.local.conf
 =======
+=======
+>>>>>>> laraxot/dev
 sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/
 
 # Enable site
 sudo a2ensite fixcity.local.conf
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 # Reload Apache
@@ -78,8 +94,13 @@ Edit `/etc/hosts`:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 127.0.0.1    <nome progetto>.local
 127.0.0.1    www.<nome progetto>.local
+=======
+127.0.0.1    fixcity.local
+127.0.0.1    www.fixcity.local
+>>>>>>> laraxot/dev
 =======
 127.0.0.1    fixcity.local
 127.0.0.1    www.fixcity.local
@@ -96,7 +117,11 @@ sudo apache2ctl configtest
 
 # Check vhost is enabled
 <<<<<<< HEAD
+<<<<<<< HEAD
 apache2ctl -S | grep <nome progetto>
+=======
+apache2ctl -S | grep fixcity
+>>>>>>> laraxot/dev
 =======
 apache2ctl -S | grep fixcity
 >>>>>>> laraxot/dev
@@ -111,8 +136,13 @@ apache2ctl -S | grep ptv
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <repo progetto>/
 <repo progetto>/
+=======
+base_fixcity_fila5/
+base_ptv_fila5/
+>>>>>>> laraxot/dev
 =======
 base_fixcity_fila5/
 base_ptv_fila5/
@@ -124,7 +154,11 @@ base_ptv_fila5/
 │   ├── config/
 │   │   └── vhost/
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   │       └── <nome progetto>.local.conf  ← VHost config
+=======
+│   │       └── fixcity.local.conf  ← VHost config
+>>>>>>> laraxot/dev
 =======
 │   │       └── fixcity.local.conf  ← VHost config
 >>>>>>> laraxot/dev
@@ -140,7 +174,11 @@ base_ptv_fila5/
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Browser → Apache vhost (<nome progetto>.local:80)
+=======
+Browser → Apache vhost (fixcity.local:80)
+>>>>>>> laraxot/dev
 =======
 Browser → Apache vhost (fixcity.local:80)
 >>>>>>> laraxot/dev
@@ -168,9 +206,15 @@ Modules/ + Themes/
     ServerName ptv.local
     ServerAlias www.ptv.local
 <<<<<<< HEAD
+<<<<<<< HEAD
     DocumentRoot /var/www/_bases/<repo progetto>/public_html
     
     <Directory /var/www/_bases/<repo progetto>/public_html>
+=======
+    DocumentRoot /var/www/_bases/base_ptv_fila5/public_html
+    
+    <Directory /var/www/_bases/base_ptv_fila5/public_html>
+>>>>>>> laraxot/dev
 =======
     DocumentRoot /var/www/_bases/base_ptv_fila5/public_html
     
@@ -190,8 +234,13 @@ Modules/ + Themes/
     </Directory>
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     ErrorLog ${APACHE_LOG_DIR}/<nome progetto>_local_error.log
     CustomLog ${APACHE_LOG_DIR}/<nome progetto>_local_access.log combined
+=======
+    ErrorLog ${APACHE_LOG_DIR}/fixcity_local_error.log
+    CustomLog ${APACHE_LOG_DIR}/fixcity_local_access.log combined
+>>>>>>> laraxot/dev
 =======
     ErrorLog ${APACHE_LOG_DIR}/fixcity_local_error.log
     CustomLog ${APACHE_LOG_DIR}/fixcity_local_access.log combined
@@ -226,7 +275,11 @@ Modules/ + Themes/
 ```bash
 # Apache error log
 <<<<<<< HEAD
+<<<<<<< HEAD
 tail -f /var/log/apache2/<nome progetto>_local_error.log
+=======
+tail -f /var/log/apache2/fixcity_local_error.log
+>>>>>>> laraxot/dev
 =======
 tail -f /var/log/apache2/fixcity_local_error.log
 >>>>>>> laraxot/dev
@@ -249,7 +302,11 @@ Every module in `laravel/Modules/` is accessible through the same vhost:
 - **Cms**: `ptv.local/pages/*` (CMS pages)
 - **Blog**: `ptv.local/blog/*`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: `ptv.local/tickets/*`
+=======
+- **Fixcity**: `ptv.local/tickets/*`
+>>>>>>> laraxot/dev
 =======
 - **Fixcity**: `ptv.local/tickets/*`
 >>>>>>> laraxot/dev
@@ -297,8 +354,13 @@ For production:
 ### Update VHost Config
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Edit `laravel/config/vhost/<nome progetto>.local.conf`
 2. Copy to Apache: `sudo cp laravel/config/vhost/<nome progetto>.local.conf /etc/apache2/sites-available/`
+=======
+1. Edit `laravel/config/vhost/fixcity.local.conf`
+2. Copy to Apache: `sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/`
+>>>>>>> laraxot/dev
 =======
 1. Edit `laravel/config/vhost/fixcity.local.conf`
 2. Copy to Apache: `sudo cp laravel/config/vhost/fixcity.local.conf /etc/apache2/sites-available/`
@@ -311,8 +373,13 @@ For production:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 sudo cp /etc/apache2/sites-available/<nome progetto>.local.conf \
         /etc/apache2/sites-available/<nome progetto>.local.conf.backup.$(date +%Y%m%d)
+=======
+sudo cp /etc/apache2/sites-available/fixcity.local.conf \
+        /etc/apache2/sites-available/fixcity.local.conf.backup.$(date +%Y%m%d)
+>>>>>>> laraxot/dev
 =======
 sudo cp /etc/apache2/sites-available/fixcity.local.conf \
         /etc/apache2/sites-available/fixcity.local.conf.backup.$(date +%Y%m%d)
@@ -336,7 +403,11 @@ apache2ctl configtest
 
 # Check enabled sites
 <<<<<<< HEAD
+<<<<<<< HEAD
 ls -la /etc/apache2/sites-enabled/ | grep <nome progetto>
+=======
+ls -la /etc/apache2/sites-enabled/ | grep fixcity
+>>>>>>> laraxot/dev
 =======
 ls -la /etc/apache2/sites-enabled/ | grep fixcity
 >>>>>>> laraxot/dev
@@ -348,15 +419,21 @@ ls -la /etc/apache2/sites-enabled/ | grep ptv
 ```bash
 # Ping test
 <<<<<<< HEAD
+<<<<<<< HEAD
 ping <nome progetto>.local
 
 # Curl test
 curl -I http://<nome progetto>.local
 =======
+=======
+>>>>>>> laraxot/dev
 ping fixcity.local
 
 # Curl test
 curl -I http://fixcity.local
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 

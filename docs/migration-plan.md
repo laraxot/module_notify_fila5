@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "migration-plan documentation agnostic migration plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,7 +33,11 @@ related:
 ## Executive Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Problem**: Module and theme documentation contains **1,500+ project-specific references** (<nome progetto>) when it should be **project-agnostic** and reusable.
+=======
+**Problem**: Module and theme documentation contains **1,500+ project-specific references** (FixCity) when it should be **project-agnostic** and reusable.
+>>>>>>> laraxot/dev
 =======
 **Problem**: Module and theme documentation contains **1,500+ project-specific references** (FixCity) when it should be **project-agnostic** and reusable.
 >>>>>>> laraxot/dev
@@ -49,6 +58,7 @@ related:
 | Pattern | Occurrences | Priority |
 |---------|-------------|----------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `<nome progetto>` (in content) | 1,050 | 🔴 HIGH |
 | `<nome progetto>` (in content) | 259 | 🔴 HIGH |
 | `ptv` (in content) | 220 | 🔴 HIGH |
@@ -56,12 +66,17 @@ related:
 | `ptv.local` | 3 | 🟢 LOW |
 | `<repo progetto>` | 11 | 🟢 LOW |
 =======
+=======
+>>>>>>> laraxot/dev
 | `Fixcity` (in content) | 1,050 | 🔴 HIGH |
 | `FixCity` (in content) | 259 | 🔴 HIGH |
 | `ptv` (in content) | 220 | 🔴 HIGH |
 | `ptv-` (in filenames) | TBD | 🟡 MEDIUM |
 | `ptv.local` | 3 | 🟢 LOW |
 | `base_ptv_fila5` | 11 | 🟢 LOW |
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -82,7 +97,11 @@ Defines:
 
 #### File Renamed
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Before**: `laravel/Modules/Cms/docs/<nome progetto>-pages-content-blocks.md`
+=======
+- **Before**: `laravel/Modules/Cms/docs/fixcity-pages-content-blocks.md`
+>>>>>>> laraxot/dev
 =======
 - **Before**: `laravel/Modules/Cms/docs/fixcity-pages-content-blocks.md`
 >>>>>>> laraxot/dev
@@ -91,8 +110,13 @@ Defines:
 
 #### Content Updated
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Replaced `<nome progetto>` → `[PROJECT_NAME]`
 - Replaced `<nome progetto>` → `[project_name]`
+=======
+- Replaced `FixCity` → `[PROJECT_NAME]`
+- Replaced `fixcity` → `[project_name]`
+>>>>>>> laraxot/dev
 =======
 - Replaced `FixCity` → `[PROJECT_NAME]`
 - Replaced `fixcity` → `[project_name]`
@@ -106,15 +130,21 @@ Defines:
 
 Changes:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Removed "<nome progetto> PTVX ecosystem" → "PTVX ecosystem"
 - Replaced `<repo progetto>/` → `<project_root>/`
 - Replaced `<nome progetto>.local` → `[YOUR_DOMAIN]`
 - Replaced `<repo progetto>/` → `<project_root>/`
 =======
+=======
+>>>>>>> laraxot/dev
 - Removed "FixCity PTVX ecosystem" → "PTVX ecosystem"
 - Replaced `base_fixcity_fila5/` → `<project_root>/`
 - Replaced `fixcity.local` → `[YOUR_DOMAIN]`
 - Replaced `base_ptv_fila5/` → `<project_root>/`
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Replaced `ptv.local` → `[YOUR_DOMAIN]`
 - Replaced GitHub repo reference → `your-org/your-repo`
@@ -223,8 +253,13 @@ git commit -m "docs(Cms): make documentation agnostic"
 
 For each module/theme:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] No `<nome progetto>`, `<nome progetto>`, `<nome progetto>` in content
 - [ ] No `<nome progetto>`, `<nome progetto>`, `ptv` in content
+=======
+- [ ] No `FixCity`, `Fixcity`, `fixcity` in content
+- [ ] No `FixCity`, `Fixcity`, `ptv` in content
+>>>>>>> laraxot/dev
 =======
 - [ ] No `FixCity`, `Fixcity`, `fixcity` in content
 - [ ] No `FixCity`, `Fixcity`, `ptv` in content
@@ -246,7 +281,11 @@ Add to CI/CD:
 ```bash
 # Fail if project-specific refs found in docs
 <<<<<<< HEAD
+<<<<<<< HEAD
 if grep -r "<nome progetto>" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
+=======
+if grep -r "FixCity" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
+>>>>>>> laraxot/dev
 =======
 if grep -r "FixCity" laravel/Modules/*/docs/ laravel/Themes/*/docs/; then
 >>>>>>> laraxot/dev
@@ -262,7 +301,11 @@ Create `.git/hooks/pre-commit`:
 #!/bin/bash
 # Check for project-specific docs in staged changes
 <<<<<<< HEAD
+<<<<<<< HEAD
 if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "<nome progetto>" 2>/dev/null; then
+=======
+if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "FixCity" 2>/dev/null; then
+>>>>>>> laraxot/dev
 =======
 if git diff --cached --name-only | grep -E "^(laravel/Modules|laravel/Themes)/.*/docs/.*\.md$" | xargs grep -l "FixCity" 2>/dev/null; then
 >>>>>>> laraxot/dev
@@ -283,15 +326,21 @@ fi
 **Before**:
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto> Blog Module
 
 This module provides blog functionality for <nome progetto> platform.
 Access at: <nome progetto>.local/blog
 =======
+=======
+>>>>>>> laraxot/dev
 # FixCity Blog Module
 
 This module provides blog functionality for FixCity platform.
 Access at: fixcity.local/blog
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 Access at: ptv.local/blog
 ```
@@ -311,6 +360,7 @@ Access at: `[YOUR_DOMAIN]/blog`
 **Before**:
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## <nome progetto> Integration
 
 1. Add to <nome progetto> config:
@@ -320,6 +370,8 @@ Access at: `[YOUR_DOMAIN]/blog`
 
 2. Routes available at <nome progetto>.local/admin/blog
 =======
+=======
+>>>>>>> laraxot/dev
 ## FixCity Integration
 
 1. Add to Fixcity config:
@@ -328,6 +380,9 @@ Access at: `[YOUR_DOMAIN]/blog`
    ```
 
 2. Routes available at fixcity.local/admin/blog
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -384,8 +439,13 @@ git revert <commit-hash>
 
 ### Quantitative
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ 0 occurrences of "<nome progetto>" in module/theme docs
 - ✅ 0 occurrences of "<nome progetto>" in module/theme docs
+=======
+- ✅ 0 occurrences of "FixCity" in module/theme docs
+- ✅ 0 occurrences of "fixcity" in module/theme docs
+>>>>>>> laraxot/dev
 =======
 - ✅ 0 occurrences of "FixCity" in module/theme docs
 - ✅ 0 occurrences of "fixcity" in module/theme docs
@@ -463,15 +523,21 @@ A: Consider keeping it in the project root, not in the reusable Modules director
 
 **Q: How do I handle module-to-module references?**  
 <<<<<<< HEAD
+<<<<<<< HEAD
 A: Use generic names: "Blog Module" instead of "<nome progetto> Blog Module".
 
 **Q: Can I still mention <nome progetto> in examples?**  
 A: Yes, but clearly mark them as examples: "e.g., '<nome progetto>' for a civic platform".
 =======
+=======
+>>>>>>> laraxot/dev
 A: Use generic names: "Blog Module" instead of "FixCity Blog Module".
 
 **Q: Can I still mention FixCity in examples?**  
 A: Yes, but clearly mark them as examples: "e.g., 'fixcity' for a civic platform".
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 A: Yes, but clearly mark them as examples: "e.g., 'ptv' for a civic platform".
 

@@ -16,7 +16,11 @@
 | **Blog** | 76 | 45 | **41%** | ✅ Clean | ✅ FATTO |
 | **Cms** | 70 | 37 | **47%** | ✅ Clean | ✅ FATTO |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | 72 | 43 | **40%** | ✅ Clean | ✅ FATTO |
+=======
+| **Fixcity** | 72 | 43 | **40%** | ✅ Clean | ✅ FATTO |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | 72 | 43 | **40%** | ✅ Clean | ✅ FATTO |
 >>>>>>> laraxot/dev
@@ -155,7 +159,11 @@ abstract class BaseModel extends XotBaseModel
 - ✅ LOC: 70 → 37 (47% riduzione)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto>
+=======
+### Fixcity
+>>>>>>> laraxot/dev
 =======
 ### Fixcity
 >>>>>>> laraxot/dev
@@ -207,7 +215,11 @@ abstract class BaseModel extends XotBaseModel
   Modules/Blog/app/Models/BaseModel.php \
   Modules/Cms/app/Models/BaseModel.php \
 <<<<<<< HEAD
+<<<<<<< HEAD
   Modules/<nome progetto>/app/Models/BaseModel.php \
+=======
+  Modules/Fixcity/app/Models/BaseModel.php \
+>>>>>>> laraxot/dev
 =======
   Modules/Fixcity/app/Models/BaseModel.php \
 >>>>>>> laraxot/dev
@@ -264,7 +276,11 @@ Modules/*/app/Models/BaseModel.php.backup-20251015-*
 |--------|-----------------|-------------|
 | Blog | `InteractsWithMedia`, `SoftDeletes` | Spatie Media Library + soft delete |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | `SoftDeletes` | Gestione segnalazioni con soft delete |
+=======
+| Fixcity | `SoftDeletes` | Gestione segnalazioni con soft delete |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | `SoftDeletes` | Gestione segnalazioni con soft delete |
 >>>>>>> laraxot/dev
@@ -295,7 +311,11 @@ public function __construct(array $attributes = [])
 **Motivazione:** Table prefix dinamico per Job scheduler
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 2. <nome progetto> Module - $dates Property
+=======
+### 2. Fixcity Module - $dates Property
+>>>>>>> laraxot/dev
 =======
 ### 2. Fixcity Module - $dates Property
 >>>>>>> laraxot/dev
@@ -351,7 +371,11 @@ abstract class BaseModel extends EloquentModel
 2. ✅ `Modules/User/docs/analisi-metodi-duplicati.md`
 3. ✅ `Modules/Cms/docs/analisi-metodi-duplicati.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. ✅ `Modules/<nome progetto>/docs/analisi-metodi-duplicati.md`
+=======
+4. ✅ `Modules/Fixcity/docs/analisi-metodi-duplicati.md`
+>>>>>>> laraxot/dev
 =======
 4. ✅ `Modules/Fixcity/docs/analisi-metodi-duplicati.md`
 >>>>>>> laraxot/dev
@@ -445,7 +469,11 @@ abstract class BaseModel extends XotBaseModel
 - Blog: Clean
 - Cms: Clean
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto>: Clean
+=======
+- Fixcity: Clean
+>>>>>>> laraxot/dev
 =======
 - Fixcity: Clean
 >>>>>>> laraxot/dev
@@ -520,7 +548,11 @@ Abbiamo completato il refactoring di 10 BaseModel eliminando duplicazioni:
 
 ✅ MODULI COMPLETATI:
 <<<<<<< HEAD
+<<<<<<< HEAD
 Activity, Blog, Cms, <nome progetto>, Geo, Job, Lang, Media, Notify, User
+=======
+Activity, Blog, Cms, Fixcity, Geo, Job, Lang, Media, Notify, User
+>>>>>>> laraxot/dev
 =======
 Activity, Blog, Cms, Fixcity, Geo, Job, Lang, Media, Notify, User
 >>>>>>> laraxot/dev

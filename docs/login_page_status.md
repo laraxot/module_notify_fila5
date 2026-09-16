@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📊 Status Pagina Login - Verifica Tecnica
 
 **Data Verifica**: 14 Ottobre 2025  
@@ -328,6 +329,8 @@ Password: password
 
 
 =======
+=======
+>>>>>>> laraxot/dev
 # Status pagina login — documento estraneo (deprecato)
 
 Questo documento descriveva una pagina di login basata su
@@ -352,4 +355,7 @@ il fix di questo repo.
 Contenuto originale rimosso perche' fuorviante: descriveva file/percorsi che
 non esistono in questo progetto e rischiava di far perdere tempo a chi lo
 avesse usato come riferimento.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

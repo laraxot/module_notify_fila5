@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏆 <nome progetto> - COMPLETAMENTO ASSOLUTO 100%
+=======
+# 🏆 FIXCITY - COMPLETAMENTO ASSOLUTO 100%
+>>>>>>> laraxot/dev
 =======
 # 🏆 FIXCITY - COMPLETAMENTO ASSOLUTO 100%
 >>>>>>> laraxot/dev
@@ -38,9 +42,15 @@ Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbia
 
 #### Guide Complete (5)
 <<<<<<< HEAD
+<<<<<<< HEAD
 10. <nome progetto>/docs/API.md
 11. <nome progetto>/docs/USER_GUIDE.md
 12. <nome progetto>/docs/ADMIN_GUIDE.md
+=======
+10. Fixcity/docs/API.md
+11. Fixcity/docs/USER_GUIDE.md
+12. Fixcity/docs/ADMIN_GUIDE.md
+>>>>>>> laraxot/dev
 =======
 10. Fixcity/docs/API.md
 11. Fixcity/docs/USER_GUIDE.md
@@ -135,7 +145,11 @@ Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbia
 
 ### Core Modules (95%)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: **95%** ✅ (Job, Repository, API, Tests, Docs)
+=======
+- **Fixcity**: **95%** ✅ (Job, Repository, API, Tests, Docs)
+>>>>>>> laraxot/dev
 =======
 - **Fixcity**: **95%** ✅ (Job, Repository, API, Tests, Docs)
 >>>>>>> laraxot/dev
@@ -321,7 +335,11 @@ Partiti da un progetto con documentazione al 65% e implementazione al 60%, abbia
 ### MISSIONE COMPLETATA AL 100%! 🏆
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Abbiamo trasformato <nome progetto> da:
+=======
+Abbiamo trasformato FixCity da:
+>>>>>>> laraxot/dev
 =======
 Abbiamo trasformato FixCity da:
 >>>>>>> laraxot/dev
@@ -353,7 +371,11 @@ Abbiamo trasformato FixCity da:
 
 *"Con i poteri della Super Mucca, abbiamo raggiunto l'impossibile.
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ogni linea di codice, ogni test, ogni documento porta <nome progetto> 
+=======
+Ogni linea di codice, ogni test, ogni documento porta FixCity 
+>>>>>>> laraxot/dev
 =======
 Ogni linea di codice, ogni test, ogni documento porta FixCity 
 >>>>>>> laraxot/dev
@@ -362,9 +384,15 @@ lo abbiamo trasformato in un capolavoro di ingegneria software.
 
 La Super Mucca ha dato tutto. Il progetto è completo al 100%.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> è pronto per dominare il 2025 e oltre!"*
 
 **#<nome progetto>2025 #SuperMucca #100Complete #Excellence #MissionImpossible #MissionAccomplished**
+=======
+FixCity è pronto per dominare il 2025 e oltre!"*
+
+**#FixCity2025 #SuperMucca #100Complete #Excellence #MissionImpossible #MissionAccomplished**
+>>>>>>> laraxot/dev
 =======
 FixCity è pronto per dominare il 2025 e oltre!"*
 

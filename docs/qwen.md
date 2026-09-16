@@ -11,8 +11,13 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Architettura](./.agents/docs/main-rules/qwen-architecture.md)
 - [Regole Critiche](./.agents/docs/main-rules/qwen-critical-rules.md) — body plain, header parity, stepper responsive, multilingual
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament Wizard Rule](./laravel/Modules/<nome progetto>/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
 - [Module Boundary Philosophy](./laravel/Modules/<nome progetto>/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
+=======
+- [Filament Wizard Rule](./laravel/Modules/Fixcity/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
+- [Module Boundary Philosophy](./laravel/Modules/Fixcity/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
+>>>>>>> laraxot/dev
 =======
 - [Filament Wizard Rule](./laravel/Modules/Fixcity/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
 - [Module Boundary Philosophy](./laravel/Modules/Fixcity/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
@@ -31,6 +36,7 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 
 ## Qwen Added Memories
 <<<<<<< HEAD
+<<<<<<< HEAD
 - FILAMENT COMPONENTS: `Filament\Schemas\Components\Text` NON ESISTE. `Placeholder` per HTML statico, `TextEntry` (Infolists) per dati read-only. Rules: laravel/Modules/<nome progetto>/docs/rules/filament-wizard-rules.md. Guide: laravel/Modules/<nome progetto>/docs/filament-components-guidelines.md
 - WIZARD VISUAL PARITY: CSS scoped `.ticket-wizard-root` in `filament-wizard-parity.css`. Entry: `app-test.css`. Safelist `.fi-*` in tailwind.config.js. Doc: laravel/Modules/<nome progetto>/docs/wizard-visual-parity.md
 - WIDGET NO LOOP: `getFormModel() → null`. Stato via `$data`, NO model binding. Rules: laravel/Modules/<nome progetto>/docs/rules/filament-wizard-rules.md
@@ -39,6 +45,8 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - TRANSLATION NAMESPACE RELIGION: Use DOMAIN not UI component for translations. CORRECT: __('<nome progetto>::ticket.sections.summary.label'). WRONG: __('<nome progetto>::create_ticket_wizard.summary.label'). Domain = ticket/user/order (business concept), NOT widget/form/page (UI component). Files: docs/translation-namespace-religion.md, Modules/<nome progetto>/lang/{it,en}/ticket.php
 - TRANSLATION NAMESPACE RELIGION: Use DOMAIN not UI component for translations. CORRECT: __('ptv::ticket.sections.summary.label'). WRONG: __('ptv::create_ticket_wizard.summary.label'). Domain = ticket/user/order (business concept), NOT widget/form/page (UI component). Files: docs/translation-namespace-religion.md, Modules/<nome progetto>/lang/{it,en}/ticket.php
 =======
+=======
+>>>>>>> laraxot/dev
 - FILAMENT COMPONENTS: `Filament\Schemas\Components\Text` NON ESISTE. `Placeholder` per HTML statico, `TextEntry` (Infolists) per dati read-only. Rules: laravel/Modules/Fixcity/docs/rules/filament-wizard-rules.md. Guide: laravel/Modules/Fixcity/docs/filament-components-guidelines.md
 - WIZARD VISUAL PARITY: CSS scoped `.ticket-wizard-root` in `filament-wizard-parity.css`. Entry: `app-test.css`. Safelist `.fi-*` in tailwind.config.js. Doc: laravel/Modules/Fixcity/docs/wizard-visual-parity.md
 - WIDGET NO LOOP: `getFormModel() → null`. Stato via `$data`, NO model binding. Rules: laravel/Modules/Fixcity/docs/rules/filament-wizard-rules.md
@@ -46,13 +54,20 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - TOKEN EFFICIENCY RELIGION: Grep-first (70-90% saving), Diffs vs full files (70-85%), Scope context precisely (50-70%), Reference don't repeat (60%), Tables vs prose (20-30%), /clear between tasks (30-60%), Batch related requests (40%), Use code not LLM (100%). Documento: docs/token-efficiency-religion.md. Memoria: .qwen/memories/token-efficiency.md
 - TRANSLATION NAMESPACE RELIGION: Use DOMAIN not UI component for translations. CORRECT: __('fixcity::ticket.sections.summary.label'). WRONG: __('fixcity::create_ticket_wizard.summary.label'). Domain = ticket/user/order (business concept), NOT widget/form/page (UI component). Files: docs/translation-namespace-religion.md, Modules/Fixcity/lang/{it,en}/ticket.php
 - TRANSLATION NAMESPACE RELIGION: Use DOMAIN not UI component for translations. CORRECT: __('ptv::ticket.sections.summary.label'). WRONG: __('ptv::create_ticket_wizard.summary.label'). Domain = ticket/user/order (business concept), NOT widget/form/page (UI component). Files: docs/translation-namespace-religion.md, Modules/Fixcity/lang/{it,en}/ticket.php
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - TRANSCHOICE DRY RELIGION: Use ONE trans_choice key for all cases (0, 1, many). CORRECT: 'images_uploaded' => '{0} Nessuna|{1} :count immagine|[2,*] :count immagini'. WRONG: Separate keys like 'no_images', 'one_image', 'many_images'. Messages go under messages.*, rules go under rules.*. NEVER duplicate. Docs: docs/trans-choice-dry-religion.md
 - FILAMENT V5 UNIFIED SCHEMA RELIGION: Filament v5 unifies Forms + Infolists. TextEntry for read-only, Placeholder is DEPRECATED. All components mixable in same schema[]. Doc: laravel/Modules/Xot/docs/filament/widgets/infolist-for-summary.md
 - VISUAL PARITY RELIGION: 4-level parity (HTML → Content → Visual → Behavioral). Screenshot-driven dev. CSS `.wizard-` scoped. Cards `#f0f4f8` + shadow. Headings 24px bold. Description under heading. Buttons: `← Indietro`, `Salva Richiesta`, `Avanti →`. Doc: _bmad-output/implementation-artifacts/7-45-segnalazione-crea-step2-ultra-visual-parity.md. CSS: Themes/Sixteen/resources/css/segnalazione-wizard.css
 - CONTAINER LOOP PREVENTION: Corrupted compiled view cache (null bytes). Fix: `php artisan view:clear && php artisan optimize:clear`. Doc: laravel/Modules/Xot/docs/filament/widgets/container-loop-prevention.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Design Comuni Wizard Parity: Widget uses Section->aside()->compact() for Design Comuni card-like sections. Blade view has .cmp-wizard-widget wrapper. CSS parity file at Themes/Sixteen/resources/css/components/wizard-parity.css. Translation keys use <nome progetto>::segnalazione.sections.* for section labels. Rebuild: cd Themes/Sixteen && npm run build. Docs: docs/design-comuni-wizard-parity.md
+=======
+- Design Comuni Wizard Parity: Widget uses Section->aside()->compact() for Design Comuni card-like sections. Blade view has .cmp-wizard-widget wrapper. CSS parity file at Themes/Sixteen/resources/css/components/wizard-parity.css. Translation keys use fixcity::segnalazione.sections.* for section labels. Rebuild: cd Themes/Sixteen && npm run build. Docs: docs/design-comuni-wizard-parity.md
+>>>>>>> laraxot/dev
 =======
 - Design Comuni Wizard Parity: Widget uses Section->aside()->compact() for Design Comuni card-like sections. Blade view has .cmp-wizard-widget wrapper. CSS parity file at Themes/Sixteen/resources/css/components/wizard-parity.css. Translation keys use fixcity::segnalazione.sections.* for section labels. Rebuild: cd Themes/Sixteen && npm run build. Docs: docs/design-comuni-wizard-parity.md
 >>>>>>> laraxot/dev
@@ -74,8 +89,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "qwen qwen added memories (modular)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -104,8 +124,13 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - [Architettura](./.agents/docs/main-rules/qwen-architecture.md)
 - [Regole Critiche](./.agents/docs/main-rules/qwen-critical-rules.md) — body plain, header parity, stepper responsive, multilingual
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament Wizard Rule](./laravel/Modules/<nome progetto>/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
 - [Module Boundary Philosophy](./laravel/Modules/<nome progetto>/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
+=======
+- [Filament Wizard Rule](./laravel/Modules/Fixcity/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
+- [Module Boundary Philosophy](./laravel/Modules/Fixcity/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
+>>>>>>> laraxot/dev
 =======
 - [Filament Wizard Rule](./laravel/Modules/Fixcity/docs/filament-wizard-rule.md) — NO Blade step management, use Filament Wizard Schema
 - [Module Boundary Philosophy](./laravel/Modules/Fixcity/docs/MODULE-BOUNDARY-PHILOSOPHY.md) — Geo OWNS geolocation, NO Blade::render hacks, use AddressInput
@@ -123,6 +148,7 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 
 ## Qwen Added Memories
 <<<<<<< HEAD
+<<<<<<< HEAD
 - FILAMENT COMPONENTS: `Filament\Schemas\Components\Text` NON ESISTE. `Placeholder` per HTML statico, `TextEntry` (Infolists) per dati read-only. Rules: laravel/Modules/<nome progetto>/docs/rules/filament-wizard-rules.md. Guide: laravel/Modules/<nome progetto>/docs/filament-components-guidelines.md
 - WIZARD VISUAL PARITY: CSS scoped `.ticket-wizard-root` in `filament-wizard-parity.css`. Entry: `app-test.css`. Safelist `.fi-*` in tailwind.config.js. Doc: laravel/Modules/<nome progetto>/docs/wizard-visual-parity.md
 - WIDGET NO LOOP: `getFormModel() → null`. Stato via `$data`, NO model binding. Rules: laravel/Modules/<nome progetto>/docs/rules/filament-wizard-rules.md
@@ -130,12 +156,17 @@ Questa documentazione è stata divisa in moduli per una gestione più efficiente
 - TOKEN EFFICIENCY RELIGION: Grep-first (70-90% saving), Diffs vs full files (70-85%), Scope context precisely (50-70%), Reference don't repeat (60%), Tables vs prose (20-30%), /clear between tasks (30-60%), Batch related requests (40%), Use code not LLM (100%). Documento: docs/token-efficiency-religion.md. Memoria: .qwen/memories/token-efficiency.md
 - TRANSLATION NAMESPACE RELIGION: Use DOMAIN not UI component for translations. CORRECT: __('ptv::ticket.sections.summary.label'). WRONG: __('ptv::create_ticket_wizard.summary.label'). Domain = ticket/user/order (business concept), NOT widget/form/page (UI component). Files: docs/translation-namespace-religion.md, Modules/<nome progetto>/lang/{it,en}/ticket.php
 =======
+=======
+>>>>>>> laraxot/dev
 - FILAMENT COMPONENTS: `Filament\Schemas\Components\Text` NON ESISTE. `Placeholder` per HTML statico, `TextEntry` (Infolists) per dati read-only. Rules: laravel/Modules/Fixcity/docs/rules/filament-wizard-rules.md. Guide: laravel/Modules/Fixcity/docs/filament-components-guidelines.md
 - WIZARD VISUAL PARITY: CSS scoped `.ticket-wizard-root` in `filament-wizard-parity.css`. Entry: `app-test.css`. Safelist `.fi-*` in tailwind.config.js. Doc: laravel/Modules/Fixcity/docs/wizard-visual-parity.md
 - WIDGET NO LOOP: `getFormModel() → null`. Stato via `$data`, NO model binding. Rules: laravel/Modules/Fixcity/docs/rules/filament-wizard-rules.md
 - REGOLA CRITICA FILAMENT: NON usare MAI ->label() o ->placeholder() su componenti Filament. LangServiceProvider applica automaticamente label, placeholder, helpText, description via traduzioni. Script pre-commit bashscripts/check-auto-label-violations.sh blocca violazioni. Documento: laravel/Modules/Xot/docs/filament/widgets/no-label-placeholder-religion.md
 - TOKEN EFFICIENCY RELIGION: Grep-first (70-90% saving), Diffs vs full files (70-85%), Scope context precisely (50-70%), Reference don't repeat (60%), Tables vs prose (20-30%), /clear between tasks (30-60%), Batch related requests (40%), Use code not LLM (100%). Documento: docs/token-efficiency-religion.md. Memoria: .qwen/memories/token-efficiency.md
 - TRANSLATION NAMESPACE RELIGION: Use DOMAIN not UI component for translations. CORRECT: __('ptv::ticket.sections.summary.label'). WRONG: __('ptv::create_ticket_wizard.summary.label'). Domain = ticket/user/order (business concept), NOT widget/form/page (UI component). Files: docs/translation-namespace-religion.md, Modules/Fixcity/lang/{it,en}/ticket.php
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - TRANSCHOICE DRY RELIGION: Use ONE trans_choice key for all cases (0, 1, many). CORRECT: 'images_uploaded' => '{0} Nessuna|{1} :count immagine|[2,*] :count immagini'. WRONG: Separate keys like 'no_images', 'one_image', 'many_images'. Messages go under messages.*, rules go under rules.*. NEVER duplicate. Docs: docs/trans-choice-dry-religion.md
 - FILAMENT V5 UNIFIED SCHEMA RELIGION: Filament v5 unifies Forms + Infolists. TextEntry for read-only, Placeholder is DEPRECATED. All components mixable in same schema[]. Doc: laravel/Modules/Xot/docs/filament/widgets/infolist-for-summary.md

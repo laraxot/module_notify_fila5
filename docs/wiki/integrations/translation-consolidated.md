@@ -210,17 +210,23 @@ Questo documento descrive il piano di pulizia e standardizzazione delle traduzio
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/_bases/<nome repository>/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
 
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 =======
+=======
+>>>>>>> laraxot/dev
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di Quaeris.
 
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/Quaeris/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### 1. File con Nomi Errati
@@ -4447,7 +4453,11 @@ Modules/Notify/lang/it/create_mail_template.php
 
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di App, con particolare attenzione al modulo Notify.
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di Quaeris, con particolare attenzione al modulo Notify.
+>>>>>>> laraxot/dev
 =======
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di Quaeris, con particolare attenzione al modulo Notify.
 >>>>>>> laraxot/dev
@@ -5059,7 +5069,11 @@ touch [project-root]/laravel/Modules/Notify/lang/it/nome_corretto.php
 touch /var/www/_bases/<nome repository>/laravel/Modules/Notify/lang/it/nome_corretto.php
 touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 touch /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/nome_corretto.php
+=======
+touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_corretto.php
+>>>>>>> laraxot/dev
 =======
 touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_corretto.php
 >>>>>>> laraxot/dev
@@ -5086,15 +5100,21 @@ grep -r "nome_errato" /var/www/html/saluteora/laravel/Modules/Notify
 # 4. Rimuovere il file con naming errato
 rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "nome_errato" /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
 rm /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/nome_errato.php
 =======
+=======
+>>>>>>> laraxot/dev
 grep -r "nome_errato" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
 rm /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_errato.php
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -5147,7 +5167,11 @@ ls [project-root]/laravel/Modules/Notify/lang/en/nome_file.php
 ls /var/www/_bases/<nome repository>/laravel/Modules/Notify/lang/en/nome_file.php
 ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 ls /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/en/nome_file.php
+=======
+ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/en/nome_file.php
+>>>>>>> laraxot/dev
 =======
 ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/en/nome_file.php
 >>>>>>> laraxot/dev
@@ -5535,6 +5559,7 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_a_w_s_email.ph
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 rm -f /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -5543,6 +5568,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it
 rm -f /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/_bases/base_techplanner_fila5/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
 =======
+=======
+>>>>>>> laraxot/dev
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -5550,6 +5577,9 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 

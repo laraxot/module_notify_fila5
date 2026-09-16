@@ -1,7 +1,11 @@
 === laravel/v12 rules ===
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Laravel 13
+=======
+# Laravel 12
+>>>>>>> laraxot/dev
 =======
 # Laravel 12
 >>>>>>> laraxot/dev
@@ -10,9 +14,15 @@
 - Since Laravel 11, Laravel has a new streamlined file structure which this project uses.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Laravel 13 Structure
 
 - In Laravel 13, middleware are no longer registered in `app/Http/Kernel.php`.
+=======
+## Laravel 12 Structure
+
+- In Laravel 12, middleware are no longer registered in `app/Http/Kernel.php`.
+>>>>>>> laraxot/dev
 =======
 ## Laravel 12 Structure
 
@@ -28,7 +38,11 @@
 
 - When modifying a column, the migration must include all of the attributes that were previously defined on the column. Otherwise, they will be dropped and lost.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Laravel 13 allows limiting eagerly loaded records natively, without external packages: `$query->latest()->limit(10);`.
+=======
+- Laravel 12 allows limiting eagerly loaded records natively, without external packages: `$query->latest()->limit(10);`.
+>>>>>>> laraxot/dev
 =======
 - Laravel 12 allows limiting eagerly loaded records natively, without external packages: `$query->latest()->limit(10);`.
 >>>>>>> laraxot/dev

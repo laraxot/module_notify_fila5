@@ -52,8 +52,11 @@ class ListNotifications extends XotBaseListRecords
                 ->multiple()];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     public function getTableFilters(): array

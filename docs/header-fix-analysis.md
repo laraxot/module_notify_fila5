@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "📸 Header <nome progetto> vs Bootstrap Italia - Analisi e Fix"
+=======
+title: "📸 Header FixCity vs Bootstrap Italia - Analisi e Fix"
+>>>>>>> laraxot/dev
 =======
 title: "📸 Header FixCity vs Bootstrap Italia - Analisi e Fix"
 >>>>>>> laraxot/dev
@@ -9,15 +13,21 @@ tags: [header, fix, analysis]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "header-fix-analysis 📸 header <nome progetto> vs bootstrap italia - analisi e fix"
 qmd: "header-fix-analysis 📸 header ptv vs bootstrap italia - analisi e fix"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "header-fix-analysis 📸 header fixcity vs bootstrap italia - analisi e fix"
 qmd: "header-fix-analysis 📸 header ptv vs bootstrap italia - analisi e fix"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
@@ -31,7 +41,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📸 Header <nome progetto> vs Bootstrap Italia - Analisi e Fix
+=======
+# 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
+>>>>>>> laraxot/dev
 =======
 # 📸 Header FixCity vs Bootstrap Italia - Analisi e Fix
 >>>>>>> laraxot/dev
@@ -46,6 +60,7 @@ related:
 ### 1. Logo non visibile ❌
 **Reference**: Logo PA visibile (80x80px)  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>**: Logo mancante o non visibile
 
 ### 2. Nome del Comune non leggibile ❌
@@ -56,6 +71,8 @@ related:
 **Reference**: "Un comune da vivere" - text-base text-gray-600  
 **<nome progetto>**: Slogan mancante o illeggibile
 =======
+=======
+>>>>>>> laraxot/dev
 **FixCity**: Logo mancante o non visibile
 
 ### 2. Nome del Comune non leggibile ❌
@@ -65,6 +82,9 @@ related:
 ### 3. Slogan non leggibile ❌
 **Reference**: "Un comune da vivere" - text-base text-gray-600  
 **FixCity**: Slogan mancante o illeggibile
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### 4. Colori diversi ❌
@@ -74,7 +94,11 @@ related:
 - Hover: `#0066CC` on gray
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>**: Colori CSS variables non corretti
+=======
+**FixCity**: Colori CSS variables non corretti
+>>>>>>> laraxot/dev
 =======
 **FixCity**: Colori CSS variables non corretti
 >>>>>>> laraxot/dev
@@ -86,7 +110,11 @@ related:
 - Nav: `py-3` (12px)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **<nome progetto>**: Spaziature non conformi
+=======
+**FixCity**: Spaziature non conformi
+>>>>>>> laraxot/dev
 =======
 **FixCity**: Spaziature non conformi
 >>>>>>> laraxot/dev
@@ -157,7 +185,11 @@ related:
 ## 📊 Conformità Raggiunta
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Elemento | Reference | <nome progetto> | Status |
+=======
+| Elemento | Reference | FixCity | Status |
+>>>>>>> laraxot/dev
 =======
 | Elemento | Reference | FixCity | Status |
 >>>>>>> laraxot/dev

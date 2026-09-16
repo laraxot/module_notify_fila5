@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # LLM Wiki Schema — <nome progetto>
+=======
+# LLM Wiki Schema — FixCity
+>>>>>>> laraxot/dev
 =======
 # LLM Wiki Schema — FixCity
 >>>>>>> laraxot/dev
@@ -146,7 +150,11 @@ Per wiki di **modulo** (`Modules/<Name>/docs/wiki/`):
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Stack <nome progetto> — Vocabolario Wiki
+=======
+## Stack FixCity — Vocabolario Wiki
+>>>>>>> laraxot/dev
 =======
 ## Stack FixCity — Vocabolario Wiki
 >>>>>>> laraxot/dev
@@ -170,7 +178,11 @@ Termini specifici del progetto da usare consistentemente:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Note sul Contesto <nome progetto>
+=======
+## Note sul Contesto FixCity
+>>>>>>> laraxot/dev
 =======
 ## Note sul Contesto FixCity
 >>>>>>> laraxot/dev

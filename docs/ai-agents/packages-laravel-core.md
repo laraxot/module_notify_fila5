@@ -1,7 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Laravel 13 + Qualita Codice — Pacchetti Core
 
 Riferimento per Laravel 13, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP.
+=======
+# Laravel 12 + Qualita Codice — Pacchetti Core
+
+Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP.
+>>>>>>> laraxot/dev
 =======
 # Laravel 12 + Qualita Codice — Pacchetti Core
 
@@ -30,7 +36,11 @@ Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Laravel 13 — Principali novita
+=======
+## Laravel 12 — Principali novita
+>>>>>>> laraxot/dev
 =======
 ## Laravel 12 — Principali novita
 >>>>>>> laraxot/dev
@@ -43,7 +53,11 @@ Riferimento per Laravel 12, Pest 4, PHPStan 2, Pint, Rector, Pulse, Pennant, MCP
 - Piena integrazione Pest 4 come framework di test primario
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Pattern model Laravel 13
+=======
+### Pattern model Laravel 12
+>>>>>>> laraxot/dev
 =======
 ### Pattern model Laravel 12
 >>>>>>> laraxot/dev
@@ -60,7 +74,11 @@ class Task extends BaseModel
             'is_active' => 'boolean',
             'parameters' => 'json',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'status' => TaskStatus::class, // Enum nativo Laravel 13
+=======
+            'status' => TaskStatus::class, // Enum nativo Laravel 12
+>>>>>>> laraxot/dev
 =======
             'status' => TaskStatus::class, // Enum nativo Laravel 12
 >>>>>>> laraxot/dev
@@ -159,7 +177,11 @@ XDEBUG_MODE=off ./vendor/bin/pest --coverage --min=80
 
 # Modulo specifico
 <<<<<<< HEAD
+<<<<<<< HEAD
 XDEBUG_MODE=off ./vendor/bin/pest Modules/<nome progetto>/tests
+=======
+XDEBUG_MODE=off ./vendor/bin/pest Modules/Quaeris/tests
+>>>>>>> laraxot/dev
 =======
 XDEBUG_MODE=off ./vendor/bin/pest Modules/Quaeris/tests
 >>>>>>> laraxot/dev
@@ -311,7 +333,11 @@ Espone l'applicazione all'AI (Claude, ecc.) tramite MCP protocol.
 use Laravel\Mcp\Server;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 $server = new Server('<nome progetto>-surveys');
+=======
+$server = new Server('quaeris-surveys');
+>>>>>>> laraxot/dev
 =======
 $server = new Server('quaeris-surveys');
 >>>>>>> laraxot/dev

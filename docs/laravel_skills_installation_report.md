@@ -46,8 +46,13 @@ Laravel Boost v2.2.1 includes 14 built-in skills in the package:
 ### Built-in Skills Location
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/_bases/<repo progetto>/laravel/vendor/laravel/boost/.ai/
 /var/www/_bases/<repo progetto>/laravel/vendor/laravel/boost/.ai/
+=======
+/var/www/_bases/base_fixcity_fila5/laravel/vendor/laravel/boost/.ai/
+/var/www/_bases/base_ptv_fila5/laravel/vendor/laravel/boost/.ai/
+>>>>>>> laraxot/dev
 =======
 /var/www/_bases/base_fixcity_fila5/laravel/vendor/laravel/boost/.ai/
 /var/www/_bases/base_ptv_fila5/laravel/vendor/laravel/boost/.ai/
@@ -59,8 +64,13 @@ Laravel Boost v2.2.1 includes 14 built-in skills in the package:
 ### laravel-specialist
 - **Package**: jeffallan/claude-skills
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Location**: `/var/www/_bases/<repo progetto>/laravel/.ai/skills/laravel-specialist/`
 - **Location**: `/var/www/_bases/<repo progetto>/laravel/.ai/skills/laravel-specialist/`
+=======
+- **Location**: `/var/www/_bases/base_fixcity_fila5/laravel/.ai/skills/laravel-specialist/`
+- **Location**: `/var/www/_bases/base_ptv_fila5/laravel/.ai/skills/laravel-specialist/`
+>>>>>>> laraxot/dev
 =======
 - **Location**: `/var/www/_bases/base_fixcity_fila5/laravel/.ai/skills/laravel-specialist/`
 - **Location**: `/var/www/_bases/base_ptv_fila5/laravel/.ai/skills/laravel-specialist/`

@@ -7,7 +7,11 @@
 
 ### 1.1 Technical Stack
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Base**: Laravel 13 + Tailwind CSS 4.x
+=======
+- **Base**: Laravel 12 + Tailwind CSS 4.x
+>>>>>>> laraxot/dev
 =======
 - **Base**: Laravel 12 + Tailwind CSS 4.x
 >>>>>>> laraxot/dev

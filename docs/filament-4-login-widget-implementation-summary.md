@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "🎯 Riepilogo Implementazione Login Widget Filament 5"
+=======
+title: "🎯 Riepilogo Implementazione Login Widget Filament 4"
+>>>>>>> laraxot/dev
 =======
 title: "🎯 Riepilogo Implementazione Login Widget Filament 4"
 >>>>>>> laraxot/dev
@@ -9,9 +13,15 @@ tags: [filament, login, widget, implementation]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "Filament-5-login-widget-implementation-summary 🎯 riepilogo implementazione login widget Filament 5"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+qmd: "filament-4-login-widget-implementation-summary 🎯 riepilogo implementazione login widget filament 4"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 qmd: "filament-4-login-widget-implementation-summary 🎯 riepilogo implementazione login widget filament 4"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
@@ -29,7 +39,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎯 Riepilogo Implementazione Login Widget Filament 5
+=======
+# 🎯 Riepilogo Implementazione Login Widget Filament 4
+>>>>>>> laraxot/dev
 =======
 # 🎯 Riepilogo Implementazione Login Widget Filament 4
 >>>>>>> laraxot/dev
@@ -50,7 +64,11 @@ File: Themes/Sixteen/resources/views/pages/auth/login.blade.php:190
 ### Causa Root
 1. **Commento Blade Malformato**: `--}}` senza apertura `{{--`
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **Widget Non Renderizzato**: Il form Filament 5 non appariva
+=======
+2. **Widget Non Renderizzato**: Il form Filament 4 non appariva
+>>>>>>> laraxot/dev
 =======
 2. **Widget Non Renderizzato**: Il form Filament 4 non appariva
 >>>>>>> laraxot/dev
@@ -109,7 +127,11 @@ File: Themes/Sixteen/resources/views/pages/auth/login.blade.php:190
 
 ### 1. Tema Sixteen
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `laravel/Themes/Sixteen/docs/Filament-5-login-widget-implementation.md`
+=======
+**File**: `laravel/Themes/Sixteen/docs/filament-4-login-widget-implementation.md`
+>>>>>>> laraxot/dev
 =======
 **File**: `laravel/Themes/Sixteen/docs/filament-4-login-widget-implementation.md`
 >>>>>>> laraxot/dev
@@ -123,15 +145,21 @@ File: Themes/Sixteen/resources/views/pages/auth/login.blade.php:190
 
 ### 2. Modulo User
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `laravel/Modules/User/docs/Filament-5-widget-rendering-guide.md`
 
 **Contenuto**:
 - Spiegazione architettura Filament 5
 =======
+=======
+>>>>>>> laraxot/dev
 **File**: `laravel/Modules/User/docs/filament-4-widget-rendering-guide.md`
 
 **Contenuto**:
 - Spiegazione architettura Filament 4
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Perché servono i wrapper
 - Come funziona `{{ $this->form }}`
@@ -146,7 +174,11 @@ File: Themes/Sixteen/resources/views/pages/auth/login.blade.php:190
 ## 🔑 Concetti Chiave Appresi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 1. Architettura Filament 5 Widget
+=======
+### 1. Architettura Filament 4 Widget
+>>>>>>> laraxot/dev
 =======
 ### 1. Architettura Filament 4 Widget
 >>>>>>> laraxot/dev
@@ -170,7 +202,11 @@ wire:submit="methodName" → Gestisce submit
 ### 2. Differenze Filament 3 vs 4
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Aspetto | Filament 3 | Filament 5 |
+=======
+| Aspetto | Filament 3 | Filament 4 |
+>>>>>>> laraxot/dev
 =======
 | Aspetto | Filament 3 | Filament 4 |
 >>>>>>> laraxot/dev
@@ -270,8 +306,13 @@ TextInput::make('email') // Label da user::fields.email.label
 
 ### Interna
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament 5 Login Widget Implementation](../laravel/Themes/Sixteen/docs/Filament-5-login-widget-implementation.md)
 - [Filament 5 Widget Rendering Guide](../laravel/Modules/User/docs/Filament-5-widget-rendering-guide.md)
+=======
+- [Filament 4 Login Widget Implementation](../laravel/Themes/Sixteen/docs/filament-4-login-widget-implementation.md)
+- [Filament 4 Widget Rendering Guide](../laravel/Modules/User/docs/filament-4-widget-rendering-guide.md)
+>>>>>>> laraxot/dev
 =======
 - [Filament 4 Login Widget Implementation](../laravel/Themes/Sixteen/docs/filament-4-login-widget-implementation.md)
 - [Filament 4 Widget Rendering Guide](../laravel/Modules/User/docs/filament-4-widget-rendering-guide.md)
@@ -281,8 +322,13 @@ TextInput::make('email') // Label da user::fields.email.label
 
 ### Esterna
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament 5 Widgets](https://filamentphp.com/docs/4.x/widgets)
 - [Filament 5 Forms](https://filamentphp.com/docs/4.x/forms)
+=======
+- [Filament 4 Widgets](https://filamentphp.com/docs/4.x/widgets)
+- [Filament 4 Forms](https://filamentphp.com/docs/4.x/forms)
+>>>>>>> laraxot/dev
 =======
 - [Filament 4 Widgets](https://filamentphp.com/docs/4.x/widgets)
 - [Filament 4 Forms](https://filamentphp.com/docs/4.x/forms)
@@ -294,7 +340,11 @@ TextInput::make('email') // Label da user::fields.email.label
 ## 🎓 Lezioni Apprese
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 1. Filament 5 è Diverso
+=======
+### 1. Filament 4 è Diverso
+>>>>>>> laraxot/dev
 =======
 ### 1. Filament 4 è Diverso
 >>>>>>> laraxot/dev
@@ -325,9 +375,15 @@ AGID richiede:
 ## 🏆 Conclusione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'implementazione del LoginWidget Filament 5 è stata completata con successo, seguendo:
 
 1. ✅ **Best Practices Filament 5**: Wrapper, form rendering, Livewire 3
+=======
+L'implementazione del LoginWidget Filament 4 è stata completata con successo, seguendo:
+
+1. ✅ **Best Practices Filament 4**: Wrapper, form rendering, Livewire 3
+>>>>>>> laraxot/dev
 =======
 L'implementazione del LoginWidget Filament 4 è stata completata con successo, seguendo:
 

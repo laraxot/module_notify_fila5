@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto> Platform - Project Status Report
+=======
+# FixCity Platform - Project Status Report
+>>>>>>> laraxot/dev
 =======
 # FixCity Platform - Project Status Report
 >>>>>>> laraxot/dev
@@ -13,7 +17,11 @@
 | Modulo | Status | Completamento | Priorità | Owner |
 |--------|--------|---------------|----------|-------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
+=======
+| **Fixcity** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | 🟡 In Progress | 60% | 🔴 Critical | Business Team |
 >>>>>>> laraxot/dev
@@ -101,8 +109,13 @@
 
 ### Dicembre 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Upgraded to Laravel 13
 - ✅ Migrated to Filament 5
+=======
+- ✅ Upgraded to Laravel 12
+- ✅ Migrated to Filament 4
+>>>>>>> laraxot/dev
 =======
 - ✅ Upgraded to Laravel 12
 - ✅ Migrated to Filament 4
@@ -189,7 +202,11 @@
 **Report Generated**: 2025-01-01  
 **Next Update**: 2025-01-15  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Contact**: development@<nome progetto>.io
+=======
+**Contact**: development@fixcity.io
+>>>>>>> laraxot/dev
 =======
 **Contact**: development@fixcity.io
 >>>>>>> laraxot/dev

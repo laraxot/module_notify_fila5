@@ -7,9 +7,15 @@ updated: 2026-07-16
 qmd: "notify psr-4 test doubles phpstan probes composer autoload"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "https://github.com/laraxot/<repo progetto>/issues/38"
 discussions:
   - "https://github.com/laraxot/<repo progetto>/discussions/12"
+=======
+  - "https://github.com/laraxot/base_techplanner_fila5/issues/38"
+discussions:
+  - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
+>>>>>>> laraxot/dev
 =======
   - "https://github.com/laraxot/base_techplanner_fila5/issues/38"
 discussions:

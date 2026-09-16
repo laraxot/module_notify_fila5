@@ -42,7 +42,11 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 - [x] Performance issues documentation
 - [x] PHPStan fixes report
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Filament 5.x upgrade report
+=======
+- [x] Filament 4.x upgrade report
+>>>>>>> laraxot/dev
 =======
 - [x] Filament 4.x upgrade report
 >>>>>>> laraxot/dev
@@ -288,7 +292,11 @@ consolidamento seguendo le roadmap definite. Focus attuale: completamento docume
 - [x] Component reorganization
 - [x] Translation system
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Filament 5.x integration
+=======
+- [x] Filament 4.x integration
+>>>>>>> laraxot/dev
 =======
 - [x] Filament 4.x integration
 >>>>>>> laraxot/dev

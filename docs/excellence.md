@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "🏆 <nome progetto> - ECCELLENZA 2025"
+=======
+title: "🏆 FIXCITY - ECCELLENZA 2025"
+>>>>>>> laraxot/dev
 =======
 title: "🏆 FIXCITY - ECCELLENZA 2025"
 >>>>>>> laraxot/dev
@@ -9,15 +13,21 @@ tags: [excellence, 2025]
 created: 2026-07-14
 updated: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "excellence-2025 🏆 <nome progetto> - eccellenza 2025"
 qmd: "excellence-2025 🏆 ptv - eccellenza 2025"
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 =======
+=======
+>>>>>>> laraxot/dev
 qmd: "excellence-2025 🏆 fixcity - eccellenza 2025"
 qmd: "excellence-2025 🏆 ptv - eccellenza 2025"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
@@ -31,7 +41,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏆 <nome progetto> - ECCELLENZA 2025
+=======
+# 🏆 FIXCITY - ECCELLENZA 2025
+>>>>>>> laraxot/dev
 =======
 # 🏆 FIXCITY - ECCELLENZA 2025
 >>>>>>> laraxot/dev
@@ -45,7 +59,11 @@ related:
 ## 🎯 VISIONE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> è la piattaforma enterprise leader per la gestione delle segnalazioni urbane, progettata per essere:
+=======
+FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni urbane, progettata per essere:
+>>>>>>> laraxot/dev
 =======
 FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni urbane, progettata per essere:
 >>>>>>> laraxot/dev
@@ -67,7 +85,11 @@ FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni u
 5. ✅ **excellence-2025.md** - Questo documento
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 🎫 Modulo <nome progetto> - ECCELLENZA (90%)
+=======
+### 🎫 Modulo Fixcity - ECCELLENZA (90%)
+>>>>>>> laraxot/dev
 =======
 ### 🎫 Modulo Fixcity - ECCELLENZA (90%)
 >>>>>>> laraxot/dev
@@ -103,7 +125,11 @@ FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni u
 ### Documentazione
 - **Coverage Globale**: 75% → Target 90%
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Moduli Core**: 92% (<nome progetto>, User, Xot)
+=======
+- **Moduli Core**: 92% (Fixcity, User, Xot)
+>>>>>>> laraxot/dev
 =======
 - **Moduli Core**: 92% (Fixcity, User, Xot)
 >>>>>>> laraxot/dev
@@ -176,7 +202,11 @@ FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni u
 #### Settimana 1-2 (Ottobre)
 - [x] Documentazione strategica completa
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] API documentation <nome progetto>
+=======
+- [x] API documentation Fixcity
+>>>>>>> laraxot/dev
 =======
 - [x] API documentation Fixcity
 >>>>>>> laraxot/dev
@@ -263,7 +293,11 @@ FixCity è la piattaforma enterprise leader per la gestione delle segnalazioni u
 ### Technology Stack
 - ✅ **Laravel 11.x**: Framework
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **Filament 5.x**: Admin panel
+=======
+- ✅ **Filament 4.x**: Admin panel
+>>>>>>> laraxot/dev
 =======
 - ✅ **Filament 4.x**: Admin panel
 >>>>>>> laraxot/dev
@@ -311,7 +345,11 @@ public function createTicket(
 ```
 18 Independent Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── Core (Xot, User, <nome progetto>)
+=======
+├── Core (Xot, User, Fixcity)
+>>>>>>> laraxot/dev
 =======
 ├── Core (Xot, User, Fixcity)
 >>>>>>> laraxot/dev
@@ -325,7 +363,11 @@ public function createTicket(
 ## 📊 COMPARAZIONE COMPETITORS
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Feature | <nome progetto> | Competitor A | Competitor B |
+=======
+| Feature | FixCity | Competitor A | Competitor B |
+>>>>>>> laraxot/dev
 =======
 | Feature | FixCity | Competitor A | Competitor B |
 >>>>>>> laraxot/dev
@@ -347,7 +389,11 @@ public function createTicket(
 ### Technical Excellence
 - [x] PHPStan Level 9 - 0 errors
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Filament 5.x compatibility
+=======
+- [x] Filament 4.x compatibility
+>>>>>>> laraxot/dev
 =======
 - [x] Filament 4.x compatibility
 >>>>>>> laraxot/dev
@@ -437,9 +483,15 @@ Grazie a tutti i contributor che hanno reso possibile questo progetto:
 
 ### Open Source
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> è orgogliosamente open source:
 - **License**: MIT
 - **Repository**: github.com/laraxot/<nome progetto>
+=======
+FixCity è orgogliosamente open source:
+- **License**: MIT
+- **Repository**: github.com/laraxot/fixcity
+>>>>>>> laraxot/dev
 =======
 FixCity è orgogliosamente open source:
 - **License**: MIT
@@ -478,7 +530,11 @@ FixCity è orgogliosamente open source:
 
 ### Moduli Principali
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[<nome progetto> Docs](./laravel/Modules/<nome progetto>/docs/)** - Core business
+=======
+- **[Fixcity Docs](./laravel/Modules/Fixcity/docs/)** - Core business
+>>>>>>> laraxot/dev
 =======
 - **[Fixcity Docs](./laravel/Modules/Fixcity/docs/)** - Core business
 >>>>>>> laraxot/dev
@@ -487,7 +543,11 @@ FixCity è orgogliosamente open source:
 
 ### API
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[<nome progetto> API](./laravel/Modules/<nome progetto>/docs/API.md)** - REST API
+=======
+- **[Fixcity API](./laravel/Modules/Fixcity/docs/API.md)** - REST API
+>>>>>>> laraxot/dev
 =======
 - **[Fixcity API](./laravel/Modules/Fixcity/docs/API.md)** - REST API
 >>>>>>> laraxot/dev
@@ -499,7 +559,11 @@ FixCity è orgogliosamente open source:
 ## 🏆 CONCLUSIONE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
+=======
+FixCity rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
+>>>>>>> laraxot/dev
 =======
 FixCity rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
 >>>>>>> laraxot/dev
@@ -522,7 +586,11 @@ FixCity rappresenta l'eccellenza nella gestione delle segnalazioni urbane:
 *"Building the future of civic engagement, one line of code at a time."*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **#<nome progetto>2025 #Excellence #OpenSource #AGID #Laravel #Filament**
+=======
+**#FixCity2025 #Excellence #OpenSource #AGID #Laravel #Filament**
+>>>>>>> laraxot/dev
 =======
 **#FixCity2025 #Excellence #OpenSource #AGID #Laravel #Filament**
 >>>>>>> laraxot/dev

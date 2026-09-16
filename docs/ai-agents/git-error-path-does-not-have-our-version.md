@@ -323,7 +323,11 @@ git merge --abort   # No merge in progress
 git status --short
 # M docs/custom-charts-session-summary.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 # M laravel/Modules/<nome progetto>/app/Actions/QuestionChart/Custom/SmsResponseRate.php
+=======
+# M laravel/Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php
+>>>>>>> laraxot/dev
 =======
 # M laravel/Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php
 >>>>>>> laraxot/dev

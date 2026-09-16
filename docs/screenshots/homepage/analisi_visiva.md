@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📸 Analisi Visiva Homepage <nome progetto> vs Bootstrap Italia
+=======
+# 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia
+>>>>>>> laraxot/dev
 =======
 # 📸 Analisi Visiva Homepage FixCity vs Bootstrap Italia
 >>>>>>> laraxot/dev
@@ -10,7 +14,11 @@
 ## Reference
 - **Bootstrap Italia**: https://italia.github.io/design-comuni-pagine-statiche/sito/homepage.html
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: http://<nome progetto>.local/it/tests/homepage
+=======
+- **FixCity**: http://fixcity.local/it/tests/homepage
+>>>>>>> laraxot/dev
 =======
 - **FixCity**: http://fixcity.local/it/tests/homepage
 >>>>>>> laraxot/dev
@@ -37,7 +45,11 @@
 - Text: `#1A1A1A`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev
@@ -83,7 +95,11 @@
 - Card shadow: `shadow-sm`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev
@@ -136,7 +152,11 @@
 - Button: `btn btn-outline-primary btn-sm mt-3`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev
@@ -193,7 +213,11 @@
 - Day abbr: `calendar-day text-muted small text-uppercase`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev
@@ -253,7 +277,11 @@
 - Title: `h6 text-uppercase text-muted mb-3`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev
@@ -304,7 +332,11 @@
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> (Attuale)
+=======
+### FixCity (Attuale)
+>>>>>>> laraxot/dev
 =======
 ### FixCity (Attuale)
 >>>>>>> laraxot/dev

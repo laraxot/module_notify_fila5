@@ -1,13 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto> Hero Marketing Section - Design Spec
 
 ## Overview
 Aggiungere una Hero Section cinematica alla homepage di <nome progetto> per migliorare l'impatto visivo e aumentare le conversioni.
 =======
+=======
+>>>>>>> laraxot/dev
 # FixCity Hero Marketing Section - Design Spec
 
 ## Overview
 Aggiungere una Hero Section cinematica alla homepage di FixCity per migliorare l'impatto visivo e aumentare le conversioni.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Componenti

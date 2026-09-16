@@ -22,7 +22,11 @@ related:
 > **Last Updated**: 2026-03-13  
 > **Status**: 🔄 In Progress  
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Repository**: <nome progetto> Platform
+=======
+> **Repository**: FixCity Platform
+>>>>>>> laraxot/dev
 =======
 > **Repository**: FixCity Platform
 >>>>>>> laraxot/dev
@@ -330,7 +334,11 @@ To contribute to MCP configuration:
 
 **Maintainer**: @marco76tv  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Contact**: dev @<nome progetto>.example.com  
+=======
+**Contact**: dev @fixcity.example.com  
+>>>>>>> laraxot/dev
 =======
 **Contact**: dev @fixcity.example.com  
 >>>>>>> laraxot/dev

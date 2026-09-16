@@ -1,17 +1,23 @@
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
 
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 =======
+=======
+>>>>>>> laraxot/dev
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di Quaeris.
 
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/Quaeris/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### 1. File con Nomi Errati

@@ -6,6 +6,7 @@ return [
     'navigation' => ['group' => 'Sistema', 'label' => 'Contatti Notifiche', 'icon' => 'notify-contacts-animated', 'sort' => 49, 'description' => 'Gestione dei contatti per l\'invio delle notifiche'],
     'fields' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'name' => [
             'label' => 'Nome',
             'tooltip' => 'Nome del contatto',
@@ -35,10 +36,15 @@ return [
             'helper_text' => '',
             'description' => ''],
 =======
+=======
+>>>>>>> laraxot/dev
         'name' => ['label' => 'Nome', 'tooltip' => 'Nome del contatto', 'placeholder' => 'es: Mario Rossi', 'help' => 'Inserisci il nome completo del contatto', 'helper_text' => '', 'description' => ''],
         'email' => ['label' => 'Email', 'tooltip' => 'Indirizzo email del contatto', 'placeholder' => 'es: mario.rossi@example.com', 'help' => 'Inserisci un indirizzo email valido', 'helper_text' => '', 'description' => ''],
         'phone' => ['label' => 'Telefono', 'tooltip' => 'Numero di telefono del contatto', 'placeholder' => 'es: +39 123 456 7890', 'help' => 'Inserisci il numero con prefisso internazionale', 'helper_text' => '', 'description' => ''],
         'telegram_chat_id' => ['label' => 'Chat ID Telegram', 'tooltip' => 'ID della chat Telegram del contatto', 'placeholder' => 'es: 123456789', 'help' => 'ID numerico fornito dal bot Telegram', 'helper_text' => '', 'description' => ''],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         'group' => [
             'label' => 'Gruppo',
@@ -49,15 +55,21 @@ return [
                 'admin' => ['label' => 'Amministratori', 'tooltip' => 'Staff amministrativo'],
                 'users' => ['label' => 'Utenti', 'tooltip' => 'Utenti standard'],
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'support' => ['label' => 'Supporto', 'tooltip' => 'Team di supporto']],
             'helper_text' => '',
             'description' => ''],
 =======
+=======
+>>>>>>> laraxot/dev
                 'support' => ['label' => 'Supporto', 'tooltip' => 'Team di supporto'],
             ],
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         'channels' => [
             'label' => 'Canali',
@@ -68,15 +80,21 @@ return [
                 'sms' => ['label' => 'SMS', 'tooltip' => 'Notifiche via SMS'],
                 'telegram' => ['label' => 'Telegram', 'tooltip' => 'Notifiche via Telegram'],
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'push' => ['label' => 'Push', 'tooltip' => 'Notifiche push sul browser']],
             'helper_text' => '',
             'description' => ''],
 =======
+=======
+>>>>>>> laraxot/dev
                 'push' => ['label' => 'Push', 'tooltip' => 'Notifiche push sul browser'],
             ],
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         'preferences' => [
             'label' => 'Preferenze',
@@ -89,6 +107,7 @@ return [
                     'options' => [
                         'immediate' => ['label' => 'Immediata', 'tooltip' => 'Invia le notifiche immediatamente'],
                         'daily' => ['label' => 'Giornaliera', 'tooltip' => 'Raggruppa le notifiche in un digest giornaliero'],
+<<<<<<< HEAD
 <<<<<<< HEAD
                         'weekly' => ['label' => 'Settimanale', 'tooltip' => 'Raggruppa le notifiche in un digest settimanale']]],
                 'quiet_hours' => ['label' => 'Ore di silenzio', 'tooltip' => 'Periodo in cui non inviare notifiche', 'help' => 'Le notifiche verranno inviate al termine del periodo di silenzio']],
@@ -124,6 +143,8 @@ return [
         'inactive' => [
             'label' => 'inactive']],
 =======
+=======
+>>>>>>> laraxot/dev
                         'weekly' => ['label' => 'Settimanale', 'tooltip' => 'Raggruppa le notifiche in un digest settimanale'],
                     ],
                 ],
@@ -146,6 +167,9 @@ return [
         'first_name' => ['label' => 'first_name'],
         'last_name' => ['label' => 'last_name'],
     ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     'actions' => [
         'test_notification' => [
@@ -153,6 +177,7 @@ return [
             'tooltip' => 'Invia una notifica di test al contatto',
             'icon' => 'heroicon-o-paper-airplane',
             'color' => 'primary',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'confirmation' => ['title' => 'Conferma invio test', 'message' => 'Vuoi inviare una notifica di test a questo contatto?', 'confirm' => 'Sì, invia test', 'cancel' => 'No, annulla']],
         'import' => [
@@ -183,6 +208,8 @@ return [
             'icon' => 'delete',
             'tooltip' => 'delete']],
 =======
+=======
+>>>>>>> laraxot/dev
             'confirmation' => ['title' => 'Conferma invio test', 'message' => 'Vuoi inviare una notifica di test a questo contatto?', 'confirm' => 'Sì, invia test', 'cancel' => 'No, annulla'],
         ],
         'import' => ['label' => 'Importa contatti', 'tooltip' => 'Importa contatti da file CSV', 'icon' => 'heroicon-o-arrow-up-tray', 'color' => 'success'],
@@ -192,6 +219,9 @@ return [
         'layout' => ['label' => 'layout', 'icon' => 'layout', 'tooltip' => 'layout'],
         'delete' => ['label' => 'delete', 'icon' => 'delete', 'tooltip' => 'delete'],
     ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     'messages' => [
         'test_sent' => ['title' => 'Test Inviato', 'message' => 'La notifica di test è stata inviata con successo al contatto'],
@@ -200,7 +230,12 @@ return [
         'import_failed' => ['title' => 'Errore Importazione', 'message' => 'Errore durante l\'importazione dei contatti: :error'],
         'export_success' => ['title' => 'Esportazione Completata', 'message' => 'I contatti sono stati esportati con successo'],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'verification_complete' => ['title' => 'Verifica Completata', 'message' => 'La verifica dei contatti è stata completata. :valid validi, :invalid non validi']],
+=======
+        'verification_complete' => ['title' => 'Verifica Completata', 'message' => 'La verifica dei contatti è stata completata. :valid validi, :invalid non validi'],
+    ],
+>>>>>>> laraxot/dev
 =======
         'verification_complete' => ['title' => 'Verifica Completata', 'message' => 'La verifica dei contatti è stata completata. :valid validi, :invalid non validi'],
     ],
@@ -210,13 +245,19 @@ return [
         'channels' => ['label' => 'Canali', 'tooltip' => 'Filtra per canali attivi'],
         'status' => ['label' => 'Stato', 'tooltip' => 'Filtra per stato di attivazione'],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'last_notified' => ['label' => 'Ultima notifica', 'tooltip' => 'Filtra per data ultima notifica']],
     'label' => 'Contacts',
     'plural_label' => 'Contacts (Plurale)'];
 =======
+=======
+>>>>>>> laraxot/dev
         'last_notified' => ['label' => 'Ultima notifica', 'tooltip' => 'Filtra per data ultima notifica'],
     ],
     'label' => 'Contacts',
     'plural_label' => 'Contacts (Plurale)',
 ];
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

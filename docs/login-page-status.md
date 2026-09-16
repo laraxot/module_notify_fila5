@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "login-page-status 📊 status pagina login - verifica tecnica"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -48,7 +53,11 @@ related:
             </div>
             
 <<<<<<< HEAD
+<<<<<<< HEAD
             <!-- LoginWidget Filament 5 -->
+=======
+            <!-- LoginWidget Filament 4 -->
+>>>>>>> laraxot/dev
 =======
             <!-- LoginWidget Filament 4 -->
 >>>>>>> laraxot/dev
@@ -71,7 +80,11 @@ related:
 - ✅ Design AGID/Bootstrap Italia
 - ✅ Responsive (mobile-first)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Widget Filament 5 integrato correttamente
+=======
+- ✅ Widget Filament 4 integrato correttamente
+>>>>>>> laraxot/dev
 =======
 - ✅ Widget Filament 4 integrato correttamente
 >>>>>>> laraxot/dev
@@ -227,7 +240,11 @@ La pagina implementa lo stesso design professionale di https://docs.italia.it/ac
 - [x] Loading state durante submit
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Filament 5 Integration
+=======
+#### Filament 4 Integration
+>>>>>>> laraxot/dev
 =======
 #### Filament 4 Integration
 >>>>>>> laraxot/dev
@@ -253,7 +270,11 @@ La pagina implementa lo stesso design professionale di https://docs.italia.it/ac
 ## 📝 Note Tecniche
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Architettura Filament 5
+=======
+### Architettura Filament 4
+>>>>>>> laraxot/dev
 =======
 ### Architettura Filament 4
 >>>>>>> laraxot/dev
@@ -296,8 +317,13 @@ FAIL → $this->addError() + rimane su form
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<repo progetto>/laravel
 cd /var/www/_bases/<repo progetto>/laravel
+=======
+cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+cd /var/www/_bases/base_ptv_fila5_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/base_fixcity_fila5_mono/laravel
 cd /var/www/_bases/base_ptv_fila5_mono/laravel
@@ -354,7 +380,11 @@ Password: password
 
 - ParseError risolto
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Widget Filament 5 integrato correttamente
+=======
+- Widget Filament 4 integrato correttamente
+>>>>>>> laraxot/dev
 =======
 - Widget Filament 4 integrato correttamente
 >>>>>>> laraxot/dev

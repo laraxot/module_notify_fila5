@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Contributing to $MOD
 
 ## Development
@@ -19,6 +20,8 @@ composer dev
 
 See ARCHITECTURE.md for design decisions.
 =======
+=======
+>>>>>>> laraxot/dev
 # Contributing to FixCity
 
 First off, thank you for considering contributing to FixCity! 🎉
@@ -357,4 +360,7 @@ By contributing, you agree that your contributions will be licensed under the sa
 ---
 
 **Thank you for contributing to FixCity! 🚀**
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

@@ -1,10 +1,10 @@
 <<<<<<< HEAD
 =======
+>>>>>>> laraxot/dev
 # Canon: docs/wiki/rules/no-git-lfs.md
 #
 # Git LFS VIETATO. Binari = blob git normali.
 
->>>>>>> laraxot/dev
 * text=auto
 *.css linguist-vendored
 *.scss linguist-vendored

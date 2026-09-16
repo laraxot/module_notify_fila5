@@ -14,7 +14,11 @@
 |--------|-------|------|-----------|--------|
 | **Tenant** | 77 linee | 48 linee | -38% | ✅ CRITICO RISOLTO |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | 41 linee | 47 linee | +15%* | ✅ PULITO |
+=======
+| **Fixcity** | 41 linee | 47 linee | +15%* | ✅ PULITO |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | 41 linee | 47 linee | +15%* | ✅ PULITO |
 >>>>>>> laraxot/dev
@@ -24,7 +28,11 @@
 | **Notify** | 44 linee | 42 linee | -5% | ✅ OTTIMIZZATO |
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *<nome progetto>: Aumento linee dovuto a documentazione migliorata, ma rimozione duplicazioni
+=======
+*Fixcity: Aumento linee dovuto a documentazione migliorata, ma rimozione duplicazioni
+>>>>>>> laraxot/dev
 =======
 *Fixcity: Aumento linee dovuto a documentazione migliorata, ma rimozione duplicazioni
 >>>>>>> laraxot/dev
@@ -36,7 +44,11 @@
 | **Moduli Conformi** | 16/18 (89%) | 18/18 (100%) | +11% |
 | **Duplicazioni Critiche** | 1 (Tenant) | 0 | -100% |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **Duplicazioni Medie** | 1 (<nome progetto>) | 0 | -100% |
+=======
+| **Duplicazioni Medie** | 1 (Fixcity) | 0 | -100% |
+>>>>>>> laraxot/dev
 =======
 | **Duplicazioni Medie** | 1 (Fixcity) | 0 | -100% |
 >>>>>>> laraxot/dev
@@ -105,7 +117,11 @@ abstract class BaseModel extends XotBaseModel  // ✅ Corretto
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 2. <nome progetto> Module
+=======
+### 2. Fixcity Module
+>>>>>>> laraxot/dev
 =======
 ### 2. Fixcity Module
 >>>>>>> laraxot/dev
@@ -117,7 +133,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
     use SoftDeletes;
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $connection = '<nome progetto>';
+=======
+    protected $connection = 'fixcity';
+>>>>>>> laraxot/dev
 =======
     protected $connection = 'fixcity';
 >>>>>>> laraxot/dev
@@ -138,7 +158,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
     use SoftDeletes;  // ✅ Specifico
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $connection = '<nome progetto>';
+=======
+    protected $connection = 'fixcity';
+>>>>>>> laraxot/dev
 =======
     protected $connection = 'fixcity';
 >>>>>>> laraxot/dev
@@ -194,7 +218,11 @@ protected function casts(): array
 ```bash
 ✅ Tenant/BaseModel.php - No syntax errors
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ <nome progetto>/BaseModel.php - No syntax errors
+=======
+✅ Fixcity/BaseModel.php - No syntax errors
+>>>>>>> laraxot/dev
 =======
 ✅ Fixcity/BaseModel.php - No syntax errors
 >>>>>>> laraxot/dev
@@ -208,7 +236,11 @@ protected function casts(): array
 ```bash
 ✅ Tenant/BaseModel.php.backup - Created
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ <nome progetto>/BaseModel.php.backup - Created
+=======
+✅ Fixcity/BaseModel.php.backup - Created
+>>>>>>> laraxot/dev
 =======
 ✅ Fixcity/BaseModel.php.backup - Created
 >>>>>>> laraxot/dev
@@ -326,9 +358,15 @@ cp laravel/Modules/Tenant/app/Models/BaseModel.php.backup \
    laravel/Modules/Tenant/app/Models/BaseModel.php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto>
 cp laravel/Modules/<nome progetto>/app/Models/BaseModel.php.backup \
    laravel/Modules/<nome progetto>/app/Models/BaseModel.php
+=======
+# Fixcity
+cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
+   laravel/Modules/Fixcity/app/Models/BaseModel.php
+>>>>>>> laraxot/dev
 =======
 # Fixcity
 cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
@@ -354,7 +392,11 @@ cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
 1. ✅ Test funzionali sui moduli modificati
 2. ✅ Verifica relazioni Eloquent
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. ✅ Test SoftDeletes su <nome progetto>
+=======
+3. ✅ Test SoftDeletes su Fixcity
+>>>>>>> laraxot/dev
 =======
 3. ✅ Test SoftDeletes su Fixcity
 >>>>>>> laraxot/dev
@@ -376,7 +418,11 @@ cp laravel/Modules/Fixcity/app/Models/BaseModel.php.backup \
 ### Obiettivi Raggiunti
 - ✅ **Tenant refactorato** (CRITICO risolto)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **<nome progetto> pulito** (duplicazioni rimosse)
+=======
+- ✅ **Fixcity pulito** (duplicazioni rimosse)
+>>>>>>> laraxot/dev
 =======
 - ✅ **Fixcity pulito** (duplicazioni rimosse)
 >>>>>>> laraxot/dev

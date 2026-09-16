@@ -14,7 +14,12 @@ return [
         'is_read' => ['label' => 'is_read'],
         'is_unread' => ['label' => 'is_unread'],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'data' => ['label' => 'data'],
+=======
+        'notifiable_type' => ['label' => 'notifiable_type'],
+        'notifiable_id' => ['label' => 'notifiable_id'],
+>>>>>>> laraxot/dev
 =======
         'notifiable_type' => ['label' => 'notifiable_type'],
         'notifiable_id' => ['label' => 'notifiable_id'],

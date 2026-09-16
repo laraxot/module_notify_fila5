@@ -176,7 +176,11 @@ TIER 4-5 - Specialized
 {
   "type": "hero",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "title": "Welcome to <nome progetto>",
+=======
+  "title": "Welcome to FixCity",
+>>>>>>> laraxot/dev
 =======
   "title": "Welcome to FixCity",
 >>>>>>> laraxot/dev
@@ -234,7 +238,11 @@ Request: GET /it/tests/homepage
    
 4. Middleware loads JSON:
 <<<<<<< HEAD
+<<<<<<< HEAD
    config/local/<nome progetto>/database/content/pages/homepage.json
+=======
+   config/local/fixcity/database/content/pages/homepage.json
+>>>>>>> laraxot/dev
 =======
    config/local/fixcity/database/content/pages/homepage.json
 >>>>>>> laraxot/dev
@@ -393,8 +401,13 @@ Integrates with:
 **Via .env:**
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 APP_URL=http://<nome progetto>.local
 # Theme detected from APP_URL → <nome progetto> → Sixteen (or override via config)
+=======
+APP_URL=http://fixcity.local
+# Theme detected from APP_URL → fixcity → Sixteen (or override via config)
+>>>>>>> laraxot/dev
 =======
 APP_URL=http://fixcity.local
 # Theme detected from APP_URL → fixcity → Sixteen (or override via config)
@@ -406,7 +419,11 @@ APP_URL=http://ptv.local
 **Via Config:**
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // laravel/config/local/<nome progetto>/xra.php
+=======
+// laravel/config/local/fixcity/xra.php
+>>>>>>> laraxot/dev
 =======
 // laravel/config/local/fixcity/xra.php
 >>>>>>> laraxot/dev

@@ -25,7 +25,11 @@ Monitorare costantemente tutte le cartelle `docs` dei moduli e temi per:
 |--------|------------|--------------|--------|----------|
 | **Xot** | 95+ files | 2025-01-27 | ✅ UPDATED | CRITICAL |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | 8 files | 2025-01-27 | ✅ UPDATED | CRITICAL |
+=======
+| **Fixcity** | 8 files | 2025-01-27 | ✅ UPDATED | CRITICAL |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | 8 files | 2025-01-27 | ✅ UPDATED | CRITICAL |
 >>>>>>> laraxot/dev
@@ -139,8 +143,13 @@ find . -name "*.md" -exec sed -i 's/[0-9]\+ errori rimanenti/0 errori rimanenti 
 #### **Filament Version Updates**
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern: "Filament 3.x" → "Filament 5.x"
 find . -name "*.md" -exec sed -i 's/Filament 3\.x/Filament 5.x/g' {} \;
+=======
+# Pattern: "Filament 3.x" → "Filament 4.x"
+find . -name "*.md" -exec sed -i 's/Filament 3\.x/Filament 4.x/g' {} \;
+>>>>>>> laraxot/dev
 =======
 # Pattern: "Filament 3.x" → "Filament 4.x"
 find . -name "*.md" -exec sed -i 's/Filament 3\.x/Filament 4.x/g' {} \;
@@ -150,8 +159,13 @@ find . -name "*.md" -exec sed -i 's/Filament 3\.x/Filament 4.x/g' {} \;
 #### **Laravel Version Updates**
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern: "Laravel 11" → "Laravel 13"
 find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 13/g' {} \;
+=======
+# Pattern: "Laravel 11" → "Laravel 12"
+find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 12/g' {} \;
+>>>>>>> laraxot/dev
 =======
 # Pattern: "Laravel 11" → "Laravel 12"
 find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 12/g' {} \;
@@ -172,6 +186,7 @@ find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 12/g' {} \;
 1. **ROADMAP_2025.md** (tutti i moduli)
 2. **README.md** (moduli principali)
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. **performance-issues.md** (<nome progetto>, User)
 4. **phpstan-fixes-report.md** (<nome progetto>, User)
 5. **filament_4x_upgrade_report.md** (tutti i moduli)
@@ -179,12 +194,17 @@ find . -name "*.md" -exec sed -i 's/Laravel 11/Laravel 12/g' {} \;
 ### ⚡ **High Priority**
 1. **API Documentation** (<nome progetto>, User, Geo)
 =======
+=======
+>>>>>>> laraxot/dev
 3. **performance-issues.md** (Fixcity, User)
 4. **phpstan-fixes-report.md** (Fixcity, User)
 5. **filament_4x_upgrade_report.md** (tutti i moduli)
 
 ### ⚡ **High Priority**
 1. **API Documentation** (Fixcity, User, Geo)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 2. **Implementation Guides** (tutti i moduli)
 3. **Troubleshooting Guides** (Xot, Sixteen, TwentyOne)

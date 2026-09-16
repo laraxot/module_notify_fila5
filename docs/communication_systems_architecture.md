@@ -818,7 +818,11 @@ class NotificationCacheManager
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 📈 Modern Laravel 13 + PHP 8.3 Enhancements
+=======
+## 📈 Modern Laravel 12 + PHP 8.3 Enhancements
+>>>>>>> laraxot/dev
 =======
 ## 📈 Modern Laravel 12 + PHP 8.3 Enhancements
 >>>>>>> laraxot/dev

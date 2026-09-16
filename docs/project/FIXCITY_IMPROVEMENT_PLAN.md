@@ -1,15 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto> Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop
 
 **Created**: 2026-03-30  
 **Status**: ✅ **READY TO EXECUTE**  
 **Project**: <nome progetto> Platform Improvement  
 =======
+=======
+>>>>>>> laraxot/dev
 # FixCity Improvement Plan - OpenViking + BMAD + GSD + Ralph Loop
 
 **Created**: 2026-03-30  
 **Status**: ✅ **READY TO EXECUTE**  
 **Project**: FixCity Platform Improvement  
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -17,7 +23,11 @@
 ## 🎯 Executive Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 I've created a comprehensive **16-week improvement plan** for <nome progetto> using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).
+=======
+I've created a comprehensive **16-week improvement plan** for FixCity using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).
+>>>>>>> laraxot/dev
 =======
 I've created a comprehensive **16-week improvement plan** for FixCity using the integrated AI agent workflow (OpenViking + BMAD + GSD + Ralph Loop).
 >>>>>>> laraxot/dev
@@ -105,7 +115,11 @@ I've created a comprehensive **16-week improvement plan** for FixCity using the 
 #### 2.2 Unit Tests - Critical Modules (45h)
 **Modules**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto> (ticket logic): 90% coverage
+=======
+- Fixcity (ticket logic): 90% coverage
+>>>>>>> laraxot/dev
 =======
 - Fixcity (ticket logic): 90% coverage
 >>>>>>> laraxot/dev
@@ -380,8 +394,13 @@ cp .planning/phase-1.1.json .ralph/prd.json
 | `.planning/PROJECT.md` | Project context & overview | 8KB |
 | `.planning/config.json` | Roadmap & configuration | 9KB |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `.planning/research/<nome progetto>_PROJECT_RESEARCH_SUMMARY.md` | Research summary | 47KB |
 | `<nome progetto>_IMPROVEMENT_PLAN.md` | This document | 12KB |
+=======
+| `.planning/research/FIXCITY_PROJECT_RESEARCH_SUMMARY.md` | Research summary | 47KB |
+| `FIXCITY_IMPROVEMENT_PLAN.md` | This document | 12KB |
+>>>>>>> laraxot/dev
 =======
 | `.planning/research/FIXCITY_PROJECT_RESEARCH_SUMMARY.md` | Research summary | 47KB |
 | `FIXCITY_IMPROVEMENT_PLAN.md` | This document | 12KB |
@@ -454,7 +473,11 @@ cp .planning/phase-1.1.json .ralph/prd.json
 - **BMAD/GSD/Ralph**: `docs/bmad-gsd-ralph-integration.md`
 - **Unified Workflow**: `docs/unified-ai-workflow.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Project Research**: `.planning/research/<nome progetto>_PROJECT_RESEARCH_SUMMARY.md`
+=======
+- **Project Research**: `.planning/research/FIXCITY_PROJECT_RESEARCH_SUMMARY.md`
+>>>>>>> laraxot/dev
 =======
 - **Project Research**: `.planning/research/FIXCITY_PROJECT_RESEARCH_SUMMARY.md`
 >>>>>>> laraxot/dev

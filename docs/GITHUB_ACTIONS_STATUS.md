@@ -9,7 +9,11 @@
 ## Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Analisi e fix delle GitHub Actions del repository <repo progetto>.
+=======
+Analisi e fix delle GitHub Actions del repository base_ptv_fila5.
+>>>>>>> laraxot/dev
 =======
 Analisi e fix delle GitHub Actions del repository base_ptv_fila5.
 >>>>>>> laraxot/dev

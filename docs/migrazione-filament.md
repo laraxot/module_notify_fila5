@@ -1,13 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Notify Module - Migrazione a Filament 5
 
 ## Panoramica Notify Module
 Il modulo Notify gestisce comunicazioni multi-canale (email, SMS, push, WhatsApp, Telegram, Slack). La migrazione a Filament 5 offre **enormi opportunità** per migliorare UX e performance delle notifiche.
 =======
+=======
+>>>>>>> laraxot/dev
 # Notify Module - Migrazione a Filament 4
 
 ## Panoramica Notify Module
 Il modulo Notify gestisce comunicazioni multi-canale (email, SMS, push, WhatsApp, Telegram, Slack). La migrazione a Filament 4 offre **enormi opportunità** per migliorare UX e performance delle notifiche.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## 🔄 Modifiche Richieste per la Migrazione
@@ -16,7 +22,11 @@ Il modulo Notify gestisce comunicazioni multi-canale (email, SMS, push, WhatsApp
 **Problema attuale**: Resource eliminato dal git status, funzionalità mancante
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Filament 5 - NotificationTemplateResource Completo:**
+=======
+**Filament 4 - NotificationTemplateResource Completo:**
+>>>>>>> laraxot/dev
 =======
 **Filament 4 - NotificationTemplateResource Completo:**
 >>>>>>> laraxot/dev
@@ -293,7 +303,11 @@ class NotificationTemplateResource extends Resource
 
 ### 2. Real-time Notification Dashboard
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Filament 5 - Static Table Data per monitoring:**
+=======
+**Filament 4 - Static Table Data per monitoring:**
+>>>>>>> laraxot/dev
 =======
 **Filament 4 - Static Table Data per monitoring:**
 >>>>>>> laraxot/dev
@@ -537,7 +551,11 @@ NotificationScheduler::make()
 4. 🔧 Backup complete notification data
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Fase 2: Filament 5 Core Migration (4-5 giorni)
+=======
+### Fase 2: Filament 4 Core Migration (4-5 giorni)
+>>>>>>> laraxot/dev
 =======
 ### Fase 2: Filament 4 Core Migration (4-5 giorni)
 >>>>>>> laraxot/dev
@@ -587,7 +605,11 @@ NotificationScheduler::make()
 
 - **Foundation recovery**: 3-4 giorni
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Core Filament 5 migration**: 5-6 giorni  
+=======
+- **Core Filament 4 migration**: 5-6 giorni  
+>>>>>>> laraxot/dev
 =======
 - **Core Filament 4 migration**: 5-6 giorni  
 >>>>>>> laraxot/dev
@@ -600,7 +622,11 @@ NotificationScheduler::make()
 ## 🔮 Conclusioni Notify Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **MIGRAZIONE PRIORITY ALTA** - Il modulo Notify ha **perso componenti critici** e la migrazione a Filament 5 è un'opportunità perfetta per:
+=======
+**MIGRAZIONE PRIORITY ALTA** - Il modulo Notify ha **perso componenti critici** e la migrazione a Filament 4 è un'opportunità perfetta per:
+>>>>>>> laraxot/dev
 =======
 **MIGRAZIONE PRIORITY ALTA** - Il modulo Notify ha **perso componenti critici** e la migrazione a Filament 4 è un'opportunità perfetta per:
 >>>>>>> laraxot/dev

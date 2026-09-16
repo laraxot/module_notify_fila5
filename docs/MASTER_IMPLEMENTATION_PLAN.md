@@ -1,15 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎯 <nome progetto> - MASTER IMPLEMENTATION PLAN
 **Data Creazione**: 2025-10-01
 **Status**: 🚀 ATTIVO
 **Priorità**: CRITICA
 **Obiettivo**: Completare il progetto <nome progetto> al 100%
 =======
+=======
+>>>>>>> laraxot/dev
 # 🎯 FIXCITY - MASTER IMPLEMENTATION PLAN
 **Data Creazione**: 2025-10-01
 **Status**: 🚀 ATTIVO
 **Priorità**: CRITICA
 **Obiettivo**: Completare il progetto FixCity al 100%
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---
@@ -24,7 +30,11 @@ Modules:
 ├── Xot Framework:     ████████████████████ 100% ✅
 ├── User Management:   ████████████████████ 100% ✅
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── <nome progetto> Core:      ████████████████░░░░  80% 🚧
+=======
+├── Fixcity Core:      ████████████████░░░░  80% 🚧
+>>>>>>> laraxot/dev
 =======
 ├── Fixcity Core:      ████████████████░░░░  80% 🚧
 >>>>>>> laraxot/dev

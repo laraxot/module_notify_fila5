@@ -70,6 +70,11 @@ class MailTemplateForm extends XotBaseResourceForm
                 ->maxLength(65535)
                 ->columnSpanFull(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'sms_from' => TextInput::make('sms_from')
+                ->maxLength(11),
+>>>>>>> laraxot/dev
 =======
             'sms_from' => TextInput::make('sms_from')
                 ->maxLength(11),

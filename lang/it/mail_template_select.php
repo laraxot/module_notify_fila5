@@ -8,7 +8,11 @@ return [
             'label' => 'mail_template_slug',
             'placeholder' => 'mail_template_slug',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'mail_template_slug',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'mail_template_slug',
 >>>>>>> laraxot/dev

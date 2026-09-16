@@ -27,7 +27,11 @@ updated: 2026-08-24
 
 ## 3. Technical Research
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Framework Trends**: Adozione di Laravel 13 e Livewire 4 per massimizzare le prestazioni frontend senza la complessità di una SPA.
+=======
+- **Framework Trends**: Adozione di Laravel 12 e Livewire 4 per massimizzare le prestazioni frontend senza la complessità di una SPA.
+>>>>>>> laraxot/dev
 =======
 - **Framework Trends**: Adozione di Laravel 12 e Livewire 4 per massimizzare le prestazioni frontend senza la complessità di una SPA.
 >>>>>>> laraxot/dev

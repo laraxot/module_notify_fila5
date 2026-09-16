@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_AJqkFi
+>>>>>>> laraxot/dev
 =======
 <<<<<<< .merge_file_AJqkFi
 >>>>>>> laraxot/dev
@@ -327,6 +331,11 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 <!-- Merged from SESSION-SUMMARY.md, which collided with this file on case-insensitive filesystems. -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_SIMIXa
+>>>>>>> laraxot/dev
 =======
 =======
 >>>>>>> .merge_file_SIMIXa
@@ -439,7 +448,11 @@ Created `bashscripts/ai/init-llm-wiki.sh`:
 - Initialize wiki structure for any module or theme
 - Usage: `bashscripts/ai/init-llm-wiki.sh {module|theme} {Name}`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Example: `bashscripts/ai/init-llm-wiki.sh module <nome progetto>`
+=======
+- Example: `bashscripts/ai/init-llm-wiki.sh module Fixcity`
+>>>>>>> laraxot/dev
 =======
 - Example: `bashscripts/ai/init-llm-wiki.sh module Fixcity`
 >>>>>>> laraxot/dev
@@ -539,7 +552,11 @@ commit a21032a60: docs: integrate Karpathy LLM Wiki pattern
 3. **Initialize Module Wikis** (if not already done):
    ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
    bashscripts/ai/init-llm-wiki.sh module <nome progetto>
+=======
+   bashscripts/ai/init-llm-wiki.sh module Fixcity
+>>>>>>> laraxot/dev
 =======
    bashscripts/ai/init-llm-wiki.sh module Fixcity
 >>>>>>> laraxot/dev

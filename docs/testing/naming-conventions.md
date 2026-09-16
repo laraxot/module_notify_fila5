@@ -51,8 +51,13 @@ find Modules/*/tests Themes/*/tests -type f \
 1. **Identificare i duplicati:**
    ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
    cd /var/www/_bases/<repo progetto>/laravel
    cd /var/www/_bases/<repo progetto>/laravel
+=======
+   cd /var/www/_bases/base_fixcity_fila5_mono/laravel
+   cd /var/www/_bases/base_ptvx_fila5_mono/laravel
+>>>>>>> laraxot/dev
 =======
    cd /var/www/_bases/base_fixcity_fila5_mono/laravel
    cd /var/www/_bases/base_ptvx_fila5_mono/laravel

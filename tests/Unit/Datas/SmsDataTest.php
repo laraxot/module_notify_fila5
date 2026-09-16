@@ -8,6 +8,10 @@ use Modules\Notify\Datas\SmsData;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Spatie\LaravelData\Data;
+>>>>>>> laraxot/dev
 =======
 use Spatie\LaravelData\Data;
 >>>>>>> laraxot/dev
@@ -24,13 +28,19 @@ describe('SmsData', function () {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
     it('extends Spatie LaravelData Data', function () {
         $reflection = new \ReflectionClass(SmsData::class);
 
         Assert::assertTrue($reflection->isSubclassOf(Data::class));
     });
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     it('has required properties', function () {
         $reflection = new \ReflectionClass(SmsData::class);
@@ -63,7 +73,11 @@ describe('SmsData', function () {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     it('constructor accepts array parameter', function () {
+=======
+    it('constructor promotes typed string properties from, recipient, body', function () {
+>>>>>>> laraxot/dev
 =======
     it('constructor promotes typed string properties from, recipient, body', function () {
 >>>>>>> laraxot/dev
@@ -73,12 +87,15 @@ describe('SmsData', function () {
         $params = $constructor->getParameters();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::assertCount(1, $params);
         Assert::assertSame('data', $params[0]->getName());
         $type = $params[0]->getType();
         Assert::assertInstanceOf(\ReflectionNamedType::class, $type);
         Assert::assertSame('array', $type->getName());
 =======
+=======
+>>>>>>> laraxot/dev
         $names = array_map(static fn (\ReflectionParameter $p): string => $p->getName(), $params);
         Assert::assertSame(['from', 'recipient', 'body'], $names);
 
@@ -88,6 +105,9 @@ describe('SmsData', function () {
             Assert::assertSame('string', $type->getName());
             Assert::assertTrue($param->isDefaultValueAvailable());
         }
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     });
 });

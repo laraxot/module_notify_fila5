@@ -6,7 +6,11 @@ namespace Modules\Notify\Actions\SMS;
 
 use Illuminate\Support\Facades\Http;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SMS\SmsActionContract;
+=======
+use Modules\Notify\Models\Contracts\SmsActionContract;
+>>>>>>> laraxot/dev
 =======
 use Modules\Notify\Models\Contracts\SmsActionContract;
 >>>>>>> laraxot/dev
@@ -28,7 +32,10 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
      * @return array<string, mixed>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     public function execute(SmsData $data): array

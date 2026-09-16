@@ -10,7 +10,11 @@
 ## 🎯 EXECUTIVE SUMMARY
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Piano di azione immediato per completare le funzionalità core della piattaforma <nome progetto> nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.
+=======
+Piano di azione immediato per completare le funzionalità core della piattaforma FixCity nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.
+>>>>>>> laraxot/dev
 =======
 Piano di azione immediato per completare le funzionalità core della piattaforma FixCity nei prossimi 30 giorni, focalizzandosi su API development, mobile optimization, e AGID compliance.
 >>>>>>> laraxot/dev
@@ -27,7 +31,11 @@ Piano di azione immediato per completare le funzionalità core della piattaforma
 
 ### 🗓️ WEEK 1 (Jan 27 - Feb 2): API FOUNDATION
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Focus**: Sviluppo API RESTful per modulo <nome progetto>
+=======
+**Focus**: Sviluppo API RESTful per modulo Fixcity
+>>>>>>> laraxot/dev
 =======
 **Focus**: Sviluppo API RESTful per modulo Fixcity
 >>>>>>> laraxot/dev

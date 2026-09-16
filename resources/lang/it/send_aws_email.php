@@ -8,24 +8,34 @@ return [
             'label' => 'recipient',
             'placeholder' => 'recipient',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
             'description' => 'recipient',
             'tooltip' => ''],
         'subject' => [
             'helper_text' => '',
 =======
+=======
+>>>>>>> laraxot/dev
             'helper_text' => 'recipient',
             'description' => 'recipient',
             'tooltip' => ''],
         'subject' => [
             'helper_text' => 'subject',
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             'description' => 'subject',
             'label' => '',
             'tooltip' => ''],
         'body_html' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'body_html',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'body_html',
 >>>>>>> laraxot/dev
@@ -34,7 +44,11 @@ return [
             'tooltip' => ''],
         'template' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'template',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'template',
 >>>>>>> laraxot/dev
@@ -43,7 +57,11 @@ return [
             'tooltip' => ''],
         'add_attachments' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'add_attachments',
+>>>>>>> laraxot/dev
 =======
             'helper_text' => 'add_attachments',
 >>>>>>> laraxot/dev

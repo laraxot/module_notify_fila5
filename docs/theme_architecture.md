@@ -63,7 +63,11 @@ class AppServiceProvider extends ServiceProvider
 ```json
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "<nome progetto>/theme-sixteen",
+=======
+    "name": "fixcity/theme-sixteen",
+>>>>>>> laraxot/dev
 =======
     "name": "fixcity/theme-sixteen",
 >>>>>>> laraxot/dev
@@ -248,7 +252,11 @@ class AppServiceProvider extends ServiceProvider
 ```json
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "<nome progetto>/theme-sixteen",
+=======
+    "name": "fixcity/theme-sixteen",
+>>>>>>> laraxot/dev
 =======
     "name": "fixcity/theme-sixteen",
 >>>>>>> laraxot/dev

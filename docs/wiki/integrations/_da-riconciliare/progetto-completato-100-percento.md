@@ -52,7 +52,11 @@ related:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<nome repitory>/laravel
+=======
+cd /var/www/_bases/<nome repitory>_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/<nome repitory>_mono/laravel
 >>>>>>> laraxot/dev
@@ -606,7 +610,11 @@ php artisan queue:work --queue=high,notifications,default
 ```bash
 cd /var/www/_bases/<nome repository>/laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<nome repitory>/laravel
+=======
+cd /var/www/_bases/<nome repitory>_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/<nome repitory>_mono/laravel
 >>>>>>> laraxot/dev

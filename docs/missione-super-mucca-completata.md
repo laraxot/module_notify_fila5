@@ -6,8 +6,13 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "missione-super-mucca-completata 🐄✨ missione super mucca - completamento totale ✨🐄"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
 discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -72,7 +77,11 @@ related:
 | Job | 64 | ✅ |
 | Tenant | 45 | ✅ |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome progetto> | 37 | ✅ |
+=======
+| Fixcity | 37 | ✅ |
+>>>>>>> laraxot/dev
 =======
 | Fixcity | 37 | ✅ |
 >>>>>>> laraxot/dev
@@ -124,7 +133,11 @@ related:
 ✅ Modules/Cms/docs/dry-kiss-analysis.md
 ✅ Modules/Comment/docs/dry-kiss-analysis.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ Modules/<nome progetto>/docs/dry-kiss-analysis.md
+=======
+✅ Modules/Fixcity/docs/dry-kiss-analysis.md
+>>>>>>> laraxot/dev
 =======
 ✅ Modules/Fixcity/docs/dry-kiss-analysis.md
 >>>>>>> laraxot/dev

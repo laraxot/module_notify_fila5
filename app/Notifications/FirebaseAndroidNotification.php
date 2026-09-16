@@ -97,7 +97,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * @return array<string, mixed>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     public function toArray(?object $notifiable): array
@@ -110,7 +113,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * Convert to a Firebase Cloud message (Converti in un messaggio Cloud Firebase).
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     public function toCloudMessage(): Message

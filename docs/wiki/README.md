@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "<nome progetto> LLM Wiki"
+=======
+title: "FixCity LLM Wiki"
+>>>>>>> laraxot/dev
 =======
 title: "FixCity LLM Wiki"
 >>>>>>> laraxot/dev
@@ -11,7 +15,11 @@ module: Notify
 created: 2026-07-20
 updated: 2026-07-20
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "notify documentazione wiki readme <nome progetto> llm wiki index readme frontmatter qmd search"
+=======
+qmd: "notify documentazione wiki readme fixcity llm wiki index readme frontmatter qmd search"
+>>>>>>> laraxot/dev
 =======
 qmd: "notify documentazione wiki readme fixcity llm wiki index readme frontmatter qmd search"
 >>>>>>> laraxot/dev
@@ -28,7 +36,11 @@ related:
   - ../templates/readme.md
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto> LLM Wiki
+=======
+# FixCity LLM Wiki
+>>>>>>> laraxot/dev
 =======
 # FixCity LLM Wiki
 >>>>>>> laraxot/dev

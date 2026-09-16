@@ -28,7 +28,12 @@ function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 
 test('list notification templates page returns empty table columns array', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $columns = ListNotificationTemplates::notificationTemplateTableColumns();
+=======
+    /** @phpstan-ignore method.deprecated */
+    $columns = (new ListNotificationTemplates())->getTableColumns();
+>>>>>>> laraxot/dev
 =======
     /** @phpstan-ignore method.deprecated */
     $columns = (new ListNotificationTemplates())->getTableColumns();
@@ -65,9 +70,15 @@ test('edit notify theme page exposes delete header action', function (): void {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('list notify themes columns and filters are configured', function (): void {
     $columns = ListNotifyThemes::getNotifyThemeTableColumns();
     $filters = ListNotifyThemes::getNotifyThemeTableFilters();
+=======
+test('list notify themes columns are configured', function (): void {
+    /** @phpstan-ignore method.deprecated */
+    $columns = (new ListNotifyThemes())->getTableColumns();
+>>>>>>> laraxot/dev
 =======
 test('list notify themes columns are configured', function (): void {
     /** @phpstan-ignore method.deprecated */
@@ -79,12 +90,15 @@ test('list notify themes columns are configured', function (): void {
     Assert::assertArrayHasKey('type', $columns);
     Assert::assertArrayHasKey('post_type', $columns);
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertArrayHasKey('lang', $filters);
     Assert::assertInstanceOf(SelectFilter::class, $filters['lang']);
     Assert::assertArrayHasKey('post_type', $filters);
     Assert::assertInstanceOf(SelectFilter::class, $filters['post_type']);
     Assert::assertArrayHasKey('type', $filters);
     Assert::assertInstanceOf(SelectFilter::class, $filters['type']);
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 });

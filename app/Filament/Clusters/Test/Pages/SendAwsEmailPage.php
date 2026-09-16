@@ -143,8 +143,11 @@ class SendAwsEmailPage extends XotBasePage
             'submit' => Action::make('sendEmail')->label(__('notify::email.actions.send'))->submit('sendEmail')];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[Override]
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     protected function getUser(): Authenticatable&Model

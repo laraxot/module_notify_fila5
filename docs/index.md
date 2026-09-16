@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Notify Module Documentation"
 type: index
 tags: [notify, docs]
@@ -276,6 +277,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 =======
+=======
+>>>>>>> laraxot/dev
 title: Notify docs index
 type: index
 tags: [notify, docs]
@@ -2426,4 +2429,7 @@ File duplicati per case, underscore/trattino o suffisso numerico rispetto a un f
 - Numero di argomenti distinti individuati nel dump di root: 805
 - Numero di gruppi con duplicati: 431
 - File duplicati storici (tutti tranne il canonico): 910
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

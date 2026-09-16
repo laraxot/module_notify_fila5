@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Product Launch Plan - <nome progetto> Platform
+=======
+# Product Launch Plan - FixCity Platform
+>>>>>>> laraxot/dev
 =======
 # Product Launch Plan - FixCity Platform
 >>>>>>> laraxot/dev

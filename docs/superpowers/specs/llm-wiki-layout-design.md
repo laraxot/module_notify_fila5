@@ -8,8 +8,13 @@ qmd: "2026-04-15-llm-wiki-layout-design deprecated"
 status: deprecated
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./<nome progetto>-hero-marketing-1.md"
   - "./<nome progetto>-hero-marketing.md"
+=======
+  - "./fixcity-hero-marketing-1.md"
+  - "./fixcity-hero-marketing.md"
+>>>>>>> laraxot/dev
 =======
   - "./fixcity-hero-marketing-1.md"
   - "./fixcity-hero-marketing.md"

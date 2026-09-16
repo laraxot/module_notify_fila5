@@ -40,7 +40,11 @@ CRITICAL ❗
 #0 vendor/spatie/laravel-data/src/DataPipes/CastPropertiesDataPipe.php:113
 #1 vendor/spatie/laravel-data/src/Resolvers/DataFromArrayResolver.php:97
 <<<<<<< HEAD
+<<<<<<< HEAD
 #2 Modules/<nome progetto>/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
+=======
+#2 Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
+>>>>>>> laraxot/dev
 =======
 #2 Modules/Quaeris/app/Actions/QuestionChart/Custom/MailResponseRate.php:50
 >>>>>>> laraxot/dev
@@ -71,7 +75,11 @@ return new AnswersChartData(
 ```bash
 # Check for ChartData objects
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "new ChartData" Modules/<nome progetto>/app/Actions/QuestionChart/Custom/
+=======
+grep -r "new ChartData" Modules/Quaeris/app/Actions/QuestionChart/Custom/
+>>>>>>> laraxot/dev
 =======
 grep -r "new ChartData" Modules/Quaeris/app/Actions/QuestionChart/Custom/
 >>>>>>> laraxot/dev
@@ -92,7 +100,11 @@ grep -r "new ChartData" Modules/App/app/Actions/QuestionChart/Custom/
 ```
 SQLSTATE[42S02]: Base table or view not found: 1146
 <<<<<<< HEAD
+<<<<<<< HEAD
 Table '<nome progetto>_survey.contacts' doesn't exist
+=======
+Table 'quaeris_survey.contacts' doesn't exist
+>>>>>>> laraxot/dev
 =======
 Table 'quaeris_survey.contacts' doesn't exist
 >>>>>>> laraxot/dev
@@ -109,7 +121,11 @@ CRITICAL ❗
 ### Database Map
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto>_data (Connection: '<nome progetto>')
+=======
+quaeris_data (Connection: 'quaeris')
+>>>>>>> laraxot/dev
 =======
 quaeris_data (Connection: 'quaeris')
 >>>>>>> laraxot/dev
@@ -126,7 +142,11 @@ limesurvey (Connection: 'limesurvey')
 
 ### Root Cause
 <<<<<<< HEAD
+<<<<<<< HEAD
 Query uses `limesurvey` connection, but `contacts` table is in `<nome progetto>_data`
+=======
+Query uses `limesurvey` connection, but `contacts` table is in `quaeris_data`
+>>>>>>> laraxot/dev
 =======
 Query uses `limesurvey` connection, but `contacts` table is in `quaeris_data`
 >>>>>>> laraxot/dev
@@ -155,7 +175,11 @@ public function getSmsAnswers(...) {
 ```bash
 # Check for cross-database joins
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "getConnection()->getDatabaseName()" Modules/<nome progetto>/app/Actions/QuestionChart/Custom/
+=======
+grep -r "getConnection()->getDatabaseName()" Modules/Quaeris/app/Actions/QuestionChart/Custom/
+>>>>>>> laraxot/dev
 =======
 grep -r "getConnection()->getDatabaseName()" Modules/Quaeris/app/Actions/QuestionChart/Custom/
 >>>>>>> laraxot/dev
@@ -178,7 +202,11 @@ grep -r "getConnection()->getDatabaseName()" Modules/App/app/Actions/QuestionCha
 SQLSTATE[42000]: Syntax error or access violation: 1055
 Expression #2 of SELECT list is not in GROUP BY clause
 <<<<<<< HEAD
+<<<<<<< HEAD
 and contains nonaggregated column '<nome progetto>_data.contacts.sms_sent_at'
+=======
+and contains nonaggregated column 'quaeris_data.contacts.sms_sent_at'
+>>>>>>> laraxot/dev
 =======
 and contains nonaggregated column 'quaeris_data.contacts.sms_sent_at'
 >>>>>>> laraxot/dev
@@ -231,7 +259,11 @@ GROUP BY
 ```bash
 # Check groupByRaw usage
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -n "groupByRaw" Modules/<nome progetto>/app/Actions/QuestionChart/Custom/SmsResponseRate.php
+=======
+grep -n "groupByRaw" Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php
+>>>>>>> laraxot/dev
 =======
 grep -n "groupByRaw" Modules/Quaeris/app/Actions/QuestionChart/Custom/SmsResponseRate.php
 >>>>>>> laraxot/dev
@@ -283,7 +315,11 @@ return new AnswersChartData(answers: $answersArray);
 ```bash
 # Check for DataCollection usage
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -n "AnswersChartData::from" Modules/<nome progetto>/app/Actions/QuestionChart/Custom/*.php
+=======
+grep -n "AnswersChartData::from" Modules/Quaeris/app/Actions/QuestionChart/Custom/*.php
+>>>>>>> laraxot/dev
 =======
 grep -n "AnswersChartData::from" Modules/Quaeris/app/Actions/QuestionChart/Custom/*.php
 >>>>>>> laraxot/dev
@@ -506,7 +542,11 @@ Contact::query()->chunk(100, function ($contacts) {
 ```bash
 cd laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 ./vendor/bin/pest Modules/<nome progetto>/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
+=======
+./vendor/bin/pest Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
+>>>>>>> laraxot/dev
 =======
 ./vendor/bin/pest Modules/Quaeris/tests/Unit/Actions/QuestionChart/CustomQuestionTypesTest.php
 >>>>>>> laraxot/dev
@@ -522,6 +562,7 @@ cd laravel
 ```bash
 # PHPStan
 <<<<<<< HEAD
+<<<<<<< HEAD
 ./vendor/bin/phpstan analyse Modules/<nome progetto>/app/Actions/QuestionChart/Custom/
 
 # Pint (formatting)
@@ -536,6 +577,8 @@ XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/<nome progetto>/tests/
 # Tests with coverage
 XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/<nome progetto>/tests/
 =======
+=======
+>>>>>>> laraxot/dev
 ./vendor/bin/phpstan analyse Modules/Quaeris/app/Actions/QuestionChart/Custom/
 
 # Pint (formatting)
@@ -549,6 +592,9 @@ XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/Quaeris/tests/
 
 # Tests with coverage
 XDEBUG_MODE=off ./vendor/bin/pest --coverage Modules/Quaeris/tests/
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -579,7 +625,11 @@ echo "✅ All caches cleared"
 ```bash
 #!/bin/bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 for file in Modules/<nome progetto>/app/Actions/QuestionChart/Custom/*.php; do
+=======
+for file in Modules/Quaeris/app/Actions/QuestionChart/Custom/*.php; do
+>>>>>>> laraxot/dev
 =======
 for file in Modules/Quaeris/app/Actions/QuestionChart/Custom/*.php; do
 >>>>>>> laraxot/dev
@@ -597,7 +647,11 @@ done
 ```bash
 #!/bin/bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "new ChartData" Modules/<nome progetto>/app/Actions/QuestionChart/Custom/
+=======
+grep -r "new ChartData" Modules/Quaeris/app/Actions/QuestionChart/Custom/
+>>>>>>> laraxot/dev
 =======
 grep -r "new ChartData" Modules/Quaeris/app/Actions/QuestionChart/Custom/
 >>>>>>> laraxot/dev
@@ -620,8 +674,13 @@ fi
 
 ### GitHub
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Issue #97: https://github.com/laraxot/<repo progetto>/issues/97
 - Issue #97: https://github.com/laraxot/<repo progetto>/issues/97
+=======
+- Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
+- Issue #97: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97
+>>>>>>> laraxot/dev
 =======
 - Issue #97: https://github.com/laraxot/base_quaeris_fila5_mono/issues/97
 - Issue #97: https://github.com/laraxot/base_ptvx_fila5_mono/issues/97

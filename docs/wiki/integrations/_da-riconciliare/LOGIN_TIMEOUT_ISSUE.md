@@ -73,7 +73,11 @@ protected string $view = 'pub_theme::filament.widgets.auth.login';
 # Verificare configurazione tema
 cd /var/www/_bases/<nome repository>/laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<nome repitory>/laravel
+=======
+cd /var/www/_bases/<nome repitory>_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/<nome repitory>_mono/laravel
 >>>>>>> laraxot/dev
@@ -127,7 +131,11 @@ public function mount(): void
 ```bash
 cd /var/www/_bases/<nome repository>/laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<nome repitory>/laravel
+=======
+cd /var/www/_bases/<nome repitory>_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/<nome repitory>_mono/laravel
 >>>>>>> laraxot/dev
@@ -154,7 +162,11 @@ php artisan view:cache
 # Verificare che esista
 ls -la /var/www/_bases/<nome repository>/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 ls -la /var/www/_bases/<nome repitory>/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
+=======
+ls -la /var/www/_bases/<nome repitory>_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
+>>>>>>> laraxot/dev
 =======
 ls -la /var/www/_bases/<nome repitory>_mono/laravel/Themes/Sixteen/resources/views/filament/widgets/auth/login.blade.php
 >>>>>>> laraxot/dev
@@ -168,7 +180,11 @@ ls -la /var/www/_bases/<nome repitory>_mono/laravel/Themes/Sixteen/resources/vie
 # Cercare dove è definito pub_theme
 cd /var/www/_bases/<nome repository>/laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/<nome repitory>/laravel
+=======
+cd /var/www/_bases/<nome repitory>_mono/laravel
+>>>>>>> laraxot/dev
 =======
 cd /var/www/_bases/<nome repitory>_mono/laravel
 >>>>>>> laraxot/dev

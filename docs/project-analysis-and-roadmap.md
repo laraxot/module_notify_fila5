@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto> - Analisi Completa del Progetto e Roadmap
+=======
+# FixCity - Analisi Completa del Progetto e Roadmap
+>>>>>>> laraxot/dev
 =======
 # FixCity - Analisi Completa del Progetto e Roadmap
 >>>>>>> laraxot/dev
@@ -13,9 +17,15 @@
 ## 🎯 SCOPO DEL PROGETTO
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Cos'è <nome progetto>?
 
 **<nome progetto>** è una **piattaforma di segnalazione cittadina (Civic Reporting)** che permette ai cittadini di:
+=======
+### Cos'è FixCity?
+
+**FixCity** è una **piattaforma di segnalazione cittadina (Civic Reporting)** che permette ai cittadini di:
+>>>>>>> laraxot/dev
 =======
 ### Cos'è FixCity?
 
@@ -59,7 +69,11 @@ Frontend Cittadini:
 
 Backend Admin:
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── Laravel 13.24.0
+=======
+├── Laravel 12.24.0
+>>>>>>> laraxot/dev
 =======
 ├── Laravel 12.24.0
 >>>>>>> laraxot/dev
@@ -84,17 +98,23 @@ Moduli Supporto:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/_bases/<repo progetto>/
 /var/www/_bases/<repo progetto>/
 ├── laravel/                    # Root Laravel
 │   ├── Modules/               # Moduli business
 │   │   ├── <nome progetto>/          # Core segnalazioni
 =======
+=======
+>>>>>>> laraxot/dev
 /var/www/_bases/base_fixcity_fila5_mono/
 /var/www/_bases/base_ptv_fila5_mono/
 ├── laravel/                    # Root Laravel
 │   ├── Modules/               # Moduli business
 │   │   ├── Fixcity/          # Core segnalazioni
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 │   │   ├── User/             # Gestione utenti
 │   │   ├── Xot/              # Framework base
@@ -346,7 +366,11 @@ Moduli Supporto:
 4. **Core Framework Issues** (Xot module: 9 errori)
    - Contract methods mancanti
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Type mismatches Filament 5
+=======
+   - Type mismatches Filament 4
+>>>>>>> laraxot/dev
 =======
    - Type mismatches Filament 4
 >>>>>>> laraxot/dev
@@ -521,7 +545,11 @@ Moduli Supporto:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Conclusione**: <nome progetto> è un progetto **solido e ben architettato** con un **core funzionale completo** (90%). Le aree di miglioramento principali sono **qualità del codice (quasi completa)**, **test coverage**, **API standardization** e **feature avanzate** (mobile, real-time, AI).
+=======
+**Conclusione**: FixCity è un progetto **solido e ben architettato** con un **core funzionale completo** (90%). Le aree di miglioramento principali sono **qualità del codice (quasi completa)**, **test coverage**, **API standardization** e **feature avanzate** (mobile, real-time, AI).
+>>>>>>> laraxot/dev
 =======
 **Conclusione**: FixCity è un progetto **solido e ben architettato** con un **core funzionale completo** (90%). Le aree di miglioramento principali sono **qualità del codice (quasi completa)**, **test coverage**, **API standardization** e **feature avanzate** (mobile, real-time, AI).
 >>>>>>> laraxot/dev
@@ -536,7 +564,11 @@ Moduli Supporto:
 **Documento creato**: 1 Ottobre 2025  
 **Prossimo review**: 1 Novembre 2025  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Maintainer**: [Team <nome progetto>]
+=======
+**Maintainer**: [Team FixCity]
+>>>>>>> laraxot/dev
 =======
 **Maintainer**: [Team FixCity]
 >>>>>>> laraxot/dev

@@ -5,15 +5,21 @@ PTVX is a modular HR & Performance evaluation system built on Laravel + Filament
 ## Tech Stack
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Laravel 13.x monorepo with nwidart/laravel-modules, Filament 5 admin panel, Livewire 4/Volt, TailwindCSS + Vite. Implements the "Laraxot" architectural pattern where the Xot module is the core engine.
 
 Key technologies:
 - Backend: Laravel 13.x
 =======
+=======
+>>>>>>> laraxot/dev
 Laravel 12.x monorepo with nwidart/laravel-modules, Filament 5 admin panel, Livewire 4/Volt, TailwindCSS + Vite. Implements the "Laraxot" architectural pattern where the Xot module is the core engine.
 
 Key technologies:
 - Backend: Laravel 12.x
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Admin panel: Filament 5.x
 - Frontend: Livewire 4.x, Volt 1.10.x, Flux

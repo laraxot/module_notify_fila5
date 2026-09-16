@@ -17,7 +17,11 @@ php artisan serve
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Access:** http://localhost:8000/<nome progetto>/admin/{tenant}
+=======
+**Access:** http://localhost:8000/quaeris/admin/{tenant}
+>>>>>>> laraxot/dev
 =======
 **Access:** http://localhost:8000/quaeris/admin/{tenant}
 >>>>>>> laraxot/dev
@@ -47,7 +51,11 @@ php artisan test --coverage
 
 # Per modulo
 <<<<<<< HEAD
+<<<<<<< HEAD
 ./vendor/bin/pest Modules/<nome progetto>/tests --coverage
+=======
+./vendor/bin/pest Modules/Quaeris/tests --coverage
+>>>>>>> laraxot/dev
 =======
 ./vendor/bin/pest Modules/Quaeris/tests --coverage
 >>>>>>> laraxot/dev

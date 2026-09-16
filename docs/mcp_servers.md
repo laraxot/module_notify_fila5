@@ -1,7 +1,11 @@
 # MCP Servers - Master Index
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Project**: <nome progetto> Platform  
+=======
+**Project**: FixCity Platform  
+>>>>>>> laraxot/dev
 =======
 **Project**: FixCity Platform  
 >>>>>>> laraxot/dev
@@ -35,7 +39,11 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Type**: Laravel-specific
 - **Command**: `php artisan boost:mcp`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Use**: Laravel 13, Filament, Livewire documentation and best practices
+=======
+- **Use**: Laravel 12, Filament, Livewire documentation and best practices
+>>>>>>> laraxot/dev
 =======
 - **Use**: Laravel 12, Filament, Livewire documentation and best practices
 >>>>>>> laraxot/dev
@@ -51,8 +59,13 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Type**: File operations
 - **Package**: `@modelcontextprotocol/server-filesystem`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Scope**: `/var/www/_bases/<repo progetto>`
 - **Scope**: `/var/www/_bases/<repo progetto>`
+=======
+- **Scope**: `/var/www/_bases/base_fixcity_fila5`
+- **Scope**: `/var/www/_bases/base_ptv_fila5`
+>>>>>>> laraxot/dev
 =======
 - **Scope**: `/var/www/_bases/base_fixcity_fila5`
 - **Scope**: `/var/www/_bases/base_ptv_fila5`
@@ -78,7 +91,11 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **Use**: Store project decisions, patterns, conventions
 - **Persistence**: Survives across sessions
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Example**: "<nome progetto> uses XotBaseModel pattern"
+=======
+- **Example**: "Fixcity uses XotBaseModel pattern"
+>>>>>>> laraxot/dev
 =======
 - **Example**: "Fixcity uses XotBaseModel pattern"
 >>>>>>> laraxot/dev
@@ -108,7 +125,11 @@ MCP (Model Context Protocol) servers provide AI assistants with persistent memor
 - **CLI**: `supermemory` (npm global)
 - **API Key**: Configured in `.mcp.json`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Container Tag**: `<nome progetto>`
+=======
+- **Container Tag**: `fixcity`
+>>>>>>> laraxot/dev
 =======
 - **Container Tag**: `fixcity`
 >>>>>>> laraxot/dev
@@ -177,7 +198,11 @@ supermemory whoami
 ### Add Project Context
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory add --tag <nome progetto> --file .supermemory/<nome progetto>-context.md
+=======
+supermemory add --tag fixcity --file .supermemory/fixcity-context.md
+>>>>>>> laraxot/dev
 =======
 supermemory add --tag fixcity --file .supermemory/fixcity-context.md
 >>>>>>> laraxot/dev
@@ -187,8 +212,13 @@ supermemory add --tag ptv --file .supermemory/ptv-context.md
 ### Search Memories
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory search "<nome progetto> architecture" --tag <nome progetto>
 supermemory search "<nome progetto> architecture" --tag ptv
+=======
+supermemory search "FixCity architecture" --tag fixcity
+supermemory search "FixCity architecture" --tag ptv
+>>>>>>> laraxot/dev
 =======
 supermemory search "FixCity architecture" --tag fixcity
 supermemory search "FixCity architecture" --tag ptv
@@ -198,7 +228,11 @@ supermemory search "FixCity architecture" --tag ptv
 ### Get Profile
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 supermemory profile --tag <nome progetto> --query "project preferences"
+=======
+supermemory profile --tag fixcity --query "project preferences"
+>>>>>>> laraxot/dev
 =======
 supermemory profile --tag fixcity --query "project preferences"
 >>>>>>> laraxot/dev
@@ -211,7 +245,11 @@ Each module has specific MCP usage guidelines. See module-specific docs:
 
 - **Xot**: [MCP Servers Guide](../Modules/Xot/docs/MCP_SERVERS.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **<nome progetto>**: Module-specific patterns for ticket system
+=======
+- **Fixcity**: Module-specific patterns for ticket system
+>>>>>>> laraxot/dev
 =======
 - **Fixcity**: Module-specific patterns for ticket system
 >>>>>>> laraxot/dev

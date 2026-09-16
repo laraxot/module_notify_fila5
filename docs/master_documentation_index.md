@@ -73,7 +73,11 @@
 | **Geo** | [Modules/Geo/docs/](../laravel/Modules/Geo/docs/) | ✅ Good |
 | **AI** | [Modules/AI/docs/](../laravel/Modules/AI/docs/) | ✅ Good |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **<nome progetto>** | [Modules/<nome progetto>/docs/](../laravel/Modules/<nome progetto>/docs/) | ✅ Good |
+=======
+| **Fixcity** | [Modules/Fixcity/docs/](../laravel/Modules/Fixcity/docs/) | ✅ Good |
+>>>>>>> laraxot/dev
 =======
 | **Fixcity** | [Modules/Fixcity/docs/](../laravel/Modules/Fixcity/docs/) | ✅ Good |
 >>>>>>> laraxot/dev

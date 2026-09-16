@@ -7,9 +7,12 @@ namespace Modules\Notify\Factories;
 use Exception;
 use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
+=======
+>>>>>>> laraxot/dev
 use Modules\Notify\Actions\SMS\SendAgiletelecomSMSAction;
 use Modules\Notify\Actions\SMS\SendGammuSMSAction;
 use Modules\Notify\Actions\SMS\SendNetfunSMSAction;
@@ -18,16 +21,22 @@ use Modules\Notify\Actions\SMS\SendPlivoSMSAction;
 use Modules\Notify\Actions\SMS\SendSmsFactorSMSAction;
 use Modules\Notify\Actions\SMS\SendTwilioSMSAction;
 use Modules\Notify\Models\Contracts\SmsActionContract;
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 /**
  * Factory per la creazione di azioni SMS.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Questa factory centralizza la logica di selezione del driver SMS
  * e la creazione dell'azione corrispondente, seguendo il pattern di risoluzione dinamica
  * delle classi basato su convenzioni di naming.
 =======
+=======
+>>>>>>> laraxot/dev
  * Mappa esplicita driver → `Send{Provider}SMSAction`. Il driver arriva da
  * `SmsChannel` (override per-notifica via `getProvider()`) o, in mancanza, da
  * `config('sms.default')` (env `SMS_DRIVER`).
@@ -37,11 +46,15 @@ use Modules\Notify\Models\Contracts\SmsActionContract;
  * `SendSmsFactorSMSAction`), quindi la factory era di fatto rotta proprio sul
  * driver di default — vedi
  * `Modules/Notify/docs/wiki/concepts/sms-channel-driver-selection.md`.
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
  */
 class SmsActionFactory
 {
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Lista dei provider SMS supportati ufficialmente.
      *
@@ -93,6 +106,8 @@ class SmsActionFactory
             throw new Exception(
                 'Unsupported SMS driver: '.(is_string($driver) ? $driver : '').". Class {$className} not found.",
 =======
+=======
+>>>>>>> laraxot/dev
      * @var array<string, class-string<SmsActionContract>>
      */
     protected array $driverActions = [
@@ -127,6 +142,9 @@ class SmsActionFactory
         if ($className === null) {
             throw new Exception(
                 "Unsupported SMS driver [{$key}]. Aggiungerlo a ".self::class.'::$driverActions.',
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             );
         }
@@ -134,8 +152,12 @@ class SmsActionFactory
         $instance = app($className);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Verifica che l'istanza implementi l'interfaccia corretta
         if (! ($instance instanceof SmsActionContract)) {
+=======
+        if (! $instance instanceof SmsActionContract) {
+>>>>>>> laraxot/dev
 =======
         if (! $instance instanceof SmsActionContract) {
 >>>>>>> laraxot/dev
@@ -146,6 +168,7 @@ class SmsActionFactory
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Normalizza il nome del driver eliminando trattini e underscore
      * e gestendo eventuali casi speciali/alias.
@@ -160,6 +183,8 @@ class SmsActionFactory
 
         // Gestisci casi speciali e alias tramite la mappa di alias
 =======
+=======
+>>>>>>> laraxot/dev
      * Normalizza il nome del driver (minuscolo, senza trattini/underscore/spazi)
      * e risolve eventuali alias.
      */
@@ -167,6 +192,9 @@ class SmsActionFactory
     {
         $normalized = str_replace(['-', '_', ' '], '', strtolower($driver));
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         return $this->driverAliases[$normalized] ?? $normalized;
     }
