@@ -12,10 +12,7 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ViewColumn;
-<<<<<<< HEAD
-=======
 use Filament\Tables\Filters\SelectFilter;
->>>>>>> laraxot/dev
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\ListNotificationTemplates;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
@@ -31,11 +28,7 @@ function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 
 test('list notification templates page returns empty table columns array', function (): void {
     /** @phpstan-ignore method.deprecated */
-<<<<<<< HEAD
-    $columns = (new ListNotificationTemplates)->getTableColumns();
-=======
     $columns = (new ListNotificationTemplates())->getTableColumns();
->>>>>>> laraxot/dev
     Assert::assertSame([], $columns);
 });
 
@@ -69,11 +62,7 @@ test('edit notify theme page exposes delete header action', function (): void {
 
 test('list notify themes columns are configured', function (): void {
     /** @phpstan-ignore method.deprecated */
-<<<<<<< HEAD
-    $columns = (new ListNotifyThemes)->getTableColumns();
-=======
     $columns = (new ListNotifyThemes())->getTableColumns();
->>>>>>> laraxot/dev
     Assert::assertArrayHasKey('id', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['id']);
     Assert::assertArrayHasKey('lang', $columns);

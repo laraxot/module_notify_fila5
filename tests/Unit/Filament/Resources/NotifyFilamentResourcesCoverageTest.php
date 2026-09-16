@@ -21,22 +21,13 @@ use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\ListMailTemplates;
-<<<<<<< HEAD
-=======
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Notify\Filament\Resources\NotificationResource\Pages\ListNotifications;
 use Modules\Notify\Filament\Resources\NotificationResource\Schemas\NotificationInfolist;
->>>>>>> laraxot/dev
 use Modules\Notify\Filament\Resources\NotificationLogResource;
 use Modules\Notify\Filament\Resources\NotificationLogResource\Schemas\NotificationLogForm;
 use Modules\Notify\Filament\Resources\NotificationLogResource\Schemas\NotificationLogInfolist;
 use Modules\Notify\Filament\Resources\NotificationLogResource\Tables\NotificationLogsTable;
-<<<<<<< HEAD
-use Modules\Notify\Filament\Resources\NotificationResource;
-use Modules\Notify\Filament\Resources\NotificationResource\Pages\ListNotifications;
-use Modules\Notify\Filament\Resources\NotificationResource\Schemas\NotificationInfolist;
-=======
->>>>>>> laraxot/dev
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Modules\Notify\Tests\Fixtures\EditContactTestProxy;
@@ -77,27 +68,18 @@ test('edit contact page exposes delete header action', function (): void {
 });
 
 test('list contacts page exposes expected table columns', function (): void {
-<<<<<<< HEAD
-    $columns = XotBasePest::assertArray((new ListContacts)->getTableColumns()); /** @phpstan-ignore method.deprecated */
-=======
     $columns = XotBasePest::assertArray((new ListContacts())->getTableColumns()); /** @phpstan-ignore method.deprecated */
 
->>>>>>> laraxot/dev
     Assert::assertArrayHasKey('id', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['id']);
     Assert::assertArrayHasKey('is_read', $columns);
     Assert::assertInstanceOf(IconColumn::class, $columns['is_read']);
 });
 
-<<<<<<< HEAD
-test('list mail templates page exposes expected table columns', function (): void {
-    $columns = \assertNotifyArray((new ListMailTemplates)->getTableColumns()); /** @phpstan-ignore method.deprecated */
-=======
 
 test('list mail templates page exposes expected table columns', function (): void {
     $columns = \assertNotifyArray((new ListMailTemplates())->getTableColumns()); /** @phpstan-ignore method.deprecated */
 
->>>>>>> laraxot/dev
     Assert::assertArrayHasKey('slug', $columns);
     Assert::assertInstanceOf(TextColumn::class, $columns['slug']);
     Assert::assertArrayHasKey('subject', $columns);

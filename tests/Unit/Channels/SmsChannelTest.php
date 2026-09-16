@@ -5,10 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Channels;
 
 use Modules\Notify\Channels\SmsChannel;
-<<<<<<< HEAD
 use Modules\Notify\Factories\SmsActionFactory;
-=======
->>>>>>> laraxot/dev
 use Modules\Notify\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
@@ -52,11 +49,7 @@ describe('SmsChannel', function () {
 
         Assert::assertNotNull($param);
         Assert::assertSame(
-<<<<<<< HEAD
             SmsActionFactory::class,
-=======
-            \Modules\Notify\Factories\SmsActionFactory::class,
->>>>>>> laraxot/dev
             $param->getType() instanceof \ReflectionNamedType ? $param->getType()->getName() : null,
         );
     });
