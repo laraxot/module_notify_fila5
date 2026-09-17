@@ -34,6 +34,20 @@ class RecordNotification extends Notification implements ShouldQueue
     }
 
     /**
+     * `SendRecordNotificationAction` invia sempre tramite
+     * `Notification::route($channel, $to)->notify(...)` (anche quando il
+     * destinatario reale è un modello Eloquent) — il "notifiable" che
+     * arriva a `Illuminate\Notifications\Events\NotificationSent` è quindi
+     * sempre un `AnonymousNotifiable`, mai `$record`. Chi deve risalire al
+     * modello originale (es. un listener su `NotificationSent`) deve
+     * leggerlo da qui, non da `$event->notifiable`.
+     */
+    public function getRecord(): Model
+    {
+        return $this->record;
+    }
+
+    /**
      * Get the notification's delivery channels.
      *
      * Determines channels based on the notifiable's routing capabilities.
