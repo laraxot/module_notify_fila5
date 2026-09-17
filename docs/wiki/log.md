@@ -58,3 +58,11 @@ module: "Notify"
 - Unica `create_notifications_table` in Notify; `model_class` = `User\Models\Notification`
 - Solo `XotBaseMigration` — mai `extends Migration`
 - Vietato duplicato in User/ (es. pattern `2026_07_02_*` con bigint morphs)
+
+## 2026-09-17 — Campi "SMS driver" e "Netfun token" in Impostazioni: `SMS_DRIVER`/`NETFUN_TOKEN` editabili senza SSH (module_quaeris_fila5#38)
+
+- Il `.env` di produzione ha `NETFUN_TOKEN` ma non `SMS_DRIVER` → gli SMS di invito automatico falliscono (default `smsfactor`, non configurato). Nessun accesso SSH/FTP disponibile in produzione per editarlo a mano.
+- Aggiunto campo "SMS driver" (`Select`, opzioni chiuse sui driver mappati in `SmsActionFactory`) alla pagina `SettingPage` via `EnvWidget` (modulo Xot) — scrive `SMS_DRIVER` dentro `.env` dal pannello admin.
+- Su richiesta dell'utente, aggiunto anche il campo "Netfun token" (`TextInput`) sulla stessa pagina: permette sia di correggere `NETFUN_TOKEN` sia — soprattutto — di **verificarne il valore attuale** in produzione senza SSH, dato che il form si pre-compila col valore corrente del `.env` all'apertura.
+- Dettagli: [concepts/sms-channel-driver-selection.md](concepts/sms-channel-driver-selection.md#cambiare-sms_driver-in-produzione-senza-sshftp), meccanismo generale in [Xot — env-widget-no-ssh-env-editor](../../../Xot/docs/wiki/concepts/env-widget-no-ssh-env-editor.md).
+- PHPStan pulito. Non ancora usato in produzione: manca il deploy e la selezione/salvataggio effettivi da parte dell'utente, poi eventualmente `config:cache` via `ArtisanCommandsManager` (Xot) se la config è cache-ata.

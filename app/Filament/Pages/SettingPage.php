@@ -18,7 +18,9 @@ class SettingPage extends XotBasePage
         $only = [
             'debugbar_enabled',
             // 'google_maps_api_key',
-            'telegram_bot_token'];
+            'telegram_bot_token',
+            'sms_driver',
+            'netfun_token'];
 
         return [
             EnvWidget::make(['only' => $only])];
