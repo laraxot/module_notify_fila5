@@ -175,3 +175,8 @@ reports
 .vscode/
 reports/
 graphify-out/
+<<<<<<< .merge_file_KzVIV2
+=======
+docs/_archive
+docs/archived
+>>>>>>> .merge_file_EmyHuz

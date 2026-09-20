@@ -55,6 +55,14 @@ class SpatieEmail extends TemplateMailable
                 'slug' => $this->slug],
             [
                 'subject' => 'Benvenuto, {{ first_name }}',
+                // Story quaeris-send-invite-migrate-to-record-notification.md, AC9
+                // (vincolo noto dal 2026-09-08, riprodotto dal vivo il 2026-09-15):
+                // senza questo campo il template creato qui e' inservibile al primo
+                // invio reale — getHtmlLayout() fa Assert::string() su un valore che
+                // qui restava NULL, e lancia. 'base.html' e' lo stesso default usato
+                // da MigrateNotifyThemesToMailTemplateCommand ed e' il valore che
+                // hanno gia' 39 template su 42 in produzione.
+                'html_layout_path' => 'base.html',
                 'html_template' => '<p>Gentile {{ first_name }} {{ last_name }},</p><p>La tua registrazione  è in attesa di approvazione. Ti contatteremo presto.</p>['.
                         $this->slug.
                         ']',
@@ -264,5 +272,28 @@ class SpatieEmail extends TemplateMailable
         $mustache = app(Mustache_Engine::class);
 
         return $mustache->render($smsTemplateString, $this->data);
+    }
+
+    /**
+     * Mittente dell'SMS per questo template.
+     *
+     * Story quaeris-send-invite-migrate-to-record-notification.md, Difetto 9:
+     * prima `RecordNotification::toSms()` scriveva il letterale 'Xot'. Catena:
+     * `MailTemplate.sms_from` (per-survey, es. "VIVASERVIZI") → `config('sms.from')`
+     * (globale) → `null` (il gateway usa il default del suo account).
+     */
+    public function buildSmsFrom(): ?string
+    {
+        /** @var MailTemplate $mailTemplate */
+        $mailTemplate = $this->getMailTemplate();
+
+        $smsFrom = $mailTemplate->sms_from;
+        if (\is_string($smsFrom) && $smsFrom !== '') {
+            return $smsFrom;
+        }
+
+        $configFrom = config('sms.from');
+
+        return \is_string($configFrom) && $configFrom !== '' ? $configFrom : null;
     }
 }
