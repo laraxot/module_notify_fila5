@@ -66,3 +66,10 @@ module: "Notify"
 - Su richiesta dell'utente, aggiunto anche il campo "Netfun token" (`TextInput`) sulla stessa pagina: permette sia di correggere `NETFUN_TOKEN` sia — soprattutto — di **verificarne il valore attuale** in produzione senza SSH, dato che il form si pre-compila col valore corrente del `.env` all'apertura.
 - Dettagli: [concepts/sms-channel-driver-selection.md](concepts/sms-channel-driver-selection.md#cambiare-sms_driver-in-produzione-senza-sshftp), meccanismo generale in [Xot — env-widget-no-ssh-env-editor](../../../Xot/docs/wiki/concepts/env-widget-no-ssh-env-editor.md).
 - PHPStan pulito. Non ancora usato in produzione: manca il deploy e la selezione/salvataggio effettivi da parte dell'utente, poi eventualmente `config:cache` via `ArtisanCommandsManager` (Xot) se la config è cache-ata.
+
+## 2026-09-20 — Campi mail in Impostazioni: `MAIL_*` SMTP + mittente `MAIL_FROM_ADDRESS`/`MAIL_FROM_NAME` (module_quaeris_fila5#46/#47)
+
+- `SettingPage` passa a `EnvWidget` (modulo Xot) i campi `mail_mailer`, `mail_host`, `mail_port`, `mail_encryption`, `mail_username`, `mail_password`, e in un secondo momento `mail_from_address` e `mail_from_name`: la configurazione mail si legge e modifica da admin senza SSH, come già per SMS.
+- Il form ora raggruppa i campi in Section (General/SMS/Mail) e legge label/helper da `Xot/lang/it/env.php`.
+- Attenzione: `MAIL_FROM_NAME="${APP_NAME}"` compare già risolto; la riga non viene riscritta se il campo resta invariato.
+- Dettagli e motivazioni: [Xot — env-widget-no-ssh-env-editor](../../../Xot/docs/wiki/concepts/env-widget-no-ssh-env-editor.md), story [quaeris-envwidget-mail-config-fields](../../../Quaeris/docs/stories/quaeris-envwidget-mail-config-fields.md).

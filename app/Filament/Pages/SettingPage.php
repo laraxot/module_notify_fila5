@@ -27,6 +27,8 @@ class SettingPage extends XotBasePage
             'mail_encryption',
             'mail_username',
             'mail_password',
+            'mail_from_address',
+            'mail_from_name',
         ];
 
         return [
