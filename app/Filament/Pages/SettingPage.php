@@ -20,7 +20,14 @@ class SettingPage extends XotBasePage
             // 'google_maps_api_key',
             'telegram_bot_token',
             'sms_driver',
-            'netfun_token'];
+            'netfun_token',
+            'mail_mailer',
+            'mail_host',
+            'mail_port',
+            'mail_encryption',
+            'mail_username',
+            'mail_password',
+        ];
 
         return [
             EnvWidget::make(['only' => $only])];
