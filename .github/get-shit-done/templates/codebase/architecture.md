@@ -1,13 +1,6 @@
 # Architecture Template
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Template for `.planning/codebase/ARCHITECTURE.md` - captures conceptual code organization.
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-Template for `.planning/codebase/ARCHITECTURE.md` - captures conceptual code organization.
->>>>>>> a988596b (first)
 Template for `.planning/codebase/architecture.md` - captures conceptual code organization.
 
 **Purpose:** Document how the code is organized at a conceptual level. Complements STRUCTURE.md (which shows physical file locations).
@@ -230,14 +223,7 @@ Template for `.planning/codebase/architecture.md` - captures conceptual code org
 </good_examples>
 
 <guidelines>
-<<<<<<< HEAD
-<<<<<<< HEAD
 **What belongs in ARCHITECTURE.md:**
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-**What belongs in ARCHITECTURE.md:**
->>>>>>> a988596b (first)
 **What belongs in architecture.md:**
 - Overall architectural pattern (monolith, microservices, layered, etc.)
 - Conceptual layers and their relationships

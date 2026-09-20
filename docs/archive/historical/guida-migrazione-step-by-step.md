@@ -19,7 +19,7 @@ updated: 2026-08-24
 ## Pre-requisiti
 - [x] Completata migrazione modulo User (autenticazione MFA)
 - [x] Completata migrazione modulo Xot (XotBaseResource)
-- [x] Laravel 13+ installato
+- [x] Laravel 12+ installato
 - [x] Filament 4 beta installato
 - [x] Testing environment isolato
 

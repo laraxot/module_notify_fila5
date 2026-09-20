@@ -278,14 +278,7 @@ Template for `.planning/codebase/CONVENTIONS.md` - captures coding style and pat
 - Function and module design patterns
 
 **What does NOT belong here:**
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Architecture decisions (that's ARCHITECTURE.md)
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-- Architecture decisions (that's ARCHITECTURE.md)
->>>>>>> a988596b (first)
 - Architecture decisions (that's architecture.md)
 - Technology choices (that's STACK.md)
 - Test patterns (that's TESTING.md)

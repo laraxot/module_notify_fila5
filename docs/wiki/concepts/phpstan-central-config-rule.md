@@ -2,14 +2,7 @@
 title: PHPStan Central Config Rule
 type: concept
 tags: [phpstan, quality, workflow, governance]
-<<<<<<< HEAD
-<<<<<<< HEAD
 sources: [AGENTS.md]
-=======
->>>>>>> 3096f6ae (chore(gitattributes): sync dal prototipo canonico, no git-lfs [graft: broken parent 2c641c73 missing upstream, treated as root - local-only replace, not pushed])
-=======
-sources: [AGENTS.md]
->>>>>>> a988596b (first)
 sources: [agents.md]
 created: 2026-04-16
 updated: 2026-04-16

@@ -11,7 +11,7 @@
 
 ## Executive Summary
 
-FixCity is a **production-ready MVP** urban issue management platform built on Laravel 13 + Filament 5 with modular architecture. The Italian site demonstrates solid technical foundations but has significant improvement opportunities across **localization completeness**, **frontend UX**, **performance optimization**, and **testing coverage**.
+FixCity is a **production-ready MVP** urban issue management platform built on Laravel 12 + Filament 5 with modular architecture. The Italian site demonstrates solid technical foundations but has significant improvement opportunities across **localization completeness**, **frontend UX**, **performance optimization**, and **testing coverage**.
 
 ### Current State Snapshot
 
